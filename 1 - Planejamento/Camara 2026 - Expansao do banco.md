@@ -84,4 +84,4 @@ Seleção dos 40 itens confirmada. Próximo lote: comunicação pública, govern
 
 ## Lote 015 em elaboração
 
-Vinte itens sobre comunicação pública, governamental e político-partidária, com referência ao artigo 71.
+Vinte e oito itens sobre comunicação pública, governamental e político-partidária, com referência ao artigo 71.

@@ -22852,6 +22852,222 @@
       "statement": "Um boletim de secretaria que explica o cronograma de execução de um programa a conselhos municipais deixa de ser comunicação governamental porque se dirige a entidades intermediárias.",
       "correctAnswer": "E",
       "explanation": "A função do boletim continua ligada à gestão e à execução da política. A natureza do público não muda essa finalidade."
+    },
+    {
+      "id": "cam-cs-aviso-em-imagem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "aviso-em-imagem",
+      "mechanism": "aviso-em-imagem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Autor: Jorge Duarte e a perspectiva do cidadão"
+      },
+      "statement": "Um portal oferece o cronograma de uma consulta em imagem sem equivalente textual. A disponibilização pública da imagem resolve a dificuldade de acesso de quem usa leitor de tela.",
+      "correctAnswer": "E",
+      "explanation": "Acesso pressupõe condições de uso. A imagem publicada pode continuar inacessível a quem precisa de conteúdo textual compatível com leitor de tela."
+    },
+    {
+      "id": "cam-cs-auditoria-de-criterios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "auditoria-de-criterios",
+      "mechanism": "auditoria-de-criterios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Autor: Jorge Duarte e a perspectiva do cidadão"
+      },
+      "statement": "Ao divulgar a lista de projetos selecionados, um órgão publica também os critérios aplicados e a justificativa das decisões. Esse material contribui para a transparência mesmo que a seleção já esteja encerrada.",
+      "correctAnswer": "C",
+      "explanation": "As justificativas tornam a decisão examinável. A fiscalização posterior tem finalidade própria e independe da reabertura da seleção."
+    },
+    {
+      "id": "cam-cs-mediacao-sem-sintese",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "mediacao-sem-sintese",
+      "mechanism": "mediacao-sem-sintese",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Autor: Jorge Duarte e a perspectiva do cidadão"
+      },
+      "statement": "Uma sessão pública permite perguntas e respostas em tempo real, mas a equipe não reúne nem analisa os interesses manifestados pelos segmentos presentes. O caso demonstra interação, enquanto faltam elementos para comprovar ouvidoria social.",
+      "correctAnswer": "C",
+      "explanation": "O diálogo estabelece fluxo de mão dupla. A ouvidoria social requer conhecimento sistemático dos interesses e motivações dos públicos."
+    },
+    {
+      "id": "cam-cs-pesquisa-com-escuta-sistematica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "pesquisa-com-escuta-sistematica",
+      "mechanism": "pesquisa-com-escuta-sistematica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Autor: Jorge Duarte e a perspectiva do cidadão"
+      },
+      "statement": "Uma equipe compara entrevistas com moradores de bairros atendidos e desatendidos antes de escolher os canais de orientação. Para caracterizar a ouvidoria social, as entrevistas precisam constituir um procedimento formal de recebimento de reclamações individuais.",
+      "correctAnswer": "E",
+      "explanation": "O eixo envolve conhecer sistematicamente opiniões e necessidades. Entrevistas podem cumprir essa função sem compor um procedimento administrativo de reclamações."
+    },
+    {
+      "id": "cam-cs-disputa-apoio-sem-filiacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "disputa-apoio-sem-filiacao",
+      "mechanism": "disputa-apoio-sem-filiacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "statement": "Um movimento sem vínculo partidário mobiliza apoio para alterar a pauta da Câmara. A ausência de filiação impede classificar essa mobilização como comunicação política.",
+      "correctAnswer": "E",
+      "explanation": "A tentativa de influenciar a agenda pública pode integrar a comunicação política. A vinculação a partidos é pertinente ao recorte político-partidário."
+    },
+    {
+      "id": "cam-cs-missao-e-orientacao-sobre-servicos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "missao-e-orientacao-sobre-servicos",
+      "mechanism": "missao-e-orientacao-sobre-servicos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "statement": "Uma entidade informa sua missão e divulga, no mesmo material, como os moradores podem acompanhar o destino de recursos de um projeto coletivo. Há elementos para analisar a peça tanto pela comunicação institucional quanto pela comunicação pública.",
+      "correctAnswer": "C",
+      "explanation": "A apresentação da entidade atende à dimensão institucional. A possibilidade de acompanhar recursos do projeto atende a uma finalidade cidadã."
+    },
+    {
+      "id": "cam-cs-dado-corrigido-sem-registro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "dado-corrigido-sem-registro",
+      "mechanism": "dado-corrigido-sem-registro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      },
+      "statement": "Ao perceber que uma notícia atribuiu incorretamente a autoria de uma emenda, corrigir o nome e informar a retificação permite ao leitor compreender a mudança na versão publicada.",
+      "correctAnswer": "C",
+      "explanation": "A correção recompõe a precisão da atribuição. Informar a alteração dá visibilidade ao que foi retificado."
+    },
+    {
+      "id": "cam-cs-texto-da-relatoria-e-texto-da-comissao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "texto-da-relatoria-e-texto-da-comissao",
+      "mechanism": "texto-da-relatoria-e-texto-da-comissao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      },
+      "statement": "A entrega do parecer do relator autoriza apresentar sua recomendação como posição da comissão antes da deliberação colegiada, desde que o parecer esteja disponível para consulta.",
+      "correctAnswer": "E",
+      "explanation": "A entrega do parecer documenta a recomendação da relatoria. A posição da comissão depende da deliberação do colegiado."
     }
   ]
 }

@@ -135,6 +135,26 @@ Fontes: [ficha normativa da Ordem de Serviço nº 1/2026](https://www2.camara.le
 
 **Gabarito: Errado.** Identificação do uso e validação factual ou jurídica são requisitos de natureza diferente. Uma sinalização não corrige erro, violação de privacidade ou ausência de supervisão.
 
+## Oficina normativa: IA acessória, texto gerado e audiovisual parcial (11/11/2026)
+
+**Situação hipotética:** uma equipe usa IA para (A) transcrever uma audiência, (B) gerar uma notícia a partir da transcrição e (C) criar a imagem de capa de um vídeo de divulgação. O [art. 3º da Ordem de Serviço Direx nº 1/2026](https://www2.camara.leg.br/legin/int/ordser/2026/ordemdeservico-1-11-setembro-2026-799917-publicacaooriginal-181316-direx.html) trata **transcrição, revisão e ajustes de áudio ou imagem meramente acessórios** mediante informação geral no Manual e nos Termos de Uso do Portal. Isso **não dispensa apuração, supervisão e proteção de dados**, exigidas também pelo art. 2º.
+
+**Primeira versão e intervenção humana:** se IA gera a notícia principal e há **apenas supervisão e pequenas correções**, o fluxo do Anexo I indica **“Gerado por IA”**; se a equipe apura, reestrutura e edita substantivamente, **“Feito com suporte de IA”**. A redação do art. 4º diferencia geração integral ou geração com intervenção humana, e o **gestor do veículo** decide a identificação com base no fluxo descrito pelo produtor (§ 2º). Editar pontuação ou aprovar sem revisão substancial não deve ser presumido como intervenção editorial efetiva.
+
+**Audiovisual parcial exige identificação específica:** se uma **imagem de capa de vídeo no YouTube** foi gerada por IA, o art. 4º, III, prevê a indicação **“Imagem de capa gerada por IA”** na **descrição do vídeo**. Se apenas um trecho do vídeo foi gerado, o artigo prevê a marca d'água **“IA” no trecho específico**, conforme a hipótese. Para obras com suporte de IA, a ordem também oferece formas de crédito em áudio e vídeo, por exemplo **“Este episódio foi feito com suporte de Inteligência Artificial”** em áudio e **“Animação feita com suporte de IA”** em crédito de vídeo. É incorreto generalizar a marca “Gerado por IA” para toda a produção quando o componente sintético se restringe a uma parte.
+
+**Mecanismo de controle antes da publicação:** verificar se os dados usados na ferramenta podem ser processados de acordo com as regras institucionais; conferir atribuição de falas e trechos com gravação oficial; separar material produzido pela IA de conteúdo apurado; avaliar edição humana efetiva; registrar informação ao gestor do veículo para decidir a sinalização; aplicar o formato de crédito adequado a texto, imagem, áudio ou vídeo; revisar exatidão e contexto independentemente do aviso.
+
+**Item 4, inédito.** Segundo a Ordem de Serviço Direx nº 1/2026, a geração por IA apenas de uma imagem de capa para vídeo do YouTube deve receber, conforme o caso previsto no art. 4º, III, indicação específica na descrição, sem exigir automaticamente que o vídeo inteiro seja identificado como integralmente gerado por IA.
+
+**Gabarito: Certo.** A norma distingue **imagem de capa gerada** de **conteúdo integralmente gerado** e determina identificação apropriada ao componente.
+
+**Item 5, inédito.** O emprego meramente acessório de IA em transcrição está dispensado de qualquer supervisão humana e da observância das diretrizes de privacidade, uma vez que o art. 3º prevê informação geral sobre esse uso.
+
+**Gabarito: Errado.** O art. 3º trata do **modo de informar**, enquanto os arts. 1º e 2º e o Manual preservam supervisão, precisão e gerenciamento de riscos.
+
+**Fontes oficiais:** [Ordem de Serviço Direx nº 1/2026, arts. 2º–4º](https://www2.camara.leg.br/legin/int/ordser/2026/ordemdeservico-1-11-setembro-2026-799917-publicacaooriginal-181316-direx.html), [Manual, Uso da Inteligência Artificial](https://infograficos.camara.leg.br/manual-de-comunicacao/uso-da-inteligencia-artificial/). Exercícios 4–5 são **inéditos autorais**, não questões históricas Cebraspe; a aplicação a vídeo concreto exige analisar sua composição e o ato vigente.
+
 ## Relações e heurísticas
 
 A nota [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|CAM-CO-027]] contextualiza o Manual como documento editorial; [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|CAM-CO-026]] trata de política institucional; [[3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens|CAM-CO-020]] aborda workflow e aprovação. [[3 - Materias/Evidencias Dados e IA/05 - ia responsavel e validacao de decisoes publicas|IA responsável]] aprofunda governança geral, enquanto esta nota se concentra em **processos e produtos de comunicação**.

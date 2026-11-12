@@ -645,3 +645,29 @@ Neste lote, os conceitos já possuíam artigos canônicos (13–16), de modo que
 **Conferência de integridade do ciclo:** artigos 09, 13, 14, 15, 16 e 18 foram recuperados novamente do GitHub; todos mantêm `articleId`, `articleAliases`, cercas de código balanceadas e 4/4/4/4/5/4 itens C/E adicionais respectivamente. Esses **25 novos itens** são originais de treino e não foram apresentados como questões reais. Preservaram-se as questões preexistentes e nenhum artigo de outra disciplina foi alterado.
 
 **Publicação:** consultar o workflow Pages mais recente: a concorrência de outros agentes vinha produzindo runs cancelados ou pendentes. Não declarar publicação do último commit até o workflow completar com sucesso. Pendem validação visual do site, verificações técnicas de `main` e revisão final de todos os gabaritos anteriores.
+
+
+## 28. Validação conceitual dirigida dos exercícios adicionais, 11/11/2026
+
+**Escopo real da segunda leitura:** conferidos diretamente no GitHub o texto-base, os itens, os gabaritos e os comentários dos **45 exercícios inéditos adicionados nos lotes de implementação anteriores**, nos artigos 07–18. Esta é uma revisão de consistência textual e inferencial **dos exercícios adicionais**, não reauditoria integral de todas as questões originalmente existentes, nem prova de cobertura de todo o edital.
+
+| Artigo | Exercícios adicionais revisados | Resultado pedagógico | Estado |
+| --- | ---: | --- | --- |
+| 07 | 5 | Sem contradição detectada entre texto, comando, gabarito e justificativa | validado no recorte |
+| 08 | 3 | Sem contradição detectada; distinção entre pressuposição e prova foi observada | validado no recorte |
+| 09 | 4 | Sem contradição detectada; dois valores de `which` e referência de `this` contextualizados | validado no recorte |
+| 10 | 3 | Sem contradição detectada na leitura dos conectores | validado no recorte |
+| 11 | 3 | Sem contradição detectada na interpretação de vocabulário em contexto | validado no recorte |
+| 12 | 3 | Sem contradição detectada entre proibição, ausência de obrigação e inversão | validado no recorte |
+| 13 | 4 | Sem contradição detectada nas relações temporais e de relato | validado no recorte |
+| 14 | 4 | Sem contradição detectada nas transformações passivas e perda de informação | validado no recorte |
+| 15 | 4 | Sem contradição detectada; `must have` descrito como inferência, não prova independente | validado no recorte |
+| 16 | 5 | Sem contradição detectada quanto a denominador, escopo e causalidade | validado no recorte |
+| 17 | 3 | Sem contradição detectada nos três critérios de reescrita | validado no recorte |
+| 18 | 4 | **Uma inconsistência de fundamentação identificada e corrigida** no exercício do laboratório `4.1`, item A, do lote anterior; texto A refere 240 *people*, enquanto B refere 240 *submissions* e C não traz contagem. Gabarito E mantido após correção. Os quatro itens do exercício `4.2` também foram confrontados com o texto, sem defeito material detectado. | corrigido |
+
+**Correção comprovada:** `3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md` | confusão entre `people` e `submissions` no comentário do item A do laboratório `4.1` | justificativa reescrita respeitando unidades de contagem | commit `4c74e74a67a79237239a8365fd6e7ac1c1cffc26` | arquivo relido após commit, novo texto presente | **corrigido**.
+
+**Fontes externas contrastadas:** *Cambridge Grammar Today*, verbos modais `must/must have` versus `must not/don't have to`, relativas `which` nominais/proposicionais, inversão com advérbios negativos e valor de `should have`. O apoio dessas referências limita-se às regras gramaticais respectivas; não valida dados de pesquisas e instituições, que são ficcionais nos exercícios.
+
+**Pendências separadas da revisão presente:** a revisão de 45 itens adicionais **não certifica os exercícios antigos**, todos os capítulos teóricos nem a comparação integral ao edital. Há exercícios anteriores classificados na Fase 1 que foram corrigidos, mas o conjunto precisa de nova leitura cruzada; também faltam checagem visual, compilação e workflow Pages com sucesso após o último commit. Portanto o status dos **artigos como um todo permanece `corrigido`**, com validação **apenas do recorte de exercícios novos**. 

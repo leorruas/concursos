@@ -37,7 +37,7 @@ Uma estrutura didática recorrente em parágrafos argumentativos coloca a ideia 
 
 ```mermaid
 flowchart TD
-    A["Anatomia do Parágrafo em Inglês (Padrão Acadêmico/Jornalístico)"] --> B["1. Topic Sentence (Tese do Parágrafo)"]
+    A["Modelo didático de parágrafo argumentativo em inglês"] --> B["1. Topic Sentence (Tese do Parágrafo)"]
     A --> C["2. Supporting Sentences (Sustentação Argumentativa)"]
     A --> D["3. Concluding / Transition Sentence (Fechamento)"]
     
@@ -65,7 +65,7 @@ A *topic sentence*, quando identificável, formula o tópico e sua orientação 
 $$\text{Topic Sentence} = \underbrace{\text{Topic (Assunto geral do parágrafo)}}_{\text{Ex.: Automated synthesis}} + \underbrace{\text{Controlling Idea (Ideia controladora / julgamento do autor)}}_{\text{Ex.: inherently privileges statistical frequency over nuance}}$$
 
 * **Posições típicas no texto:**
-  1. **Logo na primeira frase (padrão mais comum, 80% dos casos):** Apresenta imediatamente a proposição que será defendida.
+  1. **Logo na primeira frase (possibilidade comum em textos expositivos):** Apresenta imediatamente a proposição que será defendida.
   2. **Na segunda frase (após abertura concessiva):** O parágrafo inicia com uma ressalva ou visão de senso comum (*"Many analysts believe X..."*) e apresenta a tese real na segunda frase introduzida por conectivo de contraste (*"However, Y is actually the case"*).
   3. **Na última frase (padrão indutivo):** O parágrafo empilha evidências e fatos para concluir com a tese nas linhas finais (*"Therefore, ..."*).
 
@@ -77,8 +77,8 @@ Em provas de concurso de alta complexidade com tempo escasso, **ler palavra por 
 
 | Técnica de Leitura Instrumental | Definição Operacional | Como Executar em Prova | Quando Utilizar no Cebraspe |
 | :--- | :--- | :--- | :--- |
-| **SKIMMING**<br>*(Leitura Panorâmica / Flutuante)* | Leitura rápida e visualmente seletiva voltada para **captar a ideia global, a macroestrutura e o tom do autor**, sem se prender a minúcias vocabulares. | 1. Leia o **título** e o **subtítulo** (*headline/subhead*);<br>2. Leia integralmente o **primeiro parágrafo** (introdução);<br>3. Leia a **primeira frase (*topic sentence*)** de cada parágrafo intermediário;<br>4. Leia integralmente o **último parágrafo** (conclusão). | **Obrigatório antes de responder a qualquer item.** Permite responder a questões sobre *main idea*, *thesis*, *overall purpose* e tom geral do texto. |
-| **SCANNING**<br>*(Varredura Seletiva / Busca Localizada)* | Busca visual pontual e direcionada para **localizar uma informação específica** (dados numéricos, nomes de pessoas/instituições, termos entre aspas, datas ou palavras-chave do comando da questão). | 1. Identifique no item a **palavra-âncora** (*anchor word*);<br>2. Percorra o texto em zigue-zague ou verticalmente **sem ler o significado**, procurando apenas a forma gráfica da âncora;<br>3. Ao encontrar, leia atentamente a oração inteira e as orações imediatamente anterior e posterior. | **Obrigatório para itens factuais**, que citam linhas específicas (*"According to line X..."*), vocábulos específicos ou detalhes técnicos. |
+| **SKIMMING**<br>*(Leitura Panorâmica / Flutuante)* | Leitura rápida e visualmente seletiva voltada para **captar a ideia global, a macroestrutura e o tom do autor**, sem se prender a minúcias vocabulares. | 1. Leia o **título** e o **subtítulo** (*headline/subhead*);<br>2. Leia integralmente o **primeiro parágrafo** (introdução);<br>3. Leia a **primeira frase (*topic sentence*)** de cada parágrafo intermediário;<br>4. Leia integralmente o **último parágrafo** (conclusão). | **Útil para elaborar uma hipótese global de leitura**, que deve ser testada contra o texto integral antes da resposta. Ajuda nos itens sobre *main idea*, *thesis*, *overall purpose* e tom. |
+| **SCANNING**<br>*(Varredura Seletiva / Busca Localizada)* | Busca visual pontual e direcionada para **localizar uma informação específica** (dados numéricos, nomes de pessoas/instituições, termos entre aspas, datas ou palavras-chave do comando da questão). | 1. Identifique no item a **palavra-âncora** (*anchor word*);<br>2. Percorra o texto em zigue-zague ou verticalmente **sem ler o significado**, procurando apenas a forma gráfica da âncora;<br>3. Ao encontrar, leia atentamente a oração inteira e as orações imediatamente anterior e posterior. | **Útil em itens factuais** que indicam linhas, vocábulos ou detalhes; a ocorrência encontrada exige leitura contextual e verificação com o restante do texto. |
 
 ---
 
@@ -88,7 +88,7 @@ O **propósito comunicativo** reflete a função sociocomunicativa primordial do
 
 ```mermaid
 flowchart TD
-    A["Propósitos Comunicativos Mais Cobrados no Cebraspe"] --> B["Informativo / Expositivo"]
+    A["Funções comunicativas possíveis: repertório didático"] --> B["Informativo / Expositivo"]
     A --> C["Argumentativo / Persuasivo"]
     A --> D["Crítico / De Advertência"]
     A --> E["Comparativo / Avaliativo"]

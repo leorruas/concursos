@@ -7,6 +7,7 @@ const assert = require('node:assert/strict');
   const output = path.resolve(process.cwd(), 'glossary-visual-evidence');
   fs.mkdirSync(output, { recursive: true });
   const browser = await chromium.launch({ headless: true });
+  try {
   const errors = [];
   for (const width of [1440, 390]) {
     const context = await browser.newContext({
@@ -57,5 +58,8 @@ const assert = require('node:assert/strict');
     await context.close();
   }
   assert.deepEqual(errors, [], 'Erros JavaScript no navegador');
-  await browser.close();
+  } finally {
+    // Encerrar Chromium mesmo quando uma verificacao falhar.
+    await browser.close();
+  }
 })().catch(e => { console.error(e); process.exitCode = 1; });

@@ -15,7 +15,7 @@ unidadeId: "CAM-ING-002"
 
 ## 1. Situação-problema: a fronteira sutil entre dedução legítima, probabilidade e extrapolação indevida
 
-Em provas de Língua Inglesa elaboradas pelo Cebraspe para carreiras legislativas, a maior parte dos erros dos candidatos decorre de uma **falha de calibração inferencial**: tratar hipóteses plausíveis ou conhecimentos prévios de mundo como se fossem inferências textualmente autorizadas.
+Uma dificuldade relevante em leitura de textos ingleses é a **calibração inferencial**: separar o que foi expresso, o que pode ser inferido e o que depende de hipótese ou conhecimento prévio. Não há levantamento de respostas de candidatos aqui que permita afirmar que essa seja a principal causa de erros nas provas da Cebraspe.
 
 Considere o seguinte trecho sobre processos legislativos e orçamentários:
 
@@ -117,7 +117,7 @@ flowchart LR
 
 ## 5. Relações de causalidade versus mera correlação no discurso analítico
 
-Uma das principais falácias conceituais cobradas pelo Cebraspe em compreensão de textos é a confusão entre **coocorrência temporal (correlação)** e **relação de causa e efeito (causalidade)**:
+Uma confusão que pode aparecer em itens de compreensão é tomar **coocorrência temporal ou associação (correlação)** como **relação de causa e efeito (causalidade)**. A frequência desse mecanismo em provas não foi estimada:
 
 * **Conectores e verbos de CAUSALIDADE ESTRITA:**
   * *causes, triggers, drives, leads to, results in, accounts for, is attributable to, stems from, because of, due to, owing to, as a result of*.

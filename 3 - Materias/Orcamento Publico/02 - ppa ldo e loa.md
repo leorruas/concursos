@@ -161,7 +161,9 @@ A Constituição, art. 165, § 8º, determina que a LOA não conterá dispositiv
 
 A ideia “a LOA não pode conter absolutamente nenhuma outra autorização” falha porque ignora as exceções constitucionais expressas. Em contrapartida, essas exceções **não** autorizam inserir qualquer matéria administrativa ou tributária na LOA.
 
-## Manual Técnico de Orçamento (MTO) 2027: linha de base e orçamento de médio prazo
+## MTO 2027: linha de base e orçamento de médio prazo
+
+O Manual Técnico de Orçamento (MTO) 2027 explica a projeção das despesas atuais e o planejamento orçamentário para os anos seguintes.
 
 No [MTO 2027, 3ª versão, capítulo 7, pp. 169–177](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027), há três estágios do marco de gasto: **Marco Fiscal de Médio Prazo (MFMP)**, **Marco Orçamentário de Médio Prazo (MOMP)** e **Marco de Desempenho de Médio Prazo (MDMP)**. São instrumentos de planejamento, não substitutos das leis **PPA, LDO e LOA**.
 

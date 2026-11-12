@@ -200,7 +200,7 @@ O mecanismo de distração predominante é **transposição conceitual**: uma ca
 - **Item 2.** A observação de aumento nas visitas de uma página institucional após uma campanha prova, isoladamente, que a campanha causou esse crescimento. **Errado.** A variação temporal também pode refletir outros fatores; é necessário desenho de avaliação compatível para sustentar causalidade.
 - **Item 3.** Entrevistas em profundidade podem revelar interpretações e experiências relevantes mesmo quando seus participantes não constituem amostra estatisticamente representativa da população. **Certo.** Profundidade analítica e representatividade estatística são atributos distintos.
 
-**Conexões de revisão:** [[3 - Materias/Comunicacao/102 - pesquisa qualitativa e quantitativa em comunicacao|Métodos de pesquisa]]; [[3 - Materias/Comunicacao/103 - pesquisa de mercado e opiniao publicos tecnicas e limites|Opinião e públicos]]. **Classificação:** itens inéditos, não um levantamento de questões Cebraspe. A atribuição autoral da classificação de Mattar requer checagem independente.
+**Conexões de revisão:** [[3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos|Métodos de pesquisa]]; [[3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites|Opinião e públicos]]. **Classificação:** itens inéditos, não um levantamento de questões Cebraspe. A atribuição autoral da classificação de Mattar requer checagem independente.
 
 ## Cotejo metodológico: desenho amostral e inferência (11/11/2026)
 

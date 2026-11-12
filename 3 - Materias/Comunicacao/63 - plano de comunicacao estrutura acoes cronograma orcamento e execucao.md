@@ -5,7 +5,7 @@ title: "Plano de comunicação: estrutura, ações, cronograma, orçamento e exe
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Plano de comunicação: estrutura, ações, cronograma, orçamento e execução
@@ -251,6 +251,26 @@ Um percurso possível, **não um modelo autoral de fases obrigatórias**, inclui
 
 **Contraexemplo:** um órgão possui tabela de publicação detalhada, com horários, formatos e responsáveis, e a chama de “planejamento estratégico completo”. Ela pode ser excelente calendário editorial, mas, se não registra problema, públicos, objetivo e dependências, não comprova a existência de plano adequado.
 
+## Oficina aplicada: do diagnóstico a entregas, dependências e medição
+
+**Demanda hipotética:** cidadãos não conseguem localizar a pauta de uma comissão no portal. O pedido inicial da gestão é “publicar dez cards”. **Diagnóstico:** antes de fixar a solução, distinguir falta de conhecimento da existência da pauta, problemas de busca, linguagem inadequada e possíveis falhas de atualização da fonte. Uma campanha de cards pode ampliar divulgação, mas não corrigirá sozinha uma página desatualizada. O objetivo precisa especificar **público, mudança pretendida, medida e prazo**, enquanto o número de cards é um produto planejado.
+
+**Plano de execução didático:** (A) verificar e corrigir a fonte oficial, **2 dias**; (B) redigir e testar instruções, **3 dias**, depois de A; (C) adaptar artes e formatos acessíveis, **2 dias**, depois de B; (D) preparar roteiro de atendimento da equipe, **2 dias**, depois de A, em paralelo a B e C; (E) validar, publicar e conferir canais, **1 dia**, depois de C e D. Admitindo início imediato, recursos suficientes, dias de trabalho sequenciais e durações fixas, o caminho **A → B → C → E** totaliza **8 dias**; o percurso **A → D → E** totaliza **5 dias**. O segundo percurso apresenta **3 dias de folga**, sob essas hipóteses. Duração é medida diferente de **esforço** e da contagem de peças.
+
+**Mudança e riscos:** se o responsável solicitar uma live adicional antes da publicação, verificar impacto sobre objetivo, custo, dependências, acessibilidade e aprovação; a solicitação não altera automaticamente o escopo aprovado. Se a atualização do portal depender de outra área, registrar responsável e prazo sem atribuir à equipe editorial competência para alterar o sistema. **Avaliação:** entregas verificam se a pauta oficial e os materiais foram publicados; teste com cidadãos examina se localizaram e compreenderam a informação; o efeito real da comunicação não se deduz apenas de cronograma cumprido ou impressões.
+
+**Dois itens novos C/E com mecanismo:**
+
+**Item 4, inédito.** Se duas atividades de um projeto podem ocorrer em paralelo, somar suas durações como se fossem obrigatoriamente sucessivas pode superestimar o prazo mínimo do caminho crítico.
+
+**Gabarito: Certo.** A soma das durações é feita ao longo de cada caminho de dependências; o tempo mínimo do projeto, sob os pressupostos do modelo, é determinado pelo percurso mais longo. No exemplo, B e D não precisam ser executados em sequência.
+
+**Item 5, inédito.** No exemplo de planejamento acima, a entrega de dez peças, dentro do prazo e orçamento, é suficiente para demonstrar que os cidadãos aprenderam a localizar a pauta e que a estratégia atingiu seu objetivo de comunicação.
+
+**Gabarito: Errado.** Quantidade de entregas e cumprimento de prazo são evidências de execução; compreensão e realização da tarefa exigem medidas nos públicos. A distinção segue os níveis de [outputs, out-takes e outcomes no modelo AMEC](https://amecorg.com/amecframework/home/supporting-material/taxonomy/).
+
+**Fontes e limites:** [PMI, desenvolvimento de EAP orientada a entregas](https://www.pmi.org/learning/library/developing-elaborating-work-breakdown-structures-7241); [PMI, definição e controle de mudanças de escopo](https://www.pmi.org/learning/library/scope-control-projects-you-6972); [AMEC, taxonomia de avaliação](https://amecorg.com/amecframework/home/supporting-material/taxonomy/). O caso, as durações e a folga são **construídos para ensino**, não representam projeto real da Câmara. A duração calculada não inclui incerteza, fins de semana, gargalos ou calendários de aprovação.
+
 ## Como a Cebraspe pode cobrar: três itens inéditos Certo/Errado
 
 **Item 1, inédito:** “A Estrutura Analítica do Projeto (EAP), ou WBS, organiza o escopo do projeto em componentes orientados a entregas e pacotes de trabalho; as durações e as precedências necessárias à elaboração do cronograma demandam análise adicional.”
@@ -269,7 +289,7 @@ Um percurso possível, **não um modelo autoral de fases obrigatórias**, inclui
 
 Em uma proposta de plano de comunicação para a Câmara, começar por problema e objetivo, indicar públicos e barreiras, formular mensagem apoiada em fonte institucional válida, selecionar ações por pertinência, decompor entregas e atividades, estabelecer responsabilidades e aprovação, organizar dependências no cronograma, dimensionar recursos e registrar riscos, monitoramento e formas de avaliação. Ressaltar que o plano opera sob competências institucionais, e que **transparência e acessibilidade** exigem atenção a públicos que não acompanham canais digitais.
 
-**A distinção central:** diagnóstico e estratégia orientam o **porquê e o caminho**; o plano transforma em **o quê, quem, quando, como e com que recursos**; a execução produz **entregas**; a avaliação examina **resultados e efeitos**. A governança de papéis, controle de mudanças e acompanhamento de projetos será aprofundada em CAM-CO-018.
+**A distinção central:** diagnóstico e estratégia orientam o **porquê e o caminho**; o plano transforma em **o quê, quem, quando, como e com que recursos**; a execução produz **entregas**; a avaliação examina **resultados e efeitos**. A governança de papéis, controle de mudanças e acompanhamento de projetos está detalhada em [[3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle|Gestão de projetos de comunicação]].
 
 ## Heurísticas
 

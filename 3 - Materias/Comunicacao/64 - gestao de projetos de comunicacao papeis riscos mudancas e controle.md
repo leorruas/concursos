@@ -281,6 +281,20 @@ Esses objetos podem compartilhar canais, mas **não têm o mesmo destinatário, 
 
 **Contraexemplo:** a coordenação conclui que a aprovação da peça pelo gestor do projeto lhe permite alterar requisitos legais, contratar serviço adicional e publicar sem validação da área competente. A frase mistura **coordenação gerencial**, **responsabilidade RACI**, **competência institucional** e **autorização de despesa**.
 
+## Como a Cebraspe pode cobrar: três itens inéditos Certo/Errado
+
+**Item 1, inédito:** “Em uma matriz RACI, o participante classificado como Consulted contribui com informações para a atividade, enquanto o Informed recebe informação sobre seu andamento ou resultado; a atribuição do papel Accountable não dispensa a observância das competências formais de aprovação.”
+
+**Gabarito: Certo.** A matriz distingue a consulta da informação e documenta papéis de decisão sem criá-los juridicamente. **Mecanismo:** comparação de categorias vizinhas com limite institucional.
+
+**Item 2, inédito:** “Uma solicitação de inclusão de novas entregas em projeto de comunicação já aprovado altera imediatamente a linha de base do escopo, pois o registro do pedido constitui autorização suficiente para executar a mudança, ainda que se desconheçam seus impactos.”
+
+**Gabarito: Errado.** Registrar a solicitação inicia a análise. É preciso avaliar consequências e obter decisão da autoridade competente antes de alterar compromissos aprovados e referências de controle. **Mecanismo:** inversão entre solicitação e decisão.
+
+**Item 3, inédito:** “A conclusão e o aceite de uma página institucional podem comprovar a entrega prevista no projeto, mas não demonstram isoladamente que seu público compreendeu as orientações ou que a comunicação produziu o impacto social pretendido.”
+
+**Gabarito: Certo.** Aceite técnico/gerencial e efeito nos públicos pertencem a níveis diferentes de observação. **Mecanismo:** distinção entre execução, qualidade e resultados.
+
 ## Caso de implantação: matriz de decisão, riscos e mudança de escopo
 
 **Problema:** a equipe já aprovou a publicação de uma cartilha de audiências públicas. Dois dias antes de publicá-la, alguém solicita incluir um formulário que coletará dados pessoais. A solicitação **não é mera alteração de arte**: envolve requisitos, finalidade e proteção de dados, validação técnica, eventual impacto no prazo e comunicação ao público. Uma matriz RACI descreve **quem prepara, consulta, informa e responde pelo aceite dentro de suas competências**, mas não cria poder administrativo de autorizar um tratamento de dados ou uma contratação.
@@ -308,20 +322,6 @@ Esses objetos podem compartilhar canais, mas **não têm o mesmo destinatário, 
 **Gabarito: Certo.** O critério é a **incerteza do evento versus sua ocorrência**. A resposta pode combinar tratamento de problema já ocorrido e prevenção de novas falhas, com registros e responsáveis distintos.
 
 **Fontes e limites:** [PMI, riscos e problemas](https://www.pmi.org/learning/library/risks-vs-issues-project-failure-2328); [PMI, controle de mudanças de escopo](https://www.pmi.org/learning/library/scope-control-projects-you-6972); [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Política da Câmara]]. A matriz é **hipotética**, não uma atribuição real de competências, e os itens são **inéditos autorais**, sem equivalência com caderno Cebraspe.
-
-## Como a Cebraspe pode cobrar: três itens inéditos Certo/Errado
-
-**Item 1, inédito:** “Em uma matriz RACI, o participante classificado como Consulted contribui com informações para a atividade, enquanto o Informed recebe informação sobre seu andamento ou resultado; a atribuição do papel Accountable não dispensa a observância das competências formais de aprovação.”
-
-**Gabarito: Certo.** A matriz distingue a consulta da informação e documenta papéis de decisão sem criá-los juridicamente. **Mecanismo:** comparação de categorias vizinhas com limite institucional.
-
-**Item 2, inédito:** “Uma solicitação de inclusão de novas entregas em projeto de comunicação já aprovado altera imediatamente a linha de base do escopo, pois o registro do pedido constitui autorização suficiente para executar a mudança, ainda que se desconheçam seus impactos.”
-
-**Gabarito: Errado.** Registrar a solicitação inicia a análise. É preciso avaliar consequências e obter decisão da autoridade competente antes de alterar compromissos aprovados e referências de controle. **Mecanismo:** inversão entre solicitação e decisão.
-
-**Item 3, inédito:** “A conclusão e o aceite de uma página institucional podem comprovar a entrega prevista no projeto, mas não demonstram isoladamente que seu público compreendeu as orientações ou que a comunicação produziu o impacto social pretendido.”
-
-**Gabarito: Certo.** Aceite técnico/gerencial e efeito nos públicos pertencem a níveis diferentes de observação. **Mecanismo:** distinção entre execução, qualidade e resultados.
 
 ## Como responder discursivamente e relações com outros temas
 

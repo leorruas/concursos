@@ -223,6 +223,44 @@ Os textos abaixo são **ficcionais e escritos para treinamento**, não comunicad
 
 ---
 
+## 4.2. Contraste de gêneros: pesquisa, notícia e opinião
+
+Os três trechos a seguir são **criações originais e ficcionais**, não fontes reais nem questões oficiais. Observe o que cada gênero faz com a mesma informação.
+
+**Texto A: nota de pesquisa**
+
+> In a preliminary survey, 45 of the 90 respondents reported reading local news at least once a week. The sample was recruited through an online invitation and should not be treated as representative of the entire city.
+
+**Texto B: notícia**
+
+> A preliminary online survey found that half of its respondents read local news weekly. The researchers cautioned that the results cannot be generalized to the whole city, given the recruitment method.
+
+**Texto C: comentário de opinião**
+
+> The survey is a useful starting point for discussing local information habits. Still, a debate about the city's media needs should not rely exclusively on responses collected through an online invitation.
+
+**Diferença de função:** A apresenta dados, tamanho e limite metodológico; B relata a pesquisa e **atribui** a ressalva aos pesquisadores; C avalia como a informação deveria entrar em um debate público. Nenhum deles prova hábitos da população total. *A useful starting point* expressa valor atribuído pelo comentarista, sem confirmar validade estatística externa.
+
+**Item adicional A (inédito, C/E).** Text B states that 50 percent of the city's entire population reads local news at least once a week.
+
+**Gabarito: Errado.** Metade dos respondentes não equivale à metade dos habitantes; B explicita o limite de generalização.
+
+**Item adicional B (inédito, C/E).** Text C evaluates how the survey should be used in a public debate, while Text A primarily reports data and a methodological limitation.
+
+**Gabarito: Certo.** O texto opinativo recomenda cautela no uso do levantamento; a nota de pesquisa apresenta observações e ressalva metodológica.
+
+**Item adicional C (inédito, C/E).** The wording *The researchers cautioned* in Text B attributes the warning to the researchers.
+
+**Gabarito: Certo.** *Cautioned* introduz voz de fonte e não demonstra análise independente do jornalista.
+
+**Item adicional D (inédito, C/E).** According to Text A, the online invitation guaranteed a random, representative sample of city residents.
+
+**Gabarito: Errado.** A exclui essa inferência ao registrar que a amostra não deve representar a cidade inteira.
+
+**Leitura transferível:** diferencie (1) afirmação de dados, (2) atribuição de fala, (3) avaliação do autor e (4) evidência de representatividade. Este caso retoma [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|inferência]] e [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|propósito comunicativo]].
+
+---
+
 ## 5. Relações com Outros Artigos e Síntese de Revisão da Trilha
 
 - **Fechamento e Integração da Trilha de Língua Inglesa (12/12):**
@@ -237,4 +275,4 @@ Os textos abaixo são **ficcionais e escritos para treinamento**, não comunicad
   - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|CAM-ING-009]]: Modais, deôntica/epistêmica e postura do autor (*hedging*).
   - [[3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles|CAM-ING-010]]: Restrições de escopo e proporcionalidade.
   - [[3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles|CAM-ING-011]]: Reescrita oracional e preservação de sentido.
-  - [[3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles|CAM-ING-012]]: Síntese macroestrutural, intertextualidade e gêneros públicos.
+  - **Nesta unidade (CAM-ING-012):** síntese macroestrutural, intertextualidade e gêneros públicos.

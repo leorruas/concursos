@@ -90,6 +90,20 @@ Quando parte do documento estiver legitimamente protegida, o art. 4º, § 2º, d
 
 **Caso de fronteira:** um órgão posta 20 vídeos de prestação de contas, mas deixa de publicar contratos e registros obrigatórios. Volume de conteúdo não equivale a cumprimento da transparência ativa. A análise depende do rol normativo, da possibilidade efetiva de acesso e da atualidade dos documentos.
 
+## Como o Cebraspe pode cobrar: itens inéditos de Certo/Errado
+
+**Item 1.** A publicação espontânea, no sítio oficial da Câmara, do conteúdo e da tramitação de proposições legislativas constitui exemplo de transparência ativa, mesmo que publicações em redes sociais também facilitem sua descoberta.
+
+**Gabarito: Certo.** O art. 5º do Ato da Mesa nº 45/2012 contempla essas informações. Transparência ativa caracteriza-se pela divulgação independente de pedido, não pela quantidade de redes utilizadas.
+
+**Item 2.** O atendimento ao direito de acesso à informação pode ser considerado completo sempre que o órgão divulgar resumos em linguagem simples nas redes sociais, ainda que os documentos e registros sujeitos a publicação obrigatória não estejam disponíveis no sítio oficial.
+
+**Gabarito: Errado.** A mediação editorial não substitui o dever de disponibilização no sítio oficial nem o conteúdo mínimo previsto nas normas. O distrator confunde utilidade comunicacional com suficiência jurídica.
+
+**Item 3.** Quando parte de documento da Câmara estiver legitimamente submetida a sigilo, o Ato da Mesa nº 45/2012 admite o fornecimento da parte não sigilosa por certidão, extrato ou cópia com ocultação do trecho protegido.
+
+**Gabarito: Certo.** A disciplina de acesso parcial está no art. 4º, § 2º, do ato. A pegadinha oposta seria tratar a restrição parcial como bloqueio integral obrigatório.
+
 ## Aplicação operacional: decisão editorial e cumprimento da LAI
 
 **Situação:** uma equipe precisa publicar um carrossel sobre a tramitação de uma proposição e informar o caminho para documentos e pedidos de acesso. A solução demanda duas entregas coordenadas: **informação oficial completa e verificável no sítio obrigatório** e **peça editorial que ajude o cidadão a encontrá-la e compreendê-la**. A peça de rede social favorece a descoberta, mas o art. 5º, § 2º, do [Ato da Mesa nº 45/2012 atualizado](https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html) torna obrigatória a divulgação no sítio da Câmara, e o § 3º exige condições de busca, integridade, atualização, acesso em formatos abertos, contato e acessibilidade.
@@ -109,20 +123,6 @@ Quando parte do documento estiver legitimamente protegida, o art. 4º, § 2º, d
 **Gabarito: Errado.** O art. 4º, § 2º, do ato assegura acesso à parte não sigilosa por certidão, extrato ou cópia com ocultação do trecho protegido. O item transforma proteção parcial em bloqueio geral.
 
 **Fontes primárias específicas:** [Ato da Mesa nº 45/2012, texto atualizado, arts. 4º e 5º](https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html); [Lei nº 12.527/2011, arts. 8º, 10 e 11](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). Os itens 4 e 5 são **novos exercícios autorais**, não questões reais Cebraspe. O fluxo A–D é uma proposta didática de produção e revisão, sem atribuir-lhe força normativa autônoma.
-
-## Como o Cebraspe pode cobrar: itens inéditos de Certo/Errado
-
-**Item 1.** A publicação espontânea, no sítio oficial da Câmara, do conteúdo e da tramitação de proposições legislativas constitui exemplo de transparência ativa, mesmo que publicações em redes sociais também facilitem sua descoberta.
-
-**Gabarito: Certo.** O art. 5º do Ato da Mesa nº 45/2012 contempla essas informações. Transparência ativa caracteriza-se pela divulgação independente de pedido, não pela quantidade de redes utilizadas.
-
-**Item 2.** O atendimento ao direito de acesso à informação pode ser considerado completo sempre que o órgão divulgar resumos em linguagem simples nas redes sociais, ainda que os documentos e registros sujeitos a publicação obrigatória não estejam disponíveis no sítio oficial.
-
-**Gabarito: Errado.** A mediação editorial não substitui o dever de disponibilização no sítio oficial nem o conteúdo mínimo previsto nas normas. O distrator confunde utilidade comunicacional com suficiência jurídica.
-
-**Item 3.** Quando parte de documento da Câmara estiver legitimamente submetida a sigilo, o Ato da Mesa nº 45/2012 admite o fornecimento da parte não sigilosa por certidão, extrato ou cópia com ocultação do trecho protegido.
-
-**Gabarito: Certo.** A disciplina de acesso parcial está no art. 4º, § 2º, do ato. A pegadinha oposta seria tratar a restrição parcial como bloqueio integral obrigatório.
 
 ## Relações com outros temas e heurísticas
 

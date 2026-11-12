@@ -134,14 +134,6 @@ O texto acima é uma **estrutura de conteúdo**, ainda não um exemplar manuscri
 
 A primeira produção semanal pode ser uma questão curta sobre a relação **sintoma → hipótese → evidência**; a segunda, peça de até 50 linhas com diagnóstico, plano ou avaliação, alternando objetos a cada semana. Em ambas, aplicar [[07 - revisao e autocorrecao de discursivas e pecas|CAM-DIS-009]], com grade de atendimento, contagem de linhas manuscritas, reescrita focal e reteste posterior. Registrar respostas individuais apenas no cofre privado.
 
-## Referências
-
-- [Edital nº 1/2026, Câmara dos Deputados, itens 9.1 e 9.8.5.2](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades).
-- [Cebraspe, Câmara 2026, Processo Legislativo e Gestão: padrão definitivo das duas questões e da peça](https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/D5F3CAA9B8BAEA93D7B1750A43949FF94C88F2DA3F44ADAE978062F601A94FDD.pdf).
-- [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|Planejamento estratégico e diagnóstico]]; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|Briefing publicitário]].
-- [[07 - revisao e autocorrecao de discursivas e pecas|Revisão e autocorreção (CAM-DIS-009)]].
-
-
 ## Caso progressivo: peça com mais quesitos e monitoramento associado (autoral)
 
 O primeiro modelo ensina a organizar uma nota curta. Nesta segunda situação, o problema inclui informações sobre **audiências públicas**, mas não pressupõe competência de uma unidade específica nem cria prazo, orçamento ou obrigação normativa. **Comando fictício de treino:** “Elabore nota técnica destinada à coordenação de comunicação, em até 50 linhas. Delimite as barreiras de informação e os limites das evidências disponíveis; identifique objetivo e públicos; apresente três medidas diferentes de comunicação; explique como verificar separadamente os resultados de cada medida; indique encaminhamento responsável”. Este é um **enunciado autoral**. A distribuição de aspectos abaixo é uma **grade didática sem pesos oficiais**.
@@ -211,3 +203,12 @@ O primeiro modelo ensina a organizar uma nota curta. Nesta segunda situação, o
 **Revisão da primeira peça de 28 linhas:** seu bloco de acompanhamento, nas linhas 25–28, é útil como triagem, mas **parcial** diante do comando que exige acompanhar o resultado das três medidas. Uma reescrita sugerida é: “Testar se usuários encontram a agenda na página; verificar se compreendem datas e requisitos dos convites; e observar se os recursos dos vídeos atendem aos públicos previstos. Registrar dúvidas e corrigir os materiais antes do evento seguinte.” A correção é **didática** e pode ocupar mais linhas manuscritas; cortar trechos redundantes antes de inserir a revisão.
 
 **Treino de transferência:** reescreva o comando para pedir um **briefing**, mantendo o problema e trocando a finalidade: agora o documento precisa orientar a equipe de produção, indicando informações existentes, lacunas, públicos e entregáveis; não apresentar um diagnóstico concluído. Depois reescreva para pedir um **plano**, acrescentando responsáveis e sequência de implantação **apenas se estiverem no comando**. Confronte as três versões pela finalidade, não pelo cabeçalho. A quebra digital de linha não substitui folha real nem simula nota da Cebraspe.
+
+
+## Referências
+
+- [Edital nº 1/2026, Câmara dos Deputados, itens 9.1 e 9.8.5.2](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades).
+- [Cebraspe, Câmara 2026, Processo Legislativo e Gestão: padrão definitivo das duas questões e da peça](https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/D5F3CAA9B8BAEA93D7B1750A43949FF94C88F2DA3F44ADAE978062F601A94FDD.pdf).
+- [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|Planejamento estratégico e diagnóstico]]; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|Briefing publicitário]].
+- [[07 - revisao e autocorrecao de discursivas e pecas|Revisão e autocorreção (CAM-DIS-009)]].
+

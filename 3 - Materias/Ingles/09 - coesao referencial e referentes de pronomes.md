@@ -42,7 +42,7 @@ flowchart TD
     A["Mecanismos de Referência Textual em Inglês"] --> B["1. Referência Endofórica (Dentro do Texto)"]
     A --> C["2. Referência Exofórica / Dêixis (Fora do Texto)"]
     
-    B --> B1["Anáfora (Retrospectiva): aponta para trás (90% dos itens do Cebraspe)"]
+    B --> B1["Anáfora (Retrospectiva): remete a expressão anterior"]
     B --> B2["Catáfora (Prospectiva): aponta para a frente ('This is the core issue: transparency')"]
     
     C --> C1["Aponta para a situação material de enunciação ou o leitor ('You, Here, Now')"]
@@ -70,11 +70,11 @@ O pronome **IT** é o mais polissêmico e traiçoeiro da língua inglesa em prov
 1. **Pronome anafórico referencial (tem referente nominal claro no texto):**
    * *"The **legislative bill** was drafted in 2024, but **it** was only debated this month."* $\rightarrow$ *it* = *the legislative bill*.
 2. **Pronome impessoal / sujeito vazio (*Dummy 'It' / Empty Subject*):**
-   * Usado para cumprir a exigência estrutural da língua inglesa de que toda oração deve ter sujeito explícito (ao contrário do português, que admite oração sem sujeito). Ocorre com tempo meteorológico, horas, distâncias e construções impessoais:
+   * Usado como sujeito gramatical sem referente lexical em construções impessoais. O inglês declarativo normalmente requer sujeito explícito, mas há exceções, como orações imperativas com sujeito elíptico. Ocorre com tempo meteorológico, horas, distâncias e construções impessoais:
      * *"**It** is raining."* (Está chovendo).
      * *"**It** is three o'clock."* (São três horas).
      * *"**It** is necessary to approve the budget."* (É necessário aprovar o orçamento).
-   * **Pegadinha clássica do Cebraspe:** A banca pergunta: *"The pronoun 'it' in line X refers back to the word 'budget'"*. Se for um *dummy it* (*"It is vital that..."*), o item é **ERRADO**, pois o pronome não tem referente anafórico no texto anterior.
+   * **Exemplo didático de item C/E:** Um enunciado pode perguntar: *"The pronoun 'it' in line X refers back to the word 'budget'"*. Se for um *dummy it* (*"It is vital that..."*), o item é **ERRADO**, pois o pronome não tem referente anafórico no texto anterior.
 3. **Pronome clivado enfático (*Cleft Sentence 'It'*):**
    * Usado para dar realce a um constituinte oracional específico:
      * *"**It** was **the Speaker of the House** who signed the decree."* $\rightarrow$ O pronome *It* faz parte da estrutura clivada de realce (*It was X that/who...*).
@@ -98,7 +98,7 @@ O pronome **IT** é o mais polissêmico e traiçoeiro da língua inglesa em prov
 | **THOSE** (plural) | **Substituição de plural** (frequentemente antes de *of* ou *who*). | Equivale a *"aqueles / aquelas / os / as"*. | *"Only **those who** attended the hearing may vote."* (*those* = os parlamentares/pessoas que). |
 
 * **Atenção especial à Referência Proposicional com *THIS* e *THAT*:**
-  Quando o Cebraspe perguntar a que o pronome *This* se refere, **desconfie de assertivas que apontam um único substantivo isolado**. Na esmagadora maioria das vezes, *This* resume a **proposição inteira** (a causa, o evento ou o resultado expresso na oração precedente).
+  Quando o Cebraspe perguntar a que o pronome *This* se refere, **desconfie de assertivas que apontam um único substantivo isolado**. Dependendo do contexto, *This* pode resumir uma **proposição inteira** ou retomar uma entidade nominal (a causa, o evento ou o resultado expresso na oração precedente).
 
 ---
 

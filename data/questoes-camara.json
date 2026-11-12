@@ -16648,7 +16648,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-73d4a195e86c02bf#Terceiro conjunto: critérios para escolher e combinar canais"
       ],
@@ -16659,7 +16659,7 @@
       "statement": "Uma reunião permite esclarecer dúvidas sobre uma mudança de procedimento. Disponibilizar depois um registro consultável pode atender quem precisa recuperar a orientação durante o trabalho.",
       "correctAnswer": "C",
       "explanation": "O encontro facilita esclarecimento imediato e o registro oferece uma referência persistente. Os canais atendem a necessidades complementares.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Terceiro conjunto: critérios para escolher e combinar canais em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Terceiro conjunto: critérios para escolher e combinar canais em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-intranet-sem-cobertura-no-turno",
@@ -16676,7 +16676,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-73d4a195e86c02bf#Quarto conjunto: fluxos, acesso e segmentação"
       ],
@@ -16687,7 +16687,7 @@
       "statement": "Uma orientação publicada na intranet chega a todos os turnos só porque foi disponibilizada durante o expediente administrativo, mesmo quando parte dos trabalhadores não tem acesso à intranet no posto de trabalho.",
       "correctAnswer": "E",
       "explanation": "O horário da publicação não garante acesso. A cobertura depende das condições de uso de cada público interno.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Quarto conjunto: fluxos, acesso e segmentação em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Quarto conjunto: fluxos, acesso e segmentação em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-ritual-e-pressuposto-subjacente",
@@ -16704,7 +16704,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b0ad4f6e375a912c#Schein: o que cada um dos três níveis classifica?"
       ],
@@ -16715,7 +16715,7 @@
       "statement": "Observar uma reunião semanal de escuta permite identificar diretamente o pressuposto cultural dos participantes sobre a abertura a críticas.",
       "correctAnswer": "E",
       "explanation": "A reunião é uma prática observável. Inferir pressupostos exige investigar como as pessoas interpretam e usam a prática e o que ocorre quando há discordância.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schein: o que cada um dos três níveis classifica? em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schein: o que cada um dos três níveis classifica? em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-percepcao-compartilhada-com-desacordo",
@@ -16732,7 +16732,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b0ad4f6e375a912c#Schneider, Ehrhart e Macey: conceito e unidade de clima"
       ],
@@ -16743,7 +16743,7 @@
       "statement": "Uma média elevada de respostas sobre abertura a sugestões pode ocultar discordância dentro de uma equipe. Antes de tratar a média como percepção compartilhada, convém examinar a distribuição das respostas.",
       "correctAnswer": "C",
       "explanation": "A média descreve o centro das respostas. O clima como propriedade coletiva requer evidência de compartilhamento, além do nível médio.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schneider, Ehrhart e Macey: conceito e unidade de clima em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schneider, Ehrhart e Macey: conceito e unidade de clima em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-escuta-com-retorno-de-decisao",
@@ -16760,7 +16760,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3c27d018b5e64a#Segundo mecanismo: escuta, voz e resposta institucional"
       ],
@@ -16771,7 +16771,7 @@
       "statement": "Uma consulta interna pode produzir retorno útil mesmo quando a proposta mais votada não é adotada, se a equipe explicar os critérios e o encaminhamento das contribuições.",
       "correctAnswer": "C",
       "explanation": "A escuta não implica aceitar todas as sugestões. O retorno mostra como as contribuições foram consideradas e esclarece os limites da decisão.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Segundo mecanismo: escuta, voz e resposta institucional em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Segundo mecanismo: escuta, voz e resposta institucional em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-mudanca-de-clima-com-intervencoes-simultaneas",
@@ -16788,7 +16788,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3c27d018b5e64a#Como desenhar uma intervenção sem prometer efeitos automáticos"
       ],
@@ -16799,7 +16799,7 @@
       "statement": "Se o clima melhora após a instituição lançar um boletim e, na mesma semana, alterar as regras de escala, a comparação antes e depois identifica isoladamente o efeito do boletim.",
       "correctAnswer": "E",
       "explanation": "As duas mudanças podem afetar as percepções. A comparação temporal isolada não separa suas contribuições.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Como desenhar uma intervenção sem prometer efeitos automáticos em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Como desenhar uma intervenção sem prometer efeitos automáticos em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-fluxo-ascendente-com-resposta-descendente",
@@ -16816,7 +16816,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-806546892285426f#5. Fluxos de comunicação"
       ],
@@ -16827,7 +16827,7 @@
       "statement": "Se uma servidora envia uma sugestão à chefia e recebe orientação de volta, a troca reúne um fluxo ascendente e outro descendente.",
       "correctAnswer": "C",
       "explanation": "O primeiro percurso vai da servidora para a chefia. O segundo percorre o sentido hierárquico inverso.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 5. Fluxos de comunicação em 3 - Materias/Comunicacao/09 - comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 5. Fluxos de comunicação em 3 - Materias/Comunicacao/09 - comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-segmentacao-por-tarefa-e-nao-por-cargo",
@@ -16844,7 +16844,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-806546892285426f#7. Segmentação do público interno"
       ],
@@ -16855,7 +16855,7 @@
       "statement": "Ao explicar um novo sistema, uma equipe pode segmentar a orientação entre quem apenas consulta registros e quem os edita, ainda que os dois grupos tenham o mesmo cargo.",
       "correctAnswer": "C",
       "explanation": "A necessidade informacional depende da tarefa. O cargo formal é somente um possível critério de segmentação.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 7. Segmentação do público interno em 3 - Materias/Comunicacao/09 - comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 7. Segmentação do público interno em 3 - Materias/Comunicacao/09 - comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-canal-escrito-sem-verificacao-de-entendimento",
@@ -16872,7 +16872,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-806546892285426f#6. Canais e adequação"
       ],
@@ -16883,7 +16883,7 @@
       "statement": "Registrar a entrega de uma orientação escrita a todos os trabalhadores equivale a verificar que todos conseguem aplicá-la numa situação de trabalho.",
       "correctAnswer": "E",
       "explanation": "O registro demonstra distribuição. A aplicação exige evidência como resolução de um caso ou observação de uma tarefa.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 6. Canais e adequação em 3 - Materias/Comunicacao/09 - comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 6. Canais e adequação em 3 - Materias/Comunicacao/09 - comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-campanha-e-mudanca-operacional",
@@ -16900,7 +16900,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-806546892285426f#1. Comunicação interna × endomarketing × gestão da mudança"
       ],
@@ -16911,7 +16911,7 @@
       "statement": "Uma campanha interna que apresenta as vantagens de um novo procedimento conclui a gestão da mudança mesmo que as equipes continuem sem acesso às ferramentas necessárias.",
       "correctAnswer": "E",
       "explanation": "A campanha apoia a adoção. A transição também depende de recursos, condições de execução e acompanhamento.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 1. Comunicação interna × endomarketing × gestão da mudança em 3 - Materias/Comunicacao/09 - comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 1. Comunicação interna × endomarketing × gestão da mudança em 3 - Materias/Comunicacao/09 - comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-reuniao-com-prazo-para-duvidas",
@@ -16928,7 +16928,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-73d4a195e86c02bf#Terceiro conjunto: critérios para escolher e combinar canais"
       ],
@@ -16939,7 +16939,7 @@
       "statement": "Se uma mudança entra em vigor na segunda-feira, reservar um momento para perguntas antes dessa data permite ajustar a orientação antes de sua aplicação.",
       "correctAnswer": "C",
       "explanation": "O canal síncrono permite identificar dúvidas enquanto ainda há tempo para esclarecer o procedimento.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Terceiro conjunto: critérios para escolher e combinar canais em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Terceiro conjunto: critérios para escolher e combinar canais em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-alcance-por-turno-com-bases-distintas",
@@ -16956,7 +16956,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-73d4a195e86c02bf#Quarto conjunto: fluxos, acesso e segmentação"
       ],
@@ -16967,7 +16967,7 @@
       "statement": "Um comunicado chega a 80 de 100 pessoas do turno diurno e a 30 de 40 do noturno. A cobertura dos dois turnos juntos é exatamente 77,5%.",
       "correctAnswer": "E",
       "explanation": "A cobertura combinada é 110 de 140, cerca de 78,6%. A média simples de 80% e 75% daria peso igual a grupos de tamanhos diferentes.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Quarto conjunto: fluxos, acesso e segmentação em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Quarto conjunto: fluxos, acesso e segmentação em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-valor-declarado-e-pratica-divergente",
@@ -16984,7 +16984,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b0ad4f6e375a912c#Schein: o que cada um dos três níveis classifica?"
       ],
@@ -16995,7 +16995,7 @@
       "statement": "Uma organização declara que aceita sugestões, mas pune repetidamente quem questiona decisões. A divergência justifica examinar as práticas antes de inferir que o valor declarado é compartilhado.",
       "correctAnswer": "C",
       "explanation": "A declaração indica um valor professado. Práticas recorrentes podem revelar pressupostos diferentes.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schein: o que cada um dos três níveis classifica? em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schein: o que cada um dos três níveis classifica? em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-retorno-sem-identificar-autores",
@@ -17012,7 +17012,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3c27d018b5e64a#Segundo mecanismo: escuta, voz e resposta institucional"
       ],
@@ -17023,7 +17023,7 @@
       "statement": "Uma equipe pode informar quais temas surgiram numa consulta interna e explicar seus encaminhamentos sem divulgar a identidade de quem fez cada sugestão.",
       "correctAnswer": "C",
       "explanation": "É possível fechar o ciclo de escuta com resultados agregados e critérios de decisão. Identificar as pessoas não é necessário para esse retorno.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Segundo mecanismo: escuta, voz e resposta institucional em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Segundo mecanismo: escuta, voz e resposta institucional em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-mesma-media-distribuicoes-distintas",
@@ -17040,7 +17040,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b0ad4f6e375a912c#Schneider, Ehrhart e Macey: conceito e unidade de clima"
       ],
@@ -17051,7 +17051,7 @@
       "statement": "Em duas unidades, as médias de clima permanecem em 2 e 4. Na segunda coleta, aumenta a participação relativa da unidade com média 4. A média agregada pode subir sem melhora dentro de nenhuma unidade.",
       "correctAnswer": "C",
       "explanation": "A média geral pondera as unidades pela quantidade de respostas. Uma mudança de composição pode alterar o agregado sem mudar os resultados de cada unidade.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schneider, Ehrhart e Macey: conceito e unidade de clima em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schneider, Ehrhart e Macey: conceito e unidade de clima em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-instrucao-comum-e-modulo-especifico",
@@ -17068,7 +17068,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-806546892285426f#7. Segmentação do público interno"
       ],
@@ -17079,7 +17079,7 @@
       "statement": "Uma orientação interna pode manter um núcleo comum sobre a finalidade da mudança e oferecer instruções diferentes para grupos com responsabilidades distintas.",
       "correctAnswer": "C",
       "explanation": "O núcleo preserva a coerência da mensagem. As instruções segmentadas correspondem às ações esperadas de cada grupo.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 7. Segmentação do público interno em 3 - Materias/Comunicacao/09 - comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 7. Segmentação do público interno em 3 - Materias/Comunicacao/09 - comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-cliente-interno-com-limite-da-analogia",
@@ -17096,7 +17096,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Autores e classificações"
       ],
@@ -17107,7 +17107,7 @@
       "statement": "Tratar trabalhadores como clientes internos, para investigar suas necessidades, transforma a relação de trabalho em uma relação de consumo na classificação de marketing interno.",
       "correctAnswer": "E",
       "explanation": "A noção de cliente interno é uma analogia para estudar necessidades e condições de trabalho. Ela não altera a natureza do vínculo.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Autores e classificações em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Autores e classificações em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-atracao-externa-e-publico-interno",
@@ -17124,7 +17124,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Fronteiras entre conceitos"
       ],
@@ -17135,7 +17135,7 @@
       "statement": "Uma ação voltada exclusivamente a candidatos externos pode integrar a marca empregadora sem constituir, por esse motivo, uma ação de endomarketing dirigida aos trabalhadores atuais.",
       "correctAnswer": "C",
       "explanation": "A marca empregadora pode tratar da atração de candidatos. O endomarketing dirige suas ações ao público interno.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Fronteiras entre conceitos em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Fronteiras entre conceitos em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-consultas-repetidas-por-duvida",
@@ -17152,7 +17152,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-73d4a195e86c02bf#Como avaliar canais sem trocar indicadores"
       ],
@@ -17163,7 +17163,7 @@
       "statement": "Se a mesma página da intranet recebe mais consultas depois de uma alteração, esse dado comprova que as instruções ficaram mais claras.",
       "correctAnswer": "E",
       "explanation": "As consultas podem crescer por interesse ou por dificuldade de localizar a resposta. A compreensão precisa ser observada diretamente.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Como avaliar canais sem trocar indicadores em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Como avaliar canais sem trocar indicadores em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-informar-incerteza-com-data-de-retorno",
@@ -17180,7 +17180,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3c27d018b5e64a#Primeiro mecanismo: informação compreensível, previsibilidade e transparência"
       ],
@@ -17191,7 +17191,7 @@
       "statement": "Quando uma decisão sobre a escala ainda não foi tomada, informar o que está em aberto, quem decide e quando haverá atualização pode melhorar a previsibilidade sem anunciar uma decisão inexistente.",
       "correctAnswer": "C",
       "explanation": "A equipe pode esclarecer etapas e prazos do processo mesmo sem dispor da decisão final.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Primeiro mecanismo: informação compreensível, previsibilidade e transparência em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Primeiro mecanismo: informação compreensível, previsibilidade e transparência em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-artefato-com-mudanca-de-sentido",
@@ -17208,7 +17208,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b0ad4f6e375a912c#Schein: o que cada um dos três níveis classifica?"
       ],
@@ -17219,7 +17219,7 @@
       "statement": "Uma equipe conserva a cerimônia de reconhecimento anual, mas deixa de premiar resultados individuais e passa a reconhecer contribuições coletivas. A permanência da cerimônia não basta para concluir que os valores expressos por ela permaneceram iguais.",
       "correctAnswer": "C",
       "explanation": "O artefato visível pode permanecer enquanto mudam os critérios e os significados associados a seu uso.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schein: o que cada um dos três níveis classifica? em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schein: o que cada um dos três níveis classifica? em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-climas-especificos-na-mesma-equipe",
@@ -17236,7 +17236,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b0ad4f6e375a912c#Schneider, Ehrhart e Macey: conceito e unidade de clima"
       ],
@@ -17247,7 +17247,7 @@
       "statement": "A mesma equipe pode perceber forte incentivo à aprendizagem e fraco incentivo ao atendimento ao público, se as práticas e recompensas sinalizarem prioridades diferentes nessas duas dimensões.",
       "correctAnswer": "C",
       "explanation": "O clima pode ser examinado em relação a um foco específico. Uma avaliação favorável em uma dimensão não determina a outra.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schneider, Ehrhart e Macey: conceito e unidade de clima em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schneider, Ehrhart e Macey: conceito e unidade de clima em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-comparacao-com-ondas-e-questionario",
@@ -17264,7 +17264,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3c27d018b5e64a#Como desenhar uma intervenção sem prometer efeitos automáticos"
       ],
@@ -17275,7 +17275,7 @@
       "statement": "Antes de um programa, o questionário mede segurança para discordar. Depois, mede satisfação com os canais internos. A diferença entre as médias indica quanto mudou a segurança para discordar.",
       "correctAnswer": "E",
       "explanation": "Os instrumentos medem atributos distintos. A comparação temporal exige medidas compatíveis com o resultado que se pretende acompanhar.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Como desenhar uma intervenção sem prometer efeitos automáticos em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Como desenhar uma intervenção sem prometer efeitos automáticos em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-numero-de-propostas-e-barreira-de-acesso",
@@ -17292,7 +17292,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3c27d018b5e64a#Segundo mecanismo: escuta, voz e resposta institucional"
       ],
@@ -17303,7 +17303,7 @@
       "statement": "Um setor envia menos propostas que outro por um formulário disponível apenas em computadores administrativos. A contagem isolada permite concluir que o primeiro setor tem menos ideias para propor.",
       "correctAnswer": "E",
       "explanation": "As contagens dependem também da oportunidade de acessar o formulário. É preciso investigar as condições de participação.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Segundo mecanismo: escuta, voz e resposta institucional em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Segundo mecanismo: escuta, voz e resposta institucional em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-comunicado-persistente-e-versao-obsoleta",
@@ -17320,7 +17320,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-73d4a195e86c02bf#Terceiro conjunto: critérios para escolher e combinar canais"
       ],
@@ -17331,7 +17331,7 @@
       "statement": "Se um procedimento muda várias vezes durante a semana, uma página de referência com data de atualização pode ajudar a equipe a distinguir a orientação vigente de cópias impressas anteriores.",
       "correctAnswer": "C",
       "explanation": "Um canal persistente e atualizado oferece referência verificável. As cópias antigas podem continuar circulando depois de perder a validade.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Terceiro conjunto: critérios para escolher e combinar canais em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Terceiro conjunto: critérios para escolher e combinar canais em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-endomarketing-e-condicoes-de-execucao",
@@ -17348,7 +17348,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Comunicação e cultura"
       ],
@@ -17359,7 +17359,7 @@
       "statement": "Um programa interno apresenta cooperação como prioridade, mas as reuniões de avaliação reconhecem apenas disputas individuais. Como a campanha é clara, os dois mecanismos reforçam a mesma prática.",
       "correctAnswer": "E",
       "explanation": "A campanha valoriza cooperação. O reconhecimento recompensa competição individual. Avaliar a coerência exige observar os dois sinais.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Comunicação e cultura em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Comunicação e cultura em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-fluxo-lateral-entre-unidades",
@@ -17376,7 +17376,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-806546892285426f#5. Fluxos de comunicação"
       ],
@@ -17387,7 +17387,7 @@
       "statement": "Uma orientação enviada pela chefia à equipe muda de fluxo descendente para horizontal quando passa do e-mail para o mural.",
       "correctAnswer": "E",
       "explanation": "A direção é definida pelas posições de origem e destino. Trocar o suporte não altera essas posições.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 5. Fluxos de comunicação em 3 - Materias/Comunicacao/09 - comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 5. Fluxos de comunicação em 3 - Materias/Comunicacao/09 - comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-vitoria-inicial-e-consolidacao",
@@ -17404,7 +17404,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-806546892285426f#2. Kotter: oito passos para liderar a mudança"
       ],
@@ -17415,7 +17415,7 @@
       "statement": "No modelo de Kotter, uma primeira unidade que adota com sucesso o novo procedimento torna desnecessário consolidar a mudança nas demais unidades.",
       "correctAnswer": "E",
       "explanation": "Resultados iniciais dão evidência e impulso. A consolidação e a incorporação às práticas ainda precisam ocorrer.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 2. Kotter: oito passos para liderar a mudança em 3 - Materias/Comunicacao/09 - comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 2. Kotter: oito passos para liderar a mudança em 3 - Materias/Comunicacao/09 - comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-publico-interno-nao-uniforme",
@@ -17432,7 +17432,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-806546892285426f#7. Segmentação do público interno"
       ],
@@ -17443,7 +17443,7 @@
       "statement": "Segmentar o público interno pressupõe que todos tenham a mesma necessidade de informação.",
       "correctAnswer": "E",
       "explanation": "A segmentação identifica diferenças de necessidades ou condições entre grupos.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 7. Segmentação do público interno em 3 - Materias/Comunicacao/09 - comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com 7. Segmentação do público interno em 3 - Materias/Comunicacao/09 - comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-mural-para-consulta-durante-o-turno",
@@ -17460,7 +17460,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-73d4a195e86c02bf#Segundo conjunto: quatro veículos recorrentes no edital"
       ],
@@ -17471,7 +17471,7 @@
       "statement": "Num setor sem acesso a computadores, um mural atualizado em local de passagem pode apoiar a consulta a um aviso simples durante o turno.",
       "correctAnswer": "C",
       "explanation": "A escolha liga o canal às condições de acesso e à necessidade de uma mensagem breve e disponível.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Segundo conjunto: quatro veículos recorrentes no edital em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Segundo conjunto: quatro veículos recorrentes no edital em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-mensagem-por-duas-vias-contagem-unica",
@@ -17488,7 +17488,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-73d4a195e86c02bf#Quarto conjunto: fluxos, acesso e segmentação"
       ],
@@ -17499,7 +17499,7 @@
       "statement": "Uma orientação chega a 75 trabalhadores por boletim e a 50 em reunião. Se 30 estão nos dois registros e todos pertencem ao mesmo grupo de 120, a cobertura distinta é de 95 trabalhadores, ainda que tenham ocorrido 125 contatos.",
       "correctAnswer": "C",
       "explanation": "Subtrair a sobreposição evita dupla contagem: 75 + 50 − 30 = 95. A soma bruta descreve os contatos nos dois canais.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Quarto conjunto: fluxos, acesso e segmentação em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Quarto conjunto: fluxos, acesso e segmentação em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-pergunta-de-diagnostico-por-etapa",
@@ -17516,7 +17516,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-73d4a195e86c02bf#Como avaliar canais sem trocar indicadores"
       ],
@@ -17527,7 +17527,7 @@
       "statement": "Após lançar uma orientação, uma equipe mede quantos trabalhadores a receberam, quantos a interpretaram corretamente e quantos conseguiram executá-la com os recursos disponíveis. As três medidas ajudam a localizar perdas entre distribuição, compreensão e aplicação.",
       "correctAnswer": "C",
       "explanation": "Cada medida corresponde a uma etapa. A decomposição evita atribuir toda falha de execução ao conteúdo da mensagem.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Como avaliar canais sem trocar indicadores em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Como avaliar canais sem trocar indicadores em 3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-arranjo-fisico-como-artefato",
@@ -17544,7 +17544,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b0ad4f6e375a912c#Schein: o que cada um dos três níveis classifica?"
       ],
@@ -17555,7 +17555,7 @@
       "statement": "O arranjo físico dos postos de trabalho é um exemplo de artefato observável no modelo de Schein.",
       "correctAnswer": "C",
       "explanation": "Artefatos incluem elementos visíveis e práticas observáveis. Seu significado pode exigir investigação.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schein: o que cada um dos três níveis classifica? em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Schein: o que cada um dos três níveis classifica? em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-registro-formal-e-pratica-observada",
@@ -17572,7 +17572,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b0ad4f6e375a912c#Métodos e fronteiras da evidência"
       ],
@@ -17583,7 +17583,7 @@
       "statement": "Se um manual afirma que decisões são colegiadas, a análise cultural pode dispensar a observação de quem costuma participar e decidir na prática.",
       "correctAnswer": "E",
       "explanation": "O manual descreve uma regra formal. A observação ajuda a verificar como ela se concretiza e quais padrões se repetem.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Métodos e fronteiras da evidência em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Métodos e fronteiras da evidência em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-satisfacao-individual-e-clima-da-equipe",
@@ -17600,7 +17600,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b0ad4f6e375a912c#Fronteiras com conceitos vizinhos"
       ],
@@ -17611,7 +17611,7 @@
       "statement": "O relato de satisfação de um único trabalhador comprova que a equipe compartilha um clima favorável.",
       "correctAnswer": "E",
       "explanation": "Satisfação individual e percepção coletiva têm unidades diferentes. Um relato isolado não demonstra compartilhamento.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Fronteiras com conceitos vizinhos em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Fronteiras com conceitos vizinhos em 3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-canal-e-restricao-de-uso",
@@ -17628,7 +17628,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3c27d018b5e64a#Segundo mecanismo: escuta, voz e resposta institucional"
       ],
@@ -17639,7 +17639,7 @@
       "statement": "Se as pessoas podem enviar sugestões, mas o formulário exige a aprovação prévia da chefia sobre a qual desejam falar, a existência formal do canal não elimina a barreira à manifestação.",
       "correctAnswer": "C",
       "explanation": "A regra de acesso pode inibir contribuições. Avaliar a voz requer considerar tanto a existência quanto as condições de uso do canal.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Segundo mecanismo: escuta, voz e resposta institucional em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Segundo mecanismo: escuta, voz e resposta institucional em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-discordancia-com-cobranca-respeitosa",
@@ -17656,7 +17656,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3c27d018b5e64a#Terceiro mecanismo: segurança psicológica e aprendizagem"
       ],
@@ -17667,7 +17667,7 @@
       "statement": "Uma equipe pode acolher objeções a um procedimento e exigir que quem apresenta uma proposta descreva os efeitos esperados.",
       "correctAnswer": "C",
       "explanation": "Solicitar evidência é compatível com a liberdade de discordar quando a contribuição é tratada com respeito.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Terceiro mecanismo: segurança psicológica e aprendizagem em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Terceiro mecanismo: segurança psicológica e aprendizagem em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-efeito-com-tendencia-anterior",
@@ -17684,7 +17684,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3c27d018b5e64a#Como desenhar uma intervenção sem prometer efeitos automáticos"
       ],
@@ -17695,7 +17695,7 @@
       "statement": "A média de clima já crescia um ponto por trimestre antes de uma intervenção e volta a crescer um ponto no trimestre seguinte. A comparação isolada com o trimestre anterior demonstra que a intervenção acrescentou um ponto.",
       "correctAnswer": "E",
       "explanation": "O crescimento pode ser continuação da tendência anterior. Identificar o efeito exige estimar a trajetória esperada sem a intervenção.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Como desenhar uma intervenção sem prometer efeitos automáticos em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Como desenhar uma intervenção sem prometer efeitos automáticos em 3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-instrucao-interna-sem-programa-integrado",
@@ -17712,7 +17712,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Fronteiras entre conceitos"
       ],
@@ -17723,7 +17723,7 @@
       "statement": "Uma instrução sobre como registrar férias pode cumprir uma função de comunicação interna mesmo sem integrar uma ação planejada de endomarketing.",
       "correctAnswer": "C",
       "explanation": "A orientação resolve uma necessidade administrativa. A função informativa não depende da existência de programa de marketing interno.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Fronteiras entre conceitos em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Fronteiras entre conceitos em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-valor-interno-e-regra-operacional",
@@ -17740,7 +17740,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Aplicação na Câmara"
       ],
@@ -17751,7 +17751,7 @@
       "statement": "Um programa interno promove autonomia no atendimento. Se a equipe não pode decidir sobre os casos anunciados, a aprovação dos trabalhadores à campanha basta para demonstrar autonomia na prática.",
       "correctAnswer": "E",
       "explanation": "A aprovação mede reação à proposta. A autonomia depende de competência, recursos e condições efetivas de decisão.",
-      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Aplicação na Câmara em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md."
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Aplicação na Câmara em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
     }
   ]
 }

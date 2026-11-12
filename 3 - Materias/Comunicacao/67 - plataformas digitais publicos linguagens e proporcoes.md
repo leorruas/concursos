@@ -5,7 +5,7 @@ title: "Plataformas digitais: públicos, linguagens e proporções de imagem"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Plataformas digitais: públicos, linguagens e proporções de imagem
@@ -121,6 +121,24 @@ Acessibilidade deve entrar **na decisão sobre canal e formato**, não apenas na
 **Item 3.** O uso de um vídeo quadrado em um ambiente de vídeos curtos descaracteriza necessariamente esse formato, porque vídeos curtos são definidos exclusivamente pela proporção 9:16.
 
 **Gabarito: Errado.** Trata uma convenção frequente como requisito universal. O YouTube, por exemplo, admite vídeos quadrados para classificação como Shorts, observadas suas condições de duração e data.
+
+## Oficina operacional: especificação, teste de destino e decisão de formato (11/11/2026)
+
+**Problema:** a equipe produziu um carrossel com texto próximo das bordas em **1080 × 1350 px (4:5)** e quer reutilizá-lo na proporção **3:4**. Com largura preservada em 1080 px, o novo quadro mede **1080 × 1440 px**: são **90 px a mais de altura**. Apenas mudar metadados, esticar a arte ou elevar a resolução não transforma o enquadramento de forma segura. Deve-se recompor margens e hierarquia, testar miniatura, verificar legibilidade e manter textos essenciais acessíveis na publicação. Um terceiro destino, **9:16 (1080 × 1920 px)**, requer adaptação ainda maior; a proporção representa forma geométrica, não qualidade nem alcance garantidos.
+
+**Critério de fonte e atualização:** o comunicado divulgado pelo Instagram em **maio de 2025** indicou suporte a fotos **3:4** em publicações individuais e carrosséis, além de **4:5**. Essa informação foi reportada a partir do anúncio do Instagram; **não certifica** todos os formatos de vídeo, APIs, anúncios ou serviços externos em novembro de 2026. A [Ajuda oficial do YouTube, três minutos em Shorts](https://support.google.com/youtube/answer/15424877?hl=pt-BR) distingue **canais comuns**, com critério para envios a partir de **15/10/2024**, e **canais oficiais de artistas**, com critério próprio para envios após **08/12/2025**. Em ambos os recortes documentados, a proporção pode ser **quadrada ou vertical**, observada duração de **até três minutos**. A data e a condição do canal importam na aplicação literal da regra. O [guia de upload do YouTube](https://support.google.com/youtube/answer/12779649?co=GENIE.Platform%3DDesktop&hl=pt-BR) também aceita quadrado ou vertical. **3:4**, **4:5** e **9:16** são todas verticais, mas não são intercambiáveis para enquadramento ou desempenho.
+
+**Decisão editorial e teste:** escolher primeiro objetivo, público e informação; identificar superfície exata de destino (feed, carrossel, Shorts, story, anúncio ou ferramenta de agendamento); verificar requisito **atual** da superfície, distinguindo aceitação e recomendação; adaptar layout e alternativas acessíveis; publicar teste sem informações sensíveis; conferir enquadramento real, legibilidade, descrição e acesso à fonte oficial. A adequação do formato à tarefa permanece hipótese a testar com usuários e indicadores, não conclusão derivada de dimensões em pixels.
+
+**Item 4, inédito.** Uma peça de 1080 × 1350 px e outra de 1080 × 1440 px possuem a mesma proporção, desde que ambas sejam verticais.
+
+**Gabarito: Errado.** A primeira é **4:5** e a segunda é **3:4**. Orientação retrato não significa igualdade da razão largura:altura.
+
+**Item 5, inédito.** A documentação do YouTube admite vídeos quadrados ou verticais com até três minutos como Shorts nos recortes de envio e modalidade de canal que especifica; por isso, afirmar que todo Short precisa obrigatoriamente ter proporção 9:16 é incorreto.
+
+**Gabarito: Certo.** A fonte distingue os critérios temporais e tipos de canal. A inferência sobre 9:16 não deve ser transformada em garantia de desempenho, alcance ou aceitação por serviços terceiros.
+
+**Fontes:** [YouTube Help, *Understand three-minute YouTube Shorts*](https://support.google.com/youtube/answer/15424877?hl=pt-BR), [YouTube Help, envio por computador](https://support.google.com/youtube/answer/12779649?co=GENIE.Platform%3DDesktop&hl=pt-BR), [notícia do anúncio do Instagram de 28/05/2025](https://www.socialmediatoday.com/news/instagram-adds-support-phone-camera-aspect-ratio-images/749205/). **Limite:** verificação documental de critérios específicos; não foram realizados testes de publicação em contas reais nem acesso autenticado às APIs. Exercícios 4 e 5 são inéditos e não pertencem ao corpus histórico Cebraspe.
 
 ## Relações, tensões e heurísticas
 

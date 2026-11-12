@@ -78,7 +78,7 @@ Para resolver um pronome, teste **número, semântica, lógica e efeito da subst
 
 ## Fontes
 
-- [Cambridge Grammar: Relative pronouns](https://dictionary.cambridge.org/grammar/british-grammar/pronouns-relative).
+- [Cambridge Grammar: Relative pronouns](https://dictionary.cambridge.org/grammar/british-grammar/relative-pronouns).
 - [Cambridge English Grammar Today](https://dictionary.cambridge.org/grammar/british-grammar/).
 
 **Escopo:** textos e itens inéditos para estudo instrumental; a correspondência com provas reais ainda requer validação.

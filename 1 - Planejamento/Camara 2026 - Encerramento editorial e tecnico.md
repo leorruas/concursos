@@ -37,6 +37,27 @@ Fontes: `AGENTS.md`, `CHAT.md`, `me.md`, `index.md`, edital local `2 - Editais/C
 
 **Totais recalculados do catálogo:** 339 vínculos matéria-artigo; **333 `articleIds` distintos** (compartilhados contados uma vez); 11 matérias, **0 CONCLUÍDAS sem ressalvas, 10 CONCLUÍDAS COM RESSALVAS, 0 BLOQUEADAS e 1 PENDENTE DE EVIDÊNCIA**. Os `hubArticleId` não são somados como artigos da trilha. **Os números históricos de artigos examinados e questões são de escopos distintos: não somar subtotais de auditorias a bancos estruturados.**
 
+## Pareceres individuais: Comunicação (verificação de arquivos atuais)
+
+O quadro abaixo distingue inspeção atual de arquivos, identidade e problemas explícitos de uma certificação acadêmica exaustiva. Cada linha apresenta um parecer editorial **com ressalvas** ou uma pendência material localizada; a presença de artigo e gabarito não equivale a homologação. A checagem individual usa cabeçalho, corpo Markdown, seções de questões, URLs, wikilinks, cercas de código e sinalizadores explícitos, conciliada com os reparos históricos; links externos não são declarados acessíveis sem teste de rede.
+
+| Artigo | articleId | SHA do conteúdo | Evidência localizada | Parecer individual e ressalva |
+| --- | --- | --- | --- | --- |
+| 01 | `art-9b4bc5f91bab49ae` | `69baab54e06d` | 0 marcadores de exercício, 0 URLs, 2 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 02 | `art-aa982758b945496d` | `7f101dc0b672` | 0 marcadores de exercício, 0 URLs, 8 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 03 | `art-2f08d016bf214fc3` | `26c5486cd41a` | 0 marcadores de exercício, 0 URLs, 15 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 06 | `art-36581e505e5f476c` | `3c1e38400c6d` | 0 marcadores de exercício, 6 URLs, 17 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 07 | `art-50f1296bdde542f0` | `3b782c662cfc` | 0 marcadores de exercício, 2 URLs, 9 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 09 | `art-806546892285426f` | `9705d84b718b` | 3 marcadores de exercício, 2 URLs, 11 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 10 | `art-76a6d49bcd9c4a3e` | `5b3dc7080aab` | 0 marcadores de exercício, 0 URLs, 8 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 100 | `art-c2d947e6a15083bf` | `2f18b7bfbb73` | 4 marcadores de exercício, 11 URLs, 6 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 101 | `art-e51bc97a40d268f3` | `b649a6310f07` | 4 marcadores de exercício, 7 URLs, 6 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 102 | `art-8b1e6d903f42c7a5` | `346ecfc173f5` | 5 marcadores de exercício, 3 URLs, 3 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 103 | `art-4e9d2a7c813f65b0` | `e29feb345ba1` | 7 marcadores de exercício, 8 URLs, 4 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 104 | `art-9f3a6c218d45b7e0` | `347e9e20659d` | 6 marcadores de exercício, 6 URLs, 8 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 105 | `art-6f2a9c40d83e175b` | `36ce5fca0187` | 5 marcadores de exercício, 9 URLs, 7 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+| 106 | `art-7d3c9e14a80b62f5` | `1b109a9b9911` | 5 marcadores de exercício, 8 URLs, 7 wikilinks; 0 NH; cercas pares | CONCLUÍDO COM RESSALVAS: identidade e estrutura recuperadas; precisão conceitual não homologada integralmente |
+
 ## Reconciliação de Comunicação: 128, 133 e 120
 
 A árvore atual de `3 - Materias/Comunicacao/` possui **133 arquivos Markdown**: **127 numerados** (01–124 mais 22.1/22.2/22.3), **um hub** e **cinco notas auxiliares sem numeração** (Assessoria de imprensa – Jorge Duarte; Comunicação pública – Jorge Duarte; Comunicação pública e democracia; Kunsch; Mídias sociais – Jorge Duarte). Portanto **127 numerados + hub = 128** unidades do inventário histórico. Foram lidos os metadados `articleId` dos **133 arquivos**, sem ausência desse campo nos cabeçalhos consultados. Dos numerados, **sete não constam no recorte da Câmara**: 04, 05, 08, 13, 14, 21 e 23. Os **outros 120 numerados** têm `articleId` presente na lista da matéria no catálogo; o hub utiliza `hubArticleId`. Assim, a diferença 128 versus 120 é **explicada pela definição do recorte**, sem necessidade de criar ou duplicar oito artigos. Isso atesta **integridade do inventário de identidade**, não certificação acadêmica dos 120 textos.

@@ -24080,6 +24080,222 @@
       "statement": "A remissão feita pela Política de Comunicação alcança propaganda eleitoral e partidária, mas permite propaganda sindical em produtos de comunicação da Câmara por se tratar de representação profissional.",
       "correctAnswer": "E",
       "explanation": "O inciso I inclui propaganda sindical ao lado da eleitoral e da político-partidária."
+    },
+    {
+      "id": "cam-cs-assessoria-resposta-com-area-tecnica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "assessoria-resposta-com-area-tecnica",
+      "mechanism": "assessoria-resposta-com-area-tecnica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Agência, Assessoria, Portal e participação: responsabilidades distintas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Agência, Assessoria, Portal e participação: responsabilidades distintas"
+      },
+      "statement": "Um repórter pede esclarecimento sobre um procedimento administrativo da Câmara. A Assessoria de Imprensa pode consultar a unidade técnica para formular a resposta institucional.",
+      "correctAnswer": "C",
+      "explanation": "O atendimento a jornalistas inclui preparar respostas com apoio das áreas que dominam a informação solicitada."
+    },
+    {
+      "id": "cam-cs-assessoria-replicacao-pauta-plenario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "assessoria-replicacao-pauta-plenario",
+      "mechanism": "assessoria-replicacao-pauta-plenario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Agência, Assessoria, Portal e participação: responsabilidades distintas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Agência, Assessoria, Portal e participação: responsabilidades distintas"
+      },
+      "statement": "Como a Agência Câmara noticia a pauta do Plenário, a Assessoria de Imprensa deve reproduzi-la em release próprio para cumprir a mesma função institucional.",
+      "correctAnswer": "E",
+      "explanation": "O Manual reserva a cobertura dessas pautas aos veículos próprios e distingue essa atividade dos releases da Assessoria."
+    },
+    {
+      "id": "cam-cs-assessoria-tratamento-de-veiculos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "assessoria-tratamento-de-veiculos",
+      "mechanism": "assessoria-tratamento-de-veiculos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Agência, Assessoria, Portal e participação: responsabilidades distintas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Agência, Assessoria, Portal e participação: responsabilidades distintas"
+      },
+      "statement": "A orientação de tratamento igualitário pela Assessoria de Imprensa também se aplica quando dois veículos de portes diferentes solicitam a mesma informação institucional.",
+      "correctAnswer": "C",
+      "explanation": "O porte do veículo não altera o critério de tratamento no atendimento institucional."
+    },
+    {
+      "id": "cam-cs-assessoria-voz-release-institucional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "assessoria-voz-release-institucional",
+      "mechanism": "assessoria-voz-release-institucional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Agência, Assessoria, Portal e participação: responsabilidades distintas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Agência, Assessoria, Portal e participação: responsabilidades distintas"
+      },
+      "statement": "Para manter a voz institucional em seus releases, a Assessoria de Imprensa deve preferir a inclusão de declarações indiretas de autoridades à formulação de uma resposta em nome da instituição.",
+      "correctAnswer": "E",
+      "explanation": "A orientação editorial recomenda evitar declarações diretas e indiretas nesses releases para preservar a voz institucional."
+    },
+    {
+      "id": "cam-cs-comentario-sem-protocolo-de-participacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "comentario-sem-protocolo-de-participacao",
+      "mechanism": "comentario-sem-protocolo-de-participacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Agência, Assessoria, Portal e participação: responsabilidades distintas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Agência, Assessoria, Portal e participação: responsabilidades distintas"
+      },
+      "statement": "O comentário em uma postagem oficial pode expressar a opinião do cidadão, mas seu eventual registro como contribuição formal depende das regras do instrumento de participação correspondente.",
+      "correctAnswer": "C",
+      "explanation": "A possibilidade de interação na postagem e o reconhecimento procedimental de uma contribuição seguem critérios distintos."
+    },
+    {
+      "id": "cam-cs-manual-fonte-de-ato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "manual-fonte-de-ato",
+      "mechanism": "manual-fonte-de-ato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Arquitetura do Manual: camadas que não se confundem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Arquitetura do Manual: camadas que não se confundem"
+      },
+      "statement": "Quando o Manual reproduz uma vedação instituída por ato da Mesa, a força normativa da vedação passa a decorrer da edição do Manual, independentemente do ato citado.",
+      "correctAnswer": "E",
+      "explanation": "A vedação decorre da norma que a instituiu. A reprodução no Manual facilita consulta e aplicação."
+    },
+    {
+      "id": "cam-cs-camada-procedimento-e-glossario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "camada-procedimento-e-glossario",
+      "mechanism": "camada-procedimento-e-glossario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Arquitetura do Manual: camadas que não se confundem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Arquitetura do Manual: camadas que não se confundem"
+      },
+      "statement": "Um glossário que explica o termo usado numa notícia e uma orientação que distribui tarefas entre equipes desempenham funções diferentes dentro do Manual.",
+      "correctAnswer": "C",
+      "explanation": "O glossário esclarece vocabulário. A orientação operacional descreve a execução ou a responsabilidade por uma atividade."
+    },
+    {
+      "id": "cam-cs-remissao-perfis-regime-autonomo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "remissao-perfis-regime-autonomo",
+      "mechanism": "remissao-perfis-regime-autonomo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Arquitetura do Manual: camadas que não se confundem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Arquitetura do Manual: camadas que não se confundem"
+      },
+      "statement": "A existência de uma seção de redes sociais no Manual basta para localizar ali a origem de toda regra aplicável à governança dos perfis oficiais.",
+      "correctAnswer": "E",
+      "explanation": "A seção contém orientações e remissões. Regras de governança dos perfis também têm fundamento em atos próprios."
     }
   ]
 }

@@ -16,7 +16,7 @@ updated: 2026-11-06
 
 **Poder político** é uma relação ou capacidade de influenciar decisões e condutas, inclusive pela possibilidade de impor consequências ou controlar alternativas. **Autoridade** refere-se ao direito reconhecido ou reivindicado de dar ordens e tomar decisões em determinado âmbito. **Legitimidade** diz respeito às crenças, justificações e critérios pelos quais esse exercício do poder é considerado aceitável ou correto. **Dominação**, na definição de Max Weber, é a **probabilidade de encontrar obediência a um comando de determinado conteúdo entre pessoas indicáveis**. A dominação legítima se sustenta em crenças de validade da ordem, embora práticas concretas possam combinar fundamentos e incentivos distintos.
 
-A [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|nota 01]] já apresenta Estado, governo, Administração e introdução aos três tipos ideais de Weber. Esta unidade aprofunda **definições, autores, mecanismos de poder, fontes de legitimidade e limites**, buscando distratores que deslocam uma descrição correta para outra categoria. A próxima unidade, **CAM-CP-003**, examinará correntes de teoria política.
+A [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|Estado, governo, administração e legitimidade]] já apresenta Estado, governo, Administração e introdução aos três tipos ideais de Weber. Esta unidade aprofunda **definições, autores, mecanismos de poder, fontes de legitimidade e limites**, buscando distratores que deslocam uma descrição correta para outra categoria. A próxima unidade, **CAM-CP-003**, examinará correntes de teoria política.
 
 ## Primeira fronteira: influência, poder, autoridade, coerção e dominação
 

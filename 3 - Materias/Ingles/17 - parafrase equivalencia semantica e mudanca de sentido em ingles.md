@@ -14,11 +14,11 @@ tags:
 
 # Paráfrase, Equivalência Semântica e Mudança de Sentido em Inglês
 
-Nas provas de Língua Inglesa elaboradas pelo Cebraspe para carreiras legislativas e de controle (como o cargo de Analista Legislativo da Câmara dos Deputados), as questões de **paráfrase e reescrita de segmentos textuais** constituem a expressão máxima da avaliação integrada de competências linguísticas. Nelas convergem a sintaxe da oração, a precisão lexical, a regência prepositiva, a preservação do tempo/aspecto verbal e a estrita manutenção das relações lógico-semânticas do texto original.
+Exercícios de **paráfrase e reescrita** integram sintaxe, precisão lexical, regência, tempo/aspecto verbal e relações lógico-semânticas. O critério de resposta depende do comando: a reescrita pode manter o evento e seus participantes sem repetir a mesma estrutura ou foco informacional.
 
-O comando clássico da banca — *"The sentence '...' could be rewritten as '...' without alteration of its original meaning or violation of grammatical correctness"* — exige do candidato um exame minucioso em duas etapas independentes:
+Um **comando hipotético de treino**, como *"The sentence '...' could be rewritten as '...' without alteration of its original meaning or violation of grammatical correctness"*, demanda dois exames distintos:
 1. **O Filtro da Correção Gramatical:** A nova redação atende a todas as regras da norma culta em inglês (concordância sujeito-verbo, regência prepositiva, estrutura oracional e ordem das palavras)?
-2. **O Filtro da Equivalência Semântica e Pragmática:** A reescrita preserva o sentido denotativo, o foco informacional (*theme/rheme*), o grau de modalização (*hedging*), a polaridade lógica e o escopo dos quantificadores, sem incorrer em generalização excessiva, atenuação indevida ou inversão de papéis de causa e efeito?
+2. **O Filtro da Equivalência Semântica e Pragmática:** A reescrita preserva participantes, evento, finalidade expressa, relações de causa, polaridade, modalidade e escopo? O foco informacional (*theme/rheme*) pode mudar em transformações como ativa/passiva sem alteração necessária das condições de verdade; só exigir identidade de foco quando o comando pedir também equivalência discursiva específica.
 
 ---
 

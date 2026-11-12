@@ -39,7 +39,9 @@ Esta unidade **CAM-PL-009** estuda precisamente a **fronteira entre abreviação
 
 Um **projeto de lei ordinária** pode ter **tramitação prioritária** por ser do Executivo, sem pedido de urgência constitucional; pode ser **ordinário e conclusivo** nas comissões, quando permitido; e, em urgência constitucional, segue **rito sumário** por causa do art. 64. O adjetivo *ordinária* da espécie não fixa por si só o rito nem o regime.
 
-**Duas escolhas especialmente distintas:** **prioridade** regula ordem e prazos regimentais; **apreciação conclusiva** regula a **competência decisória** das comissões. **Sumário** decorre de um pedido presidencial específico na forma da Constituição, com prazos constitucionais. O mesmo número ou palavra não deve ser levado de uma dimensão para outra.
+**Como separar as quatro perguntas na prática?** Considere um projeto que pretende criar uma lei ordinária. **Espécie normativa** responde que tipo de lei será produzida. **Procedimento** descreve o caminho pelo qual o projeto será analisado. **Regime de tramitação** indica se ele recebe tratamento ordinário, prioridade ou urgência conforme o Regimento. **Instância decisória** identifica quem pode dar a decisão legislativa na Casa: comissões ou Plenário. Assim, dizer que o projeto é uma *lei ordinária* ainda não informa se ele será decidido pelas comissões.
+
+**Três termos que parecem equivalentes e não são:** *prioridade* altera o tratamento regimental e os prazos; *apreciação conclusiva* permite, nos casos autorizados, que as comissões decidam sem votação ordinária do Plenário; *procedimento sumário* é a classificação didática usada para a urgência solicitada pelo Presidente da República nos termos do art. 64 da Constituição. Identifique primeiro **quem decide** e **o que muda no percurso**, antes de associar um nome ao caso.
 
 ## Procedimento abreviado: o projeto pode ser decidido nas comissões
 
@@ -69,9 +71,13 @@ Um **projeto de lei ordinária** pode ter **tramitação prioritária** por ser 
 5. O **art. 132, § 2º**, exige que o recurso seja apresentado e **provido por decisão do Plenário** para que a matéria recorrida seja discutida e votada por ele.
 6. Se não houver recurso no prazo ou se ele for **improvido**, a proposição segue à **redação final ou ao arquivamento**, conforme o resultado. O **art. 58, § 5º**, estabelece **72 horas** para o encaminhamento pertinente após a aprovação da redação final.
 
-**Via regimental distinta do recurso:** o **art. 52, § 6º**, permite, **esgotados os prazos regimentais de exame**, que o Presidente da Câmara, de ofício ou a requerimento de qualquer deputado, determine o envio de proposição ainda pendente de parecer à comissão seguinte ou ao Plenário, conforme o caso, **independentemente da interposição do recurso do art. 132, § 2º**. A hipótese trata de **prazo de comissão e proposição pendente de parecer**; não confundi-la com o recurso de um décimo **após decisão conclusiva e publicação**, cujo provimento pelo Plenário é exigido no art. 132, § 2º.
+**Existem dois caminhos diferentes para o Plenário participar, e eles acontecem em momentos distintos.**
 
-**Recurso possível não significa votação plenária automática.** O recurso exige subscrição e trâmite próprios; sua mera apresentação não substitui a decisão de provimento exigida pelo RICD.
+**Primeiro caminho: uma comissão ainda não terminou seu trabalho.** Imagine que um projeto permaneça em uma comissão além do prazo regimental para emitir parecer. Pelo **art. 52, § 6º, do Regimento Interno da Câmara dos Deputados (RICD)**, o Presidente da Câmara pode determinar seu envio à comissão seguinte ou ao Plenário, conforme o caso. Ele pode agir por iniciativa própria (*de ofício*) ou a pedido de qualquer deputado. A regra trata de **atraso no exame de um projeto que ainda está pendente de parecer**.
+
+**Segundo caminho: as comissões já decidiram conclusivamente.** Agora imagine que as comissões terminaram a análise e a proposição foi publicada para permitir contestação. Nessa situação, o **art. 58 do RICD** abre prazo de **cinco sessões** para um recurso assinado por **pelo menos um décimo dos deputados**. O recurso é um pedido formal para que a matéria indicada seja examinada pelo Plenário. Pelo **art. 132, § 2º**, é preciso também que o Plenário **dê provimento ao recurso**, isto é, acolha o pedido, para discutir e votar a parte recorrida.
+
+**Por que isso muda a resposta?** O envio por atraso ocorre **antes de existir um parecer conclusivo final**. O recurso ocorre **depois da apreciação conclusiva das comissões**. Um deputado sozinho pode requerer a providência do art. 52, § 6º, nas condições dessa regra; esse pedido não substitui o recurso subscrito por um décimo dos membros, previsto para a situação posterior. Da mesma forma, **apresentar um recurso não faz o projeto ir automaticamente à votação plenária**: ainda é necessário seu provimento. [Fonte oficial: RICD, arts. 52, § 6º, 58 e 132, § 2º](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
 
 ### Conclusivo na Câmara e terminativo no Senado: cuidado com os dois usos de “terminativo”
 

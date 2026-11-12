@@ -5,12 +5,12 @@ title: "Poder judiciário e controle de constitucionalidade"
 type: "conceito"
 status: "ativo"
 created: 2026-06-09
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Poder judiciário e controle de constitucionalidade
 
-O Poder Judiciário exerce função jurisdicional e integra o sistema de freios e contrapesos. No controle de constitucionalidade, verifica-se a compatibilidade de leis e atos normativos com a Constituição. Para prova, o maior ganho vem de separar **controle difuso × concentrado**, **inconstitucionalidade formal × material**, **órgão fracionário × plenário** e **controle administrativo do CNJ × função jurisdicional**.
+O Poder Judiciário exerce **função jurisdicional**, isto é, resolve conflitos e aplica o direito a casos submetidos à sua competência. No **controle de constitucionalidade**, verifica se as leis e os atos normativos respeitam a **Constituição Federal (CF)**. O artigo apresenta a função do **Supremo Tribunal Federal (STF)** e diferencia **controle difuso e concentrado**, **inconstitucionalidade formal e material**, **órgão fracionário e plenário** e **controle administrativo do Conselho Nacional de Justiça (CNJ) e função jurisdicional**. As questões comentadas usam o formato **Certo ou Errado (C/E)** da banca Cebraspe.
 
 ## STF e guarda da Constituição
 
@@ -47,10 +47,10 @@ Pode ser realizado por juiz singular e por tribunais, observadas as regras const
 
 No controle concentrado, a constitucionalidade é discutida **como objeto principal** da ação perante o órgão constitucionalmente competente. No STF, entre os instrumentos centrais estão:
 
-- **ADI** — ação direta de inconstitucionalidade de lei ou ato normativo federal ou estadual;
-- **ADC** — ação declaratória de constitucionalidade de lei ou ato normativo federal;
-- **ADO** — ação direta de inconstitucionalidade por omissão;
-- **ADPF** — arguição de descumprimento de preceito fundamental, disciplinada pela Constituição e pela Lei nº 9.882/1999.
+- **Ação Direta de Inconstitucionalidade (ADI):** questiona, no controle abstrato, a constitucionalidade de lei ou ato normativo federal ou estadual;
+- **Ação Declaratória de Constitucionalidade (ADC):** busca confirmar a constitucionalidade de lei ou ato normativo federal;
+- **Ação Direta de Inconstitucionalidade por Omissão (ADO):** examina falta de providência normativa necessária para tornar efetiva uma regra da Constituição;
+- **Arguição de Descumprimento de Preceito Fundamental (ADPF):** medida constitucional que exige os requisitos próprios da Lei nº 9.882/1999. O *preceito fundamental* é uma norma ou princípio essencial da ordem constitucional.
 
 As decisões definitivas de mérito do STF em **ADI e ADC** produzem eficácia contra todos e efeito vinculante em relação aos demais órgãos do Poder Judiciário e à Administração Pública direta e indireta, nos termos do art. 102, §2º.
 
@@ -58,11 +58,11 @@ Pegadinha: **ADC não tem como objeto lei estadual** no art. 102, I, `a`; ADI, p
 
 ### Legitimados do controle abstrato e pertinência temática
 
-O **art. 103 da CF** permite propor **ADI e ADC** ao **Presidente da República**, à **Mesa do Senado**, à **Mesa da Câmara**, à **Mesa de Assembleia Legislativa ou da Câmara Legislativa do DF**, ao **Governador de Estado ou do DF**, ao **Procurador-Geral da República**, ao **Conselho Federal da OAB**, a **partido político com representação no Congresso** e a **confederação sindical ou entidade de classe de âmbito nacional**. O rol **não abrange qualquer cidadão, deputado isoladamente ou prefeito**. A Lei nº 9.868/1999 aplica o procedimento pertinente também à **ADO**, conforme suas disposições específicas; a ADPF tem disciplina própria na Lei nº 9.882/1999.
+O **art. 103 da CF** permite propor **ADI e ADC** ao **Presidente da República**, à **Mesa do Senado**, à **Mesa da Câmara**, à **Mesa de Assembleia Legislativa ou da Câmara Legislativa do Distrito Federal (DF)**, ao **Governador de Estado ou do DF**, ao **Procurador-Geral da República (PGR)**, ao **Conselho Federal da Ordem dos Advogados do Brasil (OAB)**, a **partido político com representação no Congresso** e a **confederação sindical ou entidade de classe de âmbito nacional**. O rol **não abrange qualquer cidadão, deputado isoladamente ou prefeito**. A Lei nº 9.868/1999 aplica o procedimento pertinente também à **ADO**, conforme suas disposições específicas; a ADPF tem disciplina própria na Lei nº 9.882/1999.
 
 **Legitimados universais × especiais:** a jurisprudência do STF exige **pertinência temática** da **Mesa de Assembleia Legislativa/Câmara Legislativa do DF**, dos **governadores** e das **confederações sindicais e entidades de classe nacionais**. Os demais legitimados do art. 103 são tratados como **universais**, sem essa demonstração específica. A pertinência temática é vínculo entre a matéria contestada e as finalidades institucionais do legitimado, e **não equivale a interesse pessoal de qualquer eleitor**.
 
-**Atuação institucional:** o **PGR deve ser previamente ouvido nas ações de inconstitucionalidade e em todos os processos de competência do STF**, na forma do art. 103, § 1º; o **AGU será previamente citado para defender o ato ou texto impugnado** quando o STF apreciar inconstitucionalidade de norma em tese, segundo o § 3º, respeitados os limites fixados pela jurisprudência. A função do PGR não é idêntica à defesa do ato atribuída ao AGU.
+**Atuação institucional:** o **PGR deve ser previamente ouvido nas ações de inconstitucionalidade e em todos os processos de competência do STF**, na forma do art. 103, § 1º; o **Advogado-Geral da União (AGU) será previamente citado para defender o ato ou texto impugnado** quando o STF apreciar inconstitucionalidade de norma em tese, segundo o § 3º, respeitados os limites fixados pela jurisprudência. A função do PGR não é idêntica à defesa do ato atribuída ao AGU.
 
 ## Reserva de plenário — art. 97 e Súmula Vinculante 10
 
@@ -70,7 +70,7 @@ O art. 97 estabelece que os tribunais somente podem declarar a inconstitucionali
 
 Essa é a cláusula de **reserva de plenário**.
 
-A Súmula Vinculante 10 fecha uma tentativa comum de contornar a regra: um órgão fracionário também viola o art. 97 quando, sem declarar expressamente a inconstitucionalidade, **afasta a incidência da norma, no todo ou em parte, com fundamento constitucional**.
+A Súmula Vinculante nº 10 (SV 10) fecha uma tentativa comum de contornar a regra: um órgão fracionário também viola o art. 97 quando, sem declarar expressamente a inconstitucionalidade, **afasta a incidência da norma, no todo ou em parte, com fundamento constitucional**.
 
 Duas fronteiras importantes:
 
@@ -93,13 +93,23 @@ Imagine que vários processos cheguem ao **Supremo Tribunal Federal (STF)** disc
 
 **Quem pode iniciar e quem fica obrigado?** O próprio STF pode agir **de ofício** (sem pedido) ou ser provocado pelos legitimados previstos na legislação, conforme o art. 103-A, § 2º, e a Lei nº 11.417/2006. A súmula aprovada obriga os **demais órgãos do Poder Judiciário** e a **administração pública direta e indireta** nas esferas federal, estadual e municipal. Administração direta são os órgãos que integram os entes federativos; indireta inclui entidades como autarquias. O próprio STF pode **revisar** (alterar o entendimento) ou **cancelar** a súmula, na forma legal. O texto constitucional não inclui o Poder Legislativo no exercício típico de legislar entre os destinatários expressamente vinculados.
 
+**Quem pode provocar o procedimento, com mais precisão?** A Constituição, art. 103-A, § 2º, admite os legitimados da ação direta de inconstitucionalidade, mas a **Lei nº 11.417/2006, art. 3º**, também inclui, por exemplo, o **Defensor Público-Geral da União** e tribunais expressamente relacionados. O **município** pode propor a edição, revisão ou cancelamento de súmula **dentro de processo do qual seja parte** (pedido incidental), sem suspender esse processo por isso. A lei exige que o **Procurador-Geral da República (PGR)** se manifeste previamente nas propostas que não apresentou (art. 2º, § 2º). O pedido de um legitimado ainda depende de julgamento do STF: legitimidade para propor e competência para decidir são papéis diferentes.
+
+**Depois da votação:** a Lei nº 11.417/2006, art. 2º, § 4º, prevê que o enunciado seja publicado na imprensa oficial **em até dez dias após a sessão**. Pela regra geral da Constituição, o efeito vinculante começa com a publicação. A lei, art. 4º, admite que o STF, por decisão de **dois terços de seus membros**, restrinja os efeitos ou fixe outro momento para o início deles, por razões de segurança jurídica ou excepcional interesse público. Essa mudança do momento dos efeitos se chama **modulação temporal**; não decorre automaticamente de qualquer proposta.
+
+**Revisar, cancelar e propor são atos distintos:** revisar muda o texto ou entendimento; cancelar retira a orientação vinculante. Quando a norma que fundamentou a súmula é revogada ou modificada, o STF deve proceder à revisão ou ao cancelamento **conforme o caso** (Lei nº 11.417/2006, art. 5º). A **simples proposta** de edição, revisão ou cancelamento **não suspende os processos** sobre a mesma questão (art. 6º).
+
 **O que acontece se ela for desrespeitada?** O art. 103-A, § 3º, prevê **reclamação ao STF**, instrumento para pedir que o Tribunal preserve a autoridade da súmula quando uma decisão judicial ou ato administrativo a contrariar ou aplicar indevidamente. Se a reclamação for julgada procedente, o STF **anula o ato administrativo ou cassa a decisão judicial** e determina que outra decisão seja proferida, com ou sem aplicação da súmula, conforme o caso. Para ato ou omissão da administração pública, a Lei nº 11.417/2006, art. 7º, § 1º, exige antes o **esgotamento das vias administrativas**. Exemplo: se um órgão administrativo aplica uma interpretação contrária a uma súmula vinculante, o interessado deve observar essa condição antes de reclamar ao STF.
 
 **Não confunda os instrumentos.** A **Ação Direta de Inconstitucionalidade (ADI)** e a **Ação Declaratória de Constitucionalidade (ADC)** são ações de controle abstrato; as decisões definitivas de mérito nelas proferidas produzem eficácia contra todos e efeito vinculante nos termos do art. 102, § 2º. A súmula vinculante é um **enunciado aprovado após decisões reiteradas**, com os requisitos próprios do art. 103-A. A **Súmula Vinculante 10**, citada acima, é um exemplo de enunciado vinculante sobre a reserva de plenário, mas a regra do art. 97 e o procedimento do art. 103-A respondem a perguntas diferentes: o primeiro disciplina quem pode declarar inconstitucionalidade em tribunal; o segundo disciplina como o STF aprova um entendimento vinculante.
 
 **Treino Cebraspe, item autoral:** “Basta a maioria absoluta dos ministros do STF para aprovar súmula vinculante, desde que existam decisões reiteradas.” **Errado.** A Constituição exige dois terços dos membros e os requisitos materiais do § 1º.
 
-**Fontes normativas:** [Constituição Federal atualizada, art. 103-A, caput e §§ 1º a 3º, e art. 102, § 2º](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html); [Lei nº 11.417/2006, especialmente arts. 2º, 3º e 7º](https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11417.htm). Explicações e exemplos acima são paráfrases didáticas, não transcrições literais da lei.
+**Teste C/E aplicado:** “A apresentação de proposta de revisão de súmula vinculante suspende os processos que discutem a mesma controvérsia.” **Errado.** A Lei nº 11.417/2006, art. 6º, afasta essa consequência automática.
+
+**Teste C/E aplicado:** “Uma reclamação ao STF contra ato administrativo por desrespeito a súmula vinculante dispensa o esgotamento das vias administrativas.” **Errado.** O art. 7º, § 1º, da Lei nº 11.417/2006 exige esse requisito quando se questiona ato ou omissão da administração pública.
+
+**Fontes normativas:** [Constituição Federal atualizada, art. 103-A, caput e §§ 1º a 3º, e art. 102, § 2º](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html); [Lei nº 11.417/2006, especialmente arts. 2º a 7º, publicação da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11417-19-dezembro-2006-548408-publicacaooriginal-63540-pl.html). Explicações e exemplos acima são paráfrases didáticas, não transcrições literais da lei.
 
 ## Garantias da magistratura — art. 95
 
@@ -196,6 +206,7 @@ A reserva de plenário e o controle concentrado se conectam a [[3 - Materias/Dir
 - STF, Súmula Vinculante 10 e jurisprudência sobre reserva de plenário.
 - Lei nº 9.868/1999 — ADI, ADC e ADO.
 - Lei nº 9.882/1999 — ADPF.
+- [Lei nº 11.417/2006, arts. 2º a 7º: edição, revisão, cancelamento e reclamação](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11417-19-dezembro-2006-548408-publicacaooriginal-63540-pl.html).
 - [[11-06-2026|Inbox - 10-06-2026]].
 
 

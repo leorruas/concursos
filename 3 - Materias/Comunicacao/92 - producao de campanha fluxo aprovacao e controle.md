@@ -149,6 +149,22 @@ A [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e 
 
 **Nota de leitura da própria fonte:** o art. 7º, XVII, do Ato 218/2025 contém, na publicação consultada, a referência escrita “Lei n. 13.079” para a LGPD. Trata-se de discrepância textual da publicação, pois a **LGPD é a Lei nº 13.709/2018**; em resposta sobre legislação, distinguir a grafia constante do ato da identificação correta da lei. Não foi afirmada retificação formal dessa publicação.
 
+## Controle de versão: autorização e prova de produção (11/11/2026)
+
+**Caso hipotético:** uma equipe aprova uma peça com endereço e data corretos. A produção adapta o arquivo para vídeo vertical, mas muda o horário exibido na tela. O layout anterior estava aprovado; a nova versão contém **alteração informacional relevante**, que requer conferência de fonte, revisão, controle de versão e aprovação pertinente antes de veicular. A adaptação técnica não transfere a autorização original a qualquer conteúdo derivado.
+
+**Registro mínimo de produção, como boa prática didática:** versão e responsável; fontes e data de confirmação; diferenças materiais entre versões; arquivo acessível (legendas, descrição de elementos visuais necessários e alternativa textual quando pertinente); aprovações compatíveis; veículo e data de publicação; comprovantes de execução; registro de correção. Esse conjunto **não é apresentado como formulário obrigatório da Câmara**, pois depende de procedimento institucional e de contrato. A [Política de Comunicação, Ato nº 218/2025, art. 9º, § 3º](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), exige procedimentos de checagem, revisão e aprovação para garantir precisão de conteúdo publicado em canais próprios e privados.
+
+**Fronteira do serviço contratado:** a [Lei nº 12.232/2010](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-norma-pl.html) inclui coordenação e supervisão técnica de produção externa na publicidade contratada; isso não converte a agência em autoridade de fiscalização do órgão. O registro de entrega ou pagamento não comprova efeito sobre conhecimento, confiança ou participação dos públicos.
+
+**Item 4, inédito.** Se a adaptação de uma arte institucional altera uma informação essencial de prazo, a aprovação da versão anterior não basta para demonstrar a precisão da nova peça.
+
+**Gabarito: Certo.** Alterações materiais demandam validações pertinentes, de acordo com a política e o fluxo adotado.
+
+**Item 5, inédito.** A confirmação de veiculação por um fornecedor comprova automaticamente que a campanha atingiu seus objetivos de compreensão do público, desde que não haja defeito técnico aparente.
+
+**Gabarito: Errado.** Evidência de veiculação é de **execução/output**, não de compreensão ou outcome; a última exige medida compatível. Os itens são novos e autorais.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|CAM-DI-010]]: articulação entre áreas e instâncias. [[3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias|CAM-DI-013]]: precedências e marcos. [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|CAM-DI-008]]: direção da criação. [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|CAM-DI-012]]: distribuição e medidas.

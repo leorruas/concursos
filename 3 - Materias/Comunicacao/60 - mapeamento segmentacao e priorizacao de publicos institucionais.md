@@ -5,7 +5,7 @@ title: "Mapeamento, segmentação e priorização de públicos institucionais"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Mapeamento, segmentação e priorização de públicos institucionais
@@ -220,6 +220,24 @@ O quadro é **hipotético**, não lista fechada dos públicos da Câmara. As est
 **Item 3, inédito:** “Em uma consulta institucional, a seleção dos públicos pela matriz poder × interesse pode orientar esforços de relacionamento, mas não permite concluir que pessoas com baixo poder estejam fora das consequências da decisão ou devam ser excluídas de informações necessárias.”
 
 **Gabarito: Certo.** A matriz é ferramenta gerencial e não mede, sozinha, impacto ou direitos de acesso. **Mecanismo:** limite de inferência e aplicação ao setor público.
+
+## Oficina de decisão: públicos com baixo poder e alta exposição ao serviço
+
+**Situação:** uma mudança na consulta à tramitação legislativa afeta jornalistas, servidores, pesquisadores e cidadãos com conexão precária. A equipe propõe comunicar apenas aos grupos com maior influência política. A **matriz de poder e interesse** ajuda a ordenar esforços de relacionamento, mas não prova que cidadãos com pouco poder possam ser excluídos do acesso à informação. A **saliência de Mitchell, Agle e Wood** examina outra pergunta: **poder, legitimidade e urgência**, cuja combinação muda a classe do stakeholder. A abordagem situacional de **Grunig** investiga reconhecimento de problemas e comportamentos comunicacionais, também distinta de poder institucional.
+
+O [art. 8º do Ato da Mesa nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html) estabelece que a Câmara se comunique com **todos os cidadãos**, ampliando o acesso ao Legislativo. Seu parágrafo único atribui à Diretoria Executiva de Comunicação e Mídias Digitais o **mapeamento de públicos internos e externos** e o gerenciamento do relacionamento segundo características e temas de interesse, utilizando canais adequados. Essa obrigação institucional de inclusão **não é substituída** por uma matriz gerencial de priorização.
+
+**Caso progressivo:** (A) usuários habituais relatam satisfação: dado de experiência desse segmento, não de todos os cidadãos; (B) uma pesquisa encontra cidadãos que não acessam o portal por barreiras técnicas: grupo pouco visível na análise de audiência que exige inclusão; (C) um grupo afetado por prazo iminente apresenta demanda legítima e urgente, mas sem influência: em Mitchell, pode ser **dependente**; (D) adquire poder para influenciar a decisão: os três atributos juntos correspondem à categoria **definitiva**. O diagnóstico deve indicar método de identificação de públicos, evidências de necessidades e retorno institucional, sem confundir uma alteração no modelo teórico com atribuição de direitos.
+
+**Item 4, inédito.** Na política de comunicação da Câmara, o mapeamento de públicos por canais adequados autoriza excluir da comunicação os cidadãos que ocupem o quadrante de baixo poder e baixo interesse em uma matriz gerencial de stakeholders.
+
+**Gabarito: Errado.** O art. 8º exige ampliar o acesso a todos os cidadãos. Priorizar esforços de relacionamento não afasta deveres de transparência, acesso e inclusão.
+
+**Item 5, inédito.** Na tipologia de Mitchell, Agle e Wood, um público com legitimidade e urgência, mas sem poder, é classificado como dependente; se também adquirir poder, pode passar à categoria definitiva.
+
+**Gabarito: Certo.** A assertiva diferencia duas combinações de atributos. São **exercícios autorais**, não itens históricos do Cebraspe.
+
+**Fontes:** [Ato 218/2025, art. 8º](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html); [Mitchell, Agle e Wood (1997)](https://doi.org/10.5465/AMR.1997.9711022105); [OCDE, diretrizes para participação cidadã (2022)](https://www.oecd.org/en/publications/oecd-guidelines-for-citizen-participation-processes_f765caf6-en.html). O caso é hipotético, sem atribuição de condições reais aos públicos da Câmara.
 
 ## Aplicação discursiva e heurísticas
 

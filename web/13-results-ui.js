@@ -43,7 +43,7 @@ function makeArticle(article){
  const top=el('summary');
  const row=el('span','results-card-top');
  const a=el('span','',name);
- const score=el('span','results-score',article.priority+' / 100');
+ const score=priorityLabel(article.priority);
  row.append(a,score);top.append(row);outer.append(top);
  const explain=el('p','results-meta',article.reason+' · '+article.concepts.length+' conceito(s) relacionado(s)'+(article.dueOn?' · Revisão sugerida: '+fmtDate(article.dueOn):''));
  outer.append(explain);
@@ -52,6 +52,29 @@ function makeArticle(article){
  if(article.mistakes.length){outer.append(el('p','results-meta','Questões respondidas incorretamente'));for(const q of article.mistakes)outer.append(renderQuestion(q,article));}
  if(article.uncertainCorrect.length){outer.append(el('p','results-meta','Acertos com insegurança declarada'));for(const q of article.uncertainCorrect)outer.append(renderQuestion(q,article));}
  return outer;
+}
+function conceptLinks(container,concept){
+ const articleIds=[...new Set(Array.isArray(concept.articles)?concept.articles:[])].filter(id=>manifest.has(id));
+ const links=el('div','results-article-links');
+ if(!articleIds.length){
+  links.append(el('small','results-caption','Ainda sem artigo vinculado no catálogo.'));
+ }else{
+  links.append(el('small','results-caption','Ler no artigo:'));
+  for(const id of articleIds.slice(0,4)){
+   const meta=manifest.get(id);
+   const link=el('a','results-link',meta?.tituloExibicao||meta?.titulo||'Artigo relacionado');
+   link.href=articleLink({articleId:id});
+   link.rel='noreferrer';
+   links.append(link);
+  }
+  if(articleIds.length>4)links.append(el('small','results-caption','e mais '+(articleIds.length-4)+' artigo(s)'));
+ }
+ container.append(links);
+}
+function priorityLabel(score){
+ const label=el('strong','results-score','prioridade '+score+'/100');
+ label.title='Índice de prioridade de revisão: quanto maior, mais cedo vale revisar. Não é nota nem taxa de erros.';
+ return label;
 }
 function stat(label,value){const box=el('div','results-stat');box.append(el('span','results-caption',label),el('strong','',value));return box;}
 function render(){
@@ -68,7 +91,8 @@ function render(){
  $('results-concepts').replaceChildren(...(cs.length?cs.map(c=>{
   const box=el('div','results-concept');const left=el('div');
   left.append(el('strong','',c.title),el('small','',title(c.subjectId)+' · '+c.errors+' erro(s) em '+c.attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')));
-  box.append(left,el('strong','results-score',c.priority+' / 100'));return box;
+  conceptLinks(left,c);
+  box.append(left,priorityLabel(c.priority));return box;
  }):[el('p','results-caption','Sem recorrências registradas para priorizar.')]));
  $('results-subjects').replaceChildren(...(current.bySubject||[]).map(s=>{
   const row=el('tr');const answered=s.correct+s.incorrect;
@@ -107,6 +131,16 @@ async function load(){
   }else{status.textContent='Não foi possível consultar o histórico. '+e.message;}
  }
 }
+const themeButton=$('results-theme');
+function setResultsTheme(theme){
+ document.documentElement.setAttribute('data-theme',theme);
+ themeButton.textContent=theme==='light'?'modo escuro':'modo claro';
+ try{localStorage.setItem('tema-concursos',theme);}catch{}
+}
+themeButton.addEventListener('click',()=>{
+ setResultsTheme(document.documentElement.getAttribute('data-theme')==='light'?'dark':'light');
+});
+themeButton.textContent=document.documentElement.getAttribute('data-theme')==='light'?'modo escuro':'modo claro';
 select.addEventListener('change',load);
 $('results-logout').addEventListener('click',async()=>{
  try{await fetch('/v1/logout',{method:'POST',credentials:'same-origin',headers:{Origin:location.origin}});}catch{}

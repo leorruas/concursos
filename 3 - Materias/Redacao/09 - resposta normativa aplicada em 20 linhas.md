@@ -81,3 +81,30 @@ Na prova do Tribunal de Contas do Estado de Minas Gerais de 2026, a **questão 1
 **Resposta nuclear possível:** “Pelo art. 8º da Lei nº 12.527/2011, a administração deve divulgar, independentemente de requerimento, informações de interesse coletivo ou geral no âmbito de suas competências. O art. 10 disciplina o pedido apresentado por interessado e veda exigir os motivos da solicitação de informação de interesse público. Em ambos os casos, o dever de acesso deve ser aplicado com atenção às hipóteses legais de restrição e às informações protegidas, sem presumir abertura irrestrita de qualquer dado”.
 
 **Falhas a diagnosticar:** afirmar que transparência ativa depende de requerimento confunde os arts. 8º e 10; afirmar que o órgão pode exigir motivação pessoal contraria o art. 10, §3º; afirmar acesso público indiscriminado ignora exceções legais. **Variação:** peça apenas “apresente duas diferenças” exige responder cada uma, dispensando introdução sobre a história da LAI. [Lei nº 12.527/2011, Planalto](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). Enunciado e exemplo **autorais**, sem pontuação oficial.
+
+## Aplicação normativa progressiva: três situações, três limites
+
+**Problema de prova:** “há publicidade” é uma frase insuficiente para concluir que uma peça institucional viola ou respeita a Constituição. O art. 37, § 1º, exige verificar **finalidade e caracterização de promoção pessoal**. A resposta normativa deve separar fatos comprovados, hipótese jurídica e consequência proporcional, conforme o [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|artigo canônico sobre o dispositivo]].
+
+**Mesmo comando didático para os três casos:** “À luz do art. 37, § 1º, da Constituição, avalie a divulgação institucional descrita, indique a condição relevante e proponha encaminhamento editorial compatível”. A grade autoral avalia **norma identificada, fato relevante, aplicação condicionada e encaminhamento**, sem pesos oficiais.
+
+**Caso A: identificação funcional.** Um cartaz anuncia audiência pública, com assunto, data, local e nome de quem presidirá o evento, sem elogio, slogan ou referência a mérito pessoal. A existência do nome **não permite concluir automaticamente promoção pessoal**; a análise depende da função informativa e da composição efetiva da mensagem. Encaminhamento didático: preservar as informações necessárias à participação e verificar se a identificação da autoridade serve à compreensão do ato institucional.
+
+**Caso B: personalização promocional.** O mesmo cartaz é alterado para destacar uma fotografia e a frase “graças à liderança excepcional de X”, atribuindo mérito pessoal à autoridade como eixo da campanha. O dado novo é o **enaltecimento individual**, que pode caracterizar promoção pessoal vedada pela Constituição. Encaminhamento: retirar elementos promocionais e concentrar a mensagem em serviço, tema, participação e fonte institucional. Isso é análise do caso fictício, não decisão administrativa ou sanção confirmada.
+
+**Caso C: informação e acesso restrito.** O cartaz informa corretamente a audiência e remete a um documento que contém dados pessoais sujeitos a restrição legal. O caráter informativo da peça **não afasta** o dever de examinar as restrições de acesso, conforme as normas aplicáveis. O comando não autoriza divulgar todo o documento indiscriminadamente: a solução pode requerer versão pública adequada e encaminhamento à área competente para avaliar a forma de acesso.
+
+| Caso | Variável alterada | Conclusão defensável | Generalização incorreta |
+| --- | --- | --- | --- |
+| A | Identificação para orientar o público | Nome isolado não comprova promoção pessoal | Toda imagem ou nome é vedado |
+| B | Enaltecimento e mérito pessoal na campanha | Elementos podem caracterizar promoção vedada | Toda divulgação que informa um serviço é legítima |
+| C | Documento com informações protegidas | A finalidade pública não elimina restrições legais | Transparência exige publicação integral de qualquer dado |
+
+**Resposta-modelo compacta para o caso B, autoral:** “O art. 37, § 1º, da Constituição exige caráter educativo, informativo ou de orientação social na publicidade de atos, programas, obras, serviços e campanhas e veda nomes, símbolos ou imagens que caracterizem promoção pessoal. Embora informar a audiência seja finalidade legítima, a atribuição destacada de mérito individual pode converter a mensagem em enaltecimento de autoridade. O ajuste adequado é retirar o elemento promocional e manter tema, horário, acesso e fonte oficial, sem afirmar sanção específica que não conste do comando.”
+
+**Três itens C/E inéditos, com gabarito fundamentado:** (1) “A simples identificação do parlamentar que preside uma audiência constitui, necessariamente, promoção pessoal vedada pelo art. 37, § 1º.” **Errado:** a norma condiciona a vedação à caracterização de promoção pessoal. (2) “Uma campanha que informa serviço público está automaticamente isenta de avaliar elementos de promoção individual.” **Errado:** informação de serviço e enaltecimento podem coexistir no mesmo material. (3) “A finalidade informativa de uma mensagem torna irrelevantes as regras legais de proteção de informações pessoais.” **Errado:** finalidades legítimas não revogam limites de acesso.
+
+**Exercício com variação de operação:** em até 20 linhas, compare A e B sob a **mesma regra** e indique a diferença decisiva; em seguida, responda ao caso C em outras 20 linhas explicando por que transparência e proteção de dados devem ser consideradas em conjunto. Mantenha os fatos hipotéticos explicitados, sem criar lei, sanção ou jurisprudência não citada. Corrija em [[07 - revisao e autocorrecao de discursivas e pecas|grade por quesito]].
+
+**Fontes:** [Constituição Federal, art. 37, § 1º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm); [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). Este laboratório é **autoral** e não reproduz item do Cebraspe.
+

@@ -69,7 +69,7 @@
     if(!info||!(info.mistakes?.length||info.uncertainCorrect?.length)){
      body.append(el('p','','Nenhuma questão errada ou acerto inseguro foi associado a este artigo nos registros disponíveis.'));
     }else{
-     body.append(el('p','erros-artigo-meta',info.mistakes.length+' erro(s) e '+info.uncertainCorrect.length+' acerto(s) com insegurança. Prioridade de revisão: '+info.priority+'/100.'));
+     body.append(el('p','erros-artigo-meta',info.mistakes.length+' erro(s) e '+info.uncertainCorrect.length+' acerto(s) com insegurança. Prioridade de revisão: '+info.priority+'/100.'+(info.dueOn?' Revisão sugerida: '+info.dueOn+'.':'')));
      for(const q of info.mistakes)body.append(makeItem(q,article,contest));
      for(const q of info.uncertainCorrect)body.append(makeItem(q,article,contest));
     }

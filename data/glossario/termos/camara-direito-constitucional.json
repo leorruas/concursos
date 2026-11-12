@@ -1,0 +1,674 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "direito-constitucional",
+  "entries": [
+    {
+      "id": "glo-camara-lei-ordinaria",
+      "term": "Lei ordinária",
+      "aliases": [],
+      "definition": "Espécie de lei prevista no art. 59, III, usada, em regra, para matérias que a Constituição não reserva à lei complementar ou a outra espécie. Sua aprovação segue o art. 47.",
+      "contrast": "Lei complementar exige reserva constitucional de matéria e maioria absoluta. A lei ordinária segue a regra geral de maioria de votos com presença mínima.",
+      "cebraspeTrap": "Afirmar que a lei ordinária só trata de assuntos pouco importantes ou que uma LC é sempre hierarquicamente superior à LO.",
+      "example": "A Lei 8.112/1990 regula o regime jurídico dos servidores federais por meio de lei ordinária.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional",
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-lei-complementar",
+      "term": "Lei complementar",
+      "aliases": [],
+      "definition": "Espécie prevista no art. 59, II, exigida nos assuntos que a Constituição reserva expressamente a ela. O art. 69 determina aprovação por maioria absoluta dos membros.",
+      "contrast": "Complementar significa espécie legislativa específica, não lei que completa qualquer outra lei já existente; uma LC pode ser criada diretamente para regular tema constitucional.",
+      "cebraspeTrap": "Todo assunto tributário ou orçamentário exigiria LC, ou LC seria sempre superior à lei ordinária.",
+      "example": "O art. 146 reserva à LC normas gerais tributárias; a Lei de Responsabilidade Fiscal é LC editada com base no art. 163.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional",
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-reserva-lei-complementar",
+      "term": "Reserva de lei complementar",
+      "aliases": [],
+      "definition": "Exigência expressa da Constituição para que determinada matéria seja disciplinada por lei complementar, e não apenas por uma lei ordinária.",
+      "contrast": "A reserva refere-se ao objeto indicado no dispositivo constitucional, não a todo um campo temático como tributos, orçamento ou administração.",
+      "cebraspeTrap": "Uma matéria de lei complementar passaria a ser ordinária apenas porque recebeu os votos suficientes para uma LO.",
+      "example": "O art. 93 exige lei complementar para o Estatuto da Magistratura, com iniciativa do STF.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional",
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-pec",
+      "term": "Proposta de emenda à Constituição (PEC)",
+      "aliases": [],
+      "definition": "Proposição que busca alterar o texto da Constituição conforme o art. 60, com votação em dois turnos em cada Casa e aprovação por três quintos dos membros.",
+      "contrast": "PEC é o projeto em tramitação; emenda constitucional é o texto aprovado e promulgado. Lei complementar não altera diretamente a Constituição.",
+      "cebraspeTrap": "Tratar PEC como lei ordinária sujeita à sanção presidencial ou exigir apenas maioria absoluta para aprová-la.",
+      "example": "A Câmara aprova PEC por ao menos 308 votos em cada turno; o Senado exige 49 votos em cada turno.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-emenda-constitucional",
+      "term": "Emenda constitucional",
+      "aliases": [],
+      "definition": "Norma que modifica a Constituição após aprovação de uma PEC pelo procedimento do art. 60, respeitadas as limitações constitucionais.",
+      "contrast": "Diferencia-se da lei ordinária e da complementar porque altera o próprio texto constitucional; não depende de sanção do Presidente.",
+      "cebraspeTrap": "Confundir emenda constitucional com emenda parlamentar apresentada para modificar um projeto de lei.",
+      "example": "Após aprovação nas duas Casas, as Mesas da Câmara e do Senado promulgam a emenda constitucional.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-maioria-simples",
+      "term": "Maioria simples de aprovação",
+      "aliases": [],
+      "definition": "Regra geral de decisão pela maioria dos votos válidos expressos, desde que esteja presente a maioria absoluta dos membros da Casa, conforme o art. 47.",
+      "contrast": "O mínimo de presentes é fixado pela maioria absoluta, enquanto os votos favoráveis exigidos variam conforme o resultado da votação.",
+      "cebraspeTrap": "Exigir sempre 257 votos favoráveis para lei ordinária ou contar abstenções como votos contrários.",
+      "example": "Com 320 deputados presentes, 145 votos favoráveis e 130 contrários, o PL pode ser aprovado, apesar das 45 abstenções.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-maioria-absoluta",
+      "term": "Maioria absoluta",
+      "aliases": [],
+      "definition": "Primeiro número inteiro superior à metade do total de membros da Casa. São 257 de 513 deputados e 41 de 81 senadores.",
+      "contrast": "Conta o total de integrantes, independentemente de quantos compareceram, diferentemente da maioria simples dos votos válidos.",
+      "cebraspeTrap": "Confundir 257 presentes para iniciar votação com 257 votos favoráveis necessários à aprovação de lei complementar.",
+      "example": "Um PLP com 240 votos favoráveis na Câmara não atinge a maioria absoluta, mesmo com só 200 contrários.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional",
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-quorum-presenca",
+      "term": "Quórum de presença",
+      "aliases": [],
+      "definition": "Quantidade mínima de parlamentares que precisa estar presente para uma deliberação válida. A regra constitucional geral é a maioria absoluta dos integrantes.",
+      "contrast": "Presença permite que a votação ocorra; quórum de aprovação determina quantos votos favoráveis são necessários para aprovar o texto.",
+      "cebraspeTrap": "Concluir que uma votação de lei complementar foi aprovada só porque havia 257 deputados presentes.",
+      "example": "Uma sessão com 260 deputados presentes atende ao quórum geral de presença, mas um PLP ainda requer 257 votos favoráveis.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-quorum-aprovacao",
+      "term": "Quórum de aprovação",
+      "aliases": [],
+      "definition": "Quantidade mínima de votos favoráveis exigidos para aprovar matéria legislativa. Pode ser maioria simples, absoluta ou fração qualificada, conforme a norma.",
+      "contrast": "É diferente da presença necessária para realizar a votação; a PEC exige três quintos e a LC maioria absoluta dos membros.",
+      "cebraspeTrap": "Dizer que todos os projetos exigem o mesmo quórum por serem submetidos ao Congresso Nacional.",
+      "example": "Na Câmara, a PEC precisa de 308 votos favoráveis por turno; a LC precisa de 257.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional",
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-sancao-presidencial",
+      "term": "Sanção presidencial",
+      "aliases": [],
+      "definition": "Concordância do Presidente da República com projeto de lei aprovado pelo Congresso, expressa ou tácita, nos termos do art. 66.",
+      "contrast": "Sanção integra a formação de leis submetidas ao Presidente; PEC, decreto legislativo e resolução não passam por sanção.",
+      "cebraspeTrap": "Tratar sanção como promulgação ou supor que o Presidente sanciona uma PEC após sua aprovação.",
+      "example": "O Presidente concorda com um PL aprovado pelas duas Casas, permitindo a etapa posterior de promulgação.",
+      "articleIds": [
+        "art-51c7e2f904a68db3"
+      ],
+      "subjectIds": [
+        "direito-constitucional",
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-veto-presidencial",
+      "term": "Veto presidencial",
+      "aliases": [],
+      "definition": "Discordância do Presidente da República com projeto de lei aprovado, por inconstitucionalidade ou por contrariedade ao interesse público, no prazo constitucional.",
+      "contrast": "O veto pode ser parcial ou total; não é rejeição definitiva, pois o Congresso pode deliberar sobre ele conforme o art. 66.",
+      "cebraspeTrap": "Achar que veto pode atingir palavras isoladas ou que equivale à rejeição de uma PEC pelo Presidente.",
+      "example": "O Presidente veta integralmente um artigo considerado inconstitucional e comunica as razões ao Senado.",
+      "articleIds": [
+        "art-51c7e2f904a68db3"
+      ],
+      "subjectIds": [
+        "direito-constitucional",
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-veto-parcial",
+      "term": "Veto parcial",
+      "aliases": [],
+      "definition": "Veto presidencial que recai sobre texto integral de artigo, parágrafo, inciso ou alínea de projeto de lei, segundo o art. 66, § 2º.",
+      "contrast": "Retira uma unidade normativa inteira, diferentemente de edição livre de palavras ou expressões dentro de um dispositivo.",
+      "cebraspeTrap": "Permitir veto que apague apenas a palavra 'não' de um artigo para inverter o sentido da norma.",
+      "example": "Ao discordar de um inciso inteiro, o Presidente pode vetar esse inciso e sancionar os demais dispositivos.",
+      "articleIds": [
+        "art-51c7e2f904a68db3"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-promulgacao",
+      "term": "Promulgação de norma",
+      "aliases": [],
+      "definition": "Ato formal que atesta a existência da norma resultante do procedimento competente e determina sua execução, conforme a espécie normativa.",
+      "contrast": "Promulgação não é aprovação do projeto nem publicação; a lei sancionada ainda precisa ser promulgada e publicada.",
+      "cebraspeTrap": "Afirmar que toda promulgação é feita pelo Presidente da República, inclusive a de emendas constitucionais.",
+      "example": "As Mesas da Câmara e do Senado promulgam emenda constitucional, sem sanção presidencial.",
+      "articleIds": [
+        "art-51c7e2f904a68db3"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-lei-delegada",
+      "term": "Lei delegada",
+      "aliases": [],
+      "definition": "Espécie legislativa elaborada pelo Presidente da República mediante delegação solicitada e concedida pelo Congresso Nacional, com limites do art. 68.",
+      "contrast": "O Presidente a elabora após autorização em resolução do Congresso; é diferente de medida provisória, que prescinde dessa delegação prévia.",
+      "cebraspeTrap": "Autorizar a lei delegada para legislar sobre matérias reservadas a lei complementar ou sobre direitos políticos.",
+      "example": "O Congresso aprova resolução delimitando matéria que o Presidente poderá disciplinar por lei delegada.",
+      "articleIds": [
+        "art-6bc728a14d0e49f3"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-medida-provisoria",
+      "term": "Medida provisória",
+      "aliases": [],
+      "definition": "Ato normativo do Presidente da República com força de lei imediata, cabível em caso de relevância e urgência, observadas as restrições do art. 62.",
+      "contrast": "Produz efeitos desde sua edição, enquanto um projeto de lei ainda depende de tramitação e aprovação; não é lei delegada.",
+      "cebraspeTrap": "Afirmar que toda medida provisória é livremente admissível sobre direito penal ou que dispensa deliberação do Congresso.",
+      "example": "Uma situação urgente e relevante justifica MP admissível; o Congresso deve examiná-la nos prazos constitucionais.",
+      "articleIds": [
+        "art-7e91b362a40c58d2"
+      ],
+      "subjectIds": [
+        "direito-constitucional",
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-decreto-legislativo",
+      "term": "Decreto legislativo",
+      "aliases": [],
+      "definition": "Espécie normativa usada pelo Congresso Nacional em matérias de sua competência exclusiva, previstas sobretudo no art. 49, sem sanção presidencial.",
+      "contrast": "Tem função e procedimento diferentes de decreto presidencial: um é ato legislativo do Congresso, o outro é ato do Executivo.",
+      "cebraspeTrap": "Chamar decreto legislativo de decreto regulamentar editado pelo Presidente da República.",
+      "example": "O Congresso aprova certos tratados internacionais mediante decreto legislativo, antes dos demais atos necessários.",
+      "articleIds": [
+        "art-a3f905cb76e1428d"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-resolucao-legislativa",
+      "term": "Resolução legislativa",
+      "aliases": [],
+      "definition": "Espécie normativa utilizada pela Câmara, Senado ou Congresso para assuntos de competência regimental ou constitucional própria, sem sanção presidencial.",
+      "contrast": "A resolução da Casa não é lei ordinária e sua competência pode produzir efeitos internos ou externos, conforme o fundamento constitucional.",
+      "cebraspeTrap": "Afirmar que toda resolução tem efeitos apenas internos, ou que exige sanção do Presidente da República.",
+      "example": "A Câmara altera seu Regimento Interno por resolução, seguindo o procedimento regimental pertinente.",
+      "articleIds": [
+        "art-a3f905cb76e1428d"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-iniciativa-legislativa",
+      "term": "Iniciativa legislativa",
+      "aliases": [],
+      "definition": "Poder constitucional de apresentar uma proposição que inicia o processo legislativo, observados os legitimados e as reservas de matéria.",
+      "contrast": "Iniciativa é propor; deliberação é aprovar ou rejeitar. Ter competência para votar um projeto não dá iniciativa sobre qualquer assunto.",
+      "cebraspeTrap": "Confundir aprovação por maioria dos deputados com autorização para um deputado apresentar projeto de iniciativa presidencial reservada.",
+      "example": "Um senador apresenta PL sobre tema de iniciativa comum, respeitando o art. 61.",
+      "articleIds": [
+        "art-7fa341d609be8c25"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-iniciativa-reservada",
+      "term": "Iniciativa legislativa reservada",
+      "aliases": [],
+      "definition": "Competência constitucional atribuída a uma autoridade ou órgão específico para iniciar projeto sobre certos assuntos, como os casos do art. 61, § 1º.",
+      "contrast": "A matéria reservada à iniciativa do Presidente não pode ter essa reserva suprida pelo quórum de aprovação ou pela sanção posterior.",
+      "cebraspeTrap": "Dizer que a sanção presidencial convalida projeto parlamentar apresentado em violação à iniciativa reservada.",
+      "example": "A proposta sobre criação de cargos da administração federal direta deve observar a iniciativa privativa presidencial.",
+      "articleIds": [
+        "art-7fa341d609be8c25"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-iniciativa-popular",
+      "term": "Iniciativa popular de lei",
+      "aliases": [],
+      "definition": "Possibilidade de cidadãos apresentarem projeto de lei à Câmara mediante assinaturas nos requisitos do art. 61, § 2º, da Constituição.",
+      "contrast": "A iniciativa popular federal se dirige a projetos de lei, e não autoriza diretamente a apresentação de PEC por eleitores.",
+      "cebraspeTrap": "Afirmar que uma proposta popular pode alterar a Constituição pelo mesmo rito dos projetos de lei.",
+      "example": "Cidadãos assinam PL com ao menos 1% do eleitorado nacional, distribuído em cinco estados conforme a CF.",
+      "articleIds": [
+        "art-7fa341d609be8c25"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-apreciacao-conclusiva",
+      "term": "Apreciação conclusiva em comissão",
+      "aliases": [],
+      "definition": "Procedimento no qual comissão parlamentar pode discutir e votar determinados projetos de lei, dispensando o Plenário salvo recurso regimental.",
+      "contrast": "Na Câmara, projetos de lei complementar e PEC estão excluídos da apreciação conclusiva pelo art. 24, II, do RICD.",
+      "cebraspeTrap": "Achar que todo parecer favorável de comissão equivale à aprovação final da proposição legislativa.",
+      "example": "Uma comissão decide conclusivamente um PL ordinário admissível; um décimo dos deputados pode recorrer ao Plenário.",
+      "articleIds": [
+        "art-d269c5708f314eba"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Regimento Interno da Câmara atualizado",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-votacao-simbolica",
+      "term": "Votação simbólica",
+      "aliases": [],
+      "definition": "Forma de votação ostensiva na qual os favoráveis permanecem sentados, e o presidente proclama o resultado, conforme o art. 185 do RICD.",
+      "contrast": "Diferencia-se da votação nominal porque, em regra, não registra individualmente cada voto; o resultado pode ser submetido a verificação.",
+      "cebraspeTrap": "Afirmar que toda votação simbólica expõe o placar individual de cada deputado.",
+      "example": "Deputados manifestam posição pelo procedimento simbólico; apoiamento regimental permite pedir verificação nominal.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Regimento Interno da Câmara atualizado",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-votacao-nominal",
+      "term": "Votação nominal",
+      "aliases": [],
+      "definition": "Forma de votação ostensiva em que o voto de cada parlamentar é identificado e registrado, normalmente por sistema eletrônico.",
+      "contrast": "É diferente da simbólica e da secreta, pois registra quem votou favoravelmente, contrariamente ou se absteve.",
+      "cebraspeTrap": "Tratar votação nominal como sinônimo de voto secreto ou assumir que sua exigência muda o quórum de aprovação.",
+      "example": "Em votação nominal, a Câmara divulga a lista de deputados que votaram sim, não ou se abstiveram.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Regimento Interno da Câmara atualizado",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-bicameralismo",
+      "term": "Bicameralismo do Congresso Nacional",
+      "aliases": [],
+      "definition": "Organização do Legislativo federal em Câmara dos Deputados e Senado Federal, com funções próprias de deliberação e revisão.",
+      "contrast": "A existência de duas Casas não significa que toda resolução de uma delas precise tramitar na outra; o rito depende da espécie.",
+      "cebraspeTrap": "Afirmar que um projeto de lei federal pode ser aprovado definitivamente por uma Casa sem a revisão constitucional da outra.",
+      "example": "Um projeto de lei aprovado pela Câmara segue ao Senado para revisão, conforme o art. 65.",
+      "articleIds": [
+        "art-d269c5708f314eba"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-clausula-petrea",
+      "term": "Cláusula pétrea",
+      "aliases": [],
+      "definition": "Limite material do art. 60, § 4º, que impede deliberar proposta de emenda tendente a abolir as proteções constitucionais enumeradas.",
+      "contrast": "A Constituição admite alterações que respeitem esses limites; cláusula pétrea não significa que toda regra constitucional seja intocável.",
+      "cebraspeTrap": "Dizer que três quintos dos votos autorizam abolir o voto direto, secreto, universal e periódico.",
+      "example": "Uma PEC tendente a abolir a separação de Poderes esbarra em limite material do art. 60, § 4º.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 47 e 59 a 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-projeto-lei-complementar",
+      "term": "Projeto de lei complementar (PLP)",
+      "aliases": [],
+      "definition": "Proposição em tramitação destinada a produzir lei complementar sobre matéria constitucionalmente reservada, quando aprovada pelo rito devido.",
+      "contrast": "PLP ainda é projeto, e sua aprovação exige maioria absoluta; na Câmara, tramita em dois turnos e não cabe apreciação conclusiva nas comissões.",
+      "cebraspeTrap": "Tratar o PLP como norma vigente logo após sua apresentação ou submetê-lo a turno único na Câmara.",
+      "example": "Um PLP sobre normas gerais tributárias aprovado por 240 deputados não atinge os 257 votos exigidos.",
+      "articleIds": [
+        "art-da9726a3c994a6c6"
+      ],
+      "subjectIds": [
+        "direito-constitucional",
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Regimento Interno da Câmara atualizado",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

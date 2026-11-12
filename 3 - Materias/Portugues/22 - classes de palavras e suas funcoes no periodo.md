@@ -215,7 +215,7 @@ No período “A secretaria parlamentar remeteu anexas ao ofício as notas técn
 - [ ] Errado
 
 > **Gabarito: CERTO**  
-> **Comentário**: Na norma culta, a palavra **anexo** (assim como *incluso* e *apenso*), quando não precedida de preposição, é um **adjetivo** (com função sintática de predicativo do objeto *as notas técnicas*), devendo concordar obrigatoriamente em gênero e número com o substantivo a que se refere (*anexas as notas*).
+> **Comentário**: Na norma culta, a palavra **anexo** (assim como *incluso* e *apenso*), quando não precedida de preposição, é um **adjetivo** (com função sintática de **predicativo do objeto direto** *as notas técnicas* na construção causativa/predicativa, conforme a análise do verbo *remeter*; distingue-se da construção *"As notas técnicas seguem anexas"*, em que *anexas* é **predicativo do sujeito**), devendo concordar obrigatoriamente em gênero e número com o substantivo a que se refere (*anexas as notas*).
 
 ---
 

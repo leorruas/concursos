@@ -12,11 +12,9 @@ updated: 2026-11-09
 
 A gestão de recursos humanos na Administração Pública contemporânea exige instrumentos flexíveis de cooperação e mobilidade interinstitucional para atender a demandas sazonais, missões extraordinárias, cooperação federativa e funcionamento de órgãos essenciais da República.
 
-No regime jurídico administrativo brasileiro (em especial na **Lei nº 8.112/1990**, no **Decreto nº 10.835/2021** e na legislação eleitoral e parlamentar), a mobilidade funcional externa de servidores públicos desdobra-se em dois institutos dogmáticos de perfis inconfundíveis:
-1. **Requisição:** ato unilateral, impositivo e obrigatório, fundamentado em prerrogativa legal extraordinária conferida a determinados órgãos constitucionais;
-2. **Cessão:** ato bilateral discricionário fundado no consentimento mútuo entre o órgão cedente e o órgão cessionário.
+No regime federal, a mobilidade pode assumir **três formas distintas**, conforme o art. 2º, parágrafo único, do Decreto nº 10.835/2021: **cessão**, **requisição** e **alteração de exercício para composição da força de trabalho**. Cada instituto tem finalidade, autoridade competente, regras de anuência e consequências financeiras próprias. A mudança de exercício **preserva o vínculo** do agente com o órgão ou entidade de origem.
 
-Para o concurso da Câmara dos Deputados (Cebraspe C/E), o domínio das **diferenças de coercibilidade**, do **ônus da remuneração** e do regime jurídico disciplinar é objeto constante de cobrança minuciosa.
+A expressão **“movimentação” é gênero**, e as três formas são espécies. Para estudar o concurso da Câmara, é essencial distinguir também o âmbito do decreto (Executivo federal) das regras gerais da Lei nº 8.112/1990 e dos regimes especiais aplicáveis a outros Poderes. A composição de força de trabalho prevista no decreto **não permite, por si, transferência ao Legislativo**.
 
 ```mermaid
 flowchart TD
@@ -28,7 +26,8 @@ flowchart TD
     A["Mobilidade Externa de Agentes Públicos"]:::raiz
 
     A --> B["REQUISIÇÃO<br/>(Ato IMPOSITIVO e obrigatório)"]:::req
-    A --> C["CESSÃO<br/>(Ato DISCRICIONÁRIO e consensual)"]:::cessao
+    A --> C["CESSÃO<br/>(Concordância de cedente e agente)"]:::cessao
+    A --> D["COMPOSIÇÃO DA FORÇA DE TRABALHO<br/>(Executivo federal)"]:::detalhe
 
     B --> B1["Órgão de origem NÃO PODE recusar<br/>(Poder de império legal)"]:::req
     B --> B2["Justiça Eleitoral (Lei 6.999/82), Presidência da República e Defensoria"]:::detalhe
@@ -36,7 +35,8 @@ flowchart TD
 
     C --> C1["Depende de CONCORDÂNCIA prévia da autoridade de origem"]:::cessao
     C --> C2["Finalidade: exercício de cargo em comissão ou função de confiança (art. 93, Lei 8.112)"]:::detalhe
-    C --> C3["Ônus financeiro: Cessionário (se outros Poderes/entes) ou regras do Decreto 10.835/2021"]:::detalhe
+    C --> C3["Ônus e reembolso: conforme origem, destino e norma"]:::detalhe
+    D --> D1["Indicação consensual: anuências<br/>Realocação: sem anuência da origem"]:::detalhe
 ```
 
 ---
@@ -68,9 +68,13 @@ A requisição não é um poder genérico de qualquer repartição; depende de *
 
 ## 2. Cessão de Agentes Públicos (Art. 93 da Lei nº 8.112/1990)
 
-### 2.1. Conceito e natureza consensual
-A **cessão** é o ato pelo qual o servidor público estável é colocado temporariamente à disposição de outro órgão ou entidade dos Poderes da União, dos Estados, do Distrito Federal ou dos Municípios.
-- **Caráter discricionário:** diferentemente da requisição, a cessão **depende da prévia concordância e autorização discricionária** da autoridade competente do órgão de origem. O dirigente máximo do órgão cedente avalia a oportunidade e conveniência do afastamento com base na necessidade interna do serviço.
+### 2.1. Conceito, participantes e anuências
+
+A **cessão** é a alteração do exercício de agente público para outro órgão ou entidade, preservado o vínculo funcional de origem. O conceito do Decreto nº 10.835/2021 **não exige estabilidade como requisito universal**, e o seu art. 1º também abrange determinadas categorias de empregados públicos.
+
+Para a cessão no regime do decreto, o art. 3º, § 2º, exige **três condições cumulativas**: **pedido do órgão cessionário**, **concordância do cedente** e **concordância do próprio agente público**. Como regra, a cessão para cargo em comissão ou função de confiança admite exceções estabelecidas em lei.
+
+**Exemplo:** uma autarquia federal recebe pedido para cessão de servidora a ministério. O interesse do destino, por si só, não supre a anuência da entidade de origem nem a concordância da servidora. Já a requisição legal válida, ou a alteração de exercício por realocação, tem disciplina distinta.
 
 ### 2.2. Hipóteses legais de cabimento (Art. 93 da Lei nº 8.112/1990)
 O servidor público federal regido pela Lei nº 8.112/1990 somente pode ser cedido nas seguintes condições estritas:
@@ -90,25 +94,37 @@ O regime financeiro da cessão de servidores federais foi detalhado pelo art. 93
 
 ---
 
-## 3. Movimentação para Compor Força de Trabalho (Decreto nº 10.835/2021)
+## 3. Alteração de exercício para composição da força de trabalho
 
-Modernamente, a Administração Pública Federal instituiu a figura da **movimentação para compor força de trabalho** no âmbito do Poder Executivo federal:
-- Trata-se de instrumento de lotação provisória destinado a equalizar déficits crônicos de pessoal entre autarquias, fundações e ministérios, **sem a necessidade de provimento de cargo em comissão ou função de confiança**.
-- A movimentação exige justificativa técnica formal da carência de pessoal e concordância entre os órgãos envolvidos, mantendo-se a remuneração integral no órgão de origem.
+A composição de força de trabalho é espécie de movimentação **restrita a órgãos e entidades do Poder Executivo federal**, sem exigir cargo em comissão, nos termos dos arts. 12 e 13 do Decreto nº 10.835/2021. O art. 13 define a alteração de exercício como **irrecusável e independente de anuência prévia do órgão de vínculo**, ressalvada a situação de **empresa estatal não dependente**, que exige anuência prévia (§ 1º). O § 2º exclui movimentações para outros Poderes, órgãos constitucionalmente autônomos e outros entes federativos.
 
----
+Na regulamentação operacional do MGI, são relevantes **duas modalidades**:
 
-## 4. Quadro Sinótico: Requisição versus Cessão
+- **Indicação consensual:** exige entendimento entre órgãos e anuências anteriores ao ato, conforme regras da modalidade. A inexistência de anuência pode impedir sua formação, mas isso não transforma todas as alterações de exercício em cessão.
+- **Realocação de pessoal:** depende do procedimento seletivo e dos critérios próprios; **dispensa a anuência do órgão de origem**, conforme orientação oficial.
 
-| Critério discriminador | Requisição | Cessão |
-| :--- | :--- | :--- |
-| **Natureza do ato** | **Impositivo, unilateral e cogente** (dever legal). | **Discricionário e consensual** (depende de aquiescência do cedente). |
-| **Margem de recusa do órgão de origem** | **Inexistente**. O órgão de origem é obrigado a liberar o servidor. | **Total**. O dirigente pode recusar por conveniência e necessidade do serviço. |
-| **Finalidade principal** | Atendimento a necessidades urgentes/extraordinárias fixadas em lei (Justiça Eleitoral, Presidência). | Ocupação de **cargo em comissão ou função de confiança** (art. 93 da Lei 8.112). |
-| **Ônus financeiro da remuneração** | Em regra, do **órgão de origem** (salvo gratificação eleitoral ou verba indenizatória). | Em regra, do **órgão cessionário** (quando para outro ente federativo via reembolso). |
-| **Competência disciplinar** | Falta funcional ligada ao serviço requisitado é apurada pelo órgão requisitante; penalidades graves (demissão) são privativas do órgão de origem. | O órgão cessionário noticia eventuais ilícitos funcionais ao órgão de origem, competente para aplicar o PAD. |
+A **irrecusabilidade do art. 13** deve ser lida em conjunto com a modalidade efetivamente adotada e o estágio do procedimento. Também é necessário distinguir **ônus remuneratório**, **pagamento em folha** e **reembolso**. O MGI informa que nem toda alteração de exercício requer reembolso, mas há regra específica quando o agente vem de estatal não dependente.
 
----
+**Caso progressivo:** (1) dois órgãos do Executivo ajustam indicação consensual antes da portaria: anuências são parte do procedimento; (2) em realocação regular, o órgão de origem não possui veto discricionário geral; (3) se o destino pretendido é a Câmara, esse instrumento do decreto não se aplica. **Contraexemplo:** afirmar que o art. 13 autoriza sempre a Câmara dos Deputados a receber servidores de ministérios por composição de força de trabalho.
+
+Fontes: [Decreto 10.835/2021, arts. 2º, 12 e 13](https://www2.camara.leg.br/legin/fed/decret/2021/decreto-10835-14-outubro-2021-791864-normaatualizada-pe.html) e [MGI, orientações sobre indicação consensual e realocação](https://www.gov.br/servidor/pt-br/acesso-a-informacao/gestao-de-pessoas/movimentacao-de-pessoal/central-de-conteudo-1/perguntas-frequentes/alteracao-de-exercicio-para-composicao-da-forca-de-trabalho).
+
+## 4. Matriz das três modalidades
+
+| Critério | Requisição | Cessão | Composição da força de trabalho |
+| --- | --- | --- | --- |
+| Fundamento | Prerrogativa legal específica | Lei 8.112, art. 93 e normas de cessão | Decreto 10.835, arts. 12–13 e regras complementares |
+| Anuência | Em regra, irrecusável se legalmente válida | Pedido do destino, concordância do cedente e do agente | Indicação consensual exige anuências; realocação as dispensa segundo MGI |
+| Destino | Conforme a lei de requisição | Conforme lei e regime do vínculo | **Somente Executivo federal** |
+| Finalidade | Necessidade prevista em lei requisitória | Regra de comissão/confiança ou lei específica | Adequação da distribuição da força de trabalho |
+| Ônus/reembolso | Variável segundo lei de regência | Varia segundo cedente, cessionário e regime financeiro | Regra própria; reembolso em hipóteses específicas, como estatal não dependente |
+| Apuração disciplinar | Considerar local do fato, vínculo e competência de julgamento | Instauração/instrução pode ocorrer no destino; julgamento/sanção sobre cargo efetivo têm competência própria | Examinar competência e vínculo funcional originário |
+
+### Competência disciplinar no caso de servidor cedido
+
+O **STJ, MS 21.991/DF**, admite separação das fases: a **instauração e a apuração** devem ocorrer preferencialmente no órgão onde se deu a irregularidade; o **julgamento e eventual sanção**, quando encerrada a cessão e retornado o servidor, são da autoridade do órgão de origem à qual se vincula o cargo efetivo. Isso impede tanto a tese de que o órgão de destino nunca pode instaurar PAD quanto a de que pode demitir autonomamente servidor efetivo vinculado a outro ente.
+
+Fonte: [STJ, Informativo 598, MS 21.991/DF](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D016203).
 
 ## Questões Comentadas (Estilo Cebraspe)
 
@@ -192,7 +208,7 @@ No que tange ao exercício do poder disciplinar sobre o servidor público cedido
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** O órgão cessionário (que recebe o servidor) pode apurar irregularidades ocorridas em seu âmbito de atuação e aplicar penalidades funcionais brandas restritas à destituição do cargo em comissão exercido na cessionária; todavia, a competência para processar infração funcional grave e aplicar sanção demissória relativa ao cargo público efetivo originário é **privativa da autoridade competente do órgão cedente (órgão de origem do vínculo estatutário federal)**, sob o rito da Lei nº 8.112/1990.
+> **Comentário:** É possível que o **órgão cessionário instaure e instrua o PAD** sobre fato praticado em seu âmbito, conforme o STJ (MS 21.991/DF), mas a autoridade cessionária não pode, apenas por ser órgão de exercício, **demitir de cargo efetivo federal vinculado a outro ente ou órgão**. No precedente, julgamento e eventual sanção após o retorno do cedido cabem ao órgão de origem. O enunciado é errado pela competência de **demitir diretamente**, não por excluir toda atuação instrutória do destino.
 
 ---
 

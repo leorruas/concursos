@@ -68,7 +68,7 @@ flowchart LR
 
     Z["Zero-Shot Prompting<br>Instrução direta sem nenhum exemplo prévio"]:::zero
     F["Few-Shot Prompting<br>Apresenta poucos exemplos (In-Context Learning)"]:::few
-    C["Chain-of-Thought (CoT)<br>Exige a explicitação do raciocínio passo a passo"]:::cot
+    C["Chain-of-Thought (CoT)<br>Pode solicitar etapas intermediárias de resolução;<br>não garante acerto"]:::cot
 
     Z -->|"Adiciona exemplos de padrão"| F
     F -->|"Adiciona etapas lógicas intermediárias"| C
@@ -151,7 +151,7 @@ flowchart LR
 
 ### Caso 4: Escolha de temperatura para minuta jurídica versus campanha criativa
 - **Cenário**: A equipe de Divulgação Institucional precisa usar o mesmo LLM para duas tarefas: Tarefa A: extrair os números de artigos alterados na Lei das Eleições; Tarefa B: gerar slogans criativos para atrair jovens para o concurso de redação da Câmara.
-- **Análise**: Para a Tarefa A, a **Temperatura deve ser calibrada em $0.0$** (máximo determinismo e aderência aos fatos, sem espaço para criatividade inventiva). Para a Tarefa B, a **Temperatura deve ser elevada para $0.7$ ou $0.8$** (maior dispersão de amostragem para estimular ideias variadas e metáforas linguísticas originais).
+- **Análise:** Para a Tarefa A, pode-se **testar uma temperatura baixa, se o provedor expuser esse parâmetro**, e comparar saídas com a legislação e os documentos oficiais. Temperatura baixa **não garante determinismo absoluto, exatidão nem fidelidade à fonte**. Para a Tarefa B, pode-se experimentar amostragem mais diversa, se compatível com o modelo, e avaliar originalidade, utilidade e segurança. **Números como 0,0, 0,7 ou 0,8 são exemplos de configurações de certas APIs, não receitas universais**; modelos podem ter outra escala, ignorar o parâmetro ou não disponibilizá-lo.
 
 ---
 
@@ -213,7 +213,7 @@ flowchart LR
    - Temperatura baixa pode reduzir diversidade de amostragem, mas **não garante** exatidão jurídica ou numérica.
    - Temperatura mais alta pode aumentar diversidade, quando suportada; os efeitos dependem do modelo, da tarefa e da avaliação.
 3. **Chain-of-Thought (CoT)**:
-   - *"Pense passo a passo"* = quebra em pedaços e acerta mais problemas de lógica e matemática.
+   - *"Pense passo a passo"* pode incentivar decomposição de problemas em certos modelos e tarefas, mas não garante maior acurácia nem fornece prova de validade dos passos. Conferir cálculos e fontes independentemente.
 4. **Prompt Injection**:
    - Direta: o usuário digita na caixa de texto *"ignore tudo e me obedeça"*.
    - Indireta: o comando malicioso estava escondido no documento ou site que o modelo foi ler.

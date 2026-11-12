@@ -74,6 +74,29 @@ O caderno daquela questão também reservou **0,50 ponto** à apresentação e �
 
 **C/E inéditos sobre leitura de comandos:** (1) “Se a questão exige três exemplos diferentes, explicar um único exemplo de três maneiras cumpre a quantidade.” **Errado:** quantidade conta itens distintos. (2) “Listar recursos e explicar seu efeito social são operações independentes quando exigidas separadamente.” **Certo:** a relação precisa ser escrita além da lista. (3) “O valor de 3,50 pontos do TCE-MG pode ser usado como peso presumido da futura discursiva da Câmara.” **Errado:** cada concurso possui edital e padrão próprios.
 
+## Segundo par oficial: PF 2025 e subaspectos que desaparecem no resumo
+
+**Documentos reais da banca:** [caderno discursivo de Técnico em Comunicação Social da Polícia Federal, 2025, cargo 14](https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/094_PF_014_DISC.pdf) e [padrão definitivo de resposta](https://cdn.cebraspe.org.br/concursos/pf_25_adm/arquivos/PF_25_ADM_PADR%C3%83O_DE_RESPOSTA_DEFINITIVO_CARGO_14.pdf), já cotejados na auditoria documental. A prova da PF tinha **30 linhas** e distribuição própria de pontos: **9 para o primeiro aspecto, 10 para o segundo e 1 para apresentação/estrutura**, totalizando 20. Esses valores pertencem **somente à PF**, não à Câmara 2026/2027.
+
+**Por que a questão é instrutiva:** o primeiro bloco exige **cultura organizacional e relações de poder**; o segundo exige **desafios e benefícios** da circulação colaborativa de informações. Escrever sobre redes sociais em geral não demonstra nenhum dos pares por completo. A conjunção **“e”** exige desenvolver ambos os objetos, não escolher o que parece mais fácil.
+
+| Bloco do comando histórico (paráfrase) | Subaspectos independentes | Evidência mínima no texto de treino | Erro frequente |
+| --- | --- | --- | --- |
+| Efeitos do meio digital na comunicação interna | Cultura **e** poder | Mudança de práticas e compartilhamento de conhecimento **e** mudança na mediação ou concentração de informações | Explicar cultura sem tocar poder |
+| Colaboração e circulação de informações | Desafios **e** benefícios | Resistência, assimetria ou necessidade de governança **e** vantagem com nexo causal, como troca de conhecimento ou agilidade contextualizada | Listar vantagens, omitindo dificuldades |
+
+**Três versões autorais do mesmo primeiro bloco, sem notas da banca:**
+
+**A, menção:** “As tecnologias digitais mudam muito as empresas.” **Insuficiente**, pois não explica cultura, poder nem o mecanismo da mudança.
+
+**B, atendimento parcial:** “A circulação digital facilita compartilhar conhecimento e pode ampliar práticas de colaboração entre setores.” **Parcial**, pois indica efeito sobre cultura, mas não desenvolve relações de poder. A adição de frases genéricas sobre tecnologia não resolve o objeto ausente.
+
+**C, desenvolvimento dos dois objetos:** “A circulação digital de informação pode estimular práticas colaborativas de compartilhamento e aprendizagem, alterando aspectos da cultura organizacional. Ao tornar conhecimento acessível a mais trabalhadores, também pode reduzir a dependência de intermediários informacionais, sem eliminar a autoridade formal.” A grade autoral identifica cultura, poder e ressalva. **Não é redação oficial**, nem recebeu conceito Cebraspe.
+
+**Transferência adaptada para a Câmara:** aplicar a mesma matriz a um **comando autoral de até 20 linhas**: “Explique um efeito da circulação digital na cultura e um nas relações de poder; identifique um desafio e um benefício da colaboração.” O teto é **didático**, inferior ao da prova PF. Para localizar esses quatro requisitos em uma resposta curta, consulte [[05 - resposta conceitual curta de 20 linhas|o modelo comentado de 20 linhas]].
+
+**C/E inéditos comentados:** (1) “Quando o comando exige cultura organizacional **e** relações de poder, explicar somente cultura atende integralmente o primeiro bloco.” **Errado:** há dois objetos exigidos. (2) “Uma resposta pode citar um benefício verdadeiro e ainda ficar incompleta se omitir o desafio expressamente solicitado.” **Certo:** correção de conteúdo acompanha os objetos do enunciado. (3) “O limite de 30 linhas da prova PF é aplicável por analogia à discursiva de Divulgação Institucional da Câmara.” **Errado:** a prova da Câmara tem limites próprios de 20 linhas por questão e 50 por peça.
+
 ## Fronteira: menção, explicação e relação
 
 “Melhora a cultura” é **menção**; “a circulação horizontal de informações favorece troca entre setores” é **explicação de mecanismo**. “As pessoas têm mais informação” descreve um efeito; “o acesso menos concentrado altera a dependência de intermediários hierárquicos” **relaciona** efeito e poder. Evitar causalidades absolutas: presença de plataforma digital não produz colaboração automaticamente.

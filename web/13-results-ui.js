@@ -43,7 +43,9 @@ function makeArticle(article){
  const top=el('summary');
  const row=el('span','results-card-top');
  const a=el('span','',name);
- const score=el('span','results-score',article.priority+' / 100');
+ const score=el('span','results-score',article.priority+'/100');
+ score.title='Prioridade de revisão: '+article.priority+' de 100. Quanto maior, mais cedo revisar; não representa nota ou taxa de acertos.';
+ score.setAttribute('aria-label','Prioridade de revisão: '+article.priority+' de 100');
  row.append(a,score);top.append(row);outer.append(top);
  const explain=el('p','results-meta',article.reason+' · '+article.concepts.length+' conceito(s) relacionado(s)'+(article.dueOn?' · Revisão sugerida: '+fmtDate(article.dueOn):''));
  outer.append(explain);
@@ -66,9 +68,38 @@ function render(){
  $('results-articles').replaceChildren(...(articles.length?articles.map(makeArticle):[el('p','results-caption','Ainda não há erros ou acertos inseguros associados a artigos neste concurso.')]));
  const cs=(current.concepts||[]).filter(c=>c.errors||c.uncertain).slice(0,30);
  $('results-concepts').replaceChildren(...(cs.length?cs.map(c=>{
-  const box=el('div','results-concept');const left=el('div');
-  left.append(el('strong','',c.title),el('small','',title(c.subjectId)+' · '+c.errors+' erro(s) em '+c.attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')));
-  box.append(left,el('strong','results-score',c.priority+' / 100'));return box;
+  const box=el('div','results-concept');
+  const left=el('div');
+  const articleIds=[...new Set(Array.isArray(c.articles)?c.articles:[])].filter(id=>/^art-[a-z0-9]+$/i.test(String(id)));
+  if(articleIds.length){
+   const mainLink=el('a','results-concept-link',c.title);
+   mainLink.href=articleLink({articleId:articleIds[0]});
+   mainLink.title='Ler artigo relacionado a '+c.title;
+   left.append(mainLink);
+  }else{
+   left.append(el('strong','',c.title));
+  }
+  left.append(el('small','',title(c.subjectId)+' · '+c.errors+' erro(s) em '+c.attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')));
+  if(articleIds.length){
+   const refs=el('div','results-concept-refs');
+   for(const id of articleIds.slice(0,4)){
+    const meta=manifest.get(id);
+    const name=meta?.tituloExibicao||meta?.titulo||'Artigo relacionado';
+    const a=el('a','results-link','ler: '+name);
+    a.href=articleLink({articleId:id});
+    a.title='Abrir '+name;
+    refs.append(a);
+   }
+   if(articleIds.length>4)refs.append(el('span','results-meta','e mais '+(articleIds.length-4)+' artigo(s) relacionado(s)'));
+   left.append(refs);
+  }else{
+   left.append(el('small','','Artigo ainda não vinculado no histórico.'));
+  }
+  const score=el('span','results-score',c.priority+'/100');
+  score.title='Prioridade de revisão: '+c.priority+' de 100. Quanto maior, mais cedo revisar; não é nota.';
+  score.setAttribute('aria-label','Prioridade de revisão: '+c.priority+' de 100');
+  box.append(left,score);
+  return box;
  }):[el('p','results-caption','Sem recorrências registradas para priorizar.')]));
  $('results-subjects').replaceChildren(...(current.bySubject||[]).map(s=>{
   const row=el('tr');const answered=s.correct+s.incorrect;
@@ -112,5 +143,20 @@ $('results-logout').addEventListener('click',async()=>{
  try{await fetch('/v1/logout',{method:'POST',credentials:'same-origin',headers:{Origin:location.origin}});}catch{}
  current=null;root.hidden=true;status.textContent='Sessão encerrada neste navegador.';$('results-login').hidden=false;$('results-logout').hidden=true;
 });
+const themeToggle=$('results-theme');
+function syncThemeLabel(){
+ if(!themeToggle)return;
+ const dark=document.documentElement.getAttribute('data-theme')==='dark';
+ themeToggle.textContent=dark?'modo claro':'modo escuro';
+ themeToggle.setAttribute('aria-label','Ativar modo '+(dark?'claro':'escuro'));
+}
+themeToggle?.addEventListener('click',()=>{
+ const currentTheme=document.documentElement.getAttribute('data-theme')||'dark';
+ const next=currentTheme==='dark'?'light':'dark';
+ document.documentElement.setAttribute('data-theme',next);
+ try{localStorage.setItem('tema-concursos',next);}catch{}
+ syncThemeLabel();
+});
+syncThemeLabel();
 void manifestLoad().then(load);
 })();

@@ -9,6 +9,7 @@ const root = process.cwd();
 const folder = path.join(root, '3 - Materias');
 const args = process.argv.slice(2);
 const output = args.includes('--json') ? args[args.indexOf('--json') + 1] : null;
+const strict = args.includes('--strict');
 const files = [];
 function walk(dir) {
   if (!fs.existsSync(dir)) return;
@@ -102,3 +103,6 @@ if (output) fs.writeFileSync(path.resolve(root, output), JSON.stringify(report,n
 console.log(JSON.stringify({ scannedArticles: report.scannedArticles, totalFindings: report.totalFindings, totals: report.totals },null,2));
 for (const issue of issues.slice(0,100)) console.log(issue.path+':'+issue.line+' ['+issue.kind+'] '+issue.text);
 if (issues.length > 100) console.log('... demais ocorrencias disponiveis na saida --json');
+
+// Bloquear apenas a regressao de rotulos com codigo; outros achados exigem triagem.
+if (strict && (totals.rotulo_codigo_ou_nota || 0) > 0) process.exitCode = 1;

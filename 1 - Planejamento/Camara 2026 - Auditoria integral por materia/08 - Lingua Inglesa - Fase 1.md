@@ -617,3 +617,19 @@ Autorização de reparos exclusiva da matéria Inglês. Este checkpoint registra
 **Integração:** os dois artigos já constavam do hub `ingles.md`, com identificadores estáveis. Nenhum artigo novo foi criado, pois os temas possuíam sede canônica. O treino anterior e as referências foram preservados.
 
 **Limites:** conferência textual e SHA, não teste de execução local. O run Pages do commit `eba2390` estava pendente na consulta, com múltiplos runs anteriores cancelados em atividade concorrente; conferir a conclusão do workflow do HEAD que inclua estas alterações. Persistem verificação final de referências e revisão transversal dos gabaritos antigos, sem declaração de disciplina integralmente validada.
+
+
+## 26. Implementação: tempo, voz, modalidade e escopo quantitativo (11/11/2026)
+
+Neste lote, os conceitos já possuíam artigos canônicos (13–16), de modo que foram ampliados em vez de criar notas concorrentes. As atualizações ficaram restritas a Inglês, com preservação de `articleId`, aliases, questões anteriores, hub e índices compartilhados.
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| 13 | Necessidade de leitura temporal em texto integral, sem inferir continuidade obrigatória de *present perfect* | Texto original ficcional sobre arquivo, mudanças graduais entre *simple past*, *present perfect* e discurso indireto; quatro C/E comentados | `f4481c0116d0654da2d9a23924f3aecb8540f582` | Releitura GitHub confirmou seção e quatro itens C/E | corrigido |
+| 14 | Perda informativa versus erro sintático em transformações passivas | Caso com quatro versões, finalidade e agente, além de quatro C/E comentados | `bbf4ced95ec9cb7a4541ec856b7a747c10c3a6e7` | Releitura confirmou seção e quatro itens | corrigido |
+| 15 | Confusão entre dever, proibição, ausência de dever, inferência forte e afirmação categórica | Comparações progressivas, museu fictício e quatro C/E comentados | `17a88ae920ad9121ba21c0e88f23f5db701f241f` | Releitura confirmou seção e quatro itens | corrigido |
+| 16 | Escopo de quantificadores, denominador da amostra, frequência e associação versus causalidade | Texto original ficcional com 120 respondentes, cinco C/E comentados e variações de escopo | `bcd1c22cffe3a0feb12e38acf9254ba918666913` | Releitura confirmou seção e cinco itens | corrigido |
+
+**Resultado:** 17 novos exercícios C/E inéditos e comentados inseridos neste lote. A verificação feita é estrutural e textual no GitHub; os exercícios não são rotulados como oficiais. O hub já aponta para os quatro artigos, dispensando alteração compartilhada.
+
+**Pendências:** verificar workflow do Pages e saída da validação do HEAD atualizado, conferir fontes e vínculos finais e testar a renderização real. Os commits sucessivos de outros agentes têm cancelado execuções anteriores, portanto não declarar a revisão integralmente validada sem run bem-sucedido e conferência dos materiais.

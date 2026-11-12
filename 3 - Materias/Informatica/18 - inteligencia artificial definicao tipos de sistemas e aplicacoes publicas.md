@@ -67,8 +67,8 @@ A doutrina divide a Inteligência Artificial sob dois eixos fundamentais: **ampl
 - **IA Estreita ou Fraca (*Artificial Narrow Intelligence* - ANI)**:
   - Projetada e treinada para executar **uma única tarefa específica ou um conjunto delimitado de atividades** com alto nível de precisão;
   - **Não possui consciência, intencionalidade ou compreensão de contexto fora de seu domínio de treino**;
-  - *Status*: **É o único estágio de IA efetivamente existente e operacional na atualidade**. Exemplos reais: filtros de spam, corretores ortográficos, sistemas de reconhecimento facial, mecanismos de recomendação, o sistema Victor do STF, o Ulysses da Câmara dos Deputados e os modelos de linguagem como GPT-4;
-- **IA Geral ou Forte (*Artificial General Intelligence* - AGI)**:
+  - *Status*: **É a categoria operacional consolidada na classificação adotada neste artigo; fronteiras de AGI e capacidades gerais dependem de definições controversas**. Exemplos reais: filtros de spam, corretores ortográficos, sistemas de reconhecimento facial, mecanismos de recomendação, o sistema Victor do STF, o Ulysses da Câmara dos Deputados e os modelos de linguagem como GPT-4;
+- **IA geral (*Artificial General Intelligence* - AGI)**: em classificações didáticas, pode ser associada à noção de “IA forte”, mas **IA forte também possui usos filosóficos ligados a compreensão e consciência**; portanto, não são sinônimos técnicos obrigatórios:
   - Sistema teórico capaz de compreender, aprender, adaptar-se e aplicar conhecimento em qualquer domínio intelectual com versatilidade, bom senso e autonomia cognitiva equivalentes aos de um ser humano adulto;
   - *Status*: **Conceito puramente hipotético e científico**, inexistente na prática atual;
 - **Superinteligência Artificial (*Artificial Superintelligence* - ASI)**:
@@ -105,7 +105,7 @@ Classificação clássica muito adotada pela literatura técnica e explorada pel
 No setor público brasileiro, a IA tem sido pioneira na automação de processos repetitivos de grande volume, destacando-se iniciativas consolidadas:
 
 1. **Câmara dos Deputados — Sistema Ulysses**:
-   - Ecossistema de IA voltado ao suporte do processo legislativo e da divulgação institucional. Realiza transcrição automática de discursos de plenário e audiências públicas, agrupamento semântico de proposições por afinidade temático-legislativa, classificação de emendas orçamentárias e elaboração de resumos preliminares para consulta cidadã;
+   - A Câmara apresenta o Ulysses como ferramenta de **classificação e distribuição temática de demandas legislativas**; outras aplicações de IA para transcrição e resumos são tratadas separadamente em fontes institucionais e podem estar em estágios distintos. **Não atribuir transcrição de audiências, classificação de emendas e síntese automática ao Ulysses sem evidência específica da função e versão.** Fonte: [Câmara, Consultoria Legislativa e IA](https://www.camara.leg.br/assessoria-de-imprensa/568452-consultoria-legislativa-da-camara-utiliza-inteligencia-artificial-para-agilizar-trabalhos/).
 2. **Supremo Tribunal Federal (STF) — Sistema Victor**:
    - Utiliza visão computacional e processamento de linguagem natural (PLN) para analisar recursos extraordinários, identificando automaticamente quais peças estão vinculadas a temas de **Repercussão Geral** já pacificados pela Corte;
 3. **Tribunal de Contas da União (TCU) — Sistemas Alice e Sofia**:
@@ -158,7 +158,7 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 > Os sistemas de inteligência artificial atualmente em operação no setor público e no mercado privado, tais como os modelos de processamento de linguagem natural e visão computacional, enquadram-se na categoria de Inteligência Artificial Estreita (*Artificial Narrow Intelligence* - ANI), dado que são especializados na execução de tarefas delimitadas e não detêm capacidades cognitivas gerais equivalentes às da mente humana.
 
 - **Gabarito**: **CERTO**
-- **Fundamentação**: Exato. Toda e qualquer IA existente e funcional no mundo atual (inclusive os modelos mais avançados de IA Generativa) constitui IA Estreita (ANI). A Inteligência Artificial Geral (AGI) permanece como conceito teórico e horizonte científico, sem realização fática.
+- **Fundamentação**: O item descreve a **taxonomia didática** adotada: sistemas desenvolvidos para tarefas, ainda que amplas, não constituem automaticamente AGI. **Não há métrica oficial universal** que defina a passagem a AGI; os conceitos dependem da referência e dos critérios utilizados. O gabarito CERTO é defensável no escopo apresentado, não como teorema imutável sobre todos os sistemas atuais.
 
 ---
 
@@ -201,11 +201,11 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
    - Nem toda IA usa Machine Learning (a IA Simbólica usa regras dedutivas).
    - Todo Deep Learning é uma forma de Machine Learning.
 2. **Capacidade Cognitiva no Cebraspe**:
-   - Falou que *"a IA atual já é Geral (AGI) ou tem consciência própria"* $\rightarrow$ **ERRADO** (toda IA atual é **Estreita / ANI**).
+   - Falou que *"um chatbot possui necessariamente consciência ou todas as capacidades humanas"* $\rightarrow$ **ERRADO** por ausência de suporte; classificações de AGI e consciência exigem critérios explicitados.
    - Falou que *"o aprendizado de máquina depende de dados e ajuste estatístico de parâmetros"* $\rightarrow$ **CERTO**.
    - Falou que *"sistemas especialistas simbólicos dependem de regras se-então prévias"* $\rightarrow$ **CERTO**.
 3. **Governança Pública (EBIA)**:
-   - Exige sempre **supervisão humana (*Human-in-the-Loop*)**, explicabilidade e proibição de decisões discriminatórias automatizadas.
+   - Recomenda **supervisão proporcional ao risco**, medidas de explicabilidade e revisão apropriadas, conforme legislação e políticas aplicáveis. A LGPD art. 20 **não impõe universalmente revisor humano prévio** em todas as decisões automatizadas.
 
 ---
 
@@ -247,3 +247,5 @@ As questões originais 3 e 6 permanecem **NÃO HOMOLOGADAS**.
 
 
 > **Implementação normativa (11/11/2026):** referência à EBIA corrigida na bibliografia e PL 2.338/2023 identificado expressamente como projeto em tramitação. Fontes oficiais MCTI/Câmara conferidas.
+
+> **Implementação TI-119/120 (11/11/2026):** retificada atribuição institucional do Ulysses, esclarecido o caráter didático das taxonomias AGI/ANI e eliminada a falsa regra jurídica de HITL obrigatório em toda automação pública. A Questão 6 original permanece não homologada e sua substituta S18-6 continua indicada.

@@ -184,7 +184,7 @@ A reserva de plenário e o controle concentrado se conectam a [[3 - Materias/Dir
 - STF, Súmula Vinculante 10 e jurisprudência sobre reserva de plenário.
 - Lei nº 9.868/1999 — ADI, ADC e ADO.
 - Lei nº 9.882/1999 — ADPF.
-- [[11-06-2026|Inbox - 10-06-2026]].
+- registro de ingestão arquivado.
 
 
 ## Certificação normativa delimitada com ressalva pedagógica: 11/11/2026

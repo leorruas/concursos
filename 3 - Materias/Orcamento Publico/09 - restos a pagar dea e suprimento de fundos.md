@@ -86,7 +86,19 @@ A disponibilidade de caixa deve ser examinada segundo **fontes e vinculações**
 
 Uma questão pode afirmar que o cancelamento de RP é automaticamente **receita orçamentária nova**. A abordagem atual do MCASP e do Manual de Análise Fiscal do Tesouro **não contabiliza o cancelamento como receita orçamentária**. O cancelamento pode liberar saldo de disponibilidade financeira comprometida, com reflexos na apuração de superávit financeiro, observadas as regras.
 
-**Tensão normativa:** a redação histórica do art. 38 da Lei nº 4.320/1964 menciona tratamento como receita quando a anulação ocorre após o encerramento. O Manual de Análise Fiscal de 2025 explica a distinção interpretativa entre essa previsão e o **registro contábil atual**: a baixa de RP não é ingresso de recurso novo. Em prova literal sobre art. 38, ler o dispositivo e o comando; em prova de MCASP ou metodologia fiscal, evitar transformar cancelamento em arrecadação.
+**Duas fontes e duas perguntas diferentes.** O [art. 38 da Lei nº 4.320/1964](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html) conserva a redação histórica que considera receita do ano da anulação a anulação de despesa após o encerramento do exercício. Já o [MCASP, **11ª edição**, Parte I, p. 56](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1), estabelece no tratamento contábil-orçamentário atual que o **cancelamento de despesas inscritas em RP não é reconhecido como nova receita orçamentária**. A baixa libera disponibilidade antes comprometida, sem, por si só, novo ingresso de recursos em caixa. O MCASP também distingue a **restituição/ressarcimento de despesa anteriormente paga**, que pode representar receita orçamentária do exercício. A leitura do manual **não revoga nem apaga a literalidade do art. 38**.
+
+| Comando de prova | Formulação segura | Inferência indevida |
+| :--- | :--- | :--- |
+| “Segundo a **redação do art. 38** da Lei nº 4.320/1964...” | Identificar o tratamento legal **literal da anulação após o encerramento** | Dizer que o texto legal não contém a expressão histórica |
+| “Segundo o **MCASP 11** ou o reconhecimento contábil atual...” | **Cancelamento de RP não constitui nova receita orçamentária**, nem dinheiro arrecadado | Tratar baixa de compromisso como ingresso de caixa |
+| “Houve **ressarcimento** de pagamento já efetuado...” | Verificar reconhecimento de receita efetivamente recebida no período, segundo a hipótese do manual | Igualar ressarcimento à mera baixa de RP |
+
+**Caso progressivo:** (1) uma unidade cancela RP de R$ 30 mil sem receber nada: no MCASP, **nenhuma receita nova** surge; (2) a mesma unidade recebe R$ 30 mil em ressarcimento de despesa já paga no exercício anterior: agora existe **ingresso efetivo** a classificar de acordo com a regra aplicável; (3) se a questão mencionar **somente o art. 38**, a resposta deve seguir o comando sobre a literalidade da lei, mesmo que a metodologia fiscal atual dê tratamento diverso.
+
+**Item C/E inédito, complementar:** Segundo o MCASP, 11ª edição, o cancelamento de restos a pagar inscritos em exercício anterior gera necessariamente receita orçamentária nova no exercício do cancelamento, mesmo sem entrada de recursos em caixa.
+
+**Gabarito: Errado.** O cancelamento desfaz a vinculação anterior, mas **não é reconhecimento de receita orçamentária nova** segundo o manual; o enunciado confundiu liberação de disponibilidade com ingresso de recursos. A resposta não pretende transcrever a redação literal do art. 38 da Lei nº 4.320/1964.
 
 ### Pagamento no exercício seguinte
 

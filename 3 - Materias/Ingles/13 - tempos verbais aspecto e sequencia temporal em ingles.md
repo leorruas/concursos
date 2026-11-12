@@ -186,6 +186,36 @@ Em textos institucionais e notícias sobre o Legislativo, declarações e relat�
 
 ---
 
+## 5.1. Laboratório temporal: quando o relato muda a informação
+
+**Texto inédito e ficcional, preparado para treino:**
+
+> The regional archive digitized its oldest collection in 2021. Since then, staff members have corrected several indexing errors and have been updating records that require additional checks. Last week, the director said that the archive would publish a revised catalogue in December. By the end of the year, the team expects to have reviewed the remaining files, but it has not promised that every document will be available online.
+
+A primeira frase situa a digitalização em um passado delimitado: *in 2021*. O *present perfect* de *have corrected* conecta correções ao período iniciado naquele momento, sem afirmar que cada correção continua em execução. *Have been updating* enfatiza processo em desenvolvimento. *Would publish* é relato retrospectivo de uma divulgação futura em relação ao momento da fala. *Expects to have reviewed* informa uma expectativa sobre conclusão até uma referência futura, sem confirmar resultado.
+
+**Caso progressivo:** *The archive digitized its oldest collection in 2021* afirma o evento passado. *The archive has digitized its oldest collection* não localiza esse evento em 2021 e o apresenta em relação ao presente. *The archive has been digitizing its oldest collection* destaca uma atividade prolongada, sem afirmar por si só que toda a coleção foi concluída.
+
+**Item adicional A (inédito, C/E).** The passage states that digitization of the oldest collection occurred in a specified past year.
+
+**Gabarito: Certo.** *Digitized ... in 2021* situa o fato em 2021.
+
+**Item adicional B (inédito, C/E).** The form *have corrected* proves that the same corrections are continuously taking place without interruption.
+
+**Gabarito: Errado.** O *present perfect simple* conecta eventos ao intervalo que chega ao presente, mas não garante ação contínua e ininterrupta.
+
+**Item adicional C (inédito, C/E).** The director's reported statement necessarily establishes that the revised catalogue had already been published when the director spoke.
+
+**Gabarito: Errado.** *Would publish ... in December* é futuro visto a partir da fala relatada; não expressa publicação anterior.
+
+**Item adicional D (inédito, C/E).** According to the passage, the archive has guaranteed online access to every remaining document by the end of the year.
+
+**Gabarito: Errado.** O texto limita-se a uma expectativa de revisão e nega promessa de disponibilização integral.
+
+**Fonte de consulta:** [Cambridge Dictionary, present perfect simple](https://dictionary.cambridge.org/grammar/british-grammar/present-perfect-simple-i-) e [reported speech](https://dictionary.cambridge.org/grammar/british-grammar/reported-speech-indirect-speech).
+
+---
+
 ## 6. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**

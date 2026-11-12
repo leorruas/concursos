@@ -108,7 +108,7 @@ Diante da exigência constitucional de motivação dos atos administrativos (CF/
 
 A **XAI** abrange métodos e ferramentas que visam tornar as saídas de modelos complexos compreensíveis para humanos:
 - **Transparência Global:** Como o modelo funciona como um todo (quais variáveis gerais pesam mais no comportamento geral da máquina).
-- **Transparência Local (Explicabilidade da Decisão Individual):** Por que o cidadão Fulano de Tal teve seu pedido de aposentadoria ou benefício negado hoje? O que ele precisaria alterar para reverter a decisão? (Uso de técnicas agnósticas como SHAP - *SHapley Additive exPlanations* e LIME - *Local Interpretable Model-agnostic Explanations*).
+- **Transparência local (explicabilidade de uma previsão individual):** métodos como SHAP (*SHapley Additive exPlanations*) e LIME (*Local Interpretable Model-agnostic Explanations*) podem indicar contribuições ou aproximações de atributos para determinada saída. Essas explicações **não identificam necessariamente causas**, nem garantem que mudar uma variável alterará a decisão administrativa ou será juridicamente possível. A motivação do ato exige também base legal, dados corretos e avaliação do caso concreto.
 
 ---
 
@@ -170,7 +170,7 @@ Instituída pela Portaria MCTI nº 4.617/2021, fixa 6 eixos verticais e 3 eixos 
 
 ### Caso 2: Reconhecimento facial nas portarias e plenários do Congresso
 - *Cenário:* Implantação de câmeras com reconhecimento facial para controle de acesso ao Palácio do Congresso Nacional.
-- *Avaliação de Risco:* Configura sistema de alto risco com tratamento de dados biométricos sensíveis (LGPD, art. 11).
+- *Avaliação de risco:* reconhecimento facial para identificação pode envolver **dados biométricos sensíveis vinculados a pessoa natural** (LGPD, art. 5º, II, e art. 11). Sua classificação como alto risco e as obrigações correspondentes dependem do **regime normativo aplicável**, da finalidade e do desenho do sistema; não decorrem automaticamente do PL nº 2.338/2023 em tramitação.
 - *Medidas a avaliar conforme o risco e a base legal:* examinar necessidade de RIPD conforme a LGPD e orientações da ANPD, testar diferenças de erro entre grupos, definir supervisão e contestação adequadas, limitar coleta, retenção e acesso aos dados biométricos e observar as normas específicas de segurança pública. A classificação como alto risco e cada obrigação jurídica exigem fundamento normativo próprio; não decorrem automaticamente do PL enquanto ele estiver em tramitação.
 
 ### Caso 3: Descarte de currículos em estágio parlamentar com viés por faculdade
@@ -250,3 +250,5 @@ Instituída pela Portaria MCTI nº 4.617/2021, fixa 6 eixos verticais e 3 eixos 
 **Gabarito: ERRADO.** Em 11/11/2026 o PL estava em tramitação; proposta legislativa e lei vigente têm efeitos jurídicos distintos. Uma política institucional pode adotar voluntariamente controles semelhantes, mas isso não equivale à entrada em vigor do projeto.
 
 **Fontes:** [LGPD vigente](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html), [tramitação do PL](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262). Estes dois exemplos são inéditos, não transcrições Cebraspe.
+
+> **Implementação TI-124/125 (11/11/2026):** explicação local não equivale a inferência causal e risco de biometria condicionado à hipótese normativa. Preservada a ressalva já existente sobre comparação demográfica do NIST sem números universais.

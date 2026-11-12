@@ -122,3 +122,5 @@ Oito itens de Língua Portuguesa sobre pressuposição, inferência, referencia�
 O lote soma 16 itens redigidos. Os novos casos cobrem escopo da negação, pressuposição, previsão, catáfora, dêixis, contraste, finalidade e retomada por descrição.
 
 O lote soma 24 itens redigidos. Os oito novos cobrem elipse, substituição, hierarquia lexical, coordenação e orações subordinadas, com referências aos artigos 19, 24 e 25.
+
+O lote soma 32 itens redigidos. Os oito novos cobrem aspecto, anterioridade, hipótese, correlação temporal e efeitos de reescrita, com referência ao artigo 21.

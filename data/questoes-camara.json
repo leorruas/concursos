@@ -16632,6 +16632,168 @@
       "correctAnswer": "C",
       "explanation": "O tempo de publicação e a cobertura do público relevante são medidas distintas. Avaliar a intervenção exige observar ambas.",
       "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Prevenção, checagem, correção e avaliação: finalidades diferentes em 3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
+    },
+    {
+      "id": "cam-cs-canal-sincrono-e-registro-posterior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / canais",
+      "articleId": "art-73d4a195e86c02bf",
+      "conceptId": "canal-sincrono-e-registro-posterior",
+      "mechanism": "canal-sincrono-e-registro-posterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Terceiro conjunto: critérios para escolher e combinar canais"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md",
+        "section": "Terceiro conjunto: critérios para escolher e combinar canais"
+      },
+      "statement": "Uma reunião permite esclarecer dúvidas sobre uma mudança de procedimento. Disponibilizar depois um registro consultável pode atender quem precisa recuperar a orientação durante o trabalho.",
+      "correctAnswer": "C",
+      "explanation": "O encontro facilita esclarecimento imediato e o registro oferece uma referência persistente. Os canais atendem a necessidades complementares."
+    },
+    {
+      "id": "cam-cs-intranet-sem-cobertura-no-turno",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / canais",
+      "articleId": "art-73d4a195e86c02bf",
+      "conceptId": "intranet-sem-cobertura-no-turno",
+      "mechanism": "intranet-sem-cobertura-no-turno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Quarto conjunto: fluxos, acesso e segmentação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md",
+        "section": "Quarto conjunto: fluxos, acesso e segmentação"
+      },
+      "statement": "Uma orientação publicada na intranet chega a todos os turnos só porque foi disponibilizada durante o expediente administrativo, mesmo quando parte dos trabalhadores não tem acesso à intranet no posto de trabalho.",
+      "correctAnswer": "E",
+      "explanation": "O horário da publicação não garante acesso. A cobertura depende das condições de uso de cada público interno."
+    },
+    {
+      "id": "cam-cs-ritual-e-pressuposto-subjacente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / cultura",
+      "articleId": "art-b0ad4f6e375a912c",
+      "conceptId": "ritual-e-pressuposto-subjacente",
+      "mechanism": "ritual-e-pressuposto-subjacente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b0ad4f6e375a912c#Schein: o que cada um dos três níveis classifica?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md",
+        "section": "Schein: o que cada um dos três níveis classifica?"
+      },
+      "statement": "Observar uma reunião semanal de escuta permite identificar diretamente o pressuposto cultural dos participantes sobre a abertura a críticas.",
+      "correctAnswer": "E",
+      "explanation": "A reunião é uma prática observável. Inferir pressupostos exige investigar como as pessoas interpretam e usam a prática e o que ocorre quando há discordância."
+    },
+    {
+      "id": "cam-cs-percepcao-compartilhada-com-desacordo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / clima",
+      "articleId": "art-b0ad4f6e375a912c",
+      "conceptId": "percepcao-compartilhada-com-desacordo",
+      "mechanism": "percepcao-compartilhada-com-desacordo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b0ad4f6e375a912c#Schneider, Ehrhart e Macey: conceito e unidade de clima"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md",
+        "section": "Schneider, Ehrhart e Macey: conceito e unidade de clima"
+      },
+      "statement": "Uma média elevada de respostas sobre abertura a sugestões pode ocultar discordância dentro de uma equipe. Antes de tratar a média como percepção compartilhada, convém examinar a distribuição das respostas.",
+      "correctAnswer": "C",
+      "explanation": "A média descreve o centro das respostas. O clima como propriedade coletiva requer evidência de compartilhamento, além do nível médio."
+    },
+    {
+      "id": "cam-cs-escuta-com-retorno-de-decisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / escuta",
+      "articleId": "art-9f3c27d018b5e64a",
+      "conceptId": "escuta-com-retorno-de-decisao",
+      "mechanism": "escuta-com-retorno-de-decisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3c27d018b5e64a#Segundo mecanismo: escuta, voz e resposta institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md",
+        "section": "Segundo mecanismo: escuta, voz e resposta institucional"
+      },
+      "statement": "Uma consulta interna pode produzir retorno útil mesmo quando a proposta mais votada não é adotada, se a equipe explicar os critérios e o encaminhamento das contribuições.",
+      "correctAnswer": "C",
+      "explanation": "A escuta não implica aceitar todas as sugestões. O retorno mostra como as contribuições foram consideradas e esclarece os limites da decisão."
+    },
+    {
+      "id": "cam-cs-mudanca-de-clima-com-intervencoes-simultaneas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / avaliação",
+      "articleId": "art-9f3c27d018b5e64a",
+      "conceptId": "mudanca-de-clima-com-intervencoes-simultaneas",
+      "mechanism": "mudanca-de-clima-com-intervencoes-simultaneas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3c27d018b5e64a#Como desenhar uma intervenção sem prometer efeitos automáticos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md",
+        "section": "Como desenhar uma intervenção sem prometer efeitos automáticos"
+      },
+      "statement": "Se o clima melhora após a instituição lançar um boletim e, na mesma semana, alterar as regras de escala, a comparação antes e depois identifica isoladamente o efeito do boletim.",
+      "correctAnswer": "E",
+      "explanation": "As duas mudanças podem afetar as percepções. A comparação temporal isolada não separa suas contribuições."
     }
   ]
 }

@@ -50,3 +50,7 @@ Vinte e duas questões geradas sobre a Lei nº 12.232/2010, com indicação dos 
 ## Lote 009 validado
 
 Quarenta questões geradas sobre modelos, teorias da comunicação, midiatização, plataformização e integridade, vinculadas aos artigos 18, 26, 31, 32, 34 e 37 a 47. Revisão editorial e recalibração concluídas. A triagem a 0,22 não sinalizou pares do lote. O seletor recuperou os 40 itens. Próximo lote: comunicação interna, item 2 de Comunicação Social.
+
+## Lote 010 em elaboração
+
+Seis questões geradas para comunicação interna, item 2 de Comunicação Social, vinculadas aos artigos 48, 50 e 51. Ampliar com conceitos, funções e endomarketing.

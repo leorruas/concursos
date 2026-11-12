@@ -134,6 +134,22 @@ O **item 72**, no [caderno oficial CESPE/UnB, Correios 2011, Cargo 28](https://c
 
 **Consequência didática:** distinguir **quem coordena a coleta e validação da demanda** de **quem fornece informações, revisa o diagnóstico e assume decisões**. O julgamento histórico não cria organograma obrigatório para a Câmara, nem define por si as competências legais de fiscalização e autorização de contratos. [Índice do bloco real 65–80](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md).
 
+## Oficina de aprovação: agência, órgão, veículo e prova de entrega (11/11/2026)
+
+**Problema hipotético:** uma agência contratada apresenta três propostas para divulgar informação sobre audiências. O atendimento organiza o briefing, o planejamento e a revisão entre demandante, criação, mídia e produção. A equipe contratante considera orçamento, impessoalidade, acessibilidade, validação de dados e autorização de publicação. **Aprovar proposta criativa não significa autorizar automaticamente despesa, nem a agência pode tornar-se fiscal administrativa do seu próprio contrato pela simples atribuição do atendimento.**
+
+A [Lei nº 12.232/2010, art. 2º](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-norma-pl.html) inclui na atividade publicitária **intermediação e supervisão da execução externa**, mas esse papel profissional é distinto da fiscalização pela Administração segundo as normas aplicáveis. A definição de responsáveis depende da contratação e dos instrumentos competentes. No caso, um fornecedor entrega arquivo final e comprovante de veiculação: isso pode sustentar **execução contratual**, mas compreensão dos cidadãos e correção do serviço necessitam de observação própria.
+
+**Matriz de decisão didática:** demandante valida problema e fonte técnica; atendimento organiza informações e encaminhamentos; criação prepara versões; mídia avalia distribuição e critérios de medição; produção verifica requisitos; autoridade competente decide o que lhe cabe; fiscalização contratual verifica execução conforme regime aplicável. **As funções podem ser acumuladas na prática, mas isso não altera competências jurídicas por mera conveniência do fluxo**.
+
+**Item 4, inédito.** A função do atendimento publicitário pode incluir coleta de informações, articulação entre áreas e acompanhamento de aprovações, sem que a elaboração do briefing seja necessariamente responsabilidade exclusiva desse profissional.
+
+**Gabarito: Certo.** O atendimento integra trabalho e decisões; o briefing depende de contribuições de áreas técnicas e do demandante, conforme a necessidade.
+
+**Item 5, inédito.** A supervisão de produção externa prevista como atividade da agência pela Lei nº 12.232/2010 transforma o profissional de atendimento em fiscal designado pela Administração, dispensando mecanismos próprios de acompanhamento contratual.
+
+**Gabarito: Errado.** Supervisão técnica publicitária e fiscalização administrativa são papéis distintos. Exercícios inéditos autorais, sem alterar os itens reais de Correios 2011 citados anteriormente.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|Briefing]] reúne informação e restrições; [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|Diagnóstico]] investiga evidências; [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|Estratégia e conceito]] orienta soluções; [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Mídia]] planeja distribuição; [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|Limites constitucionais]] restringem finalidade e promoção pessoal.

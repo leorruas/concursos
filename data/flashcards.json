@@ -106,7 +106,7 @@
       "term": "Plano Plurianual (PPA)",
       "definition": "É a lei que planeja o que o governo quer alcançar em quatro anos do orçamento, com metas para diferentes regiões. Abrange despesas de capital (por exemplo, obras), gastos que surgem depois desses investimentos (como manutenção) e programas de duração continuada (como atendimento regular). Não autoriza sozinho o gasto de cada ano.",
       "example": "Planejar construção de postos de saúde em regiões com carência e manutenção futura do serviço. Para gastar em cada ano, é necessária autorização no orçamento anual.",
-      "confusion": "Programa de duração continuada do PPA não é automaticamente despesa obrigatória continuada da LRF. O PPA orienta o médio prazo; a LOA autoriza cada gasto anual.",
+      "confusion": "Programa de duração continuada do Plano Plurianual (PPA) não é automaticamente despesa obrigatória continuada da Lei de Responsabilidade Fiscal (LRF), que exige critérios próprios. A Lei Orçamentária Anual (LOA) autoriza o gasto anual.",
       "topic": "Planejamento",
       "subjectIds": [
         "orcamento-publico"
@@ -130,12 +130,12 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-12",
-      "revision": 3,
+      "revision": 4,
       "conceptIds": [
         "ppa-regionalizacao-e-escopo"
       ],
       "contrast": {
-        "prompt": "PPA prevê hospital e manutenção; a LOA não autoriza a obra no ano. O PPA basta para empenhar? E toda manutenção é despesa de capital?",
+        "prompt": "O Plano Plurianual (PPA) prevê hospital e manutenção, mas a Lei Orçamentária Anual (LOA) não autoriza a obra naquele ano. O PPA basta para empenhar? Toda manutenção é despesa de capital?",
         "answer": "Não. O PPA planeja, mas a despesa precisa de dotação na LOA ou crédito adicional. Manutenção decorrente da obra não vira, por isso, despesa de capital."
       }
     },
@@ -143,8 +143,8 @@
       "id": "ldo",
       "term": "Lei de Diretrizes Orçamentárias (LDO)",
       "definition": "É a lei anual que liga o plano de vários anos ao orçamento do ano seguinte. Define prioridades, metas fiscais (resultados pretendidos para as contas) e regras para preparar e executar o orçamento. Orienta, mas não libera o pagamento.",
-      "example": "A LDO prioriza melhorar escolas; a LOA autoriza R$ 2 milhões. Se a arrecadação ameaçar metas fiscais, a limitação de empenho depende de condições legais e de atos próprios.",
-      "confusion": "Prioridade da LDO não é dotação, isto é, verba autorizada na LOA. Prever critérios de limitação de empenho também não significa cancelar automaticamente o valor aprovado no orçamento.",
+      "example": "A Lei de Diretrizes Orçamentárias (LDO) prioriza melhorar escolas; a Lei Orçamentária Anual (LOA) autoriza R$ 2 milhões. Se a arrecadação ameaçar metas fiscais, limitar empenhos depende das condições legais.",
+      "confusion": "Prioridade da Lei de Diretrizes Orçamentárias (LDO) não é dotação, isto é, valor autorizado na Lei Orçamentária Anual (LOA). Limitar empenhos não cancela automaticamente essa autorização.",
       "topic": "Planejamento",
       "subjectIds": [
         "orcamento-publico"
@@ -168,9 +168,9 @@
       },
       "status": "validated",
       "reviewedAt": "2026-11-12",
-      "revision": 3,
+      "revision": 4,
       "contrast": {
-        "prompt": "A LDO prioriza uma obra e prevê critérios de contingenciamento. Ela pode, sozinha, autorizar o gasto ou cancelar a dotação?",
+        "prompt": "A Lei de Diretrizes Orçamentárias (LDO) prioriza uma obra e prevê critérios de contingenciamento. Ela pode, sozinha, autorizar o gasto ou cancelar a dotação da Lei Orçamentária Anual (LOA)?",
         "answer": "Não. A LOA ou crédito adicional autoriza a despesa. Limitar empenho depende das condições e atos do art. 9º da LRF; não é anulação automática da dotação."
       },
       "conceptIds": []

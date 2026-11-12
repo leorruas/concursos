@@ -28,11 +28,11 @@ export function validateIdentities(items){
     for(const p of [item.sourcePath,...item.articleAliases||[]]){if(aliases.has(p)&&aliases.get(p)!==item.articleId)throw Error('Alias de artigo ambíguo: '+p);aliases.set(p,item.articleId);}
   }
 }
-export function resolveArticleRef(root,ref){
+export function resolveArticleRef(root,ref,inventory){
   const [target,...sections]=ref.split('#');
   if(!target.startsWith('article:') && fs.existsSync(path.join(root,target.endsWith('.md')?target:target+'.md')))return ref;
   const lookup=target.endsWith('.md')?target:target+'.md';
-  const item=articleInventory(root).find(x=>target.startsWith('article:')?x.articleId===target.slice(8):x.articleAliases.includes(lookup));if(!item){if(!target.startsWith('article:'))return ref;throw Error('Artigo não encontrado: '+target);}
+  const item=(inventory?.() ?? articleInventory(root)).find(x=>target.startsWith('article:')?x.articleId===target.slice(8):x.articleAliases.includes(lookup));if(!item){if(!target.startsWith('article:'))return ref;throw Error('Artigo não encontrado: '+target);}
   return item.sourcePath+(sections.length?'#'+sections.join('#'):'');
 }
 // Compilação pública: caminhos são derivados, não um segundo mapa manual.

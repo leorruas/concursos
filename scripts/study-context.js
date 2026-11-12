@@ -106,7 +106,7 @@ export function validatePlan(root,plan,concursos) {
 }
 // V3 registra a natureza da sessão; V2 misto é aceito exclusivamente como legado.
 export const sessionScope = s => s.schemaVersion===3 ? s.scope : s.subjectId==='diagnostico-misto' && s.unitId==='diagnostico-misto' ? 'mixed' : 'subject';
-export function validateLearning(root,s,concursos) {
+export function validateLearning(root,s,concursos,inventory) {
   if(![2,3].includes(s.schemaVersion))return;
   const contest=concursos.find(c=>c.id===s.concursoId);
   const plan=loadPlans(root).find(p=>p.concursoId===s.concursoId)||{subjects:curriculum(root,contest),sources:{edital:{ref:contest?.sourcePath}},questionFormat:contest?.estruturaProva?.objetiva?.julgamento==='Certo ou Errado'?'CE':null};
@@ -162,7 +162,7 @@ export function validateLearning(root,s,concursos) {
         txt(q.editalRef) && selectedUnit.editalItems.some(ref=>q.editalRef===ref||q.editalRef.startsWith(ref+' / ')),
         `${s.id}/Q${q.number}: item fora do programa objetivo do Cargo 1`);
       ok(q.theoryRefs?.length && q.theoryRefs.every(ref=>{
-        const [target]=resolveArticleRef(root,ref).split('#');
+        const [target]=resolveArticleRef(root,ref,inventory).split('#');
         const p=target.endsWith('.md')?target:target+'.md';
         const articleId=articleMetadata(file(root,p)).articleId;
         return qSubject.articleIds.includes(articleId);

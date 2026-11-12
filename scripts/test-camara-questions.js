@@ -46,16 +46,18 @@ const validate = s => validateSession(s, s.id + '.json', root, contests);
 validate(session);
 const config = JSON.parse(fs.readFileSync(new URL('../data/questoes-camara.json', import.meta.url)));
 const bankStatements = new Set();
-for (const pilot of [...config.pilotoDidatico, ...(config.expansao ?? []).filter(item => item.reviewStatus !== 'bloqueada')]) {
+const bankItems = [...config.pilotoDidatico, ...(config.expansao ?? []).filter(item => item.reviewStatus !== 'bloqueada')];
+const bankQuestions = bankItems.map((pilot, indexInBank) => {
   const key = pilot.statement.normalize('NFKC').toLowerCase().replace(/\s+/g, ' ').trim();
   assert(!bankStatements.has(key), 'Enunciado duplicado no banco didático');
   bankStatements.add(key);
   const discipline = index.contests.find(c => c.concursoId === 'camara-2026').subjects
     .find(s => s.id === pilot.subjectId).name;
-  validate({...session, questions: [{...question, ...pilot, discipline,
+  return {...question, ...pilot, discipline, number: indexInBank + 1,
     topic: pilot.editalRef, subtopic: pilot.source?.section ?? question.subtopic,
-    distractorMechanism: pilot.mechanism, userAnswer: pilot.correctAnswer, errorType: null}]});
-}
+    distractorMechanism: pilot.mechanism, userAnswer: pilot.correctAnswer, errorType: null};
+});
+validate({...session, questions: bankQuestions});
 // Regressão visual mínima da matéria de TI: Mermaid íntegro e sem fallback azul legado.
 // A inspeção visual no navegador continua separada deste teste estático.
 for (const file of fs.readdirSync(new URL('../3 - Materias/Informatica/', import.meta.url))

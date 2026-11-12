@@ -18,7 +18,7 @@ updated: 2026-11-07
 
 **Presidencialismo de coalizão**, expressão formulada por **Sérgio Abranches (1988)** para analisar o arranjo brasileiro, designa a combinação de presidência forte, multipartidarismo, representação proporcional, federalismo e governos que precisam construir e administrar alianças partidárias heterogêneas. É **categoria analítica de funcionamento político**, não uma nova forma constitucional de governo, uma regra que obrigue formalmente a integrar vários partidos ao gabinete nem sinônimo de corrupção.
 
-Esta unidade **CAM-CP-013** aprofunda negociação, agenda, disciplina, coalizões e governabilidade. Para o funcionamento constitucional dos Poderes, consultar [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|CAM-CP-012]]. Para a distinção entre sistemas de governo e sobrevivência do gabinete, consultar [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|CAM-CP-009]].
+Esta unidade **[[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]]** aprofunda negociação, agenda, disciplina, coalizões e governabilidade. Para o funcionamento constitucional dos Poderes, consultar [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|Separação de Poderes: funções, freios e contrapesos]]. Para a distinção entre sistemas de governo e sobrevivência do gabinete, consultar [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|Sistemas de governo: presidencialismo e parlamentarismo]].
 
 ## Estrutura: instituições, recursos e resultados
 

@@ -81,6 +81,18 @@ Os percentuais constitucionais para emendas, a Lei Complementar nº 210/2024, as
 
 Evitar decorar percentuais sem identificar **a norma, o exercício e o tipo de emenda**.
 
+### Indicação de emendas de comissão: regra permanente e rito de cada exercício
+
+Após a publicação da LOA, o **art. 5º, I e II, da LC nº 210/2024** prevê o recebimento, pelas comissões, das propostas de indicação encaminhadas pelos líderes partidários, ouvida a bancada. A **deliberação** deve ocorrer em até **15 dias**; depois de aprovadas, as indicações devem constar de **atas publicadas e encaminhadas aos órgãos executores em até 5 dias**. Essa é uma **regra legal**, não um prazo criado pela Nota Técnica Conjunta nº 3/2026 sobre o PLDO 2027.
+
+A [Resolução nº 1/2006-CN, art. 45-A, com alterações de 2025](https://www.congressonacional.leg.br/web/cmo/atribuicoes-e-legislacao/resolucao-n-01-de-2006-cn), acrescenta procedimentos de aprovação, identificação dos solicitantes, publicação e encaminhamento das atas à CMO. A [Nota Técnica Conjunta nº 3/2026](https://www.congressonacional.leg.br/documents/150599582/156145129/NTC_03-2026/85876ac9-8f1c-4d39-a4b2-1400a49a70eb) **sistematiza** esses prazos na análise do PLDO 2027. Já as Portarias Conjuntas nº 2 e 3/2026 tratam de **procedimentos operacionais do exercício**. Em questões, identificar **qual instrumento**, **qual ano** e **qual etapa** antes de transportar um prazo.
+
+**Caso de decisão:** uma emenda de comissão foi aprovada no PLOA. Isso não identifica automaticamente beneficiário, nem comprova deliberação posterior da indicação pela comissão, e muito menos a liquidação de uma despesa. A **ata da indicação** integra uma etapa distinta da **apresentação da emenda** e do **pagamento**.
+
+**Item C/E inédito:** O prazo de deliberação das indicações de beneficiários de emendas de comissão, previsto na LC nº 210/2024, somente passa a existir quando a LDO de cada exercício o reproduz expressamente.
+
+**Gabarito: Errado.** O prazo de **15 dias** já consta do **art. 5º, I**, da lei complementar; não depende de repetição na LDO anual. Regras de execução específicas de cada ano devem ser examinadas separadamente. [Lei Complementar nº 210/2024, art. 5º](https://www2.camara.leg.br/legin/fed/leicom/2024/leicomplementar-210-25-novembro-2024-796588-publicacaooriginal-173577-pl.html).
+
 ### Refinamento normativo: percentuais e exceções que alteram o C/E
 
 **Individual × bancada, com denominadores temporais diferentes.** A [Constituição atualizada, art. 166, §§ 9º, 9º-A e 12](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html) estabelece: **emendas individuais = 2% da Receita Corrente Líquida (RCL) do exercício anterior ao encaminhamento do PLOA**, dos quais **1,55% para deputados e 0,45% para senadores**, reservada **metade do percentual total a ações e serviços públicos de saúde**. Para **bancadas estaduais/DF**, há garantia de execução de até **1% da RCL realizada no exercício anterior**. Atenção à diferença entre **ano anterior ao encaminhamento do projeto** e **ano anterior à execução**; as duas fórmulas não são intercambiáveis. As **emendas de comissões** não adquirem automaticamente a mesma garantia constitucional de execução.

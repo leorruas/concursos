@@ -18,7 +18,7 @@ updated: 2026-11-07
 
 **Votos válidos** na eleição majoritária são os dados às candidaturas; votos em branco e nulos **não entram no denominador** da maioria absoluta. A abstenção, por sua vez, é a ausência à votação e também não corresponde a voto válido. O número de pessoas aptas a votar não se confunde com o total de votos apurados válidos.
 
-Esta unidade **CAM-CP-014** distingue regras **majoritárias de um ou dois turnos**, aplicações brasileiras, candidatura e vaga, circunscrição, limiares, estratégias e efeitos possíveis. A unidade seguinte, **CAM-CP-015**, examinará o **sistema proporcional, os quocientes e as listas**. A relação entre eleições e formação de governos já foi introduzida em [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|CAM-CP-013]].
+Esta unidade **[[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|Sistema eleitoral majoritário: funcionamento e efeitos]]** distingue regras **majoritárias de um ou dois turnos**, aplicações brasileiras, candidatura e vaga, circunscrição, limiares, estratégias e efeitos possíveis. A unidade seguinte, **[[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|Sistema eleitoral proporcional: quocientes, listas e efeitos]]**, examinará o **sistema proporcional, os quocientes e as listas**. A relação entre eleições e formação de governos já foi introduzida em [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]].
 
 ## Estrutura do sistema: o que observar
 
@@ -167,7 +167,7 @@ Os principais deslocamentos são: **população por eleitorado**, **votos totais
 - [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|Representação política]]: autorização e responsividade não se esgotam na regra de seleção.
 - [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|Federalismo]]: Senado, unidades da Federação e representação territorial.
 - [[3 - Materias/Direito Constitucional/05 - direitos politicos|Direitos políticos]]: elegibilidade, participação e votação.
-- **Próxima unidade CAM-CP-015:** quocientes, lista aberta, cadeiras partidárias e efeitos do sistema proporcional.
+- **Próxima unidade [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|Sistema eleitoral proporcional: quocientes, listas e efeitos]]:** quocientes, lista aberta, cadeiras partidárias e efeitos do sistema proporcional.
 
 ## Tensões e pegadinhas
 

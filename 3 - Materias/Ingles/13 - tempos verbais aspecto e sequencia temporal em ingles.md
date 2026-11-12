@@ -107,7 +107,7 @@ Em textos institucionais e notícias sobre o Legislativo, declarações e relat�
 - ( ) Errado
 
 **Gabarito: Errado**  
-**Comentário:** O emprego do *Present Perfect* acompanhado do conector temporal "since" expressa uma ação ou processo que teve início no passado (por ocasião da publicação da diretriz) e **continua produzindo efeitos ou desenvolvendo-se até o presente momento**. Afirmar que se trata de uma ação pontual sem desdobramentos presentes contraria a própria essência aspectual do tempo verbal.
+**Comentário:** O *Present Perfect* com *since* considera o período desde a diretriz até o presente, sem localizar toda a expansão em um ponto passado isolado. Contudo, **não prova que as obras de expansão estejam ininterruptamente em andamento nem especifica efeitos concretos atuais**. A assertiva erra ao impor conclusão definitiva em um ponto passado e negar qualquer vínculo com o período presente. Referência: [Cambridge Grammar, *present perfect simple*](https://dictionary.cambridge.org/grammar/british-grammar/present-perfect-simple-i-).
 
 ---
 
@@ -129,15 +129,15 @@ Em textos institucionais e notícias sobre o Legislativo, declarações e relat�
 ### Questão 3
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-*Text segment: "Before the constitutional amendment was officially promulgated by the joint session, legislative technicians had reviewed every article to prevent syntactical ambiguities."*
+*Text segment (hipotético, sem afirmação de rito jurídico real): "Before the new institutional policy was officially issued, legislative technicians had reviewed every article to prevent syntactic ambiguities."*
 
-**Item:** The use of "had reviewed" demonstrates that the technical review of the articles occurred prior to the official promulgation of the constitutional amendment.
+**Item:** The use of "had reviewed" indicates that the technical review preceded the official issuance of the institutional policy.
 
 - ( ) Certo
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** O *Past Perfect* ("had reviewed") expressa com exatidão a anterioridade relativa em relação a outro fato passado ("was officially promulgated"), cumprindo a função de indicar a ação mais antiga da sequência temporal pretérita.
+**Comentário:** O *Past Perfect* ("had reviewed") expressa com exatidão a anterioridade relativa em relação a outro fato passado ("was officially issued"), cumprindo a função de indicar a ação mais antiga da sequência temporal pretérita.
 
 ---
 
@@ -182,7 +182,7 @@ Em textos institucionais e notícias sobre o Legislativo, declarações e relat�
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** A locução "will have concluded" está no *Future Perfect* (Futuro do Pretérito / Futuro Anterior), cuja função exata é indicar a conclusão integral de uma ação antes de um marco temporal futuro delimitado ("By the end of the current legislative session").
+**Comentário:** A locução "will have concluded" está no *Future Perfect* (futuro perfeito / ação anterior a um marco futuro), cuja função exata é indicar a conclusão integral de uma ação antes de um marco temporal futuro delimitado ("By the end of the current legislative session").
 
 ---
 

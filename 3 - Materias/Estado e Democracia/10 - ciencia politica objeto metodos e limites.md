@@ -133,7 +133,7 @@ Em **Nicolau Maquiavel**, particularmente em *O Príncipe* e nos *Discursos sobr
 
 Em **Max Weber**, a sociologia compreensiva busca **interpretar o sentido da ação social e explicar causalmente seu curso e efeitos**. O estudo do poder político e da dominação beneficia-se de **tipos ideais**, instrumentos analíticos que acentuam traços para comparar a realidade, sem pressupor a existência de casos puros. Weber também diferencia **julgamento de valor**, **relevância dos valores na escolha do objeto** e **análise empírica**.
 
-**Tipos ideais não são modelos de excelência moral**, nem médias estatísticas. A burocracia legal-racional, os tipos de dominação e a legitimidade estão desenvolvidos em [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|nota 01]], e serão retomados no CAM-CP-002.
+**Tipos ideais não são modelos de excelência moral**, nem médias estatísticas. A burocracia legal-racional, os tipos de dominação e a legitimidade estão desenvolvidos em [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|Estado, governo, administração e legitimidade]], e serão retomados no CAM-CP-002.
 
 **Neutralidade axiológica** não significa que o pesquisador não tenha valores ou que temas de pesquisa não envolvam escolhas valorativas. O ponto metodológico é **não apresentar preferências normativas como conclusões empíricas demonstradas**.
 

@@ -35799,6 +35799,1126 @@
       "correctAnswer": "C",
       "explanation": "O cargo de deputado federal não integra o rol constitucional de cargos privativos de brasileiro nato.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / Nato × naturalizado: regra e exceções; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-ti-l026-001-exclusao-offline-propagacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-74bf9176e700b4c8",
+      "conceptId": "exclusao-offline-propagacao",
+      "mechanism": "convergencia-apos-reconexao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-74bf9176e700b4c8#4. O mecanismo de sincronização e arquivos sob demanda"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md",
+        "section": "4. O mecanismo de sincronização e arquivos sob demanda"
+      },
+      "statement": "Um servidor exclui um arquivo de uma pasta sincronizada enquanto está sem internet. Quando a conexão é restabelecida, a exclusão pode propagar-se ao armazenamento remoto e a outros dispositivos associados, conforme as políticas do serviço.",
+      "correctAnswer": "C",
+      "explanation": "A sincronização busca convergência entre réplicas, inclusive para exclusões; conectividade, permissões e políticas podem limitar ou atrasar a propagação.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. O mecanismo de sincronização e arquivos sob demanda\" do artigo 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-002-sincronizacao-copia-imutavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-74bf9176e700b4c8",
+      "conceptId": "sincronizacao-copia-imutavel",
+      "mechanism": "confundir-replica-com-historico",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-74bf9176e700b4c8#5. Fronteira crítica: sincronização versus backup"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md",
+        "section": "5. Fronteira crítica: sincronização versus backup"
+      },
+      "statement": "O simples fato de uma pasta estar sincronizada com a nuvem assegura que cada versão excluída permanecerá imutável e recuperável por tempo ilimitado, mesmo sem configuração de retenção.",
+      "correctAnswer": "E",
+      "explanation": "Sincronização replica estados e operações; retenção e recuperação histórica dependem de recursos e políticas próprios, não decorrem automaticamente da sincronização.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"5. Fronteira crítica: sincronização versus backup\" do artigo 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-003-arquivos-sob-demanda-primeiro-acesso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-74bf9176e700b4c8",
+      "conceptId": "arquivos-sob-demanda-primeiro-acesso",
+      "mechanism": "diferenciar-placeholder-de-conteudo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-74bf9176e700b4c8#4. O mecanismo de sincronização e arquivos sob demanda"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md",
+        "section": "4. O mecanismo de sincronização e arquivos sob demanda"
+      },
+      "statement": "No recurso de arquivos sob demanda, um documento marcado como apenas online pode aparecer na lista do Explorador sem que seu conteúdo esteja armazenado localmente; o primeiro acesso ao conteúdo exige conexão para baixá-lo.",
+      "correctAnswer": "C",
+      "explanation": "Um marcador apenas online não equivale a uma cópia física disponível offline. O conteúdo é transferido sob demanda quando necessário.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. O mecanismo de sincronização e arquivos sob demanda\" do artigo 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-004-arquivo-local-liberacao-espaco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-74bf9176e700b4c8",
+      "conceptId": "arquivo-local-liberacao-espaco",
+      "mechanism": "confundir-local-com-fixado",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-74bf9176e700b4c8#4. O mecanismo de sincronização e arquivos sob demanda"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md",
+        "section": "4. O mecanismo de sincronização e arquivos sob demanda"
+      },
+      "statement": "No OneDrive, todo arquivo que tenha sido aberto e esteja disponível localmente passa automaticamente à condição de sempre manter neste dispositivo, não podendo voltar ao estado apenas online.",
+      "correctAnswer": "E",
+      "explanation": "A disponibilidade local pode ser temporária. A fixação permanente é uma opção distinta, e o gerenciador de espaço pode devolver arquivos locais comuns ao estado apenas online.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. O mecanismo de sincronização e arquivos sob demanda\" do artigo 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-005-excel-referencia-mista-copia-diagonal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "excel-referencia-mista-copia-diagonal",
+      "mechanism": "aplicar-deslocamento-coluna-linha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#2. Aritmética de referências: Relativa, Absoluta e Mista"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "2. Aritmética de referências: Relativa, Absoluta e Mista"
+      },
+      "statement": "Em uma planilha, a fórmula `=$B3+C$2` é copiada de D4 para F6. A fórmula resultante será `=$B5+E$2`, pois a coluna B e a linha 2 estão fixadas.",
+      "correctAnswer": "C",
+      "explanation": "O deslocamento é de duas colunas e duas linhas. `$B3` mantém B e avança a linha a 5; `C$2` avança a coluna a E e mantém a linha 2.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Aritmética de referências: Relativa, Absoluta e Mista\" do artigo 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-006-excel-cifrao-fixa-linha",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "excel-cifrao-fixa-linha",
+      "mechanism": "trocar-fixacao-linha-coluna",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#2. Aritmética de referências: Relativa, Absoluta e Mista"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "2. Aritmética de referências: Relativa, Absoluta e Mista"
+      },
+      "statement": "Ao copiar a fórmula `=A$1` da célula B3 para C3, a linha referenciada passa automaticamente de 1 para 2, pois a referência é mista.",
+      "correctAnswer": "E",
+      "explanation": "O cifrão em `A$1` fixa a linha 1; somente a coluna A é relativa. No deslocamento à direita, a referência vira `B$1`.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Aritmética de referências: Relativa, Absoluta e Mista\" do artigo 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-007-tabela-dinamica-agrupar-por-categoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "tabela-dinamica-agrupar-por-categoria",
+      "mechanism": "distinguir-campo-linha-e-valor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)"
+      },
+      "statement": "Em uma Tabela Dinâmica, colocar a unidade administrativa em Linhas e o valor das despesas em Valores permite resumir numericamente os registros por unidade, conforme a função de agregação aplicada.",
+      "correctAnswer": "C",
+      "explanation": "O campo Linhas agrupa categorias e o campo Valores calcula a medida agregada, por exemplo soma ou contagem.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)\" do artigo 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-008-tabela-dinamica-atualizacao-universal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "tabela-dinamica-atualizacao-universal",
+      "mechanism": "generalizar-auto-refresh",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)"
+      },
+      "statement": "Toda Tabela Dinâmica do Excel 365 se atualiza imediatamente após qualquer alteração na origem, independentemente de versão, tipo de dados e configuração, sendo impossível precisar do comando Atualizar.",
+      "correctAnswer": "E",
+      "explanation": "Há cenários de atualização automática e cenários em que a atualização manual ou configurada é necessária; a regra não é universal.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)\" do artigo 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-009-onedrive-acesso-existente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4d63009042ff1a1",
+      "conceptId": "onedrive-acesso-existente",
+      "mechanism": "distinguir-link-e-concessao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e4d63009042ff1a1#2. Tipos de links de compartilhamento e escopos de permissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
+        "section": "2. Tipos de links de compartilhamento e escopos de permissão"
+      },
+      "statement": "Ao compartilhar um link do tipo 'Pessoas com acesso existente' no OneDrive corporativo, o usuário pode facilitar a localização do arquivo sem conceder, por esse ato, novas permissões ao destinatário.",
+      "correctAnswer": "C",
+      "explanation": "Esse tipo de link direciona quem já está autorizado; a criação do link não amplia, por si só, a lista de pessoas com acesso.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Tipos de links de compartilhamento e escopos de permissão\" do artigo 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-010-onedrive-pode-exibir-altera-documento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4d63009042ff1a1",
+      "conceptId": "onedrive-pode-exibir-altera-documento",
+      "mechanism": "inverter-niveis-de-permissao",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e4d63009042ff1a1#2. Tipos de links de compartilhamento e escopos de permissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
+        "section": "2. Tipos de links de compartilhamento e escopos de permissão"
+      },
+      "statement": "No OneDrive corporativo, selecionar 'Pode Exibir' concede ao destinatário permissão para alterar, renomear e excluir o conteúdo compartilhado.",
+      "correctAnswer": "E",
+      "explanation": "'Pode Exibir' é uma autorização de leitura. Alterações exigem nível de edição ou outra permissão aplicável.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Tipos de links de compartilhamento e escopos de permissão\" do artigo 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-011-onedrive-restaurar-versao-anterior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4d63009042ff1a1",
+      "conceptId": "onedrive-restaurar-versao-anterior",
+      "mechanism": "distinguir-restauracao-e-apagar-historico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e4d63009042ff1a1#4. Histórico de Versões (*Version History*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
+        "section": "4. Histórico de Versões (*Version History*)"
+      },
+      "statement": "O histórico de versões pode permitir a recuperação do conteúdo de uma versão anterior de um documento sem exigir a destruição de todas as versões mais recentes do arquivo.",
+      "correctAnswer": "C",
+      "explanation": "Em fluxos de versionamento, restaurar um estado anterior pode criar uma nova versão com aquele conteúdo, preservando o histórico segundo as políticas aplicáveis.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Histórico de Versões (*Version History*)\" do artigo 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-012-onedrive-bloqueio-download-e-captura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4d63009042ff1a1",
+      "conceptId": "onedrive-bloqueio-download-e-captura",
+      "mechanism": "absolutizar-controle-de-interface",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e4d63009042ff1a1#2. Tipos de links de compartilhamento e escopos de permissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
+        "section": "2. Tipos de links de compartilhamento e escopos de permissão"
+      },
+      "statement": "Quando uma política de compartilhamento bloqueia o download de um documento no navegador, a informação fica tecnicamente protegida contra qualquer cópia, inclusive fotografia da tela.",
+      "correctAnswer": "E",
+      "explanation": "Bloquear o download pela interface não impede todos os meios de reprodução da informação; a proteção não é absoluta.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Tipos de links de compartilhamento e escopos de permissão\" do artigo 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-013-integridade-alteracao-sem-parada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-cdd153e7d11a16e6",
+      "conceptId": "integridade-alteracao-sem-parada",
+      "mechanism": "separar-integridade-disponibilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#1. Os cinco princípios fundamentais (CIDAN)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
+        "section": "1. Os cinco princípios fundamentais (CIDAN)"
+      },
+      "statement": "Um invasor altera silenciosamente os valores de uma tabela pública sem tirar o sistema do ar. O incidente atinge diretamente a integridade da informação, ainda que o serviço continue disponível.",
+      "correctAnswer": "C",
+      "explanation": "Integridade protege exatidão e completude dos dados; disponibilidade diz respeito ao acesso tempestivo e pode permanecer preservada.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"1. Os cinco princípios fundamentais (CIDAN)\" do artigo 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-014-ddos-apenas-sigilo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-cdd153e7d11a16e6",
+      "conceptId": "ddos-apenas-sigilo",
+      "mechanism": "confundir-disponibilidade-e-confidencialidade",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#1. Os cinco princípios fundamentais (CIDAN)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
+        "section": "1. Os cinco princípios fundamentais (CIDAN)"
+      },
+      "statement": "Um ataque de negação de serviço distribuída que impede cidadãos de acessar um portal afeta diretamente apenas a confidencialidade, porque nenhuma informação foi necessariamente modificada.",
+      "correctAnswer": "E",
+      "explanation": "DDoS reduz ou impede a disponibilidade do serviço; confidencialidade trata de divulgação não autorizada.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"1. Os cinco princípios fundamentais (CIDAN)\" do artigo 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-015-ids-deteccao-classificacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-cdd153e7d11a16e6",
+      "conceptId": "ids-deteccao-classificacao",
+      "mechanism": "distinguir-controle-detectivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#2. Matriz de classificação de controles de segurança"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
+        "section": "2. Matriz de classificação de controles de segurança"
+      },
+      "statement": "Um sistema que identifica padrões suspeitos de intrusão e gera alertas, sem por isso impedir todas as tentativas, desempenha uma função predominantemente detectiva.",
+      "correctAnswer": "C",
+      "explanation": "Controles detectivos buscam identificar e sinalizar eventos. Seu uso pode coexistir com medidas preventivas, mas não se confunde com elas.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz de classificação de controles de segurança\" do artigo 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-016-treinamento-anti-phishing-corretivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-cdd153e7d11a16e6",
+      "conceptId": "treinamento-anti-phishing-corretivo",
+      "mechanism": "classificar-tempo-de-atuacao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#2. Matriz de classificação de controles de segurança"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
+        "section": "2. Matriz de classificação de controles de segurança"
+      },
+      "statement": "Treinar previamente servidores para reconhecer e-mails fraudulentos é exemplo típico de controle corretivo, porque só atua depois que o ataque foi consumado.",
+      "correctAnswer": "E",
+      "explanation": "Treinamento antecipado procura prevenir incidentes; controles corretivos restauram ou remedeiam efeitos após ocorrência.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz de classificação de controles de segurança\" do artigo 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-017-backup-diferencial-restauracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "backup-diferencial-restauracao",
+      "mechanism": "sequencia-restauracao-diferencial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#2. Matriz comparativa dos tipos de backup"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "2. Matriz comparativa dos tipos de backup"
+      },
+      "statement": "Em um esquema clássico com backup completo no domingo e diferenciais de segunda a quarta, restaurar o estado coberto pelo diferencial de quarta exige o completo de domingo e o diferencial íntegro de quarta.",
+      "correctAnswer": "C",
+      "explanation": "Cada diferencial reúne mudanças desde o último completo; os diferenciais intermediários não são exigidos para restaurar o estado de quarta no modelo clássico.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz comparativa dos tipos de backup\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-018-backup-incremental-ultimo-isolado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "backup-incremental-ultimo-isolado",
+      "mechanism": "romper-cadeia-incremental",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#2. Matriz comparativa dos tipos de backup"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "2. Matriz comparativa dos tipos de backup"
+      },
+      "statement": "Com backup completo no domingo e incrementais em segunda, terça e quarta, basta restaurar o incremental de quarta para recuperar todos os arquivos alterados desde domingo.",
+      "correctAnswer": "E",
+      "explanation": "Cada incremental contém mudanças desde o backup anterior. A restauração completa exige o completo e os incrementais necessários na sequência.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz comparativa dos tipos de backup\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-019-rpo-perda-maxima-de-dados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "rpo-perda-maxima-de-dados",
+      "mechanism": "separar-perda-e-tempo-fora",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#6. Métricas essenciais de recuperação: RPO e RTO"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "6. Métricas essenciais de recuperação: RPO e RTO"
+      },
+      "statement": "Se um órgão define RPO de quinze minutos para um sistema, seu objetivo é limitar a aproximadamente quinze minutos o intervalo de dados que poderia ser perdido num incidente.",
+      "correctAnswer": "C",
+      "explanation": "RPO descreve a tolerância a perda de dados medida em tempo, e não o prazo para recolocar o serviço em operação.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"6. Métricas essenciais de recuperação: RPO e RTO\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-020-rto-frequencia-das-copias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "rto-frequencia-das-copias",
+      "mechanism": "trocar-rto-por-rpo",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#6. Métricas essenciais de recuperação: RPO e RTO"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "6. Métricas essenciais de recuperação: RPO e RTO"
+      },
+      "statement": "Fixar RTO de quatro horas significa, necessariamente, que os backups devem ser feitos a cada quatro horas, independentemente do tempo necessário para restabelecer o serviço.",
+      "correctAnswer": "E",
+      "explanation": "RTO é o limite desejado de indisponibilidade até a recuperação; frequência de cópias está relacionada à estratégia para atender o RPO.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"6. Métricas essenciais de recuperação: RPO e RTO\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-021-spear-phishing-mensagem-contextualizada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-2f178d9576d10289",
+      "conceptId": "spear-phishing-mensagem-contextualizada",
+      "mechanism": "diferenciar-massivo-direcionado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-2f178d9576d10289#1. Phishing: modalidades e táticas de engodo"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
+        "section": "1. Phishing: modalidades e táticas de engodo"
+      },
+      "statement": "Uma mensagem maliciosa preparada para um único gabinete, com nomes reais de integrantes da equipe e referência a um projeto em andamento, é compatível com spear phishing.",
+      "correctAnswer": "C",
+      "explanation": "Spear phishing é fraude direcionada que personaliza o engodo para aumentar credibilidade, diferentemente do disparo massivo genérico.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"1. Phishing: modalidades e táticas de engodo\" do artigo 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-022-pharming-exige-clique-link-falso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-2f178d9576d10289",
+      "conceptId": "pharming-exige-clique-link-falso",
+      "mechanism": "confundir-vetor-com-redirecionamento",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-2f178d9576d10289#2. Pharming: o redirecionamento por alteração da resolução ou do destino"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
+        "section": "2. Pharming: o redirecionamento por alteração da resolução ou do destino"
+      },
+      "statement": "Para que ocorra pharming, a vítima precisa necessariamente clicar em um link fraudulento recebido por e-mail, pois digitar corretamente o endereço do site elimina esse risco.",
+      "correctAnswer": "E",
+      "explanation": "Pharming pode alterar a resolução ou o destino de um domínio legítimo, inclusive quando o endereço correto é digitado no navegador.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Pharming: o redirecionamento por alteração da resolução ou do destino\" do artigo 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-023-hosts-adulterado-dominio-legitimo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-2f178d9576d10289",
+      "conceptId": "hosts-adulterado-dominio-legitimo",
+      "mechanism": "identificar-mecanismo-redirecionamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-2f178d9576d10289#2. Pharming: o redirecionamento por alteração da resolução ou do destino"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
+        "section": "2. Pharming: o redirecionamento por alteração da resolução ou do destino"
+      },
+      "statement": "Se um programa malicioso altera o arquivo `hosts` para associar o domínio legítimo de um órgão a um servidor falso, o redirecionamento resultante pode caracterizar pharming.",
+      "correctAnswer": "C",
+      "explanation": "A adulteração da resolução local direciona o endereço confiável a outro destino, sem exigir erro de digitação do usuário.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Pharming: o redirecionamento por alteração da resolução ou do destino\" do artigo 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-024-smishing-voice-e-vishing-sms",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-2f178d9576d10289",
+      "conceptId": "smishing-voice-e-vishing-sms",
+      "mechanism": "inverter-canais-da-fraude",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-2f178d9576d10289#1. Phishing: modalidades e táticas de engodo"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
+        "section": "1. Phishing: modalidades e táticas de engodo"
+      },
+      "statement": "Vishing designa, por definição, phishing realizado por mensagem SMS, enquanto smishing designa o uso fraudulento de chamadas de voz.",
+      "correctAnswer": "E",
+      "explanation": "Os nomes estão invertidos: smishing usa SMS ou mensagens de texto; vishing explora telefonemas ou voz.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"1. Phishing: modalidades e táticas de engodo\" do artigo 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-025-dado-com-unidade-e-contexto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-217dafb9048089a8",
+      "conceptId": "dado-com-unidade-e-contexto",
+      "mechanism": "contextualizacao-gera-informacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-217dafb9048089a8#2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
+        "section": "2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria"
+      },
+      "statement": "O registro isolado '84,2' não informa o fenômeno medido. Ao especificar que o valor representa a temperatura de um equipamento, a unidade e o instante da medição, acrescenta-se contexto que permite interpretá-lo como informação.",
+      "correctAnswer": "C",
+      "explanation": "Informação envolve dados organizados e contextualizados; número sem objeto, unidade ou referência não tem interpretação suficiente.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria\" do artigo 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-026-dado-bruto-sempre-decisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-217dafb9048089a8",
+      "conceptId": "dado-bruto-sempre-decisao",
+      "mechanism": "confundir-registro-com-interpretacao",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-217dafb9048089a8#2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
+        "section": "2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria"
+      },
+      "statement": "Qualquer número bruto armazenado em uma célula é suficiente, por si só, para orientar uma decisão administrativa, mesmo que se desconheçam sua unidade, origem e significado.",
+      "correctAnswer": "E",
+      "explanation": "Um dado sem contexto pode ter várias interpretações e não sustenta, por si só, uma conclusão de gestão confiável.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria\" do artigo 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-027-metrica-simples-pode-indicador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-217dafb9048089a8",
+      "conceptId": "metrica-simples-pode-indicador",
+      "mechanism": "distinguir-uso-da-medida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-217dafb9048089a8#4. Métrica versus indicador: o divisor de águas da gestão"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
+        "section": "4. Métrica versus indicador: o divisor de águas da gestão"
+      },
+      "statement": "A contagem mensal de solicitações respondidas pode ser escolhida como indicador de acompanhamento de um objetivo institucional, desde que haja definição de seu significado e uso na avaliação.",
+      "correctAnswer": "C",
+      "explanation": "Uma métrica simples pode funcionar como indicador quando selecionada para acompanhar uma condição, resultado ou objetivo; indicadores não precisam ser sempre fórmulas compostas.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Métrica versus indicador: o divisor de águas da gestão\" do artigo 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-028-indicador-sempre-meta-numerica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-217dafb9048089a8",
+      "conceptId": "indicador-sempre-meta-numerica",
+      "mechanism": "generalizar-meta-obrigatoria",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-217dafb9048089a8#4. Métrica versus indicador: o divisor de águas da gestão"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
+        "section": "4. Métrica versus indicador: o divisor de águas da gestão"
+      },
+      "statement": "Uma medida só pode receber o nome de indicador se tiver meta numérica previamente estabelecida; indicadores descritivos sem meta são conceitualmente impossíveis.",
+      "correctAnswer": "E",
+      "explanation": "Há indicadores descritivos e indicadores de desempenho; a presença de uma meta não é condição universal para a classificação como indicador.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Métrica versus indicador: o divisor de águas da gestão\" do artigo 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-029-count-asterisco-versus-coluna-null",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "count-asterisco-versus-coluna-null",
+      "mechanism": "distinguir-linhas-de-valores",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#4. Agregação e granularidade de dados"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "4. Agregação e granularidade de dados"
+      },
+      "statement": "Em um grupo de cinco registros, dois deles têm o campo `prazo` nulo. Uma consulta SQL que calcule `COUNT(*)` retorna cinco, enquanto `COUNT(prazo)` retorna três, desconsiderando valores nulos do campo.",
+      "correctAnswer": "C",
+      "explanation": "COUNT(*) conta as linhas do grupo, ao passo que COUNT(coluna) conta os valores não nulos daquela coluna.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Agregação e granularidade de dados\" do artigo 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-030-imputacao-media-elimina-vies",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "imputacao-media-elimina-vies",
+      "mechanism": "absolutizar-imputacao",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#3. Limpeza de dados (*Data Cleansing*): operações fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "3. Limpeza de dados (*Data Cleansing*): operações fundamentais"
+      },
+      "statement": "Substituir automaticamente todas as ausências de uma variável numérica pela média observada elimina o viés da base e preserva sempre a variabilidade original.",
+      "correctAnswer": "E",
+      "explanation": "Imputação pela média pode reduzir variância e introduzir distorções, especialmente quando as ausências não são aleatórias ou existem subgrupos diferentes.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"3. Limpeza de dados (*Data Cleansing*): operações fundamentais\" do artigo 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-031-granularidade-de-nota-para-mes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "granularidade-de-nota-para-mes",
+      "mechanism": "diferenciar-grao-agregacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#4. Agregação e granularidade de dados"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "4. Agregação e granularidade de dados"
+      },
+      "statement": "Uma tabela que passa de uma linha por nota fiscal para uma linha por deputado e mês, somando despesas, apresenta granularidade mais grossa e perde o detalhamento individual das notas se os registros originais não forem preservados.",
+      "correctAnswer": "C",
+      "explanation": "Agrupar várias notas em totais mensais reduz o nível de detalhe da tabela resultante; os totais não reconstituem isoladamente cada documento.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Agregação e granularidade de dados\" do artigo 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-032-agregados-reconstituem-notas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "agregados-reconstituem-notas",
+      "mechanism": "inferir-dados-atomicos-de-somas",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#4. Agregação e granularidade de dados"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "4. Agregação e granularidade de dados"
+      },
+      "statement": "De uma tabela que armazene apenas o total anual gasto por partido, é possível recuperar necessariamente o valor de cada nota fiscal individual sem consultar nenhuma outra fonte.",
+      "correctAnswer": "E",
+      "explanation": "Totais agregados apagam a distribuição e as combinações dos registros de origem; valores individuais não são dedutíveis da soma isolada.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Agregação e granularidade de dados\" do artigo 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-033-histograma-densidade-classes-desiguais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "histograma-densidade-classes-desiguais",
+      "mechanism": "corrigir-frequencia-pela-amplitude",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      },
+      "statement": "Em histograma com classes de amplitudes diferentes, representar a frequência por meio da área de cada retângulo requer ajustar a altura pela largura da respectiva classe.",
+      "correctAnswer": "C",
+      "explanation": "Para manter área proporcional à frequência, a altura deve representar densidade de frequência, isto é, frequência dividida pela amplitude da classe.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Histograma versus gráfico de barras: o divisor de águas estatístico\" do artigo 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-034-grafico-barras-ordem-numerica-obrigatoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "grafico-barras-ordem-numerica-obrigatoria",
+      "mechanism": "confundir-categorias-com-classes",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      },
+      "statement": "Em gráficos de barras de partidos políticos, as categorias precisam ser ordenadas por intervalos numéricos contíguos, sob pena de o gráfico deixar de representar os totais de cada partido.",
+      "correctAnswer": "E",
+      "explanation": "Barras representam categorias que podem ser ordenadas por critério útil; intervalos contíguos são característicos de histogramas, não obrigação de barras categóricas.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Histograma versus gráfico de barras: o divisor de águas estatístico\" do artigo 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-035-grafico-linhas-eixo-truncado-contexto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "grafico-linhas-eixo-truncado-contexto",
+      "mechanism": "distinguir-base-zero-por-marca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
+      },
+      "statement": "Em gráfico de linhas usado para examinar pequenas mudanças de uma taxa ao longo do tempo, pode ser justificável iniciar o eixo vertical acima de zero, desde que a escala e o contexto não induzam interpretação enganosa.",
+      "correctAnswer": "C",
+      "explanation": "A posição dos pontos e a inclinação comunicam a variação; diferentemente de barras, linhas não codificam valores pelo comprimento desde uma base zero.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"5. Gráfico de linhas: a continuidade temporal e suas fronteiras\" do artigo 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-036-linhas-partidos-nominais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "linhas-partidos-nominais",
+      "mechanism": "inventar-continuidade-entre-categorias",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
+      },
+      "statement": "Ao exibir quantidades de projetos por partido, conectar os pontos de PT, PL e MDB por uma linha representa adequadamente uma tendência temporal, ainda que o eixo horizontal contenha somente nomes de partidos.",
+      "correctAnswer": "E",
+      "explanation": "Categorias nominais não formam um eixo temporal ou quantitativo contínuo; a linha criaria uma progressão sem significado entre partidos.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"5. Gráfico de linhas: a continuidade temporal e suas fronteiras\" do artigo 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-037-dispersao-nao-prova-causalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "dispersao-nao-prova-causalidade",
+      "mechanism": "separar-associacao-de-causa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      },
+      "statement": "Uma nuvem de pontos mostra associação positiva entre duas medidas institucionais. Sem desenho de estudo adequado, esse padrão não permite afirmar que aumentar uma das medidas provocará aumento da outra.",
+      "correctAnswer": "C",
+      "explanation": "Dispersão mostra associação observada; causalidade requer controlar explicações alternativas, como variáveis de confusão e direção da relação.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. O gráfico de dispersão (*scatter plot*): relações bivariadas\" do artigo 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-038-pearson-zero-prova-independencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "pearson-zero-prova-independencia",
+      "mechanism": "confundir-ausencia-linear-com-independencia",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      },
+      "statement": "Um coeficiente de correlação de Pearson próximo de zero comprova que duas variáveis são independentes, inclusive quando apresentam relação curvilínea evidente no gráfico.",
+      "correctAnswer": "E",
+      "explanation": "Pearson resume associação linear; pode ser próximo de zero mesmo quando existe dependência não linear entre as variáveis.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. O gráfico de dispersão (*scatter plot*): relações bivariadas\" do artigo 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-039-boxplot-haste-valor-observado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "boxplot-haste-valor-observado",
+      "mechanism": "distinguir-cerca-teorica-de-haste",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#3. O box plot: o resumo dos cinco números de Tukey"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "3. O box plot: o resumo dos cinco números de Tukey"
+      },
+      "statement": "No box plot modificado de Tukey, a haste superior costuma terminar no maior valor efetivamente observado que permanece dentro da cerca de 1,5 vezes o intervalo interquartil acima do terceiro quartil.",
+      "correctAnswer": "C",
+      "explanation": "A cerca é um limite teórico para detectar atípicos; a haste alcança uma observação real dentro dela, não necessariamente o valor numérico exato da cerca.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"3. O box plot: o resumo dos cinco números de Tukey\" do artigo 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+    },
+    {
+      "id": "cam-ti-l026-040-iqr-e-amplitude-total",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "iqr-e-amplitude-total",
+      "mechanism": "trocar-dispersao-central-pela-total",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "revisada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#3. O box plot: o resumo dos cinco números de Tukey"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "3. O box plot: o resumo dos cinco números de Tukey"
+      },
+      "statement": "O intervalo interquartil de um conjunto de dados corresponde à diferença entre seu valor máximo e seu valor mínimo e inclui necessariamente todos os pontos discrepantes.",
+      "correctAnswer": "E",
+      "explanation": "O intervalo interquartil é Q3 menos Q1 e resume a dispersão dos 50% centrais, não a amplitude total entre máximo e mínimo.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"3. O box plot: o resumo dos cinco números de Tukey\" do artigo 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
     }
   ]
 }

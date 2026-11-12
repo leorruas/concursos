@@ -126,7 +126,7 @@ Isso se conecta a [[3 - Materias/Contabilidade Publica/contabilidade-publica|Con
 
 ### Aplicação ao concurso Câmara 2026
 
-Para a **CAM-ORC-014**, utilizar este artigo para os estágios de **empenho, liquidação e pagamento** e continuar em [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos#Refinamento para Câmara 2026: da liquidação aos restos a pagar (CAM-ORC-014)|refinamento integrado de restos a pagar]] para classificação de **RP processados, a liquidar e em liquidação**. A transição de exercícios não cria automaticamente uma nova dotação nem transforma pagamento em empenho. O caso numérico e as três novas questões C/E foram incorporados à nota 09, preservando ambos os artigos canônicos.
+Para a **CAM-ORC-014**, utilizar este artigo para os estágios de **empenho, liquidação e pagamento** e continuar em [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos#Refinamento para Câmara 2026: da liquidação aos restos a pagar (CAM-ORC-014)|refinamento integrado de restos a pagar]] para classificação de **RP processados, a liquidar e em liquidação**. A transição de exercícios não cria automaticamente uma nova dotação nem transforma pagamento em empenho. O caso numérico e as três novas questões C/E foram incorporados ao artigo [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|Restos a pagar, despesas de exercícios anteriores e suprimento de fundos]], preservando ambos os artigos canônicos.
 
 ## Como pode ser cobrado
 

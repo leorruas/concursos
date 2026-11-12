@@ -17,14 +17,14 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 009 | Comunicação Social | Edital 14.2.4, item 1: teorias da comunicação | 40 | 3/13/22/2 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 010 | Comunicação Social | Edital 14.2.4, item 2: comunicação interna | 40 | 3/14/19/4 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 011 | Comunicação Social | Edital 14.2.4, item 3: comunicação institucional | 40 | 0/33/4/3 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
-| 012 | Comunicação Social | Edital 14.2.4, item 4: comunicação organizacional | 40 | 1/20/13/6 | 40 | 0 | 0 | Integridade e sessões v3 |
+| 012 | Comunicação Social | Edital 14.2.4, item 4: comunicação organizacional | 40 | 1/20/13/6 | 40 | 40 | 0 | Integridade e sessões v3 |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
 
 ## Lote 002 validado
 
-O lote 002 cobre o item 2 de Divulgação Institucional. Foram registradas 10 questões geradas sobre conceitos, planejamento, marketing institucional, endomarketing e segmentação, vinculadas aos artigos 95 a 99. Foram acrescentadas oito questões sobre marketing digital e comportamento do consumidor, vinculadas aos artigos 100 e 101. Elaboração concluída com 40 itens. Gabaritos e mecanismos revisados nos artigos 95 a 101. A seleção foi testada pelo item 2 do edital. Meta consolidada de expansão validada: 440/2.000.
+O lote 002 cobre o item 2 de Divulgação Institucional. Foram registradas 10 questões geradas sobre conceitos, planejamento, marketing institucional, endomarketing e segmentação, vinculadas aos artigos 95 a 99. Foram acrescentadas oito questões sobre marketing digital e comportamento do consumidor, vinculadas aos artigos 100 e 101. Elaboração concluída com 40 itens. Gabaritos e mecanismos revisados nos artigos 95 a 101. A seleção foi testada pelo item 2 do edital. Meta consolidada de expansão validada: 480/2.000.
 
 ## Lote 003 validado
 
@@ -64,6 +64,6 @@ Quarenta questões de comunicação institucional vinculadas aos artigos 53 a 55
 
 Três itens revisados e reformulados após o cotejo de mecanismos. O par sobre reflexão e espelhamento cobra direções distintas no modelo de Hatch e Schultz.
 
-## Lote 012 em revisão
+## Lote 012 validado
 
-Quarenta questões de comunicação organizacional sobre dimensões, integração, fluxos, redes, públicos, planejamento, indicadores e gestão de projetos. Cotejo editorial concluído. Três casos foram reformulados para distinguir mecanismos próximos. Pendente a seleção e liberação do lote.
+Quarenta questões de comunicação organizacional sobre dimensões, integração, fluxos, redes, públicos, planejamento, indicadores e gestão de projetos. Cotejo editorial concluído. Três casos foram reformulados para distinguir mecanismos próximos. Seleção dos 40 itens verificada. Próximo lote: redes sociais digitais oficiais, item 5 de Comunicação Social.

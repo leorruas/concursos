@@ -201,7 +201,7 @@ Os melhores distratores deslocam partes verdadeiras entre os quatro eixos ou tra
 - **Item 2.** A divulgação unilateral de grande volume de informações constitui evidência suficiente de interação e ouvidoria social. **Errado.** Disponibilizar informação não comprova escuta, diálogo ou apropriação social.
 - **Item 3.** Uma campanha institucional sobre serviços da Câmara pode atender ao interesse público e ainda precisar observar regras próprias de identidade, impessoalidade e competência do órgão. **Certo.** Finalidade pública e conformidade normativa são dimensões que devem ser verificadas conjuntamente.
 
-**Conexões de revisão:** [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politica partidaria|Distinções entre comunicação pública, governamental e político-partidária]]; [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Ato nº 218/2025]]. **Classificação:** questões originais de treino, sem alegação de incidência histórica no Cebraspe. A conferência autoral integral de Duarte permanece pendente.
+**Conexões de revisão:** [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria|Distinções entre comunicação pública, governamental e político-partidária]]; [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Ato nº 218/2025]]. **Classificação:** questões originais de treino, sem alegação de incidência histórica no Cebraspe. A conferência autoral integral de Duarte permanece pendente.
 
 ## Relações com outros temas
 

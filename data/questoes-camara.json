@@ -6435,5 +6435,1087 @@
       "correctAnswer": "C",
       "explanation": "O MTO 2027, seção 7.3.3, prevê a apuração de linha de base nesses exercícios, no módulo próprio. A LOA de cada exercício e sua execução seguem requisitos constitucionais e financeiros distintos. MTO 2027, capítulo 7, pp. 174–177."
     }
+  ],
+  "expansao": [
+    {
+      "id": "cam-di-custo-por-mil",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "custo-por-mil",
+      "mechanism": "custo-por-mil",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Taxonomia e fórmulas"
+      },
+      "statement": "O custo por mil impressões usa a quantidade de impressões como denominador, inclusive quando parte delas corresponde a contatos repetidos.",
+      "correctAnswer": "C",
+      "explanation": "O indicador mede custo por mil exibições. Para medir custo por pessoa distinta, seria necessário usar o alcance deduplicado."
+    },
+    {
+      "id": "cam-di-frequencia-subgrupos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "frequencia-subgrupos",
+      "mechanism": "frequencia-subgrupos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Taxonomia e fórmulas"
+      },
+      "statement": "Uma campanha alcançou 100 moradores com frequência média 5 e 400 visitantes com média 2. Se os grupos são disjuntos, a frequência média combinada é 3,5.",
+      "correctAnswer": "E",
+      "explanation": "A média pondera cada frequência pelo alcance do grupo. Foram 1.300 contatos em 500 pessoas, resultando em 2,6."
+    },
+    {
+      "id": "cam-di-media-limiar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "media-limiar",
+      "mechanism": "media-limiar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Cobertura e alcance efetivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Cobertura e alcance efetivo"
+      },
+      "statement": "Em uma campanha que alcançou 200 pessoas e obteve frequência média 4, é possível garantir que pelo menos metade das pessoas recebeu quatro exposições ou mais.",
+      "correctAnswer": "E",
+      "explanation": "A média não determina a distribuição. Por exemplo, 150 pessoas com duas exposições e 50 com dez produzem média 4."
+    },
+    {
+      "id": "cam-di-continuidade-e-picos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "continuidade-e-picos",
+      "mechanism": "continuidade-e-picos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Programação temporal"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Programação temporal"
+      },
+      "statement": "Manter inserções toda semana e aumentar a intensidade na semana que antecede uma audiência combina presença contínua e reforço pontual.",
+      "correctAnswer": "C",
+      "explanation": "Há presença durante todo o período, com uma concentração adicional perto do evento."
+    },
+    {
+      "id": "cam-di-economia-por-contato-e-cobertura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "economia-por-contato-e-cobertura",
+      "mechanism": "economia-por-contato-e-cobertura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Investimento e decisão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Investimento e decisão"
+      },
+      "statement": "Dois planos custam R$ 6 mil. A entrega prevista é de 300 mil impressões para 50 mil pessoas no primeiro e de 200 mil para 100 mil pessoas no segundo. O primeiro oferece menor custo por mil impressões e o segundo, menor custo por pessoa alcançada.",
+      "correctAnswer": "C",
+      "explanation": "O custo por mil é R$ 20 contra R$ 30. O custo por pessoa é R$ 0,12 contra R$ 0,06. A classificação se inverte conforme o denominador."
+    },
+    {
+      "id": "cam-di-exposicao-efetiva-intersecao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "exposicao-efetiva-intersecao",
+      "mechanism": "exposicao-efetiva-intersecao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Cobertura e alcance efetivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Cobertura e alcance efetivo"
+      },
+      "statement": "Dois veículos alcançam 80 e 70 pessoas de um universo de 100. Se cada veículo entrega uma impressão por pessoa alcançada e a meta é de duas exposições, a meta foi atingida por exatamente 50 pessoas.",
+      "correctAnswer": "E",
+      "explanation": "A interseção tem pelo menos 50 e pode chegar a 70. Sem o alcance conjunto observado, o número exato de pessoas com duas exposições é desconhecido."
+    },
+    {
+      "id": "cam-di-custo-marginal-de-cobertura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "custo-marginal-de-cobertura",
+      "mechanism": "custo-marginal-de-cobertura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Investimento e decisão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Investimento e decisão"
+      },
+      "statement": "Com duas inserções que alcançam 30 mil e 40 mil pessoas e têm 25 mil pessoas em comum, a segunda, a R$ 3 mil, custa R$ 0,20 por pessoa adicionada à cobertura da primeira.",
+      "correctAnswer": "C",
+      "explanation": "A segunda soma 15 mil pessoas distintas à cobertura. O custo incremental por pessoa é 3.000 dividido por 15.000."
+    },
+    {
+      "id": "cam-di-grp-frequencia-limiar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
+      "articleId": "art-3c91e72f8ad506b4",
+      "conceptId": "grp-frequencia-limiar",
+      "mechanism": "grp-frequencia-limiar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "section": "Taxonomia e fórmulas"
+      },
+      "statement": "Em um público de 1.000 pessoas, dois veículos com uma impressão por pessoa alcançada entregam 60 e 50 pontos de audiência. Com frequência combinada de 1,375 entre os alcançados, mais da metade das pessoas alcançadas teve duas exposições.",
+      "correctAnswer": "E",
+      "explanation": "São 1.100 impressões e 800 pessoas alcançadas. A interseção tem 300 pessoas, equivalentes a 37,5% das 800. É preciso recuperar o alcance a partir da frequência e então calcular a sobreposição."
+    },
+    {
+      "id": "cam-di-marco-sem-duracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
+      "articleId": "art-6a72b9d104e85cf3",
+      "conceptId": "marco-sem-duracao",
+      "mechanism": "marco-sem-duracao",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6a72b9d104e85cf3#Estrutura interna: atividade, duração, marco, prazo e dependência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
+        "section": "Estrutura interna: atividade, duração, marco, prazo e dependência"
+      },
+      "statement": "Em um cronograma, a aprovação final pode ser representada como marco sem duração, ainda que a análise que a precede ocupe dois dias.",
+      "correctAnswer": "C",
+      "explanation": "O marco registra o evento de aprovação. Os dois dias pertencem à atividade de análise."
+    },
+    {
+      "id": "cam-di-predecessora-liberacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
+      "articleId": "art-6a72b9d104e85cf3",
+      "conceptId": "predecessora-liberacao",
+      "mechanism": "predecessora-liberacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6a72b9d104e85cf3#Dependências: quatro relações usuais"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
+        "section": "Dependências: quatro relações usuais"
+      },
+      "statement": "Se o envio à emissora depende da conclusão da checagem, a autorização para que a checagem comece já satisfaz a precedência para o envio.",
+      "correctAnswer": "E",
+      "explanation": "Numa relação término–início, o evento que libera a sucessora é o término da predecessora."
+    },
+    {
+      "id": "cam-di-restricao-profissional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
+      "articleId": "art-6a72b9d104e85cf3",
+      "conceptId": "restricao-profissional",
+      "mechanism": "restricao-profissional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6a72b9d104e85cf3#Recursos, aprovações e controle de mudanças"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
+        "section": "Recursos, aprovações e controle de mudanças"
+      },
+      "statement": "Duas peças independentes requerem simultaneamente o único operador de áudio disponível. A ausência de dependência técnica entre elas não basta para confirmar que o cronograma é exequível.",
+      "correctAnswer": "C",
+      "explanation": "A capacidade do recurso também limita o paralelismo. É preciso escalonar o trabalho ou ampliar a disponibilidade."
+    },
+    {
+      "id": "cam-di-barras-e-dependencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
+      "articleId": "art-6a72b9d104e85cf3",
+      "conceptId": "barras-e-dependencia",
+      "mechanism": "barras-e-dependencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6a72b9d104e85cf3#Gráfico de Gantt, rede de precedências e PERT"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
+        "section": "Gráfico de Gantt, rede de precedências e PERT"
+      },
+      "statement": "Em um gráfico de Gantt sem setas de precedência, o fato de duas barras começarem em dias diferentes prova que o início da segunda depende do término da primeira.",
+      "correctAnswer": "E",
+      "explanation": "As barras mostram a programação. A diferença de datas pode decorrer de recursos, restrições externas ou conveniência, sem precedência técnica."
+    },
+    {
+      "id": "cam-di-ganho-limitado-pelo-ramo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
+      "articleId": "art-6a72b9d104e85cf3",
+      "conceptId": "ganho-limitado-pelo-ramo",
+      "mechanism": "ganho-limitado-pelo-ramo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6a72b9d104e85cf3#Caminho crítico: exemplo com cálculo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
+        "section": "Caminho crítico: exemplo com cálculo"
+      },
+      "statement": "Após o briefing, dois ramos independentes de 9 e 7 dias precisam terminar antes da publicação. Reduzir o ramo de 9 dias em 3 antecipa a publicação em 2 dias, mantidas as demais condições.",
+      "correctAnswer": "C",
+      "explanation": "Após a redução, os ramos passam a durar 6 e 7 dias. O ramo de 7 fixa a nova data mais cedo possível."
+    },
+    {
+      "id": "cam-di-folga-e-recurso-compartilhado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
+      "articleId": "art-6a72b9d104e85cf3",
+      "conceptId": "folga-e-recurso-compartilhado",
+      "mechanism": "folga-e-recurso-compartilhado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6a72b9d104e85cf3#Recursos, aprovações e controle de mudanças"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
+        "section": "Recursos, aprovações e controle de mudanças"
+      },
+      "statement": "Uma atividade tem dois dias de folga no cálculo da rede sem restrição de recursos. Deslocá-la em um dia é suficiente para garantir a data final, mesmo que ela passe a disputar um profissional com uma atividade crítica.",
+      "correctAnswer": "E",
+      "explanation": "A folga calculada pressupõe o modelo usado. Uma disputa de recurso pode atrasar uma atividade crítica e exige reprogramação."
+    },
+    {
+      "id": "cam-di-janela-fixa-de-veiculacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
+      "articleId": "art-6a72b9d104e85cf3",
+      "conceptId": "janela-fixa-de-veiculacao",
+      "mechanism": "janela-fixa-de-veiculacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6a72b9d104e85cf3#Cronograma de produção versus programação de mídia"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
+        "section": "Cronograma de produção versus programação de mídia"
+      },
+      "statement": "Uma peça pode ser produzida dentro do prazo interno e perder a estreia se esse prazo cair depois do fechamento do veículo.",
+      "correctAnswer": "C",
+      "explanation": "O cronograma precisa ligar a entrega ao limite externo de aceitação. Cumprir a data interna não resolve a incompatibilidade entre as duas datas."
+    },
+    {
+      "id": "cam-di-convergencia-e-novo-gargalo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
+      "articleId": "art-6a72b9d104e85cf3",
+      "conceptId": "convergencia-e-novo-gargalo",
+      "mechanism": "convergencia-e-novo-gargalo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6a72b9d104e85cf3#Caminho crítico: exemplo com cálculo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
+        "section": "Caminho crítico: exemplo com cálculo"
+      },
+      "statement": "Dois ramos paralelos duram 8 e 6 dias. A revisão final dura 2 dias e começa após ambos. Encurtar o primeiro ramo em 3 dias e prolongar a revisão em 1 reduz o prazo total em 2 dias.",
+      "correctAnswer": "E",
+      "explanation": "O prazo inicial é 10 dias. Depois das mudanças, a revisão começa no dia 6 e dura 3 dias. A conclusão no dia 9 representa ganho de um dia."
+    },
+    {
+      "id": "cam-di-pre-producao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / produção de campanhas",
+      "articleId": "art-f0c83d716b4e295a",
+      "conceptId": "pre-producao",
+      "mechanism": "pre-producao",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f0c83d716b4e295a#Etapas: do planejamento à entrega verificável"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle.md",
+        "section": "Etapas: do planejamento à entrega verificável"
+      },
+      "statement": "Reservar a locação e confirmar a disponibilidade dos participantes antes de gravar são atividades de pré-produção.",
+      "correctAnswer": "C",
+      "explanation": "As duas ações preparam os recursos e as condições da gravação."
+    },
+    {
+      "id": "cam-di-qualidade-tecnica-e-mensagem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / produção de campanhas",
+      "articleId": "art-f0c83d716b4e295a",
+      "conceptId": "qualidade-tecnica-e-mensagem",
+      "mechanism": "qualidade-tecnica-e-mensagem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f0c83d716b4e295a#Três qualidades diferentes: técnica, comunicacional e institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle.md",
+        "section": "Três qualidades diferentes: técnica, comunicacional e institucional"
+      },
+      "statement": "Se os arquivos de áudio atendem às especificações do veículo, a qualidade comunicacional da peça está comprovada.",
+      "correctAnswer": "E",
+      "explanation": "A conformidade de áudio é técnica. É necessário verificar se a mensagem é inteligível e adequada ao público e ao objetivo."
+    },
+    {
+      "id": "cam-di-legenda-sinal-sonoro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / produção de campanhas",
+      "articleId": "art-f0c83d716b4e295a",
+      "conceptId": "legenda-sinal-sonoro",
+      "mechanism": "legenda-sinal-sonoro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f0c83d716b4e295a#Acessibilidade como requisito de produção"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle.md",
+        "section": "Acessibilidade como requisito de produção"
+      },
+      "statement": "Em um vídeo sem indicação visual de encerramento, se uma sirene informa o término de uma votação, a revisão da legenda deve verificar se essa informação sonora foi representada.",
+      "correctAnswer": "C",
+      "explanation": "Quando o som veicula informação essencial, transcrever apenas as falas pode deixar o destinatário sem parte do conteúdo."
+    },
+    {
+      "id": "cam-di-nome-de-arquivo-e-identidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / produção de campanhas",
+      "articleId": "art-f0c83d716b4e295a",
+      "conceptId": "nome-de-arquivo-e-identidade",
+      "mechanism": "nome-de-arquivo-e-identidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f0c83d716b4e295a#Controle de versões e alterações"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle.md",
+        "section": "Controle de versões e alterações"
+      },
+      "statement": "Dois arquivos com o mesmo nome preservam automaticamente a identidade da versão, mesmo que seus conteúdos tenham sido modificados.",
+      "correctAnswer": "E",
+      "explanation": "O nome pode permanecer após a edição. A equipe precisa controlar a revisão efetiva do conteúdo e a respectiva aprovação."
+    },
+    {
+      "id": "cam-di-revalidacao-por-tipo-de-mudanca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / produção de campanhas",
+      "articleId": "art-f0c83d716b4e295a",
+      "conceptId": "revalidacao-por-tipo-de-mudanca",
+      "mechanism": "revalidacao-por-tipo-de-mudanca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f0c83d716b4e295a#Checagem, revisão, aprovação e autorização"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle.md",
+        "section": "Checagem, revisão, aprovação e autorização"
+      },
+      "statement": "Em uma peça já aprovada, substituir o endereço de inscrição por outro que altera o procedimento do cidadão requer rever o conteúdo e a versão liberada, mesmo que o texto ocupe exatamente o mesmo espaço.",
+      "correctAnswer": "C",
+      "explanation": "A mudança é substantiva e afeta a ação do público. A preservação do layout não transfere a aprovação para a nova versão."
+    },
+    {
+      "id": "cam-di-nota-de-entrega-e-veiculacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / produção de campanhas",
+      "articleId": "art-f0c83d716b4e295a",
+      "conceptId": "nota-de-entrega-e-veiculacao",
+      "mechanism": "nota-de-entrega-e-veiculacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f0c83d716b4e295a#Evidências de execução versus efeitos da campanha"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle.md",
+        "section": "Evidências de execução versus efeitos da campanha"
+      },
+      "statement": "O aceite formal do arquivo final e sua conformidade com as especificações bastam para demonstrar que o vídeo foi veiculado na janela contratada.",
+      "correctAnswer": "E",
+      "explanation": "Esses documentos sustentam a entrega técnica. A veiculação na janela requer evidência própria, como registro datado de exibição."
+    },
+    {
+      "id": "cam-di-checagem-apos-exportacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / produção de campanhas",
+      "articleId": "art-f0c83d716b4e295a",
+      "conceptId": "checagem-apos-exportacao",
+      "mechanism": "checagem-apos-exportacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f0c83d716b4e295a#Controle de versões e alterações"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle.md",
+        "section": "Controle de versões e alterações"
+      },
+      "statement": "Mesmo após a conferência da legenda no projeto de edição, é pertinente verificar a versão exportada quando a conversão pode alterar a sincronização.",
+      "correctAnswer": "C",
+      "explanation": "A checagem do projeto não verifica o efeito da exportação. A conformidade deve alcançar o arquivo distribuído."
+    },
+    {
+      "id": "cam-di-versao-execucao-efeito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / produção de campanhas",
+      "articleId": "art-f0c83d716b4e295a",
+      "conceptId": "versao-execucao-efeito",
+      "mechanism": "versao-execucao-efeito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f0c83d716b4e295a#Evidências de execução versus efeitos da campanha"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle.md",
+        "section": "Evidências de execução versus efeitos da campanha"
+      },
+      "statement": "A versão liberada tinha um endereço correto. O registro da plataforma demonstra que uma versão anterior foi publicada com o endereço errado, mas as inscrições aumentaram no período. O aumento permite registrar que a versão liberada foi veiculada conforme a aprovação.",
+      "correctAnswer": "E",
+      "explanation": "O registro indica execução divergente. Uma mudança nas inscrições não comprova qual arquivo circulou nem corrige a divergência."
+    },
+    {
+      "id": "cam-di-chamada-acionavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / redação publicitária",
+      "articleId": "art-72e4a0d9c3f6185b",
+      "conceptId": "chamada-acionavel",
+      "mechanism": "chamada-acionavel",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-72e4a0d9c3f6185b#Anatomia de uma peça: funções textuais diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio.md",
+        "section": "Anatomia de uma peça: funções textuais diferentes"
+      },
+      "statement": "Em uma peça informativa, a frase “Consulte a pauta da próxima reunião no portal” exerce função de chamada para ação.",
+      "correctAnswer": "C",
+      "explanation": "A frase explicita uma ação que o destinatário pode realizar e indica onde executá-la."
+    },
+    {
+      "id": "cam-di-precisao-da-condicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / redação publicitária",
+      "articleId": "art-72e4a0d9c3f6185b",
+      "conceptId": "precisao-da-condicao",
+      "mechanism": "precisao-da-condicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-72e4a0d9c3f6185b#Técnica: clareza, concisão, precisão e hierarquia"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio.md",
+        "section": "Técnica: clareza, concisão, precisão e hierarquia"
+      },
+      "statement": "Trocar “Inscrições abertas até as 18h de terça-feira” por “Inscrições abertas até terça-feira” preserva a precisão do prazo porque mantém a data de encerramento.",
+      "correctAnswer": "E",
+      "explanation": "A substituição omite a hora-limite. Uma pessoa pode interpretar que ainda consegue se inscrever depois das 18h."
+    },
+    {
+      "id": "cam-di-referencia-auditiva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / redação publicitária",
+      "articleId": "art-72e4a0d9c3f6185b",
+      "conceptId": "referencia-auditiva",
+      "mechanism": "referencia-auditiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-72e4a0d9c3f6185b#Adaptação por suporte: o mesmo objetivo, textos diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio.md",
+        "section": "Adaptação por suporte: o mesmo objetivo, textos diferentes"
+      },
+      "statement": "Ao transformar uma instrução de cartaz em spot de rádio, convém substituir “acesse pelo código ao lado” por um caminho que o ouvinte possa identificar pela fala.",
+      "correctAnswer": "C",
+      "explanation": "A referência espacial depende de um elemento visual ausente no rádio. O caminho precisa ser recuperável pelo canal auditivo."
+    },
+    {
+      "id": "cam-di-adaptacao-e-elegibilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / redação publicitária",
+      "articleId": "art-72e4a0d9c3f6185b",
+      "conceptId": "adaptacao-e-elegibilidade",
+      "mechanism": "adaptacao-e-elegibilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-72e4a0d9c3f6185b#Técnica de adaptação: transcriação e consistência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio.md",
+        "section": "Técnica de adaptação: transcriação e consistência"
+      },
+      "statement": "Se as vagas são reservadas a inscritos previamente, uma versão para rede social pode afirmar “qualquer pessoa pode comparecer sem inscrição” por manter o tema da peça original.",
+      "correctAnswer": "E",
+      "explanation": "Adaptar a forma não autoriza alterar as condições de acesso. O texto proposto muda a elegibilidade."
+    },
+    {
+      "id": "cam-di-teste-de-execucao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / redação publicitária",
+      "articleId": "art-72e4a0d9c3f6185b",
+      "conceptId": "teste-de-execucao",
+      "mechanism": "teste-de-execucao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-72e4a0d9c3f6185b#Critérios de revisão e teste redacional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio.md",
+        "section": "Critérios de revisão e teste redacional"
+      },
+      "statement": "Em um teste de duas chamadas, maior preferência declarada pela primeira e maior taxa de localização correta do formulário pela segunda sustentam conclusões diferentes sobre as peças.",
+      "correctAnswer": "C",
+      "explanation": "Preferência declarada e sucesso observado na tarefa medem aspectos distintos. O objetivo da chamada orienta qual evidência priorizar."
+    },
+    {
+      "id": "cam-di-expressividade-e-promessa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / redação publicitária",
+      "articleId": "art-72e4a0d9c3f6185b",
+      "conceptId": "expressividade-e-promessa",
+      "mechanism": "expressividade-e-promessa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-72e4a0d9c3f6185b#Funções das frases e dos recursos retóricos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio.md",
+        "section": "Funções das frases e dos recursos retóricos"
+      },
+      "statement": "Para promover o acompanhamento de audiências, afirmar “sua sugestão será incorporada ao relatório” é apenas um apelo persuasivo quando o procedimento garante a análise, mas não a incorporação.",
+      "correctAnswer": "E",
+      "explanation": "A frase promete um resultado que não decorre do procedimento. Seria possível convidar ao envio com a garantia efetivamente prevista de análise."
+    },
+    {
+      "id": "cam-di-hierarquia-e-risco-de-erro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / redação publicitária",
+      "articleId": "art-72e4a0d9c3f6185b",
+      "conceptId": "hierarquia-e-risco-de-erro",
+      "mechanism": "hierarquia-e-risco-de-erro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-72e4a0d9c3f6185b#Técnica: clareza, concisão, precisão e hierarquia"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio.md",
+        "section": "Técnica: clareza, concisão, precisão e hierarquia"
+      },
+      "statement": "Se a audiência ocorre em um dia e o prazo de inscrição termina na véspera, dar destaque visual a ambos os prazos com rótulos distintos reduz o risco de o leitor usar a data do evento como prazo de inscrição.",
+      "correctAnswer": "C",
+      "explanation": "A hierarquia diferencia duas datas que têm consequências diferentes. Destacar só a data do evento deixa a condição operacional menos visível."
+    },
+    {
+      "id": "cam-di-coerencia-com-jornada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / redação publicitária",
+      "articleId": "art-72e4a0d9c3f6185b",
+      "conceptId": "coerencia-com-jornada",
+      "mechanism": "coerencia-com-jornada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-72e4a0d9c3f6185b#Técnica de adaptação: transcriação e consistência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio.md",
+        "section": "Técnica de adaptação: transcriação e consistência"
+      },
+      "statement": "Uma peça de rua anuncia inscrição por telefone, mas o atendimento telefônico apenas esclarece dúvidas e o formulário no portal é obrigatório. Mesmo que o atendente indique o portal, a chamada é fiel ao procedimento.",
+      "correctAnswer": "E",
+      "explanation": "A promessa atribui ao telefone uma função que ele não executa. A análise exige acompanhar a jornada inteira e distinguir orientação de inscrição efetiva."
+    },
+    {
+      "id": "cam-di-monitoramento-recorrente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / indicadores",
+      "articleId": "art-69b2c70e81f34a5d",
+      "conceptId": "monitoramento-recorrente",
+      "mechanism": "monitoramento-recorrente",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-69b2c70e81f34a5d#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Acompanhar diariamente erros de carregamento durante uma campanha para detectar falhas é uma atividade de monitoramento.",
+      "correctAnswer": "C",
+      "explanation": "O acompanhamento repetido fornece alertas durante a execução."
+    },
+    {
+      "id": "cam-di-producao-e-out-take",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / indicadores",
+      "articleId": "art-69b2c70e81f34a5d",
+      "conceptId": "producao-e-out-take",
+      "mechanism": "producao-e-out-take",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-69b2c70e81f34a5d#AMEC: estrutura interna do modelo integrado"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas.md",
+        "section": "AMEC: estrutura interna do modelo integrado"
+      },
+      "statement": "A contagem de vídeos publicados em uma campanha é um out-take, pois cada publicação representa uma reação do público.",
+      "correctAnswer": "E",
+      "explanation": "Publicações são entregas da campanha. Uma reação exige observar o público, por exemplo, pela lembrança da mensagem."
+    },
+    {
+      "id": "cam-di-comparabilidade-do-instrumento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / indicadores",
+      "articleId": "art-69b2c70e81f34a5d",
+      "conceptId": "comparabilidade-do-instrumento",
+      "mechanism": "comparabilidade-do-instrumento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-69b2c70e81f34a5d#Linhas de base, metas e comparação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas.md",
+        "section": "Linhas de base, metas e comparação"
+      },
+      "statement": "Comparar uma pesquisa de múltipla escolha na linha de base com uma pergunta aberta na medição final pode confundir mudança de conhecimento com mudança no instrumento.",
+      "correctAnswer": "C",
+      "explanation": "Reconhecer uma alternativa e formular espontaneamente uma resposta são tarefas distintas. A comparação exige medidas suficientemente equivalentes."
+    },
+    {
+      "id": "cam-di-pico-e-diagnostico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / indicadores",
+      "articleId": "art-69b2c70e81f34a5d",
+      "conceptId": "pico-e-diagnostico",
+      "mechanism": "pico-e-diagnostico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-69b2c70e81f34a5d#Monitoramento operacional: do alerta à decisão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas.md",
+        "section": "Monitoramento operacional: do alerta à decisão"
+      },
+      "statement": "Se o painel acusa queda de tráfego logo após uma atualização da etiqueta de medição, o primeiro alerta basta para concluir que as visitas reais diminuíram.",
+      "correctAnswer": "E",
+      "explanation": "A alteração pode ter interrompido o registro sem alterar o tráfego. É preciso verificar a coleta e fontes de comparação."
+    },
+    {
+      "id": "cam-di-custo-unitario-e-meta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / indicadores",
+      "articleId": "art-69b2c70e81f34a5d",
+      "conceptId": "custo-unitario-e-meta",
+      "mechanism": "custo-unitario-e-meta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-69b2c70e81f34a5d#Eficiência, eficácia, efetividade e aprendizagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas.md",
+        "section": "Eficiência, eficácia, efetividade e aprendizagem"
+      },
+      "statement": "Uma ação prevista para gerar 500 inscrições válidas com R$ 5 mil gerou 300 com R$ 2.400. O custo por inscrição ficou abaixo do previsto, embora a meta de inscrições não tenha sido alcançada.",
+      "correctAnswer": "C",
+      "explanation": "O custo observado é R$ 8 e o previsto era R$ 10. O desempenho unitário melhora enquanto a quantidade fica aquém da meta."
+    },
+    {
+      "id": "cam-di-representatividade-e-autoselecao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / indicadores",
+      "articleId": "art-69b2c70e81f34a5d",
+      "conceptId": "representatividade-e-autoselecao",
+      "mechanism": "representatividade-e-autoselecao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-69b2c70e81f34a5d#Pesquisa de recepção: métodos e fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas.md",
+        "section": "Pesquisa de recepção: métodos e fronteiras"
+      },
+      "statement": "Uma enquete voluntária respondida apenas por quem concluiu uma inscrição estima a taxa de compreensão entre todos os visitantes, desde que obtenha milhares de respostas.",
+      "correctAnswer": "E",
+      "explanation": "Há seleção por conclusão e pela decisão de responder. Uma amostra numerosa não elimina a exclusão de quem abandonou nem a autoseleção."
+    },
+    {
+      "id": "cam-di-taxa-e-denominador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / indicadores",
+      "articleId": "art-69b2c70e81f34a5d",
+      "conceptId": "taxa-e-denominador",
+      "mechanism": "taxa-e-denominador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-69b2c70e81f34a5d#Indicadores por etapa: o mesmo painel não responde todas as perguntas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas.md",
+        "section": "Indicadores por etapa: o mesmo painel não responde todas as perguntas"
+      },
+      "statement": "Se as inscrições válidas passaram de 90 para 100 e as visitas elegíveis de 300 para 500, o total de inscrições cresceu e a taxa de inscrição por visita caiu.",
+      "correctAnswer": "C",
+      "explanation": "O total aumenta em 10, enquanto a taxa passa de 30% a 20%. Contagem e conversão respondem perguntas diferentes."
+    },
+    {
+      "id": "cam-di-comparacao-contaminada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 1 / indicadores",
+      "articleId": "art-69b2c70e81f34a5d",
+      "conceptId": "comparacao-contaminada",
+      "mechanism": "comparacao-contaminada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-69b2c70e81f34a5d#Causalidade: monitorar, estimar e atribuir"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas.md",
+        "section": "Causalidade: monitorar, estimar e atribuir"
+      },
+      "statement": "Após o lançamento, a participação cresceu 8 pontos na região exposta e 3 em uma região de comparação. Como a segunda também recebeu parte da campanha, a diferença de 5 pontos identifica exatamente o efeito de exposição em relação à ausência de campanha.",
+      "correctAnswer": "E",
+      "explanation": "A segunda região não representa ausência de exposição. Para interpretar a diferença causalmente é preciso, entre outros pressupostos, conhecer a contaminação e a comparabilidade das tendências."
+    }
   ]
 }

@@ -72,6 +72,18 @@ O **art. 35, § 2º, do Ato das Disposições Constitucionais Transitórias (ADC
 
 **Lei de Responsabilidade Fiscal (LRF), LC nº 101/2000:** reforça planejamento, transparência, responsabilidade e compatibilidade com metas fiscais. **Limite jurídico** não equivale a um teto técnico imutável para toda UO; verificar que espécie de limite está descrita (teto fiscal, referencial monetário, limite de empenho ou programação financeira).
 
+## PLOA 2027: proposta anual e linha de base no SIOP
+
+Além da proposta anual de ações e valores, o [**MTO 2027, 3ª versão, capítulo 7**](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027) descreve a captação de **projeções de médio prazo**. O SIOP utiliza o módulo **LOA – Médio Prazo** para registrar a **linha de base da despesa** referente a **2028, 2029 e 2030**, a partir dos valores do PLOA 2027, com parâmetros de preço, volume e compromissos já assumidos. Na abordagem de 2027, o registro abrange **todas as despesas dos orçamentos fiscal e da seguridade social da União**, e as projeções no módulo correspondem **somente à linha de base**, sem envelope monetário setorial prévio.
+
+**Linha de base ≠ MOMP completo.** A primeira estima o custo futuro de **manter o nível de serviços atual** e exclui, em regra, novas políticas ou expansões relevantes. O MOMP pode integrar posteriormente essas mudanças e revisões de gasto, além de restrições fiscais. A **proposta quantitativa para a LOA do exercício de referência**, a **projeção indicativa dos anos seguintes** e a **execução financeira pelo SIAFI** representam decisões diferentes.
+
+**Caso progressivo de comunicação pública:** uma UO propõe R$ 2 milhões para atendimento digital em 2027. Se, em 2028, manter o mesmo alcance exigir R$ 2,1 milhões por inflação, a UO pode registrar esse custo na linha de base, segundo a metodologia do ciclo. Implantar uma nova plataforma com mais R$ 1 milhão em 2028 é **expansão de política** e não deve ser somada automaticamente à projeção da linha de base. A projeção de 2028 não equivale a despesa já aprovada ou empenhada para aquele exercício.
+
+**Item C/E inédito:** Para o PLOA 2027, o módulo LOA – Médio Prazo do SIOP recebe projeções para 2028–2030 que correspondem às linhas de base das despesas fiscais e da seguridade, sem transformar essas projeções em autorização anual de despesa.
+
+**Gabarito: Certo.** O MTO 2027, seção 7.3.3, prevê a apuração de **linha de base** nesses exercícios, no módulo próprio. A LOA de cada exercício e sua execução seguem requisitos constitucionais e financeiros distintos. [MTO 2027, capítulo 7, pp. 174–177](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2027%3Amto2027.pdf).
+
 ## Caso progressivo: orçamento de uma ação de comunicação pública
 
 **Situação inicial:** uma unidade administrativa sugere campanha de informação sobre serviços ao cidadão, com meta de alcançar municípios e custo estimado de R$ 1 milhão. A proposta é um **pedido programático**, ainda não uma dotação da LOA.

@@ -8,7 +8,7 @@ topicId: "processo-administrativo"
 trackId: "direito-administrativo"
 created: "2026-11-09"
 updated: "2026-11-12"
-revision: 2
+revision: 3
 status: "published"
 confidenceLevel: "high"
 importanceLevel: "critical"
@@ -54,7 +54,7 @@ flowchart TD
     IMPED -. "Omissão de Comunicação" .-> FALTA["Falta grave para fins disciplinares<br>(Art. 19)"]:::raiz
 ```
 
-### 1.1 Impedimento (art. 18): presunção absoluta e dever de abstenção
+### 1.1 Impedimento (art. 18): situações previstas em lei e dever de afastamento
 
 O **impedimento** ocorre quando a lei identifica uma ligação concreta entre quem atua no processo e o assunto ou as pessoas envolvidas. A regra evita que alguém participe de uma decisão na qual tenha interesse próprio ou um vínculo previsto no art. 18. A lei exige o afastamento; não é necessário provar que a pessoa efetivamente favoreceu alguém. A Lei nº 9.784/1999 não afirma, nesses dispositivos, que todo ato praticado por impedido seja automaticamente insanável: as consequências para o ato exigem análise jurídica própria.
 
@@ -65,7 +65,7 @@ O **impedimento** ocorre quando a lei identifica uma ligação concreta entre qu
 
 - **Dever de comunicação e falta grave (art. 19):** a autoridade ou servidor que incorrer em impedimento deve **comunicar o fato** à autoridade competente, abstendo-se de atuar. A omissão do dever de comunicar o impedimento constitui **falta disciplinar grave**, para efeitos sancionatórios estatutários.
 
-### 1.2 Suspeição (art. 20): presunção relativa e arguição
+### 1.2 Suspeição (art. 20): quando a imparcialidade é questionada
 
 A **suspeição** permite questionar a imparcialidade quando há amizade íntima ou inimizade notória. Ao contrário do impedimento, o art. 20 usa a expressão **“pode ser arguida”**: o interessado pode apresentar a alegação, que precisa ser examinada. Por exemplo, conhecer uma pessoa apenas por trabalhar no mesmo prédio não prova amizade íntima: é necessário avaliar a natureza do vínculo.
 - Pode ser arguida a suspeição de autoridade ou servidor que tenha **amizade íntima** ou **inimizade notória** com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o **terceiro grau**;
@@ -91,13 +91,15 @@ flowchart LR
     MOT --> ROL["Hipóteses Obrigatórias (Inc. I a VIII)"]:::criterio
     ROL --> H1["Negam, limitam ou afetam direitos/interesses"]:::opcao
     ROL --> H2["Impõem ou agravam deveres, encargos ou sanções"]:::opcao
-    ROL --> H3["Decidem recursos administrativos"]:::opcao
+    ROL --> H3["Decidem concurso ou seleção pública"]:::opcao
     ROL --> H4["Dispensam ou declaram inexigibilidade de licitação"]:::opcao
-    ROL --> H5["Decidem de modo divergente de pareceres ou laudos"]:::opcao
-    ROL --> H6["Importam anulação, revogação, suspensão ou convalidação"]:::opcao
+    ROL --> H5["Decidem recursos administrativos"]:::opcao
+    ROL --> H6["Decorrem de reexame de ofício"]:::opcao
+    ROL --> H7["Deixam de aplicar jurisprudência ou contrariam pareceres e laudos"]:::opcao
+    ROL --> H8["Anulam, revogam, suspendem ou convalidam atos"]:::opcao
 ```
 
-### 2.1 Hipóteses taxativas de motivação obrigatória (art. 50, *caput*)
+### 2.1 Oito situações em que a lei exige justificativa (art. 50)
 
 Os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, quando:
 1. Neguem, limitem ou afetem direitos ou interesses;
@@ -187,8 +189,8 @@ flowchart LR
 | Eixo Distintivo | Recurso Administrativo Geral (Art. 64) | Revisão de Processo Sancionador (Art. 65) |
 | :--- | :--- | :--- |
 | **Finalidade** | Impugnação de decisão administrativa ordinária por inconformismo quanto à legalidade ou ao mérito. | Desconstituição ou abrandamento de penalidade já aplicada, em face de fatos novos ou circunstâncias relevantes. |
-| **Prazo** | Prazo preclusivo geral de **10 dias** (art. 59). | Pode ser requerida **a qualquer tempo**, de ofício ou a pedido; não há prazo prescricional. |
-| **Possibilidade de Piora (*Reformatio in pejus*)** | **É ADMITIDA expressamente pelo art. 64**. Se da decisão puder decorrer gravame à situação do recorrente, este deverá ser cientificado para que formule alegações antes da decisão final. | **É TERMINANTEMENTE PROIBIDA pelo art. 65, parágrafo único**. Da revisão não poderá, sob qualquer hipótese, resultar agravamento da sanção imposta originariamente. |
+| **Prazo** | Em regra, **10 dias** para apresentar o recurso (art. 59). | Pode ser requerida **a qualquer tempo**, de ofício ou a pedido; não há prazo prescricional. |
+| **Possibilidade de Piora (*Reformatio in pejus*)** | **É ADMITIDA expressamente pelo art. 64**. Se da decisão puder decorrer gravame à situação do recorrente, este deverá ser cientificado para que formule alegações antes da decisão final. | **É proibida pelo art. 65, parágrafo único**. A revisão não pode aumentar a sanção aplicada. |
 
 ---
 

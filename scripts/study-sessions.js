@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { buildFlashcardPriorities } from './flashcard-priorities.js';
-import { resolveArticleRef } from './article-identity.js';
+import { articleInventory, resolveArticleRef } from './article-identity.js';
 import { assertCamaraTiQuestionAllowed } from './camara-ti-question-guard.js';
 // Sessões pequenas são entradas; ledger e blocos marcados são projeções reproduzíveis.
 import fs from 'node:fs';
@@ -30,8 +30,8 @@ const assert = (ok, msg) => { if (!ok) throw new Error(msg); };
 const slug = x => typeof x === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(x);
 const dateOK = x => typeof x === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(x) && !Number.isNaN(Date.parse(x)) && new Date(x).toISOString().slice(0, 10) === x;
 const text = x => typeof x === 'string' && x.trim().length > 0;
-function safeRef(root, ref) {
-  ref=resolveArticleRef(root,ref);
+function safeRef(root, ref, inventory) {
+  ref=resolveArticleRef(root,ref,inventory);
   assert(text(ref) && ref.includes('#'), `Referência exige subtítulo: ${ref}`);
   const [raw, heading] = ref.split('#');
   assert(raw.startsWith('3 - Materias/') && !raw.includes('..') && !raw.includes('\\') && text(heading), `Referência inválida: ${ref}`);
@@ -62,7 +62,9 @@ export function validateSession(s, filename, root, concursos) {
       assert(text(s.simulation.corpusComparison), 'Câmara: simulado exige comparação documentada com corpus');
     } else assert(s.questions.every(q => q.userAnswer !== null), 'Câmara: treino didático exige resposta');
   }
-  validateLearning(root, s, concursos);
+  let articles;
+  const inventory = () => articles ??= articleInventory(root);
+  validateLearning(root, s, concursos, inventory);
   const numbers = new Set();
   for (const q of s.questions) {
     assert(Number.isInteger(q.number) && q.number > 0 && !numbers.has(q.number), `${s.id}: número repetido/inválido`); numbers.add(q.number);
@@ -88,7 +90,7 @@ export function validateSession(s, filename, root, concursos) {
     else assert(q.errorType === null, `${s.id}: causa de erro só cabe em erro válido`);
     assert(Array.isArray(q.theoryRefs), `${s.id}: theoryRefs deve ser array`);
     if (incorrect || ['insecure', 'guess'].includes(q.confidence)) assert(q.theoryRefs.length || (s.schemaVersion >= 2 && q.sourceRefs?.length), `${s.id}: erro/dúvida exige referência`);
-    q.theoryRefs.forEach(ref => safeRef(root, ref));
+    q.theoryRefs.forEach(ref => safeRef(root, ref, inventory));
     const rep = q.repetition;
     assert(rep && ['new', 'thematic', 'mechanical', 'exact'].includes(rep.classification) && Array.isArray(rep.similarTo) && typeof rep.intentional === 'boolean', `${s.id}: repetição inválida`);
     if (rep.classification !== 'new') assert(rep.similarTo.length > 0, `${s.id}: repetição sem origem`);

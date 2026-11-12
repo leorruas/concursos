@@ -16,7 +16,7 @@ Na redação legislativa e na comunicação pública — seja em um relatório t
 1. **Sobre o que o texto fala?** (O **Tema** ou Tópico Discursivo).
 2. **O que o autor sustenta a respeito desse assunto?** (A **Tese** ou Posicionamento Central).
 
-Nas provas do **Cebraspe**, as questões de interpretação avaliam com rigor a capacidade do candidato de distinguir **o assunto geral (tema)** do **juízo de valor ou proposta defendida (tese)**, além de rastrear os mecanismos linguísticos de **progressão temática** (como informações novas se ancoram em informações dadas) para não confundir argumentos secundários ou contra-argumentos com a ideia nuclear do texto.
+Nas provas do **Cebraspe**, as questões de interpretação avaliam com rigor a capacidade do candidato de distinguir **o assunto geral (tema)** da **proposição ou conclusão defendida (tese)**, além de rastrear os mecanismos linguísticos de **progressão temática** (como informações novas se ancoram em informações dadas) para não confundir argumentos secundários ou contra-argumentos com a ideia nuclear do texto.
 
 ```mermaid
 flowchart TD
@@ -24,7 +24,7 @@ flowchart TD
     classDef centro fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#2b2b2b;
 
     TEMA["TEMA / ASSUNTO<br>(Recorte temático delimitado e neutro)<br>Ex.: As emendas impositivas ao orçamento"]
-    TESE["TESE / POSICIONAMENTO<br>(Juízo de valor, asserção central defendida)<br>Ex.: A impositividade fragiliza o planejamento fiscal"]
+    TESE["TESE / POSICIONAMENTO<br>(Asserção central defendida, técnica ou avaliativa)<br>Ex.: A impositividade fragiliza o planejamento fiscal"]
     PROG["PROGRESSÃO TEMÁTICA<br>(Encadeamento contínuo: Dado + Novo)<br>Tema constante, linear ou derivado"]
 
     SENT(("COMPREENSÃO DA<br>MACROESTRUTURA<br>(Sentido global do texto sem distorção)")):::centro
@@ -44,7 +44,7 @@ A confusão entre esses três níveis de delimitação informacional é a princi
 | :--- | :--- | :--- | :--- |
 | **Assunto** | O domínio amplo do conhecimento ou o campo geral de interesse fático. | Máximo (abstrato e panorâmico). | Orçamento Público Federal. |
 | **Tema** | O recorte delimitado, específico e problematizado do assunto tratado no texto. | Intermediário (delimitado, sem posicionamento opinativo do autor). | O regime constitucional de execução das emendas individuais impositivas. |
-| **Tese** | A proposição afirmativa ou negativa sustentada pelo autor; o juízo crítico nuclear defendido por meio de argumentos. | Específico e opinativo (núcleo da argumentação). | A expansão desregulada das emendas impositivas desarticula o planejamento das políticas públicas estruturantes do Executivo. |
+| **Tese** | A proposição afirmativa ou negativa sustentada pelo autor por meio de razões; pode ser técnica ou avaliativa. | Específico: conclusão defendida, sem exigir juízo moral. | A expansão desregulada das emendas impositivas desarticula o planejamento das políticas públicas estruturantes do Executivo. |
 
 > **Pegadinha típica do Cebraspe:** A banca apresenta uma assertiva formulando o *tema* do texto como se fosse a *tese* do autor (ou vice-versa), ou tomando um argumento acessório (ilustração de um parágrafo intermediário) como se constituísse a tese central da obra. O candidato deve identificar a **macroproposição** que subordina todos os demais parágrafos.
 

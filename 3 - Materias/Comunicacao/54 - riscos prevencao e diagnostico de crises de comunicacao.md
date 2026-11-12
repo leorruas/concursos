@@ -5,7 +5,7 @@ title: "Riscos, prevenção e diagnóstico de crises de comunicação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Riscos, prevenção e diagnóstico de crises de comunicação
@@ -153,6 +153,16 @@ Os casos são variações didáticas, não etapas obrigatórias de um ciclo auto
 **Item 3, inédito:** “A intensificação de menções negativas nas redes sociais permite concluir, mesmo sem apuração, que a instituição causou juridicamente o incidente e que seu impacto técnico é elevado.”
 
 **Gabarito: Errado.** Menções indicam circulação e percepção, não causalidade ou responsabilidade jurídica. **Mecanismo:** extrapolação de indicador para objeto não medido.
+
+## Auditoria dirigida dos modelos e dos três itens C/E (11/11/2026)
+
+A [publicação de Coombs de 2007, *Corporate Reputation Review*](https://doi.org/10.1057/palgrave.crr.1550049) diferencia **responsabilidade inicialmente atribuída**, **histórico de crises** e **reputação relacional anterior** como componentes da ameaça reputacional. Os grupos **vítima, acidental e prevenível** ordenam situações segundo responsabilidade percebida, não segundo duração, intensidade absoluta ou autoria jurídica do incidente. O conceito de **intensificadores** corresponde a histórico e relacionamento prévio, não a um quarto grupo de crises.
+
+Na explicação publicada em [*Ongoing Crisis Communication*, capítulo 1, SAGE (2023)](https://au.sagepub.com/sites/default/files/upm-assets/120143_book_item_120143.pdf), Coombs apresenta o modelo de **Fink (1986)** com **quatro fases temporais**: sinais prodrômicos, episódio agudo, efeitos crônicos e resolução. Trata-se de **fonte posterior que descreve o modelo**, não de acesso direto à obra original de Fink. O conteúdo foi examinado na camada textual recuperada do PDF; a captura visual solicitada não retornou a página por falha técnica. Não atribuir a Fink os três grupos da SCCT.
+
+**Cotejo dos exercícios inéditos preexistentes deste artigo:** **item 1 Certo**, uma controvérsia monitorada por *issues management* pode permanecer sem crise aguda; **item 2 Errado**, porque equipara grupos de atribuição de responsabilidade a fases temporais de outro autor; **item 3 Errado**, porque volume de menções negativas não demonstra causa técnica nem responsabilidade jurídica. **Gabaritos mantidos, C/E/E.** A questão 2 deste artigo permanece como treino específico da troca de autores. No [[3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao|artigo 55]], o enunciado que repetia essa mesma confusão foi substituído por outro sobre os intensificadores da SCCT, com histórico editorial explícito.
+
+**Limites:** a taxonomia de risco, *issue*, incidente, emergência e crise descrita acima é uma síntese didática de planejamento, sem pretensão de ser definição legal universal ou lista formal idêntica nos autores; não houve verificação de fontes completas sobre *issues management*, nem validação dos instrumentos operacionais, nem teste de GitHub Pages. **Status: Corrigido no recorte de modelos, redundância de questões e três gabaritos; certificação integral pendente.**
 
 ## Aplicação discursiva e heurísticas
 

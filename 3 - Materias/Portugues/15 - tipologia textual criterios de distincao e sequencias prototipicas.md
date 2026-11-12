@@ -26,7 +26,7 @@ flowchart TD
     S1["Sequência Narrativa<br>(Relato de fatos no tempo)"]
     S2["Sequência Descritiva<br>(Caracterização estática espacial)"]
     S3["Sequência Expositiva<br>(Conceituação e transmissão neutra de dados)"]
-    S4["Sequência Argumentativa<br>(Defesa de tese com juízo de valor e razões)"]
+    S4["Sequência Argumentativa<br>(Defesa de tese com razões e evidências)"]
     S5["Sequência Injuntiva<br>(Prescrição e instrução de condutas)"]
 
     PRED(("TIPO PREDOMINANTE<br>(A finalidade global que subordina<br>as demais sequências textuais)")):::centro
@@ -79,11 +79,11 @@ flowchart LR
 - **Padrão em Concurso**: Descrição das dependências arquitetônicas do Palácio do Congresso Nacional, laudos periciais de danos ao patrimônio público ou a caracterização das dimensões físicas e tecnológicas de um equipamento licitado.
 
 ### 3.3. Sequência Expositiva (Informativa / Explicativa)
-- **Núcleo Constitutivo**: Apresentação de dados, teorias, métodos ou definições conceituais com neutralidade discursiva aparente. O autor não visa a impor um juízo de valor controverso, mas sim instruir o leitor sobre a estrutura de um fenômeno.
+- **Núcleo Constitutivo**: Apresentação de dados, teorias, métodos ou definições conceituais com neutralidade discursiva aparente. A finalidade principal é explicar ou organizar conhecimento. O texto pode trazer avaliações secundárias; o que importa é se **explica** um objeto ou **sustenta uma conclusão com razões**.
 - **Marcas Formais**: Definições por gênero próximo e diferença específica, orações explicativas, enumerações de categorias e dados estatísticos consolidados.
 
 ### 3.4. Sequência Argumentativa (Opinativa)
-- **Núcleo Constitutivo**: Existência de uma **tese** (juízo de valor explícito sobre tema controverso) sustentada por **argumentos** (evidências, razões, analogias e deduções lógicas) com o propósito deliberado de persuadir o leitor.
+- **Núcleo Constitutivo**: Existência de uma **tese defendida** por **razões, evidências, exemplos ou inferências**, buscando justificar uma conclusão perante o leitor. A tese pode ser **técnica** (por exemplo, defender um procedimento de controle mais confiável), mesmo sem adjetivos avaliativos ou controvérsia explícita.
 - **O Divisor de Águas entre Exposição e Argumentação (Pegadinha Letal Cebraspe)**:
   - *Exposição*: *"O marco regulatório do saneamento foi aprovado pelo Congresso Nacional e prevê metas de 99% de atendimento de água potável até 2033 mediante leilões de concessão regionalizada"*. (Relato neutro de fatos e dispositivos normativos — não há juízo de valor).
   - *Argumentação*: *"A imposição açodada de metas de universalização pelo marco do saneamento desconsidera as peculiaridades econômicas dos municípios mais pobres, aprofundando injustiças federativas para favorecer oligopólios privados"*. (Há juízo de valor, adjetivação axiológica e defesa explícita de tese crítica).
@@ -165,8 +165,8 @@ flowchart TD
 *(Inédita: estilo Cebraspe / Comunicação Social)*
 > O que diferencia essencialmente um texto dissertativo-expositivo de um dissertativo-argumentativo é a presença de uma tese controversa sustentada por argumentos persuasivos no segundo, ao passo que o primeiro se restringe a explanar, conceituar e organizar informações objetivas sobre determinado tema.
 
-* **Gabarito**: **CERTO**.
-* **Comentário**: Perfeita discriminação entre as duas modalidades dissertativas. Expor é apresentar um conceito ou dado com neutralidade didática (o autor não assume a defesa de um julgamento controverso); argumentar é assumir explicitamente um juízo crítico de valor e articulá-lo a justificativas com o intuito de convencer o interlocutor.
+* **Gabarito**: **ERRADO**.
+* **Comentário**: O item impõe duas condições excessivas: **tese necessariamente controversa** e exposição restrita a **informações objetivas**. A argumentação se caracteriza pela **defesa de uma conclusão por razões**, inclusive em pareceres técnicos sem juízo de valor explícito; a exposição tem como função predominante **explicar ou organizar informações**, mesmo que registre avaliações. Exemplo contrastivo: “O relatório apresenta três modelos de fiscalização e suas etapas” (exposição); “O modelo B deve ser adotado porque registra todas as decisões e permite revisão independente” (argumentação técnica). A troca de gabarito decorre da formulação **universalizante deste item inédito**, não de atribuição a uma prova real do Cebraspe.
 
 ---
 
@@ -207,7 +207,7 @@ flowchart TD
     P1["1. TIPO vs. GÊNERO<br>Tipo: estrutura abstrata fixa (5 categorias) | Gênero: uso social empírico aberto"]
     P2["2. NARRAÇÃO<br>Tempo dinâmico, ações sucessivas, transformação de estado inicial em final"]
     P3["3. DESCRIÇÃO<br>Espaço estático, tempo suspenso, atributos, adjetivos e verbos de estado"]
-    P4["4. EXPOSIÇÃO vs. ARGUMENTAÇÃO<br>Exposição: conceitua e informa sem julgar | Argumentação: defende tese com juízo de valor"]:::dest
+    P4["4. EXPOSIÇÃO vs. ARGUMENTAÇÃO<br>Exposição: explica e organiza informação | Argumentação: sustenta uma conclusão por razões"]:::dest
     P5["5. INJUNÇÃO<br>Instrucional (orienta adesão) vs. Prescritiva (ordena com força de lei)"]
     P6["6. HETEROGENEIDADE TIPOLÓGICA<br>Classificar pelo tipo dominante que subordina as sequências secundárias"]
 
@@ -217,6 +217,6 @@ flowchart TD
 - **Tipo**: Modo como a linguagem é organizada por dentro (narração, descrição, exposição, argumentação, injunção).
 - **Gênero**: Nome do documento no mundo real (parecer, edital, reportagem, e-mail).
 - **Exposição**: "O que é isso?" (Transmissão objetiva de conhecimento).
-- **Argumentação**: "Por que concordo/discordo disso?" (Juízo de valor sustentado em razões).
+- **Argumentação**: "Que conclusão está sendo defendida e com que fundamentos?" (Tese técnica ou avaliativa sustentada por razões).
 - **Injunção**: "Faça isso dessa forma!" (Orientação ou prescrição de conduta).
 - **Dominância**: Em provas Cebraspe, identifique para que serve a sequência secundária: se a historinha (narração) serve apenas para provar a opinião do autor, o texto todo é argumentativo.

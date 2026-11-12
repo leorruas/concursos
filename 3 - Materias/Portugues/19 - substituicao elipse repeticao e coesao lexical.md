@@ -103,7 +103,7 @@ Dois vocábulos raramente compartilham 100% de seus traços semânticos e conota
 - Na redação oficial, a sinonímia deve ser dosada com cautela: termos técnicos consolidados na legislação (*posse, exercício, vacância, provimento*) possuem definição jurídica autônoma na Lei nº 8.112/1990 e **não admitem substituição por sinônimos populares**.
 
 ### 3.3. Nominalização (Derivação Sufixal Coesiva)
-A **nominalização** consiste na transformação de um verbo (ou adjetivo) em um substantivo abstrato correspondente, permitindo transformar um processo dinâmico em um conceito estático que serve de tópico para a oração seguinte:
+A **nominalização** consiste na transformação de um verbo (ou adjetivo) em um substantivo abstrato correspondente, permitindo retomar um processo por um sintagma nominal que pode servir de tópico para a oração seguinte, sem assegurar por si só que o evento esteja concluído:
 - *"A Mesa Diretora **reorganizou** a estrutura das secretarias parlamentares. Essa **reorganização** permitiu economizar recursos orçamentários."*
 - *Função no discurso*: Converte a ação verbal (*reorganizou*) em fato consolidado (*reorganização*), permitindo a progressão temática sem redundância frasal.
 
@@ -207,7 +207,7 @@ O mecanismo da nominalização contribui para a coesão e para a progressão tem
 - [ ] Errado
 
 > **Gabarito: CERTO**  
-> **Comentário**: A assertiva define com exatidão a função discursiva da **nominalização**. Ao transmutar um processo verbal (*o colegiado deliberou sobre a emenda*) em um substantivo abstrato cognato (*essa deliberação*), o enunciador transforma o evento em um conceito estático e consolidado, que serve de tópico anafórico e ancora a introdução de novos rezas informativos.
+> **Comentário**: A assertiva define com exatidão a função discursiva da **nominalização**. Ao transmutar um processo verbal (*o colegiado deliberou sobre a emenda*) em um substantivo abstrato cognato (*essa deliberação*), o enunciador retoma o processo por um nome abstrato (*essa deliberação*), que pode servir de tópico anafórico e introduzir novas informações, **sem afirmar necessariamente que o evento foi encerrado**.
 
 ---
 

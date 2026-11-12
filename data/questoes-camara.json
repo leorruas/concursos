@@ -22447,6 +22447,141 @@
       "statement": "Para avaliar uma orientação de interesse coletivo, é pertinente verificar se cidadãos com diferentes condições de acesso conseguem localizar a informação necessária, além de contar quantas vezes ela foi publicada.",
       "correctAnswer": "C",
       "explanation": "A perspectiva do cidadão considera a possibilidade de obter e usar a informação. A contagem de publicações mede a atividade de divulgação."
+    },
+    {
+      "id": "cam-cs-parlamento-e-categoria-governamental",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "parlamento-e-categoria-governamental",
+      "mechanism": "parlamento-e-categoria-governamental",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "statement": "A divulgação pela Câmara das regras para acompanhar uma comissão é governamental apenas porque a Câmara integra o Estado.",
+      "correctAnswer": "E",
+      "explanation": "A Câmara pertence ao Legislativo. O vínculo estatal, isoladamente, não caracteriza comunicação da gestão de governo."
+    },
+    {
+      "id": "cam-cs-comunicacao-politica-fora-do-pleito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "comunicacao-politica-fora-do-pleito",
+      "mechanism": "comunicacao-politica-fora-do-pleito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "statement": "A defesa pública de uma proposta por uma liderança partidária pode ser comunicação político-partidária mesmo fora de um período eleitoral.",
+      "correctAnswer": "C",
+      "explanation": "A finalidade de defender uma posição da organização partidária pode existir na atividade política cotidiana."
+    },
+    {
+      "id": "cam-cs-consulta-com-informacao-apos-prazo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "consulta-com-informacao-apos-prazo",
+      "mechanism": "consulta-com-informacao-apos-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Autor: Jorge Duarte e a perspectiva do cidadão"
+      },
+      "statement": "Publicar documentos indispensáveis a uma consulta somente depois de seu encerramento oferece aos cidadãos a mesma condição de participação que publicá-los antes.",
+      "correctAnswer": "E",
+      "explanation": "O momento do acesso afeta a possibilidade de usar a informação para participar. A publicação posterior não recupera a oportunidade perdida."
+    },
+    {
+      "id": "cam-cs-prestacao-de-contas-com-base-verificavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "prestacao-de-contas-com-base-verificavel",
+      "mechanism": "prestacao-de-contas-com-base-verificavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      },
+      "statement": "Uma publicação que apresenta resultados de um programa e oferece acesso às definições e aos registros usados no cálculo amplia a possibilidade de escrutínio público.",
+      "correctAnswer": "C",
+      "explanation": "As referências permitem verificar as afirmações e interpretar os resultados. Informar o número sem a base reduz as condições de conferência."
+    },
+    {
+      "id": "cam-cs-resumo-e-documento-de-referencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "resumo-e-documento-de-referencia",
+      "mechanism": "resumo-e-documento-de-referencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Casos progressivos: mudar uma variável"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Casos progressivos: mudar uma variável"
+      },
+      "statement": "Um aviso resumido pode facilitar a participação se encaminhar a pessoa ao documento de referência e preservar no próprio aviso as condições indispensáveis para agir a tempo.",
+      "correctAnswer": "C",
+      "explanation": "O resumo orienta o primeiro passo. O documento aprofunda a informação, sem que prazos ou condições essenciais precisem ficar ocultos."
     }
   ]
 }

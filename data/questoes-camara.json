@@ -10228,6 +10228,330 @@
       "statement": "Após uma reorganização, o reconhecimento das marcas dos programas subiu, mas mais usuários passaram a atribuir serviços ao programa errado. O aumento do reconhecimento, por si, comprova que a reorganização cumpriu a meta de esclarecer a origem dos serviços.",
       "correctAnswer": "E",
       "explanation": "Reconhecimento e atribuição correta são resultados distintos. A meta exige examinar a identificação da origem, que piorou mesmo com maior reconhecimento."
+    },
+    {
+      "id": "cam-di-reconhecimento-sem-distintividade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "reconhecimento-sem-distintividade",
+      "mechanism": "reconhecimento-sem-distintividade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Elementos de marca: reconhecimento, associação e aplicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Elementos de marca: reconhecimento, associação e aplicação"
+      },
+      "statement": "Se uma cor ajuda a reconhecer um programa, qualquer uso dessa cor por outra organização necessariamente identifica o mesmo programa.",
+      "correctAnswer": "E",
+      "explanation": "O reconhecimento depende da combinação de sinais e do contexto. Uma cor compartilhada pode ser insuficiente para distinguir a origem."
+    },
+    {
+      "id": "cam-di-manual-aplicacao-sobre-fotografia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "manual-aplicacao-sobre-fotografia",
+      "mechanism": "manual-aplicacao-sobre-fotografia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Identidade visual como sistema, não peça isolada"
+      },
+      "statement": "Um manual pode prever versões da assinatura para fundos claros e escuros sem criar marcas distintas para cada fundo.",
+      "correctAnswer": "C",
+      "explanation": "As versões são aplicações do mesmo sistema e procuram preservar a identificação em condições diferentes."
+    },
+    {
+      "id": "cam-di-identidade-e-reputacao-em-transicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "identidade-e-reputacao-em-transicao",
+      "mechanism": "identidade-e-reputacao-em-transicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Seis objetos distintos: evitar troca de categoria"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Seis objetos distintos: evitar troca de categoria"
+      },
+      "statement": "Uma instituição pode adotar uma nova identidade visual e ainda carregar avaliações consolidadas formadas sob a identidade anterior.",
+      "correctAnswer": "C",
+      "explanation": "A identidade reúne sinais geridos pela organização. A reputação decorre de avaliações acumuladas e pode persistir após a troca desses sinais."
+    },
+    {
+      "id": "cam-di-ordem-de-assinatura-e-papel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "ordem-de-assinatura-e-papel",
+      "mechanism": "ordem-de-assinatura-e-papel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Arquitetura de marca: organização dos sinais e relações"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Arquitetura de marca: organização dos sinais e relações"
+      },
+      "statement": "Se duas assinaturas aparecem lado a lado em uma peça, a posição delas basta para determinar quem administra e quem financia o programa.",
+      "correctAnswer": "E",
+      "explanation": "A ordem visual pode comunicar papéis segundo uma regra conhecida, mas a responsabilidade precisa ser identificada por evidência ou informação explícita."
+    },
+    {
+      "id": "cam-di-notoriedade-e-associacao-separadas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "notoriedade-e-associacao-separadas",
+      "mechanism": "notoriedade-e-associacao-separadas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Aaker: dimensões do valor de marca e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Aaker: dimensões do valor de marca e suas fronteiras"
+      },
+      "statement": "Uma pessoa pode identificar o nome de uma marca sem conseguir associá-la a um atributo específico.",
+      "correctAnswer": "C",
+      "explanation": "Notoriedade mede o conhecimento do nome. Associações dizem respeito aos significados vinculados a ele."
+    },
+    {
+      "id": "cam-di-saliência-na-ocasiao-de-uso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "saliência-na-ocasiao-de-uso",
+      "mechanism": "saliência-na-ocasiao-de-uso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Keller: modelo de valor de marca baseado no consumidor"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Keller: modelo de valor de marca baseado no consumidor"
+      },
+      "statement": "Uma marca pode ser reconhecida quando seu nome é exibido e ainda ter baixa saliência em uma situação de uso se poucas pessoas a evocam espontaneamente nessa ocasião.",
+      "correctAnswer": "C",
+      "explanation": "A saliência considera a facilidade e as situações em que a marca vem à mente. O reconhecimento assistido revela somente parte dessa acessibilidade mental."
+    },
+    {
+      "id": "cam-di-transferencia-entre-modelos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "transferencia-entre-modelos",
+      "mechanism": "transferencia-entre-modelos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Aaker × Keller: mesmo tema, estruturas diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Aaker × Keller: mesmo tema, estruturas diferentes"
+      },
+      "statement": "Como Aaker e Keller tratam do valor de marca, medir uma dimensão de Aaker permite atribuir automaticamente ao público o estágio de ressonância de Keller.",
+      "correctAnswer": "E",
+      "explanation": "Os modelos organizam o conceito de modos distintos. Ressonância requer evidência da natureza e intensidade da relação com a marca."
+    },
+    {
+      "id": "cam-di-publicos-com-leituras-opostas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "publicos-com-leituras-opostas",
+      "mechanism": "publicos-com-leituras-opostas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Posicionamento: intenção gerencial e percepção externa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Posicionamento: intenção gerencial e percepção externa"
+      },
+      "statement": "Uma organização quer ser percebida como próxima. Em uma amostra, usuários frequentes a descrevem assim, mas usuários ocasionais a consideram distante. Se a média dos dois grupos melhorou, o posicionamento pretendido foi alcançado nos dois públicos.",
+      "correctAnswer": "E",
+      "explanation": "A média pode subir mesmo com percepções divergentes. A conclusão sobre cada público depende da medida desagregada e do critério de sucesso adotado."
+    },
+    {
+      "id": "cam-di-assinatura-e-atribuicao-de-servico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "assinatura-e-atribuicao-de-servico",
+      "mechanism": "assinatura-e-atribuicao-de-servico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Arquitetura: quem assina cada serviço?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Arquitetura: quem assina cada serviço?"
+      },
+      "statement": "Uma rede oferece serviços com nomes próprios. Repetir a assinatura da instituição responsável pode preservar a identificação de cada serviço e tornar sua origem comum mais fácil de reconhecer.",
+      "correctAnswer": "C",
+      "explanation": "O endosso pode explicitar o vínculo sem eliminar os nomes particulares. O efeito depende de como o público interpreta os sinais."
+    },
+    {
+      "id": "cam-di-coassinatura-e-licenciamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "coassinatura-e-licenciamento",
+      "mechanism": "coassinatura-e-licenciamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Extensão de marca, submarca, co-branding e licenciamento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Extensão de marca, submarca, co-branding e licenciamento"
+      },
+      "statement": "A coassinatura de uma peça por duas marcas basta para concluir que uma licenciou a outra a usar seu sinal em qualquer produto futuro.",
+      "correctAnswer": "E",
+      "explanation": "A presença conjunta identifica uma colaboração naquele contexto. A autorização de uso tem escopo próprio e precisa ser demonstrada."
+    },
+    {
+      "id": "cam-di-excecao-controlada-de-aplicacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "excecao-controlada-de-aplicacao",
+      "mechanism": "excecao-controlada-de-aplicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Consistência: sistemas coerentes e variações legítimas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Consistência: sistemas coerentes e variações legítimas"
+      },
+      "statement": "Se a impressão em uma só cor impede reproduzir a versão padrão, empregar a alternativa monocromática prevista pode manter a consistência da marca.",
+      "correctAnswer": "C",
+      "explanation": "A consistência decorre do uso de regras e versões aprovadas. O suporte pode justificar uma aplicação diferente da versão principal."
+    },
+    {
+      "id": "cam-di-portfolio-duplicacao-operacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "portfolio-duplicacao-operacional",
+      "mechanism": "portfolio-duplicacao-operacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Avaliação do portfólio: como distinguir resultado de aparência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Avaliação do portfólio: como distinguir resultado de aparência"
+      },
+      "statement": "Dois programas com marcas visualmente distintas oferecem o mesmo serviço ao mesmo público e mantêm fluxos separados. A distinção visual basta para demonstrar que a separação reduz duplicação operacional.",
+      "correctAnswer": "E",
+      "explanation": "Sinais diferentes podem coexistir com sobreposição de serviços. Avaliar duplicação exige comparar atribuições, fluxos e recursos utilizados."
     }
   ]
 }

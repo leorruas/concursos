@@ -42,9 +42,10 @@ function mark(doc, line, kind, text, suggestion = '') {
   totals[kind] = (totals[kind] || 0) + 1;
 }
 for (const [id, info] of docs) {
-  let content = info.source.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
+  const frontMatter = info.source.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n/);
+  const lineOffset = frontMatter ? frontMatter[0].split(/\r?\n/).length - 1 : 0;
+  let content = info.source.slice(frontMatter?.[0].length || 0);
   let inFence = false;
-  let inComment = false;
   for (const [i, original] of content.split(/\r?\n/).entries()) {
     const line = original;
     if (/^\s*(?:```|~~~)/.test(line)) { inFence = !inFence; continue; }
@@ -56,19 +57,27 @@ for (const [id, info] of docs) {
     while ((match = wiki.exec(prose))) {
       spans.push([match.index, match.index + match[0].length]);
       const target = match[1].replace(/\.md$/, '');
-      const dest = aliases.get(target);
+      const relative = path.posix.normalize(path.posix.join(path.posix.dirname(id), target));
+      const dest = aliases.get(target) || aliases.get(relative);
       if (!dest) {
-        // Alguns links relativos ou de outros diretorios precisam de resolucao humana.
-        mark(id, i + 1, 'destino_nao_resolvido', match[0]);
+        // Links ao edital/planejamento estao fora da pasta auditada, mas podem existir.
+        const rootFile = path.join(root, target + '.md');
+        const relativeFile = path.join(root, relative + '.md');
+        if (fs.existsSync(rootFile) || fs.existsSync(relativeFile)) continue;
+        if (target === 'Avancos' || target.endsWith('/Avancos')) {
+          mark(id, i + 1 + lineOffset, 'referencia_privada_ou_legada', match[0]);
+          continue;
+        }
+        mark(id, i + 1 + lineOffset, 'destino_nao_resolvido', match[0]);
         continue;
       }
       const title = docs.get(dest)?.title;
       const label = match[2] || path.basename(target);
       const navigation = /^#{1,6}\s/.test(line) || /^\s*[-*]\s/.test(line) || /^\s*\|/.test(line);
       if (/\bnota\s*\d+|\b(?:CAM|CGU|DP|DAT)-[A-Z]{2,5}-\d+/i.test(label)) {
-        mark(id, i + 1, 'rotulo_codigo_ou_nota', match[0], title || '');
+        mark(id, i + 1 + lineOffset, 'rotulo_codigo_ou_nota', match[0], title || '');
       } else if (title && !navigation && /^\s*(?:\d+[A-Z]?\s*[•.]\s*)/.test(label)) {
-        mark(id, i + 1, 'ordinal_em_prosa', match[0], title);
+        mark(id, i + 1 + lineOffset, 'ordinal_em_prosa', match[0], title);
       }
     }
     const inlineCode = /`[^`]*`/g;
@@ -78,12 +87,12 @@ for (const [id, info] of docs) {
       const offset = match.index;
       if (spans.some(([a,b]) => offset >= a && offset < b)) continue;
       // Códigos em tabelas de planejamento devem ser revisados, mas nao corrigidos automaticamente.
-      mark(id, i + 1, 'referencia_visivel', match[0], line.trim().slice(0, 180));
+      mark(id, i + 1 + lineOffset, 'referencia_visivel', match[0], line.trim().slice(0, 180));
     }
     const md = /\[([^\]]+)\]\(([^)]+)\)/g;
     while ((match = md.exec(cleaned))) {
       if (/\bnota\s*\d+|\b(?:CAM|CGU|DP|DAT)-[A-Z]{2,5}-\d+/i.test(match[1]) && /artigo\/|\.md\b|3%20-%20Materias|3 - Materias/.test(match[2]))
-        mark(id, i + 1, 'rotulo_markdown_numerico', match[0]);
+        mark(id, i + 1 + lineOffset, 'rotulo_markdown_numerico', match[0]);
     }
   }
 }

@@ -5,7 +5,7 @@ title: "Evolução da Administração Pública"
 type: "conceito"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-11
 ---
 
 # Evolução da Administração Pública
@@ -76,7 +76,15 @@ No setor público não estatal (serviços não exclusivos), a contratualização
 
 A redefinição do papel do Estado na década de 1990 — transitando de um Estado predominantemente executor/produtor de bens para um **Estado regulador** — impulsionou a criação das **agências reguladoras** (estruturadas juridicamente sob a forma de autarquias especiais, regidas pela Lei nº 13.848/2019). Suas características centrais incluem independência decisória, mandato fixo e estabilidade de seus dirigentes (vedada a exoneração ad nutum sem justa causa ou processo formal), autonomia financeira e mandato técnico para fiscalizar serviços públicos concedidos, regular mercados com falhas e fixar tarifas.
 
-Paralelamente, a qualificação como **agência executiva** (prevista na Lei nº 9.649/1998) constitui uma qualificação transitória outorgada por decreto a autarquias ou fundações públicas preexistentes que tenham plano estratégico de reestruturação aprovado e celebrem contrato de gestão com o ministério supervisor, obtendo maior flexibilidade gerencial e limites ampliados para licitações e contratações.
+Paralelamente, **agência executiva** é uma qualificação de autarquia ou fundação, e não uma nova pessoa jurídica. A **Lei nº 9.649/1998, art. 51**, exige (I) plano estratégico de reestruturação e desenvolvimento institucional **em andamento** e (II) contrato de gestão celebrado com o respectivo ministério supervisor. A qualificação ocorre por **ato do Presidente da República**. A lei prevê medidas de organização destinadas à autonomia de gestão e à disponibilidade de recursos para objetivos e metas pactuados, mas a qualificação não autoriza ignorar regras de compras públicas.
+
+**Regra de contratações vigente na Lei nº 14.133/2021:** o **art. 75, § 2º**, determina que os limites de **dispensa de licitação em razão do valor**, previstos nos incisos **I e II** do caput, sejam **duplicados** para compras, obras e serviços contratados por consórcio público ou por autarquia ou fundação qualificada como agência executiva na forma da lei. O benefício é **específico para essas hipóteses de dispensa por valor**, não aumento universal de tetos de toda modalidade de licitação, nem autorização geral para contratação direta. Os montantes de referência são atualizados periodicamente; em questões, conferir o ano e a norma vigente.
+
+**Exemplo:** autarquia com qualificação válida de agência executiva analisa compra enquadrável no art. 75, II: deve avaliar o limite duplicado e os demais requisitos legais. Outra autarquia, sem essa qualificação, não pode reivindicar a duplicação somente por possuir metas gerenciais. **Contraexemplo:** concluir que o dobro se aplica automaticamente a qualquer licitação por pregão ou concorrência. A exceção legal incide sobre dispensas por valor dos incisos I e II.
+
+**Cotejo de fontes:** [Lei nº 9.649/1998, arts. 51–52](https://www2.camara.leg.br/legin/fed/lei/1998/lei-9649-27-maio-1998-372115-normaatualizada-pl.html); [Lei nº 14.133/2021, art. 75, § 2º, texto legislativo](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2021-04-01%3B14133%21art75); [manual do TCU sobre dispensa em razão do valor](https://licitacoesecontratos.tcu.gov.br/5-10-2-1-dispensa-em-razao-do-valor-incisos-i-e-ii-2/).
+
+**Questões inéditas Certo/Errado:** (1) “A Lei nº 14.133/2021, art. 75, § 2º, prevê duplicação dos limites de dispensa por valor dos incisos I e II para autarquias ou fundações qualificadas como agências executivas.” **Certo**, conforme literalidade da lei. (2) “A qualificação como agência executiva permite duplicar, indistintamente, os valores de qualquer modalidade licitatória.” **Errado**, pois o dispositivo refere-se às hipóteses de dispensa por valor. Ambos são itens autorais, não itens reais da banca.
 
 ### Princípio da eficiência e Emenda Constitucional nº 19/1998
 

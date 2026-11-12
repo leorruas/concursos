@@ -21402,6 +21402,122 @@
       "statement": "Ao remeter um pedido ao órgão que detém a informação, o primeiro órgão fica dispensado de comunicar a remessa ao interessado.",
       "correctAnswer": "E",
       "explanation": "A remessa é admitida, mas o dispositivo exige cientificar o interessado."
+    },
+    {
+      "id": "cam-cs-custodia-sem-autoria-da-camara",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "custodia-sem-autoria-da-camara",
+      "mechanism": "custodia-sem-autoria-da-camara",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#O que o Ato da Mesa nº 45/2012 exige do sítio oficial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "O que o Ato da Mesa nº 45/2012 exige do sítio oficial",
+        "url": "https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html",
+        "locator": "art. 5º, caput"
+      },
+      "statement": "A Câmara pode excluir uma informação de interesse coletivo do dever de divulgação de ofício apenas porque a recebeu de outro órgão e não a produziu.",
+      "correctAnswer": "E",
+      "explanation": "O caput abrange informações produzidas ou custodiadas pela Câmara, observadas as demais normas aplicáveis."
+    },
+    {
+      "id": "cam-cs-parecer-no-acompanhamento-de-proposicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "parecer-no-acompanhamento-de-proposicao",
+      "mechanism": "parecer-no-acompanhamento-de-proposicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#O que o Ato da Mesa nº 45/2012 exige do sítio oficial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "O que o Ato da Mesa nº 45/2012 exige do sítio oficial",
+        "url": "https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html",
+        "locator": "art. 5º, § 1º, I, b"
+      },
+      "statement": "Exibir apenas o título e a etapa de tramitação de uma proposição atende integralmente ao requisito de divulgação mesmo quando há parecer apresentado.",
+      "correctAnswer": "E",
+      "explanation": "O requisito compreende o conteúdo e a tramitação, incluindo os pareceres apresentados."
+    },
+    {
+      "id": "cam-cs-dados-biograficos-sem-votacoes-nominais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "dados-biograficos-sem-votacoes-nominais",
+      "mechanism": "dados-biograficos-sem-votacoes-nominais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#O que o Ato da Mesa nº 45/2012 exige do sítio oficial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "O que o Ato da Mesa nº 45/2012 exige do sítio oficial",
+        "url": "https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html",
+        "locator": "art. 5º, § 1º, I, a"
+      },
+      "statement": "Publicar dados biográficos dos deputados dispensa divulgar suas votações ostensivas nominais em Plenário e nas comissões.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo inclui os dois conjuntos de informação. Divulgar dados biográficos não substitui a divulgação das votações abrangidas."
+    },
+    {
+      "id": "cam-cs-portal-pesquisa-com-informacao-desatualizada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "portal-pesquisa-com-informacao-desatualizada",
+      "mechanism": "portal-pesquisa-com-informacao-desatualizada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#O que o Ato da Mesa nº 45/2012 exige do sítio oficial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "O que o Ato da Mesa nº 45/2012 exige do sítio oficial",
+        "url": "https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html",
+        "locator": "art. 5º, § 3º"
+      },
+      "statement": "Um portal pode facilitar a localização de uma informação e ainda descumprir o requisito de atualização se apresentar como vigente um registro superado.",
+      "correctAnswer": "C",
+      "explanation": "Pesquisa e atualização são requisitos distintos. Encontrar o registro não demonstra que ele reflita o estado atual."
     }
   ]
 }

@@ -33,4 +33,4 @@ Quarenta questões geradas para o item 5, vinculadas aos artigos 112 a 119. A tr
 
 ## Lote 006 em elaboração
 
-Seis questões geradas para ética na comunicação, item 6 do edital, vinculadas ao artigo 120. Ampliar com o artigo 11 e cotejar as fontes primárias antes de elaborar e liberar itens normativos.
+Doze questões geradas para ética na comunicação, item 6 do edital, vinculadas aos artigos 11 e 120. Ampliar os mecanismos e cotejar as fontes primárias antes de elaborar e liberar itens normativos.

@@ -12198,6 +12198,168 @@
       "statement": "Uma interface que torna a recusa de comunicações promocionais difícil de encontrar e exibe a aceitação em destaque oferece escolhas igualmente fáceis só porque as duas opções existem.",
       "correctAnswer": "E",
       "explanation": "A disponibilidade formal não iguala o esforço para escolher. Posição e visibilidade podem favorecer uma opção e prejudicar a autonomia."
+    },
+    {
+      "id": "cam-di-retificacao-em-canais-derivados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "retificacao-em-canais-derivados",
+      "mechanism": "retificacao-em-canais-derivados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Correção, direito de resposta e pluralidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Correção, direito de resposta e pluralidade"
+      },
+      "statement": "Uma notícia com erro foi publicada no portal e resumida em um boletim. Corrigir o portal resolve o erro no texto de origem, mas o boletim já enviado pode exigir comunicação adicional aos seus leitores.",
+      "correctAnswer": "C",
+      "explanation": "Os públicos dos dois canais podem ser diferentes. A correção na origem não chega automaticamente a quem recebeu apenas o resumo."
+    },
+    {
+      "id": "cam-di-separar-resposta-e-retificacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "separar-resposta-e-retificacao",
+      "mechanism": "separar-resposta-e-retificacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Correção, direito de resposta e pluralidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Correção, direito de resposta e pluralidade"
+      },
+      "statement": "Se a redação publica a manifestação de uma pessoa mencionada em uma reportagem, isso torna dispensável corrigir o erro factual que a própria equipe confirmou.",
+      "correctAnswer": "E",
+      "explanation": "A manifestação apresenta a posição da pessoa. A retificação corrige o que a redação publicou incorretamente. As duas medidas atendem a funções distintas."
+    },
+    {
+      "id": "cam-di-corroboracao-com-fonte-comum",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "corroboracao-com-fonte-comum",
+      "mechanism": "corroboracao-com-fonte-comum",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Núcleo do Código de Ética dos Jornalistas"
+      },
+      "statement": "Duas fontes que repetem o mesmo dado, ambas citando o mesmo relatório, fornecem duas verificações independentes do dado.",
+      "correctAnswer": "E",
+      "explanation": "As duas declarações compartilham a mesma origem. A independência requer evidência que não derive apenas desse relatório."
+    },
+    {
+      "id": "cam-di-precisao-com-denominador-omitido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "precisao-com-denominador-omitido",
+      "mechanism": "precisao-com-denominador-omitido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Núcleo do Código de Ética dos Jornalistas"
+      },
+      "statement": "Uma reportagem informa que 80% dos participantes aprovaram uma medida. Se participaram apenas voluntários de uma audiência, explicitar esse universo ajuda a evitar que o leitor atribua o percentual à população inteira.",
+      "correctAnswer": "C",
+      "explanation": "O número descreve quem participou. Informar o universo preserva o alcance da evidência e evita uma generalização indevida."
+    },
+    {
+      "id": "cam-di-creditos-e-posicao-institucional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "creditos-e-posicao-institucional",
+      "mechanism": "creditos-e-posicao-institucional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Ética jornalística × ética da comunicação pública"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Ética jornalística × ética da comunicação pública"
+      },
+      "statement": "Uma cobertura institucional pode atribuir uma proposta à parlamentar que a apresentou e distinguir a autoria individual da posição oficial do órgão.",
+      "correctAnswer": "C",
+      "explanation": "A atribuição identifica quem apresentou a proposta. A posição institucional depende de manifestação própria e não decorre da autoria."
+    },
+    {
+      "id": "cam-di-resposta-recebida-apos-fechamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "resposta-recebida-apos-fechamento",
+      "mechanism": "resposta-recebida-apos-fechamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Correção, direito de resposta e pluralidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Correção, direito de resposta e pluralidade"
+      },
+      "statement": "Uma redação solicitou manifestação com prazo razoável e publicou a matéria informando que ainda não havia recebido resposta. Uma manifestação posterior com documentos relevantes pode justificar atualizar a cobertura, mesmo que a informação sobre a ausência de resposta fosse correta na publicação inicial.",
+      "correctAnswer": "C",
+      "explanation": "A exatidão sobre o que se sabia no fechamento convive com a necessidade de avaliar fatos novos. Atualizar o contexto e corrigir um erro anterior são operações diferentes."
     }
   ]
 }

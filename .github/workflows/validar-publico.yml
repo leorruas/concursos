@@ -3,7 +3,7 @@ on:
   pull_request:
     branches: [main]
 permissions:
-  contents: write
+  contents: read
 jobs:
   validar:
     runs-on: ubuntu-latest
@@ -13,20 +13,6 @@ jobs:
         with:
           node-version: 20
       - run: node scripts/test-priority-sync.js && node scripts/test-progress-sync.js
-      - name: Corrigir rotulos legados de referencias (branch de auditoria)
-        if: github.head_ref == 'audit/referencias-editoriais-2026-11-12'
-        run: |
-          node scripts/corrigir-rotulos-referencias.mjs --apply
-          git diff --check
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add '3 - Materias'
-          if ! git diff --cached --quiet; then
-            git commit -m 'docs: corrigir rotulos numericos de referencias cruzadas'
-            git fetch origin audit/referencias-editoriais-2026-11-12
-            git rebase origin/audit/referencias-editoriais-2026-11-12
-            git push origin HEAD:audit/referencias-editoriais-2026-11-12
-          fi
       - name: Auditar referencias editoriais
         run: node scripts/auditar-referencias-editoriais.mjs --json referencias-editoriais.json
       - name: Publicar relatorio da auditoria

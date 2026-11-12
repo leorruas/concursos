@@ -153,6 +153,14 @@
     {
       "glossaryId": "glo-variacao-patrimonial-diminutiva",
       "cardId": "vpd"
+    },
+    {
+      "glossaryId": "glo-camara-sumula-vinculante",
+      "cardId": "camara-sumula-vinculante-aprovacao"
+    },
+    {
+      "glossaryId": "glo-camara-reclamacao-sumula-vinculante",
+      "cardId": "camara-sumula-vinculante-reclamacao"
     }
   ]
 }

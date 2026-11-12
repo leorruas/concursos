@@ -155,7 +155,7 @@ Instituída pela Portaria MCTI nº 4.617/2021, fixa 6 eixos verticais e 3 eixos 
 - Responsabilidade e prestação de contas (*accountability*).
 
 ### 6.3. Marco Legal da IA no Brasil (PL nº 2.338/2023 - Em tramitação no Congresso)
-**Proposta legislativa, não direito vigente:** o PL nº 2.338/2023 discute uma abordagem baseada em risco. Suas categorias e deveres dependem do texto aprovado ao fim da tramitação e não podem ser cobrados como obrigações legais já em vigor:
+**Proposta legislativa, não direito vigente em 11/11/2026:** a [tramitação na Câmara](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262) registra o PL nº 2.338/2023 ainda em comissão especial. O projeto discute uma abordagem baseada em risco. Suas categorias e deveres dependem do texto aprovado ao fim da tramitação e não podem ser cobrados como obrigações legais já em vigor:
 - **Risco Excessivo / Inaceitável (proibições propostas no PL):** Técnicas subliminares que induzam comportamento nocivo, exploração de vulnerabilidades (idade, deficiência) e avaliação social com ranqueamento pelo Estado (*social scoring*).
 - **Alto Risco (obrigações propostas no PL):** Aplicações em identificação biométrica remota em tempo real, gestão de infraestruturas críticas, avaliação de estudantes em exames de acesso, triagem em RH/recrutamento, concessão de crédito essencial e decisões judiciais/administrativas vinculantes. O projeto prevê mecanismos de avaliação de impacto algorítmico; o alcance e as condições de exigência dependem da redação final da eventual lei.
 - **Baixo Risco:** Aplicações corriqueiras com deveres gerais de transparência.
@@ -166,7 +166,7 @@ Instituída pela Portaria MCTI nº 4.617/2021, fixa 6 eixos verticais e 3 eixos 
 
 ### Caso 1: Triagem de emendas parlamentares na Câmara dos Deputados
 - *Cenário:* Um modelo de Processamento de Linguagem Natural classifica emendas orçamentárias recebidas para verificar pertinência temática e constitucionalidade aparente.
-- *Aplicação Ética:* O modelo opera estritamente sob o arranjo *Human-in-the-Loop* (HITL). Ele destaca trechos e sugere parecer preliminar com indicação das regras do Regimento Interno aplicadas. O Consultor Legislativo ou Deputado Relator é obrigado a ler o texto original e fundamentar sua decisão, respondendo funcionalmente pela autoria do relatório.
+- *Aplicação ética recomendada para o cenário hipotético:* projetar um fluxo *Human-in-the-Loop* (HITL) no qual a IA indica passagens e sugere classificação, mas um responsável autorizado confere os documentos e fundamenta a decisão institucional. Esta é uma **escolha de governança para a hipótese**, não uma regra universal de que toda operação assistida por IA deva obrigatoriamente ter chancela humana prévia. Atribuições concretas seguem a legislação, o Regimento e as normas internas aplicáveis.
 
 ### Caso 2: Reconhecimento facial nas portarias e plenários do Congresso
 - *Cenário:* Implantação de câmeras com reconhecimento facial para controle de acesso ao Palácio do Congresso Nacional.
@@ -179,7 +179,7 @@ Instituída pela Portaria MCTI nº 4.617/2021, fixa 6 eixos verticais e 3 eixos 
 
 ### Caso 4: Geração de minutas jurídicas com citações de julgados inexistentes
 - *Cenário:* Uma procuradoria adota modelo generativo para redigir contestações em processos judiciais. O modelo gera uma fundamentação elegante, citando acórdãos inexistentes do STF com numeração e nomes de ministros fictícios (alucinação).
-- *Implicação de Responsabilidade:* O advogado público assinou a peça sem conferir a base de dados jurisprudencial. Configura violação do dever de diligência profissional e do princípio da veracidade dos atos processuais. A falha humana de supervisão não pode ser atribuída à "IA", respondendo o subscritor pelo erro funcional.
+- *Implicação de responsabilidade:* referências jurídicas inventadas exigem correção e conferência em base oficial antes de uso. A assinatura da peça **não afasta o dever de diligência**; eventual infração e responsabilidade individual dependem do contexto, das normas profissionais, da gravidade e de apuração concreta. Não se presume sanção automática pelo mero uso de IA.
 
 ---
 
@@ -237,3 +237,16 @@ Instituída pela Portaria MCTI nº 4.617/2021, fixa 6 eixos verticais e 3 eixos 
 > **Nota de revisão (11/11/2026):** revisão pontual dos achados TI-002, TI-003 e TI-008, com distinção entre princípio ético, direito vigente e proposta legislativa. Consultar [LGPD, art. 20](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html) e [tramitação oficial do PL nº 2.338/2023](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262). A auditoria integral e a certificação dos gabaritos inéditos continuam pendentes.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** Q1–Q6 mantêm gabaritos no núcleo conceitual (E, E, C, E, C, E). Q5 e Q6 receberam ressalvas sobre limites de XAI e variação da taxonomia HITL. A aplicabilidade de deveres jurídicos depende de normas vigentes específicas.
+
+
+## Aplicação C/E: direito vigente versus projeto de lei
+
+> **Item inédito:** Conforme o art. 20 da LGPD, o titular afetado por decisão tomada unicamente com base no tratamento automatizado de seus dados pessoais pode solicitar revisão; o texto vigente não exige expressamente que ela seja realizada por uma pessoa natural.
+
+**Gabarito: CERTO.** O caput do [art. 20 da LGPD](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html) assegura o pedido de revisão; o § 1º trata de informações sobre critérios e procedimentos, com ressalvas legais. Uma regra de **supervisão humana prévia obrigatória** precisaria de fundamento normativo próprio.
+
+> **Item inédito:** Como o PL nº 2.338/2023 classifica determinadas aplicações de IA como alto risco, essas categorias já impõem, por si, todos os deveres previstos na proposta a qualquer órgão público.
+
+**Gabarito: ERRADO.** Em 11/11/2026 o PL estava em tramitação; proposta legislativa e lei vigente têm efeitos jurídicos distintos. Uma política institucional pode adotar voluntariamente controles semelhantes, mas isso não equivale à entrada em vigor do projeto.
+
+**Fontes:** [LGPD vigente](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html), [tramitação do PL](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262). Estes dois exemplos são inéditos, não transcrições Cebraspe.

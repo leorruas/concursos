@@ -1257,3 +1257,21 @@ Não somar as sete reavaliações do bloco 25 às 144: tratou-se das **mesmas qu
 **Estado técnico:** em verificação dos cinco artigos `16,27,28,31,34`, permaneceram `articleId`, `articleAliases`, número par de cercas Markdown e seis questões formais em cada. O GitHub Actions continuava com builds `pending`, sem conclusão certificada no momento da inspeção. Nenhuma correção de teoria foi transferida a disciplinas de outros agentes; não houve novos artigos criados por redundância com notas existentes.
 
 **Próximo passo:** fechar a integração do backlog de notas 01–34, verificar todas as referências externas novas, comparar exercícios alterados com seus gabaritos e conferir sucesso do workflow após estabilização dos commits simultâneos. As alterações aqui documentadas **não substituem uma validação integral de todos os exemplos**.
+
+
+## Implementação editorial: continuação de regência, ortografia e pontuação (11/11/2026)
+
+**Autorização:** execução de correções em Português, sem alteração de outros agentes. Os trechos foram recuperados da versão corrente do GitHub, substituídos de forma localizada e **relidos após os commits**.
+
+| Artigo | Problema | Alteração executada | Commit | Verificação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| `28` Regência | A introdução e o quadro atribuíam à Cebraspe aceitação ou rejeição universal de `visar`, `implicar em` e combinações com `informar` sem precedente identificado | Reescritas a situação inicial e as classificações, explicitada a preferência normativa conservadora e a existência de tradições divergentes; removidas atribuições genéricas à banca | `2d46234525599aaaf61e0ed2859cd7397b496a91` | Texto pós-commit e SHA conferidos | **corrigido** |
+| `17` Ortografia | Regra geral de vogais iguais ainda escrita como universal e afirmação sobre frequência Cebraspe para `hífen/hifens` | Acrescentada ressalva dos prefixos `co-`/`re-`; removida atribuição sem corpus | `fdc4afd46993466e82337458ab95edb51bcd0960` | Texto pós-commit e SHA conferidos | **corrigido** |
+| `28` Regência | Exemplos de omissão preposicional antes de `que` apresentados como equivalências normativas automáticas | Distinguido uso atestado de prescrição; exemplos de `certeza de que` e `insistir em que` mantidos como construções formais seguras, sem validar variantes omitidas sem fonte | `c69aa68c84309327ef751dbb9173cf02b1159981` | Texto pós-commit e SHA conferidos | **corrigido** |
+| `26` Pontuação | Tabela generalizava a obrigatoriedade de pontuação de apostos e expressões explicativas a qualquer ocorrência | Critérios condicionados à natureza e posição da expressão, com alerta contra inferência baseada exclusivamente em unicidade do nome | `6d30f7b18c33239847a07b49b0811d64c563a137` | Texto pós-commit e SHA conferidos | **corrigido** |
+
+**Checagem técnica da rodada:** notas 17, 26 e 28 continuam com `articleId`, `articleAliases`, seis questões formais inéditas por artigo, cercas de código equilibradas e remissões internas. A checagem confirma **integridade estrutural básica**, não correção semântica exaustiva nem renderização.
+
+**Publicação:** os workflows mais recentes da GitHub Actions `43128305532` e `43128285053` estavam respectivamente **queued** e **pending** quando consultados. **Não declarar GitHub Pages validado**. Os commits intermediários desta matéria aparecem como `cancelled` por novas atualizações; a confirmação de publicação depende do run de uma revisão mais recente, depois de estabilizada a fila.
+
+**Próximo lote:** verificar a versão efetivamente publicada e a preservação de links, conferir fontes específicas ainda pendentes e continuar correções de teorias sem fonte por trecho. Não reabrir a auditoria integral nem modificar catálogo e índice compartilhado sem necessidade.

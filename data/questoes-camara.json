@@ -13408,6 +13408,114 @@
       "statement": "Se a versão aprovada de uma peça tinha um endereço correto, a equipe pode liberar uma exportação que traz outro endereço sem conferir a alteração, pois a aprovação acompanha o projeto inteiro.",
       "correctAnswer": "E",
       "explanation": "O aceite precisa corresponder à versão e às condições aprovadas. A mudança de endereço afeta a ação do público e exige verificação."
+    },
+    {
+      "id": "cam-di-capacidade-liquida-com-urgencias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "capacidade-liquida-com-urgencias",
+      "mechanism": "capacidade-liquida-com-urgencias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      },
+      "statement": "Uma equipe dispõe de 40 horas semanais de revisão, das quais 12 foram reservadas para demandas urgentes. Comprometer as 40 horas com demandas ordinárias preserva a capacidade de atender às urgências sem replanejamento.",
+      "correctAnswer": "E",
+      "explanation": "A reserva deixa 28 horas para demandas ordinárias. Comprometer as 40 horas elimina a margem reservada."
+    },
+    {
+      "id": "cam-di-taxa-de-aceite-por-complexidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "taxa-de-aceite-por-complexidade",
+      "mechanism": "taxa-de-aceite-por-complexidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Avaliação de equipe: atividade, entrega, processo e resultado"
+      },
+      "statement": "Se a taxa geral de aceite na primeira revisão subiu após a equipe receber mais peças simples, comparar as taxas por complexidade ajuda a verificar se houve melhora dentro de cada categoria.",
+      "correctAnswer": "C",
+      "explanation": "A mudança na composição das entregas pode elevar a taxa agregada. O recorte permite examinar desempenho entre trabalhos comparáveis."
+    },
+    {
+      "id": "cam-di-alertas-e-seguranca-psicologica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "alertas-e-seguranca-psicologica",
+      "mechanism": "alertas-e-seguranca-psicologica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Gestão de conflitos, feedback e aprendizagem"
+      },
+      "statement": "Após a coordenação passar a acolher alertas sem punir quem os relata, aumentaram os riscos registrados. Esse aumento demonstra, por si só, que o processo passou a gerar mais riscos.",
+      "correctAnswer": "E",
+      "explanation": "O aumento pode refletir maior disposição para comunicar riscos antes omitidos. Para avaliar a incidência, é preciso considerar a mudança no processo de registro."
+    },
+    {
+      "id": "cam-di-restricao-e-criterio-de-aceite",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "restricao-e-criterio-de-aceite",
+      "mechanism": "restricao-e-criterio-de-aceite",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Briefing e passagem de trabalho: o que precisa atravessar as equipes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Briefing e passagem de trabalho: o que precisa atravessar as equipes"
+      },
+      "statement": "Quando a campanha exige peças prontas para duas plataformas, registrar os formatos e as condições de aceite no repasse ajuda a evitar que a equipe considere suficiente entregar apenas o arquivo mestre.",
+      "correctAnswer": "C",
+      "explanation": "O repasse precisa explicitar quais entregas serão verificadas. O arquivo mestre pode ser insumo para adaptações sem atender aos requisitos de ambas as plataformas."
     }
   ]
 }

@@ -31,7 +31,7 @@ flowchart TD
     Modos --> M2["Modo de Estrutura de Tópicos (Outline View): foco no texto dos títulos e marcadores"]
     Modos --> M3["Classificador de Slides (Slide Sorter): grade de miniaturas para reordenar slides e seções"]
     Modos --> M4["Página de Anotações (Notes Page): slide em miniatura com as notas do orador para impressão"]
-    Modos --> M5["Modo de Leitura (Reading View): tela cheia com barra de controles simples sem projetor"]
+    Modos --> M5["Modo de Leitura: apresentação em janela com controles, sem exigir projetor"]
 ```
 
 ### Seções de Slides (*Slide Sections*)
@@ -84,7 +84,7 @@ flowchart LR
 ```
 
 ### O recurso inovador Transformar (*Morph*):
-Introduzido no Office 365, a transição **Transformar** identifica objetos com o mesmo nome em slides consecutivos e anima suavemente sua posição, tamanho e rotação de um slide para outro, sem necessidade de configurar caminhos de animação complexos.
+A transição **Transformar (*Morph*)** pode animar movimentos e alterações de objetos presentes em slides consecutivos. Normalmente, o PowerPoint identifica correspondências entre objetos sem exigir nomes idênticos; **duplicar o slide e modificar o objeto** é uma forma de obter esse efeito. Opcionalmente, a convenção de nomes com **prefixo `!!`** pode forçar o pareamento entre objetos de slides sucessivos. Essa convenção exige versão compatível e correspondência adequada; **gráficos** podem apenas sofrer transição de esmaecimento, sem transformação de forma. Fonte: [Microsoft, Transformar: dicas e truques](https://support.microsoft.com/pt-br/powerpoint/morph-transition-tips-and-tricks).
 
 ---
 
@@ -115,7 +115,7 @@ Quando o computador está conectado a um segundo monitor ou projetor multimídia
 O formato do arquivo determina como o arquivo se comporta ao receber um duplo clique no Explorador de Arquivos:
 
 - **`.pptx` (Apresentação do PowerPoint)**: Abre o arquivo diretamente no **Modo de Edição (Normal)** do PowerPoint, permitindo alterar textos, cores e configurações;
-- **`.ppsx` (Apresentação de Slides do PowerPoint / *PowerPoint Show*)**: Abre o arquivo diretamente no **Modo de Apresentação em Tela Cheia**. Quando a apresentação termina (ou o usuário aperta `Esc`), o PowerPoint se fecha automaticamente sem exibir a área de trabalho de edição.
+- **`.ppsx` (Apresentação de Slides do PowerPoint / *PowerPoint Show*)**: em associações típicas de arquivo, abre diretamente na apresentação de slides; **não é arquivo compilado, criptografado ou imutável**. Quando a exibição termina, o comportamento de retorno à janela ou fechamento depende de como o aplicativo foi aberto e da configuração do ambiente, não sendo correto afirmar encerramento automático universal.
 
 > **Dica técnica de prova:**
 > Um arquivo `.ppsx` **não é protegido contra edição**. Se o usuário abrir o PowerPoint primeiro e utilizar o menu *Arquivo > Abrir*, ele conseguirá editar o arquivo `.ppsx` normalmente. O sufixo `.ppsx` apenas comanda o sistema operacional a iniciar o modo de exibição automática no duplo clique.
@@ -228,3 +228,6 @@ Um orador teme colocar dados estatísticos complexos no campo de Anotações do 
 > **Nota de revisão (11/11/2026):** herança do Slide Mestre qualificada para apresentações com múltiplos mestres; nó do diagrama renomeado para evitar colisão com o identificador de subgrafo `S2`. Revisão ligada a TI-038 e TI-039. Renderização do Mermaid no site ainda depende de teste de publicação.
 
 > **Auditoria de questões, segunda passagem (11/11/2026):** seis itens examinados, gabaritos mantidos **C, E, E, C, E, C**. Reforçadas as condições do Slide Mestre, atalhos de projeção e Modo Apresentador.
+
+
+> **Implementação TI-102 (11/11/2026):** reescrita a explicação de Transformar, separando pareamento automático e convenção `!!`; esclarecido que `.ppsx` e Modo de Leitura não garantem comportamento idêntico em todas as versões. Referência: [Microsoft PowerPoint, transição Transformar](https://support.microsoft.com/pt-br/powerpoint/training/use-the-morph-transition-in-powerpoint).

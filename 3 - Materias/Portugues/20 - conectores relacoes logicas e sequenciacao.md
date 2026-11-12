@@ -142,7 +142,7 @@ Expressa variação simultânea e concomitante entre dois fatos.
 - **Proposta da Banca**: No trecho, a conjunção "pois" introduz uma oração que expressa a conclusão da proposição enunciada anteriormente.
 - **Análise Cebraspe**:
   - A conjunção *pois* encontra-se **anteposta ao verbo** (*solicitou*), exercendo papel **explicativo/causal** (justifica o motivo de a matéria não ter sido deliberada).
-  - Para ter valor **conclusivo**, o conector *pois* deveria obrigatoriamente estar **posposto ao verbo**, deslocado e isolado entre vírgulas (*"o relator solicitou, pois, prazo adicional"*).
+  - Quando introduz **conclusão**, *pois* costuma aparecer intercalado após o verbo, delimitado por vírgulas: *"o relator solicitou, pois, prazo adicional"*. A posição e a relação entre as orações devem ser examinadas juntas; a frase original tem valor explicativo/causal.
   - *Julgamento*: Item julgado **ERRADO**.
 
 ---
@@ -205,7 +205,7 @@ No período “Como o regimento interno veda a reeleição de membros da Mesa na
 - [ ] Errado
 
 > **Gabarito: ERRADO**  
-> **Comentário**: No trecho apresentado, *Como* introduz **causa**, demonstrada pela relação entre vedação e impugnação. **A posição inicial não define sozinha esse valor**: em *"Como determina o regimento, a votação será nominal"*, por exemplo, pode ter valor conformativo (*"Já que o regimento veda...", "Visto que o regimento veda..."*). A vedação regimental é a causa formal que gerou a consequência descrita na oração principal (a impugnação). Para expressar conformidade, o conector deveria permitir substituição por *conforme* ou *segundo* em estrutura equivalente.
+> **Comentário**: No trecho apresentado, *Como* introduz **causa**, demonstrada pela relação entre vedação e impugnação. **A posição inicial não define sozinha esse valor**: em *"Como determina o regimento, a votação será nominal"*, a locução equivale a *"conforme determina o regimento"* e tem leitura conformativa. No exemplo do item, porém, *"já que o regimento veda"* preserva a relação causal. A vedação regimental é a causa formal que gerou a consequência descrita na oração principal (a impugnação). Para expressar conformidade, o conector deveria permitir substituição por *conforme* ou *segundo* em estrutura equivalente.
 
 ---
 
@@ -217,7 +217,7 @@ As locuções conjuntivas “à medida que” e “na medida em que” são sema
 - [ ] Errado
 
 > **Gabarito: ERRADO**  
-> **Comentário**: As locuções possuem sentidos e papéis sintáticos inteiramente distintos:
+> **Comentário**: A redação formal costuma distinguir essas locuções pelo valor predominante, embora a interpretação concreta dependa do contexto:
 > 1. **à medida que**: expressa **proporção / concomitância gradual** (*"à medida que o tempo passava, o plenário esvaziava-se"*);
 > 2. **na medida em que**: expressa **causa / explicação** (*"o projeto foi aprovado na medida em que atende aos reclamos sociais"*). Na redação oficial, convém manter essa distinção para evitar mudança de sentido. A avaliação de equivalência depende da relação efetivamente expressa em cada período.
 

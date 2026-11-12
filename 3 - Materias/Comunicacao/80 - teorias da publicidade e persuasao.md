@@ -5,7 +5,7 @@ title: "Teorias da publicidade e persuasão: AIDA, hierarquia de efeitos, ELM e 
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Teorias da publicidade e persuasão: AIDA, hierarquia de efeitos, ELM e mudança de atitudes
@@ -154,6 +154,16 @@ Na Câmara, a política do **Ato da Mesa nº 218/2025** prevê imparcialidade, p
 **Item 3.** Na matriz de McGuire, fonte, mensagem e canal constituem estágios sucessivos de aceitação do conteúdo, enquanto compreensão e retenção representam características de entrada do processo comunicacional.
 
 **Gabarito: Errado.** O item inverte os eixos da matriz. Fonte, mensagem e canal são insumos; compreensão e retenção pertencem às etapas de resposta à persuasão.
+
+## Cotejo autoral dirigido: ELM, Ajzen e matriz de McGuire (11/11/2026)
+
+O resumo editorial do capítulo original de **Petty e Cacioppo (1986)** distingue a rota central, baseada em **consideração cuidadosa dos argumentos**, da rota periférica, apoiada em **associações afetivas ou inferências simples a partir de pistas**. A diferença central é o processamento, não o meio utilizado nem a garantia de mudança de atitude. O artigo original de **Ajzen (1991)**, em resumo editorial e reprodução acadêmica, relaciona **atitude frente ao comportamento, norma subjetiva e controle comportamental percebido** à intenção, distinguindo-a do comportamento efetivo. Norma subjetiva refere-se a expectativas ou pressão social percebida, **não** a norma jurídica compulsória; o controle percebido **não se identifica necessariamente** com a existência objetiva de recursos.
+
+Na matriz de persuasão de **McGuire**, a categorização de **fonte, mensagem, canal, receptor e destino** descreve variáveis de **entrada**, enquanto **atenção, compreensão, aceitação, retenção e comportamento** descrevem resultados ou etapas a serem investigados. A enumeração e a granularidade das saídas variam conforme a versão do modelo. Foi consultada uma **reprodução acadêmica da matriz**; a edição original integral de McGuire ainda necessita de cotejo bibliográfico específico. Os esquemas de AIDA e Lavidge/Steiner também permanecem distintos do ELM e da TCP.
+
+**Reexame dos C/E inéditos preexistentes:** item **1 Certo**, rota central e pistas periféricas estão diferenciadas corretamente; item **2 Errado**, há troca entre norma subjetiva e comando legal e entre controle percebido e recurso material; item **3 Errado**, o item inverte os eixos da matriz de McGuire. Não houve inversão de gabaritos nem novo confronto de questão histórica Cebraspe.
+
+**Fontes:** [Petty e Cacioppo (1986), Elsevier](https://doi.org/10.1016/S0065-2601(08)60214-2); [Ajzen (1991), Elsevier](https://doi.org/10.1016/0749-5978(91)90020-T); [reprodução acadêmica da matriz de McGuire em estudo da Universidade da Geórgia](https://openscholar.uga.edu/nanna/record/11808/files/deshpande_aparna_d_200408_phd.pdf?registerDownload=1&version=1&withMetadata=0&withWatermark=0). **Limites:** o cotejo usou resumos editoriais e recorte da matriz; não equivale à leitura integral de todas as obras, nem certifica a autoria originária de AIDA ou as condições experimentais. **Status: Corrigido em recorte autoral e dos itens, certificação integral pendente.**
 
 ## Relações e heurísticas
 

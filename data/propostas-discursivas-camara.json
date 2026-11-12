@@ -35,22 +35,34 @@
         "criteria": [
           {
             "name": "Precisão conceitual e normativa",
-            "maxPoints": 6
+            "maxPoints": 6,
+            "assessmentGuide": "Distinguir finalidade de interesse público, comunicação governamental e promoção político-partidária; aplicar o art. 37, § 1º, sem declarar ilícita toda imagem de autoridade."
           },
           {
             "name": "Aplicação ao caso e critérios de revisão",
-            "maxPoints": 5
+            "maxPoints": 5,
+            "assessmentGuide": "Examinar protagonismo da autoridade e função de serviço da peça; indicar dois critérios de revisão proporcionais ao risco."
           },
           {
             "name": "Cobertura dos quesitos",
-            "maxPoints": 2
+            "maxPoints": 2,
+            "assessmentGuide": "Atender à distinção solicitada e aos dois critérios concretos."
           },
           {
             "name": "Organização e clareza",
-            "maxPoints": 2
+            "maxPoints": 2,
+            "assessmentGuide": "Organizar argumento sem extrapolar evidências ou usar termos imprecisos."
           }
         ]
-      }
+      },
+      "referencePaths": [
+        "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md"
+      ],
+      "criticalErrors": [
+        "Afirmar que toda imagem de autoridade é automaticamente proibida.",
+        "Tratar reconhecimento público da autoridade como finalidade necessária da campanha."
+      ]
     },
     {
       "id": "cam-dis-q02",
@@ -73,22 +85,35 @@
         "criteria": [
           {
             "name": "Cálculos e conceitos corretos",
-            "maxPoints": 6
+            "maxPoints": 6,
+            "assessmentGuide": "Calcular 140/1.200 ≈ 11,67% de cliques por impressão e 12/140 ≈ 8,57% de inscrições por clique, com denominadores explícitos."
           },
           {
             "name": "Interpretação e limites",
-            "maxPoints": 5
+            "maxPoints": 5,
+            "assessmentGuide": "Distinguir exposição, interação e resultado, sem atribuição causal automática; sugerir evidência complementar apropriada."
           },
           {
             "name": "Cobertura dos quesitos",
-            "maxPoints": 2
+            "maxPoints": 2,
+            "assessmentGuide": "Cobrir as duas taxas, limite de inferência e método complementar."
           },
           {
             "name": "Organização e clareza",
-            "maxPoints": 2
+            "maxPoints": 2,
+            "assessmentGuide": "Linguagem e unidades corretas, dentro do comando."
           }
         ]
-      }
+      },
+      "referencePaths": [
+        "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md",
+        "3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md"
+      ],
+      "criticalErrors": [
+        "Tratar impressões como usuários únicos.",
+        "Afirmar que as 12 inscrições foram causadas exclusivamente pela campanha."
+      ]
     },
     {
       "id": "cam-dis-q03",
@@ -111,22 +136,34 @@
         "criteria": [
           {
             "name": "Riscos e precisão técnica",
-            "maxPoints": 6
+            "maxPoints": 6,
+            "assessmentGuide": "Descrever riscos distintos: informação falsa ou sem fonte, vieses/representação, direitos e uso institucional inadequado."
           },
           {
             "name": "Controles aplicáveis",
-            "maxPoints": 5
+            "maxPoints": 5,
+            "assessmentGuide": "Indicar verificação documental, revisão humana, aprovação institucional e transparência proporcional ao uso."
           },
           {
             "name": "Cobertura dos quesitos",
-            "maxPoints": 2
+            "maxPoints": 2,
+            "assessmentGuide": "Relacionar os três riscos às medidas de controle solicitadas."
           },
           {
             "name": "Organização e clareza",
-            "maxPoints": 2
+            "maxPoints": 2,
+            "assessmentGuide": "Usar argumentação ordenada e não inferir uma norma específica inexistente no comando."
           }
         ]
-      }
+      },
+      "referencePaths": [
+        "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md"
+      ],
+      "criticalErrors": [
+        "Tratar uma resposta gerada como fonte documental comprovada.",
+        "Considerar publicação automática suficiente para a responsabilidade institucional."
+      ]
     },
     {
       "id": "cam-dis-q04",
@@ -149,22 +186,35 @@
         "criteria": [
           {
             "name": "Precisão e limites da simplificação",
-            "maxPoints": 6
+            "maxPoints": 6,
+            "assessmentGuide": "Preservar requisitos, exceções, prazos e consequências, reduzindo complexidade de leitura sem apagar informação essencial."
           },
           {
             "name": "Desenho do teste",
-            "maxPoints": 5
+            "maxPoints": 5,
+            "assessmentGuide": "Definir tarefa realista, perfis/participantes, observação de compreensão e conclusão, distinguindo percepção e sucesso da tarefa."
           },
           {
             "name": "Cobertura dos quesitos",
-            "maxPoints": 2
+            "maxPoints": 2,
+            "assessmentGuide": "Cobrir comparação conceitual e desenho de teste conforme comando."
           },
           {
             "name": "Organização e clareza",
-            "maxPoints": 2
+            "maxPoints": 2,
+            "assessmentGuide": "Comunicar de forma direta e precisa."
           }
         ]
-      }
+      },
+      "referencePaths": [
+        "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao.md",
+        "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md"
+      ],
+      "criticalErrors": [
+        "Eliminar requisito legal para tornar texto mais curto.",
+        "Confundir satisfação declarada com conclusão efetiva da tarefa."
+      ]
     },
     {
       "id": "cam-dis-pt01",
@@ -189,26 +239,41 @@
         "criteria": [
           {
             "name": "Diagnóstico e informação disponível",
-            "maxPoints": 8
+            "maxPoints": 8,
+            "assessmentGuide": "Delimitar problema e fatos confirmados versus hipóteses, sem inventar dados."
           },
           {
             "name": "Públicos e objetivos",
-            "maxPoints": 6
+            "maxPoints": 6,
+            "assessmentGuide": "Indicar públicos e objetivos, incluindo barreiras de participação."
           },
           {
             "name": "Entregas justificadas",
-            "maxPoints": 8
+            "maxPoints": 8,
+            "assessmentGuide": "Propor entregas, canais e acessibilidade com justificativas práticas."
           },
           {
             "name": "Acompanhamento",
-            "maxPoints": 5
+            "maxPoints": 5,
+            "assessmentGuide": "Prever indicadores e fontes de monitoramento observáveis, sem causalidade automática."
           },
           {
             "name": "Gênero e clareza",
-            "maxPoints": 3
+            "maxPoints": 3,
+            "assessmentGuide": "Usar gênero briefing, destinatário e linguagem objetiva; atender até 50 linhas."
           }
         ]
-      }
+      },
+      "referencePaths": [
+        "3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade.md",
+        "3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md",
+        "3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao.md",
+        "3 - Materias/Redacao/06 - planejamento e escrita de peca tecnica.md"
+      ],
+      "criticalErrors": [
+        "Inventar orçamento, resultados ou públicos pesquisados.",
+        "Confundir briefing com comprovação de impacto já realizado."
+      ]
     },
     {
       "id": "cam-dis-pt02",
@@ -233,26 +298,41 @@
         "criteria": [
           {
             "name": "Diagnóstico e limites da evidência",
-            "maxPoints": 8
+            "maxPoints": 8,
+            "assessmentGuide": "Diferenciar fatos conhecidos, alegações e pontos pendentes de apuração."
           },
           {
             "name": "Públicos e objetivos",
-            "maxPoints": 6
+            "maxPoints": 6,
+            "assessmentGuide": "Explicitar públicos prioritários e finalidade da resposta, sem exagerar impacto."
           },
           {
             "name": "Ações e processos",
-            "maxPoints": 8
+            "maxPoints": 8,
+            "assessmentGuide": "Planejar verificação com áreas responsáveis, posição institucional proporcional, atualização de canais e revisão."
           },
           {
             "name": "Monitoramento",
-            "maxPoints": 5
+            "maxPoints": 5,
+            "assessmentGuide": "Indicar monitoramento de compreensão, correção e desinformação sem confundir métricas com efeito causal."
           },
           {
             "name": "Gênero e clareza",
-            "maxPoints": 3
+            "maxPoints": 3,
+            "assessmentGuide": "Estruturar nota técnica para a coordenação, com objetividade e até 50 linhas."
           }
         ]
-      }
+      },
+      "referencePaths": [
+        "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "3 - Materias/Redacao/06 - planejamento e escrita de peca tecnica.md"
+      ],
+      "criticalErrors": [
+        "Repetir boato como fato institucional confirmado.",
+        "Prometer resolução sem verificação ou encaminhamento."
+      ]
     }
   ]
 }

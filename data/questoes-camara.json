@@ -26104,6 +26104,222 @@
       "statement": "Uma inspeção de conformidade que confirma o contraste e a navegação por teclado demonstra que os usuários conseguem localizar a informação desejada durante uma tarefa.",
       "correctAnswer": "E",
       "explanation": "A inspeção confirma critérios técnicos. Observar a localização da informação exige avaliar o desempenho na tarefa e no contexto definidos."
+    },
+    {
+      "id": "cam-cs-usab-publico-ausente-na-analitica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-7d3e89a0b4cf1265",
+      "conceptId": "publico-ausente-na-analitica",
+      "mechanism": "publico-ausente-na-analitica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3e89a0b4cf1265#Etapa 1: planejar, conhecer o público e selecionar conteúdo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao.md",
+        "section": "Etapa 1: planejar, conhecer o público e selecionar conteúdo"
+      },
+      "statement": "Uma equipe pode incluir no público-alvo pessoas que ainda não conseguem chegar à página de atendimento, mesmo que elas não apareçam nas estatísticas de visitas.",
+      "correctAnswer": "C",
+      "explanation": "O planejamento identifica quem precisa da informação. As visitas registram apenas quem já conseguiu chegar à página."
+    },
+    {
+      "id": "cam-cs-usab-suporte-sem-efeito-no-planejamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-7d3e89a0b4cf1265",
+      "conceptId": "suporte-sem-efeito-no-planejamento",
+      "mechanism": "suporte-sem-efeito-no-planejamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3e89a0b4cf1265#Etapa 1: planejar, conhecer o público e selecionar conteúdo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao.md",
+        "section": "Etapa 1: planejar, conhecer o público e selecionar conteúdo"
+      },
+      "statement": "Ao planejar uma orientação para leitura em cartaz de corredor, a equipe pode ignorar o suporte na seleção do conteúdo, pois ele só influencia a tipografia.",
+      "correctAnswer": "E",
+      "explanation": "O suporte condiciona a situação de leitura e ajuda a decidir o que apresentar de imediato e o que encaminhar para consulta complementar."
+    },
+    {
+      "id": "cam-cs-usab-ordem-sem-troca-de-vocabulario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-7d3e89a0b4cf1265",
+      "conceptId": "ordem-sem-troca-de-vocabulario",
+      "mechanism": "ordem-sem-troca-de-vocabulario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3e89a0b4cf1265#Etapa 2: desenvolver, quatro conjuntos de diretrizes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao.md",
+        "section": "Etapa 2: desenvolver, quatro conjuntos de diretrizes"
+      },
+      "statement": "Mover o prazo de recurso para o início de um aviso e reunir sob o mesmo título todas as instruções de envio são intervenções de arquitetura da informação, mesmo sem trocar palavras.",
+      "correctAnswer": "C",
+      "explanation": "As mudanças afetam ordem e agrupamento do conteúdo. A escolha lexical é outra dimensão do desenvolvimento."
+    },
+    {
+      "id": "cam-cs-usab-agente-ambiguo-apos-divisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-7d3e89a0b4cf1265",
+      "conceptId": "agente-ambiguo-apos-divisao",
+      "mechanism": "agente-ambiguo-apos-divisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3e89a0b4cf1265#Etapa 2: desenvolver, quatro conjuntos de diretrizes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao.md",
+        "section": "Etapa 2: desenvolver, quatro conjuntos de diretrizes"
+      },
+      "statement": "Dividir um período em duas frases melhora necessariamente sua clareza, mesmo quando a nova segunda frase deixa indeterminado quem deve apresentar o documento.",
+      "correctAnswer": "E",
+      "explanation": "A revisão sintática deve preservar a relação entre agente e ação. Reduzir o comprimento das frases pode criar ambiguidade."
+    },
+    {
+      "id": "cam-cs-usab-especialista-como-publico-real",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-7d3e89a0b4cf1265",
+      "conceptId": "especialista-como-publico-real",
+      "mechanism": "especialista-como-publico-real",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3e89a0b4cf1265#Participantes: pertinência e limitação de pequenos testes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao.md",
+        "section": "Participantes: pertinência e limitação de pequenos testes"
+      },
+      "statement": "Se uma orientação foi escrita para servidores responsáveis por instruir processos legislativos, a familiaridade deles com o tema pode ser critério de pertinência para recrutar participantes do teste.",
+      "correctAnswer": "C",
+      "explanation": "A composição do grupo acompanha o público real. Excluir pessoas familiarizadas faria sentido ao simular um público leigo."
+    },
+    {
+      "id": "cam-cs-usab-segunda-rodada-mesmos-leitores",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-7d3e89a0b4cf1265",
+      "conceptId": "segunda-rodada-mesmos-leitores",
+      "mechanism": "segunda-rodada-mesmos-leitores",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3e89a0b4cf1265#Participantes: pertinência e limitação de pequenos testes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao.md",
+        "section": "Participantes: pertinência e limitação de pequenos testes"
+      },
+      "statement": "Reutilizar os mesmos leitores em uma segunda rodada preserva as condições de primeiro contato com o texto, desde que a equipe troque o título da página.",
+      "correctAnswer": "E",
+      "explanation": "Os leitores já conhecem a tarefa e a informação. Participantes diferentes ajudam a testar a nova versão sem esse efeito de aprendizagem."
+    },
+    {
+      "id": "cam-cs-usab-grifos-com-investigacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-7d3e89a0b4cf1265",
+      "conceptId": "grifos-com-investigacao",
+      "mechanism": "grifos-com-investigacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3e89a0b4cf1265#Três procedimentos de compreensão textual"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao.md",
+        "section": "Três procedimentos de compreensão textual"
+      },
+      "statement": "Se leitores grifam a mesma expressão como difícil, discutir com eles o que entenderam ajuda a descobrir se a dificuldade está na palavra, na construção da frase ou na regra descrita.",
+      "correctAnswer": "C",
+      "explanation": "O grifo localiza a dificuldade. A conversa posterior permite examinar a natureza da interpretação e orientar a revisão."
+    },
+    {
+      "id": "cam-cs-usab-pergunta-de-localizacao-e-sentido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-7d3e89a0b4cf1265",
+      "conceptId": "pergunta-de-localizacao-e-sentido",
+      "mechanism": "pergunta-de-localizacao-e-sentido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3e89a0b4cf1265#Três procedimentos de compreensão textual"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao.md",
+        "section": "Três procedimentos de compreensão textual"
+      },
+      "statement": "Para saber se leitores compreenderam uma condição de elegibilidade, perguntar apenas o horário de atendimento que aparece ao lado dessa condição é suficiente.",
+      "correctAnswer": "E",
+      "explanation": "Localizar um horário mede recuperação de um dado. Interpretar a condição exige explicar seu alcance ou aplicá-la a um caso."
     }
   ]
 }

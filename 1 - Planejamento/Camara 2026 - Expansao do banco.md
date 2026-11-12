@@ -21,6 +21,7 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 013 | Comunicação Social | Edital 14.2.4, item 5: redes sociais oficiais | 40 | 1/30/7/2 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 | 014 | Comunicação Social | Edital 14.2.4, item 6: transparência pública | 40 | 3/32/4/1 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 | 015 | Comunicação Social | Edital 14.2.4, item 7: comunicação pública, governamental e político-partidária | 40 | 0/28/12/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
+| 016 | Comunicação Social | Edital 14.2.4, item 8: Política e Manual de Comunicação | 40 | 0/29/11/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
@@ -87,16 +88,8 @@ Seleção dos 40 itens confirmada. Próximo lote: comunicação pública, govern
 
 Quarenta itens cotejados com os artigos 02 e 71 sobre classificação, escuta cidadã, informação e instrumentos, precisão e tratamento editorial. Três casos foram substituídos para ampliar a distinção entre mecanismos. A triagem lexical a 0,22 não sinalizou pares envolvendo o lote. O seletor recuperou os 40 itens pelo item 7.
 
-Total validado: 600/2.000. Próximo lote: avançar para o item 8 de Comunicação Social.
+## Lote 016 validado
 
-## Lote 016 em elaboração
+Quarenta itens sobre Política e Manual de Comunicação, vinculados aos artigos 72 e 73. A triagem a 0,22 apontou um caso sobre atribuição e verificação de informação, substituído por comunicação interna como objetivo da política. O item sobre referência externa foi substituído por voz institucional e pluralidade enquanto a conferência direta do inciso VIII do art. 24 do Ato nº 80/2019 segue pendente. Os demais itens de remissão cobrem os incisos I e VI. Após as substituições, a triagem não sinalizou pares envolvendo o lote. O seletor recuperou os 40 itens pelo item 8.
 
-Oito itens sobre texto, estilo e nomeação em coberturas institucionais, vinculados ao artigo 73. A redação foi cotejada com a seção Texto e estilo do Manual de Comunicação da Câmara.
-
-Oito itens adicionais sobre requisitos, públicos, canais e atribuições foram cotejados com os arts. 8º a 10, 13 e 14 do Ato da Mesa nº 218/2025. O lote soma 16 itens redigidos.
-
-Oito casos adicionais sobre vedações dos arts. 11 e 12 e do dispositivo remetido. As questões da remissão ainda serão cotejadas com o texto atualizado do Ato da Mesa nº 80/2019 antes da homologação. O lote soma 24 itens redigidos.
-
-Oito itens adicionais sobre atribuições da Assessoria de Imprensa, participação e arquitetura do Manual, vinculados ao artigo 73. O lote soma 32 itens redigidos. A publicação original e o texto atualizado do Ato nº 80/2019 confirmaram os incisos I, IV e VI; a conferência direta do inciso VIII permanece pendente.
-
-Redação encerrada com 40 itens. Os oito últimos cobrem os arts. 2º a 4º, com gabaritos cotejados na publicação original do Ato nº 218/2025. A revisão final deve comparar mecanismos próximos de projeto e programa, reclamação e nomeação editorial.
+Total validado: 640/2.000. Próximo lote: aplicações e ética de IA na comunicação, item 9.

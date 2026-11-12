@@ -23448,7 +23448,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Texto e estilo: seis propriedades e o significado das escolhas"
       ],
@@ -23458,7 +23458,8 @@
       },
       "statement": "Uma nota lida na Rádio Câmara continua sujeita aos critérios de precisão e imparcialidade do Manual de Comunicação, ainda que sua redação seja adaptada para escuta.",
       "correctAnswer": "C",
-      "explanation": "O Manual aplica os critérios de texto aos veículos da Câmara em qualquer mídia. O suporte orienta a redação sem afastar esses critérios."
+      "explanation": "O Manual aplica os critérios de texto aos veículos da Câmara em qualquer mídia. O suporte orienta a redação sem afastar esses critérios.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-adjetivo-como-juizo-da-redacao",
@@ -23475,7 +23476,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Texto e estilo: seis propriedades e o significado das escolhas"
       ],
@@ -23485,7 +23486,8 @@
       },
       "statement": "Se uma fonte descreve um projeto como desastroso, a redação pode retirar a atribuição e manter o adjetivo em sua própria descrição, pois a avaliação teve origem numa entrevista.",
       "correctAnswer": "E",
-      "explanation": "A atribuição é o que permite reconhecer a avaliação como posição da fonte. Suprimi-la converte o juízo em voz editorial."
+      "explanation": "A atribuição é o que permite reconhecer a avaliação como posição da fonte. Suprimi-la converte o juízo em voz editorial.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-bastidor-como-regra-geral",
@@ -23502,7 +23504,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Texto e estilo: seis propriedades e o significado das escolhas"
       ],
@@ -23512,7 +23514,8 @@
       },
       "statement": "A regra editorial da Câmara sobre informações de bastidores e declarações em off pode ser apresentada como uma orientação geral dos seus veículos oficiais.",
       "correctAnswer": "C",
-      "explanation": "O Manual enuncia a prática como regra geral de publicação e a relaciona à condição de fonte oficial."
+      "explanation": "O Manual enuncia a prática como regra geral de publicação e a relaciona à condição de fonte oficial.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-apelido-autoadotado",
@@ -23529,7 +23532,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Nomeação e controvérsias: fontes, apelidos e termos em disputa"
       ],
@@ -23539,7 +23542,8 @@
       },
       "statement": "O Manual proíbe usar qualquer nome informal de grupo parlamentar, inclusive quando seus integrantes se identificam com a designação e ela é adequada ao contexto.",
       "correctAnswer": "E",
-      "explanation": "A orientação admite designações reconhecidas pelo próprio grupo e exige avaliar eventual carga depreciativa ou ideológica."
+      "explanation": "A orientação admite designações reconhecidas pelo próprio grupo e exige avaliar eventual carga depreciativa ou ideológica.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-controversia-dois-documentos",
@@ -23556,7 +23560,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Nomeação e controvérsias: fontes, apelidos e termos em disputa"
       ],
@@ -23566,7 +23570,8 @@
       },
       "statement": "Quando o requerimento de uma audiência e o projeto em discussão usam termos diferentes para o mesmo fato controverso, a redação pode seguir o requerimento ao descrever o evento e o texto da proposição ao descrever o projeto.",
       "correctAnswer": "C",
-      "explanation": "O Manual orienta escolher o termo de acordo com o objeto descrito e o documento que o formaliza."
+      "explanation": "O Manual orienta escolher o termo de acordo com o objeto descrito e o documento que o formaliza.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-apelido-frequente-na-imprensa",
@@ -23583,7 +23588,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Nomeação e controvérsias: fontes, apelidos e termos em disputa"
       ],
@@ -23593,7 +23598,8 @@
       },
       "statement": "A frequência de um apelido depreciativo na imprensa basta para que ele substitua o nome da proposição na voz editorial dos veículos da Câmara.",
       "correctAnswer": "E",
-      "explanation": "O uso reiterado por terceiros não elimina a carga depreciativa. A orientação exige considerar a natureza da expressão e seu contexto."
+      "explanation": "O uso reiterado por terceiros não elimina a carga depreciativa. A orientação exige considerar a natureza da expressão e seu contexto.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-frase-direta-preserva-agente",
@@ -23610,7 +23616,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Texto e estilo: seis propriedades e o significado das escolhas"
       ],
@@ -23620,7 +23626,8 @@
       },
       "statement": "Ao substituir uma expressão burocrática por um verbo de uso comum, a redação pode simplificar a frase desde que preserve quem praticou o ato e qual foi o seu efeito.",
       "correctAnswer": "C",
-      "explanation": "O vocabulário comum facilita a leitura. A precisão exige que a simplificação mantenha os elementos factuais da decisão."
+      "explanation": "O vocabulário comum facilita a leitura. A precisão exige que a simplificação mantenha os elementos factuais da decisão.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-concisao-com-excecao-relevante",
@@ -23637,7 +23644,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Texto e estilo: seis propriedades e o significado das escolhas"
       ],
@@ -23647,7 +23654,8 @@
       },
       "statement": "Para tornar uma chamada concisa, a equipe pode retirar a condição que restringe os beneficiários e descrever a medida como se fosse aplicável a todo o público.",
       "correctAnswer": "E",
-      "explanation": "A omissão amplia indevidamente o alcance da medida. A concisão preserva condições que mudam o sentido da informação."
+      "explanation": "A omissão amplia indevidamente o alcance da medida. A concisão preserva condições que mudam o sentido da informação.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-edital-e-contrato-de-comunicacao",
@@ -23664,7 +23672,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Requisitos (art. 10): condições para tornar a política executável"
       ],
@@ -23674,7 +23682,8 @@
       },
       "statement": "Em uma contratação de produção audiovisual institucional, a Câmara atende integralmente ao requisito de prever a observância da Política de Comunicação se inserir essa previsão somente no contrato, deixando-a fora do edital de licitação.",
       "correctAnswer": "E",
-      "explanation": "O art. 10, VI, prevê a exigência tanto no edital quanto no contrato."
+      "explanation": "O art. 10, VI, prevê a exigência tanto no edital quanto no contrato.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-aquisicao-versus-desenvolvimento",
@@ -23691,7 +23700,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Requisitos (art. 10): condições para tornar a política executável"
       ],
@@ -23701,7 +23710,8 @@
       },
       "statement": "Uma ferramenta atualizada desenvolvida internamente pode satisfazer o requisito tecnológico da Política de Comunicação, desde que atenda às necessidades de seus objetivos e diretrizes.",
       "correctAnswer": "C",
-      "explanation": "O art. 10, II, admite desenvolvimento ou aquisição de tecnologia atualizada."
+      "explanation": "O art. 10, II, admite desenvolvimento ou aquisição de tecnologia atualizada.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-alcance-como-afericao-incompleta",
@@ -23718,7 +23728,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Requisitos (art. 10): condições para tornar a política executável"
       ],
@@ -23728,7 +23738,8 @@
       },
       "statement": "Uma equipe que mede somente o número de postagens já demonstra o cumprimento de uma diretriz de acessibilidade, pois o volume publicado é um indicador objetivo.",
       "correctAnswer": "E",
-      "explanation": "O art. 10, IV, exige mecanismos para aferir o cumprimento das diretrizes. Volume de produção não mede se os conteúdos oferecem condições de acesso."
+      "explanation": "O art. 10, IV, exige mecanismos para aferir o cumprimento das diretrizes. Volume de produção não mede se os conteúdos oferecem condições de acesso.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-plano-bienal-implantacao",
@@ -23745,7 +23756,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Atividades, competências e implementação (arts. 13 a 16)"
       ],
@@ -23755,7 +23766,8 @@
       },
       "statement": "As ações desenvolvidas pela Secom e pela Semid, por meio da Direx, para implantar a política integram o Plano Bienal de Comunicação.",
       "correctAnswer": "C",
-      "explanation": "O art. 14, V, vincula o planejamento e as ações de implantação ao Plano Bienal."
+      "explanation": "O art. 14, V, vincula o planejamento e as ações de implantação ao Plano Bienal.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-direx-supervisao-interna",
@@ -23772,7 +23784,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Atividades, competências e implementação (arts. 13 a 16)"
       ],
@@ -23782,7 +23794,8 @@
       },
       "statement": "Uma comunicação voltada exclusivamente aos servidores fica fora da supervisão prevista no art. 14 do Ato da Mesa nº 218/2025, mesmo quando produzida por unidade abrangida pela política.",
       "correctAnswer": "E",
-      "explanation": "O inciso III inclui a comunicação com públicos internos e externos."
+      "explanation": "O inciso III inclui a comunicação com públicos internos e externos.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-producao-audiovisual-participacao",
@@ -23799,7 +23812,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Atividades, competências e implementação (arts. 13 a 16)"
       ],
@@ -23809,7 +23822,8 @@
       },
       "statement": "Uma série audiovisual que explica como participar de debates legislativos pode contribuir para o fortalecimento da imagem institucional pela finalidade de transparência e participação descrita no art. 13.",
       "correctAnswer": "C",
-      "explanation": "O inciso I associa a produção audiovisual à divulgação de informações que estimulem o debate e a participação legislativa."
+      "explanation": "O inciso I associa a produção audiovisual à divulgação de informações que estimulem o debate e a participação legislativa.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-avaliacao-apos-mudanca-de-publico",
@@ -23826,7 +23840,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Públicos e canais (arts. 8º e 9º)"
       ],
@@ -23836,7 +23850,8 @@
       },
       "statement": "A escolha inicial de um canal apoiada em pesquisa de audiência esgota a avaliação exigida pela política, ainda que mudem os hábitos do público ao qual ele se destina.",
       "correctAnswer": "E",
-      "explanation": "O art. 9º exige avaliação permanente, considerando mudanças tecnológicas e no comportamento dos usuários."
+      "explanation": "O art. 9º exige avaliação permanente, considerando mudanças tecnológicas e no comportamento dos usuários.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-segmentacao-sem-exclusao",
@@ -23853,7 +23868,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Públicos e canais (arts. 8º e 9º)"
       ],
@@ -23863,7 +23878,8 @@
       },
       "statement": "A obrigação de comunicar-se com todos os cidadãos brasileiros é compatível com a adoção de canais diferentes para públicos com características e interesses distintos.",
       "correctAnswer": "C",
-      "explanation": "O art. 8º combina a ampliação do acesso com o mapeamento de públicos e a escolha de canais adequados a cada um."
+      "explanation": "O art. 8º combina a ampliação do acesso com o mapeamento de públicos e a escolha de canais adequados a cada um.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-vantagem-sem-pagamento-em-dinheiro",
@@ -23880,7 +23896,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Vedações (arts. 11 e 12): condutas e limites"
       ],
@@ -23890,10 +23906,11 @@
       },
       "statement": "Um produtor de conteúdo institucional aceita uma hospedagem indevida oferecida por interessado na cobertura. A vedação do Ato da Mesa nº 218/2025 pode alcançar essa conduta mesmo sem transferência de dinheiro.",
       "correctAnswer": "C",
-      "explanation": "O art. 11, II, abrange pagamentos e outras vantagens indevidas."
+      "explanation": "O art. 11, II, abrange pagamentos e outras vantagens indevidas.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
-      "id": "cam-cs-dados-falsos-com-atribuicao",
+      "id": "cam-cs-comunicacao-interna-como-objetivo",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -23902,22 +23919,23 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
       "articleId": "art-91f62eac407bd583",
-      "conceptId": "dados-falsos-com-atribuicao",
-      "mechanism": "dados-falsos-com-atribuicao",
+      "conceptId": "comunicacao-interna-como-objetivo",
+      "mechanism": "comunicacao-interna-como-objetivo",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
-        "article:art-91f62eac407bd583#Vedações (arts. 11 e 12): condutas e limites"
+        "article:art-91f62eac407bd583#Objetivos (art. 6º): o que a política pretende alcançar"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
-        "section": "Vedações (arts. 11 e 12): condutas e limites"
+        "section": "Objetivos (art. 6º): o que a política pretende alcançar"
       },
-      "statement": "A equipe sabe que o número de votos informado por um entrevistado é falso. Na produção institucional, atribuir o número à fonte autoriza apresentá-lo como dado confirmado.",
-      "correctAnswer": "E",
-      "explanation": "A atribuição não torna verdadeiro o dado. O art. 11, III, veda promover divulgação de informação sabidamente inverídica."
+      "statement": "Uma série de orientações para que servidores adotem um novo fluxo de trabalho pode atender ao objetivo da política de auxiliar a gestão pela comunicação com públicos internos.",
+      "correctAnswer": "C",
+      "explanation": "O art. 6º, VIII, inclui o apoio à gestão por meio da comunicação com públicos internos.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-recorte-de-imagem-sem-mudar-sentido",
@@ -23934,7 +23952,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Vedações (arts. 11 e 12): condutas e limites"
       ],
@@ -23944,7 +23962,8 @@
       },
       "statement": "A equipe corta as margens de uma imagem para adequá-la à tela, preservando o contexto e o sentido do registro. A mera edição visual não caracteriza a conduta vedada pelo art. 11, IV.",
       "correctAnswer": "C",
-      "explanation": "O dispositivo alcança a retirada de contexto que leva à distorção do sentido. Ajustar o enquadramento sem esse efeito não satisfaz o critério."
+      "explanation": "O dispositivo alcança a retirada de contexto que leva à distorção do sentido. Ajustar o enquadramento sem esse efeito não satisfaz o critério.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-entrevista-nao-legitima-opiniao-editorial",
@@ -23961,7 +23980,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Vedações (arts. 11 e 12): condutas e limites"
       ],
@@ -23971,10 +23990,11 @@
       },
       "statement": "A ressalva para perguntas de esclarecimento permite ao apresentador de um canal oficial declarar apoio pessoal à proposta debatida, desde que, em seguida, entreviste alguém contrário a ela.",
       "correctAnswer": "E",
-      "explanation": "O art. 11 distingue esclarecer posições de exprimir opinião própria. Entrevistar um opositor não altera a natureza da declaração de apoio."
+      "explanation": "O art. 11 distingue esclarecer posições de exprimir opinião própria. Entrevistar um opositor não altera a natureza da declaração de apoio.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
-      "id": "cam-cs-link-promocao-comercial-remetida",
+      "id": "cam-cs-voz-institucional-sem-uniformizar-posicoes",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -23983,22 +24003,23 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
       "articleId": "art-91f62eac407bd583",
-      "conceptId": "link-promocao-comercial-remetida",
-      "mechanism": "link-promocao-comercial-remetida",
+      "conceptId": "voz-institucional-sem-uniformizar-posicoes",
+      "mechanism": "voz-institucional-sem-uniformizar-posicoes",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
-        "article:art-91f62eac407bd583#Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida"
+        "article:art-91f62eac407bd583#Diretrizes (art. 7º): dezoito orientações de ação"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
-        "section": "Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida"
+        "section": "Diretrizes (art. 7º): dezoito orientações de ação"
       },
-      "statement": "Uma publicação institucional remete o leitor a uma página externa cujo conteúdo constitui propaganda comercial. A referência pode ser alcançada pela vedação aplicável mesmo que o anúncio não esteja reproduzido na publicação institucional.",
-      "correctAnswer": "C",
-      "explanation": "O inciso VIII abrange referências externas que incorram em vedação do dispositivo. A propaganda comercial está contemplada no inciso IV."
+      "statement": "Para tornar a voz institucional reconhecível, a política determina que os produtos da Câmara adotem a mesma posição substantiva sobre os temas em disputa.",
+      "correctAnswer": "E",
+      "explanation": "O art. 7º, I, exige que a voz institucional reconhecível conviva com a pluralidade política de seus integrantes.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-credito-sem-licenca-de-reproducao",
@@ -24015,7 +24036,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida"
       ],
@@ -24025,7 +24046,8 @@
       },
       "statement": "Uma equipe inclui em produto institucional uma ilustração protegida cuja divulgação depende de autorização. Identificar o autor supre, por si só, a autorização que falta.",
       "correctAnswer": "E",
-      "explanation": "O inciso VI trata da autorização de divulgação. O crédito identifica a autoria, mas não equivale à autorização exigida no caso."
+      "explanation": "O inciso VI trata da autorização de divulgação. O crédito identifica a autoria, mas não equivale à autorização exigida no caso.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025 e art. 24, parágrafo único, do Ato nº 80/2019, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-proporcionalidade-sem-favorecimento",
@@ -24042,7 +24064,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Vedações (arts. 11 e 12): condutas e limites"
       ],
@@ -24052,7 +24074,8 @@
       },
       "statement": "Respeitar a proporcionalidade da representação partidária na distribuição de espaço não autoriza a equipe a endossar uma das posições políticas que divulga.",
       "correctAnswer": "C",
-      "explanation": "O art. 12 exige respeito à proporcionalidade e veda favorecimento. Cumprir uma condição não dispensa a outra."
+      "explanation": "O art. 12 exige respeito à proporcionalidade e veda favorecimento. Cumprir uma condição não dispensa a outra.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-propaganda-sindical-como-excecao",
@@ -24069,7 +24092,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida"
       ],
@@ -24079,7 +24102,8 @@
       },
       "statement": "A remissão feita pela Política de Comunicação alcança propaganda eleitoral e partidária, mas permite propaganda sindical em produtos de comunicação da Câmara por se tratar de representação profissional.",
       "correctAnswer": "E",
-      "explanation": "O inciso I inclui propaganda sindical ao lado da eleitoral e da político-partidária."
+      "explanation": "O inciso I inclui propaganda sindical ao lado da eleitoral e da político-partidária.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025 e art. 24, parágrafo único, do Ato nº 80/2019, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-assessoria-resposta-com-area-tecnica",
@@ -24096,7 +24120,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Agência, Assessoria, Portal e participação: responsabilidades distintas"
       ],
@@ -24106,7 +24130,8 @@
       },
       "statement": "Um repórter pede esclarecimento sobre um procedimento administrativo da Câmara. A Assessoria de Imprensa pode consultar a unidade técnica para formular a resposta institucional.",
       "correctAnswer": "C",
-      "explanation": "O atendimento a jornalistas inclui preparar respostas com apoio das áreas que dominam a informação solicitada."
+      "explanation": "O atendimento a jornalistas inclui preparar respostas com apoio das áreas que dominam a informação solicitada.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-assessoria-replicacao-pauta-plenario",
@@ -24123,7 +24148,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Agência, Assessoria, Portal e participação: responsabilidades distintas"
       ],
@@ -24133,7 +24158,8 @@
       },
       "statement": "Como a Agência Câmara noticia a pauta do Plenário, a Assessoria de Imprensa deve reproduzi-la em release próprio para cumprir a mesma função institucional.",
       "correctAnswer": "E",
-      "explanation": "O Manual reserva a cobertura dessas pautas aos veículos próprios e distingue essa atividade dos releases da Assessoria."
+      "explanation": "O Manual reserva a cobertura dessas pautas aos veículos próprios e distingue essa atividade dos releases da Assessoria.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-assessoria-tratamento-de-veiculos",
@@ -24150,7 +24176,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Agência, Assessoria, Portal e participação: responsabilidades distintas"
       ],
@@ -24160,7 +24186,8 @@
       },
       "statement": "A orientação de tratamento igualitário pela Assessoria de Imprensa também se aplica quando dois veículos de portes diferentes solicitam a mesma informação institucional.",
       "correctAnswer": "C",
-      "explanation": "O porte do veículo não altera o critério de tratamento no atendimento institucional."
+      "explanation": "O porte do veículo não altera o critério de tratamento no atendimento institucional.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-assessoria-voz-release-institucional",
@@ -24177,7 +24204,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Agência, Assessoria, Portal e participação: responsabilidades distintas"
       ],
@@ -24187,7 +24214,8 @@
       },
       "statement": "Para manter a voz institucional em seus releases, a Assessoria de Imprensa deve preferir a inclusão de declarações indiretas de autoridades à formulação de uma resposta em nome da instituição.",
       "correctAnswer": "E",
-      "explanation": "A orientação editorial recomenda evitar declarações diretas e indiretas nesses releases para preservar a voz institucional."
+      "explanation": "A orientação editorial recomenda evitar declarações diretas e indiretas nesses releases para preservar a voz institucional.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-comentario-sem-protocolo-de-participacao",
@@ -24204,7 +24232,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Agência, Assessoria, Portal e participação: responsabilidades distintas"
       ],
@@ -24214,7 +24242,8 @@
       },
       "statement": "O comentário em uma postagem oficial pode expressar a opinião do cidadão, mas seu eventual registro como contribuição formal depende das regras do instrumento de participação correspondente.",
       "correctAnswer": "C",
-      "explanation": "A possibilidade de interação na postagem e o reconhecimento procedimental de uma contribuição seguem critérios distintos."
+      "explanation": "A possibilidade de interação na postagem e o reconhecimento procedimental de uma contribuição seguem critérios distintos.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-manual-fonte-de-ato",
@@ -24231,7 +24260,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Arquitetura do Manual: camadas que não se confundem"
       ],
@@ -24241,7 +24270,8 @@
       },
       "statement": "Quando o Manual reproduz uma vedação instituída por ato da Mesa, a força normativa da vedação passa a decorrer da edição do Manual, independentemente do ato citado.",
       "correctAnswer": "E",
-      "explanation": "A vedação decorre da norma que a instituiu. A reprodução no Manual facilita consulta e aplicação."
+      "explanation": "A vedação decorre da norma que a instituiu. A reprodução no Manual facilita consulta e aplicação.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-camada-procedimento-e-glossario",
@@ -24258,7 +24288,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Arquitetura do Manual: camadas que não se confundem"
       ],
@@ -24268,7 +24298,8 @@
       },
       "statement": "Um glossário que explica o termo usado numa notícia e uma orientação que distribui tarefas entre equipes desempenham funções diferentes dentro do Manual.",
       "correctAnswer": "C",
-      "explanation": "O glossário esclarece vocabulário. A orientação operacional descreve a execução ou a responsabilidade por uma atividade."
+      "explanation": "O glossário esclarece vocabulário. A orientação operacional descreve a execução ou a responsabilidade por uma atividade.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-remissao-perfis-regime-autonomo",
@@ -24285,7 +24316,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4c92b7e618af305d#Arquitetura do Manual: camadas que não se confundem"
       ],
@@ -24295,7 +24326,8 @@
       },
       "statement": "A existência de uma seção de redes sociais no Manual basta para localizar ali a origem de toda regra aplicável à governança dos perfis oficiais.",
       "correctAnswer": "E",
-      "explanation": "A seção contém orientações e remissões. Regras de governança dos perfis também têm fundamento em atos próprios."
+      "explanation": "A seção contém orientações e remissões. Regras de governança dos perfis também têm fundamento em atos próprios.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Manual de Comunicação e artigo 73, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-mesmo-conteudo-em-dois-meios",
@@ -24312,7 +24344,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
       ],
@@ -24322,7 +24354,8 @@
       },
       "statement": "Se a mesma gravação é disponibilizada no portal e transmitida na rádio, o uso de dois canais exige classificar a gravação como dois conteúdos diferentes.",
       "correctAnswer": "E",
-      "explanation": "O art. 2º distingue a informação difundida do meio que a transmite. Alterar o meio não torna a gravação um conteúdo diferente."
+      "explanation": "O art. 2º distingue a informação difundida do meio que a transmite. Alterar o meio não torna a gravação um conteúdo diferente.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-projeto-no-programa-ciclico",
@@ -24339,7 +24372,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
       ],
@@ -24349,7 +24382,8 @@
       },
       "statement": "Um programa permanente pode reunir uma série semanal de boletins e um projeto de seis meses para reformular o formato desses boletins.",
       "correctAnswer": "C",
-      "explanation": "O programa admite ações permanentes ou cíclicas. A reformulação com duração definida pode constituir projeto que o integra."
+      "explanation": "O programa admite ações permanentes ou cíclicas. A reformulação com duração definida pode constituir projeto que o integra.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-prazo-do-contrato-e-duracao-do-projeto",
@@ -24366,7 +24400,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
       ],
@@ -24376,7 +24410,8 @@
       },
       "statement": "A contratação anual de um serviço de publicação basta para converter a atividade permanente de manutenção de uma página em projeto, mesmo sem duração definida para o conjunto de ações.",
       "correctAnswer": "E",
-      "explanation": "O art. 2º exige duração definida para o próprio conjunto de ações que constitui o projeto. O prazo de contratação tem objeto distinto."
+      "explanation": "O art. 2º exige duração definida para o próprio conjunto de ações que constitui o projeto. O prazo de contratação tem objeto distinto.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-acao-pontual-em-duas-frentes",
@@ -24393,7 +24428,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
       ],
@@ -24403,7 +24438,8 @@
       },
       "statement": "Uma oficina de divulgação legislativa com objetivo específico pode ser uma ação de comunicação dentro de um projeto mais amplo, mesmo que não tenha estrutura de projeto próprio.",
       "correctAnswer": "C",
-      "explanation": "A ação é a atividade voltada a um objetivo específico. O ato admite sua inclusão em projetos e programas."
+      "explanation": "A ação é a atividade voltada a um objetivo específico. O ato admite sua inclusão em projetos e programas.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-processo-vigente-adequacao",
@@ -24420,7 +24456,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
       ],
@@ -24430,7 +24466,8 @@
       },
       "statement": "Um fluxo de aprovação editorial que já existia antes da Política de Comunicação fica dispensado de adequação apenas por estar em funcionamento na data de sua publicação.",
       "correctAnswer": "E",
-      "explanation": "O art. 3º inclui expressamente os processos de trabalho vigentes das unidades abrangidas."
+      "explanation": "O art. 3º inclui expressamente os processos de trabalho vigentes das unidades abrangidas.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-reclamacao-sem-vinculo-com-camara",
@@ -24447,7 +24484,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
       ],
@@ -24457,7 +24494,8 @@
       },
       "statement": "Uma pessoa que não trabalha na Câmara pode reclamar à Ouvidoria Parlamentar de conteúdo que considere impróprio, mesmo sem alegar prejuízo individual.",
       "correctAnswer": "C",
-      "explanation": "O art. 4º abre essa via a qualquer pessoa que considere o conteúdo impróprio ou em desconformidade com a política."
+      "explanation": "O art. 4º abre essa via a qualquer pessoa que considere o conteúdo impróprio ou em desconformidade com a política.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-reclamacao-por-atendimento-ao-cidadao",
@@ -24474,7 +24512,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
       ],
@@ -24484,7 +24522,8 @@
       },
       "statement": "O serviço de atendimento ao cidadão precisa encaminhar a pessoa à Ouvidoria para que ela possa apresentar reclamação por desconformidade com a política, pois o ato só admite recebimento pela Ouvidoria.",
       "correctAnswer": "E",
-      "explanation": "O art. 4º admite reclamação à Ouvidoria Parlamentar ou aos serviços de atendimento ao cidadão."
+      "explanation": "O art. 4º admite reclamação à Ouvidoria Parlamentar ou aos serviços de atendimento ao cidadão.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-penalidades-em-normas-pertinentes",
@@ -24501,7 +24540,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-91f62eac407bd583#Disposições gerais: conceitos e aplicabilidade (arts. 1º a 4º)"
       ],
@@ -24511,7 +24550,8 @@
       },
       "statement": "Para determinar a penalidade cabível por descumprimento da Política de Comunicação, é necessário consultar a legislação e os normativos internos pertinentes.",
       "correctAnswer": "C",
-      "explanation": "O art. 3º remete às penalidades previstas nesses instrumentos."
+      "explanation": "O art. 3º remete às penalidades previstas nesses instrumentos.",
+      "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
     }
   ]
 }

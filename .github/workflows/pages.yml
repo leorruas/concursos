@@ -42,6 +42,7 @@ jobs:
           node-version: 20
       - name: Testar leitura autenticada opcional sem tokens no navegador
         run: node scripts/test-priority-sync.js && node scripts/test-progress-sync.js
+      - run: node scripts/audit-camara-reference-headings.js
       - run: node scripts/test-camara-questions.js
       - name: Auditar primeiras ocorrências de siglas (avisos)
         run: node scripts/audit-acronyms.js

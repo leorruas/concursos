@@ -1,7 +1,7 @@
 ---
 articleId: art-74d90e9fa1b3452c
 articleAliases: ["3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md"]
-title: "Esferas da LOA e dependência das empresas estatais"
+title: "Esferas da Lei Orçamentária Anual (LOA) e dependência das empresas estatais"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
@@ -12,11 +12,13 @@ aliases:
   - "Empresa estatal dependente e não dependente"
 ---
 
-# Esferas da LOA e dependência das empresas estatais
+# Esferas da Lei Orçamentária Anual (LOA) e dependência das empresas estatais
 
 ## Núcleo do conceito: três perguntas que não podem se misturar
 
 Uma despesa de construção pode ser um **investimento** na natureza econômica e, ainda assim, integrar o **orçamento fiscal** ou o **da seguridade social**. Para classificar corretamente, separe as perguntas:
+
+Duas expressões da tabela merecem definição prévia. A **Lei de Responsabilidade Fiscal (LRF)** estabelece critérios para verificar quando uma empresa controlada depende de recursos do governo. O **Grupo de Natureza da Despesa (GND)** é um nível da classificação orçamentária que identifica o tipo do gasto, como investimentos ou despesas com pessoal. Dependência financeira e natureza da despesa respondem a perguntas diferentes.
 
 | Conjunto | Pergunta | Resposta possível |
 | :--- | :--- | :--- |
@@ -42,12 +44,12 @@ Conforme o art. 165, § 5º, a LOA compreende:
 No orçamento federal, os três componentes da LOA têm **recortes diferentes**:
 
 - **Orçamento fiscal:** reúne a programação dos Poderes, órgãos, fundos e entidades públicas em geral, ressalvada a programação classificada na seguridade social. Exemplos: funcionamento de ministérios, manutenção de uma escola federal ou construção de uma estrada pela administração pública. **Pode haver despesas de investimento no orçamento fiscal.**
-- **Orçamento da seguridade social:** reúne a programação vinculada a **saúde, previdência social e assistência social** (CF, arts. 194 e 195, § 2º). Exemplos: atendimento financiado pelo SUS, benefícios previdenciários pagos pelo INSS e Benefício de Prestação Continuada (BPC). **Pode haver despesas de investimento na seguridade**, como obras de infraestrutura de saúde.
+- **Orçamento da seguridade social:** reúne a programação vinculada a **saúde, previdência social e assistência social** (arts. 194 e 195, § 2º, da Constituição Federal (CF)). Exemplos: atendimento financiado pelo Sistema Único de Saúde (SUS), benefícios previdenciários pagos pelo Instituto Nacional do Seguro Social (INSS) e Benefício de Prestação Continuada (BPC). **Pode haver despesas de investimento na seguridade**, como obras de infraestrutura de saúde.
 - **Orçamento de investimento das empresas estatais:** contempla investimentos de empresas em que a União possua, direta ou indiretamente, **mais da metade do capital votante**, considerando as regras de classificação das estatais. Exemplo: aquisição de equipamentos para ampliar a produção de uma empresa estatal **não dependente**. Esse orçamento não corresponde a todas as despesas operacionais da empresa.
 
 #### Empresa controlada × estatal dependente × estatal não dependente
 
-São **duas perguntas independentes**: **quem controla o capital com direito a voto?** e **para que a empresa recebe recursos do ente controlador?** A Lei Complementar nº 101/2000, **Lei de Responsabilidade Fiscal (LRF)**, art. 2º, separa esses conceitos:
+São **duas perguntas independentes**: **quem controla o capital com direito a voto?** e **para que a empresa recebe recursos do ente controlador?** O art. 2º da Lei Complementar nº 101/2000 separa esses conceitos:
 
 | Conceito | Critério jurídico | Consequência para a LOA federal |
 | :--- | :--- | :--- |
@@ -59,11 +61,11 @@ São **duas perguntas independentes**: **quem controla o capital com direito a v
 
 **Exemplo comparativo:** duas empresas têm **80% do capital votante controlado pela União**. A empresa A recebe transferência da União para pagar salários: **controlada e dependente**. A empresa B paga pessoal e custeio com receitas de sua atividade e recebe apenas aporte destinado ao aumento de participação acionária: **controlada e não dependente**, considerando esses fatos. Não se exige que uma estatal não dependente seja lucrativa em todos os exercícios nem que nunca tenha recebido qualquer recurso público: importa a **natureza do recurso e sua destinação legal**.
 
-**Fronteira de prova (CGU, Cebraspe C/E):** “maioria do capital votante” é o critério de **controle**, não o critério de **dependência**. Na LOA, a classificação por esfera deve considerar também o regime orçamentário da empresa. A legislação pode prever situações de transição entre regimes, que exigem consulta às regras do exercício. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Esfera × natureza da despesa|classificação por esfera]] e [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario#Planejamento fiscal: PPA, LDO, LOA e LRF|abrangência da LRF]].
+**Fronteira de prova (Cebraspe, itens de Certo ou Errado (C/E)):** “maioria do capital votante” é o critério de **controle**, não o critério de **dependência**. Na LOA, a classificação por esfera deve considerar também o regime orçamentário da empresa. A legislação pode prever situações de transição entre regimes, que exigem consulta às regras do exercício. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Esfera × natureza da despesa|classificação por esfera]] e [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario#Planejamento fiscal: PPA, LDO, LOA e LRF|abrangência da LRF]].
 
 **Mesmo tipo de gasto, esferas distintas:** construir uma escola pela administração pública pertence ao **fiscal**; construir uma unidade de saúde com programação da seguridade pertence à **seguridade**; ampliar instalações produtivas de estatal não dependente pertence ao **investimento**. As três despesas podem ser investimentos no sentido da **natureza da despesa**, mas são classificadas em esferas orçamentárias diferentes.
 
-O Manual Técnico do Orçamento (MTO) distingue as esferas **F (fiscal, código 10)**, **S (seguridade, código 20)** e **I (investimento, código 30)**. “Investimento” pode significar tanto **categoria de despesa** quanto **orçamento institucional de estatais**: a banca pode explorar essa dupla acepção.
+O Manual Técnico de Orçamento (MTO) distingue as esferas **F (fiscal, código 10)**, **S (seguridade, código 20)** e **I (investimento, código 30)**. “Investimento” pode significar tanto **categoria de despesa** quanto **orçamento institucional de estatais**: a banca pode explorar essa dupla acepção.
 
 Não interpretar o “orçamento de investimento” como o conjunto de todas as despesas de investimento de toda a administração. O critério constitucional aqui é **institucional**, relativo às empresas em que a União detém o controle votante. Da mesma forma, a LOA possui **três orçamentos**, e isso não significa três leis orçamentárias anuais independentes.
 
@@ -109,7 +111,7 @@ O caso envolve a obrigação de **universalização postal**: atender também lo
 
 ## Relações e fontes
 
-- [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]: planejamento e função da lei anual.
+- [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e LOA]]: planejamento e função da lei anual.
 - [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa]]: esfera × natureza/GND e caso de construção.
 - [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|Responsabilidade fiscal]]: conceito legal de estatal dependente.
 - Constituição Federal, art. 165, § 5º: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm

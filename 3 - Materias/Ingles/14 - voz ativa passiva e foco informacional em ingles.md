@@ -192,7 +192,7 @@ Verbos acompanhados de preposição fixa (*phrasal verbs* e *prepositional verbs
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** O item descreve com perfeita propriedade a função discursiva da voz passiva com omissão de agente (*agentless passive*): priorizar o fato institucional (a divulgação dos sumários) e assegurar o tom impessoal característico da comunicação pública, dispensando a identificação dos servidores que efetuaram a transmissão.
+**Comentário:** O item descreve com perfeita propriedade a função discursiva da voz passiva com omissão de agente (*agentless passive*): colocar em primeiro plano os sumários e sua divulgação, deixando o agente não identificado. A frase permite observar esse **efeito de foco informacional**, sem demonstrar a intenção psicológica de quem a redigiu ou garantir, por si só, impessoalidade institucional.
 
 ---
 

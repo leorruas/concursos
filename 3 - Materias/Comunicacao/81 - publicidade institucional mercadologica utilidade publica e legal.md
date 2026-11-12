@@ -5,7 +5,7 @@ title: "Publicidade institucional, mercadológica, de utilidade pública e legal
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Publicidade institucional, mercadológica, de utilidade pública e legal
@@ -141,6 +141,16 @@ Uma classificação útil também ajuda a definir que resultado avaliar, sem con
 **Item 3.** Por serem espécies de publicidade previstas em decreto que organiza a comunicação do Executivo federal, a publicidade institucional, a legal e a de utilidade pública estão submetidas, na Câmara dos Deputados, automaticamente a todas as mesmas normas operacionais do Sicom.
 
 **Gabarito: Errado.** O decreto organiza o **Poder Executivo federal**. A Câmara pertence ao Legislativo e possui disciplina própria, sem prejuízo de normas gerais ou constitucionais aplicáveis. A transposição indevida de competência é a armadilha.
+
+## Conferência da taxonomia Secom e delimitação do Executivo (11/11/2026)
+
+A página oficial da **Secom/PR, “Ações de publicidade”**, apresenta, sob o **Decreto nº 6.555/2008**, quatro espécies para o âmbito do **Poder Executivo federal**: **institucional, de utilidade pública, legal e mercadológica**. Segundo as definições ali publicadas, a institucional divulga atuação, serviços e resultados dos órgãos; a de utilidade pública trabalha **tema social e comando de ação claro** voltado a benefício individual ou coletivo; a legal divulga informações cuja publicação é **exigida por lei ou regulamento**; e a mercadológica volta-se à promoção de bens ou serviços em contexto de mercado. O simples fato de uma peça estar disponível em canal governamental **não define sua espécie**.
+
+**Fronteira de competência:** a Secom/PR coordena o **Sicom do Executivo**, conforme material oficial do próprio órgão. A Câmara integra o **Poder Legislativo** e possui o **Ato da Mesa nº 218/2025** e outras regras próprias. As quatro espécies são úteis como **comparação teórica**, mas não permitem aplicar automaticamente à Câmara os procedimentos administrativos, o controle da Secom/PR ou todas as regras de execução de campanhas do Sicom. A **Lei nº 12.232/2010** disciplina contratos de serviços de publicidade em seu campo de aplicação; sua definição de objeto não torna cada peça pública um anúncio comercial.
+
+**Reexame dos três C/E inéditos preexistentes:** item **1 Certo**, a definição de utilidade pública ressalta comando de ação e benefício social; item **2 Errado**, a existência da espécie mercadológica refuta proibição universal a toda entidade estatal; item **3 Errado**, regras operacionais do Sicom não incidem automaticamente sobre a Câmara. Os três gabaritos permanecem, sem acréscimo de item real da Cebraspe.
+
+**Fontes oficiais:** [Secom/PR: ações de publicidade](https://www.gov.br/secom/pt-br/assuntos/publicidade/agentes-de-veiculacao-de-publicidade/acoes-de-publicidade), [Secom/PR: publicidade no governo federal](https://www.gov.br/secom/pt-br/assuntos/publicidade/agentes-de-veiculacao-de-publicidade/publicidade-no-governo-federal), [Lei nº 12.232/2010](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.pdf), [Ato nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html). **Limite:** o cotejo não certifica a incidência de cada hipótese em órgãos específicos ou todas as alterações infralegais da Secom. **Status: Corrigido no recorte de classificação e competências; certificação integral pendente.**
 
 ## Relações e heurísticas
 

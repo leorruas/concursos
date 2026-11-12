@@ -132,6 +132,30 @@ Compreende processos estruturados para mitigar riscos e assegurar execução ord
 > [!TIP]
 > **LEC = Liderança, Estratégia, Controle.** Se a banca trocar um deles por “execução”, “estrutura” ou “eficiência”, confira a literalidade do Decreto.
 
+## Caso progressivo integrado: liderança, estratégia e controle (CAM-AP-013 e CAM-AP-014)
+
+**Problema:** uma instituição legislativa precisa ampliar o acesso a documentos, respeitando sua competência e os limites legais de transparência e proteção de dados. O exemplo é **hipotético**, e não descreve mecanismo interno efetivamente adotado pela Câmara.
+
+**Primeira decisão, liderança:** dirigentes designam responsáveis, estabelecem regras de integridade, competências da equipe e dever de justificar decisões. Isso cria condições para decidir e prestar contas. **Segunda decisão, estratégia:** a instituição define o resultado esperado (por exemplo, reduzir barreiras de acesso), os públicos prioritários, os recursos e os riscos, e escolhe indicadores de cumprimento. **Terceira decisão, controle:** acompanha entregas, investiga falhas, verifica resultados, riscos e reclamações, presta contas e corrige rumos. Os três mecanismos orientam o mesmo problema e **não constituem três etapas cronológicas que jamais se sobreponham**.
+
+**Mudança de variável:** o portal recebe mais acessos, mas cidadãos ainda não compreendem a informação. Houve alteração em indicador de uso, sem prova de valor público ou da efetividade do serviço; a governança deve reavaliar objetivos e formas de monitorar resultados. **Nova mudança:** testes apontam exclusão de pessoas com deficiência. A estratégia precisa considerar direitos e equidade, a liderança estabelecer responsabilidade pela resposta e o controle verificar correções.
+
+**Fronteira governança × gestão:** a equipe operacional pode planejar tarefas, aplicar testes e monitorar indicadores; a alta administração pode executar atividades administrativas. A diferença entre governança e gestão é de **funções e responsabilidades predominantes**, não de proibição absoluta de planejamento na gestão ou execução por dirigentes. A gestão também planeja, organiza, monitora e melhora processos.
+
+**Contraexemplo:** reunir uma equipe para registrar quantidade de tarefas finalizadas, sem objetivos públicos, responsáveis por decisões, riscos ou avaliação de resultados, **não demonstra isoladamente** funcionamento dos três mecanismos de governança.
+
+**Alcance jurídico:** os princípios e mecanismos do **Decreto nº 9.203/2017** descrevem política de governança da administração pública federal direta, autárquica e fundacional **do Poder Executivo federal**. A redação do art. 1º não faz do decreto, por si só, regulamento interno da Câmara dos Deputados. Para a Câmara, citar o decreto como **fonte conceitual e conteúdo cobrado no edital** deve ser distinguido de comprovar a aplicação de uma norma própria do Legislativo. O [Referencial Básico de Governança do TCU, 3ª edição](https://pesquisa.apps.tcu.gov.br/documento/norma/1273%252F2015/%2520/score%2520desc/1), orienta boas práticas para organizações públicas e outros entes jurisdicionados; suas práticas não são automaticamente idênticas a comandos literais do decreto.
+
+### Questões inéditas C/E: governança aplicada
+
+**1.** No modelo do Decreto nº 9.203/2017, liderança, estratégia e controle são mecanismos que podem operar sobre uma mesma decisão institucional, sem que correspondam necessariamente a etapas estanques. **Gabarito: Certo.** A separação analítica dos mecanismos não impõe cronologia excludente.
+
+**2.** Por regulamentar a governança da administração pública federal, o Decreto nº 9.203/2017 constitui automaticamente o regulamento interno da Câmara dos Deputados. **Gabarito: Errado.** O art. 1º delimita o Executivo federal; aplicação específica ao Legislativo demanda fundamento próprio.
+
+**3.** A gestão pública deixa de exercer planejamento ou monitoramento quando uma instituição estabelece mecanismos formais de governança. **Gabarito: Errado.** Gestão conserva funções de planejar, executar, acompanhar e melhorar operações; governança direciona, avalia e monitora a gestão.
+
+Itens autorais didáticos, não recuperados de prova oficial Cebraspe. Referências: [Decreto 9.203/2017, arts. 1º–5º](https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.pdf) e [TCU, Referencial Básico de Governança](https://portal.tcu.gov.br/imprensa/noticias/tcu-publica-a-3%C2%AA-edicao-do-referencial-basico-de-governanca-organizacional).
+
 ## Gestão de riscos e controles internos
 
 O Decreto trata gestão de riscos como processo permanente estabelecido, direcionado e monitorado pela alta administração. O art. 17 exige integração da gestão de riscos ao planejamento estratégico e aos processos, projetos e atividades relevantes para os objetivos institucionais.

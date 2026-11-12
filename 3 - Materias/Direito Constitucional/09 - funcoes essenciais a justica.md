@@ -158,3 +158,8 @@ A independência dessas funções conecta-se a [[3 - Materias/Direito Constituci
 **Lacuna editorial objetiva:** **zero questões C/E e zero casos progressivos** no DC09 original. Não houve gabaritos a revisar, nem foi criado ou contabilizado qualquer exercício, para preservar a identidade e a rastreabilidade do inventário histórico. A certificação é **normativa do texto ampliado, com ressalva pedagógica expressa**; a preparação para itens Cebraspe e aplicação a casos concretos exigirá complemento próprio caso o planejamento da matéria o determine.
 
 **Limites:** certificação jurídico-editorial do recorte constitucional em 11/11/2026, sem pretensão de esgotar as leis orgânicas de cada carreira, jurisprudência específica, aprendizagem do estudante, teste visual ou confirmação de publicação no GitHub Pages.
+
+
+## Atualização pedagógica: implementação de exercícios
+
+**Estado após os reparos desta rodada (11/11/2026):** a ressalva histórica de **zero exercícios** referia-se à versão anterior à implementação. Foram adicionados **três itens C/E inéditos comentados** e um caso progressivo ao artigo, sem suprimir o texto da certificação normativa anterior. Os itens são autorais e não representam questões oficiais ou respostas do estudante. A conferência é dirigida aos fundamentos constitucionais citados, sem declaração de homologação exaustiva do artigo ou de publicação visual.

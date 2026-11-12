@@ -18,7 +18,7 @@ updated: 2026-11-07
 
 A pergunta central para a prova é dupla: **como se distribuem as funções** e **como se impede o exercício sem controle de uma competência**. Independência institucional, especialização funcional, controles recíprocos e colaboração procedimental são dimensões diferentes, embora relacionadas.
 
-A [[3 - Materias/Estado e Democracia/02 - democracia representacao e accountability|nota 02]] introduz controles horizontais; a [[3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa|nota 20, CAM-CP-011]] diferencia participação e deliberação. Esta unidade **CAM-CP-012** trata da arquitetura de Poderes; a seguinte, CAM-CP-013, aprofundará **coalizões, agenda e negociação Executivo-Legislativo**.
+A [[3 - Materias/Estado e Democracia/02 - democracia representacao e accountability|Democracia, representação e accountability]] introduz controles horizontais; a [[3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa|Democracia representativa, participativa e deliberativa]] diferencia participação e deliberação. Esta unidade **[[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|Separação de Poderes: funções, freios e contrapesos]]** trata da arquitetura de Poderes; a seguinte, [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]], aprofundará **coalizões, agenda e negociação Executivo-Legislativo**.
 
 ## Origem teórica e diferenças entre autores
 

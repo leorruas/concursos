@@ -35005,16 +35005,16 @@
       "cognitiveOperation": "reconhecimento",
       "reviewStatus": "validada",
       "theoryRefs": [
-        "article:art-4c1041281ca44ee5#Aprovação"
+        "article:art-4c1041281ca44ee5#1. Emenda constitucional: mudar a regra fundamental"
       ],
       "source": {
         "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
-        "section": "Aprovação"
+        "section": "1. Emenda constitucional: mudar a regra fundamental"
       },
       "statement": "A proposta de emenda constitucional precisa ser aprovada em dois turnos em cada Casa do Congresso, por três quintos dos votos dos respectivos membros.",
       "correctAnswer": "C",
       "explanation": "O art. 60, § 2º, fixa dois turnos e quórum de três quintos em cada Casa.",
-      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / Aprovação; CI obrigatório antes de integrar."
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / 1. Emenda constitucional: mudar a regra fundamental; CI obrigatório antes de integrar."
     },
     {
       "id": "cam-const-competencia-comum-exclusiva-uniao",
@@ -35565,16 +35565,16 @@
       "cognitiveOperation": "reconhecimento",
       "reviewStatus": "validada",
       "theoryRefs": [
-        "article:art-4c1041281ca44ee5#Espécies do processo legislativo — art. 59"
+        "article:art-4c1041281ca44ee5#A tipologia completa: sete instrumentos, sete funções"
       ],
       "source": {
         "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
-        "section": "Espécies do processo legislativo — art. 59"
+        "section": "A tipologia completa: sete instrumentos, sete funções"
       },
       "statement": "Medidas provisórias e leis delegadas constam das espécies normativas previstas no art. 59 da Constituição Federal.",
       "correctAnswer": "C",
       "explanation": "O art. 59 inclui medidas provisórias, leis delegadas e outras espécies do processo legislativo.",
-      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / Espécies do processo legislativo — art. 59; CI obrigatório antes de integrar."
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / A tipologia completa: sete instrumentos, sete funções; CI obrigatório antes de integrar."
     },
     {
       "id": "cam-const-presidente-naturalizado",
@@ -35705,16 +35705,16 @@
       "cognitiveOperation": "análise",
       "reviewStatus": "validada",
       "theoryRefs": [
-        "article:art-4c1041281ca44ee5#Promulgação"
+        "article:art-4c1041281ca44ee5#1. Emenda constitucional: mudar a regra fundamental"
       ],
       "source": {
         "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
-        "section": "Promulgação"
+        "section": "1. Emenda constitucional: mudar a regra fundamental"
       },
       "statement": "Uma emenda constitucional aprovada nos dois turnos em cada Casa depende de sanção presidencial para produzir efeitos, segundo o processo legislativo constitucional.",
       "correctAnswer": "E",
       "explanation": "Emenda constitucional é promulgada pelas Mesas da Câmara e do Senado, não submetida a sanção presidencial.",
-      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / Promulgação; CI obrigatório antes de integrar."
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / 1. Emenda constitucional: mudar a regra fundamental; CI obrigatório antes de integrar."
     },
     {
       "id": "cam-const-quorum-complementar-maioria-absoluta",

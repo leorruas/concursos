@@ -11402,6 +11402,276 @@
       "statement": "Se uma publicação tem tiragem de 2.000 exemplares, com 300 retidos em estoque e 100 inutilizados antes da entrega, os 2.000 exemplares foram distribuídos.",
       "correctAnswer": "E",
       "explanation": "A tiragem conta exemplares produzidos. Considerando as duas exclusões, no máximo 1.600 exemplares foram distribuídos."
+    },
+    {
+      "id": "cam-di-corpo-e-altura-x",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / design gráfico",
+      "articleId": "art-2d49c7a6e81b305f",
+      "conceptId": "corpo-e-altura-x",
+      "mechanism": "corpo-e-altura-x",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-2d49c7a6e81b305f#Tipografia: anatomia, medidas e combinação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md",
+        "section": "Tipografia: anatomia, medidas e combinação"
+      },
+      "statement": "Duas fontes especificadas no mesmo corpo têm necessariamente a mesma altura visual das letras minúsculas.",
+      "correctAnswer": "E",
+      "explanation": "A altura-x varia entre famílias tipográficas de mesmo corpo."
+    },
+    {
+      "id": "cam-di-gramatura-e-espessura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção gráfica",
+      "articleId": "art-58a3d91e6c427bf0",
+      "conceptId": "gramatura-e-espessura",
+      "mechanism": "gramatura-e-espessura",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-58a3d91e6c427bf0#Papel e suportes: gramatura, espessura e acabamento superficial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md",
+        "section": "Papel e suportes: gramatura, espessura e acabamento superficial"
+      },
+      "statement": "Dois papéis de 120 gramas por metro quadrado têm necessariamente a mesma espessura.",
+      "correctAnswer": "E",
+      "explanation": "A gramatura mede massa por área. Estrutura e compactação podem produzir espessuras diferentes."
+    },
+    {
+      "id": "cam-di-prova-com-acabamento-distinto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção gráfica",
+      "articleId": "art-58a3d91e6c427bf0",
+      "conceptId": "prova-com-acabamento-distinto",
+      "mechanism": "prova-com-acabamento-distinto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-58a3d91e6c427bf0#Inspeção, provas e controle de qualidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md",
+        "section": "Inspeção, provas e controle de qualidade"
+      },
+      "statement": "Uma prova que verifica texto e paginação pode ser adequada a essa finalidade mesmo quando não reproduz o acabamento do exemplar final.",
+      "correctAnswer": "C",
+      "explanation": "A adequação da prova depende do que se pretende verificar. O acabamento exige evidência própria."
+    },
+    {
+      "id": "cam-di-controle-sem-foco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção digital",
+      "articleId": "art-d64c8e1b705a392f",
+      "conceptId": "controle-sem-foco",
+      "mechanism": "controle-sem-foco",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d64c8e1b705a392f#Operação por teclado, foco, alvo e interações"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md",
+        "section": "Operação por teclado, foco, alvo e interações"
+      },
+      "statement": "Um menu cujos comandos funcionam por clique permite operação por teclado mesmo que seus controles não recebam foco nem respondam a atalhos.",
+      "correctAnswer": "E",
+      "explanation": "A interação por ponteiro não demonstra acesso pelo teclado. Os comandos precisam ter um mecanismo operável por esse meio."
+    },
+    {
+      "id": "cam-di-foco-e-balanco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / rádio",
+      "articleId": "art-5d8b17c3e946a20f",
+      "conceptId": "foco-e-balanco",
+      "mechanism": "foco-e-balanco",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5d8b17c3e946a20f#Captação: exposição, foco, balanço de branco e movimento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md",
+        "section": "Captação: exposição, foco, balanço de branco e movimento"
+      },
+      "statement": "Ajustar o balanço de branco recupera os detalhes de um texto que ficou fora de foco durante a gravação.",
+      "correctAnswer": "E",
+      "explanation": "O balanço de branco corrige a interpretação das cores da iluminação. A perda de nitidez por foco tem outra causa."
+    },
+    {
+      "id": "cam-di-tabela-para-consulta-exata",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / projeto gráfico",
+      "articleId": "art-8c3f1b6d29e704a5",
+      "conceptId": "tabela-para-consulta-exata",
+      "mechanism": "tabela-para-consulta-exata",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8c3f1b6d29e704a5#Imagem, tabela, gráfico e infografia no projeto"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md",
+        "section": "Imagem, tabela, gráfico e infografia no projeto"
+      },
+      "statement": "Se a tarefa principal do leitor é consultar valores exatos de cada categoria, uma tabela bem rotulada pode ser mais adequada que um gráfico sem rótulos numéricos.",
+      "correctAnswer": "C",
+      "explanation": "A tabela favorece a consulta pontual. O gráfico sem valores explícitos prioriza a comparação visual."
+    },
+    {
+      "id": "cam-di-montagem-apos-travamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / audiovisual",
+      "articleId": "art-e38b75d219c064af",
+      "conceptId": "montagem-apos-travamento",
+      "mechanism": "montagem-apos-travamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e38b75d219c064af#Pós-produção: ingest, seleção, montagem, picture lock e finalização"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md",
+        "section": "Pós-produção: ingest, seleção, montagem, picture lock e finalização"
+      },
+      "statement": "Alterar a duração de uma cena após o travamento da montagem dispensa verificar a sincronização das legendas já produzidas para a versão anterior.",
+      "correctAnswer": "E",
+      "explanation": "A edição pode deslocar as marcas de tempo. As legendas precisam ser verificadas contra a nova montagem."
+    },
+    {
+      "id": "cam-di-entrega-editorial-e-compreensao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
+      "articleId": "art-6b3e9d125a704fc8",
+      "conceptId": "entrega-editorial-e-compreensao",
+      "mechanism": "entrega-editorial-e-compreensao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6b3e9d125a704fc8#Objetivo editorial, objetivo institucional e entregas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md",
+        "section": "Objetivo editorial, objetivo institucional e entregas"
+      },
+      "statement": "Entregar quatro edições previstas comprova que os leitores passaram a compreender melhor o tema tratado.",
+      "correctAnswer": "E",
+      "explanation": "A entrega mede execução editorial. A compreensão exige evidência sobre os leitores."
+    },
+    {
+      "id": "cam-di-download-sem-leitura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
+      "articleId": "art-7e42b19c5a603fd8",
+      "conceptId": "download-sem-leitura",
+      "mechanism": "download-sem-leitura",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7e42b19c5a603fd8#Distribuição digital: eventos, pessoas e conteúdo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md",
+        "section": "Distribuição digital: eventos, pessoas e conteúdo"
+      },
+      "statement": "O mesmo leitor pode baixar a publicação duas vezes sem lê-la.",
+      "correctAnswer": "C",
+      "explanation": "Downloads contam eventos de obtenção do arquivo. A leitura exige outra evidência."
+    },
+    {
+      "id": "cam-di-enquete-de-leitores-vs-nao-leitores",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
+      "articleId": "art-7e42b19c5a603fd8",
+      "conceptId": "enquete-de-leitores-vs-nao-leitores",
+      "mechanism": "enquete-de-leitores-vs-nao-leitores",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7e42b19c5a603fd8#Pesquisa de leitores: perguntas e métodos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md",
+        "section": "Pesquisa de leitores: perguntas e métodos"
+      },
+      "statement": "Uma enquete no fim de uma publicação pode identificar dificuldades de quem chegou até ali, mas exclui quem abandonou antes de encontrar o formulário.",
+      "correctAnswer": "C",
+      "explanation": "A localização do formulário condiciona quem pode responder. A pesquisa precisa alcançar quem abandonou para investigar esse grupo."
     }
   ]
 }

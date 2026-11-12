@@ -175,7 +175,7 @@ Em 2025, a FGV cobrou briefing em situação de assessoria pública e também su
 - **Item 2.** Em campanhas de utilidade pública, a ausência de receita financeira mensurável impede qualquer avaliação de resultados. **Errado.** Indicadores de acesso, compreensão ou comportamento podem ser apropriados ao objetivo, sem serem convertidos artificialmente em ROI.
 - **Item 3.** O pré-teste de uma peça ocorre antes de sua veiculação, enquanto o pós-teste pode verificar percepção ou compreensão após sua exposição. **Certo.** Os dois instrumentos respondem a etapas distintas do trabalho.
 
-**Conexões de revisão:** [[3 - Materias/Comunicacao/79 - teorias da publicidade conceitos modelos e aplicacao|Fundamentos da publicidade]]; [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|Atendimento e briefing]]. **Classificação:** itens inéditos de treino, sem validação de incidência histórica Cebraspe.
+**Conexões de revisão:** [[3 - Materias/Comunicacao/79 - publicidade e propaganda conceitos funcoes e limites|Fundamentos da publicidade]]; [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|Atendimento e briefing]]. **Classificação:** itens inéditos de treino, sem validação de incidência histórica Cebraspe.
 
 ## Cotejo autoral e avaliação: PESO e AMEC (11/11/2026)
 

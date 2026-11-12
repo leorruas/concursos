@@ -226,7 +226,7 @@ O núcleo é uma ação em curso (*is reviewing*), com agente (*the research tea
 
 **Gabarito: Errado.** A ausência do agente pode servir a vários propósitos discursivos; a intenção de ocultar não é demonstrável apenas pela escolha da voz.
 
-**Fonte de consulta:** [Cambridge Dictionary, passive voice](https://dictionary.cambridge.org/grammar/british-grammar/passive).
+**Fonte de consulta:** [Cambridge Dictionary, passive voice](https://dictionary.cambridge.org/grammar/british-grammar/passive-voice).
 
 ---
 

@@ -14,7 +14,7 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 006 | Divulgação Institucional | Edital 14.2.4, item 6: ética na comunicação | 40 | 2/10/21/7 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 007 | Divulgação Institucional | Edital 14.2.4, item 7: gestão de equipes | 40 | 2/15/20/3 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 008 | Divulgação Institucional | Edital 14.2.4, item 8: legislação profissional | 40 | 4/26/10/0 | 40 | 40 | 0 | Integridade e sessões v3 |
-| 009 | Comunicação Social | Edital 14.2.4, item 1: teorias da comunicação | 40 | 3/1/32/4 | 0 | 0 | 0 | Integridade, triagem e sessões v3 |
+| 009 | Comunicação Social | Edital 14.2.4, item 1: teorias da comunicação | 40 | 3/13/22/2 | 40 | 0 | 0 | Integridade, triagem e sessões v3 |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
@@ -49,4 +49,4 @@ Vinte e duas questões geradas sobre a Lei nº 12.232/2010, com indicação dos 
 
 ## Lote 009 em revisão
 
-Quarenta questões geradas sobre modelos, teorias da comunicação, midiatização, plataformização e integridade, vinculadas aos artigos 18, 26, 31, 32, 34 e 37 a 47. Conferir gabaritos e mecanismos e recalibrar a concentração inicial na faixa difícil antes da liberação.
+Quarenta questões geradas sobre modelos, teorias da comunicação, midiatização, plataformização e integridade, vinculadas aos artigos 18, 26, 31, 32, 34 e 37 a 47. Revisão editorial e recalibração concluídas. A triagem a 0,22 não sinalizou pares do lote. Verificar a seleção antes da publicação.

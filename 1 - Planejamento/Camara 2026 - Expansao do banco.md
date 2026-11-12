@@ -48,4 +48,4 @@ Vinte e duas questões geradas sobre a Lei nº 12.232/2010, com indicação dos 
 
 ## Lote 009 em elaboração
 
-Quatro questões geradas sobre modelos e teorias da comunicação, vinculadas aos artigos 26, 31 e 47. Ampliar a cobertura do item 1 de Comunicação Social com escolas, opinião pública, midiatização, plataformização e integridade da informação.
+Dez questões geradas sobre modelos, teorias da comunicação, midiatização, plataformização e integridade, vinculadas aos artigos 26, 31 e 44 a 47. Ampliar a cobertura do item 1 de Comunicação Social com escolas, opinião pública, midiatização, plataformização e integridade da informação.

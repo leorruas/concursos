@@ -15620,6 +15620,168 @@
       "statement": "Se uma cobertura faz mais pessoas citarem um tema como prioritário, esse resultado pode ser observado mesmo quando a proporção de pessoas favoráveis à proposta permanece igual.",
       "correctAnswer": "C",
       "explanation": "A importância atribuída ao tema pode mudar sem alteração na direção da opinião sobre a proposta."
+    },
+    {
+      "id": "cam-cs-mudanca-da-rotina-de-deliberacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / midiatização",
+      "articleId": "art-42edbd08bca563f1",
+      "conceptId": "mudanca-da-rotina-de-deliberacao",
+      "mechanism": "mudanca-da-rotina-de-deliberacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-42edbd08bca563f1#Hjarvard: a abordagem institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas.md",
+        "section": "Hjarvard: a abordagem institucional"
+      },
+      "statement": "Se um colegiado passa a antecipar decisões para adequá-las aos horários dos noticiários, a análise da midiatização pode examinar como critérios dos meios passam a organizar uma rotina do próprio colegiado.",
+      "correctAnswer": "C",
+      "explanation": "A pergunta trata da adaptação de uma prática institucional a condições dos meios. Transmitir decisões já tomadas seria um fenômeno diferente."
+    },
+    {
+      "id": "cam-cs-mesma-tecnologia-praticas-distintas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / midiatização",
+      "articleId": "art-42edbd08bca563f1",
+      "conceptId": "mesma-tecnologia-praticas-distintas",
+      "mechanism": "mesma-tecnologia-praticas-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-42edbd08bca563f1#Mudanças sociais sem determinismo tecnológico"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas.md",
+        "section": "Mudanças sociais sem determinismo tecnológico"
+      },
+      "statement": "Se dois órgãos adotam o mesmo sistema de transmissão, a perspectiva da midiatização exige prever mudanças idênticas em suas rotinas, ainda que tenham regras e públicos diferentes.",
+      "correctAnswer": "E",
+      "explanation": "A incorporação de meios depende de condições institucionais e sociais. A tecnologia compartilhada não determina, sozinha, a mesma transformação."
+    },
+    {
+      "id": "cam-cs-producao-revisada-com-dados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / plataformização",
+      "articleId": "art-1fc842a6b30d59e7",
+      "conceptId": "producao-revisada-com-dados",
+      "mechanism": "producao-revisada-com-dados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1fc842a6b30d59e7#Nieborg e Poell (2018): produção cultural contingente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md",
+        "section": "Nieborg e Poell (2018): produção cultural contingente"
+      },
+      "statement": "Uma equipe que adapta continuamente títulos e durações em resposta a dados de distribuição exemplifica uma forma de produção cultural contingente às condições da plataforma.",
+      "correctAnswer": "C",
+      "explanation": "Os dados e mecanismos de distribuição passam a orientar versões sucessivas da produção. O conteúdo fica sujeito a reconfiguração."
+    },
+    {
+      "id": "cam-cs-selecao-editorial-e-distribuicao-programada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / plataformização",
+      "articleId": "art-1fc842a6b30d59e7",
+      "conceptId": "selecao-editorial-e-distribuicao-programada",
+      "mechanism": "selecao-editorial-e-distribuicao-programada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1fc842a6b30d59e7#Relação com midiatização, mediação e seleção editorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md",
+        "section": "Relação com midiatização, mediação e seleção editorial"
+      },
+      "statement": "A decisão editorial de publicar uma notícia e a ordenação automatizada de sua visibilidade representam necessariamente a mesma escolha, porque recaem sobre o mesmo texto.",
+      "correctAnswer": "E",
+      "explanation": "Publicar é uma decisão da equipe. A ordenação da visibilidade ocorre na distribuição e pode obedecer a critérios distintos."
+    },
+    {
+      "id": "cam-cs-checagem-com-correcao-de-circulacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / integridade da informação",
+      "articleId": "art-704e9cd41f60a2b8",
+      "conceptId": "checagem-com-correcao-de-circulacao",
+      "mechanism": "checagem-com-correcao-de-circulacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-704e9cd41f60a2b8#Prevenção, checagem, correção e avaliação: finalidades diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md",
+        "section": "Prevenção, checagem, correção e avaliação: finalidades diferentes"
+      },
+      "statement": "Uma checagem que identifica o erro em uma mensagem e uma intervenção que faz a correção chegar aos grupos expostos podem ser avaliadas por indicadores diferentes.",
+      "correctAnswer": "C",
+      "explanation": "A primeira avaliação verifica a sustentação da checagem. A segunda observa distribuição e alcance da correção entre os públicos relevantes."
+    },
+    {
+      "id": "cam-cs-integridade-e-direitos-na-avaliacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / integridade da informação",
+      "articleId": "art-704e9cd41f60a2b8",
+      "conceptId": "integridade-e-direitos-na-avaliacao",
+      "mechanism": "integridade-e-direitos-na-avaliacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-704e9cd41f60a2b8#Quais perguntas são diferentes?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md",
+        "section": "Quais perguntas são diferentes?"
+      },
+      "statement": "Uma intervenção que reduz a circulação de alegações falsas pode ser considerada suficiente para a integridade da informação mesmo que também bloqueie sistematicamente conteúdo verdadeiro de interesse público.",
+      "correctAnswer": "E",
+      "explanation": "Integridade envolve a qualidade do ambiente informacional e o acesso a informação confiável. A perda sistemática de acesso a conteúdo verdadeiro também precisa ser avaliada."
     }
   ]
 }

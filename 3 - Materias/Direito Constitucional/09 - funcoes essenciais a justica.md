@@ -146,7 +146,7 @@ A independência dessas funções conecta-se a [[3 - Materias/Direito Constituci
 ## Fontes
 
 - Constituição Federal, arts. 127 a 135.
-- [[00 inbox/12-06-2026|Inbox de 12/06/2026]].
+- registro de ingestão arquivado.
 
 
 ## Certificação normativa delimitada e lacuna pedagógica: 11/11/2026

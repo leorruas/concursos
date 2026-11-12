@@ -347,7 +347,7 @@ O estudo dialoga com [[3 - Materias/Orcamento Publico/13 - tramitacao legislativ
 
 ---
 **Fontes Brutas:**
-- [[11-06-2026|Inbox - 09-06-2026]]
+
 
 
 ## Certificação normativa delimitada: 11/11/2026

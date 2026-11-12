@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>Meus resultados · concursos</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{font-size:16px} .results-layout{max-width:1030px;margin:auto;padding:38px 22px 90px}
+    .results-header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;margin-bottom:28px}
+    .results-nav{display:flex;gap:15px;align-items:center;flex-wrap:wrap}
+    .results-nav a,.results-link{color:var(--accent-blue);text-decoration:none}
+    .results-nav a:hover,.results-link:hover{text-decoration:underline}
+    h1{color:var(--text);font-size:clamp(2rem,6vw,3.8rem);line-height:1.1;margin:16px 0}
+    h2{color:var(--text);font-size:1.3rem;margin:0 0 12px}
+    h3{color:var(--text);font-size:1rem;margin:0}
+    .results-caption,.results-explain{color:var(--muted);font-size:.9rem;line-height:1.55}
+    .results-controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:20px 0 25px}
+    select,button,.results-button{background:var(--surface-raised);color:var(--text);border:1px solid color-mix(in srgb,var(--text) 24%,transparent);border-radius:8px;padding:10px 13px;font:inherit}
+    button,.results-button{cursor:pointer}.results-button{display:inline-block;text-decoration:none}.results-button:hover,button:hover{border-color:var(--accent-blue)}
+    .results-button.primary{background:var(--accent-blue);color:var(--bg);font-weight:700;border-color:var(--accent-blue)}
+    .results-status{min-height:1.4em;color:var(--muted)}
+    .results-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:20px 0 38px}
+    .results-stat{background:var(--surface);border:1px solid color-mix(in srgb,var(--text) 13%,transparent);border-radius:10px;padding:17px}
+    .results-stat strong{color:var(--text);display:block;font-size:1.8rem;font-variant-numeric:tabular-nums;margin-top:8px}
+    .results-section{margin:34px 0}.results-card{padding:16px 18px;background:var(--surface);border-radius:9px;border:1px solid color-mix(in srgb,var(--text) 15%,transparent);margin:9px 0}
+    details>summary{cursor:pointer;color:var(--text);font-weight:600}
+    details>summary::marker{color:var(--accent-blue)}
+    .results-card summary{padding:4px 0}.results-question{border-top:1px solid color-mix(in srgb,var(--text) 13%,transparent);margin-top:12px;padding-top:12px}
+    .results-question p{line-height:1.55;font-size:.92rem;margin:9px 0}
+    .results-meta{color:var(--muted);font-size:.82rem;margin-top:5px}
+    .results-card-top{display:flex;gap:12px;align-items:flex-start;justify-content:space-between}
+    .results-score{font-size:1rem;font-weight:700;color:var(--accent-blue);white-space:nowrap}
+    .results-concept{display:flex;gap:12px;justify-content:space-between;padding:10px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 12%,transparent)}
+    .results-concept small{display:block;font-size:.8rem;color:var(--muted);margin-top:4px}
+    .results-table{width:100%;border-collapse:collapse;font-size:.88rem}
+    .results-table th,.results-table td{padding:10px 8px;border-bottom:1px solid color-mix(in srgb,var(--text) 12%,transparent);text-align:left}
+    .results-table th{color:var(--muted);font-weight:500}.results-table td{color:var(--text)}
+    .results-privacy{border-left:3px solid var(--accent-blue);padding-left:13px}
+    [hidden]{display:none!important}
+    @media(max-width:760px){.results-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.results-layout{padding:25px 14px 70px}.results-stat strong{font-size:1.45rem}}
+  </style>
+</head>
+<body>
+  <main class="results-layout">
+    <header class="results-header">
+      <a class="results-link" href="https://leorruas.github.io/concursos/">concursos</a>
+      <nav class="results-nav" aria-label="Ferramentas de estudo">
+        <a href="https://leorruas.github.io/concursos/">Biblioteca</a>
+        <a href="https://concurso-estudo.leoruas.workers.dev/flashcards.html">Flashcards</a>
+      </nav>
+    </header>
+    <h1>Meus resultados</h1>
+    <p class="results-explain">Histórico de respostas, erros recorrentes e artigos para reler. A prioridade é uma recomendação de estudo baseada nas tentativas registradas.</p>
+    <div class="results-controls">
+      <label for="results-contest">Concurso</label>
+      <select id="results-contest">
+        <option value="camara-2026">Câmara dos Deputados</option>
+        <option value="cgu-2026">CGU</option>
+        <option value="dataprev-2026">Dataprev</option>
+      </select>
+      <a id="results-login" class="results-button primary" href="https://concurso-estudo.leoruas.workers.dev/v1/login/github?return=%2Fresultados.html" hidden>Entrar com GitHub</a>
+      <button id="results-logout" type="button" hidden>Sair da conta</button>
+    </div>
+    <p class="results-status" id="results-status" role="status" aria-live="polite">Verificando acesso privado…</p>
+    <div id="results-content" hidden>
+      <div class="results-grid" id="results-stats"></div>
+      <section class="results-section" aria-labelledby="title-reading">
+        <h2 id="title-reading">Artigos para ler primeiro</h2>
+        <p class="results-caption">Ordenados pelos conceitos com maior recorrência de erros e insegurança. Abra um artigo para rever suas questões.</p>
+        <div id="results-articles"></div>
+      </section>
+      <section class="results-section" aria-labelledby="title-concepts">
+        <h2 id="title-concepts">Conceitos que mais precisam de revisão</h2>
+        <div id="results-concepts"></div>
+      </section>
+      <section class="results-section" aria-labelledby="title-subjects">
+        <h2 id="title-subjects">Resultados por matéria</h2>
+        <div style="overflow-x:auto"><table class="results-table"><thead><tr><th>Matéria</th><th>Respondidas</th><th>Acertos</th><th>Erros</th><th>Acerto</th></tr></thead><tbody id="results-subjects"></tbody></table></div>
+      </section>
+      <p class="results-caption results-privacy">Os registros individuais ficam no repositório privado. Nesta página, os dados são carregados apenas após autenticação, sem serem incluídos no GitHub Pages público. O histórico parcial não comprova domínio ou retenção.</p>
+    </div>
+  </main>
+  <script src="web/13-results-ui.js" defer></script>
+</body>
+</html>

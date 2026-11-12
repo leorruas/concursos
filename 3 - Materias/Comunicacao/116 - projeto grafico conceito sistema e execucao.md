@@ -67,7 +67,7 @@ Uma direção como “clareza e transparência” é vaga enquanto não produz c
 
 Um sistema tipográfico define **papéis**: título de seção, intertítulo, corpo, legenda, nota, número de tabela, chamada, citação e elementos de navegação. Para cada papel, podem ser documentados família, peso, corpo, entrelinha, cor, espaçamento, alinhamento e regras de quebra.
 
-**Família tipográfica** identifica conjunto de desenhos relacionados; **estilo** indica variações como itálico; **peso** indica variação de espessura; **corpo** é tamanho nominal; **entrelinha** determina distância entre linhas; **tracking** altera espaçamento geral entre caracteres de trecho; **kerning** ajusta pares específicos. A nota 112 desenvolve essa taxonomia.
+**Família tipográfica** identifica conjunto de desenhos relacionados; **estilo** indica variações como itálico; **peso** indica variação de espessura; **corpo** é tamanho nominal; **entrelinha** determina distância entre linhas; **tracking** altera espaçamento geral entre caracteres de trecho; **kerning** ajusta pares específicos. O artigo [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade|Design gráfico: hierarquia, composição e legibilidade]] desenvolve essa taxonomia.
 
 **Hierarquia de estilos** deve preservar diferenças perceptivas e semânticas. Aplicar título de corpo 24 à palavra “Anexo” e corpo 18 à seção principal não é necessariamente errado por causa dos números, mas o projeto deve deixar claro qual elemento organiza qual conteúdo. **Tamanho não é único indicador de importância.**
 

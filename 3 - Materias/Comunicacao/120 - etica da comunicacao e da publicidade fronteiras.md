@@ -97,9 +97,9 @@ A [orientação da Secretaria de Comunicação Social sobre identificação de c
 
 O **Código de Ética dos Jornalistas Brasileiros**, estudado na [[3 - Materias/Comunicacao/11 - etica em comunicacao|Ética em comunicação]], enfatiza direito à informação, interesse público, veracidade, apuração, sigilo de fonte e responsabilidades específicas. Esse regime não equivale ao conjunto de regras aplicáveis à publicidade de consumo.
 
-**Sigilo da fonte:** pode proteger identidade de informante no exercício jornalístico; **não é licença para encobrir anunciante de conteúdo pago**. **Métodos ocultos de apuração:** a nota 11 registra excepcionalidade sob condições do código jornalístico; essas condições não podem ser reaproveitadas como autorização genérica de publicidade disfarçada.
+**Sigilo da fonte:** pode proteger identidade de informante no exercício jornalístico; **não é licença para encobrir anunciante de conteúdo pago**. **Métodos ocultos de apuração:** [[3 - Materias/Comunicacao/11 - etica em comunicacao|Ética em comunicação]] registra excepcionalidade sob condições do código jornalístico; essas condições não podem ser reaproveitadas como autorização genérica de publicidade disfarçada.
 
-**Conflito de interesses:** um jornalista que também atua como assessor de organização pode encontrar incompatibilidade para cobri-la no veículo, conforme regra profissional detalhada na nota 11. Em publicidade, relações entre anunciante, agência e veículo possuem outro modelo de responsabilidade e exigem identificação do vínculo comercial pertinente.
+**Conflito de interesses:** um jornalista que também atua como assessor de organização pode encontrar incompatibilidade para cobri-la no veículo, conforme regra profissional detalhada em [[3 - Materias/Comunicacao/11 - etica em comunicacao|Ética em comunicação]]. Em publicidade, relações entre anunciante, agência e veículo possuem outro modelo de responsabilidade e exigem identificação do vínculo comercial pertinente.
 
 **Interesse público × interesse do público:** o primeiro se refere à relevância coletiva e ao direito à informação; o segundo pode representar curiosidade e preferência de audiência. Muitos cliques não transformam conteúdo promocional em interesse público.
 
@@ -211,7 +211,7 @@ O Cebraspe pode aproveitar expressões próximas como **“Código de Ética”*
 
 ## Heurísticas
 
-Comece por **identificar a fonte normativa**. Se a questão falar em **publicidade identificável**, procure CDC art. 36 e CONAR art. 28. Se falar em **indução a erro por omissão**, procure CDC art. 37, § 1º. Se mencionar **discriminação e exploração de criança**, examine abusividade no art. 37, § 2º. Se falar em **promoção pessoal de autoridade**, procure Constituição art. 37, § 1º. Se falar em **pluralismo e imparcialidade da Câmara**, procure Ato da Mesa nº 218/2025. Se falar em **sigilo da fonte e método oculto de apuração**, consulte o Código de Ética dos Jornalistas na nota 11.
+Comece por **identificar a fonte normativa**. Se a questão falar em **publicidade identificável**, procure CDC art. 36 e CONAR art. 28. Se falar em **indução a erro por omissão**, procure CDC art. 37, § 1º. Se mencionar **discriminação e exploração de criança**, examine abusividade no art. 37, § 2º. Se falar em **promoção pessoal de autoridade**, procure Constituição art. 37, § 1º. Se falar em **pluralismo e imparcialidade da Câmara**, procure Ato da Mesa nº 218/2025. Se falar em **sigilo da fonte e método oculto de apuração**, consulte o Código de Ética dos Jornalistas em [[3 - Materias/Comunicacao/11 - etica em comunicacao|Ética em comunicação]].
 
 ## Referências
 

@@ -75,7 +75,7 @@ Na comunicação radiofônica, a mensagem é organizada principalmente pelo **te
 
 **A-roll** geralmente designa material principal da narrativa, como entrevista ou fala estruturante. **B-roll** reúne imagens complementares ou de cobertura usadas para contextualizar, demonstrar e apoiar montagem. **B-roll não é material necessariamente inferior** e não precisa ser gravado depois do A-roll.
 
-**Entrevista ou sonora:** fala de fonte. **Off:** narração que acompanha imagens sem o narrador aparecer naquele momento. **Passagem:** presença do repórter em imagem. **Cabeça e pé:** introdução e complemento/encerramento no contexto telejornalístico, segundo nota 24. **Inserções gráficas** podem mostrar nome, cargo, números, fontes ou instruções; sua função informacional não deve ser substituída por decoração.
+**Entrevista ou sonora:** fala de fonte. **Off:** narração que acompanha imagens sem o narrador aparecer naquele momento. **Passagem:** presença do repórter em imagem. **Cabeça e pé:** introdução e complemento/encerramento no contexto telejornalístico, conforme [[3 - Materias/Comunicacao/24 - radiojornalismo telejornalismo e linguagem audiovisual|🆕 Radiojornalismo, telejornalismo e linguagem audiovisual]]. **Inserções gráficas** podem mostrar nome, cargo, números, fontes ou instruções; sua função informacional não deve ser substituída por decoração.
 
 **Exemplo institucional:** o vídeo afirma “o formulário fica disponível na página de audiências” enquanto mostra uma tela genérica que não contém o formulário. A mensagem verbal pode ser verdadeira, mas a relação áudio-imagem é pouco informativa. Uma demonstração com captura do caminho real, revisada para a versão vigente do portal, oferece evidência visual mais útil.
 

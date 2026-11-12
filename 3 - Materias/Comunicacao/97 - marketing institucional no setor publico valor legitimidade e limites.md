@@ -36,7 +36,7 @@ A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing i
 
 **Comunicação institucional e publicidade institucional** podem se sobrepor, mas a primeira é categoria mais ampla de comunicação, enquanto a segunda se refere a uma modalidade ou prática publicitária. Publicidade institucional não deve ser confundida com **publicidade legal**, cuja divulgação atende obrigação normativa específica.
 
-**Comunicação governamental** pode ter usos acadêmicos diferentes. A Câmara é órgão do Poder Legislativo: não cabe transportar automaticamente os procedimentos do Sistema de Comunicação de Governo do Poder Executivo Federal (Sicom) para a sua estrutura. O modelo de quatro modalidades do Executivo é referência de estudo devidamente delimitada, como explicado na nota 81.
+**Comunicação governamental** pode ter usos acadêmicos diferentes. A Câmara é órgão do Poder Legislativo: não cabe transportar automaticamente os procedimentos do Sistema de Comunicação de Governo do Poder Executivo Federal (Sicom) para a sua estrutura. O modelo de quatro modalidades do Executivo é referência de estudo devidamente delimitada, como explicado em [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|Publicidade institucional, mercadológica, de utilidade pública e legal]].
 
 ## Direito à informação, transparência e valor público
 

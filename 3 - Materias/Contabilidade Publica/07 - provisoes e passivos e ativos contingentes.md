@@ -89,7 +89,7 @@ Na **responsabilidade solidária**, a parte da obrigação que se espera ser liq
 
 ## Casos especiais e limites de alcance
 
-**Perdas operacionais futuras:** não geram provisão apenas por estarem projetadas, sem obrigação presente decorrente de evento passado (itens 73 e 74). Podem exigir exame da recuperabilidade de ativos, assunto da nota 08, mas não se confundem com provisão.
+**Perdas operacionais futuras:** não geram provisão apenas por estarem projetadas, sem obrigação presente decorrente de evento passado (itens 73 e 74). Podem exigir exame da recuperabilidade de ativos, assunto desenvolvido em [[3 - Materias/Contabilidade Publica/08 - depreciacao reducao ao valor recuperavel e ativos|Depreciação, amortização e redução ao valor recuperável de ativos]], mas não se confundem com provisão.
 
 **Contratos a executar:** em geral estão fora do alcance dessa norma quando não houve cumprimento ou ambas as partes cumpriram proporcionalmente, **salvo contrato oneroso**. Um contrato é oneroso quando custos inevitáveis de cumprimento superam os benefícios econômicos ou potencial de serviços esperados, observados os critérios de alcance (itens 75 a 81). A mera existência de contrato público não configura provisão de todo valor futuro.
 

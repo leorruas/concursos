@@ -11132,6 +11132,276 @@
       "statement": "Usar um gráfico vetorial pode preservar a nitidez das linhas em diferentes escalas, mas a equipe ainda precisa garantir que os dados do gráfico possam ser consultados de forma acessível.",
       "correctAnswer": "C",
       "explanation": "A propriedade vetorial favorece a escala visual. Ela não torna os dados automaticamente recuperáveis por leitores de tela ou por outras formas de acesso."
+    },
+    {
+      "id": "cam-di-referencia-oral-de-prazo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / rádio",
+      "articleId": "art-5d8b17c3e946a20f",
+      "conceptId": "referencia-oral-de-prazo",
+      "mechanism": "referencia-oral-de-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5d8b17c3e946a20f#Rádio: escrever para ouvir uma vez"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md",
+        "section": "Rádio: escrever para ouvir uma vez"
+      },
+      "statement": "Num boletim de rádio gravado para ser reprisado durante a semana, dizer “as inscrições terminam na sexta-feira, dia 14” reduz a dependência do momento de escuta em comparação com dizer “as inscrições terminam amanhã”.",
+      "correctAnswer": "C",
+      "explanation": "A data explícita continua interpretável quando muda o dia da transmissão. O advérbio relativo pode mudar de referente entre as reprises."
+    },
+    {
+      "id": "cam-di-informacao-divergente-em-trilhas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / TV",
+      "articleId": "art-5d8b17c3e946a20f",
+      "conceptId": "informacao-divergente-em-trilhas",
+      "mechanism": "informacao-divergente-em-trilhas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5d8b17c3e946a20f#Televisão e vídeo: relação entre quadro, movimento, som e montagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md",
+        "section": "Televisão e vídeo: relação entre quadro, movimento, som e montagem"
+      },
+      "statement": "Se o locutor anuncia 18h e o letreiro exibe 19h, o vídeo mantém a precisão do horário desde que as duas informações sejam individualmente legíveis e audíveis.",
+      "correctAnswer": "E",
+      "explanation": "O conflito de conteúdo permanece mesmo quando as duas trilhas têm boa qualidade técnica. É preciso confirmar o horário e alinhar o texto falado e o visual."
+    },
+    {
+      "id": "cam-di-reenquadramento-e-referencia-espacial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / redes sociais",
+      "articleId": "art-5d8b17c3e946a20f",
+      "conceptId": "reenquadramento-e-referencia-espacial",
+      "mechanism": "reenquadramento-e-referencia-espacial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5d8b17c3e946a20f#Redes sociais: adaptação editorial e condições de circulação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md",
+        "section": "Redes sociais: adaptação editorial e condições de circulação"
+      },
+      "statement": "Ao adaptar para vídeo vertical uma cena que apresenta dois gráficos lado a lado, recortar apenas o centro pode invalidar uma fala que pede comparar os dois gráficos.",
+      "correctAnswer": "C",
+      "explanation": "O reenquadramento pode retirar a evidência visual que sustenta a comparação. É preciso preservar os gráficos ou reformular a sequência e a fala."
+    },
+    {
+      "id": "cam-di-referencia-com-secao-e-pagina",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / projeto gráfico",
+      "articleId": "art-8c3f1b6d29e704a5",
+      "conceptId": "referencia-com-secao-e-pagina",
+      "mechanism": "referencia-com-secao-e-pagina",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8c3f1b6d29e704a5#Sistema de navegação editorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md",
+        "section": "Sistema de navegação editorial"
+      },
+      "statement": "Uma publicação extensa pode combinar rótulos recorrentes de seção com um sumário que remete às páginas, apoiando tanto a orientação local quanto a busca direta.",
+      "correctAnswer": "C",
+      "explanation": "O rótulo localiza o leitor na seção corrente. O sumário permite localizar e acessar outras partes."
+    },
+    {
+      "id": "cam-di-prototipo-com-caso-limite",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / projeto gráfico",
+      "articleId": "art-8c3f1b6d29e704a5",
+      "conceptId": "prototipo-com-caso-limite",
+      "mechanism": "prototipo-com-caso-limite",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8c3f1b6d29e704a5#Execução: do protótipo ao conteúdo completo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md",
+        "section": "Execução: do protótipo ao conteúdo completo"
+      },
+      "statement": "Ajustar o projeto gráfico apenas com títulos curtos de exemplo basta para verificar que ele acomoda todos os títulos reais, ainda que o conteúdo final inclua títulos de extensão muito maior.",
+      "correctAnswer": "E",
+      "explanation": "O protótipo precisa testar variações reais e casos extremos. Títulos longos podem mudar quebra, espaçamento e hierarquia."
+    },
+    {
+      "id": "cam-di-correcao-no-mestre-e-propagacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / audiovisual",
+      "articleId": "art-e38b75d219c064af",
+      "conceptId": "correcao-no-mestre-e-propagacao",
+      "mechanism": "correcao-no-mestre-e-propagacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e38b75d219c064af#Gestão de versões: mestre, derivados e identidade do arquivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md",
+        "section": "Gestão de versões: mestre, derivados e identidade do arquivo"
+      },
+      "statement": "Um vídeo mestre e duas versões reduzidas foram exportados antes de a data de um evento ser corrigida no projeto. Corrigir o projeto e gerar apenas um novo mestre deixa pendente a correção dos derivados que já circularam.",
+      "correctAnswer": "C",
+      "explanation": "A alteração na origem não modifica os arquivos já exportados. É preciso identificar os derivados afetados, gerar versões corrigidas e substituir as publicações quando possível."
+    },
+    {
+      "id": "cam-di-espaco-para-descricao-no-roteiro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / audiovisual",
+      "articleId": "art-e38b75d219c064af",
+      "conceptId": "espaco-para-descricao-no-roteiro",
+      "mechanism": "espaco-para-descricao-no-roteiro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e38b75d219c064af#Plano de acessibilidade: requisito antes da filmagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md",
+        "section": "Plano de acessibilidade: requisito antes da filmagem"
+      },
+      "statement": "Se um roteiro usa ações silenciosas essenciais para explicar um procedimento, planejar pausas na locução antes da gravação pode facilitar a inserção posterior de audiodescrição.",
+      "correctAnswer": "C",
+      "explanation": "A audiodescrição precisa de espaço sonoro para relatar ações essenciais sem sobrepor informações faladas relevantes."
+    },
+    {
+      "id": "cam-di-pauta-versus-criterio-permanente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
+      "articleId": "art-6b3e9d125a704fc8",
+      "conceptId": "pauta-versus-criterio-permanente",
+      "mechanism": "pauta-versus-criterio-permanente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6b3e9d125a704fc8#Linha editorial, política editorial, projeto editorial e pauta"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md",
+        "section": "Linha editorial, política editorial, projeto editorial e pauta"
+      },
+      "statement": "Escolher uma entrevista sobre a próxima audiência define por si só a linha editorial de toda a publicação.",
+      "correctAnswer": "E",
+      "explanation": "A entrevista é uma decisão de pauta. A linha editorial orienta de modo mais duradouro a seleção e o tratamento dos conteúdos."
+    },
+    {
+      "id": "cam-di-edicao-fechada-e-atualizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
+      "articleId": "art-6b3e9d125a704fc8",
+      "conceptId": "edicao-fechada-e-atualizacao",
+      "mechanism": "edicao-fechada-e-atualizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6b3e9d125a704fc8#Periodicidade, fechamento, edição e atualização"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md",
+        "section": "Periodicidade, fechamento, edição e atualização"
+      },
+      "statement": "Se uma publicação fechada foi distribuída em arquivo e sua página complementar recebe uma correção, é necessário identificar a edição corrigida para que o leitor possa distinguir o arquivo anterior da atualização.",
+      "correctAnswer": "C",
+      "explanation": "A página e o arquivo podem continuar em circulação simultânea. Identificar a versão permite saber que informação foi revista e em qual edição."
+    },
+    {
+      "id": "cam-di-tiragem-com-estoque-e-perdas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
+      "articleId": "art-7e42b19c5a603fd8",
+      "conceptId": "tiragem-com-estoque-e-perdas",
+      "mechanism": "tiragem-com-estoque-e-perdas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7e42b19c5a603fd8#Tiragem, circulação e distribuição impressa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md",
+        "section": "Tiragem, circulação e distribuição impressa"
+      },
+      "statement": "Se uma publicação tem tiragem de 2.000 exemplares, com 300 retidos em estoque e 100 inutilizados antes da entrega, os 2.000 exemplares foram distribuídos.",
+      "correctAnswer": "E",
+      "explanation": "A tiragem conta exemplares produzidos. Considerando as duas exclusões, no máximo 1.600 exemplares foram distribuídos."
     }
   ]
 }

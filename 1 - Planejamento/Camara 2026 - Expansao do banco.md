@@ -28,4 +28,4 @@ Quarenta questões geradas sobre marca e branding, item 4 de Divulgação Instit
 
 ## Lote 005 em elaboração
 
-Oito questões geradas para o item 5, vinculadas aos artigos 112 a 114. Os próximos itens cobrem rádio, TV, redes sociais, projeto gráfico, audiovisual e publicações nos artigos 115 a 119.
+Dezoito questões geradas para o item 5, vinculadas aos artigos 112 a 119. Faltam 22 itens para completar o lote. Priorizar casos que integrem projeto, execução, acessibilidade e avaliação da publicação.

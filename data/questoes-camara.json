@@ -14312,6 +14312,122 @@
       "correctAnswer": "C",
       "explanation": "A execução paralela pode reduzir o prazo de análise. A exigência de convergência permanece e a data depende do parecer que terminar por último.",
       "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Caso progressivo: reorganizar uma campanha da Câmara do artigo 121. Lote 007: comparação com exercícios do artigo 121, triagem lexical e testes de sessão v3 e seleção."
+    },
+    {
+      "id": "cam-di-pesquisa-com-bloco-estranho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-b08f53d19c4a726e",
+      "conceptId": "pesquisa-com-bloco-estranho",
+      "mechanism": "pesquisa-com-bloco-estranho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b08f53d19c4a726e#Art. 3º: limites das pesquisas e avaliações"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade.md",
+        "section": "Art. 3º: limites das pesquisas e avaliações",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 3º, parágrafo único"
+      },
+      "statement": "Uma pesquisa contratada para avaliar uma campanha pode incluir um bloco sobre tema sem relação com a ação nem com o objeto contratual, desde que as entrevistas já estejam pagas.",
+      "correctAnswer": "E",
+      "explanation": "A economia de coleta não torna o tema pertinente. O art. 3º veda matéria estranha nas pesquisas e avaliações."
+    },
+    {
+      "id": "cam-di-selecao-interna-com-metodologia-publicada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-b08f53d19c4a726e",
+      "conceptId": "selecao-interna-com-metodologia-publicada",
+      "mechanism": "selecao-interna-com-metodologia-publicada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b08f53d19c4a726e#Arts. 2º, §§ 3º e 4º: uma ou mais agências"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade.md",
+        "section": "Arts. 2º, §§ 3º e 4º: uma ou mais agências",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 2º, §§ 3º e 4º"
+      },
+      "statement": "Se o objeto de publicidade foi adjudicado a duas agências sem divisão em itens ou contas, o órgão deve instituir seleção interna para a execução das ações e publicar a metodologia aprovada na imprensa oficial.",
+      "correctAnswer": "C",
+      "explanation": "A adjudicação múltipla nessa hipótese exige seleção interna. A metodologia deve ser aprovada pela administração e publicada."
+    },
+    {
+      "id": "cam-di-guarda-contada-da-extincao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "guarda-contada-da-extincao",
+      "mechanism": "guarda-contada-da-extincao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Arts. 16 e 17: transparência e guarda do acervo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Arts. 16 e 17: transparência e guarda do acervo",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 17"
+      },
+      "statement": "Uma agência pode eliminar o acervo de uma peça após cinco anos de sua produção, ainda que o contrato tenha sido extinto há apenas um ano.",
+      "correctAnswer": "E",
+      "explanation": "O prazo mínimo conta da extinção do contrato. O tempo decorrido desde a produção da peça não substitui esse marco."
+    },
+    {
+      "id": "cam-di-comprovacao-de-insercao-e-valor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "comprovacao-de-insercao-e-valor",
+      "mechanism": "comprovacao-de-insercao-e-valor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 15: comprovação de mídia e vantagens que pertencem ao contratante"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 15: comprovação de mídia e vantagens que pertencem ao contratante",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 15, caput"
+      },
+      "statement": "Um relatório independente de checagem de veiculação substitui, por si só, a documentação sobre valores devidos ao veículo e descontos negociados.",
+      "correctAnswer": "E",
+      "explanation": "A checagem verifica a veiculação. O caput também exige documentação dos valores, preços, descontos e pedidos de inserção."
     }
   ]
 }

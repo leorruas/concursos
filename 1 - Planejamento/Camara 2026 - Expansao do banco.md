@@ -40,3 +40,7 @@ Quarenta questões geradas para ética na comunicação, item 6 do edital, vincu
 ## Lote 007 validado
 
 Quarenta questões geradas sobre gestão de equipes publicitárias, item 7 do edital, vinculadas ao artigo 121. Cotejo editorial concluído no artigo 121. Três itens reformulados e três níveis de dificuldade recalibrados. A triagem a 0,22 não sinalizou pares envolvendo o lote 007. O seletor retornou os 40 itens pelo item 7 do edital. Próximo lote: legislação profissional, item 8.
+
+## Lote 008 em elaboração
+
+Quatro questões geradas sobre a Lei nº 12.232/2010, com indicação dos dispositivos e dos artigos 123 e 124. Ampliar o lote com o Código Brasileiro de Autorregulamentação Publicitária e comparar os mecanismos com os itens já publicados.

@@ -94,6 +94,24 @@ O [caderno CESPE/UnB de Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/con
 
 **Cuidado de transferência:** o vocabulário utilizado no item 71 se refere ao cenário do exame histórico, de 2011. Na mídia digital atual, **frequência média** é usualmente contatos/impressões pertinentes divididos por unidades distintas alcançadas, sob regras de medição; “intensidade” não é denominador universal de GRP, CPM ou frequência. A unidade, o recorte e o método devem ser identificados antes de resolver cálculos. **Nenhum dos três itens didáticos preexistentes foi alterado** nesta passagem; esta nota registra cobrança real, não prova de validade de todos os métodos da wiki.
 
+## Oficina quantitativa de mídia: deduplicação, GRP e eficiência (11/11/2026)
+
+**Caso hipotético:** duas plataformas divulgarão orientações de uma audiência para um público-alvo de **200.000 pessoas**. A plataforma A alcança **80.000**, a B **60.000**, e **20.000** receberam mensagens em ambas. O alcance distinto combinado é **80.000 + 60.000 − 20.000 = 120.000 pessoas**, ou **60% do universo**. Somar 140.000 como alcance líquido sem deduplicar incluiria as 20.000 pessoas em duplicidade. Se as duas plataformas reportarem, sob definições compatíveis, **360.000 impressões válidas para esse universo e período**, a frequência média será **360.000 ÷ 120.000 = 3**. Os **GRPs = 60 × 3 = 180 pontos**, não 180% das pessoas.
+
+**Mídia e custos:** com investimento hipotético de **R$ 18.000**, **CPM = 18.000 ÷ 360.000 × 1.000 = R$ 50 por mil impressões**, e **CPP = 18.000 ÷ 180 = R$ 100 por ponto de audiência**. Esses cálculos supõem que alcance e impressões se referem a **unidades compatíveis, público idêntico, período alinhado e deduplicação confiável**; se cada plataforma contabilizar contas com métodos diferentes e sem identificação entre sistemas, os valores conjuntos não são diretamente observados. O número de inserções e o custo não demonstram compreensão de orientação legislativa nem participação qualificada.
+
+**Fronteiras para decisão:** um plano pode conseguir 180 GRPs com distribuição concentrada em poucos cidadãos ou mais espalhada, a depender da frequência. O planejamento precisa escolher entre cobertura de pessoas, repetição, prazo, custo e condições de acesso ao serviço. **Alcance efetivo 3+** designa pessoas com pelo menos três contatos sob critério operacional declarado; não é sinônimo de frequência média igual a três. Se o edital pedir preço por exposição, o denominador é impressão; por ponto de audiência, o denominador é GRP. [IAB Brasil: CPP](https://glossarios.iabbrasil.com.br/glossario/cpp-custo-por-ponto/).
+
+**Item 4, inédito.** Duas plataformas alcançam, respectivamente, oitenta mil e sessenta mil pessoas, com vinte mil pessoas em comum. O alcance combinado é de cento e vinte mil pessoas distintas, desde que a sobreposição tenha sido medida corretamente.
+
+**Gabarito: Certo.** É a inclusão-exclusão: 80.000 + 60.000 − 20.000 = 120.000.
+
+**Item 5, inédito.** Se a frequência média da campanha for três, todas as pessoas alcançadas terão recebido exatamente três exposições, sendo desnecessário conhecer a distribuição dos contatos para estimar alcance efetivo 3+.
+
+**Gabarito: Errado.** Média não caracteriza cada indivíduo. Para alcance 3+ é necessária informação sobre a **distribuição de frequências**. Itens 4 e 5 são exercícios autorais, não prova histórica.
+
+**Relações:** [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|meios e veículos]], [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|avaliação]] e [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|briefing]]. Fontes: [IAB Brasil, glossário de CPP](https://glossarios.iabbrasil.com.br/glossario/cpp-custo-por-ponto/) e referências MRC/IAB já citadas no artigo. Os valores são simulados e não se referem ao alcance real da Câmara.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|CAM-DI-011]]: meios. [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Planejamento de mídia]]: contexto. [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|Objetivos]]: indicadores e metas. [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Segmentação]]: universo de referência.

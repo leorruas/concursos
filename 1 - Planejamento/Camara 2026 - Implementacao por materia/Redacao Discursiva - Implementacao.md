@@ -71,6 +71,9 @@ Os `articleId` e `articleAliases` antigos foram preservados. O hub, o índice e 
 
 **Fonte oficial novamente conferida:** [página do concurso e retificações da Câmara](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades), [Edital nº 1/2026, itens 9.1 e 9.8](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades), inclusive leitura visual do PDF, e [TCE-MG 2026, padrão definitivo das questões 1 e 2](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F38183E8ACE5B775CF445F24D52F5AB2E256333F594FE1078FD73B84B535690C.pdf), com inspeção visual da página da questão 2. Os exemplos novos são **didáticos** e não representam padrões, temas previstos ou notas oficiais.
 
+
+**Validação estática após a continuidade:** os seis artigos operacionais 04–09 foram relidos do GitHub. Cada um possui `articleId` e `articleAliases` próprios, consta no `index.md` e possui exatamente uma ocorrência no `articleIds` da matéria `redacao` no concurso `camara-2026`. O catálogo possui **nove artigos** na matéria (três originais e seis operacionais), sem IDs repetidos. As três oficinas CAM-DIS-006, 007 e 008 aparecem como cabeçalhos únicos no artigo 06 e estão ligadas pelo hub. **Isso é checagem de integridade estática, não execução de testes nem confirmação do site.**
+
 **Próximas verificações:** executar testes do repositório, conferir o Pages, aferir manualmente o espaço de linha e buscar pares completos de caderno oficial + espelho definitivo. A tentativa de abrir pelo navegador as páginas dos workflows `validar-publico.yml` e `pages.yml` não retornou resultado consultável; portanto **não há confirmação de CI ou deploy** nesta etapa. Registros de desempenho individual não foram criados.
 
 ## Próxima etapa

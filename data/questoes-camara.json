@@ -21634,6 +21634,180 @@
       "statement": "Quando o órgão entrega apenas a parte pública do documento e recusa outra por sigilo, deve informar a possibilidade de recurso e indicar a autoridade competente.",
       "correctAnswer": "C",
       "explanation": "A obrigação de orientar sobre o recurso também se aplica à recusa parcial por sigilo."
+    },
+    {
+      "id": "cam-cs-edital-sem-resultado-da-licitacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "edital-sem-resultado-da-licitacao",
+      "mechanism": "edital-sem-resultado-da-licitacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 1º, IV"
+      },
+      "statement": "Um órgão sujeito à divulgação obrigatória publica o edital de uma licitação concluída. Como o edital está disponível, pode deixar de divulgar o resultado.",
+      "correctAnswer": "E",
+      "explanation": "A divulgação mínima abrange tanto os editais quanto os resultados dos procedimentos licitatórios."
+    },
+    {
+      "id": "cam-cs-repasses-registrados-separadamente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "repasses-registrados-separadamente",
+      "mechanism": "repasses-registrados-separadamente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 1º, II e III"
+      },
+      "statement": "Um painel que cobre despesas não esgota a divulgação mínima se deixar de fora registros de repasses e transferências de recursos financeiros.",
+      "correctAnswer": "C",
+      "explanation": "A lei enumera registros de despesas e registros de repasses ou transferências como conjuntos distintos."
+    },
+    {
+      "id": "cam-cs-formato-aberto-sem-documentacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "formato-aberto-sem-documentacao",
+      "mechanism": "formato-aberto-sem-documentacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 3º, III e IV"
+      },
+      "statement": "Permitir que sistemas externos processem os dados em formato aberto torna dispensável divulgar detalhes sobre o formato usado para estruturá-los.",
+      "correctAnswer": "E",
+      "explanation": "O acesso automatizado e a documentação dos formatos atendem a incisos diferentes. A possibilidade de processamento não substitui a documentação."
+    },
+    {
+      "id": "cam-cs-lista-de-duvidas-em-transparencia-ativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "lista-de-duvidas-em-transparencia-ativa",
+      "mechanism": "lista-de-duvidas-em-transparencia-ativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 1º, VI"
+      },
+      "statement": "Publicar respostas a perguntas recorrentes antes de receber novos pedidos individuais é compatível com a transparência ativa prevista na lei.",
+      "correctAnswer": "C",
+      "explanation": "As respostas às perguntas frequentes integram o conteúdo mínimo da divulgação ativa."
+    },
+    {
+      "id": "cam-cs-pesquisa-sem-clareza-dos-resultados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "pesquisa-sem-clareza-dos-resultados",
+      "mechanism": "pesquisa-sem-clareza-dos-resultados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 3º, I"
+      },
+      "statement": "Se a ferramenta encontra um registro, o requisito legal de pesquisa está integralmente atendido, ainda que a informação localizada seja apresentada em linguagem incompreensível ao público.",
+      "correctAnswer": "E",
+      "explanation": "O requisito abrange acesso claro e em linguagem de fácil compreensão, além da possibilidade de localizar o conteúdo."
+    },
+    {
+      "id": "cam-cs-telefone-com-instrucoes-de-contato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "telefone-com-instrucoes-de-contato",
+      "mechanism": "telefone-com-instrucoes-de-contato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 3º, VII"
+      },
+      "statement": "Indicar instruções claras para contato telefônico é uma das formas de comunicação previstas no requisito de contato do sítio oficial.",
+      "correctAnswer": "C",
+      "explanation": "O inciso admite via eletrônica ou telefônica e exige indicar local e instruções para contato."
     }
   ]
 }

@@ -180,9 +180,9 @@ Considere o trecho:
 * **Gabarito:** **CERTO**.
 * **Fundamentação:** Dupla análise impecável: (1) *prescindir de* significa *dispensar, abrir mão de*; logo, *"sem prescindir de"* (dupla negação semântica: sem dispensar) equivale a *"sem abrir mão de / mantendo"*; e (2) enquanto *prescindir* é transitivo indireto (rege *de*), *dispensar* é transitivo direto (VTD), exigindo a retirada da preposição *de* (*"sem dispensar **o** diálogo"*).
 
-**Item 5.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* A inserção da preposição **com** logo após a forma verbal **corroborando** — escrevendo-se **corroborando com a tese** — manteria a correção gramatical do período, visto que esse verbo admite dupla regência na norma culta.
+**Item 5.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* A inserção da preposição **com** logo após a forma verbal **corroborando** seria **necessária para corrigir um erro de regência já existente** no trecho **corroborando a tese**.
 * **Gabarito:** **ERRADO**.
-* **Fundamentação:** Para redação formal conservadora, **corroborar a tese** é a construção direta segura. A alternativa *corroborar com a tese* existe no uso contemporâneo, mas **não basta afirmar, sem fonte e sem recorte normativo, que a banca a reprovaria em qualquer contexto**. O gabarito ERRADO é mantido como orientação **prescritiva adotada nesta nota**, e o item será refeito para indicar explicitamente o padrão de regência que se pretende testar antes de seu uso como avaliação decisiva.
+* **Fundamentação:** O segmento original **corroborando a tese** já é correto no padrão formal: *corroborar* admite objeto direto com o sentido de apoiar/confirmar uma tese. Portanto, é **falso** dizer que seria **necessário** inserir *com* para sanar erro inexistente. O item revisto julga a alegação de necessidade, **sem depender de proibir todas as ocorrências contemporâneas de *corroborar com***. Esta é uma questão inédita, não um precedente oficial da banca.
 
 **Item 6.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* A substituição da forma verbal **demanda** por **carece de** manteria a correção gramatical do segmento final do texto, sem exigir qualquer outro ajuste morfossintático no complemento **negociação permanente**.
 * **Gabarito:** **CERTO**.

@@ -131,8 +131,9 @@ O princípio federativo e a harmonia entre os Poderes impõem fronteiras intrans
 ```
 Limites Federativos e Orgânicos das CPIs
 │
-├── Limite Federativo: CPI Federal (Câmara/Senado/CPMI) NÃO PODE investigar Governadores/Prefeitos
-│   └── Súmula e Precedente STF: autonomia dos entes federados (salvo repasses federais diretos)
+├── Limite Federativo: CPI federal não fiscaliza a administração estadual como tal
+│   ├── Pode investigar fatos de interesse federal, inclusive repasses da União
+│   └── Convocação compulsória de Governador: limite da ADPF 848; convite voluntário possível
 │
 ├── Limite Jurisdicional: CPI NÃO PODE rever atos judiciais nem punir magistrados por suas decisões
 │   └── Imunidade jurisdicional do juiz e vedação de reexame de mérito de decisões jurisdicionadas
@@ -143,8 +144,12 @@ Limites Federativos e Orgânicos das CPIs
 
 ### A. Limite Federativo: a fiscalização de Governadores e Prefeitos
 - A CPI do Congresso Nacional ou da Câmara dos Deputados **não pode convocar Governadores de Estado ou Prefeitos Municipais para prestar depoimento sobre atos de gestão local**, em virtude do princípio federativo e da autonomia dos entes subnacionais (CF, art. 18);
-- **Exceção estrita:** a apuração de desvios em recursos oriundos de **repasses de convênios federais sujeitos à fiscalização do TCU** admite a apuração parlamentar federal, mas ainda assim a convocação direta do Governador para depor sobre a gestão política estadual encontra veto jurisprudencial do STF (ADI 4.298 / ACO 730);
-- A fiscalização de atos privativos de Governadores e Prefeitos compete exclusivamente às respectivas Assembleias Legislativas e Câmaras Municipais.
+- **Fatos federais e repasses da União:** a apuração parlamentar de fatos determinados de interesse federal, inclusive possível aplicação irregular de recursos federais transferidos aos estados, não se confunde com fiscalização geral da administração estadual. Na **ADPF 848 (referendo cautelar, Plenário do STF, junho de 2021)**, foram suspensas as convocações de Governadores pela CPI da Pandemia, preservando-se o **convite para comparecimento voluntário**. Houve ressalvas de ministros quanto ao alcance da investigação de recursos federais, de modo que o precedente não autoriza a fórmula absoluta de que CPI federal jamais pode examinar fatos relacionados a governos estaduais;
+- **Delimitação do precedente:** a ADPF 848 foi posteriormente julgada **prejudicada e extinta em julho de 2022**. Distinguir o alcance da decisão cautelar referendada de uma tese de mérito geral e definitiva; não transferir automaticamente o mesmo resultado a todas as situações de prefeitos;
+- **Competência de controle:** a fiscalização política ordinária dos atos de gestão estritamente estadual ou municipal cabe aos órgãos legislativos locais, sem excluir competências federais constitucionalmente atribuídas, inclusive o controle externo do TCU sobre recursos federais.
+
+
+**Fonte jurisprudencial de referência:** [STF, Plenário confirma suspensão da convocação de governadores (ADPF 848), 28/06/2021](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=468315&tip=UN). A decisão distinguiu a convocação obrigatória da possibilidade de comparecimento voluntário; a competência de investigação sobre fatos federais não deve ser confundida com poder de coagir o chefe do Executivo estadual.
 
 ### B. O Poder Judiciário e seus magistrados
 - A CPI **não pode converter-se em instância recursal de decisões judiciais**. É vedado instaurar CPI para investigar o conteúdo do ato jurisdicional ou punir magistrados pelas razões e fundamentos de suas decisões (art. 41 da LOMAN);
@@ -244,7 +249,7 @@ A banca Cebraspe possui padrões consolidados de formulação em Direito Constit
 > É vedado a comissão parlamentar de inquérito em funcionamento no âmbito do Congresso Nacional determinar a condução coercitiva de Governador de Estado para prestar depoimento sobre a aplicação de receitas tributárias estaduais, em respeito à autonomia político-administrativa dos entes federados.
 
 - **Gabarito: CERTO**
-- **Comentário:** O pacto federativo (CF, art. 1º e 18) impede que o Congresso Nacional fiscalize, por meio de CPI, atos típicos de administração privativa dos Chefes do Poder Executivo estadual ou municipal. A fiscalização de tais autoridades cabe às Assembleias Legislativas e Câmaras Municipais respectivas (STF, ADI 4.298 e ACO 730).
+- **Comentário:** **CERTO no recorte fático do enunciado:** a CPI federal não pode impor condução coercitiva a Governador para esclarecer a aplicação de **receitas tributárias estaduais**, assunto de gestão própria do ente. Na **ADPF 848**, o STF referendou cautelar que suspendeu convocações de governadores pela CPI da Pandemia, permitindo **convite voluntário**. A decisão foi posteriormente declarada prejudicada, e houve ressalvas quanto à possibilidade de investigar **fatos de interesse federal**, especialmente recursos da União repassados aos estados. Não generalizar o item como proibição de investigar qualquer fato relacionado a governo estadual. Fonte: [STF, ADPF 848, decisão e andamento](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6189091).
 
 ---
 

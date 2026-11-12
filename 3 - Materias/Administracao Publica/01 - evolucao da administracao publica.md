@@ -91,7 +91,7 @@ O **Plano Diretor da Reforma do Aparelho do Estado (1995)** propôs analisar **s
 
 **4.** A qualificação de entidade privada como organização social produz, por si só, sua integração à Administração Pública indireta. **Gabarito: Errado.** OS permanece pessoa jurídica privada; qualificação e parceria não a tornam autarquia ou fundação pública.
 
-Os quatro enunciados são autorais de treino, e não questões reais Cebraspe. **Fonte conceitual:** Presidência da República, Câmara da Reforma do Estado, *Plano Diretor da Reforma do Aparelho do Estado* (1995), especialmente seção “Setores do Estado e formas de propriedade”; para o regime de OS, [Lei 9.637/1998](https://www.planalto.gov.br/ccivil_03/leis/l9637.htm). Ver [[3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor|Parcerias com setor privado e terceiro setor]].
+Os quatro enunciados são autorais de treino, e não questões reais Cebraspe. **Fonte conceitual:** Presidência da República, Câmara da Reforma do Estado, [*Plano Diretor da Reforma do Aparelho do Estado* (1995)](https://www.biblioteca.presidencia.gov.br/publicacoes-oficiais/catalogo/fhc/plano-diretor-da-reforma-do-aparelho-do-estado-1995.pdf/view), especialmente seções 5.1 a 5.3, sobre setores, modelos de gestão e formas de propriedade; para o regime de OS, [Lei 9.637/1998](https://www.planalto.gov.br/ccivil_03/leis/l9637.htm). Ver [[3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor|Parcerias com setor privado e terceiro setor]].
 
 ### Contratualização de resultados e instrumentos de pactuação
 

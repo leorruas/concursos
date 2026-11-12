@@ -5,7 +5,7 @@ title: "Patricia Roedel: Manual de Linguagem Simples, planejamento, desenvolvime
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Patricia Roedel: Manual de Linguagem Simples, planejamento, desenvolvimento e avaliação
@@ -18,7 +18,7 @@ No **Manual de Linguagem Simples: como planejar, desenvolver e testar textos que
 
 **Nota de autoria e escopo:** na apresentação, a autora esclarece que o livro **não constitui um manual exclusivo de Linguagem Simples do Poder Legislativo**. Foi produzido por demanda do Conselho Consultivo de Comunicação Social da Câmara, com foco em situações legislativas, mas os conceitos também podem ser usados por outras instituições. É obra didática e profissional de 2024, e **não se confunde com a Lei nº 15.263/2025**, posterior, nem com o [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|Manual de Comunicação da Câmara]], de escopo editorial mais amplo.
 
-**Fonte primária analisada:** [PDF integral do Manual de Linguagem Simples, hospedado em portal do Governo Federal](https://www.gov.br/servicoscompartilhados/pt-br/acesso-a-informacao/acoes-e-programas/governanca/arquivos_figuras/linguagem_simples_roedel.pdf), edição Edições Câmara, 2024, e [registro na Biblioteca Digital da Câmara](https://bd.camara.leg.br/bd/items/706f93f7-3180-463c-a67a-47c57c2de847). Páginas referidas adiante são as **páginas impressas no livro**, não índices de arquivo.
+**Fonte primária analisada:** [Manual de Linguagem Simples, registro e acesso pela Livraria da Câmara](https://livraria.camara.leg.br/produto/manual-de-linguagem-simples/) e [cópia pública do PDF integral da edição de 2024](https://abcpublica.org.br/wp-content/uploads/2024/12/linguagem_simples_roedel-1.pdf), edição Edições Câmara, 2024, e [registro na Biblioteca Digital da Câmara](https://bd.camara.leg.br/bd/items/706f93f7-3180-463c-a67a-47c57c2de847). Páginas referidas adiante são as **páginas impressas no livro**, não índices de arquivo.
 
 ## Estrutura de Roedel: a ordem e o propósito de cada etapa
 
@@ -135,6 +135,16 @@ Um texto de frases curtas com termos jurídicos ambíguos pode alcançar bom res
 
 **Gabarito: Errado.** A autora propõe avaliação proporcional, destacando maturidade da equipe, tipo de peça, novo público, vida útil e criticidade da informação. O distrator transforma recomendação contextual em regra universal.
 
+## Verificação dirigida da obra e correção de fonte (11/11/2026)
+
+**Correção de acesso:** o endereço antigo do PDF no portal `gov.br/servicoscompartilhados` redirecionou, nesta retomada, para **autenticação obrigatória**. Foi substituído na introdução e nas referências por [registro oficial da obra na Livraria da Câmara](https://livraria.camara.leg.br/produto/manual-de-linguagem-simples/) e [cópia pública integral](https://abcpublica.org.br/wp-content/uploads/2024/12/linguagem_simples_roedel-1.pdf). O registro oficial confirma título, autora, edição de 2024, 109 páginas e ISBN do e-book; a cópia pública contém a edição identificada como Edições Câmara. **O texto da cópia foi cotejado por trechos, mas a inspeção visual das páginas por captura não foi concluída por falha de acesso ao arquivo no serviço de visualização.**
+
+**Trechos conferidos diretamente no texto extraído da publicação:** o sumário (pp. 7–8) distingue **planejar** (34), **desenvolver** (42) e **avaliar** (94), com arquitetura da informação, frases, palavras e design no segundo conjunto. Nas pp. 94–96, a autora explica que avaliação externa **não precisa ocorrer para cada notícia ou postagem diária**, dadas maturidade da equipe, público, vida útil e relevância do documento. Nas pp. 100–101, o procedimento de Cloze descrito omite uma palavra a cada cinco, admite desconsiderar artigos na contagem, exige **correspondência exata** e apresenta parâmetros de **45% e 60%**, que não constituem valores legais universais.
+
+**Julgamento dos três itens C/E inéditos do próprio artigo:** item 1 **Certo**, porque separa planejamento de desenvolvimento nos termos da obra; item 2 **Errado**, porque as fórmulas de leiturabilidade não substituem comprovação empírica de compreensão; item 3 **Errado**, porque a autora não exige avaliação externa universal de cada postagem. **Nenhum gabarito foi invertido e nenhuma questão real da banca foi adicionada.**
+
+**Limites:** verificação dirigida de sumário e trechos sobre avaliação, não auditoria visual integral das 109 páginas nem de todos os exemplos gráficos, cálculos, tabelas e referências. A distinção entre recomendação profissional de Roedel (2024) e exigências posteriores da **Lei nº 15.263/2025** permanece preservada. **Estado: Corrigido quanto à fonte acessível e verificado no recorte das três questões, sem certificação integral.**
+
 ## Relações com outros temas e heurísticas
 
 [[3 - Materias/Comunicacao/10 - linguagem simples|Linguagem simples e acessibilidade digital]] conserva a **base jurídica e técnica geral**. [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|CAM-CO-029]] desenvolve as técnicas e limites sob a Lei nº 15.263/2025; esta nota trata da **estrutura própria de Roedel em 2024**, anterior à lei. [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|CAM-CO-027]] trata do outro manual da Câmara. [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|Transparência]] conecta linguagem e acesso à informação.
@@ -143,7 +153,7 @@ Um texto de frases curtas com termos jurídicos ambíguos pode alcançar bom res
 
 ## Fontes e limites
 
-- ROEDEL, Patricia. [Manual de Linguagem Simples: como planejar, desenvolver e testar textos que funcionam](https://www.gov.br/servicoscompartilhados/pt-br/acesso-a-informacao/acoes-e-programas/governanca/arquivos_figuras/linguagem_simples_roedel.pdf). Brasília: Câmara dos Deputados, Edições Câmara, 2024. Texto integral consultado, com remissões às pp. 13, 33 a 42, 44 a 93 e 94 a 104.
+- ROEDEL, Patricia. [Manual de Linguagem Simples: como planejar, desenvolver e testar textos que funcionam](https://livraria.camara.leg.br/produto/manual-de-linguagem-simples/), página oficial da Edições Câmara; [PDF integral em cópia pública](https://abcpublica.org.br/wp-content/uploads/2024/12/linguagem_simples_roedel-1.pdf). Brasília: Câmara dos Deputados, Edições Câmara, 2024. Texto integral consultado, com remissões às pp. 13, 33 a 42, 44 a 93 e 94 a 104.
 - CÂMARA DOS DEPUTADOS. [Registro bibliográfico do Manual](https://bd.camara.leg.br/bd/items/706f93f7-3180-463c-a67a-47c57c2de847), edição 2024.
 - [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|Linguagem simples: técnicas e limites]]: aplicação da legislação posterior; preservada.
 

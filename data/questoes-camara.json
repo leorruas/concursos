@@ -12468,6 +12468,122 @@
       "statement": "Para divulgar quantas pessoas participaram de uma oficina, informar a contagem agregada pode atingir o objetivo sem expor os nomes dos participantes.",
       "correctAnswer": "C",
       "explanation": "A finalidade é comunicar o total. A identificação nominal acrescenta exposição e é desnecessária para esse objetivo específico."
+    },
+    {
+      "id": "cam-di-cdc-prova-do-patrocinador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "cdc-prova-do-patrocinador",
+      "mechanism": "cdc-prova-do-patrocinador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "CDC: identificação, enganosidade e abusividade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "locator": "art. 38"
+      },
+      "statement": "Se uma empresa patrocina um anúncio que promete autonomia de 20 horas para um aparelho, cabe a quem patrocina o anúncio provar a veracidade da promessa publicitária.",
+      "correctAnswer": "C",
+      "explanation": "O art. 38 atribui a quem patrocina a comunicação o ônus da prova de sua veracidade e correção."
+    },
+    {
+      "id": "cam-di-cdc-omissao-de-requisito-essencial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "cdc-omissao-de-requisito-essencial",
+      "mechanism": "cdc-omissao-de-requisito-essencial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "CDC: identificação, enganosidade e abusividade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "locator": "art. 37, §§ 1º e 3º"
+      },
+      "statement": "Um anúncio de filtro que informa corretamente o preço pode omitir que o equipamento só funciona com uma instalação incompatível com a maioria das residências, pois a enganosidade exige uma afirmação literalmente falsa.",
+      "correctAnswer": "E",
+      "explanation": "A omissão de uma condição essencial de funcionamento pode induzir o consumidor em erro mesmo quando o preço informado é verdadeiro."
+    },
+    {
+      "id": "cam-di-cdc-base-tecnica-em-poder-do-fornecedor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "cdc-base-tecnica-em-poder-do-fornecedor",
+      "mechanism": "cdc-base-tecnica-em-poder-do-fornecedor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "CDC: identificação, enganosidade e abusividade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "locator": "art. 36, parágrafo único"
+      },
+      "statement": "Se a agência redigiu uma alegação técnica para um anúncio de produto, o fornecedor fica dispensado de manter os dados que sustentam a mensagem para informar os interessados legítimos.",
+      "correctAnswer": "E",
+      "explanation": "O dever de manter os dados de sustentação recai sobre o fornecedor na publicidade de seus produtos ou serviços. Contratar a redação da peça não elimina esse dever."
+    },
+    {
+      "id": "cam-di-cdc-discriminacao-com-dados-corretos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "cdc-discriminacao-com-dados-corretos",
+      "mechanism": "cdc-discriminacao-com-dados-corretos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "CDC: identificação, enganosidade e abusividade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "locator": "art. 37, § 2º"
+      },
+      "statement": "Uma peça comercial com preços verdadeiros pode ser abusiva se seu conteúdo for discriminatório.",
+      "correctAnswer": "C",
+      "explanation": "A proibição de publicidade abusiva tem fundamento distinto da veracidade dos preços. O art. 37 inclui a discriminação entre as hipóteses de abusividade."
     }
   ]
 }

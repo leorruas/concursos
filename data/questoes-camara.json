@@ -21181,24 +21181,25 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
       "articleId": "art-e8246cf71b0a935d",
-      "conceptId": "acesso-parcial-com-trecho-protegido",
-      "mechanism": "acesso-parcial-com-trecho-protegido",
-      "questionType": "aplicacao",
-      "estimatedDifficulty": "media",
-      "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "conceptId": "identificacao-que-impede-pedido",
+      "mechanism": "identificacao-que-impede-pedido",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+        "article:art-e8246cf71b0a935d#Arquitetura normativa: Constituição, LAI e Câmara"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
-        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "section": "Arquitetura normativa: Constituição, LAI e Câmara",
         "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
-        "locator": "art. 7º, § 2º"
+        "locator": "art. 10, § 1º"
       },
-      "statement": "Se apenas uma parte de um relatório for sigilosa, é possível fornecer cópia que oculte o trecho protegido e preserve o conteúdo acessível.",
-      "correctAnswer": "C",
-      "explanation": "A lei assegura acesso à parte não sigilosa e admite ocultar o trecho protegido em cópia, extrato ou certidão."
+      "statement": "Ao identificar o requerente de informação de interesse público, o órgão pode impor uma exigência que inviabilize a apresentação do pedido.",
+      "correctAnswer": "E",
+      "explanation": "A identificação é exigida, mas a lei veda requisitos de identificação que inviabilizem a solicitação.",
+      "reviewEvidence": "Reformulado após comparação com os exercícios do artigo 70. Gabarito cotejado com art. 10, § 1º da Lei nº 12.527/2011."
     },
     {
       "id": "cam-cs-prorrogacao-sem-ciencia-do-requerente",
@@ -22080,24 +22081,25 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
       "articleId": "art-e8246cf71b0a935d",
-      "conceptId": "certificacao-e-copia-disponivel",
-      "mechanism": "certificacao-e-copia-disponivel",
-      "questionType": "aplicacao",
-      "estimatedDifficulty": "muito-dificil",
-      "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "conceptId": "acesso-sobre-patrimonio-e-recursos",
+      "mechanism": "acesso-sobre-patrimonio-e-recursos",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+        "article:art-e8246cf71b0a935d#Arquitetura normativa: Constituição, LAI e Câmara"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
-        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "section": "Arquitetura normativa: Constituição, LAI e Câmara",
         "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
-        "locator": "art. 13, caput e parágrafo único"
+        "locator": "art. 7º, VI"
       },
-      "statement": "Se o manuseio ameaça o original e existe cópia certificada disponível, a lei exige que o interessado pague pela reprodução do original por outro meio antes de poder consultar a informação.",
-      "correctAnswer": "E",
-      "explanation": "A regra oferece a consulta da cópia certificada. A reprodução por outro meio é alternativa para a impossibilidade de obter cópia."
+      "statement": "O direito de acesso previsto na Lei nº 12.527/2011 abrange informações sobre a administração do patrimônio público e o uso de recursos públicos.",
+      "correctAnswer": "C",
+      "explanation": "Ambas as categorias estão previstas no art. 7º, VI, observadas as restrições aplicáveis.",
+      "reviewEvidence": "Reformulado após comparação com os exercícios do artigo 70. Gabarito cotejado com art. 7º, VI da Lei nº 12.527/2011."
     },
     {
       "id": "cam-cs-inteiro-teor-por-certidao",
@@ -22109,24 +22111,25 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
       "articleId": "art-e8246cf71b0a935d",
-      "conceptId": "inteiro-teor-por-certidao",
-      "mechanism": "inteiro-teor-por-certidao",
+      "conceptId": "consulta-pelo-proprio-requerente",
+      "mechanism": "consulta-pelo-proprio-requerente",
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+        "article:art-e8246cf71b0a935d#Arquitetura normativa: Constituição, LAI e Câmara"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
-        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "section": "Arquitetura normativa: Constituição, LAI e Câmara",
         "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
-        "locator": "art. 14"
+        "locator": "art. 11, § 3º"
       },
-      "statement": "A certidão é um dos meios previstos para obter o inteiro teor de uma decisão de negativa de acesso.",
+      "statement": "Respeitada a segurança das informações e a legislação aplicável, o órgão pode oferecer meios para o requerente pesquisar a informação de que necessita.",
       "correctAnswer": "C",
-      "explanation": "O art. 14 permite obter o inteiro teor por certidão ou cópia."
+      "explanation": "A lei admite a consulta pelo próprio requerente, condicionada à proteção das informações e ao cumprimento das normas aplicáveis.",
+      "reviewEvidence": "Reformulado após comparação com os exercícios do artigo 70. Gabarito cotejado com art. 11, § 3º da Lei nº 12.527/2011."
     },
     {
       "id": "cam-cs-contrato-distinto-de-edital",

@@ -111,5 +111,6 @@ console.log(JSON.stringify({ scannedArticles: report.scannedArticles, totalFindi
 for (const issue of issues.slice(0,100)) console.log(issue.path+':'+issue.line+' ['+issue.kind+'] '+issue.text);
 if (issues.length > 100) console.log('... demais ocorrencias disponiveis na saida --json');
 
-// Bloquear apenas a regressao de rotulos com codigo; outros achados exigem triagem.
-if (strict && (totals.rotulo_codigo_ou_nota || 0) > 0) process.exitCode = 1;
+// Bloquear rotulos com codigos ou notas em wikilinks e links Markdown comuns.
+// Codigos curriculares em texto e referencias a notas oficiais exigem triagem contextual.
+if (strict && ((totals.rotulo_codigo_ou_nota || 0) + (totals.rotulo_markdown_numerico || 0)) > 0) process.exitCode = 1;

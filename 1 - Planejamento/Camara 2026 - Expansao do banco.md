@@ -23,6 +23,7 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 015 | Comunicação Social | Edital 14.2.4, item 7: comunicação pública, governamental e político-partidária | 40 | 0/28/12/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 | 016 | Comunicação Social | Edital 14.2.4, item 8: Política e Manual de Comunicação | 40 | 0/29/11/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 | 017 | Comunicação Social | Edital 14.2.4, item 9: aplicações e ética de IA | 40 | 0/20/20/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
+| 018 | Comunicação Social | Edital 14.2.4, item 10: linguagem simples e usabilidade | 40 | 0/34/6/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
@@ -101,12 +102,8 @@ Quarenta itens sobre aplicações e riscos de IA na comunicação, com cotejo no
 
 Total validado: 680/2.000. Próximo lote: linguagem simples e usabilidade, item 10 de Comunicação Social.
 
-## Lote 018 em elaboração
+## Lote 018 validado
 
-Oito itens sobre localização, compreensão e uso da informação, desenho do teste e interpretação de indicadores de usabilidade, vinculados aos artigos 75 e 77.
+Quarenta itens sobre linguagem simples, avaliação e usabilidade, vinculados aos artigos 75 a 77. A revisão cobriu o Manual de Linguagem Simples da Câmara e os dispositivos da Lei nº 15.263/2025 indicados nos itens normativos. Foram verificados os cálculos de taxa de conclusão e de Cloze. A triagem lexical a 0,22 não apontou pares envolvendo o lote, e a seleção pelo item 10 recuperou os 40 itens.
 
-O lote soma 16 itens redigidos. Os oito novos tratam de inspeção heurística, percurso cognitivo, conformidade técnica e limites das fórmulas de leiturabilidade.
-
-O lote soma 24 itens redigidos. Os oito novos cobrem planejamento, desenvolvimento e avaliação conforme o artigo 76, com casos sobre suporte, arquitetura da informação e desenho de rodadas de teste.
-
-O lote soma 32 itens redigidos. Os oito novos cobrem âmbito, operacionalização, comunicação a comunidades indígenas, objetivos e técnicas da Lei nº 15.263/2025, com referência ao artigo 75.
+Total validado: 720/2.000. Próximo lote: publicidade institucional e art. 37, § 1º, da Constituição, item 11 de Comunicação Social.

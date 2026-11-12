@@ -5,7 +5,7 @@ title: "Comunicação pública, governamental e político-partidária: finalidad
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Comunicação pública, governamental e político-partidária: finalidades e fronteiras
@@ -52,7 +52,7 @@ O **Ato da Mesa nº 218, de 30 de setembro de 2025**, institui a Política de Co
 
 O art. 5º aponta os princípios da **imparcialidade, pluralismo, equilíbrio, transparência e precisão**. O art. 7º estabelece uma voz institucional reconhecível que conviva com a pluralidade política, contextualize conteúdos preservando imparcialidade e apresente o processo de negociação parlamentar e seus efeitos para a sociedade. A política também exige atenção à linguagem simples e prevê procedimentos de checagem, revisão e aprovação, nos termos do próprio ato.
 
-O art. 12 estabelece que a comunicação da Câmara **não deve favorecer posições ou opiniões políticas nem desrespeitar a proporcionalidade da representação partidária**. O art. 13 associa a comunicação institucional à imagem da Câmara e a atividades de jornalismo, audiovisual, publicidade e relações públicas. A descrição dessas atividades não é autorização para promover pessoa ou partido. As atribuições e os instrumentos de implementação do ato serão desenvolvidos em [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|70]] e nas unidades CAM-CO-026/027, especialmente na leitura integral do Ato nº 218/2025.
+O art. 12 estabelece que a comunicação da Câmara **não deve favorecer posições ou opiniões políticas nem desrespeitar a proporcionalidade da representação partidária**. O art. 13 associa a comunicação institucional à imagem da Câmara e a atividades de jornalismo, audiovisual, publicidade e relações públicas. A descrição dessas atividades não é autorização para promover pessoa ou partido. As competências, diretrizes, vedações e instrumentos do ato estão desenvolvidos em [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Ato da Mesa nº 218/2025]]; orientações concretas de redação e produção constam do [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|Manual de Comunicação]]. [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|Transparência pública]] é um tema complementar, regulado também pela LAI e pelo Ato da Mesa nº 45/2012.
 
 **Questão de fronteira:** pluralismo não significa que um canal institucional deva se posicionar como partido. A obrigação é cumprir os critérios normativos do canal, oferecendo contexto e tratamento da pluralidade conforme a política. Impessoalidade não exige omitir que parlamentares sustentam posições divergentes; exige evitar que a estrutura de comunicação oficial se transforme em instrumento de promoção pessoal ou partidária.
 
@@ -74,6 +74,26 @@ O **art. 37, § 1º, da Constituição Federal** prevê que publicidade dos atos
 
 **Caso de fronteira:** uma comunicação governamental sobre uma política de saúde explica critérios e como obter atendimento, ainda que sua execução seja politicamente disputada. A existência de conflito político não transforma a orientação de serviço, automaticamente, em propaganda partidária. A finalidade e a construção da mensagem precisam ser examinadas.
 
+## Aplicação editorial: autoria, canal, pluralismo e responsabilidade
+
+**Problema:** uma mesma proposta legislativa aparece em uma reportagem produzida pela comunicação da Câmara, numa publicação de uma liderança partidária e numa mensagem pessoal de deputado. A referência à Câmara ou ao Parlamento não torna os três produtos sujeitos à **mesma política interna de produção**. O [art. 1º, parágrafo único, do Ato da Mesa nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html) exclui do alcance dessa política os conteúdos **criados ou contratados diretamente por deputados, gabinetes e lideranças**. O art. 3º exige adequação dos órgãos **não ressalvados**. Essa delimitação **não elimina normas constitucionais, eleitorais ou outras obrigações aplicáveis em cada caso**.
+
+**Caso 1: Agência institucional.** Uma reportagem identifica o relator, descreve sua proposta e apresenta críticas e apoios contextualizados. A identidade do parlamentar pode ser dado factual indispensável; a política exige **imparcialidade, equilíbrio, pluralismo e precisão** (arts. 5º e 7º). **Caso 2: liderança partidária.** Uma publicação criada diretamente pela liderança defende a posição da bancada. A exceção do art. 1º atinge esse produto, sem transformar o material em conteúdo da comunicação institucional da Câmara. **Caso 3: comunicação institucional usada como campanha.** O canal oficial conclama o cidadão a aderir à posição de uma bancada. O caráter público do tema não autoriza **favorecimento de posição política** pela comunicação institucional (art. 12). **Caso 4: omissão do debate.** A equipe decide suprimir toda divergência para parecer imparcial. Essa escolha contraria a diretriz de apresentar o processo de negociação parlamentar e respeitar a pluralidade (art. 7º, incisos III e VI).
+
+**Mecanismo decisório:** primeiro, identificar **quem criou ou contratou** o produto; segundo, **qual é o canal e sua função**; terceiro, examinar **finalidade e tratamento das posições políticas**; quarto, separar **fato, opinião partidária e promoção individual**; por fim, indicar a **norma específica** e a fonte verificável. Comunicação pública, governamental, institucional e político-partidária são categorias conceituais que podem se cruzar; já a incidência dos arts. 1º, 7º e 12 depende do **alcance expresso do ato**.
+
+**Dois novos itens C/E inéditos:**
+
+**Item 4.** Segundo o Ato da Mesa nº 218/2025, a identificação factual de deputados e a exposição contextualizada de posições divergentes são necessariamente contrárias à imparcialidade da comunicação institucional.
+
+**Gabarito: Errado.** O art. 7º exige tornar visível a negociação parlamentar e respeitar a diversidade de opiniões. Identificação factual e equilíbrio editorial não equivalem, por si, a promoção pessoal ou favorecimento.
+
+**Item 5.** A exclusão prevista no parágrafo único do art. 1º do Ato nº 218/2025 afasta a aplicação daquela política aos produtos criados diretamente por gabinetes, mas não constitui dispensa universal de normas jurídicas aplicáveis à divulgação.
+
+**Gabarito: Certo.** A exceção é **específica de incidência da política**, não imunidade constitucional ou legal. O comentário não presume que todas as regras de publicidade institucional sejam automaticamente aplicáveis a qualquer canal parlamentar.
+
+**Fonte normativa:** [Ato nº 218/2025, arts. 1º, 3º, 5º, 7º e 12](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html). Casos hipotéticos destinados à aprendizagem e à prova discursiva; os itens 4 e 5 são **inéditos autorais**, sem alegação de reprodução do Cebraspe.
+
 ## Como o Cebraspe cobra: itens inéditos Certo/Errado
 
 **Item 1.** De acordo com a perspectiva de Jorge Duarte, a comunicação pública pode envolver órgãos estatais, partidos, empresas e cidadãos, desde que a interação trate de assuntos de interesse coletivo, não se definindo unicamente pela natureza estatal de quem emite a mensagem.
@@ -90,7 +110,7 @@ O **art. 37, § 1º, da Constituição Federal** prevê que publicidade dos atos
 
 ## Relações com outros temas
 
-[[3 - Materias/Comunicacao/02 - comunicacao publica|02]] traz Duarte, quatro eixos e categorias de informação; [[3 - Materias/Comunicacao/52 - comunicacao institucional finalidade funcoes e publicos|52]] desenvolve o composto de Kunsch; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|70]] trata de obrigações de informação na Câmara. **CAM-CO-026** deverá desenvolver a arquitetura completa e os dispositivos do Ato da Mesa nº 218/2025; **CAM-CO-027** examinará o Manual de Comunicação; **CAM-CO-032** aprofundará os limites constitucionais da publicidade institucional.
+[[3 - Materias/Comunicacao/02 - comunicacao publica|02]] traz Duarte, quatro eixos e categorias de informação; [[3 - Materias/Comunicacao/52 - comunicacao institucional finalidade funcoes e publicos|52]] desenvolve o composto de Kunsch; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|70]] trata de obrigações de informação na Câmara. [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Ato nº 218/2025]] reúne a arquitetura normativa; [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|Manual de Comunicação]] aborda os procedimentos editoriais; [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|Art. 37, § 1º]] detalha os limites constitucionais.
 
 **Heurísticas:** direito ao diálogo e interesse coletivo: comunicação pública; ação e gestão de governo: governamental; identidade e relação da organização: institucional; disputa de poder e apoio: política; defesa de agenda de partido: político-partidária. A primeira pergunta é **qual o critério de classificação**, e a segunda é **qual a norma aplicável ao canal e ao responsável pela peça**. Um assunto político pode ser tratado por jornalismo institucional sem converter a peça em propaganda partidária.
 

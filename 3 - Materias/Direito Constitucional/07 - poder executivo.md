@@ -102,6 +102,24 @@ O art. 2º estabelece Poderes **independentes e harmônicos entre si**. Independ
 - tratar freios e contrapesos como violação automática da separação dos Poderes;
 - transformar decreto regulamentar em competência legislativa geral.
 
+## Exercícios inéditos C/E: eleição, sucessão e funções presidenciais
+
+**Caso progressivo.** O Presidente eleito em 2026 toma posse para mandato que se inicia em **5 de janeiro de 2027**, nos termos da EC nº 111/2021. Em afastamento temporário, o Vice-Presidente **substitui** o titular; se ocorrer vacância, o Vice **sucede**. Uma dupla vacância aciona procedimento constitucional distinto, cujo momento no mandato determina a forma da eleição.
+
+**Item 1 (inédito, Câmara/Cebraspe).** A partir das eleições de 2026, o mandato presidencial de quatro anos começa em 5 de janeiro do ano seguinte ao pleito, conforme a redação do art. 82 da Constituição.
+
+**Gabarito: Certo.** A **EC nº 111/2021** alterou o início do mandato presidencial; a data anterior não deve ser utilizada como regra da posse do eleito em 2026.
+
+**Item 2 (inédito, Câmara/Cebraspe).** Na hipótese de vacância dos cargos de Presidente e Vice-Presidente nos últimos dois anos do período presidencial, a eleição dos sucessores ocorre de forma direta, noventa dias após a abertura da última vaga.
+
+**Gabarito: Errado.** O **art. 81, § 1º**, prevê **eleição pelo Congresso Nacional em trinta dias**, se a dupla vacância ocorrer nos últimos dois anos. A eleição em noventa dias, prevista no caput, corresponde à regra geral; não se aplicam indistintamente as duas modalidades.
+
+**Item 3 (inédito, Câmara/Cebraspe).** O Presidente da República pode propor emenda à Constituição, mas a promulgação da emenda aprovada não se submete a sanção nem a veto presidencial.
+
+**Gabarito: Certo.** A iniciativa da PEC pode ser presidencial (CF, **art. 60, II**), enquanto a promulgação é feita pelas **Mesas da Câmara e do Senado**, na forma do § 3º. Sanção/veto pertencem ao processo de formação das leis ordinárias e complementares, não ao de emenda constitucional.
+
+**Fonte:** [Constituição consolidada, arts. 60, 77–84](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). Itens autorais, não retirados de prova oficial.
+
 ## Relações com outros temas
 
 - [[3 - Materias/Direito Constitucional/01 - principios fundamentais|Princípios fundamentais]] — art. 2º e separação dos Poderes;

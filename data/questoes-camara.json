@@ -37703,6 +37703,118 @@
       "correctAnswer": "C",
       "explanation": "O art. 5º da LC nº 210/2024 exige registro, publicação e encaminhamento das atas das indicações aprovadas; a aprovação do orçamento não substitui essas formalidades.",
       "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 028. Artigo canônico art-715e2d16a93446cb, seção literal 'Indicação de emendas de comissão: regra permanente e rito de cada exercício'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-029-credito-especial-sem-dotacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "credito-especial-ausencia-dotacao",
+      "mechanism": "distinguir-inexistencia-e-insuficiencia",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "statement": "Uma despesa previsível, para a qual a LOA não contenha dotação específica, pode exigir crédito especial, desde que atendidos os requisitos legais de autorização e indicação de recursos.",
+      "correctAnswer": "C",
+      "explanation": "O crédito especial atende a despesa sem dotação específica, segundo a Lei nº 4.320/1964, art. 41, II; previsibilidade não transforma automaticamente a hipótese em crédito extraordinário.",
+      "reviewEvidence": "Lote 027, item 029, 12/11/2026. Artigo canônico art-87b69e1d4ac54f20, heading literal 'Suplementar, especial e extraordinário'. Norma preliminar: CF arts. 165 e 167 e Lei 4.320/1964 arts. 41 a 46, conforme item. Revisão normativa independente, triagem de similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-030-suplementar-lei-e-abertura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "suplementar-autorizacao-abertura",
+      "mechanism": "separar-lei-autorizadora-e-ato-abertura",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Autorização × abertura"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Autorização × abertura"
+      },
+      "statement": "A autorização para abrir crédito suplementar inserida na própria LOA torna dispensável o ato de abertura do crédito, pois a autorização legislativa já incorpora automaticamente o reforço à dotação.",
+      "correctAnswer": "E",
+      "explanation": "A autorização legislativa e a abertura são etapas distintas. A LOA pode autorizar suplementares (CF, art. 165, § 8º), mas o ato de abertura deve observar a Lei nº 4.320/1964, arts. 42 e 46.",
+      "reviewEvidence": "Lote 027, item 030, 12/11/2026. Artigo canônico art-87b69e1d4ac54f20, heading literal 'Autorização × abertura'. Norma preliminar: CF arts. 165 e 167 e Lei 4.320/1964 arts. 41 a 46, conforme item. Revisão normativa independente, triagem de similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-031-anulacao-nao-receita-nova",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "anulacao-dotacao-fonte",
+      "mechanism": "distinguir-fonte-orcamentaria-e-ingresso-financeiro",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "statement": "A anulação parcial de dotação orçamentária, quando legalmente admitida e disponível, pode constituir fonte para abertura de crédito adicional sem representar ingresso de receita financeira nova.",
+      "correctAnswer": "C",
+      "explanation": "A Lei nº 4.320/1964, art. 43, § 1º, III, inclui anulação de dotações entre as fontes. Cancelar autorização de despesa não cria arrecadação.",
+      "reviewEvidence": "Lote 027, item 031, 12/11/2026. Artigo canônico art-87b69e1d4ac54f20, heading literal 'Recursos disponíveis para suplementares e especiais'. Norma preliminar: CF arts. 165 e 167 e Lei 4.320/1964 arts. 41 a 46, conforme item. Revisão normativa independente, triagem de similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-032-credito-extraordinario-urgencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "extraordinario-pressa-administrativa",
+      "mechanism": "distinguir-urgencia-constitucional-e-atraso-gerencial",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "statement": "A proximidade do fim do exercício financeiro é suficiente, por si só, para classificar como extraordinário o crédito destinado a despesa previsível que o órgão deixou de programar.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição, art. 167, § 3º, exige despesas imprevisíveis e urgentes. Atraso de planejamento ou pressa para gastar não demonstram esses requisitos.",
+      "reviewEvidence": "Lote 027, item 032, 12/11/2026. Artigo canônico art-87b69e1d4ac54f20, heading literal 'Suplementar, especial e extraordinário'. Norma preliminar: CF arts. 165 e 167 e Lei 4.320/1964 arts. 41 a 46, conforme item. Revisão normativa independente, triagem de similaridade e CI pendentes. Não homologado."
     }
   ]
 }

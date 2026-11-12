@@ -112,7 +112,7 @@ Para isolar **apostos explicativos, orações subordinadas adjetivas explicativa
 - **Dois travessões** (*— ... —*);
 - **Parênteses** (*( ... )*).
 
-> **Regra de Julgamento no Cebraspe**: A substituição de um par de vírgulas por um par de travessões (ou por parênteses) em termos intercalados **mantém integralmente a correção gramatical e o sentido básico**, conferindo apenas maior realce estilístico (no caso dos travessões). **Atenção**: Se o termo explicativo estiver no **final do período**, usa-se apenas **um travessão** antes dele e o **ponto final** depois (*"A Câmara aprovou a PEC — proposta que reformula o sistema tributário."*).
+> **Regra de Julgamento no Cebraspe**: A substituição de um par de vírgulas por um par de travessões (ou por parênteses) em termos intercalados **pode preservar a correção gramatical e o conteúdo central**, mas altera o grau de destaque, o ritmo e às vezes o efeito discursivo. A intercalação precisa continuar sintaticamente bem delimitada; a troca de sinais não é equivalência universal. **Atenção**: Se o termo explicativo estiver no **final do período**, usa-se apenas **um travessão** antes dele e o **ponto final** depois (*"A Câmara aprovou a PEC — proposta que reformula o sistema tributário."*).
 
 ---
 
@@ -122,7 +122,7 @@ Os dois-pontos marcam uma pausa suspensiva que anuncia um esclarecimento do que 
 2. **Introduzir Citação Direta ou Discurso Direto**: *"O relator declarou**:** 'O parecer é pela constitucionalidade'."*
 3. **Introduzir Oração Subordinada Substantiva Apositiva**: *"O regimento impõe apenas uma regra**:** que o prazo seja respeitado."*
 4. **Introduzir Explicação, Causa ou Consequência (Substituindo Conectivo)**: *"A sessão não pôde ser aberta**:** (= porque / pois) faltava quórum mínimo no plenário."*
-   - *Atenção no Cebraspe*: Nesse quarto caso, os dois-pontos **podem ser substituídos por vírgula seguida da conjunção "pois" ou "porque"** (ou por um travessão simples) sem qualquer prejuízo gramatical ou semântico!
+   - *Teste de reescrita:* no exemplo de ausência de quórum, **“A sessão não pôde ser aberta, porque faltava quórum mínimo no plenário”** explicita adequadamente a causa. Contudo, **dois-pontos não equivalem automaticamente a “pois/porque”** nas outras funções, como enumeração ou citação; a substituição deve preservar a relação lógica, a sintaxe e o valor argumentativo do trecho.
 
 ---
 

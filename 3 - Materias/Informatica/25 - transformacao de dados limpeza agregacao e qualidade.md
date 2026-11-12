@@ -187,10 +187,10 @@ A governança corporativa de dados (conforme o framework *DAMA-DMBOK - Data Mana
 > **Comentário:** Essa é a essência do ELT. Diferentemente do ETL clássico (onde a transformação ocorre em uma área de *staging* intermediária antes da carga no Data Warehouse), no ELT os dados são ingeridos rapidamente em sua forma original no Data Lake, aproveitando o poder computacional distribuído do destino para realizar as transformações sob demanda.
 
 ### Item 6
-> **Assertiva:** A dimensão de qualidade de dados conhecida como consistência verifica se os dados armazenados em determinado repositório estão em conformidade com o formato sintático e as restrições de tipo de dados definidas pelo esquema do banco.
+> **Assertiva:** Para avaliar uma base hipotética, um analista adotou expressamente a seguinte convenção: **validade** verifica se códigos seguem o formato e os valores permitidos no campo, enquanto **consistência entre bases** verifica se dois registros relacionados apresentam informações compatíveis. Nesse critério, um código de UF com três letras, igual em duas tabelas, viola a consistência entre bases, mas não a validade do campo.
 >
 > **Gabarito:** **ERRADO**  
-> **Comentário:** Respeito a **formato, tipo e domínio** corresponde frequentemente à dimensão **validade (*validity*)**. **Consistência (*consistency*)** pode tratar coerência entre registros, tabelas e regras de negócio. As dimensões de qualidade variam conforme a taxonomia e podem se sobrepor; não é correto tratar validade e consistência como mutuamente exclusivas em todo framework. O gabarito ERRADO é mantido em leitura da distinção didática adotada no artigo, mas exige referência ao padrão específico antes de homologação externa.
+> **Comentário:** Sob a **convenção explicitada no enunciado**, o código de UF com três letras viola a **validade** do campo (formato/domínio permitido). O fato de as duas tabelas conterem o mesmo código não demonstra divergência entre os registros, portanto não caracteriza, **nesse teste específico**, inconsistência entre bases. Em outros referenciais de qualidade as dimensões podem se sobrepor; por isso a taxonomia foi delimitada no item. **Mecanismo C/E:** confundir conformidade de domínio com concordância de informações relacionadas. **Contraexemplo:** UF=`MG` no cadastro A e UF=`SP` no cadastro B, para a mesma unidade e mesma data de referência, pode indicar inconsistência entre bases, ainda que ambos os códigos sejam válidos.
 
 ---
 

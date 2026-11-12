@@ -64,13 +64,13 @@ A escolha do verbo de elocução pelo autor revela sua adesão, ceticismo ou neu
 | Categoria do Verbo | Exemplos Típicos | Efeito Pragmático e Postura do Autor |
 | :--- | :--- | :--- |
 | **Neutros / Informativos** | *state, report, explain, observe, point out, note* | O autor relata o fato ou declaração sem emitir juízo de valor pessoal sobre sua veracidade. |
-| **Adesão / Corroboração** | *demonstrate, prove, establish, confirm, clarify* | O autor valida o argumento citado como fato cientificamente ou juridicamente comprovado. |
-| **Distanciamento / Ceticismo** | *claim, allege, purport, assert, contend* | O autor se distancia da alegação, indicando que se trata de mera versão subjetiva ou não comprovada. |
+| **Adesão / Corroboração** | *demonstrate, prove, establish, confirm, clarify* | O verbo apresenta a afirmação como sustentada ou demonstrada segundo a voz enunciadora, sem substituir a conferência independente de provas. |
+| **Distanciamento / Ceticismo** | *claim, allege, purport, assert, contend* | Marca atribuição a outra voz; pode envolver reserva, mas ceticismo e falta de prova não são consequências automáticas em todo contexto. |
 | **Recomendação / Proposição** | *advocate, propose, urge, recommend, suggest* | A voz citada propõe uma medida de política pública que não constitui norma vigente. |
 
 > [!IMPORTANT]
 > **A Pegadinha de *Claim* e *Allege* no Cebraspe:**
-> Se o texto afirma: *The official claimed that procurement rules were followed*, um item que assevera: *The author proves that procurement rules were strictly respected* está **ERRADO**. O verbo *claim* expressa alegação unilateral não comprovada, e não prova cabal.
+> Se o texto afirma: *The official claimed that procurement rules were followed*, um item que assevera: *The author proves that procurement rules were strictly respected* está **ERRADO**. O verbo *claim* atribui a afirmação ao agente, sem apresentar por si só prova cabal. O texto pode fornecer evidências em outro trecho; leia o contexto antes de julgar.
 
 ---
 
@@ -151,7 +151,7 @@ As provas da Câmara dos Deputados utilizam textos representativos dos gêneros 
 - ( ) Errado
 
 **Gabarito: Errado**  
-**Comentário:** O verbo "demonstrated" pertence à classe dos verbos de atribuição com juízo de fato/comprovação (*factive/corroborative reporting verbs*). Ele expressa que a equipe de auditoria provou e comprovou documentalmente suas constatações, e não que formulou meras hipóteses especulativas.
+**Comentário:** O verbo "demonstrated" pertence à classe dos verbos de atribuição com juízo de fato/comprovação (*factive/corroborative reporting verbs*). Ele apresenta as constatações como demonstradas pela equipe, e não como especulação sem apoio. O verbo isolado não informa quais documentos foram utilizados nem garante a validade externa das conclusões.
 
 ---
 
@@ -182,6 +182,44 @@ As provas da Câmara dos Deputados utilizam textos representativos dos gêneros 
 
 **Gabarito: Errado**  
 **Comentário:** O texto estabelece uma contraposição explícita ("While...") entre os propósitos comunicativos de cada gênero: as notas técnicas (*policy briefs*) priorizam síntese concisa e dados acionáveis voltados à tomada de decisão imediata, ao passo que tratados acadêmicos privilegiam debate teórico exaustivo e sistematização doutrinária. A assertiva subverte completamente a distinção pragmática entre os gêneros textuais.
+
+---
+
+## 4.1. Laboratório de leitura: três versões do mesmo fato (exercícios inéditos)
+
+Os textos abaixo são **ficcionais e escritos para treinamento**, não comunicados reais da Câmara nem questões oficiais. Compare a informação que cada gênero apresenta, a fonte a quem atribui uma conclusão e o que permanece incerto.
+
+**Texto A: nota pública de uma comissão (press release)**
+
+> The committee published a summary of the digital-accessibility consultation on Tuesday. The summary reports that 240 people submitted comments. The chair said that the comments would inform the next draft, but did not announce a date for publication.
+
+**Texto B: notícia independente (news brief)**
+
+> A parliamentary committee released a consultation summary this week. According to the committee, 240 submissions were received. Several accessibility groups welcomed the publication but argued that the summary did not specify how their recommendations would affect the proposed rules.
+
+**Texto C: comentário de acompanhamento (monitoring note)**
+
+> The publication marks a step toward a more transparent process. However, the number of submissions alone does not show whether the consultation was representative. A revised draft has not yet been published, and its possible effects remain uncertain.
+
+**Variação progressiva:** A informa o que a instituição divulgou; B conserva o número, mas identifica a fonte (*according to the committee*) e inclui a avaliação de terceiros; C distingue transparência do processo e representatividade, sem afirmar que a consulta foi ineficaz. Compare *would inform* (declaração sobre intenção futura) com *affected* (efeito já demonstrado): não são intercambiáveis.
+
+**Item A (inédito, C/E):** All three texts confirm that exactly 240 citizens took part in the consultation.
+
+**Gabarito: Errado.** A e B falam em comentários ou submissões, não em pessoas únicas verificadas em todos os textos. Uma pessoa pode enviar mais de uma submissão; C nem fornece o total. *Submissions* não equivale necessariamente a *citizens*.
+
+**Item B (inédito, C/E):** Text B attributes the number of submissions to the committee rather than presenting an independent count.
+
+**Gabarito: Certo.** *According to the committee* identifica a origem da informação e não indica auditoria autônoma do número.
+
+**Item C (inédito, C/E):** Text C asserts that the consultation was unrepresentative because the number of submissions was low.
+
+**Gabarito: Errado.** C afirma que o número isolado **não demonstra** representatividade. Não qualifica 240 como pequeno nem conclui que a consulta foi não representativa.
+
+**Item D (inédito, C/E):** The chair's statement in Text A establishes that the next draft was already published on Tuesday.
+
+**Gabarito: Errado.** *Would inform the next draft* expressa intenção ou expectativa relativa à próxima versão. A registra expressamente que nenhuma data de publicação foi anunciada; C acrescenta que a versão revista ainda não foi publicada.
+
+**Método de resposta:** localizar a expressão que sustenta o julgamento; identificar quem a afirma; separar o evento concluído, a previsão e a hipótese. A diferença entre os textos exemplifica **intertextualidade por retomada e reinterpretação**, não contradição necessária.
 
 ---
 

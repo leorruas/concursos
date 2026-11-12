@@ -37479,6 +37479,118 @@
       "correctAnswer": "C",
       "explanation": "A classificação por indicador de resultado primário e a classificação por fonte/destinação não são substitutas. Uma informa o efeito fiscal; a outra identifica regras de aplicação.",
       "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 020. Artigo canônico art-d8b1c5e6037249fa, seção literal verificada. Conferência editorial independente, validação de referência normativa, triagem de similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-021-emenda-loa-reserva-pessoal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "emenda-loa-fontes-vedadas",
+      "mechanism": "reconhecer-proibicao-de-anulacao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Emendas aos projetos orçamentários: critérios"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Emendas aos projetos orçamentários: critérios"
+      },
+      "statement": "Uma emenda ao projeto de LOA, compatível com PPA e LDO, pode indicar como fonte de recursos a anulação de dotação de pessoal e encargos sociais, pois a compatibilidade com as leis de planejamento afasta as restrições sobre anulações.",
+      "correctAnswer": "E",
+      "explanation": "O art. 166, § 3º, II, da Constituição exclui dotações para pessoal e encargos sociais, serviço da dívida e transferências tributárias constitucionais da anulação que financia emendas.",
+      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 021. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas aos projetos orçamentários: critérios'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-022-emenda-ldo-ppa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "emenda-ldo-compatibilidade",
+      "mechanism": "aplicar-criterio-proprio-ldo",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Emendas aos projetos orçamentários: critérios"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Emendas aos projetos orçamentários: critérios"
+      },
+      "statement": "Uma emenda ao projeto da LDO que contrarie o PPA pode ser aprovada desde que o parlamentar indique cancelamento de despesa na proposta de LOA.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição, art. 166, § 4º, impede a aprovação de emendas à LDO incompatíveis com o PPA. A indicação de recursos para emendas à LOA não substitui essa condição.",
+      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 022. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas aos projetos orçamentários: critérios'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-023-impedimento-tecnico-emenda",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "impositividade-impedimento-tecnico",
+      "mechanism": "distinguir-obrigatoriedade-e-excecao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Emendas parlamentares: individuais, bancadas e comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Emendas parlamentares: individuais, bancadas e comissões"
+      },
+      "statement": "A execução obrigatória de programação decorrente de emenda individual não impede o reconhecimento de impedimento de ordem técnica, nas condições constitucionais aplicáveis.",
+      "correctAnswer": "C",
+      "explanation": "A garantia de execução das emendas individuais não é absoluta: a Constituição, art. 166, § 13, prevê a ressalva de impedimentos de ordem técnica.",
+      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 023. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas parlamentares: individuais, bancadas e comissões'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-024-transferencia-especial-convenio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "transferencia-especial-convenio",
+      "mechanism": "distinguir-formalizacao-e-controle",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Emendas parlamentares: individuais, bancadas e comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Emendas parlamentares: individuais, bancadas e comissões"
+      },
+      "statement": "Na transferência especial de recursos de emenda individual impositiva a município, a dispensa constitucional de convênio não elimina as condições de aplicação nem o controle do uso dos valores.",
+      "correctAnswer": "C",
+      "explanation": "O art. 166-A da Constituição admite transferência especial independentemente de convênio, mas impõe regras de destinação e vedações, sem afastar controle e transparência.",
+      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 024. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas parlamentares: individuais, bancadas e comissões'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
     }
   ]
 }

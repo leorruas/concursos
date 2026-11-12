@@ -1127,3 +1127,48 @@ O universo **formal identificado no conteúdo dos 34 artigos numerados** é de *
 ### Efeito sobre o gate da Fase 1
 
 **Universo formal segue em 144 questões**, sendo 138 C/E e seis A–E. **Todas têm leitura individual registrada**; **seis permanecem suspensas, nenhuma está certificada integralmente** por todo o protocolo de fontes/exceções; há uma fila R de comentários e uma fila P0 de conceitos e exemplos do corpo dos artigos. **Nenhuma questão original, artigo, hub, catálogo ou dado privado foi alterado**. A Fase 1 continua aberta para verificar sistematicamente as passagens teóricas/exemplos e referências ainda sem fonte; o presente bloco conclui **apenas a conciliação das suspensões identificadas**, e não substitui a futura fase de correções.
+
+
+## Bloco 26: consolidação da fila R, teste de consistência entre notas e exemplos teóricos prioritários (11/11/2026)
+
+**Método e delimitação:** recuperados os registros por item dos **blocos 19–24** deste relatório e contadas suas **linhas de tabela** por decisão: **M=88**, **R=49** e **S=7**, referentes às **144 questões de bateria formal** (138 C/E e seis A–E). Aplicada somente a atualização expressamente documentada no **bloco 25**, `14#3` **S → R**: quadro **atual = 88 M, 50 R, seis S**. O volume de R é a quantidade de questões **cujo comentário/escopo exige revisão**, não 50 gabaritos errados, 50 artigos nem 50 erros independentes. As seis S continuam `15#3,18#2,23#5,28#3,29#5,32#1`. **Não houve reclassificação nova de outros itens**.
+
+A seguir, foram reabertos por conector GitHub, para **cotejo de trechos teóricos e exemplos específicos**, os artigos `03 - pontuacao e virgula.md`, `14 - informacao explicita pressuposto e inferencia.md`, `15 - tipologia textual criterios de distincao e sequencias prototipicas.md`, `19 - substituicao elipse repeticao e coesao lexical.md`, `21 - tempo modo e aspecto verbal na construcao do texto.md` e `26 - pontuacao e efeitos na estrutura e no sentido.md`. Esta é uma **verificação dirigida de passagens selecionadas**, não leitura integral adicional, nem validação em fontes primárias por edição/página; exemplos de outros artigos e todos os comentários R permanecem com correção ainda não executada.
+
+### Conciliação quantitativa sem duplicação
+
+| Origem do quadro anterior | M | R | S | Total |
+| --- | ---: | ---: | ---: | ---: |
+| Bloco 19, notas 22–25 | 17 | 6 | 1 | 24 |
+| Bloco 20, notas 26–29 | 14 | 8 | 2 | 24 |
+| Bloco 21, notas 17–21 | 16 | 13 | 1 | 30 |
+| Bloco 22, notas 30–34 | 21 | 8 | 1 | 30 |
+| Bloco 23, notas 12–16 | 15 | 13 | 2 | 30 |
+| Bloco 24, notas 09–11 | 5 | 1 | 0 | 6 |
+| **Soma antes do bloco 25** | **88** | **49** | **7** | **144** |
+| **Reclassificação bloco 25: 14#3** | 0 | **+1** | **−1** | 0 |
+| **Estado vigente** | **88** | **50** | **6** | **144** |
+
+Não somar as sete reavaliações do bloco 25 às 144: tratou-se das **mesmas questões**, cuja decisão foi refinada. **M não é certificação integral, R não é inversão, S não é gabarito automaticamente errado**.
+
+### Testes de teoria e exemplos de maior risco
+
+**PT-159, contradição direta entre artigos `03` §3 e `26` §3/tabela de pontuação, P0.** O arquivo `03 - pontuacao e virgula.md`, seção **“3. Adjuntos Adverbiais Deslocados”**, já afirma textualmente que **“não existe uma regra universal segura do tipo três palavras ou mais = vírgula obrigatória”**. A tabela do arquivo `26 - pontuacao e efeitos na estrutura e no sentido.md` declara, em contraste, **“Adjunto Adverbial LONGO Deslocado (3 ou mais palavras / locuções extensas): OBRIGATÓRIA”** e que a retirada **“prejudica a correção gramatical”**. Trata-se de **incompatibilidade literal confirmada entre dois materiais da mesma matéria**. Reparo futuro: substituir corte numérico por análise de posição, estrutura, extensão, intercalação, ambiguidade e registro; conservar o critério contextual da nota 03, com exemplos em que extensão igual pode admitir tratamentos diferentes. **Aceite:** nenhuma regra `≥3 palavras → vírgula obrigatória` na teoria, tabelas, cartões ou comentários da nota 26; testar a coerência com `26#1` e com `25#4` sem inverter automaticamente seus gabaritos.
+
+**PT-160, erro lógico repetido, `14` §“Orações Adjetivas: Explicativa versus Restritiva”, P0.** A nota usa “Os deputados federais **que compareceram à sessão noturna** votaram a matéria orçamentária” e afirma: **“Apenas uma parte dos deputados compareceu à sessão noturna; houve deputados que não compareceram.”** Uma relativa restritiva **delimita o referente do predicado**, mas **não implica existencialmente** outro subconjunto de deputados que faltaram. O universo poderia conter apenas deputados presentes. A nota também associa a explicativa a **“todos os deputados federais”**, quando o compromisso discursivo é relativo ao **referente plural contextualmente identificado**, não necessariamente à classe universal. Reparo futuro: contrastar `os deputados que compareceram...` com `os deputados, que compareceram,...` em **contexto explícito**, evitando quantificadores universais extras; alinhar `03/07/14/25`, `14#5` e `25#1`. **Aceite:** caso de teste no qual todos compareceram, sem contradição com oração restritiva.
+
+**PT-161, aspecto versus comprovação de fato, `21` introdução e §2.2/tabela, P0.** A nota exemplifica **“O gestor autorizou o repasse”** como **“fato pontual, concluído e cabalmente comprovado”**, e a tabela estabelece **“Pretérito Perfeito Simples = fato pontual ... integralmente concluído”**. O **valor morfológico de pretérito perfeito e aspecto perfectivo não produz prova externa de veracidade** do relato, tampouco todo evento perfectivo é temporalmente pontual. O modo indicativo pode ser usado em alegações falsas, hipóteses contextuais ou narrativas ficcionais, sem que sua flexão os autentique. Reparo futuro: distinguir **apresentação enunciativa de evento como concluído** de **duração física** e **evidência documental**; introduzir `durante três horas, o colegiado debateu a proposta` como perfectivo não pontual e `segundo o depoente, o gestor autorizou...` como perfectivo sem prova de fato. **Aceite:** nenhuma definição ou questão autoral transforma indicativo/perfectivo em certificação factual; reler `21#2/#3`.
+
+**PT-162, definição de argumentação restrita em diferentes superfícies, `15` §§2–4, diagramas e `15#3`, P0.** A nota afirma que a sequência argumentativa requer **“tese (juízo de valor explícito sobre tema controverso)”**, e o diagrama fecha `argumentação = tese com juízo de valor`; sua Q3 considera isso diferença **essencial** da exposição. Isso contrasta com as notas de Redação `01–03`, que contemplam tese técnica sustentada por razões. Reparo futuro: fixar **tese defendida + razões/evidências + conclusão ou defesa** como núcleo, deixando controvérsia/juízo avaliativo como **possíveis recursos**, não condições necessárias. Adicionar par `exposição de dados de auditoria` versus `defesa fundamentada de proposta de controle`. **Aceite:** atualizar conjuntamente corpo, diagrama, resumo e questão, antes de liberar `15#3` (atualmente S).
+
+**PT-163, exemplo de nominalização e revisão editorial, `19` Q5 e § de nominalização, P1.** A questão `19#5` sustenta a função coesiva de nominalizar `deliberou` para `essa deliberação`, **mantendo C provisório**. Seu comentário contém o trecho literalmente inválido **“novos rezas informativos”** e descreve nominalização como transformação em conceito **“estático e consolidado”** em qualquer caso. Reparo: corrigir o termo para algo como **“novas informações”**, mostrar que nominalização retoma/reorganiza a apresentação de um processo sem necessariamente afirmar sua conclusão ou certeza; conferir se `essa deliberação` nomeia o ato ou o resultado em contexto. **Aceite:** texto legível e exemplo com referente inequívoco, sem atribuir caráter concluído a toda nominalização.
+
+### Ordem da fila de revisão de justificativas
+
+**Primeira passagem, P0:** harmonizar `03↔26` (regra de vírgula), `03/07/14/25` (relativas), `15` e `13` (tese/argumentação), `21` (aspecto/factualidade). **Segunda passagem, P1:** reformular os comentários R que atribuem obrigatoriedade, proibição ou equivalência absoluta sem contexto (`20#4/#5/#6`, `24#2/#5`, `25#4/#5`, `28#2/#4/#5`, `30#3/#6`, `33#4`, `34#2/#3`); conferir fonte primária ou delimitar o registro. **Terceira passagem, P2:** retirar afirmações de frequência Cebraspe sem corpus, revisar ortografia e justificativas de alternativas A–E (`09#1`).
+
+**Separação de fases:** esta ordem é **plano fundamentado**, não autorização para editar artigo. Se futuramente autorizada a fase de reparos, cada atualização deverá verificar novamente gabarito, teoria, exemplos, diagramas, questão e remissões vinculadas, preservando IDs, aliases, formatos FGV/Cebraspe e privacidade.
+
+### Estado e continuidade
+
+**PT-001–PT-163** são rótulos históricos de achados, seis deles colididos na origem `PT-011–016`, e não correspondem a 163 erros distintos. **144 questões de bateria formal inventariadas e revisadas individualmente**, com **88 M / 50 R / 6 S**, **zero inversões comprovadas e zero homologações integrais**. O inventário cobre 34/34 artigos numerados e todos os 20 subitens do edital têm ao menos uma nota candidata associada, sem significar cobertura pedagógica certificada. **Próximo bloco de auditoria:** verificar sistematicamente outros exemplos prioritários nas notas `01/07/17/25/29/30` e fechar lista de **afirmações P0 por trecho e teste de aceite**. **Fase 1 continua aberta** para leitura integral e validação normativa das passagens; artigos de estudo, hub, catálogo e demais matérias intactos.

@@ -79,6 +79,22 @@ A sessão conjunta **realiza-se em regra no Plenário da Câmara dos Deputados**
 
 **Caso:** notícia pública afirma que uma sessão conjunta foi “sessão da Câmara” porque ocorreu no Plenário da Câmara. A descrição está conceitualmente errada: a sessão **é do Congresso Nacional**, presidida conforme o regime do Congresso. O espaço físico é um **elemento logístico**, não uma alteração da composição ou da competência do órgão.
 
+### Mapa transversal de vigência: a sessão conjunta e o rito da matéria
+
+O Título I do Regimento Comum define **finalidade, convocação e local** da sessão conjunta. Para saber **como** a proposição é examinada, a fonte precisa ser completada com o rito especial e com a Constituição vigente. A leitura cruzada evita transformar dispositivos históricos de 1970 em regras atuais.
+
+| Matéria ou órgão | Dispositivo de partida | Regra vigente e cuidado de interpretação | Aprofundamento |
+| --- | --- | --- | --- |
+| **Emenda constitucional** | RCCN, art. 1º, III; arts. 72–85 | A Constituição, art. 60, §§ 2º–3º, exige **votação separada em cada Casa** e **promulgação pelas duas Mesas**. No Regimento Comum, **arts. 72–84 foram revogados**, permanecendo a regra compatível de promulgação do art. 85 | [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|RCCN, Título IV]] |
+| **Projetos orçamentários** | RCCN, art. 1º, V; arts. 89–103 | Aplicar a **CF, art. 166**, e a **Resolução nº 1/2006-CN**, inclusive suas alterações. Os artigos originários não bastam para descrever integralmente a CMO e o processo orçamentário atual | [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|Orçamento no Regimento Comum]] |
+| **Delegação legislativa** | RCCN, art. 1º, IX; arts. 116–127 | **CF art. 68** define matéria e instrumento; o RCCN complementa o procedimento. Não confundir os **45 dias regimentais para o exercício da delegação** (art. 119, § 2º) com a **urgência presidencial de 45 dias** (CF art. 64) | [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|Lei delegada]] |
+| **Medida provisória** | CF, art. 62; Resolução nº 1/2002-CN | A MP é examinada pelas Casas na ordem constitucional, com **comissão mista**. Os dispositivos que dispensavam essa fase, identificados como inconstitucionais na **ADI 4.029**, e o rito excepcional da pandemia não constituem regra ordinária atual | [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|MP no Congresso]] |
+| **Comissão Representativa no recesso** | CF, art. 58, § 4º; Resolução nº 3/1990-CN | A redação antiga das datas do art. 3º da resolução deve ser lida à luz da **EC nº 50/2006** e do atual **art. 57 da CF** | [[3 - Materias/Direito Constitucional/32 - comissao representativa do congresso resolucao 3 1990|Comissão Representativa]] |
+
+**Como julgar um item C/E:** identifique primeiro se o enunciado pergunta **onde se reúnem as Casas**, **qual órgão delibera**, **qual ato é votado** ou **qual texto histórico continua vigente**. Uma regra correta sobre sessão conjunta não transforma automaticamente a votação de uma PEC em deliberação de plenário único.
+
+**Fontes para cotejo:** [Regimento Comum consolidado pelo Senado](https://legis.senado.leg.br/norma/561098/publicacao/36852069); [Constituição atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html); [Regimento Comum e normas conexas](https://www.congressonacional.leg.br/pt/legislacao-e-publicacoes/regimento-do-congresso-nacional). As notas específicas registram os limites e as alterações de cada procedimento.
+
 ## 4. Quatro pares próximos que a Cebraspe tende a transpor
 
 | Par | Primeira categoria | Segunda categoria |

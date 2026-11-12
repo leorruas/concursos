@@ -162,7 +162,7 @@ No estudo dialogado, foram realizadas **três questões didáticas sobre sigilo 
 
 **Cobertura nesta nota:** independência/autonomia, objetividade, conflito, impedimento, 24 meses, consultoria prévia e supervisão (itens 45 a 54). O sigilo (itens 55 a 58) está na nota especializada. A bateria verificou parte das fronteiras e revelou dois pontos a reforçar.
 
-**Unidade didática 02:** a parte de proficiência, zelo e ceticismo (itens 59 a 68) já foi aprofundada em [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|nota própria]]. O encerramento didático e as pendências de revisão ficam em [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]], sem presunção de retenção permanente.
+**Unidade didática 02:** a parte de proficiência, zelo e ceticismo (itens 59 a 68) já foi aprofundada em [[3 - Materias/Auditoria Governamental/04 - proficiencia zelo e ceticismo profissional|nota própria]]. O encerramento didático e as pendências de revisão ficam em registro individual de estudos mantido no cofre privado, sem presunção de retenção permanente.
 
 ## Fontes primárias
 

@@ -11,6 +11,7 @@ permissions:
 jobs:
   validar:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -25,6 +26,7 @@ jobs:
       - run: node scripts/test-article-identity.js
       - run: node scripts/validate-vault-invariants.js --public-only
       - run: node scripts/test-contest-catalog.js && node scripts/test-contest-home-filter.js && node scripts/test-contest-article-filter.js && node scripts/test-contest-search-scope.js
+      - run: node scripts/test-home-without-provas.js
       - run: node scripts/validate-search-governance.js
       - run: node scripts/build-site.js
       - run: node scripts/test-public-privacy.js && node scripts/validate-flashcards.js --site && node scripts/test-public-projects.js && node scripts/test-glossary.js && node scripts/test-glossary-flashcards.js && node scripts/test-multi-glossary.js

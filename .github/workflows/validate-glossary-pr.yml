@@ -7,10 +7,10 @@ on:
       - 'scripts/test-glossary*.js'
       - 'scripts/test-glossary-browser.cjs'
       - 'scripts/build-site.js'
-      - '.github/workflows/validate-glossary-pr.yml'
-      - 'web/09-glossary.js'
-      - 'style.css'
       - 'index.html'
+      - 'style.css'
+      - 'web/**'
+      - '.github/workflows/validate-glossary-pr.yml'
   workflow_dispatch:
 
 concurrency:
@@ -23,6 +23,7 @@ permissions:
 jobs:
   validar:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -44,9 +45,12 @@ jobs:
         timeout-minutes: 5
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 --directory _site >/tmp/glossario-http.log 2>&1 &
-          node scripts/test-glossary-browser.cjs
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true; wait "$server_pid" 2>/dev/null || true' EXIT
+          curl --fail --silent --show-error --retry 10 --retry-connrefused --retry-delay 1 --max-time 2 http://127.0.0.1:8765/ >/dev/null
+          timeout --signal=TERM --kill-after=10s 180s node scripts/test-glossary-browser.cjs
       - name: Anexar capturas do glossário
-        if: always()
+        if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
         with:
           name: capturas-glossario

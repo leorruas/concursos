@@ -92,6 +92,38 @@ Itens inéditos, elaborados para aprendizagem, **não questões reais do Cebrasp
 
 **Fontes específicas:** [Guia Prático de Análise Ex Post, Ipea/Casa Civil](https://ipea.gov.br/portal/images/stories/PDFs/livros/livros/181218_avaliacao_de_politicas_publicas_vol2_guia_expost.pdf), modelo lógico; [Lassance (2026), análise ex ante e teoria do programa, Ipea](https://repositorio.ipea.gov.br/entities/book/df969e98-db5e-4c9f-868b-319899862b8d/full); [Decreto 9.203/2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm), conceito normativo de valor público. O decreto rege a administração direta, autárquica e fundacional do **Executivo federal**; a cadeia aqui apresentada é instrumento analítico e não obrigação instituída pelo decreto para a Câmara.
 
+## Alinhamento estratégico e avaliação de impacto (CAM-AP-015)
+
+Uma instituição pode cumprir perfeitamente um **plano operacional** e ainda produzir pouco valor público se o objetivo escolhido não responder à necessidade social. **Alinhamento estratégico** é a coerência entre problema público, missão institucional, objetivos, recursos, processos, indicadores, responsabilidades e mecanismos de decisão. Ele exige revisar escolhas quando evidências mostram que entregas não conduzem aos resultados pretendidos.
+
+A relação entre os conceitos é:
+
+| Elemento | Pergunta | Exemplo hipotético: acesso à produção legislativa |
+| --- | --- | --- |
+| **Finalidade e problema público** | Que necessidade legítima se pretende atender? | Barreiras à compreensão de documentos legislativos |
+| **Objetivo estratégico** | Qual mudança se pretende alcançar? | Melhorar o acesso compreensível, respeitando competências institucionais |
+| **Iniciativa e atividade** | Que processos serão organizados? | Redesenhar busca e revisar conteúdos com critérios de acessibilidade |
+| **Entrega** | O que será disponibilizado? | Busca aperfeiçoada, glossário e documentos em formatos utilizáveis |
+| **Indicador de resultado** | O que mudou para o público? | Proporção de usuários que localizam informação correta em teste comparável |
+| **Impacto pretendido** | Que mudança mais ampla se busca? | Fortalecer condições para acompanhamento e controle social |
+| **Governança** | Quem escolhe, acompanha riscos e revê a direção? | Responsáveis institucionais avaliam resultados, equidade, custos e correções |
+
+**Meta não é indicador:** a meta estabelece o patamar ou a trajetória desejada de uma medida; o indicador é a variável observada. **Produto não é resultado:** publicar um glossário é entrega, compreendê-lo e utilizar informação é resultado possível. **Efeito observado não é impacto causal atribuído:** eventual aumento do controle social pode decorrer também de campanhas, interesse público, mudanças políticas ou fatores externos. Para estimar **efeito da intervenção**, avaliação de impacto exige desenho apropriado ao problema e evidências capazes de examinar explicações concorrentes. A avaliação pode empregar métodos experimentais ou quase experimentais, entre outras estratégias, conforme viabilidade e pergunta; não há obrigação de usar sempre um único método.
+
+**Caso progressivo:** (1) um órgão fixa meta de publicar mil páginas: mede quantidade de entrega; (2) investiga se as páginas respondem a necessidades do público: ajusta alinhamento; (3) testa antes e depois se usuários localizam informações: identifica mudança observada, com limites metodológicos; (4) analisa grupos com maior dificuldade e fatores externos: enfrenta equidade e causalidade; (5) reorienta recursos e metas com base nas evidências: conecta avaliação à governança. **Contraexemplo:** afirmar que cumprir 100% das entregas programadas prova que a ação causou aumento da participação democrática. O cumprimento é evidência de execução, não demonstração de causalidade.
+
+### Exercícios inéditos C/E: alinhamento e impacto
+
+**1.** Em planejamento público, é possível que um projeto alcance sua meta de entregas e ainda não produza a mudança esperada para os usuários. **Gabarito: Certo.** Cumprimento de produtos e efetividade são dimensões distintas.
+
+**2.** Para atribuir causalmente um resultado a uma ação pública, basta observar melhora de indicador depois da implementação, sem examinar outras causas possíveis. **Gabarito: Errado.** Sequência temporal, por si, não identifica efeito causal.
+
+**3.** O alinhamento estratégico exige correspondência entre necessidades públicas, objetivos, recursos, ações e resultados, podendo justificar revisão do plano diante de evidência de baixa efetividade. **Gabarito: Certo.** Planejamento e governança devem ser capazes de corrigir direção.
+
+**4.** Toda avaliação de impacto de política pública exige obrigatoriamente experimento aleatorizado, sendo inválido qualquer desenho quase experimental. **Gabarito: Errado.** A escolha do método depende da pergunta e das condições da avaliação.
+
+Os exercícios são **autorais**, não transcrições do Cebraspe. Para a metodologia completa, consultar [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|Teoria da mudança]], [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas|Monitoramento e avaliação]] e [[3 - Materias/Administracao Geral/02 - planejamento estrategico|Planejamento estratégico]]. **Fontes:** [Ipea/Casa Civil, Guia prático de análise ex ante](https://repositorio.ipea.gov.br/handle/11058/8285); [Ipea/Casa Civil, Guia prático de análise ex post](https://repositorio.ipea.gov.br/handle/11058/8853). Trata-se de aplicação conceitual do item 9 do edital, sem imputar obrigatoriedade de instrumento interno específico à Câmara.
+
 ## Princípios do Decreto nº 9.203/2017
 
 O art. 3º enumera seis princípios de governança pública:

@@ -82,6 +82,20 @@ Os elementos precisam concordar entre si. A capa não deve antecipar resultado q
 
 **Caso de fronteira:** uma postagem marca determinada autoridade e informa uma decisão institucional. A marcação não é prova documental da decisão; a publicação requer uma fonte verificável e atribuição correta de responsabilidades.
 
+## Como o Cebraspe cobra: itens inéditos de Certo/Errado
+
+**Item 1.** Em um vídeo institucional, a legenda que acompanha a postagem pode contextualizar a fonte e orientar o público, sem necessariamente substituir as legendas sincronizadas que representam a fala do vídeo.
+
+**Gabarito: Certo.** O texto externo à mídia e a legenda audiovisual têm funções diferentes. A confusão decorre da palavra comum “legenda”.
+
+**Item 2.** O emprego de hashtags pertinentes assegura a indexação do conteúdo por mecanismos externos de busca, pois toda hashtag equivale a uma palavra-chave otimizada para qualquer serviço de pesquisa.
+
+**Gabarito: Errado.** Hashtags podem apoiar agrupamento na plataforma, mas não garantem indexação nem alcance externo. O erro extrapola a função de classificação para efeito técnico universal.
+
+**Item 3.** Uma chamada para ação pode direcionar o cidadão a um canal formal de participação, mas a possibilidade de comentar na rede social não basta, por si só, para produzir os efeitos de uma manifestação institucionalmente registrada.
+
+**Gabarito: Certo.** A interação disponibilizada pela plataforma e o procedimento formal possuem requisitos e efeitos distintos.
+
 ## Oficina editorial: legenda textual, alternativa acessível e participação formal
 
 **Situação:** a Câmara anuncia uma audiência por meio de card com texto e uma chamada para ação. **Capa:** identificar assunto e data sem declarar a decisão como já tomada. **Legenda textual da publicação:** explicar contexto, condições relevantes e caminho para o documento oficial. **Texto alternativo da imagem:** descrever a função e a informação visual necessária que não esteja já disponível em texto próximo; o [guia de decisão do W3C para imagens](https://www.w3.org/WAI/tutorials/images/decision-tree/) distingue imagens informativas, funcionais e decorativas. **Marcação de perfil:** identificar fonte ou participante quando pertinente, após verificar autoria e contexto; não presumir endosso. **Palavras-chave e hashtags:** apoiar busca e agrupamento sem prometer alcance automático. **CTA:** indicar a **ação realizável e o destino**, por exemplo consultar a pauta ou registrar manifestação no canal apropriado.
@@ -97,20 +111,6 @@ Os elementos precisam concordar entre si. A capa não deve antecipar resultado q
 **Gabarito: Certo.** É preciso distinguir **interação de plataforma**, **canal institucional de atendimento/participação** e **efeito formal**, segundo os procedimentos efetivamente aplicáveis. O Ato nº 218/2025 favorece o diálogo e a participação, sem transformar automaticamente toda funcionalidade privada em protocolo legislativo.
 
 **Fonte institucional:** [Ato da Mesa nº 218/2025, arts. 6º a 9º](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html). Casos e itens 4 e 5 são criados para estudo; sua aplicação a uma rede específica depende das funcionalidades e regras de acessibilidade presentes.
-
-## Como o Cebraspe cobra: itens inéditos de Certo/Errado
-
-**Item 1.** Em um vídeo institucional, a legenda que acompanha a postagem pode contextualizar a fonte e orientar o público, sem necessariamente substituir as legendas sincronizadas que representam a fala do vídeo.
-
-**Gabarito: Certo.** O texto externo à mídia e a legenda audiovisual têm funções diferentes. A confusão decorre da palavra comum “legenda”.
-
-**Item 2.** O emprego de hashtags pertinentes assegura a indexação do conteúdo por mecanismos externos de busca, pois toda hashtag equivale a uma palavra-chave otimizada para qualquer serviço de pesquisa.
-
-**Gabarito: Errado.** Hashtags podem apoiar agrupamento na plataforma, mas não garantem indexação nem alcance externo. O erro extrapola a função de classificação para efeito técnico universal.
-
-**Item 3.** Uma chamada para ação pode direcionar o cidadão a um canal formal de participação, mas a possibilidade de comentar na rede social não basta, por si só, para produzir os efeitos de uma manifestação institucionalmente registrada.
-
-**Gabarito: Certo.** A interação disponibilizada pela plataforma e o procedimento formal possuem requisitos e efeitos distintos.
 
 ## Relações com outros temas
 

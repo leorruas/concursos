@@ -1308,3 +1308,60 @@ Legenda: **Q** = exercícios ou exemplos individualizáveis encontrados no arqui
 **DA-121, bloqueio de encerramento formal:** com G1 **inventariado**, mas não plenamente certificado, e G2–G5 ainda com pendências, é incorreto declarar “auditoria pedagógica e conceitual integral finalizada”. A matriz da frente está pronta para orientar Fase 2 futura, mas permanece **Fase 1 em curso, diagnóstico por artigo mapeado, certificação jurídica e editorial pendente**. A abertura de novos artigos por outra frente não autoriza esta auditoria a editá-los.
 
 **Estado consolidado após bloco 28:** DA-001–**DA-121** são **registros de várias naturezas**, incluindo erros jurídicos, ressalvas, lacunas, correções de inventário e verificações positivas; **não são 121 erros**. Nenhum artigo, gabarito, \`articleId\`, catálogo ou banco de estudo foi alterado por este trabalho. Próxima etapa: averiguar se nova nota para **cadeia de valor público** foi publicada por outro agente, validar suas fontes se surgir, ou delimitar a recomendação de uma unidade própria, e continuar certificação integral dos textos pelos erros P0 e riscos P1, sem adotar automaticamente Fase 2.
+
+
+## Bloco 29: AP07 concorrente, revalidação de erros P0 e saldo atualizado do programa (11/11/2026)
+
+**Procedimento:** conferência da árvore \`main\`, artigo AP07, hub, catálogo e trechos ainda incorretos de DA07, DA18, DA19, DA22; confronto de definições jurídicas com textos normativos oficiais. **Não alterar** artigos de estudo, itens, catálogo, hubs ou os relatórios de outras matérias. Este é diagnóstico pontual aprofundado, **não auditoria textual integral dos 34 artigos**.
+
+### Alteração concorrente: artigo AP07 e edital 8.2
+
+Novo arquivo identificado: \`3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor.md\`, SHA \`101b08146010677ef590b35e50bf4c7b64be9e1b\`, \`articleId: art-d8257e60c3494b91\`, com seis questões autorais C/E. O hub AP atualizado (SHA \`313c2c573fc7c271c9edaf243763ef8544ab3543\`) o vincula como \`CAM-AP-007\`. O catálogo \`camara-2026\` (SHA \`70238306d65375b21f8a631077d907c09e37b602\`) agora contém **27 articleIds DA + 7 articleIds AP**. **Não há artigo com nome específico “cadeia de valor público” na árvore consultada**, portanto a cobertura de 14.2.3 **8.4** continua parcial, conforme DA-116.
+
+O AP07 distingue contrato administrativo comum, delegação de serviço público, PPP da Lei 11.079/2004, instrumentos MROSC da Lei 13.019/2014, OS da Lei 9.637/1998, OSCIP da Lei 9.790/1999 e redes de cooperação. A [Lei 13.019/2014, art. 2º VII, VIII, VIII-A, atualizada](https://www2.camara.leg.br/legin/fed/lei/2014/lei-13019-31-julho-2014-779123-normaatualizada-pl.html) confirma: **termo de colaboração** parte da proposta da Administração com recursos financeiros; **termo de fomento**, da OSC com recursos financeiros; **acordo de cooperação**, sem transferência financeira. A [Lei 11.079/2004, art. 2º, atualizada](https://www2.camara.leg.br/legin/fed/lei/2004/lei-11079-30-dezembro-2004-535279-normaatualizada-pl.html) confirma que PPP em sentido legal corresponde a **concessão patrocinada ou administrativa**, e não toda contratação ou concessão comum.
+
+**Itens AP07, individualizados e cotejados quanto aos conceitos decisivos:**
+
+| Item | Núcleo | Gabarito da nota | Cotejo |
+| --- | --- | --- | --- |
+| 1 | Colaboração versus fomento, proponente e recursos | **C** | Coerente com Lei 13.019 art. 2º VII–VIII |
+| 2 | Acordo de cooperação exigiria recursos financeiros | **E** | Coerente com art. 2º VIII-A: não envolve transferência financeira |
+| 3 | Toda contratação privada seria PPP | **E** | Coerente com Lei 11.079 art. 2º |
+| 4 | OS/contrato de gestão versus OSCIP/termo de parceria | **C** | Coerente com regimes gerais Leis 9.637 e 9.790; não certificadas todas as exclusões |
+| 5 | Lei 14.133 aplica-se ao Legislativo em função administrativa | **C** | Coerente com art. 1º I da Lei 14.133 |
+| 6 | Toda rede exigiria contratos Lei 14.133 | **E** | Coerente: coordenação em rede não é automaticamente contrato administrativo |
+
+As seis questões são **autorais**, não itens reais identificados do Cebraspe. **Nenhuma inversão nova demonstrada neste cotejo legal dirigido**. A leitura não certifica exaustivamente as normas de parcerias, hipóteses de incidência/afastamento do MROSC, requisitos de OSCIP/OS, limites financeiros de PPP nem o texto inteiro do AP07.
+
+### Revisão prioritária P0, com estado em fonte original
+
+| Ponto já registrado | Artigo e evidência em \`main\` | Fonte externa verificada | Situação |
+| --- | --- | --- | --- |
+| **DA-004**, gabarito invertido | DA22, SHA \`deb90178e30d1e0f92cabe125f87db2cf833bb67\`, **questão 2 ainda “Gabarito: CERTO”** para proibição perpétua | STF **ADI 2975**, mérito e embargos: parágrafo único do art. 137 inconstitucional; até nova lei, aplicar incompatibilidade do caput por **cinco anos**, sob ressalva de modificação legislativa superveniente | **P0 aberto, ERRADO** para questão que afirma proibição perpétua |
+| **DA-009**, citação de fonte falsa | DA18, SHA \`2cefab5e93ef2898fdea45e3977a469123e81266\`, seção cita **“Súmula 222 do TCU”** como responsabilidade de parecerista | Súmula TCU 222 trata de observância de **normas gerais de licitação** por entes federativos, não responsabilidade pessoal de parecerista; referência precisa ser removida ou substituída | **P0 aberto** |
+| **DA-036**, movimentação de pessoal | DA19, SHA \`319acec19201690352f000524e686112d29e0a5e\`, seção afirma **necessária concordância entre órgãos** para composição de força de trabalho | [Decreto 10.835/2021 atualizado, art. 13](https://www2.camara.leg.br/legin/fed/decret/2021/decreto-10835-14-outubro-2021-791864-normaatualizada-pe.html): irrecusável e sem anuência de origem na regra; §1º ressalva estatais não dependentes; §2º não abrange movimentações para outros Poderes ou entes | **P0 aberto**, com cuidado de escopo para a Câmara |
+| **DA-019/020**, improbidade | DA07, SHA \`cdf44d212ad9c129fd4102c4ec91372235c36677\`, prescrição baseada em Tema 1199 sem ADIs **7156/7236 (2026)** | [STF, notícia oficial do julgamento em 1º/07/2026](https://noticias.stf.jus.br/postsnoticias/stf-invalida-reducao-de-prazo-de-prescricao-prevista-na-reforma-da-lei-de-improbidade-administrativa/) | **P0 aberto** para cotejo de texto consolidado e efeitos do julgamento |
+
+**Conclusão jurídica restrita:** o erro DA22#2 segue inequívoco, com documentação da decisão e embargos; os três outros blocos P0 seguem igualmente **sem reparo**. A rechecagem de arquivo identifica persistência, **não certifica o resto das notas**. **Não inserir correções nesta Fase 1.**
+
+### Matriz e portões G1–G5
+
+O inventário passa a **34 artigos próprios numerados**, sendo **27 DA + 7 AP**; os hubs permanecem dois. Os exercícios individuais em notas passam de 152 para **158**: 120 questões numeradas DA, 6 exemplos DA10/11, 9 exemplos AP01/02/03, 5 AP04, 6 AP05, 6 AP06 e **6 AP07**. São itens de estudo, todos **lidos em graus diferentes**, não 158 verificações de legalidade exaustivas. Os **48 itens \`pilotoDidatico\` DA/AP** do JSON da Câmara e **10 questões reais CNMP** são camadas distintas, sem deduplicação integral.
+
+**14.2.3 8.1:** NPG com AP04; **8.2:** redes em AP05 e parcerias em AP07; **8.3:** coprodução em AP06 e transparência em AP03; **8.4:** valor/cadeia de valor **parcial**, por AP02/AP05/AP06 e avaliação de políticas. O restante do edital possui matriz por subitem no bloco 18 e riscos de contratos em blocos 13/14. A atualização de cobertura com outros agentes **não reclassifica automaticamente qualidade como homologada**.
+
+**G1:** inventário atualizado para 158, com seis novos itens AP07 lidos em cotejo dirigido; **homologação jurídica integral das justificativas ainda pendente**. **G2:** revisão exaustiva do corpo dos 34 artigos pendente. **G3:** 8.4 cadeia de valor ainda carece de tratamento canônico; licitações/ETP/TR/gestão contratual requerem integrar DA08/CT09/CT10. **G4:** navegação de URLs reais do site não testada. **G5:** sem aprovação formal do encerramento ou início da Fase 2.
+
+### Registros novos
+
+**DA-122, ALTERAÇÃO POSITIVA DE COBERTURA:** AP07 existe, está no hub e no catálogo da Câmara, com mapa de contratos, PPP, MROSC, OS, OSCIP e redes. O item 8.2 passa a contar com **dois artigos específicos AP05 e AP07**, além de matérias transversais, reduzindo lacuna inicial de parcerias. Conteúdo ainda sem certificado jurídico integral.
+
+**DA-123, CONFERÊNCIA DE QUESTÕES AP07:** seis itens inéditos lidos com resultados **C/E/E/C/C/E**, coerentes quanto aos fundamentos legais principais citados; sem inversão demonstrada ou comprovação de que sejam itens reais.
+
+**DA-124, REVALIDAÇÃO P0:** DA22#2, DA18/Súmula222, DA19/composição da força de trabalho e DA07/jurisprudência LIA 2026 **permanecem sem alteração** nas versões atuais da árvore. A persistência de DA-004/009/036/019/020 não deve ser contada como cinco novos erros independentes. Manter sequência prioritária de reparos de conteúdo apenas na Fase 2 autorizada.
+
+**DA-125, ESTADO EDITORIAL:** matriz da frente = **34 notas e 158 itens em artigos**; item 8.4 ainda não tem unidade própria na árvore; os portões G1–G5 não liberam encerramento. Separar leitura de material, cotejo dirigido e auditoria integral, e preservar a autonomia das outras frentes.
+
+**Balanço:** DA-001–**DA-125 apontamentos heterogêneos**, incluindo verificações positivas e reclassificações de cobertura, não 125 erros. Zero nova inversão independente demonstrada. **Nenhuma nota de estudo, artigo AP07, questão, catálogo ou hub alterado por esta frente**. Apenas relatório DA/AP e índice compartilhado. **Fase 1 permanece em curso.**
+
+**Próxima etapa:** consultar árvore para eventual artigo canônico da cadeia de valor (8.4), analisar efeito da integração de novos AP na cobertura do edital e executar revisão textual de **uma nota P0 por vez, com evidência por seção/parágrafo e dispositivos**. Registrar o estado real da certificação sem prometer encerramento prematuro.

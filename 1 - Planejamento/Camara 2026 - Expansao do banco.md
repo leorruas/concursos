@@ -59,3 +59,5 @@ Quarenta questões geradas para comunicação interna, item 2 de Comunicação S
 ## Lote 011 em revisão
 
 Quarenta questões de comunicação institucional vinculadas aos artigos 53 a 55. Os itens cobrem identidade, imagem, reputação, diagnóstico e resposta a crises.
+
+Três itens revisados e reformulados após o cotejo de mecanismos. O par sobre reflexão e espelhamento cobra direções distintas no modelo de Hatch e Schultz.

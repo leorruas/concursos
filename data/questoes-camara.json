@@ -18087,12 +18087,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
       "articleId": "art-e31c94bd720a5f86",
-      "conceptId": "historico-e-atribuicao-de-responsabilidade",
-      "mechanism": "historico-e-atribuicao-de-responsabilidade",
+      "conceptId": "historico-de-crise-e-tempo-de-resposta",
+      "mechanism": "historico-de-crise-e-tempo-de-resposta",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#SCCT: grupos de crise, intensificadores e estratégias"
       ],
@@ -18100,9 +18100,10 @@
         "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
         "section": "SCCT: grupos de crise, intensificadores e estratégias"
       },
-      "statement": "Duas instituições sofrem falhas acidentais semelhantes. Uma já enfrentou episódios parecidos. Segundo a SCCT, o histórico é irrelevante desde que a falha atual pertença ao mesmo grupo de crise.",
+      "statement": "Se a SCCT indica maior ameaça reputacional por histórico de crises, esse diagnóstico também informa, por si só, quantas horas a equipe técnica precisará para reparar o sistema.",
       "correctAnswer": "E",
-      "explanation": "Na SCCT, o histórico pode intensificar a ameaça reputacional. A classificação do episódio atual é apenas uma parte da análise."
+      "explanation": "A ameaça reputacional e o prazo de reparo exigem evidências distintas. O prazo depende da falha técnica e dos recursos de recuperação.",
+      "reviewEvidence": "Gabarito confrontado com SCCT: grupos de crise, intensificadores e estratégias e mecanismo reformulado após comparação editorial."
     },
     {
       "id": "cam-cs-reputacao-com-experiencias-distintas",
@@ -18573,12 +18574,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
       "articleId": "art-621d9e4a87c305bf",
-      "conceptId": "identidade-com-referencial",
-      "mechanism": "identidade-com-referencial",
+      "conceptId": "identidade-e-criterio-de-continuidade",
+      "mechanism": "identidade-e-criterio-de-continuidade",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Mapa integrado: conceitos próximos, critérios diferentes"
       ],
@@ -18586,9 +18587,10 @@
         "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
         "section": "Mapa integrado: conceitos próximos, critérios diferentes"
       },
-      "statement": "Para verificar se uma característica distingue a instituição, é pertinente compará-la com organizações que exercem funções semelhantes.",
+      "statement": "Uma instituição pode substituir formulários impressos por um portal e continuar reconhecendo como central a orientação ao cidadão. A mudança de suporte não é suficiente para demonstrar perda de continuidade desse atributo.",
       "correctAnswer": "C",
-      "explanation": "A distintividade exige um referencial. Um atributo pode ser importante internamente e comum no conjunto comparado."
+      "explanation": "A continuidade diz respeito à permanência do atributo ao longo do tempo. Ele pode se manifestar por práticas e suportes diferentes.",
+      "reviewEvidence": "Gabarito confrontado com Mapa integrado: conceitos próximos, critérios diferentes e mecanismo reformulado após comparação editorial."
     },
     {
       "id": "cam-cs-reputacao-e-mudanca-de-amostra",
@@ -18627,12 +18629,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
       "articleId": "art-621d9e4a87c305bf",
-      "conceptId": "relato-interno-e-fonte-externa",
-      "mechanism": "relato-interno-e-fonte-externa",
+      "conceptId": "imagem-pretendida-em-canais-distintos",
+      "mechanism": "imagem-pretendida-em-canais-distintos",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista"
       ],
@@ -18640,9 +18642,10 @@
         "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
         "section": "Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista"
       },
-      "statement": "Entrevistar apenas dirigentes sobre o que acreditam que os cidadãos pensam fornece uma medida direta da avaliação dos cidadãos.",
-      "correctAnswer": "E",
-      "explanation": "As entrevistas medem uma percepção interna sobre o julgamento externo. Uma medida direta requer evidência obtida com o público em questão."
+      "statement": "Uma instituição deseja ser percebida como acessível e adapta a linguagem de dois canais a públicos diferentes. Essa variação pode servir à mesma imagem pretendida.",
+      "correctAnswer": "C",
+      "explanation": "A imagem pretendida é a percepção que a instituição busca promover. A linguagem pode variar conforme o público sem alterar o atributo pretendido.",
+      "reviewEvidence": "Gabarito confrontado com Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista e mecanismo reformulado após comparação editorial."
     },
     {
       "id": "cam-cs-sinal-confirmado-em-registros-independentes",

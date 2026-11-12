@@ -79,8 +79,8 @@ flowchart TD
 ### 3.1. Objeto Direto (OD) e Objeto Indireto (OI)
 - **Objeto Direto**: Completa um Verbo Transitivo Direto (VTD) **sem preposição obrigatória**. Substitui-se pelos pronomes oblíquos átonos **o, a, os, as** (e variantes **lo, la, no, na**).
   - *Caso Especial — Objeto Direto Preposicionado*: Por razões estilísticas, de clareza ou diante de pronomes oblíquos tônicos, o OD pode vir precedido de preposição facultativa: *"O projeto beneficia **a todos**"* / *"Amava **a Deus**"* / *"Cumpriu **com o dever**"*.
-- **Objeto Indireto**: Completa um Verbo Transitivo Indireto (VTI) **com preposição obrigatória** exigida pela regência do verbo. Substitui-se por **lhe, lhes** (notadamente para pessoas/destinatários) ou por **a ele(s), dele(s), nele(s)**.
-  - *Atenção aos Pronomes Oblíquos*: **O, A, OS, AS** são sempre **Objeto Direto** (*"Eu **o** convidei"*). **LHE, LHES** são quase sempre **Objeto Indireto** (*"Cabe-**lhe** decidir"*; *"Obedecemos-**lhes**"*), salvo quando indicam posse em função de adjunto adnominal (*"Roubaram-**lhe** a carteira"* = roubaram a carteira *dele*).
+- **Objeto indireto**: Completa verbo que seleciona preposição, como *necessitar de informações* ou *obedecer ao regimento*. A substituição pronominal **depende da regência e do referente**: em alguns casos cabe *lhe/lhes* (*obedecer-lhe*); em outros é necessária forma preposicionada (*necessitar delas*, *confiar nelas*). Não se deve ensinar *lhe* como substituto universal de todo objeto indireto.
+  - *Atenção aos pronomes átonos*: **o, a, os, as** retomam tipicamente objetos diretos (*"Eu **o** convidei"*). **Lhe/lhes** podem realizar complemento indireto em determinadas regências (*"Obedecemos-**lhes**"*) e expressar posse afetada (*"Roubaram-**lhe** a carteira"* = roubaram a carteira *dele*). A função depende do verbo e da construção, e o pronome **não substitui indiscriminadamente qualquer complemento com preposição**.
 
 ---
 

@@ -36006,8 +36006,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-484ca8ef752c3d9a",
-      "conceptId": "media-zero-versus-vazio",
-      "mechanism": "calcular-denominador-com-zero",
+      "conceptId": "excel-se-aninhado-com-e",
+      "mechanism": "avaliar-dois-testes-logicos-conjuntos",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
@@ -36019,10 +36019,10 @@
         "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
         "section": "4. Catálogo de funções de alta incidência Cebraspe"
       },
-      "statement": "Uma planilha contém os valores 10 e 0 e uma terceira célula vazia. Aplicada ao intervalo, a função MÉDIA retorna 10, pois ignora tanto a célula vazia quanto o zero.",
+      "statement": "Em uma planilha, A1 contém 8 e B1 contém 3. A fórmula `=SE(E(A1>5;B1>5);\"Aprovado\";\"Revisar\")` retorna \"Aprovado\", pois o primeiro teste lógico é verdadeiro.",
       "correctAnswer": "E",
-      "explanation": "MÉDIA ignora a célula vazia, mas o zero é valor numérico e entra no denominador: (10 + 0)/2 = 5. Não se deve tratar zero e vazio como equivalentes.",
-      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 008. Questão original substituída por novo mecanismo (calcular-denominador-com-zero) após detecção de redundância; comparação orientada pelo artigo art-484ca8ef752c3d9a, heading literal '4. Catálogo de funções de alta incidência Cebraspe'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
+      "explanation": "A função E exige que ambos os testes sejam verdadeiros. Embora 8>5, a comparação 3>5 é falsa; portanto SE retorna \"Revisar\".",
+      "reviewEvidence": "Lote 026: correção editorial complementar de 12/11/2026, após confronto de similaridade com questões internas do artigo. Novo mecanismo avaliar-dois-testes-logicos-conjuntos, vinculado a art-484ca8ef752c3d9a, seção literal '4. Catálogo de funções de alta incidência Cebraspe'. Resposta e justificativa conferidas conceitualmente; revisão editorial técnica automatizada, sem alegar homologação humana. Manter revisada até CI e revisão final."
     },
     {
       "id": "cam-ti-l026-009-onedrive-acesso-existente",
@@ -36090,23 +36090,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e4d63009042ff1a1",
-      "conceptId": "onedrive-segundo-estagio-lixeira",
-      "mechanism": "distinguir-exclusao-da-primeira-e-da-segunda-lixeira",
+      "conceptId": "onedrive-link-pessoas-especificas-reenvio",
+      "mechanism": "distinguir-reencaminhamento-de-autorizacao-identificada",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-e4d63009042ff1a1#5. A Lixeira em dois estágios do OneDrive corporativo"
+        "article:art-e4d63009042ff1a1#2. Tipos de links de compartilhamento e escopos de permissão"
       ],
       "source": {
         "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
-        "section": "5. A Lixeira em dois estágios do OneDrive corporativo"
+        "section": "2. Tipos de links de compartilhamento e escopos de permissão"
       },
-      "statement": "Em uma conta corporativa do OneDrive, a exclusão de um arquivo da primeira lixeira não implica necessariamente perda definitiva: quando ainda disponível no segundo estágio e dentro das regras de retenção, o item pode ser recuperado por usuário autorizado.",
+      "statement": "Um arquivo é compartilhado no OneDrive corporativo por um link configurado para pessoas específicas, dirigido ao endereço eletrônico de uma servidora. O simples reenvio desse link a outro colega não lhe concede automaticamente a permissão associada à destinatária indicada.",
       "correctAnswer": "C",
-      "explanation": "O segundo estágio pode manter itens após a remoção da primeira lixeira, dentro da janela e das permissões aplicáveis. Recuperação não é garantia incondicional após exclusão definitiva ou expiração do prazo.",
-      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 011. Questão original substituída por novo mecanismo (distinguir-exclusao-da-primeira-e-da-segunda-lixeira) após detecção de redundância; comparação orientada pelo artigo art-e4d63009042ff1a1, heading literal '5. A Lixeira em dois estágios do OneDrive corporativo'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
+      "explanation": "O escopo Pessoas específicas restringe o acesso às identidades autorizadas. Repassar a URL não amplia, por si só, o conjunto de destinatários permitidos, ressalvadas outras permissões que o colega já possua.",
+      "reviewEvidence": "Lote 026: correção editorial complementar de 12/11/2026, após confronto de similaridade com questões internas do artigo. Novo mecanismo distinguir-reencaminhamento-de-autorizacao-identificada, vinculado a art-e4d63009042ff1a1, seção literal '2. Tipos de links de compartilhamento e escopos de permissão'. Resposta e justificativa conferidas conceitualmente; revisão editorial técnica automatizada, sem alegar homologação humana. Manter revisada até CI e revisão final."
     },
     {
       "id": "cam-ti-l026-012-onedrive-bloqueio-download-e-captura",
@@ -36790,8 +36790,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-719dd4ca3e84b65a",
-      "conceptId": "orientacao-de-barras-com-rotulos-extensos",
-      "mechanism": "escolher-orientacao-do-grafico",
+      "conceptId": "barras-reordenacao-para-ranking",
+      "mechanism": "distinguir-ordem-categorica-e-valor",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
@@ -36803,10 +36803,10 @@
         "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
         "section": "4. Gráfico de barras: horizontais versus verticais (colunas)"
       },
-      "statement": "Para comparar despesas de trinta unidades administrativas com nomes extensos, é obrigatório usar colunas verticais: barras horizontais são inadequadas porque tornam impossível ler os nomes das categorias.",
+      "statement": "Em um gráfico de barras que apresenta o número de solicitações de oito categorias nominais, reordenar as barras da maior contagem para a menor altera obrigatoriamente as quantidades originais, tornando incorreta a comparação entre categorias.",
       "correctAnswer": "E",
-      "explanation": "Barras horizontais costumam facilitar rótulos longos, pois dispõem de espaço para escrevê-los ao lado de cada barra. A orientação depende da tarefa, sem proibição universal das barras horizontais.",
-      "reviewEvidence": "Lote 026: correção editorial incremental em 12/11/2026 do item 036, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-719dd4ca3e84b65a, subtítulo literal '4. Gráfico de barras: horizontais versus verticais (colunas)'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirrepetição e CI no SHA atualizado ainda necessários; manter revisada."
+      "explanation": "A reordenação muda apenas a sequência de apresentação das categorias. A altura ou o comprimento de cada barra permanece associado ao mesmo valor, permitindo ordenar do maior ao menor para facilitar a comparação.",
+      "reviewEvidence": "Lote 026: correção editorial complementar de 12/11/2026, após confronto de similaridade com questões internas do artigo. Novo mecanismo distinguir-ordem-categorica-e-valor, vinculado a art-719dd4ca3e84b65a, seção literal '4. Gráfico de barras: horizontais versus verticais (colunas)'. Resposta e justificativa conferidas conceitualmente; revisão editorial técnica automatizada, sem alegar homologação humana. Manter revisada até CI e revisão final."
     },
     {
       "id": "cam-ti-l026-037-dispersao-nao-prova-causalidade",

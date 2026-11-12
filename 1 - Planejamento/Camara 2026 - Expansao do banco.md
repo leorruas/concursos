@@ -58,4 +58,4 @@ Quarenta questões geradas para comunicação interna, item 2 de Comunicação S
 
 ## Lote 011 em elaboração
 
-Seis questões de comunicação institucional vinculadas aos artigos 53 a 55. Os itens cobrem identidade, imagem, reputação, diagnóstico e resposta a crises.
+Dez questões de comunicação institucional vinculadas aos artigos 53 a 55. Os itens cobrem identidade, imagem, reputação, diagnóstico e resposta a crises.

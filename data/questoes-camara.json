@@ -17914,6 +17914,114 @@
       "statement": "Para divulgar uma atualização rapidamente, a equipe precisa apresentar como confirmada a causa que ainda está em apuração.",
       "correctAnswer": "E",
       "explanation": "Uma atualização pode apresentar fatos confirmados, declarar o que falta apurar e indicar quando haverá novo informe."
+    },
+    {
+      "id": "cam-cs-porta-voz-e-validacao-tecnica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "porta-voz-e-validacao-tecnica",
+      "mechanism": "porta-voz-e-validacao-tecnica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Porta-voz, comitê e público interno"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Porta-voz, comitê e público interno"
+      },
+      "statement": "Designar um porta-voz central permite que ele confirme a causa de uma interrupção antes de receber a verificação da equipe técnica.",
+      "correctAnswer": "E",
+      "explanation": "A centralização organiza a divulgação. A confirmação da causa depende da apuração técnica."
+    },
+    {
+      "id": "cam-cs-alerta-e-fonte-de-atualizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "alerta-e-fonte-de-atualizacao",
+      "mechanism": "alerta-e-fonte-de-atualizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Canais e suas funções durante uma crise"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Canais e suas funções durante uma crise"
+      },
+      "statement": "Um alerta breve pode orientar a ação imediata e apontar para uma página que concentra atualizações verificadas durante a crise.",
+      "correctAnswer": "C",
+      "explanation": "O alerta privilegia rapidez e instrução. A página mantém uma referência consultável para fatos que mudam ao longo do episódio."
+    },
+    {
+      "id": "cam-cs-avaliacao-de-orientacao-por-tarefa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "avaliacao-de-orientacao-por-tarefa",
+      "mechanism": "avaliacao-de-orientacao-por-tarefa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Avaliação: o que é possível concluir?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Avaliação: o que é possível concluir?"
+      },
+      "statement": "Para verificar se um aviso ensinou a usar o canal alternativo, observar se pessoas do público conseguem localizar e acessar esse canal oferece evidência mais direta do que contar visualizações do aviso.",
+      "correctAnswer": "C",
+      "explanation": "A execução da tarefa mede a capacidade de aplicar a instrução. Visualizações medem exposição."
+    },
+    {
+      "id": "cam-cs-transicao-sem-fim-de-atualizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "transicao-sem-fim-de-atualizacao",
+      "mechanism": "transicao-sem-fim-de-atualizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Fases: qual autor e qual critério?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Fases: qual autor e qual critério?"
+      },
+      "statement": "Passar da resposta inicial para a fase de manutenção torna dispensável corrigir um horário de atendimento divulgado incorretamente no primeiro aviso.",
+      "correctAnswer": "E",
+      "explanation": "A manutenção inclui atualizar informações e corrigir erros que ainda podem orientar a conduta do público."
     }
   ]
 }

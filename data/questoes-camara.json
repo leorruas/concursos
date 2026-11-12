@@ -15182,6 +15182,296 @@
       "statement": "Na recepção de um anúncio encaminhado diretamente pelo anunciante, o Código orienta que o controle do veículo adote mais precauções.",
       "correctAnswer": "C",
       "explanation": "A orientação leva em conta que a peça não passou pela intermediação de uma agência."
+    },
+    {
+      "id": "cam-di-veiculo-com-recomendacao-oficial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "veiculo-com-recomendacao-oficial",
+      "mechanism": "veiculo-com-recomendacao-oficial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 44 a 50: categorias, responsabilidades e medidas",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 45, item 5"
+      },
+      "statement": "Se um veículo recebe oficialmente recomendação do CONAR e veicula o anúncio em desacordo com ela, sua responsabilidade pode ser equiparada à do anunciante.",
+      "correctAnswer": "C",
+      "explanation": "A equiparação decorre da veiculação contrária à recomendação oficialmente comunicada ao veículo."
+    },
+    {
+      "id": "cam-di-poder-decisorio-e-responsabilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "poder-decisorio-e-responsabilidade",
+      "mechanism": "poder-decisorio-e-responsabilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 44 a 50: categorias, responsabilidades e medidas",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 46"
+      },
+      "statement": "Dois profissionais que participaram de um anúncio respondem sempre na mesma medida pelo Código, ainda que tenham poderes de decisão distintos.",
+      "correctAnswer": "E",
+      "explanation": "A responsabilidade é avaliada na medida dos poderes decisórios de cada participante."
+    },
+    {
+      "id": "cam-di-testemunho-de-fonte-externa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "testemunho-de-fonte-externa",
+      "mechanism": "testemunho-de-fonte-externa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 44 a 50: categorias, responsabilidades e medidas",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 47"
+      },
+      "statement": "Incorporar a um anúncio uma declaração produzida por terceiro isenta os responsáveis pela peça de observar o Código quanto a esse trecho.",
+      "correctAnswer": "E",
+      "explanation": "O Código alcança a peça inteira, inclusive declarações e apresentações provenientes de outras fontes."
+    },
+    {
+      "id": "cam-di-correcao-posterior-e-anuncio-enganador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "correcao-posterior-e-anuncio-enganador",
+      "mechanism": "correcao-posterior-e-anuncio-enganador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 44 a 50: categorias, responsabilidades e medidas",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 48"
+      },
+      "statement": "Enviar os termos corretos ao consumidor depois da veiculação basta para defender um anúncio inicialmente enganador.",
+      "correctAnswer": "E",
+      "explanation": "A informação posterior não é defesa suficiente para a mensagem enganadora originalmente divulgada."
+    },
+    {
+      "id": "cam-di-competencia-para-alterar-anexo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "competencia-para-alterar-anexo",
+      "mechanism": "competencia-para-alterar-anexo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 44 a 50: categorias, responsabilidades e medidas",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 50, §§ 1º e 2º"
+      },
+      "statement": "O Conselho de Ética julga infrações ao Código, enquanto a alteração dos anexos compete ao Conselho Superior.",
+      "correctAnswer": "C",
+      "explanation": "O Código atribui o julgamento e a alteração normativa a órgãos distintos."
+    },
+    {
+      "id": "cam-di-certificacao-por-entidade-equivalente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-b08f53d19c4a726e",
+      "conceptId": "certificacao-por-entidade-equivalente",
+      "mechanism": "certificacao-por-entidade-equivalente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b08f53d19c4a726e#Art. 4º: qualificação da agência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade.md",
+        "section": "Art. 4º: qualificação da agência",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 4º, § 1º"
+      },
+      "statement": "O certificado de qualificação técnica de funcionamento da agência pode ser obtido em entidade equivalente ao CENP, desde que ela seja legalmente reconhecida nas funções exigidas pela lei.",
+      "correctAnswer": "C",
+      "explanation": "A lei admite a certificação por entidade equivalente legalmente reconhecida como fiscalizadora e certificadora das condições técnicas das agências."
+    },
+    {
+      "id": "cam-di-autorizacao-de-compra-de-espaco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-b08f53d19c4a726e",
+      "conceptId": "autorizacao-de-compra-de-espaco",
+      "mechanism": "autorizacao-de-compra-de-espaco",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b08f53d19c4a726e#Art. 4º: qualificação da agência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade.md",
+        "section": "Art. 4º: qualificação da agência",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 4º, § 2º"
+      },
+      "statement": "A agência contratada pode comprar espaço publicitário por conta de um cliente antes de identificá-lo e obter sua autorização expressa, desde que registre ambas as informações antes da veiculação.",
+      "correctAnswer": "E",
+      "explanation": "A identificação e a autorização expressa devem anteceder a reserva ou compra. A regularização antes da veiculação não atende à ordem exigida."
+    },
+    {
+      "id": "cam-di-total-por-meio-e-tipo-de-servico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "total-por-meio-e-tipo-de-servico",
+      "mechanism": "total-por-meio-e-tipo-de-servico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Arts. 16 e 17: transparência e guarda do acervo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Arts. 16 e 17: transparência e guarda do acervo",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 16, parágrafo único"
+      },
+      "statement": "Para divulgar valores pagos, um total único que some fornecedores e meios de divulgação substitui a apresentação por tipo de serviço e por meio.",
+      "correctAnswer": "E",
+      "explanation": "O parágrafo único prevê totais por tipo de serviço de fornecedores e por meio de divulgação. Um total agregado não oferece a discriminação exigida."
+    },
+    {
+      "id": "cam-di-desconto-padrao-e-faturamento-do-veiculo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "desconto-padrao-e-faturamento-do-veiculo",
+      "mechanism": "desconto-padrao-e-faturamento-do-veiculo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Arts. 18 e 19: plano de incentivo, desconto negociado e desconto-padrão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Arts. 18 e 19: plano de incentivo, desconto negociado e desconto-padrão",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 19"
+      },
+      "statement": "Se o veículo repassa à agência o desconto-padrão, o veículo pode contabilizar a quantia como receita própria antes do repasse.",
+      "correctAnswer": "E",
+      "explanation": "O art. 19 trata a quantia como receita da agência e veda ao veículo contabilizá-la como própria mesmo quando ele efetua o repasse."
+    },
+    {
+      "id": "cam-di-marcacao-de-involucro-pela-comissao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "marcacao-de-involucro-pela-comissao",
+      "mechanism": "marcacao-de-involucro-pela-comissao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 11: sequência de julgamento e habilitação posterior",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 11, § 3º"
+      },
+      "statement": "A comissão pode numerar externamente o invólucro padronizado da via anônima para facilitar o protocolo, desde que deixe os documentos internos sem marcas.",
+      "correctAnswer": "E",
+      "explanation": "A vedação alcança tanto os invólucros padronizados quanto os documentos que compõem a via não identificada."
     }
   ]
 }

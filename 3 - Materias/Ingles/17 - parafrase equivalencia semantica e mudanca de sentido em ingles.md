@@ -182,7 +182,7 @@ Passo 4: Verificação da Relação Lógica e Foco Informacional
 
 *Text segment: "The committee approved the budgetary amendment because the rapporteur had presented an extensive fiscal impact study."*
 
-**Item:** The meaning and grammatical structure of the sentence would be correctly preserved if rewritten as: "The rapporteur had presented an extensive fiscal impact study; consequently, the committee approved the budgetary amendment."
+**Item:** Both the meaning and the original syntactic structure would remain unchanged if the sentence were rewritten as: "The rapporteur had presented an extensive fiscal impact study; consequently, the committee approved the budgetary amendment."
 
 - ( ) Certo
 - ( ) Errado

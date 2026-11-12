@@ -12,7 +12,7 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 004 | Divulgação Institucional | Edital 14.2.4, item 4: marca e branding | 40 | 4/13/20/3 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 005 | Divulgação Institucional | Edital 14.2.4, item 5: design e produção | 40 | 3/18/17/2 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 006 | Divulgação Institucional | Edital 14.2.4, item 6: ética na comunicação | 40 | 2/10/21/7 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
-| 007 | Divulgação Institucional | Edital 14.2.4, item 7: gestão de equipes | 40 | 2/15/17/6 | 0 | 0 | 0 | Integridade, triagem e sessões v3 |
+| 007 | Divulgação Institucional | Edital 14.2.4, item 7: gestão de equipes | 40 | 2/15/20/3 | 40 | 0 | 0 | Integridade, triagem e sessões v3 |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
@@ -39,4 +39,4 @@ Quarenta questões geradas para ética na comunicação, item 6 do edital, vincu
 
 ## Lote 007 em revisão
 
-Quarenta questões geradas sobre gestão de equipes publicitárias, item 7 do edital, vinculadas ao artigo 121. Revisar gabaritos, dificuldade e sobreposições, sobretudo nos casos de aprovação, capacidade e métricas de retrabalho.
+Quarenta questões geradas sobre gestão de equipes publicitárias, item 7 do edital, vinculadas ao artigo 121. Cotejo editorial concluído no artigo 121. Três itens reformulados e três níveis de dificuldade recalibrados. Rodar a triagem final e verificar a seleção antes da liberação.

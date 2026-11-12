@@ -13208,7 +13208,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#RACI: responsabilizar sem confundir execução e aceite"
       ],
@@ -13218,7 +13218,8 @@
       },
       "statement": "Se a equipe de acessibilidade aparece como consultada na matriz RACI de uma peça, sua participação na consulta lhe transfere automaticamente a autoridade de aprovar a publicação.",
       "correctAnswer": "E",
-      "explanation": "O papel consultado fornece contribuição antes da decisão. A aprovação cabe ao papel com autoridade definida para o aceite."
+      "explanation": "O papel consultado fornece contribuição antes da decisão. A aprovação cabe ao papel com autoridade definida para o aceite.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção RACI: responsabilizar sem confundir execução e aceite do artigo 121."
     },
     {
       "id": "cam-di-fila-na-revisao-e-producao",
@@ -13235,7 +13236,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
       ],
@@ -13245,7 +13246,8 @@
       },
       "statement": "Se a criação entrega doze peças por semana e a única etapa de revisão consegue examinar oito, elevar a produção criativa para dezesseis por semana pode aumentar a fila sem ampliar a quantidade revisada.",
       "correctAnswer": "C",
-      "explanation": "A revisão é o gargalo nas condições descritas. O aumento de entrada, sem ampliar a capacidade da etapa limitante, acumula trabalho."
+      "explanation": "A revisão é o gargalo nas condições descritas. O aumento de entrada, sem ampliar a capacidade da etapa limitante, acumula trabalho.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Coordenação do fluxo: capacidade, filas, dependências e mudanças do artigo 121."
     },
     {
       "id": "cam-di-mudanca-de-premissa-apos-repasse",
@@ -13262,7 +13264,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Briefing e passagem de trabalho: o que precisa atravessar as equipes"
       ],
@@ -13272,7 +13274,8 @@
       },
       "statement": "Quando o público prioritário muda depois da entrega do briefing, avisar somente a equipe de mídia basta, mesmo que a redação tenha sido construída para necessidades específicas do público anterior.",
       "correctAnswer": "E",
-      "explanation": "A mudança afeta as decisões de mensagem e distribuição. A coordenação precisa identificar e atualizar as equipes e entregas que dependiam da premissa anterior."
+      "explanation": "A mudança afeta as decisões de mensagem e distribuição. A coordenação precisa identificar e atualizar as equipes e entregas que dependiam da premissa anterior.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Briefing e passagem de trabalho: o que precisa atravessar as equipes do artigo 121."
     },
     {
       "id": "cam-di-revisao-pontual-e-retrabalho",
@@ -13289,7 +13292,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
       ],
@@ -13299,7 +13302,8 @@
       },
       "statement": "Uma equipe pode cumprir mais prazos de primeira entrega e, no mesmo período, piorar a taxa de aprovação sem retrabalho.",
       "correctAnswer": "C",
-      "explanation": "Pontualidade de primeira entrega e aprovação na primeira passagem medem aspectos distintos do processo. Uma melhora pode coexistir com a piora da outra."
+      "explanation": "Pontualidade de primeira entrega e aprovação na primeira passagem medem aspectos distintos do processo. Uma melhora pode coexistir com a piora da outra.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Avaliação de equipe: atividade, entrega, processo e resultado do artigo 121."
     },
     {
       "id": "cam-di-conflito-de-prioridade-matricial",
@@ -13316,7 +13320,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Estruturas organizacionais: autoridade, coordenação e tensões"
       ],
@@ -13326,7 +13330,8 @@
       },
       "statement": "Se a direção funcional aloca uma redatora a uma demanda e a coordenação da campanha precisa dela no mesmo horário, definir quem arbitra a prioridade ajuda a lidar com a dupla linha de coordenação.",
       "correctAnswer": "C",
-      "explanation": "Em uma estrutura matricial, as prioridades funcional e de projeto podem competir pelo mesmo recurso. Definir autoridade de resolução evita instruções incompatíveis."
+      "explanation": "Em uma estrutura matricial, as prioridades funcional e de projeto podem competir pelo mesmo recurso. Definir autoridade de resolução evita instruções incompatíveis.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Estruturas organizacionais: autoridade, coordenação e tensões do artigo 121."
     },
     {
       "id": "cam-di-feedback-com-conduta-observavel",
@@ -13343,7 +13348,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
       ],
@@ -13353,7 +13358,8 @@
       },
       "statement": "Dizer apenas que um colega “não tem perfil criativo” oferece a mesma base de aprendizagem que identificar a entrega, o critério descumprido e o ajuste esperado.",
       "correctAnswer": "E",
-      "explanation": "O rótulo não informa qual comportamento deve mudar. O retorno específico liga a entrega a um critério e a uma ação verificável."
+      "explanation": "O rótulo não informa qual comportamento deve mudar. O retorno específico liga a entrega a um critério e a uma ação verificável.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Gestão de conflitos, feedback e aprendizagem do artigo 121."
     },
     {
       "id": "cam-di-autonomia-com-criterios-de-escalada",
@@ -13370,7 +13376,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Liderança, coordenação e autonomia profissional"
       ],
@@ -13380,7 +13386,8 @@
       },
       "statement": "Uma equipe pode escolher autonomamente a linguagem visual de uma campanha e ainda ter obrigação de consultar a coordenação se a mudança afetar o orçamento aprovado.",
       "correctAnswer": "C",
-      "explanation": "A autonomia pode abranger escolhas técnicas dentro de limites. Impactos fora desses limites exigem decisão na instância competente."
+      "explanation": "A autonomia pode abranger escolhas técnicas dentro de limites. Impactos fora desses limites exigem decisão na instância competente.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Liderança, coordenação e autonomia profissional do artigo 121."
     },
     {
       "id": "cam-di-versao-aprovada-e-alteracao-final",
@@ -13392,12 +13399,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
       "articleId": "art-4f73a9c12b60de85",
-      "conceptId": "versao-aprovada-e-alteracao-final",
-      "mechanism": "versao-aprovada-e-alteracao-final",
+      "conceptId": "independencia-entre-pareceres",
+      "mechanism": "independencia-entre-pareceres",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Decisões, aprovações e segregação de funções"
       ],
@@ -13405,9 +13412,10 @@
         "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
         "section": "Decisões, aprovações e segregação de funções"
       },
-      "statement": "Se a versão aprovada de uma peça tinha um endereço correto, a equipe pode liberar uma exportação que traz outro endereço sem conferir a alteração, pois a aprovação acompanha o projeto inteiro.",
+      "statement": "Se um parecerista aprova a clareza de uma peça, essa decisão pode ser usada como aceite de outro parecerista responsável por verificar a exatidão dos dados, mesmo quando este ainda não os conferiu.",
       "correctAnswer": "E",
-      "explanation": "O aceite precisa corresponder à versão e às condições aprovadas. A mudança de endereço afeta a ação do público e exige verificação."
+      "explanation": "Os pareceres verificam critérios distintos. A aprovação de clareza não atesta a exatidão dos dados.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Decisões, aprovações e segregação de funções do artigo 121."
     },
     {
       "id": "cam-di-capacidade-liquida-com-urgencias",
@@ -13424,7 +13432,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
       ],
@@ -13434,7 +13442,8 @@
       },
       "statement": "Uma equipe dispõe de 40 horas semanais de revisão, das quais 12 foram reservadas para demandas urgentes. Comprometer as 40 horas com demandas ordinárias preserva a capacidade de atender às urgências sem replanejamento.",
       "correctAnswer": "E",
-      "explanation": "A reserva deixa 28 horas para demandas ordinárias. Comprometer as 40 horas elimina a margem reservada."
+      "explanation": "A reserva deixa 28 horas para demandas ordinárias. Comprometer as 40 horas elimina a margem reservada.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Coordenação do fluxo: capacidade, filas, dependências e mudanças do artigo 121."
     },
     {
       "id": "cam-di-taxa-de-aceite-por-complexidade",
@@ -13451,7 +13460,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
       ],
@@ -13461,7 +13470,8 @@
       },
       "statement": "Se a taxa geral de aceite na primeira revisão subiu após a equipe receber mais peças simples, comparar as taxas por complexidade ajuda a verificar se houve melhora dentro de cada categoria.",
       "correctAnswer": "C",
-      "explanation": "A mudança na composição das entregas pode elevar a taxa agregada. O recorte permite examinar desempenho entre trabalhos comparáveis."
+      "explanation": "A mudança na composição das entregas pode elevar a taxa agregada. O recorte permite examinar desempenho entre trabalhos comparáveis.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Avaliação de equipe: atividade, entrega, processo e resultado do artigo 121."
     },
     {
       "id": "cam-di-alertas-e-seguranca-psicologica",
@@ -13478,7 +13488,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
       ],
@@ -13488,7 +13498,8 @@
       },
       "statement": "Após a coordenação passar a acolher alertas sem punir quem os relata, aumentaram os riscos registrados. Esse aumento demonstra, por si só, que o processo passou a gerar mais riscos.",
       "correctAnswer": "E",
-      "explanation": "O aumento pode refletir maior disposição para comunicar riscos antes omitidos. Para avaliar a incidência, é preciso considerar a mudança no processo de registro."
+      "explanation": "O aumento pode refletir maior disposição para comunicar riscos antes omitidos. Para avaliar a incidência, é preciso considerar a mudança no processo de registro.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Gestão de conflitos, feedback e aprendizagem do artigo 121."
     },
     {
       "id": "cam-di-restricao-e-criterio-de-aceite",
@@ -13505,7 +13516,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Briefing e passagem de trabalho: o que precisa atravessar as equipes"
       ],
@@ -13515,7 +13526,8 @@
       },
       "statement": "Quando a campanha exige peças prontas para duas plataformas, registrar os formatos e as condições de aceite no repasse ajuda a evitar que a equipe considere suficiente entregar apenas o arquivo mestre.",
       "correctAnswer": "C",
-      "explanation": "O repasse precisa explicitar quais entregas serão verificadas. O arquivo mestre pode ser insumo para adaptações sem atender aos requisitos de ambas as plataformas."
+      "explanation": "O repasse precisa explicitar quais entregas serão verificadas. O arquivo mestre pode ser insumo para adaptações sem atender aos requisitos de ambas as plataformas.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Briefing e passagem de trabalho: o que precisa atravessar as equipes do artigo 121."
     },
     {
       "id": "cam-di-revisao-interfuncional-de-peca",
@@ -13532,7 +13544,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Papéis profissionais: especialização não é exclusividade"
       ],
@@ -13542,7 +13554,8 @@
       },
       "statement": "A participação da direção de arte na revisão de um título não elimina a distinção entre o trabalho visual e a responsabilidade pela redação.",
       "correctAnswer": "C",
-      "explanation": "A colaboração pode atravessar especialidades. As responsabilidades de execução e aprovação continuam identificáveis."
+      "explanation": "A colaboração pode atravessar especialidades. As responsabilidades de execução e aprovação continuam identificáveis.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Papéis profissionais: especialização não é exclusividade do artigo 121."
     },
     {
       "id": "cam-di-informado-e-consultado-no-repasse",
@@ -13559,7 +13572,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#RACI: responsabilizar sem confundir execução e aceite"
       ],
@@ -13569,7 +13582,8 @@
       },
       "statement": "Informar a equipe de mídia depois de escolher um formato equivale a consultá-la antes da decisão, mesmo quando só ela conhece as restrições do veículo.",
       "correctAnswer": "E",
-      "explanation": "O informado recebe notícia da decisão. O consultado contribui enquanto a escolha ainda pode mudar."
+      "explanation": "O informado recebe notícia da decisão. O consultado contribui enquanto a escolha ainda pode mudar.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção RACI: responsabilizar sem confundir execução e aceite do artigo 121."
     },
     {
       "id": "cam-di-estrutura-funcional-com-interface",
@@ -13586,7 +13600,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Estruturas organizacionais: autoridade, coordenação e tensões"
       ],
@@ -13596,7 +13610,8 @@
       },
       "statement": "Uma agência pode manter profissionais agrupados por especialidade e designar um ponto de contato para sincronizar as entregas entre setores sem necessariamente reorganizá-los em equipes permanentes de campanha.",
       "correctAnswer": "C",
-      "explanation": "A coordenação entre áreas pode ser criada dentro de uma estrutura funcional. A mudança de interface não implica alterar a lotação."
+      "explanation": "A coordenação entre áreas pode ser criada dentro de uma estrutura funcional. A mudança de interface não implica alterar a lotação.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Estruturas organizacionais: autoridade, coordenação e tensões do artigo 121."
     },
     {
       "id": "cam-di-revisao-independente-com-criterio",
@@ -13613,7 +13628,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Decisões, aprovações e segregação de funções"
       ],
@@ -13623,7 +13638,8 @@
       },
       "statement": "Se o mesmo profissional executa a produção e registra seu próprio aceite, o registro basta para demonstrar que houve revisão independente.",
       "correctAnswer": "E",
-      "explanation": "A existência de um registro demonstra que alguém fez o aceite. Independência depende de quem verificou o trabalho."
+      "explanation": "A existência de um registro demonstra que alguém fez o aceite. Independência depende de quem verificou o trabalho.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Decisões, aprovações e segregação de funções do artigo 121."
     },
     {
       "id": "cam-di-retrospectiva-e-evidencia-de-problema",
@@ -13640,7 +13656,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
       ],
@@ -13650,7 +13666,8 @@
       },
       "statement": "Se a retrospectiva identifica que versões antigas chegaram à revisão por falta de indicação da versão vigente, estabelecer uma fonte única para os arquivos aborda o problema observado.",
       "correctAnswer": "C",
-      "explanation": "A medida trata a causa identificada na passagem de trabalho. Ela reduz a possibilidade de selecionar versões obsoletas."
+      "explanation": "A medida trata a causa identificada na passagem de trabalho. Ela reduz a possibilidade de selecionar versões obsoletas.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Gestão de conflitos, feedback e aprendizagem do artigo 121."
     },
     {
       "id": "cam-di-tempo-de-processamento-e-espera",
@@ -13667,7 +13684,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
       ],
@@ -13677,7 +13694,8 @@
       },
       "statement": "Uma peça pode exigir duas horas de trabalho efetivo e permanecer três dias aguardando um parecer. Medir somente as horas de execução deixa de capturar a espera no fluxo.",
       "correctAnswer": "C",
-      "explanation": "O tempo de processamento registra o trabalho ativo. O prazo transcorrido inclui intervalos em fila."
+      "explanation": "O tempo de processamento registra o trabalho ativo. O prazo transcorrido inclui intervalos em fila.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Avaliação de equipe: atividade, entrega, processo e resultado do artigo 121."
     },
     {
       "id": "cam-di-especialidades-e-capacidade-nao-intercambiavel",
@@ -13692,9 +13710,9 @@
       "conceptId": "especialidades-e-capacidade-nao-intercambiavel",
       "mechanism": "especialidades-e-capacidade-nao-intercambiavel",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "muito-dificil",
-      "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
       ],
@@ -13704,7 +13722,8 @@
       },
       "statement": "Uma campanha precisa de dez horas de edição e dez de revisão. A equipe dispõe de 14 horas de edição e seis de revisão. A soma de 20 horas garante concluir a campanha sem remanejamento, ainda que os profissionais não possam exercer a outra função.",
       "correctAnswer": "E",
-      "explanation": "O total coincide com a carga, mas faltam quatro horas na especialidade de revisão. As horas excedentes de edição não compensam a restrição sem substituição."
+      "explanation": "O total coincide com a carga, mas faltam quatro horas na especialidade de revisão. As horas excedentes de edição não compensam a restrição sem substituição.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Coordenação do fluxo: capacidade, filas, dependências e mudanças do artigo 121."
     },
     {
       "id": "cam-di-autonomia-e-criterio-comum",
@@ -13721,7 +13740,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Liderança, coordenação e autonomia profissional"
       ],
@@ -13731,7 +13750,8 @@
       },
       "statement": "Definir previamente critérios comuns de qualidade impede que uma equipe escolha de forma autônoma como realizar o trabalho.",
       "correctAnswer": "E",
-      "explanation": "Critérios delimitam o resultado esperado. A equipe pode escolher os meios dentro dos limites definidos."
+      "explanation": "Critérios delimitam o resultado esperado. A equipe pode escolher os meios dentro dos limites definidos.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Liderança, coordenação e autonomia profissional do artigo 121."
     },
     {
       "id": "cam-di-planejamento-e-criacao",
@@ -13748,7 +13768,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Papéis profissionais: especialização não é exclusividade"
       ],
@@ -13758,7 +13778,8 @@
       },
       "statement": "Traduzir uma necessidade do público em diretriz para a campanha é uma atividade de planejamento que pode orientar a criação.",
       "correctAnswer": "C",
-      "explanation": "O planejamento informa o problema e a direção. A criação materializa essa direção em soluções expressivas."
+      "explanation": "O planejamento informa o problema e a direção. A criação materializa essa direção em soluções expressivas.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Papéis profissionais: especialização não é exclusividade do artigo 121."
     },
     {
       "id": "cam-di-midia-e-producao",
@@ -13775,7 +13796,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Papéis profissionais: especialização não é exclusividade"
       ],
@@ -13785,7 +13806,8 @@
       },
       "statement": "Reservar espaço de veiculação e adaptar um arquivo ao formato contratado constituem a mesma responsabilidade profissional.",
       "correctAnswer": "E",
-      "explanation": "A reserva é uma decisão de mídia. A adaptação é uma atividade de produção, ainda que as duas funções precisem se coordenar."
+      "explanation": "A reserva é uma decisão de mídia. A adaptação é uma atividade de produção, ainda que as duas funções precisem se coordenar.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Papéis profissionais: especialização não é exclusividade do artigo 121."
     },
     {
       "id": "cam-di-raci-execucao-compartilhada",
@@ -13802,7 +13824,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#RACI: responsabilizar sem confundir execução e aceite"
       ],
@@ -13812,7 +13834,8 @@
       },
       "statement": "Duas pessoas podem executar partes de uma entrega enquanto uma autoridade definida responde pelo aceite.",
       "correctAnswer": "C",
-      "explanation": "A matriz distingue quem executa de quem responde pelo resultado e decide sobre o aceite."
+      "explanation": "A matriz distingue quem executa de quem responde pelo resultado e decide sobre o aceite.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção RACI: responsabilizar sem confundir execução e aceite do artigo 121."
     },
     {
       "id": "cam-di-repasse-com-hipotese-pendente",
@@ -13829,7 +13852,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Briefing e passagem de trabalho: o que precisa atravessar as equipes"
       ],
@@ -13839,7 +13862,8 @@
       },
       "statement": "Ao repassar uma peça, é adequado apresentar como definitivo um dado ainda em confirmação se a equipe seguinte conhece o prazo de publicação.",
       "correctAnswer": "E",
-      "explanation": "O prazo não resolve a incerteza do dado. O repasse deve registrar a pendência e quem a resolve antes do uso."
+      "explanation": "O prazo não resolve a incerteza do dado. O repasse deve registrar a pendência e quem a resolve antes do uso.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Briefing e passagem de trabalho: o que precisa atravessar as equipes do artigo 121."
     },
     {
       "id": "cam-di-divergencia-de-criterios",
@@ -13856,7 +13880,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
       ],
@@ -13866,7 +13890,8 @@
       },
       "statement": "Se duas áreas discordam de uma peça porque usam critérios diferentes de sucesso, explicitar a meta comum pode esclarecer se o conflito é de prioridades ou de execução.",
       "correctAnswer": "C",
-      "explanation": "A comparação torna visíveis os critérios que orientam cada avaliação e permite verificar sua compatibilidade com o objetivo."
+      "explanation": "A comparação torna visíveis os critérios que orientam cada avaliação e permite verificar sua compatibilidade com o objetivo.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Gestão de conflitos, feedback e aprendizagem do artigo 121."
     },
     {
       "id": "cam-di-volume-sem-qualidade-de-entrega",
@@ -13883,7 +13908,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
       ],
@@ -13893,7 +13918,8 @@
       },
       "statement": "Contar mais versões de uma peça produzidas em uma semana comprova que a equipe melhorou a qualidade da entrega.",
       "correctAnswer": "E",
-      "explanation": "A contagem mede atividade. Qualidade exige verificar critérios de aceite e, quando pertinente, observar resultados com o público."
+      "explanation": "A contagem mede atividade. Qualidade exige verificar critérios de aceite e, quando pertinente, observar resultados com o público.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Avaliação de equipe: atividade, entrega, processo e resultado do artigo 121."
     },
     {
       "id": "cam-di-aprovacao-tecnica-e-editorial",
@@ -13910,7 +13936,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Decisões, aprovações e segregação de funções"
       ],
@@ -13920,7 +13946,8 @@
       },
       "statement": "Uma avaliação de resolução, codec e dimensões do arquivo pode ser concluída sem que a aprovação editorial do conteúdo esteja concluída.",
       "correctAnswer": "C",
-      "explanation": "A avaliação técnica e a editorial examinam critérios diferentes. É possível satisfazer um conjunto antes do outro."
+      "explanation": "A avaliação técnica e a editorial examinam critérios diferentes. É possível satisfazer um conjunto antes do outro.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Decisões, aprovações e segregação de funções do artigo 121."
     },
     {
       "id": "cam-di-mudanca-de-escopo-com-impacto",
@@ -13937,7 +13964,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
       ],
@@ -13947,7 +13974,8 @@
       },
       "statement": "Acrescentar peças a uma campanha após o planejamento preserva necessariamente os prazos se a data final estiver registrada no cronograma.",
       "correctAnswer": "E",
-      "explanation": "A data registrada é uma referência. O trabalho adicional pode consumir capacidade ou alterar dependências e exigir replanejamento."
+      "explanation": "A data registrada é uma referência. O trabalho adicional pode consumir capacidade ou alterar dependências e exigir replanejamento.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Coordenação do fluxo: capacidade, filas, dependências e mudanças do artigo 121."
     },
     {
       "id": "cam-di-raci-informado",
@@ -13964,7 +13992,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#RACI: responsabilizar sem confundir execução e aceite"
       ],
@@ -13974,7 +14002,8 @@
       },
       "statement": "Na matriz RACI, o papel informado recebe comunicação sobre o andamento ou a decisão.",
       "correctAnswer": "C",
-      "explanation": "O papel informado acompanha o que ocorreu. Sua designação não lhe atribui execução nem aceite."
+      "explanation": "O papel informado acompanha o que ocorreu. Sua designação não lhe atribui execução nem aceite.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção RACI: responsabilizar sem confundir execução e aceite do artigo 121."
     },
     {
       "id": "cam-di-agrupamento-funcional-por-especialidade",
@@ -13991,7 +14020,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Estruturas organizacionais: autoridade, coordenação e tensões"
       ],
@@ -14001,7 +14030,8 @@
       },
       "statement": "Agrupar profissionais segundo especialidades, como redação e direção de arte, é compatível com uma estrutura funcional.",
       "correctAnswer": "C",
-      "explanation": "O critério de agrupamento é a função exercida."
+      "explanation": "O critério de agrupamento é a função exercida.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Estruturas organizacionais: autoridade, coordenação e tensões do artigo 121."
     },
     {
       "id": "cam-di-suposicao-na-transicao-de-turno",
@@ -14018,7 +14048,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Briefing e passagem de trabalho: o que precisa atravessar as equipes"
       ],
@@ -14028,7 +14058,8 @@
       },
       "statement": "No fim de um turno, transferir uma peça com duas opções de data sem indicar qual ainda depende de confirmação permite ao turno seguinte escolher a data com base na ordem dos arquivos.",
       "correctAnswer": "E",
-      "explanation": "A ordem dos arquivos não estabelece qual data foi confirmada. O repasse precisa tornar explícitos o estado da decisão e sua fonte."
+      "explanation": "A ordem dos arquivos não estabelece qual data foi confirmada. O repasse precisa tornar explícitos o estado da decisão e sua fonte.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Briefing e passagem de trabalho: o que precisa atravessar as equipes do artigo 121."
     },
     {
       "id": "cam-di-lote-grande-retarda-primeira-entrega",
@@ -14045,7 +14076,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
       ],
@@ -14055,7 +14086,8 @@
       },
       "statement": "Doze peças independentes ficam prontas em pares a cada dia. A revisão pode começar ao receber o primeiro par e concluir cada par em um dia. Enviar todas juntas ao final do sexto dia posterga a primeira aprovação em relação ao repasse diário, ainda que o esforço total de revisão seja igual.",
       "correctAnswer": "C",
-      "explanation": "O repasse diário permite sobrepor produção e revisão. O repasse em lote impõe espera até o último par para iniciar a primeira revisão."
+      "explanation": "O repasse diário permite sobrepor produção e revisão. O repasse em lote impõe espera até o último par para iniciar a primeira revisão.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Coordenação do fluxo: capacidade, filas, dependências e mudanças do artigo 121."
     },
     {
       "id": "cam-di-reserva-consumida-em-dois-fluxos",
@@ -14070,9 +14102,9 @@
       "conceptId": "reserva-consumida-em-dois-fluxos",
       "mechanism": "reserva-consumida-em-dois-fluxos",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "muito-dificil",
-      "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
       ],
@@ -14082,7 +14114,8 @@
       },
       "statement": "A mesma revisora tem oito horas livres na sexta-feira. Dois projetos independentes reservam seis horas cada com ela para essa data. Como nenhum projeto excede oito horas isoladamente, os dois cronogramas são viáveis sem remanejamento.",
       "correctAnswer": "E",
-      "explanation": "Os planos competem pela mesma disponibilidade. Juntos exigem doze horas, quatro além da capacidade disponível."
+      "explanation": "Os planos competem pela mesma disponibilidade. Juntos exigem doze horas, quatro além da capacidade disponível.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Coordenação do fluxo: capacidade, filas, dependências e mudanças do artigo 121."
     },
     {
       "id": "cam-di-seguranca-psicologica-e-responsabilizacao",
@@ -14094,12 +14127,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
       "articleId": "art-4f73a9c12b60de85",
-      "conceptId": "seguranca-psicologica-e-responsabilizacao",
-      "mechanism": "seguranca-psicologica-e-responsabilizacao",
+      "conceptId": "seguranca-psicologica-e-participacao-assimetrica",
+      "mechanism": "seguranca-psicologica-e-participacao-assimetrica",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
       ],
@@ -14107,9 +14140,10 @@
         "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
         "section": "Gestão de conflitos, feedback e aprendizagem"
       },
-      "statement": "Uma equipe que incentiva a comunicação de erros precisa deixar de discutir as consequências desses erros para manter a segurança psicológica.",
+      "statement": "Uma coordenação recebe muitas sugestões dos líderes, mas nunca ouve alertas dos profissionais recém-chegados. O volume total de sugestões basta para concluir que pessoas em todos os níveis se sentem à vontade para questionar decisões.",
       "correctAnswer": "E",
-      "explanation": "A segurança psicológica favorece comunicar erros sem medo de humilhação. A equipe pode examinar consequências e responsabilizar-se por correções."
+      "explanation": "O total pode refletir apenas a participação de um grupo. A conclusão sobre toda a equipe exige examinar como oportunidades e riscos de manifestação variam entre níveis.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Gestão de conflitos, feedback e aprendizagem do artigo 121."
     },
     {
       "id": "cam-di-causa-entre-etapas-nao-na-pessoa",
@@ -14126,7 +14160,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
       ],
@@ -14136,7 +14170,8 @@
       },
       "statement": "Se três redatores diferentes entregam arquivos com o mesmo campo ausente, examinar o modelo de repasse antes de atribuir o problema a um deles pode revelar uma causa comum.",
       "correctAnswer": "C",
-      "explanation": "A repetição entre pessoas sugere investigar insumos e regras compartilhados. Isso permite testar uma explicação do processo."
+      "explanation": "A repetição entre pessoas sugere investigar insumos e regras compartilhados. Isso permite testar uma explicação do processo.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Gestão de conflitos, feedback e aprendizagem do artigo 121."
     },
     {
       "id": "cam-di-taxa-de-retrabalho-com-base-distinta",
@@ -14151,9 +14186,9 @@
       "conceptId": "taxa-de-retrabalho-com-base-distinta",
       "mechanism": "taxa-de-retrabalho-com-base-distinta",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "muito-dificil",
-      "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
       ],
@@ -14163,7 +14198,8 @@
       },
       "statement": "Em um mês, oito de vinte peças voltaram para ajuste. No mês seguinte, dez de cinquenta voltaram. A quantidade de devoluções aumentou e a proporção de peças devolvidas caiu.",
       "correctAnswer": "C",
-      "explanation": "As taxas passam de 40% para 20%, embora as devoluções subam de oito para dez. O julgamento exige distinguir quantidade e proporção."
+      "explanation": "As taxas passam de 40% para 20%, embora as devoluções subam de oito para dez. O julgamento exige distinguir quantidade e proporção.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Avaliação de equipe: atividade, entrega, processo e resultado do artigo 121."
     },
     {
       "id": "cam-di-ganho-de-velocidade-com-efeito-incerto",
@@ -14175,12 +14211,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
       "articleId": "art-4f73a9c12b60de85",
-      "conceptId": "ganho-de-velocidade-com-efeito-incerto",
-      "mechanism": "ganho-de-velocidade-com-efeito-incerto",
+      "conceptId": "ganho-de-prazo-com-janela-de-publicacao",
+      "mechanism": "ganho-de-prazo-com-janela-de-publicacao",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
       ],
@@ -14188,9 +14224,10 @@
         "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
         "section": "Avaliação de equipe: atividade, entrega, processo e resultado"
       },
-      "statement": "Uma equipe reduz o prazo de produção sem alterar a mensagem ou a distribuição. Essa redução demonstra que o público compreendeu melhor a campanha.",
-      "correctAnswer": "E",
-      "explanation": "O prazo mede o processo interno. A compreensão é resultado do público e precisa de evidência própria."
+      "statement": "Uma equipe reduz o tempo de produção de cinco para três dias, mas as peças continuam aguardando uma janela semanal fixa de publicação. Para verificar se o público recebe a mensagem mais cedo, é preciso medir também a espera após a produção.",
+      "correctAnswer": "C",
+      "explanation": "O ganho numa etapa pode ser absorvido pela espera até a publicação. O tempo até o público depende do percurso completo.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Avaliação de equipe: atividade, entrega, processo e resultado do artigo 121."
     },
     {
       "id": "cam-di-decisao-de-aceite-sem-entrega",
@@ -14207,7 +14244,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Decisões, aprovações e segregação de funções"
       ],
@@ -14217,7 +14254,8 @@
       },
       "statement": "A autorização para iniciar a criação comprova que a peça já atende aos critérios de aceite.",
       "correctAnswer": "E",
-      "explanation": "Autorizar o início libera trabalho futuro. O aceite depende da verificação da entrega produzida."
+      "explanation": "Autorizar o início libera trabalho futuro. O aceite depende da verificação da entrega produzida.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Decisões, aprovações e segregação de funções do artigo 121."
     },
     {
       "id": "cam-di-decisao-local-com-efeito-em-outra-area",
@@ -14234,7 +14272,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Liderança, coordenação e autonomia profissional"
       ],
@@ -14244,7 +14282,8 @@
       },
       "statement": "Uma equipe tem autonomia para escolher o formato visual. Se uma alteração exigir mais tempo da revisão compartilhada e atrasar outra campanha, a coordenação pode precisar arbitrar a alocação mesmo que o formato seja tecnicamente adequado.",
       "correctAnswer": "C",
-      "explanation": "A escolha local produz efeito em um recurso comum. Avaliar o formato e decidir sobre prioridades concorrentes são funções distintas."
+      "explanation": "A escolha local produz efeito em um recurso comum. Avaliar o formato e decidir sobre prioridades concorrentes são funções distintas.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Liderança, coordenação e autonomia profissional do artigo 121."
     },
     {
       "id": "cam-di-integracao-prazo-aceite-e-dependencias",
@@ -14261,7 +14300,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4f73a9c12b60de85#Caso progressivo: reorganizar uma campanha da Câmara"
       ],
@@ -14271,7 +14310,8 @@
       },
       "statement": "Uma peça tem prazo fixo e depende de dois pareceres independentes. Solicitar ambos simultaneamente pode reduzir a espera se os pareceristas estiverem disponíveis, mas a entrega ainda depende da conclusão dos dois.",
       "correctAnswer": "C",
-      "explanation": "A execução paralela pode reduzir o prazo de análise. A exigência de convergência permanece e a data depende do parecer que terminar por último."
+      "explanation": "A execução paralela pode reduzir o prazo de análise. A exigência de convergência permanece e a data depende do parecer que terminar por último.",
+      "reviewEvidence": "Cotejo editorial do gabarito e do mecanismo com a seção Caso progressivo: reorganizar uma campanha da Câmara do artigo 121."
     }
   ]
 }

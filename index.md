@@ -7,6 +7,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 ## 1 - Planejamento
 - [[1 - Planejamento/Camara 2026 - Estrategia de estudo ate janeiro|Câmara 2026: estratégia de estudo até janeiro de 2027]]
 - [[1 - Planejamento/Camara 2026 - Arquitetura conceitual e plano de artigos|Câmara 2026: trilhas conceituais e implementação por fases]]
+- [[1 - Planejamento/Camara 2026 - Encerramento editorial e tecnico|Câmara 2026: parecer único, 333 artigos, 10 matérias com ressalvas e 1 pendente de evidência]]
 - [[1 - Planejamento/Glossario CGU 2026 - Arquitetura e backlog de 200 termos|Glossário CGU: catálogo expansível de conceitos e classificações]]
 - [[1 - Planejamento/Continuidade de estudo por materia|Continuidade de estudo por matéria]]
 - [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano das 15 matérias]]

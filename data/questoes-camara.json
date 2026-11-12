@@ -28344,6 +28344,222 @@
       "statement": "Em “Uma pesquisadora apresentou os resultados. A especialista respondeu às perguntas”, o segundo sintagma pode retomar a pessoa apresentada na primeira frase, ainda que não repita a palavra “pesquisadora”.",
       "correctAnswer": "C",
       "explanation": "Uma descrição diferente pode identificar o mesmo referente quando o contexto sustenta a ligação."
+    },
+    {
+      "id": "cam-port-elipse-com-verbo-recuperavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "elipse-com-verbo-recuperavel",
+      "mechanism": "elipse-com-verbo-recuperavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#2. Coesão Gramatical: Elipse e Substituição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "2. Coesão Gramatical: Elipse e Substituição"
+      },
+      "statement": "Em “A primeira equipe revisou as tabelas e a segunda, os gráficos”, a vírgula depois de “segunda” marca a omissão de um verbo recuperável da primeira oração.",
+      "correctAnswer": "C",
+      "explanation": "O trecho admite a leitura “a segunda equipe revisou os gráficos”. O verbo revisou está expresso antes e é recuperado na segunda oração."
+    },
+    {
+      "id": "cam-port-hiperonimo-com-escopo-alterado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "hiperonimo-com-escopo-alterado",
+      "mechanism": "hiperonimo-com-escopo-alterado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#3. Coesão Lexical: Estruturas Semânticas e Relações Conceituais"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "3. Coesão Lexical: Estruturas Semânticas e Relações Conceituais"
+      },
+      "statement": "Em um aviso que informa a suspensão de ônibus, trocar “ônibus” por “veículos” preserva necessariamente o conjunto afetado, ainda que a frase seja lida isoladamente.",
+      "correctAnswer": "E",
+      "explanation": "Veículos é uma categoria mais ampla. Sem contexto que a restrinja, a substituição permite incluir outros meios de transporte."
+    },
+    {
+      "id": "cam-port-substituicao-por-proforma-verbal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "substituicao-por-proforma-verbal",
+      "mechanism": "substituicao-por-proforma-verbal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#2. Coesão Gramatical: Elipse e Substituição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "2. Coesão Gramatical: Elipse e Substituição"
+      },
+      "statement": "Em “A secretaria atualizou a página e a comissão também o fez”, a construção “o fez” retoma a ação de atualizar a página.",
+      "correctAnswer": "C",
+      "explanation": "A construção substitui o predicado anterior. A ação é retomada e atribuída a outro sujeito."
+    },
+    {
+      "id": "cam-port-coordenacao-entre-complementos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-cd7059fe8508b9d0",
+      "conceptId": "coordenacao-entre-complementos",
+      "mechanism": "coordenacao-entre-complementos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-cd7059fe8508b9d0#5A. Coordenação entre termos: além das orações"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas.md",
+        "section": "5A. Coordenação entre termos: além das orações"
+      },
+      "statement": "Em “O relatório analisa receitas e despesas”, a conjunção “e” coordena duas orações independentes.",
+      "correctAnswer": "E",
+      "explanation": "A conjunção liga dois termos que funcionam como complemento de analisa. Há apenas um núcleo verbal."
+    },
+    {
+      "id": "cam-port-alternancia-com-prazo-condicional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-cd7059fe8508b9d0",
+      "conceptId": "alternancia-com-prazo-condicional",
+      "mechanism": "alternancia-com-prazo-condicional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-cd7059fe8508b9d0#2. As Cinco Modalidades de Orações Coordenadas Sindéticas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas.md",
+        "section": "2. As Cinco Modalidades de Orações Coordenadas Sindéticas"
+      },
+      "statement": "Em “Entregue o formulário até amanhã, ou o pedido será arquivado”, a segunda oração apresenta a consequência prevista para o descumprimento da primeira instrução.",
+      "correctAnswer": "C",
+      "explanation": "A alternativa equivale contextualmente a “se não entregar, o pedido será arquivado”. O efeito decorre da interpretação das orações em conjunto."
+    },
+    {
+      "id": "cam-port-subordinada-objetiva-e-sujeito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-33566ad5fe490701",
+      "conceptId": "subordinada-objetiva-e-sujeito",
+      "mechanism": "subordinada-objetiva-e-sujeito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-33566ad5fe490701#2. Orações Subordinadas Substantivas: O Teste do \"ISSO\""
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md",
+        "section": "2. Orações Subordinadas Substantivas: O Teste do \"ISSO\""
+      },
+      "statement": "Em “A comissão confirmou que o prazo terminaria na sexta-feira”, a oração iniciada por “que” funciona como sujeito de “confirmou”.",
+      "correctAnswer": "E",
+      "explanation": "A comissão é o sujeito. A oração subordinada completa o verbo confirmou e pode ser substituída por “isso”."
+    },
+    {
+      "id": "cam-port-restritiva-delimita-subconjunto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-33566ad5fe490701",
+      "conceptId": "restritiva-delimita-subconjunto",
+      "mechanism": "restritiva-delimita-subconjunto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-33566ad5fe490701#3. Orações Subordinadas Adjetivas: Restrição $\\times$ Explicação e Pronomes Relativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md",
+        "section": "3. Orações Subordinadas Adjetivas: Restrição $\\times$ Explicação e Pronomes Relativos"
+      },
+      "statement": "Em “Os formulários que chegaram sem assinatura serão devolvidos”, a oração relativa delimita quais formulários serão devolvidos.",
+      "correctAnswer": "C",
+      "explanation": "A oração adjetiva restringe o conjunto aos formulários sem assinatura. A afirmação não se estende aos demais."
+    },
+    {
+      "id": "cam-port-reduzida-com-leitura-temporal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-33566ad5fe490701",
+      "conceptId": "reduzida-com-leitura-temporal",
+      "mechanism": "reduzida-com-leitura-temporal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-33566ad5fe490701#5. Orações Reduzidas (Infinitivo, Gerúndio e Particípio)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md",
+        "section": "5. Orações Reduzidas (Infinitivo, Gerúndio e Particípio)"
+      },
+      "statement": "Em “Encerrada a votação, a presidência anunciou o resultado”, o segmento inicial afirma que o encerramento foi causado pelo anúncio.",
+      "correctAnswer": "E",
+      "explanation": "O segmento reduzido de particípio indica que o anúncio ocorreu após o encerramento. A frase não atribui ao anúncio a causa do encerramento."
     }
   ]
 }

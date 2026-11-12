@@ -60,47 +60,30 @@ function escaparSeparadoresWikilinksEmTabelas(markdown) {
 
 function protegerBlocosMatematicosMarkdown(markdown) {
     const blocos = [];
-    const linhas = String(markdown || "").split(/\r?\n/);
-    const saida = [];
-    let dentroDeCodigo = false;
+    const codigos = [];
+    // Cercas e trechos de código devem ficar intactos.
+    const protegidos = protegerBlocosCodigoMarkdown(markdown);
+    let texto = protegidos.markdown.replace(/(\x60+)([^\n]*?)\1/g, trecho => {
+        const indice = codigos.push(trecho) - 1;
+        return "MATHCODETOKEN" + indice + "END";
+    });
 
-    for (let i = 0; i < linhas.length; i += 1) {
-        const linha = linhas[i];
+    // Suporta $...$, \[...\], \(...\) e $...$ em listas e tabelas.
+    // O início de um preço, como R$ 120, não é um delimitador de matemática.
+    const expressao = /\$\$([\s\S]*?)\$\$|\\\[([\s\S]*?)\\\]|\\\(([\s\S]*?)\\\)|(?<![\w\\$])\$(?!\s|\$)([^\n$]*?\S)\$(?!\$)/g;
+    texto = texto.replace(expressao, (original, displayDolar, displayColchetes, inlineParenteses, inlineDolar) => {
+        const formula = (displayDolar ?? displayColchetes ?? inlineParenteses ?? inlineDolar)?.trim();
+        if (!formula) return original;
+        const display = displayDolar !== undefined || displayColchetes !== undefined;
+        const indice = blocos.push({ formula, display }) - 1;
+        return "MATHFORMULATOKEN" + indice + "END";
+    });
 
-        if (/^\s*```/.test(linha)) {
-            dentroDeCodigo = !dentroDeCodigo;
-            saida.push(linha);
-            continue;
-        }
-
-        if (!dentroDeCodigo && /^\s*\$\$\s*$/.test(linha)) {
-            const formula = [];
-            let fechou = false;
-
-            for (i += 1; i < linhas.length; i += 1) {
-                if (/^\s*\$\$\s*$/.test(linhas[i])) {
-                    fechou = true;
-                    break;
-                }
-                formula.push(linhas[i]);
-            }
-
-            if (fechou) {
-                const indice = blocos.length;
-                blocos.push(formula.join("\n").trim());
-                saida.push(`MATHBLOCKTOKEN${indice}END`);
-                continue;
-            }
-
-            // Delimitador sem fechamento: preserva o original para diagnóstico visual.
-            saida.push("$$", ...formula);
-            break;
-        }
-
-        saida.push(linha);
-    }
-
-    return { markdown: saida.join("\n"), blocos };
+    texto = texto.replace(/MATHCODETOKEN(\d+)END/g, (token, indice) => codigos[Number(indice)] ?? token);
+    return {
+        markdown: restaurarBlocosCodigoMarkdown(texto, protegidos.blocos),
+        blocos
+    };
 }
 
 function escaparHtmlMatematica(texto) {
@@ -111,18 +94,30 @@ function escaparHtmlMatematica(texto) {
 }
 
 function restaurarBlocosMatematicosHtml(html, blocos) {
-    let resultado = String(html || "");
-
-    (blocos || []).forEach((formula, indice) => {
-        const token = `MATHBLOCKTOKEN${indice}END`;
-        const delimitador = "$";
-        const bloco = `<div class="math-display">${delimitador}${escaparHtmlMatematica(formula)}${delimitador}</div>`;
-        resultado = resultado
-            .replace(`<p>${token}</p>`, bloco)
-            .replace(token, bloco);
+    return String(html || "").replace(/MATHFORMULATOKEN(\d+)END/g, (token, indiceTexto) => {
+        const bloco = (blocos || [])[Number(indiceTexto)];
+        if (!bloco) return token;
+        const classe = bloco.display ? "math-display" : "math-inline";
+        let conteudo;
+        try {
+            if (typeof katex !== "undefined" && typeof katex.renderToString === "function") {
+                conteudo = katex.renderToString(bloco.formula, {
+                    displayMode: bloco.display,
+                    throwOnError: false,
+                    strict: "ignore",
+                    trust: false,
+                    output: "htmlAndMathml"
+                });
+            }
+        } catch (erro) {
+            console.warn("Falha na renderização da fórmula:", erro);
+        }
+        // Sem CDN, preservar expressão acessível e selecionável.
+        if (!conteudo) {
+            conteudo = '<code class="math-fallback">' + escaparHtmlMatematica(bloco.formula) + '</code>';
+        }
+        return '<span class="math-formula ' + classe + '">' + conteudo + '</span>';
     });
-
-    return resultado;
 }
 
 function processarCalloutsObsidian() {

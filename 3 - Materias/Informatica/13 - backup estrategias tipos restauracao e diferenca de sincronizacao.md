@@ -75,8 +75,13 @@ Imagine uma rotina de segunda a quinta-feira, com sinistro na sexta-feira pela m
 - Terça: **Incremental 2** (alterações de ter)
 - Quarta: **Incremental 3** (alterações de qua)
 - Quinta: **Incremental 4** (alterações de qui)
-- **Restauração na Sexta-feira**: Necessita de **5 mídias/etapas**:
-  $$\text{Full (Domingo)} \rightarrow \text{Inc 1 (Seg)} \rightarrow \text{Inc 2 (Ter)} \rightarrow \text{Inc 3 (Qua)} \rightarrow \text{Inc 4 (Qui)}$$
+- **Restauração na Sexta-feira**: Necessita de **5 mídias/etapas**, aplicadas nesta ordem:
+
+  1. **Backup completo** (domingo)
+  2. **Incremental 1** (segunda-feira)
+  3. **Incremental 2** (terça-feira)
+  4. **Incremental 3** (quarta-feira)
+  5. **Incremental 4** (quinta-feira)
 - *Atenção Cebraspe*: A ordem cronológica estrita deve ser respeitada. Se a fita de Terça-feira estiver corrompida, só é possível restaurar os dados até Segunda-feira!
 
 ### Estratégia B: Full no Domingo + Diferencial nos demais dias
@@ -85,8 +90,10 @@ Imagine uma rotina de segunda a quinta-feira, com sinistro na sexta-feira pela m
 - Terça: **Diferencial 2** (alterações desde domingo: dados de seg + ter)
 - Quarta: **Diferencial 3** (alterações desde domingo: dados de seg + ter + qua)
 - Quinta: **Diferencial 4** (alterações desde domingo: dados de seg + ter + qua + qui)
-- **Restauração na Sexta-feira**: Necessita de apenas **2 mídias/etapas**:
-  $$\text{Full (Domingo)} \rightarrow \text{Diferencial 4 (Quinta)}$$
+- **Restauração na Sexta-feira**: Necessita de apenas **2 mídias/etapas**, aplicadas nesta ordem:
+
+  1. **Backup completo** (domingo)
+  2. **Diferencial 4** (quinta-feira)
 - *Atenção Cebraspe*: Os diferenciais de segunda, terça e quarta são totalmente dispensáveis na restauração, pois o diferencial de quinta-feira já contém todas as alterações acumuladas desde o último Full.
 
 ---

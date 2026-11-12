@@ -8,8 +8,14 @@ on:
       - 'scripts/test-glossary-browser.cjs'
       - 'scripts/build-site.js'
       - '.github/workflows/validate-glossary-pr.yml'
-      - '3 - Materias/**'
+      - 'web/09-glossary.js'
+      - 'style.css'
+      - 'index.html'
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
@@ -35,6 +41,7 @@ jobs:
           npm install --no-save --ignore-scripts --package-lock=false playwright@1.56.1
           npx playwright install chromium
       - name: Testar interface e gerar evidências em duas larguras
+        timeout-minutes: 5
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 --directory _site >/tmp/glossario-http.log 2>&1 &
           node scripts/test-glossary-browser.cjs

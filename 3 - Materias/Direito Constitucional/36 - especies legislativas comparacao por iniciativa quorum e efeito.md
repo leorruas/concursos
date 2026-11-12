@@ -5,7 +5,7 @@ title: "Espécies legislativas: comparação sistemática por iniciativa, quóru
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # Espécies legislativas: comparação sistemática por iniciativa, quórum, deliberação, sanção e efeitos (CF, art. 59)
@@ -32,12 +32,32 @@ Embora cada espécie possua nota temática própria na wiki (como as notas 10, 1
 
 Compreender o processo legislativo sob a ótica comparativa é indispensável para não cair em inversões de requisitos ou em generalizações indevidas no julgamento de itens C/E.
 
+## Definição constitucional: lei ordinária e lei complementar
+
+A **Constituição Federal não formula uma definição abstrata dessas leis**. Ela as enumera como **espécies legislativas distintas** no art. **59, II e III**, estabelece seus **quóruns** nos arts. **47 e 69** e **reserva expressamente certas matérias** à lei complementar em vários dispositivos.
+
+**Lei ordinária (LO, cujo projeto é um PL):** instrumento legislativo comum para disciplinar matérias submetidas a lei **sem reserva constitucional a lei complementar ou a outra espécie normativa**. O art. **47** aplica a regra de **maioria dos votos, presente a maioria absoluta dos membros da Casa**. Exemplo de lei ordinária: **Lei nº 8.112/1990** (regime jurídico dos servidores civis federais). O **art. 165, I a III**, também prevê as leis do PPA, LDO e LOA: leis orçamentárias de natureza ordinária.
+
+**Lei complementar (LC, cujo projeto é um PLP):** espécie exigida **pela própria Constituição para assuntos delimitados**. O art. **69** exige **maioria absoluta dos membros de cada Casa** (257 deputados e 41 senadores). Exemplos de matérias constitucionalmente reservadas:
+- **CF, art. 14, § 9º:** outros casos de inelegibilidade e prazos de cessação;
+- **CF, art. 37, XIX:** definição das áreas de atuação das fundações públicas;
+- **CF, art. 93:** Estatuto da Magistratura, por iniciativa do STF;
+- **CF, art. 146, I a III:** conflitos de competência tributária, limitações ao poder de tributar e normas gerais de direito tributário;
+- **CF, art. 163:** normas gerais sobre finanças públicas;
+- **CF, art. 165, § 9º:** regras gerais de organização, elaboração e prazos das leis orçamentárias.
+
+**Critério decisivo para classificar a matéria:** localizar no texto constitucional uma **exigência expressa de lei complementar**. A simples importância política da lei, o fato de tratar de tributos ou orçamento ou a expressão “complementar” no título não criam reserva. A LC **não tem superioridade hierárquica geral** em relação à LO; a reserva de matéria e o quórum são critérios separados. No Congresso, os **arts. 61, 65 e 66** também disciplinam iniciativa, revisão, sanção e veto quando aplicáveis às duas espécies.
+
+**Regimento da Câmara:** o **PLP passa pelo Plenário**, sem apreciação conclusiva nas comissões (**RICD, art. 24, II, a**), e está entre as exceções ao turno único (**art. 148: dois turnos na Câmara**). No **Senado**, a regra é **turno único** (RISF, art. 270), salvo hipótese regimental de turno suplementar. A regra da LO na Câmara é turno único, admitida apreciação conclusiva nas comissões somente nas hipóteses regimentais permitidas.
+
+Fontes: [Constituição Federal de 1988, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988), [RICD atualizado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e [RISF, art. 270](https://legis.senado.leg.br/norma/563958/publicacao/30785361).
+
 ## 1. Matriz comparativa geral das 7 espécies normativas do art. 59 da CF
 
 | Espécie Normativa | Legitimados para Iniciativa | Quórum de Aprovação | Turnos de Votação | Sanção e Veto Presidencial? | Autoridade Competente para Promulgação | Objeto Típico e Efeitos Jurídicos |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Emenda à Constituição (PEC)** (CF, art. 60) | **Rol taxativo e restrito:** 1/3 da Câmara (171); 1/3 do Senado (27); Presidente da República; ou mais da metade das Assembleias Legislativas (maioria relativa em cada) | **3/5 dos membros** de cada Casa (308 Deputados e 49 Senadores) | **2 turnos** na Câmara **e 2 turnos** no Senado | **NÃO** há sanção nem veto | **Mesas da Câmara dos Deputados e do Senado Federal**, conjuntamente | Altera o texto constitucional formal. Não admite iniciativa popular nem de tribunais/MP. |
-| **Lei Complementar (PLP)** (CF, art. 61 e 69) | **Ampla:** Deputado, Senador, Comissão, Presidente da República, STF, Tribunais Superiores, PGR, Defensor Público-Geral e Cidadãos (iniciativa popular) | **Maioria absoluta** dos membros de cada Casa (257 Deputados e 41 Senadores) | **Turno único** em cada Casa (com possibilidade de votação conclusiva em comissões se admitida regimentalmente) | **SIM** (CF, art. 66: 15 dias úteis) | **Presidente da República** (ou subsidiariamente Presidente do Senado / Vice-Presidente do Senado) | Matérias taxativamente reservadas pela CF (reserva material de lei complementar). |
+| **Lei Complementar (PLP)** (CF, art. 61 e 69) | **Ampla:** Deputado, Senador, Comissão, Presidente da República, STF, Tribunais Superiores, PGR, Defensor Público-Geral e Cidadãos (iniciativa popular) | **Maioria absoluta** dos membros de cada Casa (257 Deputados e 41 Senadores) | **Dois turnos na Câmara** (RICD, art. 148), com votação pelo Plenário; **turno único no Senado** (RISF, art. 270, ressalvado turno suplementar) | **SIM** (CF, art. 66: 15 dias úteis) | **Presidente da República** (ou subsidiariamente Presidente do Senado / Vice-Presidente do Senado) | Matérias taxativamente reservadas pela CF (reserva material de lei complementar). |
 | **Lei Ordinária (PL)** (CF, art. 61 e 47) | **Ampla:** Deputado, Senador, Comissão, Presidente da República, STF, Tribunais Superiores, PGR, Defensor Público-Geral e Cidadãos (iniciativa popular) | **Maioria simples / relativa** (maioria dos votos dos presentes, com presença da maioria absoluta da Casa) | **Turno único** em cada Casa (admite apreciação conclusiva nas comissões - art. 24, II, RICD) | **SIM** (CF, art. 66: 15 dias úteis) | **Presidente da República** (ou subsidiariamente Presidente do Senado / Vice-Presidente do Senado) | Matéria residual geral (tudo o que não for expressamente reservado a outra espécie). |
 | **Lei Delegada** (CF, art. 68) | **Exclusiva do Presidente da República**, mediante solicitação expressa de delegação ao Congresso Nacional | Aprovada a **Resolução autorizativa** por maioria simples do Congresso | A resolução de delegação é deliberada pelo Congresso Nacional em sessão conjunta, com votos de cada Casa computados separadamente (RCCN, arts. 43 e 116–127); se a resolução exigir apreciação do projeto delegado, haverá votação única, sem emendas (CF, art. 68, § 3º) | **NÃO** (o Presidente da República já edita o texto com força de lei a partir da delegação concedida) | **Presidente da República** (que a elabora e a promulga diretamente) | Matérias delegáveis pelo Congresso. Vedações absolutas: atos de competência exclusiva do CN/Casas, leis complementares, orçamento e direitos fundamentais/nacionalidade. |
 | **Medida Provisória (MPV)** (CF, art. 62) | **Privativa do Presidente da República**, sob os pressupostos constitucionais de **relevância e urgência** | **Maioria simples / relativa** em cada Casa (após parecer de Comissão Mista) | **Turno único** na Câmara dos Deputados e **Turno único** no Senado Federal | **Depende:** se aprovada sem alteração de mérito, NÃO há sanção (promulga-se a MP); se aprovada com alteração (PLV), **SIM, há sanção e veto** | Se texto original: **Mesas do Congresso Nacional** (Mesa da CD e do SF). Se PLV sancionado: **Presidente da República**. | Força de lei imediata (60+60 dias). Vedações: direito penal, processual, eleitoral, partidos, orçamento (salvo créditos extraordinários) e detenção de bens/poupança. |
@@ -97,7 +117,7 @@ flowchart TD
     B --> B5["Resolução autorizativa de Lei Delegada"]
 
     C --> C1["Lei Complementar (PLP)"]
-    C --> C2["Código de Processo Civil / Código Penal (se PLP)"]
+    C --> C2["Matérias expressamente reservadas à LC pela Constituição"]
     C --> C3["Rejeição de Veto Presidencial (CF, art. 66, § 4º)"]
     C --> C4["Perda de Mandato Parlamentar por Quebra de Decoro"]
 
@@ -137,9 +157,10 @@ A participação do Poder Executivo no processo legislativo materializa o sistem
 A Constituição Federal autoriza que o Regimento Interno delegue às comissões o poder de discutir e votar projetos de lei que dispensarem a competência do Plenário, salvo se houver recurso de um décimo dos membros da Casa.
 
 ### Onde cabe e onde NÃO cabe a apreciação conclusiva?
-- **Cabe:** em **projetos de lei ordinária e projetos de lei complementar** nas hipóteses autorizadas pelo art. 24, II, do RICD;
+- **Cabe:** em **projetos de lei ordinária** nas hipóteses autorizadas pelo art. 24, II, do RICD. **PLP não admite apreciação conclusiva nas comissões da Câmara** (art. 24, II, a);
 - **NÃO cabe (vedações expressas do art. 24, II, do RICD):**
-  1. Propostas de Emenda à Constituição (sempre exigem Plenário em dois turnos por 3/5);
+  1. Projetos de lei complementar (PLP), que exigem Plenário e dois turnos na Câmara;
+  2. Propostas de Emenda à Constituição (sempre exigem Plenário em dois turnos por 3/5);
   2. Projetos de código;
   3. Projetos de lei de iniciativa popular;
   4. Projetos de iniciativa de comissão;

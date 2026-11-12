@@ -175,4 +175,4 @@ Entram depois que a estrutura básica estiver consolidada.
 São mais úteis quando houver uma prova discursiva concreta para calibrar tempo, critérios e formato.
 
 > [!NOTE]
-> Para a Dataprev 2026, a prova descrita no edital é objetiva. Portanto, Redação não é prioridade de curto prazo para a prova de 11/10/2026. Esta trilha deve ser construída como conhecimento reutilizável para concursos futuros, sem competir com a revisão final da Dataprev.
+> **Registro histórico de outro concurso:** a observação anterior sobre Dataprev 2026 referia-se à preparação encerrada em 11/10/2026. **Para a Câmara 2026/2027, Redação Discursiva e Peça Técnica são parte expressa da prova de 17/01/2027.** A trilha atual e os treinos de 20/50 linhas estão no início deste hub.

@@ -21,6 +21,23 @@ O Cargo 1 (Divulgação Institucional) exige duas questões de até 20 linhas e 
 
 As grades e respostas-modelo dessas unidades são didáticas, não espelhos oficiais. O gênero da peça não foi fixado no edital. Reservar dois momentos semanais de escrita e correção, dentro das três horas previstas na estratégia.
 
+## Roteiro de estudo e produção para o Cargo 1
+
+A sequência é operacional, pois a prova exige entregar **duas questões de até 20 linhas** e **uma peça técnica de até 50 linhas**, com gêneros e objetos definidos nos comandos efetivos. O estudo conceitual em Comunicação, Direito e Português é a base; esta matéria treina a conversão em texto corrigível.
+
+| Etapa | Artigo existente | Evidência que produzir no treino |
+| --- | --- | --- |
+| Ler o comando e distribuir requisitos | [[04 - decomposicao de comandos e quesitos cebraspe|04: decomposição e caso oficial TCE-MG]] | Grade verbo, objeto, quantidade, limite e condições; separar quesitos que podem ser perdidos independentemente |
+| Redigir resposta curta | [[05 - resposta conceitual curta de 20 linhas|05: modelos de 20 linhas]] | Responder ao verbo exato, sem adicionar tese opinativa quando se pede explicação |
+| Diferenciar e relacionar | [[08 - resposta comparativa e fronteiras conceituais|08: comparação]] | Usar critérios idênticos para ambos os conceitos e declarar fronteira |
+| Fundamentar norma aplicada | [[09 - resposta normativa aplicada em 20 linhas|09: resposta normativa]] | Fatos, dispositivo seguro, hipótese, condição e conclusão limitada |
+| Produzir peça técnica | [[06 - planejamento e escrita de peca tecnica|06: modelos de 44 e 45 linhas, diagnóstico, plano e avaliação]] | Ajustar gênero à finalidade e estabelecer nexo entre medidas e verificação |
+| Corrigir e retestar | [[07 - revisao e autocorrecao de discursivas e pecas|07: grades e folhas completas 20/50]] | Identificar evidência literal de cada quesito e distinguir erro conceitual de erro de língua |
+
+**Prática semanal dentro do orçamento de três horas:** escrever uma resposta de até 20 linhas e uma peça de até 50 linhas, incluindo correção e reescrita dirigidas. Por exemplo, reservar 80 minutos à resposta curta e 100 à peça. Distribuições são **sugestões didáticas**, não tempos fixados pelo edital. Alternar contextos e verbos; não repetir mecanicamente os modelos depois de lê-los.
+
+**Fontes e limites:** conferir o [edital oficial nº 1/2026 e retificações](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades). O [par enunciado–padrão TCE-MG 2026](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/3ADF49146A2E55690BB77554138AD177F6BD763BC8B6C35FECD4EB7BAB4A06CD.pdf) é histórico e sua pontuação é exclusiva daquele concurso. Modelos de 20, 44 ou 45 linhas digitadas não garantem equivalência manuscrita. Exercícios inéditos são sempre identificados como autorais e sua grade é didática. Produções pessoais e diagnósticos individuais pertencem somente ao cofre privado, nunca ao repositório público.
+
 ## Estrutura
 - Introdução (apresentação do tema)
 - Desenvolvimento (argumentação)

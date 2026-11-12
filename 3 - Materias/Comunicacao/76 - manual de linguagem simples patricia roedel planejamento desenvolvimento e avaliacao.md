@@ -145,6 +145,24 @@ Um texto de frases curtas com termos jurídicos ambíguos pode alcançar bom res
 
 **Limites:** verificação dirigida de sumário e trechos sobre avaliação, não auditoria visual integral das 109 páginas nem de todos os exemplos gráficos, cálculos, tabelas e referências. A distinção entre recomendação profissional de Roedel (2024) e exigências posteriores da **Lei nº 15.263/2025** permanece preservada. **Estado: Corrigido quanto à fonte acessível e verificado no recorte das três questões, sem certificação integral.**
 
+## Oficina: planejar, desenvolver e avaliar uma orientação legislativa (11/11/2026)
+
+**Demanda hipotética:** a área de comunicação precisa explicar ao cidadão como consultar o andamento de uma proposição. Seguindo **Patricia Roedel (2024)**, o **planejamento** identifica público, necessidade, finalidade da consulta, fonte correta e informação indispensável. No **desenvolvimento**, o texto passa a iniciar pela tarefa principal, esclarecer termos do processo legislativo sem mudar seu sentido, agrupar etapas na ordem útil e usar hierarquia visual compreensível. Na **avaliação**, é preciso verificar se pessoas do público-alvo conseguem **localizar a informação, entender a fase do processo e identificar um próximo passo**.
+
+**Teste comparativo:** a versão A é curta, mas omite uma etapa obrigatória; a B é mais longa, porém explica o requisito necessário; a C usa palavras simples, mas deixa o link de consulta inacessível. A solução não é escolher automaticamente o texto mais curto. O critério combina **precisão do conteúdo, compreensão e capacidade de executar a tarefa**. Uma fórmula de leiturabilidade pode indicar dificuldades relacionadas ao tamanho de palavras e frases; não comprova o entendimento da fase legislativa nem a navegação.
+
+**Desenho mínimo de avaliação didática:** registrar tarefa, público e condições de teste; observar tentativas sem antecipar a solução; anotar êxito, pontos de dúvida e solicitações de ajuda; revisar a peça; repetir a avaliação quando necessário. Uma pequena amostra exploratória pode identificar problemas, mas não autoriza percentuais populacionais. Avaliar todas as postagens da mesma forma, independentemente de risco, novidade e vida útil, não é exigência universal do manual de Roedel.
+
+**Item 4, inédito.** No método de Roedel, a definição do público e do objetivo da informação antecede a escolha de estrutura, palavras e leiaute, enquanto a avaliação deve investigar a compreensão e o uso pelo destinatário.
+
+**Gabarito: Certo.** O planejamento informa as decisões do desenvolvimento, e o resultado é observado na etapa de avaliação.
+
+**Item 5, inédito.** Um texto que obtém boa pontuação em fórmula de leiturabilidade pode ser considerado plenamente validado para orientar o cidadão, mesmo que participantes não consigam completar a tarefa descrita.
+
+**Gabarito: Errado.** Leiturabilidade é indício baseado em características formais e não substitui evidência de compreensão ou desempenho na tarefa.
+
+**Fontes e alcance:** [Roedel, *Manual de Linguagem Simples*, Edições Câmara (2024)](https://livraria.camara.leg.br/produto/manual-de-linguagem-simples/), planejamento, desenvolvimento e avaliação; [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|Lei de linguagem simples e técnicas]]. Casos e itens são autorais, sem alegação de prova real Cebraspe ou teste de cidadãos realizado nesta implementação.
+
 ## Relações com outros temas e heurísticas
 
 [[3 - Materias/Comunicacao/10 - linguagem simples|Linguagem simples e acessibilidade digital]] conserva a **base jurídica e técnica geral**. [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|CAM-CO-029]] desenvolve as técnicas e limites sob a Lei nº 15.263/2025; esta nota trata da **estrutura própria de Roedel em 2024**, anterior à lei. [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|CAM-CO-027]] trata do outro manual da Câmara. [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|Transparência]] conecta linguagem e acesso à informação.

@@ -213,8 +213,19 @@ function renderizarPainelConcursoHome() {
 
     container.classList.remove("escondido");
     concursoSelecionadoId = concursoAtivo.id;
+    // Glossário público por concurso: Câmara como padrão, CGU quando selecionada.
+    const concursoGlossario = concursoAtivo.id === "cgu-2026" ? "cgu-2026" : "camara-2026";
+    const destinoGlossario = construirRotaGlossario("", concursoGlossario);
     const acessoGlossario = document.getElementById("home-glossario-entry");
-    if (acessoGlossario) acessoGlossario.classList[concursoAtivo.id === "cgu-2026" ? "remove" : "add"]("escondido");
+    const navGlossario = document.getElementById("nav-link-glossario");
+    if (acessoGlossario) {
+        acessoGlossario.classList.remove("escondido");
+        acessoGlossario.href = destinoGlossario;
+    }
+    if (navGlossario) navGlossario.href = destinoGlossario;
+    const tituloGlossario = document.getElementById("home-glossario-titulo");
+    if (tituloGlossario) tituloGlossario.textContent =
+        concursoGlossario === "cgu-2026" ? "glossário CGU" : "glossário Câmara";
 
     const dataProva = new Date(concursoAtivo.dataProva);
     const hoje = new Date();

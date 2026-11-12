@@ -1275,3 +1275,6 @@ Não somar as sete reavaliações do bloco 25 às 144: tratou-se das **mesmas qu
 **Publicação:** os workflows mais recentes da GitHub Actions `43128305532` e `43128285053` estavam respectivamente **queued** e **pending** quando consultados. **Não declarar GitHub Pages validado**. Os commits intermediários desta matéria aparecem como `cancelled` por novas atualizações; a confirmação de publicação depende do run de uma revisão mais recente, depois de estabilizada a fila.
 
 **Próximo lote:** verificar a versão efetivamente publicada e a preservação de links, conferir fontes específicas ainda pendentes e continuar correções de teorias sem fonte por trecho. Não reabrir a auditoria integral nem modificar catálogo e índice compartilhado sem necessidade.
+
+
+**Adendo de navegação, nota 04:** a nota-base de regência afirmava incorretamente que não existia nota autônoma sobre crase. O trecho foi corrigido para apontar explicitamente [[3 - Materias/Portugues/11 - crase|11 • Crase]] e [[3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos|29 • Crase para Cebraspe]], com diferenciação de escopo. Commit `b3151d83756970475d52665bce4194712a3f90ef`; conteúdo pós-commit verificado, **corrigido**. Sem edição de hub/catálogo.

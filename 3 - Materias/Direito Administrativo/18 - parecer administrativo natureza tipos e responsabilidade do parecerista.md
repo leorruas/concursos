@@ -26,9 +26,9 @@ flowchart TD
     A --> C["Parecer Obrigatório"]:::tipo
     A --> D["Parecer Vinculante"]:::tipo
 
-    B --> B1["Emissão: Não exigida por lei<br/>Acolhimento: Autoridade decide se segue ou não"]:::efeito
-    C --> C1["Emissão: Exigida por lei (formalidade essencial)<br/>Acolhimento: Autoridade PODE divergir com motivação"]:::efeito
-    D --> D1["Emissão: Exigida por lei<br/>Acolhimento: OBRIGATÓRIO (Autoridade vinculada)"]:::efeito
+    B --> B1["Consulta facultativa<br/>Responsabilidade depende de conduta e regime"]:::efeito
+    C --> C1["Consulta exigida, ressalvadas dispensas legais<br/>Divergência motivada; eventual nova consulta"]:::efeito
+    D --> D1["Vinculação conforme norma e alcance<br/>Exemplo AGU: aprovação e publicação"]:::efeito
 ```
 
 ---
@@ -85,13 +85,12 @@ flowchart TD
 
     A["Responsabilidade do Parecerista Jurídico"]:::raiz
 
-    A --> B["Regra Geral: INVIOLABILIDADE TÉCNICA<br/>(Prerrogativa funcional - art. 133 da CF/1988)"]:::regra
-    B --> B1["Não responde por divergência de interpretação jurídica razoável ou tese plausível"]:::regra
+    A --> B["Interpretação técnica fundamentada<br/>exige avaliação de deveres e contexto"]:::regra
+    B --> B1["Divergência plausível não demonstra<br/>por si só erro grosseiro"]:::regra
 
-    A --> C["Exceção: RESPONSABILIZAÇÃO PESSOAL<br/>(Solidária ou autônoma perante TCU e Judiciário)"]:::excecao
-    C --> C1["1. DOLO comprovado ou má-fé"]:::excecao
-    C --> C2["2. ERRO GROSSEIRO ou culpa grave (art. 28 LINDB)"]:::excecao
-    C --> C3["3. Parecer flagrantemente desprovido de base legal mínima"]:::excecao
+    A --> C["Responsabilidade pessoal:<br/>verificar dolo ou erro grosseiro,<br/>conduta e nexo"]:::excecao
+    C --> C1["LINDB, art. 28<br/>e Decreto 9.830/2019"]:::excecao
+    C --> C2["Vinculação não gera<br/>solidariedade automática"]:::excecao
 ```
 
 ### 3.1. A baliza do art. 28 da LINDB (Decreto-Lei nº 4.657/1942)
@@ -231,4 +230,4 @@ Julgue o item seguinte, relativo à responsabilidade do gestor público que acol
 - **Lei Complementar nº 73/1993 (Lei Orgânica da AGU):** arts. 40 e 41 (pareceres vinculantes com aprovação presidencial).
 - **Lei nº 14.133/2021 (Nova Lei de Licitações):** arts. 10 e 53 (controle prévio de legalidade e representação judicial do parecerista).
 - **Supremo Tribunal Federal:** MS 24.631/DF e MS 24.584/DF (regime de responsabilidade em pareceres facultativos, obrigatórios e vinculantes).
-- **Tribunal de Contas da União:** Súmula 222 e jurisprudência consolidada sobre dolo, erro grosseiro e não exuneração automática do gestor.
+- **Tribunal de Contas da União:** [Súmula 222](https://pesquisa.apps.tcu.gov.br/documento/sumula/%2A/NUMERO%253A222/DTRELEVANCIA%2520desc%252C%2520NUMEROINT%2520desc/0/sinonimos%253Dtrue), citada apenas para delimitar seu objeto (normas gerais de licitação), não como precedente de responsabilidade do parecerista.

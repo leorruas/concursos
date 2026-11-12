@@ -58,16 +58,17 @@ Regula o comportamento social, os deveres funcionais e as proibições regimenta
 
 ### 1.2. Modalidade Epistêmica: O Conhecimento e a Certeza
 
-Mede a convicção do enunciador a respeito da veracidade de uma proposição:
+Expressa a avaliação do enunciador sobre a proposição, levando em conta evidência, expectativa e contexto. **Não existe conversão universal de modais em probabilidades numéricas**: *may*, *might* e *could* não indicam porcentagens fixas; *will* pode expressar previsão, não garantia factual.
+
 
 | Verbo Modal Epistêmico | Grau de Certeza do Enunciador | Tradução Funcional | Exemplo no Contexto Institucional |
 | :--- | :--- | :--- | :--- |
-| **Must** | **Quase Certeza / Dedução Lógica Forte (95%)** | *Certamente é / Deve ser (com base em indícios sólidos)* | *The signature is authentic; the president **must be** aware of the decree.* |
-| **Will** | **Certeza Factual / Predição Firme (100%)** | *Certamente ocorrerá / Ocorrerá* | *The plenary **will confirm** the vote tomorrow morning.* |
-| **Should / Ought to** | **Expectativa Razoável / Probabilidade (70%)** | *É provável que / Espera-se que* | *The printing of the official gazette **should be** finished by midnight.* |
-| **May** | **Possibilidade Factual Plausível (50%)** | *Pode ser que / É possível que* | *The legislative debate **may trigger** public demonstrations.* |
-| **Might / Could** | **Possibilidade Hipotética / Remota (35%)** | *Poderia ser que / Há uma remota chance de* | *New amendments **might alter** the fiscal balance.* |
-| **Cannot / Can't** | **Impossibilidade Lógica Categórica (0%)** | *Não pode ser que / É impossível que* | *The quorum **cannot be** valid; only ten deputies were present.* |
+| **Must** | **Dedução forte a partir de indícios** | *Certamente é / Deve ser (com base em indícios sólidos)* | *The signature is authentic; the president **must be** aware of the decree.* |
+| **Will** | **Previsão ou expectativa firme, dependente do contexto** | *Certamente ocorrerá / Ocorrerá* | *The plenary **will confirm** the vote tomorrow morning.* |
+| **Should / Ought to** | **Expectativa sobre o desfecho** | *É provável que / Espera-se que* | *The printing of the official gazette **should be** finished by midnight.* |
+| **May** | **Possibilidade** | *Pode ser que / É possível que* | *The legislative debate **may trigger** public demonstrations.* |
+| **Might / Could** | **Possibilidade, frequentemente apresentada com maior reserva** | *Poderia ser que / Há uma remota chance de* | *New amendments **might alter** the fiscal balance.* |
+| **Cannot / Can't** | **Conclusão de incompatibilidade com os indícios ou impossibilidade contextual** | *Não pode ser que / É impossível que* | *The quorum **cannot be** valid; only ten deputies were present.* |
 
 ---
 

@@ -37143,6 +37143,118 @@
       "correctAnswer": "E",
       "explanation": "Crédito extraordinário exige despesa imprevisível e urgente nos termos da Constituição; atraso de planejamento e pressa do gestor não bastam. Se não há dotação, examina-se crédito especial.",
       "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-87b69e1d4ac54f20 / Suplementar, especial e extraordinário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-009-reabertura-especial-dezembro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "reabertura-credito-especial-ultimo-quadrimestre",
+      "mechanism": "distinguir-vigencia-e-saldo",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Vigência e reabertura"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Vigência e reabertura"
+      },
+      "statement": "Um crédito especial autorizado em novembro e não integralmente utilizado pode, nos limites do saldo, ser reaberto no exercício seguinte e incorporado ao orçamento desse exercício.",
+      "correctAnswer": "C",
+      "explanation": "O art. 167, § 2º, da Constituição permite reabrir créditos especiais e extraordinários autorizados nos últimos quatro meses do exercício, limitados aos saldos.",
+      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-010-suplementar-sem-reabertura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "suplementar-fora-excecao-reabertura",
+      "mechanism": "estender-excecao-constitucional-a-especie-errada",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Vigência e reabertura"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Vigência e reabertura"
+      },
+      "statement": "Um crédito suplementar autorizado em dezembro tem assegurada, pelo art. 167, § 2º, da Constituição, a reabertura automática de seu saldo no exercício seguinte.",
+      "correctAnswer": "E",
+      "explanation": "A exceção constitucional de reabertura alcança créditos especiais e extraordinários, não suplementares; tampouco a reabertura é automática.",
+      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-011-superavit-ano-anterior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "superavit-financeiro-temporalidade",
+      "mechanism": "confundir-exercicio-de-apuracao-de-fonte",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "statement": "Para abrir crédito especial no exercício atual, o superávit financeiro apurado no balanço patrimonial do exercício anterior pode constituir fonte de recursos, observados os ajustes e requisitos legais.",
+      "correctAnswer": "C",
+      "explanation": "O art. 43, § 1º, I, e § 2º, da Lei nº 4.320/1964 prevê o superávit financeiro apurado no balanço patrimonial do exercício anterior, conforme os ajustes legais.",
+      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Recursos disponíveis para suplementares e especiais'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-012-emenda-nao-especie-credito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "emenda-versus-credito-adicional",
+      "mechanism": "classificar-proposta-legislativa-como-credito",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Durante a apreciação do projeto de lei orçamentária, uma emenda parlamentar que modifica uma programação constitui, por esse motivo, uma quarta espécie de crédito adicional ao lado dos créditos suplementares, especiais e extraordinários.",
+      "correctAnswer": "E",
+      "explanation": "O art. 41 da Lei nº 4.320/1964 prevê apenas três espécies de créditos adicionais. Emenda parlamentar altera proposta em tramitação e não constitui espécie de crédito adicional.",
+      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Núcleo do conceito'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado."
     }
   ]
 }

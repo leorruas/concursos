@@ -226,6 +226,10 @@ function renderizarPainelConcursoHome() {
     const tituloGlossario = document.getElementById("home-glossario-titulo");
     if (tituloGlossario) tituloGlossario.textContent =
         concursoGlossario === "cgu-2026" ? "glossário CGU" : "glossário Câmara";
+    const acessoFlashcards = document.getElementById("home-flashcards-entry");
+    if (acessoFlashcards) acessoFlashcards.href =
+        "https://concurso-estudo.leoruas.workers.dev/flashcards.html?concurso=" +
+        encodeURIComponent(concursoAtivo.id);
 
     const dataProva = new Date(concursoAtivo.dataProva);
     const hoje = new Date();

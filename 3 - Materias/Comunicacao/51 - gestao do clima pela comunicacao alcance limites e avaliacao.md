@@ -5,7 +5,7 @@ title: "Gestão do clima pela comunicação: escuta, justiça, segurança psicol
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Gestão do clima pela comunicação: escuta, justiça, segurança psicológica e limites
@@ -172,6 +172,16 @@ Cada caso acrescenta uma condição ao mesmo cenário para ilustrar **novos obje
 **Item 3, inédito:** “No exame do clima organizacional, mudanças de percepção relatadas por equipes podem constituir evidências relevantes, mas a atribuição de sua causa exclusivamente a uma campanha de comunicação exige cautela quanto a outras alterações nas condições de trabalho.”
 
 **Gabarito: Certo.** O item distingue **evidência de percepção** e **inferência causal**, sem negar a possibilidade de contribuição da comunicação. **Mecanismo:** limites da interpretação dos resultados.
+
+## Conferência autoral dirigida: justiça, voz e segurança psicológica (11/11/2026)
+
+A pesquisa de **Jason Colquitt (2001)** validou um modelo com **quatro dimensões de justiça organizacional**: distributiva, procedimental, interpessoal e informacional. Na classificação, **explicações adequadas e sinceras** dizem respeito à dimensão informacional; **consistência, imparcialidade e possibilidade de revisão do procedimento** integram a procedimental. Isso não permite inferir que uma explicação clara corrija uma distribuição percebida como injusta. [Fonte: Colquitt, artigo original, *Journal of Applied Psychology*, resumo PubMed](https://pubmed.ncbi.nlm.nih.gov/11419799/).
+
+O artigo original de **Amy Edmondson (1999)** define segurança psicológica como **crença compartilhada da equipe de que é possível assumir riscos interpessoais**. O estudo com 51 equipes industriais encontrou associação entre segurança psicológica e comportamento de aprendizagem, no desenho então examinado; o resultado **não demonstra que criar um canal anônimo produza segurança psicológica, participação decisória ou efeito idêntico em qualquer órgão público**. [Fonte: Edmondson, resumo do periódico](https://journals.sagepub.com/doi/10.2307/2666999). A revisão de **Elizabeth Morrison (2014)** distingue **voz ascendente**, com manifestação voluntária de preocupações e sugestões, de **silêncio**, com retenção de contribuições úteis. Ambas são comportamentos, cuja investigação requer observar condições e expectativas dos trabalhadores; não são sinônimos de qualquer fluxo formal de comunicação. [Fonte: Morrison, revisão de 2014](https://www.annualreviews.org/content/journals/10.1146/annurev-orgpsych-031413-091328).
+
+**Cotejo dos três itens C/E inéditos preexistentes:** **1 Certo**, conforme as duas dimensões distintas em Colquitt; **2 Errado**, pois canal anônimo é recurso de comunicação, e segurança psicológica compartilhada é um atributo a investigar empiricamente, não uma consequência necessária; **3 Certo**, pois percepção de clima medida em momento posterior não prova, por si, causalidade exclusiva de uma campanha. O terceiro julgamento é **inferência metodológica justificada** pelo problema de atribuição causal, não transcrição de conclusão experimental específica de Colquitt, Morrison ou Edmondson. **Três gabaritos preservados, nenhuma questão histórica nova.**
+
+**Limites de auditoria:** comparação efetuada com textos e resumos editoriais das obras; outros autores citados e a íntegra de todas as investigações não foram rechecados sistematicamente. Os casos são hipotéticos e não representam diagnóstico real do clima da Câmara. Não foram realizados testes de links em Pages, retenção de aprendizagem ou instrumentos de pesquisa. **Estado: Corrigido no recorte autoral e de gabaritos, sem certificação integral.**
 
 ## Aplicação discursiva: comunicação institucional e gestão do clima
 

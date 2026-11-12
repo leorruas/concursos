@@ -18,7 +18,7 @@ updated: 2026-11-06
 
 **Característica típica ≠ requisito universal.** A monarquia britânica é hereditária; a monarquia constitucional malaia possui **chefe de Estado eleito por um colégio de governantes por cinco anos**. A república italiana tem **presidente eleito indiretamente pelo Parlamento reunido com delegados regionais**, por sete anos. A distinção não pode depender exclusivamente das expressões “eleição direta”, “mandato de quatro anos” ou “hereditariedade em todas as circunstâncias”.
 
-A [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|nota 16, CAM-CP-007]] já estudou regimes democráticos e autoritários. Aqui o foco é **forma de governo, suas categorias e teorias, tipologias históricas, limites e exemplos**, sem repetir as classificações de Dahl, Linz ou V-Dem. A [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|nota 15]] contém a cronologia Império-República, enquanto a próxima unidade, **CAM-CP-009**, desenvolverá **presidencialismo e parlamentarismo** como sistemas de governo.
+A [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|Regimes políticos: democracia, autoritarismo e hibridismos]] já estudou regimes democráticos e autoritários. Aqui o foco é **forma de governo, suas categorias e teorias, tipologias históricas, limites e exemplos**, sem repetir as classificações de Dahl, Linz ou V-Dem. A [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|Formação histórica do Estado brasileiro]] contém a cronologia Império-República, enquanto a próxima unidade, **[[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|Sistemas de governo: presidencialismo e parlamentarismo]]**, desenvolverá **presidencialismo e parlamentarismo** como sistemas de governo.
 
 ## Quatro eixos que a banca não pode fundir
 
@@ -51,11 +51,11 @@ A [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritar
 
 **Eleição popular direta × eletividade:** a chefia do Estado pode ser escolhida **por colégio eleitoral ou Parlamento**, sem que isso elimine a forma republicana. **Exemplo: Itália**, onde o presidente é eleito por Parlamento em sessão conjunta, com participação de delegados regionais, por mandato de **sete anos** nos termos dos arts. 83 e 85 da Constituição italiana. [Senato della Repubblica: art. 85](https://www.parlamento.it/show-doc?id=761677&leg=17&part=dossier_dossier1-sezione_sezione15-h2_h218&tipodoc=DOSSIER).
 
-**Alternância × periodicidade:** um chefe de governo ou partido pode vencer eleições sucessivas em regime democrático. O que se exige numa competição democrática é a **possibilidade real de derrota, escolha livre e respeito ao resultado**, não uma obrigação aritmética de alternância a cada ciclo. A [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|nota 16]] trata dessa distinção em Przeworski.
+**Alternância × periodicidade:** um chefe de governo ou partido pode vencer eleições sucessivas em regime democrático. O que se exige numa competição democrática é a **possibilidade real de derrota, escolha livre e respeito ao resultado**, não uma obrigação aritmética de alternância a cada ciclo. A [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|Regimes políticos: democracia, autoritarismo e hibridismos]] trata dessa distinção em Przeworski.
 
 **Responsabilidade dos governantes:** na república constitucional contemporânea, responsabilidade pode envolver **controle político, constitucional, administrativo, civil e penal**, com competências próprias. Não decorre da forma republicana a autorização para remover livremente qualquer autoridade sem devido processo, e a existência de imunidades funcionais específicas não implica ausência geral de dever de prestar contas.
 
-**República formal × ideal republicano:** um Estado pode declarar-se república e conservar práticas patrimonialistas, personalismo, corrupção ou repressão. A [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|nota 15]] examina a adoção da república em 1889 e as limitações à participação durante a Primeira República.
+**República formal × ideal republicano:** um Estado pode declarar-se república e conservar práticas patrimonialistas, personalismo, corrupção ou repressão. A [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|Formação histórica do Estado brasileiro]] examina a adoção da república em 1889 e as limitações à participação durante a Primeira República.
 
 ## Monarquia: sucessão, poderes e tipos de organização
 
@@ -165,7 +165,7 @@ No republicanismo contemporâneo, **Philip Pettit** associa liberdade à **não 
 
 **Republicanismo filosófico × forma republicana de governo:** uma teoria de liberdade e participação **não se reduz** ao fato de o chefe de Estado ser denominado presidente. A república formal pode coexistir com dominação e arbitrariedade, e uma monarquia constitucional pode garantir liberdades democráticas, conforme instituições e práticas concretas. [Stanford Encyclopedia of Philosophy: Republicanism](https://plato.stanford.edu/entries/republicanism/).
 
-**Fronteira com a [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|nota 12]]:** já estudamos em Pettit a distinção liberdade negativa e não dominação. Aqui o ponto é reconhecer **a diferença entre republicanismo como ideal de liberdade e república como forma jurídico-institucional**.
+**Fronteira com a [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|Teoria política: correntes e perguntas centrais]]:** já estudamos em Pettit a distinção liberdade negativa e não dominação. Aqui o ponto é reconhecer **a diferença entre republicanismo como ideal de liberdade e república como forma jurídico-institucional**.
 
 ## República brasileira: a mudança de 1889 e as Constituições
 
@@ -221,7 +221,7 @@ A Constituição de 1988 protege expressamente, no **art. 60, § 4º**, contra e
 
 **Fontes dos exemplos:** [Constituição italiana, Senado](https://www.parlamento.it/show-doc?id=761677&leg=17&part=dossier_dossier1-sezione_sezione15-h2_h218&tipodoc=DOSSIER); [Parlamento do Reino Unido](https://www.parliament.uk/about/how/role/relations-with-other-institutions/parliament-crown/); [Conferência dos Governantes da Malásia](https://www.majlisraja-raja.gov.my/en/election-of-his-majesty-yang-dipertuan-agong); [portal oficial do governo malaio](https://www.malaysia.gov.my/en/government/malaysiarulingsystem).
 
-**Advertência metodológica:** um exemplo de sistema institucional **não é diagnóstico completo da qualidade democrática de um país**. Classificar regimes exige dados sobre competição, direitos, participação e funcionamento efetivo; ver [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|nota 16]].
+**Advertência metodológica:** um exemplo de sistema institucional **não é diagnóstico completo da qualidade democrática de um país**. Classificar regimes exige dados sobre competição, direitos, participação e funcionamento efetivo; ver [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|Regimes políticos: democracia, autoritarismo e hibridismos]].
 
 ## Tensões entre republicanismo e práticas políticas
 

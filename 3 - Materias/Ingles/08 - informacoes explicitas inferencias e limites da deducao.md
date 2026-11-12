@@ -173,6 +173,32 @@ Considere o seguinte excerto inspirado em relatórios da OCDE sobre parlamentos 
 
 ---
 
+## 7.1. Treino de pressuposição, evidência e contrafactual
+
+**Texto para itens adicionais (ficcional e inédito):**
+
+> The research team stopped using an automated translation system after receiving reports of inconsistent results. The project manager acknowledged that several summaries contained errors, but the independent review has not yet been completed. If the team had checked the translations before publication, some of those errors might have been detected earlier.
+
+Antes de julgar, separe quatro objetos: (1) prática anterior, (2) fala atribuída ao gestor, (3) estado da revisão independente e (4) resultado apenas imaginado. A palavra *acknowledged* apresenta uma admissão, mas o texto também diz que a revisão independente ainda está incompleta. A condicional com *might have* admite possibilidade no passado alternativo, sem garantir detecção.
+
+**Item adicional A (inédito, C/E).** The team had used the translation system before it stopped doing so.
+
+**Gabarito: Certo.** *Stopped using* implica uma prática anterior de uso. O item recupera uma pressuposição licenciada pela expressão de mudança de estado.
+
+**Item adicional B (inédito, C/E).** An independent review has conclusively verified every error acknowledged by the project manager.
+
+**Gabarito: Errado.** A revisão *has not yet been completed*. A fala atribuída ao gestor não equivale a conclusão da verificação independente.
+
+**Item adicional C (inédito, C/E).** The counterfactual sentence guarantees that checking the translations would have detected all the errors.
+
+**Gabarito: Errado.** *Might have been detected* expressa possibilidade, e *some* limita o conjunto de erros. O item troca possibilidade por certeza e parte por totalidade.
+
+**Contraexemplo de foco:** *It was the report that prompted the review* destaca *the report* como informação em foco; essa construção, isoladamente, não prova que nenhum outro fator tenha contribuído. Compare com *Only the report prompted the review*, que adiciona exclusividade expressa.
+
+**Fonte gramatical:** [Cambridge Grammar, cleft sentences](https://dictionary.cambridge.org/grammar/british-grammar/cleft-sentences-it-was-in-june-we-got-marri) para foco informacional. Sobre interpretação de hipóteses contrafactuais, não tratar inferência pragmática como prova de fatos externos.
+
+---
+
 ## 8. Relações com outros conceitos e notas da biblioteca
 
 * **Como localizar assunto, tese e propósito em textos em inglês:** [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|07 • Como localizar assunto, tese e propósito (CAM-ING-001)]].

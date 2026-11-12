@@ -79,3 +79,12 @@ Os `articleId` e `articleAliases` antigos foram preservados. O hub, o índice e 
 ## Próxima etapa
 
 Conferir CI e Pages; resolver falhas reais se houver. Aprofundamentos CAM-DIS-003 a 008 foram implementados com decisões registradas; revisão de evidência de prova, testes e navegação continuam pendentes. Manter **dois treinos semanais de produção**, correção por quesitos e reteste espaçado; resultados pessoais exclusivamente no cofre privado.
+
+## Continuidade: verificação oficial, modelo ampliado e PR de validação
+
+Em 11/11/2026, a página oficial do concurso foi conferida novamente, incluindo o Edital nº 1/2026 (itens 9.1, 9.4 e 9.8.5) e as retificações nº 5 (15/10/2026) e nº 6 (21/10/2026). As retificações não alteraram a estrutura 20/20/50 da prova discursiva do Cargo 1. **Atenção:** o PDF `cd_25_ns` referenciado no guia é do concurso de Processo Legislativo e Gestão, portanto seus números internos de itens não devem ser transferidos ao edital atual de Divulgação Institucional.
+
+O modelo da peça no artigo 06 continha 28 linhas artificiais, insuficientes para simular a densidade de um exercício próximo a 50 linhas. Foi elaborada uma versão de **44 linhas artificiais**, com diagnóstico, evidências a coletar, três medidas, monitoramento e ressalvas quanto à inferência causal. O conteúdo mantém a marca de modelo autoral e não simula nota oficial. **Validação manuscrita continua pendente**.
+
+A gravação direta no `main` encontrou conflito HTTP 409 devido à movimentação concorrente da branch. Para isolar a alteração, foi criada a branch `redacao-camara-validacao-20261111`, commit `fb12e065b9ccd5ceec831d9d4c0fbc66f82c04d8` e [PR nº 18](https://github.com/leorruas/concursos/pull/18). Os workflows **Validar site público (PR)**, run `43124801065`, e **Validar glossário antes de integrar**, run `43124800889`, foram acionados por esse PR. No primeiro checkpoint estavam **em andamento**, sem conclusão; não há certificação de CI nem publicação para a nova versão. O PR não deve ser mesclado antes de resultado conclusivo.
+

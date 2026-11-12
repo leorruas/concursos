@@ -8528,6 +8528,114 @@
       "statement": "Dois grupos enviam o mesmo número de solicitações. Um deles enfrenta uma taxa de falhas maior antes do envio. A igualdade nos registros finais demonstra que os dois grupos tiveram a mesma demanda inicial.",
       "correctAnswer": "E",
       "explanation": "As contagens finais combinam demanda inicial e perdas ao longo da jornada. Taxas de falha diferentes impedem inferir demanda igual apenas pelo número de envios."
+    },
+    {
+      "id": "cam-di-demanda-com-restricao-de-compra",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / conceitos",
+      "articleId": "art-45d8f190ac2e673b",
+      "conceptId": "demanda-com-restricao-de-compra",
+      "mechanism": "demanda-com-restricao-de-compra",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-45d8f190ac2e673b#Necessidade, desejo e demanda: três níveis diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos.md",
+        "section": "Necessidade, desejo e demanda: três níveis diferentes"
+      },
+      "statement": "Em marketing, todo desejo manifestado por um produto já constitui demanda, mesmo quando falta capacidade de compra.",
+      "correctAnswer": "E",
+      "explanation": "A demanda pressupõe desejo acompanhado de capacidade de compra. O desejo pode existir sem se converter em demanda."
+    },
+    {
+      "id": "cam-di-controle-com-meta-intermediaria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / planejamento",
+      "articleId": "art-1c9e5b7a32d0648f",
+      "conceptId": "controle-com-meta-intermediaria",
+      "mechanism": "controle-com-meta-intermediaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1c9e5b7a32d0648f#Implementação, orçamento e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes.md",
+        "section": "Implementação, orçamento e controle"
+      },
+      "statement": "Se o plano prevê lançar o catálogo em agosto e alcançar 200 pedidos válidos até outubro, cumprir a data de lançamento e terminar outubro com 140 pedidos representa cumprimento do marco de implementação e descumprimento da meta de resultado.",
+      "correctAnswer": "C",
+      "explanation": "A primeira medida controla uma entrega do plano. A segunda mede o resultado definido, que ficou 60 pedidos abaixo da meta."
+    },
+    {
+      "id": "cam-di-situacao-de-recompra-modificada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / segmentação",
+      "articleId": "art-b7e30f4c9a261d85",
+      "conceptId": "situacao-de-recompra-modificada",
+      "mechanism": "situacao-de-recompra-modificada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b7e30f4c9a261d85#Três situações de compra organizacional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao.md",
+        "section": "Três situações de compra organizacional"
+      },
+      "statement": "Uma empresa que volta a adquirir um insumo conhecido, mas reabre a escolha de fornecedor para atender a uma especificação alterada, pode estar diante de recompra modificada.",
+      "correctAnswer": "C",
+      "explanation": "A categoria já integra as compras da empresa, mas a decisão exige reconsiderar uma condição importante. A recompra direta manteria a rotina sem reavaliação relevante."
+    },
+    {
+      "id": "cam-di-custo-de-busca-e-criterio-eliminatorio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / comportamento do consumidor",
+      "articleId": "art-e51bc97a40d268f3",
+      "conceptId": "custo-de-busca-e-criterio-eliminatorio",
+      "mechanism": "custo-de-busca-e-criterio-eliminatorio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e51bc97a40d268f3#Processo de decisão de compra: cinco etapas clássicas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md",
+        "section": "Processo de decisão de compra: cinco etapas clássicas"
+      },
+      "statement": "Uma equipe considera indispensável que a entrega ocorra em até cinco dias. A oferta A custa R$ 50 e chega em quatro dias. A oferta B custa R$ 40 e chega em seis dias. A oferta C custa R$ 30 e não informa o prazo, mas é possível verificá-lo sem custo. Escolher B imediatamente minimiza o preço entre as ofertas que satisfazem o requisito.",
+      "correctAnswer": "E",
+      "explanation": "B viola a condição eliminatória. A é viável, mas verificar o prazo de C ainda pode revelar uma opção viável mais barata. A análise exige separar restrição, objetivo de preço e informação faltante."
     }
   ]
 }

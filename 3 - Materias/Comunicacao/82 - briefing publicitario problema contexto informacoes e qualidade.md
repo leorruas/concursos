@@ -5,7 +5,7 @@ title: "Briefing publicitário: problema, contexto, informações e critérios d
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Briefing publicitário: problema, contexto, informações e critérios de qualidade
@@ -140,6 +140,30 @@ O [Guia de Boas Práticas em Contratações Públicas de Serviços de Publicidad
 O [caderno oficial CESPE/UnB dos Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/concursos/CORREIOS2011/arquivos/ECT11_028_83.pdf) cobra, no **item 56, Errado**, a troca de responsabilidade que atribui à mídia a elaboração do planejamento a partir do qual a criação trabalharia. A estrutura do fluxo demanda distinguir **planejamento estratégico**, **planejamento de mídia** e **trabalho da criação**, sem estabelecer uma subordinação universal entre áreas. No **item 51, Certo**, reconhece possibilidade de fluxo simplificado direto entre anunciante e veículo, sem concluir que toda campanha precise de agência. O **item 55, Errado**, introduz vínculo necessário inexistente entre veículo e anunciante. O julgamento foi verificado na [cópia do gabarito definitivo identificada pelo mesmo código ECT11_028_83](https://www.estudegratis.com.br/images/provas/20767-cespe-2011-correios-analista-de-correios-comunicacao-social-publicidade-e-propaganda-gabarito.pdf).
 
 **Uso em prova:** evitar converter atribuições típicas em funções exclusivas, confundir contratante/agência/veículo ou tratar um roteiro de produção como organograma universal. A legislação de contratação pública pode impor outras competências e procedimentos próprios que esses itens de 2011 não examinam. [Índice do bloco 51–64](https://github.com/leorruas/concursos/blob/main/4%20-%20Projetos/camara-2026/Indice%20de%20questoes%20reais%20Cebraspe.md).
+
+## Peça técnica integrada: campanha de orientação sobre audiências (11/11/2026)
+
+**Situação hipotética para treino da peça técnica:** a Câmara quer facilitar o acesso à pauta e às formas de acompanhar audiências públicas. A demanda inicial pede “dez vídeos”, mas há dúvidas sobre onde encontrar a pauta e quais ações são formalmente reconhecidas. A resposta deve partir do **problema comprovado** e não do formato solicitado. O caso a seguir integra [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|diagnóstico]], [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|objetivos]], [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|públicos]], [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|estratégia]], [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|mídia]], [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|produção]] e [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|avaliação]], sem duplicar suas bases.
+
+**Briefing de trabalho, antes da execução:** demandante e competência institucional a confirmar; situação atual documentada (dados do portal, dúvidas do atendimento e pesquisa formativa); problema delimitado (dificuldade para encontrar e entender a informação); públicos afetados e requisitos de acesso; objetivo de compreensão e uso; conteúdo indispensável (pauta, data, procedimento e fonte); prazo; riscos; responsáveis por apuração, aprovação e atualização; recursos; condições de acessibilidade; métricas e formas de medir. A ausência de diagnóstico comprovado deve aparecer como **hipótese a verificar**, não como certeza. Nenhum desses campos constitui autorização de despesa.
+
+**Decisão estratégica:** o benefício a comunicar é encontrar a informação oficial e utilizá-la. A promessa “saiba quando e como acompanhar a audiência” só é válida se o percurso informado existir, estiver atualizado e funcionar. O conceito criativo é subordinado à precisão e à impessoalidade, não à promoção de parlamentares. A [Política de Comunicação da Câmara, Ato da Mesa nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html) exige atenção a pluralismo, exatidão, linguagem simples e processo de revisão; conteúdos de plataformas privadas devem ser complementares a canais institucionais próprios abertos ao público.
+
+**Mídia e execução:** definir função de portal, pesquisa interna, redes e atendimento, distinguindo alcance potencial de capacidade real de localizar a informação. A equipe pode considerar uma combinação de página oficial, card de anúncio, carrossel com passos e vídeo demonstrativo, condicionada a teste de conteúdo e recursos disponíveis. Produção exige versão de referência dos documentos, checagem de etapa legislativa, revisão de acessibilidade, aprovação competente, publicação e plano de correção. O art. 2º da [Lei nº 12.232/2010, texto atualizado](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html) descreve serviços publicitários quando houver contratação de agência; **um briefing interno ou a adoção de boas práticas do Executivo federal não prova, por si, existência de contrato ou incidência de procedimentos administrativos próprios de outro Poder**.
+
+**Avaliação:** medir primeiro a entrega e o acesso à fonte (outputs); depois a compreensão demonstrada em teste de tarefa e a conclusão correta do percurso (out-takes/outcomes conforme objetivo e definição operacional); acompanhar possíveis efeitos sobre a participação com cautela causal. Alcance e impressões não comprovam exercício de direitos. A [taxonomia da AMEC](https://amecorg.com/amecframework/home/supporting-material/taxonomy/) reconhece sobreposição entre respostas avançadas e resultados iniciais, além de distinguir impacto de circulação de conteúdo. Estabelecer linha de base e método antes da campanha e observar mudanças simultâneas no portal e nos procedimentos.
+
+**Dois itens C/E novos para aplicação:**
+
+**Item 4, inédito.** Um pedido de dez vídeos pode integrar o briefing de uma campanha institucional, mas a quantidade solicitada representa entrega pretendida, não demonstra, isoladamente, que o problema, o público, o objetivo e o modo de avaliação estejam definidos.
+
+**Gabarito: Certo.** A forma solicitada não substitui diagnóstico, estratégia nem evidência de mudança.
+
+**Item 5, inédito.** Por integrar o mesmo ciclo publicitário, a aprovação de um briefing de campanha constitui, automaticamente, autorização para contratação de agência e execução de despesas, independentemente das competências e procedimentos da Administração.
+
+**Gabarito: Errado.** Briefing é instrumento de definição e alinhamento do trabalho; autorização de despesa e contratação obedecem a atos e normas próprios. Nenhuma dessas questões é extraída de prova real Cebraspe.
+
+**Critério de conclusão da peça:** justificar decisões, fontes e limites de forma verificável, indicando o que depende da área gestora e o que cabe à comunicação. O caso é inteiramente hipotético, criado para estudo da peça técnica, e não descreve campanha real ou organograma formal da Câmara.
 
 ## Relações e heurísticas
 

@@ -53,4 +53,4 @@ Quarenta questões geradas sobre modelos, teorias da comunicação, midiatizaç�
 
 ## Lote 010 em elaboração
 
-Seis questões geradas para comunicação interna, item 2 de Comunicação Social, vinculadas aos artigos 48, 50 e 51. Ampliar com conceitos, funções e endomarketing.
+Dez questões geradas para comunicação interna, item 2 de Comunicação Social, vinculadas aos artigos 09, 48, 50 e 51. Ampliar com conceitos, funções e endomarketing.

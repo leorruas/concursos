@@ -16794,6 +16794,114 @@
       "statement": "Se o clima melhora após a instituição lançar um boletim e, na mesma semana, alterar as regras de escala, a comparação antes e depois identifica isoladamente o efeito do boletim.",
       "correctAnswer": "E",
       "explanation": "As duas mudanças podem afetar as percepções. A comparação temporal isolada não separa suas contribuições."
+    },
+    {
+      "id": "cam-cs-fluxo-ascendente-com-resposta-descendente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / funções e fluxos",
+      "articleId": "art-806546892285426f",
+      "conceptId": "fluxo-ascendente-com-resposta-descendente",
+      "mechanism": "fluxo-ascendente-com-resposta-descendente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-806546892285426f#5. Fluxos de comunicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/09 - comunicacao interna.md",
+        "section": "5. Fluxos de comunicação"
+      },
+      "statement": "Se uma servidora envia uma sugestão à chefia e recebe orientação de volta, a troca reúne um fluxo ascendente e outro descendente.",
+      "correctAnswer": "C",
+      "explanation": "O primeiro percurso vai da servidora para a chefia. O segundo percorre o sentido hierárquico inverso."
+    },
+    {
+      "id": "cam-cs-segmentacao-por-tarefa-e-nao-por-cargo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / funções e fluxos",
+      "articleId": "art-806546892285426f",
+      "conceptId": "segmentacao-por-tarefa-e-nao-por-cargo",
+      "mechanism": "segmentacao-por-tarefa-e-nao-por-cargo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-806546892285426f#7. Segmentação do público interno"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/09 - comunicacao interna.md",
+        "section": "7. Segmentação do público interno"
+      },
+      "statement": "Ao explicar um novo sistema, uma equipe pode segmentar a orientação entre quem apenas consulta registros e quem os edita, ainda que os dois grupos tenham o mesmo cargo.",
+      "correctAnswer": "C",
+      "explanation": "A necessidade informacional depende da tarefa. O cargo formal é somente um possível critério de segmentação."
+    },
+    {
+      "id": "cam-cs-canal-escrito-sem-verificacao-de-entendimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / funções e fluxos",
+      "articleId": "art-806546892285426f",
+      "conceptId": "canal-escrito-sem-verificacao-de-entendimento",
+      "mechanism": "canal-escrito-sem-verificacao-de-entendimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-806546892285426f#6. Canais e adequação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/09 - comunicacao interna.md",
+        "section": "6. Canais e adequação"
+      },
+      "statement": "Registrar a entrega de uma orientação escrita a todos os trabalhadores equivale a verificar que todos conseguem aplicá-la numa situação de trabalho.",
+      "correctAnswer": "E",
+      "explanation": "O registro demonstra distribuição. A aplicação exige evidência como resolução de um caso ou observação de uma tarefa."
+    },
+    {
+      "id": "cam-cs-campanha-e-mudanca-operacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / funções e fluxos",
+      "articleId": "art-806546892285426f",
+      "conceptId": "campanha-e-mudanca-operacional",
+      "mechanism": "campanha-e-mudanca-operacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-806546892285426f#1. Comunicação interna × endomarketing × gestão da mudança"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/09 - comunicacao interna.md",
+        "section": "1. Comunicação interna × endomarketing × gestão da mudança"
+      },
+      "statement": "Uma campanha interna que apresenta as vantagens de um novo procedimento conclui a gestão da mudança mesmo que as equipes continuem sem acesso às ferramentas necessárias.",
+      "correctAnswer": "E",
+      "explanation": "A campanha apoia a adoção. A transição também depende de recursos, condições de execução e acompanhamento."
     }
   ]
 }

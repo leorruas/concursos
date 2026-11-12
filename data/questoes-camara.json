@@ -27912,6 +27912,222 @@
       "correctAnswer": "C",
       "explanation": "A reedição pode alterar a função da peça mesmo preservando trechos verdadeiros. O enquadramento final precisa ser analisado.",
       "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-port-pressuposto-com-negacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "pressuposto-com-negacao",
+      "mechanism": "pressuposto-com-negacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "Em “A comissão não voltou a discutir o parecer”, a negação de “voltou” mantém a informação pressuposta de que o parecer já havia sido discutido pela comissão.",
+      "correctAnswer": "C",
+      "explanation": "Voltar a fazer algo pressupõe ocorrência anterior. A negação recai sobre a retomada."
+    },
+    {
+      "id": "cam-port-alguns-e-totalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "alguns-e-totalidade",
+      "mechanism": "alguns-e-totalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "De “Alguns requerimentos foram devolvidos por falta de assinatura” conclui-se que todos os requerimentos devolvidos tinham esse mesmo problema.",
+      "correctAnswer": "E",
+      "explanation": "A frase identifica uma parte dos requerimentos. Ela não fornece o motivo de todas as devoluções."
+    },
+    {
+      "id": "cam-port-encapsulamento-de-evento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-642578f70775bddb",
+      "conceptId": "encapsulamento-de-evento",
+      "mechanism": "encapsulamento-de-evento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#4. Anáfora Encapsuladora e Anáfora Associativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md",
+        "section": "4. Anáfora Encapsuladora e Anáfora Associativa"
+      },
+      "statement": "Em “O relator retirou a proposta na véspera da votação. Essa decisão alterou a pauta”, a expressão “essa decisão” retoma o ato de retirar a proposta.",
+      "correctAnswer": "C",
+      "explanation": "A expressão resume um evento descrito na frase anterior e o retoma como uma decisão."
+    },
+    {
+      "id": "cam-port-associacao-sem-correspondencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-642578f70775bddb",
+      "conceptId": "associacao-sem-correspondencia",
+      "mechanism": "associacao-sem-correspondencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#4. Anáfora Encapsuladora e Anáfora Associativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md",
+        "section": "4. Anáfora Encapsuladora e Anáfora Associativa"
+      },
+      "statement": "Em “Uma audiência foi convocada para quinta-feira. Os convidados receberão as instruções por e-mail”, a expressão “os convidados” tem o mesmo referente de “uma audiência”.",
+      "correctAnswer": "E",
+      "explanation": "Os convidados são pessoas associadas ao evento. A audiência e seus participantes têm referentes diferentes."
+    },
+    {
+      "id": "cam-port-concessao-com-resultado-contrario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "concessao-com-resultado-contrario",
+      "mechanism": "concessao-com-resultado-contrario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#2. A Oposição Decisiva no Cebraspe: Adversidade $\\times$ Concessão"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "2. A Oposição Decisiva no Cebraspe: Adversidade $\\times$ Concessão"
+      },
+      "statement": "Em “Embora o parecer fosse favorável, a proposta foi rejeitada”, a oração inicial apresenta uma circunstância que poderia levar à expectativa de aprovação.",
+      "correctAnswer": "C",
+      "explanation": "A concessão admite um fato que cria expectativa contrária ao desfecho expresso na oração principal."
+    },
+    {
+      "id": "cam-port-logo-temporal-nao-conclusivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "logo-temporal-nao-conclusivo",
+      "mechanism": "logo-temporal-nao-conclusivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      },
+      "statement": "Em “Logo após a leitura do relatório, abriu-se a votação”, o termo “logo” introduz uma conclusão lógica extraída do conteúdo do relatório.",
+      "correctAnswer": "E",
+      "explanation": "Na construção “logo após”, o termo marca proximidade temporal. O período indica quando a votação começou."
+    },
+    {
+      "id": "cam-port-foco-restritivo-no-sujeito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "foco-restritivo-no-sujeito",
+      "mechanism": "foco-restritivo-no-sujeito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "Em “Somente os suplentes solicitaram acesso ao anexo”, pode-se concluir que nenhum titular o solicitou, supondo que titulares e suplentes sejam categorias distintas no contexto.",
+      "correctAnswer": "C",
+      "explanation": "Somente restringe aos suplentes o grupo que fez a solicitação. A frase não afirma que todos os suplentes solicitaram acesso."
+    },
+    {
+      "id": "cam-port-mudanca-de-causa-para-condicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "mudanca-de-causa-para-condicao",
+      "mechanism": "mudanca-de-causa-para-condicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#5. Casos Práticos na Reescrita e Interpretação"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "5. Casos Práticos na Reescrita e Interpretação"
+      },
+      "statement": "Reescrever “Como a documentação estava incompleta, a análise foi adiada” como “Se a documentação estiver incompleta, a análise será adiada” preserva a afirmação de que o adiamento já ocorreu.",
+      "correctAnswer": "E",
+      "explanation": "A versão inicial narra um adiamento e sua causa. A nova frase apresenta uma hipótese e a consequência futura correspondente."
     }
   ]
 }

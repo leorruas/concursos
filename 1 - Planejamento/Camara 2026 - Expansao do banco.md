@@ -114,3 +114,7 @@ Total validado: 720/2.000. Próximo lote: publicidade institucional e art. 37, �
 Quarenta itens sobre finalidade da publicidade institucional, promoção pessoal, pluralismo, autoria e restrições eleitorais. Foram substituídos três casos por questões sobre divulgação de serviços, alcance subjetivo da vedação e período de referência dos resultados. A triagem lexical a 0,22 foi complementada pelo cotejo dos mecanismos com os artigos e o banco. A seleção pelo item 11 recuperou os 40 itens.
 
 Total validado: 760/2.000. As onze linhas principais de Comunicação Social e as oito de Divulgação Institucional têm ao menos um lote validado. A expansão deve avançar para lacunas dos conhecimentos gerais.
+
+## Lote 020 em elaboração
+
+Oito itens de Língua Portuguesa sobre pressuposição, inferência, referenciação, concessão e reescrita, vinculados aos artigos 14, 18 e 20. Este é o primeiro lote de expansão de conhecimentos básicos.

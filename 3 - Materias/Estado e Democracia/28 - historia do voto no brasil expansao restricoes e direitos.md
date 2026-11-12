@@ -18,7 +18,7 @@ A história do voto no Brasil reúne mudanças em **quem pode votar**, **como o 
 
 **Sufrágio** designa o direito de participação política por meio do voto e, conforme o contexto, a dimensão eleitoral dos direitos políticos. **Voto** é o ato de manifestar a escolha; **alistamento** é inscrição no cadastro eleitoral; **capacidade eleitoral ativa** é a aptidão para votar; **capacidade eleitoral passiva** é a aptidão para concorrer, sujeita às condições de elegibilidade e às inelegibilidades. **Voto direto** indica que o eleitor escolhe diretamente o ocupante do cargo, enquanto **voto secreto** protege a confidencialidade da escolha. **Voto obrigatório** se refere ao dever de alistar-se e votar nos casos previstos, não a uma obrigação de escolher candidato específico.
 
-Esta unidade **CAM-CP-019** desenvolve as transformações históricas, retomando o marco jurídico atual de [[3 - Materias/Direito Constitucional/05 - direitos politicos|Direitos políticos]] e o contexto institucional de [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|CAM-CP-006: formação histórica do Estado brasileiro]]. A [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|CAM-CP-014]] e a [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|CAM-CP-015]] explicam a conversão de votos em mandatos; não se trata aqui de repetir seus cálculos.
+Esta unidade **[[3 - Materias/Estado e Democracia/28 - historia do voto no brasil expansao restricoes e direitos|História do voto no Brasil: expansão, restrições e direitos]]** desenvolve as transformações históricas, retomando o marco jurídico atual de [[3 - Materias/Direito Constitucional/05 - direitos politicos|Direitos políticos]] e o contexto institucional de [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|Formação histórica do Estado brasileiro]]. A [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|Sistema eleitoral majoritário: funcionamento e efeitos]] e a [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|Sistema eleitoral proporcional: quocientes, listas e efeitos]] explicam a conversão de votos em mandatos; não se trata aqui de repetir seus cálculos.
 
 ## Cinco fronteiras para interpretar a história
 
@@ -146,12 +146,12 @@ A banca pode associar uma inovação verdadeira **ao marco histórico errado**, 
 
 ## Relações com outros temas
 
-- [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|CAM-CP-006: formação histórica do Estado brasileiro]]: contextos políticos e sociais.
+- [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|Formação histórica do Estado brasileiro]]: contextos políticos e sociais.
 - [[3 - Materias/Direito Constitucional/05 - direitos politicos|Direitos políticos]]: requisitos atuais de alistamento, elegibilidade e inelegibilidades.
-- [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|CAM-CP-010: representação política]]: autorização e responsabilização.
-- [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|CAM-CP-007: regimes políticos]]: existência de eleições e competitividade.
-- [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|CAM-CP-016: partidos políticos]]: organização da disputa e da representação.
-- **Próxima unidade CAM-CP-020:** história dos partidos no Brasil e transformações da competição.
+- [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|Representação política: mandato, delegação e responsabilização]]: autorização e responsabilização.
+- [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|Regimes políticos: democracia, autoritarismo e hibridismos]]: existência de eleições e competitividade.
+- [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|Partidos políticos: origem, funções e organização]]: organização da disputa e da representação.
+- **Próxima unidade [[3 - Materias/Estado e Democracia/29 - historia dos partidos politicos no brasil|História dos partidos políticos no Brasil: continuidade e rupturas]]:** história dos partidos no Brasil e transformações da competição.
 
 ## Tensões e pegadinhas
 

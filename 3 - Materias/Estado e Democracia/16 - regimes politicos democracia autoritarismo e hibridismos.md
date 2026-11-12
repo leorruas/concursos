@@ -18,7 +18,7 @@ updated: 2026-11-06
 
 **Democracia**, como regime, requer competição e participação políticas efetivas, direitos que tornem a escolha possível e mecanismos de responsabilização. **Autoritarismo** designa arranjos de poder não democráticos com restrições relevantes a pluralismo, competição, participação ou liberdades, variando muito internamente. **Regimes híbridos** são categorias empregadas por parte da literatura para arranjos que conservam instituições eleitorais e características de competição, mas apresentam déficits graves que impedem classificá-los como democracias efetivas. **“Híbrido” não é rótulo universal com o mesmo limiar em todas as pesquisas.**
 
-Esta nota é a unidade **CAM-CP-007**. A [[3 - Materias/Estado e Democracia/02 - democracia representacao e accountability|nota 02]] já apresenta democracia, representação e accountability; a [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|nota 11]] distingue autoridade, coerção e legitimidade; a [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|nota 15]] examina transições constitucionais brasileiras. Aqui o aprofundamento está nas **taxonomias de regimes, seus autores, critérios operacionais, casos-limite e processos de transição/erosão**. A próxima unidade, **CAM-CP-008**, estudará **república e monarquia** como formas de governo, não como sinônimos de democracia e autoritarismo.
+Esta nota é a unidade **[[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|Regimes políticos: democracia, autoritarismo e hibridismos]]**. A [[3 - Materias/Estado e Democracia/02 - democracia representacao e accountability|Democracia, representação e accountability]] já apresenta democracia, representação e accountability; a [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|Poder, autoridade, legitimidade e dominação]] distingue autoridade, coerção e legitimidade; a [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|Formação histórica do Estado brasileiro]] examina transições constitucionais brasileiras. Aqui o aprofundamento está nas **taxonomias de regimes, seus autores, critérios operacionais, casos-limite e processos de transição/erosão**. A próxima unidade, **[[3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia|Formas de governo: república e monarquia]]**, estudará **república e monarquia** como formas de governo, não como sinônimos de democracia e autoritarismo.
 
 ## Três perguntas diferentes: regime, forma e sistema de governo
 
@@ -42,7 +42,7 @@ Esta nota é a unidade **CAM-CP-007**. A [[3 - Materias/Estado e Democracia/02 -
 
 Em *Capitalismo, socialismo e democracia* (1942), **Joseph Schumpeter** caracteriza a democracia como **método institucional para chegar a decisões políticas**, em que indivíduos adquirem poder de decisão por meio de **disputa competitiva pelo voto popular**. O foco recai sobre seleção de lideranças e competição, com crítica à noção clássica de vontade popular perfeitamente definida.
 
-**Método competitivo × ideal de participação plena:** Schumpeter não define democracia por participação direta de todos em cada política pública. Entretanto, disputa competitiva não é a mesma coisa que votação de resultado previamente imposto. **Competição pressupõe que a escolha possa importar**. A [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|nota 12]] examina outras tradições, como participação em Pateman e deliberação em Habermas.
+**Método competitivo × ideal de participação plena:** Schumpeter não define democracia por participação direta de todos em cada política pública. Entretanto, disputa competitiva não é a mesma coisa que votação de resultado previamente imposto. **Competição pressupõe que a escolha possa importar**. A [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|Teoria política: correntes e perguntas centrais]] examina outras tradições, como participação em Pateman e deliberação em Habermas.
 
 ### Robert Dahl: poliarquia, contestação e inclusividade
 
@@ -223,7 +223,7 @@ Em *On Democratic Backsliding* (2016), **Nancy Bermeo** analisa **enfraqueciment
 
 ## Brasil: mudanças de regime e armadilhas históricas
 
-Na formação política brasileira, as datas e marcos institucionais devem ser comparados às condições de participação e à efetividade das liberdades. A [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|nota 15]] apresenta a cronologia detalhada.
+Na formação política brasileira, as datas e marcos institucionais devem ser comparados às condições de participação e à efetividade das liberdades. A [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|Formação histórica do Estado brasileiro]] apresenta a cronologia detalhada.
 
 **1824:** monarquia constitucional, Poder Moderador, representação censitária e escravidão. **Monarquia** define forma de governo; **caráter restrito da participação e das liberdades** exige análise do regime histórico sem aplicar mecanicamente o rótulo contemporâneo de democracia liberal.
 

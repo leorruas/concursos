@@ -3,10 +3,12 @@ title: "Câmara 2026: implementação de Redação Discursiva e Peça Técnica"
 type: "relatorio-implementacao"
 status: "implementacao-parcial-validacao-pendente"
 updated: 2026-11-11
-escopo: "CAM-DIS-001, CAM-DIS-002, CAM-DIS-005 e CAM-DIS-009"
+escopo: "CAM-DIS-001 a CAM-DIS-009"
 ---
 
 # Redação Discursiva e Peça Técnica: relatório de implementação
+
+**Estado consolidado em 11/11/2026:** as nove unidades CAM-DIS-001–009 estão presentes em seis artigos operacionais (04–09), complementando os três fundamentos (01–03). As intervenções mais recentes no 04 (par PF), 08 (comparação graduada), 09 (casos normativos) e hub foram gravadas no `main`, com leitura posterior e vínculos de índice/catálogo preservados. **Validação automatizada destes últimos commits e deploy no GitHub Pages ainda pendentes de confirmação.** O texto abaixo conserva checkpoints antigos como histórico: referências a “candidatos pendentes” descrevem apenas o estado de cada fase naquele momento.
 
 ## Autorização excepcional e fronteira de edição
 

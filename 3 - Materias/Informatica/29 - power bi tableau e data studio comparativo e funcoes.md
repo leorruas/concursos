@@ -14,7 +14,7 @@ updated: 2026-11-11
 
 Na administração pública contemporânea — e com expressivo protagonismo no Poder Legislativo —, a prestação de contas, a transparência ativa da Lei de Acesso à Informação (LAI) e a governança estratégica exigem ferramentas modernas de **Business Intelligence (BI) e Self-Service Analytics**. 
 
-Na Câmara dos Deputados, painéis interativos de acompanhamento de emendas parlamentares, execução orçamentária, tramitação de projetos e estatísticas de votações são construídos sobre plataformas consolidadas de mercado: **Microsoft Power BI**, **Tableau** e **Google Looker Studio** (antigo Google Data Studio).
+Para ilustrar o uso de ferramentas de BI no setor público, este artigo emprega **cenários hipotéticos** de acompanhamento de emendas parlamentares, execução orçamentária, tramitação e votações com **Microsoft Power BI**, **Tableau** e **Google Looker Studio** (antigo Google Data Studio). **Os exemplos não comprovam adoção institucional das três plataformas pela Câmara**.
 
 Nas avaliações do **Cebraspe**, as questões não se limitam a testar comandos de interface, mas exigem compreensão profunda sobre:
 1. **Arquitetura conceitual** e ciclo de vida dos relatórios (Desktop $\times$ Serviço em Nuvem/Server $\times$ Mobile).
@@ -158,16 +158,16 @@ Antigo *Google Data Studio*, o **Looker Studio** é a ferramenta nativa de nuvem
 
 ## 7. Casos concretos e aplicações progressivas
 
-### Caso 1: Painel de tramitação orçamentária na Câmara dos Deputados
+### Caso 1: Painel hipotético de tramitação orçamentária
 - *Cenário:* A Diretoria-Geral necessita de um painel interativo que cruze empenhos orçamentários com emendas de bancada e individuais.
 - *Implementação:* **Power BI**. Cria-se um modelo em esquema estrela no Power BI Desktop com tabelas dimensão (`dDeputado`, `dPartido`, `dCalendario`) e a tabela fato `fEmpenhos`.
 - *Uso de DAX:* Cria-se a medida `[Total Liquidado] = SUM(fEmpenhos[ValorLiquidado])` e a medida temporal de inteligência de tempo `[Liquidado Ano Anterior] = CALCULATE([Total Liquidado], SAMEPERIODLASTYEAR(dCalendario[Data]))`.
 
-### Caso 2: Exploração visual de padrões de votação partidária
+### Caso 2: Exploração hipotética de padrões de votação partidária
 - *Cenário:* Uma equipe de cientistas políticos da Consultoria Legislativa deseja cruzar padrões de votação de 513 deputados em 2.000 votações nominais para identificar agrupamentos ideológicos (*clustering*).
 - *Implementação:* **Tableau**. A flexibilidade do motor VizQL e expressões `{ FIXED [Deputado] : AVG([AlineamentoGoverno]) }` permite gerar matrizes de calor (*heatmaps*) e gráficos de dispersão multivariados sem necessidade de codificar pipelines relacionais rígidos.
 
-### Caso 3: Relatório de métricas de engajamento do portal da Câmara
+### Caso 3: Relatório hipotético de engajamento de portal institucional
 - *Cenário:* A Secretaria de Comunicação precisa disponibilizar para a imprensa e diretores um relatório público com acessos diários, matérias mais lidas e retenção de vídeo na TV Câmara.
 - *Implementação hipotética:* **Looker Studio**. Se a equipe tiver fontes autorizadas no Google Analytics 4 e BigQuery, poderá configurar conectores, credenciais e atualização conforme as políticas aplicáveis. O uso de BigQuery, conectores e edições corporativas **pode gerar custos**, e a atualização/visibilidade dos relatórios depende das permissões e da configuração efetiva.
 

@@ -9863,6 +9863,78 @@
         "prompt": "Uma autarquia aplica indevidamente súmula vinculante. Pode-se apresentar reclamação diretamente sem antes esgotar os meios administrativos?",
         "answer": "Não. O art. 7º, § 1º, da Lei nº 11.417/2006 exige o esgotamento das vias administrativas para reclamação contra ato ou omissão da administração."
       }
+    },
+    {
+      "topic": "Improbidade administrativa",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Improbidade administrativa"
+      ],
+      "note": {
+        "articleId": "art-ea06e80ef83f4af7",
+        "section": "Dolo na LIA"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-12",
+      "revision": 1,
+      "id": "camara-improbidade-dolo-tipificacao",
+      "term": "Improbidade: dolo e conduta tipificada",
+      "definition": "Na Lei de Improbidade Administrativa (LIA), a conduta precisa corresponder a uma hipótese dos arts. 9º, 10 ou 11 e o agente deve querer alcançar o resultado ilícito previsto nessa hipótese. Dolo é essa intenção juridicamente exigida; a mera vontade de praticar o ato, ou um erro por descuido, não basta.",
+      "example": "Uma servidora erra um código ao preencher formulário. Mesmo que o ato seja irregular, não se conclui que houve improbidade sem demonstrar a conduta tipificada e o dolo exigido.",
+      "confusion": "Ilegalidade, voluntariedade e culpa não equivalem automaticamente a improbidade. Cada tipo legal tem requisitos próprios.",
+      "source": {
+        "title": "Lei nº 8.429/1992, art. 1º, §§ 1º a 3º",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm",
+        "locator": "Art. 1º, §§ 1º a 3º; arts. 9º a 11"
+      },
+      "conceptIds": [
+        "camara-improbidade-dolo-tipificacao"
+      ],
+      "contrast": {
+        "prompt": "Um servidor praticou voluntariamente ato ilegal. Isso basta para afirmar improbidade administrativa?",
+        "answer": "Não. É preciso comprovar a intenção de alcançar o resultado ilícito previsto em tipo específico da Lei de Improbidade Administrativa e os demais requisitos legais."
+      }
+    },
+    {
+      "topic": "Improbidade administrativa",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Improbidade administrativa"
+      ],
+      "note": {
+        "articleId": "art-ea06e80ef83f4af7",
+        "section": "Art. 10 — prejuízo ao erário"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-12",
+      "revision": 1,
+      "id": "camara-improbidade-dano-erario",
+      "term": "Improbidade: dano ao erário no art. 10",
+      "definition": "Para a improbidade por prejuízo ao erário do art. 10 da Lei nº 8.429/1992, é necessária conduta dolosa que provoque perda patrimonial efetiva e comprovada aos recursos ou bens públicos. Erário é o patrimônio público protegido nessa hipótese.",
+      "example": "Uma compra pública termina mais cara do que o esperado. O preço elevado, isoladamente, não prova conduta dolosa tipificada nem perda patrimonial efetiva atribuível ao agente.",
+      "confusion": "Resultado econômico desfavorável, falha formal e dano efetivo comprovado são situações distintas. Não presumir dolo a partir do prejuízo.",
+      "source": {
+        "title": "Lei nº 8.429/1992, art. 10",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm",
+        "locator": "Art. 10, caput e § 1º"
+      },
+      "conceptIds": [
+        "camara-improbidade-dano-efetivo"
+      ],
+      "contrast": {
+        "prompt": "Uma contratação pública teve resultado financeiro ruim. Isso basta para enquadrar o gestor no art. 10?",
+        "answer": "Não. O art. 10 exige perda patrimonial efetiva e comprovada, conduta dolosa tipificada e nexo com o dano."
+      }
     }
   ]
 }

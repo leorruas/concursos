@@ -109,6 +109,24 @@ A Constituição fala também em orientação jurídica e atuação extrajudicia
 - tratar a inviolabilidade do advogado como absoluta;
 - confundir independência funcional do membro do MP com inexistência de organização administrativa.
 
+## Exercícios inéditos C/E: instituições e limites funcionais
+
+**Caso progressivo.** Um órgão federal precisa de representação judicial; uma pessoa sem recursos necessita de orientação jurídica; e há indícios de lesão coletiva que justificam atuação institucional. A resposta depende da **função constitucional**: representação judicial e consultoria da União são atribuídas à **AGU**; a assistência jurídica integral e gratuita aos necessitados cabe à **Defensoria**; a tutela da ordem jurídica, do regime democrático e dos interesses sociais e individuais indisponíveis integra a finalidade do **Ministério Público**, nas suas competências.
+
+**Item 1 (inédito, Câmara/Cebraspe).** A Advocacia-Geral da União é instituição essencial à Justiça responsável, diretamente ou por órgão vinculado, pela representação judicial e extrajudicial da União e por atividades de consultoria e assessoramento jurídico do Poder Executivo, na forma constitucional e legal.
+
+**Gabarito: Certo.** O **art. 131, caput**, descreve essas funções; não se deve transferi-las indistintamente ao Ministério Público ou à Defensoria.
+
+**Item 2 (inédito, Câmara/Cebraspe).** A autonomia funcional e administrativa da Defensoria Pública retira dela a condição de instituição permanente, permitindo que sua extinção por decisão administrativa seja determinada pelo chefe do Poder Executivo.
+
+**Gabarito: Errado.** O **art. 134, caput**, caracteriza a Defensoria como instituição **permanente** e essencial à função jurisdicional do Estado; os §§ 2º e 3º asseguram autonomias institucionais pertinentes. A afirmação mistura autonomia com extinção administrativa unilateral.
+
+**Item 3 (inédito, Câmara/Cebraspe).** O Conselho Nacional do Ministério Público pode exercer controle da atuação administrativa e financeira do Ministério Público e do cumprimento dos deveres funcionais de seus membros, observadas as competências previstas no art. 130-A da Constituição.
+
+**Gabarito: Certo.** O **art. 130-A, § 2º**, prevê essa competência, sem transformar o CNMP em órgão jurisdicional que substitua a atuação processual dos membros do Ministério Público.
+
+**Fonte:** [Constituição consolidada, arts. 127–135](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). São exercícios inéditos autorais.
+
 ## Relações com outros temas
 
 A independência dessas funções conecta-se a [[3 - Materias/Direito Constitucional/01 - principios fundamentais|Separação dos Poderes]]. O CNMP possui lógica de controle administrativo/financeiro e funcional semelhante, mas não idêntica, à estudada para o CNJ em [[3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade|Poder Judiciário e controle de constitucionalidade]].

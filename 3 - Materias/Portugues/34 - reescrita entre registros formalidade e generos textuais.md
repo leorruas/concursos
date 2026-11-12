@@ -135,7 +135,7 @@ Esta é a regra mais cobrada da Redação Oficial em provas de Língua Portugues
 
 A 3ª edição do MRPR **aboliu a antiga distinção entre Aviso, Ofício e Memorando**, unificando os três sob a denominação única de **Padrão Ofício** (utilizado tanto para comunicações internas entre órgãos quanto externas).
 
-* **Fechos de Comunicações Oficiais (apenas DOIS em toda a Administração Pública):**
+* **Fechos previstos no MRPR, 3ª edição, como padrão do Executivo federal (dois):**
   1. **`Respeitosamente,`** $\rightarrow$ Para autoridades de **hierarquia superior** à do signatário (inclusive o Presidente da República).
   2. **`Atenciosamente,`** $\rightarrow$ Para autoridades de **mesma hierarquia**, de **hierarquia inferior** ou para **demais casos** (incluindo particulares e autoridades de outros Poderes sem subordinação hierárquica, embora entre Chefes de Poder ou perante alta autoridade se admita a deferência de *Respeitosamente*).
 
@@ -187,9 +187,9 @@ Analise a minuta abaixo:
 * **Gabarito:** **CERTO**.
 * **Fundamentação:** A transposição para o discurso indireto com verbo introdutório no passado (*declarou*) cumpriu rigorosamente todas as regras de conversão: *Vossa Excelência* (fala-se com) passou a *Sua Excelência* (fala-se sobre, ou *ele*); *está* (presente) $\rightarrow$ *estava* (imperfeito); *aqui* $\rightarrow$ *ali*; *hoje* $\rightarrow$ *naquele dia*; *serão* (futuro do presente) $\rightarrow$ *seriam* (futuro do pretérito); *esta* $\rightarrow$ *aquela*; *delibere* (presente do subjuntivo) $\rightarrow$ *deliberasse* (imperfeito do subjuntivo); e *amanhã* $\rightarrow$ *no dia seguinte*.
 
-**Item 3.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* Se o trecho fosse convertido em expediente oficial enviado pela presidente da comissão ao Ministro de Estado, o documento deveria ser redigido sob a forma de **Memorando**, conter o vocativo **Excelentíssimo Senhor Ministro,** e encerrar-se com o fecho **Respeitosamente,**.
+**Item 3.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* Tomando expressamente como referência a **3ª edição do Manual de Redação da Presidência da República (MRPR)**, um expediente oficial dirigido a Ministro de Estado deveria ter a modalidade **Memorando**, o vocativo **Excelentíssimo Senhor Ministro,** e o fecho **Respeitosamente,**.
 * **Gabarito:** **ERRADO**.
-* **Fundamentação:** No âmbito do **MRPR, 3ª edição (Executivo federal)**, aviso, ofício e memorando foram unificados no **padrão ofício**, e o vocativo **Excelentíssimo Senhor** é reservado às autoridades tratadas como Chefes de Poder. Para ministro de Estado, o exemplo padrão é **Senhor Ministro,**. A opção proposta no item mistura denominação de documento e vocativo inadequados **segundo o referencial explicitado**. Como o destinatário é um ministro e a remetente é da Câmara, conferir **também o manual próprio da Casa** antes de estender a regra administrativa do Poder Executivo a todos os expedientes do Legislativo.
+* **Fundamentação:** No âmbito do **MRPR, 3ª edição (Executivo federal)**, aviso, ofício e memorando foram unificados no **padrão ofício**, e o vocativo **Excelentíssimo Senhor** é reservado às autoridades tratadas como Chefes de Poder. Para ministro de Estado, o exemplo padrão é **Senhor Ministro,**. O item atualizado delimita expressamente sua **fonte normativa: o MRPR, próprio do Executivo federal**. Nessa fonte, **Memorando** não é modalidade separada do padrão ofício, e **Excelentíssimo Senhor Ministro** não é o vocativo recomendado. O fecho *Respeitosamente* deve ser analisado conforme a relação institucional; a incorreção dos dois outros elementos já sustenta o gabarito ERRADO. A aplicação à Câmara exige consulta adicional ao manual desta Casa.
 
 **Item 4.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* Estaria de acordo com a norma-padrão e as prescrições da redação oficial a seguinte frase dirigida a um parlamentar em um ofício: *"Encaminhamos a Vossa Excelência o relatório preliminar para que possais apresentar vossas sugestões de aprimoramento."*
 * **Gabarito:** **ERRADO**.

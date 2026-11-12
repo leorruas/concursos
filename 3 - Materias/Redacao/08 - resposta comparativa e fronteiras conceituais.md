@@ -95,3 +95,36 @@ O caso anterior distinguiu modalidades de publicidade. Uma segunda comparação 
 ```
 
 **Autocorreção:** finalidade institucional, linhas 1–5; finalidade partidária, 6–8; fronteira contextual, 9–12. Uma resposta que considere toda referência a parlamentar como ilícita também comete erro: o art. 37, §1º, da Constituição veda elementos que **caracterizem promoção pessoal**. Esta comparação e sua quebra de linhas são autorais, não espelho da banca. [Texto constitucional](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).
+
+## Laboratório de correção: três respostas ao mesmo comando
+
+**Problema:** um candidato pode acertar duas definições isoladas e ainda não realizar a operação de comparar. Para tornar o erro verificável, as três versões abaixo respondem ao **mesmo comando autoral**, de modo que a grade permanece constante. Os conceitos substantivos são desenvolvidos em [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|transparência e comunicação institucional]]. 
+
+**Comando de treino (autoral):** “Compare transparência ativa e divulgação institucional de um serviço quanto à obrigação, à finalidade e ao limite de equivalência entre as duas práticas.” Até 20 linhas. Para autocorreção, a grade tem três exigências: **(A)** origem da obrigação de divulgar informação, **(B)** finalidade própria da comunicação de serviço, **(C)** uma situação de coexistência e seu limite. Os estados seguintes são didáticos, sem pesos oficiais.
+
+**Versão 1: menção temática.**
+
+> “Transparência ativa e comunicação institucional servem à população e são importantes para a democracia. Ambas usam canais digitais para comunicar o que acontece.”
+
+**Correção:** a redação reconhece uma semelhança ampla, mas não identifica a obrigação legal, não distingue finalidade comunicacional e equipara práticas por uso de canal. Os três quesitos **A, B e C estão ausentes ou apenas mencionados**, sem mecanismo verificável. A frase “são importantes” não responde a “compare quanto a”.
+
+**Versão 2: distinção parcial.**
+
+> “A transparência ativa exige divulgação de informações de interesse coletivo ou geral, mesmo sem pedido, nos termos da Lei de Acesso à Informação. A comunicação institucional explica serviços e orienta usuários. As duas informam o cidadão.”
+
+**Correção:** **A atendido** pelo dever de divulgar sem solicitação, **B atendido** pela orientação ao usuário; **C parcial**, pois a afirmação final observa semelhança mas não demonstra quando as práticas coexistem e por que uma mensagem explicativa não substitui a divulgação legalmente exigida. O reparo precisa acrescentar **exemplo e limite**, não uma nova introdução.
+
+**Versão 3: comparação desenvolvida.**
+
+> “A transparência ativa decorre do dever de divulgar informações de interesse coletivo ou geral, independentemente de pedido, nos termos do art. 8º da Lei nº 12.527/2011. A comunicação institucional de serviço busca explicar procedimentos, requisitos e formas de acesso ao público. Ambas podem coexistir quando uma publicação resume uma decisão e encaminha ao documento oficial. Contudo, a peça explicativa não substitui a disponibilização das informações legalmente exigidas, nem torna públicas informações protegidas por restrições legais.”
+
+**Correção:** **A, B e C atendidos na grade do comando autoral**: a obrigação é identificada, a finalidade comunicacional recebe descrição própria e a coexistência vem com uma fronteira verificável. A frase final não autoriza divulgação de dados legalmente protegidos. **Não há nota ou conceito Cebraspe associado a nenhuma das três versões.**
+
+**Mudança de uma variável:** se o comando passar de “transparência ativa” para **transparência passiva**, a primeira condição deve ser reescrita: o procedimento passa a envolver um **pedido de informação**, na forma da Lei de Acesso à Informação, sem exigir motivação do solicitante. A frase da versão 3 sobre divulgação independentemente de pedido deixa de servir ao novo objeto. Consulte [[09 - resposta normativa aplicada em 20 linhas|a resposta normativa]] antes de transferir o modelo.
+
+**Itens C/E inéditos e comentados:** (1) “Duas definições corretas bastam para cumprir qualquer comando comparativo, mesmo quando ele pede exemplo de coexistência e limite.” **Errado**, pois exemplo e limite são exigências distintas do enunciado. (2) “É possível que a comunicação institucional facilite o acesso à informação já divulgada por transparência ativa, sem substituir o dever legal.” **Certo**, desde que respeitadas as obrigações de divulgação e as restrições legais. (3) “A existência de link para um documento autoriza divulgar dados que tenham acesso legalmente restrito.” **Errado**, pois a divulgação deve observar as restrições previstas em lei.
+
+**Exercício de transferência:** produza uma resposta manuscrita para o comando original antes de consultar as versões, marque literalmente as frases que atendem a A, B e C e reescreva apenas o primeiro aspecto parcial. Faça novo treino com transparência passiva após três a sete dias. As respostas e resultados individuais ficam no repositório privado.
+
+**Fontes para esta aplicação:** [Lei nº 12.527/2011, arts. 8º e 10](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm); [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|nota canônica de transparência]]. Todas as respostas deste laboratório são **autorais**.
+

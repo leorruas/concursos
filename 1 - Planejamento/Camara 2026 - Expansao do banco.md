@@ -152,3 +152,7 @@ Quarenta questões P1 sobre princípios fundamentais, direitos e garantias, dire
 ### Lote 025 — Direito Constitucional
 
 O PR #35 integrou 40 itens após auditoria de referências e validação do banco. A `main` passou a conter **1.000 de 2.000 itens de expansão validados**, com evidência de revisão, além dos 389 itens históricos de `pilotoDidatico`. A retomada deve partir da matriz de expansão vigente e conferir novamente a contagem e os PRs pendentes antes de preparar o lote seguinte.
+
+## Lote 026: Tecnologia da Informação e Dados, 40 itens revisados, aguardando validação
+
+Lote proposto em 12/11/2026 após contagem íntegra da `main` `08a2ec1`: 1.000 questões novas em `expansao` com `reviewStatus: validada`, mais 389 itens históricos em `pilotoDidatico`. O lote 026 adiciona 40 itens inéditos de TI e Dados, 20 C e 20 E, baseados em dez artigos canônicos. Temas: sincronização, Excel, OneDrive, segurança da informação, backup, phishing, indicadores, tratamento de dados e gráficos. Os novos IDs usam prefixo `cam-ti-l026-`; o status é `revisada`, sem contá-los na meta até revisão técnica e CI completos. A referência à `main` é um marco, não uma contagem dinâmica. Depois da validação e integração, recontar IDs e status diretamente da `main`, executar o auditor de referências e atualizar a situação nesta seção. O lote não modifica a coleção histórica.

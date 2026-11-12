@@ -25,3 +25,7 @@ Quarenta questões geradas para o item 3 de Divulgação Institucional, com refe
 ## Lote 004 validado
 
 Quarenta questões geradas sobre marca e branding, item 4 de Divulgação Institucional, com referências aos artigos 109 a 111. A triagem lexical a 0,22 indicou dois pares internos. O cotejo confirmou mecanismos distintos: identificação visual versus sonora e notoriedade versus classificação de associações no modelo de Keller. O próximo lote cobre design e produção, item 5 do edital.
+
+## Lote 005 em elaboração
+
+Oito questões geradas para o item 5, vinculadas aos artigos 112 a 114. Os próximos itens cobrem rádio, TV, redes sociais, projeto gráfico, audiovisual e publicações nos artigos 115 a 119.

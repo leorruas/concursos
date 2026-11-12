@@ -10916,6 +10916,222 @@
       "correctAnswer": "C",
       "explanation": "O redirecionamento liga as associações anteriores ao novo nome. A conclusão de buscas mede se a transição preservou o acesso, além de verificar o reconhecimento do novo sinal.",
       "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Avaliação do portfólio: como distinguir resultado de aparência em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
+    },
+    {
+      "id": "cam-di-isolamento-e-prioridade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / design gráfico",
+      "articleId": "art-2d49c7a6e81b305f",
+      "conceptId": "isolamento-e-prioridade",
+      "mechanism": "isolamento-e-prioridade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-2d49c7a6e81b305f#Hierarquia visual: prioridade não equivale a tamanho"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md",
+        "section": "Hierarquia visual: prioridade não equivale a tamanho"
+      },
+      "statement": "Em um aviso com vários blocos densos, reservar espaço em torno do prazo pode destacá-lo mesmo sem aumentar o corpo do texto.",
+      "correctAnswer": "C",
+      "explanation": "O isolamento altera a relação visual entre elementos. O tamanho é apenas um dos recursos de hierarquia."
+    },
+    {
+      "id": "cam-di-proximidade-com-rotulos-trocados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / design gráfico",
+      "articleId": "art-2d49c7a6e81b305f",
+      "conceptId": "proximidade-com-rotulos-trocados",
+      "mechanism": "proximidade-com-rotulos-trocados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-2d49c7a6e81b305f#Gestalt: quais elementos o leitor percebe como unidade?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md",
+        "section": "Gestalt: quais elementos o leitor percebe como unidade?"
+      },
+      "statement": "Em uma lista de eventos, colocar cada horário mais perto do título seguinte que do próprio título elimina o risco de associação incorreta, desde que todos os horários usem a mesma fonte.",
+      "correctAnswer": "E",
+      "explanation": "A tipografia comum agrupa os horários como categoria. A proximidade com o título errado ainda pode induzir um pareamento incorreto."
+    },
+    {
+      "id": "cam-di-grid-com-variacao-de-colunas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / design gráfico",
+      "articleId": "art-2d49c7a6e81b305f",
+      "conceptId": "grid-com-variacao-de-colunas",
+      "mechanism": "grid-com-variacao-de-colunas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-2d49c7a6e81b305f#Grid e alinhamento: estrutura não é template"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md",
+        "section": "Grid e alinhamento: estrutura não é template"
+      },
+      "statement": "Duas páginas podem usar a mesma grade de seis colunas ainda que uma imagem ocupe duas colunas em uma delas e quatro na outra.",
+      "correctAnswer": "C",
+      "explanation": "A grade fornece linhas de referência. Elementos podem ocupar extensões distintas sem abandonar a estrutura."
+    },
+    {
+      "id": "cam-di-formato-fechado-com-dobra",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção gráfica",
+      "articleId": "art-58a3d91e6c427bf0",
+      "conceptId": "formato-fechado-com-dobra",
+      "mechanism": "formato-fechado-com-dobra",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-58a3d91e6c427bf0#Formato aberto, fechado, página, folha e imposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md",
+        "section": "Formato aberto, fechado, página, folha e imposição"
+      },
+      "statement": "Um folheto de 300 mm por 200 mm que recebe uma dobra central paralela ao lado de 200 mm conserva, após dobrado, o formato de 300 mm por 200 mm.",
+      "correctAnswer": "E",
+      "explanation": "A dobra reduz pela metade a dimensão perpendicular a ela. O formato fechado é de 150 mm por 200 mm."
+    },
+    {
+      "id": "cam-di-marca-de-fundo-e-texto-protegido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção gráfica",
+      "articleId": "art-58a3d91e6c427bf0",
+      "conceptId": "marca-de-fundo-e-texto-protegido",
+      "mechanism": "marca-de-fundo-e-texto-protegido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-58a3d91e6c427bf0#Sangria, linha de corte e área segura: direções opostas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md",
+        "section": "Sangria, linha de corte e área segura: direções opostas"
+      },
+      "statement": "Para imprimir um fundo até a borda e proteger um endereço próximo à margem, pode-se estender o fundo além da linha de corte e deslocar o endereço para dentro da área segura.",
+      "correctAnswer": "C",
+      "explanation": "A extensão do fundo acomoda variações do corte. A área segura protege informações que não podem ser cortadas."
+    },
+    {
+      "id": "cam-di-resolucao-com-recorte-e-ampliacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção gráfica",
+      "articleId": "art-58a3d91e6c427bf0",
+      "conceptId": "resolucao-com-recorte-e-ampliacao",
+      "mechanism": "resolucao-com-recorte-e-ampliacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-58a3d91e6c427bf0#Resolução, tamanho físico e imagem vetorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md",
+        "section": "Resolução, tamanho físico e imagem vetorial"
+      },
+      "statement": "Uma fotografia de 2.400 pixels de largura é recortada até restarem 1.200 pixels. Se a parte mantida for impressa com 8 polegadas de largura, sua resolução efetiva continuará em 300 pixels por polegada porque a imagem original tinha 2.400 pixels.",
+      "correctAnswer": "E",
+      "explanation": "A resolução efetiva usa os pixels que restaram e o tamanho final: 1.200 ÷ 8 = 150 pixels por polegada."
+    },
+    {
+      "id": "cam-di-ordem-visual-e-ordem-de-leitura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção digital",
+      "articleId": "art-d64c8e1b705a392f",
+      "conceptId": "ordem-visual-e-ordem-de-leitura",
+      "mechanism": "ordem-visual-e-ordem-de-leitura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d64c8e1b705a392f#Responsividade, reflow e ordem de leitura"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md",
+        "section": "Responsividade, reflow e ordem de leitura"
+      },
+      "statement": "Em uma página responsiva, mover visualmente um aviso para o topo garante que ele também será lido primeiro por tecnologias assistivas, mesmo que a ordem estrutural permaneça a mesma.",
+      "correctAnswer": "E",
+      "explanation": "A reorganização visual pode divergir da estrutura que orienta a leitura. É preciso verificar a ordem de leitura após a adaptação."
+    },
+    {
+      "id": "cam-di-vetor-e-informacao-textual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção digital",
+      "articleId": "art-d64c8e1b705a392f",
+      "conceptId": "vetor-e-informacao-textual",
+      "mechanism": "vetor-e-informacao-textual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d64c8e1b705a392f#Formatos técnicos: escolher conforme informação, não hábito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md",
+        "section": "Formatos técnicos: escolher conforme informação, não hábito"
+      },
+      "statement": "Usar um gráfico vetorial pode preservar a nitidez das linhas em diferentes escalas, mas a equipe ainda precisa garantir que os dados do gráfico possam ser consultados de forma acessível.",
+      "correctAnswer": "C",
+      "explanation": "A propriedade vetorial favorece a escala visual. Ela não torna os dados automaticamente recuperáveis por leitores de tela ou por outras formas de acesso."
     }
   ]
 }

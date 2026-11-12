@@ -81,8 +81,8 @@ O Cebraspe frequentemente propõe situações práticas em que uma mensagem é r
 
 | Ação Executada | Destinatários do Novo E-mail | Anexos Originais são incluídos? |
 | :--- | :--- | :--- |
-| **Responder (*Reply*)** | **Apenas o Remetente original** da mensagem (endereço em `De` / *From*) | **NÃO** (anexos originais são descartados por padrão) |
-| **Responder a Todos (*Reply All*)** | O **Remetente original** (`De`) + **Todos os endereços visíveis** em `Para` e `Cc` (exceto o próprio usuário que responde) | **NÃO** (anexos originais são descartados por padrão) |
+| **Responder (*Reply*)** | Endereço configurado em `Reply-To`, quando presente, ou normalmente o indicado em `De` | Normalmente sem anexo original |
+| **Responder a Todos (*Reply All*)** | Destinatário de resposta e endereços visíveis em `Para` e `Cc`, conforme listas, aliases e cliente | Normalmente sem anexo original |
 | **Encaminhar (*Forward*)** | O remetente original **NÃO** é destinatário automático; o usuário digita novos destinatários | **SIM**, os **anexos originais são preservados** e enviados por padrão |
 
 > **Pegadinha Fatal do Cebraspe sobre Cco e "Responder a Todos":**
@@ -97,7 +97,7 @@ O Cebraspe frequentemente propõe situações práticas em que uma mensagem é r
 1. **Limites de tamanho por mensagem**: Servidores corporativos impõem tetos de tamanho para tráfego de e-mail (tipicamente de 20 MB a 35 MB por mensagem). Para arquivos que ultrapassam esse volume, a boa prática no Microsoft 365 é enviar um **link de compartilhamento do OneDrive** em vez do arquivo binário anexado;
 2. **Bloqueio de extensões executáveis**: Servidores de correio da Administração Pública bloqueiam ativamente o tráfego de anexos com extensões que possam executar código na máquina do destinatário:
    - Extensões bloqueadas comuns: `.exe`, `.bat`, `.cmd`, `.vbs`, `.js`, `.scr`, `.com`, `.ps1`;
-   - Nem mesmo compactar em `.zip` ou `.rar` burla firewalls modernos, pois o antivírus do servidor examina o conteúdo interno de arquivos comprimidos;
+   - Compactar em `.zip` ou `.rar` **não garante** passagem por filtros nem inspeção integral: produto, formato, senha, criptografia e políticas de segurança podem alterar o tratamento de anexos. Firewall de rede e antivírus de e-mail desempenham funções distintas;
 3. **Assinatura Digital e Criptografia (S/MIME)**:
    - **Assinatura Digital**: Garante a **autenticidade** (prova que o e-mail partiu de quem diz ter partido), a **integridade** (prova que o texto e os anexos não foram alterados no trânsito) e o **não repúdio**;
    - **Criptografia de E-mail**: Garante a **confidencialidade**, permitindo que somente o detentor da chave privada do destinatário consiga decodificar e ler o conteúdo da mensagem.
@@ -120,7 +120,7 @@ A assessoria de imprensa da Câmara precisa disparar um comunicado de imprensa p
 
 ### Caso 2: Cco respondendo a todos
 O Diretor de Comunicação envia um e-mail com críticas a uma matéria jornalística para o Redator (no campo `Para`) e coloca o Secretário-Geral em **`Cco`**. O Secretário-Geral, desejando intervir no debate, clica no botão **Responder a Todos** em seu cliente de e-mail e escreve: *"Concordo plenamente"*.
-*Análise:* O Redator (que estava em `Para`) receberá a mensagem do Secretário-Geral. Com isso, o Redator descobrirá que o Secretário-Geral estava monitorando a conversa em segredo. Se o Secretário-Geral quisesse manter o sigilo de sua presença, deveria ter clicado unicamente em **Responder** (enviando mensagem privada apenas ao Diretor) ou redigido um novo e-mail isolado.
+*Análise:* Em um cliente usual, o Redator pode receber a resposta e perceber que o Secretário-Geral teve acesso ao conteúdo. **Isso não prova, por si só, que o endereço estava em Cco**, pois a mensagem poderia ter sido encaminhada ou compartilhada de outro modo. O Secretário-Geral precisaria conferir a lista de destinatários antes de responder; a opção **Responder**, conforme o cabeçalho de resposta da mensagem, costuma evitar a resposta coletiva.
 
 ### Caso 3: Envio de relatório em PDF de 80 MB
 Uma assessora precisa enviar um arquivo PDF de 80 MB contendo fotos e relatórios da sessão legislativa para deputados. O e-mail retorna imediatamente com a mensagem de erro *"Mailbox size limit exceeded / Message size exceeds fixed maximum limit"*.
@@ -214,3 +214,5 @@ Um servidor recebe um e-mail com uma planilha anexada contendo o orçamento da c
 > **Revisão (11/11/2026):** corrigidas generalizações sobre armazenamento local no webmail e sobre a incidência automática da LGPD (TI-046 e TI-047). Os comportamentos de clientes e políticas de organizações podem variar; os itens C/E permanecem inéditos.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** seis questões examinadas, gabaritos mantidos **E, C, C, E, E, C**, com explicações condicionadas ao cliente e com precisão sobre assinatura digital e proteção de dados. Sem evidência de inversão obrigatória de gabarito nessa leitura dirigida.
+
+> **Implementação TI-108 (11/11/2026):** tabela de resposta compatível com `Reply-To`, caso de Cco distinguindo inferência de evidência, e limites de varredura de anexos compactados.

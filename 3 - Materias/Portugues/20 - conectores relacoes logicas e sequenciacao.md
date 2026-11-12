@@ -25,7 +25,7 @@ Nas provas do **Cebraspe**, o domínio de **conectores e relações lógico-sem�
 1. **O valor lógico-semântico exato dos conectores**: causa, consequência, oposição/adversidade, concessão, condição, conformidade, proporção, finalidade, comparação e explicação;
 2. **A fronteira entre adversidade (coordenação) e concessão (subordinação)**: o argumento mais forte fica na oração introduzida pelo conectivo adversativo, ao passo que fica na oração principal diante do conectivo concessivo;
 3. **Equivalência semântica e correções sintáticas na reescrita**: a substituição de conectivos e a correspondente exigência de alteração do modo verbal (indicativo $\leftrightarrow$ subjuntivo);
-4. **Conectivos polissêmicos**: as múltiplas faces de *como* (causal, comparativo, conformativo, aditivo), *se* (condicional, integrante, causal), *já que* e *posto que* (este último genuinamente concessivo!).
+4. **Conectivos polissêmicos**: as múltiplas faces de *como* (causal, comparativo, conformativo, aditivo), *se* (condicional, integrante, causal), *já que* e *posto que* (concessivo na tradição normativa; há registros de uso causal em outras variedades).
 
 ```mermaid
 flowchart TD
@@ -87,7 +87,7 @@ flowchart LR
 ### 3.1. Relação de Causa $\times$ Consequência $\times$ Explicação
 A confusão entre causa, explicação e consequência é intensamente explorada em provas:
 - **Causa**: Fato gerador antecedente cronologicamente que produz um efeito físico ou objetivo no mundo real.  
-  *Conectivos*: *porque, já que, visto que, dado que, porquanto, uma vez que, como (obrigatoriamente no início do período)*.  
+  *Conectivos*: *porque, já que, visto que, dado que, porquanto, uma vez que, como (frequente em oração causal anteposta; a posição sozinha não define o sentido)*.  
   *Exemplo*: *"Como o quórum regimental não foi atingido, a sessão deliberativa foi cancelada."*
 - **Consequência (Consecutiva)**: Efeito gerado pela causa, frequentemente associado a um intensificador (*tão, tanto, tamanho, tal* ... *que*).  
   *Conectivos*: *de modo que, de forma que, de sorte que, tanto que*.  
@@ -110,7 +110,7 @@ Indica concordância com uma regra, modelo, autor ou fato precedente.
 ### 3.4. Relação de Proporção
 Expressa variação simultânea e concomitante entre dois fatos.
 - *Conectivos*: *à medida que, à proporção que, ao passo que, quanto mais... mais*.
-- *Cuidado no Cebraspe*: A locução **à medida que** (proporcional) não se confunde com **na medida em que** (estritamente causal e sem crase!). As formas híbridas *"à medida em que"* e *"na medida que"* são consideradas **incorretas** pela norma culta.
+- *Cuidado no Cebraspe*: A locução **à medida que** é a forma preferida para proporcionalidade, enquanto **na medida em que** costuma indicar causa/justificativa na redação formal (sem crase). As formas híbridas *"à medida em que"* e *"na medida que"* são consideradas **incorretas** pela norma culta.
 
 ---
 
@@ -120,7 +120,7 @@ Expressa variação simultânea e concomitante entre dois fatos.
 | :--- | :--- | :--- | :--- | :--- |
 | **como** | **Causa** (*"Como a sessão era secreta, não houve transmissão."*) | **Conformidade** (*"A comissão agiu como determina a lei."*) | **Comparação** (*"O deputado discursou como um tribuno clássico."*) | Causa = *já que*; Conformidade = *conforme*; Comparação = *tal qual*. |
 | **se** | **Condição** (*"Se houver quórum, haverá votação."*) | **Conjunção Integrante** (*"O presidente não sabe se haverá sessão."*) | **Causa** (*"Se todos concordam, encerremos a reunião."*) | Condição = *caso*; Integrante = substitui por *isso*; Causa = *já que*. |
-| **posto que** | **Concessão estrita** (*"Posto que houvesse divergências, o texto foi aprovado."*) | — | — | **Não é causal!** *Posto que* equivale a *embora* ou *conquanto*, exigindo verbo no subjuntivo. |
+| **posto que** | **Concessão na norma formal conservadora** (*"Posto que houvesse divergências, o texto foi aprovado."*) | — | — | Em orientação normativa conservadora, *posto que* equivale a *embora* ou *conquanto*. Existem usos causais registrados historicamente; não afirmar que são linguisticamente inexistentes. |
 | **pois** | **Explicação/Causa** (anteposto ao verbo: *"Apresse-se, pois o prazo expira."*) | **Conclusão** (posposto ao verbo, entre vírgulas: *"O prazo expirou; não cabe, pois, recurso."*) | — | Anteposto = *porque*; Posposto = *portanto*. |
 
 ---
@@ -193,7 +193,7 @@ A locução “posto que”, amplamente empregada na linguagem culta e formal, p
 - [ ] Errado
 
 > **Gabarito: ERRADO**  
-> **Comentário**: Esta é uma das armadilhas semânticas mais célebres do Cebraspe. Na norma culta e na tradição gramatical rigorosa, **posto que** é uma **locução conjuntiva concessiva** (equivalente a *embora, ainda que, se bem que, conquanto*), regendo verbo no modo subjuntivo (*"posto que houvesse quórum..."*). Seu emprego com valor causal é considerado solecismo em provas de alto nível.
+> **Comentário**: Na orientação normativa conservadora, **posto que** é empregado com valor **concessivo** (aproxima-se de *embora* e *conquanto*), frequentemente com subjuntivo (*"posto que houvesse quórum..."*). Há registros históricos de valor causal, de modo que não se deve declarar qualquer uso causal impossível ou sempre solecismo. **Neste item**, a afirmação de valor *primariamente causal* e de *sinonímia perfeita* com *já que* é excessiva; por isso o gabarito ERRADO permanece defensável.
 
 ---
 
@@ -205,7 +205,7 @@ No período “Como o regimento interno veda a reeleição de membros da Mesa na
 - [ ] Errado
 
 > **Gabarito: ERRADO**  
-> **Comentário**: O conector *Como*, quando posicionado **obrigatoriamente no início do período** introduzindo oração subordinada anteposta à principal, possui valor **causal** (*"Já que o regimento veda...", "Visto que o regimento veda..."*). A vedação regimental é a causa formal que gerou a consequência descrita na oração principal (a impugnação). Para expressar conformidade, o conector deveria permitir substituição por *conforme* ou *segundo* em estrutura equivalente.
+> **Comentário**: No trecho apresentado, *Como* introduz **causa**, demonstrada pela relação entre vedação e impugnação. **A posição inicial não define sozinha esse valor**: em *"Como determina o regimento, a votação será nominal"*, por exemplo, pode ter valor conformativo (*"Já que o regimento veda...", "Visto que o regimento veda..."*). A vedação regimental é a causa formal que gerou a consequência descrita na oração principal (a impugnação). Para expressar conformidade, o conector deveria permitir substituição por *conforme* ou *segundo* em estrutura equivalente.
 
 ---
 
@@ -219,7 +219,7 @@ As locuções conjuntivas “à medida que” e “na medida em que” são sema
 > **Gabarito: ERRADO**  
 > **Comentário**: As locuções possuem sentidos e papéis sintáticos inteiramente distintos:
 > 1. **à medida que**: expressa **proporção / concomitância gradual** (*"à medida que o tempo passava, o plenário esvaziava-se"*);
-> 2. **na medida em que**: expressa **causa / explicação** (*"o projeto foi aprovado na medida em que atende aos reclamos sociais"*). Elas não são sinônimas nem intercambiáveis.
+> 2. **na medida em que**: expressa **causa / explicação** (*"o projeto foi aprovado na medida em que atende aos reclamos sociais"*). Na redação oficial, convém manter essa distinção para evitar mudança de sentido. A avaliação de equivalência depende da relação efetivamente expressa em cada período.
 
 ---
 

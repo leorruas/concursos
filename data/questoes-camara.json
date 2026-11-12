@@ -14950,6 +14950,122 @@
       "statement": "A concordância do veículo basta, por si só, para afastar o problema de carona publicitária quando outro titular dos direitos envolvidos não concordou previamente.",
       "correctAnswer": "E",
       "explanation": "O Código considera a concordância prévia do veículo e dos demais titulares de direitos envolvidos. A anuência de um deles não substitui a dos outros."
+    },
+    {
+      "id": "cam-di-avaliador-na-abertura-das-propostas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "avaliador-na-abertura-das-propostas",
+      "mechanism": "avaliador-na-abertura-das-propostas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 11: sequência de julgamento e habilitação posterior",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 11, § 1º"
+      },
+      "statement": "Um integrante da subcomissão técnica pode participar da sessão de abertura das propostas técnicas e de preços se não falar com os representantes das licitantes.",
+      "correctAnswer": "E",
+      "explanation": "O impedimento refere-se à participação na sessão. Abster-se de contato com os representantes não afasta a vedação."
+    },
+    {
+      "id": "cam-di-planilha-sem-razoes-da-nota",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "planilha-sem-razoes-da-nota",
+      "mechanism": "planilha-sem-razoes-da-nota",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 11: sequência de julgamento e habilitação posterior",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 11, § 4º, IV"
+      },
+      "statement": "Uma subcomissão envia a ata e as notas do plano de comunicação, mas omite as razões de cada pontuação. A presença das notas na planilha supre essa omissão.",
+      "correctAnswer": "E",
+      "explanation": "O encaminhamento deve incluir a justificativa escrita das pontuações, além da ata, das propostas e das planilhas."
+    },
+    {
+      "id": "cam-di-cotejo-antes-da-proclamacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "cotejo-antes-da-proclamacao",
+      "mechanism": "cotejo-antes-da-proclamacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 11: sequência de julgamento e habilitação posterior",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 11, § 4º, VII"
+      },
+      "statement": "Na sessão pública de apuração do resultado geral das propostas técnicas, as vias dos planos são cotejadas para identificar a autoria antes da proclamação do resultado.",
+      "correctAnswer": "C",
+      "explanation": "A abertura da via identificada e seu cotejo com a via anônima antecedem a elaboração da planilha geral e a proclamação do resultado."
+    },
+    {
+      "id": "cam-di-checagem-independente-quando-possivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "checagem-independente-quando-possivel",
+      "mechanism": "checagem-independente-quando-possivel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 15: comprovação de mídia e vantagens que pertencem ao contratante"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 15: comprovação de mídia e vantagens que pertencem ao contratante",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 15, caput"
+      },
+      "statement": "A Lei nº 12.232/2010 exige que a checagem de veiculação seja feita por empresa independente mesmo quando isso seja comprovadamente impossível.",
+      "correctAnswer": "E",
+      "explanation": "A independência da empresa é exigida sempre que possível. Isso não elimina os outros documentos de comprovação da despesa."
     }
   ]
 }

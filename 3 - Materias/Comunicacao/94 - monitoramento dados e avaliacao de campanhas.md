@@ -165,6 +165,24 @@ O [caderno original CESPE/UnB de Correios 2011, cargo 28, Publicidade e Propagan
 
 A ligação para a prova consta no [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|índice de questões reais]], junto com os dez itens 81–90 agora verificados individualmente. **Limite:** a prova é de 2011; não se deve inferir, apenas a partir desses dois itens, a distribuição atual de temas ou regras jurídicas da Câmara.
 
+## Oficina de interpretação: taxa, pontos percentuais e causalidade (11/11/2026)
+
+**Caso de avaliação hipotético:** uma campanha sobre audiências públicas alcançou 120.000 unidades distintas, registrou 360.000 impressões e 18.000 visitas à página oficial. Em uma pesquisa de compreensão com a mesma pergunta e populações comparáveis, a proporção de acertos passou de **40% para 55%**. A diferença absoluta é de **15 pontos percentuais**. O aumento relativo é **(55 − 40)/40 = 37,5%** sobre o valor inicial. Descrever o avanço como “15%” confunde unidades. A razão entre visitas e impressões, se for utilizada com essas definições, é **5%**, mas **não é automaticamente taxa de pessoas únicas que compreenderam ou concluíram a tarefa**.
+
+**Evidência e decisão:** as impressões e o alcance representam **outputs**; visitas registram navegação/interação e podem aparecer em níveis distintos segundo a definição operacional; respostas corretas em pesquisa podem representar compreensão inicial ou mudança de conhecimento conforme instrumento e horizonte temporal; resultados sustentados no uso do serviço dependem de observação adequada; impacto institucional e social exige avaliação adicional. A [taxonomia AMEC de Jim Macnamara](https://amecorg.com/amecframework/home/supporting-material/taxonomy/) registra que out-takes avançados podem coincidir com outcomes de curto prazo. Não declarar impacto a partir de volume de visitas.
+
+**Limite causal:** se a inscrição no serviço aumentou no mesmo período, melhorias simultâneas do portal, mudanças do calendário, cobertura jornalística e diferenças entre amostras podem contribuir para o resultado. Atribuição de conversões por plataforma é convenção técnica de rastreamento e não identifica, automaticamente, o efeito causal exclusivo da campanha. Uma análise responsável apresenta objetivo, público, linha de base, método, resultados e incertezas, além de recomendações de melhoria.
+
+**Item 4, inédito.** Uma proporção de respostas corretas que passa de 40% para 55% cresce quinze pontos percentuais, valor que corresponde a aumento relativo de 37,5% sobre o patamar inicial.
+
+**Gabarito: Certo.** É preciso distinguir diferença em pontos e razão relativa ao valor de partida.
+
+**Item 5, inédito.** A combinação de alto alcance e aumento de visitas, por si, autoriza concluir que a comunicação causou integralmente a melhora posterior na participação, mesmo quando o procedimento do serviço também mudou.
+
+**Gabarito: Errado.** Os indicadores não controlam explicações concorrentes nem comprovam atribuição causal exclusiva. Os itens são **inéditos autorais**, distintos dos itens reais de Correios 2011 citados acima.
+
+**Relações:** [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|mídia]], [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|objetivos]] e [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|briefing]]. O caso é inventado, sem inferências sobre desempenho real da Câmara.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|CAM-DI-006]]: objetivo, indicador, KPI e meta. [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|CAM-DI-005]]: evidências e hipóteses causais. [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|CAM-DI-012]]: alcance e intensidade. [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|CAM-DI-014]]: evidências de execução.

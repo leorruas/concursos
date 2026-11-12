@@ -52,7 +52,7 @@ A Lei nº 14.129/2021 estabelece diretrizes de governo digital. **A aplicação 
 
 ## 2. Níveis de assinaturas eletrônicas no serviço público (Lei nº 14.063/2020)
 
-Para conferir validade jurídica a manifestações eletrônicas sem burocracia excessiva, a Lei nº 14.063/2020 categorizou as assinaturas eletrônicas em três níveis hierárquicos:
+A Lei nº 14.063/2020 diferencia assinaturas simples, avançadas e qualificadas pelo **mecanismo e nível de confiança**. O nível mínimo exigido para cada interação depende de ato competente e das hipóteses da própria lei, sobretudo do **art. 5º, §§ 1º e 2º**. As categorias não estabelecem equivalência automática entre risco abstrato e tipo de documento:
 
 ```mermaid
 flowchart LR
@@ -60,9 +60,9 @@ flowchart LR
     classDef avancada fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;
     classDef qualificada fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
 
-    S["Assinatura Simples<br>Login/senha, IP, e-mail<br>(Baixo risco / Interações corriqueiras)"]:::simples
-    A["Assinatura Avançada<br>Chaves assimétricas, gov.br Prata/Ouro<br>(Médio risco / Processos administrativos)"]:::avancada
-    Q["Assinatura Qualificada<br>Certificado ICP-Brasil<br>(Alto risco / Atos solenes, transferência de imóveis, sanção)"]:::qualificada
+    S["Assinatura Simples<br>Associa dados ao signatário<br>Admissão condicionada ao art. 5º"]:::simples
+    A["Assinatura Avançada<br>Identificação unívoca e integridade<br>Meios aceitos conforme requisitos"]:::avancada
+    Q["Assinatura Qualificada<br>Certificado ICP-Brasil<br>Obrigatória nas hipóteses legais"]:::qualificada
 
     S --> A --> Q
 ```
@@ -71,7 +71,7 @@ flowchart LR
 | :--- | :--- | :--- | :--- |
 | **Simples** | Associação de dados eletrônicos em formato simples (login e senha de usuário, confirmação por e-mail/SMS). | Básico / Baixo | Requerimentos simples, agendamento de atendimentos, manifestações em ouvidorias. |
 | **Avançada** | Utiliza criptografia assimétrica associada de forma unívoca ao signatário; dados sob seu controle exclusivo; detecta alterações posteriores. Ex.: contas **gov.br nível Prata e Ouro**. | Intermediário / Alto | Tramitação de processos administrativos internos, pareceres técnicos, peticionamento eletrônico, contratos públicos ordinários. |
-| **Qualificada** | Utiliza certificado digital padrão **ICP-Brasil** (com token criptográfico, smartcard ou nuvem segura). | **Elevado** (presunção relativa de veracidade em relação ao signatário; MP 2.200-2/2001, art. 10, § 1º) | Atos de chefia de poder, sanção e promulgação de leis, edição de medidas provisórias, alienação de imóveis públicos e atos com sigilo ultrassecreto. |
+| **Qualificada** | Utiliza certificado digital no âmbito da **ICP-Brasil**. | **Elevado**, com a presunção relativa prevista na MP 2.200-2/2001, art. 10, § 1º. | Obrigatória para atos assinados pelas autoridades descritas no art. 5º, § 2º, I, e para transferência/registro de imóveis nas condições do inciso IV, além das demais hipóteses legais. **Sigilo elevado, isoladamente, não cria uma regra geral de assinatura qualificada.** |
 
 ---
 
@@ -201,3 +201,5 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 > **Auditoria C/E, segunda passagem (11/11/2026):** seis questões examinadas, gabaritos mantidos **C, E, E, C, E, C** com ressalvas. Q5 teve a fundamentação confrontada com o **art. 5º da Lei 14.063/2020** para remover referência legal excessivamente genérica. Q1 conserva a ressalva anterior sobre condições de interoperabilidade, antes de uso como enunciado literal.
 
 > **Implementação jurídica (11/11/2026):** removidas afirmações absolutas sobre atendimento exclusivamente digital, interoperabilidade universal, abertura integral de bases e responsabilidade disciplinar. Referência: [Lei 14.129/2021, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/2021/lei-14129-29-marco-2021-791203-normaatualizada-pl.html). Os casos são **hipóteses didáticas**, não relatos administrativos comprovados.
+
+> **Implementação TI-117 (11/11/2026):** diagrama e matriz de assinaturas harmonizados com o art. 5º da Lei 14.063/2020, sem estabelecer correspondência universal de risco e modalidade. Fonte oficial: [texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/2020/lei-14063-23-setembro-2020-790659-normaatualizada-pl.html).

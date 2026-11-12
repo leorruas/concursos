@@ -37,42 +37,60 @@ O padrão definitivo de peça técnica do concurso da própria Câmara, aplicado
 
 **Grade didática:** objeto e finalidade; diagnóstico sem dados inventados; evidências a coletar; três medidas discriminadas; acompanhamento associado às medidas.
 
-**Peça-modelo didática com 28 linhas artificiais** (a paginação digitada não reproduz a folha oficial):
+**Peça-modelo didática com 44 linhas artificiais**, construída para cobrir todos os objetos do comando autoral. Cada quebra numerada representa uma linha de simulação digitada, não a geometria do documento definitivo da banca. As linhas em branco também ocupam espaço na simulação.
 
 ```text
 01 NOTA TÉCNICA: ACESSO À INFORMAÇÃO SOBRE EVENTO
 02 Destinatário: Coordenação de Comunicação
-03 Objeto: aperfeiçoamento da comunicação do próximo
-04 evento institucional, com atenção à acessibilidade.
+03 Objeto: comunicação do próximo evento institucional,
+04 com atenção à localização e à acessibilidade da informação.
 05
-06 1. Situação e necessidade de diagnóstico
-07 Foram relatadas dificuldades para localizar orientações
+06 1. Situação e diagnóstico preliminar
+07 Foram relatadas dificuldades na localização das orientações
 08 do evento e barreiras de acesso aos materiais digitais.
-09 Os relatos indicam pontos a investigar, mas não permitem
-10 concluir sua frequência, causas ou alcance sem coleta.
-11 Recomenda-se examinar o percurso de busca de informações,
-12 observar páginas e convites e ouvir públicos distintos,
-13 inclusive pessoas que utilizam recursos assistivos.
-14
-15 2. Encaminhamentos propostos
-16 Primeiro, reunir em página acessível informações de data,
-17 local, programação, inscrição e canais de atendimento,
-18 com navegação clara e revisão em dispositivos variados.
-19 Segundo, elaborar convites com linguagem direta,
-20 estrutura legível e alternativas textuais para imagens.
-21 Terceiro, prever legendas e recursos compatíveis com as
-22 necessidades identificadas para vídeos e transmissões.
-23 Cada medida deve ser testada com usuários antes do evento.
-24
-25 3. Acompanhamento
-26 Registrar dúvidas recebidas nos canais de atendimento,
-27 testar a localização das informações e colher retorno
-28 de usuários para orientar ajustes posteriores.
+09 Os relatos indicam problemas possíveis, mas ainda não
+10 demonstram sua frequência, causa ou distribuição por público.
+11 A hipótese de divulgação insuficiente deve ser investigada
+12 junto à clareza das instruções e à navegação do portal.
+13 Propõe-se observar tarefas de busca com usuários diversos,
+14 incluindo pessoas que utilizam tecnologias assistivas;
+15 analisar páginas, convites e dúvidas recebidas nos canais;
+16 e registrar os obstáculos concretos em cada etapa de acesso.
+17 A conclusão do diagnóstico dependerá dessas evidências.
+18
+19 2. Encaminhamentos de comunicação
+20 Como primeira medida, reunir em página acessível data,
+21 local, programação, inscrição e formas de atendimento.
+22 Recomenda-se organizar as etapas em ordem compreensível
+23 e conferir a navegação por teclado e a leitura assistiva.
+24 Como segunda medida, revisar convites e mensagens com
+25 linguagem direta, hierarquia de títulos e descrição textual
+26 de imagens que transmitam conteúdo informativo.
+27 Como terceira medida, preparar materiais audiovisuais
+28 com legendas e outros recursos compatíveis com as
+29 necessidades identificadas na escuta dos públicos.
+30 As medidas propostas deverão ser verificadas com usuários
+31 antes da divulgação final, considerando limites e recursos.
+32
+33 3. Acompanhamento e decisão
+34 A equipe deverá registrar a quantidade e os tipos de
+35 dúvidas encaminhadas aos canais de atendimento.
+36 Testes de localização poderão observar se participantes
+37 encontram informações essenciais e concluem as tarefas.
+38 A compreensão das instruções deverá ser avaliada também
+39 por perguntas ou tarefas específicas, não só por visualizações.
+40 Os resultados orientarão ajustes na navegação, no texto
+41 e na escolha dos canais, conforme o obstáculo confirmado.
+42 A maior circulação das peças, isoladamente, não comprova
+43 melhora de compreensão nem efeito causal das medidas.
+44 Recomenda-se revisar as ações a partir dessas observações.
 ```
 
-O título e as seções são úteis **neste exercício** porque o gênero foi definido como nota técnica. Em prova sem gênero determinado, escolher a forma conforme a finalidade. Os três encaminhamentos são sugestões plausíveis; sua adequação real depende de diagnóstico, recursos disponíveis e necessidades do público.
+**Autocorreção aplicada à grade autoral:** situação e limites nas linhas 6–12; evidências e método nas linhas 13–17; três medidas nas linhas 19–31; acompanhamento e inferência nas linhas 33–44. A primeira medida trata de acesso, a segunda de linguagem e a terceira de audiovisual. A peça distingue relatos de causas comprovadas, sem afirmar pesquisas realizadas ou resultados inexistentes.
 
-**Autocorreção do exemplo:** problema explicitado (7–10); coleta de evidências (11–13); medidas distintas (16–23); monitoramento (25–28). **Limite observado:** não define responsáveis nem prazos, que seriam essenciais **se** o comando os exigisse. Não atribuir nota formal. **Contraexemplo insuficiente:** “É fundamental fazer uma campanha moderna, inclusiva e eficaz. A equipe precisa publicar mais conteúdos nas redes sociais para divulgar o evento.” Isso não diagnostica a dificuldade, não oferece três medidas identificáveis e não prevê observação dos resultados.
+**Contraexemplo insuficiente:** “É importante fazer uma campanha moderna e inclusiva. A equipe deverá publicar vídeos e posts nas redes sociais para alcançar mais pessoas.” O trecho presume que divulgar resolverá o problema, não apresenta diagnóstico, três medidas distintas ou acompanhamento verificável.
+
+**Limite pedagógico:** o modelo não apresenta responsáveis, orçamento ou cronograma porque o comando autoral não os exige. Se o comando oficial trouxer tais quesitos, eles precisarão ocupar linhas específicas, substituindo partes menos essenciais. O texto não recebeu nota oficial. Para testar o limite de 50 linhas, copie-o à mão em folha de simulação, sem presumir equivalência entre quebras digitadas e linhas físicas.
 
 ## Contraste entre gêneros
 

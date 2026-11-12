@@ -6671,12 +6671,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
       "articleId": "art-6a72b9d104e85cf3",
-      "conceptId": "marco-sem-duracao",
-      "mechanism": "marco-sem-duracao",
+      "conceptId": "linha-de-base-do-cronograma",
+      "mechanism": "linha-de-base-do-cronograma",
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6a72b9d104e85cf3#Estrutura interna: atividade, duração, marco, prazo e dependência"
       ],
@@ -6684,9 +6684,10 @@
         "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
         "section": "Estrutura interna: atividade, duração, marco, prazo e dependência"
       },
-      "statement": "Em um cronograma, a aprovação final pode ser representada como marco sem duração, ainda que a análise que a precede ocupe dois dias.",
+      "statement": "A linha de base do cronograma é a versão aprovada que serve de referência para comparar datas planejadas e realizadas.",
       "correctAnswer": "C",
-      "explanation": "O marco registra o evento de aprovação. Os dois dias pertencem à atividade de análise."
+      "explanation": "A linha de base documenta o plano aprovado. Uma projeção corrente estima as novas datas e pode divergir da referência.",
+      "reviewEvidence": "Cotejo editorial com Estrutura interna: atividade, duração, marco, prazo e dependência do artigo 91 na base 9a0d80b6 e comparação com os casos e exercícios publicados no artigo."
     },
     {
       "id": "cam-di-predecessora-liberacao",
@@ -6703,7 +6704,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6a72b9d104e85cf3#Dependências: quatro relações usuais"
       ],
@@ -6713,7 +6714,8 @@
       },
       "statement": "Se o envio à emissora depende da conclusão da checagem, a autorização para que a checagem comece já satisfaz a precedência para o envio.",
       "correctAnswer": "E",
-      "explanation": "Numa relação término–início, o evento que libera a sucessora é o término da predecessora."
+      "explanation": "Numa relação término–início, o evento que libera a sucessora é o término da predecessora.",
+      "reviewEvidence": "Cotejo editorial com Dependências: quatro relações usuais do artigo 91 na base 9a0d80b6 e comparação com os casos e exercícios publicados no artigo."
     },
     {
       "id": "cam-di-restricao-profissional",
@@ -6730,7 +6732,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6a72b9d104e85cf3#Recursos, aprovações e controle de mudanças"
       ],
@@ -6740,7 +6742,8 @@
       },
       "statement": "Duas peças independentes requerem simultaneamente o único operador de áudio disponível. A ausência de dependência técnica entre elas não basta para confirmar que o cronograma é exequível.",
       "correctAnswer": "C",
-      "explanation": "A capacidade do recurso também limita o paralelismo. É preciso escalonar o trabalho ou ampliar a disponibilidade."
+      "explanation": "A capacidade do recurso também limita o paralelismo. É preciso escalonar o trabalho ou ampliar a disponibilidade.",
+      "reviewEvidence": "Cotejo editorial com Recursos, aprovações e controle de mudanças do artigo 91 na base 9a0d80b6 e comparação com os casos e exercícios publicados no artigo."
     },
     {
       "id": "cam-di-barras-e-dependencia",
@@ -6752,12 +6755,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
       "articleId": "art-6a72b9d104e85cf3",
-      "conceptId": "barras-e-dependencia",
-      "mechanism": "barras-e-dependencia",
+      "conceptId": "pert-e-prazo",
+      "mechanism": "pert-e-prazo",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6a72b9d104e85cf3#Gráfico de Gantt, rede de precedências e PERT"
       ],
@@ -6765,9 +6768,10 @@
         "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
         "section": "Gráfico de Gantt, rede de precedências e PERT"
       },
-      "statement": "Em um gráfico de Gantt sem setas de precedência, o fato de duas barras começarem em dias diferentes prova que o início da segunda depende do término da primeira.",
+      "statement": "Se uma etapa tem estimativas otimista, mais provável e pessimista de 2, 4 e 12 dias, a estimativa clássica de três pontos do PERT supera um prazo de 6 dias.",
       "correctAnswer": "E",
-      "explanation": "As barras mostram a programação. A diferença de datas pode decorrer de recursos, restrições externas ou conveniência, sem precedência técnica."
+      "explanation": "A fórmula pondera a estimativa mais provável por quatro. O resultado é (2 + 16 + 12) ÷ 6 = 5 dias. Essa estimativa fica abaixo do prazo, mas não garante seu cumprimento.",
+      "reviewEvidence": "Cotejo editorial com Gráfico de Gantt, rede de precedências e PERT do artigo 91 na base 9a0d80b6 e comparação com os casos e exercícios publicados no artigo."
     },
     {
       "id": "cam-di-ganho-limitado-pelo-ramo",
@@ -6784,7 +6788,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6a72b9d104e85cf3#Caminho crítico: exemplo com cálculo"
       ],
@@ -6794,7 +6798,8 @@
       },
       "statement": "Após o briefing, dois ramos independentes de 9 e 7 dias precisam terminar antes da publicação. Reduzir o ramo de 9 dias em 3 antecipa a publicação em 2 dias, mantidas as demais condições.",
       "correctAnswer": "C",
-      "explanation": "Após a redução, os ramos passam a durar 6 e 7 dias. O ramo de 7 fixa a nova data mais cedo possível."
+      "explanation": "Após a redução, os ramos passam a durar 6 e 7 dias. O ramo de 7 fixa a nova data mais cedo possível.",
+      "reviewEvidence": "Cotejo editorial com Caminho crítico: exemplo com cálculo do artigo 91 na base 9a0d80b6 e comparação com os casos e exercícios publicados no artigo."
     },
     {
       "id": "cam-di-folga-e-recurso-compartilhado",
@@ -6811,7 +6816,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6a72b9d104e85cf3#Recursos, aprovações e controle de mudanças"
       ],
@@ -6821,7 +6826,8 @@
       },
       "statement": "Uma atividade tem dois dias de folga no cálculo da rede sem restrição de recursos. Deslocá-la em um dia é suficiente para garantir a data final, mesmo que ela passe a disputar um profissional com uma atividade crítica.",
       "correctAnswer": "E",
-      "explanation": "A folga calculada pressupõe o modelo usado. Uma disputa de recurso pode atrasar uma atividade crítica e exige reprogramação."
+      "explanation": "A folga calculada pressupõe o modelo usado. Uma disputa de recurso pode atrasar uma atividade crítica e exige reprogramação.",
+      "reviewEvidence": "Cotejo editorial com Recursos, aprovações e controle de mudanças do artigo 91 na base 9a0d80b6 e comparação com os casos e exercícios publicados no artigo."
     },
     {
       "id": "cam-di-janela-fixa-de-veiculacao",
@@ -6838,7 +6844,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6a72b9d104e85cf3#Cronograma de produção versus programação de mídia"
       ],
@@ -6848,7 +6854,8 @@
       },
       "statement": "Uma peça pode ser produzida dentro do prazo interno e perder a estreia se esse prazo cair depois do fechamento do veículo.",
       "correctAnswer": "C",
-      "explanation": "O cronograma precisa ligar a entrega ao limite externo de aceitação. Cumprir a data interna não resolve a incompatibilidade entre as duas datas."
+      "explanation": "O cronograma precisa ligar a entrega ao limite externo de aceitação. Cumprir a data interna não resolve a incompatibilidade entre as duas datas.",
+      "reviewEvidence": "Cotejo editorial com Cronograma de produção versus programação de mídia do artigo 91 na base 9a0d80b6 e comparação com os casos e exercícios publicados no artigo."
     },
     {
       "id": "cam-di-convergencia-e-novo-gargalo",
@@ -6860,22 +6867,23 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 1 / cronograma",
       "articleId": "art-6a72b9d104e85cf3",
-      "conceptId": "convergencia-e-novo-gargalo",
-      "mechanism": "convergencia-e-novo-gargalo",
+      "conceptId": "compressao-paralela-com-restricao",
+      "mechanism": "compressao-paralela-com-restricao",
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-6a72b9d104e85cf3#Caminho crítico: exemplo com cálculo"
+        "article:art-6a72b9d104e85cf3#Recursos, aprovações e controle de mudanças"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias.md",
-        "section": "Caminho crítico: exemplo com cálculo"
+        "section": "Recursos, aprovações e controle de mudanças"
       },
-      "statement": "Dois ramos paralelos duram 8 e 6 dias. A revisão final dura 2 dias e começa após ambos. Encurtar o primeiro ramo em 3 dias e prolongar a revisão em 1 reduz o prazo total em 2 dias.",
+      "statement": "Após o briefing, duas trilhas independentes de 8 e 6 dias precisam terminar antes de uma revisão de 2 dias. Um especialista pode encurtar qualquer trilha em 3 dias, mas atende apenas uma delas. Se a data-limite exige conclusão em 7 dias, alocá-lo à trilha de 8 dias basta para cumprir o prazo.",
       "correctAnswer": "E",
-      "explanation": "O prazo inicial é 10 dias. Depois das mudanças, a revisão começa no dia 6 e dura 3 dias. A conclusão no dia 9 representa ganho de um dia."
+      "explanation": "Ao alocar o especialista à trilha de 8 dias, suas durações passam a 5 e 6 dias. A segunda fixa o início da revisão, que termina no dia 8. Alocá-lo à segunda preservaria a duração de 10 dias. A escolha exige combinar a restrição de recurso, a convergência e a data-limite.",
+      "reviewEvidence": "Cotejo editorial com Recursos, aprovações e controle de mudanças do artigo 91 na base 9a0d80b6 e comparação com os casos e exercícios publicados no artigo."
     },
     {
       "id": "cam-di-pre-producao",

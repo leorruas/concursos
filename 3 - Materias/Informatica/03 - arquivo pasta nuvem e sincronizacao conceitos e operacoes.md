@@ -78,7 +78,7 @@ A computação em nuvem (*cloud computing*) transfere o armazenamento físico lo
 
 ## 4. O mecanismo de sincronização e arquivos sob demanda
 
-A **sincronização** consiste em manter duas ou mais réplicas de uma estrutura de arquivos em perfeita correspondência de estado. Quando um arquivo é criado, editado ou excluído na máquina local, o cliente de sincronização (como o Microsoft OneDrive ou Google Drive) propaga essa alteração para a nuvem e para os demais dispositivos vinculados à mesma conta.
+A **sincronização** busca manter duas ou mais réplicas de uma estrutura de arquivos em **estados convergentes**. Quando um arquivo é criado, editado ou excluído na máquina local, o cliente de sincronização (como OneDrive ou Google Drive) **pode propagar a mudança** à nuvem e aos dispositivos associados, conforme conexão, permissões, resolução de conflitos, disponibilidade e política de retenção. Alterações não são necessariamente simultâneas nem infalíveis.
 
 ### Estados de arquivos em nuvem (Exemplo: OneDrive — *Files On-Demand*)
 O Cebraspe costuma explorar os ícones de status que indicam a presença física do arquivo no disco local:
@@ -109,22 +109,7 @@ stateDiagram-v2
 
 Uma das maiores pegadinhas conceituais do Cebraspe em provas de tribunais, ministérios e casas legislativas é **confundir sincronização com backup**:
 
-```
-+---------------------------------------------------------------------------------+
-|                                 ATENÇÃO MÁXIMA                                  |
-|                                                                                 |
-| SINCRONIZAÇÃO NÃO É BACKUP AUTOMÁTICO!                                          |
-|                                                                                 |
-| Se um usuário apagar um arquivo por engano na sua pasta sincronizada local,     |
-| a exclusão tende a ser sincronizada com a nuvem e outros dispositivos quando houver conexão e processamento, sujeita a filas, erros e políticas de retenção  |
-| computadores sincronizados.                                                     |
-|                                                                                 |
-| Embora ferramentas de nuvem tenham lixeira e histórico de versões, a lógica da  |
-| sincronização é a CORRESPONDÊNCIA DE ESTADO (se apaga aqui, apaga lá).          |
-| Já o BACKUP visa à PRESERVAÇÃO HISTÓRICA INDEPENDENTE contra desastres e        |
-| erros humanos, mantendo versões recuperáveis independentes; imutabilidade é um controle adicional, não requisito universal.                |
-+---------------------------------------------------------------------------------+
-```
+> **Sincronização e backup respondem a problemas distintos.** Em uma pasta sincronizada, a exclusão local pode propagar-se à nuvem e aos demais dispositivos depois que a conexão e o processamento permitirem. Atrasos, conflitos, falhas e políticas de retenção influenciam esse comportamento. Uma rotina de **backup** busca permitir recuperação de uma versão ou cópia adequada após perda, erro ou incidente. **Imutabilidade** é proteção adicional possível, não requisito universal de backup.
 
 ---
 
@@ -244,3 +229,6 @@ Um usuário quer liberar espaço no seu computador corporativo e apaga uma pasta
 **Fonte primária:** [Microsoft: Arquivos Sob Demanda no OneDrive](https://support.microsoft.com/pt-br/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows). **Relação:** [[3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes|OneDrive, disponibilidade e permissões]].
 
 **Rastreabilidade:** o Item 6 original permanece **NÃO HOMOLOGADO**, com bloqueio de seleção; esta é uma nova questão inédita independente.
+
+
+> **Implementação TI-099 (11/11/2026):** recomposto o quadro quebrado em uma explicação Markdown legível; estados de sincronização definidos como convergência condicionada, não identidade perfeita instantânea.

@@ -180,7 +180,7 @@ O edital exige linguagem simples e o Manual da Câmara. Os itens seguintes são 
 - **Item 3.** Em um botão com ícone cuja função é realizar busca, um nome acessível que descreva a ação pode ser mais útil do que a descrição meramente visual do desenho. **Certo.** Para elemento funcional, a finalidade deve ser comunicada ao usuário.
 - **Item 4.** Uma imagem puramente decorativa deve sempre receber texto alternativo extenso para satisfazer a acessibilidade. **Errado.** Conteúdo decorativo pode ser marcado de modo a não gerar descrição desnecessária para tecnologias assistivas, conforme o contexto técnico.
 
-**Remissões:** [[3 - Materias/Comunicacao/75 - linguagem simples principios processo e verificacao|Princípios e verificação]], [[3 - Materias/Comunicacao/76 - manual de linguagem simples da camara diretrizes e aplicacao|Manual de Linguagem Simples da Câmara]] e [[3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos|Produção digital acessível]]. **Verificação pendente:** cotejo integral de Lei nº 15.263/2025, WCAG, norma ABNT e exigências do Manual da Câmara.
+**Remissões:** [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|Princípios e verificação]], [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|Manual de Linguagem Simples da Câmara]] e [[3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos|Produção digital acessível]]. **Verificação pendente:** cotejo integral de Lei nº 15.263/2025, WCAG, norma ABNT e exigências do Manual da Câmara.
 
 ## Relações com outros temas
 

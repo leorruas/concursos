@@ -206,13 +206,13 @@ Em conformidade com a distinção teórica entre gêneros primários e secundár
 
 ### Questão 6
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-Embora um edital de concurso público incorpore trechos narrativos para historiar as autorizações orçamentárias e passagens descritivas para delimitar o perfil dos cargos vagos, sua finalidade sociocomunicativa impõe a predominância da sequência injuntiva/prescritiva, caracterizada pela fixação de comandos, deveres e prazos de cumprimento obrigatório.
+Um edital de concurso público pode combinar trechos expositivos, descritivos e prescritivos, preservando sua finalidade de estabelecer regras para o certame; por isso, a identificação do gênero não permite classificar automaticamente **cada trecho** como uma sequência injuntiva.
 
 - [ ] Certo
 - [ ] Errado
 
 > **Gabarito: CERTO**  
-> **Comentário**: O item aborda com rigor a relação entre o gênero e a heterogeneidade tipológica. O edital é um documento normativo que estabelece o regulamento do certame (*lei interna do concurso*). Embora apresente sequências descritivas e narrativas subordinadas, sua força ilocucionária primária é prescrever e vincular condutas da administração e dos candidatos sob pena de preclusão, configurando a predominância da sequência **injuntiva/prescritiva**.
+> **Comentário**: O item distingue a **finalidade global do gênero edital** da **tipologia de cada passagem**. Um edital estabelece condições, procedimentos e obrigações, mas pode conter descrições de cargos, exposição de critérios, tabelas e comandos. A classificação depende do trecho analisado: a finalidade normativa do documento **não obriga** a predominância injuntiva em todas as suas seções nem transforma uma descrição em instrução. O gabarito CERTO refere-se à **nova formulação inédita**, sem alegar regra geral da banca.
 
 ---
 

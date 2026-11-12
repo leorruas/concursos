@@ -14,12 +14,13 @@ updated: 2026-11-11
 
 Os artigos 03–30 contêm **168 questões originais inéditas**. **13 enunciados originais continuam NÃO HOMOLOGADOS** e não devem ser usados: 03/Q6, 05/Q5, 07/Q5, 09/Q5, 13/Q1 e Q4, 18/Q3 e Q6, 21/Q4, 22/Q2, 24/Q4, 27/Q5 e 29/Q1. Para cada um deles foi publicada uma **questão substituta inédita, identificada por Sxx-n**, no próprio artigo. As substitutas têm enunciado condicionado, gabarito e comentário revisados, com casos e fontes conforme o tema; não são questões oficiais Cebraspe nem possuem certificação externa integral.
 
-A validação de sessões do concurso Câmara possui uma barreira para **enunciados coincidentes** com esses itens, definida em `scripts/camara-ti-question-guard.js`. Esse controle **não garante impedir paráfrases nem questões apresentadas fora do fluxo de validação**, e os testes Node.js do repositório ainda precisam ser executados. Para selecionar itens diretamente das notas, conferir antes o marcador de homologação de cada questão.
+A validação de sessões do concurso Câmara possui uma barreira para **enunciados coincidentes** com esses itens, definida em `scripts/camara-ti-question-guard.js`. Esse controle **não garante impedir paráfrases nem questões apresentadas fora do fluxo de validação**, e os testes Node.js são executados no workflow de publicação. O teste `scripts/test-camara-questions.js` passou em [execução do GitHub Actions que inclui a revisão dos testes de bloqueio](https://github.com/leorruas/concursos/actions/runs/43130257528), mas a verificação não assegura proteção contra paráfrases nem contra questões exibidas fora do registro de sessões. Para selecionar itens diretamente das notas, conferir antes o marcador de homologação de cada questão.
 
 Relatório específico: [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/10 - Tecnologia da Informacao e Dados - Consolidacao de gabaritos|Consolidação de gabaritos e pendências de Informática]].
 
 ## Acompanhamento
-- [[3 - Materias/Informatica/Avancos|Avanços e desempenho]]
+
+Os registros individuais de desempenho ficam exclusivamente no repositório **privado** `leorruas/concurso-dados`, conforme `CHAT.md`. O caminho legado `Informatica/Avancos` não possui destino público e foi retirado para evitar link quebrado e exposição de informações pessoais.
 
 ## Sistemas Operacionais e Armazenamento em Nuvem
 - Windows (principais funções)

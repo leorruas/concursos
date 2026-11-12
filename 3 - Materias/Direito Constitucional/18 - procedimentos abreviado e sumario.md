@@ -120,6 +120,17 @@ O **art. 64, § 1º, da CF** permite que o **presidente da República solicite u
 
 A tabela é **distinção preliminar** para evitar confundir o art. 64 da CF com os mecanismos regimentais. O estudo exaustivo de **urgência regimental, urgentíssima, sumaríssimo e procedimentos especiais ou concentrados** será feito em **CAM-PL-010**. Nenhuma dessas hipóteses transforma o **prazo de cinco sessões para comissões urgentes** do art. 52 em **45 dias constitucionais**: são **prazos de atos e fontes distintas**.
 
+### Dois prazos de 45 dias, duas competências e consequências
+
+O número **45 dias** também aparece na **delegação legislativa** do [Regimento Comum do Congresso Nacional, art. 119, § 2º](https://legis.senado.leg.br/norma/561098/publicacao/36852069). É importante distinguir os dois procedimentos:
+
+| Situação | Fonte | O que os 45 dias medem | Se o prazo não é respeitado |
+| --- | --- | --- | --- |
+| **Projeto de lei de iniciativa presidencial com pedido de urgência** | **CF, art. 64, §§ 1º a 4º** | Prazo de **cada Casa legislativa**, sucessivamente, para se manifestar | **Sobrestamento** das demais deliberações legislativas da Casa, ressalvadas as de prazo constitucional determinado; o projeto não é aprovado tacitamente |
+| **Resolução que autoriza lei delegada** | **CF, art. 68; RCCN, arts. 119, § 2º, e 127** | Prazo máximo regimental fixado para **promulgação, publicação ou remessa** do texto elaborado pelo Presidente, nos termos da delegação | Se o ato exigido não se realiza no prazo estipulado, a delegação torna-se **insubsistente**, não havendo sobrestamento do art. 64 |
+
+**Caso C/E complementar, inédito:** “O descumprimento do prazo de 45 dias para o exercício de uma delegação legislativa acarreta o sobrestamento das deliberações da Câmara, nos mesmos termos da urgência constitucional solicitada pelo Presidente da República.” **Errado.** O RCCN, art. 127, associa a ausência do ato dentro do prazo à **insubsistência da delegação**; o sobrestamento está ligado ao procedimento de projeto de lei do art. 64, § 2º, da CF. Para o rito completo, consultar [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|lei delegada e delegação legislativa]].
+
 ## Prioridade: prazo regimental mais curto, sem transformar a proposição em rito sumário
 
 O **art. 151, II, do RICD** prevê prioridade, por exemplo, para projetos de iniciativa do **Executivo, Judiciário, Ministério Público, Mesa, comissões, Senado ou cidadãos** e para projetos voltados a regulamentar dispositivo constitucional, leis com prazo determinado, matéria eleitoral e alteração regimental, conforme o texto.

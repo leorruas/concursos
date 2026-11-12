@@ -22,6 +22,25 @@ Um problema central é mobilizar conhecimentos, capacidades e recursos que as or
 
 Esses trabalhos representam enfoques relacionados, mas não uma única classificação obrigatória. Ostrom destaca arranjos institucionais e contribuições complementares; Bovaird examina modalidades de participação na produção de serviços. **Coprodução não é categoria jurídica brasileira autônoma** e não transforma automaticamente usuários em agentes públicos.
 
+## Bovaird (2007): quem planeja e quem entrega
+
+Bovaird analisa o papel de **profissionais** e de **usuários/comunidades** em duas dimensões: **planejamento e desenho** do serviço e **execução ou entrega**. Em cada dimensão, examina se a participação está concentrada nos profissionais, é compartilhada ou ocorre predominantemente pelos usuários/comunidades. O cruzamento permite observar diferentes arranjos, desde prestação tradicional até formas mais intensas de produção conjunta. **Essa matriz analítica não é uma classificação legal brasileira, nem uma escada de poder cidadão.**
+
+| Configuração ilustrativa | Planejamento | Entrega | Questão analítica |
+| --- | --- | --- | --- |
+| Provisão profissional tradicional | Profissionais | Profissionais | Os usuários apenas recebem o serviço? |
+| Planejamento compartilhado, entrega profissional | Profissionais e usuários | Profissionais | Como as contribuições no desenho influenciam a operação? |
+| Planejamento profissional, entrega compartilhada | Profissionais | Profissionais e usuários | Quem executa tarefas e assume os custos? |
+| Coprodução mais ampla | Profissionais e usuários | Profissionais e usuários | Como se dividem decisões, trabalho, riscos e responsabilidade? |
+
+**A tabela seleciona situações para comparação, sem reproduzir todos os cruzamentos do quadro de Bovaird.** Na formulação do autor, relações regulares entre prestadores e usuários/comunidades ganham especial importância. Uma oficina ocasional pode contribuir para o codesenho, mas a intensidade e a continuidade da coprodução precisam ser demonstradas, não pressupostas. A tipologia de Bovaird inclui arranjos que servem de **comparação**, inclusive a provisão puramente profissional, que não deve ser rotulada como coprodução.
+
+**Caso progressivo de contraste:** uma equipe coleta respostas a uma enquete (consulta); depois usuários passam a revisar e decidir conjuntamente aspectos do desenho (coplanejamento); por fim participam regularmente da manutenção de um acervo, sob revisão técnica (possível coentrega e coprodução mais ampla). O aumento da colaboração não implica que os usuários adquiram poder legal sobre toda decisão nem que a coprodução seja superior em todos os contextos.
+
+**Questão inédita C/E:** “A estrutura analítica de Bovaird distingue papéis de profissionais e usuários no planejamento e na entrega; essa distribuição de tarefas não corresponde necessariamente aos degraus de redistribuição de poder descritos por Arnstein.” **Gabarito: Certo.** As duas autoras e autores respondem a objetos analíticos distintos: produção de serviços e influência política. Item autoral.
+
+**Referências complementares:** [Bovaird, artigo original e resumo](https://doi.org/10.1111/j.1540-6210.2007.00773.x); [síntese e exemplos de Bovaird, GSDRC](https://gsdrc.org/document-library/beyond-engagement-and-participation-user-and-community-coproduction-of-public-services/).
+
 ## Participação, consulta, cocriação e coprodução
 
 | Atividade | O que ocorre | O que não pode ser concluído automaticamente |

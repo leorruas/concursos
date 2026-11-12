@@ -15782,6 +15782,168 @@
       "statement": "Uma intervenção que reduz a circulação de alegações falsas pode ser considerada suficiente para a integridade da informação mesmo que também bloqueie sistematicamente conteúdo verdadeiro de interesse público.",
       "correctAnswer": "E",
       "explanation": "Integridade envolve a qualidade do ambiente informacional e o acesso a informação confiável. A perda sistemática de acesso a conteúdo verdadeiro também precisa ser avaliada."
+    },
+    {
+      "id": "cam-cs-intermediario-reinterpreta-mensagem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / fluxo em duas etapas",
+      "articleId": "art-c3b719f24a6e058d",
+      "conceptId": "intermediario-reinterpreta-mensagem",
+      "mechanism": "intermediario-reinterpreta-mensagem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c3b719f24a6e058d#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Um morador consulta uma explicação na imprensa, discute o assunto com vizinhos e adapta os exemplos ao bairro. A análise do fluxo em duas etapas pode tratar essa mediação interpessoal como parte da circulação da influência.",
+      "correctAnswer": "C",
+      "explanation": "O interlocutor não precisa repetir literalmente a mensagem. Ele pode selecionar, interpretar e contextualizar o que transmite ao grupo."
+    },
+    {
+      "id": "cam-cs-selecao-sem-alteracao-de-texto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / gatekeeping",
+      "articleId": "art-4e290c7b68d351af",
+      "conceptId": "selecao-sem-alteracao-de-texto",
+      "mechanism": "selecao-sem-alteracao-de-texto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4e290c7b68d351af#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Uma redação pode exercer gatekeeping ao escolher uma entre duas pautas concorrentes, mesmo que publique o texto escolhido sem editar suas frases.",
+      "correctAnswer": "C",
+      "explanation": "A escolha determina qual informação atravessa o ponto de seleção. Alterar a redação seria outra operação."
+    },
+    {
+      "id": "cam-cs-padronizacao-sob-variedade-aparente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / teoria crítica",
+      "articleId": "art-7ce2f05b3ad91486",
+      "conceptId": "padronizacao-sob-variedade-aparente",
+      "mechanism": "padronizacao-sob-variedade-aparente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7ce2f05b3ad91486#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Dois programas são vendidos como inteiramente distintos, mas repetem a mesma fórmula narrativa com pequenas mudanças de elenco. A noção de indústria cultural permite investigar a padronização sob essa diferenciação.",
+      "correctAnswer": "C",
+      "explanation": "A análise examina como a produção industrial repete formas e oferece variações capazes de produzir aparência de diversidade."
+    },
+    {
+      "id": "cam-cs-leitura-negociada-em-regra-local",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / estudos culturais",
+      "articleId": "art-b39da4815f7e0c26",
+      "conceptId": "leitura-negociada-em-regra-local",
+      "mechanism": "leitura-negociada-em-regra-local",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b39da4815f7e0c26#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Uma pessoa aceita a finalidade geral apresentada por uma campanha, mas rejeita a aplicação da mensagem à sua comunidade por conhecer uma exceção local. Essa leitura pode ser classificada como negociada.",
+      "correctAnswer": "C",
+      "explanation": "A leitura aceita elementos centrais da mensagem e ajusta outros à experiência situada."
+    },
+    {
+      "id": "cam-cs-mudanca-de-escala-com-conteudo-estavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / ecologia dos meios",
+      "articleId": "art-0cd74f8a2be93651",
+      "conceptId": "mudanca-de-escala-com-conteudo-estavel",
+      "mechanism": "mudanca-de-escala-com-conteudo-estavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-0cd74f8a2be93651#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Distribuir em uma transmissão ao vivo o mesmo texto que antes circulava em boletim impresso elimina a possibilidade de mudança na escala ou na velocidade da comunicação, pois o conteúdo verbal é idêntico.",
+      "correctAnswer": "E",
+      "explanation": "A análise do meio inclui as condições de circulação e interação. Preservar as palavras não preserva o ritmo nem o alcance da comunicação."
+    },
+    {
+      "id": "cam-cs-silencio-nao-prova-concordancia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / opinião pública",
+      "articleId": "art-a4d7e832b9510c6f",
+      "conceptId": "silencio-nao-prova-concordancia",
+      "mechanism": "silencio-nao-prova-concordancia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a4d7e832b9510c6f#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Em uma reunião, pessoas que discordam deixam de se manifestar por receio de isolamento. Contar apenas as falas favoráveis identifica sem viés o apoio à proposta no grupo.",
+      "correctAnswer": "E",
+      "explanation": "O clima de opinião pode afetar a disposição de falar. A distribuição das manifestações públicas pode divergir das opiniões privadas."
     }
   ]
 }

@@ -28128,6 +28128,222 @@
       "statement": "Reescrever “Como a documentação estava incompleta, a análise foi adiada” como “Se a documentação estiver incompleta, a análise será adiada” preserva a afirmação de que o adiamento já ocorreu.",
       "correctAnswer": "E",
       "explanation": "A versão inicial narra um adiamento e sua causa. A nova frase apresenta uma hipótese e a consequência futura correspondente."
+    },
+    {
+      "id": "cam-port-mudanca-no-escopo-da-negacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "mudanca-no-escopo-da-negacao",
+      "mechanism": "mudanca-no-escopo-da-negacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "A afirmação “Nem todos os pareceres receberam emendas” equivale a dizer que nenhum parecer recebeu emenda.",
+      "correctAnswer": "E",
+      "explanation": "Negar a totalidade indica que pelo menos um parecer não recebeu emenda. A frase permite que outros a tenham recebido."
+    },
+    {
+      "id": "cam-port-continuar-e-estado-anterior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "continuar-e-estado-anterior",
+      "mechanism": "continuar-e-estado-anterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "Em “A comissão continuou a receber sugestões após a audiência”, o verbo “continuou” indica que o recebimento de sugestões já ocorria antes.",
+      "correctAnswer": "C",
+      "explanation": "Continuar uma atividade pressupõe que ela estava em andamento no momento anterior relevante."
+    },
+    {
+      "id": "cam-port-previsao-e-realizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "previsao-e-realizacao",
+      "mechanism": "previsao-e-realizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "Da frase “A secretaria previa concluir a análise até sexta-feira” decorre que a análise foi concluída até essa data.",
+      "correctAnswer": "E",
+      "explanation": "A previsão informa a expectativa da secretaria. O enunciado não relata o resultado efetivo."
+    },
+    {
+      "id": "cam-port-demonstrativo-anuncia-lista",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-642578f70775bddb",
+      "conceptId": "demonstrativo-anuncia-lista",
+      "mechanism": "demonstrativo-anuncia-lista",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#2. A Arquitetura da Referenciação: Dêixis $\\times$ Endófora"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md",
+        "section": "2. A Arquitetura da Referenciação: Dêixis $\\times$ Endófora"
+      },
+      "statement": "Em “Estas serão as etapas: inscrição, sorteio e convocação”, o demonstrativo remete à enumeração que aparece depois dos dois-pontos.",
+      "correctAnswer": "C",
+      "explanation": "A referência aponta para um segmento posterior do próprio texto. Trata-se de catáfora."
+    },
+    {
+      "id": "cam-port-deitico-com-referencia-textual-inventada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-642578f70775bddb",
+      "conceptId": "deitico-com-referencia-textual-inventada",
+      "mechanism": "deitico-com-referencia-textual-inventada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#2. A Arquitetura da Referenciação: Dêixis $\\times$ Endófora"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md",
+        "section": "2. A Arquitetura da Referenciação: Dêixis $\\times$ Endófora"
+      },
+      "statement": "Em um aviso que começa com “Aqui você pode solicitar segunda via”, o termo “aqui” necessariamente retoma o nome de um lugar mencionado antes no próprio aviso.",
+      "correctAnswer": "E",
+      "explanation": "Aqui pode remeter à página ou ao local em que o destinatário recebe a mensagem. A referência pode depender da situação de comunicação."
+    },
+    {
+      "id": "cam-port-enquanto-com-contraste-entre-unidades",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "enquanto-com-contraste-entre-unidades",
+      "mechanism": "enquanto-com-contraste-entre-unidades",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "4. Conectivos Polissêmicos em Destaque no Cebraspe"
+      },
+      "statement": "Em “Enquanto a primeira versão exige cadastro, a segunda admite consulta anônima”, “enquanto” permite contrapor as condições de acesso das duas versões.",
+      "correctAnswer": "C",
+      "explanation": "O conector organiza o contraste entre exigências paralelas. A frase não depende de interpretar as ações como simultâneas."
+    },
+    {
+      "id": "cam-port-finalidade-trocada-por-consequencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "finalidade-trocada-por-consequencia",
+      "mechanism": "finalidade-trocada-por-consequencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#5. Casos Práticos na Reescrita e Interpretação"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "5. Casos Práticos na Reescrita e Interpretação"
+      },
+      "statement": "Em “A equipe adiou a publicação para que o arquivo fosse conferido”, substituir “para que” por “de modo que”, com os ajustes verbais necessários, preserva necessariamente a relação de finalidade.",
+      "correctAnswer": "E",
+      "explanation": "A construção original apresenta o objetivo do adiamento. Uma reescrita como “de modo que o arquivo foi conferido” apresenta a conferência como consequência efetiva."
+    },
+    {
+      "id": "cam-port-referente-por-categoria-superior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / Interpretação, coesão e conectores",
+      "articleId": "art-642578f70775bddb",
+      "conceptId": "referente-por-categoria-superior",
+      "mechanism": "referente-por-categoria-superior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-642578f70775bddb#4. Anáfora Encapsuladora e Anáfora Associativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md",
+        "section": "4. Anáfora Encapsuladora e Anáfora Associativa"
+      },
+      "statement": "Em “Uma pesquisadora apresentou os resultados. A especialista respondeu às perguntas”, o segundo sintagma pode retomar a pessoa apresentada na primeira frase, ainda que não repita a palavra “pesquisadora”.",
+      "correctAnswer": "C",
+      "explanation": "Uma descrição diferente pode identificar o mesmo referente quando o contexto sustenta a ligação."
     }
   ]
 }

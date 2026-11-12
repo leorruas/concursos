@@ -118,3 +118,5 @@ Total validado: 760/2.000. As onze linhas principais de Comunicação Social e a
 ## Lote 020 em elaboração
 
 Oito itens de Língua Portuguesa sobre pressuposição, inferência, referenciação, concessão e reescrita, vinculados aos artigos 14, 18 e 20. Este é o primeiro lote de expansão de conhecimentos básicos.
+
+O lote soma 16 itens redigidos. Os novos casos cobrem escopo da negação, pressuposição, previsão, catáfora, dêixis, contraste, finalidade e retomada por descrição.

@@ -31,7 +31,7 @@ const ctx = {
   fetch:async()=>({ok:true,json:async()=>provas})
 };
 vm.createContext(ctx);
-for(const name of ['02-data-home.js','08-provas.js']) vm.runInContext(fs.readFileSync(new URL('../web/'+name,import.meta.url),'utf8'),ctx);
+for(const name of ['00-route-utils.js','02-data-home.js','08-provas.js']) vm.runInContext(fs.readFileSync(new URL('../web/'+name,import.meta.url),'utf8'),ctx);
 const drenar = async()=>{for(let i=0;i<8;i++) await Promise.resolve();};
 await drenar();
 assert.equal(host.children.length,0,'Não montar antes da home estar pronta');

@@ -31881,7 +31881,7 @@
       "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / Competência para aprovar o Regulamento do Conselho (art. 8º); CI obrigatório para integração."
     },
     {
-      "id": "cam-etica-sanção-sem-atenuantes",
+      "id": "cam-etica-sancao-sem-atenuantes",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -31890,7 +31890,7 @@
       "unitId": "decoro-parlamentar",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
       "articleId": "art-5b41764164052519",
-      "conceptId": "sanção-sem-atenuantes",
+      "conceptId": "sancao-sem-atenuantes",
       "mechanism": "graduacao-da-sancao",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",

@@ -9594,6 +9594,168 @@
       "statement": "Uma campanha prevê informar um prazo antes do encerramento das inscrições. A peça só circula depois do prazo e não há aumento de inscrições. O resultado permite concluir que informar a tempo seria ineficaz.",
       "correctAnswer": "E",
       "explanation": "A intervenção executada não entregou a informação no momento necessário. O resultado não testa o mecanismo previsto para uma divulgação tempestiva."
+    },
+    {
+      "id": "cam-di-quantificar-tempo-de-tarefa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / métodos mistos",
+      "articleId": "art-8b1e6d903f42c7a5",
+      "conceptId": "quantificar-tempo-de-tarefa",
+      "mechanism": "quantificar-tempo-de-tarefa",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8b1e6d903f42c7a5#Abordagem quantitativa: definir variáveis e comparar medidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md",
+        "section": "Abordagem quantitativa: definir variáveis e comparar medidas"
+      },
+      "statement": "Registrar em segundos o tempo de execução de uma tarefa permite tratar a duração como variável quantitativa.",
+      "correctAnswer": "C",
+      "explanation": "A medida expressa uma quantidade e permite comparar tempos entre observações."
+    },
+    {
+      "id": "cam-di-populacao-de-referencia-por-periodo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / opinião pública",
+      "articleId": "art-9f3a6c218d45b7e0",
+      "conceptId": "populacao-de-referencia-por-periodo",
+      "mechanism": "populacao-de-referencia-por-periodo",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3a6c218d45b7e0#População, período e objeto: o que uma porcentagem realmente significa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md",
+        "section": "População, período e objeto: o que uma porcentagem realmente significa"
+      },
+      "statement": "Uma pesquisa delimitada a moradores da capital produz, por definição, uma estimativa para todos os moradores do estado.",
+      "correctAnswer": "E",
+      "explanation": "O universo declarado é a capital. Uma conclusão estadual exige cobertura compatível com a população do estado."
+    },
+    {
+      "id": "cam-di-imagem-como-percepcao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / imagem",
+      "articleId": "art-6f2a9c40d83e175b",
+      "conceptId": "imagem-como-percepcao",
+      "mechanism": "imagem-como-percepcao",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Da teoria à variável: o que a pesquisa realmente mede"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md",
+        "section": "Da teoria à variável: o que a pesquisa realmente mede"
+      },
+      "statement": "Em pesquisa institucional, uma avaliação de imagem expressa uma percepção do público sobre a instituição.",
+      "correctAnswer": "C",
+      "explanation": "A percepção pode ser medida por atributos, associações ou avaliações. Ela pode divergir dos atributos que a instituição procura comunicar."
+    },
+    {
+      "id": "cam-di-alcance-acumulado-com-repeticao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / mídia",
+      "articleId": "art-7d3c9e14a80b62f5",
+      "conceptId": "alcance-acumulado-com-repeticao",
+      "mechanism": "alcance-acumulado-com-repeticao",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3c9e14a80b62f5#Deduplicação e alcance entre canais"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos.md",
+        "section": "Deduplicação e alcance entre canais"
+      },
+      "statement": "Somar os totais de espectadores de dois dias mede necessariamente o público distinto do período, mesmo quando algumas pessoas assistem em ambos.",
+      "correctAnswer": "E",
+      "explanation": "O alcance acumulado conta pessoas distintas. Quem assistiu nos dois dias precisa ser contado uma vez."
+    },
+    {
+      "id": "cam-di-visualizacoes-na-mesma-visita",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / métricas de publicidade digital",
+      "articleId": "art-f2b67a4d91e803c5",
+      "conceptId": "visualizacoes-na-mesma-visita",
+      "mechanism": "visualizacoes-na-mesma-visita",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f2b67a4d91e803c5#Tráfego: clique, sessão, usuário e visualização de página"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md",
+        "section": "Tráfego: clique, sessão, usuário e visualização de página"
+      },
+      "statement": "Uma pessoa pode gerar várias visualizações de página durante uma única sessão no portal.",
+      "correctAnswer": "C",
+      "explanation": "Uma sessão reúne interações em uma visita segundo a regra de mensuração. Cada página carregada pode registrar uma visualização."
+    },
+    {
+      "id": "cam-di-efeito-incremental-definicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / métricas de publicidade digital",
+      "articleId": "art-3f6d81b2c709a4e5",
+      "conceptId": "efeito-incremental-definicao",
+      "mechanism": "efeito-incremental-definicao",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3f6d81b2c709a4e5#Atribuição, contribuição e efeito incremental"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md",
+        "section": "Atribuição, contribuição e efeito incremental"
+      },
+      "statement": "O efeito incremental de uma campanha é definido como o total bruto de resultados observados durante a veiculação.",
+      "correctAnswer": "E",
+      "explanation": "O efeito incremental é a diferença em relação ao que ocorreria sem a campanha. O total bruto inclui resultados que poderiam ocorrer independentemente dela."
     }
   ]
 }

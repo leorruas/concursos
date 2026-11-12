@@ -192,6 +192,34 @@ Passo 4: Verificação da Relação Lógica e Foco Informacional
 
 ---
 
+## 4.1. Três critérios distintos de equivalência em reescrita
+
+Para julgar reescritas, identifique **qual propriedade o enunciado exige preservar**. Correção gramatical, conteúdo proposicional e estrutura sintática são critérios diferentes.
+
+**Caso-base original:** *The editors postponed the publication because the source needed further verification.*
+
+**Variação 1, voz passiva:** *The publication was postponed by the editors because the source needed further verification.* Conserva os participantes, a causa e o tempo verbal, mas muda a voz e o foco da frase. É uma paráfrase de conteúdo, não reprodução da mesma estrutura.
+
+**Variação 2, omissão:** *The publication was postponed by the editors.* A frase é gramatical e conserva a decisão principal, mas retira a causa expressa pelo original. Se a exigência for preservação de **todo o sentido**, há perda informativa.
+
+**Variação 3, modalidade:** *The editors may postpone the publication because the source needs further verification.* Agora a decisão é somente possível e ocorre em perspectiva temporal diferente: a proposição mudou.
+
+**Item adicional A (inédito, C/E).** Variation 1 preserves the core event and its stated cause, despite changing the voice and the syntactic arrangement.
+
+**Gabarito: Certo.** A passiva mantém quem adiou, o que foi adiado e o motivo; apenas redistribui a informação na oração.
+
+**Item adicional B (inédito, C/E).** Variation 2 is a complete semantic equivalent of the original because both sentences are grammatically correct.
+
+**Gabarito: Errado.** Correção gramatical não restitui a causa omitida; as duas frases não preservam integralmente a informação.
+
+**Item adicional C (inédito, C/E).** Variation 3 maintains the original assertion that the editors actually postponed the publication.
+
+**Gabarito: Errado.** *May postpone* introduz possibilidade, enquanto *postponed* afirma uma decisão passada; a troca também altera a relação temporal.
+
+**Relação com outros artigos:** consulte [[3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles|voz passiva e foco]] para os auxiliares e [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|modalização]] para a força assertiva. Este exercício é autoral e não reproduz item oficial.
+
+---
+
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**

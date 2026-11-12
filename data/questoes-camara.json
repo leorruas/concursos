@@ -7556,6 +7556,276 @@
       "correctAnswer": "E",
       "explanation": "A segunda região não representa ausência de exposição. Para interpretar a diferença causalmente é preciso, entre outros pressupostos, conhecer a contaminação e a comparabilidade das tendências.",
       "reviewEvidence": "Cotejo editorial com Causalidade: monitorar, estimar e atribuir do artigo 94 na base 9a0d80b6 e comparação com os exercícios do artigo. Lote 001: cotejo dos mecanismos com os exercícios dos artigos de referência, triagem lexical no banco e nos itens numerados do catálogo e teste de contrato de sessão v3."
+    },
+    {
+      "id": "cam-di-custo-nao-monetario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / conceitos",
+      "articleId": "art-45d8f190ac2e673b",
+      "conceptId": "custo-nao-monetario",
+      "mechanism": "custo-nao-monetario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-45d8f190ac2e673b#Valor percebido: benefício, custo e utilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos.md",
+        "section": "Valor percebido: benefício, custo e utilidade"
+      },
+      "statement": "Mesmo com entrada gratuita em duas exposições, a distância até o local pode reduzir o valor percebido de uma delas para um visitante.",
+      "correctAnswer": "C",
+      "explanation": "O valor percebido considera benefícios e custos percebidos, como deslocamento e tempo. Preço zero elimina apenas o desembolso pela entrada."
+    },
+    {
+      "id": "cam-di-satisfacao-e-expectativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / conceitos",
+      "articleId": "art-45d8f190ac2e673b",
+      "conceptId": "satisfacao-e-expectativa",
+      "mechanism": "satisfacao-e-expectativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-45d8f190ac2e673b#Satisfação, expectativa, qualidade e lealdade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos.md",
+        "section": "Satisfação, expectativa, qualidade e lealdade"
+      },
+      "statement": "Dois visitantes avaliam a qualidade percebida de uma exposição com a mesma nota. O visitante que esperava uma experiência melhor necessariamente fica tão satisfeito quanto o outro.",
+      "correctAnswer": "E",
+      "explanation": "A satisfação depende da comparação com expectativas. A mesma qualidade percebida pode confirmar uma expectativa e frustrar outra."
+    },
+    {
+      "id": "cam-di-ansoff-oferta-nova-mercado-atual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / planejamento",
+      "articleId": "art-1c9e5b7a32d0648f",
+      "conceptId": "ansoff-oferta-nova-mercado-atual",
+      "mechanism": "ansoff-oferta-nova-mercado-atual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1c9e5b7a32d0648f#Matriz de Ansoff: produto e mercado, existentes e novos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes.md",
+        "section": "Matriz de Ansoff: produto e mercado, existentes e novos"
+      },
+      "statement": "Se uma editora cria um audiolivro que constitui uma nova oferta e o comercializa exclusivamente junto aos seus clientes atuais, a combinação é compatível com desenvolvimento de produto na matriz de Ansoff.",
+      "correctAnswer": "C",
+      "explanation": "A oferta é nova e o mercado permanece o atual. Desenvolvimento de mercado corresponderia a levar oferta existente a outro mercado."
+    },
+    {
+      "id": "cam-di-bcg-comparacao-lider",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / planejamento",
+      "articleId": "art-1c9e5b7a32d0648f",
+      "conceptId": "bcg-comparacao-lider",
+      "mechanism": "bcg-comparacao-lider",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1c9e5b7a32d0648f#BCG: participação relativa e crescimento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes.md",
+        "section": "BCG: participação relativa e crescimento"
+      },
+      "statement": "Em mercado de alto crescimento, uma unidade com participação de 15% diante de uma líder com 45% tem alta participação relativa por alcançar mais de um décimo das vendas totais.",
+      "correctAnswer": "E",
+      "explanation": "A participação relativa é 15/45, ou um terço da líder. A porcentagem do mercado total não substitui a comparação com a concorrente."
+    },
+    {
+      "id": "cam-di-efeito-imediato-e-reputacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing institucional",
+      "articleId": "art-83c4a6e90b127f5d",
+      "conceptId": "efeito-imediato-e-reputacao",
+      "mechanism": "efeito-imediato-e-reputacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-83c4a6e90b127f5d#Identidade, imagem, reputação e legitimidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/97 - marketing institucional no setor publico valor legitimidade e limites.md",
+        "section": "Identidade, imagem, reputação e legitimidade"
+      },
+      "statement": "Uma pesquisa realizada logo após um evento e voltada à percepção dos visitantes naquele dia basta para medir a reputação acumulada da instituição ao longo dos anos.",
+      "correctAnswer": "E",
+      "explanation": "A medida pontual descreve a imagem entre os entrevistados naquele momento. Avaliar reputação acumulada exige evidência sobre percepções formadas ao longo do tempo."
+    },
+    {
+      "id": "cam-di-uso-e-valor-publico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing institucional",
+      "articleId": "art-83c4a6e90b127f5d",
+      "conceptId": "uso-e-valor-publico",
+      "mechanism": "uso-e-valor-publico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-83c4a6e90b127f5d#Direito à informação, transparência e valor público"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/97 - marketing institucional no setor publico valor legitimidade e limites.md",
+        "section": "Direito à informação, transparência e valor público"
+      },
+      "statement": "Se dois canais publicam os mesmos relatórios e o segundo oferece busca que ajuda os cidadãos a localizar informações relevantes, o segundo pode gerar valor público adicional mesmo sem aumentar o número de relatórios publicados.",
+      "correctAnswer": "C",
+      "explanation": "A disponibilidade documental permanece igual, mas a redução do esforço para localizar e utilizar a informação pode melhorar o acesso efetivo."
+    },
+    {
+      "id": "cam-di-comunicado-interno-isolado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / endomarketing",
+      "articleId": "art-5a7d1ec093b42f68",
+      "conceptId": "comunicado-interno-isolado",
+      "mechanism": "comunicado-interno-isolado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5a7d1ec093b42f68#Fronteiras entre conceitos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md",
+        "section": "Fronteiras entre conceitos"
+      },
+      "statement": "O envio isolado de um aviso interno sobre manutenção predial demonstra, por si, a existência de um programa de endomarketing.",
+      "correctAnswer": "E",
+      "explanation": "O aviso cumpre uma função informativa. A existência de programa exigiria evidência de ações articuladas com objetivos voltados ao público interno."
+    },
+    {
+      "id": "cam-di-coerencia-entre-incentivos-e-mensagem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / endomarketing",
+      "articleId": "art-5a7d1ec093b42f68",
+      "conceptId": "coerencia-entre-incentivos-e-mensagem",
+      "mechanism": "coerencia-entre-incentivos-e-mensagem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5a7d1ec093b42f68#Comunicação e cultura"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md",
+        "section": "Comunicação e cultura"
+      },
+      "statement": "Uma campanha interna que incentiva a cooperação entre áreas pode perder credibilidade se a avaliação dos empregados premiar apenas resultados individuais obtidos em competição com colegas.",
+      "correctAnswer": "C",
+      "explanation": "Mensagens e incentivos passam sinais divergentes sobre a conduta esperada. A adesão depende também de práticas de gestão percebidas pelos empregados."
+    },
+    {
+      "id": "cam-di-influencia-sem-autoridade-de-compra",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / segmentação",
+      "articleId": "art-b7e30f4c9a261d85",
+      "conceptId": "influencia-sem-autoridade-de-compra",
+      "mechanism": "influencia-sem-autoridade-de-compra",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b7e30f4c9a261d85#Centro de compras e papéis decisórios"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao.md",
+        "section": "Centro de compras e papéis decisórios"
+      },
+      "statement": "Quem define os requisitos técnicos de um equipamento pode atuar como influenciador da compra organizacional mesmo sem autoridade para aprovar a aquisição.",
+      "correctAnswer": "C",
+      "explanation": "Definir requisitos afeta as alternativas consideradas. A aprovação pode permanecer com outro integrante do centro de compras."
+    },
+    {
+      "id": "cam-di-demanda-e-capacidade-de-atendimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / segmentação",
+      "articleId": "art-b7e30f4c9a261d85",
+      "conceptId": "demanda-e-capacidade-de-atendimento",
+      "mechanism": "demanda-e-capacidade-de-atendimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b7e30f4c9a261d85#Atratividade versus capacidade de atender"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao.md",
+        "section": "Atratividade versus capacidade de atender"
+      },
+      "statement": "Ao escolher um segmento para atendimento imediato, o alto volume de demanda torna dispensável verificar se a organização dispõe de capacidade para prestar o serviço requerido.",
+      "correctAnswer": "E",
+      "explanation": "A demanda informa a atratividade. A capacidade de atender é um critério distinto e pode impedir a escolha para atendimento imediato."
     }
   ]
 }

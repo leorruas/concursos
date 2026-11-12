@@ -233,3 +233,24 @@ Para evitar simplificações exageradas em prova, cabe destacar duas abordagens 
 > **Revisão técnica (11/11/2026):** corrigidos limites do $R^2$, distinção entre objetivos autossupervisionados e linguagem absoluta sobre métricas. O exemplo de 99% de acurácia em dados desbalanceados continua ilustrativo. Questões inéditas não equivalem a itens oficiais da banca.
 
 > **Auditoria de questões C/E, segunda passagem (11/11/2026):** Q1–Q6 cotejadas quanto à consistência interna com as definições do artigo. **Gabaritos preservados (C, E, E, C, E, C)**; comentários de PCA e aprendizagem semissupervisionada qualificados. Revisão conceitual dirigida, sem certificação por corpus de questões reais Cebraspe.
+
+---
+
+## Caso progressivo: sensibilidade, especificidade e taxa-base
+
+Uma equipe usa um classificador para sinalizar documentos com possível problema em um acervo de **10.000 registros**. Este é um exemplo **hipotético de cálculo**, não um dado sobre a Câmara.
+
+- Há **100 casos realmente positivos (1%)** e 9.900 negativos.
+- O classificador tem **sensibilidade de 90%**: identifica corretamente 90 positivos (**VP**) e deixa passar 10 (**FN**).
+- Tem **especificidade de 95%**: classifica corretamente 9.405 negativos (**VN**) e sinaliza incorretamente 495 (**FP**).
+- A **precisão** dos alertas, ou valor preditivo positivo, é `VP/(VP+FP)=90/(90+495)=90/585≈15,38%`.
+
+Uma sensibilidade de 90% e especificidade de 95% **não** significam que 90% ou 95% dos alertas sejam verdadeiros. Como casos positivos são raros, um número relativamente pequeno de erros entre os muitos negativos produz **mais falsos alertas do que acertos**. Para decidir se um órgão deve adotar o sistema, também é necessário examinar custos de falsos positivos, falsos negativos, impacto sobre pessoas e procedimento de revisão.
+
+**Caso com única variável alterada:** mantendo os mesmos parâmetros do modelo, se a prevalência fosse maior, a precisão dos alertas também poderia aumentar. Portanto, desempenho de um classificador **depende da população em que é aplicado**, e métricas isoladas podem induzir a erro.
+
+> **Questão inédita C/E:** Em uma população com apenas 1% de casos positivos, um classificador com 90% de sensibilidade e 95% de especificidade terá obrigatoriamente 95% dos alertas positivos corretos.
+
+**Gabarito: ERRADO.** Neste exemplo, a precisão é aproximadamente **15,38%**. A confusão decisiva é entre **especificidade**, calculada entre negativos reais, e **precisão**, calculada entre alertas positivos.
+
+**Relações:** [[3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana|Vieses e supervisão humana]]; [[3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica|Denominador, população e indicador]].

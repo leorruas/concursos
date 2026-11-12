@@ -45,4 +45,4 @@ Diferente dos direitos individuais (que exigem em regra uma abstenção do Estad
 
 ---
 **Fontes Brutas:**
-- [[11-06-2026|Inbox - 02-06-2026]]
+

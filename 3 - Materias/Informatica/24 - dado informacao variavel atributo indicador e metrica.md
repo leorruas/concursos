@@ -215,3 +215,19 @@ Um indicador consistente no setor público e no plano estratégico da Câmara do
 **Relações:** [[3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade|Qualidade de dados]] e [[3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica|Pergunta analítica e seleção de gráfico]].
 
 **Rastreabilidade:** Questão 4 original permanece **NÃO HOMOLOGADA**.
+
+---
+
+## Caso transversal: da pergunta ao denominador
+
+Uma instituição quer comunicar a evolução do tempo de resposta às solicitações. Antes de construir qualquer gráfico, defina: **(1)** qual serviço está sendo avaliado; **(2)** qual é a unidade de análise (solicitação, cidadão ou atendimento); **(3)** qual período e população entram; **(4)** como se mede tempo; **(5)** quais registros incompletos foram excluídos; **(6)** qual critério define melhora.
+
+**Exemplo hipotético:** em outubro ocorreram 120 solicitações, mas somente 90 têm horário de abertura e de resposta válido. A média de tempo calculada sobre as 90 solicitações representa o conjunto **observado com dados completos**, não automaticamente todas as 120. Para divulgar “média de outubro”, é preciso informar cobertura e avaliar se os 30 casos sem medição podem produzir viés.
+
+**Mudança de denominador:** uma taxa de solução de **72/90=80%** entre os casos completos não é a mesma coisa que **72/120=60%** sobre todas as solicitações recebidas. O indicador tem que dizer claramente **qual denominador responde à pergunta**. Caso contrário, as duas porcentagens parecem contraditórias sem que as contas estejam erradas.
+
+> **Questão inédita C/E:** Dois relatórios podem apresentar taxas diferentes para o mesmo serviço e período, mesmo com numerador idêntico, se utilizarem populações de referência diferentes; a interpretação depende de explicitar os denominadores.
+
+**Gabarito: CERTO.** Uma taxa é uma relação entre contagem e universo definido. **Fronteira:** percentual correto matematicamente ainda pode ser inadequado para a pergunta de gestão.
+
+**Relação:** [[3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade|Completude e ausência de dados]]; [[3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica|Escolha do gráfico]].

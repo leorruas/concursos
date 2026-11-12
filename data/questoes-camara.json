@@ -15066,6 +15066,122 @@
       "statement": "A Lei nº 12.232/2010 exige que a checagem de veiculação seja feita por empresa independente mesmo quando isso seja comprovadamente impossível.",
       "correctAnswer": "E",
       "explanation": "A independência da empresa é exigida sempre que possível. Isso não elimina os outros documentos de comprovação da despesa."
+    },
+    {
+      "id": "cam-di-anexo-e-normas-gerais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "anexo-e-normas-gerais",
+      "mechanism": "anexo-e-normas-gerais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 44 a 50: categorias, responsabilidades e medidas",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 44"
+      },
+      "statement": "Um anúncio de serviço educacional que satisfaz o anexo setorial fica dispensado de cumprir as normas gerais do Código do CONAR.",
+      "correctAnswer": "E",
+      "explanation": "As normas específicas são adicionais. A avaliação combina o anexo pertinente e a parte geral."
+    },
+    {
+      "id": "cam-di-agencia-e-responsabilidade-solidaria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "agencia-e-responsabilidade-solidaria",
+      "mechanism": "agencia-e-responsabilidade-solidaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 44 a 50: categorias, responsabilidades e medidas",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 45, item 2"
+      },
+      "statement": "Se o anunciante aprova o texto elaborado pela agência, a aprovação extingue a responsabilidade da agência pela observância do Código do CONAR.",
+      "correctAnswer": "E",
+      "explanation": "A agência responde solidariamente pela observância dos preceitos do Código. A aprovação do cliente não afasta essa responsabilidade."
+    },
+    {
+      "id": "cam-di-recusa-editorial-pelo-veiculo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "recusa-editorial-pelo-veiculo",
+      "mechanism": "recusa-editorial-pelo-veiculo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 44 a 50: categorias, responsabilidades e medidas",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 45, item 3, c.2"
+      },
+      "statement": "O veículo pode recusar anúncio incompatível com sua linha de programação, ainda que a incompatibilidade não tenha sido examinada pelo CONAR.",
+      "correctAnswer": "C",
+      "explanation": "O Código admite a recusa pelo próprio veículo com base em sua linha editorial, jornalística ou de programação."
+    },
+    {
+      "id": "cam-di-controle-reforcado-sem-agencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "controle-reforcado-sem-agencia",
+      "mechanism": "controle-reforcado-sem-agencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 44 a 50: categorias, responsabilidades e medidas",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 45, item 4"
+      },
+      "statement": "Na recepção de um anúncio encaminhado diretamente pelo anunciante, o Código orienta que o controle do veículo adote mais precauções.",
+      "correctAnswer": "C",
+      "explanation": "A orientação leva em conta que a peça não passou pela intermediação de uma agência."
     }
   ]
 }

@@ -14,9 +14,9 @@ tags:
 
 # Comparativos, Quantificadores e Delimitadores de Escopo em Inglês
 
-Nas provas de Língua Inglesa do Cebraspe para carreiras de nível superior (como o cargo de Analista Legislativo da Câmara dos Deputados), as questões que envolvem **estruturas comparativas**, **graus de adjetivos e advérbios** e **quantificadores nominais** representam um dos mecanismos mais refinados para a formulação de itens de alta discriminação. Em vez de avaliar meras regras morfológicas de sufixação (*-er / -est* vs. *more / most*), a banca investiga a **amplitude do escopo informacional**, a **rigidez dos quantificadores lógicos** e a **manutenção da equivalência proporcional** em processos de paráfrase e reescrita textual.
+A leitura de **estruturas comparativas**, **graus de adjetivos e advérbios** e **quantificadores nominais** permite identificar alterações de significado que regras isoladas de morfologia (*-er/-est* e *more/most*) não resolvem. É útil testar a abrangência de cada quantificador, a direção dos comparativos e a manutenção das relações em paráfrases. Não há amostra neste artigo que permita ranquear a frequência ou dificuldade desses itens na banca.
 
-Os distratores do Cebraspe nesse domínio fundamentam-se prioritariamente em três desvios sistemáticos:
+Três alterações semânticas que podem produzir distratores nesse domínio são:
 1. **Transposição indevida de quantificadores existenciais ou parciais para quantificadores universais absolutos** (converter *some / many / most* em *all / every / any*);
 2. **Subversão da polaridade em quantificadores contáveis e incontáveis de escopo negativo ou positivo** (o contraste crítico entre *few* e *a few*, e entre *little* e *a little*);
 3. **Inversão da proporção em estruturas correlativas comparativas** (*the more..., the more...* vs. *the more..., the less...*).

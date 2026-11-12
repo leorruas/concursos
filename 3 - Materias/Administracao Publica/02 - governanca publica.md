@@ -60,6 +60,30 @@ O Decreto nº 9.203/2017 define valor público como produtos e resultados gerado
 
 Portanto, gerar valor público não é simplesmente “economizar recursos” nem “ter lucro”. Eficiência pode contribuir, mas o foco está na resposta útil às necessidades públicas e nos resultados entregues à sociedade.
 
+## Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)
+
+**Problema:** uma política pode ser tecnicamente executável, mas não responder a uma necessidade coletiva; outra pode parecer útil, mas carecer de legitimidade, competência ou recursos. O **triângulo estratégico de Mark H. Moore**, de *Creating Public Value* (1995), relaciona três perguntas:
+
+| Dimensão | Pergunta de gestão pública | Risco |
+| --- | --- | --- |
+| **Valor público** | Que benefício público deve ser gerado, por quê e para quem? | Entregar produtos irrelevantes ou sem equidade |
+| **Legitimidade e apoio** | Qual autoridade e apoio social, político, jurídico ou financeiro sustentam a decisão? | Agir sem base legítima ou sustentação |
+| **Capacidade operacional** | Quais recursos, processos, equipes e relações permitem a execução? | Prometer benefícios sem condições de entrega |
+
+O triângulo constitui **modelo teórico de estratégia pública**, não os três mecanismos literais do **Decreto 9.203/2017**: este enumera **liderança, estratégia e controle**. As categorias não são intercambiáveis. A **percepção do cidadão** pode ajudar a identificar valor, mas satisfação dos respondentes não basta para comprovar legalidade, equidade, proteção de direitos ou resultado para toda a sociedade. Uma medida pode beneficiar um grupo atendido e prejudicar injustificadamente outro.
+
+**Caso progressivo:** (1) órgão legislativo identifica barreiras de acesso à informação: define benefício público; (2) verifica competência, regras de transparência e orçamento: analisa legitimidade e apoio; (3) analisa capacidade técnica de tornar documentos acessíveis: verifica condições operacionais; (4) testa se pessoas com necessidades distintas conseguem encontrar e compreender informações: produz evidências de resultado; (5) revê a solução quando identifica exclusão: realinha valor pretendido, autorização e capacidade. **Contraexemplo:** supor que 95% de satisfação de usuários que possuem conexão rápida prova acesso equitativo para toda a população.
+
+**Questões inéditas C/E:**
+
+**1.** O triângulo estratégico de Mark Moore articula valor público pretendido, legitimidade e apoio, e capacidade operacional para produzir os resultados. **Gabarito: Certo.** São as três questões centrais do modelo.
+
+**2.** O triângulo de Moore reproduz literalmente os mecanismos liderança, estratégia e controle previstos no Decreto 9.203/2017. **Gabarito: Errado.** Os mecanismos normativos e os eixos acadêmicos são diferentes.
+
+**3.** Avaliação positiva de satisfação por usuários de um serviço comprova, sozinha, a criação de valor público para todos os grupos afetados. **Gabarito: Errado.** É necessário examinar direitos, distribuição de benefícios, resultados e exclusões.
+
+Questões **autorais**, não retiradas de provas Cebraspe. **Fontes acadêmicas:** [Moore, *On Creating Public Value*, Harvard Kennedy School](https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/programs/cri/files/workingpaper_3_moore_khagram.pdf); [Moore, *Recognizing Public Value*](https://www.hks.harvard.edu/publications/recognizing-public-value); [Moore, artigo de 2021](https://www.hks.harvard.edu/publications/creating-public-value-core-idea-strategic-management-government).
+
 ## Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação
 
 **Problema:** um serviço pode cumprir metas de produtividade e entregar produtos sem resolver a necessidade pública. Para verificar a relação entre meios, entregas e valor, é útil construir uma **cadeia lógica**. O detalhamento metodológico completo já está em [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|Teoria da mudança]] e [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas|Monitoramento e avaliação]]; esta seção acrescenta a pergunta específica da governança: **qual benefício público, para quem, sob quais condições e com que responsabilidades?**

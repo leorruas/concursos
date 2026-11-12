@@ -116,7 +116,7 @@ flowchart TD
     
     B --> B1["Who = sujeito; Whom = objeto (preposicionado: 'to whom')"]
     C --> C1["Restritiva: 'The bill which was passed...'"]
-    C --> C2["Sentential Which (com vírgula): retoma a oração inteira anterior"]
+    C --> C2["Não restritiva: pode retomar nome ou oração; verificar contexto"]
     D --> D1["Proibido usar THAT após vírgula (oração explicativa) ou preposição"]
 
     classDef raiz fill:#fff8e7,stroke:#d4a373,color:#2b2b2b,stroke-width:2px;
@@ -130,11 +130,11 @@ flowchart TD
 
 ### 5.1. O *Sentential WHICH* (Oração Relativa Proposicional)
 
-Esta é uma das questões mais clássicas do Cebraspe em provas de nível superior:
+Esta é uma distinção importante para compreender referências em textos de prova:
 
-* Quando ***which*** vem após vírgula e introduz comentário sobre o acontecimento anterior, pode retomar **a proposição inteira**; também pode retomar um **nome ou sintagma nominal**. A distinção decorre do sentido da oração relativa e da compatibilidade com cada antecedente, não apenas da vírgula. Compare *The report, which was approved yesterday, is final* (retoma *report*) e *The committee rejected the report, which surprised the chair* (o fato da rejeição causa surpresa). No exemplo seguinte, o pronome retoma a ação ou situação descrita na oração principal**:
+* Quando ***which*** vem após vírgula e introduz comentário sobre o acontecimento anterior, pode retomar **a proposição inteira**; também pode retomar um **nome ou sintagma nominal**. A distinção decorre do sentido da oração relativa e da compatibilidade com cada antecedente, não apenas da vírgula. Compare *The report, which was approved yesterday, is final* (retoma *report*) e *The committee rejected the report, which surprised the chair* (o fato da rejeição causa surpresa). No exemplo seguinte, o pronome retoma a ação ou situação descrita na oração principal:
   * *"The president vetoed the tax reform, **which** surprised the party leaders."*
-  * **Pergunta do Cebraspe:** *"In the sentence above, the word 'which' refers to 'the tax reform'"*.
+  * **Item hipotético de treino:** *"In the sentence above, the word 'which' refers to 'the tax reform'"*.
   * **Gabarito:** **ERRADO**. O que surpreendeu os líderes partidários não foi *"a reforma tributária"* em si, mas sim **o ato de o presidente ter vetado a reforma tributária** (*the fact that the president vetoed the tax reform*).
 
 ### 5.2. A regra proibitiva de *THAT* após vírgula ou preposição

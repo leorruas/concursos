@@ -37591,6 +37591,118 @@
       "correctAnswer": "C",
       "explanation": "O art. 166-A da Constituição admite transferência especial independentemente de convênio, mas impõe regras de destinação e vedações, sem afastar controle e transparência.",
       "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 024. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas parlamentares: individuais, bancadas e comissões'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-025-transferencia-especial-capital",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "transferencia-especial-minimo-capital",
+      "mechanism": "aplicar-piso-constitucional",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Transferência especial × finalidade definida"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Transferência especial × finalidade definida"
+      },
+      "statement": "Em transferência especial decorrente de emenda individual impositiva, o ente beneficiário pode destinar 60% dos recursos a despesas correntes, desde que não utilize valores para pessoal nem serviço da dívida.",
+      "correctAnswer": "E",
+      "explanation": "O art. 166-A, § 5º, da Constituição exige que pelo menos 70% dos recursos de transferência especial sejam aplicados em despesas de capital; a vedação de pessoal e dívida não afasta esse piso.",
+      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 025. Artigo canônico art-715e2d16a93446cb, seção literal 'Transferência especial × finalidade definida'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-026-transferencia-finalidade-programacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "transferencia-finalidade-definida",
+      "mechanism": "identificar-destinacao-programatica",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Transferência especial × finalidade definida"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Transferência especial × finalidade definida"
+      },
+      "statement": "Na transferência com finalidade definida prevista no art. 166-A da Constituição, os recursos devem ser aplicados nas áreas de competência constitucional da União e vinculados à programação estabelecida na emenda parlamentar.",
+      "correctAnswer": "C",
+      "explanation": "O art. 166-A, § 4º, estabelece esses requisitos para transferências com finalidade definida, diferentemente da modalidade especial.",
+      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 026. Artigo canônico art-715e2d16a93446cb, seção literal 'Transferência especial × finalidade definida'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-027-emenda-comissao-ata",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "emenda-comissao-deliberacao",
+      "mechanism": "separar-aprovacao-e-indicacao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Indicação de emendas de comissão: regra permanente e rito de cada exercício"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Indicação de emendas de comissão: regra permanente e rito de cada exercício"
+      },
+      "statement": "A aprovação de emenda de comissão no projeto de LOA dispensa a deliberação posterior sobre indicações de beneficiários, pois a indicação é considerada automaticamente concluída com a aprovação da lei.",
+      "correctAnswer": "E",
+      "explanation": "A LC nº 210/2024, art. 5º, prevê procedimento de deliberação e registro das indicações após a publicação da LOA. Aprovação da emenda e indicação do beneficiário são etapas distintas.",
+      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 027. Artigo canônico art-715e2d16a93446cb, seção literal 'Indicação de emendas de comissão: regra permanente e rito de cada exercício'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-028-emenda-comissao-prazo-ata",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-715e2d16a93446cb",
+      "conceptId": "emenda-comissao-ata-publicada",
+      "mechanism": "distinguir-deliberacao-e-publicidade",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Indicação de emendas de comissão: regra permanente e rito de cada exercício"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+        "section": "Indicação de emendas de comissão: regra permanente e rito de cada exercício"
+      },
+      "statement": "Conforme o procedimento do art. 5º da Lei Complementar nº 210/2024, as indicações de emendas de comissão aprovadas devem constar de atas publicadas e encaminhadas aos órgãos executores, observados os prazos legais.",
+      "correctAnswer": "C",
+      "explanation": "O art. 5º da LC nº 210/2024 exige registro, publicação e encaminhamento das atas das indicações aprovadas; a aprovação do orçamento não substitui essas formalidades.",
+      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 028. Artigo canônico art-715e2d16a93446cb, seção literal 'Indicação de emendas de comissão: regra permanente e rito de cada exercício'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
     }
   ]
 }

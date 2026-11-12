@@ -14428,6 +14428,122 @@
       "statement": "Um relatório independente de checagem de veiculação substitui, por si só, a documentação sobre valores devidos ao veículo e descontos negociados.",
       "correctAnswer": "E",
       "explanation": "A checagem verifica a veiculação. O caput também exige documentação dos valores, preços, descontos e pedidos de inserção."
+    },
+    {
+      "id": "cam-di-comparacao-com-niveis-de-preco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "comparacao-com-niveis-de-preco",
+      "mechanism": "comparacao-com-niveis-de-preco",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 28 a 32: identificação, publieditorial e comparação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 28 a 32: identificação, publieditorial e comparação",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 32, item 8"
+      },
+      "statement": "Um anúncio compara dois aparelhos de faixas de preço diferentes. Usar o mesmo protocolo de teste dispensa indicar claramente a diferença de nível de preço.",
+      "correctAnswer": "E",
+      "explanation": "A objetividade do ensaio atende a um critério. A diferença de faixa de preço precisa ser indicada separadamente."
+    },
+    {
+      "id": "cam-di-comparacao-historica-qualificada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "comparacao-historica-qualificada",
+      "mechanism": "comparacao-historica-qualificada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 28 a 32: identificação, publieditorial e comparação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 28 a 32: identificação, publieditorial e comparação",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 32, item 4"
+      },
+      "statement": "Um anúncio que caracteriza expressamente a comparação entre bens de consumo de anos distintos como demonstração de evolução pode enquadrar-se na exceção à regra do mesmo ano.",
+      "correctAnswer": "C",
+      "explanation": "A exceção exige que o caráter evolutivo seja indicado. Os demais critérios de comparação continuam aplicáveis."
+    },
+    {
+      "id": "cam-di-alegacao-ambiental-limitada-a-embalagem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "alegacao-ambiental-limitada-a-embalagem",
+      "mechanism": "alegacao-ambiental-limitada-a-embalagem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 36-B, itens 2 e 3"
+      },
+      "statement": "Comprovar a redução de material em uma embalagem sustenta, por si, a afirmação genérica de que todo o produto tem menor impacto ambiental durante seu ciclo de vida.",
+      "correctAnswer": "E",
+      "explanation": "A prova cobre um atributo específico da embalagem. A alegação precisa qualificar seu alcance ou apresentar evidência robusta para a abrangência anunciada."
+    },
+    {
+      "id": "cam-di-cuidado-essencial-no-uso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "cuidado-essencial-no-uso",
+      "mechanism": "cuidado-essencial-no-uso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 33, item 3"
+      },
+      "statement": "Se o uso seguro de um equipamento depende de ventilação especial, omitir esse cuidado essencial em seu anúncio pode contrariar o Código do CONAR.",
+      "correctAnswer": "C",
+      "explanation": "O Código condena a omissão de cuidados especiais de prevenção quando são essenciais para o uso do produto."
     }
   ]
 }

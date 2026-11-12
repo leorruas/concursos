@@ -199,8 +199,8 @@ A governança corporativa de dados (conforme o framework *DAMA-DMBOK - Data Mana
 1. **DAMA INTERNATIONAL.** *DAMA-DMBOK: Data Management Body of Knowledge.* 2nd ed. Technics Publications, 2017.
 2. **KIMBALL, Ralph; CASERTA, Joe.** *The Data Warehouse ETL Toolkit: Practical Techniques for Extracting, Cleaning, Conforming, and Delivering Data.* Wiley, 2004.
 3. **WICKHAM, Hadley.** *Tidy Data.* Journal of Statistical Software, 59(10), 2014.
-4. **BRASIL. Tribunal de Contas da União.** *Orientações para Governança e Gestão de Dados Públicos.* Brasília: TCU, 2022.
-5. **CÂMARA DOS DEPUTADOS.** *Manual de Abertura e Qualidade de Dados Legislativos.* Brasília: Centro de Informática (Cenin), 2023.
+4. **TRIBUNAL DE CONTAS DA UNIÃO.** [*Governança e gestão de dados governamentais*, Lista de Alto Risco da Administração Pública](https://sites.tcu.gov.br/listadealtorisco/governanca_e_gestao_de_dados_governamentais.html). Fonte institucional sobre problemas de qualidade, integração, disponibilidade e compartilhamento de dados.
+5. **CÂMARA DOS DEPUTADOS.** [*Dados Abertos: documentação da API REST e conjuntos disponíveis*](https://dadosabertos.camara.leg.br/swagger/api.html). Fonte institucional verificável para exemplos de deputados, proposições, votações e despesas. **Não foi localizada fonte institucional que confirme o título do suposto “Manual de Abertura e Qualidade de Dados Legislativos” de 2023; não citá-lo como publicação existente sem comprovação.**
 
 > **Revisão editorial (11/11/2026):** correções dirigidas às ressalvas da auditoria da Câmara, preservando as distinções técnicas e evitando universalizar heurísticas. Questões inéditas ainda não homologadas como questões oficiais da banca.
 

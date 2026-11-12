@@ -5,7 +5,7 @@ title: "Comunicação organizacional: escopo e dimensões em Kunsch"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Comunicação organizacional: escopo e dimensões em Kunsch
@@ -159,6 +159,16 @@ Perspectivas **constitutivas da comunicação**, conhecidas na literatura como *
 **Item 3, inédito:** “A dimensão humana da comunicação organizacional, na discussão de Kunsch, pode manifestar-se em interações com públicos externos, pois não é idêntica à modalidade de comunicação interna.”
 
 **Gabarito: Certo.** O critério é atenção aos **sujeitos e relações**, não o vínculo empregatício dos destinatários. **Mecanismo:** distinguir dimensão do processo e modalidade por finalidade/público.
+
+## Cotejo das publicações originais e da amostra: Kunsch 2012/2014 (11/11/2026)
+
+**Fonte primária 2012:** o [artigo original em *Intercom*, v. 35, n. 2](https://www.scielo.br/j/interc/a/y8NpS46DTtrQfZZvbB3mzqG/) analisa **três dimensões**, humana, instrumental e estratégica. A descrição do método registra **258 empresas selecionadas/contatadas e somente 36 respostas**, aproximadamente **14% do total inicial**. Segundo a seção de retorno, 26 recusaram ou avisaram que não responderiam, 176 não deram resposta e 20 não foram localizadas. Embora a autora caracterize a amostra como representativa no resumo, a **baixa taxa de resposta** impede garantir representatividade de todas as empresas brasileiras sem investigar os efeitos da não resposta. O fascículo é de **2012**; a versão eletrônica na SciELO foi publicada em janeiro de **2013**.
+
+**Fonte primária 2014:** no [artigo em *MATRIZes*, v. 8, n. 2](https://revistas.usp.br/matrizes/pt_BR/article/view/90446), publicado em dezembro de **2014**, Kunsch desenvolve **quatro dimensões: instrumental, humana, cultural e estratégica**. O registro de quatro dimensões em reflexão posterior não significa que a dimensão cultural tenha sido quarta categoria pesquisada na amostra do estudo de 2012.
+
+**Três exercícios inéditos revisados:** **item 1 Certo**, identifica três dimensões em 2012 e quatro em 2014; **item 2 Errado**, confunde essas dimensões com modalidades do composto integrado; **item 3 Certo**, a dimensão humana não está restrita à modalidade interna. Para o item 2, cotejou-se o [verbete assinado pela própria Kunsch, *Comunicação integrada*, UFSM (2018)](https://www.ufsm.br/app/uploads/sites/330/2019/10/DICION%C3%81RIO-EstratO-vers%C3%A3o-online.pdf), que enumera **institucional, mercadológica, interna e administrativa**. Nenhum gabarito foi alterado e nenhuma questão histórica Cebraspe foi adicionada.
+
+**Limites:** conferidos o texto acadêmico publicado em 2012, resumo de 2014 e verbete autoral de 2018, sem reanálise estatística dos dados ou leitura completa de todas as ilustrações e fontes. As generalizações da pesquisa de 2012 merecem a ressalva amostral acima. Não houve teste de build, GitHub Pages ou acessibilidade. **Estado: Corrigido no recorte autoral, amostral e dos itens, sem certificação integral.**
 
 ## Aplicação discursiva
 

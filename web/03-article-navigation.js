@@ -152,11 +152,12 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
     // 4. Oculta comentários brutos restantes do Obsidian (%% comentário geral %%) igual ao modo de leitura
     markdownLimpo = markdownLimpo.replace(/%%[\s\S]*?%%/g, '');
 
-    markdownLimpo = restaurarBlocosCodigoMarkdown(markdownLimpo, codigoProtegido.blocos);
-    // Valores monetários e expressões são tratados como texto Markdown comum.
-    // O renderizador matemático confundia cifras em reais com delimitadores de fórmulas.
+    // Proteger a matemática antes do marked.parse, preservando barras e delimitadores.
+    const matematicaProtegida = protegerBlocosMatematicosMarkdown(markdownLimpo);
+    markdownLimpo = restaurarBlocosCodigoMarkdown(matematicaProtegida.markdown, codigoProtegido.blocos);
     marked.setOptions({ gfm: true, breaks: true });
-    artigoCorpo.innerHTML = marked.parse(escaparSeparadoresWikilinksEmTabelas(markdownLimpo));
+    const htmlArtigo = marked.parse(escaparSeparadoresWikilinksEmTabelas(markdownLimpo));
+    artigoCorpo.innerHTML = restaurarBlocosMatematicosHtml(htmlArtigo, matematicaProtegida.blocos);
 
     processarCalloutsObsidian();
     processarComentariosObsidian();

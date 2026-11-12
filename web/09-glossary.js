@@ -213,7 +213,7 @@ function renderizarGlossario() {
     const title = document.getElementById('glossario-titulo');
     if (!lista || !status || !letras) return;
     const config = glossarioConfigConcurso(data);
-    if (title) title.textContent = glossarioState.contestId === 'cgu-2026' ? 'glossário: CGU' : 'glossário: Câmara dos Deputados';
+    if (title) title.textContent = 'glossário';
     const filtered = filtrarTermosGlossario(glossarioTermosDoConcurso(data), glossarioState.query, glossarioState.block, glossarioState.subject, glossarioState.article);
     const initials = [...new Set(filtered.map(x => normalizarGlossario(x.term).charAt(0).toUpperCase()))].sort();
     if (glossarioState.letter && !initials.includes(glossarioState.letter)) glossarioState.letter = '';

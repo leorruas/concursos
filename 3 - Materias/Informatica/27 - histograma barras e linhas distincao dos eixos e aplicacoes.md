@@ -62,8 +62,8 @@ Para construir um histograma a partir de uma amostra de tamanho $n$:
 ### 3.2. Formas da Distribuição de Frequências no Histograma
 O perfil visual do histograma revela o comportamento probabilístico da população:
 - **Simétrico / Em Forma de Sino (Gaussiano):** A distribuição aproxima-se da Normal ($\text{Média} \approx \text{Mediana} \approx \text{Moda}$).
-- **Assimétrico à Direita (Positiva):** Cauda longa estendendo-se para valores elevados ($\text{Média} > \text{Mediana} > \text{Moda}$), típico de salários, patrimônio e tempo de tramitação.
-- **Assimétrico à Esquerda (Negativa):** Cauda longa para a esquerda ($\text{Moda} > \text{Mediana} > \text{Média}$), comum em idades de aposentadoria de servidores públicos.
+- **Assimétrico à Direita (Positiva):** Cauda mais longa estendida para valores elevados. Em exemplos didáticos **unimodais**, pode ocorrer $\text{média} > \text{mediana} > \text{moda}$; essa ordem **não é teorema geral** e depende da distribuição.
+- **Assimétrico à Esquerda (Negativa):** Cauda mais longa para valores baixos. Em distribuições **unimodais didáticas**, pode aparecer $\text{moda} > \text{mediana} > \text{média}$, sem que a desigualdade valha para toda distribuição.
 - **Bimodal:** Dois picos nítidos, evidenciando que a amostra pode ser composta por duas populações distintas misturadas (ex.: servidores de nível médio versus consultores de nível superior).
 
 ---
@@ -92,8 +92,8 @@ BARRAS HORIZONTAIS (Y = Categoria, X = Métrica)         COLUNAS VERTICAIS (X = 
 ## 5. Gráfico de linhas: a continuidade temporal e suas fronteiras
 
 ### 5.1. A Premissa da Continuidade
-O gráfico de linhas plota pares ordenados $(t_i, y_i)$ e liga os pontos sucessivos por segmentos de reta. Essa ligação pressupõe que:
-1. O eixo horizontal $X$ possui uma **ordem estrita, cronológica e contínua** (tempo: horas, dias, meses, anos).
+Um gráfico de linhas liga pares ordenados $(x_i, y_i)$ por segmentos; em séries temporais, a variável horizontal é o tempo ($x_i=t_i$). Essa ligação pressupõe que:
+1. O eixo horizontal $X$ possui **ordem quantitativa ou temporal com significado**, de modo que conectar pontos sucessivos ajude a interpretar a variação entre valores; a escala não precisa representar tempo em toda aplicação.
 2. O fenômeno medido continua a existir nos instantes intermediários entre as observações, ainda que não tenha sido medido a cada segundo.
 
 ### 5.2. O Erro Grave de Conectar Categorias Nominais

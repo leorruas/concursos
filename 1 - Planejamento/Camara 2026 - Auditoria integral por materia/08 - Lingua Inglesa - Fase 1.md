@@ -530,3 +530,25 @@ A página seguinte do caderno `101_IRBRCACDOBJ_002_01` foi conferida visualmente
 **Conferência remota transversal de 13 arquivos alterados:** cada nota conserva cabeçalho YAML e `articleId`; cercas de código em número par; padrões textuais antigos de `had pauted` e das escalas numéricas críticas não foram encontrados. Esta conferência **não substitui teste de compilação/renderização**, validação independente de todas as questões nem comprovação de publicação.
 
 **Pendências:** verificar itens R restantes, referências bibliográficas problemáticas, remissões e exercício autêntico/autorais por gênero; confirmar workflows concluídos e comportamento na página publicada antes de classificar qualquer artigo como `validado`.
+
+
+## 21. Continuidade da implementação: segundo ciclo de reparos, 11/11/2026
+
+**Autorização:** mesma frente de Língua Inglesa, restrita a artigos `3 - Materias/Ingles/`. Foram recuperadas versões e SHAs atuais antes de cada atualização, com repetição da tentativa quando a gravação concorrente alterou o HEAD. Não se tocaram índices ou relatórios de outras matérias.
+
+| Artigo | Problema resolvido | Alteração executada | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| 13 | ING-060, *present perfect* e *future perfect*; cenário de promulgação | Comentário de questão 1 sem inferir continuidade obrigatória, correção terminológica da questão 6 e cenário institucional hipotético na questão 3 | `97e6dc19bc3b23d355f435091238645d226ff25a` | Gravação e releitura por SHA, cotejo gramatical Cambridge | corrigido |
+| 15 | ING-055, *must have* tomado como prova e *should have* generalizado | Comentários de questões 1 e 3 distinguem avaliação retrospectiva, inferência e fato demonstrado | `519828ed00bca2bd38735e429e8fb0c2e1665b18` | Gravação e releitura por SHA, referência Cambridge | corrigido |
+| 14 | ING-061, intenção institucional não demonstrada na passiva | Questão 6 agora descreve efeito de foco sem atribuir intenção comprovada ao autor | `1ab898ae664b4d4030c1f1a4e3398da17cd325ea` | Gravação e releitura por SHA | corrigido |
+| 07 | ING-058, fonte Cebraspe não rastreável | Bibliografia substituída por caderno ANATEL 2024 e gabarito definitivo identificados | `b57d43ba2f3bb16f42d88901f9e72c2dfb0207b4` | Arquivo e referência no texto recuperados | corrigido |
+| 08 | ING-062, falsa referência de cadernos comentados | Referência substituída por prova e gabarito ANATEL 2024; gravação reconciliada após conflito | `22b57483b8e9a66fadbb7ae92a9771524566d401` | Releitura confirmou substituição | corrigido |
+| 09 | ING-047/046, *they* tratado como unívoco e diagrama de `which` inconsistente; ING-062 | Explicitada ambiguidade, incluído caso progressivo, ajustado diagrama e substituída referência bibliográfica genérica | `30eb4efe688f273ddf7680fab3c3d73dabf13d98`, `97a736ed7023a7423bdabfbb051bef5f7479c9b6` | Conteúdo final recuperado; regras e diagrama presentes | corrigido |
+| 18 | ING-040/057, cenário legislativo e interpretação excessiva de intertextualidade | Comunicado fictício identificado, fluxo hipotético e limites das inferências sobre a convenção | `56e74f6845e8021db3e8f64cb1ddfceec1f0184c` | Releitura confirmou os três ajustes | corrigido |
+| 16 | ING-051, explicação lógico-formal indevida do comparativo | Comentário da questão 6 qualifica a leitura idiomática e traz contraexemplo | `f610345e96ef3756e7d37b0617fa2d94b2f3f218` | Releitura confirmou novo comentário | corrigido |
+
+**Estado de adjudicação:** cinco itens S de Fase 1 foram corrigidos no ciclo anterior (08#1, 13#4, 14#1, 16#2, 16#3); o sexto gabarito revisto foi 17#6. Dos 14 itens R registrados na fase 1, os pontos apontados foram trabalhados nos dois ciclos, mas o conjunto **ainda não recebeu homologação integral de todas as questões**. Não substituir a revisão efetiva por contagens de commits.
+
+**Verificação de publicação:** runs do GitHub Pages consultados durante os reparos tiveram cancelamentos por novos commits; o run associado a `f610345e` estava em fila na leitura, e não foi certificado como bem-sucedido. A gravação dos arquivos não é comprovação de deploy.
+
+**Pendência prioritária para retomada:** conferir sucesso do workflow da versão atual de `main`, validar navegação e diagramas no site, realizar leitura de consistência global dos 18 artigos com foco nas relações de referência, revisar citações e atribuições de banca restantes e testar interpretação em textos inéditos de gêneros não institucionais. Não alterar índice compartilhado sem necessidade. Nenhum arquivo foi classificado como `validado` sem passar por essas etapas.

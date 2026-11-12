@@ -255,6 +255,16 @@ A banca Cebraspe possui padrões consolidados de formulação em Direito Constit
 - **Gabarito: ERRADO**
 - **Comentário:** O art. 58, § 3º, da CF dispõe que as conclusões da CPI serão encaminhadas ao Ministério Público *para que este promova a responsabilidade civil ou criminal*. Todavia, o Ministério Público detém independência funcional e autonomia técnica constitucional (CF, art. 127, § 1º, e art. 129, I). Seus membros não atuam como meros executores da CPI, cabendo-lhes examinar de forma autônoma a presença de justa causa, podendo oferecer denúncia, requisitar novas investigações ou postular o arquivamento fundamentado perante o juízo competente.
 
+### Dois testes adicionais de distinção (itens inéditos, não oficiais)
+
+**C/E complementar A:** Uma CPI pode determinar a condução coercitiva de parlamentar investigado para interrogatório, mesmo que ele manifeste a intenção de permanecer em silêncio, porque o art. 58, § 3º, da Constituição lhe atribui poderes próprios das autoridades judiciais.
+
+**Gabarito: ERRADO.** O STF, nas **ADPFs 395 e 444**, considerou inconstitucional a condução coercitiva de investigados ou réus **para interrogatório**. Os poderes investigatórios das CPIs não eliminam as garantias contra autoincriminação. Uma testemunha regularmente intimada e sem justificativa para faltar constitui hipótese juridicamente diferente.
+
+**C/E complementar B:** Se o Presidente da Câmara devolver o requerimento de criação de CPI por entender ausentes requisitos regimentais, o autor poderá recorrer da decisão ao Plenário no prazo de cinco sessões, após ouvir-se a CCJC.
+
+**Gabarito: CERTO.** Essa é a regra do **art. 35, § 2º, do RICD**. Não se deve confundi-la com a necessidade de aprovação política pelo Plenário de um requerimento que já preencha o quórum de um terço, a indicação de fato determinado e o prazo certo. [RICD consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+
 ## Fontes primárias e jurisprudência canônica
 
 - **Constituição Federal de 1988:** art. 58, § 3º (disciplina das Comissões Parlamentares de Inquérito); art. 50 (convocação de Ministros de Estado); art. 5º, X, XI, XII e LXIII (direitos fundamentais à intimidade, domicílio, sigilo e não autoincriminação); art. 129, I (titularidade da ação penal pública).

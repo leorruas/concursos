@@ -3,6 +3,7 @@ import { selectCamaraQuestions } from './select-camara-questions.js';
 import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { assertCamaraTiQuestionAllowed } from './camara-ti-question-guard.js';
+import { articleMetadata } from './article-identity.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const read = path => fs.readFileSync(new URL(path, import.meta.url), 'utf8');
@@ -46,7 +47,7 @@ for (const item of bank.expansao) {
   assert(path.startsWith('3 - Materias/') && !path.split('/').includes('..'), label);
   if (!articles.has(path)) articles.set(path, read('../' + path));
   const article = articles.get(path);
-  assert(article.split(/\r?\n/).includes('articleId: ' + item.articleId), label);
+  assert.equal(articleMetadata(article).articleId, item.articleId, label);
   assert(article.split(/\r?\n/).some(line => line.replace(/^#{1,6} /, '') === section), label);
   assert(item.theoryRefs.includes('article:' + item.articleId + '#' + section), label);
 

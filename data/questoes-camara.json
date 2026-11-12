@@ -1171,7 +1171,7 @@
       "conceptId": "presidencialismo-de-coalizao",
       "mechanism": "inferir-parlamentarismo-de-acordo-partidario",
       "theoryRefs": [
-        "article:art-d7b3e591a46c82f0#Presidencialismo de coalizão: Sérgio Abranches e a especificidade brasileira"
+        "article:art-d7b3e591a46c82f0#Relações Executivo-Legislativo e formação de coalizões: Sérgio Abranches e a especificidade brasileira"
       ],
       "statement": "A formação de uma coalizão multipartidária para aprovar o orçamento é compatível com o presidencialismo quando a permanência do presidente no cargo segue as regras do mandato, independentemente de voto parlamentar de confiança.",
       "correctAnswer": "C",
@@ -4059,7 +4059,7 @@
       "conceptId": "coalizao-legislativa",
       "mechanism": "inferir-voto-uniforme-de-composicao-ministerial",
       "theoryRefs": [
-        "article:art-d7b3e591a46c82f0#Presidencialismo de coalizão: Sérgio Abranches e a especificidade brasileira"
+        "article:art-d7b3e591a46c82f0#Relações Executivo-Legislativo e formação de coalizões: Sérgio Abranches e a especificidade brasileira"
       ],
       "statement": "Dois partidos participam do gabinete de um presidente. Essa participação garante que ambos apoiarão todos os projetos do Executivo no Legislativo.",
       "correctAnswer": "E",
@@ -30199,6 +30199,1126 @@
       "correctAnswer": "C",
       "explanation": "Na passiva analítica, o objeto direto da ativa passa a sujeito paciente, e o agente da ação é preservado em “pelas comissões”.",
       "reviewEvidence": "Lote 020: cotejo editorial do gabarito com o artigo e a seção indicados; revisão de mecanismo e explicação, com teste de integridade e similaridade."
+    },
+    {
+      "id": "cam-adm-governo-formulacao-administracao-execucao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "governo-formulacao-administracao-execucao",
+      "mechanism": "politica-versus-tecnica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      },
+      "statement": "Ao distinguir governo e Administração Pública, a formulação de diretrizes políticas pertence predominantemente ao governo, enquanto a execução administrativa se submete às normas legais aplicáveis.",
+      "correctAnswer": "C",
+      "explanation": "A direção política define prioridades dentro da Constituição; a função administrativa executa atividades juridicamente vinculadas à ordem normativa.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md na seção '2. Governo vs. Administração Pública: Distinção Ontológica e Funcional'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-administracao-material-versus-organica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "administracao-material-versus-organica",
+      "mechanism": "confundir-atividade-com-orgao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo"
+      },
+      "statement": "Dizer que a Administração Pública é composta por órgãos, agentes e entidades caracteriza seu sentido material ou objetivo, pois descreve as atividades por eles praticadas.",
+      "correctAnswer": "E",
+      "explanation": "Órgãos, pessoas e agentes correspondem ao sentido subjetivo ou orgânico; a atividade administrativa é o objeto do sentido material.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md na seção '3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-funcao-administrativa-atipica-legislativo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "funcao-administrativa-atipica-legislativo",
+      "mechanism": "exclusividade-de-funcao-administrativa-no-executivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#4. O Exercício da Função Administrativa nos Três Poderes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "4. O Exercício da Função Administrativa nos Três Poderes"
+      },
+      "statement": "Quando a Câmara promove licitação para contratar um serviço de informática, exerce função administrativa, embora a elaboração de leis integre suas atribuições típicas.",
+      "correctAnswer": "C",
+      "explanation": "Os Poderes exercem funções típicas e atípicas; licitar e gerir contratos é atividade administrativa também no Legislativo.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md na seção '4. O Exercício da Função Administrativa nos Três Poderes'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-estado-governo-personalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / estado governo administracao e funcao administrativa",
+      "articleId": "art-0242ff68d8ca9529",
+      "conceptId": "estado-governo-personalidade",
+      "mechanism": "governo-como-pessoa-juridica-autonoma",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0242ff68d8ca9529#2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md",
+        "section": "2. Governo vs. Administração Pública: Distinção Ontológica e Funcional"
+      },
+      "statement": "A alternância entre governos eleitos extingue a personalidade jurídica do Estado e dá origem a outra pessoa jurídica encarregada de executar as políticas públicas.",
+      "correctAnswer": "E",
+      "explanation": "O Estado permanece como pessoa jurídica de direito público; governos se sucedem na direção política sem extingui-lo.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa.md na seção '2. Governo vs. Administração Pública: Distinção Ontológica e Funcional'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-desconcentracao-interna",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "desconcentracao-interna",
+      "mechanism": "confundir-orgao-com-entidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      },
+      "statement": "Distribuir atribuições de um ministério entre departamentos sem criar outra pessoa jurídica exemplifica desconcentração administrativa.",
+      "correctAnswer": "C",
+      "explanation": "A desconcentração distribui tarefas internamente a uma mesma pessoa jurídica, entre órgãos.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md na seção '1. As Quatro Técnicas Fundamentais de Organização Administrativa'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-autarquia-nao-e-desconcentracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "autarquia-nao-e-desconcentracao",
+      "mechanism": "trocar-criacao-de-entidade-por-orgao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "1. As Quatro Técnicas Fundamentais de Organização Administrativa"
+      },
+      "statement": "A criação de autarquia com personalidade jurídica própria corresponde a uma desconcentração dentro do ministério que supervisiona sua atividade.",
+      "correctAnswer": "E",
+      "explanation": "A autarquia integra a administração indireta, com personalidade jurídica distinta; isso corresponde à descentralização por serviços.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md na seção '1. As Quatro Técnicas Fundamentais de Organização Administrativa'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-delegacao-servico-titularidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "delegacao-servico-titularidade",
+      "mechanism": "transferir-titularidade-na-concessao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#2. Modalidades de Descentralização: Outorga vs. Delegação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "2. Modalidades de Descentralização: Outorga vs. Delegação"
+      },
+      "statement": "Na concessão de serviço público a um particular, transfere-se a execução nos termos do contrato, sem que o Estado perca a titularidade do serviço.",
+      "correctAnswer": "C",
+      "explanation": "A delegação por colaboração transfere a execução, não a titularidade estatal do serviço.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md na seção '2. Modalidades de Descentralização: Outorga vs. Delegação'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-teoria-orgao-personalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / centralizacao descentralizacao concentracao e desconcentracao",
+      "articleId": "art-880b577a5c2ba82d",
+      "conceptId": "teoria-orgao-personalidade",
+      "mechanism": "atribuir-personalidade-autonoma-a-orgao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-880b577a5c2ba82d#3. Teoria do Órgão e Classificação dos Órgãos Públicos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md",
+        "section": "3. Teoria do Órgão e Classificação dos Órgãos Públicos"
+      },
+      "statement": "Um departamento de uma autarquia é, por regra, pessoa jurídica distinta da autarquia e responde em nome próprio pelas obrigações decorrentes de sua atuação administrativa.",
+      "correctAnswer": "E",
+      "explanation": "Órgãos não possuem, em regra, personalidade jurídica; sua atuação é imputada à pessoa jurídica que integram.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao.md na seção '3. Teoria do Órgão e Classificação dos Órgãos Públicos'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-ato-versus-fato-material",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo conceito e distincao de fato administrativo",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "ato-versus-fato-material",
+      "mechanism": "equiparar-execucao-material-a-declaracao-juridica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#2. Ato Administrativo vs. Fato Administrativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "2. Ato Administrativo vs. Fato Administrativo"
+      },
+      "statement": "A execução física de uma reforma em imóvel público pode ser fato administrativo, enquanto a decisão formal de autorizar a obra constitui ato administrativo.",
+      "correctAnswer": "C",
+      "explanation": "Ato veicula manifestação jurídica; fato é a ocorrência material, ainda que decorrente de ato anterior.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md na seção '2. Ato Administrativo vs. Fato Administrativo'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-silencio-efeito-legal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo conceito e distincao de fato administrativo",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "silencio-efeito-legal",
+      "mechanism": "considerar-todo-silencio-deferimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#3. O Silêncio Administrativo e seus Efeitos Jurídicos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "3. O Silêncio Administrativo e seus Efeitos Jurídicos"
+      },
+      "statement": "O simples decurso do prazo de análise de um pedido obriga a considerar o requerimento aprovado, ainda que a lei não atribua qualquer consequência favorável ao silêncio.",
+      "correctAnswer": "E",
+      "explanation": "O silêncio não importa aprovação automática sem previsão normativa que lhe atribua tal efeito.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md na seção '3. O Silêncio Administrativo e seus Efeitos Jurídicos'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-manifestacao-juridica-unilateral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo conceito e distincao de fato administrativo",
+      "articleId": "art-e9d0b4352f3e1455",
+      "conceptId": "manifestacao-juridica-unilateral",
+      "mechanism": "confundir-portaria-com-fato-material",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e9d0b4352f3e1455#1. Conceito Dogmático de Ato Administrativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md",
+        "section": "1. Conceito Dogmático de Ato Administrativo"
+      },
+      "statement": "Uma portaria administrativa que concede licença funcional é manifestação dirigida a efeitos jurídicos e, nessa dimensão, pode ser classificada como ato administrativo.",
+      "correctAnswer": "C",
+      "explanation": "A portaria expressa decisão administrativa formal com efeitos jurídicos, distinguindo-se de uma execução material.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/14 - ato administrativo conceito e distincao de fato administrativo.md na seção '1. Conceito Dogmático de Ato Administrativo'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-presuncao-relativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "presuncao-relativa",
+      "mechanism": "presuncao-inatacavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#1. Presunção de Legitimidade e de Veracidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "1. Presunção de Legitimidade e de Veracidade"
+      },
+      "statement": "A presunção de legitimidade dos atos administrativos impede que o interessado apresente prova capaz de demonstrar sua ilegalidade.",
+      "correctAnswer": "E",
+      "explanation": "A presunção é relativa e admite prova em contrário.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md na seção '1. Presunção de Legitimidade e de Veracidade'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-imperatividade-nao-universal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "imperatividade-nao-universal",
+      "mechanism": "atribuir-coercibilidade-a-certidao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#2. Imperatividade (Poder Extroverso / Coercibilidade)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "2. Imperatividade (Poder Extroverso / Coercibilidade)"
+      },
+      "statement": "Toda certidão emitida por órgão público impõe unilateralmente obrigações ao destinatário, pois a imperatividade está presente em todos os atos administrativos.",
+      "correctAnswer": "E",
+      "explanation": "Atos enunciativos, como certidões, não possuem necessariamente imperatividade.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md na seção '2. Imperatividade (Poder Extroverso / Coercibilidade)'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-autoexecutoriedade-e-multa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "autoexecutoriedade-e-multa",
+      "mechanism": "execucao-patrimonial-imediata-de-multa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3. Autoexecutoriedade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3. Autoexecutoriedade"
+      },
+      "statement": "A autoexecutoriedade administrativa autoriza a cobrança forçada de multa patrimonial, com constrição de bens do administrado, independentemente de processo judicial.",
+      "correctAnswer": "E",
+      "explanation": "A imposição da multa não significa autorização para execução coercitiva patrimonial direta; sua cobrança forçada segue as vias legais.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md na seção '3. Autoexecutoriedade'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-autoexecutoriedade-previsao-ou-urgencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade",
+      "articleId": "art-733c0e474219cd22",
+      "conceptId": "autoexecutoriedade-previsao-ou-urgencia",
+      "mechanism": "exigir-ordem-judicial-em-risco-imediato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-733c0e474219cd22#3.2. Hipóteses em que a autoexecutoriedade é admitida"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md",
+        "section": "3.2. Hipóteses em que a autoexecutoriedade é admitida"
+      },
+      "statement": "Em situação emergencial de risco à segurança, a Administração pode realizar diretamente medida material autorizada pelo ordenamento, quando presentes os pressupostos da autoexecutoriedade.",
+      "correctAnswer": "C",
+      "explanation": "A autoexecutoriedade pode decorrer de previsão normativa ou de urgência justificada; requer respeito à proporcionalidade e controle.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/15 - atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade.md na seção '3.2. Hipóteses em que a autoexecutoriedade é admitida'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-ato-complexo-pluralidade-de-orgaos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / classificacoes e especies de atos administrativos",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "ato-complexo-pluralidade-de-orgaos",
+      "mechanism": "confundir-composto-com-complexo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "No ato administrativo complexo, a formação da vontade final resulta da conjugação de manifestações de mais de um órgão, diferentemente do simples.",
+      "correctAnswer": "C",
+      "explanation": "O ato complexo depende da reunião de manifestações de órgãos distintos para formação de um só ato.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md na seção '1. Critérios Fundamentais de Classificação dos Atos'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-ato-composto-aprovacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / classificacoes e especies de atos administrativos",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "ato-composto-aprovacao",
+      "mechanism": "homologacao-posterior-como-ato-complexo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "A necessidade de homologação posterior de uma decisão por outra autoridade torna o ato necessariamente complexo, e não composto, pois toda aprovação integra a formação conjunta da vontade.",
+      "correctAnswer": "E",
+      "explanation": "No ato composto, há manifestação principal e ato acessório de aprovação ou controle; sua estrutura difere da conjugação de vontades do ato complexo.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md na seção '1. Critérios Fundamentais de Classificação dos Atos'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-anulacao-legalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / anulacao revogacao convalidacao e extincao de atos administrativos",
+      "articleId": "art-61c7724cba33648a",
+      "conceptId": "anulacao-legalidade",
+      "mechanism": "revogacao-de-ato-ilegal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#1. Anulação (Invalidação)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md",
+        "section": "1. Anulação (Invalidação)"
+      },
+      "statement": "Ao identificar vício jurídico insanável em ato administrativo, a Administração deve avaliar sua anulação, e não justificar a revogação apenas com base na conveniência.",
+      "correctAnswer": "C",
+      "explanation": "Anulação enfrenta ilegalidade; revogação examina mérito de ato válido.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md na seção '1. Anulação (Invalidação)'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-revogacao-ex-nunc",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / anulacao revogacao convalidacao e extincao de atos administrativos",
+      "articleId": "art-61c7724cba33648a",
+      "conceptId": "revogacao-ex-nunc",
+      "mechanism": "revogacao-retroativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#2. Revogação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md",
+        "section": "2. Revogação"
+      },
+      "statement": "Revogar um ato válido por razões supervenientes de oportunidade elimina, como regra, todos os efeitos que ele produziu legitimamente antes da revogação.",
+      "correctAnswer": "E",
+      "explanation": "A revogação tem efeitos prospectivos, em regra ex nunc, preservando efeitos anteriores válidos.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md na seção '2. Revogação'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-convalidacao-vicio-sanavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / anulacao revogacao convalidacao e extincao de atos administrativos",
+      "articleId": "art-61c7724cba33648a",
+      "conceptId": "convalidacao-vicio-sanavel",
+      "mechanism": "anular-ato-por-vicio-sanavel-sempre",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#3. Convalidação (Saneamento ou Ratificação)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md",
+        "section": "3. Convalidação (Saneamento ou Ratificação)"
+      },
+      "statement": "É possível convalidar ato com defeito sanável quando não houver lesão ao interesse público nem prejuízo a terceiros, nos termos do regime aplicável.",
+      "correctAnswer": "C",
+      "explanation": "A Lei nº 9.784/1999 admite convalidação de defeitos sanáveis sob tais condições.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md na seção '3. Convalidação (Saneamento ou Ratificação)'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-controle-judicial-merito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / anulacao revogacao convalidacao e extincao de atos administrativos",
+      "articleId": "art-61c7724cba33648a",
+      "conceptId": "controle-judicial-merito",
+      "mechanism": "revogar-ato-do-executivo-pelo-judiciario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#2.1. Fundamento, mérito administrativo e competência privativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md",
+        "section": "2.1. Fundamento, mérito administrativo e competência privativa"
+      },
+      "statement": "Em controle judicial de legalidade, o Judiciário pode substituir a conveniência administrativa e revogar livremente ato válido do Poder Executivo apenas por considerá-lo inoportuno.",
+      "correctAnswer": "E",
+      "explanation": "A revogação pelo mérito cabe à Administração competente; o controle judicial pode anular ilegalidades, respeitados os limites jurisdicionais.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md na seção '2.1. Fundamento, mérito administrativo e competência privativa'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-parecer-facultativo-conclusao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / parecer administrativo natureza tipos e responsabilidade do parecerista",
+      "articleId": "art-0bf3465cd357e76e",
+      "conceptId": "parecer-facultativo-conclusao",
+      "mechanism": "vinculacao-automatica-ao-parecer-facultativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0bf3465cd357e76e#2.1. Parecer facultativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista.md",
+        "section": "2.1. Parecer facultativo"
+      },
+      "statement": "Quando a consulta jurídica é facultativa, a autoridade competente pode tomar decisão diferente da recomendação, desde que observe as exigências de legalidade e motivação aplicáveis.",
+      "correctAnswer": "C",
+      "explanation": "O parecer facultativo é auxílio técnico, não decisão vinculante por sua simples emissão.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista.md na seção '2.1. Parecer facultativo'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-parecer-obrigatorio-nao-vinculante",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / parecer administrativo natureza tipos e responsabilidade do parecerista",
+      "articleId": "art-0bf3465cd357e76e",
+      "conceptId": "parecer-obrigatorio-nao-vinculante",
+      "mechanism": "confundir-consulta-obrigatoria-com-concordancia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0bf3465cd357e76e#2.2. Parecer obrigatório"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista.md",
+        "section": "2.2. Parecer obrigatório"
+      },
+      "statement": "A obrigatoriedade de solicitar parecer significa, por si só, que a autoridade deve sempre seguir integralmente sua conclusão.",
+      "correctAnswer": "E",
+      "explanation": "Consulta obrigatória não equivale necessariamente a parecer vinculante; é preciso distinguir exigência de consulta e força vinculante da conclusão.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista.md na seção '2.2. Parecer obrigatório'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-responsabilidade-parecerista-criterios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / parecer administrativo natureza tipos e responsabilidade do parecerista",
+      "articleId": "art-0bf3465cd357e76e",
+      "conceptId": "responsabilidade-parecerista-criterios",
+      "mechanism": "responsabilidade-automatica-de-parecerista",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0bf3465cd357e76e#3. A Responsabilidade do Parecerista: STF, TCU e LINDB"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista.md",
+        "section": "3. A Responsabilidade do Parecerista: STF, TCU e LINDB"
+      },
+      "statement": "O simples fato de um parecer ter precedido decisão posteriormente anulada torna seu autor automaticamente responsável por todos os danos, independentemente de dolo, erro grosseiro ou vínculo causal.",
+      "correctAnswer": "E",
+      "explanation": "A responsabilização exige requisitos próprios; o art. 28 da LINDB afasta atribuição automática sem dolo ou erro grosseiro na decisão/opinião técnica.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista.md na seção '3. A Responsabilidade do Parecerista: STF, TCU e LINDB'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-investidura-posse",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 8112 provimento posse exercicio e vacancia",
+      "articleId": "art-d982b608fc646e5a",
+      "conceptId": "investidura-posse",
+      "mechanism": "nomeacao-como-investidura-consumada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d982b608fc646e5a#2. Prazos da investidura: nomeação, posse e exercício"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/20 - lei 8112 provimento posse exercicio e vacancia.md",
+        "section": "2. Prazos da investidura: nomeação, posse e exercício"
+      },
+      "statement": "Nos cargos sujeitos à Lei nº 8.112/1990, a investidura ocorre com a posse, que é etapa distinta da nomeação publicada.",
+      "correctAnswer": "C",
+      "explanation": "A nomeação é ato de provimento, e a posse formaliza a investidura.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/20 - lei 8112 provimento posse exercicio e vacancia.md na seção '2. Prazos da investidura: nomeação, posse e exercício'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-prazo-posse-30-dias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 8112 provimento posse exercicio e vacancia",
+      "articleId": "art-d982b608fc646e5a",
+      "conceptId": "prazo-posse-30-dias",
+      "mechanism": "confundir-prazo-posse-e-exercicio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d982b608fc646e5a#2. Prazos da investidura: nomeação, posse e exercício"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/20 - lei 8112 provimento posse exercicio e vacancia.md",
+        "section": "2. Prazos da investidura: nomeação, posse e exercício"
+      },
+      "statement": "O prazo geral para tomar posse é de trinta dias contados da publicação do ato de provimento, ressalvadas hipóteses legais específicas.",
+      "correctAnswer": "C",
+      "explanation": "O art. 13, § 1º, estabelece o prazo de trinta dias para a posse, sujeito às regras legais de contagem e exceções.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/20 - lei 8112 provimento posse exercicio e vacancia.md na seção '2. Prazos da investidura: nomeação, posse e exercício'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-prazo-exercicio-15-dias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 8112 provimento posse exercicio e vacancia",
+      "articleId": "art-d982b608fc646e5a",
+      "conceptId": "prazo-exercicio-15-dias",
+      "mechanism": "antecipar-inicio-do-exercicio-a-nomeacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d982b608fc646e5a#2. Prazos da investidura: nomeação, posse e exercício"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/20 - lei 8112 provimento posse exercicio e vacancia.md",
+        "section": "2. Prazos da investidura: nomeação, posse e exercício"
+      },
+      "statement": "O servidor empossado em cargo público federal tem, em regra, quinze dias a contar da posse para entrar em exercício, e não do ato de nomeação.",
+      "correctAnswer": "C",
+      "explanation": "O art. 15, § 1º, fixa quinze dias para entrada em exercício após a posse.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/20 - lei 8112 provimento posse exercicio e vacancia.md na seção '2. Prazos da investidura: nomeação, posse e exercício'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-reconducao-apos-inabilitacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 8112 provimento posse exercicio e vacancia",
+      "articleId": "art-d982b608fc646e5a",
+      "conceptId": "reconducao-apos-inabilitacao",
+      "mechanism": "confundir-reconducao-com-reintegracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d982b608fc646e5a#5. Institutos protetivos e de garantia funcional: reintegração, recondução, reversão e disponibilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/20 - lei 8112 provimento posse exercicio e vacancia.md",
+        "section": "5. Institutos protetivos e de garantia funcional: reintegração, recondução, reversão e disponibilidade"
+      },
+      "statement": "Um servidor estável que toma posse em outro cargo e não é aprovado no estágio probatório pode retornar ao cargo anterior pelo instituto da recondução, observadas as condições legais.",
+      "correctAnswer": "C",
+      "explanation": "Recondução abrange inabilitação em estágio probatório de outro cargo; reintegração se relaciona à invalidação de demissão do servidor estável.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/20 - lei 8112 provimento posse exercicio e vacancia.md na seção '5. Institutos protetivos e de garantia funcional: reintegração, recondução, reversão e disponibilidade'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-indelegabilidade-recurso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 processo administrativo federal competencia delegacao e avocacao",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "indelegabilidade-recurso",
+      "mechanism": "delegar-decisao-recursal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+      },
+      "statement": "A decisão de recursos administrativos pode ser delegada livremente, porque a Lei nº 9.784/1999 só impede delegação de competências privativas da chefia do Poder Executivo.",
+      "correctAnswer": "E",
+      "explanation": "O art. 13 da Lei nº 9.784/1999 veda delegar decisão de recursos administrativos, atos normativos e matérias de competência exclusiva.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md na seção '4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-delegacao-sem-hierarquia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 processo administrativo federal competencia delegacao e avocacao",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "delegacao-sem-hierarquia",
+      "mechanism": "exigir-hierarquia-na-delegacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4.1 Pressupostos e características da delegação (arts. 12 e 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "4.1 Pressupostos e características da delegação (arts. 12 e 14)"
+      },
+      "statement": "A delegação de competência administrativa pode ocorrer, nos termos da Lei nº 9.784/1999, mesmo entre órgãos ou titulares que não estejam hierarquicamente subordinados.",
+      "correctAnswer": "C",
+      "explanation": "O art. 12 permite delegação quando conveniente por razões técnicas, sociais, econômicas, jurídicas ou territoriais, inclusive sem subordinação.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md na seção '4.1 Pressupostos e características da delegação (arts. 12 e 14)'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-avocacao-superior-subordinado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 processo administrativo federal competencia delegacao e avocacao",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "avocacao-superior-subordinado",
+      "mechanism": "avocacao-horizontal-permanente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "5. Avocação de competência: excepcionalidade e requisitos cumulativos"
+      },
+      "statement": "Uma autoridade pode avocar permanentemente competência de órgão sem subordinação hierárquica, bastando alegar conveniência administrativa.",
+      "correctAnswer": "E",
+      "explanation": "A avocação é excepcional, temporária, justificada por motivos relevantes e envolve autoridade hierarquicamente inferior.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md na seção '5. Avocação de competência: excepcionalidade e requisitos cumulativos'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-delegacao-exercicio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 processo administrativo federal competencia delegacao e avocacao",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "delegacao-exercicio",
+      "mechanism": "transferencia-definitiva-de-titularidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4. Delegação de competência: conceito, pressupostos e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "4. Delegação de competência: conceito, pressupostos e limites"
+      },
+      "statement": "Ao delegar competência administrativa, a autoridade transfere definitivamente a titularidade legal da atribuição, tornando-se impedida de reassumir seu exercício.",
+      "correctAnswer": "E",
+      "explanation": "A delegação transfere o exercício e pode ser revogada; a titularidade legal permanece com o órgão competente.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md na seção '4. Delegação de competência: conceito, pressupostos e limites'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-publicidade-ato-delegacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 processo administrativo federal competencia delegacao e avocacao",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "publicidade-ato-delegacao",
+      "mechanism": "delegacao-secreta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4.1 Pressupostos e características da delegação (arts. 12 e 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "4.1 Pressupostos e características da delegação (arts. 12 e 14)"
+      },
+      "statement": "Um ato de delegação de competência pode dispensar publicidade oficial para produzir efeitos perante interessados quando a autoridade preferir manter sigilo administrativo.",
+      "correctAnswer": "E",
+      "explanation": "A Lei nº 9.784/1999 prevê publicação do ato de delegação e de sua revogação em meio oficial.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md na seção '4.1 Pressupostos e características da delegação (arts. 12 e 14)'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-indelegabilidade-atos-normativos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 processo administrativo federal competencia delegacao e avocacao",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "indelegabilidade-atos-normativos",
+      "mechanism": "delegacao-regulamentacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)"
+      },
+      "statement": "A edição de atos de caráter normativo está entre as matérias cuja delegação de competência é vedada pela Lei nº 9.784/1999.",
+      "correctAnswer": "C",
+      "explanation": "O art. 13, I, veda a delegação da edição de atos normativos.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md na seção '4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-impedimento-testemunha",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 impedimento suspeicao motivacao e recursos",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "impedimento-testemunha",
+      "mechanism": "tratar-testemunha-como-simples-suspeicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#1.1 Impedimento (art. 18): presunção absoluta e dever de abstenção"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "1.1 Impedimento (art. 18): presunção absoluta e dever de abstenção"
+      },
+      "statement": "A autoridade que atuou como testemunha em processo administrativo encontra-se impedida de nele decidir, conforme hipótese expressa da Lei nº 9.784/1999.",
+      "correctAnswer": "C",
+      "explanation": "O art. 18 prevê impedimento de quem tenha participado como testemunha, perito ou representante, entre outras hipóteses.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md na seção '1.1 Impedimento (art. 18): presunção absoluta e dever de abstenção'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-suspeicao-amizade-intima",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 impedimento suspeicao motivacao e recursos",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "suspeicao-amizade-intima",
+      "mechanism": "confundir-amizade-intima-com-impedimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#1.2 Suspeição (art. 20): presunção relativa e arguição"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "1.2 Suspeição (art. 20): presunção relativa e arguição"
+      },
+      "statement": "A amizade íntima entre a autoridade julgadora e interessado pode fundamentar arguição de suspeição no processo administrativo federal.",
+      "correctAnswer": "C",
+      "explanation": "O art. 20 trata de amizade íntima e inimizade notória como hipóteses de suspeição, distintas do impedimento objetivo.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md na seção '1.2 Suspeição (art. 20): presunção relativa e arguição'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-recurso-efeito-suspensivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 impedimento suspeicao motivacao e recursos",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "recurso-efeito-suspensivo",
+      "mechanism": "efeito-suspensivo-automatico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#3. O sistema recursal administrativo na Lei nº 9.784/1999 (arts. 56 a 65)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "3. O sistema recursal administrativo na Lei nº 9.784/1999 (arts. 56 a 65)"
+      },
+      "statement": "A interposição de recurso administrativo na Lei nº 9.784/1999 produz sempre efeito suspensivo automático, de modo que a decisão recorrida não pode gerar efeitos até o julgamento.",
+      "correctAnswer": "E",
+      "explanation": "Como regra, o recurso não tem efeito suspensivo, embora ele possa ser concedido nas condições legais.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md na seção '3. O sistema recursal administrativo na Lei nº 9.784/1999 (arts. 56 a 65)'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-reformatio-recurso-contraditorio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / lei 9784 impedimento suspeicao motivacao e recursos",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "reformatio-recurso-contraditorio",
+      "mechanism": "proibir-piora-em-qualquer-recurso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#4. Confronto crucial: *reformatio in pejus* no recurso versus vedação na revisão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "4. Confronto crucial: *reformatio in pejus* no recurso versus vedação na revisão"
+      },
+      "statement": "No recurso administrativo, a decisão pode agravar a situação do recorrente, desde que ele seja previamente cientificado para formular alegações, nos termos da lei.",
+      "correctAnswer": "C",
+      "explanation": "O art. 64, parágrafo único, admite agravamento após ciência prévia; difere da revisão de sanção, em que não pode resultar agravamento.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md na seção '4. Confronto crucial: *reformatio in pejus* no recurso versus vedação na revisão'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-hierarquia-entre-pessoas-juridicas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / poder hierarquico e poder disciplinar limites e distincoes",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "hierarquia-entre-pessoas-juridicas",
+      "mechanism": "confundir-supervisao-e-hierarquia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#1. O poder hierárquico: conceito, escopo e manifestações estruturais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "1. O poder hierárquico: conceito, escopo e manifestações estruturais"
+      },
+      "statement": "Uma autarquia federal é hierarquicamente subordinada ao ministério supervisor do mesmo modo que um departamento é subordinado à chefia interna do ministério.",
+      "correctAnswer": "E",
+      "explanation": "Há vinculação e supervisão finalística, não hierarquia típica entre pessoas jurídicas distintas.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md na seção '1. O poder hierárquico: conceito, escopo e manifestações estruturais'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-adm-poder-disciplinar-vinculo-especial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / poder hierarquico e poder disciplinar limites e distincoes",
+      "articleId": "art-20294d2578a610bd",
+      "conceptId": "poder-disciplinar-vinculo-especial",
+      "mechanism": "restringir-disciplina-a-servidor-estatutario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-20294d2578a610bd#2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md",
+        "section": "2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial"
+      },
+      "statement": "O poder disciplinar alcança apenas servidores estatutários; a Administração não pode aplicar sanções administrativas a particulares que mantenham vínculo contratual especial com ela.",
+      "correctAnswer": "E",
+      "explanation": "O poder disciplinar também pode atingir particulares sujeitos a vínculo jurídico especial, como contratados, observadas as regras aplicáveis.",
+      "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md na seção '2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
     }
   ]
 }

@@ -7859,34 +7859,36 @@
     {
       "id": "ploa-projeto-lei",
       "term": "Projeto de Lei Orçamentária Anual (PLOA)",
-      "definition": "Proposta do Executivo encaminhada ao Legislativo; a LOA é a lei após a tramitação.",
-      "example": "Projeto do orçamento anual é enviado ao Congresso para análise.",
-      "confusion": "O orçamento proposto ainda não é lei aprovada.",
-      "topic": "Classificações",
+      "definition": "O Projeto de Lei Orçamentária Anual (PLOA) é a proposta que o Poder Executivo encaminha ao Congresso com estimativas de receita e programação de despesas para o exercício seguinte. As unidades orçamentárias e os órgãos setoriais participam da preparação, mas o envio do projeto federal é iniciativa do presidente da República. A Lei Orçamentária Anual (LOA) resulta da deliberação legislativa e da conclusão do processo constitucional.",
+      "example": "Uma unidade pede R$ 1 milhão para serviços digitais; o órgão setorial ajusta a proposta a R$ 800 mil. O presidente envia o PLOA ao Congresso, onde pode haver emendas. Ainda não há dotação aprovada nem pagamento.",
+      "confusion": "Registrar uma proposta no Sistema Integrado de Planejamento e Orçamento (SIOP) não equivale a aprovar a LOA. O projeto encaminhado ao Congresso pode receber emendas; a autorização orçamentária e a execução financeira são etapas diferentes.",
+      "topic": "Orçamento público: elaboração, projeto e aprovação",
       "subjectIds": [
         "orcamento-publico"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P3.2.2"
+        "P3.2.2",
+        "P2. Processo Legislativo e Regimento / Orçamento público"
       ],
       "note": {
         "articleId": "art-c301f2c741504403",
         "section": "LOA: Lei Orçamentária Anual"
       },
       "source": {
-        "title": "Constituição Federal",
-        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
-        "locator": "Arts. 165 e 166; processamento legislativo das leis orçamentárias"
+        "title": "Constituição Federal, arts. 165 e 166; Manual Técnico de Orçamento 2027",
+        "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+        "locator": "Arts. 165-166, iniciativa e tramitação do projeto; Manual Técnico de Orçamento 2027, capítulo 6"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-12",
+      "revision": 2,
       "contrast": {
-        "prompt": "PLOA × LOA: qual existe antes da aprovação legislativa?",
-        "answer": "PLOA é o projeto; LOA é a lei orçamentária aprovada e sancionada."
+        "prompt": "Uma unidade orçamentária registra R$ 1 milhão, mas o órgão setorial reduz para R$ 800 mil. Já existe Lei Orçamentária Anual (LOA) aprovada ou despesa paga?",
+        "answer": "Não. Os dois valores são propostas de elaboração do Projeto de Lei Orçamentária Anual (PLOA). A lei depende do Congresso e do rito constitucional; o pagamento só ocorre na execução, após os atos exigidos."
       },
       "conceptIds": []
     },

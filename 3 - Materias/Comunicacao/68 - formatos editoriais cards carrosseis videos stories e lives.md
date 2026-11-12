@@ -5,7 +5,7 @@ title: "Formatos editoriais: cards, carrosséis, vídeos, stories e lives"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Formatos editoriais: cards, carrosséis, vídeos, stories e lives
@@ -122,6 +122,22 @@ O guia do **Government Digital Service (GDS, serviço digital do governo britân
 
 **Caso de fronteira:** um story reúne votação informal sobre pauta legislativa. O resultado pode expressar participação entre pessoas expostas àquela enquete, mas não representa necessariamente a população nem substitui instrumentos institucionais de participação. O erro é inferir representatividade e efeito formal de uma funcionalidade de plataforma.
 
+## Decisão aplicada: acessibilidade muda a produção da peça
+
+**Caso hipotético:** a equipe precisa explicar três etapas para acompanhar uma audiência pública. Um carrossel organiza a sequência, mas os passos essenciais não devem depender apenas de texto desenhado dentro de imagens: é preciso oferecer **texto equivalente acessível**, quando a plataforma permitir, e verificar a sequência das informações. Se optar por vídeo, a fala e os sons necessários à compreensão exigem **legendas sincronizadas**, ao passo que informações visuais indispensáveis e não verbalizadas requerem **descrição adequada**, incorporada à narração ou disponibilizada por recurso específico conforme o meio. Uma descrição textual isolada fora do vídeo pode ajudar, mas **não deve ser presumida equivalente a todos os requisitos de acessibilidade audiovisual**.
+
+**Progressão:** se o conteúdo for apenas uma informação pontual, um card com texto acessível pode atender; se houver três passos dependentes, o carrossel deve preservar a ordem e indicar conclusão; se a tarefa exigir demonstrar uma interface, vídeo gravado permite revisão e descrição; se o interesse for acompanhar uma votação simultaneamente, live pode atender à temporalidade, **sem transformar comentários em registros legislativos formais**. Para live, a possibilidade de legendagem em tempo real, moderação e rotas alternativas deve ser verificada antes da escolha do canal.
+
+**Item 4, inédito.** Uma transmissão ao vivo que informe corretamente o público sobre o andamento de um evento dispensa planejamento de recursos de acessibilidade, pois a simultaneidade do conteúdo substitui requisitos relativos a informação sonora e visual.
+
+**Gabarito: Errado.** Transmissão ao vivo e acessibilidade respondem a condições diferentes. O [W3C, critério WCAG 2.2, 1.2.4](https://www.w3.org/WAI/WCAG22/Understanding/captions-live.html) trata da legendagem do áudio em conteúdo sincronizado ao vivo, quando abrangido pelo critério; não é cumprido automaticamente pela disponibilidade do vídeo.
+
+**Item 5, inédito.** Em vídeo institucional no qual uma tabela aparece sem explicação oral, a mera presença de legendas sincronizadas da fala não assegura que usuários sem acesso visual compreendam os dados da tabela.
+
+**Gabarito: Certo.** O recurso de legendas serve ao áudio; descrição da informação visual requer solução adicional, como narração com os dados essenciais. Fonte: [W3C WAI, descrição de informação visual](https://www.w3.org/WAI/media/av/description/).
+
+**Nota:** o formato não define, sozinho, obrigação técnica exata de uma plataforma: distinguem-se a norma de acessibilidade aplicável, a capacidade concreta de publicação e a adequação à tarefa. Exercícios 4 e 5 são autorais, não itens históricos da Cebraspe.
+
 ## Como o Cebraspe cobra: três itens inéditos de Certo/Errado
 
 **Item 1.** Um carrossel, por reunir peças em sequência, constitui necessariamente uma narrativa transmídia, mesmo quando todos os cartões integram a mesma publicação e apenas apresentam etapas de um procedimento.
@@ -138,7 +154,7 @@ O guia do **Government Digital Service (GDS, serviço digital do governo britân
 
 ## Relações com outros temas e heurísticas
 
-[[3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario|CAM-CO-019]] decide quais questões abordar e como priorizá-las. [[3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens|CAM-CO-020]] organiza responsabilidades e validação. [[3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes|CAM-CO-021]] considera canal, público e requisitos técnicos. Esta unidade escolhe a **estrutura da peça**. A próxima, **CAM-CO-023**, aprofundará capa, legenda textual, marcação, palavra-chave e chamada para ação.
+[[3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario|CAM-CO-019]] decide quais questões abordar e como priorizá-las. [[3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens|CAM-CO-020]] organiza responsabilidades e validação. [[3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes|CAM-CO-021]] considera canal, público e requisitos técnicos. Esta unidade escolhe a **estrutura da peça**. [[3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao|Componentes da publicação: capa, legenda, marcações, palavras-chave e CTA]] aprofunda o uso dos elementos internos de cada peça.
 
 Para questão discursiva, fundamente formato em **necessidade pública, densidade e temporalidade da mensagem, estrutura informacional, acessibilidade, governança e avaliação**. Se a questão pergunta como anunciar um fato pontual, considere síntese; se exige passos, sequência; se exige demonstração, audiovisual gravado; se exige acompanhamento simultâneo, transmissão ao vivo. A função deve orientar a escolha, e evidência de uso deve orientar a revisão.
 

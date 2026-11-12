@@ -16902,6 +16902,168 @@
       "statement": "Uma campanha interna que apresenta as vantagens de um novo procedimento conclui a gestão da mudança mesmo que as equipes continuem sem acesso às ferramentas necessárias.",
       "correctAnswer": "E",
       "explanation": "A campanha apoia a adoção. A transição também depende de recursos, condições de execução e acompanhamento."
+    },
+    {
+      "id": "cam-cs-reuniao-com-prazo-para-duvidas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / canais",
+      "articleId": "art-73d4a195e86c02bf",
+      "conceptId": "reuniao-com-prazo-para-duvidas",
+      "mechanism": "reuniao-com-prazo-para-duvidas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Terceiro conjunto: critérios para escolher e combinar canais"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md",
+        "section": "Terceiro conjunto: critérios para escolher e combinar canais"
+      },
+      "statement": "Se uma mudança entra em vigor na segunda-feira, reservar um momento para perguntas antes dessa data permite ajustar a orientação antes de sua aplicação.",
+      "correctAnswer": "C",
+      "explanation": "O canal síncrono permite identificar dúvidas enquanto ainda há tempo para esclarecer o procedimento."
+    },
+    {
+      "id": "cam-cs-alcance-por-turno-com-bases-distintas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / canais",
+      "articleId": "art-73d4a195e86c02bf",
+      "conceptId": "alcance-por-turno-com-bases-distintas",
+      "mechanism": "alcance-por-turno-com-bases-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Quarto conjunto: fluxos, acesso e segmentação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md",
+        "section": "Quarto conjunto: fluxos, acesso e segmentação"
+      },
+      "statement": "Um comunicado chega a 80 de 100 pessoas do turno diurno e a 30 de 40 do noturno. A cobertura dos dois turnos juntos é exatamente 77,5%.",
+      "correctAnswer": "E",
+      "explanation": "A cobertura combinada é 110 de 140, cerca de 78,6%. A média simples de 80% e 75% daria peso igual a grupos de tamanhos diferentes."
+    },
+    {
+      "id": "cam-cs-valor-declarado-e-pratica-divergente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / cultura",
+      "articleId": "art-b0ad4f6e375a912c",
+      "conceptId": "valor-declarado-e-pratica-divergente",
+      "mechanism": "valor-declarado-e-pratica-divergente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b0ad4f6e375a912c#Schein: o que cada um dos três níveis classifica?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md",
+        "section": "Schein: o que cada um dos três níveis classifica?"
+      },
+      "statement": "Uma organização declara que aceita sugestões, mas pune repetidamente quem questiona decisões. A divergência justifica examinar as práticas antes de inferir que o valor declarado é compartilhado.",
+      "correctAnswer": "C",
+      "explanation": "A declaração indica um valor professado. Práticas recorrentes podem revelar pressupostos diferentes."
+    },
+    {
+      "id": "cam-cs-retorno-sem-identificar-autores",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / escuta",
+      "articleId": "art-9f3c27d018b5e64a",
+      "conceptId": "retorno-sem-identificar-autores",
+      "mechanism": "retorno-sem-identificar-autores",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3c27d018b5e64a#Segundo mecanismo: escuta, voz e resposta institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md",
+        "section": "Segundo mecanismo: escuta, voz e resposta institucional"
+      },
+      "statement": "Uma equipe pode informar quais temas surgiram numa consulta interna e explicar seus encaminhamentos sem divulgar a identidade de quem fez cada sugestão.",
+      "correctAnswer": "C",
+      "explanation": "É possível fechar o ciclo de escuta com resultados agregados e critérios de decisão. Identificar as pessoas não é necessário para esse retorno."
+    },
+    {
+      "id": "cam-cs-mesma-media-distribuicoes-distintas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / clima",
+      "articleId": "art-b0ad4f6e375a912c",
+      "conceptId": "mesma-media-distribuicoes-distintas",
+      "mechanism": "mesma-media-distribuicoes-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b0ad4f6e375a912c#Schneider, Ehrhart e Macey: conceito e unidade de clima"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md",
+        "section": "Schneider, Ehrhart e Macey: conceito e unidade de clima"
+      },
+      "statement": "Em uma escala de 1 a 5, duas equipes têm média 3. Na primeira, todas as respostas são 3. Na segunda, metade é 1 e metade é 5. A média igual demonstra que o grau de concordância interna é igual.",
+      "correctAnswer": "E",
+      "explanation": "As médias coincidem, mas a dispersão difere. Na primeira há unanimidade e na segunda há polarização."
+    },
+    {
+      "id": "cam-cs-instrucao-comum-e-modulo-especifico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / funções e fluxos",
+      "articleId": "art-806546892285426f",
+      "conceptId": "instrucao-comum-e-modulo-especifico",
+      "mechanism": "instrucao-comum-e-modulo-especifico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-806546892285426f#7. Segmentação do público interno"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/09 - comunicacao interna.md",
+        "section": "7. Segmentação do público interno"
+      },
+      "statement": "Uma orientação interna pode manter um núcleo comum sobre a finalidade da mudança e oferecer instruções diferentes para grupos com responsabilidades distintas.",
+      "correctAnswer": "C",
+      "explanation": "O núcleo preserva a coerência da mensagem. As instruções segmentadas correspondem às ações esperadas de cada grupo."
     }
   ]
 }

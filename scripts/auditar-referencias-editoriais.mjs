@@ -95,7 +95,7 @@ for (const [id, info] of docs) {
       if (spans.some(([a,b]) => offset >= a && offset < b)) continue;
       // Códigos em tabelas de planejamento devem ser revisados, mas nao corrigidos automaticamente.
       const inStructure = /^\s*(?:#{1,6}\s|\||\d+[.)]\s|[-*]\s)/.test(line);
-      mark(id, i + 1 + lineOffset, inStructure ? 'codigo_curricular_em_estrutura' : 'referencia_em_prosa', match[0], line.trim().slice(0, 180));
+      mark(id, i + 1 + lineOffset, inStructure ? 'codigo_curricular_em_estrutura' : 'referencia_em_prosa', match[0]);
     }
     const md = /\[([^\]]+)\]\(([^)]+)\)/g;
     while ((match = md.exec(cleaned))) {

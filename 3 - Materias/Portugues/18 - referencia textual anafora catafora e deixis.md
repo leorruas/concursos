@@ -169,19 +169,19 @@ No trecho “A Mesa Diretora convocou os líderes partidários e os presidentes 
 - [ ] Errado
 
 > **Gabarito: ERRADO**  
-> **Comentário**: Na correlação anafórica estrita entre dois termos antecedentes, o demonstrativo **este(s)** retoma obrigatoriamente o elemento **mais próximo** (o último citado na superfície textual), ao passo que **aquele(s)** retoma o elemento **mais distante** (o primeiro citado). No texto, o termo mais próximo de *estes* é *os presidentes de comissão*; logo, coube a eles a organização das pautas. *Àqueles* retoma *os líderes partidários*. O item é duplamente errado ao inverter a remissão sintática e justificar a escolha por critérios de "relevância hierárquica", critério extralinguístico inexistente na regra de coesão demonstrativa.
+> **Comentário**: Na correlação anafórica estrita entre dois termos antecedentes, o par correlativo **estes/àqueles** retoma, **na construção apresentada**, o elemento mais recente (*os presidentes de comissão*) e o primeiro citado (*os líderes partidários*), respectivamente. Esse critério de ordenação **não substitui** a análise de contexto e sentido para outros usos anafóricos. No texto, o termo mais próximo de *estes* é *os presidentes de comissão*; logo, coube a eles a organização das pautas. *Àqueles* retoma *os líderes partidários*. O item é duplamente errado ao inverter a remissão sintática e justificar a escolha por critérios de "relevância hierárquica", critério extralinguístico inexistente na regra de coesão demonstrativa.
 
 ---
 
 ### Questão 2
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-No fragmento “A Casa iniciou os trabalhos e submeteu a voto o projeto; esse ato restabeleceu a regularidade regimental”, a expressão “esse ato” desempenha função anafórica encapsuladora, na medida em que rotula e resume a proposição antecedente de abertura dos trabalhos e votação da matéria.
+No fragmento “A Casa iniciou os trabalhos e submeteu o projeto à votação; esse conjunto de providências permitiu retomar a tramitação regimental”, a expressão “esse conjunto de providências” desempenha função anafórica encapsuladora, pois reúne e rotula as duas ações anteriormente enunciadas.
 
 - [ ] Certo
 - [ ] Errado
 
 > **Gabarito: CERTO**  
-> **Comentário**: O item conceitua com precisão a **anáfora encapsuladora** (ou rotuladora). A expressão *esse ato* não substitui um substantivo isolado, mas engloba, sintetiza e sintetiza conceitualmente a totalidade das ações descritas na oração anterior (*iniciar os trabalhos e submeter o projeto a voto*), conferindo coesão macroestrutural ao período.
+> **Comentário**: O item conceitua com precisão a **anáfora encapsuladora** (ou rotuladora). A expressão *esse conjunto de providências* retoma a **sequência formada por iniciar os trabalhos e submeter o projeto à votação**. O núcleo plural e a palavra *conjunto* delimitam explicitamente a retomada de mais de uma ação. Compare com *“a Casa submeteu o projeto à votação; esse ato permitiu...”*, em que *esse ato* pode retomar só a votação. O gabarito CERTO se refere **à versão revista e inequívoca do item inédito**.
 
 ---
 

@@ -193,6 +193,49 @@ Leia o texto a seguir, adaptado do padrão típico de provas do Cebraspe para a 
 * **Fatores de textualidade, macroestrutura e progressão temática em Língua Portuguesa (paralelo teórico):** [[3 - Materias/Portugues/12 - texto contexto e producao de sentido|12 • Texto, contexto e produção de sentido (CAM-LP-001)]] e [[3 - Materias/Portugues/13 - tema tese e progressao tematica|13 • Tema, tese e progressão temática (CAM-LP-002)]].
 * **Próximo passo na trilha de Inglês (Informações explícitas, inferências e limites da dedução):** Unidade `CAM-ING-002`.
 
+
+## 8.1. Transferência para texto não institucional: leitura, evidência e limites
+
+O texto a seguir é **inédito e ficcional, criado para estudo**. Não é reportagem publicada nem questão oficial da Cebraspe. Sua finalidade é testar a leitura de uma situação fora do vocabulário legislativo.
+
+> **Reading formats at a city library**
+>
+> **Paragraph 1.** A neighborhood library recently asked eighty of its registered members how they read longer books and consult short reference materials. A majority of the respondents preferred printed copies for extended reading, while many said that digital materials were convenient for quick searches. The library did not survey the city's residents as a whole.
+>
+> **Paragraph 2.** Digital lending can make selected collections accessible without a trip to the building. However, licensing restrictions may limit the number of simultaneous loans, and access still depends on suitable devices and connectivity. Printed collections, in turn, require physical storage and maintenance.
+>
+> **Paragraph 3.** These differences suggest that the two formats serve partly distinct needs. Rather than treating digital and print collections as competitors with a single winner, the library should consider access conditions, readers' purposes and the costs of maintaining each service.
+
+**Leitura orientada:** o assunto é a relação entre empréstimo digital e acervo impresso; a tese está sobretudo no terceiro parágrafo: avaliar formatos segundo necessidades e condições, sem exigir exclusividade. O primeiro parágrafo apresenta evidência **limitada**: oitenta membros cadastrados, não uma amostra de todos os habitantes. O segundo acrescenta vantagens e restrições de ambos os formatos. O terceiro transforma essa comparação em recomendação.
+
+**Caso progressivo:** se a amostra passasse de *registered members* para *all city residents*, a inferência sobre a população mudaria, mas ainda seria necessário verificar como a pesquisa foi conduzida. Se *may limit* fosse substituído por *always prevents*, a intensidade da conclusão aumentaria sem apoio no texto. Se a recomendação final fosse omitida, restariam descrição e contraste, mas o propósito prescritivo ficaria menos explícito.
+
+### Exercícios inéditos: julgue C/E com apoio nos parágrafos
+
+**Item A.** The primary purpose of the passage is to recommend that the library assess different reading formats according to users' needs and practical constraints.
+
+**Gabarito: Certo.** O terceiro parágrafo propõe avaliar condições de acesso, finalidade e custos, sem declarar vencedor universal. O verbo *should consider* apresenta a recomendação central.
+
+**Item B.** The survey proves that most people living in the city prefer printed books for long reading sessions.
+
+**Gabarito: Errado.** A amostra abrange oitenta membros cadastrados de uma biblioteca. A frase *did not survey the city's residents as a whole* impede generalizar o resultado a toda a população.
+
+**Item C.** Paragraph 2 rejects digital lending because licensing restrictions make online access impossible.
+
+**Gabarito: Errado.** O parágrafo reconhece a vantagem de acesso remoto e apresenta restrições possíveis: *may limit* não equivale a impossibilidade. A conclusão é de qualificação, não rejeição.
+
+**Item D.** The word *These* at the beginning of paragraph 3 refers to the differences between the two reading formats discussed earlier.
+
+**Gabarito: Certo.** O demonstrativo resume vantagens e limites descritos no segundo parágrafo, funcionando como referência textual a informações anteriores.
+
+**Item E.** The author argues that printed books should be eliminated because digital access is always cheaper.
+
+**Gabarito: Errado.** O texto não compara preços absolutos nem recomenda eliminar o acervo impresso. *Rather than treating ... as competitors with a single winner* rejeita expressamente a escolha exclusiva.
+
+**Critério de correção:** antes de julgar, identificar o parágrafo probatório e o termo que define alcance, como *registered*, *may*, *should*, *rather than* e *these*. Uma afirmação plausível sobre bibliotecas pode ser errada se não for autorizada por este texto.
+
+---
+
 ## 9. Referências teóricas e metodológicas
 
 * SWALES, John M.; FEAK, Christine B. **Academic Writing for Graduate Students: Essential Tasks and Skills**. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Capítulos sobre *Problem-Solution Texts* e *Data Commentary*).

@@ -23864,6 +23864,222 @@
       "statement": "A obrigação de comunicar-se com todos os cidadãos brasileiros é compatível com a adoção de canais diferentes para públicos com características e interesses distintos.",
       "correctAnswer": "C",
       "explanation": "O art. 8º combina a ampliação do acesso com o mapeamento de públicos e a escolha de canais adequados a cada um."
+    },
+    {
+      "id": "cam-cs-vantagem-sem-pagamento-em-dinheiro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "vantagem-sem-pagamento-em-dinheiro",
+      "mechanism": "vantagem-sem-pagamento-em-dinheiro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Vedações (arts. 11 e 12): condutas e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Vedações (arts. 11 e 12): condutas e limites"
+      },
+      "statement": "Um produtor de conteúdo institucional aceita uma hospedagem indevida oferecida por interessado na cobertura. A vedação do Ato da Mesa nº 218/2025 pode alcançar essa conduta mesmo sem transferência de dinheiro.",
+      "correctAnswer": "C",
+      "explanation": "O art. 11, II, abrange pagamentos e outras vantagens indevidas."
+    },
+    {
+      "id": "cam-cs-dados-falsos-com-atribuicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "dados-falsos-com-atribuicao",
+      "mechanism": "dados-falsos-com-atribuicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Vedações (arts. 11 e 12): condutas e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Vedações (arts. 11 e 12): condutas e limites"
+      },
+      "statement": "A equipe sabe que o número de votos informado por um entrevistado é falso. Na produção institucional, atribuir o número à fonte autoriza apresentá-lo como dado confirmado.",
+      "correctAnswer": "E",
+      "explanation": "A atribuição não torna verdadeiro o dado. O art. 11, III, veda promover divulgação de informação sabidamente inverídica."
+    },
+    {
+      "id": "cam-cs-recorte-de-imagem-sem-mudar-sentido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "recorte-de-imagem-sem-mudar-sentido",
+      "mechanism": "recorte-de-imagem-sem-mudar-sentido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Vedações (arts. 11 e 12): condutas e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Vedações (arts. 11 e 12): condutas e limites"
+      },
+      "statement": "A equipe corta as margens de uma imagem para adequá-la à tela, preservando o contexto e o sentido do registro. A mera edição visual não caracteriza a conduta vedada pelo art. 11, IV.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo alcança a retirada de contexto que leva à distorção do sentido. Ajustar o enquadramento sem esse efeito não satisfaz o critério."
+    },
+    {
+      "id": "cam-cs-entrevista-nao-legitima-opiniao-editorial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "entrevista-nao-legitima-opiniao-editorial",
+      "mechanism": "entrevista-nao-legitima-opiniao-editorial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Vedações (arts. 11 e 12): condutas e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Vedações (arts. 11 e 12): condutas e limites"
+      },
+      "statement": "A ressalva para perguntas de esclarecimento permite ao apresentador de um canal oficial declarar apoio pessoal à proposta debatida, desde que, em seguida, entreviste alguém contrário a ela.",
+      "correctAnswer": "E",
+      "explanation": "O art. 11 distingue esclarecer posições de exprimir opinião própria. Entrevistar um opositor não altera a natureza da declaração de apoio."
+    },
+    {
+      "id": "cam-cs-link-promocao-comercial-remetida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "link-promocao-comercial-remetida",
+      "mechanism": "link-promocao-comercial-remetida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida"
+      },
+      "statement": "Uma publicação institucional remete o leitor a uma página externa cujo conteúdo constitui propaganda comercial. A referência pode ser alcançada pela vedação aplicável mesmo que o anúncio não esteja reproduzido na publicação institucional.",
+      "correctAnswer": "C",
+      "explanation": "O inciso VIII abrange referências externas que incorram em vedação do dispositivo. A propaganda comercial está contemplada no inciso IV."
+    },
+    {
+      "id": "cam-cs-credito-sem-licenca-de-reproducao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "credito-sem-licenca-de-reproducao",
+      "mechanism": "credito-sem-licenca-de-reproducao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida"
+      },
+      "statement": "Uma equipe inclui em produto institucional uma ilustração protegida cuja divulgação depende de autorização. Identificar o autor supre, por si só, a autorização que falta.",
+      "correctAnswer": "E",
+      "explanation": "O inciso VI trata da autorização de divulgação. O crédito identifica a autoria, mas não equivale à autorização exigida no caso."
+    },
+    {
+      "id": "cam-cs-proporcionalidade-sem-favorecimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "proporcionalidade-sem-favorecimento",
+      "mechanism": "proporcionalidade-sem-favorecimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Vedações (arts. 11 e 12): condutas e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Vedações (arts. 11 e 12): condutas e limites"
+      },
+      "statement": "Respeitar a proporcionalidade da representação partidária na distribuição de espaço não autoriza a equipe a endossar uma das posições políticas que divulga.",
+      "correctAnswer": "C",
+      "explanation": "O art. 12 exige respeito à proporcionalidade e veda favorecimento. Cumprir uma condição não dispensa a outra."
+    },
+    {
+      "id": "cam-cs-propaganda-sindical-como-excecao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "propaganda-sindical-como-excecao",
+      "mechanism": "propaganda-sindical-como-excecao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Oito vedações do art. 24 do Ato da Mesa nº 80/2019: remissão conferida"
+      },
+      "statement": "A remissão feita pela Política de Comunicação alcança propaganda eleitoral e partidária, mas permite propaganda sindical em produtos de comunicação da Câmara por se tratar de representação profissional.",
+      "correctAnswer": "E",
+      "explanation": "O inciso I inclui propaganda sindical ao lado da eleitoral e da político-partidária."
     }
   ]
 }

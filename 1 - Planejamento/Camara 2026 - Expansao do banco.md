@@ -94,3 +94,5 @@ Total validado: 600/2.000. Próximo lote: avançar para o item 8 de Comunicaçã
 Oito itens sobre texto, estilo e nomeação em coberturas institucionais, vinculados ao artigo 73. A redação foi cotejada com a seção Texto e estilo do Manual de Comunicação da Câmara.
 
 Oito itens adicionais sobre requisitos, públicos, canais e atribuições foram cotejados com os arts. 8º a 10, 13 e 14 do Ato da Mesa nº 218/2025. O lote soma 16 itens redigidos.
+
+Oito casos adicionais sobre vedações dos arts. 11 e 12 e do dispositivo remetido. As questões da remissão ainda serão cotejadas com o texto atualizado do Ato da Mesa nº 80/2019 antes da homologação. O lote soma 24 itens redigidos.

@@ -178,6 +178,24 @@ A perda da nacionalidade possui hoje regime alterado pela EC nº 131/2023. Ver [
 - **“Universal” não significa “sem condições”.**
 - **Idade mínima: memorize o número e confira o momento de aferição.**
 
+## Exercícios inéditos C/E: aplicação de direitos políticos
+
+**Caso progressivo.** Uma pessoa de 17 anos possui título eleitoral, e outra de 19 anos é conscrita durante o serviço militar obrigatório. A primeira pode votar facultativamente; a segunda encontra impedimento constitucional ao **alistamento enquanto conscrita**. Acrescente um terceiro candidato analfabeto: seu voto pode ser facultativo, mas sua **inelegibilidade constitucional** permanece. Cada mudança afeta um requisito específico.
+
+**Item 1 (inédito, Câmara/Cebraspe).** O analfabeto está dispensado do alistamento e do voto obrigatório, mas pode candidatar-se a vereador desde que tenha pelo menos dezoito anos.
+
+**Gabarito: Errado.** O art. 14, § 1º, II, a, admite o voto facultativo, mas o **§ 4º declara os analfabetos inelegíveis**. Idade mínima não afasta inelegibilidade.
+
+**Item 2 (inédito, Câmara/Cebraspe).** Uma lei que altere o processo eleitoral entra em vigor na data da publicação, mas não se aplica a eleição que ocorra até um ano da data de sua vigência.
+
+**Gabarito: Certo.** É a distinção literal do **art. 16 da Constituição** entre vigência da lei e aplicação ao pleito. Uma alteração publicada menos de um ano antes da eleição não é por isso automaticamente inválida.
+
+**Item 3 (inédito, Câmara/Cebraspe).** A ação de impugnação de mandato eletivo pode ser proposta até quinze dias contados da diplomação, instruída com prova de abuso do poder econômico, corrupção ou fraude.
+
+**Gabarito: Certo.** O **art. 14, § 10, da Constituição** dispõe sobre prazo e causas; o § 11 estabelece segredo de justiça e responsabilização por iniciativa temerária ou de manifesta má-fé.
+
+**Fonte:** [Constituição consolidada, arts. 14–16](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). Estes itens são autorais e não foram extraídos de provas oficiais.
+
 ## Relações com outros temas
 
 - [[3 - Materias/Direito Constitucional/04 - nacionalidade|Nacionalidade]]: nacionalidade é condição de elegibilidade e sua perda afeta direitos políticos.

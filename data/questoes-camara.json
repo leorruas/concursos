@@ -22582,6 +22582,114 @@
       "statement": "Um aviso resumido pode facilitar a participação se encaminhar a pessoa ao documento de referência e preservar no próprio aviso as condições indispensáveis para agir a tempo.",
       "correctAnswer": "C",
       "explanation": "O resumo orienta o primeiro passo. O documento aprofunda a informação, sem que prazos ou condições essenciais precisem ficar ocultos."
+    },
+    {
+      "id": "cam-cs-classificacao-com-mesmo-tema",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "classificacao-com-mesmo-tema",
+      "mechanism": "classificacao-com-mesmo-tema",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "statement": "Uma secretaria pode explicar os critérios de um programa e um partido pode defender mudanças nesses mesmos critérios. As duas peças podem pertencer a categorias diferentes de comunicação, embora tratem da mesma política pública.",
+      "correctAnswer": "C",
+      "explanation": "A classificação considera o agente, sua finalidade e a posição em que fala. O assunto compartilhado não torna equivalentes a orientação governamental e a defesa de uma posição partidária."
+    },
+    {
+      "id": "cam-cs-posicao-minoritaria-e-decisao-do-colegiado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "posicao-minoritaria-e-decisao-do-colegiado",
+      "mechanism": "posicao-minoritaria-e-decisao-do-colegiado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      },
+      "statement": "Ao resumir uma votação, a equipe pode apresentar a posição de uma bancada minoritária como resultado oficial, desde que reproduza fielmente as palavras da liderança.",
+      "correctAnswer": "E",
+      "explanation": "A fidelidade à fala não corrige a atribuição indevida. A cobertura precisa distinguir a posição da bancada do resultado da deliberação."
+    },
+    {
+      "id": "cam-cs-participacao-com-limite-explicito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "participacao-com-limite-explicito",
+      "mechanism": "participacao-com-limite-explicito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Autor: Jorge Duarte e a perspectiva do cidadão"
+      },
+      "statement": "Explicar quais aspectos de um projeto ainda podem ser alterados por uma consulta ajuda os cidadãos a formular contribuições pertinentes.",
+      "correctAnswer": "C",
+      "explanation": "A informação sobre o alcance da consulta esclarece em que pontos a participação pode influenciar a decisão."
+    },
+    {
+      "id": "cam-cs-fala-citada-e-responsabilidade-do-resumo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "fala-citada-e-responsabilidade-do-resumo",
+      "mechanism": "fala-citada-e-responsabilidade-do-resumo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      },
+      "statement": "Ao resumir em discurso indireto a fala de um parlamentar, a equipe pode omitir uma condição que muda seu sentido porque o resumo traz o nome do autor.",
+      "correctAnswer": "E",
+      "explanation": "A atribuição identifica a fonte. O resumo continua responsável por preservar as condições que definem o sentido da fala."
     }
   ]
 }

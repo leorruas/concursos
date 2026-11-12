@@ -18400,6 +18400,168 @@
       "statement": "Uma peça apresenta a organização como aberta ao diálogo. Sua publicação garante que a imagem formada pelos usuários reproduza essa identidade.",
       "correctAnswer": "E",
       "explanation": "A expressão pública da identidade pode influenciar impressões. A imagem também depende da interpretação e da experiência dos públicos."
+    },
+    {
+      "id": "cam-cs-pico-por-republicacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-482d6ef913a0c75b",
+      "conceptId": "pico-por-republicacao",
+      "mechanism": "pico-por-republicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-482d6ef913a0c75b#Sinais e fontes: monitorar não é medir todo o público"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "section": "Sinais e fontes: monitorar não é medir todo o público"
+      },
+      "statement": "Se uma denúncia é republicada cem vezes a partir do mesmo relato, o total de republicações comprova que cem pessoas sofreram o problema.",
+      "correctAnswer": "E",
+      "explanation": "A contagem registra circulação. Para estimar ocorrências, é preciso identificar relatos independentes e verificar o fato."
+    },
+    {
+      "id": "cam-cs-gravidade-e-visibilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-482d6ef913a0c75b",
+      "conceptId": "gravidade-e-visibilidade",
+      "mechanism": "gravidade-e-visibilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-482d6ef913a0c75b#Diagnóstico: cinco perguntas que não podem ser fundidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "section": "Diagnóstico: cinco perguntas que não podem ser fundidas"
+      },
+      "statement": "Uma falha que impede um pequeno grupo de cumprir um prazo pode exigir resposta urgente mesmo quando gera poucas menções públicas.",
+      "correctAnswer": "C",
+      "explanation": "O diagnóstico considera o dano e a urgência para quem foi afetado. O volume de menções mede visibilidade."
+    },
+    {
+      "id": "cam-cs-instrucao-segmentada-por-impacto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "instrucao-segmentada-por-impacto",
+      "mechanism": "instrucao-segmentada-por-impacto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Coombs: informação instrutiva e informação de adaptação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Coombs: informação instrutiva e informação de adaptação"
+      },
+      "statement": "Se a interrupção exige que apenas as pessoas que iniciaram um pedido refaçam o envio, a orientação deve explicitar quem precisa agir.",
+      "correctAnswer": "C",
+      "explanation": "A informação instrutiva identifica a ação necessária e o grupo ao qual ela se aplica. Uma orientação indiscriminada pode gerar pedidos duplicados."
+    },
+    {
+      "id": "cam-cs-medida-cautelar-antes-da-causa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "medida-cautelar-antes-da-causa",
+      "mechanism": "medida-cautelar-antes-da-causa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Operação, comunicação e obrigação legal"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Operação, comunicação e obrigação legal"
+      },
+      "statement": "Uma equipe pode suspender temporariamente novos agendamentos e explicar a medida enquanto a causa das duplicidades continua sob investigação.",
+      "correctAnswer": "C",
+      "explanation": "A ação limita o impacto observado. Informar a providência e a incerteza permite orientar os usuários sem antecipar a causa."
+    },
+    {
+      "id": "cam-cs-reclamacoes-caem-com-canal-fechado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "reclamacoes-caem-com-canal-fechado",
+      "mechanism": "reclamacoes-caem-com-canal-fechado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Avaliação: o que é possível concluir?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Avaliação: o que é possível concluir?"
+      },
+      "statement": "Uma queda nas reclamações após a retirada do formulário de atendimento demonstra redução da insatisfação.",
+      "correctAnswer": "E",
+      "explanation": "A retirada altera a possibilidade de registrar reclamações. O total observado pode cair sem mudança na insatisfação."
+    },
+    {
+      "id": "cam-cs-correcao-com-indicacao-de-horario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "correcao-com-indicacao-de-horario",
+      "mechanism": "correcao-com-indicacao-de-horario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Seis princípios CERC: rapidez e precisão coexistem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Seis princípios CERC: rapidez e precisão coexistem"
+      },
+      "statement": "Se o prazo divulgado no primeiro aviso estava errado, indicar na atualização qual informação mudou e quando ajuda o público a identificar a orientação vigente.",
+      "correctAnswer": "C",
+      "explanation": "Uma correção explícita permite distinguir versões e reduz a chance de continuar usando a informação anterior."
     }
   ]
 }

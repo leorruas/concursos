@@ -84,6 +84,110 @@ Na ficha de cada produção, registrar apenas no **cofre privado**: concurso e c
 | Linguagem | Há erro de grafia, construção ou vocabulário? | Corrigir e reler o período |
 | Espaço e apresentação | A folha definitiva é legível e está dentro do limite? | Cortar redundância, manter anonimato |
 
+## Folhas simuladas completas para treinar limites de linhas
+
+Os exemplos digitados mostram conteúdo, mas **não comprovam que uma redação cabe na folha física**. O edital da Câmara prevê duas questões com até 20 linhas e uma peça com até 50 linhas. Os dois quadros seguintes são **pautas didáticas integrais**, não reproduções das medidas da folha definitiva, nem formulários oficiais. Antes de treinar, use folha física compatível com o concurso, quando disponível.
+
+### Questão: 20 linhas de simulação
+
+```text
+ 1 _______________________________________________
+ 2 _______________________________________________
+ 3 _______________________________________________
+ 4 _______________________________________________
+ 5 _______________________________________________
+ 6 _______________________________________________
+ 7 _______________________________________________
+ 8 _______________________________________________
+ 9 _______________________________________________
+10 _______________________________________________
+11 _______________________________________________
+12 _______________________________________________
+13 _______________________________________________
+14 _______________________________________________
+15 _______________________________________________
+16 _______________________________________________
+17 _______________________________________________
+18 _______________________________________________
+19 _______________________________________________
+20 _______________________________________________
+```
+
+**Comando para o teste A (autoral):** “Diferencie alcance e compreensão de uma comunicação institucional e descreva dois procedimentos para verificar compreensão.” Faça grade de objetos antes de escrever: distinção, procedimento 1, procedimento 2, condição de validade. Produza sem consultar [[05 - resposta conceitual curta de 20 linhas|os modelos comentados de questão curta]].
+
+### Peça: 50 linhas de simulação
+
+```text
+ 1 _______________________________________________
+ 2 _______________________________________________
+ 3 _______________________________________________
+ 4 _______________________________________________
+ 5 _______________________________________________
+ 6 _______________________________________________
+ 7 _______________________________________________
+ 8 _______________________________________________
+ 9 _______________________________________________
+10 _______________________________________________
+11 _______________________________________________
+12 _______________________________________________
+13 _______________________________________________
+14 _______________________________________________
+15 _______________________________________________
+16 _______________________________________________
+17 _______________________________________________
+18 _______________________________________________
+19 _______________________________________________
+20 _______________________________________________
+21 _______________________________________________
+22 _______________________________________________
+23 _______________________________________________
+24 _______________________________________________
+25 _______________________________________________
+26 _______________________________________________
+27 _______________________________________________
+28 _______________________________________________
+29 _______________________________________________
+30 _______________________________________________
+31 _______________________________________________
+32 _______________________________________________
+33 _______________________________________________
+34 _______________________________________________
+35 _______________________________________________
+36 _______________________________________________
+37 _______________________________________________
+38 _______________________________________________
+39 _______________________________________________
+40 _______________________________________________
+41 _______________________________________________
+42 _______________________________________________
+43 _______________________________________________
+44 _______________________________________________
+45 _______________________________________________
+46 _______________________________________________
+47 _______________________________________________
+48 _______________________________________________
+49 _______________________________________________
+50 _______________________________________________
+```
+
+**Comando para o teste B (autoral):** “Elabore nota técnica, em até 50 linhas, para investigar dificuldades de localização de informações de uma audiência pública, propondo três medidas distintas e um modo pertinente de acompanhar cada uma.” O gênero foi escolhido para este exercício, **não previsto como formato obrigatório pela banca**. Consulte o modelo e o contramodelo em [[06 - planejamento e escrita de peca tecnica|planejamento e escrita de peça técnica]] **somente após a primeira tentativa**.
+
+### Ficha de correção, preenchida depois de cada escrita
+
+| Elemento | Evidência obrigatória no próprio texto | Registro |
+| --- | --- | --- |
+| Origem | Caderno oficial identificável ou comando autoral | Não chamar exercício inédito de questão oficial |
+| Comando | Verbo, objeto, quantidade e condições exigidas | Copiar o comando antes da grade |
+| Conteúdo | Linha e frase literal que atendem a cada exigência | Atendido, parcial, ausente ou incorreto |
+| Conexão lógica | Fato, regra ou conceito, mecanismo e consequência | Explicitar qualquer salto de raciocínio |
+| Língua | Erros observados, com localização e revisão | Separar avaliação linguística da cobertura |
+| Limite | Número de linhas efetivamente escritas segundo a regra da prova | Revisar texto que ultrapasse a pauta |
+| Reescrita | Frase corrigida e quesito recuperado | Reescrever sem perder outro requisito |
+
+**Regra de decisão:** se nenhuma frase responde ao aspecto, marque *ausente*. Se cita parte correta sem explicar a relação pedida, marque *parcial*. Se a frase contraria o conceito ou a norma verificada, marque *incorreto* e corrija na fonte. Se atende à operação e ao objeto integralmente, marque *atendido*. Divida o quesito quando houver acerto e erro independentes; não invente pesos nem nota Cebraspe.
+
+**Transferência espaçada, sem publicação de respostas pessoais:** após três dias, conserve o conceito, mas troque o verbo do comando; após sete dias, mantenha o verbo e altere o contexto de aplicação. O primeiro reteste verifica mudança de operação, o segundo mudança de caso. Uma melhora na cópia do mesmo texto não comprova transferência. Os registros individuais pertencem exclusivamente ao cofre privado.
+
 ## Exercício de revisão com limite real
 
 Retomar a resposta de 20 linhas do [[05 - resposta conceitual curta de 20 linhas|exercício de acessibilidade]] ou a peça do [[06 - planejamento e escrita de peca tecnica|exercício de comunicação digital]]. **Primeiro, sem olhar o modelo**, produza uma versão manuscrita; faça a passagem A e marque todos os itens parciais/ausentes; na passagem B, conte linhas e revise erros. Reescreva em tempo limitado e compare trechos, não apenas impressões globais.

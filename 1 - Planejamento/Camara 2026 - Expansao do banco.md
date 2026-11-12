@@ -38,4 +38,4 @@ Quarenta questões geradas para ética na comunicação, item 6 do edital, vincu
 
 ## Lote 007 em elaboração
 
-Vinte questões geradas sobre gestão de equipes publicitárias, item 7 do edital, vinculadas ao artigo 121. Ampliar com casos sobre coordenação interfuncional, segurança psicológica, avaliação e limites de autonomia.
+Vinte e oito questões geradas sobre gestão de equipes publicitárias, item 7 do edital, vinculadas ao artigo 121. Ampliar com casos sobre coordenação interfuncional, segurança psicológica, avaliação e limites de autonomia.

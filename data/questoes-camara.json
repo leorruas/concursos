@@ -13732,6 +13732,222 @@
       "statement": "Definir previamente critérios comuns de qualidade impede que uma equipe escolha de forma autônoma como realizar o trabalho.",
       "correctAnswer": "E",
       "explanation": "Critérios delimitam o resultado esperado. A equipe pode escolher os meios dentro dos limites definidos."
+    },
+    {
+      "id": "cam-di-planejamento-e-criacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "planejamento-e-criacao",
+      "mechanism": "planejamento-e-criacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Papéis profissionais: especialização não é exclusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Papéis profissionais: especialização não é exclusividade"
+      },
+      "statement": "Traduzir uma necessidade do público em diretriz para a campanha é uma atividade de planejamento que pode orientar a criação.",
+      "correctAnswer": "C",
+      "explanation": "O planejamento informa o problema e a direção. A criação materializa essa direção em soluções expressivas."
+    },
+    {
+      "id": "cam-di-midia-e-producao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "midia-e-producao",
+      "mechanism": "midia-e-producao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Papéis profissionais: especialização não é exclusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Papéis profissionais: especialização não é exclusividade"
+      },
+      "statement": "Reservar espaço de veiculação e adaptar um arquivo ao formato contratado constituem a mesma responsabilidade profissional.",
+      "correctAnswer": "E",
+      "explanation": "A reserva é uma decisão de mídia. A adaptação é uma atividade de produção, ainda que as duas funções precisem se coordenar."
+    },
+    {
+      "id": "cam-di-raci-execucao-compartilhada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "raci-execucao-compartilhada",
+      "mechanism": "raci-execucao-compartilhada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#RACI: responsabilizar sem confundir execução e aceite"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "RACI: responsabilizar sem confundir execução e aceite"
+      },
+      "statement": "Duas pessoas podem executar partes de uma entrega enquanto uma autoridade definida responde pelo aceite.",
+      "correctAnswer": "C",
+      "explanation": "A matriz distingue quem executa de quem responde pelo resultado e decide sobre o aceite."
+    },
+    {
+      "id": "cam-di-repasse-com-hipotese-pendente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "repasse-com-hipotese-pendente",
+      "mechanism": "repasse-com-hipotese-pendente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Briefing e passagem de trabalho: o que precisa atravessar as equipes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Briefing e passagem de trabalho: o que precisa atravessar as equipes"
+      },
+      "statement": "Ao repassar uma peça, é adequado apresentar como definitivo um dado ainda em confirmação se a equipe seguinte conhece o prazo de publicação.",
+      "correctAnswer": "E",
+      "explanation": "O prazo não resolve a incerteza do dado. O repasse deve registrar a pendência e quem a resolve antes do uso."
+    },
+    {
+      "id": "cam-di-divergencia-de-criterios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "divergencia-de-criterios",
+      "mechanism": "divergencia-de-criterios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Gestão de conflitos, feedback e aprendizagem"
+      },
+      "statement": "Se duas áreas discordam de uma peça porque usam critérios diferentes de sucesso, explicitar a meta comum pode esclarecer se o conflito é de prioridades ou de execução.",
+      "correctAnswer": "C",
+      "explanation": "A comparação torna visíveis os critérios que orientam cada avaliação e permite verificar sua compatibilidade com o objetivo."
+    },
+    {
+      "id": "cam-di-volume-sem-qualidade-de-entrega",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "volume-sem-qualidade-de-entrega",
+      "mechanism": "volume-sem-qualidade-de-entrega",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Avaliação de equipe: atividade, entrega, processo e resultado"
+      },
+      "statement": "Contar mais versões de uma peça produzidas em uma semana comprova que a equipe melhorou a qualidade da entrega.",
+      "correctAnswer": "E",
+      "explanation": "A contagem mede atividade. Qualidade exige verificar critérios de aceite e, quando pertinente, observar resultados com o público."
+    },
+    {
+      "id": "cam-di-aprovacao-tecnica-e-editorial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "aprovacao-tecnica-e-editorial",
+      "mechanism": "aprovacao-tecnica-e-editorial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Decisões, aprovações e segregação de funções"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Decisões, aprovações e segregação de funções"
+      },
+      "statement": "Uma avaliação de resolução, codec e dimensões do arquivo pode ser concluída sem que a aprovação editorial do conteúdo esteja concluída.",
+      "correctAnswer": "C",
+      "explanation": "A avaliação técnica e a editorial examinam critérios diferentes. É possível satisfazer um conjunto antes do outro."
+    },
+    {
+      "id": "cam-di-mudanca-de-escopo-com-impacto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "mudanca-de-escopo-com-impacto",
+      "mechanism": "mudanca-de-escopo-com-impacto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      },
+      "statement": "Acrescentar peças a uma campanha após o planejamento preserva necessariamente os prazos se a data final estiver registrada no cronograma.",
+      "correctAnswer": "E",
+      "explanation": "A data registrada é uma referência. O trabalho adicional pode consumir capacidade ou alterar dependências e exigir replanejamento."
     }
   ]
 }

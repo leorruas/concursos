@@ -101,5 +101,5 @@ Ocorre quando um elemento anafórico (ex: pronome de 3ª pessoa *eles*, *este*, 
 
 **Fontes Brutas:**
 - `inbox/2026.md` (ingerido)
-- [[11-06-2026|Inbox - 02-06-2026]]
-- [[00 inbox/00 ingestão]]
+
+

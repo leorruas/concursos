@@ -89,6 +89,24 @@ O caso envolve a obrigação de **universalização postal**: atender também lo
 
 **Fontes do caso (com data):** [Ministério da Gestão, relatório agregado 2025, p. 35, ano-base 2024](https://www.gov.br/gestao/pt-br/assuntos/estatais/copy_of_transparencia/RelatrioEstataisFINAL2808WEB.pdf); [TCU, acompanhamento da reestruturação, 02/06/2026](https://portal.tcu.gov.br/imprensa/noticias/tribunal-de-contas-da-uniao-analisa-reestruturacao-dos-correios); [TCU, auditoria sobre universalização, 22/07/2026](https://portal.tcu.gov.br/imprensa/noticias/tcu-propoe-medidas-para-garantir-sustentabilidade-dos-servicos-postais); [TCU, sumário da política postal, 21/10/2026](https://portal.tcu.gov.br/imprensa/noticias/sumario-executivo-traz-analise-sobre-universalizacao-dos-servicos-postais).
 
+## Exercícios inéditos C/E: controle, dependência e esfera orçamentária
+
+**Item 1 (inédito, Câmara/Cebraspe).** Uma sociedade cujo capital votante é majoritariamente detido pela União deve ser classificada como estatal dependente mesmo quando não recebe recursos do Tesouro para pagar pessoal, custeio ou despesas de capital, pois o controle acionário é suficiente para a dependência fiscal.
+
+**Gabarito: Errado.** O art. 2º, II, da LRF define **empresa controlada** pelo controle da maioria do capital votante; o inciso III exige ainda o **recebimento de recursos do ente controlador** para as finalidades legais da **dependência**. Controle não basta para a segunda classificação.
+
+**Item 2 (inédito, Câmara/Cebraspe).** Uma empresa controlada recebe da União recursos destinados exclusivamente ao aumento da participação acionária do ente controlador. Esse aporte, isoladamente, não caracteriza a dependência financeira prevista no art. 2º, III, da LRF para transferências de capital.
+
+**Gabarito: Certo.** O art. 2º, III, **exclui expressamente, no caso das despesas de capital**, os recursos provenientes de aumento da participação acionária. Examinar finalidade e natureza da transferência antes de enquadrar a estatal.
+
+**Item 3 (inédito, Câmara/Cebraspe).** O prejuízo contábil de uma empresa estatal e a concessão de garantia da União para empréstimo bancário permitem afirmar, sem exame das transferências efetivamente recebidas, que a empresa se tornou estatal dependente.
+
+**Gabarito: Errado.** Prejuízo e garantia podem sinalizar risco fiscal, mas a condição legal de dependência exige o critério do **art. 2º, III**, da LRF. A diferença entre risco e enquadramento jurídico é central no caso dos Correios apresentado acima.
+
+**Caso de aplicação:** mantenha a mesma empresa e mude apenas o **destino do recurso**. Se o controlador aporta capital para aumentar participação acionária, incide a exceção legal pertinente. Se transfere dinheiro para pagar a folha de pessoal, o enquadramento precisa ser reavaliado à luz do inciso III. Se há apenas garantia de empréstimo, não confundir garantia com transferência para custeio. A **esfera da LOA** deve ser determinada após a classificação, não por uma suposição baseada em prejuízo.
+
+**Fonte primária:** [LRF, art. 2º, II e III, texto consolidado](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html); [Constituição, art. 165, § 5º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm). Estes são **itens inéditos autorais**, não questões oficiais do Cebraspe.
+
 ## Relações e fontes
 
 - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]: planejamento e função da lei anual.

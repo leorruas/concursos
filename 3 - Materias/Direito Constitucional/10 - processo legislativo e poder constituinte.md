@@ -1,161 +1,277 @@
 ---
 articleId: art-4c1041281ca44ee5
 articleAliases: ["3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md"]
-title: "🔄 Processo legislativo e poder constituinte"
+title: "Processo legislativo e poder constituinte: como diferenciar os sete tipos de norma"
 type: "conceito"
 status: "ativo"
 created: 2026-06-15
 updated: 2026-11-12
 ---
 
-# 🔄 Processo legislativo e poder constituinte
+# Processo legislativo e poder constituinte: como diferenciar os sete tipos de norma
 
-O processo legislativo disciplina a produção das espécies normativas previstas na Constituição. A teoria do poder constituinte explica a diferença entre o poder que inaugura uma ordem constitucional e os poderes que atuam **dentro** dela. Para prova, as fronteiras mais produtivas são: originário × derivado; lei ordinária × lei complementar; iniciativa × aprovação; sanção/veto × promulgação; limitação circunstancial × cláusula pétrea.
+**Concurso Câmara dos Deputados 2026. Direito Constitucional e processo legislativo.**
 
-## Poder constituinte originário × derivado
+A pergunta central deste artigo é: **quando alguém quer criar uma regra no Brasil, como saber qual instrumento jurídico deve usar?** A resposta começa pelo tipo de decisão, e não pelo número de votos. Primeiro identificamos o assunto; depois, a autoridade competente; por último, o procedimento.
 
-| Característica | Originário | Derivado |
-|---|---|---|
-| função | cria uma nova ordem constitucional | atua com fundamento na Constituição vigente |
-| posição jurídica | inicial e não condicionado pelas regras da Constituição anterior | subordinado e condicionado pela Constituição vigente |
-| exemplo | elaboração de nova Constituição | emenda constitucional; poder decorrente dos Estados |
+A **Constituição Federal** estabelece as regras fundamentais do país e distribui poderes. Outras normas criam regras dentro desse quadro. Algumas tratam de direitos e serviços; outras formalizam decisões do Congresso; outras podem modificar a própria Constituição.
 
-Na formulação doutrinária clássica, o poder originário é juridicamente inicial e autônomo em relação à ordem anterior. Isso não significa ausência de condicionamentos históricos, políticos ou sociais.
+Uma palavra que aparece muito no estudo é **espécie normativa**. Significa simplesmente **tipo de norma**. O art. 59 da Constituição enumera sete tipos: **emenda constitucional, lei complementar, lei ordinária, lei delegada, medida provisória, decreto legislativo e resolução**.
 
-O poder derivado reformador, ao contrário, somente pode atuar dentro dos limites materiais, formais e circunstanciais estabelecidos pela Constituição.
-
-## Espécies do processo legislativo — art. 59
-
-O processo legislativo compreende a elaboração de:
-
-1. emendas à Constituição;
-2. leis complementares;
-3. leis ordinárias;
-4. leis delegadas;
-5. medidas provisórias;
-6. decretos legislativos;
-7. resoluções.
-
-**Disciplina da produção normativa, art. 59, parágrafo único:** uma **lei complementar** dispõe sobre **elaboração, redação, alteração e consolidação das leis**, regulamentada pela **LC nº 95/1998**, sem que isso converta toda matéria legislativa em matéria reservada a lei complementar. A função dessa LC é estabelecer regras de técnica legislativa, distinta do quórum de aprovação e das reservas materiais específicas.
-
-Pegadinha: essa lista de **espécies normativas** não deve ser confundida com a hierarquia simplista de que toda lei complementar seria superior a toda lei ordinária. A diferença central envolve matéria constitucionalmente reservada e quórum de aprovação.
+> [!IMPORTANT]
+> **Três distinções para começar:** (1) *projeto* é proposta ainda em tramitação; *lei* é o resultado do procedimento. (2) Lei ordinária e lei complementar criam regras legais, mas não alteram a Constituição por si. (3) Para alterar o texto da Constituição, a via normal é a **PEC**, que, se aprovada, vira **emenda constitucional**.
 
 ## Lei ordinária × lei complementar
 
-### Definições constitucionais: espécie, matéria e aprovação
+### O que realmente muda?
 
-A **Constituição Federal de 1988 não oferece uma frase de definição conceitual** para “lei ordinária” e “lei complementar”. Ela **reconhece as duas como espécies normativas diferentes** (art. 59, II e III), determina **como são aprovadas** (arts. 47 e 69) e **indica, em dispositivos espalhados pelo texto, quando uma matéria exige lei complementar**. A definição jurídica precisa ser construída a partir dessas regras.
+As duas são **leis**. As duas podem **criar obrigações, reconhecer direitos, organizar serviços, instituir regras novas e alterar leis anteriores**. A diferença principal é **o assunto que a Constituição reservou a cada forma**.
 
-**Lei ordinária (LO)** é a espécie legislativa que, como regra, disciplina os assuntos sujeitos à edição de lei **sem reserva constitucional de lei complementar ou de outra espécie normativa**. O art. 47 estabelece sua regra geral de aprovação: **maioria dos votos, desde que esteja presente a maioria absoluta dos integrantes da Casa**. A lei ordinária pode disciplinar direitos, deveres, organização administrativa e políticas públicas nos limites de competência e de iniciativa definidos na Constituição. Exemplos: a **Lei nº 8.112/1990**, sobre o regime jurídico dos servidores públicos civis federais, e as leis anuais de orçamento previstas no art. 165, III (a LOA é ordinária, apesar de tratar de orçamento).
+**Lei ordinária (LO):** é a forma comum de produzir leis. Quando a Constituição determina que um assunto seja tratado por lei, mas não reserva aquele assunto a uma espécie específica, em regra usa-se uma lei ordinária. Ela não precisa modificar outra lei: pode criar uma disciplina inteiramente nova.
 
-**Lei complementar (LC)** é a espécie exigida **quando a própria Constituição determina que determinado assunto seja tratado por lei complementar**. O art. 69 exige **maioria absoluta dos membros** na aprovação: **257 votos favoráveis na Câmara (513 deputados) e 41 no Senado (81 senadores)**. Essa exigência refere-se à quantidade de votos, enquanto a Constituição determina **quais matérias** dependem dessa forma. Exemplo: a **LC nº 101/2000 (Lei de Responsabilidade Fiscal)** disciplina normas de finanças públicas com base no art. 163.
+**Lei complementar (LC):** é usada quando a Constituição **exige expressamente lei complementar para aquele assunto**. O nome *complementar* **não significa** que já exista uma lei ordinária e que a nova lei será um acréscimo a ela. Significa que a Constituição reservou determinadas matérias a esse tipo de lei. A LC também pode criar regras inteiramente novas.
 
-#### O que a Constituição reserva expressamente à lei complementar?
+A Constituição não oferece uma definição de dicionário dessas duas espécies: ela as separa no art. 59, fixa a regra geral de votação no art. 47, exige maioria absoluta para LC no art. 69 e determina, em outros artigos, quais assuntos pedem LC.
 
-| Dispositivo da CF | Matéria que exige lei complementar | Limite da reserva |
+### Dois exemplos que parecem semelhantes, mas usam leis diferentes
+
+**Situação 1: regras para servidores públicos federais.** A Lei nº 8.112/1990 disciplina direitos, deveres, licenças e responsabilidades dos servidores públicos civis da União. É **lei ordinária**. Apesar de tratar de um assunto importante, a Constituição não exige lei complementar para esse regime jurídico federal.
+
+**Situação 2: regras gerais de gestão das contas públicas.** O art. 163 da Constituição determina que assuntos ali especificados de finanças públicas sejam disciplinados por **lei complementar**. A Lei de Responsabilidade Fiscal, **LC nº 101/2000**, é um exemplo. Ela estabelece regras gerais para a gestão fiscal.
+
+O tema geral pode até ser próximo: orçamento, administração ou dinheiro público. A decisão depende do **objeto jurídico específico** que a Constituição reservou, não de uma impressão sobre a importância da lei.
+
+### Quais assuntos exigem lei complementar?
+
+A lista seguinte traz **exemplos**, não todas as reservas da Constituição:
+
+| O que se pretende regular | Espécie exigida e por quê |
+| :--- | :--- |
+| Outros casos de **inelegibilidade** e respectivos prazos de cessação | **LC**: art. 14, § 9º |
+| **Áreas de atuação das fundações** instituídas pelo Poder Público | **LC**: art. 37, XIX. Isso não torna toda criação de entidade pública uma matéria de LC |
+| **Estatuto da Magistratura** | **LC**, de iniciativa do **STF**: art. 93 |
+| **Normas gerais de direito tributário**, conflitos de competência tributária e regulação das limitações constitucionais ao poder de tributar | **LC**: art. 146, conforme cada inciso. Nem toda lei que trata de tributo exige LC |
+| Matérias gerais de **finanças públicas** descritas na Constituição | **LC**: art. 163 |
+| Regras gerais sobre **elaboração, organização, prazos e vigência das leis orçamentárias** | **LC**: art. 165, § 9º |
+| Regras para **elaboração, redação, alteração e consolidação das leis** | **LC**: art. 59, parágrafo único. Exemplo: LC nº 95/1998 |
+
+Agora compare com três assuntos tratados por **lei ordinária**, respeitadas as regras próprias de iniciativa: o regime jurídico de servidores federais (Lei nº 8.112/1990); o **Plano Plurianual (PPA)**; e as leis de **Diretrizes Orçamentárias (LDO)** e de **Orçamento Anual (LOA)**, previstas no art. 165, I a III. A Constituição exige lei complementar para **regras gerais sobre esses instrumentos**, mas os instrumentos orçamentários em si são leis próprias de natureza **ordinária**.
+
+**A armadilha do concurso:** a frase "se a lei trata de tributos, deve ser complementar" é **errada**. Determinadas normas **gerais** tributárias exigem LC por força do art. 146. Uma lei que altera uma alíquota específica, por exemplo, precisa ser analisada segundo as regras do tributo envolvido; o simples assunto "tributo" não basta.
+
+### Como são aprovadas? Primeiro presença, depois votos
+
+Na Câmara há **513 deputados**; no Senado, **81 senadores**.
+
+| Pergunta | Lei ordinária | Lei complementar |
 | :--- | :--- | :--- |
-| **Art. 14, § 9º** | Estabelecer outros casos de inelegibilidade e os respectivos prazos de cessação, para proteger a probidade, a moralidade e a legitimidade das eleições | Não significa que toda norma eleitoral exija LC |
-| **Art. 37, XIX** | Definir **áreas de atuação das fundações** instituídas pelo Poder Público | A criação de autarquias e a autorização para instituir outras entidades seguem as formas previstas no mesmo inciso; não se cria toda entidade por LC |
-| **Art. 93, caput** | Dispor sobre o **Estatuto da Magistratura**, mediante iniciativa do STF | Combina reserva da espécie LC **e iniciativa reservada** |
-| **Art. 146, I a III** | Tratar de **conflitos de competência tributária**, **limitações constitucionais ao poder de tributar** e **normas gerais de legislação tributária**, entre outros assuntos indicados nos incisos | Nem toda lei sobre tributos deve ser complementar |
-| **Art. 163** | Dispor sobre **finanças públicas** e os objetos especificados no dispositivo | Reserva assuntos gerais próprios do artigo, não todas as leis que geram despesas |
-| **Art. 165, § 9º** | Regular matérias gerais de **organização, elaboração, vigência e prazos das leis orçamentárias**, nos termos do parágrafo | **PPA, LDO e LOA** não se tornam LCs: são leis orçamentárias próprias do art. 165 |
+| Quantos precisam estar presentes para a deliberação comum na Câmara? | Pelo menos **257** | O mesmo quórum de presença, mas isso não basta para aprovar |
+| Quantos votos favoráveis são necessários na Câmara? | Em regra, **maioria dos votos**, presente a maioria absoluta da Casa (art. 47) | **257 votos favoráveis**, que representam a maioria absoluta do total (art. 69) |
+| E no Senado? | Em regra, maioria dos votos, presentes pelo menos **41** senadores | **41 votos favoráveis** |
+| É possível aprovação conclusiva apenas pelas comissões da Câmara? | **Sim, em certas hipóteses**, conforme o Regimento, com exceções | **Não**. O projeto precisa passar pelo Plenário |
+| Quantos turnos na Câmara? | Regra geral: **um** | **Dois** (RICD, art. 148) |
+| Segue para sanção ou veto presidencial? | **Sim**, conforme o art. 66 | **Sim**, conforme o art. 66 |
 
-**O que a Constituição dispõe sobre leis ordinárias?** Além de incluí-las no art. 59, o texto emprega a expressão **“lei”**, sem exigir a espécie complementar, em numerosos dispositivos. Por exemplo, o **art. 37, X** prevê lei específica para fixar ou alterar remuneração de servidores públicos, respeitada a iniciativa privativa em cada caso. O **art. 165, I a III** prevê leis de iniciativa do Executivo para estabelecer PPA, LDO e LOA. Na ausência de reserva constitucional de outra espécie, aplica-se a **forma ordinária**, observados os demais limites constitucionais.
+**Exemplo numérico:** 300 deputados estão presentes e todos votam "sim" ou "não". Se 151 votarem "sim" e 149 "não", uma lei ordinária poderá ser aprovada pela regra geral de maioria simples. Um projeto de lei complementar com esses mesmos **151 votos não será aprovado**: precisa de **257 votos favoráveis**, mesmo que haja só 300 presentes. Abstenções e regras específicas podem exigir atenção adicional à contagem dos votos.
 
-**Como classificar um tema na prova:** primeiro identifique o **assunto**; depois verifique se a Constituição usa a expressão **“lei complementar”** para aquele objeto; só então aplique o **quórum** adequado. Exemplo: normas gerais de direito tributário do art. 146 exigem LC; a alteração de uma alíquota tributária não exige LC apenas porque pertence ao campo tributário. Da mesma forma, a forma de LC não torna todo o seu conteúdo materialmente complementar.
+**Maioria simples:** depende dos votos da deliberação, desde que exista o quórum mínimo de presença. **Maioria absoluta:** depende da totalidade dos membros da Casa, não apenas dos presentes. A aprovação de lei complementar usa a segunda.
 
-**Fundamento formal e efeito:** os arts. **61, 65 e 66** tratam, nos casos previstos, da iniciativa, revisão e sanção ou veto dos projetos de lei. A **LC não é hierarquicamente superior à LO em caráter geral**: a Constituição distribui matérias e exige requisitos próprios. Uma lei ordinária não pode substituir uma LC **em assunto reservado constitucionalmente**; já um dispositivo de LC que trate de matéria materialmente ordinária pode, em princípio, ser alterado por LO, respeitados os demais limites.
+### Lei complementar é "mais forte" que lei ordinária?
 
-**Fontes oficiais:** [Constituição Federal, texto atualizado na Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988) e [Regimento Interno da Câmara, arts. 24, II, e 148](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+**Não existe superioridade hierárquica geral da LC sobre a LO.** A Constituição atribui matérias específicas à LC. Uma lei ordinária não pode substituir a LC em matéria constitucionalmente reservada a esta. Mas uma lei publicada com o nome de "complementar" pode conter assunto que juridicamente **não exigia LC**.
 
-A iniciativa das leis complementares e ordinárias cabe aos legitimados do art. 61 **na forma e nos casos previstos na Constituição**. Portanto, não conclua que qualquer legitimado pode iniciar projeto sobre qualquer matéria: existem hipóteses de **iniciativa reservada**.
+O STF confirmou no **Tema 1.352 (ARE 1.521.802)** a possibilidade de lei ordinária alterar ou revogar benefício de servidor instituído por lei formalmente complementar, quando o assunto era materialmente ordinário, observado o princípio da simetria. A tese não permite concluir que uma LO possa alterar **qualquer** disposição de uma LC.
 
-A diferença clássica de votação é:
+**Regra para a prova:** pergunte **"a Constituição reservou este assunto à lei complementar?"**, não "o nome dessa lei parece importante?".
 
-- **lei ordinária**: aplica-se, em regra, a maioria dos votos, presente a maioria absoluta dos membros da Casa, conforme art. 47;
-- **lei complementar**: exige **maioria absoluta**, nos termos do art. 69.
+### E quem pode apresentar esses projetos?
 
-A lei complementar não se distingue da ordinária apenas pelo nome do projeto: a Constituição reserva determinadas matérias à espécie complementar.
+O art. 61 prevê iniciativa de parlamentares, comissões, Presidente da República, STF, Tribunais Superiores, PGR e cidadãos, **na forma e nos casos previstos na Constituição**. A iniciativa varia conforme o assunto. Por exemplo, o **Estatuto da Magistratura** requer LC **e** iniciativa do STF (art. 93). Usar o projeto do tipo correto não corrige um autor sem competência para apresentá-lo.
 
-### Expansão CAM-PL-011: projetos de lei ordinária e complementar na Câmara
+O projeto ainda precisa ser examinado pelo Legislativo, observado o procedimento próprio. **PL** é projeto de lei ordinária; **PLP** é projeto de lei complementar. Nenhum dos dois nomes indica, por si só, que o texto já virou lei.
 
-O contraste entre **lei ordinária (LO)** e **lei complementar (LC)** precisa ser resolvido em **três planos**: **matéria que a Constituição reservou**, **quantidade de votos para aprovação** e **procedimento de tramitação**. O fato de uma LC exigir mais votos **não significa superioridade hierárquica geral** sobre a LO; a Constituição distribui competências normativas e cria **reservas materiais**.
+## A tipologia completa: sete instrumentos, sete funções
 
-**Situação concreta.** Um projeto de lei complementar é aprovado em uma sessão da Câmara com **300 deputados presentes e 220 votos favoráveis**, superando os votos contrários. O resultado seria suficiente para muitas deliberações comuns, mas **não para aprovar uma LC**, que exige **257 votos favoráveis**, conforme a composição constitucional de 513 deputados. Se o objeto constitucionalmente reservado à LC fosse apresentado e aprovado como **lei ordinária**, a insuficiência não seria só de votação: haveria **inadequação da espécie normativa à matéria reservada**.
+Pense primeiro na **decisão que se quer tomar**. Essa pergunta dá mais informação do que o nome do instrumento.
 
-#### A estrutura comparativa: objeto, quórum, iniciativa e destino
-
-| Critério | Projeto de lei ordinária (PL) | Projeto de lei complementar (PLP) |
+| Instrumento | Para que serve principalmente? | Exemplo prático |
 | :--- | :--- | :--- |
-| **Objeto material** | Regula matérias legislativas que **não exigem forma complementar** ou outra espécie específica | Regula as matérias para as quais a **Constituição exige lei complementar**; pode conter matéria materialmente ordinária |
-| **Quórum de deliberação** | **Regra geral do art. 47 da CF:** maioria dos votos, presente maioria absoluta dos membros | **Art. 69 da CF:** aprovação por **maioria absoluta dos membros**, em cada Casa que o aprova |
-| **Na Câmara (513 membros)** | Em regra **257 presentes**; favoráveis devem superar contrários na votação válida | **257 votos favoráveis**, independentemente de haver 300 ou 500 presentes |
-| **No Senado (81 membros)** | Em regra **41 presentes**, e maioria de votos para aprovar | **41 votos favoráveis** |
-| **Iniciativa** | **Art. 61 e outras reservas constitucionais**, conforme o assunto | **Art. 61 e outras reservas constitucionais**, conforme o assunto; **LC não significa iniciativa presidencial exclusiva** |
-| **Apreciação conclusiva nas comissões da Câmara** | **Possível**, se não incidir exceção regimental e nas condições do art. 24, II, e do art. 58 do RICD | **Excluída expressamente** do poder conclusivo pelo **art. 24, II, a, do RICD** |
-| **Revisão por outra Casa** | **Art. 65 da CF**, em regra | **Art. 65 da CF**, em regra; quórum da LC mantido |
-| **Sanção, veto, promulgação e publicação** | **Art. 66 da CF**, quando cabível | **Art. 66 da CF**, quando cabível |
+| **Emenda constitucional (EC)** | Modificar o texto da Constituição, respeitando seus limites | Alterar a distribuição constitucional de competências entre entes |
+| **Lei complementar (LC)** | Criar regras sobre matéria **reservada pela Constituição** a LC | Lei de Responsabilidade Fiscal |
+| **Lei ordinária (LO)** | Criar regras legais para assuntos sem reserva a outra espécie | Regime jurídico dos servidores federais |
+| **Lei delegada** | Permitir ao Presidente elaborar lei nos limites de autorização do Congresso | Presidente legisla sobre assunto delegável após receber resolução autorizativa |
+| **Medida provisória (MP)** | Criar, por ato presidencial, regra com **força imediata de lei**, em caso de relevância e urgência | Medidas urgentes com fundamento constitucional para enfrentar uma situação excepcional |
+| **Decreto legislativo** | Formalizar decisão de competência **exclusiva do Congresso** | Aprovação parlamentar de tratado internacional, como etapa do procedimento |
+| **Resolução** | Tomar decisões de competência própria de uma Casa ou do Congresso | Alteração do Regimento Interno da Câmara |
 
-**Primeira pegadinha:** art. 47 contém **duas condições**: presença de maioria absoluta e aprovação pela maioria dos votos. **O art. 69 substitui o requisito comum de votos favoráveis pela maioria absoluta do total de membros.** Uma lei complementar não se aprova por “maioria dos presentes” simplesmente porque a sessão está validamente instalada.
+### 1. Emenda constitucional: mudar a regra fundamental
 
-**Segunda pegadinha:** o **PLP não é automaticamente prioritário** só por ser complementar. O **art. 151 do RICD** disciplina a classificação em urgência, prioridade e ordinária conforme a hipótese; é preciso conferir a **matéria e o enquadramento**, como os projetos voltados a regulamentar dispositivo constitucional. **Espécie normativa, regime de tramitação e competência decisória são eixos distintos**, estudados em [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-008]].
+É o único instrumento desta lista cuja função normal é **alterar a própria Constituição**. Começa como **PEC, proposta de emenda à Constituição**. Podem propô-la: **171 deputados**, **27 senadores**, o **Presidente da República**, ou **mais da metade das assembleias legislativas**, cada uma pela maioria relativa dos próprios membros (CF, art. 60).
 
-#### Quando a Constituição reserva a matéria à lei complementar
+A aprovação exige **308 votos na Câmara e 49 no Senado**, em **dois turnos em cada Casa**, além da concordância das duas Casas com o texto. **Não há sanção nem veto presidencial.** As **Mesas da Câmara e do Senado** promulgam a emenda aprovada. Existem ainda limites de conteúdo, circunstância e procedimento, explicados mais adiante.
 
-A **reserva de lei complementar** decorre de comando constitucional que especifica a espécie. Não é regra de que tudo relacionado a **direitos fundamentais**, **servidores**, **tributos** ou **administração pública** só possa ser regulado por LC. É preciso localizar a **atribuição expressa**.
+**Sinal para reconhecer:** o objetivo é **alterar a Constituição**. Não confunda os 171 deputados que podem subscrever a iniciativa com os **308 votos de cada turno** para aprovar a PEC.
 
-| Exemplo de reserva | Dispositivo constitucional | Fronteira importante |
+### 2. Lei complementar: criar uma lei sobre matéria reservada
+
+A **Constituição manda usar LC** em certos assuntos, como normas gerais de direito tributário (art. 146) e matérias de finanças públicas (art. 163). A LC pode criar regras novas. Aprová-la exige **maioria absoluta**. O projeto passa pelo **Plenário da Câmara**, em **dois turnos**, e pelo Senado segundo seu rito. Em regra, segue à sanção ou veto presidencial.
+
+**Sinal para reconhecer:** em algum artigo, a Constituição **exige "lei complementar" para aquele objeto**.
+
+### 3. Lei ordinária: criar a maioria das leis comuns
+
+É a forma legislativa usual para assuntos sujeitos a lei sem reserva constitucional a outra espécie. Pode estabelecer políticas públicas, direitos, deveres e regras para serviços. Em regra, aprova-se pela **maioria dos votos**, com presença mínima da maioria absoluta da Casa. A Câmara pode, em situações permitidas pelo Regimento, decidir de forma **conclusiva nas comissões**, sem votação final do Plenário. Também pode haver votação em Plenário. Em regra, o projeto aprovado pelas Casas vai à sanção ou veto.
+
+**Sinal para reconhecer:** é preciso **criar ou alterar uma regra legal**, sem necessidade de modificar a Constituição e sem reserva específica de LC ou de outro instrumento.
+
+### 4. Lei delegada: o Congresso autoriza o Presidente a legislar
+
+O **Presidente da República** solicita ao **Congresso Nacional** autorização para elaborar determinada lei. O Congresso delimita o tema e as condições por uma **resolução**. Depois, o Presidente elabora a lei dentro da delegação. Se a resolução determinar que o Congresso examine o projeto preparado, essa apreciação ocorrerá em **votação única, sem emendas** (art. 68, § 3º).
+
+Não podem ser delegados os atos exclusivos do Congresso, os atos privativos das Casas, a matéria reservada a LC e outras matérias expressamente vedadas no art. 68, § 1º, como nacionalidade, direitos individuais e orçamento.
+
+**Sinal para reconhecer:** há **solicitação presidencial e autorização legislativa prévia**, com limites expressos.
+
+### 5. Medida provisória: o Presidente age imediatamente, sob controle do Congresso
+
+Em caso de **relevância e urgência**, o Presidente pode editar uma **MP**, que **já nasce com força de lei** e é enviada imediatamente ao Congresso (art. 62). Em regra, a MP vigora por **60 dias**, prorrogáveis **uma vez por outros 60**, observadas as normas de contagem e suspensão de prazo. O Congresso precisa decidir sobre sua conversão em lei; se não o fizer a tempo, a MP perde eficácia, respeitadas as regras constitucionais sobre seus efeitos.
+
+Existem **matérias proibidas** para MP, como direito penal, processual penal e processual civil, além de outras restrições do art. 62, § 1º. **Não confunda MP com lei delegada:** a MP dispensa autorização prévia, mas exige urgência e controle posterior; a lei delegada exige autorização prévia e só pode versar sobre matérias delegáveis.
+
+**Sinal para reconhecer:** ato **urgente do Presidente**, com força de lei desde a edição e posterior exame pelo Congresso.
+
+### 6. Decreto legislativo: o Congresso decide o que é de sua competência exclusiva
+
+Usa-se, sobretudo, para atos previstos entre as **competências exclusivas do Congresso Nacional** (CF, art. 49), como a aprovação parlamentar de tratados internacionais e a sustação de atos normativos do Executivo que excedam o poder regulamentar ou os limites da delegação legislativa. **Não precisa de sanção presidencial.** Em regra, é promulgado pelo Presidente do Senado, na condição de Presidente do Congresso.
+
+**Sinal para reconhecer:** a própria **Constituição atribui a decisão ao Congresso**, sem etapa de sanção presidencial. **Decreto legislativo não é o mesmo que decreto presidencial** usado pelo Executivo para regulamentar leis.
+
+### 7. Resolução: uma Casa legislativa, ou o Congresso, exerce competência própria
+
+A **Câmara**, o **Senado** e o **Congresso Nacional** adotam resoluções para assuntos de sua competência, como organização e normas internas. Uma **resolução da Câmara** pode alterar seu Regimento Interno; uma **resolução do Congresso** pode autorizar uma lei delegada. Existem também resoluções do Senado com **efeitos externos**, por exemplo em competências financeiras e tributárias. Portanto, "resolução só vale internamente" é uma generalização errada.
+
+**Sinal para reconhecer:** a decisão compete ao **órgão legislativo correspondente**, e a Constituição ou o Regimento prevê o uso de resolução. **Não há sanção presidencial.**
+
+### Como diferenciar decreto legislativo e resolução?
+
+O decreto legislativo costuma formalizar **competências exclusivas do Congresso**, como o art. 49. A resolução atende a **competências próprias da Câmara, do Senado ou do Congresso**, conforme cada norma. A distinção depende da **competência atribuída ao órgão**, e não de imaginar que um tipo é sempre externo e o outro sempre interno.
+
+## Pratique a classificação com situações concretas
+
+**Situação A.** Um deputado quer propor regras legais de transparência para determinado serviço público federal, sem invadir iniciativa reservada. **Instrumento possível: projeto de lei ordinária**. A matéria não exige, só por ser importante, uma LC.
+
+**Situação B.** Pretende-se editar **normas gerais sobre crédito tributário**, dentro do art. 146, III. **Instrumento: projeto de lei complementar**. O objeto tem reserva constitucional.
+
+**Situação C.** Quer-se mudar a distribuição de competências **no texto da própria Constituição**. **Instrumento: PEC**, com quórum e limites do art. 60. Não basta aprovar uma lei comum.
+
+**Situação D.** O Presidente solicita autorização para legislar sobre matéria que pode ser delegada. **Instrumento: lei delegada**, precedida de resolução autorizativa do Congresso.
+
+**Situação E.** O Presidente precisa editar norma urgente com força de lei, em assunto constitucionalmente permitido. **Instrumento possível: medida provisória**, sujeita ao Congresso.
+
+**Situação F.** O Congresso aprova, no exercício de competência exclusiva, um tratado internacional. **Instrumento: decreto legislativo** para essa etapa parlamentar.
+
+**Situação G.** A Câmara modifica seu Regimento Interno. **Instrumento: resolução da Câmara**.
+
+**Situação H.** O Executivo apresenta o **orçamento anual**. Embora trate de dinheiro público, o próprio projeto de LOA é de **lei ordinária**; regras gerais de organização e elaboração orçamentária do art. 165, § 9º, exigem **lei complementar**.
+
+> [!TIP]
+> **Método para resolver item da Cebraspe:** (1) O texto da Constituição será alterado? (2) Existe reserva explícita de LC? (3) O assunto é de competência exclusiva ou própria do Legislativo? (4) O Presidente está editando uma MP ou elaborando lei por delegação? (5) Quem tem iniciativa? (6) Qual é o quórum e quem promulga? **Essas perguntas não são intercambiáveis.**
+
+## Como nasce uma lei: iniciativa, votação e atos finais
+
+Para **lei ordinária ou complementar**, imagine o percurso básico:
+
+1. **Iniciativa:** uma autoridade ou os cidadãos, conforme a Constituição, apresentam um **projeto**. Quem pode iniciar depende da matéria. Não significa que qualquer deputado possa propor qualquer projeto.
+2. **Análise e tramitação:** comissões examinam a proposição e emitem pareceres. Em alguns projetos de lei ordinária, comissões podem concluir a apreciação na Câmara; em **PLP, o Plenário é obrigatório**.
+3. **Aprovação parlamentar:** observam-se quóruns e procedimentos próprios. Na elaboração das leis federais, há participação das duas Casas do Congresso, ressalvadas as particularidades constitucionais e regimentais.
+4. **Sanção ou veto:** o texto aprovado é, em regra, encaminhado ao Presidente. **Sanção** é concordância; **veto** é objeção jurídica (inconstitucionalidade) ou política (contrariedade ao interesse público). O veto pode ser derrubado pelo Congresso, com **maioria absoluta dos deputados e dos senadores**, contados separadamente.
+5. **Promulgação e publicação:** a promulgação confirma formalmente a lei e determina seu cumprimento; a publicação dá publicidade oficial. Existem regras constitucionais de promulgação subsidiária quando o Presidente não o faz.
+
+**Não transportamos esse percurso automaticamente para todas as sete espécies.** PEC, decreto legislativo e resolução não passam por sanção presidencial; MP nasce com força de lei por ato do Presidente, e lei delegada depende de autorização anterior. Uma MP aprovada com alterações por projeto de lei de conversão segue para sanção ou veto; aprovada sem alterações, segue regime próprio.
+
+## Poder constituinte: criar uma Constituição × alterá-la
+
+A distinção esclarece por que há limites tão fortes para PECs.
+
+**Poder constituinte originário:** inaugura uma **nova ordem constitucional**. No entendimento clássico, é inicial e não fica juridicamente subordinado às regras de reforma da Constituição anterior. Isso não significa ausência de limites históricos, sociais e políticos.
+
+**Poder constituinte derivado:** exerce competências **recebidas da Constituição vigente**. O **derivado reformador** pode apresentar e aprovar emendas, mas precisa respeitar as condições do art. 60. O **derivado decorrente**, por sua vez, aparece na auto-organização constitucional dos estados, dentro dos limites da Constituição Federal.
+
+**Exemplo:** alterar a Constituição de 1988 mediante PEC é exercício do poder **derivado reformador**. Criar uma nova ordem constitucional é questão de poder **originário**. A aprovação de PEC por unanimidade **não transforma** o Congresso em poder originário.
+
+### Três limites para mudar a Constituição
+
+**Limites formais: como aprovar.** A iniciativa deve partir de legitimados específicos. A PEC precisa ser discutida e votada em **dois turnos na Câmara e dois no Senado**, com **3/5 dos membros em cada turno**: **308 deputados** e **49 senadores**. Emenda aprovada é promulgada **pelas Mesas da Câmara e do Senado**, sem sanção presidencial.
+
+**Limites circunstanciais: quando não emendar.** O art. 60, § 1º, proíbe emendar a Constituição **durante intervenção federal, estado de defesa ou estado de sítio**. É uma proibição ligada à situação em que o país se encontra.
+
+**Limites materiais: o que não pode ser abolido.** O art. 60, § 4º, impede até a **deliberação** de PEC **tendente a abolir**: (a) a forma federativa de Estado; (b) o voto direto, secreto, universal e periódico; (c) a separação dos Poderes; (d) os direitos e garantias individuais. São as chamadas **cláusulas pétreas**.
+
+### O que significa uma cláusula pétrea? 
+
+**Não significa que toda palavra ligada ao tema seja imutável.** Significa proteger o **núcleo essencial** da garantia.
+
+**Exemplo de federação:** alterar a distribuição de uma competência administrativa entre União e estados pode ser possível, se preservar a autonomia federativa. Extinguir a autonomia dos estados tende a abolir a própria forma federativa.
+
+**Exemplo de voto:** mudar regras de organização de eleições pode ser permitido. Eliminar o caráter direto, secreto, universal ou periódico do voto protegido viola o limite.
+
+**Exemplo de separação dos Poderes:** ajustes de controle recíproco podem ser compatíveis com a Constituição; subordinar a validade de todas as decisões judiciais à autorização do Presidente esvaziaria a independência judicial.
+
+**Exemplo de direitos individuais:** ampliar uma garantia é possível; eliminar a proteção essencial do devido processo ou extinguir o habeas corpus tende a violar cláusula pétrea.
+
+Os direitos protegidos não estão necessariamente limitados ao **art. 5º**. O STF reconheceu, por exemplo, a anterioridade tributária como garantia individual protegida em seu núcleo. Mas também seria errado chamar **qualquer** vantagem assegurada por norma constitucional de cláusula pétrea.
+
+**Outra limitação formal importante:** se uma PEC for rejeitada ou considerada prejudicada, a **mesma matéria não pode ser objeto de nova PEC na mesma sessão legislativa** (CF, art. 60, § 5º). Para projeto de lei rejeitado, a regra é diferente: o art. 67 permite nova proposta na mesma sessão mediante iniciativa da **maioria absoluta dos membros de uma das Casas**.
+
+## Como uma PEC tramita especificamente na Câmara
+
+Aqui começa o **aprofundamento regimental**. Para entender as sete espécies, o essencial já foi explicado; esta parte atende às questões de rito para o concurso da Câmara.
+
+| Etapa na Câmara | O que ocorre | Atenção para prova |
 | :--- | :--- | :--- |
-| **Estatuto da Magistratura** | **Art. 93, caput** | **Lei complementar de iniciativa do STF**; aqui se combinam **reserva de espécie** e **reserva de iniciativa**, que são critérios diferentes |
-| **Normas gerais de direito tributário, conflitos de competência e limitações ao poder de tributar** | **Art. 146, I a III** | A reserva refere-se a esses **objetos específicos**; **nem toda lei que institui, modifica ou extingue tributo é complementar** |
-| **Normas gerais sobre finanças públicas** | **Art. 163** | Identificar o objeto reservado; não converter toda lei de despesa pública em LC |
-| **Matérias orçamentárias específicas** | **Art. 165, § 9º** | A LC disciplina matérias como vigência, prazos, elaboração e organização de instrumentos orçamentários; **PPA, LDO e LOA são leis orçamentárias próprias**, não passam a ser LCs pelo tema |
-| **Critérios de criação e funcionamento de fundações públicas** | **Art. 37, XIX** | A LC define **áreas de atuação das fundações**, mas isso não significa exigir LC para toda criação de entidade administrativa |
+| **Apresentação** | A PEC chega por legitimado do art. 60 da Constituição | **171 assinaturas** na hipótese de iniciativa por deputados não significam aprovação |
+| **Admissibilidade** | A **CCJC** examina se a PEC pode seguir à luz da Constituição | Parecer em **5 sessões** (RICD, art. 202) |
+| **Reação à inadmissibilidade** | O autor, com apoio de líderes que representem ao menos **1/3 dos deputados**, pode requerer apreciação preliminar pelo Plenário | Esse apoio não equivale aos 308 votos para aprovar |
+| **Exame do mérito** | Uma **comissão especial** analisa a proposta admitida | Prazo de **40 sessões** para parecer |
+| **Emendas** | Emendas parlamentares são apresentadas à comissão especial, com o apoiamento necessário | Regra geral: **primeiras 10 sessões** do prazo da comissão, com assinaturas de 1/3 |
+| **Pauta** | Depois da publicação do parecer, observa-se interstício para inclusão em Ordem do Dia | **2 sessões**, segundo art. 202, § 5º |
+| **Dois turnos** | O Plenário discute e vota nominalmente em dois turnos | **308 votos em cada turno**, com **5 sessões de interstício** |
+| **Senado e retorno** | O Senado examina o texto; alterações podem exigir nova apreciação da Câmara | O texto precisa de aprovação constitucional pelas **duas Casas** |
 
-**Art. 146: exemplo de interpretação de escopo.** Um projeto que pretende estabelecer **normas gerais de obrigação, lançamento, crédito, prescrição e decadência tributários** deve observar a reserva do art. 146, III, **b**. Um projeto que altera uma alíquota de tributo, porém, deve ser analisado segundo a **reserva constitucional da espécie e do ente competente para o tributo específico**; a simples palavra “tributário” não basta para exigir LC.
+**CCJC avalia admissibilidade; comissão especial avalia mérito; Plenário decide pela votação constitucional.** A CCJC admitir a proposta não equivale a o Congresso aprová-la. Os prazos indicados no Regimento são medidos em **sessões**, não automaticamente em dias corridos.
 
-**Art. 93: dois filtros acumulados.** O Estatuto da Magistratura deve ser disciplinado por **LC**, e a **iniciativa pertence ao STF**. Um projeto de deputado apresentado como PLP não sana, só por usar a espécie correta, um eventual vício na **iniciativa reservada**.
+**Constituição e Regimento não são textos equivalentes.** O art. 201, I, do RICD usa redação diferente sobre o apoio das assembleias legislativas; prevalece o **art. 60, III, da Constituição**, que exige a **maioria relativa** em cada uma das mais de metade das assembleias. O art. 201, II, do RICD omite a intervenção federal em sua enumeração, mas o **art. 60, § 1º, da Constituição** proíbe emendar também durante intervenção federal.
 
-**Art. 165: cuidado com a transposição.** Há previsão de **LC em matérias de disciplina geral do orçamento** e de **projetos orçamentários específicos apresentados pelo Executivo**. A destinação orçamentária de uma lei não a transforma automaticamente em LC. Para o rito da CMO, consultar [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|tramitação legislativa das leis orçamentárias]].
+O art. 202, § 8º, do RICD permite aplicação **subsidiária** de regras de tramitação dos projetos de lei às PECs, naquilo que **não contrariar** o procedimento especial. O art. 203 trata de PECs e emendas recebidas do Senado.
 
-#### Lei complementar não é uma lei ordinária «mais forte»
+### A ligação com comunicação institucional
 
-**Orientação do STF:** não existe **hierarquia geral de superioridade** da lei complementar sobre a ordinária. A distinção decorre da **Constituição**, que reserva algumas matérias à LC e exige, para ela, aprovação qualificada. O STF já aplicou isso nos julgamentos **RE 377.457 e RE 381.964**, relacionados à Cofins. Mais recentemente, no **Tema 1.352 da repercussão geral (ARE 1.521.802, mérito publicado em 19/09/2025)**, a Corte reafirmou a possibilidade de **lei ordinária alterar ou revogar benefício de servidor instituído por lei formalmente complementar quando a matéria era materialmente ordinária**, observado o princípio da simetria.
+Uma notícia que diz "Constituição alterada" quando a **CCJC apenas admitiu uma PEC** está errada. Também está errado afirmar que o Presidente **sancionará a PEC**. Em cada notícia ou questão, identifique **a Casa, a comissão, o turno, o resultado e o ato que ainda falta**.
 
-**Duas situações opostas:**
+## Armadilhas mais frequentes da Cebraspe
 
-**Situação A, matéria constitucionalmente reservada.** Uma LC define uma das matérias de **normas gerais tributárias do art. 146**. Uma nova **lei ordinária** tenta afastar a disciplina reservada sem observar a espécie constitucionalmente exigida. **Há problema de constitucionalidade formal pela reserva material da LC**. A existência de quórum de votação suficiente para uma LO não afasta a reserva constitucional.
+| Afirmação | Avaliação | Motivo |
+| :--- | :--- | :--- |
+| "Lei complementar apenas complementa lei ordinária já existente." | **Errado** | É uma espécie de lei exigida para **matérias reservadas pela Constituição** |
+| "Toda matéria tributária exige lei complementar." | **Errado** | A Constituição reserva apenas **assuntos específicos** a LC |
+| "A lei complementar está sempre acima da ordinária." | **Errado** | Não há superioridade hierárquica geral; há **reserva material** |
+| "O PLP pode ser aprovado definitivamente por comissão da Câmara." | **Errado** | A comissão emite parecer, mas o PLP **exige Plenário** na Câmara |
+| "PEC precisa de maioria absoluta, como LC." | **Errado** | PEC exige **3/5 em dois turnos por Casa** |
+| "O Presidente sanciona a PEC que ele mesmo propôs." | **Errado** | PEC aprovada é promulgada **pelas Mesas** da Câmara e do Senado |
+| "Medida provisória e lei delegada são sinônimos." | **Errado** | MP decorre de **urgência** e controle posterior; lei delegada exige **autorização prévia** |
+| "Decreto legislativo é decreto do Presidente." | **Errado** | Decreto legislativo formaliza **ato do Congresso** |
+| "Resoluções sempre têm efeito exclusivamente interno." | **Errado** | Algumas resoluções, sobretudo do Senado, têm **efeitos externos** |
+| "Cláusula pétrea proíbe mudar qualquer palavra sobre o tema." | **Errado** | Protege-se o **núcleo essencial**, inclusive contra esvaziamento indireto |
+| "Uma PEC rejeitada pode ser reapresentada na mesma sessão com apoio de maioria absoluta." | **Errado** | Essa exceção do art. 67 vale para **projetos de lei**, não PEC rejeitada |
+| "A CCJC admitiu a PEC; portanto, a emenda foi aprovada." | **Errado** | Admissibilidade não substitui **comissão especial, Plenário e Senado** |
 
-**Situação B, lei formalmente complementar, conteúdo ordinário.** Uma LC regula benefício de servidor cuja disciplina **não foi constitucionalmente reservada à espécie complementar**. Uma lei ordinária posterior modifica esse benefício. **A maior solenidade anterior não converteu a matéria em reserva imutável de LC**; a mudança é possível nas condições firmadas pelo STF, conforme o **Tema 1.352**. A tese foi fixada em caso **municipal, envolvendo auxílio-condução de servidora**, e exige respeitar a **simetria e o objeto material**; não deve ser aplicada como autorização irrestrita para que LO revogue qualquer dispositivo de LC.
+## Glossário para ler questões sem se perder
 
-**Pegadinha de fórmula:** tanto “lei complementar sempre prevalece sobre ordinária” como “lei ordinária pode revogar qualquer lei complementar” são generalizações incorretas. A leitura correta exige: **(1) qual matéria? (2) existe reserva na CF? (3) o dispositivo da LC é materialmente complementar ou ordinário? (4) há outros vícios ou limites?**
+**Espécie normativa:** tipo de norma. **Matéria reservada:** assunto que a Constituição manda regular por um instrumento específico. **Iniciativa:** competência para apresentar proposta. **PL:** projeto de lei ordinária. **PLP:** projeto de lei complementar. **PEC:** proposta de emenda à Constituição. **Quórum de presença:** quantidade mínima de membros presentes para deliberar. **Quórum de aprovação:** quantidade necessária de votos favoráveis. **Apreciação conclusiva:** quando uma comissão pode concluir a apreciação de determinado projeto sem votação final no Plenário da Câmara. **Sanção:** concordância presidencial com projeto submetido a essa etapa. **Veto:** objeção presidencial prevista na Constituição. **Promulgação:** ato formal que confirma a norma produzida e determina sua execução. **Publicação:** publicidade oficial. **Sessão legislativa:** período anual de trabalhos do Congresso; não se confunde com **legislatura**, de quatro anos.
 
-#### Projeto de lei complementar na Câmara: exclusão do poder conclusivo
+## Exercícios de fixação: lei ordinária e lei complementar
 
-O **art. 108 do RICD** distingue expressamente **projeto de lei ordinária** e **projeto de lei complementar** como instrumentos da função legislativa. O **art. 24, II, a**, exclui **projeto de lei complementar** da **apreciação conclusiva pelas comissões**. Por isso, **parecer favorável da CCJC, de comissão temática ou da CFT não se transforma em aprovação final de PLP na Câmara**. A proposição precisa da **deliberação do Plenário** prevista no Regimento, observados os demais requisitos constitucionais e regimentais.
-
-**LC não significa, por si, “ritual de PEC”.** Os dois instrumentos usam maiorias qualificadas em sentidos distintos: **LC exige maioria absoluta** dos membros (CF, art. 69), enquanto **PEC exige três quintos em dois turnos em cada Casa**, além de iniciativa e limites próprios do **art. 60**. **LC segue, em regra, à sanção ou veto presidencial**; **PEC não**.
-
-**PLP × lei complementar vigente:** o PLP é **proposição em tramitação**, com possibilidade de emenda e rejeição. A lei complementar é **espécie normativa resultante do processo**. Nem o título do projeto nem o parecer do relator comprovam a aprovação em ambas as Casas.
-
-**Iniciativa:** o art. 61 da Constituição inclui, nos termos e casos constitucionais, **deputados, senadores, comissões, presidente da República, STF, Tribunais Superiores, PGR e cidadãos** entre possíveis legitimados para projetos de lei ordinária e complementar. **A espécie não torna todas as matérias de iniciativa livre**: identificar as reservas do art. 61, § 1º, art. 93 e outras. A análise detalhada está em [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-002]].
-
-#### Caso progressivo: uma proposta, quatro mudanças de gabarito
-
-**Etapa 1, política pública geral.** Um deputado apresenta projeto de lei ordinária para estabelecer transparência de determinada política federal. A matéria não está constitucionalmente reservada a LC nem a iniciativa de outro Poder. A **iniciativa é possível em tese**, e o projeto pode ter **apreciação conclusiva**, se não houver exceção regimental.
-
-**Etapa 2, matéria reservada.** O projeto agora pretende estabelecer **normas gerais de crédito tributário** disciplinadas no art. 146, III. Passa a haver **reserva de lei complementar**. O mesmo quórum de lei ordinária não basta; é necessário **PLP**, com **257 votos favoráveis na Câmara**, além de decisão do Senado.
-
-**Etapa 3, comissão.** O PLP recebe pareceres favoráveis de todas as comissões. Mesmo assim **não pode ser aprovado conclusivamente na Câmara**, por força do **art. 24, II, a**. A unanimidade dos pareceres não altera a competência decisória do Plenário.
-
-**Etapa 4, quórum insuficiente.** No Plenário comparecem 400 deputados; há 255 votos favoráveis e 100 contrários, com outras manifestações não favoráveis. A presença é suficiente, mas **faltam 2 votos favoráveis** para a **maioria absoluta de 257**, e o PLP **não é aprovado**.
-
-**Etapa 5, matéria materialmente ordinária.** Descobre-se que certo benefício de servidor, regulado por LC anterior, está fora da reserva material de LC. Uma lei ordinária posterior pode **alterá-lo ou revogá-lo**, conforme as condições do **Tema 1.352 do STF**. **A forma do diploma anterior não cria sozinha reserva constitucional.**
-
-**Etapa 6, confronto com PEC.** A proposta passa a modificar o texto da própria Constituição. O instrumento agora é **PEC**, com iniciativa e procedimento do **art. 60**. Os **257 votos** suficientes para LC na Câmara deixam de ser suficientes para a PEC, que exige **308 em cada turno** nessa Casa.
-
-#### Como a Cebraspe cobra: oito itens inéditos de Certo ou Errado
+As **oito questões inéditas** da expansão CAM-PL-011 foram preservadas. São exercícios de treino, **não questões de provas oficiais**.
 
 **1.** Um projeto de lei complementar federal poderá ser aprovado por 220 votos favoráveis no Plenário da Câmara, desde que 300 deputados estejam presentes e o número de votos contrários seja inferior ao de favoráveis.
 
@@ -189,293 +305,9 @@ O **art. 108 do RICD** distingue expressamente **projeto de lei ordinária** e *
 
 **Gabarito: Certo.** **ARE 1.521.802, Tema 1.352**, tese de lei complementar **materialmente ordinária**, observado o princípio da simetria. **Erro provável:** aplicar a superioridade hierárquica inexistente.
 
-#### Relações com outros temas, tensões e heurísticas
+## Exercícios de fixação: PEC, limites e rito da Câmara
 
-**Conexões:** [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-002]] para iniciativa reservada; [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003 e 008]] para regime de tramitação; [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|CAM-PL-006]] para quóruns; [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|CAM-PL-009]] para conclusivo das comissões; [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|CAM-PL-007]] para atos finais. **CAM-PL-012** tratará lei delegada e proibição de delegar matéria reservada à LC (CF, art. 68, § 1º).
-
-**Tensões:** **lei ordinária × tramitação ordinária; LC × PEC; maioria absoluta de presentes × maioria absoluta de membros; reserva de espécie × reserva de iniciativa; LC formalmente editada × matéria materialmente complementar; parecer de comissão × aprovação plenária; procedimento qualificado × hierarquia; CF art. 146 × toda legislação tributária.**
-
-**Heurística:** **(1) o texto constitucional exige LC para essa matéria? (2) quem tem iniciativa? (3) o quórum de aprovação é de LO ou LC? (4) qual regime de tramitação? (5) pode haver apreciação conclusiva? (6) está sendo questionada uma alteração de LC formalmente complementar sobre matéria ordinária?** Responda a cada pergunta separadamente.
-
-**Fontes verificadas em 07/11/2026:**
-- [Constituição Federal atualizada, arts. 47, 59, 61, 65, 66, 69, 93, 146, 163 e 165](https://www4.planalto.gov.br/legislacao/legis-federal/constituicao);
-- [RICD, arts. 24, II, a; 108, 109 e 151](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html);
-- [Câmara: quóruns legislativos](https://www2.camara.leg.br/transparencia/acesso-a-informacao/copy_of_perguntas-frequentes/processo-legislativo);
-- [STF, art. 69 e ausência de hierarquia universal entre LC e LO](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=69&abrirBase=CF);
-- [STF, Tema 1.352, ARE 1.521.802, julgamento publicado em 19/09/2025](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1352);
-- [STF, Informativo 1.190, aplicação do Tema 1.352](https://www.stf.jus.br/arquivo/informativo/documento/informativo1190.htm).
-
-**Decisão editorial CAM-PL-011:** esta é **expansão da nota canônica existente** e **não cria outro arquivo ou outro `articleId`**. As questões são inéditas e servem ao treino Cebraspe; não constituem desempenho individual nem substituem eventual análise aprofundada de uma reserva constitucional específica.
-
-## Sanção, veto, promulgação e publicação
-
-Depois da aprovação parlamentar de projeto sujeito à participação presidencial:
-
-- **sanção** = concordância do Presidente, expressa ou tácita;
-- **veto** = discordância por inconstitucionalidade ou contrariedade ao interesse público;
-- **promulgação** = atesta a existência da norma e determina sua execução;
-- **publicação** = dá publicidade ao texto promulgado.
-
-O veto presidencial pode ser rejeitado em sessão conjunta do Congresso pela **maioria absoluta dos Deputados e Senadores**, na forma do art. 66, §4º. Não use a expressão vaga “maioria absoluta do Congresso” como se Câmara e Senado formassem um único corpo indiferenciado para esse quórum.
-
-## Emenda à Constituição — art. 60
-
-### Iniciativa
-
-Podem propor PEC:
-
-- no mínimo **um terço** dos membros da Câmara dos Deputados **ou** do Senado Federal;
-- o Presidente da República;
-- mais da metade das Assembleias Legislativas das unidades da Federação, manifestando-se cada uma pela maioria relativa de seus membros.
-
-Um parlamentar pode ser autor ou primeiro signatário de uma proposta, mas a PEC não satisfaz o requisito constitucional de iniciativa parlamentar sem o apoio mínimo de um terço da respectiva Casa.
-
-### Aprovação
-
-A proposta é discutida e votada:
-
-- em **cada Casa** do Congresso;
-- em **dois turnos** em cada uma;
-- exigindo **três quintos dos respectivos membros** em ambos os turnos.
-
-### Promulgação
-
-PEC aprovada **não vai ao Presidente para sanção ou veto**. A emenda é promulgada **pelas Mesas da Câmara dos Deputados e do Senado Federal, com o respectivo número de ordem**.
-
-A versão anterior desta nota dizia que a promulgação ocorreria “em sessão conjunta”. Essa fórmula não consta do art. 60, §3º e deve ser evitada em prova.
-
-## Limitações circunstanciais × materiais
-
-Essa fronteira depende de literalidade.
-
-### Limitação circunstancial — art. 60, §1º
-
-A Constituição **não poderá ser emendada** na vigência de:
-
-- intervenção federal;
-- estado de defesa;
-- estado de sítio.
-
-A Constituição não usa aqui a fórmula “não será objeto de deliberação”. Essa expressão pertence ao §4º, relativo às cláusulas pétreas.
-
-### Limitações materiais — cláusulas pétreas (art. 60, §4º)
-
-As cláusulas pétreas são **limites materiais ao poder constituinte derivado reformador**. Elas não impedem toda e qualquer alteração no texto constitucional relacionado ao tema. O que o art. 60, §4º, proíbe é a proposta de emenda **tendente a abolir** determinados núcleos constitucionais.
-
-A Constituição determina que **não será objeto de deliberação** a proposta de emenda tendente a abolir:
-
-1. **a forma federativa de Estado**;
-2. **o voto direto, secreto, universal e periódico**;
-3. **a separação dos Poderes**;
-4. **os direitos e garantias individuais**.
-
-> [!IMPORTANT]
-> A palavra decisiva é **abolir** — e a Constituição vai além: veda até a proposta **tendente a abolir**.
->
-> Portanto, a proteção não se limita a uma revogação literal. Uma PEC que preserve o nome do instituto, mas esvazie seu núcleo essencial, também pode violar cláusula pétrea.
-
-#### Cláusula pétrea não significa “artigo imutável”
-
-Essa é a simplificação mais perigosa.
-
-A cláusula pétrea protege o **núcleo essencial** de determinadas matérias contra o poder de reforma. Isso significa que o texto pode sofrer alterações, desde que a mudança **não suprima nem torne ineficaz a proteção constitucional**.
-
-Em outras palavras:
-
-**pode mudar a forma, a disciplina ou aspectos periféricos → não pode destruir o núcleo protegido.**
-
-#### O que pode mudar × o que não pode
-
-| Núcleo protegido | Mudanças possíveis, em princípio | Mudanças vedadas |
-| :--- | :--- | :--- |
-| **Forma federativa de Estado** | redistribuir competências e ajustar relações entre entes, preservada a autonomia federativa | transformar o Brasil em Estado unitário ou esvaziar a autonomia dos entes federados |
-| **Voto direto, secreto, universal e periódico** | alterar regras eleitorais que preservem essas características | instituir como regra eleição indireta para cargos protegidos, voto aberto, eliminar a periodicidade ou esvaziar a universalidade |
-| **Separação dos Poderes** | redistribuir competências e criar mecanismos de freios e contrapesos | extinguir a independência de um Poder ou subordiná-lo estruturalmente a outro |
-| **Direitos e garantias individuais** | ampliar direitos, criar novas garantias e ajustar a forma de exercício sem destruir seu núcleo | abolir direito ou garantia, ou torná-lo praticamente ineficaz |
-
-A análise é **material**, não apenas textual. Uma PEC pode alterar palavras sem violar cláusula pétrea; outra pode manter as palavras e, na prática, destruir o instituto.
-
-#### Exemplos práticos
-
-**Exemplo 1 — Federação**
-
-Uma PEC altera a distribuição de determinada competência administrativa entre União e Estados, mas preserva a autonomia política dos entes.
-
-→ Em princípio, **pode ser possível**.
-
-Uma PEC extingue a autonomia dos Estados e concentra todo o poder político na União.
-
-→ Tende a abolir a forma federativa: **não pode ser objeto de deliberação**.
-
-**Exemplo 2 — Voto**
-
-Uma PEC altera regras procedimentais do sistema eleitoral, preservando voto direto, secreto, universal e periódico.
-
-→ Em princípio, **pode ser possível**.
-
-Uma PEC estabelece que as futuras eleições presidenciais ordinárias serão feitas exclusivamente pelo Congresso.
-
-→ Atinge o caráter **direto** do voto protegido: **não pode**.
-
-**Exemplo 3 — Separação dos Poderes**
-
-Uma PEC modifica competências institucionais e cria novo mecanismo de controle recíproco.
-
-→ Pode ser compatível, desde que preserve independência e equilíbrio entre os Poderes.
-
-Uma PEC determina que decisões judiciais só terão validade depois de aprovação do Presidente da República.
-
-→ Esvazia a independência do Judiciário: tende a abolir a separação dos Poderes.
-
-**Exemplo 4 — Direitos e garantias individuais**
-
-Uma emenda cria uma nova garantia processual ou amplia uma proteção já existente.
-
-→ É possível. A própria Constituição já recebeu novos direitos por emenda.
-
-Uma PEC extingue o habeas corpus ou elimina completamente uma garantia essencial do devido processo.
-
-→ Tende a abolir direito ou garantia individual: **não pode**.
-
-#### Direitos e garantias individuais não estão necessariamente só no art. 5º
-
-A literalidade do art. 60, §4º, IV fala em **direitos e garantias individuais**, e não em “incisos do art. 5º”.
-
-O STF já reconheceu proteção de cláusula pétrea a garantias fundamentais situadas fora do art. 5º. Um exemplo importante é a **anterioridade tributária**, tratada pela Corte como garantia fundamental do contribuinte.
-
-> [!WARNING]
-> Pegadinha: “somente os direitos do art. 5º podem ser cláusulas pétreas” é uma formulação excessivamente restritiva.
-
-Isso não significa, por outro lado, que **todo dispositivo constitucional que beneficie uma pessoa** seja automaticamente cláusula pétrea. É necessário verificar se há efetivamente um direito ou garantia individual protegido em seu núcleo essencial.
-
-#### “Nem com apoio de todo o Congresso?”
-
-Correto: **não**.
-
-O quórum de três quintos em dois turnos é requisito formal de aprovação de PEC, mas não elimina os limites materiais.
-
-Mesmo que uma proposta tivesse apoio político de todos os Deputados, de todos os Senadores e do Presidente da República, o poder constituinte derivado continuaria subordinado ao art. 60, §4º.
-
-> **Maioria política não transforma poder derivado em poder originário.**
-
-#### E uma nova Constituição?
-
-Aqui muda a categoria de poder constituinte.
-
-As cláusulas pétreas limitam o **poder constituinte derivado**, que atua dentro da Constituição de 1988.
-
-O STF distingue esse poder do **poder constituinte originário**, que inaugura uma nova ordem constitucional e não está juridicamente submetido às cláusulas pétreas da Constituição anterior.
-
-Portanto:
-
-- **emenda à CF/88** → submetida às cláusulas pétreas;
-- **nova ordem constitucional produzida pelo poder constituinte originário** → não está juridicamente limitada pelo art. 60, §4º, da Constituição anterior.
-
-#### Proposta “tendente a abolir” já pode ser barrada antes da aprovação
-
-O texto constitucional não diz apenas que uma emenda desse tipo “não poderá ser promulgada”. Ele afirma que a proposta **não será objeto de deliberação**.
-
-Por isso, a incompatibilidade com cláusula pétrea pode ser tratada ainda durante o processo legislativo. O STF reconhece, inclusive, a possibilidade de parlamentar impetrar mandado de segurança para impedir tramitação incompatível com regras constitucionais do processo legislativo.
-
-#### Limites materiais explícitos × implícitos
-
-As quatro matérias do art. 60, §4º, são **limitações materiais expressas**.
-
-A jurisprudência do STF também reconhece que o poder de reforma está sujeito a limitações materiais **explícitas ou implícitas**.
-
-Uma consequência importante é evitar a ideia de “atalho”:
-
-> primeiro altera-se o art. 60 para retirar uma cláusula pétrea; depois aprova-se outra PEC abolindo o conteúdo protegido.
-
-Essa lógica — frequentemente chamada na doutrina de **dupla revisão** — é incompatível com a própria condição subordinada do poder constituinte derivado: ele não pode usar o poder recebido da Constituição para destruir os limites fundamentais que condicionam esse mesmo poder.
-
-#### Cláusula pétrea × limitação circunstancial
-
-Não confunda:
-
-**art. 60, §1º — limitação circunstancial**
-- intervenção federal;
-- estado de defesa;
-- estado de sítio;
-- enquanto durar a situação, a Constituição **não pode ser emendada**.
-
-**art. 60, §4º — limitação material**
-- determinadas matérias não podem ser objeto de PEC **tendente a abolir** seu núcleo protegido.
-
-A primeira pergunta é **quando** a Constituição pode ser emendada.  
-A segunda é **o que** o poder de reforma não pode abolir.
-
-## Limitações formais
-
-O poder reformador também é condicionado pelo procedimento constitucional: legitimidade da iniciativa, votação em dois turnos em cada Casa, quórum de três quintos e promulgação pelas Mesas.
-
-Outra limitação formal expressa está no art. 60, §5º: matéria constante de PEC rejeitada ou havida por prejudicada **não pode ser objeto de nova proposta na mesma sessão legislativa**.
-
-### Refinamento CAM-PL-015: o procedimento da PEC na Câmara (RICD arts. 201 a 203)
-
-**Problema concreto.** Uma proposta de emenda à Constituição (PEC) assinada por 171 deputados chega à Câmara. Ela já possui o número mínimo de assinaturas de iniciativa, mas **ainda não foi aprovada**, nem sequer teve sua admissibilidade reconhecida. O problema da tramitação é diferenciar **legitimidade da apresentação**, **admissibilidade constitucional**, **exame de mérito**, **votação plenária** e **concordância entre Câmara e Senado**. A regra material das cláusulas pétreas e a iniciativa constitucional já foram explicadas acima; este refinamento desenvolve os passos regimentais sem duplicá-las.
-
-#### Dois níveis normativos: CF art. 60 e RICD arts. 201 a 203
-
-A **Constituição** determina a iniciativa, as limitações e a votação de **três quintos dos membros em dois turnos de cada Casa**, além da promulgação conjunta pelas **Mesas da Câmara e do Senado**. O **Regimento Interno da Câmara dos Deputados (RICD)** organiza a tramitação **dentro da Câmara**. Na hipótese de conflito entre formulações, **a Constituição prevalece**.
-
-Duas divergências literais merecem atenção:
-
-- O **art. 201, I, do RICD** ainda menciona manifestação de cada Assembleia Legislativa pela **“maioria dos seus membros”**, mas o **art. 60, III, da CF** exige **maioria relativa de seus membros**. Para a iniciativa de PEC por assembleias estaduais, a regra constitucional é a **maioria relativa em cada uma das mais de metade das assembleias**, não a maioria absoluta como requisito geral.
-- O **art. 201, II, do RICD** menciona **estado de defesa** e **estado de sítio**, mas **não cita expressamente intervenção federal**; a proibição de emendar a Constituição na vigência de **intervenção federal** consta expressamente do **art. 60, § 1º, da CF**. A omissão no regimento **não autoriza** o processo reformador durante intervenção federal.
-
-**Para item Cebraspe:** não tratar uma enumeração regimental incompleta ou divergente como exceção tácita ao texto constitucional. O **art. 60** governa os requisitos superiores; **arts. 201–203 do RICD** regulam o caminho interno compatível.
-
-#### Etapas, prazos e competências regimentais
-
-| Etapa | Órgão e atividade | Prazo e condição | Troca que torna item errado |
-| :--- | :--- | :--- | :--- |
-| **1. Apresentação** | PEC apresentada por legitimado do **art. 60, I a III**, observada a Constituição | Por deputados: **pelo menos 171** de 513; por senadores: **27** de 81; ou Presidente da República; ou mais da metade das assembleias, cada uma com maioria relativa | Confundir 171 **assinaturas de iniciativa** com 308 **votos de aprovação** na Câmara |
-| **2. Admissibilidade** | Presidente da Câmara despacha à **Comissão de Constituição e Justiça e de Cidadania (CCJC)** | Parecer em **cinco sessões** (RICD art. 202, caput) | Dizer que a CCJC faz, nessa etapa, o julgamento final de **mérito** |
-| **3. Inadmissibilidade** | Se CCJC inadmitir, **autor**, com apoiamento de **líderes que representem ao menos um terço dos deputados**, pode requerer apreciação preliminar em Plenário | Art. 202, § 1º; não é autorização para aprovar PEC com quórum reduzido | Converter apoiamento para **recurso** em quórum de **aprovação da emenda** |
-| **4. Análise de mérito** | Admitida, o Presidente designa **comissão especial** para examinar o mérito | **40 sessões**, da constituição da comissão, para emitir parecer (art. 202, § 2º) | Atribuir à CCJC os 40 dias/sessões de mérito ou chamar 40 **dias corridos** |
-| **5. Emendas à PEC** | Apresentadas **perante a comissão especial**, com mínimo de assinaturas de **um terço dos deputados**, respeitadas as condições materiais | **Primeiras dez sessões** do prazo da comissão especial (art. 202, § 3º) | Transportar para PEC o prazo comum de **cinco sessões** para emendas à lei em comissão |
-| **6. Inclusão em pauta** | Publica-se o parecer; PEC entra na Ordem do Dia após interstício | **Duas sessões** após publicação do parecer (art. 202, § 5º) | Confundir com o intervalo de **cinco sessões entre turnos** |
-| **7. Deliberação em Plenário** | Dois turnos de **discussão e votação nominal** | **Cinco sessões de interstício** entre turnos; **308 votos favoráveis** em cada turno na Câmara (art. 202, §§ 6º e 7º) | Usar **maioria absoluta (257)** ou exigir **dois terços (342)** |
-| **8. Revisão e conclusão bicameral** | Senado aprecia PEC, observados os próprios procedimentos; alterações do Senado recebidas na Câmara seguem o rito do art. 202 | **O texto precisa alcançar aprovação constitucional das duas Casas**, sem sanção nem veto do Presidente | Considerar suficiente votação da Câmara ou supor que emenda do Senado siga diretamente à promulgação |
-
-**Aplicação subsidiária do rito dos projetos de lei (RICD, art. 202, § 8º):** as disposições regimentais sobre tramitação e apreciação de projetos de lei aplicam-se **às PECs apenas no que não colidirem com as regras especiais do art. 202**. Isso complementa, sem afastar, o procedimento constitucional de admissibilidade, comissão especial, dois turnos, interstícios e votação nominal. Não presumir que a PEC segue integralmente o rito ordinário de lei, tampouco que procedimentos gerais compatíveis sejam sempre proibidos.
-
-**Unidade do prazo:** o regimento usa **sessões**, e não necessariamente dias civis. Por isso, “40 sessões da comissão especial” e “40 dias úteis” não são expressões intercambiáveis. Ver regras de contagem do próprio Regimento para aferição de prazos reais.
-
-**CCJC × comissão especial:** a **CCJC** examina a **admissibilidade** da PEC, inclusive sua compatibilidade com os limites constitucionais; a **comissão especial** examina seu **mérito e as emendas**. A ordem faz sentido: antes de discutir como mudar a Constituição, verifica-se se a proposta pode tramitar segundo o poder de reforma constitucional.
-
-**Autor × líderes no pedido após inadmissibilidade:** não se exige que um terço dos deputados reapresente uma PEC. O art. 202, § 1º, prevê **requerimento do autor apoiado por líderes que representem ao menos 1/3 dos deputados** para apreciação preliminar em Plenário. É uma regra de **impugnação da inadmissibilidade**, diferente do piso de **171 deputados para apresentar PEC parlamentar**.
-
-**Emendas à PEC × emendas à lei ordinária:** conforme art. 202, § 3º, as emendas à PEC têm janela e assinaturas próprias. O **relator ou a comissão especial**, nos termos do § 4º, podem propor emenda ou substitutivo com observância das condições do art. 201, II. Emendas não podem contornar cláusula pétrea ou restrições constitucionais.
-
-**Exame bicameral:** o **art. 203** determina que proposta recebida do Senado, assim como emendas do Senado à PEC originada na Câmara, siga **a mesma tramitação do art. 202** na Câmara. Não há relação de revisão hierárquica entre as Casas. A promulgação exige a concordância constitucional dos dois órgãos legislativos sobre a matéria, ainda que a negociação de textos possa envolver idas e voltas.
-
-**Três números próximos, papéis diferentes:** **171 deputados** para iniciar PEC parlamentar; **257 deputados** para maioria absoluta em hipóteses que a exigem, como lei complementar; **308 deputados** para aprovar PEC em cada turno. No Senado, **27 senadores** para subscrever iniciativa e **49 votos favoráveis** em cada turno para aprovação. Os quóruns de votação se calculam sobre **o total dos membros**, e não apenas sobre os presentes.
-
-#### Caso progressivo: altere uma variável de cada vez
-
-**A. Iniciativa:** 170 deputados subscrevem PEC. **Não basta**: faltou 1 signatário para o mínimo de 171 (art. 60, I). Se a iniciativa viesse do **Presidente da República**, o requisito não seria 171 assinaturas: ele é **legitimado autônomo** (art. 60, II).
-
-**B. Assembleias estaduais:** 14 das 27 assembleias apresentam proposta e cada uma a aprova por maioria **relativa**. **Satisfeito, nesse aspecto, o art. 60, III**, pois mais da metade das assembleias se manifestou no quórum constitucional. A maioria absoluta, embora mais exigente, **não é requisito do texto constitucional para cada assembleia**.
-
-**C. Circunstância:** a PEC formalmente apresentada tramita durante **intervenção federal vigente**. **A Constituição não pode ser emendada nesse período** (art. 60, § 1º), ainda que a referência do art. 201, II, do RICD omita essa hipótese.
-
-**D. Admissibilidade:** a CCJC considera que a PEC viola cláusula pétrea. A proposta pode ser inadmitida, cabendo a reação **nos termos do art. 202, § 1º**, sem que mera maioria simples de integrantes da comissão substitua a aprovação plenária de três quintos.
-
-**E. Mérito:** a PEC foi admitida e remetida à comissão especial. A comissão tem **40 sessões** para emitir parecer. Deputados pretendem protocolar emenda na **11ª sessão** do prazo. Pela regra do art. 202, § 3º, a janela ordinária era **as primeiras dez sessões**, então está ultrapassada.
-
-**F. Plenário, primeiro turno:** comparecem 450 deputados, 307 votam a favor. **Rejeitada naquele turno**: ainda que a maioria dos presentes a apoie, não alcançou **308 votos**, que são três quintos de 513 arredondados para o inteiro superior.
-
-**G. Dois turnos:** a PEC obtém 315 votos no primeiro turno, mas somente 307 no segundo. **Não aprovada**: o quórum de três quintos vale **em ambos**, e não em média.
-
-**H. Senado:** a Câmara aprova dois turnos e o Senado altera substancialmente o texto. **Não há promulgação automática da nova redação**: o art. 203 disciplina retorno da proposição e das emendas do Senado à apreciação na Câmara.
-
-**I. Atos finais:** o Presidente da República foi autor da PEC que passou pelos dois Plenários. **Não sanciona nem veta** o texto. A emenda é **promulgada pelas Mesas da Câmara e do Senado** (art. 60, § 3º), com número de ordem.
-
-**J. Nova apresentação:** matéria de PEC foi rejeitada ou havida por prejudicada. **Não pode constar de nova proposta na mesma sessão legislativa** (art. 60, § 5º); a expressão não equivale a “proibida até a legislatura seguinte”.
-
-#### Dez itens inéditos Cebraspe C/E: limites e etapas próximas
+Os **dez itens inéditos** da expansão CAM-PL-015 também foram preservados.
 
 **1.** A admissão de proposta de emenda à Constituição pela Comissão de Constituição e Justiça e de Cidadania encerra o exame de mérito, facultando sua inclusão imediata em votação definitiva no Plenário. **Errado.** A CCJC analisa **admissibilidade**, enquanto a comissão especial examina o **mérito** (RICD art. 202, caput e § 2º). O distrator substitui uma **etapa** pela seguinte.
 
@@ -497,84 +329,22 @@ Duas divergências literais merecem atenção:
 
 **10.** Se a CCJC concluir pela inadmissibilidade da PEC, o autor poderá requerer sua apreciação preliminar em Plenário, com apoio de líderes que representem ao menos um terço dos deputados. **Certo.** RICD art. 202, § 1º. Não confundir com **aprovação por três quintos** ou com reinício da proposta.
 
-#### Aplicação na comunicação institucional e na prova discursiva
+## Leitura seguinte e fontes oficiais
 
-Uma notícia institucional que anuncie “Constituição alterada” apenas porque a **CCJC admitiu PEC** comunica um fato juridicamente errado: houve **admissibilidade**, não aprovação parlamentar final. Também é incorreto afirmar que a **Câmara aprovou emenda à Constituição** em definitivo depois do primeiro turno, ou que a proposta “aguarda sanção presidencial”.
+Para aprofundar apenas o ponto que causou dúvida, use a sequência:
 
-Ao redigir uma peça de comunicação sobre PEC, localizar **Casa de tramitação, comissão, turno, resultado da votação, texto eventualmente modificado e fase de promulgação**. O vocabulário da notícia deve refletir o **estado real da proposição**. Essa aplicação conecta Direito Constitucional aos objetivos de **Divulgação Institucional** do concurso da Câmara.
+- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Quem pode propor cada lei e o que é iniciativa reservada]].
+- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Como funcionam maioria simples, maioria absoluta e quóruns de votação]].
+- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Por onde um projeto passa até virar lei]].
+- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|O que acontece depois da aprovação no Legislativo]].
+- [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Tabela aprofundada das sete espécies legislativas]].
 
-#### Relações, tensões e heurísticas específicas
+**Fontes normativas principais:**
 
-- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-002, iniciativa legislativa]]: art. 60 (PEC) **não utiliza** o rol genérico do art. 61 (leis), nem os percentuais da iniciativa popular de lei federal como mecanismo de PEC.
-- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004, comissões]]: **CCJC** aprecia admissibilidade e **comissão especial** aprecia o mérito; o nome “comissão” não torna suas competências equivalentes.
-- [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005, pareceres]]: parecer de admissibilidade não é aprovação por três quintos nem promulgação.
-- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|CAM-PL-006, votação e quóruns]]: distinguir 171 **assinaturas**; 308 **votos da Câmara**; 27 assinaturas e 49 votos do Senado.
-- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|CAM-PL-007, atos finais]]: PEC aprovada **não** recebe sanção ou veto; promulgação é feita pelas **Mesas**.
-- [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|CAM-PL-010, ritos especiais]]: o rito da PEC é **especial**; não transpor o prazo de urgência do art. 64 nem o tratamento de medidas provisórias.
-- **Regra de leitura:** art. 60 **define legitimados, limites e votação**; RICD arts. 201–203 **detalham admissibilidade, mérito, emendas, interstícios e retorno do Senado**, conforme compatibilidade constitucional.
+- [Constituição Federal de 1988, texto atualizado, especialmente arts. 14, 37, 47, 59 a 69, 93, 146, 163 e 165](https://www4.planalto.gov.br/legislacao/legis-federal/constituicao).
+- [Regimento Interno da Câmara dos Deputados, especialmente arts. 24, 148 e 201 a 203](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+- [Câmara dos Deputados: explicações sobre votação e projetos de lei](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/votacao).
+- [STF, Tema 1.352: lei ordinária e matéria formalmente complementar](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1352).
+- [STF, Informativo 1.190: tese e condições do Tema 1.352](https://www.stf.jus.br/arquivo/informativo/documento/informativo1190.htm).
 
-#### Fontes oficiais verificadas em 08/11/2026
-
-- [Constituição Federal, texto atualizado, art. 60](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
-- [Regimento Interno da Câmara dos Deputados, arts. 201, 202 e 203](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
-- [Biblioteca da Câmara: Regimento Interno, 31ª edição, atualizado até Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
-- [Câmara dos Deputados: prazos do processo legislativo](https://www2.camara.leg.br/atividade-legislativa/plenario/contagem-de-prazos/principais-prazos-do-processo-legislativo).
-
-**Nota editorial:** este refinamento atende **CAM-PL-015** sem alterar o `articleId` canônico da nota, nem criar artigo duplicado. Os dez itens C/E são **inéditos**, não questões de provas reais; a redação e a conferência normativa não demonstram aprendizagem pessoal.
-
-## Como a banca cobra
-
-- dizer que Presidente pode propor PEC e, portanto, sancioná-la ou vetá-la;
-- trocar maioria absoluta da lei complementar por três quintos;
-- afirmar que toda lei complementar é hierarquicamente superior à lei ordinária;
-- atribuir iniciativa irrestrita a qualquer legitimado do art. 61;
-- dizer que PEC é promulgada pelo Presidente ou pelas Mesas “em sessão conjunta”;
-- aplicar a expressão “não será objeto de deliberação” às limitações circunstanciais do §1º;
-- confundir três quintos com dois terços;
-- permitir reapresentação, na mesma sessão legislativa, de matéria de PEC rejeitada/prejudicada;
-- tratar cláusula pétrea como proibição absoluta de qualquer modificação textual relacionada ao tema;
-- afirmar que apoio unânime do Congresso permitiria abolir cláusula pétrea;
-- dizer que os direitos e garantias individuais protegidos estão necessariamente restritos ao art. 5º;
-- confundir alteração permitida de disciplina constitucional com abolição do núcleo essencial;
-- supor que uma PEC só viola cláusula pétrea se revogar expressamente o dispositivo protegido;
-- dizer que as cláusulas pétreas vinculam juridicamente o poder constituinte originário de uma nova Constituição.
-
-## Relações com outros temas
-
-A separação dos Poderes conecta esta nota a [[3 - Materias/Direito Constitucional/01 - principios fundamentais|Princípios fundamentais]] e [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]]. Vícios de iniciativa e procedimento são exemplos de inconstitucionalidade formal estudados em [[3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade|Controle de constitucionalidade]]. A participação presidencial se conecta a [[3 - Materias/Direito Constitucional/07 - poder executivo|Poder Executivo]].
-
-## Heurísticas
-
-**Lei complementar → maioria absoluta. PEC → 3/5, dois turnos, em cada Casa.**
-
-**Presidente pode iniciar PEC; não sanciona nem veta PEC.**
-
-**§1º = quando não pode emendar. §4º = o que não pode abolir.**
-
-**Cláusula pétrea protege núcleo essencial; não congela necessariamente toda a redação.**
-
-**3/5 é requisito de aprovação, não autorização para ultrapassar cláusula pétrea.**
-
-**Poder derivado respeita cláusulas pétreas; poder originário inaugura nova ordem.**
-
-**Promulgação da EC = Mesas da Câmara e do Senado, não Presidente e não “sessão conjunta”.**
-
-## Fontes
-
-- Constituição Federal, especialmente art. 60, §§1º a 5º — Presidência da República/Planalto.
-- STF. *A Constituição e o Supremo*, art. 60 — jurisprudência sobre limites ao poder constituinte derivado, núcleo essencial dos direitos e garantias e controle de emendas constitucionais.
-- STF. ADI 939/DF; RE 587.008 (Tema 107) — anterioridade tributária como garantia fundamental protegida.
-- STF. ADI 815 — cláusulas pétreas como limites ao poder constituinte derivado, e não ao originário.
-- Constituição Federal, arts. 47, 59 a 69.
-- [[00 inbox/15-06-2026|Inbox de 15/06/2026]].
-
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Escopo conferido:** conteúdo de poder constituinte, espécies do art. 59, lei ordinária versus complementar e jurisprudência do Tema 1.352, limites formais/circunstanciais/materiais ao poder reformador e tramitação de PEC na Câmara. Confrontado com o [texto atualizado da Constituição Federal, especialmente arts. 47, 59, 60, 61, 69, 93, 146 e 165](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), [RICD arts. 24 e 201–203](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e [tese do STF no Tema 1.352](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1352). Conferidos os **oito exercícios originais da expansão CAM-PL-011**, os **dez exercícios da expansão CAM-PL-015**, os respectivos casos progressivos e os exemplos das cláusulas pétreas. O texto utiliza categorias doutrinárias, não as confunde com dispositivos constitucionais literais.
-
-**NC-PL-056:** acrescentado o **parágrafo único do art. 59** da CF, que reserva à **lei complementar a disciplina de elaboração, redação, alteração e consolidação das leis**, situando a LC nº 95/1998 como norma de técnica legislativa. **NC-PL-057:** explicitado o **art. 202, § 8º, do RICD**, de aplicação **subsidiária** das regras de tramitação e apreciação de projetos de lei às PECs **naquilo que não colidir com o rito especial**. Preservadas as observações sobre divergências literais entre o RICD art. 201 e a CF art. 60, III e § 1º.
-
-**Gabaritos preservados, CAM-PL-011 (8):** **E, C, E, C, E, C, E, C**. **CAM-PL-015 (10):** **E, C, C, E, E, C, C, E, C, C**. **Dezoito questões existentes**, sem inversão constatada no recorte conferido. Nenhum enunciado ou questão adicionados ao inventário histórico.
-
-**Limites:** certificação jurídico-editorial do conteúdo e das referências efetivamente examinados em 11/11/2026. Não constitui verificação integral de toda a jurisprudência do poder constituinte, homologação de todos os limites implícitos doutrinários, desempenho do estudante, nem validação de renderização/publicação no GitHub Pages.
+**Registro editorial (12/11/2026):** reestruturação didática integral deste artigo canônico para apresentar primeiro a diferença concreta entre os sete instrumentos; depois, sujeitos, quóruns, processo e limites. Mantidos o **articleId** e os **18 exercícios inéditos** das expansões CAM-PL-011 e CAM-PL-015. Os exercícios foram deslocados para o final, separando estudo e prática. O material do rito da PEC foi concentrado em uma seção de aprofundamento, com fontes oficiais. 

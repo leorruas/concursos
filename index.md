@@ -44,6 +44,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[4 - Projetos/camara-2026/Corpus de provas e padrao Cebraspe|Corpus de provas e padrão Cebraspe]]
   - [[4 - Projetos/camara-2026/Indice de questoes reais Cebraspe|Índice de questões reais Cebraspe]]
   - [[4 - Projetos/camara-2026/Questoes e Simulados|Questões e simulados]]
+  - [[4 - Projetos/camara-2026/Auditoria banco 2000 questoes - 2026-11-11|Auditoria inicial do banco de questões da Câmara]]
 
 ## 5 - Desempenho
 - [[3 - Materias/Relatorio de Estudos/relatorio-de-estudos|Relatório público de estudos da Câmara (sem resultados individuais)]]

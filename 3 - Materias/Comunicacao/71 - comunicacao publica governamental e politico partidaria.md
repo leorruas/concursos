@@ -74,6 +74,20 @@ O **art. 37, § 1º, da Constituição Federal** prevê que publicidade dos atos
 
 **Caso de fronteira:** uma comunicação governamental sobre uma política de saúde explica critérios e como obter atendimento, ainda que sua execução seja politicamente disputada. A existência de conflito político não transforma a orientação de serviço, automaticamente, em propaganda partidária. A finalidade e a construção da mensagem precisam ser examinadas.
 
+## Como o Cebraspe cobra: itens inéditos Certo/Errado
+
+**Item 1.** De acordo com a perspectiva de Jorge Duarte, a comunicação pública pode envolver órgãos estatais, partidos, empresas e cidadãos, desde que a interação trate de assuntos de interesse coletivo, não se definindo unicamente pela natureza estatal de quem emite a mensagem.
+
+**Gabarito: Certo.** O conceito envolve atores diversos e centralidade do interesse público. O erro provável seria igualar comunicação pública a qualquer mensagem produzida por um órgão público.
+
+**Item 2.** O Ato da Mesa nº 218/2025 estabelece a política de comunicação da Câmara e aplica suas regras, indistintamente, tanto aos canais institucionais quanto aos produtos criados diretamente por gabinetes parlamentares e lideranças partidárias.
+
+**Gabarito: Errado.** O parágrafo único do art. 1º exclui esses produtos da incidência da política estabelecida no ato. O distrator suprime exceção expressa. A exceção não afasta outras normas jurídicas.
+
+**Item 3.** Em razão do princípio da imparcialidade previsto no Ato da Mesa nº 218/2025, a comunicação oficial da Câmara deve evitar informar a existência de posições políticas divergentes no processo legislativo.
+
+**Gabarito: Errado.** O ato prevê voz institucional em convivência com a pluralidade política e a apresentação do processo de negociação parlamentar. O erro é confundir imparcialidade com ocultação do pluralismo.
+
 ## Aplicação editorial: autoria, canal, pluralismo e responsabilidade
 
 **Problema:** uma mesma proposta legislativa aparece em uma reportagem produzida pela comunicação da Câmara, numa publicação de uma liderança partidária e numa mensagem pessoal de deputado. A referência à Câmara ou ao Parlamento não torna os três produtos sujeitos à **mesma política interna de produção**. O [art. 1º, parágrafo único, do Ato da Mesa nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html) exclui do alcance dessa política os conteúdos **criados ou contratados diretamente por deputados, gabinetes e lideranças**. O art. 3º exige adequação dos órgãos **não ressalvados**. Essa delimitação **não elimina normas constitucionais, eleitorais ou outras obrigações aplicáveis em cada caso**.
@@ -93,20 +107,6 @@ O **art. 37, § 1º, da Constituição Federal** prevê que publicidade dos atos
 **Gabarito: Certo.** A exceção é **específica de incidência da política**, não imunidade constitucional ou legal. O comentário não presume que todas as regras de publicidade institucional sejam automaticamente aplicáveis a qualquer canal parlamentar.
 
 **Fonte normativa:** [Ato nº 218/2025, arts. 1º, 3º, 5º, 7º e 12](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html). Casos hipotéticos destinados à aprendizagem e à prova discursiva; os itens 4 e 5 são **inéditos autorais**, sem alegação de reprodução do Cebraspe.
-
-## Como o Cebraspe cobra: itens inéditos Certo/Errado
-
-**Item 1.** De acordo com a perspectiva de Jorge Duarte, a comunicação pública pode envolver órgãos estatais, partidos, empresas e cidadãos, desde que a interação trate de assuntos de interesse coletivo, não se definindo unicamente pela natureza estatal de quem emite a mensagem.
-
-**Gabarito: Certo.** O conceito envolve atores diversos e centralidade do interesse público. O erro provável seria igualar comunicação pública a qualquer mensagem produzida por um órgão público.
-
-**Item 2.** O Ato da Mesa nº 218/2025 estabelece a política de comunicação da Câmara e aplica suas regras, indistintamente, tanto aos canais institucionais quanto aos produtos criados diretamente por gabinetes parlamentares e lideranças partidárias.
-
-**Gabarito: Errado.** O parágrafo único do art. 1º exclui esses produtos da incidência da política estabelecida no ato. O distrator suprime exceção expressa. A exceção não afasta outras normas jurídicas.
-
-**Item 3.** Em razão do princípio da imparcialidade previsto no Ato da Mesa nº 218/2025, a comunicação oficial da Câmara deve evitar informar a existência de posições políticas divergentes no processo legislativo.
-
-**Gabarito: Errado.** O ato prevê voz institucional em convivência com a pluralidade política e a apresentação do processo de negociação parlamentar. O erro é confundir imparcialidade com ocultação do pluralismo.
 
 ## Relações com outros temas
 

@@ -132,3 +132,15 @@ Os 32 itens preparados no PR #22 foram cotejados individualmente por conceito, g
 ## Lote 021: Direito Administrativo, 40 itens validados
 
 Quarenta itens sobre Estado/Governo/Administração, organização administrativa, atos e atributos, anulação e revogação, pareceres, Lei nº 8.112/1990, Lei nº 9.784/1999 e poderes administrativos, vinculados a onze artigos canônicos. Gabaritos e explicações revisados; dispositivos de posse, exercício, delegação, avocação, recursos e impedimentos cotejados com as leis consolidadas no Planalto. Distribuição: 20 Certo e 20 Errado. Triagem de similaridade com as questões históricas e a expansão não sinalizou pares acima de 0,35. Validação técnica no CI exigida antes da integração. Total previsto de novas questões validadas: 840/2.000.
+
+## Lote 022: Ética e Decoro Parlamentar, 40 itens validados
+
+Quarenta questões P2 sobre a Resolução nº 25/2001 da Câmara dos Deputados, após consulta ao [texto atualizado oficial](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html), cobrindo direitos e deveres, atos incompatíveis ou atentatórios, composição do Conselho de Ética, recebimento de representações, defesa, sanções, recursos e quóruns. Referência canônica: artigo 34 de Direito Constitucional (Código de Ética). Conferência de 40 IDs, 20 itens Certo/20 Errado, inexistência de enunciados repetidos e triagem de similaridade lexical acima de 0,35. O CI é a porta final para integrar este lote. Após aprovação: **880 de 2.000 novos itens validados**; restam 1.120. A dificuldade está estimada, não calibrada.
+
+## Lote 023: Administração Pública e Governança, 40 itens validados
+
+Quarenta itens novos P1 ligados aos sete artigos de Administração Pública: patrimonialismo, burocracia, gerencialismo, governança e governabilidade, valor público, eficiência e controle, NPG, redes, coprodução e parcerias, transparência e proteção de dados. Correção de gabaritos e mecanismos cotejada com os textos de referência. Itens normativos sobre transparência ativa e anonimização comparados com LAI e LGPD atualizadas. Gabaritos: 20 C/20 E; nenhum enunciado repetido ou par de proximidade lexical igual/superior a 0,35 na triagem. Evidências individuais preservadas, dificuldade apenas estimada. Integração depende da validação técnica em CI. Contagem projetada após merge: **920/2.000** novos itens validados.
+
+## Lote 024: Inglês, 40 itens validados
+
+Quarenta questões P1 de leitura instrumental, compreensão, inferência, escopo, referenciação, conectores, léxico, negação, inversão, tempo/aspecto, voz passiva, modais, quantificadores, paráfrase e intertextualidade. Itens ancorados em doze artigos publicados da trilha de Inglês, com exemplos originais e gabaritos comentados (20 C e 20 E). Conferência de metadados, justificativa e fonte por questão; triagem de enunciados repetidos e similaridade lexical do lote. Dificuldade didática estimada. Integração subordinada ao CI. Contagem após aprovação: **960/2.000** itens novos validados.

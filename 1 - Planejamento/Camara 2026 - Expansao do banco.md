@@ -113,3 +113,5 @@ Total validado: 720/2.000. Próximo lote: publicidade institucional e art. 37, �
 Oito itens sobre as finalidades da publicidade institucional e a caracterização de promoção pessoal, vinculados ao artigo 78.
 
 O lote soma 16 itens redigidos. Os oito novos cobrem a análise da peça e as restrições eleitorais, com cotejo no art. 73, VI, b, e § 3º da Lei nº 9.504/1997.
+
+O lote soma 24 itens redigidos. Os oito novos cobrem pluralismo, endosso político, registro de críticas, enquadramento de chamadas e personalização visual.

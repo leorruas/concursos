@@ -27224,6 +27224,222 @@
       "statement": "Ao decidir redistribuir uma peça institucional produzida antes do período eleitoral, a equipe deve examinar as regras aplicáveis à nova divulgação.",
       "correctAnswer": "C",
       "explanation": "A produção anterior não resolve a incidência das restrições sobre uma divulgação posterior. É preciso examinar a data, o conteúdo e o âmbito da nova distribuição."
+    },
+    {
+      "id": "cam-cs-pub-endosso-sem-figura-publica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "endosso-sem-figura-publica",
+      "mechanism": "endosso-sem-figura-publica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Comunicação institucional da Câmara e pluralismo político"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Comunicação institucional da Câmara e pluralismo político"
+      },
+      "statement": "Um card oficial que recomenda ao cidadão aderir à posição de uma bancada pode contrariar a Política de Comunicação da Câmara mesmo quando mostra apenas o texto da proposta e nenhuma fotografia de autoridade.",
+      "correctAnswer": "C",
+      "explanation": "O art. 12 veda favorecer posições políticas. A incidência dessa regra independe de retrato ou promoção pessoal."
+    },
+    {
+      "id": "cam-cs-pub-elogio-individual-sem-partido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "elogio-individual-sem-partido",
+      "mechanism": "elogio-individual-sem-partido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Comunicação política, crítica e informação legislativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Comunicação política, crítica e informação legislativa"
+      },
+      "statement": "Uma campanha oficial que enaltece nominalmente um servidor por um serviço público só pode caracterizar promoção pessoal se fizer referência a um partido.",
+      "correctAnswer": "E",
+      "explanation": "O art. 37, § 1º, protege a impessoalidade na publicidade de órgãos públicos. A caracterização de promoção pessoal de servidor independe de vínculo partidário."
+    },
+    {
+      "id": "cam-cs-pub-publicacao-institucional-com-referencia-critica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "publicacao-institucional-com-referencia-critica",
+      "mechanism": "publicacao-institucional-com-referencia-critica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Comunicação política, crítica e informação legislativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Comunicação política, crítica e informação legislativa"
+      },
+      "statement": "Ao informar que uma medida sofreu críticas de entidades consultadas, a Agência pode atribuir as críticas a suas fontes e explicar o objeto da divergência sem assumir a opinião das entidades.",
+      "correctAnswer": "C",
+      "explanation": "A atribuição identifica quem sustenta a avaliação e a contextualização explica o debate. A voz institucional pode reportar a divergência."
+    },
+    {
+      "id": "cam-cs-pub-enquete-canal-com-alternativa-laudatoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "enquete-canal-com-alternativa-laudatoria",
+      "mechanism": "enquete-canal-com-alternativa-laudatoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Comunicação institucional da Câmara e pluralismo político"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Comunicação institucional da Câmara e pluralismo político"
+      },
+      "statement": "A possibilidade de votar em duas opções de uma enquete oficial basta para afastar favorecimento político, mesmo que o enunciado descreva uma das opções como a única escolha responsável.",
+      "correctAnswer": "E",
+      "explanation": "O favorecimento pode resultar da formulação da pergunta. Oferecer duas opções não elimina o endosso embutido no enunciado."
+    },
+    {
+      "id": "cam-cs-pub-ata-critica-e-publicacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "ata-critica-e-publicacao",
+      "mechanism": "ata-critica-e-publicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Comunicação política, crítica e informação legislativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Comunicação política, crítica e informação legislativa"
+      },
+      "statement": "A reprodução fiel, em ata, de uma crítica atribuída ao parlamentar que a formulou pode cumprir função de registro do debate, mesmo que o trecho contenha avaliação política contundente.",
+      "correctAnswer": "C",
+      "explanation": "A ata documenta a manifestação de seu autor. A presença de uma avaliação no registro não transforma a posição em juízo institucional."
+    },
+    {
+      "id": "cam-cs-pub-chamada-de-reportagem-com-juizo-partidario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "chamada-de-reportagem-com-juizo-partidario",
+      "mechanism": "chamada-de-reportagem-com-juizo-partidario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Comunicação política, crítica e informação legislativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Comunicação política, crítica e informação legislativa"
+      },
+      "statement": "Em uma chamada oficial, apresentar como conclusão da Câmara uma avaliação defendida apenas pelo líder de uma bancada é aceitável se o texto completo identificar corretamente o autor.",
+      "correctAnswer": "E",
+      "explanation": "A chamada circula como mensagem editorial própria. A atribuição posterior não corrige automaticamente a identificação indevida no título ou na chamada."
+    },
+    {
+      "id": "cam-cs-pub-equilibrio-e-principio-de-precisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "equilibrio-e-principio-de-precisao",
+      "mechanism": "equilibrio-e-principio-de-precisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Comunicação institucional da Câmara e pluralismo político"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Comunicação institucional da Câmara e pluralismo político"
+      },
+      "statement": "Na cobertura de posições divergentes, expor fielmente os argumentos permite informar o público sem apresentar como comprovado um dado que a documentação disponível desmente.",
+      "correctAnswer": "C",
+      "explanation": "Pluralismo permite dar visibilidade a posições. Precisão exige distinguir o que foi alegado do que os registros confirmam."
+    },
+    {
+      "id": "cam-cs-pub-promocao-por-organizacao-visual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "promocao-por-organizacao-visual",
+      "mechanism": "promocao-por-organizacao-visual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Comunicação política, crítica e informação legislativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Comunicação política, crítica e informação legislativa"
+      },
+      "statement": "Em uma campanha para divulgar um serviço, reduzir o tamanho do nome da autoridade basta para sanar eventual promoção pessoal quando o retrato e o slogan continuam atribuindo o serviço a ela.",
+      "correctAnswer": "E",
+      "explanation": "A avaliação alcança a combinação de imagem, slogan e atribuição de mérito. O tamanho do nome é apenas um elemento da composição."
     }
   ]
 }

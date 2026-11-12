@@ -6452,7 +6452,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
       ],
@@ -6462,7 +6462,8 @@
       },
       "statement": "O custo por mil impressões usa a quantidade de impressões como denominador, inclusive quando parte delas corresponde a contatos repetidos.",
       "correctAnswer": "C",
-      "explanation": "O indicador mede custo por mil exibições. Para medir custo por pessoa distinta, seria necessário usar o alcance deduplicado."
+      "explanation": "O indicador mede custo por mil exibições. Para medir custo por pessoa distinta, seria necessário usar o alcance deduplicado.",
+      "reviewEvidence": "Cotejo editorial com Taxonomia e fórmulas do artigo 90 na base 9a0d80b6, com conferência independente da aritmética dos casos numéricos."
     },
     {
       "id": "cam-di-frequencia-subgrupos",
@@ -6479,7 +6480,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
       ],
@@ -6489,7 +6490,8 @@
       },
       "statement": "Uma campanha alcançou 100 moradores com frequência média 5 e 400 visitantes com média 2. Se os grupos são disjuntos, a frequência média combinada é 3,5.",
       "correctAnswer": "E",
-      "explanation": "A média pondera cada frequência pelo alcance do grupo. Foram 1.300 contatos em 500 pessoas, resultando em 2,6."
+      "explanation": "A média pondera cada frequência pelo alcance do grupo. Foram 1.300 contatos em 500 pessoas, resultando em 2,6.",
+      "reviewEvidence": "Cotejo editorial com Taxonomia e fórmulas do artigo 90 na base 9a0d80b6, com conferência independente da aritmética dos casos numéricos."
     },
     {
       "id": "cam-di-media-limiar",
@@ -6501,22 +6503,23 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 1 / mídia",
       "articleId": "art-3c91e72f8ad506b4",
-      "conceptId": "media-limiar",
-      "mechanism": "media-limiar",
+      "conceptId": "recortes-de-medicao-incompativeis",
+      "mechanism": "verificar-unidade-e-periodo",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-3c91e72f8ad506b4#Cobertura e alcance efetivo"
+        "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
-        "section": "Cobertura e alcance efetivo"
+        "section": "Taxonomia e fórmulas"
       },
-      "statement": "Em uma campanha que alcançou 200 pessoas e obteve frequência média 4, é possível garantir que pelo menos metade das pessoas recebeu quatro exposições ou mais.",
+      "statement": "Se um relatório informa impressões de todo o mês e alcance distinto apenas da última semana, a divisão direta desses números fornece a frequência média mensal.",
       "correctAnswer": "E",
-      "explanation": "A média não determina a distribuição. Por exemplo, 150 pessoas com duas exposições e 50 com dez produzem média 4."
+      "explanation": "Numerador e denominador precisam cobrir o mesmo período e público. O alcance da última semana exclui pessoas alcançadas somente nas semanas anteriores.",
+      "reviewEvidence": "Cotejo editorial com Taxonomia e fórmulas do artigo 90 na base 9a0d80b6, com conferência independente da aritmética dos casos numéricos."
     },
     {
       "id": "cam-di-continuidade-e-picos",
@@ -6533,7 +6536,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3c91e72f8ad506b4#Programação temporal"
       ],
@@ -6543,7 +6546,8 @@
       },
       "statement": "Manter inserções toda semana e aumentar a intensidade na semana que antecede uma audiência combina presença contínua e reforço pontual.",
       "correctAnswer": "C",
-      "explanation": "Há presença durante todo o período, com uma concentração adicional perto do evento."
+      "explanation": "Há presença durante todo o período, com uma concentração adicional perto do evento.",
+      "reviewEvidence": "Cotejo editorial com Programação temporal do artigo 90 na base 9a0d80b6, com conferência independente da aritmética dos casos numéricos."
     },
     {
       "id": "cam-di-economia-por-contato-e-cobertura",
@@ -6560,7 +6564,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3c91e72f8ad506b4#Investimento e decisão"
       ],
@@ -6570,7 +6574,8 @@
       },
       "statement": "Dois planos custam R$ 6 mil. A entrega prevista é de 300 mil impressões para 50 mil pessoas no primeiro e de 200 mil para 100 mil pessoas no segundo. O primeiro oferece menor custo por mil impressões e o segundo, menor custo por pessoa alcançada.",
       "correctAnswer": "C",
-      "explanation": "O custo por mil é R$ 20 contra R$ 30. O custo por pessoa é R$ 0,12 contra R$ 0,06. A classificação se inverte conforme o denominador."
+      "explanation": "O custo por mil é R$ 20 contra R$ 30. O custo por pessoa é R$ 0,12 contra R$ 0,06. A classificação se inverte conforme o denominador.",
+      "reviewEvidence": "Cotejo editorial com Investimento e decisão do artigo 90 na base 9a0d80b6, com conferência independente da aritmética dos casos numéricos."
     },
     {
       "id": "cam-di-exposicao-efetiva-intersecao",
@@ -6587,7 +6592,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3c91e72f8ad506b4#Cobertura e alcance efetivo"
       ],
@@ -6597,7 +6602,8 @@
       },
       "statement": "Dois veículos alcançam 80 e 70 pessoas de um universo de 100. Se cada veículo entrega uma impressão por pessoa alcançada e a meta é de duas exposições, a meta foi atingida por exatamente 50 pessoas.",
       "correctAnswer": "E",
-      "explanation": "A interseção tem pelo menos 50 e pode chegar a 70. Sem o alcance conjunto observado, o número exato de pessoas com duas exposições é desconhecido."
+      "explanation": "A interseção tem pelo menos 50 e pode chegar a 70. Sem o alcance conjunto observado, o número exato de pessoas com duas exposições é desconhecido.",
+      "reviewEvidence": "Cotejo editorial com Cobertura e alcance efetivo do artigo 90 na base 9a0d80b6, com conferência independente da aritmética dos casos numéricos."
     },
     {
       "id": "cam-di-custo-marginal-de-cobertura",
@@ -6614,7 +6620,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3c91e72f8ad506b4#Investimento e decisão"
       ],
@@ -6624,7 +6630,8 @@
       },
       "statement": "Com duas inserções que alcançam 30 mil e 40 mil pessoas e têm 25 mil pessoas em comum, a segunda, a R$ 3 mil, custa R$ 0,20 por pessoa adicionada à cobertura da primeira.",
       "correctAnswer": "C",
-      "explanation": "A segunda soma 15 mil pessoas distintas à cobertura. O custo incremental por pessoa é 3.000 dividido por 15.000."
+      "explanation": "A segunda soma 15 mil pessoas distintas à cobertura. O custo incremental por pessoa é 3.000 dividido por 15.000.",
+      "reviewEvidence": "Cotejo editorial com Investimento e decisão do artigo 90 na base 9a0d80b6, com conferência independente da aritmética dos casos numéricos."
     },
     {
       "id": "cam-di-grp-frequencia-limiar",
@@ -6641,7 +6648,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3c91e72f8ad506b4#Taxonomia e fórmulas"
       ],
@@ -6651,7 +6658,8 @@
       },
       "statement": "Em um público de 1.000 pessoas, dois veículos com uma impressão por pessoa alcançada entregam 60 e 50 pontos de audiência. Com frequência combinada de 1,375 entre os alcançados, mais da metade das pessoas alcançadas teve duas exposições.",
       "correctAnswer": "E",
-      "explanation": "São 1.100 impressões e 800 pessoas alcançadas. A interseção tem 300 pessoas, equivalentes a 37,5% das 800. É preciso recuperar o alcance a partir da frequência e então calcular a sobreposição."
+      "explanation": "São 1.100 impressões e 800 pessoas alcançadas. A interseção tem 300 pessoas, equivalentes a 37,5% das 800. É preciso recuperar o alcance a partir da frequência e então calcular a sobreposição.",
+      "reviewEvidence": "Cotejo editorial com Taxonomia e fórmulas do artigo 90 na base 9a0d80b6, com conferência independente da aritmética dos casos numéricos."
     },
     {
       "id": "cam-di-marco-sem-duracao",

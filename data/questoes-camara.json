@@ -16106,6 +16106,168 @@
       "statement": "Se a proporção de apoio a uma proposta permanece estável entre duas sondagens, ainda é possível que os argumentos usados no debate público tenham mudado.",
       "correctAnswer": "C",
       "explanation": "Uma proporção sintetiza posições declaradas. A circulação e transformação dos argumentos exige outras observações."
+    },
+    {
+      "id": "cam-cs-validade-da-fonte-no-periodo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / desinformação",
+      "articleId": "art-f1483b1fa6d042c2",
+      "conceptId": "validade-da-fonte-no-periodo",
+      "mechanism": "validade-da-fonte-no-periodo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f1483b1fa6d042c2#Método do fact-checking"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/18 - fact checking e desinformacao.md",
+        "section": "Método do fact-checking"
+      },
+      "statement": "Encontrar uma tabela oficial com o mesmo indicador basta para confirmar uma alegação sobre 2024 se a tabela consultada se refere exclusivamente a 2022.",
+      "correctAnswer": "E",
+      "explanation": "A fonte é oficial, mas o período não corresponde à afirmação. A checagem deve buscar a série pertinente ou declarar a insuficiência da evidência."
+    },
+    {
+      "id": "cam-cs-registro-autentico-contexto-errado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / desinformação",
+      "articleId": "art-f1483b1fa6d042c2",
+      "conceptId": "registro-autentico-contexto-errado",
+      "mechanism": "registro-autentico-contexto-errado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f1483b1fa6d042c2#Sete tipos de conteúdo problemático"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/18 - fact checking e desinformacao.md",
+        "section": "Sete tipos de conteúdo problemático"
+      },
+      "statement": "Um áudio autêntico de uma sessão anterior pode desinformar quando é apresentado como registro de uma sessão diferente, ainda que o arquivo não tenha sido editado.",
+      "correctAnswer": "C",
+      "explanation": "A falsidade está na atribuição de contexto. A autenticidade do registro não confirma a data ou o evento alegado."
+    },
+    {
+      "id": "cam-cs-intencao-na-origem-e-no-repasse",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / desinformação",
+      "articleId": "art-f1483b1fa6d042c2",
+      "conceptId": "intencao-na-origem-e-no-repasse",
+      "mechanism": "intencao-na-origem-e-no-repasse",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f1483b1fa6d042c2#Elementos e fases da desordem informacional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/18 - fact checking e desinformacao.md",
+        "section": "Elementos e fases da desordem informacional"
+      },
+      "statement": "Se uma pessoa produz deliberadamente um boato e outra o repassa acreditando que seja verdadeiro, é possível distinguir as intenções dos agentes nas duas etapas.",
+      "correctAnswer": "C",
+      "explanation": "A intenção de quem criou a mensagem não pode ser atribuída automaticamente a quem a redistribuiu."
+    },
+    {
+      "id": "cam-cs-metaprocesso-e-periodo-de-observacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / midiatização",
+      "articleId": "art-42edbd08bca563f1",
+      "conceptId": "metaprocesso-e-periodo-de-observacao",
+      "mechanism": "metaprocesso-e-periodo-de-observacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-42edbd08bca563f1#Krotz: midiatização como metaprocesso histórico"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas.md",
+        "section": "Krotz: midiatização como metaprocesso histórico"
+      },
+      "statement": "A estreia de um único aplicativo basta para demonstrar uma transformação histórica das práticas de comunicação, mesmo sem observar seu uso ao longo do tempo.",
+      "correctAnswer": "E",
+      "explanation": "Uma estreia identifica a adoção de um meio. Demonstrar transformação histórica exige evidência sobre mudanças nas práticas e suas condições."
+    },
+    {
+      "id": "cam-cs-dependencia-de-interface-e-dados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / plataformização",
+      "articleId": "art-1fc842a6b30d59e7",
+      "conceptId": "dependencia-de-interface-e-dados",
+      "mechanism": "dependencia-de-interface-e-dados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1fc842a6b30d59e7#Estrutura de análise segundo Poell, Nieborg e Van Dijck (2019)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md",
+        "section": "Estrutura de análise segundo Poell, Nieborg e Van Dijck (2019)"
+      },
+      "statement": "Quando um serviço adapta seu cadastro e seu atendimento a mudanças nas interfaces e nas regras de acesso a dados de uma plataforma, a dependência envolve infraestrutura e governança.",
+      "correctAnswer": "C",
+      "explanation": "A interface condiciona a integração técnica. As regras de acesso condicionam quem pode usar os dados e em quais termos."
+    },
+    {
+      "id": "cam-cs-efeito-de-alerta-e-compreensao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / integridade da informação",
+      "articleId": "art-704e9cd41f60a2b8",
+      "conceptId": "efeito-de-alerta-e-compreensao",
+      "mechanism": "efeito-de-alerta-e-compreensao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-704e9cd41f60a2b8#Prevenção, checagem, correção e avaliação: finalidades diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md",
+        "section": "Prevenção, checagem, correção e avaliação: finalidades diferentes"
+      },
+      "statement": "O aumento das visualizações de um aviso que corrige um boato demonstra que as pessoas que acreditavam no boato mudaram de opinião.",
+      "correctAnswer": "E",
+      "explanation": "Visualizações medem exposição ao aviso. Para demonstrar mudança de opinião no público relevante, é preciso observar a crença com um desenho adequado."
     }
   ]
 }

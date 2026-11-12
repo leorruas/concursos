@@ -1241,3 +1241,19 @@ Não somar as sete reavaliações do bloco 25 às 144: tratou-se das **mesmas qu
 **Publicação:** no último acesso a GitHub Actions, runs recentes `43127366140` e `43127359570` estavam `pending`, sem conclusão; execuções intermediárias canceladas por alterações simultâneas. **Publicação e funcionamento visual não certificados.**
 
 **Próxima intervenção:** revisão das demais questões de regência/semântica, conferência normativa das construções ainda polêmicas, teste do workflow e integridade da navegação, mantendo intactas as auditorias paralelas e dados privados. Não criar novas notas só para aumentar a contagem quando a cobertura puder ser incorporada aos 34 artigos existentes.
+
+
+## Implementação editorial: lote complementar de semântica e ortografia (11/11/2026)
+
+**Escopo:** somente notas próprias de Português. Foi consultada [Academia Brasileira de Letras, *Acordo ortográfico e VOLP*](https://www.academia.org.br/artigos/acordo-ortografico-e-volp-2) para corrigir absolutos sobre *co-* antes de *h*, distinguindo redação inicial do Acordo e grafia brasileira do VOLP. Todos os itens de prova modificados são **autorais**.
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| `16`, gênero e tipologia | 16#6 tratava injunção como predominante necessária em todas as partes de um edital | Questão reescrita para distinguir gênero normativo e diversidade de sequências de cada trecho; C preservado no enunciado novo | `e8aa312e9ee4929d8494bf9bf1244c907bb0cdd1` | Releitura, SHA do commit confirmado, seis questões intactas | **corrigido** |
+| `31`, significação | 31#5 usava rótulo exclusivamente estrutural para ambiguidade de `sua`; 31#6 supunha origem de todas as acepções de `comissão` sem verbete conferido | Questões reformuladas para ambiguidade referencial e insuficiência da mera identidade de forma como prova de homonímia etimológica; C e E preservados nas respectivas novas versões | `8909a89276cc0274717010034cbddbf2fe185f6f` | Conflito de SHA resolvido por releitura; commit e questões conferidos | **corrigido** |
+| `17`, ortografia | Regra `h inicial → hífen sempre` e exemplo `co-herdeiro` incompatíveis com o VOLP brasileiro | Regra passa a explicitar exceção `coerdeiro`, `coabitar`, com fonte ABL | `64a7fdafa21b5f2f4a589353f567afa48e7e566c` | Releitura e SHA confirmados | **corrigido** |
+| `05`, acordo ortográfico, base multi-edital | Mesmos absolutos com vogais idênticas e *h* inicial, sem exceção para *co-/re-* | Introdução e tabela reescritas, preservados padrões FGV e identidade editorial; referências ABL adicionadas | `e01c1a9637c0c6b213041849b6c1ab9cb853a45b` | Releitura confirmou conteúdo e metadados; SHA pós-commit divergiu devido a outros commits simultâneos, sem indicação de perda da edição | **corrigido** |
+
+**Estado técnico:** em verificação dos cinco artigos `16,27,28,31,34`, permaneceram `articleId`, `articleAliases`, número par de cercas Markdown e seis questões formais em cada. O GitHub Actions continuava com builds `pending`, sem conclusão certificada no momento da inspeção. Nenhuma correção de teoria foi transferida a disciplinas de outros agentes; não houve novos artigos criados por redundância com notas existentes.
+
+**Próximo passo:** fechar a integração do backlog de notas 01–34, verificar todas as referências externas novas, comparar exercícios alterados com seus gabaritos e conferir sucesso do workflow após estabilização dos commits simultâneos. As alterações aqui documentadas **não substituem uma validação integral de todos os exemplos**.

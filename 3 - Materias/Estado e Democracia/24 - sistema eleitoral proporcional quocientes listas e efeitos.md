@@ -14,7 +14,7 @@ updated: 2026-11-07
 
 **Situação concreta.** Em uma eleição para a Câmara dos Deputados, a candidata mais votada de uma legenda pode não obter cadeira, enquanto uma candidatura de outro partido com menos votos individuais consegue se eleger. Isso ocorre porque **a primeira distribuição de cadeiras é feita entre partidos e federações conforme seus votos agregados**; só depois as cadeiras são preenchidas com pessoas segundo a votação nominal e as condições legais. O voto nominal tem dois efeitos: contribui para o total da legenda ou federação e posiciona a pessoa na lista de candidatos desse grupo.
 
-**Sistema eleitoral proporcional** é uma família de regras de conversão de votos em cadeiras que procura aproximar a representação parlamentar da distribuição de apoio eleitoral entre partidos ou listas. No Brasil, aplica-se a **deputados federais, estaduais, distritais e vereadores**. Senadores são eleitos majoritariamente: [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|CAM-CP-014]]. O modelo brasileiro para esses cargos é **proporcional de lista aberta**: a votação nominal ordena candidaturas dentro do partido ou federação, mas **a posição individual na votação geral do território não é garantia de cadeira**.
+**Sistema eleitoral proporcional** é uma família de regras de conversão de votos em cadeiras que procura aproximar a representação parlamentar da distribuição de apoio eleitoral entre partidos ou listas. No Brasil, aplica-se a **deputados federais, estaduais, distritais e vereadores**. Senadores são eleitos majoritariamente: [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|Sistema eleitoral majoritário: funcionamento e efeitos]]. O modelo brasileiro para esses cargos é **proporcional de lista aberta**: a votação nominal ordena candidaturas dentro do partido ou federação, mas **a posição individual na votação geral do território não é garantia de cadeira**.
 
 **Unidade de agregação dos votos:** partido político ou **federação**, considerada em conjunto para a disputa proporcional. Federação partidária não se confunde com coligação eleitoral: **coligações são vedadas nas eleições proporcionais**, mas podem existir nas majoritárias nas condições legais. Federações reúnem partidos com atuação conjunta conforme regras próprias e não equivalem a alianças ocasionais apenas para uma eleição.
 
@@ -95,7 +95,7 @@ Como as três legendas superam 8.000 votos e **A tem candidata ou candidato aind
 
 **Representação descritiva × proporcionalidade partidária:** mais proporcionalidade de cadeiras em relação a votos partidários **não garante** por si só representação de grupos sociais em termos de gênero, raça ou trajetória. A conversão de votos pode ser proporcional entre partidos e ainda produzir sub-representação de grupos sociais nas candidaturas eleitas.
 
-**Proporcionalidade × fragmentação × governabilidade:** sistemas proporcionais podem ampliar a presença de partidos e demandas no Legislativo, mas a fragmentação partidária depende de instituições e estratégias adicionais. A necessidade de coalizões, discutida em [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|CAM-CP-013]], depende da distribuição efetiva de cadeiras e da capacidade de coordenação política.
+**Proporcionalidade × fragmentação × governabilidade:** sistemas proporcionais podem ampliar a presença de partidos e demandas no Legislativo, mas a fragmentação partidária depende de instituições e estratégias adicionais. A necessidade de coalizões, discutida em [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]], depende da distribuição efetiva de cadeiras e da capacidade de coordenação política.
 
 ## Como a Cebraspe pode cobrar
 
@@ -117,11 +117,11 @@ A prova pode deslocar a regra **de um sujeito para outro** (80% da votação nom
 
 ## Relações com outros temas
 
-- [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|CAM-CP-014: sistema majoritário]]: diferença de fórmula, cargo, magnitude e seleção nominal.
-- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|CAM-CP-013: coalizões]]: distribuição de cadeiras e coordenação do governo.
-- [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|CAM-CP-010: representação e mandato]]: autorização eleitoral não se reduz à regra aritmética.
+- [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|Sistema eleitoral majoritário: funcionamento e efeitos]]: diferença de fórmula, cargo, magnitude e seleção nominal.
+- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]]: distribuição de cadeiras e coordenação do governo.
+- [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|Representação política: mandato, delegação e responsabilização]]: autorização eleitoral não se reduz à regra aritmética.
 - [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|Federalismo]]: distrito eleitoral e representação territorial são dimensões diferentes.
-- **Próxima unidade CAM-CP-016:** partidos políticos, sua origem, suas funções e a organização interna.
+- **Próxima unidade [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|Partidos políticos: origem, funções e organização]]:** partidos políticos, sua origem, suas funções e a organização interna.
 
 ## Tensões e pegadinhas
 

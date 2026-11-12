@@ -46,6 +46,9 @@ for (const term of glossary.terms) {
 assert(cards.cards.find(c => c.id === 'ppa').examIds.includes('camara-2026'),
   'Cartão original PPA deve reutilizar identidade no novo concurso');
 assert(index.includes('id="home-glossario-entry" href="#/glossario?concurso=camara-2026"'));
+assert(index.includes('id="home-glossario-titulo">glossário</strong>'));
+assert(index.includes('<h2 id="glossario-titulo">glossário</h2>'));
+assert(!/glossário\s*(?:CGU|Câmara|:\s*CGU|:\s*Câmara)/i.test(index), 'Rótulo do glossário deve ser neutro, sem nome de concurso');
 assert(index.includes('id="home-flashcards-entry" href="https://concurso-estudo.leoruas.workers.dev/flashcards.html?concurso=camara-2026"'));
 assert(!index.includes('id="nav-link-flashcards"'), 'Flashcards não devem aparecer na navbar');
 assert(index.includes('id="nav-link-glossario"'));

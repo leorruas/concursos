@@ -12,7 +12,7 @@ Fonte canônica de achados: [[1 - Planejamento/Camara 2026 - Auditoria integral 
 
 ## Resumo verificável do inventário
 
-**Fotografia de 11/11/2026:** **23 notas canônicas ou variantes** (duas variantes distintas do número 10, mais 11–31), **199 itens inéditos C/E extraídos diretamente do texto**, **182 com indicação de cotejo seletivo prévio** e **17 somente lidos, aguardando conferência independente**. **0 itens declarados integralmente certificados nesta matriz.** Não houve entradas duplicadas na chave `articleId#número`, e todos os 199 registros possuem gabarito original identificado. O total **199** é a contagem diretamente reextraída das notas atuais e substitui **estimativas anteriores**, não as recontagens de itens repetidos em múltiplos blocos de auditoria.
+**Fotografia de 11/11/2026:** **23 notas canônicas ou variantes** (duas variantes distintas do número 10, mais 11–31), **199 itens inéditos C/E extraídos diretamente do texto**, **199 com cotejo seletivo documentado** e **0 somente lidos**. **0 itens declarados integralmente certificados nesta matriz.** Não houve entradas duplicadas na chave `articleId#número`, e todos os 199 registros possuem gabarito original identificado. O total **199** é a contagem diretamente reextraída das notas atuais e substitui **estimativas anteriores**, não as recontagens de itens repetidos em múltiplos blocos de auditoria.
 
 **Atenção ao significado:** as 82 marcações de cotejo seletivo são *rastros de uma revisão dirigida*, não homologação final. A referência aponta a um bloco do [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/03 - Ciencia Politica - Fase 1|relatório 03]], que pode confrontar apenas o fundamento decisivo, não cada cláusula da questão. A conversão futura para `confirmado integralmente` requer conferir o enunciado completo, fonte, justificativa, gabarito, exceções e vigência. Itens `somente lidos` também podem estar corretos ou incorretos; a ausência de cotejo não indica erro.
 
@@ -165,18 +165,18 @@ Fonte: `3 - Materias/Estado e Democracia/17 - formas de governo republica e mona
 
 | Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
 | --- | --- | --- | --- |
-| `art-e93a40d1c75b682f#1` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-e93a40d1c75b682f#2` | Errado | Somente lido | Pendente: cotejo por item |
-| `art-e93a40d1c75b682f#3` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-e93a40d1c75b682f#4` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-e93a40d1c75b682f#1` | Certo | Cotejo seletivo | bloco 32, formas de governo (TSE/CF/Montesquieu/Pettit) |
+| `art-e93a40d1c75b682f#2` | Errado | Cotejo seletivo | bloco 32, formas de governo (TSE/CF/Montesquieu/Pettit) |
+| `art-e93a40d1c75b682f#3` | Certo | Cotejo seletivo | bloco 32, formas de governo (TSE/CF/Montesquieu/Pettit) |
+| `art-e93a40d1c75b682f#4` | Errado | Cotejo seletivo | bloco 32, formas de governo (TSE/CF/Montesquieu/Pettit) |
 | `art-e93a40d1c75b682f#5` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
 | `art-e93a40d1c75b682f#6` | Errado | Cotejo seletivo | Relatório 03, bloco 11 |
-| `art-e93a40d1c75b682f#7` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-e93a40d1c75b682f#8` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-e93a40d1c75b682f#7` | Certo | Cotejo seletivo | bloco 32, formas de governo (TSE/CF/Montesquieu/Pettit) |
+| `art-e93a40d1c75b682f#8` | Errado | Cotejo seletivo | bloco 32, formas de governo (TSE/CF/Montesquieu/Pettit) |
 | `art-e93a40d1c75b682f#9` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
 | `art-e93a40d1c75b682f#10` | Errado | Cotejo seletivo | Relatório 03, bloco 11 |
 | `art-e93a40d1c75b682f#11` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
-| `art-e93a40d1c75b682f#12` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-e93a40d1c75b682f#12` | Errado | Cotejo seletivo | bloco 32, formas de governo (TSE/CF/Montesquieu/Pettit) |
 
 ### 18 - sistemas de governo presidencialismo e parlamentarismo (`art-d7b3e591a46c82f0`)
 
@@ -184,18 +184,18 @@ Fonte: `3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialis
 
 | Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
 | --- | --- | --- | --- |
-| `art-d7b3e591a46c82f0#1` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-d7b3e591a46c82f0#2` | Errado | Somente lido | Pendente: cotejo por item |
-| `art-d7b3e591a46c82f0#3` | Errado | Somente lido | Pendente: cotejo por item |
-| `art-d7b3e591a46c82f0#4` | Certo | Somente lido | Pendente: cotejo por item |
-| `art-d7b3e591a46c82f0#5` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-d7b3e591a46c82f0#1` | Certo | Cotejo seletivo | bloco 32, sistemas de governo (CF/TSE/Lei Fundamental alemã/Abranches) |
+| `art-d7b3e591a46c82f0#2` | Errado | Cotejo seletivo | bloco 32, sistemas de governo (CF/TSE/Lei Fundamental alemã/Abranches) |
+| `art-d7b3e591a46c82f0#3` | Errado | Cotejo seletivo | bloco 32, sistemas de governo (CF/TSE/Lei Fundamental alemã/Abranches) |
+| `art-d7b3e591a46c82f0#4` | Certo | Cotejo seletivo | bloco 32, sistemas de governo (CF/TSE/Lei Fundamental alemã/Abranches) |
+| `art-d7b3e591a46c82f0#5` | Certo | Cotejo seletivo | bloco 32, sistemas de governo (CF/TSE/Lei Fundamental alemã/Abranches) |
 | `art-d7b3e591a46c82f0#6` | Errado | Cotejo seletivo | Relatório 03, bloco 11 |
 | `art-d7b3e591a46c82f0#7` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
 | `art-d7b3e591a46c82f0#8` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
 | `art-d7b3e591a46c82f0#9` | Errado | Cotejo seletivo | Relatório 03, bloco 11 |
-| `art-d7b3e591a46c82f0#10` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-d7b3e591a46c82f0#10` | Certo | Cotejo seletivo | bloco 32, sistemas de governo (CF/TSE/Lei Fundamental alemã/Abranches) |
 | `art-d7b3e591a46c82f0#11` | Certo | Cotejo seletivo | Relatório 03, bloco 11 |
-| `art-d7b3e591a46c82f0#12` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-d7b3e591a46c82f0#12` | Errado | Cotejo seletivo | bloco 32, sistemas de governo (CF/TSE/Lei Fundamental alemã/Abranches) |
 
 ### 19 - representacao politica mandato delegacao e responsabilizacao (`art-3b8e7a6c91d4052f`)
 
@@ -260,7 +260,7 @@ Fonte: `3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e c
 
 | Item | Gabarito no artigo | Estado de evidência | Referência da conferência |
 | --- | --- | --- | --- |
-| `art-71d4e9b30c86a25f#1` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-71d4e9b30c86a25f#1` | Errado | Cotejo seletivo | bloco 32, coalizões (CF/Abranches e instituições) |
 | `art-71d4e9b30c86a25f#2` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
 | `art-71d4e9b30c86a25f#3` | Errado | Cotejo seletivo | Relatório 03, bloco 17 |
 | `art-71d4e9b30c86a25f#4` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
@@ -268,10 +268,10 @@ Fonte: `3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e c
 | `art-71d4e9b30c86a25f#6` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
 | `art-71d4e9b30c86a25f#7` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
 | `art-71d4e9b30c86a25f#8` | Errado | Cotejo seletivo | Relatório 03, bloco 17 |
-| `art-71d4e9b30c86a25f#9` | Certo | Somente lido | Pendente: cotejo por item |
+| `art-71d4e9b30c86a25f#9` | Certo | Cotejo seletivo | bloco 32, coalizões (CF/Abranches e instituições) |
 | `art-71d4e9b30c86a25f#10` | Errado | Cotejo seletivo | Relatório 03, bloco 17 |
 | `art-71d4e9b30c86a25f#11` | Certo | Cotejo seletivo | Relatório 03, bloco 17 |
-| `art-71d4e9b30c86a25f#12` | Errado | Somente lido | Pendente: cotejo por item |
+| `art-71d4e9b30c86a25f#12` | Errado | Cotejo seletivo | bloco 32, coalizões (CF/Abranches e instituições) |
 
 
 ### 23 - sistema eleitoral majoritario funcionamento e efeitos (`art-b3e8d1c74f209a65`)
@@ -381,3 +381,12 @@ Fonte: `3 - Materias/Estado e Democracia/31 - sistema internacional soberania co
 | `art-7b42e9f0a316c85d#1` | Certo | Cotejo seletivo | Relatório 03, bloco 19 |
 | `art-7b42e9f0a316c85d#2` | Errado | Cotejo seletivo | Relatório 03, bloco 19 |
 | `art-7b42e9f0a316c85d#3` | Certo | Cotejo seletivo | Relatório 03, bloco 19 |
+
+
+## Bloco 32: fechamento dirigido dos 17 registros antes somente lidos (11/11/2026)
+
+**Escopo conferido na versão atual do GitHub:** artigo 17 `art-e93a40d1c75b682f`, itens 1, 2, 3, 4, 7, 8, 12 (7); artigo 18 `art-d7b3e591a46c82f0`, itens 1, 2, 3, 4, 5, 10, 12 (7); artigo 22 `art-71d4e9b30c86a25f`, itens 1, 9, 12 (3). Foram recuperados enunciado, gabarito e comentário dos três Markdown atuais, preservados os 17 gabaritos originais. **Não foram alterados exercícios ou artigos.**
+
+**Cotejo seletivo, não homologação integral:** o eixo forma/sistema, a exceção da república com presidente eleito indiretamente, a monarquia parlamentar, a monarquia eletiva, Montesquieu e Pettit foram confrontados com as referências dos próprios artigos e, nos pontos centrais, com [Constituição (art. 34 VII a, art. 60 §4)](https://www4.planalto.gov.br/legislacao/legis-federal/constituicao), [TSE, plebiscito de 1993](https://www.tse.jus.br/eleicoes/plebiscitos-e-referendos/plebiscito-1993), [Stanford, Montesquieu](https://plato.stanford.edu/entries/montesquieu/) e [Stanford, republicanismo](https://plato.stanford.edu/entries/republicanism/). Sistemas de governo, duração do mandato, voto de desconfiança construtivo, multipartidarismo, impeachment e coalizões foram confrontados com [Lei Fundamental alemã, art. 67](https://www.gesetze-im-internet.de/gg/art_67.html), [Bundestag](https://www.bundestag.de/en/parliament/function/chancellor), [TSE, referendo de 1963](https://www.tse.jus.br/eleicoes/plebiscitos-e-referendos/referendo-1963), [Constituição, arts. 51, 52, 60, 62, 64 e 86](https://www4.planalto.gov.br/legislacao/legis-federal/constituicao) e [Abranches, 1988](https://dados.iesp.uerj.br/artigos/?id=348). Os enunciados 22#1/9/12 testam inferências universais sobre disciplina partidária e a falsa equivalência entre negociação política e corrupção; não se identificou inversão comprovada nesses núcleos.
+
+**Matriz após a atualização:** 199 chaves distintas, **199 com cotejo seletivo**, **0 somente lidas**, **0 integralmente homologadas**. O estado documental de *triagem/cotejo seletivo* está encerrado. A revisão bibliográfica completa, a homologação jurídica de cada exceção e a calibragem com provas oficiais permanecem limitações explícitas, e a contagem 199 **não** é contagem de itens plenamente certificados.

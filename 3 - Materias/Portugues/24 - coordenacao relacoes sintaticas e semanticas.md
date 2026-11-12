@@ -102,10 +102,10 @@ flowchart LR
 ```
 
 ### 4.1. A Regra da Vírgula Antes do "E"
-1. **Sujeitos Idênticos**: Se as duas orações ligadas por *e* aditivo compartilham o **mesmo sujeito**, **não se usa vírgula** antes do *e*:
+1. **Sujeitos idênticos**: Se as orações ligadas por *e* aditivo compartilham sujeito, **em geral dispensa-se a vírgula** antes do *e*, especialmente quando há simples sequência de ações. O contexto pode justificar marcação estilística, intercalação ou outro motivo de pontuação:
    - *"A comissão analisou o mérito da proposta **e** emitiu parecer favorável."*
-2. **Sujeitos Diferentes**: Se as orações coordenadas ligadas por *e* possuem **sujeitos diferentes**, o uso da vírgula antes do *e* é **legítimo e recomendado** (para evitar que o sujeito da segunda oração seja lido erroneamente como segundo objeto direto do primeiro verbo!):
-   - *"O presidente da comissão encerrou os debates**, e** os deputados iniciaram a votação nominal."* (No Cebraspe, essa vírgula é facultativa: com ou sem ela, a frase permanece correta!).
+2. **Sujeitos diferentes**: Entre orações coordenadas ligadas por *e*, a vírgula é **frequentemente aceitável e útil para a clareza**, mas não decorre de uma obrigação automática. A análise depende do tamanho e das relações sintáticas dos segmentos:
+   - *"O presidente da comissão encerrou os debates**, e** os deputados iniciaram a votação nominal."* (As duas pontuações são possíveis neste exemplo, sem necessidade de atribuir um julgamento universal à banca).
 
 ### 4.2. Pontuação das Conjunções Adversativas e Conclusivas (Posição Inicial $\times$ Posição Deslocada)
 - **Conjunção *MAS***: Deve vir **obrigatoriamente no início** da oração coordenada adversativa, precedida de vírgula (ou ponto e vírgula): *"Debateram o tema**, mas** não votaram."* (Nunca se coloca vírgula imediatamente após *mas*, salvo se houver uma oração ou adjunto intercalado: *"Debateram, mas**, apesar do esforço,** não votaram"*).

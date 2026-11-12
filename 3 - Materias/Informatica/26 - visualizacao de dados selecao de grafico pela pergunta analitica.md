@@ -106,12 +106,12 @@ $$\text{Lie Factor} = \frac{\text{Tamanho do efeito visual exibido no gráfico}}
 
 ## 4. Patologias visuais frequentes e o problema do gráfico de pizza
 
-O **Gráfico de Pizza (*Pie Chart*)** é o gráfico mais abusado na administração pública e o mais criticado na literatura técnica especializada.
+O **gráfico de pizza (*pie chart*)** pode comunicar composição de um total em situações simples, mas exige cautela quando há muitas fatias ou quando o objetivo é comparar diferenças pequenas. A escolha entre pizza e barras depende da tarefa, da legibilidade e do público.
 
 ### Por que a percepção humana falha no gráfico de pizza?
-1. **Dificuldade perceptiva de ângulos e áreas:** O cérebro humano é biologicamente muito eficiente para comparar comprimentos e posições em uma escala comum alinhada (como barras horizontais), mas é péssimo para julgar ângulos radiais, arcos e áreas bidimensionais.
-2. **O veneno do efeito 3D:** Em uma pizza tridimensional inclinada, a perspectiva faz com que a fatia posicionada na frente pareça substancialmente maior do que uma fatia de mesmo valor posicionada ao fundo, induzindo o leitor a erro de julgamento.
-3. **Múltiplas fatias finas:** Gráficos de pizza com mais de 5 ou 6 categorias tornam-se ilegíveis, exigindo legendas com cores semelhantes que aumentam a carga cognitiva.
+1. **Comparação perceptiva:** posições em escala alinhada e comprimentos costumam permitir comparação mais precisa que ângulos e áreas. A dificuldade depende da diferença entre valores, do desenho, dos rótulos e da tarefa.
+2. **Efeito 3D decorativo:** inclinações e perspectiva podem alterar a aparência relativa das fatias, introduzindo erro perceptivo sem informação adicional.
+3. **Muitas categorias pequenas:** o gráfico tende a ficar difícil de ler quando há numerosas fatias ou valores próximos. **Não existe limite universal de cinco ou seis categorias**: o problema deve ser avaliado pela legibilidade e comparação pretendida.
 
 > [!TIP]
 > **Substituição Recomendada:** Quando houver muitas categorias, rótulos difíceis ou proporções próximas, **considere barras horizontais ordenadas**. A decisão depende da pergunta, da área disponível e das comparações que o público precisa fazer.
@@ -223,3 +223,5 @@ A sequência de uma análise pública confiável começa pela pergunta e pela po
 **Gabarito: ERRADO.** A forma visual não substitui definição da medida, contexto ou qualidade dos dados. **Aplicação discursiva:** em comunicação institucional, explicar a **pergunta**, a **fonte**, a **população** e as **restrições de interpretação** antes de extrair recomendações.
 
 **Relações:** [[3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica|Indicadores]]; [[3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes|Histogramas, barras e linhas]].
+
+> **Implementação TI-129 (11/11/2026):** substituída a regra numérica fixa para gráficos de pizza por critérios de tarefa, distinção visual e legibilidade; mantidas as recomendações condicionais de barras e colunas.

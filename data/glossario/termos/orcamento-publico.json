@@ -1616,7 +1616,7 @@
       "aliases": [
         "UO"
       ],
-      "definition": "É a unidade identificada na estrutura do orçamento à qual podem ser atribuídas dotações, isto é, valores autorizados para despesas. Na elaboração do projeto, a unidade orçamentária (UO) detalha suas ações e solicita os recursos necessários. Seu pedido ainda é proposta: só a lei orçamentária aprovada e seus créditos autorizam despesas. Uma UO não precisa ser um prédio ou um único setor administrativo.",
+      "definition": "Unidade identificada no orçamento para receber dotações, isto é, autorizações de despesa. Durante a elaboração do projeto, a unidade orçamentária (UO) organiza ações e solicita recursos; o pedido ainda não é uma autorização para gastar. A UO não precisa corresponder a um prédio ou setor administrativo.",
       "contrast": "Unidade administrativa executa atividades e comunica necessidades. A unidade orçamentária organiza programação e recebe dotações individualizadas; o órgão setorial reúne e analisa propostas de UOs; a Secretaria de Orçamento Federal (SOF) coordena a consolidação central. Saber quem pediu R$ 1 milhão não permite concluir quem aprova o orçamento nem quanto será pago.",
       "cebraspeTrap": "Confundir a proposta de uma unidade com dotação já aprovada, chamar cada prédio de unidade orçamentária ou afirmar que a UO envia seu próprio projeto de lei ao Congresso. O critério é a estrutura orçamentária e a fase do processo.",
       "example": "Um setor pede R$ 1 milhão para atendimento digital. A UO inclui a demanda em sua proposta; o órgão setorial pode reduzi-la a R$ 800 mil e o projeto consolidado pode trazer valor diferente. Nenhuma dessas etapas significa pagamento ou aprovação da lei.",

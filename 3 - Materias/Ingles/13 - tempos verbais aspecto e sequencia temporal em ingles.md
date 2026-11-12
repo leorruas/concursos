@@ -146,7 +146,7 @@ Em textos institucionais e notícias sobre o Legislativo, declarações e relat�
 
 *Text segment: "The ombudsman affirmed: 'The public communication portal will guarantee unconditional accessibility to all institutional broadcasts.'"*
 
-**Item:** In reported speech, if the statement is introduced by "The ombudsman affirmed that the public communication portal...", the verbal form "will guarantee" should be replaced with "would guarantee" to maintain grammatical consistency.
+**Item:** In reported speech, if the statement is introduced by "The ombudsman affirmed that the public communication portal...", the verbal form "will guarantee" must always be replaced with "would guarantee" for the resulting sentence to be grammatically correct.
 
 - ( ) Certo
 - ( ) Errado

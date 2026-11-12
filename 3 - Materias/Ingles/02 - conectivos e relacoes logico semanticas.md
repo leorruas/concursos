@@ -77,7 +77,7 @@ Identifique a relação semântica primeiro, depois confira **oração completa,
 ## Fontes
 
 - [Cambridge Grammar: Although or though?](https://dictionary.cambridge.org/grammar/british-grammar/although).
-- [Cambridge Grammar: Conjunctions, contrasting](https://dictionary.cambridge.org/grammar/british-grammar/conjunctions-contrasting).
+- [Cambridge Grammar: Conjunctions, contrasting](https://dictionary.cambridge.org/grammar/british-grammar/even-if-even-though).
 - [[3 - Materias/Ingles/ingles|Hub Inglês]]: glossário inicial já existente.
 
 **Escopo:** exemplos e exercícios inéditos, sem reproduzir provas de concurso.

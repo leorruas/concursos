@@ -97,7 +97,7 @@ flowchart LR
 | :--- | :--- | :--- | :--- |
 | **CUJO(A)(S)** | 1. Indica **POSSE** entre dois substantivos;<br>2. Concorda com o termo **consequente**;<br>3. **NUNCA admite artigo depois dele** (*cujo o* é erro gravíssimo!);<br>4. Recebe a preposição exigida pelo verbo/nome seguinte (*a cujo, de cujo, em cujo*). | *"O projeto **cujo** relator discursou"* / *"A lei **a cujos** artigos obedecemos"* (obedecer *a*). | Escrever *"cujo o relator"* ou omitir a preposição exigida pelo verbo (*"A comissão cujo presidente confiamos"* $\rightarrow$ o correto é **em cujo** presidente confiamos!). |
 | **ONDE / AONDE / DONDE** | Exclusivo para **LUGAR FÍSICO** (ou espaço virtual/documental claramente delimitado).<br>- **Onde**: estático (*em que*);<br>- **Aonde**: movimento (*a que* — quem vai, vai *a*);<br>- **Donde**: origem (*de onde*). | *"O plenário **onde** (= no qual) ocorreu a sessão"* / *"A comissão **aonde** (= à qual) o ministro foi"*. | Usar *onde* para tempo, situação ou conceitos abstratos (*"A reunião onde decidimos"*, *"O ano onde nasceu"* $\rightarrow$ usar **em que**!). |
-| **QUEM** | Refere-se exclusivamente a **PESSOA** (ou coisa personificada) e vem **sempre precedido de preposição**. | *"O parlamentar **a quem** o presidente concedeu a palavra."* | Empregar *quem* sem antecedente humano ou sem preposição quando relativo. |
+| **QUEM** | Retoma pessoa ou ser personificado. **Geralmente vem precedido de preposição quando é complemento** (*a quem, de quem, com quem*), mas **pode aparecer sem preposição como sujeito**: *"Foi a deputada quem apresentou a emenda"*. | *"O parlamentar **a quem** o presidente concedeu a palavra"* / *"Foi ela **quem** relatou o projeto"*. | Generalizar que todo *quem* relativo exige preposição, inclusive na função de sujeito. Referência: [Ciberdúvidas, uso de *quem* e *que*](https://ciberduvidas.iscte-iul.pt/consultorio/perguntas/o-uso-dos-pronomes-quem-e-que/31037). |
 
 ---
 
@@ -227,7 +227,7 @@ Em “Naquela sessão solene, onde foram debatidas as diretrizes da reforma admi
 - [ ] Errado
 
 > **Gabarito: ERRADO**  
-> **Comentário**: Na norma-padrão cobrada pelo Cebraspe, o pronome relativo **onde** deve ser empregado exclusivamente para retomar **lugares físicos** (*o plenário onde, o edifício onde, a cidade onde*). *Sessão solene* não é um lugar físico, mas um evento/reunião situacional no tempo. Para retomar *sessão solene*, a gramática exige o uso de **em que** ou **na qual** (*"Naquela sessão solene, **na qual / em que** foram debatidas..."*).
+> **Comentário**: Na redação formal conservadora, **onde** retoma referente de valor **locativo**, que pode incluir espaços delimitados por usos figurados ou institucionais; não é correto afirmar que sempre exige lugar fisicamente material. Neste contexto, *sessão solene* designa **evento**, de modo que **em que** ou **na qual** é a substituição editorial mais segura: *"Naquela sessão solene, **na qual / em que** foram debatidas..."*. O gabarito ERRADO refere-se à afirmação de **perfeita adequação** no registro formal adotado, e não à inexistência de todos os usos não físicos de *onde*.
 
 ---
 

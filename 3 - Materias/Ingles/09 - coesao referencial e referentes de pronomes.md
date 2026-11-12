@@ -135,7 +135,7 @@ Esta é uma distinção importante para compreender referências em textos de pr
 * Quando ***which*** vem após vírgula e introduz comentário sobre o acontecimento anterior, pode retomar **a proposição inteira**; também pode retomar um **nome ou sintagma nominal**. A distinção decorre do sentido da oração relativa e da compatibilidade com cada antecedente, não apenas da vírgula. Compare *The report, which was approved yesterday, is final* (retoma *report*) e *The committee rejected the report, which surprised the chair* (o fato da rejeição causa surpresa). No exemplo seguinte, o pronome retoma a ação ou situação descrita na oração principal:
   * *"The president vetoed the tax reform, **which** surprised the party leaders."*
   * **Item hipotético de treino:** *"In the sentence above, the word 'which' refers to 'the tax reform'"*.
-  * **Gabarito:** **ERRADO**. O que surpreendeu os líderes partidários não foi *"a reforma tributária"* em si, mas sim **o ato de o presidente ter vetado a reforma tributária** (*the fact that the president vetoed the tax reform*).
+  * **Gabarito:** **ERRADO na leitura contextual mais natural**. *Which surprised the party leaders* avalia o ato do veto. A vírgula não é prova suficiente: compare *The reform, which was controversial, was vetoed* (referência nominal). Quando o contexto permitir duas leituras plausíveis, é necessário acrescentar informação antes de exigir julgamento inequívoco.
 
 ### 5.2. A regra proibitiva de *THAT* após vírgula ou preposição
 

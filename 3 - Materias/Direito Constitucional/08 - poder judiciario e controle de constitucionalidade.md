@@ -207,7 +207,7 @@ A reserva de plenário e o controle concentrado se conectam a [[3 - Materias/Dir
 - Lei nº 9.868/1999 — ADI, ADC e ADO.
 - Lei nº 9.882/1999 — ADPF.
 - [Lei nº 11.417/2006, arts. 2º a 7º: edição, revisão, cancelamento e reclamação](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11417-19-dezembro-2006-548408-publicacaooriginal-63540-pl.html).
-- [[11-06-2026|Inbox - 10-06-2026]].
+- Registro histórico de ingestão de 10/06/2026, arquivado fora da biblioteca pública.
 
 
 ## Certificação normativa delimitada com ressalva pedagógica: 11/11/2026

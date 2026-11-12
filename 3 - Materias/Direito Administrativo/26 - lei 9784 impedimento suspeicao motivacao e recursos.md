@@ -8,7 +8,7 @@ topicId: "processo-administrativo"
 trackId: "direito-administrativo"
 created: "2026-11-09"
 updated: "2026-11-12"
-revision: 3
+revision: 4
 status: "published"
 confidenceLevel: "high"
 importanceLevel: "critical"
@@ -54,7 +54,7 @@ flowchart TD
     IMPED -. "Omissão de Comunicação" .-> FALTA["Falta grave para fins disciplinares<br>(Art. 19)"]:::raiz
 ```
 
-### 1.1 Impedimento (art. 18): situações previstas em lei e dever de afastamento
+### 1.1 Impedimento (art. 18): presunção absoluta e dever de abstenção
 
 O **impedimento** ocorre quando a lei identifica uma ligação concreta entre quem atua no processo e o assunto ou as pessoas envolvidas. A regra evita que alguém participe de uma decisão na qual tenha interesse próprio ou um vínculo previsto no art. 18. A lei exige o afastamento; não é necessário provar que a pessoa efetivamente favoreceu alguém. A Lei nº 9.784/1999 não afirma, nesses dispositivos, que todo ato praticado por impedido seja automaticamente insanável: as consequências para o ato exigem análise jurídica própria.
 
@@ -65,7 +65,7 @@ O **impedimento** ocorre quando a lei identifica uma ligação concreta entre qu
 
 - **Dever de comunicação e falta grave (art. 19):** a autoridade ou servidor que incorrer em impedimento deve **comunicar o fato** à autoridade competente, abstendo-se de atuar. A omissão do dever de comunicar o impedimento constitui **falta disciplinar grave**, para efeitos sancionatórios estatutários.
 
-### 1.2 Suspeição (art. 20): quando a imparcialidade é questionada
+### 1.2 Suspeição (art. 20): presunção relativa e arguição
 
 A **suspeição** permite questionar a imparcialidade quando há amizade íntima ou inimizade notória. Ao contrário do impedimento, o art. 20 usa a expressão **“pode ser arguida”**: o interessado pode apresentar a alegação, que precisa ser examinada. Por exemplo, conhecer uma pessoa apenas por trabalhar no mesmo prédio não prova amizade íntima: é necessário avaliar a natureza do vínculo.
 - Pode ser arguida a suspeição de autoridade ou servidor que tenha **amizade íntima** ou **inimizade notória** com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o **terceiro grau**;
@@ -99,7 +99,7 @@ flowchart LR
     ROL --> H8["Anulam, revogam, suspendem ou convalidam atos"]:::opcao
 ```
 
-### 2.1 Oito situações em que a lei exige justificativa (art. 50)
+### 2.1 Hipóteses taxativas de motivação obrigatória (art. 50, *caput*)
 
 Os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, quando:
 1. Neguem, limitem ou afetem direitos ou interesses;

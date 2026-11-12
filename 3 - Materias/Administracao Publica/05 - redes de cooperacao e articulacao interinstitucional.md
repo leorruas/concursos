@@ -63,17 +63,17 @@ Contar reuniões mede **atividade**; produzir padrão interoperável mede **entr
 
 ## Questões inéditas Certo/Errado
 
-**1.** A governança em rede exige a supressão da hierarquia interna de todas as organizações participantes. **Errado.** Coordenação entre entidades e autoridade interna coexistem.
+**1.** A governança em rede exige a supressão da hierarquia interna de todas as organizações participantes. **Gabarito: Errado.** Coordenação entre entidades e autoridade interna coexistem.
 
-**2.** Na tipologia de Provan e Kenis, as redes podem ter governança compartilhada, organização líder ou uma organização administrativa da rede. **Certo.** Essas são as três formas analíticas discutidas pelos autores, não figuras jurídicas.
+**2.** Na tipologia de Provan e Kenis, as redes podem ter governança compartilhada, organização líder ou uma organização administrativa da rede. **Gabarito: Certo.** Essas são as três formas analíticas discutidas pelos autores, não figuras jurídicas.
 
-**3.** A participação de entidade da sociedade civil em rede pública transfere-lhe automaticamente a competência para decidir sobre o sigilo de documentos administrativos. **Errado.** Competência e deveres permanecem submetidos às normas aplicáveis.
+**3.** A participação de entidade da sociedade civil em rede pública transfere-lhe automaticamente a competência para decidir sobre o sigilo de documentos administrativos. **Gabarito: Errado.** Competência e deveres permanecem submetidos às normas aplicáveis.
 
-**4.** Uma rede pode melhorar produtos e fluxos de informação sem evidência suficiente de que causou impactos sociais duradouros. **Certo.** Entregas, resultados e inferência causal são níveis distintos.
+**4.** Uma rede pode melhorar produtos e fluxos de informação sem evidência suficiente de que causou impactos sociais duradouros. **Gabarito: Certo.** Entregas, resultados e inferência causal são níveis distintos.
 
-**5.** A concentração de recursos em um integrante pode produzir assimetria de poder mesmo que a rede se apresente como horizontal. **Certo.** O desenho formal não elimina diferenças de influência.
+**5.** A concentração de recursos em um integrante pode produzir assimetria de poder mesmo que a rede se apresente como horizontal. **Gabarito: Certo.** O desenho formal não elimina diferenças de influência.
 
-**6.** Toda rede interorganizacional configura necessariamente o fórum deliberativo orientado ao consenso que Ansell e Gash estudam em governança colaborativa. **Errado.** Esse é um modelo específico, não definição de toda rede.
+**6.** Toda rede interorganizacional configura necessariamente o fórum deliberativo orientado ao consenso que Ansell e Gash estudam em governança colaborativa. **Gabarito: Errado.** Esse é um modelo específico, não definição de toda rede.
 
 Todos os seis itens são **autorais**, sem atribuição a prova Cebraspe.
 

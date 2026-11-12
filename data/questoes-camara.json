@@ -37367,6 +37367,118 @@
       "correctAnswer": "C",
       "explanation": "O art. 167, III, da Constituição prevê a ressalva mediante créditos suplementares ou especiais com finalidade precisa, aprovados por maioria absoluta do Legislativo. A autorização não é irrestrita.",
       "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 16. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Outras vedações do art. 167'. Base normativa indicada: art. 167, III, CF. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-017-fonte-nao-natureza",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-d8b1c5e6037249fa",
+      "conceptId": "fonte-destinacao-vs-natureza",
+      "mechanism": "separar-origem-e-restricao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d8b1c5e6037249fa#Fonte/destinação de recursos × natureza da receita"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+        "section": "Fonte/destinação de recursos × natureza da receita"
+      },
+      "statement": "Uma receita tributária classificada quanto à natureza pode receber identificação adicional por fonte ou destinação de recursos, pois a primeira classificação descreve o ingresso e a segunda permite controlar regras de aplicação.",
+      "correctAnswer": "C",
+      "explanation": "Natureza da receita e fonte/destinação respondem a perguntas distintas: qual o fato gerador do ingresso e quais regras regem o uso dos recursos.",
+      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 017. Artigo canônico art-d8b1c5e6037249fa, seção literal verificada. Conferência editorial independente, validação de referência normativa, triagem de similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-018-imposto-vinculado-nao-muda-natureza",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-d8b1c5e6037249fa",
+      "conceptId": "vinculacao-nao-altera-natureza",
+      "mechanism": "identificar-invariancia-de-classificacao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d8b1c5e6037249fa#Fonte/destinação de recursos × natureza da receita"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+        "section": "Fonte/destinação de recursos × natureza da receita"
+      },
+      "statement": "Ao vincular constitucionalmente parte da receita de impostos à educação, a administração deve reclassificar essa arrecadação como receita de contribuição, pois a finalidade obrigatória altera sua natureza.",
+      "correctAnswer": "E",
+      "explanation": "A destinação constitucional de impostos não muda a espécie do tributo arrecadado. Natureza e destinação são eixos independentes.",
+      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 018. Artigo canônico art-d8b1c5e6037249fa, seção literal verificada. Conferência editorial independente, validação de referência normativa, triagem de similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-019-primaria-nao-e-corrente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-d8b1c5e6037249fa",
+      "conceptId": "resultado-primario-vs-categoria-economica",
+      "mechanism": "distinguir-classificadores-fiscais",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d8b1c5e6037249fa#Primária × financeira: efeito no resultado primário"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+        "section": "Primária × financeira: efeito no resultado primário"
+      },
+      "statement": "Uma receita classificada como corrente será necessariamente primária, pois as classificações corrente e primária são equivalentes e adotam o mesmo critério.",
+      "correctAnswer": "E",
+      "explanation": "A categoria econômica corrente/capital e o indicador primária/financeira respondem a critérios diferentes. Receitas correntes podem ser financeiras, como determinados rendimentos de aplicações.",
+      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 019. Artigo canônico art-d8b1c5e6037249fa, seção literal verificada. Conferência editorial independente, validação de referência normativa, triagem de similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-020-financeira-nao-e-destinacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-d8b1c5e6037249fa",
+      "conceptId": "indicador-primario-vs-fonte",
+      "mechanism": "distinguir-resultado-fiscal-e-vinculacao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d8b1c5e6037249fa#Primária × financeira: efeito no resultado primário"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+        "section": "Primária × financeira: efeito no resultado primário"
+      },
+      "statement": "O indicador que distingue receitas primárias de financeiras permite avaliar seu tratamento no resultado primário, enquanto a fonte/destinação informa regras de utilização; os dois classificadores podem coexistir para o mesmo ingresso.",
+      "correctAnswer": "C",
+      "explanation": "A classificação por indicador de resultado primário e a classificação por fonte/destinação não são substitutas. Uma informa o efeito fiscal; a outra identifica regras de aplicação.",
+      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 020. Artigo canônico art-d8b1c5e6037249fa, seção literal verificada. Conferência editorial independente, validação de referência normativa, triagem de similaridade e CI pendentes. Não homologado."
     }
   ]
 }

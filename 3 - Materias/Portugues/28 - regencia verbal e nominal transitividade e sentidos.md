@@ -207,9 +207,9 @@ Compare as substituições pronominais abaixo:
 * **Gabarito:** **ERRADO**.
 * **Fundamentação:** Na norma culta padrão cobrada pelo Cebraspe, o verbo *implicar*, quando empregado na acepção de *acarretar, produzir como consequência, tornar indispensável*, é **estritamente transitivo direto (VTD)** e **não admite a preposição *em***. A construção *"implicar em"* nessa acepção é considerada desvio gramatical.
 
-**Item 3.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* No segmento *"visa ao fortalecimento da transparência ativa"*, a substituição de **ao fortalecimento** por **o fortalecimento** manteria a correção gramatical e o sentido original do texto.
+**Item 3.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* No segmento *"visa ao fortalecimento da transparência ativa"*, a substituição de **visa ao fortalecimento** por **almeja o fortalecimento** manteria a correção gramatical e o sentido essencial, desde que a preposição **a** fosse retirada.
 * **Gabarito:** **CERTO**.
-* **Fundamentação:** Embora a gramática tradicional classifique o verbo *visar* (no sentido de *ter como objetivo, almejar*) prioritariamente como transitivo indireto (*visar a*), os dicionários de regência contemporâneos (como o de Celso Pedro Luft), o *Manual de Redação da Presidência da República* e a jurisprudência consolidada do Cebraspe abonam também o seu uso como **transitivo direto** sem preposição (*"visa o fortalecimento"*) com o mesmo sentido.
+* **Fundamentação:** No texto-base, *visar a* tem o sentido de **ter como objetivo** e se constrói com a preposição *a* (*visa ao fortalecimento*). O verbo **almejar** é transitivo direto nesse emprego: *almeja **o fortalecimento***. Preserva-se a intenção da oração e ajusta-se a regência de modo demonstrável, sem depender da controvérsia normativa entre *visar a algo* e *visar algo*. **Item inédito reformulado**: não constitui decisão histórica do Cebraspe sobre a dupla regência de *visar*.
 
 **Item 4.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* Na oração *"de cujo cumprimento os órgãos públicos não podem se furtar"*, a preposição **de** é exigida pelo substantivo **princípio**, podendo ser suprimida caso o verbo **furtar** deixe de ser pronominal.
 * **Gabarito:** **ERRADO**.

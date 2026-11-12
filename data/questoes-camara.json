@@ -36482,8 +36482,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-217dafb9048089a8",
-      "conceptId": "dado-com-unidade-e-contexto",
-      "mechanism": "contextualizacao-gera-informacao",
+      "conceptId": "dikw-conhecimento-aplicacao-de-regras",
+      "mechanism": "distinguir-informacao-de-conhecimento-aplicado",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
@@ -36495,10 +36495,10 @@
         "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
         "section": "2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria"
       },
-      "statement": "O registro isolado '84,2' não informa o fenômeno medido. Ao especificar que o valor representa a temperatura de um equipamento, a unidade e o instante da medição, acrescenta-se contexto que permite interpretá-lo como informação.",
+      "statement": "Ao examinar vários relatórios de atendimento, uma equipe identifica uma regularidade nos atrasos e formula uma regra prática para prever em quais situações precisará reforçar o atendimento. Na pirâmide DIKW, esse uso de padrões e regras corresponde ao conhecimento, e não apenas ao registro de dados contextualizados.",
       "correctAnswer": "C",
-      "explanation": "Informação envolve dados organizados e contextualizados; número sem objeto, unidade ou referência não tem interpretação suficiente.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria\" do artigo 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "Informação descreve dados com contexto. Conhecimento integra informações, identifica padrões e utiliza regras ou experiência para orientar como agir; o cenário passa da descrição à aplicação de uma regra.",
+      "reviewEvidence": "Lote 026, revisão corretiva incremental (12/11/2026): questão substituída após sobreposição editorial do exemplo numérico 84,2 e da definição de dado versus informação com o Item 1 do artigo 24. Nova assertiva distingue informação contextualizada de conhecimento como aplicação de padrões e regras; referência canônica: artigo art-217dafb9048089a8, seção literal '2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria'. Gabarito C conferido contra a seção 2.3. Pendente triagem final de similaridade conceitual, testes e homologação editorial; manter revisada."
     },
     {
       "id": "cam-ti-l026-026-dado-bruto-sempre-decisao",
@@ -36510,23 +36510,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-217dafb9048089a8",
-      "conceptId": "dado-bruto-sempre-decisao",
-      "mechanism": "confundir-registro-com-interpretacao",
+      "conceptId": "codificacao-numerica-de-variavel-ordinal",
+      "mechanism": "confundir-codigo-numerico-com-escala-quantitativa",
       "questionType": "distincao",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-217dafb9048089a8#2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria"
+        "article:art-217dafb9048089a8#3. Variáveis e atributos: fundamentos de modelagem e estatística"
       ],
       "source": {
         "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
-        "section": "2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria"
+        "section": "3. Variáveis e atributos: fundamentos de modelagem e estatística"
       },
-      "statement": "Qualquer número bruto armazenado em uma célula é suficiente, por si só, para orientar uma decisão administrativa, mesmo que se desconheçam sua unidade, origem e significado.",
+      "statement": "Um sistema registra o nível de urgência de solicitações com os códigos 1 = baixa, 2 = média e 3 = alta. Por utilizar números inteiros, essa variável passa necessariamente a ser quantitativa e as diferenças entre os códigos representam intervalos mensuráveis iguais.",
       "correctAnswer": "E",
-      "explanation": "Um dado sem contexto pode ter várias interpretações e não sustenta, por si só, uma conclusão de gestão confiável.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria\" do artigo 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "Os números apenas codificam categorias ordenadas. O nível de urgência é uma variável qualitativa ordinal; a codificação 1, 2 e 3 não prova distâncias quantitativas iguais entre baixa, média e alta.",
+      "reviewEvidence": "Lote 026, revisão corretiva incremental (12/11/2026): substituída assertiva redundante com item 025 sobre dado versus informação. Novo mecanismo: distinguir codificação numérica de variável qualitativa ordinal, usando níveis de urgência em vez de escolaridade do Item 3 do artigo 24. Fonte: art-217dafb9048089a8, seção literal '3. Variáveis e atributos: fundamentos de modelagem e estatística', §3.1. Gabarito E verificado conceitualmente; triagem de repetição final, testes e homologação editorial pendentes, status revisada."
     },
     {
       "id": "cam-ti-l026-027-metrica-simples-pode-indicador",

@@ -9834,12 +9834,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
       "articleId": "art-a71d4c96e20b583f",
-      "conceptId": "mudanca-de-sinal-sem-mudanca-de-percepcao",
-      "mechanism": "mudanca-de-sinal-sem-mudanca-de-percepcao",
+      "conceptId": "atribuicao-de-percepcao-por-fonte",
+      "mechanism": "atribuicao-de-percepcao-por-fonte",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Seis objetos distintos: evitar troca de categoria"
       ],
@@ -9847,9 +9847,10 @@
         "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
         "section": "Seis objetos distintos: evitar troca de categoria"
       },
-      "statement": "Trocar o símbolo exibido no portal altera automaticamente a imagem que os cidadãos têm da instituição.",
+      "statement": "Um documento interno descreve como a organização deseja se apresentar. Sua publicação basta para medir se o público passou a associá-la a esses atributos.",
       "correctAnswer": "E",
-      "explanation": "A troca muda um elemento da identidade visual. Para concluir que a imagem mudou, é preciso examinar a percepção do público."
+      "explanation": "O documento informa atributos pretendidos. Medir associações externas requer evidência obtida junto ao público.",
+      "reviewEvidence": "Cotejo com a seção Seis objetos distintos: evitar troca de categoria e revisão do mecanismo em relação aos exercícios do artigo."
     },
     {
       "id": "cam-di-assinatura-reconhecida-mensagem-inacessivel",
@@ -9888,12 +9889,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
       "articleId": "art-b63e19a8c4027f5d",
-      "conceptId": "notoriedade-e-qualidade-percebida",
-      "mechanism": "notoriedade-e-qualidade-percebida",
+      "conceptId": "associacao-desfavoravel-na-expansao",
+      "mechanism": "associacao-desfavoravel-na-expansao",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Aaker: dimensões do valor de marca e suas fronteiras"
       ],
@@ -9901,9 +9902,10 @@
         "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
         "section": "Aaker: dimensões do valor de marca e suas fronteiras"
       },
-      "statement": "Se mais pessoas passam a reconhecer o nome de um serviço, o aumento de notoriedade demonstra que elas também passaram a avaliá-lo como superior às alternativas.",
-      "correctAnswer": "E",
-      "explanation": "Reconhecimento e qualidade percebida são dimensões distintas. Uma marca pode se tornar mais conhecida sem que mude a avaliação de sua qualidade."
+      "statement": "Uma marca muito conhecida em um serviço presencial pode enfrentar resistência ao estrear um canal digital se o público associar seu nome a processos burocráticos.",
+      "correctAnswer": "C",
+      "explanation": "A notoriedade facilita a identificação, mas as associações existentes também influenciam a aceitação de uma oferta ligada à marca.",
+      "reviewEvidence": "Cotejo com a seção Aaker: dimensões do valor de marca e suas fronteiras e revisão do mecanismo em relação aos exercícios do artigo."
     },
     {
       "id": "cam-di-resposta-diferencial-com-oferta-identica",
@@ -10266,12 +10268,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
       "articleId": "art-a71d4c96e20b583f",
-      "conceptId": "manual-aplicacao-sobre-fotografia",
-      "mechanism": "manual-aplicacao-sobre-fotografia",
+      "conceptId": "reducoes-para-formatos-distintos",
+      "mechanism": "reducoes-para-formatos-distintos",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
       ],
@@ -10279,9 +10281,10 @@
         "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
         "section": "Identidade visual como sistema, não peça isolada"
       },
-      "statement": "Um manual pode prever versões da assinatura para fundos claros e escuros sem criar marcas distintas para cada fundo.",
+      "statement": "Uma peça terá assinatura ampla no cartaz e uma versão reduzida no ícone do aplicativo. É pertinente testar a versão reduzida no tamanho real de exibição, mesmo que a ampla esteja legível no cartaz.",
       "correctAnswer": "C",
-      "explanation": "As versões são aplicações do mesmo sistema e procuram preservar a identificação em condições diferentes."
+      "explanation": "As condições de aplicação são diferentes. A legibilidade no cartaz não demonstra que os detalhes serão distinguíveis no ícone.",
+      "reviewEvidence": "Cotejo com a seção Identidade visual como sistema, não peça isolada e revisão do mecanismo em relação aos exercícios do artigo."
     },
     {
       "id": "cam-di-identidade-e-reputacao-em-transicao",

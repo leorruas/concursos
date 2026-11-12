@@ -165,8 +165,8 @@ No setor público, a integridade da comunicação visual é relevante para os pr
 * **Abordagem Incorreta (Exploratória/Poluída)**: Gerar um gráfico de pizza 3D com 25 fatias coloridas representando cada tipo de evento e despejar uma tabela de 1.000 linhas com todos os comentários dos cidadãos.
 * **Abordagem Correta de Storytelling**:
   - *Contexto*: A expansão das ferramentas de votação interativa nas comissões.
-  - *Evidência Visual*: Um gráfico de linhas limpo, com eixo temporal contínuo (2020 a 2026), destacando em cor de ênfase o salto de perguntas enviadas a partir da integração com dispositivos móveis.
-  - *Anotações Contextuais*: Textos explicativos inseridos diretamente sobre a curva nos pontos de inflexão de reformas regimentais.
+  - *Evidência visual (cenário hipotético)*: gráfico de linhas com eixo temporal identificado (2020 a 2026), com destaque para eventual aumento de perguntas enviadas **no período próximo** à implantação do recurso móvel; a coincidência temporal **não prova que a integração tenha causado o aumento**.
+  - *Anotações contextuais*: indicar datas de mudanças de regras ou plataformas e outras circunstâncias plausíveis, diferenciando **eventos observados** de **hipóteses causais ainda não testadas**.
 
 ### Caso 2: Apresentação da Distribuição de Gastos com a Cota Parlamentar (CEAP)
 
@@ -174,7 +174,7 @@ No setor público, a integridade da comunicação visual é relevante para os pr
 * **Abordagem Incorreta**: Gráfico de dispersão caótico com 513 pontos dispersos sem identificação e sem indicação de medianas ou limites regimentais.
 * **Abordagem Correta**:
   - Utilização de *box plots* paralelos (*side-by-side*) por região geográfica ou porte de bancada, explicitando a mediana e a dispersão dos 50% centrais dos deputados.
-  - Aplicação de cor de destaque unicamente sobre pontos que ultrapassaram o limite de alerta institucional, acompanhados de justificativa textual da auditoria interna.
+  - Aplicação de cor de destaque nos valores que ultrapassarem **critérios de alerta previamente definidos**, com fonte, denominador e período. Um destaque visual **não demonstra irregularidade**, e uma auditoria precisa de exame próprio.
 
 ### Caso 3: Relatório de Produtividade Legislativa das Comissões Permanentes
 
@@ -267,3 +267,5 @@ flowchart TD
 > **Nota editorial (11/11/2026):** percentuais, projeções e exemplos institucionais desta nota são **cenários hipotéticos de ensino**, não dados oficiais da Câmara dos Deputados. Princípios de boa visualização orientam a prática profissional; a existência de infração jurídica deve ser avaliada à luz de norma aplicável e circunstâncias concretas. A revisão corresponde aos achados TI-025 a TI-027 da auditoria da Câmara.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** seis questões examinadas; gabaritos preservados **C, E, C, E, E, C**, com ressalvas na Q3 sobre percepção visual, na Q4 sobre eixo zero e na Q6 sobre inferência causal e relato institucional. São itens inéditos, sem certificação como questões oficiais.
+
+> **Implementação TI-134 (11/11/2026):** casos de storytelling reformulados para não transformar coincidência temporal ou valores atípicos em demonstração causal ou indício automático de infração.

@@ -20694,6 +20694,384 @@
       "statement": "Uma dúvida recorrente registrada no atendimento pode gerar uma pauta de serviço mesmo sem haver evento novo na agenda institucional.",
       "correctAnswer": "C",
       "explanation": "As necessidades informacionais do público também orientam a seleção de pautas. A agenda institucional é uma entre as fontes possíveis."
+    },
+    {
+      "id": "cam-cs-linha-editorial-e-data",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / planejamento editorial",
+      "articleId": "art-a72f906bde4318c5",
+      "conceptId": "linha-editorial-e-data",
+      "mechanism": "linha-editorial-e-data",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md",
+        "section": "Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes"
+      },
+      "statement": "A linha editorial de um perfil oficial é definida exclusivamente pelas datas reservadas no calendário.",
+      "correctAnswer": "E",
+      "explanation": "A linha editorial orienta a seleção e o tratamento dos temas. As datas organizam a execução."
+    },
+    {
+      "id": "cam-cs-revisao-editorial-por-sazonalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / planejamento editorial",
+      "articleId": "art-a72f906bde4318c5",
+      "conceptId": "revisao-editorial-por-sazonalidade",
+      "mechanism": "revisao-editorial-por-sazonalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Escuta, comentários e revisão de pauta"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md",
+        "section": "Escuta, comentários e revisão de pauta"
+      },
+      "statement": "Se uma dúvida se repete apenas no período de inscrições, revisar a pauta nesse período pode ser mais adequado que manter a mesma frequência de respostas durante o ano todo.",
+      "correctAnswer": "C",
+      "explanation": "A recorrência sazonal orienta a oportunidade da pauta. O calendário pode acompanhar o momento em que a informação é necessária."
+    },
+    {
+      "id": "cam-cs-aprovacao-sem-credencial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / produção colaborativa",
+      "articleId": "art-8f0c2e19a5d74b6c",
+      "conceptId": "aprovacao-sem-credencial",
+      "mechanism": "aprovacao-sem-credencial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8f0c2e19a5d74b6c#Halvorson: workflow e governance como componentes diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md",
+        "section": "Halvorson: workflow e governance como componentes diferentes"
+      },
+      "statement": "Uma pessoa pode ter autoridade para aprovar um conteúdo sem ter credenciais para publicá-lo na plataforma.",
+      "correctAnswer": "C",
+      "explanation": "A decisão editorial e a execução técnica podem ser atribuídas a pessoas distintas."
+    },
+    {
+      "id": "cam-cs-correcao-com-rastreio-de-derivados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / produção colaborativa",
+      "articleId": "art-8f0c2e19a5d74b6c",
+      "conceptId": "correcao-com-rastreio-de-derivados",
+      "mechanism": "correcao-com-rastreio-de-derivados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8f0c2e19a5d74b6c#Controle de versões, correções e manutenção"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md",
+        "section": "Controle de versões, correções e manutenção"
+      },
+      "statement": "Após corrigir um prazo no arquivo de origem, uma equipe identifica quais derivados foram publicados e quais ainda estão agendados. A distinção ajuda a escolher entre corrigir peças em circulação e substituir arquivos antes da publicação.",
+      "correctAnswer": "C",
+      "explanation": "Os derivados já publicados exigem verificar a correção no canal. Os agendados ainda podem ser substituídos antes de alcançar o público."
+    },
+    {
+      "id": "cam-cs-largura-de-recorte-central",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / proporções",
+      "articleId": "art-bb9305cf871d42ae",
+      "conceptId": "largura-de-recorte-central",
+      "mechanism": "largura-de-recorte-central",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-bb9305cf871d42ae#Proporção, resolução, orientação e enquadramento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md",
+        "section": "Proporção, resolução, orientação e enquadramento"
+      },
+      "statement": "Ao obter um recorte central de proporção 3:4 a partir de uma arte de 1.080 × 1.350 pixels, preservando a altura, a largura do recorte continua sendo de 1.080 pixels.",
+      "correctAnswer": "E",
+      "explanation": "A largura teórica é 1.012,5 pixels, antes do arredondamento. Preservar a altura de uma peça 4:5 ao passar para 3:4 exige remover parte da largura."
+    },
+    {
+      "id": "cam-cs-tom-informal-e-referencia-precisa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / proporções",
+      "articleId": "art-bb9305cf871d42ae",
+      "conceptId": "tom-informal-e-referencia-precisa",
+      "mechanism": "tom-informal-e-referencia-precisa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-bb9305cf871d42ae#Linguagens: o que muda quando muda o ambiente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md",
+        "section": "Linguagens: o que muda quando muda o ambiente"
+      },
+      "statement": "Uma legenda pode usar frases curtas e tom informal e ainda nomear com precisão a etapa do procedimento que está sendo divulgada.",
+      "correctAnswer": "C",
+      "explanation": "Tom e precisão factual são dimensões diferentes. A adaptação do registro pode preservar a denominação necessária para a tarefa."
+    },
+    {
+      "id": "cam-cs-carrossel-com-sequencia-operacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / formatos",
+      "articleId": "art-5c4d7e9b1a8260f3",
+      "conceptId": "carrossel-com-sequencia-operacional",
+      "mechanism": "carrossel-com-sequencia-operacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5c4d7e9b1a8260f3#Carrossel: sequência ordenada, progressão e controle de sentido"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md",
+        "section": "Carrossel: sequência ordenada, progressão e controle de sentido"
+      },
+      "statement": "Em um carrossel que ensina um procedimento, reordenar os cards não altera a orientação se a ordem das ações for requisito para concluir a tarefa.",
+      "correctAnswer": "E",
+      "explanation": "A sequência comunica precedência. Se as ações precisam seguir uma ordem, alterar sua apresentação pode induzir erro de execução."
+    },
+    {
+      "id": "cam-cs-tutorial-pausa-para-leitura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / formatos",
+      "articleId": "art-5c4d7e9b1a8260f3",
+      "conceptId": "tutorial-pausa-para-leitura",
+      "mechanism": "tutorial-pausa-para-leitura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5c4d7e9b1a8260f3#Vídeo gravado: demonstração, montagem e duração"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md",
+        "section": "Vídeo gravado: demonstração, montagem e duração"
+      },
+      "statement": "Se um vídeo instrutivo exibe um endereço essencial, manter a tela por tempo suficiente para leitura faz parte da adequação da montagem à tarefa.",
+      "correctAnswer": "C",
+      "explanation": "A duração do plano afeta a possibilidade de recuperar a informação. Exibir o endereço por um instante pode torná-lo inutilizável."
+    },
+    {
+      "id": "cam-cs-transmissao-e-pergunta-respondida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / formatos",
+      "articleId": "art-5c4d7e9b1a8260f3",
+      "conceptId": "transmissao-e-pergunta-respondida",
+      "mechanism": "transmissao-e-pergunta-respondida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5c4d7e9b1a8260f3#Live e transmissão ao vivo: simultaneidade, moderação e contingência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md",
+        "section": "Live e transmissão ao vivo: simultaneidade, moderação e contingência"
+      },
+      "statement": "Contar quantas perguntas apareceram na transmissão basta para verificar quantas foram respondidas corretamente.",
+      "correctAnswer": "E",
+      "explanation": "O total de perguntas registra participação. A resposta e sua correção exigem verificar o conteúdo tratado e as fontes usadas."
+    },
+    {
+      "id": "cam-cs-sequencia-efemera-com-dependencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / formatos",
+      "articleId": "art-5c4d7e9b1a8260f3",
+      "conceptId": "sequencia-efemera-com-dependencia",
+      "mechanism": "sequencia-efemera-com-dependencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5c4d7e9b1a8260f3#Stories: disposição em sequência e janela de visibilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md",
+        "section": "Stories: disposição em sequência e janela de visibilidade"
+      },
+      "statement": "Uma sequência curta anuncia que o prazo aparece no último story. Se o público pode entrar na sequência por um compartilhamento isolado, a posição final garante que todos tenham acesso ao prazo.",
+      "correctAnswer": "E",
+      "explanation": "O acesso ao último quadro depende do percurso. Uma informação indispensável pode exigir repetição contextual ou referência persistente."
+    },
+    {
+      "id": "cam-cs-capa-com-promessa-de-acao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
+      "articleId": "art-37c8f1e42a9065bd",
+      "conceptId": "capa-com-promessa-de-acao",
+      "mechanism": "capa-com-promessa-de-acao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37c8f1e42a9065bd#Capa e miniatura: promessa, orientação e legibilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
+        "section": "Capa e miniatura: promessa, orientação e legibilidade"
+      },
+      "statement": "Uma capa anuncia “faça sua inscrição”, mas a peça apenas explica os requisitos e não informa onde se inscrever. A peça cumpre integralmente a promessa da capa.",
+      "correctAnswer": "E",
+      "explanation": "A capa antecipa uma ação executável. Explicar requisitos é útil, mas não entrega por si o caminho da inscrição."
+    },
+    {
+      "id": "cam-cs-alternativa-textual-e-grafico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
+      "articleId": "art-37c8f1e42a9065bd",
+      "conceptId": "alternativa-textual-e-grafico",
+      "mechanism": "alternativa-textual-e-grafico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37c8f1e42a9065bd#Três sentidos que não se confundem: legenda, legenda audiovisual e texto alternativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
+        "section": "Três sentidos que não se confundem: legenda, legenda audiovisual e texto alternativo"
+      },
+      "statement": "Se o gráfico de um card é a única fonte de uma comparação importante, o texto alternativo pode precisar informar o resultado da comparação, além de identificar o tipo de gráfico.",
+      "correctAnswer": "C",
+      "explanation": "A alternativa precisa transmitir a informação relevante. Nomear o tipo de visualização pode deixar o resultado inacessível."
+    },
+    {
+      "id": "cam-cs-hashtag-com-referencia-ambigua",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
+      "articleId": "art-37c8f1e42a9065bd",
+      "conceptId": "hashtag-com-referencia-ambigua",
+      "mechanism": "hashtag-com-referencia-ambigua",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37c8f1e42a9065bd#Palavra-chave e hashtag: encontrar não é viralizar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
+        "section": "Palavra-chave e hashtag: encontrar não é viralizar"
+      },
+      "statement": "Uma hashtag que corresponde ao nome de vários programas identifica de modo inequívoco qual programa aparece no post.",
+      "correctAnswer": "E",
+      "explanation": "O mesmo rótulo pode remeter a objetos diferentes. A legenda ou o contexto deve esclarecer a referência."
+    },
+    {
+      "id": "cam-cs-credito-com-publicacao-derivada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
+      "articleId": "art-37c8f1e42a9065bd",
+      "conceptId": "credito-com-publicacao-derivada",
+      "mechanism": "credito-com-publicacao-derivada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37c8f1e42a9065bd#Marcação, crédito e atribuição"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
+        "section": "Marcação, crédito e atribuição"
+      },
+      "statement": "Ao reutilizar em um carrossel uma fotografia publicada por um parceiro, é possível marcar o parceiro e registrar separadamente a autoria confirmada da imagem.",
+      "correctAnswer": "C",
+      "explanation": "A marcação identifica uma relação com o parceiro. O crédito registra quem criou a fotografia."
     }
   ]
 }

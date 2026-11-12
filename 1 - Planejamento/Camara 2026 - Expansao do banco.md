@@ -68,6 +68,6 @@ Três itens revisados e reformulados após o cotejo de mecanismos. O par sobre r
 
 Quarenta questões de comunicação organizacional sobre dimensões, integração, fluxos, redes, públicos, planejamento, indicadores e gestão de projetos. Cotejo editorial concluído. Três casos foram reformulados para distinguir mecanismos próximos. Seleção dos 40 itens verificada. Próximo lote: redes sociais digitais oficiais, item 5 de Comunicação Social.
 
-## Lote 013 em elaboração
+## Lote 013 em revisão
 
-Vinte e seis questões sobre redes oficiais, vinculadas aos artigos 65 a 69. O lote inclui planejamento, produção colaborativa, proporções e formatos. O lote agora também inclui públicos, linguagem e avaliação. Completar os casos de formatos e elementos de publicação.
+Quarenta questões sobre redes oficiais, vinculadas aos artigos 65 a 69. O lote inclui planejamento, produção colaborativa, proporções e formatos. O lote agora também inclui públicos, linguagem e avaliação. Revisar gabaritos, dificuldade e possíveis equivalências com os exercícios dos artigos 65 a 69.

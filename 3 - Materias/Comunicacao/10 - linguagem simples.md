@@ -211,7 +211,7 @@ O edital exige linguagem simples e o Manual da Câmara. Os itens seguintes são 
 
 ---
 **Fontes Brutas:**
-- [[00 ingestão]]
+
 
 **Fontes normativas e técnicas usadas na revisão:**
 - Lei nº 15.263/2025, Política Nacional de Linguagem Simples.

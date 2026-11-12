@@ -66,6 +66,62 @@ Esta classificação descreve cobertura da **grade autoral**. **Não** correspon
 
 **Segundo caso, mudando uma variável:** se o comando pedir somente **comparar** comunicação vertical e horizontal, retirar o bloco de benefícios gerais e organizar dois modelos pelo **mesmo critério** (sentido da circulação, mediação e efeito); não reaproveitar mecanicamente a resposta anterior.
 
+## Segundo modelo completo: comparação entre resposta técnica e tese argumentativa
+
+O problema do treino é reconhecer a operação pedida. **Explicar** um mecanismo exige relações verificáveis; **defender** uma posição exige resposta central sustentada por argumentos; **avaliar** uma situação exige critérios e condições. A estrutura tradicional de introdução, desenvolvimento e conclusão pode ajudar em certos textos, mas **não é requisito automático** de toda resposta técnica de até 20 linhas.
+
+**Comando A, autoral e conceitual:** “Explique a distinção entre alcance de uma publicação institucional e compreensão efetiva de seu conteúdo. Indique dois procedimentos de verificação dessa compreensão.” Limite didático: até 20 linhas.
+
+**Modelo A, 14 linhas digitais artificiais:**
+
+```text
+01 Alcance descreve a distribuição ou exposição de
+02 uma mensagem, conforme a métrica adotada.
+03 Compreensão é a capacidade de interpretar corretamente
+04 o conteúdo e usar a orientação que ele oferece.
+05 Uma publicação pode alcançar muitas pessoas sem
+06 que elas entendam requisitos ou instruções relevantes.
+07 Por isso, contagens de visualizações não permitem
+08 concluir, sozinhas, que a informação foi compreendida.
+09 Um procedimento é solicitar a usuários de públicos
+10 distintos que expliquem as etapas com suas palavras
+11 e registrar dúvidas, acertos e interpretações erradas.
+12 Outro é propor tarefa prática, como localizar requisitos
+13 e identificar o caminho correto de inscrição, anotando
+14 dificuldades e condições em que surgiram.
+```
+
+**Grade de cobertura do comando A, sem pesos oficiais:** distinção entre métricas de alcance e compreensão (1–4), limite de inferência (5–8), primeiro procedimento (9–11), segundo procedimento (12–14). **Correção de fronteira:** uma tarefa bem executada mostra desempenho **nas condições da observação**, não comprova que toda a população compreendeu nem que uma campanha causou a melhora.
+
+**Contramodelo A:** “O alcance é muito importante e deve ser maximizado. Se o vídeo teve muitas visualizações, a campanha conseguiu informar a população.” Há afirmação causal sem prova; não define compreensão e omite os dois procedimentos exigidos. Mesmo com ortografia correta, a **cobertura didática** é incorreta ou ausente.
+
+**Comando B, autoral e argumentativo, mudando só a operação:** “Defenda a necessidade de combinar indicadores de alcance e testes de compreensão ao avaliar comunicação institucional. Apresente duas razões.” Limite: 20 linhas.
+
+**Modelo B, 12 linhas digitais artificiais:**
+
+```text
+01 A avaliação da comunicação institucional deve
+02 combinar alcance e testes de compreensão porque
+03 distribuição e entendimento medem dimensões distintas.
+04 A primeira razão é que uma mensagem muito vista
+05 pode ser pouco compreendida; verificar entendimento
+06 evita interpretar circulação como sucesso informativo.
+07 A segunda é que tarefas e perguntas com usuários
+08 revelam barreiras específicas de linguagem e navegação,
+09 orientando ajustes que o volume de acessos não indica.
+10 Essa combinação amplia a qualidade do diagnóstico,
+11 desde que amostras e métodos sejam descritos sem
+12 generalizar resultados além das condições investigadas.
+```
+
+**Grade de cobertura do comando B:** posição defendida (1–3); razão de validade da medida (4–6); razão de utilidade para melhoria (7–9); limite de generalização (10–12). Aqui a tese é pertinente porque o comando exigiu **defesa de posição**. No comando A, a mesma tese, sozinha, deixaria sem resposta os **dois procedimentos**.
+
+**Caso progressivo:** troque “dois procedimentos” por “um indicador de execução e um de resultado”. O texto A precisará nomear um observável de entrega, por exemplo publicação de orientação revisada, e outro de mudança no público, por exemplo conclusão correta de tarefa de compreensão em teste. Não são intercambiáveis. Se aparecer “comprove o impacto causal”, nenhum desses indicadores, isoladamente, resolve o novo verbo: seriam necessários métodos de atribuição apropriados.
+
+**Exercícios de julgamento C/E inéditos e comentados, não questões reais:** (1) “Uma questão que pede definição e dois procedimentos exige necessariamente uma tese opinativa explícita.” **Errado:** a operação é explicativa e procedimental. (2) “A quantidade de visualizações, por si só, comprova compreensão da mensagem.” **Errado:** alcance e interpretação são dimensões diferentes. (3) “Se o comando pede duas razões, apresentar uma conclusão enfática após uma única razão supre o segundo quesito.” **Errado:** fechamento não substitui objeto obrigatório.
+
+**Aplicação individual:** produza as duas respostas sem consultar os modelos e verifique, em cada uma, **verbo, objetos, condições, duas unidades solicitadas, limite de linhas e evidência textual literal**. Reescreva apenas o quesito ausente e depois a resposta integral. Para a teoria de públicos e avaliação, consulte o artigo canônico da matéria Comunicação antes de generalizar resultados. A correção deve seguir [[07 - revisao e autocorrecao de discursivas e pecas|CAM-DIS-009]]. As duas produções contam como alternativas de treino, não como acréscimo obrigatório às três horas semanais.
+
 ## Como decidir o que cortar
 
 Corte primeiro contextualização óbvia, repetição de adjetivos e paráfrase do enunciado. Preserve **distinção técnica, nexo causal, condição, exceção e exemplo exigido**. Uma resposta menor e completa é melhor que uma resposta de 20 linhas cujo último quesito não coube. Conte o limite na folha de treino e mantenha uma margem final para corrigir palavras sem inserir marca identificadora.

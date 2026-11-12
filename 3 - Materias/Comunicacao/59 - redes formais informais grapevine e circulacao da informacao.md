@@ -151,6 +151,24 @@ No [item 63 da prova oficial DPDF, cargo Comunicação Social](https://cdn.cebra
 
 **Mecanismo:** troca de atributos entre categorias vizinhas. Rede informal não é sinônimo de informação falsa, ausência de vínculo com o trabalho ou impossibilidade de controle parcial: distingue-se sobretudo pela origem e regulação social das relações, ao contrário do canal institucional previamente estabelecido. **C/E inédito, calibrado por esta prova:** “A característica central da rede informal de comunicação é a disseminação exclusivamente autorizada e predeterminada no organograma.” **Errado**. Este último é exercício criado para estudo, distinto do item histórico 63. A prova foi aplicada em **2022**, sob edital identificado como 2020.
 
+## Oficina aplicada: procedência da mensagem, circulação e controle de boatos (11/11/2026)
+
+**Situação:** uma alteração de prazo é anunciada por ato oficial. Em seguida, trabalhadores comentam espontaneamente que outra mudança ocorrerá. O **ato publicado e o canal institucional estabelecido** pertencem à rede **formal**; a conversa espontânea entre colegas pertence à rede **informal**, mesmo que parte dela seja verdadeira. A direção desse fluxo pode ser ascendente, descendente ou horizontal: rede e fluxo são critérios independentes. O gestor deve verificar a **fonte, o conteúdo, a versão e a data**, sem presumir falsidade de toda rede informal nem aceitar como correta toda mensagem formal.
+
+**Quatro padrões de Keith Davis:** *single strand* corresponde a retransmissão sucessiva de pessoa para pessoa; *gossip* ocorre quando alguém conta a muitos diretamente; *probability* descreve seleção aleatória de contatos para retransmissão; *cluster* envolve comunicação com contatos selecionados que podem redistribuir a outros de sua rede. A [obra aberta de comunicação organizacional da Oklahoma State University](https://open.library.okstate.edu/orgcomm/chapter/5-3-informal-communication-networks/) apresenta a tipologia de Davis (1969). Esses padrões descrevem **mecanismos de circulação**, não classes de verdade da informação. O mesmo grupo pode adotar padrões diferentes ao longo do tempo.
+
+**Caso progressivo de resposta institucional:** (A) uma informação circula informalmente e ainda não é confirmada: identificar fato verificável e dúvidas; (B) a equipe publica esclarecimento com versão e responsável, sem expor indevidamente trabalhadores; (C) relatos mostram divergência persistente no atendimento: corrigir o processo e os canais formais; (D) a instituição quer avaliar se a correção chegou a públicos internos: medir recebimento, compreensão e execução, evitando deduzir aprendizagem pelo mero número de comunicados.
+
+**Item 4, inédito.** Se uma informação circula em rede informal segundo o padrão *cluster* de Davis, ela é necessariamente falsa porque a seleção de contatos é uma característica exclusiva de boatos.
+
+**Gabarito: Errado.** *Cluster* identifica **a escolha seletiva dos contatos** na disseminação, não a veracidade do conteúdo.
+
+**Item 5, inédito.** Uma mensagem transmitida por canal formal pode conter erro; uma rede informal pode transmitir informação correta. A distinção formal/informal diz respeito à origem e à regulação da circulação, não à verdade lógica do conteúdo.
+
+**Gabarito: Certo.** Uma estrutura oficial não torna automaticamente cada informação verdadeira, assim como a circulação espontânea não implica falsidade. São exercícios autorais, separados da prova real DPDF descrita no artigo.
+
+**Fontes:** [Keith Davis, padrões de redes informais, síntese universitária](https://open.library.okstate.edu/orgcomm/chapter/5-3-informal-communication-networks/); [[3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade|Fluxos organizacionais]]; [[3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao|Escuta e clima]]. Os exemplos e respostas operacionais são didáticos e não descrevem eventos reais na Câmara.
+
 ## Heurísticas e relações
 
 **Formal:** percurso estabelecido pela instituição. **Informal:** vínculos sociais emergentes. **Curvello:** quatro fluxos e redes formal/informal. **Davis:** quatro padrões de grapevine: um a um, um a muitos, seleção aleatória, seleção por grupos. **Canal não determina rede; formalidade não determina direção; rumor não é sinônimo de grapevine.**

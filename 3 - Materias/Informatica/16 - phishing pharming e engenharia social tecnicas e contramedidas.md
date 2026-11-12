@@ -24,13 +24,13 @@ Entre as modalidades de ataque que combinam manipulação psicológica e ferrame
 flowchart TD
     classDef raiz fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;
     classDef isca fill:#fef2f2,stroke:#b91c1c,stroke-width:2px,color:#991b1b;
-    classDef dns fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+    classDef dns fill:#fef3c7,stroke:#b45309,stroke-width:2px,color:#78350f;
     classDef humana fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
 
     ES["Engenharia Social"]:::raiz
 
     ES --> Phishing["Phishing (A Isca Falsa)<br>Mensagens fraudulentas induzindo<br>o clique voluntário da vítima"]:::isca
-    ES --> Pharming["Pharming (O Envenenamento de DNS)<br>Redirecionamento invisível do tráfego legítimo<br>para servidor falso sem erro de digitação"]:::dns
+    ES --> Pharming["Pharming (Desvio de destino)<br>Alteração de hosts, DNS ou roteador<br>pode levar a servidor falso"]:::dns
     ES --> Presencial["Técnicas Físicas / Diretas<br>(Pretexting, Baiting, Shoulder Surfing,<br>Tailgating / Piggybacking)"]:::humana
 
     Phishing --> Spear["Spear Phishing<br>Alvo altamente específico"]:::isca
@@ -60,7 +60,7 @@ O **Phishing** (termo derivado de *fishing*, pescaria) consiste no envio de mens
 
 ---
 
-## 2. Pharming: o redirecionamento imperceptível de DNS
+## 2. Pharming: o redirecionamento por alteração da resolução ou do destino
 
 O **pharming** manipula a associação entre um nome de domínio legítimo e o destino acessado, por adulteração do arquivo local `hosts`, configuração de DNS, cache ou respostas de resolução; a técnica não depende sempre de comprometer um servidor DNS coletivo. O usuário digita o endereço URL rigorosamente correto e oficial no navegador (ex.: `www.camara.leg.br`), mas é **redirecionado automaticamente e de forma transparente para um servidor web falso e clonado**, controlado pelo atacante.
 
@@ -72,13 +72,13 @@ O **pharming** manipula a associação entre um nome de domínio legítimo e o d
 3. **Sequestro de Roteador (*DNS Hijacking*)**:
    - O criminoso explora senhas padrões de roteadores Wi-Fi domésticos para alterar os servidores DNS primário e secundário configurados no equipamento.
 
-### 2.2 Distinção definitiva entre Phishing e Pharming (Tabela de Ouro do Cebraspe!)
+### 2.2 Phishing e pharming: comparação por mecanismo, não por alcance
 
 | Critério de Comparação | Phishing | Pharming |
 | :--- | :--- | :--- |
 | **Ponto focal do ataque** | **Indução da vítima** por mensagem, contato ou outro pretexto fraudulento | **Manipulação da resolução de nomes ou do destino** para desviar o acesso |
 | **Comportamento da vítima** | O usuário clica em um link fraudulento ou acessa URL ligeiramente adulterada (*typosquatting*) | O usuário **digita a URL oficial perfeitamente correta** na barra de endereços |
-| **Mecanismo de engodo** | Engenharia social pura induzindo ao clique na isca | Redirecionamento tecnológico silencioso no DNS |
+| **Mecanismo de engodo** | Mensagens ou interações enganosas induzem a entregar dados, clicar ou executar ações | Manipulação de resolução ou do encaminhamento do destino, como `hosts`, DNS ou roteador; não exige clique em link falso |
 | **Alcance do comprometimento** | Pode atingir uma pessoa ou muitos destinatários de campanhas massivas | Pode afetar uma máquina (arquivo `hosts`), um roteador ou usuários de um resolvedor comprometido |
 | **Detecção pelo usuário** | Possível pela leitura atenta do remetente e do link | Pode manter a URL legítima; a validação de **HTTPS/TLS e certificado** pode denunciar desvio, mas depende da integridade do cliente e de uma cadeia de confiança válida |
 

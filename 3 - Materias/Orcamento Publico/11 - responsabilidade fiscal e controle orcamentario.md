@@ -23,6 +23,8 @@ Um ente aprovou a Lei Orçamentária Anual (LOA), abriu dotações para serviço
 
 A **Lei Complementar nº 101/2000**, Lei de Responsabilidade Fiscal (**LRF**), estabelece regras de **planejamento, transparência, prevenção de riscos, metas e limites**. Seu art. 1º, § 1º, vincula a responsabilidade fiscal à ação **planejada e transparente**, à prevenção de riscos e à correção de desvios capazes de afetar o equilíbrio das contas.
 
+**Dois relatórios com perguntas diferentes.** Imagine que o Congresso queira saber quanto do orçamento federal foi efetivamente executado e, em seguida, se cada Poder está respeitando seus limites fiscais. Para a primeira pergunta, consulta-se o **Relatório Resumido da Execução Orçamentária (RREO)**, previsto na Constituição, art. 165, § 3º, e detalhado na LRF, arts. 52 e 53. Para a segunda, consulta-se o **Relatório de Gestão Fiscal (RGF)**, disciplinado nos arts. 54 e 55 da LRF. O RREO apresenta a execução orçamentária do ente, abrangendo os Poderes e o Ministério Público; o RGF é emitido pelos titulares dos Poderes e órgãos abrangidos pelo art. 20, de modo que cada responsável demonstre a situação fiscal de sua esfera. Mais adiante, examinamos as diferenças de prazo, conteúdo e responsabilidade.
+
 Este artigo encerra o **roteiro editorial** de [[3 - Materias/Orcamento Publico/orcamento-publico|Orçamento Público]], conectando os fundamentos jurídicos à execução e ao controle. A incidência e o grau de aprofundamento exigidos no edital da CGU devem ser confirmados no documento oficial e em provas-espelho. Preparação editorial **não equivale à conclusão didática** da matéria.
 
 ## Planejamento fiscal: PPA, LDO, LOA e LRF
@@ -154,6 +156,10 @@ O **art. 42** impõe exigência própria nos **últimos dois quadrimestres de ma
 O exame da disponibilidade precisa respeitar **fontes legalmente vinculadas**. Uma conta com dinheiro suficiente em termos agregados pode não ter recursos livres suficientes para obrigação de determinada fonte. Ver [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|restos a pagar e encerramento do exercício]].
 
 ## RREO × RGF: relatórios que cumprem funções diferentes
+
+**Exemplo passo a passo.** Terminou fevereiro: o ente consolida o que arrecadou e executou no primeiro bimestre e deve publicar o RREO até 30 dias depois desse encerramento (LRF, art. 52). Terminou abril: o titular de cada Poder ou órgão abrangido pelo art. 20 deve emitir o RGF referente ao primeiro quadrimestre, sujeito ao prazo geral de publicação do art. 55, § 2º. Um relatório acompanha o fluxo de receitas e despesas do orçamento; o outro permite verificar limites e compromissos fiscais dos responsáveis. **Contraexemplo:** encontrar a despesa de pessoal da Câmara em demonstrativos gerais de execução não transforma o RREO no RGF da Câmara. A obrigação de cada relatório, seu emissor e sua periodicidade continuam distintos.
+
+**Critério de prova:** 'bimestral' descreve a periodicidade do RREO; 'quadrimestral' descreve a periodicidade geral do RGF. O prazo de 30 dias é contado **após o encerramento do período correspondente**, e não a partir da primeira despesa registrada. Há regra específica de periodicidade para determinados municípios no art. 63 da LRF, que precisa ser examinada antes de afirmar que toda publicação de RGF será obrigatoriamente quadrimestral.
 
 A LRF disciplina relatórios de transparência e controle, com periodicidades que não podem ser trocadas. A Constituição, art. 165, § 3º, também prevê a divulgação do relatório resumido de execução.
 

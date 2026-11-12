@@ -184,5 +184,5 @@ Considere o seguinte excerto inspirado em relatórios da OCDE sobre parlamentos 
 
 * HYLAND, Ken. **Hedging in Scientific Research Articles**. Amsterdam: John Benjamins, 1998. (Estudo fundamental sobre modalização epistêmica e atenuação em textos acadêmicos).
 * LEVINSON, Stephen C. **Pragmatics**. Cambridge: Cambridge University Press, 1983. (Capítulos sobre Pressuposição e Implicatura Conversacional).
-* CEBRASPE. **Cadernos de Questões Comentadas: Língua Inglesa**. Brasília: Cebraspe, 2018–2024.
+* CEBRASPE. **ANATEL 2024, caderno 961_ANATEL_CB1_01**, itens 16–23, com item 19 anulado. [Prova oficial](https://cdn.cebraspe.org.br/concursos/anatel_24/arquivos/961_ANATEL_CB1_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/anatel_24/arquivos/GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF). Referência identificada para inferência e extrapolação, não fonte dos itens inéditos deste artigo.
 * SWALES, John M. **Genre Analysis: English in academic and research settings**. Cambridge: Cambridge University Press, 1990.

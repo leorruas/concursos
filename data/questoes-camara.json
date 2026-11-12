@@ -18130,6 +18130,168 @@
       "statement": "Públicos que tiveram experiências diferentes com a mesma instituição podem consolidar avaliações diferentes dela ao longo do tempo.",
       "correctAnswer": "C",
       "explanation": "A avaliação acumulada depende das experiências e informações de cada público. Uma reputação favorável num grupo não determina a avaliação de outro."
+    },
+    {
+      "id": "cam-cs-risco-e-incidente-sem-dano",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-482d6ef913a0c75b",
+      "conceptId": "risco-e-incidente-sem-dano",
+      "mechanism": "risco-e-incidente-sem-dano",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-482d6ef913a0c75b#Classificação inicial: risco, issue, incidente, emergência e crise"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "section": "Classificação inicial: risco, issue, incidente, emergência e crise"
+      },
+      "statement": "Um erro que já interrompeu o envio de confirmações continua sendo apenas um risco futuro se nenhum usuário tiver apresentado reclamação.",
+      "correctAnswer": "E",
+      "explanation": "A interrupção já ocorreu e constitui um incidente. A ausência de reclamações não muda a ocorrência do evento."
+    },
+    {
+      "id": "cam-cs-teste-de-contato-com-substituicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-482d6ef913a0c75b",
+      "conceptId": "teste-de-contato-com-substituicao",
+      "mechanism": "teste-de-contato-com-substituicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-482d6ef913a0c75b#Preparação: reduzir improviso antes do episódio"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "section": "Preparação: reduzir improviso antes do episódio"
+      },
+      "statement": "Um exercício em que o porta-voz titular está indisponível pode revelar se o plano de crise prevê uma substituição que funciona na prática.",
+      "correctAnswer": "C",
+      "explanation": "Simular a indisponibilidade permite verificar contatos, atribuições e acesso do substituto às informações necessárias."
+    },
+    {
+      "id": "cam-cs-canal-de-alerta-independente-do-servico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "canal-de-alerta-independente-do-servico",
+      "mechanism": "canal-de-alerta-independente-do-servico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Canais e suas funções durante uma crise"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Canais e suas funções durante uma crise"
+      },
+      "statement": "Se o portal é o próprio serviço indisponível, divulgar a orientação apenas nele pode impedir que as pessoas afetadas descubram como proceder.",
+      "correctAnswer": "C",
+      "explanation": "A escolha do canal deve considerar se o público ainda consegue acessá-lo durante a falha. Um canal independente pode alcançar quem não entra no portal."
+    },
+    {
+      "id": "cam-cs-prazo-prometido-e-validacao-operacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "prazo-prometido-e-validacao-operacional",
+      "mechanism": "prazo-prometido-e-validacao-operacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Operação, comunicação e obrigação legal"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Operação, comunicação e obrigação legal"
+      },
+      "statement": "Anunciar a retomada do atendimento para uma hora específica comprova que a equipe operacional tem condições de cumprir esse prazo.",
+      "correctAnswer": "E",
+      "explanation": "A publicação registra uma previsão. Sua viabilidade depende dos recursos e do estado da operação."
+    },
+    {
+      "id": "cam-cs-imagem-pretendida-e-inferencia-interna",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "imagem-pretendida-e-inferencia-interna",
+      "mechanism": "imagem-pretendida-e-inferencia-interna",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista"
+      },
+      "statement": "Uma equipe pode querer que o público perceba a instituição como acessível e, ao mesmo tempo, acreditar que ele a considera distante. Essas afirmações expressam pontos de vista distintos.",
+      "correctAnswer": "C",
+      "explanation": "A primeira descreve a imagem pretendida. A segunda descreve o que membros da instituição acreditam que pessoas externas pensam dela."
+    },
+    {
+      "id": "cam-cs-reabertura-e-recuperacao-reputacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "reabertura-e-recuperacao-reputacional",
+      "mechanism": "reabertura-e-recuperacao-reputacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Avaliação: o que é possível concluir?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Avaliação: o que é possível concluir?"
+      },
+      "statement": "A volta do atendimento ao nível habitual de capacidade basta para concluir que as pessoas afetadas recuperaram a confiança na instituição.",
+      "correctAnswer": "E",
+      "explanation": "A capacidade de atendimento mede recuperação operacional. A recuperação de confiança exige evidência sobre a avaliação das pessoas afetadas."
     }
   ]
 }

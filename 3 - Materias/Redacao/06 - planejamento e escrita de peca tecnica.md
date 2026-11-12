@@ -84,6 +84,56 @@ Se o comando disser **“elabore um briefing”**, a mesma situação vira uma d
 
 **Rubrica didática sem pesos:** sublinhar trechos para (a) problema e hipótese, (b) públicos diferenciados, (c) objetivos ligados às barreiras, (d) meios/ações justificados, (e) acompanhamento observável. Marcar **atendido/parcial/ausente/incorreto**, contar linhas, identificar linguagem vaga e reparar o primeiro item ausente antes de ampliar o texto. Voltar ao exercício após 3 a 7 dias, com situação alterada.
 
+## Oficina CAM-DIS-006: diagnóstico de comunicação escrito como peça
+
+**Decisão editorial:** aprofundamento desta nota de peça técnica, sem novo artigo. O conceito de diagnóstico e seus métodos já são canônicos em [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|Planejamento estratégico e diagnóstico organizacional]]. O objetivo aqui é **escrever diagnóstico corrigível** em espaço restrito.
+
+**Caso fictício:** cidadãos relatam que não localizam instruções para participar de determinada atividade legislativa no portal. A direção supõe que é “falta de campanha”. O sintoma observável é dificuldade relatada de localização; a causa pode envolver navegação, vocabulário, organização da informação ou divulgação insuficiente. **Não tratar a hipótese da direção como resultado de pesquisa.**
+
+**Comando autoral para peça:** “Redija diagnóstico técnico preliminar para orientar a coordenação de comunicação: identifique sintoma e hipóteses, apresente fontes de evidência para verificá-las e indique o critério que permitiria decidir entre ajustar o portal e ampliar a divulgação.” Até 50 linhas. O gênero, a tarefa e a rubrica são didáticos, não exigências confirmadas para a prova da Câmara.
+
+**Execução em cinco partes:** (1) objeto e limites do diagnóstico; (2) problema relatado versus fatos verificados; (3) hipóteses concorrentes; (4) evidências a coletar, como tarefas de localização, análise do percurso, dúvidas nos canais e escuta de públicos diversos; (5) decisão condicionada ao que a evidência revelar. Se a pessoa encontra a página, mas não compreende instruções, modificar a arquitetura de informação ou a linguagem pode ser mais pertinente que apenas comprar mídia.
+
+**Exemplo de núcleo técnico autoral:** “Os relatos de dificuldade de localização são indícios que requerem investigação. Propõe-se observar como usuários de perfis distintos tentam encontrar as orientações, comparar seus percursos e analisar as dúvidas recebidas. Caso a dificuldade decorra da organização da página, recomenda-se testar mudanças de navegação e redação; caso a informação seja compreensível, mas desconhecida do público, avaliar divulgação dirigida. A escolha deverá ser revista à luz dos resultados da verificação.”
+
+**Contraexemplo insuficiente:** “A solução é fazer campanha nas redes, pois o público desconhece a atividade.” A causa não foi demonstrada, não há método de investigação e a decisão antecede o diagnóstico.
+
+**Exercício:** substitua a dificuldade de localizar informação por **baixa conclusão de inscrições**. Produza diagnóstico de 25 a 40 linhas, distinguindo abandono por falha do formulário, instrução confusa e desconhecimento da atividade. **Autocorreção:** marque separadamente sintoma, hipóteses, evidências, limite do conhecimento atual e decisão condicional. Cada campo precisa ter evidência literal; não atribuir nota oficial.
+
+## Oficina CAM-DIS-007: plano de comunicação como resposta técnica
+
+**Decisão editorial:** aprofundamento do mesmo artigo, pois a construção de **gênero e peça sob 50 linhas** é seu objeto; métodos gerais de planejamento pertencem à [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|nota de planejamento]], e a estrutura de um [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|briefing]] não deve ser repetida aqui.
+
+**Conceitos necessários:** objetivo especifica mudança buscada; público é o grupo cujo comportamento ou compreensão importa; estratégia é a escolha geral para atingir o objetivo; ação é execução concreta; meio/canal é o suporte de circulação; restrição é limite de recursos, norma ou prazo; acompanhamento verifica a implementação e os efeitos. Objetivo, entrega e ação não são intercambiáveis: “publicar cinco vídeos” é entrega, não objetivo de compreensão.
+
+**Comando autoral:** “A partir de dificuldade identificada na compreensão das orientações para uma atividade legislativa, elabore proposta técnica com objetivo, dois públicos, estratégias de comunicação, três ações, meios e forma de acompanhamento.” **Até 50 linhas.** O exemplo ilustra um plano, mas o edital não garante que a peça será um plano.
+
+**Modelo autoral em blocos, que pode ser convertido em peça:** 
+
+> **Objeto e diagnóstico:** a linguagem das orientações parece pouco clara para parte dos usuários; a hipótese será validada em testes de compreensão. **Objetivo:** permitir que os interessados identifiquem requisitos, datas e procedimentos corretos. **Públicos:** inscritos novos, que precisam reconhecer o percurso, e representantes de entidades, que precisam orientar terceiros. **Estratégia:** tornar a orientação acessível no ponto de busca e reforçá-la nos canais usados pelos públicos. **Ações:** reorganizar a página com etapas claras; produzir material explicativo acessível vinculado à fonte oficial; preparar respostas consistentes para atendimento e canais institucionais. **Meios:** portal, canais oficiais e atendimento. **Acompanhamento:** testar conclusão de tarefas de localização e compreensão, acompanhar dúvidas recorrentes e revisar os materiais conforme os resultados.
+
+O texto acima é uma **estrutura de conteúdo**, ainda não um exemplar manuscrito completo; a peça de 28 linhas da seção anterior demonstra a paginação do gênero definido. É preciso ensaiar sua conversão em folha de até 50 linhas.
+
+**Contraexemplo:** “Publicar dez vídeos e melhorar a imagem da instituição.” A lista de entregas não identifica necessidade comprovada, públicos, objetivo mensurável nem avaliação. **Exercício:** adapte o plano para **públicos que dependem de recursos de acessibilidade**, mantendo o mesmo objetivo e modificando meios e verificação. **Autocorreção:** cada ação precisa ter vínculo explícito com público, barreira e objetivo; contar ao menos três ações distintas, sem tratar metas inventadas como dados.
+
+## Oficina CAM-DIS-008: justificativa técnica, indicadores e avaliação
+
+**Decisão editorial:** aprofundamento da seção de peça técnica. Indicadores e teoria de avaliação pertencem à Comunicação; esta oficina treina **como justificar medidas e escrevê-las no documento em relação aos quesitos**.
+
+**Conceitos operacionais:** justificativa indica por que a medida é apropriada diante do diagnóstico; **indicador** é variável observável usada para acompanhar uma dimensão; **linha de base** é valor inicial medido; **meta** é resultado pretendido e precisa ser definida de modo justificável; **produto** é entrega realizada; **resultado** é mudança percebida no público; **impacto** é efeito mais amplo, cuja atribuição causal demanda evidência mais forte. Contar vídeos produzidos não demonstra compreensão do usuário; aumento de acesso ao portal não comprova, por si só, que uma campanha o causou.
+
+**Comando autoral:** “Justifique a seleção de medidas de comunicação para facilitar o acesso a orientações institucionais e apresente indicadores para verificar execução e compreensão do público, esclarecendo os limites das inferências.” **Até 50 linhas; rubrica didática.**
+
+**Exemplo de trecho de peça autoral:** “A reorganização da página é recomendada porque a dificuldade pode ocorrer no ponto em que a pessoa busca instruções. A execução pode ser acompanhada pela publicação da nova estrutura e por verificações de acessibilidade; esses dados descrevem entregas. Para examinar se o público compreende as orientações, propõe-se aplicar tarefas com usuários antes e depois do ajuste, registrando conclusão, dificuldades e dúvidas recorrentes. Eventual melhora não deve ser atribuída exclusivamente à intervenção sem controlar outras mudanças no serviço ou no perfil dos participantes.”
+
+**Contraexemplo:** “O sucesso será comprovado porque houve mais visualizações nas redes sociais.” Uma métrica de alcance não mede automaticamente entendimento e não isola causa.
+
+**Exercício:** formule uma justificativa de até 20 linhas para **uma** ação do plano da oficina anterior; depois incorpore-a a uma peça de até 50 linhas juntamente com **um indicador de execução, um de resultado e uma ressalva causal**. **Autocorreção:** localizar diagnóstico, medida, nexo justificativo, fonte de dados, unidade observável, limite de inferência e revisão possível. Não inventar valores, metas oficiais nem pesos da banca.
+
+### Uso das oficinas na semana
+
+A primeira produção semanal pode ser uma questão curta sobre a relação **sintoma → hipótese → evidência**; a segunda, peça de até 50 linhas com diagnóstico, plano ou avaliação, alternando objetos a cada semana. Em ambas, aplicar [[07 - revisao e autocorrecao de discursivas e pecas|CAM-DIS-009]], com grade de atendimento, contagem de linhas manuscritas, reescrita focal e reteste posterior. Registrar respostas individuais apenas no cofre privado.
+
 ## Referências
 
 - [Edital nº 1/2026, Câmara dos Deputados, itens 9.1 e 9.8.5.2](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades).

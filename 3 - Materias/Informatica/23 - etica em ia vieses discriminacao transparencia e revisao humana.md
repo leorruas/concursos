@@ -213,8 +213,12 @@ Instituída pela Portaria MCTI nº 4.617/2021, fixa 6 eixos verticais e 3 eixos 
 ### Item 5
 > **Assertiva:** O método de aprendizado conhecido como XAI (*Explainable Artificial Intelligence*) busca desenvolver técnicas que tornem as decisões tomadas por modelos estatísticos complexos e redes neurais profundas inteligíveis para seres humanos, viabilizando o cumprimento do dever de fundamentação e motivação dos atos administrativos no âmbito do poder público.
 >
-> **Gabarito:** **CERTO**  
-> **Comentário:** XAI procura tornar compreensíveis aspectos de funcionamento e resultados dos modelos, auxiliando auditorias e a motivação administrativa. **Uma explicação gerada por XAI não equivale automaticamente à fundamentação jurídica suficiente do ato**, que depende da decisão concreta, das evidências e das normas pertinentes. O gabarito CERTO descreve a finalidade da técnica, não garantia de conformidade.
+> **Gabarito:** **ERRADO (corrigido na revisão final)**  
+> **Comentário:** XAI (*Explainable Artificial Intelligence*) é uma **área e conjunto de métodos para explicar ou tornar interpretáveis modelos e resultados**, não um **método de aprendizado único** comparável a aprendizagem supervisionada, não supervisionada ou por reforço. Pode reunir modelos inerentemente interpretáveis e técnicas *post hoc* como SHAP e LIME. Além disso, a explicação técnica **não viabiliza por si só** o cumprimento do dever jurídico de motivação de um ato: são necessários fundamento legal, fatos corretos e justificativa adequada ao caso. **A expressão inicial “método de aprendizado conhecido como XAI” torna o item ERRADO**, mesmo que a finalidade geral de XAI descrita na segunda parte seja válida. Fontes: [NIST, Four Principles of Explainable AI](https://www.nist.gov/publications/four-principles-explainable-artificial-intelligence), [DARPA, programa XAI](https://www.darpa.mil/research/programs/explainable-artificial-intelligence).
+
+> **Versão didática reformulada (inédita, gabarito CERTO):** Técnicas de inteligência artificial explicável (XAI) podem ajudar a interpretar previsões de modelos complexos, mas suas explicações não substituem a fundamentação jurídica exigível de uma decisão administrativa.
+
+> **Rastreabilidade:** corrigido o gabarito anteriormente registrado como CERTO; não se trata de questão real Cebraspe.
 
 ### Item 6
 > **Assertiva:** O arranjo de governança algorítmica denominado *Human-in-the-Loop* (HITL) caracteriza-se por permitir que o sistema de inteligência artificial tome e execute decisões administrativas de forma autônoma e instantânea, mantendo o operador humano apenas como um auditor retrospectivo que avalia relatórios gerenciais e estatísticas mensais de erros após a consumação dos atos.

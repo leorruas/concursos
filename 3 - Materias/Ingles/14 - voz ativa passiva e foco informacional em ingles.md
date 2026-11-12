@@ -61,7 +61,7 @@ Em relatórios de auditoria, pareceres constitucionais e imprensa legislativa, a
 
 ## 2. Tabela de Transposição de Tempos Verbais para a Voz Passiva
 
-O erro técnico mais explorado pelo Cebraspe consiste em alterar o tempo ou aspecto verbal durante a transposição da voz ativa para a passiva. O verbo auxiliar **BE** deve assumir **rigorosamente o mesmo tempo e aspecto do verbo principal da voz ativa**:
+Um risco importante em reescritas é alterar o tempo ou o aspecto verbal durante a transposição da voz ativa para a passiva. Para conservar a referência temporal e aspectual, a nova construção precisa manter os valores correspondentes por meio dos auxiliares apropriados, incluindo **BE** e, quando cabível, **HAVE**:
 
 | Tempo / Aspecto | Voz Ativa | Voz Passiva (Sujeito + BE conjugado + Past Participle) |
 | :--- | :--- | :--- |

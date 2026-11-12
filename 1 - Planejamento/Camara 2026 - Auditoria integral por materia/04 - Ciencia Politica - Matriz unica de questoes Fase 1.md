@@ -1,7 +1,7 @@
 ---
 title: "Ciência Política: matriz única de questões e evidências, Fase 1"
 type: "matriz-auditoria"
-status: "em-curso"
+status: "concluido-documental-com-ressalvas"
 concursoId: "camara-2026"
 updated: 2026-11-11
 ---
@@ -14,7 +14,7 @@ Fonte canônica de achados: [[1 - Planejamento/Camara 2026 - Auditoria integral 
 
 **Fotografia de 11/11/2026:** **23 notas canônicas ou variantes** (duas variantes distintas do número 10, mais 11–31), **199 itens inéditos C/E extraídos diretamente do texto**, **199 com cotejo seletivo documentado** e **0 somente lidos**. **0 itens declarados integralmente certificados nesta matriz.** Não houve entradas duplicadas na chave `articleId#número`, e todos os 199 registros possuem gabarito original identificado. O total **199** é a contagem diretamente reextraída das notas atuais e substitui **estimativas anteriores**, não as recontagens de itens repetidos em múltiplos blocos de auditoria.
 
-**Atenção ao significado:** as 82 marcações de cotejo seletivo são *rastros de uma revisão dirigida*, não homologação final. A referência aponta a um bloco do [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/03 - Ciencia Politica - Fase 1|relatório 03]], que pode confrontar apenas o fundamento decisivo, não cada cláusula da questão. A conversão futura para `confirmado integralmente` requer conferir o enunciado completo, fonte, justificativa, gabarito, exceções e vigência. Itens `somente lidos` também podem estar corretos ou incorretos; a ausência de cotejo não indica erro.
+**Atenção ao significado:** as 199 marcações de cotejo seletivo são *rastros de uma revisão dirigida*, não homologação final. A referência aponta a um bloco do [[1 - Planejamento/Camara 2026 - Auditoria integral por materia/03 - Ciencia Politica - Fase 1|relatório 03]], que pode confrontar apenas o fundamento decisivo, não cada cláusula da questão. A conversão futura para `confirmado integralmente` requer conferir o enunciado completo, fonte, justificativa, gabarito, exceções e vigência. Itens `somente lidos` também podem estar corretos ou incorretos; a ausência de cotejo não indica erro.
 
 **Limite da amostra:** este conjunto exclui itens de notas compartilhadas `Estado e Democracia/01–09`, `Direito Constitucional` e `Atualidades`; esses arquivos são dependências e não devem ser misturados ao denominador sem uma matriz suplementar identificada. Esta matriz não altera os arquivos de estudo.
 

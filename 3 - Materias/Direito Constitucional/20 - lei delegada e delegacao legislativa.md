@@ -20,14 +20,22 @@ Não confundir **resolução de delegação**, que autoriza e delimita, com a **
 
 ## Sujeitos, instrumento e duas modalidades de controle
 
-O percurso começa com **pedido do Presidente da República**, passa por apreciação do **Congresso Nacional** e culmina na elaboração do texto pelo próprio Presidente. A resolução pode definir duas situações diferentes:
+Imagine que o governo federal precise criar regras para um programa administrativo que **não esteja entre as matérias proibidas de delegação**. O Presidente da República quer elaborar essas regras como lei delegada. O caminho tem três decisões:
 
-| Modelo | Caminho | Consequência |
+1. **Pedir autorização.** O Presidente solicita ao Congresso Nacional o poder de elaborar aquela lei. O pedido, sozinho, **não autoriza** criar a lei delegada.
+2. **Definir o que foi autorizado.** O Congresso avalia o pedido. Se concordar, aprova uma **resolução de delegação**. Essa resolução é o documento que informa **qual assunto** o Presidente poderá regular e **em quais condições**. Ela é a autorização, **não o texto da lei**.
+3. **Elaborar o texto.** O Presidente escreve a lei dentro dos limites recebidos. A resolução determina se será necessário enviar o projeto de volta ao Congresso antes da conclusão.
+
+A terceira etapa admite dois caminhos, conforme o **art. 68, §§ 2º e 3º, da Constituição**:
+
+| O que a resolução determina? | O que acontece depois? | Limite que muda a resposta |
 | :--- | :--- | :--- |
-| **Sem retorno obrigatório do projeto** | Resolução delega e delimita; o Presidente elabora a lei | A lei segue à promulgação, observado o alcance e o prazo da delegação; o Congresso continua a exercer os controles constitucionais cabíveis |
-| **Com apreciação parlamentar prevista na resolução** | Presidente elabora o **projeto** e o remete ao Congresso | O Congresso aprecia em **votação única**, **sem possibilidade de emendas** (CF, art. 68, § 3º) |
+| **Não exige retorno do projeto** | O Presidente elabora a lei delegada dentro da autorização recebida, seguindo as etapas finais pertinentes | O Congresso já delimitou o assunto e as condições na resolução; isso não é permissão para legislar sobre qualquer tema |
+| **Exige retorno do projeto** | O Presidente elabora um **projeto de lei delegada** e o envia ao Congresso para apreciação | O Congresso faz **votação única**, **sem apresentar emendas ao texto** (art. 68, § 3º) |
 
-**O Congresso não é obrigado a votar o texto final em toda delegação.** Essa apreciação só ocorre se a resolução a determinar. Na modalidade com retorno, o Parlamento pode deliberar sobre o projeto nos limites constitucionais, mas **não pode emendá-lo**. A votação única se refere ao projeto elaborado sob delegação, não à etapa anterior de aprovação da resolução autorizativa.
+**Exemplo com uma mudança de condição.** O Congresso autoriza o Presidente a elaborar normas sobre um programa administrativo e **não exige retorno**. O Presidente pode concluir o texto nos limites da resolução. Se a mesma autorização **exigir retorno**, o Presidente precisa remeter o projeto ao Congresso, que o examina em votação única e não pode reescrever seus dispositivos por meio de emendas.
+
+**Duas votações com objetos diferentes:** ao aprovar a **resolução**, o Congresso decide **se concede a delegação e quais são seus limites**. Quando a própria resolução exige o retorno, o Congresso faz outra apreciação, agora sobre **o projeto elaborado pelo Presidente**. A regra constitucional de votação única e proibição de emendas refere-se **a essa segunda apreciação**. Se a resolução não exigir retorno, essa segunda votação não é obrigatória. [Constituição Federal, art. 68](https://www4.planalto.gov.br/legislacao/legis-federal/constituicao).
 
 O projeto não é uma medida provisória. Na **medida provisória** (art. 62), a edição pelo Presidente depende de relevância e urgência constitucionais e está sujeita a controle legislativo posterior próprio. Na **lei delegada** (art. 68), a elaboração pressupõe **autorização legislativa anterior**. Não transportar para a lei delegada os prazos, pressupostos e o rito de uma medida provisória.
 
@@ -35,7 +43,7 @@ O projeto não é uma medida provisória. Na **medida provisória** (art. 62), a
 
 Há dois conjuntos cumulativos de vedações, que devem ser testados **antes** de conceder a autorização.
 
-**Primeiro conjunto: competências e reservas de espécie.** Não se delegam atos de **competência exclusiva do Congresso** (art. 49), atos de **competência privativa da Câmara ou do Senado** (arts. 51 e 52) nem **matéria reservada à lei complementar**. Essa última vedação depende da **reserva constitucional do objeto**, não apenas do nome de uma lei anterior. Ver [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|🔄 Processo legislativo e poder constituinte]].
+**Primeiro conjunto: competências e reservas de espécie.** Não se delegam atos de **competência exclusiva do Congresso** (art. 49), atos de **competência privativa da Câmara ou do Senado** (arts. 51 e 52) nem **matéria reservada à lei complementar**. Essa última vedação depende da **reserva constitucional do objeto**, não apenas do nome de uma lei anterior. Ver [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte: como diferenciar os sete tipos de norma]].
 
 **Segundo conjunto: assuntos expressamente vedados.** Não se delega legislação sobre (I) **organização do Poder Judiciário e do Ministério Público, carreira e garantias de seus membros**; (II) **nacionalidade, cidadania e direitos individuais, políticos e eleitorais**; (III) **plano plurianual, diretrizes orçamentárias e orçamentos**.
 

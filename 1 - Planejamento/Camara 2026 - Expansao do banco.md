@@ -104,3 +104,5 @@ Total validado: 680/2.000. Próximo lote: linguagem simples e usabilidade, item 
 ## Lote 018 em elaboração
 
 Oito itens sobre localização, compreensão e uso da informação, desenho do teste e interpretação de indicadores de usabilidade, vinculados aos artigos 75 e 77.
+
+O lote soma 16 itens redigidos. Os oito novos tratam de inspeção heurística, percurso cognitivo, conformidade técnica e limites das fórmulas de leiturabilidade.

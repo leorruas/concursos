@@ -25888,6 +25888,222 @@
       "statement": "Se os redatores interpretam corretamente o aviso que produziram, pode-se dispensar o teste com usuários que desconhecem o procedimento, pois ambos leem o mesmo texto.",
       "correctAnswer": "E",
       "explanation": "O conhecimento prévio dos redatores ajuda a preencher lacunas do texto. Usuários do público-alvo podem revelar dificuldades que a equipe autora não encontra."
+    },
+    {
+      "id": "cam-cs-usab-feedback-de-envio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "feedback-de-envio",
+      "mechanism": "feedback-de-envio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Inspeção heurística e avaliação cognitiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Inspeção heurística e avaliação cognitiva"
+      },
+      "statement": "Um formulário deixa a tela inalterada após o envio. A dificuldade de saber se o pedido foi recebido pode ser identificada por inspeção da visibilidade do estado do sistema.",
+      "correctAnswer": "C",
+      "explanation": "A interface precisa comunicar o resultado da ação. O silêncio pode deixar incerto se houve envio, erro ou processamento."
+    },
+    {
+      "id": "cam-cs-usab-frequencia-inferida-por-inspecao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "frequencia-inferida-por-inspecao",
+      "mechanism": "frequencia-inferida-por-inspecao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Inspeção heurística e avaliação cognitiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Inspeção heurística e avaliação cognitiva"
+      },
+      "statement": "Se três especialistas identificam o mesmo problema em uma inspeção, pode-se concluir que três quartos dos usuários abandonarão a tarefa quando encontrarem esse problema.",
+      "correctAnswer": "E",
+      "explanation": "A concordância entre avaliadores identifica um problema potencial. A frequência de abandono exige observar usuários em condições pertinentes."
+    },
+    {
+      "id": "cam-cs-usab-primeiro-uso-e-proxima-acao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "primeiro-uso-e-proxima-acao",
+      "mechanism": "primeiro-uso-e-proxima-acao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Inspeção heurística e avaliação cognitiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Inspeção heurística e avaliação cognitiva"
+      },
+      "statement": "No percurso cognitivo de uma primeira solicitação, faz sentido verificar se o usuário reconhecerá que o botão Anexar comprovante é a próxima ação necessária para avançar.",
+      "correctAnswer": "C",
+      "explanation": "O método examina a sequência de decisões e a associação entre a ação disponível e a meta do usuário."
+    },
+    {
+      "id": "cam-cs-usab-recuperacao-versus-prevencao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "recuperacao-versus-prevencao",
+      "mechanism": "recuperacao-versus-prevencao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Inspeção heurística e avaliação cognitiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Inspeção heurística e avaliação cognitiva"
+      },
+      "statement": "Uma interface que oferece instruções para corrigir um erro após rejeitar um envio necessariamente evitou que o erro ocorresse.",
+      "correctAnswer": "E",
+      "explanation": "A instrução auxilia a recuperação após a falha. Prevenção procura impedir a ação problemática ou alertar antes de concluí-la."
+    },
+    {
+      "id": "cam-cs-usab-flesch-e-referencia-ambigua",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "flesch-e-referencia-ambigua",
+      "mechanism": "flesch-e-referencia-ambigua",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Leiturabilidade, compreensão e usabilidade: uma fronteira relevante"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Leiturabilidade, compreensão e usabilidade: uma fronteira relevante"
+      },
+      "statement": "Um aviso pode obter resultado favorável em uma fórmula de leiturabilidade e ainda deixar ambíguo a qual documento se refere o pronome ele.",
+      "correctAnswer": "C",
+      "explanation": "A fórmula usa características superficiais do texto. Ela não resolve o vínculo entre o pronome e seu referente."
+    },
+    {
+      "id": "cam-cs-usab-percurso-sem-resposta-perceptivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "percurso-sem-resposta-perceptivel",
+      "mechanism": "percurso-sem-resposta-perceptivel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Inspeção heurística e avaliação cognitiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Inspeção heurística e avaliação cognitiva"
+      },
+      "statement": "Para o percurso cognitivo, basta identificar que a ação correta estava disponível, ainda que o usuário não consiga perceber se o sistema a executou.",
+      "correctAnswer": "E",
+      "explanation": "A inspeção também verifica se o usuário reconhece o efeito da ação e percebe que avançou em direção à meta."
+    },
+    {
+      "id": "cam-cs-usab-filtro-com-reconhecimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "filtro-com-reconhecimento",
+      "mechanism": "filtro-com-reconhecimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Inspeção heurística e avaliação cognitiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Inspeção heurística e avaliação cognitiva"
+      },
+      "statement": "Exibir na tela os filtros aplicados permite que a pessoa confira as restrições da busca sem precisar lembrar escolhas feitas em uma página anterior.",
+      "correctAnswer": "C",
+      "explanation": "A exibição apoia o reconhecimento das opções ativas e reduz a carga de memorização."
+    },
+    {
+      "id": "cam-cs-usab-conformidade-e-observacao-distintas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-a61c9e740b35d2f8",
+      "conceptId": "conformidade-e-observacao-distintas",
+      "mechanism": "conformidade-e-observacao-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a61c9e740b35d2f8#Inspeção heurística e avaliação cognitiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/77 - usabilidade metodos tecnicas e avaliacao.md",
+        "section": "Inspeção heurística e avaliação cognitiva"
+      },
+      "statement": "Uma inspeção de conformidade que confirma o contraste e a navegação por teclado demonstra que os usuários conseguem localizar a informação desejada durante uma tarefa.",
+      "correctAnswer": "E",
+      "explanation": "A inspeção confirma critérios técnicos. Observar a localização da informação exige avaliar o desempenho na tarefa e no contexto definidos."
     }
   ]
 }

@@ -14805,6 +14805,151 @@
       "statement": "Um licitante classificado no julgamento final das propostas ainda precisa apresentar documentos de habilitação para análise em sessão pública.",
       "correctAnswer": "C",
       "explanation": "A classificação leva à convocação para apresentar documentos. A análise de habilitação é etapa posterior."
+    },
+    {
+      "id": "cam-di-imagem-individual-em-anuncio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "imagem-individual-em-anuncio",
+      "mechanism": "imagem-individual-em-anuncio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 34, item 1"
+      },
+      "statement": "Uma loja usa em anúncio o retrato individual de uma pessoa viva encontrado em uma página aberta. A disponibilidade pública da imagem equivale à sua autorização prévia e expressa para esse uso.",
+      "correctAnswer": "E",
+      "explanation": "O acesso público à fotografia não comprova autorização para inseri-la em publicidade."
+    },
+    {
+      "id": "cam-di-multidao-e-contexto-humilhante",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "multidao-e-contexto-humilhante",
+      "mechanism": "multidao-e-contexto-humilhante",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "arts. 34 e 35, item 1"
+      },
+      "statement": "Uma fotografia de multidão pode enquadrar-se na exceção do art. 35 mesmo quando o anúncio coloca pessoas reconhecíveis em contexto humilhante.",
+      "correctAnswer": "E",
+      "explanation": "A exceção para multidões depende de ausência de contexto difamatório, ofensivo ou humilhante."
+    },
+    {
+      "id": "cam-di-comparacao-com-resultado-subjetivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "comparacao-com-resultado-subjetivo",
+      "mechanism": "comparacao-com-resultado-subjetivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 28 a 32: identificação, publieditorial e comparação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 28 a 32: identificação, publieditorial e comparação",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 32, itens 2 e 3"
+      },
+      "statement": "A convicção pessoal do anunciante de que seu produto é mais elegante basta para comprovar a superioridade em uma comparação publicitária apresentada como objetiva.",
+      "correctAnswer": "E",
+      "explanation": "O Código exige base objetiva e possibilidade de comprovação. A impressão pessoal do anunciante não supre esses critérios."
+    },
+    {
+      "id": "cam-di-alegacao-ambiental-com-limite-explicito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "alegacao-ambiental-com-limite-explicito",
+      "mechanism": "alegacao-ambiental-com-limite-explicito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 36-B, itens 2 e 5"
+      },
+      "statement": "Se o benefício ambiental verificado se restringe à fabricação da tampa de um frasco, identificar essa etapa e essa parte do produto ajuda a delimitar a alegação publicitária.",
+      "correctAnswer": "C",
+      "explanation": "O alcance do benefício precisa ser informado quando ele se refere a parte do produto ou etapa específica do ciclo de vida."
+    },
+    {
+      "id": "cam-di-concordancia-apenas-de-um-titular",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
+      "articleId": "art-3e8a6c14f927b05d",
+      "conceptId": "concordancia-apenas-de-um-titular",
+      "mechanism": "concordancia-apenas-de-um-titular",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3e8a6c14f927b05d#Arts. 28 a 32: identificação, publieditorial e comparação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
+        "section": "Arts. 28 a 32: identificação, publieditorial e comparação",
+        "url": "https://www.conar.org.br/codigos",
+        "locator": "art. 31, parágrafo único, item 3"
+      },
+      "statement": "A concordância do veículo basta, por si só, para afastar o problema de carona publicitária quando outro titular dos direitos envolvidos não concordou previamente.",
+      "correctAnswer": "E",
+      "explanation": "O Código considera a concordância prévia do veículo e dos demais titulares de direitos envolvidos. A anuência de um deles não substitui a dos outros."
     }
   ]
 }

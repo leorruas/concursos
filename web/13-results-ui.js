@@ -45,7 +45,7 @@ function makeArticle(article){
  const a=el('span','',name);
  const score=el('span','results-score',article.priority+' / 100');
  row.append(a,score);top.append(row);outer.append(top);
- const explain=el('p','results-meta',article.reason+' · '+article.concepts.length+' conceito(s) relacionado(s)');
+ const explain=el('p','results-meta',article.reason+' · '+article.concepts.length+' conceito(s) relacionado(s)'+(article.dueOn?' · Revisão sugerida: '+fmtDate(article.dueOn):''));
  outer.append(explain);
  const link=el('a','results-link','Ler este artigo e consultar os erros nele');
  link.href=articleLink(article);link.rel='noreferrer';outer.append(link);
@@ -67,7 +67,7 @@ function render(){
  const cs=(current.concepts||[]).filter(c=>c.errors||c.uncertain).slice(0,30);
  $('results-concepts').replaceChildren(...(cs.length?cs.map(c=>{
   const box=el('div','results-concept');const left=el('div');
-  left.append(el('strong','',c.title),el('small','',title(c.subjectId)+' · '+c.errors+' erro(s) em '+c.attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'));
+  left.append(el('strong','',c.title),el('small','',title(c.subjectId)+' · '+c.errors+' erro(s) em '+c.attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')));
   box.append(left,el('strong','results-score',c.priority+' / 100'));return box;
  }):[el('p','results-caption','Sem recorrências registradas para priorizar.')]));
  $('results-subjects').replaceChildren(...(current.bySubject||[]).map(s=>{

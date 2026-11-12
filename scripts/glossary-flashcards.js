@@ -131,14 +131,33 @@ export function mergeGlossaryFlashcards(collection, projection) {
     byId.set(card.id, card);
   }
   exigir(usedTerms.size === projection.reviewedCount, 'termos revisados não representados integralmente');
+  const cards = [...originals, ...projection.cards];
+  const exams = [...collection.exams];
+  const subjects = [...collection.subjects];
+  const validExams = new Set(exams.map(x => x.id));
+  const validSubjects = new Set(subjects.map(x => x.id));
+  const extraExamLabels = { 'camara-2026': { title: 'Câmara 2026 · Divulgação Institucional', board: 'Cebraspe' } };
+  const extraSubjectLabels = { 'direito-constitucional': 'Direito Constitucional' };
+  for (const card of cards) {
+    for (const id of card.examIds) if (!validExams.has(id)) {
+      exigir(extraExamLabels[id], 'concurso sem nome para a interface: ' + id);
+      exams.push({ id, ...extraExamLabels[id] });
+      validExams.add(id);
+    }
+    for (const id of card.subjectIds) if (!validSubjects.has(id)) {
+      exigir(extraSubjectLabels[id], 'matéria sem nome para a interface: ' + id);
+      subjects.push({ id, title: extraSubjectLabels[id] });
+      validSubjects.add(id);
+    }
+  }
   return {
-    ...collection,
+    ...collection, exams, subjects,
     glossary: {
       schemaVersion: 1,
       reviewedCount: projection.reviewedCount,
       linkedCount: projection.linkedCount,
       generatedCount: projection.generatedCount
     },
-    cards: [...originals, ...projection.cards]
+    cards
   };
 }

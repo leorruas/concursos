@@ -62,13 +62,13 @@ O **Phishing** (termo derivado de *fishing*, pescaria) consiste no envio de mens
 
 ## 2. Pharming: o redirecionamento imperceptível de DNS
 
-O **Pharming** é uma modalidade refinada de ataque cibernético que corrompe o processo de **resolução de nomes de domínio (DNS)**. O usuário digita o endereço URL rigorosamente correto e oficial no navegador (ex.: `www.camara.leg.br`), mas é **redirecionado automaticamente e de forma transparente para um servidor web falso e clonado**, controlado pelo atacante.
+O **pharming** manipula a associação entre um nome de domínio legítimo e o destino acessado, por adulteração do arquivo local `hosts`, configuração de DNS, cache ou respostas de resolução; a técnica não depende sempre de comprometer um servidor DNS coletivo. O usuário digita o endereço URL rigorosamente correto e oficial no navegador (ex.: `www.camara.leg.br`), mas é **redirecionado automaticamente e de forma transparente para um servidor web falso e clonado**, controlado pelo atacante.
 
 ### 2.1 Mecanismos de execução do Pharming
 1. **Envenenamento de Arquivo Local (*Hosts File Poisoning*)**:
    - Um malware no computador da vítima altera o arquivo local `hosts` (em `C:\Windows\System32\drivers\etc\hosts`), associando o nome de domínio legítimo ao endereço IP do servidor malicioso;
 2. **Envenenamento de Cache de DNS (*DNS Cache Poisoning*)**:
-   - O invasor invade e compromete o servidor DNS do provedor de internet ou da rede corporativa, inserindo respostas falsas na tabela de cache do servidor. A partir desse momento, **todas as pessoas conectadas àquela rede** que tentarem acessar o site oficial serão enviadas para o endereço fraudulento;
+   - O invasor invade e compromete o servidor DNS do provedor de internet ou da rede corporativa, inserindo respostas falsas na tabela de cache do servidor. Os dispositivos que consultarem **o registro comprometido no resolvedor afetado**, enquanto a resposta falsa for utilizada, podem ser direcionados ao destino malicioso; outros dispositivos podem usar caches ou resolvedores diferentes;
 3. **Sequestro de Roteador (*DNS Hijacking*)**:
    - O criminoso explora senhas padrões de roteadores Wi-Fi domésticos para alterar os servidores DNS primário e secundário configurados no equipamento.
 
@@ -76,10 +76,10 @@ O **Pharming** é uma modalidade refinada de ataque cibernético que corrompe o 
 
 | Critério de Comparação | Phishing | Pharming |
 | :--- | :--- | :--- |
-| **Ponto focal do ataque** | A **mensagem/comunicação** enviada à vítima | A **infraestrutura de resolução de nomes (DNS)** |
+| **Ponto focal do ataque** | **Indução da vítima** por mensagem, contato ou outro pretexto fraudulento | **Manipulação da resolução de nomes ou do destino** para desviar o acesso |
 | **Comportamento da vítima** | O usuário clica em um link fraudulento ou acessa URL ligeiramente adulterada (*typosquatting*) | O usuário **digita a URL oficial perfeitamente correta** na barra de endereços |
 | **Mecanismo de engodo** | Engenharia social pura induzindo ao clique na isca | Redirecionamento tecnológico silencioso no DNS |
-| **Alcance do comprometimento** | Individual (quem clicar na mensagem) | Coletivo (todos que usam o servidor DNS envenenado) |
+| **Alcance do comprometimento** | Pode atingir uma pessoa ou muitos destinatários de campanhas massivas | Pode afetar uma máquina (arquivo `hosts`), um roteador ou usuários de um resolvedor comprometido |
 | **Detecção pelo usuário** | Possível pela leitura atenta do remetente e do link | Pode manter a URL legítima; a validação de **HTTPS/TLS e certificado** pode denunciar desvio, mas depende da integridade do cliente e de uma cadeia de confiança válida |
 
 ---
@@ -222,3 +222,5 @@ A proteção contra engenharia social exige a convergência de tecnologia e capa
 > **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** questões 1–6 mantêm **C, E, E, C, E, C**. Revisadas especialmente as condições de proteção do TLS contra redirecionamentos por DNS; não se deve confundir certificado válido do domínio fraudulento com certificado válido do domínio legítimo.
+
+> **Implementação TI-115 (11/11/2026):** removida equivalência falsa de phishing com ataque individual e de pharming com afetação coletiva universal. Referência: [CERT.br, DNS malicioso](https://stats.cert.br/dns-malicioso/). HTTPS/TLS é defesa condicionada à validação do domínio e da cadeia de confiança.

@@ -26,7 +26,7 @@ Analise três assertivas no estilo C/E formuladas sobre esse trecho:
 1. **Assertiva 1 (Informação Explícita / Paráfrase direta):** *"The multi-year expenditure framework was endorsed with a condition that limits discretionary spending in the event of revenue underperformance."*
    * **Julgamento:** **CERTO**. O texto afirma explicitamente que o comitê aprovou (*approved = endorsed*) o marco plurianual com a restrição de liberar gastos discricionários (*discretionary disbursements = discretionary spending*) caso as receitas tributárias fiquem abaixo das previsões (*fall short of official forecasts = in the event of revenue underperformance*). Trata-se de **paráfrase factual fidedigna**.
 2. **Assertiva 2 (Inferência Legítima e Fundamentada):** *"It can be inferred from the text that the restriction on discretionary disbursements was introduced as a preventive measure against future inflationary risks stemming from fiscal imbalances."*
-   * **Julgamento:** **CERTO**. Os auditores legislativos justificaram a restrição lembrando que déficits descontrolados já haviam desencadeado pressões inflacionárias no passado. A ligação entre a cláusula de contingenciamento e a prevenção do risco inflacionário é uma **inferência necessária e fundamentada** nas evidências textuais.
+   * **Julgamento:** **ERRADO em critério estrito de C/E**. A passagem apresenta a restrição e relata que auditores mencionaram os efeitos inflacionários de déficits passados, mas não declara que a restrição foi concebida como medida preventiva contra a inflação. A ligação entre a cláusula e o risco de inflação é uma **hipótese interpretativa plausível**: os auditores citam os déficits passados, mas o trecho não declara expressamente que a cláusula foi adotada *para prevenir inflação*. Sem indicação do propósito no texto, a inferência não pode ser tratada como necessária.
 3. **Assertiva 3 (Extrapolação Indevida / Certeza Inexistente):** *"The text indicates that government infrastructure projects will inevitably be halted during the upcoming fiscal year due to the newly approved clause."*
    * **Julgamento:** **ERRADO (Extrapolação modal e factual)**. O texto diz apenas que representantes do governo insistiram que a restrição **poderia** colocar em risco (*could jeopardize*) projetos-chave de infraestrutura, e que a restrição só opera **se** as receitas ficarem abaixo da previsão (*whenever revenues fall short*). A assertiva transforma uma possibilidade condicional em fato certo e inevitável (*will inevitably be halted*), além de generalizar para todos os projetos de infraestrutura do governo.
 
@@ -48,7 +48,7 @@ flowchart TD
     B --> B2["O texto diz COM TODAS AS LETRAS (paráfrase lexical fiel)"]
     
     C --> C1["Comandos: 'It can be inferred', 'The text implies', 'We can deduce'"]
-    C --> C2["O texto NÃO diz expressamente, mas FORNECE PREMISSAS QUE OBRIGAM à conclusão"]
+    C --> C2["O texto autoriza uma conclusão contextual sustentada; evitar premissas externas e inferência mais forte que a evidência"]
     
     D --> D1["Verdade do senso comum ou conhecimento prévio NÃO contido no texto"]
     D --> D2["Salto indutivo: transformar 'possibilidade' (may/could) em 'certeza' (will/must)"]
@@ -85,17 +85,17 @@ Assim como em português, o inglês acadêmico e institucional utiliza marcadore
 
 ## 4. O sistema de *Hedging* e a calibração modal: certeza, probabilidade e possibilidade
 
-Em prosa científica e em relatórios internacionais, os autores evitam afirmações categóricas absolutas, recorrendo à técnica do **hedging** (linguagem de reserva epistêmica, cautela ou moderação). O Cebraspe ataca impiedosamente o candidato que não percebe essa gradação:
+Em prosa científica e em relatórios internacionais, os autores evitam afirmações categóricas absolutas, recorrendo à técnica do **hedging** (linguagem de reserva epistêmica, cautela ou moderação). Em itens de compreensão, é necessário perceber essa gradação e distinguir previsão, dedução forte e prova factual:
 
 ```mermaid
 flowchart LR
     A["Escala de Força Epistêmica (Do Mais Cauteloso ao Categórico)"]
     
-    A1["1. Possibilidade Fraca / Hipótese"] --> A2["2. Probabilidade / Expectativa Plausível"] --> A3["3. Certeza Factual / Consequência Inevitável"]
+    A1["1. Possibilidade Fraca / Hipótese"] --> A2["2. Probabilidade / Expectativa Plausível"] --> A3["3. Afirmação categórica ou dedução forte conforme contexto"]
     
     A1 --- B1["may, might, could, possibly, conceivably, suggests, plausible"]
     A2 --- B2["likely, probable, should, ought to, tends to, presumably, expected to"]
-    A3 --- B3["will, must, definitely, inevitably, establishes, proves, conclusively"]
+    A3 --- B3["definitely, inevitably, proves, conclusively; will/must dependem do uso"]
 
     classDef escala fill:#fff8e7,stroke:#d4a373,color:#2b2b2b,stroke-width:1.5px;
     classDef termos fill:#faedcd,stroke:#d4a373,color:#2b2b2b,stroke-width:1px;

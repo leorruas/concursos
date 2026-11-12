@@ -36249,7 +36249,7 @@
       "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz de classificação de controles de segurança\" do artigo 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
     },
     {
-      "id": "cam-ti-l026-017-backup-diferencial-restauracao",
+      "id": "cam-ti-l026-017-backup-diferencial-acumulacao",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -36258,8 +36258,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e4f1e43ef81ff76b",
-      "conceptId": "backup-diferencial-restauracao",
-      "mechanism": "sequencia-restauracao-diferencial",
+      "conceptId": "backup-diferencial-acumulacao",
+      "mechanism": "avaliar-intervalo-desde-completo",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
@@ -36271,13 +36271,13 @@
         "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
         "section": "2. Matriz comparativa dos tipos de backup"
       },
-      "statement": "Em um esquema clássico com backup completo no domingo e diferenciais de segunda a quarta, restaurar o estado coberto pelo diferencial de quarta exige o completo de domingo e o diferencial íntegro de quarta.",
+      "statement": "Após um backup completo no domingo, um documento foi alterado na segunda e novamente na terça. Em uma estratégia diferencial clássica, a cópia diferencial de terça incluirá esse documento, mesmo que ele já estivesse na cópia diferencial de segunda.",
       "correctAnswer": "C",
-      "explanation": "Cada diferencial reúne mudanças desde o último completo; os diferenciais intermediários não são exigidos para restaurar o estado de quarta no modelo clássico.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz comparativa dos tipos de backup\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "O diferencial compara as alterações com o último backup completo; modificações posteriores continuam cobertas nos diferenciais seguintes, independentemente do diferencial intermediário.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar e substituição por baixa novidade em relação a item histórico da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz comparativa dos tipos de backup\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
     },
     {
-      "id": "cam-ti-l026-018-backup-incremental-ultimo-isolado",
+      "id": "cam-ti-l026-018-backup-incremental-elo-perdido",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -36286,8 +36286,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e4f1e43ef81ff76b",
-      "conceptId": "backup-incremental-ultimo-isolado",
-      "mechanism": "romper-cadeia-incremental",
+      "conceptId": "backup-incremental-elo-perdido",
+      "mechanism": "avaliar-cadeia-de-restauracao-incompleta",
       "questionType": "distincao",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
@@ -36299,10 +36299,10 @@
         "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
         "section": "2. Matriz comparativa dos tipos de backup"
       },
-      "statement": "Com backup completo no domingo e incrementais em segunda, terça e quarta, basta restaurar o incremental de quarta para recuperar todos os arquivos alterados desde domingo.",
+      "statement": "Uma instituição mantém um backup completo de domingo e cópias incrementais de segunda e terça. A mídia incremental de segunda é perdida. Mesmo assim, a presença do completo e do incremental de terça garante, por si só, a restauração integral do estado de terça.",
       "correctAnswer": "E",
-      "explanation": "Cada incremental contém mudanças desde o backup anterior. A restauração completa exige o completo e os incrementais necessários na sequência.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz comparativa dos tipos de backup\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "No esquema incremental clássico, a restauração de terça depende das alterações de segunda e terça. Sem a cópia de segunda, o último incremental isolado não contém necessariamente os dados perdidos.",
+      "reviewEvidence": "Lote 026: conferência editorial preliminar e substituição por baixa novidade em relação a item histórico da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz comparativa dos tipos de backup\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
     },
     {
       "id": "cam-ti-l026-019-rpo-perda-maxima-de-dados",

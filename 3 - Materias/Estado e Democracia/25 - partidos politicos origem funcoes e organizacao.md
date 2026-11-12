@@ -14,7 +14,7 @@ updated: 2026-11-07
 
 **Situação concreta.** Um grupo reúne cidadãos que defendem uma pauta. Organiza manifestações, publica um programa, escolhe dirigentes e decide disputar eleições. Em que momento se transforma em **partido político** e por que o simples fato de ter militantes e propostas não basta? Um partido é uma **organização política relativamente duradoura que busca influenciar ou ocupar posições de poder**, especialmente por eleições, articulando interesses, candidaturas e ações coletivas. Movimento social, grupo de interesse, bancada parlamentar, coligação e federação podem desempenhar atividades semelhantes, mas possuem critérios institucionais distintos.
 
-**Origem** trata de como organizações partidárias surgem e se vinculam à ampliação da competição e do sufrágio. **Função** trata do que fazem: agregam demandas, representam segmentos, recrutam elites, selecionam candidaturas, mobilizam eleitores, organizam governos e oposição, estruturam a atividade parlamentar e oferecem alternativas de responsabilização política. **Organização** trata de como distribuem decisões e recursos entre dirigentes, filiados, órgãos, bancadas e campanhas. **Sistema partidário**, objeto da próxima unidade CAM-CP-017, é o padrão de **interação e competição entre diferentes partidos**, não a estrutura interna de cada um.
+**Origem** trata de como organizações partidárias surgem e se vinculam à ampliação da competição e do sufrágio. **Função** trata do que fazem: agregam demandas, representam segmentos, recrutam elites, selecionam candidaturas, mobilizam eleitores, organizam governos e oposição, estruturam a atividade parlamentar e oferecem alternativas de responsabilização política. **Organização** trata de como distribuem decisões e recursos entre dirigentes, filiados, órgãos, bancadas e campanhas. **Sistema partidário**, objeto da próxima unidade [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|Sistemas partidários: competição, fragmentação e institucionalização]], é o padrão de **interação e competição entre diferentes partidos**, não a estrutura interna de cada um.
 
 Uma função possível não é resultado garantido: partido que seleciona candidaturas não necessariamente representa adequadamente seus filiados, e a presença de eleições internas não prova igualdade de influência entre grupos.
 
@@ -168,10 +168,10 @@ A banca pode apresentar uma definição verdadeira atribuída ao **autor errado*
 
 ## Relações com outros temas
 
-- [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|CAM-CP-015]]: voto de legenda, federações e conversão em cadeiras.
-- [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|CAM-CP-014]]: partidos disputam também eleições majoritárias, com alianças de regime distinto.
-- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|CAM-CP-013]]: coalizão de governo não equivale a federação partidária.
-- [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|CAM-CP-010]]: mandato, representação e fidelidade.
+- [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|Sistema eleitoral proporcional: quocientes, listas e efeitos]]: voto de legenda, federações e conversão em cadeiras.
+- [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|Sistema eleitoral majoritário: funcionamento e efeitos]]: partidos disputam também eleições majoritárias, com alianças de regime distinto.
+- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]]: coalizão de governo não equivale a federação partidária.
+- [[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|Representação política: mandato, delegação e responsabilização]]: mandato, representação e fidelidade.
 - [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|Teoria política]]: partidos e mediação na democracia.
 
 ## Tensões e pegadinhas

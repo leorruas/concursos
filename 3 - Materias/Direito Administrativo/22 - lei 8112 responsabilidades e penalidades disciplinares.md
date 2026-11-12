@@ -140,7 +140,7 @@ Fonte primária: [STF, ADI 2.975, embargos de declaração, publicação de 2023
 
 ### 2.5 Cassação de aposentadoria ou disponibilidade (art. 134)
 
-Será cassada a aposentadoria ou a disponibilidade do inativo que houver praticado, **na atividade**, falta punível com demissão. Não é punição pela conduta pós-aposentadoria, mas pela descoberta ou apuração regular de falta gravíssima cometida enquanto o agente estava em efetivo exercício. O STF julgou constitucional a cassação de aposentadoria prevista na Lei nº 8.112/1990 (ADI 4.882/DF).
+Será cassada a aposentadoria ou a disponibilidade do inativo que houver praticado, **na atividade**, falta punível com demissão. Não é punição pela conduta pós-aposentadoria, mas pela descoberta ou apuração regular de falta gravíssima cometida enquanto o agente estava em efetivo exercício. O STF reconheceu a constitucionalidade da cassação de aposentadoria disciplinar prevista nos arts. 127, IV, e 134 da Lei nº 8.112/1990 na **ADPF 418**, julgada em abril de 2020. A referência à ADI 4.882 não deve ser utilizada como fundamento desse julgamento sem confirmação específica.
 
 ---
 
@@ -164,7 +164,7 @@ flowchart LR
     SUSP -. "Interrupção da Prescrição" .-> INT
     ADV -. "Interrupção da Prescrição" .-> INT
     
-    INT --> REIN["Prazo volta a correr por inteiro<br>após 140 dias do PAD (ou 80 da Sindicância)<br>Súmula 635 do STJ"]:::opcao
+    INT --> REIN["Súmula 635/STJ:<br>prazo volta a correr por inteiro<br>após 140 dias desde a interrupção"]:::opcao
 ```
 
 ### 3.1 Prazos prescricionais básicos (art. 142, I a III)
@@ -230,7 +230,7 @@ Fonte: [STJ, texto oficial da Súmula 635](https://scon.stj.jus.br/SCON/sumstj/d
 **5.** Servidor aposentado que tiver praticado, na atividade, conduta legalmente capitulada como passível de demissão estará sujeito à cassação de sua aposentadoria, instituto cuja constitucionalidade foi chancelada pelo Supremo Tribunal Federal.
 
 > **Gabarito: CERTO**  
-> **Comentário:** Assertiva plenamente conforme ao art. 134 da Lei nº 8.112/1990 ("Será cassada a aposentadoria ou a disponibilidade do inativo que houver praticado, na atividade, falta punível com a demissão") e ao julgamento vinculante da ADI 4.882/DF pelo STF, que declarou a higidez constitucional da cassação de aposentadoria como sanção disciplinar legítima decorrente do regime funcional de direito público.
+> **Comentário:** Assertiva plenamente conforme ao art. 134 da Lei nº 8.112/1990 ("Será cassada a aposentadoria ou a disponibilidade do inativo que houver praticado, na atividade, falta punível com a demissão") e à **ADPF 418**, cujo julgamento de mérito pelo STF, em abril de 2020, reconheceu a constitucionalidade da cassação disciplinar de aposentadoria nos termos da lei. [STF, Informativo 975, ADPF 418](https://www.stf.jus.br/arquivo/informativo/documento/informativo975.htm).
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **6.** A penalidade disciplinar de advertência poderá ser aplicada verbalmente pelo superior hierárquico direto na hipótese de faltas leves de insubordinação, dispensando-se o registro nos assentamentos funcionais caso o servidor apresente retratação imediata.

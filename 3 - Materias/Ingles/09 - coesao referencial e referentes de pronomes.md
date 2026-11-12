@@ -15,7 +15,7 @@ unidadeId: "CAM-ING-003"
 
 ## 1. Situação-problema: a armadilha mecânica do "substantivo mais próximo"
 
-Em quase todas as provas de Língua Inglesa do Cebraspe para carreiras de nível superior, há itens do tipo:
+Em exercícios de compreensão textual, a resolução de referências pronominais pode envolver comandos como os exemplos **autorais** abaixo; sua frequência em provas do Cebraspe não foi medida:
 
 > *"In line X, the pronoun **'it'** refers to..."*
 > *"The word **'which'** (l. Y) introduces an adjectival clause that qualifies..."*
@@ -25,12 +25,9 @@ Considere o seguinte trecho sobre deliberação orçamentária e controle parlam
 
 > *"When the budget oversight committee evaluated the multi-million technology procurement contract presented by executive officials, **they** discovered several computational inconsistencies in **its** baseline indicators, **which** immediately prompted **them** to suspend the funding allocation."*
 
-Se um candidato tentar resolver as referências pronominais desse período guiando-se pela regra ingênua da **proximidade física**, ele fatalmente errará:
+Este exemplo é **intencionalmente ambíguo**. O pronome ***they*** pode referir-se aos membros do comitê ou aos ***executive officials***, ambos antecedentes semanticamente possíveis. O possessivo ***its*** favorece *contract*, por tratar dos indicadores do contrato, mas essa leitura decorre da relação semântica, não da posição linear. O ***which*** pode ser interpretado como comentário ao fato da descoberta, enquanto ***them*** depende de quem foi motivado a suspender o financiamento. O trecho, isoladamente, não fornece evidência suficiente para atribuir todos os pronomes a um único grupo com certeza.
 
-1. O pronome sujeito ***they*** não retoma o termo imediatamente anterior (*"executive officials"*), mas sim o sujeito do período — o comitê de fiscalização orçamentária (*"the budget oversight committee"*), tratado como substantivo coletivo no plural ou referindo-se aos seus membros.
-2. O pronome possessivo ***its*** retoma o contrato de aquisição tecnológica (*"the multi-million technology procurement contract"*), e não os membros do comitê ou os funcionários do Executivo.
-3. Neste contexto, o relativo não restritivo ***which*** é interpretado como comentário sobre a descoberta de inconsistências, e não como retomada de *indicators* isoladamente. **A vírgula, sozinha, não decide o antecedente**: relativas não restritivas também podem retomar sintagmas nominais computacionais nos indicadores.
-4. O pronome objeto ***them*** retoma novamente os membros do comitê de fiscalização orçamentária (*"budget oversight committee"*), que foram impelidos a suspender a liberação dos recursos.
+**Caso progressivo para desambiguar**: *The committee members, after examining the contract submitted by executive officials, discovered errors in its baseline indicators. The discovery prompted the members to suspend funding.* Agora *committee members* é sujeito explícito de *discovered*, *its* remete plausivelmente ao contrato, e *the members* elimina a dúvida de quem suspendeu o financiamento. Se substituirmos *the members* por *the officials*, a ação final passa a outro grupo: o referente é decidido pelo contexto e por escolhas de formulação.
 
 Esta unidade sistematiza toda a mecânica da **coesão referencial em língua inglesa** no padrão Cebraspe: a distinção entre referência endofórica (anáfora e catáfora) e exofórica (dêixis); os pronomes pessoais e possessivos (*it, its, they, their*); os pronomes demonstrativos anafóricos (*this, that, these, those*); os pronomes relativos (*who, which, that, whose, whom*); e as armadilhas de orações relativas com *sentential which*.
 
@@ -223,4 +220,4 @@ Analise o excerto abaixo, acompanhando a numeração das linhas e as cadeias de 
 * BIBER, Douglas et al. **Longman Grammar of Spoken and Written English**. London: Longman, 1999. (Capítulo sobre *Pronouns and Reference Patterns*).
 * HALLIDAY, M. A. K.; HASAN, Ruqaiya. **Cohesion in English**. London: Longman, 1976. (Obra fundadora da teoria da coesão e referência endofórica).
 * HEWINGS, Martin. **Advanced Grammar in Use**. 3. ed. Cambridge: Cambridge University Press, 2013.
-* CEBRASPE. **Provas e Gabaritos Comentados de Língua Inglesa**. Brasília: Cebraspe, 2018–2024.
+* CEBRASPE. **ANATEL 2024, Especialista em Regulação**, caderno 961_ANATEL_CB1_01, itens 16–23. [Prova oficial](https://cdn.cebraspe.org.br/concursos/anatel_24/arquivos/961_ANATEL_CB1_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/anatel_24/arquivos/GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF). Aplicação de referência e escopo em texto completo, sem atribuição de exercícios inéditos à banca.

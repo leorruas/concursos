@@ -23,6 +23,7 @@ permissions:
 jobs:
   validar:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -44,9 +45,9 @@ jobs:
         timeout-minutes: 5
         run: |
           python3 -m http.server 8765 --bind 127.0.0.1 --directory _site >/tmp/glossario-http.log 2>&1 &
-          node scripts/test-glossary-browser.cjs
+          timeout --signal=TERM --kill-after=10s 180s node scripts/test-glossary-browser.cjs
       - name: Anexar capturas do glossário
-        if: always()
+        if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
         with:
           name: capturas-glossario

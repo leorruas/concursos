@@ -279,7 +279,7 @@ E) dialogal.
 
 **Gabarito: D.**
 
-Há uma posição — o atendimento digital não elimina a necessidade de canais presenciais — sustentada por uma justificativa. O melhor distrator é **exposição**, porque o texto também informa sobre uma realidade; o elemento decisivo é a **tese defendida**.
+Há uma posição — o atendimento digital não elimina a necessidade de canais presenciais — sustentada por uma justificativa. Entre as alternativas oferecidas, **descritiva** pode atrair quem observa apenas a informação sobre barreiras de acesso, mas a resposta correta é **D, argumentativa**: há uma conclusão sobre a necessidade de canais presenciais sustentada por uma razão. **Exposição não consta das alternativas deste exercício**.
 
 ### Questão 2
 

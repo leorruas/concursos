@@ -139,7 +139,7 @@ Essas diferenças descrevem **tendências**, não fronteiras absolutas. Uma **au
 
 ## Estado do estudo
 
-A explicação das modalidades e sua articulação com as três linhas foi consolidada na disciplina. Treinos posteriores abordaram as diferenças entre consultoria e gestão, avaliação e apuração e impedimentos, sem equivaler a uma comprovação de domínio integral. Resultados, dúvidas e acertos por chute ficam em [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]].
+A explicação das modalidades e sua articulação com as três linhas foi consolidada na disciplina. Treinos posteriores abordaram as diferenças entre consultoria e gestão, avaliação e apuração e impedimentos, sem equivaler a uma comprovação de domínio integral. Resultados, dúvidas e acertos por chute ficam em registro individual de estudos mantido no cofre privado.
 
 
 ## Fontes

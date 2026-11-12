@@ -133,7 +133,7 @@ Ao formular ou resolver itens C/E sobre a ideia central ou o propósito comunica
 
 ## 6. Caso prático progressivo: análise passo a passo de texto legislativo em inglês
 
-Leia o texto a seguir, adaptado do padrão típico de provas do Cebraspe para a Câmara dos Deputados:
+Leia o texto original e ficcional a seguir, criado para treino de compreensão no formato C/E. Não corresponde a prova oficial nem a texto externo publicado:
 
 > *(Text for items 1 through 6)*
 > 
@@ -150,8 +150,8 @@ Leia o texto a seguir, adaptado do padrão típico de provas do Cebraspe para a 
 * **Skimming:**
   * Parágrafo 1: Abertura contextual. As comunicações tradicionais não bastam mais para a sociedade digital.
   * Parágrafo 2: Solução adotada (plataformas de dados abertos e IA) e benefícios apontados pelos defensores (*proponents*).
-  * Parágrafo 3: **A virada crítica do autor (**conectivo **However** na abertura). Riscos de desinformação e vieses. Conclusão normativa com **Hence**: a modernização técnica precisa de governança e supervisão editorial para proteger a democracia.
-* **Tese central sintetizada:** A abertura digital e a automação de dados parlamentares são indispensáveis, mas trazem riscos graves de desinformação e viés se não forem acompanhadas de governança e supervisão editorial humana.
+  * Parágrafo 3: **Virada crítica do argumento:** o conectivo **However** introduz riscos e ressalvas. Riscos de desinformação e vieses. Conclusão normativa com **Hence**: a modernização técnica precisa de governança e supervisão editorial para proteger a democracia.
+* **Tese central sintetizada:** O texto sustenta que a abertura digital pode ampliar a participação, mas precisa ser acompanhada de governança e supervisão editorial para limitar riscos de desinformação e viés.
 * **Propósito comunicativo:** Alertar para os riscos da transparência digital desprovida de controle institucional e defender salvaguardas de governança nos parlamentos.
 
 ---

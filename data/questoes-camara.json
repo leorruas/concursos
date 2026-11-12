@@ -18888,7 +18888,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6493b2e7a10dc58f#Dimensão instrumental: informação como recurso técnico"
       ],
@@ -18898,7 +18898,8 @@
       },
       "statement": "Se um sistema interno registra que todos receberam a nova orientação, a análise instrumental permite concluir que todos atribuíram o mesmo sentido à mensagem.",
       "correctAnswer": "E",
-      "explanation": "O registro ajuda a avaliar a transmissão. A interpretação exige examinar as interações e os contextos em que as pessoas atribuem sentido à orientação."
+      "explanation": "O registro ajuda a avaliar a transmissão. A interpretação exige examinar as interações e os contextos em que as pessoas atribuem sentido à orientação.",
+      "reviewEvidence": "Cotejo editorial com Dimensão instrumental: informação como recurso técnico em 3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-integracao-com-procedimento-divergente",
@@ -18915,7 +18916,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-37f0a85c9b214d6e#Como integrar na prática: não basta alinhar slogans"
       ],
@@ -18925,7 +18926,8 @@
       },
       "statement": "Se a campanha anuncia agendamento por telefone, mas o atendimento só confirma agendamentos feitos no portal, conciliar as orientações entre as áreas é uma ação de integração, mesmo que a identidade visual já seja comum.",
       "correctAnswer": "C",
-      "explanation": "A divergência é de informação e de operação. A integração exige articular as áreas para que a promessa e o serviço sejam compatíveis."
+      "explanation": "A divergência é de informação e de operação. A integração exige articular as áreas para que a promessa e o serviço sejam compatíveis.",
+      "reviewEvidence": "Cotejo editorial com Como integrar na prática: não basta alinhar slogans em 3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-mesmo-canal-com-fluxos-distintos",
@@ -18942,7 +18944,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-8742dc93b5e1a06f#Fluxo, rede, canal e finalidade"
       ],
@@ -18952,7 +18954,8 @@
       },
       "statement": "Um grupo de mensagens pode sustentar tanto a troca horizontal entre colegas quanto pedidos ascendentes enviados à chefia.",
       "correctAnswer": "C",
-      "explanation": "O canal é o meio utilizado. A direção de cada troca depende das posições de quem envia e de quem recebe."
+      "explanation": "O canal é o meio utilizado. A direção de cada troca depende das posições de quem envia e de quem recebe.",
+      "reviewEvidence": "Cotejo editorial com Fluxo, rede, canal e finalidade em 3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-confirmacao-de-aviso-por-rede-informal",
@@ -18969,7 +18972,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-c49f86d2107ae35b#Informação correta, rumor e desinformação"
       ],
@@ -18979,7 +18982,8 @@
       },
       "statement": "Uma informação correta sobre o horário de uma reunião passa a ser necessariamente falsa quando é retransmitida por colegas fora do canal oficial.",
       "correctAnswer": "E",
-      "explanation": "A rede de circulação e a veracidade são critérios distintos. O percurso informal não altera por si o conteúdo."
+      "explanation": "A rede de circulação e a veracidade são critérios distintos. O percurso informal não altera por si o conteúdo.",
+      "reviewEvidence": "Cotejo editorial com Informação correta, rumor e desinformação em 3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-exposicao-sem-influencia-na-decisao",
@@ -18996,7 +19000,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-43a9f2d71b0e65c8#Segmentação aplicada ao setor público: acesso e participação"
       ],
@@ -19006,7 +19010,8 @@
       },
       "statement": "Um grupo com pouco poder de decisão pode merecer atenção no planejamento de comunicação se for diretamente afetado por uma mudança no serviço.",
       "correctAnswer": "C",
-      "explanation": "Poder e exposição ao efeito da mudança são dimensões distintas. A baixa capacidade de influenciar a decisão não elimina a necessidade de acesso à informação."
+      "explanation": "Poder e exposição ao efeito da mudança são dimensões distintas. A baixa capacidade de influenciar a decisão não elimina a necessidade de acesso à informação.",
+      "reviewEvidence": "Cotejo editorial com Segmentação aplicada ao setor público: acesso e participação em 3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-sintoma-com-hipoteses-concorrentes",
@@ -19023,7 +19028,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-80ac39e176d5b24f#Um sintoma não é um diagnóstico"
       ],
@@ -19033,7 +19038,8 @@
       },
       "statement": "Se poucas pessoas consultam um boletim, verificar se elas conhecem sua existência e se conseguem encontrá-lo ajuda a distinguir falta de divulgação de dificuldade de acesso.",
       "correctAnswer": "C",
-      "explanation": "O baixo uso é o sintoma. Conhecimento e encontrabilidade permitem investigar explicações que pedem intervenções diferentes."
+      "explanation": "O baixo uso é o sintoma. Conhecimento e encontrabilidade permitem investigar explicações que pedem intervenções diferentes.",
+      "reviewEvidence": "Cotejo editorial com Um sintoma não é um diagnóstico em 3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-meta-com-unidade-e-prazo",
@@ -19050,7 +19056,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6bd29c1e87f043a5#Primeira fronteira: objetivo, meta, indicador, métrica e evidência"
       ],
@@ -19060,7 +19066,8 @@
       },
       "statement": "A frase “percentual de pessoas que localizam a ata” fixa uma meta completa, ainda que não informe qual percentual se pretende atingir nem até quando.",
       "correctAnswer": "E",
-      "explanation": "A frase define o indicador. Uma meta acrescenta o patamar desejado e o prazo de referência."
+      "explanation": "A frase define o indicador. Uma meta acrescenta o patamar desejado e o prazo de referência.",
+      "reviewEvidence": "Cotejo editorial com Primeira fronteira: objetivo, meta, indicador, métrica e evidência em 3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-compreensao-medida-sem-uso-posterior",
@@ -19077,7 +19084,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6bd29c1e87f043a5#AMEC: a estrutura de seis níveis de avaliação"
       ],
@@ -19087,7 +19094,8 @@
       },
       "statement": "Se um teste mostra que leitores conseguem explicar o conteúdo de uma orientação, a evidência pode informar a avaliação da compreensão sem demonstrar se eles agiram de acordo com ela.",
       "correctAnswer": "C",
-      "explanation": "O teste mede o entendimento demonstrado. Verificar comportamento posterior exige outra observação."
+      "explanation": "O teste mede o entendimento demonstrado. Verificar comportamento posterior exige outra observação.",
+      "reviewEvidence": "Cotejo editorial com AMEC: a estrutura de seis níveis de avaliação em 3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-decomposicao-sem-ordenacao",
@@ -19104,7 +19112,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3d6f82b40e9715ac#EAP ou WBS: organizar o escopo por entregas"
       ],
@@ -19114,7 +19122,8 @@
       },
       "statement": "Decompor um projeto em roteiro, vídeo e material de apoio estabelece automaticamente a ordem em que essas entregas serão executadas.",
       "correctAnswer": "E",
-      "explanation": "A estrutura analítica organiza o escopo. A sequência exige identificar precedências e programar o trabalho."
+      "explanation": "A estrutura analítica organiza o escopo. A sequência exige identificar precedências e programar o trabalho.",
+      "reviewEvidence": "Cotejo editorial com EAP ou WBS: organizar o escopo por entregas em 3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-previsao-com-recurso-condicionado",
@@ -19131,7 +19140,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3d6f82b40e9715ac#Orçamento: estimar recursos não equivale a autorizar despesa"
       ],
@@ -19141,7 +19150,8 @@
       },
       "statement": "Um plano pode prever o custo de tradução e condicionar o início do trabalho à aprovação dos recursos, sem tratar a estimativa como autorização.",
       "correctAnswer": "C",
-      "explanation": "O orçamento do plano dimensiona a necessidade. A aprovação é uma decisão de governança distinta."
+      "explanation": "O orçamento do plano dimensiona a necessidade. A aprovação é uma decisão de governança distinta.",
+      "reviewEvidence": "Cotejo editorial com Orçamento: estimar recursos não equivale a autorizar despesa em 3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-risco-materializado-e-pendencia",
@@ -19158,7 +19168,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Gerenciar riscos: evento incerto não é problema ocorrido"
       ],
@@ -19168,7 +19178,8 @@
       },
       "statement": "Se um fornecedor que poderia atrasar já perdeu a data de entrega, o atraso deve ser tratado como problema ocorrido, embora seus efeitos futuros ainda possam ser incertos.",
       "correctAnswer": "C",
-      "explanation": "A perda do prazo é fato. As consequências que ainda podem ocorrer permanecem sujeitas à análise de risco."
+      "explanation": "A perda do prazo é fato. As consequências que ainda podem ocorrer permanecem sujeitas à análise de risco.",
+      "reviewEvidence": "Cotejo editorial com Gerenciar riscos: evento incerto não é problema ocorrido em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-mudanca-pendente-e-linha-de-base",
@@ -19185,7 +19196,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Controle de mudanças: solicitar não significa aprovar"
       ],
@@ -19195,7 +19206,8 @@
       },
       "statement": "Uma área pede um novo formato de vídeo. A equipe calcula que ele acrescentaria dois dias ao cronograma. A estimativa, por si, autoriza atualizar o prazo aprovado e iniciar o trabalho adicional.",
       "correctAnswer": "E",
-      "explanation": "A estimativa informa a análise de impacto. A alteração da linha de base e a execução do novo escopo dependem de decisão pela autoridade competente."
+      "explanation": "A estimativa informa a análise de impacto. A alteração da linha de base e a execução do novo escopo dependem de decisão pela autoridade competente.",
+      "reviewEvidence": "Cotejo editorial com Controle de mudanças: solicitar não significa aprovar em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-entrega-sem-responsavel-pela-manutencao",
@@ -19212,7 +19224,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Encerramento, transição e lições aprendidas"
       ],
@@ -19222,7 +19234,8 @@
       },
       "statement": "Uma página de serviço foi entregue e aprovada. A aprovação comprova que a transição para a operação foi concluída, mesmo sem definir quem atualizará as informações após o encerramento do projeto.",
       "correctAnswer": "E",
-      "explanation": "O aceite confirma a entrega. A transição requer encaminhar a manutenção a uma função ou equipe responsável."
+      "explanation": "O aceite confirma a entrega. A transição requer encaminhar a manutenção a uma função ou equipe responsável.",
+      "reviewEvidence": "Cotejo editorial com Encerramento, transição e lições aprendidas em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-intervencao-apos-teste-de-acesso",
@@ -19234,12 +19247,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 4 / planejamento",
       "articleId": "art-80ac39e176d5b24f",
-      "conceptId": "intervencao-apos-teste-de-acesso",
-      "mechanism": "intervencao-apos-teste-de-acesso",
+      "conceptId": "diagnostico-com-alternativa-inadequada",
+      "mechanism": "diagnostico-com-alternativa-inadequada",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-80ac39e176d5b24f#Um sintoma não é um diagnóstico"
       ],
@@ -19247,9 +19260,10 @@
         "path": "3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional.md",
         "section": "Um sintoma não é um diagnóstico"
       },
-      "statement": "Num teste, leitores localizam o boletim quando recebem o endereço direto, mas não conseguem encontrá-lo partindo da página inicial. Esse resultado justifica investigar a navegação antes de alterar o conteúdo do boletim.",
-      "correctAnswer": "C",
-      "explanation": "A diferença entre os dois percursos aponta para uma barreira de descoberta. A qualidade do conteúdo precisa de uma medida própria."
+      "statement": "Se a baixa consulta ao boletim decorre de ele não trazer os dados procurados pelos leitores, ampliar sua divulgação é suficiente para resolver o problema diagnosticado.",
+      "correctAnswer": "E",
+      "explanation": "A divulgação pode aumentar a exposição. A barreira identificada é a ausência dos dados, que exige revisão da oferta informacional.",
+      "reviewEvidence": "Cotejo editorial com Um sintoma não é um diagnóstico em 3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-meta-com-populacao-alterada",
@@ -19266,7 +19280,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6bd29c1e87f043a5#Primeira fronteira: objetivo, meta, indicador, métrica e evidência"
       ],
@@ -19276,7 +19290,8 @@
       },
       "statement": "Uma meta foi definida para todos os leitores, mas o resultado foi medido apenas entre os que já conheciam o portal. Se o percentual medido superar a meta, o cumprimento para o público original está demonstrado.",
       "correctAnswer": "E",
-      "explanation": "A medição usa uma população diferente. É preciso coletar evidência que cubra o público definido na meta."
+      "explanation": "A medição usa uma população diferente. É preciso coletar evidência que cubra o público definido na meta.",
+      "reviewEvidence": "Cotejo editorial com Primeira fronteira: objetivo, meta, indicador, métrica e evidência em 3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-entrega-omitida-da-decomposicao",
@@ -19293,7 +19308,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3d6f82b40e9715ac#EAP ou WBS: organizar o escopo por entregas"
       ],
@@ -19303,7 +19318,8 @@
       },
       "statement": "Se a entrega acordada inclui um vídeo e uma transcrição, incluir apenas o vídeo na estrutura analítica deixa parte do escopo sem representação, mesmo que a transcrição seja rápida de produzir.",
       "correctAnswer": "C",
-      "explanation": "A decomposição representa as entregas do projeto. O esforço reduzido não elimina uma entrega acordada."
+      "explanation": "A decomposição representa as entregas do projeto. O esforço reduzido não elimina uma entrega acordada.",
+      "reviewEvidence": "Cotejo editorial com EAP ou WBS: organizar o escopo por entregas em 3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-escopo-com-custo-nao-previsto",
@@ -19320,7 +19336,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3d6f82b40e9715ac#Orçamento: estimar recursos não equivale a autorizar despesa"
       ],
@@ -19330,7 +19346,8 @@
       },
       "statement": "Substituir uma oficina presencial por encontros virtuais garante redução do custo total se a rubrica de deslocamento for eliminada.",
       "correctAnswer": "E",
-      "explanation": "O formato virtual pode acrescentar custos de plataforma, suporte e adaptação. A comparação depende do conjunto de recursos previstos para cada formato."
+      "explanation": "O formato virtual pode acrescentar custos de plataforma, suporte e adaptação. A comparação depende do conjunto de recursos previstos para cada formato.",
+      "reviewEvidence": "Cotejo editorial com Orçamento: estimar recursos não equivale a autorizar despesa em 3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-risco-residual-apos-mitigacao",
@@ -19347,7 +19364,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Gerenciar riscos: evento incerto não é problema ocorrido"
       ],
@@ -19357,7 +19374,8 @@
       },
       "statement": "Ter um fornecedor substituto reduz o risco de ficar sem material, mas pode restar risco de atraso se o substituto precisar de tempo para assumir o trabalho.",
       "correctAnswer": "C",
-      "explanation": "A medida reduz parte da exposição. O tempo de transição ainda pode afetar o cronograma."
+      "explanation": "A medida reduz parte da exposição. O tempo de transição ainda pode afetar o cronograma.",
+      "reviewEvidence": "Cotejo editorial com Gerenciar riscos: evento incerto não é problema ocorrido em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-mudanca-aceita-sem-propagacao",
@@ -19374,7 +19392,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Controle de mudanças: solicitar não significa aprovar"
       ],
@@ -19384,7 +19402,8 @@
       },
       "statement": "Depois que uma mudança de escopo foi autorizada, atualizar apenas a lista de entregas torna suficiente o controle da execução, ainda que o cronograma e os critérios de aceite tenham sido afetados.",
       "correctAnswer": "E",
-      "explanation": "A decisão precisa chegar aos documentos e pessoas responsáveis pelas partes afetadas. Atualizar só a lista deixa referências incompatíveis."
+      "explanation": "A decisão precisa chegar aos documentos e pessoas responsáveis pelas partes afetadas. Atualizar só a lista deixa referências incompatíveis.",
+      "reviewEvidence": "Cotejo editorial com Controle de mudanças: solicitar não significa aprovar em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-mapeamento-com-barreira-de-consulta",
@@ -19401,7 +19420,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-43a9f2d71b0e65c8#Segmentação aplicada ao setor público: acesso e participação"
       ],
@@ -19411,7 +19430,8 @@
       },
       "statement": "Uma consulta sobre horários pode exigir contato específico com trabalhadores do turno noturno se a reunião aberta ocorre durante o turno diurno.",
       "correctAnswer": "C",
-      "explanation": "A possibilidade formal de participar não assegura acesso. O planejamento deve considerar as condições concretas do público."
+      "explanation": "A possibilidade formal de participar não assegura acesso. O planejamento deve considerar as condições concretas do público.",
+      "reviewEvidence": "Cotejo editorial com Segmentação aplicada ao setor público: acesso e participação em 3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-fluxo-e-retorno-em-etapas",
@@ -19423,12 +19443,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 4 / fluxos",
       "articleId": "art-8742dc93b5e1a06f",
-      "conceptId": "fluxo-e-retorno-em-etapas",
-      "mechanism": "fluxo-e-retorno-em-etapas",
+      "conceptId": "fluxo-com-retransmissao-horizontal",
+      "mechanism": "fluxo-com-retransmissao-horizontal",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-8742dc93b5e1a06f#Fluxo, rede, canal e finalidade"
       ],
@@ -19436,9 +19456,10 @@
         "path": "3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade.md",
         "section": "Fluxo, rede, canal e finalidade"
       },
-      "statement": "Em uma consulta interna, classificar o aviso inicial como descendente basta para classificar também as respostas enviadas pelos trabalhadores à direção.",
-      "correctAnswer": "E",
-      "explanation": "A direção é determinada em cada troca. As respostas dos trabalhadores à direção seguem um fluxo ascendente."
+      "statement": "A chefia envia uma orientação a uma servidora, que a explica a um colega do mesmo nível. O mesmo conteúdo percorre um trecho descendente e um trecho horizontal.",
+      "correctAnswer": "C",
+      "explanation": "O primeiro trecho liga chefia e subordinada. O segundo liga colegas de nível equivalente. A retransmissão cria uma nova relação de fluxo.",
+      "reviewEvidence": "Cotejo editorial com Fluxo, rede, canal e finalidade em 3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-ponte-informal-entre-unidades",
@@ -19455,7 +19476,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-c49f86d2107ae35b#Informação correta, rumor e desinformação"
       ],
@@ -19465,7 +19486,8 @@
       },
       "statement": "Um trabalhador sem cargo de chefia pode ligar duas redes informais ao compartilhar com ambas informações verificadas sobre uma mudança.",
       "correctAnswer": "C",
-      "explanation": "A posição na rede depende das relações efetivas. A conexão entre grupos pode existir sem autoridade formal."
+      "explanation": "A posição na rede depende das relações efetivas. A conexão entre grupos pode existir sem autoridade formal.",
+      "reviewEvidence": "Cotejo editorial com Informação correta, rumor e desinformação em 3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-impacto-cruzado-de-mudanca",
@@ -19482,7 +19504,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Controle de mudanças: solicitar não significa aprovar"
       ],
@@ -19492,7 +19514,8 @@
       },
       "statement": "Ao avaliar uma nova edição impressa solicitada para um projeto digital, a equipe pode precisar estimar impressão, revisão e distribuição antes de encaminhar a decisão.",
       "correctAnswer": "C",
-      "explanation": "A mudança acrescenta entregas e dependências. A análise de impacto informa a decisão sobre recursos, prazo e escopo."
+      "explanation": "A mudança acrescenta entregas e dependências. A análise de impacto informa a decisão sobre recursos, prazo e escopo.",
+      "reviewEvidence": "Cotejo editorial com Controle de mudanças: solicitar não significa aprovar em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-licao-documentada-e-transferencia",
@@ -19509,7 +19532,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Encerramento, transição e lições aprendidas"
       ],
@@ -19519,7 +19542,8 @@
       },
       "statement": "Registrar que um projeto atrasou é suficiente para transferir o aprendizado à equipe seguinte mesmo quando o registro não identifica a condição que provocou o atraso.",
       "correctAnswer": "E",
-      "explanation": "O registro identifica o resultado. Para orientar outro projeto, é preciso registrar as circunstâncias, a causa provável e a resposta adotada."
+      "explanation": "O registro identifica o resultado. Para orientar outro projeto, é preciso registrar as circunstâncias, a causa provável e a resposta adotada.",
+      "reviewEvidence": "Cotejo editorial com Encerramento, transição e lições aprendidas em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-dimensao-cultural-com-mesma-orientacao",
@@ -19536,7 +19560,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6493b2e7a10dc58f#Dimensão cultural: contextos, sentidos e diversidade"
       ],
@@ -19546,7 +19570,8 @@
       },
       "statement": "Se duas unidades usam a mesma orientação para justificar práticas diferentes, investigar os significados construídos localmente é compatível com a dimensão cultural da comunicação.",
       "correctAnswer": "C",
-      "explanation": "A dimensão cultural examina como contextos e significados compartilhados influenciam a interpretação e as práticas."
+      "explanation": "A dimensão cultural examina como contextos e significados compartilhados influenciam a interpretação e as práticas.",
+      "reviewEvidence": "Cotejo editorial com Dimensão cultural: contextos, sentidos e diversidade em 3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-identidade-comum-sem-criterio-de-atualizacao",
@@ -19558,12 +19583,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 4 / comunicação integrada",
       "articleId": "art-37f0a85c9b214d6e",
-      "conceptId": "identidade-comum-sem-criterio-de-atualizacao",
-      "mechanism": "identidade-comum-sem-criterio-de-atualizacao",
+      "conceptId": "integracao-de-objetivos-com-metricas-diferentes",
+      "mechanism": "integracao-de-objetivos-com-metricas-diferentes",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-37f0a85c9b214d6e#Como integrar na prática: não basta alinhar slogans"
       ],
@@ -19571,9 +19596,10 @@
         "path": "3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca.md",
         "section": "Como integrar na prática: não basta alinhar slogans"
       },
-      "statement": "Padronizar o visual de dois canais assegura coerência quando ambos divulgam orientações que podem ser atualizadas sem coordenação entre as equipes.",
-      "correctAnswer": "E",
-      "explanation": "A coerência informacional depende também de fontes, responsabilidades e rotinas de atualização compartilhadas."
+      "statement": "Duas áreas podem contribuir para o mesmo objetivo de melhorar o acesso a um serviço usando indicadores diferentes, se cada indicador acompanhar uma contribuição específica e ambas as áreas examinarem o resultado comum.",
+      "correctAnswer": "C",
+      "explanation": "A integração articula objetivos e contribuições. Indicadores locais podem medir etapas distintas, como orientação e atendimento, desde que se relacionem ao resultado comum.",
+      "reviewEvidence": "Cotejo editorial com Como integrar na prática: não basta alinhar slogans em 3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-recepcao-e-aplicacao-com-base-comum",
@@ -19590,7 +19616,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6bd29c1e87f043a5#AMEC: a estrutura de seis níveis de avaliação"
       ],
@@ -19600,7 +19626,8 @@
       },
       "statement": "Um teste pode medir separadamente se as pessoas lembram a instrução e se conseguem executar a tarefa, ainda que ambas as medidas sejam coletadas com os mesmos participantes.",
       "correctAnswer": "C",
-      "explanation": "As medidas têm objetos distintos. Usar a mesma base facilita examinar a relação entre eles sem tratá-los como equivalentes."
+      "explanation": "As medidas têm objetos distintos. Usar a mesma base facilita examinar a relação entre eles sem tratá-los como equivalentes.",
+      "reviewEvidence": "Cotejo editorial com AMEC: a estrutura de seis níveis de avaliação em 3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-politica-e-acao-pontual",
@@ -19617,7 +19644,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3d6f82b40e9715ac#Quatro níveis de decisão: política, estratégia, plano e ação"
       ],
@@ -19627,7 +19654,8 @@
       },
       "statement": "Enviar um aviso é, por si só, formular uma política de comunicação.",
       "correctAnswer": "E",
-      "explanation": "O envio é uma ação. A política estabelece princípios e diretrizes para decisões recorrentes."
+      "explanation": "O envio é uma ação. A política estabelece princípios e diretrizes para decisões recorrentes.",
+      "reviewEvidence": "Cotejo editorial com Quatro níveis de decisão: política, estratégia, plano e ação em 3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-operacao-apos-projeto",
@@ -19644,7 +19672,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3d6f82b40e9715ac#Programa, projeto, operação, atividade e entrega"
       ],
@@ -19654,7 +19682,8 @@
       },
       "statement": "Criar uma central de orientações com escopo e prazo definidos pode ser um projeto, enquanto atualizá-la rotineiramente após a entrega pode ser uma operação.",
       "correctAnswer": "C",
-      "explanation": "O projeto é temporário. A manutenção recorrente integra a operação."
+      "explanation": "O projeto é temporário. A manutenção recorrente integra a operação.",
+      "reviewEvidence": "Cotejo editorial com Programa, projeto, operação, atividade e entrega em 3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-briefing-com-lacuna-de-execucao",
@@ -19671,7 +19700,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3d6f82b40e9715ac#Briefing, plano de comunicação e plano de mídia"
       ],
@@ -19681,7 +19710,8 @@
       },
       "statement": "Um briefing que delimita problema e público comprova que já foram definidos responsáveis, orçamento e sequência de execução.",
       "correctAnswer": "E",
-      "explanation": "O briefing delimita insumos e condições iniciais. O plano articula os recursos e a execução."
+      "explanation": "O briefing delimita insumos e condições iniciais. O plano articula os recursos e a execução.",
+      "reviewEvidence": "Cotejo editorial com Briefing, plano de comunicação e plano de mídia em 3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-especificar-acao-sem-testar-escolha",
@@ -19698,7 +19728,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3d6f82b40e9715ac#5W2H: perguntas operacionais, sem substituir a estratégia"
       ],
@@ -19708,7 +19738,8 @@
       },
       "statement": "Um quadro pode detalhar quando e como enviar um boletim e ainda deixar em aberto se o boletim é adequado ao problema diagnosticado.",
       "correctAnswer": "C",
-      "explanation": "A descrição operacional explica a execução. A adequação depende da relação entre o meio, o público e o problema."
+      "explanation": "A descrição operacional explica a execução. A adequação depende da relação entre o meio, o público e o problema.",
+      "reviewEvidence": "Cotejo editorial com 5W2H: perguntas operacionais, sem substituir a estratégia em 3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-previsao-nao-apaga-desvio",
@@ -19725,7 +19756,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Controle da execução: linha de base, realizado, desvio e ação"
       ],
@@ -19735,7 +19766,8 @@
       },
       "statement": "Ao detectar atraso, substituir a referência aprovada pela nova previsão sem registrar a mudança preserva a capacidade de apurar o desvio original.",
       "correctAnswer": "E",
-      "explanation": "O desvio original requer a referência aprovada. A previsão atualizada estima o que ocorrerá daqui em diante."
+      "explanation": "O desvio original requer a referência aprovada. A previsão atualizada estima o que ocorrerá daqui em diante.",
+      "reviewEvidence": "Cotejo editorial com Controle da execução: linha de base, realizado, desvio e ação em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-conformidade-tecnica-e-uso",
@@ -19752,7 +19784,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Qualidade e aceite: verificar, validar, aprovar e publicar"
       ],
@@ -19762,7 +19794,8 @@
       },
       "statement": "Um arquivo pode cumprir o formato contratado e ainda falhar num teste em que os usuários precisam localizar determinada instrução.",
       "correctAnswer": "C",
-      "explanation": "Formato e uso verificam critérios diferentes. A conformidade técnica não estabelece sucesso na tarefa."
+      "explanation": "Formato e uso verificam critérios diferentes. A conformidade técnica não estabelece sucesso na tarefa.",
+      "reviewEvidence": "Cotejo editorial com Qualidade e aceite: verificar, validar, aprovar e publicar em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-iteracao-com-marco-fixo",
@@ -19779,7 +19812,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Abordagens preditivas, adaptativas e híbridas"
       ],
@@ -19789,7 +19822,8 @@
       },
       "statement": "Uma equipe pode testar versões sucessivas de um guia com leitores e manter uma data fixa para a aprovação final. O teste iterativo e o marco fixo podem coexistir numa abordagem híbrida.",
       "correctAnswer": "C",
-      "explanation": "As iterações tratam a incerteza sobre o conteúdo. O marco fixa uma condição de coordenação para a aprovação."
+      "explanation": "As iterações tratam a incerteza sobre o conteúdo. O marco fixa uma condição de coordenação para a aprovação.",
+      "reviewEvidence": "Cotejo editorial com Abordagens preditivas, adaptativas e híbridas em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-escalada-de-impacto-transversal",
@@ -19806,7 +19840,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6c72b9e450a813df#Comunicação e escalonamento na gestão do projeto"
       ],
@@ -19816,7 +19850,8 @@
       },
       "statement": "Uma equipe tem autonomia para mudar o texto, mas a mudança exige interromper outro projeto que usa a mesma fila de revisão. A autonomia textual basta para decidir unilateralmente a prioridade da fila.",
       "correctAnswer": "E",
-      "explanation": "A decisão de conteúdo e a alocação de capacidade compartilhada têm escopos distintos. O impacto transversal pode exigir arbitragem."
+      "explanation": "A decisão de conteúdo e a alocação de capacidade compartilhada têm escopos distintos. O impacto transversal pode exigir arbitragem.",
+      "reviewEvidence": "Cotejo editorial com Comunicação e escalonamento na gestão do projeto em 3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-meta-cumprida-com-custo-maior",
@@ -19833,7 +19868,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6bd29c1e87f043a5#Eficiência, eficácia e efetividade: outro eixo classificatório"
       ],
@@ -19843,7 +19878,8 @@
       },
       "statement": "Duas campanhas atingem a mesma meta de inscrições válidas. Mantidos os demais critérios, a que consumiu mais recursos pode ter menor eficiência por inscrição apesar de cumprir a meta.",
       "correctAnswer": "C",
-      "explanation": "Cumprir a meta indica eficácia nesse critério. A eficiência relaciona o resultado aos recursos empregados."
+      "explanation": "Cumprir a meta indica eficácia nesse critério. A eficiência relaciona o resultado aos recursos empregados.",
+      "reviewEvidence": "Cotejo editorial com Eficiência, eficácia e efetividade: outro eixo classificatório em 3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-efeito-com-mudanca-de-registro",
@@ -19860,7 +19896,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6bd29c1e87f043a5#Medir e avaliar: os desenhos possíveis"
       ],
@@ -19870,7 +19906,8 @@
       },
       "statement": "Após uma campanha, o painel passa a registrar inscrições iniciadas como concluídas. O aumento da série identifica o efeito da campanha sobre inscrições efetivamente concluídas.",
       "correctAnswer": "E",
-      "explanation": "A regra de registro alterou o significado do indicador. Para comparar resultados é preciso reconstruir uma série compatível antes de avaliar atribuição."
+      "explanation": "A regra de registro alterou o significado do indicador. Para comparar resultados é preciso reconstruir uma série compatível antes de avaliar atribuição.",
+      "reviewEvidence": "Cotejo editorial com Medir e avaliar: os desenhos possíveis em 3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-quadrante-com-mudanca-de-interesse",
@@ -19887,7 +19924,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-43a9f2d71b0e65c8#Mendelow: matriz poder × interesse"
       ],
@@ -19897,7 +19934,8 @@
       },
       "statement": "Se o poder de um grupo permanece alto e seu interesse cresce durante a implantação, a prioridade de relacionamento pode mudar na matriz de Mendelow.",
       "correctAnswer": "C",
-      "explanation": "Os dois eixos são avaliados separadamente. Alterar o interesse pode deslocar o grupo para outro quadrante."
+      "explanation": "Os dois eixos são avaliados separadamente. Alterar o interesse pode deslocar o grupo para outro quadrante.",
+      "reviewEvidence": "Cotejo editorial com Mendelow: matriz poder × interesse em 3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-organograma-com-vinculos-a-confirmar",
@@ -19914,7 +19952,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-c49f86d2107ae35b#Rede de interação versus organograma"
       ],
@@ -19924,7 +19962,8 @@
       },
       "statement": "O organograma é suficiente para identificar quais colegas são procurados informalmente para esclarecer dúvidas.",
       "correctAnswer": "E",
-      "explanation": "O organograma descreve relações formais. A busca por orientação informal precisa ser observada nas interações."
+      "explanation": "O organograma descreve relações formais. A busca por orientação informal precisa ser observada nas interações.",
+      "reviewEvidence": "Cotejo editorial com Rede de interação versus organograma em 3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     },
     {
       "id": "cam-cs-escuta-da-experiencia-comunicacional",
@@ -19941,7 +19980,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-6493b2e7a10dc58f#Dimensão humana: pessoas, subjetividade e diálogo"
       ],
@@ -19951,7 +19990,8 @@
       },
       "statement": "Investigar como trabalhadores interpretam uma mensagem de mudança e expressam suas dúvidas é compatível com a dimensão humana da comunicação.",
       "correctAnswer": "C",
-      "explanation": "Essa dimensão examina sujeitos, interações e sentidos atribuídos à comunicação."
+      "explanation": "Essa dimensão examina sujeitos, interações e sentidos atribuídos à comunicação.",
+      "reviewEvidence": "Cotejo editorial com Dimensão humana: pessoas, subjetividade e diálogo em 3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes."
     }
   ]
 }

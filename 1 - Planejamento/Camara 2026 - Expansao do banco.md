@@ -17,6 +17,7 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 009 | Comunicação Social | Edital 14.2.4, item 1: teorias da comunicação | 40 | 3/13/22/2 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 010 | Comunicação Social | Edital 14.2.4, item 2: comunicação interna | 40 | 3/14/19/4 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 011 | Comunicação Social | Edital 14.2.4, item 3: comunicação institucional | 40 | 0/33/4/3 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
+| 012 | Comunicação Social | Edital 14.2.4, item 4: comunicação organizacional | 40 | 1/20/13/6 | 40 | 0 | 0 | Integridade e sessões v3 |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
@@ -65,4 +66,4 @@ Três itens revisados e reformulados após o cotejo de mecanismos. O par sobre r
 
 ## Lote 012 em revisão
 
-Quarenta questões de comunicação organizacional sobre dimensões, integração, fluxos, redes, públicos, planejamento, indicadores e gestão de projetos. Revisar gabaritos, níveis de dificuldade e sobreposições com os exercícios publicados.
+Quarenta questões de comunicação organizacional sobre dimensões, integração, fluxos, redes, públicos, planejamento, indicadores e gestão de projetos. Cotejo editorial concluído. Três casos foram reformulados para distinguir mecanismos próximos. Pendente a seleção e liberação do lote.

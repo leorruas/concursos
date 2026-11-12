@@ -566,6 +566,8 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Redacao/05 - resposta conceitual curta de 20 linhas|05 • Resposta conceitual curta (CAM-DIS-002)]]
   - [[3 - Materias/Redacao/06 - planejamento e escrita de peca tecnica|06 • Peça técnica de até 50 linhas (CAM-DIS-005)]]
   - [[3 - Materias/Redacao/07 - revisao e autocorrecao de discursivas e pecas|07 • Revisão e autocorreção (CAM-DIS-009)]]
+  - [[3 - Materias/Redacao/08 - resposta comparativa e fronteiras conceituais|08 • Resposta comparativa (CAM-DIS-003)]]
+  - [[3 - Materias/Redacao/09 - resposta normativa aplicada em 20 linhas|09 • Resposta normativa (CAM-DIS-004)]]
 
 ---
 *Última atualização: 2026-11-04*

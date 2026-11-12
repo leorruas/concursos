@@ -47,7 +47,7 @@ O Google Meet é a solução de videoconferência corporativa focada em **navega
 - Totalmente integrado ao **Google Agenda** (*Google Calendar*) e ao Gmail;
 - **Acesso simplificado**: O ingresso ocorre via link direto (`meet.google.com/abc-defg-hij`);
 - **Gravação de reuniões**: As novas gravações são salvas no **Google Drive do organizador**, na pasta **Google Meet**, com uma subpasta específica para cada reunião, conforme a reorganização do serviço em julho de 2026;
-- **Legendas em tempo real (*Live Captions*)**: Transcrição automática instantânea impulsionada por inteligência artificial com tradução simultânea.
+- **Legendas em tempo real (*Live Captions*)**: podem exibir transcrição automática; **tradução de legendas e outros recursos** variam conforme edição do produto, disponibilidade e configuração.
 
 ---
 
@@ -59,13 +59,13 @@ O Cebraspe frequentemente formula itens sobre o controle de moderação de reuni
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Organizador (*Organizer*)** | Sim | Sim | Sim | Sim | **Sim** |
 | **Co-organizador (*Co-organizer*)** | Sim | Sim | Sim | Sim | **Sim**, em reuniões do Microsoft Teams conforme permissões descritas pela Microsoft |
-| **Apresentador (*Presenter*)** | Sim | Sim | Sim | Sim | Não |
+| **Apresentador (*Presenter*)** | Sim | Sim | Conforme permissões do Teams | **Por padrão, sim; o organizador pode restringir** | Não é a função normal de encerramento para todos |
 | **Participante (*Attendee*)** | Sim (se liberado pelo organizador) | **Não** (por padrão) | **Não** | **Não** | Não |
 
 ```mermaid
 flowchart LR
     Lobby["SALA DE ESPERA (LOBBY): Usuários externos e convidados aguardam aprovação"]
-    Lobby -->|Aprovado por Organizador / Apresentador| Sala["SALA PRINCIPAL DA REUNIÃO"]
+    Lobby -->|Admitido por pessoa autorizada nas opções da reunião| Sala["SALA PRINCIPAL DA REUNIÃO"]
     Sala -->|Divisão em subgrupos| B1["Breakout Room 1 (Subcomissão 1)"]
     Sala -->|Divisão em subgrupos| B2["Breakout Room 2 (Subcomissão 2)"]
     B1 -->|Fim do tempo / Comando de retorno| Sala
@@ -80,7 +80,7 @@ flowchart LR
 Permitem que o organizador divida uma reunião grande em **pequenas salas virtuais paralelas** para discussões temáticas:
 - Os participantes podem ser distribuídos de forma automática (aleatória) ou manual;
 - O organizador pode circular entre as salas e enviar anúncios em texto para todas as salas simultaneamente;
-- Ao encerrar as salas, todos os participantes retornam compulsoriamente para a sala principal.
+- O encerramento das salas pode conduzir os participantes de volta à reunião principal, mas o comportamento e o tempo de retorno dependem da ferramenta e das configurações de aviso e saída.
 
 ### 4.2 Compartilhamento de Conteúdo e Modo Destaque
 - **Compartilhar Tela Inteira (*Desktop*)**: Projeta tudo o que aparece no monitor (incluindo notificações pop-up confidenciais);
@@ -182,8 +182,10 @@ Uma reunião de trabalho foi gravada no Google Meet. O servidor que participou c
 | Recurso / Propriedade | Microsoft Teams | Google Meet |
 | :--- | :--- | :--- |
 | **Suíte / Ecossistema** | Microsoft 365 | Google Workspace |
-| **Repositório de canais/reuniões** | SharePoint Online | Google Drive |
-| **Repositório de chat privado** | OneDrive for Business | Google Drive |
+| **Arquivos em canais padrão (Teams)** | Biblioteca do SharePoint associada à equipe | Não há equivalência direta a canal de equipe do Teams |
+| **Arquivos compartilhados em chats 1:1/grupo do Teams** | OneDrive for Business do remetente, em fluxo compatível | Não equivale ao chat de uma reunião do Meet |
+| **Chat de reunião** | Chat do Teams conforme política de mensagens | **Google Chat** para reuniões com chat contínuo elegível; em outros casos mensagens podem desaparecer ao terminar a chamada |
+| **Gravações de reuniões** | Armazenamento em OneDrive/SharePoint conforme tipo de reunião e política | Google Drive, seguindo a estrutura e permissões da gravação do Meet |
 | **Controle de entrada** | Sala de Espera (*Lobby*) | Sala de Espera (*Knocking / Pedir para entrar*) |
 | **Subgrupos de discussão** | Salas Simultâneas (*Breakout Rooms*) | Salas Temáticas (*Breakout Rooms*) |
 | **Modo de apresentação focado** | PowerPoint Live / Modo Destaque | Compartilhar Guia / Apresentar tela |
@@ -192,3 +194,5 @@ Uma reunião de trabalho foi gravada no Google Meet. O servidor que participou c
 > **Atualização de produto (11/11/2026):** o Google informa a [nova estrutura da pasta Google Meet](https://support.google.com/meet/answer/9308681?hl=pt-BR) desde julho de 2026, e a Microsoft descreve que [coorganizadores podem encerrar reuniões para todos](https://support.microsoft.com/pt-br/teams/meetings/add-co-organizers-to-a-meeting-in-microsoft-teams). Revisados TI-041 e TI-042; conferir configurações e licenças específicas antes de generalizar permissões.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** seis questões examinadas; gabaritos mantidos **C, E, C, C, E, C** segundo os cenários de Teams/Meet descritos. Explicações refinadas para canais padrão, permissões de anfitrião, gravação em nuvem e sala de espera. As opções concretas devem ser verificadas conforme produto, licença e configuração.
+
+> **Implementação TI-109/110 (11/11/2026):** a comparação de armazenamento distingue arquivos de chats Teams, mensagens de reunião Google Meet/Chat e gravações; lobby, apresentadores e salas simultâneas tratados conforme opções e papéis. Fontes: [Google Meet, chat contínuo](https://support.google.com/meet/answer/9308979?hl=pt-Br), [Microsoft Teams, opções de reunião](https://support.microsoft.com/pt-br/teams/meetings/meeting-options-in-microsoft-teams).

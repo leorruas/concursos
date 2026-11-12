@@ -58,12 +58,12 @@ for (const pilot of config.pilotoDidatico) {
 // Regressão visual mínima da matéria de TI: Mermaid íntegro e sem fallback azul legado.
 // A inspeção visual no navegador continua separada deste teste estático.
 for (const file of fs.readdirSync(new URL('../3 - Materias/Informatica/', import.meta.url))
-  .filter(name => /^(?:0[3-9]|1\\d|2\\d|30) - .*\\.md$/.test(name))) {
+  .filter(name => /^(?:0[3-9]|1\d|2\d|30) - .*\.md$/.test(name))) {
   const content = fs.readFileSync(new URL('../3 - Materias/Informatica/' + file, import.meta.url), 'utf8');
-  const opens = (content.match(/```mermaid\\b/g) || []).length;
-  const closed = (content.match(/```mermaid[^\\n]*\\n[\\s\\S]*?```/g) || []).length;
+  const opens = (content.match(/```mermaid\b/g) || []).length;
+  const closed = (content.match(/```mermaid[^\n]*\n[\s\S]*?```/g) || []).length;
   assert.equal(opens, closed, 'CAM-TI: diagrama Mermaid sem fechamento em ' + file);
-  assert(!/classDef[^\\n]*fill:#(?:eff6ff|dbeafe|bfdbfe|93c5fd|2563eb|3b82f6|1d4ed8)/i.test(content),
+  assert(!/classDef[^\n]*fill:#(?:eff6ff|dbeafe|bfdbfe|93c5fd|2563eb|3b82f6|1d4ed8)/i.test(content),
     'CAM-TI: fallback azul legado no Mermaid de ' + file);
 }
 

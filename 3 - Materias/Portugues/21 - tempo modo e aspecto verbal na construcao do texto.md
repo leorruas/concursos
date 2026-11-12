@@ -12,10 +12,10 @@ updated: 2026-11-09
 
 ## 1. Situação concreta e o valor semântico das formas verbais no discurso legislativo
 
-Na elaboração de pareceres, relatórios de auditoria e projetos de lei na Câmara dos Deputados, a escolha de um tempo e modo verbal determina a **força normativa, o grau de certeza e o aspecto de duração** dos fatos jurídicos. Observe três formulações em um relatório de comissão parlamentar de inquérito (CPI):
+Na elaboração de pareceres, relatórios de auditoria e projetos de lei na Câmara dos Deputados, a escolha de um tempo e modo verbal contribui para a **perspectiva enunciativa, a organização temporal e o aspecto** das ações narradas; não comprova, por si só, a realidade dos fatos jurídicos. Observe três formulações em um relatório de comissão parlamentar de inquérito (CPI):
 
-> **Formulação 1**: *"O gestor **autorizou** o repasse no exercício de 2023."* (Pretérito Perfeito do Indicativo: fato pontual, concluído e cabalmente comprovado).  
-> **Formulação 2**: *"O gestor **autorizava** repasses sem parecer jurídico prévio."* (Pretérito Imperfeito do Indicativo: fato habitual, contínuo e reiterado no passado, revelando prática sistemática).  
+> **Formulação 1**: *"O gestor **autorizou** o repasse no exercício de 2023."* (Pretérito Perfeito do Indicativo: evento apresentado como globalmente concluído, **sem prova linguística de sua veracidade nem exigência de duração pontual**).  
+> **Formulação 2**: *"O gestor **autorizava** repasses sem parecer jurídico prévio."* (Pretérito Imperfeito do Indicativo: ação apresentada em curso ou como habitual no passado; o tempo verbal **não comprova sozinho uma prática sistemática**).  
 > **Formulação 3**: *"Segundo denúncias anônimas, o gestor **teria autorizado** o repasse irregular."* (Futuro do Pretérito Composto: reserva epistêmica, incerteza, discurso alheio não assumido diretamente pelo relator).
 
 Nas provas do **Cebraspe**, o estudo de verbos afasta-se da conjugação mecânica escolar e concentra-se na **semântica dos tempos e modos**, no **aspecto verbal** e na **correlação verbal (*consecutio temporum*)**. A banca avalia:
@@ -37,11 +37,11 @@ flowchart TD
 
     VERBO --> MODO & TEMPO & ASP
 
-    MODO --> M1["Indicativo: certeza, fato real, objetividade"]
+    MODO --> M1["Indicativo: fato apresentado como assertivo; não prova veracidade"]
     MODO --> M2["Subjuntivo: hipótese, dúvida, desejo, concessão"]
     MODO --> M3["Imperativo: ordem, prescrição, comando normativo"]
 
-    ASP --> A1["Perfectivo (Concluso): ação pontual terminada (aprovou)"]
+    ASP --> A1["Perfectivo: evento visto globalmente (aprovou), mesmo que durativo"]
     ASP --> A2["Imperfectivo (Inconcluso): ação durativa/habitual (aprovava)"]
     ASP --> A3["Iterativo / Frequente: repetição continuada (tem aprovado)"]
 ```
@@ -52,7 +52,7 @@ flowchart TD
 
 ### 2.1. Os Três Modos Verbais
 O **modo verbal** traduz a postura psicológica e epistêmica de quem fala diante do fato enunciado:
-- **Modo Indicativo**: Exprime o fato como **certo, real, verídico ou objetivo**, seja no presente, no passado ou no futuro. É o modo padrão dos relatórios descritivos, das exposições de motivos e da enunciação de normas vigentes (*"Esta Lei entra em vigor na data de sua publicação"*).
+- **Modo Indicativo**: Apresenta o conteúdo como uma asserção ou fato situado pelo enunciador, seja no presente, no passado ou no futuro; **não garante que seja verdadeiro ou documentalmente comprovado**. É o modo padrão dos relatórios descritivos, das exposições de motivos e da enunciação de normas vigentes (*"Esta Lei entra em vigor na data de sua publicação"*).
 - **Modo Subjuntivo**: Exprime o fato como **hipotético, duvidoso, eventual, desejável ou subordinado a uma condição/concessão**. É acionado obrigatoriamente por conjunções como *embora, caso, desde que, para que* e por verbos de desejo, dúvida ou ordem na oração principal (*"A Mesa determinou que a comissão **aprecie** a matéria"*).
 - **Modo Imperativo (Afirmativo e Negativo)**: Exprime **ordem, comando, instrução, exortação ou súplica**, sendo característico de textos injuntivos e despachos decisórios (*"**Publique-se**. **Registre-se**. **Cumpra-se**"*).
 
@@ -60,7 +60,7 @@ O **modo verbal** traduz a postura psicológica e epistêmica de quem fala diant
 
 ### 2.2. O Aspecto Verbal: Perfectivo $\times$ Imperfectivo $\times$ Iterativo
 Diferente do tempo (que localiza o evento em relação ao momento da fala), o **aspecto verbal** descreve como o processo se desenrola internamente (começo, meio, fim, repetição):
-1. **Aspecto Perfectivo (Concluso / Pontual)**: A ação é vista como um todo fechado e completamente concluído. Típico do **Pretérito Perfeito** (*"O Plenário **rejeitou** o destaque"*).
+1. **Aspecto perfectivo (visão global do evento)**: O processo é apresentado como um todo, sem privilegiar suas fases internas. É frequente no pretérito perfeito (*"O Plenário **rejeitou** o destaque"*). **Perfectividade não significa duração instantânea nem prova de ocorrência**: *"Durante três horas, a comissão debateu a proposta"* combina duração explícita com visão perfectiva.
 2. **Aspecto Imperfectivo (Inconcluso / Durativo / Cursivo)**: A ação é apresentada em seu curso, em desenvolvimento contínuo ou como hábito passado, sem foco em seu término. Típico do **Pretérito Imperfeito** (*"A comissão **debatia** o projeto quando a sessão foi suspensa"*) e das perífrases com gerúndio (*"estava debatendo"*).
 3. **Aspecto Incoativo**: Marca o início de um processo (*"**Começou a vigorar** o novo regimento"*; *"**Amanheceu**"*).
 4. **Aspecto Cessativo (Terminativo)**: Marca a interrupção ou término de uma ação que vinha ocorrendo (*"**Deixou de existir** a rubrica"*).
@@ -89,7 +89,7 @@ flowchart LR
     classDef destaque fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#2b2b2b;
 
     MQP["1. Pretérito Mais-Que-Perfeito<br>(Fato passado ANTERIOR a outro passado)<br>Ex.: aprovara = tinha/havia aprovado"]:::destaque
-    PERF["2. Pretérito Perfeito<br>(Fato passado PONTUAL e CONCLUÍDO)<br>Ex.: aprovou"]
+    PERF["2. Pretérito Perfeito<br>(Evento passado visto globalmente)<br>Ex.: aprovou"]
     IMP["2b. Pretérito Imperfeito<br>(Fato passado HABITUAL, DURATIVO ou CONTÍNUO)<br>Ex.: aprovava"]
     PRES["3. Momento da Enunciação<br>(Presente)"]
 
@@ -100,7 +100,7 @@ flowchart LR
 
 | Tempo do Pretérito | Valor Semântico e Aspectual | Equivalência Autorizada pelo Cebraspe | Substituição Proibida (Altera Sentido) |
 | :--- | :--- | :--- | :--- |
-| **Pretérito Perfeito Simples** (*aprovou, fez, disse*) | Fato pontual, delimitado e **integralmente concluído** no passado (aspecto perfectivo). | — | Não equivale a *aprovava* (imperfeito) nem a *aprovara* (mais-que-perfeito). |
+| **Pretérito Perfeito Simples** (*aprovou, fez, disse*) | Evento apresentado globalmente como situado no passado (aspecto perfectivo); pode ter duração longa e não é necessariamente comprovado. | — | Não equivale a *aprovava* (imperfeito) nem a *aprovara* (mais-que-perfeito). |
 | **Pretérito Imperfeito** (*aprovava, fazia, dizia*) | 1. Fato **habitual/contínuo** no passado;<br>2. Ação em curso quando outra sobreveio;<br>3. Descrição de cenário no passado. | Em contextos condicionais ou de polidez coloquial, pode equivaler ao futuro do pretérito (*podia = poderia*). | **Jamais equivale ao Pretérito Perfeito**: trocar *aprovava* por *aprovou* destrói a ideia de continuidade/hábito! |
 | **Pretérito Mais-Que-Perfeito** (*aprovara, fizera, dissera*) | **Passado do passado**: ação ocorrida **antes** de outra ação também passada. | **Equivale perfeitamente à forma composta** com *ter* ou *haver*: **aprovara = tinha aprovado = havia aprovado**. | Não equivale ao futuro do presente (*aprovará*) nem ao pretérito perfeito (*aprovou*) em rigor cronológico. |
 
@@ -188,7 +188,7 @@ No trecho “Antes da reforma do regimento, as lideranças partidárias apresent
 - [ ] Errado
 
 > **Gabarito: CERTO**  
-> **Comentário**: O **pretérito imperfeito do indicativo** (*apresentavam*) carrega o aspecto **imperfectivo, durativo e habitual**, retratando uma rotina parlamentar contínua vigente antes da reforma regimental. A sua troca pelo **pretérito perfeito** (*apresentaram*) converteria esse hábito duradouro em um evento único, pontual e circunscrito (aspecto perfectivo), modificando o sentido original do texto.
+> **Comentário**: O **pretérito imperfeito do indicativo** (*apresentavam*) carrega o aspecto **imperfectivo, durativo e habitual**, retratando uma rotina parlamentar contínua vigente antes da reforma regimental. A sua troca pelo **pretérito perfeito** (*apresentaram*) passaria a apresentar a ocorrência retrospectivamente sob uma perspectiva global (aspecto perfectivo), **sem implicar obrigatoriamente evento único ou instantâneo**, modificando o sentido original do texto.
 
 ---
 

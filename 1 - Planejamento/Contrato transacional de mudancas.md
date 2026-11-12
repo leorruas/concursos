@@ -128,3 +128,10 @@ No workflow, o contrato do commit de entrada é verificado antes da projeção. 
 ## Continuidade por matéria: formato 2
 
 O contrato vigente de continuidade está em [[1 - Planejamento/Continuidade de estudo por materia|Continuidade por matéria]]. `study-sessions.js` recebe um checkpoint único com respostas e estado pedagógico; `study-context.js` deriva o índice, os contextos por concurso/matéria e as filas paginadas. `test-study-context.js` cobre alternância, recuperação/retencão, correções, matérias sem Avancos e fontes normativas sem nota. O formato 1 e o histórico permanecem preservados. No formato 2, diagnósticos sem nota específica aceitam fonte catalogada com localizador; a lacuna teórica fica editorialmente pendente. As páginas de revisão excedentes são removidas na mesma transação e commit gerado. O workflow valida a origem e todos os derivados antes de persistir/publicar.
+
+
+## Correções editoriais em lote: PR sem mutação no CI (12/11/2026)
+
+A edição de dezenas de artigos deve ocorrer em uma **branch de trabalho**, com plano e diff revisados; usar um commit atômico quando possível. Cada gravação precisa confirmar SHA atual, e operações concorrentes devem ser reconciliadas antes do push. Um fluxo de `pull_request` é **somente de validação**: não editar arquivos, criar commits nem enviar `git push` a partir do workflow. Se a validação produzir relatório de ocorrências, publicá-lo como artefato sem alterar a branch. O evento de PR pode avaliar um merge sintético/detached HEAD; qualquer tentativa de aplicar correções ali é suscetível a rejeição por branch avançada. Em conflito, refazer a mudança com base no HEAD atual e executar novos testes, sem `force`.
+
+Falhas de validação devem ser investigadas pelo **primeiro job/etapa que falhou**. Um erro técnico no parser de referências, um link para material privado fora do escopo ou a presença intencional de códigos de edital em metadados não justificam alterações cegas nos artigos. O critério editorial verificável para referências cruzadas é título real do destino e rota válida; a migração de referências históricas obsoletas é um trabalho distinto.

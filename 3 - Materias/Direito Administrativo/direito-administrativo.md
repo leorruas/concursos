@@ -64,5 +64,5 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 - **Responsabilização de agentes** (sindicância e Processo Administrativo Disciplinar - PAD).
 
 ---
-- **Acompanhamento**: [[Avancos|Avanços e desempenho]]
+- **Acompanhamento**: registro individual de estudos mantido no cofre privado
 *Última atualização: 2026-06-29*

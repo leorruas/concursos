@@ -116,8 +116,8 @@ Verbos acompanhados de preposição fixa (*phrasal verbs* e *prepositional verbs
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** O trecho original está no *Present Continuous* ativo ("is currently examining"). A transposição para a passiva exige o verbo auxiliar *BE* no mesmo tempo e aspecto ("are being") seguido do particípio passado ("examined"). O agente da passiva foi devidamente explicitado ("by the special commission") e a correção gramatical e o foco progressivo foram preservados.
+**Gabarito: Errado**  
+**Comentário:** *Are currently being examined* preserva a forma progressiva na passiva, com concordância correta e agente expresso. Porém, a reescrita elimina a finalidade **to ensure alignment with fiscal responsibility standards**. Assim, a frase proposta é gramatical, mas não conserva integralmente o conteúdo informativo original. Uma transformação fiel manteria a finalidade: *The proposed constitutional amendments are currently being examined by the special commission to ensure alignment with fiscal responsibility standards.*
 
 ---
 

@@ -64,10 +64,10 @@ EXCLUSÃO / DELEÇÃO                              IMPUTAÇÃO DE VALORES
    - *Risco:* Pode introduzir viés de seleção grave se os dados não faltarem de forma puramente aleatória.
 2. **Imputação por Tendência Central (Média versus Mediana):**
    - **Média:** Pode servir como imputação simples em dados quantitativos em certos cenários, mas é sensível a valores extremos e reduz artificialmente a variabilidade; avaliar distribuição, mecanismo de ausência, objetivo e validação dos resultados. Simetria perfeita não é requisito necessário nem garantia de adequação.
-   - **Mediana:** É a medida **robusta** preferida quando a distribuição for assimétrica ou contiver *outliers* expressivos (ex.: remunerações de servidores ou patrimônio declarado).
+   - **Mediana:** É uma medida **robusta** a valores extremos e pode ser preferível à média como imputação simples em dados quantitativos assimétricos. **Não há preferência universal**: o mecanismo de ausência, diferenças entre subgrupos e a finalidade da análise podem exigir modelos de imputação ou procedimentos distintos.
    - **Moda (valor mais frequente):** Alternativa simples para variáveis categóricas, quando a categoria dominante faz sentido e o mecanismo de ausência não introduz viés inaceitável; também pode ser usada para valores discretos. Não é procedimento obrigatório nem exclusivo para dados categóricos.
 3. **Imputação Temporal (*Forward Fill / Backward Fill*):**
-   - Propaga o último valor válido observado para a data seguinte. Muito comum em cotações e indicadores econômicos diários.
+   - *Forward fill* propaga o **último** valor observado para períodos posteriores; *backward fill* utiliza o **próximo** valor observado para preencher períodos anteriores. São escolhas distintas, que podem distorcer séries com mudanças rápidas ou lacunas longas e exigem justificativa do mecanismo de ausência.
 
 ### 3.2. Detecção e Tratamento de Valores Discrepantes (*Outliers*)
 Um *outlier* é uma observação que se desvia substancialmente do padrão geral dos dados.
@@ -86,16 +86,18 @@ Um *outlier* é uma observação que se desvia substancialmente do padrão geral
 
 ## 4. Agregação e granularidade de dados
 
-A **granularidade** (ou grão do dado) refere-se ao **nível de detalhe atômico** com que as informações são representadas no conjunto de dados.
+A **granularidade** (ou grão do dado) refere-se ao **nível de detalhe** representado em cada registro. Na modelagem analítica, convém definir o grão antes de somar ou calcular médias: uma linha por nota fiscal e uma linha por partido/ano respondem a perguntas diferentes.
 
 ```
-GRANULARIDADE GROSSA / MENOS DETALHE
-    [Tabela sintética]        --> Total por partido e ano
-                   ▲ agregação (reduz detalhe)
-    [Tabela intermediária]   --> Total por deputado e mês
-                   ▲ agregação (reduz detalhe)
-    [Tabela atômica]         --> Cada nota fiscal de reembolso (CEAP)
-GRANULARIDADE FINA / MAIS DETALHE
+GRANULARIDADE FINA / MAIOR DETALHE
+    [Tabela atômica]         --> Uma linha por nota fiscal de reembolso (CEAP)
+                    | agregação por deputado e mês (reduz detalhe)
+                    v
+    [Tabela intermediária]   --> Uma linha por deputado e mês
+                    | agregação por partido e ano (reduz detalhe)
+                    v
+    [Tabela sintética]       --> Uma linha por partido e ano
+GRANULARIDADE GROSSA / MENOR DETALHE
 ```
 
 ### 4.1. Funções de Agregação e Agrupamento
@@ -205,3 +207,5 @@ A governança corporativa de dados (conforme o framework *DAMA-DMBOK - Data Mana
 > **Revisão editorial (11/11/2026):** correções dirigidas às ressalvas da auditoria da Câmara, preservando as distinções técnicas e evitando universalizar heurísticas. Questões inéditas ainda não homologadas como questões oficiais da banca.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** Q1–Q6 preservam respostas de leitura dirigida (C, E, E, E, C, E). Item 6 sob ressalva por sobreposição terminológica de dimensões de qualidade; a nomenclatura deve ser ancorada no framework utilizado pelo enunciado.
+
+> **Implementação TI-127/128 (11/11/2026):** o diagrama agora apresenta a agregação na direção correta, da granularidade fina à grossa. Separadas imputação temporal para frente e para trás e escolha condicional de mediana. Questões inéditas anteriores preservadas.

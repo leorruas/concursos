@@ -115,6 +115,22 @@ O [caderno oficial DPDF 548_DPDF_005_01](https://cdn.cebraspe.org.br/concursos/d
 
 **Lição:** ambiente **interno** descreve recursos, capacidades e dinâmicas organizacionais; ambiente **setorial** examina relações externas pertinentes ao setor. Comunicação interna e externa podem produzir efeitos interdependentes, mas um fluxo descendente, ascendente, horizontal ou diagonal não demonstra por si impacto causal ou qualidade da estratégia. O julgamento dos itens 57 e 60 decorre do contexto da prova histórica e não substitui definição autoral das categorias de fluxo.
 
+## Oficina aplicada: o mesmo assunto em quatro direções de fluxo (11/11/2026)
+
+**Situação hipotética:** a Câmara altera uma rotina de atendimento e precisa comunicar a mudança entre equipes, diretorias e unidades responsáveis. **Primeiro, a direção divulga nova orientação aos atendentes**: fluxo **descendente**. **Segundo, os atendentes relatam falhas e propõem ajustes à chefia**: fluxo **ascendente**. **Terceiro, duas equipes do mesmo nível coordenam a atualização dos materiais**: fluxo **horizontal**. **Quarto, uma técnica de atendimento aciona diretamente a chefia de outra unidade para resolver falha interdepartamental**: fluxo **transversal**, na formulação de Curvello, pois cruza unidades e níveis de hierarquia. A troca pode ocorrer por e-mail, reunião, sistema de processo ou mensagem espontânea: **o canal e a formalidade não definem, por si, o sentido do fluxo**.
+
+**Fronteira autoral:** [Curvello (2012, p. 23–24), em reprodução acadêmica publicada pelo Ifes](https://revistas.ifes.edu.br/index.php/ric/pt_BR/article/download/258/232), considera a expansão de tecnologias como e-mail e intranet no surgimento de condições para o fluxo transversal, **sem defini-lo simplesmente como toda mensagem eletrônica**. Sua marca é atravessar fronteiras entre setores e, inclusive, níveis hierárquicos. Algumas classificações de outros autores distinguem fluxos diagonais ou circulares: antes de julgar uma assertiva, identificar a fonte nomeada.
+
+**Item 4, inédito.** Uma comunicação enviada pela diretoria por aplicativo de mensagens aos seus subordinados é, necessariamente, transversal, porque o uso de tecnologia digital descaracteriza o fluxo descendente.
+
+**Gabarito: Errado.** O destinatário subordinado mantém o sentido **descendente**. O meio digital é variável de canal, não a direção hierárquica.
+
+**Item 5, inédito.** A mesma informação pode circular inicialmente de modo ascendente, por sugestão formal de servidores, e depois de modo descendente, por orientação da direção, sem que os dois fluxos sejam contraditórios.
+
+**Gabarito: Certo.** Os fluxos descrevem os deslocamentos em momentos diferentes. A formalização não é requisito exclusivo de um único fluxo.
+
+**Referências:** [Curvello, *Comunicação Interna*](https://www.acaocomunicativa.pro.br/comintnew.pdf) e [reprodução de 2016 em revista acadêmica do Ifes](https://revistas.ifes.edu.br/index.php/ric/pt_BR/article/download/258/232). Exercícios 4–5 são autorais e não foram extraídos da prova DPDF citada na seção anterior. A situação de atendimento é didática.
+
 ## Heurísticas
 
 **Superior para equipe:** descendente. **Equipe para superior:** ascendente. **Pares:** horizontal. **Fronteiras entre áreas e níveis:** transversal ou diagonal segundo a fonte. **Curvello:** quatro fluxos. **Circular:** categoria em outras formulações. **Formalidade, modalidade e canal não determinam o fluxo**.

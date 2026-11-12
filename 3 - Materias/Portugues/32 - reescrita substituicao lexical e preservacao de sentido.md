@@ -164,9 +164,9 @@ Considere o trecho:
 > **Texto de referência:**
 > "Conquanto o debate parlamentar tenha recrudescido nas últimas sessões ordinárias, a Mesa Diretora logrou dirimir os impasses regimentais sem prescindir do diálogo institucional, corroborando a tese de que a estabilidade democrática demanda negociação permanente."
 
-**Item 1.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* A substituição da conjunção **Conquanto** por **Posto que** ou por **Não obstante** manteria a correção gramatical e o sentido concessivo original da primeira oração do texto.
+**Item 1.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* A substituição da conjunção **Conquanto** por **Embora** ou por **Ainda que**, sem alterar a forma verbal **tenha recrudescido**, manteria a correção gramatical e o sentido concessivo original da primeira oração do texto.
 * **Gabarito:** **CERTO**.
-* **Fundamentação:** As três expressões (*Conquanto*, *Posto que* e *Não obstante*) são conectivos subordinativos concessivos legítimos na norma-padrão e regem o verbo no modo subjuntivo (*tenha recrudescido*). Logo, a substituição preserva integralmente a sintaxe e o valor semântico de concessão.
+* **Fundamentação:** As construções **conquanto o debate tenha recrudescido**, **embora o debate tenha recrudescido** e **ainda que o debate tenha recrudescido** mantêm a oração concessiva com o verbo no subjuntivo. Essa troca preserva a oposição argumentativa relevante para o período. A versão revista retira **não obstante tenha**, construção discutida por gramáticos, e deixa de atribuir uma solução controvertida à banca. Trata-se de **item inédito**, não de questão oficial.
 
 **Item 2.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* No contexto em que ocorre, a forma verbal **recrudescido** tem o sentido de **arrefecido** ou **amainado**, podendo ser substituída por qualquer uma dessas formas sem prejuízo da coerência textual.
 * **Gabarito:** **ERRADO**.

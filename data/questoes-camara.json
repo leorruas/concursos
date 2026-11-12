@@ -6105,7 +6105,7 @@
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / LRF",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / LRF",
       "conceptId": "camara-editorial-beneficio-art14a",
       "mechanism": "distinguir-hipoteses-e-fontes",
       "theoryRefs": [
@@ -6121,7 +6121,7 @@
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / execucao",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / execucao",
       "conceptId": "camara-editorial-cancelamento-rp",
       "mechanism": "distinguir-hipoteses-e-fontes",
       "theoryRefs": [
@@ -6137,7 +6137,7 @@
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / LOA",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / LOA",
       "conceptId": "camara-editorial-estatal-controlada",
       "mechanism": "distinguir-hipoteses-e-fontes",
       "theoryRefs": [
@@ -6153,7 +6153,7 @@
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / LOA",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / LOA",
       "conceptId": "camara-editorial-aporte-acionario",
       "mechanism": "distinguir-hipoteses-e-fontes",
       "theoryRefs": [
@@ -6169,7 +6169,7 @@
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / LOA",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / LOA",
       "conceptId": "camara-editorial-garantia-estatal",
       "mechanism": "distinguir-hipoteses-e-fontes",
       "theoryRefs": [
@@ -6185,7 +6185,7 @@
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / emendas",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / emendas",
       "conceptId": "camara-editorial-prazo-comissao-lc210",
       "mechanism": "distinguir-hipoteses-e-fontes",
       "theoryRefs": [
@@ -6201,7 +6201,7 @@
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / emendas",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / emendas",
       "conceptId": "camara-editorial-ata-5-dias-lc210",
       "mechanism": "distinguir-hipoteses-e-fontes",
       "theoryRefs": [
@@ -6409,7 +6409,7 @@
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / PPA LDO LOA",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / PPA LDO LOA",
       "conceptId": "camara-editorial-linha-de-base-mto2027",
       "mechanism": "distinguir-hipoteses-e-fontes",
       "theoryRefs": [
@@ -6425,7 +6425,7 @@
       "examPart": "P2",
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
-      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / elaboração",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / elaboração",
       "conceptId": "camara-editorial-siop-medio-prazo",
       "mechanism": "distinguir-hipoteses-e-fontes",
       "theoryRefs": [
@@ -6435,5 +6435,5 @@
       "correctAnswer": "C",
       "explanation": "O MTO 2027, seção 7.3.3, prevê a apuração de linha de base nesses exercícios, no módulo próprio. A LOA de cada exercício e sua execução seguem requisitos constitucionais e financeiros distintos. MTO 2027, capítulo 7, pp. 174–177."
     }
-]
+  ]
 }

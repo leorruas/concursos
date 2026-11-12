@@ -128,7 +128,7 @@ As provas da Câmara dos Deputados utilizam textos representativos dos gêneros 
 ### Questão 3
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-*Text segment: "FOR IMMEDIATE RELEASE: The Chamber of Deputies has approved a comprehensive statutory framework regulating artificial intelligence in public administration. The bill now proceeds to presidential sanction."*
+*Text segment (exemplo ficcional de comunicado institucional, em sistema bicameral): "FOR IMMEDIATE RELEASE: The Parliament has completed the legislative approval of a bill on artificial intelligence in public administration. The bill has now been sent to the head of state for assent."*
 
 **Item:** Based on its structural conventions and communicative purpose, the text excerpt is characteristic of a press release designed to inform the media and the general public about a recent legislative outcome.
 
@@ -136,7 +136,7 @@ As provas da Câmara dos Deputados utilizam textos representativos dos gêneros 
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** O cabeçalho padronizado "FOR IMMEDIATE RELEASE", a técnica da pirâmide invertida (fato principal e atualidade logo na primeira linha) e o tom informativo direto identificam inequivocamente o gênero *press release* (comunicado de imprensa institucional), amplamente empregado na divulgação institucional da Câmara dos Deputados.
+**Comentário:** O cabeçalho *FOR IMMEDIATE RELEASE*, a apresentação imediata do fato central e o tom informativo caracterizam um *press release* (comunicado para imprensa). O exemplo é **ficcional** e não descreve um ato real da Câmara. O fluxo indicado aplica-se apenas ao cenário jurídico hipotético descrito; a tramitação brasileira exige atenção às duas Casas, às hipóteses de revisão e ao rito aplicável, não permitindo inferir sanção automática após aprovação por uma Casa.
 
 ---
 
@@ -166,7 +166,7 @@ As provas da Câmara dos Deputados utilizam textos representativos dos gêneros 
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** A expressão "Echoing the guidelines established in the OECD Convention..." explicita uma relação intertextual direta e deliberada (*intertextuality*), na qual a comissão parlamentar utiliza as diretrizes de uma convenção internacional multilateral como parâmetro e fundamento de sua proposição legislativa interna.
+**Comentário:** A expressão *Echoing the guidelines established in the OECD Convention...* estabelece uma **relação intertextual explícita** entre o projeto e as diretrizes mencionadas. O texto descreve alinhamento temático, mas não demonstra que a convenção seja fundamento jurídico direto da proposição ou que a comissão tenha deliberado formalmente adotá-la. O C/E se sustenta pela retomada textual e pelo paralelo normativo indicado.
 
 ---
 

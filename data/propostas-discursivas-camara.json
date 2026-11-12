@@ -1,0 +1,258 @@
+{
+  "concursoId": "camara-2026",
+  "cargo": 1,
+  "origin": "autoral-didatica",
+  "status": "propostas-em-revisao",
+  "editalStructure": {
+    "discursiveQuestions": 2,
+    "questionsLines": 20,
+    "questionMaxPoints": 15,
+    "technicalPieces": 1,
+    "technicalLines": 50,
+    "technicalMaxPoints": 30
+  },
+  "notice": "O edital define apenas limites e pontuação total. Tarefas, gêneros, distribuição interna de pontos e critérios são exercícios autorais, não espelho Cebraspe nem previsão de tema.",
+  "privacy": "Não salvar respostas, avaliações ou dados pessoais no repositório público.",
+  "propostas": [
+    {
+      "id": "cam-dis-q01",
+      "tipo": "questao-discursiva",
+      "maxLines": 20,
+      "maxScore": 15,
+      "editalRef": "14.2.4 / Comunicação Social / 7",
+      "topic": "Comunicação pública e limites da promoção pessoal",
+      "command": "Um órgão público pretende divulgar uma campanha sobre um serviço e sua equipe propõe destacar a imagem da autoridade responsável. Diferencie comunicação pública, comunicação governamental e promoção político-partidária, indicando dois critérios práticos para revisar a peça antes da publicação.",
+      "expectedElements": [
+        "Definir finalidade pública",
+        "Diferenciar comunicação governamental e político-partidária",
+        "Aplicar limites da promoção pessoal sem generalizações",
+        "Indicar dois critérios de revisão"
+      ],
+      "notOfficial": true,
+      "reviewStatus": "proposta-para-revisao",
+      "rubric": {
+        "kind": "pedagogica-nao-oficial",
+        "criteria": [
+          {
+            "name": "Precisão conceitual e normativa",
+            "maxPoints": 6
+          },
+          {
+            "name": "Aplicação ao caso e critérios de revisão",
+            "maxPoints": 5
+          },
+          {
+            "name": "Cobertura dos quesitos",
+            "maxPoints": 2
+          },
+          {
+            "name": "Organização e clareza",
+            "maxPoints": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam-dis-q02",
+      "tipo": "questao-discursiva",
+      "maxLines": 20,
+      "maxScore": 15,
+      "editalRef": "14.2.4 / Divulgação Institucional / 3",
+      "topic": "Métricas e inferência",
+      "command": "Uma campanha registrou 1.200 impressões, 140 cliques e 12 inscrições. Explique quais taxas podem ser calculadas e por que os números não demonstram, sozinhos, impacto sobre a população. Proponha uma forma de complementar a avaliação.",
+      "expectedElements": [
+        "140/1200 = 11,67%, taxa por impressão",
+        "12/140 = 8,57%, conversão de cliques",
+        "Não confundir impressões com pessoas únicas ou causalidade",
+        "Pesquisa complementar com ressalvas de amostragem"
+      ],
+      "notOfficial": true,
+      "reviewStatus": "proposta-para-revisao",
+      "rubric": {
+        "kind": "pedagogica-nao-oficial",
+        "criteria": [
+          {
+            "name": "Cálculos e conceitos corretos",
+            "maxPoints": 6
+          },
+          {
+            "name": "Interpretação e limites",
+            "maxPoints": 5
+          },
+          {
+            "name": "Cobertura dos quesitos",
+            "maxPoints": 2
+          },
+          {
+            "name": "Organização e clareza",
+            "maxPoints": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam-dis-q03",
+      "tipo": "questao-discursiva",
+      "maxLines": 20,
+      "maxScore": 15,
+      "editalRef": "14.2.4 / Comunicação Social / 9",
+      "topic": "Ética na IA generativa",
+      "command": "Uma equipe sugere publicar, sem revisão, textos e imagens produzidos por IA generativa para divulgar um serviço público. Analise três riscos distintos e apresente medidas de controle compatíveis com a responsabilidade institucional.",
+      "expectedElements": [
+        "Riscos diferenciados de precisão, viés e direitos",
+        "Checagem factual e revisão humana",
+        "Adequação a público e canal",
+        "Responsabilidade e registro de decisões"
+      ],
+      "notOfficial": true,
+      "reviewStatus": "proposta-para-revisao",
+      "rubric": {
+        "kind": "pedagogica-nao-oficial",
+        "criteria": [
+          {
+            "name": "Riscos e precisão técnica",
+            "maxPoints": 6
+          },
+          {
+            "name": "Controles aplicáveis",
+            "maxPoints": 5
+          },
+          {
+            "name": "Cobertura dos quesitos",
+            "maxPoints": 2
+          },
+          {
+            "name": "Organização e clareza",
+            "maxPoints": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam-dis-q04",
+      "tipo": "questao-discursiva",
+      "maxLines": 20,
+      "maxScore": 15,
+      "editalRef": "14.2.4 / Comunicação Social / 10",
+      "topic": "Linguagem simples e testes",
+      "command": "O portal de uma instituição utiliza linguagem jurídica para orientar um serviço. Diferencie simplificação da linguagem e perda de conteúdo essencial e descreva um teste com usuários que verifique compreensão e conclusão da tarefa.",
+      "expectedElements": [
+        "Preservar requisitos, prazos e exceções",
+        "Estrutura orientada à ação",
+        "Tarefas, participantes e critério de observação",
+        "Distinguir opinião sobre clareza de conclusão"
+      ],
+      "notOfficial": true,
+      "reviewStatus": "proposta-para-revisao",
+      "rubric": {
+        "kind": "pedagogica-nao-oficial",
+        "criteria": [
+          {
+            "name": "Precisão e limites da simplificação",
+            "maxPoints": 6
+          },
+          {
+            "name": "Desenho do teste",
+            "maxPoints": 5
+          },
+          {
+            "name": "Cobertura dos quesitos",
+            "maxPoints": 2
+          },
+          {
+            "name": "Organização e clareza",
+            "maxPoints": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam-dis-pt01",
+      "tipo": "peca-tecnica",
+      "maxLines": 50,
+      "maxScore": 30,
+      "editalRef": "14.2.4 / Divulgação Institucional / 1",
+      "topic": "Briefing para audiência pública",
+      "command": "Uma unidade da Câmara precisa divulgar audiência pública a pessoas com diferentes graus de acesso digital. Redija um briefing para a equipe de comunicação: delimite objetivo, públicos, informações que devem ser confirmadas, entregas, acessibilidade, responsáveis a definir e indicadores de acompanhamento. Não invente orçamento, público ou resultados.",
+      "expectedElements": [
+        "Objeto e finalidade do briefing",
+        "Públicos e barreiras",
+        "Lacunas e fatos confirmados",
+        "Entregas, canais e acessibilidade",
+        "Responsabilidades e marcos a definir",
+        "Indicadores e limites"
+      ],
+      "notOfficial": true,
+      "reviewStatus": "proposta-para-revisao",
+      "rubric": {
+        "kind": "pedagogica-nao-oficial",
+        "criteria": [
+          {
+            "name": "Diagnóstico e informação disponível",
+            "maxPoints": 8
+          },
+          {
+            "name": "Públicos e objetivos",
+            "maxPoints": 6
+          },
+          {
+            "name": "Entregas justificadas",
+            "maxPoints": 8
+          },
+          {
+            "name": "Acompanhamento",
+            "maxPoints": 5
+          },
+          {
+            "name": "Gênero e clareza",
+            "maxPoints": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "cam-dis-pt02",
+      "tipo": "peca-tecnica",
+      "maxLines": 50,
+      "maxScore": 30,
+      "editalRef": "14.2.4 / Comunicação Social / 3",
+      "topic": "Nota técnica de comunicação em crise",
+      "command": "Uma publicação institucional circula fora de contexto, acompanhada de alegações ainda não verificadas. Redija nota técnica à coordenação: separe fatos, hipóteses e informações a confirmar; proponha verificação, critérios de posicionamento, ações nos canais e monitoramento. Não apresente boatos como fatos comprovados.",
+      "expectedElements": [
+        "Separar fatos e hipóteses",
+        "Verificação e responsáveis",
+        "Critérios de posicionamento",
+        "Canais e ações",
+        "Monitoramento sem inferência causal indevida",
+        "Linguagem institucional"
+      ],
+      "notOfficial": true,
+      "reviewStatus": "proposta-para-revisao",
+      "rubric": {
+        "kind": "pedagogica-nao-oficial",
+        "criteria": [
+          {
+            "name": "Diagnóstico e limites da evidência",
+            "maxPoints": 8
+          },
+          {
+            "name": "Públicos e objetivos",
+            "maxPoints": 6
+          },
+          {
+            "name": "Ações e processos",
+            "maxPoints": 8
+          },
+          {
+            "name": "Monitoramento",
+            "maxPoints": 5
+          },
+          {
+            "name": "Gênero e clareza",
+            "maxPoints": 3
+          }
+        ]
+      }
+    }
+  ]
+}

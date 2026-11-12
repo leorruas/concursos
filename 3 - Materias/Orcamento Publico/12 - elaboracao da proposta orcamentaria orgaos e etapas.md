@@ -135,7 +135,7 @@ Explique a elaboração federal pela ordem **diretrizes fiscais e programáticas
 ## Fontes
 
 - [Constituição Federal, arts. 99, 127, 134 e 165 a 169; ADCT, art. 35, § 2º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).
-- [Secretaria de Orçamento Federal, Manual Técnico de Orçamento, 2027, capítulo de elaboração de proposta](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2027%3Amto2027_1a_versao.pdf).
+- [Secretaria de Orçamento Federal, MTO 2027, 3ª versão (07/07/2026), capítulos 6 (elaboração da proposta) e 7 (Orçamentação de Médio Prazo)](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027).
 - [Manual Técnico de Orçamento: atores e responsabilidades de órgão central, setorial e unidades orçamentárias](https://www1.siop.planejamento.gov.br/mto/doku.php/mto%3Acap1).
 - [Ministério do Planejamento e Orçamento: Sistema Integrado de Planejamento e Orçamento](https://www.gov.br/planejamento/pt-br/assuntos/orcamento/sistema-integrado-de-planejamento-e-orcamento-siop).
 - [Câmara dos Deputados: conheça o ciclo orçamentário federal](https://www.camara.leg.br/internet/agencia/infograficos-html5/conheca-o-ciclo-orcamentario-federal/index.html).

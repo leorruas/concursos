@@ -203,7 +203,7 @@ Na frase “O pronunciamento do líder gerou um mal-estar profundo, pois o mero 
 - [ ] Errado
 
 > **Gabarito: ERRADO**  
-> **Comentário**: Determinados adjetivos e pronomes sofrem restrições posicionais severas ou mudam radicalmente de sentido quando deslocados. O adjetivo *mero*, com o sentido de *simples, puro, exclusivo*, exige colocação **anteposta** ao substantivo (*mero adiamento, mera formalidade*). Sua posposição (*adiamento mero*) produz construção inaceitável na norma culta contemporânea.
+> **Comentário**: Determinados adjetivos e pronomes sofrem restrições posicionais severas ou mudam radicalmente de sentido quando deslocados. O adjetivo *mero*, no sentido de *simples, apenas*, costuma anteceder o substantivo nas combinações formais *mero adiamento* e *mera formalidade*. A posposição *adiamento mero* é pouco natural nesse contexto e **não constitui substituição equivalente**; por isso a afirmação de preservação simultânea da correção e do sentido, feita no item, é ERRADA. Evita-se transformar uma tendência de posição lexical em proibição universal sem fonte.
 
 ---
 
@@ -215,7 +215,7 @@ No período “A secretaria parlamentar remeteu anexas ao ofício as notas técn
 - [ ] Errado
 
 > **Gabarito: CERTO**  
-> **Comentário**: Na norma culta, a palavra **anexo** (assim como *incluso* e *apenso*), quando não precedida de preposição, é um **adjetivo** (com função sintática de **predicativo do objeto direto** *as notas técnicas* na construção causativa/predicativa, conforme a análise do verbo *remeter*; distingue-se da construção *"As notas técnicas seguem anexas"*, em que *anexas* é **predicativo do sujeito**), devendo concordar obrigatoriamente em gênero e número com o substantivo a que se refere (*anexas as notas*).
+> **Comentário**: Na norma culta, a palavra **anexo** (assim como *incluso* e *apenso*), quando não precedida de preposição, é um **adjetivo** (referido ao objeto direto *as notas técnicas* no período; a classificação funcional fina depende da análise sintática adotada para o predicativo e do vínculo com *ao ofício*. Compare com *"As notas técnicas seguem anexas"*, em que *anexas* caracteriza o sujeito), devendo concordar obrigatoriamente em gênero e número com o substantivo a que se refere (*anexas as notas*).
 
 ---
 

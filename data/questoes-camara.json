@@ -21518,6 +21518,122 @@
       "statement": "Um portal pode facilitar a localização de uma informação e ainda descumprir o requisito de atualização se apresentar como vigente um registro superado.",
       "correctAnswer": "C",
       "explanation": "Pesquisa e atualização são requisitos distintos. Encontrar o registro não demonstra que ele reflita o estado atual."
+    },
+    {
+      "id": "cam-cs-reproducao-supervisionada-sem-copia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "reproducao-supervisionada-sem-copia",
+      "mechanism": "reproducao-supervisionada-sem-copia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 13, parágrafo único"
+      },
+      "statement": "Se é impossível obter cópia de um documento cujo manuseio pode danificá-lo, o interessado pode solicitar, a suas expensas, reprodução por outro meio seguro e sob supervisão de servidor.",
+      "correctAnswer": "C",
+      "explanation": "A lei prevê essa alternativa quando não é possível obter cópia. O método de reprodução deve preservar o original."
+    },
+    {
+      "id": "cam-cs-isencao-no-ressarcimento-de-copias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "isencao-no-ressarcimento-de-copias",
+      "mechanism": "isencao-no-ressarcimento-de-copias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 12, § 2º"
+      },
+      "statement": "O órgão deve exigir o ressarcimento da reprodução mesmo de quem declara, nos termos legais, que pagar prejudicaria o sustento da família.",
+      "correctAnswer": "E",
+      "explanation": "A situação econômica declarada nos termos da lei dá direito à isenção do ressarcimento previsto para a reprodução."
+    },
+    {
+      "id": "cam-cs-recurso-a-autoridade-superior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "recurso-a-autoridade-superior",
+      "mechanism": "recurso-a-autoridade-superior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 15, parágrafo único"
+      },
+      "statement": "O recurso contra negativa de acesso deve ser dirigido à mesma autoridade que negou o pedido, ainda que ela tenha superior hierárquico.",
+      "correctAnswer": "E",
+      "explanation": "A lei dirige o recurso à autoridade hierarquicamente superior à que proferiu a decisão impugnada."
+    },
+    {
+      "id": "cam-cs-ciencia-de-recurso-em-negativa-parcial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "ciencia-de-recurso-em-negativa-parcial",
+      "mechanism": "ciencia-de-recurso-em-negativa-parcial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 11, § 4º"
+      },
+      "statement": "Quando o órgão entrega apenas a parte pública do documento e recusa outra por sigilo, deve informar a possibilidade de recurso e indicar a autoridade competente.",
+      "correctAnswer": "C",
+      "explanation": "A obrigação de orientar sobre o recurso também se aplica à recusa parcial por sigilo."
     }
   ]
 }

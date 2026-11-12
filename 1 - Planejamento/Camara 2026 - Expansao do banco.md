@@ -20,3 +20,7 @@ O lote 002 cobre o item 2 de Divulgação Institucional. Foram registradas 10 qu
 ## Lote 003 validado
 
 Quarenta questões geradas para o item 3 de Divulgação Institucional, com referências aos artigos 102 a 108. Gabaritos e mecanismos revisados nos artigos 102 a 108. A triagem lexical a 0,22 não sinalizou pares. A seleção pelo item 3 retornou os 40 itens. Próximo lote: marca e branding, item 4 do edital.
+
+## Lote 004 em elaboração
+
+Oito questões geradas sobre marca e branding, item 4 de Divulgação Institucional, com referências aos artigos 109 a 111. Ampliar a cobertura de arquitetura, valor de marca, portfólio e casos de integração antes da revisão.

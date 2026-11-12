@@ -9796,6 +9796,222 @@
       "correctAnswer": "E",
       "explanation": "O efeito incremental é a diferença em relação ao que ocorreria sem a campanha. O total bruto inclui resultados que poderiam ocorrer independentemente dela.",
       "reviewEvidence": "Cotejo editorial com Atribuição, contribuição e efeito incremental em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
+    },
+    {
+      "id": "cam-di-consistencia-por-regras-de-aplicacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "consistencia-por-regras-de-aplicacao",
+      "mechanism": "consistencia-por-regras-de-aplicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Identidade visual como sistema, não peça isolada"
+      },
+      "statement": "Uma instituição pode manter a identidade visual ao adotar assinaturas horizontais e verticais para suportes distintos, desde que ambas sigam as regras do sistema.",
+      "correctAnswer": "C",
+      "explanation": "A identidade visual admite versões previstas para diferentes condições de aplicação. A coerência vem das relações e regras compartilhadas."
+    },
+    {
+      "id": "cam-di-mudanca-de-sinal-sem-mudanca-de-percepcao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "mudanca-de-sinal-sem-mudanca-de-percepcao",
+      "mechanism": "mudanca-de-sinal-sem-mudanca-de-percepcao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Seis objetos distintos: evitar troca de categoria"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Seis objetos distintos: evitar troca de categoria"
+      },
+      "statement": "Trocar o símbolo exibido no portal altera automaticamente a imagem que os cidadãos têm da instituição.",
+      "correctAnswer": "E",
+      "explanation": "A troca muda um elemento da identidade visual. Para concluir que a imagem mudou, é preciso examinar a percepção do público."
+    },
+    {
+      "id": "cam-di-assinatura-reconhecida-mensagem-inacessivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "assinatura-reconhecida-mensagem-inacessivel",
+      "mechanism": "assinatura-reconhecida-mensagem-inacessivel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Acessibilidade: marca reconhecível e mensagem utilizável"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Acessibilidade: marca reconhecível e mensagem utilizável"
+      },
+      "statement": "Uma peça pode preservar o reconhecimento da marca e ainda falhar em acessibilidade se o prazo de inscrição só puder ser lido em uma imagem sem alternativa textual.",
+      "correctAnswer": "C",
+      "explanation": "Reconhecer a assinatura e recuperar a informação operacional são tarefas diferentes. A conformidade do símbolo não garante acesso ao prazo."
+    },
+    {
+      "id": "cam-di-notoriedade-e-qualidade-percebida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "notoriedade-e-qualidade-percebida",
+      "mechanism": "notoriedade-e-qualidade-percebida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Aaker: dimensões do valor de marca e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Aaker: dimensões do valor de marca e suas fronteiras"
+      },
+      "statement": "Se mais pessoas passam a reconhecer o nome de um serviço, o aumento de notoriedade demonstra que elas também passaram a avaliá-lo como superior às alternativas.",
+      "correctAnswer": "E",
+      "explanation": "Reconhecimento e qualidade percebida são dimensões distintas. Uma marca pode se tornar mais conhecida sem que mude a avaliação de sua qualidade."
+    },
+    {
+      "id": "cam-di-resposta-diferencial-com-oferta-identica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "resposta-diferencial-com-oferta-identica",
+      "mechanism": "resposta-diferencial-com-oferta-identica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Keller: modelo de valor de marca baseado no consumidor"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Keller: modelo de valor de marca baseado no consumidor"
+      },
+      "statement": "Se participantes distribuídos aleatoriamente avaliam a mesma oferta de maneira diferente quando ela é apresentada com uma marca conhecida ou sem marca, a diferença é compatível com o efeito do conhecimento da marca sobre a resposta.",
+      "correctAnswer": "C",
+      "explanation": "O desenho mantém a oferta e varia a identificação. No modelo de Keller, a resposta diferencial à oferta é central para o valor de marca baseado no consumidor."
+    },
+    {
+      "id": "cam-di-recuperacao-e-coerencia-da-promessa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "recuperacao-e-coerencia-da-promessa",
+      "mechanism": "recuperacao-e-coerencia-da-promessa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Promessa, entrega e recuperação de serviço"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Promessa, entrega e recuperação de serviço"
+      },
+      "statement": "Uma marca promete resposta em 24 horas. Se o atendimento demora uma semana de forma recorrente, repetir a promessa com mais intensidade resolve a incoerência entre posicionamento e experiência.",
+      "correctAnswer": "E",
+      "explanation": "A incoerência está no desempenho do serviço. Corrigi-la exige atuar sobre a entrega ou ajustar a promessa a uma condição realizável."
+    },
+    {
+      "id": "cam-di-governanca-com-responsabilidades",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "governanca-com-responsabilidades",
+      "mechanism": "governanca-com-responsabilidades",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Estrutura de governança: decidir, executar e verificar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Estrutura de governança: decidir, executar e verificar"
+      },
+      "statement": "Definir quem pode aprovar exceções e quem monitora seu uso faz parte da governança de marca.",
+      "correctAnswer": "C",
+      "explanation": "A governança distribui competências de decisão, execução e verificação. O manual pode apoiar esse processo, mas não substitui a atribuição de responsabilidades."
+    },
+    {
+      "id": "cam-di-conformidade-sem-reconhecimento-da-origem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "conformidade-sem-reconhecimento-da-origem",
+      "mechanism": "conformidade-sem-reconhecimento-da-origem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Auditoria de marca: conformidade, experiência e percepção"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Auditoria de marca: conformidade, experiência e percepção"
+      },
+      "statement": "Uma auditoria confirma que todas as peças seguem o manual visual, mas um teste mostra que os usuários não sabem qual órgão oferece o serviço. A conformidade visual resolve, por si, a dúvida sobre a origem.",
+      "correctAnswer": "E",
+      "explanation": "A auditoria e o teste medem resultados distintos. A dúvida observada exige examinar a clareza da assinatura e sua interpretação pelos usuários."
     }
   ]
 }

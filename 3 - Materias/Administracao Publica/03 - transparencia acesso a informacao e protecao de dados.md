@@ -78,6 +78,30 @@ Surge quando o interessado apresenta pedido de acesso. O termo “passiva” nã
 
 O pedido deve identificar o requerente e especificar a informação pretendida, mas a Administração **não pode exigir os motivos determinantes da solicitação de informação de interesse público**.
 
+## Transparência ativa como governança: aplicação institucional da Câmara (CAM-AP-009)
+
+**Questão de governança:** colocar uma planilha no portal resolve a obrigação de publicar? A **LAI, art. 8º**, exige divulgação espontânea de informações de interesse coletivo ou geral e determina requisitos de acesso em sítio oficial. A direção da organização precisa estabelecer responsabilidades por divulgação, atualização e integridade, enquanto a gestão executa os processos. A mensuração da qualidade do acesso deve observar tanto conformidade normativa quanto utilidade ao público.
+
+**Dever de divulgação × qualidade de acesso:** a disponibilização de despesas ou contratos é um **produto**. Encontrar, compreender e reutilizar esses dados são condições que podem favorecer **resultados** de transparência e controle social. Mais arquivos publicados não comprovam, isoladamente, que o cidadão consiga fiscalizar melhor. Métricas possíveis: percentual de conteúdos obrigatórios atualizados, tempo até a atualização, disponibilidade de formatos legíveis por máquina, sucesso em tarefas de busca, acessibilidade e correção de informações publicadas. As métricas são **exemplos de avaliação**, não exigências numéricas criadas pela LAI.
+
+**Requisitos expressos no art. 8º, § 3º, da LAI:** ferramenta de pesquisa clara e objetiva; relatórios graváveis em formatos diversos, inclusive abertos e não proprietários; acesso automatizado em formatos abertos, estruturados e legíveis por máquina; descrição dos formatos; autenticidade e integridade; atualização; contato com o órgão e acessibilidade para pessoas com deficiência. **Integridade não é simples atualização:** um documento pode ser recente e estar incompleto ou alterado sem autorização.
+
+**Regra institucional própria da Câmara:** o **Ato da Mesa nº 45/2012, em texto atualizado**, disciplina a aplicação da LAI na Câmara dos Deputados. Seu art. 3º determina assegurar gestão transparente, proteção da disponibilidade, autenticidade e integridade da informação, e proteção de informações sigilosas e pessoais. O art. 1º deixa claro o recorte institucional. Assim, a aplicação da **LAI e do Ato da Mesa 45** à Câmara tem base normativa direta, diferentemente de presumir incidência automática do Decreto federal 9.203/2017, cujo âmbito é o Executivo.
+
+**Caso progressivo:** (1) a Câmara divulga dados gerais de despesa: cumprimento de um dever de divulgação, a depender do conteúdo efetivo; (2) disponibiliza tabela legível em imagem, mas não permite pesquisa ou extração: a transparência pode ser insuficiente diante dos requisitos legais aplicáveis; (3) acrescenta pesquisa, formato aberto, descrição de campos e histórico de atualização: melhora as condições de acesso; (4) identifica dados pessoais cuja divulgação é restrita: examina fundamento jurídico e oferece acesso à parte não sigilosa quando cabível; (5) analisa se públicos conseguem compreender os dados e corrigir erros: mede resultados, não apenas volume de publicação. **Contraexemplo:** ocultar toda uma planilha de contratos porque uma célula contém dado pessoal que admite segregação. Deve-se avaliar o acesso parcial previsto em lei.
+
+**Questões inéditas C/E:**
+
+**1.** A transparência ativa decorre da publicação de informações de interesse coletivo ou geral independentemente de pedido, sem afastar a necessidade de observar sigilos legalmente protegidos. **Gabarito: Certo.** O dever de divulgação coexiste com restrições legais específicas.
+
+**2.** Segundo o art. 8º da LAI, basta publicar qualquer arquivo em página eletrônica, pois a norma não exige pesquisa, atualização, autenticidade ou acessibilidade. **Gabarito: Errado.** O § 3º estabelece requisitos concretos para os sítios oficiais.
+
+**3.** O Ato da Mesa nº 45/2012 disciplina a aplicação da LAI à Câmara e exige que seus órgãos protejam informação sigilosa e pessoal sem abandonar a gestão transparente. **Gabarito: Certo.** Arts. 1º e 3º do ato.
+
+**4.** Como a Câmara integra a União, o art. 1º do Decreto 9.203/2017 converte automaticamente esse decreto no regulamento próprio de governança da Casa. **Gabarito: Errado.** O âmbito do decreto é a administração direta, autárquica e fundacional do Poder Executivo federal.
+
+Exercícios **autorais**, sem atribuição à Cebraspe. **Fontes oficiais:** [LAI, art. 8º](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm); [Ato da Mesa 45/2012, versão atualizada](https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html); [orientação oficial sobre sítios e LAI](https://www.gov.br/acessoainformacao/pt-br/lai-para-sic/transparencia-ativa/copy_of_guia-de-transparencia-ativa/textos-complementares/requisitos-sitios-oficiais-do-governo-federal). Relações: [[3 - Materias/Administracao Publica/02 - governanca publica|Governança pública]] e [[3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada|Coprodução]].
+
 ## Prazo para resposta
 
 Se a informação estiver disponível, o acesso deve ser autorizado ou concedido **imediatamente**.

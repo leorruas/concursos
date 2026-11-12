@@ -495,3 +495,25 @@ A página seguinte do caderno `101_IRBRCACDOBJ_002_01` foi conferida visualmente
 **Marco de transição:** o status documental da auditoria é **“Fase 1: diagnóstico fechado, reparos pendentes”**. A Fase 2 terá de corrigir erros conceituais, rever os cinco S, melhorar os 14 R e verificar outros exemplos em contexto, sem apagar a trilha do diagnóstico. **Não iniciar edição de artigos, bancos de itens, gabaritos, identificadores, hubs ou catálogo nesta fase.** A política de concorrência requer ler SHA recente antes de qualquer atualização futura.
 
 **Total histórico de registros `ING-001–ING-063`** permanece contagem de observações e propostas, não de erros comprovados. **Únicos arquivos alterados na presente etapa:** este relatório e sua entrada de estado no índice geral, após atualização segura. Nenhuma fonte de aprendizagem foi reescrita.
+
+
+## 20. Implementação editorial autorizada: lotes de 11/11/2026
+
+**Escopo:** apenas `3 - Materias/Ingles/`. A autorização posterior à Fase 1 permite correções e expansão nesta matéria, sem modificar diagnósticos de outras frentes. Os commits são individuais para minimizar conflitos com agentes simultâneos. Exercícios continuam **inéditos**, não oficiais Cebraspe.
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| 06 | ING-001, inversão com `only if` anteposto | Exemplo corrigido, explicação de condição necessária e inversão | `d6b75785990d2c2d0d2e99a8dfbd52fb4d86cabf` | Arquivo recuperado e SHA conferido | corrigido |
+| 08 | ING-044 e inferências abusivas; verbo `pauted`; pressuposição factiva | Gabarito item 1 C→E com justificativa textual; exemplo lexical e qualificação epistêmica | `3e129ef2820427bf5f3269e3d11025b86c459046` | Releitura/SHA após escrita | corrigido |
+| 09 | ING-046, antecedente de `which` | Nota sobre relativa nominal versus proposicional e exemplos contrastivos | `dff71820d893ace744d3ea1f77d37e7a820ed725` | Releitura/SHA após escrita | corrigido |
+| 10 | ING-052/053, conectivos | `inasmuch as` retirado da concessão; `yet` distinguido como conjunção | `64f61eeaab9be90c3c4c0a346f368b6ad5978331` | Conteúdo presente em releitura; SHA posterior divergente por gravação concorrente | corrigido |
+| 12 | ING-049, escopo da proibição | Exemplo com `under no circumstances may`, sem troca indevida de escopo | `b05f5a15251f16c8108541dd200f364ed7abe74b` | Releitura/SHA após escrita | corrigido |
+| 13 | ING-044, backshift obrigatório e aspecto simples | Regra contextualizada; item 4 C→E | `74248c40deaf75cc6146acfb0b4c849a22e885fa` | Releitura/SHA após escrita | corrigido |
+| 14 | ING-059, finalidade omitida na passiva | Item 1 C→E e reescrita passiva completa | `2e9ed0a4b8f9a80ee37b650be0f5b5ddc7c04713` | Releitura/SHA após escrita | corrigido |
+| 15 | ING-030, percentuais fictícios e `shall` generalizado | Retirados percentuais de modais; variação jurídica de `shall` | `2861d3ce064e8b037b7d39d61812ce261bdb381e`, `d222c2a582cdf90403fc2448ad397093333ec739` | Releitura/SHA em ambos os commits | corrigido |
+| 16 | ING-031 e ING-044; escalas arbitrárias e conclusões indevidas | Retirada da escala percentual, nuance lógica universal/existencial; itens 2 e 3 C→E | `d989fff545efdd9e7f7f6d0c0d0a15a4d642065e`, `d2aa7a0fe49d2421739025553855a92d7a45b355` | Releitura/SHA em ambos | corrigido |
+| 18 | ING-050, atribuição e transferência entre gêneros | Ajustes em verbos de relato e exercício autoral com três textos ficcionais e quatro itens C/E comentados | `05355f79014721deaef3fea9982c26fb7a29b3f0` | Releitura/SHA e marcadores dos itens presentes | corrigido |
+
+**Limites da validação:** conferência remota de gravação e texto, sem execução local dos scripts; a publicação no GitHub Pages e o conjunto completo de validações editoriais dependem dos workflows. Nenhuma matéria externa, índice global ou catálogo foi modificada.
+
+**Próximos passos:** revisar `11` (act/bill e diferenças UK/US), `07` (afirmações de frequência sem corpus), `17` (preservação de estrutura gramatical na paráfrase) e os 14 itens classificados R no diagnóstico. Ampliar leitura transferível em gêneros não institucionais, verificar fontes e confirmar workflow Pages concluído. A matéria **ainda não está integralmente validada**.

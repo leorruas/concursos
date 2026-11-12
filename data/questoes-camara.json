@@ -7684,7 +7684,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-83c4a6e90b127f5d#Identidade, imagem, reputação e legitimidade"
       ],
@@ -7694,7 +7694,8 @@
       },
       "statement": "Uma pesquisa realizada logo após um evento e voltada à percepção dos visitantes naquele dia basta para medir a reputação acumulada da instituição ao longo dos anos.",
       "correctAnswer": "E",
-      "explanation": "A medida pontual descreve a imagem entre os entrevistados naquele momento. Avaliar reputação acumulada exige evidência sobre percepções formadas ao longo do tempo."
+      "explanation": "A medida pontual descreve a imagem entre os entrevistados naquele momento. Avaliar reputação acumulada exige evidência sobre percepções formadas ao longo do tempo.",
+      "reviewEvidence": "Cotejo editorial com Identidade, imagem, reputação e legitimidade do artigo 97, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-uso-e-valor-publico",
@@ -7711,7 +7712,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-83c4a6e90b127f5d#Direito à informação, transparência e valor público"
       ],
@@ -7721,7 +7722,8 @@
       },
       "statement": "Se dois canais publicam os mesmos relatórios e o segundo oferece busca que ajuda os cidadãos a localizar informações relevantes, o segundo pode gerar valor público adicional mesmo sem aumentar o número de relatórios publicados.",
       "correctAnswer": "C",
-      "explanation": "A disponibilidade documental permanece igual, mas a redução do esforço para localizar e utilizar a informação pode melhorar o acesso efetivo."
+      "explanation": "A disponibilidade documental permanece igual, mas a redução do esforço para localizar e utilizar a informação pode melhorar o acesso efetivo.",
+      "reviewEvidence": "Cotejo editorial com Direito à informação, transparência e valor público do artigo 97, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-comunicado-interno-isolado",
@@ -7738,7 +7740,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Fronteiras entre conceitos"
       ],
@@ -7748,7 +7750,8 @@
       },
       "statement": "O envio isolado de um aviso interno sobre manutenção predial demonstra, por si, a existência de um programa de endomarketing.",
       "correctAnswer": "E",
-      "explanation": "O aviso cumpre uma função informativa. A existência de programa exigiria evidência de ações articuladas com objetivos voltados ao público interno."
+      "explanation": "O aviso cumpre uma função informativa. A existência de programa exigiria evidência de ações articuladas com objetivos voltados ao público interno.",
+      "reviewEvidence": "Cotejo editorial com Fronteiras entre conceitos do artigo 98, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-coerencia-entre-incentivos-e-mensagem",
@@ -7765,7 +7768,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Comunicação e cultura"
       ],
@@ -7775,7 +7778,8 @@
       },
       "statement": "Uma campanha interna que incentiva a cooperação entre áreas pode perder credibilidade se a avaliação dos empregados premiar apenas resultados individuais obtidos em competição com colegas.",
       "correctAnswer": "C",
-      "explanation": "Mensagens e incentivos passam sinais divergentes sobre a conduta esperada. A adesão depende também de práticas de gestão percebidas pelos empregados."
+      "explanation": "Mensagens e incentivos passam sinais divergentes sobre a conduta esperada. A adesão depende também de práticas de gestão percebidas pelos empregados.",
+      "reviewEvidence": "Cotejo editorial com Comunicação e cultura do artigo 98, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-influencia-sem-autoridade-de-compra",
@@ -7792,7 +7796,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-b7e30f4c9a261d85#Centro de compras e papéis decisórios"
       ],
@@ -7802,7 +7806,8 @@
       },
       "statement": "Quem define os requisitos técnicos de um equipamento pode atuar como influenciador da compra organizacional mesmo sem autoridade para aprovar a aquisição.",
       "correctAnswer": "C",
-      "explanation": "Definir requisitos afeta as alternativas consideradas. A aprovação pode permanecer com outro integrante do centro de compras."
+      "explanation": "Definir requisitos afeta as alternativas consideradas. A aprovação pode permanecer com outro integrante do centro de compras.",
+      "reviewEvidence": "Cotejo editorial com Centro de compras e papéis decisórios do artigo 99, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-demanda-e-capacidade-de-atendimento",
@@ -8175,7 +8180,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-83c4a6e90b127f5d#Identidade, imagem, reputação e legitimidade"
       ],
@@ -8185,7 +8190,8 @@
       },
       "statement": "Imagens diferentes de uma instituição podem coexistir entre pessoas que usam serviços distintos prestados por ela.",
       "correctAnswer": "C",
-      "explanation": "Imagem descreve percepções de públicos. Experiências diferentes podem produzir avaliações distintas da mesma organização."
+      "explanation": "Imagem descreve percepções de públicos. Experiências diferentes podem produzir avaliações distintas da mesma organização.",
+      "reviewEvidence": "Cotejo editorial com Identidade, imagem, reputação e legitimidade do artigo 97, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-valor-e-distribuicao",
@@ -8202,7 +8208,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-83c4a6e90b127f5d#Direito à informação, transparência e valor público"
       ],
@@ -8212,7 +8218,8 @@
       },
       "statement": "Uma reformulação do portal aumenta o número total de consultas, mas impede um grupo de localizar informações de que precisa. O crescimento agregado basta para concluir que o valor público do serviço aumentou para todos.",
       "correctAnswer": "E",
-      "explanation": "O indicador agregado esconde a distribuição dos benefícios. A barreira identificada contradiz uma conclusão de melhora universal."
+      "explanation": "O indicador agregado esconde a distribuição dos benefícios. A barreira identificada contradiz uma conclusão de melhora universal.",
+      "reviewEvidence": "Cotejo editorial com Direito à informação, transparência e valor público do artigo 97, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-objetivo-de-publico-interno",
@@ -8229,7 +8236,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Fronteiras entre conceitos"
       ],
@@ -8239,7 +8246,8 @@
       },
       "statement": "Um programa de endomarketing tem o público interno como destinatário direto de suas ações.",
       "correctAnswer": "C",
-      "explanation": "O programa organiza ações para quem atua na instituição e pode contribuir indiretamente para a experiência externa."
+      "explanation": "O programa organiza ações para quem atua na instituição e pode contribuir indiretamente para a experiência externa.",
+      "reviewEvidence": "Cotejo editorial com Fronteiras entre conceitos do artigo 98, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-avaliacao-de-intervencao-interna",
@@ -8256,7 +8264,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Comunicação e cultura"
       ],
@@ -8266,7 +8274,8 @@
       },
       "statement": "Uma ação interna pretende reduzir retrabalho entre setores. A taxa de abertura do boletim comprova que o retrabalho caiu, desde que a mensagem tenha sido distribuída a todos os setores.",
       "correctAnswer": "E",
-      "explanation": "A abertura informa exposição ao boletim. O resultado pretendido exige comparar ocorrências de retrabalho sob critérios consistentes."
+      "explanation": "A abertura informa exposição ao boletim. O resultado pretendido exige comparar ocorrências de retrabalho sob critérios consistentes.",
+      "reviewEvidence": "Cotejo editorial com Comunicação e cultura do artigo 98, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-papeis-acumulados",
@@ -8283,7 +8292,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-b7e30f4c9a261d85#Centro de compras e papéis decisórios"
       ],
@@ -8293,7 +8302,8 @@
       },
       "statement": "Uma pessoa que usa um software e recomenda critérios para sua substituição pode acumular papéis de usuária e influenciadora na mesma compra organizacional.",
       "correctAnswer": "C",
-      "explanation": "Os papéis descrevem funções desempenhadas. Uma pessoa pode atuar em mais de uma função."
+      "explanation": "Os papéis descrevem funções desempenhadas. Uma pessoa pode atuar em mais de uma função.",
+      "reviewEvidence": "Cotejo editorial com Centro de compras e papéis decisórios do artigo 99, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-atratividade-e-restricao-operacional",
@@ -8310,7 +8320,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-b7e30f4c9a261d85#Atratividade versus capacidade de atender"
       ],
@@ -8320,7 +8330,8 @@
       },
       "statement": "Um segmento tem 900 pedidos previstos, dos quais 200 cabem no prazo com a capacidade atual. Outro tem 500 pedidos, dos quais 450 cabem no mesmo prazo. Se a meta imediata é maximizar pedidos atendidos no prazo e só é possível escolher um segmento, a segunda opção atende melhor à meta.",
       "correctAnswer": "C",
-      "explanation": "O objetivo usa atendimento realizável no prazo. A segunda opção entrega 450, contra 200 da primeira, mesmo com demanda bruta menor."
+      "explanation": "O objetivo usa atendimento realizável no prazo. A segunda opção entrega 450, contra 200 da primeira, mesmo com demanda bruta menor.",
+      "reviewEvidence": "Cotejo editorial com Atratividade versus capacidade de atender do artigo 99, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-alcance-espontaneo-de-terceiros",
@@ -8604,12 +8615,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 2 / segmentação",
       "articleId": "art-b7e30f4c9a261d85",
-      "conceptId": "situacao-de-recompra-modificada",
-      "mechanism": "situacao-de-recompra-modificada",
+      "conceptId": "nova-tarefa-sem-novo-fornecedor",
+      "mechanism": "separar-historico-da-categoria-e-fornecedor",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-b7e30f4c9a261d85#Três situações de compra organizacional"
       ],
@@ -8617,9 +8628,10 @@
         "path": "3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao.md",
         "section": "Três situações de compra organizacional"
       },
-      "statement": "Uma empresa que volta a adquirir um insumo conhecido, mas reabre a escolha de fornecedor para atender a uma especificação alterada, pode estar diante de recompra modificada.",
+      "statement": "Uma organização compra licenças de software de um fornecedor habitual. Ao contratar pela primeira vez um serviço de tradução, ela pode classificar a aquisição como nova tarefa de compra mesmo que escolha o mesmo fornecedor.",
       "correctAnswer": "C",
-      "explanation": "A categoria já integra as compras da empresa, mas a decisão exige reconsiderar uma condição importante. A recompra direta manteria a rotina sem reavaliação relevante."
+      "explanation": "O histórico relevante é o da solução adquirida. A experiência com o fornecedor em outra categoria não torna a tradução uma recompra.",
+      "reviewEvidence": "Cotejo editorial com Três situações de compra organizacional do artigo 99, considerando as distinções conceituais e os exercícios da nota."
     },
     {
       "id": "cam-di-custo-de-busca-e-criterio-eliminatorio",

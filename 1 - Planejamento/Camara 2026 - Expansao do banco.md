@@ -148,3 +148,7 @@ Quarenta questões P1 de leitura instrumental, compreensão, inferência, escopo
 ## Lote 025: Direito Constitucional, 40 itens validados
 
 Quarenta questões P1 sobre princípios fundamentais, direitos e garantias, direitos sociais, nacionalidade, direitos políticos, organização federal, Congresso Nacional, espécies legislativas e CPI, ligadas a dez artigos canônicos de Direito Constitucional. Conferência do texto atualizado da Constituição Federal pela Câmara dos Deputados, inclusive EC nº 131/2023 sobre nacionalidade. 20 gabaritos Certo/20 Errado, sem duplicações textuais ou pares de similaridade lexical ≥0,35 na triagem. Dificuldade estimada, não calibrada. A integração depende de aprovação dos testes do CI. Total projetado após o merge: **1.000/2.000** novos itens validados.
+
+### Lote 025 — Direito Constitucional
+
+O PR #35 integrou 40 itens após auditoria de referências e validação do banco. A `main` passou a conter **1.000 de 2.000 itens de expansão validados**, com evidência de revisão, além dos 389 itens históricos de `pilotoDidatico`. A retomada deve partir da matriz de expansão vigente e conferir novamente a contagem e os PRs pendentes antes de preparar o lote seguinte.

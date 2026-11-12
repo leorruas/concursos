@@ -154,3 +154,8 @@ O art. 2º estabelece Poderes **independentes e harmônicos entre si**. Independ
 **Ressalva pedagógica:** **zero questões C/E e zero casos progressivos** no DC07 original. A revisão normativa não criou exercícios, simulou resultados nem modificou gabaritos inexistentes. Cobertura pedagógica deste artigo permanece aberta, exigindo planejamento próprio.
 
 **Limites:** certificação jurídico-editorial deste recorte, sem exame exaustivo da legislação infraconstitucional de crimes de responsabilidade, jurisprudência penal da Presidência, rendimento do estudante, renderização ou publicação do GitHub Pages.
+
+
+## Atualização pedagógica: implementação de exercícios
+
+**Estado após os reparos desta rodada (11/11/2026):** a ressalva histórica de **zero exercícios** referia-se à versão anterior à implementação. Foram adicionados **três itens C/E inéditos comentados** e um caso progressivo ao artigo, sem suprimir o texto da certificação normativa anterior. Os itens são autorais e não representam questões oficiais ou respostas do estudante. A conferência é dirigida aos fundamentos constitucionais citados, sem declaração de homologação exaustiva do artigo ou de publicação visual.

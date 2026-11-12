@@ -23068,6 +23068,222 @@
       "statement": "A entrega do parecer do relator autoriza apresentar sua recomendação como posição da comissão antes da deliberação colegiada, desde que o parecer esteja disponível para consulta.",
       "correctAnswer": "E",
       "explanation": "A entrega do parecer documenta a recomendação da relatoria. A posição da comissão depende da deliberação do colegiado."
+    },
+    {
+      "id": "cam-cs-categorias-prazo-e-meta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "categorias-prazo-e-meta",
+      "mechanism": "categorias-prazo-e-meta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#4. Sete categorias de informação em comunicação pública"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "4. Sete categorias de informação em comunicação pública"
+      },
+      "statement": "Em um comunicado sobre emissão de carteiras, o prazo para o cidadão apresentar documentos e a meta interna de reduzir o tempo médio de atendimento cumprem, respectivamente, funções de utilidade pública e de informação de gestão.",
+      "correctAnswer": "C",
+      "explanation": "O primeiro dado orienta uma ação do usuário. O segundo informa uma meta de execução do serviço."
+    },
+    {
+      "id": "cam-cs-categorias-organograma-e-despesa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "categorias-organograma-e-despesa",
+      "mechanism": "categorias-organograma-e-despesa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#4. Sete categorias de informação em comunicação pública"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "4. Sete categorias de informação em comunicação pública"
+      },
+      "statement": "Um organograma e um relatório que explica a aplicação das verbas do órgão são informações institucionais pela mesma razão, pois ambos identificam o órgão responsável.",
+      "correctAnswer": "E",
+      "explanation": "O organograma descreve a estrutura. A explicação do uso de recursos caracteriza prestação de contas."
+    },
+    {
+      "id": "cam-cs-categoria-decisao-e-justificativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "categoria-decisao-e-justificativa",
+      "mechanism": "categoria-decisao-e-justificativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#4. Sete categorias de informação em comunicação pública"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "4. Sete categorias de informação em comunicação pública"
+      },
+      "statement": "A divulgação de uma série estatística sobre evasão escolar e a explicação de como a secretaria empregou a verba de combate à evasão podem aparecer no mesmo relatório, respectivamente como dados públicos e prestação de contas.",
+      "correctAnswer": "C",
+      "explanation": "A série registra um fenômeno coletivo. A explicação sobre a verba torna examinável a aplicação dos recursos."
+    },
+    {
+      "id": "cam-cs-categoria-retorno-individual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "categoria-retorno-individual",
+      "mechanism": "categoria-retorno-individual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#4. Sete categorias de informação em comunicação pública"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "4. Sete categorias de informação em comunicação pública"
+      },
+      "statement": "A resposta enviada a uma pessoa sobre a situação do seu próprio requerimento deve ser classificada como dado público no esquema de Duarte, porque provém de um sistema estatal.",
+      "correctAnswer": "E",
+      "explanation": "O conteúdo específico da resposta interessa ao requerente. A origem do registro não determina a categoria."
+    },
+    {
+      "id": "cam-cs-categoria-produto-em-concorrencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "categoria-produto-em-concorrencia",
+      "mechanism": "categoria-produto-em-concorrencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#4. Sete categorias de informação em comunicação pública"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "4. Sete categorias de informação em comunicação pública"
+      },
+      "statement": "A descrição de um produto financeiro oferecido por um banco estatal em concorrência com outros bancos pode ter natureza mercadológica no esquema de Duarte.",
+      "correctAnswer": "C",
+      "explanation": "A oferta de produto em contexto competitivo caracteriza o conteúdo. A natureza estatal do emissor é um critério distinto."
+    },
+    {
+      "id": "cam-cs-politica-implicita-em-rotina",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "politica-implicita-em-rotina",
+      "mechanism": "politica-implicita-em-rotina",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#5. Instrumentos e política de comunicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "5. Instrumentos e política de comunicação"
+      },
+      "statement": "Uma assessoria segue, há anos, critérios estáveis para autorizar entrevistas e divulgar notas. A falta de documento formal impede reconhecer uma política implícita nessas práticas.",
+      "correctAnswer": "E",
+      "explanation": "Práticas recorrentes podem expressar parâmetros efetivos de comunicação mesmo sem codificação formal."
+    },
+    {
+      "id": "cam-cs-politica-e-peca-pontual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "politica-e-peca-pontual",
+      "mechanism": "politica-e-peca-pontual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#5. Instrumentos e política de comunicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "5. Instrumentos e política de comunicação"
+      },
+      "statement": "Um vídeo de orientação sobre matrícula constitui, por si, uma política de comunicação se atingir o público pretendido.",
+      "correctAnswer": "E",
+      "explanation": "O vídeo é um produto. Uma política estabelece parâmetros integrados e relativamente duradouros para orientar a produção e outras ações."
+    },
+    {
+      "id": "cam-cs-escolha-instrumento-apos-diagnostico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "escolha-instrumento-apos-diagnostico",
+      "mechanism": "escolha-instrumento-apos-diagnostico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#5. Instrumentos e política de comunicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "5. Instrumentos e política de comunicação"
+      },
+      "statement": "Se o problema identificado é que moradores desconhecem onde solicitar atendimento, o diagnóstico pode orientar a escolha de um canal já usado por eles antes de se investir em um novo aplicativo.",
+      "correctAnswer": "C",
+      "explanation": "A escolha parte da relação entre público, problema e objetivo. Um novo canal só se justifica se atender a essa necessidade."
     }
   ]
 }

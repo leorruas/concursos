@@ -84,4 +84,4 @@ Seleção dos 40 itens confirmada. Próximo lote: comunicação pública, govern
 
 ## Lote 015 em elaboração
 
-Vinte e oito itens sobre comunicação pública, governamental e político-partidária, com referência ao artigo 71.
+Trinta e seis itens sobre comunicação pública, governamental e político-partidária. Os oito itens mais recentes cobrem categorias de informação e instrumentos de comunicação em Jorge Duarte (artigo 02). Os anteriores remetem ao artigo 71.

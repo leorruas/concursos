@@ -213,6 +213,28 @@ Em textos institucionais e jurídicos formais, a conjunção condicional *if* po
 
 ---
 
+## 5.1. Casos progressivos de escopo e negação
+
+**Caso-base (exemplos autorais):** *The committee must publish the report* estabelece obrigação de publicar. Se a regra mudar para *The committee must not publish the report*, passa a ser uma proibição. Já *The committee does not have to publish the report* indica ausência de obrigação e **não** proibição: a publicação pode continuar permitida.
+
+Com a expressão anteposta, *Under no circumstances may the committee publish the report* expressa proibição e exige inversão do modal *may* com o sujeito. A inversão resulta do posicionamento da locução negativa; a escolha de *may* ajuda a deixar claro o sentido proibitivo. A sequência *Under no circumstances must the committee publish the report* pode suscitar leitura diferente, relacionada a não existir circunstância que imponha o dever; por isso não deve ser usada indiscriminadamente como paráfrase de *must not*.
+
+**Item adicional A (inédito, C/E).** The expressions *must not disclose* and *do not have to disclose* impose the same prohibition.
+
+**Gabarito: Errado.** A primeira veda a divulgação, enquanto a segunda apenas remove o dever de divulgar.
+
+**Item adicional B (inédito, C/E).** In formal English, *Rarely do officials disclose the information* uses subject-auxiliary inversion after a fronted negative-frequency adverb.
+
+**Gabarito: Certo.** *Rarely* anteposto desencadeia a inversão *do officials*, enquanto na ordem canônica seria *Officials rarely disclose the information*.
+
+**Item adicional C (inédito, C/E).** The sentence *The request was barely approved* necessarily means that the request was rejected.
+
+**Gabarito: Errado.** *Barely approved* comunica aprovação por margem pequena ou no limite, não rejeição. *Almost approved* seria um contraste diferente: quase foi aprovado, mas não chegou a sê-lo.
+
+**Referências:** [Cambridge Grammar, inversion](https://dictionary.cambridge.org/grammar/british-grammar/inversion) e [Cambridge Grammar, must](https://dictionary.cambridge.org/grammar/british-grammar/must).
+
+---
+
 ## 6. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**

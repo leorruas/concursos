@@ -54,14 +54,14 @@ O antivírus (atualmente denominado *antimalware*) é o software projetado para 
    - *Vantagem*: Capaz de detectar variações de vírus conhecidos e novas ameaças não catalogadas;
    - *Limite crítico*: Propensa a gerar **falsos positivos** (classificar um programa inofensivo legítimo como malware) ou **falsos negativos** (deixar passar uma ameaça sutil).
 3. **Análise Comportamental (*Behavior-based / Anomalia*)**:
-   - Monitora em tempo real a execução do programa em um ambiente controlado (*sandbox*), analisando as ações concretas que o processo realiza no sistema operacional (ex.: tentativa súbita de criptografar múltiplos arquivos sequenciais em milissegundos, típica de ransomware);
-   - Bloqueia a execução imediatamente ao constatar o comportamento hostil.
+   - Monitora ações de processos **no próprio dispositivo ou em ambiente instrumentado**, como tentativas de cifrar muitos arquivos, modificar configurações ou estabelecer persistência. **Monitoramento comportamental não exige sandbox**; esta é uma técnica diferente de análise em isolamento;
+   - **Pode alertar, registrar, bloquear ou isolar** conforme política, modo de detecção, confiança e produto; uma detecção não garante bloqueio imediato.
 4. **Execução em Sandbox (Isolamento em Caixa de Areia)**:
    - Executa arquivos desconhecidos em um ambiente virtual isolado e descartável antes de liberá-los para o usuário final, observando se o artefato tenta abrir conexões externas maliciosas ou danificar registros.
 
 ### 1.2 Ações possíveis do antivírus diante de uma ameaça
 - **Desinfecção (Limpeza)**: Remove o código malicioso do arquivo hospedeiro, preservando o documento ou programa original são e salvo (ação típica para vírus clássicos);
-- **Quarentena**: Move o arquivo suspeito para uma área de armazenamento criptografada e isolada do sistema operacional, retirando-lhe permissões de execução para que não cause danos enquanto se aguarda nova análise ou atualização de vacina;
+- **Quarentena**: isola ou restringe o acesso ao arquivo suspeito segundo o mecanismo do produto; **criptografia do contêiner não é obrigatória** e uma restauração depende das permissões, da disponibilidade e da avaliação de segurança;
 - **Exclusão (Deleção)**: Apaga definitivamente o arquivo do disco quando a desinfecção for impossível (típico de worms, trojans e ferramentas maliciosas que são o próprio malware por inteiro, não contendo código útil a preservar).
 
 ---
@@ -98,7 +98,7 @@ A compreensão dos limites operacionais do firewall exige distinguir o modelo tr
    - *Ressalva crítica para a prova*: Mesmo um NGFW com módulo antivírus atua como barreira de perímetro (em trânsito na rede); ele não substitui a proteção de *endpoint* (antivírus local), pois não analisa arquivos criptografados de ponta a ponta sem interceptação SSL/TLS, pendrives USB locais, mídias externas ou arquivos gerados internamente na máquina.
 
 > [!WARNING]
-> **Como o Cebraspe formula em prova:** A banca tradicionalmente foca no **conceito canônico de firewall de rede/pessoal como filtro de portas e pacotes**, considerando **ERRADO** afirmar que o firewall tradicional identifica e elimina vírus em downloads ou limpa estações infectadas. Quando a banca quer cobrar recursos de NGFW ou antivírus de borda, o enunciado menciona expressamente a expressão *"Firewall de Próxima Geração (NGFW)"*, *"Inspeção Profunda de Pacotes (DPI)"* ou *"módulo de antivírus integrado"*.
+> **Como o Cebraspe formula em prova:** Em itens que delimitem um **firewall tradicional de filtragem**, ele controla o tráfego e **não substitui antivírus do dispositivo**. Ferramentas modernas podem integrar inspeção de aplicação e proteção contra malware; avaliar os recursos declarados no enunciado, evitando classificar todo firewall pelo mesmo conjunto fixo de funções. Quando a banca quer cobrar recursos de NGFW ou antivírus de borda, o enunciado menciona expressamente a expressão *"Firewall de Próxima Geração (NGFW)"*, *"Inspeção Profunda de Pacotes (DPI)"* ou *"módulo de antivírus integrado"*.
 
 ---
 
@@ -219,3 +219,5 @@ O **Antispyware** é a ferramenta especializada em monitorar, bloquear e remover
 > **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** questões 1–6 mantêm **E, C, E, C, E, E**. Atualizados os comentários sobre quarentena, detecção por assinatura e proteção contra DDoS, retirando garantias absolutas.
+
+> **Implementação TI-114 (11/11/2026):** separadas detecção comportamental e sandbox, resposta do produto condicionada à política e quarentena sem criptografia obrigatória. Gabaritos C/E mantidos.

@@ -194,3 +194,31 @@ A revisão final dirigida sobre o backlog histórico avançou nas passagens conc
 | 26, escolha de gráficos | limite fixo de cinco ou seis categorias para pizza e juízo perceptivo absoluto | substituído por critérios de legibilidade, tarefa e proximidade entre valores | `a47a420` | releitura após commit e manutenção dos seis itens C/E | corrigido |
 
 **Parecer editorial atual:** não há necessidade comprovada de artigo novo para essas três lacunas. Os artigos específicos receberam conteúdo corrigido sem mudar `articleId`, `articleAliases`, caminhos ou a organização de exercícios. **Persistem validações de sistema**: teste completo Node.js, execução do workflow em PR, renderização Mermaid, verificação de todos os links e calibragem externa dos itens C/E não homologados. Os 13 enunciados originais NH continuam fora do treino e as substitutas estão nos próprios artigos. Portanto, **conteúdo substancialmente reparado**, mas **material não certificado integralmente**.
+
+## Checkpoint de validação técnica e externa das substitutas (11/11/2026, horário de Brasília)
+
+**Execução verificada:** o workflow [Publicar no GitHub Pages, run 43129779596](https://github.com/leorruas/concursos/actions/runs/43129779596) foi concluído em **sucesso** (registro GitHub: 12/11/2026 UTC), no commit `7f29ea5665b878244e4430d18120eec8e7d04618`. Foram consultados o resultado do workflow e o detalhamento do job `deploy`. Passaram `node scripts/test-camara-questions.js`, a montagem de `_site`, os testes de wikilinks em tabelas, o deploy Pages e a verificação `node scripts/verify-live-pages.js` executada pelo workflow. A comparação de commits confirmou que o commit do workflow **descende do checkpoint editorial** `2e5e65e56e711587bcbec7d05a7cce38f92e3fa5` (14 commits à frente, zero atrás). Assim, as correções desse checkpoint precederam a execução bem-sucedida.
+
+**Checagem externa dirigida das 13 substitutas:** abaixo estão fontes de fundamento, além da conferência de enunciado/condição/gabarito nas notas. Os gabaritos são **inéditos e editoriais**, não gabaritos de prova real.
+
+| Substituta | Evidência ou conferência de fundamento | Estado |
+|:--|:--|:--|
+| S03-6 | [Microsoft Files On-Demand](https://support.microsoft.com/pt-br/onedrive/save-disk-space-with-onedrive-files-on-demand-for-windows): cópia marcada para manter offline após baixar | validado |
+| S05-5 | [Microsoft MAIOR](https://support.microsoft.com/pt-br/excel/functions/large-function) e [MÁXIMO](https://support.microsoft.com/pt-br/excel/functions/max-function): `k=1` com número versus intervalo vazio | validado |
+| S07-5 | [Microsoft, bloquear download](https://support.microsoft.com/pt-br/onedrive/block-downloads-for-view-only-files-in-sharepoint-and-onedrive): recurso condicionado à conta/política e exibição não impede registro externo | validado |
+| S09-5 | [RFC 6265](https://www.rfc-editor.org/rfc/rfc6265): `Set-Cookie`, `Cookie`, armazenamento em agente do usuário, sem exigir arquivo-texto individual | validado |
+| S13-1 | [Microsoft attrib](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/attrib): atributo de arquivamento ajustável; mecanismo afirmado somente sob a premissa expressa de rotina tradicional | validado |
+| S13-4 | Diferença entre conceito diferencial (desde último completo) e mecanismo de detecção; premissa não exige `archive bit`; consistência com S13-1 e definição operacional do próprio artigo | validado |
+| S18-3 | Distinção conceitual de aprendizagem de representações, sem prometer dispensa de dados/avaliação em todos os casos; comentário delimitado | validado |
+| S18-6 | [Câmara, Ulysses na Consultoria Legislativa](https://www.camara.leg.br/assessoria-de-imprensa/568452-consultoria-legislativa-da-camara-utiliza-inteligencia-artificial-para-agilizar-trabalhos/): distribuição temática documentada, sem atribuição de transcrição não demonstrada | validado |
+| S21-4 | Identidades de probabilidade `P(X,Y)`, `P(X)` e `P(Y|X)` verificadas por definição de conjunta/marginal/condicional | validado |
+| S22-2 | [Wei et al., 2022](https://arxiv.org/abs/2201.11903): melhora empírica em tarefas/modelos estudados, sem generalização universal | validado |
+| S24-4 | [SRI, orientação de indicadores](https://www.gov.br/sri/pt-br/backup-secretaria-de-governo/portalfederativo/guiainicio/prefeito/conteudos-importantes/planejamento-estrategico): polaridade pode ser positiva, negativa ou por limites | validado |
+| S27-5 | [Datawrapper, zero em gráficos de barras](https://www.datawrapper.de/academy/why-our-column-and-bar-charts-start-at-zero): comprimento relativo pode ser distorcido por eixo truncado, com distinção de linha | validado |
+| S29-1 | [Microsoft Learn, colunas calculadas](https://learn.microsoft.com/pt-br/power-bi/transform-model/desktop-calculated-columns): modo Import/Standard materializa; User Context ou DirectQuery podem não materializar | validado |
+
+**Distinções importantes:** “validado” nesta tabela indica **fundamento conceitual da nova substituta conferido**, não confirmação de identidade ou frequência em provas Cebraspe. Os **13 itens originais NÃO HOMOLOGADOS seguem bloqueados**; as substitutas `Sxx-n` são versões autorais separadas, e os testes do sistema **não provam equivalência semântica de possíveis paráfrases**.
+
+**Publicação:** o próprio workflow conferiu a consistência do manifesto e catálogo remoto após deploy. A URL do Pages não foi aberta visualmente nesta sessão; por isso, uma inspeção humana de Mermaid, cores, layout e cada link externo da versão publicada permanece **pendente**, embora build, testes automatizados e confirmação remota do site tenham passado.
+
+**Conclusão desta validação:** o teste da Câmara, o build e o deploy **passaram**, e as 13 substitutas têm fundamento dirigido conferido. O corpus completo de exercícios inéditos **não passou por homologação item a item com provas oficiais**; os 50 itens piloto foram exercitados pela suíte, mas não foram apresentados como questões reais. A pendência remanescente é certificação editorial de todos os exercícios e inspeção visual/links em navegador, separada de falha de publicação.

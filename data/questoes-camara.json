@@ -15944,6 +15944,168 @@
       "statement": "Em uma reunião, pessoas que discordam deixam de se manifestar por receio de isolamento. Contar apenas as falas favoráveis identifica sem viés o apoio à proposta no grupo.",
       "correctAnswer": "E",
       "explanation": "O clima de opinião pode afetar a disposição de falar. A distribuição das manifestações públicas pode divergir das opiniões privadas."
+    },
+    {
+      "id": "cam-cs-publico-formado-por-consequencias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / Escola de Chicago",
+      "articleId": "art-1b7f38ad90c2e546",
+      "conceptId": "publico-formado-por-consequencias",
+      "mechanism": "publico-formado-por-consequencias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1b7f38ad90c2e546#John Dewey: comunicação, experiência e vida pública"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade.md",
+        "section": "John Dewey: comunicação, experiência e vida pública"
+      },
+      "statement": "Quando a mudança em um itinerário afeta pessoas que não participaram da decisão e elas se organizam para discutir seus efeitos, a formação desse público pode ser analisada a partir das consequências indiretas descritas por Dewey.",
+      "correctAnswer": "C",
+      "explanation": "A condição relevante é que os efeitos de uma ação atinjam terceiros e passem a exigir atenção coletiva. O público não precisa existir como grupo organizado antes do problema."
+    },
+    {
+      "id": "cam-cs-antecipar-interpretacao-do-outro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / Escola de Chicago",
+      "articleId": "art-1b7f38ad90c2e546",
+      "conceptId": "antecipar-interpretacao-do-outro",
+      "mechanism": "antecipar-interpretacao-do-outro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1b7f38ad90c2e546#George Herbert Mead: símbolos significativos e constituição social do self"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade.md",
+        "section": "George Herbert Mead: símbolos significativos e constituição social do self"
+      },
+      "statement": "Ao reformular um aviso depois de imaginar como um leitor sem experiência interpretaria suas instruções, uma redatora realiza uma operação compatível com a tomada do papel do outro em Mead.",
+      "correctAnswer": "C",
+      "explanation": "A redatora considera a perspectiva de quem recebe o aviso. Em Mead, assumir a perspectiva alheia participa da coordenação simbólica da ação."
+    },
+    {
+      "id": "cam-cs-vestigio-e-convencao-no-mesmo-aviso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / semiótica",
+      "articleId": "art-5f913bd7a4c2680e",
+      "conceptId": "vestigio-e-convencao-no-mesmo-aviso",
+      "mechanism": "vestigio-e-convencao-no-mesmo-aviso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5f913bd7a4c2680e#Ícone, índice e símbolo: o critério da relação com o objeto"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao.md",
+        "section": "Ícone, índice e símbolo: o critério da relação com o objeto"
+      },
+      "statement": "Num aviso de enchente, a fotografia pode funcionar iconicamente por se parecer com o local e uma marca física deixada pela água pode funcionar como índice do nível alcançado.",
+      "correctAnswer": "C",
+      "explanation": "A semelhança fundamenta a relação icônica. A conexão física entre a água e o vestígio fundamenta a relação indicial."
+    },
+    {
+      "id": "cam-cs-inventario-visual-e-sentido-cultural",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / semiótica",
+      "articleId": "art-5f913bd7a4c2680e",
+      "conceptId": "inventario-visual-e-sentido-cultural",
+      "mechanism": "inventario-visual-e-sentido-cultural",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5f913bd7a4c2680e#Barthes: denotação, conotação e mito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao.md",
+        "section": "Barthes: denotação, conotação e mito"
+      },
+      "statement": "Identificar que uma peça mostra um prédio de mármore basta para concluir, no nível denotativo, que a instituição retratada é prestigiosa.",
+      "correctAnswer": "E",
+      "explanation": "O material retratado pertence à descrição literal. O prestígio é uma associação cultural que precisa ser analisada em outro nível."
+    },
+    {
+      "id": "cam-cs-efeito-de-pergunta-imposta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / opinião pública",
+      "articleId": "art-e738c9f264b150da",
+      "conceptId": "efeito-de-pergunta-imposta",
+      "mechanism": "efeito-de-pergunta-imposta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e738c9f264b150da#Sondagens: objeto, operação e inferência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica.md",
+        "section": "Sondagens: objeto, operação e inferência"
+      },
+      "statement": "Uma sondagem força a escolha entre duas soluções para um problema que os entrevistados não haviam considerado. A distribuição resultante descreve como responderam à pergunta, mas sua interpretação como posições já formadas antes da pesquisa exige evidência adicional.",
+      "correctAnswer": "C",
+      "explanation": "O instrumento oferece categorias e pode estimular uma resposta no momento da coleta. A distribuição observada não identifica por si só quando se formaram as posições."
+    },
+    {
+      "id": "cam-cs-mudanca-de-argumentos-sem-mudanca-de-percentual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / opinião pública",
+      "articleId": "art-e738c9f264b150da",
+      "conceptId": "mudanca-de-argumentos-sem-mudanca-de-percentual",
+      "mechanism": "mudanca-de-argumentos-sem-mudanca-de-percentual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e738c9f264b150da#Como a opinião pública se forma e circula"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica.md",
+        "section": "Como a opinião pública se forma e circula"
+      },
+      "statement": "Se a proporção de apoio a uma proposta permanece estável entre duas sondagens, ainda é possível que os argumentos usados no debate público tenham mudado.",
+      "correctAnswer": "C",
+      "explanation": "Uma proporção sintetiza posições declaradas. A circulação e transformação dos argumentos exige outras observações."
     }
   ]
 }

@@ -1171,7 +1171,7 @@
       "conceptId": "presidencialismo-de-coalizao",
       "mechanism": "inferir-parlamentarismo-de-acordo-partidario",
       "theoryRefs": [
-        "article:art-d7b3e591a46c82f0#Presidencialismo de coalizão: Sérgio Abranches e a especificidade brasileira"
+        "article:art-d7b3e591a46c82f0#Relações Executivo-Legislativo e formação de coalizões: Sérgio Abranches e a especificidade brasileira"
       ],
       "statement": "A formação de uma coalizão multipartidária para aprovar o orçamento é compatível com o presidencialismo quando a permanência do presidente no cargo segue as regras do mandato, independentemente de voto parlamentar de confiança.",
       "correctAnswer": "C",
@@ -4059,7 +4059,7 @@
       "conceptId": "coalizao-legislativa",
       "mechanism": "inferir-voto-uniforme-de-composicao-ministerial",
       "theoryRefs": [
-        "article:art-d7b3e591a46c82f0#Presidencialismo de coalizão: Sérgio Abranches e a especificidade brasileira"
+        "article:art-d7b3e591a46c82f0#Relações Executivo-Legislativo e formação de coalizões: Sérgio Abranches e a especificidade brasileira"
       ],
       "statement": "Dois partidos participam do gabinete de um presidente. Essa participação garante que ambos apoiarão todos os projetos do Executivo no Legislativo.",
       "correctAnswer": "E",

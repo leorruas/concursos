@@ -155,7 +155,7 @@ A [OpenStax, *Factors That Influence Consumer Buying Behavior*](https://openstax
 
 ## Relações com outros temas
 
-**Comportamento × segmentação:** comportamento procura explicar decisões e influências; segmentação forma grupos úteis para decisões de planejamento. **Motivação × necessidade:** necessidade descreve condição percebida; motivação descreve forças orientadas à ação. **Intenção × comportamento:** desejar ou planejar não significa realizar. **Satisfação × lealdade:** experiência avaliada não é igual a compromisso ou repetição. **Compra individual × organizacional:** uma empresa pode possuir múltiplos participantes e regras formais, como desenvolvido na nota 99. **Jornada × processo de compra:** jornada inclui todos os contatos e a experiência, enquanto cinco etapas organizam o processo decisório comercial.
+**Comportamento × segmentação:** comportamento procura explicar decisões e influências; segmentação forma grupos úteis para decisões de planejamento. **Motivação × necessidade:** necessidade descreve condição percebida; motivação descreve forças orientadas à ação. **Intenção × comportamento:** desejar ou planejar não significa realizar. **Satisfação × lealdade:** experiência avaliada não é igual a compromisso ou repetição. **Compra individual × organizacional:** uma empresa pode possuir múltiplos participantes e regras formais, como desenvolvido no artigo [[3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao|Segmentação de mercado: B2B, atratividade e decisões de escolha]]. **Jornada × processo de compra:** jornada inclui todos os contatos e a experiência, enquanto cinco etapas organizam o processo decisório comercial.
 
 ## Tensões e pegadinhas
 

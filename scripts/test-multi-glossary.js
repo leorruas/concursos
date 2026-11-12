@@ -46,7 +46,7 @@ for (const term of glossary.terms) {
 assert(cards.cards.find(c => c.id === 'ppa').examIds.includes('camara-2026'),
   'Cartão original PPA deve reutilizar identidade no novo concurso');
 assert(index.includes('id="home-glossario-entry" href="#/glossario?concurso=camara-2026"'));
-assert(index.includes('href="https://concurso-estudo.leoruas.workers.dev/flashcards.html"'));
+assert(index.includes('id="home-flashcards-entry" href="https://concurso-estudo.leoruas.workers.dev/flashcards.html?concurso=camara-2026"'));
 assert(!index.includes('id="nav-link-flashcards"'), 'Flashcards não devem aparecer na navbar');
 assert(index.includes('id="nav-link-glossario"'));
 assert(css.includes('.sticky-nav .nav-logo { display: none; }'));

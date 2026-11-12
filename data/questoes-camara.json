@@ -6082,6 +6082,358 @@
       "statement": "A publicação de um plano estratégico comprova por si só que os dirigentes têm a competência e a integridade exigidas para exercer liderança.",
       "correctAnswer": "E",
       "explanation": "O plano documenta direção e prioridades. Competência e integridade dos dirigentes precisam de evidências próprias."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalizacao",
+      "conceptId": "camara-editorial-comite-gestor-ibs",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#1.3 Requerimentos de informação por escrito (CF, art. 50, § 2º c/c RICD, arts. 115 e 116)"
+      ],
+      "statement": "A convocação do Presidente do Comitê Gestor do IBS por comissão da Câmara depende de que ele seja também Ministro de Estado, pois a Constituição somente permite convocar ministros e titulares de órgãos diretamente subordinados à Presidência.",
+      "correctAnswer": "E",
+      "explanation": "O art. 50, caput, na redação da EC nº 132/2023, menciona expressamente o Presidente do Comitê Gestor do IBS como autoridade convocável. O erro da afirmação é transformar o rol constitucional atualizado em apenas duas categorias. Constituição, art. 50."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / LRF",
+      "conceptId": "camara-editorial-beneficio-art14a",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Benefícios tributários para pessoas jurídicas: LRF art. 14-A (LC nº 224/2025)"
+      ],
+      "statement": "Uma proposta de incentivo tributário que implique renúncia de receita para pessoas jurídicas dispensa estimativa de beneficiários quando seu prazo de vigência for de quatro anos, pois essa informação só é exigida se ultrapassado o prazo geral de cinco anos.",
+      "correctAnswer": "E",
+      "explanation": "A estimativa de quantitativo de beneficiários é exigida pelo art. 14-A, I, sem depender de ultrapassar o prazo geral de cinco anos; o limite temporal é outro requisito, sujeito às condições do § 1º. Fonte primária: LRF vigente, arts. 5º, 14 e 14-A."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / execucao",
+      "conceptId": "camara-editorial-cancelamento-rp",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Cancelamento de restos a pagar × nova receita"
+      ],
+      "statement": "Segundo o MCASP, 11ª edição, o cancelamento de restos a pagar inscritos em exercício anterior gera necessariamente receita orçamentária nova no exercício do cancelamento, mesmo sem entrada de recursos em caixa.",
+      "correctAnswer": "E",
+      "explanation": "O cancelamento desfaz a vinculação anterior, mas não é reconhecimento de receita orçamentária nova segundo o manual; o enunciado confundiu liberação de disponibilidade com ingresso de recursos. A resposta não pretende transcrever a redação literal do art. 38 da Lei nº 4.320/1964."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / LOA",
+      "conceptId": "camara-editorial-estatal-controlada",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Exercícios inéditos C/E: controle, dependência e esfera orçamentária"
+      ],
+      "statement": "Uma sociedade cujo capital votante é majoritariamente detido pela União deve ser classificada como estatal dependente mesmo quando não recebe recursos do Tesouro para pagar pessoal, custeio ou despesas de capital, pois o controle acionário é suficiente para a dependência fiscal.",
+      "correctAnswer": "E",
+      "explanation": "O art. 2º, II, da LRF define empresa controlada pelo controle da maioria do capital votante; o inciso III exige ainda o recebimento de recursos do ente controlador para as finalidades legais da dependência. Controle não basta para a segunda classificação."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / LOA",
+      "conceptId": "camara-editorial-aporte-acionario",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Exercícios inéditos C/E: controle, dependência e esfera orçamentária"
+      ],
+      "statement": "Uma empresa controlada recebe da União recursos destinados exclusivamente ao aumento da participação acionária do ente controlador. Esse aporte, isoladamente, não caracteriza a dependência financeira prevista no art. 2º, III, da LRF para transferências de capital.",
+      "correctAnswer": "C",
+      "explanation": "O art. 2º, III, exclui expressamente, no caso das despesas de capital, os recursos provenientes de aumento da participação acionária. Examinar finalidade e natureza da transferência antes de enquadrar a estatal."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / LOA",
+      "conceptId": "camara-editorial-garantia-estatal",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Exercícios inéditos C/E: controle, dependência e esfera orçamentária"
+      ],
+      "statement": "O prejuízo contábil de uma empresa estatal e a concessão de garantia da União para empréstimo bancário permitem afirmar, sem exame das transferências efetivamente recebidas, que a empresa se tornou estatal dependente.",
+      "correctAnswer": "E",
+      "explanation": "Prejuízo e garantia podem sinalizar risco fiscal, mas a condição legal de dependência exige o critério do art. 2º, III, da LRF. A diferença entre risco e enquadramento jurídico é central no caso dos Correios apresentado acima."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / emendas",
+      "conceptId": "camara-editorial-prazo-comissao-lc210",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-715e2d16a93446cb#Indicação de emendas de comissão: regra permanente e rito de cada exercício"
+      ],
+      "statement": "O prazo de deliberação das indicações de beneficiários de emendas de comissão, previsto na LC nº 210/2024, somente passa a existir quando a LDO de cada exercício o reproduz expressamente.",
+      "correctAnswer": "E",
+      "explanation": "O prazo de 15 dias já consta do art. 5º, I, da lei complementar; não depende de repetição na LDO anual. Regras de execução específicas de cada ano devem ser examinadas separadamente. Lei Complementar nº 210/2024, art. 5º."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / emendas",
+      "conceptId": "camara-editorial-ata-5-dias-lc210",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-9d42c1f68a7be053#Caso progressivo complementar: prazo legal versus orientação de exercício"
+      ],
+      "statement": "O prazo de cinco dias para a publicação e o encaminhamento das atas de indicação das emendas de comissão depende de previsão anual no PLDO 2027, pois não está estabelecido em lei complementar.",
+      "correctAnswer": "E",
+      "explanation": "A LC nº 210/2024, art. 5º, II, contém o prazo legal de cinco dias; a Nota Técnica Conjunta nº 3/2026 o reproduz ao examinar o PLDO 2027. A fonte do comando não deve ser confundida com o documento que o comenta. LC nº 210/2024."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "conceptId": "camara-editorial-inelegibilidade-analfabeto",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Exercícios inéditos C/E: aplicação de direitos políticos"
+      ],
+      "statement": "O analfabeto está dispensado do alistamento e do voto obrigatório, mas pode candidatar-se a vereador desde que tenha pelo menos dezoito anos.",
+      "correctAnswer": "E",
+      "explanation": "O art. 14, § 1º, II, a, admite o voto facultativo, mas o § 4º declara os analfabetos inelegíveis. Idade mínima não afasta inelegibilidade."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "conceptId": "camara-editorial-anualidade-eleitoral",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Exercícios inéditos C/E: aplicação de direitos políticos"
+      ],
+      "statement": "Uma lei que altere o processo eleitoral entra em vigor na data da publicação, mas não se aplica a eleição que ocorra até um ano da data de sua vigência.",
+      "correctAnswer": "C",
+      "explanation": "É a distinção literal do art. 16 da Constituição entre vigência da lei e aplicação ao pleito. Uma alteração publicada menos de um ano antes da eleição não é por isso automaticamente inválida."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "conceptId": "camara-editorial-impugnacao-mandato",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Exercícios inéditos C/E: aplicação de direitos políticos"
+      ],
+      "statement": "A ação de impugnação de mandato eletivo pode ser proposta até quinze dias contados da diplomação, instruída com prova de abuso do poder econômico, corrupção ou fraude.",
+      "correctAnswer": "C",
+      "explanation": "O art. 14, § 10, da Constituição dispõe sobre prazo e causas; o § 11 estabelece segredo de justiça e responsabilização por iniciativa temerária ou de manifesta má-fé."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Executivo",
+      "conceptId": "camara-editorial-mandato-2027",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-4572f492f3444994#Exercícios inéditos C/E: eleição, sucessão e funções presidenciais"
+      ],
+      "statement": "A partir das eleições de 2026, o mandato presidencial de quatro anos começa em 5 de janeiro do ano seguinte ao pleito, conforme a redação do art. 82 da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "A EC nº 111/2021 alterou o início do mandato presidencial; a data anterior não deve ser utilizada como regra da posse do eleito em 2026."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Executivo",
+      "conceptId": "camara-editorial-dupla-vacancia",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-4572f492f3444994#Exercícios inéditos C/E: eleição, sucessão e funções presidenciais"
+      ],
+      "statement": "Na hipótese de vacância dos cargos de Presidente e Vice-Presidente nos últimos dois anos do período presidencial, a eleição dos sucessores ocorre de forma direta, noventa dias após a abertura da última vaga.",
+      "correctAnswer": "E",
+      "explanation": "O art. 81, § 1º, prevê eleição pelo Congresso Nacional em trinta dias, se a dupla vacância ocorrer nos últimos dois anos. A eleição em noventa dias, prevista no caput, corresponde à regra geral; não se aplicam indistintamente as duas modalidades."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Executivo",
+      "conceptId": "camara-editorial-pec-sem-sancao",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-4572f492f3444994#Exercícios inéditos C/E: eleição, sucessão e funções presidenciais"
+      ],
+      "statement": "O Presidente da República pode propor emenda à Constituição, mas a promulgação da emenda aprovada não se submete a sanção nem a veto presidencial.",
+      "correctAnswer": "C",
+      "explanation": "A iniciativa da PEC pode ser presidencial (CF, art. 60, II), enquanto a promulgação é feita pelas Mesas da Câmara e do Senado, na forma do § 3º. Sanção/veto pertencem ao processo de formação das leis ordinárias e complementares, não ao de emenda constitucional."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Judiciário",
+      "conceptId": "camara-editorial-reserva-plenario",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-7c5228e2781b4336#Exercícios inéditos C/E: controle constitucional e magistratura"
+      ],
+      "statement": "Viola a reserva de plenário decisão de órgão fracionário de tribunal que afasta a incidência de lei, integral ou parcialmente, em razão de sua incompatibilidade com a Constituição, ainda que não declare expressamente sua inconstitucionalidade.",
+      "correctAnswer": "C",
+      "explanation": "É o núcleo da Súmula Vinculante nº 10, em conexão com o art. 97 da Constituição. O comentário descreve a hipótese coberta pelo verbete, sem afastar exceções jurisprudenciais específicas, como precedentes já firmados pelo STF ou pelo plenário/órgão especial competente."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Judiciário",
+      "conceptId": "camara-editorial-sumula-vinculante-quorum",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-7c5228e2781b4336#Exercícios inéditos C/E: controle constitucional e magistratura"
+      ],
+      "statement": "A aprovação de súmula vinculante pelo Supremo Tribunal Federal exige maioria absoluta de seus membros, após decisões reiteradas sobre matéria constitucional.",
+      "correctAnswer": "E",
+      "explanation": "O art. 103-A, caput, exige dois terços dos membros do STF, além de decisões reiteradas sobre matéria constitucional e demais requisitos legais. Maioria absoluta não substitui esse quórum."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Judiciário",
+      "conceptId": "camara-editorial-cnj-competencia",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-7c5228e2781b4336#Exercícios inéditos C/E: controle constitucional e magistratura"
+      ],
+      "statement": "O Conselho Nacional de Justiça integra a estrutura do Poder Judiciário e exerce controle administrativo, financeiro e disciplinar nos limites da Constituição, sem funcionar como tribunal de recursos contra o mérito das decisões judiciais.",
+      "correctAnswer": "C",
+      "explanation": "A competência do CNJ, no art. 103-B, § 4º, alcança atuação administrativa e financeira e deveres funcionais dos juízes; a revisão do mérito jurisdicional segue as vias processuais próprias."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Funções essenciais",
+      "conceptId": "camara-editorial-agu-representacao",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-95bcc6a866f044bd#Exercícios inéditos C/E: instituições e limites funcionais"
+      ],
+      "statement": "A Advocacia-Geral da União é instituição essencial à Justiça responsável, diretamente ou por órgão vinculado, pela representação judicial e extrajudicial da União e por atividades de consultoria e assessoramento jurídico do Poder Executivo, na forma constitucional e legal.",
+      "correctAnswer": "C",
+      "explanation": "O art. 131, caput, descreve essas funções; não se deve transferi-las indistintamente ao Ministério Público ou à Defensoria."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Funções essenciais",
+      "conceptId": "camara-editorial-defensoria-permanencia",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-95bcc6a866f044bd#Exercícios inéditos C/E: instituições e limites funcionais"
+      ],
+      "statement": "A autonomia funcional e administrativa da Defensoria Pública retira dela a condição de instituição permanente, permitindo que sua extinção por decisão administrativa seja determinada pelo chefe do Poder Executivo.",
+      "correctAnswer": "E",
+      "explanation": "O art. 134, caput, caracteriza a Defensoria como instituição permanente e essencial à função jurisdicional do Estado; os §§ 2º e 3º asseguram autonomias institucionais pertinentes. A afirmação mistura autonomia com extinção administrativa unilateral."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Funções essenciais",
+      "conceptId": "camara-editorial-cnmp-controle",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-95bcc6a866f044bd#Exercícios inéditos C/E: instituições e limites funcionais"
+      ],
+      "statement": "O Conselho Nacional do Ministério Público pode exercer controle da atuação administrativa e financeira do Ministério Público e do cumprimento dos deveres funcionais de seus membros, observadas as competências previstas no art. 130-A da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "O art. 130-A, § 2º, prevê essa competência, sem transformar o CNMP em órgão jurisdicional que substitua a atuação processual dos membros do Ministério Público."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / PPA LDO LOA",
+      "conceptId": "camara-editorial-linha-de-base-mto2027",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#MTO 2027: linha de base e orçamento de médio prazo"
+      ],
+      "statement": "A linha de base da despesa do MTO 2027 deve incluir automaticamente os custos de políticas novas ainda não aprovadas, pois substitui a função do PPA.",
+      "correctAnswer": "E",
+      "explanation": "Linha de base é a projeção de continuidade das políticas atuais, e o MOMP pode considerar expansão; nenhum substitui o PPA. MTO 2027, cap. 7, seções 7.1 a 7.3."
+    },
+    {
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / elaboração",
+      "conceptId": "camara-editorial-siop-medio-prazo",
+      "mechanism": "distinguir-hipoteses-e-fontes",
+      "theoryRefs": [
+        "article:art-4be219d8f750ac63#PLOA 2027: proposta anual e linha de base no SIOP"
+      ],
+      "statement": "Para o PLOA 2027, o módulo LOA – Médio Prazo do SIOP recebe projeções para 2028–2030 que correspondem às linhas de base das despesas fiscais e da seguridade, sem transformar essas projeções em autorização anual de despesa.",
+      "correctAnswer": "C",
+      "explanation": "O MTO 2027, seção 7.3.3, prevê a apuração de linha de base nesses exercícios, no módulo próprio. A LOA de cada exercício e sua execução seguem requisitos constitucionais e financeiros distintos. MTO 2027, capítulo 7, pp. 174–177."
     }
-  ]
+]
 }

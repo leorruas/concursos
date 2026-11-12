@@ -8768,12 +8768,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
       "articleId": "art-4e9d2a7c813f65b0",
-      "conceptId": "painel-versus-mudanca-de-composicao",
-      "mechanism": "painel-versus-mudanca-de-composicao",
+      "conceptId": "painel-e-medidas-correlacionadas",
+      "mechanism": "painel-e-medidas-correlacionadas",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-4e9d2a7c813f65b0#Desenhos no tempo: transversal, repetido e painel"
       ],
@@ -8781,9 +8781,10 @@
         "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
         "section": "Desenhos no tempo: transversal, repetido e painel"
       },
-      "statement": "Se o objetivo é observar quais respondentes individuais mudaram de opinião após seis meses, entrevistar novamente as mesmas pessoas permite identificar transições que duas amostras independentes não revelam.",
-      "correctAnswer": "C",
-      "explanation": "O painel vincula respostas no tempo. Cortes independentes comparam distribuições, mas não identificam trajetórias individuais."
+      "statement": "Ao estimar a incerteza da variação média em um painel que reentrevistou as mesmas pessoas, é sempre correto tratar as respostas da primeira e da segunda onda como observações independentes.",
+      "correctAnswer": "E",
+      "explanation": "Medidas da mesma pessoa podem ser correlacionadas. A análise de mudanças deve considerar o pareamento, por exemplo, calculando a diferença dentro de cada pessoa antes de resumir a variação.",
+      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito."
     },
     {
       "id": "cam-di-pergunta-dupla-apoio",
@@ -9227,12 +9228,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 3 / métricas de publicidade digital",
       "articleId": "art-3f6d81b2c709a4e5",
-      "conceptId": "atribuicao-de-ultimo-clique",
-      "mechanism": "atribuicao-de-ultimo-clique",
+      "conceptId": "atribuicao-com-mudanca-de-regra",
+      "mechanism": "atribuicao-com-mudanca-de-regra",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3f6d81b2c709a4e5#Atribuição, contribuição e efeito incremental"
       ],
@@ -9240,9 +9241,10 @@
         "path": "3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md",
         "section": "Atribuição, contribuição e efeito incremental"
       },
-      "statement": "Um relatório atribui 40 inscrições ao último anúncio clicado. Esse total mede quantas inscrições teriam deixado de ocorrer na ausência da campanha.",
-      "correctAnswer": "E",
-      "explanation": "O relatório aplica uma regra de atribuição a eventos observados. O efeito incremental exige estimar o que ocorreria sem a campanha."
+      "statement": "Uma equipe aplica regras de primeiro e último clique ao mesmo conjunto fixo de conversões. A participação atribuída a cada canal pode mudar sem que tenha ocorrido alteração na quantidade de conversões.",
+      "correctAnswer": "C",
+      "explanation": "As regras redistribuem crédito pelos eventos registrados. A mudança no relatório pode refletir somente a regra aplicada, com os mesmos resultados observados.",
+      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito."
     },
     {
       "id": "cam-di-eficiencia-com-resultados-distintos",
@@ -9281,12 +9283,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 3 / métodos mistos",
       "articleId": "art-8b1e6d903f42c7a5",
-      "conceptId": "integracao-na-etapa-de-desenho",
-      "mechanism": "integracao-na-etapa-de-desenho",
+      "conceptId": "integracao-e-unidades-distintas",
+      "mechanism": "integracao-e-unidades-distintas",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-8b1e6d903f42c7a5#Métodos mistos: integração com finalidade explícita"
       ],
@@ -9294,9 +9296,10 @@
         "path": "3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md",
         "section": "Métodos mistos: integração com finalidade explícita"
       },
-      "statement": "Uma equipe utiliza entrevistas iniciais para identificar motivos de abandono e transforma esses motivos em alternativas de um questionário aplicado depois. A integração ocorre no desenho do segundo instrumento.",
-      "correctAnswer": "C",
-      "explanation": "O resultado qualitativo orienta a operacionalização da etapa quantitativa. A conexão existe antes da comparação dos resultados finais."
+      "statement": "Uma equipe entrevista dez responsáveis por postos de atendimento e mede o tempo de espera de 600 cidadãos. Para integrar os resultados, pode emparelhar cada entrevista com um tempo individual apenas porque ambos foram coletados no mesmo mês.",
+      "correctAnswer": "E",
+      "explanation": "A integração exige uma relação defensável entre as unidades. É possível comparar resultados agrupados por posto se houver identificadores compatíveis, mas a data comum não justifica pareamento individual.",
+      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito."
     },
     {
       "id": "cam-di-observacao-versus-relato",
@@ -9686,12 +9689,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 3 / mídia",
       "articleId": "art-7d3c9e14a80b62f5",
-      "conceptId": "alcance-acumulado-com-repeticao",
-      "mechanism": "alcance-acumulado-com-repeticao",
-      "questionType": "conceito",
-      "estimatedDifficulty": "facil",
-      "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "conceptId": "alcance-maximo-com-universo-fixo",
+      "mechanism": "alcance-maximo-com-universo-fixo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-7d3c9e14a80b62f5#Deduplicação e alcance entre canais"
       ],
@@ -9699,9 +9702,10 @@
         "path": "3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos.md",
         "section": "Deduplicação e alcance entre canais"
       },
-      "statement": "Somar os totais de espectadores de dois dias mede necessariamente o público distinto do período, mesmo quando algumas pessoas assistem em ambos.",
-      "correctAnswer": "E",
-      "explanation": "O alcance acumulado conta pessoas distintas. Quem assistiu nos dois dias precisa ser contado uma vez."
+      "statement": "Em um universo de 1.000 pessoas, uma transmissão alcança 700 pela manhã e 600 à noite. O alcance distinto diário pode ser menor que 1.000, mas a soma de 1.300 é incompatível com a definição de alcance distinto nesse universo.",
+      "correctAnswer": "C",
+      "explanation": "O alcance distinto é limitado ao total de pessoas do universo. Há pelo menos 300 pessoas em comum entre os horários, e pode haver mais.",
+      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito."
     },
     {
       "id": "cam-di-visualizacoes-na-mesma-visita",

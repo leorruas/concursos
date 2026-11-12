@@ -23648,6 +23648,222 @@
       "statement": "Para tornar uma chamada concisa, a equipe pode retirar a condição que restringe os beneficiários e descrever a medida como se fosse aplicável a todo o público.",
       "correctAnswer": "E",
       "explanation": "A omissão amplia indevidamente o alcance da medida. A concisão preserva condições que mudam o sentido da informação."
+    },
+    {
+      "id": "cam-cs-edital-e-contrato-de-comunicacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "edital-e-contrato-de-comunicacao",
+      "mechanism": "edital-e-contrato-de-comunicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Requisitos (art. 10): condições para tornar a política executável"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Requisitos (art. 10): condições para tornar a política executável"
+      },
+      "statement": "Em uma contratação de produção audiovisual institucional, a Câmara atende integralmente ao requisito de prever a observância da Política de Comunicação se inserir essa previsão somente no contrato, deixando-a fora do edital de licitação.",
+      "correctAnswer": "E",
+      "explanation": "O art. 10, VI, prevê a exigência tanto no edital quanto no contrato."
+    },
+    {
+      "id": "cam-cs-aquisicao-versus-desenvolvimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "aquisicao-versus-desenvolvimento",
+      "mechanism": "aquisicao-versus-desenvolvimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Requisitos (art. 10): condições para tornar a política executável"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Requisitos (art. 10): condições para tornar a política executável"
+      },
+      "statement": "Uma ferramenta atualizada desenvolvida internamente pode satisfazer o requisito tecnológico da Política de Comunicação, desde que atenda às necessidades de seus objetivos e diretrizes.",
+      "correctAnswer": "C",
+      "explanation": "O art. 10, II, admite desenvolvimento ou aquisição de tecnologia atualizada."
+    },
+    {
+      "id": "cam-cs-alcance-como-afericao-incompleta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "alcance-como-afericao-incompleta",
+      "mechanism": "alcance-como-afericao-incompleta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Requisitos (art. 10): condições para tornar a política executável"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Requisitos (art. 10): condições para tornar a política executável"
+      },
+      "statement": "Uma equipe que mede somente o número de postagens já demonstra o cumprimento de uma diretriz de acessibilidade, pois o volume publicado é um indicador objetivo.",
+      "correctAnswer": "E",
+      "explanation": "O art. 10, IV, exige mecanismos para aferir o cumprimento das diretrizes. Volume de produção não mede se os conteúdos oferecem condições de acesso."
+    },
+    {
+      "id": "cam-cs-plano-bienal-implantacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "plano-bienal-implantacao",
+      "mechanism": "plano-bienal-implantacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Atividades, competências e implementação (arts. 13 a 16)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Atividades, competências e implementação (arts. 13 a 16)"
+      },
+      "statement": "As ações desenvolvidas pela Secom e pela Semid, por meio da Direx, para implantar a política integram o Plano Bienal de Comunicação.",
+      "correctAnswer": "C",
+      "explanation": "O art. 14, V, vincula o planejamento e as ações de implantação ao Plano Bienal."
+    },
+    {
+      "id": "cam-cs-direx-supervisao-interna",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "direx-supervisao-interna",
+      "mechanism": "direx-supervisao-interna",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Atividades, competências e implementação (arts. 13 a 16)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Atividades, competências e implementação (arts. 13 a 16)"
+      },
+      "statement": "Uma comunicação voltada exclusivamente aos servidores fica fora da supervisão prevista no art. 14 do Ato da Mesa nº 218/2025, mesmo quando produzida por unidade abrangida pela política.",
+      "correctAnswer": "E",
+      "explanation": "O inciso III inclui a comunicação com públicos internos e externos."
+    },
+    {
+      "id": "cam-cs-producao-audiovisual-participacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "producao-audiovisual-participacao",
+      "mechanism": "producao-audiovisual-participacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Atividades, competências e implementação (arts. 13 a 16)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Atividades, competências e implementação (arts. 13 a 16)"
+      },
+      "statement": "Uma série audiovisual que explica como participar de debates legislativos pode contribuir para o fortalecimento da imagem institucional pela finalidade de transparência e participação descrita no art. 13.",
+      "correctAnswer": "C",
+      "explanation": "O inciso I associa a produção audiovisual à divulgação de informações que estimulem o debate e a participação legislativa."
+    },
+    {
+      "id": "cam-cs-avaliacao-apos-mudanca-de-publico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "avaliacao-apos-mudanca-de-publico",
+      "mechanism": "avaliacao-apos-mudanca-de-publico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Públicos e canais (arts. 8º e 9º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Públicos e canais (arts. 8º e 9º)"
+      },
+      "statement": "A escolha inicial de um canal apoiada em pesquisa de audiência esgota a avaliação exigida pela política, ainda que mudem os hábitos do público ao qual ele se destina.",
+      "correctAnswer": "E",
+      "explanation": "O art. 9º exige avaliação permanente, considerando mudanças tecnológicas e no comportamento dos usuários."
+    },
+    {
+      "id": "cam-cs-segmentacao-sem-exclusao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-91f62eac407bd583",
+      "conceptId": "segmentacao-sem-exclusao",
+      "mechanism": "segmentacao-sem-exclusao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-91f62eac407bd583#Públicos e canais (arts. 8º e 9º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara.md",
+        "section": "Públicos e canais (arts. 8º e 9º)"
+      },
+      "statement": "A obrigação de comunicar-se com todos os cidadãos brasileiros é compatível com a adoção de canais diferentes para públicos com características e interesses distintos.",
+      "correctAnswer": "C",
+      "explanation": "O art. 8º combina a ampliação do acesso com o mapeamento de públicos e a escolha de canais adequados a cada um."
     }
   ]
 }

@@ -53,4 +53,4 @@ Mapeamento de tópicos e organização das notas de Língua Portuguesa para conc
 - **Reescrita entre Registros e Redação Oficial**: [[3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais|34 • Reescrita entre registros, níveis de formalidade, discurso direto e indireto e Redação Oficial]] (CAM-LP-023)
 
 ---
-- **Acompanhamento**: [[Avancos|Avanços e desempenho (Português)]]
+- **Acompanhamento**: registro individual de estudos mantido no cofre privado

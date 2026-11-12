@@ -202,7 +202,7 @@ Operadores adverbiais e prepositivos delimitam estritamente o universo de aplica
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** A comparação de igualdade negativa "is not as costly as" (*não é tão custoso quanto*) estabelece logicamente que o segundo elemento comparado possui custo superior ao primeiro. Logo, manter os escritórios analógicos é mais caro (*more costly*) do que a transmissão digital. A paráfrase é impecável do ponto de vista lógico e semântico.
+**Comentário:** Em inglês corrente, *is not as costly as* apresenta o custo da transmissão digital como inferior ao da manutenção dos escritórios. Nesse contexto comparativo natural, *the offices are more costly* é uma paráfrase aceitável. A construção não fornece valores numéricos de custo, e a análise não deve atribuir a ela uma prova matemática independente do uso e do contexto. Compare *A is not as costly as B* (desigualdade normalmente implicada) com *A is no more costly than B* (A pode ser igual ou menos custoso).
 
 ---
 

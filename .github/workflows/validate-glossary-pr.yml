@@ -8,7 +8,9 @@ on:
       - 'scripts/test-glossary-browser.cjs'
       - 'scripts/build-site.js'
       - '.github/workflows/validate-glossary-pr.yml'
-      - '3 - Materias/**'
+      - 'web/09-glossary.js'
+      - 'style.css'
+      - 'index.html'
   workflow_dispatch:
 
 concurrency:

@@ -128,6 +128,24 @@ Uma oração subordinada é chamada de **reduzida** quando **não possui conecti
 
 ---
 
+## 5A. Subordinação entre termos: relações internas à oração
+
+O edital também inclui **subordinação entre termos**, isto é, dependências que ocorrem **sem uma segunda oração**. Um núcleo pode exigir ou admitir outro termo que o complete, determine ou caracterize. É necessário distinguir a relação sintática entre termos da subordinação **entre orações**, em que uma oração inteira desempenha função em relação à principal.
+
+**Caso progressivo 1, regência verbal:** *“A comissão necessita de informações.”* O verbo *necessita* exige o complemento preposicionado *de informações*, que é **objeto indireto**. Há **uma oração**, embora exista relação de dependência entre núcleo verbal e complemento.
+
+**Caso progressivo 2, regência nominal:** *“A necessidade de informações motivou o pedido.”* O substantivo abstrato *necessidade* recebe o complemento preposicionado *de informações*, analisável como **complemento nominal**, e o grupo todo integra o sujeito. A função sintática mudou em relação ao caso anterior, ainda sem criar outra oração.
+
+**Caso progressivo 3, oração substantiva:** *“A comissão necessita de que as informações sejam publicadas.”* Agora o conteúdo exigido por *necessita de* é **uma oração subordinada substantiva objetiva indireta**, introduzida por *de que*, com verbo próprio (*sejam publicadas*). A forma reduzida pode exigir análise adicional; conte os núcleos verbais e verifique a função da oração encaixada.
+
+**Caso de fronteira, adjunto adnominal versus complemento nominal:** em *“a análise dos relatórios”*, *dos relatórios* designa o alvo da análise, favorecendo a leitura de **complemento nominal**. Em *“a análise da comissão”*, *da comissão* pode designar quem analisa, favorecendo a leitura de **adjunto adnominal**. O mesmo *de* não determina sozinho a classificação: examine o **papel semântico do termo** e o sentido do substantivo.
+
+**Teste comentado, C/E inédito:** “Em ‘A comissão depende de recursos’, a existência de objeto indireto prova que o período é composto por subordinação.” **ERRADO.** A dependência é **entre termos da mesma oração**; não há segunda forma verbal ou oração subordinada.
+
+**Relações:** [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|Termos essenciais, integrantes e acessórios]], [[3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos|Regência]] e [[3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas|Coordenação]]. O teste é um caso didático extra, distinto dos seis itens formais.
+
+---
+
 ## 6. Casos Práticos na Interpretação e Reescrita Cebraspe
 
 ### Caso 1: Supressão de Vírgula em Oração Adjetiva Explicativa

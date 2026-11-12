@@ -27008,6 +27008,222 @@
       "statement": "Se as datas e valores de uma obra estão corretos, o órgão pode tratar a entrega como realização pessoal exclusiva da autoridade sem risco de contrariar o § 1º.",
       "correctAnswer": "E",
       "explanation": "A precisão dos dados não resolve o personalismo do enquadramento. É necessário avaliar como a peça atribui e valoriza a realização."
+    },
+    {
+      "id": "cam-cs-pub-urgencia-reconhecida-pela-autoridade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "urgencia-reconhecida-pela-autoridade",
+      "mechanism": "urgencia-reconhecida-pela-autoridade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Eleições: restrições específicas e norma permanente"
+      },
+      "statement": "No período em que incide o art. 73, VI, b, da Lei das Eleições, o reconhecimento de grave e urgente necessidade pública pelo próprio órgão anunciante basta para aplicar a ressalva prevista no dispositivo.",
+      "correctAnswer": "E",
+      "explanation": "A ressalva exige reconhecimento da grave e urgente necessidade pública pela Justiça Eleitoral."
+    },
+    {
+      "id": "cam-cs-pub-competicao-e-excecao-eleitoral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "competicao-e-excecao-eleitoral",
+      "mechanism": "competicao-e-excecao-eleitoral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Eleições: restrições específicas e norma permanente"
+      },
+      "statement": "Na análise da vedação do art. 73, VI, b, da Lei das Eleições, importa verificar se a peça anuncia produto ou serviço que tenha concorrência no mercado.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo excepciona a propaganda de produtos e serviços com concorrência no mercado. A hipótese deve ser verificada antes de aplicar a vedação."
+    },
+    {
+      "id": "cam-cs-pub-esfera-do-pleito-para-incidencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "esfera-do-pleito-para-incidencia",
+      "mechanism": "esfera-do-pleito-para-incidencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Eleições: restrições específicas e norma permanente"
+      },
+      "statement": "A incidência das vedações do art. 73, VI, b e c, da Lei das Eleições independe da esfera administrativa cujos cargos estejam em disputa.",
+      "correctAnswer": "E",
+      "explanation": "O § 3º limita as duas vedações aos agentes públicos das esferas administrativas cujos cargos estejam em disputa na eleição."
+    },
+    {
+      "id": "cam-cs-pub-urgencia-e-impessoalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "urgencia-e-impessoalidade",
+      "mechanism": "urgencia-e-impessoalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Eleições: restrições específicas e norma permanente"
+      },
+      "statement": "O reconhecimento eleitoral de necessidade grave e urgente para divulgar uma campanha deixa subsistente a análise de eventual promoção pessoal nos termos da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "A ressalva eleitoral trata da autorização no período restrito. A publicidade continua sujeita à vedação constitucional de promoção pessoal."
+    },
+    {
+      "id": "cam-cs-pub-prazo-eleitoral-e-inicio-da-propaganda",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "prazo-eleitoral-e-inicio-da-propaganda",
+      "mechanism": "prazo-eleitoral-e-inicio-da-propaganda",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Eleições: restrições específicas e norma permanente"
+      },
+      "statement": "A vedação do art. 73, VI, b, inicia-se na data autorizada para o começo da propaganda eleitoral, independentemente da contagem de meses até o pleito.",
+      "correctAnswer": "E",
+      "explanation": "O inciso VI usa como marco os três meses anteriores ao pleito. A data de início da propaganda eleitoral segue regra distinta."
+    },
+    {
+      "id": "cam-cs-pub-autoria-apurada-por-contratacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "autoria-apurada-por-contratacao",
+      "mechanism": "autoria-apurada-por-contratacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Procedimento de avaliação de uma peça institucional"
+      },
+      "statement": "Se um material de divulgação menciona o nome de uma unidade, mas o expediente aponta contratação por outra, apurar quem contratou e qual canal publicou a peça ajuda a identificar as regras incidentes.",
+      "correctAnswer": "C",
+      "explanation": "A identificação visual não resolve autoria, contratação nem responsabilidade pelo canal. Esses elementos devem ser verificados no contexto."
+    },
+    {
+      "id": "cam-cs-pub-analise-limitada-ao-texto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "analise-limitada-ao-texto",
+      "mechanism": "analise-limitada-ao-texto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Procedimento de avaliação de uma peça institucional"
+      },
+      "statement": "Se a legenda de um vídeo institucional é neutra, a verificação da finalidade da publicidade pode desconsiderar a trilha, a montagem e as imagens.",
+      "correctAnswer": "E",
+      "explanation": "Elementos audiovisuais também podem conferir centralidade laudatória a uma pessoa ou alterar a finalidade aparente da peça."
+    },
+    {
+      "id": "cam-cs-pub-material-antigo-em-nova-distribuicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "material-antigo-em-nova-distribuicao",
+      "mechanism": "material-antigo-em-nova-distribuicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Eleições: restrições específicas e norma permanente"
+      },
+      "statement": "Ao decidir redistribuir uma peça institucional produzida antes do período eleitoral, a equipe deve examinar as regras aplicáveis à nova divulgação.",
+      "correctAnswer": "C",
+      "explanation": "A produção anterior não resolve a incidência das restrições sobre uma divulgação posterior. É preciso examinar a data, o conteúdo e o âmbito da nova distribuição."
     }
   ]
 }

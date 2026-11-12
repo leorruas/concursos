@@ -128,17 +128,15 @@ A demissão é a sanção disciplinar máxima aplicável ao servidor ativo. O ar
 12. Acumulação ilegal de cargos, empregos ou funções públicas (se comprovada a má-fé, art. 133, § 6º);
 13. Transgressão do art. 117, incisos IX a XVI (valer-se do cargo para proveito pessoal, exercer comércio/gerência mercantil, atuar como procurador perante repartições, receber propina/vantagem, aceitar comissão/pensão de estado estrangeiro, praticar usura e proceder de forma desidiosa).
 
-### 2.4 Efeitos da demissão: prazos de incompatibilidade e impedimento de retorno
+### 2.4 Efeitos da demissão: incompatibilidade temporária e controle de constitucionalidade
 
-A demissão acarreta a perda do cargo público e projeta efeitos restritivos para novas investiduras funcionais (art. 137):
+O art. 137 da Lei nº 8.112/1990 estabelece hipóteses de incompatibilidade para nova investidura em cargo público federal. O **caput** prevê prazo de **cinco anos** para demissão ou destituição de cargo em comissão por infração ao art. 117, IX ou XI.
 
-- **Incompatibilidade geral por 5 (cinco) anos:** a demissão por valer-se do cargo para lograr proveito pessoal (art. 117, IX) ou por atuar como procurador perante repartição pública (art. 117, XI) incompatibiliza o ex-servidor para nova investidura em cargo público federal pelo prazo de **5 (cinco) anos**;
-- **Vedação definitiva de retorno ao serviço público federal (art. 137, parágrafo único):** não poderá retornar ao serviço público federal o servidor que for demitido por:
-  - Crime contra a administração pública;
-  - Improbidade administrativa;
-  - Aplicação irregular de dinheiros públicos;
-  - Lesão aos cofres públicos e dilapidação do patrimônio nacional;
-  - Corrupção.
+O parágrafo único do art. 137, em sua redação original, previa impedimento definitivo de retorno ao serviço público federal em hipóteses como crime contra a administração, improbidade administrativa, aplicação irregular de recursos, lesão ao erário e corrupção. O **STF declarou inconstitucional essa restrição perpétua na ADI 2.975**. Ao julgar embargos de declaração em 2023, esclareceu que **o prazo de cinco anos do caput também se aplica às hipóteses do parágrafo único até que sobrevenha disciplina legislativa diversa**.
+
+**Caso progressivo:** (1) a demissão por infração ao art. 117, IX, atrai a incompatibilidade de cinco anos prevista no caput; (2) se a demissão decorreu de corrupção, a redação original sugeria restrição perpétua, mas a ADI 2.975 impede aplicá-la; (3) enquanto não houver nova lei, utiliza-se também para o segundo caso o prazo de cinco anos. **Contraexemplo:** afirmar que a gravidade da corrupção autoriza automaticamente impedimento vitalício, apesar da decisão do STF.
+
+Fonte primária: [STF, ADI 2.975, embargos de declaração, publicação de 2023](https://www.tst.jus.br/documents/10157/31760431/STF%2B-%2BA%C3%A7%C3%A3o%2BDireta%2Bde%2BInconstitucionalidade%2Bn%C2%BA%2B2.975%2C%2BDOU%2Bde%2B26.5.2023%2B-%2BADI-ED.pdf/ac22d3ef-d140-3138-4577-672bbef9eb4f?download=true&t=1688400959344). Conferir eventual legislação superveniente antes de aplicar a regra a fatos futuros.
 
 ### 2.5 Cassação de aposentadoria ou disponibilidade (art. 134)
 
@@ -182,17 +180,23 @@ O prazo de prescrição começa a correr da data em que o fato se tornou **conhe
 
 ### 3.3 Infrações que também configuram crime (art. 142, § 2º)
 
-Os prazos de prescrição previstos na lei penal aplicam-se às infrações disciplinares capituladas também como crime.
-- **Entendimento do STJ (Súmula 635) e do STF:** a aplicação da prescrição penal na esfera administrativa pressupõe que o fato tenha sido objeto de apuração ou instauração de persecução penal formal (ação penal). Sem persecução penal deflagrada, a prescrição rege-se pelos prazos autônomos da Lei nº 8.112/1990.
+Quando a **infração disciplinar também é tipificada como crime**, aplicam-se os prazos de prescrição previstos na legislação penal, conforme art. 142, § 2º, da Lei nº 8.112/1990. **Não é necessária instauração de inquérito policial, investigação criminal ou ação penal**. Esse entendimento foi firmado pela Primeira Seção do STJ no **MS 20.857/DF**, julgado em 22/05/2019, superando orientação anterior que exigia apuração criminal.
 
-### 3.4 Interrupção da prescrição e o marco de reinício (art. 142, §§ 3º e 4º)
+A administração deve demonstrar o enquadramento penal da conduta descrita na apuração disciplinar; mera afirmação sem suporte fático e jurídico não basta. A independência das instâncias permite que a capitulação penal relevante para o prazo seja apreciada no processo disciplinar.
 
-A abertura de sindicância ou a instauração de processo disciplinar **interrompe a prescrição**, até a decisão final proferida por autoridade competente.
+**Exemplo:** um servidor pratica conduta disciplinar também tipificada como crime, mas nenhum inquérito é aberto. A ausência de investigação criminal **não afasta por si** a incidência do prazo penal. Se a conduta não corresponder a infração penal, aplica-se o prazo disciplinar próprio do art. 142.
 
-> **Súmula nº 635 do STJ:**  
-> *"Os prazos prescricionais previstos no art. 142 da Lei n. 8.112/1990 iniciam-se na data em que a autoridade competente para a abertura do procedimento administrativo toma conhecimento do fato, interrompem-se com o primeiro ato de instauração válido — sindicância de caráter punitivo ou processo disciplinar — e voltam a fluir por inteiro, após decorridos 140 dias desde a interrupção em caso de PAD, ou 80 dias no caso de sindicância, ou, antes desse prazo, com a prolação da decisão final."*
+Fonte: [STJ, MS 20.857/DF, Primeira Seção, DJe 12/06/2019](https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&fr=veja&i=1&livre=%28%27MS%27+INPATH%28CLAP%29+AND+%2720857%27+INPATH%28NUM%29%29+OR+%28%28%27MS+20857%27%29+INPATH%28SUCE%29%29).
 
-A interrupção da prescrição não opera efeito perpétuo: escoado o prazo legal máximo de conclusão do processo (60 dias de instauração + 60 de prorrogação + 20 de julgamento = 140 dias), o prazo prescricional que havia sido zerado **recomeça a correr por inteiro**.
+### 3.4 Interrupção da prescrição e reinício do prazo (art. 142, §§ 3º e 4º)
+
+O primeiro ato válido de instauração de **sindicância punitiva** ou de **processo administrativo disciplinar (PAD)** interrompe o prazo prescricional. A Súmula 635 do STJ fixa o momento de conhecimento da infração pela autoridade competente como início da contagem e determina o retorno da fluência **por inteiro após 140 dias desde a interrupção**.
+
+> **Súmula 635 do STJ, texto oficial:** “Os prazos prescricionais previstos no art. 142 da Lei n. 8.112/1990 iniciam-se na data em que a autoridade competente para a abertura do procedimento administrativo toma conhecimento do fato, interrompem-se com o primeiro ato de instauração válido - sindicância de caráter punitivo ou processo disciplinar - e voltam a fluir por inteiro, após decorridos 140 dias desde a interrupção.”
+
+O enunciado **não contém a expressão “80 dias para sindicância”**. Eventuais distinções de prazo feitas em julgados específicos devem ser identificadas e fundamentadas em separado, sem serem atribuídas à redação da súmula. Os **60 dias de duração inicial da comissão, até 60 de prorrogação e 20 dias para julgamento**, que explicam a referência de 140 dias no PAD ordinário, são prazos procedimentais diferentes do prazo prescricional de cinco, dois anos ou 180 dias, conforme a sanção (art. 142). O reinício após a interrupção não deve ser confundido com cessação automática do afastamento preventivo, disciplinado pelo art. 147.
+
+Fonte: [STJ, texto oficial da Súmula 635](https://scon.stj.jus.br/SCON/sumstj/doc.jsp?b=SUMU&i=1&l=10&livre=%22635%22.num.&operador=AND&ordenacao=-%40NUM&p=false).
 
 ---
 
@@ -207,8 +211,8 @@ A interrupção da prescrição não opera efeito perpétuo: escoado o prazo leg
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **2.** A penalidade de demissão decorrente de ato de corrupção ou improbidade administrativa acarreta a proibição perpétua de retorno do ex-servidor ao serviço público federal, não sendo aplicável, nesses casos, o prazo de incompatibilidade de cinco anos reservado para faltas de menor potencial ofensivo.
 
-> **Gabarito: CERTO**  
-> **Comentário:** Nos termos do art. 137, parágrafo único, da Lei nº 8.112/1990, não poderá retornar ao serviço público federal o servidor que for demitido por crime contra a administração pública, improbidade administrativa, aplicação irregular de dinheiros públicos, lesão aos cofres públicos e dilapidação do patrimônio nacional, ou corrupção. A incompatibilidade transitória de 5 anos aplica-se estritamente aos incisos IX e XI do art. 117 (valer-se do cargo para proveito pessoal e atuar como procurador junto a repartições).
+> **Gabarito: ERRADO**  
+> **Comentário:** A ADI 2.975 declarou inconstitucional a vedação perpétua do art. 137, parágrafo único, da Lei nº 8.112/1990. Nos embargos julgados em 2023, o STF esclareceu que a incompatibilidade de **cinco anos**, prevista no caput, também alcança essas hipóteses até nova disciplina legal. Por isso, o enunciado erra ao afirmar proibição perpétua e ao negar a incidência do prazo quinquenal. Fonte: [ADI 2.975, embargos de declaração](https://www.tst.jus.br/documents/10157/31760431/STF%2B-%2BA%C3%A7%C3%A3o%2BDireta%2Bde%2BInconstitucionalidade%2Bn%C2%BA%2B2.975%2C%2BDOU%2Bde%2B26.5.2023%2B-%2BADI-ED.pdf/ac22d3ef-d140-3138-4577-672bbef9eb4f?download=true&t=1688400959344).
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **3.** O prazo de prescrição da ação disciplinar contra servidor público federal começa a correr a partir da data em que a infração foi efetivamente cometida no ambiente de trabalho, interrompendo-se com a portaria de instauração do processo administrativo disciplinar.

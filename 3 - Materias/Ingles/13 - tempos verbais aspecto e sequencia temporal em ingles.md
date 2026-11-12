@@ -26,7 +26,7 @@ Para interpretar com precisão o discurso formal em inglês, é essencial compre
 
 - **Tempo (*Tense*):** Localização do evento no eixo cronológico em relação ao momento da fala (Passado, Presente ou Futuro).
 - **Aspecto (*Aspect*):** O modo como a ação verbal é encarada pelo enunciador em relação à sua duração, conclusão ou permanência:
-  - **Simples (*Simple*):** O evento é visto como um todo indivisível, factual e permanente.
+  - **Simples (*Simple*):** Apresenta o evento sem marcar explicitamente seu desenvolvimento interno; pode descrever hábitos, fatos gerais ou acontecimentos pontuais e temporários.
   - **Contínuo/Progressivo (*Continuous/Progressive*):** A ação é retratada em curso, temporária ou incompleta.
   - **Perfeito (*Perfect*):** A ação é vista como anterior a um determinado ponto de referência, estabelecendo uma ponte temporal.
   - **Perfeito Contínuo (*Perfect Continuous*):** Enfatiza a duração contínua de um processo que desemboca no ponto de referência.
@@ -82,7 +82,7 @@ $$\text{[Evento A - Mais Antigo: Past Perfect (had + part.)]} \longrightarrow \t
 
 ## 4. Sequência dos Tempos no Discurso Indireto (*Sequence of Tenses*)
 
-Em textos institucionais e notícias sobre o Legislativo, declarações e relatórios são frequentemente transpostos para o discurso indireto (*reported speech*). Quando o verbo de elocução introdutório está no passado (*The president stated, the rapporteur declared*), todos os verbos da oração subordinada sofrem o recuo temporal obrigatório (*backshift*):
+Em textos institucionais e notícias sobre o Legislativo, declarações e relatórios são frequentemente transpostos para o discurso indireto (*reported speech*). Quando o verbo introdutório está no passado (*The president stated, the rapporteur declared*), o **backshift** é frequente para situar a fala no passado. Contudo, não é universal nem obrigatório: pode ser omitido, por exemplo, quando a informação permanece verdadeira ou quando o futuro mencionado continua à frente do momento de quem relata. Compare *She said that the portal would open in December* (futuro visto a partir da fala passada) com *She said that the portal will open in December* (abertura ainda futura para quem relata). As linhas abaixo mostram transformações possíveis, e não as únicas aceitáveis:
 
 | Discurso Direto (Original) | Discurso Indireto com Verbo Introdutório no Passado |
 | :--- | :--- |
@@ -151,8 +151,8 @@ Em textos institucionais e notícias sobre o Legislativo, declarações e relat�
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** Trata-se da aplicação estrita da regra da sequência dos tempos (*sequence of tenses*). Com o verbo introdutório no passado simples (*affirmed*), o modal de futuro *will* sofre recuo temporal obrigatório para *would* no discurso indireto.
+**Gabarito: Errado**  
+**Comentário:** *Would guarantee* é uma transformação possível e comum após *affirmed*, mas *will guarantee* também pode ser mantido se a garantia ainda disser respeito a um futuro vigente na perspectiva de quem relata. A assertiva torna obrigatório um recuo que depende do contexto. Sem marco temporal para a narração indireta, não se pode exigir a substituição como condição de correção gramatical.
 
 ---
 

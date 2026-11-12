@@ -100,7 +100,7 @@ A pós-produção envolve etapas diferentes, ainda que possam se sobrepor em equ
 | **Controle de qualidade (QC)** | Verificar integridade audiovisual e requisitos de entrega | Não equivale automaticamente à aprovação jurídica/editorial |
 | **Master e versões** | Gerar arquivo mestre e derivações específicas | Arquivo exportado não é publicação validada |
 
-**Montagem × mixagem:** organização de trechos audiovisuais versus combinação de elementos sonoros em níveis e relações adequados. **Correção de cor × gradação:** uniformização técnica e tratamento expressivo; não se confundem necessariamente, conforme nota 115. **Picture lock × publicação:** estabilizar a edição principal não dispensa revisão, controle de qualidade, legendagem, exportação, metadados e autorização.
+**Montagem × mixagem:** organização de trechos audiovisuais versus combinação de elementos sonoros em níveis e relações adequados. **Correção de cor × gradação:** uniformização técnica e tratamento expressivo; não se confundem necessariamente, conforme [[3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais|Produção para rádio, televisão e redes sociais: roteiro, captação, edição e entrega]]. **Picture lock × publicação:** estabilizar a edição principal não dispensa revisão, controle de qualidade, legendagem, exportação, metadados e autorização.
 
 **Proxy:** cópia de trabalho otimizada para edição, geralmente mais leve que o material original. **Original de câmera:** arquivo de origem da captação. **Reconformação (relink/conform)** associa decisões de edição aos originais ou arquivos finais apropriados. Editar com proxies não significa necessariamente que a versão publicada deva usar a resolução reduzida desses proxies.
 

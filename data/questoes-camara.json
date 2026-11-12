@@ -36006,23 +36006,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-484ca8ef752c3d9a",
-      "conceptId": "tabela-dinamica-atualizacao-universal",
-      "mechanism": "generalizar-auto-refresh",
+      "conceptId": "media-zero-versus-vazio",
+      "mechanism": "calcular-denominador-com-zero",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-484ca8ef752c3d9a#5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)"
+        "article:art-484ca8ef752c3d9a#4. Catálogo de funções de alta incidência Cebraspe"
       ],
       "source": {
         "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
-        "section": "5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)"
+        "section": "4. Catálogo de funções de alta incidência Cebraspe"
       },
-      "statement": "Toda Tabela Dinâmica do Excel 365 se atualiza imediatamente após qualquer alteração na origem, independentemente de versão, tipo de dados e configuração, sendo impossível precisar do comando Atualizar.",
+      "statement": "Uma planilha contém os valores 10 e 0 e uma terceira célula vazia. Aplicada ao intervalo, a função MÉDIA retorna 10, pois ignora tanto a célula vazia quanto o zero.",
       "correctAnswer": "E",
-      "explanation": "Há cenários de atualização automática e cenários em que a atualização manual ou configurada é necessária; a regra não é universal.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)\" do artigo 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "MÉDIA ignora a célula vazia, mas o zero é valor numérico e entra no denominador: (10 + 0)/2 = 5. Não se deve tratar zero e vazio como equivalentes.",
+      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 008. Questão original substituída por novo mecanismo (calcular-denominador-com-zero) após detecção de redundância; comparação orientada pelo artigo art-484ca8ef752c3d9a, heading literal '4. Catálogo de funções de alta incidência Cebraspe'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
     },
     {
       "id": "cam-ti-l026-009-onedrive-acesso-existente",
@@ -36090,23 +36090,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e4d63009042ff1a1",
-      "conceptId": "onedrive-restaurar-versao-anterior",
-      "mechanism": "distinguir-restauracao-e-apagar-historico",
+      "conceptId": "onedrive-segundo-estagio-lixeira",
+      "mechanism": "distinguir-exclusao-da-primeira-e-da-segunda-lixeira",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-e4d63009042ff1a1#4. Histórico de Versões (*Version History*)"
+        "article:art-e4d63009042ff1a1#5. A Lixeira em dois estágios do OneDrive corporativo"
       ],
       "source": {
         "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
-        "section": "4. Histórico de Versões (*Version History*)"
+        "section": "5. A Lixeira em dois estágios do OneDrive corporativo"
       },
-      "statement": "O histórico de versões pode permitir a recuperação do conteúdo de uma versão anterior de um documento sem exigir a destruição de todas as versões mais recentes do arquivo.",
+      "statement": "Em uma conta corporativa do OneDrive, a exclusão de um arquivo da primeira lixeira não implica necessariamente perda definitiva: quando ainda disponível no segundo estágio e dentro das regras de retenção, o item pode ser recuperado por usuário autorizado.",
       "correctAnswer": "C",
-      "explanation": "Em fluxos de versionamento, restaurar um estado anterior pode criar uma nova versão com aquele conteúdo, preservando o histórico segundo as políticas aplicáveis.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Histórico de Versões (*Version History*)\" do artigo 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "O segundo estágio pode manter itens após a remoção da primeira lixeira, dentro da janela e das permissões aplicáveis. Recuperação não é garantia incondicional após exclusão definitiva ou expiração do prazo.",
+      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 011. Questão original substituída por novo mecanismo (distinguir-exclusao-da-primeira-e-da-segunda-lixeira) após detecção de redundância; comparação orientada pelo artigo art-e4d63009042ff1a1, heading literal '5. A Lixeira em dois estágios do OneDrive corporativo'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
     },
     {
       "id": "cam-ti-l026-012-onedrive-bloqueio-download-e-captura",
@@ -36118,23 +36118,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e4d63009042ff1a1",
-      "conceptId": "onedrive-bloqueio-download-e-captura",
-      "mechanism": "absolutizar-controle-de-interface",
+      "conceptId": "onedrive-coautoria-simultanea",
+      "mechanism": "distinguir-coautoria-de-bloqueio-exclusivo",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-e4d63009042ff1a1#2. Tipos de links de compartilhamento e escopos de permissão"
+        "article:art-e4d63009042ff1a1#3. Coautoria (*Co-authoring*) e salvamento automático (*AutoSave*)"
       ],
       "source": {
         "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
-        "section": "2. Tipos de links de compartilhamento e escopos de permissão"
+        "section": "3. Coautoria (*Co-authoring*) e salvamento automático (*AutoSave*)"
       },
-      "statement": "Quando uma política de compartilhamento bloqueia o download de um documento no navegador, a informação fica tecnicamente protegida contra qualquer cópia, inclusive fotografia da tela.",
+      "statement": "Quando duas pessoas possuem permissão de edição em um arquivo do Excel armazenado no OneDrive, a coautoria exige que uma delas encerre o arquivo para que a outra possa modificar células, mesmo em configurações compatíveis com edição simultânea.",
       "correctAnswer": "E",
-      "explanation": "Bloquear o download pela interface não impede todos os meios de reprodução da informação; a proteção não é absoluta.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Tipos de links de compartilhamento e escopos de permissão\" do artigo 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "Em cenários compatíveis, a coautoria permite edições simultâneas no mesmo arquivo compartilhado. A disponibilidade concreta depende do formato, cliente, permissões e configuração, mas não há obrigação geral de edição sequencial.",
+      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 012. Questão original substituída por novo mecanismo (distinguir-coautoria-de-bloqueio-exclusivo) após detecção de redundância; comparação orientada pelo artigo art-e4d63009042ff1a1, heading literal '3. Coautoria (*Co-authoring*) e salvamento automático (*AutoSave*)'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
     },
     {
       "id": "cam-ti-l026-013-integridade-alteracao-sem-parada",
@@ -36174,8 +36174,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-cdd153e7d11a16e6",
-      "conceptId": "ddos-apenas-sigilo",
-      "mechanism": "confundir-disponibilidade-e-confidencialidade",
+      "conceptId": "hash-sem-referencia-confiavel",
+      "mechanism": "exigir-referencia-de-integridade-confiavel",
       "questionType": "distincao",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
@@ -36187,10 +36187,10 @@
         "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
         "section": "1. Os cinco princípios fundamentais (CIDAN)"
       },
-      "statement": "Um ataque de negação de serviço distribuída que impede cidadãos de acessar um portal afeta diretamente apenas a confidencialidade, porque nenhuma informação foi necessariamente modificada.",
+      "statement": "Calcular o hash SHA-256 de um documento recebido e guardá-lo no mesmo local do documento, sem dispor de um resumo anterior obtido por canal confiável, é suficiente, por si só, para provar que o documento não foi adulterado antes do recebimento.",
       "correctAnswer": "E",
-      "explanation": "DDoS reduz ou impede a disponibilidade do serviço; confidencialidade trata de divulgação não autorizada.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"1. Os cinco princípios fundamentais (CIDAN)\" do artigo 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "O hash permite comparar integridade quando há referência confiável. Um invasor pode substituir simultaneamente o arquivo e o resumo; calcular o hash apenas depois do recebimento não prova autenticidade histórica.",
+      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 014. Questão original substituída por novo mecanismo (exigir-referencia-de-integridade-confiavel) após detecção de redundância; comparação orientada pelo artigo art-cdd153e7d11a16e6, heading literal '1. Os cinco princípios fundamentais (CIDAN)'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
     },
     {
       "id": "cam-ti-l026-015-ids-deteccao-classificacao",
@@ -36258,23 +36258,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e4f1e43ef81ff76b",
-      "conceptId": "backup-diferencial-acumulacao",
-      "mechanism": "avaliar-intervalo-desde-completo",
+      "conceptId": "backup-regra-321-cenario-concreto",
+      "mechanism": "avaliar-copias-midias-localizacao",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-e4f1e43ef81ff76b#2. Matriz comparativa dos tipos de backup"
+        "article:art-e4f1e43ef81ff76b#4. Estratégia de segurança: a regra 3-2-1 de backup"
       ],
       "source": {
         "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
-        "section": "2. Matriz comparativa dos tipos de backup"
+        "section": "4. Estratégia de segurança: a regra 3-2-1 de backup"
       },
-      "statement": "Após um backup completo no domingo, um documento foi alterado na segunda e novamente na terça. Em uma estratégia diferencial clássica, a cópia diferencial de terça incluirá esse documento, mesmo que ele já estivesse na cópia diferencial de segunda.",
+      "statement": "Uma organização conserva os dados de produção em SSD local, mantém uma cópia de segurança em fita no próprio prédio e outra cópia em armazenamento remoto. Considerando cópias independentes e recuperáveis, essa estrutura pode satisfazer a regra 3-2-1.",
       "correctAnswer": "C",
-      "explanation": "O diferencial compara as alterações com o último backup completo; modificações posteriores continuam cobertas nos diferenciais seguintes, independentemente do diferencial intermediário.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar e substituição por baixa novidade em relação a item histórico da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz comparativa dos tipos de backup\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "Há três cópias incluindo a de produção, dois meios tecnológicos (SSD e fita, além do remoto) e ao menos uma cópia fora do local. A regra requer que as cópias realmente possam ser usadas na recuperação.",
+      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 017. Questão original substituída por novo mecanismo (avaliar-copias-midias-localizacao) após detecção de redundância; comparação orientada pelo artigo art-e4f1e43ef81ff76b, heading literal '4. Estratégia de segurança: a regra 3-2-1 de backup'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
     },
     {
       "id": "cam-ti-l026-018-backup-incremental-elo-perdido",
@@ -36286,23 +36286,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e4f1e43ef81ff76b",
-      "conceptId": "backup-incremental-elo-perdido",
-      "mechanism": "avaliar-cadeia-de-restauracao-incompleta",
+      "conceptId": "backup-pastas-mesmo-disco-nao-sao-duas-midias",
+      "mechanism": "distinguir-diretorios-de-meios-independentes",
       "questionType": "distincao",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-e4f1e43ef81ff76b#2. Matriz comparativa dos tipos de backup"
+        "article:art-e4f1e43ef81ff76b#4. Estratégia de segurança: a regra 3-2-1 de backup"
       ],
       "source": {
         "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
-        "section": "2. Matriz comparativa dos tipos de backup"
+        "section": "4. Estratégia de segurança: a regra 3-2-1 de backup"
       },
-      "statement": "Uma instituição mantém um backup completo de domingo e cópias incrementais de segunda e terça. A mídia incremental de segunda é perdida. Mesmo assim, a presença do completo e do incremental de terça garante, por si só, a restauração integral do estado de terça.",
+      "statement": "Para cumprir a regra 3-2-1, basta manter dois backups em duas pastas diferentes do mesmo disco físico, pois duas pastas representam necessariamente dois tipos de mídia independentes.",
       "correctAnswer": "E",
-      "explanation": "No esquema incremental clássico, a restauração de terça depende das alterações de segunda e terça. Sem a cópia de segunda, o último incremental isolado não contém necessariamente os dados perdidos.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar e substituição por baixa novidade em relação a item histórico da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz comparativa dos tipos de backup\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "Duas pastas no mesmo disco compartilham o risco de falha desse único dispositivo e não constituem dois tipos de mídia. A regra recomenda cópias distribuídas por meios distintos e ao menos uma fora do local.",
+      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 018. Questão original substituída por novo mecanismo (distinguir-diretorios-de-meios-independentes) após detecção de redundância; comparação orientada pelo artigo art-e4f1e43ef81ff76b, heading literal '4. Estratégia de segurança: a regra 3-2-1 de backup'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
     },
     {
       "id": "cam-ti-l026-019-rpo-perda-maxima-de-dados",
@@ -36370,23 +36370,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-2f178d9576d10289",
-      "conceptId": "spear-phishing-mensagem-contextualizada",
-      "mechanism": "diferenciar-massivo-direcionado",
+      "conceptId": "tailgating-acesso-fisico-por-carona",
+      "mechanism": "identificar-engenharia-social-em-acesso-fisico",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-2f178d9576d10289#1. Phishing: modalidades e táticas de engodo"
+        "article:art-2f178d9576d10289#3. Outras técnicas clássicas de engenharia social"
       ],
       "source": {
         "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
-        "section": "1. Phishing: modalidades e táticas de engodo"
+        "section": "3. Outras técnicas clássicas de engenharia social"
       },
-      "statement": "Uma mensagem maliciosa preparada para um único gabinete, com nomes reais de integrantes da equipe e referência a um projeto em andamento, é compatível com spear phishing.",
+      "statement": "Um invasor entra em uma área restrita aproveitando a passagem de um servidor autorizado pela porta controlada por crachá, sem apresentar sua própria credencial. Essa conduta é exemplo de tailgating, uma técnica de engenharia social física.",
       "correctAnswer": "C",
-      "explanation": "Spear phishing é fraude direcionada que personaliza o engodo para aumentar credibilidade, diferentemente do disparo massivo genérico.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"1. Phishing: modalidades e táticas de engodo\" do artigo 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "Tailgating é a entrada não autorizada por 'carona' no acesso físico de alguém autorizado. A estratégia explora comportamento humano e pode dispensar mensagens ou links maliciosos.",
+      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 021. Questão original substituída por novo mecanismo (identificar-engenharia-social-em-acesso-fisico) após detecção de redundância; comparação orientada pelo artigo art-2f178d9576d10289, heading literal '3. Outras técnicas clássicas de engenharia social'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
     },
     {
       "id": "cam-ti-l026-022-pharming-exige-clique-link-falso",
@@ -36398,23 +36398,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-2f178d9576d10289",
-      "conceptId": "pharming-exige-clique-link-falso",
-      "mechanism": "confundir-vetor-com-redirecionamento",
+      "conceptId": "shoulder-surfing-vs-pharming",
+      "mechanism": "distinguir-observacao-fisica-de-redirecionamento-dns",
       "questionType": "distincao",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-2f178d9576d10289#2. Pharming: o redirecionamento por alteração da resolução ou do destino"
+        "article:art-2f178d9576d10289#3. Outras técnicas clássicas de engenharia social"
       ],
       "source": {
         "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
-        "section": "2. Pharming: o redirecionamento por alteração da resolução ou do destino"
+        "section": "3. Outras técnicas clássicas de engenharia social"
       },
-      "statement": "Para que ocorra pharming, a vítima precisa necessariamente clicar em um link fraudulento recebido por e-mail, pois digitar corretamente o endereço do site elimina esse risco.",
+      "statement": "Observar a senha digitada na tela ou no teclado de alguém em um espaço compartilhado caracteriza obrigatoriamente pharming, porque envolve adulteração do destino associado a um domínio web.",
       "correctAnswer": "E",
-      "explanation": "Pharming pode alterar a resolução ou o destino de um domínio legítimo, inclusive quando o endereço correto é digitado no navegador.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Pharming: o redirecionamento por alteração da resolução ou do destino\" do artigo 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "A observação física direta de senhas ou telas caracteriza shoulder surfing. Pharming altera a resolução ou o destino de um endereço e pode ocorrer sem observação presencial da digitação.",
+      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 022. Questão original substituída por novo mecanismo (distinguir-observacao-fisica-de-redirecionamento-dns) após detecção de redundância; comparação orientada pelo artigo art-2f178d9576d10289, heading literal '3. Outras técnicas clássicas de engenharia social'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
     },
     {
       "id": "cam-ti-l026-023-hosts-adulterado-dominio-legitimo",
@@ -36650,23 +36650,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-03945be9cb42c4bd",
-      "conceptId": "granularidade-de-nota-para-mes",
-      "mechanism": "diferenciar-grao-agregacao",
+      "conceptId": "qualidade-atualidade-vs-exatidao",
+      "mechanism": "avaliar-qualidade-temporal-de-relatorio",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-03945be9cb42c4bd#4. Agregação e granularidade de dados"
+        "article:art-03945be9cb42c4bd#5. As dimensões da qualidade de dados (*Data Quality*)"
       ],
       "source": {
         "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
-        "section": "4. Agregação e granularidade de dados"
+        "section": "5. As dimensões da qualidade de dados (*Data Quality*)"
       },
-      "statement": "Uma tabela que passa de uma linha por nota fiscal para uma linha por deputado e mês, somando despesas, apresenta granularidade mais grossa e perde o detalhamento individual das notas se os registros originais não forem preservados.",
+      "statement": "Um relatório financeiro cujos valores correspondem corretamente aos registros originais pode, ainda assim, apresentar falha de atualidade se for disponibilizado com atraso incompatível com a decisão que deveria apoiar.",
       "correctAnswer": "C",
-      "explanation": "Agrupar várias notas em totais mensais reduz o nível de detalhe da tabela resultante; os totais não reconstituem isoladamente cada documento.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Agregação e granularidade de dados\" do artigo 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "Exatidão trata de valores corretos; atualidade ou tempestividade trata da disponibilidade no momento adequado ao uso. Um dado pode ser exato e chegar tarde demais.",
+      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 031. Questão original substituída por novo mecanismo (avaliar-qualidade-temporal-de-relatorio) após detecção de redundância; comparação orientada pelo artigo art-03945be9cb42c4bd, heading literal '5. As dimensões da qualidade de dados (*Data Quality*)'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
     },
     {
       "id": "cam-ti-l026-032-agregados-reconstituem-notas",
@@ -36678,23 +36678,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-03945be9cb42c4bd",
-      "conceptId": "agregados-reconstituem-notas",
-      "mechanism": "inferir-dados-atomicos-de-somas",
+      "conceptId": "qualidade-unicidade-vs-completude",
+      "mechanism": "identificar-duplicidade-apesar-de-campos-completos",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-03945be9cb42c4bd#4. Agregação e granularidade de dados"
+        "article:art-03945be9cb42c4bd#5. As dimensões da qualidade de dados (*Data Quality*)"
       ],
       "source": {
         "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
-        "section": "4. Agregação e granularidade de dados"
+        "section": "5. As dimensões da qualidade de dados (*Data Quality*)"
       },
-      "statement": "De uma tabela que armazene apenas o total anual gasto por partido, é possível recuperar necessariamente o valor de cada nota fiscal individual sem consultar nenhuma outra fonte.",
+      "statement": "Uma base contém dois registros da mesma pessoa com identificadores iguais e todos os campos obrigatórios preenchidos. A ausência de valores nulos garante que não há problema de unicidade nessa base.",
       "correctAnswer": "E",
-      "explanation": "Totais agregados apagam a distribuição e as combinações dos registros de origem; valores individuais não são dedutíveis da soma isolada.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Agregação e granularidade de dados\" do artigo 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "Campos preenchidos ajudam a completude, mas duplicar a representação da mesma entidade viola a unicidade. Qualidade de dados envolve dimensões distintas que podem falhar independentemente.",
+      "reviewEvidence": "Lote 026: correção editorial incremental de 12/11/2026 para o item 032. Questão original substituída por novo mecanismo (identificar-duplicidade-apesar-de-campos-completos) após detecção de redundância; comparação orientada pelo artigo art-03945be9cb42c4bd, heading literal '5. As dimensões da qualidade de dados (*Data Quality*)'. Gabarito fundamentado na seção canônica e explicação reescrita. Revisão técnica automatizada, sem homologação humana; status revisada até triagem final de similaridade e CI do SHA de commit."
     },
     {
       "id": "cam-ti-l026-033-histograma-densidade-classes-desiguais",

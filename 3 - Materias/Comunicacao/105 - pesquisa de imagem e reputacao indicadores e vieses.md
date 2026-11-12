@@ -5,7 +5,7 @@ title: "Pesquisa de imagem e reputação: indicadores, desenho e vieses"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Pesquisa de imagem e reputação: indicadores, desenho e vieses
@@ -136,6 +136,20 @@ O **efeito halo** não torna toda avaliação positiva falsa; recomenda investig
 **Item 5.** Como o Reputation Quotient inclui desempenho financeiro, sua aplicação a órgão legislativo exige adotar essa dimensão sem adaptação, pois a validade de um modelo independe do contexto institucional.
 
 **Errado.** A RQ foi proposta em contexto corporativo; transporte literal de dimensões pode prejudicar validade de conteúdo e interpretação. **Mecanismo do erro:** extrapolação indevida do modelo original.
+
+## Cotejo dirigido: Reputation Quotient, RepTrak e validade de indicadores (11/11/2026)
+
+**Distinguir instrumentos e versões.** O **Reputation Quotient (RQ)** apresentado por **Fombrun, Gardberg e Sever (2000)** é um instrumento de reputação corporativa com **seis dimensões**: apelo emocional; produtos e serviços; desempenho financeiro; visão e liderança; ambiente de trabalho; responsabilidade social. Sua construção envolve múltiplos públicos e **20 atributos** na formulação clássica. O [artigo original, identificado pelo DOI](https://doi.org/10.1057/bm.2000.10) e a [síntese acadêmica de sua composição](https://doi.org/10.1080/00014788.2022.2149458) sustentam esse recorte. As seis dimensões da RQ não devem ser chamadas de sete dimensões da versão posterior do **RepTrak**.
+
+A [apresentação da **RepTrak em 2026**](https://www.reptrak.com/globalreptrak/) informa **sete drivers**: *Products & Services, Performance, Innovation, Leadership, Conduct, Citizenship* e *Workplace*. Também distingue **Think** (avaliações e atributos), **Feel** (vínculo afetivo) e **Do** (resultados comportamentais, como disposição de recomendar). Esse instrumento e suas classificações de 2026 possuem objetos, condições amostrais e modelos próprios: **não são reprodução nominal da RQ de 2000**, embora pertençam ao mesmo campo de mensuração de reputação. A enumeração de dimensões muda conforme o modelo e a versão expressamente referidos.
+
+**Aplicação à Câmara:** substituir automaticamente o desempenho financeiro de empresas por um indicador de eficiência administrativa não preserva, por si só, a **validade de conteúdo** do questionário. É preciso justificar **quais públicos**, **quais dimensões**, **quais perguntas** e **quais propriedades de comparação** são adequados à instituição legislativa, sem anunciar um “RQ da Câmara” validado pela autora ou pelo instituto original. Reconhecimento, favorabilidade, confiança e disposição a agir requerem medidas distintas. A categoria “familiaridade” usada como critério amostral de um ranking corporativo não é equivalente a confiança da população.
+
+A [AMEC, Integrated Evaluation Framework](https://amecorg.com/amecframework/home/supporting-material/planning/), distingue **outputs** (conteúdo e exposição), **out-takes** (atenção, aprendizado, compreensão ou resposta inicial), **outcomes** (efeitos sobre atitudes, confiança e intenções) e **impacts** (contribuição a objetivos). Os [Princípios de Barcelona 4.0, apresentados pela Open University](https://business-school.open.ac.uk/alumni/professional-knowledge-bank/barcelona-principles-4) rejeitam **AVE** como medida válida de valor da comunicação. Isso reforça o cuidado já presente no artigo: clippings, impressões, menções e valor publicitário equivalente não demonstram, isoladamente, reputação ou confiança institucional.
+
+**Reexame dos cinco C/E inéditos preexistentes:** item **1 Errado**, membros relatam a percepção atribuída ao público, não a avaliação externa efetiva (Brown et al., 2006); item **2 Certo**, conhecimento estimulado e confiança são constructos distintos; item **3 Errado**, alto volume de menções digitais não torna autores/menções amostra probabilística da população; item **4 Certo**, comparações em ondas exigem cuidado com população, pergunta, escala e modo; item **5 Errado**, a RQ é corporativa e sua adaptação à Câmara demanda justificação e revalidação. **Gabaritos mantidos; nenhum item histórico da Cebraspe foi incluído.**
+
+**Limites da prova:** consultados registro/resumo da publicação original da RQ, revisões de reputação, página atual da RepTrak e orientações da AMEC; a leitura integral e a validação estatística original das escalas não foram repetidas. Não se testaram questionários reais, dados de cidadãos, links no GitHub Pages, nem a aplicação de todos os itens do edital. **Estado: Corrigido no recorte de mensuração e cinco questões, sem certificação integral.**
 
 ## Relações com outros temas
 

@@ -191,6 +191,25 @@ A unidade **CAM-PL-003** já apresenta **recebimento, comissões, Plenário, rev
 
 **Sessões ≠ dias corridos.** Pelo portal oficial de contagem de prazos da Câmara, apenas uma sessão elegível conta por dia, e **sessões solenes e preparatórias** não contam para esse fim. Assim, **40 sessões** não são automaticamente **40 dias úteis**, nem significam um prazo fixo em calendário que encerra toda a tramitação, sobretudo quando há mais de uma comissão.
 
+### Matriz de prazos e competências que não podem ser confundidos (CAM-PL-008)
+
+As expressões **urgência**, **prazo constitucional**, **prazo regimental**, **sobrestamento** e **sessão conjunta** descrevem institutos diferentes. A pergunta decisiva é qual proposição está em exame, quem toma a decisão e de que evento começa a contagem.
+
+| Instituto | Ato e autoridade | Prazo ou unidade | Marco e consequência | Exceção ou limite |
+| --- | --- | --- | --- | --- |
+| **Urgência constitucional solicitada pelo Presidente** (CF, art. 64, §§ 1º a 4º) | Projeto de lei **de iniciativa presidencial**, com pedido de urgência do Presidente da República | **45 dias** para manifestação da Câmara e **45 dias** para o Senado, sucessivamente; **10 dias** para a Câmara apreciar emendas do Senado | Se a respectiva Casa não votar no prazo, ficam sobrestadas as demais deliberações legislativas, **exceto as que tenham prazo constitucional determinado**, até a votação | Os prazos do § 2º **não correm no recesso** e **não se aplicam a projetos de código** |
+| **Urgência urgentíssima regimental** (RICD, art. 155) | Requerimento subscrito pela **maioria absoluta dos deputados** ou por líderes que a representem, **aprovado pela maioria absoluta** | A norma não fixa 45 dias: permite **inclusão e discussão/votação imediatas** na Ordem do Dia, inclusive na sessão em que apresentado o requerimento | É um mecanismo regimental de pauta para matéria de relevante e inadiável interesse nacional | **Não** se submete ao limite de duas proposições do art. 154, § 2º |
+| **Lei delegada** (CF, art. 68; RCCN, arts. 116–127) | Presidente da República solicita delegação; o **Congresso Nacional** a concede por **resolução**, apreciada em sessão conjunta, com votos das Casas computados separadamente | O **conteúdo, termos e prazo de exercício** são estabelecidos na resolução de delegação; não existe prazo constitucional genérico de 45 dias para essa delegação | Se a resolução exigir que o Congresso aprecie o texto elaborado pelo Presidente, haverá **votação única, sem emendas** (CF, art. 68, § 3º) | Não se delegam matérias vedadas pelo art. 68, § 1º |
+| **Medida provisória** (CF, art. 62, §§ 3º a 7º) | Ato editado pelo Presidente da República com força de lei, submetido ao Congresso | Vigência de **60 dias**, com **uma prorrogação por igual período** se a votação não for encerrada nas duas Casas; após **45 dias da publicação sem apreciação**, entra em urgência na Casa em que tramita | A contagem constitucional parte da **publicação da MP**; os efeitos do sobrestamento e da apreciação dependem da fase do rito | A contagem dos prazos de vigência é **suspensa durante o recesso** |
+
+**Exemplo 1:** um projeto de lei presidencial com urgência constitucional chega à Câmara. Os 45 dias do art. 64 não são “45 sessões” e não equivalem à inclusão imediata na Ordem do Dia pelo art. 155 do RICD.
+
+**Exemplo 2:** uma medida provisória chega ao 46º dia sem votação. A urgência do art. 62, § 6º, não significa automaticamente que sua vigência acabou. O prazo de vigência inicial é de 60 dias, com possibilidade de uma prorrogação por igual período, observada a suspensão da contagem durante o recesso.
+
+**C/E inédito de controle:** “Os quarenta e cinco dias do pedido de urgência presidencial previsto no art. 64 e o requerimento de urgência urgentíssima do art. 155 do RICD constituem o mesmo procedimento, devendo ambos aguardar quarenta e cinco sessões para produzir sobrestamento.” **Errado.** O primeiro estabelece prazo **constitucional em dias** e disciplina o sobrestamento por ausência de deliberação; o segundo é **regimental**, depende do requerimento e da aprovação por maioria absoluta e admite inclusão imediata em pauta.
+
+**Fontes:** [Constituição Federal, arts. 62, 64 e 68](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm); [RICD consolidado, arts. 154 e 155](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html); [Congresso Nacional, lei delegada](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-legislativo/-/legislativo/termo/lei_delegada). Ver aprofundamentos específicos sobre urgência, MPs e delegação nas notas DC18–21.
+
 ### Preferência de pauta não é uma nova espécie de projeto
 
 O **art. 159, § 1º**, dá **preferência** aos projetos em urgência sobre os em prioridade, e a estes sobre os de tramitação ordinária, observados os critérios regimentais de organização e preferência. **Preferência** pode afetar **ordem de discussão ou votação**; não transforma o projeto em espécie normativa diversa.

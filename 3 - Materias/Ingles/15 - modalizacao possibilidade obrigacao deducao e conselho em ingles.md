@@ -121,7 +121,7 @@ Ao julgar itens do Cebraspe: **se o texto afirma que uma reforma *may stimulate 
 - ( ) Errado
 
 **Gabarito: Errado**  
-**Comentário:** A locução modal perfeita "should have conducted" expressa um dever ou recomendação que **não foi cumprida** no passado (*deveria ter realizado, mas não realizou*). Afirmar que a agência realizou a avaliação com sucesso inverte frontalmente o sentido factual da sentença.
+**Comentário:** Neste contexto avaliativo, *should have conducted* apresenta a avaliação prévia como medida devida ou esperada e **sugere** que ela não foi realizada. Essa implicação é frequente, mas o modal também admite usos de expectativa em outros contextos. Em nenhum caso o trecho confirma que a agência **realizou com sucesso** a avaliação; por isso o item é errado. Ver [Cambridge Grammar, *should*](https://dictionary.cambridge.org/grammar/british-grammar/should).
 
 ---
 
@@ -151,7 +151,7 @@ Ao julgar itens do Cebraspe: **se o texto afirma que uma reforma *may stimulate 
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** No contexto, "must have secured" expressa uma dedução lógica de alta probabilidade (*modalidade epistêmica pretérita*): diante do fato incontroverso de zero votos contrários, o enunciador conclui com quase certeza que os líderes fecharam um acordo prévio. O item define com precisão a função do modal.
+**Comentário:** No contexto, "must have secured" expressa uma dedução lógica de alta probabilidade (*modalidade epistêmica pretérita*): tomando como premissa o registro de zero votos contrários, o enunciador **infere** um acordo político anterior. A inferência forte (*must have secured*) não constitui prova independente de que esse acordo efetivamente ocorreu. O item descreve corretamente o valor epistêmico do modal.
 
 ---
 

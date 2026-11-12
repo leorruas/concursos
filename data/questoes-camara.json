@@ -14323,12 +14323,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
       "articleId": "art-b08f53d19c4a726e",
-      "conceptId": "pesquisa-com-bloco-estranho",
-      "mechanism": "pesquisa-com-bloco-estranho",
+      "conceptId": "pesquisa-de-criacao-antes-de-veicular",
+      "mechanism": "pesquisa-de-criacao-antes-de-veicular",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-b08f53d19c4a726e#Art. 3º: limites das pesquisas e avaliações"
       ],
@@ -14336,11 +14336,12 @@
         "path": "3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade.md",
         "section": "Art. 3º: limites das pesquisas e avaliações",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
-        "locator": "art. 3º, parágrafo único"
+        "locator": "art. 3º, caput"
       },
-      "statement": "Uma pesquisa contratada para avaliar uma campanha pode incluir um bloco sobre tema sem relação com a ação nem com o objeto contratual, desde que as entrevistas já estejam pagas.",
-      "correctAnswer": "E",
-      "explanation": "A economia de coleta não torna o tema pertinente. O art. 3º veda matéria estranha nas pesquisas e avaliações."
+      "statement": "Uma avaliação pertinente ao contrato pode aferir a criação da campanha antes da veiculação. Sua finalidade legal não se limita a mensurar resultados depois da divulgação.",
+      "correctAnswer": "C",
+      "explanation": "O caput abrange a avaliação do desenvolvimento estratégico, da criação e da veiculação, além de possibilitar a mensuração de resultados.",
+      "reviewEvidence": "Cotejo com o texto primário e reformulação após comparação com os exercícios dos artigos 122 a 124."
     },
     {
       "id": "cam-di-selecao-interna-com-metodologia-publicada",
@@ -15284,12 +15285,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 8 / Código Brasileiro de Autorregulamentação Publicitária",
       "articleId": "art-3e8a6c14f927b05d",
-      "conceptId": "correcao-posterior-e-anuncio-enganador",
-      "mechanism": "correcao-posterior-e-anuncio-enganador",
+      "conceptId": "testemunhal-reeditado-e-publicacao",
+      "mechanism": "testemunhal-reeditado-e-publicacao",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
       ],
@@ -15297,11 +15298,12 @@
         "path": "3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao.md",
         "section": "Arts. 44 a 50: categorias, responsabilidades e medidas",
         "url": "https://www.conar.org.br/codigos",
-        "locator": "art. 48"
+        "locator": "arts. 47 e 49"
       },
-      "statement": "Enviar os termos corretos ao consumidor depois da veiculação basta para defender um anúncio inicialmente enganador.",
+      "statement": "Depois que o CONAR reprova um anúncio, trocar o arquivo por uma cópia com outro nome permite publicar a mesma peça se o depoimento que motivou a reprovação tiver sido originalmente produzido por terceiro.",
       "correctAnswer": "E",
-      "explanation": "A informação posterior não é defesa suficiente para a mensagem enganadora originalmente divulgada."
+      "explanation": "O conteúdo de fonte externa continua sujeito ao Código. Renomear a cópia não altera o anúncio reprovado nem afasta a vedação à sua publicação.",
+      "reviewEvidence": "Cotejo com o texto primário e reformulação após comparação com os exercícios dos artigos 122 a 124."
     },
     {
       "id": "cam-di-competencia-para-alterar-anexo",
@@ -15400,12 +15402,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
       "articleId": "art-64e9b713c8a250df",
-      "conceptId": "total-por-meio-e-tipo-de-servico",
-      "mechanism": "total-por-meio-e-tipo-de-servico",
+      "conceptId": "acesso-e-identificacao-de-fornecedores",
+      "mechanism": "acesso-e-identificacao-de-fornecedores",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Arts. 16 e 17: transparência e guarda do acervo"
       ],
@@ -15413,11 +15415,12 @@
         "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
         "section": "Arts. 16 e 17: transparência e guarda do acervo",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
-        "locator": "art. 16, parágrafo único"
+        "locator": "art. 16, caput"
       },
-      "statement": "Para divulgar valores pagos, um total único que some fornecedores e meios de divulgação substitui a apresentação por tipo de serviço e por meio.",
+      "statement": "Em sítio de livre acesso dedicado à execução de um contrato de publicidade, informar apenas os totais pagos sem identificar os fornecedores especializados e os veículos atende integralmente ao caput do art. 16.",
       "correctAnswer": "E",
-      "explanation": "O parágrafo único prevê totais por tipo de serviço de fornecedores e por meio de divulgação. Um total agregado não oferece a discriminação exigida."
+      "explanation": "O caput exige divulgar os nomes dos fornecedores especializados e dos veículos. A publicação de valores não substitui essa identificação.",
+      "reviewEvidence": "Cotejo com o texto primário e reformulação após comparação com os exercícios dos artigos 122 a 124."
     },
     {
       "id": "cam-di-desconto-padrao-e-faturamento-do-veiculo",

@@ -14,7 +14,7 @@ jobs:
           node-version: 20
       - run: node scripts/test-priority-sync.js && node scripts/test-progress-sync.js
       - name: Auditar referencias editoriais
-        run: node scripts/auditar-referencias-editoriais.mjs --json referencias-editoriais.json
+        run: node scripts/auditar-referencias-editoriais.mjs --json referencias-editoriais.json --strict
       - name: Publicar relatorio da auditoria
         if: always()
         uses: actions/upload-artifact@v4

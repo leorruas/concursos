@@ -52,13 +52,18 @@ As grades e respostas-modelo dessas unidades são didáticas, não espelhos ofic
 - Repetição excessiva
 - Generalizações vagas
 
-## Plano editorial
+## Plano editorial: trilha atual e temas gerais preservados
+
+**Trilha publicada para a Câmara:** [[01 - leitura do tema e projeto de texto|01]] → [[04 - decomposicao de comandos e quesitos cebraspe|04 / CAM-DIS-001]] → [[05 - resposta conceitual curta de 20 linhas|05 / CAM-DIS-002]] → [[06 - planejamento e escrita de peca tecnica|06 / CAM-DIS-005]] → [[07 - revisao e autocorrecao de discursivas e pecas|07 / CAM-DIS-009]]. Os artigos [[02 - tese e linha argumentativa|02]] e [[03 - estrategias de argumentacao|03]] são fundamentos reutilizáveis, não uma etapa obrigatória em cada resposta técnica.
+
+**A lista abaixo foi planejada antes da publicação dos módulos CAM-DIS. Seus números são marcos históricos de ordenação, não nomes ou destinos dos arquivos atuais.** Não usar o antigo “04 - construção do parágrafo” para localizar o arquivo 04 atual.
+
 
 A trilha de Redação deve seguir uma progressão de **compreensão do comando → projeto de texto → tese → argumentação → desenvolvimento → fechamento → revisão**.
 
 A prioridade é construir poucos artigos canônicos, cada um com função clara, evitando duplicar conteúdos já consolidados em Língua Portuguesa.
 
-### Fase 1 — fundamentos de maior retorno
+### Temas gerais legados: fundamentos (planejamento histórico)
 
 1. **[[01 - leitura do tema e projeto de texto|01 - leitura do tema e projeto de texto]]**
    - identificar tema, recorte, comando e tipo textual;
@@ -85,7 +90,7 @@ A prioridade é construir poucos artigos canônicos, cada um com função clara,
    - problema → consequência → resposta;
    - limites de cada estratégia e combinações possíveis.
 
-4. **04 - construção do parágrafo argumentativo**
+4. **Tema legado: construção do parágrafo argumentativo**
    - tópico frasal;
    - desenvolvimento da ideia;
    - evidência ou explicação;
@@ -93,36 +98,36 @@ A prioridade é construir poucos artigos canônicos, cada um com função clara,
    - progressão entre períodos;
    - diferença entre parágrafo que apenas afirma e parágrafo que efetivamente argumenta.
 
-### Fase 2 — refinamento
+### Temas gerais legados: refinamento (planejamento histórico)
 
-5. **05 - contra-argumentação e refutação**
+5. **Tema legado: contra-argumentação e refutação**
    - reconhecer objeções plausíveis;
    - concessão × concordância;
    - refutação;
    - quando usar contra-argumento;
    - risco de fortalecer a posição contrária.
 
-6. **06 - repertório, exemplos e evidências**
+6. **Tema legado: repertório, exemplos e evidências**
    - repertório pertinente × decorativo;
    - exemplo hipotético × fato verificável;
    - dados e referências;
    - como usar repertório sem inventar informação;
    - generalizações frágeis e autoridade falsa.
 
-7. **07 - introdução, desenvolvimento e conclusão**
+7. **Tema legado: introdução, desenvolvimento e conclusão**
    - função de cada parte;
    - diferentes formas de introdução;
    - desenvolvimento por eixos;
    - conclusão como fechamento da linha argumentativa;
    - evitar conclusão que apenas repete a introdução.
 
-### Fase 3 — acabamento e execução
+### Temas gerais legados: acabamento (planejamento histórico)
 
-8. **08 - coesão, progressão e clareza na redação**
+8. **Tema legado: coesão, progressão e clareza na redação**
    - esta nota deve ser curta e funcionar principalmente como ponte para [[3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais|Coesão textual]];
    - conectivos, referenciação e progressão temática apenas no que for específico da produção discursiva.
 
-9. **09 - revisão final e checklist de erros**
+9. **Tema legado: revisão final e checklist de erros**
    - aderência ao tema;
    - consistência da tese;
    - repetição;
@@ -141,7 +146,7 @@ Estes pertencem a [[3 - Materias/Estrategia de Prova/estrategia-de-prova|Estrat�
 - **Estratégia para prova com objetiva + discursiva**;
 - **Autópsia de redações: transformar correções em checklist de erro**.
 
-### Ordem recomendada de criação
+### Ordem de criação originalmente planejada (histórica; substituída pela trilha Câmara acima)
 
 **Primeiro lote:** 01, 02, 03 e 04.  
 Esses quatro formam o núcleo da competência argumentativa.

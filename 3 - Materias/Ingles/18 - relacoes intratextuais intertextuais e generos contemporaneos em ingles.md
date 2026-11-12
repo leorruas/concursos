@@ -205,7 +205,7 @@ Os textos abaixo são **ficcionais e escritos para treinamento**, não comunicad
 
 **Item A (inédito, C/E):** All three texts confirm that exactly 240 citizens took part in the consultation.
 
-**Gabarito: Errado.** A e B falam em comentários ou submissões, não em pessoas únicas verificadas em todos os textos. Uma pessoa pode enviar mais de uma submissão; C nem fornece o total. *Submissions* não equivale necessariamente a *citizens*.
+**Gabarito: Errado.** O Texto A relata **240 pessoas** que enviaram comentários, mas não comprova que todas sejam cidadãs da jurisdição; o Texto B informa **240 submissões segundo a comissão**, sem demonstrar que vieram de 240 pessoas distintas. O Texto C não confirma total algum. Assim, os três textos não comprovam em conjunto que exatamente 240 cidadãos participaram. Distinguir *people*, *comments*, *submissions* e *citizens* é essencial para evitar mudança de unidade de contagem.
 
 **Item B (inédito, C/E):** Text B attributes the number of submissions to the committee rather than presenting an independent count.
 

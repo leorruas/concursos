@@ -230,7 +230,7 @@ O [Integrated Evaluation Framework da AMEC](https://amecorg.com/amecframework/) 
 
 ---
 **Fontes Brutas:**
-- [[00 inbox/00 Ingestao]]
+
 
 **Referências de modelos e evidência de banca:**
 - Dietrich, Gini, *Spin Sucks* (2014): PESO Model.

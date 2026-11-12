@@ -1,0 +1,24 @@
+# Bloco 79: implementação P0 de Processo Legislativo e Orçamento
+
+Data: 11/11/2026 (commits UTC de 12/11). Autorização específica de implementação no pedido corrente. Escopo: DC35, DC37 e artigos de Orçamento Público do item 4 do edital da Câmara. Arquivos e articleIds anteriores preservados. Não foram editadas matérias de outras frentes.
+
+| Artigo | Problema resolvido | Alteração e commit | Validação | Estado |
+| --- | --- | --- | --- | --- |
+| DC35 | A-PL-069: investigação federal versus convocação compulsória de governador | [90904ead](https://github.com/leorruas/concursos/commit/90904ead7d9595db8cd15073ca1248b208c48ff1): ADPF 848; corrigidos quadro e comentário da Q5 | SHA e2af9817; 8 gabaritos preservados; STF ADPF 848 | validado no texto |
+| DC37 | A-PL-068: CF art. 50 omitia Presidente do Comitê Gestor IBS | [92072d83](https://github.com/leorruas/concursos/commit/92072d835e66c95742daa15ba2bb219ea8ce7277): quadro, texto, diagrama, caso e 1 C/E inédito Errado | SHA 6b7f13ee; 7 gabaritos agora; CF EC 132/2023 | validado no texto; teste visual pendente |
+| ORC11 | A-ORC-079/080: LC 224/2025 e LRF art. 20 | [a71c3c2c](https://github.com/leorruas/concursos/commit/a71c3c2c3647848fac2a2e50be34cc3d8d4006a0): arts. 5º, 14 e 14-A, limite Legislativo 2,5% RCL com TCU, caso e C/E Errado | SHA 3a465283; 8 gabaritos agora; LRF consolidada | validado no texto |
+| ORC09 | A-ORC-085/087: Lei 4320 art. 38 versus MCASP 11 | [fc6b0a5c](https://github.com/leorruas/concursos/commit/fc6b0a5cb770eabdf95546fa78b2386d83bc6c0e): quadro, casos, fonte e C/E Errado | SHA 5525bedb; 7 itens agora; nenhuma resposta antiga alterada | validado no texto |
+| ORC02a | A-ORC-090: ausência de C/E | [844fe117](https://github.com/leorruas/concursos/commit/844fe11716164b55d3f8c121d94514134dfc2320): 3 itens inéditos E/C/E sobre controle, dependência e aporte | SHA 69e5ec77; 3 novos itens; LRF art. 2º | validado no texto |
+| Catálogo Câmara ORC | Quatro artigos não vinculados ao concurso | [8a31c833](https://github.com/leorruas/concursos/commit/8a31c833b943d2a846c7434026174d30953d2b2a): adicionados ORC03, ORC04a, ORC04b, ORC05a | JSON parse e unicidade: 21 IDs = 19 ORC + 2 compartilhados DC, sem ID ausente | validado estruturalmente |
+| ORC02, ORC04a, ORC04b, ORC12 | Fontes MTO antigas | [69cc244b](https://github.com/leorruas/concursos/commit/69cc244be1b1960b7ddc01ed6b52acec1437c92d), [9ff9e1c1](https://github.com/leorruas/concursos/commit/9ff9e1c10221779f5ebd29e8073bb6a8893044d0), [55da9f29](https://github.com/leorruas/concursos/commit/55da9f29f7510995ab32279c96cba48e21a9e194), [e60ce63a](https://github.com/leorruas/concursos/commit/e60ce63abb408cb6988a3f7004dafd7687bfd148): links MTO 2027 3ª versão, capítulos pertinentes | SHAs pós-commit conferidos; não houve cotejo integral de classificadores | corrigido quanto à referência |
+| ORC10 | Referência antiga MCASP 9 | [323c7704](https://github.com/leorruas/concursos/commit/323c77043db0b060022f6f6189516f7d51fc95bf): MCASP 11 e Manual SIAFI | SHA 1396ea70; crédito versus recurso preservado | validado quanto ao trecho |
+
+## Qualidade, integração e itens
+
+Seis C/E autorais inéditos foram adicionados: um em DC37, um em ORC11, um em ORC09 e três em ORC02a. Os 64 itens ORC históricos passam a 69 no escopo documental, sem recontagem do motor de questões. O piso DC de 300 passa a 301, sem revalidação de total após concorrência. Gabaritos anteriores mantidos. Nenhum artigo novo era necessário para esses defeitos: os conceitos cabiam nas notas canônicas.
+
+Fontes principais: [STF ADPF 848](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6189091); [Constituição art. 50](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm); [LRF atualizada](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html); [Lei nº 4.320](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html); [MCASP 11](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1); [MTO 2027](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027).
+
+## Verificação técnica e pendências
+
+O workflow [Publicar no GitHub Pages, run 43128517694](https://github.com/leorruas/concursos/actions/runs/43128517694) estava PENDING quando consultado no commit 323c7704; houve cancelamento de runs concorrentes anteriores. Não afirmar deploy verde, navegação funcional ou renderização Mermaid validada. Para o próximo lote: desduplicar ORC04 preservando âncoras e 5 itens; conferir normas anuais ORC05a/ORC15 e coexistência entre créditos e emendas; criar exercícios dirigidos aos DC05/07/08/09; testar visualmente DC35/DC37 e a integração do catálogo. Atualizar apenas os arquivos atingidos; outros agentes continuam trabalhando simultaneamente.

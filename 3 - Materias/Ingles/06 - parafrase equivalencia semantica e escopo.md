@@ -23,14 +23,16 @@ A prova pode apresentar uma frase verdadeira sobre determinado tema, mas que alt
 | *Some applications were rejected.* | *All applications were rejected.* | Alguns não equivale a todos |
 | *Not all records were verified.* | *No records were verified.* | Nem todos não significa nenhum |
 | *The agency may publish the report.* | *The agency must publish the report.* | Permissão/possibilidade não é obrigação |
-| *Only if documents are complete, the request can proceed.* | *If documents are complete, the request must proceed.* | Condição necessária não se torna suficiente por si só |
+| *Only if the documents are complete can the request proceed.* | *If documents are complete, the request must proceed.* | Condição necessária não se torna suficiente por si só |
 | *The team reviewed fewer than 50 cases.* | *The team reviewed at most 50 cases.* | Menos de 50 exclui 50; no máximo 50 inclui 50 |
 | *The contracts were audited.* | *The inspectors audited the contracts.* | A passiva não identifica qual agente agiu |
 | *Costs fell after the reform.* | *The reform caused costs to fall.* | Sequência temporal não prova causalidade |
 
 ### Condições: *if*, *only if*, *unless*
 
-**If P, then Q:** P é condição **suficiente** para Q na relação afirmada. **Q only if P:** P é condição **necessária** para Q; Q não ocorre sem P, mas P pode não bastar para Q.
+**If P, then Q:** em uma condicional assertiva, P apresenta condição **suficiente** para Q na relação afirmada. **Q only if P:** P é condição **necessária** para Q; Q não ocorre sem P, mas P pode não bastar para Q.
+
+Quando *only if* inicia uma oração restritiva anteposta, a oração principal normalmente requer inversão auxiliar-sujeito em inglês formal: *Only if the documents are complete can the request proceed.* Na ordem não anteposta, diz-se *The request can proceed only if the documents are complete.* Essa inversão é sintática: não transforma a condição necessária em suficiente.
 
 *If a report is approved, it can be published* afirma possibilidade associada à aprovação, não obrigação absoluta de publicar. *A report can be published only if approved* estabelece aprovação como condição necessária para a publicação possível. A inversão pode gerar questão difícil com ambas as frases parecendo razoáveis.
 

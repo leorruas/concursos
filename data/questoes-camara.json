@@ -24984,6 +24984,222 @@
       "statement": "Se uma versão incompleta de uma ata é a única entrada de um sistema de resumo, um texto fluente produzido a partir dela comprova que as deliberações ausentes foram recuperadas corretamente.",
       "correctAnswer": "E",
       "explanation": "A fluência descreve a forma do texto. A recuperação de fatos ausentes exige evidência adicional, como a ata integral ou o registro da reunião."
+    },
+    {
+      "id": "cam-cs-ia-ajuste-de-audio-e-informacao-geral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "ajuste-de-audio-e-informacao-geral",
+      "mechanism": "ajuste-de-audio-e-informacao-geral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Transparência sobre o uso e a Ordem de Serviço nº 1/2026"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Transparência sobre o uso e a Ordem de Serviço nº 1/2026"
+      },
+      "statement": "Em um áudio gravado pela equipe, a IA foi empregada apenas para reduzir ruído. A Ordem de Serviço Direx nº 1/2026 remete a informação sobre esse uso acessório ao Manual de Comunicação e aos Termos de Uso do Portal Institucional.",
+      "correctAnswer": "C",
+      "explanation": "O art. 3º prevê informação geral nesses dois documentos para usos meramente acessórios, entre eles ajustes de áudio."
+    },
+    {
+      "id": "cam-cs-ia-capa-e-descricao-do-video",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "capa-e-descricao-do-video",
+      "mechanism": "capa-e-descricao-do-video",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      },
+      "statement": "Quando apenas a capa de um vídeo publicado no YouTube é gerada por IA, o art. 4º prevê identificar essa origem na descrição do vídeo.",
+      "correctAnswer": "C",
+      "explanation": "O art. 4º, III, alínea a, especifica a descrição para informar a origem da imagem de capa."
+    },
+    {
+      "id": "cam-cs-ia-marca-no-trecho-audiovisual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "marca-no-trecho-audiovisual",
+      "mechanism": "marca-no-trecho-audiovisual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      },
+      "statement": "Se a IA gerou um trecho de um vídeo produzido com gravações reais, a regra prevê inserir a marca d’água em todas as imagens do vídeo, inclusive nas gravações sem IA.",
+      "correctAnswer": "E",
+      "explanation": "O art. 4º, III, alínea b, indica a marca d’água no trecho específico. A identificação deve indicar a parte gerada."
+    },
+    {
+      "id": "cam-cs-ia-audio-identificacao-episodio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "audio-identificacao-episodio",
+      "mechanism": "audio-identificacao-episodio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      },
+      "statement": "Um episódio produzido com suporte de IA pode trazer no próprio áudio a informação prevista para essa modalidade, conforme os padrões específicos da ordem de serviço.",
+      "correctAnswer": "C",
+      "explanation": "O art. 4º, II, alínea b, prevê a identificação em áudio do episódio produzido com suporte de IA."
+    },
+    {
+      "id": "cam-cs-ia-peca-inedita-sujeita-aos-principios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "peca-inedita-sujeita-aos-principios",
+      "mechanism": "peca-inedita-sujeita-aos-principios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      },
+      "statement": "Se surgir um formato de comunicação não listado expressamente no art. 4º, sua identificação fica dispensada até que o formato seja acrescentado à ordem de serviço.",
+      "correctAnswer": "E",
+      "explanation": "O § 1º determina observar os mesmos princípios na identificação de usos em peças não previstas no artigo."
+    },
+    {
+      "id": "cam-cs-ia-relato-de-producao-para-decisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "relato-de-producao-para-decisao",
+      "mechanism": "relato-de-producao-para-decisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      },
+      "statement": "Para decidir a sinalização, o gestor do veículo pode basear-se no relato do responsável pela produção sobre o papel da IA e a intervenção humana em cada etapa.",
+      "correctAnswer": "C",
+      "explanation": "O art. 4º, § 2º, liga a decisão do gestor ao fluxo informado pelo responsável pela produção."
+    },
+    {
+      "id": "cam-cs-ia-identificacao-e-controle-de-precisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "identificacao-e-controle-de-precisao",
+      "mechanism": "identificacao-e-controle-de-precisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Transparência sobre o uso e a Ordem de Serviço nº 1/2026"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Transparência sobre o uso e a Ordem de Serviço nº 1/2026"
+      },
+      "statement": "Após indicar ao público que uma peça foi gerada por IA, a equipe satisfaz também a exigência de monitorar a ferramenta para preservar a precisão das informações.",
+      "correctAnswer": "E",
+      "explanation": "O art. 2º prevê transparência e monitoramento em incisos distintos. O aviso não mede nem corrige o desempenho da ferramenta."
+    },
+    {
+      "id": "cam-cs-ia-mesmo-texto-com-capa-sintetica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "mesmo-texto-com-capa-sintetica",
+      "mechanism": "mesmo-texto-com-capa-sintetica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+      },
+      "statement": "Se o texto de uma notícia é inteiramente humano, o uso de IA para gerar a capa do vídeo que a acompanha fica automaticamente dispensado de identificação.",
+      "correctAnswer": "E",
+      "explanation": "A autoria do texto não determina a origem da capa. O art. 4º trata especificamente da identificação de partes audiovisuais geradas por IA."
     }
   ]
 }

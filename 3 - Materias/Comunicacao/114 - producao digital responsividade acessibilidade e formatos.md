@@ -64,7 +64,7 @@ A estrutura **POUR**, do World Wide Web Consortium (W3C), reúne quatro princíp
 
 **Texto alternativo:** descreve a função ou informação relevante de imagem quando ela precisa de equivalente textual. Imagem estritamente decorativa pode ter alternativa vazia quando implementada adequadamente; imagem usada como link precisa de nome acessível que comunique sua função. **Repetir “imagem de” ou copiar todo texto adjacente indiscriminadamente não é regra de qualidade**.
 
-**Contraste:** o critério 1.4.3 (mínimo, AA) exige, em regra, **4,5:1** para texto comum e **3:1** para texto grande, segundo definições e exceções do padrão. O 1.4.11 trata do **contraste não textual** pertinente, como informação gráfica e limites visuais de componentes, tipicamente **3:1** nas condições aplicáveis. Os detalhes foram estudados na nota 112.
+**Contraste:** o critério 1.4.3 (mínimo, AA) exige, em regra, **4,5:1** para texto comum e **3:1** para texto grande, segundo definições e exceções do padrão. O 1.4.11 trata do **contraste não textual** pertinente, como informação gráfica e limites visuais de componentes, tipicamente **3:1** nas condições aplicáveis. Os detalhes foram estudados no artigo [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade|Design gráfico: hierarquia, composição e legibilidade]].
 
 **Uso da cor:** o critério 1.4.1 não permite que a cor seja o **único meio visual** de transmitir informação, indicar ação, provocar resposta ou distinguir um elemento. Uma mensagem de erro apenas em vermelho, sem rótulo ou outro indício, pode falhar mesmo com contraste elevado.
 

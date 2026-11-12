@@ -166,3 +166,21 @@ As correções abaixo foram efetivamente salvas e verificadas por nova leitura d
 | 12 | conceito de não repúdio sem possibilidade de contestação | MP 2.200-2 e presunção não absoluta | `e278375`, `bc4028b` | leitura após commit | corrigido |
 
 **Estado restante:** as 13 questões originais continuam bloqueadas, e as 13 substitutas estão publicadas e identificadas. **A execução integral do Node/CI ainda não ocorreu**; a conferência relatada é de arquivos e regras verificadas, não de execução automatizada. Há possíveis achados adicionais na auditoria histórica atualizada por agentes concorrentes, que exigem nova seleção de lote, sem reescrever este relatório. Também restam renderização de Mermaid, links da wiki e certificação externa integral dos exercícios restantes.
+
+## Checkpoint de implementação: limites de IA e inferência visual (11/11/2026)
+
+A revisão final dirigida sobre o backlog histórico avançou nas passagens conceituais ainda conflitantes, sem reiniciar inventário, alterar outras matérias ou apagar exercícios antigos.
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+|:--|:--|:--|:--|:--|:--|
+| 21 | LLM como faixa fixa de parâmetros e ausência de raciocínio/consciência como fato técnico fechado; RAG como garantia absoluta | Separados mecanismo estatístico, tese acadêmica, avaliação empírica e riscos de ancoragem; diagrama e síntese alinhados | `ff3a716` | Relida versão salva; fundamentos contrastados com a crítica de Bender et al. | corrigido |
+| 22 | Um erro aritmético em zero-shot usado como prova de causa necessária | Caso 2 distingue falha observada e mecanismo causal; exige verificação independente | `1399b6a` | Relida versão salva e enunciado C/E original preservado | corrigido |
+| 23 | SHAP/LIME explicados como indicação causal de intervenção; classificação de biometria como obrigação automática de projeto legislativo | Explicações locais não causais, norma aplicável e finalidade delimitadas | `89f34c1` | Relida versão salva; LGPD e tramitação já referenciadas | corrigido |
+| 28 | Diagrama de box plot confundia cercas teóricas e extremos observados; pontos atípicos associados automaticamente a irregularidades | Diagrama textual e caso de auditoria reformulados | `79117a7` | Relida versão salva e confronto com regra de Tukey do próprio artigo | corrigido |
+| 30 | Caso de comunicação apresentava coincidência temporal como efeito da integração móvel e destaque como diagnóstico disciplinar | Anotações como hipóteses, sem inferência causal ou de infração automática | `af6e583` | Relida versão salva; Q6 sobre associação e causalidade preservada | corrigido |
+
+**Controle de compatibilidade:** `scripts/camara-ti-question-guard.js` mantém a leitura dos blocos `### Item/Questão` com `NÃO HOMOLOGADO`; `scripts/test-camara-questions.js` verifica 13 enunciados bloqueados e IDs de substituição. Nesta sessão o código foi inspecionado no GitHub e suas referências foram conferidas, mas **não foi executado em Node.js**.
+
+**Limite de execução:** acesso de checkout externo ao GitHub pelo terminal local indisponível (falha de resolução DNS); a conexão GitHub permite ler e escrever os arquivos remotamente. O workflow `.github/workflows/validar-publico.yml` está configurado para `pull_request` e contém `node scripts/test-camara-questions.js`; sem uma execução desse workflow para os commits, o status de teste permanece **pendente**. Não atribuir estado `validado` ao guard ou ao site apenas por inspeção textual.
+
+**Próximas ações:** executar e reparar a suíte Node/CI, realizar link-check/renderização Mermaid/Markdown da publicação, conferir referências externas sensíveis a versão/licença e calibrar itens inéditos remanescentes por amostra de provas oficiais, mantendo claramente distintas questões reais Cebraspe e itens autorais.

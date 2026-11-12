@@ -122,6 +122,49 @@ O problema do treino é reconhecer a operação pedida. **Explicar** um mecanism
 
 **Aplicação individual:** produza as duas respostas sem consultar os modelos e verifique, em cada uma, **verbo, objetos, condições, duas unidades solicitadas, limite de linhas e evidência textual literal**. Reescreva apenas o quesito ausente e depois a resposta integral. Para a teoria de públicos e avaliação, consulte o artigo canônico da matéria Comunicação antes de generalizar resultados. A correção deve seguir [[07 - revisao e autocorrecao de discursivas e pecas|CAM-DIS-009]]. As duas produções contam como alternativas de treino, não como acréscimo obrigatório às três horas semanais.
 
+### Resposta integral de 20 linhas digitais: cobertura de três quesitos
+
+**Origem documental:** a [questão 2 da prova discursiva do TCE-MG 2026, cargo 8](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/3ADF49146A2E55690BB77554138AD177F6BD763BC8B6C35FECD4EB7BAB4A06CD.pdf) exigiu explicar a atuação do comunicador no planejamento da acessibilidade, citar ao menos três recursos e relacioná-los à inclusão social, equidade e combate ao capacitismo, conforme o [padrão definitivo](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F38183E8ACE5B775CF445F24D52F5AB2E256333F594FE1078FD73B84B535690C.pdf). **O exame original admitia até 60 linhas.** A redução para 20 linhas e a resposta abaixo são **adaptações didáticas autorais para a Câmara**, não reprodução do enunciado integral nem do espelho.
+
+**Comando adaptado, autoral:** “Explique o papel do profissional de comunicação ao planejar a acessibilidade de um evento. Cite três recursos diferentes e explique sua contribuição para inclusão, equidade e combate ao capacitismo.”
+
+```text
+01 O planejamento da acessibilidade começa por identificar
+02 quais públicos participarão e que barreiras podem surgir.
+03 Profissionais de comunicação devem examinar, antes
+04 do evento, as condições de acesso às informações
+05 e ouvir pessoas afetadas pelas barreiras previstas.
+06 Essa avaliação orienta a equipe de produção na escolha
+07 dos recursos e na verificação de sua disponibilidade.
+08 Para públicos que utilizam a Língua Brasileira de Sinais,
+09 a interpretação em Libras pode favorecer o acesso
+10 à comunicação falada durante atividades do evento.
+11 A legendagem em tempo real atende necessidades
+12 de acesso ao conteúdo oral de outros participantes.
+13 A audiodescrição de elementos visuais relevantes
+14 ajuda pessoas com deficiência visual a compreendê-los.
+15 Os três recursos devem ser escolhidos segundo
+16 as atividades, os públicos e as barreiras identificadas.
+17 Ao reduzir obstáculos à informação e à interação,
+18 essas medidas favorecem participação mais equitativa.
+19 Planejar e testar os recursos ajuda a enfrentar
+20 práticas capacitistas que excluem pessoas com deficiência.
+```
+
+**Grade autoral aplicada, sem notas ou pesos da banca:**
+
+| Quesito do comando adaptado | Onde aparece | Observação crítica |
+| --- | --- | --- |
+| Planejamento, públicos, diagnóstico e articulação | linhas 1–7 | Relaciona profissional, necessidades, escolha e verificação; não descreve procedimentos administrativos inexistentes no enunciado |
+| Três recursos distintos | linhas 8–14 | Interpretação em Libras, legendagem em tempo real e audiodescrição, cada uma ligada a necessidade diferente |
+| Efeito na inclusão, equidade e combate ao capacitismo | linhas 15–20 | Explica redução de barreiras e participação; uma menção aos termos isolados seria parcial |
+
+**Autocrítica:** a resposta inclui três recursos e uma relação social geral, mas não comprova empiricamente resultados, não identifica necessidades de um evento real e pode exigir mais de 20 linhas na escrita manuscrita. Se o comando especificar grupos, ambiente virtual, exigências legais ou deveres do cerimonial, a grade deve ser refeita. **Não atribuir conceito oficial** sem comparar uma redação concreta com todos os descritores e com a correção da banca.
+
+**Miniavaliação inédita C/E:** “Uma resposta que desenvolve adequadamente apenas dois recursos satisfaz comando que exige pelo menos três, desde que a conclusão sobre inclusão esteja correta.” **Errado.** A quantidade é uma exigência autônoma; qualidade de outro quesito não supre o recurso ausente. “[Listar três recursos] equivale necessariamente a explicar sua contribuição para a inclusão.” **Errado.** É preciso explicitar mecanismo e relação com as barreiras.
+
+**Transferência:** reescreva a resposta com o novo verbo “compare dois recursos para um evento virtual” e limite de 20 linhas. Mantenha o assunto acessibilidade, altere quantidade e relação pedidas, verificando se a nova grade realmente responde ao comando. A avaliação de cada versão deve seguir [[07 - revisao e autocorrecao de discursivas e pecas|o protocolo de autocorreção]].
+
 ## Como decidir o que cortar
 
 Corte primeiro contextualização óbvia, repetição de adjetivos e paráfrase do enunciado. Preserve **distinção técnica, nexo causal, condição, exceção e exemplo exigido**. Uma resposta menor e completa é melhor que uma resposta de 20 linhas cujo último quesito não coube. Conte o limite na folha de treino e mantenha uma margem final para corrigir palavras sem inserir marca identificadora.

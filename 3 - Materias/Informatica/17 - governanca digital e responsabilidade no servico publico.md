@@ -35,14 +35,14 @@ flowchart TD
 
 ## 1. Princípios e diretrizes da Lei do Governo Digital (Lei nº 14.129/2021)
 
-A Lei nº 14.129/2021 estabelece as regras para a prestação digital de serviços públicos e para a modernização da gestão administrativa na União, Estados, DF e Municípios, destacando-se diretrizes de alta incidência nas provas do Cebraspe:
+A Lei nº 14.129/2021 estabelece diretrizes de governo digital. **A aplicação direta e a extensão a outros entes dependem do art. 2º e das hipóteses legais de adoção**; não é correta a afirmação de incidência administrativa uniforme em todos os Estados e Municípios. Para o Legislativo federal, examinar o alcance específico da norma e as competências administrativas aplicáveis:
 
 1. **Digital por Padrão (*Digital by Default*)**:
-   - Os serviços públicos e processos administrativos devem ser concebidos, tramitados e disponibilizados originariamente em formato digital, preservando-se o atendimento presencial exclusivamente como canal de inclusão para cidadãos hipossuficientes ou sem letramento digital.
+   - O estímulo à prestação digital deve conviver com **inclusão, acessibilidade e canais de atendimento adequados**. O atendimento presencial não fica limitado, por essa formulação genérica, apenas a cidadãos hipossuficientes.
 2. **Princípio do Cadastramento Único / "Uma Só Vez" (*Once-Only Principle*)**:
-   - É vedado aos órgãos públicos exigir do cidadão ou empresa documentos, certidões ou dados que já estejam em poder da própria Administração Pública. A responsabilidade pela integração e obtenção do dado cabe ao Estado por meio de **interoperabilidade de sistemas**.
+   - A apresentação única e a obtenção de informações já existentes no setor público são diretrizes de simplificação, **respeitadas as condições legais, a validade da informação, a abrangência dos órgãos e a possibilidade de compartilhamento**. Não inferir acesso ilimitado de qualquer órgão a qualquer base de dados.
 3. **Dados Abertos por Padrão (*Open Data by Default*)**:
-   - Todas as bases de dados públicos custodiadas pelo governo devem ser abertas e legíveis por máquina (formatos CSV, JSON, XML), salvo quando protegidas por sigilo legal (segurança do Estado, segredo industrial ou intimidade pessoal).
+   - A abertura de dados públicos deve seguir regras de formato, acesso e reutilização, **considerando limites de sigilo, dados pessoais, riscos de reidentificação e hipóteses legais de restrição**. Nem toda base mantida por órgão público pode ser aberta integralmente.
 4. **Interoperabilidade**:
    - Capacidade de sistemas distintos trocarem dados e transações de forma automatizada e padronizada (padrões de interoperabilidade de governo eletrônico - e-PING).
 5. **Acessibilidade Universal**:
@@ -93,7 +93,7 @@ Um dos eixos mais cobrados pelo Cebraspe na carreira de Divulgação Institucion
 O servidor público possui dever funcional de zelo com os ativos de informação, sistemas e credenciais que lhe são confiados (art. 116 da Lei nº 8.112/1990 e Código de Ética Profissional):
 
 1. **Intransferibilidade de Credenciais**:
-   - A senha e o token institucional são de uso estritamente pessoal e intransferível. O empréstimo de credencial para terceiros configura falta funcional grave e eventual infração disciplinar;
+   - A senha e o token institucional devem ser protegidos segundo a política de segurança aplicável. O compartilhamento de credenciais **pode caracterizar infração funcional**, com gravidade e consequência determinadas em apuração, não presumidas apenas pela descrição genérica.
 2. **Uso de E-mail Institucional e Recursos Corporativos**:
    - Documentos oficiais e comunicações de serviço devem tramitar pelas contas institucionais autorizadas (`@camara.leg.br`), sendo vedado o armazenamento de dados protegidos em serviços de nuvem pessoais não homologados (*Shadow IT*);
 3. **Quebra de Sigilo e Invasão de Dispositivo**:
@@ -105,7 +105,7 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 
 ### Caso 1: A exigência burocrática de certidão já em posse do Estado
 - **Cenário**: Um cidadão solicita acesso a uma linha de financiamento cultural gerida pela Câmara dos Deputados. O setor administrativo emite uma exigência determinando que o cidadão protocole fisicamente a cópia autenticada de sua certidão de quitação eleitoral e certidão de nascimento.
-- **Análise**: A exigência viola frontalmente a **Lei do Governo Digital (Lei nº 14.129/2021)** e o princípio *Once-Only*. Sendo a certidão eleitoral emitida pela própria Justiça Eleitoral (órgão do Estado brasileiro), a Câmara deve obter os dados diretamente por interoperabilidade entre bases públicas, sendo expressamente vedado exigir do usuário certidões que a Administração já possua.
+- **Análise**: é necessário conferir **se a informação válida já está disponível ao órgão, por meio juridicamente permitido**, e se a exigência documental é realmente necessária. A simplificação e a interoperabilidade orientam a dispensa de pedidos redundantes, mas a origem pública da certidão eleitoral **não autoriza concluir, sozinha**, que a Câmara tem acesso automático à base ou que qualquer exigência seja ilegal. O cenário permite avaliar dever de simplificação, não declarar ilicitude sem verificar as condições.
 
 ### Caso 2: O dilema entre a folha de pagamento e o direito à privacidade
 - **Cenário**: Uma entidade sindical ingressa com requerimento administrativo exigindo que a Câmara dos Deputados remova do Portal da Transparência o nome e o vencimento bruto dos servidores da área de comunicação, alegando que a divulgação fere o direito à privacidade assegurado pela LGPD.
@@ -117,7 +117,7 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 
 ### Caso 4: O compartilhamento de senha no gabinete durante o recesso
 - **Cenário**: Um analista entra em férias regulamentares e anota seu login de rede e senha em um post-it colado no monitor para que o estagiário possa despachar mensagens e acessar o sistema de protocolo legislativo.
-- **Análise**: Infração grave à Política de Segurança da Informação e aos deveres funcionais da Lei nº 8.112/1990. A autenticidade e o não repúdio das operações eletrônicas ficam comprometidos. Cada agente deve possuir credencial própria e intransferível, com perfis de acesso estritamente calibrados por função (*RBAC*).
+- **Análise**: a cessão de senha pode violar deveres funcionais e política de segurança, comprometendo a confiabilidade dos registros de autoria. A gravidade e a responsabilidade individual exigem apuração e exame das normas internas. Como boa prática, cada agente utiliza credencial pessoal e permissões proporcionais às atribuições (*RBAC*).
 
 ---
 
@@ -199,3 +199,5 @@ O servidor público possui dever funcional de zelo com os ativos de informação
 > **Validação jurídica, segunda passagem (11/11/2026):** Questão 1: o núcleo de simplificação documental e interoperabilidade é compatível com a [Lei 14.129/2021, arts. 3º e 24](https://www2.camara.leg.br/legin/fed/lei/2021/lei-14129-29-marco-2021-791203-normaatualizada-pl.html). **Gabarito CERTO preservado com ressalva de redação**, especialmente quanto à validade da prova, alcance dos órgãos e possibilidade jurídica/técnica de compartilhamento. A questão deverá ser reescrita antes de servir como referência literal de dispositivo.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** seis questões examinadas, gabaritos mantidos **C, E, E, C, E, C** com ressalvas. Q5 teve a fundamentação confrontada com o **art. 5º da Lei 14.063/2020** para remover referência legal excessivamente genérica. Q1 conserva a ressalva anterior sobre condições de interoperabilidade, antes de uso como enunciado literal.
+
+> **Implementação jurídica (11/11/2026):** removidas afirmações absolutas sobre atendimento exclusivamente digital, interoperabilidade universal, abertura integral de bases e responsabilidade disciplinar. Referência: [Lei 14.129/2021, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/2021/lei-14129-29-marco-2021-791203-normaatualizada-pl.html). Os casos são **hipóteses didáticas**, não relatos administrativos comprovados.

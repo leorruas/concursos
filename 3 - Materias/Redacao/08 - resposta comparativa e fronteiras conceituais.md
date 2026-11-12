@@ -69,3 +69,29 @@ Uma **resposta insuficiente** diz apenas que os conceitos “são importantes pa
 - [Edital da Câmara 2026, item 9, prova discursiva](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades).
 - [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|Art. 37, § 1º na comunicação]] e [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|Transparência pública aplicada à comunicação]].
 - O padrão [TCE-MG 2026, questão 1, cargos 6 a 10](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F38183E8ACE5B775CF445F24D52F5AB2E256333F594FE1078FD73B84B535690C.pdf) separa publicidade, privacidade e respectivas leis em quesitos. É evidência de decomposição; **não** é fonte do comando autoral acima.
+
+
+## Exercício complementar: comunicação institucional e propaganda partidária (autoral)
+
+O caso anterior distinguiu modalidades de publicidade. Uma segunda comparação útil é entre **divulgação institucional de atividades legislativas** e **propaganda político-partidária**. O eixo não pode mudar de um objeto para o outro: examinar **finalidade, uso do canal e limite institucional** em ambos.
+
+**Comando autoral:** “Compare a divulgação institucional de uma audiência pública com a propaganda político-partidária quanto à finalidade e aos limites de uso de canais oficiais”.
+
+**Resposta-modelo de 12 linhas digitais, apenas didática:**
+
+```text
+01 A divulgação de uma audiência pública pode atender
+02 à finalidade institucional de informar o cidadão
+03 sobre tema, horário e formas de participação.
+04 Deve preservar a impessoalidade e a finalidade
+05 educativa, informativa ou de orientação social.
+06 Já a propaganda político-partidária busca adesão
+07 a posições, partidos ou candidaturas e possui
+08 finalidade distinta da orientação institucional.
+09 A divulgação de fatos envolvendo parlamentares
+10 não configura, por si, promoção pessoal;
+11 o uso da comunicação oficial para promover agente
+12 ou candidatura ultrapassa essa finalidade pública.
+```
+
+**Autocorreção:** finalidade institucional, linhas 1–5; finalidade partidária, 6–8; fronteira contextual, 9–12. Uma resposta que considere toda referência a parlamentar como ilícita também comete erro: o art. 37, §1º, da Constituição veda elementos que **caracterizem promoção pessoal**. Esta comparação e sua quebra de linhas são autorais, não espelho da banca. [Texto constitucional](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).

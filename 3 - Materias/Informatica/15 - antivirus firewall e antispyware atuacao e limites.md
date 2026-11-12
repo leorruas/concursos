@@ -20,7 +20,7 @@ No inventário das ferramentas lógicas fundamentais, destacam-se três contrame
 
 ```mermaid
 flowchart TD
-    classDef rede fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+    classDef rede fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#0f172a;
     classDef ngfw fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#92400e;
     classDef host fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
     classDef spy fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;

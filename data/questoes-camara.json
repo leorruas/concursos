@@ -21228,6 +21228,180 @@
       "statement": "Se o acesso imediato for inviável, registrar no processo a justificativa expressa para prorrogar o prazo dispensa comunicar a prorrogação ao requerente.",
       "correctAnswer": "E",
       "explanation": "Além da justificativa expressa, a lei exige dar ciência ao requerente. O registro interno não cumpre essa etapa."
+    },
+    {
+      "id": "cam-cs-consulta-visual-sem-acesso-automatizado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "consulta-visual-sem-acesso-automatizado",
+      "mechanism": "consulta-visual-sem-acesso-automatizado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 3º, II e III"
+      },
+      "statement": "Disponibilizar uma tabela somente como imagem num portal sujeito aos requisitos de transparência ativa atende, por si só, à exigência de acesso automatizado aos dados.",
+      "correctAnswer": "E",
+      "explanation": "A imagem pode permitir leitura visual. A lei prevê acesso automatizado em formato aberto, estruturado e legível por máquina."
+    },
+    {
+      "id": "cam-cs-recurso-com-marco-de-ciencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "recurso-com-marco-de-ciencia",
+      "mechanism": "recurso-com-marco-de-ciencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 15, caput"
+      },
+      "statement": "Se a decisão de indeferimento foi emitida numa data e o interessado só tomou ciência dela mais tarde, o prazo de dez dias para recorrer começa com a ciência.",
+      "correctAnswer": "C",
+      "explanation": "O marco legal é a ciência da decisão pelo interessado, e não a data em que o órgão a emitiu."
+    },
+    {
+      "id": "cam-cs-consulta-de-copia-certificada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "consulta-de-copia-certificada",
+      "mechanism": "consulta-de-copia-certificada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 13, caput"
+      },
+      "statement": "Quando o manuseio de um documento público pode danificar o original, deve ser oferecida a consulta de uma cópia certificada como fiel.",
+      "correctAnswer": "C",
+      "explanation": "O art. 13 concilia acesso à informação com preservação do documento pela consulta de cópia certificada."
+    },
+    {
+      "id": "cam-cs-acesso-imediato-quando-disponivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "acesso-imediato-quando-disponivel",
+      "mechanism": "acesso-imediato-quando-disponivel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 11, caput e § 1º"
+      },
+      "statement": "Se a informação solicitada está disponível para acesso imediato, o órgão pode aguardar vinte dias por considerar esse o prazo ordinário para qualquer pedido.",
+      "correctAnswer": "E",
+      "explanation": "O acesso à informação disponível deve ser imediato. O prazo de até vinte dias aplica-se quando não é possível conceder acesso imediato."
+    },
+    {
+      "id": "cam-cs-negativa-com-direito-ao-inteiro-teor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "negativa-com-direito-ao-inteiro-teor",
+      "mechanism": "negativa-com-direito-ao-inteiro-teor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 14"
+      },
+      "statement": "Receber uma mensagem que informa o indeferimento não impede o interessado de obter cópia do inteiro teor da decisão que negou o acesso.",
+      "correctAnswer": "C",
+      "explanation": "O art. 14 assegura ao requerente o inteiro teor por certidão ou cópia."
+    },
+    {
+      "id": "cam-cs-pedido-remetido-com-ciencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "pedido-remetido-com-ciencia",
+      "mechanism": "pedido-remetido-com-ciencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 11, § 1º, III"
+      },
+      "statement": "Ao remeter um pedido ao órgão que detém a informação, o primeiro órgão fica dispensado de comunicar a remessa ao interessado.",
+      "correctAnswer": "E",
+      "explanation": "A remessa é admitida, mas o dispositivo exige cientificar o interessado."
     }
   ]
 }

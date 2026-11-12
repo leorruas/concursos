@@ -75,4 +75,4 @@ Quarenta questões sobre redes oficiais, vinculadas aos artigos 65 a 69. O lote 
 
 ## Lote 014 em elaboração
 
-Quatro itens sobre pedidos de informação, fornecimento direto, acesso parcial e prorrogação. O próximo conjunto cobre transparência ativa e procedimentos da Câmara.
+Dez itens sobre pedidos de informação, fornecimento direto, acesso parcial e prorrogação. O conjunto inclui requisitos de publicação, acesso a documentos e recursos. Ampliar com os procedimentos específicos da Câmara.

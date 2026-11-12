@@ -237,7 +237,7 @@ Reconhecer um benefício não destrói a tese. Pode apenas delimitar seu alcance
 
 A refutação vai além: apresenta uma objeção e mostra por que ela é insuficiente, incorreta ou limitada.
 
-Esse mecanismo será aprofundado em [[05 - contra-argumentacao e refutacao|Contra-argumentação e refutação]].
+Esse mecanismo será aprofundado em Contra-argumentação e refutação (tema geral planejado, ainda sem artigo próprio).
 
 ## Escolha da estratégia pela função
 
@@ -285,7 +285,7 @@ Exemplo:
 
 **conexão:** por isso, digitalização e ampliação de acesso não são automaticamente equivalentes.
 
-Isso prepara o próximo artigo: [[04 - construcao do paragrafo argumentativo|Construção do parágrafo argumentativo]].
+Isso prepara o tópico de aprofundamento: Construção do parágrafo argumentativo (tema geral planejado, ainda sem artigo próprio).
 
 ## Como costuma ser cobrado
 
@@ -307,15 +307,15 @@ Um texto pode apresentar muitos fatos e ainda ser argumentativamente fraco se n�
 
 A tese determina o que precisa ser sustentado; a estratégia determina como sustentar.
 
-### [[04 - construcao do paragrafo argumentativo|Construção do parágrafo argumentativo]]
+### Construção do parágrafo argumentativo (tema geral planejado, ainda sem artigo próprio)
 
 O próximo passo é transformar essas operações em parágrafos completos e progressivos.
 
-### [[05 - contra-argumentacao e refutacao|Contra-argumentação e refutação]]
+### Contra-argumentação e refutação (tema geral planejado, ainda sem artigo próprio)
 
 Concessão e refutação merecem aprofundamento próprio.
 
-### [[06 - repertorio exemplos e evidencias|Repertório, exemplos e evidências]]
+### Repertório, exemplos e evidências (tema geral planejado, ainda sem artigo próprio)
 
 Repertório e evidência precisam ser integrados à estrutura lógica.
 

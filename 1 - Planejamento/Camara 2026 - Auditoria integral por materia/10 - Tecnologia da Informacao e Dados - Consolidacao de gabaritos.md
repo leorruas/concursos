@@ -140,3 +140,29 @@ Autorizadas as etapas de implementação da matéria de TI. Os **13 enunciados o
 **Integração:** o hub `3 - Materias/Informatica/informatica.md` agora informa que cada enunciado bloqueado possui substituta. Não foi criado artigo canônico novo: o inventário CAM-TI já tem os 28 artigos próprios e os casos necessários couberam em seções dos artigos existentes. Não houve alteração de catálogo ou de outras matérias.
 
 **Próximo lote independente:** executar testes Node/CI em checkout e testar renderização da wiki, verificar correspondência dos links da nova seção e conferir a cobertura pedagógica transversal do edital. Não homologar automaticamente as 155 questões originais remanescentes; elas precisam de calibração externa quando usadas como simulado de banca.
+
+## Checkpoint de implementação: harmonização das seções teóricas (11/11/2026)
+
+As correções abaixo foram efetivamente salvas e verificadas por nova leitura dos arquivos. Abrangem **a teoria e os exemplos**, complementando as questões substitutas registradas no checkpoint anterior. As chaves originais marcadas NÃO HOMOLOGADO permaneceram preservadas.
+
+| Artigo | Problema resolvido | Alteração principal | Commit | Validação | Estado |
+|:--|:--|:--|:--|:--|:--|
+| 03 | quadro quebrado, convergência de sync apresentada como instantânea | quadro Markdown legível e premissas de sincronização | `5367b51` | leitura após commit | corrigido |
+| 04 | aceitar/rejeitar revisões confundido com eliminar comentários e metadados | controle de alterações e seções de cabeçalho | `8aa4408` | leitura após commit | corrigido |
+| 05 | precedência e separadores do Excel confundidos, atalho não confirmado | tabela de operadores, PROCV condicionado a valores, remoção de atalho | `d375baa` | leitura após commit | corrigido |
+| 06 | Morph exigindo nomes iguais, PPSX com fechamento universal | distinção entre pareamento automático e `!!` | `5dcfb92` | leitura após commit | corrigido |
+| 07 | proteção do link e lixeira em regras absolutas | permissões, diagrama e tabela sem ranking de segurança arbitrário | `189d4df` | leitura após commit | corrigido |
+| 08 | POP3 apagamento automático, TCP como pacotes, IP institucional inventado | sintaxe e tabela de protocolos, fluxo de bytes | `62e7ba3` | leitura após commit | corrigido |
+| 09 | busca com autenticidade presumida e linha Markdown incompleta | limites de indexação e sintaxe | `f5e3831` | leitura após commit | corrigido |
+| 10 | Reply-To ignorado, Cco como prova histórica, ZIP como proteção universal | tabela e caso de resposta revisados | `c83489f` | leitura após commit | corrigido |
+| 11 | Google Drive confundido com chat Meet, lobby universal | tabela de armazenamento, papéis e salas de reunião | `d42eb93` | leitura após commit | corrigido |
+| 13 | restauração integral, desempenho e sincronização garantidos | matriz de cópias/recuperação condicionada, RTO depende de testes | `2d4c87f` | leitura após commit | corrigido |
+| 14 | rootkit limitado ao kernel, trojan obrigatoriamente backdoor | diagrama, definição, tabela e heurística atualizados | `aefba27` | leitura após commit | corrigido |
+| 15 | sandbox e análise comportamental tratados como iguais, quarentena universalmente criptografada | mecanismos e limites separados | `e8d8fbe` | leitura após commit | corrigido |
+| 16 | phishing individual e pharming coletivo como definições | escopo de ataque variável e fonte CERT.br | `22ad144` | leitura após commit | corrigido |
+| 17 | escopo da LGPD art. 7º III pouco definido | bibliografia específica do tratamento público | `15a5ac9` | leitura após commit | corrigido |
+| 18 | funções não verificadas do Ulysses, ANI/AGI absoluta, HITL universal | atribuições institucionais e limites da classificação | `38d3d1f` | leitura após commit | corrigido |
+| 21 | corpo teórico ainda tratava P(X) como distribuição conjunta | definição marginal/junta consistente com S21-4 | `7c2f725` | leitura após commit | corrigido |
+| 12 | conceito de não repúdio sem possibilidade de contestação | MP 2.200-2 e presunção não absoluta | `e278375`, `bc4028b` | leitura após commit | corrigido |
+
+**Estado restante:** as 13 questões originais continuam bloqueadas, e as 13 substitutas estão publicadas e identificadas. **A execução integral do Node/CI ainda não ocorreu**; a conferência relatada é de arquivos e regras verificadas, não de execução automatizada. Há possíveis achados adicionais na auditoria histórica atualizada por agentes concorrentes, que exigem nova seleção de lote, sem reescrever este relatório. Também restam renderização de Mermaid, links da wiki e certificação externa integral dos exercícios restantes.

@@ -25,7 +25,7 @@ Para acertar itens da banca, o candidato precisa dominar o efeito exato do carac
 - **Pasta de Trabalho (*Workbook*)**: O arquivo do Excel (extensões padrão `.xlsx`, `.xlsm` com macros, `.xlsb` binário);
 - **Planilha (*Worksheet*)**: Cada aba de grade bidimensional composta por **1.048.576 linhas** (numeradas de 1 a 1.048.576) e **16.384 colunas** (rotuladas de `A` até `XFD`);
 - **Célula**: Interseção de uma coluna e uma linha (ex.: `B4`). É a unidade elementar de armazenamento que pode conter texto, números, datas, valores booleanos (`VERDADEIRO`/`FALSO`) ou fórmulas;
-- **Intervalo de Células**: Bloco retangular contíguo delimitado pelo operador dois-pontos (`:`, significando "até", ex.: `A1:C10`) ou lista de argumentos separados por ponto e vírgula (`;`, significando "e", ex.: `A1; C10`).
+- **Intervalo de células**: conjunto contíguo descrito por duas referências separadas por **dois-pontos**, como `A1:C10`. Uma **lista de argumentos** de função, como `SOMA(A1;C10)` em configuração regional que usa `;`, não é o mesmo que um intervalo contínuo. Referências também podem ser combinadas por operadores de **união** e **interseção**; a sintaxe do separador varia com a localidade.
 
 ---
 
@@ -57,14 +57,19 @@ flowchart TD
 
 No Excel, qualquer fórmula inicia-se obrigatoriamente pelo sinal de igual (`=`) ou, alternativamente, pelos sinais de adição (`+`) ou subtração (`-`), que o Excel converte automaticamente para `=+` ou `=-`.
 
-A avaliação matemática segue a precedência estrita:
-1. **Parênteses** `( )`: Forçam a prioridade interna;
-2. **Dois-pontos (`:`) e ponto e vírgula (`;`)**: Operadores de intervalo de referência;
-3. **Exponenciação** `^`: Ex.: `=2^3` (resultado: 8);
-4. **Multiplicação (`*`) e Divisão (`/`)**: Da esquerda para a direita;
-5. **Adição (`+`) e Subtração (`-`)**: Da esquerda para a direita;
-6. **Concatenação de textos (`&`)**: Ex.: `="Câmara" & " " & "2026"` resulta em `Câmara 2026`;
-7. **Operadores de comparação** (`=`, `<`, `>`, `<=`, `>=`, `<>`): Retornam `VERDADEIRO` ou `FALSO`.
+O Excel aplica uma **ordem de precedência**; parênteses permitem alterar a ordem. Na tabela da Microsoft, os operadores de **referência** (intervalo `:`, interseção por espaço e união conforme separador local) precedem negação, porcentagem, exponenciação, multiplicação/divisão, adição/subtração, concatenação e comparação. Em funções, **separadores de argumentos** não devem ser confundidos automaticamente com os operadores de referência.
+
+| Ordem usual | Operadores | Exemplo e cuidado |
+|:--|:--|:--|
+| 1 | Referência: `:`, interseção por espaço, união conforme localidade | `A1:C10` é intervalo, não argumento separado |
+| 2 | Negação e porcentagem | `-1`, `20%` |
+| 3 | Exponenciação `^` | `2^3` |
+| 4 | Multiplicação/divisão `*`, `/` | `10+20*2 = 50` |
+| 5 | Adição/subtração `+`, `-` | `=(10+20)*2 = 60` |
+| 6 | Concatenação `&` | `="Câmara" & " " & "2026"` |
+| 7 | Comparação `=`, `<`, `>`, `<=`, `>=`, `<>` | Resultados lógicos quando os operandos são comparáveis |
+
+Fonte: [Microsoft, operadores e precedência em Excel](https://support.microsoft.com/pt-br/excel/calculation-operators-and-precedence-in-excel).
 
 > **Pegadinha do Cebraspe:**
 > Na fórmula `=10 + 20 * 2`, o resultado é **50**, e não 60, pois a multiplicação tem precedência sobre a adição.
@@ -103,9 +108,9 @@ A avaliação matemática segue a precedência estrita:
 
 ## 5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)
 
-### 5.1 O recurso "Formatar como Tabela" (`Ctrl + Alt + T` ou `Ctrl + L`)
+### 5.1 Transformar um intervalo em Tabela do Excel (*Formatar como Tabela* / *Inserir Tabela*)
 Não é mera pintura de células:
-- Converte a grade em um objeto estruturado de banco de dados;
+- Converte o intervalo em um **objeto Tabela do Excel**, que possui cabeçalhos e referências estruturadas; **não transforma a planilha em banco de dados relacional**;
 - Cria automaticamente filtros nas colunas;
 - Estende fórmulas e formatos para novas linhas adicionadas;
 - Permite referências estruturadas legíveis (ex.: `=SOMA(Tabela1[Salário])`).
@@ -141,7 +146,7 @@ O usuário aplica a fórmula `=MÉDIA(A1:A3)` e, em outra célula, `=MÉDIA(A1:A
 
 ### Caso 3: Busca reversa com PROCV
 Um servidor possui uma tabela onde os nomes dos funcionários estão na coluna `A` e as matrículas funcionais estão na coluna `B`. Ele tenta usar a função `=PROCV("12345"; A1:B100; 1; FALSO)` buscando a matrícula digitada na coluna B para retornar o nome da coluna A.
-*Análise:* A fórmula resultará em erro `#N/D` (*Não Disponível*). O `PROCV` pesquisa o valor exclusivamente na primeira coluna do intervalo fornecido (`A`). Como a matrícula procurada está na coluna `B`, o `PROCV` não consegue buscar "para trás" (à esquerda). Para resolver, o analista deve reordenar as colunas, usar a combinação `=ÍNDICE(A1:A100; CORRESP(...))` ou a função moderna `=PROCX(...)`.
+*Análise:* A fórmula **não procura matrículas na coluna B**, pois o `PROCV` pesquisa o valor exclusivamente na primeira coluna da matriz (`A`). Se `"12345"` **não ocorrer em A**, o resultado será `#N/D`; se ocorrer em A, poderá retornar um valor da coluna A e, ainda assim, **não terá feito a busca reversa desejada**. Para resolver a tarefa, o analista pode reordenar as colunas ou usar `ÍNDICE`/`CORRESP` ou `PROCX` com referências adequadas.
 
 ### Caso 4: Tabela Dinâmica desatualizada
 Após redigir um relatório de despesas com Tabela Dinâmica, um analista corrige os lançamentos na planilha base, alterando o valor de uma nota fiscal de R$ 1.000 para R$ 10.000. Ele gera o PDF imediatamente e envia à chefia, mas a Tabela Dinâmica continua exibindo o total anterior.
@@ -251,3 +256,6 @@ Portanto, a fórmula em `E5` será perfeitamente `=SOMA($B$2:C4)`.
 **Fontes primárias:** [Microsoft: função MAIOR](https://support.microsoft.com/pt-br/excel/functions/large-function) e [Microsoft: função MÁXIMO](https://support.microsoft.com/pt-br/excel/functions/max-function). **Relação:** [[3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade|Tratamento de dados ausentes e validade]].
 
 **Rastreabilidade:** Item 5 anterior mantido como **NÃO HOMOLOGADO**; esta versão condicionada pode ser utilizada como item inédito revisado.
+
+
+> **Implementação TI-101 (11/11/2026):** removido atalho não comprovado `Ctrl+Alt+T`, distinguido operador de intervalo de separador de argumentos, corrigido o caso PROCV dependente dos dados. Fonte principal: [Microsoft, operadores de cálculo](https://support.microsoft.com/pt-br/excel/calculation-operators-and-precedence-in-excel). Os atalhos precisam ser lidos conforme versão/idioma.

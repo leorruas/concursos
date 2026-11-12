@@ -53,19 +53,19 @@ graph TD
 
 ## 2. Negação Sintática, Escopo e Semi-Negativos
 
-A negação em inglês não se restringe à partícula adverbial *not*. O Cebraspe explora com grande frequência a semântica dos **advérbios semi-negativos (*broad negatives*)**:
+A negação em inglês não se restringe à partícula adverbial *not*. Expressões negativas ou restritivas alteram o escopo da oração e, em posição inicial enfática, podem exigir inversão; sua frequência específica na banca não foi medida:
 
 | Advérbio Semi-Negativo | Equivalência em Português | Efeito Semântico e Sintático |
 | :--- | :--- | :--- |
-| **Seldom / Rarely** | Raramente, quase nunca | Reduz a frequência a níveis quase nulos; requer inversão se anteposto. |
+| **Seldom / Rarely** | Raramente, quase nunca | Indica baixa frequência contextual, sem percentual fixo; em posição inicial enfática, requer inversão. |
 | **Barely / Scarcely / Hardly** | Mal, apenas, dificilmente | Indica suficiência limítrofe ou quase impossibilidade. |
 | **Little (advérbio)** | Pouco, quase nada | Negação virtual de conhecimento ou percepção (*Little did they know...*). |
 | **Nowhere / No sooner** | Em nenhum lugar / Mal (acabara de) | Negação espacial ou correlação temporal imediata (*No sooner had... than...*). |
-| **Under no circumstances / In no way** | Sob nenhuma hipótese / De modo algum | Proibição categórica absoluta com inversão obrigatória. |
+| **Under no circumstances / In no way** | Sob nenhuma hipótese / De modo algum | Negação de alcance geral, podendo expressar proibição conforme modal e contexto; em posição inicial enfática, exige inversão. |
 
 > [!IMPORTANT]
 > **A Regra de Escopo:**
-> Em inglês, a dupla negação padrão (*double negative*) é agramatical na norma culta padrão. A sentença *The committee did not find no irregularity* viola a gramática formal. Contudo, em questões de inferência textual do Cebraspe, a presença de uma palavra semi-negativa (*The court barely accepted the argument*) equivale formalmente a uma quase rejeição, e não a um acolhimento integral ou entusiasmado.
+> Em inglês padrão formal, a **concordância negativa** de construções como *The committee didn't find no irregularities*, presente em certas variedades com o sentido de ausência de irregularidades, costuma ser evitada. Isso não torna toda dupla negação incorreta: *It is not uncommon* é padrão e significa que algo não é incomum. A frase *The court barely accepted the argument* descreve aceitação no limite, não rejeição efetiva. Interprete a variedade, o escopo e a polaridade.
 
 ---
 

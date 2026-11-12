@@ -92,12 +92,12 @@ A presença ou ausência do artigo indefinido *a* altera radicalmente a polarida
 
 ### 2.2. A Escala de Quantificadores e Delimitadores de Escopo
 
-$$\text{All / Every (100\%)} \longrightarrow \text{Most / Majority (70-90\%)} \longrightarrow \text{Many / Much (50-70\%)} \longrightarrow \text{Some / Several (20-40\%)} \longrightarrow \text{Few / Little (<5\%)} \longrightarrow \text{None / No (0\%)}$$
+**Quantificadores não são uma régua de porcentagens fixas.** *All/every* têm alcance universal no domínio relevante; *none/no* negam ocorrências nesse domínio; *most* indica mais da metade dos elementos contáveis pertinentes. *Many*, *several*, *some*, *few* e *little* dependem do contexto, do conjunto de referência e da natureza contável ou incontável do substantivo. *Few* indica quantidade pequena com orientação negativa; *a few* apresenta uma quantidade pequena como existente ou suficiente no contexto. Não atribua faixas percentuais a essas expressões.
 
 - **Generalização Abusiva (*Overgeneralization*):**  
   Se o texto afirma: *Most parliamentarians agreed with the budgetary cut*, um item que assevera: *All parliamentarians agreed...* ou *Every parliamentarian approved...* está **ERRADO**.
 - **Restrição Abusiva (*Underspecification*):**  
-  Se o texto afirma: *All government agencies must disclose procurement data*, um item que afirma: *Some government agencies are required...* subverte o caráter universal e obrigatório da norma.
+  Se o texto afirma *All government agencies must disclose procurement data*, dizer apenas *Some government agencies are required...* pode ser logicamente compatível (o universal inclui casos particulares), embora **não reproduza a abrangência** da regra. Um item só será necessariamente errado se afirmar que *only some* órgãos estão sujeitos à obrigação, ou negar a obrigação de outros.
 
 ---
 

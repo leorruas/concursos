@@ -50,7 +50,21 @@ async function carregarConteudoCompletoArtigo(artigo) {
 
 function irParaSecaoArtigo(secao, comportamento = "smooth") {
     if (!secao) return false;
-    const alvo = document.getElementById(secao);
+    let alvo = document.getElementById(secao);
+
+    // O histórico privado usa o título humano da seção em theoryRefs.
+    // O TOC usa o anchor normalizado do índice público: resolver ambos.
+    if (!alvo || !artigoCorpo.contains(alvo)) {
+        const anchor = resolverSecaoWikilink(artigoAtual, secao);
+        alvo = document.getElementById(anchor);
+    }
+
+    // Compatibilidade com artigos sem índice compacto ou títulos antigos.
+    if ((!alvo || !artigoCorpo.contains(alvo)) && typeof normalizarTituloSecaoWikilink === "function") {
+        const titulo = normalizarTituloSecaoWikilink(secao);
+        alvo = Array.from(artigoCorpo.querySelectorAll("h2, h3"))
+            .find(heading => normalizarTituloSecaoWikilink(heading.textContent) === titulo);
+    }
     if (!alvo || !artigoCorpo.contains(alvo)) return false;
 
     alvo.scrollIntoView({ behavior: comportamento, block: "start" });

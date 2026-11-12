@@ -36706,23 +36706,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-719dd4ca3e84b65a",
-      "conceptId": "histograma-densidade-classes-desiguais",
-      "mechanism": "corrigir-frequencia-pela-amplitude",
+      "conceptId": "histograma-alturas-com-classes-desiguais",
+      "mechanism": "calcular-e-comparar-densidades",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-719dd4ca3e84b65a#2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+        "article:art-719dd4ca3e84b65a#3. Anatomia matemática do histograma"
       ],
       "source": {
         "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
-        "section": "2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+        "section": "3. Anatomia matemática do histograma"
       },
-      "statement": "Em histograma com classes de amplitudes diferentes, representar a frequência por meio da área de cada retângulo requer ajustar a altura pela largura da respectiva classe.",
+      "statement": "Em um histograma, a classe de 0 a 2 reúne 8 observações e a classe de 2 a 6 reúne 12. Para representar as frequências pelas áreas dos retângulos, a altura da primeira classe deve ser maior do que a altura da segunda.",
       "correctAnswer": "C",
-      "explanation": "Para manter área proporcional à frequência, a altura deve representar densidade de frequência, isto é, frequência dividida pela amplitude da classe.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Histograma versus gráfico de barras: o divisor de águas estatístico\" do artigo 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "A altura é frequência dividida pela largura. A primeira classe tem altura 8/2 = 4; a segunda, 12/4 = 3. A classe com mais observações pode ter retângulo mais baixo por ser mais larga.",
+      "reviewEvidence": "Lote 026: correção editorial incremental em 12/11/2026 do item 033, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-719dd4ca3e84b65a, subtítulo literal '3. Anatomia matemática do histograma'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirrepetição e CI no SHA atualizado ainda necessários; manter revisada."
     },
     {
       "id": "cam-ti-l026-034-grafico-barras-ordem-numerica-obrigatoria",
@@ -36790,23 +36790,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-719dd4ca3e84b65a",
-      "conceptId": "linhas-partidos-nominais",
-      "mechanism": "inventar-continuidade-entre-categorias",
+      "conceptId": "orientacao-de-barras-com-rotulos-extensos",
+      "mechanism": "escolher-orientacao-do-grafico",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-719dd4ca3e84b65a#5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
+        "article:art-719dd4ca3e84b65a#4. Gráfico de barras: horizontais versus verticais (colunas)"
       ],
       "source": {
         "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
-        "section": "5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
+        "section": "4. Gráfico de barras: horizontais versus verticais (colunas)"
       },
-      "statement": "Ao exibir quantidades de projetos por partido, conectar os pontos de PT, PL e MDB por uma linha representa adequadamente uma tendência temporal, ainda que o eixo horizontal contenha somente nomes de partidos.",
+      "statement": "Para comparar despesas de trinta unidades administrativas com nomes extensos, é obrigatório usar colunas verticais: barras horizontais são inadequadas porque tornam impossível ler os nomes das categorias.",
       "correctAnswer": "E",
-      "explanation": "Categorias nominais não formam um eixo temporal ou quantitativo contínuo; a linha criaria uma progressão sem significado entre partidos.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"5. Gráfico de linhas: a continuidade temporal e suas fronteiras\" do artigo 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "Barras horizontais costumam facilitar rótulos longos, pois dispõem de espaço para escrevê-los ao lado de cada barra. A orientação depende da tarefa, sem proibição universal das barras horizontais.",
+      "reviewEvidence": "Lote 026: correção editorial incremental em 12/11/2026 do item 036, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-719dd4ca3e84b65a, subtítulo literal '4. Gráfico de barras: horizontais versus verticais (colunas)'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirrepetição e CI no SHA atualizado ainda necessários; manter revisada."
     },
     {
       "id": "cam-ti-l026-037-dispersao-nao-prova-causalidade",
@@ -36846,8 +36846,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e3831c8dec419d79",
-      "conceptId": "pearson-zero-prova-independencia",
-      "mechanism": "confundir-ausencia-linear-com-independencia",
+      "conceptId": "comparar-nuvens-com-pearson-similar",
+      "mechanism": "comparar-padroes-visuais-nao-lineares",
       "questionType": "distincao",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
@@ -36859,10 +36859,10 @@
         "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
         "section": "2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
       },
-      "statement": "Um coeficiente de correlação de Pearson próximo de zero comprova que duas variáveis são independentes, inclusive quando apresentam relação curvilínea evidente no gráfico.",
-      "correctAnswer": "E",
-      "explanation": "Pearson resume associação linear; pode ser próximo de zero mesmo quando existe dependência não linear entre as variáveis.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. O gráfico de dispersão (*scatter plot*): relações bivariadas\" do artigo 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "statement": "Em um diagrama de dispersão, dois conjuntos podem ter coeficientes de correlação linear de Pearson próximos de zero e, ainda assim, apresentar padrões visuais diferentes, como uma nuvem sem forma evidente e outra em formato de U.",
+      "correctAnswer": "C",
+      "explanation": "Pearson resume associação linear. Um padrão curvo pode gerar correlação linear próxima de zero apesar da dependência não linear. A análise visual distingue padrões que um único coeficiente não descreve.",
+      "reviewEvidence": "Lote 026: correção editorial incremental em 12/11/2026 do item 038, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-e3831c8dec419d79, subtítulo literal '2. O gráfico de dispersão (*scatter plot*): relações bivariadas'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirrepetição e CI no SHA atualizado ainda necessários; manter revisada."
     },
     {
       "id": "cam-ti-l026-039-boxplot-haste-valor-observado",
@@ -36874,8 +36874,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e3831c8dec419d79",
-      "conceptId": "boxplot-haste-valor-observado",
-      "mechanism": "distinguir-cerca-teorica-de-haste",
+      "conceptId": "boxplot-aplicar-cerca-haste-valor",
+      "mechanism": "calcular-cerca-e-posicao-da-haste",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
@@ -36887,10 +36887,10 @@
         "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
         "section": "3. O box plot: o resumo dos cinco números de Tukey"
       },
-      "statement": "No box plot modificado de Tukey, a haste superior costuma terminar no maior valor efetivamente observado que permanece dentro da cerca de 1,5 vezes o intervalo interquartil acima do terceiro quartil.",
+      "statement": "Em um box plot modificado de Tukey, Q1 = 10, Q3 = 20 e o maior valor observado dentro da cerca superior é 34. A haste superior termina em 34, embora a cerca teórica esteja em 35.",
       "correctAnswer": "C",
-      "explanation": "A cerca é um limite teórico para detectar atípicos; a haste alcança uma observação real dentro dela, não necessariamente o valor numérico exato da cerca.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"3. O box plot: o resumo dos cinco números de Tukey\" do artigo 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "IQR = 20 − 10 = 10; a cerca superior é 20 + 1,5 × 10 = 35. O bigode alcança a maior observação dentro da cerca (34), não o limite teórico (35).",
+      "reviewEvidence": "Lote 026: correção editorial incremental em 12/11/2026 do item 039, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-e3831c8dec419d79, subtítulo literal '3. O box plot: o resumo dos cinco números de Tukey'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirrepetição e CI no SHA atualizado ainda necessários; manter revisada."
     },
     {
       "id": "cam-ti-l026-040-iqr-e-amplitude-total",
@@ -36902,8 +36902,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e3831c8dec419d79",
-      "conceptId": "iqr-e-amplitude-total",
-      "mechanism": "trocar-dispersao-central-pela-total",
+      "conceptId": "comparar-iqr-grupos-com-mesma-amplitude",
+      "mechanism": "calcular-dispersao-central-entre-grupos",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
@@ -36915,10 +36915,10 @@
         "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
         "section": "3. O box plot: o resumo dos cinco números de Tukey"
       },
-      "statement": "O intervalo interquartil de um conjunto de dados corresponde à diferença entre seu valor máximo e seu valor mínimo e inclui necessariamente todos os pontos discrepantes.",
+      "statement": "Duas amostras possuem a mesma mediana e a mesma amplitude total. Na primeira, Q1 = 10 e Q3 = 30; na segunda, Q1 = 18 e Q3 = 22. A igualdade dessas medidas garante que o intervalo interquartil também seja idêntico.",
       "correctAnswer": "E",
-      "explanation": "O intervalo interquartil é Q3 menos Q1 e resume a dispersão dos 50% centrais, não a amplitude total entre máximo e mínimo.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"3. O box plot: o resumo dos cinco números de Tukey\" do artigo 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "O IQR da primeira amostra é 30 − 10 = 20; o da segunda é 22 − 18 = 4. A igualdade da mediana e da amplitude total não obriga a metade central das observações a ter a mesma dispersão.",
+      "reviewEvidence": "Lote 026: correção editorial incremental em 12/11/2026 do item 040, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-e3831c8dec419d79, subtítulo literal '3. O box plot: o resumo dos cinco números de Tukey'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirrepetição e CI no SHA atualizado ainda necessários; manter revisada."
     }
   ]
 }

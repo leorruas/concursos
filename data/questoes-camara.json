@@ -15512,6 +15512,114 @@
       "correctAnswer": "E",
       "explanation": "A vedação alcança tanto os invólucros padronizados quanto os documentos que compõem a via não identificada.",
       "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 11, § 3º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
+    },
+    {
+      "id": "cam-cs-modelo-e-predicao-limitada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / Teorias da Comunicação",
+      "articleId": "art-65e3a8bd42f190c7",
+      "conceptId": "modelo-e-predicao-limitada",
+      "mechanism": "modelo-e-predicao-limitada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-65e3a8bd42f190c7#Cinco termos e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao.md",
+        "section": "Cinco termos e suas fronteiras"
+      },
+      "statement": "Um esquema que representa as etapas de transmissão de uma mensagem explica, apenas por incluir remetente e destinatário, por que públicos diferentes atribuem sentidos divergentes à mesma mensagem.",
+      "correctAnswer": "E",
+      "explanation": "O esquema pode representar o percurso da mensagem. Explicar diferenças de interpretação exige conceitos sobre a produção de sentido e o contexto dos públicos."
+    },
+    {
+      "id": "cam-cs-ajuste-por-sinal-simultaneo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / Teorias da Comunicação",
+      "articleId": "art-943fb6a178d205ec",
+      "conceptId": "ajuste-por-sinal-simultaneo",
+      "mechanism": "ajuste-por-sinal-simultaneo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-943fb6a178d205ec#Terceiro conjunto: modelo transacional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao.md",
+        "section": "Terceiro conjunto: modelo transacional"
+      },
+      "statement": "Em uma audiência, uma expositora ajusta a explicação enquanto fala ao perceber gestos de dúvida. Essa adaptação durante a emissão é compatível com uma análise transacional da interação.",
+      "correctAnswer": "C",
+      "explanation": "A expositora produz sinais e interpreta respostas durante a mesma interação. Os papéis não precisam alternar apenas depois que cada mensagem termina."
+    },
+    {
+      "id": "cam-cs-mesma-pauta-quadros-distintos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / Teorias da Comunicação",
+      "articleId": "art-cf270947be50a816",
+      "conceptId": "mesma-pauta-quadros-distintos",
+      "mechanism": "mesma-pauta-quadros-distintos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-cf270947be50a816#Mapa 2: seleção, saliência, enquadramento, influência e expressão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos.md",
+        "section": "Mapa 2: seleção, saliência, enquadramento, influência e expressão"
+      },
+      "statement": "Dois veículos dão igual destaque a uma votação, mas um enfatiza seu custo e outro o acesso ao serviço. Como o destaque é igual, os enquadramentos também são iguais.",
+      "correctAnswer": "E",
+      "explanation": "O destaque indica saliência. A ênfase em custos ou acesso organiza interpretações distintas."
+    },
+    {
+      "id": "cam-cs-destaque-e-concordancia-separados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / Teorias da Comunicação",
+      "articleId": "art-cf270947be50a816",
+      "conceptId": "destaque-e-concordancia-separados",
+      "mechanism": "destaque-e-concordancia-separados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-cf270947be50a816#O que significa “efeito” em cada pergunta?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos.md",
+        "section": "O que significa “efeito” em cada pergunta?"
+      },
+      "statement": "Se uma cobertura faz mais pessoas citarem um tema como prioritário, esse resultado pode ser observado mesmo quando a proporção de pessoas favoráveis à proposta permanece igual.",
+      "correctAnswer": "C",
+      "explanation": "A importância atribuída ao tema pode mudar sem alteração na direção da opinião sobre a proposta."
     }
   ]
 }

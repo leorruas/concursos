@@ -45,3 +45,7 @@ Quarenta questões geradas sobre gestão de equipes publicitárias, item 7 do ed
 ## Lote 008 validado
 
 Vinte e duas questões geradas sobre a Lei nº 12.232/2010, com indicação dos dispositivos e dos artigos 123 e 124. Dezoito questões adicionais cobrem o Código Brasileiro de Autorregulamentação Publicitária. Gabaritos conferidos nas fontes primárias. O seletor recuperou os 40 itens do item 8. O próximo lote inicia Comunicação Social.
+
+## Lote 009 em elaboração
+
+Quatro questões geradas sobre modelos e teorias da comunicação, vinculadas aos artigos 26, 31 e 47. Ampliar a cobertura do item 1 de Comunicação Social com escolas, opinião pública, midiatização, plataformização e integridade da informação.

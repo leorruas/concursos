@@ -98,6 +98,10 @@
     {
       "id": "atualidades",
       "title": "Atualidades"
+    },
+    {
+      "id": "direito-constitucional",
+      "title": "Direito Constitucional"
     }
   ],
   "cards": [
@@ -9784,6 +9788,78 @@
       "contrast": {
         "prompt": "A definição de risco amostral compara amostra e população. Isso exige que o auditor faça censo?",
         "answer": "Não. É comparação conceitual para explicar incerteza da amostra, não prescrição de teste censitário."
+      }
+    },
+    {
+      "id": "camara-sumula-vinculante-aprovacao",
+      "term": "Súmula vinculante: aprovação e alcance",
+      "definition": "É um enunciado que reúne a interpretação constitucional adotada repetidamente pelo Supremo Tribunal Federal (STF). Exige controvérsia constitucional atual que provoque grave insegurança e muitos processos semelhantes; a edição depende de pelo menos oito dos 11 ministros. Depois da publicação oficial, vincula os demais órgãos judiciais e a administração pública.",
+      "example": "Vários tribunais dão respostas divergentes à mesma questão constitucional. O STF já decidiu reiteradamente o assunto e aprova o enunciado por oito votos. Após sua publicação, os órgãos alcançados devem observar a orientação.",
+      "confusion": "Súmula comum não vira vinculante automaticamente. O quórum para editar súmula vinculante é de dois terços dos membros do tribunal; a maioria absoluta usada na reserva de plenário trata de ato diferente.",
+      "topic": "Poder Judiciário e controle de constitucionalidade",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Poder Judiciário"
+      ],
+      "note": {
+        "articleId": "art-7c5228e2781b4336",
+        "section": "Súmula vinculante: art. 103-A"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988, art. 103-A",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/constituicao-federal/index.html/CF1988.html",
+        "locator": "Art. 103-A, caput e § 1º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-12",
+      "revision": 1,
+      "conceptIds": [
+        "camara-editorial-sumula-vinculante-quorum"
+      ],
+      "contrast": {
+        "prompt": "O Supremo Tribunal Federal tem 11 ministros e seis votam por uma súmula vinculante. É suficiente, mesmo havendo julgamentos repetidos?",
+        "answer": "Não. São necessários pelo menos oito votos, pois o art. 103-A exige dois terços dos membros do tribunal. Também precisam estar presentes os requisitos materiais da súmula."
+      }
+    },
+    {
+      "id": "camara-sumula-vinculante-reclamacao",
+      "term": "Reclamação por desrespeito a súmula vinculante",
+      "definition": "É um pedido ao Supremo Tribunal Federal (STF) para corrigir decisão judicial ou ato administrativo que contrarie ou aplique indevidamente súmula vinculante. Contra ato ou omissão da administração pública, a Lei nº 11.417/2006 exige esgotar antes as vias administrativas; o STF pode anular o ato ou cassar a decisão.",
+      "example": "Uma autarquia decide contra uma súmula vinculante aplicável. O interessado usa os meios administrativos cabíveis e, esgotadas essas vias, apresenta reclamação. Se procedente, o STF anula o ato e determina nova decisão.",
+      "confusion": "A exigência específica de esgotar as vias administrativas vale para a reclamação contra ato ou omissão administrativa. Não deve ser estendida automaticamente a toda decisão judicial; a reclamação também tem requisitos próprios.",
+      "topic": "Poder Judiciário e controle de constitucionalidade",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Poder Judiciário"
+      ],
+      "note": {
+        "articleId": "art-7c5228e2781b4336",
+        "section": "Súmula vinculante: art. 103-A"
+      },
+      "source": {
+        "title": "Lei nº 11.417/2006, art. 7º",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11417-19-dezembro-2006-548408-publicacaooriginal-63540-pl.html",
+        "locator": "Art. 7º, caput e §§ 1º e 2º; CF, art. 103-A, § 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-12",
+      "revision": 1,
+      "conceptIds": [
+        "camara-sumula-vinculante-reclamacao"
+      ],
+      "contrast": {
+        "prompt": "Uma autarquia aplica indevidamente súmula vinculante. Pode-se apresentar reclamação diretamente sem antes esgotar os meios administrativos?",
+        "answer": "Não. O art. 7º, § 1º, da Lei nº 11.417/2006 exige o esgotamento das vias administrativas para reclamação contra ato ou omissão da administração."
       }
     }
   ]

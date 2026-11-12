@@ -200,6 +200,36 @@ Ao julgar itens do Cebraspe: **se o texto afirma que uma reforma *may stimulate 
 
 ---
 
+## 4.1. O mesmo fato sob obrigação, permissão e inferência
+
+**Cenário original e ficcional:** um museu prepara seu inventário. A diferença entre frases sobre esse procedimento está na força assertiva e na origem da obrigação.
+
+*The museum must submit the inventory by Friday* estabelece obrigação. *The museum must not submit incomplete records* estabelece proibição de apresentar registros incompletos. *The museum does not have to submit photographs* remove a exigência de fotografias, sem proibir seu envio. *The museum may submit additional notes* admite permissão, embora *may* possa ter outros valores em contextos diferentes.
+
+Compare agora *The curator must have checked the inventory*, que expressa dedução forte sobre ato passado, com *The curator should have checked the inventory*, que pode avaliar uma ação passada como devida ou esperada e, em contexto de crítica, sugerir descumprimento. Nenhuma das frases constitui, isoladamente, documentação do procedimento real.
+
+**Caso progressivo:** se o texto disser *The inventory may contain errors*, conclui-se possibilidade de erros. Trocar por *The inventory must contain errors* faz o enunciador expressar dedução forte. Trocar por *The inventory contains errors* elimina a reserva modal e passa a afirmar diretamente o conteúdo.
+
+**Item adicional A (inédito, C/E).** The statement *The museum does not have to submit photographs* prohibits the museum from submitting photographs.
+
+**Gabarito: Errado.** Ausência de obrigação não equivale a proibição.
+
+**Item adicional B (inédito, C/E).** The sentence *The curator must have checked the inventory* presents a strong inference rather than, by itself, independent proof of a completed check.
+
+**Gabarito: Certo.** *Must have + particípio* tem leitura epistêmica de inferência forte nesse exemplo.
+
+**Item adicional C (inédito, C/E).** Replacing *may contain errors* with *contains errors* preserves the original degree of certainty.
+
+**Gabarito: Errado.** O enunciado inicial explicita possibilidade; o segundo afirma a presença de erros.
+
+**Item adicional D (inédito, C/E).** The use of *must not* in *The museum must not submit incomplete records* means that submission is optional rather than forbidden.
+
+**Gabarito: Errado.** O modal negativo expressa proibição no contexto fornecido.
+
+**Fonte de consulta:** [Cambridge Dictionary, must](https://dictionary.cambridge.org/grammar/british-grammar/must) e [should](https://dictionary.cambridge.org/grammar/british-grammar/should).
+
+---
+
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**

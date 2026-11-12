@@ -25200,6 +25200,222 @@
       "statement": "Se o texto de uma notícia é inteiramente humano, o uso de IA para gerar a capa do vídeo que a acompanha fica automaticamente dispensado de identificação.",
       "correctAnswer": "E",
       "explanation": "A autoria do texto não determina a origem da capa. O art. 4º trata especificamente da identificação de partes audiovisuais geradas por IA."
+    },
+    {
+      "id": "cam-cs-ia-citacao-com-documento-homonimo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "citacao-com-documento-homonimo",
+      "mechanism": "citacao-com-documento-homonimo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Operações de comunicação que podem empregar IA"
+      },
+      "statement": "Um assistente cita um parecer com o mesmo título de outro documento e vincula a versão de uma comissão diferente. Para validar a referência, a equipe precisa conferir a identidade e a versão do documento associado à afirmação.",
+      "correctAnswer": "C",
+      "explanation": "Coincidência de título não identifica a fonte. Conferir versão, órgão e conteúdo permite verificar se o documento sustenta a afirmação."
+    },
+    {
+      "id": "cam-cs-ia-falsos-negativos-em-classificador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "falsos-negativos-em-classificador",
+      "mechanism": "falsos-negativos-em-classificador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Operações de comunicação que podem empregar IA"
+      },
+      "statement": "Uma ferramenta identificou corretamente 90 de 100 comentários que sinalizou sobre acessibilidade. Esse resultado demonstra que ela encontrou pelo menos 90% de todos os comentários sobre acessibilidade recebidos.",
+      "correctAnswer": "E",
+      "explanation": "O resultado informa a proporção de acertos entre os comentários sinalizados. Medir a cobertura exige descobrir quantos comentários sobre o tema ficaram de fora."
+    },
+    {
+      "id": "cam-cs-ia-amostra-independente-de-ajuste",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "amostra-independente-de-ajuste",
+      "mechanism": "amostra-independente-de-ajuste",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      },
+      "statement": "Se uma equipe ajustou o classificador para acertar um conjunto de mensagens, usar mensagens separadas na avaliação ajuda a estimar como ele se comportará diante de exemplos ainda não examinados.",
+      "correctAnswer": "C",
+      "explanation": "O conjunto usado no ajuste pode favorecer o desempenho medido. Dados independentes permitem avaliar a generalização para outros exemplos."
+    },
+    {
+      "id": "cam-cs-ia-confianca-sem-calibracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "confianca-sem-calibracao",
+      "mechanism": "confianca-sem-calibracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      },
+      "statement": "Quando uma ferramenta atribui confiança de 95% a um texto extraído de áudio, esse número basta para afirmar que 95 de cada 100 trechos classificados assim estão corretos.",
+      "correctAnswer": "E",
+      "explanation": "Essa interpretação depende de comparar as pontuações com acertos observados. Sem calibração, o número apresentado não comprova a frequência de acerto."
+    },
+    {
+      "id": "cam-cs-ia-triagem-e-prioridade-humana",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "triagem-e-prioridade-humana",
+      "mechanism": "triagem-e-prioridade-humana",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Operações de comunicação que podem empregar IA"
+      },
+      "statement": "Agrupar comentários por tema pode facilitar a leitura da equipe, enquanto a definição de quais demandas merecem resposta prioritária ainda requer um critério editorial explícito.",
+      "correctAnswer": "C",
+      "explanation": "A classificação descreve o assunto das mensagens. Priorizar atendimento envolve uma decisão própria sobre relevância ou urgência."
+    },
+    {
+      "id": "cam-cs-ia-reuso-de-imagem-e-direitos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "reuso-de-imagem-e-direitos",
+      "mechanism": "reuso-de-imagem-e-direitos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Riscos éticos e controle proporcional"
+      },
+      "statement": "Como uma imagem foi produzida por um sistema de IA, a equipe pode presumir que tem autorização para reproduzir nela qualquer elemento protegido inserido por meio de imagem de referência.",
+      "correctAnswer": "E",
+      "explanation": "A origem automatizada do resultado não resolve as permissões sobre os elementos protegidos incorporados. A análise deve considerar o insumo e o uso pretendido."
+    },
+    {
+      "id": "cam-cs-ia-corrigir-origem-e-distribuicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "corrigir-origem-e-distribuicao",
+      "mechanism": "corrigir-origem-e-distribuicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      },
+      "statement": "Se uma legenda automatizada equivocada foi publicada no portal e em uma rede social, corrigir a versão do portal pode deixar o erro disponível na rede. O monitoramento deve considerar as versões efetivamente distribuídas.",
+      "correctAnswer": "C",
+      "explanation": "O público pode consultar as cópias em canais diferentes. A correção em um canal não atualiza automaticamente as demais versões."
+    },
+    {
+      "id": "cam-cs-ia-validacao-de-dado-ausente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "validacao-de-dado-ausente",
+      "mechanism": "validacao-de-dado-ausente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Riscos éticos e controle proporcional"
+      },
+      "statement": "Ao revisar um resumo, confirmar que a gravação nunca menciona a empresa apontada pelo sistema basta para concluir que a empresa citada não existe.",
+      "correctAnswer": "E",
+      "explanation": "A gravação permite concluir que a atribuição carece de suporte naquela fonte. A existência da empresa é uma questão factual que exige outra evidência."
     }
   ]
 }

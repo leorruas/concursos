@@ -101,3 +101,5 @@ Oito casos de IA na comunicação, vinculados ao artigo 74, sobre transcrição,
 O lote soma 16 itens redigidos. Os oito novos tratam de minimização, reidentificação, testes de atualização, pilotos, contratos, monitoramento, dependência operacional e qualidade da entrada. As diretrizes foram conferidas na seção de IA do Manual.
 
 O lote soma 24 itens redigidos. Os oito novos cobrem uso acessório, identificação audiovisual, formatos não previstos, informação do produtor e monitoramento. Os gabaritos foram cotejados com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026.
+
+O lote soma 32 itens redigidos. Os oito novos cobrem identidade documental, falsos negativos, avaliação independente, calibração, triagem editorial, direitos de uso, correção multicanal e limites da verificação.

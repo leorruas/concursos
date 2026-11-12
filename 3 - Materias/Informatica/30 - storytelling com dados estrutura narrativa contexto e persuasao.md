@@ -38,7 +38,7 @@ flowchart TD
 
 1. **Dados (*Data*)**: a base factual apurada, saneada e agregada. Sem rigor metodológico nos dados, o storytelling degenera em desinformação ou retórica vazia (*data manipulation*).
 2. **Visualização (*Visuals*)**: a representação gráfica que traduz abstrações numéricas em formas geométricas perceptíveis pelo córtex visual humano.
-3. **Narrativa (*Narrative*)**: a estruturação textual e lógica que contextualiza os números, estabelece relações de causa/efeito e explica o porquê daquele fenômeno importar para a audiência.
+3. **Narrativa (*Narrative*)**: a estruturação textual e lógica que contextualiza os números, explicita comparações e associações, apresenta hipóteses explicativas e mostra por que o fenômeno importa para a audiência. **Uma narrativa não demonstra, sozinha, relação causal:** essa conclusão requer método e evidências adequados.
 
 ---
 
@@ -108,7 +108,7 @@ flowchart TD
 
 ## 5. Atributos Pré-Atentivos: Direcionando o Foco da Audiência
 
-Os **atributos pré-atentivos** são características visuais que o cérebro humano processa no nível subconsciente, rapidamente em muitas tarefas perceptivas (a velocidade depende do estímulo, da tarefa e do contexto), antes de qualquer esforço consciente de leitura. O comunicador técnico utiliza esses atributos intencionalmente para criar **hierarquia visual** e responder à pergunta: *"para onde o leitor deve olhar primeiro?"*
+Os chamados **atributos pré-atentivos** são características como contraste, posição, orientação e cor que podem ser detectadas rapidamente em determinadas tarefas visuais. A rapidez depende do estímulo, da quantidade de elementos, do contexto e da experiência do observador; não constitui um mecanismo universal anterior a toda percepção deliberada. O comunicador técnico utiliza esses atributos intencionalmente para criar **hierarquia visual** e responder à pergunta: *"para onde o leitor deve olhar primeiro?"*
 
 | Atributo Pré-Atentivo | Aplicação Prática no Storytelling | Exemplo Típico em Dados Legislativos |
 | :--- | :--- | :--- |
@@ -119,7 +119,7 @@ Os **atributos pré-atentivos** são características visuais que o cérebro hum
 | **Posicionamento espacial (*Position*)** | Posicionar o indicador mais crítico no quadrante superior esquerdo (ordem natural de leitura ocidental em Z ou F). | Card de KPI resumindo o volume total de emendas aprovadas no exercício. |
 | **Orientação e Forma (*Shape*)** | Utilizar marcadores diferenciados ou caixas delimitadoras apenas para eventos anômalos. | Destaque geométrico para uma votação com obstrução total em plenário. |
 
-> **Regra da Sobriedade Cromática:** no storytelling técnico, a cor **nunca** deve ser usada para decoração estética ou distinção aleatória de categorias quando a posição nos eixos já as diferencia. Se todas as barras de um gráfico representam categorias com rótulo textual legível, pintá-las com cores diferentes do arco-íris adiciona ruído cognitivo desnecessário. A cor é uma ferramenta analítica de ênfase.
+ > **Regra de Sobriedade Cromática:** no storytelling técnico, cores adicionais devem ter função informativa, de acessibilidade ou de hierarquia; cores meramente decorativas podem aumentar o ruído quando a posição e os rótulos já distinguem as categorias. Se todas as barras de um gráfico representam categorias com rótulo textual legível, pintá-las com cores diferentes do arco-íris adiciona ruído cognitivo desnecessário. A cor é uma ferramenta analítica de ênfase.
 
 ---
 
@@ -207,7 +207,7 @@ No setor público, a integridade da comunicação visual é relevante para os pr
 
 ### Questão 3
 *(Inédita: estilo Cebraspe / Tecnologia da Informação)*
-> Os atributos pré-atentivos, tais como cor, tamanho, posição e contraste, são processados pelo córtex visual humano em nível subconsciente antes de qualquer percepção deliberada, sendo utilizados no storytelling para criar hierarquia visual e direcionar a atenção do leitor para os pontos mais críticos da visualização.
+> Cor, tamanho, posição e contraste podem orientar rapidamente a atenção em certas tarefas visuais e são recursos úteis para criar hierarquia na apresentação de dados; sua eficácia depende do contexto, da legibilidade e da interpretação dos leitores.
 
 * **Gabarito**: **CERTO**.
 * **Comentário**: Cor, tamanho, orientação, posição e contraste podem ser percebidos rapidamente e ajudar a estabelecer hierarquia visual. Contudo, **nem todo atributo é processado pré-atentivamente em qualquer tarefa**, e a redação sobre “córtex visual” e “nível subconsciente” simplifica mecanismos perceptivos. O gabarito CERTO é aceitável como descrição didática do uso de atributos visuais, **com ressalva de precisão neurocientífica**.
@@ -261,7 +261,7 @@ flowchart TD
 - **Exploratório vs. Explanatório**: Exploratório é a busca de padrões pelo analista; Explanatório é a comunicação clara de um achado específico para a audiência agir.
 - **Carga Cognitiva**: Minimizar a carga extrínseca (lixo visual, grades pesadas, cores aleatórias) para liberar a atenção para a carga intrínseca e pertinente.
 - **Atributos Pré-Atentivos**: Cor de destaque, tamanho, contraste e posição espacial podem orientar a atenção rapidamente, conforme o contexto.
-- **Regra da Sobriedade**: Em barras e colunas que codificam magnitude pelo comprimento, começar pelo zero é a recomendação geral de integridade gráfica. Cores devem indicar significado analítico, nunca mero ornamento.
+- **Regra da Sobriedade**: Em barras e colunas que codificam magnitude pelo comprimento, começar pelo zero é a recomendação geral de integridade gráfica. Cores devem privilegiar significado, hierarquia visual e acessibilidade, evitando ornamentos que prejudiquem a leitura.
 - **Três Atos**: Contextualização institucional $\rightarrow$ Tensão/Ruptura apontada pelos dados $\rightarrow$ Resolução com proposta fundamentada.
 
 > **Nota editorial (11/11/2026):** percentuais, projeções e exemplos institucionais desta nota são **cenários hipotéticos de ensino**, não dados oficiais da Câmara dos Deputados. Princípios de boa visualização orientam a prática profissional; a existência de infração jurídica deve ser avaliada à luz de norma aplicável e circunstâncias concretas. A revisão corresponde aos achados TI-025 a TI-027 da auditoria da Câmara.

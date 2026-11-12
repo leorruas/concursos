@@ -251,6 +251,20 @@ Um percurso possível, **não um modelo autoral de fases obrigatórias**, inclui
 
 **Contraexemplo:** um órgão possui tabela de publicação detalhada, com horários, formatos e responsáveis, e a chama de “planejamento estratégico completo”. Ela pode ser excelente calendário editorial, mas, se não registra problema, públicos, objetivo e dependências, não comprova a existência de plano adequado.
 
+## Como a Cebraspe pode cobrar: três itens inéditos Certo/Errado
+
+**Item 1, inédito:** “A Estrutura Analítica do Projeto (EAP), ou WBS, organiza o escopo do projeto em componentes orientados a entregas e pacotes de trabalho; as durações e as precedências necessárias à elaboração do cronograma demandam análise adicional.”
+
+**Gabarito: Certo.** A EAP descreve o **que está no escopo**; o cronograma organiza **quando e em que sequência** o trabalho ocorrerá. **Mecanismo:** distinguir dois instrumentos relacionados sem declará-los intercambiáveis.
+
+**Item 2, inédito:** “Um cronograma editorial que especifique datas, plataformas, formatos e responsáveis demonstra, por si só, que o plano de comunicação definiu adequadamente o diagnóstico, os objetivos, os públicos e os indicadores de resultado.”
+
+**Gabarito: Errado.** A programação de peças demonstra parte da **execução temporal**, não comprova as decisões estratégicas e de avaliação. **Mecanismo:** verdade parcial com ampliação indevida do escopo.
+
+**Item 3, inédito:** “No planejamento operacional de comunicação pública, a estimativa de custos e a previsão de recursos são condições úteis para avaliar a viabilidade de ações, mas sua presença no plano técnico não substitui as autorizações e procedimentos exigidos para executar despesas.”
+
+**Gabarito: Certo.** A assertiva separa **planejamento de recursos** de **execução jurídica e financeira**. **Mecanismo:** aplicação de conceito gerencial com limite institucional.
+
 ## Oficina aplicada: do diagnóstico a entregas, dependências e medição
 
 **Demanda hipotética:** cidadãos não conseguem localizar a pauta de uma comissão no portal. O pedido inicial da gestão é “publicar dez cards”. **Diagnóstico:** antes de fixar a solução, distinguir falta de conhecimento da existência da pauta, problemas de busca, linguagem inadequada e possíveis falhas de atualização da fonte. Uma campanha de cards pode ampliar divulgação, mas não corrigirá sozinha uma página desatualizada. O objetivo precisa especificar **público, mudança pretendida, medida e prazo**, enquanto o número de cards é um produto planejado.
@@ -270,20 +284,6 @@ Um percurso possível, **não um modelo autoral de fases obrigatórias**, inclui
 **Gabarito: Errado.** Quantidade de entregas e cumprimento de prazo são evidências de execução; compreensão e realização da tarefa exigem medidas nos públicos. A distinção segue os níveis de [outputs, out-takes e outcomes no modelo AMEC](https://amecorg.com/amecframework/home/supporting-material/taxonomy/).
 
 **Fontes e limites:** [PMI, desenvolvimento de EAP orientada a entregas](https://www.pmi.org/learning/library/developing-elaborating-work-breakdown-structures-7241); [PMI, definição e controle de mudanças de escopo](https://www.pmi.org/learning/library/scope-control-projects-you-6972); [AMEC, taxonomia de avaliação](https://amecorg.com/amecframework/home/supporting-material/taxonomy/). O caso, as durações e a folga são **construídos para ensino**, não representam projeto real da Câmara. A duração calculada não inclui incerteza, fins de semana, gargalos ou calendários de aprovação.
-
-## Como a Cebraspe pode cobrar: três itens inéditos Certo/Errado
-
-**Item 1, inédito:** “A Estrutura Analítica do Projeto (EAP), ou WBS, organiza o escopo do projeto em componentes orientados a entregas e pacotes de trabalho; as durações e as precedências necessárias à elaboração do cronograma demandam análise adicional.”
-
-**Gabarito: Certo.** A EAP descreve o **que está no escopo**; o cronograma organiza **quando e em que sequência** o trabalho ocorrerá. **Mecanismo:** distinguir dois instrumentos relacionados sem declará-los intercambiáveis.
-
-**Item 2, inédito:** “Um cronograma editorial que especifique datas, plataformas, formatos e responsáveis demonstra, por si só, que o plano de comunicação definiu adequadamente o diagnóstico, os objetivos, os públicos e os indicadores de resultado.”
-
-**Gabarito: Errado.** A programação de peças demonstra parte da **execução temporal**, não comprova as decisões estratégicas e de avaliação. **Mecanismo:** verdade parcial com ampliação indevida do escopo.
-
-**Item 3, inédito:** “No planejamento operacional de comunicação pública, a estimativa de custos e a previsão de recursos são condições úteis para avaliar a viabilidade de ações, mas sua presença no plano técnico não substitui as autorizações e procedimentos exigidos para executar despesas.”
-
-**Gabarito: Certo.** A assertiva separa **planejamento de recursos** de **execução jurídica e financeira**. **Mecanismo:** aplicação de conceito gerencial com limite institucional.
 
 ## Aplicação discursiva e relação com o edital
 

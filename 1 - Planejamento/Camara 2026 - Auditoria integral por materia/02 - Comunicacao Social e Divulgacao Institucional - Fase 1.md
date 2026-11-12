@@ -1493,3 +1493,19 @@ A continuação autorizada de implementação aplicou **dois lotes de dois artig
 **Acumulado exclusivo da implementação autorizada nesta conversa:** **16 artigos existentes ampliados e 32 exercícios C/E inéditos novos**. Não há novos artigos criados ou novos caminhos publicados, porque as lacunas trabalhadas correspondiam aos arquivos canônicos existentes. O número histórico de **143 itens reais Cebraspe (140 válidos, três anulados)** não foi alterado. `corrigido` significa correção e ampliação no recorte acima, **não** homologação de todo o artigo nem confirmação de CI, build ou funcionamento da página publicada.
 
 **Próxima frente viável:** investigar pendências substantivas de aplicação dos artigos **76 e 77** (Manual de Linguagem Simples e usabilidade), ou concluir problemas de remissões entre 72–78 que afetem diretamente a navegação. O teste de publicação real e o workflow público permanecem pendentes de evidência técnica; não declarar a Fase 1 integralmente concluída.
+
+
+## Implementação editorial complementar: Roedel e usabilidade, artigos 76–77 (11/11/2026)
+
+**Lote executado:** dois artigos existentes de Comunicação ampliados, sem mudanças de caminho, `articleId` ou aliases e sem criação de conteúdo duplicado. Foram preservados os três exercícios C/E preexistentes de cada nota e criados **quatro itens autorais novos**, dois por artigo.
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| **76**, `art-7d3e89a0b4cf1265` | O método de Roedel já estava corretamente exposto, mas faltava um caso de decisão que mostrasse por que legibilidade não equivale a compreensão | Oficina hipotética de planejamento, desenvolvimento e avaliação de instruções de tramitação, comparação de três versões, proposta de teste de tarefa e 2 itens novos **C,E** | [`e8d59db`](https://github.com/leorruas/concursos/commit/e8d59dbcf259748229afc679e37603fb9252ab16) | Arquivo reaberto por SHA; cinco C/E na versão (**C,E,E,C,E**), sem mudança dos itens históricos do artigo; fontes de Roedel mantidas | **corrigido** |
+| **77**, `art-a61c9e740b35d2f8` | Ausência de caso numérico aplicando eficácia, eficiência e satisfação, com limites de amostra | Oficina com sete tarefas concluídas em dez (**70% de eficácia observada**), cinco declarações de satisfação (**50%**) e impossibilidade de estimar eficiência sem dados de recursos, além de inspeção heurística versus teste com usuários; 2 C/E **C,E** | [`6b2c091`](https://github.com/leorruas/concursos/commit/6b2c09189e927d5e59577478f6b9c5e5fa0938a0) | Arquivo reaberto por SHA; cinco C/E (**C,E,C,C,E**); definições ISO/NIST e heurísticas NN/g preservadas | **corrigido** |
+
+**Conferência estática:** os dois arquivos foram reobtidos após gravação, com cinco gabaritos cada, `articleId`, aliases e remissões à pasta Comunicação presentes no `index.md`; não foram encontrados marcadores de conflito. Testes com cidadãos, renderização e GitHub Pages **não** foram executados. Os casos e percentuais são hipotéticos e não constituem avaliação real do portal da Câmara.
+
+**Saldo exclusivo da fase de implementação autorizada:** **18 artigos ampliados e 36 itens C/E autorais criados** desde a autorização explícita, sem alterar a contagem histórica de **143 itens reais Cebraspe**. Os artigos têm estado `corrigido`, **não** `validado` integralmente. Nenhuma frente paralela foi editada.
+
+**Próximo passo:** tratar pendências relevantes ainda não resolvidas nos artigos 78–94, sobretudo uma prática discursiva que una briefing, planejamento de mídia, criação, controle de qualidade, ética e análise de resultados, evitando criar uma nova nota quando a estrutura canônica já comportar a integração. Verificar CI/Pages quando o conector disponibilizar estado de workflow suficiente.

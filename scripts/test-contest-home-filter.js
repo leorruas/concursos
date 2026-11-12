@@ -31,6 +31,8 @@ const ctx={
   rotaDoArtigo:()=> '#/artigo/art-e1d0a2026ca8f010',abrirArtigo(){}
 };
 vm.createContext(ctx);
+// O painel depende do construtor real de rotas do glossário, carregado antes dele no site.
+vm.runInContext(fs.readFileSync(new URL('../web/00-route-utils.js',import.meta.url),'utf8'),ctx);
 vm.runInContext(fs.readFileSync(new URL('../web/02-data-home.js',import.meta.url),'utf8'),ctx);
 const cards=()=>nodes['pastas-container'].children;
 const numeros=()=>cards().map(c=>c.innerHTML.match(/indice-numero">([^<]+)</)?.[1]);

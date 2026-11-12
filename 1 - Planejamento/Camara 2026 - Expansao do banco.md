@@ -140,3 +140,7 @@ Quarenta questões P2 sobre a Resolução nº 25/2001 da Câmara dos Deputados, 
 ## Lote 023: Administração Pública e Governança, 40 itens validados
 
 Quarenta itens novos P1 ligados aos sete artigos de Administração Pública: patrimonialismo, burocracia, gerencialismo, governança e governabilidade, valor público, eficiência e controle, NPG, redes, coprodução e parcerias, transparência e proteção de dados. Correção de gabaritos e mecanismos cotejada com os textos de referência. Itens normativos sobre transparência ativa e anonimização comparados com LAI e LGPD atualizadas. Gabaritos: 20 C/20 E; nenhum enunciado repetido ou par de proximidade lexical igual/superior a 0,35 na triagem. Evidências individuais preservadas, dificuldade apenas estimada. Integração depende da validação técnica em CI. Contagem projetada após merge: **920/2.000** novos itens validados.
+
+## Lote 024: Inglês, 40 itens validados
+
+Quarenta questões P1 de leitura instrumental, compreensão, inferência, escopo, referenciação, conectores, léxico, negação, inversão, tempo/aspecto, voz passiva, modais, quantificadores, paráfrase e intertextualidade. Itens ancorados em doze artigos publicados da trilha de Inglês, com exemplos originais e gabaritos comentados (20 C e 20 E). Conferência de metadados, justificativa e fonte por questão; triagem de enunciados repetidos e similaridade lexical do lote. Dificuldade didática estimada. Integração subordinada ao CI. Contagem após aprovação: **960/2.000** itens novos validados.

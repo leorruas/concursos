@@ -33559,6 +33559,1126 @@
       "correctAnswer": "C",
       "explanation": "Interdependência entre organizações cria custos e riscos de negociação, alinhamento e acompanhamento.",
       "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md / Componentes, governança e riscos; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-eng-actually-significa-atualmente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-82b46bb07081dff1",
+      "conceptId": "actually-significa-atualmente",
+      "mechanism": "falso-cognato-actually",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#2. Falsos Cognatos Críticos no Setor Público (*False Friends*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md",
+        "section": "2. Falsos Cognatos Críticos no Setor Público (*False Friends*)"
+      },
+      "statement": "Na frase “The office actually received fewer requests”, o termo “actually” expressa necessariamente o sentido temporal de “atualmente”.",
+      "correctAnswer": "E",
+      "explanation": "Actually costuma marcar “na verdade”, não “atualmente”, o que impede essa tradução automática.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md, seção '2. Falsos Cognatos Críticos no Setor Público (*False Friends*)'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-few-marcacao-negativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "few-marcacao-negativa",
+      "mechanism": "valencia-de-quantificadores",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#2.1. O Contraste Crítico: *Few* vs. *A Few* e *Little* vs. *A Little*"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "2.1. O Contraste Crítico: *Few* vs. *A Few* e *Little* vs. *A Little*"
+      },
+      "statement": "A comparação entre “Few users understood the notice” e “A few users understood the notice” indica que “few” tende a enfatizar insuficiência, enquanto “a few” apresenta existência de alguns usuários.",
+      "correctAnswer": "C",
+      "explanation": "Os dois quantificadores indicam número reduzido, mas diferem em orientação discursiva.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md, seção '2.1. O Contraste Crítico: *Few* vs. *A Few* e *Little* vs. *A Little*'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-this-encapsula-evento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-014af4c94d2ec2bb",
+      "conceptId": "this-encapsula-evento",
+      "mechanism": "referencia-proposicional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#4. Pronomes demonstrativos: *THIS, THAT, THESE, THOSE* e a referência proposicional"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md",
+        "section": "4. Pronomes demonstrativos: *THIS, THAT, THESE, THOSE* e a referência proposicional"
+      },
+      "statement": "No trecho “The server failed during the hearing. This forced the team to switch channels”, “this” pode retomar todo o evento de falha do servidor.",
+      "correctAnswer": "C",
+      "explanation": "O demonstrativo pode encapsular a situação anterior, não apenas um substantivo isolado.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md, seção '4. Pronomes demonstrativos: *THIS, THAT, THESE, THOSE* e a referência proposicional'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-may-prova-certeza",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-fbfeb9a2a7fcf639",
+      "conceptId": "may-prova-certeza",
+      "mechanism": "possibilidade-nao-e-fato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fbfeb9a2a7fcf639#4. O sistema de *Hedging* e a calibração modal: certeza, probabilidade e possibilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md",
+        "section": "4. O sistema de *Hedging* e a calibração modal: certeza, probabilidade e possibilidade"
+      },
+      "statement": "No trecho “The new procedure may reduce delays”, a palavra “may” permite concluir que a redução já foi observada e comprovada.",
+      "correctAnswer": "E",
+      "explanation": "May expressa possibilidade; o trecho não comprova ocorrência ou efeito.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md, seção '4. O sistema de *Hedging* e a calibração modal: certeza, probabilidade e possibilidade'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-may-indica-possibilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-c27fc58c042e852e",
+      "conceptId": "may-indica-possibilidade",
+      "mechanism": "modal-de-possibilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c27fc58c042e852e#1.2. Modalidade Epistêmica: O Conhecimento e a Certeza"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md",
+        "section": "1.2. Modalidade Epistêmica: O Conhecimento e a Certeza"
+      },
+      "statement": "Em “The committee may postpone the vote”, o modal “may” pode expressar possibilidade, sem afirmar que o adiamento ocorrerá.",
+      "correctAnswer": "C",
+      "explanation": "May pode sinalizar possibilidade epistêmica; sem contexto adicional, não confirma o evento.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md, seção '1.2. Modalidade Epistêmica: O Conhecimento e a Certeza'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-that-nao-restritiva-pos-virgula",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-014af4c94d2ec2bb",
+      "conceptId": "that-nao-restritiva-pos-virgula",
+      "mechanism": "relativa-explicativa-com-that",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#5.2. A regra proibitiva de *THAT* após vírgula ou preposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md",
+        "section": "5.2. A regra proibitiva de *THAT* após vírgula ou preposição"
+      },
+      "statement": "Em inglês formal, a oração explicativa de “The platform, that was updated yesterday, is offline” utiliza “that” após vírgula de modo igualmente recomendado à forma com “which”.",
+      "correctAnswer": "E",
+      "explanation": "Na oração relativa explicativa delimitada por vírgulas, a forma adequada é “which”, não “that”.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md, seção '5.2. A regra proibitiva de *THAT* após vírgula ou preposição'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-passiva-com-agente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-818a6bdff1647253",
+      "conceptId": "passiva-com-agente",
+      "mechanism": "transpor-ativa-passiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#1. Estrutura Canônica da Voz Passiva e Foco Informacional"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md",
+        "section": "1. Estrutura Canônica da Voz Passiva e Foco Informacional"
+      },
+      "statement": "A reescrita de “The staff updated the portal” como “The portal was updated by the staff” preserva o evento e seu agente.",
+      "correctAnswer": "C",
+      "explanation": "A voz passiva desloca o foco informacional para o objeto original, mas mantém o agente com by.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md, seção '1. Estrutura Canônica da Voz Passiva e Foco Informacional'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-proposito-informativo-versus-persuasivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-40cd8bf066b67c5f",
+      "conceptId": "proposito-informativo-versus-persuasivo",
+      "mechanism": "atribuir-advocacia-a-sintese",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#4. O propósito comunicativo do autor (*Author's Purpose*) e o tom textual"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles.md",
+        "section": "4. O propósito comunicativo do autor (*Author's Purpose*) e o tom textual"
+      },
+      "statement": "Um texto iniciado por “This note summarizes the available evidence and identifies unresolved questions” anuncia necessariamente a intenção de convencer o leitor a adotar uma política específica.",
+      "correctAnswer": "E",
+      "explanation": "O enunciado explicita propósito de síntese e identificação de dúvidas, sem objetivo persuasivo necessário.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles.md, seção '4. O propósito comunicativo do autor (*Author's Purpose*) e o tom textual'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-should-have-conselho-retrospectivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-c27fc58c042e852e",
+      "conceptId": "should-have-conselho-retrospectivo",
+      "mechanism": "recomendacao-retrospectiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c27fc58c042e852e#2.2. Avaliação Deôntica de Conduta Não Ocorrida"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md",
+        "section": "2.2. Avaliação Deôntica de Conduta Não Ocorrida"
+      },
+      "statement": "A frase “The team should have tested the page first” permite avaliar retrospectivamente uma providência que seria recomendável ter adotado.",
+      "correctAnswer": "C",
+      "explanation": "Should have + particípio expressa avaliação ou crítica sobre ação anterior não realizada ou julgada insuficiente.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md, seção '2.2. Avaliação Deôntica de Conduta Não Ocorrida'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-must-have-obrigacao-passada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-c27fc58c042e852e",
+      "conceptId": "must-have-obrigacao-passada",
+      "mechanism": "deducao-versus-dever",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c27fc58c042e852e#2.1. Dedução Lógica sobre o Passado"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md",
+        "section": "2.1. Dedução Lógica sobre o Passado"
+      },
+      "statement": "Em “She must have overlooked the note”, o modal perfeito descreve necessariamente uma obrigação jurídica descumprida, e não uma dedução do falante.",
+      "correctAnswer": "E",
+      "explanation": "Must have + particípio expressa frequentemente forte inferência sobre evento passado, não obrigação normativa.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md, seção '2.1. Dedução Lógica sobre o Passado'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-sem-dados-nao-zero",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-fbfeb9a2a7fcf639",
+      "conceptId": "sem-dados-nao-zero",
+      "mechanism": "confundir-ignorancia-com-zero",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fbfeb9a2a7fcf639#5. Relações de causalidade versus mera correlação no discurso analítico"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md",
+        "section": "5. Relações de causalidade versus mera correlação no discurso analítico"
+      },
+      "statement": "A frase “There is no reliable data on the number of complaints” indica falta de informação confiável, e não comprovação de que não houve reclamações.",
+      "correctAnswer": "C",
+      "explanation": "Ausência de dados confiáveis não equivale à ausência do fenômeno.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md, seção '5. Relações de causalidade versus mera correlação no discurso analítico'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-since-present-perfect",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-b1b8cbf8d0d7bc4a",
+      "conceptId": "since-present-perfect",
+      "mechanism": "aspecto-de-continuidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b1b8cbf8d0d7bc4a#2. A Fronteira Crítica: *Simple Past* vs. *Present Perfect*"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md",
+        "section": "2. A Fronteira Crítica: *Simple Past* vs. *Present Perfect*"
+      },
+      "statement": "Na frase “The office has used the platform since 2021”, o tempo verbal relaciona uma situação iniciada no passado à referência presente.",
+      "correctAnswer": "C",
+      "explanation": "Present perfect com since liga o marco passado a uma situação relevante ou contínua até o presente.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md, seção '2. A Fronteira Crítica: *Simple Past* vs. *Present Perfect*'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-tema-e-tese-escopo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-40cd8bf066b67c5f",
+      "conceptId": "tema-e-tese-escopo",
+      "mechanism": "recuperar-tese-com-ressalva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#2. A anatomia do parágrafo analítico em língua inglesa: Topic Sentence e dinâmica informacional"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles.md",
+        "section": "2. A anatomia do parágrafo analítico em língua inglesa: Topic Sentence e dinâmica informacional"
+      },
+      "statement": "No trecho “Digital forms reduce paperwork, but they may exclude residents with limited internet access”, a ideia central abrange tanto o benefício dos formulários digitais quanto uma possível barreira de acesso.",
+      "correctAnswer": "C",
+      "explanation": "A oração adversativa limita a avaliação positiva e acrescenta uma preocupação com inclusão.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles.md, seção '2. A anatomia do parágrafo analítico em língua inglesa: Topic Sentence e dinâmica informacional'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-not-all-none",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-0cf9986f93a5a111",
+      "conceptId": "not-all-none",
+      "mechanism": "negacao-parcial-versus-total",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cf9986f93a5a111#2. Negação Sintática, Escopo e Semi-Negativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md",
+        "section": "2. Negação Sintática, Escopo e Semi-Negativos"
+      },
+      "statement": "A estrutura “Not all participants completed the survey” equivale a “No participants completed the survey”, pois negar a totalidade equivale a negar a existência.",
+      "correctAnswer": "E",
+      "explanation": "Not all indica que pelo menos um não concluiu; não afirma que ninguém concluiu.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md, seção '2. Negação Sintática, Escopo e Semi-Negativos'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-skimming-scanning-finalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-40cd8bf066b67c5f",
+      "conceptId": "skimming-scanning-finalidade",
+      "mechanism": "distinguir-busca-de-ideia-global",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#3. Skimming versus Scanning: técnicas de leitura instrumental em prova"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles.md",
+        "section": "3. Skimming versus Scanning: técnicas de leitura instrumental em prova"
+      },
+      "statement": "Para localizar rapidamente uma data específica em um relatório em inglês, o scanning tende a ser mais adequado do que a leitura global inicial voltada ao tema.",
+      "correctAnswer": "C",
+      "explanation": "Scanning visa localizar informação delimitada; skimming ajuda a obter visão geral e ideia central.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles.md, seção '3. Skimming versus Scanning: técnicas de leitura instrumental em prova'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-minority-significa-todos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-fbfeb9a2a7fcf639",
+      "conceptId": "minority-significa-todos",
+      "mechanism": "extrapolar-minoria-para-totalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fbfeb9a2a7fcf639#2.1. A regra de ouro da inferência no Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md",
+        "section": "2.1. A regra de ouro da inferência no Cebraspe"
+      },
+      "statement": "Se o relatório afirma “Only a minority of respondents supported the plan”, é correto inferir que todos os entrevistados apoiaram o plano.",
+      "correctAnswer": "E",
+      "explanation": "Only a minority indica apoio de parcela minoritária, incompatível com totalidade.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md, seção '2.1. A regra de ouro da inferência no Cebraspe'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-unless-if-not-parafrase",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-55ba2a49e278525f",
+      "conceptId": "unless-if-not-parafrase",
+      "mechanism": "parafrase-condicional-negativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1. Mecanismos Legítimos de Paráfrase no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md",
+        "section": "1. Mecanismos Legítimos de Paráfrase no Padrão Cebraspe"
+      },
+      "statement": "No contexto “Unless the evidence is checked, the notice won't be released”, reescrever por “If the evidence isn't checked, the notice won't be released” preserva a condição apresentada.",
+      "correctAnswer": "C",
+      "explanation": "Unless expressa condição negativa equivalente a if not nesse contexto.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md, seção '1. Mecanismos Legítimos de Paráfrase no Padrão Cebraspe'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-comprehensive-abrangente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-82b46bb07081dff1",
+      "conceptId": "comprehensive-abrangente",
+      "mechanism": "polissemia-contextual-comprehensive",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#1. Polissemia no Domínio Legislativo e Institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md",
+        "section": "1. Polissemia no Domínio Legislativo e Institucional"
+      },
+      "statement": "Em “The committee issued a comprehensive review covering all three regions”, “comprehensive” significa que o relatório é de fácil compreensão para leitores iniciantes, e não que sua cobertura é ampla.",
+      "correctAnswer": "E",
+      "explanation": "Comprehensive significa abrangente; comprehensible é a forma ligada a compreensível.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md, seção '1. Polissemia no Domínio Legislativo e Institucional'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-passiva-muda-tempo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-818a6bdff1647253",
+      "conceptId": "passiva-muda-tempo",
+      "mechanism": "trocar-futuro-por-passado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#2. Tabela de Transposição de Tempos Verbais para a Voz Passiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md",
+        "section": "2. Tabela de Transposição de Tempos Verbais para a Voz Passiva"
+      },
+      "statement": "Ao transformar “The committee will review the proposal” em “The proposal was reviewed by the committee”, preserva-se o tempo futuro da frase original.",
+      "correctAnswer": "E",
+      "explanation": "Will review é futuro; was reviewed indica passado. A passiva futura seria “will be reviewed”.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md, seção '2. Tabela de Transposição de Tempos Verbais para a Voz Passiva'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-it-refere-dashboard",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-014af4c94d2ec2bb",
+      "conceptId": "it-refere-dashboard",
+      "mechanism": "referente-por-semantica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#3. Pronomes pessoais e possessivos neutros: *IT* e *THEY*"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md",
+        "section": "3. Pronomes pessoais e possessivos neutros: *IT* e *THEY*"
+      },
+      "statement": "Em “The agency redesigned its dashboard because it was difficult to navigate”, uma interpretação coerente de “it” é o painel, cuja navegação motivou o redesenho.",
+      "correctAnswer": "C",
+      "explanation": "O predicativo “difficult to navigate” é compatível com dashboard; a ligação exige análise semântica além de proximidade.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md, seção '3. Pronomes pessoais e possessivos neutros: *IT* e *THEY*'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-cant-have-permissao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-c27fc58c042e852e",
+      "conceptId": "cant-have-permissao",
+      "mechanism": "impossibilidade-epistemica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c27fc58c042e852e#2.1. Dedução Lógica sobre o Passado"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md",
+        "section": "2.1. Dedução Lógica sobre o Passado"
+      },
+      "statement": "Em “The report can't have been published on Monday”, a expressão “can't have” assinala que a publicação estava proibida por norma, e não uma dedução de impossibilidade.",
+      "correctAnswer": "E",
+      "explanation": "Can't have + particípio costuma expressar inferência de impossibilidade sobre o passado.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md, seção '2.1. Dedução Lógica sobre o Passado'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-didnt-have-to-nao-e-proibicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-0cf9986f93a5a111",
+      "conceptId": "didnt-have-to-nao-e-proibicao",
+      "mechanism": "distinguir-falta-obrigacao-proibicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cf9986f93a5a111#2. Negação Sintática, Escopo e Semi-Negativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md",
+        "section": "2. Negação Sintática, Escopo e Semi-Negativos"
+      },
+      "statement": "Em “The analyst didn't have to submit another form”, o sentido é de ausência de obrigação, e não de proibição de enviar formulário.",
+      "correctAnswer": "C",
+      "explanation": "Didn't have to indica que não era necessário, diferentemente de mustn't, que indica proibição.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md, seção '2. Negação Sintática, Escopo e Semi-Negativos'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-reports-endorsement",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-21cf11553e25ae48",
+      "conceptId": "reports-endorsement",
+      "mechanism": "atribuir-alegacao-como-adesao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-21cf11553e25ae48#2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md",
+        "section": "2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)"
+      },
+      "statement": "Em “Several researchers claim that the intervention worked”, o verbo “claim” comprova que o autor do texto endossa sem reservas o resultado atribuído aos pesquisadores.",
+      "correctAnswer": "E",
+      "explanation": "O verbo atribui a alegação a terceiros; não comprova concordância irrestrita do autor.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md, seção '2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-eventually-finalmente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-82b46bb07081dff1",
+      "conceptId": "eventually-finalmente",
+      "mechanism": "valor-temporal-eventually",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#2.1. Termos com Tradução Incorreta Frequente"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md",
+        "section": "2.1. Termos com Tradução Incorreta Frequente"
+      },
+      "statement": "Em “After repeated revisions, the team eventually published the guide”, o advérbio “eventually” expressa apenas uma possibilidade de publicação futura, sem indicar que ela ocorreu.",
+      "correctAnswer": "E",
+      "explanation": "Eventually indica que a publicação aconteceu por fim, após revisões, e não apenas que poderia ocorrer.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md, seção '2.1. Termos com Tradução Incorreta Frequente'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-because-por-therefore",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "because-por-therefore",
+      "mechanism": "trocar-causa-por-conclusao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.3. Consequência, Conclusão e Dedução"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.3. Consequência, Conclusão e Dedução"
+      },
+      "statement": "Trocar “because” por “therefore” em “The hearing was postponed because the room was unavailable” preserva a relação causal e a estrutura gramatical sem ajustes.",
+      "correctAnswer": "E",
+      "explanation": "Because introduz causa subordinada; therefore é conector conclusivo e exige reestruturação, além de possível mudança de relação textual.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md, seção '1.3. Consequência, Conclusão e Dedução'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-although-concessao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "although-concessao",
+      "mechanism": "ler-concessao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.1. Concessão e Oposição/Contraste"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.1. Concessão e Oposição/Contraste"
+      },
+      "statement": "Em “Although the survey was short, it identified a recurring concern”, a oração com “although” apresenta uma ressalva que não impede o resultado descrito.",
+      "correctAnswer": "C",
+      "explanation": "Although introduz concessão, enquanto a oração principal mantém o resultado observado.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md, seção '1.1. Concessão e Oposição/Contraste'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-they-refere-report-singular",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-014af4c94d2ec2bb",
+      "conceptId": "they-refere-report-singular",
+      "mechanism": "confundir-proximidade-e-antecedente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-014af4c94d2ec2bb#3.2. A concordância de número com *THEY / THEIR*"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md",
+        "section": "3.2. A concordância de número com *THEY / THEIR*"
+      },
+      "statement": "Em “The reviewers checked the report before they signed it”, o pronome “they” retoma obrigatoriamente “the report”, pois esse é o substantivo imediatamente anterior.",
+      "correctAnswer": "E",
+      "explanation": "They remete aos revisores no contexto; “the report” é singular e aparece como objeto retomado por “it”.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes.md, seção '3.2. A concordância de número com *THEY / THEIR*'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-despite-com-sintagma-nominal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "despite-com-sintagma-nominal",
+      "mechanism": "preposicao-concessiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#2. A Fronteira Crítica: Conjunção Subordinativa vs. Preposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "2. A Fronteira Crítica: Conjunção Subordinativa vs. Preposição"
+      },
+      "statement": "A construção “Despite the delay, the committee met” é gramaticalmente possível, pois “despite” introduz um sintagma nominal.",
+      "correctAnswer": "C",
+      "explanation": "Despite funciona como preposição e pode anteceder o grupo nominal “the delay”.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md, seção '2. A Fronteira Crítica: Conjunção Subordinativa vs. Preposição'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-hardly-had-when",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-0cf9986f93a5a111",
+      "conceptId": "hardly-had-when",
+      "mechanism": "inversao-sequencia-eventos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cf9986f93a5a111#3.1. Fórmula Geral da Inversão Negativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md",
+        "section": "3.1. Fórmula Geral da Inversão Negativa"
+      },
+      "statement": "A frase “Hardly had the session begun when the lights went out” emprega uma inversão associada à ocorrência quase imediata de um segundo evento.",
+      "correctAnswer": "C",
+      "explanation": "Hardly ... when pode marcar sucessão quase imediata e admite inversão após hardly inicial.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md, seção '3.1. Fórmula Geral da Inversão Negativa'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-some-nao-all",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-fbfeb9a2a7fcf639",
+      "conceptId": "some-nao-all",
+      "mechanism": "quantificador-parcial-sem-totalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fbfeb9a2a7fcf639#2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md",
+        "section": "2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação"
+      },
+      "statement": "De “Some regional offices adopted the new process” não se pode concluir, sem informação adicional, que todos os escritórios regionais o adotaram.",
+      "correctAnswer": "C",
+      "explanation": "Some informa um subconjunto e não demonstra adoção universal.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md, seção '2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-passiva-somente-transitivos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-818a6bdff1647253",
+      "conceptId": "passiva-somente-transitivos",
+      "mechanism": "generalizar-vozes-em-verbos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#3. Particularidades da Voz Passiva no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md",
+        "section": "3. Particularidades da Voz Passiva no Padrão Cebraspe"
+      },
+      "statement": "Todo verbo do inglês, independentemente de sua transitividade e regência, admite transformação direta para a voz passiva com objeto do mesmo tipo.",
+      "correctAnswer": "E",
+      "explanation": "A possibilidade de passiva depende da estrutura verbal; intransitivos comuns não formam a passiva canônica com objeto direto.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md, seção '3. Particularidades da Voz Passiva no Padrão Cebraspe'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-tese-ignora-controversia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-40cd8bf066b67c5f",
+      "conceptId": "tese-ignora-controversia",
+      "mechanism": "suprimir-ressalva-central",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-40cd8bf066b67c5f#5. A taxonomia dos distratores clássicos em itens de compreensão do Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles.md",
+        "section": "5. A taxonomia dos distratores clássicos em itens de compreensão do Cebraspe"
+      },
+      "statement": "Se o autor escreve “The proposal offers savings; however, long-term costs remain uncertain”, é correto reduzir sua tese à certeza de economia sustentada no longo prazo.",
+      "correctAnswer": "E",
+      "explanation": "A ressalva afirma incerteza quanto aos custos de longo prazo, impedindo inferir economia confirmada.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles.md, seção '5. A taxonomia dos distratores clássicos em itens de compreensão do Cebraspe'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-agente-omitido-passiva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-818a6bdff1647253",
+      "conceptId": "agente-omitido-passiva",
+      "mechanism": "apagamento-do-agente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#1.1. Motivações Discursivas para o Emprego da Voz Passiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md",
+        "section": "1.1. Motivações Discursivas para o Emprego da Voz Passiva"
+      },
+      "statement": "A frase “The file was deleted” é uma construção passiva que pode deixar indeterminado quem realizou a exclusão.",
+      "correctAnswer": "C",
+      "explanation": "A voz passiva em inglês pode omitir o agente quando ele é desconhecido ou não é o foco.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md, seção '1.1. Motivações Discursivas para o Emprego da Voz Passiva'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-never-had-inversao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-0cf9986f93a5a111",
+      "conceptId": "never-had-inversao",
+      "mechanism": "inversao-negativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cf9986f93a5a111#3. Inversão Sintática Enfática (Ordem Auxiliar-Sujeito)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md",
+        "section": "3. Inversão Sintática Enfática (Ordem Auxiliar-Sujeito)"
+      },
+      "statement": "Em “Never had the agency faced such a backlog”, a posição inicial de “never” é acompanhada de inversão do auxiliar antes do sujeito.",
+      "correctAnswer": "C",
+      "explanation": "O elemento negativo no início desencadeia inversão em registro formal: had the agency.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md, seção '3. Inversão Sintática Enfática (Ordem Auxiliar-Sujeito)'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-some-substituido-all",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "some-substituido-all",
+      "mechanism": "trocar-parte-por-todo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#2. Quantificadores Lógicos e a Fronteira do Escopo"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "2. Quantificadores Lógicos e a Fronteira do Escopo"
+      },
+      "statement": "Em “Some requests were denied”, substituir “some” por “all” preserva o compromisso informacional do enunciador com a quantidade de pedidos negados.",
+      "correctAnswer": "E",
+      "explanation": "Some e all não são equivalentes: a segunda forma afirma totalidade ausente no primeiro enunciado.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md, seção '2. Quantificadores Lógicos e a Fronteira do Escopo'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-had-been-working-atividade-em-curso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-b1b8cbf8d0d7bc4a",
+      "conceptId": "had-been-working-atividade-em-curso",
+      "mechanism": "duracao-antes-de-marco",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b1b8cbf8d0d7bc4a#1. Tempo Gramatical (*Tense*) vs. Aspecto Verbal (*Aspect*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md",
+        "section": "1. Tempo Gramatical (*Tense*) vs. Aspecto Verbal (*Aspect*)"
+      },
+      "statement": "Em “They had been reviewing the files for hours before the system failed”, a forma verbal destaca duração da revisão anterior à falha.",
+      "correctAnswer": "C",
+      "explanation": "Past perfect continuous apresenta atividade em curso ao longo de intervalo anterior ao evento de referência.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md, seção '1. Tempo Gramatical (*Tense*) vs. Aspecto Verbal (*Aspect*)'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-sensible-equivale-sensivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-82b46bb07081dff1",
+      "conceptId": "sensible-equivale-sensivel",
+      "mechanism": "trocar-sensible-por-sensitive",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#2. Falsos Cognatos Críticos no Setor Público (*False Friends*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md",
+        "section": "2. Falsos Cognatos Críticos no Setor Público (*False Friends*)"
+      },
+      "statement": "A expressão “a sensible approach” significa necessariamente “uma abordagem sensível” no sentido emocional do português, sendo inadequada a tradução por “uma abordagem sensata”.",
+      "correctAnswer": "E",
+      "explanation": "Sensible, em geral, significa sensato/razoável; sensitive corresponde mais frequentemente a sensível.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md, seção '2. Falsos Cognatos Críticos no Setor Público (*False Friends*)'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-have-met-yesterday",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-b1b8cbf8d0d7bc4a",
+      "conceptId": "have-met-yesterday",
+      "mechanism": "present-perfect-e-tempo-fechado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b1b8cbf8d0d7bc4a#2. A Fronteira Crítica: *Simple Past* vs. *Present Perfect*"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md",
+        "section": "2. A Fronteira Crítica: *Simple Past* vs. *Present Perfect*"
+      },
+      "statement": "A frase “We have met yesterday” é a forma padrão para relatar encontro em dia passado definido, podendo substituir sem ressalvas “We met yesterday”.",
+      "correctAnswer": "E",
+      "explanation": "Present perfect normalmente não se combina com referência temporal concluída como yesterday; simple past é a forma adequada.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md, seção '2. A Fronteira Crítica: *Simple Past* vs. *Present Perfect*'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-unless-condicao-negativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "unless-condicao-negativa",
+      "mechanism": "condicional-negativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.4. Condição e Hipótese"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.4. Condição e Hipótese"
+      },
+      "statement": "A frase “Unless the data are verified, the report will not be released” estabelece a verificação como condição para afastar a regra de não publicação.",
+      "correctAnswer": "C",
+      "explanation": "Unless corresponde a “if ... not” no contexto, relacionando ausência de verificação e não publicação.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md, seção '1.4. Condição e Hipótese'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-eng-had-approved-after",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-b1b8cbf8d0d7bc4a",
+      "conceptId": "had-approved-after",
+      "mechanism": "inverter-ordem-temporal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b1b8cbf8d0d7bc4a#3. O Passado do Passado: *Past Perfect* (*Had* + Particípio)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md",
+        "section": "3. O Passado do Passado: *Past Perfect* (*Had* + Particípio)"
+      },
+      "statement": "No período “The committee had approved the text before the session ended”, a aprovação é apresentada como posterior ao término da sessão.",
+      "correctAnswer": "E",
+      "explanation": "Had approved, com before, situa a aprovação anteriormente ao término da sessão.",
+      "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md, seção '3. O Passado do Passado: *Past Perfect* (*Had* + Particípio)'. Dificuldade estimada e integração após testes de integridade."
     }
   ]
 }

@@ -29,7 +29,7 @@ Como o Cebraspe avalia a correção gramatical e as possibilidades de deslocamen
 3. Na **Construção 3**, ocorrem **duas proibições absolutas da norma culta**: jamais se usa ênclise após verbo no **futuro** (*"submeterá-o"* é erro crasso; o correto é a mesóclise ***"submetê-lo-á"***) e jamais se usa ênclise após **particípio** (*"tiverem-no analisado"* está correto porque o pronome está enclítico ao auxiliar *tiverem*, ou proclítico a ele: *"o tiverem analisado"*, mas seria proibido *"tiverem analisado-o"*).
 4. Na **Construção 4** (*"Não **se deve adiar**"*), embora o advérbio negativo *Não* atraia o pronome para antes do verbo auxiliar (*"Não **se** deve adiar"*), a presença do verbo principal no **infinitivo** (*adiar*) torna igualmente correta a ênclise ao infinitivo: ***"Não deve adiar-se"***.
 
-Esta unidade sistematiza todas as regras de **colocação pronominal (toponímia pronominal)** exigidas pelo Cebraspe: as três proibições absolutas, os fatores de próclise obrigatória, os contextos de colocação facultativa (dupla colocação abonada), a morfologia fonética da ênclise/mesóclise e a sintaxe das locuções verbais.
+Esta unidade sistematiza todas as regras de **colocação pronominal (posição dos pronomes átonos)** exigidas pelo Cebraspe: as três proibições absolutas, os fatores de próclise obrigatória, os contextos de colocação facultativa (dupla colocação abonada), a morfologia fonética da ênclise/mesóclise e a sintaxe das locuções verbais.
 
 ---
 
@@ -193,7 +193,7 @@ Considere o período:
 
 **Item 3.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* Na oração principal *"o respeito ao contraditório impõe-se a todas as bancadas"*, o deslocamento do pronome **se** para antes da forma verbal — **se impõe** — manteria a correção gramatical do texto.
 * **Gabarito:** **CERTO**.
-* **Fundamentação:** Na oração *"o respeito ao contraditório impõe-se..."*, o verbo é antecedido por um **sujeito explícito** cujo núcleo é o substantivo *respeito* (*"o respeito ao contraditório"*), sem palavra negativa ou subordinativa imediata. Diante de sujeito nominal explícito, a colocação pronominal é **facultativa**, sendo igualmente corretas a ênclise (*impõe-se*) e a próclise (*se impõe*).
+* **Fundamentação:** Na oração *"o respeito ao contraditório impõe-se..."*, o verbo é antecedido por um **sujeito explícito** cujo núcleo é o substantivo *respeito* (*"o respeito ao contraditório"*), sem palavra negativa ou subordinativa imediata. Na construção concreta com sujeito nominal explícito (*o respeito ao contraditório*) e sem fator de atração, tanto a ênclise (*impõe-se*) quanto a próclise após o sujeito (*se impõe*) são admitidas em descrições do uso brasileiro culto. A aceitabilidade da próclise deve considerar **registro e norma adotada**; não se trata de uma facultatividade universal em qualquer posição ou variedade.
 
 **Item 4.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* No segmento final *"que se submetem ao Estado Democrático de Direito"*, a substituição de **se submetem** por **submetem-se** seria abonada pela norma culta, visto que o pronome relativo **que** exerce função de sujeito.
 * **Gabarito:** **ERRADO**.
@@ -205,7 +205,7 @@ Considere o período:
 
 **Item 6.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* No período *"Concluída a votação em segundo turno, a Mesa Diretora promulgou a emenda e encaminhou-a ao Diário da Câmara dos Deputados, onde tinham publicado-a no dia seguinte"*, todas as colocações pronominais respeitam a norma-padrão.
 * **Gabarito:** **ERRADO**.
-* **Fundamentação:** Há duplo erro grave na oração final (*"onde tinham publicado-a"*): primeiro, é **absolutamente proibido** pospor pronome átono a verbo no **particípio** (*"publicado-a"* jamás existe na língua culta); segundo, o pronome relativo adverbial **onde** é fator de **próclise obrigatória** sobre o verbo auxiliar da locução verbal. A única forma correta no segmento final seria ***"onde a tinham publicado"***.
+* **Fundamentação:** Há duplo erro grave na oração final (*"onde tinham publicado-a"*): primeiro, é **absolutamente proibido** pospor pronome átono a verbo no **particípio** (*"publicado-a"* não é forma aceita nesse contexto da norma-padrão); segundo, o pronome relativo adverbial **onde** é fator de **próclise obrigatória** sobre o verbo auxiliar da locução verbal. Uma reescrita correta e direta do segmento final seria ***"onde a tinham publicado"***. A presença do relativo *onde* favorece a próclise ao auxiliar nessa estrutura; há outras reformulações possíveis com mudança da locução, portanto a resposta não depende de supor uma **única frase admissível**.
 
 ---
 

@@ -142,6 +142,24 @@ Os distratores mais plausíveis deslocam uma regra correta para o contexto errad
 - transformar o CNJ em tribunal recursal de decisões jurisdicionais;
 - confundir vício de iniciativa/procedimento com inconstitucionalidade material.
 
+## Exercícios inéditos C/E: controle constitucional e magistratura
+
+**Caso progressivo.** Uma turma de tribunal decide afastar a incidência de lei por incompatibilidade com a Constituição. É preciso distinguir a **decisão jurisdicional de caso concreto** da exigência do **art. 97** sobre reserva de plenário: a turma não pode contornar essa reserva afirmando apenas que deixou de aplicar a norma, quando o fundamento do afastamento é sua inconstitucionalidade, ressalvadas as hipóteses reconhecidas pela jurisprudência.
+
+**Item 1 (inédito, Câmara/Cebraspe).** Viola a reserva de plenário decisão de órgão fracionário de tribunal que afasta a incidência de lei, integral ou parcialmente, em razão de sua incompatibilidade com a Constituição, ainda que não declare expressamente sua inconstitucionalidade.
+
+**Gabarito: Certo.** É o núcleo da **Súmula Vinculante nº 10**, em conexão com o art. 97 da Constituição. O comentário descreve a hipótese coberta pelo verbete, sem afastar exceções jurisprudenciais específicas, como precedentes já firmados pelo STF ou pelo plenário/órgão especial competente.
+
+**Item 2 (inédito, Câmara/Cebraspe).** A aprovação de súmula vinculante pelo Supremo Tribunal Federal exige maioria absoluta de seus membros, após decisões reiteradas sobre matéria constitucional.
+
+**Gabarito: Errado.** O **art. 103-A, caput**, exige **dois terços dos membros do STF**, além de decisões reiteradas sobre matéria constitucional e demais requisitos legais. Maioria absoluta não substitui esse quórum.
+
+**Item 3 (inédito, Câmara/Cebraspe).** O Conselho Nacional de Justiça integra a estrutura do Poder Judiciário e exerce controle administrativo, financeiro e disciplinar nos limites da Constituição, sem funcionar como tribunal de recursos contra o mérito das decisões judiciais.
+
+**Gabarito: Certo.** A competência do **CNJ**, no **art. 103-B, § 4º**, alcança atuação administrativa e financeira e deveres funcionais dos juízes; a revisão do mérito jurisdicional segue as vias processuais próprias.
+
+**Fontes:** [Constituição consolidada, arts. 97, 103-A e 103-B](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html); [STF, Súmula Vinculante nº 10](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1216). Itens autorais, não extraídos de cadernos oficiais.
+
 ## Relações com outros temas
 
 A reserva de plenário e o controle concentrado se conectam a [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]], porque vícios formais podem nascer do processo de produção normativa. O controle administrativo e financeiro do Judiciário se relaciona ao tema mais amplo de Controle da Administração Pública, que ainda demanda nota canônica própria no vault.

@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "concursoId": "camara-2026",
+  "cargo": 1,
+  "natureza": "banco-de-propostas-didaticas-nao-oficiais",
+  "reference": "2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional.md",
+  "officialStructure": {
+    "objectiveFormat": "CE",
+    "discursiveQuestions": 2,
+    "discursiveMaxLines": 20,
+    "discursivePointsEach": 15,
+    "technicalPieces": 1,
+    "technicalMaxLines": 50,
+    "technicalPointsEach": 30,
+    "discursiveTotalPoints": 60
+  },
+  "evaluationPolicy": {
+    "rubric": "didatica-autorale-nao-oficial",
+    "rule": "Cada quesito recebe de zero até seu máximo conforme o texto efetivamente escrito. Erros factuais graves zeram o critério correspondente; não há desconto automático de linha ou de linguagem sem espelho oficial.",
+    "lineLimit": "Excesso de linhas é sinalizado separadamente; não impor dedução automática sem critério oficial.",
+    "storage": "Respostas pessoais e diagnósticos não devem ser publicados neste repositório público. Registrar tentativas reais apenas no cofre privado.",
+    "scope": "As propostas cobrem conhecimentos específicos do Cargo 1; gêneros de peça são hipóteses de treino, não previsão do edital."
+  },
+  "prompts": [
+    {
+      "id": "cam-disc-001",
+      "concursoId": "camara-2026",
+      "cargo": 1,
+      "status": "proposta-didatica",
+      "type": "questao-discursiva",
+      "title": "Publicidade institucional e promoção pessoal",
+      "topic": "Comunicação pública e art. 37, § 1º",
+      "scenario": "Um órgão prepara uma campanha sobre serviços de atendimento. A equipe pretende usar imagem e fala de uma autoridade, além de informações sobre o serviço. Não há pesquisa sobre a reação dos públicos.",
+      "command": "Em até 20 linhas, diferencie a finalidade da publicidade institucional da promoção pessoal, identifique riscos da proposta e indique duas medidas para preservar o caráter público da peça.",
+      "maxLines": 20,
+      "totalPoints": 15,
+      "referencePaths": [
+        "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "3 - Materias/Redacao/04 - decomposicao de comandos e quesitos cebraspe.md"
+      ],
+      "rubric": [
+        {
+          "id": "distincao",
+          "label": "Distinção conceitual",
+          "maxPoints": 4,
+          "criterion": "Explicar finalidade pública, caráter educativo/informativo/de orientação social e promoção pessoal, sem confundir presença de autoridades com prova automática de infração."
+        },
+        {
+          "id": "analise",
+          "label": "Aplicação ao caso",
+          "maxPoints": 5,
+          "criterion": "Examinar o conjunto da peça, seu enquadramento e a possibilidade de enaltecimento individual, usando o art. 37, § 1º, com prudência."
+        },
+        {
+          "id": "medidas",
+          "label": "Medidas justificadas",
+          "maxPoints": 4,
+          "criterion": "Apresentar duas ações concretas para centrar a mensagem no serviço e no público, com relação explícita aos riscos identificados."
+        },
+        {
+          "id": "clareza",
+          "label": "Organização e precisão",
+          "maxPoints": 2,
+          "criterion": "Resposta coerente, termos corretos e respeito ao comando."
+        }
+      ],
+      "expectedElements": [
+        "Finalidade da comunicação estatal",
+        "Distinção entre informar serviço e enaltecer agente",
+        "Duas medidas verificáveis relacionadas ao caso"
+      ],
+      "criticalErrors": [
+        "Declarar que toda aparição de autoridade é vedada",
+        "Inferir resultados de pesquisa inexistente"
+      ]
+    },
+    {
+      "id": "cam-disc-002",
+      "concursoId": "camara-2026",
+      "cargo": 1,
+      "status": "proposta-didatica",
+      "type": "questao-discursiva",
+      "title": "Alcance, impressões e atribuição",
+      "topic": "Planejamento de mídia e avaliação",
+      "scenario": "Uma campanha digital teve 300.000 impressões, alcançou 80.000 usuários distintos, registrou 6.000 cliques e 500 pedidos de informação. Não foram coletados dados de grupo de comparação.",
+      "command": "Em até 20 linhas, diferencie impressões de alcance, calcule a taxa de cliques por impressão e a proporção de pedidos por clique, e explique um limite causal da avaliação.",
+      "maxLines": 20,
+      "totalPoints": 15,
+      "referencePaths": [
+        "3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento.md",
+        "3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md",
+        "3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md"
+      ],
+      "rubric": [
+        {
+          "id": "conceitos",
+          "label": "Distinção de métricas",
+          "maxPoints": 4,
+          "criterion": "Diferenciar exposição total e usuários únicos, sem supor que toda impressão corresponde a pessoa distinta."
+        },
+        {
+          "id": "calculos",
+          "label": "Denominadores e cálculos",
+          "maxPoints": 5,
+          "criterion": "Calcular CTR 6.000/300.000 = 2% e pedidos por clique 500/6.000 ≈ 8,33%, declarando bases."
+        },
+        {
+          "id": "causalidade",
+          "label": "Interpretação dos resultados",
+          "maxPoints": 4,
+          "criterion": "Explicar que associação temporal ou contagem de pedidos não isola efeito causal da campanha."
+        },
+        {
+          "id": "clareza",
+          "label": "Organização e precisão",
+          "maxPoints": 2,
+          "criterion": "Usar nomes e unidades adequados e respeitar o limite."
+        }
+      ],
+      "expectedElements": [
+        "Impressões versus alcance deduplicado",
+        "CTR = 2%",
+        "Pedidos/cliques ≈ 8,33%",
+        "Limite de atribuição causal sem contrafactual"
+      ],
+      "criticalErrors": [
+        "Dividir cliques pelo alcance e chamar de CTR por impressão",
+        "Afirmar que 500 pedidos foram necessariamente causados pela campanha"
+      ]
+    },
+    {
+      "id": "cam-disc-003",
+      "concursoId": "camara-2026",
+      "cargo": 1,
+      "status": "proposta-didatica",
+      "type": "questao-discursiva",
+      "title": "IA na comunicação institucional",
+      "topic": "IA aplicada e responsabilidade editorial",
+      "scenario": "Uma equipe usa IA generativa para produzir uma minuta de divulgação sobre um serviço. A ferramenta inclui uma informação que não consta nos documentos oficiais e sugere uma imagem sintética de uma pessoa atendida.",
+      "command": "Em até 20 linhas, indique os principais riscos, descreva um fluxo de revisão humana antes da publicação e explique como tratar a informação não verificada e a imagem sintética.",
+      "maxLines": 20,
+      "totalPoints": 15,
+      "referencePaths": [
+        "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md"
+      ],
+      "rubric": [
+        {
+          "id": "riscos",
+          "label": "Identificação de riscos",
+          "maxPoints": 4,
+          "criterion": "Reconhecer risco factual, de engano do público e de inadequação institucional sem presumir que todo uso é proibido."
+        },
+        {
+          "id": "verificacao",
+          "label": "Procedimento de verificação",
+          "maxPoints": 5,
+          "criterion": "Prever conferência em fontes oficiais, responsável identificado, revisão editorial e aprovação antes de publicar."
+        },
+        {
+          "id": "imagem",
+          "label": "Tratamento da imagem sintética",
+          "maxPoints": 4,
+          "criterion": "Delimitar transparência e risco de representação enganosa; propor alternativa ou sinalização adequada conforme normas aplicáveis."
+        },
+        {
+          "id": "clareza",
+          "label": "Organização e precisão",
+          "maxPoints": 2,
+          "criterion": "Estrutura clara e atendimento dos três quesitos."
+        }
+      ],
+      "expectedElements": [
+        "Conferência em fontes primárias",
+        "Responsabilidade editorial humana",
+        "Não divulgar como fato informação não confirmada",
+        "Analisar risco de imagem artificial"
+      ],
+      "criticalErrors": [
+        "Afirmar que conteúdo gerado por IA dispensa verificação",
+        "Atribuir regras oficiais não demonstradas pelo enunciado"
+      ]
+    },
+    {
+      "id": "cam-disc-004",
+      "concursoId": "camara-2026",
+      "cargo": 1,
+      "status": "proposta-didatica",
+      "type": "questao-discursiva",
+      "title": "Crise informacional e linguagem simples",
+      "topic": "Comunicação institucional, transparência e linguagem simples",
+      "scenario": "Após mudança de horário de um serviço, páginas e mensagens institucionais mantêm informações divergentes. O órgão recebeu reclamações, mas não dispõe de evidência sobre quantos usuários foram afetados.",
+      "command": "Em até 20 linhas, proponha uma resposta inicial de comunicação, explique como confirmar e corrigir os dados publicados e indique dois critérios de avaliação da resposta.",
+      "maxLines": 20,
+      "totalPoints": 15,
+      "referencePaths": [
+        "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md"
+      ],
+      "rubric": [
+        {
+          "id": "diagnostico",
+          "label": "Diagnóstico e cautela",
+          "maxPoints": 3,
+          "criterion": "Distinguir divergência comprovada de extensão ainda não medida do impacto."
+        },
+        {
+          "id": "correcao",
+          "label": "Correção coordenada",
+          "maxPoints": 5,
+          "criterion": "Descrever checagem com área responsável, informação única vigente, atualização nos canais e controle de versões."
+        },
+        {
+          "id": "linguagem",
+          "label": "Orientação ao público",
+          "maxPoints": 4,
+          "criterion": "Comunicar o horário correto de modo simples, acessível e orientado ao usuário."
+        },
+        {
+          "id": "avaliacao",
+          "label": "Avaliação e precisão",
+          "maxPoints": 3,
+          "criterion": "Indicar dois sinais verificáveis de eficácia da resposta sem inventar alcance ou causalidade."
+        }
+      ],
+      "expectedElements": [
+        "Fonte responsável pelo horário",
+        "Correção em canais afetados",
+        "Mensagem verificável e acessível",
+        "Dois indicadores observáveis"
+      ],
+      "criticalErrors": [
+        "Inventar número de usuários prejudicados",
+        "Tomar reclamação isolada como comprovação de impacto total"
+      ]
+    },
+    {
+      "id": "cam-peca-001",
+      "concursoId": "camara-2026",
+      "cargo": 1,
+      "status": "proposta-didatica",
+      "type": "peca-tecnica",
+      "title": "Briefing para campanha de serviço público",
+      "topic": "Publicidade, briefing e acessibilidade",
+      "scenario": "Um serviço público digital terá nova forma de acesso. A equipe precisa preparar materiais de orientação para pessoas com diferentes níveis de familiaridade com plataformas digitais. Ainda não há estudo de públicos nem orçamento definido.",
+      "command": "Redija, em até 50 linhas, um briefing para a equipe de criação. Delimite o problema, diferencie fatos de hipóteses, proponha objetivos, descreva os públicos a investigar, especifique entregas e restrições e indique o processo de validação antes da publicação.",
+      "maxLines": 50,
+      "totalPoints": 30,
+      "referencePaths": [
+        "3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade.md",
+        "3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria.md",
+        "3 - Materias/Comunicacao/93 - redacao publicitaria textos formatos e adequacao ao meio.md",
+        "3 - Materias/Redacao/06 - planejamento e escrita de peca tecnica.md"
+      ],
+      "rubric": [
+        {
+          "id": "objeto",
+          "label": "Problema e finalidade",
+          "maxPoints": 5,
+          "criterion": "Delimitar a necessidade comunicacional e orientar a equipe sem afirmar pesquisa realizada."
+        },
+        {
+          "id": "publicos",
+          "label": "Públicos e lacunas",
+          "maxPoints": 5,
+          "criterion": "Propor segmentação preliminar e evidências a levantar, distinguindo hipóteses de dados."
+        },
+        {
+          "id": "objetivos",
+          "label": "Objetivos e prioridades",
+          "maxPoints": 5,
+          "criterion": "Relacionar objetivos mensuráveis ou verificáveis aos problemas identificados."
+        },
+        {
+          "id": "entregas",
+          "label": "Entregas e diretrizes",
+          "maxPoints": 5,
+          "criterion": "Descrever formatos, mensagens, critérios de linguagem e acessibilidade aplicáveis."
+        },
+        {
+          "id": "restricoes",
+          "label": "Restrições e pressupostos",
+          "maxPoints": 5,
+          "criterion": "Registrar limites de orçamento, fontes e regras ainda pendentes em vez de inventar parâmetros."
+        },
+        {
+          "id": "validacao",
+          "label": "Processo de validação",
+          "maxPoints": 5,
+          "criterion": "Explicar validação factual, acessibilidade, aprovação e revisão antes da circulação."
+        }
+      ],
+      "expectedElements": [
+        "Briefing com destinatário e objeto",
+        "Evidências ausentes explicitadas",
+        "Públicos, entregas e critérios",
+        "Validação institucional"
+      ],
+      "criticalErrors": [
+        "Criar dado de pesquisa inexistente",
+        "Apresentar orçamento inventado como aprovado",
+        "Confundir briefing com relatório final de resultados"
+      ]
+    },
+    {
+      "id": "cam-peca-002",
+      "concursoId": "camara-2026",
+      "cargo": 1,
+      "status": "proposta-didatica",
+      "type": "peca-tecnica",
+      "title": "Plano de comunicação para audiência pública",
+      "topic": "Planejamento, canais e avaliação",
+      "scenario": "Uma unidade prepara audiência pública híbrida sobre um tema de interesse coletivo. O comunicado inicial teve baixa clareza, e não há dados suficientes para caracterizar o alcance por segmento do público. A unidade quer ampliar o acesso às informações de participação.",
+      "command": "Elabore, em até 50 linhas, um plano técnico de comunicação com diagnóstico preliminar, objetivos, públicos, mensagens, canais, cronograma relativo, responsabilidades e critérios de acompanhamento. Distinga o que já se sabe do que deverá ser verificado.",
+      "maxLines": 50,
+      "totalPoints": 30,
+      "referencePaths": [
+        "3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional.md",
+        "3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md",
+        "3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas.md",
+        "3 - Materias/Redacao/06 - planejamento e escrita de peca tecnica.md"
+      ],
+      "rubric": [
+        {
+          "id": "diagnostico",
+          "label": "Delimitação do problema",
+          "maxPoints": 5,
+          "criterion": "Reconhecer evidência disponível e formular hipóteses a confirmar."
+        },
+        {
+          "id": "objetivos",
+          "label": "Objetivos e públicos",
+          "maxPoints": 5,
+          "criterion": "Definir resultados comunicacionais e públicos com justificativas adequadas."
+        },
+        {
+          "id": "mensagens",
+          "label": "Mensagens e canais",
+          "maxPoints": 5,
+          "criterion": "Selecionar meios e orientar conteúdo simples, acessível e institucional."
+        },
+        {
+          "id": "execucao",
+          "label": "Cronograma e papéis",
+          "maxPoints": 5,
+          "criterion": "Planejar etapas relativas e responsáveis sem inventar datas ou recursos."
+        },
+        {
+          "id": "indicadores",
+          "label": "Monitoramento",
+          "maxPoints": 6,
+          "criterion": "Relacionar indicadores de distribuição, compreensão e participação, com denominadores apropriados e limitações."
+        },
+        {
+          "id": "precisao",
+          "label": "Coerência e linguagem",
+          "maxPoints": 4,
+          "criterion": "Estruturar o gênero conforme comando, sem extrapolar dados ou violar limite."
+        }
+      ],
+      "expectedElements": [
+        "Diagnóstico provisório",
+        "Plano organizado em ações",
+        "Responsabilidades e sequência",
+        "Critérios observáveis de acompanhamento"
+      ],
+      "criticalErrors": [
+        "Afirmar impacto causal sem avaliação",
+        "Inventar recursos, datas ou dados",
+        "Misturar objetivo de comunicação com resultado já comprovado"
+      ]
+    }
+  ]
+}

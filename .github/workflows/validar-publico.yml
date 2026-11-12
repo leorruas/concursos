@@ -15,6 +15,8 @@ jobs:
       - run: node scripts/test-priority-sync.js && node scripts/test-progress-sync.js
       - run: node scripts/test-camara-questions.js
       - run: node scripts/test-camara-expansion.js
+      - run: node scripts/test-camara-pilot-difficulty.js && node scripts/test-camara-discursivas.js
+      - run: node scripts/test-camara-difficulty.js && node scripts/test-camara-discursivas.js
       - run: node scripts/validate-flashcards.js
       - run: node scripts/test-article-identity.js
       - run: node scripts/validate-vault-invariants.js --public-only

@@ -124,3 +124,7 @@ O lote soma 16 itens redigidos. Os novos casos cobrem escopo da negação, press
 O lote soma 24 itens redigidos. Os oito novos cobrem elipse, substituição, hierarquia lexical, coordenação e orações subordinadas, com referências aos artigos 19, 24 e 25.
 
 O lote soma 32 itens redigidos. Os oito novos cobrem aspecto, anterioridade, hipótese, correlação temporal e efeitos de reescrita, com referência ao artigo 21.
+
+## Etapa seguinte após a integração do PR #22
+
+A distribuição operacional dos 31 lotes remanescentes, a classificação provisória das 389 questões históricas e o banco separado de propostas discursivas estão descritos em [[1 - Planejamento/Camara 2026 - Matriz de expansao e discursivas|Matriz de expansão e discursivas]]. A meta remanescente é de 1.240 novas questões **validadas**, das quais 32 já estão redigidas e pendentes de revisão. Esta seção preserva o histórico dos lotes anteriores; o planejamento vigente é o documento vinculado.

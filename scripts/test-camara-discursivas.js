@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { evaluateCamaraDiscursive } from './score-camara-discursivas.js';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const bank=JSON.parse(fs.readFileSync(new URL('../data/questoes-camara-discursivas.json',import.meta.url),'utf8'));
+assert.equal(bank.concursoId,'camara-2026');
+assert.equal(bank.cargo,1);
+assert.equal(bank.natureza,'banco-de-propostas-didaticas-nao-oficiais');
+assert(bank.prompts.length>=6);
+const ids=new Set();let short=0,technical=0;
+for(const prompt of bank.prompts){
+  assert(!ids.has(prompt.id),'ID duplicado: '+prompt.id);ids.add(prompt.id);
+  assert(prompt.status==='proposta-didatica' && prompt.concursoId==='camara-2026');
+  const isShort=prompt.type==='questao-discursiva';
+  assert(isShort||prompt.type==='peca-tecnica','Tipo inválido');
+  if(isShort)short++;else technical++;
+  assert.equal(prompt.maxLines,isShort?20:50);
+  assert.equal(prompt.totalPoints,isShort?15:30);
+  assert(prompt.title&&prompt.scenario&&prompt.command&&prompt.expectedElements.length>=3);
+  assert(Array.isArray(prompt.rubric)&&prompt.rubric.length>=4);
+  assert.equal(prompt.rubric.reduce((sum,x)=>sum+x.maxPoints,0),prompt.totalPoints);
+  assert.equal(new Set(prompt.rubric.map(x=>x.id)).size,prompt.rubric.length);
+  assert(prompt.rubric.every(x=>x.maxPoints>0&&x.criterion&&x.label));
+  assert(prompt.referencePaths.every(path=>path.startsWith('3 - Materias/')&&fs.existsSync(root+'/'+path)));
+  const mock=prompt.rubric.map(x=>({id:x.id,points:x.maxPoints,feedback:'Critério avaliado somente com produção real.'}));
+  const scored=evaluateCamaraDiscursive(prompt,mock,prompt.maxLines);
+  assert.equal(scored.score,prompt.totalPoints);
+  assert.equal(scored.exceedsLineLimit,false);
+  assert.equal(evaluateCamaraDiscursive(prompt,mock,prompt.maxLines+1).exceedsLineLimit,true);
+  assert.throws(()=>evaluateCamaraDiscursive(prompt,mock.slice(1),prompt.maxLines),/Todos os critérios/);
+}
+assert(short>=4&&technical>=2);
+console.log('Câmara: '+short+' propostas discursivas e '+technical+' peças técnicas, com rubricas didáticas e checagem de fontes.');

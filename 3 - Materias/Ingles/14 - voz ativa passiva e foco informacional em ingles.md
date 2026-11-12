@@ -111,7 +111,7 @@ Verbos acompanhados de preposição fixa (*phrasal verbs* e *prepositional verbs
 
 *Text segment: "The special commission is currently examining the proposed constitutional amendments to ensure alignment with fiscal responsibility standards."*
 
-**Item:** The sentence "The proposed constitutional amendments are currently being examined by the special commission" maintains the original meaning and grammatical correctness of the excerpt.
+**Item:** The sentence "The proposed constitutional amendments are currently being examined by the special commission" is grammatically correct and preserves every piece of explicitly stated information from the excerpt.
 
 - ( ) Certo
 - ( ) Errado

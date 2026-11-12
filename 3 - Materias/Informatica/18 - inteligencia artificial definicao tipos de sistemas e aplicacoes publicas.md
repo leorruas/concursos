@@ -212,8 +212,8 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 ## Fontes consultadas e vigência
 
 - **RUSSELL, Stuart; NORVIG, Peter**: *Inteligência Artificial: Uma Abordagem Moderna*. 4ª ed., Elsevier / GEN LTC.
-- **Estratégia Brasileira de Inteligência Artificial (EBIA)**: Portaria MCTI nº 4.617/2021 e Decreto nº 9.874/2019.
-- **Marco Regulatório de IA no Brasil**: Projeto de Lei nº 2.338/2023 (Senado Federal / Câmara dos Deputados).
+- **Estratégia Brasileira de Inteligência Artificial (EBIA)**: instituída pela **Portaria MCTI nº 4.617/2021**, com anexo alterado pela **Portaria MCTI nº 4.979/2021**. O Decreto nº 9.874/2019 não é o ato de instituição da EBIA. Fonte: [MCTI, repositório normativo da estratégia](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/inteligencia-artificial-estrategia-repositorio).
+- **Marco Regulatório de IA no Brasil**: **Projeto de Lei nº 2.338/2023, em tramitação na Câmara em 11/11/2026**, conforme [acompanhamento oficial](https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262). Suas propostas de classificação de risco e obrigações não são normas vigentes por si sós.
 - **HINTZE, Arend**: *Understanding the Four Types of AI*, Michigan State University.
 - **Relatórios Técnicos do Tribunal de Contas da União (TCU)** e **Câmara dos Deputados**: Documentação dos sistemas Alice, Sofia, Victor e Ulysses.
 
@@ -244,3 +244,6 @@ Instituída pelo Governo Federal, a EBIA estabelece eixos fundamentais que orien
 **Aplicação discursiva:** em um parecer sobre automação legislativa, distinguir **sistema**, **tarefa** (classificar, resumir, transcrever), **fase** (em uso ou em desenvolvimento), **evidência documental** e **responsabilidade humana**.
 
 As questões originais 3 e 6 permanecem **NÃO HOMOLOGADAS**.
+
+
+> **Implementação normativa (11/11/2026):** referência à EBIA corrigida na bibliografia e PL 2.338/2023 identificado expressamente como projeto em tramitação. Fontes oficiais MCTI/Câmara conferidas.

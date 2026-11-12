@@ -98,3 +98,11 @@ O workflow **Validar site público (PR)**, execução `43124801065`, foi conclu�
 - `3 - Materias/Redacao/10 - diagnostico de comunicacao como peca tecnica.md` (`art-bf207ae1c3846509`).
 
 Esses três arquivos, provenientes de trabalho paralelo e com IDs distintos, repetem objetivos de CAM-DIS-003, 004 e 006 já desenvolvidos pela presente implementação. O `index.md`, hub e catálogo consultados não os vinculavam. **Conflito editorial e de indexação pendente de conciliação com os demais agentes**: não apagar, incorporar ou declarar certificados os arquivos concorrentes de maneira automática. Esse resultado é evidência de **CI vermelho**, não de falha do modelo de 44 linhas. O PR nº 18 permanece **aberto e não mesclado** enquanto a inconsistência existir. A execução `43124800889` (glossário) foi observada em andamento no último checkpoint, sem conclusão confirmada.
+
+## Reconciliação do PR 18 e continuação pelo PR 19
+
+A nova leitura do `main` identificou que os três artigos paralelos órfãos mencionados na falha do workflow do PR nº 18 já haviam sido retirados da branch principal. Eles persistiam no snapshot da branch antiga; incorporá-la reintroduziria as duplicatas. O [PR nº 18](https://github.com/leorruas/concursos/pull/18) foi **fechado sem merge**, e seu resultado vermelho permanece registrado historicamente.
+
+Foi criada do `main` a branch `redacao-camara-peca-44-linhas-20261111`, com uma única alteração em `3 - Materias/Redacao/06 - planejamento e escrita de peca tecnica.md`: substituição do exemplar autoral de 28 linhas digitadas por outro de **44 linhas digitadas**, com rubrica de autocorreção, preservando oficinas e caso progressivo de outros agentes. Commit `c3edd970e0b2218d20ec784dcc5c796dd7e5fb23`, [PR nº 19](https://github.com/leorruas/concursos/pull/19). O restante do repositório foi preservado.
+
+Os workflows do novo PR foram iniciados: `Validar site público (PR)` (run `43125414976`) e `Validar glossário antes de integrar` (run `43125415072`). Estado no checkpoint: ambos em execução, sem conclusão. **A numeração digital não certifica ocupação de 50 linhas manuscritas.** Não considerar como teste aprovado antes da conclusão, nem como publicado sem verificar `pages.yml` após eventual merge.

@@ -104,7 +104,7 @@
     {
       "id": "ppa",
       "term": "Plano Plurianual (PPA)",
-      "definition": "É a lei que planeja o que o governo pretende alcançar em quatro exercícios. Define orientações, objetivos e metas por região para gastos de capital, despesas deles decorrentes e programas continuados; não libera sozinho cada despesa.",
+      "definition": "É a lei que planeja o que o governo quer alcançar em quatro anos do orçamento, com metas para diferentes regiões. Abrange despesas de capital (por exemplo, obras), gastos que surgem depois desses investimentos (como manutenção) e programas de duração continuada (como atendimento regular). Não autoriza sozinho o gasto de cada ano.",
       "example": "Planejar construção de postos de saúde em regiões com carência e manutenção futura do serviço. Para gastar em cada ano, é necessária autorização no orçamento anual.",
       "confusion": "Programa de duração continuada do PPA não é automaticamente despesa obrigatória continuada da LRF. O PPA orienta o médio prazo; a LOA autoriza cada gasto anual.",
       "topic": "Planejamento",
@@ -144,7 +144,7 @@
       "term": "Lei de Diretrizes Orçamentárias (LDO)",
       "definition": "É a lei anual que liga o plano de vários anos ao orçamento do ano seguinte. Define prioridades, metas fiscais (resultados pretendidos para as contas) e regras para preparar e executar o orçamento. Orienta, mas não libera o pagamento.",
       "example": "A LDO prioriza melhorar escolas; a LOA autoriza R$ 2 milhões. Se a arrecadação ameaçar metas fiscais, a limitação de empenho depende de condições legais e de atos próprios.",
-      "confusion": "Prioridade da LDO não é dotação da LOA. Prever critérios de limitação de empenho também não significa cancelar automaticamente o dinheiro autorizado no orçamento.",
+      "confusion": "Prioridade da LDO não é dotação, isto é, verba autorizada na LOA. Prever critérios de limitação de empenho também não significa cancelar automaticamente o valor aprovado no orçamento.",
       "topic": "Planejamento",
       "subjectIds": [
         "orcamento-publico"

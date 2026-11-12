@@ -46,24 +46,32 @@ O parecerista não decide; ele opina e fundamenta. A autoridade competente é qu
 
 A doutrina administrativista clássica (consagrada por Oswaldo Aranha Bandeira de Mello e acolhida pacificamente pelo STF no histórico **MS 24.631/DF**) classifica os pareceres em três categorias fundamentais:
 
-### 2.1. Parecer Facultativo
-- **Definição:** a lei **não exige** a consulta prévia a órgão jurídico ou técnico para a prática do ato. A autoridade solicita o parecer por mera cautela ou prudência administrativa.
-- **Efeitos:** a autoridade tem total liberdade para solicitar ou não o parecer e, após emiti-lo, tem plena liberdade para acolhê-lo ou rejeitá-lo, fundamentando a sua decisão.
-- **Responsabilidade:** a autoridade administrativa assume **responsabilidade pessoal e exclusiva** pela decisão tomada. O parecerista não responde pelo ato final, exceto se comprovado dolo específico ou conluio fraudulento.
+### 2.1. Parecer facultativo
+A consulta é **facultativa** quando a norma não a torna etapa exigida para a decisão. A autoridade solicita o parecer por necessidade técnica e decide, motivadamente, se acolhe suas conclusões.
 
-### 2.2. Parecer Obrigatório
-- **Definição:** a lei **exige compulsoriamente** que o órgão técnico ou jurídico seja ouvido antes da decisão, constituindo a sua emissão uma **formalidade essencial** de validade do procedimento.
-- **Exemplo típico:** parecer jurídico prévio em editais de licitação, contratos administrativos e dispensas/inexigibilidades (art. 53 da Nova Lei de Licitações, Lei nº 14.133/2021).
-- **Efeitos quanto ao mérito:** a audiência é obrigatória, mas **a conclusão do parecerista NÃO vincula a autoridade**. A autoridade administrativa pode divergir das conclusões jurídicas do parecerista, desde que o faça de forma **expressamente motivada** e fundamentada, assumindo o risco integral da decisão divergente.
-- **Vício procedimental:** a ausência de parecer obrigatório acarreta **nulidade absoluta insanável** do ato decisório subsequente por vício formal essencial.
+A natureza facultativa **não cria irresponsabilidade absoluta do parecerista**. A imputação pessoal depende de conduta concreta, elemento subjetivo e nexo com o resultado, considerados o regime aplicável e o art. 28 da LINDB. Divergência interpretativa razoavelmente fundamentada não equivale automaticamente a erro grosseiro.
 
-### 2.3. Parecer Vinculante
-- **Definição:** a lei impõe tanto a **obrigatoriedade de sua emissão** quanto a **obrigatoriedade de adoção de suas conclusões** pela autoridade administrativa competente.
-- **Exemplo típico:** pareceres da Advocacia-Geral da União (AGU) aprovados pelo Presidente da República, que vinculam compulsoriamente toda a Administração Pública Federal direta e indireta (art. 40 da Lei Complementar nº 73/1993); parecer vinculante da Procuradoria da Fazenda Nacional aprovado pelo Ministro da Fazenda.
-- **Efeitos:** a autoridade decisória fica jungida aos exatos limites do parecer. Ela somente pode agir no sentido indicado pelo parecer ou, caso discorde, abster-se de praticar o ato, submetendo a divergência à autoridade de cúpula homologadora.
-- **Responsabilidade:** a decisão é compartilhada com o parecerista ou a ele imputada substancialmente, pois o conteúdo dispositivo decorre diretamente de sua manifestação técnica vinculativa.
+**Caso:** a chefia consulta uma área técnica sobre formato de comunicação. A recomendação é fundamentada, mas a chefia prefere outra solução por razões documentadas. A simples divergência não implica responsabilização da consultoria. Se houver fraude deliberada na opinião, o exame é outro.
 
----
+### 2.2. Parecer obrigatório
+A consulta integra o procedimento quando norma exige prévia manifestação especializada. **Obrigatoriedade de consulta não significa obrigação geral de adotar a conclusão.** A autoridade pode discordar de parecer não vinculante, com fundamentação adequada; a situação pode exigir **nova consulta quando o ato proposto mudar** em relação ao que foi submetido à análise, como discutido no STF, MS 24.631/DF.
+
+**Licitações:** o art. 53 da Lei nº 14.133/2021 prevê controle jurídico prévio ao final da fase preparatória; o § 4º disciplina outras contratações e instrumentos. O **§ 5º permite dispensar a análise jurídica em hipóteses previamente definidas por ato da autoridade jurídica máxima competente**, considerados baixo valor, baixa complexidade, entrega imediata e instrumentos padronizados. É incorreto afirmar que todo processo de contratação sempre exige um parecer individual.
+
+**Procedimento progressivo:** (1) minuta encaminhada à consultoria; (2) parecer indica risco e propõe ajuste; (3) a autoridade acolhe e corrige a minuta; (4) se pretende adotar solução substancialmente diferente, avalia a necessidade de submeter novamente a proposta à análise jurídica. **Contraexemplo:** supor que bastaria apagar o parecer desfavorável e contratar sem motivação.
+
+A consequência de consulta omitida deve ser examinada pela norma que a exige, pela natureza do vício, pelas possibilidades de saneamento e pelos efeitos no caso. Não há base para afirmar **nulidade absoluta e insanável em toda hipótese**.
+
+Fonte: [Lei 14.133/2021, art. 53](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2021-04-01%3B14133%21art53).
+
+### 2.3. Parecer vinculante
+Há eficácia vinculante quando a norma estabelece que a autoridade deve observar o entendimento. O alcance da obrigação depende da **fonte específica** e de suas condições de aprovação e publicação.
+
+**Exemplo AGU:** segundo o art. 40, § 1º, da LC nº 73/1993, o parecer do Advogado-Geral da União **aprovado pelo Presidente da República e publicado com o despacho presidencial** vincula a Administração Federal. Se aprovado, mas **não publicado**, obriga apenas as repartições interessadas a partir da ciência (§ 2º). Pareceres consultivos ou técnicos sem essas condições não adquirem automaticamente alcance geral.
+
+A vinculação orienta o conteúdo da decisão e pode ser relevante para apurar responsabilidades, **mas não estabelece solidariedade automática** entre autor do parecer e autoridade. É necessário identificar condutas, deveres, nexo causal e regime de responsabilização.
+
+Fonte: [LC 73/1993, arts. 40 a 43](https://www2.camara.leg.br/legin/fed/leicom/1993/leicomplementar-73-10-fevereiro-1993-354947-normaatualizada-pl.html).
 
 ## 3. A Responsabilidade do Parecerista: STF, TCU e LINDB
 
@@ -92,33 +100,36 @@ Incluído pela Lei nº 13.655/2018, o art. 28 da Lei de Introdução às Normas 
 
 O Decreto nº 9.830/2019 (regulamentador da LINDB) define **erro grosseiro** como aquele manifesto, evidente e inescusável praticado com **culpa grave**, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia, violando padrão de conduta exigível de um profissional ordinariamente diligente.
 
-### 3.2. A jurisprudência do Supremo Tribunal Federal (MS 24.631/DF e MS 24.584/DF)
-O STF pacificou distinções seminais quanto à responsabilização do advogado/consultor parecerista:
-1. **No parecer facultativo:** o parecerista opina sem poder vinculante. A autoridade administrativa é a única responsável. O parecerista só responderá se restar cabalmente evidenciado conluio ou dolo com a autoridade para fraudar a lei.
-2. **No parecer obrigatório não vinculante:** a autoridade tem o dever de consultar, mas não de seguir. Se a autoridade seguir parecer manifestamente ilegal emitido com erro grosseiro ou negligência indesculpável, o STF e o TCU admitem a **responsabilização solidária do parecerista e da autoridade administradora**. Se o parecer estiver amparado em fundamentação jurídica defensável e tese doutrinária plausível, o parecerista não pode ser responsabilizado, preservando-se sua inviolabilidade técnica (art. 133 da CF/1988).
-3. **No parecer vinculante:** como o administrador está obrigado a seguir o parecer, o parecerista assume corresponsabilidade direta pela manifestação emanada, respondendo solidariamente por ilegalidades e danos causados ao erário.
+### 3.2. STF: natureza do parecer e apuração de responsabilidade
+Os mandados de segurança **MS 24.631/DF** e **MS 24.584/DF** são referências para distinguir emissão de opinião, consulta obrigatória e efeitos de parecer vinculante. A responsabilidade não pode ser inferida somente da classificação do documento.
 
-### 3.3. A jurisprudência do Tribunal de Contas da União (TCU)
-O TCU possui jurisprudência consolidada (Súmula 222 do TCU e acórdãos reiterados) no sentido de que:
-- O parecerista jurídico **pode ser responsabilizado pelo TCU** e sancionado com multa ou condenação em débito solidário quando emite parecer que subsidia contratação direta ilegal, sobrepreço ou superfaturamento, desde que sua conduta decorra de **dolo ou erro grosseiro** (ausência de diligência elementar, ignorância de jurisprudência sumulada pacífica ou omissão de cláusula essencial).
-- A mera existência de parecer jurídico favorável **não exime automaticamente o gestor público de responsabilidade**, pois cabe ao administrador agir com prudência e não acatar pareceres com fundamentações teratológicas ou manifestamente absurdas.
+A análise deve verificar **(1)** se o parecer foi exigido, **(2)** se vinculava o ato, **(3)** o dever concreto do parecerista, **(4)** dolo ou erro grosseiro no regime da LINDB, **(5)** a participação causal no resultado e **(6)** qual órgão possui competência para apurar. Parecer motivado com interpretação jurídica defensável não configura, apenas pela divergência, ilícito imputável ao autor.
 
-### 3.4. O regime na Nova Lei de Licitações (Lei nº 14.133/2021)
-O art. 53 da Lei nº 14.133/2021 estabelece a obrigatoriedade de controle prévio de legalidade mediante parecer jurídico na fase preparatória dos processos licitatórios e contratações diretas:
-- **Art. 53, § 1º:** o órgão de assessoramento jurídico apreciará a legalidade dos editais e contratos e deverá manifestar-se expressamente sobre as minutas.
-- **Defesa judicial do parecerista (art. 10):** se o parecerista for processado judicialmente ou perante os órgãos de controle em decorrência de atos praticados no estrito exercício de suas atribuições funcionais, a advocacia pública assegurará a sua representação judicial e extrajudicial, salvo se restar comprovada prática de ato com dolo ou fraude.
+O art. 133 da Constituição protege a atuação do **advogado** nos limites da lei, e não confere a qualquer consultor técnico uma imunidade funcional genérica.
 
----
+### 3.3. Tribunal de Contas da União: fundamento correto e limites
+O Tribunal de Contas da União pode examinar condutas de pareceristas no contexto de suas competências de controle, observando responsabilidade pessoal, dever funcional, dolo ou erro grosseiro, nexo e consequências concretas. A mera participação na emissão de parecer não demonstra solidariedade pelo ato de gestão.
 
-## Quadro Sinótico: Comparativo dos Tipos de Parecer
+**A Súmula 222 do TCU não disciplina responsabilidade de pareceristas.** Seu objeto são decisões do Tribunal relativas à aplicação de normas gerais de licitação que devem ser observadas por administradores dos entes federativos. Para discutir eventual responsabilidade do parecerista, devem ser citados **acórdãos específicos sobre sua conduta**, em conjunto com a LINDB e o regime aplicável, sem atribuir essa tese à Súmula 222.
 
-| Categoria | Previsão Legal | Vinculação da Autoridade | Responsabilidade do Parecerista | Responsabilidade do Administrador |
-| :--- | :--- | :--- | :--- | :--- |
-| **Facultativo** | Facultativa (a critério da autoridade). | Não vincula (autoridade decide livremente). | Não responde, salvo comprovado dolo/conluio. | Responde pessoal e integralmente pela decisão. |
-| **Obrigatório** | Obrigatória por lei (formalidade essencial). | Não vincula no conteúdo (admite divergência fundamentada). | Responde por **dolo ou erro grosseiro** (solidariamente se acolhido). | Responde se acolher parecer teratológico ou se divergir sem fundamentação. |
-| **Vinculante** | Obrigatória e expressa em lei. | **Vincula compulsoriamente** o acolhimento do conteúdo. | Responde diretamente e solidariamente pelo conteúdo dispositivo. | Fica jungido aos termos do parecer; responde se exorbitar. |
+Fonte primária: [TCU, Súmula 222](https://pesquisa.apps.tcu.gov.br/documento/sumula/%2A/NUMERO%253A222/DTRELEVANCIA%2520desc%252C%2520NUMEROINT%2520desc/0/sinonimos%253Dtrue).
 
----
+### 3.4. Lei nº 14.133/2021: controle de legalidade e representação
+O **art. 53** estabelece o controle prévio de legalidade por assessoramento jurídico, ressalvadas as **hipóteses de dispensa do § 5º**. O parecer deve apreciar elementos indispensáveis e explicitar os pressupostos de fato e direito (art. 53, § 1º, II).
+
+O **art. 10 trata da representação pela advocacia pública de autoridades e servidores participantes dos procedimentos licitatórios e contratuais** quando precisem defender ato praticado **em estrita observância de orientação constante de parecer jurídico** elaborado nos termos do art. 53, § 1º. A representação ocorre **a critério do agente** e não se aplica quando constarem dos autos provas de atos ilícitos dolosos (art. 10, § 1º, II); também alcança quem já deixou a função (§ 2º). **O dispositivo não oferece automaticamente defesa pessoal ao autor de qualquer parecer por todo ato funcional.**
+
+**Exemplo:** gestor observa estritamente orientação jurídica regular e precisa defender essa decisão. As condições do art. 10 devem ser verificadas. Se o gestor decide em desacordo com a orientação, a regra específica do artigo não pode ser presumida.
+
+Fontes: [Lei 14.133, art. 10](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2021-04-01%3B14133%21tit1_cap4) e [art. 53](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2021-04-01%3B14133%21art53).
+
+## Quadro comparativo: consulta, vinculação e responsabilidade
+
+| Tipo | A consulta é exigida? | A conclusão vincula? | Responsabilidade |
+| --- | --- | --- | --- |
+| Facultativo | Não, salvo norma especial | Em regra, não | Depende de conduta, elemento subjetivo, nexo e regime |
+| Obrigatório não vinculante | Sim, salvo hipóteses legais de dispensa | Em regra, não; divergência exige fundamentação e exame de eventual nova consulta | Examinar atuação da autoridade e parecerista, sem solidariedade automática |
+| Vinculante | Nos casos e condições previstos na norma | Sim, no âmbito de eficácia fixado pela norma | Dever, causalidade e imputação concretos; vinculação não substitui prova de responsabilidade |
 
 ## Questões Comentadas (Estilo Cebraspe)
 
@@ -132,7 +143,7 @@ No que concerne ao parecer administrativo facultativo e à responsabilização d
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** No **parecer facultativo**, a consulta é mera faculdade de prudência da autoridade administrativa, não havendo qualquer vinculação obrigatória de seu conteúdo. A decisão final e a responsabilidade jurídica cabem com exclusividade à autoridade que decidiu. Conforme jurisprudência pacificada do STF (MS 24.631/DF) e as diretrizes do art. 28 da LINDB, o parecerista somente pode ser responsabilizado na hipótese excepcional de comprovação inequívoca de dolo ou conluio criminoso/fraudulento com o gestor, jamais de forma automática ou objetiva.
+> **Comentário:** No **parecer facultativo**, a consulta é mera faculdade de prudência da autoridade administrativa, não havendo qualquer vinculação obrigatória de seu conteúdo. A decisão cabe à autoridade, mas a responsabilidade de quem emitiu a opinião exige exame de conduta e pressupostos próprios, como dolo ou erro grosseiro no regime do art. 28 da LINDB. O item está errado pela **solidariedade automática e independente de culpa ou dolo**, não porque o parecerista tenha imunidade absoluta.
 
 ---
 
@@ -146,7 +157,7 @@ Julgue o item subsequente, relativo ao parecer obrigatório nas contratações p
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** Embora a emissão do parecer jurídico constitua controle prévio obrigatório de legalidade exigido pelo art. 53 da Lei nº 14.133/2021 (parecer obrigatório), ele **não tem eficácia vinculante**. A autoridade administrativa pode discordar das conclusões e recomendações apresentadas pela assessoria jurídica, desde que formule decisão autônoma expressamente motivada e justificada nos autos, assumindo a responsabilidade pessoal pelos fundamentos jurídicos de sua divergência.
+> **Comentário:** O art. 53 prevê análise jurídica prévia **como regra**, ressalvadas as dispensas do § 5º. A opinião não é automaticamente vinculante. Divergência exige motivação e, conforme o caso, **nova submissão do ato alterado** à assessoria. O item está errado pela proibição absoluta de divergir.
 
 ---
 
@@ -174,7 +185,7 @@ Julgue o item a seguir, referente aos pareceres vinculantes no âmbito federal.
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** A assertiva reflete exatamente a disciplina conferida pelo art. 40 da Lei Complementar nº 73/1993 (Lei Orgânica da AGU). Quando o Presidente da República aprova expressamente parecer da AGU, o documento adquire eficácia normativa e **força vinculante** em relação a todos os órgãos e entidades da Administração Pública Federal, os quais ficam obrigados a observar rigorosamente os seus entendimentos jurídicos.
+> **Comentário:** A assertiva reflete exatamente a disciplina conferida pelo art. 40 da Lei Complementar nº 73/1993 (Lei Orgânica da AGU). Quando o Presidente aprova **e o parecer é publicado juntamente com o despacho presidencial**, o art. 40, § 1º, da LC 73/1993 estabelece vinculação de toda a Administração Federal. O § 2º diferencia parecer aprovado **não publicado**, que obriga apenas repartições interessadas a partir da ciência.
 
 ---
 

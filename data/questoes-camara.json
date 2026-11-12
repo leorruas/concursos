@@ -32439,6 +32439,1126 @@
       "correctAnswer": "C",
       "explanation": "A conduta integra o art. 5º, inciso V, do Código de Ética.",
       "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-gov-npg-coordenacao-multiplos-atores",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / nova governanca publica",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "npg-coordenacao-multiplos-atores",
+      "mechanism": "reconhecer-lente-colaborativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Definição, contexto e autores"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Definição, contexto e autores"
+      },
+      "statement": "Um serviço público construído com órgãos de diferentes níveis de governo e organizações da sociedade pode ser analisado pela lente da Nova Governança Pública.",
+      "correctAnswer": "C",
+      "explanation": "A NPG enfatiza interdependência, redes e produção articulada de serviços e políticas.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/04 - nova governanca publica.md / Definição, contexto e autores; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-tripla-governanca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "tripla-governanca",
+      "mechanism": "integrar-mecanismos-governanca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Mecanismos: liderança, estratégia e controle"
+      },
+      "statement": "Liderança, estratégia e controle são mecanismos de governança que podem atuar de maneira articulada na direção e no acompanhamento de uma política pública.",
+      "correctAnswer": "C",
+      "explanation": "O referencial de governança trata esses mecanismos como dimensões complementares da capacidade de orientar e monitorar a organização.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Mecanismos: liderança, estratégia e controle; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-patrimonialismo-fusao-publico-privado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolucao da administracao publica",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "patrimonialismo-fusao-publico-privado",
+      "mechanism": "distinguir-patrimonialismo-de-regras",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Patrimonialismo"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Patrimonialismo"
+      },
+      "statement": "Um gestor que usa a estrutura administrativa como extensão de seus interesses pessoais reproduz um traço do patrimonialismo, mesmo quando há regras formais em sua instituição.",
+      "correctAnswer": "C",
+      "explanation": "A confusão entre esferas pública e privada é característica do patrimonialismo; a existência de regras não afasta automaticamente práticas patrimoniais.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md / Patrimonialismo; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-governanca-nao-governabilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "governanca-nao-governabilidade",
+      "mechanism": "trocar-capacidade-politica-por-arranjos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × governabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança × governabilidade"
+      },
+      "statement": "Governança e governabilidade designam exatamente o mesmo fenômeno, de modo que apoio político parlamentar e capacidade de direção institucional são termos intercambiáveis.",
+      "correctAnswer": "E",
+      "explanation": "Governabilidade se relaciona às condições de sustentação política; governança trata dos mecanismos de orientação, avaliação e controle.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Governança × governabilidade; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-rede-ausencia-papeis",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperacao e articulacao interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-ausencia-papeis",
+      "mechanism": "horizontalidade-sem-governanca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Rede, hierarquia, mercado e participação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Rede, hierarquia, mercado e participação"
+      },
+      "statement": "Em uma rede de cooperação, a inexistência de cadeia hierárquica única elimina a necessidade de definir responsabilidades e procedimentos de decisão.",
+      "correctAnswer": "E",
+      "explanation": "Redes demandam coordenação, papéis e mecanismos de prestação de contas, ainda que sejam menos hierárquicas.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md / Rede, hierarquia, mercado e participação; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-parceria-arranjos-diferentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / parcerias com setor privado e terceiro setor",
+      "articleId": "art-d8257e60c3494b91",
+      "conceptId": "parceria-arranjos-diferentes",
+      "mechanism": "comparar-arranjos-de-execucao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d8257e60c3494b91#Modelos de organização: prestação direta, contrato e cooperação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor.md",
+        "section": "Modelos de organização: prestação direta, contrato e cooperação"
+      },
+      "statement": "O desenho de uma política pode envolver prestação direta, contratação de fornecedor ou parceria cooperativa, cada qual com responsabilidades e regimes jurídicos a distinguir.",
+      "correctAnswer": "C",
+      "explanation": "A escolha de instrumento depende da finalidade e da base jurídica, e arranjos diferentes não são equivalentes.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor.md / Modelos de organização: prestação direta, contrato e cooperação; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-consulta-equivalente-decisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "consulta-equivalente-decisao",
+      "mechanism": "transferencia-indevida-de-competencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança e partes interessadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança e partes interessadas"
+      },
+      "statement": "Se um órgão disponibiliza questionário para ouvir usuários, todos os respondentes passam automaticamente a ter competência formal para decidir a política pública.",
+      "correctAnswer": "E",
+      "explanation": "Consulta pode informar a decisão sem transferir competências legalmente estabelecidas.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Governança e partes interessadas; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-consulta-igual-coproducao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / coproducao de servicos publicos e participacao cidada",
+      "articleId": "art-ae41d8c6920f4b57",
+      "conceptId": "consulta-igual-coproducao",
+      "mechanism": "classificar-consulta-como-entrega",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ae41d8c6920f4b57#Participação, consulta, cocriação e coprodução"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md",
+        "section": "Participação, consulta, cocriação e coprodução"
+      },
+      "statement": "Coletar respostas a uma pesquisa de satisfação, sem envolver cidadãos no desenho ou na entrega do serviço, constitui necessariamente coprodução em sentido estrito.",
+      "correctAnswer": "E",
+      "explanation": "Consulta é uma forma de participação, mas não corresponde automaticamente a coprodução do serviço.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md / Participação, consulta, cocriação e coprodução; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-ec19-inclusao-eficiencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolucao da administracao publica",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "ec19-inclusao-eficiencia",
+      "mechanism": "reconhecer-marco-constitucional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Princípio da eficiência e Emenda Constitucional nº 19/1998"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Princípio da eficiência e Emenda Constitucional nº 19/1998"
+      },
+      "statement": "A Emenda Constitucional nº 19/1998 incluiu expressamente a eficiência entre os princípios do caput do art. 37 da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "A reforma constitucional incluiu o princípio da eficiência na redação do caput do art. 37.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md / Princípio da eficiência e Emenda Constitucional nº 19/1998; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-burocracia-nomeacao-familiar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolucao da administracao publica",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "burocracia-nomeacao-familiar",
+      "mechanism": "confundir-pessoalidade-com-impessoalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Burocracia"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Burocracia"
+      },
+      "statement": "Em um modelo burocrático baseado na racionalidade legal, a escolha de servidores segundo parentesco pessoal é o critério típico que substitui a impessoalidade.",
+      "correctAnswer": "E",
+      "explanation": "A burocracia racional-legal se orienta por impessoalidade, regras e critérios definidos, não por parentesco.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md / Burocracia; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-transparencia-suficiente-integridade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "transparencia-suficiente-integridade",
+      "mechanism": "formalismo-dados-e-integridade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Accountability"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Accountability"
+      },
+      "statement": "A mera publicação de dados de despesa assegura automaticamente a integridade da gestão, mesmo que os dados estejam incompreensíveis e sem mecanismos de fiscalização.",
+      "correctAnswer": "E",
+      "explanation": "Transparência formal, sozinha, não comprova integridade nem permite inferir controle social efetivo.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Accountability; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-coproducao-usuarios-atuantes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / coproducao de servicos publicos e participacao cidada",
+      "articleId": "art-ae41d8c6920f4b57",
+      "conceptId": "coproducao-usuarios-atuantes",
+      "mechanism": "distinguir-contribuicao-ativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ae41d8c6920f4b57#Definição, origem e autores"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md",
+        "section": "Definição, origem e autores"
+      },
+      "statement": "Usuários que participam ativamente do desenho ou da realização de serviços, com papéis combinados com agentes públicos, podem integrar processos de coprodução.",
+      "correctAnswer": "C",
+      "explanation": "A coprodução envolve contribuição de cidadãos ou usuários à produção pública, com formatos distintos de participação.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md / Definição, origem e autores; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-dasp-fim-imediato-patrimonialismo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolucao da administracao publica",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "dasp-fim-imediato-patrimonialismo",
+      "mechanism": "inferir-eliminacao-total-de-modelo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#DASP e profissionalização burocrática"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "DASP e profissionalização burocrática"
+      },
+      "statement": "A criação de estruturas de profissionalização burocrática, como o DASP, comprova que práticas patrimoniais desapareceram integralmente da Administração Pública brasileira naquele período.",
+      "correctAnswer": "E",
+      "explanation": "A profissionalização não eliminou integralmente práticas tradicionais; modelos administrativos coexistem historicamente.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md / DASP e profissionalização burocrática; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-valor-publico-mais-que-custo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "valor-publico-mais-que-custo",
+      "mechanism": "expandir-metricas-de-valor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Valor público"
+      },
+      "statement": "Ao avaliar um serviço de orientação legislativa, considerar acesso, confiança e utilidade social complementa a análise de seu custo financeiro e contribui para examinar valor público.",
+      "correctAnswer": "C",
+      "explanation": "Valor público envolve resultados e legitimidade percebidos socialmente, não se resume a corte de gastos.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Valor público; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-planejamento-e-entrega-compartilhados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / coproducao de servicos publicos e participacao cidada",
+      "articleId": "art-ae41d8c6920f4b57",
+      "conceptId": "planejamento-e-entrega-compartilhados",
+      "mechanism": "matriz-planejamento-entrega",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ae41d8c6920f4b57#Bovaird (2007): quem planeja e quem entrega"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md",
+        "section": "Bovaird (2007): quem planeja e quem entrega"
+      },
+      "statement": "Ao analisar coprodução, distinguir quem participa do planejamento de quem participa da entrega ajuda a compreender diferentes graus de colaboração.",
+      "correctAnswer": "C",
+      "explanation": "Os papéis de profissionais e usuários variam no planejamento e na prestação dos serviços.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md / Bovaird (2007): quem planeja e quem entrega; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-eliminar-riscos-com-norma",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "eliminar-riscos-com-norma",
+      "mechanism": "confundir-instrumento-e-resultado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "A edição de uma instrução normativa elimina automaticamente os riscos de execução do serviço, tornando desnecessário monitorar controles e eventos futuros.",
+      "correctAnswer": "E",
+      "explanation": "Controles precisam de implementação e avaliação contínua; uma norma não assegura eficácia automática.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Gestão de riscos e controles internos; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-cadeia-valor-articulacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "cadeia-valor-articulacao",
+      "mechanism": "distinguir-cadeia-de-causalidade-comprovada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação"
+      },
+      "statement": "Um projeto que liga recursos utilizados, atividades realizadas, entregas e resultados esperados permite explicitar hipóteses de criação de valor público a serem verificadas.",
+      "correctAnswer": "C",
+      "explanation": "A cadeia de valor torna explícita a lógica entre insumos, produtos e efeitos, sem garantir causalidade por si só.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-npg-confianca-institucional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / nova governanca publica",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "npg-confianca-institucional",
+      "mechanism": "conciliar-confianca-e-regras",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Elementos e condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Elementos e condições"
+      },
+      "statement": "Em uma parceria continuada, confiança e regras de coordenação podem ser complementares para que atores interdependentes produzam entregas públicas.",
+      "correctAnswer": "C",
+      "explanation": "A colaboração exige mecanismos de governança e relações de confiança, entre outros fatores.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/04 - nova governanca publica.md / Elementos e condições; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-governanca-dirigir-avaliar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "governanca-dirigir-avaliar",
+      "mechanism": "distinguir-direcao-e-execucao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × gestão"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança × gestão"
+      },
+      "statement": "A governança institucional orienta e avalia decisões relevantes, enquanto a gestão organiza a execução cotidiana, embora existam pontos de interação entre as duas.",
+      "correctAnswer": "C",
+      "explanation": "Governança e gestão têm finalidades distintas e coordenadas; não constituem compartimentos estanques.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Governança × gestão; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-popularidade-isolada-valor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "popularidade-isolada-valor",
+      "mechanism": "excluir-vertices-do-triangulo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      },
+      "statement": "No triângulo estratégico de valor público, uma medida popular dispensa verificar legitimidade, apoio e capacidade operacional, pois a aprovação dos usuários basta para assegurar seu valor.",
+      "correctAnswer": "E",
+      "explanation": "A avaliação relaciona valor substantivo, legitimidade/sustentação e capacidade operacional, sem se apoiar só em popularidade.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Valor público: triângulo estratégico de Mark Moore (CAM-AP-010); conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-anonimizacao-sinonimo-codigo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / transparencia acesso a informacao e protecao de dados",
+      "articleId": "art-2ca37017208841b8",
+      "conceptId": "anonimizacao-sinonimo-codigo",
+      "mechanism": "anonimizacao-aparente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2ca37017208841b8#Dado anonimizado × pseudonimizado"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md",
+        "section": "Dado anonimizado × pseudonimizado"
+      },
+      "statement": "Qualquer base com nomes substituídos por números é necessariamente anonimizada para a LGPD, mesmo que a identidade possa ser restabelecida por meios razoáveis.",
+      "correctAnswer": "E",
+      "explanation": "A anonimização requer impossibilidade de identificação pelos meios razoáveis disponíveis; mera troca de nomes por códigos pode permitir reidentificação.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md / Dado anonimizado × pseudonimizado; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-entrega-prova-impacto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "entrega-prova-impacto",
+      "mechanism": "confundir-produto-com-efeito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação"
+      },
+      "statement": "Registrar que cem relatórios foram publicados prova, por si só, que a transparência melhorou a capacidade da população de compreender e fiscalizar os dados.",
+      "correctAnswer": "E",
+      "explanation": "Contagem de entregas não comprova mudança de compreensão ou capacidade de fiscalização; são níveis de resultado distintos.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-registro-formal-rastreabilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolucao da administracao publica",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "registro-formal-rastreabilidade",
+      "mechanism": "identificar-funcao-dos-registros",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Burocracia"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Burocracia"
+      },
+      "statement": "Uma unidade registra decisões e procedimentos por escrito para permitir verificação posterior. Esse mecanismo é compatível com a formalização característica da administração burocrática.",
+      "correctAnswer": "C",
+      "explanation": "Regras e registros documentais dão rastreabilidade e previsibilidade às decisões na organização burocrática.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md / Burocracia; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-transparencia-ativa-antes-pedido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / transparencia acesso a informacao e protecao de dados",
+      "articleId": "art-2ca37017208841b8",
+      "conceptId": "transparencia-ativa-antes-pedido",
+      "mechanism": "distinguir-ativa-de-passiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2ca37017208841b8#Transparência ativa × passiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md",
+        "section": "Transparência ativa × passiva"
+      },
+      "statement": "Publicar espontaneamente informações de interesse coletivo, independentemente de solicitação, caracteriza transparência ativa no âmbito da Lei de Acesso à Informação.",
+      "correctAnswer": "C",
+      "explanation": "O art. 8º da Lei nº 12.527/2011 prevê divulgação sem requerimento de informações de interesse coletivo ou geral.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md / Transparência ativa × passiva; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-modelos-hibridos-pratica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolucao da administracao publica",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "modelos-hibridos-pratica",
+      "mechanism": "evitar-periodizacao-rigida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Modelos coexistem"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Modelos coexistem"
+      },
+      "statement": "Uma instituição pode utilizar procedimentos burocráticos de controle e contratos de resultados da gestão gerencial ao mesmo tempo, sem se enquadrar exclusivamente em um modelo.",
+      "correctAnswer": "C",
+      "explanation": "As reformas administrativas não eliminam de forma completa os arranjos anteriores; modelos podem coexistir.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md / Modelos coexistem; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-rede-homogeneidade-interesses",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperacao e articulacao interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-homogeneidade-interesses",
+      "mechanism": "pressupor-homogeneidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Componentes, governança e riscos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Componentes, governança e riscos"
+      },
+      "statement": "A formalização de uma rede interinstitucional garante que todos os participantes tenham interesses idênticos e que deixem de existir conflitos ao longo da execução.",
+      "correctAnswer": "E",
+      "explanation": "A cooperação não elimina assimetrias, tensões e interesses distintos; requer mecanismos de gestão de conflitos.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md / Componentes, governança e riscos; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-monitoramento-risco-continuo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "monitoramento-risco-continuo",
+      "mechanism": "avaliacao-iterativa-de-riscos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Após implementar um controle para reduzir falhas em um sistema, reavaliar a probabilidade e o impacto dos riscos é parte coerente da gestão de riscos.",
+      "correctAnswer": "C",
+      "explanation": "Riscos podem mudar com processos, ambientes e respostas adotadas, exigindo monitoramento.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Gestão de riscos e controles internos; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-exclusao-digital-coproducao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / coproducao de servicos publicos e participacao cidada",
+      "articleId": "art-ae41d8c6920f4b57",
+      "conceptId": "exclusao-digital-coproducao",
+      "mechanism": "barreira-de-acesso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ae41d8c6920f4b57#Elementos, condições e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md",
+        "section": "Elementos, condições e limites"
+      },
+      "statement": "Em uma iniciativa de coprodução por aplicativo, barreiras de acesso digital são irrelevantes para avaliar inclusão, pois todos os cidadãos têm condições equivalentes de participar.",
+      "correctAnswer": "E",
+      "explanation": "Diferentes barreiras de acesso podem excluir grupos e comprometer a representatividade da colaboração.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md / Elementos, condições e limites; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-lgpd-proibe-todos-nomes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / transparencia acesso a informacao e protecao de dados",
+      "articleId": "art-2ca37017208841b8",
+      "conceptId": "lgpd-proibe-todos-nomes",
+      "mechanism": "confundir-protecao-com-sigilo-total",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2ca37017208841b8#Transparência, prestação de contas e participação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md",
+        "section": "Transparência, prestação de contas e participação"
+      },
+      "statement": "A existência de nome de pessoa em documento público proíbe automaticamente sua divulgação, porque a LGPD prevalece de forma absoluta sobre qualquer regra de transparência estatal.",
+      "correctAnswer": "E",
+      "explanation": "O tratamento e a divulgação dependem de bases jurídicas, finalidade e limites legais; LAI e LGPD exigem interpretação articulada.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md / Transparência, prestação de contas e participação; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-parceria-transfere-responsabilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / parcerias com setor privado e terceiro setor",
+      "articleId": "art-d8257e60c3494b91",
+      "conceptId": "parceria-transfere-responsabilidade",
+      "mechanism": "terceirizar-dever-de-controle",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d8257e60c3494b91#Condições, controles e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor.md",
+        "section": "Condições, controles e responsabilidade"
+      },
+      "statement": "Ao contratar parceiro privado para executar uma atividade, o órgão público deixa de responder pela fiscalização e pelo acompanhamento daquilo que lhe compete legalmente.",
+      "correctAnswer": "E",
+      "explanation": "A cooperação ou contratação não elimina deveres públicos de supervisão e responsabilidade definidos no regime aplicável.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor.md / Condições, controles e responsabilidade; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-accountability-prestacao-justificativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "accountability-prestacao-justificativa",
+      "mechanism": "diferenciar-transparencia-de-responsabilizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Accountability"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Accountability"
+      },
+      "statement": "A apresentação de informações acompanhada de justificativas e mecanismos de responsabilização é mais próxima da accountability do que a simples publicação de relatórios sem possibilidade de controle.",
+      "correctAnswer": "C",
+      "explanation": "Accountability inclui prestação de contas, explicação e consequências, conforme arranjos institucionais.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Accountability; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-gerencial-livre-de-direito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolucao da administracao publica",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "gerencial-livre-de-direito",
+      "mechanism": "trocar-indicadores-por-legalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Administração gerencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Administração gerencial"
+      },
+      "statement": "Um órgão que decide adotar gestão por resultados pode deixar de observar normas de contratação pública, desde que apresente indicadores de desempenho elevados.",
+      "correctAnswer": "E",
+      "explanation": "Resultados administrativos não autorizam descumprimento do regime jurídico aplicável.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md / Administração gerencial; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-pseudonimo-reidentificacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / transparencia acesso a informacao e protecao de dados",
+      "articleId": "art-2ca37017208841b8",
+      "conceptId": "pseudonimo-reidentificacao",
+      "mechanism": "distinguir-chaves-e-anonimizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2ca37017208841b8#Dado anonimizado × pseudonimizado"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md",
+        "section": "Dado anonimizado × pseudonimizado"
+      },
+      "statement": "Uma base em que identificadores diretos foram substituídos por códigos, mas ainda existe chave de correspondência em ambiente controlado, pode estar pseudonimizada e continuar sujeita à proteção de dados pessoais.",
+      "correctAnswer": "C",
+      "explanation": "Se a associação à pessoa é recuperável com informação adicional, a pseudonimização não equivale à anonimização efetiva.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados.md / Dado anonimizado × pseudonimizado; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-npg-extincao-hierarquia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / nova governanca publica",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "npg-extincao-hierarquia",
+      "mechanism": "exclusividade-de-redes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Três lentes que podem coexistir"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Três lentes que podem coexistir"
+      },
+      "statement": "A Nova Governança Pública exige extinguir completamente autoridade hierárquica e contratos, pois redes colaborativas são incompatíveis com qualquer outra forma de coordenação.",
+      "correctAnswer": "E",
+      "explanation": "Hierarquia, mercado e redes podem coexistir como formas de coordenação; a NPG não implica extinção das demais.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/04 - nova governanca publica.md / Três lentes que podem coexistir; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-gestao-simples-transmissao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "gestao-simples-transmissao",
+      "mechanism": "exclusividade-do-monitoramento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × gestão"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança × gestão"
+      },
+      "statement": "Em uma organização pública, a gestão se limita a executar ordens sem monitorar resultados, enquanto qualquer atividade de acompanhamento pertence exclusivamente à governança.",
+      "correctAnswer": "E",
+      "explanation": "A gestão também planeja, executa e monitora operações; governança orienta e supervisiona em nível institucional.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Governança × gestão; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-gerencial-resultados-cidadao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolucao da administracao publica",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "gerencial-resultados-cidadao",
+      "mechanism": "relacionar-resultados-a-controles",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Administração gerencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Administração gerencial"
+      },
+      "statement": "A gestão gerencial amplia a atenção a resultados e qualidade dos serviços, além da conformidade dos procedimentos, sem dispensar as regras legais.",
+      "correctAnswer": "C",
+      "explanation": "A orientação por desempenho é uma marca do gerencialismo, mas não elimina legalidade e prestação de contas.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md / Administração gerencial; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-mapear-stakeholders-valor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governanca publica",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "mapear-stakeholders-valor",
+      "mechanism": "identificar-partes-interessadas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança e partes interessadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança e partes interessadas"
+      },
+      "statement": "Mapear servidores, usuários, entidades parceiras e grupos menos atendidos pode ajudar a identificar interesses e barreiras relevantes para a governança de um serviço.",
+      "correctAnswer": "C",
+      "explanation": "O mapeamento de partes interessadas auxilia decisões e tratamento de tensões e necessidades.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/02 - governanca publica.md / Governança e partes interessadas; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-burocracia-sempre-ineficiente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolucao da administracao publica",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "burocracia-sempre-ineficiente",
+      "mechanism": "absolutizar-critica-ao-formalismo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Administração Pública burocrática × gerencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Administração Pública burocrática × gerencial"
+      },
+      "statement": "O modelo burocrático deve ser classificado como inteiramente incompatível com o interesse público, pois controles legais não podem contribuir para segurança e impessoalidade.",
+      "correctAnswer": "E",
+      "explanation": "Controles burocráticos podem proteger a impessoalidade e a legalidade, embora haja riscos de excesso de formalismo.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md / Administração Pública burocrática × gerencial; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-corte-gastos-como-unica-meta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolucao da administracao publica",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "corte-gastos-como-unica-meta",
+      "mechanism": "confundir-economia-com-eficiencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Administração gerencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Administração gerencial"
+      },
+      "statement": "Na administração gerencial, eficiência equivale exclusivamente à redução do orçamento, independentemente da qualidade e dos efeitos do serviço entregue.",
+      "correctAnswer": "E",
+      "explanation": "Avaliar eficiência requer considerar recursos e resultados; redução de despesas isolada não demonstra bom desempenho.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md / Administração gerencial; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
+    },
+    {
+      "id": "cam-gov-redes-custo-coordenacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperacao e articulacao interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "redes-custo-coordenacao",
+      "mechanism": "custos-de-articulacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Componentes, governança e riscos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Componentes, governança e riscos"
+      },
+      "statement": "A necessidade de alinhar objetivos e compartilhar informações entre vários órgãos pode elevar custos de coordenação em uma rede de cooperação.",
+      "correctAnswer": "C",
+      "explanation": "Interdependência entre organizações cria custos e riscos de negociação, alinhamento e acompanhamento.",
+      "reviewEvidence": "Lote 023: conceito, gabarito e mecanismo cotejados no artigo 3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md / Componentes, governança e riscos; conceitos legais de LAI e LGPD conferidos com normas atualizadas oficiais quando aplicável. Testes de integridade e similaridade antes da integração."
     }
   ]
 }

@@ -18,7 +18,7 @@ A **formação histórica do Estado brasileiro** é o processo de constituição
 
 **Três perguntas não equivalentes:** como se organizou o **poder territorial**? Quem teve **direitos de cidadania e participação efetiva**? Quais grupos conseguiram **influenciar e implementar decisões**? A Constituição pode mudar o regime sem transformar de imediato relações econômicas, práticas políticas e formas de exclusão.
 
-A [[3 - Materias/Estado e Democracia/14 - teorias de formacao dos estados nacionais|nota 14, CAM-CP-005]] trata das teorias gerais sobre Estados nacionais, especialmente as experiências europeias. A [[3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito|nota 13]] estuda sociedade civil, autonomia e capacidade. Esta unidade **CAM-CP-006** focaliza a **sequência histórica brasileira e suas interpretações**, preparando o próximo tema **CAM-CP-007**, regimes democráticos, autoritários e híbridos. A [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|nota 03]] aprofunda as competências federativas atuais, sem substituir a história da formação da federação.
+A [[3 - Materias/Estado e Democracia/14 - teorias de formacao dos estados nacionais|Teorias de formação dos Estados nacionais]] trata das teorias gerais sobre Estados nacionais, especialmente as experiências europeias. A [[3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito|Estado e sociedade: origem, funções e conflito]] estuda sociedade civil, autonomia e capacidade. Esta unidade **[[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|Formação histórica do Estado brasileiro]]** focaliza a **sequência histórica brasileira e suas interpretações**, preparando o próximo tema **[[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|Regimes políticos: democracia, autoritarismo e hibridismos]]**, regimes democráticos, autoritários e híbridos. A [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|Federalismo e capacidades estatais]] aprofunda as competências federativas atuais, sem substituir a história da formação da federação.
 
 ## Quatro eixos que atravessam os períodos
 
@@ -49,7 +49,7 @@ Em *Formação do Brasil Contemporâneo* (1942), **Caio Prado Júnior** propõe 
 
 **Sentido da colonização ≠ afirmação de que não havia mercado interno, pequenas atividades ou economias regionais.** O autor formula orientação estruturante do processo, não nega toda diversidade da vida colonial. A unidade que a economia colonial procurava atender é **parte importante da explicação**, mas não implica que todas as relações sociais fossem idênticas.
 
-**Caio Prado Júnior × teoria do contrato social:** o primeiro formula interpretação histórico-econômica de colonização efetiva; os segundos tratam, em boa medida, de fundamentos normativos da autoridade. A [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|nota 12]] detalha Hobbes, Locke e Rousseau.
+**Caio Prado Júnior × teoria do contrato social:** o primeiro formula interpretação histórico-econômica de colonização efetiva; os segundos tratam, em boa medida, de fundamentos normativos da autoridade. A [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|Teoria política: correntes e perguntas centrais]] detalha Hobbes, Locke e Rousseau.
 
 ### Raymundo Faoro: patrimonialismo e estamento burocrático
 
@@ -179,7 +179,7 @@ Em *Cidadania e justiça* (1979), **Wanderley Guilherme dos Santos** caracteriza
 
 **Partidos e disputas:** organizações como **PSD, PTB e UDN** marcaram a competição política, em meio a conflitos distributivos, mobilização trabalhista, influência regional e projetos de desenvolvimento. **Sistema partidário plural não significa ausência de exclusões políticas**.
 
-**Desenvolvimentismo e industrialização:** políticas de infraestrutura, energia e indústria ampliaram participação do Estado na transformação produtiva. A criação da Petrobras (**1953**) e o Plano de Metas durante o governo Juscelino Kubitschek (**1956–1961**) são referências de diferentes arranjos de coordenação e investimento. **Industrialização não comprova, isoladamente, igualdade social ou consolidação institucional democrática**. A [[3 - Materias/Estado e Democracia/09 - estado regulacao e modelos de desenvolvimento|nota 09]] aprofunda modelos de atuação econômica.
+**Desenvolvimentismo e industrialização:** políticas de infraestrutura, energia e indústria ampliaram participação do Estado na transformação produtiva. A criação da Petrobras (**1953**) e o Plano de Metas durante o governo Juscelino Kubitschek (**1956–1961**) são referências de diferentes arranjos de coordenação e investimento. **Industrialização não comprova, isoladamente, igualdade social ou consolidação institucional democrática**. A [[3 - Materias/Estado e Democracia/09 - estado regulacao e modelos de desenvolvimento|Estado, regulação e modelos de desenvolvimento]] aprofunda modelos de atuação econômica.
 
 **Crise política:** tensões entre projetos de reformas, grupos empresariais, organizações trabalhistas, militares e partidos intensificaram-se no início dos anos 1960. Explicar a ruptura institucional exige reconhecer **atores, disputas, escolhas e condições**, sem tratar o golpe como resultado inevitável de uma suposta incapacidade natural da democracia.
 
@@ -207,7 +207,7 @@ Em *Cidadania e justiça* (1979), **Wanderley Guilherme dos Santos** caracteriza
 
 **Sufrágio e cidadania:** direitos políticos ampliaram-se; pessoas **analfabetas** passaram a ter voto facultativo, enquanto **16 e 17 anos** também possuem alistamento e voto facultativos; a regra constitucional do art. 14 mantém **inalistáveis os estrangeiros e, durante serviço militar obrigatório, os conscritos**, observadas as disposições vigentes. **Não confundir sufrágio universal constitucional com ausência de qualquer regra de elegibilidade, alistamento ou exercício.**
 
-**Federalismo cooperativo × capacidade de implementação:** reconhecer competências compartilhadas e autonomia municipal não garante recursos, pessoal e coordenação iguais em todos os territórios. A [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|nota 03]] detalha competências e mecanismos de cooperação.
+**Federalismo cooperativo × capacidade de implementação:** reconhecer competências compartilhadas e autonomia municipal não garante recursos, pessoal e coordenação iguais em todos os territórios. A [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|Federalismo e capacidades estatais]] detalha competências e mecanismos de cooperação.
 
 **Direitos sociais × efetividade:** a consagração de saúde, educação, assistência e outros direitos não comprova que todos os cidadãos tenham acesso de qualidade idêntica. A Ciência Política pergunta pelas instituições, coalizões, capacidade fiscal, participação e conflitos que condicionam a execução.
 

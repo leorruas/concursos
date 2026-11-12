@@ -52,12 +52,12 @@ graph TD
   - Adjetivos curtos (1 ou 2 sílabas com *-y*): acréscimo de *-er than* (*faster, stricter, simpler, narrower*).
   - Adjetivos longos (2 ou mais sílabas): *more + adjetivo + than* (*more comprehensive than, more transparent than*).
 - **Superlativo Relativo:**
-  - Identifica o ponto culminante dentro de um grupo delimitado (*the strictest protocol*, *the most rigorous audit*). Exige obrigatoriamente a presença do artigo definido *the* (ou pronome possessivo equivalente).
+  - Identifica o ponto culminante dentro de um grupo delimitado (*the strictest protocol*, *the most rigorous audit*). Em uso comum, aparece com *the* ou outro determinante adequado (*the most rigorous*, *our most rigorous*), mas superlativos predicativos e usos idiomáticos admitem variação (*She is happiest when working*).
   - O Cebraspe testa se a afirmação de que algo é o *mais rigoroso de um grupo delimitado* autoriza inferir que ele é o *mais rigoroso do mundo inteiro*, o que constitui extrapolação indevida de escopo.
 
 ### 1.2. A Estrutura Proporcional Dupla: *The + Comparativo..., The + Comparativo...*
 
-Essa estrutura correlativa expressa uma relação de dependência funcional de causa e efeito recíprocos entre duas variáveis (*quanto mais..., mais...* ou *quanto mais..., menos...*):
+Essa estrutura correlativa expressa uma relação de variação conjunta entre duas grandezas, frequentemente compatível com leitura causal em contexto, mas sem provar por si só mecanismo causal (*quanto mais..., mais...* ou *quanto mais..., menos...*):
 
 $$\text{The [mais/menos A]..., the [mais/menos B]...}$$
 
@@ -151,13 +151,13 @@ Operadores adverbiais e prepositivos delimitam estritamente o universo de aplica
 
 *Text segment: "The more transparent the committee deliberations are, the less vulnerable the legislative process is to undue corporate lobbying."*
 
-**Item:** The sentence suggests that an increase in the transparency of committee deliberations directly results in a decrease in the vulnerability of the legislative process to undue lobbying.
+**Item:** The sentence proves that an increase in transparency is the sole and invariably sufficient cause of a decrease in vulnerability to undue corporate lobbying.
 
 - ( ) Certo
 - ( ) Errado
 
 **Gabarito: Errado**  
-**Comentário:** *The more ..., the less ...* expressa covariação ou associação proporcional entre transparência e vulnerabilidade. A estrutura **não prova, por si só, causalidade direta**. O item acrescenta *directly results in*, convertendo uma relação formulada no enunciado em causa demonstrada. Sem evidência adicional, essa inferência é excessiva.
+**Comentário:** *The more ..., the less ...* expressa covariação ou associação proporcional entre transparência e vulnerabilidade. A estrutura **não prova, por si só, causalidade direta**. O item acrescenta *proves*, *sole* e *invariably sufficient cause*, atribuindo evidência empírica, exclusividade e suficiência causal que a construção não fornece. Sem evidência adicional, essa inferência é excessiva.
 
 ---
 

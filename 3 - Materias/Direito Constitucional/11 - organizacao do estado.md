@@ -5,43 +5,43 @@ title: "Organização do Estado"
 type: "conceito"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-12
 ---
 
 # Organização do Estado
 
-A organização do Estado, na Constituição de 1988, combina **forma federativa**, **autonomia dos entes** e **repartição constitucional de competências**. Para prova, o núcleo não é decorar uma lista enorme de atribuições, mas reconhecer qual ente pode agir e distinguir competência administrativa de competência legislativa.
+Imagine que uma cidade precise melhorar o transporte coletivo, que um Estado queira criar uma regra ambiental e que a União precise manter relações diplomáticas com outro país. Quem pode decidir cada assunto? A **Constituição Federal de 1988 (CF)** distribui responsabilidades entre União, Estados, Distrito Federal e Municípios. Essa divisão é chamada **repartição de competências**. Para resolver uma questão, primeiro identifique se o caso trata de **executar uma atividade** ou de **criar uma lei**; depois, descubra a quem a Constituição atribuiu essa tarefa.
 
 ## Núcleo do conceito
 
-A República Federativa do Brasil é formada pela união indissolúvel dos Estados, Municípios e Distrito Federal. A organização político-administrativa compreende **União, Estados, Distrito Federal e Municípios**, todos autônomos nos termos da Constituição.
+A **federação** é uma forma de organizar o país em entes políticos com responsabilidades próprias, definidas pela Constituição. O art. 1º descreve a República Federativa do Brasil como união indissolúvel dos Estados, Municípios e Distrito Federal. Já o art. 18 lista os quatro integrantes da organização político-administrativa: **União, Estados, Distrito Federal e Municípios**. A União também é um ente federativo, embora o art. 1º não a mencione nessa fórmula.
 
-**Soberania ≠ autonomia.** A soberania pertence à República Federativa do Brasil. União, Estados, Distrito Federal e Municípios possuem autonomia, expressa em capacidades de auto-organização, autogoverno, autoadministração e autolegislação dentro das competências constitucionais.
+**Soberania** é o poder do Estado brasileiro de atuar como Estado independente, inclusive nas relações internacionais. **Autonomia** é a capacidade de cada ente federativo organizar seu governo, administrar serviços e editar normas nos limites da Constituição. Por exemplo, um Município pode organizar o transporte coletivo local, mas não pode firmar relações diplomáticas em nome do Brasil. Essa diferença explica por que **a União é autônoma como ente federativo, enquanto a República Federativa do Brasil é soberana**.
 
 Os **Territórios Federais não são entes federativos autônomos**: integram a União.
 
 ## Repartição de competências
 
-A Constituição usa técnicas diferentes de distribuição. A banca costuma deslocar uma competência verdadeira para o artigo ou ente errado.
+**Competência** é a responsabilidade ou autorização que a Constituição atribui a um órgão ou ente. Uma **competência administrativa (material)** permite agir, prestar serviço ou fiscalizar. Uma **competência legislativa** permite criar normas. Uma mesma área, como saúde, pode exigir tanto serviços públicos quanto leis; por isso, é preciso verificar o tipo de ação mencionado no enunciado.
 
 ### União: arts. 21 e 22
 
-O **art. 21** reúne competências predominantemente **materiais/administrativas** da União, como manter relações com Estados estrangeiros e explorar determinados serviços de competência federal.
+O **art. 21 da CF** trata de tarefas da União, como manter relações com Estados estrangeiros e explorar serviços que a Constituição lhe atribui. Aqui a pergunta é **quem executa ou responde pela atividade**, e não simplesmente quem vota uma lei sobre ela.
 
-O **art. 22** reúne competências **legislativas privativas** da União. Lei complementar federal pode autorizar os Estados a legislar sobre **questões específicas** dessas matérias.
+O **art. 22 da CF** indica assuntos sobre os quais, como regra, a União legisla, como direito civil e direito penal. Seu parágrafo único admite que uma **lei complementar federal** autorize os Estados a legislar sobre **questões específicas** dessas matérias. Lei complementar é uma espécie de lei aprovada pelo procedimento e quórum constitucional próprios; aqui, ela funciona como instrumento da autorização, não como uma autorização automática.
 
 > [!WARNING]
 > **Exclusiva × privativa:** em linguagem de prova, a competência do art. 21 é tradicionalmente chamada exclusiva e a do art. 22, privativa. A possibilidade de autorização por lei complementar aos Estados está expressamente prevista para o art. 22.
 
 ### Competência comum: art. 23
 
-É competência **material/administrativa compartilhada** entre União, Estados, Distrito Federal e Municípios. Exemplos constitucionais incluem cuidar da saúde, proteger o meio ambiente e conservar o patrimônio público.
+O **art. 23 da CF** atribui tarefas administrativas a **União, Estados, Distrito Federal e Municípios**. Todos podem atuar, dentro de suas responsabilidades, em temas como saúde, proteção ambiental e conservação do patrimônio público. Por exemplo, uma ação de proteção ambiental pode envolver fiscalização de mais de um ente. Isso não significa que cada ente possa criar qualquer lei sobre o assunto.
 
 **Comum não significa concorrente.** A primeira responde principalmente a **quem pode atuar administrativamente**; a segunda, a **quem pode legislar**.
 
 ### Competência legislativa concorrente: art. 24
 
-Participam expressamente **União, Estados e Distrito Federal**.
+O **art. 24 da CF** trata da produção de leis sobre assuntos compartilhados, como proteção ambiental e educação. Participam expressamente **União, Estados e Distrito Federal**. Em regra, a União estabelece **normas gerais**, que fixam diretrizes comuns; os Estados e o Distrito Federal podem **suplementá-las**, detalhando a disciplina no espaço permitido pela Constituição.
 
 A lógica constitucional é:
 
@@ -52,7 +52,7 @@ Ausência de norma geral federal → Estados exercem competência legislativa pl
 Superveniência de norma geral federal → suspende a eficácia da lei estadual no que lhe for contrário
 ```
 
-A superveniência da lei federal **não revoga integralmente** a lei estadual: suspende sua eficácia apenas no ponto de conflito.
+**Superveniência** significa que uma norma apareceu depois. **Suspender a eficácia** significa impedir que a regra estadual contrária produza efeitos enquanto houver o conflito previsto no art. 24, § 4º. Exemplo: na ausência de norma geral federal, um Estado disciplina uma matéria concorrente; se depois surgir norma geral federal incompatível com parte dessa disciplina, a parte estadual conflitante deixa de produzir efeitos. A Constituição **não determina a revogação integral** da lei estadual.
 
 ### Estados: competência remanescente
 
@@ -70,7 +70,7 @@ Municípios não aparecem no rol do art. 24, mas podem exercer competência legi
 
 ### Distrito Federal: acumulação de competências
 
-O Distrito Federal **não pode ser dividido em Municípios** e recebe as competências legislativas reservadas aos **Estados e aos Municípios**, ressalvadas as competências específicas atribuídas constitucionalmente à União.
+O **Distrito Federal (DF)** reúne, em regra, competências legislativas estaduais e municipais (art. 32, § 1º, da CF) e **não pode ser dividido em Municípios**. Isso não elimina competências que a Constituição reserva à União, inclusive em relação à organização de determinadas instituições do Distrito Federal.
 
 > [!TIP]
 > Para prova: **DF = dimensão estadual + municipal**, sem municípios dentro dele.
@@ -85,7 +85,7 @@ Para **Municípios**, criação, incorporação, fusão e desmembramento depende
 
 ## Intervenção: autonomia com exceção constitucional
 
-A intervenção é medida excepcional que restringe temporariamente a autonomia de um ente nas hipóteses taxativamente previstas na Constituição.
+**Intervenção** é uma medida excepcional pela qual um ente federativo atua temporariamente sobre outro nas situações previstas na Constituição, restringindo sua autonomia. Por exemplo, a Constituição prevê intervenção para assegurar determinados princípios constitucionais, mas a autoridade não pode intervir apenas porque discorda de uma decisão política local. **Hipóteses taxativas** significa que os motivos são definidos pela Constituição, não escolhidos livremente pela autoridade.
 
 - **União** pode intervir nos Estados e no Distrito Federal nas hipóteses do art. 34.
 - **Estado** pode intervir em seus Municípios nas hipóteses do art. 35.
@@ -95,7 +95,7 @@ O procedimento pode variar conforme a hipótese: há casos de intervenção espo
 
 ## Como a banca cobra
 
-A FGV costuma construir alternativas com uma afirmação verdadeira deslocada de categoria. São recorrentes:
+Em itens de **Certo ou Errado (C/E)**, como os adotados pela banca Cebraspe neste concurso, é importante conferir se o enunciado trocou o ente competente ou confundiu agir administrativamente com legislar. Armadilhas possíveis:
 
 - chamar União de ente soberano e os demais de subordinados;
 - atribuir competência residual à União em vez dos Estados;
@@ -107,7 +107,7 @@ A FGV costuma construir alternativas com uma afirmação verdadeira deslocada de
 - deslocar competência de interesse local do Município para Estado ou União;
 - generalizar um único rito de intervenção para todas as hipóteses.
 
-Questões recentes da FGV continuam explorando competências municipais e intervenção dentro do bloco de Organização do Estado.
+O critério de resolução é identificar o verbo da situação: **prestar, fiscalizar ou executar** sugere competência administrativa; **legislar ou editar norma** exige verificar a competência legislativa. Essa é uma orientação didática, não uma regra que substitui a leitura do dispositivo constitucional.
 
 ## Relações com outros temas
 
@@ -128,7 +128,7 @@ Questões recentes da FGV continuam explorando competências municipais e interv
 
 **“Compete concorrentemente à União, aos Estados, ao Distrito Federal e aos Municípios legislar sobre as matérias do art. 24.”** Errado. Municípios não estão no rol expresso do art. 24; possuem competência própria de interesse local e suplementar pelo art. 30.
 
-**“Na ausência de norma geral federal sobre matéria concorrente, o Estado pode exercer competência legislativa plena.”** Correto. Se depois surgir norma geral federal incompatível, fica suspensa a eficácia estadual no ponto de conflito.
+**“Na ausência de norma geral federal sobre matéria concorrente, o Estado pode exercer competência legislativa plena.”** Certo. Se depois surgir norma geral federal incompatível, fica suspensa a eficácia estadual no ponto de conflito.
 
 **“A União pode intervir em qualquer Município brasileiro nas hipóteses constitucionais.”** Errado. Em Município integrante de Estado, a intervenção é estadual; a Constituição prevê intervenção federal em Município localizado em Território Federal.
 
@@ -143,5 +143,4 @@ Questões recentes da FGV continuam explorando competências municipais e interv
 
 ## Fontes
 
-- Constituição da República Federativa do Brasil de 1988, especialmente arts. 1º, 18 a 36.
-- Provas recentes da FGV sobre competências municipais e intervenção foram usadas apenas para calibrar mecanismos de cobrança; a regra jurídica permanece ancorada na Constituição.
+- [Constituição da República Federativa do Brasil de 1988, texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), especialmente arts. 1º, 18, 21 a 24, 25, 30, 32, 34 e 35. Os exemplos do artigo são explicações didáticas, não transcrições da Constituição.

@@ -65,4 +65,4 @@ Três itens revisados e reformulados após o cotejo de mecanismos. O par sobre r
 
 ## Lote 012 em elaboração
 
-Cinco questões de comunicação organizacional sobre dimensões, integração, fluxos, redes e públicos. Ampliar com planejamento, indicadores e gestão de projetos.
+Treze questões de comunicação organizacional sobre dimensões, integração, fluxos, redes, públicos, planejamento, indicadores e gestão de projetos. Completar o lote com casos que integrem esses recortes.

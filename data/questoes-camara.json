@@ -19007,6 +19007,222 @@
       "statement": "Um grupo com pouco poder de decisão pode merecer atenção no planejamento de comunicação se for diretamente afetado por uma mudança no serviço.",
       "correctAnswer": "C",
       "explanation": "Poder e exposição ao efeito da mudança são dimensões distintas. A baixa capacidade de influenciar a decisão não elimina a necessidade de acesso à informação."
+    },
+    {
+      "id": "cam-cs-sintoma-com-hipoteses-concorrentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / planejamento",
+      "articleId": "art-80ac39e176d5b24f",
+      "conceptId": "sintoma-com-hipoteses-concorrentes",
+      "mechanism": "sintoma-com-hipoteses-concorrentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-80ac39e176d5b24f#Um sintoma não é um diagnóstico"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional.md",
+        "section": "Um sintoma não é um diagnóstico"
+      },
+      "statement": "Se poucas pessoas consultam um boletim, verificar se elas conhecem sua existência e se conseguem encontrá-lo ajuda a distinguir falta de divulgação de dificuldade de acesso.",
+      "correctAnswer": "C",
+      "explanation": "O baixo uso é o sintoma. Conhecimento e encontrabilidade permitem investigar explicações que pedem intervenções diferentes."
+    },
+    {
+      "id": "cam-cs-meta-com-unidade-e-prazo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / indicadores",
+      "articleId": "art-6bd29c1e87f043a5",
+      "conceptId": "meta-com-unidade-e-prazo",
+      "mechanism": "meta-com-unidade-e-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6bd29c1e87f043a5#Primeira fronteira: objetivo, meta, indicador, métrica e evidência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md",
+        "section": "Primeira fronteira: objetivo, meta, indicador, métrica e evidência"
+      },
+      "statement": "A frase “percentual de pessoas que localizam a ata” fixa uma meta completa, ainda que não informe qual percentual se pretende atingir nem até quando.",
+      "correctAnswer": "E",
+      "explanation": "A frase define o indicador. Uma meta acrescenta o patamar desejado e o prazo de referência."
+    },
+    {
+      "id": "cam-cs-compreensao-medida-sem-uso-posterior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / avaliação",
+      "articleId": "art-6bd29c1e87f043a5",
+      "conceptId": "compreensao-medida-sem-uso-posterior",
+      "mechanism": "compreensao-medida-sem-uso-posterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6bd29c1e87f043a5#AMEC: a estrutura de seis níveis de avaliação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md",
+        "section": "AMEC: a estrutura de seis níveis de avaliação"
+      },
+      "statement": "Se um teste mostra que leitores conseguem explicar o conteúdo de uma orientação, a evidência pode informar a avaliação da compreensão sem demonstrar se eles agiram de acordo com ela.",
+      "correctAnswer": "C",
+      "explanation": "O teste mede o entendimento demonstrado. Verificar comportamento posterior exige outra observação."
+    },
+    {
+      "id": "cam-cs-decomposicao-sem-ordenacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / plano de comunicação",
+      "articleId": "art-3d6f82b40e9715ac",
+      "conceptId": "decomposicao-sem-ordenacao",
+      "mechanism": "decomposicao-sem-ordenacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3d6f82b40e9715ac#EAP ou WBS: organizar o escopo por entregas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md",
+        "section": "EAP ou WBS: organizar o escopo por entregas"
+      },
+      "statement": "Decompor um projeto em roteiro, vídeo e material de apoio estabelece automaticamente a ordem em que essas entregas serão executadas.",
+      "correctAnswer": "E",
+      "explanation": "A estrutura analítica organiza o escopo. A sequência exige identificar precedências e programar o trabalho."
+    },
+    {
+      "id": "cam-cs-previsao-com-recurso-condicionado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / plano de comunicação",
+      "articleId": "art-3d6f82b40e9715ac",
+      "conceptId": "previsao-com-recurso-condicionado",
+      "mechanism": "previsao-com-recurso-condicionado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3d6f82b40e9715ac#Orçamento: estimar recursos não equivale a autorizar despesa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md",
+        "section": "Orçamento: estimar recursos não equivale a autorizar despesa"
+      },
+      "statement": "Um plano pode prever o custo de tradução e condicionar o início do trabalho à aprovação dos recursos, sem tratar a estimativa como autorização.",
+      "correctAnswer": "C",
+      "explanation": "O orçamento do plano dimensiona a necessidade. A aprovação é uma decisão de governança distinta."
+    },
+    {
+      "id": "cam-cs-risco-materializado-e-pendencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / gestão de projetos",
+      "articleId": "art-6c72b9e450a813df",
+      "conceptId": "risco-materializado-e-pendencia",
+      "mechanism": "risco-materializado-e-pendencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6c72b9e450a813df#Gerenciar riscos: evento incerto não é problema ocorrido"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md",
+        "section": "Gerenciar riscos: evento incerto não é problema ocorrido"
+      },
+      "statement": "Se um fornecedor que poderia atrasar já perdeu a data de entrega, o atraso deve ser tratado como problema ocorrido, embora seus efeitos futuros ainda possam ser incertos.",
+      "correctAnswer": "C",
+      "explanation": "A perda do prazo é fato. As consequências que ainda podem ocorrer permanecem sujeitas à análise de risco."
+    },
+    {
+      "id": "cam-cs-mudanca-pendente-e-linha-de-base",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / gestão de projetos",
+      "articleId": "art-6c72b9e450a813df",
+      "conceptId": "mudanca-pendente-e-linha-de-base",
+      "mechanism": "mudanca-pendente-e-linha-de-base",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6c72b9e450a813df#Controle de mudanças: solicitar não significa aprovar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md",
+        "section": "Controle de mudanças: solicitar não significa aprovar"
+      },
+      "statement": "Uma área pede um novo formato de vídeo. A equipe calcula que ele acrescentaria dois dias ao cronograma. A estimativa, por si, autoriza atualizar o prazo aprovado e iniciar o trabalho adicional.",
+      "correctAnswer": "E",
+      "explanation": "A estimativa informa a análise de impacto. A alteração da linha de base e a execução do novo escopo dependem de decisão pela autoridade competente."
+    },
+    {
+      "id": "cam-cs-entrega-sem-responsavel-pela-manutencao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / gestão de projetos",
+      "articleId": "art-6c72b9e450a813df",
+      "conceptId": "entrega-sem-responsavel-pela-manutencao",
+      "mechanism": "entrega-sem-responsavel-pela-manutencao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6c72b9e450a813df#Encerramento, transição e lições aprendidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md",
+        "section": "Encerramento, transição e lições aprendidas"
+      },
+      "statement": "Uma página de serviço foi entregue e aprovada. A aprovação comprova que a transição para a operação foi concluída, mesmo sem definir quem atualizará as informações após o encerramento do projeto.",
+      "correctAnswer": "E",
+      "explanation": "O aceite confirma a entrega. A transição requer encaminhar a manutenção a uma função ou equipe responsável."
     }
   ]
 }

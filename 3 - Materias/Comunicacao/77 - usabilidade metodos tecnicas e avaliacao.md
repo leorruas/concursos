@@ -158,6 +158,24 @@ A [Nielsen Norman Group, orientação sobre avaliação heurística](https://www
 
 **Ressalvas:** a definição normativa e a diferenciação de métodos estão sustentadas pelas fontes indicadas; o cotejo **não constitui auditoria integral de toda a norma ISO**, nem teste real de portal, validação de amostras, acessibilidade WCAG, links da nota ou publicação no GitHub Pages. **Estado: Corrigido no recorte técnico e dos exercícios, não certificado integralmente.**
 
+## Oficina com dados: eficácia, eficiência, satisfação e inspeção (11/11/2026)
+
+**Situação hipotética:** dez participantes tentam localizar uma pauta no portal. Sete encontram a pauta correta, dois consultam página desatualizada e um desiste. A **eficácia de conclusão correta** nessa tarefa, nessa amostra, é **7/10 = 70%**. Se cinco participantes declaram satisfação com a experiência, o valor de satisfação observada, na pergunta aplicada, é **5/10 = 50%**. São medidas diferentes: alguém pode estar satisfeito com a aparência e falhar na tarefa, ou concluí-la apesar de dificuldade e insatisfação.
+
+Para estimar **eficiência**, é preciso especificar o recurso medido, por exemplo tempo para realizar a tarefa, e sua relação com o resultado atingido. Um usuário que localiza rapidamente a página errada não se torna eficaz por ter usado menos tempo. Sem as durações e o critério operacional escolhido, **não é possível calcular uma eficiência numérica** apenas a partir dos sete acertos. A [ISO 9241-11:2018](https://csrc.nist.gov/glossary/term/usability), em contexto de uso definido, considera **eficácia, eficiência e satisfação** em conjunto.
+
+**Escolha de método:** uma **inspeção heurística** feita por especialistas pode apontar problemas de rótulos e consistência antes de testar; um **teste com participantes** observa o uso real na tarefa definida e permite identificar erros e estratégias. O achado de um especialista não substitui a taxa observada de êxito no público-alvo, e o teste com dez pessoas **não demonstra representatividade estatística da população brasileira**. Para examinar acessibilidade, deve-se associar verificações de conformidade e experiências de pessoas com diferentes necessidades, sem presumir que satisfação geral baste.
+
+**Item 4, inédito.** Em um teste no qual sete de dez participantes localizam corretamente uma pauta, a taxa de êxito da tarefa é de 70%, mas esse dado, isoladamente, não informa a eficiência temporal nem a satisfação dos usuários.
+
+**Gabarito: Certo.** A proporção de sucesso mede eficácia operacionalizada; tempo e satisfação exigem medidas adicionais.
+
+**Item 5, inédito.** A avaliação heurística é necessariamente conduzida pelos próprios cidadãos durante execução de tarefas reais, razão pela qual seus resultados substituem testes de usabilidade com participantes.
+
+**Gabarito: Errado.** Avaliação heurística é inspeção baseada em princípios; teste com participantes observa comportamento em tarefas. Os métodos podem se complementar, sem equivalência obrigatória.
+
+**Fontes e delimitação:** [NIST, definição ISO de usabilidade](https://csrc.nist.gov/glossary/term/usability), [Nielsen Norman Group, heurísticas de usabilidade](https://www.nngroup.com/articles/ten-usability-heuristics/) e [teste de usabilidade](https://www.nngroup.com/articles/usability-testing-101/). Valores, participantes e situações são fictícios e não representam medição real do portal da Câmara. Os dois exercícios são autorais inéditos.
+
 ## Relações com outros temas e heurísticas
 
 [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|CAM-CO-030]] apresenta o método de Roedel e seus instrumentos de avaliação de textos; [[3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites|CAM-CO-029]] trata de redação clara e precisão; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|CAM-CO-024]] discute acesso e transparência; [[3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes|CAM-CO-021]] aborda adaptação a canais.

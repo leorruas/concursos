@@ -22,7 +22,7 @@ No âmbito do Poder Legislativo e da Administração Pública Federal, o marco d
 flowchart TD
     classDef marco fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;
     classDef pilar fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
-    classDef resp fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+    classDef resp fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#0f172a;
 
     GD["Governança Digital no Setor Público<br>(Lei nº 14.129/2021)"]:::marco
 

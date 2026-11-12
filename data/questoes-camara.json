@@ -8692,7 +8692,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8b1e6d903f42c7a5#Métodos mistos: integração com finalidade explícita"
       ],
@@ -8703,7 +8703,7 @@
       "statement": "Uma pesquisa identifica baixa conclusão de inscrições apesar de alta satisfação declarada. Entrevistar pessoas que abandonaram o formulário e interpretar suas respostas junto às métricas de conclusão é uma forma de integrar evidências quantitativas e qualitativas.",
       "correctAnswer": "C",
       "explanation": "As entrevistas investigam um resultado quantitativo específico. A interpretação conjunta permite examinar se a satisfação medida excluiu pessoas que abandonaram.",
-      "reviewEvidence": "Cotejo editorial com Métodos mistos: integração com finalidade explícita em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Métodos mistos: integração com finalidade explícita em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-descricao-de-obstaculos-sem-prevalencia",
@@ -8720,7 +8720,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8b1e6d903f42c7a5#Abordagem qualitativa: compreender processos e significados"
       ],
@@ -8731,7 +8731,7 @@
       "statement": "Entrevistas intencionais com cidadãos escolhidos por terem encontrado dificuldades no portal permitem estimar a proporção de todos os usuários que enfrentam cada dificuldade.",
       "correctAnswer": "E",
       "explanation": "A seleção por experiência de dificuldade é adequada para explorar obstáculos. Para estimar prevalência entre todos os usuários, seria necessário outro desenho de seleção e mensuração.",
-      "reviewEvidence": "Cotejo editorial com Abordagem qualitativa: compreender processos e significados em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Abordagem qualitativa: compreender processos e significados em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-ponderacao-com-categoria-ausente",
@@ -8748,7 +8748,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4e9d2a7c813f65b0#Ponderação: correção possível e limites"
       ],
@@ -8759,7 +8759,7 @@
       "statement": "Em um levantamento com cotas por faixa etária, nenhuma pessoa acima de 70 anos respondeu. Conhecer a participação dessa faixa na população basta para recuperar sua média de satisfação por ponderação.",
       "correctAnswer": "E",
       "explanation": "Pesos ajustam a contribuição de observações existentes. Sem respostas da faixa, a média do grupo depende de dados adicionais ou de hipóteses explícitas.",
-      "reviewEvidence": "Cotejo editorial com Ponderação: correção possível e limites em 3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Ponderação: correção possível e limites em 3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-painel-versus-mudanca-de-composicao",
@@ -8776,7 +8776,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4e9d2a7c813f65b0#Desenhos no tempo: transversal, repetido e painel"
       ],
@@ -8787,7 +8787,7 @@
       "statement": "Ao estimar a incerteza da variação média em um painel que reentrevistou as mesmas pessoas, é sempre correto tratar as respostas da primeira e da segunda onda como observações independentes.",
       "correctAnswer": "E",
       "explanation": "Medidas da mesma pessoa podem ser correlacionadas. A análise de mudanças deve considerar o pareamento, por exemplo, calculando a diferença dentro de cada pessoa antes de resumir a variação.",
-      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito."
+      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-pergunta-dupla-apoio",
@@ -8804,7 +8804,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3a6c218d45b7e0#Questionário: a formulação também produz a resposta"
       ],
@@ -8815,7 +8815,7 @@
       "statement": "A resposta afirmativa à pergunta “Você apoia ampliar o horário de atendimento e reduzir o número de postos?” identifica, separadamente, o nível de apoio de cada medida na população.",
       "correctAnswer": "E",
       "explanation": "O enunciado reúne duas decisões. Para estimar separadamente o apoio a cada medida, é preciso medi-las com perguntas distintas.",
-      "reviewEvidence": "Cotejo editorial com Questionário: a formulação também produz a resposta em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Questionário: a formulação também produz a resposta em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-silencio-e-denominador",
@@ -8832,7 +8832,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3a6c218d45b7e0#Não resposta, silêncio e opiniões aparentemente predominantes"
       ],
@@ -8843,7 +8843,7 @@
       "statement": "Entre 1.000 entrevistados, 420 apoiam uma medida, 280 a rejeitam e 300 não declaram posição. O apoio é de 60% entre quem se posicionou e de 42% no total de entrevistados.",
       "correctAnswer": "C",
       "explanation": "Os denominadores são diferentes: 420 dividido por 700 equivale a 60%, enquanto 420 dividido por 1.000 equivale a 42%.",
-      "reviewEvidence": "Cotejo editorial com Não resposta, silêncio e opiniões aparentemente predominantes em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Não resposta, silêncio e opiniões aparentemente predominantes em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-unidade-postagem-autor",
@@ -8860,7 +8860,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6f2a9c40d83e175b#Monitoramento de mídia e análise de sentimento: o objeto observado"
       ],
@@ -8871,7 +8871,7 @@
       "statement": "Em um monitoramento que registra 70% de publicações favoráveis, a proporção de autores favoráveis também é de 70% mesmo que poucos autores concentrem grande parte dos textos.",
       "correctAnswer": "E",
       "explanation": "A publicação é uma unidade e o autor é outra. Frequências desiguais de postagem podem alterar a distribuição por autor.",
-      "reviewEvidence": "Cotejo editorial com Monitoramento de mídia e análise de sentimento: o objeto observado em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Monitoramento de mídia e análise de sentimento: o objeto observado em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-dispositivo-compartilhado",
@@ -8888,7 +8888,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7d3c9e14a80b62f5#Objetos medidos: distinguir pessoas, domicílios, dispositivos e eventos"
       ],
@@ -8899,7 +8899,7 @@
       "statement": "Se uma transmissão é assistida por uma família em um único aparelho, a contagem de aparelhos conectados pode ser inferior à quantidade de pessoas expostas.",
       "correctAnswer": "C",
       "explanation": "Um aparelho pode servir a vários espectadores. A contagem técnica de aparelhos não identifica quantos indivíduos assistiram.",
-      "reviewEvidence": "Cotejo editorial com Objetos medidos: distinguir pessoas, domicílios, dispositivos e eventos em 3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Objetos medidos: distinguir pessoas, domicílios, dispositivos e eventos em 3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-evento-disparado-em-duplicidade",
@@ -8916,7 +8916,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f2b67a4d91e803c5#Instrumentação e atribuição: onde nasce a medida"
       ],
@@ -8927,7 +8927,7 @@
       "statement": "Se uma atualização faz o evento de confirmação ser registrado duas vezes para cada formulário recebido, o aumento no contador demonstra crescimento real das inscrições.",
       "correctAnswer": "E",
       "explanation": "O contador passou a registrar mais eventos por inscrição. A verificação requer deduplicação e confronto com os formulários efetivamente recebidos.",
-      "reviewEvidence": "Cotejo editorial com Instrumentação e atribuição: onde nasce a medida em 3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Instrumentação e atribuição: onde nasce a medida em 3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-efeito-preciso-abaixo-da-meta",
@@ -8944,7 +8944,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3f6d81b2c709a4e5#Significância estatística, magnitude e relevância pública"
       ],
@@ -8955,7 +8955,7 @@
       "statement": "Um estudo estima que uma campanha aumentou a compreensão em dois pontos percentuais, com intervalo de confiança de um a três pontos. Se a meta era um ganho de cinco pontos e o intervalo é válido para o efeito estimado, os resultados sustentam um ganho positivo inferior à meta.",
       "correctAnswer": "C",
       "explanation": "O intervalo exclui zero e fica inteiramente abaixo de cinco pontos. A interpretação combina evidência de efeito, magnitude e comparação com o objetivo substantivo.",
-      "reviewEvidence": "Cotejo editorial com Significância estatística, magnitude e relevância pública em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Significância estatística, magnitude e relevância pública em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-pergunta-de-pesquisa-e-recorte",
@@ -8972,7 +8972,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8b1e6d903f42c7a5#Do problema à pergunta: a lógica de um desenho de pesquisa"
       ],
@@ -8983,7 +8983,7 @@
       "statement": "Para investigar a dificuldade de acompanhar sessões, perguntar em quais etapas novos usuários abandonam a busca pela transmissão delimita um objeto observável para a pesquisa.",
       "correctAnswer": "C",
       "explanation": "O recorte explicita o público, a tarefa e o fenômeno observado. Isso orienta a coleta melhor que uma pergunta genérica sobre a qualidade do portal.",
-      "reviewEvidence": "Cotejo editorial com Do problema à pergunta: a lógica de um desenho de pesquisa em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Do problema à pergunta: a lógica de um desenho de pesquisa em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-protocolo-qualitativo-e-casos-divergentes",
@@ -9000,7 +9000,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8b1e6d903f42c7a5#Abordagem qualitativa: compreender processos e significados"
       ],
@@ -9011,7 +9011,7 @@
       "statement": "Se a maioria dos entrevistados atribui uma dificuldade ao texto do formulário, a equipe deve retirar da análise os relatos que a atribuem à navegação, para preservar a consistência do resultado qualitativo.",
       "correctAnswer": "E",
       "explanation": "Casos divergentes ajudam a testar a interpretação e podem revelar mecanismos distintos. Sua exclusão apenas por discordarem enfraquece a análise.",
-      "reviewEvidence": "Cotejo editorial com Abordagem qualitativa: compreender processos e significados em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Abordagem qualitativa: compreender processos e significados em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-sorteio-dentro-de-quadro-incompleto",
@@ -9028,7 +9028,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4e9d2a7c813f65b0#Censo, amostra e seleção: onde está a aleatoriedade?"
       ],
@@ -9039,7 +9039,7 @@
       "statement": "Sortear contatos de uma lista que contém apenas inscritos por aplicativo preserva a seleção aleatória dentro da lista, mas deixa fora do quadro amostral quem se inscreveu exclusivamente por telefone.",
       "correctAnswer": "C",
       "explanation": "O sorteio atua sobre o quadro disponível. A cobertura do quadro e o mecanismo de seleção dentro dele são propriedades distintas.",
-      "reviewEvidence": "Cotejo editorial com Censo, amostra e seleção: onde está a aleatoriedade? em 3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Censo, amostra e seleção: onde está a aleatoriedade? em 3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-precisao-e-taxa-de-resposta",
@@ -9056,7 +9056,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4e9d2a7c813f65b0#Tipos de erro: separar o que a fórmula alcança"
       ],
@@ -9067,7 +9067,7 @@
       "statement": "Uma pesquisa sorteia 5.000 usuários, mas a maior parte dos que não conseguiu concluir uma tarefa deixa de responder. Se a margem de erro amostral calculada sobre os respondentes for pequena, a estimativa de sucesso da tarefa fica protegida contra o viés de não resposta.",
       "correctAnswer": "E",
       "explanation": "A margem de erro quantifica incerteza amostral sob pressupostos. A resposta associada ao desfecho pode deslocar a estimativa, mesmo que seu erro-padrão nominal seja pequeno.",
-      "reviewEvidence": "Cotejo editorial com Tipos de erro: separar o que a fórmula alcança em 3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Tipos de erro: separar o que a fórmula alcança em 3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-efeito-da-ordem-das-perguntas",
@@ -9084,7 +9084,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3a6c218d45b7e0#Questionário: a formulação também produz a resposta"
       ],
@@ -9095,7 +9095,7 @@
       "statement": "Dividir aleatoriamente entrevistados entre duas versões de um questionário, com a mesma pergunta de apoio antes ou depois de uma descrição de custos, permite investigar se essa ordem afeta a resposta.",
       "correctAnswer": "C",
       "explanation": "A ordem é manipulada e a distribuição aleatória reduz diferenças sistemáticas entre os grupos. A comparação estima o efeito da ordem nas condições do teste.",
-      "reviewEvidence": "Cotejo editorial com Questionário: a formulação também produz a resposta em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Questionário: a formulação também produz a resposta em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-tendencia-com-instrumento-alterado",
@@ -9112,7 +9112,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3a6c218d45b7e0#Resultado, tendência e causalidade"
       ],
@@ -9123,7 +9123,7 @@
       "statement": "O apoio registrado passou de 42% para 50%, mas no segundo levantamento mudou o texto da pergunta e foram entrevistadas apenas pessoas que utilizam o serviço. Os oito pontos identificam a mudança de opinião da população original.",
       "correctAnswer": "E",
       "explanation": "A diferença combina possíveis mudanças de opinião, instrumento e população. Com esses dados, não se consegue atribuí-la à mudança de opinião na população original.",
-      "reviewEvidence": "Cotejo editorial com Resultado, tendência e causalidade em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Resultado, tendência e causalidade em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-reconhecimento-assistido-e-espontaneo",
@@ -9140,7 +9140,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6f2a9c40d83e175b#Indicadores: reconhecimento, associações, avaliação e experiência"
       ],
@@ -9151,7 +9151,7 @@
       "statement": "Quando a equipe exibe uma marca antes de perguntar se a pessoa a conhece, a resposta mede lembrança espontânea.",
       "correctAnswer": "E",
       "explanation": "A exibição fornece uma pista e caracteriza medida assistida. A lembrança espontânea exige recuperar a marca sem apresentá-la.",
-      "reviewEvidence": "Cotejo editorial com Indicadores: reconhecimento, associações, avaliação e experiência em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Indicadores: reconhecimento, associações, avaliação e experiência em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-atributo-vs-experiencia-direta",
@@ -9168,7 +9168,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6f2a9c40d83e175b#Da teoria à variável: o que a pesquisa realmente mede"
       ],
@@ -9179,7 +9179,7 @@
       "statement": "Uma pessoa pode considerar uma instituição transparente sem ter consultado seu portal. Para investigar essa diferença, o questionário pode medir separadamente a percepção de transparência e a experiência de consulta.",
       "correctAnswer": "C",
       "explanation": "A primeira variável é uma avaliação da instituição. A segunda registra contato com um canal. As duas podem variar de forma independente.",
-      "reviewEvidence": "Cotejo editorial com Da teoria à variável: o que a pesquisa realmente mede em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Da teoria à variável: o que a pesquisa realmente mede em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-atencao-nao-observada",
@@ -9196,7 +9196,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7d3c9e14a80b62f5#Audiência, exposição, atenção e recepção: quatro inferências"
       ],
@@ -9207,7 +9207,7 @@
       "statement": "Em uma pesquisa de audiência, o registro de que um aparelho permaneceu sintonizado por toda a transmissão basta para confirmar que o espectador prestou atenção durante todo o período.",
       "correctAnswer": "E",
       "explanation": "A sintonia demonstra uma condição técnica de exposição. Para concluir sobre atenção, é preciso observar o espectador ou usar uma medida adequada a esse fenômeno.",
-      "reviewEvidence": "Cotejo editorial com Audiência, exposição, atenção e recepção: quatro inferências em 3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Audiência, exposição, atenção e recepção: quatro inferências em 3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-conversao-com-denominador-condicional",
@@ -9224,7 +9224,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f2b67a4d91e803c5#Conversões: evento, tarefa e denominador"
       ],
@@ -9235,7 +9235,7 @@
       "statement": "Uma página recebeu 2.000 visitas elegíveis. Houve 500 inícios e 300 envios de formulário. A taxa de envio entre quem iniciou é de 60%, enquanto a taxa por visita elegível é de 15%, se as contagens forem comparáveis.",
       "correctAnswer": "C",
       "explanation": "As duas taxas usam o mesmo numerador e denominadores distintos. A primeira mede a conclusão após o início e a segunda a conversão a partir da visita.",
-      "reviewEvidence": "Cotejo editorial com Conversões: evento, tarefa e denominador em 3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Conversões: evento, tarefa e denominador em 3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-atribuicao-de-ultimo-clique",
@@ -9252,7 +9252,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3f6d81b2c709a4e5#Atribuição, contribuição e efeito incremental"
       ],
@@ -9263,7 +9263,7 @@
       "statement": "Uma equipe aplica regras de primeiro e último clique ao mesmo conjunto fixo de conversões. A participação atribuída a cada canal pode mudar sem que tenha ocorrido alteração na quantidade de conversões.",
       "correctAnswer": "C",
       "explanation": "As regras redistribuem crédito pelos eventos registrados. A mudança no relatório pode refletir somente a regra aplicada, com os mesmos resultados observados.",
-      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito."
+      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-eficiencia-com-resultados-distintos",
@@ -9280,7 +9280,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3f6d81b2c709a4e5#Eficiência de campanha: três denominadores distintos"
       ],
@@ -9291,7 +9291,7 @@
       "statement": "O plano A custa R$ 1.000, gera 100 cliques e 5 inscrições válidas. B custa R$ 1.500, gera 100 cliques e 15 inscrições válidas. Se a medida de eficiência for custo por inscrição válida, B é mais eficiente, embora tenha custo por clique maior.",
       "correctAnswer": "C",
       "explanation": "A custa R$ 200 por inscrição e R$ 10 por clique. B custa R$ 100 por inscrição e R$ 15 por clique. A escolha muda conforme o resultado usado no denominador.",
-      "reviewEvidence": "Cotejo editorial com Eficiência de campanha: três denominadores distintos em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Eficiência de campanha: três denominadores distintos em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-integracao-na-etapa-de-desenho",
@@ -9308,7 +9308,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8b1e6d903f42c7a5#Métodos mistos: integração com finalidade explícita"
       ],
@@ -9319,7 +9319,7 @@
       "statement": "Uma equipe entrevista dez responsáveis por postos de atendimento e mede o tempo de espera de 600 cidadãos. Para integrar os resultados, pode emparelhar cada entrevista com um tempo individual apenas porque ambos foram coletados no mesmo mês.",
       "correctAnswer": "E",
       "explanation": "A integração exige uma relação defensável entre as unidades. É possível comparar resultados agrupados por posto se houver identificadores compatíveis, mas a data comum não justifica pareamento individual.",
-      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito."
+      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-observacao-versus-relato",
@@ -9336,7 +9336,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8b1e6d903f42c7a5#Qualidade da pergunta: entrevistas, questionários e observação"
       ],
@@ -9347,7 +9347,7 @@
       "statement": "Perguntar se o usuário encontrou facilmente um documento equivale a observar quanto tempo ele leva para localizá-lo.",
       "correctAnswer": "E",
       "explanation": "A pergunta coleta uma avaliação declarada. A observação mede o comportamento durante a tarefa, como duração e erros.",
-      "reviewEvidence": "Cotejo editorial com Qualidade da pergunta: entrevistas, questionários e observação em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Qualidade da pergunta: entrevistas, questionários e observação em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-censo-da-base-e-populacao-alvo",
@@ -9364,7 +9364,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4e9d2a7c813f65b0#Desenho: definir sobre quem é a conclusão"
       ],
@@ -9375,7 +9375,7 @@
       "statement": "Levantar dados de todos os inscritos em um curso é um censo desse cadastro, ainda que o levantamento exclua quem teve interesse e não conseguiu se inscrever.",
       "correctAnswer": "C",
       "explanation": "O levantamento cobre todos os elementos do cadastro. O universo de interessados é mais amplo.",
-      "reviewEvidence": "Cotejo editorial com Desenho: definir sobre quem é a conclusão em 3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Desenho: definir sobre quem é a conclusão em 3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-perda-seletiva-no-painel",
@@ -9392,7 +9392,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4e9d2a7c813f65b0#Desenhos no tempo: transversal, repetido e painel"
       ],
@@ -9403,7 +9403,7 @@
       "statement": "Em um painel com 100 pessoas satisfeitas e 100 insatisfeitas na primeira onda, todas as satisfeitas e apenas 20 insatisfeitas respondem à segunda. Se nenhuma das 120 mudou de opinião, a comparação das taxas brutas das duas ondas prova melhora individual.",
       "correctAnswer": "E",
       "explanation": "A taxa passa de 50% para cerca de 83% pela perda seletiva. Comparar as mesmas 120 pessoas em ambos os períodos revela ausência de mudança nesse grupo.",
-      "reviewEvidence": "Cotejo editorial com Desenhos no tempo: transversal, repetido e painel em 3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Desenhos no tempo: transversal, repetido e painel em 3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-intensidade-sem-trocar-posicao",
@@ -9420,7 +9420,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3a6c218d45b7e0#Objetos de mensuração: posição, intensidade, conhecimento e ação"
       ],
@@ -9431,7 +9431,7 @@
       "statement": "Duas pessoas podem apoiar a mesma medida e expressar intensidades de apoio diferentes em uma escala que distingue apoio moderado e forte.",
       "correctAnswer": "C",
       "explanation": "A direção do posicionamento pode ser igual sem que seu grau seja igual.",
-      "reviewEvidence": "Cotejo editorial com Objetos de mensuração: posição, intensidade, conhecimento e ação em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Objetos de mensuração: posição, intensidade, conhecimento e ação em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-modo-e-efeito-do-entrevistador",
@@ -9448,7 +9448,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3a6c218d45b7e0#Modos de pesquisa: cobertura, interação e contexto"
       ],
@@ -9459,7 +9459,7 @@
       "statement": "Em perguntas sensíveis, aplicar o mesmo questionário por telefone e por formulário autoadministrado garante respostas comparáveis porque o texto das perguntas permanece igual.",
       "correctAnswer": "E",
       "explanation": "A interação com um entrevistador pode afetar as respostas e a composição de quem participa. Igualdade textual não assegura equivalência dos modos.",
-      "reviewEvidence": "Cotejo editorial com Modos de pesquisa: cobertura, interação e contexto em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Modos de pesquisa: cobertura, interação e contexto em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-escala-com-polaridade-invertida",
@@ -9476,7 +9476,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6f2a9c40d83e175b#Escalas, dimensões e modelos"
       ],
@@ -9487,7 +9487,7 @@
       "statement": "Se especialistas interpretam “agilidade” como tramitação rápida e cidadãos a interpretam como resposta rápida a dúvidas, a mesma pontuação no item garante que os grupos avaliaram o mesmo atributo.",
       "correctAnswer": "E",
       "explanation": "Os grupos atribuem sentidos diferentes ao termo. A comparação exige evidência de que o indicador representa a mesma dimensão em ambos.",
-      "reviewEvidence": "Cotejo editorial com Escalas, dimensões e modelos em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Escalas, dimensões e modelos em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-imagem-e-selecao-por-contato",
@@ -9504,7 +9504,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6f2a9c40d83e175b#Desenho da pesquisa: grupos, contato e tempo"
       ],
@@ -9515,7 +9515,7 @@
       "statement": "Uma pesquisa com quem visitou a sede no último mês representa automaticamente a imagem da instituição entre pessoas que nunca a visitaram.",
       "correctAnswer": "E",
       "explanation": "Visitantes recentes e não visitantes são grupos distintos quanto ao contato com a instituição. A conclusão sobre o segundo grupo exige dados compatíveis com ele.",
-      "reviewEvidence": "Cotejo editorial com Desenho da pesquisa: grupos, contato e tempo em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Desenho da pesquisa: grupos, contato e tempo em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-projecao-com-painel",
@@ -9532,7 +9532,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7d3c9e14a80b62f5#Painel de audiência: amostra, observação e projeção"
       ],
@@ -9543,7 +9543,7 @@
       "statement": "Um painel de audiência acompanha unidades selecionadas para observar padrões de consumo de mídia ao longo do tempo.",
       "correctAnswer": "C",
       "explanation": "O painel fornece observações repetidas de uma amostra. A projeção ao universo depende do desenho e dos ajustes adotados.",
-      "reviewEvidence": "Cotejo editorial com Painel de audiência: amostra, observação e projeção em 3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Painel de audiência: amostra, observação e projeção em 3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-clique-sem-sessao-carregada",
@@ -9560,7 +9560,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f2b67a4d91e803c5#Tráfego: clique, sessão, usuário e visualização de página"
       ],
@@ -9571,7 +9571,7 @@
       "statement": "Se uma página falha antes de carregar, cada clique registrado no anúncio ainda produz necessariamente uma sessão registrada no site.",
       "correctAnswer": "E",
       "explanation": "O anúncio pode registrar o clique antes de o site carregar. O registro de sessão depende da instrumentação do próprio site.",
-      "reviewEvidence": "Cotejo editorial com Tráfego: clique, sessão, usuário e visualização de página em 3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Tráfego: clique, sessão, usuário e visualização de página em 3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-efeito-de-oferta-versus-exposicao",
@@ -9588,7 +9588,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3f6d81b2c709a4e5#Desenhos de avaliação causal: condições e limites"
       ],
@@ -9599,7 +9599,7 @@
       "statement": "Uma equipe sorteia quem receberá um convite por e-mail. Parte dos convidados não o abre. Comparar todos os sorteados para convite com todos os sorteados para controle estima o efeito de oferecer o convite, sob as condições do experimento, ainda que nem todos os convidados leiam a mensagem.",
       "correctAnswer": "C",
       "explanation": "A comparação mantém os grupos da alocação aleatória. O efeito de oferecer o convite difere do efeito de efetivamente ler o conteúdo.",
-      "reviewEvidence": "Cotejo editorial com Desenhos de avaliação causal: condições e limites em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Desenhos de avaliação causal: condições e limites em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-mecanismo-com-execucao-incompleta",
@@ -9616,7 +9616,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3f6d81b2c709a4e5#Cadeia causal e teoria da mudança"
       ],
@@ -9627,7 +9627,7 @@
       "statement": "Uma campanha prevê informar um prazo antes do encerramento das inscrições. A peça só circula depois do prazo e não há aumento de inscrições. O resultado permite concluir que informar a tempo seria ineficaz.",
       "correctAnswer": "E",
       "explanation": "A intervenção executada não entregou a informação no momento necessário. O resultado não testa o mecanismo previsto para uma divulgação tempestiva.",
-      "reviewEvidence": "Cotejo editorial com Cadeia causal e teoria da mudança em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Cadeia causal e teoria da mudança em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-quantificar-tempo-de-tarefa",
@@ -9644,7 +9644,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8b1e6d903f42c7a5#Abordagem quantitativa: definir variáveis e comparar medidas"
       ],
@@ -9655,7 +9655,7 @@
       "statement": "Registrar em segundos o tempo de execução de uma tarefa permite tratar a duração como variável quantitativa.",
       "correctAnswer": "C",
       "explanation": "A medida expressa uma quantidade e permite comparar tempos entre observações.",
-      "reviewEvidence": "Cotejo editorial com Abordagem quantitativa: definir variáveis e comparar medidas em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Abordagem quantitativa: definir variáveis e comparar medidas em 3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-populacao-de-referencia-por-periodo",
@@ -9672,7 +9672,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-9f3a6c218d45b7e0#População, período e objeto: o que uma porcentagem realmente significa"
       ],
@@ -9683,7 +9683,7 @@
       "statement": "Uma pesquisa delimitada a moradores da capital produz, por definição, uma estimativa para todos os moradores do estado.",
       "correctAnswer": "E",
       "explanation": "O universo declarado é a capital. Uma conclusão estadual exige cobertura compatível com a população do estado.",
-      "reviewEvidence": "Cotejo editorial com População, período e objeto: o que uma porcentagem realmente significa em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com População, período e objeto: o que uma porcentagem realmente significa em 3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-imagem-como-percepcao",
@@ -9700,7 +9700,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6f2a9c40d83e175b#Da teoria à variável: o que a pesquisa realmente mede"
       ],
@@ -9711,7 +9711,7 @@
       "statement": "Em pesquisa institucional, uma avaliação de imagem expressa uma percepção do público sobre a instituição.",
       "correctAnswer": "C",
       "explanation": "A percepção pode ser medida por atributos, associações ou avaliações. Ela pode divergir dos atributos que a instituição procura comunicar.",
-      "reviewEvidence": "Cotejo editorial com Da teoria à variável: o que a pesquisa realmente mede em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Da teoria à variável: o que a pesquisa realmente mede em 3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-alcance-acumulado-com-repeticao",
@@ -9728,7 +9728,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7d3c9e14a80b62f5#Deduplicação e alcance entre canais"
       ],
@@ -9739,7 +9739,7 @@
       "statement": "Em um universo de 1.000 pessoas, uma transmissão alcança 700 pela manhã e 600 à noite. O alcance distinto diário pode ser menor que 1.000, mas a soma de 1.300 é incompatível com a definição de alcance distinto nesse universo.",
       "correctAnswer": "C",
       "explanation": "O alcance distinto é limitado ao total de pessoas do universo. Há pelo menos 300 pessoas em comum entre os horários, e pode haver mais.",
-      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito."
+      "reviewEvidence": "Reformulado após confronto com os exercícios do artigo de referência, com verificação do novo gabarito. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-visualizacoes-na-mesma-visita",
@@ -9756,7 +9756,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f2b67a4d91e803c5#Tráfego: clique, sessão, usuário e visualização de página"
       ],
@@ -9767,7 +9767,7 @@
       "statement": "Uma pessoa pode gerar várias visualizações de página durante uma única sessão no portal.",
       "correctAnswer": "C",
       "explanation": "Uma sessão reúne interações em uma visita segundo a regra de mensuração. Cada página carregada pode registrar uma visualização.",
-      "reviewEvidence": "Cotejo editorial com Tráfego: clique, sessão, usuário e visualização de página em 3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Tráfego: clique, sessão, usuário e visualização de página em 3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     },
     {
       "id": "cam-di-efeito-incremental-definicao",
@@ -9784,7 +9784,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3f6d81b2c709a4e5#Atribuição, contribuição e efeito incremental"
       ],
@@ -9795,7 +9795,7 @@
       "statement": "O efeito incremental de uma campanha é definido como o total bruto de resultados observados durante a veiculação.",
       "correctAnswer": "E",
       "explanation": "O efeito incremental é a diferença em relação ao que ocorreria sem a campanha. O total bruto inclui resultados que poderiam ocorrer independentemente dela.",
-      "reviewEvidence": "Cotejo editorial com Atribuição, contribuição e efeito incremental em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva."
+      "reviewEvidence": "Cotejo editorial com Atribuição, contribuição e efeito incremental em 3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md, com conferência do gabarito e da operação cognitiva. Lote 003: verificação editorial de mecanismos e gabaritos, triagem lexical no banco e nos exercícios numerados e testes de integridade e de sessão v3."
     }
   ]
 }

@@ -17334,6 +17334,384 @@
       "statement": "Uma campanha interna incentiva atendimento mais rápido, mas as equipes continuam sem acesso ao sistema que autoriza os pedidos. O engajamento com a campanha comprova que a barreira operacional foi removida.",
       "correctAnswer": "E",
       "explanation": "Engajamento com a mensagem não altera o acesso ao sistema. A remoção da barreira exige uma mudança nas condições de trabalho."
+    },
+    {
+      "id": "cam-cs-fluxo-lateral-entre-unidades",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / funções e fluxos",
+      "articleId": "art-806546892285426f",
+      "conceptId": "fluxo-lateral-entre-unidades",
+      "mechanism": "fluxo-lateral-entre-unidades",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-806546892285426f#5. Fluxos de comunicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/09 - comunicacao interna.md",
+        "section": "5. Fluxos de comunicação"
+      },
+      "statement": "Uma troca de orientações entre equipes do mesmo nível hierárquico pode constituir fluxo horizontal.",
+      "correctAnswer": "C",
+      "explanation": "A classificação descreve o percurso entre posições equivalentes na hierarquia."
+    },
+    {
+      "id": "cam-cs-vitoria-inicial-e-consolidacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / funções e fluxos",
+      "articleId": "art-806546892285426f",
+      "conceptId": "vitoria-inicial-e-consolidacao",
+      "mechanism": "vitoria-inicial-e-consolidacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-806546892285426f#2. Kotter: oito passos para liderar a mudança"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/09 - comunicacao interna.md",
+        "section": "2. Kotter: oito passos para liderar a mudança"
+      },
+      "statement": "No modelo de Kotter, uma primeira unidade que adota com sucesso o novo procedimento torna desnecessário consolidar a mudança nas demais unidades.",
+      "correctAnswer": "E",
+      "explanation": "Resultados iniciais dão evidência e impulso. A consolidação e a incorporação às práticas ainda precisam ocorrer."
+    },
+    {
+      "id": "cam-cs-publico-interno-nao-uniforme",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / funções e fluxos",
+      "articleId": "art-806546892285426f",
+      "conceptId": "publico-interno-nao-uniforme",
+      "mechanism": "publico-interno-nao-uniforme",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-806546892285426f#7. Segmentação do público interno"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/09 - comunicacao interna.md",
+        "section": "7. Segmentação do público interno"
+      },
+      "statement": "Segmentar o público interno pressupõe que todos tenham a mesma necessidade de informação.",
+      "correctAnswer": "E",
+      "explanation": "A segmentação identifica diferenças de necessidades ou condições entre grupos."
+    },
+    {
+      "id": "cam-cs-mural-para-consulta-durante-o-turno",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / canais",
+      "articleId": "art-73d4a195e86c02bf",
+      "conceptId": "mural-para-consulta-durante-o-turno",
+      "mechanism": "mural-para-consulta-durante-o-turno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Segundo conjunto: quatro veículos recorrentes no edital"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md",
+        "section": "Segundo conjunto: quatro veículos recorrentes no edital"
+      },
+      "statement": "Num setor sem acesso a computadores, um mural atualizado em local de passagem pode apoiar a consulta a um aviso simples durante o turno.",
+      "correctAnswer": "C",
+      "explanation": "A escolha liga o canal às condições de acesso e à necessidade de uma mensagem breve e disponível."
+    },
+    {
+      "id": "cam-cs-mensagem-por-duas-vias-contagem-unica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / canais",
+      "articleId": "art-73d4a195e86c02bf",
+      "conceptId": "mensagem-por-duas-vias-contagem-unica",
+      "mechanism": "mensagem-por-duas-vias-contagem-unica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Quarto conjunto: fluxos, acesso e segmentação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md",
+        "section": "Quarto conjunto: fluxos, acesso e segmentação"
+      },
+      "statement": "Uma orientação chega a 75 trabalhadores por boletim e a 50 em reunião. Se 30 estão nos dois registros e todos pertencem ao mesmo grupo de 120, a cobertura distinta é de 95 trabalhadores, ainda que tenham ocorrido 125 contatos.",
+      "correctAnswer": "C",
+      "explanation": "Subtrair a sobreposição evita dupla contagem: 75 + 50 − 30 = 95. A soma bruta descreve os contatos nos dois canais."
+    },
+    {
+      "id": "cam-cs-pergunta-de-diagnostico-por-etapa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / canais",
+      "articleId": "art-73d4a195e86c02bf",
+      "conceptId": "pergunta-de-diagnostico-por-etapa",
+      "mechanism": "pergunta-de-diagnostico-por-etapa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Como avaliar canais sem trocar indicadores"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md",
+        "section": "Como avaliar canais sem trocar indicadores"
+      },
+      "statement": "Após lançar uma orientação, uma equipe mede quantos trabalhadores a receberam, quantos a interpretaram corretamente e quantos conseguiram executá-la com os recursos disponíveis. As três medidas ajudam a localizar perdas entre distribuição, compreensão e aplicação.",
+      "correctAnswer": "C",
+      "explanation": "Cada medida corresponde a uma etapa. A decomposição evita atribuir toda falha de execução ao conteúdo da mensagem."
+    },
+    {
+      "id": "cam-cs-arranjo-fisico-como-artefato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / cultura",
+      "articleId": "art-b0ad4f6e375a912c",
+      "conceptId": "arranjo-fisico-como-artefato",
+      "mechanism": "arranjo-fisico-como-artefato",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b0ad4f6e375a912c#Schein: o que cada um dos três níveis classifica?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md",
+        "section": "Schein: o que cada um dos três níveis classifica?"
+      },
+      "statement": "O arranjo físico dos postos de trabalho é um exemplo de artefato observável no modelo de Schein.",
+      "correctAnswer": "C",
+      "explanation": "Artefatos incluem elementos visíveis e práticas observáveis. Seu significado pode exigir investigação."
+    },
+    {
+      "id": "cam-cs-registro-formal-e-pratica-observada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / cultura",
+      "articleId": "art-b0ad4f6e375a912c",
+      "conceptId": "registro-formal-e-pratica-observada",
+      "mechanism": "registro-formal-e-pratica-observada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b0ad4f6e375a912c#Métodos e fronteiras da evidência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md",
+        "section": "Métodos e fronteiras da evidência"
+      },
+      "statement": "Se um manual afirma que decisões são colegiadas, a análise cultural pode dispensar a observação de quem costuma participar e decidir na prática.",
+      "correctAnswer": "E",
+      "explanation": "O manual descreve uma regra formal. A observação ajuda a verificar como ela se concretiza e quais padrões se repetem."
+    },
+    {
+      "id": "cam-cs-satisfacao-individual-e-clima-da-equipe",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / clima",
+      "articleId": "art-b0ad4f6e375a912c",
+      "conceptId": "satisfacao-individual-e-clima-da-equipe",
+      "mechanism": "satisfacao-individual-e-clima-da-equipe",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b0ad4f6e375a912c#Fronteiras com conceitos vizinhos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/50 - cultura e clima organizacional schein schneider e fronteiras.md",
+        "section": "Fronteiras com conceitos vizinhos"
+      },
+      "statement": "O relato de satisfação de um único trabalhador comprova que a equipe compartilha um clima favorável.",
+      "correctAnswer": "E",
+      "explanation": "Satisfação individual e percepção coletiva têm unidades diferentes. Um relato isolado não demonstra compartilhamento."
+    },
+    {
+      "id": "cam-cs-canal-e-restricao-de-uso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / escuta",
+      "articleId": "art-9f3c27d018b5e64a",
+      "conceptId": "canal-e-restricao-de-uso",
+      "mechanism": "canal-e-restricao-de-uso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3c27d018b5e64a#Segundo mecanismo: escuta, voz e resposta institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md",
+        "section": "Segundo mecanismo: escuta, voz e resposta institucional"
+      },
+      "statement": "Se as pessoas podem enviar sugestões, mas o formulário exige a aprovação prévia da chefia sobre a qual desejam falar, a existência formal do canal não elimina a barreira à manifestação.",
+      "correctAnswer": "C",
+      "explanation": "A regra de acesso pode inibir contribuições. Avaliar a voz requer considerar tanto a existência quanto as condições de uso do canal."
+    },
+    {
+      "id": "cam-cs-discordancia-com-cobranca-respeitosa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / clima",
+      "articleId": "art-9f3c27d018b5e64a",
+      "conceptId": "discordancia-com-cobranca-respeitosa",
+      "mechanism": "discordancia-com-cobranca-respeitosa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3c27d018b5e64a#Terceiro mecanismo: segurança psicológica e aprendizagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md",
+        "section": "Terceiro mecanismo: segurança psicológica e aprendizagem"
+      },
+      "statement": "Uma equipe pode acolher objeções a um procedimento e exigir que quem apresenta uma proposta descreva os efeitos esperados.",
+      "correctAnswer": "C",
+      "explanation": "Solicitar evidência é compatível com a liberdade de discordar quando a contribuição é tratada com respeito."
+    },
+    {
+      "id": "cam-cs-efeito-com-tendencia-anterior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / avaliação",
+      "articleId": "art-9f3c27d018b5e64a",
+      "conceptId": "efeito-com-tendencia-anterior",
+      "mechanism": "efeito-com-tendencia-anterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3c27d018b5e64a#Como desenhar uma intervenção sem prometer efeitos automáticos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md",
+        "section": "Como desenhar uma intervenção sem prometer efeitos automáticos"
+      },
+      "statement": "A média de clima já crescia um ponto por trimestre antes de uma intervenção e volta a crescer um ponto no trimestre seguinte. A comparação isolada com o trimestre anterior demonstra que a intervenção acrescentou um ponto.",
+      "correctAnswer": "E",
+      "explanation": "O crescimento pode ser continuação da tendência anterior. Identificar o efeito exige estimar a trajetória esperada sem a intervenção."
+    },
+    {
+      "id": "cam-cs-instrucao-interna-sem-programa-integrado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / endomarketing",
+      "articleId": "art-5a7d1ec093b42f68",
+      "conceptId": "instrucao-interna-sem-programa-integrado",
+      "mechanism": "instrucao-interna-sem-programa-integrado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5a7d1ec093b42f68#Fronteiras entre conceitos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md",
+        "section": "Fronteiras entre conceitos"
+      },
+      "statement": "Uma instrução sobre como registrar férias pode cumprir uma função de comunicação interna mesmo sem integrar uma ação planejada de endomarketing.",
+      "correctAnswer": "C",
+      "explanation": "A orientação resolve uma necessidade administrativa. A função informativa não depende da existência de programa de marketing interno."
+    },
+    {
+      "id": "cam-cs-valor-interno-e-regra-operacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / endomarketing",
+      "articleId": "art-5a7d1ec093b42f68",
+      "conceptId": "valor-interno-e-regra-operacional",
+      "mechanism": "valor-interno-e-regra-operacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5a7d1ec093b42f68#Aplicação na Câmara"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md",
+        "section": "Aplicação na Câmara"
+      },
+      "statement": "Um programa interno promove autonomia no atendimento. Se a equipe não pode decidir sobre os casos anunciados, a aprovação dos trabalhadores à campanha basta para demonstrar autonomia na prática.",
+      "correctAnswer": "E",
+      "explanation": "A aprovação mede reação à proposta. A autonomia depende de competência, recursos e condições efetivas de decisão."
     }
   ]
 }

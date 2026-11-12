@@ -15,6 +15,7 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 007 | Divulgação Institucional | Edital 14.2.4, item 7: gestão de equipes | 40 | 2/15/20/3 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 008 | Divulgação Institucional | Edital 14.2.4, item 8: legislação profissional | 40 | 4/26/10/0 | 40 | 40 | 0 | Integridade e sessões v3 |
 | 009 | Comunicação Social | Edital 14.2.4, item 1: teorias da comunicação | 40 | 3/13/22/2 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
+| 010 | Comunicação Social | Edital 14.2.4, item 2: comunicação interna | 40 | 3/14/19/4 | 0 | 0 | 0 | Integridade, triagem e sessões v3 |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
@@ -51,6 +52,6 @@ Vinte e duas questões geradas sobre a Lei nº 12.232/2010, com indicação dos 
 
 Quarenta questões geradas sobre modelos, teorias da comunicação, midiatização, plataformização e integridade, vinculadas aos artigos 18, 26, 31, 32, 34 e 37 a 47. Revisão editorial e recalibração concluídas. A triagem a 0,22 não sinalizou pares do lote. O seletor recuperou os 40 itens. Próximo lote: comunicação interna, item 2 de Comunicação Social.
 
-## Lote 010 em elaboração
+## Lote 010 em revisão
 
-Vinte e seis questões geradas para comunicação interna, item 2 de Comunicação Social, vinculadas aos artigos 09, 48, 50, 51 e 98. Ampliar com conceitos, funções e endomarketing.
+Quarenta questões geradas para comunicação interna, item 2 de Comunicação Social, vinculadas aos artigos 09, 48, 50, 51 e 98. Conferir gabaritos, dificuldade e sobreposições em canais, escuta, cultura, clima e endomarketing.

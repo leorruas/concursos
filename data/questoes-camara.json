@@ -36919,6 +36919,230 @@
       "correctAnswer": "E",
       "explanation": "O IQR da primeira amostra é 30 − 10 = 20; o da segunda é 22 − 18 = 4. A igualdade da mediana e da amplitude total não obriga a metade central das observações a ter a mesma dispersão.",
       "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 040, gabarito E, mecanismo calcular-dispersao-central-entre-grupos. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md / '3. O box plot: o resumo dos cinco números de Tukey' (articleId art-e3831c8dec419d79; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental em 12/11/2026 do item 040, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-e3831c8dec419d79, subtítulo literal '3. O box plot: o resumo dos cinco números de Tukey'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirr. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-orc-l027-001-dotacao-nao-comprova-pagamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-f6cfe9fbcc764554",
+      "conceptId": "distinguir-dotacao-de-pagamento",
+      "mechanism": "confundir-autorizacao-com-desembolso",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f6cfe9fbcc764554#Dotação orçamentária: autorização e limite de gasto"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md",
+        "section": "Dotação orçamentária: autorização e limite de gasto"
+      },
+      "statement": "Um órgão dispõe de dotação de R$ 8 milhões na LOA para reformar prédios, mas ainda não empenhou nenhuma despesa. A existência da dotação comprova que os R$ 8 milhões já foram pagos às empresas responsáveis pelas obras.",
+      "correctAnswer": "E",
+      "explanation": "Dotação é autorização orçamentária, não empenho, liquidação ou pagamento. A aprovação de um limite de despesa não prova desembolso.",
+      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-f6cfe9fbcc764554 / Dotação orçamentária: autorização e limite de gasto e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-002-etapas-concorrentes-do-ciclo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-f6cfe9fbcc764554",
+      "conceptId": "ciclo-exercicios-sobrepostos",
+      "mechanism": "distinguir-fases-de-calendario-unico",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f6cfe9fbcc764554#Estrutura do ciclo orçamentário"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md",
+        "section": "Estrutura do ciclo orçamentário"
+      },
+      "statement": "Enquanto a União executa o orçamento do exercício corrente, o Congresso pode discutir a proposta do exercício seguinte e órgãos de controle podem examinar contas de exercício anterior, sem contrariar a ideia de ciclo orçamentário.",
+      "correctAnswer": "C",
+      "explanation": "As fases do ciclo são uma classificação analítica e podem ocorrer ao mesmo tempo para exercícios distintos. A execução de um ano não impede elaboração ou controle de outros.",
+      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-f6cfe9fbcc764554 / Estrutura do ciclo orçamentário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-003-ldo-sem-dotacao-nao-autoriza-gasto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-c301f2c741504403",
+      "conceptId": "ldo-prioridade-sem-credito",
+      "mechanism": "confundir-prioridade-com-despesa-autorizada",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#Três leis, três perguntas e uma mesma política"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+        "section": "Três leis, três perguntas e uma mesma política"
+      },
+      "statement": "Uma ação consta como prioridade na LDO, mas não recebeu dotação na LOA. Por isso, a indicação na LDO basta para autorizar imediatamente o pagamento da ação nesse exercício.",
+      "correctAnswer": "E",
+      "explanation": "A LDO orienta a elaboração da LOA, mas não substitui a autorização orçamentária e os atos da execução financeira. A prioridade sem dotação não autoriza pagamento imediato.",
+      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-c301f2c741504403 / Três leis, três perguntas e uma mesma política e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-004-ppa-regionalizado-capital-continuados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-c301f2c741504403",
+      "conceptId": "ppa-duplo-escopo-constitucional",
+      "mechanism": "combinar-despesa-capital-e-programas-continuados",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c301f2c741504403#PPA: Plano Plurianual"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+        "section": "PPA: Plano Plurianual"
+      },
+      "statement": "Ao preparar o PPA, o Executivo prevê metas regionalizadas tanto para investimentos em unidades de atendimento quanto para programas de duração continuada. A estrutura é compatível com o art. 165, § 1º, da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "O PPA estabelece regionalizadamente diretrizes, objetivos e metas para despesas de capital e decorrentes, além das relativas a programas continuados.",
+      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-c301f2c741504403 / PPA: Plano Plurianual e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-005-loa-excecao-suplementar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "loa-excecao-autorizacao-de-suplementar",
+      "mechanism": "distinguir-excecao-expressa-de-materia-estranha",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Exclusividade e suas duas exceções constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Exclusividade e suas duas exceções constitucionais"
+      },
+      "statement": "A LOA pode autorizar a abertura de créditos suplementares, nas condições legais, sem que a autorização, isoladamente, viole o princípio da exclusividade orçamentária.",
+      "correctAnswer": "C",
+      "explanation": "O art. 165, § 8º, da Constituição admite na LOA autorização para abertura de créditos suplementares e para contratação de operações de crédito como exceções à exclusividade.",
+      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-a2f47c0d6e184e93 / Exclusividade e suas duas exceções constitucionais e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-006-reforco-dotacao-nao-especial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "creditos-reforco-vs-criacao",
+      "mechanism": "distinguir-credito-especial-de-suplementar",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "statement": "Um programa já tem dotação específica na LOA, mas o valor autorizado ficou insuficiente. A espécie apropriada para reforçá-la é o crédito especial, pois reforço e criação de dotação são equivalentes.",
+      "correctAnswer": "E",
+      "explanation": "Crédito suplementar reforça dotação existente; especial atende despesa sem dotação específica. As hipóteses estão no art. 41 da Lei nº 4.320/1964.",
+      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-87b69e1d4ac54f20 / Suplementar, especial e extraordinário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-007-excesso-arrecadacao-como-fonte",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "excesso-arrecadacao-fonte",
+      "mechanism": "reconhecer-condicoes-art-43",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "statement": "O excesso de arrecadação apurado segundo a Lei nº 4.320/1964 pode servir como fonte para crédito suplementar ou especial, desde que haja recursos disponíveis e não comprometidos e sejam observadas as demais condições legais.",
+      "correctAnswer": "C",
+      "explanation": "O art. 43, § 1º, II, da Lei nº 4.320/1964 prevê o excesso de arrecadação como fonte. A apuração considera diferenças acumuladas e a tendência do exercício, não só um mês isolado.",
+      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-87b69e1d4ac54f20 / Recursos disponíveis para suplementares e especiais e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-008-pressa-administrativa-nao-extraordinario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "extraordinario-nao-pressa",
+      "mechanism": "separar-urgencia-constitucional-da-administrativa",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Suplementar, especial e extraordinário"
+      },
+      "statement": "Uma contratação ordinária e previsível foi esquecida na LOA. Em outubro, o gestor deseja executá-la rapidamente. Essa pressa administrativa basta para classificar a despesa como imprevisível e urgente e justificar crédito extraordinário.",
+      "correctAnswer": "E",
+      "explanation": "Crédito extraordinário exige despesa imprevisível e urgente nos termos da Constituição; atraso de planejamento e pressa do gestor não bastam. Se não há dotação, examina-se crédito especial.",
+      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-87b69e1d4ac54f20 / Suplementar, especial e extraordinário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     }
   ]
 }

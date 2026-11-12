@@ -88,7 +88,7 @@ flowchart LR
 ```
 
 1. **Hiato Tônico em I e U**:
-   - Acentuam-se o **i** e o **u** tônicos quando formam hiato com a vogal anterior, sozinhos na sílaba ou seguidos de **-s** (*sa-ú-de, sa-í-da, pa-ís, pro-i-be, ba-ús*).
+   - Acentuam-se o **i** e o **u** tônicos quando formam hiato com a vogal anterior, sozinhos na sílaba ou seguidos de **-s** (*sa-ú-de, sa-í-da, pa-ís, pro-í-be, ba-ús*).
    - *Não se acentuam*: se seguidos de **-nh** (*rainha, bainha*); se seguidos de outra consoante que não -s (*juiz, ruim, cair, paul*); ou se forem precedidos de ditongo **em palavras paroxítonas** (*feiura, baiuca* — mas atenção: em oxítonas mantém-se o acento, como em *Piauí*!).
 
 2. **Ditongos Abertos ÉI, ÉU, ÓI**:
@@ -130,7 +130,7 @@ A hifenização sob o Acordo de 1990 rege-se pelo princípio da aglutinação si
 
 ### 3.3. Prefixos com Consoantes R e S
 - Se o prefixo terminar por **vogal** e o segundo elemento começar por **R** ou **S**, o hífen é **eliminado** e a consoante é **duplicada** (-rr-, -ss-) para manter o som forte:  
-  *antissocial, contrarregra, autorretrato, microssistema, ultrassom, cosseno, antirrepublicano, minirsaia*.
+  *antissocial, contrarregra, autorretrato, microssistema, ultrassom, cosseno, antirrepublicano, minissaia*.
 - *Atenção aos prefixos terminados em consoante*: Se o prefixo terminar em consoante e o segundo elemento começar pela **mesma consoante**, usa-se hífen:  
   *super-resistente, inter-resistente, sub-base, sob-roda*. Mas se forem consoantes diferentes, aglutina-se: *superinteressante, hiperativo, subchefe, subscrito*.
 

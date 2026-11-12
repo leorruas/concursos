@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "kind": "glossario-camara",
+  "created": "2026-11-12",
+  "scope": "Câmara 2026, Cargo 1, Divulgação Institucional; compartilhamento apenas por vínculo material com a CGU.",
+  "terms": [
+    {
+      "id": "glo-camara-lei-ordinaria",
+      "term": "Lei ordinária",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-lei-complementar",
+      "term": "Lei complementar",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-reserva-lei-complementar",
+      "term": "Reserva de lei complementar",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-pec",
+      "term": "Proposta de emenda à Constituição (PEC)",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-emenda-constitucional",
+      "term": "Emenda constitucional",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-maioria-simples",
+      "term": "Maioria simples de aprovação",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-maioria-absoluta",
+      "term": "Maioria absoluta",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-quorum-presenca",
+      "term": "Quórum de presença",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-quorum-aprovacao",
+      "term": "Quórum de aprovação",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-sancao-presidencial",
+      "term": "Sanção presidencial",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-veto-presidencial",
+      "term": "Veto presidencial",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-veto-parcial",
+      "term": "Veto parcial",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-promulgacao",
+      "term": "Promulgação de norma",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-lei-delegada",
+      "term": "Lei delegada",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-medida-provisoria",
+      "term": "Medida provisória",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-decreto-legislativo",
+      "term": "Decreto legislativo",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-resolucao-legislativa",
+      "term": "Resolução legislativa",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-iniciativa-legislativa",
+      "term": "Iniciativa legislativa",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-iniciativa-reservada",
+      "term": "Iniciativa legislativa reservada",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-iniciativa-popular",
+      "term": "Iniciativa popular de lei",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-apreciacao-conclusiva",
+      "term": "Apreciação conclusiva em comissão",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-votacao-simbolica",
+      "term": "Votação simbólica",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-votacao-nominal",
+      "term": "Votação nominal",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-bicameralismo",
+      "term": "Bicameralismo do Congresso Nacional",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-clausula-petrea",
+      "term": "Cláusula pétrea",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-projeto-lei-complementar",
+      "term": "Projeto de lei complementar (PLP)",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-comunicacao-publica",
+      "term": "Comunicação pública",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-comunicacao-governamental",
+      "term": "Comunicação governamental",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-publicidade-institucional",
+      "term": "Publicidade institucional",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-promocao-pessoal",
+      "term": "Promoção pessoal em publicidade oficial",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-comunicacao-interna",
+      "term": "Comunicação interna",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-linguagem-simples",
+      "term": "Linguagem simples",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-acessibilidade-digital",
+      "term": "Acessibilidade digital",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-transparencia-ativa",
+      "term": "Transparência ativa",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-transparencia-passiva",
+      "term": "Transparência passiva",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-noticiabilidade",
+      "term": "Noticiabilidade",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-agenda-setting",
+      "term": "Agenda-setting",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-framing",
+      "term": "Framing (enquadramento)",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-gatekeeping",
+      "term": "Gatekeeping",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-publicidade-agencias-lei-12232",
+      "term": "Lei nº 12.232/2010",
+      "subjectId": "comunicacao",
+      "examBlock": "Específicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    }
+  ]
+}

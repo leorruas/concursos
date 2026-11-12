@@ -15528,7 +15528,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-65e3a8bd42f190c7#Cinco termos e suas fronteiras"
       ],
@@ -15539,7 +15539,7 @@
       "statement": "Um esquema que representa as etapas de transmissão de uma mensagem explica, apenas por incluir remetente e destinatário, por que públicos diferentes atribuem sentidos divergentes à mesma mensagem.",
       "correctAnswer": "E",
       "explanation": "O esquema pode representar o percurso da mensagem. Explicar diferenças de interpretação exige conceitos sobre a produção de sentido e o contexto dos públicos.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Cinco termos e suas fronteiras em 3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Cinco termos e suas fronteiras em 3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-ajuste-por-sinal-simultaneo",
@@ -15556,7 +15556,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-943fb6a178d205ec#Terceiro conjunto: modelo transacional"
       ],
@@ -15567,7 +15567,7 @@
       "statement": "Em uma audiência, uma expositora ajusta a explicação enquanto fala ao perceber gestos de dúvida. Essa adaptação durante a emissão é compatível com uma análise transacional da interação.",
       "correctAnswer": "C",
       "explanation": "A expositora produz sinais e interpreta respostas durante a mesma interação. Os papéis não precisam alternar apenas depois que cada mensagem termina.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Terceiro conjunto: modelo transacional em 3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Terceiro conjunto: modelo transacional em 3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-mesma-pauta-quadros-distintos",
@@ -15584,7 +15584,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-cf270947be50a816#Mapa 2: seleção, saliência, enquadramento, influência e expressão"
       ],
@@ -15595,7 +15595,7 @@
       "statement": "Dois veículos dão igual destaque a uma votação, mas um enfatiza seu custo e outro o acesso ao serviço. Como o destaque é igual, os enquadramentos também são iguais.",
       "correctAnswer": "E",
       "explanation": "O destaque indica saliência. A ênfase em custos ou acesso organiza interpretações distintas.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Mapa 2: seleção, saliência, enquadramento, influência e expressão em 3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Mapa 2: seleção, saliência, enquadramento, influência e expressão em 3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-destaque-e-concordancia-separados",
@@ -15612,7 +15612,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-cf270947be50a816#O que significa “efeito” em cada pergunta?"
       ],
@@ -15623,7 +15623,7 @@
       "statement": "Se uma cobertura faz mais pessoas citarem um tema como prioritário, esse resultado pode ser observado mesmo quando a proporção de pessoas favoráveis à proposta permanece igual.",
       "correctAnswer": "C",
       "explanation": "A importância atribuída ao tema pode mudar sem alteração na direção da opinião sobre a proposta.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com O que significa “efeito” em cada pergunta? em 3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com O que significa “efeito” em cada pergunta? em 3 - Materias/Comunicacao/47 - comparacao de teorias da comunicacao perguntas unidades e efeitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-mudanca-da-rotina-de-deliberacao",
@@ -15640,7 +15640,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-42edbd08bca563f1#Hjarvard: a abordagem institucional"
       ],
@@ -15651,7 +15651,7 @@
       "statement": "Se um colegiado passa a antecipar decisões para adequá-las aos horários dos noticiários, a análise da midiatização pode examinar como critérios dos meios passam a organizar uma rotina do próprio colegiado.",
       "correctAnswer": "C",
       "explanation": "A pergunta trata da adaptação de uma prática institucional a condições dos meios. Transmitir decisões já tomadas seria um fenômeno diferente.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Hjarvard: a abordagem institucional em 3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Hjarvard: a abordagem institucional em 3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-mesma-tecnologia-praticas-distintas",
@@ -15668,7 +15668,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-42edbd08bca563f1#Mudanças sociais sem determinismo tecnológico"
       ],
@@ -15679,7 +15679,7 @@
       "statement": "Se dois órgãos adotam o mesmo sistema de transmissão, a perspectiva da midiatização exige prever mudanças idênticas em suas rotinas, ainda que tenham regras e públicos diferentes.",
       "correctAnswer": "E",
       "explanation": "A incorporação de meios depende de condições institucionais e sociais. A tecnologia compartilhada não determina, sozinha, a mesma transformação.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Mudanças sociais sem determinismo tecnológico em 3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Mudanças sociais sem determinismo tecnológico em 3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-producao-revisada-com-dados",
@@ -15696,7 +15696,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1fc842a6b30d59e7#Nieborg e Poell (2018): produção cultural contingente"
       ],
@@ -15707,7 +15707,7 @@
       "statement": "Uma equipe que adapta continuamente títulos e durações em resposta a dados de distribuição exemplifica uma forma de produção cultural contingente às condições da plataforma.",
       "correctAnswer": "C",
       "explanation": "Os dados e mecanismos de distribuição passam a orientar versões sucessivas da produção. O conteúdo fica sujeito a reconfiguração.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Nieborg e Poell (2018): produção cultural contingente em 3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Nieborg e Poell (2018): produção cultural contingente em 3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-selecao-editorial-e-distribuicao-programada",
@@ -15724,7 +15724,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1fc842a6b30d59e7#Relação com midiatização, mediação e seleção editorial"
       ],
@@ -15735,7 +15735,7 @@
       "statement": "A decisão editorial de publicar uma notícia e a ordenação automatizada de sua visibilidade representam necessariamente a mesma escolha, porque recaem sobre o mesmo texto.",
       "correctAnswer": "E",
       "explanation": "Publicar é uma decisão da equipe. A ordenação da visibilidade ocorre na distribuição e pode obedecer a critérios distintos.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Relação com midiatização, mediação e seleção editorial em 3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Relação com midiatização, mediação e seleção editorial em 3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-checagem-com-correcao-de-circulacao",
@@ -15752,7 +15752,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-704e9cd41f60a2b8#Prevenção, checagem, correção e avaliação: finalidades diferentes"
       ],
@@ -15763,7 +15763,7 @@
       "statement": "Uma checagem que identifica o erro em uma mensagem e uma intervenção que faz a correção chegar aos grupos expostos podem ser avaliadas por indicadores diferentes.",
       "correctAnswer": "C",
       "explanation": "A primeira avaliação verifica a sustentação da checagem. A segunda observa distribuição e alcance da correção entre os públicos relevantes.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Prevenção, checagem, correção e avaliação: finalidades diferentes em 3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Prevenção, checagem, correção e avaliação: finalidades diferentes em 3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-integridade-e-direitos-na-avaliacao",
@@ -15780,7 +15780,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-704e9cd41f60a2b8#Quais perguntas são diferentes?"
       ],
@@ -15791,7 +15791,7 @@
       "statement": "Uma intervenção que reduz a circulação de alegações falsas pode ser considerada suficiente para a integridade da informação mesmo que também bloqueie sistematicamente conteúdo verdadeiro de interesse público.",
       "correctAnswer": "E",
       "explanation": "Integridade envolve a qualidade do ambiente informacional e o acesso a informação confiável. A perda sistemática de acesso a conteúdo verdadeiro também precisa ser avaliada.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Quais perguntas são diferentes? em 3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Quais perguntas são diferentes? em 3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-intermediario-reinterpreta-mensagem",
@@ -15808,7 +15808,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c3b719f24a6e058d#Núcleo do conceito"
       ],
@@ -15819,7 +15819,7 @@
       "statement": "Um morador consulta uma explicação na imprensa, discute o assunto com vizinhos e adapta os exemplos ao bairro. A análise do fluxo em duas etapas pode tratar essa mediação interpessoal como parte da circulação da influência.",
       "correctAnswer": "C",
       "explanation": "O interlocutor não precisa repetir literalmente a mensagem. Ele pode selecionar, interpretar e contextualizar o que transmite ao grupo.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-selecao-sem-alteracao-de-texto",
@@ -15836,7 +15836,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4e290c7b68d351af#Núcleo do conceito"
       ],
@@ -15847,7 +15847,7 @@
       "statement": "Uma redação pode exercer gatekeeping ao escolher uma entre duas pautas concorrentes, mesmo que publique o texto escolhido sem editar suas frases.",
       "correctAnswer": "C",
       "explanation": "A escolha determina qual informação atravessa o ponto de seleção. Alterar a redação seria outra operação.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-padronizacao-sob-variedade-aparente",
@@ -15864,7 +15864,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7ce2f05b3ad91486#Núcleo do conceito"
       ],
@@ -15875,7 +15875,7 @@
       "statement": "Dois programas são vendidos como inteiramente distintos, mas repetem a mesma fórmula narrativa com pequenas mudanças de elenco. A noção de indústria cultural permite investigar a padronização sob essa diferenciação.",
       "correctAnswer": "C",
       "explanation": "A análise examina como a produção industrial repete formas e oferece variações capazes de produzir aparência de diversidade.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-leitura-negociada-em-regra-local",
@@ -15892,7 +15892,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b39da4815f7e0c26#Núcleo do conceito"
       ],
@@ -15903,7 +15903,7 @@
       "statement": "Uma pessoa aceita a finalidade geral apresentada por uma campanha, mas rejeita a aplicação da mensagem à sua comunidade por conhecer uma exceção local. Essa leitura pode ser classificada como negociada.",
       "correctAnswer": "C",
       "explanation": "A leitura aceita elementos centrais da mensagem e ajusta outros à experiência situada.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-mudanca-de-escala-com-conteudo-estavel",
@@ -15920,7 +15920,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-0cd74f8a2be93651#Núcleo do conceito"
       ],
@@ -15931,7 +15931,7 @@
       "statement": "Distribuir em uma transmissão ao vivo o mesmo texto que antes circulava em boletim impresso elimina a possibilidade de mudança na escala ou na velocidade da comunicação, pois o conteúdo verbal é idêntico.",
       "correctAnswer": "E",
       "explanation": "A análise do meio inclui as condições de circulação e interação. Preservar as palavras não preserva o ritmo nem o alcance da comunicação.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-silencio-nao-prova-concordancia",
@@ -15948,7 +15948,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a4d7e832b9510c6f#Núcleo do conceito"
       ],
@@ -15959,7 +15959,7 @@
       "statement": "Em uma reunião, pessoas que discordam deixam de se manifestar por receio de isolamento. Contar apenas as falas favoráveis identifica sem viés o apoio à proposta no grupo.",
       "correctAnswer": "E",
       "explanation": "O clima de opinião pode afetar a disposição de falar. A distribuição das manifestações públicas pode divergir das opiniões privadas.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-publico-formado-por-consequencias",
@@ -15976,7 +15976,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1b7f38ad90c2e546#John Dewey: comunicação, experiência e vida pública"
       ],
@@ -15987,7 +15987,7 @@
       "statement": "Quando a mudança em um itinerário afeta pessoas que não participaram da decisão e elas se organizam para discutir seus efeitos, a formação desse público pode ser analisada a partir das consequências indiretas descritas por Dewey.",
       "correctAnswer": "C",
       "explanation": "A condição relevante é que os efeitos de uma ação atinjam terceiros e passem a exigir atenção coletiva. O público não precisa existir como grupo organizado antes do problema.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com John Dewey: comunicação, experiência e vida pública em 3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com John Dewey: comunicação, experiência e vida pública em 3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-antecipar-interpretacao-do-outro",
@@ -16004,7 +16004,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1b7f38ad90c2e546#George Herbert Mead: símbolos significativos e constituição social do self"
       ],
@@ -16015,7 +16015,7 @@
       "statement": "Ao reformular um aviso depois de imaginar como um leitor sem experiência interpretaria suas instruções, uma redatora realiza uma operação compatível com a tomada do papel do outro em Mead.",
       "correctAnswer": "C",
       "explanation": "A redatora considera a perspectiva de quem recebe o aviso. Em Mead, assumir a perspectiva alheia participa da coordenação simbólica da ação.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com George Herbert Mead: símbolos significativos e constituição social do self em 3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com George Herbert Mead: símbolos significativos e constituição social do self em 3 - Materias/Comunicacao/32 - escola de chicago comunicacao interacao e sociedade.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-vestigio-e-convencao-no-mesmo-aviso",
@@ -16032,7 +16032,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5f913bd7a4c2680e#Ícone, índice e símbolo: o critério da relação com o objeto"
       ],
@@ -16043,7 +16043,7 @@
       "statement": "Num aviso de enchente, a fotografia pode funcionar iconicamente por se parecer com o local e uma marca física deixada pela água pode funcionar como índice do nível alcançado.",
       "correctAnswer": "C",
       "explanation": "A semelhança fundamenta a relação icônica. A conexão física entre a água e o vestígio fundamenta a relação indicial.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Ícone, índice e símbolo: o critério da relação com o objeto em 3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Ícone, índice e símbolo: o critério da relação com o objeto em 3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-inventario-visual-e-sentido-cultural",
@@ -16060,7 +16060,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5f913bd7a4c2680e#Barthes: denotação, conotação e mito"
       ],
@@ -16071,7 +16071,7 @@
       "statement": "Identificar que uma peça mostra um prédio de mármore basta para concluir, no nível denotativo, que a instituição retratada é prestigiosa.",
       "correctAnswer": "E",
       "explanation": "O material retratado pertence à descrição literal. O prestígio é uma associação cultural que precisa ser analisada em outro nível.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Barthes: denotação, conotação e mito em 3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Barthes: denotação, conotação e mito em 3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-efeito-de-pergunta-imposta",
@@ -16088,7 +16088,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e738c9f264b150da#Sondagens: objeto, operação e inferência"
       ],
@@ -16099,7 +16099,7 @@
       "statement": "Uma sondagem força a escolha entre duas soluções para um problema que os entrevistados não haviam considerado. A distribuição resultante descreve como responderam à pergunta, mas sua interpretação como posições já formadas antes da pesquisa exige evidência adicional.",
       "correctAnswer": "C",
       "explanation": "O instrumento oferece categorias e pode estimular uma resposta no momento da coleta. A distribuição observada não identifica por si só quando se formaram as posições.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Sondagens: objeto, operação e inferência em 3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Sondagens: objeto, operação e inferência em 3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-mudanca-de-argumentos-sem-mudanca-de-percentual",
@@ -16116,7 +16116,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e738c9f264b150da#Como a opinião pública se forma e circula"
       ],
@@ -16127,7 +16127,7 @@
       "statement": "Se a proporção de apoio a uma proposta permanece estável entre duas sondagens, ainda é possível que os argumentos usados no debate público tenham mudado.",
       "correctAnswer": "C",
       "explanation": "Uma proporção sintetiza posições declaradas. A circulação e transformação dos argumentos exige outras observações.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Como a opinião pública se forma e circula em 3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Como a opinião pública se forma e circula em 3 - Materias/Comunicacao/42 - opiniao publica formacao e esfera publica.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-validade-da-fonte-no-periodo",
@@ -16144,7 +16144,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f1483b1fa6d042c2#Método do fact-checking"
       ],
@@ -16155,7 +16155,7 @@
       "statement": "Encontrar uma tabela oficial com o mesmo indicador basta para confirmar uma alegação sobre 2024 se a tabela consultada se refere exclusivamente a 2022.",
       "correctAnswer": "E",
       "explanation": "A fonte é oficial, mas o período não corresponde à afirmação. A checagem deve buscar a série pertinente ou declarar a insuficiência da evidência.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Método do fact-checking em 3 - Materias/Comunicacao/18 - fact checking e desinformacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Método do fact-checking em 3 - Materias/Comunicacao/18 - fact checking e desinformacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-registro-autentico-contexto-errado",
@@ -16172,7 +16172,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f1483b1fa6d042c2#Sete tipos de conteúdo problemático"
       ],
@@ -16183,7 +16183,7 @@
       "statement": "Um áudio autêntico de uma sessão anterior pode desinformar quando é apresentado como registro de uma sessão diferente, ainda que o arquivo não tenha sido editado.",
       "correctAnswer": "C",
       "explanation": "A falsidade está na atribuição de contexto. A autenticidade do registro não confirma a data ou o evento alegado.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Sete tipos de conteúdo problemático em 3 - Materias/Comunicacao/18 - fact checking e desinformacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Sete tipos de conteúdo problemático em 3 - Materias/Comunicacao/18 - fact checking e desinformacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-intencao-na-origem-e-no-repasse",
@@ -16200,7 +16200,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f1483b1fa6d042c2#Elementos e fases da desordem informacional"
       ],
@@ -16211,7 +16211,7 @@
       "statement": "Se uma pessoa produz deliberadamente um boato e outra o repassa acreditando que seja verdadeiro, é possível distinguir as intenções dos agentes nas duas etapas.",
       "correctAnswer": "C",
       "explanation": "A intenção de quem criou a mensagem não pode ser atribuída automaticamente a quem a redistribuiu.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Elementos e fases da desordem informacional em 3 - Materias/Comunicacao/18 - fact checking e desinformacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Elementos e fases da desordem informacional em 3 - Materias/Comunicacao/18 - fact checking e desinformacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-metaprocesso-e-periodo-de-observacao",
@@ -16228,7 +16228,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-42edbd08bca563f1#Krotz: midiatização como metaprocesso histórico"
       ],
@@ -16239,7 +16239,7 @@
       "statement": "A estreia de um único aplicativo basta para demonstrar uma transformação histórica das práticas de comunicação, mesmo sem observar seu uso ao longo do tempo.",
       "correctAnswer": "E",
       "explanation": "Uma estreia identifica a adoção de um meio. Demonstrar transformação histórica exige evidência sobre mudanças nas práticas e suas condições.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Krotz: midiatização como metaprocesso histórico em 3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Krotz: midiatização como metaprocesso histórico em 3 - Materias/Comunicacao/44 - midiatizacao hjarvard krotz hepp transformacao das praticas.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-dependencia-de-interface-e-dados",
@@ -16256,7 +16256,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1fc842a6b30d59e7#Estrutura de análise segundo Poell, Nieborg e Van Dijck (2019)"
       ],
@@ -16267,7 +16267,7 @@
       "statement": "Quando um serviço adapta seu cadastro e seu atendimento a mudanças nas interfaces e nas regras de acesso a dados de uma plataforma, a dependência envolve infraestrutura e governança.",
       "correctAnswer": "C",
       "explanation": "A interface condiciona a integração técnica. As regras de acesso condicionam quem pode usar os dados e em quais termos.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Estrutura de análise segundo Poell, Nieborg e Van Dijck (2019) em 3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Estrutura de análise segundo Poell, Nieborg e Van Dijck (2019) em 3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-efeito-de-alerta-e-compreensao",
@@ -16284,7 +16284,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-704e9cd41f60a2b8#Prevenção, checagem, correção e avaliação: finalidades diferentes"
       ],
@@ -16295,7 +16295,7 @@
       "statement": "O aumento das visualizações de um aviso que corrige um boato demonstra que as pessoas que acreditavam no boato mudaram de opinião.",
       "correctAnswer": "E",
       "explanation": "Visualizações medem exposição ao aviso. Para demonstrar mudança de opinião no público relevante, é preciso observar a crença com um desenho adequado.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Prevenção, checagem, correção e avaliação: finalidades diferentes em 3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Prevenção, checagem, correção e avaliação: finalidades diferentes em 3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-emissao-recepcao-simultaneas",
@@ -16312,7 +16312,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-943fb6a178d205ec#Terceiro conjunto: modelo transacional"
       ],
@@ -16323,7 +16323,7 @@
       "statement": "No modelo transacional, uma pessoa pode emitir e interpretar sinais ao mesmo tempo.",
       "correctAnswer": "C",
       "explanation": "A interação admite produção e interpretação simultâneas, como falar enquanto se observam as reações do interlocutor.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Terceiro conjunto: modelo transacional em 3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Terceiro conjunto: modelo transacional em 3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-abstracao-no-modelo",
@@ -16340,7 +16340,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-65e3a8bd42f190c7#Cinco termos e suas fronteiras"
       ],
@@ -16351,7 +16351,7 @@
       "statement": "Um modelo de comunicação precisa reproduzir todos os aspectos de uma situação concreta para representar qualquer relação entre seus elementos.",
       "correctAnswer": "E",
       "explanation": "Modelos selecionam componentes e relações pertinentes ao problema. A abstração é parte de sua função.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Cinco termos e suas fronteiras em 3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Cinco termos e suas fronteiras em 3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-lideranca-e-rede-interpessoal",
@@ -16368,7 +16368,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c3b719f24a6e058d#Núcleo do conceito"
       ],
@@ -16379,7 +16379,7 @@
       "statement": "Uma pessoa consultada pelos vizinhos sobre saúde ocupa necessariamente a mesma posição de influência quando o assunto muda para transporte.",
       "correctAnswer": "E",
       "explanation": "A influência interpessoal depende do tema e das relações do grupo. Ela não é uma posição universal em todos os assuntos.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-selecao-em-etapas-sucessivas",
@@ -16396,7 +16396,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-4e290c7b68d351af#Núcleo do conceito"
       ],
@@ -16407,7 +16407,7 @@
       "statement": "Uma assessoria envia dez pautas, uma redação escolhe duas e uma editora seleciona uma delas para o boletim. É possível investigar a seleção em cada etapa sem atribuir a exclusão de todas as pautas à decisão da editora.",
       "correctAnswer": "C",
       "explanation": "As decisões ocorreram em pontos distintos. Para atribuir cada exclusão, é preciso identificar quais pautas chegaram a cada etapa e quais foram retidas ali.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-consumo-e-organizacao-da-producao",
@@ -16424,7 +16424,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7ce2f05b3ad91486#Núcleo do conceito"
       ],
@@ -16435,7 +16435,7 @@
       "statement": "Para examinar a padronização industrial de um catálogo audiovisual, basta saber que cada espectador gosta de um título diferente.",
       "correctAnswer": "E",
       "explanation": "Preferências individuais não descrevem as rotinas e formas da produção. O exame da padronização exige comparar as estruturas e condições das obras.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-leitura-oposicional-com-reconhecimento",
@@ -16452,7 +16452,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b39da4815f7e0c26#Núcleo do conceito"
       ],
@@ -16463,7 +16463,7 @@
       "statement": "Um espectador pode reconhecer a interpretação preferencial de uma peça e, ainda assim, reinterpretá-la a partir de um quadro de valores que a contraria.",
       "correctAnswer": "C",
       "explanation": "Na leitura oposicional, reconhecer a interpretação proposta é compatível com rejeitá-la e reorganizar o sentido.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-meio-e-organizacao-da-interacao",
@@ -16480,7 +16480,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-0cd74f8a2be93651#Núcleo do conceito"
       ],
@@ -16491,7 +16491,7 @@
       "statement": "Uma entrevista antes distribuída em gravação passa a ser transmitida ao vivo com perguntas do público durante a fala. Mesmo que as respostas preparadas sejam iguais, é possível investigar mudança na temporalidade e na participação.",
       "correctAnswer": "C",
       "explanation": "A transmissão ao vivo muda a relação temporal e permite intervenção durante a emissão. A análise do meio abrange essas condições.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-simbolo-convencional",
@@ -16508,7 +16508,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5f913bd7a4c2680e#Ícone, índice e símbolo: o critério da relação com o objeto"
       ],
@@ -16519,7 +16519,7 @@
       "statement": "Na classificação de Peirce, a relação simbólica pode depender de convenção.",
       "correctAnswer": "C",
       "explanation": "O símbolo remete ao objeto segundo uma regra ou hábito interpretativo.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Ícone, índice e símbolo: o critério da relação com o objeto em 3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Ícone, índice e símbolo: o critério da relação com o objeto em 3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-clima-local-e-clima-amplo",
@@ -16536,7 +16536,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a4d7e832b9510c6f#Núcleo do conceito"
       ],
@@ -16547,7 +16547,7 @@
       "statement": "Observar silêncio em uma reunião permite concluir que a mesma pessoa evita falar em todos os ambientes, mesmo onde percebe apoio à sua posição.",
       "correctAnswer": "E",
       "explanation": "A disposição para falar pode variar com o clima de opinião percebido em cada contexto.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Núcleo do conceito em 3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-checagem-de-citacao-truncada",
@@ -16564,7 +16564,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f1483b1fa6d042c2#Método do fact-checking"
       ],
@@ -16575,7 +16575,7 @@
       "statement": "Se um trecho literal de discurso omite a condição que limitava a afirmação original, a checagem precisa comparar a citação com a passagem completa.",
       "correctAnswer": "C",
       "explanation": "A exatidão das palavras citadas não garante a preservação de seu alcance. O contexto pode alterar a interpretação.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Método do fact-checking em 3 - Materias/Comunicacao/18 - fact checking e desinformacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Método do fact-checking em 3 - Materias/Comunicacao/18 - fact checking e desinformacao.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-mudanca-na-governanca-sem-mudar-interface",
@@ -16592,7 +16592,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1fc842a6b30d59e7#Estrutura de análise segundo Poell, Nieborg e Van Dijck (2019)"
       ],
@@ -16603,7 +16603,7 @@
       "statement": "Se uma plataforma conserva a interface, mas restringe quais parceiros podem acessar métricas, a relação de dependência permanece necessariamente igual.",
       "correctAnswer": "E",
       "explanation": "A aparência pode continuar idêntica enquanto as regras de governança alteram a capacidade de medir, comparar e adaptar serviços.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Estrutura de análise segundo Poell, Nieborg e Van Dijck (2019) em 3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Estrutura de análise segundo Poell, Nieborg e Van Dijck (2019) em 3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     },
     {
       "id": "cam-cs-correcao-mais-rapida-com-alcance-menor",
@@ -16620,7 +16620,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-704e9cd41f60a2b8#Prevenção, checagem, correção e avaliação: finalidades diferentes"
       ],
@@ -16631,7 +16631,7 @@
       "statement": "Uma equipe passa a publicar correções em uma hora em vez de um dia, mas reduz a proporção do público exposto ao boato que recebe a correção. É possível registrar melhora de velocidade e piora de cobertura ao mesmo tempo.",
       "correctAnswer": "C",
       "explanation": "O tempo de publicação e a cobertura do público relevante são medidas distintas. Avaliar a intervenção exige observar ambas.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Prevenção, checagem, correção e avaliação: finalidades diferentes em 3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e operação cognitiva com Prevenção, checagem, correção e avaliação: finalidades diferentes em 3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md. Triagem lexical a 0,22 sem pares envolvendo o lote 009. Lote 009: integridade, sessão v3 e seleção por item do edital."
     }
   ]
 }

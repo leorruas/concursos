@@ -111,6 +111,6 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 - **Ordem Econômica e Financeira** (princípios gerais da atividade econômica, política urbana, política agrícola/fundiária e reforma agrária).
 
 ---
-- **Acompanhamento**: [[Avancos|Avanços e desempenho (Direito constitucional)]]
+- **Acompanhamento**: registro individual de estudos mantido no cofre privado
 *Última atualização: 2026-10-06*
 

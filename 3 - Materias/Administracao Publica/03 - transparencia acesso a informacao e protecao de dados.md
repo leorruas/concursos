@@ -72,6 +72,24 @@ Entre os conteúdos mínimos estão:
 
 Os sítios oficiais devem possuir, entre outros requisitos, ferramenta de pesquisa, possibilidade de acesso em formatos abertos e estruturados, atualização, autenticidade, integridade e medidas de acessibilidade.
 
+### Exceções e regras especiais de transparência ativa: LAI, arts. 8º, § 4º, e 8º-A
+
+**Municípios com até 10 mil habitantes:** o **art. 8º, § 4º, da LAI** dispensa esses municípios da **divulgação obrigatória na internet prevista no § 2º**, mas **preserva** a obrigação de divulgação **em tempo real** de informações de execução orçamentária e financeira, nos critérios e prazos do art. 73-B da Lei de Responsabilidade Fiscal. A exceção é específica: não elimina o direito de acesso à informação ou torna facultativo responder aos pedidos da LAI. Também não se aplica à Câmara dos Deputados.
+
+**Serviços sociais autônomos:** o **art. 8º-A, incluído pela Lei nº 15.141/2025**, disciplina deveres de publicidade de informações relativas a empregados de entidades privadas constituídas como **serviços sociais autônomos**, quando destinatárias de **contribuições** ou **recursos públicos federais decorrentes de contrato de gestão**, conforme a hipótese legal. A lei prevê divulgação de **plano de cargos e salários e critérios de evolução/fixação salarial**, **quantitativo de empregados discriminado por cargo e faixas salariais com nomes e cargos**, e **faixas de parcelas remuneratórias e indenizatórias** previstas no dispositivo. **Serviço social autônomo não é sinônimo de organização social (OS), OSCIP ou autarquia**: cada figura exige identificação jurídica própria.
+
+**Caso de prova:** uma prefeitura com nove mil habitantes deve observar a regra especial do § 4º, mantendo os deveres orçamentários/financeiros expressos. Uma OSC qualificada nos termos da Lei 9.637/1998 não se transforma automaticamente em **serviço social autônomo** pelo uso da palavra “social”. A aplicação do art. 8º-A exige verificar a natureza da entidade e a hipótese legal.
+
+**Questões inéditas C/E:**
+
+**1.** A LAI dispensa municípios com até dez mil habitantes da divulgação obrigatória na internet prevista no seu art. 8º, § 2º, preservada a divulgação em tempo real da execução orçamentária e financeira nas condições legais. **Gabarito: Certo.** É a exceção expressa do § 4º.
+
+**2.** O art. 8º, § 4º, da LAI afasta, para pequenos municípios, tanto a publicidade orçamentária quanto a obrigação de responder pedidos de acesso à informação. **Gabarito: Errado.** A ressalva da execução orçamentária permanece e a norma não elimina transparência passiva.
+
+**3.** O art. 8º-A da LAI, introduzido em 2025, trata de publicidade referente a empregados de determinados serviços sociais autônomos, sem converter indistintamente OS e OSCIP nessa categoria. **Gabarito: Certo.** O alcance depende da natureza jurídica da entidade e da hipótese descrita.
+
+**Fonte normativa atualizada:** [Lei 12.527/2011, arts. 8º e 8º-A, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html). Os itens são autorais, não retirados de provas oficiais.
+
 ### Transparência passiva
 
 Surge quando o interessado apresenta pedido de acesso. O termo “passiva” não significa inércia administrativa: apenas indica que o fluxo foi provocado por uma solicitação.

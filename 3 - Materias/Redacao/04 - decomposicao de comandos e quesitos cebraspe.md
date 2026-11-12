@@ -48,6 +48,32 @@ O **padrão definitivo** da prova discursiva da Polícia Federal de 2025, Cargo 
 
 **Contraexemplo:** “As mídias digitais revolucionaram as empresas. Hoje todos usam ferramentas modernas e a colaboração é muito importante. A organização deve incentivar a inovação.” O texto menciona o assunto, mas não demonstra o impacto nas relações de poder, não identifica resistência concreta e não explica dois benefícios. **Insuficiente** significa falta de evidência para exigências, ainda que a linguagem seja fluente.
 
+## Par documental real: enunciado e padrão definitivo do TCE-MG 2026
+
+**Atenção à origem:** o [caderno oficial do TCE-MG, cargo 8, questão discursiva 2, página 4](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/3ADF49146A2E55690BB77554138AD177F6BD763BC8B6C35FECD4EB7BAB4A06CD.pdf), aplicado em 25/01/2026, e seu [padrão definitivo de resposta](https://cdn.cebraspe.org.br/concursos/tce_mg_25/arquivos/F38183E8ACE5B775CF445F24D52F5AB2E256333F594FE1078FD73B84B535690C.pdf) constituem **um par oficial de prova anterior**, conferido no [relatório de auditoria da matéria](https://github.com/leorruas/concursos/blob/main/1%20-%20Planejamento/Camara%202026%20-%20Auditoria%20integral%20por%20materia/09%20-%20Redacao%20Discursiva%20e%20Peca%20Tecnica%20-%20Fase%201.md). A questão original admitia **até 60 linhas**, portanto não se pode aplicar seus limites ou seus valores à futura prova da Câmara.
+
+**Decomposição fiel ao sentido, sem copiar integralmente o enunciado:**
+
+| Operação do caderno real | Especificação que o candidato precisa escrever | Valor da questão do TCE-MG, apenas histórico | O que não atende |
+| --- | --- | ---: | --- |
+| Explicar papel do comunicador no planejamento de acessibilidade em eventos | Atribuição profissional e ação antecipada sobre barreiras e necessidades dos públicos | 3,50 | “Acessibilidade é importante”: princípio genérico, sem papel nem fase |
+| Indicar **ao menos três** recursos de acessibilidade e/ou tecnologias assistivas | Três recursos **distintos**, adequados ao evento, como interpretação em Libras, legendagem em tempo real e audiodescrição quando pertinentes | 3,00 | Explicar um recurso em três frases, como se fossem três exemplos |
+| Relacionar recursos a inclusão, equidade e combate ao capacitismo | Explicar **como** os recursos removem barreiras e favorecem participação sem discriminação | 3,00 | Enumerar palavras positivas sem relação entre recurso e efeito |
+
+O caderno daquela questão também reservou **0,50 ponto** à apresentação e à estrutura, totalizando **10 pontos naquele certame**. Esses valores **não são pesos da Câmara 2026/2027**. O padrão definitivo permite verificar graus de cobertura de cada exigência. Uma resposta pode atingir a quantidade de três recursos e ainda falhar ao explicar a contribuição social; os quesitos são distintos.
+
+**Autópsia de três respostas inéditas, não respostas oficiais nem classificações da banca:**
+
+**A: menção temática.** “A acessibilidade é fundamental, e o comunicador deve utilizar Libras para incluir pessoas.” Diagnóstico da grade didática: o papel profissional aparece de modo genérico, há apenas **um recurso** e a contribuição à inclusão é afirmada sem mecanismo. Não equivale a “três recursos” porque a frase é longa.
+
+**B: enumeração sem relação.** “A organização deve prever interpretação em Libras, legendagem em tempo real e audiodescrição. São medidas inclusivas.” Diagnóstico: atende à **quantidade de recursos**, mas não desenvolve o planejamento profissional nem demonstra a relação de cada intervenção com a redução de barreiras e o combate ao capacitismo.
+
+**C: mecanismo e cobertura, modelo sintético autoral.** “Durante o planejamento, profissionais de comunicação identificam necessidades dos públicos, coordenam adaptações da informação e testam recursos pertinentes. A interpretação em Libras, a legendagem em tempo real e a audiodescrição atendem barreiras comunicacionais diferentes, conforme o perfil dos participantes e as atividades. Ao permitir acesso mais equitativo às informações e à participação, essas medidas contribuem para enfrentar exclusões capacitistas.” Diagnóstico: os **três núcleos são localizáveis**, mas o texto continua sendo demonstração própria, não resposta que recebeu conceito oficial. A adequação dos recursos depende do evento e dos públicos efetivos.
+
+**Treino de transferência para a Câmara, expressamente adaptado:** escreva uma resposta de **até 20 linhas** cobrindo os mesmos três núcleos; o limite foi alterado **para fins de exercício**. Marque a frase que atende ao verbo, a que cumpre a quantidade e a que demonstra a relação social. Depois troque o comando por “indique dois recursos e avalie a necessidade de cada um para públicos distintos”; a grade deverá mudar, sem preservar automaticamente o número três. Para comparar texto e autocorreção, consulte [[05 - resposta conceitual curta de 20 linhas|resposta curta]] e [[07 - revisao e autocorrecao de discursivas e pecas|revisão]].
+
+**C/E inéditos sobre leitura de comandos:** (1) “Se a questão exige três exemplos diferentes, explicar um único exemplo de três maneiras cumpre a quantidade.” **Errado:** quantidade conta itens distintos. (2) “Listar recursos e explicar seu efeito social são operações independentes quando exigidas separadamente.” **Certo:** a relação precisa ser escrita além da lista. (3) “O valor de 3,50 pontos do TCE-MG pode ser usado como peso presumido da futura discursiva da Câmara.” **Errado:** cada concurso possui edital e padrão próprios.
+
 ## Fronteira: menção, explicação e relação
 
 “Melhora a cultura” é **menção**; “a circulação horizontal de informações favorece troca entre setores” é **explicação de mecanismo**. “As pessoas têm mais informação” descreve um efeito; “o acesso menos concentrado altera a dependência de intermediários hierárquicos” **relaciona** efeito e poder. Evitar causalidades absolutas: presença de plataforma digital não produz colaboração automaticamente.

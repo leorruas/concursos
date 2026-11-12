@@ -19992,6 +19992,141 @@
       "correctAnswer": "C",
       "explanation": "Essa dimensão examina sujeitos, interações e sentidos atribuídos à comunicação.",
       "reviewEvidence": "Cotejo editorial com Dimensão humana: pessoas, subjetividade e diálogo em 3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch.md. Triagem lexical a 0,22 e verificação de mecanismos recorrentes. Lote 012: verificação de integridade, sessão v3 e seleção."
+    },
+    {
+      "id": "cam-cs-mesma-pauta-com-abordagens-distintas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / planejamento editorial",
+      "articleId": "art-a72f906bde4318c5",
+      "conceptId": "mesma-pauta-com-abordagens-distintas",
+      "mechanism": "mesma-pauta-com-abordagens-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md",
+        "section": "Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes"
+      },
+      "statement": "Uma audiência pode ser pauta tanto de um vídeo que ensina como participar quanto de uma nota que resume as propostas discutidas.",
+      "correctAnswer": "C",
+      "explanation": "A pauta é o assunto selecionado. A abordagem recorta o que será apresentado e para qual finalidade."
+    },
+    {
+      "id": "cam-cs-comentarios-como-sinal-de-pauta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / planejamento editorial",
+      "articleId": "art-a72f906bde4318c5",
+      "conceptId": "comentarios-como-sinal-de-pauta",
+      "mechanism": "comentarios-como-sinal-de-pauta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Escuta, comentários e revisão de pauta"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md",
+        "section": "Escuta, comentários e revisão de pauta"
+      },
+      "statement": "Dez comentários sobre a mesma dúvida demonstram que ela é a mais frequente entre todos os usuários do serviço.",
+      "correctAnswer": "E",
+      "explanation": "Os comentários são sinais úteis para investigação. A participação no canal não permite inferir frequência para todo o público."
+    },
+    {
+      "id": "cam-cs-pauta-com-data-a-confirmar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / planejamento editorial",
+      "articleId": "art-a72f906bde4318c5",
+      "conceptId": "pauta-com-data-a-confirmar",
+      "mechanism": "pauta-com-data-a-confirmar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Planejamento temporal: horizonte, calendário e revisão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md",
+        "section": "Planejamento temporal: horizonte, calendário e revisão"
+      },
+      "statement": "É possível reservar espaço no calendário para uma audiência ainda sem data confirmada, desde que a publicação fique condicionada à confirmação.",
+      "correctAnswer": "C",
+      "explanation": "O planejamento pode reservar capacidade sem transformar uma previsão em informação pública confirmada."
+    },
+    {
+      "id": "cam-cs-peca-agendada-com-fato-superado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / produção colaborativa",
+      "articleId": "art-8f0c2e19a5d74b6c",
+      "conceptId": "peca-agendada-com-fato-superado",
+      "mechanism": "peca-agendada-com-fato-superado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8f0c2e19a5d74b6c#Estados do conteúdo e critérios de passagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md",
+        "section": "Estados do conteúdo e critérios de passagem"
+      },
+      "statement": "Uma postagem agendada sobre um evento pode seguir para publicação após seu cancelamento, pois o estado agendado certifica a validade da informação até o horário previsto.",
+      "correctAnswer": "E",
+      "explanation": "Agendar define o momento de publicar. O cancelamento altera uma premissa e exige interromper ou atualizar a publicação."
+    },
+    {
+      "id": "cam-cs-governanca-sem-etapa-identica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / produção colaborativa",
+      "articleId": "art-8f0c2e19a5d74b6c",
+      "conceptId": "governanca-sem-etapa-identica",
+      "mechanism": "governanca-sem-etapa-identica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8f0c2e19a5d74b6c#Halvorson: workflow e governance como componentes diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md",
+        "section": "Halvorson: workflow e governance como componentes diferentes"
+      },
+      "statement": "Uma instituição pode manter o mesmo responsável pelo aceite e adotar fluxos diferentes para posts de rotina e alertas urgentes.",
+      "correctAnswer": "C",
+      "explanation": "A governança define autoridade e regras. O fluxo organiza as etapas, que podem variar segundo o tipo de publicação."
     }
   ]
 }

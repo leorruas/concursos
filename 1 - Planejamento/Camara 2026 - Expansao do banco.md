@@ -67,3 +67,7 @@ Três itens revisados e reformulados após o cotejo de mecanismos. O par sobre r
 ## Lote 012 validado
 
 Quarenta questões de comunicação organizacional sobre dimensões, integração, fluxos, redes, públicos, planejamento, indicadores e gestão de projetos. Cotejo editorial concluído. Três casos foram reformulados para distinguir mecanismos próximos. Seleção dos 40 itens verificada. Próximo lote: redes sociais digitais oficiais, item 5 de Comunicação Social.
+
+## Lote 013 em elaboração
+
+Cinco questões sobre planejamento editorial e produção colaborativa em redes oficiais, vinculadas aos artigos 65 e 66. Ampliar com públicos, linguagens, proporções e formatos de publicação.

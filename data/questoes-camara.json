@@ -8053,8 +8053,8 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 2 / conceitos",
       "articleId": "art-45d8f190ac2e673b",
-      "conceptId": "troca-de-beneficio-e-custo",
-      "mechanism": "troca-de-beneficio-e-custo",
+      "conceptId": "beneficio-na-perspectiva-do-publico",
+      "mechanism": "beneficio-na-perspectiva-do-publico",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
@@ -8066,9 +8066,9 @@
         "path": "3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos.md",
         "section": "Valor percebido: benefício, custo e utilidade"
       },
-      "statement": "Uma visita guiada mais longa pode ter menor valor percebido para quem dispõe de pouco tempo, mesmo se oferecer mais explicações e cobrar o mesmo preço.",
+      "statement": "Dois formatos têm o mesmo preço e exigem o mesmo tempo do visitante. Uma versão com explicações em linguagem familiar ao público pode elevar o valor percebido mesmo se os organizadores tiverem gastado menos para produzi-la.",
       "correctAnswer": "C",
-      "explanation": "O benefício adicional precisa ser ponderado com o custo de tempo percebido por esse público."
+      "explanation": "O valor percebido depende da utilidade para o público em relação aos seus custos. O custo de produção da organização não mede diretamente o benefício recebido."
     },
     {
       "id": "cam-di-promessa-e-experiencia",
@@ -8080,8 +8080,8 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 2 / conceitos",
       "articleId": "art-45d8f190ac2e673b",
-      "conceptId": "promessa-e-experiencia",
-      "mechanism": "promessa-e-experiencia",
+      "conceptId": "satisfacao-sem-recompra",
+      "mechanism": "satisfacao-sem-recompra",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
@@ -8093,9 +8093,9 @@
         "path": "3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos.md",
         "section": "Satisfação, expectativa, qualidade e lealdade"
       },
-      "statement": "Se a qualidade percebida permanece igual, elevar a expectativa pela promessa de atendimento imediato pode reduzir a satisfação após a experiência.",
-      "correctAnswer": "C",
-      "explanation": "A expectativa maior pode ampliar a diferença entre desempenho percebido e promessa."
+      "statement": "Uma pessoa satisfeita com uma exposição anual muda de cidade e deixa de visitá-la. A interrupção das visitas comprova insatisfação com a última experiência.",
+      "correctAnswer": "E",
+      "explanation": "A recompra ou revisita depende de oportunidade e de outros custos. O deslocamento pode explicar a interrupção mesmo com satisfação anterior."
     },
     {
       "id": "cam-di-ansoff-dois-movimentos",
@@ -8134,8 +8134,8 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 2 / planejamento",
       "articleId": "art-1c9e5b7a32d0648f",
-      "conceptId": "bcg-comparacao-de-portfolios",
-      "mechanism": "bcg-comparacao-de-portfolios",
+      "conceptId": "bcg-e-decisao-sob-restricao",
+      "mechanism": "bcg-e-decisao-sob-restricao",
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
@@ -8147,9 +8147,9 @@
         "path": "3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes.md",
         "section": "BCG: participação relativa e crescimento"
       },
-      "statement": "Em mercados com a mesma taxa de crescimento, A tem 24% de participação contra 48% da líder e B tem 18% contra 20% da líder. B ocupa posição mais alta no eixo de participação relativa, embora tenha participação absoluta menor.",
+      "statement": "Uma unidade opera em mercado de alto crescimento e tem participação relativa de 0,4. Seu reposicionamento exigiria um investimento superior ao orçamento aprovado. A classificação na matriz BCG pode justificar estudar a oportunidade, mas é insuficiente para autorizar o investimento nas condições descritas.",
       "correctAnswer": "C",
-      "explanation": "As razões são 0,50 e 0,90. A comparação exige normalizar cada participação pela líder do respectivo mercado."
+      "explanation": "O crescimento alto e a participação relativa baixa indicam uma posição que pede análise. A decisão também precisa respeitar o orçamento e examinar a viabilidade de ganhar participação."
     },
     {
       "id": "cam-di-percepcao-entre-publicos",
@@ -8404,22 +8404,22 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing digital",
       "articleId": "art-c2d947e6a15083bf",
-      "conceptId": "passagem-de-canal-com-contexto",
-      "mechanism": "passagem-de-canal-com-contexto",
+      "conceptId": "integracao-de-registro-e-indicador",
+      "mechanism": "integracao-de-registro-e-indicador",
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-c2d947e6a15083bf#Integração multicanal, cross-channel e omnichannel"
+        "article:art-c2d947e6a15083bf#Planejamento e governança da integração"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md",
-        "section": "Integração multicanal, cross-channel e omnichannel"
+        "section": "Planejamento e governança da integração"
       },
-      "statement": "Um cidadão abre um chamado no portal e recebe um protocolo. A equipe telefônica recupera os dados do chamado pelo protocolo e complementa o registro. A continuidade da tarefa pode existir mesmo que o portal e o telefone tenham interfaces diferentes.",
-      "correctAnswer": "C",
-      "explanation": "A equipe retoma o mesmo caso. O critério relevante é a preservação do contexto e do estado da tarefa entre canais."
+      "statement": "Em um atendimento integrado, o portal registra a abertura de um protocolo e o telefone registra a conclusão desse mesmo caso. Para medir quantos casos foram atendidos, somar os dois registros sem conciliação produz uma contagem de casos únicos.",
+      "correctAnswer": "E",
+      "explanation": "Abertura e conclusão são eventos do mesmo caso. A contagem de casos únicos precisa conciliar os registros pelo protocolo e definir se conta casos abertos ou concluídos."
     },
     {
       "id": "cam-di-situacao-problema-inicial",

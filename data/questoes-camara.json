@@ -20127,6 +20127,168 @@
       "statement": "Uma instituição pode manter o mesmo responsável pelo aceite e adotar fluxos diferentes para posts de rotina e alertas urgentes.",
       "correctAnswer": "C",
       "explanation": "A governança define autoridade e regras. O fluxo organiza as etapas, que podem variar segundo o tipo de publicação."
+    },
+    {
+      "id": "cam-cs-mesma-proporcao-com-resolucoes-distintas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / proporções",
+      "articleId": "art-bb9305cf871d42ae",
+      "conceptId": "mesma-proporcao-com-resolucoes-distintas",
+      "mechanism": "mesma-proporcao-com-resolucoes-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-bb9305cf871d42ae#Proporção, resolução, orientação e enquadramento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md",
+        "section": "Proporção, resolução, orientação e enquadramento"
+      },
+      "statement": "Dois cards de 800 × 1.000 e 1.200 × 1.500 pixels têm a mesma proporção, embora tenham resoluções diferentes.",
+      "correctAnswer": "C",
+      "explanation": "As duas razões largura por altura se reduzem a 4:5. As quantidades de pixels são diferentes."
+    },
+    {
+      "id": "cam-cs-altura-comparada-em-largura-fixa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / proporções",
+      "articleId": "art-bb9305cf871d42ae",
+      "conceptId": "altura-comparada-em-largura-fixa",
+      "mechanism": "altura-comparada-em-largura-fixa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-bb9305cf871d42ae#Proporção, resolução, orientação e enquadramento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md",
+        "section": "Proporção, resolução, orientação e enquadramento"
+      },
+      "statement": "Para uma largura de 900 pixels, uma peça 3:4 tem a mesma altura que uma 9:16 porque ambas são verticais.",
+      "correctAnswer": "E",
+      "explanation": "As alturas são 1.200 e 1.600 pixels, respectivamente. A orientação vertical não implica razões iguais."
+    },
+    {
+      "id": "cam-cs-condicao-essencial-no-card-isolado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / formatos",
+      "articleId": "art-5c4d7e9b1a8260f3",
+      "conceptId": "condicao-essencial-no-card-isolado",
+      "mechanism": "condicao-essencial-no-card-isolado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5c4d7e9b1a8260f3#Carrossel: sequência ordenada, progressão e controle de sentido"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md",
+        "section": "Carrossel: sequência ordenada, progressão e controle de sentido"
+      },
+      "statement": "Se um card com instrução de inscrição pode circular isoladamente, incluir nele a restrição de público reduz o risco de a orientação ser aplicada por pessoas inelegíveis.",
+      "correctAnswer": "C",
+      "explanation": "Uma condição essencial em outro card pode se perder no compartilhamento isolado. Aproximá-la da instrução preserva seu alcance."
+    },
+    {
+      "id": "cam-cs-live-com-resposta-posterior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / formatos",
+      "articleId": "art-5c4d7e9b1a8260f3",
+      "conceptId": "live-com-resposta-posterior",
+      "mechanism": "live-com-resposta-posterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5c4d7e9b1a8260f3#Live e transmissão ao vivo: simultaneidade, moderação e contingência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md",
+        "section": "Live e transmissão ao vivo: simultaneidade, moderação e contingência"
+      },
+      "statement": "Uma equipe pode reservar tempo de moderação durante uma transmissão e prever retorno posterior para perguntas que exigem verificação.",
+      "correctAnswer": "C",
+      "explanation": "A simultaneidade permite interação. A verificação de algumas respostas pode requerer um fluxo posterior."
+    },
+    {
+      "id": "cam-cs-chamada-e-destino-incompativel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
+      "articleId": "art-37c8f1e42a9065bd",
+      "conceptId": "chamada-e-destino-incompativel",
+      "mechanism": "chamada-e-destino-incompativel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37c8f1e42a9065bd#Chamada para ação: comportamento, destino e condição"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
+        "section": "Chamada para ação: comportamento, destino e condição"
+      },
+      "statement": "Uma peça que orienta “envie sua proposta” e leva a uma página que apenas descreve o programa permite executar a ação anunciada diretamente no destino.",
+      "correctAnswer": "E",
+      "explanation": "O destino precisa oferecer a tarefa proposta ou indicar claramente o próximo passo. Uma descrição isolada não recebe propostas."
+    },
+    {
+      "id": "cam-cs-legenda-textual-sem-cobrir-falas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
+      "articleId": "art-37c8f1e42a9065bd",
+      "conceptId": "legenda-textual-sem-cobrir-falas",
+      "mechanism": "legenda-textual-sem-cobrir-falas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37c8f1e42a9065bd#Três sentidos que não se confundem: legenda, legenda audiovisual e texto alternativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
+        "section": "Três sentidos que não se confundem: legenda, legenda audiovisual e texto alternativo"
+      },
+      "statement": "Uma descrição breve abaixo de um vídeo que resume seu tema garante acesso às falas, ainda que não apresente seu conteúdo.",
+      "correctAnswer": "E",
+      "explanation": "A descrição contextualiza o vídeo. A legenda audiovisual torna acessível o conteúdo falado e outros sons relevantes."
     }
   ]
 }

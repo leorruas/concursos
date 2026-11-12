@@ -55,7 +55,7 @@ Para localizar matérias legislativas com precisão em meio a bilhões de págin
 | :--- | :--- | :--- | :--- |
 | **Aspas Duplas** | `"termo exato"` | Busca a **frase exata**, na mesma ordem, sem variações morfológicas ou sinônimos | `"reforma tributária"` |
 | **Sinal de Menos (Exclusão)** | `-termo` | **Exclui** páginas que contenham a palavra especificada (sem espaço após o sinal `-`) | `parlamento -europeu` |
-| **Filtro de Site / Domínio** | `site:dominio` | Restringe os resultados exclusivamente às páginas daquele domínio ou extensão | `orçamento site:camara.leg.br` |
+| **Filtro de Site / Domínio** | `site:dominio` | Restringe a pesquisa aos resultados indexados para o domínio ou prefixo | `orçamento site:camara.leg.br` |
 | **Filtro de Tipo de Arquivo** | `filetype:ext` | Localiza documentos disponíveis em um formato de arquivo específico (`pdf`, `xlsx`, `docx`) | `regimento interno filetype:pdf` |
 | **Filtro de Título** | `intitle:palavra` | Exige que a palavra apareça expressamente na tag `<title>` da página | `intitle:liderança` |
 | **Filtro de URL** | `inurl:termo` | Exige que o termo conste na própria URL do endereço | `inurl:comissoes` |
@@ -136,7 +136,7 @@ flowchart TD
 Um assessor da Câmara precisa encontrar o arquivo PDF oficial do relatório da Reforma Tributária publicado exclusivamente no portal da Câmara dos Deputados, evitando notícias secundárias de jornais.
 *Análise:* O comando de busca avançada ideal a ser digitado no motor de busca é:
 `"reforma tributária" site:camara.leg.br filetype:pdf`
-O uso das aspas força a frase exata; `site:camara.leg.br` elimina qualquer portal externo; e `filetype:pdf` filtra unicamente documentos originais em PDF.
+As aspas solicitam a correspondência da frase; `site:camara.leg.br` e `filetype:pdf` restringem resultados **indexados** por domínio e formato identificado. Esses filtros não comprovam autoria editorial, autenticidade dos documentos ou completude do índice.
 
 ### Caso 2: Equívoco sobre navegação anônima no trabalho
 Um estagiário utiliza a Janela InPrivate do Microsoft Edge em seu computador na Câmara para acessar redes sociais e sites de compras durante o expediente, acreditando que a equipe de segurança da informação da Casa não saberá o que ele acessou porque "o modo anônimo não deixa rastros".
@@ -224,7 +224,7 @@ Um desenvolvedor compartilha o link `https://www.camara.leg.br/noticias#votacao-
 
 | Operador | O que faz | Sintaxe Correta | Sintaxe Inválida |
 | :--- | :--- | :--- | :--- |
-| `" "` | Frase exata | `"comissão mista"` | `"comissão mista |
+| `" "` | Frase exata | `"comissão mista"` | Exemplo inválido: aspa final ausente |
 | `-` | Exclui termo | `câmara -comércio` | `câmara - comércio` |
 | `site:` | Restringe a domínio | `site:leg.br` | `site: leg.br` |
 | `filetype:` | Restringe a extensão | `filetype:pdf` | `filetype: pdf` |
@@ -250,3 +250,5 @@ Um desenvolvedor compartilha o link `https://www.camara.leg.br/noticias#votacao-
 **Variação C/E:** “Cookies de primeira parte servem exclusivamente para login e não podem ser usados para medição de uso.” **ERRADO**: podem atender a diferentes finalidades.
 
 **Fonte técnica:** [MDN: Cookies HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Guides/Cookies) e [MDN: cookies de terceiros e contexto first-party](https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/Third-party_cookies). Item 5 original permanece **NÃO HOMOLOGADO**.
+
+> **Implementação TI-107 (11/11/2026):** corrigida tabela de aspas e limitação dos filtros de busca: operadores não garantem autenticidade ou exaustividade. Fonte: [Ajuda do Google](https://support.google.com/websearch/answer/2466433?hl=pt-br).

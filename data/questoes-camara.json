@@ -13516,6 +13516,222 @@
       "statement": "Quando a campanha exige peças prontas para duas plataformas, registrar os formatos e as condições de aceite no repasse ajuda a evitar que a equipe considere suficiente entregar apenas o arquivo mestre.",
       "correctAnswer": "C",
       "explanation": "O repasse precisa explicitar quais entregas serão verificadas. O arquivo mestre pode ser insumo para adaptações sem atender aos requisitos de ambas as plataformas."
+    },
+    {
+      "id": "cam-di-revisao-interfuncional-de-peca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "revisao-interfuncional-de-peca",
+      "mechanism": "revisao-interfuncional-de-peca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Papéis profissionais: especialização não é exclusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Papéis profissionais: especialização não é exclusividade"
+      },
+      "statement": "A participação da direção de arte na revisão de um título não elimina a distinção entre o trabalho visual e a responsabilidade pela redação.",
+      "correctAnswer": "C",
+      "explanation": "A colaboração pode atravessar especialidades. As responsabilidades de execução e aprovação continuam identificáveis."
+    },
+    {
+      "id": "cam-di-informado-e-consultado-no-repasse",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "informado-e-consultado-no-repasse",
+      "mechanism": "informado-e-consultado-no-repasse",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#RACI: responsabilizar sem confundir execução e aceite"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "RACI: responsabilizar sem confundir execução e aceite"
+      },
+      "statement": "Informar a equipe de mídia depois de escolher um formato equivale a consultá-la antes da decisão, mesmo quando só ela conhece as restrições do veículo.",
+      "correctAnswer": "E",
+      "explanation": "O informado recebe notícia da decisão. O consultado contribui enquanto a escolha ainda pode mudar."
+    },
+    {
+      "id": "cam-di-estrutura-funcional-com-interface",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "estrutura-funcional-com-interface",
+      "mechanism": "estrutura-funcional-com-interface",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Estruturas organizacionais: autoridade, coordenação e tensões"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Estruturas organizacionais: autoridade, coordenação e tensões"
+      },
+      "statement": "Uma agência pode manter profissionais agrupados por especialidade e designar um ponto de contato para sincronizar as entregas entre setores sem necessariamente reorganizá-los em equipes permanentes de campanha.",
+      "correctAnswer": "C",
+      "explanation": "A coordenação entre áreas pode ser criada dentro de uma estrutura funcional. A mudança de interface não implica alterar a lotação."
+    },
+    {
+      "id": "cam-di-revisao-independente-com-criterio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "revisao-independente-com-criterio",
+      "mechanism": "revisao-independente-com-criterio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Decisões, aprovações e segregação de funções"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Decisões, aprovações e segregação de funções"
+      },
+      "statement": "Se o mesmo profissional executa a produção e registra seu próprio aceite, o registro basta para demonstrar que houve revisão independente.",
+      "correctAnswer": "E",
+      "explanation": "A existência de um registro demonstra que alguém fez o aceite. Independência depende de quem verificou o trabalho."
+    },
+    {
+      "id": "cam-di-retrospectiva-e-evidencia-de-problema",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "retrospectiva-e-evidencia-de-problema",
+      "mechanism": "retrospectiva-e-evidencia-de-problema",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Gestão de conflitos, feedback e aprendizagem"
+      },
+      "statement": "Se a retrospectiva identifica que versões antigas chegaram à revisão por falta de indicação da versão vigente, estabelecer uma fonte única para os arquivos aborda o problema observado.",
+      "correctAnswer": "C",
+      "explanation": "A medida trata a causa identificada na passagem de trabalho. Ela reduz a possibilidade de selecionar versões obsoletas."
+    },
+    {
+      "id": "cam-di-tempo-de-processamento-e-espera",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "tempo-de-processamento-e-espera",
+      "mechanism": "tempo-de-processamento-e-espera",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Avaliação de equipe: atividade, entrega, processo e resultado"
+      },
+      "statement": "Uma peça pode exigir duas horas de trabalho efetivo e permanecer três dias aguardando um parecer. Medir somente as horas de execução deixa de capturar a espera no fluxo.",
+      "correctAnswer": "C",
+      "explanation": "O tempo de processamento registra o trabalho ativo. O prazo transcorrido inclui intervalos em fila."
+    },
+    {
+      "id": "cam-di-especialidades-e-capacidade-nao-intercambiavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "especialidades-e-capacidade-nao-intercambiavel",
+      "mechanism": "especialidades-e-capacidade-nao-intercambiavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      },
+      "statement": "Uma campanha precisa de dez horas de edição e dez de revisão. A equipe dispõe de 14 horas de edição e seis de revisão. A soma de 20 horas garante concluir a campanha sem remanejamento, ainda que os profissionais não possam exercer a outra função.",
+      "correctAnswer": "E",
+      "explanation": "O total coincide com a carga, mas faltam quatro horas na especialidade de revisão. As horas excedentes de edição não compensam a restrição sem substituição."
+    },
+    {
+      "id": "cam-di-autonomia-e-criterio-comum",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "autonomia-e-criterio-comum",
+      "mechanism": "autonomia-e-criterio-comum",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Liderança, coordenação e autonomia profissional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Liderança, coordenação e autonomia profissional"
+      },
+      "statement": "Definir previamente critérios comuns de qualidade impede que uma equipe escolha de forma autônoma como realizar o trabalho.",
+      "correctAnswer": "E",
+      "explanation": "Critérios delimitam o resultado esperado. A equipe pode escolher os meios dentro dos limites definidos."
     }
   ]
 }

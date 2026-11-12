@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { selectCamaraQuestions } from './select-camara-questions.js';
 import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { assertCamaraTiQuestionAllowed } from './camara-ti-question-guard.js';
@@ -56,3 +57,14 @@ for (const item of bank.expansao) {
 }
 
 console.log('Câmara: integridade de ' + bank.expansao.length + ' itens de expansão verificada.');
+
+const fixture = bank.expansao[0];
+const selection = selectCamaraQuestions({ expansao: [
+  { ...fixture, id: 'gerada', reviewStatus: 'gerada' },
+  { ...fixture, id: 'revisada', reviewStatus: 'revisada' },
+  { ...fixture, id: 'bloqueada', reviewStatus: 'bloqueada', reviewEvidence: 'fixture' },
+  { ...fixture, id: 'sem-evidencia', reviewStatus: 'validada', reviewEvidence: '' },
+  { ...fixture, id: 'validada', reviewStatus: 'validada', reviewEvidence: 'fixture' },
+] }, { unitId: fixture.unitId, difficulty: fixture.estimatedDifficulty });
+assert.deepEqual(selection.map(item => item.id), ['validada']);
+assert.deepEqual(selectCamaraQuestions({ expansao: selection }, { unitId: 'outra' }), []);

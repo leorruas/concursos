@@ -14,7 +14,7 @@ updated: 2026-11-11
 
 ## Núcleo do conceito: salvaguarda de dados e continuidade operacional
 
-O **backup** (cópia de segurança) é o procedimento sistemático e periódico de duplicar dados digitais para um meio de armazenamento secundário e independente, com a finalidade exclusiva de permitir sua **restauração integral** em caso de perda acidental, exclusão maliciosa (ex.: ransomware), corrupção de arquivos ou falha física de hardware.
+O **backup** (cópia de segurança) é o procedimento sistemático e periódico de duplicar dados digitais para um meio de armazenamento secundário e independente, para possibilitar **recuperação de dados ou sistemas** após perda acidental, ataque, corrupção ou falha. A recuperação pode ser parcial ou integral conforme a necessidade, a cobertura das cópias, a retenção, a integridade e os testes de restauração; copiar não garante recuperar.
 
 No âmbito da governança de Tecnologia da Informação do setor público e em órgãos do Poder Legislativo, o backup é a contramedida primordial para assegurar o princípio da **Disponibilidade** e salvaguardar a **Integridade** histórica do patrimônio documental.
 
@@ -58,9 +58,9 @@ Para compreender como os softwares de backup operam nos sistemas de arquivos (co
 | :--- | :--- | :--- | :--- |
 | **Arquivos copiados** | Todos os dados da seleção | Apenas arquivos alterados desde o **último backup** (seja Full ou Incremental) | Apenas arquivos alterados desde o **último backup Completo** |
 | **Manipulação do Atributo** | No modelo clássico com archive bit, desmarca (`0`) | No modelo clássico com archive bit, desmarca (`0`) | No modelo clássico com archive bit, não desmarca (`1`) |
-| **Velocidade de execução** | Mais lenta (maior volume) | **Mais rápida** (volume mínimo diário) | Intermediária (volume cresce ao longo dos dias) |
-| **Espaço em disco exigido** | Muito alto | **Muito baixo** | Intermediário a alto (dados repetem-se nos dias seguintes) |
-| **Processo de Restauração** | **Mais simples e rápido**: restaura apenas a mídia do Full | **Mais complexo e demorado**: restaura o último Full + **TODOS** os incrementais em sequência cronológica | **Equilibrado**: restaura apenas o último Full + o **ÚLTIMO** diferencial |
+| **Velocidade de execução** | Em geral exige copiar mais dados | Em muitos cenários copia menos dados que o completo | Pode acumular mais dados a cada execução desde o completo; depende da implementação |
+| **Espaço em disco exigido** | Relacionado ao volume coberto | Depende do conjunto modificado, deduplicação, compressão e retenção | Depende do conjunto modificado desde o completo e dos mecanismos empregados |
+| **Processo de Restauração** | No modelo clássico, usa a cópia completa | No modelo clássico, usa o completo e a sequência de incrementais necessários | No modelo clássico, usa o completo e o diferencial mais recente íntegro |
 | **Risco na perda de uma fita/mídia** | Perda restrita àquela data | Se **uma fita incremental** falhar na cadeia, todos os incrementais posteriores ficam inutilizáveis | Se um diferencial intermediário for perdido, não há prejuízo (apenas o último interessa) |
 
 ---
@@ -107,9 +107,9 @@ Um dos erros mais comuns de usuários leigos e uma das pegadinhas mais frequente
 | Dimensão | Backup Corporativo | Sincronização em Nuvem (Sync) |
 | :--- | :--- | :--- |
 | **Finalidade primordial** | Salvaguarda estática e histórica para recuperação de desastres (*Point-in-Time Recovery*) | Disponibilização ubíqua dos mesmos arquivos atualizados em múltiplos dispositivos |
-| **Efeito da exclusão acidental** | O arquivo apagado na máquina de produção **permanece preservado** intacto nas cópias de backup anteriores | A exclusão feita em uma máquina é **replicada instantaneamente** na nuvem e em todos os dispositivos sincronizados |
-| **Efeito de ataque por Ransomware** | Backups imutáveis (*WORM* / *offline* / *air-gapped*) permanecem inacessíveis e protegidos contra cifração | Arquivos cifrados localmente são **sincronizados e substituídos na nuvem**, propagando o estrago em tempo real |
-| **Independência de estado** | Total: o backup é uma fotografia pontual (*snapshot*) desconectada da rotina de edição ativa | Nula: reflete o estado dinâmico atual dos arquivos locais |
+| **Efeito da exclusão acidental** | Uma cópia anterior recuperável **pode preservar** o arquivo, conforme retenção e integridade | A exclusão **pode propagar-se** quando houver conexão e processamento; lixeira e histórico podem permitir recuperação |
+| **Efeito de ataque por Ransomware** | Isolamento e imutabilidade **podem reduzir o risco**, mas eficácia depende de acesso, retenção e testes | Corrupção ou cifração **pode propagar-se**; histórico ou proteção adicional pode permitir recuperação |
+| **Independência de estado** | A estratégia deve manter pontos recuperáveis independentes das alterações correntes, conforme a arquitetura | Procura convergir estados entre dispositivos, com filas, conflitos e possíveis versões |
 
 > [!IMPORTANT]
 > A sincronização em nuvem oferece conveniência operacional, coautoria e mobilidade. Porém, **sincronização não é backup**. Uma estratégia de backup confiável requer retenção e restauração testada, proteção de acesso e cópias independentes da sincronização operacional. Imutabilidade e isolamento adicional são controles importantes contra ransomware, mas não integram obrigatoriamente toda definição de backup.
@@ -146,7 +146,7 @@ Em planos de contingência do setor público, dois parâmetros definem os limite
 
 ### Caso 4: Escolha de estratégia para minimizar tempo de restauração em plenário
 - **Cenário**: O sistema de votação eletrônica do plenário exige tempo de retorno mínimo em caso de desastre (RTO extremamente baixo). A TI deve escolher entre rotina Incremental ou Diferencial para os dias úteis.
-- **Análise**: A estratégia **Diferencial** é a mais indicada para minimizar o RTO de restauração, pois exige restaurar apenas duas mídias (o último Completo + o último Diferencial), eliminando o tempo de processamento em cadeia de múltiplos arquivos intermediários exigido pelo método Incremental.
+- **Análise**: No **modelo clássico**, o diferencial pode simplificar a cadeia de restauração, usando o completo mais o diferencial mais recente. Contudo, **não se conclui RTO menor sem medir** volume, infraestrutura, desduplicação, transferência, integridade e testes reais. O RTO é um **objetivo**, não o tempo automaticamente alcançado pela escolha de tipo de backup.
 
 ---
 
@@ -249,3 +249,5 @@ O **tipo de cópia** responde à pergunta “desde quando as mudanças são sele
 **Fonte primária:** [Microsoft Learn: arquitetura do Azure Backup, diferenças entre completo, diferencial e incremental](https://learn.microsoft.com/pt-br/azure/backup/backup-architecture). **Relação:** [[3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes|Sincronização não equivale a backup]].
 
 Os itens originais 1 e 4 continuam **NÃO HOMOLOGADOS**; estas duas substitutas são inéditas e possuem escopo definido.
+
+> **Implementação TI-112 (11/11/2026):** objetivo de recuperação e resultados condicionados, tabela comparativa sem promessas de desempenho universal, sincronização não instantânea e estudo de RTO reescrito conforme premissas de execução.

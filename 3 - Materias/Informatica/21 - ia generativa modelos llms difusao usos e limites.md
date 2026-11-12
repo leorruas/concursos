@@ -66,11 +66,11 @@ Em 2017, o artigo seminal do Google *"Attention Is All You Need"* (Vaswani et al
 ## 2. Grandes Modelos de Linguagem (LLMs) e Modelos de Fundação
 
 ### 2.1 O que é um LLM?
-Um **LLM (*Large Language Model*)** é uma rede neural com dezenas ou centenas de bilhões de parâmetros, pré-treinada em volumes titânicos de texto da internet para atuar como um **preditor autorregressivo de próximo token**:
-- O modelo **não pensa, não raciocina e não tem consciência**;
+Um **LLM (*Large Language Model*)** é um modelo de linguagem de grande escala, cuja quantidade de parâmetros **varia conforme arquitetura e versão**. Muitos modelos de geração textual baseados em Transformer são pré-treinados com grandes conjuntos de dados e aprendem, entre outras tarefas, a prever tokens em sequência. Nem todo modelo de linguagem utiliza exatamente a mesma arquitetura, objetivo de treinamento ou volume de parâmetros:
+- A predição de tokens **não assegura veracidade, compreensão humana ou consciência**. A capacidade de resolver tarefas de raciocínio pode ser avaliada empiricamente; debates sobre consciência artificial não são uma propriedade deduzida apenas do mecanismo de geração;
 - Ele calcula continuamente uma distribuição de probabilidades condicionais:
   $$P(w_{t} \mid w_1, w_2, \dots, w_{t-1})$$
-- Por essa razão, a literatura científica (Bender et al., 2021) costuma categorizar os LLMs como **"Papagaios Estocásticos" (*Stochastic Parrots*)**: sistemas que recombinam de forma estatisticamente convincente as correlações fonéticas e sintáticas dos dados em que foram alimentados, sem nenhuma apreensão semântica real ou intencionalidade própria sobre o mundo.
+- Bender e colaboradores (2021) propuseram a crítica dos **“papagaios estocásticos”** para discutir riscos de modelos treinados em grandes corpora, incluindo vieses, custo e atribuição de significado. É uma **posição acadêmica identificada**, não definição técnica universal que prove ausência de toda capacidade de raciocínio ou compreensão.
 
 ### 2.2 O Conceito de Modelo de Fundação (*Foundation Model*)
 Cunhado pela Universidade de Stanford (Bommasani et al., 2021), designa modelos treinados em bases de dados amplas em escala massiva, geralmente por aprendizagem autossupervisionada, que podem ser adaptados e especializados (*fine-tuned*) para uma multiplicidade impressionante de tarefas a jusante (tradução, sumarização, redação legislativa, análise jurídica, extração de entidades).
@@ -111,7 +111,7 @@ flowchart TD
     R --> J["Janela de Contexto Limitada<br>Perda de informações no meio de textos longos (Lost in the Middle)"]:::risco
     R --> V["Viés e Toxicidade Histórica<br>Reprodução de preconceitos presentes na internet"]:::risco
 
-    H --> RAG["Mitigação: RAG (Geração Aumentada por Recuperação)<br>Forçar o modelo a responder APENAS com base em documentos anexados"]:::solucoes
+    H --> RAG["Mitigação: RAG (Geração Aumentada por Recuperação)<br>Recuperar evidências externas e orientar respostas ancoradas, sem garantia absoluta"]:::solucoes
     H --> RH["Revisão editorial proporcional ao risco (Human-in-the-Loop quando aplicável)<br>Conferência de fontes antes da publicação"]:::solucoes
 ```
 
@@ -208,7 +208,7 @@ flowchart TD
    - Mecanismo de **Autoatenção** = conecta o pronome ao seu sujeito real na frase, mesmo distante.
 3. **Alucinações e RAG**:
    - Alucinação = falar coisa falsa com postura de professor com certeza absoluta.
-   - Solução técnica para governança no serviço público = **RAG** (ancoragem em base oficial própria) + **Revisão Humana (*Human-in-the-Loop*)**.
+   - Mitigação possível: **RAG com recuperação verificada**, checagem de citações, avaliação de fidelidade e revisão editorial proporcional ao risco. RAG, sozinho, não impede respostas inventadas; revisão humana obrigatória depende do regime e da aplicação.
 4. **Difusão $\times$ GAN**:
    - Gerador $\times$ Discriminador em duelo/competição $\rightarrow$ **GAN**.
    - Adicionar ruído e depois limpar ruído (*denoising*) $\rightarrow$ **Modelos de Difusão**.
@@ -243,3 +243,5 @@ flowchart TD
 **Fonte acadêmica:** [Stanford CS229: Generative Learning Algorithms, notas de aula](https://cs229.stanford.edu/notes2022fall/cs229-notes2.pdf). **Relação:** [[3 - Materias/Informatica/19 - aprendizagem supervisionada e nao supervisionada algoritmos e metricas|Classificação supervisionada]].
 
 **Rastreabilidade:** a Questão 4 anterior permanece **NÃO HOMOLOGADA**.
+
+> **Implementação TI-122 (11/11/2026):** LLM, consciência, posição de Bender et al. e RAG diferenciados por evidência, tese acadêmica e risco. Referência: [Bender et al., 2021](https://dl.acm.org/doi/10.1145/3442188.3445922).

@@ -207,7 +207,7 @@ O Cebraspe concentra suas questões de concordância nominal em palavras que mud
 | **Quite / Leso** | Adjetivos: concordam obrigatoriamente com o substantivo:<br>*"Os servidores estão **quites** com o erário."*, *"Crime de **lesa**-pátria / **leso**-patrimônio."* | Não possuem uso adverbial invariável. |
 | **Obrigado / Agradecido** | Adjetivos: concordam com o gênero e número de quem fala:<br>*"**Muito obrigada**, disse a deputada."* | — |
 | **Menos / Alerta / Pseudo** | *Alerta* só varia como substantivo (*"Soaram dois **alertas**"*). | **Invariáveis:** *"Havia **menos** propostas"* (não existe *menas*), *"Os seguranças estão **alerta**"*, *"**Pseudo**-histórias"*. |
-| **Haja vista** | Admite variação no plural (*"**Hajam vista** os resultados"*) quando o substantivo seguinte não tem preposição. | Preferencialmente invariável no singular, com ou sem a preposição *a*: *"**Haja vista** os resultados / **Haja vista aos** resultados"*. (Jamais usar *"haja visto"*). |
+| **Haja vista** | Admite variação no plural (*"**Hajam vista** os resultados"*) quando o substantivo seguinte não tem preposição. | Em redação formal, a forma **haja vista** invariável é uma escolha segura: *"Haja vista os resultados"*. Há gramáticas que registram **hajam vista os resultados**, com plural por concordância. Evite tratar as variantes como obrigatórias e não use **haja visto** como equivalente desta locução. |
 | **Possível** | Concorda com o artigo da expressão superlativa:<br>*"Projetos **o** mais claros **possível**"* $\times$ *"Projetos **os** mais claros **possíveis**."* | — |
 
 ---
@@ -260,7 +260,7 @@ Compare os três enunciados:
 
 **Item 5.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* O período *"É necessário cautela na tramitação de matérias urgentes, haja vista as repercussões financeiras que seguem anexas ao relatório"* está inteiramente de acordo com as regras de concordância nominal e verbal da língua portuguesa.
 * **Gabarito:** **CERTO**.
-* **Fundamentação:** (1) A expressão *"É necessário"* permanece invariável no masculino singular porque o substantivo sujeito *cautela* não está determinado por artigo ou pronome. (2) A expressão *"haja vista"* é corretamente empregada de forma invariável (admitindo também *"hajam vista"* diante de substantivo plural sem preposição). (3) O adjetivo *"anexas"* concorda regularmente no feminino plural com o referente *"as repercussões financeiras"* (retomado pelo relativo *que*).
+* **Fundamentação:** (1) A expressão *"É necessário"* permanece invariável no masculino singular porque o substantivo sujeito *cautela* não está determinado por artigo ou pronome. (2) A expressão *"haja vista"* está corretamente empregada na forma invariável, preferida em manuais editoriais; há registros gramaticais de *"hajam vista"* quando seguido de plural, o que não torna incorreta a forma usada na frase. (3) O adjetivo *"anexas"* concorda regularmente no feminino plural com o referente *"as repercussões financeiras"* (retomado pelo relativo *que*).
 
 **Item 6.** *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)* Se, no trecho *"No âmbito das comissões, exige-se que os pareceres contenham estimativa de impacto orçamentário"*, a conjunção **que** fosse suprimida e o verbo **contenham** fosse flexionado no infinitivo (**conterem**), a forma verbal **exige-se** deveria ser obrigatoriamente alterada para **exigem-se**, para concordar com **os pareceres**.
 * **Gabarito:** **ERRADO**.

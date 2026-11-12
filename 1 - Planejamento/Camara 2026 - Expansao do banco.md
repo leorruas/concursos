@@ -13,14 +13,14 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 005 | Divulgação Institucional | Edital 14.2.4, item 5: design e produção | 40 | 3/18/17/2 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 006 | Divulgação Institucional | Edital 14.2.4, item 6: ética na comunicação | 40 | 2/10/21/7 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 007 | Divulgação Institucional | Edital 14.2.4, item 7: gestão de equipes | 40 | 2/15/20/3 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
-| 008 | Divulgação Institucional | Edital 14.2.4, item 8: legislação profissional | 40 | 4/26/10/0 | 40 | 0 | 0 | Integridade e sessões v3 |
+| 008 | Divulgação Institucional | Edital 14.2.4, item 8: legislação profissional | 40 | 4/26/10/0 | 40 | 40 | 0 | Integridade e sessões v3 |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
 
 ## Lote 002 validado
 
-O lote 002 cobre o item 2 de Divulgação Institucional. Foram registradas 10 questões geradas sobre conceitos, planejamento, marketing institucional, endomarketing e segmentação, vinculadas aos artigos 95 a 99. Foram acrescentadas oito questões sobre marketing digital e comportamento do consumidor, vinculadas aos artigos 100 e 101. Elaboração concluída com 40 itens. Gabaritos e mecanismos revisados nos artigos 95 a 101. A seleção foi testada pelo item 2 do edital. Meta consolidada de expansão validada: 280/2.000.
+O lote 002 cobre o item 2 de Divulgação Institucional. Foram registradas 10 questões geradas sobre conceitos, planejamento, marketing institucional, endomarketing e segmentação, vinculadas aos artigos 95 a 99. Foram acrescentadas oito questões sobre marketing digital e comportamento do consumidor, vinculadas aos artigos 100 e 101. Elaboração concluída com 40 itens. Gabaritos e mecanismos revisados nos artigos 95 a 101. A seleção foi testada pelo item 2 do edital. Meta consolidada de expansão validada: 320/2.000.
 
 ## Lote 003 validado
 
@@ -42,6 +42,6 @@ Quarenta questões geradas para ética na comunicação, item 6 do edital, vincu
 
 Quarenta questões geradas sobre gestão de equipes publicitárias, item 7 do edital, vinculadas ao artigo 121. Cotejo editorial concluído no artigo 121. Três itens reformulados e três níveis de dificuldade recalibrados. A triagem a 0,22 não sinalizou pares envolvendo o lote 007. O seletor retornou os 40 itens pelo item 7 do edital. Próximo lote: legislação profissional, item 8.
 
-## Lote 008 em revisão
+## Lote 008 validado
 
-Vinte e duas questões geradas sobre a Lei nº 12.232/2010, com indicação dos dispositivos e dos artigos 123 e 124. Dezoito questões adicionais cobrem o Código Brasileiro de Autorregulamentação Publicitária. Cotejar os gabaritos e calibrar a dificuldade na revisão, com atenção aos mecanismos próximos de exercícios publicados.
+Vinte e duas questões geradas sobre a Lei nº 12.232/2010, com indicação dos dispositivos e dos artigos 123 e 124. Dezoito questões adicionais cobrem o Código Brasileiro de Autorregulamentação Publicitária. Gabaritos conferidos nas fontes primárias. O seletor recuperou os 40 itens do item 8. O próximo lote inicia Comunicação Social.

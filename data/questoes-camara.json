@@ -14328,7 +14328,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b08f53d19c4a726e#Art. 3º: limites das pesquisas e avaliações"
       ],
@@ -14341,7 +14341,7 @@
       "statement": "Uma avaliação pertinente ao contrato pode aferir a criação da campanha antes da veiculação. Sua finalidade legal não se limita a mensurar resultados depois da divulgação.",
       "correctAnswer": "C",
       "explanation": "O caput abrange a avaliação do desenvolvimento estratégico, da criação e da veiculação, além de possibilitar a mensuração de resultados.",
-      "reviewEvidence": "Cotejo com o texto primário e reformulação após comparação com os exercícios dos artigos 122 a 124. Referência: art. 3º, caput (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo com o texto primário e reformulação após comparação com os exercícios dos artigos 122 a 124. Referência: art. 3º, caput (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-selecao-interna-com-metodologia-publicada",
@@ -14358,7 +14358,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b08f53d19c4a726e#Arts. 2º, §§ 3º e 4º: uma ou mais agências"
       ],
@@ -14371,7 +14371,7 @@
       "statement": "Em contratos decorrentes de adjudicação do mesmo objeto a mais de uma agência sem segregação em contas ou itens, distribuir internamente a metodologia de seleção aprovada dispensa publicá-la na imprensa oficial.",
       "correctAnswer": "E",
       "explanation": "A metodologia precisa de aprovação administrativa e publicação na imprensa oficial. A circulação interna não satisfaz a segunda exigência.",
-      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo. Referência: art. 2º, § 4º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo. Referência: art. 2º, § 4º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-guarda-contada-da-extincao",
@@ -14388,7 +14388,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Arts. 16 e 17: transparência e guarda do acervo"
       ],
@@ -14401,7 +14401,7 @@
       "statement": "Se uma agência guarda os comprovantes de veiculação pelo prazo legal, pode excluir do acervo as peças produzidas durante o contrato.",
       "correctAnswer": "E",
       "explanation": "O acervo deve abranger tanto a comprovação dos serviços prestados quanto as peças publicitárias produzidas.",
-      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo. Referência: art. 17 (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo. Referência: art. 17 (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-comprovacao-de-insercao-e-valor",
@@ -14418,7 +14418,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 15: comprovação de mídia e vantagens que pertencem ao contratante"
       ],
@@ -14431,7 +14431,7 @@
       "statement": "Um relatório independente de checagem de veiculação substitui, por si só, a documentação sobre valores devidos ao veículo e descontos negociados.",
       "correctAnswer": "E",
       "explanation": "A checagem verifica a veiculação. O caput também exige documentação dos valores, preços, descontos e pedidos de inserção.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 15, caput (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 15, caput (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-comparacao-com-niveis-de-preco",
@@ -14448,7 +14448,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 28 a 32: identificação, publieditorial e comparação"
       ],
@@ -14461,7 +14461,7 @@
       "statement": "Um anúncio compara dois aparelhos de faixas de preço diferentes. Usar o mesmo protocolo de teste dispensa indicar claramente a diferença de nível de preço.",
       "correctAnswer": "E",
       "explanation": "A objetividade do ensaio atende a um critério. A diferença de faixa de preço precisa ser indicada separadamente.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 32, item 8 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 32, item 8 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-comparacao-historica-qualificada",
@@ -14478,7 +14478,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 28 a 32: identificação, publieditorial e comparação"
       ],
@@ -14491,7 +14491,7 @@
       "statement": "Um anúncio que caracteriza expressamente a comparação entre bens de consumo de anos distintos como demonstração de evolução pode enquadrar-se na exceção à regra do mesmo ano.",
       "correctAnswer": "C",
       "explanation": "A exceção exige que o caráter evolutivo seja indicado. Os demais critérios de comparação continuam aplicáveis.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 32, item 4 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 32, item 4 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-alegacao-ambiental-limitada-a-embalagem",
@@ -14508,7 +14508,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação"
       ],
@@ -14521,7 +14521,7 @@
       "statement": "Comprovar a redução de material em uma embalagem sustenta, por si, a afirmação genérica de que todo o produto tem menor impacto ambiental durante seu ciclo de vida.",
       "correctAnswer": "E",
       "explanation": "A prova cobre um atributo específico da embalagem. A alegação precisa qualificar seu alcance ou apresentar evidência robusta para a abrangência anunciada.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 36-B, itens 2 e 3 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 36-B, itens 2 e 3 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-cuidado-essencial-no-uso",
@@ -14538,7 +14538,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação"
       ],
@@ -14551,7 +14551,7 @@
       "statement": "Se o uso seguro de um equipamento depende de ventilação especial, omitir esse cuidado essencial em seu anúncio pode contrariar o Código do CONAR.",
       "correctAnswer": "C",
       "explanation": "O Código condena a omissão de cuidados especiais de prevenção quando são essenciais para o uso do produto.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 33, item 3 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 33, item 3 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-aprovar-peca-fora-do-objeto",
@@ -14568,7 +14568,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 13: vinculação ao edital e ao contrato"
       ],
@@ -14581,7 +14581,7 @@
       "statement": "A aprovação editorial de uma peça pela área de comunicação basta para incluí-la na execução de um contrato de publicidade cujo objeto não a abrange.",
       "correctAnswer": "E",
       "explanation": "O aceite editorial não altera o objeto contratado. A execução deve observar o edital, o contrato e a legislação aplicável.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 13 (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 13 (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-cotacao-nao-substitui-cadastro",
@@ -14598,7 +14598,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 14: cadastro e três orçamentos de serviços especializados"
       ],
@@ -14611,7 +14611,7 @@
       "statement": "A agência recebeu três orçamentos para produção técnica. O menor é de fornecedor ainda não cadastrado pelo contratante. A existência das três propostas permite contratar esse fornecedor antes do cadastro.",
       "correctAnswer": "E",
       "explanation": "Cadastro prévio e apresentação de orçamentos são requisitos distintos. A obtenção das propostas não substitui o cadastro.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 14, caput e § 1º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 14, caput e § 1º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-incentivo-e-escolha-tecnica",
@@ -14628,7 +14628,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Arts. 18 e 19: plano de incentivo, desconto negociado e desconto-padrão"
       ],
@@ -14641,7 +14641,7 @@
       "statement": "Uma agência pode aceitar um plano de incentivo de um veículo e recomendar outro veículo quando os dados técnicos mostram que este atende melhor aos interesses do contratante.",
       "correctAnswer": "C",
       "explanation": "Aceitar incentivo é facultativo. A escolha do veículo deve observar os interesses do contratante e apoiar-se em pesquisas e dados técnicos.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 18, caput e § 2º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 18, caput e § 2º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-execucao-sem-barreira-de-cadastro",
@@ -14658,7 +14658,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Arts. 16 e 17: transparência e guarda do acervo"
       ],
@@ -14671,7 +14671,7 @@
       "statement": "Publicar os dados de execução em área que só fornecedores habilitados podem acessar satisfaz a exigência de livre acesso às informações do contrato.",
       "correctAnswer": "E",
       "explanation": "O dispositivo assegura acesso a quaisquer interessados. A restrição a fornecedores não atende a esse alcance.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 16, caput (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 16, caput (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-reaplicacao-negociada-em-midia",
@@ -14688,7 +14688,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 15: comprovação de mídia e vantagens que pertencem ao contratante"
       ],
@@ -14701,7 +14701,7 @@
       "statement": "Se o contratante negocia diretamente com um veículo a compra de mídia e obtém um desconto, o fato de não haver intermediação de agência não retira do contratante essa vantagem.",
       "correctAnswer": "C",
       "explanation": "O dispositivo abrange as vantagens obtidas tanto em compra direta quanto por intermédio de agência.",
-      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo. Referência: art. 15, parágrafo único (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo. Referência: art. 15, parágrafo único (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-criterio-novo-apos-recebimento",
@@ -14718,7 +14718,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 6º: briefing, anonimato e critérios escritos no edital"
       ],
@@ -14731,7 +14731,7 @@
       "statement": "Depois de receber as propostas, a comissão pode atribuir pontos por um critério ausente do edital se aplicar a mesma regra a todos os concorrentes.",
       "correctAnswer": "E",
       "explanation": "A aplicação uniforme não supre a falta de previsão. O julgamento deve usar exclusivamente os critérios do instrumento convocatório.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 6º, VI (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 6º, VI (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-briefing-e-pertinencia-do-plano",
@@ -14748,7 +14748,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 6º: briefing, anonimato e critérios escritos no edital"
       ],
@@ -14761,7 +14761,7 @@
       "statement": "Se o briefing delimita a campanha a um público e a um objetivo, a pertinência do plano técnico deve ser avaliada em relação a essas informações.",
       "correctAnswer": "C",
       "explanation": "O briefing fornece as informações para elaborar as propostas. O plano da proposta técnica deve guardar pertinência com elas.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 6º, II e III (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 6º, II e III (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-identificacao-antecipada-por-agente",
@@ -14778,7 +14778,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 12: anulação do certame versus desclassificação de licitante"
       ],
@@ -14791,7 +14791,7 @@
       "statement": "Se um agente responsável viola a regra de sigilo e revela a autoria de um plano antes da abertura legalmente prevista, substituir o avaliador basta para afastar a anulação do certame.",
       "correctAnswer": "E",
       "explanation": "O art. 12 prevê anulação diante do descumprimento, por agente responsável, das garantias de julgamento sem conhecimento da autoria, sem prejuízo da apuração de responsabilidades.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 12 (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 12 (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-habilitacao-de-classificado-apos-julgamento",
@@ -14808,7 +14808,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
       ],
@@ -14821,7 +14821,7 @@
       "statement": "Depois do julgamento final das propostas, a comissão pode abrir os invólucros de habilitação dos classificados em reunião reservada se publicar depois a lista de documentos examinados.",
       "correctAnswer": "E",
       "explanation": "O inciso XII exige recebimento e abertura do invólucro em sessão pública. A publicidade posterior não substitui a sessão.",
-      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo. Referência: art. 11, XII (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo. Referência: art. 11, XII (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-imagem-individual-em-anuncio",
@@ -14838,7 +14838,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação"
       ],
@@ -14851,7 +14851,7 @@
       "statement": "Uma loja usa em anúncio o retrato individual de uma pessoa viva encontrado em uma página aberta. A disponibilidade pública da imagem equivale à sua autorização prévia e expressa para esse uso.",
       "correctAnswer": "E",
       "explanation": "O acesso público à fotografia não comprova autorização para inseri-la em publicidade.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 34, item 1 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 34, item 1 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-multidao-e-contexto-humilhante",
@@ -14868,7 +14868,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação"
       ],
@@ -14881,7 +14881,7 @@
       "statement": "Uma fotografia de multidão pode enquadrar-se na exceção do art. 35 mesmo quando o anúncio coloca pessoas reconhecíveis em contexto humilhante.",
       "correctAnswer": "E",
       "explanation": "A exceção para multidões depende de ausência de contexto difamatório, ofensivo ou humilhante.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: arts. 34 e 35, item 1 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: arts. 34 e 35, item 1 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-comparacao-com-resultado-subjetivo",
@@ -14898,7 +14898,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 28 a 32: identificação, publieditorial e comparação"
       ],
@@ -14911,7 +14911,7 @@
       "statement": "A convicção pessoal do anunciante de que seu produto é mais elegante basta para comprovar a superioridade em uma comparação publicitária apresentada como objetiva.",
       "correctAnswer": "E",
       "explanation": "O Código exige base objetiva e possibilidade de comprovação. A impressão pessoal do anunciante não supre esses critérios.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 32, itens 2 e 3 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 32, itens 2 e 3 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-alegacao-ambiental-com-limite-explicito",
@@ -14928,7 +14928,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 33 a 43: segurança, intimidade, ambiente, crianças e criação"
       ],
@@ -14941,7 +14941,7 @@
       "statement": "Um anunciante pode apresentar como benefício ambiental de seu produto uma redução de resíduos obtida por empresa sem relação com sua atividade, desde que o dado sobre essa empresa seja verdadeiro.",
       "correctAnswer": "E",
       "explanation": "A veracidade do dado não supre a pertinência da alegação. O benefício anunciado deve ter relação lógica com práticas, marcas, produtos ou serviços do anunciante.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 36-B, item 4 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 36-B, item 4 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-concordancia-apenas-de-um-titular",
@@ -14958,7 +14958,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 28 a 32: identificação, publieditorial e comparação"
       ],
@@ -14971,7 +14971,7 @@
       "statement": "A concordância do veículo basta, por si só, para afastar o problema de carona publicitária quando outro titular dos direitos envolvidos não concordou previamente.",
       "correctAnswer": "E",
       "explanation": "O Código considera a concordância prévia do veículo e dos demais titulares de direitos envolvidos. A anuência de um deles não substitui a dos outros.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 31, parágrafo único, item 3 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 31, parágrafo único, item 3 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-avaliador-na-abertura-das-propostas",
@@ -14988,7 +14988,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
       ],
@@ -15001,7 +15001,7 @@
       "statement": "Um integrante da subcomissão técnica pode participar da sessão de abertura das propostas técnicas e de preços se não falar com os representantes das licitantes.",
       "correctAnswer": "E",
       "explanation": "O impedimento refere-se à participação na sessão. Abster-se de contato com os representantes não afasta a vedação.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 11, § 1º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 11, § 1º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-planilha-sem-razoes-da-nota",
@@ -15018,7 +15018,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
       ],
@@ -15031,7 +15031,7 @@
       "statement": "Uma subcomissão envia a ata e as notas do plano de comunicação, mas omite as razões de cada pontuação. A presença das notas na planilha supre essa omissão.",
       "correctAnswer": "E",
       "explanation": "O encaminhamento deve incluir a justificativa escrita das pontuações, além da ata, das propostas e das planilhas.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 11, § 4º, IV (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 11, § 4º, IV (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-cotejo-antes-da-proclamacao",
@@ -15048,7 +15048,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
       ],
@@ -15061,7 +15061,7 @@
       "statement": "Na sessão pública de apuração do resultado geral das propostas técnicas, as vias dos planos são cotejadas para identificar a autoria antes da proclamação do resultado.",
       "correctAnswer": "C",
       "explanation": "A abertura da via identificada e seu cotejo com a via anônima antecedem a elaboração da planilha geral e a proclamação do resultado.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 11, § 4º, VII (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 11, § 4º, VII (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-checagem-independente-quando-possivel",
@@ -15078,7 +15078,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 15: comprovação de mídia e vantagens que pertencem ao contratante"
       ],
@@ -15091,7 +15091,7 @@
       "statement": "A Lei nº 12.232/2010 exige que a checagem de veiculação seja feita por empresa independente mesmo quando isso seja comprovadamente impossível.",
       "correctAnswer": "E",
       "explanation": "A independência da empresa é exigida sempre que possível. Isso não elimina os outros documentos de comprovação da despesa.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 15, caput (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 15, caput (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-anexo-e-normas-gerais",
@@ -15108,7 +15108,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
       ],
@@ -15121,7 +15121,7 @@
       "statement": "Um anúncio de serviço educacional que satisfaz o anexo setorial fica dispensado de cumprir as normas gerais do Código do CONAR.",
       "correctAnswer": "E",
       "explanation": "As normas específicas são adicionais. A avaliação combina o anexo pertinente e a parte geral.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 44 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 44 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-agencia-e-responsabilidade-solidaria",
@@ -15138,7 +15138,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
       ],
@@ -15151,7 +15151,7 @@
       "statement": "Se o anunciante aprova o texto elaborado pela agência, a aprovação extingue a responsabilidade da agência pela observância do Código do CONAR.",
       "correctAnswer": "E",
       "explanation": "A agência responde solidariamente pela observância dos preceitos do Código. A aprovação do cliente não afasta essa responsabilidade.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 45, item 2 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 45, item 2 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-recusa-editorial-pelo-veiculo",
@@ -15168,7 +15168,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
       ],
@@ -15181,7 +15181,7 @@
       "statement": "O veículo pode recusar anúncio incompatível com sua linha de programação, ainda que a incompatibilidade não tenha sido examinada pelo CONAR.",
       "correctAnswer": "C",
       "explanation": "O Código admite a recusa pelo próprio veículo com base em sua linha editorial, jornalística ou de programação.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 45, item 3, c.2 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 45, item 3, c.2 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-controle-reforcado-sem-agencia",
@@ -15198,7 +15198,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
       ],
@@ -15211,7 +15211,7 @@
       "statement": "Na recepção de um anúncio encaminhado diretamente pelo anunciante, o Código orienta que o controle do veículo adote mais precauções.",
       "correctAnswer": "C",
       "explanation": "A orientação leva em conta que a peça não passou pela intermediação de uma agência.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 45, item 4 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 45, item 4 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-veiculo-com-recomendacao-oficial",
@@ -15228,7 +15228,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
       ],
@@ -15241,7 +15241,7 @@
       "statement": "Se um veículo recebe oficialmente recomendação do CONAR e veicula o anúncio em desacordo com ela, sua responsabilidade pode ser equiparada à do anunciante.",
       "correctAnswer": "C",
       "explanation": "A equiparação decorre da veiculação contrária à recomendação oficialmente comunicada ao veículo.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 45, item 5 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 45, item 5 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-poder-decisorio-e-responsabilidade",
@@ -15258,7 +15258,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
       ],
@@ -15271,7 +15271,7 @@
       "statement": "Dois profissionais que participaram de um anúncio respondem sempre na mesma medida pelo Código, ainda que tenham poderes de decisão distintos.",
       "correctAnswer": "E",
       "explanation": "A responsabilidade é avaliada na medida dos poderes decisórios de cada participante.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 46 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 46 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-testemunho-de-fonte-externa",
@@ -15288,7 +15288,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
       ],
@@ -15301,7 +15301,7 @@
       "statement": "Incorporar a um anúncio uma declaração produzida por terceiro isenta os responsáveis pela peça de observar o Código quanto a esse trecho.",
       "correctAnswer": "E",
       "explanation": "O Código alcança a peça inteira, inclusive declarações e apresentações provenientes de outras fontes.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 47 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 47 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-correcao-posterior-e-anuncio-enganador",
@@ -15318,7 +15318,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
       ],
@@ -15331,7 +15331,7 @@
       "statement": "Transferir para outro veículo uma peça já reprovada pelo CONAR permite publicar o anúncio sem mudanças, desde que a nova inserção ainda não tenha sido examinada.",
       "correctAnswer": "E",
       "explanation": "O art. 49 veda promover a publicação do anúncio reprovado. Trocar o veículo não altera a peça a que se refere a reprovação.",
-      "reviewEvidence": "Cotejo com o texto primário e reformulação após comparação com os exercícios dos artigos 122 a 124. Referência: art. 49 (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo com o texto primário e reformulação após comparação com os exercícios dos artigos 122 a 124. Referência: art. 49 (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-competencia-para-alterar-anexo",
@@ -15348,7 +15348,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3e8a6c14f927b05d#Arts. 44 a 50: categorias, responsabilidades e medidas"
       ],
@@ -15361,7 +15361,7 @@
       "statement": "O Conselho de Ética julga infrações ao Código, enquanto a alteração dos anexos compete ao Conselho Superior.",
       "correctAnswer": "C",
       "explanation": "O Código atribui o julgamento e a alteração normativa a órgãos distintos.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 50, §§ 1º e 2º (https://www.conar.org.br/codigos)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 50, §§ 1º e 2º (https://www.conar.org.br/codigos). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-certificacao-por-entidade-equivalente",
@@ -15378,7 +15378,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b08f53d19c4a726e#Art. 4º: qualificação da agência"
       ],
@@ -15391,7 +15391,7 @@
       "statement": "O certificado de qualificação técnica de funcionamento da agência pode ser obtido em entidade equivalente ao CENP, desde que ela seja legalmente reconhecida nas funções exigidas pela lei.",
       "correctAnswer": "C",
       "explanation": "A lei admite a certificação por entidade equivalente legalmente reconhecida como fiscalizadora e certificadora das condições técnicas das agências.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 4º, § 1º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 4º, § 1º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-autorizacao-de-compra-de-espaco",
@@ -15408,7 +15408,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b08f53d19c4a726e#Art. 4º: qualificação da agência"
       ],
@@ -15421,7 +15421,7 @@
       "statement": "A agência contratada pode comprar espaço publicitário por conta de um cliente antes de identificá-lo e obter sua autorização expressa, desde que registre ambas as informações antes da veiculação.",
       "correctAnswer": "E",
       "explanation": "A identificação e a autorização expressa devem anteceder a reserva ou compra. A regularização antes da veiculação não atende à ordem exigida.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 4º, § 2º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 4º, § 2º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-total-por-meio-e-tipo-de-servico",
@@ -15438,7 +15438,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Arts. 16 e 17: transparência e guarda do acervo"
       ],
@@ -15451,7 +15451,7 @@
       "statement": "Em sítio de livre acesso dedicado à execução de um contrato de publicidade, informar apenas os totais pagos sem identificar os fornecedores especializados e os veículos atende integralmente ao caput do art. 16.",
       "correctAnswer": "E",
       "explanation": "O caput exige divulgar os nomes dos fornecedores especializados e dos veículos. A publicação de valores não substitui essa identificação.",
-      "reviewEvidence": "Cotejo com o texto primário e reformulação após comparação com os exercícios dos artigos 122 a 124. Referência: art. 16, caput (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo com o texto primário e reformulação após comparação com os exercícios dos artigos 122 a 124. Referência: art. 16, caput (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-desconto-padrao-e-faturamento-do-veiculo",
@@ -15468,7 +15468,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Arts. 18 e 19: plano de incentivo, desconto negociado e desconto-padrão"
       ],
@@ -15481,7 +15481,7 @@
       "statement": "Se o veículo repassa à agência o desconto-padrão, o veículo pode contabilizar a quantia como receita própria antes do repasse.",
       "correctAnswer": "E",
       "explanation": "O art. 19 trata a quantia como receita da agência e veda ao veículo contabilizá-la como própria mesmo quando ele efetua o repasse.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 19 (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 19 (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-di-marcacao-de-involucro-pela-comissao",
@@ -15498,7 +15498,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
       ],
@@ -15511,7 +15511,7 @@
       "statement": "A comissão pode numerar externamente o invólucro padronizado da via anônima para facilitar o protocolo, desde que deixe os documentos internos sem marcas.",
       "correctAnswer": "E",
       "explanation": "A vedação alcança tanto os invólucros padronizados quanto os documentos que compõem a via não identificada.",
-      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 11, § 3º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm)."
+      "reviewEvidence": "Cotejo editorial de gabarito e comentário com a fonte primária e os exercícios da nota. Referência: art. 11, § 3º (https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm). Lote 008: triagem lexical e verificação de integridade, sessão v3 e seleção."
     }
   ]
 }

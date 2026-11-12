@@ -30,7 +30,7 @@ A avaliação de leitura pelas bancas de concurso divide-se em três fronteiras 
 As bancas comumente alteram quantificadores para invalidar proposições:
 - **Existenciais/Parciais**: *alguns*, *muitos*, *a maioria*, *parte dos*.
 - **Universais/Absolutos**: *todos*, *nenhum*.
-- **Ação**: Substituir um quantificador existencial por um universal (ou vice-versa) anula a equivalência lógica e torna o item incorreto.
+- **Ação**: Testar separadamente **implicação** (uma frase autoriza concluir a outra?) e **equivalência** (as duas se implicam?). Trocar *alguns* por *todos* normalmente muda o alcance e impede equivalência; ainda assim, em um universo não vazio, *todos* implica *alguns*. O sentido do comando da questão decide o julgamento.
 
 ### Marcadores de Intensidade e Frequência
 A presença de termos como *sempre*, *nunca*, *apenas*, *somente*, *exclusivamente* e *necessariamente* confere caráter absoluto às afirmativas, o que geralmente as torna inválidas se o texto original trouxer ressalvas ou cenários médios.
@@ -58,9 +58,9 @@ Esta estrutura sinaliza uma **crítica a uma visão simplificada** sobre os efei
 Nas provas modernas (como as da FGV), as questões avaliam se o sentido original e a veracidade lógica foram preservados após a reescrita.
 
 ### Distinção entre Perda de Informação e Falsidade
-Uma reescrita correta não precisa manter a precisão idêntica ou o mesmo nível de detalhes da original, contanto que o que foi dito permaneça logicamente verdadeiro.
-- **Caso Prático**: *"Todos os candidatos compareceram"* permite concluir legitimamente que *"Alguns candidatos compareceram"*. A segunda frase é menos informativa (perdeu detalhe), mas permanece verdadeira.
-- **Caso Inverso (Inválido)**: *"Alguns candidatos compareceram"* não permite concluir que *"Todos compareceram"* (extrapolação lógica).
+Em itens que pedem **reescrita com preservação de sentido**, a nova frase deve conservar as condições relevantes do original: verdade, escopo, pressupostos e informação necessária. Uma frase **menos informativa** pode ser uma **consequência verdadeira**, mas **não uma reescrita equivalente**. Julgue primeiro se o comando cobra implicação ou equivalência.
+- **Caso prático (implicação, não equivalência)**: se há candidatos, *"Todos os candidatos compareceram"* permite concluir *"Alguns candidatos compareceram"*. A frase com *alguns* é mais fraca e **não preserva integralmente o alcance universal**. Se o comando exigir equivalência, a troca é inadequada.
+- **Caso inverso (implicação inválida)**: *"Alguns candidatos compareceram"* não permite concluir que *"Todos compareceram"*. Para preservar equivalência, nenhuma das duas trocas é segura.
 
 ### Conectivos e Termos Semânticos Críticos
 - **Aproximação vs. Estado**: Termos como *"quase"* carregam informação semântica de proximidade. *"João quase perdeu o voo"* não equivale a *"João não perdeu o voo"*, pois a ideia de proximidade do erro/fracasso foi eliminada.

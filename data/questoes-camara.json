@@ -7621,12 +7621,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 2 / planejamento",
       "articleId": "art-1c9e5b7a32d0648f",
-      "conceptId": "ansoff-oferta-nova-mercado-atual",
-      "mechanism": "ansoff-oferta-nova-mercado-atual",
+      "conceptId": "ansoff-intensidade-no-mercado-atual",
+      "mechanism": "classificar-crescimento-sem-mudar-oferta-ou-publico",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-1c9e5b7a32d0648f#Matriz de Ansoff: produto e mercado, existentes e novos"
       ],
@@ -7634,9 +7634,10 @@
         "path": "3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes.md",
         "section": "Matriz de Ansoff: produto e mercado, existentes e novos"
       },
-      "statement": "Se uma editora cria um audiolivro que constitui uma nova oferta e o comercializa exclusivamente junto aos seus clientes atuais, a combinação é compatível com desenvolvimento de produto na matriz de Ansoff.",
+      "statement": "Uma editora mantém o catálogo e a região atendida e oferece entregas semanais em vez de quinzenais para estimular pedidos mais frequentes dos clientes atuais. Se a alteração é apenas logística e a oferta editorial permanece a mesma, a iniciativa se enquadra em penetração de mercado.",
       "correctAnswer": "C",
-      "explanation": "A oferta é nova e o mercado permanece o atual. Desenvolvimento de mercado corresponderia a levar oferta existente a outro mercado."
+      "explanation": "A ação procura ampliar o uso da oferta existente pelo mercado atual. Alterar a operação de entrega, nas condições descritas, não introduz um novo produto editorial.",
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e comentário com a seção Matriz de Ansoff: produto e mercado, existentes e novos e substituição de mecanismo próximo a exercício do artigo."
     },
     {
       "id": "cam-di-bcg-comparacao-lider",
@@ -7810,22 +7811,23 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 2 / segmentação",
       "articleId": "art-b7e30f4c9a261d85",
-      "conceptId": "demanda-e-capacidade-de-atendimento",
-      "mechanism": "demanda-e-capacidade-de-atendimento",
+      "conceptId": "segmentacao-sem-alterar-elegibilidade",
+      "mechanism": "distinguir-direcionamento-da-mensagem-e-acesso",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-b7e30f4c9a261d85#Atratividade versus capacidade de atender"
+        "article:art-b7e30f4c9a261d85#Segmentação do serviço versus segmentação da publicidade"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao.md",
-        "section": "Atratividade versus capacidade de atender"
+        "section": "Segmentação do serviço versus segmentação da publicidade"
       },
-      "statement": "Ao escolher um segmento para atendimento imediato, o alto volume de demanda torna dispensável verificar se a organização dispõe de capacidade para prestar o serviço requerido.",
-      "correctAnswer": "E",
-      "explanation": "A demanda informa a atratividade. A capacidade de atender é um critério distinto e pode impedir a escolha para atendimento imediato."
+      "statement": "Uma equipe prepara orientações diferentes para organizações pequenas e grandes sobre o mesmo serviço. A adequação das mensagens não altera, por si, as condições de elegibilidade do serviço.",
+      "correctAnswer": "C",
+      "explanation": "A segmentação de comunicação adapta a mensagem às necessidades de cada grupo. A elegibilidade depende das condições do serviço, que podem ser comuns a todos.",
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e comentário com a seção Segmentação do serviço versus segmentação da publicidade e substituição de mecanismo próximo a exercício do artigo."
     },
     {
       "id": "cam-di-pagamento-e-controle-editorial",

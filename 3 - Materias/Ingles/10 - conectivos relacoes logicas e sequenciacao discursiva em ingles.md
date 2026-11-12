@@ -224,6 +224,32 @@ Alguns conectores assumem papéis sintáticos e semânticos distintos a depender
 
 ---
 
+## 4.1. Exercícios progressivos com conectores em texto completo
+
+**Texto original e ficcional, escrito para estudo:**
+
+> The community radio station planned to expand its local news coverage. Although the volunteer team had limited equipment, it produced a weekly programme on public transport. Since several listeners could not access the programme live, the station also published recordings online. The audience grew; however, the team could not determine whether the increase resulted from the new distribution channel or from publicity in local newspapers.
+
+A primeira relação é **concessiva**: o equipamento limitado não impediu a produção do programa. A segunda é **causal**: a dificuldade de acompanhar a transmissão ao vivo motivou a disponibilização das gravações. O último período contém **contraste** entre aumento do público e incerteza sobre a causa desse aumento.
+
+**Mudança de uma condição:** se *Although the volunteer team had limited equipment* fosse trocado por *Because the volunteer team had limited equipment*, o texto passaria a apresentar a limitação como motivo da produção, em vez de obstáculo superado. Se *however* fosse substituído por *therefore*, seria sugerida conclusão causal entre crescimento e incerteza, alterando a relação discursiva.
+
+**Item adicional A (inédito, C/E).** The word *Although* introduces a limitation that did not prevent the station from producing the weekly programme.
+
+**Gabarito: Certo.** A oração concessiva apresenta obstáculo ou expectativa contrária que não impede a ação principal.
+
+**Item adicional B (inédito, C/E).** The connector *Since* is used in the passage exclusively to indicate that the online recordings were published after the live broadcasts.
+
+**Gabarito: Errado.** No contexto, *since* introduz uma justificativa (*because*): a dificuldade dos ouvintes motivou a disponibilização online. O termo não fixa, por si só, a sequência temporal afirmada pelo item.
+
+**Item adicional C (inédito, C/E).** The passage establishes that publicity in local newspapers was solely responsible for the audience growth.
+
+**Gabarito: Errado.** O último período afirma explicitamente que a equipe não conseguiu distinguir a contribuição das gravações online e da publicidade jornalística.
+
+**Contraste gramatical:** *Although resources were limited, the station continued broadcasting* admite uma oração finita após *although*. A transformação *Despite limited resources, the station continued broadcasting* usa sintagma nominal após *despite*. A relação concessiva é semelhante, mas a estrutura sintática mudou.
+
+---
+
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**

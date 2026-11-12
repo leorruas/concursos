@@ -25,7 +25,7 @@ No contexto de concursos do **Cebraspe** e aplicações contemporâneas na admin
 ```mermaid
 flowchart LR
     classDef agente fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;
-    classDef ambiente fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+    classDef ambiente fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#0f172a;
     classDef feedback fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
 
     Agente["Agente de IA<br>(Tomador de decisão / Política &pi;)"]:::agente

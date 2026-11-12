@@ -51,7 +51,9 @@ for (const [id, info] of docs) {
     const line = original;
     if (/^\s*(?:```|~~~)/.test(line)) { inFence = !inFence; continue; }
     if (inFence || /^\s{4,}/.test(line)) continue;
-    const prose = line.replace(/`[^`]*`/g, '');
+    // O Markdown legado usa \\| em wikilinks (inclusive dentro de tabelas).
+    // O parser compara offsets na mesma string normalizada.
+    const prose = line.replace(/\\\|/g, '|').replace(/`[^`]*`/g, '');
     let match;
     const spans = [];
     const wiki = /\[\[([^|\]#]+)(?:#[^|\]]+)?(?:\|([^\]]+))?\]\]/g;
@@ -69,6 +71,10 @@ for (const [id, info] of docs) {
           mark(id, i + 1 + lineOffset, 'referencia_privada_ou_legada', match[0]);
           continue;
         }
+        if (/^(?:00 inbox\/|00 ingestão$|00 - Desempenho\/|4 - Projetos\/dataprev-2026\/|\d{2}-\d{2}-20\d{2}$)/i.test(target)) {
+          mark(id, i + 1 + lineOffset, 'fonte_historica_nao_publica', match[0]);
+          continue;
+        }
         mark(id, i + 1 + lineOffset, 'destino_nao_resolvido', match[0]);
         continue;
       }
@@ -82,13 +88,14 @@ for (const [id, info] of docs) {
       }
     }
     const inlineCode = /`[^`]*`/g;
-    const cleaned = prose.replace(inlineCode, m => ' '.repeat(m.length));
+    const cleaned = prose.replace(inlineCode, m => ' '.repeat(m.length)).replace(/https?:\/\/[^\s)>]+/g, m => ' '.repeat(m.length));
     const plain = /\b(?:nota\s*(?:n[.º°]?\s*)?\d{1,3}|(?:CAM|CGU|DP|DAT)-[A-Z]{2,5}-\d{2,4}|(?:nota|artigo)\s+(?:anterior|seguinte|posterior|pr[oó]xim[ao]))\b/gi;
     while ((match = plain.exec(cleaned))) {
       const offset = match.index;
       if (spans.some(([a,b]) => offset >= a && offset < b)) continue;
       // Códigos em tabelas de planejamento devem ser revisados, mas nao corrigidos automaticamente.
-      mark(id, i + 1 + lineOffset, 'referencia_visivel', match[0], line.trim().slice(0, 180));
+      const inStructure = /^\s*(?:#{1,6}\s|\||\d+[.)]\s|[-*]\s)/.test(line);
+      mark(id, i + 1 + lineOffset, inStructure ? 'codigo_curricular_em_estrutura' : 'referencia_em_prosa', match[0], line.trim().slice(0, 180));
     }
     const md = /\[([^\]]+)\]\(([^)]+)\)/g;
     while ((match = md.exec(cleaned))) {

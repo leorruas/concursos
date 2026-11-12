@@ -70,4 +70,4 @@ Quarenta questões de comunicação organizacional sobre dimensões, integraçã
 
 ## Lote 013 em elaboração
 
-Onze questões sobre redes oficiais, vinculadas aos artigos 65 a 69. O lote inclui planejamento, produção colaborativa, proporções e formatos. Ampliar com públicos, linguagem e avaliação.
+Dezenove questões sobre redes oficiais, vinculadas aos artigos 65 a 69. O lote inclui planejamento, produção colaborativa, proporções e formatos. O lote agora também inclui públicos, linguagem e avaliação. Completar os casos de formatos e elementos de publicação.

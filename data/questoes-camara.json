@@ -20289,6 +20289,222 @@
       "statement": "Uma descrição breve abaixo de um vídeo que resume seu tema garante acesso às falas, ainda que não apresente seu conteúdo.",
       "correctAnswer": "E",
       "explanation": "A descrição contextualiza o vídeo. A legenda audiovisual torna acessível o conteúdo falado e outros sons relevantes."
+    },
+    {
+      "id": "cam-cs-cobertura-editorial-com-repeticao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / planejamento editorial",
+      "articleId": "art-a72f906bde4318c5",
+      "conceptId": "cobertura-editorial-com-repeticao",
+      "mechanism": "cobertura-editorial-com-repeticao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Avaliação editorial: equilíbrio, pertinência, cobertura e resultados"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md",
+        "section": "Avaliação editorial: equilíbrio, pertinência, cobertura e resultados"
+      },
+      "statement": "Uma rede oficial publicou vinte vezes sobre o mesmo serviço. O volume, por si só, demonstra que o calendário cobriu todos os temas prioritários.",
+      "correctAnswer": "E",
+      "explanation": "O volume mede publicações. A cobertura exige comparar os temas efetivamente abordados com as prioridades definidas."
+    },
+    {
+      "id": "cam-cs-capacidade-e-atualizacao-prioritaria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / planejamento editorial",
+      "articleId": "art-a72f906bde4318c5",
+      "conceptId": "capacidade-e-atualizacao-prioritaria",
+      "mechanism": "capacidade-e-atualizacao-prioritaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Frequência, consistência, oportunidade e capacidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md",
+        "section": "Frequência, consistência, oportunidade e capacidade"
+      },
+      "statement": "Adiar uma postagem perene para publicar uma alteração de prazo que entra em vigor no mesmo dia é compatível com um calendário que prevê revisão de prioridades.",
+      "correctAnswer": "C",
+      "explanation": "O calendário coordena capacidade e oportunidade. Uma informação com efeito imediato pode exigir prioridade sobre uma pauta flexível."
+    },
+    {
+      "id": "cam-cs-parecer-tecnico-e-autorizacao-editorial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / produção colaborativa",
+      "articleId": "art-8f0c2e19a5d74b6c",
+      "conceptId": "parecer-tecnico-e-autorizacao-editorial",
+      "mechanism": "parecer-tecnico-e-autorizacao-editorial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8f0c2e19a5d74b6c#Papéis: produção, validação, aprovação e publicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md",
+        "section": "Papéis: produção, validação, aprovação e publicação"
+      },
+      "statement": "Confirmar a exatidão dos dados de um post transfere automaticamente ao especialista a autoridade para decidir se e quando o post será publicado.",
+      "correctAnswer": "E",
+      "explanation": "Validar fatos e aprovar a publicação são funções distintas. A atribuição de autoridade depende do fluxo adotado."
+    },
+    {
+      "id": "cam-cs-alcance-e-publico-da-tarefa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / proporções",
+      "articleId": "art-bb9305cf871d42ae",
+      "conceptId": "alcance-e-publico-da-tarefa",
+      "mechanism": "alcance-e-publico-da-tarefa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-bb9305cf871d42ae#Público, comunidade, alcance e comportamento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md",
+        "section": "Público, comunidade, alcance e comportamento"
+      },
+      "statement": "Um canal de grande alcance pode ser secundário numa orientação destinada a um grupo que consulta habitualmente outro canal para executar a tarefa.",
+      "correctAnswer": "C",
+      "explanation": "O alcance agregado não mede adequação ao público específico. A escolha considera hábitos de acesso e a tarefa pretendida."
+    },
+    {
+      "id": "cam-cs-adaptacao-de-registro-sem-mudar-condicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / proporções",
+      "articleId": "art-bb9305cf871d42ae",
+      "conceptId": "adaptacao-de-registro-sem-mudar-condicao",
+      "mechanism": "adaptacao-de-registro-sem-mudar-condicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-bb9305cf871d42ae#Linguagens: o que muda quando muda o ambiente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md",
+        "section": "Linguagens: o que muda quando muda o ambiente"
+      },
+      "statement": "Uma equipe pode trocar termos técnicos por expressões mais familiares em uma rede oficial e preservar a condição que limita quem pode solicitar o serviço.",
+      "correctAnswer": "C",
+      "explanation": "Adaptar a linguagem melhora a compreensão. Preservar a condição mantém a precisão da orientação."
+    },
+    {
+      "id": "cam-cs-story-e-consulta-depois-da-janela",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / formatos",
+      "articleId": "art-5c4d7e9b1a8260f3",
+      "conceptId": "story-e-consulta-depois-da-janela",
+      "mechanism": "story-e-consulta-depois-da-janela",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5c4d7e9b1a8260f3#Stories: disposição em sequência e janela de visibilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md",
+        "section": "Stories: disposição em sequência e janela de visibilidade"
+      },
+      "statement": "Uma sequência disponível por tempo limitado assegura consulta posterior às instruções, mesmo sem cópia persistente em outro local.",
+      "correctAnswer": "E",
+      "explanation": "A disponibilidade depende da janela de visibilidade. Orientações que precisam ser recuperadas depois devem ter uma referência persistente."
+    },
+    {
+      "id": "cam-cs-palavra-chave-e-intencao-de-busca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
+      "articleId": "art-37c8f1e42a9065bd",
+      "conceptId": "palavra-chave-e-intencao-de-busca",
+      "mechanism": "palavra-chave-e-intencao-de-busca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37c8f1e42a9065bd#Palavra-chave e hashtag: encontrar não é viralizar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
+        "section": "Palavra-chave e hashtag: encontrar não é viralizar"
+      },
+      "statement": "Usar na legenda o termo que o público procura para identificar um serviço pode facilitar sua descoberta mesmo sem adotar uma hashtag popular.",
+      "correctAnswer": "C",
+      "explanation": "A pertinência do termo ajuda a relacionar o conteúdo à busca. A popularidade de uma hashtag não determina se o post responde à tarefa."
+    },
+    {
+      "id": "cam-cs-marcacao-e-credito-de-procedencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
+      "articleId": "art-37c8f1e42a9065bd",
+      "conceptId": "marcacao-e-credito-de-procedencia",
+      "mechanism": "marcacao-e-credito-de-procedencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37c8f1e42a9065bd#Marcação, crédito e atribuição"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
+        "section": "Marcação, crédito e atribuição"
+      },
+      "statement": "Marcar o perfil que republicou uma fotografia comprova sua autoria mesmo quando o perfil informa ter recebido a imagem de terceiros.",
+      "correctAnswer": "E",
+      "explanation": "A marcação identifica um perfil relacionado à circulação. O crédito de autoria depende de verificar a procedência da fotografia."
     }
   ]
 }

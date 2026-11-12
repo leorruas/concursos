@@ -16268,6 +16268,330 @@
       "statement": "O aumento das visualizações de um aviso que corrige um boato demonstra que as pessoas que acreditavam no boato mudaram de opinião.",
       "correctAnswer": "E",
       "explanation": "Visualizações medem exposição ao aviso. Para demonstrar mudança de opinião no público relevante, é preciso observar a crença com um desenho adequado."
+    },
+    {
+      "id": "cam-cs-emissao-recepcao-simultaneas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / Teorias da Comunicação",
+      "articleId": "art-943fb6a178d205ec",
+      "conceptId": "emissao-recepcao-simultaneas",
+      "mechanism": "emissao-recepcao-simultaneas",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-943fb6a178d205ec#Terceiro conjunto: modelo transacional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/31 - modelos lineares circulares e transacionais da comunicacao.md",
+        "section": "Terceiro conjunto: modelo transacional"
+      },
+      "statement": "No modelo transacional, uma pessoa pode emitir e interpretar sinais ao mesmo tempo.",
+      "correctAnswer": "C",
+      "explanation": "A interação admite produção e interpretação simultâneas, como falar enquanto se observam as reações do interlocutor."
+    },
+    {
+      "id": "cam-cs-abstracao-no-modelo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / Teorias da Comunicação",
+      "articleId": "art-65e3a8bd42f190c7",
+      "conceptId": "abstracao-no-modelo",
+      "mechanism": "abstracao-no-modelo",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-65e3a8bd42f190c7#Cinco termos e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/26 - teoria modelo escola e paradigma na comunicacao.md",
+        "section": "Cinco termos e suas fronteiras"
+      },
+      "statement": "Um modelo de comunicação precisa reproduzir todos os aspectos de uma situação concreta para representar qualquer relação entre seus elementos.",
+      "correctAnswer": "E",
+      "explanation": "Modelos selecionam componentes e relações pertinentes ao problema. A abstração é parte de sua função."
+    },
+    {
+      "id": "cam-cs-lideranca-e-rede-interpessoal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / fluxo em duas etapas",
+      "articleId": "art-c3b719f24a6e058d",
+      "conceptId": "lideranca-e-rede-interpessoal",
+      "mechanism": "lideranca-e-rede-interpessoal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c3b719f24a6e058d#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/34 - lazarsfeld fluxo em duas etapas e lideres de opiniao.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Uma pessoa consultada pelos vizinhos sobre saúde ocupa necessariamente a mesma posição de influência quando o assunto muda para transporte.",
+      "correctAnswer": "E",
+      "explanation": "A influência interpessoal depende do tema e das relações do grupo. Ela não é uma posição universal em todos os assuntos."
+    },
+    {
+      "id": "cam-cs-selecao-em-etapas-sucessivas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / gatekeeping",
+      "articleId": "art-4e290c7b68d351af",
+      "conceptId": "selecao-em-etapas-sucessivas",
+      "mechanism": "selecao-em-etapas-sucessivas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4e290c7b68d351af#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/37 - gatekeeping selecao editorial e fluxos de informacao.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Uma assessoria envia dez pautas, uma redação escolhe duas e uma editora seleciona uma delas para o boletim. É possível investigar a seleção em cada etapa sem atribuir a exclusão de todas as pautas à decisão da editora.",
+      "correctAnswer": "C",
+      "explanation": "As decisões ocorreram em pontos distintos. Para atribuir cada exclusão, é preciso identificar quais pautas chegaram a cada etapa e quais foram retidas ali."
+    },
+    {
+      "id": "cam-cs-consumo-e-organizacao-da-producao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / teoria crítica",
+      "articleId": "art-7ce2f05b3ad91486",
+      "conceptId": "consumo-e-organizacao-da-producao",
+      "mechanism": "consumo-e-organizacao-da-producao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7ce2f05b3ad91486#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/38 - escola de frankfurt teoria critica e industria cultural.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Para examinar a padronização industrial de um catálogo audiovisual, basta saber que cada espectador gosta de um título diferente.",
+      "correctAnswer": "E",
+      "explanation": "Preferências individuais não descrevem as rotinas e formas da produção. O exame da padronização exige comparar as estruturas e condições das obras."
+    },
+    {
+      "id": "cam-cs-leitura-oposicional-com-reconhecimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / estudos culturais",
+      "articleId": "art-b39da4815f7e0c26",
+      "conceptId": "leitura-oposicional-com-reconhecimento",
+      "mechanism": "leitura-oposicional-com-reconhecimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b39da4815f7e0c26#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/39 - estudos culturais stuart hall codificacao decodificacao recepcao.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Um espectador pode reconhecer a interpretação preferencial de uma peça e, ainda assim, reinterpretá-la a partir de um quadro de valores que a contraria.",
+      "correctAnswer": "C",
+      "explanation": "Na leitura oposicional, reconhecer a interpretação proposta é compatível com rejeitá-la e reorganizar o sentido."
+    },
+    {
+      "id": "cam-cs-meio-e-organizacao-da-interacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / ecologia dos meios",
+      "articleId": "art-0cd74f8a2be93651",
+      "conceptId": "meio-e-organizacao-da-interacao",
+      "mechanism": "meio-e-organizacao-da-interacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-0cd74f8a2be93651#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/40 - mcluhan meio mensagem extensoes e ecologia dos meios.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Uma entrevista antes distribuída em gravação passa a ser transmitida ao vivo com perguntas do público durante a fala. Mesmo que as respostas preparadas sejam iguais, é possível investigar mudança na temporalidade e na participação.",
+      "correctAnswer": "C",
+      "explanation": "A transmissão ao vivo muda a relação temporal e permite intervenção durante a emissão. A análise do meio abrange essas condições."
+    },
+    {
+      "id": "cam-cs-simbolo-convencional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / semiótica",
+      "articleId": "art-5f913bd7a4c2680e",
+      "conceptId": "simbolo-convencional",
+      "mechanism": "simbolo-convencional",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5f913bd7a4c2680e#Ícone, índice e símbolo: o critério da relação com o objeto"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/41 - semiotica saussure peirce barthes e significacao.md",
+        "section": "Ícone, índice e símbolo: o critério da relação com o objeto"
+      },
+      "statement": "Na classificação de Peirce, a relação simbólica pode depender de convenção.",
+      "correctAnswer": "C",
+      "explanation": "O símbolo remete ao objeto segundo uma regra ou hábito interpretativo."
+    },
+    {
+      "id": "cam-cs-clima-local-e-clima-amplo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / opinião pública",
+      "articleId": "art-a4d7e832b9510c6f",
+      "conceptId": "clima-local-e-clima-amplo",
+      "mechanism": "clima-local-e-clima-amplo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a4d7e832b9510c6f#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/43 - espiral do silencio noelle neumann clima de opiniao.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Observar silêncio em uma reunião permite concluir que a mesma pessoa evita falar em todos os ambientes, mesmo onde percebe apoio à sua posição.",
+      "correctAnswer": "E",
+      "explanation": "A disposição para falar pode variar com o clima de opinião percebido em cada contexto."
+    },
+    {
+      "id": "cam-cs-checagem-de-citacao-truncada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / desinformação",
+      "articleId": "art-f1483b1fa6d042c2",
+      "conceptId": "checagem-de-citacao-truncada",
+      "mechanism": "checagem-de-citacao-truncada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f1483b1fa6d042c2#Método do fact-checking"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/18 - fact checking e desinformacao.md",
+        "section": "Método do fact-checking"
+      },
+      "statement": "Se um trecho literal de discurso omite a condição que limitava a afirmação original, a checagem precisa comparar a citação com a passagem completa.",
+      "correctAnswer": "C",
+      "explanation": "A exatidão das palavras citadas não garante a preservação de seu alcance. O contexto pode alterar a interpretação."
+    },
+    {
+      "id": "cam-cs-mudanca-na-governanca-sem-mudar-interface",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / plataformização",
+      "articleId": "art-1fc842a6b30d59e7",
+      "conceptId": "mudanca-na-governanca-sem-mudar-interface",
+      "mechanism": "mudanca-na-governanca-sem-mudar-interface",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1fc842a6b30d59e7#Estrutura de análise segundo Poell, Nieborg e Van Dijck (2019)"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/45 - plataformizacao infraestrutura governanca dados e economia.md",
+        "section": "Estrutura de análise segundo Poell, Nieborg e Van Dijck (2019)"
+      },
+      "statement": "Se uma plataforma conserva a interface, mas restringe quais parceiros podem acessar métricas, a relação de dependência permanece necessariamente igual.",
+      "correctAnswer": "E",
+      "explanation": "A aparência pode continuar idêntica enquanto as regras de governança alteram a capacidade de medir, comparar e adaptar serviços."
+    },
+    {
+      "id": "cam-cs-correcao-mais-rapida-com-alcance-menor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 1 / integridade da informação",
+      "articleId": "art-704e9cd41f60a2b8",
+      "conceptId": "correcao-mais-rapida-com-alcance-menor",
+      "mechanism": "correcao-mais-rapida-com-alcance-menor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-704e9cd41f60a2b8#Prevenção, checagem, correção e avaliação: finalidades diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/46 - integridade da informacao ecossistema governanca e direitos.md",
+        "section": "Prevenção, checagem, correção e avaliação: finalidades diferentes"
+      },
+      "statement": "Uma equipe passa a publicar correções em uma hora em vez de um dia, mas reduz a proporção do público exposto ao boato que recebe a correção. É possível registrar melhora de velocidade e piora de cobertura ao mesmo tempo.",
+      "correctAnswer": "C",
+      "explanation": "O tempo de publicação e a cobertura do público relevante são medidas distintas. Avaliar a intervenção exige observar ambas."
     }
   ]
 }

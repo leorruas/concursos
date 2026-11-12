@@ -108,3 +108,5 @@ Oito itens sobre localização, compreensão e uso da informação, desenho do t
 O lote soma 16 itens redigidos. Os oito novos tratam de inspeção heurística, percurso cognitivo, conformidade técnica e limites das fórmulas de leiturabilidade.
 
 O lote soma 24 itens redigidos. Os oito novos cobrem planejamento, desenvolvimento e avaliação conforme o artigo 76, com casos sobre suporte, arquitetura da informação e desenho de rodadas de teste.
+
+O lote soma 32 itens redigidos. Os oito novos cobrem âmbito, operacionalização, comunicação a comunidades indígenas, objetivos e técnicas da Lei nº 15.263/2025, com referência ao artigo 75.

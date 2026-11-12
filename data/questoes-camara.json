@@ -26320,6 +26320,222 @@
       "statement": "Para saber se leitores compreenderam uma condição de elegibilidade, perguntar apenas o horário de atendimento que aparece ao lado dessa condição é suficiente.",
       "correctAnswer": "E",
       "explanation": "Localizar um horário mede recuperação de um dado. Interpretar a condição exige explicar seu alcance ou aplicá-la a um caso."
+    },
+    {
+      "id": "cam-cs-usab-autarquia-municipal-com-publico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "autarquia-municipal-com-publico",
+      "mechanism": "autarquia-municipal-com-publico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A lei de 2025: objetivos, princípios e procedimentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "A lei de 2025: objetivos, princípios e procedimentos"
+      },
+      "statement": "Um aviso de atendimento produzido por autarquia municipal para seus usuários está no âmbito da Política Nacional de Linguagem Simples, embora a entidade integre a administração indireta.",
+      "correctAnswer": "C",
+      "explanation": "O art. 1º alcança a administração direta e indireta dos municípios em sua comunicação com a população."
+    },
+    {
+      "id": "cam-cs-usab-legislativo-e-abrangencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "legislativo-e-abrangencia",
+      "mechanism": "legislativo-e-abrangencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A lei de 2025: objetivos, princípios e procedimentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "A lei de 2025: objetivos, princípios e procedimentos"
+      },
+      "statement": "Uma assembleia legislativa estadual pode afastar a aplicação da Política Nacional de Linguagem Simples a seus avisos à população apenas por integrar o Poder Legislativo.",
+      "correctAnswer": "E",
+      "explanation": "O art. 1º abrange todos os Poderes dos Estados na comunicação com a população."
+    },
+    {
+      "id": "cam-cs-usab-diretriz-complementar-judiciario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "diretriz-complementar-judiciario",
+      "mechanism": "diretriz-complementar-judiciario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A lei de 2025: objetivos, princípios e procedimentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "A lei de 2025: objetivos, princípios e procedimentos"
+      },
+      "statement": "A previsão de diretrizes nacionais é compatível com a definição, pelo Judiciário estadual, de procedimentos complementares para operacionalizar a política em sua comunicação com a população.",
+      "correctAnswer": "C",
+      "explanation": "O art. 8º atribui a cada Poder, em cada ente federativo, a definição das diretrizes complementares e da operacionalização."
+    },
+    {
+      "id": "cam-cs-usab-portugues-substituido-na-versao-indigena",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "portugues-substituido-na-versao-indigena",
+      "mechanism": "portugues-substituido-na-versao-indigena",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A lei de 2025: objetivos, princípios e procedimentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "A lei de 2025: objetivos, princípios e procedimentos"
+      },
+      "statement": "Quando é possível produzir a versão de um aviso oficial na língua da comunidade indígena destinatária, a publicação nessa língua dispensa a versão em português.",
+      "correctAnswer": "E",
+      "explanation": "O art. 6º prevê a versão na língua dos destinatários, sempre que possível, além da versão em português."
+    },
+    {
+      "id": "cam-cs-usab-intermediario-como-objetivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "intermediario-como-objetivo",
+      "mechanism": "intermediario-como-objetivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A lei de 2025: objetivos, princípios e procedimentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "A lei de 2025: objetivos, princípios e procedimentos"
+      },
+      "statement": "Uma ação que torna possível entender as instruções de atendimento sem pedir que outra pessoa as interprete pode contribuir para um dos objetivos da Política Nacional de Linguagem Simples.",
+      "correctAnswer": "C",
+      "explanation": "O art. 2º inclui reduzir a necessidade de intermediários para compreender a comunicação pública."
+    },
+    {
+      "id": "cam-cs-usab-objetivo-de-tempo-e-tecnica-textual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "objetivo-de-tempo-e-tecnica-textual",
+      "mechanism": "objetivo-de-tempo-e-tecnica-textual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A lei de 2025: objetivos, princípios e procedimentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "A lei de 2025: objetivos, princípios e procedimentos"
+      },
+      "statement": "Reduzir o tempo de atendimento ao cidadão é classificado no texto da Lei nº 15.263/2025 como técnica de redação de frases, no mesmo dispositivo que prevê a ordem direta.",
+      "correctAnswer": "E",
+      "explanation": "A redução do tempo de atendimento é objetivo da política. A ordem direta integra as técnicas de redação do art. 5º."
+    },
+    {
+      "id": "cam-cs-usab-tecnica-em-dois-periodos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "tecnica-em-dois-periodos",
+      "mechanism": "tecnica-em-dois-periodos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A lei de 2025: objetivos, princípios e procedimentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "A lei de 2025: objetivos, princípios e procedimentos"
+      },
+      "statement": "Substituir uma frase invertida por uma construção que identifica primeiro o órgão responsável e depois a ação a executar aplica a técnica de ordem direta prevista na política.",
+      "correctAnswer": "C",
+      "explanation": "A construção explicita o agente antes da ação, aplicando a técnica do art. 5º, I."
+    },
+    {
+      "id": "cam-cs-usab-politica-e-norma-de-acessibilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 10 / Linguagem simples e usabilidade",
+      "articleId": "art-d48f20bc719e65a3",
+      "conceptId": "politica-e-norma-de-acessibilidade",
+      "mechanism": "politica-e-norma-de-acessibilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d48f20bc719e65a3#A lei de 2025: objetivos, princípios e procedimentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/75 - linguagem simples tecnicas compreensao e limites.md",
+        "section": "A lei de 2025: objetivos, princípios e procedimentos"
+      },
+      "statement": "O uso de frases curtas em um aviso é suficiente para afastar a necessidade de empregar linguagem acessível a pessoas com deficiência.",
+      "correctAnswer": "E",
+      "explanation": "A legislação inclui a acessibilidade entre as técnicas pertinentes. Frases curtas, por si, não atendem a todas as necessidades de acesso e compreensão."
     }
   ]
 }

@@ -197,5 +197,5 @@ Leia o texto a seguir, adaptado do padrão típico de provas do Cebraspe para a 
 
 * SWALES, John M.; FEAK, Christine B. **Academic Writing for Graduate Students: Essential Tasks and Skills**. 3. ed. Ann Arbor: University of Michigan Press, 2012. (Capítulos sobre *Problem-Solution Texts* e *Data Commentary*).
 * GRELLET, Françoise. **Developing Reading Skills: A Practical Guide to Reading Comprehension Exercises**. Cambridge: Cambridge University Press, 1981.
-* CEBRASPE. **Bancos de Provas e Padrões de Resposta de Língua Inglesa: Nível Superior (Câmara dos Deputados, Senado Federal, STJ, IPEA, MPO, Diplomacia)**. Brasília, 2018–2024.
+* CEBRASPE. **ANATEL 2024, Especialista em Regulação, caderno 961_ANATEL_CB1_01**, itens de inglês 16–23. [Prova oficial](https://cdn.cebraspe.org.br/concursos/anatel_24/arquivos/961_ANATEL_CB1_01.PDF) e [gabarito definitivo](https://cdn.cebraspe.org.br/concursos/anatel_24/arquivos/GAB_DEFINITIVO_961_ANATEL_CB1_01.PDF). Referência de formato e mecanismos de leitura, não prova de incidência na Câmara.
 * ALEXANDER, L. G. **Longman English Grammar**. London: Longman, 1988.

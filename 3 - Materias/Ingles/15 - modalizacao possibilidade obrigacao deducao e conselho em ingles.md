@@ -47,7 +47,7 @@ Regula o comportamento social, os deveres funcionais e as proibições regimenta
 - **Obrigação Impositiva Forte / Vinculante:**
   - *Must:* Expressa obrigação interna ou determinação imperativa direta (*The committee must submit its findings*).
   - *Have to:* Expressa obrigação externa decorrente de lei, regulamento ou circunstância fática (*Deputies have to register their attendance electronically*).
-  - *Shall (em textos legais e tratados):* Denota mandamento legal imperativo com força cogente (*The Chamber of Deputies shall convene annually...*). Em textos normativos, *shall* $\neq$ simples futuro coloquial; equivale a *must/is obligated to*.
+  - *Shall (em textos legais e tratados):* pode veicular obrigação normativa (*The committee shall publish the report*), mas sua interpretação varia conforme a jurisdição, o gênero e a disposição específica. Em redação normativa contemporânea de linguagem clara, **must** costuma ser preferido para imposições, a fim de evitar a ambiguidade de **shall** com futuro ou previsão. No exemplo normativo, a leitura de dever é apropriada; não generalizar *shall = must* a qualquer contexto/is obligated to*.
 - **Proibição Categórica:**
   - *Must not / May not / Shall not:* Expressam vedação absoluta (*Public servants must not disclose classified records*).
 - **Conselho, Recomendação e Dever Moral (Não Coercitivo):**
@@ -181,7 +181,7 @@ Ao julgar itens do Cebraspe: **se o texto afirma que uma reforma *may stimulate 
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** Na redação legislativa e regulamentar em Língua Inglesa (*legal English*), o modal "shall" é o operador canônico de comando impositivo com força vinculante (*shall = is mandatory / must*). Ele não expressa uma simples previsão cronológica de futuro, mas sim uma obrigação jurídica indeclinável.
+**Comentário:** No dispositivo normativo apresentado, *shall publish* expressa um dever atribuído ao Ombudsman. O uso de *shall* em outros textos pode ser ambíguo e varia entre sistemas jurídicos; este gabarito decorre **do contexto de comando da disposição**, e não de equivalência universal entre *shall* e *must*. Ele não expressa uma simples previsão cronológica de futuro, mas sim uma obrigação jurídica indeclinável.
 
 ---
 

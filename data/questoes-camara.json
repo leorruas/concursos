@@ -26794,7 +26794,7 @@
       "reviewEvidence": "Lote 018. Cotejo editorial com artigo 75. Triagem lexical a 0,22."
     },
     {
-      "id": "cam-cs-pub-finalidade-informativa-suficiente",
+      "id": "cam-cs-pub-publicidade-de-campanha-e-de-servico",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -26803,12 +26803,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
       "articleId": "art-8e2a6f50cb1497d3",
-      "conceptId": "finalidade-informativa-suficiente",
-      "mechanism": "finalidade-informativa-suficiente",
+      "conceptId": "publicidade-de-campanha-e-de-servico",
+      "mechanism": "publicidade-de-campanha-e-de-servico",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Estrutura normativa do art. 37: princípio versus regra específica"
       ],
@@ -26816,9 +26816,10 @@
         "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
         "section": "Estrutura normativa do art. 37: princípio versus regra específica"
       },
-      "statement": "Um aviso oficial informa quais unidades de atendimento estarão fechadas no feriado. A ausência de conteúdo educativo não viola, por si, a exigência constitucional de finalidade da publicidade institucional.",
+      "statement": "Uma página oficial de divulgação de serviços pode estar sujeita à regra constitucional sobre a finalidade da publicidade mesmo quando sua divulgação não faça parte de uma campanha temporária.",
       "correctAnswer": "C",
-      "explanation": "O caráter informativo é uma finalidade admitida pelo § 1º. As finalidades enumeradas são alternativas."
+      "explanation": "Serviços e campanhas são objetos expressamente previstos no § 1º. A divulgação de um serviço não depende da existência de uma campanha.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-orientacao-de-servico-e-finalidade",
@@ -26835,7 +26836,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
       ],
@@ -26845,7 +26846,8 @@
       },
       "statement": "Um cartaz que indica os documentos e o canal para solicitar atendimento precisa também explicar a história do órgão para apresentar caráter de orientação social.",
       "correctAnswer": "E",
-      "explanation": "O caráter de orientação social decorre da ajuda oferecida para acessar o serviço. O histórico do órgão não é requisito dessa finalidade."
+      "explanation": "O caráter de orientação social decorre da ajuda oferecida para acessar o serviço. O histórico do órgão não é requisito dessa finalidade.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-elemento-grafico-sem-nome",
@@ -26862,7 +26864,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Promoção institucional versus promoção pessoal"
       ],
@@ -26872,7 +26874,8 @@
       },
       "statement": "Uma campanha pode caracterizar promoção pessoal mesmo sem nomear a autoridade, quando adota símbolo associado à pessoa para atribuir a ela, em tom laudatório, a prestação do serviço público.",
       "correctAnswer": "C",
-      "explanation": "A vedação alcança símbolos que caracterizem promoção pessoal. A avaliação considera o significado do elemento na composição da peça."
+      "explanation": "A vedação alcança símbolos que caracterizem promoção pessoal. A avaliação considera o significado do elemento na composição da peça.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-metrica-de-alcance-e-regularidade",
@@ -26889,7 +26892,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
       ],
@@ -26899,7 +26902,8 @@
       },
       "statement": "Uma campanha que exalta a autoridade responsável por uma obra fica regular se seu alto alcance também ampliar o conhecimento do público sobre a entrega.",
       "correctAnswer": "E",
-      "explanation": "O alcance indica distribuição da peça. A circulação de informação útil não afasta a vedação à promoção pessoal."
+      "explanation": "O alcance indica distribuição da peça. A circulação de informação útil não afasta a vedação à promoção pessoal.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-rotulo-educativo-e-conteudo",
@@ -26916,7 +26920,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
       ],
@@ -26926,7 +26930,8 @@
       },
       "statement": "Para identificar a finalidade de uma campanha rotulada como educativa, é pertinente examinar o que suas imagens e chamadas efetivamente ensinam ou destacam.",
       "correctAnswer": "C",
-      "explanation": "O rótulo editorial não determina a função real. A avaliação depende da mensagem veiculada e do papel de seus elementos."
+      "explanation": "O rótulo editorial não determina a função real. A avaliação depende da mensagem veiculada e do papel de seus elementos.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-publicidade-caput-e-objeto-especifico",
@@ -26943,7 +26948,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Estrutura normativa do art. 37: princípio versus regra específica"
       ],
@@ -26953,7 +26958,8 @@
       },
       "statement": "O princípio da publicidade previsto no caput do art. 37 limita-se a determinar o caráter educativo, informativo ou de orientação social das campanhas dos órgãos públicos.",
       "correctAnswer": "E",
-      "explanation": "O princípio tem alcance sobre a atuação administrativa. As finalidades enumeradas integram a regra específica do § 1º."
+      "explanation": "O princípio tem alcance sobre a atuação administrativa. As finalidades enumeradas integram a regra específica do § 1º.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-nome-na-identificacao-de-decisao",
@@ -26970,7 +26976,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Promoção institucional versus promoção pessoal"
       ],
@@ -26980,7 +26986,8 @@
       },
       "statement": "Uma notícia oficial pode identificar quem assinou determinada decisão quando essa identificação é relevante para entender o ato e o texto se limita a descrever o fato.",
       "correctAnswer": "C",
-      "explanation": "A identificação funcional permite atribuição e verificação. A vedação incide quando o elemento caracteriza promoção pessoal."
+      "explanation": "A identificação funcional permite atribuição e verificação. A vedação incide quando o elemento caracteriza promoção pessoal.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-merito-exclusivo-e-dados-verdadeiros",
@@ -26997,7 +27004,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Promoção institucional versus promoção pessoal"
       ],
@@ -27007,7 +27014,8 @@
       },
       "statement": "Se as datas e valores de uma obra estão corretos, o órgão pode tratar a entrega como realização pessoal exclusiva da autoridade sem risco de contrariar o § 1º.",
       "correctAnswer": "E",
-      "explanation": "A precisão dos dados não resolve o personalismo do enquadramento. É necessário avaliar como a peça atribui e valoriza a realização."
+      "explanation": "A precisão dos dados não resolve o personalismo do enquadramento. É necessário avaliar como a peça atribui e valoriza a realização.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-urgencia-reconhecida-pela-autoridade",
@@ -27024,7 +27032,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
       ],
@@ -27034,7 +27042,8 @@
       },
       "statement": "No período em que incide o art. 73, VI, b, da Lei das Eleições, o reconhecimento de grave e urgente necessidade pública pelo próprio órgão anunciante basta para aplicar a ressalva prevista no dispositivo.",
       "correctAnswer": "E",
-      "explanation": "A ressalva exige reconhecimento da grave e urgente necessidade pública pela Justiça Eleitoral."
+      "explanation": "A ressalva exige reconhecimento da grave e urgente necessidade pública pela Justiça Eleitoral.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-competicao-e-excecao-eleitoral",
@@ -27051,7 +27060,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
       ],
@@ -27061,7 +27070,8 @@
       },
       "statement": "Na análise da vedação do art. 73, VI, b, da Lei das Eleições, importa verificar se a peça anuncia produto ou serviço que tenha concorrência no mercado.",
       "correctAnswer": "C",
-      "explanation": "O dispositivo excepciona a propaganda de produtos e serviços com concorrência no mercado. A hipótese deve ser verificada antes de aplicar a vedação."
+      "explanation": "O dispositivo excepciona a propaganda de produtos e serviços com concorrência no mercado. A hipótese deve ser verificada antes de aplicar a vedação.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-esfera-do-pleito-para-incidencia",
@@ -27078,7 +27088,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
       ],
@@ -27088,7 +27098,8 @@
       },
       "statement": "A incidência das vedações do art. 73, VI, b e c, da Lei das Eleições independe da esfera administrativa cujos cargos estejam em disputa.",
       "correctAnswer": "E",
-      "explanation": "O § 3º limita as duas vedações aos agentes públicos das esferas administrativas cujos cargos estejam em disputa na eleição."
+      "explanation": "O § 3º limita as duas vedações aos agentes públicos das esferas administrativas cujos cargos estejam em disputa na eleição.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-urgencia-e-impessoalidade",
@@ -27105,7 +27116,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
       ],
@@ -27115,7 +27126,8 @@
       },
       "statement": "O reconhecimento eleitoral de necessidade grave e urgente para divulgar uma campanha deixa subsistente a análise de eventual promoção pessoal nos termos da Constituição.",
       "correctAnswer": "C",
-      "explanation": "A ressalva eleitoral trata da autorização no período restrito. A publicidade continua sujeita à vedação constitucional de promoção pessoal."
+      "explanation": "A ressalva eleitoral trata da autorização no período restrito. A publicidade continua sujeita à vedação constitucional de promoção pessoal.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-prazo-eleitoral-e-inicio-da-propaganda",
@@ -27132,7 +27144,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
       ],
@@ -27142,7 +27154,8 @@
       },
       "statement": "A vedação do art. 73, VI, b, inicia-se na data autorizada para o começo da propaganda eleitoral, independentemente da contagem de meses até o pleito.",
       "correctAnswer": "E",
-      "explanation": "O inciso VI usa como marco os três meses anteriores ao pleito. A data de início da propaganda eleitoral segue regra distinta."
+      "explanation": "O inciso VI usa como marco os três meses anteriores ao pleito. A data de início da propaganda eleitoral segue regra distinta.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-autoria-apurada-por-contratacao",
@@ -27159,7 +27172,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
       ],
@@ -27169,7 +27182,8 @@
       },
       "statement": "Se um material de divulgação menciona o nome de uma unidade, mas o expediente aponta contratação por outra, apurar quem contratou e qual canal publicou a peça ajuda a identificar as regras incidentes.",
       "correctAnswer": "C",
-      "explanation": "A identificação visual não resolve autoria, contratação nem responsabilidade pelo canal. Esses elementos devem ser verificados no contexto."
+      "explanation": "A identificação visual não resolve autoria, contratação nem responsabilidade pelo canal. Esses elementos devem ser verificados no contexto.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-analise-limitada-ao-texto",
@@ -27186,7 +27200,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
       ],
@@ -27196,7 +27210,8 @@
       },
       "statement": "Se a legenda de um vídeo institucional é neutra, a verificação da finalidade da publicidade pode desconsiderar a trilha, a montagem e as imagens.",
       "correctAnswer": "E",
-      "explanation": "Elementos audiovisuais também podem conferir centralidade laudatória a uma pessoa ou alterar a finalidade aparente da peça."
+      "explanation": "Elementos audiovisuais também podem conferir centralidade laudatória a uma pessoa ou alterar a finalidade aparente da peça.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-material-antigo-em-nova-distribuicao",
@@ -27213,7 +27228,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
       ],
@@ -27223,7 +27238,8 @@
       },
       "statement": "Ao decidir redistribuir uma peça institucional produzida antes do período eleitoral, a equipe deve examinar as regras aplicáveis à nova divulgação.",
       "correctAnswer": "C",
-      "explanation": "A produção anterior não resolve a incidência das restrições sobre uma divulgação posterior. É preciso examinar a data, o conteúdo e o âmbito da nova distribuição."
+      "explanation": "A produção anterior não resolve a incidência das restrições sobre uma divulgação posterior. É preciso examinar a data, o conteúdo e o âmbito da nova distribuição.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-endosso-sem-figura-publica",
@@ -27240,7 +27256,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Comunicação institucional da Câmara e pluralismo político"
       ],
@@ -27250,10 +27266,11 @@
       },
       "statement": "Um card oficial que recomenda ao cidadão aderir à posição de uma bancada pode contrariar a Política de Comunicação da Câmara mesmo quando mostra apenas o texto da proposta e nenhuma fotografia de autoridade.",
       "correctAnswer": "C",
-      "explanation": "O art. 12 veda favorecer posições políticas. A incidência dessa regra independe de retrato ou promoção pessoal."
+      "explanation": "O art. 12 veda favorecer posições políticas. A incidência dessa regra independe de retrato ou promoção pessoal.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
-      "id": "cam-cs-pub-elogio-individual-sem-partido",
+      "id": "cam-cs-pub-autoridade-nao-e-unico-sujeito",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -27262,12 +27279,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
       "articleId": "art-8e2a6f50cb1497d3",
-      "conceptId": "elogio-individual-sem-partido",
-      "mechanism": "elogio-individual-sem-partido",
+      "conceptId": "autoridade-nao-e-unico-sujeito",
+      "mechanism": "autoridade-nao-e-unico-sujeito",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Comunicação política, crítica e informação legislativa"
       ],
@@ -27275,9 +27292,10 @@
         "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
         "section": "Comunicação política, crítica e informação legislativa"
       },
-      "statement": "Uma campanha oficial que enaltece nominalmente um servidor por um serviço público só pode caracterizar promoção pessoal se fizer referência a um partido.",
+      "statement": "O art. 37, § 1º, veda promoção pessoal de autoridades, mas exclui desse limite os servidores que não exerçam mandato eletivo.",
       "correctAnswer": "E",
-      "explanation": "O art. 37, § 1º, protege a impessoalidade na publicidade de órgãos públicos. A caracterização de promoção pessoal de servidor independe de vínculo partidário."
+      "explanation": "A vedação abrange autoridades e servidores públicos. Exercer mandato eletivo não é condição para sua incidência.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-publicacao-institucional-com-referencia-critica",
@@ -27294,7 +27312,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Comunicação política, crítica e informação legislativa"
       ],
@@ -27304,7 +27322,8 @@
       },
       "statement": "Ao informar que uma medida sofreu críticas de entidades consultadas, a Agência pode atribuir as críticas a suas fontes e explicar o objeto da divergência sem assumir a opinião das entidades.",
       "correctAnswer": "C",
-      "explanation": "A atribuição identifica quem sustenta a avaliação e a contextualização explica o debate. A voz institucional pode reportar a divergência."
+      "explanation": "A atribuição identifica quem sustenta a avaliação e a contextualização explica o debate. A voz institucional pode reportar a divergência.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-enquete-canal-com-alternativa-laudatoria",
@@ -27321,7 +27340,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Comunicação institucional da Câmara e pluralismo político"
       ],
@@ -27331,7 +27350,8 @@
       },
       "statement": "A possibilidade de votar em duas opções de uma enquete oficial basta para afastar favorecimento político, mesmo que o enunciado descreva uma das opções como a única escolha responsável.",
       "correctAnswer": "E",
-      "explanation": "O favorecimento pode resultar da formulação da pergunta. Oferecer duas opções não elimina o endosso embutido no enunciado."
+      "explanation": "O favorecimento pode resultar da formulação da pergunta. Oferecer duas opções não elimina o endosso embutido no enunciado.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-ata-critica-e-publicacao",
@@ -27348,7 +27368,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Comunicação política, crítica e informação legislativa"
       ],
@@ -27358,7 +27378,8 @@
       },
       "statement": "A reprodução fiel, em ata, de uma crítica atribuída ao parlamentar que a formulou pode cumprir função de registro do debate, mesmo que o trecho contenha avaliação política contundente.",
       "correctAnswer": "C",
-      "explanation": "A ata documenta a manifestação de seu autor. A presença de uma avaliação no registro não transforma a posição em juízo institucional."
+      "explanation": "A ata documenta a manifestação de seu autor. A presença de uma avaliação no registro não transforma a posição em juízo institucional.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-chamada-de-reportagem-com-juizo-partidario",
@@ -27375,7 +27396,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Comunicação política, crítica e informação legislativa"
       ],
@@ -27385,7 +27406,8 @@
       },
       "statement": "Em uma chamada oficial, apresentar como conclusão da Câmara uma avaliação defendida apenas pelo líder de uma bancada é aceitável se o texto completo identificar corretamente o autor.",
       "correctAnswer": "E",
-      "explanation": "A chamada circula como mensagem editorial própria. A atribuição posterior não corrige automaticamente a identificação indevida no título ou na chamada."
+      "explanation": "A chamada circula como mensagem editorial própria. A atribuição posterior não corrige automaticamente a identificação indevida no título ou na chamada.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-equilibrio-e-principio-de-precisao",
@@ -27402,7 +27424,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Comunicação institucional da Câmara e pluralismo político"
       ],
@@ -27412,7 +27434,8 @@
       },
       "statement": "Na cobertura de posições divergentes, expor fielmente os argumentos permite informar o público sem apresentar como comprovado um dado que a documentação disponível desmente.",
       "correctAnswer": "C",
-      "explanation": "Pluralismo permite dar visibilidade a posições. Precisão exige distinguir o que foi alegado do que os registros confirmam."
+      "explanation": "Pluralismo permite dar visibilidade a posições. Precisão exige distinguir o que foi alegado do que os registros confirmam.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-promocao-por-organizacao-visual",
@@ -27429,7 +27452,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Comunicação política, crítica e informação legislativa"
       ],
@@ -27439,7 +27462,8 @@
       },
       "statement": "Em uma campanha para divulgar um serviço, reduzir o tamanho do nome da autoridade basta para sanar eventual promoção pessoal quando o retrato e o slogan continuam atribuindo o serviço a ela.",
       "correctAnswer": "E",
-      "explanation": "A avaliação alcança a combinação de imagem, slogan e atribuição de mérito. O tamanho do nome é apenas um elemento da composição."
+      "explanation": "A avaliação alcança a combinação de imagem, slogan e atribuição de mérito. O tamanho do nome é apenas um elemento da composição.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-terceirizacao-e-publicidade-do-orgao",
@@ -27456,7 +27480,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
       ],
@@ -27466,7 +27490,8 @@
       },
       "statement": "Uma campanha sobre serviços da Câmara, encomendada por uma unidade institucional e produzida por agência contratada, continua sujeita à análise da finalidade da publicidade do órgão.",
       "correctAnswer": "C",
-      "explanation": "A agência executa a produção. A contratação institucional e o objeto da campanha permanecem relevantes para aplicar o art. 37, § 1º."
+      "explanation": "A agência executa a produção. A contratação institucional e o objeto da campanha permanecem relevantes para aplicar o art. 37, § 1º.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-ausencia-de-compra-de-midia",
@@ -27483,7 +27508,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
       ],
@@ -27493,7 +27518,8 @@
       },
       "statement": "Se um órgão publica gratuitamente em seu próprio canal uma campanha sobre obras públicas, a ausência de compra de espaço publicitário torna inaplicável o art. 37, § 1º.",
       "correctAnswer": "E",
-      "explanation": "O dispositivo disciplina a publicidade de obras e outros objetos públicos. Comprar espaço de mídia não é condição para sua incidência."
+      "explanation": "O dispositivo disciplina a publicidade de obras e outros objetos públicos. Comprar espaço de mídia não é condição para sua incidência.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-entrevistado-nao-e-contratante",
@@ -27510,7 +27536,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Comunicação institucional da Câmara e pluralismo político"
       ],
@@ -27520,7 +27546,8 @@
       },
       "statement": "A presença de um deputado entrevistado em vídeo produzido pela comunicação institucional não basta para enquadrar o vídeo na exceção de criação ou contratação direta por parlamentar.",
       "correctAnswer": "C",
-      "explanation": "A exceção do art. 1º, parágrafo único, considera quem criou ou contratou o produto. Participar como fonte da entrevista é uma função diferente."
+      "explanation": "A exceção do art. 1º, parágrafo único, considera quem criou ou contratou o produto. Participar como fonte da entrevista é uma função diferente.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-excecao-interna-e-recurso-publico",
@@ -27537,7 +27564,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Comunicação institucional da Câmara e pluralismo político"
       ],
@@ -27547,7 +27574,8 @@
       },
       "statement": "Comprovar a contratação direta de uma peça por liderança partidária encerra toda análise sobre eventual promoção pessoal com recursos institucionais.",
       "correctAnswer": "E",
-      "explanation": "A contratação pode definir a incidência da política interna específica. A análise de recursos, finalidade e outras normas aplicáveis permanece necessária."
+      "explanation": "A contratação pode definir a incidência da política interna específica. A análise de recursos, finalidade e outras normas aplicáveis permanece necessária.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-versao-publicada-com-patrocinio",
@@ -27564,7 +27592,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
       ],
@@ -27574,7 +27602,8 @@
       },
       "statement": "Se a versão distribuída em rede social difere da peça aprovada, examinar a versão que efetivamente chegou ao público é pertinente para avaliar o enquadramento da publicidade.",
       "correctAnswer": "C",
-      "explanation": "O sentido pode mudar entre versões. O objeto da análise inclui texto, imagem e contexto da peça efetivamente divulgada."
+      "explanation": "O sentido pode mudar entre versões. O objeto da análise inclui texto, imagem e contexto da peça efetivamente divulgada.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-identidade-visual-sem-emissor-identificado",
@@ -27591,7 +27620,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
       ],
@@ -27601,7 +27630,8 @@
       },
       "statement": "A mera presença da marca gráfica da Câmara em uma imagem encaminhada por terceiros comprova que o produto foi criado ou contratado diretamente pela área institucional.",
       "correctAnswer": "E",
-      "explanation": "A marca sozinha não comprova a origem. Expediente, registro de contratação e canal de publicação ajudam a determinar responsabilidade."
+      "explanation": "A marca sozinha não comprova a origem. Expediente, registro de contratação e canal de publicação ajudam a determinar responsabilidade.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-pub-orientacao-e-educacao-na-mesma-peca",
@@ -27618,7 +27648,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
       ],
@@ -27628,10 +27658,11 @@
       },
       "statement": "Uma peça pode explicar a função de uma audiência pública e, no mesmo material, orientar o cidadão a se inscrever para participar.",
       "correctAnswer": "C",
-      "explanation": "A explicação desenvolve compreensão e a instrução orienta uma ação. A Constituição admite essas finalidades sem torná-las mutuamente exclusivas."
+      "explanation": "A explicação desenvolve compreensão e a instrução orienta uma ação. A Constituição admite essas finalidades sem torná-las mutuamente exclusivas.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     },
     {
-      "id": "cam-cs-pub-declaracao-de-finalidade-na-aprovacao",
+      "id": "cam-cs-pub-data-de-referencia-em-prestacao-de-contas",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -27640,12 +27671,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
       "articleId": "art-8e2a6f50cb1497d3",
-      "conceptId": "declaracao-de-finalidade-na-aprovacao",
-      "mechanism": "declaracao-de-finalidade-na-aprovacao",
+      "conceptId": "data-de-referencia-em-prestacao-de-contas",
+      "mechanism": "data-de-referencia-em-prestacao-de-contas",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
       ],
@@ -27653,9 +27684,234 @@
         "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
         "section": "Procedimento de avaliação de uma peça institucional"
       },
-      "statement": "Registrar no processo de aprovação que a peça tem caráter informativo basta para demonstrar sua finalidade, ainda que a versão divulgada não contenha informação sobre o ato ou serviço anunciado.",
+      "statement": "Em uma peça de prestação de contas, identificar o período de referência dos dados contribui para que o público interprete quais resultados estão sendo divulgados.",
+      "correctAnswer": "C",
+      "explanation": "A indicação do período permite delimitar o resultado e confrontá-lo com as fontes, preservando a finalidade informativa da peça.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-pub-orientacao-sem-canal-executavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "orientacao-sem-canal-executavel",
+      "mechanism": "orientacao-sem-canal-executavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Três finalidades autorizadas: fronteiras internas"
+      },
+      "statement": "Um anúncio que apenas informa a existência de um programa, sem explicar como acessá-lo, já oferece ao público instruções para solicitar o serviço.",
       "correctAnswer": "E",
-      "explanation": "A declaração no processo é um elemento de análise. A finalidade também deve ser aferida pelo conteúdo e pelo efeito da versão que foi divulgada."
+      "explanation": "Informar que o programa existe cumpre função informativa. Orientar a solicitação exige indicar como agir.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-pub-uso-de-marca-do-orgao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "uso-de-marca-do-orgao",
+      "mechanism": "uso-de-marca-do-orgao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Promoção institucional versus promoção pessoal"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Promoção institucional versus promoção pessoal"
+      },
+      "statement": "A marca oficial usada para que o público identifique a origem de um aviso não caracteriza promoção pessoal apenas por ser um símbolo.",
+      "correctAnswer": "C",
+      "explanation": "A vedação se refere ao símbolo que caracterize promoção pessoal. Identificar a fonte institucional cumpre função distinta.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-pub-eleicao-sem-candidatura-da-autoridade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "eleicao-sem-candidatura-da-autoridade",
+      "mechanism": "eleicao-sem-candidatura-da-autoridade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Eleições: restrições específicas e norma permanente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Eleições: restrições específicas e norma permanente"
+      },
+      "statement": "Fora do período eleitoral, a vedação constitucional à promoção pessoal só alcança autoridades que já tenham anunciado candidatura.",
+      "correctAnswer": "E",
+      "explanation": "O art. 37, § 1º, tem vigência permanente e não condiciona a vedação à candidatura.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-pub-correcao-de-encaminhamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "correcao-de-encaminhamento",
+      "mechanism": "correcao-de-encaminhamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Procedimento de avaliação de uma peça institucional"
+      },
+      "statement": "Se uma peça sobre atendimento remete a um endereço que deixou de receber pedidos, atualizar o endereço ajuda a recuperar a função de orientar o público.",
+      "correctAnswer": "C",
+      "explanation": "O encaminhamento é parte da instrução. Quando o canal fica inoperante para aquela tarefa, o cidadão perde a possibilidade de agir conforme a peça.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-pub-aprovacao-anterior-e-mudanca-de-slogan",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "aprovacao-anterior-e-mudanca-de-slogan",
+      "mechanism": "aprovacao-anterior-e-mudanca-de-slogan",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Procedimento de avaliação de uma peça institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Procedimento de avaliação de uma peça institucional"
+      },
+      "statement": "A aprovação de uma versão informativa autoriza manter o parecer de conformidade após a inclusão de um slogan de enaltecimento pessoal, desde que o restante da peça seja mantido.",
+      "correctAnswer": "E",
+      "explanation": "O slogan pode mudar o enquadramento do material. A avaliação precisa considerar o novo elemento na versão final.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-pub-identificacao-de-fontes-no-relatorio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "identificacao-de-fontes-no-relatorio",
+      "mechanism": "identificacao-de-fontes-no-relatorio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Três finalidades autorizadas: fronteiras internas"
+      },
+      "statement": "Um boletim que informa resultados de um programa e remete ao relatório que permite verificá-los pode cumprir finalidade informativa mesmo sem instruir o leitor a requerer um serviço.",
+      "correctAnswer": "C",
+      "explanation": "A divulgação verificável de resultados tem caráter informativo. Instruções de solicitação correspondem a outra finalidade possível.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-pub-alcance-de-educacao-sem-servico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "alcance-de-educacao-sem-servico",
+      "mechanism": "alcance-de-educacao-sem-servico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Três finalidades autorizadas: fronteiras internas"
+      },
+      "statement": "Uma animação que ensina a distinguir projeto de lei e lei em vigor carece de caráter educativo se não houver serviço a solicitar ao final.",
+      "correctAnswer": "E",
+      "explanation": "A animação pode desenvolver compreensão sobre o processo legislativo. A existência de uma tarefa de atendimento não é requisito do caráter educativo.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-pub-recorte-laudatorio-de-material-neutro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "recorte-laudatorio-de-material-neutro",
+      "mechanism": "recorte-laudatorio-de-material-neutro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Promoção institucional versus promoção pessoal"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Promoção institucional versus promoção pessoal"
+      },
+      "statement": "Trechos de uma reportagem factual podem formar uma peça de promoção pessoal se a nova edição os reorganizar para enaltecer individualmente uma autoridade.",
+      "correctAnswer": "C",
+      "explanation": "A reedição pode alterar a função da peça mesmo preservando trechos verdadeiros. O enquadramento final precisa ser analisado.",
+      "reviewEvidence": "Lote 019. Cotejo editorial com o artigo 78 e, conforme o objeto, com o art. 37, § 1º, da Constituição, a Lei nº 9.504/1997 ou o Ato nº 218/2025. Triagem lexical a 0,22."
     }
   ]
 }

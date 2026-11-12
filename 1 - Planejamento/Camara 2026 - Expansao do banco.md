@@ -24,6 +24,7 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 016 | Comunicação Social | Edital 14.2.4, item 8: Política e Manual de Comunicação | 40 | 0/29/11/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 | 017 | Comunicação Social | Edital 14.2.4, item 9: aplicações e ética de IA | 40 | 0/20/20/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 | 018 | Comunicação Social | Edital 14.2.4, item 10: linguagem simples e usabilidade | 40 | 0/34/6/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
+| 019 | Comunicação Social | Edital 14.2.4, item 11: publicidade institucional | 40 | 0/28/12/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
@@ -108,12 +109,8 @@ Quarenta itens sobre linguagem simples, avaliação e usabilidade, vinculados ao
 
 Total validado: 720/2.000. Próximo lote: publicidade institucional e art. 37, § 1º, da Constituição, item 11 de Comunicação Social.
 
-## Lote 019 em elaboração
+## Lote 019 validado
 
-Oito itens sobre as finalidades da publicidade institucional e a caracterização de promoção pessoal, vinculados ao artigo 78.
+Quarenta itens sobre finalidade da publicidade institucional, promoção pessoal, pluralismo, autoria e restrições eleitorais. Foram substituídos três casos por questões sobre divulgação de serviços, alcance subjetivo da vedação e período de referência dos resultados. A triagem lexical a 0,22 foi complementada pelo cotejo dos mecanismos com os artigos e o banco. A seleção pelo item 11 recuperou os 40 itens.
 
-O lote soma 16 itens redigidos. Os oito novos cobrem a análise da peça e as restrições eleitorais, com cotejo no art. 73, VI, b, e § 3º da Lei nº 9.504/1997.
-
-O lote soma 24 itens redigidos. Os oito novos cobrem pluralismo, endosso político, registro de críticas, enquadramento de chamadas e personalização visual.
-
-O lote soma 32 itens redigidos. Os oito novos tratam de produção terceirizada, divulgação em canal próprio, autoria, contratação, versões publicadas e exame da finalidade efetiva.
+Total validado: 760/2.000. As onze linhas principais de Comunicação Social e as oito de Divulgação Institucional têm ao menos um lote validado. A expansão deve avançar para lacunas dos conhecimentos gerais.

@@ -23,6 +23,8 @@ jobs:
           git add '3 - Materias'
           if ! git diff --cached --quiet; then
             git commit -m 'docs: corrigir rotulos numericos de referencias cruzadas'
+            git fetch origin audit/referencias-editoriais-2026-11-12
+            git rebase origin/audit/referencias-editoriais-2026-11-12
             git push origin HEAD:audit/referencias-editoriais-2026-11-12
           fi
       - name: Auditar referencias editoriais

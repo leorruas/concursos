@@ -94,7 +94,7 @@ O art. 3º restringe a finalidade das pesquisas e avaliações do art. 2º, § 1
 
 **§ 1º:** o certificado poderá ser obtido perante o **Conselho Executivo das Normas-Padrão (CENP)** ou entidade **equivalente, legalmente reconhecida como fiscalizadora e certificadora** das condições técnicas de agências de propaganda. **A lei não estabelece exclusividade absoluta do CENP**; a alternativa legalmente reconhecida está expressa.
 
-**CENP × CONAR:** **CENP** é mencionado na Lei nº 12.232 como referência possível para qualificação técnica de agências. **CONAR** é o sistema de **autorregulamentação ética da publicidade**, estudado na [[3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao|nota 122]]. **Não são a mesma entidade nem exercem a mesma função**.
+**CENP × CONAR:** **CENP** é mencionado na Lei nº 12.232 como referência possível para qualificação técnica de agências. **CONAR** é o sistema de **autorregulamentação ética da publicidade**, estudado na [[3 - Materias/Comunicacao/122 - codigo brasileiro de autorregulamentacao publicitaria principios e aplicacao|Código Brasileiro de Autorregulamentação Publicitária: princípios e aplicação]]. **Não são a mesma entidade nem exercem a mesma função**.
 
 **§ 2º:** a agência só pode **reservar ou comprar espaço ou tempo publicitário em nome e por conta do cliente** depois de **identificá-lo previamente** e de obter sua **autorização expressa**. **Intermediação publicitária não significa liberdade para comprar mídia em nome da Administração sem autorização.**
 

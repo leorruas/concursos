@@ -207,10 +207,10 @@ Analise a minuta abaixo:
 
 ## 7. Relações com outros conceitos e notas da biblioteca
 
-* **Reescrita por substituição lexical e reorganização sintática:** [[3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido|32 • Reescrita: substituição lexical (CAM-LP-021)]], [[3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica|33 • Reorganização sintática e equivalência semântica (CAM-LP-022)]] e [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido|10 • Reescrita, semântica e preservação de sentido]].
-* **Gêneros textuais e situação sociocomunicativa:** [[3 - Materias/Portugues/16 - genero textual situacao de uso suporte e finalidade|16 • Gênero textual: situação de uso, suporte e finalidade (CAM-LP-005)]].
-* **Correlação de tempos e modos verbais (base do discurso indireto):** [[3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto|21 • Tempo, modo e aspecto verbal na construção do texto (CAM-LP-010)]].
-* **Referenciação e dêixis espacial/temporal/pessoal:** [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|18 • Referência textual: anáfora, catáfora e dêixis (CAM-LP-007)]].
+* **Reescrita por substituição lexical e reorganização sintática:** [[3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido|Reescrita: substituição lexical, correção gramatical e preservação de sentido no padrão Cebraspe]], [[3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica|Reorganização sintática e equivalência semântica: paráfrase, inversões e paralelismo no padrão Cebraspe]] e [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido|10 • Reescrita, semântica e preservação de sentido]].
+* **Gêneros textuais e situação sociocomunicativa:** [[3 - Materias/Portugues/16 - genero textual situacao de uso suporte e finalidade|Gênero textual: situação de uso, suporte, finalidade sociocomunicativa e intergenericidade no padrão Cebraspe]].
+* **Correlação de tempos e modos verbais (base do discurso indireto):** [[3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto|Tempo, modo e aspecto verbal na construção do texto: correlação de tempos e efeitos discursivos no padrão Cebraspe]].
+* **Referenciação e dêixis espacial/temporal/pessoal:** [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|Referência textual: anáfora, catáfora, dêixis e cadeias coesivas no padrão Cebraspe]].
 
 ## 8. Referências teóricas e normativas
 

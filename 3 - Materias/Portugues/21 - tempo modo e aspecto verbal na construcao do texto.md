@@ -230,6 +230,6 @@ Na frase “Em 1823, instala-se no Rio de Janeiro a primeira Assembleia Constitu
 
 ## 7. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao|CAM-LP-009 · Conectores, relações lógicas e sequenciação: operadores argumentativos]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao|Conectores, relações lógicas e sequenciação: operadores argumentativos e articulação do período no padrão Cebraspe]].
 - **Artigo Fundamental Conexo**: [[3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais|08 • Coesão textual: referenciação, conectores e tempos verbais]].
 - **Próxima Unidade**: **CAM-LP-011 · Classes de palavras e suas funções no período** (Morfossintaxe de substantivos, adjetivos, advérbios, pronomes e preposições no padrão Cebraspe).

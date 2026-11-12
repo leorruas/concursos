@@ -18,7 +18,7 @@ O **objetivo de comunicação** define a mudança que se busca em conhecimento, 
 
 **Objetivo institucional** corresponde à finalidade mais ampla, como ampliar a participação cidadã. **Objetivo de mídia** define distribuição, cobertura, alcance e frequência. **Entrega** é produto, por exemplo vídeo, cartaz ou página. **Indicador** é medida escolhida para representar progresso ou resultado. **Meta** associa indicador a valor e prazo. **Avaliação** verifica o que mudou e em que medida é possível relacionar a mudança à intervenção.
 
-A nota [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]] situa a etapa no ciclo estratégico; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|CAM-DI-004]] organiza a demanda; [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|CAM-DI-005]] estabelece o problema e as hipóteses. Esta unidade aprofunda a **fronteira entre objetivos e medidas**, sem reescrever os artigos anteriores.
+A nota [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]] situa a etapa no ciclo estratégico; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|Briefing publicitário: problema, contexto, informações e critérios de qualidade]] organiza a demanda; [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|Diagnóstico publicitário: evidências, hipóteses e problema de comunicação]] estabelece o problema e as hipóteses. Esta unidade aprofunda a **fronteira entre objetivos e medidas**, sem reescrever os artigos anteriores.
 
 ## Estrutura: níveis de objetivos e entregas
 
@@ -42,7 +42,7 @@ O modelo de **hierarquia dos efeitos de Lavidge e Steiner (1961)** distingue con
 
 **Reconhecimento não é compreensão:** a pessoa pode identificar o nome de um canal sem saber utilizá-lo. **Atitude não é intenção:** pode avaliar positivamente a participação sem querer participar. **Intenção não é comportamento:** barreiras de acesso, horário e serviço podem impedir ação mesmo com intenção favorável. **Exposição não é aceitação:** receber uma mensagem não implica concordância.
 
-O [[3 - Materias/Comunicacao/80 - teorias da publicidade e persuasao|CAM-DI-002]] estuda esses mecanismos. Seu uso para planejar objetivos é legítimo como referência, mas não autoriza presumir uma sequência universal de efeitos.
+O [[3 - Materias/Comunicacao/80 - teorias da publicidade e persuasao|Teorias da publicidade e persuasão: AIDA, hierarquia de efeitos, ELM e mudança de atitudes]] estuda esses mecanismos. Seu uso para planejar objetivos é legítimo como referência, mas não autoriza presumir uma sequência universal de efeitos.
 
 ## Objetivo, indicador, KPI e meta
 
@@ -143,7 +143,7 @@ A [AMEC, Integrated Evaluation Framework](https://amecorg.com/amecframework/) di
 
 ## Relações e heurísticas
 
-[[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|CAM-DI-005]] delimita o problema; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|CAM-DI-004]] registra informações e condições; [[3 - Materias/Comunicacao/80 - teorias da publicidade e persuasao|CAM-DI-002]] diferencia exposição, atitude, intenção e ação; [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Campanhas]] aprofunda distribuição.
+[[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|Diagnóstico publicitário: evidências, hipóteses e problema de comunicação]] delimita o problema; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|Briefing publicitário: problema, contexto, informações e critérios de qualidade]] registra informações e condições; [[3 - Materias/Comunicacao/80 - teorias da publicidade e persuasao|Teorias da publicidade e persuasão: AIDA, hierarquia de efeitos, ELM e mudança de atitudes]] diferencia exposição, atitude, intenção e ação; [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Campanhas]] aprofunda distribuição.
 
 **Heurísticas:** “que mudança produzir no público?” → **objetivo de comunicação**; “quem alcançar e com qual frequência?” → **mídia**; “o que produzir?” → **entrega**; “quanto e até quando?” → **meta**; “como medir?” → **indicador**; “que parte da mudança foi causada pela intervenção?” → **avaliação de impacto**. A banca pode usar afirmação verdadeira em categoria errada.
 

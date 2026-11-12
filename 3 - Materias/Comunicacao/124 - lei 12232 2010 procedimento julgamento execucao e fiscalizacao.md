@@ -14,7 +14,7 @@ updated: 2026-11-11
 
 **Situação concreta:** a Câmara licita uma campanha publicitária. Uma agência entrega proposta técnica com marca que permite identificar seu autor antes do julgamento; outra obtém notas divergentes entre avaliadores; depois da contratação, a vencedora apresenta apenas um orçamento para serviço terceirizado, usa uma bonificação de veículo como receita própria e encaminha fatura sem prova de veiculação. **Cada fato exige verificar dispositivo, etapa, sujeito responsável e consequência próprios.** A lei regula tanto a seleção da agência quanto as condições de execução, transparência e controle do contrato.
 
-A **Lei nº 12.232, de 29 de abril de 2010**, disciplina licitações e contratações públicas de **serviços de publicidade prestados por intermédio de agências de propaganda**. O **art. 2º** delimita o objeto, estudado em [[3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade|CAM-DI-045]]. Esta unidade examina **arts. 5º a 12 (procedimento e julgamento), 13 a 17 (execução, fiscalização e transparência) e 18 a 19 (incentivos e receitas)**. Os artigos têm objetos diferentes, e a Cebraspe pode criar distratores transferindo a regra de um artigo para outro.
+A **Lei nº 12.232, de 29 de abril de 2010**, disciplina licitações e contratações públicas de **serviços de publicidade prestados por intermédio de agências de propaganda**. O **art. 2º** delimita o objeto, estudado em [[3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade|Lei nº 12.232/2010: objeto, agências e contratação de publicidade]]. Esta unidade examina **arts. 5º a 12 (procedimento e julgamento), 13 a 17 (execução, fiscalização e transparência) e 18 a 19 (incentivos e receitas)**. Os artigos têm objetos diferentes, e a Cebraspe pode criar distratores transferindo a regra de um artigo para outro.
 
 **Fonte primária:** [Lei nº 12.232/2010, texto atualizado mantido pela Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.html). A redação mantém referências expressas à antiga **Lei nº 8.666/1993**, revogada no encerramento do regime transitório da **Lei nº 14.133/2021**. **Não inferir, a partir de uma remissão antiga, que a lei revogada voltou a vigorar.** Na resolução de questões, separar o texto do dispositivo especial e a compatibilização com o regime geral vigente; a solução de casos reais exige interpretação jurídica e condições do edital.
 
@@ -154,7 +154,7 @@ O art. 12 estabelece consequência severa: descumprimento **por agente do órgã
 
 A definição do objeto e das cláusulas fica **estritamente vinculada ao instrumento convocatório** e à legislação. A execução deve ser **totalmente conforme** as condições licitadas e contratadas. A necessidade de adaptar a mensagem ou o canal não autoriza incluir livremente serviços excluídos do objeto, suprimir controles ou alterar condições sem instrumento e competência apropriados.
 
-**Execução ≠ contratação nova:** preparar peça específica dentro do contrato de publicidade e contratar serviço estranho ao escopo são ações distintas. A [[3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade|nota 123]] explica o limite de objeto.
+**Execução ≠ contratação nova:** preparar peça específica dentro do contrato de publicidade e contratar serviço estranho ao escopo são ações distintas. A [[3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade|Lei nº 12.232/2010: objeto, agências e contratação de publicidade]] explica o limite de objeto.
 
 ## Art. 14: cadastro e três orçamentos de serviços especializados
 
@@ -222,7 +222,7 @@ A execução contratual exige conferir diferentes planos:
 | Transparência | Site próprio e dados nos agregados previstos | “Basta guardar documentação internamente” |
 | Memória da contratação | Acervo mantido por cinco anos após extinção | “Cinco anos desde a assinatura” |
 
-**Fiscalização técnica × fiscalização administrativa:** são funções de controle que podem envolver competências, instrumentos e agentes diferentes segundo o regime de contratos aplicável. A Lei nº 12.232 exige documentação e transparência, mas **não transforma o atendimento comercial da agência em fiscal do contrato da Câmara**. A [[3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao|nota 121]] distingue execução profissional e competência administrativa.
+**Fiscalização técnica × fiscalização administrativa:** são funções de controle que podem envolver competências, instrumentos e agentes diferentes segundo o regime de contratos aplicável. A Lei nº 12.232 exige documentação e transparência, mas **não transforma o atendimento comercial da agência em fiscal do contrato da Câmara**. A [[3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao|Gestão de equipes publicitárias: papéis, trabalho e avaliação]] distingue execução profissional e competência administrativa.
 
 ## Caso progressivo: licitação e campanha da Câmara
 

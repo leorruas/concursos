@@ -35,7 +35,7 @@ O projeto não é uma medida provisória. Na **medida provisória** (art. 62), a
 
 Há dois conjuntos cumulativos de vedações, que devem ser testados **antes** de conceder a autorização.
 
-**Primeiro conjunto: competências e reservas de espécie.** Não se delegam atos de **competência exclusiva do Congresso** (art. 49), atos de **competência privativa da Câmara ou do Senado** (arts. 51 e 52) nem **matéria reservada à lei complementar**. Essa última vedação depende da **reserva constitucional do objeto**, não apenas do nome de uma lei anterior. Ver [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|lei ordinária e complementar, CAM-PL-011]].
+**Primeiro conjunto: competências e reservas de espécie.** Não se delegam atos de **competência exclusiva do Congresso** (art. 49), atos de **competência privativa da Câmara ou do Senado** (arts. 51 e 52) nem **matéria reservada à lei complementar**. Essa última vedação depende da **reserva constitucional do objeto**, não apenas do nome de uma lei anterior. Ver [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|🔄 Processo legislativo e poder constituinte]].
 
 **Segundo conjunto: assuntos expressamente vedados.** Não se delega legislação sobre (I) **organização do Poder Judiciário e do Ministério Público, carreira e garantias de seus membros**; (II) **nacionalidade, cidadania e direitos individuais, políticos e eleitorais**; (III) **plano plurianual, diretrizes orçamentárias e orçamentos**.
 
@@ -114,11 +114,11 @@ Os prazos e etapas acima são os do texto regimental consolidado consultado; sua
 
 ## Relações com outras notas
 
-- [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Espécies normativas e lei complementar (CAM-PL-011)]]: **reserva de lei complementar** impede delegação.
-- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa (CAM-PL-002)]]: pedir delegação não é propor uma lei ordinária.
-- [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Ritos especiais e concentrados (CAM-PL-010)]]: delegação e MP são processos especiais distintos.
-- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Atos finais do processo legislativo (CAM-PL-007)]]: distinguir promulgação da resolução autorizativa e da lei delegada.
-- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões (CAM-PL-004)]]: função da comissão mista no Congresso.
+- [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|🔄 Processo legislativo e poder constituinte]]: **reserva de lei complementar** impede delegação.
+- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]]: pedir delegação não é propor uma lei ordinária.
+- [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Procedimentos sumaríssimo, especial e concentrado: urgência e ritos próprios]]: delegação e MP são processos especiais distintos.
+- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação: etapas, prazos e competências]]: distinguir promulgação da resolução autorizativa e da lei delegada.
+- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]: função da comissão mista no Congresso.
 - [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Leis orçamentárias]]: PPA, LDO e LOA não podem ser objeto de delegação.
 
 ## Heurísticas e tensões

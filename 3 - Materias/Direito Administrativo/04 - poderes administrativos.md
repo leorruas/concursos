@@ -134,4 +134,4 @@ Hierarquia e vinculação conectam-se a [[3 - Materias/Direito Administrativo/02
 - Constituição Federal, art. 84, IV e VI.
 - Código Tributário Nacional, art. 78.
 - Lei nº 9.784/1999, arts. 11 a 15.
-- [[11-06-2026|Inbox - 02-06-2026]].
+- registro de ingestão arquivado.

@@ -246,6 +246,6 @@ Em “A assessoria técnica entregou-lhe o relatório consolidado”, os termos 
 
 ## 8. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|CAM-LP-011 · Classes de palavras e suas funções no período: morfossintaxe]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|Classes de palavras e suas funções no período: morfossintaxe de nomes, pronomes e conectivos no padrão Cebraspe]].
 - **Artigo Fundamental Conexo**: [[3 - Materias/Portugues/02 - sujeito|02 • Sujeito e termos da oração (Visão Sintética)]].
 - **Próxima Unidade**: **CAM-LP-013 · Coordenação: relações sintáticas e semânticas** (Período composto por coordenação, orações sindéticas $\times$ assindéticas, polissemia da conjunção *e* e pontuação de coordenadas no padrão Cebraspe).

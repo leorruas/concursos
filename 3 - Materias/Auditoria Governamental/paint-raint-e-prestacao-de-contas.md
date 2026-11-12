@@ -69,4 +69,4 @@ O **parecer da auditoria interna sobre a prestação de contas anual** é distin
 
 ## Relações com outros temas
 
-[[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|Ciclo de auditoria]] oferece a visão das quatro etapas. O histórico das respostas e dos erros permanece em [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]].
+[[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|Ciclo de auditoria]] oferece a visão das quatro etapas. O histórico das respostas e dos erros permanece em registro individual de estudos mantido no cofre privado.

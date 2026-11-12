@@ -208,7 +208,7 @@ O texto acima é uma **estrutura de conteúdo**, ainda não um exemplar manuscri
 
 ### Uso das oficinas na semana
 
-A primeira produção semanal pode ser uma questão curta sobre a relação **sintoma → hipótese → evidência**; a segunda, peça de até 50 linhas com diagnóstico, plano ou avaliação, alternando objetos a cada semana. Em ambas, aplicar [[07 - revisao e autocorrecao de discursivas e pecas|CAM-DIS-009]], com grade de atendimento, contagem de linhas manuscritas, reescrita focal e reteste posterior. Registrar respostas individuais apenas no cofre privado.
+A primeira produção semanal pode ser uma questão curta sobre a relação **sintoma → hipótese → evidência**; a segunda, peça de até 50 linhas com diagnóstico, plano ou avaliação, alternando objetos a cada semana. Em ambas, aplicar [[07 - revisao e autocorrecao de discursivas e pecas|Revisão e autocorreção de discursivas e peças técnicas]], com grade de atendimento, contagem de linhas manuscritas, reescrita focal e reteste posterior. Registrar respostas individuais apenas no cofre privado.
 
 ## Caso progressivo: peça com mais quesitos e monitoramento associado (autoral)
 
@@ -286,5 +286,5 @@ O primeiro modelo ensina a organizar uma nota curta. Nesta segunda situação, o
 - [Edital nº 1/2026, Câmara dos Deputados, itens 9.1 e 9.8.5.2](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades).
 - [Cebraspe, Câmara 2026, Processo Legislativo e Gestão: padrão definitivo das duas questões e da peça](https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/D5F3CAA9B8BAEA93D7B1750A43949FF94C88F2DA3F44ADAE978062F601A94FDD.pdf).
 - [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|Planejamento estratégico e diagnóstico]]; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|Briefing publicitário]].
-- [[07 - revisao e autocorrecao de discursivas e pecas|Revisão e autocorreção (CAM-DIS-009)]].
+- [[07 - revisao e autocorrecao de discursivas e pecas|Revisão e autocorreção de discursivas e peças técnicas]].
 

@@ -22,7 +22,7 @@ aliases:
 
 O **art. 61, caput, da Constituição Federal** estabelece a iniciativa das **leis ordinárias e complementares**. Os §§ 1º e 2º estabelecem, respectivamente, hipóteses de **iniciativa privativa do presidente da República** e **iniciativa popular federal**. Outros dispositivos constituem reservas específicas de iniciativa: arts. **51, IV, 52, XIII, 93, 96, II, 127, § 2º, 128, § 5º, e 165**, por exemplo, segundo a matéria e o nível federativo. **Não se pode usar o rol do art. 61 como se ele resolvesse, sozinho, a iniciativa de toda espécie do art. 59.**
 
-Esta unidade **CAM-PL-002** aprofunda **quem pode iniciar, em qual matéria, com que alcance e quais as consequências da iniciativa inadequada**. A [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-001]] conceitua proposições regimentais. A [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|nota constitucional sobre processo legislativo]] já aborda espécies normativas e PEC; permanece como referência sem duplicação.
+Esta unidade **CAM-PL-002** aprofunda **quem pode iniciar, em qual matéria, com que alcance e quais as consequências da iniciativa inadequada**. A [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]] conceitua proposições regimentais. A [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|nota constitucional sobre processo legislativo]] já aborda espécies normativas e PEC; permanece como referência sem duplicação.
 
 ## Estrutura: três perguntas independentes
 
@@ -213,7 +213,7 @@ A tabela distingue **iniciativa** e **competência**: o Presidente pode apresent
 
 A **Câmara** e o **Senado** integram o Congresso e possuem **competências privativas próprias** (CF arts. 51 e 52); o Congresso exerce **competências exclusivas** (art. 49). No exame de iniciativa, a pergunta preliminar é se a matéria requer **lei**, **decreto legislativo**, **resolução** ou **PEC**.
 
-**Exemplo 1:** remuneração de servidores dos serviços da Câmara. O art. 51, IV, confere à Casa **iniciativa de lei** para fixá-la. A Câmara ter autonomia sobre sua organização **não faz da resolução instrumento universal de remuneração**. Remeter ao [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|CAM-PL-014]].
+**Exemplo 1:** remuneração de servidores dos serviços da Câmara. O art. 51, IV, confere à Casa **iniciativa de lei** para fixá-la. A Câmara ter autonomia sobre sua organização **não faz da resolução instrumento universal de remuneração**. Remeter ao [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Projetos de decreto legislativo e de resolução: competência, tramitação e efeitos]].
 
 **Exemplo 2:** aprovar tratado na competência do art. 49, I. O veículo próprio da deliberação é, em regra, **decreto legislativo**. Esse processo não se classifica como **projeto de lei de iniciativa do Presidente sujeito a sanção**, mesmo quando o Executivo negociou o tratado.
 
@@ -289,7 +289,7 @@ A iniciativa popular do **art. 61, § 2º** exige **três condições cumulativa
 
 ## Relações com outros temas
 
-- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-001: proposições legislativas]]: espécie de proposta e efeitos regimentais, antes da análise dos legitimados.
+- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]]: espécie de proposta e efeitos regimentais, antes da análise dos legitimados.
 - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]]: art. 59 e art. 60, especialmente limites e procedimento das PECs.
 - [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]]: competências próprias das Casas, STF/TCU e controle.
 - [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|Elaboração orçamentária federal]]: autonomia de proposta dos Poderes e iniciativa do projeto pelo Executivo.

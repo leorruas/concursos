@@ -245,6 +245,6 @@ No período “Encerrada a fase de discussão da matéria, o presidente anunciou
 
 ## 8. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas|CAM-LP-013 · Coordenação: relações sintáticas, polissemia de conectivos e pontuação]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas|Coordenação: relações sintáticas, polissemia de conectivos e pontuação do período composto no padrão Cebraspe]].
 - **Artigos Fundamentais Conexos**: [[3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas]]; [[3 - Materias/Portugues/03 - pontuacao e virgula|03 • Pontuação e vírgula]].
 - **Próxima Unidade**: **CAM-LP-015 · Pontuação e efeitos na estrutura e no sentido** (Sistematização integral das regras de vírgula, ponto e vírgula, dois-pontos, travessões e parênteses no padrão Cebraspe).

@@ -264,15 +264,15 @@ Os três trechos a seguir são **criações originais e ficcionais**, não fonte
 ## 5. Relações com Outros Artigos e Síntese de Revisão da Trilha
 
 - **Fechamento e Integração da Trilha de Língua Inglesa (12/12):**
-  - [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|CAM-ING-001]]: Skimming, scanning e localização de teses em gêneros informativos.
-  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|CAM-ING-002]]: Calibração de inferências e limites dedutivos.
-  - [[3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes|CAM-ING-003]]: Tessitura intratextual anafórica e catafórica.
-  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|CAM-ING-004]]: Articuladores discursivos e progressão lógica.
-  - [[3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles|CAM-ING-005]]: Precisão lexical no domínio legislativo e institucional.
-  - [[3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles|CAM-ING-006]]: Sintaxe oracional e inversões enfáticas.
-  - [[3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles|CAM-ING-007]]: Tempos e aspecto na amarração temporal do texto.
-  - [[3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles|CAM-ING-008]]: Empacotamento de informação e voz passiva.
-  - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|CAM-ING-009]]: Modais, deôntica/epistêmica e postura do autor (*hedging*).
-  - [[3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles|CAM-ING-010]]: Restrições de escopo e proporcionalidade.
-  - [[3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles|CAM-ING-011]]: Reescrita oracional e preservação de sentido.
+  - [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|Como localizar assunto, tese e propósito comunicativo em textos em língua inglesa no padrão Cebraspe]]: Skimming, scanning e localização de teses em gêneros informativos.
+  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|Informações explícitas, inferências e limites da dedução em língua inglesa no padrão Cebraspe]]: Calibração de inferências e limites dedutivos.
+  - [[3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes|Coesão referencial e identificação de referentes pronominais em textos em inglês no padrão Cebraspe]]: Tessitura intratextual anafórica e catafórica.
+  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|Conectivos: Relações Lógicas, Articulação de Sentido e Sequenciação Discursiva em Inglês]]: Articuladores discursivos e progressão lógica.
+  - [[3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles|Vocabulário Contextual, Polissemia e Falsos Cognatos em Textos Institucionais em Inglês]]: Precisão lexical no domínio legislativo e institucional.
+  - [[3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles|Estrutura de Frases, Negação, Interrogação e Inversão Sintática em Inglês]]: Sintaxe oracional e inversões enfáticas.
+  - [[3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles|Tempos Verbais, Aspecto e Sequência Temporal em Textos Institucionais em Inglês]]: Tempos e aspecto na amarração temporal do texto.
+  - [[3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles|Voz Ativa, Passiva e Foco Informacional em Textos Institucionais em Inglês]]: Empacotamento de informação e voz passiva.
+  - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|Modalização em Inglês: Possibilidade, Obrigação, Dedução Lógica e Gradação de Certeza]]: Modais, deôntica/epistêmica e postura do autor (*hedging*).
+  - [[3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles|Comparativos, Quantificadores e Delimitadores de Escopo em Inglês]]: Restrições de escopo e proporcionalidade.
+  - [[3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles|Paráfrase, Equivalência Semântica e Mudança de Sentido em Inglês]]: Reescrita oracional e preservação de sentido.
   - **Nesta unidade (CAM-ING-012):** síntese macroestrutural, intertextualidade e gêneros públicos.

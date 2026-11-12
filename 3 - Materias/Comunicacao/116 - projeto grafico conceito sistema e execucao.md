@@ -16,7 +16,7 @@ updated: 2026-11-11
 
 **Projeto gráfico** é o conjunto articulado de decisões visuais, editoriais e técnicas que estabelece **como determinado conteúdo será organizado e apresentado** em um produto ou família de produtos. Pode especificar formato, área útil, margens, grid, tipografia, estilos, hierarquia, paleta, imagens, tabelas, infográficos, elementos recorrentes e variações de página. **Sistema gráfico** é a lógica de relações e regras que permite repetir essas decisões com coerência; **execução** é sua aplicação ao conteúdo real, com ajustes e controles.
 
-O projeto ocupa uma posição própria no fluxo: **planejamento editorial → projeto gráfico → diagramação/editoração → revisão/fechamento → produção ou publicação**. A [[3 - Materias/Comunicacao/12 - producao editorial e design|nota 12]] introduz essa distinção, a [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade|nota 112]] aprofunda hierarquia e Gestalt, e a [[3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais|nota 113]] trata de pré-impressão. Esta nota examina **a estrutura operacional do projeto gráfico**, suas entregas, fronteiras com disciplinas próximas, critérios de consistência e execução em diferentes suportes.
+O projeto ocupa uma posição própria no fluxo: **planejamento editorial → projeto gráfico → diagramação/editoração → revisão/fechamento → produção ou publicação**. A [[3 - Materias/Comunicacao/12 - producao editorial e design|Produção editorial e design]] introduz essa distinção, a [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade|Design gráfico: hierarquia, composição e legibilidade]] aprofunda hierarquia e Gestalt, e a [[3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais|Produção gráfica: pré-impressão, formatos e materiais]] trata de pré-impressão. Esta nota examina **a estrutura operacional do projeto gráfico**, suas entregas, fronteiras com disciplinas próximas, critérios de consistência e execução em diferentes suportes.
 
 ## Cinco camadas de decisão
 
@@ -67,7 +67,7 @@ Uma direção como “clareza e transparência” é vaga enquanto não produz c
 
 Um sistema tipográfico define **papéis**: título de seção, intertítulo, corpo, legenda, nota, número de tabela, chamada, citação e elementos de navegação. Para cada papel, podem ser documentados família, peso, corpo, entrelinha, cor, espaçamento, alinhamento e regras de quebra.
 
-**Família tipográfica** identifica conjunto de desenhos relacionados; **estilo** indica variações como itálico; **peso** indica variação de espessura; **corpo** é tamanho nominal; **entrelinha** determina distância entre linhas; **tracking** altera espaçamento geral entre caracteres de trecho; **kerning** ajusta pares específicos. A nota 112 desenvolve essa taxonomia.
+**Família tipográfica** identifica conjunto de desenhos relacionados; **estilo** indica variações como itálico; **peso** indica variação de espessura; **corpo** é tamanho nominal; **entrelinha** determina distância entre linhas; **tracking** altera espaçamento geral entre caracteres de trecho; **kerning** ajusta pares específicos. O artigo [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade|Design gráfico: hierarquia, composição e legibilidade]] desenvolve essa taxonomia.
 
 **Hierarquia de estilos** deve preservar diferenças perceptivas e semânticas. Aplicar título de corpo 24 à palavra “Anexo” e corpo 18 à seção principal não é necessariamente errado por causa dos números, mas o projeto deve deixar claro qual elemento organiza qual conteúdo. **Tamanho não é único indicador de importância.**
 
@@ -116,7 +116,7 @@ Um **protótipo representativo** deve testar conteúdos comuns e difíceis, não
 
 **Projeto para impresso:** prevê suporte, formato físico, área de corte, sangria, encadernação, condições de cor, resolução efetiva e processo de saída. **Projeto para digital:** prevê diferentes tamanhos de viewport, reflow, ordem de leitura, navegação, semântica, interação, multimídia e manutenção dinâmica.
 
-**PDF de leitura** pode preservar paginação, mas não se adapta automaticamente ao celular como uma página HTML bem estruturada. **PDF etiquetado** pode oferecer estrutura para tecnologias assistivas, quando bem produzido e testado; a etiqueta não decorre automaticamente do aspecto visual. A [[3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos|nota 114]] trata dos formatos e critérios da WCAG.
+**PDF de leitura** pode preservar paginação, mas não se adapta automaticamente ao celular como uma página HTML bem estruturada. **PDF etiquetado** pode oferecer estrutura para tecnologias assistivas, quando bem produzido e testado; a etiqueta não decorre automaticamente do aspecto visual. A [[3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos|Produção digital: responsividade, acessibilidade e formatos]] trata dos formatos e critérios da WCAG.
 
 **Arquivo mestre × arquivo de saída:** o primeiro conserva estrutura editável e recursos do projeto; o segundo atende a uma condição de reprodução ou publicação. Um PDF/X apropriado para gráfica não é, por isso, versão ideal para leitura acessível na web. **O mesmo conteúdo pode exigir saídas diferentes, com critérios de qualidade diferentes**.
 

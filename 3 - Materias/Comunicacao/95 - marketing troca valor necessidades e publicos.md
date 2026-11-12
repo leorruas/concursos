@@ -20,7 +20,7 @@ A **American Marketing Association (AMA)** define marketing como atividade, conj
 
 Os conceitos foram desenvolvidos principalmente no marketing de mercados e organizações. Sua aplicação ao Legislativo é **analogia gerencial**: cidadãos têm direitos políticos, a Câmara possui deveres legais e o serviço público não equivale a uma mercadoria. Não se deve descrever participação democrática como compra nem presumir que impostos são o preço direto de cada serviço.
 
-A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|nota 19]] já consolida **4 Ps, 7 Ps, branding, segmentação, posicionamento e marca**; [[3 - Materias/Comunicacao/15 - publicos e stakeholders|nota 15]] diferencia stakeholders e públicos em Freeman e Grunig; [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|CAM-DI-007]] aprofunda segmentação. Este artigo concentra as **definições de necessidade, desejo, demanda, troca, valor, satisfação, oferta e orientação de marketing**.
+A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional e branding]] já consolida **4 Ps, 7 Ps, branding, segmentação, posicionamento e marca**; [[3 - Materias/Comunicacao/15 - publicos e stakeholders|Públicos e stakeholders]] diferencia stakeholders e públicos em Freeman e Grunig; [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Público-alvo e segmentação publicitária: bases, seleção e limites]] aprofunda segmentação. Este artigo concentra as **definições de necessidade, desejo, demanda, troca, valor, satisfação, oferta e orientação de marketing**.
 
 ## Necessidade, desejo e demanda: três níveis diferentes
 
@@ -119,7 +119,7 @@ A taxonomia tratada em **OpenStax, Principles of Marketing, seção 1.4**, disti
 
 **Mercado consumidor versus mercado organizacional:** no primeiro, compradores adquirem para uso pessoal ou doméstico; no segundo, organizações adquirem bens ou serviços para operação, revenda ou transformação. Essa distinção não deve ser transposta literalmente à participação democrática.
 
-**Segmentação** divide um universo em grupos; **targeting** seleciona grupos prioritários; **posicionamento** define percepção pretendida. A teoria STP está desenvolvida no [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|CAM-DI-007]].
+**Segmentação** divide um universo em grupos; **targeting** seleciona grupos prioritários; **posicionamento** define percepção pretendida. A teoria STP está desenvolvida no [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Público-alvo e segmentação publicitária: bases, seleção e limites]].
 
 ## Aplicação à Câmara: valor público e finalidade constitucional
 

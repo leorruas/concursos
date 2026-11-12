@@ -211,9 +211,9 @@ Considere o período:
 
 ## 8. Relações com outros conceitos e notas da biblioteca
 
-* **Classes de palavras e funções do "SE" e dos pronomes oblíquos:** [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|22 • Classes de palavras e suas funções no período (CAM-LP-011)]].
-* **Termos integrantes e substituição de OD e OI por pronomes (*o/a/lo/no* $\times$ *lhe*):** [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|23 • Termos essenciais, integrantes e acessórios da oração (CAM-LP-012)]].
-* **Tempos e modos verbais (futuro do presente, futuro do pretérito e formas nominais):** [[3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto|21 • Tempo, modo e aspecto verbal na construção do texto (CAM-LP-010)]].
+* **Classes de palavras e funções do "SE" e dos pronomes oblíquos:** [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|Classes de palavras e suas funções no período: morfossintaxe de nomes, pronomes e conectivos no padrão Cebraspe]].
+* **Termos integrantes e substituição de OD e OI por pronomes (*o/a/lo/no* $\times$ *lhe*):** [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|Termos essenciais, integrantes e acessórios da oração: sintaxe do período simples no padrão Cebraspe]].
+* **Tempos e modos verbais (futuro do presente, futuro do pretérito e formas nominais):** [[3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto|Tempo, modo e aspecto verbal na construção do texto: correlação de tempos e efeitos discursivos no padrão Cebraspe]].
 * **Próximo passo (Significação lexical, polissemia e ambiguidade):** Unidade `CAM-LP-020`.
 
 ## 9. Referências teóricas e normativas

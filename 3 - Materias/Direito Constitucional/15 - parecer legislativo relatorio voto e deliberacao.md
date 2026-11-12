@@ -21,7 +21,7 @@ aliases:
 
 O **Regimento Interno da Câmara dos Deputados (RICD), art. 126**, define parecer como a **proposição mediante a qual uma comissão se pronuncia sobre matéria sujeita a seu estudo**. O parecer **por escrito**, segundo o **art. 129**, possui três partes: **relatório**, **voto do relator** e **parecer da comissão**. Essa tripartição impede equiparar a **opinião individual de quem relata** à **conclusão institucional da comissão**.
 
-Este artigo atende à unidade **CAM-PL-005: Parecer legislativo, relatório, voto e deliberação**. Os textos [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003: Tramitação e fases]] e [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004: Comissões parlamentares]] já explicam onde o parecer se insere. Esta nota detalha **a estrutura interna e a conversão do voto individual em decisão colegiada**, com base nos arts. **53 a 57, 126 a 130 e 144 a 147** do RICD. A modalidade de votação em Plenário e seus quóruns próprios ficam para **CAM-PL-006**.
+Este artigo atende à unidade **CAM-PL-005: Parecer legislativo, relatório, voto e deliberação**. Os textos [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] e [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]] já explicam onde o parecer se insere. Esta nota detalha **a estrutura interna e a conversão do voto individual em decisão colegiada**, com base nos arts. **53 a 57, 126 a 130 e 144 a 147** do RICD. A modalidade de votação em Plenário e seus quóruns próprios ficam para **CAM-PL-006**.
 
 ## Como se forma um parecer: três partes do art. 129
 
@@ -41,7 +41,7 @@ O **art. 129, I**, refere-se à **exposição da matéria**, não à escolha fin
 
 ## Parecer é proposição, mas não é lei
 
-Pelo **art. 100, § 1º, do RICD**, parecer integra o conjunto de **proposições regimentais**. Isso significa que pode ser objeto dos atos procedimentais correspondentes; **não** significa que o parecer seja **espécie normativa autônoma** da lista do **art. 59 da Constituição Federal**. A distinção foi introduzida em [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-001]].
+Pelo **art. 100, § 1º, do RICD**, parecer integra o conjunto de **proposições regimentais**. Isso significa que pode ser objeto dos atos procedimentais correspondentes; **não** significa que o parecer seja **espécie normativa autônoma** da lista do **art. 59 da Constituição Federal**. A distinção foi introduzida em [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]].
 
 Um parecer favorável pode ajudar um projeto a prosseguir; um parecer contrário pode contribuir para rejeição ou arquivamento segundo o rito; um parecer pela **inconstitucionalidade** ou pela **inadequação financeira/orçamentária**, nas competências do art. 54, pode ter efeito **terminativo**. Portanto, **o sentido do parecer e sua consequência dependem do objeto, da comissão competente e do tipo de apreciação**.
 
@@ -184,9 +184,9 @@ Também importam as inversões de quórum: **maioria absoluta presente** não é
 
 ## Relações com outros temas
 
-- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-001: proposição legislativa]]: parecer integra as proposições regimentais, sem ser espécie normativa do art. 59 da CF.
-- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003: tramitação]]: recebimento, distribuição, apreciação conclusiva, recurso e Plenário.
-- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004: comissões]]: permanentes e temporárias, funções de instrução e fiscalização.
+- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]]: parecer integra as proposições regimentais, sem ser espécie normativa do art. 59 da CF.
+- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: recebimento, distribuição, apreciação conclusiva, recurso e Plenário.
+- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]: permanentes e temporárias, funções de instrução e fiscalização.
 - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo constitucional]]: espécies, quóruns e produção normativa.
 - **CAM-PL-006**: discussão, votação, quóruns e modalidades de decisão, com foco no Plenário.
 - **CAM-PL-008 a CAM-PL-010**: procedimentos ordinário, abreviado, sumário, sumaríssimo e ritos especiais.

@@ -181,7 +181,7 @@ Contudo, nas provas do Cebraspe, a autotutela deve ser compreendida em harmonia 
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|CAM-DAD-001]]: Fundamentação da função administrativa e subordinação técnica à legalidade e ao interesse público.
-  - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|CAM-DAD-003]]: Aplicação dos princípios à Administração Direta e Indireta (descentralização e desconcentração).
-  - [[3 - Materias/Direito Administrativo/03 - atos administrativos|CAM-DAD-005 a CAM-DAD-009]]: Controle de validade, motivos determinantes, anulação e revogação pelo exercício da autotutela.
-  - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|CAM-DAD-033 / CAM-DAD-034]]: Concretização do princípio da publicidade pela LAI e limites da LGPD.
+  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo, Administração Pública e Função Administrativa]]: Fundamentação da função administrativa e subordinação técnica à legalidade e ao interesse público.
+  - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico]]: Aplicação dos princípios à Administração Direta e Indireta (descentralização e desconcentração).
+  - [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto]]: Controle de validade, motivos determinantes, anulação e revogação pelo exercício da autotutela.
+  - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]]: Concretização do princípio da publicidade pela LAI e limites da LGPD.

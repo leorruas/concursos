@@ -117,7 +117,7 @@ Em prova, duas armadilhas são frequentes:
 
 ## Relações com outros temas
 
-A regência se conecta diretamente a [[3 - Materias/Portugues/03 - pontuacao e virgula|Pontuação e vírgula]] quando a identificação de complementos ajuda a distinguir termos sintaticamente ligados ao verbo de elementos deslocados. Também se conecta à [[3 - Materias/Portugues/11 - crase|nota 11: Crase]] e à [[3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos|nota 29: Crase, casos facultativos e impedimentos]]: **a regência fornece a preposição; o termo seguinte fornece ou não o artigo**. A primeira nota apresenta a base compartilhada com outros concursos; a segunda aprofunda as condições e exceções para o Cebraspe.
+A regência se conecta diretamente a [[3 - Materias/Portugues/03 - pontuacao e virgula|Pontuação e vírgula]] quando a identificação de complementos ajuda a distinguir termos sintaticamente ligados ao verbo de elementos deslocados. Também se conecta à [[3 - Materias/Portugues/11 - crase|🆕 Crase]] e à [[3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos|Crase: condições de ocorrência, casos facultativos e impedimentos no padrão Cebraspe]]: **a regência fornece a preposição; o termo seguinte fornece ou não o artigo**. A primeira nota apresenta a base compartilhada com outros concursos; a segunda aprofunda as condições e exceções para o Cebraspe.
 
 Há ainda relação com [[3 - Materias/Portugues/02 - sujeito|Sujeito e termos da oração]], porque reconhecer objeto direto, objeto indireto e complementos preposicionados é parte do diagnóstico da regência. Em questões com pronomes, essa leitura sintática ajuda a decidir entre formas como `o/a` e `lhe`.
 

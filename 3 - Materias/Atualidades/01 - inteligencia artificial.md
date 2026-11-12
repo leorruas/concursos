@@ -84,4 +84,4 @@ Os sistemas de IA aplicados no setor público devem estar em estrito alinhamento
 
 ---
 **Fontes Brutas:**
-- [[00 ingestão]]
+

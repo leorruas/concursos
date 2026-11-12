@@ -240,8 +240,8 @@ A referência de *they* favorece *the researchers*: são os responsáveis plaus�
 
 ## 8. Relações com outros conceitos e notas da biblioteca
 
-* **Referência textual, anáfora, catáfora e dêixis em Língua Portuguesa (paralelo teórico direto):** [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|18 • Referência textual: anáfora, catáfora e dêixis (CAM-LP-007)]].
-* **Substituição, elipse e coesão lexical:** [[3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical|19 • Substituição, elipse, repetição e coesão lexical (CAM-LP-008)]].
+* **Referência textual, anáfora, catáfora e dêixis em Língua Portuguesa (paralelo teórico direto):** [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|Referência textual: anáfora, catáfora, dêixis e cadeias coesivas no padrão Cebraspe]].
+* **Substituição, elipse e coesão lexical:** [[3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical|Substituição, elipse, repetição e coesão lexical: mecanismos de reiteração no padrão Cebraspe]].
 * **Base preexistente de inglês sobre pronomes:** [[3 - Materias/Ingles/03 - referencia pronominal e coesao lexical|03 • Referência pronominal e coesão lexical]].
 * **Próximo passo na trilha de Inglês (Conectivos: adição, oposição, causa, condição e concessão):** Unidade `CAM-ING-004`.
 

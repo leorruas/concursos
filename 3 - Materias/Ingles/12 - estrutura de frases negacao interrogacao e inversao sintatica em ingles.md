@@ -238,7 +238,7 @@ Com a expressão anteposta, *Under no circumstances may the committee publish th
 ## 6. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|CAM-ING-002]]: Compreensão de polaridade e escopo negativo para delimitar inferências textuais lícitas.
-  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|CAM-ING-004]]: A elisão de *if* e o emprego de *unless* articulam-se com a inversão condicional.
-  - [[3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles|CAM-ING-007]]: A concordância dos tempos verbais nas condicionais invertidas (*Had + past participle* com *would have + participle*).
-  - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|CAM-ING-009]]: Funções de modais (*should*, *must*, *were*) em inversões enfáticas e de polidez formal.
+  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|Informações explícitas, inferências e limites da dedução em língua inglesa no padrão Cebraspe]]: Compreensão de polaridade e escopo negativo para delimitar inferências textuais lícitas.
+  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|Conectivos: Relações Lógicas, Articulação de Sentido e Sequenciação Discursiva em Inglês]]: A elisão de *if* e o emprego de *unless* articulam-se com a inversão condicional.
+  - [[3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles|Tempos Verbais, Aspecto e Sequência Temporal em Textos Institucionais em Inglês]]: A concordância dos tempos verbais nas condicionais invertidas (*Had + past participle* com *would have + participle*).
+  - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|Modalização em Inglês: Possibilidade, Obrigação, Dedução Lógica e Gradação de Certeza]]: Funções de modais (*should*, *must*, *were*) em inversões enfáticas e de polidez formal.

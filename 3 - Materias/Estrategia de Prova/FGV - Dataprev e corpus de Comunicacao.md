@@ -91,6 +91,6 @@ Se Câmara dos Deputados ou ANPD vierem a usar a FGV, esta nota pode orientar a 
 
 ## Relações
 
-- [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]]
-- [[00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social|Dataprev 2024: Comunicação Social]]
-- [[00 - Desempenho/Provas/MPU 2025 - Comunicacao Social|MPU 2025: Comunicação Social]]
+
+
+

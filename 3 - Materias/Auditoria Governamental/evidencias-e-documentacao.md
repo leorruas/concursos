@@ -10,7 +10,7 @@ updated: 2026-11-03
 
 # Evidências e documentação de auditoria
 
-Esta nota trata das evidências e dos papéis de trabalho em auditoria interna governamental. As referências centrais são a **Controladoria-Geral da União (CGU)**, a **Instrução Normativa (IN)** da **Secretaria Federal de Controle Interno (SFC)** nº 3/2017 e o **Manual de Orientações Técnicas (MOT)** da CGU. A cronologia dos exercícios fica em [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]].
+Esta nota trata das evidências e dos papéis de trabalho em auditoria interna governamental. As referências centrais são a **Controladoria-Geral da União (CGU)**, a **Instrução Normativa (IN)** da **Secretaria Federal de Controle Interno (SFC)** nº 3/2017 e o **Manual de Orientações Técnicas (MOT)** da CGU. A cronologia dos exercícios fica em registro individual de estudos mantido no cofre privado.
 
 **Fontes normativas:** [IN SFC nº 3/2017, Referencial Técnico, itens 143, 148 e 150 a 154](https://repositorio.cgu.gov.br/bitstream/1/33409/21/Instrucao_Normativa_CGU_3_2017.pdf); [Manual de Orientações Técnicas (MOT), seções 5.2, 5.3 e 5.7](https://wiki.cgu.gov.br/index.php/Manual_de_Orienta%C3%A7%C3%B5es_T%C3%A9cnicas_da_Atividade_de_Auditoria_Interna_Governamental_do_Poder_Executivo_Federal). **Aula e quatro baterias concluídas em 03/11/2026; revisão espaçada pendente.** Conteúdo voltado a trabalhos de avaliação.
 
@@ -93,7 +93,7 @@ O MOT orienta a evitar duplicação de documentos permanentes nos arquivos corre
 
 **Observação direta exclusiva:** o MOT 5.3.2 exige **pelo menos dois auditores internos** para analisar informação **somente obtenível por observação direta**. A condição é a exclusividade da técnica, não o número de vezes em que o fato ocorreu.
 
-**Retenção pendente:** no treino de 03/11 houve erro sobre papéis permanentes e branco sobre observação direta exclusiva. A distinção entre elaboração, apreciação e aprovação da política foi recuperada na revisão imediata, mas ainda requer revisão espaçada. As respostas, os diagnósticos e os resultados das quatro baterias constam em [[3 - Materias/Auditoria Governamental/Avancos|Avanços]].
+**Retenção pendente:** no treino de 03/11 houve erro sobre papéis permanentes e branco sobre observação direta exclusiva. A distinção entre elaboração, apreciação e aprovação da política foi recuperada na revisão imediata, mas ainda requer revisão espaçada. As respostas, os diagnósticos e os resultados das quatro baterias constam em registro individual de estudos mantido no cofre privado.
 
 ## Relações com outros temas
 

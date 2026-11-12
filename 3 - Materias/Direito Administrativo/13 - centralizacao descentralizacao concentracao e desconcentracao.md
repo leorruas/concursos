@@ -183,7 +183,7 @@ A doutrina de Hely Lopes Meirelles classifica os órgãos em quatro categorias d
 ## 6. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|CAM-DAD-001]]: O exercício da função administrativa nos sentidos subjetivo e objetivo.
-  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|CAM-DAD-002]]: A impessoalidade e a imputação volitiva da teoria do órgão.
-  - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|CAM-DAD-003]]: Entidades da Administração Indireta como fruto da descentralização por outorga.
-  - [[3 - Materias/Direito Administrativo/04 - poderes administrativos|CAM-DAD-020 / CAM-DAD-021]]: O poder hierárquico como fundamento da desconcentração interna.
+  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo, Administração Pública e Função Administrativa]]: O exercício da função administrativa nos sentidos subjetivo e objetivo.
+  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: A impessoalidade e a imputação volitiva da teoria do órgão.
+  - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico]]: Entidades da Administração Indireta como fruto da descentralização por outorga.
+  - [[3 - Materias/Direito Administrativo/04 - poderes administrativos|Poderes administrativos]]: O poder hierárquico como fundamento da desconcentração interna.

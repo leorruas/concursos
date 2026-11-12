@@ -121,5 +121,5 @@ A nota se conecta a [[3 - Materias/Direito Administrativo/05 - agentes publicos|
 - STF, Tema 130 (RE 591.874): responsabilidade objetiva de prestadora de serviço público também perante não usuários.
 - STF, Tema 592 (RE 841.526): dever específico de proteção de detento.
 - STF, Tema 362 (RE 608.880): necessidade de nexo causal direto em dano praticado por preso foragido.
-- [[Avancos|Avanços e desempenho (Direito administrativo)]].
-- [[11-06-2026|Inbox - 03-06-2026]].
+- **Progresso individual: registros mantidos no cofre privado de estudos**.
+- registro de ingestão arquivado.

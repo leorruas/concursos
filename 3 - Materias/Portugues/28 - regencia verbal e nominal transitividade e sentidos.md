@@ -228,8 +228,8 @@ Compare as substituições pronominais abaixo:
 ## 8. Relações com outros conceitos e notas da biblioteca
 
 * **Nota de base preexistente sobre regência:** [[3 - Materias/Portugues/04 - regencia|04 • Regência verbal e nominal]].
-* **Subordinação adjetiva e substantiva (pronomes relativos e conjunções integrantes):** [[3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial|25 • Subordinação substantiva, adjetiva e adverbial (CAM-LP-014)]].
-* **Termos integrantes (objeto direto, objeto indireto e complemento nominal):** [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|23 • Termos essenciais, integrantes e acessórios da oração (CAM-LP-012)]].
+* **Subordinação adjetiva e substantiva (pronomes relativos e conjunções integrantes):** [[3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial|Subordinação substantiva, adjetiva e adverbial: morfossintaxe, formas reduzidas e efeitos de sentido no padrão Cebraspe]].
+* **Termos integrantes (objeto direto, objeto indireto e complemento nominal):** [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|Termos essenciais, integrantes e acessórios da oração: sintaxe do período simples no padrão Cebraspe]].
 * **Próximo passo direto (Crase como consequência da regência da preposição *a*):** [[3 - Materias/Portugues/11 - crase|11 • Crase]].
 
 ## 9. Referências teóricas e normativas

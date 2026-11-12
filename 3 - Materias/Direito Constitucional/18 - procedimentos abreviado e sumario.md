@@ -223,11 +223,11 @@ Outro erro de alto valor: o prazo constitucional **não corre no recesso**, **n�
 
 ## Relações com outros temas
 
-- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003 e CAM-PL-008]]: mapa da tramitação e regime ordinário (40 sessões por comissão, relator 20).
-- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004]]: competências dos colegiados, incluindo poder conclusivo e exclusões.
-- [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005]]: diferença entre parecer terminativo e deliberação do projeto.
-- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-002]]: legitimados e distinção entre iniciativa de projeto e pedido de urgência.
-- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|CAM-PL-006]]: quóruns constitucionais não afastados pelos ritos.
+- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: mapa da tramitação e regime ordinário (40 sessões por comissão, relator 20).
+- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]: competências dos colegiados, incluindo poder conclusivo e exclusões.
+- [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]]: diferença entre parecer terminativo e deliberação do projeto.
+- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]]: legitimados e distinção entre iniciativa de projeto e pedido de urgência.
+- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação, quóruns e modalidades de decisão na Câmara]]: quóruns constitucionais não afastados pelos ritos.
 - **CAM-PL-010:** urgências regimental e urgentíssima, procedimentos especiais e concentrados.
 
 ## Tensões e pegadinhas

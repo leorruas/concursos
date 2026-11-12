@@ -123,7 +123,7 @@ A comunicação pública pode procurar orientar e mobilizar comportamento de int
 
 **Persuasão não é sinônimo de manipulação.** A avaliação ética deve considerar a possibilidade de decisão informada, veracidade, contexto, vulnerabilidades do público, uso de dados pessoais, transparência sobre a finalidade e liberdade de discordância. Pistas periféricas podem ser usadas de maneira legítima ou enganosa, conforme o caso. Não é correto classificar toda comunicação emocional como antiética ou toda peça de argumentos factuais como eticamente suficiente.
 
-Na Câmara, a política do **Ato da Mesa nº 218/2025** prevê imparcialidade, pluralismo, equilíbrio, transparência e precisão. A própria comunicação institucional não deve favorecer posições ou opiniões políticas. A vedação de **promoção pessoal** do art. 37, § 1º, da Constituição permanece aplicável. [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|A nota 78]] aprofunda esses limites.
+Na Câmara, a política do **Ato da Mesa nº 218/2025** prevê imparcialidade, pluralismo, equilíbrio, transparência e precisão. A própria comunicação institucional não deve favorecer posições ou opiniões políticas. A vedação de **promoção pessoal** do art. 37, § 1º, da Constituição permanece aplicável. [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|Publicidade institucional, promoção pessoal e art. 37, § 1º, da Constituição]] aprofunda esses limites.
 
 **Caso-limite:** a campanha institucional informa como a pessoa pode participar do processo legislativo e destaca autonomia de escolha: finalidade de orientação social. Se a mesma peça usa a estrutura oficial para pedir adesão a uma bancada, seu objetivo passa a conflitar com as regras de imparcialidade e pluralismo do canal institucional, ainda que utilize elementos legítimos de persuasão.
 
@@ -167,7 +167,7 @@ Na matriz de persuasão de **McGuire**, a categorização de **fonte, mensagem, 
 
 ## Relações e heurísticas
 
-[[3 - Materias/Comunicacao/79 - publicidade e propaganda conceitos funcoes e limites|CAM-DI-001]] fornece o conceito e as funções da publicidade; [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing]] diferencia promoção e valor; [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Planejamento de mídia]] trata de circulação e indicadores; [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria|Comunicação pública e política]] contextualiza o regime da Câmara.
+[[3 - Materias/Comunicacao/79 - publicidade e propaganda conceitos funcoes e limites|Publicidade e propaganda: conceitos, funções e limites]] fornece o conceito e as funções da publicidade; [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing]] diferencia promoção e valor; [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Planejamento de mídia]] trata de circulação e indicadores; [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria|Comunicação pública e política]] contextualiza o regime da Câmara.
 
 **Heurísticas:** AIDA → **atenção/interesse/desejo/ação**; Lavidge/Steiner → **conhecimento/agrado/preferência/convicção/compra**; McGuire → **inputs versus outputs**; ELM → **motivação + capacidade e rotas de processamento**; Ajzen → **atitude + norma subjetiva + controle percebido → intenção**, com limites para ação real. **Exposição não prova aceitação; aceitação não prova comportamento.**
 

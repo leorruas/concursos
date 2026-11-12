@@ -58,18 +58,21 @@ check('matriz de auditoria preserva 14 unidades e quatro colunas', (
   linhasMatriz.length === 14 &&
   linhasMatriz.every(linha => (linha.match(/(?<!\\)\|/g) || []).length === 5)
 ));
-check('links da matriz preservam notas históricas e atalhos para etapas do ciclo', (
+// Os aliases das notas devem ser títulos legíveis, não IDs ou "nota N".
+// O destino e as âncoras históricas continuam obrigatórios.
+const temLinkComTitulo = (arquivo) => linhasMatriz.some(linha => {
+  const destino = '[[3 - Materias/Auditoria Governamental/' + arquivo + '\\|';
+  const inicio = linha.indexOf(destino);
+  if (inicio < 0) return false;
+  const rotulo = linha.slice(inicio + destino.length).split(']]')[0].trim();
+  return rotulo.length >= 12 && !/^(?:nota\s*\d+|CAM-|CGU-)/i.test(rotulo);
+});
+check('links da matriz preservam destinos, títulos editoriais e âncoras do ciclo', (
   ['01 - finalidades e tres linhas', '03 - independencia objetividade e sigilo',
    '04 - proficiencia zelo e ceticismo profissional'
-  ].every(arquivo => linhasMatriz.some(linha => linha.includes(
-    '[[3 - Materias/Auditoria Governamental/' + arquivo + '\\|nota '
-  ))) &&
-  linhasMatriz.some(linha => linha.includes(
-    '[[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#3. Comunicação: transformar evidências em conclusões úteis\\|etapa de comunicação]]'
-  )) &&
-  linhasMatriz.some(linha => linha.includes(
-    '[[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria#4. Monitoramento: verificar a resposta e o resultado\\|etapa de monitoramento]]'
-  ))
+  ].every(temLinkComTitulo) &&
+  temLinkComTitulo('02 - ciclo de auditoria#3. Comunicação: transformar evidências em conclusões úteis') &&
+  temLinkComTitulo('02 - ciclo de auditoria#4. Monitoramento: verificar a resposta e o resultado')
 ));
 
 if (falhas > 0) process.exit(1);

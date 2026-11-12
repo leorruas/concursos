@@ -290,5 +290,5 @@ A FGV e o Cebraspe podem explorar especialmente trocas de categoria e regras do 
 
 ---
 **Fontes Brutas:**
-- [[00 inbox/12-06-2026|Inbox de 12/06/2026]]
-- [[00 inbox/15-06-2026|Inbox de 15/06/2026]]
+
+

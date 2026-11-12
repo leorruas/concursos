@@ -27,7 +27,7 @@ O ponto de partida é o **art. 47 da Constituição Federal** e o **art. 183 do 
 
 A **forma de registrar o voto** é uma terceira pergunta: votação **simbólica**, **nominal** ou **secreta**, nas hipóteses do Regimento. Modalidade de votação **não é sinônimo** de quórum de aprovação.
 
-A unidade **CAM-PL-006** do concurso da **Câmara dos Deputados, Cebraspe**, detalha o **RICD, arts. 165 a 200**, e o quadro constitucional de deliberação. As notas [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003: Tramitação]] e [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005: Parecer e voto em comissão]] oferecem o contexto, mas não substituem o regime de discussão e votação do **Plenário**.
+A unidade **CAM-PL-006** do concurso da **Câmara dos Deputados, Cebraspe**, detalha o **RICD, arts. 165 a 200**, e o quadro constitucional de deliberação. As notas [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] e [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]] oferecem o contexto, mas não substituem o regime de discussão e votação do **Plenário**.
 
 ## Os três números: presença, aprovação e modalidade
 
@@ -175,9 +175,9 @@ Outros itens trocam **5%, 6% e 10%** de **encerramento**, **verificação** e **
 ## Relações com outros temas
 
 - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]]: CF, arts. 47, 60 e 69 e espécies normativas.
-- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003: tramitação]]: comissão versus Plenário, fases, revisão bicameral e apreciação conclusiva.
-- [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005: parecer]]: quórum e desempate no **Plenário da Comissão**, distintos do Plenário da Câmara.
-- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004: comissões]]: competências e modalidades de decisão.
+- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: comissão versus Plenário, fases, revisão bicameral e apreciação conclusiva.
+- [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]]: quórum e desempate no **Plenário da Comissão**, distintos do Plenário da Câmara.
+- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]: competências e modalidades de decisão.
 - **CAM-PL-007**: sanção, veto, promulgação e publicação, inclusive quórum constitucional para apreciação de veto.
 - **CAM-PL-008 a CAM-PL-010**: procedimento ordinário, prioridade, urgência e outros ritos.
 - **CAM-PL-011 a CAM-PL-015**: diferentes espécies legislativas, requisitos e maiorias.

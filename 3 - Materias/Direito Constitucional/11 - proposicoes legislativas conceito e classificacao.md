@@ -159,7 +159,7 @@ O pedido concreto define a categoria. Os **arts. 114, 115 e 117** distinguem, re
 
 A regra do **art. 128** exige parecer escrito antes de discussão e votação, **salvas exceções regimentais**, inclusive quando se admite **parecer verbal**. O **art. 129, § 1º**, permite **dispensa do relatório** no parecer a emenda. Portanto, “todo parecer escrito sempre possui necessariamente as três partes” é generalização com exceção.
 
-A apreciação **conclusiva de projetos de lei** por comissão, quando cabível, pertence a um plano de competência decisória (CF art. 58, § 2º, I; RICD art. 24, II), distinto da simples existência de um parecer. Para decisões, votos, substitutos e recursos, preservar a nota canônica [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005: parecer legislativo]], sem reproduzir suas classificações.
+A apreciação **conclusiva de projetos de lei** por comissão, quando cabível, pertence a um plano de competência decisória (CF art. 58, § 2º, I; RICD art. 24, II), distinto da simples existência de um parecer. Para decisões, votos, substitutos e recursos, preservar a nota canônica [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]], sem reproduzir suas classificações.
 
 ### Veto: ato presidencial, matéria congressual e quórum de rejeição
 
@@ -171,7 +171,7 @@ A **apreciação do veto** cabe ao **Congresso Nacional**, em **sessão conjunta
 
 **Veto × requerimento de destaque do veto:** o veto é **ato do Presidente**. Já o **destaque para votação no painel eletrônico** é mecanismo processual que pode ser requerido por líderes segundo a proporcionalidade do **art. 106-D do RCCN**, **sem aprovação do Plenário**. São institutos distintos, ainda que apareçam no mesmo procedimento.
 
-Para detalhes sobre sanção tácita, veto parcial, controle, prazos, promulgação e efeitos, ver a nota existente [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|CAM-PL-007: sanção, veto, promulgação e publicação]]. Este refinamento trata apenas da **classificação e comparação dos instrumentos**.
+Para detalhes sobre sanção tácita, veto parcial, controle, prazos, promulgação e efeitos, ver a nota existente [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação: etapas, prazos e competências]]. Este refinamento trata apenas da **classificação e comparação dos instrumentos**.
 
 ### Caso progressivo: mesma fiscalização, instrumentos diferentes
 

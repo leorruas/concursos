@@ -18,7 +18,7 @@ updated: 2026-11-11
 
 A pergunta essencial é: **o enunciado descreve uma decisão sobre como enfrentar o problema, a ideia que orienta a expressão publicitária, a percepção desejada ou um objeto produzido?** Uma decisão pode influenciar outra, mas não significa a mesma coisa.
 
-A [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|nota de planejamento]] já apresenta diagnóstico, objetivo, estratégia e táticas. [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing e branding]] apresenta posicionamento no conjunto de decisões de marca; [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|CAM-DI-007]] explica segmentação e seleção de públicos. Esta unidade aprofunda **a passagem entre estratégia, posicionamento e criação**.
+A [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|nota de planejamento]] já apresenta diagnóstico, objetivo, estratégia e táticas. [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing e branding]] apresenta posicionamento no conjunto de decisões de marca; [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Público-alvo e segmentação publicitária: bases, seleção e limites]] explica segmentação e seleção de públicos. Esta unidade aprofunda **a passagem entre estratégia, posicionamento e criação**.
 
 ## A estrutura da decisão: onde cada conceito entra
 
@@ -81,7 +81,7 @@ Uma estratégia exige **prioridades**. Identificar todos os canais possíveis e 
 
 **Caso:** um portal institucional precisa oferecer **informações corretas e atualizadas**. Esses são requisitos esperados de uma fonte oficial, próximos de uma condição de paridade. Uma experiência comprovadamente mais fácil de encontrar informações poderia fundamentar um diferencial **se** a comparação, o público e a evidência o sustentarem. Prometer esse diferencial sem medir tarefas reais seria somente uma intenção.
 
-**Fronteira com identidade e imagem:** o posicionamento pretendido é escolha estratégica; a **imagem** é percepção de público em contexto; a **reputação** é avaliação construída ao longo de experiências e tempo. Esses conceitos estão consolidados na [[3 - Materias/Comunicacao/19 - marketing institucional e branding|nota 19]].
+**Fronteira com identidade e imagem:** o posicionamento pretendido é escolha estratégica; a **imagem** é percepção de público em contexto; a **reputação** é avaliação construída ao longo de experiências e tempo. Esses conceitos estão consolidados na [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional e branding]].
 
 ## Conceito criativo: ideia central antes da peça
 
@@ -169,7 +169,7 @@ Em [Keller, Sternthal e Tybout, *Three Questions You Need to Ask About Your Bran
 
 ## Relações e heurísticas
 
-[[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento]] situa estratégia e táticas; [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing/branding]] distingue identidade, imagem e reputação; [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|CAM-DI-007]] apresenta STP; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|CAM-DI-004]] registra condições e mandatório; [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|CAM-DI-006]] distingue objetivos, entregas e medidas.
+[[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento]] situa estratégia e táticas; [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing/branding]] distingue identidade, imagem e reputação; [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Público-alvo e segmentação publicitária: bases, seleção e limites]] apresenta STP; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|Briefing publicitário: problema, contexto, informações e critérios de qualidade]] registra condições e mandatório; [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|Objetivos de comunicação e campanha: resultados, entregas e indicadores]] distingue objetivos, entregas e medidas.
 
 **Heurísticas:** caminho de atuação → **estratégia**; associação desejada na mente do público → **posicionamento**; ideia que liga as peças → **conceito criativo**; frase breve destinada à campanha → **slogan**; fato que sustenta promessa → **prova/razão para acreditar**; linguagem visual concreta → **execução**. Em Ries e Trout, a percepção do público é central; em Keller, considere **referência, paridade e diferença**; em Reeves, destaque **benefício único relevante**, sem equiparar USP e slogan.
 

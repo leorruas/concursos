@@ -35,8 +35,8 @@ Não transportar automaticamente conclusões de uma banca, órgão ou cargo para
 
 ## Relações
 
-- [[00 - Desempenho/Provas/00 - Desempenho por edital e prova|Desempenho por edital e prova]]
-- [[00 - Desempenho/Simulados/00 - Catalogo de simulados|Catálogo de simulados]]
+
+
 - [[4 - Projetos/dataprev-2026/Estrategia|Estratégia da Dataprev 2026]]
 
 ## Heurística

@@ -210,7 +210,7 @@ A perda da nacionalidade possui hoje regime alterado pela EC nº 131/2023. Ver [
 
 ---
 **Fontes Brutas:**
-- [[00 inbox/23-06-2026.md|Inbox - 23-06-2026]]
+
 
 
 ## Certificação normativa delimitada com ressalva pedagógica: 11/11/2026

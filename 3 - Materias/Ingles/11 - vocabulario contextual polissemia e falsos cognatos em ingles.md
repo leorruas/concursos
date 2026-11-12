@@ -246,7 +246,7 @@ A inferência lexical depende de função e contexto. *Features* significa apres
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|CAM-ING-001]]: O vocabulário específico define o enquadramento temático e a identificação do objetivo comunicativo.
-  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|CAM-ING-002]]: A precisão lexical impede falsas inferências induzidas por falsos cognatos.
-  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|CAM-ING-004]]: A polissemia de articuladores discursivos (*since*, *while*, *as*) exige avaliação contextual semelhante à dos substantivos e verbos.
-  - [[3 - Materias/Ingles/06 - parafrase equivalencia semantica e escopo|CAM-ING-011]]: Substituições lexicais devem manter equivalência semântica e correção gramatical no gênero discursivo da administração pública.
+  - [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|Como localizar assunto, tese e propósito comunicativo em textos em língua inglesa no padrão Cebraspe]]: O vocabulário específico define o enquadramento temático e a identificação do objetivo comunicativo.
+  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|Informações explícitas, inferências e limites da dedução em língua inglesa no padrão Cebraspe]]: A precisão lexical impede falsas inferências induzidas por falsos cognatos.
+  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|Conectivos: Relações Lógicas, Articulação de Sentido e Sequenciação Discursiva em Inglês]]: A polissemia de articuladores discursivos (*since*, *while*, *as*) exige avaliação contextual semelhante à dos substantivos e verbos.
+  - [[3 - Materias/Ingles/06 - parafrase equivalencia semantica e escopo|Paráfrase, equivalência semântica e escopo]]: Substituições lexicais devem manter equivalência semântica e correção gramatical no gênero discursivo da administração pública.

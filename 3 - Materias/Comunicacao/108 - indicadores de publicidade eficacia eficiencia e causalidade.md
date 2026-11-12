@@ -16,7 +16,7 @@ updated: 2026-11-11
 
 **Indicadores de publicidade** representam, sob definições operacionais, recursos empregados, entregas, exposições, reações, resultados e possíveis efeitos de uma ação comunicacional. O indicador só tem sentido quando associado a uma pergunta avaliativa, população, período, unidade e qualidade do registro. **Eficiência** se refere à relação entre recursos empregados e entregas ou resultados; **eficácia** examina o alcance dos objetivos estabelecidos; **efetividade** é usada frequentemente, na administração pública brasileira, para tratar dos efeitos concretos da intervenção sobre a realidade ou o público, mas **a terminologia varia entre escolas**. **Causalidade** exige avaliar quanto do resultado observado decorreu da intervenção, em comparação a um cenário plausível sem ela.
 
-A [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|nota 84]] diferencia objetivos, entregas e indicadores. A [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|nota 94]] expõe os níveis da AMEC e os Princípios de Barcelona. A [[3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao|nota 107]] desenvolve impressão, clique, sessão, conversão e instrumentação. Esta nota aprofunda **o julgamento avaliativo e a identificação de efeitos**, evitando reescrever esses conteúdos.
+A [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|Objetivos de comunicação e campanha: resultados, entregas e indicadores]] diferencia objetivos, entregas e indicadores. A [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|Monitoramento, dados e avaliação de campanhas]] expõe os níveis da AMEC e os Princípios de Barcelona. A [[3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao|Métricas digitais: impressões, alcance, cliques, conversões e interpretação]] desenvolve impressão, clique, sessão, conversão e instrumentação. Esta nota aprofunda **o julgamento avaliativo e a identificação de efeitos**, evitando reescrever esses conteúdos.
 
 ## Eficácia, eficiência, efetividade e impacto: critérios, não sinônimos
 
@@ -45,7 +45,7 @@ A [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha
 5. **Resultados no público:** mudanças em conhecimento, intenção, capacidade de agir ou comportamento.
 6. **Consequências institucionais/sociais:** acesso mais equitativo a serviços, participação informada e outros resultados relevantes.
 
-Essa cadeia dialoga com o modelo de avaliação da **International Association for Measurement and Evaluation of Communication (AMEC)**, desenvolvido na nota 94. **Uma seta representa hipótese a ser testada, não prova automática de que toda etapa provoca a seguinte.** Por exemplo, alcançar pessoas sem internet pelo rádio pode ajudar a informar sobre audiências, mas a ação de participar ainda depende de acesso ao serviço, horários, condições de participação e disponibilidade de canais.
+Essa cadeia dialoga com o modelo de avaliação da **International Association for Measurement and Evaluation of Communication (AMEC)**, desenvolvido no artigo [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|Monitoramento, dados e avaliação de campanhas]]. **Uma seta representa hipótese a ser testada, não prova automática de que toda etapa provoca a seguinte.** Por exemplo, alcançar pessoas sem internet pelo rádio pode ajudar a informar sobre audiências, mas a ação de participar ainda depende de acesso ao serviço, horários, condições de participação e disponibilidade de canais.
 
 **Mecanismo** é a explicação de como uma intervenção poderia produzir um efeito, como diminuir incerteza sobre procedimento. **Pressuposto** é condição necessária ou considerada provável, como existência de link funcional. **Fator externo** é mudança que também pode afetar o resultado, como notícia de grande repercussão sobre a pauta. Um bom desenho avaliativo explicita os três.
 
@@ -69,7 +69,7 @@ Essa cadeia dialoga com o modelo de avaliação da **International Association f
 
 Indicadores de custo só são comparáveis quando a unidade, janela temporal e qualidade da entrega são compatíveis.
 
-**Custo por mil impressões (CPM)** relaciona investimento ao volume de impressões; **custo por clique (CPC)** relaciona investimento a cliques registrados; **custo por aquisição ou ação (CPA)** relaciona investimento a ações definidas, como inscrição. As fórmulas de mídia constam da nota 90.
+**Custo por mil impressões (CPM)** relaciona investimento ao volume de impressões; **custo por clique (CPC)** relaciona investimento a cliques registrados; **custo por aquisição ou ação (CPA)** relaciona investimento a ações definidas, como inscrição. As fórmulas de mídia constam do artigo [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|Plano de mídia: alcance, frequência, cobertura e investimento]].
 
 **Custo por resultado substantivo** pode ser estimado, por exemplo, usando o número de cidadãos que concluíram corretamente uma tarefa. Porém, sem identificar causalidade, é **custo por resultado observado**, não **custo por resultado adicional produzido pela publicidade**.
 

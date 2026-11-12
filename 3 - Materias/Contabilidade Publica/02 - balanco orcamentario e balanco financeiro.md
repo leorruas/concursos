@@ -144,7 +144,7 @@ A despesa empenhada em 2026, ainda que não paga, integra a despesa orçamentár
 
 O BF fecha em R$ 120 de cada lado, mas a entrada efetiva de dinheiro foi **R$ 100**, e o desembolso foi **R$ 40**. Os R$ 20 registrados como ingresso extraorçamentário **não são dinheiro recebido**: compensam a inclusão dos R$ 20 ainda não pagos no total da despesa orçamentária (R$ 60). O caixa final real é R$ 60. Portanto, é perfeitamente possível, nesse exemplo, haver **resultado orçamentário de R$ 40** e **variação positiva de caixa de R$ 60**.
 
-Do ponto de vista patrimonial, sob as hipóteses da nota anterior, há **caixa R$ 60 + equipamento R$ 60 − obrigação R$ 20 = PL R$ 100**; a aquisição não provocou VPD imediata de R$ 60. Esses três números são compatíveis porque **medem coisas diferentes**.
+Do ponto de vista patrimonial, sob as hipóteses do exemplo anterior, há **caixa R$ 60 + equipamento R$ 60 − obrigação R$ 20 = PL R$ 100**; a aquisição não provocou VPD imediata de R$ 60. Esses três números são compatíveis porque **medem coisas diferentes**.
 
 **Em 2027**, se ocorrer apenas o pagamento dos R$ 20 inscritos em RP, haverá redução do caixa e da obrigação, e pagamento extraorçamentário no BF de 2027. Não se produz novo empenho orçamentário de 2027 apenas porque o RP foi pago nesse ano.
 

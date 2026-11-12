@@ -16,7 +16,7 @@ updated: 2026-11-11
 
 **Planejamento estratégico de marketing** organiza análise de ambiente, seleção de públicos, objetivos, posicionamento, estratégia de oferta e composto de marketing, recursos e critérios de controle. **Plano de marketing** é o documento ou conjunto organizado de decisões que formaliza esse percurso, com variações de estrutura conforme a organização. **Plano de comunicação** concentra a contribuição comunicacional aos objetivos. **Plano de mídia** detalha a distribuição da comunicação. Nenhum dos três substitui automaticamente os demais.
 
-A [[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|nota 95]] apresenta troca, necessidades, demanda e valor; [[3 - Materias/Comunicacao/19 - marketing institucional e branding|nota 19]] consolida 4 Ps, 7 Ps e marca; [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|nota 16]] organiza planejamento comunicacional. Aqui o foco é **diagnóstico de mercado e organização, escolha estratégica, hierarquia de objetivos e instrumentos de avaliação**, com limites da analogia comercial na Câmara.
+A [[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|Marketing: troca, valor, necessidades e públicos]] apresenta troca, necessidades, demanda e valor; [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional e branding]] consolida 4 Ps, 7 Ps e marca; [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|Planejamento de comunicação]] organiza planejamento comunicacional. Aqui o foco é **diagnóstico de mercado e organização, escolha estratégica, hierarquia de objetivos e instrumentos de avaliação**, com limites da analogia comercial na Câmara.
 
 ## Estrutura interna do planejamento
 
@@ -90,7 +90,7 @@ A distinção impede que uma campanha assuma responsabilidade exclusiva por resu
 
 ## Estratégia de segmentação, escolha de alvo e posicionamento
 
-O modelo **STP (segmentation, targeting, positioning)** separa **identificação de grupos**, **seleção de segmentos prioritários** e **posição pretendida da oferta na percepção do público**. A formulação está aprofundada em [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|CAM-DI-007]].
+O modelo **STP (segmentation, targeting, positioning)** separa **identificação de grupos**, **seleção de segmentos prioritários** e **posição pretendida da oferta na percepção do público**. A formulação está aprofundada em [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Público-alvo e segmentação publicitária: bases, seleção e limites]].
 
 **Posicionamento pretendido** é decisão da organização; **imagem percebida** resulta da interpretação do público e pode divergir. **Diferenciação** procura atributos relevantes que distinguem uma oferta; nem toda diferença é valiosa e nem toda diferença é verificável.
 
@@ -182,7 +182,7 @@ A [OpenStax, seção de planejamento estratégico](https://openstax.org/books/pr
 
 ## Relações e heurísticas
 
-[[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|CAM-DI-017]] estabelece valor e necessidades; [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing e branding]] apresenta composto e marca; [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Segmentação]] aprofunda STP; [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|Diagnóstico]] separa hipóteses e causas; [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|Avaliação]] distingue exposição e efeitos.
+[[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|Marketing: troca, valor, necessidades e públicos]] estabelece valor e necessidades; [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing e branding]] apresenta composto e marca; [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Segmentação]] aprofunda STP; [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|Diagnóstico]] separa hipóteses e causas; [[3 - Materias/Comunicacao/94 - monitoramento dados e avaliacao de campanhas|Avaliação]] distingue exposição e efeitos.
 
 **Heurísticas:** SWOT: forças/fraquezas **internas**, oportunidades/ameaças **externas**. PESTEL: **macroambiente**, não análise de capacidade interna. Porter: **estrutura competitiva do setor**. Ansoff: produto **novo ou existente** × mercado **novo ou existente**. BCG: **crescimento de mercado** × **participação relativa**. Estratégia indica direção; ação executa; indicador observa; avaliação interpreta.
 

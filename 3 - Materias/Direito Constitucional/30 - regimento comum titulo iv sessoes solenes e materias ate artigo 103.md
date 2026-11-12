@@ -256,7 +256,7 @@ Esta matriz verifica **o conteúdo efetivamente afirmado em cada enunciado**, se
 
 **Três transposições decisivas para prova:** **promulgação da PEC ≠ votação de PEC**, **comissão de recepção cerimonial ≠ CMO**, **leitura da mensagem orçamentária ≠ aprovação do orçamento**. E **RCCN histórico ≠ processo orçamentário integral vigente**.
 
-Relações: [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|CAM-PL-025: Título I]], [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|PEC]], [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|iniciativa presidencial]], [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|tramitação orçamentária]], [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|elaboração da proposta]], [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|veto]].
+Relações: [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|Regimento Comum do Congresso: direção, objeto e convocação das sessões conjuntas]], [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|PEC]], [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|iniciativa presidencial]], [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|tramitação orçamentária]], [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|elaboração da proposta]], [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|veto]].
 
 ## Fontes oficiais e validade
 

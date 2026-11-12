@@ -225,6 +225,6 @@ As locuções conjuntivas “à medida que” e “na medida em que” são sema
 
 ## 7. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical|CAM-LP-008 · Substituição, elipse, repetição e coesão lexical]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical|Substituição, elipse, repetição e coesão lexical: mecanismos de reiteração no padrão Cebraspe]].
 - **Artigo Fundamental Conexo**: [[3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas (Estrutura Sintática)]].
 - **Próxima Unidade**: **CAM-LP-010 · Tempo, modo e aspecto verbal na construção do texto** (Correlação verbal, tempos do indicativo/subjuntivo e valores aspectuais no padrão Cebraspe).

@@ -51,4 +51,4 @@ O debate do Quarto Chinês é frequentemente resgatado nas discussões contempor
 ---
 **Fontes Brutas:**
 - [[3 - Materias/Atualidades/referencias/Minds Brains and Programs|Minds, Brains, and Programs (John Searle, 1980)]]
-- [[00 ingestão]]
+

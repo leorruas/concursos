@@ -141,4 +141,4 @@ A sequência também conecta as próximas notas: **evidências e técnicas** exp
 - [CGU: Normas de Auditoria Interna](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/normas-de-auditoria-interna). Lista a **IN SFC nº 3/2017**, a **IN SFC/CGU nº 5/2021** e normas complementares.
 - [CGU: Planejamento de Trabalho de Auditoria Baseada em Risco](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/competencias-tecnicas-de-auditoria/trabalho-auditoria-baseada-em-riscos).
 
-O histórico e os resultados de aprendizagem ficam em [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]].
+O histórico e os resultados de aprendizagem ficam em registro individual de estudos mantido no cofre privado.

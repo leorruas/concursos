@@ -18,7 +18,7 @@ updated: 2026-11-11
 
 **Marketing público** é expressão mais ampla e variável entre autores: pode indicar aplicação de princípios de marketing ao desenho de serviços, ao relacionamento com cidadãos, à informação de direitos e à mudança de comportamentos socialmente relevantes. **Comunicação pública**, no glossário oficial da Política de Comunicação da Câmara (Ato da Mesa nº 218/2025), refere-se à comunicação de agentes e órgãos para assegurar direito à informação e à expressão, transparência, diálogo, participação e acesso aos serviços. Esses termos possuem **origens e critérios diferentes** e não são sinônimos universais.
 
-A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|nota 19]] contém marca, identidade, imagem, reputação e mix de marketing; [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|nota 81]] classifica modalidades de publicidade; [[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|nota 95]] examina troca e valor. A presente nota aprofunda **as tensões próprias do setor público e a Política de Comunicação da Câmara**, sem reconstruir esses conceitos gerais.
+A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional e branding]] contém marca, identidade, imagem, reputação e mix de marketing; [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|Publicidade institucional, mercadológica, de utilidade pública e legal]] classifica modalidades de publicidade; [[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|Marketing: troca, valor, necessidades e públicos]] examina troca e valor. A presente nota aprofunda **as tensões próprias do setor público e a Política de Comunicação da Câmara**, sem reconstruir esses conceitos gerais.
 
 ## Fronteira entre os conceitos institucionais
 
@@ -36,7 +36,7 @@ A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|nota 19]] c
 
 **Comunicação institucional e publicidade institucional** podem se sobrepor, mas a primeira é categoria mais ampla de comunicação, enquanto a segunda se refere a uma modalidade ou prática publicitária. Publicidade institucional não deve ser confundida com **publicidade legal**, cuja divulgação atende obrigação normativa específica.
 
-**Comunicação governamental** pode ter usos acadêmicos diferentes. A Câmara é órgão do Poder Legislativo: não cabe transportar automaticamente os procedimentos do Sistema de Comunicação de Governo do Poder Executivo Federal (Sicom) para a sua estrutura. O modelo de quatro modalidades do Executivo é referência de estudo devidamente delimitada, como explicado na nota 81.
+**Comunicação governamental** pode ter usos acadêmicos diferentes. A Câmara é órgão do Poder Legislativo: não cabe transportar automaticamente os procedimentos do Sistema de Comunicação de Governo do Poder Executivo Federal (Sicom) para a sua estrutura. O modelo de quatro modalidades do Executivo é referência de estudo devidamente delimitada, como explicado em [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|Publicidade institucional, mercadológica, de utilidade pública e legal]].
 
 ## Direito à informação, transparência e valor público
 
@@ -144,7 +144,7 @@ Marketing social não é automaticamente o mesmo que **publicidade de utilidade 
 
 ## Identidade, imagem, reputação e legitimidade
 
-A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|nota 19]] apresenta identidade, imagem e reputação. Para o setor público, acrescenta-se uma distinção: **legitimidade institucional** envolve conformidade com as competências, valores e regras que autorizam e justificam o exercício de funções públicas. Uma instituição pode ser popular sem que toda conduta seja juridicamente legítima; inversamente, uma decisão legítima pode receber avaliação pública negativa.
+A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional e branding]] apresenta identidade, imagem e reputação. Para o setor público, acrescenta-se uma distinção: **legitimidade institucional** envolve conformidade com as competências, valores e regras que autorizam e justificam o exercício de funções públicas. Uma instituição pode ser popular sem que toda conduta seja juridicamente legítima; inversamente, uma decisão legítima pode receber avaliação pública negativa.
 
 **Identidade**: características e sinais pelos quais a instituição se apresenta. **Imagem**: percepção situada de públicos. **Reputação**: avaliações relativamente consolidadas. **Legitimidade**: justificativa institucional e normativa do exercício de autoridade.
 
@@ -211,6 +211,6 @@ A [publicação oficial do Ato da Mesa nº 218/2025](https://www2.camara.leg.br/
 - BRASIL. [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), art. 37, caput e § 1º.
 - MOORE, Mark H. *Creating Public Value: Strategic Management in Government*. Harvard University Press, 1995, triângulo estratégico aplicado como referencial gerencial, sem força normativa.
 - AMERICAN MARKETING ASSOCIATION. [Definitions of Marketing](https://www.ama.org/the-definition-of-marketing-what-is-marketing/), conceito amplo de marketing.
-- [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|Nota 81]], comparação com o regime publicitário do Executivo federal, sem atribuir ao Legislativo suas regras administrativas.
+- [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|Publicidade institucional, mercadológica, de utilidade pública e legal]], comparação com o regime publicitário do Executivo federal, sem atribuir ao Legislativo suas regras administrativas.
 
 **Limites:** o termo marketing institucional não possui definição jurídica única. O triângulo de Moore e as distinções mercadológicas são referenciais teóricos; obrigações próprias da Câmara decorrem do Ato da Mesa e da Constituição. Os exemplos são hipóteses didáticas e não descrevem campanhas reais ou progresso de aprendizagem.

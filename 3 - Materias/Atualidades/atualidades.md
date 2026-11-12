@@ -115,7 +115,7 @@ Informações atuais exigem pesquisa web. Para dados e fatos, priorizar fontes o
 
 # Acompanhamento
 
-- [[Avancos|Avanços e desempenho de Atualidades]]
-- [[4 - Projetos/dataprev-2026/O que estudar|Checklist Dataprev 2026]]
-- [[4 - Projetos/dataprev-2026/Log de erros|Log de erros Dataprev 2026]]
-- [[00 - Desempenho/Provas/Dataprev 2024 - Comunicacao Social|Prova-espelho Dataprev 2024: Comunicação Social]]
+- **Progresso individual: registros mantidos no cofre privado de estudos**
+
+
+

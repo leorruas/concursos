@@ -185,6 +185,6 @@ O **art. 37, § 1º, da Constituição** condiciona a publicidade de atos, progr
 - BRASIL. [Código de Defesa do Consumidor, arts. 36 e 37](https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm).
 - CÂMARA DOS DEPUTADOS. [Ato da Mesa nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html).
 - CONAR. [Código Brasileiro de Autorregulamentação Publicitária](https://www.conar.org.br/codigo/codigo.php), autorregulação profissional.
-- MCCARTHY, E. Jerome. *Basic Marketing: A Managerial Approach*. 1960, referência do composto de marketing dos 4 Ps, desenvolvido na nota 19.
+- MCCARTHY, E. Jerome. *Basic Marketing: A Managerial Approach*. 1960, referência do composto de marketing dos 4 Ps, desenvolvido em [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional e branding]].
 
 **Limites:** a distinção acadêmica entre publicidade e propaganda varia por autor, tradição e uso normativo; a nota apresenta um recorte analítico para prova, sem convertê-lo em definição legal universal. As classificações de funções e o processo publicitário são sínteses didáticas. Publicar este conteúdo não registra estudo, acertos ou retenção pessoal.

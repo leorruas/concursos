@@ -20,7 +20,7 @@ updated: 2026-11-11
 
 Os arts. **81–99** disciplinam **o uso da palavra, a pauta, sessões especiais, o controle das questões de ordem e o registro e divulgação dos trabalhos**. Os arts. **100–105** introduzem **as espécies de proposição, sua apresentação digital, autoria, retirada e arquivamento ao fim da legislatura**. Os dois conjuntos importam para **comunicação institucional** porque um discurso, um parecer, uma votação e uma publicação oficial não têm a mesma natureza ou efeito.
 
-Para os tipos gerais de sessão e quórum de abertura, ver [[3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80|CAM-PL-021]]. Para as espécies de proposição, ver [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-001 e CAM-PL-016]]. Esta nota trata do **encadeamento dos artigos 81 a 105** e das fronteiras entre eles.
+Para os tipos gerais de sessão e quórum de abertura, ver [[3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80|Regimento da Câmara: decisões das comissões, fiscalização e sessões (arts. 55 a 80)]]. Para as espécies de proposição, ver [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]]. Esta nota trata do **encadeamento dos artigos 81 a 105** e das fronteiras entre eles.
 
 ## 1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86
 

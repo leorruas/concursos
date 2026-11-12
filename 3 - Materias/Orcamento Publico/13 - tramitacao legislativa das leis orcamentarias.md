@@ -18,7 +18,7 @@ updated: 2026-11-07
 
 A **Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO)** é permanente e integrada por deputados e senadores. Ela **examina e emite parecer** sobre projetos e emendas e exerce atribuições de fiscalização e acompanhamento. O **Plenário do Congresso Nacional** aprecia as matérias orçamentárias em sessão conjunta, com regras próprias de votação das duas Casas. **Comissão mista ≠ plenário; parecer da CMO ≠ aprovação legislativa definitiva; sessão conjunta ≠ perda de identidade institucional de Câmara e Senado**.
 
-Esta unidade **CAM-ORC-009** começa onde termina a [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|CAM-ORC-008]], dedicada ao preparo e encaminhamento do projeto. As [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|etapas do ciclo orçamentário]] e os papéis do [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] já foram estudados como conceitos canônicos: o novo objeto é a **sequência de decisão parlamentar e seus limites**.
+Esta unidade **CAM-ORC-009** começa onde termina a [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|Elaboração da proposta orçamentária federal: órgãos, decisões e etapas]], dedicada ao preparo e encaminhamento do projeto. As [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|etapas do ciclo orçamentário]] e os papéis do [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] já foram estudados como conceitos canônicos: o novo objeto é a **sequência de decisão parlamentar e seus limites**.
 
 ## Fontes, escopo e separação entre ritos
 
@@ -154,7 +154,7 @@ A banca pode descrever corretamente a **iniciativa presidencial**, mas exigir vo
 
 ## Relações com outros temas
 
-- [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|CAM-ORC-008: elaboração do PLOA]]: iniciativa e consolidação anteriores à tramitação.
+- [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|Elaboração da proposta orçamentária federal: órgãos, decisões e etapas]]: iniciativa e consolidação anteriores à tramitação.
 - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]: funções e prazos dos instrumentos.
 - [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas e orçamento impositivo]]: limites, execução e transparência das emendas.
 - [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Estágios da despesa]]: autorização legislativa não substitui execução.

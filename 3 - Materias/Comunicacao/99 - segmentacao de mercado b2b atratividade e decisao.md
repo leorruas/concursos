@@ -16,7 +16,7 @@ updated: 2026-11-11
 
 **Segmentação de mercado** é a divisão de um mercado consumidor ou organizacional em grupos com características ou necessidades pertinentes às decisões sobre ofertas e estratégias. O objetivo não é apenas caracterizar pessoas: é identificar **heterogeneidade entre segmentos, semelhanças relevantes dentro deles e diferenças que possam orientar uma resposta adequada**.
 
-A [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|nota 85, CAM-DI-007]] já reúne as quatro bases tradicionais para consumidores (geográfica, demográfica, psicográfica e comportamental), o modelo STP, os cinco critérios **ADAMS**, personas e marketing indiferenciado, diferenciado e concentrado. **Essas definições não são repetidas aqui**: esta unidade examina segmentação de **mercados organizacionais**, diferentes papéis na compra, técnicas de construção de segmentos e critérios de escolha. A [[3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes|nota 96]] articula essas decisões ao planejamento geral.
+A [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Público-alvo e segmentação publicitária: bases, seleção e limites]] já reúne as quatro bases tradicionais para consumidores (geográfica, demográfica, psicográfica e comportamental), o modelo STP, os cinco critérios **ADAMS**, personas e marketing indiferenciado, diferenciado e concentrado. **Essas definições não são repetidas aqui**: esta unidade examina segmentação de **mercados organizacionais**, diferentes papéis na compra, técnicas de construção de segmentos e critérios de escolha. A [[3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes|Planejamento de marketing: diagnóstico, objetivos e decisões]] articula essas decisões ao planejamento geral.
 
 ## Mercado consumidor versus mercado organizacional
 
@@ -120,7 +120,7 @@ No setor público, usuários podem acessar serviços sem transação monetária,
 
 ## Atratividade versus capacidade de atender
 
-A [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|nota 85]] já apresenta os cinco critérios ADAMS: **accessible, differentiable, actionable, measurable, substantial**. A presente distinção acrescenta dois níveis de decisão de marketing:
+A [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Público-alvo e segmentação publicitária: bases, seleção e limites]] já apresenta os cinco critérios ADAMS: **accessible, differentiable, actionable, measurable, substantial**. A presente distinção acrescenta dois níveis de decisão de marketing:
 
 **Atratividade do segmento:** tamanho e evolução, necessidade existente, viabilidade financeira, concorrência ou alternativas, riscos, estabilidade e compatibilidade com objetivos. **Capacidade organizacional para servi-lo:** competências, acesso, canais, processos, recursos e legitimidade para realizar a proposta.
 
@@ -196,7 +196,7 @@ A [OpenStax, *Essential Factors in Effective Market Segmentation*](https://opens
 
 ## Relações e heurísticas
 
-[[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|CAM-DI-007]]: bases clássicas, ADAMS, STP e cobertura. [[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|CAM-DI-017]]: valor, oferta e necessidades. [[3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes|CAM-DI-018]]: diagnóstico e decisão. [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|CAM-DI-012]]: frequência publicitária e métricas.
+[[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Público-alvo e segmentação publicitária: bases, seleção e limites]]: bases clássicas, ADAMS, STP e cobertura. [[3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos|Marketing: troca, valor, necessidades e públicos]]: valor, oferta e necessidades. [[3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes|Planejamento de marketing: diagnóstico, objetivos e decisões]]: diagnóstico e decisão. [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|Plano de mídia: alcance, frequência, cobertura e investimento]]: frequência publicitária e métricas.
 
 **Heurísticas:** B2C = indivíduo ou família; B2B = organização e decisão com múltiplos papéis; **firmografia** = porte, setor, estrutura da empresa; **demografia** = características de pessoas; **RFM** = recência, frequência **de transações**, valor monetário; **ADAMS** = qualidade dos segmentos, não garantia de rentabilidade ou legitimidade; **segmentar serviço** pode implicar mudar oferta, e não somente comprar mídia.
 

@@ -16,7 +16,7 @@ updated: 2026-11-11
 
 **Design gráfico** organiza signos verbais, visuais e espaciais para apoiar comunicação em suportes definidos. **Hierarquia visual** estabelece diferenças de prioridade percebida; **composição** organiza relações entre elementos dentro de um espaço; **legibilidade** se relaciona à possibilidade de distinguir visualmente caracteres e palavras; **leiturabilidade** examina a facilidade de acompanhar e compreender um texto em contexto. Essas dimensões interagem e não podem ser substituídas por “a peça ficou bonita”.
 
-A [[3 - Materias/Comunicacao/12 - producao editorial e design|nota 12: Produção editorial e design]] já apresenta princípios básicos de grid, proximidade, contraste, categorias tipográficas e legibilidade. A [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|nota 76]] aprofunda o método **planejar, desenvolver e avaliar** de Patricia Roedel. Esta unidade examina **as relações operacionais entre hierarquia, composição, tipografia e tarefa do leitor**, sem duplicar as etapas de produção gráfica, que serão aprofundadas em CAM-DI-035.
+A [[3 - Materias/Comunicacao/12 - producao editorial e design|Produção editorial e design]] já apresenta princípios básicos de grid, proximidade, contraste, categorias tipográficas e legibilidade. A [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|Patricia Roedel: Manual de Linguagem Simples, planejamento, desenvolvimento e avaliação]] aprofunda o método **planejar, desenvolver e avaliar** de Patricia Roedel. Esta unidade examina **as relações operacionais entre hierarquia, composição, tipografia e tarefa do leitor**, sem duplicar as etapas de produção gráfica, que serão aprofundadas em CAM-DI-035.
 
 ## Hierarquia visual: prioridade não equivale a tamanho
 
@@ -107,7 +107,7 @@ A tradição da psicologia da **Gestalt** investiga formas de organização perc
 
 **Exemplo 3:** um serviço apresenta ótima sequência de passos, mas cada página usa nome distinto para a mesma ação. A inconsistência de terminologia compromete compreensão e navegação mesmo com bom grid.
 
-O método de Patricia Roedel na nota 76 articula planejar, desenvolver e avaliar textos para que pessoas consigam **encontrar, entender e usar** a informação. Não tratar linguagem simples como mera troca de palavras difíceis: envolve organização, apresentação e teste.
+O método de Patricia Roedel no artigo [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|Patricia Roedel: Manual de Linguagem Simples, planejamento, desenvolvimento e avaliação]] articula planejar, desenvolver e avaliar textos para que pessoas consigam **encontrar, entender e usar** a informação. Não tratar linguagem simples como mera troca de palavras difíceis: envolve organização, apresentação e teste.
 
 ## Contraste, cor e acessibilidade: normas com escopo definido
 

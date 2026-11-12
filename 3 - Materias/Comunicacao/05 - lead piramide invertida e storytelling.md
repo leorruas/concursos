@@ -126,6 +126,6 @@ Se a questão pergunta **“o que vem primeiro no texto?”**, pense em lead. Se
 - Poynter. *The Hourglass: Serving the News, Serving the Reader*. Estrutura híbrida que combina abertura informativa e desenvolvimento narrativo.
 
 **Fontes Brutas:**
-- [[00 inbox/05-07-2026]]
-- [[00 inbox/07-07-2026]]
-- [[00 ingestão]]
+
+
+

@@ -111,8 +111,8 @@ O programa e eventuais ajustes devem ser **documentados e previamente aprovados 
 
 **Risco do objeto × risco de auditoria:** a primeira categoria descreve ameaças ao processo examinado; a segunda, a possibilidade de conclusão inválida do auditor. Bases incompletas, limites mal definidos e testes insuficientes podem afetar esta última.
 
-O histórico da unidade 05 registra erros iniciais em escopo/critério e na autorização do programa, e um acerto por chute sobre consultoria. Esses mecanismos foram retomados, mas a retenção espaçada ainda deve ser verificada. Ver [[3 - Materias/Auditoria Governamental/Avancos|Avanços da disciplina]].
+O histórico da unidade 05 registra erros iniciais em escopo/critério e na autorização do programa, e um acerto por chute sobre consultoria. Esses mecanismos foram retomados, mas a retenção espaçada ainda deve ser verificada. Ver registro individual de estudos mantido no cofre privado.
 
 ## Relações com outros temas
 
-[[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|Ciclo de auditoria]] oferece a visão das quatro etapas. O histórico das respostas e dos erros permanece em [[3 - Materias/Auditoria Governamental/Avancos|Avanços e desempenho]].
+[[3 - Materias/Auditoria Governamental/02 - ciclo de auditoria|Ciclo de auditoria]] oferece a visão das quatro etapas. O histórico das respostas e dos erros permanece em registro individual de estudos mantido no cofre privado.

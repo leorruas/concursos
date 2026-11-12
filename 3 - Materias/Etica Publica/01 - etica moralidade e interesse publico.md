@@ -18,7 +18,7 @@ aliases:
 
 Um gestor descobre uma falha em um serviço público. Para corrigi-la, deve considerar direitos dos usuários, orçamento, competências e consequências. Mesmo que o resultado desejado seja legítimo, os meios empregados precisam de justificativa. Esse é o núcleo de um problema **ético**, e a razão de estudar a matéria por decisões, não por uma lista isolada de virtudes.
 
-Este artigo é a entrada para a unidade P1.3.1 do percurso CGU 2026. A nota seguinte, [[3 - Materias/Etica Publica/02 - deveres e conduta profissional|Deveres e conduta profissional]], transforma os princípios em situações de trabalho. A teoria aqui é reutilizável em outros editais.
+Este artigo é a entrada para a unidade P1.3.1 do percurso CGU 2026. O artigo [[3 - Materias/Etica Publica/02 - deveres e conduta profissional|Deveres e conduta profissional no serviço público]] transforma os princípios em situações de trabalho. A teoria aqui é reutilizável em outros editais.
 
 ## Núcleo do conceito
 

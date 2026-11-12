@@ -280,6 +280,6 @@ A palavra “hífen” recebe acento gráfico por ser paroxítona terminada na c
 
 ## 7. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/16 - genero textual situacao de uso suporte e finalidade|CAM-LP-005 · Gênero textual: situação de uso, suporte e finalidade]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/16 - genero textual situacao de uso suporte e finalidade|Gênero textual: situação de uso, suporte, finalidade sociocomunicativa e intergenericidade no padrão Cebraspe]].
 - **Artigo Histórico Conexo**: [[3 - Materias/Portugues/05 - acordo ortografico|05 • Acordo ortográfico (Guia Sintético de Prefixos)]].
 - **Próxima Unidade**: **CAM-LP-007 · Referência textual: anáfora, catáfora e dêixis** (Mecanismos de referenciação endofórica e exofórica, cadeias coesivas e pronomes demonstrativos no padrão Cebraspe).

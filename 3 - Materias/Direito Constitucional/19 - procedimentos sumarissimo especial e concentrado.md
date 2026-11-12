@@ -22,7 +22,7 @@ aliases:
 
 Na classificação doutrinária apresentada por **Luciano Henrique da Silva Oliveira**, em estudo da Consultoria Legislativa do Senado Federal (Texto para Discussão nº 292, 2021), os procedimentos legislativos incluem ordinário, abreviado, sumário, concentrado e especiais. O **sumaríssimo**, entendido como urgência urgentíssima no contexto da Câmara, é uma subdivisão de aceleração máxima fundamentada no **art. 155 do Regimento Interno da Câmara dos Deputados (RICD)**. Os termos doutrinários ajudam a estudar os procedimentos, mas **o Regimento não estabelece “sumaríssimo, especial e concentrado” como três regimes de tramitação no seu art. 151**.
 
-**CAM-PL-010** estuda a fronteira entre as três categorias. A [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|CAM-PL-009]] já explica abreviado (deliberação conclusiva em comissões) e sumário (urgência constitucional presidencial). O artigo atual aprofunda **urgência por requerimento, os efeitos do art. 155, a organização de ritos especiais e a sessão conjunta regida pelo Regimento Comum**. As regras específicas de PEC, medida provisória e lei delegada serão objeto de CAM-PL-012, 013 e 015; orçamento já possui artigos canônicos na trilha CAM-ORC.
+**CAM-PL-010** estuda a fronteira entre as três categorias. A [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Procedimentos abreviado e sumário: comissões e urgência constitucional]] já explica abreviado (deliberação conclusiva em comissões) e sumário (urgência constitucional presidencial). O artigo atual aprofunda **urgência por requerimento, os efeitos do art. 155, a organização de ritos especiais e a sessão conjunta regida pelo Regimento Comum**. As regras específicas de PEC, medida provisória e lei delegada serão objeto de CAM-PL-012, 013 e 015; orçamento já possui artigos canônicos na trilha CAM-ORC.
 
 ## Classificação: o que muda em cada procedimento
 
@@ -208,10 +208,10 @@ Para aprofundar a disciplina orçamentária sem repetir conteúdo, consultar [[3
 
 ## Relações com outros temas
 
-- [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|CAM-PL-009]]: sumário (CF art. 64) e abreviado (comissões), que não são sumaríssimo ou concentrado.
-- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003 e 008]]: sequência comum de tramitação e regime ordinário.
-- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|CAM-PL-006]]: quórum e discussão, preservados sob urgência.
-- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|CAM-PL-007]]: veto em sessão conjunta, quórum de rejeição.
+- [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Procedimentos abreviado e sumário: comissões e urgência constitucional]]: sumário (CF art. 64) e abreviado (comissões), que não são sumaríssimo ou concentrado.
+- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: sequência comum de tramitação e regime ordinário.
+- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação, quóruns e modalidades de decisão na Câmara]]: quórum e discussão, preservados sob urgência.
+- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação: etapas, prazos e competências]]: veto em sessão conjunta, quórum de rejeição.
 - [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Rito orçamentário]] e [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|CMO]]: rito concentrado em matéria orçamentária.
 - **CAM-PL-012**: delegação legislativa; **CAM-PL-013**: MP; **CAM-PL-015**: PEC; **CAM-PL-025 a 029**: Regimento Comum e resoluções específicas.
 

@@ -18,7 +18,7 @@ aliases:
 
 Uma política de ampliação de escolas pode estar prevista no planejamento de médio prazo, aparecer como prioridade para o ano seguinte e receber dotação na lei orçamentária. Mesmo assim, uma escola ainda não foi construída: entre a intenção, a autorização e a entrega há decisões, disponibilidade de recursos, execução e controle. Esse percurso explica por que **planejamento, orçamento, execução e resultado** são conceitos diferentes.
 
-Este é o ponto de entrada da matéria. O artigo seguinte aprofunda o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA): [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]; classificações, créditos adicionais, estágios de receita e despesa e responsabilidade fiscal terão notas próprias. A organização é reutilizável entre editais. Na Controladoria-Geral da União (CGU) 2026, este texto atende **parcialmente** ao recorte P3.2.2, em formato **Cebraspe, Certo ou Errado**.
+Este é o ponto de entrada da matéria. O artigo [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] aprofunda o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA); classificações, créditos adicionais, estágios de receita e despesa e responsabilidade fiscal terão notas próprias. A organização é reutilizável entre editais. Na Controladoria-Geral da União (CGU) 2026, este texto atende **parcialmente** ao recorte P3.2.2, em formato **Cebraspe, Certo ou Errado**.
 
 ## Três conjuntos de perguntas: momento, autorização e entrega
 

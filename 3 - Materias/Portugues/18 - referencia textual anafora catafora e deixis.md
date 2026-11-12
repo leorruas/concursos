@@ -235,6 +235,6 @@ Considerando a referência anafórica associativa, a introdução de termos como
 
 ## 7. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao|CAM-LP-006 · Ortografia e convenções da escrita: Acordo Ortográfico, acentuação e hifenização]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao|Ortografia e convenções da escrita: Acordo Ortográfico, acentuação gráfica, hifenização e ortoépia no padrão Cebraspe]].
 - **Artigo Fundamental Conexo**: [[3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais|08 • Coesão textual: referenciação, conectores e tempos verbais (Visão Geral)]].
 - **Próxima Unidade**: **CAM-LP-008 · Substituição, elipse, repetição e coesão lexical** (Coesão lexical por hiponímia/hiperonímia, nominalização, elipse do sujeito e coesão por reiteração no padrão Cebraspe).

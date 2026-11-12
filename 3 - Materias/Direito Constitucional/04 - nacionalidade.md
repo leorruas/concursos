@@ -157,4 +157,4 @@ A cobrança tende a deslocar uma condição constitucional para a hipótese erra
 
 ---
 **Fontes Brutas:**
-- [[00 inbox/29-06-2026.md|Inbox - 29-06-2026]]
+

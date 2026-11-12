@@ -36,7 +36,7 @@ A OCDE diferencia equalização por **receita potencial**, **necessidade/custo d
 
 ## Como a Cebraspe cobra
 
-Não confundir **responsabilidade por serviço**, **competência tributária** e **direito a transferência**. Desequilíbrios vertical e horizontal têm perguntas econômicas diferentes. Os itens e exemplos integrados do artigo anterior continuam acessíveis pelo link de origem.
+Não confundir **responsabilidade por serviço**, **competência tributária** e **direito a transferência**. Desequilíbrios vertical e horizontal têm perguntas econômicas diferentes. Os exemplos sobre externalidades e regulação continuam disponíveis em [[3 - Materias/Financas Publicas/04 - externalidades e monopolios naturais|Externalidades, monopólios naturais e regulação]].
 
 ## Relações com outros temas
 

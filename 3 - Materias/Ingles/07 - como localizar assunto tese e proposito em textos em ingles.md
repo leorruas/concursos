@@ -21,7 +21,7 @@ Considere o seguinte excerto sobre inteligência artificial e parlamentos aberto
 
 > *"While artificial intelligence offers parliamentary administrations unprecedented capabilities to transcribe debates and summarize legislative drafts in real time, it would be an illusion to assume that algorithmic processing can replace the deliberative core of representative democracy. Automated synthesis inherently privileges statistical frequency over nuanced institutional compromise. Therefore, public institutions must deploy these technologies not to automate political judgment, but rather to expand citizen scrutiny and enhance the traceability of parliamentary outputs."*
 
-Se o Cebraspe propuser itens de compreensão global sobre esse parágrafo, as assertivas frequentemente explorarão **três níveis de leitura que não se confundem**:
+Em um treino de compreensão global sobre esse parágrafo, convém separar **três níveis de leitura que não se confundem**:
 
 1. **Assunto / Tópico Geral (*Topic / Subject Matter*):** É a resposta à pergunta *"Sobre o que é o texto?"*. No caso, o uso de inteligência artificial nas administrações parlamentares. O erro comum é tomar o assunto amplo como se fosse a tese específica do autor.
 2. **Ideia Central / Tese Defendida (*Main Idea / Central Claim / Thesis*):** É a resposta à pergunta *"Qual é o posicionamento valorativo e o argumento nuclear que o autor defende?"*. No excerto, a tese é explícita: **a IA não pode substituir a deliberação política humana, devendo ser canalizada para a transparência e a fiscalização cidadã**.
@@ -33,7 +33,7 @@ Esta unidade instrumentaliza o candidato para dominar as técnicas de **leitura 
 
 ## 2. A anatomia do parágrafo analítico em língua inglesa: Topic Sentence e dinâmica informacional
 
-Diferentemente de certos estilos dissertativos da tradição neolatina — que frequentemente desenvolvem longas contextualizações históricas antes de enunciar a tese —, a prosa acadêmica e jornalística anglo-saxônica é predominantemente **dedutiva e linear**.
+Uma estrutura didática recorrente em parágrafos argumentativos coloca a ideia central (*topic sentence*) perto do início e depois apresenta desenvolvimento e fechamento. **Isso é uma possibilidade de organização, não uma regra universal do inglês**: reportagens, ensaios e textos acadêmicos podem deslocar ou distribuir a tese. Evite inferir a estrutura apenas do idioma ou da nacionalidade do autor.
 
 ```mermaid
 flowchart TD
@@ -121,7 +121,7 @@ flowchart TD
 
 ## 5. A taxonomia dos distratores clássicos em itens de compreensão do Cebraspe
 
-Ao formular itens C/E sobre a ideia central ou o propósito comunicativo, o Cebraspe raramente constrói assertivas absurdas. Quatro mecanismos de erro podem ser usados para construir e avaliar itens de interpretação. **São categorias pedagógicas, não padrões matemáticos ou frequências comprovadas da banca**:
+Ao formular ou resolver itens C/E sobre a ideia central ou o propósito comunicativo, é útil reconhecer alterações sutis de escopo e de função textual. Quatro mecanismos de erro podem ser usados para construir e avaliar itens de interpretação. **São categorias pedagógicas, não padrões matemáticos ou frequências comprovadas da banca**:
 
 1. **O Distrator do Detalhe Secundário (*True but Minor Detail*):** A assertiva reproduz uma informação que é **rigorosamente verdadeira segundo o texto**, mas que constitui apenas um dado factual isolado ou um exemplo ilustrativo, e **não a tese central** ou o propósito do autor.
    * *Pegadinha:* O candidato lê, reconhece a frase no texto e marca Certo, errando a questão porque o comando perguntava sobre a *main idea* ou o *primary purpose*.

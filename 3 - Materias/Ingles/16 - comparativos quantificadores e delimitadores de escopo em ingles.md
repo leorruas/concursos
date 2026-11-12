@@ -206,6 +206,40 @@ Operadores adverbiais e prepositivos delimitam estritamente o universo de aplica
 
 ---
 
+## 4.1. Leitura quantitativa: denominadores, limites e causalidade
+
+**Texto ficcional, integralmente inédito para treino:**
+
+> In a survey of 120 registered museum visitors, most respondents said they had used the online catalogue at least once. Only a few reported using it every week, and none said that they had abandoned printed exhibition guides entirely. The research team also noted that visitors who used the catalogue tended to spend more time exploring exhibits. The survey, however, did not establish whether the catalogue itself caused the longer visits.
+
+**Quatro limites:** *most* compara respostas dentro dos 120 entrevistados e não equivale a *all*. *Only a few* indica grupo pequeno em relação ao universo da pesquisa, sem indicar percentual preciso. *None* exclui todos os respondentes na característica específica de abandonar **inteiramente** os guias impressos, sem proibir que alguns os tenham usado menos. *Tended to spend more time* registra tendência associativa, sem demonstrar causalidade.
+
+**Caso progressivo:** substitua *most respondents* por *all respondents*: a primeira frase agora se torna universal entre entrevistados, mas continua sem representar automaticamente todos os moradores da cidade. Substituir *at least once* por *every week* modifica a frequência mínima de uso. Substituir *tended to* por *were forced to* introduz necessidade ausente da pesquisa.
+
+**Item adicional A (inédito, C/E).** The passage establishes that every museum visitor used the online catalogue at least once.
+
+**Gabarito: Errado.** *Most respondents* não equivale a todos, e a amostra foi restrita aos 120 visitantes cadastrados entrevistados.
+
+**Item adicional B (inédito, C/E).** The expression *at least once* sets a minimum frequency but does not establish regular weekly use.
+
+**Gabarito: Certo.** Uma ocorrência basta para satisfazer a expressão, enquanto *every week* exige repetição.
+
+**Item adicional C (inédito, C/E).** According to the survey, none of the respondents said they had completely stopped using printed exhibition guides.
+
+**Gabarito: Certo.** A paráfrase conserva o escopo de *none ... abandoned ... entirely*, sem afirmar que todos usam sempre o impresso.
+
+**Item adicional D (inédito, C/E).** The survey demonstrated that using the catalogue directly caused visitors to spend more time exploring exhibits.
+
+**Gabarito: Errado.** O texto explicita que não foi possível estabelecer a causalidade.
+
+**Item adicional E (inédito, C/E).** The text provides the exact percentage of respondents who used the catalogue every week.
+
+**Gabarito: Errado.** *Only a few* não fixa uma fração numérica; o denominador de 120 por si só não resolve o numerador.
+
+**Relações:** consulte [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|inferência e causalidade]] e [[3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles|equivalência e escopo]]. Estes itens não são da prova oficial.
+
+---
+
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**

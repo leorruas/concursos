@@ -16,8 +16,8 @@ tags:
 
 Nas provas de Língua Inglesa do Cebraspe para carreiras de nível superior (como o cargo de Analista Legislativo da Câmara dos Deputados), o estudo dos **verbos modais (*modal verbs*)** e de seus equivalentes semi-modais (*semi-modals*) não visa à memorização mecânica de regras de conjugação. Para interpretar itens C/E, interessa distinguir **força assertiva**, **modalidade epistêmica (avaliação de certeza ou possibilidade)**, **modalidade deôntica (permissão, dever e proibição)** e **hedging** (atenuação). Essa organização é pedagógica e não supõe distribuição estatística comprovada de assuntos na banca.
 
-O mecanismo de distração predileto do Cebraspe em questões de interpretação e paráfrase consiste em **alterar o grau de modalização do texto original**:
-- Transformar uma **mera possibilidade hipotética** (*may, might, could*) em uma **consequência inelutável ou certeza absoluta** (*will, must, certainly*);
+Uma forma de construir ou identificar distorções em exercícios de interpretação e paráfrase é **alterar o grau de modalização do texto original**. Os exemplos abaixo ilustram possibilidades de erro, sem atribuir frequência ou preferência comprovada à banca:
+- Converter uma **possibilidade epistêmica** (*may, might, could*, conforme contexto) em uma afirmação categórica com *certainly* ou *inevitably*; *will* pode indicar previsão e *must* pode indicar obrigação ou inferência, não certeza universal;
 - Transformar uma **obrigação jurídica vinculante** (*shall, must*) em uma **recomendação moral facultativa** (*should, ought to*);
 - Interpretar uma **dedução lógica forte sobre fato pretérito** (*must have been*) como uma **obrigação que deveria ter sido cumprida no passado** (*should have been*).
 

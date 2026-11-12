@@ -7572,7 +7572,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-45d8f190ac2e673b#Valor percebido: benefício, custo e utilidade"
       ],
@@ -7583,7 +7583,7 @@
       "statement": "Mesmo com entrada gratuita em duas exposições, a distância até o local pode reduzir o valor percebido de uma delas para um visitante.",
       "correctAnswer": "C",
       "explanation": "O valor percebido considera benefícios e custos percebidos, como deslocamento e tempo. Preço zero elimina apenas o desembolso pela entrada.",
-      "reviewEvidence": "Cotejo editorial com Valor percebido: benefício, custo e utilidade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
+      "reviewEvidence": "Cotejo editorial com Valor percebido: benefício, custo e utilidade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-satisfacao-e-expectativa",
@@ -7600,7 +7600,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-45d8f190ac2e673b#Satisfação, expectativa, qualidade e lealdade"
       ],
@@ -7611,7 +7611,7 @@
       "statement": "Dois visitantes avaliam a qualidade percebida de uma exposição com a mesma nota. O visitante que esperava uma experiência melhor necessariamente fica tão satisfeito quanto o outro.",
       "correctAnswer": "E",
       "explanation": "A satisfação depende da comparação com expectativas. A mesma qualidade percebida pode confirmar uma expectativa e frustrar outra.",
-      "reviewEvidence": "Cotejo editorial com Satisfação, expectativa, qualidade e lealdade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
+      "reviewEvidence": "Cotejo editorial com Satisfação, expectativa, qualidade e lealdade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-ansoff-oferta-nova-mercado-atual",
@@ -7628,7 +7628,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1c9e5b7a32d0648f#Matriz de Ansoff: produto e mercado, existentes e novos"
       ],
@@ -7639,7 +7639,7 @@
       "statement": "Uma editora mantém o catálogo e a região atendida e oferece entregas semanais em vez de quinzenais para estimular pedidos mais frequentes dos clientes atuais. Se a alteração é apenas logística e a oferta editorial permanece a mesma, a iniciativa se enquadra em penetração de mercado.",
       "correctAnswer": "C",
       "explanation": "A ação procura ampliar o uso da oferta existente pelo mercado atual. Alterar a operação de entrega, nas condições descritas, não introduz um novo produto editorial.",
-      "reviewEvidence": "Cotejo editorial com Matriz de Ansoff: produto e mercado, existentes e novos do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
+      "reviewEvidence": "Cotejo editorial com Matriz de Ansoff: produto e mercado, existentes e novos do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-bcg-comparacao-lider",
@@ -7656,7 +7656,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1c9e5b7a32d0648f#BCG: participação relativa e crescimento"
       ],
@@ -7667,7 +7667,7 @@
       "statement": "Em mercado de alto crescimento, uma unidade com participação de 15% diante de uma líder com 45% tem alta participação relativa por alcançar mais de um décimo das vendas totais.",
       "correctAnswer": "E",
       "explanation": "A participação relativa é 15/45, ou um terço da líder. A porcentagem do mercado total não substitui a comparação com a concorrente.",
-      "reviewEvidence": "Cotejo editorial com BCG: participação relativa e crescimento do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
+      "reviewEvidence": "Cotejo editorial com BCG: participação relativa e crescimento do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-efeito-imediato-e-reputacao",
@@ -7684,7 +7684,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-83c4a6e90b127f5d#Identidade, imagem, reputação e legitimidade"
       ],
@@ -7695,7 +7695,7 @@
       "statement": "Uma pesquisa realizada logo após um evento e voltada à percepção dos visitantes naquele dia basta para medir a reputação acumulada da instituição ao longo dos anos.",
       "correctAnswer": "E",
       "explanation": "A medida pontual descreve a imagem entre os entrevistados naquele momento. Avaliar reputação acumulada exige evidência sobre percepções formadas ao longo do tempo.",
-      "reviewEvidence": "Cotejo editorial com Identidade, imagem, reputação e legitimidade do artigo 97, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Identidade, imagem, reputação e legitimidade do artigo 97, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-uso-e-valor-publico",
@@ -7712,7 +7712,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-83c4a6e90b127f5d#Direito à informação, transparência e valor público"
       ],
@@ -7723,7 +7723,7 @@
       "statement": "Se dois canais publicam os mesmos relatórios e o segundo oferece busca que ajuda os cidadãos a localizar informações relevantes, o segundo pode gerar valor público adicional mesmo sem aumentar o número de relatórios publicados.",
       "correctAnswer": "C",
       "explanation": "A disponibilidade documental permanece igual, mas a redução do esforço para localizar e utilizar a informação pode melhorar o acesso efetivo.",
-      "reviewEvidence": "Cotejo editorial com Direito à informação, transparência e valor público do artigo 97, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Direito à informação, transparência e valor público do artigo 97, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-comunicado-interno-isolado",
@@ -7740,7 +7740,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Fronteiras entre conceitos"
       ],
@@ -7751,7 +7751,7 @@
       "statement": "O envio isolado de um aviso interno sobre manutenção predial demonstra, por si, a existência de um programa de endomarketing.",
       "correctAnswer": "E",
       "explanation": "O aviso cumpre uma função informativa. A existência de programa exigiria evidência de ações articuladas com objetivos voltados ao público interno.",
-      "reviewEvidence": "Cotejo editorial com Fronteiras entre conceitos do artigo 98, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Fronteiras entre conceitos do artigo 98, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-coerencia-entre-incentivos-e-mensagem",
@@ -7768,7 +7768,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Comunicação e cultura"
       ],
@@ -7779,7 +7779,7 @@
       "statement": "Uma campanha interna que incentiva a cooperação entre áreas pode perder credibilidade se a avaliação dos empregados premiar apenas resultados individuais obtidos em competição com colegas.",
       "correctAnswer": "C",
       "explanation": "Mensagens e incentivos passam sinais divergentes sobre a conduta esperada. A adesão depende também de práticas de gestão percebidas pelos empregados.",
-      "reviewEvidence": "Cotejo editorial com Comunicação e cultura do artigo 98, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Comunicação e cultura do artigo 98, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-influencia-sem-autoridade-de-compra",
@@ -7796,7 +7796,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b7e30f4c9a261d85#Centro de compras e papéis decisórios"
       ],
@@ -7807,7 +7807,7 @@
       "statement": "Quem define os requisitos técnicos de um equipamento pode atuar como influenciador da compra organizacional mesmo sem autoridade para aprovar a aquisição.",
       "correctAnswer": "C",
       "explanation": "Definir requisitos afeta as alternativas consideradas. A aprovação pode permanecer com outro integrante do centro de compras.",
-      "reviewEvidence": "Cotejo editorial com Centro de compras e papéis decisórios do artigo 99, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Centro de compras e papéis decisórios do artigo 99, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-demanda-e-capacidade-de-atendimento",
@@ -7824,7 +7824,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b7e30f4c9a261d85#Segmentação do serviço versus segmentação da publicidade"
       ],
@@ -7835,7 +7835,7 @@
       "statement": "Uma equipe prepara orientações diferentes para organizações pequenas e grandes sobre o mesmo serviço. A adequação das mensagens não altera, por si, as condições de elegibilidade do serviço.",
       "correctAnswer": "C",
       "explanation": "A segmentação de comunicação adapta a mensagem às necessidades de cada grupo. A elegibilidade depende das condições do serviço, que podem ser comuns a todos.",
-      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e comentário com a seção Segmentação do serviço versus segmentação da publicidade e substituição de mecanismo próximo a exercício do artigo."
+      "reviewEvidence": "Cotejo editorial do enunciado, gabarito e comentário com a seção Segmentação do serviço versus segmentação da publicidade e substituição de mecanismo próximo a exercício do artigo. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-pagamento-e-controle-editorial",
@@ -7852,7 +7852,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2d947e6a15083bf#Canais e meios: categorias que se cruzam"
       ],
@@ -7862,7 +7862,8 @@
       },
       "statement": "Uma campanha pode divulgar a mesma mensagem por anúncio comprado em uma rede social e por publicação no portal institucional, combinando mídia paga e própria.",
       "correctAnswer": "C",
-      "explanation": "O anúncio usa distribuição comprada. O portal é um canal sob controle editorial institucional. O conteúdo pode ser igual em ambas as modalidades."
+      "explanation": "O anúncio usa distribuição comprada. O portal é um canal sob controle editorial institucional. O conteúdo pode ser igual em ambas as modalidades.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Canais e meios: categorias que se cruzam em 3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-percurso-com-retorno",
@@ -7879,7 +7880,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "compreensão",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2d947e6a15083bf#Jornada: necessidade, tarefa e experiência"
       ],
@@ -7889,7 +7890,8 @@
       },
       "statement": "Se um usuário retorna à página de orientações para conferir um documento antes de enviar o formulário, o percurso deve ser excluído da análise de jornada por deixar de seguir a ordem idealizada.",
       "correctAnswer": "E",
-      "explanation": "Retornos revelam necessidades e atritos reais. A jornada observada pode incluir revisitas, interrupções e mudanças de canal."
+      "explanation": "Retornos revelam necessidades e atritos reais. A jornada observada pode incluir revisitas, interrupções e mudanças de canal.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Jornada: necessidade, tarefa e experiência em 3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-coerencia-da-fonte-de-servico",
@@ -7906,7 +7908,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2d947e6a15083bf#Planejamento e governança da integração"
       ],
@@ -7916,7 +7918,8 @@
       },
       "statement": "Se redes sociais e portal anunciam prazos divergentes, alinhar as equipes a uma fonte oficial comum pode corrigir um problema de integração ainda que cada canal mantenha seu próprio formato.",
       "correctAnswer": "C",
-      "explanation": "A divergência é informacional. Uma fonte comum favorece a consistência do prazo sem exigir que os canais usem peças idênticas."
+      "explanation": "A divergência é informacional. Uma fonte comum favorece a consistência do prazo sem exigir que os canais usem peças idênticas.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Planejamento e governança da integração em 3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-continuidade-com-tarefa-reiniciada",
@@ -7928,22 +7931,23 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing digital",
       "articleId": "art-c2d947e6a15083bf",
-      "conceptId": "continuidade-com-tarefa-reiniciada",
-      "mechanism": "continuidade-com-tarefa-reiniciada",
+      "conceptId": "diagnostico-de-bastidor-da-jornada",
+      "mechanism": "escolher-mapa-para-localizar-falha-interna",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
-        "article:art-c2d947e6a15083bf#Integração multicanal, cross-channel e omnichannel"
+        "article:art-c2d947e6a15083bf#Jornada: necessidade, tarefa e experiência"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md",
-        "section": "Integração multicanal, cross-channel e omnichannel"
+        "section": "Jornada: necessidade, tarefa e experiência"
       },
-      "statement": "Um formulário permite ao cidadão iniciar o preenchimento no portal. O telefone recebe dúvidas sobre o mesmo serviço, mas nenhum canal recupera o preenchimento iniciado no outro. A mera disponibilidade das duas vias demonstra continuidade da tarefa entre canais.",
-      "correctAnswer": "E",
-      "explanation": "Os canais oferecem pontos de contato sobre o mesmo serviço. Continuidade da tarefa exigiria preservar informações ou o estado do percurso ao mudar de via."
+      "statement": "O usuário recebe confirmação de que enviou um pedido, mas a área responsável não recebe o registro. Um mapa que relacione a etapa visível ao usuário às filas e aos sistemas internos é adequado para investigar essa falha.",
+      "correctAnswer": "C",
+      "explanation": "O mapa de serviços liga a experiência visível às atividades e aos sistemas de bastidor. Ele permite localizar a transferência interna que falhou após o envio.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Jornada: necessidade, tarefa e experiência em 3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-avaliacao-por-criterios",
@@ -7960,7 +7964,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e51bc97a40d268f3#Processo de decisão de compra: cinco etapas clássicas"
       ],
@@ -7970,7 +7974,8 @@
       },
       "statement": "Uma pessoa que já reuniu informações sobre três assinaturas e agora as ordena pelo custo e pela flexibilidade de cancelamento está avaliando alternativas.",
       "correctAnswer": "C",
-      "explanation": "A coleta formou o conjunto de opções. A ordenação aplica critérios a esse conjunto antes da escolha."
+      "explanation": "A coleta formou o conjunto de opções. A ordenação aplica critérios a esse conjunto antes da escolha.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Processo de decisão de compra: cinco etapas clássicas em 3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-variedade-e-insatisfacao",
@@ -7987,7 +7992,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e51bc97a40d268f3#Quatro tipos de comportamento de compra: duas dimensões"
       ],
@@ -7997,7 +8002,8 @@
       },
       "statement": "Um comprador de baixo envolvimento percebe diferenças entre sabores e alterna marcas mesmo satisfeito com a anterior. Essa conduta é incompatível com a busca de variedade, que pressupõe insatisfação.",
       "correctAnswer": "E",
-      "explanation": "O modelo admite troca motivada pelo desejo de variar quando há diferenças percebidas e baixo envolvimento. A troca não implica avaliação negativa da marca anterior."
+      "explanation": "O modelo admite troca motivada pelo desejo de variar quando há diferenças percebidas e baixo envolvimento. A troca não implica avaliação negativa da marca anterior.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Quatro tipos de comportamento de compra: duas dimensões em 3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-duvida-apos-escolha",
@@ -8014,7 +8020,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e51bc97a40d268f3#Pós-compra: satisfação, lealdade e dissonância"
       ],
@@ -8024,7 +8030,8 @@
       },
       "statement": "Após escolher um serviço entre alternativas atraentes, uma pessoa que continua preocupada com as vantagens da opção rejeitada pode estar experimentando dissonância pós-compra, mesmo sem constatar defeito no serviço escolhido.",
       "correctAnswer": "C",
-      "explanation": "O desconforto decorre da tensão entre a escolha realizada e as vantagens percebidas da opção rejeitada. Ele pode aparecer antes de qualquer falha observada."
+      "explanation": "O desconforto decorre da tensão entre a escolha realizada e as vantagens percebidas da opção rejeitada. Ele pode aparecer antes de qualquer falha observada.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Pós-compra: satisfação, lealdade e dissonância em 3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-nao-uso-e-preferencia",
@@ -8041,7 +8048,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e51bc97a40d268f3#Da compra ao acesso a serviços públicos: analogia com limites"
       ],
@@ -8051,7 +8058,8 @@
       },
       "statement": "Uma pessoa que inicia o pedido de um serviço público, mas abandona ao descobrir que não preenche um requisito de acesso, demonstrou preferência por um serviço concorrente.",
       "correctAnswer": "E",
-      "explanation": "O abandono tem uma barreira de elegibilidade identificada. Para inferir preferência por alternativa concorrente seria necessário observar a existência da alternativa e evidência da escolha."
+      "explanation": "O abandono tem uma barreira de elegibilidade identificada. Para inferir preferência por alternativa concorrente seria necessário observar a existência da alternativa e evidência da escolha.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Da compra ao acesso a serviços públicos: analogia com limites em 3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-troca-de-beneficio-e-custo",
@@ -8068,7 +8076,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-45d8f190ac2e673b#Valor percebido: benefício, custo e utilidade"
       ],
@@ -8079,7 +8087,7 @@
       "statement": "Dois formatos têm o mesmo preço e exigem o mesmo tempo do visitante. Uma versão com explicações em linguagem familiar ao público pode elevar o valor percebido mesmo se os organizadores tiverem gastado menos para produzi-la.",
       "correctAnswer": "C",
       "explanation": "O valor percebido depende da utilidade para o público em relação aos seus custos. O custo de produção da organização não mede diretamente o benefício recebido.",
-      "reviewEvidence": "Cotejo editorial com Valor percebido: benefício, custo e utilidade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
+      "reviewEvidence": "Cotejo editorial com Valor percebido: benefício, custo e utilidade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-promessa-e-experiencia",
@@ -8096,7 +8104,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-45d8f190ac2e673b#Satisfação, expectativa, qualidade e lealdade"
       ],
@@ -8107,7 +8115,7 @@
       "statement": "Uma pessoa satisfeita com uma exposição anual muda de cidade e deixa de visitá-la. A interrupção das visitas comprova insatisfação com a última experiência.",
       "correctAnswer": "E",
       "explanation": "A recompra ou revisita depende de oportunidade e de outros custos. O deslocamento pode explicar a interrupção mesmo com satisfação anterior.",
-      "reviewEvidence": "Cotejo editorial com Satisfação, expectativa, qualidade e lealdade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
+      "reviewEvidence": "Cotejo editorial com Satisfação, expectativa, qualidade e lealdade do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-ansoff-dois-movimentos",
@@ -8124,7 +8132,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1c9e5b7a32d0648f#Matriz de Ansoff: produto e mercado, existentes e novos"
       ],
@@ -8135,7 +8143,7 @@
       "statement": "Uma editora leva seu catálogo impresso atual a uma nova região e oferece um curso inédito apenas aos compradores da região de origem. Como o plano contém um produto novo e um mercado novo, ambas as ações são diversificação na matriz de Ansoff.",
       "correctAnswer": "E",
       "explanation": "A matriz classifica cada combinação. O catálogo existente na nova região é desenvolvimento de mercado. O curso novo no mercado atual é desenvolvimento de produto.",
-      "reviewEvidence": "Cotejo editorial com Matriz de Ansoff: produto e mercado, existentes e novos do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
+      "reviewEvidence": "Cotejo editorial com Matriz de Ansoff: produto e mercado, existentes e novos do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-bcg-comparacao-de-portfolios",
@@ -8152,7 +8160,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1c9e5b7a32d0648f#BCG: participação relativa e crescimento"
       ],
@@ -8163,7 +8171,7 @@
       "statement": "Uma unidade opera em mercado de alto crescimento e tem participação relativa de 0,4. Seu reposicionamento exigiria um investimento superior ao orçamento aprovado. A classificação na matriz BCG pode justificar estudar a oportunidade, mas é insuficiente para autorizar o investimento nas condições descritas.",
       "correctAnswer": "C",
       "explanation": "O crescimento alto e a participação relativa baixa indicam uma posição que pede análise. A decisão também precisa respeitar o orçamento e examinar a viabilidade de ganhar participação.",
-      "reviewEvidence": "Cotejo editorial com BCG: participação relativa e crescimento do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
+      "reviewEvidence": "Cotejo editorial com BCG: participação relativa e crescimento do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-percepcao-entre-publicos",
@@ -8180,7 +8188,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-83c4a6e90b127f5d#Identidade, imagem, reputação e legitimidade"
       ],
@@ -8191,7 +8199,7 @@
       "statement": "Imagens diferentes de uma instituição podem coexistir entre pessoas que usam serviços distintos prestados por ela.",
       "correctAnswer": "C",
       "explanation": "Imagem descreve percepções de públicos. Experiências diferentes podem produzir avaliações distintas da mesma organização.",
-      "reviewEvidence": "Cotejo editorial com Identidade, imagem, reputação e legitimidade do artigo 97, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Identidade, imagem, reputação e legitimidade do artigo 97, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-valor-e-distribuicao",
@@ -8208,7 +8216,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-83c4a6e90b127f5d#Direito à informação, transparência e valor público"
       ],
@@ -8219,7 +8227,7 @@
       "statement": "Uma reformulação do portal aumenta o número total de consultas, mas impede um grupo de localizar informações de que precisa. O crescimento agregado basta para concluir que o valor público do serviço aumentou para todos.",
       "correctAnswer": "E",
       "explanation": "O indicador agregado esconde a distribuição dos benefícios. A barreira identificada contradiz uma conclusão de melhora universal.",
-      "reviewEvidence": "Cotejo editorial com Direito à informação, transparência e valor público do artigo 97, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Direito à informação, transparência e valor público do artigo 97, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-objetivo-de-publico-interno",
@@ -8236,7 +8244,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Fronteiras entre conceitos"
       ],
@@ -8247,7 +8255,7 @@
       "statement": "Um programa de endomarketing tem o público interno como destinatário direto de suas ações.",
       "correctAnswer": "C",
       "explanation": "O programa organiza ações para quem atua na instituição e pode contribuir indiretamente para a experiência externa.",
-      "reviewEvidence": "Cotejo editorial com Fronteiras entre conceitos do artigo 98, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Fronteiras entre conceitos do artigo 98, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-avaliacao-de-intervencao-interna",
@@ -8264,7 +8272,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5a7d1ec093b42f68#Comunicação e cultura"
       ],
@@ -8275,7 +8283,7 @@
       "statement": "Uma ação interna pretende reduzir retrabalho entre setores. A taxa de abertura do boletim comprova que o retrabalho caiu, desde que a mensagem tenha sido distribuída a todos os setores.",
       "correctAnswer": "E",
       "explanation": "A abertura informa exposição ao boletim. O resultado pretendido exige comparar ocorrências de retrabalho sob critérios consistentes.",
-      "reviewEvidence": "Cotejo editorial com Comunicação e cultura do artigo 98, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Comunicação e cultura do artigo 98, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-papeis-acumulados",
@@ -8292,7 +8300,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b7e30f4c9a261d85#Centro de compras e papéis decisórios"
       ],
@@ -8303,7 +8311,7 @@
       "statement": "Uma pessoa que usa um software e recomenda critérios para sua substituição pode acumular papéis de usuária e influenciadora na mesma compra organizacional.",
       "correctAnswer": "C",
       "explanation": "Os papéis descrevem funções desempenhadas. Uma pessoa pode atuar em mais de uma função.",
-      "reviewEvidence": "Cotejo editorial com Centro de compras e papéis decisórios do artigo 99, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Centro de compras e papéis decisórios do artigo 99, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-atratividade-e-restricao-operacional",
@@ -8320,7 +8328,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b7e30f4c9a261d85#Atratividade versus capacidade de atender"
       ],
@@ -8331,7 +8339,7 @@
       "statement": "Um segmento tem 900 pedidos previstos, dos quais 200 cabem no prazo com a capacidade atual. Outro tem 500 pedidos, dos quais 450 cabem no mesmo prazo. Se a meta imediata é maximizar pedidos atendidos no prazo e só é possível escolher um segmento, a segunda opção atende melhor à meta.",
       "correctAnswer": "C",
       "explanation": "O objetivo usa atendimento realizável no prazo. A segunda opção entrega 450, contra 200 da primeira, mesmo com demanda bruta menor.",
-      "reviewEvidence": "Cotejo editorial com Atratividade versus capacidade de atender do artigo 99, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Atratividade versus capacidade de atender do artigo 99, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-alcance-espontaneo-de-terceiros",
@@ -8348,7 +8356,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2d947e6a15083bf#Canais e meios: categorias que se cruzam"
       ],
@@ -8358,7 +8366,8 @@
       },
       "statement": "A reportagem que um veículo publica por iniciativa própria sobre um evento institucional é mídia paga porque a instituição arcou com a produção do evento.",
       "correctAnswer": "E",
-      "explanation": "Mídia paga exige compra da distribuição. O custo do evento não é pagamento pela cobertura editorial."
+      "explanation": "Mídia paga exige compra da distribuição. O custo do evento não é pagamento pela cobertura editorial.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Canais e meios: categorias que se cruzam em 3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-etapa-e-dispositivo",
@@ -8375,7 +8384,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2d947e6a15083bf#Jornada: necessidade, tarefa e experiência"
       ],
@@ -8385,7 +8394,8 @@
       },
       "statement": "Se o mesmo público consulta instruções no celular e envia formulários no computador, avaliar cada dispositivo como uma jornada completa pode subestimar a conclusão de tarefas iniciadas no celular.",
       "correctAnswer": "C",
-      "explanation": "A mudança de dispositivo pode dividir uma única jornada entre registros. Conclusões por dispositivo exigem considerar essa limitação."
+      "explanation": "A mudança de dispositivo pode dividir uma única jornada entre registros. Conclusões por dispositivo exigem considerar essa limitação.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Jornada: necessidade, tarefa e experiência em 3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-indisponibilidade-e-canal-alternativo",
@@ -8402,7 +8412,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2d947e6a15083bf#Planejamento e governança da integração"
       ],
@@ -8412,7 +8422,8 @@
       },
       "statement": "Se o portal falha temporariamente, orientar o cidadão para um telefone que só presta informações preserva o acesso à orientação, mas não substitui um formulário exigido para enviar o pedido.",
       "correctAnswer": "C",
-      "explanation": "A equivalência depende da tarefa. O telefone atende a orientação, enquanto o envio exige um canal que aceite o pedido."
+      "explanation": "A equivalência depende da tarefa. O telefone atende a orientação, enquanto o envio exige um canal que aceite o pedido.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Planejamento e governança da integração em 3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-passagem-de-canal-com-contexto",
@@ -8429,7 +8440,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2d947e6a15083bf#Planejamento e governança da integração"
       ],
@@ -8439,7 +8450,8 @@
       },
       "statement": "Em um atendimento integrado, o portal registra a abertura de um protocolo e o telefone registra a conclusão desse mesmo caso. Para medir quantos casos foram atendidos, somar os dois registros sem conciliação produz uma contagem de casos únicos.",
       "correctAnswer": "E",
-      "explanation": "Abertura e conclusão são eventos do mesmo caso. A contagem de casos únicos precisa conciliar os registros pelo protocolo e definir se conta casos abertos ou concluídos."
+      "explanation": "Abertura e conclusão são eventos do mesmo caso. A contagem de casos únicos precisa conciliar os registros pelo protocolo e definir se conta casos abertos ou concluídos.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Planejamento e governança da integração em 3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-situacao-problema-inicial",
@@ -8456,7 +8468,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e51bc97a40d268f3#Processo de decisão de compra: cinco etapas clássicas"
       ],
@@ -8466,7 +8478,8 @@
       },
       "statement": "Perceber que o equipamento atual deixou de atender às necessidades de trabalho pode iniciar um processo de decisão de compra.",
       "correctAnswer": "C",
-      "explanation": "A percepção da diferença entre a situação atual e a desejada corresponde ao reconhecimento da necessidade."
+      "explanation": "A percepção da diferença entre a situação atual e a desejada corresponde ao reconhecimento da necessidade.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Processo de decisão de compra: cinco etapas clássicas em 3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-envolvimento-depende-da-situacao",
@@ -8483,7 +8496,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e51bc97a40d268f3#Quatro tipos de comportamento de compra: duas dimensões"
       ],
@@ -8493,7 +8506,8 @@
       },
       "statement": "Uma compra de baixo valor pode envolver análise detalhada se o produto for destinado a uma pessoa com restrições alimentares severas.",
       "correctAnswer": "C",
-      "explanation": "O envolvimento também depende do risco percebido e da relevância da decisão. Preço baixo não determina baixo envolvimento."
+      "explanation": "O envolvimento também depende do risco percebido e da relevância da decisão. Preço baixo não determina baixo envolvimento.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Quatro tipos de comportamento de compra: duas dimensões em 3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-suporte-e-friccao-pos-compra",
@@ -8510,7 +8524,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e51bc97a40d268f3#Pós-compra: satisfação, lealdade e dissonância"
       ],
@@ -8520,7 +8534,8 @@
       },
       "statement": "Problemas de instalação relatados após uma compra pertencem à etapa de busca inicial porque a pessoa ainda precisa de informações.",
       "correctAnswer": "E",
-      "explanation": "A busca ocorre no uso do produto adquirido. A posição no processo depende da finalidade da busca e de sua relação com a compra já realizada."
+      "explanation": "A busca ocorre no uso do produto adquirido. A posição no processo depende da finalidade da busca e de sua relação com a compra já realizada.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Pós-compra: satisfação, lealdade e dissonância em 3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-demanda-latente-e-dados",
@@ -8537,7 +8552,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e51bc97a40d268f3#Da compra ao acesso a serviços públicos: analogia com limites"
       ],
@@ -8547,7 +8562,8 @@
       },
       "statement": "Dois grupos enviam o mesmo número de solicitações. Um deles enfrenta uma taxa de falhas maior antes do envio. A igualdade nos registros finais demonstra que os dois grupos tiveram a mesma demanda inicial.",
       "correctAnswer": "E",
-      "explanation": "As contagens finais combinam demanda inicial e perdas ao longo da jornada. Taxas de falha diferentes impedem inferir demanda igual apenas pelo número de envios."
+      "explanation": "As contagens finais combinam demanda inicial e perdas ao longo da jornada. Taxas de falha diferentes impedem inferir demanda igual apenas pelo número de envios.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Da compra ao acesso a serviços públicos: analogia com limites em 3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-demanda-com-restricao-de-compra",
@@ -8564,7 +8580,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-45d8f190ac2e673b#Necessidade, desejo e demanda: três níveis diferentes"
       ],
@@ -8575,7 +8591,7 @@
       "statement": "Em marketing, todo desejo manifestado por um produto já constitui demanda, mesmo quando falta capacidade de compra.",
       "correctAnswer": "E",
       "explanation": "A demanda pressupõe desejo acompanhado de capacidade de compra. O desejo pode existir sem se converter em demanda.",
-      "reviewEvidence": "Cotejo editorial com Necessidade, desejo e demanda: três níveis diferentes do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
+      "reviewEvidence": "Cotejo editorial com Necessidade, desejo e demanda: três níveis diferentes do artigo 95 e verificação do mecanismo frente aos exercícios publicados na mesma nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-controle-com-meta-intermediaria",
@@ -8592,7 +8608,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-1c9e5b7a32d0648f#Implementação, orçamento e controle"
       ],
@@ -8603,7 +8619,7 @@
       "statement": "Se o plano prevê lançar o catálogo em agosto e alcançar 200 pedidos válidos até outubro, cumprir a data de lançamento e terminar outubro com 140 pedidos representa cumprimento do marco de implementação e descumprimento da meta de resultado.",
       "correctAnswer": "C",
       "explanation": "A primeira medida controla uma entrega do plano. A segunda mede o resultado definido, que ficou 60 pedidos abaixo da meta.",
-      "reviewEvidence": "Cotejo editorial com Implementação, orçamento e controle do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota."
+      "reviewEvidence": "Cotejo editorial com Implementação, orçamento e controle do artigo 96 e verificação do mecanismo frente aos exercícios publicados na mesma nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-situacao-de-recompra-modificada",
@@ -8620,7 +8636,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b7e30f4c9a261d85#Três situações de compra organizacional"
       ],
@@ -8631,7 +8647,7 @@
       "statement": "Uma organização compra licenças de software de um fornecedor habitual. Ao contratar pela primeira vez um serviço de tradução, ela pode classificar a aquisição como nova tarefa de compra mesmo que escolha o mesmo fornecedor.",
       "correctAnswer": "C",
       "explanation": "O histórico relevante é o da solução adquirida. A experiência com o fornecedor em outra categoria não torna a tradução uma recompra.",
-      "reviewEvidence": "Cotejo editorial com Três situações de compra organizacional do artigo 99, considerando as distinções conceituais e os exercícios da nota."
+      "reviewEvidence": "Cotejo editorial com Três situações de compra organizacional do artigo 99, considerando as distinções conceituais e os exercícios da nota. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     },
     {
       "id": "cam-di-custo-de-busca-e-criterio-eliminatorio",
@@ -8648,7 +8664,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e51bc97a40d268f3#Processo de decisão de compra: cinco etapas clássicas"
       ],
@@ -8656,9 +8672,10 @@
         "path": "3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md",
         "section": "Processo de decisão de compra: cinco etapas clássicas"
       },
-      "statement": "Uma equipe considera indispensável que a entrega ocorra em até cinco dias. A oferta A custa R$ 50 e chega em quatro dias. A oferta B custa R$ 40 e chega em seis dias. A oferta C custa R$ 30 e não informa o prazo, mas é possível verificá-lo sem custo. Escolher B imediatamente minimiza o preço entre as ofertas que satisfazem o requisito.",
+      "statement": "Uma equipe considera indispensável que a entrega ocorra em até cinco dias. A oferta A custa R$ 50 e chega em quatro dias. A oferta B custa R$ 40 e chega em seis dias. A oferta C custa R$ 30 e não informa o prazo, mas é possível verificá-lo sem custo. Escolher A imediatamente garante o menor preço entre todas as ofertas capazes de satisfazer o requisito.",
       "correctAnswer": "E",
-      "explanation": "B viola a condição eliminatória. A é viável, mas verificar o prazo de C ainda pode revelar uma opção viável mais barata. A análise exige separar restrição, objetivo de preço e informação faltante."
+      "explanation": "B viola a condição eliminatória. A é viável, mas verificar o prazo de C ainda pode revelar uma opção viável mais barata. A análise exige separar restrição, objetivo de preço e informação faltante.",
+      "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Processo de decisão de compra: cinco etapas clássicas em 3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
     }
   ]
 }

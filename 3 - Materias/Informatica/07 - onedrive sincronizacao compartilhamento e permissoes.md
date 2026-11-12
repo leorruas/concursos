@@ -49,7 +49,7 @@ flowchart TD
     Share --> Permissao{"Nível de Permissão Concedido"}
     Permissao --> P1["Pode Editar (Can Edit): Alterar texto, apagar conteúdo, renomear"]
     Permissao --> P2["Pode Exibir (Can View): Apenas leitura, sem permissão de alteração"]
-    Permissao --> P3["Bloquear Download (Block Download): Leitura em tela sem cópia offline"]
+    Permissao --> P3["Bloquear Download: restrição de download quando disponível; não impede captura da tela"]
 ```
 
 ### Configurações de segurança avançadas nos links (dependem da política, tipo de link, arquivo ou pasta e licença):
@@ -97,20 +97,20 @@ flowchart TD
     L1 -->|Permanece até 93 dias no total| L1_Op{"Ação"}
     L1_Op -->|Restaurar| Arq
     L1_Op -->|Esvaziar lixeira pelo usuário| L2["Lixeira de 2º Estágio (Administrador do Site)"]
-    L2 -->|Restaurar pelo Administrador de TI| Arq
-    L2 -->|Expirado o prazo total de 93 dias| Fim["Exclusão Definitiva Irreversível"]
+    L2 -->|Restaurar por usuário com permissão adequada| Arq
+    L2 -->|Prazo expirado ou exclusão permanente permitida| Fim["Item não disponível na lixeira"]
 ```
 
 > **Atenção — Regra dos 93 dias corporativos:**
-> No OneDrive for Business / SharePoint, o tempo total de retenção na lixeira antes da eliminação definitiva é de **93 dias**, somando o tempo em que o item ficou no primeiro estágio com o tempo no segundo estágio. O usuário comum só tem acesso à lixeira de primeiro estágio; a lixeira de segundo estágio é gerenciada pelo administrador de TI.
+> No OneDrive for Business/SharePoint Online, a retenção nas lixeiras costuma chegar a **93 dias ao todo**, somando os dois estágios. A recuperação depende de o item ainda estar disponível e de permissões apropriadas; exclusões permanentes e outras políticas podem alterar o resultado. A lixeira de segundo estágio é acessada por administradores da coleção de sites e outros usuários com permissões compatíveis, não exclusivamente por um cargo denominado “Administrador de TI”.
 
 ---
 
 ## 6. Casos progressivos de aplicação
 
 ### Caso 1: Compartilhamento acidental com público externo
-Um servidor quer compartilhar uma minuta de portaria interna da Câmara com um colega de outro gabinete. Ele clica em Compartilhar e envia o link gerado com a opção padrão *"Qualquer pessoa com o link"*.
-*Análise:* Falha de governança. O link "Qualquer pessoa" gera uma URL pública anônima que não exige autenticação. Se esse link for repassado ou indexado, qualquer indivíduo na internet poderá ler ou editar o arquivo. Em órgãos públicos, a boa prática exige selecionar **"Pessoas em sua organização"** (que exige login `@camara.leg.br`) ou **"Pessoas específicas"**.
+**Cenário hipotético:** em uma organização que permite links do tipo *Qualquer pessoa com o link*, um servidor seleciona esse escopo para compartilhar uma minuta interna com colega de outro setor. **Não se afirma que essa seja a configuração padrão da Câmara dos Deputados**.
+*Análise:* Se a opção de link anônimo estiver habilitada, qualquer pessoa que possua a URL poderá acessar o conteúdo **nos limites das permissões do link**, sem autenticação corporativa. A escolha adequada depende de finalidade, sensibilidade do documento e política interna; opções mais restritas incluem pessoas da organização ou destinatários específicos. A URL não é necessariamente indexada por buscadores só por existir.
 
 ### Caso 2: Restauração de relatório corrompido
 Um analista abre uma planilha de controle no Excel 365 e descobre que um colega apagou acidentalmente várias fórmulas há dois dias. Desesperado, ele tenta dar `Ctrl + Z`, mas o arquivo já foi fechado e reaberto várias vezes.
@@ -122,7 +122,7 @@ Um usuário apagou uma pasta importante do seu OneDrive e, querendo "limpar tudo
 
 ### Caso 4: Envio de material para leitura externa sem cópia
 A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciados consultem um documento confidencial em primeira mão, mas deseja evitar que o arquivo seja baixado para os computadores pessoais dos repórteres antes do anúncio oficial.
-*Análise:* O assessor deve criar um link de compartilhamento com permissão de **Exibição** e ativar explicitamente a opção **"Bloquear Download"**. Com isso, os jornalistas conseguem ler o texto na tela pelo navegador, mas os botões de baixar, imprimir e copiar texto ficam desabilitados no aplicativo web.
+*Análise:* Quando o tipo de arquivo, a licença e a política do ambiente permitirem, o assessor **pode** configurar acesso de **Exibição** com restrição de download. Isso limita a obtenção de cópia pela interface, mas **não garante impedir fotografias, capturas ou transcrição** do conteúdo. Para material confidencial, também é necessário avaliar se a simples exibição externa é autorizada.
 
 ---
 
@@ -196,14 +196,16 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 
 ## 8. Tabela de síntese de permissões do OneDrive
 
-| Opção de Compartilhamento | Exige Login? | Finalidade Principal | Nível de Segurança |
-| :--- | :--- | :--- | :--- |
-| **Qualquer pessoa** (*Anyone*) | Não | Divulgação ampla e irrestrita | Baixo (risco de vazamento) |
-| **Pessoas em sua organização** | Sim (institucional) | Compartilhamento interno entre colegas | Médio-Alto |
-| **Pessoas com acesso existente** | Não cria novo acesso | Reenviar atalho para quem já é membro | Alto |
-| **Pessoas específicas** | Sim (e-mail indicado) | Acesso restrito a destinatários nomeados | Máximo |
-| **Bloquear Download** | Depende do escopo | Permite leitura em tela sem cópia offline | Proteção contra extração |
-| **Lixeira de 2º Estágio** | Apenas Administrador | Resgate de itens excluídos em até 93 dias | Governança corporativa |
+| Opção de compartilhamento | Identidade e acesso | Finalidade e limite |
+| :--- | :--- | :--- |
+| **Qualquer pessoa** (*Anyone*) | Em geral não exige conta institucional quando disponível | Link pode ser repassado; permissões e expiração ainda importam |
+| **Pessoas em sua organização** | Restringe a identidades da organização | Compartilhamento interno conforme política e permissões |
+| **Pessoas com acesso existente** | Não cria novas permissões | Reutiliza acesso previamente concedido |
+| **Pessoas específicas** | Acesso associado aos destinatários designados | Requer confirmação adequada de identidade segundo o serviço |
+| **Bloquear download** | Controle dependente de arquivo, política e licença | Dificulta download pela interface; não impede toda reprodução visual |
+| **Lixeira de segundo estágio** | Acesso por usuário com permissão apropriada | Recuperação possível dentro da retenção, não garantida em toda exclusão |
+
+**Comparação de segurança:** não existe escala universal “Baixo / Alto / Máximo” entre esses links. A proteção real depende de **quem pode acessar**, **que operação pode fazer**, **por quanto tempo**, **qual conteúdo** e **quais controles institucionais** se aplicam.
 
 > **Nota de revisão (11/11/2026):** as opções de compartilhamento e retenção dependem do ambiente Microsoft 365. O item 5 sobre link de **pasta** permanece sob reserva e não deve ser memorizado como regra universal até validação do escopo. Fontes: [lixeira do OneDrive](https://support.microsoft.com/pt-br/onedrive/restore-deleted-files-or-folders-in-onedrive), [lixeira de segundo estágio do SharePoint](https://support.microsoft.com/pt-br/sharepoint/admin/restore-deleted-items-from-the-site-collection-recycle-bin). Achado TI-037.
 
@@ -224,3 +226,6 @@ A assessoria de imprensa da Câmara precisa permitir que jornalistas credenciado
 **Fontes primárias:** [Microsoft: compartilhamento no OneDrive](https://support.microsoft.com/pt-br/onedrive/share-files-and-folders-in-microsoft-onedrive) e [Microsoft Learn: política de bloqueio de download](https://learn.microsoft.com/pt-br/sharepoint/block-download-from-sites). **Relação:** [[3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles|Confidencialidade e controles de segurança]].
 
 **Rastreabilidade:** Item 5 antigo, relativo a **pasta**, permanece **NÃO HOMOLOGADO**. Não transferir automaticamente os recursos de arquivos para pastas.
+
+
+> **Implementação TI-103 (11/11/2026):** retiradas classificações absolutas de segurança de links e presunção de configurações internas da Câmara, e condicionadas lixeira e bloqueio de download. Fontes: [Microsoft, segundo estágio da lixeira](https://support.microsoft.com/pt-br/sharepoint/admin/restore-deleted-items-from-the-site-collection-recycle-bin), [Microsoft, proteção de downloads](https://learn.microsoft.com/pt-br/sharepoint/block-download-from-sites).

@@ -93,3 +93,7 @@ Quarenta itens cotejados com os artigos 02 e 71 sobre classificação, escuta ci
 Quarenta itens sobre Política e Manual de Comunicação, vinculados aos artigos 72 e 73. A triagem a 0,22 apontou um caso sobre atribuição e verificação de informação, substituído por comunicação interna como objetivo da política. O item sobre referência externa foi substituído por voz institucional e pluralidade enquanto a conferência direta do inciso VIII do art. 24 do Ato nº 80/2019 segue pendente. Os demais itens de remissão cobrem os incisos I e VI. Após as substituições, a triagem não sinalizou pares envolvendo o lote. O seletor recuperou os 40 itens pelo item 8.
 
 Total validado: 640/2.000. Próximo lote: aplicações e ética de IA na comunicação, item 9.
+
+## Lote 017 em elaboração
+
+Oito casos de IA na comunicação, vinculados ao artigo 74, sobre transcrição, resumo, recuperação documental, classificação de comentários, supervisão humana, viés e conteúdo sintético.

@@ -24552,6 +24552,222 @@
       "correctAnswer": "C",
       "explanation": "O art. 3º remete às penalidades previstas nesses instrumentos.",
       "reviewEvidence": "Lote 016. Cotejo editorial com Ato da Mesa nº 218/2025, na seção indicada. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-ia-diarizacao-sem-identificacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "diarizacao-sem-identificacao",
+      "mechanism": "diarizacao-sem-identificacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Operações de comunicação que podem empregar IA"
+      },
+      "statement": "Ao separar três vozes distintas numa audiência, um sistema de transcrição confirma automaticamente o nome de cada participante, mesmo sem dados que relacionem vozes e pessoas.",
+      "correctAnswer": "E",
+      "explanation": "A diarização separa intervenções por voz. Atribuir nomes requer evidência adicional, como conferir o vídeo ou a identificação na sessão."
+    },
+    {
+      "id": "cam-cs-ia-resumo-ressalva-omitida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "resumo-ressalva-omitida",
+      "mechanism": "resumo-ressalva-omitida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Operações de comunicação que podem empregar IA"
+      },
+      "statement": "Um resumo automatizado pode induzir o leitor a erro ao omitir uma ressalva que limita a conclusão de um parecer, mesmo que as frases que manteve sejam literalmente verdadeiras.",
+      "correctAnswer": "C",
+      "explanation": "A seleção dos trechos altera o alcance percebido da conclusão. A revisão precisa comparar o sentido do resumo com o parecer completo."
+    },
+    {
+      "id": "cam-cs-ia-comentarios-repetidos-e-inferencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "comentarios-repetidos-e-inferencia",
+      "mechanism": "comentarios-repetidos-e-inferencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Operações de comunicação que podem empregar IA"
+      },
+      "statement": "Um classificador identifica o mesmo tema em milhares de comentários, muitos deles repetidos por poucos perfis. A frequência basta para estimar a proporção da população que tem essa preocupação.",
+      "correctAnswer": "E",
+      "explanation": "A contagem descreve o material coletado. Repetição, seleção dos participantes e ausência de desenho amostral impedem essa inferência."
+    },
+    {
+      "id": "cam-cs-ia-recuperacao-documental-e-interpretacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "recuperacao-documental-e-interpretacao",
+      "mechanism": "recuperacao-documental-e-interpretacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Operações de comunicação que podem empregar IA"
+      },
+      "statement": "Uma ferramenta pode localizar o dispositivo relevante de um regimento e ainda produzir uma explicação incompatível com ele. A revisão deve comparar a conclusão com o dispositivo efetivamente recuperado.",
+      "correctAnswer": "C",
+      "explanation": "A localização da fonte facilita a conferência. A interpretação continua sendo uma etapa que exige verificação."
+    },
+    {
+      "id": "cam-cs-ia-divulgacao-e-explicacao-da-revisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "divulgacao-e-explicacao-da-revisao",
+      "mechanism": "divulgacao-e-explicacao-da-revisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Diferenças que produzem distratores"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Diferenças que produzem distratores"
+      },
+      "statement": "A indicação de que uma síntese foi criada com IA permite, por si, saber quais trechos foram revisados por pessoas e quais fontes serviram para a conferência.",
+      "correctAnswer": "E",
+      "explanation": "O aviso informa o uso de IA. O que foi revisado e quais evidências sustentaram a revisão exigem informação adicional."
+    },
+    {
+      "id": "cam-cs-ia-erro-concentrado-em-subgrupos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "erro-concentrado-em-subgrupos",
+      "mechanism": "erro-concentrado-em-subgrupos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Riscos éticos e controle proporcional"
+      },
+      "statement": "Um classificador pode ter bom desempenho médio e ainda deixar de identificar sistematicamente demandas expressas em determinadas variedades linguísticas. Testar separadamente esses grupos ajuda a detectar o problema.",
+      "correctAnswer": "C",
+      "explanation": "A média pode ocultar diferenças de erro. A análise por grupo evidencia se a ferramenta funciona de modo desigual."
+    },
+    {
+      "id": "cam-cs-ia-revisor-sem-acesso-ao-registro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "revisor-sem-acesso-ao-registro",
+      "mechanism": "revisor-sem-acesso-ao-registro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Diferenças que produzem distratores"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Diferenças que produzem distratores"
+      },
+      "statement": "Designar um editor para aprovar a transcrição basta para garantir revisão efetiva, ainda que o editor não tenha acesso à gravação nem possa suspender a publicação.",
+      "correctAnswer": "E",
+      "explanation": "A revisão efetiva requer acesso a evidências e capacidade de intervir. A designação nominal não assegura essas condições."
+    },
+    {
+      "id": "cam-cs-ia-imagem-sintetica-e-valor-documental",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "imagem-sintetica-e-valor-documental",
+      "mechanism": "imagem-sintetica-e-valor-documental",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Riscos éticos e controle proporcional"
+      },
+      "statement": "Uma ilustração gerada para mostrar como funciona uma audiência pode ter finalidade explicativa, desde que sua apresentação preserve a distinção entre ilustração e registro do evento.",
+      "correctAnswer": "C",
+      "explanation": "A finalidade explicativa é compatível com uma ilustração identificável como tal. O problema surge quando ela é apresentada como evidência documental de um evento real."
     }
   ]
 }

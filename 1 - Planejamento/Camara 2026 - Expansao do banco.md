@@ -97,3 +97,5 @@ Total validado: 640/2.000. Próximo lote: aplicações e ética de IA na comunic
 ## Lote 017 em elaboração
 
 Oito casos de IA na comunicação, vinculados ao artigo 74, sobre transcrição, resumo, recuperação documental, classificação de comentários, supervisão humana, viés e conteúdo sintético.
+
+O lote soma 16 itens redigidos. Os oito novos tratam de minimização, reidentificação, testes de atualização, pilotos, contratos, monitoramento, dependência operacional e qualidade da entrada. As diretrizes foram conferidas na seção de IA do Manual.

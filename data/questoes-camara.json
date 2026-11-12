@@ -24768,6 +24768,222 @@
       "statement": "Uma ilustração gerada para mostrar como funciona uma audiência pode ter finalidade explicativa, desde que sua apresentação preserve a distinção entre ilustração e registro do evento.",
       "correctAnswer": "C",
       "explanation": "A finalidade explicativa é compatível com uma ilustração identificável como tal. O problema surge quando ela é apresentada como evidência documental de um evento real."
+    },
+    {
+      "id": "cam-cs-ia-minimizacao-em-audio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "minimizacao-em-audio",
+      "mechanism": "minimizacao-em-audio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Seis diretrizes do Manual de Comunicação da Câmara"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Seis diretrizes do Manual de Comunicação da Câmara"
+      },
+      "statement": "Para testar a qualidade de uma transcrição, a equipe pode recortar os trechos necessários e avaliar a ferramenta com esses trechos, reduzindo o volume de dados enviados ao fornecedor.",
+      "correctAnswer": "C",
+      "explanation": "O controle começa na entrada. Limitar o arquivo à parte necessária reduz a exposição dos dados que a avaliação dispensa."
+    },
+    {
+      "id": "cam-cs-ia-pseudonimo-e-chaves-indiretas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "pseudonimo-e-chaves-indiretas",
+      "mechanism": "pseudonimo-e-chaves-indiretas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Riscos éticos e controle proporcional"
+      },
+      "statement": "Apagar nomes dos relatos torna o conjunto anônimo mesmo quando cargo, data e unidade permitem identificar seus autores por cruzamento com uma agenda pública.",
+      "correctAnswer": "E",
+      "explanation": "O risco de identificação depende também dos atributos indiretos. Retirar nomes é insuficiente quando os campos restantes permitem o cruzamento."
+    },
+    {
+      "id": "cam-cs-ia-comparacao-apos-atualizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "comparacao-apos-atualizacao",
+      "mechanism": "comparacao-apos-atualizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Seis diretrizes do Manual de Comunicação da Câmara"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Seis diretrizes do Manual de Comunicação da Câmara"
+      },
+      "statement": "Após uma atualização do transcritor, comparar seu desempenho com o da versão anterior em gravações representativas é compatível com a diretriz de atualização contínua.",
+      "correctAnswer": "C",
+      "explanation": "A atualização busca melhorias. O teste permite descobrir regressões antes de ampliar o uso da nova versão."
+    },
+    {
+      "id": "cam-cs-ia-piloto-sem-criterio-de-beneficio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "piloto-sem-criterio-de-beneficio",
+      "mechanism": "piloto-sem-criterio-de-beneficio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Seis diretrizes do Manual de Comunicação da Câmara"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Seis diretrizes do Manual de Comunicação da Câmara"
+      },
+      "statement": "Iniciar o uso de IA com poucos usuários satisfaz, por si, a diretriz de controle de riscos, mesmo que não exista objetivo para avaliar os resultados nem regras de uso.",
+      "correctAnswer": "E",
+      "explanation": "O escopo pequeno limita a exposição. A diretriz também prevê benefício claro, condições de uso e avaliação de riscos e resultados."
+    },
+    {
+      "id": "cam-cs-ia-clausulas-contrato-com-tratamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "clausulas-contrato-com-tratamento",
+      "mechanism": "clausulas-contrato-com-tratamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Seis diretrizes do Manual de Comunicação da Câmara"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Seis diretrizes do Manual de Comunicação da Câmara"
+      },
+      "statement": "Ao contratar ferramenta de análise de mensagens, estabelecer condições para o tratamento e a guarda de dados é uma medida de controle de riscos prevista na orientação do Manual.",
+      "correctAnswer": "C",
+      "explanation": "O controle inclui prever proteção de dados e responsabilidades nas contratações."
+    },
+    {
+      "id": "cam-cs-ia-aprovacao-sem-monitoramento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "aprovacao-sem-monitoramento",
+      "mechanism": "aprovacao-sem-monitoramento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      },
+      "statement": "Uma vez que o editor tenha conferido cada saída de um piloto, a equipe pode dispensar o acompanhamento após o início da operação, pois a validação inicial demonstra estabilidade futura.",
+      "correctAnswer": "E",
+      "explanation": "Validação e monitoramento tratam de momentos distintos. Mudanças nas entradas e na ferramenta podem introduzir falhas durante a operação."
+    },
+    {
+      "id": "cam-cs-ia-controle-dependencia-operacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "controle-dependencia-operacional",
+      "mechanism": "controle-dependencia-operacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Riscos éticos e controle proporcional"
+      },
+      "statement": "Manter um fluxo manual testado para publicar legendas quando o fornecedor de IA interrompe o serviço reduz a dependência operacional.",
+      "correctAnswer": "C",
+      "explanation": "A alternativa permite preservar a publicação em caso de indisponibilidade. Ela atua sobre continuidade do serviço, mesmo sem alterar a qualidade das saídas da ferramenta."
+    },
+    {
+      "id": "cam-cs-ia-qualidade-da-entrada-com-documento-incompleto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "qualidade-da-entrada-com-documento-incompleto",
+      "mechanism": "qualidade-da-entrada-com-documento-incompleto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      },
+      "statement": "Se uma versão incompleta de uma ata é a única entrada de um sistema de resumo, um texto fluente produzido a partir dela comprova que as deliberações ausentes foram recuperadas corretamente.",
+      "correctAnswer": "E",
+      "explanation": "A fluência descreve a forma do texto. A recuperação de fatos ausentes exige evidência adicional, como a ata integral ou o registro da reunião."
     }
   ]
 }

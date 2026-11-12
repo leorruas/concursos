@@ -60,11 +60,15 @@ A requisição não é um poder genérico de qualquer repartição; depende de *
 4. **Poder Judiciário e Ministério Público da União:**
    - Previsões estritas nas respectivas leis orgânicas e regimentais para atendimento de situações específicas e temporárias de assessoria técnica.
 
-### 1.3. Ônus da remuneração e direitos funcionais
-- **Regra geral do ônus:** na requisição legal típica (como a da Justiça Eleitoral), o ônus da remuneração do cargo efetivo permanece **a cargo do órgão de origem (órgão cedente)**.
-- **Preservação de direitos:** o período de requisição é considerado de **efetivo exercício** para todos os efeitos legais (art. 102 da Lei nº 8.112/1990), incluindo aposentadoria, contagem de tempo de serviço, progressão funcional e licença-prêmio/capacitação.
+### 1.3. Remuneração e direitos durante a requisição
 
----
+A requisição válida preserva o vínculo funcional de origem. **Quem mantém o pagamento em folha, quem suporta economicamente as parcelas e quem precisa reembolsar são perguntas distintas.** A resposta depende da lei requisitória, do destino e das regras de ressarcimento.
+
+No âmbito do Decreto nº 10.835/2021, o art. 9º, § 4º, protege remuneração ou salário permanente e parcelas nele especificadas; seu § 5º assegura promoção, progressão funcional e participação em concurso de remoção segundo os critérios aplicáveis como se permanecesse na origem. O art. 10 condiciona requisições **que impliquem reembolso** à disponibilidade orçamentária e financeira. Para a requisição pela Justiça Eleitoral, aplicar a legislação especial e verificar as condições próprias.
+
+**Contraexemplo:** presumir que toda requisição obrigatoriamente transfere o pagamento em folha para o órgão requisitante ou que jamais haverá reembolso.
+
+Fonte: [Decreto nº 10.835/2021, arts. 9º, 10 e 17 a 26](https://www2.camara.leg.br/legin/fed/decret/2021/decreto-10835-14-outubro-2021-791864-normaatualizada-pe.html).
 
 ## 2. Cessão de Agentes Públicos (Art. 93 da Lei nº 8.112/1990)
 
@@ -84,15 +88,27 @@ O servidor público federal regido pela Lei nº 8.112/1990 somente pode ser cedi
 > [!IMPORTANT]
 > **Vício de desvio na cessão:** É ilegal e nula a cessão de servidor público federal para outro Poder ou ente federativo quando destinada ao desempenho de atribuições técnicas ordinárias sem vinculação a cargo em comissão ou função de confiança (salvo lei autorizativa expressa).
 
-### 2.3. O regime financeiro do reembolso salarial (Quem paga a conta?)
-O regime financeiro da cessão de servidores federais foi detalhado pelo art. 93 da Lei nº 8.112/1990 e regulamentado pelo **Decreto nº 10.835/2021**:
-- **Cessão no âmbito dos Poderes da União (mesmo ente político):**
-  - O ônus da remuneração permanece a cargo do **órgão cedente (órgão de origem)**, salvo estipulação diversa em norma infralegal.
-- **Cessão para Estados, Distrito Federal, Municípios ou para o Poder Executivo/Legislativo/Judiciário de outro ente:**
-  - O ônus da remuneração cabe ao **órgão cessionário (órgão que recebe o servidor)** mediante **reembolso mensal integral** dos vencimentos e encargos sociais ao órgão de origem.
-- **Opção remuneratória:** o servidor cedido para ocupar cargo em comissão pode optar pela remuneração do cargo efetivo acrescida do percentual legal do cargo comissionado ou pela retribuição integral do cargo em comissão.
+### 2.3. Ônus econômico, pagamento em folha e reembolso
 
----
+A **Lei nº 8.112/1990, art. 93, § 1º**, disciplina a cessão para cargo em comissão ou função de confiança: na movimentação para órgãos ou entidades de **Estados, Distrito Federal e Municípios**, o **ônus da remuneração cabe ao cessionário**. Nos demais casos da hipótese, a regra do parágrafo mantém o ônus do cedente, **ressalvadas as previsões legais e regulamentares especiais**. Pelo § 2º, quando o servidor cedido a **empresa pública ou sociedade de economia mista** opta pela remuneração prevista no dispositivo, a entidade cessionária deve reembolsar as despesas feitas pela origem. A cessão depende também das regras de formalização do art. 93, § 3º.
+
+O **Decreto nº 10.835/2021, arts. 17 a 26**, disciplina a **restituição das parcelas efetivamente despendidas** com agentes movimentados em seu âmbito. Ele distingue quando existe obrigação de reembolso, quando não haverá reembolso pela administração pública federal e quais parcelas podem ser incluídas. A expressão “destino suporta o ônus” (art. 21) **não autoriza deduzir que todo movimento exige depósito mensal à origem**, pois a ocorrência de reembolso depende das hipóteses dos arts. 18 a 20.
+
+| Situação de referência | Ônus ou regra de reembolso | Fundamento |
+| --- | --- | --- |
+| Cessão federal para cargo em comissão em Estado, DF ou Município | Ônus do órgão ou entidade cessionária | Lei 8.112, art. 93, § 1º |
+| Cessão federal para cargo em comissão em outros casos da regra geral | Ônus do cedente, observadas normas especiais | Lei 8.112, art. 93, § 1º |
+| Cessão de servidor a empresa pública ou sociedade de economia mista, com opção remuneratória do § 2º | Reembolso pela entidade cessionária | Lei 8.112, art. 93, § 2º |
+| Movimentação de agente federal para órgão ou entidade de outro ente federativo | Reembolso obrigatório na hipótese prevista | Decreto 10.835, art. 18, I |
+| Movimentação de ou para estatal **não dependente** | Reembolso obrigatório no recorte do decreto | Decreto 10.835, art. 18, II |
+| Movimentação no âmbito dos Poderes da União e entidades abrangidas pelo art. 19 | **Sem reembolso pela administração pública federal**, nas condições legais | Decreto 10.835, art. 19 |
+| Entrada no Executivo federal de agente de outro ente, Poder ou órgão autônomo | Reembolso segue a regra da origem, com limites do decreto | Decreto 10.835, art. 20 |
+
+**Como se operacionaliza quando há reembolso:** o órgão de origem pode continuar pagando em folha e apresentar os valores comprovados ao destino; o art. 24 disciplina pedidos e prazos de ressarcimento. O art. 25 identifica parcelas reembolsáveis e o art. 26 exclui parcelas específicas. Por isso, **“reembolso integral de todos os valores sem exceção”** é uma formulação juridicamente inadequada.
+
+**Caso progressivo:** (1) servidor federal cedido para secretaria municipal em cargo comissionado: o art. 93, § 1º, aponta o cessionário como responsável pelo ônus; (2) servidor federal cedido no âmbito da União: examinar a regra de ônus do art. 93 e a hipótese de ausência de reembolso do decreto, sem tratar conceitos como sinônimos; (3) movimentação para estatal não dependente: verificar obrigação de reembolso e parcelas excluídas. **Contraexemplo:** afirmar que, porque a origem paga a folha, ela necessariamente suporta o ônus final.
+
+Fontes: [Lei nº 8.112/1990 atualizada, art. 93](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html); [Decreto nº 10.835/2021 atualizado, arts. 17 a 26](https://www2.camara.leg.br/legin/fed/decret/2021/decreto-10835-14-outubro-2021-791864-normaatualizada-pe.html).
 
 ## 3. Alteração de exercício para composição da força de trabalho
 
@@ -103,7 +119,7 @@ Na regulamentação operacional do MGI, são relevantes **duas modalidades**:
 - **Indicação consensual:** exige entendimento entre órgãos e anuências anteriores ao ato, conforme regras da modalidade. A inexistência de anuência pode impedir sua formação, mas isso não transforma todas as alterações de exercício em cessão.
 - **Realocação de pessoal:** depende do procedimento seletivo e dos critérios próprios; **dispensa a anuência do órgão de origem**, conforme orientação oficial.
 
-A **irrecusabilidade do art. 13** deve ser lida em conjunto com a modalidade efetivamente adotada e o estágio do procedimento. Também é necessário distinguir **ônus remuneratório**, **pagamento em folha** e **reembolso**. O MGI informa que nem toda alteração de exercício requer reembolso, mas há regra específica quando o agente vem de estatal não dependente.
+A **irrecusabilidade do art. 13** deve ser lida em conjunto com a modalidade efetivamente adotada e o estágio do procedimento. Também é necessário distinguir **ônus remuneratório**, **pagamento em folha** e **reembolso**. O reembolso na composição de força de trabalho exige distinguir o destino, a natureza de eventual estatal e as condições dos **arts. 18 a 20**. A ausência de reembolso em determinadas movimentações internas à União (art. 19) não equivale a inexistência de remuneração nem dispensa de registro orçamentário.
 
 **Caso progressivo:** (1) dois órgãos do Executivo ajustam indicação consensual antes da portaria: anuências são parte do procedimento; (2) em realocação regular, o órgão de origem não possui veto discricionário geral; (3) se o destino pretendido é a Câmara, esse instrumento do decreto não se aplica. **Contraexemplo:** afirmar que o art. 13 autoriza sempre a Câmara dos Deputados a receber servidores de ministérios por composição de força de trabalho.
 
@@ -117,7 +133,7 @@ Fontes: [Decreto 10.835/2021, arts. 2º, 12 e 13](https://www2.camara.leg.br/leg
 | Anuência | Em regra, irrecusável se legalmente válida | Pedido do destino, concordância do cedente e do agente | Indicação consensual exige anuências; realocação as dispensa segundo MGI |
 | Destino | Conforme a lei de requisição | Conforme lei e regime do vínculo | **Somente Executivo federal** |
 | Finalidade | Necessidade prevista em lei requisitória | Regra de comissão/confiança ou lei específica | Adequação da distribuição da força de trabalho |
-| Ônus/reembolso | Variável segundo lei de regência | Varia segundo cedente, cessionário e regime financeiro | Regra própria; reembolso em hipóteses específicas, como estatal não dependente |
+| Ônus/reembolso | Lei requisitória e, se cabível, decreto | Art. 93 da Lei 8.112 e arts. 17–26 do decreto: distinguir ônus, folha e restituição | Na composição interna ao Executivo, analisar arts. 18–21; estatal não dependente pode exigir reembolso |
 | Apuração disciplinar | Considerar local do fato, vínculo e competência de julgamento | Instauração/instrução pode ocorrer no destino; julgamento/sanção sobre cargo efetivo têm competência própria | Examinar competência e vínculo funcional originário |
 
 ### Competência disciplinar no caso de servidor cedido
@@ -166,7 +182,7 @@ Julgue o item que se segue, relativo ao ônus remuneratório na cessão de servi
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** Consoante o disposto no art. 93, § 1º, da Lei nº 8.112/1990 e no Decreto nº 10.835/2021, na cessão de servidor federal para Estados, DF ou Municípios, o ônus da remuneração do cargo efetivo é do **órgão ou entidade cessionária**, o qual tem o dever legal de efetuar o **reembolso mensal integral** à União das parcelas remuneratórias e respectivos encargos sociais patronais.
+> **Comentário:** O item está **errado** porque o art. 93, § 1º, da Lei nº 8.112/1990 atribui ao cessionário o **ônus da remuneração** na cessão para cargo em comissão em Estado, DF ou Município; logo, a vedação absoluta de ressarcimento é falsa. Quando houver reembolso, a operacionalização e as parcelas seguem a disciplina aplicável, inclusive os arts. 17 a 26 do Decreto nº 10.835/2021; **nem toda parcela é automaticamente reembolsável**. Deve-se distinguir ônus econômico, pagamento em folha e restituição.
 
 ---
 

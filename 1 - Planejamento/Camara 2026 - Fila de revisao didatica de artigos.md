@@ -29,7 +29,7 @@ Selecionar por (1) termo técnico ou dispositivo citado sem tradução operacion
 
 | Alta | PL: `3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md` (art-6bc728a14d0e49f3) | Dois caminhos de delegação e duas decisões parlamentares condensados em tabela sem explicar o mecanismo; remissão com ícone e título incompleto | Revisado na branch `revisao/camara-lei-delegada-linguagem-simples-20261112`, PR a confirmar | Conferir checks, fontes, vínculos e integrar somente após CI verde |
 
-| Alta | DAD: `3 - Materias/Direito Administrativo/07 - improbidade administrativa.md` (`art-ea06e80ef83f4af7`) | Dolo, tipificação, erário e prescrição surgiam sem definição ou caso inicial; três tipos legais exigem critério de distinção e exemplo; primeira ocorrência de LIA/STF precisava expansão | Em revisão na branch `revisao/camara-improbidade-linguagem-simples-20261112`; PR e CI a confirmar | Verificar fonte oficial, auditoria de siglas e headings, CI e merge; conferir verbetes e flashcards sem duplicar |
+| Alta | DAD: `3 - Materias/Direito Administrativo/07 - improbidade administrativa.md` (`art-ea06e80ef83f4af7`) | Dolo, tipificação, erário e prescrição surgiam sem definição ou caso inicial; três tipos legais exigem critério de distinção e exemplo; primeira ocorrência de LIA/STF precisava expansão | Integrado na `main` pelo PR #58 (squash `b697bd1`); CI do head `3c93c8d` aprovado | Auditar verbetes e flashcards vinculados a dolo, tipificação e prescrição; revisar apenas lacunas comprovadas |
 
 ## Protocolo de atualização
 

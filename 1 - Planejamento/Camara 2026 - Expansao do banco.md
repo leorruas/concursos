@@ -43,4 +43,4 @@ Quarenta questões geradas sobre gestão de equipes publicitárias, item 7 do ed
 
 ## Lote 008 em elaboração
 
-Quatro questões geradas sobre a Lei nº 12.232/2010, com indicação dos dispositivos e dos artigos 123 e 124. Quatro questões adicionais cobrem o Código Brasileiro de Autorregulamentação Publicitária. Ampliar os dois recortes normativos e comparar os mecanismos com o acervo.
+Nove questões geradas sobre a Lei nº 12.232/2010, com indicação dos dispositivos e dos artigos 123 e 124. Quatro questões adicionais cobrem o Código Brasileiro de Autorregulamentação Publicitária. Ampliar os dois recortes normativos e comparar os mecanismos com o acervo.

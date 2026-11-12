@@ -14544,6 +14544,151 @@
       "statement": "Se o uso seguro de um equipamento depende de ventilação especial, omitir esse cuidado essencial em seu anúncio pode contrariar o Código do CONAR.",
       "correctAnswer": "C",
       "explanation": "O Código condena a omissão de cuidados especiais de prevenção quando são essenciais para o uso do produto."
+    },
+    {
+      "id": "cam-di-aprovar-peca-fora-do-objeto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "aprovar-peca-fora-do-objeto",
+      "mechanism": "aprovar-peca-fora-do-objeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 13: vinculação ao edital e ao contrato"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 13: vinculação ao edital e ao contrato",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 13"
+      },
+      "statement": "A aprovação editorial de uma peça pela área de comunicação basta para incluí-la na execução de um contrato de publicidade cujo objeto não a abrange.",
+      "correctAnswer": "E",
+      "explanation": "O aceite editorial não altera o objeto contratado. A execução deve observar o edital, o contrato e a legislação aplicável."
+    },
+    {
+      "id": "cam-di-cotacao-nao-substitui-cadastro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "cotacao-nao-substitui-cadastro",
+      "mechanism": "cotacao-nao-substitui-cadastro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 14: cadastro e três orçamentos de serviços especializados"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 14: cadastro e três orçamentos de serviços especializados",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 14, caput e § 1º"
+      },
+      "statement": "A agência recebeu três orçamentos para produção técnica. O menor é de fornecedor ainda não cadastrado pelo contratante. A existência das três propostas permite contratar esse fornecedor antes do cadastro.",
+      "correctAnswer": "E",
+      "explanation": "Cadastro prévio e apresentação de orçamentos são requisitos distintos. A obtenção das propostas não substitui o cadastro."
+    },
+    {
+      "id": "cam-di-incentivo-e-escolha-tecnica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "incentivo-e-escolha-tecnica",
+      "mechanism": "incentivo-e-escolha-tecnica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Arts. 18 e 19: plano de incentivo, desconto negociado e desconto-padrão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Arts. 18 e 19: plano de incentivo, desconto negociado e desconto-padrão",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 18, caput e § 2º"
+      },
+      "statement": "Uma agência pode aceitar um plano de incentivo de um veículo e recomendar outro veículo quando os dados técnicos mostram que este atende melhor aos interesses do contratante.",
+      "correctAnswer": "C",
+      "explanation": "Aceitar incentivo é facultativo. A escolha do veículo deve observar os interesses do contratante e apoiar-se em pesquisas e dados técnicos."
+    },
+    {
+      "id": "cam-di-execucao-sem-barreira-de-cadastro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "execucao-sem-barreira-de-cadastro",
+      "mechanism": "execucao-sem-barreira-de-cadastro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Arts. 16 e 17: transparência e guarda do acervo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Arts. 16 e 17: transparência e guarda do acervo",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 16, caput"
+      },
+      "statement": "Publicar os dados de execução em área que só fornecedores habilitados podem acessar satisfaz a exigência de livre acesso às informações do contrato.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo assegura acesso a quaisquer interessados. A restrição a fornecedores não atende a esse alcance."
+    },
+    {
+      "id": "cam-di-reaplicacao-negociada-em-midia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "reaplicacao-negociada-em-midia",
+      "mechanism": "reaplicacao-negociada-em-midia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 15: comprovação de mídia e vantagens que pertencem ao contratante"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 15: comprovação de mídia e vantagens que pertencem ao contratante",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 15, parágrafo único"
+      },
+      "statement": "Se um veículo oferece uma reaplicação como vantagem negociada na compra de mídia por intermédio de agência, essa vantagem pertence ao contratante.",
+      "correctAnswer": "C",
+      "explanation": "O parágrafo único inclui reaplicações entre as vantagens da compra de mídia destinadas ao contratante."
     }
   ]
 }

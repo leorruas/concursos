@@ -264,7 +264,7 @@ O artigo anterior delimita a pergunta. Este formula a resposta central.
 
 Depois de definir a tese, é preciso escolher como sustentá-la.
 
-### [[04 - construcao do paragrafo argumentativo|Construção do parágrafo argumentativo]]
+### Construção do parágrafo argumentativo (tema de aprofundamento ainda sem artigo canônico)
 
 A tese organiza o texto como um todo; cada parágrafo desenvolve uma parte da linha argumentativa.
 

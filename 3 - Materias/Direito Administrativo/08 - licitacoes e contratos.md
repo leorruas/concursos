@@ -151,6 +151,54 @@ Busca evitar concentração de funções suscetíveis a riscos em um mesmo agent
 
 Veda restrições injustificadas ao universo de potenciais licitantes. Exigências técnicas podem existir quando pertinentes e proporcionais ao objeto.
 
+## Planejamento, ETP e Termo de Referência: edital 10.4 a 10.7
+
+A **fase preparatória** traduz uma necessidade pública em critérios objetivos de contratação e controle. Pelo art. 18 da Lei nº 14.133/2021, a Administração identifica a demanda, avalia as alternativas, define o objeto, considera riscos, estima o custo e motiva as escolhas. A contratação direta também exige instrução e justificativas, nos termos do art. 72.
+
+O **Estudo Técnico Preliminar (ETP)** é a primeira etapa do planejamento e fundamenta a viabilidade técnica e econômica da solução (art. 6º, XX, e art. 18, §§ 1º e 2º). Pergunta principal: **qual problema deve ser resolvido e qual alternativa oferece melhor resposta?** O ETP não deve ser confundido com a escolha antecipada de fornecedor. Os elementos mínimos e as justificativas para omissões devem observar o art. 18, § 2º.
+
+O **Termo de Referência (TR)** descreve parâmetros para contratar bens e serviços (art. 6º, XXIII): objeto e quantidades, fundamentos, requisitos, modelo de execução, modelo de gestão, critérios de medição e pagamento, forma de seleção do fornecedor, estimativa do valor e adequação orçamentária. O TR concretiza as decisões do planejamento **quando aplicável**. Outras espécies de objeto podem demandar documentos próprios, como projetos. As regras de produção e dispensa documental precisam ser verificadas conforme o procedimento concreto.
+
+**Risco da contratação** é a possibilidade de evento que comprometa a seleção ou a execução; o art. 18, X, determina a análise de riscos. Identificar um risco deve orientar providências preventivas, atribuições e acompanhamento, não apenas uma lista de receios.
+
+| Passagem | Documento ou ato | Exemplo: serviço de acessibilidade digital |
+| --- | --- | --- |
+| Problema e opções | ETP, quando cabível | Comparar ajustes internos, ferramentas e serviços para tornar documentos acessíveis |
+| Desenho do objeto | TR, quando cabível | Definir entregáveis verificáveis, requisitos, prazos e critérios de aceite |
+| Seleção e formalização | Edital ou processo de contratação direta; instrumento contratual adequado | Registrar preço, obrigações, gestão, fiscalização e consequências do descumprimento |
+| Execução e fiscalização | Registros do fiscal designado | Documentar falhas e solicitar regularização nos limites das atribuições |
+| Recebimento | Verificação provisória e definitiva conforme art. 140 | Avaliar tecnicamente entregas e registrar o aceite devido |
+
+### Gestão, fiscalização e recebimento do objeto
+
+O **art. 117** exige acompanhamento da execução por um ou mais **fiscais especialmente designados**, ou substitutos. O fiscal registra ocorrências, determina a regularização das falhas dentro de suas competências e informa superiores quando a decisão extrapola sua atribuição. Terceiros contratados podem **assistir e subsidiar a fiscalização**, sem substituir a responsabilidade funcional do fiscal.
+
+**Gestão contratual** compreende acompanhamento de obrigações e decisões relativas à execução, observada a organização de competências do órgão; **fiscalização** examina a conformidade da prestação e registra fatos da execução. A distinção de papéis deve seguir a norma aplicável e a designação concreta, sem presumir que gestor e fiscal são sempre a mesma pessoa.
+
+O **art. 140** diferencia o recebimento **provisório** do **definitivo**. Em obras e serviços, a fase provisória é realizada pelo responsável pelo acompanhamento e fiscalização, mediante termo detalhado; a definitiva é atribuída a servidor ou comissão designados, com demonstração de cumprimento contratual. Em compras há regras próprias para o provisório sumário e o definitivo. O objeto pode ser rejeitado, total ou parcialmente, por desconformidade. O recebimento não afasta automaticamente as responsabilidades legais e contratuais.
+
+**Caso progressivo:** (1) a Administração constata que documentos públicos são inacessíveis: há uma necessidade, ainda sem solução definida; (2) compara alternativas no ETP; (3) descreve serviço e critérios de medição no TR; (4) o fiscal identifica falha e registra ocorrência; (5) o recebimento definitivo depende da conformidade. **Contraexemplo:** confundir o registro de reunião de fiscalização com o ETP, ou o recebimento provisório com aceite definitivo.
+
+**Notas complementares, com recorte específico:** [[3 - Materias/Contratacoes e Transferencias/09 - planejamento da contratacao e riscos|Planejamento e riscos da contratação]] e [[3 - Materias/Contratacoes e Transferencias/10 - fiscalizacao medicao e recebimento contratual|Fiscalização, medição e recebimento]]. O núcleo jurídico da matéria permanece neste artigo; essas notas permitem aprofundar sem duplicar conteúdos.
+
+### Questões inéditas comentadas: ETP, TR e fiscalização
+
+**1.** O ETP e o TR possuem a mesma função legal, de modo que a identificação inicial de uma necessidade administrativa já equivale à definição do objeto e dos critérios de recebimento da contratação.
+
+**Gabarito: ERRADO.** O ETP examina necessidade e viabilidade da solução; o TR detalha os parâmetros da contratação, quando cabível. Identificar a necessidade ainda não define critérios de execução ou aceite.
+
+**2.** A contratação de pessoa jurídica para subsidiar a fiscalização afasta a necessidade de designar fiscal do contrato e transfere integralmente ao contratado auxiliar a responsabilidade pela execução da atividade fiscalizatória.
+
+**Gabarito: ERRADO.** O art. 117 permite auxílio de terceiros, mas preserva a necessidade de fiscalização designada e as atribuições próprias do agente público.
+
+**3.** Em contratos de serviços sujeitos à Lei nº 14.133/2021, o recebimento provisório pelo responsável pela fiscalização não elimina, por si só, a etapa de recebimento definitivo nos termos do art. 140.
+
+**Gabarito: CERTO.** O art. 140 estabelece etapas e responsáveis distintos, sem equiparar verificação técnica provisória a aceitação definitiva.
+
+Estes três itens são **inéditos didáticos**, não questões oficiais da banca.
+
+**Fontes oficiais:** [Lei nº 14.133/2021 atualizada, arts. 6º, 18, 72, 92, 117 e 140](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm); [Portal de Compras, Manual de boas práticas em contratações públicas](https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-governanca-nas-contratacoes/manual-de-boas-praticas-em-contratacoes-publicas.pdf). As regras internas de gestão e fiscalização do Executivo federal devem ser distinguidas das normas aplicáveis à Câmara dos Deputados.
+
 ## Contratos administrativos
 
 O título da nota abrange também a etapa posterior à seleção do contratado. O contrato administrativo não é simples contrato privado com o Estado como signatário: a Lei nº 14.133/2021 confere à Administração prerrogativas específicas, respeitados os direitos do contratado.

@@ -12816,6 +12816,342 @@
       "statement": "Ocultar o rosto de uma pessoa ameaçada basta para cumprir o Código quando a reportagem divulga seu local de trabalho e permite identificá-la parcialmente.",
       "correctAnswer": "E",
       "explanation": "A proteção abrange a identificação parcial, inclusive pela indicação do local de trabalho. Ocultar o rosto elimina apenas um dos meios de identificação."
+    },
+    {
+      "id": "cam-di-correcao-de-escopo-em-grafico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "correcao-de-escopo-em-grafico",
+      "mechanism": "correcao-de-escopo-em-grafico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Jornalismo: critérios próprios que não se transferem mecanicamente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Jornalismo: critérios próprios que não se transferem mecanicamente"
+      },
+      "statement": "Uma matéria corrigiu o universo pesquisado de “todos os servidores” para “servidores de uma unidade”. É necessário verificar também se o gráfico e seu título ainda generalizam o resultado para toda a instituição.",
+      "correctAnswer": "C",
+      "explanation": "A correção altera o alcance da inferência. Elementos gráficos podem conservar o erro mesmo quando o corpo do texto foi corrigido."
+    },
+    {
+      "id": "cam-di-evidencia-primaria-em-citacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "evidencia-primaria-em-citacao",
+      "mechanism": "evidencia-primaria-em-citacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Jornalismo: critérios próprios que não se transferem mecanicamente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Jornalismo: critérios próprios que não se transferem mecanicamente"
+      },
+      "statement": "Se um release atribui uma afirmação a um relatório, citar o release comprova que a redação conferiu a afirmação no relatório.",
+      "correctAnswer": "E",
+      "explanation": "A citação identifica o documento consultado. Conferir a fonte primária exige examinar o relatório."
+    },
+    {
+      "id": "cam-di-criterio-para-selecao-de-posicoes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "criterio-para-selecao-de-posicoes",
+      "mechanism": "criterio-para-selecao-de-posicoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Comunicação pública da Câmara: finalidade, neutralidade institucional e pluralismo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Comunicação pública da Câmara: finalidade, neutralidade institucional e pluralismo"
+      },
+      "statement": "Uma nota curta sobre uma audiência precisa resumir posições divergentes. Agrupá-las pelo argumento central e informar os critérios de síntese pode preservar as diferenças sem reproduzir integralmente cada intervenção.",
+      "correctAnswer": "C",
+      "explanation": "Pluralismo pode ser compatível com síntese. O resumo deve preservar diferenças relevantes e permitir compreender como foram selecionadas."
+    },
+    {
+      "id": "cam-di-rotulo-separa-proposta-e-deliberacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "rotulo-separa-proposta-e-deliberacao",
+      "mechanism": "rotulo-separa-proposta-e-deliberacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Ética jornalística × ética da comunicação pública"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Ética jornalística × ética da comunicação pública"
+      },
+      "statement": "Uma nota institucional pode apresentar uma proposta individual como decisão do colegiado desde que identifique quem a apresentou.",
+      "correctAnswer": "E",
+      "explanation": "Identificar a autoria não corrige a atribuição errada da decisão. O texto precisa separar a apresentação da proposta de sua eventual deliberação."
+    },
+    {
+      "id": "cam-di-escolha-informada-em-dois-usos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "escolha-informada-em-dois-usos",
+      "mechanism": "escolha-informada-em-dois-usos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Dados pessoais, vulnerabilidade e decisões de design"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Dados pessoais, vulnerabilidade e decisões de design"
+      },
+      "statement": "Se um formulário usa o e-mail para enviar o comprovante solicitado e também propõe enviar campanhas futuras, distinguir essas duas finalidades ajuda o usuário a entender o que pode recusar sem perder o comprovante.",
+      "correctAnswer": "C",
+      "explanation": "A primeira finalidade integra a tarefa solicitada. A segunda é adicional. Separá-las reduz a confusão sobre o efeito de recusar mensagens futuras."
+    },
+    {
+      "id": "cam-di-agregacao-com-grupo-unitario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "agregacao-com-grupo-unitario",
+      "mechanism": "agregacao-com-grupo-unitario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Dados pessoais, vulnerabilidade e decisões de design"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Dados pessoais, vulnerabilidade e decisões de design"
+      },
+      "statement": "Um painel sem nomes indica que a única pessoa de um setor participou de uma oficina. A ausência do nome impede identificar quem participou.",
+      "correctAnswer": "E",
+      "explanation": "A informação agregada sobre um grupo de uma pessoa permite inferir sua identidade quando o vínculo com o setor é conhecido."
+    },
+    {
+      "id": "cam-di-prova-tecnica-nao-cobre-modelo-anunciado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "prova-tecnica-nao-cobre-modelo-anunciado",
+      "mechanism": "prova-tecnica-nao-cobre-modelo-anunciado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "CDC: identificação, enganosidade e abusividade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "locator": "art. 38"
+      },
+      "statement": "Se um patrocinador comprova a autonomia anunciada para o aparelho de uma geração anterior, essa prova demonstra automaticamente a mesma autonomia para o novo aparelho anunciado.",
+      "correctAnswer": "E",
+      "explanation": "A sustentação deve corresponder à alegação e ao produto divulgado. Um resultado obtido para outro modelo não comprova o desempenho do modelo atual."
+    },
+    {
+      "id": "cam-di-texto-verdadeiro-com-limite-essencial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "texto-verdadeiro-com-limite-essencial",
+      "mechanism": "texto-verdadeiro-com-limite-essencial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "CDC: identificação, enganosidade e abusividade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "locator": "art. 37, §§ 1º e 3º"
+      },
+      "statement": "Um anúncio oferece hospedagem por determinado valor, informa a diária corretamente e omite a obrigatoriedade de contratar três noites. A veracidade da diária não afasta a possibilidade de enganosidade pela omissão da condição de contratação.",
+      "correctAnswer": "C",
+      "explanation": "A condição altera o custo mínimo e a possibilidade de contratar uma única noite. Sua omissão pode induzir o consumidor em erro, mesmo com a diária correta."
+    },
+    {
+      "id": "cam-di-distincao-investigacao-e-condenacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "distincao-investigacao-e-condenacao",
+      "mechanism": "distincao-investigacao-e-condenacao",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Núcleo do Código de Ética dos Jornalistas",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 9º"
+      },
+      "statement": "A presunção de inocência integra os fundamentos da atividade jornalística segundo o Código de Ética dos Jornalistas Brasileiros.",
+      "correctAnswer": "C",
+      "explanation": "O art. 9º estabelece esse fundamento."
+    },
+    {
+      "id": "cam-di-vantagem-para-terceiro-e-ganho-proprio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "vantagem-para-terceiro-e-ganho-proprio",
+      "mechanism": "vantagem-para-terceiro-e-ganho-proprio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Condutas expressamente vedadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Condutas expressamente vedadas",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 7º, IX"
+      },
+      "statement": "Um jornalista pede uma vantagem para sua empresa particular invocando sua credencial profissional. A circunstância de a vantagem ser formalmente concedida à empresa não impede avaliar seu interesse pessoal na operação.",
+      "correctAnswer": "C",
+      "explanation": "O destinatário formal não elimina o benefício que pode alcançar o jornalista. A análise considera o uso da condição profissional e a finalidade do pedido."
+    },
+    {
+      "id": "cam-di-autor-da-alteracao-e-versao-original",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "autor-da-alteracao-e-versao-original",
+      "mechanism": "autor-da-alteracao-e-versao-original",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Núcleo do Código de Ética dos Jornalistas",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 8º"
+      },
+      "statement": "Um repórter divulga um texto com uma data correta e outra pessoa muda essa data ao republicá-lo. A distinção entre responsabilidade pela informação originalmente divulgada e pela alteração posterior exige identificar as duas versões e seus autores.",
+      "correctAnswer": "C",
+      "explanation": "A responsabilidade pela mudança é de quem a fez. A versão original permite verificar quais informações já estavam presentes antes da republicação."
+    },
+    {
+      "id": "cam-di-divulgacao-comercial-identificavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "divulgacao-comercial-identificavel",
+      "mechanism": "divulgacao-comercial-identificavel",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#CDC: identificação, enganosidade e abusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "CDC: identificação, enganosidade e abusividade",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "locator": "art. 36"
+      },
+      "statement": "Na publicidade submetida ao Código de Defesa do Consumidor, a identificação da natureza publicitária deve ser fácil e imediata para o consumidor.",
+      "correctAnswer": "C",
+      "explanation": "O art. 36 estabelece o critério de identificação da publicidade."
     }
   ]
 }

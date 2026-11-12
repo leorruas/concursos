@@ -83,9 +83,9 @@ $$\text{[Advérbio / Locução Negativa Anteposta]} + \text{[Auxiliar / Modal / 
   *Rarely **do members of parliament approve** sweeping constitutional reforms without extended committee hearings.*
 
 - **Ordem Direta:**  
-  *Public officials must **under no circumstances disclose** confidential whistleblower identities.*
+  *Public officials **must not disclose** confidential whistleblower identities under any circumstances.*
 - **Ordem Invertida Enfática:**  
-  *Under no circumstances **must public officials disclose** confidential whistleblower identities.*
+  *Under no circumstances **may public officials disclose** confidential whistleblower identities.*
 
 - **Ordem Direta:**  
   *The administration had **hardly initiated** the public consultation when legal challenges emerged.*

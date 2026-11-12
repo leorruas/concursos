@@ -134,8 +134,8 @@ $$\text{Preposição exigida pelo verbo/nome da 2ª oração} + \text{Pronome Re
 Nas **orações subordinadas substantivas objetivas indiretas** e **completivas nominais**, determinadas construções admitem **omissão da preposição antes de *que*** em uso e em descrições gramaticais. Isso **não vale automaticamente para todo regente** e precisa ser distinguido da regência de pronomes relativos. Sem edição/página e questão oficial identificada, não se deve atribuir uma regra irrestrita à Cebraspe:
 
 * **Antes da conjunção integrante *que*, pode ocorrer omissão da preposição em construções determinadas; a manutenção é a escolha mais segura quando a regência a exige:**
-  * *"A comissão tem certeza **de que** o projeto é constitucional"* $\equiv$ *"A comissão tem certeza **que** o projeto é constitucional"* (a segunda construção exige consulta à norma adotada; **não está aqui homologada como precedente da banca**).
-  * *"O relator insistiu **em que** a votação ocorresse hoje"* $\equiv$ *"O relator insistiu **que** a votação ocorresse hoje"*.
+  * *"A comissão tem certeza **de que** o projeto é constitucional"* é a construção explícita recomendável em redação formal. A variante *"tem certeza que"* aparece no uso, mas a supressão da preposição **não deve ser tratada como equivalência normativa automática** sem fixar a gramática de referência.
+  * *"O relator insistiu **em que** a votação ocorresse hoje"* preserva explicitamente a preposição selecionada por *insistir em*. A redação *"insistiu que"* pode ocorrer em outros usos; para questões de correção normativa, **não presumir equivalência irrestrita**.
 * **Contraste com pronomes relativos:** na redação formal, a preposição exigida pela regência interna da relativa deve normalmente anteceder o relativo: *"o projeto **em que** confio"*, *"a norma **a que** me refiro"*. Suprimir *em* ou *a* nesses dois exemplos prejudica a construção prescrita. **Omissão antes de conjunção integrante não é licença para omitir preposição diante de todo relativo.**
 
 ### 4.3. Proibição de complemento compartilhado por verbos de regências diferentes

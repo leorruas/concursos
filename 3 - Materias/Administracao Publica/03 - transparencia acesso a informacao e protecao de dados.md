@@ -216,6 +216,35 @@ No Poder Executivo federal, o **Decreto nº 7.724/2012** disciplina a sequência
 
 **Ausência de resposta** ao pedido segue procedimento específico de **reclamação** à autoridade de monitoramento, podendo chegar à CGU; não se confunde com recurso contra negativa. A CGU atua como instância recursal no **Poder Executivo federal**, e não sobre qualquer pedido de todos os Poderes e entes federados.
 
+## Recursos sobre acesso à informação na Câmara: Ato da Mesa nº 45/2012
+
+**Limite de competência:** a sequência recursal da **CGU/CMRI** descrita acima pertence ao **Poder Executivo federal**. Na **Câmara dos Deputados**, o **Ato da Mesa nº 45/2012, arts. 12 a 15**, disciplina caminho institucional próprio, distinguindo informação na esfera **administrativa** e na esfera **legislativa**. Isso afeta diretamente a preparação para Cargo 1.
+
+| Hipótese na Câmara | Via prevista no Ato da Mesa 45 | Prazo ou ressalva |
+| --- | --- | --- |
+| Indeferimento ou recusa de razões da negativa | Recurso pelo interessado | **10 dias** da ciência da decisão, art. 12, caput |
+| Informação na esfera **administrativa** | Autoridade hierarquicamente superior à que decidiu | Manifestação em **5 dias**, art. 12, § 1º |
+| Informação na esfera **legislativa** | Recurso ao Presidente da Câmara ou presidente do colegiado, encaminhado, respectivamente, à **Mesa** ou ao **Plenário do órgão colegiado** | Art. 12, § 2º; exame da Mesa limitado à conformidade da negativa com LAI e Ato, § 3º |
+| Novo recurso após indeferimento do recurso do art. 12, em matéria **administrativa** | **Diretor-Geral da Câmara**; se já se pronunciou, **Primeiro-Secretário** | Art. 13 |
+| Deliberação de CPI impeditiva de acesso | O ato expressamente estabelece **irrecorribilidade** | Art. 13, parágrafo único; não implica imunidade a controle judicial |
+| Pedido de **desclassificação** no SIC da Câmara | Aplicação do procedimento recursal do art. 12 | Art. 14 |
+
+O **art. 15** prevê aplicação subsidiária, no que couber, da Lei nº 9.784/1999 aos procedimentos dos arts. 7º a 14. **Contraexemplo:** um cidadão tem pedido de acesso legislativo negado pela Câmara e o estudo manda recorrer à CGU como se esta fosse a terceira instância universal de todas as Casas Legislativas. O procedimento deve ser aferido pelo Ato da Mesa, e não importado da hierarquia do Executivo. **Outro limite:** irrecorribilidade administrativa expressa de decisão de CPI não afasta, por si, possibilidade de controle jurisdicional, conforme as condições legais.
+
+**Caso progressivo:** (1) pedido de relatório de despesa administrativa é indeferido: recurso em 10 dias à autoridade superior, com prazo de 5 dias para manifestação; (2) mantida a negativa, examina-se o recurso ao Diretor-Geral ou Primeiro-Secretário, conforme pronunciamento anterior; (3) mudando o objeto para informação legislativa de comissão, o destino muda para a presidência do órgão e deliberação do colegiado; (4) se o pedido trata de desclassificação, o art. 14 encaminha ao mesmo regime recursal do art. 12.
+
+**Questões inéditas C/E:**
+
+**1.** O Ato da Mesa nº 45/2012 prevê prazo de dez dias, da ciência da negativa de acesso à informação, para interposição de recurso na Câmara dos Deputados. **Gabarito: Certo.** Art. 12, caput.
+
+**2.** Para negativas na esfera legislativa, o Ato da Mesa nº 45/2012 sempre remete a decisão recursal à Controladoria-Geral da União. **Gabarito: Errado.** Art. 12, § 2º; a via institucional depende do órgão e da natureza da informação.
+
+**3.** No âmbito administrativo da Câmara, o primeiro recurso de acesso é dirigido à autoridade hierarquicamente superior, que deve se manifestar no prazo de cinco dias. **Gabarito: Certo.** Art. 12, § 1º.
+
+**4.** O Ato da Mesa nº 45/2012 prevê, nas condições nele fixadas, recurso ao Diretor-Geral da Câmara após indeferimento de recurso administrativo, com alternativa ao Primeiro-Secretário quando o Diretor-Geral já tiver decidido. **Gabarito: Certo.** Art. 13.
+
+Enunciados autorais, sem atribuição a questão real Cebraspe. **Fonte primária:** [Ato da Mesa nº 45/2012, arts. 12 a 15, versão atualizada](https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html). Relações: [[3 - Materias/Administracao Publica/02 - governanca publica|Governança pública]] e [[3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor|Relações institucionais]].
+
 ## LGPD: categorias fundamentais
 
 ### Dado pessoal

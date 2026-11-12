@@ -66,13 +66,13 @@ flowchart LR
 
     G1["1. VERBOS DE MUDANÇA DE ESTADO<br>• Deixar de, parar de, passar a, começar a, tornar-se"]:::gatilho
     G2["2. ADVÉRBIOS E MARCADORES TEMPORAIS<br>• Já, ainda, não mais, novamente, até"]:::gatilho
-    G3["3. ORAÇÕES ADJETIVAS EXPLICATIVAS<br>• Entre vírgulas: pressupõe totalidade da classe"]:::gatilho
+    G3["3. ORAÇÕES ADJETIVAS EXPLICATIVAS<br>• Entre vírgulas: atribui propriedade ao referente contextual"]:::gatilho
     G4["4. VERBOS FACTIVOS<br>• Saber, lamentar, esquecer, perceber"]:::gatilho
     G5["5. EXPRESSÕES ITERATIVAS<br>• Reeleger, reabrir, reconstruir, de novo"]:::gatilho
 
     G1 --- T1["Pressupõe estado anterior diferente do atual"]
     G2 --- T2["Pressupõe continuidade ou antecipação temporal"]
-    G3 --- T3["Pressupõe atributo universal para todos os elementos"]
+    G3 --- T3["Caracteriza o conjunto contextual referido"]
     G4 --- T4["Pressupõe a veracidade factual do complemento"]
     G5 --- T5["Pressupõe ocorrência prévia do mesmo fato"]
 ```
@@ -93,9 +93,9 @@ flowchart LR
 
 3. **Orações Adjetivas: Explicativa versus Restritiva**:
    - Exemplo Explicativo (entre vírgulas): *"Os deputados federais**, que são representantes eleitos do povo,** votaram a matéria orçamentária"*.
-     - *Pressuposto*: **Todos** os deputados federais são representantes eleitos do povo (generalização atributiva inerente à totalidade).
+     - *Leitura*: a explicativa apresenta a propriedade como informação adicional **sobre os deputados identificados no contexto**. Ela não permite deduzir, apenas pelas vírgulas, uma afirmação acerca de todos os integrantes da classe em qualquer contexto.
    - Exemplo Restritivo (sem vírgulas): *"Os deputados federais **que compareceram à sessão noturna** votaram a matéria orçamentária"*.
-     - *Pressuposto*: Apenas **uma parte** dos deputados compareceu à sessão noturna; houve deputados que não compareceram.
+     - *Leitura*: a restritiva delimita o grupo de deputados a que se atribui a votação. **Não prova que outros deputados deixaram de comparecer**: todos poderiam ter comparecido. A existência de um grupo complementar depende de informação adicional.
 
 4. **Verbos Factivos (epistêmicos ou de atitude psicológica)**:
    - Exemplo: *"O Diretor-Geral **lamentou que** o prazo de implantação do sistema tenha sido prorrogado"*.
@@ -234,7 +234,7 @@ flowchart TD
 > Na oração "Os consultores legislativos, que detêm conhecimento jurídico especializado, redigiram a minuta do substitutivo", o segmento entre vírgulas estabelece uma restrição que pressupõe a existência de consultores legislativos desprovidos de conhecimento especializado na instituição.
 
 * **Gabarito**: **ERRADO**.
-* **Comentário**: O segmento entre vírgulas é uma oração adjetiva **explicativa**, e não restritiva. As explicativas atribuem uma característica universal a **toda a classe** dos consultores legislativos mencionados, pressupondo que todos detêm o conhecimento especializado. A ideia de que "apenas uma parte detém" decorreria de uma oração restritiva (sem vírgulas).
+* **Comentário**: O segmento entre vírgulas é uma oração adjetiva **explicativa**, e não restritiva. As explicativas acrescentam informação sobre **o conjunto de consultores identificado no contexto**, e não sobre todos os consultores de qualquer universo. Uma restritiva selecionaria o referente pelo atributo, **sem comprovar que existe algum consultor fora do subconjunto selecionado**. O gabarito ERRADO se mantém porque o item chama a relativa entre vírgulas de restritiva e deduz um grupo externo não demonstrado.
 
 ---
 

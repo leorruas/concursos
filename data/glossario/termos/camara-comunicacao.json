@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "comunicacao",
+  "entries": [
+    {
+      "id": "glo-camara-comunicacao-publica",
+      "term": "Comunicação pública",
+      "aliases": [],
+      "definition": "Processo de informação e diálogo em assuntos de interesse coletivo, envolvendo Estado, sociedade e outros atores na circulação de informações e na participação cidadã.",
+      "contrast": "Comunicação governamental trata dos fluxos associados à gestão e às ações do governo; comunicação pública é categoria mais ampla.",
+      "cebraspeTrap": "Atribuir toda comunicação pública exclusivamente ao governo ou considerar que toda mensagem governamental produz diálogo com os cidadãos.",
+      "example": "Uma audiência pública informada com clareza e aberta a perguntas envolve comunicação sobre decisões coletivas.",
+      "articleIds": [
+        "art-aa982758b945496d"
+      ],
+      "subjectIds": [
+        "comunicacao",
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 37",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-comunicacao-governamental",
+      "term": "Comunicação governamental",
+      "aliases": [],
+      "definition": "Comunicação sobre ações, políticas, decisões e serviços realizados por um governo e sua relação com a população.",
+      "contrast": "A gestão governamental é exercida por ocupantes transitórios do Estado; informar um serviço não se confunde com propaganda pessoal.",
+      "cebraspeTrap": "Transformar a prestação de informações de serviço público em exaltação do ocupante do cargo como se fossem a mesma coisa.",
+      "example": "Uma prefeitura explica quem pode agendar vacinação e em quais unidades haverá atendimento.",
+      "articleIds": [
+        "art-aa982758b945496d"
+      ],
+      "subjectIds": [
+        "comunicacao",
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 37",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-publicidade-institucional",
+      "term": "Publicidade institucional",
+      "aliases": [],
+      "definition": "Comunicação promovida por órgãos públicos para informar sobre atos, programas, serviços e campanhas de interesse coletivo, observada a impessoalidade do art. 37, § 1º.",
+      "contrast": "Publicidade institucional deve ter caráter educativo, informativo ou de orientação social; promoção pessoal de autoridade é vedada.",
+      "cebraspeTrap": "Afirmar que o nome, o símbolo ou a imagem de autoridade podem ser usados na publicidade oficial para lhe atribuir mérito pessoal.",
+      "example": "Campanha explica como usar um serviço público, sem transformar seu responsável em protagonista da mensagem.",
+      "articleIds": [
+        "art-651fd293b70c4e8a"
+      ],
+      "subjectIds": [
+        "comunicacao",
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 37",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-promocao-pessoal",
+      "term": "Promoção pessoal em publicidade oficial",
+      "aliases": [],
+      "definition": "Uso da publicidade de atos, programas, obras, serviços ou campanhas de órgãos públicos para favorecer pessoalmente uma autoridade ou servidor.",
+      "contrast": "A publicidade constitucionalmente admitida informa ou orienta a população; a autopromoção viola a exigência de impessoalidade do art. 37, § 1º.",
+      "cebraspeTrap": "Supor que a promoção de autoridade se torna legítima porque o conteúdo divulgado menciona obra pública real.",
+      "example": "Um anúncio de serviço gratuito associa repetidamente a execução do programa à imagem individual do gestor.",
+      "articleIds": [
+        "art-651fd293b70c4e8a"
+      ],
+      "subjectIds": [
+        "comunicacao",
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 37",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-comunicacao-interna",
+      "term": "Comunicação interna",
+      "aliases": [],
+      "definition": "Conjunto de fluxos de informação e interação voltados às pessoas que trabalham em uma organização, com diferentes meios e finalidades.",
+      "contrast": "Não se confunde com publicidade institucional voltada ao público externo e tampouco garante, por si, clima organizacional positivo.",
+      "cebraspeTrap": "Considerar que uma newsletter enviada a servidores resolve conflitos de gestão ou substitui processos de escuta e decisão.",
+      "example": "Um órgão comunica mudanças de procedimento pela intranet e recebe perguntas dos setores afetados.",
+      "articleIds": [
+        "art-806546892285426f"
+      ],
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 37",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-linguagem-simples",
+      "term": "Linguagem simples",
+      "aliases": [],
+      "definition": "Conjunto de técnicas para que palavras, estrutura e apresentação permitam ao cidadão encontrar, compreender e usar a informação, nos termos da Lei nº 15.263/2025.",
+      "contrast": "Linguagem simples preserva precisão e direitos; não significa omitir condições legais ou tratar o cidadão de forma infantil.",
+      "cebraspeTrap": "Achar que eliminar termos técnicos sem explicá-los basta, mesmo quando o texto deixa de informar critérios de acesso a serviço.",
+      "example": "Uma orientação troca uma sequência obscura de siglas por passos claros, explicando prazos e requisitos.",
+      "articleIds": [
+        "art-76a6d49bcd9c4a3e"
+      ],
+      "subjectIds": [
+        "comunicacao",
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 15.263/2025: Política Nacional de Linguagem Simples",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2025/lei-15263-14-novembro-2025-798293-norma-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-acessibilidade-digital",
+      "term": "Acessibilidade digital",
+      "aliases": [],
+      "definition": "Características de conteúdos e interfaces que permitem que pessoas com diferentes necessidades percebam, operem e compreendam serviços digitais.",
+      "contrast": "A linguagem simples ajuda a compreensão; acessibilidade também exige atender necessidades sensoriais, motoras e uso de tecnologias assistivas.",
+      "cebraspeTrap": "Declarar acessível uma página apenas por ter frases curtas, mesmo sem uso possível pelo teclado ou leitor de tela.",
+      "example": "Um formulário informa erros em texto, permite navegação por teclado e associa rótulos aos campos.",
+      "articleIds": [
+        "art-76a6d49bcd9c4a3e"
+      ],
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "WCAG 2.2, W3C",
+          "url": "https://www.w3.org/TR/WCAG22/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-transparencia-ativa",
+      "term": "Transparência ativa",
+      "aliases": [],
+      "definition": "Divulgação espontânea, pelos órgãos públicos, de informações de interesse coletivo ou geral, independentemente de pedido individual, na forma da LAI.",
+      "contrast": "Transparência passiva começa com um pedido de acesso; a ativa exige publicar informações de ofício, nos casos previstos.",
+      "cebraspeTrap": "Considerar que basta atender pedidos de informação para cumprir todas as obrigações de transparência ativa.",
+      "example": "Um órgão mantém online suas despesas, transferências e canais de acesso sem exigir solicitação prévia.",
+      "articleIds": [
+        "art-2f08d016bf214fc3"
+      ],
+      "subjectIds": [
+        "comunicacao",
+        "transparencia-ouvidoria"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 12.527/2011: acesso à informação",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-transparencia-passiva",
+      "term": "Transparência passiva",
+      "aliases": [],
+      "definition": "Atendimento a pedidos de acesso à informação apresentados por qualquer interessado, observados procedimento, prazos e hipóteses legais de sigilo.",
+      "contrast": "É provocada por solicitação e não substitui a publicação espontânea exigida pela transparência ativa.",
+      "cebraspeTrap": "Afirmar que todo pedido deve justificar o motivo ou que informação protegida por sigilo pode ser divulgada sem análise legal.",
+      "example": "Um cidadão solicita documento público pelo canal de informação; o órgão analisa e responde conforme a LAI.",
+      "articleIds": [
+        "art-2f08d016bf214fc3"
+      ],
+      "subjectIds": [
+        "comunicacao",
+        "transparencia-ouvidoria"
+      ],
+      "contestIds": [
+        "camara-2026",
+        "cgu-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 12.527/2011: acesso à informação",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-noticiabilidade",
+      "term": "Noticiabilidade",
+      "aliases": [],
+      "definition": "Conjunto de critérios empregados na escolha e valorização de acontecimentos como notícias, como relevância social, atualidade e proximidade.",
+      "contrast": "Critério de noticiabilidade orienta avaliação editorial; gatekeeping estuda também os agentes, as etapas e os filtros da circulação.",
+      "cebraspeTrap": "Confundir frequência de publicação com veracidade ou considerar que toda ocorrência relevante necessariamente será publicada.",
+      "example": "Uma redação prioriza mudança em benefício público porque afeta milhares de pessoas e tem utilidade imediata.",
+      "articleIds": [
+        "art-1518ce1ad35a4ae3"
+      ],
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Galtung e Ruge, estrutura de notícias internacionais",
+          "url": "https://doi.org/10.1177/002234336500200104"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-agenda-setting",
+      "term": "Agenda-setting",
+      "aliases": [],
+      "definition": "Hipótese segundo a qual a ênfase de temas nos meios de comunicação pode influenciar a importância atribuída a esses temas pelo público.",
+      "contrast": "Agendamento trata da saliência dos assuntos; enquadramento trata da seleção de aspectos usados para interpretar os assuntos.",
+      "cebraspeTrap": "Afirmar que a teoria demonstra que a mídia controla automaticamente a opinião de todas as pessoas sobre um tema.",
+      "example": "A cobertura frequente de transporte coletivo pode aumentar a prioridade que a população declara para esse assunto.",
+      "articleIds": [
+        "art-a6802d9f73c4b15e"
+      ],
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "McCombs e Shaw, The Agenda-Setting Function of Mass Media, 1972",
+          "url": "https://academic.oup.com/poq/article-abstract/36/2/176/1853310"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-framing",
+      "term": "Framing (enquadramento)",
+      "aliases": [],
+      "definition": "Processo de selecionar e destacar aspectos de uma realidade em uma mensagem, favorecendo interpretações sobre problemas, causas e respostas.",
+      "contrast": "Framing organiza o sentido atribuído a um assunto; agenda-setting focaliza sua importância relativa na atenção pública.",
+      "cebraspeTrap": "Tratar toda diferença de enquadramento como invenção de fatos ou equiparar o conceito à simples escolha da pauta.",
+      "example": "Duas notícias sobre o mesmo ato destacam, respectivamente, seu custo e sua capacidade de ampliar o acesso.",
+      "articleIds": [
+        "art-d825a6f0bc139e47"
+      ],
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Entman, Framing: Toward Clarification of a Fractured Paradigm, 1993",
+          "url": "https://doi.org/10.1111/j.1460-2466.1993.tb01304.x"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-gatekeeping",
+      "term": "Gatekeeping",
+      "aliases": [],
+      "definition": "Análise dos pontos de decisão e dos agentes que selecionam, rejeitam, alteram ou deixam circular informações durante a produção e distribuição de conteúdo.",
+      "contrast": "Os valores-notícia são alguns critérios possíveis de seleção; gatekeeping investiga também rotinas, condições e poder dos filtros.",
+      "cebraspeTrap": "Reduzir gatekeeping à preferência pessoal do editor ou presumir que há um único portão na circulação digital.",
+      "example": "Uma pauta é descartada na triagem, outra na edição e uma terceira recebe destaque em um aplicativo.",
+      "articleIds": [
+        "art-4e290c7b68d351af"
+      ],
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "David Manning White, The Gate Keeper, 1950",
+          "url": "https://journals.sagepub.com/doi/10.1177/107769905002700403"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-publicidade-agencias-lei-12232",
+      "term": "Lei nº 12.232/2010",
+      "aliases": [],
+      "definition": "Lei que estabelece normas gerais de licitação e contratação de serviços de publicidade prestados por intermédio de agências para a administração pública.",
+      "contrast": "Seu objeto é contratação de publicidade por agência, distinto do dever constitucional de publicidade dos atos administrativos.",
+      "cebraspeTrap": "Achar que a lei regula toda comunicação institucional ou elimina exigências de impessoalidade da publicidade oficial.",
+      "example": "Um órgão contrata agência para planejar campanha pública, observando o procedimento aplicável da Lei nº 12.232/2010.",
+      "articleIds": [
+        "art-b08f53d19c4a726e"
+      ],
+      "subjectIds": [
+        "comunicacao"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 12.232/2010: publicidade por intermédio de agências",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

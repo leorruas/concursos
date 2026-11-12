@@ -48,6 +48,17 @@
     "IFMG": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais",
     "TCU": "Tribunal de Contas da União",
     "NBC": "Norma Brasileira de Contabilidade",
-    "IPSAS": "International Public Sector Accounting Standards"
+    "IPSAS": "International Public Sector Accounting Standards",
+    "ADCT": "Ato das Disposições Constitucionais Transitórias",
+    "STF": "Supremo Tribunal Federal",
+    "INSS": "Instituto Nacional do Seguro Social",
+    "SUS": "Sistema Único de Saúde",
+    "SIOP": "Sistema Integrado de Planejamento e Orçamento",
+    "PLDO": "Projeto de Lei de Diretrizes Orçamentárias",
+    "PLOA": "Projeto de Lei Orçamentária Anual",
+    "MTOI": "Manual Técnico do Orçamento de Investimento",
+    "BPC": "Benefício de Prestação Continuada",
+    "CF": "Constituição Federal",
+    "ECT": "Empresa Brasileira de Correios e Telégrafos"
   }
 }

@@ -8,15 +8,16 @@
       "aliases": [
         "Plano Plurianual"
       ],
-      "definition": "É a lei que organiza o planejamento do governo para quatro anos. O Plano Plurianual (PPA) define diretrizes, objetivos e metas para programas de duração continuada e para investimentos e despesas que deles decorrem. Serve para ligar as decisões de médio prazo aos orçamentos anuais.",
-      "contrast": "O PPA define a direção para vários anos; a Lei de Diretrizes Orçamentárias (LDO) seleciona prioridades e orienta o orçamento do ano seguinte; a Lei Orçamentária Anual (LOA) estima receitas e autoriza despesas daquele ano. No plano federal, a vigência do PPA começa no segundo ano do mandato presidencial e termina no primeiro ano do mandato seguinte. Assim, a troca de presidente não encerra automaticamente o plano vigente. O PPA também inclui programas continuados, não apenas obras. Na União, o projeto é enviado pelo Poder Executivo.",
-      "cebraspeTrap": "A banca pode dizer que o PPA federal começa no primeiro ano do mandato ou que contém apenas obras. O ponto decisivo é seu ciclo de quatro anos deslocado em relação ao mandato presidencial e a inclusão de programas continuados.",
-      "example": "O governo planeja ampliar o atendimento de saúde durante quatro anos: define no PPA metas como novas unidades e atendimento ampliado. A LDO do próximo ano indica prioridades; a LOA autoriza valores para executar parte do plano. Na União, um presidente eleito em 2026 executará em 2027 o último ano do PPA anterior, antes do novo PPA vigorar em 2028.",
+      "definition": "O Plano Plurianual (PPA) é a lei federal que organiza, por quatro anos, diretrizes, objetivos e metas do governo de forma regionalizada. Abrange investimentos, despesas decorrentes desses investimentos e programas de duração continuada.",
+      "contrast": "O PPA planeja para vários anos; a Lei de Diretrizes Orçamentárias (LDO) orienta prioridades e regras fiscais para o orçamento seguinte; a Lei Orçamentária Anual (LOA) estima receitas e autoriza despesas daquele exercício. Regionalização é indicar como o planejamento alcança regiões diferentes. Um investimento em um hospital e o gasto posterior para mantê-lo funcionando podem aparecer no planejamento, mas manutenção não vira automaticamente despesa de capital. Programa de duração continuada do PPA não é sinônimo de despesa obrigatória de caráter continuado da Lei de Responsabilidade Fiscal (LRF), art. 17: esta exige gasto corrente imposto por norma e obrigação por mais de dois exercícios.",
+      "cebraspeTrap": "Uma questão pode afirmar que o PPA serve apenas para obras ou confundir programa continuado com despesa obrigatória continuada. O art. 165, § 1º, também contempla gastos decorrentes de despesas de capital e programas continuados; a categoria da LRF exige requisitos próprios.",
+      "example": "A União planeja construir unidades de saúde em regiões com pouco atendimento. A construção envolve investimento; energia e manutenção são gastos decorrentes; a oferta regular de atendimento pode integrar um programa continuado. O PPA descreve objetivos e metas, enquanto a LOA de cada ano precisa autorizar as despesas correspondentes.",
       "subjectIds": [
         "orcamento-publico"
       ],
       "contestIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "articleIds": [
         "art-c301f2c741504403"
@@ -25,6 +26,10 @@
         {
           "label": "Constituição Federal: art. 165",
           "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Constituição Federal, texto consolidado no Senado, art. 165, § 1º",
+          "url": "https://legis.senado.leg.br/norma/579494/publicacao/16434817"
         }
       ],
       "status": "reviewed"
@@ -35,15 +40,16 @@
       "aliases": [
         "Lei de Diretrizes Orçamentárias"
       ],
-      "definition": "É a lei que faz a ligação entre o planejamento de vários anos e o orçamento de cada ano. A Lei de Diretrizes Orçamentárias (LDO) indica prioridades e metas, orienta a elaboração da Lei Orçamentária Anual (LOA) e traz regras e informações fiscais exigidas pela Constituição e pela Lei de Responsabilidade Fiscal.",
-      "contrast": "O Plano Plurianual (PPA) trata de objetivos de médio prazo; a LDO escolhe orientações e prioridades para o exercício seguinte; a LOA estima receitas e autoriza despesas. A LDO pode trazer Anexo de Metas Fiscais e Anexo de Riscos Fiscais, conforme a lei. Ela não substitui a dotação da LOA nem é uma lei separada para cada autarquia: integra o planejamento do ente federativo.",
-      "cebraspeTrap": "Confundir prioridade da LDO com autorização de gasto da LOA, ou afirmar que cada órgão edita sua própria LDO independente da lei do ente, troca a função dos instrumentos.",
-      "example": "O PPA prevê ampliar a rede de escolas por vários anos. A LDO define como prioridade do próximo exercício a melhoria de escolas existentes e indica metas fiscais. A LOA traz a verba autorizada para as ações. Nenhuma dessas leis, isoladamente, comprova que obras foram pagas ou concluídas.",
+      "definition": "A Lei de Diretrizes Orçamentárias (LDO) é a lei anual que indica prioridades e metas fiscais e orienta a elaboração do orçamento do ano seguinte. Também estabelece critérios fiscais, como os de limitação de empenho.",
+      "contrast": "O Plano Plurianual (PPA) estabelece objetivos de médio prazo; a LDO indica prioridades e regras para o ano seguinte; a Lei Orçamentária Anual (LOA) estima arrecadação e fixa despesas autorizadas. A LDO também traz, segundo a Lei de Responsabilidade Fiscal (LRF), Anexo de Metas Fiscais (resultados que se busca alcançar) e Anexo de Riscos Fiscais (eventos incertos que podem afetar as contas). Prever critérios de limitação de empenho não cancela por si a dotação da LOA: a limitação depende das condições e dos atos previstos no art. 9º da LRF. Créditos adicionais também podem autorizar despesas.",
+      "cebraspeTrap": "Afirmar que uma prioridade da LDO já autoriza pagamentos ou que a mera queda de arrecadação anula automaticamente dotações confunde planejamento, autorização e controle da execução. A LRF estabelece condições específicas para a limitação de empenho.",
+      "example": "A LDO indica como prioridade ampliar o atendimento em escolas e define metas para as contas públicas. A LOA autoriza R$ 2 milhões para uma ação. Se a arrecadação ameaçar as metas e forem atendidas as condições legais, pode haver limitação de novos empenhos. Isso não significa que a prioridade desapareceu ou que todo o valor foi pago.",
       "subjectIds": [
         "orcamento-publico"
       ],
       "contestIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "articleIds": [
         "art-c301f2c741504403"
@@ -56,6 +62,14 @@
         {
           "label": "LRF: LC nº 101/2000",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"
+        },
+        {
+          "label": "Constituição Federal, texto consolidado no Senado, art. 165, § 2º",
+          "url": "https://legis.senado.leg.br/norma/579494/publicacao/16434817"
+        },
+        {
+          "label": "Lei de Responsabilidade Fiscal, texto do Senado, arts. 4º e 9º",
+          "url": "https://legis.senado.leg.br/norma/572856/publicacao/34621009"
         }
       ],
       "status": "reviewed"
@@ -1602,15 +1616,16 @@
       "aliases": [
         "UO"
       ],
-      "definition": "É a parte da estrutura do orçamento para a qual a lei autoriza valores específicos de despesa. Essa autorização se chama dotação. Uma unidade orçamentária pode ser um órgão, um fundo ou outra estrutura prevista nas regras e não precisa corresponder a um único prédio.",
-      "contrast": "O órgão orçamentário reúne unidades, enquanto a unidade é o nível que recebe a dotação individualizada. Uma unidade administrativa que trabalha fisicamente em um edifício não é necessariamente unidade orçamentária. A função mostra a área da despesa e o programa mostra a finalidade, não a unidade responsável.",
-      "cebraspeTrap": "A palavra 'unidade' não significa obrigatoriamente prédio, campus ou setor físico. O critério é a identificação e a dotação na estrutura do orçamento.",
-      "example": "Uma universidade federal pode aparecer como unidade orçamentária com valores próprios para ensino, manutenção e assistência estudantil. Seus diversos campi não precisam ser, cada um, unidades orçamentárias independentes.",
+      "definition": "Unidade orçamentária (UO) é a unidade identificada na estrutura do orçamento para receber dotações, valores autorizados para despesas. Na elaboração do projeto, a UO detalha ações e pedidos de recursos. O pedido ainda é proposta: a autorização vem da lei aprovada. Uma UO pode abranger vários setores ou prédios.",
+      "contrast": "Unidade administrativa executa atividades e comunica necessidades. A unidade orçamentária organiza programação e recebe dotações individualizadas; o órgão setorial reúne e analisa propostas de UOs; a Secretaria de Orçamento Federal (SOF) coordena a consolidação central. Saber quem pediu R$ 1 milhão não permite concluir quem aprova o orçamento nem quanto será pago.",
+      "cebraspeTrap": "Confundir a proposta de uma unidade com dotação já aprovada, chamar cada prédio de unidade orçamentária ou afirmar que a UO envia seu próprio projeto de lei ao Congresso. O critério é a estrutura orçamentária e a fase do processo.",
+      "example": "Um setor pede R$ 1 milhão para atendimento digital. A UO inclui a demanda em sua proposta; o órgão setorial pode reduzi-la a R$ 800 mil e o projeto consolidado pode trazer valor diferente. Nenhuma dessas etapas significa pagamento ou aprovação da lei.",
       "subjectIds": [
         "orcamento-publico"
       ],
       "contestIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "articleIds": [
         "art-d8b1c5e6037249fa"
@@ -1619,6 +1634,10 @@
         {
           "label": "SOF: Manual Técnico de Orçamento 2026, classificações da despesa e receita",
           "url": "https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf"
+        },
+        {
+          "label": "Secretaria de Orçamento Federal: Manual Técnico de Orçamento 2027, capítulos 1 e 6",
+          "url": "https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027"
         }
       ],
       "status": "reviewed"

@@ -2510,3 +2510,52 @@ body:has(.glossario-pagina:not(.escondido)) .page-masthead{display:none}
 .mermaid-modal-stage svg { overflow: visible; }
 .mermaid-erro { color: var(--text); border-left: 3px solid var(--accent-blue); padding: 12px 16px; background: var(--surface-raised); font-size: 14px; }
 .mermaid-fonte-erro { max-height: 340px; overflow: auto; white-space: pre; color: var(--text); background: var(--surface); padding: 14px; font-size: 12px; }
+
+/* Busca em primeiro plano no mobile: a assinatura da navbar não disputa espaço. */
+@media (max-width: 600px) {
+    .sticky-nav {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        row-gap: 9px;
+        padding: 11px 16px;
+    }
+    .sticky-nav .nav-logo { display: none; }
+    .sticky-nav .nav-search-container {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        max-width: none;
+        margin: 0;
+    }
+    .sticky-nav .nav-search-container input { font-size: 14px; padding: 8px 0; }
+    .sticky-nav .nav-acoes {
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .sticky-nav .nav-link-pastas, .sticky-nav .theme-toggle { font-size: 12px; }
+}
+
+
+/* Matemática no leitor: rolagem horizontal e contraste em telas estreitas. */
+#artigo-corpo .math-formula { color: inherit; }
+#artigo-corpo .math-display {
+    display: block;
+    max-width: 100%;
+    margin: 0.9rem 0;
+    padding: 0.25rem 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+#artigo-corpo .math-display .katex-display {
+    margin: 0;
+    text-align: left;
+}
+#artigo-corpo .math-inline { display: inline; }
+#artigo-corpo .math-fallback {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    font-size: 0.85em;
+}

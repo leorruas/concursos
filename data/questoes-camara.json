@@ -34679,6 +34679,1126 @@
       "correctAnswer": "E",
       "explanation": "Had approved, com before, situa a aprovação anteriormente ao término da sessão.",
       "reviewEvidence": "Lote 024: análise linguística e semântica do enunciado original em inglês, gabarito e explicação cotejados com artigo 3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md, seção '3. O Passado do Passado: *Past Perfect* (*Had* + Particípio)'. Dificuldade estimada e integração após testes de integridade."
+    },
+    {
+      "id": "cam-const-habeas-corpus-informacoes-pessoais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "habeas-corpus-informacoes-pessoais",
+      "mechanism": "trocar-hc-por-hd",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas corpus — HC"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas corpus — HC"
+      },
+      "statement": "Uma pessoa que busca exclusivamente retificar informação pessoal mantida por entidade pública deve utilizar habeas corpus, pois esse remédio protege registros administrativos.",
+      "correctAnswer": "E",
+      "explanation": "O habeas corpus protege liberdade de locomoção; situações de informação pessoal correspondem, em tese, ao habeas data.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Habeas corpus — HC; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-senadores-populacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senadores-populacao",
+      "mechanism": "confundir-proporcionalidade-e-igualdade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Senado Federal"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Senado Federal"
+      },
+      "statement": "O número de senadores eleitos por cada estado é definido segundo o tamanho de sua população, assim como ocorre com a distribuição de cadeiras da Câmara.",
+      "correctAnswer": "E",
+      "explanation": "Cada estado e o Distrito Federal elegem três senadores, independentemente de população.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/06 - poder legislativo.md / Senado Federal; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-saude-direito-social",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "saude-direito-social",
+      "mechanism": "catalogo-direitos-sociais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#1. O Catálogo do Artigo 6º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "1. O Catálogo do Artigo 6º"
+      },
+      "statement": "Saúde, educação e alimentação integram o catálogo de direitos sociais previsto no art. 6º da Constituição Federal.",
+      "correctAnswer": "C",
+      "explanation": "Esses três direitos estão entre os direitos sociais expressamente listados no art. 6º.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/03 - direitos sociais.md / 1. O Catálogo do Artigo 6º; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-analfabeto-deputado-elegivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "analfabeto-deputado-elegivel",
+      "mechanism": "transferir-voto-para-elegibilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inalistáveis e analfabetos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inalistáveis e analfabetos"
+      },
+      "statement": "Uma pessoa analfabeta que tenha votado regularmente pode concorrer ao cargo de deputado federal, pois o exercício do voto elimina a inelegibilidade constitucional.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição prevê inelegibilidade dos analfabetos, independentemente da facultatividade do voto.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/05 - direitos politicos.md / Inalistáveis e analfabetos; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-nacionalidade-nato-nascido-brasil",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nacionalidade-nato-nascido-brasil",
+      "mechanism": "aplicar-criterio-territorial-e-excecao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#1. Nascimento no Brasil"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "1. Nascimento no Brasil"
+      },
+      "statement": "Uma criança nascida no território brasileiro de pais estrangeiros que não estejam a serviço de seu país enquadra-se, em regra, como brasileira nata.",
+      "correctAnswer": "C",
+      "explanation": "O art. 12, I, a, inclui nascidos no Brasil, ainda que de pais estrangeiros, exceto se estes estiverem a serviço de seu país.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / 1. Nascimento no Brasil; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-cpi-interceptacao-telefonica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "cpi-interceptacao-telefonica",
+      "mechanism": "limite-cpi-reserva-jurisdicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#2. A cláusula constitucional: \"Poderes de investigação próprios das autoridades judiciais\""
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "2. A cláusula constitucional: \"Poderes de investigação próprios das autoridades judiciais\""
+      },
+      "statement": "Por possuir poderes de investigação próprios de autoridades judiciais, uma CPI pode determinar diretamente interceptação telefônica de conversas futuras, sem decisão judicial.",
+      "correctAnswer": "E",
+      "explanation": "A interceptação telefônica submete-se à reserva de jurisdição; poderes investigatórios da CPI têm limites constitucionais.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md / 2. A cláusula constitucional: \"Poderes de investigação próprios das autoridades judiciais\"; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-estrangeiro-inalistavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "estrangeiro-inalistavel",
+      "mechanism": "distincao-residencia-nacionalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inalistáveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inalistáveis"
+      },
+      "statement": "Estrangeiro residente no Brasil não pode alistar-se como eleitor nas eleições brasileiras pelo regime previsto no art. 14, § 2º, da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "O art. 14, § 2º, torna os estrangeiros inalistáveis, ressalvadas questões jurídicas distintas não tratadas no enunciado.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/05 - direitos politicos.md / Inalistáveis; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-nao-intervencao-impede-cooperacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "nao-intervencao-impede-cooperacao",
+      "mechanism": "opor-principios-compativeis",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "Por adotar a não intervenção como princípio de relações internacionais, o Brasil está constitucionalmente impedido de cooperar com outros povos para o progresso da humanidade.",
+      "correctAnswer": "E",
+      "explanation": "A não intervenção e a cooperação entre os povos constam conjuntamente dos princípios do art. 4º.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/01 - principios fundamentais.md / Art. 4º — relações internacionais; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-manifestacao-vedacao-anonimato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "manifestacao-vedacao-anonimato",
+      "mechanism": "delimitar-liberdade-expressao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Manifestação do pensamento"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Manifestação do pensamento"
+      },
+      "statement": "A liberdade de manifestação do pensamento é assegurada constitucionalmente, observada a vedação do anonimato prevista no art. 5º.",
+      "correctAnswer": "C",
+      "explanation": "O inciso IV do art. 5º consagra a liberdade de manifestação com vedação ao anonimato.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Manifestação do pensamento; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-habeas-data-proprios-registros",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "habeas-data-proprios-registros",
+      "mechanism": "distinguir-remedio-de-dados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas data — HD"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas data — HD"
+      },
+      "statement": "O habeas data pode servir para assegurar conhecimento de informações relativas à pessoa do impetrante em registros de entidades governamentais ou de caráter público.",
+      "correctAnswer": "C",
+      "explanation": "O art. 5º, LXXII, prevê habeas data para conhecimento ou retificação de informações pessoais na forma constitucional.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Habeas data — HD; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-deputados-mesma-quantidade-por-estado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "deputados-mesma-quantidade-por-estado",
+      "mechanism": "trocar-criterio-de-representacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Câmara dos Deputados"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Câmara dos Deputados"
+      },
+      "statement": "Cada unidade da Federação possui obrigatoriamente o mesmo número de deputados federais, pois a Câmara representa Estados em igualdade numérica.",
+      "correctAnswer": "E",
+      "explanation": "A representação na Câmara é proporcional à população, observados limites constitucionais; a igualdade por unidade federativa caracteriza o Senado.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/06 - poder legislativo.md / Câmara dos Deputados; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-pec-tres-quintos-duas-votacoes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "pec-tres-quintos-duas-votacoes",
+      "mechanism": "procedimento-de-emenda",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#1. Emenda constitucional: mudar a regra fundamental"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "1. Emenda constitucional: mudar a regra fundamental"
+      },
+      "statement": "A proposta de emenda constitucional precisa ser aprovada em dois turnos em cada Casa do Congresso, por três quintos dos votos dos respectivos membros.",
+      "correctAnswer": "C",
+      "explanation": "O art. 60, § 2º, fixa dois turnos e quórum de três quintos em cada Casa.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / 1. Emenda constitucional: mudar a regra fundamental; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-competencia-comum-exclusiva-uniao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "competencia-comum-exclusiva-uniao",
+      "mechanism": "trocar-competencia-comum-por-exclusiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência comum: art. 23"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência comum: art. 23"
+      },
+      "statement": "Quando a Constituição prevê competência comum de União, estados, Distrito Federal e municípios, a matéria passa a ser executada exclusivamente pela União.",
+      "correctAnswer": "E",
+      "explanation": "Competência comum envolve atuação administrativa dos entes federativos, nos termos constitucionais.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/11 - organizacao do estado.md / Competência comum: art. 23; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-separacao-e-funcao-atipica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "separacao-e-funcao-atipica",
+      "mechanism": "interpretar-harmonia-sem-exclusividade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 2º — separação dos Poderes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 2º — separação dos Poderes"
+      },
+      "statement": "A independência e harmonia dos Poderes não impedem que o Legislativo exerça funções administrativas necessárias à sua organização.",
+      "correctAnswer": "C",
+      "explanation": "A separação dos Poderes admite funções típicas e atípicas, dentro das competências constitucionais.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/01 - principios fundamentais.md / Art. 2º — separação dos Poderes; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-direitos-constitucionais-absolutos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "direitos-constitucionais-absolutos",
+      "mechanism": "absolutizar-direitos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "A previsão constitucional de um direito fundamental dispensa qualquer análise de limites e de convivência com outros direitos, pois todos eles têm alcance absoluto.",
+      "correctAnswer": "E",
+      "explanation": "A proteção dos direitos fundamentais exige ponderar seus limites constitucionais e sua relação com outros direitos.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Aplicação e limites dos direitos fundamentais; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-cpi-um-terco-fato-prazo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-25e3bd6ae37991f6",
+      "conceptId": "cpi-um-terco-fato-prazo",
+      "mechanism": "requisitos-cpi",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-25e3bd6ae37991f6#1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md",
+        "section": "1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares"
+      },
+      "statement": "O requerimento de criação de comissão parlamentar de inquérito deve observar apoio de um terço dos membros da Casa, fato determinado e prazo certo.",
+      "correctAnswer": "C",
+      "explanation": "O art. 58, § 3º, apresenta esses requisitos constitucionais.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites.md / 1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-mandado-injuncao-falta-norma",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "mandado-injuncao-falta-norma",
+      "mechanism": "reconhecer-omissao-regulamentadora",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de injunção — MI"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de injunção — MI"
+      },
+      "statement": "Quando a falta de norma regulamentadora torna inviável o exercício de direitos ou liberdades constitucionais, o mandado de injunção pode ser instrumento adequado para enfrentar a omissão.",
+      "correctAnswer": "C",
+      "explanation": "O art. 5º, LXXI, disciplina o mandado de injunção diante de omissão normativa que inviabilize direitos nas hipóteses constitucionais.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Mandado de injunção — MI; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-entes-federados-municipios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "entes-federados-municipios",
+      "mechanism": "entidades-politico-administrativas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Municípios integram a organização político-administrativa da República Federativa do Brasil, ao lado de União, estados e Distrito Federal.",
+      "correctAnswer": "C",
+      "explanation": "O art. 18 prevê autonomia dos entes da organização político-administrativa e inclui os Municípios.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/11 - organizacao do estado.md / Núcleo do conceito; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-participacao-popular-exclusivamente-indireta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "participacao-popular-exclusivamente-indireta",
+      "mechanism": "excluir-democracia-direta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "statement": "Segundo o parágrafo único do art. 1º, o exercício do poder pelo povo ocorre exclusivamente por representantes eleitos, ficando proibidas formas diretas previstas na Constituição.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição admite exercício por representantes eleitos ou diretamente, nos seus termos.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/01 - principios fundamentais.md / Art. 1º — Estado Democrático de Direito e fundamentos; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-direitos-sociais-recursos-ilimitados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "direitos-sociais-recursos-ilimitados",
+      "mechanism": "confundir-dever-prestacional-com-recursos-ilimitados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#2. Caráter Prestacional (Prestações Positivas)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "2. Caráter Prestacional (Prestações Positivas)"
+      },
+      "statement": "Por serem direitos sociais, as prestações estatais de saúde e educação independem de qualquer organização de políticas, prioridades legais ou disponibilidade material de meios.",
+      "correctAnswer": "E",
+      "explanation": "A efetivação exige políticas, estruturas e meios, sob deveres constitucionais; a garantia não elimina condições de implementação.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/03 - direitos sociais.md / 2. Caráter Prestacional (Prestações Positivas); CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-competencia-residual-estados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "competencia-residual-estados",
+      "mechanism": "identificar-competencia-residual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Estados: competência remanescente"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Estados: competência remanescente"
+      },
+      "statement": "A competência dos estados inclui matérias que não lhes sejam vedadas pela Constituição, o que é usualmente descrito como competência remanescente.",
+      "correctAnswer": "C",
+      "explanation": "O art. 25, § 1º, assegura aos estados competências não vedadas constitucionalmente.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/11 - organizacao do estado.md / Estados: competência remanescente; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-soberania-como-fundamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "soberania-como-fundamento",
+      "mechanism": "distinguir-fundamentos-do-estado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "statement": "A soberania e a cidadania figuram entre os fundamentos do Estado Democrático de Direito brasileiro previstos no art. 1º da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "O art. 1º enumera soberania e cidadania, entre outros fundamentos.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/01 - principios fundamentais.md / Art. 1º — Estado Democrático de Direito e fundamentos; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-nacionalidade-estrangeiro-a-servico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nacionalidade-estrangeiro-a-servico",
+      "mechanism": "eliminar-excecao-do-jus-soli",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#1. Nascimento no Brasil"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "1. Nascimento no Brasil"
+      },
+      "statement": "Toda pessoa nascida no Brasil é brasileira nata, inclusive se filha de estrangeiros que estejam a serviço de seu país, sem qualquer exceção constitucional.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição prevê exceção ao critério territorial para filhos de pais estrangeiros a serviço de seu país.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / 1. Nascimento no Brasil; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-bicameralismo-congresso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "bicameralismo-congresso",
+      "mechanism": "estrutura-bicameral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Bicameralismo federal"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Bicameralismo federal"
+      },
+      "statement": "O Congresso Nacional exerce o Poder Legislativo federal por meio de duas Casas: Câmara dos Deputados e Senado Federal.",
+      "correctAnswer": "C",
+      "explanation": "O art. 44 institui o sistema bicameral no Congresso Nacional.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/06 - poder legislativo.md / Bicameralismo federal; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-quorum-ordinaria-absoluta-fixo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-da9726a3c994a6c6",
+      "conceptId": "quorum-ordinaria-absoluta-fixo",
+      "mechanism": "confundir-presenca-e-maioria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-da9726a3c994a6c6#3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md",
+        "section": "3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      },
+      "statement": "Toda lei ordinária demanda necessariamente 257 votos favoráveis na Câmara, pois a Constituição exige maioria absoluta do total de deputados para qualquer lei.",
+      "correctAnswer": "E",
+      "explanation": "A regra geral para deliberação é maioria dos votos, presente a maioria absoluta dos membros, salvo exigência constitucional diversa.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md / 3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-analfabeto-voto-facultativo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "analfabeto-voto-facultativo",
+      "mechanism": "distinguir-ativa-e-passiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Facultativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Facultativos"
+      },
+      "statement": "A Constituição permite alistamento e voto facultativos aos analfabetos, embora estabeleça limites distintos para a elegibilidade.",
+      "correctAnswer": "C",
+      "explanation": "O art. 14, § 1º, II, a, prevê voto facultativo aos analfabetos; há inelegibilidade constitucional específica.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/05 - direitos politicos.md / Facultativos; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-candidatura-independente-sem-filiacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "candidatura-independente-sem-filiacao",
+      "mechanism": "eliminar-requisito-partidario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Condições de elegibilidade: art. 14, § 3º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Condições de elegibilidade: art. 14, § 3º"
+      },
+      "statement": "A filiação partidária não é requisito de elegibilidade no Brasil, motivo pelo qual basta preencher a idade mínima para disputar cargo eletivo sem partido.",
+      "correctAnswer": "E",
+      "explanation": "A filiação partidária integra as condições constitucionais de elegibilidade, ao lado de outros requisitos.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/05 - direitos politicos.md / Condições de elegibilidade: art. 14, § 3º; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-legalidade-particular-restricao-sem-lei",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "legalidade-particular-restricao-sem-lei",
+      "mechanism": "confundir-vontade-administrativa-com-lei",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Legalidade individual"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Legalidade individual"
+      },
+      "statement": "A Constituição autoriza compelir qualquer pessoa a fazer ou deixar de fazer algo por mera preferência administrativa, mesmo na ausência de lei ou fundamento normativo válido.",
+      "correctAnswer": "E",
+      "explanation": "O art. 5º, II, estabelece que ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md / Legalidade individual; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-decreto-legislativo-veto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-da9726a3c994a6c6",
+      "conceptId": "decreto-legislativo-veto",
+      "mechanism": "confundir-normas-do-legislativo-e-lei",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-da9726a3c994a6c6#4. O critério da Sanção e Veto Presidencial: o que vai e o que não vai ao Executivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md",
+        "section": "4. O critério da Sanção e Veto Presidencial: o que vai e o que não vai ao Executivo"
+      },
+      "statement": "Projeto de decreto legislativo aprovado pelo Congresso segue ao Presidente da República para sanção ou veto, assim como um projeto de lei ordinária.",
+      "correctAnswer": "E",
+      "explanation": "Decretos legislativos não se submetem a sanção ou veto do Presidente da República.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md / 4. O critério da Sanção e Veto Presidencial: o que vai e o que não vai ao Executivo; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-mandato-senador-oito-anos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "mandato-senador-oito-anos",
+      "mechanism": "diferenciar-duracao-mandatos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Senado Federal"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Senado Federal"
+      },
+      "statement": "O mandato de senador da República é de oito anos, diferindo do mandato de quatro anos de deputado federal.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição prevê oito anos para senador e quatro anos para deputado.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/06 - poder legislativo.md / Senado Federal; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-distrito-federal-dividido-municipios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "distrito-federal-dividido-municipios",
+      "mechanism": "vedacao-municipalizacao-df",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Distrito Federal: acumulação de competências"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Distrito Federal: acumulação de competências"
+      },
+      "statement": "O Distrito Federal pode ser dividido em municípios autônomos, desde que lei distrital institua os limites de cada um.",
+      "correctAnswer": "E",
+      "explanation": "O art. 32 da Constituição veda expressamente a divisão do Distrito Federal em Municípios.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/11 - organizacao do estado.md / Distrito Federal: acumulação de competências; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-especies-incluem-medida-provisoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "especies-incluem-medida-provisoria",
+      "mechanism": "rol-artigo-59",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#A tipologia completa: sete instrumentos, sete funções"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "A tipologia completa: sete instrumentos, sete funções"
+      },
+      "statement": "Medidas provisórias e leis delegadas constam das espécies normativas previstas no art. 59 da Constituição Federal.",
+      "correctAnswer": "C",
+      "explanation": "O art. 59 inclui medidas provisórias, leis delegadas e outras espécies do processo legislativo.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / A tipologia completa: sete instrumentos, sete funções; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-presidente-naturalizado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "presidente-naturalizado",
+      "mechanism": "cargo-privativo-de-nato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Cargos privativos de brasileiro nato"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Cargos privativos de brasileiro nato"
+      },
+      "statement": "Brasileiro naturalizado pode ocupar a Presidência da República nas mesmas condições de brasileiro nato, pois a Constituição não distingue a nacionalidade para esse cargo.",
+      "correctAnswer": "E",
+      "explanation": "A Presidência da República está entre os cargos privativos de brasileiro nato, conforme art. 12, § 3º.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / Cargos privativos de brasileiro nato; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-voto-aos-dezessete-facultativo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "voto-aos-dezessete-facultativo",
+      "mechanism": "faixa-etaria-voto-facultativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Facultativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Facultativos"
+      },
+      "statement": "O alistamento eleitoral e o voto são facultativos para brasileiro de 17 anos, desde que observadas as regras de alistamento.",
+      "correctAnswer": "C",
+      "explanation": "O art. 14, § 1º, II, c, estabelece facultatividade para maiores de 16 e menores de 18 anos.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/05 - direitos politicos.md / Facultativos; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-perda-automatica-por-segundo-passaporte",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "perda-automatica-por-segundo-passaporte",
+      "mechanism": "generalizar-perda-de-nacionalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Dupla nacionalidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Dupla nacionalidade"
+      },
+      "statement": "Qualquer brasileiro que obtenha segundo passaporte e nacionalidade estrangeira perde imediatamente a nacionalidade brasileira, independentemente das hipóteses constitucionais.",
+      "correctAnswer": "E",
+      "explanation": "A mera aquisição de outra nacionalidade não gera automaticamente perda após a EC nº 131/2023.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / Dupla nacionalidade; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-voto-aos-setenta-e-dois-obrigatorio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "voto-aos-setenta-e-dois-obrigatorio",
+      "mechanism": "omitir-faixa-70-anos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Facultativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Facultativos"
+      },
+      "statement": "Para brasileiros alfabetizados com 72 anos, o voto permanece obrigatório por força de regra constitucional que só prevê facultatividade antes dos 18 anos.",
+      "correctAnswer": "E",
+      "explanation": "O voto também é facultativo para maiores de 70 anos.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/05 - direitos politicos.md / Facultativos; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-pec-sancao-presidencial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "pec-sancao-presidencial",
+      "mechanism": "aplicar-sancao-a-emenda",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#1. Emenda constitucional: mudar a regra fundamental"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "1. Emenda constitucional: mudar a regra fundamental"
+      },
+      "statement": "Uma emenda constitucional aprovada nos dois turnos em cada Casa depende de sanção presidencial para produzir efeitos, segundo o processo legislativo constitucional.",
+      "correctAnswer": "E",
+      "explanation": "Emenda constitucional é promulgada pelas Mesas da Câmara e do Senado, não submetida a sanção presidencial.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md / 1. Emenda constitucional: mudar a regra fundamental; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-quorum-complementar-maioria-absoluta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-da9726a3c994a6c6",
+      "conceptId": "quorum-complementar-maioria-absoluta",
+      "mechanism": "quorum-complementar-sobre-total",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-da9726a3c994a6c6#3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md",
+        "section": "3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos"
+      },
+      "statement": "A aprovação de lei complementar exige maioria absoluta dos membros da Casa legislativa competente, independentemente de quantos estejam presentes na sessão.",
+      "correctAnswer": "C",
+      "explanation": "O art. 69 exige maioria absoluta; na Câmara de 513 deputados, corresponde a pelo menos 257 votos.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md / 3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-dupla-nacionalidade-sem-perda-automatica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "dupla-nacionalidade-sem-perda-automatica",
+      "mechanism": "identificar-mudanca-constitucional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Perda da nacionalidade: EC nº 131/2023"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Perda da nacionalidade: EC nº 131/2023"
+      },
+      "statement": "Após a Emenda Constitucional nº 131/2023, a aquisição de outra nacionalidade não implica, por si só, perda automática da nacionalidade brasileira.",
+      "correctAnswer": "C",
+      "explanation": "A EC nº 131/2023 alterou o regime de perda da nacionalidade, afastando a perda automática por mera aquisição de outra.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / Perda da nacionalidade: EC nº 131/2023; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-const-naturalizado-pode-deputado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fundamentos, direitos e Poder Legislativo",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "naturalizado-pode-deputado",
+      "mechanism": "distinguir-cargos-reservados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Nato × naturalizado: regra e exceções"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Nato × naturalizado: regra e exceções"
+      },
+      "statement": "A condição de brasileiro naturalizado não impede, por si só, a candidatura ao cargo de deputado federal, atendidas as condições de elegibilidade.",
+      "correctAnswer": "C",
+      "explanation": "O cargo de deputado federal não integra o rol constitucional de cargos privativos de brasileiro nato.",
+      "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / Nato × naturalizado: regra e exceções; CI obrigatório antes de integrar."
     }
   ]
 }

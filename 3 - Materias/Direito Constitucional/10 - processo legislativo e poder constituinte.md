@@ -106,9 +106,19 @@ Pense primeiro na **decisão que se quer tomar**. Essa pergunta dá mais informa
 
 ### 1. Emenda constitucional: mudar a regra fundamental
 
-É o único instrumento desta lista cuja função normal é **alterar a própria Constituição**. Começa como **PEC, proposta de emenda à Constituição**. Podem propô-la: **171 deputados**, **27 senadores**, o **Presidente da República**, ou **mais da metade das assembleias legislativas**, cada uma pela maioria relativa dos próprios membros (CF, art. 60).
+É o único instrumento desta lista cuja função normal é **alterar a própria Constituição**. Começa como **PEC, proposta de emenda à Constituição**.
 
-A aprovação exige **308 votos na Câmara e 49 no Senado**, em **dois turnos em cada Casa**, além da concordância das duas Casas com o texto. **Não há sanção nem veto presidencial.** As **Mesas da Câmara e do Senado** promulgam a emenda aprovada. Existem ainda limites de conteúdo, circunstância e procedimento, explicados mais adiante.
+#### Iniciativa
+
+A PEC pode ser proposta por **171 deputados**, **27 senadores**, pelo **Presidente da República** ou por **mais da metade das assembleias legislativas**, cada uma pela maioria relativa dos seus membros (CF, art. 60). Na iniciativa parlamentar, os apoiamentos exigidos em uma Casa não podem ser completados com assinaturas de membros da outra. Apresentar uma PEC não significa aprová-la.
+
+#### Aprovação
+
+O texto exige **308 votos na Câmara e 49 no Senado**, em **dois turnos em cada Casa**, e aprovação do mesmo conteúdo por ambas. Uma proposta que obtenha o quórum em apenas um turno, ou apenas uma Casa, ainda não está aprovada. As exigências são avaliadas **separadamente** em cada votação, sem somar os votos de turnos diferentes.
+
+#### Promulgação
+
+A emenda constitucional aprovada é **promulgada pelas Mesas da Câmara dos Deputados e do Senado Federal**, conforme o art. 60, § 3º. **Não há sanção nem veto do Presidente da República.** Esse ato final distingue a emenda constitucional das leis ordinárias e complementares, que, em regra, seguem para sanção ou veto. Existem ainda limites de conteúdo, circunstância e procedimento, explicados mais adiante.
 
 **Sinal para reconhecer:** o objetivo é **alterar a Constituição**. Não confunda os 171 deputados que podem subscrever a iniciativa com os **308 votos de cada turno** para aprovar a PEC.
 
@@ -187,18 +197,6 @@ Para **lei ordinária ou complementar**, imagine o percurso básico:
 4. **Sanção ou veto:** o texto aprovado é, em regra, encaminhado ao Presidente. **Sanção** é concordância; **veto** é objeção jurídica (inconstitucionalidade) ou política (contrariedade ao interesse público). O veto pode ser derrubado pelo Congresso, com **maioria absoluta dos deputados e dos senadores**, contados separadamente.
 5. **Promulgação e publicação:** a promulgação confirma formalmente a lei e determina seu cumprimento; a publicação dá publicidade oficial. Existem regras constitucionais de promulgação subsidiária quando o Presidente não o faz.
 
-### Iniciativa
-
-A iniciativa é a competência para apresentar um projeto. É preciso verificar **quem pode propor a matéria específica**, pois a lista geral do art. 61 não elimina as iniciativas reservadas. Para distinguir lei ordinária e lei complementar, confira também a espécie exigida pela Constituição.
-
-### Aprovação
-
-A aprovação exige **quórum, deliberação e participação das Casas** conforme a espécie. Lei ordinária, em regra, utiliza maioria dos votos com presença da maioria absoluta; lei complementar exige maioria absoluta dos membros (art. 69). Projetos de lei complementar passam pelo Plenário da Câmara; uma PEC exige três quintos em dois turnos em cada Casa.
-
-### Promulgação
-
-A promulgação é o ato formal que confirma a produção da norma e determina sua execução. Nas leis sujeitas à sanção ou veto, aplica-se o art. 66, inclusive as hipóteses de promulgação subsidiária. **Uma emenda constitucional tem regra diferente:** é promulgada pelas Mesas da Câmara e do Senado, sem sanção presidencial.
-
 **Não transportamos esse percurso automaticamente para todas as sete espécies.** PEC, decreto legislativo e resolução não passam por sanção presidencial; MP nasce com força de lei por ato do Presidente, e lei delegada depende de autorização anterior. Uma MP aprovada com alterações por projeto de lei de conversão segue para sanção ou veto; aprovada sem alterações, segue regime próprio.
 
 ## Poder constituinte: criar uma Constituição × alterá-la
@@ -215,13 +213,13 @@ A distinção esclarece por que há limites tão fortes para PECs.
 
 **Limites formais: como aprovar.** A iniciativa deve partir de legitimados específicos. A PEC precisa ser discutida e votada em **dois turnos na Câmara e dois no Senado**, com **3/5 dos membros em cada turno**: **308 deputados** e **49 senadores**. Emenda aprovada é promulgada **pelas Mesas da Câmara e do Senado**, sem sanção presidencial.
 
-### Limitação circunstancial — art. 60, §1º
+#### Limitação circunstancial — art. 60, §1º
 
-**Quando não emendar:** o art. 60, § 1º, proíbe emendar a Constituição **durante intervenção federal, estado de defesa ou estado de sítio**. É uma proibição ligada à situação em que o país se encontra.
+**Limites circunstanciais: quando não emendar.** O art. 60, § 1º, proíbe emendar a Constituição **durante intervenção federal, estado de defesa ou estado de sítio**. É uma proibição ligada à situação em que o país se encontra. Mesmo uma PEC cujo conteúdo seja constitucionalmente admissível não pode resultar em emenda enquanto durar uma dessas circunstâncias.
 
-### Limitações materiais — cláusulas pétreas (art. 60, §4º)
+#### Limitações materiais — cláusulas pétreas (art. 60, §4º)
 
-**O que não pode ser abolido:** o art. 60, § 4º, impede até a **deliberação** de PEC **tendente a abolir**: (a) a forma federativa de Estado; (b) o voto direto, secreto, universal e periódico; (c) a separação dos Poderes; (d) os direitos e garantias individuais. São as chamadas **cláusulas pétreas**.
+**Limites materiais: o que não pode ser abolido.** O art. 60, § 4º, impede até a **deliberação** de PEC **tendente a abolir**: (a) a forma federativa de Estado; (b) o voto direto, secreto, universal e periódico; (c) a separação dos Poderes; (d) os direitos e garantias individuais. São as chamadas **cláusulas pétreas**. O critério é a tendência a abolir a proteção constitucional, não a simples menção a um desses temas.
 
 ### O que significa uma cláusula pétrea? 
 

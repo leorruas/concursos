@@ -107,7 +107,7 @@ A tradição da psicologia da **Gestalt** investiga formas de organização perc
 
 **Exemplo 3:** um serviço apresenta ótima sequência de passos, mas cada página usa nome distinto para a mesma ação. A inconsistência de terminologia compromete compreensão e navegação mesmo com bom grid.
 
-O método de Patricia Roedel na nota 76 articula planejar, desenvolver e avaliar textos para que pessoas consigam **encontrar, entender e usar** a informação. Não tratar linguagem simples como mera troca de palavras difíceis: envolve organização, apresentação e teste.
+O método de Patricia Roedel no artigo [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|Patricia Roedel: Manual de Linguagem Simples, planejamento, desenvolvimento e avaliação]] articula planejar, desenvolver e avaliar textos para que pessoas consigam **encontrar, entender e usar** a informação. Não tratar linguagem simples como mera troca de palavras difíceis: envolve organização, apresentação e teste.
 
 ## Contraste, cor e acessibilidade: normas com escopo definido
 

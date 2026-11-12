@@ -178,7 +178,7 @@
             <input type="search" id="nav-search-input" placeholder="pesquisar..." autocomplete="off">
         </label>
         <div class="nav-acoes">
-            <a href="#/glossario?concurso=cgu-2026" class="nav-link-pastas" id="nav-link-glossario">glossário</a>
+            <a href="#/glossario?concurso=camara-2026" class="nav-link-pastas" id="nav-link-glossario">glossário</a>
             <a href="https://concurso-estudo.leoruas.workers.dev/resultados.html" class="nav-link-pastas" id="nav-link-resultados">meus resultados</a>
             <a href="#explorar-disciplinas" class="nav-link-pastas" id="nav-link-pastas">índice</a>
             <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Alternar tema">modo claro</button>
@@ -206,9 +206,13 @@
 
         <section class="orientacoes-iniciais" id="orientacoes-iniciais" aria-labelledby="orientacoes-iniciais-titulo">
             <h2 id="orientacoes-iniciais-titulo" class="sr-only">Ferramentas de estudo</h2>
-            <a class="home-flashcards-entry home-glossario-entry escondido" id="home-glossario-entry" href="#/glossario?concurso=cgu-2026">
-                <span class="home-flashcards-copy"><span class="home-flashcards-label">consulta rápida</span><strong>glossário CGU</strong><span>Definições, siglas e diferenças entre conceitos próximos</span></span>
+            <a class="home-flashcards-entry home-glossario-entry" id="home-glossario-entry" href="#/glossario?concurso=camara-2026">
+                <span class="home-flashcards-copy"><span class="home-flashcards-label">consulta rápida</span><strong id="home-glossario-titulo">glossário Câmara</strong><span>Definições, siglas e diferenças entre conceitos próximos</span></span>
                 <span class="home-flashcards-action">consultar termos</span>
+            </a>
+            <a class="home-flashcards-entry" href="https://concurso-estudo.leoruas.workers.dev/flashcards.html">
+                <span class="home-flashcards-copy"><span class="home-flashcards-label">revisão ativa</span><strong>flashcards</strong><span>Pratique conceitos, diferenças e revisões dos concursos</span></span>
+                <span class="home-flashcards-action">estudar cartões</span>
             </a>
             <a class="home-flashcards-entry" href="https://concurso-estudo.leoruas.workers.dev/resultados.html">
                 <span class="home-flashcards-copy"><span class="home-flashcards-label">acompanhamento privado</span><strong>meus resultados</strong><span>Erros recorrentes, desempenho e artigos para revisão com login GitHub</span></span>
@@ -227,17 +231,17 @@
         </div>
 
         <section class="glossario-pagina escondido" id="glossario-pagina" aria-labelledby="glossario-titulo">
-            <nav class="glossario-breadcrumb"><a href="#/?concurso=cgu-2026">início</a><span>/</span> CGU 2026 <span>/</span> glossário</nav>
+            <nav class="glossario-breadcrumb"><a id="glossario-inicio-link" href="#/?concurso=camara-2026">início</a><span>/</span> <span id="glossario-concurso-breadcrumb">Câmara dos Deputados 2026</span> <span>/</span> glossário</nav>
             <div class="glossario-cabecalho">
                 <p class="glossario-rotulo">referência de estudo · Cebraspe · C/E</p>
-                <h2 id="glossario-titulo">glossário: CGU</h2>
+                <h2 id="glossario-titulo">glossário: Câmara dos Deputados</h2>
                 <p>Conceitos, siglas e distinções essenciais. Filtre por matéria ou artigo, ou organize os conceitos por artigo. Só aparecem definições revisadas.</p>
             </div>
             <div class="glossario-ferramentas">
                 <label for="glossario-busca" class="sr-only">Pesquisar termos do glossário</label>
                 <input id="glossario-busca" type="search" placeholder="buscar termo, sigla ou conceito..." autocomplete="off">
                 <div class="glossario-filtros">
-                    <label for="glossario-bloco">bloco
+                    <label for="glossario-bloco" id="glossario-bloco-filtro">bloco
                         <select id="glossario-bloco"><option value="">todos os blocos</option><option value="P1">P1</option><option value="P2">P2</option><option value="P3">P3</option></select>
                     </label>
                     <label for="glossario-materia">matéria

@@ -64,6 +64,35 @@ O **Plano Diretor da Reforma do Aparelho do Estado (PDRAE)**, de 1995, é o prin
 
 O PDRAE procurou deslocar parte do controle de procedimentos para resultados, ampliar a autonomia gerencial e diferenciar formas de atuação do Estado em quatro setores: núcleo estratégico, atividades exclusivas, serviços não exclusivos e produção de bens e serviços para o mercado.
 
+### PDRAE: quatro setores, propriedade e formas de execução (CAM-AP-005; DA-026)
+
+O **Plano Diretor da Reforma do Aparelho do Estado (1995)** propôs analisar **setor de atividade**, **tipo de propriedade** e **modo de gestão/controle** como dimensões distintas. As correspondências abaixo descrevem **a proposta histórica do PDRAE**, e não uma ordem jurídica atual para transferir serviços ou privatizar organizações.
+
+| Setor no PDRAE | Papel e exemplo | Propriedade indicada no plano | Foco de gestão e controle |
+| --- | --- | --- | --- |
+| **Núcleo estratégico** | Formula leis e políticas, define diretrizes e cobra seu cumprimento; cúpula dos Poderes, Ministério Público e dirigentes | **Estatal** | Efetividade das decisões, combinação de controle político, burocrático e gerencial |
+| **Atividades exclusivas** | Exercício de prerrogativas de Estado, fiscalização, regulação, arrecadação e poder de polícia | **Estatal** | Qualidade e eficiência sob competência e controles públicos |
+| **Serviços não exclusivos** | Serviços sociais e científicos que podem ser realizados por Estado e organizações não estatais, como pesquisa, saúde e educação | **Pública não estatal** como preferência do modelo, admitida também a prestação estatal | Controle de resultados, participação social, parcerias e prestação de contas |
+| **Produção de bens e serviços para o mercado** | Atividades empresariais potencialmente coordenadas pelo mercado, sem esquecer casos especiais de interesse público | **Privada** como direção preferencial do plano, com situações excepcionais de propriedade estatal | Regulação, concorrência quando aplicável e eficiência |
+
+**Setor não equivale a órgão nem a instrumento jurídico.** Um hospital público pode oferecer serviço social não exclusivo e continuar estatal. Uma organização social é entidade privada sem fins lucrativos qualificada sob lei específica, e seu **contrato de gestão** não a transforma em órgão público. Agência reguladora que exerce poder regulatório pertence ao campo das atividades exclusivas mesmo que dialogue com prestadores privados. A divisão do plano é uma **tipologia administrativa histórica**, não classificação constitucional vinculante de todas as instituições atuais.
+
+**Publicização no PDRAE** designava a proposta de transferir a **execução de serviços não exclusivos** do setor estatal ao **público não estatal**, sob formas próprias de parceria, mantendo interesse público e controle. **Privatização** refere-se à passagem de atividade ou propriedade estatal para o setor privado segundo o processo aplicável. **Terceirização** consiste em contratar execução de determinada atividade ou serviço, sem significar necessariamente alienação do patrimônio ou transferência da atribuição pública. **Descentralização administrativa** pode ocorrer por entidade integrante da Administração indireta e não é sinônimo desses três movimentos.
+
+**Caso progressivo:** (1) a Administração redige uma política: núcleo estratégico; (2) a fiscalização de seu cumprimento envolve prerrogativa estatal: atividade exclusiva; (3) universidade pública executa pesquisa: serviço não exclusivo prestado pelo próprio Estado; (4) entidade qualificada como OS executa atividade de pesquisa sob contrato de gestão na hipótese legal: serviço não exclusivo com colaboração pública não estatal; (5) empresa é contratada apenas para manutenção predial da universidade: contratação de serviço, sem que a universidade tenha sido privatizada ou publicizada. **Contraexemplo:** afirmar que todo serviço de saúde classificado pelo PDRAE como não exclusivo deve obrigatoriamente ser executado por OS: o plano não impõe essa conclusão.
+
+**Questões inéditas C/E:**
+
+**1.** No modelo do PDRAE, serviços não exclusivos poderiam ser prestados por organizações públicas estatais ou públicas não estatais, sem que a expressão “não exclusivos” proibisse a atuação direta do Estado. **Gabarito: Certo.** A tipologia indica possibilidade de atuação de múltiplos prestadores; a preferência do plano não elimina a prestação estatal.
+
+**2.** Para o PDRAE, núcleo estratégico e atividades exclusivas são setores que exigem, como diretriz, propriedade privada dos meios de execução. **Gabarito: Errado.** O plano indica propriedade estatal em ambos.
+
+**3.** Publicização, privatização e terceirização são nomes equivalentes para a mesma operação de alienação de empresa pública. **Gabarito: Errado.** Possuem objetos e consequências institucionais diferentes.
+
+**4.** A qualificação de entidade privada como organização social produz, por si só, sua integração à Administração Pública indireta. **Gabarito: Errado.** OS permanece pessoa jurídica privada; qualificação e parceria não a tornam autarquia ou fundação pública.
+
+Os quatro enunciados são autorais de treino, e não questões reais Cebraspe. **Fonte conceitual:** Presidência da República, Câmara da Reforma do Estado, *Plano Diretor da Reforma do Aparelho do Estado* (1995), especialmente seção “Setores do Estado e formas de propriedade”; para o regime de OS, [Lei 9.637/1998](https://www.planalto.gov.br/ccivil_03/leis/l9637.htm). Ver [[3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor|Parcerias com setor privado e terceiro setor]].
+
 ### Contratualização de resultados e instrumentos de pactuação
 
 A contratualização de resultados consubstancia o instrumento gerencial por excelência para conferir maior autonomia e cobrar desempenho. Na Administração Pública brasileira, esse mecanismo fundamenta-se expressamente no art. 37, § 8º, da Constituição Federal (acrescentado pela Emenda Constitucional nº 19/1998), que autoriza a ampliação da autonomia gerencial, orçamentária e financeira dos órgãos e entidades da administração direta e indireta mediante a celebração de **contrato de gestão** (ou instrumento de pactuação congênere), que fixe metas de desempenho institucional, prazos, critérios de avaliação e responsabilidades dos dirigentes.

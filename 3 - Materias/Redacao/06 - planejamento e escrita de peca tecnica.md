@@ -140,3 +140,74 @@ A primeira produção semanal pode ser uma questão curta sobre a relação **si
 - [Cebraspe, Câmara 2026, Processo Legislativo e Gestão: padrão definitivo das duas questões e da peça](https://cdn.cebraspe.org.br/concursos/cd_25_ns/arquivos/D5F3CAA9B8BAEA93D7B1750A43949FF94C88F2DA3F44ADAE978062F601A94FDD.pdf).
 - [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|Planejamento estratégico e diagnóstico]]; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|Briefing publicitário]].
 - [[07 - revisao e autocorrecao de discursivas e pecas|Revisão e autocorreção (CAM-DIS-009)]].
+
+
+## Caso progressivo: peça com mais quesitos e monitoramento associado (autoral)
+
+O primeiro modelo ensina a organizar uma nota curta. Nesta segunda situação, o problema inclui informações sobre **audiências públicas**, mas não pressupõe competência de uma unidade específica nem cria prazo, orçamento ou obrigação normativa. **Comando fictício de treino:** “Elabore nota técnica destinada à coordenação de comunicação, em até 50 linhas. Delimite as barreiras de informação e os limites das evidências disponíveis; identifique objetivo e públicos; apresente três medidas diferentes de comunicação; explique como verificar separadamente os resultados de cada medida; indique encaminhamento responsável”. Este é um **enunciado autoral**. A distribuição de aspectos abaixo é uma **grade didática sem pesos oficiais**.
+
+**Resposta-modelo com 45 linhas digitais artificiais:**
+
+```text
+01 NOTA TÉCNICA: ACESSO A INFORMAÇÕES DE AUDIÊNCIAS
+02 Destinatário: Coordenação de Comunicação
+03 Objeto: reduzir barreiras informacionais ao acompanhar
+04 e solicitar participação em audiências públicas.
+05 1. Situação e limites do diagnóstico
+06 Relatos de usuários indicam dificuldade em localizar
+07 agenda, requisitos e canais de participação.
+08 Os relatos não comprovam a frequência das barreiras
+09 nem permitem atribuir sua causa à divulgação.
+10 Antes de definir soluções, verificar páginas, convites
+11 e percursos completos de busca e inscrição;
+12 ouvir públicos com diferentes condições de acesso,
+13 incluindo usuários de tecnologias assistivas.
+14 Registrar o que foi observado e o que é hipótese.
+15 2. Objetivo e públicos
+16 O objetivo é permitir que interessados localizem
+17 informações válidas e compreendam como participar.
+18 Considerar usuários dos canais oficiais, cidadãos
+19 sem acesso habitual a redes sociais e pessoas
+20 que enfrentem barreiras de leitura ou navegação.
+21 3. Medidas propostas
+22 Primeira: organizar página oficial com agenda,
+23 tema, local, transmissão e instruções atualizadas.
+24 Indicar fonte, responsável e data da revisão.
+25 Segunda: criar convites claros com informações
+26 essenciais, links descritivos e texto alternativo
+27 para imagens informativas, conforme o formato.
+28 Terceira: revisar vídeos e transmissões quanto
+29 às barreiras reais; prever recursos acessíveis
+30 compatíveis com o conteúdo e os públicos.
+31 Testar a execução das três medidas antes do evento.
+32 4. Acompanhamento por medida
+33 Na página, observar se usuários conseguem localizar
+34 a agenda e completar a tarefa de inscrição.
+35 Nos convites, testar compreensão de data, requisitos
+36 e caminho até o canal oficial de participação.
+37 Nos vídeos, verificar se as informações relevantes
+38 são compreensíveis pelos públicos considerados
+39 com os recursos efetivamente disponibilizados.
+40 Registrar dúvidas, barreiras e correções efetuadas.
+41 Alcance e visualizações não demonstram, isoladamente,
+42 compreensão, inclusão ou participação efetiva.
+43 5. Encaminhamento
+44 Validar o diagnóstico com as áreas responsáveis,
+45 testar um piloto e revisar as medidas pelos achados.
+```
+
+| Exigência expressa no comando | Evidência localizável | Julgamento didático | Limite da conclusão |
+| --- | --- | --- | --- |
+| Problema e força da evidência | 5–14: relatos, hipóteses e coleta | Atendido | Falta medir frequência ou causa; não inventar resultados |
+| Objetivo e públicos | 15–20: tarefas e grupos com barreiras | Atendido | A lista é provisória até investigação |
+| Três medidas distintas | 21–31: página, convites e vídeos | Atendido | Recursos dependem do contexto |
+| Monitoramento **por medida** | 32–42: tarefa de navegação, compreensão dos convites, recursos audiovisuais | Atendido ao comando fictício | Verificações observacionais não demonstram efeito causal |
+| Encaminhamento | 43–45: validação e piloto | Atendido | Aprovação e competências reais não estão estabelecidas |
+
+**Teste de fronteira:** trocar “acompanhar as medidas” por “demonstrar que as medidas aumentaram a participação” muda o verbo e o padrão de prova. Os testes acima observam acesso e compreensão, mas são **insuficientes para demonstrar efeito causal sobre participação**. Para afirmar impacto seria preciso desenho de avaliação adequado, dados comparáveis e exame de explicações alternativas. Isso mostra por que uma lista de métricas não equivale a prova de resultado.
+
+**Contraexemplo de cobertura parcial, mesmo com três medidas corretas:** “Publicaremos uma página, convites acessíveis e vídeos com legendas. Vamos medir curtidas e visualizações para provar que a participação melhorou”. A enumeração inicial atende parcialmente ao bloco de ações, mas não identifica barreiras, não diferencia os públicos, não demonstra acompanhamento de cada medida e atribui causalidade sem fundamento. O reparo consiste em formular uma observação pertinente para cada intervenção e limitar a inferência, como nas linhas 32–42.
+
+**Revisão da primeira peça de 28 linhas:** seu bloco de acompanhamento, nas linhas 25–28, é útil como triagem, mas **parcial** diante do comando que exige acompanhar o resultado das três medidas. Uma reescrita sugerida é: “Testar se usuários encontram a agenda na página; verificar se compreendem datas e requisitos dos convites; e observar se os recursos dos vídeos atendem aos públicos previstos. Registrar dúvidas e corrigir os materiais antes do evento seguinte.” A correção é **didática** e pode ocupar mais linhas manuscritas; cortar trechos redundantes antes de inserir a revisão.
+
+**Treino de transferência:** reescreva o comando para pedir um **briefing**, mantendo o problema e trocando a finalidade: agora o documento precisa orientar a equipe de produção, indicando informações existentes, lacunas, públicos e entregáveis; não apresentar um diagnóstico concluído. Depois reescreva para pedir um **plano**, acrescentando responsáveis e sequência de implantação **apenas se estiverem no comando**. Confronte as três versões pela finalidade, não pelo cabeçalho. A quebra digital de linha não substitui folha real nem simula nota da Cebraspe.

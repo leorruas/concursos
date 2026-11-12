@@ -19601,6 +19601,357 @@
       "statement": "Um teste pode medir separadamente se as pessoas lembram a instrução e se conseguem executar a tarefa, ainda que ambas as medidas sejam coletadas com os mesmos participantes.",
       "correctAnswer": "C",
       "explanation": "As medidas têm objetos distintos. Usar a mesma base facilita examinar a relação entre eles sem tratá-los como equivalentes."
+    },
+    {
+      "id": "cam-cs-politica-e-acao-pontual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / plano de comunicação",
+      "articleId": "art-3d6f82b40e9715ac",
+      "conceptId": "politica-e-acao-pontual",
+      "mechanism": "politica-e-acao-pontual",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3d6f82b40e9715ac#Quatro níveis de decisão: política, estratégia, plano e ação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md",
+        "section": "Quatro níveis de decisão: política, estratégia, plano e ação"
+      },
+      "statement": "Enviar um aviso é, por si só, formular uma política de comunicação.",
+      "correctAnswer": "E",
+      "explanation": "O envio é uma ação. A política estabelece princípios e diretrizes para decisões recorrentes."
+    },
+    {
+      "id": "cam-cs-operacao-apos-projeto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / plano de comunicação",
+      "articleId": "art-3d6f82b40e9715ac",
+      "conceptId": "operacao-apos-projeto",
+      "mechanism": "operacao-apos-projeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3d6f82b40e9715ac#Programa, projeto, operação, atividade e entrega"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md",
+        "section": "Programa, projeto, operação, atividade e entrega"
+      },
+      "statement": "Criar uma central de orientações com escopo e prazo definidos pode ser um projeto, enquanto atualizá-la rotineiramente após a entrega pode ser uma operação.",
+      "correctAnswer": "C",
+      "explanation": "O projeto é temporário. A manutenção recorrente integra a operação."
+    },
+    {
+      "id": "cam-cs-briefing-com-lacuna-de-execucao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / plano de comunicação",
+      "articleId": "art-3d6f82b40e9715ac",
+      "conceptId": "briefing-com-lacuna-de-execucao",
+      "mechanism": "briefing-com-lacuna-de-execucao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3d6f82b40e9715ac#Briefing, plano de comunicação e plano de mídia"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md",
+        "section": "Briefing, plano de comunicação e plano de mídia"
+      },
+      "statement": "Um briefing que delimita problema e público comprova que já foram definidos responsáveis, orçamento e sequência de execução.",
+      "correctAnswer": "E",
+      "explanation": "O briefing delimita insumos e condições iniciais. O plano articula os recursos e a execução."
+    },
+    {
+      "id": "cam-cs-especificar-acao-sem-testar-escolha",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / plano de comunicação",
+      "articleId": "art-3d6f82b40e9715ac",
+      "conceptId": "especificar-acao-sem-testar-escolha",
+      "mechanism": "especificar-acao-sem-testar-escolha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3d6f82b40e9715ac#5W2H: perguntas operacionais, sem substituir a estratégia"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao.md",
+        "section": "5W2H: perguntas operacionais, sem substituir a estratégia"
+      },
+      "statement": "Um quadro pode detalhar quando e como enviar um boletim e ainda deixar em aberto se o boletim é adequado ao problema diagnosticado.",
+      "correctAnswer": "C",
+      "explanation": "A descrição operacional explica a execução. A adequação depende da relação entre o meio, o público e o problema."
+    },
+    {
+      "id": "cam-cs-previsao-nao-apaga-desvio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / gestão de projetos",
+      "articleId": "art-6c72b9e450a813df",
+      "conceptId": "previsao-nao-apaga-desvio",
+      "mechanism": "previsao-nao-apaga-desvio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6c72b9e450a813df#Controle da execução: linha de base, realizado, desvio e ação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md",
+        "section": "Controle da execução: linha de base, realizado, desvio e ação"
+      },
+      "statement": "Ao detectar atraso, substituir a referência aprovada pela nova previsão sem registrar a mudança preserva a capacidade de apurar o desvio original.",
+      "correctAnswer": "E",
+      "explanation": "O desvio original requer a referência aprovada. A previsão atualizada estima o que ocorrerá daqui em diante."
+    },
+    {
+      "id": "cam-cs-conformidade-tecnica-e-uso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / gestão de projetos",
+      "articleId": "art-6c72b9e450a813df",
+      "conceptId": "conformidade-tecnica-e-uso",
+      "mechanism": "conformidade-tecnica-e-uso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6c72b9e450a813df#Qualidade e aceite: verificar, validar, aprovar e publicar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md",
+        "section": "Qualidade e aceite: verificar, validar, aprovar e publicar"
+      },
+      "statement": "Um arquivo pode cumprir o formato contratado e ainda falhar num teste em que os usuários precisam localizar determinada instrução.",
+      "correctAnswer": "C",
+      "explanation": "Formato e uso verificam critérios diferentes. A conformidade técnica não estabelece sucesso na tarefa."
+    },
+    {
+      "id": "cam-cs-iteracao-com-marco-fixo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / gestão de projetos",
+      "articleId": "art-6c72b9e450a813df",
+      "conceptId": "iteracao-com-marco-fixo",
+      "mechanism": "iteracao-com-marco-fixo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6c72b9e450a813df#Abordagens preditivas, adaptativas e híbridas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md",
+        "section": "Abordagens preditivas, adaptativas e híbridas"
+      },
+      "statement": "Uma equipe pode testar versões sucessivas de um guia com leitores e manter uma data fixa para a aprovação final. O teste iterativo e o marco fixo podem coexistir numa abordagem híbrida.",
+      "correctAnswer": "C",
+      "explanation": "As iterações tratam a incerteza sobre o conteúdo. O marco fixa uma condição de coordenação para a aprovação."
+    },
+    {
+      "id": "cam-cs-escalada-de-impacto-transversal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / gestão de projetos",
+      "articleId": "art-6c72b9e450a813df",
+      "conceptId": "escalada-de-impacto-transversal",
+      "mechanism": "escalada-de-impacto-transversal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6c72b9e450a813df#Comunicação e escalonamento na gestão do projeto"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md",
+        "section": "Comunicação e escalonamento na gestão do projeto"
+      },
+      "statement": "Uma equipe tem autonomia para mudar o texto, mas a mudança exige interromper outro projeto que usa a mesma fila de revisão. A autonomia textual basta para decidir unilateralmente a prioridade da fila.",
+      "correctAnswer": "E",
+      "explanation": "A decisão de conteúdo e a alocação de capacidade compartilhada têm escopos distintos. O impacto transversal pode exigir arbitragem."
+    },
+    {
+      "id": "cam-cs-meta-cumprida-com-custo-maior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / avaliação",
+      "articleId": "art-6bd29c1e87f043a5",
+      "conceptId": "meta-cumprida-com-custo-maior",
+      "mechanism": "meta-cumprida-com-custo-maior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6bd29c1e87f043a5#Eficiência, eficácia e efetividade: outro eixo classificatório"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md",
+        "section": "Eficiência, eficácia e efetividade: outro eixo classificatório"
+      },
+      "statement": "Duas campanhas atingem a mesma meta de inscrições válidas. Mantidos os demais critérios, a que consumiu mais recursos pode ter menor eficiência por inscrição apesar de cumprir a meta.",
+      "correctAnswer": "C",
+      "explanation": "Cumprir a meta indica eficácia nesse critério. A eficiência relaciona o resultado aos recursos empregados."
+    },
+    {
+      "id": "cam-cs-efeito-com-mudanca-de-registro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / avaliação",
+      "articleId": "art-6bd29c1e87f043a5",
+      "conceptId": "efeito-com-mudanca-de-registro",
+      "mechanism": "efeito-com-mudanca-de-registro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6bd29c1e87f043a5#Medir e avaliar: os desenhos possíveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md",
+        "section": "Medir e avaliar: os desenhos possíveis"
+      },
+      "statement": "Após uma campanha, o painel passa a registrar inscrições iniciadas como concluídas. O aumento da série identifica o efeito da campanha sobre inscrições efetivamente concluídas.",
+      "correctAnswer": "E",
+      "explanation": "A regra de registro alterou o significado do indicador. Para comparar resultados é preciso reconstruir uma série compatível antes de avaliar atribuição."
+    },
+    {
+      "id": "cam-cs-quadrante-com-mudanca-de-interesse",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / públicos",
+      "articleId": "art-43a9f2d71b0e65c8",
+      "conceptId": "quadrante-com-mudanca-de-interesse",
+      "mechanism": "quadrante-com-mudanca-de-interesse",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-43a9f2d71b0e65c8#Mendelow: matriz poder × interesse"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais.md",
+        "section": "Mendelow: matriz poder × interesse"
+      },
+      "statement": "Se o poder de um grupo permanece alto e seu interesse cresce durante a implantação, a prioridade de relacionamento pode mudar na matriz de Mendelow.",
+      "correctAnswer": "C",
+      "explanation": "Os dois eixos são avaliados separadamente. Alterar o interesse pode deslocar o grupo para outro quadrante."
+    },
+    {
+      "id": "cam-cs-organograma-com-vinculos-a-confirmar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / comunicação formal e informal",
+      "articleId": "art-c49f86d2107ae35b",
+      "conceptId": "organograma-com-vinculos-a-confirmar",
+      "mechanism": "organograma-com-vinculos-a-confirmar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c49f86d2107ae35b#Rede de interação versus organograma"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao.md",
+        "section": "Rede de interação versus organograma"
+      },
+      "statement": "O organograma é suficiente para identificar quais colegas são procurados informalmente para esclarecer dúvidas.",
+      "correctAnswer": "E",
+      "explanation": "O organograma descreve relações formais. A busca por orientação informal precisa ser observada nas interações."
+    },
+    {
+      "id": "cam-cs-escuta-da-experiencia-comunicacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / dimensões",
+      "articleId": "art-6493b2e7a10dc58f",
+      "conceptId": "escuta-da-experiencia-comunicacional",
+      "mechanism": "escuta-da-experiencia-comunicacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6493b2e7a10dc58f#Dimensão humana: pessoas, subjetividade e diálogo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch.md",
+        "section": "Dimensão humana: pessoas, subjetividade e diálogo"
+      },
+      "statement": "Investigar como trabalhadores interpretam uma mensagem de mudança e expressam suas dúvidas é compatível com a dimensão humana da comunicação.",
+      "correctAnswer": "C",
+      "explanation": "Essa dimensão examina sujeitos, interações e sentidos atribuídos à comunicação."
     }
   ]
 }

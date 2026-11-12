@@ -63,6 +63,6 @@ Quarenta questões de comunicação institucional vinculadas aos artigos 53 a 55
 
 Três itens revisados e reformulados após o cotejo de mecanismos. O par sobre reflexão e espelhamento cobra direções distintas no modelo de Hatch e Schultz.
 
-## Lote 012 em elaboração
+## Lote 012 em revisão
 
-Vinte e sete questões de comunicação organizacional sobre dimensões, integração, fluxos, redes, públicos, planejamento, indicadores e gestão de projetos. Completar o lote com casos que integrem esses recortes.
+Quarenta questões de comunicação organizacional sobre dimensões, integração, fluxos, redes, públicos, planejamento, indicadores e gestão de projetos. Revisar gabaritos, níveis de dificuldade e sobreposições com os exercícios publicados.

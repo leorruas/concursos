@@ -12700,6 +12700,122 @@
       "statement": "Quando os fatos disponíveis demonstram apenas que uma pessoa é investigada, o título deve preservar essa distinção em vez de apresentá-la como culpada.",
       "correctAnswer": "C",
       "explanation": "A presunção de inocência é fundamento da atividade jornalística no Código. O título precisa refletir o estado da apuração."
+    },
+    {
+      "id": "cam-di-responsabilidade-na-opiniao-assinada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "responsabilidade-na-opiniao-assinada",
+      "mechanism": "responsabilidade-na-opiniao-assinada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Núcleo do Código de Ética dos Jornalistas",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 10"
+      },
+      "statement": "Classificar uma coluna como opinativa elimina o dever de exercer com responsabilidade a opinião ali manifestada.",
+      "correctAnswer": "E",
+      "explanation": "O art. 10 trata especificamente da opinião em meios de informação e exige responsabilidade em seu exercício."
+    },
+    {
+      "id": "cam-di-beneficio-pessoal-por-credencial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "beneficio-pessoal-por-credencial",
+      "mechanism": "beneficio-pessoal-por-credencial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Condutas expressamente vedadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Condutas expressamente vedadas",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 7º, IX"
+      },
+      "statement": "Pedir desconto em uma compra particular invocando a condição de jornalista deixa de ser uma questão ética quando o produto não será tema de reportagem.",
+      "correctAnswer": "E",
+      "explanation": "A vedação recai sobre usar a condição profissional para obter vantagem pessoal. A ausência de cobertura sobre o produto não altera a finalidade do pedido."
+    },
+    {
+      "id": "cam-di-cobertura-de-cliente-sem-vinculo-empregaticio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "cobertura-de-cliente-sem-vinculo-empregaticio",
+      "mechanism": "cobertura-de-cliente-sem-vinculo-empregaticio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Condutas expressamente vedadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Condutas expressamente vedadas",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 7º, VI"
+      },
+      "statement": "A vedação de cobrir para o veículo em que trabalha uma organização à qual o jornalista presta serviços pode incidir mesmo se a prestação ocorrer sem vínculo de emprego.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo inclui a prestação de serviços entre os vínculos abrangidos, além do emprego."
+    },
+    {
+      "id": "cam-di-exposicao-parcial-de-pessoa-ameacada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "exposicao-parcial-de-pessoa-ameacada",
+      "mechanism": "exposicao-parcial-de-pessoa-ameacada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Condutas expressamente vedadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Condutas expressamente vedadas",
+        "url": "https://fenaj.org.br/codigo-de-etica-dos-jornalistas-brasileiros/",
+        "locator": "art. 7º, IV"
+      },
+      "statement": "Ocultar o rosto de uma pessoa ameaçada basta para cumprir o Código quando a reportagem divulga seu local de trabalho e permite identificá-la parcialmente.",
+      "correctAnswer": "E",
+      "explanation": "A proteção abrange a identificação parcial, inclusive pela indicação do local de trabalho. Ocultar o rosto elimina apenas um dos meios de identificação."
     }
   ]
 }

@@ -36314,8 +36314,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e4f1e43ef81ff76b",
-      "conceptId": "rpo-perda-maxima-de-dados",
-      "mechanism": "separar-perda-e-tempo-fora",
+      "conceptId": "rpo-calcular-janela-perda",
+      "mechanism": "comparar-perda-efetiva-com-rpo",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
@@ -36327,10 +36327,10 @@
         "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
         "section": "6. Métricas essenciais de recuperação: RPO e RTO"
       },
-      "statement": "Se um órgão define RPO de quinze minutos para um sistema, seu objetivo é limitar a aproximadamente quinze minutos o intervalo de dados que poderia ser perdido num incidente.",
+      "statement": "Uma política estabelece RPO de vinte minutos. Se o último ponto recuperável do banco é das 10h e ocorre um incidente às 10h25, restaurar apenas esse ponto ultrapassa a tolerância de perda de dados definida.",
       "correctAnswer": "C",
-      "explanation": "RPO descreve a tolerância a perda de dados medida em tempo, e não o prazo para recolocar o serviço em operação.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"6. Métricas essenciais de recuperação: RPO e RTO\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "O intervalo entre o último ponto recuperável e o incidente é 25 minutos. Como o RPO estabelece tolerância máxima de 20 minutos de dados potencialmente perdidos, a recuperação disponível não alcança esse objetivo.",
+      "reviewEvidence": "Lote 026: revisão corretiva em 12/11/2026, substituindo repetição conceitual por caso de aplicação (comparar-perda-efetiva-com-rpo). Cotejado com a seção literal '6. Métricas essenciais de recuperação: RPO e RTO' do artigo canônico art-e4f1e43ef81ff76b; conferência editorial técnica automatizada, sem validação humana. Manter revisada até triagem de originalidade final e CI atualizado."
     },
     {
       "id": "cam-ti-l026-020-rto-frequencia-das-copias",
@@ -36342,8 +36342,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e4f1e43ef81ff76b",
-      "conceptId": "rto-frequencia-das-copias",
-      "mechanism": "trocar-rto-por-rpo",
+      "conceptId": "rto-meta-nao-garante-recuperacao",
+      "mechanism": "distinguir-objetivo-de-tempo-real-testado",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
@@ -36355,10 +36355,10 @@
         "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
         "section": "6. Métricas essenciais de recuperação: RPO e RTO"
       },
-      "statement": "Fixar RTO de quatro horas significa, necessariamente, que os backups devem ser feitos a cada quatro horas, independentemente do tempo necessário para restabelecer o serviço.",
+      "statement": "Definir RTO de quatro horas para um serviço garante que ele será restabelecido nesse prazo após uma falha, mesmo que não existam testes de recuperação ou infraestrutura capaz de cumprir esse objetivo.",
       "correctAnswer": "E",
-      "explanation": "RTO é o limite desejado de indisponibilidade até a recuperação; frequência de cópias está relacionada à estratégia para atender o RPO.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"6. Métricas essenciais de recuperação: RPO e RTO\" do artigo 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "O RTO é uma meta de tempo aceitável de indisponibilidade. Cumpri-la depende de procedimentos, infraestrutura, integridade das cópias e testes; fixar o objetivo não assegura o resultado.",
+      "reviewEvidence": "Lote 026: revisão corretiva em 12/11/2026, substituindo repetição conceitual por caso de aplicação (distinguir-objetivo-de-tempo-real-testado). Cotejado com a seção literal '6. Métricas essenciais de recuperação: RPO e RTO' do artigo canônico art-e4f1e43ef81ff76b; conferência editorial técnica automatizada, sem validação humana. Manter revisada até triagem de originalidade final e CI atualizado."
     },
     {
       "id": "cam-ti-l026-021-spear-phishing-mensagem-contextualizada",
@@ -36818,8 +36818,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-e3831c8dec419d79",
-      "conceptId": "dispersao-nao-prova-causalidade",
-      "mechanism": "separar-associacao-de-causa",
+      "conceptId": "dispersao-pares-observados-vs-totais",
+      "mechanism": "preservar-pareamento-das-duas-variaveis",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
@@ -36831,10 +36831,10 @@
         "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
         "section": "2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
       },
-      "statement": "Uma nuvem de pontos mostra associação positiva entre duas medidas institucionais. Sem desenho de estudo adequado, esse padrão não permite afirmar que aumentar uma das medidas provocará aumento da outra.",
+      "statement": "Para investigar a associação entre tempo de atendimento e número de solicitações por unidade, um gráfico de dispersão que mantenha os pares de medidas de cada unidade é mais apropriado do que dois totais agregados separados, pois permite observar como os valores variam conjuntamente.",
       "correctAnswer": "C",
-      "explanation": "Dispersão mostra associação observada; causalidade requer controlar explicações alternativas, como variáveis de confusão e direção da relação.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. O gráfico de dispersão (*scatter plot*): relações bivariadas\" do artigo 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "Cada ponto em um gráfico de dispersão representa um par de medidas observado para a mesma unidade. Totais isolados de cada variável perdem a correspondência entre as observações e não mostram o padrão bivariado.",
+      "reviewEvidence": "Lote 026: revisão corretiva em 12/11/2026, substituindo repetição conceitual por caso de aplicação (preservar-pareamento-das-duas-variaveis). Cotejado com a seção literal '2. O gráfico de dispersão (*scatter plot*): relações bivariadas' do artigo canônico art-e3831c8dec419d79; conferência editorial técnica automatizada, sem validação humana. Manter revisada até triagem de originalidade final e CI atualizado."
     },
     {
       "id": "cam-ti-l026-038-pearson-zero-prova-independencia",

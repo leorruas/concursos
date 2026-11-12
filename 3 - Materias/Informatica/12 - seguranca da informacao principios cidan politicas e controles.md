@@ -76,8 +76,8 @@ flowchart TD
 ### 1.5 Não Repúdio (Irretratabilidade)
 - **Definição**: Capacidade de provar a autoria e a ocorrência de uma ação ou transação eletrônica de tal maneira que nem o remetente nem o destinatário possam negar com sucesso que enviaram, processaram ou receberam a informação.
 - **Objeto protegido**: A validade e a oponibilidade jurídica do ato eletrônico.
-- **Mecanismos de controle**: Assinatura digital com carimbo de tempo (*timestamp*) emitida sob a Infraestrutura de Chaves Públicas Brasileira (ICP-Brasil), logs centralizados e imutáveis com registros de transação.
-- **Diferença sutil entre Autenticidade e Não Repúdio**: A *autenticidade* valida que a mensagem partiu de determinado autor no momento da criação; o *não repúdio* agrega uma força probatória incontestável perante terceiros (inclusive no Poder Judiciário), impedindo que o signatário conteste judicialmente a autoria do documento por ele assinado digitalmente.
+- **Mecanismos de controle**: assinaturas digitais verificáveis, gestão adequada de certificados/chaves, registros de auditoria protegidos e, quando pertinente, carimbo do tempo confiável. Um certificado ICP-Brasil e um carimbo do tempo **não tornam a evidência infalível**; preservação de chaves, cadeia de confiança e contexto de uso importam.
+- **Diferença entre autenticidade e não repúdio**: a autenticidade refere-se à identificação da origem; mecanismos de não repúdio procuram produzir evidências verificáveis da autoria e da integridade de uma operação. **Evidência criptográfica não é prova judicial incontestável**: a MP nº 2.200-2/2001, art. 10, § 1º, estabelece presunção de veracidade relativa ao signatário para documentos eletrônicos produzidos com certificação ICP-Brasil, sujeita à análise do caso e a prova em contrário. O signatário pode contestar uso indevido, comprometimento de chave e outras circunstâncias; não confundir a finalidade do controle com impossibilidade jurídica de defesa.
 
 ---
 
@@ -185,7 +185,7 @@ A **Política de Segurança da Informação (PSI)** é o documento formal de mai
    - Falou em *"adulteração / alteração não autorizada / corrompimento"* $\rightarrow$ **Integridade**.
    - Falou em *"fora do ar / indisponível / sobrecarga de requisições / falha de energia"* $\rightarrow$ **Disponibilidade**.
    - Falou em *"provar a identidade de quem fez / verificar que a pessoa é ela mesma"* $\rightarrow$ **Autenticidade**.
-   - Falou em *"impedir de negar o que fez / não poder voltar atrás"* $\rightarrow$ **Não Repúdio (Irretratabilidade)**.
+   - Falou em *"produzir prova verificável de autoria / dificultar negação posterior"* $\rightarrow$ **Não Repúdio**. Isso **não** elimina o direito de contestação nem torna a evidência absoluta.
 2. **Criptografia $\times$ Hash**:
    - Criptografia (cifração com chaves) protege a **Confidencialidade**.
    - Hash (resumo unidirecional) protege a **Integridade**.
@@ -205,3 +205,5 @@ A **Política de Segurança da Informação (PSI)** é o documento formal de mai
 > **Revisão dirigida (11/11/2026):** ajustes com base nos achados TI-049 a TI-058 da auditoria da Câmara, distinguindo características gerais de implementações específicas. Persistem pendências de validação integral das questões e referências.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** questões 1–6 mantêm **E, C, E, E, E, C**. Corrigida a periodicidade indevidamente universal da revisão da PSI; distinguidos hash isolado, disponibilidade e ataques combinados. A ISO/IEC 27001 exige revisão em intervalos planejados e diante de mudanças pertinentes, não necessariamente a cada ano.
+
+> **Correção de erro jurídico crítico TI-050 (11/11/2026):** removida a afirmação de força probatória incontestável da assinatura digital. Fonte oficial: [MP nº 2.200-2/2001, art. 10, § 1º](https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm). O gabarito C/E da questão sobre a finalidade do não repúdio permanece CERTO, sem atribuir certeza judicial absoluta.

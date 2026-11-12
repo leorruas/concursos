@@ -184,3 +184,13 @@ A revisão final dirigida sobre o backlog histórico avançou nas passagens conc
 **Limite de execução:** acesso de checkout externo ao GitHub pelo terminal local indisponível (falha de resolução DNS); a conexão GitHub permite ler e escrever os arquivos remotamente. O workflow `.github/workflows/validar-publico.yml` está configurado para `pull_request` e contém `node scripts/test-camara-questions.js`; sem uma execução desse workflow para os commits, o status de teste permanece **pendente**. Não atribuir estado `validado` ao guard ou ao site apenas por inspeção textual.
 
 **Próximas ações:** executar e reparar a suíte Node/CI, realizar link-check/renderização Mermaid/Markdown da publicação, conferir referências externas sensíveis a versão/licença e calibrar itens inéditos remanescentes por amostra de provas oficiais, mantendo claramente distintas questões reais Cebraspe e itens autorais.
+
+## Checkpoint de conteúdo: pendências TI-117, TI-127, TI-128 e TI-129 (11/11/2026)
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+|:--|:--|:--|:--|:--|:--|
+| 17, governança digital | diagrama confundia tipo de assinatura com escala universal de risco; exemplos de qualificada excediam hipóteses legais | diagrama e matriz vinculados ao art. 5º, §§ 1º–2º, da Lei 14.063/2020 | `cb4d690` | releitura após commit; texto oficial da Câmara cotejado; seis itens C/E preservados | corrigido |
+| 25, transformação e qualidade | diagrama não explicitava o sentido de agregação; *forward fill* confundido com *backward fill*; mediana dita universalmente preferível | setas da granularidade fina à grossa, definição de ambas imputações, escolhas condicionais | `c0a2a40` | releitura após commit, exemplos e seis itens preservados | corrigido |
+| 26, escolha de gráficos | limite fixo de cinco ou seis categorias para pizza e juízo perceptivo absoluto | substituído por critérios de legibilidade, tarefa e proximidade entre valores | `a47a420` | releitura após commit e manutenção dos seis itens C/E | corrigido |
+
+**Parecer editorial atual:** não há necessidade comprovada de artigo novo para essas três lacunas. Os artigos específicos receberam conteúdo corrigido sem mudar `articleId`, `articleAliases`, caminhos ou a organização de exercícios. **Persistem validações de sistema**: teste completo Node.js, execução do workflow em PR, renderização Mermaid, verificação de todos os links e calibragem externa dos itens C/E não homologados. Os 13 enunciados originais NH continuam fora do treino e as substitutas estão nos próprios artigos. Portanto, **conteúdo substancialmente reparado**, mas **material não certificado integralmente**.

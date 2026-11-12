@@ -77,6 +77,18 @@ for (const item of blockedTi.values()) {
   assert.throws(() => assertCamaraTiQuestionAllowed(root,session,{...q,origin:'real'}), /NÃO HOMOLOGADA/,
     'CAM-TI: mudar indevidamente a origem para real não pode liberar um enunciado bloqueado');
   assert.throws(() => validate({...session, questions:[q]}), /NÃO HOMOLOGADA/);
+  // A guarda deve resistir a diferenças que a normalização textual já prevê.
+  const withWhitespaceAndCase = '  ' + item.statement.toUpperCase().replace(/\\s+/g, '   ') + '  ';
+  assert.throws(() => assertCamaraTiQuestionAllowed(root, session,
+    {...q, statement:withWhitespaceAndCase}), /NÃO HOMOLOGADA/,
+    'CAM-TI: caixa e espaços não podem liberar uma questão suspensa');
+  // Também bloquear quando a matéria está apenas no contexto da sessão.
+  assert.throws(() => assertCamaraTiQuestionAllowed(root,
+    {...session, subjectId:'informatica'}, {...q, subjectId:null, unitId:null}), /NÃO HOMOLOGADA/,
+    'CAM-TI: assunto definido somente na sessão não pode ser ignorado');
+  // Um item de outra banca não pode ser vetado só por compartilhar a redação.
+  assert.doesNotThrow(() => assertCamaraTiQuestionAllowed(root,
+    {...session, concursoId:'cgu-2026'}, q));
   // Nenhuma outra disciplina pode ser bloqueada pelo texto de Informática.
   assert.doesNotThrow(() => assertCamaraTiQuestionAllowed(root,session,
     {...q,subjectId:'portugues',unitId:'lingua-portuguesa'}));

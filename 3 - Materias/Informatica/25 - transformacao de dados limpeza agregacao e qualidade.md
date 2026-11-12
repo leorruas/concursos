@@ -63,9 +63,9 @@ EXCLUSÃO / DELEÇÃO                              IMPUTAÇÃO DE VALORES
    - *Quando usar:* A análise do mecanismo de ausência e do impacto da exclusão mostra que a perda de linhas não compromete as estimativas nem introduz viés relevante. Um percentual pequeno, isoladamente, não garante exclusão segura.
    - *Risco:* Pode introduzir viés de seleção grave se os dados não faltarem de forma puramente aleatória.
 2. **Imputação por Tendência Central (Média versus Mediana):**
-   - **Média:** Recomendada apenas para distribuições estritamente simétricas e sem valores discrepantes (*outliers*).
+   - **Média:** Pode servir como imputação simples em dados quantitativos em certos cenários, mas é sensível a valores extremos e reduz artificialmente a variabilidade; avaliar distribuição, mecanismo de ausência, objetivo e validação dos resultados. Simetria perfeita não é requisito necessário nem garantia de adequação.
    - **Mediana:** É a medida **robusta** preferida quando a distribuição for assimétrica ou contiver *outliers* expressivos (ex.: remunerações de servidores ou patrimônio declarado).
-   - **Moda (Valor mais frequente):** Padrão exclusivo para imputação em variáveis qualitativas/categóricas nominais.
+   - **Moda (valor mais frequente):** Alternativa simples para variáveis categóricas, quando a categoria dominante faz sentido e o mecanismo de ausência não introduz viés inaceitável; também pode ser usada para valores discretos. Não é procedimento obrigatório nem exclusivo para dados categóricos.
 3. **Imputação Temporal (*Forward Fill / Backward Fill*):**
    - Propaga o último valor válido observado para a data seguinte. Muito comum em cotações e indicadores econômicos diários.
 
@@ -89,11 +89,13 @@ Um *outlier* é uma observação que se desvia substancialmente do padrão geral
 A **granularidade** (ou grão do dado) refere-se ao **nível de detalhe atômico** com que as informações são representadas no conjunto de dados.
 
 ```
-Nível Alto   [Tabela Sintética Agregada]  --> Total gasto por Partido Político por Ano
-   ▲
-   │         [Tabela Agregada Intermediária] --> Total gasto por Deputado por Mês
-   │
-Nível Baixo  [Tabela Analítica Atômica]   --> Cada nota fiscal individual de reembolso (CEAP)
+GRANULARIDADE GROSSA / MENOS DETALHE
+    [Tabela sintética]        --> Total por partido e ano
+                   ▲ agregação (reduz detalhe)
+    [Tabela intermediária]   --> Total por deputado e mês
+                   ▲ agregação (reduz detalhe)
+    [Tabela atômica]         --> Cada nota fiscal de reembolso (CEAP)
+GRANULARIDADE FINA / MAIS DETALHE
 ```
 
 ### 4.1. Funções de Agregação e Agrupamento
@@ -104,8 +106,8 @@ Na linguagem SQL e nas ferramentas de BI, a operação de transformar dados atô
 - `MIN()` e `MAX()`: Valores extremos no grupo.
 
 ### 4.2. O Trade-off da Granularidade
-- **Alta Granularidade (Mais Detalhada/Fina):** Permite investigações pontuais, cruzamento de notas fiscais e auditoria fina. Inconveniente: exige imensa capacidade de armazenamento e consultas mais lentas.
-- **Baixa Granularidade (Agregada/Grossa):** Gera relatórios executivos rápidos e gráficos limpos. Inconveniente: **perda irreversível de informação de detalhe** (é impossível derivar o detalhe de uma nota fiscal a partir de um valor já agregado anualmente).
+- **Granularidade fina (maior detalhamento):** Permite investigações pontuais, cruzamento de notas fiscais e auditoria detalhada. Pode aumentar o volume e o custo das consultas, conforme o sistema e os índices disponíveis.
+- **Granularidade grossa (menor detalhamento):** Facilita resumos e comparações gerais, mas uma tabela que **só preserva totais agregados** não permite reconstruir, a partir desses totais, cada nota fiscal original. Se os registros atômicos forem mantidos em outra fonte, o detalhe continua recuperável nela.
 
 ---
 

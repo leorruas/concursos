@@ -72,11 +72,13 @@ Entre os conteúdos mínimos estão:
 
 Os sítios oficiais devem possuir, entre outros requisitos, ferramenta de pesquisa, possibilidade de acesso em formatos abertos e estruturados, atualização, autenticidade, integridade e medidas de acessibilidade.
 
-### Exceções e regras especiais de transparência ativa: LAI, arts. 8º, § 4º, e 8º-A
+### Exceções e regimes específicos de transparência ativa: LAI, arts. 8º, § 4º, 8º-A e 8º-B
 
 **Municípios com até 10 mil habitantes:** o **art. 8º, § 4º, da LAI** dispensa esses municípios da **divulgação obrigatória na internet prevista no § 2º**, mas **preserva** a obrigação de divulgação **em tempo real** de informações de execução orçamentária e financeira, nos critérios e prazos do art. 73-B da Lei de Responsabilidade Fiscal. A exceção é específica: não elimina o direito de acesso à informação ou torna facultativo responder aos pedidos da LAI. Também não se aplica à Câmara dos Deputados.
 
-**Serviços sociais autônomos:** o **art. 8º-A, incluído pela Lei nº 15.141/2025**, disciplina deveres de publicidade de informações relativas a empregados de entidades privadas constituídas como **serviços sociais autônomos**, quando destinatárias de **contribuições** ou **recursos públicos federais decorrentes de contrato de gestão**, conforme a hipótese legal. A lei prevê divulgação de **plano de cargos e salários e critérios de evolução/fixação salarial**, **quantitativo de empregados discriminado por cargo e faixas salariais com nomes e cargos**, e **faixas de parcelas remuneratórias e indenizatórias** previstas no dispositivo. **Serviço social autônomo não é sinônimo de organização social (OS), OSCIP ou autarquia**: cada figura exige identificação jurídica própria.
+**Serviços sociais autônomos:** o **art. 8º-A, incluído pela Lei nº 15.141/2025**, disciplina deveres de publicidade de informações relativas a empregados de entidades privadas constituídas como **serviços sociais autônomos**, quando destinatárias de **contribuições** ou **recursos públicos federais decorrentes de contrato de gestão**, conforme a hipótese legal. A lei prevê divulgação de **plano de cargos e salários e critérios de evolução/fixação salarial**, **quantitativo de empregados discriminado por cargo e faixas salariais com nomes e cargos**, **faixas de parcelas remuneratórias e indenizatórias** previstas no dispositivo e **quantitativo de funções gratificadas, critérios de ocupação e relação dos empregados que ocupam cada espécie de função gratificada** (inciso IV). **Serviço social autônomo não é sinônimo de organização social (OS), OSCIP ou autarquia**: cada figura exige identificação jurídica própria.
+
+**Conselhos de fiscalização profissional, art. 8º-B:** também incluído pela Lei nº 15.141/2025, o dispositivo determina que os conselhos divulguem, **de forma nominal e individualizada**, a lista de parcelas **remuneratórias e indenizatórias**, inclusive eventuais, que seus empregados possam receber em condições específicas. **Art. 8º-A × art. 8º-B:** o primeiro se dirige às entidades privadas constituídas como serviços sociais autônomos nas condições descritas na lei e inclui outras informações sobre carreira e cargos; o segundo se dirige a **conselhos de fiscalização profissional** e destaca divulgação nominal e individualizada das parcelas indicadas. Não estender automaticamente todas as obrigações de um dispositivo a entidades do outro.
 
 **Caso de prova:** uma prefeitura com nove mil habitantes deve observar a regra especial do § 4º, mantendo os deveres orçamentários/financeiros expressos. Uma OSC qualificada nos termos da Lei 9.637/1998 não se transforma automaticamente em **serviço social autônomo** pelo uso da palavra “social”. A aplicação do art. 8º-A exige verificar a natureza da entidade e a hipótese legal.
 
@@ -88,7 +90,11 @@ Os sítios oficiais devem possuir, entre outros requisitos, ferramenta de pesqui
 
 **3.** O art. 8º-A da LAI, introduzido em 2025, trata de publicidade referente a empregados de determinados serviços sociais autônomos, sem converter indistintamente OS e OSCIP nessa categoria. **Gabarito: Certo.** O alcance depende da natureza jurídica da entidade e da hipótese descrita.
 
-**Fonte normativa atualizada:** [Lei 12.527/2011, arts. 8º e 8º-A, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html). Os itens são autorais, não retirados de provas oficiais.
+**4.** A Lei nº 15.141/2025 acrescentou à LAI regras específicas tanto para serviços sociais autônomos quanto para conselhos de fiscalização profissional, mas com redações e destinatários distintos. **Gabarito: Certo.** Os arts. 8º-A e 8º-B possuem âmbitos e listas de informações próprios.
+
+**5.** O art. 8º-A da LAI restringe a divulgação de serviços sociais autônomos a plano de cargos e salários, dispensando informação sobre funções gratificadas. **Gabarito: Errado.** O inciso IV exige quantitativo de funções, critérios de ocupação e rol dos empregados em cada espécie.
+
+**Fonte normativa atualizada:** [Lei 12.527/2011, arts. 8º, 8º-A e 8º-B, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html). Os itens são autorais, não retirados de provas oficiais.
 
 ### Transparência passiva
 

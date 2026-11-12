@@ -17768,7 +17768,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Mapa integrado: conceitos próximos, critérios diferentes"
       ],
@@ -17778,7 +17778,8 @@
       },
       "statement": "Quando a direção descreve quais características considera centrais para a organização e usuários relatam como a percebem, as duas fontes podem informar objetos distintos da análise institucional.",
       "correctAnswer": "C",
-      "explanation": "A descrição interna pode informar a identidade. O relato dos usuários informa a imagem que esse público forma."
+      "explanation": "A descrição interna pode informar a identidade. O relato dos usuários informa a imagem que esse público forma.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Mapa integrado: conceitos próximos, critérios diferentes em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-medida-imediata-sem-durabilidade",
@@ -17795,7 +17796,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Relações temporais e causais: o que uma campanha pode demonstrar?"
       ],
@@ -17805,7 +17806,8 @@
       },
       "statement": "Uma melhora de avaliação obtida no dia de um evento comprova que a mudança de reputação persistirá no semestre seguinte.",
       "correctAnswer": "E",
-      "explanation": "A avaliação imediata informa a reação no contexto medido. Persistência exige observação posterior."
+      "explanation": "A avaliação imediata informa a reação no contexto medido. Persistência exige observação posterior.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Relações temporais e causais: o que uma campanha pode demonstrar? em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-reclamacoes-e-diagnostico-por-canal",
@@ -17822,7 +17824,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-482d6ef913a0c75b#Sinais e fontes: monitorar não é medir todo o público"
       ],
@@ -17832,7 +17834,8 @@
       },
       "statement": "Se surgem reclamações repetidas sobre um serviço num canal restrito, elas podem justificar investigação mesmo sem representar estatisticamente todos os usuários.",
       "correctAnswer": "C",
-      "explanation": "O monitoramento detecta sinais que podem orientar investigação. Estimar prevalência na população exige outro desenho."
+      "explanation": "O monitoramento detecta sinais que podem orientar investigação. Estimar prevalência na população exige outro desenho.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Sinais e fontes: monitorar não é medir todo o público em 3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-operacao-restaurada-e-demanda-reprimida",
@@ -17849,7 +17852,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-482d6ef913a0c75b#Diagnóstico: cinco perguntas que não podem ser fundidas"
       ],
@@ -17859,7 +17862,8 @@
       },
       "statement": "Depois que o portal volta ao ar, a equipe pode concluir que todos os pedidos represados foram atendidos apenas verificando que a página inicial carrega.",
       "correctAnswer": "E",
-      "explanation": "A restauração técnica e o tratamento dos pedidos acumulados são fatos distintos. O segundo depende de evidência sobre as solicitações."
+      "explanation": "A restauração técnica e o tratamento dos pedidos acumulados são fatos distintos. O segundo depende de evidência sobre as solicitações.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Diagnóstico: cinco perguntas que não podem ser fundidas em 3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-instrucao-e-reconhecimento-do-impacto",
@@ -17876,7 +17880,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Coombs: informação instrutiva e informação de adaptação"
       ],
@@ -17886,7 +17890,8 @@
       },
       "statement": "Um aviso pode indicar um canal alternativo de atendimento e reconhecer a frustração das pessoas afetadas. As duas partes atendem a necessidades diferentes na resposta à crise.",
       "correctAnswer": "C",
-      "explanation": "O canal alternativo orienta a ação. Reconhecer a frustração ajuda o público a lidar com o impacto."
+      "explanation": "O canal alternativo orienta a ação. Reconhecer a frustração ajuda o público a lidar com o impacto.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Coombs: informação instrutiva e informação de adaptação em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-atualizacao-com-verificacao-parcial",
@@ -17903,7 +17908,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Seis princípios CERC: rapidez e precisão coexistem"
       ],
@@ -17913,7 +17918,8 @@
       },
       "statement": "Para divulgar uma atualização rapidamente, a equipe precisa apresentar como confirmada a causa que ainda está em apuração.",
       "correctAnswer": "E",
-      "explanation": "Uma atualização pode apresentar fatos confirmados, declarar o que falta apurar e indicar quando haverá novo informe."
+      "explanation": "Uma atualização pode apresentar fatos confirmados, declarar o que falta apurar e indicar quando haverá novo informe.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Seis princípios CERC: rapidez e precisão coexistem em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-porta-voz-e-validacao-tecnica",
@@ -17925,12 +17931,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
       "articleId": "art-e31c94bd720a5f86",
-      "conceptId": "porta-voz-e-validacao-tecnica",
-      "mechanism": "porta-voz-e-validacao-tecnica",
+      "conceptId": "porta-voz-e-questao-fora-da-competencia",
+      "mechanism": "encaminhar-pergunta-tecnica",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Porta-voz, comitê e público interno"
       ],
@@ -17938,9 +17944,10 @@
         "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
         "section": "Porta-voz, comitê e público interno"
       },
-      "statement": "Designar um porta-voz central permite que ele confirme a causa de uma interrupção antes de receber a verificação da equipe técnica.",
-      "correctAnswer": "E",
-      "explanation": "A centralização organiza a divulgação. A confirmação da causa depende da apuração técnica."
+      "statement": "Em uma entrevista, o porta-voz pode encaminhar uma pergunta especializada à equipe responsável e combinar o retorno ao veículo sem abandonar a coordenação da comunicação.",
+      "correctAnswer": "C",
+      "explanation": "Coordenar a comunicação inclui organizar a obtenção de informações verificadas. O encaminhamento técnico permite responder dentro da competência pertinente.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Porta-voz, comitê e público interno em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-alerta-e-fonte-de-atualizacao",
@@ -17957,7 +17964,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Canais e suas funções durante uma crise"
       ],
@@ -17967,7 +17974,8 @@
       },
       "statement": "Um alerta breve pode orientar a ação imediata e apontar para uma página que concentra atualizações verificadas durante a crise.",
       "correctAnswer": "C",
-      "explanation": "O alerta privilegia rapidez e instrução. A página mantém uma referência consultável para fatos que mudam ao longo do episódio."
+      "explanation": "O alerta privilegia rapidez e instrução. A página mantém uma referência consultável para fatos que mudam ao longo do episódio.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Canais e suas funções durante uma crise em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-avaliacao-de-orientacao-por-tarefa",
@@ -17984,7 +17992,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Avaliação: o que é possível concluir?"
       ],
@@ -17994,7 +18002,8 @@
       },
       "statement": "Para verificar se um aviso ensinou a usar o canal alternativo, observar se pessoas do público conseguem localizar e acessar esse canal oferece evidência mais direta do que contar visualizações do aviso.",
       "correctAnswer": "C",
-      "explanation": "A execução da tarefa mede a capacidade de aplicar a instrução. Visualizações medem exposição."
+      "explanation": "A execução da tarefa mede a capacidade de aplicar a instrução. Visualizações medem exposição.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Avaliação: o que é possível concluir? em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-transicao-sem-fim-de-atualizacao",
@@ -18006,12 +18015,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
       "articleId": "art-e31c94bd720a5f86",
-      "conceptId": "transicao-sem-fim-de-atualizacao",
-      "mechanism": "transicao-sem-fim-de-atualizacao",
+      "conceptId": "transicao-e-pendencias-de-reparacao",
+      "mechanism": "distinguir-fase-de-resolucao-e-reparo-individual",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Fases: qual autor e qual critério?"
       ],
@@ -18019,9 +18028,10 @@
         "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
         "section": "Fases: qual autor e qual critério?"
       },
-      "statement": "Passar da resposta inicial para a fase de manutenção torna dispensável corrigir um horário de atendimento divulgado incorretamente no primeiro aviso.",
-      "correctAnswer": "E",
-      "explanation": "A manutenção inclui atualizar informações e corrigir erros que ainda podem orientar a conduta do público."
+      "statement": "Na comunicação de emergência, informar a retomada geral do serviço pode fazer parte da fase de resolução mesmo se ainda for necessário explicar como serão tratados pedidos individuais afetados.",
+      "correctAnswer": "C",
+      "explanation": "A fase de resolução inclui comunicar consequências e reparos. A normalização geral pode coexistir com pendências individuais que ainda precisam de orientação.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Fases: qual autor e qual critério? em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-atributo-central-mas-compartilhado",
@@ -18038,7 +18048,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Albert e Whetten (1985): três critérios para investigar identidade"
       ],
@@ -18048,7 +18058,8 @@
       },
       "statement": "Uma característica pode ser central e persistente em uma instituição. Essas duas evidências bastam para demonstrar que ela também distingue a instituição de outras.",
       "correctAnswer": "E",
-      "explanation": "Centralidade, continuidade e distintividade são critérios diferentes. Uma característica central e persistente pode ser comum a instituições semelhantes."
+      "explanation": "Centralidade, continuidade e distintividade são critérios diferentes. Uma característica central e persistente pode ser comum a instituições semelhantes.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Albert e Whetten (1985): três critérios para investigar identidade em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-sinal-prodomico-com-intervencao",
@@ -18065,7 +18076,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-482d6ef913a0c75b#Steven Fink: sinais prodrômicos e uma classificação temporal diferente"
       ],
@@ -18075,7 +18086,8 @@
       },
       "statement": "Alertas recorrentes de falha num sistema podem orientar medidas preventivas antes da interrupção do serviço, ainda que a interrupção jamais se concretize.",
       "correctAnswer": "C",
-      "explanation": "A fase prodrômica enfatiza sinais antecipados. Identificar o sinal não exige que o episódio agudo já tenha ocorrido."
+      "explanation": "A fase prodrômica enfatiza sinais antecipados. Identificar o sinal não exige que o episódio agudo já tenha ocorrido.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Steven Fink: sinais prodrômicos e uma classificação temporal diferente em 3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-historico-e-atribuicao-de-responsabilidade",
@@ -18092,7 +18104,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#SCCT: grupos de crise, intensificadores e estratégias"
       ],
@@ -18103,7 +18115,7 @@
       "statement": "Se a SCCT indica maior ameaça reputacional por histórico de crises, esse diagnóstico também informa, por si só, quantas horas a equipe técnica precisará para reparar o sistema.",
       "correctAnswer": "E",
       "explanation": "A ameaça reputacional e o prazo de reparo exigem evidências distintas. O prazo depende da falha técnica e dos recursos de recuperação.",
-      "reviewEvidence": "Gabarito confrontado com SCCT: grupos de crise, intensificadores e estratégias e mecanismo reformulado após comparação editorial."
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com SCCT: grupos de crise, intensificadores e estratégias em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-reputacao-com-experiencias-distintas",
@@ -18120,7 +18132,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Fombrun (1996): reputação e avaliação acumulada"
       ],
@@ -18130,7 +18142,8 @@
       },
       "statement": "Públicos que tiveram experiências diferentes com a mesma instituição podem consolidar avaliações diferentes dela ao longo do tempo.",
       "correctAnswer": "C",
-      "explanation": "A avaliação acumulada depende das experiências e informações de cada público. Uma reputação favorável num grupo não determina a avaliação de outro."
+      "explanation": "A avaliação acumulada depende das experiências e informações de cada público. Uma reputação favorável num grupo não determina a avaliação de outro.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Fombrun (1996): reputação e avaliação acumulada em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-risco-e-incidente-sem-dano",
@@ -18147,7 +18160,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-482d6ef913a0c75b#Classificação inicial: risco, issue, incidente, emergência e crise"
       ],
@@ -18157,7 +18170,8 @@
       },
       "statement": "Um erro que já interrompeu o envio de confirmações continua sendo apenas um risco futuro se nenhum usuário tiver apresentado reclamação.",
       "correctAnswer": "E",
-      "explanation": "A interrupção já ocorreu e constitui um incidente. A ausência de reclamações não muda a ocorrência do evento."
+      "explanation": "A interrupção já ocorreu e constitui um incidente. A ausência de reclamações não muda a ocorrência do evento.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Classificação inicial: risco, issue, incidente, emergência e crise em 3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-teste-de-contato-com-substituicao",
@@ -18174,7 +18188,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-482d6ef913a0c75b#Preparação: reduzir improviso antes do episódio"
       ],
@@ -18184,7 +18198,8 @@
       },
       "statement": "Um exercício em que o porta-voz titular está indisponível pode revelar se o plano de crise prevê uma substituição que funciona na prática.",
       "correctAnswer": "C",
-      "explanation": "Simular a indisponibilidade permite verificar contatos, atribuições e acesso do substituto às informações necessárias."
+      "explanation": "Simular a indisponibilidade permite verificar contatos, atribuições e acesso do substituto às informações necessárias.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Preparação: reduzir improviso antes do episódio em 3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-canal-de-alerta-independente-do-servico",
@@ -18201,7 +18216,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Canais e suas funções durante uma crise"
       ],
@@ -18211,7 +18226,8 @@
       },
       "statement": "Se o portal é o próprio serviço indisponível, divulgar a orientação apenas nele pode impedir que as pessoas afetadas descubram como proceder.",
       "correctAnswer": "C",
-      "explanation": "A escolha do canal deve considerar se o público ainda consegue acessá-lo durante a falha. Um canal independente pode alcançar quem não entra no portal."
+      "explanation": "A escolha do canal deve considerar se o público ainda consegue acessá-lo durante a falha. Um canal independente pode alcançar quem não entra no portal.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Canais e suas funções durante uma crise em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-prazo-prometido-e-validacao-operacional",
@@ -18228,7 +18244,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Operação, comunicação e obrigação legal"
       ],
@@ -18238,7 +18254,8 @@
       },
       "statement": "Anunciar a retomada do atendimento para uma hora específica comprova que a equipe operacional tem condições de cumprir esse prazo.",
       "correctAnswer": "E",
-      "explanation": "A publicação registra uma previsão. Sua viabilidade depende dos recursos e do estado da operação."
+      "explanation": "A publicação registra uma previsão. Sua viabilidade depende dos recursos e do estado da operação.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Operação, comunicação e obrigação legal em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-imagem-pretendida-e-inferencia-interna",
@@ -18255,7 +18272,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista"
       ],
@@ -18265,7 +18282,8 @@
       },
       "statement": "Uma equipe pode querer que o público perceba a instituição como acessível e, ao mesmo tempo, acreditar que ele a considera distante. Essas afirmações expressam pontos de vista distintos.",
       "correctAnswer": "C",
-      "explanation": "A primeira descreve a imagem pretendida. A segunda descreve o que membros da instituição acreditam que pessoas externas pensam dela."
+      "explanation": "A primeira descreve a imagem pretendida. A segunda descreve o que membros da instituição acreditam que pessoas externas pensam dela.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-reabertura-e-recuperacao-reputacional",
@@ -18282,7 +18300,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Avaliação: o que é possível concluir?"
       ],
@@ -18292,7 +18310,8 @@
       },
       "statement": "A volta do atendimento ao nível habitual de capacidade basta para concluir que as pessoas afetadas recuperaram a confiança na instituição.",
       "correctAnswer": "E",
-      "explanation": "A capacidade de atendimento mede recuperação operacional. A recuperação de confiança exige evidência sobre a avaliação das pessoas afetadas."
+      "explanation": "A capacidade de atendimento mede recuperação operacional. A recuperação de confiança exige evidência sobre a avaliação das pessoas afetadas.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Avaliação: o que é possível concluir? em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-espelhamento-com-retorno-do-publico",
@@ -18309,7 +18328,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
       ],
@@ -18319,7 +18338,8 @@
       },
       "statement": "Uma instituição passa a questionar como define seu papel depois que os usuários descrevem sua atuação de modo inesperado. No modelo de Hatch e Schultz, incorporar essa imagem externa à discussão sobre identidade exemplifica espelhamento.",
       "correctAnswer": "C",
-      "explanation": "No espelhamento, imagens externas alimentam a compreensão da organização sobre quem ela é."
+      "explanation": "No espelhamento, imagens externas alimentam a compreensão da organização sobre quem ela é.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Hatch e Schultz (2002): identidade em relação à cultura e à imagem em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-expressao-cultural-sem-campanha",
@@ -18336,7 +18356,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
       ],
@@ -18346,7 +18366,8 @@
       },
       "statement": "Uma rotina em que servidores consultam colegas de outras áreas antes de decidir pode expressar um entendimento cultural de cooperação, mesmo sem ter sido criada para uma campanha institucional.",
       "correctAnswer": "C",
-      "explanation": "No processo de expressão, práticas e símbolos tornam visíveis entendimentos culturais. A expressão não depende de uma peça promocional."
+      "explanation": "No processo de expressão, práticas e símbolos tornam visíveis entendimentos culturais. A expressão não depende de uma peça promocional.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Hatch e Schultz (2002): identidade em relação à cultura e à imagem em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-reflexao-sobre-identidade-e-praticas",
@@ -18363,7 +18384,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
       ],
@@ -18373,7 +18394,8 @@
       },
       "statement": "Se a discussão sobre o papel da instituição leva equipes a rever pressupostos de trabalho, o modelo de Hatch e Schultz classifica o movimento exclusivamente como produção de impressões externas.",
       "correctAnswer": "E",
-      "explanation": "O caso descreve a reflexão sobre identidade influenciando a cultura. Produzir impressões é o movimento da identidade em direção às imagens externas."
+      "explanation": "O caso descreve a reflexão sobre identidade influenciando a cultura. Produzir impressões é o movimento da identidade em direção às imagens externas.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Hatch e Schultz (2002): identidade em relação à cultura e à imagem em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-impressao-pretendida-e-recepcao-incerta",
@@ -18390,7 +18412,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Hatch e Schultz (2002): identidade em relação à cultura e à imagem"
       ],
@@ -18400,7 +18422,8 @@
       },
       "statement": "Uma peça apresenta a organização como aberta ao diálogo. Sua publicação garante que a imagem formada pelos usuários reproduza essa identidade.",
       "correctAnswer": "E",
-      "explanation": "A expressão pública da identidade pode influenciar impressões. A imagem também depende da interpretação e da experiência dos públicos."
+      "explanation": "A expressão pública da identidade pode influenciar impressões. A imagem também depende da interpretação e da experiência dos públicos.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Hatch e Schultz (2002): identidade em relação à cultura e à imagem em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-pico-por-republicacao",
@@ -18417,7 +18440,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-482d6ef913a0c75b#Sinais e fontes: monitorar não é medir todo o público"
       ],
@@ -18427,7 +18450,8 @@
       },
       "statement": "Se uma denúncia é republicada cem vezes a partir do mesmo relato, o total de republicações comprova que cem pessoas sofreram o problema.",
       "correctAnswer": "E",
-      "explanation": "A contagem registra circulação. Para estimar ocorrências, é preciso identificar relatos independentes e verificar o fato."
+      "explanation": "A contagem registra circulação. Para estimar ocorrências, é preciso identificar relatos independentes e verificar o fato.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Sinais e fontes: monitorar não é medir todo o público em 3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-gravidade-e-visibilidade",
@@ -18444,7 +18468,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-482d6ef913a0c75b#Diagnóstico: cinco perguntas que não podem ser fundidas"
       ],
@@ -18454,7 +18478,8 @@
       },
       "statement": "Uma falha que impede um pequeno grupo de cumprir um prazo pode exigir resposta urgente mesmo quando gera poucas menções públicas.",
       "correctAnswer": "C",
-      "explanation": "O diagnóstico considera o dano e a urgência para quem foi afetado. O volume de menções mede visibilidade."
+      "explanation": "O diagnóstico considera o dano e a urgência para quem foi afetado. O volume de menções mede visibilidade.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Diagnóstico: cinco perguntas que não podem ser fundidas em 3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-instrucao-segmentada-por-impacto",
@@ -18471,7 +18496,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Coombs: informação instrutiva e informação de adaptação"
       ],
@@ -18481,7 +18506,8 @@
       },
       "statement": "Se a interrupção exige que apenas as pessoas que iniciaram um pedido refaçam o envio, a orientação deve explicitar quem precisa agir.",
       "correctAnswer": "C",
-      "explanation": "A informação instrutiva identifica a ação necessária e o grupo ao qual ela se aplica. Uma orientação indiscriminada pode gerar pedidos duplicados."
+      "explanation": "A informação instrutiva identifica a ação necessária e o grupo ao qual ela se aplica. Uma orientação indiscriminada pode gerar pedidos duplicados.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Coombs: informação instrutiva e informação de adaptação em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-medida-cautelar-antes-da-causa",
@@ -18498,7 +18524,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Operação, comunicação e obrigação legal"
       ],
@@ -18508,7 +18534,8 @@
       },
       "statement": "Uma equipe pode suspender temporariamente novos agendamentos e explicar a medida enquanto a causa das duplicidades continua sob investigação.",
       "correctAnswer": "C",
-      "explanation": "A ação limita o impacto observado. Informar a providência e a incerteza permite orientar os usuários sem antecipar a causa."
+      "explanation": "A ação limita o impacto observado. Informar a providência e a incerteza permite orientar os usuários sem antecipar a causa.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Operação, comunicação e obrigação legal em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-reclamacoes-caem-com-canal-fechado",
@@ -18525,7 +18552,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Avaliação: o que é possível concluir?"
       ],
@@ -18535,7 +18562,8 @@
       },
       "statement": "Uma queda nas reclamações após a retirada do formulário de atendimento demonstra redução da insatisfação.",
       "correctAnswer": "E",
-      "explanation": "A retirada altera a possibilidade de registrar reclamações. O total observado pode cair sem mudança na insatisfação."
+      "explanation": "A retirada altera a possibilidade de registrar reclamações. O total observado pode cair sem mudança na insatisfação.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Avaliação: o que é possível concluir? em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-correcao-com-indicacao-de-horario",
@@ -18552,7 +18580,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Seis princípios CERC: rapidez e precisão coexistem"
       ],
@@ -18562,7 +18590,8 @@
       },
       "statement": "Se o prazo divulgado no primeiro aviso estava errado, indicar na atualização qual informação mudou e quando ajuda o público a identificar a orientação vigente.",
       "correctAnswer": "C",
-      "explanation": "Uma correção explícita permite distinguir versões e reduz a chance de continuar usando a informação anterior."
+      "explanation": "Uma correção explícita permite distinguir versões e reduz a chance de continuar usando a informação anterior.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Seis princípios CERC: rapidez e precisão coexistem em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-identidade-com-referencial",
@@ -18579,7 +18608,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Mapa integrado: conceitos próximos, critérios diferentes"
       ],
@@ -18590,7 +18619,7 @@
       "statement": "Uma instituição pode substituir formulários impressos por um portal e continuar reconhecendo como central a orientação ao cidadão. A mudança de suporte não é suficiente para demonstrar perda de continuidade desse atributo.",
       "correctAnswer": "C",
       "explanation": "A continuidade diz respeito à permanência do atributo ao longo do tempo. Ele pode se manifestar por práticas e suportes diferentes.",
-      "reviewEvidence": "Gabarito confrontado com Mapa integrado: conceitos próximos, critérios diferentes e mecanismo reformulado após comparação editorial."
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Mapa integrado: conceitos próximos, critérios diferentes em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-reputacao-e-mudanca-de-amostra",
@@ -18607,7 +18636,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Fombrun (1996): reputação e avaliação acumulada"
       ],
@@ -18617,7 +18646,8 @@
       },
       "statement": "Uma sondagem inicial ouve principalmente usuários frequentes. A segunda ouve sobretudo pessoas sem contato direto. Se a avaliação média cai, a diferença identifica a mudança de reputação entre usuários frequentes.",
       "correctAnswer": "E",
-      "explanation": "A composição mudou e o agregado não identifica a variação entre usuários frequentes. A comparação exige examinar esse grupo nas duas coletas com medidas compatíveis."
+      "explanation": "A composição mudou e o agregado não identifica a variação entre usuários frequentes. A comparação exige examinar esse grupo nas duas coletas com medidas compatíveis.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Fombrun (1996): reputação e avaliação acumulada em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-relato-interno-e-fonte-externa",
@@ -18634,7 +18664,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-621d9e4a87c305bf#Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista"
       ],
@@ -18645,7 +18675,7 @@
       "statement": "Uma instituição deseja ser percebida como acessível e adapta a linguagem de dois canais a públicos diferentes. Essa variação pode servir à mesma imagem pretendida.",
       "correctAnswer": "C",
       "explanation": "A imagem pretendida é a percepção que a instituição busca promover. A linguagem pode variar conforme o público sem alterar o atributo pretendido.",
-      "reviewEvidence": "Gabarito confrontado com Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista e mecanismo reformulado após comparação editorial."
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista em 3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-sinal-confirmado-em-registros-independentes",
@@ -18662,7 +18692,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-482d6ef913a0c75b#Sinais e fontes: monitorar não é medir todo o público"
       ],
@@ -18672,7 +18702,8 @@
       },
       "statement": "Se queixas sobre pedidos desaparecidos coincidem com registros técnicos de falha no envio, combinar essas fontes ajuda a localizar o problema mesmo sem conhecer sua prevalência.",
       "correctAnswer": "C",
-      "explanation": "As fontes respondem a perguntas complementares. As queixas mostram a experiência relatada e os registros ajudam a localizar a falha."
+      "explanation": "As fontes respondem a perguntas complementares. As queixas mostram a experiência relatada e os registros ajudam a localizar a falha.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Sinais e fontes: monitorar não é medir todo o público em 3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-contingencia-para-acesso-a-registros",
@@ -18689,7 +18720,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-482d6ef913a0c75b#Preparação: reduzir improviso antes do episódio"
       ],
@@ -18699,7 +18730,8 @@
       },
       "statement": "Se um plano depende de contatos guardados no mesmo sistema que pode falhar, testá-lo em uma simulação sem acesso ao sistema permite verificar uma dependência crítica.",
       "correctAnswer": "C",
-      "explanation": "A simulação reproduz a condição que pode bloquear a execução do plano e permite conferir se a alternativa de acesso funciona."
+      "explanation": "A simulação reproduz a condição que pode bloquear a execução do plano e permite conferir se a alternativa de acesso funciona.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Preparação: reduzir improviso antes do episódio em 3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-evidencia-nova-muda-classificacao",
@@ -18716,7 +18748,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#SCCT: grupos de crise, intensificadores e estratégias"
       ],
@@ -18726,7 +18758,8 @@
       },
       "statement": "Se uma falha inicialmente descrita como acidental passa a ser associada à decisão consciente de ignorar alertas, a classificação da crise na SCCT pode precisar ser revista.",
       "correctAnswer": "C",
-      "explanation": "A nova evidência pode aumentar a responsabilidade atribuída e mudar o enquadramento. A revisão depende dos fatos apurados."
+      "explanation": "A nova evidência pode aumentar a responsabilidade atribuída e mudar o enquadramento. A revisão depende dos fatos apurados.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com SCCT: grupos de crise, intensificadores e estratégias em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-retificacao-no-canal-do-alerta",
@@ -18743,7 +18776,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Canais e suas funções durante uma crise"
       ],
@@ -18753,7 +18786,8 @@
       },
       "statement": "Um alerta enviado por mensagem informa um endereço incorreto. Corrigir apenas a página oficial garante que todos os destinatários da mensagem utilizem o endereço atualizado.",
       "correctAnswer": "E",
-      "explanation": "O público pode agir com base na mensagem recebida sem consultar a página. A correção precisa considerar o canal original e o alcance da atualização."
+      "explanation": "O público pode agir com base na mensagem recebida sem consultar a página. A correção precisa considerar o canal original e o alcance da atualização.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Canais e suas funções durante uma crise em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-briefing-interno-com-respostas-atuais",
@@ -18770,7 +18804,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Porta-voz, comitê e público interno"
       ],
@@ -18780,7 +18814,8 @@
       },
       "statement": "Fornecer ao atendimento um resumo atualizado das informações confirmadas pode reduzir respostas divergentes sem transferir à equipe de atendimento a função de porta-voz oficial.",
       "correctAnswer": "C",
-      "explanation": "O resumo apoia a orientação aos usuários. A atribuição de representar publicamente a instituição segue a governança da crise."
+      "explanation": "O resumo apoia a orientação aos usuários. A atribuição de representar publicamente a instituição segue a governança da crise.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Porta-voz, comitê e público interno em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-resultado-com-instrucao-e-capacidade",
@@ -18797,7 +18832,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Avaliação: o que é possível concluir?"
       ],
@@ -18807,7 +18842,8 @@
       },
       "statement": "Depois de um aviso, mais pessoas conseguem localizar o canal alternativo, mas a fila impede que concluam o pedido. A taxa final de conclusão, sozinha, identifica que o aviso não melhorou a orientação.",
       "correctAnswer": "E",
-      "explanation": "A conclusão depende de localizar o canal e de conseguir atendimento. Medidas separadas permitem distinguir o efeito na orientação da restrição operacional."
+      "explanation": "A conclusão depende de localizar o canal e de conseguir atendimento. Medidas separadas permitem distinguir o efeito na orientação da restrição operacional.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Avaliação: o que é possível concluir? em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     },
     {
       "id": "cam-cs-horario-de-atualizacao-e-previsao",
@@ -18824,7 +18860,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e31c94bd720a5f86#Seis princípios CERC: rapidez e precisão coexistem"
       ],
@@ -18834,7 +18870,8 @@
       },
       "statement": "Prometer publicar novo boletim às 15h equivale a confirmar que o serviço voltará a operar às 15h.",
       "correctAnswer": "E",
-      "explanation": "O compromisso informa quando haverá nova comunicação. A retomada depende de confirmação operacional própria."
+      "explanation": "O compromisso informa quando haverá nova comunicação. A retomada depende de confirmação operacional própria.",
+      "reviewEvidence": "Revisão editorial do enunciado e gabarito com Seis princípios CERC: rapidez e precisão coexistem em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
     }
   ]
 }

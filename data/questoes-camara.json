@@ -8676,6 +8676,276 @@
       "correctAnswer": "E",
       "explanation": "B viola a condição eliminatória. A é viável, mas verificar o prazo de C ainda pode revelar uma opção viável mais barata. A análise exige separar restrição, objetivo de preço e informação faltante.",
       "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Processo de decisão de compra: cinco etapas clássicas em 3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md. Lote 002: comparação editorial de mecanismos, triagem lexical e teste de contrato de sessão v3."
+    },
+    {
+      "id": "cam-di-explicar-divergencia-entre-medidas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / métodos mistos",
+      "articleId": "art-8b1e6d903f42c7a5",
+      "conceptId": "explicar-divergencia-entre-medidas",
+      "mechanism": "explicar-divergencia-entre-medidas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8b1e6d903f42c7a5#Métodos mistos: integração com finalidade explícita"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md",
+        "section": "Métodos mistos: integração com finalidade explícita"
+      },
+      "statement": "Uma pesquisa identifica baixa conclusão de inscrições apesar de alta satisfação declarada. Entrevistar pessoas que abandonaram o formulário e interpretar suas respostas junto às métricas de conclusão é uma forma de integrar evidências quantitativas e qualitativas.",
+      "correctAnswer": "C",
+      "explanation": "As entrevistas investigam um resultado quantitativo específico. A interpretação conjunta permite examinar se a satisfação medida excluiu pessoas que abandonaram."
+    },
+    {
+      "id": "cam-di-descricao-de-obstaculos-sem-prevalencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa qualitativa",
+      "articleId": "art-8b1e6d903f42c7a5",
+      "conceptId": "descricao-de-obstaculos-sem-prevalencia",
+      "mechanism": "descricao-de-obstaculos-sem-prevalencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8b1e6d903f42c7a5#Abordagem qualitativa: compreender processos e significados"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md",
+        "section": "Abordagem qualitativa: compreender processos e significados"
+      },
+      "statement": "Entrevistas intencionais com cidadãos escolhidos por terem encontrado dificuldades no portal permitem estimar a proporção de todos os usuários que enfrentam cada dificuldade.",
+      "correctAnswer": "E",
+      "explanation": "A seleção por experiência de dificuldade é adequada para explorar obstáculos. Para estimar prevalência entre todos os usuários, seria necessário outro desenho de seleção e mensuração."
+    },
+    {
+      "id": "cam-di-ponderacao-com-categoria-ausente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
+      "articleId": "art-4e9d2a7c813f65b0",
+      "conceptId": "ponderacao-com-categoria-ausente",
+      "mechanism": "ponderacao-com-categoria-ausente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4e9d2a7c813f65b0#Ponderação: correção possível e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
+        "section": "Ponderação: correção possível e limites"
+      },
+      "statement": "Em um levantamento com cotas por faixa etária, nenhuma pessoa acima de 70 anos respondeu. Conhecer a participação dessa faixa na população basta para recuperar sua média de satisfação por ponderação.",
+      "correctAnswer": "E",
+      "explanation": "Pesos ajustam a contribuição de observações existentes. Sem respostas da faixa, a média do grupo depende de dados adicionais ou de hipóteses explícitas."
+    },
+    {
+      "id": "cam-di-painel-versus-mudanca-de-composicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
+      "articleId": "art-4e9d2a7c813f65b0",
+      "conceptId": "painel-versus-mudanca-de-composicao",
+      "mechanism": "painel-versus-mudanca-de-composicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4e9d2a7c813f65b0#Desenhos no tempo: transversal, repetido e painel"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
+        "section": "Desenhos no tempo: transversal, repetido e painel"
+      },
+      "statement": "Se o objetivo é observar quais respondentes individuais mudaram de opinião após seis meses, entrevistar novamente as mesmas pessoas permite identificar transições que duas amostras independentes não revelam.",
+      "correctAnswer": "C",
+      "explanation": "O painel vincula respostas no tempo. Cortes independentes comparam distribuições, mas não identificam trajetórias individuais."
+    },
+    {
+      "id": "cam-di-pergunta-dupla-apoio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / opinião pública",
+      "articleId": "art-9f3a6c218d45b7e0",
+      "conceptId": "pergunta-dupla-apoio",
+      "mechanism": "pergunta-dupla-apoio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3a6c218d45b7e0#Questionário: a formulação também produz a resposta"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md",
+        "section": "Questionário: a formulação também produz a resposta"
+      },
+      "statement": "A resposta afirmativa à pergunta “Você apoia ampliar o horário de atendimento e reduzir o número de postos?” identifica, separadamente, o nível de apoio de cada medida na população.",
+      "correctAnswer": "E",
+      "explanation": "O enunciado reúne duas decisões. Para estimar separadamente o apoio a cada medida, é preciso medi-las com perguntas distintas."
+    },
+    {
+      "id": "cam-di-silencio-e-denominador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / opinião pública",
+      "articleId": "art-9f3a6c218d45b7e0",
+      "conceptId": "silencio-e-denominador",
+      "mechanism": "silencio-e-denominador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3a6c218d45b7e0#Não resposta, silêncio e opiniões aparentemente predominantes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md",
+        "section": "Não resposta, silêncio e opiniões aparentemente predominantes"
+      },
+      "statement": "Entre 1.000 entrevistados, 420 apoiam uma medida, 280 a rejeitam e 300 não declaram posição. O apoio é de 60% entre quem se posicionou e de 42% no total de entrevistados.",
+      "correctAnswer": "C",
+      "explanation": "Os denominadores são diferentes: 420 dividido por 700 equivale a 60%, enquanto 420 dividido por 1.000 equivale a 42%."
+    },
+    {
+      "id": "cam-di-unidade-postagem-autor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / imagem",
+      "articleId": "art-6f2a9c40d83e175b",
+      "conceptId": "unidade-postagem-autor",
+      "mechanism": "unidade-postagem-autor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Monitoramento de mídia e análise de sentimento: o objeto observado"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md",
+        "section": "Monitoramento de mídia e análise de sentimento: o objeto observado"
+      },
+      "statement": "Em um monitoramento que registra 70% de publicações favoráveis, a proporção de autores favoráveis também é de 70% mesmo que poucos autores concentrem grande parte dos textos.",
+      "correctAnswer": "E",
+      "explanation": "A publicação é uma unidade e o autor é outra. Frequências desiguais de postagem podem alterar a distribuição por autor."
+    },
+    {
+      "id": "cam-di-dispositivo-compartilhado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / mídia",
+      "articleId": "art-7d3c9e14a80b62f5",
+      "conceptId": "dispositivo-compartilhado",
+      "mechanism": "dispositivo-compartilhado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3c9e14a80b62f5#Objetos medidos: distinguir pessoas, domicílios, dispositivos e eventos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos.md",
+        "section": "Objetos medidos: distinguir pessoas, domicílios, dispositivos e eventos"
+      },
+      "statement": "Se uma transmissão é assistida por uma família em um único aparelho, a contagem de aparelhos conectados pode ser inferior à quantidade de pessoas expostas.",
+      "correctAnswer": "C",
+      "explanation": "Um aparelho pode servir a vários espectadores. A contagem técnica de aparelhos não identifica quantos indivíduos assistiram."
+    },
+    {
+      "id": "cam-di-evento-disparado-em-duplicidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / métricas de publicidade digital",
+      "articleId": "art-f2b67a4d91e803c5",
+      "conceptId": "evento-disparado-em-duplicidade",
+      "mechanism": "evento-disparado-em-duplicidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f2b67a4d91e803c5#Instrumentação e atribuição: onde nasce a medida"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md",
+        "section": "Instrumentação e atribuição: onde nasce a medida"
+      },
+      "statement": "Se uma atualização faz o evento de confirmação ser registrado duas vezes para cada formulário recebido, o aumento no contador demonstra crescimento real das inscrições.",
+      "correctAnswer": "E",
+      "explanation": "O contador passou a registrar mais eventos por inscrição. A verificação requer deduplicação e confronto com os formulários efetivamente recebidos."
+    },
+    {
+      "id": "cam-di-efeito-preciso-abaixo-da-meta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / métricas de publicidade digital",
+      "articleId": "art-3f6d81b2c709a4e5",
+      "conceptId": "efeito-preciso-abaixo-da-meta",
+      "mechanism": "efeito-preciso-abaixo-da-meta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3f6d81b2c709a4e5#Significância estatística, magnitude e relevância pública"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md",
+        "section": "Significância estatística, magnitude e relevância pública"
+      },
+      "statement": "Um estudo estima que uma campanha aumentou a compreensão em dois pontos percentuais, com intervalo de confiança de um a três pontos. Se a meta era um ganho de cinco pontos e o intervalo é válido para o efeito estimado, os resultados sustentam um ganho positivo inferior à meta.",
+      "correctAnswer": "C",
+      "explanation": "O intervalo exclui zero e fica inteiramente abaixo de cinco pontos. A interpretação combina evidência de efeito, magnitude e comparação com o objetivo substantivo."
     }
   ]
 }

@@ -210,7 +210,7 @@ No setor público, a integridade da comunicação visual é relevante para os pr
 > Cor, tamanho, posição e contraste podem orientar rapidamente a atenção em certas tarefas visuais e são recursos úteis para criar hierarquia na apresentação de dados; sua eficácia depende do contexto, da legibilidade e da interpretação dos leitores.
 
 * **Gabarito**: **CERTO**.
-* **Comentário**: Cor, tamanho, orientação, posição e contraste podem ser percebidos rapidamente e ajudar a estabelecer hierarquia visual. Contudo, **nem todo atributo é processado pré-atentivamente em qualquer tarefa**, e a redação sobre “córtex visual” e “nível subconsciente” simplifica mecanismos perceptivos. O gabarito CERTO é aceitável como descrição didática do uso de atributos visuais, **com ressalva de precisão neurocientífica**.
+* **Comentário**: A afirmação é delimitada: os recursos **podem** orientar a atenção **em certas tarefas** e sua eficácia depende de contexto e legibilidade. Por exemplo, realçar apenas uma barra com contraste pode facilitar a identificação do valor relevante, desde que a cor tenha contraste e significado acessíveis; em uma visualização muito carregada, a mesma estratégia pode perder efeito. O enunciado não pressupõe processamento invariável pelo córtex visual nem prioridade perceptiva universal. **Mecanismo C/E:** distinguir possibilidade condicionada de garantia neurocientífica.
 
 ---
 

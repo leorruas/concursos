@@ -208,6 +208,36 @@ Analise o excerto abaixo, acompanhando a numeração das linhas e as cadeias de 
 
 ---
 
+## 7.1. Laboratório de referência com antecedentes concorrentes
+
+**Caso original fictício, para leitura C/E:**
+
+> The museum director met the researchers after they submitted their preliminary report. The director thanked the team for its work. This encouraged the researchers to expand the study, which took another six months. The new report, which was released in October, included additional interviews.
+
+A referência de *they* favorece *the researchers*: são os responsáveis plausíveis por entregar o relatório. *Their* indica posse associada ao mesmo grupo, mas a compatibilidade contextual é parte do teste. *Its* em *its work* retoma *the team*, e não o diretor. *This* pode condensar a ação anterior de agradecimento, e *which took another six months* comenta o processo de ampliar o estudo. Já *which was released in October* retoma o sintagma nominal *the new report*: **a vírgula não decide sozinha o referente**.
+
+**Caso progressivo:** substitua *The director thanked the team for its work* por *The director thanked the researchers for their work*: muda a expressão antecedente da referência possessiva, sem mudar o evento. Substitua *This encouraged the researchers* por *The director's thanks encouraged the researchers*: o antecedente do demonstrativo passa a ser explícito.
+
+**Item adicional A (inédito, C/E).** In the sentence *The new report, which was released in October*, the relative pronoun *which* refers to the report rather than to the whole preceding event.
+
+**Gabarito: Certo.** A oração relativa descreve o relatório que foi lançado em outubro, uma referência nominal.
+
+**Item adicional B (inédito, C/E).** In the excerpt, *This* clearly refers to the new report released in October.
+
+**Gabarito: Errado.** O demonstrativo aparece antes da referência ao novo relatório e retoma a situação anterior do agradecimento.
+
+**Item adicional C (inédito, C/E).** The pronoun *its* in *the team for its work* refers to the museum director.
+
+**Gabarito: Errado.** A concordância, a estrutura nominal e o sentido apontam para *the team*, que é singular coletivo nesse uso.
+
+**Item adicional D (inédito, C/E).** A comma placed before *which* is sufficient evidence that *which* always refers to an entire preceding clause.
+
+**Gabarito: Errado.** O texto apresenta duas construções distintas, incluindo uma relativa explicativa que qualifica apenas *the new report*.
+
+**Método:** testar tipo gramatical, concordância, papel semântico e posição do referente; se restarem dois antecedentes possíveis, registrar a ambiguidade em vez de inventar certeza.
+
+---
+
 ## 8. Relações com outros conceitos e notas da biblioteca
 
 * **Referência textual, anáfora, catáfora e dêixis em Língua Portuguesa (paralelo teórico direto):** [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|18 • Referência textual: anáfora, catáfora e dêixis (CAM-LP-007)]].

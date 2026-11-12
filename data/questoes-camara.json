@@ -13948,6 +13948,330 @@
       "statement": "Acrescentar peças a uma campanha após o planejamento preserva necessariamente os prazos se a data final estiver registrada no cronograma.",
       "correctAnswer": "E",
       "explanation": "A data registrada é uma referência. O trabalho adicional pode consumir capacidade ou alterar dependências e exigir replanejamento."
+    },
+    {
+      "id": "cam-di-raci-informado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "raci-informado",
+      "mechanism": "raci-informado",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#RACI: responsabilizar sem confundir execução e aceite"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "RACI: responsabilizar sem confundir execução e aceite"
+      },
+      "statement": "Na matriz RACI, o papel informado recebe comunicação sobre o andamento ou a decisão.",
+      "correctAnswer": "C",
+      "explanation": "O papel informado acompanha o que ocorreu. Sua designação não lhe atribui execução nem aceite."
+    },
+    {
+      "id": "cam-di-agrupamento-funcional-por-especialidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "agrupamento-funcional-por-especialidade",
+      "mechanism": "agrupamento-funcional-por-especialidade",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Estruturas organizacionais: autoridade, coordenação e tensões"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Estruturas organizacionais: autoridade, coordenação e tensões"
+      },
+      "statement": "Agrupar profissionais segundo especialidades, como redação e direção de arte, é compatível com uma estrutura funcional.",
+      "correctAnswer": "C",
+      "explanation": "O critério de agrupamento é a função exercida."
+    },
+    {
+      "id": "cam-di-suposicao-na-transicao-de-turno",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "suposicao-na-transicao-de-turno",
+      "mechanism": "suposicao-na-transicao-de-turno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Briefing e passagem de trabalho: o que precisa atravessar as equipes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Briefing e passagem de trabalho: o que precisa atravessar as equipes"
+      },
+      "statement": "No fim de um turno, transferir uma peça com duas opções de data sem indicar qual ainda depende de confirmação permite ao turno seguinte escolher a data com base na ordem dos arquivos.",
+      "correctAnswer": "E",
+      "explanation": "A ordem dos arquivos não estabelece qual data foi confirmada. O repasse precisa tornar explícitos o estado da decisão e sua fonte."
+    },
+    {
+      "id": "cam-di-lote-grande-retarda-primeira-entrega",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "lote-grande-retarda-primeira-entrega",
+      "mechanism": "lote-grande-retarda-primeira-entrega",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      },
+      "statement": "Doze peças independentes ficam prontas em pares a cada dia. A revisão pode começar ao receber o primeiro par e concluir cada par em um dia. Enviar todas juntas ao final do sexto dia posterga a primeira aprovação em relação ao repasse diário, ainda que o esforço total de revisão seja igual.",
+      "correctAnswer": "C",
+      "explanation": "O repasse diário permite sobrepor produção e revisão. O repasse em lote impõe espera até o último par para iniciar a primeira revisão."
+    },
+    {
+      "id": "cam-di-reserva-consumida-em-dois-fluxos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "reserva-consumida-em-dois-fluxos",
+      "mechanism": "reserva-consumida-em-dois-fluxos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      },
+      "statement": "A mesma revisora tem oito horas livres na sexta-feira. Dois projetos independentes reservam seis horas cada com ela para essa data. Como nenhum projeto excede oito horas isoladamente, os dois cronogramas são viáveis sem remanejamento.",
+      "correctAnswer": "E",
+      "explanation": "Os planos competem pela mesma disponibilidade. Juntos exigem doze horas, quatro além da capacidade disponível."
+    },
+    {
+      "id": "cam-di-seguranca-psicologica-e-responsabilizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "seguranca-psicologica-e-responsabilizacao",
+      "mechanism": "seguranca-psicologica-e-responsabilizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Gestão de conflitos, feedback e aprendizagem"
+      },
+      "statement": "Uma equipe que incentiva a comunicação de erros precisa deixar de discutir as consequências desses erros para manter a segurança psicológica.",
+      "correctAnswer": "E",
+      "explanation": "A segurança psicológica favorece comunicar erros sem medo de humilhação. A equipe pode examinar consequências e responsabilizar-se por correções."
+    },
+    {
+      "id": "cam-di-causa-entre-etapas-nao-na-pessoa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "causa-entre-etapas-nao-na-pessoa",
+      "mechanism": "causa-entre-etapas-nao-na-pessoa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Gestão de conflitos, feedback e aprendizagem"
+      },
+      "statement": "Se três redatores diferentes entregam arquivos com o mesmo campo ausente, examinar o modelo de repasse antes de atribuir o problema a um deles pode revelar uma causa comum.",
+      "correctAnswer": "C",
+      "explanation": "A repetição entre pessoas sugere investigar insumos e regras compartilhados. Isso permite testar uma explicação do processo."
+    },
+    {
+      "id": "cam-di-taxa-de-retrabalho-com-base-distinta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "taxa-de-retrabalho-com-base-distinta",
+      "mechanism": "taxa-de-retrabalho-com-base-distinta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Avaliação de equipe: atividade, entrega, processo e resultado"
+      },
+      "statement": "Em um mês, oito de vinte peças voltaram para ajuste. No mês seguinte, dez de cinquenta voltaram. A quantidade de devoluções aumentou e a proporção de peças devolvidas caiu.",
+      "correctAnswer": "C",
+      "explanation": "As taxas passam de 40% para 20%, embora as devoluções subam de oito para dez. O julgamento exige distinguir quantidade e proporção."
+    },
+    {
+      "id": "cam-di-ganho-de-velocidade-com-efeito-incerto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "ganho-de-velocidade-com-efeito-incerto",
+      "mechanism": "ganho-de-velocidade-com-efeito-incerto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Avaliação de equipe: atividade, entrega, processo e resultado"
+      },
+      "statement": "Uma equipe reduz o prazo de produção sem alterar a mensagem ou a distribuição. Essa redução demonstra que o público compreendeu melhor a campanha.",
+      "correctAnswer": "E",
+      "explanation": "O prazo mede o processo interno. A compreensão é resultado do público e precisa de evidência própria."
+    },
+    {
+      "id": "cam-di-decisao-de-aceite-sem-entrega",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "decisao-de-aceite-sem-entrega",
+      "mechanism": "decisao-de-aceite-sem-entrega",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Decisões, aprovações e segregação de funções"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Decisões, aprovações e segregação de funções"
+      },
+      "statement": "A autorização para iniciar a criação comprova que a peça já atende aos critérios de aceite.",
+      "correctAnswer": "E",
+      "explanation": "Autorizar o início libera trabalho futuro. O aceite depende da verificação da entrega produzida."
+    },
+    {
+      "id": "cam-di-decisao-local-com-efeito-em-outra-area",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "decisao-local-com-efeito-em-outra-area",
+      "mechanism": "decisao-local-com-efeito-em-outra-area",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Liderança, coordenação e autonomia profissional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Liderança, coordenação e autonomia profissional"
+      },
+      "statement": "Uma equipe tem autonomia para escolher o formato visual. Se uma alteração exigir mais tempo da revisão compartilhada e atrasar outra campanha, a coordenação pode precisar arbitrar a alocação mesmo que o formato seja tecnicamente adequado.",
+      "correctAnswer": "C",
+      "explanation": "A escolha local produz efeito em um recurso comum. Avaliar o formato e decidir sobre prioridades concorrentes são funções distintas."
+    },
+    {
+      "id": "cam-di-integracao-prazo-aceite-e-dependencias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "integracao-prazo-aceite-e-dependencias",
+      "mechanism": "integracao-prazo-aceite-e-dependencias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Caso progressivo: reorganizar uma campanha da Câmara"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Caso progressivo: reorganizar uma campanha da Câmara"
+      },
+      "statement": "Uma peça tem prazo fixo e depende de dois pareceres independentes. Solicitar ambos simultaneamente pode reduzir a espera se os pareceristas estiverem disponíveis, mas a entrega ainda depende da conclusão dos dois.",
+      "correctAnswer": "C",
+      "explanation": "A execução paralela pode reduzir o prazo de análise. A exigência de convergência permanece e a data depende do parecer que terminar por último."
     }
   ]
 }

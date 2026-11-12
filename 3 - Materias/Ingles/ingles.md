@@ -10,9 +10,9 @@ updated: 2026-11-05
 
 # Língua inglesa
 
-- [[3 - Materias/Ingles/Avancos|Avanços e desempenho]]
+O histórico individual de estudo e desempenho é mantido exclusivamente no repositório privado de dados, fora deste hub público.
 
-Hub de estudos de Língua Inglesa aplicada a concursos públicos (interpretação de textos técnicos, vocabulário corporativo/institucional, conectivos e gramática instrumental).
+Hub de estudos de Língua Inglesa para concursos públicos: leitura de diferentes gêneros, inferência, vocabulário contextual, conectivos e gramática aplicada à compreensão. Os artigos 07–18 aprofundam essas habilidades por meio de textos e itens autorais C/E; os artigos 01–06 oferecem pré-requisitos e exercícios adaptados ao repertório FGV.
 
 ---
 
@@ -24,7 +24,7 @@ Hub de estudos de Língua Inglesa aplicada a concursos públicos (interpretaçã
 - [[3 - Materias/Ingles/04 - tempos verbais voz passiva e modalizacao|04. Tempos verbais, voz passiva e modalização]]: microfase F44 e exemplos comentados.
 - [[3 - Materias/Ingles/05 - vocabulario em contexto e falsos cognatos|05. Vocabulário em contexto e falsos cognatos]]: microfase F45 e exemplos comentados.
 - [[3 - Materias/Ingles/06 - parafrase equivalencia semantica e escopo|06. Paráfrase, equivalência semântica e escopo]]: microfase F46 e exemplos comentados.
-- [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|07. Como localizar assunto, tese e propósito em textos em inglês]] (CAM-ING-001): estratégias de skimming, topic sentences, propósitos comunicativos e padrões Cebraspe.
+- [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|07. Como localizar assunto, tese e propósito em textos em inglês]] (CAM-ING-001): estratégias de leitura, identificação de tese e propósito, com treino adicional em texto não institucional e itens C/E inéditos.
 - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|08. Informações explícitas, inferências e limites da dedução]] (CAM-ING-002): pressuposição, hedging, causalidade vs. correlação e limites da inferência no Cebraspe.
 - [[3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes|09. Coesão referencial e referentes de pronomes]] (CAM-ING-003): anáfora, catáfora, dummy it, singular they, demonstrativos e sentential which no Cebraspe.
 - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|10. Conectivos, relações lógicas e sequenciação discursiva em inglês]] (CAM-ING-004): concessão vs. contraste, regência oracional vs. nominal (although vs. despite), causa, consequência e polissemia no Cebraspe.
@@ -41,7 +41,7 @@ Hub de estudos de Língua Inglesa aplicada a concursos públicos (interpretaçã
 
 ## 1. Conectivos e Marcadores Discursivos (*Linking Words*)
 
-Os conectivos são altamente cobrados em bancas como FGV e Cebraspe para identificar a relação de sentido entre orações:
+Conectivos ajudam a identificar relações de sentido entre orações e podem ser explorados em interpretação e reescrita, independentemente da frequência específica de cobrança por banca:
 
 ### Contraste e Concessão (*Contrast & Concession*)
 - **Although / Even though / Though**: Embora, ainda que (seguidos de oração: sujeito + verbo).
@@ -61,7 +61,7 @@ Os conectivos são altamente cobrados em bancas como FGV e Cebraspe para identif
 ---
 
 ## 2. Leitura Instrumental e Vocabulário Técnico
-- Foco em textos sobre tecnologia da informação, dados, inovação pública e comunicação.
+- Praticar leitura em gêneros institucionais e não institucionais: comunicados, relatórios, reportagens, textos de divulgação científica e comentários analíticos.
 - Identificação de ideia central (*skimming*) e localização de informações específicas (*scanning*).
 
 ---

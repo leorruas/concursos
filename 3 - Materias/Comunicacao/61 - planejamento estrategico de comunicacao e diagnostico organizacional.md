@@ -5,7 +5,7 @@ title: "Planejamento estratégico de comunicação e diagnóstico organizacional
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Planejamento estratégico de comunicação e diagnóstico organizacional
@@ -224,6 +224,29 @@ Planejar comunicação pública requer considerar **competências institucionais
 **Gabarito: Certo.** A resposta ao problema faz parte da lógica de Relações Públicas, e a produção de mensagens não esgota o componente de ação. **Mecanismo:** fronteira entre resposta institucional e técnica de divulgação.
 
 Os itens são inéditos e didáticos. Sua inclusão não equivale a comprovar incidência específica dessa estrutura nas provas Cebraspe.
+
+## Oficina integrada: formular e testar um diagnóstico antes de decidir a campanha
+
+**Situação:** a Câmara identifica poucas inscrições de cidadãos numa audiência. A hipótese inicial é que falta divulgação. Isso é **hipótese**, não diagnóstico concluído. Outras explicações possíveis são: dificuldade de inscrição, prazo pouco acessível, horários inadequados, linguagem técnica, desconhecimento da pauta ou ausência de interesse no tema. Antes de aprovar uma campanha, separar **sintoma observado**, **problema explicativo**, **públicos afetados**, **evidência disponível** e **alternativas de intervenção**.
+
+| Hipótese | Evidência pertinente | Decisão apenas após conferência |
+| --- | --- | --- |
+| Pessoas não sabem que a audiência ocorrerá | Pesquisa de conhecimento com público-alvo e dados de circulação | Ajustar comunicação e meios de descoberta |
+| Pessoas sabem, mas não concluem inscrição | Observação de tarefa, abandono de formulário, pesquisa com usuários | Corrigir interface, instruções e apoio |
+| Informações oficiais apresentam divergências | Revisão de fonte normativa e de versões em canais | Corrigir conteúdo e governança, antes de ampliar alcance |
+| Há barreira de horário ou de acesso | Escuta de públicos, análise dos requisitos do evento | Encaminhar revisão operacional à área competente |
+
+**Planejamento e avaliação:** o diagnóstico escolhe qual mecanismo se deseja modificar. Um objetivo de produção, como “publicar dez posts”, é diferente do objetivo de comunicação “aumentar a proporção de pessoas do público definido que encontram e compreendem a forma de inscrição”. O segundo exige linha de base, instrumento, prazo e análise de possíveis fatores concorrentes. As três macroetapas de **Kunsch** (pesquisa e diagnóstico; planejamento estratégico; gestão estratégica) organizam essa sequência, mas **não eliminam ciclos de retorno** quando surgem novos dados. O RACE de **Marston** pertence a outra classificação de processo e não deve ser confundido com componentes do quadro SWOT.
+
+**Item 4, inédito.** Se o número de inscrições é baixo, a realização de campanha de divulgação é medida suficiente para demonstrar que a causa do problema foi corretamente diagnosticada.
+
+**Gabarito: Errado.** O dado de inscrições é sintoma; barreiras operacionais e de compreensão podem persistir mesmo após maior exposição.
+
+**Item 5, inédito.** Uma matriz SWOT pode registrar a falta de equipe capaz de atualizar o portal como fraqueza interna, enquanto uma alteração legislativa externa que torne mais complexa a divulgação pode constituir ameaça, conforme o efeito e o contexto.
+
+**Gabarito: Certo.** O eixo interno/externo determina essas classes; a valência desfavorável, sozinha, não transforma um fator externo em fraqueza.
+
+**Fontes e delimitação:** [Kunsch (2003), registro USP](https://repositorio.usp.br/item/001538253); [AMEC, planejamento de avaliação](https://amecorg.com/amecframework/home/supporting-material/planning/); [[3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais|Públicos e segmentação]], [[3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec|Objetivos e indicadores]], [[3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao|Plano operacional]]. A oficina é caso inventado e **não atribui falhas reais à Câmara**. Os dois itens são C/E inéditos e comentados.
 
 ## Aplicação discursiva, relações e heurísticas
 

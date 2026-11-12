@@ -187,5 +187,5 @@ A publicação do [Conselho da Europa, *Information Disorder* (Wardle e Derakhsh
 - FGV. Prova FUNSAÚDE-CE, Jornalista, 2021: questões sobre a tipologia de Wardle/Derakhshan e sobre a insuficiência do termo `fake news`.
 
 **Fontes Brutas:**
-- [[00 inbox/00 ingestão]]
-- [[wiki/inteligencia artificial]]
+
+

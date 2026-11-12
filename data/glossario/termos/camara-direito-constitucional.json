@@ -669,6 +669,68 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-sumula-vinculante",
+      "term": "Súmula vinculante",
+      "aliases": [
+        "Enunciado de súmula vinculante"
+      ],
+      "definition": "É um enunciado curto aprovado pelo Supremo Tribunal Federal (STF) para fixar uma interpretação constitucional já afirmada em decisões repetidas. Seu objetivo é dar orientação uniforme quando a divergência gera grave insegurança jurídica e muitos processos sobre a mesma questão. Precisa de pelo menos oito votos entre os 11 ministros e, depois da publicação oficial, obriga os demais órgãos judiciais e a administração pública nos três níveis de governo.",
+      "contrast": "Uma súmula comum resume a jurisprudência, mas a força obrigatória prevista no art. 103-A depende de um procedimento específico. O STF pode editar, revisar ou cancelar a súmula vinculante, de ofício ou por proposta de legitimado. Maioria absoluta para reserva de plenário (art. 97) não se confunde com dois terços para súmula vinculante. A proposta, sozinha, não suspende processos (Lei nº 11.417/2006, art. 6º).",
+      "cebraspeTrap": "Trocar dois terços por maioria absoluta, esquecer a controvérsia constitucional atual ou afirmar que a simples apresentação de proposta já suspende os processos. São requisitos ou efeitos diferentes daqueles previstos na Constituição e na lei.",
+      "example": "Tribunais decidem repetidamente uma controvérsia constitucional de formas divergentes. O STF já julgou o tema várias vezes e aprova um enunciado por oito votos; após a publicação, os juízes e os órgãos administrativos alcançados devem observar a orientação quando o caso se enquadrar nela.",
+      "articleIds": [
+        "art-7c5228e2781b4336"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 103-A, caput e §§ 1º a 3º",
+          "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+        },
+        {
+          "label": "Lei nº 11.417/2006, arts. 2º a 6º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11417-19-dezembro-2006-548408-publicacaooriginal-63540-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-reclamacao-sumula-vinculante",
+      "term": "Reclamação por desrespeito a súmula vinculante",
+      "aliases": [
+        "Reclamação ao STF por súmula vinculante"
+      ],
+      "definition": "É um pedido ao Supremo Tribunal Federal (STF) para corrigir uma decisão judicial ou um ato administrativo que desrespeite uma súmula vinculante ou a aplique a situação inadequada. Para reclamar contra ato ou omissão da administração pública, é necessário esgotar antes as vias administrativas. Se acolher a reclamação, o STF anula o ato administrativo ou cassa a decisão judicial e determina nova decisão.",
+      "contrast": "Reclamação tem requisitos próprios e não substitui automaticamente recursos comuns. A Lei nº 11.417/2006, art. 7º, § 1º, exige esgotar as vias administrativas quando o ato questionado vem da administração; essa condição específica não pode ser aplicada indistintamente a uma decisão judicial. Não basta discordar do resultado: é preciso mostrar contrariedade, negativa de vigência ou aplicação indevida da súmula.",
+      "cebraspeTrap": "Afirmar que sempre cabe reclamação diretamente ao STF contra qualquer ato administrativo, sem usar antes os recursos administrativos cabíveis; ou confundir anulação de ato administrativo com cassação de decisão judicial.",
+      "example": "Uma autarquia nega um requerimento contrariando súmula vinculante aplicável. O interessado utiliza os meios administrativos cabíveis até esgotá-los e apresenta reclamação ao STF. Se a reclamação for acolhida, o Tribunal anula o ato e exige uma nova decisão conforme o caso.",
+      "articleIds": [
+        "art-7c5228e2781b4336"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 103-A, § 3º",
+          "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+        },
+        {
+          "label": "Lei nº 11.417/2006, art. 7º, caput e §§ 1º e 2º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2006/lei-11417-19-dezembro-2006-548408-publicacaooriginal-63540-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

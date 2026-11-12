@@ -552,3 +552,25 @@ A página seguinte do caderno `101_IRBRCACDOBJ_002_01` foi conferida visualmente
 **Verificação de publicação:** runs do GitHub Pages consultados durante os reparos tiveram cancelamentos por novos commits; o run associado a `f610345e` estava em fila na leitura, e não foi certificado como bem-sucedido. A gravação dos arquivos não é comprovação de deploy.
 
 **Pendência prioritária para retomada:** conferir sucesso do workflow da versão atual de `main`, validar navegação e diagramas no site, realizar leitura de consistência global dos 18 artigos com foco nas relações de referência, revisar citações e atribuições de banca restantes e testar interpretação em textos inéditos de gêneros não institucionais. Não alterar índice compartilhado sem necessidade. Nenhum arquivo foi classificado como `validado` sem passar por essas etapas.
+
+
+## 22. Terceiro lote: generalizações, diagrama e leitura de transferência (11/11/2026)
+
+Continuação exclusiva dos artigos de Inglês, sem alterações em `index.md`, catálogo, dados privados ou outras matérias.
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| 07 | Afirmações universais sobre estrutura do inglês e incidência Cebraspe | Orientação sobre *topic sentence* sem determinismo cultural; afirmações de frequência retiradas | `c3868d0058a856385362e3e3615e29b15047deb2`, `5c71c0faada764471982081755133b807b2a6973` | Gravação e conferência textual | corrigido |
+| 07 | Treino excessivamente institucional | Texto original ficcional de três parágrafos sobre formatos de leitura e cinco itens C/E comentados, com caso progressivo | `5fc8e7bcc8bf52fc640a3946c23ca55f58855e88` | Arquivo relido, cinco itens identificados | corrigido |
+| 08 | Alegações sem dados sobre principais erros de candidatos e incidência de correlação/causalidade | Reformuladas como riscos pedagógicos, sem estatística atribuída à banca | `11889e4e23456c2274779e305a7fd650500d92d7` | Releitura confirmou ambas as passagens | corrigido |
+| 11 | Frequência de distrator lexical atribuída à banca | Exemplo lexical condicionado a jurisdição e contexto; retirada de frequência não comprovada | `cf2ad52570715d35308de0b5501aa43dcc041348` | Releitura do conteúdo alterado | corrigido |
+| 14 | Afirmação de erro mais cobrado e explicação excessivamente rígida de auxiliares | Explicação de tempo/aspecto correspondente em passiva, sem alegar frequência | `6559b64f01b60b3909277dfc01d28e029eec4687` | Releitura após commit | corrigido |
+| 15 | Diagrama ainda afirmava certeza absoluta de `must/will` apesar da teoria corrigida | Diagrama diferenciado por dedução, previsão, possibilidade e incompatibilidade contextual | `8069373af8c3d9c398283a2e5ce3ee8e4942a657` | Releitura e conservação das cercas Mermaid | corrigido |
+| 16 | Atribuição de alta frequência à banca | Frequência removida dos exemplos de comparativos e `few/a few` | `483f66d46b0dab915481794a30ce647a9d6769b8` | Releitura após commit | corrigido |
+| 18 | Frequência de padrão interpretativo atribuída à banca | Reformulação como mecanismo possível sem estatística | `ceb71779ea82b0bfad71324406e754fa43afed66` | Releitura após commit | corrigido |
+
+**Estado:** os achados prioritários de regras e itens S foram tratados por edição, mas isso não significa homologação final da matéria. Os arquivos atualizados mantêm IDs e exercícios anteriores; os novos cinco itens são inequivocamente autorais. Ainda são necessárias checagens de consistência pedagógica de toda a trilha, verificações técnicas e publicação do HEAD atual.
+
+**CI:** o workflow `pages.yml` executa scripts de identidade dos artigos, catálogo, integridade da busca e construção do site antes de publicar. Houve execução **bem-sucedida** em `f610345e96ef3756e7d37b0617fa2d94b2f3f218`, mas commits posteriores ainda requerem seu próprio run conclusivo. Não confundir o sucesso anterior com validação do HEAD final.
+
+**Próximo passo:** verificar conclusão do deploy no commit mais recente, confrontar títulos e vínculos no hub `ingles.md`, conferir exercícios após integração e examinar os efeitos da linguagem de atribuição e de variação contemporânea nos exemplos. A publicação no Pages deve ser declarada separadamente da gravação no GitHub.

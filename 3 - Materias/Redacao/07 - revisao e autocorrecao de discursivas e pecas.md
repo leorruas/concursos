@@ -23,6 +23,29 @@ Pré-requisitos: [[04 - decomposicao de comandos e quesitos cebraspe|decomposiç
 
 **Passagem B: língua, coerência e espaço.** Ler o texto inteiro em busca de contradição, saltos de raciocínio, referentes ambíguos, termos vagos e frases truncadas. Corrigir grafia, concordância, regência, pontuação e propriedade lexical conforme a norma. Por fim, verificar legibilidade, anonimato e linhas efetivamente utilizadas na folha. Cortar redundâncias **sem remover o único trecho que atende a um quesito**.
 
+
+
+### Critérios operacionais para a grade didática
+
+A classificação é aplicada **a cada operação e objeto do comando**, com registro de uma frase concreta como evidência. Não se trata da escala de conceitos do Cebraspe, que depende de padrão oficial específico.
+
+| Estado | Critério verificável | Exemplo para “explique efeito no poder e condição de colaboração” |
+| --- | --- | --- |
+| **Atendido** | Explica corretamente a relação, a condição ou a quantidade exigida, com evidência localizável | “O acesso menos concentrado reduz a dependência de intermediários; a colaboração requer regras e incentivo ao compartilhamento” |
+| **Parcial** | Identifica um objeto correto, mas não desenvolve a relação, mecanismo, exemplo ou condição solicitada | “A circulação de informações muda o poder nas organizações”; falta **como** muda |
+| **Ausente** | Não existe trecho que responda à exigência, ainda que o assunto geral apareça | Resposta apenas sobre ferramentas digitais, sem relação de poder ou condição |
+| **Incorreto** | Há afirmação que contraria conceito ou limite verificável, ainda que o tópico tenha sido citado | “Com plataformas digitais, deixam de existir hierarquias e autoridades formais” |
+
+Quando a mesma exigência possui um enunciado **factualmente incorreto**, registrar **incorreto** como estado principal e anotar separadamente o eventual desenvolvimento insuficiente. Não contabilizar o mesmo defeito como duas faltas para inflar a penalidade didática. Se o candidato acerta um subaspecto e erra outro, **separar os subaspectos na grade**: a etiqueta agregada esconderia uma contradição importante. Corrigir conceitos em fonte canônica antes de reescrever. Sem padrão oficial de uma questão concreta, não converter esses estados diretamente em pontos.
+
+**Auditoria comparada do mesmo comando (três níveis):**
+
+- **Menção:** “As mídias digitais melhoram a comunicação interna”. Não explica poder nem condição: dois objetos ausentes.
+- **Parcial:** “O acesso digital reduz a dependência de chefias para obter informação”. Há mecanismo de poder, mas o comando ainda pede condição organizacional de colaboração.
+- **Atendimento didático dos dois aspectos:** “O compartilhamento horizontal pode reduzir a dependência de intermediários na circulação de dados, sem eliminar a autoridade formal; políticas de transparência interna e práticas de troca de conhecimento ajudam a sustentar essa colaboração”. A frase contém efeito, ressalva e condição. **Não significa gabarito ou nota oficial.**
+
+A ficha deve guardar a **fonte do enunciado**, o trecho literal, os descritores exigidos, o estado e a mudança efetuada na reescrita. Uma melhora no mesmo texto não comprova transferência a novo comando.
+
 ### Limite e fórmulas oficiais
 
 De acordo com o item 9.8.5 do edital, a questão segue **NQi = NCi − 3 × NEi ÷ TLi**; a peça técnica segue **NPT = NC − 6 × NE ÷ TL**, com regras de piso zero, fuga ao tema, ausência de texto e trechos fora dos limites. **NC** é a nota de conteúdo; **NE**, a quantidade de erros de língua considerados; **TL**, a quantidade de linhas efetivamente escritas. As fórmulas são oficiais, mas o número e a gravidade dos erros e a nota de conteúdo exigem avaliação efetiva; não deduzir uma “nota Cebraspe” por impressão.

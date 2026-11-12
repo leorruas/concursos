@@ -14,7 +14,7 @@ updated: 2026-11-11
 
 **Meio** é a categoria de circulação, como rádio, televisão, internet, impresso ou mídia exterior. **Veículo** é o operador ou suporte identificável, como uma emissora ou jornal. **Plataforma** é um ambiente de distribuição e interação, como uma rede social ou mecanismo de busca. **Formato** é a configuração da peça, como spot, anúncio, vídeo ou cartaz; **canal** é a via concreta de contato entre instituição e público. As palavras podem se sobrepor na prática profissional, mas não respondem à mesma pergunta.
 
-A escolha de mídia depende de objetivo, público, natureza da mensagem, recursos, período, acesso, condições técnicas e critérios de resultado. Não existe meio universalmente superior. A [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|nota 20]] já reúne PESO, métricas e planejamento; aqui o foco é a **comparação entre veículos e plataformas**. O CAM-DI-012 desenvolverá alcance, frequência e investimento.
+A escolha de mídia depende de objetivo, público, natureza da mensagem, recursos, período, acesso, condições técnicas e critérios de resultado. Não existe meio universalmente superior. A [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Campanhas e planejamento de mídia]] já reúne PESO, métricas e planejamento; aqui o foco é a **comparação entre veículos e plataformas**. O CAM-DI-012 desenvolverá alcance, frequência e investimento.
 
 ## Estrutura e categorias
 
@@ -58,7 +58,7 @@ Essas categorias não equivalem a rádio, TV, impresso e internet. Um post no pe
 
 **Tempo e recursos:** produção, aprovação, programação de mídia, distribuição, custo e avaliação devem ser considerados conjuntamente. Uma postagem orgânica pode demandar trabalho, mesmo sem compra de espaço.
 
-**Indicadores:** impressões e visualizações demonstram registros de distribuição sob regras específicas, não compreensão, intenção ou ação. O [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|CAM-DI-006]] diferencia resultados.
+**Indicadores:** impressões e visualizações demonstram registros de distribuição sob regras específicas, não compreensão, intenção ou ação. O [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|Objetivos de comunicação e campanha: resultados, entregas e indicadores]] diferencia resultados.
 
 **Capacidade operacional:** campanha não corrige automaticamente falhas de serviço. Consulte o [[3 - Materias/Comunicacao/83 - diagnostico publicitario evidencias e problema de comunicacao|diagnóstico]].
 

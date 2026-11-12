@@ -219,7 +219,7 @@ A primeira frase situa a digitalização em um passado delimitado: *in 2021*. O 
 ## 6. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|CAM-ING-002]]: A temporalidade precisa dos verbos é fundamental para determinar a validade temporal de inferências textuais.
-  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|CAM-ING-004]]: Conectores temporais (*since, while, before, until, by the time*) regem e condicionam os tempos verbais do período.
-  - [[3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles|CAM-ING-006]]: O *Past Perfect* atua nas condicionais elípticas de terceira ordem (*Had the committee known...*).
-  - [[3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles|CAM-ING-008]]: A conjugação do verbo auxiliar *BE* na voz passiva obedece estritamente às regras de tempo e aspecto aqui estabelecidas.
+  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|Informações explícitas, inferências e limites da dedução em língua inglesa no padrão Cebraspe]]: A temporalidade precisa dos verbos é fundamental para determinar a validade temporal de inferências textuais.
+  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|Conectivos: Relações Lógicas, Articulação de Sentido e Sequenciação Discursiva em Inglês]]: Conectores temporais (*since, while, before, until, by the time*) regem e condicionam os tempos verbais do período.
+  - [[3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles|Estrutura de Frases, Negação, Interrogação e Inversão Sintática em Inglês]]: O *Past Perfect* atua nas condicionais elípticas de terceira ordem (*Had the committee known...*).
+  - [[3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles|Voz Ativa, Passiva e Foco Informacional em Textos Institucionais em Inglês]]: A conjugação do verbo auxiliar *BE* na voz passiva obedece estritamente às regras de tempo e aspecto aqui estabelecidas.

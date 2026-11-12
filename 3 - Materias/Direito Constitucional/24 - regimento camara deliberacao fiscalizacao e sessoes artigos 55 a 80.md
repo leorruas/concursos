@@ -10,7 +10,7 @@ updated: 2026-11-11
 
 # Regimento da Câmara: decisões das comissões, fiscalização e sessões (arts. 55 a 80)
 
-**Câmara dos Deputados 2026, Divulgação Institucional, banca Cebraspe, CAM-PL-021.** Texto canônico do Regimento Interno da Câmara dos Deputados (RICD), arts. 55 a 80. O intervalo cruza o encerramento das **regras de comissões (arts. 55–64)** e o início da disciplina das **sessões da Câmara (arts. 65–80)**. Para composição e tipos de comissão, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004 e aprofundamento de comissões (arts. 25–54)]]; para organização geral da Câmara, [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|CAM-PL-019]].
+**Câmara dos Deputados 2026, Divulgação Institucional, banca Cebraspe, CAM-PL-021.** Texto canônico do Regimento Interno da Câmara dos Deputados (RICD), arts. 55 a 80. O intervalo cruza o encerramento das **regras de comissões (arts. 55–64)** e o início da disciplina das **sessões da Câmara (arts. 65–80)**. Para composição e tipos de comissão, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]; para organização geral da Câmara, [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Regimento da Câmara: organização, Mesa, lideranças e órgãos (arts. 1º a 24)]].
 
 ## Núcleo do conceito
 
@@ -67,7 +67,7 @@ O **art. 59** trata do **outro percurso**: quando a matéria está **sujeita à 
 | Projeto sujeito desde o início ao Plenário | Vai à Mesa e **aguarda Ordem do Dia** depois das comissões | Art. 59 |
 | Subcomissão ou turma auxilia relatoria | **Não substitui** o Plenário da comissão na deliberação | Art. 56 e arts. 29–31 |
 
-Para terminativo de admissibilidade e conclusivo de mérito, consultar [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005]] e [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|CAM-PL-009]].
+Para terminativo de admissibilidade e conclusivo de mérito, consultar [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]] e [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Procedimentos abreviado e sumário: comissões e urgência constitucional]].
 
 ## 3. Fiscalização parlamentar: arts. 60, 61 e 61-A
 
@@ -84,7 +84,7 @@ O § 1º permite solicitar ao **TCU** providências e informações constitucion
 
 **Art. 61-A, plano × relatório anual:** a **Comissão de Fiscalização Financeira e Controle** implementa em cada sessão legislativa o **Plano Anual de Fiscalização Financeira e Controle (PAFC)**, aprovado em até **cinco sessões da reinstalação da comissão**. O **Relatório Anual de Fiscalização e Controle (RAFC)** deve ser aprovado **até o fim da sessão legislativa** e enviado ao **TCU e ao órgão de controle interno do Executivo**. **PAFC antecipa ações; RAFC presta conta delas**. Não inverter a ordem ou dizer que o TCU aprova o plano da comissão.
 
-A comparação com controle externo constitucional está na [[3 - Materias/Direito Constitucional/06 - poder legislativo|nota 06: Poder Legislativo e CAM-PL-018]]. PFC **não é CPI**: a primeira segue arts. 60–61; a segunda possui condições do art. 35 e do art. 58, § 3º, da Constituição.
+A comparação com controle externo constitucional está na [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder legislativo]]. PFC **não é CPI**: a primeira segue arts. 60–61; a segunda possui condições do art. 35 e do art. 58, § 3º, da Constituição.
 
 ## 4. Secretaria, atas e assessoramento: arts. 62 a 64
 

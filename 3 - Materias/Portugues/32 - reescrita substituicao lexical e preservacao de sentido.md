@@ -193,9 +193,9 @@ Considere o trecho:
 ## 7. Relações com outros conceitos e notas da biblioteca
 
 * **Nota de base preexistente sobre reescrita:** [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido|10 • Reescrita, semântica e preservação de sentido]].
-* **Significação lexical, polissemia e paronímia (pré-requisito direto):** [[3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade|31 • Significação lexical, polissemia, homonímia, paronímia e ambiguidade (CAM-LP-020)]].
-* **Regência verbal e nominal (impacto sintático das trocas):** [[3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos|28 • Regência verbal e nominal: transitividade, preposições e mudanças de sentido (CAM-LP-017)]].
-* **Conectores e operadores argumentativos:** [[3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao|20 • Conectores, relações lógicas e sequenciação (CAM-LP-009)]].
+* **Significação lexical, polissemia e paronímia (pré-requisito direto):** [[3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade|Significação lexical, polissemia, homonímia, paronímia e ambiguidade no padrão Cebraspe]].
+* **Regência verbal e nominal (impacto sintático das trocas):** [[3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos|Regência verbal e nominal: transitividade, preposições e mudanças de sentido no padrão Cebraspe]].
+* **Conectores e operadores argumentativos:** [[3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao|Conectores, relações lógicas e sequenciação: operadores argumentativos e articulação do período no padrão Cebraspe]].
 * **Próximo passo (Reorganização sintática e equivalência semântica):** Unidade `CAM-LP-022`.
 
 ## 8. Referências teóricas e normativas

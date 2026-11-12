@@ -16,7 +16,7 @@ updated: 2026-11-11
 
 **Problema de pesquisa** é uma incerteza delimitada que precisa ser investigada. **Pergunta de pesquisa** traduz essa incerteza em algo que possa ser respondido por evidências. **Objetivo de pesquisa** declara o resultado de conhecimento pretendido; **abordagem** orienta o tipo de evidência e inferência; **método** organiza a investigação; **técnica** descreve o procedimento de coleta ou análise; **instrumento** materializa o procedimento, como roteiro, questionário ou protocolo de observação. **Unidade de análise** é o elemento sobre o qual se pretende concluir algo (pessoa, grupo, atendimento, conteúdo ou interação).
 
-A [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|nota 17: Pesquisa em comunicação]] já consolida **diferenças elementares entre pesquisa qualitativa e quantitativa, classificação de Mattar, técnicas, tipos de amostragem, painel e erros amostrais**. Esta unidade aprofunda uma outra pergunta: **como decidir entre abordagens, formular perguntas investigáveis, construir evidência defensável e integrar métodos sem confundir explicação, descrição e causalidade?** A amostragem e a inferência estatística serão aprofundadas em CAM-DI-025.
+A [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa em comunicação]] já consolida **diferenças elementares entre pesquisa qualitativa e quantitativa, classificação de Mattar, técnicas, tipos de amostragem, painel e erros amostrais**. Esta unidade aprofunda uma outra pergunta: **como decidir entre abordagens, formular perguntas investigáveis, construir evidência defensável e integrar métodos sem confundir explicação, descrição e causalidade?** A amostragem e a inferência estatística serão aprofundadas em CAM-DI-025.
 
 ## Do problema à pergunta: a lógica de um desenho de pesquisa
 
@@ -99,7 +99,7 @@ Esses desenhos são tipologias didáticas frequentes na literatura de **Creswell
 
 No estudo de cidadãos, há assimetria entre o órgão que define perguntas e coleta dados e a pessoa que participa. O desenho deve avaliar **finalidade, necessidade, transparência, risco de identificação e proteção de participantes**, conforme as regras aplicáveis. A Lei Geral de Proteção de Dados Pessoais (LGPD, Lei nº 13.709/2018) continua pertinente quando há tratamento de dados pessoais. Consentimento para participar de uma entrevista não deve ser confundido com a escolha automática de uma base legal para qualquer operação posterior.
 
-**Dados pseudonimizados** não são automaticamente anônimos, como já detalha a [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|nota 17]]. Registrar cargo, comissão e circunstâncias específicas pode permitir reidentificação mesmo sem nome. A publicação de uma citação literal também pode revelar a fonte pelo contexto.
+**Dados pseudonimizados** não são automaticamente anônimos, como já detalha a [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|Pesquisa em comunicação]]. Registrar cargo, comissão e circunstâncias específicas pode permitir reidentificação mesmo sem nome. A publicação de uma citação literal também pode revelar a fonte pelo contexto.
 
 Em serviços públicos, públicos pouco presentes na coleta podem ser justamente os que enfrentam maiores barreiras. Uma metodologia que recruta apenas usuários ativos do portal pode produzir diagnósticos importantes sobre esses usuários, mas **não representa automaticamente pessoas que jamais conseguem entrar no serviço**.
 

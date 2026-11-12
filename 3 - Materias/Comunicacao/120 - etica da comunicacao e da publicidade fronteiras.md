@@ -16,7 +16,7 @@ updated: 2026-11-11
 
 **Ética da comunicação** investiga responsabilidades relacionadas à produção, seleção, apresentação, circulação e correção de mensagens: veracidade, contextualização, transparência, respeito aos públicos e possíveis danos. **Ética da publicidade** examina esses problemas nas atividades de promoção e persuasão, com atenção à **identificação publicitária, honestidade, responsabilidade, não discriminação e proteção dos destinatários**. **Ética jornalística** possui compromissos próprios com apuração, interesse público, independência e fontes. **Comunicação institucional pública** submete-se ainda à finalidade pública, à impessoalidade, às regras da administração e às diretrizes internas pertinentes.
 
-A [[3 - Materias/Comunicacao/11 - etica em comunicacao|nota 11]] estuda o Código de Ética dos Jornalistas Brasileiros da FENAJ e suas exceções. A [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|nota 78]] examina o art. 37, § 1º, da Constituição. A [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|nota 73]] trata das práticas editoriais da Câmara, e a [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|nota 72]] da política instituída pelo Ato da Mesa nº 218/2025. Esta unidade **compara os regimes**, sem reproduzir integralmente suas regras.
+A [[3 - Materias/Comunicacao/11 - etica em comunicacao|Ética em comunicação]] estuda o Código de Ética dos Jornalistas Brasileiros da FENAJ e suas exceções. A [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|Publicidade institucional, promoção pessoal e art. 37, § 1º, da Constituição]] examina o art. 37, § 1º, da Constituição. A [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|Manual de Comunicação da Câmara: critérios editoriais, linguagem e procedimentos]] trata das práticas editoriais da Câmara, e a [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Ato da Mesa nº 218/2025: política de comunicação social da Câmara]] da política instituída pelo Ato da Mesa nº 218/2025. Esta unidade **compara os regimes**, sem reproduzir integralmente suas regras.
 
 ## Quatro fontes que a banca pode misturar
 
@@ -95,7 +95,7 @@ A [orientação da Secretaria de Comunicação Social sobre identificação de c
 
 ## Jornalismo: critérios próprios que não se transferem mecanicamente
 
-O **Código de Ética dos Jornalistas Brasileiros**, estudado na [[3 - Materias/Comunicacao/11 - etica em comunicacao|nota 11]], enfatiza direito à informação, interesse público, veracidade, apuração, sigilo de fonte e responsabilidades específicas. Esse regime não equivale ao conjunto de regras aplicáveis à publicidade de consumo.
+O **Código de Ética dos Jornalistas Brasileiros**, estudado na [[3 - Materias/Comunicacao/11 - etica em comunicacao|Ética em comunicação]], enfatiza direito à informação, interesse público, veracidade, apuração, sigilo de fonte e responsabilidades específicas. Esse regime não equivale ao conjunto de regras aplicáveis à publicidade de consumo.
 
 **Sigilo da fonte:** pode proteger identidade de informante no exercício jornalístico; **não é licença para encobrir anunciante de conteúdo pago**. **Métodos ocultos de apuração:** a nota 11 registra excepcionalidade sob condições do código jornalístico; essas condições não podem ser reaproveitadas como autorização genérica de publicidade disfarçada.
 
@@ -107,7 +107,7 @@ O **Código de Ética dos Jornalistas Brasileiros**, estudado na [[3 - Materias/
 
 O **art. 37, § 1º, da Constituição** exige caráter educativo, informativo **ou** de orientação social na publicidade dos órgãos públicos e proíbe nomes, símbolos ou imagens **que caracterizem promoção pessoal** de autoridades ou servidores. A conjunção **“ou”** não obriga toda peça a cumprir simultaneamente as três finalidades. A proibição de promoção pessoal exige avaliação da função da peça; **a simples menção factual a autoridade não é automaticamente promoção pessoal**.
 
-O **Ato da Mesa nº 218/2025**, art. 5º, estabelece os princípios de **imparcialidade, pluralismo, equilíbrio, transparência e precisão** na Política de Comunicação Social da Câmara. O art. 12 impõe cuidado para não favorecer posições ou opiniões políticas e observar proporcionalidade da representação partidária, conforme a [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|nota 72]].
+O **Ato da Mesa nº 218/2025**, art. 5º, estabelece os princípios de **imparcialidade, pluralismo, equilíbrio, transparência e precisão** na Política de Comunicação Social da Câmara. O art. 12 impõe cuidado para não favorecer posições ou opiniões políticas e observar proporcionalidade da representação partidária, conforme a [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Ato da Mesa nº 218/2025: política de comunicação social da Câmara]].
 
 **Fronteira do art. 1º, parágrafo único, do Ato:** a política específica não se aplica aos produtos criados ou contratados diretamente por deputados, gabinetes e lideranças partidárias. Isso **não elimina automaticamente obrigações constitucionais ou legais** incidentes, nem transforma produto partidário em comunicação institucional da Casa.
 
@@ -125,7 +125,7 @@ O **Ato da Mesa nº 218/2025**, art. 5º, estabelece os princípios de **imparci
 
 ## Dados pessoais, vulnerabilidade e decisões de design
 
-**Segmentação legítima:** pode ajudar a orientar serviço a públicos com necessidades distintas. **Exploração de vulnerabilidade:** procura influenciar pessoas aproveitando-se indevidamente de limitações, assimetrias de informação ou fragilidades. **Transparência de dados:** exige analisar fundamento, finalidade e informação adequada aos titulares, conforme LGPD quando aplicável. A [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|nota 03]] aprofunda os regimes de transparência e proteção de dados.
+**Segmentação legítima:** pode ajudar a orientar serviço a públicos com necessidades distintas. **Exploração de vulnerabilidade:** procura influenciar pessoas aproveitando-se indevidamente de limitações, assimetrias de informação ou fragilidades. **Transparência de dados:** exige analisar fundamento, finalidade e informação adequada aos titulares, conforme LGPD quando aplicável. A [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI, LGPD e transparência (nota transferida)]] aprofunda os regimes de transparência e proteção de dados.
 
 **Design de escolha (*choice architecture*)** organiza opções; **padrões enganosos de interface (*dark patterns*)** podem induzir ação que não corresponde à escolha informada, por exemplo ocultar a opção de recusa ou tornar uma condição decisiva difícil de perceber. O enquadramento jurídico depende do caso, mas a pergunta ética é se o projeto **favorece compreensão e autonomia ou explora o comportamento do usuário**.
 

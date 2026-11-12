@@ -190,7 +190,7 @@ Leia o texto original e ficcional a seguir, criado para treino de compreensão n
 ## 8. Relações com outros conceitos e notas da biblioteca
 
 * **Leitura instrumental, tese e inferências (base preexistente):** [[3 - Materias/Ingles/01 - leitura instrumental tese e inferencias|01 • Leitura instrumental, tese e inferências]].
-* **Fatores de textualidade, macroestrutura e progressão temática em Língua Portuguesa (paralelo teórico):** [[3 - Materias/Portugues/12 - texto contexto e producao de sentido|12 • Texto, contexto e produção de sentido (CAM-LP-001)]] e [[3 - Materias/Portugues/13 - tema tese e progressao tematica|13 • Tema, tese e progressão temática (CAM-LP-002)]].
+* **Fatores de textualidade, macroestrutura e progressão temática em Língua Portuguesa (paralelo teórico):** [[3 - Materias/Portugues/12 - texto contexto e producao de sentido|Texto, contexto e produção de sentido: fatores de textualidade e pragmática no padrão Cebraspe]] e [[3 - Materias/Portugues/13 - tema tese e progressao tematica|Tema, tese e progressão temática: tópicos discursivos, macroestrutura e dinâmicas de informação no padrão Cebraspe]].
 * **Próximo passo na trilha de Inglês (Informações explícitas, inferências e limites da dedução):** Unidade `CAM-ING-002`.
 
 

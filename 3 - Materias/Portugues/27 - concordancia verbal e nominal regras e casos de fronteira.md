@@ -270,8 +270,8 @@ Compare os três enunciados:
 
 ## 7. Relações com outros conceitos e notas da biblioteca
 
-* **Sintaxe do sujeito e termos da oração (pré-requisito direto):** [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|23 • Termos essenciais, integrantes e acessórios da oração (CAM-LP-012)]] e [[3 - Materias/Portugues/02 - sujeito|02 • Sujeito e termos da oração]].
-* **Classes de palavras e funções do "SE" e do "QUE":** [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|22 • Classes de palavras e suas funções no período (CAM-LP-011)]].
+* **Sintaxe do sujeito e termos da oração (pré-requisito direto):** [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|Termos essenciais, integrantes e acessórios da oração: sintaxe do período simples no padrão Cebraspe]] e [[3 - Materias/Portugues/02 - sujeito|02 • Sujeito e termos da oração]].
+* **Classes de palavras e funções do "SE" e do "QUE":** [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|Classes de palavras e suas funções no período: morfossintaxe de nomes, pronomes e conectivos no padrão Cebraspe]].
 * **Nota de base preexistente sobre concordância:** [[3 - Materias/Portugues/06 - concordancia verbal e nominal|06 • Concordância verbal e nominal]].
 * **Próximo passo (Regência verbal e nominal):** [[3 - Materias/Portugues/04 - regencia|04 • Regência verbal e nominal]].
 

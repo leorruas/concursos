@@ -157,7 +157,7 @@ Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda pa
 
 **Redações e decisões judiciais:** na ADI 4.029, o STF retirou eficácia normativa de passagens que dispensavam a comissão; na ADI 5.127, rejeitou emendas de conteúdo estranho à MP. A classificação de uma emenda depende de **pertinência temática**, além de forma e prazo.
 
-**Remissões:** [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|CAM-PL-027: comissões mistas]], [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|CAM-PL-025: Regimento Comum]], [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|urgência e procedimentos]], [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|sanção e promulgação]], [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|orçamento e créditos]].
+**Remissões:** [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Regimento Comum: lideranças, comissões mistas e votação no Congresso]], [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|Regimento Comum do Congresso: direção, objeto e convocação das sessões conjuntas]], [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|urgência e procedimentos]], [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|sanção e promulgação]], [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|orçamento e créditos]].
 
 ## Certificação jurídica delimitada: 11/11/2026
 

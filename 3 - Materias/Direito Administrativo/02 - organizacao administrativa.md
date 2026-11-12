@@ -182,7 +182,7 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
 ## 6. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|CAM-DAD-001]]: Distinção entre Estado, Governo e o aparelho administrativo técnico.
-  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|CAM-DAD-002]]: Aplicação dos princípios de legalidade estrita, moralidade e eficiência à descentralização.
-  - [[3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao|CAM-DAD-004]]: Aprofundamento dos mecanismos operacionais de desconcentração e descentralização por outorga e delegação.
-  - [[3 - Materias/Direito Administrativo/05 - agentes publicos|CAM-DAD-011]]: Regime jurídico de agentes públicos estatutários de autarquias vs. empregados celetistas de estatais.
+  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo, Administração Pública e Função Administrativa]]: Distinção entre Estado, Governo e o aparelho administrativo técnico.
+  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: Aplicação dos princípios de legalidade estrita, moralidade e eficiência à descentralização.
+  - [[3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao|Centralização, Descentralização, Concentração e Desconcentração no Direito Administrativo]]: Aprofundamento dos mecanismos operacionais de desconcentração e descentralização por outorga e delegação.
+  - [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos: espécies, cargos, empregos, funções e regimes de vinculação estatal]]: Regime jurídico de agentes públicos estatutários de autarquias vs. empregados celetistas de estatais.

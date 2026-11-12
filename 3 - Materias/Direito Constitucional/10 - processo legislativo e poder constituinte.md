@@ -72,7 +72,7 @@ O contraste entre **lei ordinária (LO)** e **lei complementar (LC)** precisa se
 
 **Primeira pegadinha:** art. 47 contém **duas condições**: presença de maioria absoluta e aprovação pela maioria dos votos. **O art. 69 substitui o requisito comum de votos favoráveis pela maioria absoluta do total de membros.** Uma lei complementar não se aprova por “maioria dos presentes” simplesmente porque a sessão está validamente instalada.
 
-**Segunda pegadinha:** o **PLP não é automaticamente prioritário** só por ser complementar. O **art. 151 do RICD** disciplina a classificação em urgência, prioridade e ordinária conforme a hipótese; é preciso conferir a **matéria e o enquadramento**, como os projetos voltados a regulamentar dispositivo constitucional. **Espécie normativa, regime de tramitação e competência decisória são eixos distintos**, estudados em [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-008]].
+**Segunda pegadinha:** o **PLP não é automaticamente prioritário** só por ser complementar. O **art. 151 do RICD** disciplina a classificação em urgência, prioridade e ordinária conforme a hipótese; é preciso conferir a **matéria e o enquadramento**, como os projetos voltados a regulamentar dispositivo constitucional. **Espécie normativa, regime de tramitação e competência decisória são eixos distintos**, estudados em [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]].
 
 #### Quando a Constituição reserva a matéria à lei complementar
 
@@ -112,7 +112,7 @@ O **art. 108 do RICD** distingue expressamente **projeto de lei ordinária** e *
 
 **PLP × lei complementar vigente:** o PLP é **proposição em tramitação**, com possibilidade de emenda e rejeição. A lei complementar é **espécie normativa resultante do processo**. Nem o título do projeto nem o parecer do relator comprovam a aprovação em ambas as Casas.
 
-**Iniciativa:** o art. 61 da Constituição inclui, nos termos e casos constitucionais, **deputados, senadores, comissões, presidente da República, STF, Tribunais Superiores, PGR e cidadãos** entre possíveis legitimados para projetos de lei ordinária e complementar. **A espécie não torna todas as matérias de iniciativa livre**: identificar as reservas do art. 61, § 1º, art. 93 e outras. A análise detalhada está em [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-002]].
+**Iniciativa:** o art. 61 da Constituição inclui, nos termos e casos constitucionais, **deputados, senadores, comissões, presidente da República, STF, Tribunais Superiores, PGR e cidadãos** entre possíveis legitimados para projetos de lei ordinária e complementar. **A espécie não torna todas as matérias de iniciativa livre**: identificar as reservas do art. 61, § 1º, art. 93 e outras. A análise detalhada está em [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]].
 
 #### Caso progressivo: uma proposta, quatro mudanças de gabarito
 
@@ -164,7 +164,7 @@ O **art. 108 do RICD** distingue expressamente **projeto de lei ordinária** e *
 
 #### Relações com outros temas, tensões e heurísticas
 
-**Conexões:** [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-002]] para iniciativa reservada; [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003 e 008]] para regime de tramitação; [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|CAM-PL-006]] para quóruns; [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|CAM-PL-009]] para conclusivo das comissões; [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|CAM-PL-007]] para atos finais. **CAM-PL-012** tratará lei delegada e proibição de delegar matéria reservada à LC (CF, art. 68, § 1º).
+**Conexões:** [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]] para iniciativa reservada; [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] para regime de tramitação; [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação, quóruns e modalidades de decisão na Câmara]] para quóruns; [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Procedimentos abreviado e sumário: comissões e urgência constitucional]] para conclusivo das comissões; [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação: etapas, prazos e competências]] para atos finais. **CAM-PL-012** tratará lei delegada e proibição de delegar matéria reservada à LC (CF, art. 68, § 1º).
 
 **Tensões:** **lei ordinária × tramitação ordinária; LC × PEC; maioria absoluta de presentes × maioria absoluta de membros; reserva de espécie × reserva de iniciativa; LC formalmente editada × matéria materialmente complementar; parecer de comissão × aprovação plenária; procedimento qualificado × hierarquia; CF art. 146 × toda legislação tributária.**
 
@@ -478,12 +478,12 @@ Ao redigir uma peça de comunicação sobre PEC, localizar **Casa de tramitaçã
 
 #### Relações, tensões e heurísticas específicas
 
-- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-002, iniciativa legislativa]]: art. 60 (PEC) **não utiliza** o rol genérico do art. 61 (leis), nem os percentuais da iniciativa popular de lei federal como mecanismo de PEC.
-- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004, comissões]]: **CCJC** aprecia admissibilidade e **comissão especial** aprecia o mérito; o nome “comissão” não torna suas competências equivalentes.
-- [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005, pareceres]]: parecer de admissibilidade não é aprovação por três quintos nem promulgação.
-- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|CAM-PL-006, votação e quóruns]]: distinguir 171 **assinaturas**; 308 **votos da Câmara**; 27 assinaturas e 49 votos do Senado.
-- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|CAM-PL-007, atos finais]]: PEC aprovada **não** recebe sanção ou veto; promulgação é feita pelas **Mesas**.
-- [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|CAM-PL-010, ritos especiais]]: o rito da PEC é **especial**; não transpor o prazo de urgência do art. 64 nem o tratamento de medidas provisórias.
+- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]]: art. 60 (PEC) **não utiliza** o rol genérico do art. 61 (leis), nem os percentuais da iniciativa popular de lei federal como mecanismo de PEC.
+- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]: **CCJC** aprecia admissibilidade e **comissão especial** aprecia o mérito; o nome “comissão” não torna suas competências equivalentes.
+- [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]]: parecer de admissibilidade não é aprovação por três quintos nem promulgação.
+- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação, quóruns e modalidades de decisão na Câmara]]: distinguir 171 **assinaturas**; 308 **votos da Câmara**; 27 assinaturas e 49 votos do Senado.
+- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação: etapas, prazos e competências]]: PEC aprovada **não** recebe sanção ou veto; promulgação é feita pelas **Mesas**.
+- [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Procedimentos sumaríssimo, especial e concentrado: urgência e ritos próprios]]: o rito da PEC é **especial**; não transpor o prazo de urgência do art. 64 nem o tratamento de medidas provisórias.
 - **Regra de leitura:** art. 60 **define legitimados, limites e votação**; RICD arts. 201–203 **detalham admissibilidade, mérito, emendas, interstícios e retorno do Senado**, conforme compatibilidade constitucional.
 
 #### Fontes oficiais verificadas em 08/11/2026

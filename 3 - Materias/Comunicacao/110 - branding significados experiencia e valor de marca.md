@@ -66,7 +66,7 @@ A sequência didática costuma ser formulada como **quem é você? → o que é 
 | Relevância de vínculos | Lealdade aparece como grupo de ativos | Ressonância aparece no nível de relacionamento |
 | Cuidado para prova | Não reduzir tudo a lembrança e qualidade | Não trocar seis blocos por critérios de escolha de elementos de marca |
 
-**Atenção à outra lista de Keller:** os **seis critérios para selecionar elementos de marca** (memorabilidade, significado, atratividade, transferibilidade, adaptabilidade e proteção) foram apresentados na [[3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual|nota 109]]. Eles **não são** os seis blocos da pirâmide CBBE. Essa coincidência numérica permite um distrator especialmente plausível.
+**Atenção à outra lista de Keller:** os **seis critérios para selecionar elementos de marca** (memorabilidade, significado, atratividade, transferibilidade, adaptabilidade e proteção) foram apresentados na [[3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual|Marca: conceito, elementos e identidade visual]]. Eles **não são** os seis blocos da pirâmide CBBE. Essa coincidência numérica permite um distrator especialmente plausível.
 
 ## Posicionamento: intenção gerencial e percepção externa
 

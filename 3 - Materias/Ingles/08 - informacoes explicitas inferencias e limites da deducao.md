@@ -201,8 +201,8 @@ Antes de julgar, separe quatro objetos: (1) prática anterior, (2) fala atribuí
 
 ## 8. Relações com outros conceitos e notas da biblioteca
 
-* **Como localizar assunto, tese e propósito em textos em inglês:** [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|07 • Como localizar assunto, tese e propósito (CAM-ING-001)]].
-* **Informação explícita, pressuposto e inferência em Língua Portuguesa (fundamentação teórica de Ducrot):** [[3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia|14 • Informação explícita, pressuposto e inferência (CAM-LP-003)]].
+* **Como localizar assunto, tese e propósito em textos em inglês:** [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|Como localizar assunto, tese e propósito comunicativo em textos em língua inglesa no padrão Cebraspe]].
+* **Informação explícita, pressuposto e inferência em Língua Portuguesa (fundamentação teórica de Ducrot):** [[3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia|Informação explícita, pressuposto e inferência: marcas linguísticas, subentendidos e limites da dedução no padrão Cebraspe]].
 * **Paráfrase, equivalência e escopo:** [[3 - Materias/Ingles/06 - parafrase equivalencia semantica e escopo|06 • Paráfrase, equivalência semântica e escopo]].
 * **Próximo passo na trilha de Inglês (Coesão referencial e referentes de pronomes):** Unidade `CAM-ING-003`.
 

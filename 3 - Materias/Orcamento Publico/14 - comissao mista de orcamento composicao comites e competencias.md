@@ -16,7 +16,7 @@ updated: 2026-11-07
 
 A **CMO** é a comissão mista permanente do Congresso Nacional prevista no **art. 166, § 1º, da Constituição Federal**. Seu funcionamento é disciplinado sobretudo pela **Resolução nº 1/2006-CN**, integrante do Regimento Comum, com alterações posteriores, inclusive da **Resolução nº 1/2025-CN**. O órgão examina projetos de **Plano Plurianual (PPA)**, **Lei de Diretrizes Orçamentárias (LDO)**, **Lei Orçamentária Anual (LOA)** e **créditos adicionais**, emite pareceres e exerce atribuições de **acompanhamento e fiscalização orçamentária**.
 
-A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|CAM-ORC-009]] descreve o **rito global** do projeto, do Executivo ao Congresso. Esta nota **CAM-ORC-010** explica a **estrutura interna da CMO**, seus comitês, relatores e os limites de suas decisões, para evitar deslocamentos de competência em itens Cebraspe.
+A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Tramitação legislativa das leis orçamentárias no Congresso Nacional]] descreve o **rito global** do projeto, do Executivo ao Congresso. Esta nota **CAM-ORC-010** explica a **estrutura interna da CMO**, seus comitês, relatores e os limites de suas decisões, para evitar deslocamentos de competência em itens Cebraspe.
 
 ## Composição e instalação: números e sujeitos
 
@@ -145,8 +145,8 @@ A banca pode trocar **30 deputados e 10 senadores** por uma composição inverti
 
 ## Relações com outros temas
 
-- [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|CAM-ORC-009: rito legislativo das leis orçamentárias]]: percurso do projeto no Congresso, distinto da estrutura interna da CMO.
-- [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|CAM-ORC-008: elaboração federal]]: SOF e unidades orçamentárias preparam o projeto antes de seu exame parlamentar.
+- [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Tramitação legislativa das leis orçamentárias no Congresso Nacional]]: percurso do projeto no Congresso, distinto da estrutura interna da CMO.
+- [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|Elaboração da proposta orçamentária federal: órgãos, decisões e etapas]]: SOF e unidades orçamentárias preparam o projeto antes de seu exame parlamentar.
 - [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares]]: autoria, limites e execução.
 - [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|Responsabilidade fiscal e controle]]: fiscalização e obrigações de informação.
 - [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|Separação de Poderes]]: Congresso, TCU e controle externo.

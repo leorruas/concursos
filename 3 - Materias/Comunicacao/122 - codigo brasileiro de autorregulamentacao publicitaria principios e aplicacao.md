@@ -18,7 +18,7 @@ O **Código Brasileiro de Autorregulamentação Publicitária (CBAP)**, institu�
 
 **Natureza jurídica:** código de **autorregulamentação setorial**, que não se confunde com lei federal, julgamento judicial ou poder estatal de polícia. O próprio art. 16 permite seu uso como **referência subsidiária** por autoridades e tribunais. Seu alcance deve ser diferenciado do **Código de Defesa do Consumidor (CDC)**, da Constituição e das normas da Câmara.
 
-A [[3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras|nota 120]] comparou CONAR, FENAJ, CDC e publicidade institucional. Esta unidade aprofunda a **estrutura interna, a interpretação dos dispositivos, seus limites e o mecanismo de autorregulamentação**, sem repetir aquela comparação geral. O texto-base consultado foi o [Código disponibilizado no portal oficial do CONAR](https://www.conar.org.br/codigos), que inclui anexos e informações de atualização em 2026; as disposições setoriais exigem consulta à versão e ao anexo correspondentes.
+A [[3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras|Ética da comunicação e da publicidade: princípios, regimes e fronteiras]] comparou CONAR, FENAJ, CDC e publicidade institucional. Esta unidade aprofunda a **estrutura interna, a interpretação dos dispositivos, seus limites e o mecanismo de autorregulamentação**, sem repetir aquela comparação geral. O texto-base consultado foi o [Código disponibilizado no portal oficial do CONAR](https://www.conar.org.br/codigos), que inclui anexos e informações de atualização em 2026; as disposições setoriais exigem consulta à versão e ao anexo correspondentes.
 
 ## Arquitetura do Código: cinco capítulos
 
@@ -142,7 +142,7 @@ O art. 27 também aborda **uso de pesquisas e estatísticas**, **informação ci
 
 **CONAR:** o anúncio observa padrões éticos de autorregulamentação e requisitos gerais/setoriais? **CDC, arts. 36 e 37:** quando incidente, há publicidade identificável e ausência de enganosidade ou abusividade na relação de consumo? **Constituição, art. 37, § 1º:** a publicidade do órgão tem caráter educativo, informativo ou de orientação social e evita promoção pessoal de autoridades e servidores?
 
-Um vídeo da Câmara pode informar corretamente um serviço, atender aos parâmetros publicitários de honestidade e continuar inadequado constitucionalmente por personalismo. Inversamente, uma peça impessoal pode faltar à verdade ou omitir condição essencial. A [[3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras|nota 120]] compara os regimes com mais detalhe.
+Um vídeo da Câmara pode informar corretamente um serviço, atender aos parâmetros publicitários de honestidade e continuar inadequado constitucionalmente por personalismo. Inversamente, uma peça impessoal pode faltar à verdade ou omitir condição essencial. A [[3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras|Ética da comunicação e da publicidade: princípios, regimes e fronteiras]] compara os regimes com mais detalhe.
 
 **Política interna da Câmara:** o Ato da Mesa nº 218/2025 prevê princípios e regras próprios de imparcialidade, pluralismo, equilíbrio, transparência e precisão. O regime interno não é substituído pelo CONAR. Identificar **canal institucional versus produção de gabinete/liderança** continua necessário.
 

@@ -178,6 +178,6 @@ A separação dos Poderes (art. 2º da CF/1988) não constitui estanqueidade abs
 ## 6. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|CAM-DAD-002]]: Os princípios expressos e implícitos do regime jurídico-administrativo decorrem da supremacia e indisponibilidade do interesse público.
-  - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|CAM-DAD-003 / CAM-DAD-004]]: A estruturação da Administração Direta e Indireta operacionaliza a separação entre Governo e Administração técnica.
-  - [[3 - Materias/Direito Administrativo/03 - atos administrativos|CAM-DAD-005 a CAM-DAD-009]]: A manifestação formal da função administrativa por meio de atos e contratos.
+  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: Os princípios expressos e implícitos do regime jurídico-administrativo decorrem da supremacia e indisponibilidade do interesse público.
+  - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico]]: A estruturação da Administração Direta e Indireta operacionaliza a separação entre Governo e Administração técnica.
+  - [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto]]: A manifestação formal da função administrativa por meio de atos e contratos.

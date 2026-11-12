@@ -233,7 +233,7 @@ Compare agora *The curator must have checked the inventory*, que expressa deduç
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|CAM-ING-002]]: Calibração de inferências com base em marcadores de *hedging* e modais.
-  - [[3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles|CAM-ING-006]]: O emprego de *Should* e *Were* em inversões condicionais sem *if*.
-  - [[3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles|CAM-ING-007]]: A transposição de tempos verbais e modais no discurso indireto (*can $\rightarrow$ could*, *may $\rightarrow$ might*, *will $\rightarrow$ would*).
-  - [[3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles|CAM-ING-008]]: Voz passiva com verbos modais (*must be verified*, *should be disclosed*).
+  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|Informações explícitas, inferências e limites da dedução em língua inglesa no padrão Cebraspe]]: Calibração de inferências com base em marcadores de *hedging* e modais.
+  - [[3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles|Estrutura de Frases, Negação, Interrogação e Inversão Sintática em Inglês]]: O emprego de *Should* e *Were* em inversões condicionais sem *if*.
+  - [[3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles|Tempos Verbais, Aspecto e Sequência Temporal em Textos Institucionais em Inglês]]: A transposição de tempos verbais e modais no discurso indireto (*can $\rightarrow$ could*, *may $\rightarrow$ might*, *will $\rightarrow$ would*).
+  - [[3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles|Voz Ativa, Passiva e Foco Informacional em Textos Institucionais em Inglês]]: Voz passiva com verbos modais (*must be verified*, *should be disclosed*).

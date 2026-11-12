@@ -92,7 +92,7 @@ Mecanismos plausíveis de itens Cebraspe, sem afirmar frequência medida: **alte
 - Art. 10 estende os arts. 4º, 5º e **6º, I** a todos os agentes públicos federais do Executivo; **não menciona 6º, II**.
 - **A qualquer tempo** para uso de informação privilegiada é diferente de **seis meses** para as restrições específicas pós-desligamento.
 - Um potencial conflito pode exigir prevenção mesmo quando nenhuma irregularidade foi ainda comprovada.
-- Evitar equiparar a consulta SeCI ao procedimento próprio para impedimento em processo administrativo, tratado na [[3 - Materias/Etica Publica/04 - impedimento e suspeicao processo administrativo|nota 04]].
+- Evitar equiparar a consulta SeCI ao procedimento próprio para impedimento em processo administrativo, tratado na [[3 - Materias/Etica Publica/04 - impedimento e suspeicao processo administrativo|Impedimento e suspeição no processo administrativo]].
 
 ## Exemplos comentados
 

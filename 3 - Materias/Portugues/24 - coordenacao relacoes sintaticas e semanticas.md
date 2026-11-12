@@ -234,6 +234,6 @@ Em “O novo sistema eletrônico de votação não só agilizou a apuração do 
 
 ## 7. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|CAM-LP-012 · Termos essenciais, integrantes e acessórios da oração]].
-- **Artigos Fundamentais Conexos**: [[3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas]]; [[3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao|CAM-LP-009 · Conectores, relações lógicas e sequenciação]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|Termos essenciais, integrantes e acessórios da oração: sintaxe do período simples no padrão Cebraspe]].
+- **Artigos Fundamentais Conexos**: [[3 - Materias/Portugues/07 - oracoes coordenadas e subordinadas|07 • Orações coordenadas e subordinadas]]; [[3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao|Conectores, relações lógicas e sequenciação: operadores argumentativos e articulação do período no padrão Cebraspe]].
 - **Próxima Unidade**: **CAM-LP-014 · Subordinação substantiva, adjetiva e adverbial** (Morfossintaxe das orações subordinadas desenvolvidas e reduzidas, restrição $\times$ explicação nas adjetivas e efeitos de sentido no padrão Cebraspe).

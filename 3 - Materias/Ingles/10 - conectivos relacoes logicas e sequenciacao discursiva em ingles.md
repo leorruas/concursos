@@ -253,7 +253,7 @@ A primeira relação é **concessiva**: o equipamento limitado não impediu a pr
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|CAM-ING-001]]: A identificação do propósito comunicativo depende do reconhecimento dos conectores que articulam a tese central.
-  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|CAM-ING-002]]: A calibração de conclusões baseia-se no rigor dos conectores de causalidade e concessão.
-  - [[3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes|CAM-ING-003]]: Coesão referencial e sequencial operam em conjunto na tessitura discursiva.
-  - [[3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles|CAM-ING-005]]: Análise de conectores com múltiplos sentidos (*since*, *while*, *as*) e falsos amigos estruturais.
+  - [[3 - Materias/Ingles/07 - como localizar assunto tese e proposito em textos em ingles|Como localizar assunto, tese e propósito comunicativo em textos em língua inglesa no padrão Cebraspe]]: A identificação do propósito comunicativo depende do reconhecimento dos conectores que articulam a tese central.
+  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|Informações explícitas, inferências e limites da dedução em língua inglesa no padrão Cebraspe]]: A calibração de conclusões baseia-se no rigor dos conectores de causalidade e concessão.
+  - [[3 - Materias/Ingles/09 - coesao referencial e referentes de pronomes|Coesão referencial e identificação de referentes pronominais em textos em inglês no padrão Cebraspe]]: Coesão referencial e sequencial operam em conjunto na tessitura discursiva.
+  - [[3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles|Vocabulário Contextual, Polissemia e Falsos Cognatos em Textos Institucionais em Inglês]]: Análise de conectores com múltiplos sentidos (*since*, *while*, *as*) e falsos amigos estruturais.

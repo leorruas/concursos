@@ -243,7 +243,7 @@ Operadores adverbiais e prepositivos delimitam estritamente o universo de aplica
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|CAM-ING-002]]: Quantificadores definem os limites seguros da dedução lógica e evitam generalizações abusivas.
-  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|CAM-ING-004]]: Conectivos de proporção e comparação (*as... as*, *whereas*, *while*).
-  - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|CAM-ING-009]]: Articulação entre quantificadores (*all, some, none*) e operadores modais (*must, may, cannot*).
-  - [[3 - Materias/Ingles/06 - parafrase equivalencia semantica e escopo|CAM-ING-011]]: Preservação do escopo quantitativo e dos graus comparativos em processos de reescrita oracional.
+  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|Informações explícitas, inferências e limites da dedução em língua inglesa no padrão Cebraspe]]: Quantificadores definem os limites seguros da dedução lógica e evitam generalizações abusivas.
+  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|Conectivos: Relações Lógicas, Articulação de Sentido e Sequenciação Discursiva em Inglês]]: Conectivos de proporção e comparação (*as... as*, *whereas*, *while*).
+  - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|Modalização em Inglês: Possibilidade, Obrigação, Dedução Lógica e Gradação de Certeza]]: Articulação entre quantificadores (*all, some, none*) e operadores modais (*must, may, cannot*).
+  - [[3 - Materias/Ingles/06 - parafrase equivalencia semantica e escopo|Paráfrase, equivalência semântica e escopo]]: Preservação do escopo quantitativo e dos graus comparativos em processos de reescrita oracional.

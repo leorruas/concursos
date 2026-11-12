@@ -182,7 +182,7 @@ Nem todo ato praticado pela Administração Pública constitui ato administrativ
 ## 6. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|CAM-DAD-001]]: Distinção estrutural entre Governo e Administração técnica.
-  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|CAM-DAD-002]]: A submissão dos atos administrativos ao princípio da juridicidade e da moralidade.
-  - [[3 - Materias/Direito Administrativo/03 - atos administrativos|CAM-DAD-006 a CAM-DAD-009]]: Os requisitos de validade (CO-FI-FO-MO-O), atributos, classificação e extinção de atos administrativos.
-  - [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|CAM-DAD-018 / CAM-DAD-019]]: A formalização do ato administrativo e o dever legal de motivação da Lei nº 9.784/1999.
+  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo, Administração Pública e Função Administrativa]]: Distinção estrutural entre Governo e Administração técnica.
+  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: A submissão dos atos administrativos ao princípio da juridicidade e da moralidade.
+  - [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto]]: Os requisitos de validade (CO-FI-FO-MO-O), atributos, classificação e extinção de atos administrativos.
+  - [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo federal]]: A formalização do ato administrativo e o dever legal de motivação da Lei nº 9.784/1999.

@@ -233,7 +233,7 @@ O núcleo é uma ação em curso (*is reviewing*), com agente (*the research tea
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|CAM-ING-002]]: A voz passiva sem agente impede a inferência indevida de que um ator específico praticou o ato.
-  - [[3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles|CAM-ING-006]]: Foco informacional e estruturação temática da oração em inglês.
-  - [[3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles|CAM-ING-007]]: A conservação do tempo e do aspecto de *BE* durante a transposição passiva.
-  - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|CAM-ING-009]]: Voz passiva com verbos modais (*must be verified*, *should be implemented*).
+  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|Informações explícitas, inferências e limites da dedução em língua inglesa no padrão Cebraspe]]: A voz passiva sem agente impede a inferência indevida de que um ator específico praticou o ato.
+  - [[3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles|Estrutura de Frases, Negação, Interrogação e Inversão Sintática em Inglês]]: Foco informacional e estruturação temática da oração em inglês.
+  - [[3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles|Tempos Verbais, Aspecto e Sequência Temporal em Textos Institucionais em Inglês]]: A conservação do tempo e do aspecto de *BE* durante a transposição passiva.
+  - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|Modalização em Inglês: Possibilidade, Obrigação, Dedução Lógica e Gradação de Certeza]]: Voz passiva com verbos modais (*must be verified*, *should be implemented*).

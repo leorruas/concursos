@@ -225,6 +225,6 @@ Em consonância com as prescrições do Manual de Redação da Presidência da R
 
 ## 7. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|CAM-LP-007 · Referência textual: anáfora, catáfora e dêixis]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|Referência textual: anáfora, catáfora, dêixis e cadeias coesivas no padrão Cebraspe]].
 - **Artigo Fundamental Conexo**: [[3 - Materias/Portugues/08 - coesao textual referenciacao e tempos verbais|08 • Coesão textual: referenciação, conectores e tempos verbais]].
 - **Próxima Unidade**: **CAM-LP-009 · Conectores, relações lógicas e sequenciação** (Conjunções coordenativas e subordinativas, operadores argumentativos e valores discursivos no padrão Cebraspe).

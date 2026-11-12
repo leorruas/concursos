@@ -13,7 +13,7 @@ aliases:
 
 # Regimento Comum: lideranças, comissões mistas e votação no Congresso
 
-**Câmara dos Deputados 2026: cargo 1, Divulgação Institucional. Banca Cebraspe. CAM-PL-027.** O Regimento Comum do Congresso Nacional (RCCN) foi aprovado pela **Resolução nº 1/1970-CN** e é complementado por resoluções posteriores. Este artigo focaliza as **regras gerais dos arts. 4º a 52**, com as conexões indispensáveis aos **arts. 131–133, 144–151** e à Constituição. A [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|CAM-PL-025]] já estuda os arts. 1º a 3º, e a [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|CAM-PL-026]] aborda as solenidades e as matérias específicas até o art. 103. Os três textos se complementam.
+**Câmara dos Deputados 2026: cargo 1, Divulgação Institucional. Banca Cebraspe. CAM-PL-027.** O Regimento Comum do Congresso Nacional (RCCN) foi aprovado pela **Resolução nº 1/1970-CN** e é complementado por resoluções posteriores. Este artigo focaliza as **regras gerais dos arts. 4º a 52**, com as conexões indispensáveis aos **arts. 131–133, 144–151** e à Constituição. A [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|Regimento Comum do Congresso: direção, objeto e convocação das sessões conjuntas]] já estuda os arts. 1º a 3º, e a [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|Regimento Comum, Título IV: sessões solenes e matérias legislativas até o art. 103]] aborda as solenidades e as matérias específicas até o art. 103. Os três textos se complementam.
 
 ## Núcleo do conceito
 
@@ -173,7 +173,7 @@ Embora fora dos arts. 4º–52, estes dispositivos explicam **como resolver dúv
 
 **A sequência para prova:** identificar se é **Câmara**, **Senado**, **comissão mista** ou **sessão conjunta**; localizar o verbo **indicar, designar, instalar, deliberar ou publicar**; conferir presença, apoio e votação por Casa; verificar norma especial e atualizar redações antigas.
 
-**Conexões:** [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|CAM-PL-025]], [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|CAM-PL-026]], [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões]], [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Votação]] e [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Processo orçamentário]].
+**Conexões:** [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|Regimento Comum do Congresso: direção, objeto e convocação das sessões conjuntas]], [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|Regimento Comum, Título IV: sessões solenes e matérias legislativas até o art. 103]], [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões]], [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Votação]] e [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Processo orçamentário]].
 
 ## Certificação normativa delimitada: 11/11/2026
 

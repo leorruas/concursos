@@ -186,9 +186,9 @@ Compare:
 
 ## 7. Relações com outros conceitos e notas da biblioteca
 
-* **Ortografia e homônimos/parônimos gráficos:** [[3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao|17 • Ortografia e convenções da escrita (CAM-LP-006)]].
-* **Coesão lexical, sinonímia, hiperonímia e hiponímia:** [[3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical|19 • Substituição, elipse, repetição e coesão lexical (CAM-LP-008)]].
-* **Referenciação pronominal e desambiguação com *este/aquele*:** [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|18 • Referência textual: anáfora, catáfora e dêixis (CAM-LP-007)]].
+* **Ortografia e homônimos/parônimos gráficos:** [[3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao|Ortografia e convenções da escrita: Acordo Ortográfico, acentuação gráfica, hifenização e ortoépia no padrão Cebraspe]].
+* **Coesão lexical, sinonímia, hiperonímia e hiponímia:** [[3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical|Substituição, elipse, repetição e coesão lexical: mecanismos de reiteração no padrão Cebraspe]].
+* **Referenciação pronominal e desambiguação com *este/aquele*:** [[3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis|Referência textual: anáfora, catáfora, dêixis e cadeias coesivas no padrão Cebraspe]].
 * **Próximo passo direto (Reescrita: substituição lexical e preservação de sentido):** [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido|10 • Reescrita, semântica e preservação de sentido]] e Unidade `CAM-LP-021`.
 
 ## 8. Referências teóricas e normativas

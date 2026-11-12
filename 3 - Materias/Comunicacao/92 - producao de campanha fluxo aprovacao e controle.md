@@ -18,7 +18,7 @@ updated: 2026-11-11
 
 Em publicidade, convém separar: **criação** concebe a solução expressiva; **produção** viabiliza e executa os materiais; **veiculação** distribui mensagens em meios e veículos; **controle** verifica conformidade, mudanças e evidências de entrega; **avaliação de resultados** verifica efeitos da campanha, e não apenas o cumprimento da produção.
 
-A [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|nota 86]] aprofunda conceito e estratégia; [[3 - Materias/Comunicacao/87 - mensagem publicitaria apelos e argumentacao|nota 87]] aborda argumentos; [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|nota 88]] explica a articulação do atendimento; [[3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias|nota 91]] aborda sequência e dependências. Aqui o núcleo são **etapas produtivas, critérios de controle e fronteiras de responsabilidade**.
+A [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|Estratégia, conceito criativo e posicionamento: decisões e fronteiras]] aprofunda conceito e estratégia; [[3 - Materias/Comunicacao/87 - mensagem publicitaria apelos e argumentacao|Mensagem publicitária: apelos, argumentos e provas]] aborda argumentos; [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|Atendimento em publicidade: responsabilidades, etapas e decisões]] explica a articulação do atendimento; [[3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias|Cronograma de campanha: sequência, dependências e caminho crítico]] aborda sequência e dependências. Aqui o núcleo são **etapas produtivas, critérios de controle e fronteiras de responsabilidade**.
 
 ## Etapas: do planejamento à entrega verificável
 
@@ -103,7 +103,7 @@ O regime concreto depende do objeto, contrato e normas aplicáveis. O fato de a 
 
 Esses níveis não são intercambiáveis. Um arquivo entregue pode não ter sido publicado. Uma publicação pode gerar muitas impressões sem mudar a compreensão. Um público pode passar a utilizar o serviço por outros motivos, de modo que a avaliação causal exige cautela.
 
-A [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|nota 90]] aprofunda indicadores de mídia. O CAM-DI-016 examinará monitoramento e avaliação de campanha.
+A [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|Plano de mídia: alcance, frequência, cobertura e investimento]] aprofunda indicadores de mídia. O CAM-DI-016 examinará monitoramento e avaliação de campanha.
 
 ## Caso progressivo
 
@@ -167,7 +167,7 @@ A [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e 
 
 ## Relações e heurísticas
 
-[[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|CAM-DI-010]]: articulação entre áreas e instâncias. [[3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias|CAM-DI-013]]: precedências e marcos. [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|CAM-DI-008]]: direção da criação. [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|CAM-DI-012]]: distribuição e medidas.
+[[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|Atendimento em publicidade: responsabilidades, etapas e decisões]]: articulação entre áreas e instâncias. [[3 - Materias/Comunicacao/91 - cronograma de campanha sequencia e dependencias|Cronograma de campanha: sequência, dependências e caminho crítico]]: precedências e marcos. [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|Estratégia, conceito criativo e posicionamento: decisões e fronteiras]]: direção da criação. [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|Plano de mídia: alcance, frequência, cobertura e investimento]]: distribuição e medidas.
 
 **Heurísticas:** conceito orienta; pré-produção prepara; produção executa; pós-produção finaliza; checagem valida fatos; revisão examina adequação; aprovação depende de competência; veiculação distribui; comprovação demonstra execução; avaliação examina efeitos. **Produzido ≠ revisado ≠ aprovado ≠ veiculado ≠ eficaz.**
 

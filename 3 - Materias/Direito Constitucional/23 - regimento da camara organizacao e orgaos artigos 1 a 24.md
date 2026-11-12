@@ -12,7 +12,7 @@ updated: 2026-11-11
 
 **Câmara dos Deputados 2026, Divulgação Institucional, Cebraspe, CAM-PL-019 e CAM-PL-020.** Fonte primária: [Regimento Interno da Câmara dos Deputados (RICD), aprovado pela Resolução nº 17/1989, versão consolidada](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferido com a [31ª edição (2026), atualizada até a Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/version/400).
 
-**Rastreabilidade de unidades:** este artigo cobre dois recortes editoriais planejados sobre os **mesmos arts. 1º a 24**: CAM-PL-019 (disposições preliminares) e CAM-PL-020 (Mesa e órgãos da Câmara). A correspondência é temática, não equivale a dois artigos autônomos nem comprova auditoria normativa integral. Para **comissões dos arts. 25 a 54**, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|DC14, CAM-PL-004]].
+**Rastreabilidade de unidades:** este artigo cobre dois recortes editoriais planejados sobre os **mesmos arts. 1º a 24**: CAM-PL-019 (disposições preliminares) e CAM-PL-020 (Mesa e órgãos da Câmara). A correspondência é temática, não equivale a dois artigos autônomos nem comprova auditoria normativa integral. Para **comissões dos arts. 25 a 54**, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]].
 
 ## Núcleo do conceito: quem organiza, decide, representa e comunica?
 
@@ -74,7 +74,7 @@ A **Mesa**, como **Comissão Diretora**, dirige trabalhos legislativos e serviç
 
 **Primeiro-Secretário, art. 19:** superintende serviços administrativos da Câmara, recebe petições e correspondência não dirigida às comissões, decide inicialmente recursos contra atos do Diretor-Geral e dá posse ao Diretor-Geral e ao Secretário-Geral da Mesa. **Suplentes de Secretário, art. 19-A:** substituição, relatoria e funções de representação nos termos regimentais; têm inclusive competência de **propor medidas para preservação e promoção da imagem da Câmara** (inciso IV). Isso não torna a Secretaria responsável única por toda comunicação institucional.
 
-**Cuidado constitucional:** o **art. 15, XVII, do RICD** conserva formulação sobre proposta de **resolução para fixação de remuneração dos servidores da Câmara**. A **Constituição, art. 51, IV**, exige **iniciativa de lei** para fixar essa remuneração. Em caso de leitura literal divergente, **prevalece a Constituição**. Essa tensão também foi registrada em [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|CAM-PL-014]].
+**Cuidado constitucional:** o **art. 15, XVII, do RICD** conserva formulação sobre proposta de **resolução para fixação de remuneração dos servidores da Câmara**. A **Constituição, art. 51, IV**, exige **iniciativa de lei** para fixar essa remuneração. Em caso de leitura literal divergente, **prevalece a Constituição**. Essa tensão também foi registrada em [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Projetos de decreto legislativo e de resolução: competência, tramitação e efeitos]].
 
 ## Órgãos especializados e mudanças recentes: arts. 20-A a 21-X
 
@@ -106,7 +106,7 @@ O art. 22 distingue **comissões permanentes**, com atuação técnica-legislati
 
 **Exclusões do poder conclusivo (art. 24, II):** projetos de **lei complementar**, de **código**, de **iniciativa popular**, de **comissão**, referentes a **matéria indelegável** nos termos do art. 68, § 1º, **oriundos do Senado ou por ele emendados e já aprovados no Plenário de qualquer Casa**, com **pareceres divergentes**, ou em **regime de urgência**. A redação detalhada de cada ressalva importa: **nem todo projeto recebido do Senado** está excluído pelo simples fato da origem, pois a alínea **f** estabelece condição adicional.
 
-Outras competências incluem **audiências públicas**, convocação de Ministro, pedidos escritos via Mesa, petições, depoimentos, fiscalização de obras e planos, pedidos de auditoria e colaboração com o TCU, fiscalização de atos do Executivo e proposta de sustação de atos normativos que **exorbitem poder regulamentar ou delegação** (art. 24, III a XIV). Fiscalização e decisão legislativa são funções relacionadas, mas não sinônimas. Para espécies de comissão e poderes de investigação, preservar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004]], que já cobre esse núcleo.
+Outras competências incluem **audiências públicas**, convocação de Ministro, pedidos escritos via Mesa, petições, depoimentos, fiscalização de obras e planos, pedidos de auditoria e colaboração com o TCU, fiscalização de atos do Executivo e proposta de sustação de atos normativos que **exorbitem poder regulamentar ou delegação** (art. 24, III a XIV). Fiscalização e decisão legislativa são funções relacionadas, mas não sinônimas. Para espécies de comissão e poderes de investigação, preservar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]], que já cobre esse núcleo.
 
 ## Caso progressivo: oito mudanças de competência
 
@@ -158,7 +158,7 @@ Outras competências incluem **audiências públicas**, convocação de Ministro
 
 **Fonte vigente × texto antigo:** **Resoluções nº 33 e 34/2026** alteraram competências e acrescentaram órgãos. E a Constituição prevalece sobre a redação residual do art. 15, XVII, no assunto **remuneração dos servidores da Câmara**.
 
-Artigos relacionados: [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004, comissões]], [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|CAM-PL-009, apreciação conclusiva]], [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-001, proposições]], [[3 - Materias/Comunicacao/02 - comunicacao publica|Comunicação pública]], [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI e transparência]].
+Artigos relacionados: [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]], [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Procedimentos abreviado e sumário: comissões e urgência constitucional]], [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]], [[3 - Materias/Comunicacao/02 - comunicacao publica|Comunicação pública]], [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI e transparência]].
 
 **Nota editorial:** o texto se baseia na consolidação oficial do RICD e na Constituição vigente, cotejadas em **08/11/2026**. Os dez itens são inéditos, sem pretensão de reproduzir provas Cebraspe. A cobertura editorial não significa retenção nem exercício realizado.
 

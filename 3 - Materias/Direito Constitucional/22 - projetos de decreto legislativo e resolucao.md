@@ -10,7 +10,7 @@ updated: 2026-11-11
 
 # Projetos de decreto legislativo e de resolução: competência, tramitação e efeitos
 
-> **Câmara dos Deputados 2026, Cebraspe, CAM-PL-014.** Esta nota aprofunda a classificação apresentada em [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas (CAM-PL-001)]], sem reescrever o catálogo geral das proposições.
+> **Câmara dos Deputados 2026, Cebraspe, CAM-PL-014.** Esta nota aprofunda a classificação apresentada em [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]], sem reescrever o catálogo geral das proposições.
 
 ## Núcleo do conceito: qual órgão pode decidir sem sanção presidencial?
 
@@ -46,7 +46,7 @@ A CF, **art. 49**, enumera competências **exclusivas do Congresso Nacional**. E
 3. **Sustação de atos normativos do Executivo:** sustar atos que **exorbitem do poder regulamentar ou dos limites de delegação legislativa** (**art. 49, V**). É um instrumento de controle dos limites constitucionais, **não poder genérico de revogar decretos presidenciais por discordância política**.
 4. **Contas presidenciais:** julgar anualmente as contas prestadas pelo Presidente da República e apreciar relatórios sobre a execução dos planos de governo (**art. 49, IX**). Distinguir **julgamento pelo Congresso** de **parecer prévio técnico do TCU**, nos termos do art. 71, I.
 5. **Plebiscito e referendo:** **convocar plebiscito e autorizar referendo** (**art. 49, XV**). Cuidado com a troca dos verbos.
-6. **Relações jurídicas de medida provisória:** quando uma MP é rejeitada ou perde eficácia, cabe ao Congresso **disciplinar as relações jurídicas por decreto legislativo** (**CF art. 62, § 3º**). Se o decreto não é editado em até **60 dias**, aplica-se a preservação constitucional das relações constituídas e decorrentes de atos praticados durante a vigência (**§ 11**). Ver [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|CAM-PL-013]].
+6. **Relações jurídicas de medida provisória:** quando uma MP é rejeitada ou perde eficácia, cabe ao Congresso **disciplinar as relações jurídicas por decreto legislativo** (**CF art. 62, § 3º**). Se o decreto não é editado em até **60 dias**, aplica-se a preservação constitucional das relações constituídas e decorrentes de atos praticados durante a vigência (**§ 11**). Ver [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|Medida provisória: pressupostos, prazos, tramitação e efeitos]].
 
 **Decreto legislativo × decreto presidencial.** Ambos se chamam “decreto”, mas são atos de **órgãos e fundamentos diferentes**. Decreto **legislativo** é espécie normativa do **art. 59, VI**. Decreto presidencial regulamentar relaciona-se ao poder normativo do Executivo (**CF art. 84, IV**). O decreto legislativo de sustação do art. 49, V, é justamente exemplo do **Legislativo controlando limites de um ato normativo do Executivo**.
 
@@ -122,7 +122,7 @@ A CF, **art. 51, IV**, atribui à Câmara competência para **dispor sobre organ
 
 **Versão D: dívida consolidada.** Trata-se de fixar limites globais da dívida consolidada de entes federativos no recorte do art. 52, VI. A competência é **do Senado**, exercida mediante **resolução do Senado**, e não decreto legislativo do Congresso. O efeito ultrapassa a administração interna do Senado.
 
-**Versão E: delegação legislativa.** Presidente pede autorização para elaborar lei delegada. A autorização é por **resolução do Congresso** (**art. 68, § 2º**), **não** por decreto legislativo nem por resolução privativa da Câmara. Ver [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|CAM-PL-012]].
+**Versão E: delegação legislativa.** Presidente pede autorização para elaborar lei delegada. A autorização é por **resolução do Congresso** (**art. 68, § 2º**), **não** por decreto legislativo nem por resolução privativa da Câmara. Ver [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|Lei delegada e delegação legislativa: autorização, limites e procedimento]].
 
 **Versão F: medida provisória caducada.** Congresso deve disciplinar os efeitos de uma medida provisória que perdeu eficácia. O instrumento é **decreto legislativo** (**art. 62, §§ 3º e 11**), não lei ordinária sujeita a sanção. O prazo posterior de 60 dias rege os efeitos residuais se não for editado o ato.
 

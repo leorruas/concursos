@@ -50,13 +50,13 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|17. Sanção, veto, promulgação e publicação]]: CAM-PL-007, CF art. 66, prazos 15 dias úteis/48 horas/30 dias, veto político e jurídico, parcial e total, rejeição por maioria absoluta de cada Casa, promulgação subsidiária e vigência. **Próxima: CAM-PL-008, procedimento ordinário.**
 
-- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-008. Procedimento ordinário, regime e prazos]]: refinamento da nota **13** (mesmo `articleId`) com a distinção espécie normativa × procedimento × regime de tramitação, prazos de 40 sessões por comissão/20 do relator, emendas, atrasos e diferenças de prioridade e urgência. **Próxima: CAM-PL-009, abreviado e sumário.**
+- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: refinamento da nota **13** (mesmo `articleId`) com a distinção espécie normativa × procedimento × regime de tramitação, prazos de 40 sessões por comissão/20 do relator, emendas, atrasos e diferenças de prioridade e urgência. **Próxima: CAM-PL-009, abreviado e sumário.**
 
 - [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|18. Procedimentos abreviado e sumário: comissões e urgência constitucional]]: CAM-PL-009, rito abreviado (decisão conclusiva, recurso) × sumário (CF, art. 64, pedido presidencial, 45/45/10), diferenças entre prioridade regimental e urgência constitucional; terminativo no Senado × parecer terminativo na Câmara. **Próxima: CAM-PL-010, sumaríssimo, especial e concentrado.**
 
 - [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|19. Procedimentos sumaríssimo, especial e concentrado]]: CAM-PL-010, urgência urgentíssima (art. 155), rito especial de PEC/MP/lei delegada e rito concentrado em sessão conjunta, com comissões mistas e votos separados. **Próxima: CAM-PL-011, lei ordinária e complementar.**
 
-- [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|CAM-PL-011. Lei ordinária e complementar]]: expansão da nota **10** com reserva material, quórum, PLP e Plenário, STF Tema 1.352 e exemplos de revisão. **Concluída na nota 20: CAM-PL-012, lei delegada.**
+- [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|🔄 Processo legislativo e poder constituinte]]: expansão da nota **10** com reserva material, quórum, PLP e Plenário, STF Tema 1.352 e exemplos de revisão. **Concluída na nota 20: CAM-PL-012, lei delegada.**
 
 - [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|20. Lei delegada e delegação legislativa]]: CAM-PL-012, autorização por resolução, vedações da CF art. 68, comissão mista e votação sem emendas do projeto delegado. **Concluída na nota 21: CAM-PL-013, medida provisória.**
 
@@ -64,17 +64,17 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 - [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|22. Projetos de decreto legislativo e de resolução]]: CAM-PL-014, competência exclusiva do Congresso, resoluções da Câmara/Senado/Congresso, promulgação e ausência de sanção, casos de tratados, créditos e sustação de atos. **CAM-PL-015 refinada na nota 10 existente.**
 
-- [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|CAM-PL-015, rito da PEC]]: refinamento **da nota 10 existente**, com CF art. 60 × RICD arts. 201–203: CCJC, comissão especial, emendas, interstícios, dois turnos e retorno do Senado. **CAM-PL-016 refinada na nota 11 existente.**
+- [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|🔄 Processo legislativo e poder constituinte]]: refinamento **da nota 10 existente**, com CF art. 60 × RICD arts. 201–203: CCJC, comissão especial, emendas, interstícios, dois turnos e retorno do Senado. **CAM-PL-016 refinada na nota 11 existente.**
 
-- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-016, matérias do processo legislativo]]: refinamento da **nota 11 existente**, comparando indicação, requerimentos dos arts. 114–117, parecer e veto, com situações e itens Cebraspe. **CAM-PL-017 refinada na nota 12 existente.**
+- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]]: refinamento da **nota 11 existente**, comparando indicação, requerimentos dos arts. 114–117, parecer e veto, com situações e itens Cebraspe. **CAM-PL-017 refinada na nota 12 existente.**
 
-- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-017, sujeitos institucionais da iniciativa]]: refinamento da nota 12, comparação entre Presidência, Congresso, tribunais, PGR/MP e cidadãos, iniciativa × Casa iniciadora e reservas. **CAM-PL-018 refinada na nota 06 existente.**
+- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]]: refinamento da nota 12, comparação entre Presidência, Congresso, tribunais, PGR/MP e cidadãos, iniciativa × Casa iniciadora e reservas. **CAM-PL-018 refinada na nota 06 existente.**
 
-- [[3 - Materias/Direito Constitucional/06 - poder legislativo|CAM-PL-018, fiscalização contábil, financeira e orçamentária]]: refinamento da **nota 06**, arts. 70–75, comissão mista do art. 72, controle interno, TCU, sustação e EC 139/2026. **CAM-PL-019 concluída na nota 23.**
+- [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder legislativo]]: refinamento da **nota 06**, arts. 70–75, comissão mista do art. 72, controle interno, TCU, sustação e EC 139/2026. **CAM-PL-019 concluída na nota 23.**
 
 - [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|23. Regimento Interno da Câmara: organização, Mesa e órgãos (arts. 1º a 24)]]: CAM-PL-019, sede, sessões, posse, lideranças, Mesa/Presidência/Secretarias, Colégio de Líderes, comunicação e transparência, comissões e art. 24. **CAM-PL-020 também coberta nesta nota (Mesa e órgãos, arts. 1º a 24).**
 
-- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|CAM-PL-004, aprofundamento de comissões, arts. 25–54]]: expansão da nota canônica **14**, com composição, distribuição, subcomissões, presidência, impedimentos, reuniões, prazos e parecer terminativo. **CAM-PL-021 concluída na nota 24.**
+- [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]: expansão da nota canônica **14**, com composição, distribuição, subcomissões, presidência, impedimentos, reuniões, prazos e parecer terminativo. **CAM-PL-021 concluída na nota 24.**
 
 - [[3 - Materias/Direito Constitucional/24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80|24. RICD: decisões das comissões, fiscalização e sessões (arts. 55–80)]]: CAM-PL-021, parecer e recurso de 1/10, fiscalização parlamentar, RAFC/PAFC, tipologia e rito das sessões, publicidade e ata. **Sessões 81–94 cobertas no complemento da nota 25; CAM-PL-022 do inventário (Deputados) concluída na nota 26.**
 

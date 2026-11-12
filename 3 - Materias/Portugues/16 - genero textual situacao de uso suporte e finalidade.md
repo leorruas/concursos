@@ -218,6 +218,6 @@ Um edital de concurso público pode combinar trechos expositivos, descritivos e 
 
 ## 7. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/15 - tipologia textual criterios de distincao e sequencias prototipicas|CAM-LP-004 · Tipologia textual: critérios de distinção, sequências prototípicas e formas híbridas]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/15 - tipologia textual criterios de distincao e sequencias prototipicas|Tipologia textual: critérios de distinção, sequências prototípicas e formas híbridas no padrão Cebraspe]].
 - **Artigo Fundamental Conexo**: [[3 - Materias/Portugues/09 - tipos e generos textuais|09 • Tipos e gêneros textuais (Visão Geral de Fixação)]].
 - **Próxima Unidade**: **CAM-LP-006 · Ortografia e convenções da escrita** (Acordo ortográfico, acentuação gráfica, hífen e ortoépia aplicados ao padrão da redação oficial e do Cebraspe).

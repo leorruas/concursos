@@ -18,7 +18,7 @@ updated: 2026-11-11
 
 **Planejamento de campanha** define objetivos e estratégias; **cronograma** organiza quando e em que ordem as ações serão realizadas; **plano de mídia** define onde, quanto e com qual intensidade a campanha circulará; **calendário editorial** organiza pautas e publicações. Um mesmo calendário pode exibir informações dessas ferramentas, mas as funções analíticas permanecem diferentes.
 
-A [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|nota 20]] diferencia planejamento e mídia; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|CAM-DI-004]] desenvolve informações iniciais e prazos; [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|CAM-DI-010]] trata do acompanhamento das aprovações; [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|CAM-DI-012]] aprofunda distribuição. O foco aqui é **gestão do tempo e das dependências**.
+A [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Campanhas e planejamento de mídia]] diferencia planejamento e mídia; [[3 - Materias/Comunicacao/82 - briefing publicitario problema contexto informacoes e qualidade|Briefing publicitário: problema, contexto, informações e critérios de qualidade]] desenvolve informações iniciais e prazos; [[3 - Materias/Comunicacao/88 - atendimento em publicidade responsabilidades e etapas|Atendimento em publicidade: responsabilidades, etapas e decisões]] trata do acompanhamento das aprovações; [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|Plano de mídia: alcance, frequência, cobertura e investimento]] aprofunda distribuição. O foco aqui é **gestão do tempo e das dependências**.
 
 ## Estrutura interna: atividade, duração, marco, prazo e dependência
 
@@ -99,7 +99,7 @@ Em que **o** é a duração otimista, **m** a mais provável e **p** a pessimist
 
 **Cronograma de produção** registra briefing, pesquisa, criação, checagem, adaptações, revisões, aprovações e entrega dos arquivos. **Programação de mídia** registra períodos, inserções e intensidade de veiculação, conforme veículos e plataformas.
 
-Na [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|nota 90]], os padrões são **continuidade**, **ondas (flighting)** e **pulsação (pulsing)**. Essas são estratégias de intensidade temporal de veiculação, **não relações de precedência** como FS ou SS.
+Na [[3 - Materias/Comunicacao/90 - plano de midia alcance frequencia cobertura e investimento|Plano de mídia: alcance, frequência, cobertura e investimento]], os padrões são **continuidade**, **ondas (flighting)** e **pulsação (pulsing)**. Essas são estratégias de intensidade temporal de veiculação, **não relações de precedência** como FS ou SS.
 
 **Caso-limite:** uma campanha pode estar pronta na data prevista e não alcançar o público porque a compra de mídia não foi programada. Também pode ter espaço contratado e não ter a peça aprovada, impedindo a veiculação. A integração dos cronogramas é necessária.
 

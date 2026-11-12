@@ -234,6 +234,6 @@ No fragmento “Restou comprovado nos autos do processo administrativo que a con
 
 ## 6. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial|CAM-LP-014 · Subordinação substantiva, adjetiva e adverbial]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial|Subordinação substantiva, adjetiva e adverbial: morfossintaxe, formas reduzidas e efeitos de sentido no padrão Cebraspe]].
 - **Artigo Fundamental Conexo**: [[3 - Materias/Portugues/03 - pontuacao e virgula|03 • Pontuação e vírgula (Resumo Prático)]].
 - **Próxima Unidade**: **CAM-LP-016 · Concordância verbal e nominal: regras e casos de fronteira** (Concordância com sujeito composto posposto, partícula *se*, expressões partitivas, porcentagens, *mais de um*, verbos impessoais e concordância nominal no padrão Cebraspe).

@@ -16,7 +16,7 @@ updated: 2026-11-11
 
 **Produção gráfica** é o conjunto de decisões e operações que materializam conteúdos visuais em suportes impressos, considerando formato, tiragem, processo de impressão, cor, papel, acabamento e controle de qualidade. **Pré-impressão** prepara e verifica arquivos para a reprodução; **impressão** transfere imagem e texto ao suporte; **acabamento** transforma ou finaliza o material por operações como corte, dobra, vinco, encadernação e aplicação de revestimentos.
 
-A [[3 - Materias/Comunicacao/12 - producao editorial e design|nota 12: Produção editorial e design]] já apresenta os fundamentos de **RGB/CMYK, raster/vetor, PPI/DPI, sangria, PDF/X, papel e acabamentos**. A [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade|nota 112]] aprofunda composição e legibilidade. Esta unidade organiza o **fluxo de decisão e os mecanismos técnicos**, com comparações de processos, imposição de páginas, perfis de cor, fechamento, prova e erros de produção; evita repetir definições elementares sem acrescentar consequências.
+A [[3 - Materias/Comunicacao/12 - producao editorial e design|Produção editorial e design]] já apresenta os fundamentos de **RGB/CMYK, raster/vetor, PPI/DPI, sangria, PDF/X, papel e acabamentos**. A [[3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade|Design gráfico: hierarquia, composição e legibilidade]] aprofunda composição e legibilidade. Esta unidade organiza o **fluxo de decisão e os mecanismos técnicos**, com comparações de processos, imposição de páginas, perfis de cor, fechamento, prova e erros de produção; evita repetir definições elementares sem acrescentar consequências.
 
 ## Fluxo: do projeto ao impresso
 

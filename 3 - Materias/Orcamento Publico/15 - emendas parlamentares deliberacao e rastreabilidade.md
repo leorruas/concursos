@@ -16,7 +16,7 @@ updated: 2026-11-07
 
 **Emenda orçamentária** é a proposição de alteração do projeto de lei de orçamento ou de outras matérias orçamentárias, sujeita à Constituição, à legislação complementar e ao Regimento Comum. O mesmo ato pode ser classificado por **autor** (individual, bancada, comissão), **objeto** (receita, despesa, texto), **operação** (apropriação, remanejamento, cancelamento) e **regime de execução**. Esses eixos são independentes: uma **emenda de comissão** pode ser **de remanejamento**, mas não deixa de ser de comissão.
 
-Este artigo **CAM-ORC-011** aprofunda a **apresentação, a admissibilidade, a deliberação, as indicações e a rastreabilidade de emendas no Congresso**, com atenção às Resoluções **1/2006-CN, 1/2025-CN e 2/2025-CN** e à Lei Complementar **210/2024**. A nota canônica [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]] trata dos **fundamentos gerais, limites de execução obrigatória e transferências**; [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|CAM-ORC-009]] cobre o rito de PPA, LDO e LOA; e [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|CAM-ORC-010]] explica a CMO e seus comitês. O novo foco é a **fronteira entre diferentes tipos de emenda e decisões consecutivas**.
+Este artigo **CAM-ORC-011** aprofunda a **apresentação, a admissibilidade, a deliberação, as indicações e a rastreabilidade de emendas no Congresso**, com atenção às Resoluções **1/2006-CN, 1/2025-CN e 2/2025-CN** e à Lei Complementar **210/2024**. A nota canônica [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]] trata dos **fundamentos gerais, limites de execução obrigatória e transferências**; [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Tramitação legislativa das leis orçamentárias no Congresso Nacional]] cobre o rito de PPA, LDO e LOA; e [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|Comissão Mista de Orçamento: composição, comitês e competências]] explica a CMO e seus comitês. O novo foco é a **fronteira entre diferentes tipos de emenda e decisões consecutivas**.
 
 ## Quatro critérios de classificação
 
@@ -128,8 +128,8 @@ Uma comissão recebe, após a publicação da LOA, propostas de indicação de b
 ## Relações com outros temas
 
 - [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]]: execução obrigatória, transferências e impedimentos técnicos.
-- [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|CAM-ORC-009: rito geral]]: CMO, parecer e deliberação em sessão conjunta.
-- [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|CAM-ORC-010: CMO e CAE]]: atribuições da comissão e admissibilidade.
+- [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Tramitação legislativa das leis orçamentárias no Congresso Nacional]]: CMO, parecer e deliberação em sessão conjunta.
+- [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|Comissão Mista de Orçamento: composição, comitês e competências]]: atribuições da comissão e admissibilidade.
 - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]: compatibilidade e finalidade das leis.
 - [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Estágios da despesa]]: dotação, empenho, liquidação e pagamento.
 - [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|Responsabilidade fiscal e controle]]: limites e fiscalização.

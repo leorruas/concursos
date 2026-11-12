@@ -209,9 +209,9 @@ Quando o Cebraspe apresenta um item de **reescrita de parágrafo inteiro** (4 a 
 
 ## 8. Relações com outros conceitos e notas da biblioteca
 
-* **Reescrita por substituição lexical (pré-requisito complementar):** [[3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido|32 • Reescrita: substituição lexical, correção gramatical e preservação de sentido (CAM-LP-021)]] e [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido|10 • Reescrita, semântica e preservação de sentido]].
-* **Coordenação e subordinação (transformações oracionais):** [[3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas|24 • Coordenação (CAM-LP-013)]] e [[3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial|25 • Subordinação (CAM-LP-014)]].
-* **Pontuação nas inversões sintáticas:** [[3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido|26 • Pontuação e efeitos na estrutura e no sentido (CAM-LP-015)]].
+* **Reescrita por substituição lexical (pré-requisito complementar):** [[3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido|Reescrita: substituição lexical, correção gramatical e preservação de sentido no padrão Cebraspe]] e [[3 - Materias/Portugues/10 - reescrita semantica e preservacao de sentido|10 • Reescrita, semântica e preservação de sentido]].
+* **Coordenação e subordinação (transformações oracionais):** [[3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas|Coordenação: relações sintáticas, polissemia de conectivos e pontuação do período composto no padrão Cebraspe]] e [[3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial|Subordinação substantiva, adjetiva e adverbial: morfossintaxe, formas reduzidas e efeitos de sentido no padrão Cebraspe]].
+* **Pontuação nas inversões sintáticas:** [[3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido|Pontuação e efeitos na estrutura e no sentido: vírgula, dois-pontos, ponto e vírgula e travessões no padrão Cebraspe]].
 * **Próximo passo e fechamento da trilha (Reescrita entre registros, formalidade e gêneros textuais):** Unidade `CAM-LP-023`.
 
 ## 9. Referências teóricas e normativas

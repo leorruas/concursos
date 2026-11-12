@@ -209,8 +209,8 @@ Compare:
 ## 8. Relações com outros conceitos e notas da biblioteca
 
 * **Nota de base preexistente sobre crase:** [[3 - Materias/Portugues/11 - crase|11 • Crase]].
-* **Regência verbal e nominal (pré-requisito direto para identificar a preposição *a*):** [[3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos|28 • Regência verbal e nominal: transitividade, preposições e mudanças de sentido (CAM-LP-017)]] e [[3 - Materias/Portugues/04 - regencia|04 • Regência verbal e nominal]].
-* **Morfossintaxe de pronomes e preposições:** [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|22 • Classes de palavras e suas funções no período (CAM-LP-011)]].
+* **Regência verbal e nominal (pré-requisito direto para identificar a preposição *a*):** [[3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos|Regência verbal e nominal: transitividade, preposições e mudanças de sentido no padrão Cebraspe]] e [[3 - Materias/Portugues/04 - regencia|04 • Regência verbal e nominal]].
+* **Morfossintaxe de pronomes e preposições:** [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|Classes de palavras e suas funções no período: morfossintaxe de nomes, pronomes e conectivos no padrão Cebraspe]].
 * **Próximo passo (Colocação pronominal):** Unidade `CAM-LP-019`.
 
 ## 9. Referências teóricas e normativas

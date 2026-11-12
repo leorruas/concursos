@@ -233,6 +233,6 @@ No fragmento “Os cidadãos é que exercem a soberania popular por meio do sufr
 
 ## 8. Relações com Outras Unidades e Próximos Passos
 
-- **Unidade Anterior**: [[3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto|CAM-LP-010 · Tempo, modo e aspecto verbal na construção do texto]].
+- **Unidade Anterior**: [[3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto|Tempo, modo e aspecto verbal na construção do texto: correlação de tempos e efeitos discursivos no padrão Cebraspe]].
 - **Artigos Fundamentais Conexos**: [[3 - Materias/Portugues/02 - sujeito|02 • Sujeito e termos da oração]]; [[3 - Materias/Portugues/06 - concordancia verbal e nominal|06 • Concordância verbal e nominal]].
 - **Próxima Unidade**: **CAM-LP-012 · Termos essenciais e integrantes da oração** (Tipologia do sujeito, transitividade verbal, objetos direto/indireto, complemento nominal $\times$ adjunto adnominal e agente da passiva no padrão Cebraspe).

@@ -14,7 +14,7 @@ updated: 2026-11-11
 
 **Caso:** uma campanha registra 240 mil impressões e alcança 80 mil pessoas distintas. Seu **alcance absoluto** é 80 mil; **impressões** são 240 mil; **frequência média** é 3. O erro decisivo seria afirmar que 240 mil pessoas foram alcançadas. Impressões incluem contatos repetidos.
 
-O **plano de mídia** decide como distribuir uma comunicação: objetivos de distribuição, públicos, meios, veículos, formatos, áreas, período, intensidade, recursos e avaliação. É diferente do **calendário editorial**, que organiza pautas e publicações, e do **cronograma de produção**, que organiza atividades e dependências. A [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|nota 89]] compara os meios; esta concentra fórmulas e critérios quantitativos.
+O **plano de mídia** decide como distribuir uma comunicação: objetivos de distribuição, públicos, meios, veículos, formatos, áreas, período, intensidade, recursos e avaliação. É diferente do **calendário editorial**, que organiza pautas e publicações, e do **cronograma de produção**, que organiza atividades e dependências. A [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|Tipos de mídia, veículos e plataformas]] compara os meios; esta concentra fórmulas e critérios quantitativos.
 
 ## Taxonomia e fórmulas
 
@@ -114,7 +114,7 @@ O [caderno CESPE/UnB de Correios 2011, Cargo 28](https://cdn.cebraspe.org.br/con
 
 ## Relações e heurísticas
 
-[[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|CAM-DI-011]]: meios. [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Planejamento de mídia]]: contexto. [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|Objetivos]]: indicadores e metas. [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Segmentação]]: universo de referência.
+[[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|Tipos de mídia, veículos e plataformas]]: meios. [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|Planejamento de mídia]]: contexto. [[3 - Materias/Comunicacao/84 - objetivos de comunicacao objetivos de campanha e indicadores|Objetivos]]: indicadores e metas. [[3 - Materias/Comunicacao/85 - publico alvo e segmentacao publicitaria|Segmentação]]: universo de referência.
 
 **Heurísticas:** impressões = contatos totais; alcance = pessoas distintas; frequência = impressões ÷ alcance; GRP = alcance percentual × frequência; CPM = custo × 1.000 ÷ impressões. Conferir sempre período, público, denominador e sobreposição.
 

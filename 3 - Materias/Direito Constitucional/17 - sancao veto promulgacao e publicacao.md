@@ -206,9 +206,9 @@ Outro mecanismo é a **unidade mínima do veto parcial**. A descrição pode est
 ## Relações com outros temas
 
 - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]]: espécies normativas, PEC, sanção e veto em síntese.
-- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003: tramitação]]: Casa iniciadora/revisora e envio à Presidência depois da votação final.
-- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|CAM-PL-006: votação e quóruns]]: maioria absoluta para rejeição de veto, distinguindo o Congresso das votações ordinárias.
-- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|CAM-PL-002: iniciativa]]: distinção entre quem propõe e quem sanciona.
+- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: Casa iniciadora/revisora e envio à Presidência depois da votação final.
+- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação, quóruns e modalidades de decisão na Câmara]]: maioria absoluta para rejeição de veto, distinguindo o Congresso das votações ordinárias.
+- [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]]: distinção entre quem propõe e quem sanciona.
 - **CAM-PL-011 e CAM-PL-015**: lei ordinária/complementar e PEC, sobretudo seus atos finais.
 - **CAM-PL-025 a 027**: Regimento Comum e procedimento de vetos em sessão conjunta.
 

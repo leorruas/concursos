@@ -223,8 +223,8 @@ Para julgar reescritas, identifique **qual propriedade o enunciado exige preserv
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|CAM-ING-002]]: Delimitação de inferências para atestar a fidelidade semântica da paráfrase.
-  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|CAM-ING-004]]: A equivalência de conectivos na conversão entre subordinação e coordenação.
-  - [[3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles|CAM-ING-008]]: Transposição entre vozes mantendo a integridade aspectual e o foco temático.
-  - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|CAM-ING-009]]: Manutenção rigorosa do grau epistêmico e deôntico em reescritas.
-  - [[3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles|CAM-ING-010]]: Conservação de quantificadores e delimitadores de escopo informacional.
+  - [[3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao|Informações explícitas, inferências e limites da dedução em língua inglesa no padrão Cebraspe]]: Delimitação de inferências para atestar a fidelidade semântica da paráfrase.
+  - [[3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles|Conectivos: Relações Lógicas, Articulação de Sentido e Sequenciação Discursiva em Inglês]]: A equivalência de conectivos na conversão entre subordinação e coordenação.
+  - [[3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles|Voz Ativa, Passiva e Foco Informacional em Textos Institucionais em Inglês]]: Transposição entre vozes mantendo a integridade aspectual e o foco temático.
+  - [[3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles|Modalização em Inglês: Possibilidade, Obrigação, Dedução Lógica e Gradação de Certeza]]: Manutenção rigorosa do grau epistêmico e deôntico em reescritas.
+  - [[3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles|Comparativos, Quantificadores e Delimitadores de Escopo em Inglês]]: Conservação de quantificadores e delimitadores de escopo informacional.

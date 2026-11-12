@@ -23,7 +23,7 @@ A **Constituição Federal, art. 58**, estabelece que o Congresso Nacional e sua
 
 O **art. 33** subdivide as temporárias em **especiais, de inquérito e externas**. Essa taxonomia é o núcleo de **CAM-PL-004**. A banca pode descrever corretamente o poder de investigar e atribuí-lo a uma comissão especial, ou associar uma missão externa à aprovação de uma PEC: a função é verdadeira, mas a categoria está errada.
 
-A [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003]] explica a **sequência de tramitação**. Aqui o objeto muda: **que tipo de comissão é competente para cada tarefa**, como se constitui e quais são seus poderes e limites. A estrutura do parecer e sua votação ficam para **CAM-PL-005**; os poderes investigatórios e limites judiciais das CPIs serão detalhados em **CAM-PL-031**.
+A [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] explica a **sequência de tramitação**. Aqui o objeto muda: **que tipo de comissão é competente para cada tarefa**, como se constitui e quais são seus poderes e limites. A estrutura do parecer e sua votação ficam para **CAM-PL-005**; os poderes investigatórios e limites judiciais das CPIs serão detalhados em **CAM-PL-031**.
 
 ## Estrutura interna: permanentes versus temporárias
 
@@ -100,7 +100,7 @@ O **art. 58, § 2º, da Constituição** e o **art. 24 do RICD** atribuem compet
 
 **Art. 24, II: exceções ao poder conclusivo.** O artigo exclui, entre outros, projetos de **lei complementar**, de **código**, de **iniciativa popular**, de **autoria de comissão**, de matéria indelegável, certos projetos do Senado, propostas com **pareceres divergentes** e matérias em **urgência**. Assim, **comissão pode iniciar projeto** nas hipóteses constitucionais, mas **projeto de autoria de comissão não se enquadra automaticamente no poder conclusivo**. A existência do órgão é distinta da modalidade de decisão disponível para a proposição.
 
-**Terminativo × conclusivo:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003]] já diferencia exame terminativo de constitucionalidade/adequação financeira de apreciação conclusiva de mérito. O futuro artigo **CAM-PL-005** estudará como parecer e voto se tornam decisão do colegiado.
+**Terminativo × conclusivo:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] já diferencia exame terminativo de constitucionalidade/adequação financeira de apreciação conclusiva de mérito. O futuro artigo **CAM-PL-005** estudará como parecer e voto se tornam decisão do colegiado.
 
 ## Representação, presidência e funcionamento
 
@@ -136,7 +136,7 @@ O **art. 58, § 2º, da Constituição** e o **art. 24 do RICD** atribuem compet
 
 ### O objeto específico desta expansão
 
-A [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|CAM-PL-019]] introduz os arts. 22 a 24 e a distinção entre comissões permanentes e temporárias. A parte inicial desta nota já trata dos tipos de comissão, das comissões especiais, parlamentares de inquérito e externas. Aqui, o foco é outro: **composição, proporcionalidade, eleição de dirigentes, impedimentos, reuniões, quóruns, prazos, distribuição e tipos de parecer** segundo os **arts. 25 a 54**. O nome “comissão” não indica automaticamente o **órgão que decide**, o **tipo de decisão** ou o **prazo aplicável**.
+A [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Regimento da Câmara: organização, Mesa, lideranças e órgãos (arts. 1º a 24)]] introduz os arts. 22 a 24 e a distinção entre comissões permanentes e temporárias. A parte inicial desta nota já trata dos tipos de comissão, das comissões especiais, parlamentares de inquérito e externas. Aqui, o foco é outro: **composição, proporcionalidade, eleição de dirigentes, impedimentos, reuniões, quóruns, prazos, distribuição e tipos de parecer** segundo os **arts. 25 a 54**. O nome “comissão” não indica automaticamente o **órgão que decide**, o **tipo de decisão** ou o **prazo aplicável**.
 
 ### Composição e instalação: arts. 25 a 28
 
@@ -214,7 +214,7 @@ O **art. 54** chama de **terminativo** o parecer da **CCJC** sobre **constitucio
 - **Parecer terminativo:** art. 54, examina a **admissibilidade** constitucional/jurídica ou a adequação financeira/orçamentária.
 - **Apreciação conclusiva:** em certos **projetos de lei**, a comissão decide sobre a proposição sem submissão ordinária ao Plenário, ressalvados condições e recurso (CF art. 58, § 2º, I; RICD art. 24, II).
 
-Para composição do **parecer escrito**, votos do relator, ressalvas, votos em separado e distinção entre relator e colegiado, manter a nota [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|CAM-PL-005]].
+Para composição do **parecer escrito**, votos do relator, ressalvas, votos em separado e distinção entre relator e colegiado, manter a nota [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]].
 
 ### Caso progressivo: nove variações de uma proposição
 
@@ -302,8 +302,8 @@ Cuidado com verdades parciais: a **comissão permanente fiscaliza**, mas não ad
 
 ## Relações com outros temas
 
-- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|CAM-PL-003]]: distribuição, instrução, decisão conclusiva e recurso ao Plenário.
-- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|CAM-PL-001]]: gêneros de proposição e distinção entre proposta, projeto, requerimento e parecer.
+- [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: distribuição, instrução, decisão conclusiva e recurso ao Plenário.
+- [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]]: gêneros de proposição e distinção entre proposta, projeto, requerimento e parecer.
 - [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]]: bicameralismo e controle externo.
 - [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|Comissão Mista de Orçamento]]: comissão do Congresso, diversa dos órgãos exclusivos da Câmara.
 - **CAM-PL-005**: relatório, voto e parecer da comissão.

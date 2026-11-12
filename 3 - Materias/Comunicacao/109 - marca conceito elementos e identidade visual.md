@@ -16,7 +16,7 @@ updated: 2026-11-11
 
 **Marca (brand)** tem ao menos dois níveis úteis para o estudo. Em sentido de **identificação**, envolve nome, termo, sinal, símbolo, desenho ou combinação usados para identificar bens, serviços ou organizações e distingui-los. Em sentido de **marketing e comunicação**, envolve ainda o conjunto de significados, expectativas, memórias e associações ligados ao objeto identificado. **Elemento de marca** é um componente reconhecível e selecionável dessa identificação, como nome, símbolo, logotipo, slogan ou personagem, quando pertinente. **Identidade visual** é o sistema coerente de elementos gráficos, regras e aplicações que expressa a organização em interfaces, materiais e outros pontos de contato.
 
-A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|nota 19]] já apresenta os fundamentos do branding; a [[3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras|nota 53]] detalha identidade, imagem e reputação, incluindo Albert e Whetten, Brown e coautores e Hatch e Schultz. A presente unidade examina **a estrutura de uma marca e de seus elementos visuais, a diferença entre sinal e significado, a arquitetura básica de identificação e os limites do sistema gráfico**. A próxima, CAM-DI-032, aprofundará a **gestão estratégica dos significados e da experiência**, sem repor esta taxonomia.
+A [[3 - Materias/Comunicacao/19 - marketing institucional e branding|Marketing institucional e branding]] já apresenta os fundamentos do branding; a [[3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras|Identidade, imagem e reputação organizacional: conceitos, autores e fronteiras]] detalha identidade, imagem e reputação, incluindo Albert e Whetten, Brown e coautores e Hatch e Schultz. A presente unidade examina **a estrutura de uma marca e de seus elementos visuais, a diferença entre sinal e significado, a arquitetura básica de identificação e os limites do sistema gráfico**. A próxima, CAM-DI-032, aprofundará a **gestão estratégica dos significados e da experiência**, sem repor esta taxonomia.
 
 ## Seis objetos distintos: evitar troca de categoria
 
@@ -106,7 +106,7 @@ No setor público, ainda há restrições de finalidade da publicidade instituci
 
 **Etapa D:** o portal adapta cores e componentes para cumprir critérios de contraste e leitura em celular. O sistema permanece coerente, com **adaptações funcionais**.
 
-**Etapa E:** uma pesquisa externa avalia reconhecimento, compreensão e confiança, em momentos e grupos definidos. Somente essa evidência permite começar a examinar efeitos percebidos, respeitando os limites de inferência detalhados na [[3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses|nota 105]].
+**Etapa E:** uma pesquisa externa avalia reconhecimento, compreensão e confiança, em momentos e grupos definidos. Somente essa evidência permite começar a examinar efeitos percebidos, respeitando os limites de inferência detalhados na [[3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses|Pesquisa de imagem e reputação: indicadores, desenho e vieses]].
 
 **Caso de fronteira:** uma campanha usa nome da Câmara, mas destaca símbolo pessoal de uma autoridade em peças supostamente institucionais. A coerência cromática com o manual **não resolve o problema constitucional da promoção pessoal**.
 

@@ -67,7 +67,7 @@ A competência para **ordenar uma despesa** é diferente de **aprovar o orçamen
 
 O **controle interno** é executado por órgãos próprios da Câmara (art. 265). O **controle externo** da União é de responsabilidade do **Congresso Nacional, com auxílio do TCU**, nos arts. **70 e 71 da Constituição**. A **prestação de contas encaminhada ao TCU** é um elo entre os mecanismos, mas **não transforma o TCU em ordenador de despesas** da Câmara nem significa que todo balancete mensal seja julgamento de contas.
 
-A distribuição de competências do Tribunal de Contas e as diferenças entre **apreciar contas presidenciais**, **julgar contas de gestores**, **fiscalizar atos** e **sustar contratos** foram estudadas em [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo e CAM-PL-018]].
+A distribuição de competências do Tribunal de Contas e as diferenças entre **apreciar contas presidenciais**, **julgar contas de gestores**, **fiscalizar atos** e **sustar contratos** foram estudadas em [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder legislativo]].
 
 ## 3. Polícia da Câmara, investigação e disciplina: arts. 267 a 271
 
@@ -149,7 +149,7 @@ Imagine um ato de violência nas instalações da Câmara: a **Mesa** é respons
 
 **Acesso público ≠ acesso irrestrito. Autoridade parlamentar ≠ autorização para comércio.** Em comunicação institucional, a regra de ingresso do público deve ser apresentada com seus requisitos e limitações, sem apagar a abertura democrática da Casa.
 
-Relações: [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Mesa e Presidência, RICD 1–24]], [[3 - Materias/Direito Constitucional/06 - poder legislativo|Controle interno e TCU, CAM-PL-018]], [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|Imunidades e regime dos deputados, CAM-PL-022]], [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa de leis sobre serviços]], [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]].
+Relações: [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Mesa e Presidência, RICD 1–24]], [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder legislativo]], [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|Deputados: mandato, imunidades, licenças, vacância e suplência (RICD, arts. 226 a 251)]], [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa de leis sobre serviços]], [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]].
 
 ## Certificação normativa delimitada: 11/11/2026
 

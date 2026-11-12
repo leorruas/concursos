@@ -16,7 +16,7 @@ updated: 2026-11-11
 
 A **medida provisória** é espécie normativa com **força de lei**, editada pelo Presidente da República e submetida **imediatamente ao Congresso Nacional** (Constituição Federal, **arts. 59, V, e 62**). A regra constitucional exige **relevância e urgência simultâneas**. O Presidente faz a avaliação inicial, mas o Congresso realiza juízo prévio sobre os pressupostos constitucionais antes de deliberar sobre o mérito (**art. 62, § 5º**). A natureza excepcional da MP não permite presumir que todo assunto importante seja automaticamente urgente.
 
-**Distinção determinante:** uma MP pode **produzir efeitos jurídicos antes da aprovação parlamentar**. Isso não a torna uma lei definitivamente convertida. Seu destino depende do Congresso e dos limites temporais. Ao contrário, na **lei delegada** (**art. 68**), a autorização do Congresso é **anterior** à elaboração presidencial: [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|CAM-PL-012]].
+**Distinção determinante:** uma MP pode **produzir efeitos jurídicos antes da aprovação parlamentar**. Isso não a torna uma lei definitivamente convertida. Seu destino depende do Congresso e dos limites temporais. Ao contrário, na **lei delegada** (**art. 68**), a autorização do Congresso é **anterior** à elaboração presidencial: [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|Lei delegada e delegação legislativa: autorização, limites e procedimento]].
 
 ## Relevância, urgência, eficácia e vigência
 
@@ -119,10 +119,10 @@ O **Congresso Nacional deve disciplinar por decreto legislativo** as relações 
 
 ## Relações com outros temas e tensões
 
-- [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|CAM-PL-012, lei delegada]]: **autorização legislativa prévia** × **controle legislativo posterior**; emendas proibidas ao projeto delegado × emendas admitidas à MP.
-- [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|CAM-PL-010, ritos especiais]]: MP, PEC e delegação têm fundamentos e procedimentos diferentes; comissão mista não implica **votação em sessão conjunta**.
-- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|CAM-PL-007, sanção e promulgação]]: **MP original convertida sem alterações** × **PLV encaminhado à sanção**.
-- [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|CAM-PL-011, lei ordinária e complementar]]: a MP não invade matéria **constitucionalmente reservada à lei complementar**.
+- [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|Lei delegada e delegação legislativa: autorização, limites e procedimento]]: **autorização legislativa prévia** × **controle legislativo posterior**; emendas proibidas ao projeto delegado × emendas admitidas à MP.
+- [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Procedimentos sumaríssimo, especial e concentrado: urgência e ritos próprios]]: MP, PEC e delegação têm fundamentos e procedimentos diferentes; comissão mista não implica **votação em sessão conjunta**.
+- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação: etapas, prazos e competências]]: **MP original convertida sem alterações** × **PLV encaminhado à sanção**.
+- [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|🔄 Processo legislativo e poder constituinte]]: a MP não invade matéria **constitucionalmente reservada à lei complementar**.
 - [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Orçamento e créditos]]: **crédito extraordinário** possui exceção própria no art. 167, § 3º.
 - **Controle de constitucionalidade:** relevância e urgência são requisitos constitucionais sujeitos a controle; apreciar seu conteúdo exige observar os limites da revisão judicial e parlamentar, não presumir julgamento automático.
 

@@ -18,7 +18,7 @@ updated: 2026-11-11
 
 A mensagem pode combinar informação e persuasão. O fato de ser persuasiva não demonstra que seja falsa ou manipuladora. O fato de conter dados também não assegura que o público os compreenda ou que a conclusão seja correta.
 
-A [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|nota 86]] já diferencia posicionamento, conceito criativo, promessa, slogan e execução. Aqui o foco é **como uma afirmação é sustentada, como apelos funcionam e quais erros de argumentação podem aparecer em uma peça**.
+A [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|Estratégia, conceito criativo e posicionamento: decisões e fronteiras]] já diferencia posicionamento, conceito criativo, promessa, slogan e execução. Aqui o foco é **como uma afirmação é sustentada, como apelos funcionam e quais erros de argumentação podem aparecer em uma peça**.
 
 ## Aristóteles: ethos, pathos e logos
 
@@ -163,7 +163,7 @@ A [Stanford Encyclopedia of Philosophy, *Aristotle's Rhetoric*, seções 2 e 5](
 
 ## Relações com outros temas e heurísticas
 
-[[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|CAM-DI-008]] diferencia ideia e execução; [[3 - Materias/Comunicacao/80 - teorias da publicidade e persuasao|CAM-DI-002]] examina como o público processa mensagens; [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|CAM-CO-030]] oferece métodos para testar compreensão; [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|CAM-CO-032]] explicita limites institucionais.
+[[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|Estratégia, conceito criativo e posicionamento: decisões e fronteiras]] diferencia ideia e execução; [[3 - Materias/Comunicacao/80 - teorias da publicidade e persuasao|Teorias da publicidade e persuasão: AIDA, hierarquia de efeitos, ELM e mudança de atitudes]] examina como o público processa mensagens; [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|Patricia Roedel: Manual de Linguagem Simples, planejamento, desenvolvimento e avaliação]] oferece métodos para testar compreensão; [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|Publicidade institucional, promoção pessoal e art. 37, § 1º, da Constituição]] explicita limites institucionais.
 
 **Heurísticas:** credibilidade construída no discurso → **ethos**; emoções do destinatário → **pathos**; razões e inferências → **logos**; ideia que articula peças → **conceito criativo**; razão verificável para confiar → **prova**; próximo passo pedido → **CTA**. **Apelo racional não significa argumento válido; apelo emocional não significa manipulação.**
 

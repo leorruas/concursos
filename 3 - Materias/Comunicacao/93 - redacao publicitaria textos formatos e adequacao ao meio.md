@@ -18,7 +18,7 @@ updated: 2026-11-11
 
 **Conceito criativo** organiza a ideia central da campanha; **mensagem** é aquilo que se pretende transmitir; **redação** escolhe a forma verbal adequada para transmitir a mensagem; **direção de arte** organiza seus recursos visuais; **produção** transforma as soluções em peças. A criação pode ser colaborativa, mas os conceitos não são intercambiáveis.
 
-A [[3 - Materias/Comunicacao/87 - mensagem publicitaria apelos e argumentacao|nota 87]] já explica apelos, ethos/pathos/logos e estrutura de argumentação; [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|nota 86]] trata de conceito, posicionamento e promessa; [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|nota 92]] explica revisão, aprovação e produção. Esta unidade examina **arquitetura verbal, técnicas redacionais e adaptação aos suportes**.
+A [[3 - Materias/Comunicacao/87 - mensagem publicitaria apelos e argumentacao|Mensagem publicitária: apelos, argumentos e provas]] já explica apelos, ethos/pathos/logos e estrutura de argumentação; [[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|Estratégia, conceito criativo e posicionamento: decisões e fronteiras]] trata de conceito, posicionamento e promessa; [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|Produção de campanha: fluxo, aprovação e controle]] explica revisão, aprovação e produção. Esta unidade examina **arquitetura verbal, técnicas redacionais e adaptação aos suportes**.
 
 ## Anatomia de uma peça: funções textuais diferentes
 
@@ -110,7 +110,7 @@ Títulos descritivos, palavras familiares, subtítulos coerentes, instruções e
 
 **Adaptação** preserva informações essenciais e finalidade, modificando a forma segundo o meio. **Transcriação**, em usos profissionais, envolve recriar a expressão para novo contexto, idioma ou cultura, buscando preservar o efeito ou finalidade da mensagem em vez de traduzir literalmente suas palavras. O termo não autoriza inventar direitos, prazos ou condições inexistentes.
 
-**Peça-matriz** pode orientar versões derivadas de uma campanha. Porém, mudanças de público, condição de acesso, promessa ou norma exigem nova análise. Controle de versões e revisão estão em [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|CAM-DI-014]].
+**Peça-matriz** pode orientar versões derivadas de uma campanha. Porém, mudanças de público, condição de acesso, promessa ou norma exigem nova análise. Controle de versões e revisão estão em [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|Produção de campanha: fluxo, aprovação e controle]].
 
 **Exemplo:** a campanha possui orientação extensa em portal e chamada curta em rádio. A chamada não precisa repetir todos os detalhes se aponta com clareza para fonte íntegra, mantida acessível. Já alterar uma data para tornar a peça mais atraente violaria a consistência factual.
 
@@ -122,7 +122,7 @@ O **Ato da Mesa nº 218/2025** determina linguagem simples como prioridade, obse
 
 **Exemplo de fronteira:** “A Câmara disponibiliza a transmissão da audiência” informa serviço institucional. “Graças à liderança pessoal de determinada autoridade, você pode acompanhar a audiência” atribui promoção individual que requer análise crítica à luz da vedação constitucional. O foco é **o efeito promocional do texto e o contexto de publicação**.
 
-A publicidade **institucional** pode divulgar ações e serviços; a de **utilidade pública** pode orientar ações concretas. Ambas dependem de informação correta. A distinção entre modalidades é tratada em [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|CAM-DI-003]].
+A publicidade **institucional** pode divulgar ações e serviços; a de **utilidade pública** pode orientar ações concretas. Ambas dependem de informação correta. A distinção entre modalidades é tratada em [[3 - Materias/Comunicacao/81 - publicidade institucional mercadologica utilidade publica e legal|Publicidade institucional, mercadológica, de utilidade pública e legal]].
 
 ## Critérios de revisão e teste redacional
 
@@ -186,7 +186,7 @@ Conferidos diretamente [caderno DPDF 2022](https://cdn.cebraspe.org.br/concursos
 
 ## Relações e heurísticas
 
-[[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|CAM-DI-008]] diferencia conceito e posicionamento; [[3 - Materias/Comunicacao/87 - mensagem publicitaria apelos e argumentacao|CAM-DI-009]] trabalha argumentos e apelos; [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|CAM-DI-011]] compara suportes; [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|CAM-DI-014]] exige revisão e versões.
+[[3 - Materias/Comunicacao/86 - estrategia conceito criativo e posicionamento|Estratégia, conceito criativo e posicionamento: decisões e fronteiras]] diferencia conceito e posicionamento; [[3 - Materias/Comunicacao/87 - mensagem publicitaria apelos e argumentacao|Mensagem publicitária: apelos, argumentos e provas]] trabalha argumentos e apelos; [[3 - Materias/Comunicacao/89 - tipos de midia veiculos e plataformas|Tipos de mídia, veículos e plataformas]] compara suportes; [[3 - Materias/Comunicacao/92 - producao de campanha fluxo aprovacao e controle|Produção de campanha: fluxo, aprovação e controle]] exige revisão e versões.
 
 **Heurísticas:** título = entrada e identificação do tema; corpo = explicação e sustentação; CTA = próximo passo; slogan = síntese verbal de identificação; roteiro = organização de conteúdo no tempo; microcopy = orientação localizada na interface. **Texto curto não é necessariamente claro; texto correto não é necessariamente compreendido; adaptar a forma não autoriza alterar os fatos.**
 

@@ -21,7 +21,7 @@ aliases:
 
 A **Comissão Representativa** é colegiado do Congresso composto de **senadores e deputados**, **eleito pelas próprias Casas na última sessão ordinária de cada período legislativo**, com observância, **quanto possível**, da proporcionalidade partidária. Seu mandato coincide com o **recesso que se segue à constituição**, ressalvados os dias de sessões preparatórias (art. 2º). **Representar o Congresso não significa substituir indiscriminadamente seus Plenários:** cada competência do art. 7º possui objeto, condições e, em alguns casos, requisitos de urgência ou manifestação anterior de outro órgão.
 
-A comissão foi criada para concretizar a **CF art. 58, § 4º** e é regulamentada por uma **resolução do Congresso**, não por uma portaria do Senado ou pelo regimento exclusivo da Câmara. A unidade distingue **composição**, **competência**, **reunião**, **deliberação** e **eficácia temporal**, em articulação com [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|CAM-PL-027: comissões mistas e sessão conjunta]].
+A comissão foi criada para concretizar a **CF art. 58, § 4º** e é regulamentada por uma **resolução do Congresso**, não por uma portaria do Senado ou pelo regimento exclusivo da Câmara. A unidade distingue **composição**, **competência**, **reunião**, **deliberação** e **eficácia temporal**, em articulação com [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Regimento Comum: lideranças, comissões mistas e votação no Congresso]].
 
 ## 1. Natureza, composição e eleição: arts. 1º a 6º
 
@@ -161,7 +161,7 @@ A **votação começa pelos deputados** e o **resultado de cada Casa é computad
 
 **Calendário atualizado × texto histórico:** o art. 3º da resolução preserva datas antigas, enquanto o art. 57 da Constituição contém os períodos atuais. Hierarquia constitucional primeiro, regimento naquilo que permanece compatível.
 
-Relações: [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|CAM-PL-025: sessões conjuntas]], [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|CAM-PL-027: comissões mistas]], [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|orçamento e CMO]], [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo e TCU]], [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|licenças e mandato]].
+Relações: [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|Regimento Comum do Congresso: direção, objeto e convocação das sessões conjuntas]], [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Regimento Comum: lideranças, comissões mistas e votação no Congresso]], [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|orçamento e CMO]], [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo e TCU]], [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|licenças e mandato]].
 
 ## Certificação normativa delimitada: 11/11/2026
 

@@ -170,7 +170,7 @@ Acerca do conceito de erro grosseiro previsto no art. 28 da LINDB e sua incidên
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** Nos termos do art. 28 da LINDB e do Decreto regulamentador nº 9.830/2019, o **erro grosseiro** consubstancia a **culpa grave**, isto é, aquele erro inescusável decorrente de manifesta negligência, imperícia evidente ou imprudência temerária, que desrespeita jurisprudência pacificada das Cortes de Contas ou ignora texto expresso de lei sem qualquer fundamentação jurídica plausível. A mera adoção de interpretação jurídica controvertida ou tese doutrinária minoritária, quando respaldada em argumentos racionais e consistentes, preserva a inviolabilidade profissional do parecerista e afasta a configuração de erro grosseiro.
+> **Comentário:** Nos termos do art. 28 da LINDB e do Decreto regulamentador nº 9.830/2019, o **erro grosseiro** consubstancia a **culpa grave**, isto é, aquele erro inescusável decorrente de manifesta negligência, imperícia evidente ou imprudência temerária, que desrespeita jurisprudência pacificada das Cortes de Contas ou ignora texto expresso de lei sem qualquer fundamentação jurídica plausível. A mera adoção de interpretação jurídica controvertida ou tese doutrinária minoritária, quando respaldada em argumentos racionais e consistentes, **não caracteriza por si só erro grosseiro**. A inviolabilidade profissional do art. 133 da Constituição refere-se ao **advogado nos limites da lei**; os demais agentes técnicos são avaliados conforme seu regime jurídico e as condições concretas do parecer.
 
 ---
 
@@ -184,7 +184,7 @@ Julgue o item a seguir, referente aos pareceres vinculantes no âmbito federal.
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** A assertiva reflete exatamente a disciplina conferida pelo art. 40 da Lei Complementar nº 73/1993 (Lei Orgânica da AGU). Quando o Presidente aprova **e o parecer é publicado juntamente com o despacho presidencial**, o art. 40, § 1º, da LC 73/1993 estabelece vinculação de toda a Administração Federal. O § 2º diferencia parecer aprovado **não publicado**, que obriga apenas repartições interessadas a partir da ciência.
+> **Comentário:** O núcleo da assertiva é compatível **quando houver publicação conjunta do parecer e do despacho presidencial**, condição expressa do art. 40, § 1º, da LC nº 73/1993. Quando o parecer é aprovado mas **não publicado**, a vinculação tem alcance mais restrito (§ 2º). O § 2º diferencia parecer aprovado **não publicado**, que obriga apenas repartições interessadas a partir da ciência.
 
 ---
 
@@ -198,7 +198,7 @@ No que concerne ao cabimento de mandado de segurança contra pareceres administr
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** O parecer não vinculante é ato administrativo meramente enunciativo e opinativo, servindo como subsídio instrutório para o futuro ato decisório. Por não possuir coercibilidade imediata nem produzir alteração autônoma na esfera jurídica subjetiva de terceiros, o parecer em si não constitui ato de autoridade coatora passível de mandado de segurança. O remédio constitucional caberá apenas contra o ato decisório posterior da autoridade competente que efetivamente lesionar ou ameaçar o direito do impetrante.
+> **Comentário:** No caso descrito, **parecer opinativo sem efeitos próprios** não se presta, em regra, a ser impugnado diretamente por mandado de segurança, pois o ato decisório apto a lesar o direito costuma ser posterior. A admissibilidade depende dos **efeitos concretos atribuídos ao documento e da presença de ato de autoridade**; não se deve transformar a regra do item em proibição universal de controle judicial de toda manifestação técnica.
 
 ---
 
@@ -212,7 +212,7 @@ Julgue o item seguinte, relativo à responsabilidade do gestor público que acol
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** É jurisprudência sedimentada e pacífica do Tribunal de Contas da União e do STF que a existência de parecer jurídico favorável **não afasta automaticamente a responsabilidade do administrador público**. O gestor tem o dever de agir com cautela e diligência média; caso o parecer seja teratológico, manifestamente absurdo ou desprovido de respaldo fático elementar, o gestor público responde solidariamente pelas ilegalidades e pelo dano causado, não lhe sendo dado alegar ignorância cega perante irregularidades evidentes.
+> **Comentário:** O parecer jurídico favorável **não afasta automaticamente a responsabilidade do gestor**. A imputação exige avaliar dever funcional, conduta própria, elemento subjetivo pertinente, nexo com a irregularidade e circunstâncias do caso. Mesmo diante de orientação manifestamente infundada, **não se presume solidariedade automática** entre gestor e parecerista: cada responsabilidade deve ser demonstrada segundo as regras aplicáveis. Por isso, o gabarito é **ERRADO** pela expressão “isenta integral e automaticamente”.
 
 ---
 

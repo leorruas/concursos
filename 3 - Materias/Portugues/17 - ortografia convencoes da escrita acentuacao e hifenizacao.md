@@ -124,9 +124,10 @@ A hifenização sob o Acordo de 1990 rege-se pelo princípio da aglutinação si
 - **Vogais Diferentes $\rightarrow$ JUNTA-SE TUDO** (*princípio da atração dos diferentes*):  
   *autoescola, infraestrutura, semiaberto, coautor, extraoficial, plurianual, hidroelétrica, socioeconômico*.
 
-### 3.2. A Regra Soberana do "H"
-- Se o segundo elemento começar por **H**, **SEMPRE se usa hífen**, qualquer que seja o prefixo:  
-  *anti-higiênico, super-homem, sobre-humano, pré-história, co-herdeiro* (ressalva etimológica aglutinada clássica: *subumano* e *inábil*, que perderam o H por consolidação fonética histórica).
+### 3.2. H inicial: regra geral e exceções verificadas
+- **Em regra**, usa-se hífen antes de elemento iniciado por **h**: *anti-higiênico, super-homem, sobre-humano, pré-história*. A palavra **sempre** tornaria a regra falsa, pois há prefixos que se aglutinam com supressão do **h**.
+- Com **co-**, a Academia Brasileira de Letras registra **coerdeiro**, **coabitar** e formas semelhantes sem hífen e sem **h**. É necessário distinguir a redação original da Base XVI do Acordo, que exemplificava *co-herdeiro*, da interpretação adotada no **VOLP brasileiro**. Para a grafia brasileira de referência, prefira **coerdeiro**. Fonte: [Academia Brasileira de Letras, *Acordo ortográfico e VOLP*](https://www.academia.org.br/artigos/acordo-ortografico-e-volp-2).
+- Também existem formações consagradas com perda do **h**, como *inábil* e *subumano*. Em dúvidas sobre a existência de exceção, consultar o [VOLP da ABL](https://www.academia.org.br/nossa-lingua/busca-no-vocabulario), evitando extrapolar por analogia.
 
 ### 3.3. Prefixos com Consoantes R e S
 - Se o prefixo terminar por **vogal** e o segundo elemento começar por **R** ou **S**, o hífen é **eliminado** e a consoante é **duplicada** (-rr-, -ss-) para manter o som forte:  
@@ -142,7 +143,7 @@ A hifenização sob o Acordo de 1990 rege-se pelo princípio da aglutinação si
 | **pre-, pos-, pro- (Átonos e aglutinados)** | **Sem hífen** e sem acento gráfico. | *prever, propor, predeterminar, preexistente, pospor*. |
 | **ex-, sem-, vice-, soto-, além-, aquém-, recém-** | **Sempre com hífen**. | *ex-presidente, vice-líder, recém-eleito, sem-terra, além-fronteiras*. |
 | **sub-** | Usa hífen antes de **B, H e R**. | *sub-base, sub-bloco, sub-humano, sub-região*. Diante de outras letras, aglutina: *subchefe, subdelegado, subestimar*. |
-| **co-, re-** | Em regra, **aglutinam-se mesmo diante de vogal igual**. | *coordenar, cooperar, reeleger, reeditar, coabitar (perde o H)*. |
+| **co-, re-** | Em regra, **aglutinam-se mesmo diante de vogal igual**; com *co-*, ocorre também supressão de *h* em grafias registradas pelo VOLP. | *coordenar, cooperar, reeleger, reeditar, coabitar, coerdeiro*. |
 
 ---
 

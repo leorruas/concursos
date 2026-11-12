@@ -23,4 +23,4 @@ Quarenta questões geradas para o item 3 de Divulgação Institucional, com refe
 
 ## Lote 004 em elaboração
 
-Oito questões geradas sobre marca e branding, item 4 de Divulgação Institucional, com referências aos artigos 109 a 111. Ampliar a cobertura de arquitetura, valor de marca, portfólio e casos de integração antes da revisão.
+Dezesseis questões geradas sobre marca e branding, item 4 de Divulgação Institucional, com referências aos artigos 109 a 111. Ampliar a cobertura de arquitetura, valor de marca, portfólio e casos de integração antes da revisão.

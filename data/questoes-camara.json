@@ -10012,6 +10012,222 @@
       "statement": "Uma auditoria confirma que todas as peças seguem o manual visual, mas um teste mostra que os usuários não sabem qual órgão oferece o serviço. A conformidade visual resolve, por si, a dúvida sobre a origem.",
       "correctAnswer": "E",
       "explanation": "A auditoria e o teste medem resultados distintos. A dúvida observada exige examinar a clareza da assinatura e sua interpretação pelos usuários."
+    },
+    {
+      "id": "cam-di-assinatura-revela-vinculo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "assinatura-revela-vinculo",
+      "mechanism": "assinatura-revela-vinculo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Arquitetura de marca: organização dos sinais e relações"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Arquitetura de marca: organização dos sinais e relações"
+      },
+      "statement": "Uma assinatura que combina o nome de um programa com a marca institucional pode tornar explícito o vínculo entre os dois.",
+      "correctAnswer": "C",
+      "explanation": "A arquitetura organiza as relações entre os sinais. A assinatura conjunta pode comunicar o vínculo ao público."
+    },
+    {
+      "id": "cam-di-elemento-sonoro-de-marca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "elemento-sonoro-de-marca",
+      "mechanism": "elemento-sonoro-de-marca",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Elementos de marca: reconhecimento, associação e aplicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Elementos de marca: reconhecimento, associação e aplicação"
+      },
+      "statement": "Todo elemento de identificação de marca precisa ser visual para funcionar como sinal de reconhecimento.",
+      "correctAnswer": "E",
+      "explanation": "Uma assinatura sonora também pode ajudar o público a reconhecer a origem da comunicação."
+    },
+    {
+      "id": "cam-di-coerencia-com-informacao-hierarquizada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "coerencia-com-informacao-hierarquizada",
+      "mechanism": "coerencia-com-informacao-hierarquizada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Identidade visual como sistema, não peça isolada"
+      },
+      "statement": "Em uma série de avisos, manter tipografia e alinhamentos comuns e reservar uma cor adicional para prazos pode preservar a coerência visual se a regra for prevista no sistema.",
+      "correctAnswer": "C",
+      "explanation": "Um sistema admite variação orientada pela função. A cor destaca a informação sem eliminar os elementos compartilhados."
+    },
+    {
+      "id": "cam-di-qualidade-percebida-e-desempenho-medido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "qualidade-percebida-e-desempenho-medido",
+      "mechanism": "qualidade-percebida-e-desempenho-medido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Aaker: dimensões do valor de marca e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Aaker: dimensões do valor de marca e suas fronteiras"
+      },
+      "statement": "Se um ensaio técnico comprova redução no tempo de atendimento, a dimensão qualidade percebida de Aaker está demonstrada mesmo sem informação sobre como o público avalia o serviço.",
+      "correctAnswer": "E",
+      "explanation": "O ensaio mede desempenho. A dimensão qualidade percebida exige evidência do julgamento do público."
+    },
+    {
+      "id": "cam-di-teste-de-posicionamento-sem-sugestao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "teste-de-posicionamento-sem-sugestao",
+      "mechanism": "teste-de-posicionamento-sem-sugestao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Posicionamento: intenção gerencial e percepção externa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Posicionamento: intenção gerencial e percepção externa"
+      },
+      "statement": "Uma organização que deseja ser percebida como acessível pode comparar esse objetivo com associações espontâneas do público, mesmo que os entrevistados não recebam a lista de atributos pretendidos.",
+      "correctAnswer": "C",
+      "explanation": "O posicionamento desejado é uma decisão interna. Associações espontâneas ajudam a observar a percepção sem induzir os atributos da estratégia."
+    },
+    {
+      "id": "cam-di-associacao-fora-da-campanha",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "associacao-fora-da-campanha",
+      "mechanism": "associacao-fora-da-campanha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Significados não são produzidos apenas pela publicidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Significados não são produzidos apenas pela publicidade"
+      },
+      "statement": "Uma experiência de atendimento pode influenciar a imagem do serviço somente se o visitante tiver visto a campanha que divulga o serviço.",
+      "correctAnswer": "E",
+      "explanation": "O contato direto pode gerar associações independentemente da exposição à publicidade."
+    },
+    {
+      "id": "cam-di-extensao-versus-marca-conjunta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "extensao-versus-marca-conjunta",
+      "mechanism": "extensao-versus-marca-conjunta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Extensão de marca, submarca, co-branding e licenciamento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Extensão de marca, submarca, co-branding e licenciamento"
+      },
+      "statement": "Usar uma marca já conhecida em uma nova categoria de serviço pode constituir extensão mesmo sem envolver uma segunda organização ou uma segunda marca.",
+      "correctAnswer": "C",
+      "explanation": "A extensão leva a marca existente a outra oferta. A presença de duas marcas seria relevante para uma estratégia de marca conjunta."
+    },
+    {
+      "id": "cam-di-portfolio-reconhecimento-e-confusao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "portfolio-reconhecimento-e-confusao",
+      "mechanism": "portfolio-reconhecimento-e-confusao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Avaliação do portfólio: como distinguir resultado de aparência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Avaliação do portfólio: como distinguir resultado de aparência"
+      },
+      "statement": "Após uma reorganização, o reconhecimento das marcas dos programas subiu, mas mais usuários passaram a atribuir serviços ao programa errado. O aumento do reconhecimento, por si, comprova que a reorganização cumpriu a meta de esclarecer a origem dos serviços.",
+      "correctAnswer": "E",
+      "explanation": "Reconhecimento e atribuição correta são resultados distintos. A meta exige examinar a identificação da origem, que piorou mesmo com maior reconhecimento."
     }
   ]
 }

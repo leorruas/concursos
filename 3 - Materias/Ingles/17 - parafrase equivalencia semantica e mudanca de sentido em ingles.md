@@ -187,8 +187,8 @@ Passo 4: Verificação da Relação Lógica e Foco Informacional
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** O trecho original conectava causa e consequência por meio de conjunção subordinativa causal (*because*). A proposta de reescrita desdobrou o período em duas orações coordenadas correlacionadas pelo advérbio conectivo de conclusão/consequência (*consequently*). A ordem cronológica e a dependência causal foram rigorosamente preservadas, assim como o *Past Perfect* (*had presented*) indicando a anterioridade do estudo em relação à aprovação (*approved*).
+**Gabarito: Errado**  
+**Comentário:** A reescrita conserva a sequência causal sugerida pelo original: o estudo antecedeu a aprovação e é apresentado como sua razão. Contudo, **não preserva a estrutura gramatical** exigida expressamente pelo item. A primeira frase contém oração subordinada introduzida por *because*; a segunda usa duas orações independentes ligadas semanticamente pelo advérbio conectivo *consequently*. A equivalência de sentido, isoladamente, não comprova manutenção da estrutura sintática.
 
 ---
 

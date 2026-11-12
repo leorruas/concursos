@@ -40,7 +40,7 @@ Mapeamento de tópicos e organização das notas de Raciocínio Lógico e Lógic
 - **Interpretação e Modelagem**: Tradução da linguagem natural para a estrutura lógica formal.
 
 ---
-- **Acompanhamento**: [[Avancos|Avanços e desempenho (Lógica)]]
+- **Acompanhamento**: registro individual de estudos mantido no cofre privado
 
 
 - [[3 - Materias/Logica/10 - razoes proporcoes e divisao proporcional|Razões, proporções e divisão proporcional]]

@@ -22328,7 +22328,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
       ],
@@ -22338,7 +22338,8 @@
       },
       "statement": "Uma associação comunitária pode participar de um processo de comunicação pública ao organizar um debate aberto sobre mudanças no transporte, ainda que a iniciativa não tenha partido de um órgão estatal.",
       "correctAnswer": "C",
-      "explanation": "O enquadramento considera interesse coletivo e condições de participação. O Estado pode participar do processo sem ser seu único ator possível."
+      "explanation": "O enquadramento considera interesse coletivo e condições de participação. O Estado pode participar do processo sem ser seu único ator possível.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-origem-governamental-sem-classificacao-exclusiva",
@@ -22355,7 +22356,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
       ],
@@ -22365,7 +22366,8 @@
       },
       "statement": "Uma orientação sobre vacinação produzida por uma secretaria deve ser classificada exclusivamente como governamental, ainda que esclareça o acesso ao serviço e permita aos cidadãos encaminhar dúvidas.",
       "correctAnswer": "E",
-      "explanation": "A origem institucional permite reconhecer a dimensão governamental. A finalidade informativa e a interação com os cidadãos também permitem analisá-la sob a perspectiva da comunicação pública."
+      "explanation": "A origem institucional permite reconhecer a dimensão governamental. A finalidade informativa e a interação com os cidadãos também permitem analisá-la sob a perspectiva da comunicação pública.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-escuta-sem-devolutiva-visivel",
@@ -22382,7 +22384,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
       ],
@@ -22392,7 +22394,8 @@
       },
       "statement": "Abrir uma caixa de perguntas sobre um serviço assegura, por si só, que a instituição estabeleceu diálogo com os cidadãos, mesmo que ninguém examine as manifestações recebidas.",
       "correctAnswer": "E",
-      "explanation": "O canal cria uma possibilidade de participação. O diálogo exige considerar o que foi recebido e oferecer resposta ou encaminhamento."
+      "explanation": "O canal cria uma possibilidade de participação. O diálogo exige considerar o que foi recebido e oferecer resposta ou encaminhamento.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-conteudo-partidario-e-autoria-visivel",
@@ -22409,7 +22412,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
       ],
@@ -22419,7 +22422,8 @@
       },
       "statement": "Ao noticiar um debate, uma publicação institucional pode identificar de qual partido veio cada posição sem transformar essas posições na voz oficial do órgão.",
       "correctAnswer": "C",
-      "explanation": "A atribuição informa quem falou. A voz institucional preserva a distinção entre relato das posições e adesão a elas."
+      "explanation": "A atribuição informa quem falou. A voz institucional preserva a distinção entre relato das posições e adesão a elas.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-acesso-depois-da-divulgacao",
@@ -22436,7 +22440,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
       ],
@@ -22446,7 +22450,8 @@
       },
       "statement": "Para avaliar uma orientação de interesse coletivo, é pertinente verificar se cidadãos com diferentes condições de acesso conseguem localizar a informação necessária, além de contar quantas vezes ela foi publicada.",
       "correctAnswer": "C",
-      "explanation": "A perspectiva do cidadão considera a possibilidade de obter e usar a informação. A contagem de publicações mede a atividade de divulgação."
+      "explanation": "A perspectiva do cidadão considera a possibilidade de obter e usar a informação. A contagem de publicações mede a atividade de divulgação.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-parlamento-e-categoria-governamental",
@@ -22463,7 +22468,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
       ],
@@ -22473,7 +22478,8 @@
       },
       "statement": "A divulgação pela Câmara das regras para acompanhar uma comissão é governamental apenas porque a Câmara integra o Estado.",
       "correctAnswer": "E",
-      "explanation": "A Câmara pertence ao Legislativo. O vínculo estatal, isoladamente, não caracteriza comunicação da gestão de governo."
+      "explanation": "A Câmara pertence ao Legislativo. O vínculo estatal, isoladamente, não caracteriza comunicação da gestão de governo.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-comunicacao-politica-fora-do-pleito",
@@ -22490,7 +22496,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
       ],
@@ -22500,7 +22506,8 @@
       },
       "statement": "A defesa pública de uma proposta por uma liderança partidária pode ser comunicação político-partidária mesmo fora de um período eleitoral.",
       "correctAnswer": "C",
-      "explanation": "A finalidade de defender uma posição da organização partidária pode existir na atividade política cotidiana."
+      "explanation": "A finalidade de defender uma posição da organização partidária pode existir na atividade política cotidiana.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-consulta-com-informacao-apos-prazo",
@@ -22517,7 +22524,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
       ],
@@ -22527,7 +22534,8 @@
       },
       "statement": "Publicar documentos indispensáveis a uma consulta somente depois de seu encerramento oferece aos cidadãos a mesma condição de participação que publicá-los antes.",
       "correctAnswer": "E",
-      "explanation": "O momento do acesso afeta a possibilidade de usar a informação para participar. A publicação posterior não recupera a oportunidade perdida."
+      "explanation": "O momento do acesso afeta a possibilidade de usar a informação para participar. A publicação posterior não recupera a oportunidade perdida.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-prestacao-de-contas-com-base-verificavel",
@@ -22544,7 +22552,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
       ],
@@ -22554,7 +22562,8 @@
       },
       "statement": "Uma publicação que apresenta resultados de um programa e oferece acesso às definições e aos registros usados no cálculo amplia a possibilidade de escrutínio público.",
       "correctAnswer": "C",
-      "explanation": "As referências permitem verificar as afirmações e interpretar os resultados. Informar o número sem a base reduz as condições de conferência."
+      "explanation": "As referências permitem verificar as afirmações e interpretar os resultados. Informar o número sem a base reduz as condições de conferência.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-resumo-e-documento-de-referencia",
@@ -22571,7 +22580,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Casos progressivos: mudar uma variável"
       ],
@@ -22581,7 +22590,8 @@
       },
       "statement": "Um aviso resumido pode facilitar a participação se encaminhar a pessoa ao documento de referência e preservar no próprio aviso as condições indispensáveis para agir a tempo.",
       "correctAnswer": "C",
-      "explanation": "O resumo orienta o primeiro passo. O documento aprofunda a informação, sem que prazos ou condições essenciais precisem ficar ocultos."
+      "explanation": "O resumo orienta o primeiro passo. O documento aprofunda a informação, sem que prazos ou condições essenciais precisem ficar ocultos.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-classificacao-com-mesmo-tema",
@@ -22598,7 +22608,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
       ],
@@ -22608,7 +22618,8 @@
       },
       "statement": "Uma secretaria pode explicar os critérios de um programa e um partido pode defender mudanças nesses mesmos critérios. As duas peças podem pertencer a categorias diferentes de comunicação, embora tratem da mesma política pública.",
       "correctAnswer": "C",
-      "explanation": "A classificação considera o agente, sua finalidade e a posição em que fala. O assunto compartilhado não torna equivalentes a orientação governamental e a defesa de uma posição partidária."
+      "explanation": "A classificação considera o agente, sua finalidade e a posição em que fala. O assunto compartilhado não torna equivalentes a orientação governamental e a defesa de uma posição partidária.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-posicao-minoritaria-e-decisao-do-colegiado",
@@ -22625,7 +22636,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
       ],
@@ -22635,7 +22646,8 @@
       },
       "statement": "Ao resumir uma votação, a equipe pode apresentar a posição de uma bancada minoritária como resultado oficial, desde que reproduza fielmente as palavras da liderança.",
       "correctAnswer": "E",
-      "explanation": "A fidelidade à fala não corrige a atribuição indevida. A cobertura precisa distinguir a posição da bancada do resultado da deliberação."
+      "explanation": "A fidelidade à fala não corrige a atribuição indevida. A cobertura precisa distinguir a posição da bancada do resultado da deliberação.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-participacao-com-limite-explicito",
@@ -22652,7 +22664,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
       ],
@@ -22662,7 +22674,8 @@
       },
       "statement": "Explicar quais aspectos de um projeto ainda podem ser alterados por uma consulta ajuda os cidadãos a formular contribuições pertinentes.",
       "correctAnswer": "C",
-      "explanation": "A informação sobre o alcance da consulta esclarece em que pontos a participação pode influenciar a decisão."
+      "explanation": "A informação sobre o alcance da consulta esclarece em que pontos a participação pode influenciar a decisão.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-fala-citada-e-responsabilidade-do-resumo",
@@ -22679,7 +22692,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
       ],
@@ -22689,7 +22702,8 @@
       },
       "statement": "Ao resumir em discurso indireto a fala de um parlamentar, a equipe pode omitir uma condição que muda seu sentido porque o resumo traz o nome do autor.",
       "correctAnswer": "E",
-      "explanation": "A atribuição identifica a fonte. O resumo continua responsável por preservar as condições que definem o sentido da fala."
+      "explanation": "A atribuição identifica a fonte. O resumo continua responsável por preservar as condições que definem o sentido da fala.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-escuta-por-segmentos",
@@ -22706,7 +22720,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
       ],
@@ -22716,7 +22730,8 @@
       },
       "statement": "Uma consulta sobre transporte recebe sobretudo respostas de quem já usa o aplicativo municipal. Buscar também os relatos de quem depende do atendimento presencial ajuda a identificar necessidades que o canal digital pode ter deixado de captar.",
       "correctAnswer": "C",
-      "explanation": "A ouvidoria social busca conhecer interesses e necessidades de diferentes segmentos. A origem das respostas indica quais grupos podem estar sub-representados."
+      "explanation": "A ouvidoria social busca conhecer interesses e necessidades de diferentes segmentos. A origem das respostas indica quais grupos podem estar sub-representados.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-mudanca-de-gestao-e-criterio",
@@ -22733,7 +22748,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
       ],
@@ -22743,7 +22758,8 @@
       },
       "statement": "Se duas gestões sucessivas divulgam os critérios vigentes de um benefício, somente a primeira realiza comunicação governamental, por ter instituído a política.",
       "correctAnswer": "E",
-      "explanation": "A categoria abrange a comunicação sobre a execução e a gestão da política. Sua instituição em mandato anterior não altera a função do aviso atual."
+      "explanation": "A categoria abrange a comunicação sobre a execução e a gestão da política. Sua instituição em mandato anterior não altera a função do aviso atual.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-versao-em-debate-e-versao-votada",
@@ -22760,7 +22776,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
       ],
@@ -22770,7 +22786,8 @@
       },
       "statement": "Ao cobrir a aprovação de um projeto com substitutivo, a equipe pode linkar apenas o texto original como se fosse a versão aprovada, desde que o resultado nominal da votação esteja correto.",
       "correctAnswer": "E",
-      "explanation": "Precisão exige identificar qual texto foi aprovado. O placar correto não resolve o erro sobre o objeto da votação."
+      "explanation": "Precisão exige identificar qual texto foi aprovado. O placar correto não resolve o erro sobre o objeto da votação.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-autonomia-editorial-de-entrevista",
@@ -22787,7 +22804,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
       ],
@@ -22797,7 +22814,8 @@
       },
       "statement": "Uma entrevista em que um deputado defende seu programa partidário pode integrar uma reportagem institucional que contextualize essa posição como parte do debate legislativo.",
       "correctAnswer": "C",
-      "explanation": "A fala do entrevistado e o produto jornalístico têm finalidades diferentes. A classificação da reportagem depende de seu tratamento editorial."
+      "explanation": "A fala do entrevistado e o produto jornalístico têm finalidades diferentes. A classificação da reportagem depende de seu tratamento editorial.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-vinculo-entre-escuta-e-acao",
@@ -22814,7 +22832,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
       ],
@@ -22824,10 +22842,11 @@
       },
       "statement": "Se manifestações de usuários revelam que a mesma instrução é interpretada de maneiras incompatíveis, usar esse diagnóstico para reescrever o aviso é uma aplicação da ouvidoria social.",
       "correctAnswer": "C",
-      "explanation": "A escuta identifica um problema recorrente de compreensão e orienta uma mudança na comunicação."
+      "explanation": "A escuta identifica um problema recorrente de compreensão e orienta uma mudança na comunicação.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
-      "id": "cam-cs-destinatario-de-divulgacao-oficial",
+      "id": "cam-cs-entidade-privada-e-identidade",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -22836,12 +22855,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
       "articleId": "art-6e9c025b8d7f341a",
-      "conceptId": "destinatario-de-divulgacao-oficial",
-      "mechanism": "destinatario-de-divulgacao-oficial",
+      "conceptId": "entidade-privada-e-identidade",
+      "mechanism": "entidade-privada-e-identidade",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
       ],
@@ -22849,9 +22868,10 @@
         "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
         "section": "Matriz: fronteiras entre as categorias"
       },
-      "statement": "Um boletim de secretaria que explica o cronograma de execução de um programa a conselhos municipais deixa de ser comunicação governamental porque se dirige a entidades intermediárias.",
+      "statement": "Uma fundação privada publica sua missão e explica aos doadores como são escolhidos os projetos que financia. A ausência de vínculo com o governo impede enquadrar a apresentação da fundação como comunicação institucional.",
       "correctAnswer": "E",
-      "explanation": "A função do boletim continua ligada à gestão e à execução da política. A natureza do público não muda essa finalidade."
+      "explanation": "Organizações privadas também apresentam sua identidade e estabelecem relações com seus públicos por meio da comunicação institucional.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-aviso-em-imagem",
@@ -22868,7 +22888,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
       ],
@@ -22878,7 +22898,8 @@
       },
       "statement": "Um portal oferece o cronograma de uma consulta em imagem sem equivalente textual. A disponibilização pública da imagem resolve a dificuldade de acesso de quem usa leitor de tela.",
       "correctAnswer": "E",
-      "explanation": "Acesso pressupõe condições de uso. A imagem publicada pode continuar inacessível a quem precisa de conteúdo textual compatível com leitor de tela."
+      "explanation": "Acesso pressupõe condições de uso. A imagem publicada pode continuar inacessível a quem precisa de conteúdo textual compatível com leitor de tela.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-auditoria-de-criterios",
@@ -22895,7 +22916,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
       ],
@@ -22905,7 +22926,8 @@
       },
       "statement": "Ao divulgar a lista de projetos selecionados, um órgão publica também os critérios aplicados e a justificativa das decisões. Esse material contribui para a transparência mesmo que a seleção já esteja encerrada.",
       "correctAnswer": "C",
-      "explanation": "As justificativas tornam a decisão examinável. A fiscalização posterior tem finalidade própria e independe da reabertura da seleção."
+      "explanation": "As justificativas tornam a decisão examinável. A fiscalização posterior tem finalidade própria e independe da reabertura da seleção.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-mediacao-sem-sintese",
@@ -22922,7 +22944,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
       ],
@@ -22932,7 +22954,8 @@
       },
       "statement": "Uma sessão pública permite perguntas e respostas em tempo real, mas a equipe não reúne nem analisa os interesses manifestados pelos segmentos presentes. O caso demonstra interação, enquanto faltam elementos para comprovar ouvidoria social.",
       "correctAnswer": "C",
-      "explanation": "O diálogo estabelece fluxo de mão dupla. A ouvidoria social requer conhecimento sistemático dos interesses e motivações dos públicos."
+      "explanation": "O diálogo estabelece fluxo de mão dupla. A ouvidoria social requer conhecimento sistemático dos interesses e motivações dos públicos.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-pesquisa-com-escuta-sistematica",
@@ -22949,7 +22972,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
       ],
@@ -22959,7 +22982,8 @@
       },
       "statement": "Uma equipe compara entrevistas com moradores de bairros atendidos e desatendidos antes de escolher os canais de orientação. Para caracterizar a ouvidoria social, as entrevistas precisam constituir um procedimento formal de recebimento de reclamações individuais.",
       "correctAnswer": "E",
-      "explanation": "O eixo envolve conhecer sistematicamente opiniões e necessidades. Entrevistas podem cumprir essa função sem compor um procedimento administrativo de reclamações."
+      "explanation": "O eixo envolve conhecer sistematicamente opiniões e necessidades. Entrevistas podem cumprir essa função sem compor um procedimento administrativo de reclamações.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-disputa-apoio-sem-filiacao",
@@ -22976,7 +23000,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
       ],
@@ -22986,7 +23010,8 @@
       },
       "statement": "Um movimento sem vínculo partidário mobiliza apoio para alterar a pauta da Câmara. A ausência de filiação impede classificar essa mobilização como comunicação política.",
       "correctAnswer": "E",
-      "explanation": "A tentativa de influenciar a agenda pública pode integrar a comunicação política. A vinculação a partidos é pertinente ao recorte político-partidário."
+      "explanation": "A tentativa de influenciar a agenda pública pode integrar a comunicação política. A vinculação a partidos é pertinente ao recorte político-partidário.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-missao-e-orientacao-sobre-servicos",
@@ -23003,7 +23028,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
       ],
@@ -23013,7 +23038,8 @@
       },
       "statement": "Uma entidade informa sua missão e divulga, no mesmo material, como os moradores podem acompanhar o destino de recursos de um projeto coletivo. Há elementos para analisar a peça tanto pela comunicação institucional quanto pela comunicação pública.",
       "correctAnswer": "C",
-      "explanation": "A apresentação da entidade atende à dimensão institucional. A possibilidade de acompanhar recursos do projeto atende a uma finalidade cidadã."
+      "explanation": "A apresentação da entidade atende à dimensão institucional. A possibilidade de acompanhar recursos do projeto atende a uma finalidade cidadã.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-dado-corrigido-sem-registro",
@@ -23030,7 +23056,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
       ],
@@ -23040,10 +23066,11 @@
       },
       "statement": "Ao perceber que uma notícia atribuiu incorretamente a autoria de uma emenda, corrigir o nome e informar a retificação permite ao leitor compreender a mudança na versão publicada.",
       "correctAnswer": "C",
-      "explanation": "A correção recompõe a precisão da atribuição. Informar a alteração dá visibilidade ao que foi retificado."
+      "explanation": "A correção recompõe a precisão da atribuição. Informar a alteração dá visibilidade ao que foi retificado.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
-      "id": "cam-cs-texto-da-relatoria-e-texto-da-comissao",
+      "id": "cam-cs-distribuicao-de-espaco-e-relevancia",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -23052,12 +23079,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
       "articleId": "art-6e9c025b8d7f341a",
-      "conceptId": "texto-da-relatoria-e-texto-da-comissao",
-      "mechanism": "texto-da-relatoria-e-texto-da-comissao",
+      "conceptId": "distribuicao-de-espaco-e-relevancia",
+      "mechanism": "distribuicao-de-espaco-e-relevancia",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
       ],
@@ -23065,9 +23092,10 @@
         "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
         "section": "Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
       },
-      "statement": "A entrega do parecer do relator autoriza apresentar sua recomendação como posição da comissão antes da deliberação colegiada, desde que o parecer esteja disponível para consulta.",
-      "correctAnswer": "E",
-      "explanation": "A entrega do parecer documenta a recomendação da relatoria. A posição da comissão depende da deliberação do colegiado."
+      "statement": "Ao editar uma reportagem sobre negociação parlamentar, a equipe pode avaliar equilíbrio examinando se posições relevantes foram representadas com contexto suficiente, ainda que o tempo de fala de cada entrevistado seja diferente.",
+      "correctAnswer": "C",
+      "explanation": "O tempo ajuda a avaliar a edição, mas não revela sozinho o tratamento dado a cada posição. O contexto e a apresentação das razões de cada lado também importam.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 71. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-categorias-prazo-e-meta",
@@ -23084,7 +23112,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-aa982758b945496d#4. Sete categorias de informação em comunicação pública"
       ],
@@ -23094,7 +23122,8 @@
       },
       "statement": "Em um comunicado sobre emissão de carteiras, o prazo para o cidadão apresentar documentos e a meta interna de reduzir o tempo médio de atendimento cumprem, respectivamente, funções de utilidade pública e de informação de gestão.",
       "correctAnswer": "C",
-      "explanation": "O primeiro dado orienta uma ação do usuário. O segundo informa uma meta de execução do serviço."
+      "explanation": "O primeiro dado orienta uma ação do usuário. O segundo informa uma meta de execução do serviço.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-categorias-organograma-e-despesa",
@@ -23111,7 +23140,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-aa982758b945496d#4. Sete categorias de informação em comunicação pública"
       ],
@@ -23121,7 +23150,8 @@
       },
       "statement": "Um organograma e um relatório que explica a aplicação das verbas do órgão são informações institucionais pela mesma razão, pois ambos identificam o órgão responsável.",
       "correctAnswer": "E",
-      "explanation": "O organograma descreve a estrutura. A explicação do uso de recursos caracteriza prestação de contas."
+      "explanation": "O organograma descreve a estrutura. A explicação do uso de recursos caracteriza prestação de contas.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-categoria-decisao-e-justificativa",
@@ -23138,7 +23168,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-aa982758b945496d#4. Sete categorias de informação em comunicação pública"
       ],
@@ -23148,7 +23178,8 @@
       },
       "statement": "A divulgação de uma série estatística sobre evasão escolar e a explicação de como a secretaria empregou a verba de combate à evasão podem aparecer no mesmo relatório, respectivamente como dados públicos e prestação de contas.",
       "correctAnswer": "C",
-      "explanation": "A série registra um fenômeno coletivo. A explicação sobre a verba torna examinável a aplicação dos recursos."
+      "explanation": "A série registra um fenômeno coletivo. A explicação sobre a verba torna examinável a aplicação dos recursos.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-categoria-retorno-individual",
@@ -23165,7 +23196,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-aa982758b945496d#4. Sete categorias de informação em comunicação pública"
       ],
@@ -23175,7 +23206,8 @@
       },
       "statement": "A resposta enviada a uma pessoa sobre a situação do seu próprio requerimento deve ser classificada como dado público no esquema de Duarte, porque provém de um sistema estatal.",
       "correctAnswer": "E",
-      "explanation": "O conteúdo específico da resposta interessa ao requerente. A origem do registro não determina a categoria."
+      "explanation": "O conteúdo específico da resposta interessa ao requerente. A origem do registro não determina a categoria.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-categoria-produto-em-concorrencia",
@@ -23192,7 +23224,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-aa982758b945496d#4. Sete categorias de informação em comunicação pública"
       ],
@@ -23202,7 +23234,8 @@
       },
       "statement": "A descrição de um produto financeiro oferecido por um banco estatal em concorrência com outros bancos pode ter natureza mercadológica no esquema de Duarte.",
       "correctAnswer": "C",
-      "explanation": "A oferta de produto em contexto competitivo caracteriza o conteúdo. A natureza estatal do emissor é um critério distinto."
+      "explanation": "A oferta de produto em contexto competitivo caracteriza o conteúdo. A natureza estatal do emissor é um critério distinto.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-politica-implicita-em-rotina",
@@ -23219,7 +23252,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-aa982758b945496d#5. Instrumentos e política de comunicação"
       ],
@@ -23229,7 +23262,8 @@
       },
       "statement": "Uma assessoria segue, há anos, critérios estáveis para autorizar entrevistas e divulgar notas. A falta de documento formal impede reconhecer uma política implícita nessas práticas.",
       "correctAnswer": "E",
-      "explanation": "Práticas recorrentes podem expressar parâmetros efetivos de comunicação mesmo sem codificação formal."
+      "explanation": "Práticas recorrentes podem expressar parâmetros efetivos de comunicação mesmo sem codificação formal.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-politica-e-peca-pontual",
@@ -23246,7 +23280,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-aa982758b945496d#5. Instrumentos e política de comunicação"
       ],
@@ -23256,7 +23290,8 @@
       },
       "statement": "Um vídeo de orientação sobre matrícula constitui, por si, uma política de comunicação se atingir o público pretendido.",
       "correctAnswer": "E",
-      "explanation": "O vídeo é um produto. Uma política estabelece parâmetros integrados e relativamente duradouros para orientar a produção e outras ações."
+      "explanation": "O vídeo é um produto. Uma política estabelece parâmetros integrados e relativamente duradouros para orientar a produção e outras ações.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     },
     {
       "id": "cam-cs-escolha-instrumento-apos-diagnostico",
@@ -23273,7 +23308,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-aa982758b945496d#5. Instrumentos e política de comunicação"
       ],
@@ -23283,7 +23318,120 @@
       },
       "statement": "Se o problema identificado é que moradores desconhecem onde solicitar atendimento, o diagnóstico pode orientar a escolha de um canal já usado por eles antes de se investir em um novo aplicativo.",
       "correctAnswer": "C",
-      "explanation": "A escolha parte da relação entre público, problema e objetivo. Um novo canal só se justifica se atender a essa necessidade."
+      "explanation": "A escolha parte da relação entre público, problema e objetivo. Um novo canal só se justifica se atender a essa necessidade.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
+    },
+    {
+      "id": "cam-cs-apropriacao-e-acao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "apropriacao-e-acao",
+      "mechanism": "apropriacao-e-acao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#2. Informação não é sinônimo de comunicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "2. Informação não é sinônimo de comunicação"
+      },
+      "statement": "Após ler um comunicado sobre desvio no transporte escolar, famílias conseguem identificar a nova parada e reorganizar a rotina. A mudança de conduta fornece evidência de apropriação da informação, além da mera exposição ao aviso.",
+      "correctAnswer": "C",
+      "explanation": "A informação foi interpretada e usada para decidir. O registro de visualizações sozinho mostraria apenas contato potencial com o aviso.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
+    },
+    {
+      "id": "cam-cs-cidadao-como-produtor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "cidadao-como-produtor",
+      "mechanism": "cidadao-como-produtor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#2. Informação não é sinônimo de comunicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "2. Informação não é sinônimo de comunicação"
+      },
+      "statement": "Em um mapa colaborativo sobre barreiras urbanas, as observações dos moradores são apenas reações à divulgação inicial e não podem integrar o conteúdo de um processo de comunicação pública.",
+      "correctAnswer": "E",
+      "explanation": "Os cidadãos podem produzir informação de interesse coletivo. Seus registros integram o processo quando são incorporados ao mapeamento.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
+    },
+    {
+      "id": "cam-cs-alcance-sem-compreensao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "alcance-sem-compreensao",
+      "mechanism": "alcance-sem-compreensao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#2. Informação não é sinônimo de comunicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "2. Informação não é sinônimo de comunicação"
+      },
+      "statement": "Duas versões de um alerta chegam ao mesmo número de pessoas. Se apenas uma permite aos destinatários identificar a área abrangida, os resultados comunicacionais das duas versões podem diferir apesar do alcance igual.",
+      "correctAnswer": "C",
+      "explanation": "O alcance descreve a distribuição. A identificação da área verifica se a mensagem forneceu informação compreensível para orientar a ação.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
+    },
+    {
+      "id": "cam-cs-entendimento-aferido-por-parafrase",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-aa982758b945496d",
+      "conceptId": "entendimento-aferido-por-parafrase",
+      "mechanism": "entendimento-aferido-por-parafrase",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-aa982758b945496d#2. Informação não é sinônimo de comunicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/02 - comunicacao publica.md",
+        "section": "2. Informação não é sinônimo de comunicação"
+      },
+      "statement": "Em um teste de compreensão, repetir o título de um aviso é evidência suficiente de que o usuário identificou em quais situações a orientação se aplica.",
+      "correctAnswer": "E",
+      "explanation": "Repetir o título demonstra reconhecimento verbal. Para testar compreensão, pode-se pedir que o usuário determine se um caso concreto está abrangido pela orientação.",
+      "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
     }
   ]
 }

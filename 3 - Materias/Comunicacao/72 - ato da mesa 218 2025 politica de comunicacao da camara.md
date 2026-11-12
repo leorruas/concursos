@@ -153,6 +153,24 @@ O art. 11 veda, na produção de conteúdos institucionais pelos abrangidos, **I
 
 **Gabarito: Errado.** O enunciado transfere ao Conselho funções do art. 14, atribuídas à Secom e à Semid, por meio da Direx. O Conselho zela por implantação e execução nos termos do art. 15. É uma transposição de competência.
 
+## Peça técnica aplicada: a mesma campanha em canais próprios e privados (11/11/2026)
+
+**Problema:** a equipe quer divulgar audiências com um vídeo curto em rede social privada, mantendo a fonte oficial de pauta e os canais próprios. O [art. 9º, § 1º, do Ato da Mesa nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html) permite plataformas privadas **como canais complementares**, exigindo conteúdo disponível em **canais próprios abertos ao público**. O § 2º prioriza **linguagem simples**, e o § 3º requer **procedimentos de checagem, revisão e aprovação** para conteúdos de canais próprios e privados. O formato do vídeo ou a plataforma não dispensa essas etapas.
+
+**Caso progressivo:** (A) a equipe publica a pauta apenas em uma rede que exige conta: é necessário garantir o conteúdo no canal oficial aberto; (B) o vídeo apresenta posição política de uma bancada como decisão institucional: rever enquadramento e aplicar princípios de imparcialidade, pluralismo e precisão (art. 5º e art. 12); (C) a jornalista pergunta por que deputados divergem sobre a proposta: o **parágrafo único do art. 11** preserva perguntas de esclarecimento das diferentes posições, sem autorizar opinião própria favorável ou contrária; (D) o órgão detecta trecho de entrevista editado que inverteu o sentido: o **art. 11, IV** veda descontextualizar falas, textos e imagens de maneira a distorcer sentido. A correção editorial deve atender à fonte e à gravidade do erro.
+
+**Aplicação na discursiva:** apresentar objetivo público; fonte oficial aberta; públicos e formatos acessíveis; papéis de apuração e revisão; compatibilidade de mensagens entre canais; tratamento plural das posições; procedimento de correção e critérios de avaliação. O plano de execução é didático, ao passo que as obrigações citadas são textuais do Ato nº 218/2025. O uso de ferramentas privadas não transfere automaticamente a elas a autoridade do canal oficial.
+
+**Item 4, inédito.** Segundo a Política de Comunicação Social da Câmara, a publicação de conteúdo institucional em plataforma digital privada dispensa checagem, revisão e aprovação, desde que o mesmo vídeo também esteja disponível no portal oficial.
+
+**Gabarito: Errado.** O art. 9º, § 3º, exige procedimentos de precisão para **canais próprios ou plataformas privadas**, não cria dispensa quando houver republicação.
+
+**Item 5, inédito.** A vedação à expressão de opinião própria sobre tema em debate não impede, por si, perguntas de esclarecimento sobre posições divergentes, ressalva expressa no parágrafo único do art. 11.
+
+**Gabarito: Certo.** O texto ressalva perguntas e questionamentos de esclarecimento, preservados os demais deveres de imparcialidade e contextualização. Itens 4–5 são autorais inéditos, não questões históricas Cebraspe.
+
+**Fonte:** [Ato da Mesa nº 218/2025, arts. 5º, 7º, 9º, 11 e 12](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html). Casos hipotéticos sem descrição de atividade real.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria|Comunicação pública e político-partidária]] desenvolve o contraste conceitual e a exceção de aplicabilidade; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|Transparência]] aprofunda a LAI e o Ato nº 45/2012; [[3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens|Governança editorial]] traz ferramentas de planejamento e revisão. O **CAM-CO-027** deverá examinar o Manual de Comunicação da Câmara como documento de aplicação e distinguir regras do manual das exigências expressas no Ato nº 218/2025. O **CAM-CO-032** aprofundará o art. 37, § 1º, da Constituição.

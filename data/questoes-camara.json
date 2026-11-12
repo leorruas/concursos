@@ -10932,7 +10932,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-2d49c7a6e81b305f#Hierarquia visual: prioridade não equivale a tamanho"
       ],
@@ -10943,7 +10943,7 @@
       "statement": "Em um aviso com vários blocos densos, reservar espaço em torno do prazo pode destacá-lo mesmo sem aumentar o corpo do texto.",
       "correctAnswer": "C",
       "explanation": "O isolamento altera a relação visual entre elementos. O tamanho é apenas um dos recursos de hierarquia.",
-      "reviewEvidence": "Cotejo editorial com Hierarquia visual: prioridade não equivale a tamanho em 3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Hierarquia visual: prioridade não equivale a tamanho em 3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-proximidade-com-rotulos-trocados",
@@ -10960,7 +10960,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-2d49c7a6e81b305f#Gestalt: quais elementos o leitor percebe como unidade?"
       ],
@@ -10971,7 +10971,7 @@
       "statement": "Em uma lista de eventos, colocar cada horário mais perto do título seguinte que do próprio título elimina o risco de associação incorreta, desde que todos os horários usem a mesma fonte.",
       "correctAnswer": "E",
       "explanation": "A tipografia comum agrupa os horários como categoria. A proximidade com o título errado ainda pode induzir um pareamento incorreto.",
-      "reviewEvidence": "Cotejo editorial com Gestalt: quais elementos o leitor percebe como unidade? em 3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Gestalt: quais elementos o leitor percebe como unidade? em 3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-grid-com-variacao-de-colunas",
@@ -10988,7 +10988,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-2d49c7a6e81b305f#Grid e alinhamento: estrutura não é template"
       ],
@@ -10999,7 +10999,7 @@
       "statement": "Duas páginas podem usar a mesma grade de seis colunas ainda que uma imagem ocupe duas colunas em uma delas e quatro na outra.",
       "correctAnswer": "C",
       "explanation": "A grade fornece linhas de referência. Elementos podem ocupar extensões distintas sem abandonar a estrutura.",
-      "reviewEvidence": "Cotejo editorial com Grid e alinhamento: estrutura não é template em 3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Grid e alinhamento: estrutura não é template em 3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-formato-fechado-com-dobra",
@@ -11016,7 +11016,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-58a3d91e6c427bf0#Formato aberto, fechado, página, folha e imposição"
       ],
@@ -11027,7 +11027,7 @@
       "statement": "Um folheto de 300 mm por 200 mm que recebe uma dobra central paralela ao lado de 200 mm conserva, após dobrado, o formato de 300 mm por 200 mm.",
       "correctAnswer": "E",
       "explanation": "A dobra reduz pela metade a dimensão perpendicular a ela. O formato fechado é de 150 mm por 200 mm.",
-      "reviewEvidence": "Cotejo editorial com Formato aberto, fechado, página, folha e imposição em 3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Formato aberto, fechado, página, folha e imposição em 3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-marca-de-fundo-e-texto-protegido",
@@ -11044,7 +11044,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-58a3d91e6c427bf0#Sangria, linha de corte e área segura: direções opostas"
       ],
@@ -11055,7 +11055,7 @@
       "statement": "Adicionar marcas de corte fora do formato final corrige um fundo que termina exatamente na linha de corte, mesmo que a arte permaneça sem extensão além dela.",
       "correctAnswer": "E",
       "explanation": "As marcas indicam a posição do corte. A sangria exige que o próprio fundo avance além dessa linha para tolerar desvios.",
-      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-resolucao-com-recorte-e-ampliacao",
@@ -11072,7 +11072,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-58a3d91e6c427bf0#Resolução, tamanho físico e imagem vetorial"
       ],
@@ -11083,7 +11083,7 @@
       "statement": "Uma fotografia de 2.400 pixels de largura é recortada até restarem 1.200 pixels. Se a parte mantida for impressa com 8 polegadas de largura, sua resolução efetiva continuará em 300 pixels por polegada porque a imagem original tinha 2.400 pixels.",
       "correctAnswer": "E",
       "explanation": "A resolução efetiva usa os pixels que restaram e o tamanho final: 1.200 ÷ 8 = 150 pixels por polegada.",
-      "reviewEvidence": "Cotejo editorial com Resolução, tamanho físico e imagem vetorial em 3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Resolução, tamanho físico e imagem vetorial em 3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-ordem-visual-e-ordem-de-leitura",
@@ -11100,7 +11100,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d64c8e1b705a392f#Responsividade, reflow e ordem de leitura"
       ],
@@ -11111,7 +11111,7 @@
       "statement": "Se uma adaptação empilha cartões de inscrição no celular, convém testar se cada rótulo é lido junto ao controle que ele descreve, ainda que os cartões tenham a mesma aparência da versão ampla.",
       "correctAnswer": "C",
       "explanation": "A reorganização pode alterar as relações percebidas na leitura. O teste verifica a associação entre instruções e controles na nova disposição.",
-      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-vetor-e-informacao-textual",
@@ -11128,7 +11128,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d64c8e1b705a392f#Formatos técnicos: escolher conforme informação, não hábito"
       ],
@@ -11139,7 +11139,7 @@
       "statement": "Usar um gráfico vetorial pode preservar a nitidez das linhas em diferentes escalas, mas a equipe ainda precisa garantir que os dados do gráfico possam ser consultados de forma acessível.",
       "correctAnswer": "C",
       "explanation": "A propriedade vetorial favorece a escala visual. Ela não torna os dados automaticamente recuperáveis por leitores de tela ou por outras formas de acesso.",
-      "reviewEvidence": "Cotejo editorial com Formatos técnicos: escolher conforme informação, não hábito em 3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Formatos técnicos: escolher conforme informação, não hábito em 3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-referencia-oral-de-prazo",
@@ -11156,7 +11156,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5d8b17c3e946a20f#Rádio: escrever para ouvir uma vez"
       ],
@@ -11167,7 +11167,7 @@
       "statement": "Num boletim de rádio gravado para ser reprisado durante a semana, dizer “as inscrições terminam na sexta-feira, dia 14” reduz a dependência do momento de escuta em comparação com dizer “as inscrições terminam amanhã”.",
       "correctAnswer": "C",
       "explanation": "A data explícita continua interpretável quando muda o dia da transmissão. O advérbio relativo pode mudar de referente entre as reprises.",
-      "reviewEvidence": "Cotejo editorial com Rádio: escrever para ouvir uma vez em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Rádio: escrever para ouvir uma vez em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-informacao-divergente-em-trilhas",
@@ -11184,7 +11184,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5d8b17c3e946a20f#Televisão e vídeo: relação entre quadro, movimento, som e montagem"
       ],
@@ -11195,7 +11195,7 @@
       "statement": "Se o locutor anuncia 18h e o letreiro exibe 19h, o vídeo mantém a precisão do horário desde que as duas informações sejam individualmente legíveis e audíveis.",
       "correctAnswer": "E",
       "explanation": "O conflito de conteúdo permanece mesmo quando as duas trilhas têm boa qualidade técnica. É preciso confirmar o horário e alinhar o texto falado e o visual.",
-      "reviewEvidence": "Cotejo editorial com Televisão e vídeo: relação entre quadro, movimento, som e montagem em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Televisão e vídeo: relação entre quadro, movimento, som e montagem em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-reenquadramento-e-referencia-espacial",
@@ -11212,7 +11212,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5d8b17c3e946a20f#Redes sociais: adaptação editorial e condições de circulação"
       ],
@@ -11223,7 +11223,7 @@
       "statement": "Uma versão vertical mantém visíveis dois gráficos originalmente lado a lado e os empilha. Mesmo sem perder os gráficos no recorte, a equipe precisa rever a instrução falada “compare com o gráfico à direita”.",
       "correctAnswer": "C",
       "explanation": "O empilhamento preserva os gráficos, mas altera sua relação espacial. A instrução precisa usar a nova posição ou identificar o gráfico pelo nome.",
-      "reviewEvidence": "Cotejo editorial com Redes sociais: adaptação editorial e condições de circulação em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Redes sociais: adaptação editorial e condições de circulação em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-referencia-com-secao-e-pagina",
@@ -11240,7 +11240,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8c3f1b6d29e704a5#Sistema de navegação editorial"
       ],
@@ -11251,7 +11251,7 @@
       "statement": "Uma publicação extensa pode combinar rótulos recorrentes de seção com um sumário que remete às páginas, apoiando tanto a orientação local quanto a busca direta.",
       "correctAnswer": "C",
       "explanation": "O rótulo localiza o leitor na seção corrente. O sumário permite localizar e acessar outras partes.",
-      "reviewEvidence": "Cotejo editorial com Sistema de navegação editorial em 3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Sistema de navegação editorial em 3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-prototipo-com-caso-limite",
@@ -11268,7 +11268,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8c3f1b6d29e704a5#Execução: do protótipo ao conteúdo completo"
       ],
@@ -11279,7 +11279,7 @@
       "statement": "Ajustar o projeto gráfico apenas com títulos curtos de exemplo basta para verificar que ele acomoda todos os títulos reais, ainda que o conteúdo final inclua títulos de extensão muito maior.",
       "correctAnswer": "E",
       "explanation": "O protótipo precisa testar variações reais e casos extremos. Títulos longos podem mudar quebra, espaçamento e hierarquia.",
-      "reviewEvidence": "Cotejo editorial com Execução: do protótipo ao conteúdo completo em 3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Execução: do protótipo ao conteúdo completo em 3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-correcao-no-mestre-e-propagacao",
@@ -11296,7 +11296,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e38b75d219c064af#Gestão de versões: mestre, derivados e identidade do arquivo"
       ],
@@ -11307,7 +11307,7 @@
       "statement": "Um vídeo mestre e duas versões reduzidas foram exportados antes de a data de um evento ser corrigida no projeto. Corrigir o projeto e gerar apenas um novo mestre deixa pendente a correção dos derivados que já circularam.",
       "correctAnswer": "C",
       "explanation": "A alteração na origem não modifica os arquivos já exportados. É preciso identificar os derivados afetados, gerar versões corrigidas e substituir as publicações quando possível.",
-      "reviewEvidence": "Cotejo editorial com Gestão de versões: mestre, derivados e identidade do arquivo em 3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Gestão de versões: mestre, derivados e identidade do arquivo em 3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-espaco-para-descricao-no-roteiro",
@@ -11324,7 +11324,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e38b75d219c064af#Plano de acessibilidade: requisito antes da filmagem"
       ],
@@ -11335,7 +11335,7 @@
       "statement": "Se um roteiro usa ações silenciosas essenciais para explicar um procedimento, planejar pausas na locução antes da gravação pode facilitar a inserção posterior de audiodescrição.",
       "correctAnswer": "C",
       "explanation": "A audiodescrição precisa de espaço sonoro para relatar ações essenciais sem sobrepor informações faladas relevantes.",
-      "reviewEvidence": "Cotejo editorial com Plano de acessibilidade: requisito antes da filmagem em 3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Plano de acessibilidade: requisito antes da filmagem em 3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-pauta-versus-criterio-permanente",
@@ -11352,7 +11352,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6b3e9d125a704fc8#Linha editorial, política editorial, projeto editorial e pauta"
       ],
@@ -11363,7 +11363,7 @@
       "statement": "Escolher uma entrevista sobre a próxima audiência define por si só a linha editorial de toda a publicação.",
       "correctAnswer": "E",
       "explanation": "A entrevista é uma decisão de pauta. A linha editorial orienta de modo mais duradouro a seleção e o tratamento dos conteúdos.",
-      "reviewEvidence": "Cotejo editorial com Linha editorial, política editorial, projeto editorial e pauta em 3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Linha editorial, política editorial, projeto editorial e pauta em 3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-edicao-fechada-e-atualizacao",
@@ -11380,7 +11380,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6b3e9d125a704fc8#Periodicidade, fechamento, edição e atualização"
       ],
@@ -11391,7 +11391,7 @@
       "statement": "Se uma publicação fechada foi distribuída em arquivo e sua página complementar recebe uma correção, é necessário identificar a edição corrigida para que o leitor possa distinguir o arquivo anterior da atualização.",
       "correctAnswer": "C",
       "explanation": "A página e o arquivo podem continuar em circulação simultânea. Identificar a versão permite saber que informação foi revista e em qual edição.",
-      "reviewEvidence": "Cotejo editorial com Periodicidade, fechamento, edição e atualização em 3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Periodicidade, fechamento, edição e atualização em 3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-tiragem-com-estoque-e-perdas",
@@ -11408,7 +11408,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7e42b19c5a603fd8#Tiragem, circulação e distribuição impressa"
       ],
@@ -11419,7 +11419,7 @@
       "statement": "Se uma publicação tem tiragem de 2.000 exemplares, com 300 retidos em estoque e 100 inutilizados antes da entrega, os 2.000 exemplares foram distribuídos.",
       "correctAnswer": "E",
       "explanation": "A tiragem conta exemplares produzidos. Considerando as duas exclusões, no máximo 1.600 exemplares foram distribuídos.",
-      "reviewEvidence": "Cotejo editorial com Tiragem, circulação e distribuição impressa em 3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Tiragem, circulação e distribuição impressa em 3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-corpo-e-altura-x",
@@ -11436,7 +11436,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-2d49c7a6e81b305f#Tipografia: anatomia, medidas e combinação"
       ],
@@ -11447,7 +11447,7 @@
       "statement": "Duas fontes especificadas no mesmo corpo têm necessariamente a mesma altura visual das letras minúsculas.",
       "correctAnswer": "E",
       "explanation": "A altura-x varia entre famílias tipográficas de mesmo corpo.",
-      "reviewEvidence": "Cotejo editorial com Tipografia: anatomia, medidas e combinação em 3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Tipografia: anatomia, medidas e combinação em 3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-gramatura-e-espessura",
@@ -11464,7 +11464,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-58a3d91e6c427bf0#Papel e suportes: gramatura, espessura e acabamento superficial"
       ],
@@ -11475,7 +11475,7 @@
       "statement": "Para estimar a massa de 500 folhas de 0,1 metro quadrado em papel de 120 gramas por metro quadrado, pode-se usar a gramatura sem conhecer a espessura.",
       "correctAnswer": "C",
       "explanation": "A área total é 50 metros quadrados. Multiplicada pela gramatura, resulta em 6.000 gramas.",
-      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-prova-com-acabamento-distinto",
@@ -11492,7 +11492,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-58a3d91e6c427bf0#Inspeção, provas e controle de qualidade"
       ],
@@ -11503,7 +11503,7 @@
       "statement": "Uma prova que verifica texto e paginação pode ser adequada a essa finalidade mesmo quando não reproduz o acabamento do exemplar final.",
       "correctAnswer": "C",
       "explanation": "A adequação da prova depende do que se pretende verificar. O acabamento exige evidência própria.",
-      "reviewEvidence": "Cotejo editorial com Inspeção, provas e controle de qualidade em 3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Inspeção, provas e controle de qualidade em 3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-controle-sem-foco",
@@ -11520,7 +11520,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d64c8e1b705a392f#Operação por teclado, foco, alvo e interações"
       ],
@@ -11531,7 +11531,7 @@
       "statement": "Um menu cujos comandos funcionam por clique permite operação por teclado mesmo que seus controles não recebam foco nem respondam a atalhos.",
       "correctAnswer": "E",
       "explanation": "A interação por ponteiro não demonstra acesso pelo teclado. Os comandos precisam ter um mecanismo operável por esse meio.",
-      "reviewEvidence": "Cotejo editorial com Operação por teclado, foco, alvo e interações em 3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Operação por teclado, foco, alvo e interações em 3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-foco-e-balanco",
@@ -11548,7 +11548,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "compreensão",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5d8b17c3e946a20f#Captação: exposição, foco, balanço de branco e movimento"
       ],
@@ -11559,7 +11559,7 @@
       "statement": "Ajustar o balanço de branco recupera os detalhes de um texto que ficou fora de foco durante a gravação.",
       "correctAnswer": "E",
       "explanation": "O balanço de branco corrige a interpretação das cores da iluminação. A perda de nitidez por foco tem outra causa.",
-      "reviewEvidence": "Cotejo editorial com Captação: exposição, foco, balanço de branco e movimento em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Captação: exposição, foco, balanço de branco e movimento em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-tabela-para-consulta-exata",
@@ -11576,7 +11576,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8c3f1b6d29e704a5#Imagem, tabela, gráfico e infografia no projeto"
       ],
@@ -11587,7 +11587,7 @@
       "statement": "Se a tarefa principal do leitor é consultar valores exatos de cada categoria, uma tabela bem rotulada pode ser mais adequada que um gráfico sem rótulos numéricos.",
       "correctAnswer": "C",
       "explanation": "A tabela favorece a consulta pontual. O gráfico sem valores explícitos prioriza a comparação visual.",
-      "reviewEvidence": "Cotejo editorial com Imagem, tabela, gráfico e infografia no projeto em 3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Imagem, tabela, gráfico e infografia no projeto em 3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-montagem-apos-travamento",
@@ -11604,7 +11604,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e38b75d219c064af#Pós-produção: ingest, seleção, montagem, picture lock e finalização"
       ],
@@ -11615,7 +11615,7 @@
       "statement": "Alterar a duração de uma cena após o travamento da montagem dispensa verificar a sincronização das legendas já produzidas para a versão anterior.",
       "correctAnswer": "E",
       "explanation": "A edição pode deslocar as marcas de tempo. As legendas precisam ser verificadas contra a nova montagem.",
-      "reviewEvidence": "Cotejo editorial com Pós-produção: ingest, seleção, montagem, picture lock e finalização em 3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Pós-produção: ingest, seleção, montagem, picture lock e finalização em 3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-entrega-editorial-e-compreensao",
@@ -11632,7 +11632,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6b3e9d125a704fc8#Objetivo editorial, objetivo institucional e entregas"
       ],
@@ -11643,7 +11643,7 @@
       "statement": "Entregar quatro edições previstas comprova que os leitores passaram a compreender melhor o tema tratado.",
       "correctAnswer": "E",
       "explanation": "A entrega mede execução editorial. A compreensão exige evidência sobre os leitores.",
-      "reviewEvidence": "Cotejo editorial com Objetivo editorial, objetivo institucional e entregas em 3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Objetivo editorial, objetivo institucional e entregas em 3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-download-sem-leitura",
@@ -11660,7 +11660,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7e42b19c5a603fd8#Distribuição digital: eventos, pessoas e conteúdo"
       ],
@@ -11671,7 +11671,7 @@
       "statement": "Somar 100 downloads da edição original e 50 da corrigida identifica 150 leitores que receberam a correção.",
       "correctAnswer": "E",
       "explanation": "A soma mistura versões e conta eventos. Para verificar alcance da correção, é necessário observar a edição corrigida e distinguir eventos de pessoas.",
-      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Reformulação após cotejo com os exercícios do artigo e conferência do novo gabarito. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-enquete-de-leitores-vs-nao-leitores",
@@ -11688,7 +11688,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7e42b19c5a603fd8#Pesquisa de leitores: perguntas e métodos"
       ],
@@ -11699,7 +11699,7 @@
       "statement": "Uma enquete no fim de uma publicação pode identificar dificuldades de quem chegou até ali, mas exclui quem abandonou antes de encontrar o formulário.",
       "correctAnswer": "C",
       "explanation": "A localização do formulário condiciona quem pode responder. A pesquisa precisa alcançar quem abandonou para investigar esse grupo.",
-      "reviewEvidence": "Cotejo editorial com Pesquisa de leitores: perguntas e métodos em 3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Pesquisa de leitores: perguntas e métodos em 3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-legibilidade-sem-localizacao",
@@ -11716,7 +11716,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-2d49c7a6e81b305f#Legibilidade, leiturabilidade, compreensibilidade e encontrabilidade"
       ],
@@ -11727,7 +11727,7 @@
       "statement": "Se todos conseguem ler o título de uma seção quando ela é exibida, mas poucos a localizam no documento, o teste indica uma dificuldade de encontrabilidade.",
       "correctAnswer": "C",
       "explanation": "O reconhecimento das letras foi observado após a exibição. Localizar a seção é outra tarefa.",
-      "reviewEvidence": "Cotejo editorial com Legibilidade, leiturabilidade, compreensibilidade e encontrabilidade em 3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Legibilidade, leiturabilidade, compreensibilidade e encontrabilidade em 3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-mesmos-numeros-perfis-distintos",
@@ -11744,7 +11744,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-58a3d91e6c427bf0#Cor: modelo, espaço, perfil e separação"
       ],
@@ -11755,7 +11755,7 @@
       "statement": "Manter os mesmos valores numéricos de cor em dois arquivos garante a mesma cor impressa mesmo quando eles são interpretados por perfis de saída diferentes.",
       "correctAnswer": "E",
       "explanation": "O perfil informa como os números se relacionam às cores reproduzidas nas condições de saída. Valores iguais podem produzir aparências diferentes.",
-      "reviewEvidence": "Cotejo editorial com Cor: modelo, espaço, perfil e separação em 3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Cor: modelo, espaço, perfil e separação em 3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-vinco-e-corte",
@@ -11772,7 +11772,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-58a3d91e6c427bf0#Acabamentos: distinguir função e mecanismo"
       ],
@@ -11783,7 +11783,7 @@
       "statement": "O vinco pode facilitar uma dobra planejada sem separar a folha em duas peças.",
       "correctAnswer": "C",
       "explanation": "O vinco prepara a linha de dobra. A separação é função de uma operação de corte.",
-      "reviewEvidence": "Cotejo editorial com Acabamentos: distinguir função e mecanismo em 3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Acabamentos: distinguir função e mecanismo em 3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-imagem-leve-sem-cortar-conteudo",
@@ -11800,7 +11800,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-d64c8e1b705a392f#Desempenho de carregamento e experiência"
       ],
@@ -11811,7 +11811,7 @@
       "statement": "Para melhorar o carregamento no celular, é possível oferecer uma imagem menor e preservar os dados do gráfico em texto, desde que a versão reduzida continue adequada à sua função visual.",
       "correctAnswer": "C",
       "explanation": "A intervenção reduz o custo de transferência enquanto preserva a informação por outra representação.",
-      "reviewEvidence": "Cotejo editorial com Desempenho de carregamento e experiência em 3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Desempenho de carregamento e experiência em 3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-sequencia-de-gravacao-e-montagem",
@@ -11828,7 +11828,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5d8b17c3e946a20f#Pré-produção: pauta, roteiro, decupagem e plano de gravação"
       ],
@@ -11839,7 +11839,7 @@
       "statement": "Organizar a gravação por locação obriga a montagem final a apresentar as cenas na mesma ordem em que foram captadas.",
       "correctAnswer": "E",
       "explanation": "A ordem de captação responde a condições operacionais. A montagem pode seguir a sequência narrativa prevista.",
-      "reviewEvidence": "Cotejo editorial com Pré-produção: pauta, roteiro, decupagem e plano de gravação em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Pré-produção: pauta, roteiro, decupagem e plano de gravação em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-niveis-de-audio-e-inteligibilidade",
@@ -11856,7 +11856,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5d8b17c3e946a20f#Edição, pós-produção e entrega: escolhas distintas"
       ],
@@ -11867,7 +11867,7 @@
       "statement": "Quando a música encobre palavras do locutor, elevar o volume da mixagem inteira melhora necessariamente a inteligibilidade da fala.",
       "correctAnswer": "E",
       "explanation": "Elevar a mixagem mantém aproximadamente a relação entre as fontes. Ajustar o nível relativo da música e da locução aborda o mascaramento.",
-      "reviewEvidence": "Cotejo editorial com Edição, pós-produção e entrega: escolhas distintas em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Edição, pós-produção e entrega: escolhas distintas em 3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-mancha-e-formato-da-pagina",
@@ -11884,7 +11884,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8c3f1b6d29e704a5#Estrutura do sistema: formato, mancha, grid e margens"
       ],
@@ -11895,7 +11895,7 @@
       "statement": "A mancha gráfica é sempre idêntica ao formato total da página, incluindo as margens externas.",
       "correctAnswer": "E",
       "explanation": "A mancha delimita a área ocupada pelo conteúdo. O formato descreve as dimensões totais da página.",
-      "reviewEvidence": "Cotejo editorial com Estrutura do sistema: formato, mancha, grid e margens em 3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Estrutura do sistema: formato, mancha, grid e margens em 3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-plano-alternativo-sem-dependencia",
@@ -11912,7 +11912,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e38b75d219c064af#Dependências, caminho crítico e contingências"
       ],
@@ -11923,7 +11923,7 @@
       "statement": "Uma gravação externa depende do clima e alimenta a montagem final. Antecipar a captação de imagens internas independentes pode reduzir a pressão sobre a agenda, mas não antecipa automaticamente o início da montagem final enquanto a gravação externa continuar sendo predecessora obrigatória.",
       "correctAnswer": "C",
       "explanation": "O ganho local só muda a data da atividade sucessora se alterar a conclusão de suas predecessoras determinantes.",
-      "reviewEvidence": "Cotejo editorial com Dependências, caminho crítico e contingências em 3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Dependências, caminho crítico e contingências em 3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-recorrencia-editorial-sem-simbolo",
@@ -11940,7 +11940,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6b3e9d125a704fc8#Identidade editorial: reconhecimento do produto além do logotipo"
       ],
@@ -11951,7 +11951,7 @@
       "statement": "Uma publicação pode continuar reconhecível por suas seções, pelo estilo de apresentação e pelo tratamento das fontes quando o logotipo fica temporariamente ausente.",
       "correctAnswer": "C",
       "explanation": "A identidade editorial se manifesta em padrões de conteúdo, tratamento e forma, além da assinatura visual.",
-      "reviewEvidence": "Cotejo editorial com Identidade editorial: reconhecimento do produto além do logotipo em 3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Identidade editorial: reconhecimento do produto além do logotipo em 3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-revisao-na-versao-final",
@@ -11968,7 +11968,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-6b3e9d125a704fc8#Ciclo editorial: edição, revisão e controle de qualidade"
       ],
@@ -11979,7 +11979,7 @@
       "statement": "Se um texto foi revisado antes da diagramação, a conferência do arquivo final é dispensável mesmo após alterações nas quebras de página e nas chamadas de notas.",
       "correctAnswer": "E",
       "explanation": "A montagem pode introduzir problemas de referência, legibilidade e paginação. O arquivo final precisa ser verificado.",
-      "reviewEvidence": "Cotejo editorial com Ciclo editorial: edição, revisão e controle de qualidade em 3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Ciclo editorial: edição, revisão e controle de qualidade em 3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-publicacao-indexada-e-recuperavel",
@@ -11996,7 +11996,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7e42b19c5a603fd8#Acesso, descoberta e encontrabilidade"
       ],
@@ -12007,7 +12007,7 @@
       "statement": "Um arquivo pode estar acessível por endereço direto e ainda ser difícil de encontrar para quem inicia a busca no catálogo da instituição.",
       "correctAnswer": "C",
       "explanation": "Disponibilidade por endereço e recuperação em busca são condições distintas. A descoberta também depende de descrição, indexação e navegação.",
-      "reviewEvidence": "Cotejo editorial com Acesso, descoberta e encontrabilidade em 3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com Acesso, descoberta e encontrabilidade em 3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     },
     {
       "id": "cam-di-publicacao-com-exposicao-e-efeito-divergentes",
@@ -12024,7 +12024,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-7e42b19c5a603fd8#AMEC aplicado à publicação: evitar troca de níveis"
       ],
@@ -12035,7 +12035,7 @@
       "statement": "Uma publicação passa de 1.000 para 2.000 leitores. Em pesquisas comparáveis, a proporção de leitores que compreendem a mensagem cai de 80% para 50%. O número estimado de leitores que compreendem aumenta, embora a meta de elevar a proporção não tenha sido atingida.",
       "correctAnswer": "C",
       "explanation": "A estimativa sobe de 800 para 1.000 leitores. A proporção, que é o indicador da meta, cai de 80% para 50%.",
-      "reviewEvidence": "Cotejo editorial com AMEC aplicado à publicação: evitar troca de níveis em 3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md. Conferência de gabarito e dificuldade no lote 005."
+      "reviewEvidence": "Cotejo editorial com AMEC aplicado à publicação: evitar troca de níveis em 3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
     }
   ]
 }

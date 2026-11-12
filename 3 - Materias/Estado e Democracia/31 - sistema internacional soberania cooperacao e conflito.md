@@ -18,7 +18,7 @@ updated: 2026-11-07
 
 **Soberania** envolve autoridade e independência externa do Estado, nos marcos do Direito Internacional. **Igualdade soberana** é princípio da Carta da ONU, art. 2º, § 1º; não significa que países tenham recursos econômicos, militares ou capacidade de influência equivalentes. **Interdependência** é influência recíproca entre sociedades, podendo ser profundamente assimétrica. **Cooperação** ocorre quando agentes ajustam comportamentos e compromissos em torno de objetivos ou expectativas comuns; **conflito** é incompatibilidade percebida ou material de interesses, valores, posições ou objetivos, que pode ser gerida sem guerra.
 
-Esta nota **CAM-CP-022** completa a sequência de Ciência Política da Câmara de 2026. A unidade anterior, [[3 - Materias/Estado e Democracia/30 - politica internacional contemporanea atores e instituicoes|CAM-CP-021]], examina **atores, organizações, instituições e governança**; aqui o foco é **a estrutura da ordem internacional e os mecanismos que tornam cooperação, segurança e conflito possíveis**.
+Esta nota **CAM-CP-022** completa a sequência de Ciência Política da Câmara de 2026. A unidade anterior, [[3 - Materias/Estado e Democracia/30 - politica internacional contemporanea atores e instituicoes|Política internacional contemporânea: atores, instituições e governança]], examina **atores, organizações, instituições e governança**; aqui o foco é **a estrutura da ordem internacional e os mecanismos que tornam cooperação, segurança e conflito possíveis**.
 
 ## Estrutura do sistema: níveis de análise e polaridade
 
@@ -178,12 +178,12 @@ Em autores, a confusão principal é atribuir a Waltz o **dilema de segurança**
 
 ## Relações com outros temas
 
-- [[3 - Materias/Estado e Democracia/30 - politica internacional contemporanea atores e instituicoes|CAM-CP-021: atores e instituições internacionais]]: ONU, OIGs e governança.
-- [[3 - Materias/Estado e Democracia/27 - organizacao politica brasileira instituicoes e federalismo|CAM-CP-018: organização política brasileira]]: soberania da República Federativa do Brasil e autonomia dos entes.
-- [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|CAM-CP-003: teoria política]]: poder, legitimidade e abordagens teóricas.
-- [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|CAM-CP-012: freios e contrapesos]]: autoridade institucional, limites e controles.
-- [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|CAM-CP-007: regimes políticos]]: regime doméstico e sistema internacional são planos distintos.
-- [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|CAM-CP-014: sistemas eleitorais]]: instituições internas não são a estrutura de polaridade internacional.
+- [[3 - Materias/Estado e Democracia/30 - politica internacional contemporanea atores e instituicoes|Política internacional contemporânea: atores, instituições e governança]]: ONU, OIGs e governança.
+- [[3 - Materias/Estado e Democracia/27 - organizacao politica brasileira instituicoes e federalismo|Organização política brasileira: instituições, federalismo e coordenação]]: soberania da República Federativa do Brasil e autonomia dos entes.
+- [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|Teoria política: correntes e perguntas centrais]]: poder, legitimidade e abordagens teóricas.
+- [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|Separação de Poderes: funções, freios e contrapesos]]: autoridade institucional, limites e controles.
+- [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|Regimes políticos: democracia, autoritarismo e hibridismos]]: regime doméstico e sistema internacional são planos distintos.
+- [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|Sistema eleitoral majoritário: funcionamento e efeitos]]: instituições internas não são a estrutura de polaridade internacional.
 
 ## Tensões e pegadinhas
 

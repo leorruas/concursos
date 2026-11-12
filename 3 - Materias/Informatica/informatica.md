@@ -12,7 +12,7 @@ updated: 2026-11-11
 
 ## Estado dos exercícios C/E para Câmara 2026
 
-Os artigos 03–30 reúnem **168 questões inéditas**. **13 enunciados originais têm gabarito NÃO HOMOLOGADO** e não devem ser aplicados como questões C/E de treino até correção: 03/Q6, 05/Q5, 07/Q5, 09/Q5, 13/Q1 e Q4, 18/Q3 e Q6, 21/Q4, 22/Q2, 24/Q4, 27/Q5 e 29/Q1. As propostas de reformulação são rascunhos, não itens já aprovados.
+Os artigos 03–30 contêm **168 questões originais inéditas**. **13 enunciados originais continuam NÃO HOMOLOGADOS** e não devem ser usados: 03/Q6, 05/Q5, 07/Q5, 09/Q5, 13/Q1 e Q4, 18/Q3 e Q6, 21/Q4, 22/Q2, 24/Q4, 27/Q5 e 29/Q1. Para cada um deles foi publicada uma **questão substituta inédita, identificada por Sxx-n**, no próprio artigo. As substitutas têm enunciado condicionado, gabarito e comentário revisados, com casos e fontes conforme o tema; não são questões oficiais Cebraspe nem possuem certificação externa integral.
 
 A validação de sessões do concurso Câmara possui uma barreira para **enunciados coincidentes** com esses itens, definida em `scripts/camara-ti-question-guard.js`. Esse controle **não garante impedir paráfrases nem questões apresentadas fora do fluxo de validação**, e os testes Node.js do repositório ainda precisam ser executados. Para selecionar itens diretamente das notas, conferir antes o marcador de homologação de cada questão.
 

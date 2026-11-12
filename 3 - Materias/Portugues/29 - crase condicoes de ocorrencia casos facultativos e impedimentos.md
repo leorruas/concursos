@@ -133,10 +133,10 @@ Nos três casos abaixo, a presença ou ausência do acento grave **não altera a
    * *"O deputado reportou-se **a sua / à sua** bancada."* (**Ambas corretas**).
    * **Atenção às duas armadilhas fatais nos possessivos:**
      * Se o possessivo estiver no **PLURAL** (*minhas, tuas, suas, nossas, vossas*): *"reportou-se **a suas** bases"* (sem artigo $\rightarrow$ sem crase) ou *"reportou-se **às suas** bases"* (com artigo $\rightarrow$ crase obrigatória no *às*). **Proibido:** *"reportou-se à suas bases"*.
-     * Se o possessivo for **pronome substantivo** (quando o substantivo foi omitido por elipse/zeugma): o artigo torna-se obrigatório e, portanto, a crase é **OBRIGATÓRIA**: *"Não me refiro à bancada do governo, mas **à sua** [à sua bancada]."*
+     * Quando o possessivo substitui um substantivo já mencionado, **verifique se o artigo integra a construção e qual referente está sendo retomado**: *"Não me refiro à bancada do governo, mas **à sua** [bancada]."* É uma redação correta, mas sua existência não autoriza afirmar que o artigo seja obrigatório **em toda ocorrência substantiva de possessivo**.
 2. **Antes de nome próprio feminino de pessoa (antropônimo)** no uso comum:
    * *"O relator entregou o documento **a Maria / à Maria**."* (O artigo antes de nome de pessoa varia conforme a intimidade/região).
-   * *Exceção:* Se for personalidade histórica/pública em registro formal distante (*"Dirigiu preces **a** Nossa Senhora"*, *"Aludiu **a** Joana d'Arc"*), não se usa artigo; se o nome vier **especificado** (*"Refiro-me **à** Maria que trabalha na CCJC"*), a crase passa a ser **obrigatória**.
+   * *Exceção:* Se for personalidade histórica/pública em registro formal distante (*"Dirigiu preces **a** Nossa Senhora"*, *"Aludiu **a** Joana d'Arc"*), não se usa artigo; se o nome vier **especificado** (*"Refiro-me **à** Maria que trabalha na CCJC"*), o artigo torna-se **mais natural no exemplo**, mas a correção deve considerar o uso efetivo do artigo diante do antropônimo, sem transformar toda especificação em crase obrigatória.
 3. **Depois da preposição `ATÉ`** diante de palavra feminina que admita artigo:
    * *"Os parlamentares caminharam **até a / até à** tribuna."* (A preposição *até* aceita ou não a companhia da preposição *a* na locução *até a* + artigo *a*).
 

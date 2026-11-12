@@ -138,6 +138,24 @@ flowchart LR
 
 ---
 
+## 5A. Coordenação entre termos: além das orações
+
+O programa da Câmara menciona expressamente **coordenação entre termos e entre orações**. A coordenação entre termos reúne unidades de **mesma função sintática** no interior de uma oração, enquanto a coordenação oracional relaciona **predicações com núcleos verbais próprios**. O emprego de *e* ou *ou*, por si só, não decide a classificação: identifique os núcleos e as funções.
+
+**Caso progressivo 1, sujeito composto:** *“O relator e a presidente apresentaram a proposta.”* Os grupos nominais *o relator* e *a presidente* são termos coordenados e compõem o sujeito; há apenas uma oração, cujo núcleo verbal é *apresentaram*. A concordância no plural decorre do sujeito composto, não de duas orações.
+
+**Caso progressivo 2, orações coordenadas:** *“O relator apresentou a proposta e a presidente solicitou alterações.”* Há dois núcleos verbais, *apresentou* e *solicitou*, organizados em duas orações ligadas por *e*. A função semântica aditiva não altera esse diagnóstico sintático.
+
+**Caso de fronteira:** *“A comissão analisou projetos e emendas.”* *Projetos* e *emendas* são núcleos coordenados do objeto direto, embora compartilhem um único verbo. Já em *“A comissão analisou projetos e encaminhou emendas”* há coordenação entre predicações (*analisou* / *encaminhou*) com sujeito comum recuperável.
+
+A expressão *“propostas técnicas e administrativas”* também pode coordenar adjetivos que caracterizam o mesmo núcleo. A presença de **dois elementos** não exige, portanto, duas orações. Na reescrita, preserve a função de cada termo, a concordância e o escopo de operadores como *apenas*, *nem* e *ou*.
+
+**Teste comentado, C/E inédito:** “Em ‘A comissão avaliou relatórios e pareceres’, a conjunção *e* coordena duas orações independentes.” **ERRADO.** Há somente uma forma verbal, *avaliou*, e os dois substantivos são termos coordenados do objeto direto.
+
+**Relações:** [[3 - Materias/Portugues/22 - classes de palavras e suas funcoes no periodo|Classes de palavras e funções]] e [[3 - Materias/Portugues/23 - termos essenciais integrantes e acessorios da oracao|Termos da oração]]. O teste acima é um caso didático adicional e **não substitui os seis itens formais da bateria**.
+
+---
+
 ## 6. Questões Inéditas Comentadas no Padrão Cebraspe
 
 ### Questão 1

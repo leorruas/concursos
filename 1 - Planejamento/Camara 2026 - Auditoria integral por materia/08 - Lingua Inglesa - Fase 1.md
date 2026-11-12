@@ -633,3 +633,15 @@ Neste lote, os conceitos já possuíam artigos canônicos (13–16), de modo que
 **Resultado:** 17 novos exercícios C/E inéditos e comentados inseridos neste lote. A verificação feita é estrutural e textual no GitHub; os exercícios não são rotulados como oficiais. O hub já aponta para os quatro artigos, dispensando alteração compartilhada.
 
 **Pendências:** verificar workflow do Pages e saída da validação do HEAD atualizado, conferir fontes e vínculos finais e testar a renderização real. Os commits sucessivos de outros agentes têm cancelado execuções anteriores, portanto não declarar a revisão integralmente validada sem run bem-sucedido e conferência dos materiais.
+
+
+## 27. Implementação: coesão referencial e transferência entre gêneros (11/11/2026)
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| 09 | Referência nominal versus oracional de `which` e disputa entre antecedentes em trechos de leitura | Texto autoral sobre museu, caso de desambiguação e quatro itens C/E comentados sobre `its`, `this` e `which` | `c45350bac945975e4080c58c5cb1a10e479f0160` | Arquivo recuperado com quatro novos C/E, `articleId` e aliases preservados | corrigido |
+| 18 | Treino de leitura crítica de diferentes gêneros com a mesma informação e integração final redundante | Nota de pesquisa, notícia e opinião com quatro C/E sobre atribuição e representatividade; substituído autorreferenciamento de link na seção final | `60418ea7281d7575f26a379352b7c6eed4b21565` | Arquivo recuperado com quatro itens, `articleId` preservado | corrigido |
+
+**Conferência de integridade do ciclo:** artigos 09, 13, 14, 15, 16 e 18 foram recuperados novamente do GitHub; todos mantêm `articleId`, `articleAliases`, cercas de código balanceadas e 4/4/4/4/5/4 itens C/E adicionais respectivamente. Esses **25 novos itens** são originais de treino e não foram apresentados como questões reais. Preservaram-se as questões preexistentes e nenhum artigo de outra disciplina foi alterado.
+
+**Publicação:** consultar o workflow Pages mais recente: a concorrência de outros agentes vinha produzindo runs cancelados ou pendentes. Não declarar publicação do último commit até o workflow completar com sucesso. Pendem validação visual do site, verificações técnicas de `main` e revisão final de todos os gabaritos anteriores.

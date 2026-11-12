@@ -10552,6 +10552,330 @@
       "statement": "Dois programas com marcas visualmente distintas oferecem o mesmo serviço ao mesmo público e mantêm fluxos separados. A distinção visual basta para demonstrar que a separação reduz duplicação operacional.",
       "correctAnswer": "E",
       "explanation": "Sinais diferentes podem coexistir com sobreposição de serviços. Avaliar duplicação exige comparar atribuições, fluxos e recursos utilizados."
+    },
+    {
+      "id": "cam-di-logotipo-como-sinal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "logotipo-como-sinal",
+      "mechanism": "logotipo-como-sinal",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Seis objetos distintos: evitar troca de categoria"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Seis objetos distintos: evitar troca de categoria"
+      },
+      "statement": "Um logotipo pode ser um elemento de identificação de marca.",
+      "correctAnswer": "C",
+      "explanation": "O logotipo é um sinal visual. A marca também envolve outros sinais e significados associados."
+    },
+    {
+      "id": "cam-di-cor-como-sinal-unico-de-prazo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "cor-como-sinal-unico-de-prazo",
+      "mechanism": "cor-como-sinal-unico-de-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Acessibilidade: marca reconhecível e mensagem utilizável"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Acessibilidade: marca reconhecível e mensagem utilizável"
+      },
+      "statement": "Em um aviso, identificar inscrições encerradas apenas pela cor da marca garante que todo usuário consiga distinguir os prazos.",
+      "correctAnswer": "E",
+      "explanation": "Se a cor for o único sinal, parte do público pode não distinguir os estados. Um rótulo explícito oferece outro meio de identificação."
+    },
+    {
+      "id": "cam-di-reconhecimento-de-nome-e-simbolo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "reconhecimento-de-nome-e-simbolo",
+      "mechanism": "reconhecimento-de-nome-e-simbolo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Elementos de marca: reconhecimento, associação e aplicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Elementos de marca: reconhecimento, associação e aplicação"
+      },
+      "statement": "Para saber se um símbolo funciona sem o nome escrito, é pertinente testar seu reconhecimento isoladamente e também na assinatura completa.",
+      "correctAnswer": "C",
+      "explanation": "O teste isolado permite observar o desempenho do símbolo. Compará-lo à assinatura completa ajuda a verificar a contribuição do nome."
+    },
+    {
+      "id": "cam-di-uso-de-modelo-antigo-no-acervo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-a71d4c96e20b583f",
+      "conceptId": "uso-de-modelo-antigo-no-acervo",
+      "mechanism": "uso-de-modelo-antigo-no-acervo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md",
+        "section": "Identidade visual como sistema, não peça isolada"
+      },
+      "statement": "Ao mudar de identidade visual, substituir o logotipo de documentos históricos arquivados é condição necessária para aplicar com consistência o novo sistema às peças produzidas daqui em diante.",
+      "correctAnswer": "E",
+      "explanation": "Peças novas e acervo histórico têm funções diferentes. É possível estabelecer uma data de adoção e preservar os documentos originais."
+    },
+    {
+      "id": "cam-di-ressonancia-e-vinculo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "ressonancia-e-vinculo",
+      "mechanism": "ressonancia-e-vinculo",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Keller: modelo de valor de marca baseado no consumidor"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Keller: modelo de valor de marca baseado no consumidor"
+      },
+      "statement": "A ressonância, no modelo de Keller, diz respeito à natureza do vínculo do consumidor com a marca.",
+      "correctAnswer": "C",
+      "explanation": "A ressonância trata da relação com a marca e inclui a intensidade e a atividade do vínculo."
+    },
+    {
+      "id": "cam-di-medida-comportamental-e-restricao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "medida-comportamental-e-restricao",
+      "mechanism": "medida-comportamental-e-restricao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Aaker: dimensões do valor de marca e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Aaker: dimensões do valor de marca e suas fronteiras"
+      },
+      "statement": "Se os usuários recorrem repetidamente a uma marca por ser a única disponível, a frequência de uso identifica sozinha a intensidade da preferência pela marca.",
+      "correctAnswer": "E",
+      "explanation": "A restrição de oferta explica a recorrência mesmo sem preferência. Uma interpretação de lealdade exige evidência adicional."
+    },
+    {
+      "id": "cam-di-desempenho-e-imaginario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "desempenho-e-imaginario",
+      "mechanism": "desempenho-e-imaginario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Keller: modelo de valor de marca baseado no consumidor"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Keller: modelo de valor de marca baseado no consumidor"
+      },
+      "statement": "Uma pessoa que associa uma marca ao grupo social que costuma usá-la oferece evidência sobre o imaginário da marca, mesmo sem avaliar sua durabilidade.",
+      "correctAnswer": "C",
+      "explanation": "A associação com perfil de usuários pertence ao imaginário. Durabilidade se refere ao desempenho funcional."
+    },
+    {
+      "id": "cam-di-reparo-operacional-e-reputacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-b63e19a8c4027f5d",
+      "conceptId": "reparo-operacional-e-reputacao",
+      "mechanism": "reparo-operacional-e-reputacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b63e19a8c4027f5d#Promessa, entrega e recuperação de serviço"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md",
+        "section": "Promessa, entrega e recuperação de serviço"
+      },
+      "statement": "Após uma falha, uma organização corrige o serviço e informa aos afetados como pedir reparação. Se o tempo de resposta volta ao padrão, esse dado demonstra que o público recuperou a confiança.",
+      "correctAnswer": "E",
+      "explanation": "O tempo de resposta indica recuperação operacional. A confiança é uma percepção que precisa ser medida junto ao público, especialmente entre pessoas afetadas."
+    },
+    {
+      "id": "cam-di-registro-de-excecoes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "registro-de-excecoes",
+      "mechanism": "registro-de-excecoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Estrutura de governança: decidir, executar e verificar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Estrutura de governança: decidir, executar e verificar"
+      },
+      "statement": "Registrar a duração e o motivo de uma exceção ao manual ajuda a governança da marca a decidir se a exceção deve ser renovada ou incorporada ao padrão.",
+      "correctAnswer": "C",
+      "explanation": "O registro permite verificar o uso, avaliar seus efeitos e distinguir uma autorização temporária de mudança permanente."
+    },
+    {
+      "id": "cam-di-submarca-e-vinculo-explicito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "submarca-e-vinculo-explicito",
+      "mechanism": "submarca-e-vinculo-explicito",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Extensão de marca, submarca, co-branding e licenciamento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Extensão de marca, submarca, co-branding e licenciamento"
+      },
+      "statement": "Uma submarca pode ter nome próprio e manter vínculo explícito com a marca principal.",
+      "correctAnswer": "C",
+      "explanation": "A submarca distingue uma oferta e preserva sua associação com a marca principal."
+    },
+    {
+      "id": "cam-di-amostra-com-aplicacoes-fora-do-modelo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "amostra-com-aplicacoes-fora-do-modelo",
+      "mechanism": "amostra-com-aplicacoes-fora-do-modelo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Auditoria de marca: conformidade, experiência e percepção"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Auditoria de marca: conformidade, experiência e percepção"
+      },
+      "statement": "Uma auditoria pretende estimar conformidade de peças publicadas em todos os canais. Se coleta apenas as peças que passaram por aprovação central, seu resultado representa também as publicações locais que dispensam esse fluxo.",
+      "correctAnswer": "E",
+      "explanation": "A seleção exclui justamente um fluxo de produção com controles diferentes. Para representar todos os canais, é preciso incluir as publicações locais no desenho da auditoria."
+    },
+    {
+      "id": "cam-di-migracao-com-continuidade-de-busca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 4 / marca e branding",
+      "articleId": "art-c42e9b761d30f85a",
+      "conceptId": "migracao-com-continuidade-de-busca",
+      "mechanism": "migracao-com-continuidade-de-busca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c42e9b761d30f85a#Avaliação do portfólio: como distinguir resultado de aparência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md",
+        "section": "Avaliação do portfólio: como distinguir resultado de aparência"
+      },
+      "statement": "Ao renomear um programa que o público ainda busca pelo nome antigo, uma equipe pode preservar redirecionamentos e medir buscas concluídas pelos dois nomes durante a transição.",
+      "correctAnswer": "C",
+      "explanation": "O redirecionamento liga as associações anteriores ao novo nome. A conclusão de buscas mede se a transição preservou o acesso, além de verificar o reconhecimento do novo sinal."
     }
   ]
 }

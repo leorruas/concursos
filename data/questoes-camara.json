@@ -17064,6 +17064,114 @@
       "statement": "Uma orientação interna pode manter um núcleo comum sobre a finalidade da mudança e oferecer instruções diferentes para grupos com responsabilidades distintas.",
       "correctAnswer": "C",
       "explanation": "O núcleo preserva a coerência da mensagem. As instruções segmentadas correspondem às ações esperadas de cada grupo."
+    },
+    {
+      "id": "cam-cs-cliente-interno-com-limite-da-analogia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / endomarketing",
+      "articleId": "art-5a7d1ec093b42f68",
+      "conceptId": "cliente-interno-com-limite-da-analogia",
+      "mechanism": "cliente-interno-com-limite-da-analogia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5a7d1ec093b42f68#Autores e classificações"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md",
+        "section": "Autores e classificações"
+      },
+      "statement": "Tratar trabalhadores como clientes internos, para investigar suas necessidades, transforma a relação de trabalho em uma relação de consumo na classificação de marketing interno.",
+      "correctAnswer": "E",
+      "explanation": "A noção de cliente interno é uma analogia para estudar necessidades e condições de trabalho. Ela não altera a natureza do vínculo."
+    },
+    {
+      "id": "cam-cs-atracao-externa-e-publico-interno",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / endomarketing",
+      "articleId": "art-5a7d1ec093b42f68",
+      "conceptId": "atracao-externa-e-publico-interno",
+      "mechanism": "atracao-externa-e-publico-interno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5a7d1ec093b42f68#Fronteiras entre conceitos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md",
+        "section": "Fronteiras entre conceitos"
+      },
+      "statement": "Uma ação voltada exclusivamente a candidatos externos pode integrar a marca empregadora sem constituir, por esse motivo, uma ação de endomarketing dirigida aos trabalhadores atuais.",
+      "correctAnswer": "C",
+      "explanation": "A marca empregadora pode tratar da atração de candidatos. O endomarketing dirige suas ações ao público interno."
+    },
+    {
+      "id": "cam-cs-consultas-repetidas-por-duvida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / canais",
+      "articleId": "art-73d4a195e86c02bf",
+      "conceptId": "consultas-repetidas-por-duvida",
+      "mechanism": "consultas-repetidas-por-duvida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-73d4a195e86c02bf#Como avaliar canais sem trocar indicadores"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/48 - canais de comunicacao interna intranet mural newsletter e eventos.md",
+        "section": "Como avaliar canais sem trocar indicadores"
+      },
+      "statement": "Se a mesma página da intranet recebe mais consultas depois de uma alteração, esse dado comprova que as instruções ficaram mais claras.",
+      "correctAnswer": "E",
+      "explanation": "As consultas podem crescer por interesse ou por dificuldade de localizar a resposta. A compreensão precisa ser observada diretamente."
+    },
+    {
+      "id": "cam-cs-informar-incerteza-com-data-de-retorno",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 2 / clima",
+      "articleId": "art-9f3c27d018b5e64a",
+      "conceptId": "informar-incerteza-com-data-de-retorno",
+      "mechanism": "informar-incerteza-com-data-de-retorno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3c27d018b5e64a#Primeiro mecanismo: informação compreensível, previsibilidade e transparência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/51 - gestao do clima pela comunicacao alcance limites e avaliacao.md",
+        "section": "Primeiro mecanismo: informação compreensível, previsibilidade e transparência"
+      },
+      "statement": "Quando uma decisão sobre a escala ainda não foi tomada, informar o que está em aberto, quem decide e quando haverá atualização pode melhorar a previsibilidade sem anunciar uma decisão inexistente.",
+      "correctAnswer": "C",
+      "explanation": "A equipe pode esclarecer etapas e prazos do processo mesmo sem dispor da decisão final."
     }
   ]
 }

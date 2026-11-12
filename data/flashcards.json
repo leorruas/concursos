@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-09",
+  "updated": "2026-11-12",
   "exams": [
     {
       "id": "cgu-2026",
@@ -11,6 +11,11 @@
       "id": "dataprev-2026",
       "title": "Dataprev 2026 · Comunicação Social",
       "board": "FGV"
+    },
+    {
+      "id": "camara-2026",
+      "title": "Câmara 2026 · Divulgação Institucional",
+      "board": "Cebraspe"
     }
   ],
   "subjects": [
@@ -99,18 +104,20 @@
     {
       "id": "ppa",
       "term": "Plano Plurianual (PPA)",
-      "definition": "Lei que estabelece, de forma regionalizada, diretrizes, objetivos e metas para despesas de capital, as delas decorrentes e programas de duração continuada.",
-      "example": "Planejar a expansão de uma rede de hospitais para vários exercícios.",
-      "confusion": "PPA orienta o médio prazo; a LOA autoriza despesas de cada exercício.",
+      "definition": "É a lei que planeja o que o governo pretende alcançar em quatro exercícios. Define orientações, objetivos e metas por região para gastos de capital, despesas deles decorrentes e programas continuados; não libera sozinho cada despesa.",
+      "example": "Planejar construção de postos de saúde em regiões com carência e manutenção futura do serviço. Para gastar em cada ano, é necessária autorização no orçamento anual.",
+      "confusion": "Programa de duração continuada do PPA não é automaticamente despesa obrigatória continuada da LRF. O PPA orienta o médio prazo; a LOA autoriza cada gasto anual.",
       "topic": "Planejamento",
       "subjectIds": [
         "orcamento-publico"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P3.2"
+        "P3.2",
+        "P2.4"
       ],
       "note": {
         "articleId": "art-c301f2c741504403",
@@ -122,31 +129,33 @@
         "locator": "Constituição Federal, art. 165, § 1º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "reviewedAt": "2026-11-12",
+      "revision": 3,
       "conceptIds": [
         "ppa-regionalizacao-e-escopo"
       ],
       "contrast": {
-        "prompt": "PPA prevê ampliar uma universidade por quatro exercícios, mas a LOA não tem dotação para a obra. Há autorização de gasto?",
-        "answer": "Não basta constar do PPA. Para executar, é necessária dotação específica na LOA ou por crédito adicional."
+        "prompt": "PPA prevê hospital e manutenção; a LOA não autoriza a obra no ano. O PPA basta para empenhar? E toda manutenção é despesa de capital?",
+        "answer": "Não. O PPA planeja, mas a despesa precisa de dotação na LOA ou crédito adicional. Manutenção decorrente da obra não vira, por isso, despesa de capital."
       }
     },
     {
       "id": "ldo",
       "term": "Lei de Diretrizes Orçamentárias (LDO)",
-      "definition": "Lei que estabelece metas e prioridades e orienta a elaboração da LOA, incluindo diretrizes fiscais nos termos constitucionais e legais.",
-      "example": "Definir prioridades para a proposta orçamentária do próximo ano.",
-      "confusion": "A LDO orienta a LOA; não substitui as dotações da LOA.",
+      "definition": "É a lei anual que liga o plano de vários anos ao orçamento do ano seguinte. Define prioridades, metas fiscais (resultados pretendidos para as contas) e regras para preparar e executar o orçamento. Orienta, mas não libera o pagamento.",
+      "example": "A LDO prioriza melhorar escolas; a LOA autoriza R$ 2 milhões. Se a arrecadação ameaçar metas fiscais, a limitação de empenho depende de condições legais e de atos próprios.",
+      "confusion": "Prioridade da LDO não é dotação da LOA. Prever critérios de limitação de empenho também não significa cancelar automaticamente o dinheiro autorizado no orçamento.",
       "topic": "Planejamento",
       "subjectIds": [
         "orcamento-publico"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P3.2"
+        "P3.2",
+        "P2.4"
       ],
       "note": {
         "articleId": "art-c301f2c741504403",
@@ -158,11 +167,11 @@
         "locator": "Constituição Federal, art. 165, § 2º; LRF, art. 4º"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 2,
+      "reviewedAt": "2026-11-12",
+      "revision": 3,
       "contrast": {
-        "prompt": "A LDO torna prioritária uma obra para o ano seguinte. Isso equivale a autorizar o gasto?",
-        "answer": "Não. A LDO orienta prioridades; a dotação consta da LOA ou de crédito adicional pertinente."
+        "prompt": "A LDO prioriza uma obra e prevê critérios de contingenciamento. Ela pode, sozinha, autorizar o gasto ou cancelar a dotação?",
+        "answer": "Não. A LOA ou crédito adicional autoriza a despesa. Limitar empenho depende das condições e atos do art. 9º da LRF; não é anulação automática da dotação."
       },
       "conceptIds": []
     },

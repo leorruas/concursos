@@ -11672,6 +11672,330 @@
       "statement": "Uma enquete no fim de uma publicação pode identificar dificuldades de quem chegou até ali, mas exclui quem abandonou antes de encontrar o formulário.",
       "correctAnswer": "C",
       "explanation": "A localização do formulário condiciona quem pode responder. A pesquisa precisa alcançar quem abandonou para investigar esse grupo."
+    },
+    {
+      "id": "cam-di-legibilidade-sem-localizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / design gráfico",
+      "articleId": "art-2d49c7a6e81b305f",
+      "conceptId": "legibilidade-sem-localizacao",
+      "mechanism": "legibilidade-sem-localizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-2d49c7a6e81b305f#Legibilidade, leiturabilidade, compreensibilidade e encontrabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/112 - design grafico hierarquia composicao e legibilidade.md",
+        "section": "Legibilidade, leiturabilidade, compreensibilidade e encontrabilidade"
+      },
+      "statement": "Se todos conseguem ler o título de uma seção quando ela é exibida, mas poucos a localizam no documento, o teste indica uma dificuldade de encontrabilidade.",
+      "correctAnswer": "C",
+      "explanation": "O reconhecimento das letras foi observado após a exibição. Localizar a seção é outra tarefa."
+    },
+    {
+      "id": "cam-di-mesmos-numeros-perfis-distintos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção gráfica",
+      "articleId": "art-58a3d91e6c427bf0",
+      "conceptId": "mesmos-numeros-perfis-distintos",
+      "mechanism": "mesmos-numeros-perfis-distintos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-58a3d91e6c427bf0#Cor: modelo, espaço, perfil e separação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md",
+        "section": "Cor: modelo, espaço, perfil e separação"
+      },
+      "statement": "Manter os mesmos valores numéricos de cor em dois arquivos garante a mesma cor impressa mesmo quando eles são interpretados por perfis de saída diferentes.",
+      "correctAnswer": "E",
+      "explanation": "O perfil informa como os números se relacionam às cores reproduzidas nas condições de saída. Valores iguais podem produzir aparências diferentes."
+    },
+    {
+      "id": "cam-di-vinco-e-corte",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção gráfica",
+      "articleId": "art-58a3d91e6c427bf0",
+      "conceptId": "vinco-e-corte",
+      "mechanism": "vinco-e-corte",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-58a3d91e6c427bf0#Acabamentos: distinguir função e mecanismo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/113 - producao grafica pre impressao formatos e materiais.md",
+        "section": "Acabamentos: distinguir função e mecanismo"
+      },
+      "statement": "O vinco pode facilitar uma dobra planejada sem separar a folha em duas peças.",
+      "correctAnswer": "C",
+      "explanation": "O vinco prepara a linha de dobra. A separação é função de uma operação de corte."
+    },
+    {
+      "id": "cam-di-imagem-leve-sem-cortar-conteudo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / produção digital",
+      "articleId": "art-d64c8e1b705a392f",
+      "conceptId": "imagem-leve-sem-cortar-conteudo",
+      "mechanism": "imagem-leve-sem-cortar-conteudo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-d64c8e1b705a392f#Desempenho de carregamento e experiência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/114 - producao digital responsividade acessibilidade e formatos.md",
+        "section": "Desempenho de carregamento e experiência"
+      },
+      "statement": "Para melhorar o carregamento no celular, é possível oferecer uma imagem menor e preservar os dados do gráfico em texto, desde que a versão reduzida continue adequada à sua função visual.",
+      "correctAnswer": "C",
+      "explanation": "A intervenção reduz o custo de transferência enquanto preserva a informação por outra representação."
+    },
+    {
+      "id": "cam-di-sequencia-de-gravacao-e-montagem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / rádio",
+      "articleId": "art-5d8b17c3e946a20f",
+      "conceptId": "sequencia-de-gravacao-e-montagem",
+      "mechanism": "sequencia-de-gravacao-e-montagem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5d8b17c3e946a20f#Pré-produção: pauta, roteiro, decupagem e plano de gravação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md",
+        "section": "Pré-produção: pauta, roteiro, decupagem e plano de gravação"
+      },
+      "statement": "Organizar a gravação por locação obriga a montagem final a apresentar as cenas na mesma ordem em que foram captadas.",
+      "correctAnswer": "E",
+      "explanation": "A ordem de captação responde a condições operacionais. A montagem pode seguir a sequência narrativa prevista."
+    },
+    {
+      "id": "cam-di-niveis-de-audio-e-inteligibilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / rádio",
+      "articleId": "art-5d8b17c3e946a20f",
+      "conceptId": "niveis-de-audio-e-inteligibilidade",
+      "mechanism": "niveis-de-audio-e-inteligibilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5d8b17c3e946a20f#Edição, pós-produção e entrega: escolhas distintas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/115 - producao para radio televisao e redes sociais.md",
+        "section": "Edição, pós-produção e entrega: escolhas distintas"
+      },
+      "statement": "Quando a música encobre palavras do locutor, elevar o volume da mixagem inteira melhora necessariamente a inteligibilidade da fala.",
+      "correctAnswer": "E",
+      "explanation": "Elevar a mixagem mantém aproximadamente a relação entre as fontes. Ajustar o nível relativo da música e da locução aborda o mascaramento."
+    },
+    {
+      "id": "cam-di-mancha-e-formato-da-pagina",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / projeto gráfico",
+      "articleId": "art-8c3f1b6d29e704a5",
+      "conceptId": "mancha-e-formato-da-pagina",
+      "mechanism": "mancha-e-formato-da-pagina",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8c3f1b6d29e704a5#Estrutura do sistema: formato, mancha, grid e margens"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/116 - projeto grafico conceito sistema e execucao.md",
+        "section": "Estrutura do sistema: formato, mancha, grid e margens"
+      },
+      "statement": "A mancha gráfica é sempre idêntica ao formato total da página, incluindo as margens externas.",
+      "correctAnswer": "E",
+      "explanation": "A mancha delimita a área ocupada pelo conteúdo. O formato descreve as dimensões totais da página."
+    },
+    {
+      "id": "cam-di-plano-alternativo-sem-dependencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / audiovisual",
+      "articleId": "art-e38b75d219c064af",
+      "conceptId": "plano-alternativo-sem-dependencia",
+      "mechanism": "plano-alternativo-sem-dependencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e38b75d219c064af#Dependências, caminho crítico e contingências"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/117 - projeto audiovisual planejamento execucao e publicacao.md",
+        "section": "Dependências, caminho crítico e contingências"
+      },
+      "statement": "Uma gravação externa depende do clima e alimenta a montagem final. Antecipar a captação de imagens internas independentes pode reduzir a pressão sobre a agenda, mas não antecipa automaticamente o início da montagem final enquanto a gravação externa continuar sendo predecessora obrigatória.",
+      "correctAnswer": "C",
+      "explanation": "O ganho local só muda a data da atividade sucessora se alterar a conclusão de suas predecessoras determinantes."
+    },
+    {
+      "id": "cam-di-recorrencia-editorial-sem-simbolo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
+      "articleId": "art-6b3e9d125a704fc8",
+      "conceptId": "recorrencia-editorial-sem-simbolo",
+      "mechanism": "recorrencia-editorial-sem-simbolo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6b3e9d125a704fc8#Identidade editorial: reconhecimento do produto além do logotipo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md",
+        "section": "Identidade editorial: reconhecimento do produto além do logotipo"
+      },
+      "statement": "Uma publicação pode continuar reconhecível por suas seções, pelo estilo de apresentação e pelo tratamento das fontes quando o logotipo fica temporariamente ausente.",
+      "correctAnswer": "C",
+      "explanation": "A identidade editorial se manifesta em padrões de conteúdo, tratamento e forma, além da assinatura visual."
+    },
+    {
+      "id": "cam-di-revisao-na-versao-final",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
+      "articleId": "art-6b3e9d125a704fc8",
+      "conceptId": "revisao-na-versao-final",
+      "mechanism": "revisao-na-versao-final",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6b3e9d125a704fc8#Ciclo editorial: edição, revisão e controle de qualidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/118 - producao editorial objetivos publicos linha e identidade.md",
+        "section": "Ciclo editorial: edição, revisão e controle de qualidade"
+      },
+      "statement": "Se um texto foi revisado antes da diagramação, a conferência do arquivo final é dispensável mesmo após alterações nas quebras de página e nas chamadas de notas.",
+      "correctAnswer": "E",
+      "explanation": "A montagem pode introduzir problemas de referência, legibilidade e paginação. O arquivo final precisa ser verificado."
+    },
+    {
+      "id": "cam-di-publicacao-indexada-e-recuperavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
+      "articleId": "art-7e42b19c5a603fd8",
+      "conceptId": "publicacao-indexada-e-recuperavel",
+      "mechanism": "publicacao-indexada-e-recuperavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7e42b19c5a603fd8#Acesso, descoberta e encontrabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md",
+        "section": "Acesso, descoberta e encontrabilidade"
+      },
+      "statement": "Um arquivo pode estar acessível por endereço direto e ainda ser difícil de encontrar para quem inicia a busca no catálogo da instituição.",
+      "correctAnswer": "C",
+      "explanation": "Disponibilidade por endereço e recuperação em busca são condições distintas. A descoberta também depende de descrição, indexação e navegação."
+    },
+    {
+      "id": "cam-di-publicacao-com-exposicao-e-efeito-divergentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 5 / publicações",
+      "articleId": "art-7e42b19c5a603fd8",
+      "conceptId": "publicacao-com-exposicao-e-efeito-divergentes",
+      "mechanism": "publicacao-com-exposicao-e-efeito-divergentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7e42b19c5a603fd8#AMEC aplicado à publicação: evitar troca de níveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md",
+        "section": "AMEC aplicado à publicação: evitar troca de níveis"
+      },
+      "statement": "Uma publicação alcança o dobro de leitores e uma pesquisa comparável registra queda no percentual que compreende a mensagem. O crescimento do alcance basta para concluir que o objetivo de elevar a proporção de leitores que compreendem a mensagem foi cumprido.",
+      "correctAnswer": "E",
+      "explanation": "O alcance mede distribuição. O objetivo usa uma proporção de compreensão, que caiu no cenário descrito."
     }
   ]
 }

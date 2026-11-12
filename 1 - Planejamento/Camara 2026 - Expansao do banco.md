@@ -10,6 +10,7 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 002 | Divulgação Institucional | Edital 14.2.4, item 2: marketing | 40 | 3/17/14/6 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 003 | Divulgação Institucional | Edital 14.2.4, item 3: pesquisa aplicada | 40 | 6/13/16/5 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
 | 004 | Divulgação Institucional | Edital 14.2.4, item 4: marca e branding | 40 | 4/13/20/3 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
+| 005 | Divulgação Institucional | Edital 14.2.4, item 5: design e produção | 40 | 5/16/15/4 | 0 | 0 | 0 | Integridade, triagem e sessões v3 |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
@@ -26,6 +27,6 @@ Quarenta questões geradas para o item 3 de Divulgação Institucional, com refe
 
 Quarenta questões geradas sobre marca e branding, item 4 de Divulgação Institucional, com referências aos artigos 109 a 111. A triagem lexical a 0,22 indicou dois pares internos. O cotejo confirmou mecanismos distintos: identificação visual versus sonora e notoriedade versus classificação de associações no modelo de Keller. O próximo lote cobre design e produção, item 5 do edital.
 
-## Lote 005 em elaboração
+## Lote 005 em revisão
 
-Vinte e oito questões geradas para o item 5, vinculadas aos artigos 112 a 119. Faltam 12 itens para completar o lote. Priorizar casos que integrem projeto, execução, acessibilidade e avaliação da publicação.
+Quarenta questões geradas para o item 5, vinculadas aos artigos 112 a 119. Conferir gabaritos e dificuldade e comparar mecanismos com os exercícios dos artigos, especialmente os casos de acessibilidade, versões e métricas de publicação.

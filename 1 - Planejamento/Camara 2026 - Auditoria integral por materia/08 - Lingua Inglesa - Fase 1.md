@@ -605,3 +605,15 @@ Autorização de reparos exclusiva da matéria Inglês. Este checkpoint registra
 **Conferência remota:** os quatro arquivos envolvidos conservam `articleId`, `articleAliases` e blocos fenced em pares. Os novos nove itens estão explicitamente rotulados como inéditos. Os commits foram relidos pelo conector GitHub. Esta checagem não é homologação de todas as questões anteriores e não equivale à inspeção visual dos diagramas.
 
 **CI:** foram observados runs do Pages pendentes/em progresso e cancelamentos de runs precedentes durante gravações simultâneas. Não declarar publicação do HEAD atual sem workflow concluído com sucesso. Seguem pendentes a inspeção do site publicado, as verificações de construção referentes ao estado final e a revisão transversal dos 18 artigos, sobretudo exemplos de leitura contemporânea e referências antigas.
+
+
+## 25. Continuidade da implementação: conectores e equivalência semântica
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| 10 | Exercícios de conectores excessivamente restritos a frases isoladas e ausência de treino de causalidade em texto completo | Texto ficcional de rádio comunitária, três C/E comentados e caso progressivo mudando `although/because` e `however/therefore` | `8de8edbcb24655666c955a2b2f874fa337a51533` | Arquivo relido após commit; três itens e seção presentes | corrigido |
+| 17 | Dificuldade em distinguir correção gramatical, equivalência de sentido e identidade sintática | Caso com texto-base, três reescritas graduais e três C/E comentados sobre voz, omissão e modalidade | `eba2390f36d604afd77ed84f4dae151eac724e73` | Arquivo relido após commit; três itens e seção presentes | corrigido |
+
+**Integração:** os dois artigos já constavam do hub `ingles.md`, com identificadores estáveis. Nenhum artigo novo foi criado, pois os temas possuíam sede canônica. O treino anterior e as referências foram preservados.
+
+**Limites:** conferência textual e SHA, não teste de execução local. O run Pages do commit `eba2390` estava pendente na consulta, com múltiplos runs anteriores cancelados em atividade concorrente; conferir a conclusão do workflow do HEAD que inclua estas alterações. Persistem verificação final de referências e revisão transversal dos gabaritos antigos, sem declaração de disciplina integralmente validada.

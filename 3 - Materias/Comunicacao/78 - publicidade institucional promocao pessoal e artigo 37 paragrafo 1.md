@@ -138,6 +138,20 @@ Este roteiro é **heurística didática**, e não fluxo de aprovação formal da
 
 **Gabarito: Errado.** A restrição a promoção pessoal do art. 37, § 1º, não esgota os critérios aplicáveis. O art. 12 do Ato da Mesa nº 218/2025 proíbe favorecimento de posições ou opiniões políticas pela comunicação institucional da Câmara.
 
+## Decisão editorial: informação factual, personalismo e promoção de posição (11/11/2026)
+
+**Caso hipotético:** a Câmara publica peça sobre a aprovação de um parecer. A primeira versão informa os nomes do relator, da comissão e dos parlamentares que participaram do debate, com link para o processo: há **identificação factual**, cuja licitude não se resolve pelo simples aparecimento de nome. A segunda apresenta a imagem do relator acompanhada de elogio à sua pessoa e de convite para apoiá-lo: o enquadramento pode caracterizar **promoção pessoal**. A terceira omite nomes, mas conclama apoio à posição de uma bancada: a ausência de nome não afasta as regras de **imparcialidade e vedação de favorecimento político** da comunicação institucional.
+
+**Fundamento constitucional e institucional:** o [art. 37, § 1º, da Constituição](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm) exige caráter **educativo, informativo ou de orientação social** na publicidade de órgãos públicos, vedando nomes, símbolos ou imagens que **caracterizem promoção pessoal**. O conectivo **“ou”** distingue finalidades, sem exigir que toda peça reúna as três. O [Ato da Mesa nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html), arts. 5º, 7º e 12, acrescenta critérios próprios para canais institucionais da Câmara, incluindo pluralismo, precisão e proibição de favorecimento de posições políticas. A análise exige examinar **objeto, canal, finalidade, texto, imagem e contexto**, sem presumir uma decisão judicial não citada.
+
+**Item 4, inédito.** A identificação factual de parlamentares numa reportagem sobre tramitação não caracteriza necessariamente promoção pessoal, sendo preciso verificar o sentido e a finalidade da peça institucional.
+
+**Gabarito: Certo.** O dispositivo constitucional veda a caracterização de promoção pessoal, e não toda referência factual a autoridades.
+
+**Item 5, inédito.** A inexistência de nomes e fotografias de parlamentares numa campanha é condição suficiente para considerar regular a peça institucional que pede apoio à posição de um partido.
+
+**Gabarito: Errado.** A regra constitucional não esgota o regime próprio do canal: o art. 12 do Ato da Mesa nº 218/2025 veda favorecimento de posições políticas na comunicação institucional. Ambos são exercícios autorais e não questões históricas.
+
 ## Relações e heurísticas
 
 [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria|CAM-CO-025]] diferencia comunicação pública, governamental, institucional e político-partidária; [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|CAM-CO-026]] analisa a política própria da Câmara; [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|CAM-CO-027]] aborda os critérios editoriais do Manual; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|CAM-CO-024]] diferencia divulgação de dever de acesso à informação.

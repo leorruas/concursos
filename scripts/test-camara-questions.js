@@ -78,7 +78,7 @@ for (const item of blockedTi.values()) {
     'CAM-TI: mudar indevidamente a origem para real não pode liberar um enunciado bloqueado');
   assert.throws(() => validate({...session, questions:[q]}), /NÃO HOMOLOGADA/);
   // A guarda deve resistir a diferenças que a normalização textual já prevê.
-  const withWhitespaceAndCase = '  ' + item.statement.toUpperCase().replace(/\\s+/g, '   ') + '  ';
+  const withWhitespaceAndCase = '  ' + item.statement.toUpperCase().replace(/\s+/g, '   ') + '  ';
   assert.throws(() => assertCamaraTiQuestionAllowed(root, session,
     {...q, statement:withWhitespaceAndCase}), /NÃO HOMOLOGADA/,
     'CAM-TI: caixa e espaços não podem liberar uma questão suspensa');

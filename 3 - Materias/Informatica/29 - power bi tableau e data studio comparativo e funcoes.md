@@ -104,8 +104,8 @@ DAX é a linguagem funcional de fórmulas do Power BI (e do Analysis Services). 
 
 | Dimensão | Coluna Calculada (*Calculated Column*) | Medida (*Measure*) |
 | :--- | :--- | :--- |
-| **Momento do Cálculo** | Calculada durante a **carga ou atualização dos dados** (*Refresh*). | Calculada **dinamicamente em tempo de execução**, sob demanda do usuário. |
-| **Armazenamento** | Ocupa **espaço físico na memória RAM** e no disco para cada linha da tabela. | **Não ocupa espaço** em memória persistente (apenas CPU transitória no momento da consulta). |
+| **Momento do Cálculo** | No **modo Import**, calculada e materializada durante processamento/atualização do modelo; em DirectQuery e outros modos, a execução e as restrições dependem do tipo de conexão. | Avaliada conforme a consulta e o contexto de filtro, sem produzir uma coluna de resultados materializados linha a linha. |
+| **Armazenamento** | No **Import**, os resultados das colunas calculadas são armazenados no modelo e consomem espaço; não generalizar essa propriedade a todos os modos de armazenamento. | A definição da medida é armazenada como metadado, mas seus resultados não constituem uma coluna materializada no modelo Import. |
 | **Contexto Nativo** | Opera no **Contexto de Linha (*Row Context*)**: avalia linha a linha iterativamente. | Opera no **Contexto de Filtro (*Filter Context*)**: avalia o conjunto de dados filtrado pelos visuais. |
 | **Função Recomendada** | Criar novas categorias ou segmentações estáticas para eixos de gráficos. | **Cálculo de métricas quantitativas, totais, médias, razões e KPIs**. |
 | **Exemplo Prático** | `FaixaEtaria = IF(dDeputado[Idade] >= 60, "Idoso", "Não Idoso")` | `TotalReembolsado = SUM(fDespesas[Valor])` |
@@ -150,7 +150,7 @@ Antigo *Google Data Studio*, o **Looker Studio** é a ferramenta nativa de nuvem
 | :--- | :--- | :--- | :--- |
 | **Ferramenta de Criação** | Power BI Desktop (Windows) + Serviço em Nuvem | Tableau Desktop + Prep Builder | 100% Web (Navegador) |
 | **Linguagem de Modelagem** | DAX (Cálculos) + M (ETL) | Cálculos Tableau + Expressões LOD | Funções de campo calculado básicas |
-| **Motor de Armazenamento** | VertiPaq (in-memory colunar de alta compressão) | Hiper (motor de extração rápida em memória) | Consulta direta ou cache temporário |
+| **Motor de Armazenamento** | VertiPaq em modelos **Import**; alternativas incluem DirectQuery e outros modos | Hyper em **extrações**; conexões diretas usam a fonte de dados | Consulta à fonte/conector e possível cache conforme configuração |
 | **Melhor Caso de Uso** | Ecossistemas corporativos integrados, governança e modelagem pesada | Exploração visual profunda, gráficos científicos e design flexível | Relatórios executivos rápidos conectados ao BigQuery e nuvem |
 | **Custo Inicial / Licenciamento** | Desktop gratuito; licença Pro/Premium para compartilhamento | Licenciamento por criador (*Creator/Viewer*) mais elevado | Gratuito na versão básica; versão Pro corporativa |
 
@@ -165,11 +165,11 @@ Antigo *Google Data Studio*, o **Looker Studio** é a ferramenta nativa de nuvem
 
 ### Caso 2: Exploração visual de padrões de votação partidária
 - *Cenário:* Uma equipe de cientistas políticos da Consultoria Legislativa deseja cruzar padrões de votação de 513 deputados em 2.000 votações nominais para identificar agrupamentos ideológicos (*clustering*).
-- *Implementação:* **Tableau**. A flexibilidade do motor VizQL e expressões `FIXED [Deputado] : AVG([AlineamentoGoverno])` permite gerar matrizes de calor (*heatmaps*) e gráficos de dispersão multivariados sem necessidade de codificar pipelines relacionais rígidos.
+- *Implementação:* **Tableau**. A flexibilidade do motor VizQL e expressões `{ FIXED [Deputado] : AVG([AlineamentoGoverno]) }` permite gerar matrizes de calor (*heatmaps*) e gráficos de dispersão multivariados sem necessidade de codificar pipelines relacionais rígidos.
 
 ### Caso 3: Relatório de métricas de engajamento do portal da Câmara
 - *Cenário:* A Secretaria de Comunicação precisa disponibilizar para a imprensa e diretores um relatório público com acessos diários, matérias mais lidas e retenção de vídeo na TV Câmara.
-- *Implementação:* **Looker Studio**. Como os dados de visitação residem no Google Analytics 4 e BigQuery, o Looker Studio conecta-se nativamente e publica um link seguro com atualização diária automática e custo operacional zero de infraestrutura.
+- *Implementação hipotética:* **Looker Studio**. Se a equipe tiver fontes autorizadas no Google Analytics 4 e BigQuery, poderá configurar conectores, credenciais e atualização conforme as políticas aplicáveis. O uso de BigQuery, conectores e edições corporativas **pode gerar custos**, e a atualização/visibilidade dos relatórios depende das permissões e da configuração efetiva.
 
 ---
 

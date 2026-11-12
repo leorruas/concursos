@@ -106,7 +106,7 @@ A universalidade deve ser lida junto às regras de receita **orçamentária e ex
 
 ### Anualidade e vigência de créditos
 
-O **exercício financeiro** coincide com o **ano civil** no Brasil (Lei nº 4.320/1964, art. 34). A LOA autoriza a programação de um exercício. O PPA mantém horizonte de quatro anos, e ações de políticas públicas podem continuar por vários exercícios com dotações anuais sucessivas.
+O **exercício financeiro** coincide com o **ano civil** no Brasil (Lei nº 4.320/1964, art. 34). A LOA autoriza a programação de um exercício. O **Plano Plurianual (PPA)** mantém horizonte de quatro anos, e ações de políticas públicas podem continuar por vários exercícios com dotações anuais sucessivas.
 
 Uma exceção relevante: a Constituição, art. 167, § 2º, permite reabrir no exercício seguinte saldos de **créditos especiais e extraordinários**, se autorizados nos **últimos quatro meses** do exercício anterior. Isso não converte a LOA em autorização plurianual. A regra é detalhada em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|créditos adicionais]].
 
@@ -132,7 +132,7 @@ O art. 5º da mesma lei impede dotações globais para cobrir indistintamente de
 
 **A dotação global não dispensa toda informação:** o **art. 22, IV, da Lei nº 4.320/1964** exige que a **proposta orçamentária** especifique os programas especiais custeados por dotações globais, apresentando **metas**, **estimativas dos custos das obras e serviços** e **justificativas econômica, financeira, social e administrativa**. O contraste é este: o art. 5º impõe a **regra geral de discriminação**; o art. 20, parágrafo único, abre uma **exceção para programas especiais**; o art. 22, IV, mantém **exigências de informações na proposta**. [Texto da Lei nº 4.320/1964](https://legis.senado.leg.br/norma/546169/publicacao/34620275).
 
-**Três frases para testar a fronteira:** “toda dotação global é vedada” é falsa diante da exceção legal. “todo programa pode receber dotação global” também é falsa, pois o art. 20 exige condição específica. “a dotação global exclui a indicação de metas e custos na proposta” é falsa diante do art. 22, IV. O **programa especial de trabalho** dessa regra não deve ser confundido automaticamente com a **ação do tipo projeto** da classificação programática ou com o **GND 4, Investimentos**.
+**Três frases para testar a fronteira:** “toda dotação global é vedada” é falsa diante da exceção legal. “todo programa pode receber dotação global” também é falsa, pois o art. 20 exige condição específica. “a dotação global exclui a indicação de metas e custos na proposta” é falsa diante do art. 22, IV. O **programa especial de trabalho** dessa regra não deve ser confundido automaticamente com a **ação do tipo projeto** da classificação programática ou com o **Grupo de Natureza da Despesa (GND) 4, Investimentos**.
 
 Também é importante distinguir classificação da LOA de detalhamento utilizado na execução. Ver [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|natureza, função e elemento de despesa]].
 
@@ -188,7 +188,13 @@ O artigo 167 reúne hipóteses distintas; o número do inciso pode ser decisivo 
 
 ### Regra de ouro: limite e ressalva
 
-A **regra de ouro** (art. 167, III) compara o montante de **operações de crédito** com o de **despesas de capital**. A Constituição admite ressalva mediante créditos **suplementares ou especiais**, com **finalidade precisa**, aprovados pelo Poder Legislativo por **maioria absoluta**. Maioria absoluta é condição diferente de maioria simples.
+A **regra de ouro** (Constituição Federal, art. 167, III) limita, em regra, a realização de **operações de crédito** que excedam o montante das **despesas de capital**. Operação de crédito é uma forma de obtenção de recursos com obrigação de pagamento futuro, como um empréstimo. Despesas de capital são uma categoria econômica que abrange, entre outros itens, investimentos, inversões financeiras e amortização da dívida. A comparação trata dessas categorias e do montante considerado na regra constitucional; **não compara simplesmente todos os empréstimos com todos os gastos públicos**.
+
+**Situação didática simplificada.** Suponha que o montante considerado de operações de crédito seja R$ 90 milhões e o de despesas de capital seja R$ 110 milhões. Na comparação básica, os créditos são menores que as despesas de capital. Se, mantendo as mesmas condições, as operações de crédito passarem a R$ 130 milhões, haverá R$ 20 milhões acima das despesas de capital: é preciso verificar a vedação e a eventual ressalva constitucional. Esses números ilustram o critério; a apuração oficial depende das classificações e regras vigentes, e valores hipotéticos não substituem os demonstrativos fiscais.
+
+**Qual é a exceção?** O art. 167, III, ressalva operações autorizadas mediante **créditos suplementares ou especiais**, com **finalidade precisa**, aprovados pelo Poder Legislativo por **maioria absoluta**. As condições são cumulativas. Crédito suplementar reforça dotação existente; crédito especial atende despesa sem dotação específica. **Maioria absoluta** significa mais da metade do total dos membros da Casa competente, não apenas dos presentes. A exceção do art. 167, III, difere daquela do art. 165, § 8º: esta última autoriza a LOA a conter previsão de abertura de créditos suplementares, sem criar uma dispensa geral da regra de ouro.
+
+**Teste de fronteira:** um enunciado diz que qualquer empréstimo superior às despesas de capital é permitido se houver maioria simples de votos. **Errado:** faltam a autorização pela modalidade prevista, a finalidade precisa e a maioria absoluta. Outro afirma que um crédito especial nunca pode aparecer na exceção à regra de ouro porque o art. 165, § 8º, só menciona créditos suplementares. **Errado:** os dispositivos têm objetos diferentes; o art. 167, III, menciona expressamente créditos suplementares **ou especiais**. [Fonte normativa: Constituição Federal, arts. 165, § 8º, e 167, III](https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/constituicao-federal/index.html/CF1988.html/).
 
 Essa regra não é equivalente a “orçamento equilibrado”, a resultado primário zero ou ao teto de despesas. O fato de uma despesa ser de capital também não dispensa a necessidade de autorização e controle.
 

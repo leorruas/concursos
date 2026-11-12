@@ -20008,7 +20008,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a72f906bde4318c5#Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes"
       ],
@@ -20018,7 +20018,8 @@
       },
       "statement": "Uma audiência pode ser pauta tanto de um vídeo que ensina como participar quanto de uma nota que resume as propostas discutidas.",
       "correctAnswer": "C",
-      "explanation": "A pauta é o assunto selecionado. A abordagem recorta o que será apresentado e para qual finalidade."
+      "explanation": "A pauta é o assunto selecionado. A abordagem recorta o que será apresentado e para qual finalidade.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes em 3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-comentarios-como-sinal-de-pauta",
@@ -20035,7 +20036,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a72f906bde4318c5#Escuta, comentários e revisão de pauta"
       ],
@@ -20045,7 +20046,8 @@
       },
       "statement": "Dez comentários sobre a mesma dúvida demonstram que ela é a mais frequente entre todos os usuários do serviço.",
       "correctAnswer": "E",
-      "explanation": "Os comentários são sinais úteis para investigação. A participação no canal não permite inferir frequência para todo o público."
+      "explanation": "Os comentários são sinais úteis para investigação. A participação no canal não permite inferir frequência para todo o público.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Escuta, comentários e revisão de pauta em 3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-pauta-com-data-a-confirmar",
@@ -20062,7 +20064,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a72f906bde4318c5#Planejamento temporal: horizonte, calendário e revisão"
       ],
@@ -20072,7 +20074,8 @@
       },
       "statement": "É possível reservar espaço no calendário para uma audiência ainda sem data confirmada, desde que a publicação fique condicionada à confirmação.",
       "correctAnswer": "C",
-      "explanation": "O planejamento pode reservar capacidade sem transformar uma previsão em informação pública confirmada."
+      "explanation": "O planejamento pode reservar capacidade sem transformar uma previsão em informação pública confirmada.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Planejamento temporal: horizonte, calendário e revisão em 3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-peca-agendada-com-fato-superado",
@@ -20089,7 +20092,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8f0c2e19a5d74b6c#Estados do conteúdo e critérios de passagem"
       ],
@@ -20099,7 +20102,8 @@
       },
       "statement": "Uma postagem agendada sobre um evento pode seguir para publicação após seu cancelamento, pois o estado agendado certifica a validade da informação até o horário previsto.",
       "correctAnswer": "E",
-      "explanation": "Agendar define o momento de publicar. O cancelamento altera uma premissa e exige interromper ou atualizar a publicação."
+      "explanation": "Agendar define o momento de publicar. O cancelamento altera uma premissa e exige interromper ou atualizar a publicação.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Estados do conteúdo e critérios de passagem em 3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-governanca-sem-etapa-identica",
@@ -20116,7 +20120,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8f0c2e19a5d74b6c#Halvorson: workflow e governance como componentes diferentes"
       ],
@@ -20126,7 +20130,8 @@
       },
       "statement": "Uma instituição pode manter o mesmo responsável pelo aceite e adotar fluxos diferentes para posts de rotina e alertas urgentes.",
       "correctAnswer": "C",
-      "explanation": "A governança define autoridade e regras. O fluxo organiza as etapas, que podem variar segundo o tipo de publicação."
+      "explanation": "A governança define autoridade e regras. O fluxo organiza as etapas, que podem variar segundo o tipo de publicação.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Halvorson: workflow e governance como componentes diferentes em 3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-mesma-proporcao-com-resolucoes-distintas",
@@ -20143,7 +20148,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-bb9305cf871d42ae#Proporção, resolução, orientação e enquadramento"
       ],
@@ -20153,7 +20158,8 @@
       },
       "statement": "Dois cards de 800 × 1.000 e 1.200 × 1.500 pixels têm a mesma proporção, embora tenham resoluções diferentes.",
       "correctAnswer": "C",
-      "explanation": "As duas razões largura por altura se reduzem a 4:5. As quantidades de pixels são diferentes."
+      "explanation": "As duas razões largura por altura se reduzem a 4:5. As quantidades de pixels são diferentes.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Proporção, resolução, orientação e enquadramento em 3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-altura-comparada-em-largura-fixa",
@@ -20165,12 +20171,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 5 / proporções",
       "articleId": "art-bb9305cf871d42ae",
-      "conceptId": "altura-comparada-em-largura-fixa",
-      "mechanism": "altura-comparada-em-largura-fixa",
+      "conceptId": "proporcao-de-area-apos-escala",
+      "mechanism": "proporcao-de-area-apos-escala",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-bb9305cf871d42ae#Proporção, resolução, orientação e enquadramento"
       ],
@@ -20178,9 +20184,10 @@
         "path": "3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md",
         "section": "Proporção, resolução, orientação e enquadramento"
       },
-      "statement": "Para uma largura de 900 pixels, uma peça 3:4 tem a mesma altura que uma 9:16 porque ambas são verticais.",
+      "statement": "Exportar uma arte de 600 × 750 pixels para 1.200 × 1.500 pixels duplica a quantidade total de pixels sem alterar a proporção.",
       "correctAnswer": "E",
-      "explanation": "As alturas são 1.200 e 1.600 pixels, respectivamente. A orientação vertical não implica razões iguais."
+      "explanation": "Cada dimensão dobra, então a quantidade total de pixels quadruplica. A razão entre largura e altura permanece em 4:5.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Proporção, resolução, orientação e enquadramento em 3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-condicao-essencial-no-card-isolado",
@@ -20197,7 +20204,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5c4d7e9b1a8260f3#Carrossel: sequência ordenada, progressão e controle de sentido"
       ],
@@ -20207,7 +20214,8 @@
       },
       "statement": "Se um card com instrução de inscrição pode circular isoladamente, incluir nele a restrição de público reduz o risco de a orientação ser aplicada por pessoas inelegíveis.",
       "correctAnswer": "C",
-      "explanation": "Uma condição essencial em outro card pode se perder no compartilhamento isolado. Aproximá-la da instrução preserva seu alcance."
+      "explanation": "Uma condição essencial em outro card pode se perder no compartilhamento isolado. Aproximá-la da instrução preserva seu alcance.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Carrossel: sequência ordenada, progressão e controle de sentido em 3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-live-com-resposta-posterior",
@@ -20224,7 +20232,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5c4d7e9b1a8260f3#Live e transmissão ao vivo: simultaneidade, moderação e contingência"
       ],
@@ -20234,7 +20242,8 @@
       },
       "statement": "Uma equipe pode reservar tempo de moderação durante uma transmissão e prever retorno posterior para perguntas que exigem verificação.",
       "correctAnswer": "C",
-      "explanation": "A simultaneidade permite interação. A verificação de algumas respostas pode requerer um fluxo posterior."
+      "explanation": "A simultaneidade permite interação. A verificação de algumas respostas pode requerer um fluxo posterior.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Live e transmissão ao vivo: simultaneidade, moderação e contingência em 3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-chamada-e-destino-incompativel",
@@ -20251,7 +20260,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-37c8f1e42a9065bd#Chamada para ação: comportamento, destino e condição"
       ],
@@ -20261,7 +20270,8 @@
       },
       "statement": "Uma peça que orienta “envie sua proposta” e leva a uma página que apenas descreve o programa permite executar a ação anunciada diretamente no destino.",
       "correctAnswer": "E",
-      "explanation": "O destino precisa oferecer a tarefa proposta ou indicar claramente o próximo passo. Uma descrição isolada não recebe propostas."
+      "explanation": "O destino precisa oferecer a tarefa proposta ou indicar claramente o próximo passo. Uma descrição isolada não recebe propostas.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Chamada para ação: comportamento, destino e condição em 3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-legenda-textual-sem-cobrir-falas",
@@ -20278,7 +20288,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-37c8f1e42a9065bd#Três sentidos que não se confundem: legenda, legenda audiovisual e texto alternativo"
       ],
@@ -20288,7 +20298,8 @@
       },
       "statement": "Uma descrição breve abaixo de um vídeo que resume seu tema garante acesso às falas, ainda que não apresente seu conteúdo.",
       "correctAnswer": "E",
-      "explanation": "A descrição contextualiza o vídeo. A legenda audiovisual torna acessível o conteúdo falado e outros sons relevantes."
+      "explanation": "A descrição contextualiza o vídeo. A legenda audiovisual torna acessível o conteúdo falado e outros sons relevantes.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Três sentidos que não se confundem: legenda, legenda audiovisual e texto alternativo em 3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-cobertura-editorial-com-repeticao",
@@ -20305,7 +20316,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a72f906bde4318c5#Avaliação editorial: equilíbrio, pertinência, cobertura e resultados"
       ],
@@ -20315,7 +20326,8 @@
       },
       "statement": "Uma rede oficial publicou vinte vezes sobre o mesmo serviço. O volume, por si só, demonstra que o calendário cobriu todos os temas prioritários.",
       "correctAnswer": "E",
-      "explanation": "O volume mede publicações. A cobertura exige comparar os temas efetivamente abordados com as prioridades definidas."
+      "explanation": "O volume mede publicações. A cobertura exige comparar os temas efetivamente abordados com as prioridades definidas.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Avaliação editorial: equilíbrio, pertinência, cobertura e resultados em 3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-capacidade-e-atualizacao-prioritaria",
@@ -20332,7 +20344,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a72f906bde4318c5#Frequência, consistência, oportunidade e capacidade"
       ],
@@ -20342,7 +20354,8 @@
       },
       "statement": "Adiar uma postagem perene para publicar uma alteração de prazo que entra em vigor no mesmo dia é compatível com um calendário que prevê revisão de prioridades.",
       "correctAnswer": "C",
-      "explanation": "O calendário coordena capacidade e oportunidade. Uma informação com efeito imediato pode exigir prioridade sobre uma pauta flexível."
+      "explanation": "O calendário coordena capacidade e oportunidade. Uma informação com efeito imediato pode exigir prioridade sobre uma pauta flexível.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Frequência, consistência, oportunidade e capacidade em 3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-parecer-tecnico-e-autorizacao-editorial",
@@ -20359,7 +20372,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8f0c2e19a5d74b6c#Papéis: produção, validação, aprovação e publicação"
       ],
@@ -20369,7 +20382,8 @@
       },
       "statement": "Confirmar a exatidão dos dados de um post transfere automaticamente ao especialista a autoridade para decidir se e quando o post será publicado.",
       "correctAnswer": "E",
-      "explanation": "Validar fatos e aprovar a publicação são funções distintas. A atribuição de autoridade depende do fluxo adotado."
+      "explanation": "Validar fatos e aprovar a publicação são funções distintas. A atribuição de autoridade depende do fluxo adotado.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Papéis: produção, validação, aprovação e publicação em 3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-alcance-e-publico-da-tarefa",
@@ -20386,7 +20400,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-bb9305cf871d42ae#Público, comunidade, alcance e comportamento"
       ],
@@ -20396,7 +20410,8 @@
       },
       "statement": "Um canal de grande alcance pode ser secundário numa orientação destinada a um grupo que consulta habitualmente outro canal para executar a tarefa.",
       "correctAnswer": "C",
-      "explanation": "O alcance agregado não mede adequação ao público específico. A escolha considera hábitos de acesso e a tarefa pretendida."
+      "explanation": "O alcance agregado não mede adequação ao público específico. A escolha considera hábitos de acesso e a tarefa pretendida.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Público, comunidade, alcance e comportamento em 3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-adaptacao-de-registro-sem-mudar-condicao",
@@ -20413,7 +20428,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-bb9305cf871d42ae#Linguagens: o que muda quando muda o ambiente"
       ],
@@ -20423,7 +20438,8 @@
       },
       "statement": "Uma equipe pode trocar termos técnicos por expressões mais familiares em uma rede oficial e preservar a condição que limita quem pode solicitar o serviço.",
       "correctAnswer": "C",
-      "explanation": "Adaptar a linguagem melhora a compreensão. Preservar a condição mantém a precisão da orientação."
+      "explanation": "Adaptar a linguagem melhora a compreensão. Preservar a condição mantém a precisão da orientação.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Linguagens: o que muda quando muda o ambiente em 3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-story-e-consulta-depois-da-janela",
@@ -20440,7 +20456,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5c4d7e9b1a8260f3#Stories: disposição em sequência e janela de visibilidade"
       ],
@@ -20450,7 +20466,8 @@
       },
       "statement": "Uma sequência disponível por tempo limitado assegura consulta posterior às instruções, mesmo sem cópia persistente em outro local.",
       "correctAnswer": "E",
-      "explanation": "A disponibilidade depende da janela de visibilidade. Orientações que precisam ser recuperadas depois devem ter uma referência persistente."
+      "explanation": "A disponibilidade depende da janela de visibilidade. Orientações que precisam ser recuperadas depois devem ter uma referência persistente.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Stories: disposição em sequência e janela de visibilidade em 3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-palavra-chave-e-intencao-de-busca",
@@ -20467,7 +20484,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-37c8f1e42a9065bd#Palavra-chave e hashtag: encontrar não é viralizar"
       ],
@@ -20477,7 +20494,8 @@
       },
       "statement": "Usar na legenda o termo que o público procura para identificar um serviço pode facilitar sua descoberta mesmo sem adotar uma hashtag popular.",
       "correctAnswer": "C",
-      "explanation": "A pertinência do termo ajuda a relacionar o conteúdo à busca. A popularidade de uma hashtag não determina se o post responde à tarefa."
+      "explanation": "A pertinência do termo ajuda a relacionar o conteúdo à busca. A popularidade de uma hashtag não determina se o post responde à tarefa.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Palavra-chave e hashtag: encontrar não é viralizar em 3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-marcacao-e-credito-de-procedencia",
@@ -20494,7 +20512,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-37c8f1e42a9065bd#Marcação, crédito e atribuição"
       ],
@@ -20504,7 +20522,8 @@
       },
       "statement": "Marcar o perfil que republicou uma fotografia comprova sua autoria mesmo quando o perfil informa ter recebido a imagem de terceiros.",
       "correctAnswer": "E",
-      "explanation": "A marcação identifica um perfil relacionado à circulação. O crédito de autoria depende de verificar a procedência da fotografia."
+      "explanation": "A marcação identifica um perfil relacionado à circulação. O crédito de autoria depende de verificar a procedência da fotografia.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Marcação, crédito e atribuição em 3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-capa-ambigua-em-miniatura",
@@ -20521,7 +20540,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-37c8f1e42a9065bd#Capa e miniatura: promessa, orientação e legibilidade"
       ],
@@ -20531,7 +20550,8 @@
       },
       "statement": "Se uma capa é legível na arte original, mas o nome do serviço desaparece na miniatura, verificar a peça no tamanho em que será exibida ajuda a avaliar se o público consegue identificá-la.",
       "correctAnswer": "C",
-      "explanation": "A miniatura tem outras condições de leitura. Conferir a arte em tamanho integral não reproduz a experiência no destino."
+      "explanation": "A miniatura tem outras condições de leitura. Conferir a arte em tamanho integral não reproduz a experiência no destino.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Capa e miniatura: promessa, orientação e legibilidade em 3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-card-com-referencia-consultavel",
@@ -20548,7 +20568,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5c4d7e9b1a8260f3#Card ou peça estática: síntese e consulta rápida"
       ],
@@ -20558,7 +20578,8 @@
       },
       "statement": "Um card pode destacar a data de um evento e encaminhar o público à programação oficial quando a agenda completa precisa permanecer consultável e atualizada.",
       "correctAnswer": "C",
-      "explanation": "O card sintetiza a informação imediata. A referência persistente permite consultar os detalhes vigentes."
+      "explanation": "O card sintetiza a informação imediata. A referência persistente permite consultar os detalhes vigentes.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Card ou peça estática: síntese e consulta rápida em 3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-video-corte-oculta-verificacao",
@@ -20575,7 +20596,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5c4d7e9b1a8260f3#Vídeo gravado: demonstração, montagem e duração"
       ],
@@ -20585,7 +20606,8 @@
       },
       "statement": "Um tutorial que corta a etapa de confirmação entre o envio do formulário e a emissão do protocolo demonstra todas as ações necessárias para concluir o procedimento.",
       "correctAnswer": "E",
-      "explanation": "O corte omite uma etapa essencial. A montagem precisa mostrar a confirmação ou explicá-la de modo que o público possa executar a tarefa."
+      "explanation": "O corte omite uma etapa essencial. A montagem precisa mostrar a confirmação ou explicá-la de modo que o público possa executar a tarefa.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Vídeo gravado: demonstração, montagem e duração em 3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-contingencia-com-canal-independente",
@@ -20602,7 +20624,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5c4d7e9b1a8260f3#Live e transmissão ao vivo: simultaneidade, moderação e contingência"
       ],
@@ -20612,7 +20634,8 @@
       },
       "statement": "Se a transmissão cair, uma mensagem em outro canal oficial pode informar ao público onde acompanhar a retomada.",
       "correctAnswer": "C",
-      "explanation": "O canal de contingência precisa permanecer disponível quando o fluxo principal falha."
+      "explanation": "O canal de contingência precisa permanecer disponível quando o fluxo principal falha.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Live e transmissão ao vivo: simultaneidade, moderação e contingência em 3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-escala-proporcional-nao-preenche-quadro",
@@ -20629,7 +20652,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-bb9305cf871d42ae#Proporção, resolução, orientação e enquadramento"
       ],
@@ -20639,7 +20662,8 @@
       },
       "statement": "Redimensionar proporcionalmente uma peça 4:5 para que sua largura seja igual à largura de um quadro 9:16 garante que ela também preencha toda a altura.",
       "correctAnswer": "E",
-      "explanation": "Ao igualar as larguras, a peça mantém altura de 1,25 vez a largura. O quadro requer cerca de 1,78 vez a largura. Sobram áreas verticais se não houver recomposição."
+      "explanation": "Ao igualar as larguras, a peça mantém altura de 1,25 vez a largura. O quadro requer cerca de 1,78 vez a largura. Sobram áreas verticais se não houver recomposição.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Proporção, resolução, orientação e enquadramento em 3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-correcao-entre-canais-com-copias",
@@ -20656,7 +20680,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8f0c2e19a5d74b6c#Controle de versões, correções e manutenção"
       ],
@@ -20666,7 +20690,8 @@
       },
       "statement": "Se a equipe corrige o prazo em um post que já foi copiado para outro perfil oficial, é pertinente verificar também a cópia.",
       "correctAnswer": "C",
-      "explanation": "A correção no primeiro perfil não atualiza uma publicação independente. O controle de versões precisa alcançar os canais que distribuíram a orientação."
+      "explanation": "A correção no primeiro perfil não atualiza uma publicação independente. O controle de versões precisa alcançar os canais que distribuíram a orientação.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Controle de versões, correções e manutenção em 3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-pauta-por-duvidas-no-atendimento",
@@ -20683,7 +20708,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a72f906bde4318c5#Fontes das pautas: agenda institucional, necessidades e escuta"
       ],
@@ -20693,7 +20718,8 @@
       },
       "statement": "Uma dúvida recorrente registrada no atendimento pode gerar uma pauta de serviço mesmo sem haver evento novo na agenda institucional.",
       "correctAnswer": "C",
-      "explanation": "As necessidades informacionais do público também orientam a seleção de pautas. A agenda institucional é uma entre as fontes possíveis."
+      "explanation": "As necessidades informacionais do público também orientam a seleção de pautas. A agenda institucional é uma entre as fontes possíveis.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Fontes das pautas: agenda institucional, necessidades e escuta em 3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-linha-editorial-e-data",
@@ -20710,7 +20736,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a72f906bde4318c5#Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes"
       ],
@@ -20720,7 +20746,8 @@
       },
       "statement": "A linha editorial de um perfil oficial é definida exclusivamente pelas datas reservadas no calendário.",
       "correctAnswer": "E",
-      "explanation": "A linha editorial orienta a seleção e o tratamento dos temas. As datas organizam a execução."
+      "explanation": "A linha editorial orienta a seleção e o tratamento dos temas. As datas organizam a execução.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Pilar, editoria, série, pauta e abordagem: cinco níveis diferentes em 3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-revisao-editorial-por-sazonalidade",
@@ -20737,7 +20764,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a72f906bde4318c5#Escuta, comentários e revisão de pauta"
       ],
@@ -20747,7 +20774,8 @@
       },
       "statement": "Se uma dúvida se repete apenas no período de inscrições, revisar a pauta nesse período pode ser mais adequado que manter a mesma frequência de respostas durante o ano todo.",
       "correctAnswer": "C",
-      "explanation": "A recorrência sazonal orienta a oportunidade da pauta. O calendário pode acompanhar o momento em que a informação é necessária."
+      "explanation": "A recorrência sazonal orienta a oportunidade da pauta. O calendário pode acompanhar o momento em que a informação é necessária.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Escuta, comentários e revisão de pauta em 3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-aprovacao-sem-credencial",
@@ -20764,7 +20792,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8f0c2e19a5d74b6c#Halvorson: workflow e governance como componentes diferentes"
       ],
@@ -20774,7 +20802,8 @@
       },
       "statement": "Uma pessoa pode ter autoridade para aprovar um conteúdo sem ter credenciais para publicá-lo na plataforma.",
       "correctAnswer": "C",
-      "explanation": "A decisão editorial e a execução técnica podem ser atribuídas a pessoas distintas."
+      "explanation": "A decisão editorial e a execução técnica podem ser atribuídas a pessoas distintas.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Halvorson: workflow e governance como componentes diferentes em 3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-correcao-com-rastreio-de-derivados",
@@ -20791,7 +20820,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-8f0c2e19a5d74b6c#Controle de versões, correções e manutenção"
       ],
@@ -20801,7 +20830,8 @@
       },
       "statement": "Após corrigir um prazo no arquivo de origem, uma equipe identifica quais derivados foram publicados e quais ainda estão agendados. A distinção ajuda a escolher entre corrigir peças em circulação e substituir arquivos antes da publicação.",
       "correctAnswer": "C",
-      "explanation": "Os derivados já publicados exigem verificar a correção no canal. Os agendados ainda podem ser substituídos antes de alcançar o público."
+      "explanation": "Os derivados já publicados exigem verificar a correção no canal. Os agendados ainda podem ser substituídos antes de alcançar o público.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Controle de versões, correções e manutenção em 3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-largura-de-recorte-central",
@@ -20818,7 +20848,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-bb9305cf871d42ae#Proporção, resolução, orientação e enquadramento"
       ],
@@ -20828,7 +20858,8 @@
       },
       "statement": "Ao obter um recorte central de proporção 3:4 a partir de uma arte de 1.080 × 1.350 pixels, preservando a altura, a largura do recorte continua sendo de 1.080 pixels.",
       "correctAnswer": "E",
-      "explanation": "A largura teórica é 1.012,5 pixels, antes do arredondamento. Preservar a altura de uma peça 4:5 ao passar para 3:4 exige remover parte da largura."
+      "explanation": "A largura teórica é 1.012,5 pixels, antes do arredondamento. Preservar a altura de uma peça 4:5 ao passar para 3:4 exige remover parte da largura.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Proporção, resolução, orientação e enquadramento em 3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-tom-informal-e-referencia-precisa",
@@ -20845,7 +20876,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-bb9305cf871d42ae#Linguagens: o que muda quando muda o ambiente"
       ],
@@ -20855,7 +20886,8 @@
       },
       "statement": "Uma legenda pode usar frases curtas e tom informal e ainda nomear com precisão a etapa do procedimento que está sendo divulgada.",
       "correctAnswer": "C",
-      "explanation": "Tom e precisão factual são dimensões diferentes. A adaptação do registro pode preservar a denominação necessária para a tarefa."
+      "explanation": "Tom e precisão factual são dimensões diferentes. A adaptação do registro pode preservar a denominação necessária para a tarefa.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Linguagens: o que muda quando muda o ambiente em 3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-carrossel-com-sequencia-operacional",
@@ -20872,7 +20904,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5c4d7e9b1a8260f3#Carrossel: sequência ordenada, progressão e controle de sentido"
       ],
@@ -20882,7 +20914,8 @@
       },
       "statement": "Em um carrossel que ensina um procedimento, reordenar os cards não altera a orientação se a ordem das ações for requisito para concluir a tarefa.",
       "correctAnswer": "E",
-      "explanation": "A sequência comunica precedência. Se as ações precisam seguir uma ordem, alterar sua apresentação pode induzir erro de execução."
+      "explanation": "A sequência comunica precedência. Se as ações precisam seguir uma ordem, alterar sua apresentação pode induzir erro de execução.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Carrossel: sequência ordenada, progressão e controle de sentido em 3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-tutorial-pausa-para-leitura",
@@ -20899,7 +20932,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5c4d7e9b1a8260f3#Vídeo gravado: demonstração, montagem e duração"
       ],
@@ -20909,7 +20942,8 @@
       },
       "statement": "Se um vídeo instrutivo exibe um endereço essencial, manter a tela por tempo suficiente para leitura faz parte da adequação da montagem à tarefa.",
       "correctAnswer": "C",
-      "explanation": "A duração do plano afeta a possibilidade de recuperar a informação. Exibir o endereço por um instante pode torná-lo inutilizável."
+      "explanation": "A duração do plano afeta a possibilidade de recuperar a informação. Exibir o endereço por um instante pode torná-lo inutilizável.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Vídeo gravado: demonstração, montagem e duração em 3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-transmissao-e-pergunta-respondida",
@@ -20926,7 +20960,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5c4d7e9b1a8260f3#Live e transmissão ao vivo: simultaneidade, moderação e contingência"
       ],
@@ -20936,7 +20970,8 @@
       },
       "statement": "Contar quantas perguntas apareceram na transmissão basta para verificar quantas foram respondidas corretamente.",
       "correctAnswer": "E",
-      "explanation": "O total de perguntas registra participação. A resposta e sua correção exigem verificar o conteúdo tratado e as fontes usadas."
+      "explanation": "O total de perguntas registra participação. A resposta e sua correção exigem verificar o conteúdo tratado e as fontes usadas.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Live e transmissão ao vivo: simultaneidade, moderação e contingência em 3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-sequencia-efemera-com-dependencia",
@@ -20953,7 +20988,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-5c4d7e9b1a8260f3#Stories: disposição em sequência e janela de visibilidade"
       ],
@@ -20963,7 +20998,8 @@
       },
       "statement": "Uma sequência curta anuncia que o prazo aparece no último story. Se o público pode entrar na sequência por um compartilhamento isolado, a posição final garante que todos tenham acesso ao prazo.",
       "correctAnswer": "E",
-      "explanation": "O acesso ao último quadro depende do percurso. Uma informação indispensável pode exigir repetição contextual ou referência persistente."
+      "explanation": "O acesso ao último quadro depende do percurso. Uma informação indispensável pode exigir repetição contextual ou referência persistente.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Stories: disposição em sequência e janela de visibilidade em 3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-capa-com-promessa-de-acao",
@@ -20975,12 +21011,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
       "articleId": "art-37c8f1e42a9065bd",
-      "conceptId": "capa-com-promessa-de-acao",
-      "mechanism": "capa-com-promessa-de-acao",
+      "conceptId": "capa-distingue-versoes",
+      "mechanism": "capa-distingue-versoes",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-37c8f1e42a9065bd#Capa e miniatura: promessa, orientação e legibilidade"
       ],
@@ -20988,9 +21024,10 @@
         "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
         "section": "Capa e miniatura: promessa, orientação e legibilidade"
       },
-      "statement": "Uma capa anuncia “faça sua inscrição”, mas a peça apenas explica os requisitos e não informa onde se inscrever. A peça cumpre integralmente a promessa da capa.",
-      "correctAnswer": "E",
-      "explanation": "A capa antecipa uma ação executável. Explicar requisitos é útil, mas não entrega por si o caminho da inscrição."
+      "statement": "Quando duas edições de um guia usam capas semelhantes, destacar a data de atualização na miniatura pode ajudar o leitor a escolher a edição vigente antes de abrir o arquivo.",
+      "correctAnswer": "C",
+      "explanation": "A capa pode orientar a escolha. A data torna distinguíveis versões visualmente parecidas quando essa informação é legível no tamanho de exibição.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Capa e miniatura: promessa, orientação e legibilidade em 3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-alternativa-textual-e-grafico",
@@ -21007,7 +21044,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-37c8f1e42a9065bd#Três sentidos que não se confundem: legenda, legenda audiovisual e texto alternativo"
       ],
@@ -21017,7 +21054,8 @@
       },
       "statement": "Se o gráfico de um card é a única fonte de uma comparação importante, o texto alternativo pode precisar informar o resultado da comparação, além de identificar o tipo de gráfico.",
       "correctAnswer": "C",
-      "explanation": "A alternativa precisa transmitir a informação relevante. Nomear o tipo de visualização pode deixar o resultado inacessível."
+      "explanation": "A alternativa precisa transmitir a informação relevante. Nomear o tipo de visualização pode deixar o resultado inacessível.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Três sentidos que não se confundem: legenda, legenda audiovisual e texto alternativo em 3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-hashtag-com-referencia-ambigua",
@@ -21034,7 +21072,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-37c8f1e42a9065bd#Palavra-chave e hashtag: encontrar não é viralizar"
       ],
@@ -21044,7 +21082,8 @@
       },
       "statement": "Uma hashtag que corresponde ao nome de vários programas identifica de modo inequívoco qual programa aparece no post.",
       "correctAnswer": "E",
-      "explanation": "O mesmo rótulo pode remeter a objetos diferentes. A legenda ou o contexto deve esclarecer a referência."
+      "explanation": "O mesmo rótulo pode remeter a objetos diferentes. A legenda ou o contexto deve esclarecer a referência.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Palavra-chave e hashtag: encontrar não é viralizar em 3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-credito-com-publicacao-derivada",
@@ -21056,12 +21095,12 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
       "articleId": "art-37c8f1e42a9065bd",
-      "conceptId": "credito-com-publicacao-derivada",
-      "mechanism": "credito-com-publicacao-derivada",
+      "conceptId": "marcacao-com-identidade-incerta",
+      "mechanism": "marcacao-com-identidade-incerta",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-37c8f1e42a9065bd#Marcação, crédito e atribuição"
       ],
@@ -21069,9 +21108,10 @@
         "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
         "section": "Marcação, crédito e atribuição"
       },
-      "statement": "Ao reutilizar em um carrossel uma fotografia publicada por um parceiro, é possível marcar o parceiro e registrar separadamente a autoria confirmada da imagem.",
-      "correctAnswer": "C",
-      "explanation": "A marcação identifica uma relação com o parceiro. O crédito registra quem criou a fotografia."
+      "statement": "Selecionar o primeiro perfil cujo nome coincide com o de uma organização parceira é suficiente para confirmar que a marcação remete à entidade correta.",
+      "correctAnswer": "E",
+      "explanation": "Nomes podem coincidir. A confirmação exige verificar o identificador do perfil por uma fonte da organização ou outro vínculo confiável.",
+      "reviewEvidence": "Lote 013: cotejo editorial com Marcação, crédito e atribuição em 3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
     }
   ]
 }

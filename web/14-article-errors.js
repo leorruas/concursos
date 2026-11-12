@@ -5,7 +5,7 @@
  let historyPromise=null,historyContest='';
  const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
  const date=s=>/^\d{4}-\d{2}-\d{2}$/.test(String(s||''))?s.slice(8,10)+'/'+s.slice(5,7)+'/'+s.slice(0,4):'data não registrada';
- function makeItem(q){
+ function makeItem(q,article,contest){
   const d=el('details','erros-artigo-item');
   d.append(el('summary','',q.result==='incorrect'?'Questão errada · '+date(q.date):'Acerto com insegurança · '+date(q.date)));
   if(q.topic||q.subtopic)d.append(el('p','erros-artigo-meta',[q.topic,q.subtopic].filter(Boolean).join(' / ')));
@@ -14,7 +14,7 @@
   if(q.explanation)d.append(el('p','',q.explanation));
   if(q.section){
    const a=el('a','erros-artigo-link','Ir ao trecho da teoria');
-   a.href=window.construirRotaArtigoId?construirRotaArtigoId((window.artigoAtual?.articleSlug)||window.artigoAtual?.articleId||'',q.section,window.obterProgramaSelecionado?.()?.id||'camara-2026'):'#';
+   a.href=window.construirRotaArtigoId?construirRotaArtigoId(article.articleSlug||article.articleId,q.section,contest):'#';
    a.addEventListener('click',()=>{document.querySelector('main')?.scrollIntoView({behavior:'smooth'});});
    d.append(a);
   }
@@ -38,7 +38,7 @@
   if(!article?.articleId)return;
   const container=document.getElementById('artigo-corpo');
   if(!container)return;
-  const contest=window.obterProgramaSelecionado?.()?.id||'camara-2026';
+  const contest=window.obterProgramaSelecionado?.()?.concursoId||'camara-2026';
   const box=el('details','erros-artigo-caixa');
   box.append(el('summary','','Questões que errei neste artigo'));
   const body=el('div','erros-artigo-corpo');
@@ -70,8 +70,8 @@
      body.append(el('p','','Nenhuma questão errada ou acerto inseguro foi associado a este artigo nos registros disponíveis.'));
     }else{
      body.append(el('p','erros-artigo-meta',info.mistakes.length+' erro(s) e '+info.uncertainCorrect.length+' acerto(s) com insegurança. Prioridade de revisão: '+info.priority+'/100.'));
-     for(const q of info.mistakes)body.append(makeItem(q));
-     for(const q of info.uncertainCorrect)body.append(makeItem(q));
+     for(const q of info.mistakes)body.append(makeItem(q,article,contest));
+     for(const q of info.uncertainCorrect)body.append(makeItem(q,article,contest));
     }
     const more=el('a','erros-artigo-link','Ver todas as prioridades de estudo');
     more.href='/resultados.html?artigo='+encodeURIComponent(article.articleId);body.append(more);

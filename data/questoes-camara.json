@@ -12360,6 +12360,114 @@
       "statement": "Uma redação solicitou manifestação com prazo razoável e publicou a matéria informando que ainda não havia recebido resposta. Uma manifestação posterior com documentos relevantes pode justificar atualizar a cobertura, mesmo que a informação sobre a ausência de resposta fosse correta na publicação inicial.",
       "correctAnswer": "C",
       "explanation": "A exatidão sobre o que se sabia no fechamento convive com a necessidade de avaliar fatos novos. Atualizar o contexto e corrigir um erro anterior são operações diferentes."
+    },
+    {
+      "id": "cam-di-anonimato-e-identificacao-indireta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "anonimato-e-identificacao-indireta",
+      "mechanism": "anonimato-e-identificacao-indireta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Núcleo do Código de Ética dos Jornalistas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Núcleo do Código de Ética dos Jornalistas"
+      },
+      "statement": "Uma matéria pode expor uma fonte protegida sem citar seu nome se descrever uma função ocupada por uma única pessoa na equipe.",
+      "correctAnswer": "C",
+      "explanation": "A combinação de detalhes pode identificar indiretamente a fonte. A proteção exige considerar o que o público consegue inferir."
+    },
+    {
+      "id": "cam-di-interesse-na-pauta-e-apuracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-af0fe39c4031493a",
+      "conceptId": "interesse-na-pauta-e-apuracao",
+      "mechanism": "interesse-na-pauta-e-apuracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-af0fe39c4031493a#Ética jornalística × ética da comunicação pública"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/11 - etica em comunicacao.md",
+        "section": "Ética jornalística × ética da comunicação pública"
+      },
+      "statement": "Quando a sugestão de pauta parte da assessoria de uma organização interessada na cobertura, a origem da sugestão garante independência à seleção de fatos feita pela redação.",
+      "correctAnswer": "E",
+      "explanation": "A assessoria representa interesses da organização. A independência da redação depende de seus critérios de seleção e apuração, inclusive da consulta a outras evidências quando pertinente."
+    },
+    {
+      "id": "cam-di-aparencia-editorial-e-contrapartida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "aparencia-editorial-e-contrapartida",
+      "mechanism": "aparencia-editorial-e-contrapartida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Conteúdo editorial, publieditorial, influenciadores e transparência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Conteúdo editorial, publieditorial, influenciadores e transparência"
+      },
+      "statement": "Uma entrevista com aparência de reportagem perde o caráter de conteúdo patrocinado quando as respostas do entrevistado são espontâneas, mesmo que a inserção tenha sido comprada.",
+      "correctAnswer": "E",
+      "explanation": "O modo de conduzir a entrevista não elimina a contratação da inserção. O leitor precisa ter condições de reconhecer a relação comercial."
+    },
+    {
+      "id": "cam-di-exposicao-de-dados-sem-finalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "exposicao-de-dados-sem-finalidade",
+      "mechanism": "exposicao-de-dados-sem-finalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Dados pessoais, vulnerabilidade e decisões de design"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Dados pessoais, vulnerabilidade e decisões de design"
+      },
+      "statement": "Para divulgar quantas pessoas participaram de uma oficina, informar a contagem agregada pode atingir o objetivo sem expor os nomes dos participantes.",
+      "correctAnswer": "C",
+      "explanation": "A finalidade é comunicar o total. A identificação nominal acrescenta exposição e é desnecessária para esse objetivo específico."
     }
   ]
 }

@@ -196,3 +196,8 @@ A reserva de plenário e o controle concentrado se conectam a [[3 - Materias/Dir
 **Ressalva pedagógica:** o artigo possuía **zero questões C/E** e **zero casos progressivos**; não existem gabaritos que possam ser auditados. A revisão normativa ampliou o conteúdo **sem criar ou contabilizar exercícios**. Sua certificação **não representa conclusão da cobertura pedagógica exigível** para treino Cebraspe.
 
 **Limites:** o cotejo não constitui revisão exaustiva das Leis nº 9.868/1999 e 9.882/1999, dos precedentes sobre pertinência temática ou dos recursos constitucionais, nem avaliação de aprendizagem ou teste de renderização e publicação no GitHub Pages.
+
+
+## Atualização pedagógica: implementação de exercícios
+
+**Estado após os reparos desta rodada (11/11/2026):** a ressalva histórica de **zero exercícios** referia-se à versão anterior à implementação. Foram adicionados **três itens C/E inéditos comentados** e um caso progressivo ao artigo, sem suprimir o texto da certificação normativa anterior. Os itens são autorais e não representam questões oficiais ou respostas do estudante. A conferência é dirigida aos fundamentos constitucionais citados, sem declaração de homologação exaustiva do artigo ou de publicação visual.

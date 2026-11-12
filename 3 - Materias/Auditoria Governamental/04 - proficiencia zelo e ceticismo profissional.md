@@ -60,6 +60,6 @@ Quem sabe executar? **Proficiência**. Como trabalha? **Zelo**. Como examina as 
 
 ## Estado e fontes
 
-Unidade 02, parte B: **3/3 aprendizagem e 5/5 treino para valer**. Unidade 02 completa: **6/6 aprendizagem e 8/10 treino para valer**. Não são notas de simulado ou certificação de domínio. Ver [[3 - Materias/Auditoria Governamental/Avancos|avanços]].
+Unidade 02, parte B: **3/3 aprendizagem e 5/5 treino para valer**. Unidade 02 completa: **6/6 aprendizagem e 8/10 treino para valer**. Não são notas de simulado ou certificação de domínio. Ver registro individual de estudos mantido no cofre privado.
 
 Fonte primária: Referencial Técnico da IN SFC nº 3/2017, itens 59 a 68; MOT da CGU, seções 3.3.2 e 5.3.

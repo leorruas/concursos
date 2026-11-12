@@ -14689,6 +14689,122 @@
       "statement": "Se um veículo oferece uma reaplicação como vantagem negociada na compra de mídia por intermédio de agência, essa vantagem pertence ao contratante.",
       "correctAnswer": "C",
       "explanation": "O parágrafo único inclui reaplicações entre as vantagens da compra de mídia destinadas ao contratante."
+    },
+    {
+      "id": "cam-di-criterio-novo-apos-recebimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "criterio-novo-apos-recebimento",
+      "mechanism": "criterio-novo-apos-recebimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 6º: briefing, anonimato e critérios escritos no edital"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 6º: briefing, anonimato e critérios escritos no edital",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 6º, VI"
+      },
+      "statement": "Depois de receber as propostas, a comissão pode atribuir pontos por um critério ausente do edital se aplicar a mesma regra a todos os concorrentes.",
+      "correctAnswer": "E",
+      "explanation": "A aplicação uniforme não supre a falta de previsão. O julgamento deve usar exclusivamente os critérios do instrumento convocatório."
+    },
+    {
+      "id": "cam-di-briefing-e-pertinencia-do-plano",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "briefing-e-pertinencia-do-plano",
+      "mechanism": "briefing-e-pertinencia-do-plano",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 6º: briefing, anonimato e critérios escritos no edital"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 6º: briefing, anonimato e critérios escritos no edital",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 6º, II e III"
+      },
+      "statement": "Se o briefing delimita a campanha a um público e a um objetivo, a pertinência do plano técnico deve ser avaliada em relação a essas informações.",
+      "correctAnswer": "C",
+      "explanation": "O briefing fornece as informações para elaborar as propostas. O plano da proposta técnica deve guardar pertinência com elas."
+    },
+    {
+      "id": "cam-di-identificacao-antecipada-por-agente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "identificacao-antecipada-por-agente",
+      "mechanism": "identificacao-antecipada-por-agente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 12: anulação do certame versus desclassificação de licitante"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 12: anulação do certame versus desclassificação de licitante",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 12"
+      },
+      "statement": "Se um agente responsável viola a regra de sigilo e revela a autoria de um plano antes da abertura legalmente prevista, substituir o avaliador basta para afastar a anulação do certame.",
+      "correctAnswer": "E",
+      "explanation": "O art. 12 prevê anulação diante do descumprimento, por agente responsável, das garantias de julgamento sem conhecimento da autoria, sem prejuízo da apuração de responsabilidades."
+    },
+    {
+      "id": "cam-di-habilitacao-de-classificado-apos-julgamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
+      "articleId": "art-64e9b713c8a250df",
+      "conceptId": "habilitacao-de-classificado-apos-julgamento",
+      "mechanism": "habilitacao-de-classificado-apos-julgamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
+        "section": "Art. 11: sequência de julgamento e habilitação posterior",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
+        "locator": "art. 11, XI e XII"
+      },
+      "statement": "Um licitante classificado no julgamento final das propostas ainda precisa apresentar documentos de habilitação para análise em sessão pública.",
+      "correctAnswer": "C",
+      "explanation": "A classificação leva à convocação para apresentar documentos. A análise de habilitação é etapa posterior."
     }
   ]
 }

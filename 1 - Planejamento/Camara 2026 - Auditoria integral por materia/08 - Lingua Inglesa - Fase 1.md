@@ -587,3 +587,21 @@ O hub continua com os links existentes dos 18 artigos, sem criação duplicada. 
 **CI e publicação:** o workflow automático `Publicar no GitHub Pages` disparou para os commits de conteúdo, porém as execuções recentes foram canceladas ou estavam pendentes/em progresso devido a publicações concorrentes. Há run anterior com sucesso em `f610345e96ef3756e7d37b0617fa2d94b2f3f218` (não abrange todos os commits posteriores). A validação do HEAD atual permanece **pendente**, sem declaração de publicação concluída.
 
 **Retomada:** consultar o HEAD e o run Pages correspondente, verificar logs e integridade do site; revisar ao menos uma vez os itens reescritos após as últimas edições e conferir referências cruzadas e fontes finais dos demais artigos. Encerrar só depois da revisão transversal e do CI atualizado.
+
+
+## 24. Implementação: pressuposição, referência, negação e leitura transferível (11/11/2026)
+
+Autorização de reparos exclusiva da matéria Inglês. Este checkpoint registra gravações efetivas, sem reiniciar a auditoria da Fase 1. O hub já contém os links dos artigos 08, 09, 11 e 12; não houve necessidade de alterar catálogo ou índice compartilhado.
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| 08 | Certeza indevida de pressupostos, exclusividade automática de *it-cleft* e contrafactual tratado como fato documental | Reescritas da tabela e exemplo, com distinção entre inferência pragmática e evidência externa | `3876159ac03bbbd7e599138920406d6b6cfaa712` | Releitura e verificação dos trechos contra Cambridge *cleft sentences* | corrigido |
+| 09 | Relativa com *which* interpretada como única leitura por pontuação | Comentário ajustado à leitura contextual, com contraexemplo de referência nominal | `33822a5035a7ae0683b4f6deca2284756d885dff` | Arquivo recuperado após commit, identidade preservada | corrigido |
+| 12 | Equivalência equivocada entre *barely* e rejeição, caracterização absoluta de dupla negação e frequência de cobrança não demonstrada | Explicação corrigida de *negative concord*, negação de obrigação, valor de *barely* e inversão | `a1c5cb186dce6c7e6e3de501d4eba43c52468ec8` | Arquivo recuperado e identidade preservada; gramática Cambridge | corrigido |
+| 08 | Falta de transferência entre pressuposto, modalização e informação não verificada | Caso ficcional de revisão de traduções, contraexemplo de *it-cleft* e três itens inéditos C/E comentados | `540e7d2d3c2700a18547feaf47bbdc2304699687` | Três itens encontrados após gravação, cabeçalho e ID intactos | corrigido |
+| 12 | Necessidade de pares mínimos entre proibição, ausência de obrigação e quase ocorrência | Caso progressivo e três itens inéditos C/E comentados com fontes Cambridge | `0cd68d572dea8131edbc6808af8a1a6c39ce5f44` | Três itens e referências presentes na versão recuperada | corrigido |
+| 11 | Vocabulário contextual concentrado em texto legislativo | Texto ficcional de museu e três itens inéditos C/E sobre *on loan*, *notice* e *eventually* | `8be0bc4f1aa84734a3812a946715a1ce03103c83` | Três itens recuperados, ID preservado | corrigido |
+
+**Conferência remota:** os quatro arquivos envolvidos conservam `articleId`, `articleAliases` e blocos fenced em pares. Os novos nove itens estão explicitamente rotulados como inéditos. Os commits foram relidos pelo conector GitHub. Esta checagem não é homologação de todas as questões anteriores e não equivale à inspeção visual dos diagramas.
+
+**CI:** foram observados runs do Pages pendentes/em progresso e cancelamentos de runs precedentes durante gravações simultâneas. Não declarar publicação do HEAD atual sem workflow concluído com sucesso. Seguem pendentes a inspeção do site publicado, as verificações de construção referentes ao estado final e a revisão transversal dos 18 artigos, sobretudo exemplos de leitura contemporânea e referências antigas.

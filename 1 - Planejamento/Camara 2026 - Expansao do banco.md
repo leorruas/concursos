@@ -18,4 +18,4 @@ O lote 002 cobre o item 2 de Divulgação Institucional. Foram registradas 10 qu
 
 ## Lote 003 em elaboração
 
-Vinte e duas questões geradas para o item 3 de Divulgação Institucional, com referências aos artigos 102 a 108. Completar o lote com questões sobre instrumentos, cobertura amostral, pesquisa de imagem, mensuração de audiência e avaliação causal.
+Trinta e quatro questões geradas para o item 3 de Divulgação Institucional, com referências aos artigos 102 a 108. Completar o lote com questões sobre instrumentos, cobertura amostral, pesquisa de imagem, mensuração de audiência e avaliação causal.

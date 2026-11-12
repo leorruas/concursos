@@ -9270,6 +9270,330 @@
       "statement": "O plano A custa R$ 1.000, gera 100 cliques e 5 inscrições válidas. B custa R$ 1.500, gera 100 cliques e 15 inscrições válidas. Se a medida de eficiência for custo por inscrição válida, B é mais eficiente, embora tenha custo por clique maior.",
       "correctAnswer": "C",
       "explanation": "A custa R$ 200 por inscrição e R$ 10 por clique. B custa R$ 100 por inscrição e R$ 15 por clique. A escolha muda conforme o resultado usado no denominador."
+    },
+    {
+      "id": "cam-di-integracao-na-etapa-de-desenho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / métodos mistos",
+      "articleId": "art-8b1e6d903f42c7a5",
+      "conceptId": "integracao-na-etapa-de-desenho",
+      "mechanism": "integracao-na-etapa-de-desenho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8b1e6d903f42c7a5#Métodos mistos: integração com finalidade explícita"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md",
+        "section": "Métodos mistos: integração com finalidade explícita"
+      },
+      "statement": "Uma equipe utiliza entrevistas iniciais para identificar motivos de abandono e transforma esses motivos em alternativas de um questionário aplicado depois. A integração ocorre no desenho do segundo instrumento.",
+      "correctAnswer": "C",
+      "explanation": "O resultado qualitativo orienta a operacionalização da etapa quantitativa. A conexão existe antes da comparação dos resultados finais."
+    },
+    {
+      "id": "cam-di-observacao-versus-relato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa qualitativa",
+      "articleId": "art-8b1e6d903f42c7a5",
+      "conceptId": "observacao-versus-relato",
+      "mechanism": "observacao-versus-relato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8b1e6d903f42c7a5#Qualidade da pergunta: entrevistas, questionários e observação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/102 - perguntas de pesquisa abordagens e metodos mistos.md",
+        "section": "Qualidade da pergunta: entrevistas, questionários e observação"
+      },
+      "statement": "Perguntar se o usuário encontrou facilmente um documento equivale a observar quanto tempo ele leva para localizá-lo.",
+      "correctAnswer": "E",
+      "explanation": "A pergunta coleta uma avaliação declarada. A observação mede o comportamento durante a tarefa, como duração e erros."
+    },
+    {
+      "id": "cam-di-censo-da-base-e-populacao-alvo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
+      "articleId": "art-4e9d2a7c813f65b0",
+      "conceptId": "censo-da-base-e-populacao-alvo",
+      "mechanism": "censo-da-base-e-populacao-alvo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4e9d2a7c813f65b0#Desenho: definir sobre quem é a conclusão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
+        "section": "Desenho: definir sobre quem é a conclusão"
+      },
+      "statement": "Levantar dados de todos os inscritos em um curso é um censo desse cadastro, ainda que o levantamento exclua quem teve interesse e não conseguiu se inscrever.",
+      "correctAnswer": "C",
+      "explanation": "O levantamento cobre todos os elementos do cadastro. O universo de interessados é mais amplo."
+    },
+    {
+      "id": "cam-di-perda-seletiva-no-painel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / pesquisa de mercado",
+      "articleId": "art-4e9d2a7c813f65b0",
+      "conceptId": "perda-seletiva-no-painel",
+      "mechanism": "perda-seletiva-no-painel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4e9d2a7c813f65b0#Desenhos no tempo: transversal, repetido e painel"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao.md",
+        "section": "Desenhos no tempo: transversal, repetido e painel"
+      },
+      "statement": "Em um painel com 100 pessoas satisfeitas e 100 insatisfeitas na primeira onda, todas as satisfeitas e apenas 20 insatisfeitas respondem à segunda. Se nenhuma das 120 mudou de opinião, a comparação das taxas brutas das duas ondas prova melhora individual.",
+      "correctAnswer": "E",
+      "explanation": "A taxa passa de 50% para cerca de 83% pela perda seletiva. Comparar as mesmas 120 pessoas em ambos os períodos revela ausência de mudança nesse grupo."
+    },
+    {
+      "id": "cam-di-intensidade-sem-trocar-posicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / opinião pública",
+      "articleId": "art-9f3a6c218d45b7e0",
+      "conceptId": "intensidade-sem-trocar-posicao",
+      "mechanism": "intensidade-sem-trocar-posicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3a6c218d45b7e0#Objetos de mensuração: posição, intensidade, conhecimento e ação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md",
+        "section": "Objetos de mensuração: posição, intensidade, conhecimento e ação"
+      },
+      "statement": "Duas pessoas podem apoiar a mesma medida e expressar intensidades de apoio diferentes em uma escala que distingue apoio moderado e forte.",
+      "correctAnswer": "C",
+      "explanation": "A direção do posicionamento pode ser igual sem que seu grau seja igual."
+    },
+    {
+      "id": "cam-di-modo-e-efeito-do-entrevistador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / opinião pública",
+      "articleId": "art-9f3a6c218d45b7e0",
+      "conceptId": "modo-e-efeito-do-entrevistador",
+      "mechanism": "modo-e-efeito-do-entrevistador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9f3a6c218d45b7e0#Modos de pesquisa: cobertura, interação e contexto"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/104 - pesquisa de opiniao publica objeto perguntas e limites.md",
+        "section": "Modos de pesquisa: cobertura, interação e contexto"
+      },
+      "statement": "Em perguntas sensíveis, aplicar o mesmo questionário por telefone e por formulário autoadministrado garante respostas comparáveis porque o texto das perguntas permanece igual.",
+      "correctAnswer": "E",
+      "explanation": "A interação com um entrevistador pode afetar as respostas e a composição de quem participa. Igualdade textual não assegura equivalência dos modos."
+    },
+    {
+      "id": "cam-di-escala-com-polaridade-invertida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / imagem",
+      "articleId": "art-6f2a9c40d83e175b",
+      "conceptId": "escala-com-polaridade-invertida",
+      "mechanism": "escala-com-polaridade-invertida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Escalas, dimensões e modelos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md",
+        "section": "Escalas, dimensões e modelos"
+      },
+      "statement": "Se um índice usa a média de concordância com “as informações são claras” e “as informações são confusas”, é preciso inverter a codificação de uma das respostas para que um valor maior tenha a mesma direção nos dois itens.",
+      "correctAnswer": "C",
+      "explanation": "Concordância indica avaliação favorável no primeiro item e desfavorável no segundo. A recodificação alinha a direção antes da combinação."
+    },
+    {
+      "id": "cam-di-imagem-e-selecao-por-contato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / imagem",
+      "articleId": "art-6f2a9c40d83e175b",
+      "conceptId": "imagem-e-selecao-por-contato",
+      "mechanism": "imagem-e-selecao-por-contato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6f2a9c40d83e175b#Desenho da pesquisa: grupos, contato e tempo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/105 - pesquisa de imagem e reputacao indicadores e vieses.md",
+        "section": "Desenho da pesquisa: grupos, contato e tempo"
+      },
+      "statement": "Uma pesquisa com quem visitou a sede no último mês representa automaticamente a imagem da instituição entre pessoas que nunca a visitaram.",
+      "correctAnswer": "E",
+      "explanation": "Visitantes recentes e não visitantes são grupos distintos quanto ao contato com a instituição. A conclusão sobre o segundo grupo exige dados compatíveis com ele."
+    },
+    {
+      "id": "cam-di-projecao-com-painel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / mídia",
+      "articleId": "art-7d3c9e14a80b62f5",
+      "conceptId": "projecao-com-painel",
+      "mechanism": "projecao-com-painel",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-7d3c9e14a80b62f5#Painel de audiência: amostra, observação e projeção"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/106 - pesquisa de midia audiencia alcance e metodos.md",
+        "section": "Painel de audiência: amostra, observação e projeção"
+      },
+      "statement": "Um painel de audiência acompanha unidades selecionadas para observar padrões de consumo de mídia ao longo do tempo.",
+      "correctAnswer": "C",
+      "explanation": "O painel fornece observações repetidas de uma amostra. A projeção ao universo depende do desenho e dos ajustes adotados."
+    },
+    {
+      "id": "cam-di-clique-sem-sessao-carregada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / métricas de publicidade digital",
+      "articleId": "art-f2b67a4d91e803c5",
+      "conceptId": "clique-sem-sessao-carregada",
+      "mechanism": "clique-sem-sessao-carregada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-f2b67a4d91e803c5#Tráfego: clique, sessão, usuário e visualização de página"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/107 - metricas digitais impressao clique conversao e interpretacao.md",
+        "section": "Tráfego: clique, sessão, usuário e visualização de página"
+      },
+      "statement": "Se uma página falha antes de carregar, cada clique registrado no anúncio ainda produz necessariamente uma sessão registrada no site.",
+      "correctAnswer": "E",
+      "explanation": "O anúncio pode registrar o clique antes de o site carregar. O registro de sessão depende da instrumentação do próprio site."
+    },
+    {
+      "id": "cam-di-efeito-de-oferta-versus-exposicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / métricas de publicidade digital",
+      "articleId": "art-3f6d81b2c709a4e5",
+      "conceptId": "efeito-de-oferta-versus-exposicao",
+      "mechanism": "efeito-de-oferta-versus-exposicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3f6d81b2c709a4e5#Desenhos de avaliação causal: condições e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md",
+        "section": "Desenhos de avaliação causal: condições e limites"
+      },
+      "statement": "Uma equipe sorteia quem receberá um convite por e-mail. Parte dos convidados não o abre. Comparar todos os sorteados para convite com todos os sorteados para controle estima o efeito de oferecer o convite, sob as condições do experimento, ainda que nem todos os convidados leiam a mensagem.",
+      "correctAnswer": "C",
+      "explanation": "A comparação mantém os grupos da alocação aleatória. O efeito de oferecer o convite difere do efeito de efetivamente ler o conteúdo."
+    },
+    {
+      "id": "cam-di-mecanismo-com-execucao-incompleta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 3 / métricas de publicidade digital",
+      "articleId": "art-3f6d81b2c709a4e5",
+      "conceptId": "mecanismo-com-execucao-incompleta",
+      "mechanism": "mecanismo-com-execucao-incompleta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-3f6d81b2c709a4e5#Cadeia causal e teoria da mudança"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/108 - indicadores de publicidade eficacia eficiencia e causalidade.md",
+        "section": "Cadeia causal e teoria da mudança"
+      },
+      "statement": "Uma campanha prevê informar um prazo antes do encerramento das inscrições. A peça só circula depois do prazo e não há aumento de inscrições. O resultado permite concluir que informar a tempo seria ineficaz.",
+      "correctAnswer": "E",
+      "explanation": "A intervenção executada não entregou a informação no momento necessário. O resultado não testa o mecanismo previsto para uma divulgação tempestiva."
     }
   ]
 }

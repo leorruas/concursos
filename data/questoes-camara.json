@@ -18022,6 +18022,114 @@
       "statement": "Passar da resposta inicial para a fase de manutenção torna dispensável corrigir um horário de atendimento divulgado incorretamente no primeiro aviso.",
       "correctAnswer": "E",
       "explanation": "A manutenção inclui atualizar informações e corrigir erros que ainda podem orientar a conduta do público."
+    },
+    {
+      "id": "cam-cs-atributo-central-mas-compartilhado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "atributo-central-mas-compartilhado",
+      "mechanism": "atributo-central-mas-compartilhado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Albert e Whetten (1985): três critérios para investigar identidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Albert e Whetten (1985): três critérios para investigar identidade"
+      },
+      "statement": "Uma característica pode ser central e persistente em uma instituição. Essas duas evidências bastam para demonstrar que ela também distingue a instituição de outras.",
+      "correctAnswer": "E",
+      "explanation": "Centralidade, continuidade e distintividade são critérios diferentes. Uma característica central e persistente pode ser comum a instituições semelhantes."
+    },
+    {
+      "id": "cam-cs-sinal-prodomico-com-intervencao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-482d6ef913a0c75b",
+      "conceptId": "sinal-prodomico-com-intervencao",
+      "mechanism": "sinal-prodomico-com-intervencao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-482d6ef913a0c75b#Steven Fink: sinais prodrômicos e uma classificação temporal diferente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "section": "Steven Fink: sinais prodrômicos e uma classificação temporal diferente"
+      },
+      "statement": "Alertas recorrentes de falha num sistema podem orientar medidas preventivas antes da interrupção do serviço, ainda que a interrupção jamais se concretize.",
+      "correctAnswer": "C",
+      "explanation": "A fase prodrômica enfatiza sinais antecipados. Identificar o sinal não exige que o episódio agudo já tenha ocorrido."
+    },
+    {
+      "id": "cam-cs-historico-e-atribuicao-de-responsabilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "historico-e-atribuicao-de-responsabilidade",
+      "mechanism": "historico-e-atribuicao-de-responsabilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#SCCT: grupos de crise, intensificadores e estratégias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "SCCT: grupos de crise, intensificadores e estratégias"
+      },
+      "statement": "Duas instituições sofrem falhas acidentais semelhantes. Uma já enfrentou episódios parecidos. Segundo a SCCT, o histórico é irrelevante desde que a falha atual pertença ao mesmo grupo de crise.",
+      "correctAnswer": "E",
+      "explanation": "Na SCCT, o histórico pode intensificar a ameaça reputacional. A classificação do episódio atual é apenas uma parte da análise."
+    },
+    {
+      "id": "cam-cs-reputacao-com-experiencias-distintas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "reputacao-com-experiencias-distintas",
+      "mechanism": "reputacao-com-experiencias-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Fombrun (1996): reputação e avaliação acumulada"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Fombrun (1996): reputação e avaliação acumulada"
+      },
+      "statement": "Públicos que tiveram experiências diferentes com a mesma instituição podem consolidar avaliações diferentes dela ao longo do tempo.",
+      "correctAnswer": "C",
+      "explanation": "A avaliação acumulada depende das experiências e informações de cada público. Uma reputação favorável num grupo não determina a avaliação de outro."
     }
   ]
 }

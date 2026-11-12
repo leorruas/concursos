@@ -194,4 +194,4 @@ No histórico do vault, os erros mais recorrentes foram classificar *Existem opo
 - Manual de Comunicação do Senado Federal — Concordância verbal.
 
 ---
-**Origem no histórico:** [[3 - Materias/Portugues/Avancos|Avanços e desempenho em Português]].
+**Origem no histórico:** registro individual de estudos mantido no cofre privado.

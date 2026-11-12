@@ -14,6 +14,14 @@ Fundamentos de ética, deveres profissionais, conflitos de interesses, assédio 
 
 **Prioridade pedagógica:** Complementar (C), segundo o plano interno, não como classificação oficial de incidência na prova. **Escopo:** 5 unidades.
 
+## Câmara dos Deputados 2026/2027: escopo e materiais de apoio
+
+Na seleção **Câmara 2026, Divulgação Institucional**, o núcleo específico de decoro parlamentar é [[3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara|Código de Ética e Decoro Parlamentar da Câmara (DC34)]], fundamentado nas normas da própria Casa. É o ponto de partida dessa matéria no concurso.
+
+Os seis artigos 01–06 abaixo foram preparados originalmente para o item **P1.3 do edital da CGU** e agora também aparecem como **apoio transversal** na lista de Ética da Câmara. Servem para conceitos gerais de conduta, conflito de interesses, impedimento, assédio e integridade, mas suas leis, decretos e estruturas institucionais não devem ser automaticamente aplicados à Câmara, sobretudo quando regulam o Executivo federal.
+
+Também são relacionados os artigos [[3 - Materias/Comunicacao/11 - etica em comunicacao|Ética em comunicação]] e [[3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras|Ética da comunicação e da publicidade]], que tratam de outro recorte do programa. **Pertencer à lista como apoio não transforma P1.3 da CGU em conteúdo literal obrigatório da Câmara.**
+
 ## Percurso e links de recuperação
 
 Há **seis artigos publicados para cinco unidades**; o [[1 - Planejamento/Etica Publica - Plano de artigos|plano editorial]] reúne a sequência. **A publicação não equivale a exposição, desempenho ou domínio comprovado.**

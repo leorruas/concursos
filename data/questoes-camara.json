@@ -36426,8 +36426,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-2f178d9576d10289",
-      "conceptId": "hosts-adulterado-dominio-legitimo",
-      "mechanism": "identificar-mecanismo-redirecionamento",
+      "conceptId": "pharming-redirecionamento-local-sem-comprometer-dns",
+      "mechanism": "distinguir-resolucao-local-de-servidor-dns",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
@@ -36439,10 +36439,10 @@
         "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
         "section": "2. Pharming: o redirecionamento por alteração da resolução ou do destino"
       },
-      "statement": "Se um programa malicioso altera o arquivo `hosts` para associar o domínio legítimo de um órgão a um servidor falso, o redirecionamento resultante pode caracterizar pharming.",
+      "statement": "A adulteração do arquivo local `hosts` de um computador pode desviar um domínio institucional para endereço IP controlado pelo atacante, mesmo sem que o servidor DNS da organização tenha sido alterado.",
       "correctAnswer": "C",
-      "explanation": "A adulteração da resolução local direciona o endereço confiável a outro destino, sem exigir erro de digitação do usuário.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Pharming: o redirecionamento por alteração da resolução ou do destino\" do artigo 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "O arquivo `hosts` pode fornecer mapeamento local entre nome e endereço IP. A manipulação desse mecanismo pode redirecionar o navegador sem modificar o DNS corporativo, caracterizando um vetor possível de pharming.",
+      "reviewEvidence": "Lote 026: item 023 reformulado em 12/11/2026 para distinguir-resolucao-local-de-servidor-dns, afastando mecanismo repetitivo. Confrontado com artigo art-2f178d9576d10289, seção literal '2. Pharming: o redirecionamento por alteração da resolução ou do destino', sem alegar revisão humana. Pendente validação final de originalidade, testes e integração; manter status revisada."
     },
     {
       "id": "cam-ti-l026-024-smishing-voice-e-vishing-sms",
@@ -36566,8 +36566,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-217dafb9048089a8",
-      "conceptId": "indicador-sempre-meta-numerica",
-      "mechanism": "generalizar-meta-obrigatoria",
+      "conceptId": "polaridade-indicador-nao-vem-da-unidade",
+      "mechanism": "avaliar-direcao-desejavel-pelo-contexto",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
@@ -36579,10 +36579,10 @@
         "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
         "section": "4. Métrica versus indicador: o divisor de águas da gestão"
       },
-      "statement": "Uma medida só pode receber o nome de indicador se tiver meta numérica previamente estabelecida; indicadores descritivos sem meta são conceitualmente impossíveis.",
+      "statement": "Para um indicador institucional que meça o percentual de reclamações procedentes, a unidade porcentagem, por si só, determina que valores maiores representam necessariamente melhor desempenho.",
       "correctAnswer": "E",
-      "explanation": "Há indicadores descritivos e indicadores de desempenho; a presença de uma meta não é condição universal para a classificação como indicador.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Métrica versus indicador: o divisor de águas da gestão\" do artigo 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "A direção desejável de um indicador depende do fenômeno e do objetivo. Em medidas de reclamações procedentes, aumentar o percentual não é automaticamente positivo; o formato percentual não define a polaridade da avaliação.",
+      "reviewEvidence": "Lote 026: item 028 reformulado em 12/11/2026 para avaliar-direcao-desejavel-pelo-contexto, afastando mecanismo repetitivo. Confrontado com artigo art-217dafb9048089a8, seção literal '4. Métrica versus indicador: o divisor de águas da gestão', sem alegar revisão humana. Pendente validação final de originalidade, testes e integração; manter status revisada."
     },
     {
       "id": "cam-ti-l026-029-count-asterisco-versus-coluna-null",
@@ -36762,8 +36762,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-719dd4ca3e84b65a",
-      "conceptId": "grafico-linhas-eixo-truncado-contexto",
-      "mechanism": "distinguir-base-zero-por-marca",
+      "conceptId": "grafico-linhas-distinguir-saldo-e-tendencia-monotonica",
+      "mechanism": "interpretar-inflexao-em-serie-temporal",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
@@ -36775,10 +36775,10 @@
         "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
         "section": "5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
       },
-      "statement": "Em gráfico de linhas usado para examinar pequenas mudanças de uma taxa ao longo do tempo, pode ser justificável iniciar o eixo vertical acima de zero, desde que a escala e o contexto não induzam interpretação enganosa.",
-      "correctAnswer": "C",
-      "explanation": "A posição dos pontos e a inclinação comunicam a variação; diferentemente de barras, linhas não codificam valores pelo comprimento desde uma base zero.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"5. Gráfico de linhas: a continuidade temporal e suas fronteiras\" do artigo 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "statement": "Uma série mensal de atendimentos apresenta 100 casos em janeiro, 130 em fevereiro e 120 em março. Ao conectar os três valores em um gráfico de linhas, pode-se afirmar que houve crescimento contínuo durante todo o período, pois março permanece acima de janeiro.",
+      "correctAnswer": "E",
+      "explanation": "O gráfico mostra aumento de janeiro para fevereiro e redução de fevereiro para março. Estar acima do valor inicial não equivale a crescer em todos os intervalos; a linha evidencia também a reversão local.",
+      "reviewEvidence": "Lote 026: item 035 reformulado em 12/11/2026 para interpretar-inflexao-em-serie-temporal, afastando mecanismo repetitivo. Confrontado com artigo art-719dd4ca3e84b65a, seção literal '5. Gráfico de linhas: a continuidade temporal e suas fronteiras', sem alegar revisão humana. Pendente validação final de originalidade, testes e integração; manter status revisada."
     },
     {
       "id": "cam-ti-l026-036-linhas-partidos-nominais",

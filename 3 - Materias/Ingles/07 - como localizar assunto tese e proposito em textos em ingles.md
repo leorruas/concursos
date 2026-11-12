@@ -61,7 +61,7 @@ flowchart TD
 
 ### 2.1. A estrutura da *Topic Sentence*
 
-A *topic sentence* é a oração mais importante de cada parágrafo. Ela é composta invariavelmente por dois elementos:
+A *topic sentence*, quando identificável, formula o tópico e sua orientação principal em um parágrafo argumentativo. É **um recurso possível**, não uma exigência de todos os parágrafos. Para análise didática, pode ser decomposta em dois elementos frequentes:
 $$\text{Topic Sentence} = \underbrace{\text{Topic (Assunto geral do parágrafo)}}_{\text{Ex.: Automated synthesis}} + \underbrace{\text{Controlling Idea (Ideia controladora / julgamento do autor)}}_{\text{Ex.: inherently privileges statistical frequency over nuance}}$$
 
 * **Posições típicas no texto:**

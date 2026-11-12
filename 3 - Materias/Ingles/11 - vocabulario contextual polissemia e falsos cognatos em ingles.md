@@ -219,6 +219,30 @@ Ao enfrentar itens de vocabulário e equivalência lexical elaborados pelo Cebra
 
 ---
 
+## 4.1. Leitura de polissemia fora do Legislativo
+
+**Texto de treino original, ficcional e inédito:**
+
+> The museum's new exhibition features works that were previously held in private collections. The curator noted that several objects had been acquired through donations, while others remained on loan. A temporary notice at the entrance explains that the upper floor is currently closed for maintenance. Visitors may eventually be able to view the complete exhibition online, although no launch date has been confirmed.
+
+A inferência lexical depende de função e contexto. *Features* significa apresenta ou inclui; *held in private collections* significa mantidas em acervos privados; *on loan* significa emprestadas, e não vendidas; *notice* é aviso; *currently* situa a manutenção no presente; *eventually* indica possibilidade de ocorrência futura em algum momento, sem prazo determinado.
+
+**Item adicional A (inédito, C/E).** The expression *on loan* establishes that the museum permanently owns all the objects mentioned.
+
+**Gabarito: Errado.** O empréstimo pressupõe posse ou titularidade fora do museu, conforme o caso, e não prova propriedade permanente.
+
+**Item adicional B (inédito, C/E).** The word *notice* refers to a public announcement concerning access to part of the building.
+
+**Gabarito: Certo.** O aviso na entrada informa o fechamento temporário do andar superior.
+
+**Item adicional C (inédito, C/E).** The term *eventually* indicates that the online exhibition will be launched at regular intervals.
+
+**Gabarito: Errado.** *Eventually* aponta para algum momento futuro, sem indicar periodicidade; o texto também não confirma data de lançamento.
+
+**Fronteira de variação:** a interpretação de *table a proposal* varia entre sistemas parlamentares de língua inglesa. Antes de converter a expressão em *submit* ou *postpone*, identifique a jurisdição e a situação discursiva. Esse problema é diferente dos falsos cognatos, pois envolve sentidos reais da mesma palavra em variedades distintas.
+
+---
+
 ## 5. Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**

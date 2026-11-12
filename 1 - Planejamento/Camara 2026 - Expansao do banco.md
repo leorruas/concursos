@@ -7,10 +7,11 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | Lote | Matéria | Tópicos | Geradas | Dificuldade estimada F/M/D/MD | Revisadas | Validadas | Bloqueadas | Verificação |
 | --- | --- | --- | ---: | --- | ---: | ---: | ---: | --- |
 | 001 | Divulgação Institucional | Edital 14.2.4, item 1: mídia, cronograma, produção, redação, indicadores | 40 | 5/15/17/3 | 40 | 40 | 0 | Integridade, triagem e sessões v3 |
+| 002 | Divulgação Institucional | Edital 14.2.4, item 2: marketing | 40 | 3/14/17/6 | 0 | 0 | 0 | Integridade, triagem e sessões v3 |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
 
-## Lote 002 em elaboração
+## Lote 002 em revisão
 
-O lote 002 cobre o item 2 de Divulgação Institucional. Foram registradas 10 questões geradas sobre conceitos, planejamento, marketing institucional, endomarketing e segmentação, vinculadas aos artigos 95 a 99. Foram acrescentadas oito questões sobre marketing digital e comportamento do consumidor, vinculadas aos artigos 100 e 101. Completar o lote de 36 para pelo menos 40 itens, incluindo casos de integração, antes da validação editorial. Meta consolidada de expansão validada: 40/2.000.
+O lote 002 cobre o item 2 de Divulgação Institucional. Foram registradas 10 questões geradas sobre conceitos, planejamento, marketing institucional, endomarketing e segmentação, vinculadas aos artigos 95 a 99. Foram acrescentadas oito questões sobre marketing digital e comportamento do consumidor, vinculadas aos artigos 100 e 101. Elaboração concluída com 40 itens. Revisar fontes, gabaritos e dificuldade. Comparar os pares sobre valor percebido, participação relativa e continuidade entre canais. Meta consolidada de expansão validada: 40/2.000.

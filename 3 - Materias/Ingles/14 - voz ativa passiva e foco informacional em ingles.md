@@ -14,9 +14,9 @@ tags:
 
 # Voz Ativa, Passiva e Foco Informacional em Textos Institucionais em Inglês
 
-Nas provas de Língua Inglesa do Cebraspe para carreiras de nível superior, a alternância entre **voz ativa (*active voice*)** e **voz passiva (*passive voice*)** não é tratada como um mero exercício mecânico de transposição gramatical. A banca explora os efeitos discursivos dessa escolha na **distribuição do dinamismo comunicativo**, na **gestão do foco informacional (*theme and rheme*)**, na **impessoalização de atos administrativos** e na **omissão deliberada do agente da ação (*agent omission*)** em relatórios oficiais e auditorias públicas.
+A alternância entre **voz ativa (*active voice*)** e **voz passiva (*passive voice*)** afeta tanto a estrutura gramatical quanto a apresentação da informação. Para ler e comparar versões de uma frase, é necessário distinguir agente, paciente, tempo/aspecto e **foco informacional (*theme and rheme*)**. A omissão do agente pode ser relevante em relatórios institucionais, mas não comprova, isoladamente, uma escolha deliberada de ocultação.
 
-Em textos legislativos e governamentais, a voz passiva é predominante porque o foco recai sobre o ato praticado, a proposição aprovada ou a política pública implementada, e não sobre a pessoa física dos burocratas ou parlamentares. O Cebraspe testa com rigor:
+A passiva é um recurso possível em textos legislativos, governamentais e jornalísticos, com distribuição variável conforme o gênero. Não há levantamento neste material que demonstre sua predominância nesses textos ou a frequência dos tipos de questões. Para avaliar transposições em exercícios C/E, verifique:
 1. Se a transposição entre as vozes preserva o tempo gramatical e o aspecto verbal originais (a conjugação do verbo auxiliar *BE*);
 2. Se a conversão passiva é lícita em verbos intransitivos ou preposicionados;
 3. Se o agente da passiva (*by-agent*) foi indevidamente distorcido ou inferido sem suporte textual.

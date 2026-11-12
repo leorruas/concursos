@@ -132,6 +132,26 @@ O Manual possui seção específica de [“Proibições dos períodos eleitorais
 
 **Gabarito: Errado.** A diretriz de complementaridade exige supervisão humana; precisão e transparência também continuam necessárias. O fato de o insumo ser institucional não comprova a correção da saída.
 
+## Oficina editorial: correção de notícia e delimitação de competências (11/11/2026)
+
+**Situação:** a Agência Câmara publica que uma comissão aprovou definitivamente um projeto, quando o documento oficial registra apenas aprovação de parecer e ainda existem outras etapas de tramitação. O editor deve verificar o **texto efetivamente deliberado**, a fase legislativa, a comissão competente e os próximos passos antes de produzir uma versão corrigida. O [Manual, seção Agência Câmara](https://infograficos.camara.leg.br/manual-de-comunicacao/agencia-camara/), determina que notícias de aprovação distingam **projeto original, substitutivo e alterações**, quando pertinentes, e expliquem a continuidade da tramitação. Identificar autor e relator é informação contextual, não finalidade promocional.
+
+**Correção conforme o Manual da Agência:** a alteração deve aparecer em **aviso no alto do texto**; erro importante deve ser explicitado **também no pé da notícia**. Se a incorreção estiver no **título ou lide**, a correção também deve aparecer no título. A notícia corrigida **substitui a versão anterior, preservando a URL**, com avaliação editorial da necessidade de atualizar o horário. As regras são orientações próprias da Agência no Manual, **não prescrições universais para qualquer documento de outro veículo**.
+
+**Fonte, edição e descobrimento:** a seção oficial estabelece **dupla leitura por dois editores**, enquanto o autor continua responsável pela correção da informação. Recomenda identificar a **Câmara dos Deputados** em notícias acessadas por buscadores, evitar siglas ou nomes reduzidos de comissões nos títulos e usar termos do **Tesauro da Câmara (Tecad)** para indexação de notícias, com apoio do Cedi. Os critérios são diferentes: a dupla edição observa texto e informação; a indexação melhora organização e localização; nenhum deles substitui documento oficial ou apuração.
+
+**Caso progressivo:** (1) a notícia ainda será publicada: conferir proposição, substitutivo e fase; (2) foi publicada com erro secundário: registrar atualização; (3) contém erro relevante no lide: explicitar correção no título e no pé, além da nota superior; (4) o veículo recebe solicitação para suprimir divergência política registrada em audiência: observar o **pluralismo e o relato fiel**. O Manual da Agência orienta que, se todos os convidados tiverem defendido uma única posição, a notícia informe essa circunstância; **não manda buscar falas fictícias de participantes ausentes** para produzir simetria artificial.
+
+**Item 4, inédito.** Segundo o Manual da Agência Câmara, quando uma notícia publicada é corrigida por erro importante no título, o editor deve substituir a versão anterior mantendo a URL, registrar atualização no alto do texto e fazer constar a correção também no título e no pé da notícia.
+
+**Gabarito: Certo.** A seção *Regras gerais da edição* estabelece essas providências e diferencia correção de mera circulação de uma nova peça.
+
+**Item 5, inédito.** Se todos os participantes de determinada audiência pública defenderem a mesma posição, o Manual da Agência Câmara exige que a notícia apresente declarações atribuídas a representantes ausentes do debate para produzir equilíbrio jornalístico.
+
+**Gabarito: Errado.** A Agência deve indicar que não houve participantes de posição divergente, preservando fidelidade ao evento e ao caráter da cobertura.
+
+**Fonte normativa-editorial:** [Manual de Comunicação, Agência Câmara, notícias típicas e regras gerais da edição](https://infograficos.camara.leg.br/manual-de-comunicacao/agencia-camara/). Os casos são simulados; os itens 4 e 5 são **autorais inéditos**, separados de questões reais da banca.
+
 ## Relações, tensões e heurísticas
 
 O [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|CAM-CO-026]] detalha **princípios, objetivos, requisitos, competências e vedações** da política normativa. Esta unidade registra **como áreas e profissionais orientam a produção**. [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria|CAM-CO-025]] explica a distinção entre institucional, pública e político-partidária. [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|CAM-CO-024]] relaciona publicação de informação e dever legal de transparência.

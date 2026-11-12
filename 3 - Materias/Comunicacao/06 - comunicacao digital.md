@@ -274,8 +274,8 @@ A documentação **Google Search Central** distingue **descoberta, rastreamento 
 
 ---
 **Fontes Brutas:**
-- [[00 inbox/06-07-2026]]
-- [[00 ingestão]]
+
+
 
 **Fontes e referências relacionadas:**
 - Nielsen Norman Group, *10 Usability Heuristics for User Interface Design*.

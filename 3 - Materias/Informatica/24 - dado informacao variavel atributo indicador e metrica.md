@@ -113,13 +113,13 @@ Esta é uma das distinções com maior taxa de erro em provas de controle, comun
 
 ## 5. Anatomia de um indicador de desempenho público
 
-Um indicador consistente no setor público e no plano estratégico da Câmara dos Deputados deve ser composto por:
+Para um **indicador de desempenho** usado em decisão pública, convém documentar os elementos seguintes **quando pertinentes à finalidade**. Indicadores meramente descritivos podem não ter meta ou polaridade, e os exemplos abaixo são ilustrativos, não definições de metas oficiais da Câmara:
 1. **Nome / Descritor:** Denominação clara do que está sendo medido.
 2. **Fórmula de Cálculo:** Expressão matemática reproduzível e auditável (ex.: $\text{Taxa} = \frac{\text{Emendas Executadas}}{\text{Emendas Aprovadas}} \times 100$).
 3. **Unidade de Medida:** Porcentagem (%), dias, reais (R$), índice adimensional.
 4. **Linha de Base (*Baseline*):** Valor histórico de partida antes da intervenção.
-5. **Meta (*Target*):** Valor numérico almejado em prazo determinado.
-6. **Polaridade:** Direção desejável do indicador (*quanto maior, melhor* ou *quanto menor, melhor*).
+5. **Meta (*Target*) quando aplicável:** Valor ou faixa de referência desejada, com horizonte temporal e critério de avaliação. Indicadores descritivos podem ser acompanhados sem meta.
+6. **Sentido de avaliação quando aplicável:** Pode ser *quanto maior, melhor*, *quanto menor, melhor* ou *mais próximo de um valor/faixa, melhor*. Uma polaridade binária não é requisito de todo indicador.
 7. **Periodicidade:** Mensal, trimestral, anual.
 8. **Fonte e Responsável:** Órgão ou sistema de extração dos dados (garantindo rastreabilidade).
 

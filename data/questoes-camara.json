@@ -29095,7 +29095,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
       ],
@@ -29105,7 +29105,8 @@
       },
       "statement": "Em “A comissão não voltou a discutir o parecer”, a negação de “voltou” mantém a informação pressuposta de que o parecer já havia sido discutido pela comissão.",
       "correctAnswer": "C",
-      "explanation": "Voltar a fazer algo pressupõe ocorrência anterior. A negação recai sobre a retomada."
+      "explanation": "Voltar a fazer algo pressupõe ocorrência anterior. A negação recai sobre a retomada.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md, seção '3. Os Ativadores (Gatilhos) de Pressuposição'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-alguns-e-totalidade",
@@ -29122,7 +29123,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
       ],
@@ -29132,7 +29133,8 @@
       },
       "statement": "De “Alguns requerimentos foram devolvidos por falta de assinatura” conclui-se que todos os requerimentos devolvidos tinham esse mesmo problema.",
       "correctAnswer": "E",
-      "explanation": "A frase identifica uma parte dos requerimentos. Ela não fornece o motivo de todas as devoluções."
+      "explanation": "A frase identifica uma parte dos requerimentos. Ela não fornece o motivo de todas as devoluções.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md, seção '5. Inferência Legítima versus Extrapolação no Padrão Cebraspe'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-encapsulamento-de-evento",
@@ -29149,7 +29151,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-642578f70775bddb#4. Anáfora Encapsuladora e Anáfora Associativa"
       ],
@@ -29159,7 +29161,8 @@
       },
       "statement": "Em “O relator retirou a proposta na véspera da votação. Essa decisão alterou a pauta”, a expressão “essa decisão” retoma o ato de retirar a proposta.",
       "correctAnswer": "C",
-      "explanation": "A expressão resume um evento descrito na frase anterior e o retoma como uma decisão."
+      "explanation": "A expressão resume um evento descrito na frase anterior e o retoma como uma decisão.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md, seção '4. Anáfora Encapsuladora e Anáfora Associativa'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-associacao-sem-correspondencia",
@@ -29176,7 +29179,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-642578f70775bddb#4. Anáfora Encapsuladora e Anáfora Associativa"
       ],
@@ -29186,7 +29189,8 @@
       },
       "statement": "Em “Uma audiência foi convocada para quinta-feira. Os convidados receberão as instruções por e-mail”, a expressão “os convidados” tem o mesmo referente de “uma audiência”.",
       "correctAnswer": "E",
-      "explanation": "Os convidados são pessoas associadas ao evento. A audiência e seus participantes têm referentes diferentes."
+      "explanation": "Os convidados são pessoas associadas ao evento. A audiência e seus participantes têm referentes diferentes.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md, seção '4. Anáfora Encapsuladora e Anáfora Associativa'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-concessao-com-resultado-contrario",
@@ -29203,7 +29207,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-10e06314b6caf790#2. A Oposição Decisiva no Cebraspe: Adversidade $\\times$ Concessão"
       ],
@@ -29213,7 +29217,8 @@
       },
       "statement": "Em “Embora o parecer fosse favorável, a proposta foi rejeitada”, a oração inicial apresenta uma circunstância que poderia levar à expectativa de aprovação.",
       "correctAnswer": "C",
-      "explanation": "A concessão admite um fato que cria expectativa contrária ao desfecho expresso na oração principal."
+      "explanation": "A concessão admite um fato que cria expectativa contrária ao desfecho expresso na oração principal.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md, seção '2. A Oposição Decisiva no Cebraspe: Adversidade $\\times$ Concessão'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-logo-temporal-nao-conclusivo",
@@ -29230,7 +29235,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-10e06314b6caf790#4. Conectivos Polissêmicos em Destaque no Cebraspe"
       ],
@@ -29240,7 +29245,8 @@
       },
       "statement": "Em “Logo após a leitura do relatório, abriu-se a votação”, o termo “logo” introduz uma conclusão lógica extraída do conteúdo do relatório.",
       "correctAnswer": "E",
-      "explanation": "Na construção “logo após”, o termo marca proximidade temporal. O período indica quando a votação começou."
+      "explanation": "Na construção “logo após”, o termo marca proximidade temporal. O período indica quando a votação começou.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md, seção '4. Conectivos Polissêmicos em Destaque no Cebraspe'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-foco-restritivo-no-sujeito",
@@ -29257,7 +29263,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
       ],
@@ -29267,7 +29273,8 @@
       },
       "statement": "Em “Somente os suplentes solicitaram acesso ao anexo”, pode-se concluir que nenhum titular o solicitou, supondo que titulares e suplentes sejam categorias distintas no contexto.",
       "correctAnswer": "C",
-      "explanation": "Somente restringe aos suplentes o grupo que fez a solicitação. A frase não afirma que todos os suplentes solicitaram acesso."
+      "explanation": "Somente restringe aos suplentes o grupo que fez a solicitação. A frase não afirma que todos os suplentes solicitaram acesso.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md, seção '5. Inferência Legítima versus Extrapolação no Padrão Cebraspe'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-mudanca-de-causa-para-condicao",
@@ -29284,7 +29291,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-10e06314b6caf790#5. Casos Práticos na Reescrita e Interpretação"
       ],
@@ -29294,7 +29301,8 @@
       },
       "statement": "Reescrever “Como a documentação estava incompleta, a análise foi adiada” como “Se a documentação estiver incompleta, a análise será adiada” preserva a afirmação de que o adiamento já ocorreu.",
       "correctAnswer": "E",
-      "explanation": "A versão inicial narra um adiamento e sua causa. A nova frase apresenta uma hipótese e a consequência futura correspondente."
+      "explanation": "A versão inicial narra um adiamento e sua causa. A nova frase apresenta uma hipótese e a consequência futura correspondente.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md, seção '5. Casos Práticos na Reescrita e Interpretação'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-mudanca-no-escopo-da-negacao",
@@ -29311,7 +29319,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
       ],
@@ -29321,7 +29329,8 @@
       },
       "statement": "A afirmação “Nem todos os pareceres receberam emendas” equivale a dizer que nenhum parecer recebeu emenda.",
       "correctAnswer": "E",
-      "explanation": "Negar a totalidade indica que pelo menos um parecer não recebeu emenda. A frase permite que outros a tenham recebido."
+      "explanation": "Negar a totalidade indica que pelo menos um parecer não recebeu emenda. A frase permite que outros a tenham recebido.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md, seção '5. Inferência Legítima versus Extrapolação no Padrão Cebraspe'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-continuar-e-estado-anterior",
@@ -29338,7 +29347,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
       ],
@@ -29348,7 +29357,8 @@
       },
       "statement": "Em “A comissão continuou a receber sugestões após a audiência”, o verbo “continuou” indica que o recebimento de sugestões já ocorria antes.",
       "correctAnswer": "C",
-      "explanation": "Continuar uma atividade pressupõe que ela estava em andamento no momento anterior relevante."
+      "explanation": "Continuar uma atividade pressupõe que ela estava em andamento no momento anterior relevante.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md, seção '3. Os Ativadores (Gatilhos) de Pressuposição'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-previsao-e-realizacao",
@@ -29365,7 +29375,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
       ],
@@ -29375,7 +29385,8 @@
       },
       "statement": "Da frase “A secretaria previa concluir a análise até sexta-feira” decorre que a análise foi concluída até essa data.",
       "correctAnswer": "E",
-      "explanation": "A previsão informa a expectativa da secretaria. O enunciado não relata o resultado efetivo."
+      "explanation": "A previsão informa a expectativa da secretaria. O enunciado não relata o resultado efetivo.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md, seção '5. Inferência Legítima versus Extrapolação no Padrão Cebraspe'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-demonstrativo-anuncia-lista",
@@ -29392,7 +29403,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-642578f70775bddb#2. A Arquitetura da Referenciação: Dêixis $\\times$ Endófora"
       ],
@@ -29402,7 +29413,8 @@
       },
       "statement": "Em “Estas serão as etapas: inscrição, sorteio e convocação”, o demonstrativo remete à enumeração que aparece depois dos dois-pontos.",
       "correctAnswer": "C",
-      "explanation": "A referência aponta para um segmento posterior do próprio texto. Trata-se de catáfora."
+      "explanation": "A referência aponta para um segmento posterior do próprio texto. Trata-se de catáfora.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md, seção '2. A Arquitetura da Referenciação: Dêixis $\\times$ Endófora'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-deitico-com-referencia-textual-inventada",
@@ -29419,7 +29431,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-642578f70775bddb#2. A Arquitetura da Referenciação: Dêixis $\\times$ Endófora"
       ],
@@ -29429,7 +29441,8 @@
       },
       "statement": "Em um aviso que começa com “Aqui você pode solicitar segunda via”, o termo “aqui” necessariamente retoma o nome de um lugar mencionado antes no próprio aviso.",
       "correctAnswer": "E",
-      "explanation": "Aqui pode remeter à página ou ao local em que o destinatário recebe a mensagem. A referência pode depender da situação de comunicação."
+      "explanation": "Aqui pode remeter à página ou ao local em que o destinatário recebe a mensagem. A referência pode depender da situação de comunicação.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md, seção '2. A Arquitetura da Referenciação: Dêixis $\\times$ Endófora'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-enquanto-com-contraste-entre-unidades",
@@ -29446,7 +29459,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-10e06314b6caf790#4. Conectivos Polissêmicos em Destaque no Cebraspe"
       ],
@@ -29456,7 +29469,8 @@
       },
       "statement": "Em “Enquanto a primeira versão exige cadastro, a segunda admite consulta anônima”, “enquanto” permite contrapor as condições de acesso das duas versões.",
       "correctAnswer": "C",
-      "explanation": "O conector organiza o contraste entre exigências paralelas. A frase não depende de interpretar as ações como simultâneas."
+      "explanation": "O conector organiza o contraste entre exigências paralelas. A frase não depende de interpretar as ações como simultâneas.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md, seção '4. Conectivos Polissêmicos em Destaque no Cebraspe'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-finalidade-trocada-por-consequencia",
@@ -29473,7 +29487,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-10e06314b6caf790#5. Casos Práticos na Reescrita e Interpretação"
       ],
@@ -29483,7 +29497,8 @@
       },
       "statement": "Em “A equipe adiou a publicação para que o arquivo fosse conferido”, substituir “para que” por “de modo que”, com os ajustes verbais necessários, preserva necessariamente a relação de finalidade.",
       "correctAnswer": "E",
-      "explanation": "A construção original apresenta o objetivo do adiamento. Uma reescrita como “de modo que o arquivo foi conferido” apresenta a conferência como consequência efetiva."
+      "explanation": "A construção original apresenta o objetivo do adiamento. Uma reescrita como “de modo que o arquivo foi conferido” apresenta a conferência como consequência efetiva.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md, seção '5. Casos Práticos na Reescrita e Interpretação'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-referente-por-categoria-superior",
@@ -29500,7 +29515,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-642578f70775bddb#4. Anáfora Encapsuladora e Anáfora Associativa"
       ],
@@ -29510,7 +29525,8 @@
       },
       "statement": "Em “Uma pesquisadora apresentou os resultados. A especialista respondeu às perguntas”, o segundo sintagma pode retomar a pessoa apresentada na primeira frase, ainda que não repita a palavra “pesquisadora”.",
       "correctAnswer": "C",
-      "explanation": "Uma descrição diferente pode identificar o mesmo referente quando o contexto sustenta a ligação."
+      "explanation": "Uma descrição diferente pode identificar o mesmo referente quando o contexto sustenta a ligação.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/18 - referencia textual anafora catafora e deixis.md, seção '4. Anáfora Encapsuladora e Anáfora Associativa'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-elipse-com-verbo-recuperavel",
@@ -29527,7 +29543,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-952aa54cbc30eb00#2. Coesão Gramatical: Elipse e Substituição"
       ],
@@ -29537,7 +29553,8 @@
       },
       "statement": "Em “A primeira equipe revisou as tabelas e a segunda, os gráficos”, a vírgula depois de “segunda” marca a omissão de um verbo recuperável da primeira oração.",
       "correctAnswer": "C",
-      "explanation": "O trecho admite a leitura “a segunda equipe revisou os gráficos”. O verbo revisou está expresso antes e é recuperado na segunda oração."
+      "explanation": "O trecho admite a leitura “a segunda equipe revisou os gráficos”. O verbo revisou está expresso antes e é recuperado na segunda oração.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md, seção '2. Coesão Gramatical: Elipse e Substituição'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-hiperonimo-com-escopo-alterado",
@@ -29554,7 +29571,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-952aa54cbc30eb00#3. Coesão Lexical: Estruturas Semânticas e Relações Conceituais"
       ],
@@ -29564,7 +29581,8 @@
       },
       "statement": "Em um aviso que informa a suspensão de ônibus, trocar “ônibus” por “veículos” preserva necessariamente o conjunto afetado, ainda que a frase seja lida isoladamente.",
       "correctAnswer": "E",
-      "explanation": "Veículos é uma categoria mais ampla. Sem contexto que a restrinja, a substituição permite incluir outros meios de transporte."
+      "explanation": "Veículos é uma categoria mais ampla. Sem contexto que a restrinja, a substituição permite incluir outros meios de transporte.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md, seção '3. Coesão Lexical: Estruturas Semânticas e Relações Conceituais'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-substituicao-por-proforma-verbal",
@@ -29581,7 +29599,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-952aa54cbc30eb00#2. Coesão Gramatical: Elipse e Substituição"
       ],
@@ -29591,7 +29609,8 @@
       },
       "statement": "Em “A secretaria atualizou a página e a comissão também o fez”, a construção “o fez” retoma a ação de atualizar a página.",
       "correctAnswer": "C",
-      "explanation": "A construção substitui o predicado anterior. A ação é retomada e atribuída a outro sujeito."
+      "explanation": "A construção substitui o predicado anterior. A ação é retomada e atribuída a outro sujeito.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md, seção '2. Coesão Gramatical: Elipse e Substituição'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-coordenacao-entre-complementos",
@@ -29608,7 +29627,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-cd7059fe8508b9d0#5A. Coordenação entre termos: além das orações"
       ],
@@ -29618,7 +29637,8 @@
       },
       "statement": "Em “O relatório analisa receitas e despesas”, a conjunção “e” coordena duas orações independentes.",
       "correctAnswer": "E",
-      "explanation": "A conjunção liga dois termos que funcionam como complemento de analisa. Há apenas um núcleo verbal."
+      "explanation": "A conjunção liga dois termos que funcionam como complemento de analisa. Há apenas um núcleo verbal.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas.md, seção '5A. Coordenação entre termos: além das orações'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-alternancia-com-prazo-condicional",
@@ -29635,7 +29655,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-cd7059fe8508b9d0#2. As Cinco Modalidades de Orações Coordenadas Sindéticas"
       ],
@@ -29645,7 +29665,8 @@
       },
       "statement": "Em “Entregue o formulário até amanhã, ou o pedido será arquivado”, a segunda oração apresenta a consequência prevista para o descumprimento da primeira instrução.",
       "correctAnswer": "C",
-      "explanation": "A alternativa equivale contextualmente a “se não entregar, o pedido será arquivado”. O efeito decorre da interpretação das orações em conjunto."
+      "explanation": "A alternativa equivale contextualmente a “se não entregar, o pedido será arquivado”. O efeito decorre da interpretação das orações em conjunto.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/24 - coordenacao relacoes sintaticas e semanticas.md, seção '2. As Cinco Modalidades de Orações Coordenadas Sindéticas'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-subordinada-objetiva-e-sujeito",
@@ -29662,7 +29683,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-33566ad5fe490701#2. Orações Subordinadas Substantivas: O Teste do \"ISSO\""
       ],
@@ -29672,7 +29693,8 @@
       },
       "statement": "Em “A comissão confirmou que o prazo terminaria na sexta-feira”, a oração iniciada por “que” funciona como sujeito de “confirmou”.",
       "correctAnswer": "E",
-      "explanation": "A comissão é o sujeito. A oração subordinada completa o verbo confirmou e pode ser substituída por “isso”."
+      "explanation": "A comissão é o sujeito. A oração subordinada completa o verbo confirmou e pode ser substituída por “isso”.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md, seção '2. Orações Subordinadas Substantivas: O Teste do \"ISSO\"'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-restritiva-delimita-subconjunto",
@@ -29689,7 +29711,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-33566ad5fe490701#3. Orações Subordinadas Adjetivas: Restrição $\\times$ Explicação e Pronomes Relativos"
       ],
@@ -29699,7 +29721,8 @@
       },
       "statement": "Em “Os formulários que chegaram sem assinatura serão devolvidos”, a oração relativa delimita quais formulários serão devolvidos.",
       "correctAnswer": "C",
-      "explanation": "A oração adjetiva restringe o conjunto aos formulários sem assinatura. A afirmação não se estende aos demais."
+      "explanation": "A oração adjetiva restringe o conjunto aos formulários sem assinatura. A afirmação não se estende aos demais.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md, seção '3. Orações Subordinadas Adjetivas: Restrição $\\times$ Explicação e Pronomes Relativos'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-reduzida-com-leitura-temporal",
@@ -29716,7 +29739,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-33566ad5fe490701#5. Orações Reduzidas (Infinitivo, Gerúndio e Particípio)"
       ],
@@ -29726,7 +29749,8 @@
       },
       "statement": "Em “Encerrada a votação, a presidência anunciou o resultado”, o segmento inicial afirma que o encerramento foi causado pelo anúncio.",
       "correctAnswer": "E",
-      "explanation": "O segmento reduzido de particípio indica que o anúncio ocorreu após o encerramento. A frase não atribui ao anúncio a causa do encerramento."
+      "explanation": "O segmento reduzido de particípio indica que o anúncio ocorreu após o encerramento. A frase não atribui ao anúncio a causa do encerramento.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/25 - subordinacao substantiva adjetiva e adverbial.md, seção '5. Orações Reduzidas (Infinitivo, Gerúndio e Particípio)'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-habitual-versus-evento-unico",
@@ -29743,7 +29767,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3c2532290c3996fa#2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
       ],
@@ -29753,7 +29777,8 @@
       },
       "statement": "Em “A secretaria conferia os anexos toda segunda-feira”, o imperfeito, associado à expressão de frequência, apresenta a conferência como habitual no período referido.",
       "correctAnswer": "C",
-      "explanation": "O imperfeito é compatível com hábitos passados. A expressão “toda segunda-feira” explicita a recorrência."
+      "explanation": "O imperfeito é compatível com hábitos passados. A expressão “toda segunda-feira” explicita a recorrência.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md, seção '2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-anterioridade-entre-eventos-passados",
@@ -29770,7 +29795,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3c2532290c3996fa#3. A Semântica dos Tempos do Indicativo no Cebraspe"
       ],
@@ -29780,7 +29805,8 @@
       },
       "statement": "Em “Quando a votação começou, a relatora já entregara o parecer”, a entrega é apresentada como posterior ao início da votação.",
       "correctAnswer": "E",
-      "explanation": "O mais-que-perfeito situa a entrega antes do início da votação. O advérbio “já” reforça a anterioridade."
+      "explanation": "O mais-que-perfeito situa a entrega antes do início da votação. O advérbio “já” reforça a anterioridade.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md, seção '3. A Semântica dos Tempos do Indicativo no Cebraspe'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-futuro-visto-do-passado",
@@ -29797,7 +29823,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3c2532290c3996fa#3. A Semântica dos Tempos do Indicativo no Cebraspe"
       ],
@@ -29807,7 +29833,8 @@
       },
       "statement": "Em “Na segunda-feira, a direção informou que o relatório sairia na sexta”, “sairia” apresenta a publicação como posterior ao momento em que a direção prestou a informação.",
       "correctAnswer": "C",
-      "explanation": "O futuro do pretérito pode indicar um evento posterior a um ponto de referência passado."
+      "explanation": "O futuro do pretérito pode indicar um evento posterior a um ponto de referência passado.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md, seção '3. A Semântica dos Tempos do Indicativo no Cebraspe'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-perfeito-composto-acao-unica-concluida",
@@ -29824,7 +29851,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3c2532290c3996fa#5. Casos Práticos na Reescrita e Interpretação Cebraspe"
       ],
@@ -29834,7 +29861,8 @@
       },
       "statement": "Reescrever “A equipe tem revisado as fichas” como “A equipe revisou as fichas” preserva necessariamente a ideia de atividade reiterada no período recente.",
       "correctAnswer": "E",
-      "explanation": "A forma composta pode indicar repetição ou continuidade até o presente. A forma simples permite interpretar a revisão como evento concluído."
+      "explanation": "A forma composta pode indicar repetição ou continuidade até o presente. A forma simples permite interpretar a revisão como evento concluído.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md, seção '5. Casos Práticos na Reescrita e Interpretação Cebraspe'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-subjuntivo-apos-eventualidade",
@@ -29851,7 +29879,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3c2532290c3996fa#4. Correlação Verbal (*Consecutio Temporum*)"
       ],
@@ -29861,7 +29889,8 @@
       },
       "statement": "Em “Quando o parecer chegar, a comissão marcará a reunião”, “chegar” é forma do futuro do subjuntivo e apresenta a chegada como evento ainda não realizado no momento da fala.",
       "correctAnswer": "C",
-      "explanation": "A oração temporal antecipa um evento futuro. Nessa estrutura, a forma coincide graficamente com o infinitivo de chegar."
+      "explanation": "A oração temporal antecipa um evento futuro. Nessa estrutura, a forma coincide graficamente com o infinitivo de chegar.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md, seção '4. Correlação Verbal (*Consecutio Temporum*)'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-ordem-e-descricao",
@@ -29878,7 +29907,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3c2532290c3996fa#2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
       ],
@@ -29888,7 +29917,8 @@
       },
       "statement": "Trocar “Confiram os anexos antes de enviar” por “Vocês conferem os anexos antes de enviar” preserva, em leitura literal e sem contexto adicional, o valor gramatical de ordem expresso na primeira frase.",
       "correctAnswer": "E",
-      "explanation": "A primeira frase emprega o imperativo. A segunda, no presente do indicativo, pode descrever uma rotina."
+      "explanation": "A primeira frase emprega o imperativo. A segunda, no presente do indicativo, pode descrever uma rotina.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md, seção '2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-simultaneidade-com-acao-em-curso",
@@ -29905,7 +29935,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3c2532290c3996fa#2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
       ],
@@ -29915,7 +29945,8 @@
       },
       "statement": "Em “A equipe verificava os arquivos quando a rede caiu”, a queda é situada no decorrer da verificação, sem que o período informe se a verificação foi concluída.",
       "correctAnswer": "C",
-      "explanation": "O imperfeito apresenta a verificação em curso. O perfeito introduz a queda como acontecimento pontual nesse intervalo."
+      "explanation": "O imperfeito apresenta a verificação em curso. O perfeito introduz a queda como acontecimento pontual nesse intervalo.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md, seção '2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo'; integridade e seleção no CI, sem pressupor calibração da banca."
     },
     {
       "id": "cam-port-subjuntivo-e-certeza-factual",
@@ -29932,7 +29963,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-3c2532290c3996fa#2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo"
       ],
@@ -29942,7 +29973,232 @@
       },
       "statement": "Em “É possível que a comissão tenha aceitado o pedido”, a oração subordinada afirma o aceite como fato confirmado.",
       "correctAnswer": "E",
-      "explanation": "A locução “é possível” apresenta o aceite como hipótese. O subjuntivo acompanha esse valor modal."
+      "explanation": "A locução “é possível” apresenta o aceite como hipótese. O subjuntivo acompanha esse valor modal.",
+      "reviewEvidence": "Lote 020: gabarito e fronteira conceitual revisados no artigo 3 - Materias/Portugues/21 - tempo modo e aspecto verbal na construcao do texto.md, seção '2. Modos e Aspectos Verbais: A Atitude do Enunciador e a Duração do Processo'; integridade e seleção no CI, sem pressupor calibração da banca."
+    },
+    {
+      "id": "cam-port-virgula-entre-sujeito-e-verbo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gramática e reescrita",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "pontuacao-sujeito-verbo",
+      "mechanism": "virgula-apos-sujeito-extenso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#2. O Regime da Vírgula: Proibições, Obrigatoriedades e Facultatividades"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "2. O Regime da Vírgula: Proibições, Obrigatoriedades e Facultatividades"
+      },
+      "statement": "Em “As orientações encaminhadas aos servidores das unidades regionais foram revisadas”, inserir vírgula imediatamente antes de “foram” preserva a correção gramatical, pois o sujeito é extenso.",
+      "correctAnswer": "E",
+      "explanation": "A extensão do sujeito não autoriza separá-lo do predicado por vírgula na ordem direta.",
+      "reviewEvidence": "Lote 020: cotejo editorial do gabarito com o artigo e a seção indicados; revisão de mecanismo e explicação, com teste de integridade e similaridade."
+    },
+    {
+      "id": "cam-port-fazer-impessoal-pluralizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gramática e reescrita",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "fazer-temporal-impessoal",
+      "mechanism": "pluralizar-verbo-impessoal-temporal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#3.4. Verbos impessoais, locuções verbais e passiva sintética"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "3.4. Verbos impessoais, locuções verbais e passiva sintética"
+      },
+      "statement": "Na frase “Faz dois anos que o sistema foi implantado”, flexionar “faz” no plural manteria a concordância exigida pela norma-padrão, em razão da expressão “dois anos”.",
+      "correctAnswer": "E",
+      "explanation": "O verbo fazer com sentido de tempo decorrido é impessoal e permanece na terceira pessoa do singular.",
+      "reviewEvidence": "Lote 020: cotejo editorial do gabarito com o artigo e a seção indicados; revisão de mecanismo e explicação, com teste de integridade e similaridade."
+    },
+    {
+      "id": "cam-port-regencia-referencia-a-que",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gramática e reescrita",
+      "articleId": "art-0cb14544830d0b6d",
+      "conceptId": "pronome-relativo-preposicao-regida",
+      "mechanism": "omissao-de-preposicao-com-referir-se",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cb14544830d0b6d#4.1. Regência com pronomes relativos: a migração obrigatória da preposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos.md",
+        "section": "4.1. Regência com pronomes relativos: a migração obrigatória da preposição"
+      },
+      "statement": "Em “O parecer a que os assessores se referiram foi arquivado”, a preposição “a” antes de “que” decorre da regência de “referir-se” e não pode ser suprimida sem afetar a correção gramatical.",
+      "correctAnswer": "C",
+      "explanation": "Na acepção de fazer referência a algo, referir-se rege a preposição a; diante do relativo, ela precede que.",
+      "reviewEvidence": "Lote 020: cotejo editorial do gabarito com o artigo e a seção indicados; revisão de mecanismo e explicação, com teste de integridade e similaridade."
+    },
+    {
+      "id": "cam-port-crase-alteracao-de-genero",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gramática e reescrita",
+      "articleId": "art-3f8cfa8b8d43c2bd",
+      "conceptId": "crase-fusao-preposicao-artigo",
+      "mechanism": "troca-de-substantivo-feminino-por-masculino",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3f8cfa8b8d43c2bd#2. O mecanismo estrutural da crase: o encontro de dois \"A\""
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos.md",
+        "section": "2. O mecanismo estrutural da crase: o encontro de dois \"A\""
+      },
+      "statement": "Ao trocar “comissão” por “conselho” em “A secretaria encaminhou a minuta à comissão”, deve-se usar “ao conselho”, pois a preposição exigida por “encaminhou” se combina com o artigo masculino.",
+      "correctAnswer": "C",
+      "explanation": "A regência permite encaminhar algo a alguém; a + a comissão produz à comissão, enquanto a + o conselho produz ao conselho.",
+      "reviewEvidence": "Lote 020: cotejo editorial do gabarito com o artigo e a seção indicados; revisão de mecanismo e explicação, com teste de integridade e similaridade."
+    },
+    {
+      "id": "cam-port-proclise-negacao-com-enclise",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gramática e reescrita",
+      "articleId": "art-3e69afeada1328e6",
+      "conceptId": "negacao-atrai-pronome",
+      "mechanism": "enclise-apos-nao-sem-pausa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3e69afeada1328e6#3. Fatores de próclise obrigatória (palavras atrativas)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/30 - colocacao dos pronomes atonos proclise mesoclise e enclise.md",
+        "section": "3. Fatores de próclise obrigatória (palavras atrativas)"
+      },
+      "statement": "Em “Não lhe enviaram o comprovante”, a substituição por “Não enviaram-lhe o comprovante” mantém a colocação pronominal recomendada pela norma-padrão.",
+      "correctAnswer": "E",
+      "explanation": "A negação “não”, sem pausa, atrai o pronome átono para antes do verbo: “não lhe enviaram”.",
+      "reviewEvidence": "Lote 020: cotejo editorial do gabarito com o artigo e a seção indicados; revisão de mecanismo e explicação, com teste de integridade e similaridade."
+    },
+    {
+      "id": "cam-port-paronimos-ratificar-retificar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gramática e reescrita",
+      "articleId": "art-569c69df60f66dfd",
+      "conceptId": "retificar-versus-ratificar",
+      "mechanism": "substituir-correcao-por-confirmacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-569c69df60f66dfd#3. Paronímia e homonímia na Administração Pública e no Processo Legislativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md",
+        "section": "3. Paronímia e homonímia na Administração Pública e no Processo Legislativo"
+      },
+      "statement": "Em “A secretaria retificou o horário divulgado, pois havia um erro de digitação”, substituir “retificou” por “ratificou” preservaria o sentido de correção da informação.",
+      "correctAnswer": "E",
+      "explanation": "Retificar é corrigir; ratificar é confirmar. No contexto, a troca altera a ação narrada.",
+      "reviewEvidence": "Lote 020: cotejo editorial do gabarito com o artigo e a seção indicados; revisão de mecanismo e explicação, com teste de integridade e similaridade."
+    },
+    {
+      "id": "cam-port-reescrita-carecer-necessitar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gramática e reescrita",
+      "articleId": "art-d43257f539c036b9",
+      "conceptId": "carecer-e-necessitar",
+      "mechanism": "parafrase-de-carencia-sem-trocar-regencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d43257f539c036b9#3. Vocabulário erudito de alto risco no Cebraspe (\"falsos amigos internos\" do português)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido.md",
+        "section": "3. Vocabulário erudito de alto risco no Cebraspe (\"falsos amigos internos\" do português)"
+      },
+      "statement": "No período “O documento carece de revisão técnica”, a forma “O documento necessita de revisão técnica” mantém a correção gramatical e o sentido de necessidade.",
+      "correctAnswer": "C",
+      "explanation": "Nesse contexto, “carecer de” e “necessitar de” expressam falta ou necessidade e compartilham a regência com “de”.",
+      "reviewEvidence": "Lote 020: cotejo editorial do gabarito com o artigo e a seção indicados; revisão de mecanismo e explicação, com teste de integridade e similaridade."
+    },
+    {
+      "id": "cam-port-voz-passiva-preserva-agente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gramática e reescrita",
+      "articleId": "art-ec4233e53951fb59",
+      "conceptId": "voz-passiva-analitica-equivalencia",
+      "mechanism": "transpor-objeto-a-sujeito-e-preservar-agente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec4233e53951fb59#3. Operação 1: Transposição de vozes verbais (Ativa $\\leftrightarrow$ Passiva Analítica $\\leftrightarrow$ Passiva Sintética)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica.md",
+        "section": "3. Operação 1: Transposição de vozes verbais (Ativa $\\leftrightarrow$ Passiva Analítica $\\leftrightarrow$ Passiva Sintética)"
+      },
+      "statement": "A reescrita de “As comissões examinaram o substitutivo” como “O substitutivo foi examinado pelas comissões” mantém, nesse contexto, quem praticou a ação e o objeto examinado.",
+      "correctAnswer": "C",
+      "explanation": "Na passiva analítica, o objeto direto da ativa passa a sujeito paciente, e o agente da ação é preservado em “pelas comissões”.",
+      "reviewEvidence": "Lote 020: cotejo editorial do gabarito com o artigo e a seção indicados; revisão de mecanismo e explicação, com teste de integridade e similaridade."
     }
   ]
 }

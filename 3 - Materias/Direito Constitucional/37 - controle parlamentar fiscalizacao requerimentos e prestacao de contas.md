@@ -23,17 +23,20 @@ A fiscalização legislativa abrange três grandes dimensões:
 
 ## 1. Instrumentos do controle político: convocações e requerimentos de informação
 
-### 1.1 Convocação de Ministros de Estado e titulares de órgãos vinculados (CF, art. 50, caput)
+### 1.1 Convocação de autoridades do art. 50 da CF (redação da EC nº 132/2023)
 
 A Câmara dos Deputados e o Senado Federal, ou qualquer de suas Comissões, podem convocar:
 - **Ministros de Estado**;
-- **Titulares de órgãos diretamente subordinados à Presidência da República** (ex.: Advogado-Geral da União, Diretor-Geral da Polícia Federal, se com status ou subordinação direta).
+- **Titulares de órgãos diretamente subordinados à Presidência da República** (exigida a subordinação direta; não basta que o órgão integre genericamente o Executivo federal);
+- **Presidente do Comitê Gestor do Imposto sobre Bens e Serviços (IBS)**, expressamente incluído no art. 50 pela **EC nº 132/2023**.
 
 > **Atenção — Sujeito passivo vedado:**
 > O **Presidente da República e o Vice-Presidente da República NÃO podem ser convocados** pelo Congresso, pela Câmara, pelo Senado ou por Comissões para prestar depoimento ou esclarecimentos pessoais. A convocação pessoal do Chefe do Executivo violaria o princípio da separação de Poderes. A fiscalização sobre a Chefia do Poder Executivo se dá por requerimentos escritos de informação direcionados via Mesa, CPI, processo por crime de responsabilidade ou julgamento de contas.
 
 **Consequência da recusa ou não comparecimento:**
-O não comparecimento do Ministro de Estado sem **justificação adequada** no prazo estipulado importa **crime de responsabilidade** (CF, art. 50, *caput*).
+O não comparecimento **sem justificação adequada** de autoridade regularmente convocada entre as indicadas no **art. 50, caput**, inclusive o **Presidente do Comitê Gestor do IBS**, importa **crime de responsabilidade**, na forma constitucional. Não presumir que a lista se restrinja a ministros.
+
+**Caso de fronteira:** uma comissão parlamentar solicita o comparecimento do **Presidente do Comitê Gestor do IBS** sobre assunto previamente determinado. A convocação pode ocorrer com base no **art. 50, caput**, mesmo que essa autoridade não seja Ministro de Estado nem titular de órgão diretamente subordinado à Presidência. Se a comissão solicita informação por escrito, o procedimento constitucional de encaminhamento compete à **Mesa da Casa**, nos termos do § 2º.
 
 ### 1.2 Comparecimento espontâneo de autoridades (CF, art. 50, § 1º)
 
@@ -43,12 +46,15 @@ Os Ministros de Estado podem comparecer ao Senado Federal, à Câmara dos Deputa
 
 A Mesa da Câmara dos Deputados e do Senado Federal pode encaminhar **pedidos de informação por escrito** a:
 - Ministros de Estado;
-- Titulares de órgãos diretamente subordinados à Presidência da República.
+- Titulares de órgãos diretamente subordinados à Presidência da República;
+- **Presidente do Comitê Gestor do IBS** (EC nº 132/2023).
+
+O **art. 50, § 2º**, refere-se às pessoas indicadas no caput. A forma de encaminhamento pela Mesa e o prazo constitucional de 30 dias devem ser distinguidos da convocação para comparecimento pessoal.
 
 ```mermaid
 flowchart TD
     Req["Deputado ou Comissão apresenta Requerimento de Informação"] --> Mesa["Mesa da Câmara despacha e examina requisitos formais (RICD art. 115)"]
-    Mesa --> Env["Encaminhamento oficial ao Ministro de Estado"]
+    Mesa --> Env["Envio à autoridade do art. 50: ministro, titular diretamente subordinado ou Presidente do Comitê Gestor do IBS"]
     Env --> Prazo{"Prazo de 30 dias para resposta"}
     Prazo -->|Resposta tempestiva e satisfatória| Arquiva["Conhecimento e arquivamento"]
     Prazo -->|Recusa / Não atendimento / Falsa informação| Crime["Crime de responsabilidade (CF, art. 50, § 2º)"]
@@ -58,6 +64,12 @@ flowchart TD
 - **Prazo constitucional:** **30 dias corridos** para envio das informações requeridas;
 - **Tipificação penal-constitucional:** A **recusa**, o **não atendimento no prazo de 30 dias**, ou a **prestação de informações falsas** configura expressamente **crime de responsabilidade**;
 - **Intermediação obrigatória:** Deputado individual ou Comissão não envia ofício direto ao Ministério com força coercitiva do art. 50, § 2º; a expedição formal decorre de ato da **Mesa Diretora** da Casa Legislativa.
+
+---
+
+**Item C/E inédito, complemento do art. 50.** A convocação do Presidente do Comitê Gestor do IBS por comissão da Câmara depende de que ele seja também Ministro de Estado, pois a Constituição somente permite convocar ministros e titulares de órgãos diretamente subordinados à Presidência.
+
+**Gabarito: Errado.** O art. 50, caput, na redação da EC nº 132/2023, **menciona expressamente o Presidente do Comitê Gestor do IBS** como autoridade convocável. O erro da afirmação é transformar o rol constitucional atualizado em apenas duas categorias. [Constituição, art. 50](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm).
 
 ---
 
@@ -231,8 +243,8 @@ Uma auditoria do TCU identifica indícios robustos de superfaturamento em contra
 
 | Mecanismo de Controle | Autoridade Alvo | Iniciativa / Deliberação | Sanção / Efeito |
 | :--- | :--- | :--- | :--- |
-| **Convocação de autoridade** (CF art. 50) | Ministros de Estado e titulares de órgãos subordinados | Câmara, Senado ou Comissões | Ausência injustificada = **crime de responsabilidade** |
-| **Requerimento de informação** (CF art. 50, § 2º) | Ministros de Estado e titulares de órgãos subordinados | Mesa Diretora da Casa | Não resposta em **30 dias** = **crime de responsabilidade** |
+| **Convocação de autoridade** (CF art. 50) | Ministros; titulares diretamente subordinados à Presidência; **Presidente do Comitê Gestor do IBS** | Câmara, Senado ou Comissões | Ausência injustificada = **crime de responsabilidade** |
+| **Requerimento de informação** (CF art. 50, § 2º) | Autoridades do caput, inclusive **Presidente do Comitê Gestor do IBS** | Mesa Diretora da Casa | Recusa, não atendimento em **30 dias** ou informação falsa = **crime de responsabilidade** |
 | **Julgamento de contas presidenciais** (CF art. 49, IX c/c 71, I) | Presidente da República | Parecer prévio do TCU (60 dias) → Julgamento pelo Congresso | Julgamento político definitivo em sessão conjunta |
 | **Sustação de ato normativo exorbitante** (CF art. 49, V) | Chefe do Executivo / Regulamentos | Congresso Nacional via Decreto Legislativo | Extirpação do ato normativo sem sanção/veto |
 | **Sustação constitucional de contrato irregular** (CF art. 71, §§ 1º e 2º) | Contrato da Administração sob controle externo | Inicialmente Congresso; subsidiariamente TCU após o mecanismo de 90 dias | Sustação nos termos constitucionais; distinguir de anulação administrativa e cautelar do TCU |

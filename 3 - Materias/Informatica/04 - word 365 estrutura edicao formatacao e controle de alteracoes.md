@@ -76,7 +76,7 @@ flowchart LR
 
 ### 3.3 Cabeçalhos e Rodapés: o botão "Vincular ao Anterior" (*Link to Previous*)
 Por padrão, ao criar uma nova seção, os cabeçalhos e rodapés vêm configurados como **"Vincular ao Anterior"**. Isso significa que qualquer texto digitado no cabeçalho da Seção 2 se repetirá na Seção 1.
-Para que a Seção 2 tenha numeração de página diferente ou cabeçalho exclusivo (ex.: iniciar numeração apenas na introdução e omitir na capa e no sumário), é **estritamente obrigatório desmarcar a opção "Vincular ao Anterior"** no cabeçalho da Seção 2.
+Para estabelecer **texto de cabeçalho ou rodapé independente** na Seção 2, é necessário desativar **Vincular ao Anterior no tipo de cabeçalho ou rodapé que será alterado**. Já **numeração e formato dos números de página** exigem examinar as opções de *Formatar Números de Página* e as quebras de seção; não se deve presumir que uma única configuração do cabeçalho resolva toda situação. A opção de primeira página diferente e cabeçalhos pares/ímpares também altera o comportamento.
 
 ---
 
@@ -110,8 +110,7 @@ stateDiagram-v2
 3. **Nenhuma Marcação (*No Markup*)**: Oculta os comentários e traços de edição, mostrando como o documento ficaria se todas as alterações fossem aceitas (mas sem aceitá-las de fato!);
 4. **Original**: Exibe o texto exatamente como era antes do início do rastreamento.
 
-> **Pegadinha Suprema do Cebraspe:**
-> Selecionar a exibição *"Nenhuma Marcação"* ou ocultar as alterações na tela **NÃO elimina as alterações nem aceita as sugestões**. Se o arquivo for salvo e enviado a um terceiro, ele poderá abrir o painel de revisão e ver todo o histórico de comentários e trechos apagados. A única forma de eliminar definitivamente o rastreamento é clicar em **Aceitar Todas as Alterações** ou **Rejeitar Todas as Alterações**.
+> **Atenção para itens C/E:** a exibição *Nenhuma Marcação* **não elimina** as alterações rastreadas. Para resolver as revisões existentes, é preciso **aceitar ou rejeitar** as alterações. Para distribuir o arquivo com segurança, examinar **também** comentários, dados pessoais, metadados e conteúdo oculto por meio da inspeção apropriada. Aceitar todas as alterações **não equivale** a remover automaticamente toda informação confidencial do documento.
 
 ---
 
@@ -223,3 +222,6 @@ Um assessor redigiu uma nota oficial com o Controle de Alterações ativo. Antes
 > **Nota de revisão (11/11/2026):** ajustado atalho de alinhamento à direita para `Ctrl + R` na documentação atual do Word para Windows e corrigido erro de digitação no item 4. Atalhos podem variar por sistema, idioma e versão. Referência: [atalhos do Word, Microsoft Support](https://support.microsoft.com/pt-br/accessibility/word/keyboard-shortcuts-in-word). Achados TI-035 e TI-039.
 
 > **Auditoria de questões, segunda passagem (11/11/2026):** seis itens examinados, gabaritos preservados **E, C, C, E, E, E** para Word de desktop nas condições enunciadas. Os comentários sobre colunas, histórico de revisão e Pincel de Formatação foram qualificados. Não presumir que atalhos e recursos se comportem da mesma forma no Word Web ou macOS.
+
+
+> **Implementação TI-100 (11/11/2026):** corrigida a confusão entre resolver revisões e inspecionar dados ocultos, e entre desvincular cabeçalhos e formatar numeração de páginas. Fontes: [Vincular ao anterior](https://support.microsoft.com/pt-br/word/link-to-previous) e [numeração por seção](https://support.microsoft.com/pt-br/word/customize-page-numbers-and-their-formats-in-different-word-document-sections).

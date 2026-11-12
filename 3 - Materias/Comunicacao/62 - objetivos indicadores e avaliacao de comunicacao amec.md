@@ -5,7 +5,7 @@ title: "Objetivos, indicadores e avaliação de comunicação: AMEC e resultados
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Objetivos, indicadores e avaliação de comunicação: AMEC e resultados
@@ -246,6 +246,31 @@ As três categorias de gestão e avaliação discutidas na nota-base [[3 - Mater
 **Item 3, inédito:** “Uma campanha pode cumprir seu prazo, orçamento e volume de publicações e ainda não produzir o resultado pretendido nos públicos; portanto, indicadores de execução e eficiência não substituem a avaliação da eficácia frente ao objetivo escolhido.”
 
 **Gabarito: Certo.** Os critérios de recurso, entrega e objetivo são diferentes, e o plano deve estabelecer evidência para cada decisão. **Mecanismo:** contraste entre indicadores válidos aplicados ao nível errado.
+
+## Oficina aplicada: classificar evidências sem trocar exposição por efeito (11/11/2026)
+
+**Problema:** uma comunicação sobre como consultar documentos legislativos registra **10.000 impressões, 800 cliques, 120 pessoas que acertam uma tarefa de localização entre 200 testadas e aumento de 30 para 45 pontos num índice de confiança declarado**. Os números são **hipotéticos** e expressam unidades diferentes. As **impressões** registram exposição segundo a ferramenta, não 10.000 pessoas; os **cliques** registram interações, sem demonstrar, isoladamente, compreensão. A **taxa de cliques**, se as 10.000 impressões forem o denominador apropriado, é **8%**. A proporção de sucesso observada no teste é **60% dos 200 participantes**, condicionada ao desenho e à seleção da amostra, sem representar necessariamente toda a população. A diferença no índice de confiança é de **15 pontos**, mas a escala, grupos, coleta e mudanças simultâneas determinam sua interpretação. Não se pode afirmar que a campanha causou sozinha essa diferença.
+
+| Evidência | Unidade e nível sugerido | Pergunta adicional |
+| --- | --- | --- |
+| 10.000 impressões | Contagem de exposições, **outputs** | Como a plataforma registra repetição e visibilidade? |
+| 800 cliques | Interação, podendo aparecer em recortes de **outputs/out-takes** | Quantos usuários únicos, para qual destino e com que propósito? |
+| 120 sucessos em 200 tarefas | Desempenho observado, potencial **outcome** de uso ou aprendizagem no público estudado | Houve linha de base, participantes comparáveis e tarefa equivalente? |
+| Índice de confiança de 30 para 45 | Mudança declarada de percepção, potencial **outcome intermediário** | Instrumento estável e comparação justificável? Outras causas? |
+
+**Fonte e ressalva classificatória:** na [taxonomia oficial de Jim Macnamara para a AMEC](https://amecorg.com/amecframework/home/supporting-material/taxonomy/), cliques aparecem entre exemplos de métricas de **outputs**, enquanto visitas, respostas e interações podem figurar entre **out-takes**; a posição depende da operacionalização do dado e da etapa medida. A própria fonte informa que **out-takes avançados podem coincidir com outcomes de curto prazo** e que **impacto social** exige atenção a outras causas. Por isso, **tarefa concluída** não é automaticamente prova de impacto sustentado na sociedade e uma métrica não recebe nível imutável apenas pelo seu nome.
+
+**Questão discursiva aplicada:** para sustentar que uma campanha melhorou o acesso a um direito, apresentar objetivo e público definidos, linha de base de conclusão de tarefa, observação de antes/depois com limites causais, amostra e modo de coleta, relatos das barreiras removidas e evidências do próprio serviço. Uma hipótese de efeito pode incluir campanha, correção de navegação e atendimento; isolar contribuições exige comparação adequada. **Princípios de Barcelona 4.0** são recomendações profissionais de qualidade da avaliação, **não lei nem obrigação normativa autônoma da Câmara**.
+
+**Item 4, inédito.** Uma campanha que registra dez mil impressões e oitocentos cliques produziu necessariamente oitocentas pessoas diferentes que compreenderam a mensagem e mudaram de comportamento.
+
+**Gabarito: Errado.** Cliques são eventos, não pessoas únicas nem demonstração de compreensão e mudança. O item confunde unidade técnica e resultado nos públicos.
+
+**Item 5, inédito.** Na taxonomia da AMEC, a posição de uma métrica pode depender do indicador efetivamente operacionalizado e do objetivo de avaliação, e os out-takes avançados podem sobrepor-se a outcomes de curto prazo.
+
+**Gabarito: Certo.** A nota de uso da taxonomia reconhece explicitamente a sobreposição; a estrutura não é um processo linear universal e não dispensa desenho de avaliação.
+
+**Fonte de aferição:** [AMEC, *A Taxonomy of Evaluation: Towards Standards*](https://amecorg.com/amecframework/home/supporting-material/taxonomy/) e [Integrated Evaluation Framework](https://amecorg.com/amecframework/). O exemplo serve apenas ao ensino de categorias, denominadores e inferência; os itens são exercícios autorais inéditos, separados do acervo histórico de provas.
 
 ## Aplicação discursiva
 

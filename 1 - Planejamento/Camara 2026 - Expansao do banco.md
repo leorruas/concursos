@@ -22,6 +22,7 @@ A base `9a0d80b6` tem 389 registros estruturados em `pilotoDidatico`. A concilia
 | 014 | Comunicação Social | Edital 14.2.4, item 6: transparência pública | 40 | 3/32/4/1 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 | 015 | Comunicação Social | Edital 14.2.4, item 7: comunicação pública, governamental e político-partidária | 40 | 0/28/12/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 | 016 | Comunicação Social | Edital 14.2.4, item 8: Política e Manual de Comunicação | 40 | 0/29/11/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
+| 017 | Comunicação Social | Edital 14.2.4, item 9: aplicações e ética de IA | 40 | 0/20/20/0 | 40 | 40 | 0 | Integridade, triagem, sessões v3 e seleção |
 
 Oito itens de mídia foram revisados contra o artigo 90. A proposição sobre frequência média e distribuição individual foi substituída por uma questão sobre compatibilidade temporal de métricas, devido à proximidade com um exercício publicado. Oito itens de cronograma também foram cotejados com o artigo 91. Foram refeitos os itens sobre marco, leitura de barras e redução de prazo, com questões sobre linha de base, estimativa PERT e alocação restrita. Os 24 itens dos artigos 92 a 94 foram revisados. Um item sobre reaprovação foi substituído devido à sobreposição com os itens 3 e 4 do artigo 92. Dois itens foram recalibrados de muito difíceis para difíceis.
 A triagem lexical comparou 1.116 referências extraídas do banco e dos exercícios numerados do catálogo. Ao ampliar a busca para similaridade de 0,22, surgiu um par interno sobre interseção e frequência. Um dos itens foi substituído por uma decisão sob restrições de custo e cobertura. A triagem cobre vocabulário compartilhado e depende do formato de extração do Markdown.
@@ -94,12 +95,8 @@ Quarenta itens sobre Política e Manual de Comunicação, vinculados aos artigos
 
 Total validado: 640/2.000. Próximo lote: aplicações e ética de IA na comunicação, item 9.
 
-## Lote 017 em elaboração
+## Lote 017 validado
 
-Oito casos de IA na comunicação, vinculados ao artigo 74, sobre transcrição, resumo, recuperação documental, classificação de comentários, supervisão humana, viés e conteúdo sintético.
+Quarenta itens sobre aplicações e riscos de IA na comunicação, com cotejo no artigo 74, no Manual de Comunicação e nos arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026 para os itens normativos. Foi substituído um caso que repetia a identificação de capa audiovisual por um item sobre avaliação de risco por tipo de uso. A triagem lexical a 0,22 e a seleção por item do edital foram verificadas.
 
-O lote soma 16 itens redigidos. Os oito novos tratam de minimização, reidentificação, testes de atualização, pilotos, contratos, monitoramento, dependência operacional e qualidade da entrada. As diretrizes foram conferidas na seção de IA do Manual.
-
-O lote soma 24 itens redigidos. Os oito novos cobrem uso acessório, identificação audiovisual, formatos não previstos, informação do produtor e monitoramento. Os gabaritos foram cotejados com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026.
-
-O lote soma 32 itens redigidos. Os oito novos cobrem identidade documental, falsos negativos, avaliação independente, calibração, triagem editorial, direitos de uso, correção multicanal e limites da verificação.
+Total validado: 680/2.000. Próximo lote: linguagem simples e usabilidade, item 10 de Comunicação Social.

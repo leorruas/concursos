@@ -24568,7 +24568,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
       ],
@@ -24578,7 +24578,8 @@
       },
       "statement": "Ao separar três vozes distintas numa audiência, um sistema de transcrição confirma automaticamente o nome de cada participante, mesmo sem dados que relacionem vozes e pessoas.",
       "correctAnswer": "E",
-      "explanation": "A diarização separa intervenções por voz. Atribuir nomes requer evidência adicional, como conferir o vídeo ou a identificação na sessão."
+      "explanation": "A diarização separa intervenções por voz. Atribuir nomes requer evidência adicional, como conferir o vídeo ou a identificação na sessão.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-resumo-ressalva-omitida",
@@ -24595,7 +24596,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
       ],
@@ -24605,7 +24606,8 @@
       },
       "statement": "Um resumo automatizado pode induzir o leitor a erro ao omitir uma ressalva que limita a conclusão de um parecer, mesmo que as frases que manteve sejam literalmente verdadeiras.",
       "correctAnswer": "C",
-      "explanation": "A seleção dos trechos altera o alcance percebido da conclusão. A revisão precisa comparar o sentido do resumo com o parecer completo."
+      "explanation": "A seleção dos trechos altera o alcance percebido da conclusão. A revisão precisa comparar o sentido do resumo com o parecer completo.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-comentarios-repetidos-e-inferencia",
@@ -24622,7 +24624,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
       ],
@@ -24632,7 +24634,8 @@
       },
       "statement": "Um classificador identifica o mesmo tema em milhares de comentários, muitos deles repetidos por poucos perfis. A frequência basta para estimar a proporção da população que tem essa preocupação.",
       "correctAnswer": "E",
-      "explanation": "A contagem descreve o material coletado. Repetição, seleção dos participantes e ausência de desenho amostral impedem essa inferência."
+      "explanation": "A contagem descreve o material coletado. Repetição, seleção dos participantes e ausência de desenho amostral impedem essa inferência.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-recuperacao-documental-e-interpretacao",
@@ -24649,7 +24652,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
       ],
@@ -24659,7 +24662,8 @@
       },
       "statement": "Uma ferramenta pode localizar o dispositivo relevante de um regimento e ainda produzir uma explicação incompatível com ele. A revisão deve comparar a conclusão com o dispositivo efetivamente recuperado.",
       "correctAnswer": "C",
-      "explanation": "A localização da fonte facilita a conferência. A interpretação continua sendo uma etapa que exige verificação."
+      "explanation": "A localização da fonte facilita a conferência. A interpretação continua sendo uma etapa que exige verificação.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-divulgacao-e-explicacao-da-revisao",
@@ -24676,7 +24680,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Diferenças que produzem distratores"
       ],
@@ -24686,7 +24690,8 @@
       },
       "statement": "A indicação de que uma síntese foi criada com IA permite, por si, saber quais trechos foram revisados por pessoas e quais fontes serviram para a conferência.",
       "correctAnswer": "E",
-      "explanation": "O aviso informa o uso de IA. O que foi revisado e quais evidências sustentaram a revisão exigem informação adicional."
+      "explanation": "O aviso informa o uso de IA. O que foi revisado e quais evidências sustentaram a revisão exigem informação adicional.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-erro-concentrado-em-subgrupos",
@@ -24703,7 +24708,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
       ],
@@ -24713,7 +24718,8 @@
       },
       "statement": "Um classificador pode ter bom desempenho médio e ainda deixar de identificar sistematicamente demandas expressas em determinadas variedades linguísticas. Testar separadamente esses grupos ajuda a detectar o problema.",
       "correctAnswer": "C",
-      "explanation": "A média pode ocultar diferenças de erro. A análise por grupo evidencia se a ferramenta funciona de modo desigual."
+      "explanation": "A média pode ocultar diferenças de erro. A análise por grupo evidencia se a ferramenta funciona de modo desigual.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-revisor-sem-acesso-ao-registro",
@@ -24730,7 +24736,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Diferenças que produzem distratores"
       ],
@@ -24740,7 +24746,8 @@
       },
       "statement": "Designar um editor para aprovar a transcrição basta para garantir revisão efetiva, ainda que o editor não tenha acesso à gravação nem possa suspender a publicação.",
       "correctAnswer": "E",
-      "explanation": "A revisão efetiva requer acesso a evidências e capacidade de intervir. A designação nominal não assegura essas condições."
+      "explanation": "A revisão efetiva requer acesso a evidências e capacidade de intervir. A designação nominal não assegura essas condições.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-imagem-sintetica-e-valor-documental",
@@ -24757,7 +24764,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
       ],
@@ -24767,7 +24774,8 @@
       },
       "statement": "Uma ilustração gerada para mostrar como funciona uma audiência pode ter finalidade explicativa, desde que sua apresentação preserve a distinção entre ilustração e registro do evento.",
       "correctAnswer": "C",
-      "explanation": "A finalidade explicativa é compatível com uma ilustração identificável como tal. O problema surge quando ela é apresentada como evidência documental de um evento real."
+      "explanation": "A finalidade explicativa é compatível com uma ilustração identificável como tal. O problema surge quando ela é apresentada como evidência documental de um evento real.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-minimizacao-em-audio",
@@ -24784,7 +24792,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Seis diretrizes do Manual de Comunicação da Câmara"
       ],
@@ -24794,7 +24802,8 @@
       },
       "statement": "Para testar a qualidade de uma transcrição, a equipe pode recortar os trechos necessários e avaliar a ferramenta com esses trechos, reduzindo o volume de dados enviados ao fornecedor.",
       "correctAnswer": "C",
-      "explanation": "O controle começa na entrada. Limitar o arquivo à parte necessária reduz a exposição dos dados que a avaliação dispensa."
+      "explanation": "O controle começa na entrada. Limitar o arquivo à parte necessária reduz a exposição dos dados que a avaliação dispensa.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-pseudonimo-e-chaves-indiretas",
@@ -24811,7 +24820,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
       ],
@@ -24821,7 +24830,8 @@
       },
       "statement": "Apagar nomes dos relatos torna o conjunto anônimo mesmo quando cargo, data e unidade permitem identificar seus autores por cruzamento com uma agenda pública.",
       "correctAnswer": "E",
-      "explanation": "O risco de identificação depende também dos atributos indiretos. Retirar nomes é insuficiente quando os campos restantes permitem o cruzamento."
+      "explanation": "O risco de identificação depende também dos atributos indiretos. Retirar nomes é insuficiente quando os campos restantes permitem o cruzamento.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-comparacao-apos-atualizacao",
@@ -24838,7 +24848,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Seis diretrizes do Manual de Comunicação da Câmara"
       ],
@@ -24848,7 +24858,8 @@
       },
       "statement": "Após uma atualização do transcritor, comparar seu desempenho com o da versão anterior em gravações representativas é compatível com a diretriz de atualização contínua.",
       "correctAnswer": "C",
-      "explanation": "A atualização busca melhorias. O teste permite descobrir regressões antes de ampliar o uso da nova versão."
+      "explanation": "A atualização busca melhorias. O teste permite descobrir regressões antes de ampliar o uso da nova versão.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-piloto-sem-criterio-de-beneficio",
@@ -24865,7 +24876,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Seis diretrizes do Manual de Comunicação da Câmara"
       ],
@@ -24875,7 +24886,8 @@
       },
       "statement": "Iniciar o uso de IA com poucos usuários satisfaz, por si, a diretriz de controle de riscos, mesmo que não exista objetivo para avaliar os resultados nem regras de uso.",
       "correctAnswer": "E",
-      "explanation": "O escopo pequeno limita a exposição. A diretriz também prevê benefício claro, condições de uso e avaliação de riscos e resultados."
+      "explanation": "O escopo pequeno limita a exposição. A diretriz também prevê benefício claro, condições de uso e avaliação de riscos e resultados.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-clausulas-contrato-com-tratamento",
@@ -24892,7 +24904,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Seis diretrizes do Manual de Comunicação da Câmara"
       ],
@@ -24902,7 +24914,8 @@
       },
       "statement": "Ao contratar ferramenta de análise de mensagens, estabelecer condições para o tratamento e a guarda de dados é uma medida de controle de riscos prevista na orientação do Manual.",
       "correctAnswer": "C",
-      "explanation": "O controle inclui prever proteção de dados e responsabilidades nas contratações."
+      "explanation": "O controle inclui prever proteção de dados e responsabilidades nas contratações.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-aprovacao-sem-monitoramento",
@@ -24919,7 +24932,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
       ],
@@ -24929,7 +24942,8 @@
       },
       "statement": "Uma vez que o editor tenha conferido cada saída de um piloto, a equipe pode dispensar o acompanhamento após o início da operação, pois a validação inicial demonstra estabilidade futura.",
       "correctAnswer": "E",
-      "explanation": "Validação e monitoramento tratam de momentos distintos. Mudanças nas entradas e na ferramenta podem introduzir falhas durante a operação."
+      "explanation": "Validação e monitoramento tratam de momentos distintos. Mudanças nas entradas e na ferramenta podem introduzir falhas durante a operação.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-controle-dependencia-operacional",
@@ -24946,7 +24960,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
       ],
@@ -24956,7 +24970,8 @@
       },
       "statement": "Manter um fluxo manual testado para publicar legendas quando o fornecedor de IA interrompe o serviço reduz a dependência operacional.",
       "correctAnswer": "C",
-      "explanation": "A alternativa permite preservar a publicação em caso de indisponibilidade. Ela atua sobre continuidade do serviço, mesmo sem alterar a qualidade das saídas da ferramenta."
+      "explanation": "A alternativa permite preservar a publicação em caso de indisponibilidade. Ela atua sobre continuidade do serviço, mesmo sem alterar a qualidade das saídas da ferramenta.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-qualidade-da-entrada-com-documento-incompleto",
@@ -24973,7 +24988,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
       ],
@@ -24983,7 +24998,8 @@
       },
       "statement": "Se uma versão incompleta de uma ata é a única entrada de um sistema de resumo, um texto fluente produzido a partir dela comprova que as deliberações ausentes foram recuperadas corretamente.",
       "correctAnswer": "E",
-      "explanation": "A fluência descreve a forma do texto. A recuperação de fatos ausentes exige evidência adicional, como a ata integral ou o registro da reunião."
+      "explanation": "A fluência descreve a forma do texto. A recuperação de fatos ausentes exige evidência adicional, como a ata integral ou o registro da reunião.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-ajuste-de-audio-e-informacao-geral",
@@ -25000,7 +25016,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Transparência sobre o uso e a Ordem de Serviço nº 1/2026"
       ],
@@ -25010,7 +25026,8 @@
       },
       "statement": "Em um áudio gravado pela equipe, a IA foi empregada apenas para reduzir ruído. A Ordem de Serviço Direx nº 1/2026 remete a informação sobre esse uso acessório ao Manual de Comunicação e aos Termos de Uso do Portal Institucional.",
       "correctAnswer": "C",
-      "explanation": "O art. 3º prevê informação geral nesses dois documentos para usos meramente acessórios, entre eles ajustes de áudio."
+      "explanation": "O art. 3º prevê informação geral nesses dois documentos para usos meramente acessórios, entre eles ajustes de áudio.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-capa-e-descricao-do-video",
@@ -25027,7 +25044,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
       ],
@@ -25037,7 +25054,8 @@
       },
       "statement": "Quando apenas a capa de um vídeo publicado no YouTube é gerada por IA, o art. 4º prevê identificar essa origem na descrição do vídeo.",
       "correctAnswer": "C",
-      "explanation": "O art. 4º, III, alínea a, especifica a descrição para informar a origem da imagem de capa."
+      "explanation": "O art. 4º, III, alínea a, especifica a descrição para informar a origem da imagem de capa.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-marca-no-trecho-audiovisual",
@@ -25054,7 +25072,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
       ],
@@ -25064,7 +25082,8 @@
       },
       "statement": "Se a IA gerou um trecho de um vídeo produzido com gravações reais, a regra prevê inserir a marca d’água em todas as imagens do vídeo, inclusive nas gravações sem IA.",
       "correctAnswer": "E",
-      "explanation": "O art. 4º, III, alínea b, indica a marca d’água no trecho específico. A identificação deve indicar a parte gerada."
+      "explanation": "O art. 4º, III, alínea b, indica a marca d’água no trecho específico. A identificação deve indicar a parte gerada.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-audio-identificacao-episodio",
@@ -25081,7 +25100,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
       ],
@@ -25091,7 +25110,8 @@
       },
       "statement": "Um episódio produzido com suporte de IA pode trazer no próprio áudio a informação prevista para essa modalidade, conforme os padrões específicos da ordem de serviço.",
       "correctAnswer": "C",
-      "explanation": "O art. 4º, II, alínea b, prevê a identificação em áudio do episódio produzido com suporte de IA."
+      "explanation": "O art. 4º, II, alínea b, prevê a identificação em áudio do episódio produzido com suporte de IA.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-peca-inedita-sujeita-aos-principios",
@@ -25108,7 +25128,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
       ],
@@ -25118,7 +25138,8 @@
       },
       "statement": "Se surgir um formato de comunicação não listado expressamente no art. 4º, sua identificação fica dispensada até que o formato seja acrescentado à ordem de serviço.",
       "correctAnswer": "E",
-      "explanation": "O § 1º determina observar os mesmos princípios na identificação de usos em peças não previstas no artigo."
+      "explanation": "O § 1º determina observar os mesmos princípios na identificação de usos em peças não previstas no artigo.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-relato-de-producao-para-decisao",
@@ -25135,7 +25156,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
       ],
@@ -25145,7 +25166,8 @@
       },
       "statement": "Para decidir a sinalização, o gestor do veículo pode basear-se no relato do responsável pela produção sobre o papel da IA e a intervenção humana em cada etapa.",
       "correctAnswer": "C",
-      "explanation": "O art. 4º, § 2º, liga a decisão do gestor ao fluxo informado pelo responsável pela produção."
+      "explanation": "O art. 4º, § 2º, liga a decisão do gestor ao fluxo informado pelo responsável pela produção.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-identificacao-e-controle-de-precisao",
@@ -25162,7 +25184,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Transparência sobre o uso e a Ordem de Serviço nº 1/2026"
       ],
@@ -25172,10 +25194,11 @@
       },
       "statement": "Após indicar ao público que uma peça foi gerada por IA, a equipe satisfaz também a exigência de monitorar a ferramenta para preservar a precisão das informações.",
       "correctAnswer": "E",
-      "explanation": "O art. 2º prevê transparência e monitoramento em incisos distintos. O aviso não mede nem corrige o desempenho da ferramenta."
+      "explanation": "O art. 2º prevê transparência e monitoramento em incisos distintos. O aviso não mede nem corrige o desempenho da ferramenta.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
-      "id": "cam-cs-ia-mesmo-texto-com-capa-sintetica",
+      "id": "cam-cs-ia-avaliacao-de-risco-por-tipo-de-uso",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -25184,22 +25207,23 @@
       "unitId": "comunicacao-social",
       "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
       "articleId": "art-c2847f01a95d6e3b",
-      "conceptId": "mesmo-texto-com-capa-sintetica",
-      "mechanism": "mesmo-texto-com-capa-sintetica",
+      "conceptId": "avaliacao-de-risco-por-tipo-de-uso",
+      "mechanism": "avaliacao-de-risco-por-tipo-de-uso",
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
-        "article:art-c2847f01a95d6e3b#Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+        "article:art-c2847f01a95d6e3b#Transparência sobre o uso e a Ordem de Serviço nº 1/2026"
       ],
       "source": {
         "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
-        "section": "Aplicação normativa: identificação de IA na Ordem de Serviço Direx nº 1/2026"
+        "section": "Transparência sobre o uso e a Ordem de Serviço nº 1/2026"
       },
-      "statement": "Se o texto de uma notícia é inteiramente humano, o uso de IA para gerar a capa do vídeo que a acompanha fica automaticamente dispensado de identificação.",
+      "statement": "Uma avaliação de risco feita para revisão ortográfica cobre automaticamente o uso posterior da mesma ferramenta para gerar notícias, pois o fornecedor é o mesmo.",
       "correctAnswer": "E",
-      "explanation": "A autoria do texto não determina a origem da capa. O art. 4º trata especificamente da identificação de partes audiovisuais geradas por IA."
+      "explanation": "O art. 2º, IV, prevê avaliação de cada tipo de uso. Mudar de revisão para geração altera os riscos e exige avaliar a nova finalidade.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-citacao-com-documento-homonimo",
@@ -25216,7 +25240,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
       ],
@@ -25226,7 +25250,8 @@
       },
       "statement": "Um assistente cita um parecer com o mesmo título de outro documento e vincula a versão de uma comissão diferente. Para validar a referência, a equipe precisa conferir a identidade e a versão do documento associado à afirmação.",
       "correctAnswer": "C",
-      "explanation": "Coincidência de título não identifica a fonte. Conferir versão, órgão e conteúdo permite verificar se o documento sustenta a afirmação."
+      "explanation": "Coincidência de título não identifica a fonte. Conferir versão, órgão e conteúdo permite verificar se o documento sustenta a afirmação.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-falsos-negativos-em-classificador",
@@ -25243,7 +25268,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
       ],
@@ -25253,7 +25278,8 @@
       },
       "statement": "Uma ferramenta identificou corretamente 90 de 100 comentários que sinalizou sobre acessibilidade. Esse resultado demonstra que ela encontrou pelo menos 90% de todos os comentários sobre acessibilidade recebidos.",
       "correctAnswer": "E",
-      "explanation": "O resultado informa a proporção de acertos entre os comentários sinalizados. Medir a cobertura exige descobrir quantos comentários sobre o tema ficaram de fora."
+      "explanation": "O resultado informa a proporção de acertos entre os comentários sinalizados. Medir a cobertura exige descobrir quantos comentários sobre o tema ficaram de fora.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-amostra-independente-de-ajuste",
@@ -25270,7 +25296,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
       ],
@@ -25280,7 +25306,8 @@
       },
       "statement": "Se uma equipe ajustou o classificador para acertar um conjunto de mensagens, usar mensagens separadas na avaliação ajuda a estimar como ele se comportará diante de exemplos ainda não examinados.",
       "correctAnswer": "C",
-      "explanation": "O conjunto usado no ajuste pode favorecer o desempenho medido. Dados independentes permitem avaliar a generalização para outros exemplos."
+      "explanation": "O conjunto usado no ajuste pode favorecer o desempenho medido. Dados independentes permitem avaliar a generalização para outros exemplos.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-confianca-sem-calibracao",
@@ -25297,7 +25324,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
       ],
@@ -25307,7 +25334,8 @@
       },
       "statement": "Quando uma ferramenta atribui confiança de 95% a um texto extraído de áudio, esse número basta para afirmar que 95 de cada 100 trechos classificados assim estão corretos.",
       "correctAnswer": "E",
-      "explanation": "Essa interpretação depende de comparar as pontuações com acertos observados. Sem calibração, o número apresentado não comprova a frequência de acerto."
+      "explanation": "Essa interpretação depende de comparar as pontuações com acertos observados. Sem calibração, o número apresentado não comprova a frequência de acerto.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-triagem-e-prioridade-humana",
@@ -25324,7 +25352,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
       ],
@@ -25334,7 +25362,8 @@
       },
       "statement": "Agrupar comentários por tema pode facilitar a leitura da equipe, enquanto a definição de quais demandas merecem resposta prioritária ainda requer um critério editorial explícito.",
       "correctAnswer": "C",
-      "explanation": "A classificação descreve o assunto das mensagens. Priorizar atendimento envolve uma decisão própria sobre relevância ou urgência."
+      "explanation": "A classificação descreve o assunto das mensagens. Priorizar atendimento envolve uma decisão própria sobre relevância ou urgência.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-reuso-de-imagem-e-direitos",
@@ -25351,7 +25380,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
       ],
@@ -25361,7 +25390,8 @@
       },
       "statement": "Como uma imagem foi produzida por um sistema de IA, a equipe pode presumir que tem autorização para reproduzir nela qualquer elemento protegido inserido por meio de imagem de referência.",
       "correctAnswer": "E",
-      "explanation": "A origem automatizada do resultado não resolve as permissões sobre os elementos protegidos incorporados. A análise deve considerar o insumo e o uso pretendido."
+      "explanation": "A origem automatizada do resultado não resolve as permissões sobre os elementos protegidos incorporados. A análise deve considerar o insumo e o uso pretendido.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-corrigir-origem-e-distribuicao",
@@ -25378,7 +25408,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
       ],
@@ -25388,7 +25418,8 @@
       },
       "statement": "Se uma legenda automatizada equivocada foi publicada no portal e em uma rede social, corrigir a versão do portal pode deixar o erro disponível na rede. O monitoramento deve considerar as versões efetivamente distribuídas.",
       "correctAnswer": "C",
-      "explanation": "O público pode consultar as cópias em canais diferentes. A correção em um canal não atualiza automaticamente as demais versões."
+      "explanation": "O público pode consultar as cópias em canais diferentes. A correção em um canal não atualiza automaticamente as demais versões.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     },
     {
       "id": "cam-cs-ia-validacao-de-dado-ausente",
@@ -25405,7 +25436,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
       ],
@@ -25415,7 +25446,232 @@
       },
       "statement": "Ao revisar um resumo, confirmar que a gravação nunca menciona a empresa apontada pelo sistema basta para concluir que a empresa citada não existe.",
       "correctAnswer": "E",
-      "explanation": "A gravação permite concluir que a atribuição carece de suporte naquela fonte. A existência da empresa é uma questão factual que exige outra evidência."
+      "explanation": "A gravação permite concluir que a atribuição carece de suporte naquela fonte. A existência da empresa é uma questão factual que exige outra evidência.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-ia-transcricao-nega-incorreta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "transcricao-nega-incorreta",
+      "mechanism": "transcricao-nega-incorreta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Operações de comunicação que podem empregar IA"
+      },
+      "statement": "Uma transcrição automatizada registra corretamente quase todas as palavras de uma audiência, mas inverte a posição de um participante ao suprimir uma negação. O erro pode ter alta gravidade editorial apesar da elevada taxa geral de acerto.",
+      "correctAnswer": "C",
+      "explanation": "A taxa agregada mede a frequência de erros. A gravidade depende do efeito da palavra omitida no sentido da fala.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-ia-categoria-forcada-em-demanda-mista",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "categoria-forcada-em-demanda-mista",
+      "mechanism": "categoria-forcada-em-demanda-mista",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Operações de comunicação que podem empregar IA"
+      },
+      "statement": "Ao classificar uma mensagem que trata simultaneamente de acessibilidade e transporte, obrigar o sistema a usar uma categoria única preserva todas as informações temáticas necessárias às duas equipes.",
+      "correctAnswer": "E",
+      "explanation": "Uma classe única pode excluir o segundo tema. Classificação múltipla ou encaminhamento humano permite representar as duas demandas.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-ia-teste-de-acessibilidade-pos-geracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "teste-de-acessibilidade-pos-geracao",
+      "mechanism": "teste-de-acessibilidade-pos-geracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      },
+      "statement": "Uma descrição de imagem gerada automaticamente pode estar factualmente correta e ainda omitir o dado que permite ao leitor entender a conclusão de um gráfico. A verificação deve considerar a função da descrição no contexto da página.",
+      "correctAnswer": "C",
+      "explanation": "A descrição precisa comunicar a informação relevante à tarefa. A correção de detalhes isolados não garante que ela cumpra essa função.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-ia-finalidade-nova-com-dados-antigos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "finalidade-nova-com-dados-antigos",
+      "mechanism": "finalidade-nova-com-dados-antigos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Riscos éticos e controle proporcional"
+      },
+      "statement": "Se os dados de atendimento foram coletados para responder aos usuários, usar as mesmas mensagens identificáveis para treinar um sistema externo dispensa reexaminar a finalidade do tratamento.",
+      "correctAnswer": "E",
+      "explanation": "Responder ao usuário e usar o relato como dado de treinamento são finalidades diferentes. O novo uso requer avaliação própria de necessidade, permissões e proteção.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-ia-correcao-humana-com-trilha",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "correcao-humana-com-trilha",
+      "mechanism": "correcao-humana-com-trilha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      },
+      "statement": "Quando uma revisão altera a data sugerida pela IA, registrar a fonte que fundamentou a correção ajuda a reconstruir a decisão se a data for contestada depois da publicação.",
+      "correctAnswer": "C",
+      "explanation": "O registro liga a alteração à evidência consultada. Ele permite que outra pessoa confira a decisão editorial.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-ia-checagem-dupla-mesma-origem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "checagem-dupla-mesma-origem",
+      "mechanism": "checagem-dupla-mesma-origem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Estrutura dos processos: dado, processamento, saída e decisão editorial"
+      },
+      "statement": "Se dois resumos automatizados repetem o mesmo dado a partir da mesma minuta desatualizada, a concordância entre eles comprova que o dado corresponde à decisão final.",
+      "correctAnswer": "E",
+      "explanation": "As duas saídas compartilham a mesma origem. A confirmação da decisão final exige consultar a versão correspondente.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-ia-barreira-erro-em-publicacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "barreira-erro-em-publicacao",
+      "mechanism": "barreira-erro-em-publicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Riscos éticos e controle proporcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Riscos éticos e controle proporcional"
+      },
+      "statement": "No piloto de um gerador de legendas, a equipe pode definir que erros em números e nomes exigirão interrupção da publicação até correção, mesmo se erros de pontuação tiverem tratamento mais simples.",
+      "correctAnswer": "C",
+      "explanation": "O controle pode ser proporcional ao efeito do erro. Uma informação que muda identidade ou quantidade demanda intervenção antes de publicar.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-ia-comando-editorial-nao-comprova-fato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 9 / IA na comunicação: aplicações e ética",
+      "articleId": "art-c2847f01a95d6e3b",
+      "conceptId": "comando-editorial-nao-comprova-fato",
+      "mechanism": "comando-editorial-nao-comprova-fato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c2847f01a95d6e3b#Operações de comunicação que podem empregar IA"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/74 - inteligencia artificial na comunicacao processos e riscos eticos.md",
+        "section": "Operações de comunicação que podem empregar IA"
+      },
+      "statement": "Incluir no comando de geração a instrução para citar apenas fatos confirmados permite tratar a resposta como verificada mesmo quando a ferramenta não consultou documentos que sustentem as afirmações.",
+      "correctAnswer": "E",
+      "explanation": "O comando orienta a saída. A confirmação depende de evidências que possam ser examinadas, além da formulação da instrução.",
+      "reviewEvidence": "Lote 017. Cotejo editorial com o artigo 74 e, nos itens normativos, com os arts. 2º a 4º da Ordem de Serviço Direx nº 1/2026. Triagem lexical a 0,22."
     }
   ]
 }

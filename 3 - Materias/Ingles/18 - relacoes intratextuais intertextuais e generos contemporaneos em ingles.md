@@ -50,7 +50,7 @@ graph TD
 - **Progressão por Hipertema (Derivação Temática):** Um tema amplo enunciado no parágrafo introdutório (*e.g., modern parliamentary challenges*) é fragmentado em subtemas abordados nos parágrafos seguintes (*cybersecurity, citizen apathy, budget constraints*).
 
 ### 1.2. Coerência Global e Quebra de Consistência
-O Cebraspe frequentemente formula assertivas que confrontam a conclusão do texto com uma premissa intermediária. Se o candidato ler apenas a frase isolada indicada no enunciado, poderá cair no erro de descontextualização (*out-of-context misinterpretation*). O sentido de qualquer segmento é condicionado pela tese global sustentada pelo texto.
+Itens de interpretação podem confrontar a conclusão do texto com uma premissa intermediária. Se o candidato ler apenas a frase isolada indicada no enunciado, poderá cair no erro de descontextualização (*out-of-context misinterpretation*). O sentido de qualquer segmento é condicionado pela tese global sustentada pelo texto.
 
 ---
 

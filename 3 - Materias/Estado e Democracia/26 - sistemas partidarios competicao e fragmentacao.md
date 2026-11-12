@@ -14,7 +14,7 @@ updated: 2026-11-07
 
 **Problema concreto.** Dois países possuem dez legendas registradas. No primeiro, duas disputam quase todos os votos e se alternam no poder. No segundo, oito têm representação parlamentar significativa e nenhuma consegue governar sem negociar com várias outras. Contar dez registros em ambos os países ocultaria a diferença mais relevante para entender a competição política.
 
-**Sistema partidário** é o padrão de relações entre partidos que disputam poder político: inclui quantos são **relevantes**, seu peso eleitoral e parlamentar, a distância entre programas e posições, a possibilidade de alternância, a formação de governos e a estabilidade das interações no tempo. A **organização partidária** examina a estrutura de cada legenda: filiados, dirigentes e recursos, objeto da [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|CAM-CP-016]]. **Sistema eleitoral** designa regras que convertem votos em cargos, estudadas em [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|CAM-CP-014]] e [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|CAM-CP-015]]. Esses objetos se influenciam, mas não se confundem.
+**Sistema partidário** é o padrão de relações entre partidos que disputam poder político: inclui quantos são **relevantes**, seu peso eleitoral e parlamentar, a distância entre programas e posições, a possibilidade de alternância, a formação de governos e a estabilidade das interações no tempo. A **organização partidária** examina a estrutura de cada legenda: filiados, dirigentes e recursos, objeto da [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|Partidos políticos: origem, funções e organização]]. **Sistema eleitoral** designa regras que convertem votos em cargos, estudadas em [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|Sistema eleitoral majoritário: funcionamento e efeitos]] e [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|Sistema eleitoral proporcional: quocientes, listas e efeitos]]. Esses objetos se influenciam, mas não se confundem.
 
 Uma análise precisa especificar **nível** (nacional, estadual, municipal), **arena** (votos ou cadeiras), **período** (uma eleição ou série temporal), **relevância** (capacidade de coalizão ou de alterar a competição) e **tipo de regime** (competitivo ou não competitivo). Não é legítimo diagnosticar “bipartidarismo do país” a partir de um segundo turno presidencial com dois finalistas.
 
@@ -108,11 +108,11 @@ Com proporções entre 0 e 1, o resultado também fica entre **0 e 1**; em ponto
 
 ## Relação entre regras eleitorais, clivagens e coalizões
 
-**Duverger:** regras de pluralidade uninominal tendem a incentivar concentração da competição via mecanismos mecânicos e estratégicos; isso não determina, em qualquer sociedade, o desaparecimento de legendas menores. Ver [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|CAM-CP-014]].
+**Duverger:** regras de pluralidade uninominal tendem a incentivar concentração da competição via mecanismos mecânicos e estratégicos; isso não determina, em qualquer sociedade, o desaparecimento de legendas menores. Ver [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|Sistema eleitoral majoritário: funcionamento e efeitos]].
 
-**Lipset e Rokkan:** clivagens históricas ajudam a explicar alinhamentos partidários duradouros, como divisões entre capital e trabalho ou centro e periferia; sua tipologia está desenvolvida na [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|CAM-CP-016]]. Não confundir **origem da clivagem** com **índice de fragmentação**.
+**Lipset e Rokkan:** clivagens históricas ajudam a explicar alinhamentos partidários duradouros, como divisões entre capital e trabalho ou centro e periferia; sua tipologia está desenvolvida na [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|Partidos políticos: origem, funções e organização]]. Não confundir **origem da clivagem** com **índice de fragmentação**.
 
-**Abranches, Figueiredo e Limongi:** resultados eleitorais e regras internas do Parlamento influenciam formação de coalizões. Fragmentação elevada pode elevar o número de parceiros necessários, mas **não causa automaticamente paralisia**, pois agenda, liderança e disciplina podem facilitar a coordenação. Ver [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|CAM-CP-013]].
+**Abranches, Figueiredo e Limongi:** resultados eleitorais e regras internas do Parlamento influenciam formação de coalizões. Fragmentação elevada pode elevar o número de parceiros necessários, mas **não causa automaticamente paralisia**, pois agenda, liderança e disciplina podem facilitar a coordenação. Ver [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]].
 
 **Polarização × governabilidade:** distâncias políticas intensas podem tornar acordos difíceis, mas magnitude do efeito depende de regras, confiança, coalizões e mecanismos de decisão. É erro converter um indicador descritivo em previsão causal sem condições.
 
@@ -150,10 +150,10 @@ O principal mecanismo de erro é deslocar **indicador quantitativo** para **clas
 
 ## Relações com outros temas
 
-- [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|CAM-CP-016: partidos, organização e funções]]: unidade de análise interna versus interações do sistema.
-- [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|CAM-CP-014: sistema majoritário]] e [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|CAM-CP-015: sistema proporcional]]: regras podem condicionar incentivos, sem determinar todos os resultados.
-- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|CAM-CP-013: coalizões]]: fragmentação, agenda e construção de maiorias.
-- [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|CAM-CP-007: regimes]]: hegemonia e predominância requerem avaliar competitividade efetiva.
+- [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|Partidos políticos: origem, funções e organização]]: unidade de análise interna versus interações do sistema.
+- [[3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos|Sistema eleitoral majoritário: funcionamento e efeitos]] e [[3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos|Sistema eleitoral proporcional: quocientes, listas e efeitos]]: regras podem condicionar incentivos, sem determinar todos os resultados.
+- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]]: fragmentação, agenda e construção de maiorias.
+- [[3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos|Regimes políticos: democracia, autoritarismo e hibridismos]]: hegemonia e predominância requerem avaliar competitividade efetiva.
 
 ## Tensões e pegadinhas
 

@@ -13,4 +13,4 @@ A triagem lexical comparou 1.116 referências extraídas do banco e dos exercíc
 
 ## Lote 002 em elaboração
 
-O lote 002 cobre o item 2 de Divulgação Institucional. Foram registradas 10 questões geradas sobre conceitos, planejamento, marketing institucional, endomarketing e segmentação, vinculadas aos artigos 95 a 99. Foram acrescentadas oito questões sobre marketing digital e comportamento do consumidor, vinculadas aos artigos 100 e 101. Completar o lote de 18 para pelo menos 40 itens, incluindo casos de integração, antes da validação editorial. Meta consolidada de expansão validada: 40/2.000.
+O lote 002 cobre o item 2 de Divulgação Institucional. Foram registradas 10 questões geradas sobre conceitos, planejamento, marketing institucional, endomarketing e segmentação, vinculadas aos artigos 95 a 99. Foram acrescentadas oito questões sobre marketing digital e comportamento do consumidor, vinculadas aos artigos 100 e 101. Completar o lote de 36 para pelo menos 40 itens, incluindo casos de integração, antes da validação editorial. Meta consolidada de expansão validada: 40/2.000.

@@ -8042,6 +8042,492 @@
       "statement": "Uma pessoa que inicia o pedido de um serviço público, mas abandona ao descobrir que não preenche um requisito de acesso, demonstrou preferência por um serviço concorrente.",
       "correctAnswer": "E",
       "explanation": "O abandono tem uma barreira de elegibilidade identificada. Para inferir preferência por alternativa concorrente seria necessário observar a existência da alternativa e evidência da escolha."
+    },
+    {
+      "id": "cam-di-troca-de-beneficio-e-custo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / conceitos",
+      "articleId": "art-45d8f190ac2e673b",
+      "conceptId": "troca-de-beneficio-e-custo",
+      "mechanism": "troca-de-beneficio-e-custo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-45d8f190ac2e673b#Valor percebido: benefício, custo e utilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos.md",
+        "section": "Valor percebido: benefício, custo e utilidade"
+      },
+      "statement": "Uma visita guiada mais longa pode ter menor valor percebido para quem dispõe de pouco tempo, mesmo se oferecer mais explicações e cobrar o mesmo preço.",
+      "correctAnswer": "C",
+      "explanation": "O benefício adicional precisa ser ponderado com o custo de tempo percebido por esse público."
+    },
+    {
+      "id": "cam-di-promessa-e-experiencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / conceitos",
+      "articleId": "art-45d8f190ac2e673b",
+      "conceptId": "promessa-e-experiencia",
+      "mechanism": "promessa-e-experiencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-45d8f190ac2e673b#Satisfação, expectativa, qualidade e lealdade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/95 - marketing troca valor necessidades e publicos.md",
+        "section": "Satisfação, expectativa, qualidade e lealdade"
+      },
+      "statement": "Se a qualidade percebida permanece igual, elevar a expectativa pela promessa de atendimento imediato pode reduzir a satisfação após a experiência.",
+      "correctAnswer": "C",
+      "explanation": "A expectativa maior pode ampliar a diferença entre desempenho percebido e promessa."
+    },
+    {
+      "id": "cam-di-ansoff-dois-movimentos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / planejamento",
+      "articleId": "art-1c9e5b7a32d0648f",
+      "conceptId": "ansoff-dois-movimentos",
+      "mechanism": "ansoff-dois-movimentos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1c9e5b7a32d0648f#Matriz de Ansoff: produto e mercado, existentes e novos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes.md",
+        "section": "Matriz de Ansoff: produto e mercado, existentes e novos"
+      },
+      "statement": "Uma editora leva seu catálogo impresso atual a uma nova região e oferece um curso inédito apenas aos compradores da região de origem. Como o plano contém um produto novo e um mercado novo, ambas as ações são diversificação na matriz de Ansoff.",
+      "correctAnswer": "E",
+      "explanation": "A matriz classifica cada combinação. O catálogo existente na nova região é desenvolvimento de mercado. O curso novo no mercado atual é desenvolvimento de produto."
+    },
+    {
+      "id": "cam-di-bcg-comparacao-de-portfolios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / planejamento",
+      "articleId": "art-1c9e5b7a32d0648f",
+      "conceptId": "bcg-comparacao-de-portfolios",
+      "mechanism": "bcg-comparacao-de-portfolios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-1c9e5b7a32d0648f#BCG: participação relativa e crescimento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/96 - planejamento de marketing diagnostico objetivos e decisoes.md",
+        "section": "BCG: participação relativa e crescimento"
+      },
+      "statement": "Em mercados com a mesma taxa de crescimento, A tem 24% de participação contra 48% da líder e B tem 18% contra 20% da líder. B ocupa posição mais alta no eixo de participação relativa, embora tenha participação absoluta menor.",
+      "correctAnswer": "C",
+      "explanation": "As razões são 0,50 e 0,90. A comparação exige normalizar cada participação pela líder do respectivo mercado."
+    },
+    {
+      "id": "cam-di-percepcao-entre-publicos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing institucional",
+      "articleId": "art-83c4a6e90b127f5d",
+      "conceptId": "percepcao-entre-publicos",
+      "mechanism": "percepcao-entre-publicos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-83c4a6e90b127f5d#Identidade, imagem, reputação e legitimidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/97 - marketing institucional no setor publico valor legitimidade e limites.md",
+        "section": "Identidade, imagem, reputação e legitimidade"
+      },
+      "statement": "Imagens diferentes de uma instituição podem coexistir entre pessoas que usam serviços distintos prestados por ela.",
+      "correctAnswer": "C",
+      "explanation": "Imagem descreve percepções de públicos. Experiências diferentes podem produzir avaliações distintas da mesma organização."
+    },
+    {
+      "id": "cam-di-valor-e-distribuicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing institucional",
+      "articleId": "art-83c4a6e90b127f5d",
+      "conceptId": "valor-e-distribuicao",
+      "mechanism": "valor-e-distribuicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-83c4a6e90b127f5d#Direito à informação, transparência e valor público"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/97 - marketing institucional no setor publico valor legitimidade e limites.md",
+        "section": "Direito à informação, transparência e valor público"
+      },
+      "statement": "Uma reformulação do portal aumenta o número total de consultas, mas impede um grupo de localizar informações de que precisa. O crescimento agregado basta para concluir que o valor público do serviço aumentou para todos.",
+      "correctAnswer": "E",
+      "explanation": "O indicador agregado esconde a distribuição dos benefícios. A barreira identificada contradiz uma conclusão de melhora universal."
+    },
+    {
+      "id": "cam-di-objetivo-de-publico-interno",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / endomarketing",
+      "articleId": "art-5a7d1ec093b42f68",
+      "conceptId": "objetivo-de-publico-interno",
+      "mechanism": "objetivo-de-publico-interno",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5a7d1ec093b42f68#Fronteiras entre conceitos"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md",
+        "section": "Fronteiras entre conceitos"
+      },
+      "statement": "Um programa de endomarketing tem o público interno como destinatário direto de suas ações.",
+      "correctAnswer": "C",
+      "explanation": "O programa organiza ações para quem atua na instituição e pode contribuir indiretamente para a experiência externa."
+    },
+    {
+      "id": "cam-di-avaliacao-de-intervencao-interna",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / endomarketing",
+      "articleId": "art-5a7d1ec093b42f68",
+      "conceptId": "avaliacao-de-intervencao-interna",
+      "mechanism": "avaliacao-de-intervencao-interna",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5a7d1ec093b42f68#Comunicação e cultura"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md",
+        "section": "Comunicação e cultura"
+      },
+      "statement": "Uma ação interna pretende reduzir retrabalho entre setores. A taxa de abertura do boletim comprova que o retrabalho caiu, desde que a mensagem tenha sido distribuída a todos os setores.",
+      "correctAnswer": "E",
+      "explanation": "A abertura informa exposição ao boletim. O resultado pretendido exige comparar ocorrências de retrabalho sob critérios consistentes."
+    },
+    {
+      "id": "cam-di-papeis-acumulados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / segmentação",
+      "articleId": "art-b7e30f4c9a261d85",
+      "conceptId": "papeis-acumulados",
+      "mechanism": "papeis-acumulados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b7e30f4c9a261d85#Centro de compras e papéis decisórios"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao.md",
+        "section": "Centro de compras e papéis decisórios"
+      },
+      "statement": "Uma pessoa que usa um software e recomenda critérios para sua substituição pode acumular papéis de usuária e influenciadora na mesma compra organizacional.",
+      "correctAnswer": "C",
+      "explanation": "Os papéis descrevem funções desempenhadas. Uma pessoa pode atuar em mais de uma função."
+    },
+    {
+      "id": "cam-di-atratividade-e-restricao-operacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / segmentação",
+      "articleId": "art-b7e30f4c9a261d85",
+      "conceptId": "atratividade-e-restricao-operacional",
+      "mechanism": "atratividade-e-restricao-operacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b7e30f4c9a261d85#Atratividade versus capacidade de atender"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/99 - segmentacao de mercado b2b atratividade e decisao.md",
+        "section": "Atratividade versus capacidade de atender"
+      },
+      "statement": "Um segmento tem 900 pedidos previstos, dos quais 200 cabem no prazo com a capacidade atual. Outro tem 500 pedidos, dos quais 450 cabem no mesmo prazo. Se a meta imediata é maximizar pedidos atendidos no prazo e só é possível escolher um segmento, a segunda opção atende melhor à meta.",
+      "correctAnswer": "C",
+      "explanation": "O objetivo usa atendimento realizável no prazo. A segunda opção entrega 450, contra 200 da primeira, mesmo com demanda bruta menor."
+    },
+    {
+      "id": "cam-di-alcance-espontaneo-de-terceiros",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing digital",
+      "articleId": "art-c2d947e6a15083bf",
+      "conceptId": "alcance-espontaneo-de-terceiros",
+      "mechanism": "alcance-espontaneo-de-terceiros",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2d947e6a15083bf#Canais e meios: categorias que se cruzam"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md",
+        "section": "Canais e meios: categorias que se cruzam"
+      },
+      "statement": "A reportagem que um veículo publica por iniciativa própria sobre um evento institucional é mídia paga porque a instituição arcou com a produção do evento.",
+      "correctAnswer": "E",
+      "explanation": "Mídia paga exige compra da distribuição. O custo do evento não é pagamento pela cobertura editorial."
+    },
+    {
+      "id": "cam-di-etapa-e-dispositivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing digital",
+      "articleId": "art-c2d947e6a15083bf",
+      "conceptId": "etapa-e-dispositivo",
+      "mechanism": "etapa-e-dispositivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2d947e6a15083bf#Jornada: necessidade, tarefa e experiência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md",
+        "section": "Jornada: necessidade, tarefa e experiência"
+      },
+      "statement": "Se o mesmo público consulta instruções no celular e envia formulários no computador, avaliar cada dispositivo como uma jornada completa pode subestimar a conclusão de tarefas iniciadas no celular.",
+      "correctAnswer": "C",
+      "explanation": "A mudança de dispositivo pode dividir uma única jornada entre registros. Conclusões por dispositivo exigem considerar essa limitação."
+    },
+    {
+      "id": "cam-di-indisponibilidade-e-canal-alternativo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing digital",
+      "articleId": "art-c2d947e6a15083bf",
+      "conceptId": "indisponibilidade-e-canal-alternativo",
+      "mechanism": "indisponibilidade-e-canal-alternativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2d947e6a15083bf#Planejamento e governança da integração"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md",
+        "section": "Planejamento e governança da integração"
+      },
+      "statement": "Se o portal falha temporariamente, orientar o cidadão para um telefone que só presta informações preserva o acesso à orientação, mas não substitui um formulário exigido para enviar o pedido.",
+      "correctAnswer": "C",
+      "explanation": "A equivalência depende da tarefa. O telefone atende a orientação, enquanto o envio exige um canal que aceite o pedido."
+    },
+    {
+      "id": "cam-di-passagem-de-canal-com-contexto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing digital",
+      "articleId": "art-c2d947e6a15083bf",
+      "conceptId": "passagem-de-canal-com-contexto",
+      "mechanism": "passagem-de-canal-com-contexto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2d947e6a15083bf#Integração multicanal, cross-channel e omnichannel"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md",
+        "section": "Integração multicanal, cross-channel e omnichannel"
+      },
+      "statement": "Um cidadão abre um chamado no portal e recebe um protocolo. A equipe telefônica recupera os dados do chamado pelo protocolo e complementa o registro. A continuidade da tarefa pode existir mesmo que o portal e o telefone tenham interfaces diferentes.",
+      "correctAnswer": "C",
+      "explanation": "A equipe retoma o mesmo caso. O critério relevante é a preservação do contexto e do estado da tarefa entre canais."
+    },
+    {
+      "id": "cam-di-situacao-problema-inicial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / comportamento do consumidor",
+      "articleId": "art-e51bc97a40d268f3",
+      "conceptId": "situacao-problema-inicial",
+      "mechanism": "situacao-problema-inicial",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e51bc97a40d268f3#Processo de decisão de compra: cinco etapas clássicas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md",
+        "section": "Processo de decisão de compra: cinco etapas clássicas"
+      },
+      "statement": "Perceber que o equipamento atual deixou de atender às necessidades de trabalho pode iniciar um processo de decisão de compra.",
+      "correctAnswer": "C",
+      "explanation": "A percepção da diferença entre a situação atual e a desejada corresponde ao reconhecimento da necessidade."
+    },
+    {
+      "id": "cam-di-envolvimento-depende-da-situacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / comportamento do consumidor",
+      "articleId": "art-e51bc97a40d268f3",
+      "conceptId": "envolvimento-depende-da-situacao",
+      "mechanism": "envolvimento-depende-da-situacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e51bc97a40d268f3#Quatro tipos de comportamento de compra: duas dimensões"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md",
+        "section": "Quatro tipos de comportamento de compra: duas dimensões"
+      },
+      "statement": "Uma compra de baixo valor pode envolver análise detalhada se o produto for destinado a uma pessoa com restrições alimentares severas.",
+      "correctAnswer": "C",
+      "explanation": "O envolvimento também depende do risco percebido e da relevância da decisão. Preço baixo não determina baixo envolvimento."
+    },
+    {
+      "id": "cam-di-suporte-e-friccao-pos-compra",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / comportamento do consumidor",
+      "articleId": "art-e51bc97a40d268f3",
+      "conceptId": "suporte-e-friccao-pos-compra",
+      "mechanism": "suporte-e-friccao-pos-compra",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e51bc97a40d268f3#Pós-compra: satisfação, lealdade e dissonância"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md",
+        "section": "Pós-compra: satisfação, lealdade e dissonância"
+      },
+      "statement": "Problemas de instalação relatados após uma compra pertencem à etapa de busca inicial porque a pessoa ainda precisa de informações.",
+      "correctAnswer": "E",
+      "explanation": "A busca ocorre no uso do produto adquirido. A posição no processo depende da finalidade da busca e de sua relação com a compra já realizada."
+    },
+    {
+      "id": "cam-di-demanda-latente-e-dados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / comportamento do consumidor",
+      "articleId": "art-e51bc97a40d268f3",
+      "conceptId": "demanda-latente-e-dados",
+      "mechanism": "demanda-latente-e-dados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e51bc97a40d268f3#Da compra ao acesso a serviços públicos: analogia com limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md",
+        "section": "Da compra ao acesso a serviços públicos: analogia com limites"
+      },
+      "statement": "Dois grupos enviam o mesmo número de solicitações. Um deles enfrenta uma taxa de falhas maior antes do envio. A igualdade nos registros finais demonstra que os dois grupos tiveram a mesma demanda inicial.",
+      "correctAnswer": "E",
+      "explanation": "As contagens finais combinam demanda inicial e perdas ao longo da jornada. Taxas de falha diferentes impedem inferir demanda igual apenas pelo número de envios."
     }
   ]
 }

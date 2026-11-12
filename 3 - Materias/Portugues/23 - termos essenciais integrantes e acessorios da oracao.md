@@ -222,13 +222,13 @@ Na frase “Ao Presidente da Câmara compete promulgar as resoluções do Plená
 
 ### Questão 5
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-No trecho “A Constituição Federal de 1988 consagrou o princípio da moralidade administrativa”, a expressão “da moralidade administrativa” funciona como aposto especificativo do substantivo “princípio”.
+No período “A comissão examinou três documentos: o parecer, o relatório e a minuta”, o segmento “o parecer, o relatório e a minuta” exerce função de aposto enumerativo em relação ao termo “três documentos”.
 
 - [ ] Certo
 - [ ] Errado
 
 > **Gabarito: CERTO**  
-> **Comentário**: Quando um substantivo de sentido genérico (*princípio, direito, crime, cidade, mês, estado*) é individualizado e denominado por um termo específico (frequentemente preposicionado, como em *cidade de Brasília*, *mês de novembro*, *princípio da moralidade*), este termo recebe a classificação de **aposto especificativo (ou restritivo)**, pois estabelece relação de identidade denominativa com o substantivo geral (*o princípio é a moralidade administrativa*).
+> **Comentário**: O segmento após os dois-pontos **enumera os três documentos anunciados** pelo termo antecedente, explicando quais são eles. Trata-se de **aposto enumerativo**, e não de objeto direto adicional do verbo *examinou*. A expressão *três documentos* já integra o objeto direto, e a enumeração a especifica. Esta versão substitui a classificação controversa de *da moralidade administrativa* como aposto especificativo, sem afirmar que a banca examinou esta questão inédita.
 
 ---
 

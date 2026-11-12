@@ -43,7 +43,7 @@ Toda estimativa de opinião deve responder: **quem foi elegível, sobre qual ass
 
 **Exemplo:** “62% apoiam a proposta” só possui interpretação completa se for possível identificar a população, a formulação apresentada, o período de campo, os critérios de resposta e o desenho da seleção. Uma pergunta sobre “ampliar a participação popular” pode produzir respostas diferentes de uma pergunta sobre um procedimento específico de participação com custos, requisitos e consequências descritos.
 
-Uma sondagem **transversal** fornece retrato de momento; pesquisas transversais repetidas permitem examinar mudanças em estimativas ao longo do tempo, sem acompanhar necessariamente as mesmas pessoas. **Painel** acompanha unidades em diferentes momentos. Esse contraste está fundamentado na nota 103.
+Uma sondagem **transversal** fornece retrato de momento; pesquisas transversais repetidas permitem examinar mudanças em estimativas ao longo do tempo, sem acompanhar necessariamente as mesmas pessoas. **Painel** acompanha unidades em diferentes momentos. Esse contraste está fundamentado no artigo [[3 - Materias/Comunicacao/103 - pesquisa de mercado desenho amostragem e interpretacao|Pesquisa de mercado: desenho, amostragem e interpretação]].
 
 **Opinião não expressa** ou registrada como “não sabe” não constitui automaticamente oposição, concordância ou neutralidade. Em questões pouco familiares, a ausência de posição formada pode ser substantiva, e forçar resposta tende a criar uma aparência de precisão maior do que a evidência permite.
 

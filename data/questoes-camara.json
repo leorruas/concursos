@@ -19385,6 +19385,222 @@
       "statement": "Depois que uma mudança de escopo foi autorizada, atualizar apenas a lista de entregas torna suficiente o controle da execução, ainda que o cronograma e os critérios de aceite tenham sido afetados.",
       "correctAnswer": "E",
       "explanation": "A decisão precisa chegar aos documentos e pessoas responsáveis pelas partes afetadas. Atualizar só a lista deixa referências incompatíveis."
+    },
+    {
+      "id": "cam-cs-mapeamento-com-barreira-de-consulta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / públicos",
+      "articleId": "art-43a9f2d71b0e65c8",
+      "conceptId": "mapeamento-com-barreira-de-consulta",
+      "mechanism": "mapeamento-com-barreira-de-consulta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-43a9f2d71b0e65c8#Segmentação aplicada ao setor público: acesso e participação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais.md",
+        "section": "Segmentação aplicada ao setor público: acesso e participação"
+      },
+      "statement": "Uma consulta sobre horários pode exigir contato específico com trabalhadores do turno noturno se a reunião aberta ocorre durante o turno diurno.",
+      "correctAnswer": "C",
+      "explanation": "A possibilidade formal de participar não assegura acesso. O planejamento deve considerar as condições concretas do público."
+    },
+    {
+      "id": "cam-cs-fluxo-e-retorno-em-etapas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / fluxos",
+      "articleId": "art-8742dc93b5e1a06f",
+      "conceptId": "fluxo-e-retorno-em-etapas",
+      "mechanism": "fluxo-e-retorno-em-etapas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8742dc93b5e1a06f#Fluxo, rede, canal e finalidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade.md",
+        "section": "Fluxo, rede, canal e finalidade"
+      },
+      "statement": "Em uma consulta interna, classificar o aviso inicial como descendente basta para classificar também as respostas enviadas pelos trabalhadores à direção.",
+      "correctAnswer": "E",
+      "explanation": "A direção é determinada em cada troca. As respostas dos trabalhadores à direção seguem um fluxo ascendente."
+    },
+    {
+      "id": "cam-cs-ponte-informal-entre-unidades",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / comunicação formal e informal",
+      "articleId": "art-c49f86d2107ae35b",
+      "conceptId": "ponte-informal-entre-unidades",
+      "mechanism": "ponte-informal-entre-unidades",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c49f86d2107ae35b#Informação correta, rumor e desinformação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao.md",
+        "section": "Informação correta, rumor e desinformação"
+      },
+      "statement": "Um trabalhador sem cargo de chefia pode ligar duas redes informais ao compartilhar com ambas informações verificadas sobre uma mudança.",
+      "correctAnswer": "C",
+      "explanation": "A posição na rede depende das relações efetivas. A conexão entre grupos pode existir sem autoridade formal."
+    },
+    {
+      "id": "cam-cs-impacto-cruzado-de-mudanca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / gestão de projetos",
+      "articleId": "art-6c72b9e450a813df",
+      "conceptId": "impacto-cruzado-de-mudanca",
+      "mechanism": "impacto-cruzado-de-mudanca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6c72b9e450a813df#Controle de mudanças: solicitar não significa aprovar"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md",
+        "section": "Controle de mudanças: solicitar não significa aprovar"
+      },
+      "statement": "Ao avaliar uma nova edição impressa solicitada para um projeto digital, a equipe pode precisar estimar impressão, revisão e distribuição antes de encaminhar a decisão.",
+      "correctAnswer": "C",
+      "explanation": "A mudança acrescenta entregas e dependências. A análise de impacto informa a decisão sobre recursos, prazo e escopo."
+    },
+    {
+      "id": "cam-cs-licao-documentada-e-transferencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / gestão de projetos",
+      "articleId": "art-6c72b9e450a813df",
+      "conceptId": "licao-documentada-e-transferencia",
+      "mechanism": "licao-documentada-e-transferencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6c72b9e450a813df#Encerramento, transição e lições aprendidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/64 - gestao de projetos de comunicacao papeis riscos mudancas e controle.md",
+        "section": "Encerramento, transição e lições aprendidas"
+      },
+      "statement": "Registrar que um projeto atrasou é suficiente para transferir o aprendizado à equipe seguinte mesmo quando o registro não identifica a condição que provocou o atraso.",
+      "correctAnswer": "E",
+      "explanation": "O registro identifica o resultado. Para orientar outro projeto, é preciso registrar as circunstâncias, a causa provável e a resposta adotada."
+    },
+    {
+      "id": "cam-cs-dimensao-cultural-com-mesma-orientacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / dimensoes",
+      "articleId": "art-6493b2e7a10dc58f",
+      "conceptId": "dimensao-cultural-com-mesma-orientacao",
+      "mechanism": "dimensao-cultural-com-mesma-orientacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6493b2e7a10dc58f#Dimensão cultural: contextos, sentidos e diversidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch.md",
+        "section": "Dimensão cultural: contextos, sentidos e diversidade"
+      },
+      "statement": "Se duas unidades usam a mesma orientação para justificar práticas diferentes, investigar os significados construídos localmente é compatível com a dimensão cultural da comunicação.",
+      "correctAnswer": "C",
+      "explanation": "A dimensão cultural examina como contextos e significados compartilhados influenciam a interpretação e as práticas."
+    },
+    {
+      "id": "cam-cs-identidade-comum-sem-criterio-de-atualizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / comunicação integrada",
+      "articleId": "art-37f0a85c9b214d6e",
+      "conceptId": "identidade-comum-sem-criterio-de-atualizacao",
+      "mechanism": "identidade-comum-sem-criterio-de-atualizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37f0a85c9b214d6e#Como integrar na prática: não basta alinhar slogans"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca.md",
+        "section": "Como integrar na prática: não basta alinhar slogans"
+      },
+      "statement": "Padronizar o visual de dois canais assegura coerência quando ambos divulgam orientações que podem ser atualizadas sem coordenação entre as equipes.",
+      "correctAnswer": "E",
+      "explanation": "A coerência informacional depende também de fontes, responsabilidades e rotinas de atualização compartilhadas."
+    },
+    {
+      "id": "cam-cs-recepcao-e-aplicacao-com-base-comum",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / avaliação",
+      "articleId": "art-6bd29c1e87f043a5",
+      "conceptId": "recepcao-e-aplicacao-com-base-comum",
+      "mechanism": "recepcao-e-aplicacao-com-base-comum",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6bd29c1e87f043a5#AMEC: a estrutura de seis níveis de avaliação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec.md",
+        "section": "AMEC: a estrutura de seis níveis de avaliação"
+      },
+      "statement": "Um teste pode medir separadamente se as pessoas lembram a instrução e se conseguem executar a tarefa, ainda que ambas as medidas sejam coletadas com os mesmos participantes.",
+      "correctAnswer": "C",
+      "explanation": "As medidas têm objetos distintos. Usar a mesma base facilita examinar a relação entre eles sem tratá-los como equivalentes."
     }
   ]
 }

@@ -119,7 +119,7 @@ O Acordo Ortográfico aboliu a imensa maioria dos acentos diferenciais (*para* d
 A hifenização sob o Acordo de 1990 rege-se pelo princípio da aglutinação sistemática, ressalvadas as fronteiras fonéticas de conflito.
 
 ### 3.1. A Regra Geral dos Opostos (Vogais)
-- **Vogais Iguais $\rightarrow$ USA-SE HÍFEN** (*princípio da repulsão de iguais*):  
+- **Vogais iguais, em regra, pedem hífen**, com exceções próprias de alguns prefixos, como *co-* e *re-*:  
   *micro-ondas, anti-inflamatório, micro-organismo, contra-ataque, auto-observação, sobre-elevar*.
 - **Vogais Diferentes $\rightarrow$ JUNTA-SE TUDO** (*princípio da atração dos diferentes*):  
   *autoescola, infraestrutura, semiaberto, coautor, extraoficial, plurianual, hidroelétrica, socioeconômico*.
@@ -274,7 +274,7 @@ A palavra “hífen” recebe acento gráfico por ser paroxítona terminada na c
 - [ ] Errado
 
 > **Gabarito: ERRADO**  
-> **Comentário**: Trata-se de uma das mais célebres pegadinhas do Cebraspe em acentuação. No singular, **hífen** recebe acento por ser paroxítona terminada em -n (*pólen, próton, elétron*). No entanto, o seu plural **hifens** termina em **-ens**, que é a terminação típica das paroxítonas que **não** recebem acento (a terminação -ens só gera acento em palavras oxítonas, como *parabéns, desdém, armazéns*). Logo, escreve-se *hífen* (com acento), mas *hifens* e *polens* (sem acento!).
+> **Comentário**: O item exige distinguir a regra de acentuação do singular daquela aplicável à forma plural, sem depender de afirmação sobre frequência de cobrança da banca. No singular, **hífen** recebe acento por ser paroxítona terminada em -n (*pólen, próton, elétron*). No entanto, o seu plural **hifens** termina em **-ens**, que é a terminação típica das paroxítonas que **não** recebem acento (a terminação -ens só gera acento em palavras oxítonas, como *parabéns, desdém, armazéns*). Logo, escreve-se *hífen* (com acento), mas *hifens* e *polens* (sem acento!).
 
 ---
 

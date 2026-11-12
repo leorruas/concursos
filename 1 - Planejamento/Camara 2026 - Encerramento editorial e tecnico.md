@@ -44,12 +44,12 @@ O quadro abaixo registra **120 inspeções técnicas individuais** de arquivos a
 | Artigo | articleId | SHA do conteúdo | Evidência localizada | Parecer individual e ressalva |
 | --- | --- | --- | --- | --- |
 | 01 | `art-9b4bc5f91bab49ae` | `69baab54e06d` | 0 marcadores de exercício, 0 URLs, 2 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
-| 02 | `art-aa982758b945496d` | `7f101dc0b672` | 0 marcadores de exercício, 0 URLs, 8 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
+| 02 | `art-aa982758b945496d` | `55b8483c2f87` | 0 marcadores de exercício, 0 URLs, 8 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 03 | `art-2f08d016bf214fc3` | `26c5486cd41a` | 0 marcadores de exercício, 0 URLs, 15 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 06 | `art-36581e505e5f476c` | `3c1e38400c6d` | 0 marcadores de exercício, 6 URLs, 17 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 07 | `art-50f1296bdde542f0` | `3b782c662cfc` | 0 marcadores de exercício, 2 URLs, 9 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 09 | `art-806546892285426f` | `9705d84b718b` | 3 marcadores de exercício, 2 URLs, 11 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
-| 10 | `art-76a6d49bcd9c4a3e` | `5b3dc7080aab` | 0 marcadores de exercício, 0 URLs, 8 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
+| 10 | `art-76a6d49bcd9c4a3e` | `de2d8a772700` | 0 marcadores de exercício, 0 URLs, 8 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 100 | `art-c2d947e6a15083bf` | `2f18b7bfbb73` | 4 marcadores de exercício, 11 URLs, 6 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 101 | `art-e51bc97a40d268f3` | `b649a6310f07` | 4 marcadores de exercício, 7 URLs, 6 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 102 | `art-8b1e6d903f42c7a5` | `346ecfc173f5` | 5 marcadores de exercício, 3 URLs, 3 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
@@ -81,10 +81,10 @@ O quadro abaixo registra **120 inspeções técnicas individuais** de arquivos a
 | 124 | `art-64e9b713c8a250df` | `da22b14eb985` | 10 marcadores de exercício, 8 URLs, 8 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 15 | `art-df1afbd404734be2` | `bd2c6b0f90c1` | 0 marcadores de exercício, 3 URLs, 4 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 16 | `art-1739e871ee1a45de` | `8330e339c9bc` | 0 marcadores de exercício, 3 URLs, 8 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
-| 17 | `art-553db0a4633f46c6` | `e69eeb288891` | 0 marcadores de exercício, 3 URLs, 9 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
+| 17 | `art-553db0a4633f46c6` | `daf48efd1afd` | 0 marcadores de exercício, 3 URLs, 9 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 18 | `art-f1483b1fa6d042c2` | `0a9bed6c4d8f` | 0 marcadores de exercício, 4 URLs, 7 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 19 | `art-e51e5d78db5a4c99` | `01c4a2da4313` | 0 marcadores de exercício, 2 URLs, 11 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
-| 20 | `art-128136a69e634e4b` | `849182b55bd7` | 0 marcadores de exercício, 3 URLs, 11 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
+| 20 | `art-128136a69e634e4b` | `38e428fabee8` | 0 marcadores de exercício, 3 URLs, 11 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 22 | `art-8f680037dea445fa` | `bef0b317ca75` | 0 marcadores de exercício, 2 URLs, 7 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 22.1 | `art-ccdd4dc3d35e4b46` | `75381314c122` | 0 marcadores de exercício, 4 URLs, 5 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 
@@ -171,6 +171,19 @@ O quadro abaixo registra **120 inspeções técnicas individuais** de arquivos a
 | 97 | `art-83c4a6e90b127f5d` | `d4d5dffa693f` | 4 marcadores de exercício, 7 URLs, 10 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 98 | `art-5a7d1ec093b42f68` | `c65d864aa71f` | 5 marcadores de exercício, 8 URLs, 3 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
 | 99 | `art-b7e30f4c9a261d85` | `2ec9676cff3c` | 4 marcadores de exercício, 9 URLs, 7 wikilinks; 0 NH; cercas pares | PARECER TÉCNICO COM RESSALVAS: estrutura conferida; homologação substantiva individual pendente |
+
+## Reparos de integração de Comunicação: 6 links comprovadamente obsoletos
+
+Varredura das remissões explícitas `[[3 - Materias/...]]` nos 120 artigos atuais, comparando destinos físicos com a árvore GitHub `main`. Foram identificados **seis caminhos obsoletos** em quatro arquivos e reparados com SHA atual, sem trocar `articleId`, corpo teórico ou gabarito:
+
+| Artigo | Reparo | Commit | Releitura |
+| --- | --- | --- | --- |
+| 02 | Destino da revisão sobre comunicação pública e político-partidária, nota 71 | [b19d2ba](https://github.com/leorruas/concursos/commit/b19d2ba4fb6cd62e1d560cc864ef0105541949e7) | Sim, caminho novo presente |
+| 10 | Notas 75 (técnicas e compreensão) e 76 (manual de Patrícia Roedel) | [2b883f0](https://github.com/leorruas/concursos/commit/2b883f0f9e9275347448435d8c569491de80b2df) | Sim, dois destinos |
+| 17 | Nota 102 (métodos) e nota 104 (pesquisa de opinião, substituindo remissão antiga a 103) | [205f246](https://github.com/leorruas/concursos/commit/205f2461d1557146afe0572d060db939e41132b7) | Sim, dois destinos |
+| 20 | Nota 79 (fundamentos da publicidade) | [f2293d8](https://github.com/leorruas/concursos/commit/f2293d86b899588a575d2947ab02788b180c611a) | Sim, um destino |
+
+A varredura examinou as **120 notas numeradas catalogadas** e só julgou caminhos completos sob `3 - Materias/`. **Links relativos curtos, seções/âncoras, URLs externas e renderização no navegador não foram cobertos por essa verificação.** O CI vigente testa wikilinks em tabelas e navegação em escopos próprios, e não substitui inspeção universal de todas as âncoras.
 
 ## Reconciliação de Comunicação: 128, 133 e 120
 

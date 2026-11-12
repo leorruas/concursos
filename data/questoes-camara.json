@@ -18872,6 +18872,141 @@
       "correctAnswer": "E",
       "explanation": "O compromisso informa quando haverá nova comunicação. A retomada depende de confirmação operacional própria.",
       "reviewEvidence": "Revisão editorial do enunciado e gabarito com Seis princípios CERC: rapidez e precisão coexistem em 3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md. Lote 011: cotejo com os exercícios publicados, triagem lexical e verificação do contrato de sessão e seleção."
+    },
+    {
+      "id": "cam-cs-registro-e-apropriacao-da-informacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / dimensoes",
+      "articleId": "art-6493b2e7a10dc58f",
+      "conceptId": "registro-e-apropriacao-da-informacao",
+      "mechanism": "registro-e-apropriacao-da-informacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6493b2e7a10dc58f#Dimensão instrumental: informação como recurso técnico"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/56 - dimensoes e escopo da comunicacao organizacional kunsch.md",
+        "section": "Dimensão instrumental: informação como recurso técnico"
+      },
+      "statement": "Se um sistema interno registra que todos receberam a nova orientação, a análise instrumental permite concluir que todos atribuíram o mesmo sentido à mensagem.",
+      "correctAnswer": "E",
+      "explanation": "O registro ajuda a avaliar a transmissão. A interpretação exige examinar as interações e os contextos em que as pessoas atribuem sentido à orientação."
+    },
+    {
+      "id": "cam-cs-integracao-com-procedimento-divergente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / comunicação integrada",
+      "articleId": "art-37f0a85c9b214d6e",
+      "conceptId": "integracao-com-procedimento-divergente",
+      "mechanism": "integracao-com-procedimento-divergente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37f0a85c9b214d6e#Como integrar na prática: não basta alinhar slogans"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/57 - comunicacao integrada modalidades articulacao e governanca.md",
+        "section": "Como integrar na prática: não basta alinhar slogans"
+      },
+      "statement": "Se a campanha anuncia agendamento por telefone, mas o atendimento só confirma agendamentos feitos no portal, conciliar as orientações entre as áreas é uma ação de integração, mesmo que a identidade visual já seja comum.",
+      "correctAnswer": "C",
+      "explanation": "A divergência é de informação e de operação. A integração exige articular as áreas para que a promessa e o serviço sejam compatíveis."
+    },
+    {
+      "id": "cam-cs-mesmo-canal-com-fluxos-distintos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / fluxos",
+      "articleId": "art-8742dc93b5e1a06f",
+      "conceptId": "mesmo-canal-com-fluxos-distintos",
+      "mechanism": "mesmo-canal-com-fluxos-distintos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8742dc93b5e1a06f#Fluxo, rede, canal e finalidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/58 - fluxos da comunicacao organizacional direcao hierarquia e transversalidade.md",
+        "section": "Fluxo, rede, canal e finalidade"
+      },
+      "statement": "Um grupo de mensagens pode sustentar tanto a troca horizontal entre colegas quanto pedidos ascendentes enviados à chefia.",
+      "correctAnswer": "C",
+      "explanation": "O canal é o meio utilizado. A direção de cada troca depende das posições de quem envia e de quem recebe."
+    },
+    {
+      "id": "cam-cs-confirmacao-de-aviso-por-rede-informal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / comunicação formal e informal",
+      "articleId": "art-c49f86d2107ae35b",
+      "conceptId": "confirmacao-de-aviso-por-rede-informal",
+      "mechanism": "confirmacao-de-aviso-por-rede-informal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c49f86d2107ae35b#Informação correta, rumor e desinformação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/59 - redes formais informais grapevine e circulacao da informacao.md",
+        "section": "Informação correta, rumor e desinformação"
+      },
+      "statement": "Uma informação correta sobre o horário de uma reunião passa a ser necessariamente falsa quando é retransmitida por colegas fora do canal oficial.",
+      "correctAnswer": "E",
+      "explanation": "A rede de circulação e a veracidade são critérios distintos. O percurso informal não altera por si o conteúdo."
+    },
+    {
+      "id": "cam-cs-exposicao-sem-influencia-na-decisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 4 / públicos",
+      "articleId": "art-43a9f2d71b0e65c8",
+      "conceptId": "exposicao-sem-influencia-na-decisao",
+      "mechanism": "exposicao-sem-influencia-na-decisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-43a9f2d71b0e65c8#Segmentação aplicada ao setor público: acesso e participação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/60 - mapeamento segmentacao e priorizacao de publicos institucionais.md",
+        "section": "Segmentação aplicada ao setor público: acesso e participação"
+      },
+      "statement": "Um grupo com pouco poder de decisão pode merecer atenção no planejamento de comunicação se for diretamente afetado por uma mudança no serviço.",
+      "correctAnswer": "C",
+      "explanation": "Poder e exposição ao efeito da mudança são dimensões distintas. A baixa capacidade de influenciar a decisão não elimina a necessidade de acesso à informação."
     }
   ]
 }

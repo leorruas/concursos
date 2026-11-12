@@ -35,3 +35,7 @@ Quarenta questões geradas para o item 5, vinculadas aos artigos 112 a 119. A tr
 ## Lote 006 validado
 
 Quarenta questões geradas para ética na comunicação, item 6 do edital, vinculadas aos artigos 11 e 120. Os gabaritos normativos foram cotejados com as fontes primárias indicadas. A triagem lexical e a revisão editorial levaram à reformulação de três itens. Próximo lote: gestão de equipes publicitárias.
+
+## Lote 007 em elaboração
+
+Oito questões geradas sobre gestão de equipes publicitárias, item 7 do edital, vinculadas ao artigo 121. Ampliar com casos sobre coordenação interfuncional, segurança psicológica, avaliação e limites de autonomia.

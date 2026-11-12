@@ -13192,6 +13192,222 @@
       "correctAnswer": "C",
       "explanation": "O art. 36 estabelece o critério de identificação da publicidade.",
       "reviewEvidence": "Cotejo editorial com art. 36 da fonte primária https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm e com o artigo de referência. Lote 006: cotejo editorial, triagem lexical e testes de sessão v3 e seleção."
+    },
+    {
+      "id": "cam-di-consulta-e-poder-de-decisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "consulta-e-poder-de-decisao",
+      "mechanism": "consulta-e-poder-de-decisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#RACI: responsabilizar sem confundir execução e aceite"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "RACI: responsabilizar sem confundir execução e aceite"
+      },
+      "statement": "Se a equipe de acessibilidade aparece como consultada na matriz RACI de uma peça, sua participação na consulta lhe transfere automaticamente a autoridade de aprovar a publicação.",
+      "correctAnswer": "E",
+      "explanation": "O papel consultado fornece contribuição antes da decisão. A aprovação cabe ao papel com autoridade definida para o aceite."
+    },
+    {
+      "id": "cam-di-fila-na-revisao-e-producao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "fila-na-revisao-e-producao",
+      "mechanism": "fila-na-revisao-e-producao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Coordenação do fluxo: capacidade, filas, dependências e mudanças"
+      },
+      "statement": "Se a criação entrega doze peças por semana e a única etapa de revisão consegue examinar oito, elevar a produção criativa para dezesseis por semana pode aumentar a fila sem ampliar a quantidade revisada.",
+      "correctAnswer": "C",
+      "explanation": "A revisão é o gargalo nas condições descritas. O aumento de entrada, sem ampliar a capacidade da etapa limitante, acumula trabalho."
+    },
+    {
+      "id": "cam-di-mudanca-de-premissa-apos-repasse",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "mudanca-de-premissa-apos-repasse",
+      "mechanism": "mudanca-de-premissa-apos-repasse",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Briefing e passagem de trabalho: o que precisa atravessar as equipes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Briefing e passagem de trabalho: o que precisa atravessar as equipes"
+      },
+      "statement": "Quando o público prioritário muda depois da entrega do briefing, avisar somente a equipe de mídia basta, mesmo que a redação tenha sido construída para necessidades específicas do público anterior.",
+      "correctAnswer": "E",
+      "explanation": "A mudança afeta as decisões de mensagem e distribuição. A coordenação precisa identificar e atualizar as equipes e entregas que dependiam da premissa anterior."
+    },
+    {
+      "id": "cam-di-revisao-pontual-e-retrabalho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "revisao-pontual-e-retrabalho",
+      "mechanism": "revisao-pontual-e-retrabalho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Avaliação de equipe: atividade, entrega, processo e resultado"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Avaliação de equipe: atividade, entrega, processo e resultado"
+      },
+      "statement": "Uma equipe pode cumprir mais prazos de primeira entrega e, no mesmo período, piorar a taxa de aprovação sem retrabalho.",
+      "correctAnswer": "C",
+      "explanation": "Pontualidade de primeira entrega e aprovação na primeira passagem medem aspectos distintos do processo. Uma melhora pode coexistir com a piora da outra."
+    },
+    {
+      "id": "cam-di-conflito-de-prioridade-matricial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "conflito-de-prioridade-matricial",
+      "mechanism": "conflito-de-prioridade-matricial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Estruturas organizacionais: autoridade, coordenação e tensões"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Estruturas organizacionais: autoridade, coordenação e tensões"
+      },
+      "statement": "Se a direção funcional aloca uma redatora a uma demanda e a coordenação da campanha precisa dela no mesmo horário, definir quem arbitra a prioridade ajuda a lidar com a dupla linha de coordenação.",
+      "correctAnswer": "C",
+      "explanation": "Em uma estrutura matricial, as prioridades funcional e de projeto podem competir pelo mesmo recurso. Definir autoridade de resolução evita instruções incompatíveis."
+    },
+    {
+      "id": "cam-di-feedback-com-conduta-observavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "feedback-com-conduta-observavel",
+      "mechanism": "feedback-com-conduta-observavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Gestão de conflitos, feedback e aprendizagem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Gestão de conflitos, feedback e aprendizagem"
+      },
+      "statement": "Dizer apenas que um colega “não tem perfil criativo” oferece a mesma base de aprendizagem que identificar a entrega, o critério descumprido e o ajuste esperado.",
+      "correctAnswer": "E",
+      "explanation": "O rótulo não informa qual comportamento deve mudar. O retorno específico liga a entrega a um critério e a uma ação verificável."
+    },
+    {
+      "id": "cam-di-autonomia-com-criterios-de-escalada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "autonomia-com-criterios-de-escalada",
+      "mechanism": "autonomia-com-criterios-de-escalada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Liderança, coordenação e autonomia profissional"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Liderança, coordenação e autonomia profissional"
+      },
+      "statement": "Uma equipe pode escolher autonomamente a linguagem visual de uma campanha e ainda ter obrigação de consultar a coordenação se a mudança afetar o orçamento aprovado.",
+      "correctAnswer": "C",
+      "explanation": "A autonomia pode abranger escolhas técnicas dentro de limites. Impactos fora desses limites exigem decisão na instância competente."
+    },
+    {
+      "id": "cam-di-versao-aprovada-e-alteracao-final",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 7 / gestão de equipes em publicidade",
+      "articleId": "art-4f73a9c12b60de85",
+      "conceptId": "versao-aprovada-e-alteracao-final",
+      "mechanism": "versao-aprovada-e-alteracao-final",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4f73a9c12b60de85#Decisões, aprovações e segregação de funções"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/121 - gestao de equipes publicitarias papeis trabalho e avaliacao.md",
+        "section": "Decisões, aprovações e segregação de funções"
+      },
+      "statement": "Se a versão aprovada de uma peça tinha um endereço correto, a equipe pode liberar uma exportação que traz outro endereço sem conferir a alteração, pois a aprovação acompanha o projeto inteiro.",
+      "correctAnswer": "E",
+      "explanation": "O aceite precisa corresponder à versão e às condições aprovadas. A mudança de endereço afeta a ação do público e exige verificação."
     }
   ]
 }

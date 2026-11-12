@@ -206,7 +206,7 @@ Para a vigência do PPA, lembrar: **segundo ano de um mandato → primeiro ano d
 - Manual Técnico do Orçamento de Investimento (MTOI 2026), item 5.1 (classificação das estatais): https://www.gov.br/gestao/pt-br/assuntos/estatais/orcamento/MTOI_2026.pdf
 - Congresso Nacional, Glossário Orçamentário: [Orçamento de Investimento de Empresa Estatal](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-orcamentario/-/orcamentario/termo/orcamento_de_investimento_de_empresa_estatal)
 - Senado, *Legislação Orçamentária*: https://www12.senado.leg.br/orcamento/legislacao-orcamentaria
-- Manual Técnico de Orçamento (MTO 2027), seção 5.5, participantes e responsabilidades na elaboração da LDO: https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2027%3Amto2027_1a_versao.pdf
+- Manual Técnico de Orçamento (MTO 2027, 3ª versão publicada em 07/07/2026), capítulo 5: elaboração da LDO; a atualização também inclui capítulo 7, Orçamentação de Médio Prazo: https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027
 - Plano Plurianual 2024–2027, Lei nº 14.802/2024: https://legis.senado.leg.br/norma/38150943/publicacao/38151432
 - Programa de referência: [[2 - Editais/CGU 2026 - Auditoria#Checklist completo de estudos por bloco|CGU 2026, P3.2.2]]; o resumo local não substitui o edital oficial e suas retificações.
 

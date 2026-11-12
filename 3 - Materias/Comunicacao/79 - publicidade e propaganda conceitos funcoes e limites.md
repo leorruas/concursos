@@ -5,7 +5,7 @@ title: "Publicidade e propaganda: conceitos, funções e limites"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Publicidade e propaganda: conceitos, funções e limites
@@ -160,6 +160,16 @@ Também não se deve presumir que a mera existência de anúncio significa, em t
 **Item 3.** À luz do art. 37, § 1º, da Constituição, uma campanha institucional que informe corretamente o acesso a serviço público pode, ainda assim, afrontar a vedação constitucional se seus elementos caracterizarem promoção pessoal de autoridade ou servidor.
 
 **Gabarito: Certo.** Informação verdadeira não supre isoladamente o exame de finalidade e personalismo, vedado pelo dispositivo.
+
+## Conferência dirigida: publicidade, processo contratado e impessoalidade (11/11/2026)
+
+O **art. 2º da Lei nº 12.232/2010** descreve os serviços de publicidade como atividades **realizadas integradamente**, abrangendo estudo, planejamento, conceituação, concepção, criação, execução interna, intermediação, supervisão da execução externa e distribuição, para **promover venda, difundir ideias ou informar o público**. A definição legal, aplicável a seu objeto contratual, **não exige** que cada publicidade individual seja comercial, remunerada ou persuasiva no mesmo grau. Também não elimina a distinção entre comunicação pública editorial e contratação de serviços de agência.
+
+O **art. 37, § 1º, da Constituição** condiciona a publicidade de atos, programas, obras, serviços e campanhas públicos a caráter **educativo, informativo ou de orientação social**, vedando nomes, símbolos ou imagens que caracterizem **promoção pessoal** de autoridades ou servidores. As finalidades são enunciadas de modo alternativo, e o conteúdo verdadeiro de um aviso **não afasta** uma promoção pessoal eventualmente contida no enquadramento. A aplicação interna da política da Câmara requer ainda o **Ato da Mesa nº 218/2025**, cujo alcance não se confunde com o Sicom do Executivo federal.
+
+**Conferência dos três C/E inéditos preexistentes:** item **1 Certo**, a publicidade não esgota o conjunto de decisões de marketing; item **2 Errado**, vídeo, slogan e apelo não são critérios suficientes para comercialidade; item **3 Certo**, a impessoalidade constitucional pode ser violada mesmo com informação correta. O item 1 é uma distinção de campo, não uma definição literal da Lei nº 12.232/2010. Não houve inversão de gabarito nem inclusão de questões reais.
+
+**Fontes oficiais cotejadas:** [Lei nº 12.232/2010, texto atualizado na Câmara](https://www2.camara.leg.br/legin/fed/lei/2010/lei-12232-29-abril-2010-606101-normaatualizada-pl.pdf), [Constituição Federal, art. 37](https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao), [Ato da Mesa nº 218/2025](https://www2.camara.leg.br/legin/int/atomes/2025/atodamesa-218-30-setembro-2025-798137-publicacaooriginal-176730-cd-mesa.html). **Limites:** a terminologia publicidade/propaganda varia nas tradições acadêmicas; esse cotejo é normativo e conceitual dirigido, sem leitura integral do Código CONAR nem certificação dos exemplos. **Status: Corrigido, certificação integral pendente.**
 
 ## Relações com outros temas e heurísticas
 

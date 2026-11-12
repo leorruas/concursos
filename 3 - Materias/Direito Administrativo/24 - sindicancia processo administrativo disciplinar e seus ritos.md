@@ -97,7 +97,20 @@ flowchart LR
 
 - O prazo para a conclusão do PAD ordinário é de **até 60 (sessenta) dias**, contados da data de publicação do ato que constituir a comissão;
 - Admite-se a **prorrogação por igual prazo (mais 60 dias)**, quando as circunstâncias o exigirem, mediante solicitação motivada da comissão à autoridade instauradora;
-- **Excesso de prazo:** a extrapolação do prazo legal de 120 dias pela comissão **não acarreta a nulidade do processo** (Súmula nº 592 do STJ). Apenas cessa a eficácia de eventual afastamento preventivo e faz reiniciar por inteiro a contagem do prazo prescricional (Súmula 635 do STJ).
+- **Excesso de prazo:** a superação do prazo previsto para a comissão **não invalida automaticamente o PAD**: a Súmula 592 do STJ exige demonstração de prejuízo à defesa. **O reinício da prescrição e a duração do afastamento preventivo seguem regras próprias**, não são efeitos automáticos da ultrapassagem dos 120 dias do trabalho da comissão.
+
+**Quatro cronologias distintas:**
+
+| Regime | Base | Prazo ou marco | Efeito |
+| --- | --- | --- | --- |
+| Trabalho da comissão no PAD ordinário | Lei 8.112, art. 152 | Até 60 dias desde a publicação do ato constitutivo, prorrogáveis por até mais 60 | Prazo procedimental: seu excesso não implica nulidade sem prejuízo |
+| Julgamento após o relatório | Lei 8.112, art. 167 | Até 20 dias do recebimento do processo pela autoridade julgadora | Prazo decisório distinto do trabalho da comissão |
+| Afastamento preventivo cautelar | Lei 8.112, art. 147 | Até 60 dias, prorrogáveis uma vez por igual período, sem prejuízo remuneratório | Cessa ao fim de seu prazo próprio, mesmo sem conclusão do PAD; não depende de marco de 120 dias da comissão |
+| Prescrição disciplinar | Lei 8.112, art. 142, §§ 1º a 4º; Súmula 635/STJ | Primeiro ato de instauração válido interrompe; o prazo volta a fluir **por inteiro após 140 dias desde a interrupção** | Marco de prescrição independente da análise de nulidade do PAD |
+
+**Caso progressivo:** uma comissão conclui em 125 dias. Isso não produz automaticamente nulidade nem prolonga afastamento cautelar: a defesa precisaria demonstrar prejuízo para invalidar o processo, e o afastamento segue os limites do art. 147. O prazo prescricional deve ser examinado com o marco de instauração válido e a Súmula 635, não com a data em que a comissão completou 120 dias.
+
+Fontes: [Lei nº 8.112/1990 atualizada](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html), [Súmula 592/STJ](https://scon.stj.jus.br/SCON/sumstj/toc.jsp?sumula=592), [Súmula 635/STJ](https://scon.stj.jus.br/SCON/sumstj/toc.jsp?sumula=635).
 
 ---
 
@@ -190,7 +203,7 @@ O **rito sumário** é o procedimento disciplinar concentrado e simplificado pre
 **3.** O excesso de prazo para a conclusão de processo administrativo disciplinar conduz à nulidade insanável de todo o procedimento, gerando o arquivamento automático dos autos em benefício do servidor indiciado.
 
 > **Gabarito: ERRADO**  
-> **Comentário:** Trata-se de tese sumulada do Superior Tribunal de Justiça: "O excesso de prazo para a conclusão do processo administrativo disciplinar não é causa de nulidade, quando não demonstrado prejuízo à defesa" (Súmula nº 592 do STJ). A inobservância do prazo ordinário de 120 dias constitui mera irregularidade formal que não acarreta anulação do processo, produzindo apenas efeitos sobre a cessação do afastamento preventivo e a contagem prescricional.
+> **Comentário:** Trata-se de tese sumulada do Superior Tribunal de Justiça: "O excesso de prazo para a conclusão do processo administrativo disciplinar não é causa de nulidade, quando não demonstrado prejuízo à defesa" (Súmula nº 592 do STJ). O enunciado é falso porque a Súmula 592 condiciona a nulidade por excesso de prazo à **demonstração de prejuízo à defesa**. O limite temporal do afastamento preventivo (art. 147) e o reinício do prazo prescricional aos 140 dias desde o primeiro ato válido de interrupção (Súmula 635) seguem critérios próprios. O excesso isolado dos 120 dias da comissão não autoriza deduzir automaticamente nenhum desses efeitos.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **4.** Na apuração de acumulação ilegal de cargos públicos pelo rito sumário, caso o servidor indiciado comprove que agiu de boa-fé e exerça o direito de opção por um dos vínculos até o último dia do prazo para apresentação da defesa escrita, a sua opção implicará a exoneração do outro cargo e a automática extinção do procedimento sem a aplicação de penalidade disciplinar.

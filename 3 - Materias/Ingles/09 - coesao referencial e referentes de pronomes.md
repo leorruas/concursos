@@ -151,7 +151,7 @@ Em inglês formal, diferentemente do português (onde usamos *que* entre vírgul
 
 ## 6. Caso prático progressivo: rastreamento de cadeias coesivas em texto sobre cibersegurança
 
-Analise o excerto abaixo, acompanhando a numeração das linhas e as cadeias de referência:
+Analise o excerto **original e ficcional**, criado para fins didáticos, acompanhando a numeração das linhas e as cadeias de referência. Os ataques e as respostas institucionais não descrevem ocorrência histórica verificada:
 
 > *(Text for items 1 through 6)*
 > 

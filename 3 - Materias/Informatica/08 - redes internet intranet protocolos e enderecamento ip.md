@@ -76,11 +76,11 @@ flowchart TD
 ### 3.2 Correio Eletrônico (Envio versus Recebimento)
 O Cebraspe explora intensamente a separação funcional dos protocolos de e-mail:
 - **SMTP (*Simple Mail Transfer Protocol*)**: Protocolo de **ENVIO** de mensagens. A porta `25` continua utilizada na transferência entre servidores SMTP; a porta `587` é utilizada com frequência para submissão autenticada de mensagens por clientes, normalmente com STARTTLS conforme a configuração do serviço. Distinguir transmissão entre servidores de submissão por usuário;
-- **POP3 (*Post Office Protocol v3*) — Porta `110` (não segura) / `995` (com SSL/TLS)**: Protocolo de **RECEBIMENTO / BAIXA**: por padrão, baixa as mensagens do servidor para o computador local e as apaga do servidor;
+- **POP3 (*Post Office Protocol v3*) — Porta `110` (não segura) / `995` (com SSL/TLS)**: Protocolo de **RECEBIMENTO / BAIXA**: pode recuperar mensagens e armazená-las localmente; a exclusão remota depende de comandos como `DELE`/`QUIT`, das configurações do cliente e da política do servidor;
 - **IMAP (*Internet Message Access Protocol*) — Porta `143` (não segura) / `993` (com SSL/TLS)**: Protocolo de **ACESSO / SINCRONIZAÇÃO**: as mensagens permanecem armazenadas no servidor, permitindo que o usuário visualize suas pastas sincronizadas em múltiplos dispositivos (celular, notebook e webmail).
 
 ### 3.3 Serviços de Infraestrutura de Rede
-- **DNS (*Domain Name System*) — Porta padrão `53`**: Resolve nomes de domínio amigáveis em endereços IP numéricos (ex.: converte `www.camara.leg.br` em `200.219.130.100`);
+- **DNS (*Domain Name System*) — Porta padrão `53`**: Resolve nomes de domínio amigáveis em endereços IP numéricos (não presumir endereço IP atual da Câmara sem consulta DNS, pois resoluções podem variar);
 - **DHCP (*Dynamic Host Configuration Protocol*) — Portas `67/68`**: Atribui automaticamente parâmetros de configuração de rede aos dispositivos (endereço IP dinâmico, máscara de sub-rede, gateway padrão e servidores DNS).
 
 ---
@@ -92,7 +92,7 @@ A distinção entre TCP e UDP é uma das matrizes comparativas prediletas do Ceb
 | Dimensão | TCP (*Transmission Control Protocol*) | UDP (*User Datagram Protocol*) |
 | :--- | :--- | :--- |
 | **Orientação a conexão** | **Orientado a conexão** (executa o *Three-Way Handshake* — SYN, SYN-ACK, ACK) | **Não orientado a conexão** (envia os pacotes sem estabelecer sessão prévia) |
-| **Confiabilidade e entrega** | **Confiável**: confirma o recebimento (ACK), retransmite pacotes perdidos e ordena os dados | **Não confiável**: não garante entrega, não retransmite e não ordena pacotes |
+| **Confiabilidade e entrega** | **TCP**: entrega ordenada do fluxo de bytes enquanto a conexão for funcional; ACK e retransmissão | **UDP**: serviço de datagramas sem garantia própria de entrega ou ordem; aplicativos podem acrescentar controles |
 | **Controle de fluxo/congestionamento** | Sim, ajusta a velocidade de envio ao receptor | Não, envia os dados na velocidade máxima do emissor |
 | **Sobrecarga (*Overhead*)** | Maior (cabeçalho de 20 a 60 bytes) | Mínimo (cabeçalho fixo de 8 bytes) |
 | **Casos de uso típicos** | HTTP/1.1 e HTTP/2, SMTP/IMAP, FTP, SSH e algumas formas de streaming | DNS em consultas comuns, VoIP, jogos online e QUIC, utilizado pelo HTTP/3. Aplicações podem oferecer confiabilidade sobre UDP, como faz o QUIC. |
@@ -155,7 +155,7 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 ---
 
 ### Item 2
-> O protocolo TCP opera na camada de transporte do modelo TCP/IP e caracteriza-se por ser orientado a conexão, assegurando a entrega dos pacotes de dados sem duplicação e na sequência correta por meio de mecanismos de confirmação e retransmissão.
+> O protocolo TCP opera na camada de transporte do modelo TCP/IP e caracteriza-se por ser orientado a conexão, oferecendo à aplicação um **fluxo ordenado de bytes**, com confirmação e retransmissão enquanto a conexão funcionar, sem garantir sucesso quando a conexão terminar por falha irrecuperável.
 
 *( ) Certo*
 *( ) Errado*
@@ -220,7 +220,7 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 | **FTP** | Aplicação | Transferência de arquivos não criptografada | 20 (dados) / 21 (controle) |
 | **SSH** | Aplicação | Acesso remoto seguro e túneis criptografados | 22 (TCP) |
 | **SMTP** | Aplicação | Envio de mensagens de correio eletrônico | 25 / 587 (TCP) |
-| **POP3** | Aplicação | Baixa e exclusão de e-mails no servidor | 110 / 995 (TCP) |
+| **POP3** | Aplicação | Recuperação de mensagens; exclusão remota depende do cliente e do servidor | 110 / 995 (TCP) |
 | **IMAP** | Aplicação | Acesso e sincronização contínua de e-mails | 143 / 993 (TCP) |
 | **TCP** | Transporte | Comunicação confiável, ordenada e orientada a conexão | — |
 | **UDP** | Transporte | Comunicação rápida, sem confirmação e sem conexão | — |
@@ -230,3 +230,5 @@ Um técnico escreve o endereço IPv6 `2001:0000:0000:0001:0000:0000:0000:0002` d
 > **Atualização técnica (11/11/2026):** HTTP/3 usa QUIC, que opera sobre UDP, conforme [RFC 9114](https://www.rfc-editor.org/rfc/rfc9114.html). Alterações pontuais segundo TI-043 e TI-044 da auditoria; questões inéditas ainda não homologadas.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** seis itens examinados; gabaritos **E, C, E, C, C, E** mantidos como leitura introdutória. Justificativas qualificadas quanto a TCP, POP3, IPv6 e DNS. Referências técnicas para verificação: [RFC 9293, TCP](https://www.rfc-editor.org/rfc/rfc9293), [RFC 1939, POP3](https://www.rfc-editor.org/rfc/rfc1939), [RFC 8200, IPv6](https://www.rfc-editor.org/rfc/rfc8200).
+
+> **Implementação TI-105/106 (11/11/2026):** corrigidos POP3, TCP como fluxo de bytes e exemplo de IP sem verificação. Referências: [RFC 1939 (POP3)](https://www.rfc-editor.org/rfc/rfc1939), [RFC 9293 (TCP)](https://www.rfc-editor.org/rfc/rfc9293).

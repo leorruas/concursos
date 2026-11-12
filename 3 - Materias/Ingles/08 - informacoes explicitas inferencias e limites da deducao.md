@@ -129,14 +129,14 @@ Uma confusão que pode aparecer em itens de compreensão é tomar **coocorrênci
 
 ## 6. Caso prático progressivo: leitura analítica e dedução em relatório institucional
 
-Considere o seguinte excerto inspirado em relatórios da OCDE sobre parlamentos digitais:
+Considere o seguinte texto **integralmente ficcional, criado para estudo**. As quinze democracias, a avaliação, as pesquisas e seus resultados são dados hipotéticos do exercício, sem correspondência comprovada com levantamento da OCDE ou de outra instituição:
 
 > *(Text for items 1 through 6)*
 > 
 > "A comprehensive assessment of open parliament initiatives across fifteen democracies reveals that making legislative voting records publicly available online does not, by itself, translate into higher civic trust. Although digital accessibility substantially increased website traffic and media citations, public surveys conducted three years after implementation showed no statistically significant shift in citizens' overall perception of political integrity. Analysts point out that when transparency reveals systemic legislative gridlock or partisan acrimony without providing avenues for substantive citizen participation, it may paradoxically heighten public cynicism. Therefore, transparency mechanisms achieve democratic legitimacy only when coupled with institutional responsiveness and genuine deliberative channels."
 
 ### Desmontagem lógica e semântica:
-1. **Fato constatado:** Publicar votações na internet aumentou tráfego e citações na imprensa (*explícito*), mas **não** produziu aumento na confiança pública (*explícito*).
+1. **Fato relatado no cenário fictício:** o texto registra aumento de tráfego e menções à imprensa, mas não identifica variação estatisticamente significativa na **percepção geral de integridade política** após três anos. Isso não equivale a medir diretamente todas as dimensões de confiança cívica.
 2. **Hipótese explicativa dos analistas:** Quando a transparência apenas expõe paralisia ou briga partidária sem dar canais reais de participação, ela **pode paradoxalmente aumentar o cinismo público** (*possibilidade/risco*: *"may paradoxically heighten"*).
 3. **Conclusão normativa:** A transparência só atinge legitimidade democrática **se for associada a** responsividade e deliberação (*condição necessária* introduzida por *"only when coupled with"*).
 

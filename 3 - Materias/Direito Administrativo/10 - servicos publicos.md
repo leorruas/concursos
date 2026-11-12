@@ -5,18 +5,18 @@ title: "Serviços públicos"
 type: "conceito"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-12
 ---
 
 # Serviços públicos
 
-Serviço público é atividade destinada à satisfação de necessidades coletivas cuja titularidade ou responsabilidade de prestação é atribuída ao Poder Público pelo ordenamento. Para prova, o núcleo está em separar **titularidade × execução**, **prestação direta × delegação**, **concessão × permissão** e as condições do **serviço adequado**.
+Imagine a prefeitura responsável pelo transporte coletivo de uma cidade. Ela pode organizar a prestação por órgãos e entidades públicas ou contratar uma empresa para operar os ônibus, conforme as regras aplicáveis. Em ambos os casos, continua responsável por garantir que o serviço seja prestado conforme a lei. **Serviço público** é uma atividade voltada a necessidades coletivas cuja responsabilidade foi atribuída ao poder público pelo ordenamento jurídico. Para prova, o núcleo está em separar **titularidade × execução**, **prestação direta × delegação**, **concessão × permissão** e as condições do **serviço adequado**.
 
 ## Núcleo do conceito
 
 O art. 175 da Constituição estabelece que incumbe ao Poder Público prestar serviços públicos **diretamente** ou sob regime de **concessão ou permissão**, na forma da lei. Quando há delegação por concessão ou permissão, exige-se licitação.
 
-A delegação da execução não transfere a titularidade do serviço. A concessionária ou permissionária passa a prestar o serviço por sua conta e risco, sob fiscalização do poder concedente e conforme o regime jurídico aplicável.
+**Titularidade** é a responsabilidade jurídica do poder público pelo serviço. **Execução** é realizar a atividade na prática: por exemplo, colocar ônibus em circulação, contratar motoristas e atender passageiros. A delegação da execução não transfere a titularidade do serviço. A concessionária ou permissionária passa a prestar o serviço por sua conta e risco, sob fiscalização do poder concedente e conforme o regime jurídico aplicável.
 
 > [!WARNING]
 > **Descentralizar a execução ≠ privatizar a titularidade.** A Administração pode delegar a prestação sem deixar de ser responsável pela organização, regulação e fiscalização do serviço.
@@ -25,17 +25,17 @@ A delegação da execução não transfere a titularidade do serviço. A concess
 
 ### Prestação direta
 
-O próprio ente titular executa o serviço, por seus órgãos ou por entidades administrativas criadas para esse fim. A execução direta não se confunde com centralização: uma autarquia pode executar atividade de forma descentralizada dentro da Administração Indireta sem haver delegação contratual a particular.
+O próprio ente titular executa o serviço, por seus órgãos ou por entidades administrativas criadas para esse fim. A execução direta não se confunde com centralização. **Centralização** é o ente público prestar o serviço por seus próprios órgãos. Uma **autarquia**, que é uma entidade pública com personalidade jurídica própria, pode executar atividade de forma descentralizada dentro da Administração Indireta sem haver delegação contratual a particular. Aqui, **descentralizar** significa atribuir a execução a outra pessoa jurídica; isso não significa necessariamente contratar uma empresa privada.
 
 ### Concessão
 
-Segundo a Lei nº 8.987/1995, concessão de serviço público é a delegação da prestação pelo poder concedente, mediante licitação, à **pessoa jurídica ou consórcio de empresas** que demonstre capacidade para desempenhá-la, por sua conta e risco e por prazo determinado.
+Na **concessão**, o poder público, chamado **poder concedente**, seleciona uma empresa ou consórcio para prestar o serviço mediante contrato. Imagine uma empresa escolhida por licitação para operar linhas de ônibus durante prazo definido. Segundo a Lei nº 8.987/1995, concessão de serviço público é a delegação da prestação pelo poder concedente, mediante licitação, à **pessoa jurídica ou consórcio de empresas** que demonstre capacidade para desempenhá-la, por sua conta e risco e por prazo determinado. **Por sua conta e risco** significa que a empresa assume os riscos empresariais previstos no regime contratual, observadas as hipóteses legais de recomposição do equilíbrio econômico-financeiro.
 
 A legislação atual admite, nas hipóteses da Lei nº 8.987/1995, licitação nas modalidades **concorrência ou diálogo competitivo**.
 
 ### Permissão
 
-A permissão é delegação, **a título precário**, mediante licitação, a **pessoa física ou jurídica**, também por sua conta e risco. A Lei nº 8.987/1995 determina formalização por contrato de adesão.
+A **permissão** também permite que um particular preste serviço público, mediante licitação, mas a lei a caracteriza como **precária**: seu vínculo possui possibilidade de revogação nas condições legais e contratuais. Isso não significa que o poder público possa ignorar as regras e garantias aplicáveis. A permissão é delegação, **a título precário**, mediante licitação, a **pessoa física ou jurídica**, também por sua conta e risco. A Lei nº 8.987/1995 determina formalização por contrato de adesão.
 
 | Ponto | Concessão | Permissão |
 |---|---|---|
@@ -60,7 +60,7 @@ O art. 6º da Lei nº 8.987/1995 define serviço adequado por oito condições:
 - **cortesia** na prestação;
 - **modicidade das tarifas**.
 
-A atualidade envolve modernidade das técnicas, equipamentos e instalações, sua conservação e a melhoria e expansão do serviço.
+Para entender as oito condições, pense em um ônibus: **regularidade** é cumprir padrões e horários previstos; **continuidade**, manter a prestação salvo interrupções permitidas; **eficiência**, usar recursos para atender adequadamente; **segurança**, reduzir riscos aos passageiros; **atualidade**, manter equipamentos e técnicas compatíveis com a evolução do serviço; **generalidade**, atender os usuários sem discriminações indevidas; **cortesia**, tratar as pessoas com respeito; e **modicidade**, manter tarifas em valores razoáveis conforme o regime legal. A atualidade envolve modernidade das técnicas, equipamentos e instalações, sua conservação e a melhoria e expansão do serviço.
 
 ### Continuidade não é absoluta
 
@@ -81,7 +81,7 @@ A Constituição, no art. 37, §3º, prevê participação do usuário na Admini
 
 Na concessão, a tarifa é fixada segundo o regime da licitação e do contrato e pode ser submetida a reajuste e revisão. A modicidade tarifária integra o conceito legal de serviço adequado, mas **modicidade não significa gratuidade**.
 
-O equilíbrio econômico-financeiro protege a relação originalmente pactuada entre encargos e remuneração. Alterações estatais ou fatos juridicamente relevantes podem exigir recomposição nos termos da lei e do contrato.
+**Equilíbrio econômico-financeiro** é a relação, definida na contratação, entre o que a empresa deve fazer (**encargos**) e o que recebe para prestar o serviço (**remuneração**). O equilíbrio econômico-financeiro protege a relação originalmente pactuada entre encargos e remuneração. Alterações estatais ou fatos juridicamente relevantes podem exigir recomposição nos termos da lei e do contrato.
 
 ## Fiscalização e responsabilidade
 
@@ -94,14 +94,22 @@ Quanto à responsabilidade civil, pessoas jurídicas de direito privado prestado
 A Lei nº 8.987/1995 prevê hipóteses distintas de extinção. Para prova, as fronteiras mais importantes são:
 
 - **advento do termo contratual**: término normal do prazo;
-- **encampação**: retomada do serviço pelo poder concedente por motivo de interesse público, durante o prazo da concessão, mediante os requisitos legais;
-- **caducidade**: extinção por inadimplemento da concessionária, observado o procedimento legal;
+- **encampação**: retomada antecipada do serviço por decisão de interesse público, mesmo sem falta da concessionária; exige **lei autorizativa específica e prévio pagamento de indenização**, na forma do art. 37 da Lei nº 8.987/1995;
+- **caducidade**: encerramento da concessão porque a empresa descumpriu obrigações contratuais ou legais; exige **processo administrativo com ampla defesa** e observância dos demais requisitos do art. 38 da Lei nº 8.987/1995;
 - **rescisão**: pode ocorrer por iniciativa da concessionária em razão de descumprimento das normas contratuais pelo poder concedente, pela via legal cabível;
 - **anulação**: decorre de ilegalidade;
 - falência ou extinção da empresa concessionária e falecimento/incapacidade do titular, quando empresa individual, nas hipóteses legais.
 
 > [!WARNING]
 > **Encampação ≠ caducidade.** Encampação parte de interesse público superveniente; caducidade está relacionada ao inadimplemento da concessionária.
+
+## Caso comparativo: quem faz o quê?
+
+Uma cidade precisa manter seu transporte coletivo. Se o serviço é prestado por órgão municipal, a execução ocorre dentro da própria estrutura administrativa. Se o município cria uma autarquia para prestá-lo, há descentralização administrativa. Se contrata, após licitação, uma empresa para operar o serviço por prazo determinado, há concessão: **a empresa executa, mas o poder público continua titular e fiscaliza**. A empresa concessionária não passa a integrar a Administração Indireta apenas por prestar o serviço.
+
+**Item inédito, Certo ou Errado:** “Uma concessionária que opera transporte coletivo passa a ser titular do serviço público, pois assume sua execução e seus riscos.” **Errado.** A concessão transfere a prestação, não a titularidade pública.
+
+**Item inédito, Certo ou Errado:** “A retomada antecipada de concessão por interesse público, sem inadimplemento da concessionária, caracteriza caducidade.” **Errado.** Trata-se de encampação, observados seus requisitos legais; caducidade decorre de inadimplemento.
 
 ## Como a banca cobra
 

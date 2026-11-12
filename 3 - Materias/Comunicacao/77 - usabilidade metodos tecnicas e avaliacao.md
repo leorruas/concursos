@@ -5,7 +5,7 @@ title: "Usabilidade: métodos, técnicas e avaliação"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Usabilidade: métodos, técnicas e avaliação
@@ -147,6 +147,16 @@ Outro caso: pessoa entende integralmente um aviso que recebeu por e-mail, mas n�
 No [caderno oficial CNMP 2023, Cargo 3](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/814_CNMP_003_01.PDF), o **item 78** recomenda considerar conjuntamente **usabilidade, acessibilidade e arquitetura da informação** ao conceber uma sala de imprensa online. O [gabarito definitivo Cebraspe](https://cdn.cebraspe.org.br/concursos/cnmp_23/arquivos/GAB_DEFINITIVO_814_CNMP_003_01.PDF) é **Certo**.
 
 **Fronteira conceitual:** as três dimensões não são sinônimas. Arquitetura da informação organiza e rotula conteúdo e navegação; usabilidade examina eficácia, eficiência e satisfação **em contexto de uso definido**; acessibilidade contempla condições de acesso e operação para pessoas com diferentes necessidades. Um portal pode ter navegação organizada e ainda apresentar barreiras de teclado, alternativas textuais, contraste ou compreensão. O item histórico fornece **padrão de cobrança da banca**, sem provar conformidade do site real de um órgão.
+
+## Cotejo técnico: ISO 9241-11:2018 e avaliação heurística (11/11/2026)
+
+A **ISO 9241-11:2018**, conforme [texto de visualização da norma](https://gso-sims-preview-doc-aws.s3-eu-west-1.amazonaws.com/iso-9241-11-2018-en.html) e [glossário do NIST](https://csrc.nist.gov/glossary/term/usability), define usabilidade pelo uso de um **sistema, produto ou serviço por usuários específicos, com objetivos específicos, em um contexto de uso especificado**, considerando **eficácia, eficiência e satisfação**. Eficácia trata da **exatidão e completude** dos objetivos alcançados (3.1.12); eficiência, dos **recursos empregados em relação aos resultados** (3.1.13); e satisfação, das **respostas físicas, cognitivas e emocionais que atendem às necessidades e expectativas** (3.1.14). Portanto, um relato positivo de satisfação não basta para comprovar a conclusão correta de uma tarefa, e o desempenho em um ambiente não se generaliza automaticamente para todos os contextos.
+
+A [Nielsen Norman Group, orientação sobre avaliação heurística](https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/), identifica a inspeção por avaliadores como técnica útil **sem exigir participantes usuários** na própria inspeção. A instituição afirma que essa avaliação **complementa**, mas não substitui, pesquisas e testes com pessoas reais. O termo “heurística” designa critérios usados na inspeção e não uma modalidade específica de teste moderado com usuários.
+
+**Conferência individual dos C/E inéditos:** item 1 **Certo**, reproduz a distinção entre recursos e realização de objetivos da ISO; item 2 **Errado**, atribui incorretamente à inspeção heurística a participação necessária em testes moderados; item 3 **Certo**, separa avaliação subjetiva de realização de objetivos, sem tratar satisfação como irrelevante. **Gabaritos mantidos**; nenhuma nova questão histórica Cebraspe foi examinada neste bloco.
+
+**Ressalvas:** a definição normativa e a diferenciação de métodos estão sustentadas pelas fontes indicadas; o cotejo **não constitui auditoria integral de toda a norma ISO**, nem teste real de portal, validação de amostras, acessibilidade WCAG, links da nota ou publicação no GitHub Pages. **Estado: Corrigido no recorte técnico e dos exercícios, não certificado integralmente.**
 
 ## Relações com outros temas e heurísticas
 

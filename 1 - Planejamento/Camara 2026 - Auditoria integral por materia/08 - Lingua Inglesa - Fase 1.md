@@ -517,3 +517,16 @@ A página seguinte do caderno `101_IRBRCACDOBJ_002_01` foi conferida visualmente
 **Limites da validação:** conferência remota de gravação e texto, sem execução local dos scripts; a publicação no GitHub Pages e o conjunto completo de validações editoriais dependem dos workflows. Nenhuma matéria externa, índice global ou catálogo foi modificada.
 
 **Próximos passos:** revisar `11` (act/bill e diferenças UK/US), `07` (afirmações de frequência sem corpus), `17` (preservação de estrutura gramatical na paráfrase) e os 14 itens classificados R no diagnóstico. Ampliar leitura transferível em gêneros não institucionais, verificar fontes e confirmar workflow Pages concluído. A matéria **ainda não está integralmente validada**.
+
+
+### Complemento: lote seguinte e conferência de integridade
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+| --- | --- | --- | --- | --- | --- |
+| 07 | Generalização sobre textos e padrões da banca sem corpus identificado | Retiradas alegações de invariância e frequência; categorias marcadas como didáticas | `1b7b4435608e78f3bc39a95b7af5efc1cd646cc1` | Arquivo recuperado; SHA confirmado | corrigido |
+| 11 | ING-048, cenário contraditório `Lower House passed an act` e `tabled` ambíguo | Novo texto-base com lei vigente e projeto em tramitação; comentário com variação UK/US | `0c743d408594e1745469d07c66d30486c5e91ac6` | Arquivo recuperado; SHA confirmado | corrigido |
+| 17 | Item 6 atribuía manutenção da estrutura à troca de subordinação por coordenação | Gabarito C→E e comentário separando sentido de estrutura gramatical | `1d43dfcc02aef164378f34a2aabb83dcd88a007c` | Arquivo recuperado; SHA confirmado | corrigido |
+
+**Conferência remota transversal de 13 arquivos alterados:** cada nota conserva cabeçalho YAML e `articleId`; cercas de código em número par; padrões textuais antigos de `had pauted` e das escalas numéricas críticas não foram encontrados. Esta conferência **não substitui teste de compilação/renderização**, validação independente de todas as questões nem comprovação de publicação.
+
+**Pendências:** verificar itens R restantes, referências bibliográficas problemáticas, remissões e exercício autêntico/autorais por gênero; confirmar workflows concluídos e comportamento na página publicada antes de classificar qualquer artigo como `validado`.

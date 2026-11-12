@@ -141,8 +141,8 @@ Operadores adverbiais e prepositivos delimitam estritamente o universo de aplica
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** O item define com precisão a semântica de "few" (valor restritivo e negativo de escassez: *quase nenhum parlamentar*) e atesta corretamente que a inserção do artigo indefinido ("a few") transformaria o sentido para uma perspectiva afirmativa (*alguns parlamentares apoiaram*), o que modificaria o sentido nuclear da oração.
+**Gabarito: Errado**  
+**Comentário:** *Few* indica uma quantidade pequena, em avaliação restritiva, mas o texto relata parlamentares **dispostos a endossar sem investimentos sociais compensatórios** (*were willing to endorse ... without compensatory social investments*). Não comprova que esses parlamentares efetivamente apoiaram ou votaram pelas emendas. Além disso, *few* não corresponde a um percentual fixo nem equivale necessariamente a *almost none*. A troca por *a few* altera a orientação pragmática, mas essa segunda parte não salva a primeira inferência indevida do item.
 
 ---
 
@@ -156,8 +156,8 @@ Operadores adverbiais e prepositivos delimitam estritamente o universo de aplica
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** A estrutura proporcional correlativa "The more [A]..., the less [B]..." estabelece uma relação matemática e conceitual inversa: à medida que a transparência aumenta (*more transparent*), a vulnerabilidade ao lobby indevido diminui (*less vulnerable*). O item expressa a correlação com perfeita exatidão.
+**Gabarito: Errado**  
+**Comentário:** *The more ..., the less ...* expressa covariação ou associação proporcional entre transparência e vulnerabilidade. A estrutura **não prova, por si só, causalidade direta**. O item acrescenta *directly results in*, convertendo uma relação formulada no enunciado em causa demonstrada. Sem evidência adicional, essa inferência é excessiva.
 
 ---
 

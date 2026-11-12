@@ -14,7 +14,7 @@ tags:
 
 # Modalização em Inglês: Possibilidade, Obrigação, Dedução Lógica e Gradação de Certeza
 
-Nas provas de Língua Inglesa do Cebraspe para carreiras de nível superior (como o cargo de Analista Legislativo da Câmara dos Deputados), o estudo dos **verbos modais (*modal verbs*)** e de seus equivalentes semi-modais (*semi-modals*) não visa à memorização mecânica de regras de conjugação. A banca concentra suas questões na **calibração da força assertiva**, na **distinção entre modalidade epistêmica (grau de certeza/probabilidade do enunciador) e modalidade deôntica (permissão, dever, obrigação e proibição)** e no fenômeno do **hedging** (estratégias de moderação e prudência acadêmica e institucional).
+Nas provas de Língua Inglesa do Cebraspe para carreiras de nível superior (como o cargo de Analista Legislativo da Câmara dos Deputados), o estudo dos **verbos modais (*modal verbs*)** e de seus equivalentes semi-modais (*semi-modals*) não visa à memorização mecânica de regras de conjugação. Para interpretar itens C/E, interessa distinguir **força assertiva**, **modalidade epistêmica (avaliação de certeza ou possibilidade)**, **modalidade deôntica (permissão, dever e proibição)** e **hedging** (atenuação). Essa organização é pedagógica e não supõe distribuição estatística comprovada de assuntos na banca.
 
 O mecanismo de distração predileto do Cebraspe em questões de interpretação e paráfrase consiste em **alterar o grau de modalização do texto original**:
 - Transformar uma **mera possibilidade hipotética** (*may, might, could*) em uma **consequência inelutável ou certeza absoluta** (*will, must, certainly*);
@@ -37,7 +37,7 @@ graph TD
     R --> C2["Modalidade Epistêmica (Certeza/Dedução)"]:::criterio
 
     C1 --> O1["Obrigação: must, shall, have to<br/>Proibição: must not, shall not<br/>Recomendação: should, ought to<br/>Permissão: may, can"]:::opcao
-    C2 --> O2["Certeza Absoluta: will, must<br/>Probabilidade/Possibilidade: may, might, could<br/>Impossibilidade Lógica: cannot, could not"]:::opcao
+    C2 --> O2["Dedução forte: must<br/>Previsão: will<br/>Possibilidade: may, might, could<br/>Incompatibilidade contextual: cannot, could not"]:::opcao
 ```
 
 ### 1.1. Modalidade Deôntica: A Conduta e a Norma

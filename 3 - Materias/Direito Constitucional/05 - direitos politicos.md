@@ -222,3 +222,8 @@ A perda da nacionalidade possui hoje regime alterado pela EC nº 131/2023. Ver [
 **Ressalva pedagógica:** **zero itens C/E e zero casos progressivos** no artigo original. O texto possui **três exemplos comentados**, mas a certificação do conteúdo **não equivale a treino Cebraspe concluído**. Não se adicionaram exercícios nem gabaritos ao inventário histórico.
 
 **Limites:** cotejo dos fundamentos constitucionais e de normas eleitorais citadas, não validação exaustiva de todas as hipóteses de inelegibilidade da LC 64/1990, atos recentes da Justiça Eleitoral, andamento processual da ADI 7991, desempenho do estudante ou renderização/deploy do site.
+
+
+## Atualização pedagógica: implementação de exercícios
+
+**Estado após os reparos desta rodada (11/11/2026):** a ressalva histórica de **zero exercícios** referia-se à versão anterior à implementação. Foram adicionados **três itens C/E inéditos comentados** e um caso progressivo ao artigo, sem suprimir o texto da certificação normativa anterior. Os itens são autorais e não representam questões oficiais ou respostas do estudante. A conferência é dirigida aos fundamentos constitucionais citados, sem declaração de homologação exaustiva do artigo ou de publicação visual.

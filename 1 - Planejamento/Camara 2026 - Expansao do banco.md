@@ -75,4 +75,4 @@ Quarenta questões sobre redes oficiais, vinculadas aos artigos 65 a 69. O lote 
 
 ## Lote 014 em elaboração
 
-Vinte e quatro itens sobre pedidos de informação, fornecimento direto, acesso parcial e prorrogação. O conjunto inclui requisitos de publicação, acesso a documentos e recursos. O conjunto inclui quatro casos com base no Ato da Mesa nº 45/2012.
+Trinta itens sobre pedidos de informação, fornecimento direto, acesso parcial e prorrogação. O conjunto inclui requisitos de publicação, acesso a documentos e recursos. O conjunto inclui quatro casos com base no Ato da Mesa nº 45/2012.

@@ -21808,6 +21808,180 @@
       "statement": "Indicar instruções claras para contato telefônico é uma das formas de comunicação previstas no requisito de contato do sítio oficial.",
       "correctAnswer": "C",
       "explanation": "O inciso admite via eletrônica ou telefônica e exige indicar local e instruções para contato."
+    },
+    {
+      "id": "cam-cs-fornecimento-digital-com-anuencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "fornecimento-digital-com-anuencia",
+      "mechanism": "fornecimento-digital-com-anuencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 11, § 5º"
+      },
+      "statement": "Se o documento está armazenado digitalmente e o requerente concorda com esse formato, a Lei de Acesso à Informação prevê que a informação seja fornecida em formato digital.",
+      "correctAnswer": "C",
+      "explanation": "A regra combina a forma de armazenamento e a anuência do requerente."
+    },
+    {
+      "id": "cam-cs-justificativa-de-negativa-parcial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "justificativa-de-negativa-parcial",
+      "mechanism": "justificativa-de-negativa-parcial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 11, § 1º, II"
+      },
+      "statement": "Ao negar acesso a uma parte do documento, o órgão pode deixar de indicar as razões da recusa porque forneceu o restante.",
+      "correctAnswer": "E",
+      "explanation": "O dever de indicar as razões de fato ou de direito alcança recusas totais e parciais."
+    },
+    {
+      "id": "cam-cs-solicitacao-por-meio-legitimo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "solicitacao-por-meio-legitimo",
+      "mechanism": "solicitacao-por-meio-legitimo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 10, caput e § 2º"
+      },
+      "statement": "Criar um formulário no sítio oficial torna esse formulário o único meio legítimo para apresentar pedidos de acesso à informação.",
+      "correctAnswer": "E",
+      "explanation": "A lei prevê qualquer meio legítimo e exige que exista também a alternativa de encaminhamento pelo sítio oficial."
+    },
+    {
+      "id": "cam-cs-prazo-para-decidir-recurso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "prazo-para-decidir-recurso",
+      "mechanism": "prazo-para-decidir-recurso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 15, caput e parágrafo único"
+      },
+      "statement": "O prazo de dez dias do interessado para recorrer é também o prazo que a autoridade superior tem para se manifestar.",
+      "correctAnswer": "E",
+      "explanation": "O interessado tem dez dias da ciência para recorrer. A autoridade superior tem cinco dias para se manifestar."
+    },
+    {
+      "id": "cam-cs-dispensa-municipal-com-excecao-fiscal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "dispensa-municipal-com-excecao-fiscal",
+      "mechanism": "dispensa-municipal-com-excecao-fiscal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 4º"
+      },
+      "statement": "Um município de 8 mil habitantes pode usar a dispensa de divulgação obrigatória na internet para deixar de publicar em tempo real a execução orçamentária e financeira exigida pela legislação fiscal.",
+      "correctAnswer": "E",
+      "explanation": "A dispensa remete à obrigação geral do § 2º. O § 4º preserva expressamente a divulgação em tempo real da execução orçamentária e financeira."
+    },
+    {
+      "id": "cam-cs-resultados-de-projeto-e-acompanhamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "resultados-de-projeto-e-acompanhamento",
+      "mechanism": "resultados-de-projeto-e-acompanhamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 7º, VII, a"
+      },
+      "statement": "O direito de acesso pode abranger informações sobre os resultados de um projeto público e também as metas e os indicadores propostos para acompanhá-lo.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo inclui implementação, acompanhamento e resultados, além de metas e indicadores."
     }
   ]
 }

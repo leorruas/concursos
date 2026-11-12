@@ -199,3 +199,27 @@ O **Gráfico de Pizza (*Pie Chart*)** é o gráfico mais abusado na administraç
 > **Revisão editorial (11/11/2026):** correções dirigidas às ressalvas da auditoria da Câmara, preservando as distinções técnicas e evitando universalizar heurísticas. Questões inéditas ainda não homologadas como questões oficiais da banca.
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** Itens 1–6 mantêm gabaritos (E, C, E, E, C, C) em revisão conceitual dirigida. Foram qualificadas regras de eixo zero e a utilidade do treemap, que dependem da finalidade e da codificação visual.
+
+---
+
+## Da evidência ao gráfico: seleção com limites
+
+A sequência de uma análise pública confiável começa pela pergunta e pela população, **antes** da ferramenta visual. Uma ordem de trabalho é: **pergunta → unidade de análise → variável/denominador → qualidade e transformação → codificação gráfica → inferência e ressalvas**.
+
+| Pergunta concreta | Variável e escala | Escolha inicial | Limite que deve aparecer |
+|:--|:--|:--|:--|
+| Quantos pedidos por tipo? | Categoria e contagem | Barras | Distinguir categorias de códigos numéricos |
+| Como mudou a fila por semana? | Tempo ordenado e quantidade | Linha | Informar semanas sem medição; não interpolar silenciosamente |
+| Em quais faixas se concentram tempos de espera? | Tempo contínuo | Histograma | Justificar intervalos e largura das classes |
+| Quanto cada canal contribui para o total? | Categoria e parcela de total conhecido | Barras empilhadas ou barras | Explicitar denominador e períodos |
+| Mais servidores estão associados a mais atendimentos? | Duas quantidades emparelhadas por unidade | Dispersão | Associação não demonstra efeito causal |
+
+**Exemplo progressivo:** um serviço recebeu 120 solicitações, com 90 casos completos. Um gráfico da média de tempo calculada sobre 90 registros precisa informar a **cobertura da medição**, sob risco de o público interpretar o resultado como descrição integral das 120 solicitações.
+
+**Contraexemplo:** construir um gráfico de linha com códigos nominais 10, 20 e 30, ligados como se fossem valores contínuos, pode sugerir distâncias que não existem na variável categórica.
+
+> **Questão inédita C/E:** A escolha de um gráfico de linhas para comunicar a evolução de uma variável temporal elimina a necessidade de informar o período, unidades, dados ausentes e critérios de agregação.
+
+**Gabarito: ERRADO.** A forma visual não substitui definição da medida, contexto ou qualidade dos dados. **Aplicação discursiva:** em comunicação institucional, explicar a **pergunta**, a **fonte**, a **população** e as **restrições de interpretação** antes de extrair recomendações.
+
+**Relações:** [[3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica|Indicadores]]; [[3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes|Histogramas, barras e linhas]].

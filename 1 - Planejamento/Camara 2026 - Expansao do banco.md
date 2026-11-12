@@ -88,3 +88,7 @@ Seleção dos 40 itens confirmada. Próximo lote: comunicação pública, govern
 Quarenta itens cotejados com os artigos 02 e 71 sobre classificação, escuta cidadã, informação e instrumentos, precisão e tratamento editorial. Três casos foram substituídos para ampliar a distinção entre mecanismos. A triagem lexical a 0,22 não sinalizou pares envolvendo o lote. O seletor recuperou os 40 itens pelo item 7.
 
 Total validado: 600/2.000. Próximo lote: avançar para o item 8 de Comunicação Social.
+
+## Lote 016 em elaboração
+
+Oito itens sobre texto, estilo e nomeação em coberturas institucionais, vinculados ao artigo 73. A redação foi cotejada com a seção Texto e estilo do Manual de Comunicação da Câmara.

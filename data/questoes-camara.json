@@ -23432,6 +23432,222 @@
       "correctAnswer": "E",
       "explanation": "Repetir o título demonstra reconhecimento verbal. Para testar compreensão, pode-se pedir que o usuário determine se um caso concreto está abrangido pela orientação.",
       "reviewEvidence": "Lote 015. Cotejo editorial do gabarito e do mecanismo com a seção indicada do artigo 02. Triagem lexical do banco e dos exercícios catalogados a 0,22."
+    },
+    {
+      "id": "cam-cs-criterios-de-texto-em-radio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "criterios-de-texto-em-radio",
+      "mechanism": "criterios-de-texto-em-radio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Texto e estilo: seis propriedades e o significado das escolhas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Texto e estilo: seis propriedades e o significado das escolhas"
+      },
+      "statement": "Uma nota lida na Rádio Câmara continua sujeita aos critérios de precisão e imparcialidade do Manual de Comunicação, ainda que sua redação seja adaptada para escuta.",
+      "correctAnswer": "C",
+      "explanation": "O Manual aplica os critérios de texto aos veículos da Câmara em qualquer mídia. O suporte orienta a redação sem afastar esses critérios."
+    },
+    {
+      "id": "cam-cs-adjetivo-como-juizo-da-redacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "adjetivo-como-juizo-da-redacao",
+      "mechanism": "adjetivo-como-juizo-da-redacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Texto e estilo: seis propriedades e o significado das escolhas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Texto e estilo: seis propriedades e o significado das escolhas"
+      },
+      "statement": "Se uma fonte descreve um projeto como desastroso, a redação pode retirar a atribuição e manter o adjetivo em sua própria descrição, pois a avaliação teve origem numa entrevista.",
+      "correctAnswer": "E",
+      "explanation": "A atribuição é o que permite reconhecer a avaliação como posição da fonte. Suprimi-la converte o juízo em voz editorial."
+    },
+    {
+      "id": "cam-cs-bastidor-como-regra-geral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "bastidor-como-regra-geral",
+      "mechanism": "bastidor-como-regra-geral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Texto e estilo: seis propriedades e o significado das escolhas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Texto e estilo: seis propriedades e o significado das escolhas"
+      },
+      "statement": "A regra editorial da Câmara sobre informações de bastidores e declarações em off pode ser apresentada como uma orientação geral dos seus veículos oficiais.",
+      "correctAnswer": "C",
+      "explanation": "O Manual enuncia a prática como regra geral de publicação e a relaciona à condição de fonte oficial."
+    },
+    {
+      "id": "cam-cs-apelido-autoadotado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "apelido-autoadotado",
+      "mechanism": "apelido-autoadotado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Nomeação e controvérsias: fontes, apelidos e termos em disputa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Nomeação e controvérsias: fontes, apelidos e termos em disputa"
+      },
+      "statement": "O Manual proíbe usar qualquer nome informal de grupo parlamentar, inclusive quando seus integrantes se identificam com a designação e ela é adequada ao contexto.",
+      "correctAnswer": "E",
+      "explanation": "A orientação admite designações reconhecidas pelo próprio grupo e exige avaliar eventual carga depreciativa ou ideológica."
+    },
+    {
+      "id": "cam-cs-controversia-dois-documentos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "controversia-dois-documentos",
+      "mechanism": "controversia-dois-documentos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Nomeação e controvérsias: fontes, apelidos e termos em disputa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Nomeação e controvérsias: fontes, apelidos e termos em disputa"
+      },
+      "statement": "Quando o requerimento de uma audiência e o projeto em discussão usam termos diferentes para o mesmo fato controverso, a redação pode seguir o requerimento ao descrever o evento e o texto da proposição ao descrever o projeto.",
+      "correctAnswer": "C",
+      "explanation": "O Manual orienta escolher o termo de acordo com o objeto descrito e o documento que o formaliza."
+    },
+    {
+      "id": "cam-cs-apelido-frequente-na-imprensa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "apelido-frequente-na-imprensa",
+      "mechanism": "apelido-frequente-na-imprensa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Nomeação e controvérsias: fontes, apelidos e termos em disputa"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Nomeação e controvérsias: fontes, apelidos e termos em disputa"
+      },
+      "statement": "A frequência de um apelido depreciativo na imprensa basta para que ele substitua o nome da proposição na voz editorial dos veículos da Câmara.",
+      "correctAnswer": "E",
+      "explanation": "O uso reiterado por terceiros não elimina a carga depreciativa. A orientação exige considerar a natureza da expressão e seu contexto."
+    },
+    {
+      "id": "cam-cs-frase-direta-preserva-agente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "frase-direta-preserva-agente",
+      "mechanism": "frase-direta-preserva-agente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Texto e estilo: seis propriedades e o significado das escolhas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Texto e estilo: seis propriedades e o significado das escolhas"
+      },
+      "statement": "Ao substituir uma expressão burocrática por um verbo de uso comum, a redação pode simplificar a frase desde que preserve quem praticou o ato e qual foi o seu efeito.",
+      "correctAnswer": "C",
+      "explanation": "O vocabulário comum facilita a leitura. A precisão exige que a simplificação mantenha os elementos factuais da decisão."
+    },
+    {
+      "id": "cam-cs-concisao-com-excecao-relevante",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 8 / Política de Comunicação da Câmara e Manual de Comunicação",
+      "articleId": "art-4c92b7e618af305d",
+      "conceptId": "concisao-com-excecao-relevante",
+      "mechanism": "concisao-com-excecao-relevante",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-4c92b7e618af305d#Texto e estilo: seis propriedades e o significado das escolhas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem.md",
+        "section": "Texto e estilo: seis propriedades e o significado das escolhas"
+      },
+      "statement": "Para tornar uma chamada concisa, a equipe pode retirar a condição que restringe os beneficiários e descrever a medida como se fosse aplicável a todo o público.",
+      "correctAnswer": "E",
+      "explanation": "A omissão amplia indevidamente o alcance da medida. A concisão preserva condições que mudam o sentido da informação."
     }
   ]
 }

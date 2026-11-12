@@ -55,12 +55,14 @@ O gráfico de dispersão plota pares de observações $(x_i, y_i)$ em um plano c
 O **Box Plot** (ou diagrama de caixa) foi desenvolvido pelo estatístico John Tukey para representar a distribuição empírica dos dados sem depender da premissa de distribuição normal.
 
 ```
-       Mínimo Não Outlier         Q1 (25%)        Mediana (50%)       Q3 (75%)         Máximo Não Outlier        Outlier
-               ├─────────────────────┌─────────────────┬─────────────────┐─────────────────────┤               *
-                                     │                 │                 │
-                                     └─────────────────┴─────────────────┘
-                                     │◄────────────── IQR ──────────────►│
-                                     │  (Intervalo Interquartil = 50%)   │
+   Mínimo observado        Q1          Mediana          Q3       Máximo observado     Outlier
+   não atípico             |              |             |        não atípico         *
+          |----------------[==============|=============]-------------|
+                           <----------- IQR ----------->
+
+   Cercas teóricas: Q1 − 1,5 × IQR e Q3 + 1,5 × IQR.
+   As hastes terminam em OBSERVAÇÕES da amostra dentro dessas cercas,
+   não obrigatoriamente nos valores numéricos das cercas.
 ```
 
 ### 3.1. A Anatomia Estrutural dos Cinco Números
@@ -135,7 +137,7 @@ Uma das maiores utilidades práticas do box plot na administração pública é 
 ### Caso 2: Auditoria de reembolsos da Cota Parlamentar (CEAP)
 - *Cenário:* Análise de gastos com locação de veículos por deputados de diferentes bancadas partidárias.
 - *Visualização:* **Box plots comparativos por partido**.
-- *Diagnóstico:* Identifica-se que determinado partido possui mediana de gastos de R$ 5.000, mas apresenta três deputados plotados como pontos isolados além da haste superior (gastos de R$ 12.000). Esses pontos são categorizados como *outliers* univariados e direcionados para auditoria de notas fiscais.
+- *Diagnóstico (hipotético):* Se os três gastos de R$ 12.000 ultrapassarem o limite superior calculado pela regra escolhida (por exemplo, Q3 + 1,5 IQR), aparecerão como **pontos atípicos estatísticos**. Isso **não comprova despesa irregular ou ilícita**: pode orientar conferência documental proporcional, com respeito às regras e ao contexto de cada gasto.
 
 ### Caso 3: Tempo de permanência de processos nas comissões
 - *Cenário:* Comparação do tempo (em dias) que os projetos permanecem na Comissão de Constituição e Justiça (CCJ) versus Comissão de Finanças e Tributação (CFT).
@@ -195,3 +197,5 @@ Uma das maiores utilidades práticas do box plot na administração pública é 
 > **Nota conceitual (revisão Câmara, 11/11/2026):** o resumo convencional dos cinco números é **mínimo amostral, Q1, mediana, Q3 e máximo amostral**. No box plot modificado de Tukey, os extremos das hastes não precisam coincidir com mínimo e máximo amostrais, pois observações além das cercas de 1,5 × IQR são marcadas à parte. Identificar um ponto como outlier estatístico não demonstra irregularidade administrativa. Exemplos de gastos e tramitação neste artigo são exercícios hipotéticos, não conclusões de auditoria. Referência: Tukey, *Exploratory Data Analysis* (1977).
 
 > **Auditoria C/E, segunda passagem (11/11/2026):** examinados os seis itens do artigo 28; gabaritos mantidos **E, C, E, E, C, E**. Comentários dos itens 2–4 passaram a distinguir descrição usual, indício de assimetria e convenção específica do box plot de Tukey. Conferência conceitual dirigida, sem homologação por questões oficiais Cebraspe.
+
+> **Implementação TI-131 (11/11/2026):** figura ASCII do box plot esclarece que hastes vão até valores observados dentro das cercas de Tukey; exemplo de auditoria distingue outlier estatístico de irregularidade.

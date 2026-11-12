@@ -122,7 +122,7 @@ Ao enfrentar itens de vocabulário e equivalência lexical elaborados pelo Cebra
    - Se a regência prepositiva continua adequada (*depend on*, *aim at*, *comply with*).
    - Se a nuance de certeza ou imposição foi alterada (*demand* $\neq$ *request*; *mandate* $\neq$ *allow*).
    - Se o campo semântico é estritamente compatível (*policy* $\neq$ *politics*).
-2. **Armadilha do Significado Mais Raro ou Mais Básico:** O Cebraspe frequentemente seleciona a acepção cotidiana de um termo polissêmico e pergunta se ela se aplica a um trecho técnico. Exemplo: afirmar que *tabled* significa que o projeto foi "discutido em uma mesa de trabalho", quando o texto trata da formalização da proposição (*submitted formally*).
+2. **Armadilha do Significado Mais Raro ou Mais Básico:** Um item pode explorar a acepção cotidiana de um termo polissêmico e verificar se ela cabe em um contexto técnico. Não há estatística de frequência da banca para esse mecanismo. Exemplo: afirmar que *tabled* significa que o projeto foi "discutido em uma mesa de trabalho", quando o texto descreve a apresentação da proposição em uma jurisdição onde *table* significa submetê-la para discussão. Em inglês norte-americano, o mesmo verbo pode designar adiamento: a jurisdição e o contexto precisam ser identificados.
 3. **Preservação de Escopo e Tom Institucional:** A substituição de um verbo formal por um sinônimo coloquial ou vulgarizante costuma ser classificada como incorreta se descaracterizar a natureza do gênero institucional em apreço.
 
 ---

@@ -5,7 +5,7 @@ title: "Gestão de projetos de comunicação: papéis, riscos, mudanças e contr
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Gestão de projetos de comunicação: papéis, riscos, mudanças e controle
@@ -281,6 +281,34 @@ Esses objetos podem compartilhar canais, mas **não têm o mesmo destinatário, 
 
 **Contraexemplo:** a coordenação conclui que a aprovação da peça pelo gestor do projeto lhe permite alterar requisitos legais, contratar serviço adicional e publicar sem validação da área competente. A frase mistura **coordenação gerencial**, **responsabilidade RACI**, **competência institucional** e **autorização de despesa**.
 
+## Caso de implantação: matriz de decisão, riscos e mudança de escopo
+
+**Problema:** a equipe já aprovou a publicação de uma cartilha de audiências públicas. Dois dias antes de publicá-la, alguém solicita incluir um formulário que coletará dados pessoais. A solicitação **não é mera alteração de arte**: envolve requisitos, finalidade e proteção de dados, validação técnica, eventual impacto no prazo e comunicação ao público. Uma matriz RACI descreve **quem prepara, consulta, informa e responde pelo aceite dentro de suas competências**, mas não cria poder administrativo de autorizar um tratamento de dados ou uma contratação.
+
+| Decisão/entrega | Responsável pela execução na hipótese | Quem precisa participar | Evidência de conclusão |
+| --- | --- | --- | --- |
+| Analisar necessidade e finalidade do formulário | Área demandante com apoio técnico | Equipes competentes por dados pessoais, jurídico e comunicação | Requisitos e decisão sobre viabilidade registrados |
+| Estimar impacto na entrega | Coordenação de projeto | Redação, produção, tecnologia, responsáveis por aprovação | Impactos em prazo, escopo, recursos e acessibilidade explicitados |
+| Decidir alteração do escopo | Autoridade **formalmente competente** | Interessados consultados conforme regras aplicáveis | Decisão registrada, com justificativa e versão de referência |
+| Ajustar material, validar e publicar | Equipes responsáveis pela execução | Revisores e aprovadores das áreas pertinentes | Versão aprovada, acessível e vinculada à fonte oficial |
+| Medir uso e corrigir dificuldades | Operação e avaliação | Atendimento e públicos relevantes | Dados de tarefa e registro de melhorias |
+
+**Distinção de estado:** um **risco** é evento incerto, por exemplo, “o serviço poderá ficar indisponível na abertura da audiência”. Um **problema ocorrido** é a indisponibilidade já observada. A equipe pode registrar ameaça e oportunidade, avaliar probabilidade/impacto e definir resposta proporcional. Um pedido de formulário é uma **solicitação de mudança**; o desvio de prazo após um impedimento ocorrido é **resultado a controlar**. Não são registros equivalentes.
+
+**Decisão em etapas:** registrar solicitação; avaliar necessidade, impacto e alternativas; consultar as áreas competentes; obter decisão válida; **somente então** atualizar escopo, cronograma, orçamento e versões afetadas. Se o pedido não puder ser aprovado a tempo, preservar a entrega anterior válida e planejar solução independente quando cabível, sem apresentar uma recusa técnica como decisão final de autoridade que a equipe não possui. A sequência é didática e precisa ser adaptada à governança da Câmara, inclusive aos deveres de proteção de dados e aos limites do Ato da Mesa nº 218/2025.
+
+**Dois novos itens C/E:**
+
+**Item 4, inédito.** O responsável identificado como *Accountable* na matriz RACI de um projeto tem automaticamente competência legal para autorizar gastos ou tratamento de dados pessoais, ainda que essa atribuição não conste dos atos internos da instituição.
+
+**Gabarito: Errado.** RACI é uma ferramenta de coordenação de responsabilidades. A competência formal decorre do ordenamento e das atribuições institucionais, não da escolha de uma letra na matriz.
+
+**Item 5, inédito.** A identificação de uma ameaça potencial de indisponibilidade do serviço antes de sua ocorrência deve ser gerenciada como risco; constatada a indisponibilidade, passa a existir um problema concreto que requer resposta, sem eliminar a necessidade de reavaliar riscos futuros.
+
+**Gabarito: Certo.** O critério é a **incerteza do evento versus sua ocorrência**. A resposta pode combinar tratamento de problema já ocorrido e prevenção de novas falhas, com registros e responsáveis distintos.
+
+**Fontes e limites:** [PMI, riscos e problemas](https://www.pmi.org/learning/library/risks-vs-issues-project-failure-2328); [PMI, controle de mudanças de escopo](https://www.pmi.org/learning/library/scope-control-projects-you-6972); [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Política da Câmara]]. A matriz é **hipotética**, não uma atribuição real de competências, e os itens são **inéditos autorais**, sem equivalência com caderno Cebraspe.
+
 ## Como a Cebraspe pode cobrar: três itens inéditos Certo/Errado
 
 **Item 1, inédito:** “Em uma matriz RACI, o participante classificado como Consulted contribui com informações para a atividade, enquanto o Informed recebe informação sobre seu andamento ou resultado; a atribuição do papel Accountable não dispensa a observância das competências formais de aprovação.”
@@ -299,7 +327,7 @@ Esses objetos podem compartilhar canais, mas **não têm o mesmo destinatário, 
 
 Em caso prático sobre gestão de comunicação na Câmara, **delimitar decisões**: quem coordena o projeto, quem informa requisitos, quem executa, quem consulta, quem aprova e quem recebe atualizações. Construir RACI para atividades relevantes, respeitando as **competências institucionais reais**. Registrar riscos e problemas separadamente; diante de nova demanda, analisar impacto e escalonar para decisão apropriada. Usar critérios de qualidade e aceite por entrega, manter histórico de mudanças e planejar a continuidade de conteúdos institucionais após o projeto.
 
-As unidades se complementam: [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|CAM-CO-015]] define diagnóstico e direção estratégica; [[3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec|CAM-CO-016]] define mensuração de resultados; [[3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao|CAM-CO-017]] desenvolve o plano executável; a presente nota concentra **governança, decisão, incerteza, mudança e aceite**. Redes oficiais e governança editorial serão aprofundadas nas próximas unidades (CAM-CO-019 e CAM-CO-020).
+As unidades se complementam: [[3 - Materias/Comunicacao/61 - planejamento estrategico de comunicacao e diagnostico organizacional|CAM-CO-015]] define diagnóstico e direção estratégica; [[3 - Materias/Comunicacao/62 - objetivos indicadores e avaliacao de comunicacao amec|CAM-CO-016]] define mensuração de resultados; [[3 - Materias/Comunicacao/63 - plano de comunicacao estrutura acoes cronograma orcamento e execucao|CAM-CO-017]] desenvolve o plano executável; a presente nota concentra **governança, decisão, incerteza, mudança e aceite**. Redes oficiais e governança editorial são desenvolvidas em [[3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario|Planejamento editorial de redes]] e [[3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens|Governança e aprovação de postagens]].
 
 ## Heurísticas
 

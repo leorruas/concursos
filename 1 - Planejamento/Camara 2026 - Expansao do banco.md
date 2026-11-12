@@ -30,3 +30,7 @@ Quarenta questões geradas sobre marca e branding, item 4 de Divulgação Instit
 ## Lote 005 validado
 
 Quarenta questões geradas para o item 5, vinculadas aos artigos 112 a 119. A triagem a 0,22 sinalizou um par envolvendo o lote. O novo item cobra se marcas de corte substituem a extensão da arte. O exercício publicado distingue sangria e margem de segurança. Próximo lote: ética na comunicação.
+
+## Lote 006 em elaboração
+
+Seis questões geradas para ética na comunicação, item 6 do edital, vinculadas ao artigo 120. Ampliar com o artigo 11 e cotejar as fontes primárias antes de elaborar e liberar itens normativos.

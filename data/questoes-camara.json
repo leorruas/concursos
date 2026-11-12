@@ -12036,6 +12036,168 @@
       "correctAnswer": "C",
       "explanation": "A estimativa sobe de 800 para 1.000 leitores. A proporção, que é o indicador da meta, cai de 80% para 50%.",
       "reviewEvidence": "Cotejo editorial com AMEC aplicado à publicação: evitar troca de níveis em 3 - Materias/Comunicacao/119 - distribuicao e avaliacao de publicacoes.md. Conferência de gabarito e dificuldade no lote 005. Lote 005: comparação com exercícios dos artigos 112 a 119, triagem lexical e testes de sessão v3 e seleção."
+    },
+    {
+      "id": "cam-di-atribuicao-com-verificacao-independente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "atribuicao-com-verificacao-independente",
+      "mechanism": "atribuicao-com-verificacao-independente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Jornalismo: critérios próprios que não se transferem mecanicamente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Jornalismo: critérios próprios que não se transferem mecanicamente"
+      },
+      "statement": "Indicar o nome da fonte de um dado controverso dispensa o jornalista de verificar o dado antes de apresentá-lo como fato confirmado.",
+      "correctAnswer": "E",
+      "explanation": "A atribuição informa a origem. A verificação determina se há evidência suficiente para apresentar a alegação como fato confirmado."
+    },
+    {
+      "id": "cam-di-correcao-da-conclusao-derivada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "correcao-da-conclusao-derivada",
+      "mechanism": "correcao-da-conclusao-derivada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Jornalismo: critérios próprios que não se transferem mecanicamente"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Jornalismo: critérios próprios que não se transferem mecanicamente"
+      },
+      "statement": "Se um erro de data altera a ordem dos acontecimentos narrados em uma matéria, corrigir o número exige conferir também a conclusão sobre a sequência dos fatos.",
+      "correctAnswer": "C",
+      "explanation": "A data é premissa da interpretação. Ajustar apenas o dado pode deixar no texto uma conclusão incompatível com a cronologia corrigida."
+    },
+    {
+      "id": "cam-di-identificacao-fora-da-peca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "identificacao-fora-da-peca",
+      "mechanism": "identificacao-fora-da-peca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Conteúdo editorial, publieditorial, influenciadores e transparência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Conteúdo editorial, publieditorial, influenciadores e transparência"
+      },
+      "statement": "Se um vídeo pago é recortado e divulgado em outro canal sem a indicação do patrocínio, a indicação no vídeo original é suficiente para que o público do recorte reconheça a relação comercial.",
+      "correctAnswer": "E",
+      "explanation": "Quem recebe o recorte pode nunca ter visto o original. A identificação precisa ser perceptível no conteúdo que efetivamente circula."
+    },
+    {
+      "id": "cam-di-pluralismo-e-correcoes-factuais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "pluralismo-e-correcoes-factuais",
+      "mechanism": "pluralismo-e-correcoes-factuais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Comunicação pública da Câmara: finalidade, neutralidade institucional e pluralismo"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Comunicação pública da Câmara: finalidade, neutralidade institucional e pluralismo"
+      },
+      "statement": "Uma cobertura institucional pode registrar posições divergentes e corrigir uma afirmação factual verificável sem atribuir à instituição apoio à posição de quem enunciou o dado correto.",
+      "correctAnswer": "C",
+      "explanation": "O pluralismo orienta a cobertura das posições. Verificar um fato é uma decisão de precisão editorial distinta da adesão a uma posição."
+    },
+    {
+      "id": "cam-di-teste-de-beneficio-e-risco-informacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "teste-de-beneficio-e-risco-informacional",
+      "mechanism": "teste-de-beneficio-e-risco-informacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Modelo prático de análise ética em cinco perguntas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Modelo prático de análise ética em cinco perguntas"
+      },
+      "statement": "Uma peça explica um procedimento com clareza, mas usa um depoimento que omite que a pessoa foi remunerada para participar. A clareza da instrução e o risco de induzir erro sobre a independência do depoimento precisam ser avaliados separadamente.",
+      "correctAnswer": "C",
+      "explanation": "A instrução pode cumprir seu propósito enquanto a apresentação da fonte induz interpretação equivocada. A análise considera finalidade, formato e a inferência provável do público."
+    },
+    {
+      "id": "cam-di-consentimento-interface-assimetrica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 6 / ética na comunicação",
+      "articleId": "art-9d53c74b18e602af",
+      "conceptId": "consentimento-interface-assimetrica",
+      "mechanism": "consentimento-interface-assimetrica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-9d53c74b18e602af#Dados pessoais, vulnerabilidade e decisões de design"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/120 - etica da comunicacao e da publicidade fronteiras.md",
+        "section": "Dados pessoais, vulnerabilidade e decisões de design"
+      },
+      "statement": "Uma interface que torna a recusa de comunicações promocionais difícil de encontrar e exibe a aceitação em destaque oferece escolhas igualmente fáceis só porque as duas opções existem.",
+      "correctAnswer": "E",
+      "explanation": "A disponibilidade formal não iguala o esforço para escolher. Posição e visibilidade podem favorecer uma opção e prejudicar a autonomia."
     }
   ]
 }

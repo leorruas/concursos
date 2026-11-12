@@ -323,6 +323,22 @@
       "examBlock": "Específicos",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-sumula-vinculante",
+      "term": "Súmula vinculante",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-reclamacao-sumula-vinculante",
+      "term": "Reclamação por desrespeito a súmula vinculante",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

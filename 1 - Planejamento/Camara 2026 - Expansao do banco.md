@@ -72,3 +72,7 @@ Quarenta questões de comunicação organizacional sobre dimensões, integraçã
 ## Lote 013 validado
 
 Quarenta questões sobre redes oficiais, vinculadas aos artigos 65 a 69. O lote inclui planejamento, produção colaborativa, proporções e formatos. O lote agora também inclui públicos, linguagem e avaliação. Três casos reformulados e seleção verificada. Próximo lote cobre transparência pública.
+
+## Lote 014 em elaboração
+
+Quatro itens sobre pedidos de informação, fornecimento direto, acesso parcial e prorrogação. O próximo conjunto cobre transparência ativa e procedimentos da Câmara.

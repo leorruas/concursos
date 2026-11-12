@@ -21112,6 +21112,122 @@
       "correctAnswer": "E",
       "explanation": "Nomes podem coincidir. A confirmação exige verificar o identificador do perfil por uma fonte da organização ou outro vínculo confiável.",
       "reviewEvidence": "Lote 013: cotejo editorial com Marcação, crédito e atribuição em 3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md, comparação de mecanismos e verificação de integridade, sessão v3 e seleção."
+    },
+    {
+      "id": "cam-cs-pedido-sem-declaracao-de-finalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "pedido-sem-declaracao-de-finalidade",
+      "mechanism": "pedido-sem-declaracao-de-finalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 10, caput e § 3º"
+      },
+      "statement": "Uma pessoa identifica-se e especifica o relatório público que deseja consultar. O órgão pode condicionar o pedido à apresentação do projeto em que ela pretende usar o relatório.",
+      "correctAnswer": "E",
+      "explanation": "A lei exige identificação e especificação da informação, mas veda exigir os motivos do pedido de informação de interesse público."
+    },
+    {
+      "id": "cam-cs-link-sem-meios-de-consulta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "link-sem-meios-de-consulta",
+      "mechanism": "link-sem-meios-de-consulta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Comunicação editorial: mediação sem substituir a fonte"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Comunicação editorial: mediação sem substituir a fonte",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 11, § 6º"
+      },
+      "statement": "Uma pessoa declara não ter meios para consultar a versão disponível na internet. Indicar-lhe por escrito onde localizar essa versão desonera o órgão de fornecer a informação diretamente.",
+      "correctAnswer": "E",
+      "explanation": "A indicação do local e da forma de consulta pode substituir o fornecimento direto, com exceção expressa para quem declara não dispor dos meios necessários."
+    },
+    {
+      "id": "cam-cs-acesso-parcial-com-trecho-protegido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "acesso-parcial-com-trecho-protegido",
+      "mechanism": "acesso-parcial-com-trecho-protegido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 7º, § 2º"
+      },
+      "statement": "Se apenas uma parte de um relatório for sigilosa, é possível fornecer cópia que oculte o trecho protegido e preserve o conteúdo acessível.",
+      "correctAnswer": "C",
+      "explanation": "A lei assegura acesso à parte não sigilosa e admite ocultar o trecho protegido em cópia, extrato ou certidão."
+    },
+    {
+      "id": "cam-cs-prorrogacao-sem-ciencia-do-requerente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "prorrogacao-sem-ciencia-do-requerente",
+      "mechanism": "prorrogacao-sem-ciencia-do-requerente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 11, §§ 1º e 2º"
+      },
+      "statement": "Se o acesso imediato for inviável, registrar no processo a justificativa expressa para prorrogar o prazo dispensa comunicar a prorrogação ao requerente.",
+      "correctAnswer": "E",
+      "explanation": "Além da justificativa expressa, a lei exige dar ciência ao requerente. O registro interno não cumpre essa etapa."
     }
   ]
 }

@@ -142,5 +142,5 @@ A nota se conecta diretamente a [[3 - Materias/Direito Administrativo/03 - atos 
 - Lei nº 8.429/1992, texto compilado após a Lei nº 14.230/2021.
 - STF, Tema 1199 de repercussão geral (ARE 843989).
 - STF, ADIs 7.156 e 7.236, julgamento de 01/07/2026; [Informativo 1225](https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm).
-- [[00 inbox/11-06-2026|Inbox de 11/06/2026]].
-- [[00 inbox/12-06-2026|Inbox de 12/06/2026]].
+- registro de ingestão arquivado.
+- registro de ingestão arquivado.

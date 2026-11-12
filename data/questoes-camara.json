@@ -26792,6 +26792,222 @@
       "correctAnswer": "E",
       "explanation": "Expandir a sigla esclarece a abreviação. Se a expressão completa continuar opaca, é preciso explicar sua função ou significado.",
       "reviewEvidence": "Lote 018. Cotejo editorial com artigo 75. Triagem lexical a 0,22."
+    },
+    {
+      "id": "cam-cs-pub-finalidade-informativa-suficiente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "finalidade-informativa-suficiente",
+      "mechanism": "finalidade-informativa-suficiente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Estrutura normativa do art. 37: princípio versus regra específica"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Estrutura normativa do art. 37: princípio versus regra específica"
+      },
+      "statement": "Um aviso oficial informa quais unidades de atendimento estarão fechadas no feriado. A ausência de conteúdo educativo não viola, por si, a exigência constitucional de finalidade da publicidade institucional.",
+      "correctAnswer": "C",
+      "explanation": "O caráter informativo é uma finalidade admitida pelo § 1º. As finalidades enumeradas são alternativas."
+    },
+    {
+      "id": "cam-cs-pub-orientacao-de-servico-e-finalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "orientacao-de-servico-e-finalidade",
+      "mechanism": "orientacao-de-servico-e-finalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Três finalidades autorizadas: fronteiras internas"
+      },
+      "statement": "Um cartaz que indica os documentos e o canal para solicitar atendimento precisa também explicar a história do órgão para apresentar caráter de orientação social.",
+      "correctAnswer": "E",
+      "explanation": "O caráter de orientação social decorre da ajuda oferecida para acessar o serviço. O histórico do órgão não é requisito dessa finalidade."
+    },
+    {
+      "id": "cam-cs-pub-elemento-grafico-sem-nome",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "elemento-grafico-sem-nome",
+      "mechanism": "elemento-grafico-sem-nome",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Promoção institucional versus promoção pessoal"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Promoção institucional versus promoção pessoal"
+      },
+      "statement": "Uma campanha pode caracterizar promoção pessoal mesmo sem nomear a autoridade, quando adota símbolo associado à pessoa para atribuir a ela, em tom laudatório, a prestação do serviço público.",
+      "correctAnswer": "C",
+      "explanation": "A vedação alcança símbolos que caracterizem promoção pessoal. A avaliação considera o significado do elemento na composição da peça."
+    },
+    {
+      "id": "cam-cs-pub-metrica-de-alcance-e-regularidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "metrica-de-alcance-e-regularidade",
+      "mechanism": "metrica-de-alcance-e-regularidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Três finalidades autorizadas: fronteiras internas"
+      },
+      "statement": "Uma campanha que exalta a autoridade responsável por uma obra fica regular se seu alto alcance também ampliar o conhecimento do público sobre a entrega.",
+      "correctAnswer": "E",
+      "explanation": "O alcance indica distribuição da peça. A circulação de informação útil não afasta a vedação à promoção pessoal."
+    },
+    {
+      "id": "cam-cs-pub-rotulo-educativo-e-conteudo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "rotulo-educativo-e-conteudo",
+      "mechanism": "rotulo-educativo-e-conteudo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Três finalidades autorizadas: fronteiras internas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Três finalidades autorizadas: fronteiras internas"
+      },
+      "statement": "Para identificar a finalidade de uma campanha rotulada como educativa, é pertinente examinar o que suas imagens e chamadas efetivamente ensinam ou destacam.",
+      "correctAnswer": "C",
+      "explanation": "O rótulo editorial não determina a função real. A avaliação depende da mensagem veiculada e do papel de seus elementos."
+    },
+    {
+      "id": "cam-cs-pub-publicidade-caput-e-objeto-especifico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "publicidade-caput-e-objeto-especifico",
+      "mechanism": "publicidade-caput-e-objeto-especifico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Estrutura normativa do art. 37: princípio versus regra específica"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Estrutura normativa do art. 37: princípio versus regra específica"
+      },
+      "statement": "O princípio da publicidade previsto no caput do art. 37 limita-se a determinar o caráter educativo, informativo ou de orientação social das campanhas dos órgãos públicos.",
+      "correctAnswer": "E",
+      "explanation": "O princípio tem alcance sobre a atuação administrativa. As finalidades enumeradas integram a regra específica do § 1º."
+    },
+    {
+      "id": "cam-cs-pub-nome-na-identificacao-de-decisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "nome-na-identificacao-de-decisao",
+      "mechanism": "nome-na-identificacao-de-decisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Promoção institucional versus promoção pessoal"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Promoção institucional versus promoção pessoal"
+      },
+      "statement": "Uma notícia oficial pode identificar quem assinou determinada decisão quando essa identificação é relevante para entender o ato e o texto se limita a descrever o fato.",
+      "correctAnswer": "C",
+      "explanation": "A identificação funcional permite atribuição e verificação. A vedação incide quando o elemento caracteriza promoção pessoal."
+    },
+    {
+      "id": "cam-cs-pub-merito-exclusivo-e-dados-verdadeiros",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 11 / Art. 37, § 1º, da Constituição",
+      "articleId": "art-8e2a6f50cb1497d3",
+      "conceptId": "merito-exclusivo-e-dados-verdadeiros",
+      "mechanism": "merito-exclusivo-e-dados-verdadeiros",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8e2a6f50cb1497d3#Promoção institucional versus promoção pessoal"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1.md",
+        "section": "Promoção institucional versus promoção pessoal"
+      },
+      "statement": "Se as datas e valores de uma obra estão corretos, o órgão pode tratar a entrega como realização pessoal exclusiva da autoridade sem risco de contrariar o § 1º.",
+      "correctAnswer": "E",
+      "explanation": "A precisão dos dados não resolve o personalismo do enquadramento. É necessário avaliar como a peça atribui e valoriza a realização."
     }
   ]
 }

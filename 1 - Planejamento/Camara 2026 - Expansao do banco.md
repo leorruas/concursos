@@ -107,3 +107,7 @@ Total validado: 680/2.000. Próximo lote: linguagem simples e usabilidade, item 
 Quarenta itens sobre linguagem simples, avaliação e usabilidade, vinculados aos artigos 75 a 77. A revisão cobriu o Manual de Linguagem Simples da Câmara e os dispositivos da Lei nº 15.263/2025 indicados nos itens normativos. Foram verificados os cálculos de taxa de conclusão e de Cloze. A triagem lexical a 0,22 não apontou pares envolvendo o lote, e a seleção pelo item 10 recuperou os 40 itens.
 
 Total validado: 720/2.000. Próximo lote: publicidade institucional e art. 37, § 1º, da Constituição, item 11 de Comunicação Social.
+
+## Lote 019 em elaboração
+
+Oito itens sobre as finalidades da publicidade institucional e a caracterização de promoção pessoal, vinculados ao artigo 78.

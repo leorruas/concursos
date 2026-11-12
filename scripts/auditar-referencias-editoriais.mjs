@@ -71,7 +71,7 @@ for (const [id, info] of docs) {
           mark(id, i + 1 + lineOffset, 'referencia_privada_ou_legada', match[0]);
           continue;
         }
-        if (/^(?:00 inbox\/|00 ingestão$|00 - Desempenho\/|4 - Projetos\/dataprev-2026\/|\d{2}-\d{2}-20\d{2}$)/i.test(target)) {
+        if (/^(?:00 inbox\/|00 ingestão$|00 - Desempenho\/|4 - Projetos\/dataprev-2026\/|wiki\/|\d{2}-\d{2}-20\d{2}$)/i.test(target)) {
           mark(id, i + 1 + lineOffset, 'fonte_historica_nao_publica', match[0]);
           continue;
         }

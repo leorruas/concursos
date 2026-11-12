@@ -15,7 +15,7 @@ unidadeId: "CAM-ING-001"
 
 ## 1. Situação-problema: a confusão entre o tópico temático geral, a ideia central e a intenção do autor
 
-Em provas do Cebraspe para carreiras legislativas e de comunicação institucional, os textos em língua inglesa são invariavelmente autênticos, extraídos de periódicos acadêmicos (*journal articles*), relatórios de organismos multilaterais (ONU, OCDE, Banco Mundial) ou ensaios de divulgação científica e política (*The Economist*, *Foreign Affairs*, *Nature*, *MIT Technology Review*).
+Textos em provas de língua inglesa podem incluir reportagens, textos acadêmicos, relatórios, ensaios e outros gêneros. A origem e o gênero de cada texto devem ser identificados no caderno específico: **não há base aqui para afirmar que todas as provas Cebraspe usem exclusivamente textos autênticos desses veículos**. Os excertos deste artigo são exemplos autorais didáticos.
 
 Considere o seguinte excerto sobre inteligência artificial e parlamentos abertos:
 
@@ -84,7 +84,7 @@ Em provas de concurso de alta complexidade com tempo escasso, **ler palavra por 
 
 ## 4. O propósito comunicativo do autor (*Author's Purpose*) e o tom textual
 
-O **propósito comunicativo** reflete a função sociocomunicativa primordial do texto. No Cebraspe, as assertivas utilizam um repertório fixo de verbos no infinitivo para caracterizar a intenção do autor:
+O **propósito comunicativo** reflete a função sociocomunicativa primordial do texto. Ao descrever a intenção do autor, exercícios de compreensão podem usar verbos como *inform, argue, criticize, warn* ou *recommend*. Trata-se de um repertório analítico útil, **não de lista fixa ou estatisticamente comprovada da banca**:
 
 ```mermaid
 flowchart TD
@@ -121,7 +121,7 @@ flowchart TD
 
 ## 5. A taxonomia dos distratores clássicos em itens de compreensão do Cebraspe
 
-Ao formular itens C/E sobre a ideia central ou o propósito comunicativo, o Cebraspe raramente constrói assertivas absurdas. A banca adota **quatro padrões matemáticos de distração**:
+Ao formular itens C/E sobre a ideia central ou o propósito comunicativo, o Cebraspe raramente constrói assertivas absurdas. Quatro mecanismos de erro podem ser usados para construir e avaliar itens de interpretação. **São categorias pedagógicas, não padrões matemáticos ou frequências comprovadas da banca**:
 
 1. **O Distrator do Detalhe Secundário (*True but Minor Detail*):** A assertiva reproduz uma informação que é **rigorosamente verdadeira segundo o texto**, mas que constitui apenas um dado factual isolado ou um exemplo ilustrativo, e **não a tese central** ou o propósito do autor.
    * *Pegadinha:* O candidato lê, reconhece a frase no texto e marca Certo, errando a questão porque o comando perguntava sobre a *main idea* ou o *primary purpose*.

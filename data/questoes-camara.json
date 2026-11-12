@@ -35922,23 +35922,23 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-484ca8ef752c3d9a",
-      "conceptId": "excel-referencia-mista-copia-diagonal",
-      "mechanism": "aplicar-deslocamento-coluna-linha",
+      "conceptId": "excel-cont-num-vs-cont-valores",
+      "mechanism": "contar-numeros-e-celulas-preenchidas",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "revisada",
       "theoryRefs": [
-        "article:art-484ca8ef752c3d9a#2. Aritmética de referências: Relativa, Absoluta e Mista"
+        "article:art-484ca8ef752c3d9a#4. Catálogo de funções de alta incidência Cebraspe"
       ],
       "source": {
         "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
-        "section": "2. Aritmética de referências: Relativa, Absoluta e Mista"
+        "section": "4. Catálogo de funções de alta incidência Cebraspe"
       },
-      "statement": "Em uma planilha, a fórmula `=$B3+C$2` é copiada de D4 para F6. A fórmula resultante será `=$B5+E$2`, pois a coluna B e a linha 2 estão fixadas.",
+      "statement": "No Excel 365, um intervalo de três células contém, respectivamente, o número 10, o texto \"Pendente\" e uma célula vazia. Nesse intervalo, `CONT.NUM` retorna 1 e `CONT.VALORES` retorna 2.",
       "correctAnswer": "C",
-      "explanation": "O deslocamento é de duas colunas e duas linhas. `$B3` mantém B e avança a linha a 5; `C$2` avança a coluna a E e mantém a linha 2.",
-      "reviewEvidence": "Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Aritmética de referências: Relativa, Absoluta e Mista\" do artigo 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revisão normativa/técnica independente e CI final ainda pendentes; não homologar como validada nesta etapa."
+      "explanation": "CONT.NUM conta apenas valores numéricos, enquanto CONT.VALORES conta todas as células não vazias, inclusive texto. A terceira célula vazia não entra em nenhuma das duas contagens.",
+      "reviewEvidence": "Lote 026: correção editorial dirigida de 12/11/2026 para retirar sobreposição com exercícios do artigo, agora usando contar-numeros-e-celulas-preenchidas. Conferidos título e seção literal '4. Catálogo de funções de alta incidência Cebraspe' em art-484ca8ef752c3d9a; gabarito explicado por conceito canônico. Revisão técnica automatizada, sem homologação humana; testes/triagem final e CI do novo SHA pendentes."
     },
     {
       "id": "cam-ti-l026-006-excel-cifrao-fixa-linha",
@@ -36706,8 +36706,8 @@
       "unitId": "tecnologia-e-dados",
       "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
       "articleId": "art-719dd4ca3e84b65a",
-      "conceptId": "histograma-alturas-com-classes-desiguais",
-      "mechanism": "calcular-e-comparar-densidades",
+      "conceptId": "histograma-bimodal-hipotese-de-grupos",
+      "mechanism": "distinguir-forma-bimodal-de-identificacao-causal",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
@@ -36719,10 +36719,10 @@
         "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
         "section": "3. Anatomia matemática do histograma"
       },
-      "statement": "Em um histograma, a classe de 0 a 2 reúne 8 observações e a classe de 2 a 6 reúne 12. Para representar as frequências pelas áreas dos retângulos, a altura da primeira classe deve ser maior do que a altura da segunda.",
+      "statement": "Um histograma apresenta dois picos bem separados na distribuição de tempos de atendimento. Esse padrão bimodal pode motivar a hipótese de que a amostra reúne grupos com comportamentos diferentes, mas o gráfico isolado não demonstra quais grupos seriam esses.",
       "correctAnswer": "C",
-      "explanation": "A altura é frequência dividida pela largura. A primeira classe tem altura 8/2 = 4; a segunda, 12/4 = 3. A classe com mais observações pode ter retângulo mais baixo por ser mais larga.",
-      "reviewEvidence": "Lote 026: correção editorial incremental em 12/11/2026 do item 033, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-719dd4ca3e84b65a, subtítulo literal '3. Anatomia matemática do histograma'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirrepetição e CI no SHA atualizado ainda necessários; manter revisada."
+      "explanation": "Dois picos podem indicar subpopulações distintas, mas a origem de cada observação e a causa dos picos exigem dados ou análises adicionais. O histograma descreve a forma da distribuição, sem identificar sozinho as categorias de origem.",
+      "reviewEvidence": "Lote 026: correção editorial dirigida de 12/11/2026 para retirar sobreposição com exercícios do artigo, agora usando distinguir-forma-bimodal-de-identificacao-causal. Conferidos título e seção literal '3. Anatomia matemática do histograma' em art-719dd4ca3e84b65a; gabarito explicado por conceito canônico. Revisão técnica automatizada, sem homologação humana; testes/triagem final e CI do novo SHA pendentes."
     },
     {
       "id": "cam-ti-l026-034-grafico-barras-ordem-numerica-obrigatoria",

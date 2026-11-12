@@ -23,7 +23,7 @@ No setor público e particularmente no Poder Legislativo, a IA é empregada como
 ```mermaid
 flowchart TD
     classDef campo fill:#fffbe6,stroke:#b45309,stroke-width:2px,color:#78350f;
-    classDef ml fill:#eff6ff,stroke:#1d4ed8,stroke-width:2px,color:#1e3a8a;
+    classDef ml fill:#f1f5f9,stroke:#475569,stroke-width:2px,color:#0f172a;
     classDef dl fill:#ecfdf5,stroke:#047857,stroke-width:2px,color:#065f46;
     classDef escopo fill:#fef2f2,stroke:#b91c1c,stroke-width:2px,color:#991b1b;
 

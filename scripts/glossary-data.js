@@ -75,12 +75,22 @@ export function buildGlossary(rootDir, manifest, catalog, contests) {
     label: subjectsByContest.get('camara-2026')?.get(id) ||
       subjectsByContest.get('cgu-2026')?.get(id) || id
   })).sort((a, b) => a.label.localeCompare(b.label, 'pt-BR'));
-  const porConcurso = ['camara-2026', 'cgu-2026'].map(id => ({
-    id,
-    plannedCount: id === 'camara-2026' ? backlogCamara.terms.length : backlog.terms.length,
-    publishedCount: terms.filter(t => t.contestIds.includes(id)).length,
-    subjects: subjects.filter(s => subjectsByContest.get(id)?.has(s.id))
-  }));
+  const porConcurso = ['camara-2026', 'cgu-2026'].map(id => {
+    const ownPrefix = id === 'camara-2026' ? 'glo-camara-' : 'glo-';
+    const isOwn = t => id === 'camara-2026' ? t.id.startsWith(ownPrefix) : !t.id.startsWith('glo-camara-');
+    const published = terms.filter(t => t.contestIds.includes(id));
+    const shared = published.filter(t => !isOwn(t));
+    const ownPlannedCount = id === 'camara-2026' ? backlogCamara.terms.length : backlog.terms.length;
+    return {
+      id,
+      plannedCount: ownPlannedCount + shared.length,
+      ownPlannedCount,
+      ownPublishedCount: published.length - shared.length,
+      sharedCount: shared.length,
+      publishedCount: published.length,
+      subjects: subjects.filter(s => subjectsByContest.get(id)?.has(s.id))
+    };
+  });
   return {
     schemaVersion: 1, plannedCount: todosPlanejados.length, publishedCount: terms.length,
     contests: porConcurso, subjects, terms

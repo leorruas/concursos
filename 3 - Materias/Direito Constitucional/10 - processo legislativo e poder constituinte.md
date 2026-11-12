@@ -5,7 +5,7 @@ title: "🔄 Processo legislativo e poder constituinte"
 type: "conceito"
 status: "ativo"
 created: 2026-06-15
-updated: 2026-11-11
+updated: 2026-11-12
 ---
 
 # 🔄 Processo legislativo e poder constituinte
@@ -41,6 +41,33 @@ O processo legislativo compreende a elaboração de:
 Pegadinha: essa lista de **espécies normativas** não deve ser confundida com a hierarquia simplista de que toda lei complementar seria superior a toda lei ordinária. A diferença central envolve matéria constitucionalmente reservada e quórum de aprovação.
 
 ## Lei ordinária × lei complementar
+
+### Definições constitucionais: espécie, matéria e aprovação
+
+A **Constituição Federal de 1988 não oferece uma frase de definição conceitual** para “lei ordinária” e “lei complementar”. Ela **reconhece as duas como espécies normativas diferentes** (art. 59, II e III), determina **como são aprovadas** (arts. 47 e 69) e **indica, em dispositivos espalhados pelo texto, quando uma matéria exige lei complementar**. A definição jurídica precisa ser construída a partir dessas regras.
+
+**Lei ordinária (LO)** é a espécie legislativa que, como regra, disciplina os assuntos sujeitos à edição de lei **sem reserva constitucional de lei complementar ou de outra espécie normativa**. O art. 47 estabelece sua regra geral de aprovação: **maioria dos votos, desde que esteja presente a maioria absoluta dos integrantes da Casa**. A lei ordinária pode disciplinar direitos, deveres, organização administrativa e políticas públicas nos limites de competência e de iniciativa definidos na Constituição. Exemplos: a **Lei nº 8.112/1990**, sobre o regime jurídico dos servidores públicos civis federais, e as leis anuais de orçamento previstas no art. 165, III (a LOA é ordinária, apesar de tratar de orçamento).
+
+**Lei complementar (LC)** é a espécie exigida **quando a própria Constituição determina que determinado assunto seja tratado por lei complementar**. O art. 69 exige **maioria absoluta dos membros** na aprovação: **257 votos favoráveis na Câmara (513 deputados) e 41 no Senado (81 senadores)**. Essa exigência refere-se à quantidade de votos, enquanto a Constituição determina **quais matérias** dependem dessa forma. Exemplo: a **LC nº 101/2000 (Lei de Responsabilidade Fiscal)** disciplina normas de finanças públicas com base no art. 163.
+
+#### O que a Constituição reserva expressamente à lei complementar?
+
+| Dispositivo da CF | Matéria que exige lei complementar | Limite da reserva |
+| :--- | :--- | :--- |
+| **Art. 14, § 9º** | Estabelecer outros casos de inelegibilidade e os respectivos prazos de cessação, para proteger a probidade, a moralidade e a legitimidade das eleições | Não significa que toda norma eleitoral exija LC |
+| **Art. 37, XIX** | Definir **áreas de atuação das fundações** instituídas pelo Poder Público | A criação de autarquias e a autorização para instituir outras entidades seguem as formas previstas no mesmo inciso; não se cria toda entidade por LC |
+| **Art. 93, caput** | Dispor sobre o **Estatuto da Magistratura**, mediante iniciativa do STF | Combina reserva da espécie LC **e iniciativa reservada** |
+| **Art. 146, I a III** | Tratar de **conflitos de competência tributária**, **limitações constitucionais ao poder de tributar** e **normas gerais de legislação tributária**, entre outros assuntos indicados nos incisos | Nem toda lei sobre tributos deve ser complementar |
+| **Art. 163** | Dispor sobre **finanças públicas** e os objetos especificados no dispositivo | Reserva assuntos gerais próprios do artigo, não todas as leis que geram despesas |
+| **Art. 165, § 9º** | Regular matérias gerais de **organização, elaboração, vigência e prazos das leis orçamentárias**, nos termos do parágrafo | **PPA, LDO e LOA** não se tornam LCs: são leis orçamentárias próprias do art. 165 |
+
+**O que a Constituição dispõe sobre leis ordinárias?** Além de incluí-las no art. 59, o texto emprega a expressão **“lei”**, sem exigir a espécie complementar, em numerosos dispositivos. Por exemplo, o **art. 37, X** prevê lei específica para fixar ou alterar remuneração de servidores públicos, respeitada a iniciativa privativa em cada caso. O **art. 165, I a III** prevê leis de iniciativa do Executivo para estabelecer PPA, LDO e LOA. Na ausência de reserva constitucional de outra espécie, aplica-se a **forma ordinária**, observados os demais limites constitucionais.
+
+**Como classificar um tema na prova:** primeiro identifique o **assunto**; depois verifique se a Constituição usa a expressão **“lei complementar”** para aquele objeto; só então aplique o **quórum** adequado. Exemplo: normas gerais de direito tributário do art. 146 exigem LC; a alteração de uma alíquota tributária não exige LC apenas porque pertence ao campo tributário. Da mesma forma, a forma de LC não torna todo o seu conteúdo materialmente complementar.
+
+**Fundamento formal e efeito:** os arts. **61, 65 e 66** tratam, nos casos previstos, da iniciativa, revisão e sanção ou veto dos projetos de lei. A **LC não é hierarquicamente superior à LO em caráter geral**: a Constituição distribui matérias e exige requisitos próprios. Uma lei ordinária não pode substituir uma LC **em assunto reservado constitucionalmente**; já um dispositivo de LC que trate de matéria materialmente ordinária pode, em princípio, ser alterado por LO, respeitados os demais limites.
+
+**Fontes oficiais:** [Constituição Federal, texto atualizado na Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988) e [Regimento Interno da Câmara, arts. 24, II, e 148](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
 
 A iniciativa das leis complementares e ordinárias cabe aos legitimados do art. 61 **na forma e nos casos previstos na Constituição**. Portanto, não conclua que qualquer legitimado pode iniciar projeto sobre qualquer matéria: existem hipóteses de **iniciativa reservada**.
 

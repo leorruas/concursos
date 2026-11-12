@@ -11,9 +11,6 @@ on:
       - 'style.css'
       - 'web/**'
       - '.github/workflows/validate-glossary-pr.yml'
-      - 'web/09-glossary.js'
-      - 'style.css'
-      - 'index.html'
   workflow_dispatch:
 
 concurrency:
@@ -22,10 +19,6 @@ concurrency:
 
 permissions:
   contents: read
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: true
 
 jobs:
   validar:

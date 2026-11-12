@@ -83,6 +83,12 @@ As sanções podem ser aplicadas isolada ou cumulativamente conforme a gravidade
 
 A ação para aplicação das sanções da LIA tem, atualmente, prazo geral de **8 anos**, nos termos do art. 23, sujeito às regras legais de suspensão e interrupção.
 
+**Atualização constitucional obrigatória: ADIs 7.156 e 7.236 (STF, julgamento concluído em 1º/07/2026).** O STF manteve as causas de interrupção da prescrição previstas na reforma de 2021, mas declarou **inconstitucional** a expressão do art. 23, § 5º, que determinava o reinício da contagem pela **metade do prazo de oito anos**. Após uma interrupção válida, o prazo volta a correr **por inteiro**, observado o **limite máximo de 20 anos** para a pretensão sancionatória, segundo o julgamento. A literalidade não atualizada do § 5º não representa a orientação constitucional vigente.
+
+**Linha do tempo ilustrativa:** (1) prazo geral inicial de oito anos, contado conforme a hipótese legal; (2) ocorrência de causa interruptiva válida prevista no art. 23; (3) novo prazo contado integralmente, e não reduzido de oito para quatro anos; (4) aplicação também do limite temporal global fixado pelo STF. O exemplo explica a regra sem pretender calcular o termo final de caso real, que exige examinar fatos, transição legal, marcos interruptivos e possíveis decisões posteriores.
+
+Fontes primárias: [STF, notícia do julgamento conjunto das ADIs em 01/07/2026](https://noticias.stf.jus.br/postsnoticias/stf-invalida-reducao-de-prazo-de-prescricao-prevista-na-reforma-da-lei-de-improbidade-administrativa/) e [STF, Informativo 1225, tese sobre art. 23, §§ 4º e 5º](https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm). Os efeitos temporais de situações específicas devem ser cotejados com o acórdão, sem inferir retroatividade irrestrita.
+
 O Tema 1199 do STF é especialmente importante para questões que misturam fatos anteriores e posteriores à Lei nº 14.230/2021:
 
 - continua sendo necessário dolo para a tipificação atual dos arts. 9º, 10 e 11;
@@ -100,6 +106,22 @@ A banca tende a deslocar uma verdade de uma categoria para outra. Os melhores di
 - “toda improbidade suspende direitos políticos”, ignorando o regime específico do art. 11;
 - “a culpa ainda basta para lesão ao erário”, usando a redação anterior da LIA;
 - “a reforma de 2021 apaga automaticamente condenações culposas transitadas em julgado”, contrariando o Tema 1199.
+
+## Questões inéditas comentadas: prescrição e tipicidade (Cebraspe C/E)
+
+**1.** Em ação de improbidade disciplinada pela reforma de 2021, a interrupção válida da prescrição faz o prazo de oito anos voltar a correr obrigatoriamente pela metade, em razão da literalidade do art. 23, § 5º.
+
+**Gabarito: ERRADO.** Nas ADIs 7.156 e 7.236, o STF afastou a regra de reinício pela metade. O prazo volta a correr integralmente, observado o limite global de 20 anos e as condições concretas de incidência do regime.
+
+**2.** A decisão do STF de 2026 preservou as causas legais de interrupção da prescrição da ação de improbidade, embora tenha afastado a redução do prazo reiniciado à metade.
+
+**Gabarito: CERTO.** São objetos distintos do controle de constitucionalidade: validade dos marcos interruptivos e duração do novo período prescricional.
+
+**3.** O simples reconhecimento de ilegalidade administrativa é suficiente para caracterizar improbidade do art. 11 da Lei nº 8.429/1992, ainda que não demonstrados dolo e enquadramento em conduta legal específica.
+
+**Gabarito: ERRADO.** A improbidade exige os elementos do tipo legal. O art. 11 não funciona como cláusula aberta para toda irregularidade administrativa.
+
+Estes itens são **inéditos didáticos**, não questões reais recuperadas da banca. Para aplicar regras de prescrição a fatos anteriores a 2021, devem ser observados os limites temporais do Tema 1199 e das ADIs.
 
 ## Relações com outros temas
 
@@ -119,5 +141,6 @@ A nota se conecta diretamente a [[3 - Materias/Direito Administrativo/03 - atos 
 
 - Lei nº 8.429/1992, texto compilado após a Lei nº 14.230/2021.
 - STF, Tema 1199 de repercussão geral (ARE 843989).
+- STF, ADIs 7.156 e 7.236, julgamento de 01/07/2026; [Informativo 1225](https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm).
 - [[00 inbox/11-06-2026|Inbox de 11/06/2026]].
 - [[00 inbox/12-06-2026|Inbox de 12/06/2026]].

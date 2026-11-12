@@ -71,6 +71,36 @@ for (const file of fs.readdirSync(new URL('../3 - Materias/Informatica/', import
 // sem rejeitar as 50 questões didáticas que possuem seus próprios gabaritos.
 const blockedTi = blockedCamaraTiQuestions(root);
 assert.equal(blockedTi.size, 13, 'CAM-TI: conferir alteração no total de itens não homologados');
+
+const tiSourceFiles = fs.readdirSync(new URL('../3 - Materias/Informatica/', import.meta.url))
+  .filter(name => /^(?:0[3-9]|1\\d|2\\d|30) - .*\\.md$/.test(name)).sort();
+assert.equal(tiSourceFiles.length, 28, 'CAM-TI: 28 artigos específicos devem estar disponíveis');
+let originalTiTotal = 0;
+let originalTiBlocked = 0;
+for (const file of tiSourceFiles) {
+  const body = fs.readFileSync(new URL('../3 - Materias/Informatica/' + file, import.meta.url), 'utf8');
+  const questions = body.split(/(?=^### (?:Item|Questão)\\s+\\d+\\b)/m)
+    .filter(part => /^### (?:Item|Questão)\\s+\\d+\\b/.test(part));
+  assert.equal(questions.length, 6, 'CAM-TI: seis itens numerados por artigo: ' + file);
+  originalTiTotal += questions.length;
+  for (let i = 0; i < questions.length; i++) {
+    const part = questions[i];
+    const statedNumber = Number(part.match(/^### (?:Item|Questão)\\s+(\\d+)/)[1]);
+    assert.equal(statedNumber, i + 1, 'CAM-TI: numeração sequencial: ' + file);
+    const answer = part.match(/Gabarito[^\\n]*(NÃO HOMOLOGADO|CERTO|ERRADO)/i)?.[1];
+    assert(answer, 'CAM-TI: gabarito explícito ausente em ' + file + ', Q' + statedNumber);
+    if (answer.toUpperCase() === 'NÃO HOMOLOGADO') originalTiBlocked++;
+  }
+  if (file.startsWith('23 - ')) {
+    const q5 = questions[4];
+    assert.match(q5, /método de aprendizado conhecido como XAI/);
+    assert.match(q5, /Gabarito[^\\n]*ERRADO/i,
+      'CAM-TI: XAI não é método único de aprendizado; Q5 deve ter gabarito ERRADO');
+  }
+}
+assert.equal(originalTiTotal, 168, 'CAM-TI: 168 itens originais');
+assert.equal(originalTiBlocked, 13, 'CAM-TI: 13 itens originais continuam não homologados');
+
 for (const blocked of blockedTi.values()) {
   const article = fs.readFileSync(new URL('../3 - Materias/Informatica/' + blocked.file, import.meta.url), 'utf8');
   const substituteId = 'S' + blocked.file.slice(0, 2) + '-' + blocked.number;

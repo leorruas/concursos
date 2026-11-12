@@ -132,15 +132,15 @@ Ao enfrentar itens de vocabulário e equivalência lexical elaborados pelo Cebra
 ### Questão 1
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-*Text segment: "The Lower House has recently passed an act aimed at regulating artificial intelligence, while a separate bill addressing digital platform liability is currently being tabled by the opposition."*
+*Text segment: "The Digital Access Act entered into force last year, while a separate bill on platform liability is still under parliamentary consideration."*
 
-**Item:** In the sentence above, the word "act" refers to a formal legislative proposal that has already been approved and enacted into law, whereas "bill" denotes a draft proposition still under parliamentary processing.
+**Item:** In the sentence above, "Act" designates a law already in force, whereas "bill" designates proposed legislation still under consideration.
 
 - ( ) Certo
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** O item define com exatidão a distinção técnico-jurídica e parlamentar entre *act* (lei já aprovada/promulgada) e *bill* (projeto de lei / minuta de proposição legislativa ainda em tramitação). Trata-se de um clássico exemplo de vocabulário técnico institucional frequentemente cobrado pelo Cebraspe.
+**Comentário:** No contexto descrito, *Act* designa uma lei em vigor e *bill* um projeto ainda em tramitação. A distinção exige atenção à jurisdição: aprovação por uma única casa legislativa não transforma automaticamente um *bill* em *act*. Além disso, *to table a bill* pode indicar apresentação para debate no inglês britânico, enquanto em contextos norte-americanos *to table* frequentemente significa adiar ou retirar da pauta. O novo texto-base evita essa ambiguidade.
 
 ---
 

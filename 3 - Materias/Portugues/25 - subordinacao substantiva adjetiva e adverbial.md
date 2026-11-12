@@ -15,11 +15,11 @@ updated: 2026-11-09
 Diferente da coordenação (em que as orações mantêm autonomia sintática), a **subordinação (ou hipotaxe)** ocorre quando uma oração inteira passa a funcionar como um **termo sintático encaixado dentro da estrutura da oração principal**. Na redação de proposições e pareceres na Câmara dos Deputados, compreender esse encaixe é decisivo tanto para a concordância quanto para a interpretação jurídica. Compare dois dispositivos:
 
 > **Dispositivo A (Sem vírgulas)**: *"Os servidores da Câmara **que acumulam cargos remunerados indevidamente** responderão a processo disciplinar."*  
-> **Dispositivo B (Com vírgulas)**: *"Os servidores da Câmara**, que são regidos pelo regime estatutário da Lei nº 8.112/1990,** têm direito à estabilidade após três anos de efetivo exercício."*
+> **Dispositivo B (Com vírgulas)**: *"Os servidores presentes à reunião**, que receberam treinamento sobre o sistema,** apresentaram sugestões."*
 
 A simples inserção ou retirada de vírgulas antes da oração subordinada adjetiva introduzida pelo pronome relativo *que* altera radicalmente o escopo lógico da norma:
-- No **Dispositivo A**, a **Oração Subordinada Adjetiva Restritiva** (sem vírgulas) delimita um subconjunto específico: **somente aqueles servidores que acumulam cargos indevidamente** responderão a processo. Se colocássemos vírgulas aqui, o texto afirmaria a barbaridade de que *todos os servidores da Câmara acumulam cargos indevidamente*!
-- No **Dispositivo B**, a **Oração Subordinada Adjetiva Explicativa** (isolada por vírgulas) enuncia uma propriedade universal da totalidade da categoria: **todos os servidores efetivos da Câmara são regidos pela Lei nº 8.112/1990**.
+- No **Dispositivo A**, a **oração subordinada adjetiva restritiva** (sem vírgulas) delimita o grupo ao qual se atribui a resposta a processo, sem comprovar que existam servidores fora desse grupo. Se inseríssemos vírgulas, o atributo passaria a ser apresentado como informação adicional sobre os servidores identificados no contexto, mudando o escopo comunicativo.
+- No **Dispositivo B**, a **oração subordinada adjetiva explicativa** (isolada por vírgulas) apresenta o treinamento como informação adicional sobre **os servidores presentes à reunião identificados no contexto**. Não demonstra que todos os servidores da instituição tenham recebido treinamento nem estabelece regra sobre estabilidade.
 
 Nas provas do **Cebraspe**, a subordinação é um dos tópicos mais cobrados de toda a prova de Língua Portuguesa:
 1. **O contraste semântico e de pontuação nas Adjetivas Restritivas $\times$ Explicativas**;
@@ -42,8 +42,8 @@ flowchart TD
     SUB --> SUBST & ADJ & ADV
 
     SUBST --> S1["Subjetiva, Objetiva Direta, Objetiva Indireta,<br>Completiva Nominal, Predicativa, Apositiva"]
-    ADJ --> A1["Restritiva (SEM vírgula: delimita subconjunto / parte)"]
-    ADJ --> A2["Explicativa (COM vírgula: generaliza o todo / informação acessória)"]
+    ADJ --> A1["Restritiva (sem vírgula: delimita o referente)"]
+    ADJ --> A2["Explicativa (com vírgula: informação adicional sobre o referente contextual)"]
     ADV --> V1["9 Tipos: Causal, Consecutiva, Condicional, Concessiva,<br>Conformativa, Comparativa, Proporcional, Final, Temporal"]
 ```
 
@@ -79,8 +79,8 @@ flowchart LR
 
     ADJ["ORAÇÃO SUBORDINADA ADJETIVA"]:::destaque
 
-    REST["ADJETIVA RESTRITIVA<br>1. SEM VÍRGULAS;<br>2. Limita/restringe o universo do antecedente;<br>3. Aplica-se a APENAS UMA PARTE do grupo;<br>4. Indispensável para identificar o referente."]
-    EXPL["ADJETIVA EXPLICATIVA<br>1. ISOLADA POR VÍRGULAS (ou travessões);<br>2. Generaliza ou realça característica do todo;<br>3. Pressupõe que TODOS do grupo têm o atributo;<br>4. Estruturalmente acessória."]
+    REST["ADJETIVA RESTRITIVA<br>1. SEM VÍRGULAS;<br>2. Limita/restringe o universo do antecedente;<br>3. Não demonstra existência de grupo complementar;<br>4. Indispensável para identificar o referente."]
+    EXPL["ADJETIVA EXPLICATIVA<br>1. ISOLADA POR VÍRGULAS (ou travessões);<br>2. Acrescenta característica ao referente contextual;<br>3. Não afirma atributo de toda a classe universal;<br>4. Estruturalmente acessória."]
 
     ADJ --> REST & EXPL
     REST <-->|Inserir ou retirar a vírgula<br>MANTÉM a correção gramatical,<br>mas ALTERA O SENTIDO!| EXPL
@@ -135,8 +135,8 @@ Uma oração subordinada é chamada de **reduzida** quando **não possui conecti
   > *"As emendas parlamentares impositivas, que possuem execução orçamentária obrigatória pela União, foram regulamentadas pela EC nº 86/2015."*
 - **Proposta da Banca**: A retirada das vírgulas que isolam o trecho "que possuem execução orçamentária obrigatória pela União" manteria a correção gramatical do período, mas alteraria as suas relações semânticas originais.
 - **Análise Cebraspe**:
-  - Com vírgulas, a oração adjetiva é **explicativa** (afirma que *todas* as emendas impositivas possuem execução obrigatória).
-  - Sem vírgulas, a oração passa a ser **restritiva** (dando a entender que apenas uma parte das emendas impositivas teria execução obrigatória, e que outras não teriam).
+  - Com vírgulas, a oração adjetiva é **explicativa** (apresenta a característica como informação adicional sobre as emendas impositivas referidas no contexto).
+  - Sem vírgulas, a oração passa a ser **restritiva** (usa a característica para delimitar o referente, **sem implicar a existência de emendas fora do grupo**).
   - Do ponto de vista estritamente sintático, a retirada das vírgulas **mantém a correção gramatical**, mas **altera o sentido original**.
   - *Julgamento*: Item **CERTO**.
 
@@ -161,7 +161,7 @@ No período “Os projetos de lei que criam despesas obrigatórias sem estimativ
 - [ ] Errado
 
 > **Gabarito: CERTO**  
-> **Comentário**: No texto original, a oração *que criam despesas obrigatórias sem estimativa de impacto orçamentário* está sem vírgulas, classificando-se como **subordinada adjetiva restritiva** (restringe a inadequação apenas aos projetos que criam despesas sem estimativa). Ao isolá-la entre duas vírgulas, a estrutura permanece gramaticalmente correta, porém converte-se em **subordinada adjetiva explicativa**, passando a pressupor erroneamente que *todos* os projetos de lei criam despesas obrigatórias sem estimativa.
+> **Comentário**: No texto original, a oração *que criam despesas obrigatórias sem estimativa de impacto orçamentário* está sem vírgulas, classificando-se como **subordinada adjetiva restritiva** (restringe a inadequação apenas aos projetos que criam despesas sem estimativa). Ao isolá-la entre duas vírgulas, a estrutura permanece gramaticalmente correta, porém converte-se em **subordinada adjetiva explicativa**, apresentando a característica como informação adicional sobre **os projetos de lei referidos naquele contexto**, sem autorizar uma afirmação sobre todos os projetos existentes.
 
 ---
 

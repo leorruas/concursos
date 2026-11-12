@@ -14352,12 +14352,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
       "articleId": "art-b08f53d19c4a726e",
-      "conceptId": "selecao-interna-com-metodologia-publicada",
-      "mechanism": "selecao-interna-com-metodologia-publicada",
+      "conceptId": "metodologia-sem-publicacao-oficial",
+      "mechanism": "metodologia-sem-publicacao-oficial",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-b08f53d19c4a726e#Arts. 2º, §§ 3º e 4º: uma ou mais agências"
       ],
@@ -14365,11 +14365,12 @@
         "path": "3 - Materias/Comunicacao/123 - lei 12232 2010 objeto agencias e contratacao de publicidade.md",
         "section": "Arts. 2º, §§ 3º e 4º: uma ou mais agências",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
-        "locator": "art. 2º, §§ 3º e 4º"
+        "locator": "art. 2º, § 4º"
       },
-      "statement": "Se o objeto de publicidade foi adjudicado a duas agências sem divisão em itens ou contas, o órgão deve instituir seleção interna para a execução das ações e publicar a metodologia aprovada na imprensa oficial.",
-      "correctAnswer": "C",
-      "explanation": "A adjudicação múltipla nessa hipótese exige seleção interna. A metodologia deve ser aprovada pela administração e publicada."
+      "statement": "Em contratos decorrentes de adjudicação do mesmo objeto a mais de uma agência sem segregação em contas ou itens, distribuir internamente a metodologia de seleção aprovada dispensa publicá-la na imprensa oficial.",
+      "correctAnswer": "E",
+      "explanation": "A metodologia precisa de aprovação administrativa e publicação na imprensa oficial. A circulação interna não satisfaz a segunda exigência.",
+      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-guarda-contada-da-extincao",
@@ -14381,12 +14382,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
       "articleId": "art-64e9b713c8a250df",
-      "conceptId": "guarda-contada-da-extincao",
-      "mechanism": "guarda-contada-da-extincao",
+      "conceptId": "abrangencia-do-acervo",
+      "mechanism": "abrangencia-do-acervo",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Arts. 16 e 17: transparência e guarda do acervo"
       ],
@@ -14396,9 +14397,10 @@
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
         "locator": "art. 17"
       },
-      "statement": "Uma agência pode eliminar o acervo de uma peça após cinco anos de sua produção, ainda que o contrato tenha sido extinto há apenas um ano.",
+      "statement": "Se uma agência guarda os comprovantes de veiculação pelo prazo legal, pode excluir do acervo as peças produzidas durante o contrato.",
       "correctAnswer": "E",
-      "explanation": "O prazo mínimo conta da extinção do contrato. O tempo decorrido desde a produção da peça não substitui esse marco."
+      "explanation": "O acervo deve abranger tanto a comprovação dos serviços prestados quanto as peças publicitárias produzidas.",
+      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-comprovacao-de-insercao-e-valor",
@@ -14671,12 +14673,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
       "articleId": "art-64e9b713c8a250df",
-      "conceptId": "reaplicacao-negociada-em-midia",
-      "mechanism": "reaplicacao-negociada-em-midia",
+      "conceptId": "vantagem-em-compra-direta",
+      "mechanism": "vantagem-em-compra-direta",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 15: comprovação de mídia e vantagens que pertencem ao contratante"
       ],
@@ -14686,9 +14688,10 @@
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
         "locator": "art. 15, parágrafo único"
       },
-      "statement": "Se um veículo oferece uma reaplicação como vantagem negociada na compra de mídia por intermédio de agência, essa vantagem pertence ao contratante.",
+      "statement": "Se o contratante negocia diretamente com um veículo a compra de mídia e obtém um desconto, o fato de não haver intermediação de agência não retira do contratante essa vantagem.",
       "correctAnswer": "C",
-      "explanation": "O parágrafo único inclui reaplicações entre as vantagens da compra de mídia destinadas ao contratante."
+      "explanation": "O dispositivo abrange as vantagens obtidas tanto em compra direta quanto por intermédio de agência.",
+      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-criterio-novo-apos-recebimento",
@@ -14787,12 +14790,12 @@
       "unitId": "divulgacao-institucional",
       "editalRef": "14.2.4 / Divulgação Institucional / 8 / Lei nº 12.232/2010",
       "articleId": "art-64e9b713c8a250df",
-      "conceptId": "habilitacao-de-classificado-apos-julgamento",
-      "mechanism": "habilitacao-de-classificado-apos-julgamento",
+      "conceptId": "sessao-publica-de-habilitacao",
+      "mechanism": "sessao-publica-de-habilitacao",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "revisada",
       "theoryRefs": [
         "article:art-64e9b713c8a250df#Art. 11: sequência de julgamento e habilitação posterior"
       ],
@@ -14800,11 +14803,12 @@
         "path": "3 - Materias/Comunicacao/124 - lei 12232 2010 procedimento julgamento execucao e fiscalizacao.md",
         "section": "Art. 11: sequência de julgamento e habilitação posterior",
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm",
-        "locator": "art. 11, XI e XII"
+        "locator": "art. 11, XII"
       },
-      "statement": "Um licitante classificado no julgamento final das propostas ainda precisa apresentar documentos de habilitação para análise em sessão pública.",
-      "correctAnswer": "C",
-      "explanation": "A classificação leva à convocação para apresentar documentos. A análise de habilitação é etapa posterior."
+      "statement": "Depois do julgamento final das propostas, a comissão pode abrir os invólucros de habilitação dos classificados em reunião reservada se publicar depois a lista de documentos examinados.",
+      "correctAnswer": "E",
+      "explanation": "O inciso XII exige recebimento e abertura do invólucro em sessão pública. A publicidade posterior não substitui a sessão.",
+      "reviewEvidence": "Cotejo do dispositivo e reformulação após comparação com os exercícios do artigo."
     },
     {
       "id": "cam-di-imagem-individual-em-anuncio",

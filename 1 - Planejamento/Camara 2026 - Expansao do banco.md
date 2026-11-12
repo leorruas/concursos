@@ -55,3 +55,7 @@ Quarenta questões geradas sobre modelos, teorias da comunicação, midiatizaç�
 ## Lote 010 validado
 
 Quarenta questões geradas para comunicação interna, item 2 de Comunicação Social, vinculadas aos artigos 09, 48, 50, 51 e 98. Revisão editorial concluída, com três mecanismos reformulados. O seletor recuperou os 40 itens. Próximo lote: comunicação institucional, item 3 de Comunicação Social.
+
+## Lote 011 em elaboração
+
+Seis questões de comunicação institucional vinculadas aos artigos 53 a 55. Os itens cobrem identidade, imagem, reputação, diagnóstico e resposta a crises.

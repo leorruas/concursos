@@ -17752,6 +17752,168 @@
       "correctAnswer": "E",
       "explanation": "A aprovação mede reação à proposta. A autonomia depende de competência, recursos e condições efetivas de decisão.",
       "reviewEvidence": "Cotejo editorial do gabarito e da operação cognitiva com Aplicação na Câmara em 3 - Materias/Comunicacao/98 - endomarketing marketing interno e comunicacao interna.md. Lote 010: triagem lexical, integridade, sessão v3 e seleção por item do edital."
+    },
+    {
+      "id": "cam-cs-identidade-e-imagem-na-mesma-fala",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "identidade-e-imagem-na-mesma-fala",
+      "mechanism": "identidade-e-imagem-na-mesma-fala",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Mapa integrado: conceitos próximos, critérios diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Mapa integrado: conceitos próximos, critérios diferentes"
+      },
+      "statement": "Quando a direção descreve quais características considera centrais para a organização e usuários relatam como a percebem, as duas fontes podem informar objetos distintos da análise institucional.",
+      "correctAnswer": "C",
+      "explanation": "A descrição interna pode informar a identidade. O relato dos usuários informa a imagem que esse público forma."
+    },
+    {
+      "id": "cam-cs-medida-imediata-sem-durabilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "medida-imediata-sem-durabilidade",
+      "mechanism": "medida-imediata-sem-durabilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Relações temporais e causais: o que uma campanha pode demonstrar?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Relações temporais e causais: o que uma campanha pode demonstrar?"
+      },
+      "statement": "Uma melhora de avaliação obtida no dia de um evento comprova que a mudança de reputação persistirá no semestre seguinte.",
+      "correctAnswer": "E",
+      "explanation": "A avaliação imediata informa a reação no contexto medido. Persistência exige observação posterior."
+    },
+    {
+      "id": "cam-cs-reclamacoes-e-diagnostico-por-canal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-482d6ef913a0c75b",
+      "conceptId": "reclamacoes-e-diagnostico-por-canal",
+      "mechanism": "reclamacoes-e-diagnostico-por-canal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-482d6ef913a0c75b#Sinais e fontes: monitorar não é medir todo o público"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "section": "Sinais e fontes: monitorar não é medir todo o público"
+      },
+      "statement": "Se surgem reclamações repetidas sobre um serviço num canal restrito, elas podem justificar investigação mesmo sem representar estatisticamente todos os usuários.",
+      "correctAnswer": "C",
+      "explanation": "O monitoramento detecta sinais que podem orientar investigação. Estimar prevalência na população exige outro desenho."
+    },
+    {
+      "id": "cam-cs-operacao-restaurada-e-demanda-reprimida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-482d6ef913a0c75b",
+      "conceptId": "operacao-restaurada-e-demanda-reprimida",
+      "mechanism": "operacao-restaurada-e-demanda-reprimida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-482d6ef913a0c75b#Diagnóstico: cinco perguntas que não podem ser fundidas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "section": "Diagnóstico: cinco perguntas que não podem ser fundidas"
+      },
+      "statement": "Depois que o portal volta ao ar, a equipe pode concluir que todos os pedidos represados foram atendidos apenas verificando que a página inicial carrega.",
+      "correctAnswer": "E",
+      "explanation": "A restauração técnica e o tratamento dos pedidos acumulados são fatos distintos. O segundo depende de evidência sobre as solicitações."
+    },
+    {
+      "id": "cam-cs-instrucao-e-reconhecimento-do-impacto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "instrucao-e-reconhecimento-do-impacto",
+      "mechanism": "instrucao-e-reconhecimento-do-impacto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Coombs: informação instrutiva e informação de adaptação"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Coombs: informação instrutiva e informação de adaptação"
+      },
+      "statement": "Um aviso pode indicar um canal alternativo de atendimento e reconhecer a frustração das pessoas afetadas. As duas partes atendem a necessidades diferentes na resposta à crise.",
+      "correctAnswer": "C",
+      "explanation": "O canal alternativo orienta a ação. Reconhecer a frustração ajuda o público a lidar com o impacto."
+    },
+    {
+      "id": "cam-cs-atualizacao-com-verificacao-parcial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "atualizacao-com-verificacao-parcial",
+      "mechanism": "atualizacao-com-verificacao-parcial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Seis princípios CERC: rapidez e precisão coexistem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Seis princípios CERC: rapidez e precisão coexistem"
+      },
+      "statement": "Para divulgar uma atualização rapidamente, a equipe precisa apresentar como confirmada a causa que ainda está em apuração.",
+      "correctAnswer": "E",
+      "explanation": "Uma atualização pode apresentar fatos confirmados, declarar o que falta apurar e indicar quando haverá novo informe."
     }
   ]
 }

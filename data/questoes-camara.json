@@ -20505,6 +20505,195 @@
       "statement": "Marcar o perfil que republicou uma fotografia comprova sua autoria mesmo quando o perfil informa ter recebido a imagem de terceiros.",
       "correctAnswer": "E",
       "explanation": "A marcação identifica um perfil relacionado à circulação. O crédito de autoria depende de verificar a procedência da fotografia."
+    },
+    {
+      "id": "cam-cs-capa-ambigua-em-miniatura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / elementos de publicação",
+      "articleId": "art-37c8f1e42a9065bd",
+      "conceptId": "capa-ambigua-em-miniatura",
+      "mechanism": "capa-ambigua-em-miniatura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-37c8f1e42a9065bd#Capa e miniatura: promessa, orientação e legibilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/69 - capa legenda marcacao palavras chave e chamada para acao.md",
+        "section": "Capa e miniatura: promessa, orientação e legibilidade"
+      },
+      "statement": "Se uma capa é legível na arte original, mas o nome do serviço desaparece na miniatura, verificar a peça no tamanho em que será exibida ajuda a avaliar se o público consegue identificá-la.",
+      "correctAnswer": "C",
+      "explanation": "A miniatura tem outras condições de leitura. Conferir a arte em tamanho integral não reproduz a experiência no destino."
+    },
+    {
+      "id": "cam-cs-card-com-referencia-consultavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / formatos",
+      "articleId": "art-5c4d7e9b1a8260f3",
+      "conceptId": "card-com-referencia-consultavel",
+      "mechanism": "card-com-referencia-consultavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5c4d7e9b1a8260f3#Card ou peça estática: síntese e consulta rápida"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md",
+        "section": "Card ou peça estática: síntese e consulta rápida"
+      },
+      "statement": "Um card pode destacar a data de um evento e encaminhar o público à programação oficial quando a agenda completa precisa permanecer consultável e atualizada.",
+      "correctAnswer": "C",
+      "explanation": "O card sintetiza a informação imediata. A referência persistente permite consultar os detalhes vigentes."
+    },
+    {
+      "id": "cam-cs-video-corte-oculta-verificacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / formatos",
+      "articleId": "art-5c4d7e9b1a8260f3",
+      "conceptId": "video-corte-oculta-verificacao",
+      "mechanism": "video-corte-oculta-verificacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5c4d7e9b1a8260f3#Vídeo gravado: demonstração, montagem e duração"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md",
+        "section": "Vídeo gravado: demonstração, montagem e duração"
+      },
+      "statement": "Um tutorial que corta a etapa de confirmação entre o envio do formulário e a emissão do protocolo demonstra todas as ações necessárias para concluir o procedimento.",
+      "correctAnswer": "E",
+      "explanation": "O corte omite uma etapa essencial. A montagem precisa mostrar a confirmação ou explicá-la de modo que o público possa executar a tarefa."
+    },
+    {
+      "id": "cam-cs-contingencia-com-canal-independente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / formatos",
+      "articleId": "art-5c4d7e9b1a8260f3",
+      "conceptId": "contingencia-com-canal-independente",
+      "mechanism": "contingencia-com-canal-independente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-5c4d7e9b1a8260f3#Live e transmissão ao vivo: simultaneidade, moderação e contingência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/68 - formatos editoriais cards carrosseis videos stories e lives.md",
+        "section": "Live e transmissão ao vivo: simultaneidade, moderação e contingência"
+      },
+      "statement": "Se a transmissão cair, uma mensagem em outro canal oficial pode informar ao público onde acompanhar a retomada.",
+      "correctAnswer": "C",
+      "explanation": "O canal de contingência precisa permanecer disponível quando o fluxo principal falha."
+    },
+    {
+      "id": "cam-cs-escala-proporcional-nao-preenche-quadro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / proporções",
+      "articleId": "art-bb9305cf871d42ae",
+      "conceptId": "escala-proporcional-nao-preenche-quadro",
+      "mechanism": "escala-proporcional-nao-preenche-quadro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-bb9305cf871d42ae#Proporção, resolução, orientação e enquadramento"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/67 - plataformas digitais publicos linguagens e proporcoes.md",
+        "section": "Proporção, resolução, orientação e enquadramento"
+      },
+      "statement": "Redimensionar proporcionalmente uma peça 4:5 para que sua largura seja igual à largura de um quadro 9:16 garante que ela também preencha toda a altura.",
+      "correctAnswer": "E",
+      "explanation": "Ao igualar as larguras, a peça mantém altura de 1,25 vez a largura. O quadro requer cerca de 1,78 vez a largura. Sobram áreas verticais se não houver recomposição."
+    },
+    {
+      "id": "cam-cs-correcao-entre-canais-com-copias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / produção colaborativa",
+      "articleId": "art-8f0c2e19a5d74b6c",
+      "conceptId": "correcao-entre-canais-com-copias",
+      "mechanism": "correcao-entre-canais-com-copias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-8f0c2e19a5d74b6c#Controle de versões, correções e manutenção"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/66 - producao colaborativa governanca e aprovacao de postagens.md",
+        "section": "Controle de versões, correções e manutenção"
+      },
+      "statement": "Se a equipe corrige o prazo em um post que já foi copiado para outro perfil oficial, é pertinente verificar também a cópia.",
+      "correctAnswer": "C",
+      "explanation": "A correção no primeiro perfil não atualiza uma publicação independente. O controle de versões precisa alcançar os canais que distribuíram a orientação."
+    },
+    {
+      "id": "cam-cs-pauta-por-duvidas-no-atendimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 5 / planejamento editorial",
+      "articleId": "art-a72f906bde4318c5",
+      "conceptId": "pauta-por-duvidas-no-atendimento",
+      "mechanism": "pauta-por-duvidas-no-atendimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a72f906bde4318c5#Fontes das pautas: agenda institucional, necessidades e escuta"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/65 - planejamento editorial para redes sociais oficiais pautas linhas e calendario.md",
+        "section": "Fontes das pautas: agenda institucional, necessidades e escuta"
+      },
+      "statement": "Uma dúvida recorrente registrada no atendimento pode gerar uma pauta de serviço mesmo sem haver evento novo na agenda institucional.",
+      "correctAnswer": "C",
+      "explanation": "As necessidades informacionais do público também orientam a seleção de pautas. A agenda institucional é uma entre as fontes possíveis."
     }
   ]
 }

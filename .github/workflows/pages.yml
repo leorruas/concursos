@@ -76,6 +76,8 @@ jobs:
         run: node scripts/test-glossary.js
       - name: Verificar alimentação dos flashcards pelo glossário
         run: node scripts/test-glossary-flashcards.js
+      - name: Verificar glossários por concurso e navegação mobile
+        run: node scripts/test-multi-glossary.js
       - name: Testar recall mínimo da busca
         run: node scripts/test-search-index.js
       - name: Testar deep links da busca

@@ -81,3 +81,7 @@ Quarenta itens sobre pedidos de informação, fornecimento direto, acesso parcia
 Três itens revisados e reformulados para evitar repetição de acesso parcial, certidão de negativa e cópia de documento frágil.
 
 Seleção dos 40 itens confirmada. Próximo lote: comunicação pública, governamental e político-partidária.
+
+## Lote 015 em elaboração
+
+Cinco itens sobre comunicação pública, governamental e político-partidária, com referência ao artigo 71.

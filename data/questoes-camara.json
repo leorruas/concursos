@@ -22312,6 +22312,141 @@
       "correctAnswer": "E",
       "explanation": "Informar sobre tramitação e protocolizar requerimentos são atribuições distintas do serviço de informações ao cidadão.",
       "reviewEvidence": "Lote 014: cotejo do gabarito com art. 9º, I, b e c na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
+    },
+    {
+      "id": "cam-cs-publica-com-organizacao-civil",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "publica-com-organizacao-civil",
+      "mechanism": "publica-com-organizacao-civil",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "statement": "Uma associação comunitária pode participar de um processo de comunicação pública ao organizar um debate aberto sobre mudanças no transporte, ainda que a iniciativa não tenha partido de um órgão estatal.",
+      "correctAnswer": "C",
+      "explanation": "O enquadramento considera interesse coletivo e condições de participação. O Estado pode participar do processo sem ser seu único ator possível."
+    },
+    {
+      "id": "cam-cs-origem-governamental-sem-classificacao-exclusiva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "origem-governamental-sem-classificacao-exclusiva",
+      "mechanism": "origem-governamental-sem-classificacao-exclusiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Matriz: fronteiras entre as categorias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Matriz: fronteiras entre as categorias"
+      },
+      "statement": "Uma orientação sobre vacinação produzida por uma secretaria deve ser classificada exclusivamente como governamental, ainda que esclareça o acesso ao serviço e permita aos cidadãos encaminhar dúvidas.",
+      "correctAnswer": "E",
+      "explanation": "A origem institucional permite reconhecer a dimensão governamental. A finalidade informativa e a interação com os cidadãos também permitem analisá-la sob a perspectiva da comunicação pública."
+    },
+    {
+      "id": "cam-cs-escuta-sem-devolutiva-visivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "escuta-sem-devolutiva-visivel",
+      "mechanism": "escuta-sem-devolutiva-visivel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Autor: Jorge Duarte e a perspectiva do cidadão"
+      },
+      "statement": "Abrir uma caixa de perguntas sobre um serviço assegura, por si só, que a instituição estabeleceu diálogo com os cidadãos, mesmo que ninguém examine as manifestações recebidas.",
+      "correctAnswer": "E",
+      "explanation": "O canal cria uma possibilidade de participação. O diálogo exige considerar o que foi recebido e oferecer resposta ou encaminhamento."
+    },
+    {
+      "id": "cam-cs-conteudo-partidario-e-autoria-visivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "conteudo-partidario-e-autoria-visivel",
+      "mechanism": "conteudo-partidario-e-autoria-visivel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Aplicação editorial: autoria, canal, pluralismo e responsabilidade"
+      },
+      "statement": "Ao noticiar um debate, uma publicação institucional pode identificar de qual partido veio cada posição sem transformar essas posições na voz oficial do órgão.",
+      "correctAnswer": "C",
+      "explanation": "A atribuição informa quem falou. A voz institucional preserva a distinção entre relato das posições e adesão a elas."
+    },
+    {
+      "id": "cam-cs-acesso-depois-da-divulgacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 7 / comunicação pública, governamental e político-partidária",
+      "articleId": "art-6e9c025b8d7f341a",
+      "conceptId": "acesso-depois-da-divulgacao",
+      "mechanism": "acesso-depois-da-divulgacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-6e9c025b8d7f341a#Autor: Jorge Duarte e a perspectiva do cidadão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria.md",
+        "section": "Autor: Jorge Duarte e a perspectiva do cidadão"
+      },
+      "statement": "Para avaliar uma orientação de interesse coletivo, é pertinente verificar se cidadãos com diferentes condições de acesso conseguem localizar a informação necessária, além de contar quantas vezes ela foi publicada.",
+      "correctAnswer": "C",
+      "explanation": "A perspectiva do cidadão considera a possibilidade de obter e usar a informação. A contagem de publicações mede a atividade de divulgação."
     }
   ]
 }

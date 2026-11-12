@@ -9812,7 +9812,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
       ],
@@ -9823,7 +9823,7 @@
       "statement": "Uma instituição pode manter a identidade visual ao adotar assinaturas horizontais e verticais para suportes distintos, desde que ambas sigam as regras do sistema.",
       "correctAnswer": "C",
       "explanation": "A identidade visual admite versões previstas para diferentes condições de aplicação. A coerência vem das relações e regras compartilhadas.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Identidade visual como sistema, não peça isolada em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Identidade visual como sistema, não peça isolada em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-mudanca-de-sinal-sem-mudanca-de-percepcao",
@@ -9840,7 +9840,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Seis objetos distintos: evitar troca de categoria"
       ],
@@ -9851,7 +9851,7 @@
       "statement": "Um documento interno descreve como a organização deseja se apresentar. Sua publicação basta para medir se o público passou a associá-la a esses atributos.",
       "correctAnswer": "E",
       "explanation": "O documento informa atributos pretendidos. Medir associações externas requer evidência obtida junto ao público.",
-      "reviewEvidence": "Cotejo com a seção Seis objetos distintos: evitar troca de categoria e revisão do mecanismo em relação aos exercícios do artigo."
+      "reviewEvidence": "Cotejo com a seção Seis objetos distintos: evitar troca de categoria e revisão do mecanismo em relação aos exercícios do artigo. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-assinatura-reconhecida-mensagem-inacessivel",
@@ -9868,7 +9868,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Acessibilidade: marca reconhecível e mensagem utilizável"
       ],
@@ -9879,7 +9879,7 @@
       "statement": "Uma peça pode preservar o reconhecimento da marca e ainda falhar em acessibilidade se o prazo de inscrição só puder ser lido em uma imagem sem alternativa textual.",
       "correctAnswer": "C",
       "explanation": "Reconhecer a assinatura e recuperar a informação operacional são tarefas diferentes. A conformidade do símbolo não garante acesso ao prazo.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Acessibilidade: marca reconhecível e mensagem utilizável em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Acessibilidade: marca reconhecível e mensagem utilizável em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-notoriedade-e-qualidade-percebida",
@@ -9896,7 +9896,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Significados não são produzidos apenas pela publicidade"
       ],
@@ -9907,7 +9907,7 @@
       "statement": "Uma marca muito conhecida em um serviço presencial pode enfrentar resistência ao estrear um canal digital se o público associar seu nome a processos burocráticos.",
       "correctAnswer": "C",
       "explanation": "A notoriedade facilita a identificação, mas as associações existentes também influenciam a aceitação de uma oferta ligada à marca.",
-      "reviewEvidence": "Cotejo com a seção Aaker: dimensões do valor de marca e suas fronteiras e revisão do mecanismo em relação aos exercícios do artigo."
+      "reviewEvidence": "Cotejo com a seção Aaker: dimensões do valor de marca e suas fronteiras e revisão do mecanismo em relação aos exercícios do artigo. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-resposta-diferencial-com-oferta-identica",
@@ -9924,7 +9924,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Keller: modelo de valor de marca baseado no consumidor"
       ],
@@ -9935,7 +9935,7 @@
       "statement": "Se participantes distribuídos aleatoriamente avaliam a mesma oferta de maneira diferente quando ela é apresentada com uma marca conhecida ou sem marca, a diferença é compatível com o efeito do conhecimento da marca sobre a resposta.",
       "correctAnswer": "C",
       "explanation": "O desenho mantém a oferta e varia a identificação. No modelo de Keller, a resposta diferencial à oferta é central para o valor de marca baseado no consumidor.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Keller: modelo de valor de marca baseado no consumidor em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Keller: modelo de valor de marca baseado no consumidor em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-recuperacao-e-coerencia-da-promessa",
@@ -9952,7 +9952,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Promessa, entrega e recuperação de serviço"
       ],
@@ -9963,7 +9963,7 @@
       "statement": "Uma marca promete resposta em 24 horas. Se o atendimento demora uma semana de forma recorrente, repetir a promessa com mais intensidade resolve a incoerência entre posicionamento e experiência.",
       "correctAnswer": "E",
       "explanation": "A incoerência está no desempenho do serviço. Corrigi-la exige atuar sobre a entrega ou ajustar a promessa a uma condição realizável.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Promessa, entrega e recuperação de serviço em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Promessa, entrega e recuperação de serviço em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-governanca-com-responsabilidades",
@@ -9980,7 +9980,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Estrutura de governança: decidir, executar e verificar"
       ],
@@ -9991,7 +9991,7 @@
       "statement": "Definir quem pode aprovar exceções e quem monitora seu uso faz parte da governança de marca.",
       "correctAnswer": "C",
       "explanation": "A governança distribui competências de decisão, execução e verificação. O manual pode apoiar esse processo, mas não substitui a atribuição de responsabilidades.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Estrutura de governança: decidir, executar e verificar em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Estrutura de governança: decidir, executar e verificar em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-conformidade-sem-reconhecimento-da-origem",
@@ -10008,7 +10008,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Auditoria de marca: conformidade, experiência e percepção"
       ],
@@ -10019,7 +10019,7 @@
       "statement": "Uma auditoria confirma que todas as peças seguem o manual visual, mas um teste mostra que os usuários não sabem qual órgão oferece o serviço. A conformidade visual resolve, por si, a dúvida sobre a origem.",
       "correctAnswer": "E",
       "explanation": "A auditoria e o teste medem resultados distintos. A dúvida observada exige examinar a clareza da assinatura e sua interpretação pelos usuários.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Auditoria de marca: conformidade, experiência e percepção em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Auditoria de marca: conformidade, experiência e percepção em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-assinatura-revela-vinculo",
@@ -10036,7 +10036,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Arquitetura de marca: organização dos sinais e relações"
       ],
@@ -10047,7 +10047,7 @@
       "statement": "Uma instituição que usa uma única marca para todos os serviços pode dar a eles nomes descritivos sem necessariamente criar uma marca independente para cada serviço.",
       "correctAnswer": "C",
       "explanation": "Um nome funcional pode distinguir o serviço dentro da mesma arquitetura de marca, sem autonomia de identidade ou assinatura.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Arquitetura de marca: organização dos sinais e relações em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Arquitetura de marca: organização dos sinais e relações em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-elemento-sonoro-de-marca",
@@ -10064,7 +10064,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Elementos de marca: reconhecimento, associação e aplicação"
       ],
@@ -10075,7 +10075,7 @@
       "statement": "Todo elemento de identificação de marca precisa ser visual para funcionar como sinal de reconhecimento.",
       "correctAnswer": "E",
       "explanation": "Uma assinatura sonora também pode ajudar o público a reconhecer a origem da comunicação.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Elementos de marca: reconhecimento, associação e aplicação em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Elementos de marca: reconhecimento, associação e aplicação em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-coerencia-com-informacao-hierarquizada",
@@ -10092,7 +10092,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
       ],
@@ -10103,7 +10103,7 @@
       "statement": "Em uma série de avisos, manter tipografia e alinhamentos comuns e reservar uma cor adicional para prazos pode preservar a coerência visual se a regra for prevista no sistema.",
       "correctAnswer": "C",
       "explanation": "Um sistema admite variação orientada pela função. A cor destaca a informação sem eliminar os elementos compartilhados.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Identidade visual como sistema, não peça isolada em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Identidade visual como sistema, não peça isolada em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-qualidade-percebida-e-desempenho-medido",
@@ -10120,7 +10120,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Aaker: dimensões do valor de marca e suas fronteiras"
       ],
@@ -10131,7 +10131,7 @@
       "statement": "Se um ensaio técnico comprova redução no tempo de atendimento, a dimensão qualidade percebida de Aaker está demonstrada mesmo sem informação sobre como o público avalia o serviço.",
       "correctAnswer": "E",
       "explanation": "O ensaio mede desempenho. A dimensão qualidade percebida exige evidência do julgamento do público.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Aaker: dimensões do valor de marca e suas fronteiras em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Aaker: dimensões do valor de marca e suas fronteiras em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-teste-de-posicionamento-sem-sugestao",
@@ -10148,7 +10148,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Posicionamento: intenção gerencial e percepção externa"
       ],
@@ -10159,7 +10159,7 @@
       "statement": "Uma organização que deseja ser percebida como acessível pode comparar esse objetivo com associações espontâneas do público, mesmo que os entrevistados não recebam a lista de atributos pretendidos.",
       "correctAnswer": "C",
       "explanation": "O posicionamento desejado é uma decisão interna. Associações espontâneas ajudam a observar a percepção sem induzir os atributos da estratégia.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Posicionamento: intenção gerencial e percepção externa em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Posicionamento: intenção gerencial e percepção externa em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-associacao-fora-da-campanha",
@@ -10176,7 +10176,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Significados não são produzidos apenas pela publicidade"
       ],
@@ -10187,7 +10187,7 @@
       "statement": "Uma experiência de atendimento pode influenciar a imagem do serviço somente se o visitante tiver visto a campanha que divulga o serviço.",
       "correctAnswer": "E",
       "explanation": "O contato direto pode gerar associações independentemente da exposição à publicidade.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Significados não são produzidos apenas pela publicidade em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Significados não são produzidos apenas pela publicidade em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-extensao-versus-marca-conjunta",
@@ -10204,7 +10204,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Extensão de marca, submarca, co-branding e licenciamento"
       ],
@@ -10215,7 +10215,7 @@
       "statement": "Usar uma marca já conhecida em uma nova categoria de serviço pode constituir extensão mesmo sem envolver uma segunda organização ou uma segunda marca.",
       "correctAnswer": "C",
       "explanation": "A extensão leva a marca existente a outra oferta. A presença de duas marcas seria relevante para uma estratégia de marca conjunta.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Extensão de marca, submarca, co-branding e licenciamento em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Extensão de marca, submarca, co-branding e licenciamento em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-portfolio-reconhecimento-e-confusao",
@@ -10232,7 +10232,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Avaliação do portfólio: como distinguir resultado de aparência"
       ],
@@ -10243,7 +10243,7 @@
       "statement": "Após uma reorganização, o reconhecimento das marcas dos programas subiu, mas mais usuários passaram a atribuir serviços ao programa errado. O aumento do reconhecimento, por si, comprova que a reorganização cumpriu a meta de esclarecer a origem dos serviços.",
       "correctAnswer": "E",
       "explanation": "Reconhecimento e atribuição correta são resultados distintos. A meta exige examinar a identificação da origem, que piorou mesmo com maior reconhecimento.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Avaliação do portfólio: como distinguir resultado de aparência em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Avaliação do portfólio: como distinguir resultado de aparência em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-reconhecimento-sem-distintividade",
@@ -10260,7 +10260,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Elementos de marca: reconhecimento, associação e aplicação"
       ],
@@ -10271,7 +10271,7 @@
       "statement": "Se uma cor ajuda a reconhecer um programa, qualquer uso dessa cor por outra organização necessariamente identifica o mesmo programa.",
       "correctAnswer": "E",
       "explanation": "O reconhecimento depende da combinação de sinais e do contexto. Uma cor compartilhada pode ser insuficiente para distinguir a origem.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Elementos de marca: reconhecimento, associação e aplicação em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Elementos de marca: reconhecimento, associação e aplicação em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-manual-aplicacao-sobre-fotografia",
@@ -10288,7 +10288,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
       ],
@@ -10299,7 +10299,7 @@
       "statement": "Uma peça terá assinatura ampla no cartaz e uma versão reduzida no ícone do aplicativo. É pertinente testar a versão reduzida no tamanho real de exibição, mesmo que a ampla esteja legível no cartaz.",
       "correctAnswer": "C",
       "explanation": "As condições de aplicação são diferentes. A legibilidade no cartaz não demonstra que os detalhes serão distinguíveis no ícone.",
-      "reviewEvidence": "Cotejo com a seção Identidade visual como sistema, não peça isolada e revisão do mecanismo em relação aos exercícios do artigo."
+      "reviewEvidence": "Cotejo com a seção Identidade visual como sistema, não peça isolada e revisão do mecanismo em relação aos exercícios do artigo. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-identidade-e-reputacao-em-transicao",
@@ -10316,7 +10316,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Seis objetos distintos: evitar troca de categoria"
       ],
@@ -10327,7 +10327,7 @@
       "statement": "Uma instituição pode adotar uma nova identidade visual e ainda carregar avaliações consolidadas formadas sob a identidade anterior.",
       "correctAnswer": "C",
       "explanation": "A identidade reúne sinais geridos pela organização. A reputação decorre de avaliações acumuladas e pode persistir após a troca desses sinais.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Seis objetos distintos: evitar troca de categoria em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Seis objetos distintos: evitar troca de categoria em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-ordem-de-assinatura-e-papel",
@@ -10344,7 +10344,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Arquitetura de marca: organização dos sinais e relações"
       ],
@@ -10355,7 +10355,7 @@
       "statement": "Se duas assinaturas aparecem lado a lado em uma peça, a posição delas basta para determinar quem administra e quem financia o programa.",
       "correctAnswer": "E",
       "explanation": "A ordem visual pode comunicar papéis segundo uma regra conhecida, mas a responsabilidade precisa ser identificada por evidência ou informação explícita.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Arquitetura de marca: organização dos sinais e relações em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Arquitetura de marca: organização dos sinais e relações em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-notoriedade-e-associacao-separadas",
@@ -10372,7 +10372,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Aaker: dimensões do valor de marca e suas fronteiras"
       ],
@@ -10383,7 +10383,7 @@
       "statement": "Uma pessoa pode identificar o nome de uma marca sem conseguir associá-la a um atributo específico.",
       "correctAnswer": "C",
       "explanation": "Notoriedade mede o conhecimento do nome. Associações dizem respeito aos significados vinculados a ele.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Aaker: dimensões do valor de marca e suas fronteiras em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Aaker: dimensões do valor de marca e suas fronteiras em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-saliencia-na-ocasiao-de-uso",
@@ -10400,7 +10400,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Keller: modelo de valor de marca baseado no consumidor"
       ],
@@ -10411,7 +10411,7 @@
       "statement": "Uma marca pode ser reconhecida quando seu nome é exibido e ainda ter baixa saliência em uma situação de uso se poucas pessoas a evocam espontaneamente nessa ocasião.",
       "correctAnswer": "C",
       "explanation": "A saliência considera a facilidade e as situações em que a marca vem à mente. O reconhecimento assistido revela somente parte dessa acessibilidade mental.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Keller: modelo de valor de marca baseado no consumidor em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Keller: modelo de valor de marca baseado no consumidor em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-transferencia-entre-modelos",
@@ -10428,7 +10428,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Aaker × Keller: mesmo tema, estruturas diferentes"
       ],
@@ -10439,7 +10439,7 @@
       "statement": "Como Aaker e Keller tratam do valor de marca, medir uma dimensão de Aaker permite atribuir automaticamente ao público o estágio de ressonância de Keller.",
       "correctAnswer": "E",
       "explanation": "Os modelos organizam o conceito de modos distintos. Ressonância requer evidência da natureza e intensidade da relação com a marca.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Aaker × Keller: mesmo tema, estruturas diferentes em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Aaker × Keller: mesmo tema, estruturas diferentes em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-publicos-com-leituras-opostas",
@@ -10456,7 +10456,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Posicionamento: intenção gerencial e percepção externa"
       ],
@@ -10467,7 +10467,7 @@
       "statement": "Uma organização quer ser percebida como próxima. Em uma amostra, usuários frequentes a descrevem assim, mas usuários ocasionais a consideram distante. Se a média dos dois grupos melhorou, o posicionamento pretendido foi alcançado nos dois públicos.",
       "correctAnswer": "E",
       "explanation": "A média pode subir mesmo com percepções divergentes. A conclusão sobre cada público depende da medida desagregada e do critério de sucesso adotado.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Posicionamento: intenção gerencial e percepção externa em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Posicionamento: intenção gerencial e percepção externa em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-assinatura-e-atribuicao-de-servico",
@@ -10484,7 +10484,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Arquitetura: quem assina cada serviço?"
       ],
@@ -10495,7 +10495,7 @@
       "statement": "Uma rede oferece serviços com nomes próprios. Repetir a assinatura da instituição responsável pode preservar a identificação de cada serviço e tornar sua origem comum mais fácil de reconhecer.",
       "correctAnswer": "C",
       "explanation": "O endosso pode explicitar o vínculo sem eliminar os nomes particulares. O efeito depende de como o público interpreta os sinais.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Arquitetura: quem assina cada serviço? em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Arquitetura: quem assina cada serviço? em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-coassinatura-e-licenciamento",
@@ -10512,7 +10512,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Extensão de marca, submarca, co-branding e licenciamento"
       ],
@@ -10523,7 +10523,7 @@
       "statement": "A coassinatura de uma peça por duas marcas basta para concluir que uma licenciou a outra a usar seu sinal em qualquer produto futuro.",
       "correctAnswer": "E",
       "explanation": "A presença conjunta identifica uma colaboração naquele contexto. A autorização de uso tem escopo próprio e precisa ser demonstrada.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Extensão de marca, submarca, co-branding e licenciamento em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Extensão de marca, submarca, co-branding e licenciamento em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-excecao-controlada-de-aplicacao",
@@ -10540,7 +10540,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Consistência: sistemas coerentes e variações legítimas"
       ],
@@ -10551,7 +10551,7 @@
       "statement": "Se um modelo oficial contém um endereço desatualizado, substituir a cor da assinatura em todas as peças corrige a inconsistência que impede o público de acessar o serviço.",
       "correctAnswer": "E",
       "explanation": "A atualização exige corrigir a informação na fonte e nas peças derivadas. A cor da assinatura não corrige o endereço.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Consistência: sistemas coerentes e variações legítimas em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Consistência: sistemas coerentes e variações legítimas em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-portfolio-duplicacao-operacional",
@@ -10568,7 +10568,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Avaliação do portfólio: como distinguir resultado de aparência"
       ],
@@ -10579,7 +10579,7 @@
       "statement": "Dois programas com marcas visualmente distintas oferecem o mesmo serviço ao mesmo público e mantêm fluxos separados. A distinção visual basta para demonstrar que a separação reduz duplicação operacional.",
       "correctAnswer": "E",
       "explanation": "Sinais diferentes podem coexistir com sobreposição de serviços. Avaliar duplicação exige comparar atribuições, fluxos e recursos utilizados.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Avaliação do portfólio: como distinguir resultado de aparência em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Avaliação do portfólio: como distinguir resultado de aparência em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-logotipo-como-sinal",
@@ -10596,7 +10596,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Seis objetos distintos: evitar troca de categoria"
       ],
@@ -10607,7 +10607,7 @@
       "statement": "Um logotipo pode ser um elemento de identificação de marca.",
       "correctAnswer": "C",
       "explanation": "O logotipo é um sinal visual. A marca também envolve outros sinais e significados associados.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Seis objetos distintos: evitar troca de categoria em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Seis objetos distintos: evitar troca de categoria em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-cor-como-sinal-unico-de-prazo",
@@ -10624,7 +10624,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Acessibilidade: marca reconhecível e mensagem utilizável"
       ],
@@ -10635,7 +10635,7 @@
       "statement": "Em um aviso, identificar inscrições encerradas apenas pela cor da marca garante que todo usuário consiga distinguir os prazos.",
       "correctAnswer": "E",
       "explanation": "Se a cor for o único sinal, parte do público pode não distinguir os estados. Um rótulo explícito oferece outro meio de identificação.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Acessibilidade: marca reconhecível e mensagem utilizável em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Acessibilidade: marca reconhecível e mensagem utilizável em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-reconhecimento-de-nome-e-simbolo",
@@ -10652,7 +10652,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Elementos de marca: reconhecimento, associação e aplicação"
       ],
@@ -10663,7 +10663,7 @@
       "statement": "Para saber se um símbolo funciona sem o nome escrito, é pertinente testar seu reconhecimento isoladamente e também na assinatura completa.",
       "correctAnswer": "C",
       "explanation": "O teste isolado permite observar o desempenho do símbolo. Compará-lo à assinatura completa ajuda a verificar a contribuição do nome.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Elementos de marca: reconhecimento, associação e aplicação em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Elementos de marca: reconhecimento, associação e aplicação em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-uso-de-modelo-antigo-no-acervo",
@@ -10680,7 +10680,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a71d4c96e20b583f#Identidade visual como sistema, não peça isolada"
       ],
@@ -10691,7 +10691,7 @@
       "statement": "Ao mudar de identidade visual, substituir o logotipo de documentos históricos arquivados é condição necessária para aplicar com consistência o novo sistema às peças produzidas daqui em diante.",
       "correctAnswer": "E",
       "explanation": "Peças novas e acervo histórico têm funções diferentes. É possível estabelecer uma data de adoção e preservar os documentos originais.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Identidade visual como sistema, não peça isolada em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Identidade visual como sistema, não peça isolada em 3 - Materias/Comunicacao/109 - marca conceito elementos e identidade visual.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-ressonancia-e-vinculo",
@@ -10708,7 +10708,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Keller: modelo de valor de marca baseado no consumidor"
       ],
@@ -10719,7 +10719,7 @@
       "statement": "A ressonância, no modelo de Keller, diz respeito à natureza do vínculo do consumidor com a marca.",
       "correctAnswer": "C",
       "explanation": "A ressonância trata da relação com a marca e inclui a intensidade e a atividade do vínculo.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Keller: modelo de valor de marca baseado no consumidor em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Keller: modelo de valor de marca baseado no consumidor em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-medida-comportamental-e-restricao",
@@ -10736,7 +10736,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Aaker: dimensões do valor de marca e suas fronteiras"
       ],
@@ -10747,7 +10747,7 @@
       "statement": "Se os usuários recorrem repetidamente a uma marca por ser a única disponível, a frequência de uso identifica sozinha a intensidade da preferência pela marca.",
       "correctAnswer": "E",
       "explanation": "A restrição de oferta explica a recorrência mesmo sem preferência. Uma interpretação de lealdade exige evidência adicional.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Aaker: dimensões do valor de marca e suas fronteiras em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Aaker: dimensões do valor de marca e suas fronteiras em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-desempenho-e-imaginario",
@@ -10764,7 +10764,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Keller: modelo de valor de marca baseado no consumidor"
       ],
@@ -10775,7 +10775,7 @@
       "statement": "Uma pessoa que associa uma marca ao grupo social que costuma usá-la oferece evidência sobre o imaginário da marca, mesmo sem avaliar sua durabilidade.",
       "correctAnswer": "C",
       "explanation": "A associação com perfil de usuários pertence ao imaginário. Durabilidade se refere ao desempenho funcional.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Keller: modelo de valor de marca baseado no consumidor em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Keller: modelo de valor de marca baseado no consumidor em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-reparo-operacional-e-reputacao",
@@ -10792,7 +10792,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-b63e19a8c4027f5d#Promessa, entrega e recuperação de serviço"
       ],
@@ -10803,7 +10803,7 @@
       "statement": "Após uma falha, uma organização corrige o serviço e informa aos afetados como pedir reparação. Se o tempo de resposta volta ao padrão, esse dado demonstra que o público recuperou a confiança.",
       "correctAnswer": "E",
       "explanation": "O tempo de resposta indica recuperação operacional. A confiança é uma percepção que precisa ser medida junto ao público, especialmente entre pessoas afetadas.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Promessa, entrega e recuperação de serviço em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Promessa, entrega e recuperação de serviço em 3 - Materias/Comunicacao/110 - branding significados experiencia e valor de marca.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-registro-de-excecoes",
@@ -10820,7 +10820,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Estrutura de governança: decidir, executar e verificar"
       ],
@@ -10831,7 +10831,7 @@
       "statement": "Registrar a duração e o motivo de uma exceção ao manual ajuda a governança da marca a decidir se a exceção deve ser renovada ou incorporada ao padrão.",
       "correctAnswer": "C",
       "explanation": "O registro permite verificar o uso, avaliar seus efeitos e distinguir uma autorização temporária de mudança permanente.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Estrutura de governança: decidir, executar e verificar em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Estrutura de governança: decidir, executar e verificar em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-submarca-e-vinculo-explicito",
@@ -10848,7 +10848,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Extensão de marca, submarca, co-branding e licenciamento"
       ],
@@ -10859,7 +10859,7 @@
       "statement": "Uma submarca pode ter nome próprio e manter vínculo explícito com a marca principal.",
       "correctAnswer": "C",
       "explanation": "A submarca distingue uma oferta e preserva sua associação com a marca principal.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Extensão de marca, submarca, co-branding e licenciamento em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Extensão de marca, submarca, co-branding e licenciamento em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-amostra-com-aplicacoes-fora-do-modelo",
@@ -10876,7 +10876,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Auditoria de marca: conformidade, experiência e percepção"
       ],
@@ -10887,7 +10887,7 @@
       "statement": "Uma auditoria pretende estimar conformidade de peças publicadas em todos os canais. Se coleta apenas as peças que passaram por aprovação central, seu resultado representa também as publicações locais que dispensam esse fluxo.",
       "correctAnswer": "E",
       "explanation": "A seleção exclui justamente um fluxo de produção com controles diferentes. Para representar todos os canais, é preciso incluir as publicações locais no desenho da auditoria.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Auditoria de marca: conformidade, experiência e percepção em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Auditoria de marca: conformidade, experiência e percepção em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     },
     {
       "id": "cam-di-migracao-com-continuidade-de-busca",
@@ -10904,7 +10904,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c42e9b761d30f85a#Avaliação do portfólio: como distinguir resultado de aparência"
       ],
@@ -10915,7 +10915,7 @@
       "statement": "Ao renomear um programa que o público ainda busca pelo nome antigo, uma equipe pode preservar redirecionamentos e medir buscas concluídas pelos dois nomes durante a transição.",
       "correctAnswer": "C",
       "explanation": "O redirecionamento liga as associações anteriores ao novo nome. A conclusão de buscas mede se a transição preservou o acesso, além de verificar o reconhecimento do novo sinal.",
-      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Avaliação do portfólio: como distinguir resultado de aparência em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md."
+      "reviewEvidence": "Cotejo editorial do gabarito, comentário e mecanismo com Avaliação do portfólio: como distinguir resultado de aparência em 3 - Materias/Comunicacao/111 - gerenciamento de marca arquitetura consistencia e avaliacao.md. Lote 004: cotejo com os exercícios dos artigos 109 a 111, triagem lexical com avaliação editorial dos pares sinalizados e testes de integridade e sessão v3."
     }
   ]
 }

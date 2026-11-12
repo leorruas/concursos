@@ -18562,6 +18562,276 @@
       "statement": "Se o prazo divulgado no primeiro aviso estava errado, indicar na atualização qual informação mudou e quando ajuda o público a identificar a orientação vigente.",
       "correctAnswer": "C",
       "explanation": "Uma correção explícita permite distinguir versões e reduz a chance de continuar usando a informação anterior."
+    },
+    {
+      "id": "cam-cs-identidade-com-referencial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "identidade-com-referencial",
+      "mechanism": "identidade-com-referencial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Mapa integrado: conceitos próximos, critérios diferentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Mapa integrado: conceitos próximos, critérios diferentes"
+      },
+      "statement": "Para verificar se uma característica distingue a instituição, é pertinente compará-la com organizações que exercem funções semelhantes.",
+      "correctAnswer": "C",
+      "explanation": "A distintividade exige um referencial. Um atributo pode ser importante internamente e comum no conjunto comparado."
+    },
+    {
+      "id": "cam-cs-reputacao-e-mudanca-de-amostra",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "reputacao-e-mudanca-de-amostra",
+      "mechanism": "reputacao-e-mudanca-de-amostra",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Fombrun (1996): reputação e avaliação acumulada"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Fombrun (1996): reputação e avaliação acumulada"
+      },
+      "statement": "Uma sondagem inicial ouve principalmente usuários frequentes. A segunda ouve sobretudo pessoas sem contato direto. Se a avaliação média cai, a diferença identifica a mudança de reputação entre usuários frequentes.",
+      "correctAnswer": "E",
+      "explanation": "A composição mudou e o agregado não identifica a variação entre usuários frequentes. A comparação exige examinar esse grupo nas duas coletas com medidas compatíveis."
+    },
+    {
+      "id": "cam-cs-relato-interno-e-fonte-externa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / identidade, imagem e reputação",
+      "articleId": "art-621d9e4a87c305bf",
+      "conceptId": "relato-interno-e-fonte-externa",
+      "mechanism": "relato-interno-e-fonte-externa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-621d9e4a87c305bf#Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/53 - identidade imagem e reputacao organizacional conceitos autores e fronteiras.md",
+        "section": "Brown, Dacin, Pratt e Whetten (2006): quatro pontos de vista"
+      },
+      "statement": "Entrevistar apenas dirigentes sobre o que acreditam que os cidadãos pensam fornece uma medida direta da avaliação dos cidadãos.",
+      "correctAnswer": "E",
+      "explanation": "As entrevistas medem uma percepção interna sobre o julgamento externo. Uma medida direta requer evidência obtida com o público em questão."
+    },
+    {
+      "id": "cam-cs-sinal-confirmado-em-registros-independentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-482d6ef913a0c75b",
+      "conceptId": "sinal-confirmado-em-registros-independentes",
+      "mechanism": "sinal-confirmado-em-registros-independentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-482d6ef913a0c75b#Sinais e fontes: monitorar não é medir todo o público"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "section": "Sinais e fontes: monitorar não é medir todo o público"
+      },
+      "statement": "Se queixas sobre pedidos desaparecidos coincidem com registros técnicos de falha no envio, combinar essas fontes ajuda a localizar o problema mesmo sem conhecer sua prevalência.",
+      "correctAnswer": "C",
+      "explanation": "As fontes respondem a perguntas complementares. As queixas mostram a experiência relatada e os registros ajudam a localizar a falha."
+    },
+    {
+      "id": "cam-cs-contingencia-para-acesso-a-registros",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-482d6ef913a0c75b",
+      "conceptId": "contingencia-para-acesso-a-registros",
+      "mechanism": "contingencia-para-acesso-a-registros",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-482d6ef913a0c75b#Preparação: reduzir improviso antes do episódio"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/54 - riscos prevencao e diagnostico de crises de comunicacao.md",
+        "section": "Preparação: reduzir improviso antes do episódio"
+      },
+      "statement": "Se um plano depende de contatos guardados no mesmo sistema que pode falhar, testá-lo em uma simulação sem acesso ao sistema permite verificar uma dependência crítica.",
+      "correctAnswer": "C",
+      "explanation": "A simulação reproduz a condição que pode bloquear a execução do plano e permite conferir se a alternativa de acesso funciona."
+    },
+    {
+      "id": "cam-cs-evidencia-nova-muda-classificacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "evidencia-nova-muda-classificacao",
+      "mechanism": "evidencia-nova-muda-classificacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#SCCT: grupos de crise, intensificadores e estratégias"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "SCCT: grupos de crise, intensificadores e estratégias"
+      },
+      "statement": "Se uma falha inicialmente descrita como acidental passa a ser associada à decisão consciente de ignorar alertas, a classificação da crise na SCCT pode precisar ser revista.",
+      "correctAnswer": "C",
+      "explanation": "A nova evidência pode aumentar a responsabilidade atribuída e mudar o enquadramento. A revisão depende dos fatos apurados."
+    },
+    {
+      "id": "cam-cs-retificacao-no-canal-do-alerta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "retificacao-no-canal-do-alerta",
+      "mechanism": "retificacao-no-canal-do-alerta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Canais e suas funções durante uma crise"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Canais e suas funções durante uma crise"
+      },
+      "statement": "Um alerta enviado por mensagem informa um endereço incorreto. Corrigir apenas a página oficial garante que todos os destinatários da mensagem utilizem o endereço atualizado.",
+      "correctAnswer": "E",
+      "explanation": "O público pode agir com base na mensagem recebida sem consultar a página. A correção precisa considerar o canal original e o alcance da atualização."
+    },
+    {
+      "id": "cam-cs-briefing-interno-com-respostas-atuais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "briefing-interno-com-respostas-atuais",
+      "mechanism": "briefing-interno-com-respostas-atuais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Porta-voz, comitê e público interno"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Porta-voz, comitê e público interno"
+      },
+      "statement": "Fornecer ao atendimento um resumo atualizado das informações confirmadas pode reduzir respostas divergentes sem transferir à equipe de atendimento a função de porta-voz oficial.",
+      "correctAnswer": "C",
+      "explanation": "O resumo apoia a orientação aos usuários. A atribuição de representar publicamente a instituição segue a governança da crise."
+    },
+    {
+      "id": "cam-cs-resultado-com-instrucao-e-capacidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "resultado-com-instrucao-e-capacidade",
+      "mechanism": "resultado-com-instrucao-e-capacidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Avaliação: o que é possível concluir?"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Avaliação: o que é possível concluir?"
+      },
+      "statement": "Depois de um aviso, mais pessoas conseguem localizar o canal alternativo, mas a fila impede que concluam o pedido. A taxa final de conclusão, sozinha, identifica que o aviso não melhorou a orientação.",
+      "correctAnswer": "E",
+      "explanation": "A conclusão depende de localizar o canal e de conseguir atendimento. Medidas separadas permitem distinguir o efeito na orientação da restrição operacional."
+    },
+    {
+      "id": "cam-cs-horario-de-atualizacao-e-previsao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 3 / gestão de crises",
+      "articleId": "art-e31c94bd720a5f86",
+      "conceptId": "horario-de-atualizacao-e-previsao",
+      "mechanism": "horario-de-atualizacao-e-previsao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e31c94bd720a5f86#Seis princípios CERC: rapidez e precisão coexistem"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/55 - resposta a crise estrategias canais e avaliacao.md",
+        "section": "Seis princípios CERC: rapidez e precisão coexistem"
+      },
+      "statement": "Prometer publicar novo boletim às 15h equivale a confirmar que o serviço voltará a operar às 15h.",
+      "correctAnswer": "E",
+      "explanation": "O compromisso informa quando haverá nova comunicação. A retomada depende de confirmação operacional própria."
     }
   ]
 }

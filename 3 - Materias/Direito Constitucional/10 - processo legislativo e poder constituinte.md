@@ -539,7 +539,7 @@ A separação dos Poderes conecta esta nota a [[3 - Materias/Direito Constitucio
 - STF. ADI 939/DF; RE 587.008 (Tema 107) — anterioridade tributária como garantia fundamental protegida.
 - STF. ADI 815 — cláusulas pétreas como limites ao poder constituinte derivado, e não ao originário.
 - Constituição Federal, arts. 47, 59 a 69.
-- [[00 inbox/15-06-2026|Inbox de 15/06/2026]].
+- registro de ingestão arquivado.
 
 
 ## Certificação normativa delimitada: 11/11/2026

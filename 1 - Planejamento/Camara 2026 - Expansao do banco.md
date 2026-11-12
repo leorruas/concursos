@@ -73,6 +73,6 @@ Quarenta questões de comunicação organizacional sobre dimensões, integraçã
 
 Quarenta questões sobre redes oficiais, vinculadas aos artigos 65 a 69. O lote inclui planejamento, produção colaborativa, proporções e formatos. O lote agora também inclui públicos, linguagem e avaliação. Três casos reformulados e seleção verificada. Próximo lote cobre transparência pública.
 
-## Lote 014 em elaboração
+## Lote 014 em revisão
 
-Trinta itens sobre pedidos de informação, fornecimento direto, acesso parcial e prorrogação. O conjunto inclui requisitos de publicação, acesso a documentos e recursos. O conjunto inclui quatro casos com base no Ato da Mesa nº 45/2012.
+Quarenta itens sobre pedidos de informação, fornecimento direto, acesso parcial e prorrogação. O conjunto inclui requisitos de publicação, acesso a documentos e recursos. O conjunto inclui quatro casos com base no Ato da Mesa nº 45/2012.

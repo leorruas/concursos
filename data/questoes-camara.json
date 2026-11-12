@@ -21982,6 +21982,296 @@
       "statement": "O direito de acesso pode abranger informações sobre os resultados de um projeto público e também as metas e os indicadores propostos para acompanhá-lo.",
       "correctAnswer": "C",
       "explanation": "O dispositivo inclui implementação, acompanhamento e resultados, além de metas e indicadores."
+    },
+    {
+      "id": "cam-cs-digital-e-restricao-parcial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "digital-e-restricao-parcial",
+      "mechanism": "digital-e-restricao-parcial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 7º, § 2º, e art. 11, § 5º"
+      },
+      "statement": "Um documento digital contém um anexo sigiloso separável. Se o requerente concorda com o formato digital, o órgão pode entregar uma cópia digital que preserve o conteúdo público e oculte o anexo protegido.",
+      "correctAnswer": "C",
+      "explanation": "A anuência determina a forma de entrega. A restrição parcial delimita o conteúdo que pode constar da cópia."
+    },
+    {
+      "id": "cam-cs-detentor-desconhecido-ao-receber",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "detentor-desconhecido-ao-receber",
+      "mechanism": "detentor-desconhecido-ao-receber",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 11, § 1º, III"
+      },
+      "statement": "Se um órgão não possui a informação e desconhece quem a detém, pode deixar de responder até identificar o detentor.",
+      "correctAnswer": "E",
+      "explanation": "O órgão deve comunicar que não possui a informação. Indicar quem a detém é cabível se souber."
+    },
+    {
+      "id": "cam-cs-objeto-especificado-sem-codigo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "objeto-especificado-sem-codigo",
+      "mechanism": "objeto-especificado-sem-codigo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 10, caput"
+      },
+      "statement": "Uma pessoa pode especificar a informação pedida por meio de descrição suficiente do documento, mesmo sem conhecer seu código de protocolo.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo exige especificar a informação. Um código é uma forma de identificação, mas a descrição suficiente pode delimitar o objeto."
+    },
+    {
+      "id": "cam-cs-certificacao-e-copia-disponivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "certificacao-e-copia-disponivel",
+      "mechanism": "certificacao-e-copia-disponivel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 13, caput e parágrafo único"
+      },
+      "statement": "Se o manuseio ameaça o original e existe cópia certificada disponível, a lei exige que o interessado pague pela reprodução do original por outro meio antes de poder consultar a informação.",
+      "correctAnswer": "E",
+      "explanation": "A regra oferece a consulta da cópia certificada. A reprodução por outro meio é alternativa para a impossibilidade de obter cópia."
+    },
+    {
+      "id": "cam-cs-inteiro-teor-por-certidao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "inteiro-teor-por-certidao",
+      "mechanism": "inteiro-teor-por-certidao",
+      "questionType": "conceito",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Restrições: proteção legítima, acesso parcial e desinformação por omissão",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 14"
+      },
+      "statement": "A certidão é um dos meios previstos para obter o inteiro teor de uma decisão de negativa de acesso.",
+      "correctAnswer": "C",
+      "explanation": "O art. 14 permite obter o inteiro teor por certidão ou cópia."
+    },
+    {
+      "id": "cam-cs-contrato-distinto-de-edital",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "contrato-distinto-de-edital",
+      "mechanism": "contrato-distinto-de-edital",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 1º, IV"
+      },
+      "statement": "A publicação de informações sobre a seleção do fornecedor não substitui a divulgação exigida sobre o contrato posteriormente celebrado.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo contempla tanto o procedimento licitatório quanto os contratos celebrados."
+    },
+    {
+      "id": "cam-cs-obras-com-dados-de-acompanhamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "obras-com-dados-de-acompanhamento",
+      "mechanism": "obras-com-dados-de-acompanhamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 1º, V"
+      },
+      "statement": "A divulgação ativa inclui dados gerais que permitam acompanhar obras públicas, mesmo que a sociedade ainda não tenha apresentado pedidos sobre elas.",
+      "correctAnswer": "C",
+      "explanation": "O acompanhamento de obras integra o conteúdo mínimo da divulgação ativa, que independe de requerimento."
+    },
+    {
+      "id": "cam-cs-proveniencia-em-copia-de-dados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "proveniencia-em-copia-de-dados",
+      "mechanism": "proveniencia-em-copia-de-dados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#O que o Ato da Mesa nº 45/2012 exige do sítio oficial"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "O que o Ato da Mesa nº 45/2012 exige do sítio oficial",
+        "url": "https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html",
+        "locator": "art. 5º, § 3º"
+      },
+      "statement": "Uma planilha atualizada e fácil de localizar satisfaz por essas duas propriedades o requisito de autenticidade, mesmo que sua origem não possa ser confirmada.",
+      "correctAnswer": "E",
+      "explanation": "Atualidade e encontrabilidade não confirmam a origem. A autenticidade exige evidência própria."
+    },
+    {
+      "id": "cam-cs-acessibilidade-e-dados-automatizados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "acessibilidade-e-dados-automatizados",
+      "mechanism": "acessibilidade-e-dados-automatizados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 8º, § 3º, III e VIII"
+      },
+      "statement": "A existência de acesso automatizado em formato aberto satisfaz automaticamente a exigência de acessibilidade do conteúdo para pessoas com deficiência.",
+      "correctAnswer": "E",
+      "explanation": "O acesso por sistemas e a acessibilidade para pessoas são requisitos diferentes. É preciso avaliar as barreiras de acesso ao conteúdo."
+    },
+    {
+      "id": "cam-cs-informar-tramitacao-e-protocolar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "comunicacao-social",
+      "editalRef": "14.2.4 / Comunicação Social / 6 / transparência pública",
+      "articleId": "art-e8246cf71b0a935d",
+      "conceptId": "informar-tramitacao-e-protocolar",
+      "mechanism": "informar-tramitacao-e-protocolar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional.md",
+        "section": "Ativa e passiva: o critério é a origem do acesso",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html",
+        "locator": "art. 9º, I, b e c"
+      },
+      "statement": "Um serviço de informações que apenas informa a tramitação de documentos atende, com essa atividade, à função de protocolizar requerimentos de acesso.",
+      "correctAnswer": "E",
+      "explanation": "Informar sobre tramitação e protocolizar requerimentos são atribuições distintas do serviço de informações ao cidadão."
     }
   ]
 }

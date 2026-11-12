@@ -77,13 +77,13 @@ A delimitação entre termos varia conforme organização e autor. Para fins de 
 
 ## A Câmara: linguagem institucional e regras de tratamento
 
-O [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|Manual de Comunicação da Câmara]], na edição estudada na nota 73, apresenta para os textos dos veículos da Casa seis propriedades editoriais: **clareza, precisão, direção, objetividade, concisão e imparcialidade**. A orientação também privilegia tratamento apartidário e plural das posições e terminologia adequada aos documentos e estágios do processo legislativo.
+O [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|Manual de Comunicação da Câmara]], na edição examinada nesse artigo, apresenta para os textos dos veículos da Casa seis propriedades editoriais: **clareza, precisão, direção, objetividade, concisão e imparcialidade**. A orientação também privilegia tratamento apartidário e plural das posições e terminologia adequada aos documentos e estágios do processo legislativo.
 
 **Clareza** reduz obstáculos ao entendimento; **precisão** preserva correspondência com o fato; **direção** leva cedo ao essencial; **objetividade** limita juízo editorial inadequado; **concisão** elimina redundância sem omitir condições; **imparcialidade** exige tratamento responsável das posições e dos dados. São dimensões relacionadas, não sinônimas.
 
 **Exemplo:** “Câmara aprovou a lei” pode ser editorialmente incorreto se houve apenas aprovação em comissão e ainda restam etapas. Reescrever em frase curta não repara o erro de estágio. **Precisão factual é condição independente da concisão.**
 
-**Fonte normativa × orientação editorial:** o Manual organiza práticas e remete a atos próprios, como a política de comunicação instituída pelo Ato da Mesa nº 218/2025, conforme nota 73. A orientação de estilo do Manual não deve ser apresentada automaticamente com a mesma natureza jurídica da norma original.
+**Fonte normativa × orientação editorial:** o Manual organiza práticas e remete a atos próprios, como a política de comunicação instituída pelo Ato da Mesa nº 218/2025, conforme [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|Manual de Comunicação da Câmara: critérios editoriais, linguagem e procedimentos]]. A orientação de estilo do Manual não deve ser apresentada automaticamente com a mesma natureza jurídica da norma original.
 
 **Impessoalidade:** o art. 37, § 1º, da Constituição Federal determina caráter educativo, informativo ou de orientação social para publicidade institucional e veda promoção pessoal. **Destaque de autoridade não é finalidade editorial autônoma que dispense o interesse público**. Informar a atuação parlamentar de modo contextualizado é diferente de organizar um produto institucional como publicidade pessoal.
 

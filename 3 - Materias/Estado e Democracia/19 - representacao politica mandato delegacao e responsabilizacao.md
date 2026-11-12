@@ -18,7 +18,7 @@ updated: 2026-11-06
 
 **O núcleo da prova:** identificar **quem representa quem, por qual autorização, com que margem de decisão, quais interesses são considerados e quem pode cobrar explicações ou impor consequências**. Usar a palavra “mandato” sem qualificar seu sentido é uma das melhores formas de construir alternativa parcialmente verdadeira.
 
-A [[3 - Materias/Estado e Democracia/02 - democracia representacao e accountability|nota 02]] já introduz representação, participação e accountability vertical, horizontal e social; esta **CAM-CP-010** aprofunda **Pitkin, Burke, Manin, Mansbridge, delegado versus fiduciário, mandato livre versus imperativo, teoria principal-agente, cadeia de responsabilização e limites jurídico-constitucionais brasileiros**. A [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|nota 18]] aborda a confiança entre Executivo e Legislativo; a próxima unidade, **CAM-CP-011**, examinará os **modelos de democracia representativa, participativa e deliberativa**.
+A [[3 - Materias/Estado e Democracia/02 - democracia representacao e accountability|Democracia, representação e accountability]] já introduz representação, participação e accountability vertical, horizontal e social; esta **[[3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao|Representação política: mandato, delegação e responsabilização]]** aprofunda **Pitkin, Burke, Manin, Mansbridge, delegado versus fiduciário, mandato livre versus imperativo, teoria principal-agente, cadeia de responsabilização e limites jurídico-constitucionais brasileiros**. A [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|Sistemas de governo: presidencialismo e parlamentarismo]] aborda a confiança entre Executivo e Legislativo; a próxima unidade, **[[3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa|Democracia representativa, participativa e deliberativa]]**, examinará os **modelos de democracia representativa, participativa e deliberativa**.
 
 ## Três relações diferentes chamadas “mandato”
 
@@ -102,7 +102,7 @@ Manin propõe uma sequência analítica de formas históricas:
 
 **Democracia de público não significa que os partidos desaparecem nem que toda política passou a ser decidida pela televisão ou internet.** A análise descreve uma **mudança nos vínculos de representação**, sem postular substituição total e simultânea de todas as formas nos diversos países.
 
-**Cuidado de cronologia:** o termo **parlamentarismo** no primeiro modelo histórico de Manin **não equivale necessariamente ao sistema de governo parlamentarista** estudado na [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|nota 18]]. Um modelo de representação pode ser analisado independentemente do mecanismo constitucional de confiança do gabinete.
+**Cuidado de cronologia:** o termo **parlamentarismo** no primeiro modelo histórico de Manin **não equivale necessariamente ao sistema de governo parlamentarista** estudado na [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|Sistemas de governo: presidencialismo e parlamentarismo]]. Um modelo de representação pode ser analisado independentemente do mecanismo constitucional de confiança do gabinete.
 
 **Fonte:** [Manin, *The Principles of Representative Government* (Cambridge)](https://www.cambridge.org/core/books/the-principles-of-representative-government/B5F086D557F0A0995D6FEB2730C29EC9); [Stanford Encyclopedia of Philosophy, discussão dos quatro princípios](https://plato.stanford.edu/entries/political-representation/).
 
@@ -244,7 +244,7 @@ A teoria **principal-agente** investiga a relação em que um **principal** conf
 
 **Personalização e comunicação política:** atenção a figuras individuais e redes de comunicação pode alterar vínculos entre partidos, eleitores e representantes, dialogando com a **democracia de público de Manin**. **Mais seguidores, curtidas ou visualizações não demonstram automaticamente representação substantiva ou accountability**.
 
-**Participação social e mediação:** audiências, conselhos, associações e movimentos podem ampliar canais de informação e contestação, mas **consulta não transfere automaticamente competência de votar leis**. A próxima unidade CAM-CP-011 aprofundará esse contraste.
+**Participação social e mediação:** audiências, conselhos, associações e movimentos podem ampliar canais de informação e contestação, mas **consulta não transfere automaticamente competência de votar leis**. A próxima unidade [[3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa|Democracia representativa, participativa e deliberativa]] aprofundará esse contraste.
 
 **A crise de representação não é demonstrada por discordância pontual do eleitor com uma votação.** Sua investigação exige olhar para **inclusão, competição, responsividade, igualdade de voz, transparência, capacidade de controle e persistência dos problemas ao longo do tempo**.
 

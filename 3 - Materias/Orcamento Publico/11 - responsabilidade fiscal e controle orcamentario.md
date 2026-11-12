@@ -66,6 +66,22 @@ O art. 19 da LRF determina que a **despesa total com pessoal**, em relação à 
 
 Os limites globais são repartidos por **Poderes e Ministério Público**, conforme art. 20. Para itens sobre órgão específico, a repartição interna importa: o limite global do ente não se transfere integralmente para qualquer um de seus Poderes.
 
+### Repartição federal dos limites de pessoal (LRF, art. 20, I)
+
+Na **União**, os limites específicos, sempre como percentual da **Receita Corrente Líquida (RCL) da União**, são:
+
+| Poder ou órgão | Limite sobre a RCL da União | Observação |
+| :--- | ---: | :--- |
+| **Legislativo federal** | **2,5%** | **Inclui Câmara, Senado e Tribunal de Contas da União (TCU)**; não é um teto isolado de 2,5% para a Câmara |
+| **Judiciário federal** | **6%** | Repartição interna entre órgãos conforme as regras do art. 20 |
+| **Executivo federal** | **40,9%** | Inclui a parcela com destinação específica de 3% mencionada no art. 20, I, c |
+| **Ministério Público da União** | **0,6%** | Limite próprio conforme art. 20, I, d |
+
+Essas parcelas somam o **limite global da União de 50%**, mas não autorizam cada Casa legislativa a consumir sozinha o limite do Poder. O **art. 20, §§ 1º e 2º**, disciplina a repartição entre órgãos, identificando Câmara, Senado e TCU no Legislativo federal. Para fins de alerta/prudencial, **95% de 2,5% = 2,375% da RCL**, porém esse cálculo sobre o limite agregado não substitui o limite próprio de cada órgão.
+
+**Caso de fronteira:** uma questão afirma que a Câmara pode gastar até 2,5% da RCL da União com pessoal porque o art. 20 reserva esse valor ao Legislativo. A conclusão é **errada**: a parcela contempla **todo o Legislativo federal, inclusive o TCU**. [Fonte: LRF, art. 20](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html).
+
+
 ### Conceito e período de apuração
 
 A despesa total com pessoal é definida no art. 18 e inclui remunerações, encargos e outras parcelas previstas. A apuração considera o mês de referência e os **11 meses imediatamente anteriores**, em regime de competência, independentemente do empenho, conforme redação legal atual.
@@ -102,11 +118,26 @@ O art. 23 determina que o excesso de despesa de pessoal seja eliminado nos **doi
 
 A LRF estabelece requisitos além dos limites de pessoal:
 
-- **Renúncia de receita (art. 14):** demanda análise das condições legais, estimativa do impacto e requisitos de adequação ou compensação previstos. A concessão de benefício tributário não é decisão sem efeito fiscal.
+- **Renúncia de receita (art. 14, na redação da LC nº 224/2025):** a **concessão, ampliação ou prorrogação** de incentivo ou benefício tributário com renúncia requer estimativa do impacto **no exercício de início e nos dois seguintes**, atendimento à LDO e, **alternativamente**, demonstração de inclusão na estimativa de receita sem afetar metas fiscais (inciso I) **ou** medidas de compensação por aumento de receita (inciso II). Na opção de compensação, o § 2º condiciona a eficácia à implementação das medidas; observar as exceções do § 3º.
 - **Criação, expansão ou aperfeiçoamento de ação governamental com aumento de despesa (art. 16):** exige estimativa de impacto e declaração de adequação orçamentária e financeira e compatibilidade com planejamento, nas condições legais.
 - **Despesa obrigatória de caráter continuado (art. 17):** obrigação corrente derivada de lei, medida provisória ou ato normativo, com execução **por período superior a dois exercícios**, sujeita a requisitos específicos de compensação e demonstração.
 
 **Despesas continuadas × despesas de capital** são categorias diferentes. Obra que dure mais de um ano não se torna, só por isso, despesa obrigatória corrente de caráter continuado. Da mesma forma, despesa relevante, porém pontual, não pode ser enquadrada automaticamente no art. 17 apenas por seu valor.
+
+
+### Benefícios tributários para pessoas jurídicas: LRF art. 14-A (LC nº 224/2025)
+
+Desde **1º/01/2026**, proposição legislativa de concessão, ampliação ou prorrogação de incentivo ou benefício **tributário** com renúncia de receita e **beneficiário pessoa jurídica** deve vir acompanhada dos elementos específicos do art. 14-A, além dos controles gerais pertinentes: **estimativa de quantidade de beneficiários**, prazo de vigência **em regra até cinco anos**, **metas objetivas e quantificáveis** em dimensões econômicas, sociais e ambientais, impacto regional quando cabível e mecanismos de **transparência, monitoramento e avaliação**.
+
+O prazo pode ultrapassar cinco anos para **investimentos de longo prazo** nas condições do § 1º, com estimativa dos investimentos e regras de avaliação periódica. A prorrogação é vedada nas hipóteses do § 2º quando as metas não forem atingidas ou não houver avaliação; o § 5º contém **tratamento próprio para diferimento de tributos e exceções**, de modo que não se pode converter o prazo geral de cinco anos em vedação absoluta.
+
+O mesmo diploma incluiu os **incisos IV e V e o § 8º do art. 5º da LRF**: o projeto de LOA deve conter estimativa global de incentivos e benefícios de natureza **tributária, financeira e creditícia**, para pessoas físicas e jurídicas, em anexos próprios com o horizonte legal; também deve incluir **anexo de estimativas de despesas financeiras e primárias obrigatórias e discricionárias**, para o exercício de elaboração e os **dois subsequentes**. A exigência geral dos anexos orçamentários é distinta da documentação específica de proposição com benefício tributário para **pessoa jurídica**.
+
+**Caso progressivo:** (1) um projeto propõe isenção tributária para empresas por quatro anos: aplicam-se art. 14 e art. 14-A, inclusive metas e avaliação; (2) apenas elevar o prazo para seis anos exige verificar a **exceção legal de investimento de longo prazo**, não é automaticamente permitido; (3) se a medida for um benefício para pessoa física, o art. 14-A não incide pelo critério de beneficiário, embora o art. 14 e os anexos do art. 5º possam ser pertinentes; (4) se a proposta for de **benefício financeiro**, não se aplica automaticamente o art. 14-A, que trata de **natureza tributária**.
+
+**Item inédito C/E, Câmara:** Uma proposta de incentivo tributário que implique renúncia de receita para pessoas jurídicas dispensa estimativa de beneficiários quando seu prazo de vigência for de quatro anos, pois essa informação só é exigida se ultrapassado o prazo geral de cinco anos.
+
+**Gabarito: Errado.** A estimativa de quantitativo de beneficiários é exigida pelo **art. 14-A, I**, sem depender de ultrapassar o prazo geral de cinco anos; o limite temporal é outro requisito, sujeito às condições do § 1º. [Fonte primária: LRF vigente, arts. 5º, 14 e 14-A](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html).
 
 ### Regra de ouro e regime fiscal
 

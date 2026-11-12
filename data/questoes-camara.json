@@ -21128,7 +21128,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21140,7 +21140,8 @@
       },
       "statement": "Uma pessoa identifica-se e especifica o relatório público que deseja consultar. O órgão pode condicionar o pedido à apresentação do projeto em que ela pretende usar o relatório.",
       "correctAnswer": "E",
-      "explanation": "A lei exige identificação e especificação da informação, mas veda exigir os motivos do pedido de informação de interesse público."
+      "explanation": "A lei exige identificação e especificação da informação, mas veda exigir os motivos do pedido de informação de interesse público.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 10, caput e § 3º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-link-sem-meios-de-consulta",
@@ -21157,7 +21158,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Comunicação editorial: mediação sem substituir a fonte"
       ],
@@ -21169,7 +21170,8 @@
       },
       "statement": "Uma pessoa declara não ter meios para consultar a versão disponível na internet. Indicar-lhe por escrito onde localizar essa versão desonera o órgão de fornecer a informação diretamente.",
       "correctAnswer": "E",
-      "explanation": "A indicação do local e da forma de consulta pode substituir o fornecimento direto, com exceção expressa para quem declara não dispor dos meios necessários."
+      "explanation": "A indicação do local e da forma de consulta pode substituir o fornecimento direto, com exceção expressa para quem declara não dispor dos meios necessários.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 11, § 6º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-acesso-parcial-com-trecho-protegido",
@@ -21186,7 +21188,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Arquitetura normativa: Constituição, LAI e Câmara"
       ],
@@ -21199,7 +21201,7 @@
       "statement": "Ao identificar o requerente de informação de interesse público, o órgão pode impor uma exigência que inviabilize a apresentação do pedido.",
       "correctAnswer": "E",
       "explanation": "A identificação é exigida, mas a lei veda requisitos de identificação que inviabilizem a solicitação.",
-      "reviewEvidence": "Reformulado após comparação com os exercícios do artigo 70. Gabarito cotejado com art. 10, § 1º da Lei nº 12.527/2011."
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 10, § 1º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-prorrogacao-sem-ciencia-do-requerente",
@@ -21216,7 +21218,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21228,7 +21230,8 @@
       },
       "statement": "Se o acesso imediato for inviável, registrar no processo a justificativa expressa para prorrogar o prazo dispensa comunicar a prorrogação ao requerente.",
       "correctAnswer": "E",
-      "explanation": "Além da justificativa expressa, a lei exige dar ciência ao requerente. O registro interno não cumpre essa etapa."
+      "explanation": "Além da justificativa expressa, a lei exige dar ciência ao requerente. O registro interno não cumpre essa etapa.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 11, §§ 1º e 2º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-consulta-visual-sem-acesso-automatizado",
@@ -21245,7 +21248,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21257,7 +21260,8 @@
       },
       "statement": "Disponibilizar uma tabela somente como imagem num portal sujeito aos requisitos de transparência ativa atende, por si só, à exigência de acesso automatizado aos dados.",
       "correctAnswer": "E",
-      "explanation": "A imagem pode permitir leitura visual. A lei prevê acesso automatizado em formato aberto, estruturado e legível por máquina."
+      "explanation": "A imagem pode permitir leitura visual. A lei prevê acesso automatizado em formato aberto, estruturado e legível por máquina.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 3º, II e III na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-recurso-com-marco-de-ciencia",
@@ -21274,7 +21278,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21286,7 +21290,8 @@
       },
       "statement": "Se a decisão de indeferimento foi emitida numa data e o interessado só tomou ciência dela mais tarde, o prazo de dez dias para recorrer começa com a ciência.",
       "correctAnswer": "C",
-      "explanation": "O marco legal é a ciência da decisão pelo interessado, e não a data em que o órgão a emitiu."
+      "explanation": "O marco legal é a ciência da decisão pelo interessado, e não a data em que o órgão a emitiu.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 15, caput na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-consulta-de-copia-certificada",
@@ -21303,7 +21308,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
       ],
@@ -21315,7 +21320,8 @@
       },
       "statement": "Quando o manuseio de um documento público pode danificar o original, deve ser oferecida a consulta de uma cópia certificada como fiel.",
       "correctAnswer": "C",
-      "explanation": "O art. 13 concilia acesso à informação com preservação do documento pela consulta de cópia certificada."
+      "explanation": "O art. 13 concilia acesso à informação com preservação do documento pela consulta de cópia certificada.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 13, caput na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-acesso-imediato-quando-disponivel",
@@ -21332,7 +21338,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21344,7 +21350,8 @@
       },
       "statement": "Se a informação solicitada está disponível para acesso imediato, o órgão pode aguardar vinte dias por considerar esse o prazo ordinário para qualquer pedido.",
       "correctAnswer": "E",
-      "explanation": "O acesso à informação disponível deve ser imediato. O prazo de até vinte dias aplica-se quando não é possível conceder acesso imediato."
+      "explanation": "O acesso à informação disponível deve ser imediato. O prazo de até vinte dias aplica-se quando não é possível conceder acesso imediato.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 11, caput e § 1º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-negativa-com-direito-ao-inteiro-teor",
@@ -21361,7 +21368,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
       ],
@@ -21373,7 +21380,8 @@
       },
       "statement": "Receber uma mensagem que informa o indeferimento não impede o interessado de obter cópia do inteiro teor da decisão que negou o acesso.",
       "correctAnswer": "C",
-      "explanation": "O art. 14 assegura ao requerente o inteiro teor por certidão ou cópia."
+      "explanation": "O art. 14 assegura ao requerente o inteiro teor por certidão ou cópia.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 14 na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-pedido-remetido-com-ciencia",
@@ -21390,7 +21398,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21402,7 +21410,8 @@
       },
       "statement": "Ao remeter um pedido ao órgão que detém a informação, o primeiro órgão fica dispensado de comunicar a remessa ao interessado.",
       "correctAnswer": "E",
-      "explanation": "A remessa é admitida, mas o dispositivo exige cientificar o interessado."
+      "explanation": "A remessa é admitida, mas o dispositivo exige cientificar o interessado.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 11, § 1º, III na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-custodia-sem-autoria-da-camara",
@@ -21419,7 +21428,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#O que o Ato da Mesa nº 45/2012 exige do sítio oficial"
       ],
@@ -21431,7 +21440,8 @@
       },
       "statement": "A Câmara pode excluir uma informação de interesse coletivo do dever de divulgação de ofício apenas porque a recebeu de outro órgão e não a produziu.",
       "correctAnswer": "E",
-      "explanation": "O caput abrange informações produzidas ou custodiadas pela Câmara, observadas as demais normas aplicáveis."
+      "explanation": "O caput abrange informações produzidas ou custodiadas pela Câmara, observadas as demais normas aplicáveis.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 5º, caput na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-parecer-no-acompanhamento-de-proposicao",
@@ -21448,7 +21458,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#O que o Ato da Mesa nº 45/2012 exige do sítio oficial"
       ],
@@ -21460,7 +21470,8 @@
       },
       "statement": "Exibir apenas o título e a etapa de tramitação de uma proposição atende integralmente ao requisito de divulgação mesmo quando há parecer apresentado.",
       "correctAnswer": "E",
-      "explanation": "O requisito compreende o conteúdo e a tramitação, incluindo os pareceres apresentados."
+      "explanation": "O requisito compreende o conteúdo e a tramitação, incluindo os pareceres apresentados.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 5º, § 1º, I, b na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-dados-biograficos-sem-votacoes-nominais",
@@ -21477,7 +21488,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#O que o Ato da Mesa nº 45/2012 exige do sítio oficial"
       ],
@@ -21489,7 +21500,8 @@
       },
       "statement": "Publicar dados biográficos dos deputados dispensa divulgar suas votações ostensivas nominais em Plenário e nas comissões.",
       "correctAnswer": "E",
-      "explanation": "O dispositivo inclui os dois conjuntos de informação. Divulgar dados biográficos não substitui a divulgação das votações abrangidas."
+      "explanation": "O dispositivo inclui os dois conjuntos de informação. Divulgar dados biográficos não substitui a divulgação das votações abrangidas.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 5º, § 1º, I, a na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-portal-pesquisa-com-informacao-desatualizada",
@@ -21506,7 +21518,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#O que o Ato da Mesa nº 45/2012 exige do sítio oficial"
       ],
@@ -21518,7 +21530,8 @@
       },
       "statement": "Um portal pode facilitar a localização de uma informação e ainda descumprir o requisito de atualização se apresentar como vigente um registro superado.",
       "correctAnswer": "C",
-      "explanation": "Pesquisa e atualização são requisitos distintos. Encontrar o registro não demonstra que ele reflita o estado atual."
+      "explanation": "Pesquisa e atualização são requisitos distintos. Encontrar o registro não demonstra que ele reflita o estado atual.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 5º, § 3º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-reproducao-supervisionada-sem-copia",
@@ -21535,7 +21548,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
       ],
@@ -21547,7 +21560,8 @@
       },
       "statement": "Se é impossível obter cópia de um documento cujo manuseio pode danificá-lo, o interessado pode solicitar, a suas expensas, reprodução por outro meio seguro e sob supervisão de servidor.",
       "correctAnswer": "C",
-      "explanation": "A lei prevê essa alternativa quando não é possível obter cópia. O método de reprodução deve preservar o original."
+      "explanation": "A lei prevê essa alternativa quando não é possível obter cópia. O método de reprodução deve preservar o original.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 13, parágrafo único na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-isencao-no-ressarcimento-de-copias",
@@ -21564,7 +21578,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
       ],
@@ -21576,7 +21590,8 @@
       },
       "statement": "O órgão deve exigir o ressarcimento da reprodução mesmo de quem declara, nos termos legais, que pagar prejudicaria o sustento da família.",
       "correctAnswer": "E",
-      "explanation": "A situação econômica declarada nos termos da lei dá direito à isenção do ressarcimento previsto para a reprodução."
+      "explanation": "A situação econômica declarada nos termos da lei dá direito à isenção do ressarcimento previsto para a reprodução.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 12, § 2º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-recurso-a-autoridade-superior",
@@ -21593,7 +21608,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
       ],
@@ -21605,7 +21620,8 @@
       },
       "statement": "O recurso contra negativa de acesso deve ser dirigido à mesma autoridade que negou o pedido, ainda que ela tenha superior hierárquico.",
       "correctAnswer": "E",
-      "explanation": "A lei dirige o recurso à autoridade hierarquicamente superior à que proferiu a decisão impugnada."
+      "explanation": "A lei dirige o recurso à autoridade hierarquicamente superior à que proferiu a decisão impugnada.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 15, parágrafo único na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-ciencia-de-recurso-em-negativa-parcial",
@@ -21622,7 +21638,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Restrições: proteção legítima, acesso parcial e desinformação por omissão"
       ],
@@ -21634,7 +21650,8 @@
       },
       "statement": "Quando o órgão entrega apenas a parte pública do documento e recusa outra por sigilo, deve informar a possibilidade de recurso e indicar a autoridade competente.",
       "correctAnswer": "C",
-      "explanation": "A obrigação de orientar sobre o recurso também se aplica à recusa parcial por sigilo."
+      "explanation": "A obrigação de orientar sobre o recurso também se aplica à recusa parcial por sigilo.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 11, § 4º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-edital-sem-resultado-da-licitacao",
@@ -21651,7 +21668,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21663,7 +21680,8 @@
       },
       "statement": "Um órgão sujeito à divulgação obrigatória publica o edital de uma licitação concluída. Como o edital está disponível, pode deixar de divulgar o resultado.",
       "correctAnswer": "E",
-      "explanation": "A divulgação mínima abrange tanto os editais quanto os resultados dos procedimentos licitatórios."
+      "explanation": "A divulgação mínima abrange tanto os editais quanto os resultados dos procedimentos licitatórios.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 1º, IV na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-repasses-registrados-separadamente",
@@ -21680,7 +21698,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21692,7 +21710,8 @@
       },
       "statement": "Um painel que cobre despesas não esgota a divulgação mínima se deixar de fora registros de repasses e transferências de recursos financeiros.",
       "correctAnswer": "C",
-      "explanation": "A lei enumera registros de despesas e registros de repasses ou transferências como conjuntos distintos."
+      "explanation": "A lei enumera registros de despesas e registros de repasses ou transferências como conjuntos distintos.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 1º, II e III na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-formato-aberto-sem-documentacao",
@@ -21709,7 +21728,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21721,7 +21740,8 @@
       },
       "statement": "Permitir que sistemas externos processem os dados em formato aberto torna dispensável divulgar detalhes sobre o formato usado para estruturá-los.",
       "correctAnswer": "E",
-      "explanation": "O acesso automatizado e a documentação dos formatos atendem a incisos diferentes. A possibilidade de processamento não substitui a documentação."
+      "explanation": "O acesso automatizado e a documentação dos formatos atendem a incisos diferentes. A possibilidade de processamento não substitui a documentação.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 3º, III e IV na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-lista-de-duvidas-em-transparencia-ativa",
@@ -21738,7 +21758,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21750,7 +21770,8 @@
       },
       "statement": "Publicar respostas a perguntas recorrentes antes de receber novos pedidos individuais é compatível com a transparência ativa prevista na lei.",
       "correctAnswer": "C",
-      "explanation": "As respostas às perguntas frequentes integram o conteúdo mínimo da divulgação ativa."
+      "explanation": "As respostas às perguntas frequentes integram o conteúdo mínimo da divulgação ativa.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 1º, VI na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-pesquisa-sem-clareza-dos-resultados",
@@ -21767,7 +21788,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21779,7 +21800,8 @@
       },
       "statement": "Se a ferramenta encontra um registro, o requisito legal de pesquisa está integralmente atendido, ainda que a informação localizada seja apresentada em linguagem incompreensível ao público.",
       "correctAnswer": "E",
-      "explanation": "O requisito abrange acesso claro e em linguagem de fácil compreensão, além da possibilidade de localizar o conteúdo."
+      "explanation": "O requisito abrange acesso claro e em linguagem de fácil compreensão, além da possibilidade de localizar o conteúdo.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 3º, I na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-telefone-com-instrucoes-de-contato",
@@ -21796,7 +21818,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21808,7 +21830,8 @@
       },
       "statement": "Indicar instruções claras para contato telefônico é uma das formas de comunicação previstas no requisito de contato do sítio oficial.",
       "correctAnswer": "C",
-      "explanation": "O inciso admite via eletrônica ou telefônica e exige indicar local e instruções para contato."
+      "explanation": "O inciso admite via eletrônica ou telefônica e exige indicar local e instruções para contato.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 3º, VII na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-fornecimento-digital-com-anuencia",
@@ -21825,7 +21848,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21837,7 +21860,8 @@
       },
       "statement": "Se o documento está armazenado digitalmente e o requerente concorda com esse formato, a Lei de Acesso à Informação prevê que a informação seja fornecida em formato digital.",
       "correctAnswer": "C",
-      "explanation": "A regra combina a forma de armazenamento e a anuência do requerente."
+      "explanation": "A regra combina a forma de armazenamento e a anuência do requerente.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 11, § 5º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-justificativa-de-negativa-parcial",
@@ -21854,7 +21878,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21866,7 +21890,8 @@
       },
       "statement": "Ao negar acesso a uma parte do documento, o órgão pode deixar de indicar as razões da recusa porque forneceu o restante.",
       "correctAnswer": "E",
-      "explanation": "O dever de indicar as razões de fato ou de direito alcança recusas totais e parciais."
+      "explanation": "O dever de indicar as razões de fato ou de direito alcança recusas totais e parciais.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 11, § 1º, II na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-solicitacao-por-meio-legitimo",
@@ -21883,7 +21908,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21895,7 +21920,8 @@
       },
       "statement": "Criar um formulário no sítio oficial torna esse formulário o único meio legítimo para apresentar pedidos de acesso à informação.",
       "correctAnswer": "E",
-      "explanation": "A lei prevê qualquer meio legítimo e exige que exista também a alternativa de encaminhamento pelo sítio oficial."
+      "explanation": "A lei prevê qualquer meio legítimo e exige que exista também a alternativa de encaminhamento pelo sítio oficial.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 10, caput e § 2º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-prazo-para-decidir-recurso",
@@ -21912,7 +21938,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21924,7 +21950,8 @@
       },
       "statement": "O prazo de dez dias do interessado para recorrer é também o prazo que a autoridade superior tem para se manifestar.",
       "correctAnswer": "E",
-      "explanation": "O interessado tem dez dias da ciência para recorrer. A autoridade superior tem cinco dias para se manifestar."
+      "explanation": "O interessado tem dez dias da ciência para recorrer. A autoridade superior tem cinco dias para se manifestar.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 15, caput e parágrafo único na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-dispensa-municipal-com-excecao-fiscal",
@@ -21941,7 +21968,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21953,7 +21980,8 @@
       },
       "statement": "Um município de 8 mil habitantes pode usar a dispensa de divulgação obrigatória na internet para deixar de publicar em tempo real a execução orçamentária e financeira exigida pela legislação fiscal.",
       "correctAnswer": "E",
-      "explanation": "A dispensa remete à obrigação geral do § 2º. O § 4º preserva expressamente a divulgação em tempo real da execução orçamentária e financeira."
+      "explanation": "A dispensa remete à obrigação geral do § 2º. O § 4º preserva expressamente a divulgação em tempo real da execução orçamentária e financeira.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 4º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-resultados-de-projeto-e-acompanhamento",
@@ -21970,7 +21998,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -21982,7 +22010,8 @@
       },
       "statement": "O direito de acesso pode abranger informações sobre os resultados de um projeto público e também as metas e os indicadores propostos para acompanhá-lo.",
       "correctAnswer": "C",
-      "explanation": "O dispositivo inclui implementação, acompanhamento e resultados, além de metas e indicadores."
+      "explanation": "O dispositivo inclui implementação, acompanhamento e resultados, além de metas e indicadores.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 7º, VII, a na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-digital-e-restricao-parcial",
@@ -21999,7 +22028,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "muito-dificil",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -22011,7 +22040,8 @@
       },
       "statement": "Um documento digital contém um anexo sigiloso separável. Se o requerente concorda com o formato digital, o órgão pode entregar uma cópia digital que preserve o conteúdo público e oculte o anexo protegido.",
       "correctAnswer": "C",
-      "explanation": "A anuência determina a forma de entrega. A restrição parcial delimita o conteúdo que pode constar da cópia."
+      "explanation": "A anuência determina a forma de entrega. A restrição parcial delimita o conteúdo que pode constar da cópia.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 7º, § 2º, e art. 11, § 5º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-detentor-desconhecido-ao-receber",
@@ -22028,7 +22058,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -22040,7 +22070,8 @@
       },
       "statement": "Se um órgão não possui a informação e desconhece quem a detém, pode deixar de responder até identificar o detentor.",
       "correctAnswer": "E",
-      "explanation": "O órgão deve comunicar que não possui a informação. Indicar quem a detém é cabível se souber."
+      "explanation": "O órgão deve comunicar que não possui a informação. Indicar quem a detém é cabível se souber.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 11, § 1º, III na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-objeto-especificado-sem-codigo",
@@ -22057,7 +22088,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -22069,7 +22100,8 @@
       },
       "statement": "Uma pessoa pode especificar a informação pedida por meio de descrição suficiente do documento, mesmo sem conhecer seu código de protocolo.",
       "correctAnswer": "C",
-      "explanation": "O dispositivo exige especificar a informação. Um código é uma forma de identificação, mas a descrição suficiente pode delimitar o objeto."
+      "explanation": "O dispositivo exige especificar a informação. Um código é uma forma de identificação, mas a descrição suficiente pode delimitar o objeto.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 10, caput na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-certificacao-e-copia-disponivel",
@@ -22086,7 +22118,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Arquitetura normativa: Constituição, LAI e Câmara"
       ],
@@ -22099,7 +22131,7 @@
       "statement": "O direito de acesso previsto na Lei nº 12.527/2011 abrange informações sobre a administração do patrimônio público e o uso de recursos públicos.",
       "correctAnswer": "C",
       "explanation": "Ambas as categorias estão previstas no art. 7º, VI, observadas as restrições aplicáveis.",
-      "reviewEvidence": "Reformulado após comparação com os exercícios do artigo 70. Gabarito cotejado com art. 7º, VI da Lei nº 12.527/2011."
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 7º, VI na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-inteiro-teor-por-certidao",
@@ -22116,7 +22148,7 @@
       "questionType": "conceito",
       "estimatedDifficulty": "facil",
       "cognitiveOperation": "reconhecimento",
-      "reviewStatus": "revisada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Arquitetura normativa: Constituição, LAI e Câmara"
       ],
@@ -22129,7 +22161,7 @@
       "statement": "Respeitada a segurança das informações e a legislação aplicável, o órgão pode oferecer meios para o requerente pesquisar a informação de que necessita.",
       "correctAnswer": "C",
       "explanation": "A lei admite a consulta pelo próprio requerente, condicionada à proteção das informações e ao cumprimento das normas aplicáveis.",
-      "reviewEvidence": "Reformulado após comparação com os exercícios do artigo 70. Gabarito cotejado com art. 11, § 3º da Lei nº 12.527/2011."
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 11, § 3º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-contrato-distinto-de-edital",
@@ -22146,7 +22178,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -22158,7 +22190,8 @@
       },
       "statement": "A publicação de informações sobre a seleção do fornecedor não substitui a divulgação exigida sobre o contrato posteriormente celebrado.",
       "correctAnswer": "C",
-      "explanation": "O dispositivo contempla tanto o procedimento licitatório quanto os contratos celebrados."
+      "explanation": "O dispositivo contempla tanto o procedimento licitatório quanto os contratos celebrados.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 1º, IV na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-obras-com-dados-de-acompanhamento",
@@ -22175,7 +22208,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -22187,7 +22220,8 @@
       },
       "statement": "A divulgação ativa inclui dados gerais que permitam acompanhar obras públicas, mesmo que a sociedade ainda não tenha apresentado pedidos sobre elas.",
       "correctAnswer": "C",
-      "explanation": "O acompanhamento de obras integra o conteúdo mínimo da divulgação ativa, que independe de requerimento."
+      "explanation": "O acompanhamento de obras integra o conteúdo mínimo da divulgação ativa, que independe de requerimento.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 1º, V na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-proveniencia-em-copia-de-dados",
@@ -22204,7 +22238,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#O que o Ato da Mesa nº 45/2012 exige do sítio oficial"
       ],
@@ -22216,7 +22250,8 @@
       },
       "statement": "Uma planilha atualizada e fácil de localizar satisfaz por essas duas propriedades o requisito de autenticidade, mesmo que sua origem não possa ser confirmada.",
       "correctAnswer": "E",
-      "explanation": "Atualidade e encontrabilidade não confirmam a origem. A autenticidade exige evidência própria."
+      "explanation": "Atualidade e encontrabilidade não confirmam a origem. A autenticidade exige evidência própria.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 5º, § 3º na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-acessibilidade-e-dados-automatizados",
@@ -22233,7 +22268,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -22245,7 +22280,8 @@
       },
       "statement": "A existência de acesso automatizado em formato aberto satisfaz automaticamente a exigência de acessibilidade do conteúdo para pessoas com deficiência.",
       "correctAnswer": "E",
-      "explanation": "O acesso por sistemas e a acessibilidade para pessoas são requisitos diferentes. É preciso avaliar as barreiras de acesso ao conteúdo."
+      "explanation": "O acesso por sistemas e a acessibilidade para pessoas são requisitos diferentes. É preciso avaliar as barreiras de acesso ao conteúdo.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 8º, § 3º, III e VIII na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     },
     {
       "id": "cam-cs-informar-tramitacao-e-protocolar",
@@ -22262,7 +22298,7 @@
       "questionType": "aplicacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-e8246cf71b0a935d#Ativa e passiva: o critério é a origem do acesso"
       ],
@@ -22274,7 +22310,8 @@
       },
       "statement": "Um serviço de informações que apenas informa a tramitação de documentos atende, com essa atividade, à função de protocolizar requerimentos de acesso.",
       "correctAnswer": "E",
-      "explanation": "Informar sobre tramitação e protocolizar requerimentos são atribuições distintas do serviço de informações ao cidadão."
+      "explanation": "Informar sobre tramitação e protocolizar requerimentos são atribuições distintas do serviço de informações ao cidadão.",
+      "reviewEvidence": "Lote 014: cotejo do gabarito com art. 9º, I, b e c na fonte oficial, revisão de sobreposições e testes de integridade, sessão v3 e seleção."
     }
   ]
 }

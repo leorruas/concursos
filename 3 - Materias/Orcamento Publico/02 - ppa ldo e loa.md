@@ -118,6 +118,22 @@ A Constituição, art. 165, § 8º, determina que a LOA não conterá dispositiv
 
 A ideia “a LOA não pode conter absolutamente nenhuma outra autorização” falha porque ignora as exceções constitucionais expressas. Em contrapartida, essas exceções **não** autorizam inserir qualquer matéria administrativa ou tributária na LOA.
 
+## MTO 2027: linha de base e orçamento de médio prazo
+
+No [MTO 2027, 3ª versão, capítulo 7, pp. 169–177](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027), há três estágios do marco de gasto: **Marco Fiscal de Médio Prazo (MFMP)**, **Marco Orçamentário de Médio Prazo (MOMP)** e **Marco de Desempenho de Médio Prazo (MDMP)**. São instrumentos de planejamento, não substitutos das leis **PPA, LDO e LOA**.
+
+A **linha de base da despesa** estima os custos de **manter as políticas existentes**, com ajustes de preços, volumes e compromissos já assumidos. Em regra, não incorpora criação ou expansão relevante de políticas. O **MOMP** é mais amplo: usa a linha de base como insumo, além de poder considerar novas iniciativas, expansão e revisão de gastos. **Previsão indicativa plurianual não é dotação autorizada em exercícios futuros**.
+
+**Para o PLOA 2027**, o MTO estendeu a apuração de linhas de base a **todas as despesas dos orçamentos fiscal e da seguridade social da União**, com projeções para **2028–2030** no módulo **LOA – Médio Prazo** do SIOP. Nesse módulo, as projeções do ciclo 2027 devem conter **somente linhas de base**, sem referenciais monetários prévios para essas estimativas. A regra é operacional desse ciclo, não autorização legislativa futura.
+
+**Fundamentos diferentes:** o **art. 165, § 14, da CF** permite previsões de despesa para exercícios seguintes na LOA; o **art. 4º, § 5º, da LRF** exige projeções plurianuais do marco fiscal no Anexo de Metas Fiscais da LDO federal; o **art. 5º, V, da LRF**, incluído pela LC 224/2025, estabelece anexo de estimativa de despesas para os períodos previstos em lei. Diferenciar essas exigências da apuração técnica da linha de base.
+
+**Caso progressivo:** manter o atendimento de uma unidade existente custa R$ 8 milhões em 2027 e R$ 8,4 milhões estimados em 2028 por inflação: o custo futuro pode integrar a linha de base. Instalar três novas unidades é **expansão**, a ser analisada separadamente. Nenhum desses números constitui, por si, dotação aprovada em LOA futura.
+
+**Item C/E inédito (Câmara/Cebraspe).** A linha de base da despesa do MTO 2027 deve incluir automaticamente os custos de políticas novas ainda não aprovadas, pois substitui a função do PPA.
+
+**Gabarito: Errado.** Linha de base é a projeção de **continuidade das políticas atuais**, e o MOMP pode considerar expansão; nenhum substitui o PPA. [MTO 2027, cap. 7, seções 7.1 a 7.3](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2027%3Amto2027.pdf).
+
 ## PPA LDO e LOA lado a lado
 
 | Critério | PPA | LDO | LOA |

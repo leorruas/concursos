@@ -122,6 +122,20 @@ O guia do **Government Digital Service (GDS, serviço digital do governo britân
 
 **Caso de fronteira:** um story reúne votação informal sobre pauta legislativa. O resultado pode expressar participação entre pessoas expostas àquela enquete, mas não representa necessariamente a população nem substitui instrumentos institucionais de participação. O erro é inferir representatividade e efeito formal de uma funcionalidade de plataforma.
 
+## Como o Cebraspe cobra: três itens inéditos de Certo/Errado
+
+**Item 1.** Um carrossel, por reunir peças em sequência, constitui necessariamente uma narrativa transmídia, mesmo quando todos os cartões integram a mesma publicação e apenas apresentam etapas de um procedimento.
+
+**Gabarito: Errado.** Carrossel descreve estrutura navegável de uma publicação. Narrativa transmídia demanda contribuições entre meios ou plataformas. O erro transpõe definição verdadeira de outro conceito e ainda torna obrigatória uma relação que não existe.
+
+**Item 2.** A transmissão de uma audiência por live pode ampliar o acompanhamento simultâneo do evento sem que os comentários disponíveis na plataforma se convertam, por essa razão apenas, em manifestação formal no processo legislativo.
+
+**Gabarito: Certo.** Simultaneidade e ferramentas de interação não estabelecem, por si, procedimento institucional de participação. O enunciado separa transmissão, interação e efeito formal.
+
+**Item 3.** Na produção de vídeos institucionais, legendas, transcrição e audiodescrição são recursos intercambiáveis, pois cada um deles permite acessar integralmente tanto a fala quanto todas as informações visuais.
+
+**Gabarito: Errado.** Os recursos respondem a barreiras diferentes. Legendas representam áudio; audiodescrição apresenta informações visuais necessárias; transcrição disponibiliza conteúdo textual. Uma combinação pode ser necessária conforme o material.
+
 ## Decisão aplicada: acessibilidade muda a produção da peça
 
 **Caso hipotético:** a equipe precisa explicar três etapas para acompanhar uma audiência pública. Um carrossel organiza a sequência, mas os passos essenciais não devem depender apenas de texto desenhado dentro de imagens: é preciso oferecer **texto equivalente acessível**, quando a plataforma permitir, e verificar a sequência das informações. Se optar por vídeo, a fala e os sons necessários à compreensão exigem **legendas sincronizadas**, ao passo que informações visuais indispensáveis e não verbalizadas requerem **descrição adequada**, incorporada à narração ou disponibilizada por recurso específico conforme o meio. Uma descrição textual isolada fora do vídeo pode ajudar, mas **não deve ser presumida equivalente a todos os requisitos de acessibilidade audiovisual**.
@@ -137,20 +151,6 @@ O guia do **Government Digital Service (GDS, serviço digital do governo britân
 **Gabarito: Certo.** O recurso de legendas serve ao áudio; descrição da informação visual requer solução adicional, como narração com os dados essenciais. Fonte: [W3C WAI, descrição de informação visual](https://www.w3.org/WAI/media/av/description/).
 
 **Nota:** o formato não define, sozinho, obrigação técnica exata de uma plataforma: distinguem-se a norma de acessibilidade aplicável, a capacidade concreta de publicação e a adequação à tarefa. Exercícios 4 e 5 são autorais, não itens históricos da Cebraspe.
-
-## Como o Cebraspe cobra: três itens inéditos de Certo/Errado
-
-**Item 1.** Um carrossel, por reunir peças em sequência, constitui necessariamente uma narrativa transmídia, mesmo quando todos os cartões integram a mesma publicação e apenas apresentam etapas de um procedimento.
-
-**Gabarito: Errado.** Carrossel descreve estrutura navegável de uma publicação. Narrativa transmídia demanda contribuições entre meios ou plataformas. O erro transpõe definição verdadeira de outro conceito e ainda torna obrigatória uma relação que não existe.
-
-**Item 2.** A transmissão de uma audiência por live pode ampliar o acompanhamento simultâneo do evento sem que os comentários disponíveis na plataforma se convertam, por essa razão apenas, em manifestação formal no processo legislativo.
-
-**Gabarito: Certo.** Simultaneidade e ferramentas de interação não estabelecem, por si, procedimento institucional de participação. O enunciado separa transmissão, interação e efeito formal.
-
-**Item 3.** Na produção de vídeos institucionais, legendas, transcrição e audiodescrição são recursos intercambiáveis, pois cada um deles permite acessar integralmente tanto a fala quanto todas as informações visuais.
-
-**Gabarito: Errado.** Os recursos respondem a barreiras diferentes. Legendas representam áudio; audiodescrição apresenta informações visuais necessárias; transcrição disponibiliza conteúdo textual. Uma combinação pode ser necessária conforme o material.
 
 ## Relações com outros temas e heurísticas
 

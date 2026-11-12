@@ -112,5 +112,5 @@ Também são recorrentes questões que tentam induzir o candidato a marcar comun
 
 ---
 **Fontes Brutas:**
-- [[00 inbox/05-07-2026]]
-- [[00 inbox/06-07-2026]]
+
+

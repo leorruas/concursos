@@ -109,3 +109,34 @@ Foi adicionada proteção **restrita ao concurso `camara-2026` e à matéria `in
 - **Alerta também no ponto de estudo:** o hub `3 - Materias/Informatica/informatica.md` lista os 13 itens e orienta a não utilizá-los em seleções feitas diretamente dos artigos.
 
 **Nível de evidência:** a inspeção acima foi executada sobre os **conteúdos efetivos do GitHub**, reproduzindo a regra de extração. Isso **não substitui** executar `node scripts/test-camara-questions.js` no checkout do repositório, ainda pendente. O bloqueio em tempo de validação das sessões foi implementado, mas a seleção em todos os canais, o tratamento de paráfrases e as regressões de testes não foram certificados.
+
+## Checkpoint de implementação editorial: correções e substitutas (11/11/2026)
+
+Autorizadas as etapas de implementação da matéria de TI. Os **13 enunciados originais continuam não homologados e bloqueados**; foram produzidas **13 questões substitutas inéditas** com IDs `Sxx-n`, gabarito, explicação, variação/contraexemplo e fonte ou remissões no próprio artigo. O status **corrigido** significa que o conteúdo substituto está publicado e relido, não que foi aprovado por prova oficial ou executado em CI.
+
+| Artigo | Problema resolvido | Alteração | Commit | Validação | Estado |
+|:--|:--|:--|:--|:--|:--|
+| 03 | acesso offline anunciado como garantia absoluta | S03-6, condição de sincronização concluída | `a0e94f9` | arquivo relido; fonte Microsoft | corrigido |
+| 05 | MAIOR/MÁXIMO sem números no intervalo | S05-5, caso vazio versus numérico | `962ea4e` | arquivo relido; documentação Microsoft | corrigido |
+| 07 | restrições de links de pasta e download | S07-5, controle de arquivo e escopo de permissão | `136df12` | arquivo relido; Microsoft Support/Learn | corrigido |
+| 09 | cookie definido obrigatoriamente como arquivo em disco | S09-5, conceito HTTP e contexto first-party | `76553a0` | arquivo relido; MDN | corrigido |
+| 13 | archive bit tratado como parte universal de backup | S13-1 e S13-4, mecanismo versus tipo | `583cbf6` | arquivo relido; Azure Backup | corrigido |
+| 18 | deep learning absoluto e atribuições não verificadas ao Ulysses | S18-3 e S18-6 | `a5043fa` | arquivo relido; Câmara e MCTI | corrigido |
+| 21 | distribuição marginal chamada conjunta | S21-4, distinção P(X), P(X,Y), P(Y\|X) | `94bf336` | arquivo relido; exemplo matemático | corrigido |
+| 22 | CoT como garantia universal de acurácia | S22-2, limite de evidência experimental | `beef7b9` | arquivo relido; artigo de pesquisa | corrigido |
+| 24 | polaridade universal dos percentuais | S24-4, metas e direção de melhoria | `edec6d1` | arquivo relido; casos aritméticos | corrigido |
+| 27 | linha de base zero como obrigação universal | S27-5, codificação e distorção | `b199398` | arquivo relido; cálculo 98/100 | corrigido |
+| 29 | materialização DAX universal | S29-1, Import com contexto de expressão padrão | `43d3a07`, `5a75aea` | arquivo relido; Microsoft Learn | corrigido |
+| 18, 23 | instituição normativa EBIA, PL 2.338 e LGPD art. 20 | bibliografia, exemplos, 2 questões adicionais | `c51df03`, `9b161c6` | fontes oficiais Câmara/MCTI/LGPD | corrigido |
+| 17 | generalizações sobre governo digital e responsabilização | conceitos e casos condicionados ao alcance legal | `356a754` | arquivo relido; Lei 14.129 | corrigido |
+| 12 | presunção absoluta e contestação de assinatura digital | conceito de não repúdio e referência MP 2.200-2 | `e278375`, `bc4028b` | arquivo relido; texto oficial Câmara | corrigido |
+| 19 | ausência de exemplo quantitativo de taxa-base | caso de 10.000, VPP 15,38%, questão inédita | `d31ab27` | aritmética explícita e arquivo relido | corrigido |
+| 24 e 26 | ausência de ponte entre denominador e visualização | exemplos de população, seleção e gráfico | `5164bde`, `1ecf6a5` | arquivo relido e relações internas | corrigido |
+| Hub TI | aviso obsoleto de substitutas como rascunho | referência às 13 substitutas publicadas | `c0c785e` | arquivo relido | corrigido |
+| Teste CAM-TI | ausência de exigência de substituta rastreável | assert para IDs Sxx-n em 13 itens bloqueados | `7eb0f83` | código relido; **Node não executado** | pendente |
+
+**Verificação da etapa:** os 11 artigos com itens bloqueados foram relidos após os commits; os **13 IDs de substituição** estão presentes e os **13 gabaritos originais continuam NÃO HOMOLOGADOS**. Foram mantidos `articleId`, aliases, caminhos e outros conteúdos. O teste `scripts/test-camara-questions.js` foi ampliado, mas a execução no GitHub Actions e a verificação integral de backlinks e renderização continuam pendentes.
+
+**Integração:** o hub `3 - Materias/Informatica/informatica.md` agora informa que cada enunciado bloqueado possui substituta. Não foi criado artigo canônico novo: o inventário CAM-TI já tem os 28 artigos próprios e os casos necessários couberam em seções dos artigos existentes. Não houve alteração de catálogo ou de outras matérias.
+
+**Próximo lote independente:** executar testes Node/CI em checkout e testar renderização da wiki, verificar correspondência dos links da nova seção e conferir a cobertura pedagógica transversal do edital. Não homologar automaticamente as 155 questões originais remanescentes; elas precisam de calibração externa quando usadas como simulado de banca.

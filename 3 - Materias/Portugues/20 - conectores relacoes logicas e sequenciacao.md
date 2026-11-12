@@ -17,13 +17,13 @@ Na atividade deliberativa e na redação dos pareceres na Câmara dos Deputados,
 > **Redação A**: *"O projeto de lei atende aos requisitos formais de tramitação, **mas** apresenta incompatibilidade material com o princípio da separação dos Poderes."*  
 > **Redação B**: *"**Embora** apresente incompatibilidade material com o princípio da separação dos Poderes, o projeto de lei atende aos requisitos formais de tramitação."*
 
-Embora ambas as frases articulem as mesmas premissas fáticas, seus efeitos jurídicos e persuasivos são opostos:
-- Na **Redação A**, o conector adversativo coordenado (*mas*) introduz o argumento que possui maior peso discursivo (*o argumento decisivo*), orientando a conclusão para a **rejeição da matéria**;
-- Na **Redação B**, o conector subordinativo concessivo (*embora*) rebaixa a incompatibilidade material a um obstáculo superado, direcionando o foco argumentativo para o cumprimento dos requisitos formais e orientando a conclusão para a **aprovação**.
+Embora ambas as frases articulem premissas semelhantes, **a orientação argumentativa pode mudar**. O conectivo não altera por si só a validade jurídica do parecer nem determina automaticamente uma decisão institucional:
+- Na **Redação A**, o conector adversativo coordenado (*mas*) coloca em destaque o contraste da incompatibilidade material, que pode servir de fundamento para defender a **rejeição da matéria**, conforme a conclusão expressa no texto;
+- Na **Redação B**, o conector subordinativo concessivo (*embora*) apresenta a incompatibilidade material como concessão em relação ao enunciado principal, destacando os requisitos formais; **isso não torna a incompatibilidade juridicamente superada nem assegura aprovação**.
 
 Nas provas do **Cebraspe**, o domínio de **conectores e relações lógico-semânticas** é avaliado em nível exaustivo. A banca cobra:
 1. **O valor lógico-semântico exato dos conectores**: causa, consequência, oposição/adversidade, concessão, condição, conformidade, proporção, finalidade, comparação e explicação;
-2. **A fronteira entre adversidade (coordenação) e concessão (subordinação)**: o argumento mais forte fica na oração introduzida pelo conectivo adversativo, ao passo que fica na oração principal diante do conectivo concessivo;
+2. **A fronteira entre adversidade (coordenação) e concessão (subordinação)**: a estrutura com *mas* frequentemente destaca o contraste posterior, ao passo que a estrutura com *embora* costuma destacar a oração principal; o efeito concreto depende do contexto e da finalidade;
 3. **Equivalência semântica e correções sintáticas na reescrita**: a substituição de conectivos e a correspondente exigência de alteração do modo verbal (indicativo $\leftrightarrow$ subjuntivo);
 4. **Conectivos polissêmicos**: as múltiplas faces de *como* (causal, comparativo, conformativo, aditivo), *se* (condicional, integrante, causal), *já que* e *posto que* (concessivo na tradição normativa; há registros de uso causal em outras variedades).
 

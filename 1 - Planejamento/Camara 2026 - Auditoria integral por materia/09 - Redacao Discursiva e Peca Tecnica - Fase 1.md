@@ -604,3 +604,22 @@ Método reproduzível: extrair todos os alvos dos wikilinks `[[alvo|rótulo]]` d
 **Julgamento de fase:** a **auditoria editorial do núcleo próprio de Redação possui diagnóstico suficientemente fundamentado para a fase de planejamento**, inclusive inventário, cobertura, arquitetura e riscos. **A auditoria integral transversal ainda não pode ser certificada como concluída** sem o cotejo profundo das notas compartilhadas relevantes, que devem ser coordenadas com as respectivas frentes. O teste real de aprendizagem permanece uma atividade posterior, que deve acontecer na rotina privada. Mantém-se o status `parcialmente-verificado` de forma específica e honesta, sem impedir autorização futura da Fase 2.
 
 **Prioridade revisada:** P0 corrigir **RD-021** (wikilinks e semântica de numeração), **RD-020** (hub antigo), **RD-017** (relação ação/indicador) e **RD-018** (estados de correção); P1 ampliar peça de 40–50 linhas e respostas comparadas por qualidade; P2 integrar retestes privados e observar folha manuscrita. Todas são **recomendações**, não alterações autorizadas neste turno.
+
+
+## Checkpoint de implementação editorial autorizado: 11/11/2026
+
+O usuário autorizou expressamente a fase de implementação para **Redação e Peça Técnica**, sem estender o escopo às outras matérias. Os blocos de auditoria anteriores são registros históricos; neste checkpoint há commits reais.
+
+| Artigo | Problema resolvido e alteração | Commit(s) | Estado |
+| --- | --- | --- | --- |
+| Redação 06, peça técnica | Modelo adicional **autoral de 45 linhas digitais**, vinculação entre três medidas e avaliações correspondentes, contraexemplo e reescrita; caso organizado antes das fontes | `3c0f05e`, `9865006` | **validado**: texto recuperado e grade conferida, manuscrito pendente |
+| Redação 07, autocorreção | Critérios observáveis para `atendido`, `parcial`, `ausente` e `incorreto`, regra de precedência e três respostas graduadas | `aeadb26` | **validado**: leitura e exemplos conferidos |
+| Redação 02 e 03 | Reparadas remissões a inexistentes temas gerais antigos de 04–06, mantendo seus conceitos | `c4213fb`, `98f0879` | **validado**: ausência de wikilinks órfãos |
+| Hub Redação | Trilha 01/04/05/06/07 e complementares 08/09; numeração do planejamento histórico desambiguada; oficinas CAM-DIS-006–008 incorporadas em 06 reconhecidas como existentes | `f39506d`, `6974b41` | **validado**: navegação e catálogo |
+| Redação 08, comparações | Exercício adicional autoral sobre finalidade institucional e propaganda partidária, com modelo e limites | `26ce695` | **validado**: confronto com art. 37, §1º, Constituição |
+| Redação 09, resposta normativa | Exemplo adicional autoral de transparência ativa e passiva, arts. 8º e 10 da Lei nº 12.527/2011 | `879346b` | **validado**: dispositivos conferidos |
+| Cinco arquivos provisórios paralelos criados durante concorrência | Outra execução já havia publicado 08/09 e oficinas técnicas 006–008; os novos casos úteis foram incorporados ao núcleo e os arquivos duplicados, sem integração ao catálogo, foram excluídos para preservar **uma unidade canônica por conceito** | exclusões `6499fc7`, `f491900`, `00cd121`, `bfbfd30`, `d8d545d` | **validado**: árvore física final e referências |
+
+**Teste estático pós-commit:** árvore recursiva do branch `main` com `truncated: false`; **nove artigos mais hub** em `3 - Materias/Redacao/`; os nove IDs correspondem ao catálogo da Câmara, aparecem no `index.md` e os wikilinks internos da matéria não têm alvos inexistentes. Distinção **real vs. autoral** e fórmulas do edital preservadas. Fontes normativas consultadas: [CF, art. 37, §1º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), [LAI, arts. 8º e 10](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), [página oficial do certame](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades).
+
+**Publicação:** GitHub Actions `pages.yml` consultado; várias execuções de pushes concorrentes estavam canceladas e a última ainda estava **em fila**. Portanto **publicação não foi validada nesta rodada**. Testes locais Node não executados sem shell; a verificação de links e catálogo foi feita diretamente pelo conector. **Próximo passo:** conferir workflow de Pages concluído após o lote e verificar artigo no site publicado. Treino manuscrito cronometrado e registro privado do desempenho continuam atividades do estudante, não critérios de validação editorial.

@@ -96,6 +96,64 @@ O padrão definitivo de peça técnica do concurso da própria Câmara, aplicado
 
 Se o comando disser **“elabore um briefing”**, a mesma situação vira uma definição de problema, públicos, objetivos, restrições, informações disponíveis e lacunas a levantar para orientar uma equipe criativa; não exige concluir avaliação de impacto já realizada. Se disser **“apresente diagnóstico”**, a prioridade passa a distinguir evidência disponível, hipótese e necessidade de pesquisa. Se disser **“proponha plano”**, o documento passa a articular objetivo, público, ações, meios, responsáveis, cronograma e critérios de avaliação, conforme o enunciado. **O gênero muda com a finalidade, não com a preferência do candidato.**
 
+### Modelo completo de outro gênero: briefing de 43 linhas artificiais
+
+**Comando autoral:** “Redija um briefing para orientar a equipe de comunicação sobre a participação em uma audiência pública. Delimite problema e lacunas, objetivo, públicos, informações obrigatórias, entregas, restrições e procedimento de verificação.” **Até 50 linhas** no treino. O gênero é escolhido aqui para aprendizagem, **não fixado pelo edital**.
+
+```text
+01 BRIEFING: PARTICIPAÇÃO EM AUDIÊNCIA PÚBLICA
+02 Destinatário: equipe de conteúdo e canais oficiais.
+03 Objeto: orientar a produção de peças de serviço
+04 sobre acesso e participação em audiência pública.
+05
+06 1. Contexto e problema ainda em apuração
+07 Há relatos de dificuldade de localizar agenda
+08 e instruções nos meios institucionais existentes.
+09 Não se sabe se a causa é linguagem, navegação,
+10 divulgação ou barreira no processo de inscrição.
+11 Examinar dúvidas e observar tarefas de usuários
+12 antes de atribuir o problema a um único fator.
+13
+14 2. Objetivo e públicos
+15 Objetivo: tornar localizáveis e compreensíveis
+16 datas, requisitos e procedimentos de participação.
+17 Considerar novos participantes, representantes
+18 de entidades e pessoas com barreiras de acesso
+19 às informações ou aos formatos disponibilizados.
+20 Confirmar necessidades antes de segmentar ações.
+21
+22 3. Informações essenciais para criação
+23 Validar tema, data, local ou transmissão oficial,
+24 requisitos, inscrição e formas de atendimento.
+25 Confirmar fonte, unidade responsável e atualização.
+26 Identificar dúvidas recorrentes e suas possíveis causas.
+27 Não inventar dados ausentes do serviço.
+28
+29 4. Orientações e entregas
+30 Priorizar instruções de serviço e impessoalidade.
+31 Preparar página de referência com etapas claras;
+32 convites acessíveis vinculados ao conteúdo oficial;
+33 e roteiro de respostas para os canais de atendimento.
+34 Testar links, textos e recursos de acessibilidade
+35 com públicos pertinentes ao formato utilizado.
+36
+37 5. Revisão e avaliação inicial
+38 Submeter conteúdo de serviço à área competente.
+39 Verificar se usuários encontram e entendem as etapas
+40 por meio de tarefas observadas e dúvidas registradas.
+41 Corrigir problemas antes de ampliar a divulgação.
+42 Visualizações isoladas não comprovam compreensão.
+43 Este documento orienta produção, não atesta impacto.
+```
+
+**Grade autoral de autocorreção:** destinatário e objeto (1–4); fatos e hipóteses (6–12); objetivo e públicos provisórios (14–20); informações e lacunas (22–26); orientações e entregas (28–34); revisão, observação e limites (36–43). A estrutura foi montada para o comando fictício, **sem pesos ou nota da banca**. Uma linha digitada não corresponde automaticamente a uma linha manuscrita.
+
+**Contraexemplo:** “Produzir vídeo de grande impacto, destinado a todos; medir curtidas para comprovar maior participação.” O texto confunde solução com problema, ignora informações necessárias à equipe e apresenta indicador insuficiente para comprovar compreensão ou efeito causal.
+
+**Caso progressivo:** se o comando pedir **diagnóstico conclusivo**, este briefing não basta: as hipóteses precisam ser confrontadas com evidências existentes; se pedir **plano com custos, prazos e responsáveis**, tais dimensões deverão aparecer explicitamente, sem presumir valores ou competências. Documento e título devem responder à finalidade exigida.
+
+**C/E inéditos, comentados:** (1) “O briefing pode registrar hipóteses pendentes, desde que as identifique como não verificadas.” **Certo:** é um instrumento de orientação para criação. (2) “Briefing e nota técnica sempre possuem a mesma estrutura e precisam apresentar impacto comprovado.” **Errado:** a finalidade do gênero e o comando delimitam o conteúdo exigido.
+
 ## Produção e revisão
 
 **Exercício novo autoral:** “Uma instituição pública deseja explicar um serviço digital recém-lançado a públicos com diferentes níveis de familiaridade tecnológica. Elabore um plano técnico de comunicação com diagnóstico a validar, públicos, objetivos, ações em canais adequados e formas de acompanhamento.” Produza **até 50 linhas**, à mão: 10 minutos de leitura/grade, 40–45 de redação, 15 de conferência e 15 de reescrita focal, ajustando o tempo ao bloco semanal disponível. Evite inventar orçamento, público medido ou resultados.

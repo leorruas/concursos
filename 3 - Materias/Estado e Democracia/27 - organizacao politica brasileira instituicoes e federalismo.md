@@ -18,7 +18,7 @@ A **organização política brasileira** combina a forma de **Estado federal**, 
 
 A **República Federativa do Brasil** é soberana; **União, estados, Distrito Federal e municípios** são entes autônomos, conforme os arts. 1º e 18 da Constituição. A União integra a federação e atua nas relações internacionais em nome do Estado brasileiro nos termos constitucionais: isso não converte os demais entes em órgãos administrativos subordinados.
 
-**Recorte editorial da CAM-CP-018:** explicar a arquitetura política e as tensões de coordenação. A repartição jurídica detalhada dos arts. 18 a 36 já consta em [[3 - Materias/Direito Constitucional/11 - organizacao do estado|Organização do Estado]], enquanto [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|Federalismo e capacidades estatais]] examina competência, burocracia e capacidade de implementação. Esta nota os conecta às instituições representativas, às coalizões, à cooperação e aos conflitos federativos.
+**Recorte editorial da [[3 - Materias/Estado e Democracia/27 - organizacao politica brasileira instituicoes e federalismo|Organização política brasileira: instituições, federalismo e coordenação]]:** explicar a arquitetura política e as tensões de coordenação. A repartição jurídica detalhada dos arts. 18 a 36 já consta em [[3 - Materias/Direito Constitucional/11 - organizacao do estado|Organização do Estado]], enquanto [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|Federalismo e capacidades estatais]] examina competência, burocracia e capacidade de implementação. Esta nota os conecta às instituições representativas, às coalizões, à cooperação e aos conflitos federativos.
 
 ## Eixos da organização política: distinções obrigatórias
 
@@ -31,7 +31,7 @@ A **República Federativa do Brasil** é soberana; **União, estados, Distrito F
 | Separação funcional | Quem legisla, administra e julga? | Legislativo, Executivo e Judiciário | Independência ≠ isolamento |
 | Sistema partidário | Como organizações partidárias disputam e coordenam poder? | Competição multipartidária | Várias legendas ≠ fragmentação ou polarização automaticamente elevadas |
 
-A [[3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia|CAM-CP-008]] trata da república; [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|CAM-CP-009]] examina o presidencialismo; [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|CAM-CP-012]] examina freios e contrapesos; e [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|CAM-CP-017]] diferencia as dimensões do sistema partidário. Aqui, o foco é **como esses eixos coexistem na organização brasileira**.
+A [[3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia|Formas de governo: república e monarquia]] trata da república; [[3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo|Sistemas de governo: presidencialismo e parlamentarismo]] examina o presidencialismo; [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|Separação de Poderes: funções, freios e contrapesos]] examina freios e contrapesos; e [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|Sistemas partidários: competição, fragmentação e institucionalização]] diferencia as dimensões do sistema partidário. Aqui, o foco é **como esses eixos coexistem na organização brasileira**.
 
 ## Federação: autonomia, soberania e competências
 
@@ -129,10 +129,10 @@ As trocas de maior risco são **União × República Federativa do Brasil**, **a
 
 - [[3 - Materias/Direito Constitucional/11 - organizacao do estado|Organização do Estado]]: normas constitucionais e competências detalhadas.
 - [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|Federalismo e capacidades estatais]]: capacidade efetiva, burocracia e desigualdade de implementação.
-- [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|CAM-CP-012: separação de Poderes]]: controles horizontais e competências.
-- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|CAM-CP-013: coalizões]]: articulação política federal não se confunde com coordenação federativa.
-- [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|CAM-CP-017: sistemas partidários]]: padrões de competição nas diferentes arenas territoriais.
-- [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|CAM-CP-006: formação histórica do Estado]]: centralização e descentralização ao longo das constituições brasileiras.
+- [[3 - Materias/Estado e Democracia/21 - separacao de poderes freios e contrapesos|Separação de Poderes: funções, freios e contrapesos]]: controles horizontais e competências.
+- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]]: articulação política federal não se confunde com coordenação federativa.
+- [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|Sistemas partidários: competição, fragmentação e institucionalização]]: padrões de competição nas diferentes arenas territoriais.
+- [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|Formação histórica do Estado brasileiro]]: centralização e descentralização ao longo das constituições brasileiras.
 
 ## Tensões e pegadinhas
 

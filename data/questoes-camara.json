@@ -7826,6 +7826,222 @@
       "statement": "Ao escolher um segmento para atendimento imediato, o alto volume de demanda torna dispensável verificar se a organização dispõe de capacidade para prestar o serviço requerido.",
       "correctAnswer": "E",
       "explanation": "A demanda informa a atratividade. A capacidade de atender é um critério distinto e pode impedir a escolha para atendimento imediato."
+    },
+    {
+      "id": "cam-di-pagamento-e-controle-editorial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing digital",
+      "articleId": "art-c2d947e6a15083bf",
+      "conceptId": "pagamento-e-controle-editorial",
+      "mechanism": "pagamento-e-controle-editorial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2d947e6a15083bf#Canais e meios: categorias que se cruzam"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md",
+        "section": "Canais e meios: categorias que se cruzam"
+      },
+      "statement": "Uma campanha pode divulgar a mesma mensagem por anúncio comprado em uma rede social e por publicação no portal institucional, combinando mídia paga e própria.",
+      "correctAnswer": "C",
+      "explanation": "O anúncio usa distribuição comprada. O portal é um canal sob controle editorial institucional. O conteúdo pode ser igual em ambas as modalidades."
+    },
+    {
+      "id": "cam-di-percurso-com-retorno",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing digital",
+      "articleId": "art-c2d947e6a15083bf",
+      "conceptId": "percurso-com-retorno",
+      "mechanism": "percurso-com-retorno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2d947e6a15083bf#Jornada: necessidade, tarefa e experiência"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md",
+        "section": "Jornada: necessidade, tarefa e experiência"
+      },
+      "statement": "Se um usuário retorna à página de orientações para conferir um documento antes de enviar o formulário, o percurso deve ser excluído da análise de jornada por deixar de seguir a ordem idealizada.",
+      "correctAnswer": "E",
+      "explanation": "Retornos revelam necessidades e atritos reais. A jornada observada pode incluir revisitas, interrupções e mudanças de canal."
+    },
+    {
+      "id": "cam-di-coerencia-da-fonte-de-servico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing digital",
+      "articleId": "art-c2d947e6a15083bf",
+      "conceptId": "coerencia-da-fonte-de-servico",
+      "mechanism": "coerencia-da-fonte-de-servico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2d947e6a15083bf#Planejamento e governança da integração"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md",
+        "section": "Planejamento e governança da integração"
+      },
+      "statement": "Se redes sociais e portal anunciam prazos divergentes, alinhar as equipes a uma fonte oficial comum pode corrigir um problema de integração ainda que cada canal mantenha seu próprio formato.",
+      "correctAnswer": "C",
+      "explanation": "A divergência é informacional. Uma fonte comum favorece a consistência do prazo sem exigir que os canais usem peças idênticas."
+    },
+    {
+      "id": "cam-di-continuidade-com-tarefa-reiniciada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / marketing digital",
+      "articleId": "art-c2d947e6a15083bf",
+      "conceptId": "continuidade-com-tarefa-reiniciada",
+      "mechanism": "continuidade-com-tarefa-reiniciada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-c2d947e6a15083bf#Integração multicanal, cross-channel e omnichannel"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/100 - marketing digital canais jornadas e integracao.md",
+        "section": "Integração multicanal, cross-channel e omnichannel"
+      },
+      "statement": "Um formulário permite ao cidadão iniciar o preenchimento no portal. O telefone recebe dúvidas sobre o mesmo serviço, mas nenhum canal recupera o preenchimento iniciado no outro. A mera disponibilidade das duas vias demonstra continuidade da tarefa entre canais.",
+      "correctAnswer": "E",
+      "explanation": "Os canais oferecem pontos de contato sobre o mesmo serviço. Continuidade da tarefa exigiria preservar informações ou o estado do percurso ao mudar de via."
+    },
+    {
+      "id": "cam-di-avaliacao-por-criterios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / comportamento do consumidor",
+      "articleId": "art-e51bc97a40d268f3",
+      "conceptId": "avaliacao-por-criterios",
+      "mechanism": "avaliacao-por-criterios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e51bc97a40d268f3#Processo de decisão de compra: cinco etapas clássicas"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md",
+        "section": "Processo de decisão de compra: cinco etapas clássicas"
+      },
+      "statement": "Uma pessoa que já reuniu informações sobre três assinaturas e agora as ordena pelo custo e pela flexibilidade de cancelamento está avaliando alternativas.",
+      "correctAnswer": "C",
+      "explanation": "A coleta formou o conjunto de opções. A ordenação aplica critérios a esse conjunto antes da escolha."
+    },
+    {
+      "id": "cam-di-variedade-e-insatisfacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / comportamento do consumidor",
+      "articleId": "art-e51bc97a40d268f3",
+      "conceptId": "variedade-e-insatisfacao",
+      "mechanism": "variedade-e-insatisfacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e51bc97a40d268f3#Quatro tipos de comportamento de compra: duas dimensões"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md",
+        "section": "Quatro tipos de comportamento de compra: duas dimensões"
+      },
+      "statement": "Um comprador de baixo envolvimento percebe diferenças entre sabores e alterna marcas mesmo satisfeito com a anterior. Essa conduta é incompatível com a busca de variedade, que pressupõe insatisfação.",
+      "correctAnswer": "E",
+      "explanation": "O modelo admite troca motivada pelo desejo de variar quando há diferenças percebidas e baixo envolvimento. A troca não implica avaliação negativa da marca anterior."
+    },
+    {
+      "id": "cam-di-duvida-apos-escolha",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / comportamento do consumidor",
+      "articleId": "art-e51bc97a40d268f3",
+      "conceptId": "duvida-apos-escolha",
+      "mechanism": "duvida-apos-escolha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e51bc97a40d268f3#Pós-compra: satisfação, lealdade e dissonância"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md",
+        "section": "Pós-compra: satisfação, lealdade e dissonância"
+      },
+      "statement": "Após escolher um serviço entre alternativas atraentes, uma pessoa que continua preocupada com as vantagens da opção rejeitada pode estar experimentando dissonância pós-compra, mesmo sem constatar defeito no serviço escolhido.",
+      "correctAnswer": "C",
+      "explanation": "O desconforto decorre da tensão entre a escolha realizada e as vantagens percebidas da opção rejeitada. Ele pode aparecer antes de qualquer falha observada."
+    },
+    {
+      "id": "cam-di-nao-uso-e-preferencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "comunicacao",
+      "unitId": "divulgacao-institucional",
+      "editalRef": "14.2.4 / Divulgação Institucional / 2 / comportamento do consumidor",
+      "articleId": "art-e51bc97a40d268f3",
+      "conceptId": "nao-uso-e-preferencia",
+      "mechanism": "nao-uso-e-preferencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-e51bc97a40d268f3#Da compra ao acesso a serviços públicos: analogia com limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Comunicacao/101 - comportamento do consumidor decisao e influencias.md",
+        "section": "Da compra ao acesso a serviços públicos: analogia com limites"
+      },
+      "statement": "Uma pessoa que inicia o pedido de um serviço público, mas abandona ao descobrir que não preenche um requisito de acesso, demonstrou preferência por um serviço concorrente.",
+      "correctAnswer": "E",
+      "explanation": "O abandono tem uma barreira de elegibilidade identificada. Para inferir preferência por alternativa concorrente seria necessário observar a existência da alternativa e evidência da escolha."
     }
   ]
 }

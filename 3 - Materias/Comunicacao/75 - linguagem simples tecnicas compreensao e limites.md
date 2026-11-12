@@ -163,9 +163,27 @@ A [publicação original da Lei nº 15.263/2025 na Câmara dos Deputados](https:
 
 **Limite de certificação:** esse cotejo sustenta o núcleo normativo e os três itens inéditos, mas **não testa a usabilidade de textos reais com cidadãos**, nem comprova que todas as técnicas, exemplos, remissões internas e explicações de acessibilidade da nota estejam integralmente certificados. A obra de Roedel de 2024 é referência de método anterior à lei, com estatuto diferente. **Estado: Corrigido no recorte normativo e nas explicações dos gabaritos; não certificado integralmente.**
 
+## Oficina de reescrita: clareza jurídica, acessibilidade e teste de tarefa (11/11/2026)
+
+**Situação:** uma notícia sobre comissão legislativa anuncia que um parecer foi aprovado. Uma primeira reescrita diz que “a lei já foi aprovada”. Essa frase pode parecer simples, porém altera o **estágio jurídico** do processo e é incorreta. Uma versão precisa distingue o fato efetivo: **“a comissão aprovou um parecer sobre a proposta; o projeto ainda seguirá as etapas aplicáveis”**, quando essas forem as condições confirmadas pela tramitação oficial. A redação deve indicar fonte e fase real, sem transformar um exemplo hipotético em notícia.
+
+**Critérios legais:** a [Lei nº 15.263/2025](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15263-14-novembro-2025-798293-publicacaooriginal-177011-pl.html) define linguagem simples, no art. 4º, pelas condições para **encontrar, compreender e usar** a informação, incluindo **palavras, estrutura e leiaute**. O art. 5º enumera técnicas de ordem direta, concisão, organização das informações importantes, explicação de jargões, acessibilidade e **teste com público-alvo** (inciso XVIII). O inciso XI também registra restrição textual a novas formas de flexão de gênero e número **em contrariedade às regras gramaticais consolidadas, ao Volp e ao Acordo Ortográfico**. A redação específica desse inciso deve ser reconhecida em prova sem inferir proibição geral de qualquer escolha de linguagem inclusiva. O art. 6º prevê, na comunicação dirigida a comunidades indígenas, versão em português e, **sempre que possível**, versão na língua dos destinatários.
+
+**Teste aplicado:** propor a cidadãos que localizem a proposta no portal, identifiquem se a deliberação ocorreu numa comissão ou no Plenário e descubram o próximo passo. Registrar **se concluíram as tarefas**, que trecho gerou equívoco e quanto apoio foi necessário. Preferência declarada por frases curtas pode complementar o teste, mas **não demonstra sozinha** compreensão ou capacidade de uso. A redação de 2024 do livro de Patrícia Roedel oferece técnicas de planejamento, desenvolvimento e avaliação; a lei federal de 2025 fornece requisitos normativos, e o Manual de Comunicação da Câmara apresenta orientações editoriais próprias.
+
+**Item 4, inédito.** Na Lei nº 15.263/2025, a linguagem simples se limita à substituição de palavras difíceis por sinônimos cotidianos, sem abranger o leiaute, a estrutura e a capacidade de o cidadão utilizar a informação.
+
+**Gabarito: Errado.** O art. 4º inclui expressamente palavras, estrutura e leiaute, vinculando-os a encontrar, compreender e usar a informação.
+
+**Item 5, inédito.** A Lei nº 15.263/2025 determina testar com o público-alvo a compreensão da mensagem, além de recomendar a organização das informações mais importantes no início do texto.
+
+**Gabarito: Certo.** Correspondem aos incisos **XVIII e X** do art. 5º. Essa regra não dispensa preservar condições e exceções de conteúdo jurídico.
+
+**Fonte:** [Lei nº 15.263/2025, arts. 4º a 6º](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15263-14-novembro-2025-798293-publicacaooriginal-177011-pl.html); [Manual de Comunicação, Texto e estilo](https://infograficos.camara.leg.br/manual-de-comunicacao/texto-e-estilo/); [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|Manual de Linguagem Simples: Roedel]]. Os itens são autorais, não reproduções do Cebraspe.
+
 ## Relações e heurísticas
 
-[[3 - Materias/Comunicacao/10 - linguagem simples|10]] mantém os fundamentos legais e de acessibilidade; [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|73]] explica uso editorial na Câmara; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|70]] aborda transparência; o **CAM-CO-030** aprofundará as etapas e procedimentos do **Manual de Linguagem Simples**, de Patrícia Roedel, sem confundir esse livro com a Lei nº 15.263/2025.
+[[3 - Materias/Comunicacao/10 - linguagem simples|10]] mantém os fundamentos legais e de acessibilidade; [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|73]] explica uso editorial na Câmara; [[3 - Materias/Comunicacao/70 - transparencia publica aplicada a comunicacao institucional|70]] aborda transparência; [[3 - Materias/Comunicacao/76 - manual de linguagem simples patricia roedel planejamento desenvolvimento e avaliacao|76: Manual de Linguagem Simples, de Patrícia Roedel]] desenvolve as etapas, as técnicas e a avaliação, distinguindo o livro de 2024 da Lei nº 15.263/2025.
 
 **Heurísticas:** palavra difícil → escolha lexical; oração de difícil processamento → sintaxe; ordem das informações → arquitetura da informação; contraste e hierarquia → apresentação; consequência jurídica errada → falta de precisão; falha de navegação → usabilidade/acessibilidade; teste só com equipe → evidência limitada. A maior pegadinha é **confundir simplificar expressão com simplificar a realidade descrita**.
 

@@ -8,6 +8,9 @@ created: 2026-11-12
 
 # Matriz de expansão de questões: Cargo 1
 
+> **Estado de transição do lote 026, auditado em 12/11/2026.** A `main` contém 1.000 novas questões validadas e 389 históricas de `pilotoDidatico`. No PR #44, 40 questões de Tecnologia da Informação e Dados passaram por revisão técnica incremental, correção de 28 mecanismos redundantes, conferência de 20 C/20 E, IDs únicos, referências literais e evidências individuais. Elas receberam `reviewStatus: validada` **somente na branch do PR**. **Contagem projetada após CI verde e merge confirmado: 1.040/2.000; saldo 960**, incluindo 120 itens de TI ainda a produzir. Enquanto o PR estiver aberto, a contagem real da `main` permanece 1.000/2.000. A tabela abaixo reflete o marco histórico pós-PR #22 e não deve ser usada como contagem atual; consultar o JSON integral da `main` em cada rodada.
+
+
 **Marco pós-PR #22:** 760 questões novas de Comunicação Social e Divulgação Institucional com status `validada`, 32 questões de Português com status `gerada`, e 389 registros legados em `pilotoDidatico`. O arquivo `data/questoes-camara.json` preserva as duas coleções, que não devem ser somadas como itens novos da meta de expansão.
 
 **Meta editorial vigente:** 2.000 questões novas validadas, além do piloto histórico. Restam **1.240** validações para essa meta, incluindo a revisão das 32 questões já geradas. A indicação anterior de '1.600 próximas questões' foi feita antes do avanço do PR: manter o número antigo criaria dupla contagem. O restante corresponde a **31 lotes de 40 itens**. Contar progresso apenas por `reviewStatus: validada`, nunca por quantidade de enunciados redigidos.

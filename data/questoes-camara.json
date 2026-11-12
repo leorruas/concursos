@@ -35799,6 +35799,1126 @@
       "correctAnswer": "C",
       "explanation": "O cargo de deputado federal não integra o rol constitucional de cargos privativos de brasileiro nato.",
       "reviewEvidence": "Lote 025: item cotejado com art. 1º a 69 ou dispositivo correlato da Constituição Federal atualizada e artigo 3 - Materias/Direito Constitucional/04 - nacionalidade.md / Nato × naturalizado: regra e exceções; CI obrigatório antes de integrar."
+    },
+    {
+      "id": "cam-ti-l026-001-exclusao-offline-propagacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-74bf9176e700b4c8",
+      "conceptId": "exclusao-offline-propagacao",
+      "mechanism": "convergencia-apos-reconexao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74bf9176e700b4c8#4. O mecanismo de sincronização e arquivos sob demanda"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md",
+        "section": "4. O mecanismo de sincronização e arquivos sob demanda"
+      },
+      "statement": "Um servidor exclui um arquivo de uma pasta sincronizada enquanto está sem internet. Quando a conexão é restabelecida, a exclusão pode propagar-se ao armazenamento remoto e a outros dispositivos associados, conforme as políticas do serviço.",
+      "correctAnswer": "C",
+      "explanation": "A sincronização busca convergência entre réplicas, inclusive para exclusões; conectividade, permissões e políticas podem limitar ou atrasar a propagação.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 001, gabarito C, mecanismo convergencia-apos-reconexao. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md / '4. O mecanismo de sincronização e arquivos sob demanda' (articleId art-74bf9176e700b4c8; theoryRef literal válido). Microsoft Learn Files On-Demand: https://learn.microsoft.com/pt-br/sharepoint/files-on-demand-windows Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. O mecanismo de sincronização e arquivos sob demanda\" do artigo 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítul. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-002-sincronizacao-copia-imutavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-74bf9176e700b4c8",
+      "conceptId": "sincronizacao-copia-imutavel",
+      "mechanism": "confundir-replica-com-historico",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74bf9176e700b4c8#5. Fronteira crítica: sincronização versus backup"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md",
+        "section": "5. Fronteira crítica: sincronização versus backup"
+      },
+      "statement": "O simples fato de uma pasta estar sincronizada com a nuvem assegura que cada versão excluída permanecerá imutável e recuperável por tempo ilimitado, mesmo sem configuração de retenção.",
+      "correctAnswer": "E",
+      "explanation": "Sincronização replica estados e operações; retenção e recuperação histórica dependem de recursos e políticas próprios, não decorrem automaticamente da sincronização.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 002, gabarito E, mecanismo confundir-replica-com-historico. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md / '5. Fronteira crítica: sincronização versus backup' (articleId art-74bf9176e700b4c8; theoryRef literal válido). Microsoft Support e artigo canônico: sincronização e retenção são controles distintos Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"5. Fronteira crítica: sincronização versus backup\" do artigo 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na . Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-003-arquivos-sob-demanda-primeiro-acesso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-74bf9176e700b4c8",
+      "conceptId": "arquivos-sob-demanda-primeiro-acesso",
+      "mechanism": "diferenciar-placeholder-de-conteudo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74bf9176e700b4c8#4. O mecanismo de sincronização e arquivos sob demanda"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md",
+        "section": "4. O mecanismo de sincronização e arquivos sob demanda"
+      },
+      "statement": "No recurso de arquivos sob demanda, um documento marcado como apenas online pode aparecer na lista do Explorador sem que seu conteúdo esteja armazenado localmente; o primeiro acesso ao conteúdo exige conexão para baixá-lo.",
+      "correctAnswer": "C",
+      "explanation": "Um marcador apenas online não equivale a uma cópia física disponível offline. O conteúdo é transferido sob demanda quando necessário.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 003, gabarito C, mecanismo diferenciar-placeholder-de-conteudo. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md / '4. O mecanismo de sincronização e arquivos sob demanda' (articleId art-74bf9176e700b4c8; theoryRef literal válido). Microsoft Learn Files On-Demand: https://learn.microsoft.com/pt-br/sharepoint/files-on-demand-windows Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. O mecanismo de sincronização e arquivos sob demanda\" do artigo 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítul. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-004-arquivo-local-liberacao-espaco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-74bf9176e700b4c8",
+      "conceptId": "arquivo-local-liberacao-espaco",
+      "mechanism": "confundir-local-com-fixado",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74bf9176e700b4c8#4. O mecanismo de sincronização e arquivos sob demanda"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md",
+        "section": "4. O mecanismo de sincronização e arquivos sob demanda"
+      },
+      "statement": "No OneDrive, todo arquivo que tenha sido aberto e esteja disponível localmente passa automaticamente à condição de sempre manter neste dispositivo, não podendo voltar ao estado apenas online.",
+      "correctAnswer": "E",
+      "explanation": "A disponibilidade local pode ser temporária. A fixação permanente é uma opção distinta, e o gerenciador de espaço pode devolver arquivos locais comuns ao estado apenas online.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 004, gabarito E, mecanismo confundir-local-com-fixado. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md / '4. O mecanismo de sincronização e arquivos sob demanda' (articleId art-74bf9176e700b4c8; theoryRef literal válido). Microsoft Learn Files On-Demand: https://learn.microsoft.com/pt-br/sharepoint/files-on-demand-windows Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. O mecanismo de sincronização e arquivos sob demanda\" do artigo 3 - Materias/Informatica/03 - arquivo pasta nuvem e sincronizacao conceitos e operacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítul. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-005-excel-referencia-mista-copia-diagonal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "excel-cont-num-vs-cont-valores",
+      "mechanism": "contar-numeros-e-celulas-preenchidas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#4. Catálogo de funções de alta incidência Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "4. Catálogo de funções de alta incidência Cebraspe"
+      },
+      "statement": "No Excel 365, um intervalo de três células contém, respectivamente, o número 10, o texto \"Pendente\" e uma célula vazia. Nesse intervalo, `CONT.NUM` retorna 1 e `CONT.VALORES` retorna 2.",
+      "correctAnswer": "C",
+      "explanation": "CONT.NUM conta apenas valores numéricos, enquanto CONT.VALORES conta todas as células não vazias, inclusive texto. A terceira célula vazia não entra em nenhuma das duas contagens.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 005, gabarito C, mecanismo contar-numeros-e-celulas-preenchidas. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md / '4. Catálogo de funções de alta incidência Cebraspe' (articleId art-484ca8ef752c3d9a; theoryRef literal válido). Microsoft Support função CONT.VALORES: https://support.microsoft.com/pt-br/excel/functions/counta-function Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial dirigida de 12/11/2026 para retirar sobreposição com exercícios do artigo, agora usando contar-numeros-e-celulas-preenchidas. Conferidos título e seção literal '4. Catálogo de funções de alta incidência Cebraspe' em art-484ca8ef752c3d9a; gabarito explicado por conceito canônico. Revisão técnica automatizada, sem homologação human. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-006-excel-cifrao-fixa-linha",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "excel-cifrao-fixa-linha",
+      "mechanism": "trocar-fixacao-linha-coluna",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#2. Aritmética de referências: Relativa, Absoluta e Mista"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "2. Aritmética de referências: Relativa, Absoluta e Mista"
+      },
+      "statement": "Ao copiar a fórmula `=A$1` da célula B3 para C3, a linha referenciada passa automaticamente de 1 para 2, pois a referência é mista.",
+      "correctAnswer": "E",
+      "explanation": "O cifrão em `A$1` fixa a linha 1; somente a coluna A é relativa. No deslocamento à direita, a referência vira `B$1`.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 006, gabarito E, mecanismo trocar-fixacao-linha-coluna. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md / '2. Aritmética de referências: Relativa, Absoluta e Mista' (articleId art-484ca8ef752c3d9a; theoryRef literal válido). Microsoft Support referências absolutas/mistas: https://support.microsoft.com/pt-br/excel/switch-between-relative-absolute-and-mixed-references Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Aritmética de referências: Relativa, Absoluta e Mista\" do artigo 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtít. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-007-tabela-dinamica-agrupar-por-categoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "tabela-dinamica-agrupar-por-categoria",
+      "mechanism": "distinguir-campo-linha-e-valor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)"
+      },
+      "statement": "Em uma Tabela Dinâmica, colocar a unidade administrativa em Linhas e o valor das despesas em Valores permite resumir numericamente os registros por unidade, conforme a função de agregação aplicada.",
+      "correctAnswer": "C",
+      "explanation": "O campo Linhas agrupa categorias e o campo Valores calcula a medida agregada, por exemplo soma ou contagem.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 007, gabarito C, mecanismo distinguir-campo-linha-e-valor. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md / '5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)' (articleId art-484ca8ef752c3d9a; theoryRef literal válido). Microsoft Support operações em Tabelas Dinâmicas: https://support.microsoft.com/en-us/excel/calculate-values-in-a-pivottable Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"5. Tabelas e Tabelas Dinâmicas (*Pivot Tables*)\" do artigo 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na pr. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-008-tabela-dinamica-atualizacao-universal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "excel-se-aninhado-com-e",
+      "mechanism": "avaliar-dois-testes-logicos-conjuntos",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#4. Catálogo de funções de alta incidência Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "4. Catálogo de funções de alta incidência Cebraspe"
+      },
+      "statement": "Em uma planilha, A1 contém 8 e B1 contém 3. A fórmula `=SE(E(A1>5;B1>5);\"Aprovado\";\"Revisar\")` retorna \"Aprovado\", pois o primeiro teste lógico é verdadeiro.",
+      "correctAnswer": "E",
+      "explanation": "A função E exige que ambos os testes sejam verdadeiros. Embora 8>5, a comparação 3>5 é falsa; portanto SE retorna \"Revisar\".",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 008, gabarito E, mecanismo avaliar-dois-testes-logicos-conjuntos. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md / '4. Catálogo de funções de alta incidência Cebraspe' (articleId art-484ca8ef752c3d9a; theoryRef literal válido). Microsoft Support função SE/E e seção 4 do artigo Excel Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial complementar de 12/11/2026, após confronto de similaridade com questões internas do artigo. Novo mecanismo avaliar-dois-testes-logicos-conjuntos, vinculado a art-484ca8ef752c3d9a, seção literal '4. Catálogo de funções de alta incidência Cebraspe'. Resposta e justificativa conferidas conceitualmente; revisão editorial técnica auto. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-009-onedrive-acesso-existente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4d63009042ff1a1",
+      "conceptId": "onedrive-acesso-existente",
+      "mechanism": "distinguir-link-e-concessao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4d63009042ff1a1#2. Tipos de links de compartilhamento e escopos de permissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
+        "section": "2. Tipos de links de compartilhamento e escopos de permissão"
+      },
+      "statement": "Ao compartilhar um link do tipo 'Pessoas com acesso existente' no OneDrive corporativo, o usuário pode facilitar a localização do arquivo sem conceder, por esse ato, novas permissões ao destinatário.",
+      "correctAnswer": "C",
+      "explanation": "Esse tipo de link direciona quem já está autorizado; a criação do link não amplia, por si só, a lista de pessoas com acesso.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 009, gabarito C, mecanismo distinguir-link-e-concessao. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md / '2. Tipos de links de compartilhamento e escopos de permissão' (articleId art-e4d63009042ff1a1; theoryRef literal válido). Microsoft Support compartilhamento: https://support.microsoft.com/pt-br/onedrive/share-files-and-folders-in-microsoft-onedrive Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Tipos de links de compartilhamento e escopos de permissão\" do artigo 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítu. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-010-onedrive-pode-exibir-altera-documento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4d63009042ff1a1",
+      "conceptId": "onedrive-pode-exibir-altera-documento",
+      "mechanism": "inverter-niveis-de-permissao",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4d63009042ff1a1#2. Tipos de links de compartilhamento e escopos de permissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
+        "section": "2. Tipos de links de compartilhamento e escopos de permissão"
+      },
+      "statement": "No OneDrive corporativo, selecionar 'Pode Exibir' concede ao destinatário permissão para alterar, renomear e excluir o conteúdo compartilhado.",
+      "correctAnswer": "E",
+      "explanation": "'Pode Exibir' é uma autorização de leitura. Alterações exigem nível de edição ou outra permissão aplicável.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 010, gabarito E, mecanismo inverter-niveis-de-permissao. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md / '2. Tipos de links de compartilhamento e escopos de permissão' (articleId art-e4d63009042ff1a1; theoryRef literal válido). Microsoft Support compartilhamento: https://support.microsoft.com/pt-br/onedrive/share-files-and-folders-in-microsoft-onedrive Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Tipos de links de compartilhamento e escopos de permissão\" do artigo 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítu. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-011-onedrive-restaurar-versao-anterior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4d63009042ff1a1",
+      "conceptId": "onedrive-link-pessoas-especificas-reenvio",
+      "mechanism": "distinguir-reencaminhamento-de-autorizacao-identificada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4d63009042ff1a1#2. Tipos de links de compartilhamento e escopos de permissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
+        "section": "2. Tipos de links de compartilhamento e escopos de permissão"
+      },
+      "statement": "Um arquivo é compartilhado no OneDrive corporativo por um link configurado para pessoas específicas, dirigido ao endereço eletrônico de uma servidora. O simples reenvio desse link a outro colega não lhe concede automaticamente a permissão associada à destinatária indicada.",
+      "correctAnswer": "C",
+      "explanation": "O escopo Pessoas específicas restringe o acesso às identidades autorizadas. Repassar a URL não amplia, por si só, o conjunto de destinatários permitidos, ressalvadas outras permissões que o colega já possua.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 011, gabarito C, mecanismo distinguir-reencaminhamento-de-autorizacao-identificada. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md / '2. Tipos de links de compartilhamento e escopos de permissão' (articleId art-e4d63009042ff1a1; theoryRef literal válido). Microsoft Support compartilhamento: https://support.microsoft.com/pt-br/onedrive/share-files-and-folders-in-microsoft-onedrive Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial complementar de 12/11/2026, após confronto de similaridade com questões internas do artigo. Novo mecanismo distinguir-reencaminhamento-de-autorizacao-identificada, vinculado a art-e4d63009042ff1a1, seção literal '2. Tipos de links de compartilhamento e escopos de permissão'. Resposta e justificativa conferidas conceitualmente; re. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-012-onedrive-bloqueio-download-e-captura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4d63009042ff1a1",
+      "conceptId": "onedrive-coautoria-simultanea",
+      "mechanism": "distinguir-coautoria-de-bloqueio-exclusivo",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4d63009042ff1a1#3. Coautoria (*Co-authoring*) e salvamento automático (*AutoSave*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md",
+        "section": "3. Coautoria (*Co-authoring*) e salvamento automático (*AutoSave*)"
+      },
+      "statement": "Quando duas pessoas possuem permissão de edição em um arquivo do Excel armazenado no OneDrive, a coautoria exige que uma delas encerre o arquivo para que a outra possa modificar células, mesmo em configurações compatíveis com edição simultânea.",
+      "correctAnswer": "E",
+      "explanation": "Em cenários compatíveis, a coautoria permite edições simultâneas no mesmo arquivo compartilhado. A disponibilidade concreta depende do formato, cliente, permissões e configuração, mas não há obrigação geral de edição sequencial.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 012, gabarito E, mecanismo distinguir-coautoria-de-bloqueio-exclusivo. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/07 - onedrive sincronizacao compartilhamento e permissoes.md / '3. Coautoria (*Co-authoring*) e salvamento automático (*AutoSave*)' (articleId art-e4d63009042ff1a1; theoryRef literal válido). Microsoft Support e artigo do OneDrive sobre coautoria Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental de 12/11/2026 para o item 012. Questão original substituída por novo mecanismo (distinguir-coautoria-de-bloqueio-exclusivo) após detecção de redundância; comparação orientada pelo artigo art-e4d63009042ff1a1, heading literal '3. Coautoria (*Co-authoring*) e salvamento automático (*AutoSave*)'. Gabarito fundamentado na. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-013-integridade-alteracao-sem-parada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-cdd153e7d11a16e6",
+      "conceptId": "integridade-alteracao-sem-parada",
+      "mechanism": "separar-integridade-disponibilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#1. Os cinco princípios fundamentais (CIDAN)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
+        "section": "1. Os cinco princípios fundamentais (CIDAN)"
+      },
+      "statement": "Um invasor altera silenciosamente os valores de uma tabela pública sem tirar o sistema do ar. O incidente atinge diretamente a integridade da informação, ainda que o serviço continue disponível.",
+      "correctAnswer": "C",
+      "explanation": "Integridade protege exatidão e completude dos dados; disponibilidade diz respeito ao acesso tempestivo e pode permanecer preservada.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 013, gabarito C, mecanismo separar-integridade-disponibilidade. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md / '1. Os cinco princípios fundamentais (CIDAN)' (articleId art-cdd153e7d11a16e6; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"1. Os cinco princípios fundamentais (CIDAN)\" do artigo 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na p. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-014-ddos-apenas-sigilo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-cdd153e7d11a16e6",
+      "conceptId": "hash-sem-referencia-confiavel",
+      "mechanism": "exigir-referencia-de-integridade-confiavel",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#1. Os cinco princípios fundamentais (CIDAN)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
+        "section": "1. Os cinco princípios fundamentais (CIDAN)"
+      },
+      "statement": "Calcular o hash SHA-256 de um documento recebido e guardá-lo no mesmo local do documento, sem dispor de um resumo anterior obtido por canal confiável, é suficiente, por si só, para provar que o documento não foi adulterado antes do recebimento.",
+      "correctAnswer": "E",
+      "explanation": "O hash permite comparar integridade quando há referência confiável. Um invasor pode substituir simultaneamente o arquivo e o resumo; calcular o hash apenas depois do recebimento não prova autenticidade histórica.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 014, gabarito E, mecanismo exigir-referencia-de-integridade-confiavel. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md / '1. Os cinco princípios fundamentais (CIDAN)' (articleId art-cdd153e7d11a16e6; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental de 12/11/2026 para o item 014. Questão original substituída por novo mecanismo (exigir-referencia-de-integridade-confiavel) após detecção de redundância; comparação orientada pelo artigo art-cdd153e7d11a16e6, heading literal '1. Os cinco princípios fundamentais (CIDAN)'. Gabarito fundamentado na seção canônica e expli. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-015-ids-deteccao-classificacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-cdd153e7d11a16e6",
+      "conceptId": "ids-deteccao-classificacao",
+      "mechanism": "distinguir-controle-detectivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#2. Matriz de classificação de controles de segurança"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
+        "section": "2. Matriz de classificação de controles de segurança"
+      },
+      "statement": "Um sistema que identifica padrões suspeitos de intrusão e gera alertas, sem por isso impedir todas as tentativas, desempenha uma função predominantemente detectiva.",
+      "correctAnswer": "C",
+      "explanation": "Controles detectivos buscam identificar e sinalizar eventos. Seu uso pode coexistir com medidas preventivas, mas não se confunde com elas.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 015, gabarito C, mecanismo distinguir-controle-detectivo. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md / '2. Matriz de classificação de controles de segurança' (articleId art-cdd153e7d11a16e6; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz de classificação de controles de segurança\" do artigo 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtí. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-016-treinamento-anti-phishing-corretivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-cdd153e7d11a16e6",
+      "conceptId": "treinamento-anti-phishing-corretivo",
+      "mechanism": "classificar-tempo-de-atuacao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cdd153e7d11a16e6#2. Matriz de classificação de controles de segurança"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md",
+        "section": "2. Matriz de classificação de controles de segurança"
+      },
+      "statement": "Treinar previamente servidores para reconhecer e-mails fraudulentos é exemplo típico de controle corretivo, porque só atua depois que o ataque foi consumado.",
+      "correctAnswer": "E",
+      "explanation": "Treinamento antecipado procura prevenir incidentes; controles corretivos restauram ou remedeiam efeitos após ocorrência.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 016, gabarito E, mecanismo classificar-tempo-de-atuacao. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md / '2. Matriz de classificação de controles de segurança' (articleId art-cdd153e7d11a16e6; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Matriz de classificação de controles de segurança\" do artigo 3 - Materias/Informatica/12 - seguranca da informacao principios cidan politicas e controles.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtí. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-017-backup-diferencial-acumulacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "backup-regra-321-cenario-concreto",
+      "mechanism": "avaliar-copias-midias-localizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#4. Estratégia de segurança: a regra 3-2-1 de backup"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "4. Estratégia de segurança: a regra 3-2-1 de backup"
+      },
+      "statement": "Uma organização conserva os dados de produção em SSD local, mantém uma cópia de segurança em fita no próprio prédio e outra cópia em armazenamento remoto. Considerando cópias independentes e recuperáveis, essa estrutura pode satisfazer a regra 3-2-1.",
+      "correctAnswer": "C",
+      "explanation": "Há três cópias incluindo a de produção, dois meios tecnológicos (SSD e fita, além do remoto) e ao menos uma cópia fora do local. A regra requer que as cópias realmente possam ser usadas na recuperação.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 017, gabarito C, mecanismo avaliar-copias-midias-localizacao. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md / '4. Estratégia de segurança: a regra 3-2-1 de backup' (articleId art-e4f1e43ef81ff76b; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental de 12/11/2026 para o item 017. Questão original substituída por novo mecanismo (avaliar-copias-midias-localizacao) após detecção de redundância; comparação orientada pelo artigo art-e4f1e43ef81ff76b, heading literal '4. Estratégia de segurança: a regra 3-2-1 de backup'. Gabarito fundamentado na seção canônica e explic. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-018-backup-incremental-elo-perdido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "backup-pastas-mesmo-disco-nao-sao-duas-midias",
+      "mechanism": "distinguir-diretorios-de-meios-independentes",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#4. Estratégia de segurança: a regra 3-2-1 de backup"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "4. Estratégia de segurança: a regra 3-2-1 de backup"
+      },
+      "statement": "Para cumprir a regra 3-2-1, basta manter dois backups em duas pastas diferentes do mesmo disco físico, pois duas pastas representam necessariamente dois tipos de mídia independentes.",
+      "correctAnswer": "E",
+      "explanation": "Duas pastas no mesmo disco compartilham o risco de falha desse único dispositivo e não constituem dois tipos de mídia. A regra recomenda cópias distribuídas por meios distintos e ao menos uma fora do local.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 018, gabarito E, mecanismo distinguir-diretorios-de-meios-independentes. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md / '4. Estratégia de segurança: a regra 3-2-1 de backup' (articleId art-e4f1e43ef81ff76b; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental de 12/11/2026 para o item 018. Questão original substituída por novo mecanismo (distinguir-diretorios-de-meios-independentes) após detecção de redundância; comparação orientada pelo artigo art-e4f1e43ef81ff76b, heading literal '4. Estratégia de segurança: a regra 3-2-1 de backup'. Gabarito fundamentado na seção canôni. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-019-rpo-perda-maxima-de-dados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "rpo-calcular-janela-perda",
+      "mechanism": "comparar-perda-efetiva-com-rpo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#6. Métricas essenciais de recuperação: RPO e RTO"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "6. Métricas essenciais de recuperação: RPO e RTO"
+      },
+      "statement": "Uma política estabelece RPO de vinte minutos. Se o último ponto recuperável do banco é das 10h e ocorre um incidente às 10h25, restaurar apenas esse ponto ultrapassa a tolerância de perda de dados definida.",
+      "correctAnswer": "C",
+      "explanation": "O intervalo entre o último ponto recuperável e o incidente é 25 minutos. Como o RPO estabelece tolerância máxima de 20 minutos de dados potencialmente perdidos, a recuperação disponível não alcança esse objetivo.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 019, gabarito C, mecanismo comparar-perda-efetiva-com-rpo. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md / '6. Métricas essenciais de recuperação: RPO e RTO' (articleId art-e4f1e43ef81ff76b; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: revisão corretiva em 12/11/2026, substituindo repetição conceitual por caso de aplicação (comparar-perda-efetiva-com-rpo). Cotejado com a seção literal '6. Métricas essenciais de recuperação: RPO e RTO' do artigo canônico art-e4f1e43ef81ff76b; conferência editorial técnica automatizada, sem validação humana. Manter revisada até triagem de originali. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-020-rto-frequencia-das-copias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e4f1e43ef81ff76b",
+      "conceptId": "rto-meta-nao-garante-recuperacao",
+      "mechanism": "distinguir-objetivo-de-tempo-real-testado",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e4f1e43ef81ff76b#6. Métricas essenciais de recuperação: RPO e RTO"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md",
+        "section": "6. Métricas essenciais de recuperação: RPO e RTO"
+      },
+      "statement": "Definir RTO de quatro horas para um serviço garante que ele será restabelecido nesse prazo após uma falha, mesmo que não existam testes de recuperação ou infraestrutura capaz de cumprir esse objetivo.",
+      "correctAnswer": "E",
+      "explanation": "O RTO é uma meta de tempo aceitável de indisponibilidade. Cumpri-la depende de procedimentos, infraestrutura, integridade das cópias e testes; fixar o objetivo não assegura o resultado.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 020, gabarito E, mecanismo distinguir-objetivo-de-tempo-real-testado. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/13 - backup estrategias tipos restauracao e diferenca de sincronizacao.md / '6. Métricas essenciais de recuperação: RPO e RTO' (articleId art-e4f1e43ef81ff76b; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: revisão corretiva em 12/11/2026, substituindo repetição conceitual por caso de aplicação (distinguir-objetivo-de-tempo-real-testado). Cotejado com a seção literal '6. Métricas essenciais de recuperação: RPO e RTO' do artigo canônico art-e4f1e43ef81ff76b; conferência editorial técnica automatizada, sem validação humana. Manter revisada até triagem d. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-021-spear-phishing-mensagem-contextualizada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-2f178d9576d10289",
+      "conceptId": "tailgating-acesso-fisico-por-carona",
+      "mechanism": "identificar-engenharia-social-em-acesso-fisico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2f178d9576d10289#3. Outras técnicas clássicas de engenharia social"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
+        "section": "3. Outras técnicas clássicas de engenharia social"
+      },
+      "statement": "Um invasor entra em uma área restrita aproveitando a passagem de um servidor autorizado pela porta controlada por crachá, sem apresentar sua própria credencial. Essa conduta é exemplo de tailgating, uma técnica de engenharia social física.",
+      "correctAnswer": "C",
+      "explanation": "Tailgating é a entrada não autorizada por 'carona' no acesso físico de alguém autorizado. A estratégia explora comportamento humano e pode dispensar mensagens ou links maliciosos.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 021, gabarito C, mecanismo identificar-engenharia-social-em-acesso-fisico. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md / '3. Outras técnicas clássicas de engenharia social' (articleId art-2f178d9576d10289; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental de 12/11/2026 para o item 021. Questão original substituída por novo mecanismo (identificar-engenharia-social-em-acesso-fisico) após detecção de redundância; comparação orientada pelo artigo art-2f178d9576d10289, heading literal '3. Outras técnicas clássicas de engenharia social'. Gabarito fundamentado na seção canôni. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-022-pharming-exige-clique-link-falso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-2f178d9576d10289",
+      "conceptId": "shoulder-surfing-vs-pharming",
+      "mechanism": "distinguir-observacao-fisica-de-redirecionamento-dns",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2f178d9576d10289#3. Outras técnicas clássicas de engenharia social"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
+        "section": "3. Outras técnicas clássicas de engenharia social"
+      },
+      "statement": "Observar a senha digitada na tela ou no teclado de alguém em um espaço compartilhado caracteriza obrigatoriamente pharming, porque envolve adulteração do destino associado a um domínio web.",
+      "correctAnswer": "E",
+      "explanation": "A observação física direta de senhas ou telas caracteriza shoulder surfing. Pharming altera a resolução ou o destino de um endereço e pode ocorrer sem observação presencial da digitação.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 022, gabarito E, mecanismo distinguir-observacao-fisica-de-redirecionamento-dns. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md / '3. Outras técnicas clássicas de engenharia social' (articleId art-2f178d9576d10289; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental de 12/11/2026 para o item 022. Questão original substituída por novo mecanismo (distinguir-observacao-fisica-de-redirecionamento-dns) após detecção de redundância; comparação orientada pelo artigo art-2f178d9576d10289, heading literal '3. Outras técnicas clássicas de engenharia social'. Gabarito fundamentado na seção . Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-023-hosts-adulterado-dominio-legitimo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-2f178d9576d10289",
+      "conceptId": "pharming-redirecionamento-local-sem-comprometer-dns",
+      "mechanism": "distinguir-resolucao-local-de-servidor-dns",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2f178d9576d10289#2. Pharming: o redirecionamento por alteração da resolução ou do destino"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
+        "section": "2. Pharming: o redirecionamento por alteração da resolução ou do destino"
+      },
+      "statement": "A adulteração do arquivo local `hosts` de um computador pode desviar um domínio institucional para endereço IP controlado pelo atacante, mesmo sem que o servidor DNS da organização tenha sido alterado.",
+      "correctAnswer": "C",
+      "explanation": "O arquivo `hosts` pode fornecer mapeamento local entre nome e endereço IP. A manipulação desse mecanismo pode redirecionar o navegador sem modificar o DNS corporativo, caracterizando um vetor possível de pharming.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 023, gabarito C, mecanismo distinguir-resolucao-local-de-servidor-dns. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md / '2. Pharming: o redirecionamento por alteração da resolução ou do destino' (articleId art-2f178d9576d10289; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: item 023 reformulado em 12/11/2026 para distinguir-resolucao-local-de-servidor-dns, afastando mecanismo repetitivo. Confrontado com artigo art-2f178d9576d10289, seção literal '2. Pharming: o redirecionamento por alteração da resolução ou do destino', sem alegar revisão humana. Pendente validação final de originalidade, testes e integração; manter s. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-024-smishing-voice-e-vishing-sms",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-2f178d9576d10289",
+      "conceptId": "smishing-voice-e-vishing-sms",
+      "mechanism": "inverter-canais-da-fraude",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2f178d9576d10289#1. Phishing: modalidades e táticas de engodo"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md",
+        "section": "1. Phishing: modalidades e táticas de engodo"
+      },
+      "statement": "Vishing designa, por definição, phishing realizado por mensagem SMS, enquanto smishing designa o uso fraudulento de chamadas de voz.",
+      "correctAnswer": "E",
+      "explanation": "Os nomes estão invertidos: smishing usa SMS ou mensagens de texto; vishing explora telefonemas ou voz.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 024, gabarito E, mecanismo inverter-canais-da-fraude. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md / '1. Phishing: modalidades e táticas de engodo' (articleId art-2f178d9576d10289; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"1. Phishing: modalidades e táticas de engodo\" do artigo 3 - Materias/Informatica/16 - phishing pharming e engenharia social tecnicas e contramedidas.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na . Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-025-dado-com-unidade-e-contexto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-217dafb9048089a8",
+      "conceptId": "dikw-conhecimento-aplicacao-de-regras",
+      "mechanism": "distinguir-informacao-de-conhecimento-aplicado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-217dafb9048089a8#2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
+        "section": "2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria"
+      },
+      "statement": "Ao examinar vários relatórios de atendimento, uma equipe identifica uma regularidade nos atrasos e formula uma regra prática para prever em quais situações precisará reforçar o atendimento. Na pirâmide DIKW, esse uso de padrões e regras corresponde ao conhecimento, e não apenas ao registro de dados contextualizados.",
+      "correctAnswer": "C",
+      "explanation": "Informação descreve dados com contexto. Conhecimento integra informações, identifica padrões e utiliza regras ou experiência para orientar como agir; o cenário passa da descrição à aplicação de uma regra.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 025, gabarito C, mecanismo distinguir-informacao-de-conhecimento-aplicado. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md / '2. A Pirâmide DIKW: dado, informação, conhecimento e sabedoria' (articleId art-217dafb9048089a8; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026, revisão corretiva incremental (12/11/2026): questão substituída após sobreposição editorial do exemplo numérico 84,2 e da definição de dado versus informação com o Item 1 do artigo 24. Nova assertiva distingue informação contextualizada de conhecimento como aplicação de padrões e regras; referência canônica: artigo art-217dafb9048089a8, seção liter. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-026-dado-bruto-sempre-decisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-217dafb9048089a8",
+      "conceptId": "codificacao-numerica-de-variavel-ordinal",
+      "mechanism": "confundir-codigo-numerico-com-escala-quantitativa",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-217dafb9048089a8#3. Variáveis e atributos: fundamentos de modelagem e estatística"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
+        "section": "3. Variáveis e atributos: fundamentos de modelagem e estatística"
+      },
+      "statement": "Um sistema registra o nível de urgência de solicitações com os códigos 1 = baixa, 2 = média e 3 = alta. Por utilizar números inteiros, essa variável passa necessariamente a ser quantitativa e as diferenças entre os códigos representam intervalos mensuráveis iguais.",
+      "correctAnswer": "E",
+      "explanation": "Os números apenas codificam categorias ordenadas. O nível de urgência é uma variável qualitativa ordinal; a codificação 1, 2 e 3 não prova distâncias quantitativas iguais entre baixa, média e alta.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 026, gabarito E, mecanismo confundir-codigo-numerico-com-escala-quantitativa. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md / '3. Variáveis e atributos: fundamentos de modelagem e estatística' (articleId art-217dafb9048089a8; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026, revisão corretiva incremental (12/11/2026): substituída assertiva redundante com item 025 sobre dado versus informação. Novo mecanismo: distinguir codificação numérica de variável qualitativa ordinal, usando níveis de urgência em vez de escolaridade do Item 3 do artigo 24. Fonte: art-217dafb9048089a8, seção literal '3. Variáveis e atributos: fundam. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-027-metrica-simples-pode-indicador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-217dafb9048089a8",
+      "conceptId": "metrica-simples-pode-indicador",
+      "mechanism": "distinguir-uso-da-medida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-217dafb9048089a8#4. Métrica versus indicador: o divisor de águas da gestão"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
+        "section": "4. Métrica versus indicador: o divisor de águas da gestão"
+      },
+      "statement": "A contagem mensal de solicitações respondidas pode ser escolhida como indicador de acompanhamento de um objetivo institucional, desde que haja definição de seu significado e uso na avaliação.",
+      "correctAnswer": "C",
+      "explanation": "Uma métrica simples pode funcionar como indicador quando selecionada para acompanhar uma condição, resultado ou objetivo; indicadores não precisam ser sempre fórmulas compostas.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 027, gabarito C, mecanismo distinguir-uso-da-medida. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md / '4. Métrica versus indicador: o divisor de águas da gestão' (articleId art-217dafb9048089a8; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Métrica versus indicador: o divisor de águas da gestão\" do artigo 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-028-indicador-sempre-meta-numerica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-217dafb9048089a8",
+      "conceptId": "polaridade-indicador-nao-vem-da-unidade",
+      "mechanism": "avaliar-direcao-desejavel-pelo-contexto",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-217dafb9048089a8#4. Métrica versus indicador: o divisor de águas da gestão"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
+        "section": "4. Métrica versus indicador: o divisor de águas da gestão"
+      },
+      "statement": "Para um indicador institucional que meça o percentual de reclamações procedentes, a unidade porcentagem, por si só, determina que valores maiores representam necessariamente melhor desempenho.",
+      "correctAnswer": "E",
+      "explanation": "A direção desejável de um indicador depende do fenômeno e do objetivo. Em medidas de reclamações procedentes, aumentar o percentual não é automaticamente positivo; o formato percentual não define a polaridade da avaliação.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 028, gabarito E, mecanismo avaliar-direcao-desejavel-pelo-contexto. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md / '4. Métrica versus indicador: o divisor de águas da gestão' (articleId art-217dafb9048089a8; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: item 028 reformulado em 12/11/2026 para avaliar-direcao-desejavel-pelo-contexto, afastando mecanismo repetitivo. Confrontado com artigo art-217dafb9048089a8, seção literal '4. Métrica versus indicador: o divisor de águas da gestão', sem alegar revisão humana. Pendente validação final de originalidade, testes e integração; manter status revisada.. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-029-count-asterisco-versus-coluna-null",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "count-asterisco-versus-coluna-null",
+      "mechanism": "distinguir-linhas-de-valores",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#4. Agregação e granularidade de dados"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "4. Agregação e granularidade de dados"
+      },
+      "statement": "Em um grupo de cinco registros, dois deles têm o campo `prazo` nulo. Uma consulta SQL que calcule `COUNT(*)` retorna cinco, enquanto `COUNT(prazo)` retorna três, desconsiderando valores nulos do campo.",
+      "correctAnswer": "C",
+      "explanation": "COUNT(*) conta as linhas do grupo, ao passo que COUNT(coluna) conta os valores não nulos daquela coluna.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 029, gabarito C, mecanismo distinguir-linhas-de-valores. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md / '4. Agregação e granularidade de dados' (articleId art-03945be9cb42c4bd; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"4. Agregação e granularidade de dados\" do artigo 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtítulo na preparação. Revis. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-030-imputacao-media-elimina-vies",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "imputacao-media-elimina-vies",
+      "mechanism": "absolutizar-imputacao",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#3. Limpeza de dados (*Data Cleansing*): operações fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "3. Limpeza de dados (*Data Cleansing*): operações fundamentais"
+      },
+      "statement": "Substituir automaticamente todas as ausências de uma variável numérica pela média observada elimina o viés da base e preserva sempre a variabilidade original.",
+      "correctAnswer": "E",
+      "explanation": "Imputação pela média pode reduzir variância e introduzir distorções, especialmente quando as ausências não são aleatórias ou existem subgrupos diferentes.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 030, gabarito E, mecanismo absolutizar-imputacao. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md / '3. Limpeza de dados (*Data Cleansing*): operações fundamentais' (articleId art-03945be9cb42c4bd; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"3. Limpeza de dados (*Data Cleansing*): operações fundamentais\" do artigo 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, catálogo e subtí. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-031-granularidade-de-nota-para-mes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "qualidade-atualidade-vs-exatidao",
+      "mechanism": "avaliar-qualidade-temporal-de-relatorio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#5. As dimensões da qualidade de dados (*Data Quality*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "5. As dimensões da qualidade de dados (*Data Quality*)"
+      },
+      "statement": "Um relatório financeiro cujos valores correspondem corretamente aos registros originais pode, ainda assim, apresentar falha de atualidade se for disponibilizado com atraso incompatível com a decisão que deveria apoiar.",
+      "correctAnswer": "C",
+      "explanation": "Exatidão trata de valores corretos; atualidade ou tempestividade trata da disponibilidade no momento adequado ao uso. Um dado pode ser exato e chegar tarde demais.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 031, gabarito C, mecanismo avaliar-qualidade-temporal-de-relatorio. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md / '5. As dimensões da qualidade de dados (*Data Quality*)' (articleId art-03945be9cb42c4bd; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental de 12/11/2026 para o item 031. Questão original substituída por novo mecanismo (avaliar-qualidade-temporal-de-relatorio) após detecção de redundância; comparação orientada pelo artigo art-03945be9cb42c4bd, heading literal '5. As dimensões da qualidade de dados (*Data Quality*)'. Gabarito fundamentado na seção canônica. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-032-agregados-reconstituem-notas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "qualidade-unicidade-vs-completude",
+      "mechanism": "identificar-duplicidade-apesar-de-campos-completos",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#5. As dimensões da qualidade de dados (*Data Quality*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "5. As dimensões da qualidade de dados (*Data Quality*)"
+      },
+      "statement": "Uma base contém dois registros da mesma pessoa com identificadores iguais e todos os campos obrigatórios preenchidos. A ausência de valores nulos garante que não há problema de unicidade nessa base.",
+      "correctAnswer": "E",
+      "explanation": "Campos preenchidos ajudam a completude, mas duplicar a representação da mesma entidade viola a unicidade. Qualidade de dados envolve dimensões distintas que podem falhar independentemente.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 032, gabarito E, mecanismo identificar-duplicidade-apesar-de-campos-completos. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md / '5. As dimensões da qualidade de dados (*Data Quality*)' (articleId art-03945be9cb42c4bd; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental de 12/11/2026 para o item 032. Questão original substituída por novo mecanismo (identificar-duplicidade-apesar-de-campos-completos) após detecção de redundância; comparação orientada pelo artigo art-03945be9cb42c4bd, heading literal '5. As dimensões da qualidade de dados (*Data Quality*)'. Gabarito fundamentado na seç. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-033-histograma-densidade-classes-desiguais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "histograma-bimodal-hipotese-de-grupos",
+      "mechanism": "distinguir-forma-bimodal-de-identificacao-causal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#3. Anatomia matemática do histograma"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "3. Anatomia matemática do histograma"
+      },
+      "statement": "Um histograma apresenta dois picos bem separados na distribuição de tempos de atendimento. Esse padrão bimodal pode motivar a hipótese de que a amostra reúne grupos com comportamentos diferentes, mas o gráfico isolado não demonstra quais grupos seriam esses.",
+      "correctAnswer": "C",
+      "explanation": "Dois picos podem indicar subpopulações distintas, mas a origem de cada observação e a causa dos picos exigem dados ou análises adicionais. O histograma descreve a forma da distribuição, sem identificar sozinho as categorias de origem.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 033, gabarito C, mecanismo distinguir-forma-bimodal-de-identificacao-causal. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md / '3. Anatomia matemática do histograma' (articleId art-719dd4ca3e84b65a; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial dirigida de 12/11/2026 para retirar sobreposição com exercícios do artigo, agora usando distinguir-forma-bimodal-de-identificacao-causal. Conferidos título e seção literal '3. Anatomia matemática do histograma' em art-719dd4ca3e84b65a; gabarito explicado por conceito canônico. Revisão técnica automatizada, sem homologação humana;. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-034-grafico-barras-ordem-numerica-obrigatoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "grafico-barras-ordem-numerica-obrigatoria",
+      "mechanism": "confundir-categorias-com-classes",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "2. Histograma versus gráfico de barras: o divisor de águas estatístico"
+      },
+      "statement": "Em gráficos de barras de partidos políticos, as categorias precisam ser ordenadas por intervalos numéricos contíguos, sob pena de o gráfico deixar de representar os totais de cada partido.",
+      "correctAnswer": "E",
+      "explanation": "Barras representam categorias que podem ser ordenadas por critério útil; intervalos contíguos são característicos de histogramas, não obrigação de barras categóricas.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 034, gabarito E, mecanismo confundir-categorias-com-classes. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md / '2. Histograma versus gráfico de barras: o divisor de águas estatístico' (articleId art-719dd4ca3e84b65a; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: conferência editorial preliminar da relação entre enunciado, gabarito e explicação com a seção \"2. Histograma versus gráfico de barras: o divisor de águas estatístico\" do artigo 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md, na main 08a2ec1f7525. Texto original; verificação estrutural de IDs, campos, c. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-035-grafico-linhas-eixo-truncado-contexto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "grafico-linhas-distinguir-saldo-e-tendencia-monotonica",
+      "mechanism": "interpretar-inflexao-em-serie-temporal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "5. Gráfico de linhas: a continuidade temporal e suas fronteiras"
+      },
+      "statement": "Uma série mensal de atendimentos apresenta 100 casos em janeiro, 130 em fevereiro e 120 em março. Ao conectar os três valores em um gráfico de linhas, pode-se afirmar que houve crescimento contínuo durante todo o período, pois março permanece acima de janeiro.",
+      "correctAnswer": "E",
+      "explanation": "O gráfico mostra aumento de janeiro para fevereiro e redução de fevereiro para março. Estar acima do valor inicial não equivale a crescer em todos os intervalos; a linha evidencia também a reversão local.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 035, gabarito E, mecanismo interpretar-inflexao-em-serie-temporal. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md / '5. Gráfico de linhas: a continuidade temporal e suas fronteiras' (articleId art-719dd4ca3e84b65a; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: item 035 reformulado em 12/11/2026 para interpretar-inflexao-em-serie-temporal, afastando mecanismo repetitivo. Confrontado com artigo art-719dd4ca3e84b65a, seção literal '5. Gráfico de linhas: a continuidade temporal e suas fronteiras', sem alegar revisão humana. Pendente validação final de originalidade, testes e integração; manter status revisad. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-036-linhas-partidos-nominais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "barras-reordenacao-para-ranking",
+      "mechanism": "distinguir-ordem-categorica-e-valor",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#4. Gráfico de barras: horizontais versus verticais (colunas)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "4. Gráfico de barras: horizontais versus verticais (colunas)"
+      },
+      "statement": "Em um gráfico de barras que apresenta o número de solicitações de oito categorias nominais, reordenar as barras da maior contagem para a menor altera obrigatoriamente as quantidades originais, tornando incorreta a comparação entre categorias.",
+      "correctAnswer": "E",
+      "explanation": "A reordenação muda apenas a sequência de apresentação das categorias. A altura ou o comprimento de cada barra permanece associado ao mesmo valor, permitindo ordenar do maior ao menor para facilitar a comparação.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 036, gabarito E, mecanismo distinguir-ordem-categorica-e-valor. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md / '4. Gráfico de barras: horizontais versus verticais (colunas)' (articleId art-719dd4ca3e84b65a; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial complementar de 12/11/2026, após confronto de similaridade com questões internas do artigo. Novo mecanismo distinguir-ordem-categorica-e-valor, vinculado a art-719dd4ca3e84b65a, seção literal '4. Gráfico de barras: horizontais versus verticais (colunas)'. Resposta e justificativa conferidas conceitualmente; revisão editorial técn. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-037-dispersao-nao-prova-causalidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "dispersao-pares-observados-vs-totais",
+      "mechanism": "preservar-pareamento-das-duas-variaveis",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      },
+      "statement": "Para investigar a associação entre tempo de atendimento e número de solicitações por unidade, um gráfico de dispersão que mantenha os pares de medidas de cada unidade é mais apropriado do que dois totais agregados separados, pois permite observar como os valores variam conjuntamente.",
+      "correctAnswer": "C",
+      "explanation": "Cada ponto em um gráfico de dispersão representa um par de medidas observado para a mesma unidade. Totais isolados de cada variável perdem a correspondência entre as observações e não mostram o padrão bivariado.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 037, gabarito C, mecanismo preservar-pareamento-das-duas-variaveis. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md / '2. O gráfico de dispersão (*scatter plot*): relações bivariadas' (articleId art-e3831c8dec419d79; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: revisão corretiva em 12/11/2026, substituindo repetição conceitual por caso de aplicação (preservar-pareamento-das-duas-variaveis). Cotejado com a seção literal '2. O gráfico de dispersão (*scatter plot*): relações bivariadas' do artigo canônico art-e3831c8dec419d79; conferência editorial técnica automatizada, sem validação humana. Manter revisada . Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-038-pearson-zero-prova-independencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "comparar-nuvens-com-pearson-similar",
+      "mechanism": "comparar-padroes-visuais-nao-lineares",
+      "questionType": "distincao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      },
+      "statement": "Em um diagrama de dispersão, dois conjuntos podem ter coeficientes de correlação linear de Pearson próximos de zero e, ainda assim, apresentar padrões visuais diferentes, como uma nuvem sem forma evidente e outra em formato de U.",
+      "correctAnswer": "C",
+      "explanation": "Pearson resume associação linear. Um padrão curvo pode gerar correlação linear próxima de zero apesar da dependência não linear. A análise visual distingue padrões que um único coeficiente não descreve.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 038, gabarito C, mecanismo comparar-padroes-visuais-nao-lineares. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md / '2. O gráfico de dispersão (*scatter plot*): relações bivariadas' (articleId art-e3831c8dec419d79; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental em 12/11/2026 do item 038, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-e3831c8dec419d79, subtítulo literal '2. O gráfico de dispersão (*scatter plot*): relações bivariadas'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão fi. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-039-boxplot-haste-valor-observado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "boxplot-aplicar-cerca-haste-valor",
+      "mechanism": "calcular-cerca-e-posicao-da-haste",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#3. O box plot: o resumo dos cinco números de Tukey"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "3. O box plot: o resumo dos cinco números de Tukey"
+      },
+      "statement": "Em um box plot modificado de Tukey, Q1 = 10, Q3 = 20 e o maior valor observado dentro da cerca superior é 34. A haste superior termina em 34, embora a cerca teórica esteja em 35.",
+      "correctAnswer": "C",
+      "explanation": "IQR = 20 − 10 = 10; a cerca superior é 20 + 1,5 × 10 = 35. O bigode alcança a maior observação dentro da cerca (34), não o limite teórico (35).",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 039, gabarito C, mecanismo calcular-cerca-e-posicao-da-haste. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md / '3. O box plot: o resumo dos cinco números de Tukey' (articleId art-e3831c8dec419d79; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental em 12/11/2026 do item 039, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-e3831c8dec419d79, subtítulo literal '3. O box plot: o resumo dos cinco números de Tukey'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirr. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
+    },
+    {
+      "id": "cam-ti-l026-040-iqr-e-amplitude-total",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "comparar-iqr-grupos-com-mesma-amplitude",
+      "mechanism": "calcular-dispersao-central-entre-grupos",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#3. O box plot: o resumo dos cinco números de Tukey"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "3. O box plot: o resumo dos cinco números de Tukey"
+      },
+      "statement": "Duas amostras possuem a mesma mediana e a mesma amplitude total. Na primeira, Q1 = 10 e Q3 = 30; na segunda, Q1 = 18 e Q3 = 22. A igualdade dessas medidas garante que o intervalo interquartil também seja idêntico.",
+      "correctAnswer": "E",
+      "explanation": "O IQR da primeira amostra é 30 − 10 = 20; o da segunda é 22 − 18 = 4. A igualdade da mediana e da amplitude total não obriga a metade central das observações a ter a mesma dispersão.",
+      "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 040, gabarito E, mecanismo calcular-dispersao-central-entre-grupos. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md / '3. O box plot: o resumo dos cinco números de Tukey' (articleId art-e3831c8dec419d79; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental em 12/11/2026 do item 040, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-e3831c8dec419d79, subtítulo literal '3. O box plot: o resumo dos cinco números de Tukey'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirr. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
     }
   ]
 }

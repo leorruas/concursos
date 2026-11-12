@@ -37255,6 +37255,118 @@
       "correctAnswer": "E",
       "explanation": "O art. 41 da Lei nº 4.320/1964 prevê apenas três espécies de créditos adicionais. Emenda parlamentar altera proposta em tramitação e não constitui espécie de crédito adicional.",
       "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Núcleo do conceito'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado."
+    },
+    {
+      "id": "cam-orc-l027-013-imposto-saude-excecao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "nao-afetacao-saude",
+      "mechanism": "distinguir-proibicao-e-excecao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Não afetação de impostos e as exceções"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Não afetação de impostos e as exceções"
+      },
+      "statement": "Uma lei orçamentária destina recursos de impostos à aplicação mínima constitucional em ações e serviços públicos de saúde. Essa destinação viola necessariamente a vedação de vincular receita de impostos a despesas.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição, art. 167, IV, ressalva expressamente a aplicação mínima em ações e serviços públicos de saúde da regra geral de não vinculação de impostos.",
+      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 13. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Não afetação de impostos e as exceções'. Base normativa indicada: art. 167, IV, CF. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-014-universalidade-tres-orcamentos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "universalidade-tres-esferas",
+      "mechanism": "distinguir-abrangencia-de-orcamentos",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Unidade, universalidade e anualidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Unidade, universalidade e anualidade"
+      },
+      "statement": "A existência de orçamento fiscal, orçamento da seguridade social e orçamento de investimento das estatais na lei orçamentária anual federal implica, por si só, violação ao princípio da universalidade.",
+      "correctAnswer": "E",
+      "explanation": "O art. 165, § 5º, da Constituição determina que a LOA compreenda essas três peças. A divisão por esfera não equivale a excluir receitas ou despesas da abrangência legal.",
+      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 14. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Unidade, universalidade e anualidade'. Base normativa indicada: art. 165, § 5º, CF. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-015-valor-bruto-sem-compensacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "principio-orcamento-bruto",
+      "mechanism": "identificar-compensacao-indevida",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Orçamento bruto e especificação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Orçamento bruto e especificação"
+      },
+      "statement": "Ao elaborar a proposta orçamentária, um ente registra uma receita de R$ 15 milhões e, separadamente, uma despesa de R$ 2 milhões associada à arrecadação, em vez de apresentar apenas o saldo líquido de R$ 13 milhões. Esse registro é compatível com o princípio do orçamento bruto.",
+      "correctAnswer": "C",
+      "explanation": "O art. 6º da Lei nº 4.320/1964 exige receitas e despesas pelos totais, vedadas deduções na apresentação orçamentária. Registrar ambos os fluxos separadamente atende à lógica da regra.",
+      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 15. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Orçamento bruto e especificação'. Base normativa indicada: art. 6º, Lei 4.320/1964. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado."
+    },
+    {
+      "id": "cam-orc-l027-016-regra-ouro-excecao-quorum",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "regra-ouro-ressalva",
+      "mechanism": "distinguir-excecao-por-credito-aprovado",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-a2f47c0d6e184e93#Outras vedações do art. 167"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Outras vedações do art. 167"
+      },
+      "statement": "A regra de ouro admite, nos termos constitucionais, operações de crédito acima das despesas de capital quando autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados pelo Poder Legislativo por maioria absoluta.",
+      "correctAnswer": "C",
+      "explanation": "O art. 167, III, da Constituição prevê a ressalva mediante créditos suplementares ou especiais com finalidade precisa, aprovados por maioria absoluta do Legislativo. A autorização não é irrestrita.",
+      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 16. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Outras vedações do art. 167'. Base normativa indicada: art. 167, III, CF. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado."
     }
   ]
 }

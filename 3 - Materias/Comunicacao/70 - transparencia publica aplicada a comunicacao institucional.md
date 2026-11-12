@@ -5,7 +5,7 @@ title: "Transparência pública aplicada à comunicação institucional"
 type: "conceito"
 status: "ativo"
 created: 2026-11-06
-updated: 2026-11-06
+updated: 2026-11-11
 ---
 
 # Transparência pública aplicada à comunicação institucional
@@ -90,6 +90,26 @@ Quando parte do documento estiver legitimamente protegida, o art. 4º, § 2º, d
 
 **Caso de fronteira:** um órgão posta 20 vídeos de prestação de contas, mas deixa de publicar contratos e registros obrigatórios. Volume de conteúdo não equivale a cumprimento da transparência ativa. A análise depende do rol normativo, da possibilidade efetiva de acesso e da atualidade dos documentos.
 
+## Aplicação operacional: decisão editorial e cumprimento da LAI
+
+**Situação:** uma equipe precisa publicar um carrossel sobre a tramitação de uma proposição e informar o caminho para documentos e pedidos de acesso. A solução demanda duas entregas coordenadas: **informação oficial completa e verificável no sítio obrigatório** e **peça editorial que ajude o cidadão a encontrá-la e compreendê-la**. A peça de rede social favorece a descoberta, mas o art. 5º, § 2º, do [Ato da Mesa nº 45/2012 atualizado](https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html) torna obrigatória a divulgação no sítio da Câmara, e o § 3º exige condições de busca, integridade, atualização, acesso em formatos abertos, contato e acessibilidade.
+
+**Decisão A, fonte:** confirmar se a proposição foi apresentada, recebeu parecer, foi aprovada em comissão ou concluiu todo o trâmite. **Contraexemplo:** usar “lei aprovada” para um parecer favorável de relator. **Decisão B, publicação:** relacionar o resumo à página oficial com inteiro teor, pareceres e tramitação; não substituir documentação por arte publicitária. **Decisão C, proteção:** caso um processo contenha dados pessoais protegidos, publicar o trecho acessível e ocultar somente o que deva permanecer restrito, observando o art. 4º, § 2º, do ato. **Decisão D, correção:** se a tramitação mudar, atualizar o resumo e referenciar a nova situação, com data de referência.
+
+**Caso progressivo para discursiva:** (1) um cidadão encontra uma postagem, mas não o documento: **falha de encontrabilidade e completude da fonte**; (2) o arquivo existe em imagem sem pesquisa ou exportação: **problema de requisitos de acesso e processamento**; (3) um campo do documento contém dado protegido: **examinar acesso parcial**, em vez de presumir sigilo total; (4) surge pedido específico no SIC: **transparência passiva**, com procedimento próprio, sem exigência de justificativa do solicitante; (5) o gestor afirma que muitas visualizações comprovam transparência: **indicador de exposição não demonstra cumprimento legal, compreensão ou acesso**.
+
+**Dois novos itens C/E para revisão de exceções:**
+
+**Item 4, inédito.** O Ato da Mesa nº 45/2012 prevê que o sítio oficial da Câmara disponibilize informações de interesse geral em condições que incluam acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina, observada a regulamentação pertinente.
+
+**Gabarito: Certo.** O art. 5º, §§ 2º e 3º, especialmente inciso III, distingue disponibilidade oficial e requisito técnico de acesso automatizado. Não se exige que toda postagem em plataforma privada ofereça essa interface.
+
+**Item 5, inédito.** A existência de um trecho protegido por sigilo legal implica negar integralmente o documento, pois a divulgação do restante poderia revelar que houve restrição.
+
+**Gabarito: Errado.** O art. 4º, § 2º, do ato assegura acesso à parte não sigilosa por certidão, extrato ou cópia com ocultação do trecho protegido. O item transforma proteção parcial em bloqueio geral.
+
+**Fontes primárias específicas:** [Ato da Mesa nº 45/2012, texto atualizado, arts. 4º e 5º](https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html); [Lei nº 12.527/2011, arts. 8º, 10 e 11](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm). Os itens 4 e 5 são **novos exercícios autorais**, não questões reais Cebraspe. O fluxo A–D é uma proposta didática de produção e revisão, sem atribuir-lhe força normativa autônoma.
+
 ## Como o Cebraspe pode cobrar: itens inéditos de Certo/Errado
 
 **Item 1.** A publicação espontânea, no sítio oficial da Câmara, do conteúdo e da tramitação de proposições legislativas constitui exemplo de transparência ativa, mesmo que publicações em redes sociais também facilitem sua descoberta.
@@ -106,7 +126,7 @@ Quando parte do documento estiver legitimamente protegida, o art. 4º, § 2º, d
 
 ## Relações com outros temas e heurísticas
 
-A nota jurídica canônica [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência e LAI]] explica direitos, deveres e proteção de dados em perspectiva geral. Esta unidade trata de **mediação editorial e acesso efetivo**, sem reproduzir toda a teoria jurídica. [[3 - Materias/Comunicacao/02 - comunicacao publica|Comunicação pública]] analisa a relação com cidadania; **CAM-CO-025** desenvolverá a diferença entre comunicação pública, governamental e político-partidária; **CAM-CO-026 e 027** abordarão a política e o manual da Câmara. A proibição de promoção pessoal na publicidade institucional será objeto de **CAM-CO-032**.
+A nota jurídica canônica [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência e LAI]] explica direitos, deveres e proteção de dados em perspectiva geral. Esta unidade trata de **mediação editorial e acesso efetivo**, sem reproduzir toda a teoria jurídica. [[3 - Materias/Comunicacao/02 - comunicacao publica|Comunicação pública]] analisa a relação com cidadania; [[3 - Materias/Comunicacao/71 - comunicacao publica governamental e politico partidaria|Comunicação pública, governamental e político-partidária]] distingue o alcance dos conceitos; [[3 - Materias/Comunicacao/72 - ato da mesa 218 2025 politica de comunicacao da camara|Política de Comunicação da Câmara]] e [[3 - Materias/Comunicacao/73 - manual de comunicacao da camara procedimentos e linguagem|Manual de Comunicação]] estabelecem o contexto próprio da Casa. [[3 - Materias/Comunicacao/78 - publicidade institucional promocao pessoal e artigo 37 paragrafo 1|Art. 37, § 1º, e promoção pessoal]] aprofunda o limite constitucional.
 
 **Heurísticas:** iniciativa de divulgação sem pedido = ativa; resposta a solicitação = passiva; redes sociais como orientação = mediação editorial; documento verificável e atualizado = fonte; ocultação só da parte protegida = acesso parcial; linguagem simples = compreensão, não dispensa de requisitos legais. Diferencie **informação divulgada, informação acessível e informação compreendida**.
 

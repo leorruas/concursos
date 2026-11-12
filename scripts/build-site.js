@@ -340,7 +340,7 @@ if (fs.existsSync(outDir)) {
 }
 fs.mkdirSync(outDir, { recursive: true });
 
-const arquivosSPA = ['index.html', 'flashcards.html', 'style.css', 'script.js'];
+const arquivosSPA = ['index.html', 'flashcards.html', 'resultados.html', 'style.css', 'script.js'];
 for (const f of arquivosSPA) {
   const src = path.join(rootDir, f);
   const dest = path.join(outDir, f);
@@ -428,7 +428,7 @@ fs.writeFileSync(path.join(outDir, 'data/flashcards.json'), JSON.stringify(colec
 console.log('✓ Glossário nos flashcards: ' + flashcardsGlossario.generatedCount + ' novos, ' + flashcardsGlossario.linkedCount + ' vinculados a cartões existentes. Total publicado: ' + colecaoFlashcardsPublicada.cards.length + '.');
 
 // A URL dos arquivos visuais muda com seu conteúdo, evitando CSS/JS de outra publicação.
-for (const pagina of ['index.html', 'flashcards.html']) {
+for (const pagina of ['index.html', 'flashcards.html', 'resultados.html']) {
 const htmlPath = path.join(outDir, pagina);
 const htmlVersionado = fs.readFileSync(htmlPath, 'utf8').replace(/(src|href)="([^"?#]+\.(?:css|js))(?:\?[^"#]*)?"/g, (original, atributo, recurso) => {
   if (/^(?:https?:|\/\/)/.test(recurso)) return original;

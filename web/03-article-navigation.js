@@ -153,6 +153,7 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
 
     renderizarDiagramasMermaid();
     gerarTableOfContents();
+    if (window.renderizarErrosPrivadosArtigo) window.renderizarErrosPrivadosArtigo(artigo);
     renderizarBotoesNavegacao(artigo, categoriaOrigem);
 
     btnVoltar.textContent = `← voltar para ${categoriaOrigem ? limparNomeCategoria(categoriaOrigem) : "biblioteca"}`;

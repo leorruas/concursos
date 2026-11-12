@@ -26,7 +26,7 @@ Nas provas do **Cebraspe**, a cobrança das orações coordenadas exige atençã
 1. **Independência sintática $\neq$ independência semântica**: as orações coordenadas são sintaticamente autônomas, mas mantêm estreita interdependência lógica e discursiva;
 2. **A polissemia da conjunção "E"**: quando o *e* deixa de ser aditivo e passa a ter valor **adversativo** (= *mas*) ou **consecutivo/conclusivo** (= *e por isso*);
 3. **Pontuação nas orações coordenadas**: os três casos em que a **vírgula antes da conjunção "E"** é permitida ou recomendada;
-4. **O deslocamento das conjunções adversativas e conclusivas** (*porém, contudo, todavia, portanto, logo, pois*) e a mudança obrigatória da pontuação.
+4. **O deslocamento das conjunções adversativas e conclusivas** (*porém, contudo, todavia, portanto, logo, pois*) e as mudanças de pontuação conforme a posição e o valor do conectivo.
 
 ```mermaid
 flowchart TD
@@ -111,7 +111,7 @@ flowchart LR
 - **Conjunção *MAS***: Deve vir **obrigatoriamente no início** da oração coordenada adversativa, precedida de vírgula (ou ponto e vírgula): *"Debateram o tema**, mas** não votaram."* (Nunca se coloca vírgula imediatamente após *mas*, salvo se houver uma oração ou adjunto intercalado: *"Debateram, mas**, apesar do esforço,** não votaram"*).
 - **Conjunções móveis (*porém, contudo, todavia, entretanto, no entanto, logo, portanto, por conseguinte*)**:
   1. **No início da 2ª oração**: precedidas de vírgula (ou ponto e vírgula), podendo ou não haver pausa após elas (*"O prazo venceu**; portanto,** o processo foi arquivado"* ou *"O prazo venceu**, portanto** o processo foi arquivado"*);
-  2. **Deslocadas (após o sujeito ou após o verbo da 2ª oração)**: devem vir **obrigatoriamente isoladas entre duas vírgulas**!
+  2. **Deslocadas após o sujeito ou verbo**: conectivos intercalados como *todavia* e *portanto* costumam ser delimitados por vírgulas; não estender mecanicamente essa estrutura a *mas*, *logo* ou a todos os empregos de *pois*.
      - *"O prazo regimental venceu; o processo**, portanto,** foi arquivado."*
 
 ---
@@ -198,7 +198,7 @@ No período “A comissão especial analisou o mérito da proposição; o Plená
 - [ ] Errado
 
 > **Gabarito: CERTO**  
-> **Comentário**: Quando conjunções coordenativas adversativas (*porém, contudo, todavia, entretanto, no entanto*) ou conclusivas (*logo, portanto, pois, por conseguinte*) são **deslocadas** do início da oração e intercaladas após o sujeito ou após o verbo, torna-se **gramaticalmente obrigatório** isolá-las entre duas vírgulas para assinalar a ruptura da ordem linear da oração.
+> **Comentário**: Na frase examinada, **todavia** aparece intercalado após o sujeito (*o Plenário*) e é corretamente delimitado por **duas vírgulas**. O gabarito CERTO se refere a essa construção. Não se deve estender a mesma prescrição a todas as conjunções em quaisquer posições: *mas* possui distribuição diferente, e *pois* varia segundo função e posição.
 
 ---
 

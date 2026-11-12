@@ -14,7 +14,7 @@ updated: 2026-11-11
 
 ## Núcleo do conceito: a virada paradigmática da IA discriminativa para a generativa
 
-A **Inteligência Artificial Generativa (GenAI)** representa o salto tecnológico mais disruptivo da ciência da computação contemporânea. Enquanto a IA tradicional é predominantemente **discriminativa ou preditiva** (voltada a classificar amostras, separar grupos ou predizer números a partir de dados existentes, calculando $P(Y|X)$), a IA generativa é projetada para **criar novos artefatos digitais plausíveis e originais** — textos sintéticos, imagens, áudios, códigos-fonte e vídeos — modelando a distribuição de probabilidade conjunta dos próprios dados $P(X)$.
+A **Inteligência Artificial Generativa (GenAI)** representa o salto tecnológico mais disruptivo da ciência da computação contemporânea. Uma **distinção útil, mas não exaustiva**, é entre modelos discriminativos, que podem estimar a probabilidade condicional $P(Y\mid X)$ de uma classe $Y$ diante de atributos $X$, e modelos generativos, que representam distribuições dos dados para gerar exemplos como textos, imagens, áudio ou código. Uma distribuição sobre os dados observados pode ser escrita $P(X)$; **quando há duas variáveis $X$ e $Y$, a distribuição conjunta é $P(X,Y)$**, não $P(X)$. Modelos preditivos e generativos podem compartilhar arquiteturas e finalidades; criatividade, originalidade e veracidade das saídas não são garantias matemáticas da geração.
 
 No setor público e particularmente nas atividades de **Divulgação Institucional e Comunicação Social da Câmara dos Deputados**, a IA generativa atua na redação preliminar de sínteses legislativas, sumarização de relatórios orçamentários complexos e apoio à produção multimídia.
 

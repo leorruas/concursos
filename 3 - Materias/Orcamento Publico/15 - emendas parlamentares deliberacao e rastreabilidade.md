@@ -67,7 +67,7 @@ Portanto, a frase “toda emenda a qualquer projeto orçamentário precisa usar 
 
 **3. Parecer e mérito:** relatores setoriais e relator-geral analisam propostas de programação, fontes, prioridades e relatórios, segundo as competências e os limites da resolução. O plenário da CMO vota pareceres; depois, o **Congresso Nacional delibera em sessão conjunta** conforme o Regimento Comum. **Parecer favorável ≠ emenda automaticamente incluída em lei**.
 
-**4. Indicação de beneficiários após a LOA:** a identificação de destinatários e a ordem de atendimento, nas hipóteses normativas, precisam respeitar regras próprias. A **Lei Complementar 210/2024, art. 5º**, e o **art. 45-A da Resolução 1/2006-CN** disciplinam indicações em emendas de comissão, com **ata, identificação de solicitantes e deliberação do colegiado**. Segundo a Nota Técnica 03/2026 do Congresso, comissões devem deliberar propostas em até **15 dias do recebimento** e encaminhar/publicar ata aprovada em **5 dias**, no regime indicado. Não confundir prazo de indicação após publicação da LOA com prazo de apresentação de emenda ao **PLOA**.
+**4. Indicação de beneficiários após a LOA:** a identificação de destinatários e a ordem de atendimento, nas hipóteses normativas, precisam respeitar regras próprias. A **Lei Complementar 210/2024, art. 5º**, e o **art. 45-A da Resolução 1/2006-CN** disciplinam indicações em emendas de comissão, com **ata, identificação de solicitantes e deliberação do colegiado**. O **art. 5º, I e II, da Lei Complementar nº 210/2024** determina que, após a publicação da LOA, as propostas de indicação recebidas pelas comissões sejam deliberadas em até **15 dias** e que as atas das indicações aprovadas sejam publicadas e encaminhadas aos órgãos executores em até **5 dias**. A **Resolução nº 1/2006-CN, art. 45-A**, disciplina a tramitação regimental e também determina encaminhamento em cinco dias. A **Nota Técnica Conjunta nº 3/2026** apenas **descreve** essa base legal no exame do **PLDO 2027**: não cria esses dois prazos nem converte todas as regras propostas para 2027 em lei vigente. O calendário de apresentação de emendas ao **PLOA** é outra etapa. Não confundir prazo de indicação após publicação da LOA com prazo de apresentação de emenda ao **PLOA**.
 
 **5. Execução, fiscalização e prestação de contas:** uma programação aprovada ainda depende de providências administrativas, requisitos técnicos, critérios de seleção ou indicação e regras de execução. **Regime impositivo** não exclui verificação de impedimentos ou fiscalização. **Transferência especial**, prevista no art. 166-A da Constituição, dispensa convênio na hipótese pertinente, mas **não dispensa transparência, rastreabilidade ou controle**. Os detalhes de transferência e execução estão na nota [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|canônica sobre emendas e orçamento impositivo]].
 
@@ -117,6 +117,14 @@ Os melhores distratores combinam afirmações verdadeiras em **categorias difere
 
 **Gabarito: Certo.** Há diferença entre **deliberação de indicação** e **ato de execução da despesa**. **Erro provável:** confundir etapa administrativa e disponibilidade efetiva de recursos.
 
+### Caso progressivo complementar: prazo legal versus orientação de exercício
+
+Uma comissão recebe, após a publicação da LOA, propostas de indicação de beneficiários. **Primeiro passo:** examinar o art. 5º da LC nº 210/2024, que prevê deliberação em até **15 dias**. **Segundo passo:** uma vez aprovadas as indicações, o presidente da comissão tem **5 dias** para fazer constar da ata, publicar e encaminhar aos órgãos executores. **Terceiro passo:** a execução depende ainda de critérios técnicos, orçamento e trâmites próprios; a ata não equivale a empenho ou pagamento.
+
+**Item C/E inédito (Câmara/Cebraspe).** O prazo de cinco dias para a publicação e o encaminhamento das atas de indicação das emendas de comissão depende de previsão anual no PLDO 2027, pois não está estabelecido em lei complementar.
+
+**Gabarito: Errado.** A **LC nº 210/2024, art. 5º, II**, contém o prazo legal de cinco dias; a Nota Técnica Conjunta nº 3/2026 o reproduz ao examinar o PLDO 2027. A fonte do comando não deve ser confundida com o documento que o comenta. [LC nº 210/2024](https://www2.camara.leg.br/legin/fed/leicom/2024/leicomplementar-210-25-novembro-2024-796588-publicacaooriginal-173577-pl.html).
+
 ## Relações com outros temas
 
 - [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]]: execução obrigatória, transferências e impedimentos técnicos.
@@ -150,7 +158,8 @@ Em resposta sobre o papel do Parlamento no orçamento, apresentar **competência
 - [Resolução nº 1/2025-CN, alteração do rito e da indicação de emendas](https://legis.senado.gov.br/norma/40435851/publicacao/40437557).
 - [Resolução nº 2/2025-CN, aprimoramento do rito de apresentação e indicação](https://www2.camara.leg.br/legin/fed/rescon/2025/resolucao-2-23-junho-2025-797630-publicacaooriginal-175694-pl.html).
 - [Lei Complementar nº 210/2024, apresentação, indicação e execução de emendas](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm).
-- [Congresso Nacional, Nota Técnica 03/2026 sobre PLDO 2027, tabela de procedimentos e prazos de indicação](https://www.congressonacional.leg.br/documents/150599582/156145129/NTC_03-2026/85876ac9-8f1c-4d39-a4b2-1400a49a70eb).
+- [LC nº 210/2024, art. 5º: fonte legal dos prazos de 15 e 5 dias](https://www2.camara.leg.br/legin/fed/leicom/2024/leicomplementar-210-25-novembro-2024-796588-publicacaooriginal-173577-pl.html).
+- [Congresso Nacional, Nota Técnica 03/2026 sobre PLDO 2027: análise que reproduz os prazos legais](https://www.congressonacional.leg.br/documents/150599582/156145129/NTC_03-2026/85876ac9-8f1c-4d39-a4b2-1400a49a70eb).
 - [Congresso Nacional, Manual de Emendas ao PLOA 2026](https://www.congressonacional.leg.br/documents/150599582/151110307/Manual_Emendas_2026%2B-%2B27-10-11h45.pdf/9015e9f2-770f-48f0-958c-c4c6ef4bacca).
 
 **Limite editorial:** os parâmetros numéricos e procedimentos aqui citados decorrem das fontes regimentais atualizadas em 2025 e examinadas em 07/11/2026. Limites monetários de cada exercício, orientações específicas de apresentação de emendas e decisões judiciais devem ser verificados no instrumento e no período expressamente cobrados. Publicação não equivale a exercício resolvido nem aprendizado.

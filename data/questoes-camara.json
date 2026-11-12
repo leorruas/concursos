@@ -31319,6 +31319,1126 @@
       "correctAnswer": "E",
       "explanation": "O poder disciplinar também pode atingir particulares sujeitos a vínculo jurídico especial, como contratados, observadas as regras aplicáveis.",
       "reviewEvidence": "Lote 021: mecanismo, gabarito e explicação cotejados com o artigo 3 - Materias/Direito Administrativo/27 - poder hierarquico e poder disciplinar limites e distincoes.md na seção '2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial'; itens da Lei nº 8.112/1990 e Lei nº 9.784/1999 confrontados com textos compilados do Planalto. Duplicidade textual e similaridade com o banco auditadas. Dificuldade didática estimada, não calibrada."
+    },
+    {
+      "id": "cam-etica-membros-21-mais-suplentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "membros-21-mais-suplentes",
+      "mechanism": "composicao-conselho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "O Conselho de Ética e Decoro Parlamentar da Câmara possui 21 membros titulares e igual número de suplentes, conforme o Código.",
+      "correctAnswer": "C",
+      "explanation": "O caput do art. 7º determina essa composição.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / Composição e mandato (art. 7º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-apreciacao-sem-provas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "apreciacao-sem-provas",
+      "mechanism": "necessidade-de-prova",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "As condutas atentatórias descritas no art. 5º dispensam prova para sua apreciação pelo órgão competente, desde que haja repercussão pública.",
+      "correctAnswer": "E",
+      "explanation": "O parágrafo único do art. 5º exige provas para a apreciação das condutas previstas naquele artigo.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-somente-perda-sancao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "somente-perda-sancao",
+      "mechanism": "tipos-de-pena",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "As penalidades de decoro parlamentar se resumem à perda do mandato, ficando censura e suspensões fora do rol do Código de Ética.",
+      "correctAnswer": "E",
+      "explanation": "O art. 10 lista censura verbal/escrita, suspensão de prerrogativas, suspensão do exercício do mandato e perda do mandato.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-ccj-recurso-reexame-merito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "ccj-recurso-reexame-merito",
+      "mechanism": "limite-recursal-ccjc",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Confronto normativo: instrução, defesa e quórum de pareceres"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Confronto normativo: instrução, defesa e quórum de pareceres"
+      },
+      "statement": "No recurso apresentado à CCJC contra ato do Conselho de Ética que violou norma constitucional ou regimental, a comissão pode livremente refazer a avaliação de mérito da conduta, independentemente do vício alegado.",
+      "correctAnswer": "E",
+      "explanation": "Nos arts. 13, IV, e 14, § 4º, VII, a CCJC se pronuncia exclusivamente sobre os vícios constitucionais, regimentais ou do Código apontados no recurso.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / Confronto normativo: instrução, defesa e quórum de pareceres; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-suspensao-prerrogativas-seis-meses",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suspensao-prerrogativas-seis-meses",
+      "mechanism": "duracao-prerrogativas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "A suspensão de prerrogativas regimentais pode durar até seis meses, conforme o elenco de sanções do art. 10 do Código de Ética.",
+      "correctAnswer": "C",
+      "explanation": "O art. 10, inciso II, limita essa suspensão a seis meses.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-prerrogativas-plenario-maioria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "prerrogativas-plenario-maioria",
+      "mechanism": "quorum-suspensao-prerrogativas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "A suspensão de prerrogativas regimentais, proposta pelo Conselho de Ética na forma do art. 13, é apreciada pelo Plenário em votação ostensiva e por maioria absoluta.",
+      "correctAnswer": "C",
+      "explanation": "O caput do art. 13 atribui a apreciação ao Plenário e estabelece votação ostensiva e maioria absoluta.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-censura-verbal-competencia-mesa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-verbal-competencia-mesa",
+      "mechanism": "competencia-censura-verbal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "A censura verbal por perturbação da ordem de sessão é aplicada exclusivamente pelo colegiado da Mesa Diretora, mediante votação de seus integrantes.",
+      "correctAnswer": "E",
+      "explanation": "O art. 11 prevê aplicação pelo presidente da Câmara, em sessão, ou pelo presidente de comissão, durante reunião.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-relator-mesmo-partido-representado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relator-mesmo-partido-representado",
+      "mechanism": "impedimento-partidario-relator",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "No procedimento do art. 13, a escolha de relator da mesma agremiação partidária do deputado representado é permitida desde que não pertença ao mesmo estado.",
+      "correctAnswer": "E",
+      "explanation": "O art. 13, inciso I, alínea a, veda relator do mesmo partido ou bloco do representado, além das demais restrições.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-relator-estado-distinto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relator-estado-distinto",
+      "mechanism": "impedimento-geografico-relator",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Na composição da lista para relatoria de processo disciplinar do art. 13, o relator não pode pertencer ao mesmo estado do deputado representado.",
+      "correctAnswer": "C",
+      "explanation": "O art. 13, inciso I, alínea b, prevê a vedação para o relator.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-condenacao-colegiada-impedimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "condenacao-colegiada-impedimento",
+      "mechanism": "condenacao-colegiada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "A condenação criminal por órgão jurisdicional colegiado, mesmo sem trânsito em julgado, está entre as condições impeditivas para compor o Conselho de Ética.",
+      "correctAnswer": "C",
+      "explanation": "O art. 7º, § 2º, inciso IV, traz expressamente a vedação.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / Composição e mandato (art. 7º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-partido-mesa-conselho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "partido-mesa-conselho",
+      "mechanism": "partido-representacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Representação subscrita por partido político com representação no Congresso é encaminhada pela Mesa da Câmara diretamente ao Conselho de Ética, na forma do Código.",
+      "correctAnswer": "C",
+      "explanation": "O art. 9º, § 3º, dispõe sobre encaminhamento direto pela Mesa ao Conselho, no prazo legal.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-declaracao-erronea-sem-dolo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "declaracao-erronea-sem-dolo",
+      "mechanism": "elemento-subjetivo-da-declaracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Qualquer informação incorreta nas declarações exigidas pelo art. 18, mesmo sem intenção, equivale automaticamente à omissão intencional prevista no art. 4º, inciso V.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo inclui omissão intencional e, nas mesmas condições, informação falsa; a intenção é elemento do tipo ali descrito.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-presidente-escolhido-pela-mesa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "presidente-escolhido-pela-mesa",
+      "mechanism": "eleicao-presidencia-conselho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "O presidente do Conselho de Ética é livremente designado pela Mesa da Câmara, independentemente de votação entre os conselheiros titulares.",
+      "correctAnswer": "E",
+      "explanation": "O art. 7º, § 5º, prevê eleição do presidente e dos vice-presidentes pelos pares dentre os titulares.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / Composição e mandato (art. 7º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-aplicacao-aos-exercentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "aplicacao-aos-exercentes",
+      "mechanism": "escopo-subjetivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "As regras de decoro parlamentar da Câmara alcançam tanto titulares de mandato de deputado federal quanto aqueles que estejam no seu exercício, conforme o Código de Ética.",
+      "correctAnswer": "C",
+      "explanation": "O art. 1º inclui titulares e quem esteja no exercício do mandato, além de disciplinar procedimentos e sanções.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-acordo-remunerado-posse-suplente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "acordo-remunerado-posse-suplente",
+      "mechanism": "acordo-posse-suplente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Condicionar a posse de suplente a contraprestação financeira, mediante acordo entre parlamentares, caracteriza conduta incompatível com o decoro prevista no Código.",
+      "correctAnswer": "C",
+      "explanation": "O art. 4º, inciso III, prevê acordo relativo à posse de suplente condicionado a vantagem financeira ou prática contrária a deveres éticos ou regimentais.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-suplente-suspensao-superior120",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suplente-suspensao-superior120",
+      "mechanism": "suplencia-suspensao-longa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Quando a suspensão do exercício do mandato ultrapassa 120 dias, o Código prevê convocação do suplente logo após a publicação da resolução que decretar a sanção.",
+      "correctAnswer": "C",
+      "explanation": "O art. 14, § 2º, prevê convocação do suplente na suspensão superior a 120 dias.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-decisoes-ilegais-e-dever-de-obediencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "decisoes-ilegais-e-dever-de-obediencia",
+      "mechanism": "limite-da-legitimidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "O dever de respeitar decisões dos órgãos da Câmara abrange indistintamente decisões legítimas e manifestamente ilegais, segundo a redação do Código de Ética.",
+      "correctAnswer": "E",
+      "explanation": "O art. 3º, inciso IX, se refere a decisões legítimas dos órgãos da Casa.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-sigilo-implica-perda-necessaria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "sigilo-implica-perda-necessaria",
+      "mechanism": "sigilo-e-graduacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro"
+      },
+      "statement": "Toda revelação de informação oficial sigilosa por deputado é classificada diretamente no art. 4º como perda de mandato obrigatória, sem análise das espécies de infração.",
+      "correctAnswer": "E",
+      "explanation": "O art. 5º, inciso VI, prevê revelação de documentos ou informações oficiais sigilosas como conduta atentatória; a tipificação e a sanção seguem o Código.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 2. A gradação das condutas: atos atentatórios × atos incompatíveis com o decoro; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-regulamento-aprovado-ccj",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "regulamento-aprovado-ccj",
+      "mechanism": "competencia-regulamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      },
+      "statement": "A Comissão de Constituição e Justiça e de Cidadania tem competência para aprovar regulamento específico de funcionamento e organização dos trabalhos do Conselho de Ética.",
+      "correctAnswer": "C",
+      "explanation": "O art. 8º atribui à CCJC a aprovação do regulamento.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / Competência para aprovar o Regulamento do Conselho (art. 8º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-prazo-corrido-durante-recesso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "prazo-corrido-durante-recesso",
+      "mechanism": "contagem-prazo-recesso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Competência para aprovar o Regulamento do Conselho (art. 8º)"
+      },
+      "statement": "Os prazos processuais do Conselho de Ética correm em dias corridos e seguem fluindo durante o recesso parlamentar, independentemente da pauta de convocação extraordinária.",
+      "correctAnswer": "E",
+      "explanation": "O art. 8º, § 3º, determina contagem em dias úteis e suspensão durante o recesso, ressalvada hipótese de convocação extraordinária pertinente.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / Competência para aprovar o Regulamento do Conselho (art. 8º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-sancao-sem-atenuantes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "sancao-sem-atenuantes",
+      "mechanism": "graduacao-da-sancao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "A definição da sanção disciplinar independe dos antecedentes do acusado e das circunstâncias agravantes ou atenuantes, que não são critérios previstos no Código.",
+      "correctAnswer": "E",
+      "explanation": "O art. 10, § 1º, exige considerar natureza e gravidade, danos, agravantes, atenuantes e antecedentes.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-prestacao-de-contas-mandato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "prestacao-de-contas-mandato",
+      "mechanism": "prestacao-de-contas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "Prestar contas do mandato à sociedade e disponibilizar informações para seu acompanhamento e fiscalização integra os deveres fundamentais do deputado.",
+      "correctAnswer": "C",
+      "explanation": "A prestação de contas está no art. 3º, inciso VIII.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-cidadao-direto-conselho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "cidadao-direto-conselho",
+      "mechanism": "fluxo-representacao-cidada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "A representação formulada por cidadão comum deve ser protocolada diretamente no Conselho de Ética, sem passar pela Mesa da Câmara.",
+      "correctAnswer": "E",
+      "explanation": "O art. 9º exige encaminhamento à Mesa; a tramitação subsequente depende de critérios normativos.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-manifestacao-defesa-em-fases",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "manifestacao-defesa-em-fases",
+      "mechanism": "contraditorio-do-representado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "O deputado representado deve ser intimado dos atos praticados pelo Conselho e pode se manifestar em todas as fases do processo disciplinar.",
+      "correctAnswer": "C",
+      "explanation": "O art. 9º, § 5º, prevê intimação de todos os atos e possibilidade de manifestação em todas as fases.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-interesse-publico-dever-fundamental",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "interesse-publico-dever-fundamental",
+      "mechanism": "dever-de-interesse-publico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "Promover a defesa do interesse público e da soberania nacional constitui dever fundamental de deputado federal previsto no Código de Ética da Câmara.",
+      "correctAnswer": "C",
+      "explanation": "A obrigação está expressa no art. 3º, inciso I.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-suspensao-todas-prerrogativas-obrigatoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suspensao-todas-prerrogativas-obrigatoria",
+      "mechanism": "selecao-prerrogativas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI)"
+      },
+      "statement": "Ao aprovar a suspensão de prerrogativas, a Câmara deve necessariamente alcançar todas as prerrogativas relacionadas no art. 13, sem possibilidade de selecionar apenas algumas.",
+      "correctAnswer": "E",
+      "explanation": "O art. 13, inciso VII, admite suspensão de todas ou apenas algumas prerrogativas, conforme o caso.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / O rol das prerrogativas parlamentares passíveis de suspensão (art. 13, VI); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-corregedor-voto-conselho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "corregedor-voto-conselho",
+      "mechanism": "corregedor-sem-voto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "O corregedor da Câmara, ao participar das fases de um processo no Conselho de Ética, adquire direito de voto nesse colegiado.",
+      "correctAnswer": "E",
+      "explanation": "O art. 9º, § 4º, permite a participação do corregedor sem direito a voto.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-ressarcimento-cumulativo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "ressarcimento-cumulativo",
+      "mechanism": "ressarcimento-e-sancao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "O ressarcimento ao erário de vantagens indevidas provenientes de recursos públicos utilizados em desconformidade com o Código pode ser exigido sem prejuízo das sanções disciplinares.",
+      "correctAnswer": "C",
+      "explanation": "O art. 10, § 3º, estabelece ressarcimento integral sem prejuízo das penalidades.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-cidadao-representa-mesa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "cidadao-representa-mesa",
+      "mechanism": "legitimidade-cidadao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Qualquer cidadão pode requerer à Mesa representação por conduta atentatória ou incompatível com o decoro de deputado, especificando fatos e provas.",
+      "correctAnswer": "C",
+      "explanation": "O art. 9º, § 1º, assegura legitimidade ao cidadão e dirige o requerimento à Mesa.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-fraude-alteracao-resultado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "fraude-alteracao-resultado",
+      "mechanism": "fraude-em-deliberacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Fraudar o andamento dos trabalhos legislativos para alterar o resultado de deliberação é hipótese de procedimento incompatível com o decoro parlamentar.",
+      "correctAnswer": "C",
+      "explanation": "O art. 4º, inciso IV, descreve expressamente a fraude dos trabalhos legislativos com essa finalidade.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-fraude-presenca-artigo-4",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "fraude-presenca-artigo-4",
+      "mechanism": "fraude-de-presenca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "Fraudar o registro de presença em reunião de comissão é conduta do art. 4º do Código de Ética, classificada ali como hipótese específica de perda do mandato.",
+      "correctAnswer": "E",
+      "explanation": "A fraude de registro de presença figura no art. 5º, inciso IX, e não entre os procedimentos do art. 4º.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-participacao-restrita-plenario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "participacao-restrita-plenario",
+      "mechanism": "escopo-de-participacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "O dever de participação do parlamentar limita-se às votações em Plenário, ficando excluídas reuniões de comissões das quais faça parte.",
+      "correctAnswer": "E",
+      "explanation": "O art. 3º, inciso V, prevê presença e participação em sessões do Plenário e reuniões das comissões de que seja membro, além de outras sessões.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-recurso-censura-verbal-dois-dias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "recurso-censura-verbal-dois-dias",
+      "mechanism": "recurso-censura-verbal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Da censura verbal aplicada pelo presidente da Câmara ou de comissão cabe recurso ao respectivo plenário no prazo de dois dias úteis.",
+      "correctAnswer": "C",
+      "explanation": "O art. 11, parágrafo único, estabelece o recurso ao respectivo Plenário em dois dias úteis.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-censura-escrita-sem-defesa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-escrita-sem-defesa",
+      "mechanism": "defesa-censura-escrita",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Na censura escrita aplicada pela Mesa, o parlamentar não possui prazo para se defender antes da decisão, pois se trata de penalidade de menor gravidade.",
+      "correctAnswer": "E",
+      "explanation": "O art. 12, § 1º, garante prazo de cinco dias úteis para defesa antes da deliberação sobre censura escrita.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-perturbacao-perda-imediata",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "perturbacao-perda-imediata",
+      "mechanism": "distincao-art4-art5",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "A perturbação da ordem de uma sessão da Câmara é classificada no art. 4º como conduta que exige necessariamente a perda do mandato, sem graduação de sanção.",
+      "correctAnswer": "E",
+      "explanation": "A perturbação de sessão está no art. 5º, inciso I, cuja sanção pode ser censura verbal; perda do mandato está ligada às condutas do art. 4º.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-constranger-servidor-favor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "constranger-servidor-favor",
+      "mechanism": "constrangimento-funcional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "Usar prerrogativas do mandato para constranger um servidor e obter favorecimento figura entre os atos atentatórios ao decoro no art. 5º.",
+      "correctAnswer": "C",
+      "explanation": "O inciso IV descreve constrangimento ou aliciamento de servidor, colega ou pessoa sob ascendência hierárquica para favorecimento.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-vantagem-indevida-mandato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "vantagem-indevida-mandato",
+      "mechanism": "vantagem-indevida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO"
+      },
+      "statement": "Receber vantagem indevida, em benefício próprio ou alheio, no exercício da atividade parlamentar integra as condutas incompatíveis com o decoro descritas no art. 4º.",
+      "correctAnswer": "C",
+      "explanation": "O art. 4º, inciso II, prevê percepção de vantagem indevida punível com perda do mandato, observados os procedimentos aplicáveis.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / A. Atos Incompatíveis com o Decoro Parlamentar (art. 4º) — Puníveis com PERDA DO MANDATO; CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-imunidades-como-favor-pessoal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "imunidades-como-favor-pessoal",
+      "mechanism": "finalidade-da-imunidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)"
+      },
+      "statement": "O Código de Ética define as imunidades parlamentares como vantagens pessoais dos deputados, desvinculadas da independência do Poder Legislativo.",
+      "correctAnswer": "E",
+      "explanation": "O art. 2º relaciona imunidades e prerrogativas à garantia do mandato popular e à defesa do Legislativo.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-suplente-convocado-no-conselho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "suplente-convocado-no-conselho",
+      "mechanism": "vedacao-suplente-conselho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "O deputado que exerça mandato como suplente convocado em substituição ao titular pode integrar o Conselho de Ética nas mesmas condições de um titular da legislatura.",
+      "correctAnswer": "E",
+      "explanation": "O art. 7º, § 2º, inciso III, veda membro do Conselho no exercício como suplente convocado em substituição ao titular.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / Composição e mandato (art. 7º); CI obrigatório para integração."
+    },
+    {
+      "id": "cam-etica-revelacao-deliberacao-secreta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "revelacao-deliberacao-secreta",
+      "mechanism": "dever-de-sigilo-deliberacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão"
+      },
+      "statement": "Revelar conteúdo de deliberação que a Câmara tenha decidido manter secreto pode constituir ato atentatório ao decoro parlamentar.",
+      "correctAnswer": "C",
+      "explanation": "A conduta integra o art. 5º, inciso V, do Código de Ética.",
+      "reviewEvidence": "Lote 022: cotejo editorial com texto atualizado da Resolução nº 25/2001 da Câmara dos Deputados em https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html e artigo interno 3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md / B. Atos Atentatórios ao Decoro Parlamentar (art. 5º) — Puníveis com Censura ou Suspensão; CI obrigatório para integração."
     }
   ]
 }

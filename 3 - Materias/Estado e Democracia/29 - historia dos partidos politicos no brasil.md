@@ -16,7 +16,7 @@ updated: 2026-11-07
 
 A **história dos partidos brasileiros** trata da formação, organização, extinção, reorganização e transformação das legendas e das condições em que disputam poder. Para compreendê-la, observar **alcance territorial**, **base social**, **regras de registro**, **pluralismo permitido**, **organização da oposição**, **relação com o Estado** e **continuidade institucional das siglas**. Uma legenda atual que possui a mesma sigla de uma organização histórica não é necessariamente a mesma pessoa jurídica, nem apresenta o mesmo programa, dirigentes e base social.
 
-Esta unidade **CAM-CP-020** focaliza períodos e rupturas brasileiros. Reutiliza [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|CAM-CP-016]] para teorias de organização, [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|CAM-CP-017]] para classificação dos sistemas, [[3 - Materias/Estado e Democracia/28 - historia do voto no brasil expansao restricoes e direitos|CAM-CP-019]] para direitos eleitorais e [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|CAM-CP-006]] para contexto histórico geral.
+Esta unidade **[[3 - Materias/Estado e Democracia/29 - historia dos partidos politicos no brasil|História dos partidos políticos no Brasil: continuidade e rupturas]]** focaliza períodos e rupturas brasileiros. Reutiliza [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|Partidos políticos: origem, funções e organização]] para teorias de organização, [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|Sistemas partidários: competição, fragmentação e institucionalização]] para classificação dos sistemas, [[3 - Materias/Estado e Democracia/28 - historia do voto no brasil expansao restricoes e direitos|História do voto no Brasil: expansão, restrições e direitos]] para direitos eleitorais e [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|Formação histórica do Estado brasileiro]] para contexto histórico geral.
 
 ## Mapa das transições
 
@@ -73,7 +73,7 @@ O golpe de **1964** inaugurou o regime militar. Em **27 de outubro de 1965**, o 
 
 **Arena × MDB** descreve uma estrutura de governo e oposição sob **restrições autoritárias**, e não competição eleitoral plena. O MDB reuniu políticos de várias origens, inclusive setores provenientes de PSD, PTB e UDN, além de correntes que buscaram atuar legalmente dentro dos limites do sistema. A Arena também incorporou políticos de diferentes partidos anteriores. Nenhuma das duas organizações pode ser tratada como continuação automática e exclusiva de uma única legenda de 1945.
 
-**Bipartidarismo imposto × bipartidarismo competitivo (Sartori):** no primeiro, a legislação restringe o número de organizações autorizadas e a competição opera sob forte limitação política; no segundo, duas legendas relevantes podem competir e alternar-se no poder sob condições efetivas de liberdade. Contar partidos sem observar o regime e os incentivos produz erro conceitual. [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|Ver CAM-CP-017]].
+**Bipartidarismo imposto × bipartidarismo competitivo (Sartori):** no primeiro, a legislação restringe o número de organizações autorizadas e a competição opera sob forte limitação política; no segundo, duas legendas relevantes podem competir e alternar-se no poder sob condições efetivas de liberdade. Contar partidos sem observar o regime e os incentivos produz erro conceitual. [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|Sistemas partidários: competição, fragmentação e institucionalização]].
 
 **Câmara e Senado durante a ditadura:** eleições para certas cadeiras e cargos persistiram, ao mesmo tempo que direitos foram restringidos, mandatos cassados e decisões políticas centralizadas. A existência de bancada oposicionista não significa que o governo estivesse sujeito a regras equivalentes às de uma democracia constitucional. A classificação exige considerar **competitividade, liberdades e capacidade de alternância**.
 
@@ -97,7 +97,7 @@ A partir dessa reorganização, apareceram ou foram consolidados:
 
 A ordem constitucional de **1988**, art. 17, combina **pluripartidarismo, autonomia, caráter nacional, prestação de contas e limites democráticos**, desenvolvidos pela **Lei nº 9.096/1995**. O número e a identidade de legendas passaram por mudanças relacionadas a criação, extinção, fusão, incorporação e troca de denominação.
 
-**Partidos e presidencialismo de coalizão:** a eleição presidencial e a distribuição de cadeiras no Congresso seguem fórmulas diferentes. Como a Presidência pode não dispor de maioria legislativa do próprio partido, governos negociam apoios e coalizões. A análise de **Sérgio Abranches** sobre presidencialismo de coalizão e a de **Figueiredo e Limongi** sobre regras e poderes de agenda ajudam a compreender o período, mas não demonstram que multipartidarismo, isoladamente, causa corrupção ou paralisia. [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Ver CAM-CP-013]].
+**Partidos e presidencialismo de coalizão:** a eleição presidencial e a distribuição de cadeiras no Congresso seguem fórmulas diferentes. Como a Presidência pode não dispor de maioria legislativa do próprio partido, governos negociam apoios e coalizões. A análise de **Sérgio Abranches** sobre presidencialismo de coalizão e a de **Figueiredo e Limongi** sobre regras e poderes de agenda ajudam a compreender o período, mas não demonstram que multipartidarismo, isoladamente, causa corrupção ou paralisia. [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]].
 
 **Legendas × blocos × coalizões:** número de partidos registrados não equivale a número de partidos efetivos em votos ou cadeiras. **Federação partidária** tem regime de atuação conjunta e duração mínima previstos em lei, enquanto **coligação** é aliança eleitoral permitida apenas nas eleições majoritárias desde a vedação constitucional de coligações proporcionais. Governo de coalizão pode incluir partidos que não integram uma federação.
 
@@ -107,7 +107,7 @@ A ordem constitucional de **1988**, art. 17, combina **pluripartidarismo, autono
 
 **Fusão × incorporação × mudança de sigla:** na fusão, partidos preexistentes constituem organização resultante; na incorporação, um partido é absorvido por outro; troca de denominação altera identificação, podendo preservar a pessoa jurídica. A página oficial do TSE mantém registros dessas operações, como a fusão de **PSL e DEM em União Brasil em 2022**. Usar nomes anteriores como se fossem partidos atuais independentes pode produzir anacronismo.
 
-**Partido político × federação:** federação agrega partidos que preservam suas identidades jurídicas sob atuação conjunta; não equivale a fusão. Os detalhes procedimentais e a validade de dispositivos devem ser consultados na lei e na jurisprudência vigente, conforme [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|CAM-CP-016]].
+**Partido político × federação:** federação agrega partidos que preservam suas identidades jurídicas sob atuação conjunta; não equivale a fusão. Os detalhes procedimentais e a validade de dispositivos devem ser consultados na lei e na jurisprudência vigente, conforme [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|Partidos políticos: origem, funções e organização]].
 
 ## Leituras teóricas e critérios de interpretação
 
@@ -155,12 +155,12 @@ Os distratores mais fortes trocam **regime por contagem de partidos**, **continu
 
 ## Relações com outros temas
 
-- [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|CAM-CP-006: formação do Estado]]: República, centralização e transições de regime.
-- [[3 - Materias/Estado e Democracia/28 - historia do voto no brasil expansao restricoes e direitos|CAM-CP-019: história do voto]]: inclusão eleitoral e modalidades de votação.
-- [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|CAM-CP-016: partidos]]: organização interna e regime constitucional.
-- [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|CAM-CP-017: sistemas partidários]]: pluralismo, relevância e competitividade.
-- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|CAM-CP-013: coalizões]]: relações Executivo-Legislativo na Nova República.
-- **Próxima unidade CAM-CP-021:** política internacional contemporânea, atores e instituições.
+- [[3 - Materias/Estado e Democracia/15 - formacao historica do estado brasileiro|Formação histórica do Estado brasileiro]]: República, centralização e transições de regime.
+- [[3 - Materias/Estado e Democracia/28 - historia do voto no brasil expansao restricoes e direitos|História do voto no Brasil: expansão, restrições e direitos]]: inclusão eleitoral e modalidades de votação.
+- [[3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao|Partidos políticos: origem, funções e organização]]: organização interna e regime constitucional.
+- [[3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao|Sistemas partidários: competição, fragmentação e institucionalização]]: pluralismo, relevância e competitividade.
+- [[3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes|Relações Executivo-Legislativo e formação de coalizões]]: relações Executivo-Legislativo na Nova República.
+- **Próxima unidade [[3 - Materias/Estado e Democracia/30 - politica internacional contemporanea atores e instituicoes|Política internacional contemporânea: atores, instituições e governança]]:** política internacional contemporânea, atores e instituições.
 
 ## Tensões e pegadinhas
 

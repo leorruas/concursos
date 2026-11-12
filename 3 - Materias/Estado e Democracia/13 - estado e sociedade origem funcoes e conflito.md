@@ -18,7 +18,7 @@ updated: 2026-11-06
 
 **Sociedade civil** é uma categoria mais delimitada e controversa que sociedade em geral. Dependendo do autor, inclui relações econômicas e profissionais, organizações e associações, instituições de formação de consenso e espaços de participação fora da administração estatal. **Não equivale sempre a terceiro setor, ONGs ou conjunto de cidadãos individualmente considerados.** Os limites entre Estado e sociedade civil variam em Hegel, Marx, Gramsci e nas teorias democráticas contemporâneas.
 
-A [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|nota 01]] já apresenta a diferença entre **Estado, governo, administração e legitimidade**; a [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|nota 11]] aprofunda **Weber, dominação e hegemonia**; a [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|nota 12]] estuda **Hobbes, Locke, Rousseau e correntes normativas**. Esta unidade **CAM-CP-004** concentra-se nas **relações entre aparato estatal, sociedade, funções, capacidades, autonomia e conflitos**, sem repetir a taxonomia geral desses autores. O próximo tema, CAM-CP-005, desenvolverá a **formação histórica dos Estados nacionais**.
+A [[3 - Materias/Estado e Democracia/01 - estado governo administracao e legitimidade|Estado, governo, administração e legitimidade]] já apresenta a diferença entre **Estado, governo, administração e legitimidade**; a [[3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao|Poder, autoridade, legitimidade e dominação]] aprofunda **Weber, dominação e hegemonia**; a [[3 - Materias/Estado e Democracia/12 - teoria politica correntes e perguntas centrais|Teoria política: correntes e perguntas centrais]] estuda **Hobbes, Locke, Rousseau e correntes normativas**. Esta unidade **[[3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito|Estado e sociedade: origem, funções e conflito]]** concentra-se nas **relações entre aparato estatal, sociedade, funções, capacidades, autonomia e conflitos**, sem repetir a taxonomia geral desses autores. O próximo tema, [[3 - Materias/Estado e Democracia/14 - teorias de formacao dos estados nacionais|Teorias de formação dos Estados nacionais]], desenvolverá a **formação histórica dos Estados nacionais**.
 
 ## Estado, sociedade, sociedade civil e espaço público
 
@@ -130,7 +130,7 @@ Em *A democracia na América*, **Alexis de Tocqueville** analisa o valor das **a
 
 **Proteção × interesse público:** proteção de grupos aliados no modelo histórico não representa automaticamente proteção universal de cidadãos conforme concepções atuais de direitos. É possível ocorrer extração sem compromisso amplo com direitos sociais.
 
-**Tilly × contratualismo:** Tilly oferece explicação **histórico-causal** de processos, enquanto Hobbes, Locke e Rousseau são mobilizados na teoria do pacto como **justificações do poder**. A classificação de Tilly tem relevância direta para a **CAM-CP-005, formação dos Estados nacionais**, onde será aprofundada a variação histórica.
+**Tilly × contratualismo:** Tilly oferece explicação **histórico-causal** de processos, enquanto Hobbes, Locke e Rousseau são mobilizados na teoria do pacto como **justificações do poder**. A classificação de Tilly tem relevância direta para a **[[3 - Materias/Estado e Democracia/14 - teorias de formacao dos estados nacionais|Teorias de formação dos Estados nacionais]], formação dos Estados nacionais**, onde será aprofundada a variação histórica.
 
 ## Skocpol: o Estado como ator, autonomia e capacidade
 
@@ -208,7 +208,7 @@ O Estado moderno executa funções que variam conforme história, constituição
 
 **Estado mínimo, Estado liberal, Estado de bem-estar, Estado desenvolvimentista, Estado regulador:** expressões relativas a diferentes programas, arranjos históricos ou tipos de atuação. **Não são uma escala linear em que maior orçamento significa necessariamente maior legitimidade.** Um Estado com muitas empresas pode regular mal; um Estado com menor produção direta pode ter alta capacidade de fiscalização.
 
-A [[3 - Materias/Estado e Democracia/09 - estado regulacao e modelos de desenvolvimento|nota 09]] já desenvolve **Estado regulador e modelos de desenvolvimento**; esta unidade utiliza esses exemplos para explicar **conflitos de atribuição e execução**, sem duplicar sua classificação econômica.
+A [[3 - Materias/Estado e Democracia/09 - estado regulacao e modelos de desenvolvimento|Estado, regulação e modelos de desenvolvimento]] já desenvolve **Estado regulador e modelos de desenvolvimento**; esta unidade utiliza esses exemplos para explicar **conflitos de atribuição e execução**, sem duplicar sua classificação econômica.
 
 ## Brasil: normas constitucionais e processo social
 
@@ -227,7 +227,7 @@ A **Constituição de 1988** oferece referências jurídico-institucionais que d
 
 [Constituição da República Federativa do Brasil](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).
 
-**Competência constitucional × capacidade estatal:** a Constituição define poder e dever, mas estrutura, orçamento e relações sociais condicionam como a norma é executada. **Soberania do Estado × autonomia de entes:** na federação brasileira, a República é soberana, e União, estados, Distrito Federal e municípios são **autônomos nos limites constitucionais**. A [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|nota 03]] aprofunda essa fronteira.
+**Competência constitucional × capacidade estatal:** a Constituição define poder e dever, mas estrutura, orçamento e relações sociais condicionam como a norma é executada. **Soberania do Estado × autonomia de entes:** na federação brasileira, a República é soberana, e União, estados, Distrito Federal e municípios são **autônomos nos limites constitucionais**. A [[3 - Materias/Estado e Democracia/03 - federalismo e capacidades estatais|Federalismo e capacidades estatais]] aprofunda essa fronteira.
 
 **Direitos × conflito distributivo:** uma política pode ampliar direitos para grupo historicamente excluído e demandar recursos ou impor obrigações a outros. O conflito deve ser examinado por instituições democráticas, normas, dados e consequências, sem presumir que toda oposição seja ilegítima ou que toda preferência majoritária elimine direitos minoritários.
 
@@ -237,11 +237,11 @@ A **Constituição de 1988** oferece referências jurídico-institucionais que d
 
 **Pluralismo:** examina disputa entre múltiplos atores e grupos e sua presença no sistema de decisão, com autores como **Robert Dahl**. **Elitismo:** enfatiza concentração de poder e influência em grupos restritos; **C. Wright Mills** estuda a *elite do poder* em instituições políticas, econômicas e militares de contexto específico. **Pluralismo não garante igualdade real de recursos entre grupos**, e elitismo não significa afirmar que nenhuma mobilização popular possa produzir efeito.
 
-**Ação coletiva, Mancur Olson:** benefícios coletivos podem gerar incentivo para que indivíduos não contribuam com custos da ação, esperando usufruir do resultado. **Problema do carona (*free rider*)** não significa que organização coletiva seja impossível: grupos podem desenvolver benefícios seletivos, normas, identidade, coerção ou outros mecanismos de mobilização, conforme teoria e caso. A [[3 - Materias/Estado e Democracia/07 - principal agente acao coletiva e captura|nota 07]] já aprofunda incentivos e captura.
+**Ação coletiva, Mancur Olson:** benefícios coletivos podem gerar incentivo para que indivíduos não contribuam com custos da ação, esperando usufruir do resultado. **Problema do carona (*free rider*)** não significa que organização coletiva seja impossível: grupos podem desenvolver benefícios seletivos, normas, identidade, coerção ou outros mecanismos de mobilização, conforme teoria e caso. A [[3 - Materias/Estado e Democracia/07 - principal agente acao coletiva e captura|Principal-agente, ação coletiva e captura]] já aprofunda incentivos e captura.
 
 **Lobby × captura:** lobby designa esforço organizado para influenciar decisão; sua licitude e transparência dependem do regime e da conduta. **Captura** ocorre quando influência particular compromete a capacidade de órgão servir aos objetivos públicos que deveria perseguir. **Participação de especialistas privados em consulta não constitui, por si só, captura**; avaliar a relação exige verificar transparência, acesso de outras partes, condicionamentos e resultado.
 
-**Clientelismo × mediação social:** o primeiro pode envolver troca particularista de benefícios por apoio político; a segunda pode ampliar acesso a serviços e direitos. Nem toda associação entre agentes públicos e comunidades é clientelismo. O problema está nas **condições e incentivos da relação**, estudados na [[3 - Materias/Estado e Democracia/06 - corrupcao clientelismo patronagem e captura|nota 06]].
+**Clientelismo × mediação social:** o primeiro pode envolver troca particularista de benefícios por apoio político; a segunda pode ampliar acesso a serviços e direitos. Nem toda associação entre agentes públicos e comunidades é clientelismo. O problema está nas **condições e incentivos da relação**, estudados na [[3 - Materias/Estado e Democracia/06 - corrupcao clientelismo patronagem e captura|Corrupção, clientelismo, patronagem e captura]].
 
 ## Conflito e cooperação: hipóteses rivais sobre a mesma decisão
 
@@ -366,4 +366,4 @@ Se a pergunta for **“por que devemos obedecer?”**, investigue fundamento nor
 - Mancur Olson. *The Logic of Collective Action* (1965).
 - Brasil. [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), arts. 1º, 2º, 3º, 5º, 6º, 37, 174 e 193.
 
-**Nota editorial:** a unidade reúne teorias de natureza normativa, histórica e sociológica sem tratar suas categorias como sinônimos. As hipóteses sobre formação do Estado são distinguidas de explicações de sua atuação atual; cronologias e trajetórias nacionais serão estudadas especificamente no CAM-CP-005. Os exemplos da Câmara são construções didáticas e não afirmações sobre decisões reais do órgão.
+**Nota editorial:** a unidade reúne teorias de natureza normativa, histórica e sociológica sem tratar suas categorias como sinônimos. As hipóteses sobre formação do Estado são distinguidas de explicações de sua atuação atual; cronologias e trajetórias nacionais serão estudadas especificamente no [[3 - Materias/Estado e Democracia/14 - teorias de formacao dos estados nacionais|Teorias de formação dos Estados nacionais]]. Os exemplos da Câmara são construções didáticas e não afirmações sobre decisões reais do órgão.

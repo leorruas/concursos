@@ -8,6 +8,9 @@ created: 2026-11-12
 
 # Matriz de expansão de questões: Cargo 1
 
+> **Situação atualizada em 12/11/2026, antes da validação do lote 026.** O marco da `main` `08a2ec1` contém **1.000 questões novas validadas** e **389 históricas**, com 1.000 validações restantes até a meta de 2.000. Foram integrados 40 itens em cada uma das matérias Português, Inglês, Direito Administrativo, Administração Pública, Ética e Direito Constitucional, além dos 760 de Comunicação. A distribuição remanescente por matéria é: Português 120; Inglês 80; Administrativo 160; Administração Pública 80; Constitucional 160; TI e Dados 160; Ciência Política 80; Orçamento 80; Ética 80. Os **40 itens de TI do lote 026** estão propostos em status `revisada` e **não** entram nessa contagem. A tabela e o marco pós-PR #22 abaixo são históricos; não usá-los para calcular saldos atuais. Recontar sempre a `main` na próxima execução.
+
+
 **Marco pós-PR #22:** 760 questões novas de Comunicação Social e Divulgação Institucional com status `validada`, 32 questões de Português com status `gerada`, e 389 registros legados em `pilotoDidatico`. O arquivo `data/questoes-camara.json` preserva as duas coleções, que não devem ser somadas como itens novos da meta de expansão.
 
 **Meta editorial vigente:** 2.000 questões novas validadas, além do piloto histórico. Restam **1.240** validações para essa meta, incluindo a revisão das 32 questões já geradas. A indicação anterior de '1.600 próximas questões' foi feita antes do avanço do PR: manter o número antigo criaria dupla contagem. O restante corresponde a **31 lotes de 40 itens**. Contar progresso apenas por `reviewStatus: validada`, nunca por quantidade de enunciados redigidos.

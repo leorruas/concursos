@@ -37798,23 +37798,23 @@
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
       "articleId": "art-87b69e1d4ac54f20",
-      "conceptId": "extraordinario-pressa-administrativa",
-      "mechanism": "distinguir-urgencia-constitucional-e-atraso-gerencial",
+      "conceptId": "ato-abertura-identificacao-credito",
+      "mechanism": "exigir-identificacao-montante-especie-classificacao",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+        "article:art-87b69e1d4ac54f20#Autorização × abertura"
       ],
       "source": {
         "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
-        "section": "Suplementar, especial e extraordinário"
+        "section": "Autorização × abertura"
       },
-      "statement": "A proximidade do fim do exercício financeiro é suficiente, por si só, para classificar como extraordinário o crédito destinado a despesa previsível que o órgão deixou de programar.",
+      "statement": "A lei que autoriza crédito especial dispensa que o ato de abertura identifique a classificação da despesa, pois essa informação só será necessária no momento do empenho.",
       "correctAnswer": "E",
-      "explanation": "A Constituição, art. 167, § 3º, exige despesas imprevisíveis e urgentes. Atraso de planejamento ou pressa para gastar não demonstram esses requisitos.",
-      "reviewEvidence": "Lote 027, item 032, 12/11/2026. Artigo canônico art-87b69e1d4ac54f20, heading literal 'Suplementar, especial e extraordinário'. Norma preliminar: CF arts. 165 e 167 e Lei 4.320/1964 arts. 41 a 46, conforme item. Revisão normativa independente, triagem de similaridade e CI pendentes. Não homologado."
+      "explanation": "A Lei nº 4.320/1964, art. 46, determina que o ato que abre o crédito adicional indique a importância, a espécie e a classificação da despesa, até onde possível. A classificação não é postergada automaticamente para o empenho.",
+      "reviewEvidence": "Lote 027, item 032 reformulado em 12/11/2026 para eliminar sobreposição com 008. Revisão técnica preliminar apoiada no artigo canônico art-87b69e1d4ac54f20, heading literal 'Autorização × abertura', e Lei 4.320/1964 art. 46. Verificação independente da norma vigente, similaridade integral e CI do novo SHA pendentes. Não homologado."
     },
     {
       "id": "cam-orc-l027-033-excesso-arrecadacao-tendencia",

@@ -38097,7 +38097,7 @@
       "reviewEvidence": "Autoria substitutiva e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-002-cox-magnitude-condicoes; gabarito C; mecanismo interpretar-m-mais-um-com-escopo; referência 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md#Autores, mecanismos e limites das hipóteses; fundamento a conferir em fonte primária: Cox, Making Votes Count; modelo de coordenação descrito no artigo 23.. Pendente: cotejo integral semântico e normativo, gates do SHA final; não homologado por humano."
     },
     {
-      "id": "cam-cpol-l028-003-lijphart-arranjo-institucional",
+      "id": "cam-cpol-l028-003-representacao-descritiva",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38105,24 +38105,24 @@
       "subjectId": "estado-democracia",
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
-      "articleId": "art-b3e8d1c74f209a65",
-      "conceptId": "lijphart-arranjo-institucional",
-      "mechanism": "separar-tipologia-democratica-e-regra-eleitoral",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "representacao-descritiva-nao-deriva-proporcionalidade",
+      "mechanism": "distinguir-proporcao-partidaria-e-composicao-social",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-b3e8d1c74f209a65#Autores, mecanismos e limites das hipóteses"
+        "article:art-2e96b7d14a53c80f#Comparação teórica: fórmula, magnitude e efeitos"
       ],
       "source": {
-        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
-        "section": "Autores, mecanismos e limites das hipóteses"
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "Comparação teórica: fórmula, magnitude e efeitos"
       },
-      "statement": "Dois países que elegem o chefe do Executivo por maioria absoluta podem ser classificados de modo diferente na tipologia de Lijphart, pois a oposição entre democracia majoritária e consensual considera também outras instituições políticas.",
-      "correctAnswer": "C",
-      "explanation": "A tipologia de Lijphart abrange dimensões institucionais além da fórmula de eleição do Executivo; uma regra eleitoral isolada não determina toda a classificação.",
-      "reviewEvidence": "Autoria substitutiva e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-003-lijphart-arranjo-institucional; gabarito C; mecanismo separar-tipologia-democratica-e-regra-eleitoral; referência 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md#Autores, mecanismos e limites das hipóteses; fundamento a conferir em fonte primária: Lijphart, Patterns of Democracy; distinção conceitual no artigo 23.. Pendente: cotejo integral semântico e normativo, gates do SHA final; não homologado por humano."
+      "statement": "Um sistema que distribui cadeiras de modo exatamente proporcional aos votos recebidos pelos partidos garante, por essa única característica, que a composição social do Parlamento reproduza a distribuição de gênero e raça do eleitorado.",
+      "correctAnswer": "E",
+      "explanation": "Proporcionalidade partidária compara votos e cadeiras de legendas; representação descritiva compara características sociais de representantes e representados. Uma não garante a outra.",
+      "reviewEvidence": "Revisão editorial substitutiva por IA, lote 028, 13/11/2026: cam-cpol-l028-003-representacao-descritiva; gabarito E; mecanismo distinguir-proporcao-partidaria-e-composicao-social. Conferidos enunciado e explicação com artigo canônico 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md, heading literal 'Comparação teórica: fórmula, magnitude e efeitos'. Fundamento: Rae, The Political Consequences of Electoral Laws; Lijphart, Patterns of Democracy. Distinção entre proporcionalidade partidária e representação descritiva explicitada no artigo canônico. Substitui item de operação redundante identificado no cotejo com exercícios do artigo. Ainda pendentes confronto semântico integral com expansão e piloto, consulta independente às fontes primárias e gates no SHA final; revisão técnica por IA, não avaliação humana."
     },
     {
       "id": "cam-cpol-l028-004-voto-alternativo-rodadas",
@@ -38153,7 +38153,7 @@
       "reviewEvidence": "Autoria substitutiva e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-004-voto-alternativo-rodadas; gabarito E; mecanismo diferenciar-rodada-apuracao-e-novo-pleito; referência 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md#Comparação entre desenhos majoritários; fundamento a conferir em fonte primária: Modelos comparados de voto alternativo; artigo 23, seção Comparação entre desenhos majoritários.. Pendente: cotejo integral semântico e normativo, gates do SHA final; não homologado por humano."
     },
     {
-      "id": "cam-cpol-l028-005-lista-aberta-ordem-nominal",
+      "id": "cam-cpol-l028-005-magnitude-efeito-condicionado",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38162,23 +38162,23 @@
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
       "articleId": "art-2e96b7d14a53c80f",
-      "conceptId": "lista-aberta-ordem-nominal",
-      "mechanism": "separar-votacao-nominal-e-cadeiras-legenda",
+      "conceptId": "magnitude-distrital-nao-suficiente",
+      "mechanism": "avaliar-condicoes-para-representacao-minorias",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-2e96b7d14a53c80f#Quem ocupa as vagas e quem fica como suplente"
+        "article:art-2e96b7d14a53c80f#Comparação teórica: fórmula, magnitude e efeitos"
       ],
       "source": {
         "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
-        "section": "Quem ocupa as vagas e quem fica como suplente"
+        "section": "Comparação teórica: fórmula, magnitude e efeitos"
       },
-      "statement": "Em sistema proporcional de lista aberta, um partido que conquista duas cadeiras pode preenchê-las com seus dois candidatos nominalmente mais votados que satisfaçam as condições legais, ainda que o terceiro candidato mais votado de outro partido tenha recebido mais votos individuais que ambos.",
+      "statement": "Ao aumentar de três para dez o número de cadeiras de uma circunscrição proporcional, mantendo inalterados os demais elementos do sistema, pode-se ampliar a oportunidade de representação de partidos menores, mas o resultado não é garantido independentemente da distribuição dos votos e dos limiares aplicáveis.",
       "correctAnswer": "C",
-      "explanation": "A distribuição de cadeiras ocorre entre legendas ou federações; a votação nominal ordena candidaturas dentro do grupo, sujeitas aos requisitos legais. Não há classificação única dos mais votados do território que garanta mandato.",
-      "reviewEvidence": "Autoria substitutiva e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-005-lista-aberta-ordem-nominal; gabarito C; mecanismo separar-votacao-nominal-e-cadeiras-legenda; referência 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md#Quem ocupa as vagas e quem fica como suplente; fundamento a conferir em fonte primária: Código Eleitoral, arts. 107 e 108; artigo 24, seção Quem ocupa as vagas e quem fica como suplente.. Pendente: cotejo integral semântico e normativo, gates do SHA final; não homologado por humano."
+      "explanation": "Magnitude distrital maior pode reduzir barreiras efetivas à obtenção de cadeiras, mas distribuição territorial de votos, fórmula e limiares também condicionam o resultado; a relação é uma tendência, não uma necessidade lógica.",
+      "reviewEvidence": "Revisão editorial substitutiva por IA, lote 028, 13/11/2026: cam-cpol-l028-005-magnitude-efeito-condicionado; gabarito C; mecanismo avaliar-condicoes-para-representacao-minorias. Conferidos enunciado e explicação com artigo canônico 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md, heading literal 'Comparação teórica: fórmula, magnitude e efeitos'. Fundamento: Rae, The Political Consequences of Electoral Laws; Lijphart, Patterns of Democracy. Comparação condicionada de magnitude distrital no artigo 24. Substitui item de operação redundante identificado no cotejo com exercícios do artigo. Ainda pendentes confronto semântico integral com expansão e piloto, consulta independente às fontes primárias e gates no SHA final; revisão técnica por IA, não avaliação humana."
     },
     {
       "id": "cam-cpol-l028-006-federacao-coligacao-proporcional",
@@ -38237,7 +38237,7 @@
       "reviewEvidence": "Autoria substitutiva e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-007-sobras-restrita-criterios-distintos; gabarito E; mecanismo aplicar-oitenta-vinte-a-sujeitos-distintos; referência 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md#3. Distribuição de sobras: maiores médias; fundamento a conferir em fonte primária: Código Eleitoral, art. 109, na interpretação do STF sobre sobras; Resolução TSE 23.677/2021, art. 11; artigo 24, seção 3.. Pendente: cotejo integral semântico e normativo, gates do SHA final; não homologado por humano."
     },
     {
-      "id": "cam-cpol-l028-008-sobras-etapa-aberta-legenda-menor",
+      "id": "cam-cpol-l028-008-suplencia-minimo-nominal",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38246,23 +38246,23 @@
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
       "articleId": "art-2e96b7d14a53c80f",
-      "conceptId": "sobras-etapa-aberta-legenda-menor",
-      "mechanism": "identificar-mudanca-fase-e-elegibilidade",
+      "conceptId": "suplencia-sem-minimo-dez-por-cento",
+      "mechanism": "distinguir-criterio-eleicao-e-suplencia",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-2e96b7d14a53c80f#3. Distribuição de sobras: maiores médias"
+        "article:art-2e96b7d14a53c80f#Quem ocupa as vagas e quem fica como suplente"
       ],
       "source": {
         "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
-        "section": "3. Distribuição de sobras: maiores médias"
+        "section": "Quem ocupa as vagas e quem fica como suplente"
       },
-      "statement": "Uma legenda com 7.500 votos, diante de quociente eleitoral de 10.000, está impedida de concorrer à primeira fase restrita das sobras, mas poderá participar da etapa final aberta se não restarem candidaturas aptas aos requisitos de 80% e 20%, observadas as regras de distribuição por médias.",
+      "statement": "Em eleição proporcional, uma candidatura não eleita que recebeu menos de 10% do quociente eleitoral pode integrar a lista de suplentes de sua legenda, pois o mínimo individual exigido para a distribuição inicial das cadeiras não se estende automaticamente à suplência.",
       "correctAnswer": "C",
-      "explanation": "7.500 é inferior a 80% de 10.000. Na fase final aberta, conforme interpretação do STF incorporada à regulamentação, a ausência dos limiares não impede a participação nas maiores médias.",
-      "reviewEvidence": "Autoria substitutiva e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-008-sobras-etapa-aberta-legenda-menor; gabarito C; mecanismo identificar-mudanca-fase-e-elegibilidade; referência 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md#3. Distribuição de sobras: maiores médias; fundamento a conferir em fonte primária: Resolução TSE 23.677/2021, art. 11, § 4º, texto compilado; artigo 24, seção 3.. Pendente: cotejo integral semântico e normativo, gates do SHA final; não homologado por humano."
+      "explanation": "O art. 112, parágrafo único, do Código Eleitoral afasta a exigência de votação nominal mínima do art. 108 para a definição dos suplentes; a ordem de suplência segue a votação nominal na legenda ou federação.",
+      "reviewEvidence": "Revisão editorial substitutiva por IA, lote 028, 13/11/2026: cam-cpol-l028-008-suplencia-minimo-nominal; gabarito C; mecanismo distinguir-criterio-eleicao-e-suplencia. Conferidos enunciado e explicação com artigo canônico 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md, heading literal 'Quem ocupa as vagas e quem fica como suplente'. Fundamento: Código Eleitoral, arts. 108 e 112, parágrafo único; Resolução TSE 23.677/2021, art. 14. Conferir redação vigente antes da homologação. Substitui item de operação redundante identificado no cotejo com exercícios do artigo. Ainda pendentes confronto semântico integral com expansão e piloto, consulta independente às fontes primárias e gates no SHA final; revisão técnica por IA, não avaliação humana."
     }
   ]
 }

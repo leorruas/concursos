@@ -387,6 +387,22 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-efeito-suspensivo-recurso",
+      "term": "Efeito suspensivo do recurso administrativo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-recurso-revisao-sancionadora",
+      "term": "Recurso administrativo e revisão de sanção",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

@@ -83,8 +83,8 @@
       "aliases": [],
       "definition": "É o prazo para propor a ação que busca aplicar sanções por improbidade. Como regra, são oito anos contados do fato ou do fim da infração permanente (art. 23 da Lei nº 8.429/1992), com causas legais de suspensão e interrupção.",
       "contrast": "A prescrição das sanções difere da discussão sobre ressarcimento ao erário. Pelo Tema 1199 do STF, os novos marcos prescricionais não retroagem; nas ADIs 7.156 e 7.236, o STF afastou o reinício pela metade.",
-      "cebraspeTrap": "Aplicar literalmente os quatro anos do art. 23, § 5º, após interrupção: o STF afastou a redução, preservando o reinício por oito anos e fixando limite global de 20 anos para a pretensão sancionatória.",
-      "example": "Se ocorrer uma causa de interrupção válida durante uma ação submetida ao novo regime, o prazo recomeça por inteiro, observando o limite global de 20 anos. É preciso verificar a data dos fatos e os marcos de cada caso.",
+      "cebraspeTrap": "Aplicar automaticamente quatro anos após uma interrupção: nas ADIs 7.156 e 7.236, o STF afastou a redução pela metade e estabeleceu reinício integral, observado o limite global de 20 anos para a pretensão sancionatória.",
+      "example": "Ao examinar um processo, identifique a data dos fatos e cada causa de interrupção; a contagem depende do regime aplicável e dos marcos reconhecidos pelo STF.",
       "articleIds": [
         "art-ea06e80ef83f4af7"
       ],
@@ -102,6 +102,56 @@
         {
           "label": "STF, Informativo 1225, ADIs 7.156 e 7.236",
           "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-improbidade-enriquecimento",
+      "term": "Enriquecimento ilícito na improbidade",
+      "aliases": [],
+      "definition": "Obtenção de vantagem econômica indevida em razão da função pública, conforme as hipóteses do art. 9º da LIA.",
+      "contrast": "Enriquecimento do agente no art. 9º não se confunde com dano ao erário no art. 10.",
+      "cebraspeTrap": "Exigir prejuízo ao erário como requisito universal de todo ato do art. 9º.",
+      "example": "Um gestor recebe vantagem indevida para favorecer empresa.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, Art. 9º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-improbidade-principios",
+      "term": "Improbidade por violação de princípios",
+      "aliases": [],
+      "definition": "Conduta dolosa enquadrada em uma das hipóteses específicas do art. 11 da LIA.",
+      "contrast": "Violação de princípio pode ser ilegal, mas só configura improbidade se atender ao tipo legal.",
+      "cebraspeTrap": "Considerar qualquer descumprimento da legalidade improbidade automática.",
+      "example": "Negar publicidade a ato oficial fora das exceções legais exige verificar o tipo e o dolo.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, Art. 11",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
         }
       ],
       "status": "reviewed"

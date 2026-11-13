@@ -37789,7 +37789,7 @@
       "reviewEvidence": "Lote 027, item 031, 12/11/2026. Artigo canônico art-87b69e1d4ac54f20, heading literal 'Recursos disponíveis para suplementares e especiais'. Norma preliminar: CF arts. 165 e 167 e Lei 4.320/1964 arts. 41 a 46, conforme item. Revisão normativa independente, triagem de similaridade e CI pendentes. Não homologado."
     },
     {
-      "id": "cam-orc-l027-032-credito-extraordinario-urgencia",
+      "id": "cam-orc-l027-032-ato-abertura-classificacao",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37814,7 +37814,7 @@
       "statement": "A lei que autoriza crédito especial dispensa que o ato de abertura identifique a classificação da despesa, pois essa informação só será necessária no momento do empenho.",
       "correctAnswer": "E",
       "explanation": "A Lei nº 4.320/1964, art. 46, determina que o ato que abre o crédito adicional indique a importância, a espécie e a classificação da despesa, até onde possível. A classificação não é postergada automaticamente para o empenho.",
-      "reviewEvidence": "Lote 027, item 032 reformulado em 12/11/2026 para eliminar sobreposição com 008. Revisão técnica preliminar apoiada no artigo canônico art-87b69e1d4ac54f20, heading literal 'Autorização × abertura', e Lei 4.320/1964 art. 46. Verificação independente da norma vigente, similaridade integral e CI do novo SHA pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, item 032 reformulado em 12/11/2026 para eliminar sobreposição com 008. Revisão técnica preliminar apoiada no artigo canônico art-87b69e1d4ac54f20, heading literal 'Autorização × abertura', e Lei 4.320/1964 art. 46. Verificação independente da norma vigente, similaridade integral e CI do novo SHA pendentes. Não homologado. Revisão de nomenclatura: slug atualizado para corresponder ao conceito efetivamente cobrado (ato de abertura e classificação), sem novo item ou alteração de gabarito."
     },
     {
       "id": "cam-orc-l027-033-excesso-arrecadacao-tendencia",
@@ -37842,7 +37842,7 @@
       "statement": "Para apurar o excesso de arrecadação que pode financiar crédito adicional, basta comparar a arrecadação de um único mês com a previsão mensal, sem considerar o comportamento acumulado e a tendência do exercício.",
       "correctAnswer": "E",
       "explanation": "A Lei nº 4.320/1964, art. 43, § 3º, exige o exame da diferença acumulada entre arrecadação prevista e realizada, considerando a tendência do exercício.",
-      "reviewEvidence": "Lote 027, item 033, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, item 033, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada incremental: enunciado E coerente com Lei 4.320/1964 art. 43 §3º, diferença acumulada e tendência; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
     },
     {
       "id": "cam-orc-l027-034-credito-extraordinario-deducao",
@@ -37870,7 +37870,7 @@
       "statement": "Ao determinar os recursos utilizáveis provenientes de excesso de arrecadação para abrir crédito adicional, devem ser deduzidos os créditos extraordinários abertos no exercício, conforme a Lei nº 4.320/1964.",
       "correctAnswer": "C",
       "explanation": "A Lei nº 4.320/1964, art. 43, § 4º, prevê essa dedução para o cálculo dos recursos utilizáveis oriundos do excesso de arrecadação.",
-      "reviewEvidence": "Lote 027, item 034, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, item 034, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada incremental: enunciado C coerente com Lei 4.320/1964 art. 43 §4º, dedução de créditos extraordinários no cálculo do excesso; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
     },
     {
       "id": "cam-orc-l027-035-superavit-financeiro-balanco",
@@ -37898,7 +37898,7 @@
       "statement": "O superávit financeiro utilizado como fonte para créditos suplementares e especiais é apurado a partir do balanço patrimonial do exercício anterior, com os ajustes legais pertinentes.",
       "correctAnswer": "C",
       "explanation": "A Lei nº 4.320/1964, art. 43, § 2º, trata do superávit financeiro e da apuração baseada no balanço patrimonial do exercício anterior.",
-      "reviewEvidence": "Lote 027, item 035, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, item 035, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada incremental: enunciado C coerente com Lei 4.320/1964 art. 43 §§1º I e 2º, superávit do balanço patrimonial anterior; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
     },
     {
       "id": "cam-orc-l027-036-reabertura-saldo-limite",
@@ -37926,7 +37926,7 @@
       "statement": "Um crédito especial autorizado nos últimos quatro meses do exercício pode ser reaberto no exercício seguinte em valor superior ao saldo não utilizado, desde que a despesa tenha sido originalmente autorizada por lei.",
       "correctAnswer": "E",
       "explanation": "A Constituição, art. 167, § 2º, permite reabrir créditos especiais e extraordinários autorizados nos últimos quatro meses, mas somente nos limites dos saldos.",
-      "reviewEvidence": "Lote 027, item 036, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Vigência e reabertura'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, item 036, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Vigência e reabertura'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada incremental: enunciado E coerente com CF art. 167 §2º, reabertura limitada ao saldo; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
     },
     {
       "id": "cam-orc-l027-037-credito-adicional-nao-empenho",

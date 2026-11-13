@@ -110,10 +110,10 @@
       "id": "glo-camara-improbidade-enriquecimento",
       "term": "Enriquecimento ilícito na improbidade",
       "aliases": [],
-      "definition": "Obtenção de vantagem econômica indevida em razão da função pública, conforme as hipóteses do art. 9º da LIA.",
-      "contrast": "Enriquecimento do agente no art. 9º não se confunde com dano ao erário no art. 10.",
-      "cebraspeTrap": "Exigir prejuízo ao erário como requisito universal de todo ato do art. 9º.",
-      "example": "Um gestor recebe vantagem indevida para favorecer empresa.",
+      "definition": "É o ato de obter, mediante conduta dolosa tipificada, dinheiro, bens ou outra vantagem econômica indevida em razão do exercício de função pública, nas hipóteses do art. 9º da Lei de Improbidade Administrativa (LIA).",
+      "contrast": "No art. 9º, a pergunta central é se houve vantagem patrimonial indevida em razão da função; no art. 10, exige-se perda patrimonial efetiva e comprovada ao erário. A existência de dano ao erário não é requisito universal do art. 9º.",
+      "cebraspeTrap": "Afirmar que todo enriquecimento ilícito do art. 9º exige dano comprovado ao erário. O art. 9º se concentra na vantagem indevida, com os requisitos de seu tipo legal.",
+      "example": "Um agente público recebe conscientemente vantagem econômica indevida por causa de sua função. Para enquadrar o fato no art. 9º, é necessário verificar a hipótese legal específica e os elementos de dolo.",
       "articleIds": [
         "art-ea06e80ef83f4af7"
       ],
@@ -135,10 +135,10 @@
       "id": "glo-camara-improbidade-principios",
       "term": "Improbidade por violação de princípios",
       "aliases": [],
-      "definition": "Conduta dolosa enquadrada em uma das hipóteses específicas do art. 11 da LIA.",
-      "contrast": "Violação de princípio pode ser ilegal, mas só configura improbidade se atender ao tipo legal.",
-      "cebraspeTrap": "Considerar qualquer descumprimento da legalidade improbidade automática.",
-      "example": "Negar publicidade a ato oficial fora das exceções legais exige verificar o tipo e o dolo.",
+      "definition": "É a prática dolosa de uma das condutas especificamente previstas no art. 11 da Lei de Improbidade Administrativa (LIA), que atentam contra deveres como honestidade, imparcialidade e legalidade na atuação pública.",
+      "contrast": "Uma conduta pode contrariar um princípio administrativo e ser ilegal sem configurar improbidade. Para o art. 11, é necessário demonstrar dolo e enquadramento em uma das condutas expressamente previstas na lei.",
+      "cebraspeTrap": "Tratar qualquer descumprimento da legalidade como improbidade automática. O art. 11 exige conduta específica prevista em lei e os elementos subjetivos aplicáveis.",
+      "example": "Um agente nega deliberadamente publicidade a ato oficial que deveria ser divulgado, fora das exceções legais. O enquadramento exige verificar os requisitos do inciso correspondente, e não apenas constatar atraso.",
       "articleIds": [
         "art-ea06e80ef83f4af7"
       ],

@@ -37033,7 +37033,7 @@
       "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-c301f2c741504403 / PPA: Plano Plurianual e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     },
     {
-      "id": "cam-orc-l027-005-loa-excecao-suplementar",
+      "id": "cam-orc-l027-005-nao-afetacao-taxa-servico",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37042,23 +37042,23 @@
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
       "articleId": "art-a2f47c0d6e184e93",
-      "conceptId": "loa-excecao-autorizacao-de-suplementar",
-      "mechanism": "distinguir-excecao-expressa-de-materia-estranha",
+      "conceptId": "nao-afetacao-receita-impostos-versus-taxa",
+      "mechanism": "delimitar-impostos-e-taxas-art167iv",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-a2f47c0d6e184e93#Exclusividade e suas duas exceções constitucionais"
+        "article:art-a2f47c0d6e184e93#Não afetação de impostos e as exceções"
       ],
       "source": {
         "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
-        "section": "Exclusividade e suas duas exceções constitucionais"
+        "section": "Não afetação de impostos e as exceções"
       },
-      "statement": "A LOA pode autorizar a abertura de créditos suplementares, nas condições legais, sem que a autorização, isoladamente, viole o princípio da exclusividade orçamentária.",
-      "correctAnswer": "C",
-      "explanation": "O art. 165, § 8º, da Constituição admite na LOA autorização para abertura de créditos suplementares e para contratação de operações de crédito como exceções à exclusividade.",
-      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-a2f47c0d6e184e93 / Exclusividade e suas duas exceções constitucionais e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+      "statement": "Um município destina por lei a arrecadação de uma taxa vinculada a serviço público específico ao custeio desse serviço. Essa destinação é necessariamente proibida pela regra de não afetação de impostos do art. 167, IV, da Constituição, pois a vedação alcança todas as espécies tributárias.",
+      "correctAnswer": "E",
+      "explanation": "Errado. O art. 167, IV, da Constituição proíbe, em regra, a vinculação de receita de IMPOSTOS; a regra não se estende automaticamente a taxas. A Constituição distingue impostos e taxas no art. 145, I e II. A destinação de taxas deve atender ao próprio regime jurídico e à lei aplicável; a afirmação erra ao dizer que a vedação do inciso IV alcança toda espécie tributária.",
+      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026, lote 027: substituído o mecanismo redundante de exceção da LOA (semelhante ao piloto índice 90) por alcance objetivo da proibição de vinculação: receitas de impostos versus taxas. Fontes primárias conferidas: CF/1988, arts. 145 I-II e 167 IV, texto compilado em https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; artigo canônico art-a2f47c0d6e184e93, seção literal 'Não afetação de impostos e as exceções', verificada na main. Gabarito E e explicação checados. Revisão automatizada, sem homologação humana. Triagem global do lote e gate CI no SHA final ainda pendentes; status gerada."
     },
     {
       "id": "cam-orc-l027-006-reforco-dotacao-nao-especial",
@@ -37089,7 +37089,7 @@
       "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-87b69e1d4ac54f20 / Suplementar, especial e extraordinário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     },
     {
-      "id": "cam-orc-l027-007-excesso-arrecadacao-como-fonte",
+      "id": "cam-orc-l027-007-exposicao-justificativa-credito",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37098,11 +37098,11 @@
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
       "articleId": "art-87b69e1d4ac54f20",
-      "conceptId": "excesso-arrecadacao-fonte",
-      "mechanism": "reconhecer-condicoes-art-43",
+      "conceptId": "exposicao-justificativa-abertura-suplementar-especial",
+      "mechanism": "distinguir-disponibilidade-de-justificativa-art43",
       "questionType": "interpretacao",
-      "estimatedDifficulty": "dificil",
-      "cognitiveOperation": "análise",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
@@ -37111,10 +37111,10 @@
         "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
         "section": "Recursos disponíveis para suplementares e especiais"
       },
-      "statement": "O excesso de arrecadação apurado segundo a Lei nº 4.320/1964 pode servir como fonte para crédito suplementar ou especial, desde que haja recursos disponíveis e não comprometidos e sejam observadas as demais condições legais.",
-      "correctAnswer": "C",
-      "explanation": "O art. 43, § 1º, II, da Lei nº 4.320/1964 prevê o excesso de arrecadação como fonte. A apuração considera diferenças acumuladas e a tendência do exercício, não só um mês isolado.",
-      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-87b69e1d4ac54f20 / Recursos disponíveis para suplementares e especiais e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+      "statement": "Para abrir crédito suplementar, a administração demonstra a existência de recursos disponíveis e não comprometidos. Nesse caso, a exposição justificativa prevista no art. 43 da Lei nº 4.320/1964 torna-se dispensável, porque a indicação da fonte de recursos é suficiente.",
+      "correctAnswer": "E",
+      "explanation": "Errado. O caput do art. 43 da Lei nº 4.320/1964 exige tanto a existência de recursos disponíveis quanto uma exposição justificativa para a abertura de créditos suplementares e especiais. Demonstrar a fonte não substitui o dever de justificar a abertura; são exigências distintas.",
+      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026, lote 027: substituído o mecanismo redundante sobre excesso de arrecadação não comprometido (semelhante ao piloto índice 289) pela exigência cumulativa de exposição justificativa e recursos disponíveis. Fonte primária conferida: Lei nº 4.320/1964, art. 43 caput e §1º, texto atualizado da Câmara https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html; artigo canônico art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais', verificada na main. Gabarito E conferido. Revisão automatizada, sem homologação humana. Triagem global do lote e gate CI no SHA final ainda pendentes; status gerada."
     },
     {
       "id": "cam-orc-l027-008-pressa-administrativa-nao-extraordinario",

@@ -9935,6 +9935,42 @@
         "prompt": "Uma contratação pública teve resultado financeiro ruim. Isso basta para enquadrar o gestor no art. 10?",
         "answer": "Não. O art. 10 exige perda patrimonial efetiva e comprovada, conduta dolosa tipificada e nexo com o dano."
       }
+    },
+    {
+      "id": "camara-improbidade-prescricao-transicao",
+      "term": "Improbidade: prescrição e transição da lei",
+      "definition": "Prescrição é o prazo para buscar a aplicação de sanções por improbidade administrativa. O art. 23 da Lei de Improbidade Administrativa (LIA) estabelece prazo geral de oito anos, com marcos próprios de contagem e interrupção. O Supremo Tribunal Federal (STF), no Tema 1199, definiu que o novo regime prescricional da reforma de 2021 não retroage.",
+      "example": "Uma ação sobre fato anterior a 2021 exige verificar a data dos fatos, os marcos processuais e o regime temporal aplicável; não se pode simplesmente aplicar retroativamente todos os prazos da reforma.",
+      "confusion": "O prazo geral de oito anos não significa que toda ação termina exatamente oito anos após o fato. Interrupções, suspensão, regras de transição e decisões de controle constitucional precisam ser examinadas.",
+      "topic": "Improbidade administrativa",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Improbidade administrativa"
+      ],
+      "note": {
+        "articleId": "art-ea06e80ef83f4af7",
+        "section": "Prescrição e retroatividade — ponto de prova"
+      },
+      "source": {
+        "title": "Lei nº 8.429/1992, art. 23; STF, Tema 1199",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm",
+        "locator": "Art. 23; ARE 843989, Tema 1199"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-12",
+      "revision": 1,
+      "conceptIds": [
+        "camara-improbidade-prescricao-transicao"
+      ],
+      "contrast": {
+        "prompt": "A reforma de 2021 alterou a prescrição da improbidade. Seus novos marcos se aplicam automaticamente a todos os fatos e processos anteriores?",
+        "answer": "Não. Segundo o Tema 1199 do STF, o novo regime prescricional não retroage; a aplicação exige verificar os marcos temporais e as regras pertinentes."
+      }
     }
   ]
 }

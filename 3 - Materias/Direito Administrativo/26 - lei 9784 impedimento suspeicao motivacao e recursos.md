@@ -153,7 +153,7 @@ flowchart TD
 - **Prazo de interposição (art. 59):** salvo disposição legal específica, é de **10 (dez) dias** o prazo para a interposição de recurso administrativo, contado a partir da ciência ou divulgação oficial da decisão;
 - **Reconsideração prévia (art. 56, § 1º):** o recurso será dirigido à autoridade que proferiu a decisão. Se ela não a reconsiderar no prazo de **5 (cinco) dias**, o encaminhará à autoridade superior;
 - **Limite de instâncias recursais (art. 57):** o recurso tramitará no máximo por **3 (três) instâncias administrativas**, salvo disposição legal diversa;
-- **Prazo para julgamento (art. 59, §§ 1º e 2º):** quando não houver prazo diferente em lei, o órgão competente tem **até 30 (trinta) dias**, contados do recebimento dos autos, para decidir. Pode prorrogar por mais 30 dias, mas precisa justificar expressamente a prorrogação.
+- **Prazo para julgamento (art. 59, §§ 2º e 3º):** quando não houver prazo diferente em lei, o órgão competente tem **até 30 (trinta) dias**, contados do recebimento dos autos, para decidir. Pode prorrogar por mais 30 dias, mas precisa justificar expressamente a prorrogação.
 
 ### 3.2 Efeitos do recurso e a garantia da ampla defesa
 
@@ -178,7 +178,7 @@ A expressão latina ***reformatio in pejus*** significa **mudança da decisão p
 Compare com outro momento: a sanção já foi aplicada e surgem fatos novos ou circunstâncias relevantes que podem demonstrar sua inadequação. O art. 65 admite **revisão do processo sancionador** a qualquer tempo, por pedido ou iniciativa da Administração. Nesse procedimento específico, a lei proíbe agravar a sanção. Portanto, o critério para distinguir as duas situações é **qual procedimento está em curso** e **qual fato permite reabrir a análise**, não simplesmente o nome dado ao pedido.
 
 
-Considere uma multa que a pessoa contesta logo após receber a decisão. Isso é **recurso**. Agora imagine que, depois de encerrado o processo sancionador, surja um documento novo que mostre que a multa foi inadequada. O art. 65 permite **revisão**, a pedido ou por iniciativa da Administração, a qualquer tempo, se houver fatos novos ou circunstâncias relevantes. A consequência mais importante é diferente:
+A diferença aparece no esquema abaixo:
 
 ```mermaid
 flowchart LR

@@ -37170,7 +37170,7 @@
       "statement": "Um crédito especial autorizado em novembro e não integralmente utilizado pode, nos limites do saldo, ser reaberto no exercício seguinte e incorporado ao orçamento desse exercício.",
       "correctAnswer": "C",
       "explanation": "O art. 167, § 2º, da Constituição permite reabrir créditos especiais e extraordinários autorizados nos últimos quatro meses do exercício, limitados aos saldos.",
-      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: Conferência técnica: CF art. 167 §2º (reabertura de especial autorizado no último quadrimestre até saldo); heading literal Vigência e reabertura e artigo art-87b69e1d4ac54f20 conferidos. Risco de sobreposição de conceito com 036 (mesma regra com inversão do gabarito); exige decisão editorial na triagem semântica. Status gerada preservado; não homologado."
     },
     {
       "id": "cam-orc-l027-010-suplementar-sem-reabertura",
@@ -37198,7 +37198,7 @@
       "statement": "Um crédito suplementar autorizado em dezembro tem assegurada, pelo art. 167, § 2º, da Constituição, a reabertura automática de seu saldo no exercício seguinte.",
       "correctAnswer": "E",
       "explanation": "A exceção constitucional de reabertura alcança créditos especiais e extraordinários, não suplementares; tampouco a reabertura é automática.",
-      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: Conferência técnica: CF art. 167 §2º exclui suplementares da exceção de reabertura e não estabelece reabertura automática; heading literal Vigência e reabertura e artigo canônico conferidos. Distinção da espécie em relação a 009/036; triagem semântica integral pendente. Status gerada preservado; não homologado."
     },
     {
       "id": "cam-orc-l027-011-superavit-ano-anterior",
@@ -37210,8 +37210,8 @@
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
       "articleId": "art-87b69e1d4ac54f20",
-      "conceptId": "superavit-financeiro-temporalidade",
-      "mechanism": "confundir-exercicio-de-apuracao-de-fonte",
+      "conceptId": "operacao-credito-fonte-autorizada",
+      "mechanism": "distinguir-autorizacao-juridica-e-proposta-de-emprestimo",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
@@ -37223,10 +37223,10 @@
         "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
         "section": "Recursos disponíveis para suplementares e especiais"
       },
-      "statement": "Para abrir crédito especial no exercício atual, o superávit financeiro apurado no balanço patrimonial do exercício anterior pode constituir fonte de recursos, observados os ajustes e requisitos legais.",
+      "statement": "Para justificar a abertura de crédito especial, a administração pode indicar como recurso o produto de operação de crédito autorizada em forma que juridicamente possibilite ao Poder Executivo realizá-la, observados os demais requisitos legais.",
       "correctAnswer": "C",
-      "explanation": "O art. 43, § 1º, I, e § 2º, da Lei nº 4.320/1964 prevê o superávit financeiro apurado no balanço patrimonial do exercício anterior, conforme os ajustes legais.",
-      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Recursos disponíveis para suplementares e especiais'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado."
+      "explanation": "A Lei nº 4.320/1964, art. 43, § 1º, IV, admite como fonte o produto de operações de crédito autorizadas em forma que juridicamente possibilite sua realização pelo Executivo; permanecem exigíveis os requisitos do caput e da autorização do crédito.",
+      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Recursos disponíveis para suplementares e especiais'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: questão reformulada para fonte por operação de crédito legalmente autorizada (Lei 4.320/1964 art. 43 §1º IV), evitando redundância substantiva com 035 sobre superávit do balanço anterior. Artigo canônico e heading literal Recursos disponíveis para suplementares e especiais conferidos. ID 011 preservado por rastreabilidade, mas slug antigo 'superavit-ano-anterior' exige ajuste editorial controlado. Similaridade integral e testes ainda pendentes; status gerada preservado, não homologado."
     },
     {
       "id": "cam-orc-l027-012-emenda-nao-especie-credito",
@@ -37254,7 +37254,7 @@
       "statement": "Durante a apreciação do projeto de lei orçamentária, uma emenda parlamentar que modifica uma programação constitui, por esse motivo, uma quarta espécie de crédito adicional ao lado dos créditos suplementares, especiais e extraordinários.",
       "correctAnswer": "E",
       "explanation": "O art. 41 da Lei nº 4.320/1964 prevê apenas três espécies de créditos adicionais. Emenda parlamentar altera proposta em tramitação e não constitui espécie de crédito adicional.",
-      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Núcleo do conceito'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Núcleo do conceito'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: Conferência técnica: Lei 4.320/1964 art. 41 contém três espécies de créditos; emenda parlamentar ao projeto é instrumento legislativo distinto, como explicado no heading literal Núcleo do conceito do artigo canônico. Similaridade integral pendente. Status gerada preservado; não homologado."
     },
     {
       "id": "cam-orc-l027-013-imposto-saude-excecao",

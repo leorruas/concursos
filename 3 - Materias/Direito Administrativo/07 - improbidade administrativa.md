@@ -108,17 +108,15 @@ O Tema 1199 do STF é especialmente importante para questões que misturam fatos
 
 **Item C/E inédito:** “Para enquadrar uma conduta no art. 10 da LIA, exige-se dano efetivo e comprovado ao erário, além dos requisitos de dolo e tipificação.” **Certo.** A perda patrimonial deve ser demonstrada, conforme o art. 10 da LIA.
 
-## Três situações para distinguir as categorias
+## Teste de distinção: três situações
 
-**Situação A:** uma servidora comete erro de preenchimento por descuido. Pode existir irregularidade a corrigir, mas o erro isolado não comprova dolo nem enquadramento nos tipos de improbidade.
+**Situação A:** uma servidora erra um formulário por descuido. O erro pode precisar de correção e gerar outras consequências, mas, isoladamente, não demonstra o dolo exigido pela Lei de Improbidade Administrativa.
 
-**Situação B:** um gestor recebe conscientemente vantagem econômica indevida por causa do cargo. A hipótese aponta para o **art. 9º**, desde que comprovados os elementos exigidos pela lei.
+**Situação B:** um gestor recebe vantagem econômica indevida em razão do cargo. A análise começa pelo art. 9º: é preciso comprovar a vantagem e os demais elementos do tipo legal. Não se exige, em todas as hipóteses desse artigo, dano patrimonial ao erário.
 
-**Situação C:** um agente provoca deliberadamente perda de recursos públicos. A hipótese pode apontar para o **art. 10**, desde que a conduta seja tipificada e o dano seja efetivo e comprovado.
+**Situação C:** um agente pratica conduta dolosa tipificada que provoca perda efetiva e comprovada de recursos públicos. A análise começa pelo art. 10. O dano, isoladamente, não dispensa a demonstração de dolo e dos demais requisitos.
 
-**Item inédito, Certo ou Errado:** “Toda infração administrativa praticada voluntariamente constitui improbidade, ainda que não haja intenção de alcançar o resultado ilícito previsto na lei.” **Errado.** A simples voluntariedade não supre o dolo exigido pela LIA.
-
-**Item inédito, Certo ou Errado:** “O prejuízo ao erário do art. 10 exige dano patrimonial efetivo e comprovado, além dos demais requisitos legais.” **Certo.** Um resultado financeiro desfavorável, sozinho, não prova improbidade.
+Compare as situações com os dois itens C/E comentados na seção anterior. O objetivo é identificar **qual elemento legal está presente ou ausente**, antes de escolher uma categoria.
 
 ## Como a banca pode cobrar
 

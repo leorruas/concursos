@@ -173,6 +173,38 @@
     {
       "glossaryId": "glo-camara-prescricao-improbidade",
       "cardId": "camara-improbidade-prescricao-transicao"
+    },
+    {
+      "glossaryId": "glo-camara-quorum-presenca",
+      "cardId": "camara-quorum-presenca-casas"
+    },
+    {
+      "glossaryId": "glo-camara-maioria-simples",
+      "cardId": "camara-maioria-simples-exemplo"
+    },
+    {
+      "glossaryId": "glo-camara-maioria-absoluta",
+      "cardId": "camara-maioria-absoluta-duas-casas"
+    },
+    {
+      "glossaryId": "glo-camara-maioria-qualificada",
+      "cardId": "camara-maioria-qualificada-tres-quintos"
+    },
+    {
+      "glossaryId": "glo-camara-quorum-tres-quintos",
+      "cardId": "camara-maioria-qualificada-tres-quintos"
+    },
+    {
+      "glossaryId": "glo-camara-quorum-dois-tercos",
+      "cardId": "camara-maioria-qualificada-dois-tercos"
+    },
+    {
+      "glossaryId": "glo-camara-quorum-aprovacao",
+      "cardId": "camara-quorum-aprovacao-diferenca"
+    },
+    {
+      "glossaryId": "glo-camara-projeto-lei-complementar",
+      "cardId": "camara-plp-lc-estagios"
     }
   ]
 }

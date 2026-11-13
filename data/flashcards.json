@@ -9971,6 +9971,78 @@
         "prompt": "A reforma de 2021 alterou a prescrição da improbidade. Seus novos marcos se aplicam automaticamente a todos os fatos e processos anteriores?",
         "answer": "Não. Segundo o Tema 1199 do STF, o novo regime prescricional não retroage; a aplicação exige verificar os marcos temporais e as regras pertinentes."
       }
+    },
+    {
+      "topic": "Recursos administrativos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Processo administrativo"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "id": "camara-recurso-efeito-suspensivo-lei9784",
+      "term": "Efeito suspensivo do recurso administrativo",
+      "definition": "É a suspensão temporária dos efeitos de uma decisão enquanto o recurso é examinado. No processo regido pela Lei nº 9.784/1999, o recurso normalmente não suspende a decisão. A autoridade recorrida ou a imediatamente superior pode conceder a suspensão quando houver justo receio de prejuízo de difícil ou incerta reparação.",
+      "example": "Uma pessoa contesta multa administrativa. Apenas apresentar o recurso não suspende os efeitos da multa; a autoridade pode conceder efeito suspensivo se verificar o risco previsto em lei.",
+      "confusion": "Efeito devolutivo é a possibilidade de reexaminar a matéria. Efeito suspensivo impede temporariamente os efeitos da decisão; um não implica automaticamente o outro.",
+      "note": {
+        "articleId": "art-bc65879a85f5b5d8",
+        "section": "3.2 Efeitos do recurso e a garantia da ampla defesa"
+      },
+      "source": {
+        "title": "Lei nº 9.784/1999",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Art. 61, caput e parágrafo único"
+      },
+      "conceptIds": [
+        "glo-camara-efeito-suspensivo-recurso"
+      ],
+      "contrast": {
+        "prompt": "Uma pessoa apresentou recurso contra multa. A cobrança fica suspensa automaticamente?",
+        "answer": "Não. O art. 61 da Lei nº 9.784/1999 prevê, em regra, ausência de efeito suspensivo. A autoridade recorrida ou imediatamente superior pode concedê-lo diante de justo receio de prejuízo de difícil ou incerta reparação."
+      }
+    },
+    {
+      "topic": "Recursos administrativos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Processo administrativo"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "id": "camara-recurso-revisao-agravamento-lei9784",
+      "term": "Agravamento no recurso e revisão de sanção",
+      "definition": "No julgamento de recurso administrativo, a decisão pode ser agravada, desde que a pessoa recorrente seja cientificada antes para apresentar alegações. Na revisão de processo sancionador, cabível a qualquer tempo diante de fatos novos ou circunstâncias relevantes que indiquem inadequação da sanção, a lei proíbe agravar a penalidade.",
+      "example": "Uma multa pode aumentar no recurso, com aviso prévio e chance de manifestação. Se o processo sancionador for revisto por fatos novos, a sanção não pode aumentar.",
+      "confusion": "A proibição de agravar sanção na revisão do art. 65 não impede todo agravamento no recurso do art. 64.",
+      "note": {
+        "articleId": "art-bc65879a85f5b5d8",
+        "section": "4. Confronto crucial: *reformatio in pejus* no recurso versus vedação na revisão"
+      },
+      "source": {
+        "title": "Lei nº 9.784/1999",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Arts. 64, caput e parágrafo único, e 65"
+      },
+      "conceptIds": [
+        "glo-camara-recurso-revisao-sancionadora"
+      ],
+      "contrast": {
+        "prompt": "Uma sanção pode piorar após recurso? E na revisão do processo sancionador por fatos novos?",
+        "answer": "No recurso, pode haver agravamento com ciência prévia para alegações (art. 64). Na revisão sancionadora, é proibido agravar a sanção (art. 65)."
+      }
     }
   ]
 }

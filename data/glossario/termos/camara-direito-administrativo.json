@@ -155,6 +155,56 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-efeito-suspensivo-recurso",
+      "term": "Efeito suspensivo do recurso administrativo",
+      "aliases": [],
+      "definition": "Suspende os efeitos da decisão durante o exame do recurso. Pela Lei nº 9.784/1999, art. 61, a suspensão não é automática: pode ser concedida pela autoridade recorrida ou imediatamente superior diante de justo receio de prejuízo de difícil ou incerta reparação.",
+      "contrast": "Efeito devolutivo significa reexame da matéria, enquanto efeito suspensivo impede temporariamente os efeitos da decisão.",
+      "cebraspeTrap": "Afirmar que todo recurso suspende automaticamente a decisão.",
+      "example": "Uma pessoa recorre de multa. O protocolo do recurso não suspende, por si só, os efeitos da multa.",
+      "articleIds": [
+        "art-bc65879a85f5b5d8"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999, art. 61",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-recurso-revisao-sancionadora",
+      "term": "Recurso administrativo e revisão de sanção",
+      "aliases": [],
+      "definition": "No recurso, o órgão competente pode agravar a decisão, desde que dê ciência prévia ao recorrente para apresentar alegações (art. 64). A revisão de sanção exige fatos novos ou circunstâncias relevantes e não pode agravar a penalidade (art. 65).",
+      "contrast": "O agravamento é possível no recurso com manifestação prévia; na revisão sancionadora, é vedado.",
+      "cebraspeTrap": "Aplicar a proibição de agravamento da revisão a qualquer recurso administrativo.",
+      "example": "Uma multa pode ser aumentada no julgamento do recurso após ciência prévia; a revisão da sanção por fatos novos não pode aumentá-la.",
+      "articleIds": [
+        "art-bc65879a85f5b5d8"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999, arts. 64 e 65",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

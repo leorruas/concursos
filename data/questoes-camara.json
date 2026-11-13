@@ -37201,7 +37201,7 @@
       "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: Conferência técnica: CF art. 167 §2º exclui suplementares da exceção de reabertura e não estabelece reabertura automática; heading literal Vigência e reabertura e artigo canônico conferidos. Distinção da espécie em relação a 009/036; triagem semântica integral pendente. Status gerada preservado; não homologado."
     },
     {
-      "id": "cam-orc-l027-011-superavit-ano-anterior",
+      "id": "cam-orc-l027-011-operacao-credito-autorizada",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37226,7 +37226,7 @@
       "statement": "Para justificar a abertura de crédito especial, a administração pode indicar como recurso o produto de operação de crédito autorizada em forma que juridicamente possibilite ao Poder Executivo realizá-la, observados os demais requisitos legais.",
       "correctAnswer": "C",
       "explanation": "A Lei nº 4.320/1964, art. 43, § 1º, IV, admite como fonte o produto de operações de crédito autorizadas em forma que juridicamente possibilite sua realização pelo Executivo; permanecem exigíveis os requisitos do caput e da autorização do crédito.",
-      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Recursos disponíveis para suplementares e especiais'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: questão reformulada para fonte por operação de crédito legalmente autorizada (Lei 4.320/1964 art. 43 §1º IV), evitando redundância substantiva com 035 sobre superávit do balanço anterior. Artigo canônico e heading literal Recursos disponíveis para suplementares e especiais conferidos. ID 011 preservado por rastreabilidade, mas slug antigo 'superavit-ano-anterior' exige ajuste editorial controlado. Similaridade integral e testes ainda pendentes; status gerada preservado, não homologado."
+      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Recursos disponíveis para suplementares e especiais'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: questão reformulada para fonte por operação de crédito legalmente autorizada (Lei 4.320/1964 art. 43 §1º IV), evitando redundância substantiva com 035 sobre superávit do balanço anterior. Artigo canônico e heading literal Recursos disponíveis para suplementares e especiais conferidos. ID 011 preservado por rastreabilidade, mas slug antigo 'superavit-ano-anterior' exige ajuste editorial controlado. Similaridade integral e testes ainda pendentes; status gerada preservado, não homologado. Ajuste de identidade editorial: ID renomeado de superavit-ano-anterior para operacao-credito-autorizada, coerente com enunciado e conceptId; ainda gerada, sem homologação."
     },
     {
       "id": "cam-orc-l027-012-emenda-nao-especie-credito",

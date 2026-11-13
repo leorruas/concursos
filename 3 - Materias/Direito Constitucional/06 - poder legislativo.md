@@ -5,12 +5,14 @@ title: "Poder legislativo"
 type: "conceito"
 status: "ativo"
 created: 2026-06-09
-updated: 2026-11-11
+updated: 2026-11-13
 ---
 
 # Poder Legislativo
 
-No plano federal, o Poder Legislativo é exercido pelo **Congresso Nacional**, composto pela Câmara dos Deputados e pelo Senado Federal. Além da função legislativa, exerce função fiscalizatória e participa do sistema constitucional de controle externo.
+**Situação concreta.** O governo quer criar uma lei sobre determinado serviço público. Ao mesmo tempo, precisa prestar contas do dinheiro federal que gastou. Quem vota a lei? Quem examina as contas? A resposta depende da tarefa: aprovar uma lei, fiscalizar um gasto e julgar contas são decisões diferentes.
+
+No plano federal, o **Congresso Nacional** exerce o Poder Legislativo e reúne duas Casas: **Câmara dos Deputados** e **Senado Federal** (Constituição Federal, art. 44). Em regra, ambas participam da elaboração de leis. O Congresso também fiscaliza a atuação do governo, com auxílio do Tribunal de Contas da União (TCU) no controle externo das contas públicas. Cada Casa tem ainda atribuições próprias. Para decidir uma questão, identifique primeiro **a matéria**, depois **o órgão competente** e, por último, **o procedimento exigido**.
 
 ## Bicameralismo federal
 
@@ -48,11 +50,77 @@ Também exerce funções atípicas, como administrar sua própria estrutura e, e
 
 ## Competências do Congresso e das duas Casas: arts. 48 a 52
 
-O **art. 48** cuida, em regra, de matérias sobre as quais o **Congresso legisla com sanção presidencial**. O **art. 49** enumera competências **exclusivas do Congresso**, **sem sanção**, como resolver definitivamente sobre tratados que acarretem encargos ou compromissos gravosos, sustar atos normativos do Executivo que exorbitem do poder regulamentar ou dos limites de delegação, **julgar contas anuais do Presidente**, autorizar referendo e convocar plebiscito e fiscalizar atos do Executivo. A competência exclusiva para sustar **atos normativos exorbitantes** (art. 49, V) é diferente da fiscalização do TCU sobre **atos administrativos e contratos** (art. 71).
+Imagine quatro notícias: o Congresso aprovou uma lei; o Congresso julgou as contas do Presidente; a Câmara autorizou a abertura de um processo contra o Presidente; e o Senado julgou esse processo. Todas envolvem o Legislativo federal, mas **o órgão que decide e o procedimento mudam conforme a tarefa**.
 
-A **Câmara**, no **art. 51**, pode **autorizar por dois terços de seus membros** a instauração de processo contra Presidente, Vice-Presidente e Ministros de Estado, proceder à **tomada de contas** do Presidente não apresentadas em 60 dias após a abertura da sessão legislativa, elaborar seu regimento e dispor sobre seus serviços, observada a **iniciativa de lei** para fixar a remuneração. O **Senado**, no **art. 52**, processa e julga autoridades nos **crimes de responsabilidade** nas hipóteses previstas; aprova previamente certas autoridades indicadas, autoriza operações externas de natureza financeira e tem competências sobre limites de endividamento. No julgamento político dos incisos I e II, a condenação depende de **dois terços dos senadores**. **Autorizar a instauração (Câmara) ≠ processar e julgar (Senado)**.
+A Constituição distribui essas tarefas. **Congresso Nacional** é o conjunto formado pela Câmara dos Deputados e pelo Senado Federal. Em algumas atividades, as duas Casas participam da formação de uma lei; em outras, cada Casa exerce uma atribuição que lhe foi reservada. A distinção está nos arts. 48 a 52 da Constituição Federal.
 
-Pelo **art. 50**, as Casas e suas comissões podem **convocar Ministros de Estado, titulares de órgãos diretamente subordinados à Presidência e o Presidente do Comitê Gestor do IBS**, para prestar informações sobre assunto previamente determinado. **Ausência sem justificativa adequada** importa crime de responsabilidade. Pedidos **escritos** de informações encaminhados pelas Mesas seguem o § 2º, que prevê consequências por recusa, não atendimento em **30 dias** ou informação falsa. Convocação presencial e pedido escrito possuem procedimentos distintos.
+| Situação | Quem atua | Regra central |
+| :--- | :--- | :--- |
+| **Produzir lei federal** sobre matéria de competência da União | Câmara e Senado, em regra, com participação posterior do Presidente da República | **Art. 48:** leis sujeitas à sanção ou ao veto presidencial, ressalvadas as exceções constitucionais |
+| **Tomar uma decisão reservada ao Congresso** | Congresso Nacional, sem sanção presidencial | **Art. 49:** competências exclusivas |
+| **Autorizar determinado processo contra o Presidente** | Câmara dos Deputados | **Art. 51:** competência privativa de uma Casa |
+| **Processar e julgar o Presidente por crime de responsabilidade** | Senado Federal | **Art. 52:** competência privativa da outra Casa |
+| **Cobrar informações de autoridades do Executivo** | Câmara, Senado, comissões ou Mesas, conforme a modalidade | **Art. 50:** convocação pessoal e pedido escrito seguem regras diferentes |
+
+A expressão **competência** significa a atribuição jurídica para praticar determinado ato. Aqui, **exclusiva do Congresso** e **privativa de uma Casa** indicam a quem a Constituição reservou a decisão. Memorizar somente o nome do órgão é insuficiente: a prova pode mudar o tipo de decisão ou a etapa do procedimento.
+
+### Art. 48: fazer uma lei e encaminhá-la ao Presidente
+
+Suponha que se queira instituir uma política federal que dependa de lei. Em regra, o projeto passa pelo trabalho legislativo da **Câmara e do Senado**, observadas as regras de iniciativa e tramitação. Depois da aprovação parlamentar, segue ao Presidente da República, que pode **sancionar** (concordar com o projeto) ou **vetar** (recusar, total ou parcialmente, pelos motivos constitucionais). A sanção vem **depois da deliberação parlamentar**: o Presidente não vota como integrante do Congresso.
+
+O art. 48 menciona, entre outros temas, tributos, orçamento, dívida pública, organização administrativa e criação de cargos. Isso identifica **matérias sobre as quais o Congresso legisla**, e não autoriza presumir que qualquer proposta dessas matérias possa ser iniciada por qualquer parlamentar: a iniciativa de certos projetos é reservada constitucionalmente a autoridades determinadas.
+
+**Limite importante:** o próprio art. 48 dispensa a sanção presidencial nos casos especificados pelos **arts. 49, 51 e 52**. Por isso, a frase “toda decisão do Congresso precisa da assinatura do Presidente” está errada.
+
+### Art. 49: decisões exclusivas do Congresso, sem sanção
+
+Agora suponha que o Presidente apresente as contas anuais de seu governo. O **Tribunal de Contas da União (TCU)** examina essas contas e emite um **parecer prévio**, isto é, uma análise técnica que orienta o julgamento. **Quem julga as contas anuais do Presidente é o Congresso Nacional**, conforme o art. 49, IX, combinado com o art. 71, I. O parecer do TCU não substitui essa decisão.
+
+Outras competências exclusivas do Congresso incluem **resolver definitivamente sobre determinados tratados internacionais** (art. 49, I), **convocar plebiscito e autorizar referendo** (inciso XV), além de **sustar atos normativos do Executivo que ultrapassem o poder regulamentar ou os limites da delegação legislativa** (inciso V).
+
+Nesse último caso, pense em um decreto que deveria apenas detalhar uma lei, mas introduz uma obrigação que a lei não autorizou. O Congresso pode sustar o excesso. **Sustar** significa interromper os efeitos do ato na extensão da decisão. Essa competência é diferente do exame que o TCU faz sobre **atos administrativos e contratos**, regido pelo art. 71. O Congresso não ganha, por essa regra, poder geral de anular qualquer contrato.
+
+**Comparação decisiva:** criar uma lei federal e decidir sobre um tratado internacional gravoso são atividades que podem envolver o Congresso, mas seguem instrumentos e procedimentos diferentes. O art. 49 não exige sanção presidencial.
+
+### Art. 51: o que cabe à Câmara dos Deputados
+
+Imagine uma acusação de **crime de responsabilidade** contra o Presidente, isto é, uma infração político-jurídica sujeita ao procedimento constitucional próprio. A Câmara decide se **autoriza a instauração do processo**. Para isso, o art. 51, I, exige votos favoráveis de **dois terços de seus membros**: com 513 deputados, são **342 votos**. Autorizar o processo significa permitir que ele avance; **não significa declarar culpabilidade ou condenar**.
+
+A Câmara também pode realizar a **tomada de contas** caso o Presidente não as apresente ao Congresso dentro de **60 dias após a abertura da sessão legislativa** (art. 51, II). Tomada de contas é o procedimento para obter e apurar contas que deveriam ter sido prestadas. Compare as três operações:
+
+- **Tomar contas não entregues:** Câmara, art. 51, II;
+- **Emitir parecer prévio sobre contas presidenciais:** TCU, art. 71, I;
+- **Julgar as contas anuais do Presidente:** Congresso Nacional, art. 49, IX.
+
+A Câmara ainda elabora seu **regimento interno**, que reúne regras sobre sua organização e seus procedimentos, e dispõe sobre seus próprios serviços, respeitados os limites constitucionais (art. 51, III e IV). Para a remuneração dos servidores da Casa, o art. 51, IV, prevê **iniciativa de lei**, não fixação livre por simples ato interno.
+
+### Art. 52: o que cabe ao Senado Federal
+
+Se a Câmara autorizar a instauração do processo presidencial por crime de responsabilidade, **o Senado é o órgão competente para processar e julgar**, conforme o art. 52, I. Processar é conduzir o procedimento; julgar é decidir seu resultado. A condenação nos casos dos incisos I e II exige **dois terços dos senadores**: com 81 integrantes, **54 votos favoráveis** (art. 52, parágrafo único).
+
+O Senado também exerce outras competências próprias, como **aprovar previamente indicações de determinadas autoridades**, nas hipóteses constitucionais, e decidir sobre **operações externas de natureza financeira** e certos **limites de endividamento** (art. 52). Aprovar a escolha de uma autoridade não é o mesmo que nomeá-la.
+
+O exemplo presidencial mostra a divisão de tarefas: **a Câmara autoriza a instauração; o Senado processa e julga**. O quórum de dois terços aparece nas duas etapas, mas os votos são contados sobre o total de integrantes **da Casa que toma cada decisão**.
+
+### Art. 50: fiscalizar por convocação ou por pedido escrito
+
+Nem toda atuação parlamentar produz lei ou julgamento. O Legislativo também pode **pedir explicações sobre a atuação do Executivo**. A Constituição prevê duas formas que não devem ser confundidas.
+
+**Convocação para comparecimento pessoal:** a Câmara, o Senado ou suas comissões podem convocar **Ministros de Estado, titulares de órgãos diretamente subordinados à Presidência da República e o Presidente do Comitê Gestor do Imposto sobre Bens e Serviços (IBS)** para prestar pessoalmente informações sobre assunto previamente determinado (art. 50, caput). A ausência sem justificativa adequada constitui crime de responsabilidade.
+
+**Pedido escrito de informações:** as **Mesas da Câmara e do Senado** podem encaminhar pedidos escritos às autoridades indicadas no art. 50, § 2º. A recusa, o não atendimento em **30 dias** e o fornecimento de informações falsas sujeitam às consequências constitucionais. Aqui se solicita uma resposta formal, em vez de exigir o comparecimento pessoal.
+
+Exemplo: uma comissão deseja ouvir um ministro sobre a execução de determinado programa e faz uma **convocação**. Em outra situação, a Mesa da Câmara solicita por escrito dados e documentos: trata-se de **pedido escrito**. O prazo de 30 dias pertence a essa segunda modalidade e não pode ser transferido automaticamente a toda convocação.
+
+### Aplicação: como identificar a competência em uma questão
+
+Leia primeiro o **verbo da situação**: legislar, autorizar, processar, julgar, convocar, pedir informações, apreciar contas ou sustar. Depois identifique **quem é o destinatário ou responsável**: Presidente, gestor de autarquia, ministro, autoridade indicada ou ato normativo. Só então procure o artigo constitucional e o procedimento.
+
+**Autochecagem, certo ou errado.** “Por ser responsável pelo controle externo, o TCU julga as contas anuais do Presidente da República.” **Errado.** O TCU aprecia e emite parecer prévio; o Congresso Nacional julga essas contas (arts. 49, IX, e 71, I).
+
+**Autochecagem, certo ou errado.** “A Câmara pode autorizar a instauração do processo por crime de responsabilidade contra o Presidente, mas o julgamento político compete ao Senado.” **Certo.** As atribuições e os quóruns estão nos arts. 51, I, e 52, I e parágrafo único.
+
+**Fonte normativa:** [Constituição Federal atualizada pela Câmara dos Deputados, arts. 44 e 48 a 52, 70 e 71](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). As situações apresentadas são exemplos didáticos e não transcrições da Constituição.
 
 ## Mandato, imunidades e sessões: arts. 53 a 58
 

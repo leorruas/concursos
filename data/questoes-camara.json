@@ -38321,7 +38321,7 @@
       "reviewEvidence": "Lote 028, autoria e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-010-voto-alternativo-transferencia; gabarito E; mecanismo avaliar-transferencia-condicionada; conferido com 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md, heading literal 'Comparação entre desenhos majoritários'. Fonte indicada para cotejo independente: Modelo comparado de voto alternativo, artigo 23. Ainda pendentes cotejo integral de novidade com expansão/piloto e fontes primárias, CI do SHA final e revisão editorial conclusiva. Não homologado por humano."
     },
     {
-      "id": "cam-cpol-l028-011-senado-suplente-chapa",
+      "id": "cam-cpol-l028-011-representacao-federativa",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38330,26 +38330,26 @@
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
       "articleId": "art-b3e8d1c74f209a65",
-      "conceptId": "suplencia-senatorial-vinculada",
-      "mechanism": "distinguir-terceiro-colocado-de-suplente",
+      "conceptId": "senado-igualdade-federativa-independente-formula",
+      "mechanism": "distinguir-alocacao-territorial-e-formula-vitoria",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-b3e8d1c74f209a65#Regras brasileiras: cargos e condições"
+        "article:art-b3e8d1c74f209a65#Efeitos: expectativas, não equivalências lógicas"
       ],
       "source": {
         "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
-        "section": "Regras brasileiras: cargos e condições"
+        "section": "Efeitos: expectativas, não equivalências lógicas"
       },
-      "statement": "Na eleição para duas vagas ao Senado, o terceiro candidato mais votado na unidade federativa passa a ser suplente do segundo colocado, por ter obtido a posição imediatamente seguinte na votação.",
+      "statement": "A distribuição de três cadeiras do Senado a cada estado e ao Distrito Federal decorre necessariamente da adoção do sistema majoritário, de modo que seria impossível preservar a mesma igualdade territorial em outro desenho de votação.",
       "correctAnswer": "E",
-      "explanation": "A suplência é vinculada à chapa de cada senador eleito, que conta com dois suplentes. A classificação geral dos concorrentes não define os suplentes.",
-      "reviewEvidence": "Lote 028, autoria e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-011-senado-suplente-chapa; gabarito E; mecanismo distinguir-terceiro-colocado-de-suplente; conferido com 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md, heading literal 'Regras brasileiras: cargos e condições'. Fonte indicada para cotejo independente: Constituição Federal, art. 46, § 3º. Ainda pendentes cotejo integral de novidade com expansão/piloto e fontes primárias, CI do SHA final e revisão editorial conclusiva. Não homologado por humano."
+      "explanation": "A igualdade de representação territorial é uma escolha constitucional sobre distribuição de cadeiras entre unidades federativas. A fórmula eleitoral de seleção dos ocupantes é uma dimensão distinta.",
+      "reviewEvidence": "Lote 028, revisão técnica por IA em 13/11/2026: separar regra constitucional de igualdade territorial (CF, art. 46, § 1º) da fórmula de seleção. Heading canônico 'Efeitos: expectativas, não equivalências lógicas' no artigo 23. Substitui item redundante sobre suplentes do Senado. Pendente comparação semântica integral, fonte primária e gates no SHA final; gerada, não homologada."
     },
     {
-      "id": "cam-cpol-l028-012-turnos-votacao-autonoma",
+      "id": "cam-cpol-l028-012-coordenacao-segundo-turno",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38358,23 +38358,23 @@
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
       "articleId": "art-b3e8d1c74f209a65",
-      "conceptId": "segundo-turno-nao-soma-votos",
-      "mechanism": "avaliar-reversao-por-nova-votacao",
+      "conceptId": "segundo-turno-aliancas-sem-transferencia-obrigatoria",
+      "mechanism": "inferir-limite-transferencia-apoio-politico",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-b3e8d1c74f209a65#Comparação entre desenhos majoritários"
+        "article:art-b3e8d1c74f209a65#Efeitos: expectativas, não equivalências lógicas"
       ],
       "source": {
         "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
-        "section": "Comparação entre desenhos majoritários"
+        "section": "Efeitos: expectativas, não equivalências lógicas"
       },
-      "statement": "Se A recebeu 46% e B 39% dos votos válidos no primeiro turno presidencial, B poderá vencer com 52% no segundo turno, pois a apuração da segunda votação é autônoma em relação à primeira.",
-      "correctAnswer": "C",
-      "explanation": "A disputa do segundo turno produz uma nova contagem de votos válidos entre os finalistas. A liderança anterior não garante a vitória.",
-      "reviewEvidence": "Lote 028, autoria e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-012-turnos-votacao-autonoma; gabarito C; mecanismo avaliar-reversao-por-nova-votacao; conferido com 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md, heading literal 'Comparação entre desenhos majoritários'. Fonte indicada para cotejo independente: Constituição Federal, art. 77, §§ 2º e 3º. Ainda pendentes cotejo integral de novidade com expansão/piloto e fontes primárias, CI do SHA final e revisão editorial conclusiva. Não homologado por humano."
+      "statement": "O apoio formal de uma candidatura eliminada a um dos finalistas do segundo turno garante a transferência integral de seus votos da primeira etapa, desde que o acordo seja anunciado publicamente.",
+      "correctAnswer": "E",
+      "explanation": "Apoio político pode alterar incentivos e alianças, mas cada eleitor decide novamente se comparece e em quem vota. Não existe transferência automática de votos entre turnos.",
+      "reviewEvidence": "Lote 028, revisão técnica por IA em 13/11/2026: distinguir acordo de elites e comportamento eleitoral no segundo turno, conforme artigo 23 heading 'Efeitos: expectativas, não equivalências lógicas'. Substitui repetição do exercício sobre soma dos turnos. Pendente cotejo semântico integral, fonte independente e CI final; gerada."
     },
     {
       "id": "cam-cpol-l028-013-qe-fracao-limite",
@@ -38433,7 +38433,7 @@
       "reviewEvidence": "Lote 028, autoria e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-014-voto-nominal-duplo-efeito; gabarito C; mecanismo separar-agregacao-e-ordenacao; conferido com 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md, heading literal 'Núcleo do conceito'. Fonte indicada para cotejo independente: Código Eleitoral, arts. 106 a 108. Ainda pendentes cotejo integral de novidade com expansão/piloto e fontes primárias, CI do SHA final e revisão editorial conclusiva. Não homologado por humano."
     },
     {
-      "id": "cam-cpol-l028-015-sobras-etapa-aberta",
+      "id": "cam-cpol-l028-015-nenhum-partido-qe",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38442,8 +38442,8 @@
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
       "articleId": "art-2e96b7d14a53c80f",
-      "conceptId": "sobras-etapa-aberta-sem-oitenta-vinte",
-      "mechanism": "distinguir-fase-restrita-e-aberta",
+      "conceptId": "ausencia-qp-distribuicao-medias",
+      "mechanism": "aplicar-excecao-nenhuma-legenda-atinge-qe",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
@@ -38455,10 +38455,10 @@
         "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
         "section": "3. Distribuição de sobras: maiores médias"
       },
-      "statement": "Esgotadas as candidaturas aptas à distribuição de sobras com os requisitos de 80% e 20% do quociente eleitoral, a etapa seguinte continua excluindo todos os partidos que não alcançaram 80% do QE.",
+      "statement": "Se nenhuma legenda atingir o quociente eleitoral, todas as cadeiras de uma eleição proporcional serão preenchidas automaticamente pelos candidatos mais votados na circunscrição, sem cálculo de médias por partido ou federação.",
       "correctAnswer": "E",
-      "explanation": "A fase final aberta permite participação de todas as legendas e federações, independentemente dos limiares 80/20, conforme a interpretação do STF incorporada à regulamentação.",
-      "reviewEvidence": "Lote 028, autoria e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-015-sobras-etapa-aberta; gabarito E; mecanismo distinguir-fase-restrita-e-aberta; conferido com 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md, heading literal '3. Distribuição de sobras: maiores médias'. Fonte indicada para cotejo independente: Resolução TSE 23.677/2021, art. 11, § 4º; STF ADIs 7228, 7263 e 7325. Ainda pendentes cotejo integral de novidade com expansão/piloto e fontes primárias, CI do SHA final e revisão editorial conclusiva. Não homologado por humano."
+      "explanation": "A hipótese excepcional exige distribuição por maiores médias entre legendas, conforme os requisitos das etapas aplicáveis; não se converte em eleição majoritária nominal.",
+      "reviewEvidence": "Lote 028, revisão técnica por IA em 13/11/2026: aplicação do caso nenhuma legenda alcança QE, Resolução TSE 23.677/2021, art. 12-A, artigo 24 heading '3. Distribuição de sobras: maiores médias'. Substitui repetição da etapa aberta 80/20. Pendente confirmação primária independente, cotejo semântico integral e CI final; gerada."
     },
     {
       "id": "cam-cpol-l028-016-lista-fechada-ordem",

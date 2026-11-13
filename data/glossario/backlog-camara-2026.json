@@ -339,6 +339,46 @@
       "examBlock": "Conhecimentos básicos: Direito Constitucional",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-improbidade-dolo-tipificacao",
+      "term": "Dolo na improbidade administrativa",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-improbidade-dano-erario",
+      "term": "Prejuízo ao erário na improbidade",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-improbidade-prescricao",
+      "term": "Prescrição na improbidade",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-improbidade-enriquecimento",
+      "term": "Enriquecimento ilícito na improbidade",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-improbidade-principios",
+      "term": "Improbidade por violação de princípios",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

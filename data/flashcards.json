@@ -10043,6 +10043,244 @@
         "prompt": "Uma sanção pode piorar após recurso? E na revisão do processo sancionador por fatos novos?",
         "answer": "No recurso, pode haver agravamento com ciência prévia para alegações (art. 64). Na revisão sancionadora, é proibido agravar a sanção (art. 65)."
       }
+    },
+    {
+      "id": "camara-quorum-presenca-casas",
+      "term": "Quórum de presença: Câmara e Senado",
+      "definition": "É o mínimo de integrantes presentes para uma votação acontecer. A regra geral exige mais da metade de todos os membros: 257 dos 513 deputados ou 41 dos 81 senadores.",
+      "example": "Se 260 deputados estão presentes, a Câmara pode deliberar pela regra geral, mas a matéria ainda precisa obter votos suficientes para ser aprovada.",
+      "confusion": "257 presentes não significam 257 votos a favor.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 47"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Com 260 deputados presentes, uma lei complementar passa com 140 votos favoráveis?",
+        "answer": "Não. Há presença suficiente, mas LC exige 257 votos favoráveis dos deputados."
+      }
+    },
+    {
+      "id": "camara-maioria-simples-exemplo",
+      "term": "Maioria simples: como contar",
+      "definition": "Na regra geral do art. 47, após atingir o quórum mínimo de presença, vence a maioria dos votos computados para a decisão. O total de votos favoráveis necessário varia conforme os votos válidos, não é fixado em 257 ou 41.",
+      "example": "Câmara: 320 presentes, 145 sim, 130 não, 45 abstenções. Um PL ordinário pode ser aprovado por 145 a 130.",
+      "confusion": "Abstenções ajudam a compor o quórum de presença, mas não são votos contrários.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 47"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Com 320 deputados presentes, 145 sim, 130 não e 45 abstenções, um PL ordinário é rejeitado por não atingir 257 votos favoráveis?",
+        "answer": "Não. Em regra, é aprovado por maioria simples, pois há quórum de presença e mais votos sim que não."
+      }
+    },
+    {
+      "id": "camara-maioria-absoluta-duas-casas",
+      "term": "Maioria absoluta: número fixo",
+      "definition": "É o primeiro número inteiro superior à metade do total de membros, mesmo que parte deles falte: Câmara 257 de 513; Senado 41 de 81. É exigida, por exemplo, na aprovação de lei complementar.",
+      "example": "Um PLP recebe 250 votos favoráveis na Câmara e 50 no Senado. Passa no Senado pelo quórum, mas não na Câmara.",
+      "confusion": "Maioria absoluta dos membros não é maioria dos presentes.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 69"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Se só 300 deputados comparecem e 250 votam sim em um PLP, ele foi aprovado?",
+        "answer": "Não. Faltaram sete votos: a Câmara exige 257 votos favoráveis à lei complementar."
+      }
+    },
+    {
+      "id": "camara-maioria-qualificada-tres-quintos",
+      "term": "Maioria qualificada de 3/5: PEC",
+      "definition": "É uma exigência superior à maioria absoluta. Para aprovar proposta de emenda à Constituição (PEC), cada Casa precisa de três quintos de seus membros em dois turnos: 308 deputados e 49 senadores em cada turno.",
+      "example": "Uma PEC obtém 308 votos na Câmara no primeiro turno e 307 no segundo. Ela não foi aprovada na Câmara.",
+      "confusion": "3/5 é de todos os membros, não apenas dos presentes; o cálculo arredonda para cima quando não dá inteiro.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 60, § 2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Uma PEC com 308 votos na Câmara e 48 no Senado, em cada turno, está aprovada?",
+        "answer": "Não. O Senado exige 49 votos favoráveis por turno."
+      }
+    },
+    {
+      "id": "camara-maioria-qualificada-dois-tercos",
+      "term": "Maioria qualificada de 2/3",
+      "definition": "Significa pelo menos dois terços da base indicada na regra. Quando a base é o total de membros, equivale a 342 deputados ou 54 senadores. Deve-se conferir qual órgão e qual procedimento a norma menciona.",
+      "example": "Para autorização da Câmara prevista no art. 51, I, da Constituição, são necessários dois terços de seus membros: 342 votos.",
+      "confusion": "Não aplicar 2/3 a todas as PECs: PEC exige 3/5 em cada Casa, em dois turnos.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 51, I; art. 60, § 2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "O quórum de dois terços dos 81 senadores é 49?",
+        "answer": "Não. São 54. Quarenta e nove correspondem a três quintos dos senadores."
+      }
+    },
+    {
+      "id": "camara-quorum-aprovacao-diferenca",
+      "term": "Quórum de aprovação: cada projeto tem sua regra",
+      "definition": "É o número de votos favoráveis necessários para a matéria passar. Lei ordinária: regra geral de maioria simples com presença mínima. Lei complementar: maioria absoluta de membros. PEC: 3/5 dos membros em dois turnos em cada Casa.",
+      "example": "Com os mesmos 320 presentes e 145 votos sim na Câmara, um PL ordinário pode ser aprovado, mas PLP e PEC não.",
+      "confusion": "O quórum de presença não substitui o de aprovação.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Arts. 47, 60, § 2º, e 69"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Se 320 deputados estão presentes, todo projeto passa com 145 votos favoráveis e 130 contrários?",
+        "answer": "Não. Isso basta em regra para PL ordinário, mas não para PLP ou PEC."
+      }
+    },
+    {
+      "id": "camara-plp-lc-estagios",
+      "term": "PLP e LC: projeto e lei",
+      "definition": "PLP significa projeto de lei complementar: proposta ainda em tramitação. LC é a lei complementar depois da aprovação e das etapas constitucionais para virar lei. Sua aprovação exige maioria absoluta: 257 deputados e 41 senadores.",
+      "example": "Um PLP sobre matéria reservada à LC consegue 257 votos na Câmara, segue o processo legislativo aplicável e, após a conclusão constitucional, poderá tornar-se LC.",
+      "confusion": "A sigla PLP indica a fase de projeto; LC indica a espécie normativa aprovada. Votos em uma Casa não tornam o projeto automaticamente lei.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Arts. 59, II, 65, 66 e 69"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Um PLP aprovado na Câmara por 257 votos já é automaticamente uma LC em vigor?",
+        "answer": "Não. Ainda depende das etapas legislativas necessárias, inclusive apreciação pelo Senado quando cabível e fase final."
+      }
     }
   ]
 }

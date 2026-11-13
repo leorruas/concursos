@@ -379,6 +379,14 @@
       "examBlock": "Conhecimentos legislativos",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-improbidade-tipificacao",
+      "term": "Tipificação da improbidade administrativa",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

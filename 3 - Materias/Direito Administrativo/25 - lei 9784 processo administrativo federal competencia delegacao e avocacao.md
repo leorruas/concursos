@@ -53,7 +53,7 @@ A Administração Pública obedecerá, dentre outros, aos princípios da **legal
 
 Nos termos do parágrafo único do art. 2º, destacam-se os seguintes critérios norteadores:
 - **Atuação conforme a lei e o Direito:** consagração do princípio da juridicidade administrativa (respeito à legalidade e aos princípios constitucionais);
-- **Impulsão de ofício:** o processo administrativo pode iniciar-se de ofício ou a pedido do interessado, mas, uma vez instaurado, a sua tramitação e instrução são impulsionadas de ofício pela própria Administração, sem prejuízo da atuação dos interessados (art. 2º, parágrafo único, XII c/c art. 29);
+- **Impulsão de ofício:** o processo administrativo pode iniciar-se de ofício ou a pedido do interessado, mas, uma vez instaurado, a sua tramitação e instrução são impulsionadas de ofício pela própria Administração, sem prejuízo da atuação dos interessados (art. 2º, parágrafo único, XII, combinado com o art. 29);
 - **Formalismo moderado:** adoção de formas simples, suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados, vedada a exigência de formalidades dispensáveis (art. 2º, parágrafo único, VIII e IX);
 - **Proibição de cobrança de despesas processuais:** ressalvadas as previstas em lei expressa (gratuidade do processo administrativo);
 - **Vedação de aplicação retroativa de nova interpretação:** a alteração superveniente de orientação interpretativa jurídica da Administração não autoriza a desconstituição de atos pretéritos consolidados sob a orientação anterior, preservando a segurança jurídica e a confiança legítima (art. 2º, parágrafo único, XIII).
@@ -68,7 +68,7 @@ O administrado tem perante a Administração os seguintes direitos subjetivos ex
 1. Ser tratado com respeito pelas autoridades e servidores;
 2. Ter ciência da tramitação dos processos administrativos em que tenha a condição de interessado, ter vista dos autos, obter cópias de documentos neles contidos e conhecer as decisões proferidas;
 3. Formular alegações e apresentar documentos antes da decisão, os quais serão obrigatoriamente considerados pelo órgão competente na motivação;
-4. Fazer-se assistir, facultativamente, por advogado, **salvo quando a representação for obrigatória por força de lei**. A assistência por advogado é facultativa como regra geral nos processos administrativos (consoante Súmula Vinculante nº 5 do STF).
+4. Fazer-se assistir, facultativamente, por advogado, **salvo quando a representação for obrigatória por força de lei**. A assistência por advogado é facultativa como regra geral nos processos administrativos (consoante Súmula Vinculante nº 5 do Supremo Tribunal Federal (STF)).
 
 ### 2.2 Legitimidade para figurar como interessado (art. 9º)
 
@@ -212,7 +212,7 @@ A Lei nº 14.210/2021 inseriu os arts. 49-A a 49-G na Lei nº 9.784/1999, discip
 **5.** Em processo administrativo federal regulado pela Lei nº 9.784/1999, o princípio da impulsão de ofício autoriza a Administração Pública a iniciar e conduzir a instrução processual para tutela do interesse coletivo, não obstante a presença de administrados formalmente habilitados como interessados.
 
 > **Gabarito: CERTO**  
-> **Comentário:** De acordo com o art. 2º, parágrafo único, XII c/c art. 29 da Lei nº 9.784/1999, o processo administrativo rege-se pelo princípio da impulsão de ofício, cabendo à Administração promover todos os atos necessários à elucidação dos fatos e à instrução probatória (verdade material), independentemente de provocação ou de requerimento formulado pelos interessados.
+> **Comentário:** De acordo com o art. 2º, parágrafo único, XII, combinado com o art. 29 da Lei nº 9.784/1999, o processo administrativo rege-se pelo princípio da impulsão de ofício, cabendo à Administração promover todos os atos necessários à elucidação dos fatos e à instrução probatória (verdade material), independentemente de provocação ou de requerimento formulado pelos interessados.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **6.** O instrumento da decisão coordenada, introduzido na Lei nº 9.784/1999 pela Lei nº 14.210/2021 para a deliberação conjunta entre órgãos e entidades sobre matérias complexas, pode ser plenamente utilizado em processos administrativos de licitação pública e em processos de natureza punitivo-disciplinar.

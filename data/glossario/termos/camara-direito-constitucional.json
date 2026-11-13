@@ -731,6 +731,92 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-incapacidade-civil-absoluta",
+      "term": "Incapacidade civil absoluta",
+      "aliases": [
+        "Absolutamente incapaz"
+      ],
+      "definition": "Situação em que a pessoa não pode exercer pessoalmente atos da vida civil e deve ser representada por responsável legal. Pelo art. 3º do Código Civil, são absolutamente incapazes os menores de 16 anos.",
+      "contrast": "A incapacidade relativa, em regra, exige assistência, não representação. Ter deficiência, por si só, não significa incapacidade civil absoluta.",
+      "cebraspeTrap": "Afirmar que toda pessoa com deficiência intelectual é absolutamente incapaz, ou que adolescentes de 16 e 17 anos também são absolutamente incapazes.",
+      "example": "Uma criança de 12 anos recebe um imóvel por herança. Pode ser proprietária, mas atos jurídicos como sua venda exigem representação e podem depender de autorização judicial.",
+      "articleIds": [
+        "art-6a55fcee78be4a39"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Código Civil, art. 3º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"
+        },
+        {
+          "label": "Constituição Federal, art. 15, II",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-incapacidade-civil-relativa",
+      "term": "Incapacidade civil relativa",
+      "aliases": [
+        "Relativamente incapaz"
+      ],
+      "definition": "Situação em que a pessoa pode praticar determinados atos civis, mas precisa de assistência para os atos que a lei exige. Inclui, em regra, pessoas maiores de 16 e menores de 18 anos e outras hipóteses do art. 4º do Código Civil.",
+      "contrast": "Na assistência, a pessoa participa do ato com quem a assiste; na representação, o responsável pratica o ato em nome do absolutamente incapaz. A emancipação pode antecipar a capacidade civil plena antes dos 18 anos.",
+      "cebraspeTrap": "Considerar todo menor de 18 anos absolutamente incapaz, ou esquecer as exceções legais, como a emancipação.",
+      "example": "Uma pessoa de 17 anos não emancipada assina contrato com a assistência de responsável legal, quando exigida.",
+      "articleIds": [
+        "art-6a55fcee78be4a39"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Código Civil, arts. 4º e 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-representacao-assistencia-civil",
+      "term": "Representação e assistência civil",
+      "aliases": [
+        "Representação legal",
+        "Assistência legal"
+      ],
+      "definition": "Representação: o responsável legal age juridicamente em nome do incapaz. Assistência: a pessoa relativamente incapaz participa do ato com o apoio jurídico de quem deve assisti-la.",
+      "contrast": "Menor de 16 anos precisa, em regra, de representação. De 16 a 17 anos, em regra, de assistência, ressalvada a emancipação e regras específicas.",
+      "cebraspeTrap": "Trocar representação por assistência ou presumir que a pessoa relativamente incapaz sempre deve ser substituída no ato.",
+      "example": "Um responsável representa a criança de 12 anos; um adolescente de 17 anos não emancipado atua com assistência quando exigida.",
+      "articleIds": [
+        "art-6a55fcee78be4a39"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Código Civil, arts. 3º a 5º e 1.634, VII",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

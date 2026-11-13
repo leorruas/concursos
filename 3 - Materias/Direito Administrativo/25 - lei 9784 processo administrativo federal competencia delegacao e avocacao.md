@@ -7,8 +7,8 @@ subjectId: "direito-administrativo"
 topicId: "processo-administrativo"
 trackId: "direito-administrativo"
 created: "2026-11-09"
-updated: "2026-11-09"
-revision: 1
+updated: "2026-11-13"
+revision: 2
 status: "published"
 confidenceLevel: "high"
 importanceLevel: "critical"
@@ -21,10 +21,11 @@ reviewedBy: "Auditoria Editorial e Dogmática"
 
 # Lei nº 9.784/1999: processo administrativo federal, competência, delegação e avocação
 
-A **Lei nº 9.784, de 29 de janeiro de 1999**, disciplina o processo administrativo no âmbito da Administração Pública Federal direta e indireta. Longe de constituir um código nacional aplicável indistintamente a Estados e Municípios, a norma federal possui caráter geral na União, incidindo subsidiariamente sobre processos regidos por legislação especial e aplicando-se expressamente aos órgãos dos Poderes Legislativo e Judiciário da União quando no desempenho de **função materialmente administrativa** (art. 1º, § 1º).
+Imagine que um cidadão pede à Câmara dos Deputados a revisão de uma decisão administrativa. Quem pode decidir o pedido? A autoridade que recebeu o processo pode pedir que outra decida? E um superior pode assumir a decisão? Essas perguntas envolvem **competência administrativa**, isto é, a atribuição dada por norma a um órgão ou agente para praticar determinado ato. A Lei nº 9.784, de 29 de janeiro de 1999, estabelece regras para responder a elas.
 
-Para as provas do Cebraspe direcionadas à Câmara dos Deputados, a exata delimitação do âmbito de incidência da lei, os postulados reitores do processo, o regime jurídico da competência administrativa, os requisitos da delegação e as matérias de indelegabilidade absoluta (mnemônico NO-RE-EX), bem como os pressupostos excepcionais da avocação, constituem pontos centrais de frequente cobrança.
+A lei se aplica à Administração Pública federal direta e indireta. Também alcança a Câmara e os demais órgãos dos Poderes Legislativo e Judiciário da União **quando exercem função administrativa**, como gerir pessoal ou contratos, e não quando legislam ou julgam processos judiciais (art. 1º, § 1º). Processos federais com lei específica seguem primeiro essa lei especial; a Lei nº 9.784/1999 atua de forma subsidiária no que for compatível (art. 69). Isso não torna a lei automaticamente obrigatória para todos os processos estaduais e municipais.
 
+O ponto decisivo é distinguir **titularidade da competência**, que permanece atribuída pela norma, de **exercício da competência**, que pode mudar temporariamente nas condições legais. A seguir, a regra será aplicada a situações concretas, antes de comparar delegação e avocação.
 ---
 
 ## 1. Âmbito de aplicação e princípios fundamentais do processo administrativo
@@ -52,7 +53,7 @@ A Administração Pública obedecerá, dentre outros, aos princípios da **legal
 
 Nos termos do parágrafo único do art. 2º, destacam-se os seguintes critérios norteadores:
 - **Atuação conforme a lei e o Direito:** consagração do princípio da juridicidade administrativa (respeito à legalidade e aos princípios constitucionais);
-- **Impulsão de ofício:** o processo administrativo pode iniciar-se de ofício ou a pedido do interessado, mas, uma vez instaurado, a sua tramitação e instrução são impulsionadas de ofício pela própria Administração, sem prejuízo da atuação dos interessados (art. 2º, parágrafo único, XII c/c art. 29);
+- **Impulsão de ofício:** o processo administrativo pode iniciar-se de ofício ou a pedido do interessado, mas, uma vez instaurado, a sua tramitação e instrução são impulsionadas de ofício pela própria Administração, sem prejuízo da atuação dos interessados (art. 2º, parágrafo único, XII, combinado com o art. 29);
 - **Formalismo moderado:** adoção de formas simples, suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados, vedada a exigência de formalidades dispensáveis (art. 2º, parágrafo único, VIII e IX);
 - **Proibição de cobrança de despesas processuais:** ressalvadas as previstas em lei expressa (gratuidade do processo administrativo);
 - **Vedação de aplicação retroativa de nova interpretação:** a alteração superveniente de orientação interpretativa jurídica da Administração não autoriza a desconstituição de atos pretéritos consolidados sob a orientação anterior, preservando a segurança jurídica e a confiança legítima (art. 2º, parágrafo único, XIII).
@@ -67,7 +68,7 @@ O administrado tem perante a Administração os seguintes direitos subjetivos ex
 1. Ser tratado com respeito pelas autoridades e servidores;
 2. Ter ciência da tramitação dos processos administrativos em que tenha a condição de interessado, ter vista dos autos, obter cópias de documentos neles contidos e conhecer as decisões proferidas;
 3. Formular alegações e apresentar documentos antes da decisão, os quais serão obrigatoriamente considerados pelo órgão competente na motivação;
-4. Fazer-se assistir, facultativamente, por advogado, **salvo quando a representação for obrigatória por força de lei**. A assistência por advogado é facultativa como regra geral nos processos administrativos (consoante Súmula Vinculante nº 5 do STF).
+4. Fazer-se assistir, facultativamente, por advogado, **salvo quando a representação for obrigatória por força de lei**. A assistência por advogado é facultativa como regra geral nos processos administrativos (consoante Súmula Vinculante nº 5 do Supremo Tribunal Federal (STF)).
 
 ### 2.2 Legitimidade para figurar como interessado (art. 9º)
 
@@ -81,15 +82,13 @@ São legitimados como interessados no processo administrativo:
 
 ## 3. Regime da competência administrativa: irrenunciabilidade e características
 
-A competência é a medida do poder público outorgada pela lei a determinado órgão ou agente para a prática de atos administrativos válidos. Conforme o art. 11 da Lei nº 9.784/1999:
+Uma servidora recebe um pedido de autorização, mas a norma atribui a decisão à chefia. A servidora pode preparar documentos e analisar fatos, porém não pode assumir a decisão final por simples acordo com a chefia. **Competência administrativa** é justamente a atribuição jurídica para praticar o ato; ter acesso ao processo não significa ter poder para decidir.
 
-> **Art. 11:** *"A competência é irrenunciável e se exerce pelos órgãos administrativos a que foi atribuída como própria, salvo os casos de delegação e avocação legalmente admitidos."*
+O art. 11 da Lei nº 9.784/1999 estabelece que a competência é **irrenunciável**: o órgão ou agente não pode abandoná-la por vontade própria. A mesma regra admite duas mudanças legalmente autorizadas no **exercício** dessa competência: delegação e avocação. A titularidade prevista na norma não desaparece por causa delas.
 
-A competência ostenta as seguintes características dogmáticas:
-1. **Origem exclusivamente legal:** decorre sempre de norma expressa (lei formal ou ato normativo primário decorrente da Constituição);
-2. **Imodificabilidade pela vontade das partes:** o agente e o particular não podem transigir para alterar a titularidade da competência fixada em lei;
-3. **Imprescritibilidade:** o não exercício continuado da competência não acarreta a sua perda pelo transcurso do tempo;
-4. **Intransferibilidade:** ressalvada a transferência precária e temporária do seu exercício por meio da delegação e da avocação.
+Na **delegação**, quem possui a competência autoriza outro órgão ou agente a exercer uma parte dela, dentro de limites definidos. Na **avocação**, um órgão hierarquicamente superior assume temporariamente uma competência atribuída ao inferior, em situação excepcional e justificada. Assim, a pergunta correta é: *quem tem a atribuição original e qual mecanismo permite que outra autoridade exerça o ato?*
+
+**Contraexemplo:** um chefe não pode transferir a competência apenas porque prefere deixar de responder pelo assunto. É necessário observar as condições e proibições dos arts. 12 a 15. Também não basta que dois órgãos trabalhem no mesmo processo para existir hierarquia entre eles.
 
 ---
 
@@ -121,22 +120,21 @@ flowchart TD
 
 ### 4.1 Pressupostos e características da delegação (arts. 12 e 14)
 
-- **Dispensa de hierarquia (delegação horizontal):** um dos pontos de maior incidência no Cebraspe. O art. 12 estabelece expressamente que um órgão administrativo e seu titular poderão delegar parte da sua competência a outros órgãos ou titulares, **ainda que estes não lhe sejam hierarquicamente subordinados**, quando for conveniente, em razão de circunstâncias de índole técnica, social, econômica, jurídica ou territorial. Não é necessária relação de subordinação hierárquica;
-- **Caráter parcial e temporário:** é vedada a delegação total ou genérica de atribuições;
-- **Ato formal e publicado:** o ato de delegação e sua revogação deverão ser publicados no meio oficial (art. 14);
-- **Revogabilidade discricionária:** o ato de delegação é revogável a qualquer tempo pela autoridade delegante (art. 14, § 2º);
-- **Imputação e responsabilidade jurídica:** as decisões adotadas por delegação consideram-se praticadas **pelo órgão ou autoridade delegada** (art. 14, § 3º). Portanto, em sede de mandado de segurança, a autoridade coatora é a autoridade **delegada** que praticou o ato concreto, e não a autoridade delegante (Súmula nº 510 do STF).
+Pense em um órgão federal que recebe muitos pedidos técnicos. A autoridade competente pode delegar **parte** das decisões a outra autoridade, inclusive de órgão que não lhe seja subordinado, se não houver impedimento legal e a medida for conveniente por razões técnicas, sociais, econômicas, jurídicas ou territoriais (art. 12). Portanto, **delegar não exige hierarquia**. A norma também admite delegação de competência de órgão colegiado a seu presidente.
+
+O procedimento precisa ser verificável: o ato de delegação deve identificar as matérias e poderes abrangidos, os limites da atuação, a duração, os objetivos e o recurso cabível. Pode reservar à autoridade original o exercício de alguma atribuição. O ato e sua revogação são publicados no meio oficial (art. 14, caput e § 1º). A autoridade delegante pode revogar a delegação a qualquer momento (art. 14, § 2º).
+
+Quem decide concretamente por delegação deve mencionar essa condição no ato. A decisão é considerada editada **pela autoridade delegada**, conforme o art. 14, § 3º. Isso permite identificar quem praticou o ato, em vez de atribuí-lo automaticamente a quem delegou.
 
 ### 4.2 As vedações absolutas à delegação: o mnemônico NO-RE-EX (art. 13)
 
-O art. 13 da Lei nº 9.784/1999 elenca rol taxativo de matérias que **não podem ser objeto de delegação sob nenhuma hipótese**:
+Antes de delegar, é preciso verificar **o tipo de ato**. O art. 13 proíbe a delegação de três matérias:
 
-1. **NO:** a edição de atos de caráter **normativo**;
-2. **RE:** a decisão de **recursos administrativos**;
-3. **EX:** as matérias de competência **exclusiva** do órgão ou autoridade.
+1. **NO, atos normativos:** editar normas gerais, em vez de decidir um caso individual.
+2. **RE, recursos administrativos:** decidir o pedido de reexame de uma decisão administrativa.
+3. **EX, competência exclusiva:** exercer atribuição que a norma reservou exclusivamente àquele órgão ou autoridade.
 
-> **Regra de Ouro Cebraspe:**  
-> A autoridade administrativa jamais poderá delegar a competência para julgar recurso interposto contra suas decisões, tampouco editar decretos regulamentares ou expedir instruções normativas por via delegada. A competência privativa pode ser delegada quando a lei não reservar caráter de exclusividade estrita; a competência exclusiva é insuscetível de delegação.
+**Exemplo:** uma autoridade pode delegar a decisão sobre pedidos individuais quando a lei permitir, mas não pode delegar a decisão de um recurso administrativo. A diferença está no **objeto da decisão**, não na quantidade de trabalho ou na confiança no delegado. O mnemônico ajuda a lembrar as proibições; é a lista do art. 13 que fundamenta a resposta.
 
 ---
 
@@ -162,15 +160,13 @@ flowchart LR
 
 ### 5.1 Requisitos legais cumulativos da avocação (art. 15)
 
-Nos termos do art. 15:
-> *"Será permitida, em caráter excepcional e por motivos relevantes devidamente justificados, a avocação temporária de competência atribuída a órgão administrativo hierarquicamente inferior."*
+Imagine que a chefia de uma unidade precise assumir temporariamente uma decisão normalmente atribuída a uma unidade subordinada, porque surgiu um problema relevante que exige atuação direta. O art. 15 permite essa **avocação** somente em caráter excepcional, por motivos relevantes devidamente justificados e por tempo limitado. A unidade cuja competência é avocada deve ser **hierarquicamente inferior** à que assume a decisão.
 
-Para a validade da avocação, exige-se o concurso obrigatório de quatro requisitos cumulativos:
-1. **Caráter excepcional:** a avocação não pode converter-se em rotina administrativa de esvaziamento do subordinado;
-2. **Temporariedade:** a autoridade superior avoca a competência para a prática de ato específico ou instrução delimitada no tempo;
-3. **Motivação qualificada:** demonstração explícita de motivos relevantes e justificados nos autos;
-4. **Subordinação hierárquica indispensável:** diferentemente da delegação (que pode ser horizontal entre órgãos sem hierarquia), **a avocação exige obrigatoriamente relação de hierarquia** entre a autoridade que avoca e o órgão inferior. Não existe avocação entre órgãos desprovidos de vínculo hierárquico.
-5. **Vedação:** a autoridade superior não pode avocar competência fixada em lei como exclusiva do subordinado.
+O raciocínio segue quatro perguntas: há uma relação de hierarquia? A situação é excepcional? O motivo relevante foi explicado? A medida é temporária? Se faltar qualquer uma dessas condições, o art. 15 não autoriza a avocação. A avocação também não serve para afastar uma competência legalmente exclusiva do órgão inferior.
+
+**Comparação prática:** delegação pode ocorrer entre órgãos sem subordinação, dentro dos limites dos arts. 12 a 14; avocação exige superioridade hierárquica e justificativa excepcional, conforme o art. 15. **Contraexemplo:** dois órgãos federais independentes podem participar do mesmo processo, mas um não pode avocar a competência do outro apenas por considerar sua decisão mais importante.
+
+**Autochecagem, estilo Certo/Errado:** “Uma autoridade superior pode avocar permanentemente as competências de um órgão inferior sempre que isso melhorar a eficiência.” **Errado.** O art. 15 exige situação excepcional, motivo relevante justificado e caráter temporário; eficiência isolada não elimina esses requisitos.
 
 ---
 
@@ -216,7 +212,7 @@ A Lei nº 14.210/2021 inseriu os arts. 49-A a 49-G na Lei nº 9.784/1999, discip
 **5.** Em processo administrativo federal regulado pela Lei nº 9.784/1999, o princípio da impulsão de ofício autoriza a Administração Pública a iniciar e conduzir a instrução processual para tutela do interesse coletivo, não obstante a presença de administrados formalmente habilitados como interessados.
 
 > **Gabarito: CERTO**  
-> **Comentário:** De acordo com o art. 2º, parágrafo único, XII c/c art. 29 da Lei nº 9.784/1999, o processo administrativo rege-se pelo princípio da impulsão de ofício, cabendo à Administração promover todos os atos necessários à elucidação dos fatos e à instrução probatória (verdade material), independentemente de provocação ou de requerimento formulado pelos interessados.
+> **Comentário:** De acordo com o art. 2º, parágrafo único, XII, combinado com o art. 29 da Lei nº 9.784/1999, o processo administrativo rege-se pelo princípio da impulsão de ofício, cabendo à Administração promover todos os atos necessários à elucidação dos fatos e à instrução probatória (verdade material), independentemente de provocação ou de requerimento formulado pelos interessados.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **6.** O instrumento da decisão coordenada, introduzido na Lei nº 9.784/1999 pela Lei nº 14.210/2021 para a deliberação conjunta entre órgãos e entidades sobre matérias complexas, pode ser plenamente utilizado em processos administrativos de licitação pública e em processos de natureza punitivo-disciplinar.

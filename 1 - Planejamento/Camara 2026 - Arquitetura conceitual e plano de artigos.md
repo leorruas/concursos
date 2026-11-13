@@ -1727,3 +1727,12 @@ Piloto em Comunicação Social: artigo sobre **comunicação, informação, mens
 - [[1 - Planejamento/Padrao editorial multi-edital|Padrão editorial multi-edital]]
 - [[1 - Planejamento/Materias sem artigos - Plano de implementacao por fases|Plano transversal de matérias sem artigos]]
 
+
+
+## Revisão didática 13/11/2026: Lei nº 9.784/1999, competência e avocação
+
+- **Identidade:** CAM-REV-LEI9784-001; artigo `art-c61cca38ed36e424`; `3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md`; trilha Direito Administrativo, competência administrativa.
+- **Deficiência e severidade:** alta; introdução abstrata, categorias dogmáticas sem situação concreta, ausência de sequência decisória para delegação/avocação, requisitos da avocação apresentados com contagem inconsistente.
+- **Evidência normativa:** Lei nº 9.784/1999, arts. 1º, 11 a 15 e 69, texto atualizado da Câmara: https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html
+- **Estado:** revisado em PR, integração e CI pendentes; branch `didatica/camara-lei9784-delegacao-avocacao-20261113`.
+- **Próxima ação:** conferir auditoria de headings, siglas, teoria, glossário, flashcards, build e checks do HEAD; verificar compatibilidade com a main antes de mesclar. O banco de questões permanece exclusivo da expansão.

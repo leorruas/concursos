@@ -37901,7 +37901,7 @@
       "reviewEvidence": "Lote 027, item 035, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada incremental: enunciado C coerente com Lei 4.320/1964 art. 43 §§1º I e 2º, superávit do balanço patrimonial anterior; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
     },
     {
-      "id": "cam-orc-l027-036-reabertura-saldo-limite",
+      "id": "cam-orc-l027-036-dotacao-global-programa-especial",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37909,24 +37909,24 @@
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
-      "articleId": "art-87b69e1d4ac54f20",
-      "conceptId": "reabertura-credito-especial-saldo",
-      "mechanism": "limitar-reabertura-ao-saldo",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "dotacao-global-excecao-programa-especial",
+      "mechanism": "aplicar-ressalva-especificacao-programa-especial",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-87b69e1d4ac54f20#Vigência e reabertura"
+        "article:art-a2f47c0d6e184e93#Especificação: não criar dotação indiferenciada"
       ],
       "source": {
-        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
-        "section": "Vigência e reabertura"
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Especificação: não criar dotação indiferenciada"
       },
-      "statement": "Um crédito especial autorizado nos últimos quatro meses do exercício pode ser reaberto no exercício seguinte em valor superior ao saldo não utilizado, desde que a despesa tenha sido originalmente autorizada por lei.",
-      "correctAnswer": "E",
-      "explanation": "A Constituição, art. 167, § 2º, permite reabrir créditos especiais e extraordinários autorizados nos últimos quatro meses, mas somente nos limites dos saldos.",
-      "reviewEvidence": "Lote 027, item 036, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Vigência e reabertura'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada incremental: enunciado E coerente com CF art. 167 §2º, reabertura limitada ao saldo; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
+      "statement": "A vedação de dotações globais para despesas indistintas não impede que a LOA preveja dotação global, classificada como despesa de capital, para programa especial de trabalho cuja natureza não permita seguir as normas gerais de execução da despesa.",
+      "correctAnswer": "C",
+      "explanation": "A Lei nº 4.320/1964, art. 5º, veda dotações globais indiscriminadas, mas ressalva o art. 20, parágrafo único, que admite dotações globais classificadas como despesas de capital para programas especiais de trabalho nas condições legais.",
+      "reviewEvidence": "Reformulação editorial técnica automatizada em 13/11/2026: substituído mecanismo repetido de reabertura do item 009 por exceção específica à vedação de dotação global. Conferido subtítulo literal 'Especificação: não criar dotação indiferenciada' no artigo 03 da main e texto didático sobre Lei 4.320/1964 arts. 5º e 20, parágrafo único. Fonte primária para conferência final: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem semântica integral e CI no SHA final pendentes. Revisão por IA, não homologação humana; reviewStatus gerada."
     },
     {
       "id": "cam-orc-l027-037-credito-adicional-nao-empenho",

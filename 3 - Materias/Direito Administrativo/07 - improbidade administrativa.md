@@ -47,7 +47,7 @@ O **Supremo Tribunal Federal (STF)**, no Tema 1199, confirmou a necessidade de d
 
 ### Art. 9º — enriquecimento ilícito
 
-O núcleo é a obtenção de **vantagem patrimonial indevida** em razão do exercício de cargo, mandato, função, emprego ou atividade pública.
+**Enriquecimento ilícito** significa obter dinheiro, bens ou outra vantagem econômica que não era devida em razão da função pública. O núcleo é a obtenção de **vantagem patrimonial indevida** em razão do exercício de cargo, mandato, função, emprego ou atividade pública.
 
 **Exemplo:** alguém recebe conscientemente uma vantagem econômica indevida em razão da função. A vantagem é **patrimonial** porque tem valor econômico. Pergunta útil: **houve vantagem patrimonial indevida em razão da função, com os requisitos do art. 9º?**
 
@@ -63,7 +63,7 @@ A palavra decisiva é **efetivamente**. A mera violação de formalidade sem per
 
 ### Art. 11 — atentado contra princípios
 
-O art. 11 trata de ação ou omissão dolosa que viole deveres de honestidade, imparcialidade e legalidade **caracterizada por uma das condutas previstas no próprio artigo**. Depois da reforma de 2021, não é seguro usar “violou um princípio” como cláusula aberta suficiente para improbidade.
+**Princípios administrativos** são regras fundamentais que orientam a atuação pública, como legalidade e impessoalidade. Para haver improbidade nessa categoria, é preciso identificar uma conduta específica prevista na lei. O art. 11 trata de ação ou omissão dolosa que viole deveres de honestidade, imparcialidade e legalidade **caracterizada por uma das condutas previstas no próprio artigo**. Depois da reforma de 2021, não é seguro usar “violou um princípio” como cláusula aberta suficiente para improbidade.
 
 Entre as condutas previstas estão negar publicidade a atos oficiais fora das exceções legais, frustrar deliberadamente a imparcialidade de concurso, chamamento ou licitação em benefício próprio ou de terceiro e deixar de prestar contas com a finalidade especificada na lei. **Exemplo:** esconder intencionalmente um ato que deveria ser publicado pode exigir exame do inciso correspondente e de seus elementos específicos; um simples atraso de publicação não basta para concluir que houve improbidade.
 
@@ -83,7 +83,7 @@ As sanções podem ser aplicadas isolada ou cumulativamente conforme a gravidade
 
 ## Prescrição e retroatividade — ponto de prova
 
-**Prescrição** é o limite de tempo para exercer a pretensão de aplicar uma sanção. **Interrupção** é um evento legal que faz recomeçar a contagem do prazo conforme o regime aplicável. A ação para aplicação das sanções da LIA tem, atualmente, prazo geral de **8 anos**, nos termos do art. 23, sujeito às regras legais de suspensão e interrupção.
+**Prescrição** é o limite de tempo para exigir judicialmente determinadas sanções. Não significa absolvição por falta de prova: diz respeito ao prazo e aos marcos previstos na lei. **Interrupção** é um evento legal que faz recomeçar a contagem do prazo conforme o regime aplicável. A ação para aplicação das sanções da LIA tem, atualmente, prazo geral de **8 anos**, nos termos do art. 23, sujeito às regras legais de suspensão e interrupção.
 
 **Atualização constitucional obrigatória: ADIs 7.156 e 7.236 (STF, julgamento concluído em 1º/07/2026).** O STF manteve as causas de interrupção da prescrição previstas na reforma de 2021, mas declarou **inconstitucional** a expressão do art. 23, § 5º, que determinava o reinício da contagem pela **metade do prazo de oito anos**. Após uma interrupção válida, o prazo volta a correr **por inteiro**, observado o **limite máximo de 20 anos** para a pretensão sancionatória, segundo o julgamento. A literalidade não atualizada do § 5º não representa a orientação constitucional vigente.
 
@@ -107,6 +107,16 @@ O Tema 1199 do STF é especialmente importante para questões que misturam fatos
 **Item C/E inédito:** “Toda ilegalidade praticada voluntariamente por servidor configura improbidade, mesmo sem intenção de alcançar resultado ilícito tipificado.” **Errado.** O art. 1º, § 2º, da LIA exige dolo dirigido ao resultado ilícito; mera voluntariedade ou irregularidade não bastam.
 
 **Item C/E inédito:** “Para enquadrar uma conduta no art. 10 da LIA, exige-se dano efetivo e comprovado ao erário, além dos requisitos de dolo e tipificação.” **Certo.** A perda patrimonial deve ser demonstrada, conforme o art. 10 da LIA.
+
+## Teste de distinção: três situações
+
+**Situação A:** uma servidora erra um formulário por descuido. O erro pode precisar de correção e gerar outras consequências, mas, isoladamente, não demonstra o dolo exigido pela Lei de Improbidade Administrativa.
+
+**Situação B:** um gestor recebe vantagem econômica indevida em razão do cargo. A análise começa pelo art. 9º: é preciso comprovar a vantagem e os demais elementos do tipo legal. Não se exige, em todas as hipóteses desse artigo, dano patrimonial ao erário.
+
+**Situação C:** um agente pratica conduta dolosa tipificada que provoca perda efetiva e comprovada de recursos públicos. A análise começa pelo art. 10. O dano, isoladamente, não dispensa a demonstração de dolo e dos demais requisitos.
+
+Compare as situações com os dois itens C/E comentados na seção anterior. O objetivo é identificar **qual elemento legal está presente ou ausente**, antes de escolher uma categoria.
 
 ## Como a banca pode cobrar
 

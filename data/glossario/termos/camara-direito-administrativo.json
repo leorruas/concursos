@@ -83,8 +83,8 @@
       "aliases": [],
       "definition": "É o prazo para propor a ação que busca aplicar sanções por improbidade. Como regra, são oito anos contados do fato ou do fim da infração permanente (art. 23 da Lei nº 8.429/1992), com causas legais de suspensão e interrupção.",
       "contrast": "A prescrição das sanções difere da discussão sobre ressarcimento ao erário. Pelo Tema 1199 do STF, os novos marcos prescricionais não retroagem; nas ADIs 7.156 e 7.236, o STF afastou o reinício pela metade.",
-      "cebraspeTrap": "Aplicar literalmente os quatro anos do art. 23, § 5º, após interrupção: o STF afastou a redução, preservando o reinício por oito anos e fixando limite global de 20 anos para a pretensão sancionatória.",
-      "example": "Se ocorrer uma causa de interrupção válida durante uma ação submetida ao novo regime, o prazo recomeça por inteiro, observando o limite global de 20 anos. É preciso verificar a data dos fatos e os marcos de cada caso.",
+      "cebraspeTrap": "Aplicar automaticamente quatro anos após uma interrupção: nas ADIs 7.156 e 7.236, o STF afastou a redução pela metade e estabeleceu reinício integral, observado o limite global de 20 anos para a pretensão sancionatória.",
+      "example": "Ao examinar um processo, identifique a data dos fatos e cada causa de interrupção; a contagem depende do regime aplicável e dos marcos reconhecidos pelo STF.",
       "articleIds": [
         "art-ea06e80ef83f4af7"
       ],
@@ -102,6 +102,56 @@
         {
           "label": "STF, Informativo 1225, ADIs 7.156 e 7.236",
           "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-improbidade-enriquecimento",
+      "term": "Enriquecimento ilícito na improbidade",
+      "aliases": [],
+      "definition": "É o ato de obter, mediante conduta dolosa tipificada, dinheiro, bens ou outra vantagem econômica indevida em razão do exercício de função pública, nas hipóteses do art. 9º da Lei de Improbidade Administrativa (LIA).",
+      "contrast": "No art. 9º, a pergunta central é se houve vantagem patrimonial indevida em razão da função; no art. 10, exige-se perda patrimonial efetiva e comprovada ao erário. A existência de dano ao erário não é requisito universal do art. 9º.",
+      "cebraspeTrap": "Afirmar que todo enriquecimento ilícito do art. 9º exige dano comprovado ao erário. O art. 9º se concentra na vantagem indevida, com os requisitos de seu tipo legal.",
+      "example": "Um agente público recebe conscientemente vantagem econômica indevida por causa de sua função. Para enquadrar o fato no art. 9º, é necessário verificar a hipótese legal específica e os elementos de dolo.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, Art. 9º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-improbidade-principios",
+      "term": "Improbidade por violação de princípios",
+      "aliases": [],
+      "definition": "É a prática dolosa de uma das condutas especificamente previstas no art. 11 da Lei de Improbidade Administrativa (LIA), que atentam contra deveres como honestidade, imparcialidade e legalidade na atuação pública.",
+      "contrast": "Uma conduta pode contrariar um princípio administrativo e ser ilegal sem configurar improbidade. Para o art. 11, é necessário demonstrar dolo e enquadramento em uma das condutas expressamente previstas na lei.",
+      "cebraspeTrap": "Tratar qualquer descumprimento da legalidade como improbidade automática. O art. 11 exige conduta específica prevista em lei e os elementos subjetivos aplicáveis.",
+      "example": "Um agente nega deliberadamente publicidade a ato oficial que deveria ser divulgado, fora das exceções legais. O enquadramento exige verificar os requisitos do inciso correspondente, e não apenas constatar atraso.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, Art. 11",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
         }
       ],
       "status": "reviewed"

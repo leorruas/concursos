@@ -160,6 +160,44 @@ function grouped(qs, key) {
 function metrics(qs, key, label) {
   return table([label, 'Acertos', 'Erros', 'Brancos', 'Anulados', 'Acerto entre respondidas', 'Amostra'], grouped(qs, key).map(r => [r.key, r.correct, r.incorrect, r.blank, r.annulled, r.accuracy === null ? 'Sem respostas válidas' : (100 * r.accuracy).toFixed(1) + '%', r.sample]));
 }
+// Retenção observável por reteste explícito, não estimativa de domínio do edital.
+export function retentionMetrics(questions, cut, windowDays = null) {
+  const byId = new Map(questions.map(q => [q.id, q]));
+  const from = windowDays === null ? null : dayShift(cut, 1 - windowDays);
+  const eligible = questions.filter(q => {
+    const date = q.date;
+    if (!dateOK(date) || date > cut || (from && date < from)) return false;
+    if (!Array.isArray(q.retrievalOf) || !q.retrievalOf.length) return false;
+    if (['exact', 'mechanical'].includes(q.repetition?.classification)) return false;
+    if (!['correct', 'incorrect', 'blank'].includes(q.result)) return false;
+    if (!['secure', 'insecure', 'guess'].includes(q.confidence)) return false;
+    return q.retrievalOf.some(id => {
+      const prior = byId.get(id);
+      if (!prior || prior.id === q.id || prior.concursoId !== q.concursoId ||
+          !dateOK(prior.date) || prior.date >= date) return false;
+      if (q.conceptId && prior.conceptId && q.conceptId !== prior.conceptId) return false;
+      return Math.round((Date.parse(date + 'T12:00:00Z') -
+        Date.parse(prior.date + 'T12:00:00Z')) / 86400000) >= 3;
+    });
+  });
+  const successful = eligible.filter(q => q.result === 'correct' && q.confidence === 'secure').length;
+  const attempts = eligible.length;
+  return {
+    attempts, successful, unsuccessful: attempts - successful,
+    distinctConcepts: new Set(eligible.map(q => q.conceptId || q.mechanism || q.id)).size,
+    rate: attempts ? successful / attempts : null,
+    status: attempts >= 20 ? 'amostra inicial; conferir representatividade' : 'amostra insuficiente',
+    windowDays,
+    methodology: 'reteste explícito >=3 dias, mesmo concurso/conceito, questão não literal nem mecânica; acerto seguro / tentativas válidas. Consulta a material não verificada.'
+  };
+}
+function retentionTable(questions, cut) {
+  const ranges = [['Global: todo o histórico', null], ['Últimos 30 dias', 30], ['Últimos 7 dias', 7]];
+  return table(['Janela', 'Acertos seguros', 'Tentativas espaçadas', 'Índice', 'Conceitos', 'Leitura'], ranges.map(([label, days]) => {
+    const r = retentionMetrics(questions, cut, days);
+    return [label, r.successful, r.attempts, r.rate === null ? 'Não mensurável' : (r.rate * 100).toFixed(1) + '%', r.distinctConcepts, r.status];
+  }));
+}
 export function managedBlock(content, body) {
   const block = START + '\n' + body + '\n' + END;
   const begin = content.indexOf(START), end = content.indexOf(END);
@@ -193,7 +231,7 @@ export function prepare(root = ROOT, asOf) {
   const notice = `## Indicadores automáticos\n\nCorte: **${cut}**. Fonte: itens individualizados no ledger, incluindo sessões do chat. Histórico parcialmente recuperado não equivale ao volume total estudado. Percentual = acertos / (acertos + erros); brancos e anulados separados. Modalidades e concursos permanecem separados. Volume de 50 itens não comprova domínio. Sem estimativa de nota oficial ou inferência de fadiga.\n`;
   const outputs = new Map([['data/questoes-ledger.json', json(ledger)]]);
   const projection = (p, body) => outputs.set(p, managedBlock(read(p), notice + '\n' + body));
-  projection('00 - Desempenho/00 Avancos globais.md', '### Janela de 30 dias\n\n' + metrics(recent, key, 'Concurso / disciplina / modalidade') + '\n\n### Volume semanal\n\n' + metrics(dated, q => `${week(q.date)} / ${key(q)}`, 'Segunda-feira / concurso / disciplina / modalidade'));
+  projection('00 - Desempenho/00 Avancos globais.md', '### Índice global de retenção observada\n\n' + retentionTable(dated, cut) + '\n\n**Critério:** reteste identificado pelo registro original, após pelo menos 3 dias, com questão distinta e confiança declarada. O índice é acertos seguros divididos por tentativas válidas, incluindo respostas erradas ou inseguras no denominador. Repetições literais/mecânicas e recuperações imediatas ficam fora. A ausência de registro de consulta ao material impede afirmar retenção sem ajuda. Os percentuais, mesmo quando calculáveis, não equivalem ao domínio do edital. A janela móvel usa a data de corte documentada acima.\n\n### Janela de 30 dias\n\n' + metrics(recent, key, 'Concurso / disciplina / modalidade') + '\n\n### Volume semanal\n\n' + metrics(dated, q => `${week(q.date)} / ${key(q)}`, 'Segunda-feira / concurso / disciplina / modalidade'));
   projection('00 - Desempenho/01 Log de saturacao diaria.md', metrics(dated, q => `${q.date} / ${key(q)}`, 'Dia / concurso / disciplina / modalidade') + '\n\nCarga cognitiva e sintomas só podem ser registrados quando relatados pelo estudante.');
   projection('00 - Desempenho/Provas/00 - Desempenho por edital e prova.md', metrics(qs, key, 'Concurso / disciplina / modalidade') + '\n\nMicrotreinos são diagnósticos do recorte, sem nota integral. Simulados históricos mantêm seus resultados próprios abaixo.');
   for (const discipline of [...new Set(sessions.flatMap(s => s.questions.map(q => q.discipline)))]) {
@@ -205,6 +243,7 @@ export function prepare(root = ROOT, asOf) {
     const last = ledger.simulations.filter(s => s.concursoId === c.id).reverse().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
     const ids = new Set(last.map(s => s.id));
     return { concursoId: c.id, banca: c.banca, activeExam: examProfile(c), cut, coverage: 'somente itens individualizados; legado pode ser parcial', totals: grouped(all, q => `${q.discipline} / ${mode(q)}`).map(({ questions, ...r }) => r),
+      retention: { global: retentionMetrics(all, cut), last30Days: retentionMetrics(all, cut, 30), last7Days: retentionMetrics(all, cut, 7) },
       recentSessions: last.map(s => ({ id: s.id, date: s.date, sourcePath: s.sourcePath, status: s.status || 'historico', ...(s.netScore?{netScore:s.netScore,simulation:s.simulation}:{}), diagnosis: s.qualityNote || null, nextStep: s.nextStep || null })),
       recentMechanisms: [...new Set(all.filter(q => ids.has(q.sourceId)).map(q => q.mechanism))].sort(),
       review: all.filter(q => q.result === 'incorrect' || ['insecure', 'guess'].includes(q.confidence)).slice(-30).map(q => ({ id: q.id, topic: q.topic, result: q.result, confidence: q.confidence, theoryRefs: q.theoryRefs })) };

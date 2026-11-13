@@ -161,6 +161,18 @@
     {
       "glossaryId": "glo-camara-reclamacao-sumula-vinculante",
       "cardId": "camara-sumula-vinculante-reclamacao"
+    },
+    {
+      "glossaryId": "glo-camara-dolo-improbidade",
+      "cardId": "camara-improbidade-dolo-tipificacao"
+    },
+    {
+      "glossaryId": "glo-camara-dano-erario-improbidade",
+      "cardId": "camara-improbidade-dano-erario"
+    },
+    {
+      "glossaryId": "glo-camara-prescricao-improbidade",
+      "cardId": "camara-improbidade-prescricao-transicao"
     }
   ]
 }

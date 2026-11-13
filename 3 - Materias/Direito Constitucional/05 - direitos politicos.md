@@ -137,7 +137,18 @@ A perda da nacionalidade possui hoje regime alterado pela EC nº 131/2023. Ver [
 
 ## Anualidade eleitoral e partidos políticos: arts. 16 e 17
 
-**Anterioridade do processo eleitoral (art. 16):** a lei que alterar o processo eleitoral **entra em vigor na data de publicação**, mas **não se aplica à eleição que ocorra até um ano de sua vigência**. São duas perguntas diferentes: **quando a lei entra em vigor** e **a partir de qual pleito pode ser aplicada**. Uma alteração normativa publicada em prazo inferior a um ano antes da eleição não é automaticamente inválida: o texto constitucional limita sua **aplicação ao pleito**.
+**Anterioridade do processo eleitoral (art. 16):** é a proteção contra mudanças de última hora nas regras da disputa eleitoral. Se uma lei muda o processo eleitoral, ela **entra em vigor na data de sua publicação**, mas **não pode ser aplicada a uma eleição que ocorra até um ano depois dessa data**. A finalidade é dar estabilidade às regras e proteger a igualdade de oportunidades entre candidatos e partidos.
+
+**Exemplo com datas:** imagine uma lei publicada em **março de 2026** que mude as regras de distribuição de cadeiras entre partidos. Ela já está em vigor desde março, mas **não pode reger a eleição de outubro de 2026**, pois entre a publicação e a votação passaram menos de doze meses. Poderá ser aplicada a uma eleição posterior que respeite esse intervalo.
+
+A diferença que costuma aparecer na prova é entre **vigência** (a lei já está em vigor?) e **aplicação à eleição** (essa eleição já pode seguir a regra nova?). A resposta pode ser **sim para a primeira e não para a segunda**. Publicar uma lei eleitoral menos de um ano antes da eleição não a torna automaticamente inválida: quando ela altera o processo eleitoral, o art. 16 impede sua aplicação àquele pleito.
+
+**E se a mudança for considerada positiva?** O STF distingue mudanças que **alteram as condições da competição eleitoral** de ajustes que apenas **aperfeiçoam procedimentos sem modificar o processo eleitoral**. Nesse segundo caso, a regra do art. 16 pode não incidir (ADI 3.741). Entretanto, **uma finalidade positiva não dispensa o prazo de um ano** se a mudança atingir o processo eleitoral. Exemplo real: a **Lei da Ficha Limpa (LC 135/2010)** criou hipóteses de inelegibilidade; apesar de seu objetivo de proteger a moralidade eleitoral, o STF decidiu que ela **não poderia ser aplicada às eleições de 2010** (RE 633.703, Tema 387).
+
+> [!IMPORTANT]
+> **Pegadinha Cebraspe:** “A lei que altera o processo eleitoral só entra em vigor um ano após sua publicação.” **Errado:** a vigência começa na publicação; o impedimento diz respeito à **aplicação à eleição realizada até um ano depois**. Também é errado afirmar que toda mudança considerada benéfica para a igualdade pode ser aplicada imediatamente.
+
+**Fontes:** [Constituição, art. 16, e decisões do STF (ADI 3.741 e RE 633.703)](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=16&abrirBase=CF); [STF, Tema 387: Lei da Ficha Limpa e eleições de 2010](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4003780&numeroProcesso=633703&numeroTema=387).
 
 **Liberdade partidária e limites:** o **art. 17** garante criação, fusão, incorporação e extinção de partidos, respeitados soberania nacional, regime democrático, pluripartidarismo, direitos fundamentais, **caráter nacional**, proibição de financiamento ou subordinação a entidade ou governo estrangeiro, prestação de contas à Justiça Eleitoral e funcionamento parlamentar segundo a lei. Os partidos adquirem personalidade jurídica conforme a lei civil e registram estatutos no **TSE** (§ 2º); têm autonomia estatutária e podem formar **coligações para eleições majoritárias**, **vedadas nas eleições proporcionais** (§ 1º).
 

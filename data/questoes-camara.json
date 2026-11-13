@@ -37061,7 +37061,7 @@
       "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026, lote 027: substituído o mecanismo redundante de exceção da LOA (semelhante ao piloto índice 90) por alcance objetivo da proibição de vinculação: receitas de impostos versus taxas. Fontes primárias conferidas: CF/1988, arts. 145 I-II e 167 IV, texto compilado em https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; artigo canônico art-a2f47c0d6e184e93, seção literal 'Não afetação de impostos e as exceções', verificada na main. Gabarito E e explicação checados. Revisão automatizada, sem homologação humana. Triagem global do lote e gate CI no SHA final ainda pendentes; status gerada."
     },
     {
-      "id": "cam-orc-l027-006-reforco-dotacao-nao-especial",
+      "id": "cam-orc-l027-006-vedacao-creditos-ilimitados",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37069,24 +37069,24 @@
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
-      "articleId": "art-87b69e1d4ac54f20",
-      "conceptId": "creditos-reforco-vs-criacao",
-      "mechanism": "distinguir-credito-especial-de-suplementar",
+      "articleId": "art-a2f47c0d6e184e93",
+      "conceptId": "vedacao-creditos-orcamentarios-ilimitados",
+      "mechanism": "reconhecer-vedacao-constitucional-credito-ilimitado",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+        "article:art-a2f47c0d6e184e93#Outras vedações do art. 167"
       ],
       "source": {
-        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
-        "section": "Suplementar, especial e extraordinário"
+        "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+        "section": "Outras vedações do art. 167"
       },
-      "statement": "Um programa já tem dotação específica na LOA, mas o valor autorizado ficou insuficiente. A espécie apropriada para reforçá-la é o crédito especial, pois reforço e criação de dotação são equivalentes.",
+      "statement": "A Constituição permite a concessão de créditos adicionais sem limite máximo de valor quando se tratar de crédito especial para despesa relevante, pois a vedação de créditos ilimitados do art. 167, VII, alcança apenas os créditos suplementares.",
       "correctAnswer": "E",
-      "explanation": "Crédito suplementar reforça dotação existente; especial atende despesa sem dotação específica. As hipóteses estão no art. 41 da Lei nº 4.320/1964.",
-      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-87b69e1d4ac54f20 / Suplementar, especial e extraordinário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+      "explanation": "Errado. O art. 167, VII, da Constituição veda a concessão ou utilização de créditos ilimitados, sem restringir a proibição aos suplementares. A relevância da despesa ou a classificação como crédito especial não afasta a necessidade de limites orçamentários.",
+      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026: item 006 substituído por vedação constitucional de créditos ilimitados, mecanismo diferente do piloto 285 (suplementar versus especial por insuficiência). Fonte primária CF art. 167 VII, texto compilado https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; heading literal 'Outras vedações do art. 167' do artigo canônico art-a2f47c0d6e184e93 conferido. Gabarito E e explicação revisados. Status gerada até gate semântico/CI global; revisão por IA, não homologação humana."
     },
     {
       "id": "cam-orc-l027-007-exposicao-justificativa-credito",
@@ -37117,7 +37117,7 @@
       "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026, lote 027: substituído o mecanismo redundante sobre excesso de arrecadação não comprometido (semelhante ao piloto índice 289) pela exigência cumulativa de exposição justificativa e recursos disponíveis. Fonte primária conferida: Lei nº 4.320/1964, art. 43 caput e §1º, texto atualizado da Câmara https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html; artigo canônico art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais', verificada na main. Gabarito E conferido. Revisão automatizada, sem homologação humana. Triagem global do lote e gate CI no SHA final ainda pendentes; status gerada."
     },
     {
-      "id": "cam-orc-l027-008-pressa-administrativa-nao-extraordinario",
+      "id": "cam-orc-l027-008-autarquia-sem-ldo-propria",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37125,24 +37125,24 @@
       "subjectId": "orcamento-publico",
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
-      "articleId": "art-87b69e1d4ac54f20",
-      "conceptId": "extraordinario-nao-pressa",
-      "mechanism": "separar-urgencia-constitucional-da-administrativa",
+      "articleId": "art-c301f2c741504403",
+      "conceptId": "autarquia-ldo-do-ente-federativo",
+      "mechanism": "distinguir-contribuicao-tecnica-de-iniciativa-ldo",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
+        "article:art-c301f2c741504403#Abrangência federativa da LDO e situação das autarquias"
       ],
       "source": {
-        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
-        "section": "Suplementar, especial e extraordinário"
+        "path": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+        "section": "Abrangência federativa da LDO e situação das autarquias"
       },
-      "statement": "Uma contratação ordinária e previsível foi esquecida na LOA. Em outubro, o gestor deseja executá-la rapidamente. Essa pressa administrativa basta para classificar a despesa como imprevisível e urgente e justificar crédito extraordinário.",
+      "statement": "Uma autarquia federal, por ter personalidade jurídica própria e orçamento próprio, pode apresentar ao Congresso Nacional projeto de lei de diretrizes orçamentárias independente do projeto de LDO encaminhado pelo Poder Executivo da União.",
       "correctAnswer": "E",
-      "explanation": "Crédito extraordinário exige despesa imprevisível e urgente nos termos da Constituição; atraso de planejamento e pressa do gestor não bastam. Se não há dotação, examina-se crédito especial.",
-      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-87b69e1d4ac54f20 / Suplementar, especial e extraordinário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+      "explanation": "Errado. A autonomia administrativa de uma autarquia não lhe confere iniciativa legislativa de uma LDO própria. A autarquia participa tecnicamente da elaboração da proposta, dentro do sistema do ente federativo, enquanto o Poder Executivo tem a iniciativa da LDO da União, nos termos do art. 165 da Constituição.",
+      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026: item 008 substituído por distinção entre autonomia autárquica, participação técnica no planejamento e iniciativa legislativa da LDO, evitando repetição do piloto 287 sobre urgência de crédito extraordinário. Fonte primária CF art. 165 caput e II, https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; referência didática art-c301f2c741504403, seção literal 'Abrangência federativa da LDO e situação das autarquias', conferida no artigo. Gabarito E, explicação e metadados revistos. Status gerada até gate CI/semelhança; validação por IA, não humana."
     },
     {
       "id": "cam-orc-l027-009-credito-extraordinario-comunicacao-legislativo",

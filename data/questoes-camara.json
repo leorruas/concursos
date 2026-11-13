@@ -38066,7 +38066,7 @@
       "statement": "Uma legenda pequena recebe votos suficientes para aparecer nas pesquisas de um distrito uninominal, mas não conquista cadeira porque outra candidatura fica em primeiro lugar. Esse resultado ilustra o efeito psicológico de Duverger, pois depende de eleitores terem abandonado previamente sua preferência.",
       "correctAnswer": "E",
       "explanation": "O efeito mecânico decorre da própria conversão de votos em cadeiras: só o vencedor ocupa a vaga. O efeito psicológico envolve antecipação e coordenação estratégica; não foi demonstrado no cenário.",
-      "reviewEvidence": "Autoria substitutiva e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-001-duverger-efeito-mecanico; gabarito E; mecanismo distinguir-perda-cadeiras-e-voto-estrategico; referência 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md#Autores, mecanismos e limites das hipóteses; fundamento a conferir em fonte primária: Duverger, The Political Consequences of Electoral Laws; distinção teórica explicitada no artigo 23.. Pendente: cotejo integral semântico e normativo, gates do SHA final; não homologado por humano."
+      "reviewEvidence": "Autoria substitutiva e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-001-duverger-efeito-mecanico; gabarito E; mecanismo distinguir-perda-cadeiras-e-voto-estrategico; referência 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md#Autores, mecanismos e limites das hipóteses; fundamento a conferir em fonte primária: Duverger, Political Parties (1951); Rae, The Political Consequences of Electoral Laws (1967); distinção teórica explicitada no artigo 23. Pendente: cotejo integral semântico e normativo, gates do SHA final; não homologado por humano."
     },
     {
       "id": "cam-cpol-l028-002-cox-magnitude-condicoes",
@@ -38150,7 +38150,7 @@
       "statement": "Em um sistema de voto alternativo, a redistribuição de preferências após a eliminação de uma candidatura constitui necessariamente um segundo turno eleitoral, com nova convocação dos eleitores às urnas.",
       "correctAnswer": "E",
       "explanation": "No voto alternativo, preferências ordenadas na mesma cédula são transferidas em rodadas de apuração. Isso difere de convocar nova votação, como no sistema brasileiro de dois turnos.",
-      "reviewEvidence": "Autoria substitutiva e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-004-voto-alternativo-rodadas; gabarito E; mecanismo diferenciar-rodada-apuracao-e-novo-pleito; referência 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md#Comparação entre desenhos majoritários; fundamento a conferir em fonte primária: Modelos comparados de voto alternativo; artigo 23, seção Comparação entre desenhos majoritários.. Pendente: cotejo integral semântico e normativo, gates do SHA final; não homologado por humano."
+      "reviewEvidence": "Autoria substitutiva e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-004-voto-alternativo-rodadas; gabarito E; mecanismo diferenciar-rodada-apuracao-e-novo-pleito; referência 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md#Comparação entre desenhos majoritários; fundamento a conferir em fonte primária: Voto alternativo/instant-runoff voting, descrição conceitual no artigo 23, seção Comparação entre desenhos majoritários; fonte comparada independente ainda pendente. Pendente: cotejo integral semântico e normativo, gates do SHA final; não homologado por humano."
     },
     {
       "id": "cam-cpol-l028-005-magnitude-efeito-condicionado",
@@ -38461,7 +38461,7 @@
       "reviewEvidence": "Lote 028, revisão técnica por IA em 13/11/2026: aplicação do caso nenhuma legenda alcança QE, Resolução TSE 23.677/2021, art. 12-A, artigo 24 heading '3. Distribuição de sobras: maiores médias'. Substitui repetição da etapa aberta 80/20. Pendente confirmação primária independente, cotejo semântico integral e CI final; gerada."
     },
     {
-      "id": "cam-cpol-l028-016-lista-fechada-ordem",
+      "id": "cam-cpol-l028-016-voto-estrategico-preferencia",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38469,24 +38469,24 @@
       "subjectId": "estado-democracia",
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
-      "articleId": "art-2e96b7d14a53c80f",
-      "conceptId": "lista-fechada-ordem-predefinida",
-      "mechanism": "comparar-ordenacao-de-listas",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "voto-estrategico-preferencia-sincera",
+      "mechanism": "inferir-voto-estrategico-pelas-expectativas",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-2e96b7d14a53c80f#Quem ocupa as vagas e quem fica como suplente"
+        "article:art-b3e8d1c74f209a65#Efeitos: expectativas, não equivalências lógicas"
       ],
       "source": {
-        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
-        "section": "Quem ocupa as vagas e quem fica como suplente"
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Efeitos: expectativas, não equivalências lógicas"
       },
-      "statement": "Em uma eleição proporcional de lista fechada, os votos nominais recebidos por cada candidato determinam obrigatoriamente a ordem de ocupação das cadeiras, como ocorre na lista aberta brasileira.",
+      "statement": "Uma eleitora prefere a candidatura C, mas, acreditando que apenas A e B têm chances de vencer, vota em B para reduzir a probabilidade de vitória de A. Esse comportamento exemplifica voto sincero, pois sua escolha expressa sua primeira preferência.",
       "correctAnswer": "E",
-      "explanation": "Na lista fechada, a ordem é predefinida pela organização partidária; na lista aberta, os votos nominais definem a ordem interna dos candidatos.",
-      "reviewEvidence": "Lote 028, autoria e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-016-lista-fechada-ordem; gabarito E; mecanismo comparar-ordenacao-de-listas; conferido com 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md, heading literal 'Quem ocupa as vagas e quem fica como suplente'. Fonte indicada para cotejo independente: Sistemas proporcionais comparados, artigo 24. Ainda pendentes cotejo integral de novidade com expansão/piloto e fontes primárias, CI do SHA final e revisão editorial conclusiva. Não homologado por humano."
+      "explanation": "A primeira preferência é C, mas o voto em B é motivado por expectativa estratégica sobre a disputa. Voto sincero seria escolher C independentemente dessa antecipação.",
+      "reviewEvidence": "Lote 028, revisão editorial substitutiva por IA em 13/11/2026: cam-cpol-l028-016-voto-estrategico-preferencia; gabarito E; mecanismo inferir-voto-estrategico-pelas-expectativas. Conferido no artigo canônico 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md, heading literal 'Efeitos: expectativas, não equivalências lógicas'. Substitui comparação entre listas aberta/fechada muito próxima ao item 014, por operação cognitiva distinta: identificar voto estratégico individual em cenário com primeira preferência explícita. Pendente cotejo semântico integral com banco e piloto, verificação independente de fontes e gates no SHA final; revisão por IA, não homologação humana."
     }
   ]
 }

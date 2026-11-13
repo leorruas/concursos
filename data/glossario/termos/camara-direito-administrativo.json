@@ -57,9 +57,9 @@
       "term": "Prescrição na improbidade",
       "aliases": [],
       "definition": "Prazo para buscar sanções por improbidade; o art. 23 prevê prazo geral de oito anos, sujeito a marcos e decisões judiciais.",
-      "contrast": "Oito anos não significa que toda ação prescreve oito anos após o fato; há marcos, interrupções e transição.",
-      "cebraspeTrap": "Aplicar automaticamente o regime novo a fatos anteriores à reforma de 2021.",
-      "example": "Um processo antigo exige verificar datas e regras de transição.",
+      "contrast": "A prescrição da pretensão sancionatória é distinta do ressarcimento ao erário. O Tema 1199 do STF trata da aplicação temporal da reforma de 2021; as ADIs 7.156 e 7.236 afastaram o reinício do prazo pela metade.",
+      "cebraspeTrap": "Aplicar automaticamente quatro anos após uma interrupção: nas ADIs 7.156 e 7.236, o STF afastou a redução pela metade e estabeleceu reinício integral, observado o limite global de 20 anos para a pretensão sancionatória.",
+      "example": "Ao examinar um processo, identifique a data dos fatos e cada causa de interrupção; a contagem depende do regime aplicável e dos marcos reconhecidos pelo STF.",
       "articleIds": [
         "art-ea06e80ef83f4af7"
       ],
@@ -73,6 +73,10 @@
         {
           "label": "Lei nº 8.429/1992, Art. 23; STF Tema 1199",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        },
+        {
+          "label": "STF, Informativo 1225, ADIs 7.156 e 7.236",
+          "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm"
         }
       ],
       "status": "reviewed"
@@ -122,6 +126,31 @@
       "sources": [
         {
           "label": "Lei nº 8.429/1992, Art. 11",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-improbidade-tipificacao",
+      "term": "Tipificação da improbidade administrativa",
+      "aliases": [],
+      "definition": "É identificar qual conduta descrita nos arts. 9º, 10 ou 11 da Lei nº 8.429/1992 corresponde aos fatos comprovados e verificar os requisitos específicos exigidos pela lei.",
+      "contrast": "Uma ilegalidade administrativa pode existir sem que haja improbidade. Para configurar improbidade, é necessário enquadramento em uma hipótese legal e demonstração dos demais requisitos, inclusive dolo.",
+      "cebraspeTrap": "Tratar toda violação de princípios como improbidade, sem identificar uma das condutas específicas do art. 11.",
+      "example": "O atraso na publicação de um ato pode ser irregular, mas não basta para afirmar improbidade: é preciso examinar a hipótese legal, as exceções e o dolo.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, arts. 1º, 9º, 10 e 11",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
         }
       ],

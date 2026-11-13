@@ -83,7 +83,7 @@ As sanções podem ser aplicadas isolada ou cumulativamente conforme a gravidade
 
 ## Prescrição e retroatividade — ponto de prova
 
-**Prescrição** é o limite de tempo para exercer a pretensão de aplicar uma sanção. **Interrupção** é um evento legal que faz recomeçar a contagem do prazo conforme o regime aplicável. **Prescrição** é a limitação temporal para exigir judicialmente determinadas sanções. Não é sinônimo de absolvição por falta de prova: diz respeito ao tempo e aos marcos legais. A ação para aplicação das sanções da LIA tem, atualmente, prazo geral de **8 anos**, nos termos do art. 23, sujeito às regras legais de suspensão e interrupção.
+**Prescrição** é o limite de tempo para exigir judicialmente determinadas sanções. Não significa absolvição por falta de prova: diz respeito ao prazo e aos marcos previstos na lei. **Interrupção** é um evento legal que faz recomeçar a contagem do prazo conforme o regime aplicável. A ação para aplicação das sanções da LIA tem, atualmente, prazo geral de **8 anos**, nos termos do art. 23, sujeito às regras legais de suspensão e interrupção.
 
 **Atualização constitucional obrigatória: ADIs 7.156 e 7.236 (STF, julgamento concluído em 1º/07/2026).** O STF manteve as causas de interrupção da prescrição previstas na reforma de 2021, mas declarou **inconstitucional** a expressão do art. 23, § 5º, que determinava o reinício da contagem pela **metade do prazo de oito anos**. Após uma interrupção válida, o prazo volta a correr **por inteiro**, observado o **limite máximo de 20 anos** para a pretensão sancionatória, segundo o julgamento. A literalidade não atualizada do § 5º não representa a orientação constitucional vigente.
 

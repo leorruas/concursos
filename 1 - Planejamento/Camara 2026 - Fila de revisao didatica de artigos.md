@@ -33,6 +33,16 @@ Selecionar por (1) termo técnico ou dispositivo citado sem tradução operacion
 
 | Alta | DAD: `3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md` (`art-bc65879a85f5b5d8`) | Efeito devolutivo versus suspensivo, termo inicial do prazo de julgamento e distinção entre recurso com possível agravamento (art. 64) e revisão sancionadora sem agravamento (art. 65); falta de vínculos específicos no glossário e cartões a conferir | Integrado na `main` via PR #67 (merge `3d072249`): artigo, dois verbetes, dois flashcards | Manutenção: confirmar publicação no Pages e retestar compreensão de recurso versus revisão sancionadora |
 
+## Prioridade temporária: Direito Constitucional (13/11/2026)
+
+A partir de 13/11, somente novas revisões de Direito Constitucional e de processo legislativo constitucional formalmente vinculado à matéria. Pendências editoriais de outras matérias já abertas devem ser concluídas antes de nova seleção. Esta regra prevalece sobre a alternância histórica da tabela anterior.
+
+| Entrega | ArticleId / caminho | Problema e gravidade | Estado | Próxima ação |
+| :--- | :--- | :--- | :--- | :--- |
+| CONST-ESP-CRITERIO-20261113 | `art-da9726a3c994a6c6`; `3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md` | Alta: comparação começava por lista de espécies e jargões sem ensinar como decidir entre elas; sigla CF no título sem expansão | Alterado em branch `editorial/constitucional-especies-criterio-20261113`; PR e CI a verificar | Conferir diff, auditoria de siglas, headings, fontes oficiais e CI no SHA do PR; integrar apenas com checks verdes |
+| CONST-QUORUM-TRIAGEM | `3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md` (articleId a conferir) | Alta: auditar distinção entre presença, maioria de votos e quórum qualificado, com exemplos numéricos | Pendente | Conferir conteúdo existente, contratos de seção e fonte constitucional antes de decidir se precisa revisão |
+| CONST-CONTROLE-TRIAGEM | `3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md` (`art-7c5228e2781b4336`) | Média: verificar manutenção de súmula vinculante e controle de constitucionalidade após revisões já integradas | Pendente | Auditar apenas lacunas remanescentes, sem reescrever texto suficiente |
+
 ## Protocolo de atualização
 
 A cada execução, reler a `main`, consultar `AGENTS.md`, `CHAT.md`, o edital e o plano de artigos, verificar PRs concorrentes e escolher somente problemas reais. Priorizar vocabulário e operações jurídicas difíceis. Definir o termo técnico e explicar **quem age, quando, com que efeito e sob qual exceção**. Preservar `articleId`, frontmatter e links. Alterar notas no público, mantendo dados pessoais no cofre privado `leorruas/concurso-dados`; não publicar indicadores ou respostas individuais. Trabalhar por PR protegido, sem sobrepor os arquivos de expansão do banco de questões.

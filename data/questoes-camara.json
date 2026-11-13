@@ -36921,7 +36921,7 @@
       "reviewEvidence": "Lote 026, revisão editorial técnica final de 12/11/2026: item 040, gabarito E, mecanismo calcular-dispersao-central-entre-grupos. Conferidos enunciado, explicação, operações lógicas ou numéricas e fonte canônica 3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md / '3. O box plot: o resumo dos cinco números de Tukey' (articleId art-e3831c8dec419d79; theoryRef literal válido). Fonte técnica: artigo canônico do repositório e referências bibliográficas identificadas na matéria. Reavaliado após revisão incremental documentada no PR #44: triagem de novidade contra 1.000 itens de expansão já integrados, 389 históricos e os exercícios dos artigos, com substituição de redundâncias identificadas. Evidência anterior: Lote 026: correção editorial incremental em 12/11/2026 do item 040, substituindo mecanismo redundante por aplicação concreta distinta, com referência ao artigo art-e3831c8dec419d79, subtítulo literal '3. O box plot: o resumo dos cinco números de Tukey'. Gabarito e explicação cotejados com a seção canônica, sem alegar validação humana. Revisão final de antirr. Revisão técnica automatizada; NÃO houve validação humana declarada. A integração requer CI verde no SHA desta revisão e base compatível; itens de PR não contam antes do merge."
     },
     {
-      "id": "cam-orc-l027-001-dotacao-nao-comprova-pagamento",
+      "id": "cam-orc-l027-001-meta-fisica-vs-execucao-financeira",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -36930,23 +36930,23 @@
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
       "articleId": "art-f6cfe9fbcc764554",
-      "conceptId": "distinguir-dotacao-de-pagamento",
-      "mechanism": "confundir-autorizacao-com-desembolso",
+      "conceptId": "execucao-fisica-produto-versus-execucao-financeira",
+      "mechanism": "distinguir-meta-fisica-valor-executado",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
-      "cognitiveOperation": "análise",
+      "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-f6cfe9fbcc764554#Dotação orçamentária: autorização e limite de gasto"
+        "article:art-ef8cab78f43e6dad#O que significa programação física cumprida"
       ],
       "source": {
         "path": "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md",
-        "section": "Dotação orçamentária: autorização e limite de gasto"
+        "section": "O que significa programação física cumprida"
       },
-      "statement": "Um órgão dispõe de dotação de R$ 8 milhões na LOA para reformar prédios, mas ainda não empenhou nenhuma despesa. A existência da dotação comprova que os R$ 8 milhões já foram pagos às empresas responsáveis pelas obras.",
-      "correctAnswer": "E",
-      "explanation": "Dotação é autorização orçamentária, não empenho, liquidação ou pagamento. A aprovação de um limite de despesa não prova desembolso.",
-      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-f6cfe9fbcc764554 / Dotação orçamentária: autorização e limite de gasto e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+      "statement": "Uma ação orçamentária previa concluir cinco escolas no exercício. Ao final do ano, foram entregues apenas três, embora todo o valor financeiro previsto tenha sido pago. A execução financeira integral, nesse caso, não comprova o cumprimento integral da meta física.",
+      "correctAnswer": "C",
+      "explanation": "Certo. A meta física mede o produto entregue no período: foram concluídas três das cinco escolas previstas, ou 60% da meta medida em unidades. O montante pago ou empenhado não substitui a medida de entrega física.",
+      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026: item 001 reformulado para avaliação de meta física versus execução financeira, evitando repetição do piloto 291, cujo mecanismo era dotação versus pagamento. Artigo 'Orçamento público e ciclo orçamentário', seção literal 'O que significa programação física cumprida' e exemplo progressivo de cinco escolas conferidos. A meta 3/5=60% confere. A questão não presume que as despesas foram pagas regularmente, apenas separa pagamento de entrega de meta. Revisão automática, sem homologação humana; integração ainda sujeita a testes e cotejo final."
     },
     {
       "id": "cam-orc-l027-002-etapas-concorrentes-do-ciclo",
@@ -37284,7 +37284,7 @@
       "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 13. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Não afetação de impostos e as exceções'. Base normativa indicada: art. 167, IV, CF. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado.\nRevisão técnica 13/11/2026: gabarito E compatível com ressalva de saúde à não vinculação de impostos (CF art. 167 IV). Artigo art-a2f47c0d6e184e93 e heading literal conferidos na main. Sem duplicação textual exata ou conceptId repetido no banco integral. Conferência independente da redação constitucional vigente e similaridade semântica ainda pendentes."
     },
     {
-      "id": "cam-orc-l027-014-universalidade-tres-orcamentos",
+      "id": "cam-orc-l027-014-anualidade-vs-politica-continuada",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37293,23 +37293,23 @@
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
       "articleId": "art-a2f47c0d6e184e93",
-      "conceptId": "universalidade-tres-esferas",
-      "mechanism": "distinguir-abrangencia-de-orcamentos",
+      "conceptId": "anualidade-orcamentaria-vs-duracao-politica",
+      "mechanism": "distinguir-vigencia-orcamento-duracao-politica",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-a2f47c0d6e184e93#Unidade, universalidade e anualidade"
+        "article:art-a2f47c0d6e184e93#Anualidade e vigência de créditos"
       ],
       "source": {
         "path": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
-        "section": "Unidade, universalidade e anualidade"
+        "section": "Anualidade e vigência de créditos"
       },
-      "statement": "A existência de orçamento fiscal, orçamento da seguridade social e orçamento de investimento das estatais na lei orçamentária anual federal implica, por si só, violação ao princípio da universalidade.",
+      "statement": "O princípio da anualidade orçamentária impede a continuidade de políticas públicas por mais de um exercício financeiro, mesmo quando novas dotações são regularmente autorizadas em cada Lei Orçamentária Anual.",
       "correctAnswer": "E",
-      "explanation": "O art. 165, § 5º, da Constituição determina que a LOA compreenda essas três peças. A divisão por esfera não equivale a excluir receitas ou despesas da abrangência legal.",
-      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 14. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Unidade, universalidade e anualidade'. Base normativa indicada: art. 165, § 5º, CF. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado.\nRevisão técnica 13/11/2026: gabarito E compatível com LOA federal em três orçamentos (CF art. 165 §5º); classificação em três peças não implica violação da universalidade. Artigo art-a2f47c0d6e184e93 e heading literal conferidos. Sem duplicação textual exata ou conceptId repetido no banco integral. Conferência normativa independente e similaridade semântica pendentes."
+      "explanation": "Errado. A anualidade refere-se ao exercício da autorização orçamentária, que coincide com o ano civil no Brasil (Lei nº 4.320/1964, art. 34). Políticas e programas podem continuar por vários exercícios, com planejamento plurianual e dotações anuais regularmente autorizadas; a duração da política não equivale à duração de uma autorização específica.",
+      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026: item 014 reformulado para anualidade da autorização versus duração de políticas contínuas, evitando repetição do piloto 87 sobre três orçamentos em uma mesma LOA. Fontes: Lei nº 4.320/1964, art. 34; Constituição, art. 165. Artigo 'Princípios orçamentários e vedações constitucionais', seção literal 'Anualidade e vigência de créditos' verificada. Gabarito E e explicação revisados; sem homologação humana, gates globais ainda necessários."
     },
     {
       "id": "cam-orc-l027-015-valor-bruto-sem-compensacao",

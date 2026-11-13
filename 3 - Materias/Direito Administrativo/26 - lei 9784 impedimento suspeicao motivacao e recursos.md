@@ -141,7 +141,7 @@ flowchart TD
     
     REC --> PRAZ["Prazos Gerais Legais"]:::criterio
     PRAZ --> INTERP["Interposição: 10 DIAS (Art. 59)"]:::opcao
-    PRAZ --> JULGA["Decisão do Recurso: 30 DIAS + 30 DIAS (Art. 59, §§ 1º e 2º)"]:::opcao
+    PRAZ --> JULGA["Decisão do Recurso: 30 DIAS + 30 DIAS (Art. 59, §§ 2º e 3º)"]:::opcao
     
     REC --> EFET["Efeitos do Recurso (Art. 61)"]:::raiz
     EFET --> DEVOL["Regra Geral: Efeito apenas DEVOLUTIVO<br>(NÃO suspende a eficácia do ato impugnado)"]:::opcao
@@ -153,7 +153,7 @@ flowchart TD
 - **Prazo de interposição (art. 59):** salvo disposição legal específica, é de **10 (dez) dias** o prazo para a interposição de recurso administrativo, contado a partir da ciência ou divulgação oficial da decisão;
 - **Reconsideração prévia (art. 56, § 1º):** o recurso será dirigido à autoridade que proferiu a decisão. Se ela não a reconsiderar no prazo de **5 (cinco) dias**, o encaminhará à autoridade superior;
 - **Limite de instâncias recursais (art. 57):** o recurso tramitará no máximo por **3 (três) instâncias administrativas**, salvo disposição legal diversa;
-- **Prazo para julgamento (art. 59, §§ 1º e 2º):** quando não houver prazo diferente em lei, o órgão competente tem **até 30 (trinta) dias**, contados do recebimento dos autos, para decidir. Pode prorrogar por mais 30 dias, mas precisa justificar expressamente a prorrogação.
+- **Prazo para julgamento (art. 59, §§ 2º e 3º):** quando não houver prazo diferente em lei, o órgão competente tem **até 30 (trinta) dias**, contados do recebimento dos autos, para decidir. Pode prorrogar por mais 30 dias, mas precisa justificar expressamente a prorrogação.
 
 ### 3.2 Efeitos do recurso e a garantia da ampla defesa
 

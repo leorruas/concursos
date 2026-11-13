@@ -1,36 +1,40 @@
 ---
 articleId: art-da9726a3c994a6c6
 articleAliases: ["3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito.md"]
-title: "Espécies legislativas: comparação sistemática por iniciativa, quórum, deliberação, sanção e efeitos (CF, art. 59)"
+title: "Espécies legislativas: comparação sistemática por iniciativa, quórum, deliberação, sanção e efeitos (Constituição Federal, art. 59)"
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
 updated: 2026-11-12
 ---
 
-# Espécies legislativas: comparação sistemática por iniciativa, quórum, deliberação, sanção e efeitos (CF, art. 59)
+# Espécies legislativas: comparação sistemática por iniciativa, quórum, deliberação, sanção e efeitos (Constituição Federal, art. 59)
 
 **Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-032 conforme arquitetura e inventário editorial.**
 
 ## Núcleo do conceito: por que comparar as espécies legislativas?
 
-O processo legislativo brasileiro compreende a elaboração de sete espécies normativas primárias expressamente catalogadas no **artigo 59 da Constituição Federal de 1988**:
-1. Emendas à Constituição (PEC);
-2. Leis complementares (PLP);
-3. Leis ordinárias (PL);
-4. Leis delegadas;
-5. Medidas provisórias (MPV);
-6. Decretos legislativos (PDC / PDL);
-7. Resoluções (PRC / PRS / PRN).
+**Situação concreta.** Um deputado quer propor uma regra geral sobre serviços públicos. Outra proposta pretende mudar a Constituição. Uma terceira trata de assunto para o qual a Constituição exige lei complementar. As três ideias podem ser discutidas no Congresso, mas **não seguem necessariamente o mesmo caminho**. Antes de perguntar quantos votos são necessários, é preciso saber **que tipo de ato a Constituição exige para cada assunto**.
 
-Embora cada espécie possua nota temática própria na wiki (como as notas 10, 11, 20, 21 e 22), as provas do Cebraspe para a Câmara dos Deputados frequentemente cobram a **comparação transversal e sistemática** entre elas:
-- Qual espécie admite sanção e veto presidencial e qual é promulgada exclusivamente pelas Mesas das Casas legislativas?
-- Quem detém a iniciativa de cada ato (legitimidade ampla × reserva privativa × monopólio funcional)?
-- Quais quóruns de aprovação são exigidos (maioria simples, maioria absoluta ou três quintos)?
-- Qual é o regime de turnos e interstícios (votação em turno único × dois turnos em cada Casa)?
-- Qual é a matéria reservada e qual é o alcance dos efeitos (internos *interna corporis* × externos *erga omnes*)?
+**Espécie legislativa** é o tipo de ato normativo produzido por um procedimento previsto na Constituição. **Ato normativo** é um texto que estabelece regras jurídicas. O artigo 59 da Constituição Federal (CF) enumera sete espécies: emenda à Constituição, lei complementar, lei ordinária, lei delegada, medida provisória, decreto legislativo e resolução. **Projeto** é a proposta em discussão; **lei** é o resultado normativo depois de concluídas as etapas exigidas. Uma proposta de emenda à Constituição (PEC), por exemplo, ainda não é uma emenda aprovada.
 
-Compreender o processo legislativo sob a ótica comparativa é indispensável para não cair em inversões de requisitos ou em generalizações indevidas no julgamento de itens C/E.
+Para identificar a espécie correta, siga estas perguntas, nesta ordem:
+
+1. **Qual assunto será regulado?** Verifique se a Constituição reservou a matéria a uma espécie específica. Se o objetivo for modificar o próprio texto constitucional, o caminho é a emenda constitucional, sujeita também aos limites do artigo 60. Se a Constituição exigir expressamente lei complementar, uma lei ordinária não basta.
+2. **Quem pode iniciar?** O artigo 61 admite vários legitimados para projetos de lei, mas algumas matérias têm iniciativa reservada. Já a PEC tem o rol próprio do artigo 60. Medida provisória e lei delegada envolvem atuação do Presidente da República, com requisitos distintos.
+3. **Quem decide e com quantos votos?** Não confunda **quórum de presença** (quantos membros precisam estar presentes para a deliberação) com **quórum de aprovação** (quantos votos favoráveis são necessários). A regra geral do artigo 47 exige presença da maioria absoluta dos membros e aprovação pela maioria dos votos; lei complementar exige maioria absoluta dos membros (artigo 69); emenda exige três quintos em dois turnos em cada Casa (artigo 60, § 2º).
+4. **O Presidente participa da etapa final?** Projetos de lei ordinária e complementar seguem, em regra, para sanção ou veto (artigo 66). Emenda constitucional é promulgada pelas Mesas da Câmara e do Senado, sem sanção presidencial (artigo 60, § 3º). Decretos legislativos e resoluções também não dependem de sanção. A medida provisória requer atenção ao caminho efetivamente seguido na conversão em lei.
+5. **Qual é o efeito?** Uma emenda modifica a Constituição. Uma lei disciplina matéria legislativa dentro dos limites constitucionais. Uma medida provisória, quando editada validamente, produz força de lei desde sua edição, mas depende da apreciação parlamentar e pode perder eficácia conforme o artigo 62.
+
+**Exemplo progressivo.** Uma proposta de regra geral, sem reserva constitucional específica, pode tramitar como projeto de lei ordinária. Se a Constituição reservar aquele assunto à lei complementar, muda a espécie e o quórum de aprovação. Se a intenção for alterar o texto da Constituição, muda novamente o procedimento: passa a ser necessária uma PEC. **Contraexemplo:** chamar um projeto de “lei complementar” não transforma qualquer assunto em matéria constitucionalmente reservada; o critério é a exigência da Constituição, e não o nome escolhido pelo autor.
+
+**Autochecagem (Certo ou Errado).** “Toda proposta legislativa aprovada pelo Congresso depende de sanção do Presidente da República.” **Errado.** A sanção integra o procedimento dos projetos de lei sujeitos ao artigo 66, mas emendas constitucionais, decretos legislativos e resoluções não passam por essa etapa.
+
+**Autochecagem (Certo ou Errado).** “A lei complementar exige maioria absoluta para aprovação, enquanto a regra geral do artigo 47 combina maioria dos votos com presença da maioria absoluta dos membros.” **Certo.** A primeira regra está no artigo 69; a segunda, no artigo 47. A presença mínima e a quantidade de votos favoráveis são critérios diferentes.
+
+As siglas usadas nos quadros seguintes designam **propostas**, não novas espécies: projeto de lei (PL), projeto de lei complementar (PLP), medida provisória (MP), projeto de decreto legislativo (PDL) e projeto de resolução (PR). As denominações regimentais podem variar entre as Casas. O quadro é uma comparação inicial; condições e exceções de cada espécie devem ser conferidas nas seções seguintes.
+
+**Fonte normativa primária:** [Constituição Federal atualizada pela Câmara dos Deputados, artigos 47 e 59 a 69](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). Os casos e perguntas acima são explicações didáticas, não transcrições legais.
 
 ## Definição constitucional: lei ordinária e lei complementar
 

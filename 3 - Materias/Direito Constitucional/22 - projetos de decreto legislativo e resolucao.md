@@ -24,6 +24,19 @@ A Constituição Federal (CF), **art. 59**, distingue **decreto legislativo** (i
 
 **Chave de leitura:** não basta perguntar se o assunto envolve o Legislativo. A pergunta decisiva é **a quem a Constituição atribuiu a competência e por qual instrumento ela se exerce**.
 
+### Como escolher o projeto: siga a competência antes do nome
+
+**Primeira pergunta: o assunto precisa virar uma lei federal submetida à sanção ou ao veto do Presidente?** Se a Constituição prevê o processo legislativo comum, o caminho é um **projeto de lei**. Por exemplo, a fixação da remuneração de servidores da Câmara depende de lei de iniciativa da própria Casa (CF, art. 51, IV). A Câmara ter autonomia para organizar seus serviços não autoriza usar resolução para fixar esses vencimentos.
+
+**Segunda pergunta: a Constituição reservou a decisão ao Congresso Nacional, sem sanção presidencial?** Para a aprovação parlamentar de tratado abrangido pelo art. 49, I, o instrumento é um **projeto de decreto legislativo**, cujo resultado, se aprovado, é um decreto legislativo. O decreto aprova o tratado na esfera parlamentar; o Executivo ainda realiza os atos internacionais cabíveis. O Congresso não ratifica o tratado apenas por aprovar o decreto.
+
+**Terceira pergunta: a competência é própria de uma Casa ou há previsão específica de resolução do Congresso?** Para mudar o Regimento Interno da Câmara, utiliza-se um **projeto de resolução da Câmara (PRC)**, que pode resultar em **resolução da Câmara dos Deputados (RCD)**. Para os limites de dívida previstos no art. 52, VI, a competência é do Senado: **projeto de resolução do Senado (PRS)** e **resolução do Senado Federal (RSF)**. Para autorizar o Presidente a elaborar lei delegada (CF, art. 68, § 2º), a competência é do Congresso: **projeto de resolução do Congresso Nacional (PRN)** e **resolução do Congresso Nacional (RCN)**.
+
+**O ponto que muda a classificação:** dois atos podem envolver o Congresso e dispensar sanção, mas ter instrumentos diferentes. Aprovar parlamentarmente um tratado exige **decreto legislativo**; conceder delegação legislativa ao Presidente exige **resolução do Congresso**. O critério é a previsão constitucional específica, não apenas o órgão que vota ou a ausência de sanção. Esses exemplos aplicam os arts. 49, I, 51, 52 e 68, § 2º, da Constituição e o art. 109 do RICD. [Constituição atualizada](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988) e [Regimento Interno atualizado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+
+**Autochecagem (C/E):** “Todo ato de competência do Congresso que dispensa sanção presidencial deve ser aprovado por decreto legislativo.” **Errado.** A autorização para lei delegada é dada por resolução do Congresso (CF, art. 68, § 2º), enquanto a aprovação parlamentar de tratado no recorte do art. 49, I, segue decreto legislativo.
+
+
 ## Comparação de fronteiras: espécie, esfera, etapa final
 
 | Critério | Lei ordinária | Decreto legislativo | Resolução |

@@ -5,7 +5,7 @@ title: "Processo legislativo e poder constituinte: como diferenciar os sete tipo
 type: "conceito"
 status: "ativo"
 created: 2026-06-15
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Processo legislativo e poder constituinte: como diferenciar os sete tipos de norma
@@ -20,6 +20,24 @@ Uma palavra que aparece muito no estudo é **espécie normativa**. Significa sim
 
 > [!IMPORTANT]
 > **Três distinções para começar:** (1) *projeto* é proposta ainda em tramitação; *lei* é o resultado do procedimento. (2) Lei ordinária e lei complementar criam regras legais, mas não alteram a Constituição por si. (3) Para alterar o texto da Constituição, a via normal é a **PEC**, que, se aprovada, vira **emenda constitucional**.
+
+## Primeiro, descubra qual decisão precisa ser tomada
+
+Um erro comum é começar a questão procurando o número de votos. O **tipo de norma** depende, antes, do que se quer fazer. Imagine cinco situações:
+
+| O que se pretende? | Caminho inicial | Por quê? |
+| :--- | :--- | :--- |
+| Criar regras gerais para um serviço federal | **Projeto de lei ordinária**, em regra | O assunto exige lei, sem reserva constitucional de outra espécie |
+| Disciplinar tema que a Constituição reservou expressamente | **Projeto de lei complementar** | A Constituição exigiu uma espécie e um quórum próprios |
+| Modificar o texto da Constituição | **Proposta de emenda à Constituição (PEC)** | Uma lei comum não altera o texto constitucional |
+| Aprovar parlamentarmente um tratado sujeito ao art. 49, I | **Projeto de decreto legislativo** | Trata-se de decisão exclusiva do Congresso |
+| Alterar o Regimento Interno da Câmara | **Projeto de resolução da Câmara** | A Câmara decide sobre sua própria organização |
+
+**Como usar o quadro:** primeiro identifique o **assunto**. Depois verifique **quem pode apresentar a proposta** (iniciativa), **quem deve aprová-la** (competência), **quantos votos** são exigidos (quórum) e **se o Presidente participa da fase final**. O instrumento só está corretamente escolhido quando essas condições são compatíveis. O quadro apresenta caminhos usuais, não elimina exceções constitucionais nem regimentais.
+
+### Proposta, projeto, norma: em que momento estamos?
+
+Uma **proposta** ou **projeto** ainda está sendo analisado. Por exemplo, um **projeto de lei complementar (PLP)** não virou lei complementar apenas porque foi protocolado ou recebeu parecer favorável de uma comissão. Precisa passar pelas etapas e votações exigidas. Uma **PEC** aprovada nas Casas legislativas, por sua vez, torna-se **emenda constitucional** após sua promulgação pelas Mesas da Câmara e do Senado. A PEC **não vai à sanção presidencial**. Essa diferença entre *quem propõe*, *quem aprova* e *quem formaliza* será usada ao longo de todo o artigo.
 
 ## Lei ordinária × lei complementar
 
@@ -75,6 +93,8 @@ Na Câmara há **513 deputados**; no Senado, **81 senadores**.
 **Exemplo numérico:** 300 deputados estão presentes e todos votam "sim" ou "não". Se 151 votarem "sim" e 149 "não", uma lei ordinária poderá ser aprovada pela regra geral de maioria simples. Um projeto de lei complementar com esses mesmos **151 votos não será aprovado**: precisa de **257 votos favoráveis**, mesmo que haja só 300 presentes. Abstenções e regras específicas podem exigir atenção adicional à contagem dos votos.
 
 **Maioria simples:** depende dos votos da deliberação, desde que exista o quórum mínimo de presença. **Maioria absoluta:** depende da totalidade dos membros da Casa, não apenas dos presentes. A aprovação de lei complementar usa a segunda.
+
+**Por que a lei complementar tem dois turnos na Câmara?** Essa exigência decorre do **Regimento Interno da Câmara dos Deputados (RICD, art. 148)**, que prevê exceção à regra geral de turno único. Já a **PEC** precisa de dois turnos **em cada Casa** por determinação direta da **Constituição (art. 60, § 2º)**. Portanto, acertar o número de turnos não basta: a questão pode trocar a **fonte da exigência**, a **Casa legislativa** ou o **quórum de aprovação**. LC exige maioria absoluta (CF, art. 69); PEC exige três quintos dos membros em cada turno de cada Casa (CF, art. 60, § 2º).
 
 ### Lei complementar é "mais forte" que lei ordinária?
 
@@ -196,6 +216,8 @@ Para **lei ordinária ou complementar**, imagine o percurso básico:
 3. **Aprovação parlamentar:** observam-se quóruns e procedimentos próprios. Na elaboração das leis federais, há participação das duas Casas do Congresso, ressalvadas as particularidades constitucionais e regimentais.
 4. **Sanção ou veto:** o texto aprovado é, em regra, encaminhado ao Presidente. **Sanção** é concordância; **veto** é objeção jurídica (inconstitucionalidade) ou política (contrariedade ao interesse público). O veto pode ser derrubado pelo Congresso, com **maioria absoluta dos deputados e dos senadores**, contados separadamente.
 5. **Promulgação e publicação:** a promulgação confirma formalmente a lei e determina seu cumprimento; a publicação dá publicidade oficial. Existem regras constitucionais de promulgação subsidiária quando o Presidente não o faz.
+
+**Exemplo do percurso.** Um deputado apresenta projeto de lei ordinária sobre transparência de um serviço federal, em assunto que admita iniciativa parlamentar. A Câmara o examina e aprova; o Senado, como Casa revisora, pode aprová-lo sem mudanças, rejeitá-lo ou propor alterações. Se o Senado modificar o texto, **a Câmara examina as alterações**. Encerrada a deliberação das Casas, o projeto segue para **sanção ou veto presidencial**. Se houver veto, o Congresso pode apreciá-lo conforme a Constituição. Observe que **aprovar em uma Casa não significa que o projeto já virou lei**. O exemplo é do percurso típico de projeto iniciado na Câmara; o sentido da revisão se inverte quando a tramitação começa no Senado.
 
 **Não transportamos esse percurso automaticamente para todas as sete espécies.** PEC, decreto legislativo e resolução não passam por sanção presidencial; MP nasce com força de lei por ato do Presidente, e lei delegada depende de autorização anterior. Uma MP aprovada com alterações por projeto de lei de conversão segue para sanção ou veto; aprovada sem alterações, segue regime próprio.
 
@@ -360,5 +382,7 @@ Para aprofundar apenas o ponto que causou dúvida, use a sequência:
 - [Câmara dos Deputados: explicações sobre votação e projetos de lei](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/votacao).
 - [STF, Tema 1.352: lei ordinária e matéria formalmente complementar](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1352).
 - [STF, Informativo 1.190: tese e condições do Tema 1.352](https://www.stf.jus.br/arquivo/informativo/documento/informativo1190.htm).
+
+**Revisão de clareza (13/11/2026):** incluído quadro inicial de decisão por assunto, explicação da diferença entre projeto e norma promulgada, separação da base constitucional e regimental dos dois turnos e exemplo contínuo de projeto na Câmara, revisão no Senado e sanção ou veto. Mantidos articleId, títulos de seções preexistentes e todos os 18 itens de treino, para preservar os vínculos das questões, do glossário e dos flashcards.
 
 **Registro editorial (12/11/2026):** reestruturação didática integral deste artigo canônico para apresentar primeiro a diferença concreta entre os sete instrumentos; depois, sujeitos, quóruns, processo e limites. Mantidos o **articleId** e os **18 exercícios inéditos** das expansões CAM-PL-011 e CAM-PL-015. Os exercícios foram deslocados para o final, separando estudo e prática. O material do rito da PEC foi concentrado em uma seção de aprofundamento, com fontes oficiais. 

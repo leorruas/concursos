@@ -37145,7 +37145,7 @@
       "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-87b69e1d4ac54f20 / Suplementar, especial e extraordinário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     },
     {
-      "id": "cam-orc-l027-009-deducao-creditos-extraordinarios",
+      "id": "cam-orc-l027-009-credito-extraordinario-comunicacao-legislativo",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37154,23 +37154,22 @@
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
       "articleId": "art-87b69e1d4ac54f20",
-      "conceptId": "deduzir-creditos-extraordinarios-excesso-arrecadacao",
-      "mechanism": "aplicar-deducao-art43-paragrafo4",
+      "conceptId": "comunicacao-legislativo-credito-extraordinario",
+      "mechanism": "distinguir-abertura-e-comunicacao-art44",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
+        "article:art-87b69e1d4ac54f20#Créditos extraordinários"
       ],
       "source": {
         "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
-        "section": "Recursos disponíveis para suplementares e especiais"
+        "section": "Créditos extraordinários"
       },
-      "statement": "Na apuração dos recursos utilizáveis provenientes de excesso de arrecadação para abertura de créditos suplementares ou especiais, devem ser deduzidos os créditos extraordinários abertos no exercício, conforme a Lei nº 4.320/1964.",
-      "correctAnswer": "C",
-      "explanation": "O art. 43, § 4º, da Lei nº 4.320/1964 determina a dedução da importância dos créditos extraordinários abertos no exercício ao apurar os recursos utilizáveis provenientes de excesso de arrecadação. A operação é distinta da reabertura de créditos especiais no exercício seguinte.",
-      "reviewEvidence": "Lote 027, substituição editorial técnica por IA em 13/11/2026: retirado mecanismo redundante de reabertura de crédito especial (sobreposição com piloto 290). Novo mecanismo: dedução dos créditos extraordinários abertos no exercício ao apurar recursos utilizáveis do excesso de arrecadação, Lei 4.320/1964 art. 43 §4º. Heading literal 'Recursos disponíveis para suplementares e especiais' e artigo art-87b69e1d4ac54f20. Gabarito C e explicação conferidos contra texto legal conhecido; cotejo independente da fonte primária vigente, similaridade integral e CI do novo SHA ainda pendentes. Revisão automatizada, não humana; status gerada."
+      "statement": "Segundo a Lei nº 4.320/1964, a abertura de crédito extraordinário por decreto do Poder Executivo dispensa a comunicação imediata ao Poder Legislativo, pois a urgência da despesa afasta o controle legislativo posterior.",
+      "correctAnswer": "E",
+      "explanation": "O art. 44 da Lei nº 4.320/1964 prevê a abertura dos créditos extraordinários por decreto executivo, com comunicação imediata ao Poder Legislativo. Na União, a Constituição de 1988 prevê medida provisória para sua abertura quando presentes os requisitos constitucionais; por isso, a afirmação geral de dispensa de comunicação é incorreta."
     },
     {
       "id": "cam-orc-l027-010-suplementar-sem-reabertura",

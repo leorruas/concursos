@@ -38053,7 +38053,7 @@
       "conceptId": "pluralidade-nao-exige-maioria-absoluta",
       "mechanism": "aplicar-pluralidade-tres-candidatos",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "Constituição Federal, arts. 29, II, e 46; distinção conceitual de pluralidade.",
+      "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
@@ -38081,7 +38081,7 @@
       "conceptId": "limiar-eleitorado-municipal",
       "mechanism": "distinguir-eleitores-de-habitantes",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "Constituição Federal, art. 29, II.",
+      "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
@@ -38109,7 +38109,7 @@
       "conceptId": "senado-renovacao-dois-tercos",
       "mechanism": "separar-magnitude-de-proporcionalidade",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "Constituição Federal, art. 46, §§ 1º e 2º.",
+      "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
@@ -38137,7 +38137,7 @@
       "conceptId": "denominador-maioria-absoluta",
       "mechanism": "excluir-brancos-e-nulos-do-denominador",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "Constituição Federal, art. 77, § 2º.",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
@@ -38165,7 +38165,7 @@
       "conceptId": "qp-despreza-fracao",
       "mechanism": "calcular-qp-sem-arredondar",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "Código Eleitoral, art. 107.",
+      "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
@@ -38193,7 +38193,7 @@
       "conceptId": "voto-legenda-compoe-qe",
       "mechanism": "agregar-voto-nominal-e-legenda",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "Código Eleitoral, art. 106.",
+      "estimatedDifficulty": "facil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
@@ -38221,7 +38221,7 @@
       "conceptId": "minimo-individual-distribuicao-inicial",
       "mechanism": "testar-candidato-abaixo-de-dez-por-cento",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "Código Eleitoral, art. 108.",
+      "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
@@ -38249,7 +38249,7 @@
       "conceptId": "recalculo-medias-sobras",
       "mechanism": "atualizar-denominador-apos-cadeira",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "Código Eleitoral, art. 109; Resolução TSE 23.677/2021, art. 11.",
+      "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [

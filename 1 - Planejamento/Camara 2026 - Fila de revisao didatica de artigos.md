@@ -4,7 +4,7 @@ type: planejamento-editorial
 status: ativo
 concursoId: camara-2026
 created: 2026-11-12
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Fila de revisão didática: artigos da Câmara 2026
@@ -30,6 +30,8 @@ Selecionar por (1) termo técnico ou dispositivo citado sem tradução operacion
 | Alta | PL: `3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md` (art-6bc728a14d0e49f3) | Dois caminhos de delegação e duas decisões parlamentares condensados em tabela sem explicar o mecanismo; remissão com ícone e título incompleto | Revisado na branch `revisao/camara-lei-delegada-linguagem-simples-20261112`, PR a confirmar | Conferir checks, fontes, vínculos e integrar somente após CI verde |
 
 | Alta | DAD: `3 - Materias/Direito Administrativo/07 - improbidade administrativa.md` (`art-ea06e80ef83f4af7`) | Dolo, tipificação, erário e prescrição surgiam sem definição ou caso inicial; três tipos legais exigem critério de distinção e exemplo; primeira ocorrência de LIA/STF precisava expansão | Integrado na `main` pelo PR #58 (squash `b697bd1`); CI do head `3c93c8d` aprovado | Auditar verbetes e flashcards vinculados a dolo, tipificação e prescrição; revisar apenas lacunas comprovadas |
+
+| Alta | DAD: `3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md` (`art-bc65879a85f5b5d8`) | Efeito devolutivo versus suspensivo, termo inicial do prazo de julgamento e distinção entre recurso com possível agravamento (art. 64) e revisão sancionadora sem agravamento (art. 65); falta de vínculos específicos no glossário e cartões a conferir | Em revisão no PR #67, branch `didatica-camara-recursos-lei9784-20261113`, head `6ba580d4b0658475be05f0199eb265c83053a0ee` antes deste registro | Conferir lacunas/aliases do glossário e cartões, fontes oficiais, auditoria de headings/siglas e CI do novo HEAD antes de mesclar |
 
 ## Protocolo de atualização
 

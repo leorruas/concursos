@@ -37480,7 +37480,7 @@
       "reviewEvidence": "Revisão técnica incremental 13/11/2026, item 020: cotejo do enunciado, gabarito C e explicação com seção literal 'Primária × financeira: efeito no resultado primário' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
     },
     {
-      "id": "cam-orc-l027-021-emenda-loa-reserva-pessoal",
+      "id": "cam-orc-l027-021-emenda-correcao-erros-omissoes",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37489,8 +37489,8 @@
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
       "articleId": "art-715e2d16a93446cb",
-      "conceptId": "emenda-loa-fontes-vedadas",
-      "mechanism": "reconhecer-proibicao-de-anulacao",
+      "conceptId": "emenda-loa-correcao-erros-omissoes",
+      "mechanism": "distinguir-correcao-erros-omissoes-de-criacao-despesa",
       "questionType": "interpretacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
@@ -37502,10 +37502,10 @@
         "path": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
         "section": "Emendas aos projetos orçamentários: critérios"
       },
-      "statement": "Uma emenda ao projeto de LOA, compatível com PPA e LDO, pode indicar como fonte de recursos a anulação de dotação de pessoal e encargos sociais, pois a compatibilidade com as leis de planejamento afasta as restrições sobre anulações.",
-      "correctAnswer": "E",
-      "explanation": "O art. 166, § 3º, II, da Constituição exclui dotações para pessoal e encargos sociais, serviço da dívida e transferências tributárias constitucionais da anulação que financia emendas.",
-      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 021. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas aos projetos orçamentários: critérios'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
+      "statement": "Uma emenda ao projeto de lei orçamentária anual que se relacione com a correção de erro ou omissão pode ser admitida pelo fundamento específico do art. 166, § 3º, III, da Constituição, sem que esse inciso imponha, por si, a anulação de dotação como fonte de recursos.",
+      "correctAnswer": "C",
+      "explanation": "O art. 166, § 3º, III, da Constituição admite emendas ao projeto de LOA relacionadas com correção de erros ou omissões. A exigência de indicação de recursos provenientes de anulação de despesa está no inciso II, para a hipótese ali prevista; não deve ser aplicada indistintamente à hipótese autônoma do inciso III.",
+      "reviewEvidence": "Revisão editorial técnica por IA em 13/11/2026, lote 027, item 021: substituído mecanismo sobreposto ao piloto (restrições de anulação de dotações) por distinção entre hipóteses autônomas de emenda à LOA nos incisos II e III do art. 166 § 3º da CF/1988. Referência canônica: artigo 05 de Orçamento Público, heading literal 'Emendas aos projetos orçamentários: critérios'. Fonte primária: Constituição Federal, art. 166 § 3º II e III, https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm. Revisão semântica e normativa final de todo o lote e CI no SHA novo ainda necessários; não homologado."
     },
     {
       "id": "cam-orc-l027-022-emenda-ldo-ppa",

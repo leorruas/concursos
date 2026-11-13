@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "direito-administrativo",
+  "entries": [
+    {
+      "id": "glo-camara-dolo-improbidade",
+      "term": "Dolo na improbidade administrativa",
+      "aliases": [],
+      "definition": "É a vontade livre e consciente de alcançar o resultado ilícito previsto em uma conduta específica da Lei de Improbidade Administrativa (LIA). O agente precisa ter a intenção exigida pelo tipo legal, e não apenas realizar voluntariamente uma ação.",
+      "contrast": "Dolo é diferente de culpa, que envolve descuido, imprudência ou falta de técnica. A simples intenção de praticar o ato não prova a intenção de alcançar resultado ilícito.",
+      "cebraspeTrap": "Considerar que todo ato administrativo ilegal e voluntário configura improbidade, mesmo sem prova do dolo exigido pela lei.",
+      "example": "Uma servidora digita um código errado por distração. O erro pode exigir correção, mas não demonstra, por si só, intenção de alcançar resultado ilícito.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, arts. 1º, 9º a 11",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-tipificacao-improbidade",
+      "term": "Tipificação da improbidade administrativa",
+      "aliases": [],
+      "definition": "É a correspondência entre a conduta comprovada e uma hipótese de improbidade descrita nos arts. 9º, 10 ou 11 da Lei nº 8.429/1992. É necessário demonstrar também os requisitos específicos da hipótese legal.",
+      "contrast": "Ilegalidade é a violação de uma regra; tipificação exige identificar qual conduta legal de improbidade foi praticada e quais requisitos foram preenchidos.",
+      "cebraspeTrap": "Tratar o art. 11 como autorização genérica para punir por improbidade qualquer violação de princípios, sem indicar a conduta legal específica.",
+      "example": "Um gestor deixa de publicar um ato oficial. Para avaliar improbidade, é necessário examinar o inciso aplicável, as exceções legais e o dolo, em vez de concluir apenas pelo atraso.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, arts. 1º, 9º a 11",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-dano-erario-improbidade",
+      "term": "Dano efetivo ao erário na improbidade",
+      "aliases": [],
+      "definition": "No art. 10 da Lei de Improbidade Administrativa (LIA), é a perda patrimonial efetiva e comprovada causada por ação ou omissão dolosa enquadrada na lei. Erário é o conjunto de recursos e bens públicos protegidos.",
+      "contrast": "Uma falha de procedimento ou resultado econômico desfavorável não equivale, por si só, a perda patrimonial efetiva e comprovada com dolo e nexo com a conduta.",
+      "cebraspeTrap": "Presumir dano ao erário só porque a contratação pública foi irregular, sem demonstrar perda patrimonial e os demais requisitos do art. 10.",
+      "example": "Uma compra teve resultado ruim. É necessário provar perda patrimonial efetiva, sua relação com a conduta e o dolo exigido antes de afirmar improbidade do art. 10.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, arts. 1º, 9º a 11",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-prescricao-improbidade",
+      "term": "Prescrição na improbidade administrativa",
+      "aliases": [],
+      "definition": "É o limite temporal para buscar a aplicação de sanções por improbidade. O art. 23 da Lei nº 8.429/1992 prevê prazo geral de oito anos, sujeito aos marcos de contagem, suspensão e interrupção e às decisões do Supremo Tribunal Federal (STF).",
+      "contrast": "Prescrição sancionatória não se confunde com a análise de ressarcimento ao erário. O Tema 1199 do STF afasta a retroatividade do novo regime prescricional da reforma de 2021; decisões posteriores também alteraram a interpretação do reinício após interrupção.",
+      "cebraspeTrap": "Aplicar automaticamente a regra literal de reinício pela metade do art. 23, § 5º, sem considerar as ADIs 7.156 e 7.236, ou aplicar retroativamente o novo regime a fatos anteriores.",
+      "example": "Em processo com interrupção válida, não se deve presumir reinício pela metade: o STF afastou essa redução e fixou parâmetros adicionais, exigindo exame das datas e da transição legal.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, arts. 1º, 9º a 11",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        },
+        {
+          "label": "STF, Informativo 1225, ADIs 7.156 e 7.236",
+          "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

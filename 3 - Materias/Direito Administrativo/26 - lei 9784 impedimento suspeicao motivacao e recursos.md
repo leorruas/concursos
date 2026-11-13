@@ -141,7 +141,7 @@ flowchart TD
     
     REC --> PRAZ["Prazos Gerais Legais"]:::criterio
     PRAZ --> INTERP["Interposição: 10 DIAS (Art. 59)"]:::opcao
-    PRAZ --> JULGA["Decisão do Recurso: 30 DIAS + 30 DIAS (Art. 59, § 1º)"]:::opcao
+    PRAZ --> JULGA["Decisão do Recurso: 30 DIAS + 30 DIAS (Art. 59, §§ 2º e 3º)"]:::opcao
     
     REC --> EFET["Efeitos do Recurso (Art. 61)"]:::raiz
     EFET --> DEVOL["Regra Geral: Efeito apenas DEVOLUTIVO<br>(NÃO suspende a eficácia do ato impugnado)"]:::opcao
@@ -166,7 +166,7 @@ O **efeito suspensivo** é outra coisa: significa que a execução dos efeitos d
 - **Concessão cautelar de efeito suspensivo (art. 61, parágrafo único):** havendo justo receio de prejuízo de difícil ou incerta reparação decorrente da execução, a autoridade recorrida ou a imediatamente superior poderá, de ofício ou a pedido, dar efeito suspensivo ao recurso;
 - **Inexigibilidade de depósito prévio de bens ou valores:** ponto pacificado com força vinculante:
 
-> **Súmula Vinculante nº 21 do STF:**  
+> **Súmula Vinculante nº 21 do Supremo Tribunal Federal (STF):**  
 > *"É inconstitucional a exigência de depósito ou arrolamento prévios de dinheiro ou bens para admissibilidade de recurso administrativo."*
 
 ---

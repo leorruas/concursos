@@ -7,8 +7,8 @@ subjectId: "direito-administrativo"
 topicId: "processo-administrativo"
 trackId: "direito-administrativo"
 created: "2026-11-09"
-updated: "2026-11-12"
-revision: 4
+updated: "2026-11-13"
+revision: 5
 status: "published"
 confidenceLevel: "high"
 importanceLevel: "critical"
@@ -153,9 +153,14 @@ flowchart TD
 - **Prazo de interposição (art. 59):** salvo disposição legal específica, é de **10 (dez) dias** o prazo para a interposição de recurso administrativo, contado a partir da ciência ou divulgação oficial da decisão;
 - **Reconsideração prévia (art. 56, § 1º):** o recurso será dirigido à autoridade que proferiu a decisão. Se ela não a reconsiderar no prazo de **5 (cinco) dias**, o encaminhará à autoridade superior;
 - **Limite de instâncias recursais (art. 57):** o recurso tramitará no máximo por **3 (três) instâncias administrativas**, salvo disposição legal diversa;
-- **Prazo para julgamento (art. 59, § 1º):** a autoridade competente tem o prazo de **até 30 (trinta) dias** para decidir o recurso, prorrogável motivadamente por igual período.
+- **Prazo para julgamento (art. 59, §§ 1º e 2º):** quando não houver prazo diferente em lei, o órgão competente tem **até 30 (trinta) dias**, contados do recebimento dos autos, para decidir. Pode prorrogar por mais 30 dias, mas precisa justificar expressamente a prorrogação.
 
 ### 3.2 Efeitos do recurso e a garantia da ampla defesa
+
+Imagine que um órgão federal aplique uma multa de R$ 1.000 e a pessoa apresente recurso. Há duas perguntas diferentes: **quem vai reexaminar a decisão?** e **a multa deixa de produzir efeitos enquanto o recurso é analisado?** O recurso provoca uma nova análise administrativa, mas essa análise, por si só, não interrompe os efeitos da decisão. A expressão técnica **efeito devolutivo** indica que a matéria é submetida a reexame pela autoridade competente; não significa devolver dinheiro ou cancelar automaticamente a multa.
+
+O **efeito suspensivo** é outra coisa: significa que a execução dos efeitos da decisão fica suspensa enquanto esse efeito estiver em vigor. Pela regra do art. 61, apresentar recurso não produz essa suspensão automaticamente. Se houver risco concreto de prejuízo de difícil ou incerta reparação, a autoridade que decidiu ou a imediatamente superior pode concedê-la, a pedido ou por iniciativa própria. Por exemplo, o interessado pode explicar e demonstrar por que a execução imediata causaria um prejuízo difícil de reparar. **A mera discordância com a multa não obriga a autoridade a suspender seus efeitos.** A análise depende do risco previsto na lei.
+
 
 - **Regra geral: efeito meramente devolutivo (art. 61):** salvo disposição legal em contrário, o recurso **não tem efeito suspensivo**. A decisão administrativa impugnada continua produzindo plenos efeitos executórios;
 - **Concessão cautelar de efeito suspensivo (art. 61, parágrafo único):** havendo justo receio de prejuízo de difícil ou incerta reparação decorrente da execução, a autoridade recorrida ou a imediatamente superior poderá, de ofício ou a pedido, dar efeito suspensivo ao recurso;
@@ -167,6 +172,11 @@ flowchart TD
 ---
 
 ## 4. Confronto crucial: *reformatio in pejus* no recurso versus vedação na revisão
+
+A expressão latina ***reformatio in pejus*** significa **mudança da decisão para piorar a situação de quem recorreu**. Imagine uma multa de R$ 1.000: a pessoa pede sua redução, mas a autoridade que julga o recurso identifica fundamento para aumentá-la. O art. 64 permite que o órgão competente modifique a decisão, inclusive com possível agravamento, **desde que a pessoa seja informada desse risco e possa apresentar alegações antes da decisão**. Ser informada não significa que o aumento já foi decidido. A autoridade precisa examinar a manifestação e fundamentar o resultado.
+
+Compare com outro momento: a sanção já foi aplicada e surgem fatos novos ou circunstâncias relevantes que podem demonstrar sua inadequação. O art. 65 admite **revisão do processo sancionador** a qualquer tempo, por pedido ou iniciativa da Administração. Nesse procedimento específico, a lei proíbe agravar a sanção. Portanto, o critério para distinguir as duas situações é **qual procedimento está em curso** e **qual fato permite reabrir a análise**, não simplesmente o nome dado ao pedido.
+
 
 Considere uma multa que a pessoa contesta logo após receber a decisão. Isso é **recurso**. Agora imagine que, depois de encerrado o processo sancionador, surja um documento novo que mostre que a multa foi inadequada. O art. 65 permite **revisão**, a pedido ou por iniciativa da Administração, a qualquer tempo, se houver fatos novos ou circunstâncias relevantes. A consequência mais importante é diferente:
 

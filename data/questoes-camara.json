@@ -38265,7 +38265,7 @@
       "reviewEvidence": "Revisão editorial substitutiva por IA, lote 028, 13/11/2026: cam-cpol-l028-008-suplencia-minimo-nominal; gabarito C; mecanismo distinguir-criterio-eleicao-e-suplencia. Conferidos enunciado e explicação com artigo canônico 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md, heading literal 'Quem ocupa as vagas e quem fica como suplente'. Fundamento: Código Eleitoral, arts. 108 e 112, parágrafo único; Resolução TSE 23.677/2021, art. 14. Conferir redação vigente antes da homologação. Substitui item de operação redundante identificado no cotejo com exercícios do artigo. Ainda pendentes confronto semântico integral com expansão e piloto, consulta independente às fontes primárias e gates no SHA final; revisão técnica por IA, não avaliação humana."
     },
     {
-      "id": "cam-cpol-l028-009-voto-estrategico",
+      "id": "cam-cpol-l028-009-duverger-efeito-psicologico",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38274,23 +38274,23 @@
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
       "articleId": "art-b3e8d1c74f209a65",
-      "conceptId": "voto-estrategico-dependente-expectativa",
-      "mechanism": "inferir-coordenacao-por-expectativa",
+      "conceptId": "duverger-efeito-psicologico",
+      "mechanism": "antecipacao-de-inviabilidade-e-retirada-estrategica",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-b3e8d1c74f209a65#Efeitos: expectativas, não equivalências lógicas"
+        "article:art-b3e8d1c74f209a65#Autores, mecanismos e limites das hipóteses"
       ],
       "source": {
         "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
-        "section": "Efeitos: expectativas, não equivalências lógicas"
+        "section": "Autores, mecanismos e limites das hipóteses"
       },
-      "statement": "Em um distrito uninominal, uma eleitora prefere C, mas considera que apenas A e B têm chance de vitória e vota em B para impedir A. A conduta exemplifica voto estratégico, mesmo sem alteração das regras formais da eleição.",
+      "statement": "Uma legenda decide não lançar candidatura em um distrito uninominal porque antecipa que sua votação será insuficiente para vencer e prefere apoiar outra candidatura competitiva. Essa decisão pode exemplificar o efeito psicológico associado a Duverger, mesmo antes de qualquer voto ser contado.",
       "correctAnswer": "C",
-      "explanation": "A eleitora deixa sua primeira preferência e considera a viabilidade percebida das candidaturas. A coordenação depende das expectativas, e não de uma proibição legal de votar em C.",
-      "reviewEvidence": "Lote 028, autoria e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-009-voto-estrategico; gabarito C; mecanismo inferir-coordenacao-por-expectativa; conferido com 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md, heading literal 'Efeitos: expectativas, não equivalências lógicas'. Fonte indicada para cotejo independente: Duverger e Cox, mecanismos de coordenação eleitoral. Ainda pendentes cotejo integral de novidade com expansão/piloto e fontes primárias, CI do SHA final e revisão editorial conclusiva. Não homologado por humano."
+      "explanation": "O efeito psicológico envolve antecipação dos efeitos da regra eleitoral e coordenação estratégica de partidos, candidatos ou eleitores. A decisão de não concorrer decorre da expectativa sobre a disputa, enquanto o efeito mecânico aparece na conversão efetiva de votos em cadeiras.",
+      "reviewEvidence": "Lote 028, substituição editorial por IA em 13/11/2026: cam-cpol-l028-009-duverger-efeito-psicologico; gabarito C; mecanismo antecipacao-de-inviabilidade-e-retirada-estrategica. Cotejado com 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md, heading literal 'Autores, mecanismos e limites das hipóteses'. Base teórica indicada: Duverger, efeitos mecânicos e psicológicos; Cox, coordenação estratégica. Substitui mecanismo que repetia exemplo ou exercício do artigo. Pendente cotejo integral com expansão e piloto, verificação independente das fontes primárias e validação final; não homologado por humano."
     },
     {
       "id": "cam-cpol-l028-010-voto-alternativo-transferencia",
@@ -38349,7 +38349,7 @@
       "reviewEvidence": "Lote 028, revisão técnica por IA em 13/11/2026: separar regra constitucional de igualdade territorial (CF, art. 46, § 1º) da fórmula de seleção. Heading canônico 'Efeitos: expectativas, não equivalências lógicas' no artigo 23. Substitui item redundante sobre suplentes do Senado. Pendente comparação semântica integral, fonte primária e gates no SHA final; gerada, não homologada."
     },
     {
-      "id": "cam-cpol-l028-012-coordenacao-segundo-turno",
+      "id": "cam-cpol-l028-012-lijphart-instituicoes",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38358,23 +38358,23 @@
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
       "articleId": "art-b3e8d1c74f209a65",
-      "conceptId": "segundo-turno-aliancas-sem-transferencia-obrigatoria",
-      "mechanism": "inferir-limite-transferencia-apoio-politico",
+      "conceptId": "lijphart-instituicoes",
+      "mechanism": "distinguir-modelo-democracia-e-regra-eleitoral",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-b3e8d1c74f209a65#Efeitos: expectativas, não equivalências lógicas"
+        "article:art-b3e8d1c74f209a65#Autores, mecanismos e limites das hipóteses"
       ],
       "source": {
         "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
-        "section": "Efeitos: expectativas, não equivalências lógicas"
+        "section": "Autores, mecanismos e limites das hipóteses"
       },
-      "statement": "O apoio formal de uma candidatura eliminada a um dos finalistas do segundo turno garante a transferência integral de seus votos da primeira etapa, desde que o acordo seja anunciado publicamente.",
-      "correctAnswer": "E",
-      "explanation": "Apoio político pode alterar incentivos e alianças, mas cada eleitor decide novamente se comparece e em quem vota. Não existe transferência automática de votos entre turnos.",
-      "reviewEvidence": "Lote 028, revisão técnica por IA em 13/11/2026: distinguir acordo de elites e comportamento eleitoral no segundo turno, conforme artigo 23 heading 'Efeitos: expectativas, não equivalências lógicas'. Substitui repetição do exercício sobre soma dos turnos. Pendente cotejo semântico integral, fonte independente e CI final; gerada."
+      "statement": "Uma democracia pode utilizar eleição proporcional para seu Parlamento e ainda apresentar outras instituições que concentram poder. Por isso, classificar o regime como consensual, na tipologia de Lijphart, exige examinar mais dimensões institucionais do que apenas a fórmula eleitoral.",
+      "correctAnswer": "C",
+      "explanation": "A tipologia de Lijphart considera conjuntos de instituições e padrões de concentração ou compartilhamento de poder. A proporcionalidade eleitoral é uma dimensão relevante, mas isoladamente não determina toda a classificação do regime.",
+      "reviewEvidence": "Lote 028, substituição editorial por IA em 13/11/2026: cam-cpol-l028-012-lijphart-instituicoes; gabarito C; mecanismo distinguir-modelo-democracia-e-regra-eleitoral. Cotejado com 3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md, heading literal 'Autores, mecanismos e limites das hipóteses'. Base teórica indicada: Lijphart, Patterns of Democracy, distinção entre dimensões institucionais e fórmula eleitoral. Substitui mecanismo que repetia exemplo ou exercício do artigo. Pendente cotejo integral com expansão e piloto, verificação independente das fontes primárias e validação final; não homologado por humano."
     },
     {
       "id": "cam-cpol-l028-013-qe-fracao-limite",
@@ -38405,7 +38405,7 @@
       "reviewEvidence": "Lote 028, autoria e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-013-qe-fracao-limite; gabarito E; mecanismo calcular-limiar-arredondamento-qe; conferido com 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md, heading literal '1. Quociente eleitoral (QE)'. Fonte indicada para cotejo independente: Código Eleitoral, art. 106. Ainda pendentes cotejo integral de novidade com expansão/piloto e fontes primárias, CI do SHA final e revisão editorial conclusiva. Não homologado por humano."
     },
     {
-      "id": "cam-cpol-l028-014-voto-nominal-duplo-efeito",
+      "id": "cam-cpol-l028-014-lista-flexivel",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38414,23 +38414,23 @@
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
       "articleId": "art-2e96b7d14a53c80f",
-      "conceptId": "voto-nominal-efeitos-distintos",
-      "mechanism": "separar-agregacao-e-ordenacao",
+      "conceptId": "lista-flexivel",
+      "mechanism": "distinguir-lista-flexivel-de-aberta-e-fechada",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-2e96b7d14a53c80f#Núcleo do conceito"
+        "article:art-2e96b7d14a53c80f#Quem ocupa as vagas e quem fica como suplente"
       ],
       "source": {
         "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
-        "section": "Núcleo do conceito"
+        "section": "Quem ocupa as vagas e quem fica como suplente"
       },
-      "statement": "No sistema proporcional brasileiro de lista aberta, um voto nominal válido contribui para a votação agregada do partido ou federação e também para a posição do candidato na lista interna desse grupo.",
+      "statement": "Em sistemas proporcionais de lista flexível, a ordem inicialmente definida pelo partido pode ser alterada por preferências expressas pelos eleitores, conforme regras específicas; isso os distingue tanto de listas inteiramente fechadas quanto do modelo brasileiro de lista aberta.",
       "correctAnswer": "C",
-      "explanation": "O voto nominal participa do total usado para distribuição de cadeiras ao grupo e da ordenação de candidaturas por votação pessoal.",
-      "reviewEvidence": "Lote 028, autoria e revisão técnica preliminar por IA em 13/11/2026: cam-cpol-l028-014-voto-nominal-duplo-efeito; gabarito C; mecanismo separar-agregacao-e-ordenacao; conferido com 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md, heading literal 'Núcleo do conceito'. Fonte indicada para cotejo independente: Código Eleitoral, arts. 106 a 108. Ainda pendentes cotejo integral de novidade com expansão/piloto e fontes primárias, CI do SHA final e revisão editorial conclusiva. Não homologado por humano."
+      "explanation": "A lista flexível combina uma ordem partidária inicial com possibilidade condicionada de influência do eleitor. Na lista fechada, prevalece a ordem predefinida; na lista aberta brasileira, a votação nominal ordena candidaturas dentro do grupo.",
+      "reviewEvidence": "Lote 028, substituição editorial por IA em 13/11/2026: cam-cpol-l028-014-lista-flexivel; gabarito C; mecanismo distinguir-lista-flexivel-de-aberta-e-fechada. Cotejado com 3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md, heading literal 'Quem ocupa as vagas e quem fica como suplente'. Base teórica indicada: Comparação teórica de sistemas proporcionais de listas; artigo canônico 24. Substitui mecanismo que repetia exemplo ou exercício do artigo. Pendente cotejo integral com expansão e piloto, verificação independente das fontes primárias e validação final; não homologado por humano."
     },
     {
       "id": "cam-cpol-l028-015-nenhum-partido-qe",

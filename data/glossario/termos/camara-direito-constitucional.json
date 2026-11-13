@@ -733,6 +733,81 @@
       "status": "reviewed"
     },
     {
+      "id": "glo-camara-maioria-qualificada",
+      "term": "Maioria qualificada",
+      "aliases": [],
+      "definition": "Quórum de aprovação mais exigente do que a maioria simples, expresso em fração prevista na norma, como três quintos ou dois terços dos membros.",
+      "contrast": "A fração e sua base dependem da decisão: PEC usa três quintos de cada Casa em dois turnos; outro procedimento pode exigir dois terços.",
+      "cebraspeTrap": "Achar que maioria qualificada é sempre dois terços ou que se calcula apenas sobre os presentes.",
+      "example": "PEC: 308 votos favoráveis por turno na Câmara e 49 por turno no Senado.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 60, § 2º",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-quorum-tres-quintos",
+      "term": "Três quintos (3/5) dos membros",
+      "aliases": [],
+      "definition": "Quórum qualificado que corresponde a 60% do total de integrantes, arredondado para o inteiro seguinte quando necessário. Câmara: 308 de 513; Senado: 49 de 81.",
+      "contrast": "Para PEC, o art. 60, § 2º, exige esse quórum em dois turnos em cada Casa.",
+      "cebraspeTrap": "Confundir três quintos com maioria absoluta ou com dois terços.",
+      "example": "Uma PEC com 48 votos no Senado não atinge os 49 necessários.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 60, § 2º",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-quorum-dois-tercos",
+      "term": "Dois terços (2/3) dos membros",
+      "aliases": [],
+      "definition": "Quórum qualificado que, quando calculado sobre todos os integrantes da Casa, equivale a 342 de 513 deputados ou 54 de 81 senadores.",
+      "contrast": "É diferente dos três quintos exigidos para emendas constitucionais; a fração aplicável depende do dispositivo.",
+      "cebraspeTrap": "Aplicar dois terços à aprovação de qualquer PEC ou calcular dois terços somente dos presentes.",
+      "example": "O art. 51, I, exige autorização de dois terços dos membros da Câmara na hipótese que descreve.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 51, I",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "glo-camara-incapacidade-civil-absoluta",
       "term": "Incapacidade civil absoluta",
       "aliases": [

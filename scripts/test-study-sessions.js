@@ -4,7 +4,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { validateSession, mergeSessions, stats, managedBlock, prepare } from './study-sessions.js';
+import { validateSession, mergeSessions, stats, managedBlock, prepare, retentionMetrics } from './study-sessions.js';
 import { aplicarChangeSet } from './changeset-transaction.js';
 const root = fs.mkdtempSync(path.join(os.tmpdir(), 'study-sessions-'));
 try {
@@ -56,6 +56,22 @@ try {
   assert.throws(()=>managedBlock(first.replace('<!-- estudo-sessoes:fim -->',''),'X'));
   const totals = stats([{result:'correct'},{result:'incorrect'},{result:'blank'},{result:'annulled'}]);
   assert.deepEqual([totals.answered,totals.valid,totals.accuracy],[2,3,0.5]);
+  // Retenção depende de recuperação documentada após pelo menos 3 dias;
+  // acertos inseguros e erros pertencem ao denominador, não ao numerador.
+  const retestCases = [
+    {id:'orig',concursoId:'cgu-2026',conceptId:'c1',date:'2026-11-01',result:'incorrect'},
+    {id:'spaced-ok',concursoId:'cgu-2026',conceptId:'c1',date:'2026-11-05',result:'correct',confidence:'secure',retrievalOf:['orig'],repetition:{classification:'thematic'}},
+    {id:'spaced-insecure',concursoId:'cgu-2026',conceptId:'c1',date:'2026-11-08',result:'correct',confidence:'insecure',retrievalOf:['orig'],repetition:{classification:'thematic'}},
+    {id:'spaced-error',concursoId:'cgu-2026',conceptId:'c1',date:'2026-11-10',result:'incorrect',confidence:'secure',retrievalOf:['orig'],repetition:{classification:'thematic'}},
+    {id:'immediate',concursoId:'cgu-2026',conceptId:'c1',date:'2026-11-02',result:'correct',confidence:'secure',retrievalOf:['orig'],repetition:{classification:'thematic'}},
+    {id:'copy',concursoId:'cgu-2026',conceptId:'c1',date:'2026-11-11',result:'correct',confidence:'secure',retrievalOf:['orig'],repetition:{classification:'exact'}},
+    {id:'unlinked',concursoId:'cgu-2026',conceptId:'c1',date:'2026-11-11',result:'correct',confidence:'secure',repetition:{classification:'new'}},
+    {id:'foreign',concursoId:'camara-2026',conceptId:'c1',date:'2026-11-11',result:'correct',confidence:'secure',retrievalOf:['orig'],repetition:{classification:'thematic'}}
+  ];
+  assert.deepEqual([retentionMetrics(retestCases,'2026-11-13').attempts,retentionMetrics(retestCases,'2026-11-13').successful],[3,1]);
+  assert.deepEqual([retentionMetrics(retestCases,'2026-11-13',7).attempts,retentionMetrics(retestCases,'2026-11-13',7).successful],[2,0]);
+  assert.equal(retentionMetrics(retestCases,'2026-11-13',30).rate,1/3);
+  assert.equal(retentionMetrics(retestCases,'2026-11-13',2).rate,null);
   assert.throws(()=>mergeSessions({...ledger,simulations:[{id:s.id}]},[s]),/legado/);
   for (const mutate of [x=>x.banca='FGV',x=>x.questions[0].userAnswer='A',x=>x.questions[0].theoryRefs=['3 - Materias/Auditoria Governamental/nota#Ausente'],x=>x.questions.push(x.questions[0]),x=>x.date='2026-02-30',x=>x.kind='simulado',x=>x.trainingMode='para_valer']) {
     const bad=structuredClone(s); mutate(bad); assert.throws(()=>validateSession(bad,bad.id+'.json',root,contests));

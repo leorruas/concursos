@@ -81,10 +81,10 @@
       "id": "glo-camara-prescricao-improbidade",
       "term": "Prescrição na improbidade administrativa",
       "aliases": [],
-      "definition": "É o limite temporal para buscar a aplicação de sanções por improbidade. O art. 23 da Lei nº 8.429/1992 prevê prazo geral de oito anos, sujeito aos marcos de contagem, suspensão e interrupção e às decisões do Supremo Tribunal Federal (STF).",
-      "contrast": "Prescrição sancionatória não se confunde com a análise de ressarcimento ao erário. O Tema 1199 do STF afasta a retroatividade do novo regime prescricional da reforma de 2021; decisões posteriores também alteraram a interpretação do reinício após interrupção.",
-      "cebraspeTrap": "Aplicar automaticamente a regra literal de reinício pela metade do art. 23, § 5º, sem considerar as ADIs 7.156 e 7.236, ou aplicar retroativamente o novo regime a fatos anteriores.",
-      "example": "Em processo com interrupção válida, não se deve presumir reinício pela metade: o STF afastou essa redução e fixou parâmetros adicionais, exigindo exame das datas e da transição legal.",
+      "definition": "É o prazo para propor a ação que busca aplicar sanções por improbidade. Como regra, são oito anos contados do fato ou do fim da infração permanente (art. 23 da Lei nº 8.429/1992), com causas legais de suspensão e interrupção.",
+      "contrast": "A prescrição das sanções difere da discussão sobre ressarcimento ao erário. Pelo Tema 1199 do STF, os novos marcos prescricionais não retroagem; nas ADIs 7.156 e 7.236, o STF afastou o reinício pela metade.",
+      "cebraspeTrap": "Aplicar literalmente os quatro anos do art. 23, § 5º, após interrupção: o STF afastou a redução, preservando o reinício por oito anos e fixando limite global de 20 anos para a pretensão sancionatória.",
+      "example": "Se ocorrer uma causa de interrupção válida durante uma ação submetida ao novo regime, o prazo recomeça por inteiro, observando o limite global de 20 anos. É preciso verificar a data dos fatos e os marcos de cada caso.",
       "articleIds": [
         "art-ea06e80ef83f4af7"
       ],
@@ -96,7 +96,7 @@
       ],
       "sources": [
         {
-          "label": "Lei nº 8.429/1992, arts. 1º, 9º a 11",
+          "label": "Lei nº 8.429/1992, art. 23 (prescrição), e arts. 1º, 9º a 11 (tipificação)",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
         },
         {

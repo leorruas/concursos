@@ -36935,7 +36935,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f6cfe9fbcc764554#O que significa programação física cumprida"
       ],
@@ -36946,7 +36946,7 @@
       "statement": "Uma ação orçamentária previa concluir cinco escolas no exercício. Ao final do ano, foram entregues apenas três, embora todo o valor financeiro previsto tenha sido pago. A execução financeira integral, nesse caso, não comprova o cumprimento integral da meta física.",
       "correctAnswer": "C",
       "explanation": "Certo. A meta física mede o produto entregue no período: foram concluídas três das cinco escolas previstas, ou 60% da meta medida em unidades. O montante pago ou empenhado não substitui a medida de entrega física.",
-      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026: item 001 reformulado para avaliação de meta física versus execução financeira, evitando repetição do piloto 291, cujo mecanismo era dotação versus pagamento. Artigo 'Orçamento público e ciclo orçamentário', seção literal 'O que significa programação física cumprida' e exemplo progressivo de cinco escolas conferidos. A meta 3/5=60% confere. A questão não presume que as despesas foram pagas regularmente, apenas separa pagamento de entrega de meta. Revisão automática, sem homologação humana; integração ainda sujeita a testes e cotejo final. Ajuste de integridade 13/11/2026: corrigida theoryRefs para o articleId real art-f6cfe9fbcc764554 do artigo 01; frontmatter e heading verificados na main."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-001-meta-fisica-vs-execucao-financeira, gabarito C, mecanismo distinguir-meta-fisica-valor-executado. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md, articleId art-f6cfe9fbcc764554, heading literal 'O que significa programação física cumprida' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 (orçamento e execução). Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica/editorial por IA em 13/11/2026: item 001 reformulado para avaliação de meta física versus execução financeira, evitando repetição do piloto 291, cujo mecanismo era dotação versus pagamento. Artigo 'Orçamento público e ciclo orçamentário', seção literal 'O que significa programação física cumprida' e exemplo progressivo de cinco escolas conferidos. A meta 3/5=60% confere. A questão não presume que as despesas foram pagas regularmente, apenas separa pagamento de entrega de meta. Revisão automática, sem homologação humana; integração ainda sujeita a testes e cotejo final. Ajuste de integridade 13/11/2026: corrigida theoryRefs para o articleId real art-f6cfe9fbcc764554 do artigo 01; frontmatter e heading verificados na main."
     },
     {
       "id": "cam-orc-l027-002-etapas-concorrentes-do-ciclo",
@@ -36963,7 +36963,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "integração",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f6cfe9fbcc764554#Estrutura do ciclo orçamentário"
       ],
@@ -36974,7 +36974,7 @@
       "statement": "Enquanto a União executa o orçamento do exercício corrente, o Congresso pode discutir a proposta do exercício seguinte e órgãos de controle podem examinar contas de exercício anterior, sem contrariar a ideia de ciclo orçamentário.",
       "correctAnswer": "C",
       "explanation": "As fases do ciclo são uma classificação analítica e podem ocorrer ao mesmo tempo para exercícios distintos. A execução de um ano não impede elaboração ou controle de outros.",
-      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-f6cfe9fbcc764554 / Estrutura do ciclo orçamentário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-002-etapas-concorrentes-do-ciclo, gabarito C, mecanismo distinguir-fases-de-calendario-unico. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md, articleId art-f6cfe9fbcc764554, heading literal 'Estrutura do ciclo orçamentário' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 (orçamento e execução). Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção inicial 12/11/2026: conferência preliminar de art-f6cfe9fbcc764554 / Estrutura do ciclo orçamentário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     },
     {
       "id": "cam-orc-l027-003-ldo-sem-dotacao-nao-autoriza-gasto",
@@ -36991,7 +36991,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c301f2c741504403#Três leis, três perguntas e uma mesma política"
       ],
@@ -37002,7 +37002,7 @@
       "statement": "Uma ação consta como prioridade na LDO, mas não recebeu dotação na LOA. Por isso, a indicação na LDO basta para autorizar imediatamente o pagamento da ação nesse exercício.",
       "correctAnswer": "E",
       "explanation": "A LDO orienta a elaboração da LOA, mas não substitui a autorização orçamentária e os atos da execução financeira. A prioridade sem dotação não autoriza pagamento imediato.",
-      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-c301f2c741504403 / Três leis, três perguntas e uma mesma política e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-003-ldo-sem-dotacao-nao-autoriza-gasto, gabarito E, mecanismo confundir-prioridade-com-despesa-autorizada. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md, articleId art-c301f2c741504403, heading literal 'Três leis, três perguntas e uma mesma política' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal art. 165; Lei nº 4.320/1964 (planejamento e exercício). Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção inicial 12/11/2026: conferência preliminar de art-c301f2c741504403 / Três leis, três perguntas e uma mesma política e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     },
     {
       "id": "cam-orc-l027-004-ppa-regionalizado-capital-continuados",
@@ -37019,7 +37019,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "compreensão",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c301f2c741504403#PPA: Plano Plurianual"
       ],
@@ -37030,7 +37030,7 @@
       "statement": "Ao preparar o PPA, o Executivo prevê metas regionalizadas tanto para investimentos em unidades de atendimento quanto para programas de duração continuada. A estrutura é compatível com o art. 165, § 1º, da Constituição.",
       "correctAnswer": "C",
       "explanation": "O PPA estabelece regionalizadamente diretrizes, objetivos e metas para despesas de capital e decorrentes, além das relativas a programas continuados.",
-      "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-c301f2c741504403 / PPA: Plano Plurianual e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-004-ppa-regionalizado-capital-continuados, gabarito C, mecanismo combinar-despesa-capital-e-programas-continuados. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md, articleId art-c301f2c741504403, heading literal 'PPA: Plano Plurianual' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal art. 165; Lei nº 4.320/1964 (planejamento e exercício). Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção inicial 12/11/2026: conferência preliminar de art-c301f2c741504403 / PPA: Plano Plurianual e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     },
     {
       "id": "cam-orc-l027-005-nao-afetacao-taxa-servico",
@@ -37047,7 +37047,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a2f47c0d6e184e93#Não afetação de impostos e as exceções"
       ],
@@ -37058,7 +37058,7 @@
       "statement": "Um município destina por lei a arrecadação de uma taxa vinculada a serviço público específico ao custeio desse serviço. Essa destinação é necessariamente proibida pela regra de não afetação de impostos do art. 167, IV, da Constituição, pois a vedação alcança todas as espécies tributárias.",
       "correctAnswer": "E",
       "explanation": "Errado. O art. 167, IV, da Constituição proíbe, em regra, a vinculação de receita de IMPOSTOS; a regra não se estende automaticamente a taxas. A Constituição distingue impostos e taxas no art. 145, I e II. A destinação de taxas deve atender ao próprio regime jurídico e à lei aplicável; a afirmação erra ao dizer que a vedação do inciso IV alcança toda espécie tributária.",
-      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026, lote 027: substituído o mecanismo redundante de exceção da LOA (semelhante ao piloto índice 90) por alcance objetivo da proibição de vinculação: receitas de impostos versus taxas. Fontes primárias conferidas: CF/1988, arts. 145 I-II e 167 IV, texto compilado em https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; artigo canônico art-a2f47c0d6e184e93, seção literal 'Não afetação de impostos e as exceções', verificada na main. Gabarito E e explicação checados. Revisão automatizada, sem homologação humana. Triagem global do lote e gate CI no SHA final ainda pendentes; status gerada."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-005-nao-afetacao-taxa-servico, gabarito E, mecanismo delimitar-impostos-e-taxas-art167iv. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md, articleId art-a2f47c0d6e184e93, heading literal 'Não afetação de impostos e as exceções' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 arts. 2º, 5º, 6º, 20 e 34, conforme o caso. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica/editorial por IA em 13/11/2026, lote 027: substituído o mecanismo redundante de exceção da LOA (semelhante ao piloto índice 90) por alcance objetivo da proibição de vinculação: receitas de impostos versus taxas. Fontes primárias conferidas: CF/1988, arts. 145 I-II e 167 IV, texto compilado em https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; artigo canônico art-a2f47c0d6e184e93, seção literal 'Não afetação de impostos e as exceções', verificada na main. Gabarito E e explicação checados. Revisão automatizada, sem homologação humana. Triagem global do lote e gate CI no SHA final ainda pendentes; status gerada."
     },
     {
       "id": "cam-orc-l027-006-vedacao-creditos-ilimitados",
@@ -37075,7 +37075,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a2f47c0d6e184e93#Outras vedações do art. 167"
       ],
@@ -37086,7 +37086,7 @@
       "statement": "A Constituição permite a concessão de créditos adicionais sem limite máximo de valor quando se tratar de crédito especial para despesa relevante, pois a vedação de créditos ilimitados do art. 167, VII, alcança apenas os créditos suplementares.",
       "correctAnswer": "E",
       "explanation": "Errado. O art. 167, VII, da Constituição veda a concessão ou utilização de créditos ilimitados, sem restringir a proibição aos suplementares. A relevância da despesa ou a classificação como crédito especial não afasta a necessidade de limites orçamentários.",
-      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026: item 006 substituído por vedação constitucional de créditos ilimitados, mecanismo diferente do piloto 285 (suplementar versus especial por insuficiência). Fonte primária CF art. 167 VII, texto compilado https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; heading literal 'Outras vedações do art. 167' do artigo canônico art-a2f47c0d6e184e93 conferido. Gabarito E e explicação revisados. Status gerada até gate semântico/CI global; revisão por IA, não homologação humana."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-006-vedacao-creditos-ilimitados, gabarito E, mecanismo reconhecer-vedacao-constitucional-credito-ilimitado. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md, articleId art-a2f47c0d6e184e93, heading literal 'Outras vedações do art. 167' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 arts. 2º, 5º, 6º, 20 e 34, conforme o caso. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica/editorial por IA em 13/11/2026: item 006 substituído por vedação constitucional de créditos ilimitados, mecanismo diferente do piloto 285 (suplementar versus especial por insuficiência). Fonte primária CF art. 167 VII, texto compilado https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; heading literal 'Outras vedações do art. 167' do artigo canônico art-a2f47c0d6e184e93 conferido. Gabarito E e explicação revisados. Status gerada até gate semântico/CI global; revisão por IA, não homologação humana."
     },
     {
       "id": "cam-orc-l027-007-exposicao-justificativa-credito",
@@ -37103,7 +37103,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
       ],
@@ -37114,7 +37114,7 @@
       "statement": "Para abrir crédito suplementar, a administração demonstra a existência de recursos disponíveis e não comprometidos. Nesse caso, a exposição justificativa prevista no art. 43 da Lei nº 4.320/1964 torna-se dispensável, porque a indicação da fonte de recursos é suficiente.",
       "correctAnswer": "E",
       "explanation": "Errado. O caput do art. 43 da Lei nº 4.320/1964 exige tanto a existência de recursos disponíveis quanto uma exposição justificativa para a abertura de créditos suplementares e especiais. Demonstrar a fonte não substitui o dever de justificar a abertura; são exigências distintas.",
-      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026, lote 027: substituído o mecanismo redundante sobre excesso de arrecadação não comprometido (semelhante ao piloto índice 289) pela exigência cumulativa de exposição justificativa e recursos disponíveis. Fonte primária conferida: Lei nº 4.320/1964, art. 43 caput e §1º, texto atualizado da Câmara https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html; artigo canônico art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais', verificada na main. Gabarito E conferido. Revisão automatizada, sem homologação humana. Triagem global do lote e gate CI no SHA final ainda pendentes; status gerada."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-007-exposicao-justificativa-credito, gabarito E, mecanismo distinguir-disponibilidade-de-justificativa-art43. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Recursos disponíveis para suplementares e especiais' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica/editorial por IA em 13/11/2026, lote 027: substituído o mecanismo redundante sobre excesso de arrecadação não comprometido (semelhante ao piloto índice 289) pela exigência cumulativa de exposição justificativa e recursos disponíveis. Fonte primária conferida: Lei nº 4.320/1964, art. 43 caput e §1º, texto atualizado da Câmara https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html; artigo canônico art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais', verificada na main. Gabarito E conferido. Revisão automatizada, sem homologação humana. Triagem global do lote e gate CI no SHA final ainda pendentes; status gerada."
     },
     {
       "id": "cam-orc-l027-008-autarquia-sem-ldo-propria",
@@ -37131,7 +37131,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-c301f2c741504403#Abrangência federativa da LDO e situação das autarquias"
       ],
@@ -37142,7 +37142,7 @@
       "statement": "Uma autarquia federal, por ter personalidade jurídica própria e orçamento próprio, pode apresentar ao Congresso Nacional projeto de lei de diretrizes orçamentárias independente do projeto de LDO encaminhado pelo Poder Executivo da União.",
       "correctAnswer": "E",
       "explanation": "Errado. A autonomia administrativa de uma autarquia não lhe confere iniciativa legislativa de uma LDO própria. A autarquia participa tecnicamente da elaboração da proposta, dentro do sistema do ente federativo, enquanto o Poder Executivo tem a iniciativa da LDO da União, nos termos do art. 165 da Constituição.",
-      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026: item 008 substituído por distinção entre autonomia autárquica, participação técnica no planejamento e iniciativa legislativa da LDO, evitando repetição do piloto 287 sobre urgência de crédito extraordinário. Fonte primária CF art. 165 caput e II, https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; referência didática art-c301f2c741504403, seção literal 'Abrangência federativa da LDO e situação das autarquias', conferida no artigo. Gabarito E, explicação e metadados revistos. Status gerada até gate CI/semelhança; validação por IA, não humana."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-008-autarquia-sem-ldo-propria, gabarito E, mecanismo distinguir-contribuicao-tecnica-de-iniciativa-ldo. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md, articleId art-c301f2c741504403, heading literal 'Abrangência federativa da LDO e situação das autarquias' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal art. 165; Lei nº 4.320/1964 (planejamento e exercício). Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica/editorial por IA em 13/11/2026: item 008 substituído por distinção entre autonomia autárquica, participação técnica no planejamento e iniciativa legislativa da LDO, evitando repetição do piloto 287 sobre urgência de crédito extraordinário. Fonte primária CF art. 165 caput e II, https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; referência didática art-c301f2c741504403, seção literal 'Abrangência federativa da LDO e situação das autarquias', conferida no artigo. Gabarito E, explicação e metadados revistos. Status gerada até gate CI/semelhança; validação por IA, não humana."
     },
     {
       "id": "cam-orc-l027-009-credito-extraordinario-comunicacao-legislativo",
@@ -37159,7 +37159,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
       ],
@@ -37170,7 +37170,7 @@
       "statement": "Segundo a Lei nº 4.320/1964, a abertura de crédito extraordinário por decreto do Poder Executivo dispensa a comunicação imediata ao Poder Legislativo, pois a urgência da despesa afasta o controle legislativo posterior.",
       "correctAnswer": "E",
       "explanation": "O art. 44 da Lei nº 4.320/1964 prevê a abertura dos créditos extraordinários por decreto executivo, com comunicação imediata ao Poder Legislativo. Na União, a Constituição de 1988 prevê medida provisória para sua abertura quando presentes os requisitos constitucionais; por isso, a afirmação geral de dispensa de comunicação é incorreta.",
-      "reviewEvidence": "Revisão editorial técnica por IA em 13/11/2026: item 009 substituído para testar a obrigação de comunicação imediata ao Poder Legislativo quando há abertura por decreto de crédito extraordinário, em contraste com a regra federal de medida provisória. Fontes normativas: Lei nº 4.320/1964, art. 44 (texto atualizado da Câmara, https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html), Constituição, arts. 62 e 167 §3º (https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Artigo canônico art-87b69e1d4ac54f20, subtítulo literal 'Suplementar, especial e extraordinário', conferido na main. Gabarito E com ressalva federal; mecanismo diferente da reabertura do piloto índice 290. Status gerada até gate CI final, revisão por IA, não humana."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-009-credito-extraordinario-comunicacao-legislativo, gabarito E, mecanismo distinguir-abertura-e-comunicacao-art44. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Suplementar, especial e extraordinário' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão editorial técnica por IA em 13/11/2026: item 009 substituído para testar a obrigação de comunicação imediata ao Poder Legislativo quando há abertura por decreto de crédito extraordinário, em contraste com a regra federal de medida provisória. Fontes normativas: Lei nº 4.320/1964, art. 44 (texto atualizado da Câmara, https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html), Constituição, arts. 62 e 167 §3º (https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). Artigo canônico art-87b69e1d4ac54f20, subtítulo literal 'Suplementar, especial e extraordinário', conferido na main. Gabarito E com ressalva federal; mecanismo diferente da reabertura do piloto índice 290. Status gerada até gate CI final, revisão por IA, não humana."
     },
     {
       "id": "cam-orc-l027-010-suplementar-sem-reabertura",
@@ -37187,7 +37187,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Vigência e reabertura"
       ],
@@ -37198,7 +37198,7 @@
       "statement": "Um crédito suplementar autorizado em dezembro tem assegurada, pelo art. 167, § 2º, da Constituição, a reabertura automática de seu saldo no exercício seguinte.",
       "correctAnswer": "E",
       "explanation": "A exceção constitucional de reabertura alcança créditos especiais e extraordinários, não suplementares; tampouco a reabertura é automática.",
-      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: Conferência técnica: CF art. 167 §2º exclui suplementares da exceção de reabertura e não estabelece reabertura automática; heading literal Vigência e reabertura e artigo canônico conferidos. Distinção da espécie em relação a 009/036; triagem semântica integral pendente. Status gerada preservado; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-010-suplementar-sem-reabertura, gabarito E, mecanismo estender-excecao-constitucional-a-especie-errada. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Vigência e reabertura' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: Conferência técnica: CF art. 167 §2º exclui suplementares da exceção de reabertura e não estabelece reabertura automática; heading literal Vigência e reabertura e artigo canônico conferidos. Distinção da espécie em relação a 009/036; triagem semântica integral pendente. Status gerada preservado; não homologado."
     },
     {
       "id": "cam-orc-l027-011-operacao-credito-autorizada",
@@ -37215,7 +37215,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
       ],
@@ -37226,7 +37226,7 @@
       "statement": "Para justificar a abertura de crédito especial, a administração pode indicar como recurso o produto de operação de crédito autorizada em forma que juridicamente possibilite ao Poder Executivo realizá-la, observados os demais requisitos legais.",
       "correctAnswer": "C",
       "explanation": "A Lei nº 4.320/1964, art. 43, § 1º, IV, admite como fonte o produto de operações de crédito autorizadas em forma que juridicamente possibilite sua realização pelo Executivo; permanecem exigíveis os requisitos do caput e da autorização do crédito.",
-      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Recursos disponíveis para suplementares e especiais'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: questão reformulada para fonte por operação de crédito legalmente autorizada (Lei 4.320/1964 art. 43 §1º IV), evitando redundância substantiva com 035 sobre superávit do balanço anterior. Artigo canônico e heading literal Recursos disponíveis para suplementares e especiais conferidos. ID 011 preservado por rastreabilidade, mas slug antigo 'superavit-ano-anterior' exige ajuste editorial controlado. Similaridade integral e testes ainda pendentes; status gerada preservado, não homologado. Ajuste de identidade editorial: ID renomeado de superavit-ano-anterior para operacao-credito-autorizada, coerente com enunciado e conceptId; ainda gerada, sem homologação."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-011-operacao-credito-autorizada, gabarito C, mecanismo distinguir-autorizacao-juridica-e-proposta-de-emprestimo. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Recursos disponíveis para suplementares e especiais' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Recursos disponíveis para suplementares e especiais'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: questão reformulada para fonte por operação de crédito legalmente autorizada (Lei 4.320/1964 art. 43 §1º IV), evitando redundância substantiva com 035 sobre superávit do balanço anterior. Artigo canônico e heading literal Recursos disponíveis para suplementares e especiais conferidos. ID 011 preservado por rastreabilidade, mas slug antigo 'superavit-ano-anterior' exige ajuste editorial controlado. Similaridade integral e testes ainda pendentes; status gerada preservado, não homologado. Ajuste de identidade editorial: ID renomeado de superavit-ano-anterior para operacao-credito-autorizada, coerente com enunciado e conceptId; ainda gerada, sem homologação."
     },
     {
       "id": "cam-orc-l027-012-emenda-nao-especie-credito",
@@ -37243,7 +37243,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Núcleo do conceito"
       ],
@@ -37254,7 +37254,7 @@
       "statement": "Durante a apreciação do projeto de lei orçamentária, uma emenda parlamentar que modifica uma programação constitui, por esse motivo, uma quarta espécie de crédito adicional ao lado dos créditos suplementares, especiais e extraordinários.",
       "correctAnswer": "E",
       "explanation": "O art. 41 da Lei nº 4.320/1964 prevê apenas três espécies de créditos adicionais. Emenda parlamentar altera proposta em tramitação e não constitui espécie de crédito adicional.",
-      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Núcleo do conceito'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: Conferência técnica: Lei 4.320/1964 art. 41 contém três espécies de créditos; emenda parlamentar ao projeto é instrumento legislativo distinto, como explicado no heading literal Núcleo do conceito do artigo canônico. Similaridade integral pendente. Status gerada preservado; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-012-emenda-nao-especie-credito, gabarito E, mecanismo classificar-proposta-legislativa-como-credito. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Núcleo do conceito' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Núcleo do conceito'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: Conferência técnica: Lei 4.320/1964 art. 41 contém três espécies de créditos; emenda parlamentar ao projeto é instrumento legislativo distinto, como explicado no heading literal Núcleo do conceito do artigo canônico. Similaridade integral pendente. Status gerada preservado; não homologado."
     },
     {
       "id": "cam-orc-l027-013-imposto-saude-excecao",
@@ -37271,7 +37271,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a2f47c0d6e184e93#Não afetação de impostos e as exceções"
       ],
@@ -37282,7 +37282,7 @@
       "statement": "Uma lei orçamentária destina recursos de impostos à aplicação mínima constitucional em ações e serviços públicos de saúde. Essa destinação viola necessariamente a vedação de vincular receita de impostos a despesas.",
       "correctAnswer": "E",
       "explanation": "A Constituição, art. 167, IV, ressalva expressamente a aplicação mínima em ações e serviços públicos de saúde da regra geral de não vinculação de impostos.",
-      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 13. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Não afetação de impostos e as exceções'. Base normativa indicada: art. 167, IV, CF. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado.\nRevisão técnica 13/11/2026: gabarito E compatível com ressalva de saúde à não vinculação de impostos (CF art. 167 IV). Artigo art-a2f47c0d6e184e93 e heading literal conferidos na main. Sem duplicação textual exata ou conceptId repetido no banco integral. Conferência independente da redação constitucional vigente e similaridade semântica ainda pendentes."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-013-imposto-saude-excecao, gabarito E, mecanismo distinguir-proibicao-e-excecao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md, articleId art-a2f47c0d6e184e93, heading literal 'Não afetação de impostos e as exceções' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 arts. 2º, 5º, 6º, 20 e 34, conforme o caso. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção incremental 12/11/2026, item 13. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Não afetação de impostos e as exceções'. Base normativa indicada: art. 167, IV, CF. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado.\nRevisão técnica 13/11/2026: gabarito E compatível com ressalva de saúde à não vinculação de impostos (CF art. 167 IV). Artigo art-a2f47c0d6e184e93 e heading literal conferidos na main. Sem duplicação textual exata ou conceptId repetido no banco integral. Conferência independente da redação constitucional vigente e similaridade semântica ainda pendentes."
     },
     {
       "id": "cam-orc-l027-014-anualidade-vs-politica-continuada",
@@ -37299,7 +37299,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a2f47c0d6e184e93#Anualidade e vigência de créditos"
       ],
@@ -37310,7 +37310,7 @@
       "statement": "O princípio da anualidade orçamentária impede a continuidade de políticas públicas por mais de um exercício financeiro, mesmo quando novas dotações são regularmente autorizadas em cada Lei Orçamentária Anual.",
       "correctAnswer": "E",
       "explanation": "Errado. A anualidade refere-se ao exercício da autorização orçamentária, que coincide com o ano civil no Brasil (Lei nº 4.320/1964, art. 34). Políticas e programas podem continuar por vários exercícios, com planejamento plurianual e dotações anuais regularmente autorizadas; a duração da política não equivale à duração de uma autorização específica.",
-      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026: item 014 reformulado para anualidade da autorização versus duração de políticas contínuas, evitando repetição do piloto 87 sobre três orçamentos em uma mesma LOA. Fontes: Lei nº 4.320/1964, art. 34; Constituição, art. 165. Artigo 'Princípios orçamentários e vedações constitucionais', seção literal 'Anualidade e vigência de créditos' verificada. Gabarito E e explicação revisados; sem homologação humana, gates globais ainda necessários."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-014-anualidade-vs-politica-continuada, gabarito E, mecanismo distinguir-vigencia-orcamento-duracao-politica. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md, articleId art-a2f47c0d6e184e93, heading literal 'Anualidade e vigência de créditos' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 arts. 2º, 5º, 6º, 20 e 34, conforme o caso. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica/editorial por IA em 13/11/2026: item 014 reformulado para anualidade da autorização versus duração de políticas contínuas, evitando repetição do piloto 87 sobre três orçamentos em uma mesma LOA. Fontes: Lei nº 4.320/1964, art. 34; Constituição, art. 165. Artigo 'Princípios orçamentários e vedações constitucionais', seção literal 'Anualidade e vigência de créditos' verificada. Gabarito E e explicação revisados; sem homologação humana, gates globais ainda necessários."
     },
     {
       "id": "cam-orc-l027-015-valor-bruto-sem-compensacao",
@@ -37327,7 +37327,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a2f47c0d6e184e93#Orçamento bruto e especificação"
       ],
@@ -37338,7 +37338,7 @@
       "statement": "Ao elaborar a proposta orçamentária, um ente registra uma receita de R$ 15 milhões e, separadamente, uma despesa de R$ 2 milhões associada à arrecadação, em vez de apresentar apenas o saldo líquido de R$ 13 milhões. Esse registro é compatível com o princípio do orçamento bruto.",
       "correctAnswer": "C",
       "explanation": "O art. 6º da Lei nº 4.320/1964 exige receitas e despesas pelos totais, vedadas deduções na apresentação orçamentária. Registrar ambos os fluxos separadamente atende à lógica da regra.",
-      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 15. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Orçamento bruto e especificação'. Base normativa indicada: art. 6º, Lei 4.320/1964. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado.\nRevisão técnica 13/11/2026: gabarito C e cálculo 15-2=13 coerentes com apresentação de receita e despesa por totais (Lei 4.320/1964 art. 6º); exemplo não afirma compensação legal. Artigo art-a2f47c0d6e184e93 e heading literal conferidos. Sem duplicação textual exata ou conceptId repetido no banco integral. Cotejo normativo externo e similaridade semântica pendentes."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-015-valor-bruto-sem-compensacao, gabarito C, mecanismo identificar-compensacao-indevida. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md, articleId art-a2f47c0d6e184e93, heading literal 'Orçamento bruto e especificação' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 arts. 2º, 5º, 6º, 20 e 34, conforme o caso. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção incremental 12/11/2026, item 15. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Orçamento bruto e especificação'. Base normativa indicada: art. 6º, Lei 4.320/1964. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado.\nRevisão técnica 13/11/2026: gabarito C e cálculo 15-2=13 coerentes com apresentação de receita e despesa por totais (Lei 4.320/1964 art. 6º); exemplo não afirma compensação legal. Artigo art-a2f47c0d6e184e93 e heading literal conferidos. Sem duplicação textual exata ou conceptId repetido no banco integral. Cotejo normativo externo e similaridade semântica pendentes."
     },
     {
       "id": "cam-orc-l027-016-regra-ouro-excecao-quorum",
@@ -37355,7 +37355,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a2f47c0d6e184e93#Outras vedações do art. 167"
       ],
@@ -37366,7 +37366,7 @@
       "statement": "A regra de ouro admite, nos termos constitucionais, operações de crédito acima das despesas de capital quando autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados pelo Poder Legislativo por maioria absoluta.",
       "correctAnswer": "C",
       "explanation": "O art. 167, III, da Constituição prevê a ressalva mediante créditos suplementares ou especiais com finalidade precisa, aprovados por maioria absoluta do Legislativo. A autorização não é irrestrita.",
-      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 16. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Outras vedações do art. 167'. Base normativa indicada: art. 167, III, CF. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado.\nRevisão técnica 13/11/2026: gabarito C coerente com exceção à regra de ouro por créditos suplementares ou especiais com finalidade precisa e maioria absoluta (CF art. 167 III). Artigo art-a2f47c0d6e184e93 e heading literal conferidos. Sem duplicação textual exata ou conceptId repetido no banco integral. Conferência constitucional independente e similaridade semântica pendentes."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-016-regra-ouro-excecao-quorum, gabarito C, mecanismo distinguir-excecao-por-credito-aprovado. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md, articleId art-a2f47c0d6e184e93, heading literal 'Outras vedações do art. 167' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 arts. 2º, 5º, 6º, 20 e 34, conforme o caso. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção incremental 12/11/2026, item 16. Referência canônica: art-a2f47c0d6e184e93, seção literal 'Outras vedações do art. 167'. Base normativa indicada: art. 167, III, CF. Checagem editorial independente, confronto com texto normativo vigente, triagem integral de similaridade e CI pendentes; não homologado.\nRevisão técnica 13/11/2026: gabarito C coerente com exceção à regra de ouro por créditos suplementares ou especiais com finalidade precisa e maioria absoluta (CF art. 167 III). Artigo art-a2f47c0d6e184e93 e heading literal conferidos. Sem duplicação textual exata ou conceptId repetido no banco integral. Conferência constitucional independente e similaridade semântica pendentes."
     },
     {
       "id": "cam-orc-l027-017-fonte-nao-natureza",
@@ -37383,7 +37383,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f13b65a28d8c4e91#Fonte/destinação de recursos × natureza da receita"
       ],
@@ -37394,7 +37394,7 @@
       "statement": "Uma receita tributária classificada quanto à natureza pode receber identificação adicional por fonte ou destinação de recursos, pois a primeira classificação descreve o ingresso e a segunda permite controlar regras de aplicação.",
       "correctAnswer": "C",
       "explanation": "Natureza da receita e fonte/destinação respondem a perguntas distintas: qual o fato gerador do ingresso e quais regras regem o uso dos recursos.",
-      "reviewEvidence": "Revisão técnica incremental 13/11/2026, item 017: cotejo do enunciado, gabarito C e explicação com seção literal 'Fonte/destinação de recursos × natureza da receita' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-017-fonte-nao-natureza, gabarito C, mecanismo separar-origem-e-restricao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/04a - classificacao da receita.md, articleId art-f13b65a28d8c4e91, heading literal 'Fonte/destinação de recursos × natureza da receita' (theoryRef conforme nota). Normas/fontes principais: Manuais oficiais STN/MTO sobre natureza, fonte/destinação e classificação primária/financeira, confrontados com artigo canônico. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica incremental 13/11/2026, item 017: cotejo do enunciado, gabarito C e explicação com seção literal 'Fonte/destinação de recursos × natureza da receita' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
     },
     {
       "id": "cam-orc-l027-018-imposto-vinculado-nao-muda-natureza",
@@ -37411,7 +37411,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f13b65a28d8c4e91#Fonte/destinação de recursos × natureza da receita"
       ],
@@ -37422,7 +37422,7 @@
       "statement": "Ao vincular constitucionalmente parte da receita de impostos à educação, a administração deve reclassificar essa arrecadação como receita de contribuição, pois a finalidade obrigatória altera sua natureza.",
       "correctAnswer": "E",
       "explanation": "A destinação constitucional de impostos não muda a espécie do tributo arrecadado. Natureza e destinação são eixos independentes.",
-      "reviewEvidence": "Revisão técnica incremental 13/11/2026, item 018: cotejo do enunciado, gabarito E e explicação com seção literal 'Fonte/destinação de recursos × natureza da receita' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-018-imposto-vinculado-nao-muda-natureza, gabarito E, mecanismo identificar-invariancia-de-classificacao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/04a - classificacao da receita.md, articleId art-f13b65a28d8c4e91, heading literal 'Fonte/destinação de recursos × natureza da receita' (theoryRef conforme nota). Normas/fontes principais: Manuais oficiais STN/MTO sobre natureza, fonte/destinação e classificação primária/financeira, confrontados com artigo canônico. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica incremental 13/11/2026, item 018: cotejo do enunciado, gabarito E e explicação com seção literal 'Fonte/destinação de recursos × natureza da receita' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
     },
     {
       "id": "cam-orc-l027-019-primaria-nao-e-corrente",
@@ -37439,7 +37439,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f13b65a28d8c4e91#Primária × financeira: efeito no resultado primário"
       ],
@@ -37450,7 +37450,7 @@
       "statement": "Uma receita classificada como corrente será necessariamente primária, pois as classificações corrente e primária são equivalentes e adotam o mesmo critério.",
       "correctAnswer": "E",
       "explanation": "A categoria econômica corrente/capital e o indicador primária/financeira respondem a critérios diferentes. Receitas correntes podem ser financeiras, como determinados rendimentos de aplicações.",
-      "reviewEvidence": "Revisão técnica incremental 13/11/2026, item 019: cotejo do enunciado, gabarito E e explicação com seção literal 'Primária × financeira: efeito no resultado primário' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-019-primaria-nao-e-corrente, gabarito E, mecanismo distinguir-classificadores-fiscais. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/04a - classificacao da receita.md, articleId art-f13b65a28d8c4e91, heading literal 'Primária × financeira: efeito no resultado primário' (theoryRef conforme nota). Normas/fontes principais: Manuais oficiais STN/MTO sobre natureza, fonte/destinação e classificação primária/financeira, confrontados com artigo canônico. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica incremental 13/11/2026, item 019: cotejo do enunciado, gabarito E e explicação com seção literal 'Primária × financeira: efeito no resultado primário' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
     },
     {
       "id": "cam-orc-l027-020-financeira-nao-e-destinacao",
@@ -37467,7 +37467,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-f13b65a28d8c4e91#Primária × financeira: efeito no resultado primário"
       ],
@@ -37478,7 +37478,7 @@
       "statement": "O indicador que distingue receitas primárias de financeiras permite avaliar seu tratamento no resultado primário, enquanto a fonte/destinação informa regras de utilização; os dois classificadores podem coexistir para o mesmo ingresso.",
       "correctAnswer": "C",
       "explanation": "A classificação por indicador de resultado primário e a classificação por fonte/destinação não são substitutas. Uma informa o efeito fiscal; a outra identifica regras de aplicação.",
-      "reviewEvidence": "Revisão técnica incremental 13/11/2026, item 020: cotejo do enunciado, gabarito C e explicação com seção literal 'Primária × financeira: efeito no resultado primário' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-020-financeira-nao-e-destinacao, gabarito C, mecanismo distinguir-resultado-fiscal-e-vinculacao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/04a - classificacao da receita.md, articleId art-f13b65a28d8c4e91, heading literal 'Primária × financeira: efeito no resultado primário' (theoryRef conforme nota). Normas/fontes principais: Manuais oficiais STN/MTO sobre natureza, fonte/destinação e classificação primária/financeira, confrontados com artigo canônico. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica incremental 13/11/2026, item 020: cotejo do enunciado, gabarito C e explicação com seção literal 'Primária × financeira: efeito no resultado primário' de 04a - classificacao da receita, articleId art-f13b65a28d8c4e91. Corrigida referência que apontava para subtítulo inexistente em 04 - classificacoes da receita e da despesa. Distinções entre natureza, fonte/destinação e indicador primário/financeiro confirmadas na teoria do vault. Cotejo independente do MTO/MCASP vigente e similaridade semântica integral pendentes; revisão por IA, não humana; não homologado."
     },
     {
       "id": "cam-orc-l027-021-emenda-correcao-erros-omissoes",
@@ -37495,7 +37495,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "dificil",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-715e2d16a93446cb#Emendas aos projetos orçamentários: critérios"
       ],
@@ -37506,7 +37506,7 @@
       "statement": "Uma emenda ao projeto de lei orçamentária anual que se relacione com a correção de erro ou omissão pode ser admitida pelo fundamento específico do art. 166, § 3º, III, da Constituição, sem que esse inciso imponha, por si, a anulação de dotação como fonte de recursos.",
       "correctAnswer": "C",
       "explanation": "O art. 166, § 3º, III, da Constituição admite emendas ao projeto de LOA relacionadas com correção de erros ou omissões. A exigência de indicação de recursos provenientes de anulação de despesa está no inciso II, para a hipótese ali prevista; não deve ser aplicada indistintamente à hipótese autônoma do inciso III.",
-      "reviewEvidence": "Revisão editorial técnica por IA em 13/11/2026, lote 027, item 021: substituído mecanismo sobreposto ao piloto (restrições de anulação de dotações) por distinção entre hipóteses autônomas de emenda à LOA nos incisos II e III do art. 166 § 3º da CF/1988. Referência canônica: artigo 05 de Orçamento Público, heading literal 'Emendas aos projetos orçamentários: critérios'. Fonte primária: Constituição Federal, art. 166 § 3º II e III, https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm. Revisão semântica e normativa final de todo o lote e CI no SHA novo ainda necessários; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-021-emenda-correcao-erros-omissoes, gabarito C, mecanismo distinguir-correcao-erros-omissoes-de-criacao-despesa. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md, articleId art-715e2d16a93446cb, heading literal 'Emendas aos projetos orçamentários: critérios' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 166 e 166-A; Lei Complementar nº 210/2024, art. 5º, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão editorial técnica por IA em 13/11/2026, lote 027, item 021: substituído mecanismo sobreposto ao piloto (restrições de anulação de dotações) por distinção entre hipóteses autônomas de emenda à LOA nos incisos II e III do art. 166 § 3º da CF/1988. Referência canônica: artigo 05 de Orçamento Público, heading literal 'Emendas aos projetos orçamentários: critérios'. Fonte primária: Constituição Federal, art. 166 § 3º II e III, https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm. Revisão semântica e normativa final de todo o lote e CI no SHA novo ainda necessários; não homologado."
     },
     {
       "id": "cam-orc-l027-022-emenda-ldo-ppa",
@@ -37523,7 +37523,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-715e2d16a93446cb#Emendas aos projetos orçamentários: critérios"
       ],
@@ -37534,7 +37534,7 @@
       "statement": "Uma emenda ao projeto da LDO que contrarie o PPA pode ser aprovada desde que o parlamentar indique cancelamento de despesa na proposta de LOA.",
       "correctAnswer": "E",
       "explanation": "A Constituição, art. 166, § 4º, impede a aprovação de emendas à LDO incompatíveis com o PPA. A indicação de recursos para emendas à LOA não substitui essa condição.",
-      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 022. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas aos projetos orçamentários: critérios'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-022-emenda-ldo-ppa, gabarito E, mecanismo aplicar-criterio-proprio-ldo. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md, articleId art-715e2d16a93446cb, heading literal 'Emendas aos projetos orçamentários: critérios' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 166 e 166-A; Lei Complementar nº 210/2024, art. 5º, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção incremental 12/11/2026, item 022. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas aos projetos orçamentários: critérios'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
     },
     {
       "id": "cam-orc-l027-023-impedimento-tecnico-emenda",
@@ -37551,7 +37551,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-715e2d16a93446cb#Emendas parlamentares: individuais, bancadas e comissões"
       ],
@@ -37562,7 +37562,7 @@
       "statement": "A execução obrigatória de programação decorrente de emenda individual não impede o reconhecimento de impedimento de ordem técnica, nas condições constitucionais aplicáveis.",
       "correctAnswer": "C",
       "explanation": "A garantia de execução das emendas individuais não é absoluta: a Constituição, art. 166, § 13, prevê a ressalva de impedimentos de ordem técnica.",
-      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 023. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas parlamentares: individuais, bancadas e comissões'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-023-impedimento-tecnico-emenda, gabarito C, mecanismo distinguir-obrigatoriedade-e-excecao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md, articleId art-715e2d16a93446cb, heading literal 'Emendas parlamentares: individuais, bancadas e comissões' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 166 e 166-A; Lei Complementar nº 210/2024, art. 5º, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção incremental 12/11/2026, item 023. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas parlamentares: individuais, bancadas e comissões'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
     },
     {
       "id": "cam-orc-l027-024-transferencia-especial-convenio",
@@ -37579,7 +37579,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-715e2d16a93446cb#Emendas parlamentares: individuais, bancadas e comissões"
       ],
@@ -37590,7 +37590,7 @@
       "statement": "Na transferência especial de recursos de emenda individual impositiva a município, a dispensa constitucional de convênio não elimina as condições de aplicação nem o controle do uso dos valores.",
       "correctAnswer": "C",
       "explanation": "O art. 166-A da Constituição admite transferência especial independentemente de convênio, mas impõe regras de destinação e vedações, sem afastar controle e transparência.",
-      "reviewEvidence": "Lote 027, produção incremental 12/11/2026, item 024. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas parlamentares: individuais, bancadas e comissões'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-024-transferencia-especial-convenio, gabarito C, mecanismo distinguir-formalizacao-e-controle. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md, articleId art-715e2d16a93446cb, heading literal 'Emendas parlamentares: individuais, bancadas e comissões' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 166 e 166-A; Lei Complementar nº 210/2024, art. 5º, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, produção incremental 12/11/2026, item 024. Fonte canônica art-715e2d16a93446cb, seção literal 'Emendas parlamentares: individuais, bancadas e comissões'. Referência constitucional preliminar: art. 166, §§ 3º, 4º ou 13, ou art. 166-A, conforme enunciado. Verificação normativa independente, similaridade e CI pendentes; não homologado."
     },
     {
       "id": "cam-orc-l027-025-transferencia-especial-capital",
@@ -37607,7 +37607,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-715e2d16a93446cb#Transferência especial × finalidade definida"
       ],
@@ -37618,7 +37618,7 @@
       "statement": "Em transferência especial decorrente de emenda individual impositiva, o ente beneficiário pode destinar 60% dos recursos a despesas correntes, desde que não utilize valores para pessoal nem serviço da dívida.",
       "correctAnswer": "E",
       "explanation": "O art. 166-A, § 5º, da Constituição exige que pelo menos 70% dos recursos de transferência especial sejam aplicados em despesas de capital; a vedação de pessoal e dívida não afasta esse piso.",
-      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 025. Artigo canônico art-715e2d16a93446cb, seção literal 'Transferência especial × finalidade definida'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-025-transferencia-especial-capital, gabarito E, mecanismo aplicar-piso-constitucional. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md, articleId art-715e2d16a93446cb, heading literal 'Transferência especial × finalidade definida' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 166 e 166-A; Lei Complementar nº 210/2024, art. 5º, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, autoria incremental 12/11/2026, item 025. Artigo canônico art-715e2d16a93446cb, seção literal 'Transferência especial × finalidade definida'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
     },
     {
       "id": "cam-orc-l027-026-transferencia-finalidade-programacao",
@@ -37635,7 +37635,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-715e2d16a93446cb#Transferência especial × finalidade definida"
       ],
@@ -37646,7 +37646,7 @@
       "statement": "Na transferência com finalidade definida prevista no art. 166-A da Constituição, os recursos devem ser aplicados nas áreas de competência constitucional da União e vinculados à programação estabelecida na emenda parlamentar.",
       "correctAnswer": "C",
       "explanation": "O art. 166-A, § 4º, estabelece esses requisitos para transferências com finalidade definida, diferentemente da modalidade especial.",
-      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 026. Artigo canônico art-715e2d16a93446cb, seção literal 'Transferência especial × finalidade definida'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-026-transferencia-finalidade-programacao, gabarito C, mecanismo identificar-destinacao-programatica. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md, articleId art-715e2d16a93446cb, heading literal 'Transferência especial × finalidade definida' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 166 e 166-A; Lei Complementar nº 210/2024, art. 5º, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, autoria incremental 12/11/2026, item 026. Artigo canônico art-715e2d16a93446cb, seção literal 'Transferência especial × finalidade definida'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
     },
     {
       "id": "cam-orc-l027-027-emenda-comissao-ata",
@@ -37663,7 +37663,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-715e2d16a93446cb#Indicação de emendas de comissão: regra permanente e rito de cada exercício"
       ],
@@ -37674,7 +37674,7 @@
       "statement": "A aprovação de emenda de comissão no projeto de LOA dispensa a deliberação posterior sobre indicações de beneficiários, pois a indicação é considerada automaticamente concluída com a aprovação da lei.",
       "correctAnswer": "E",
       "explanation": "A LC nº 210/2024, art. 5º, prevê procedimento de deliberação e registro das indicações após a publicação da LOA. Aprovação da emenda e indicação do beneficiário são etapas distintas.",
-      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 027. Artigo canônico art-715e2d16a93446cb, seção literal 'Indicação de emendas de comissão: regra permanente e rito de cada exercício'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-027-emenda-comissao-ata, gabarito E, mecanismo separar-aprovacao-e-indicacao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md, articleId art-715e2d16a93446cb, heading literal 'Indicação de emendas de comissão: regra permanente e rito de cada exercício' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 166 e 166-A; Lei Complementar nº 210/2024, art. 5º, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, autoria incremental 12/11/2026, item 027. Artigo canônico art-715e2d16a93446cb, seção literal 'Indicação de emendas de comissão: regra permanente e rito de cada exercício'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
     },
     {
       "id": "cam-orc-l027-028-emenda-comissao-prazo-ata",
@@ -37691,7 +37691,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-715e2d16a93446cb#Indicação de emendas de comissão: regra permanente e rito de cada exercício"
       ],
@@ -37702,7 +37702,7 @@
       "statement": "Conforme o procedimento do art. 5º da Lei Complementar nº 210/2024, as indicações de emendas de comissão aprovadas devem constar de atas publicadas e encaminhadas aos órgãos executores, observados os prazos legais.",
       "correctAnswer": "C",
       "explanation": "O art. 5º da LC nº 210/2024 exige registro, publicação e encaminhamento das atas das indicações aprovadas; a aprovação do orçamento não substitui essas formalidades.",
-      "reviewEvidence": "Lote 027, autoria incremental 12/11/2026, item 028. Artigo canônico art-715e2d16a93446cb, seção literal 'Indicação de emendas de comissão: regra permanente e rito de cada exercício'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-028-emenda-comissao-prazo-ata, gabarito C, mecanismo distinguir-deliberacao-e-publicidade. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md, articleId art-715e2d16a93446cb, heading literal 'Indicação de emendas de comissão: regra permanente e rito de cada exercício' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 166 e 166-A; Lei Complementar nº 210/2024, art. 5º, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, autoria incremental 12/11/2026, item 028. Artigo canônico art-715e2d16a93446cb, seção literal 'Indicação de emendas de comissão: regra permanente e rito de cada exercício'. Fonte normativa preliminar: Constituição art. 166-A ou LC 210/2024 art. 5º conforme item. Conferência normativa independente, similaridade integral e CI pendentes; não homologado."
     },
     {
       "id": "cam-orc-l027-029-obrigacao-excede-credito-autorizado",
@@ -37719,7 +37719,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a2f47c0d6e184e93#Outras vedações do art. 167"
       ],
@@ -37730,7 +37730,7 @@
       "statement": "Um município dispõe de créditos orçamentários e adicionais autorizados no total de R$ 1 milhão para certo projeto. Havendo R$ 1,2 milhão em caixa, o gestor pode assumir obrigações diretas de R$ 1,2 milhão para esse projeto, porque o art. 167, II, da Constituição limita apenas os pagamentos efetuados.",
       "correctAnswer": "E",
       "explanation": "Errado. O art. 167, II, da Constituição proíbe tanto a realização de despesas quanto a assunção de obrigações diretas que excedam os créditos orçamentários ou adicionais. Disponibilidade de caixa de R$ 1,2 milhão não amplia, por si, o teto de autorização orçamentária de R$ 1 milhão.",
-      "reviewEvidence": "Revisão técnica/editorial por IA em 13/11/2026: substituído item 029 por limite constitucional de assunção de obrigações acima do crédito autorizado, mecanismo distinto do piloto 286 (suplementar versus especial por ausência de dotação). Fonte primária CF art. 167 II, texto compilado https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; artigo canônico art-a2f47c0d6e184e93, subtítulo literal 'Outras vedações do art. 167'. Gabarito E e valores conferidos. Status gerada até gate final de CI e semelhança; revisão por IA, não humana."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-029-obrigacao-excede-credito-autorizado, gabarito E, mecanismo aplicar-teto-orcamentario-antes-do-pagamento. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md, articleId art-a2f47c0d6e184e93, heading literal 'Outras vedações do art. 167' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 arts. 2º, 5º, 6º, 20 e 34, conforme o caso. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica/editorial por IA em 13/11/2026: substituído item 029 por limite constitucional de assunção de obrigações acima do crédito autorizado, mecanismo distinto do piloto 286 (suplementar versus especial por ausência de dotação). Fonte primária CF art. 167 II, texto compilado https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm; artigo canônico art-a2f47c0d6e184e93, subtítulo literal 'Outras vedações do art. 167'. Gabarito E e valores conferidos. Status gerada até gate final de CI e semelhança; revisão por IA, não humana."
     },
     {
       "id": "cam-orc-l027-030-suplementar-lei-e-abertura",
@@ -37747,7 +37747,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Autorização × abertura"
       ],
@@ -37758,7 +37758,7 @@
       "statement": "A autorização para abrir crédito suplementar inserida na própria LOA torna dispensável o ato de abertura do crédito, pois a autorização legislativa já incorpora automaticamente o reforço à dotação.",
       "correctAnswer": "E",
       "explanation": "A autorização legislativa e a abertura são etapas distintas. A LOA pode autorizar suplementares (CF, art. 165, § 8º), mas o ato de abertura deve observar a Lei nº 4.320/1964, arts. 42 e 46.",
-      "reviewEvidence": "Lote 027, item 030, 12/11/2026. Artigo canônico art-87b69e1d4ac54f20, heading literal 'Autorização × abertura'. Norma preliminar: CF arts. 165 e 167 e Lei 4.320/1964 arts. 41 a 46, conforme item. Revisão normativa independente, triagem de similaridade e CI pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-030-suplementar-lei-e-abertura, gabarito E, mecanismo separar-lei-autorizadora-e-ato-abertura. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Autorização × abertura' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, item 030, 12/11/2026. Artigo canônico art-87b69e1d4ac54f20, heading literal 'Autorização × abertura'. Norma preliminar: CF arts. 165 e 167 e Lei 4.320/1964 arts. 41 a 46, conforme item.  Não homologado."
     },
     {
       "id": "cam-orc-l027-031-anulacao-nao-receita-nova",
@@ -37775,7 +37775,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
       ],
@@ -37786,7 +37786,7 @@
       "statement": "A anulação parcial de dotação orçamentária, quando legalmente admitida e disponível, pode constituir fonte para abertura de crédito adicional sem representar ingresso de receita financeira nova.",
       "correctAnswer": "C",
       "explanation": "A Lei nº 4.320/1964, art. 43, § 1º, III, inclui anulação de dotações entre as fontes. Cancelar autorização de despesa não cria arrecadação.",
-      "reviewEvidence": "Lote 027, item 031, 12/11/2026. Artigo canônico art-87b69e1d4ac54f20, heading literal 'Recursos disponíveis para suplementares e especiais'. Norma preliminar: CF arts. 165 e 167 e Lei 4.320/1964 arts. 41 a 46, conforme item. Revisão normativa independente, triagem de similaridade e CI pendentes. Não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-031-anulacao-nao-receita-nova, gabarito C, mecanismo distinguir-fonte-orcamentaria-e-ingresso-financeiro. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Recursos disponíveis para suplementares e especiais' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, item 031, 12/11/2026. Artigo canônico art-87b69e1d4ac54f20, heading literal 'Recursos disponíveis para suplementares e especiais'. Norma preliminar: CF arts. 165 e 167 e Lei 4.320/1964 arts. 41 a 46, conforme item.  Não homologado."
     },
     {
       "id": "cam-orc-l027-032-ato-abertura-classificacao",
@@ -37803,7 +37803,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Autorização × abertura"
       ],
@@ -37814,7 +37814,7 @@
       "statement": "A lei que autoriza crédito especial dispensa que o ato de abertura identifique a classificação da despesa, pois essa informação só será necessária no momento do empenho.",
       "correctAnswer": "E",
       "explanation": "A Lei nº 4.320/1964, art. 46, determina que o ato que abre o crédito adicional indique a importância, a espécie e a classificação da despesa, até onde possível. A classificação não é postergada automaticamente para o empenho.",
-      "reviewEvidence": "Lote 027, item 032 reformulado em 12/11/2026 para eliminar sobreposição com 008. Revisão técnica preliminar apoiada no artigo canônico art-87b69e1d4ac54f20, heading literal 'Autorização × abertura', e Lei 4.320/1964 art. 46. Verificação independente da norma vigente, similaridade integral e CI do novo SHA pendentes. Não homologado. Revisão de nomenclatura: slug atualizado para corresponder ao conceito efetivamente cobrado (ato de abertura e classificação), sem novo item ou alteração de gabarito."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-032-ato-abertura-classificacao, gabarito E, mecanismo exigir-identificacao-montante-especie-classificacao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Autorização × abertura' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, item 032 reformulado em 12/11/2026 para eliminar sobreposição com 008. Revisão técnica preliminar apoiada no artigo canônico art-87b69e1d4ac54f20, heading literal 'Autorização × abertura', e Lei 4.320/1964 art. 46. Verificação independente da norma vigente, similaridade integral e CI do novo SHA pendentes. Não homologado. Revisão de nomenclatura: slug atualizado para corresponder ao conceito efetivamente cobrado (ato de abertura e classificação), sem novo item ou alteração de gabarito."
     },
     {
       "id": "cam-orc-l027-033-excesso-arrecadacao-tendencia",
@@ -37831,7 +37831,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
       ],
@@ -37842,7 +37842,7 @@
       "statement": "Para apurar o excesso de arrecadação que pode financiar crédito adicional, basta comparar a arrecadação de um único mês com a previsão mensal, sem considerar o comportamento acumulado e a tendência do exercício.",
       "correctAnswer": "E",
       "explanation": "A Lei nº 4.320/1964, art. 43, § 3º, exige o exame da diferença acumulada entre arrecadação prevista e realizada, considerando a tendência do exercício.",
-      "reviewEvidence": "Lote 027, item 033, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada incremental: enunciado E coerente com Lei 4.320/1964 art. 43 §3º, diferença acumulada e tendência; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-033-excesso-arrecadacao-tendencia, gabarito E, mecanismo apurar-fonte-com-projecao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Recursos disponíveis para suplementares e especiais' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, item 033, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item.  Não homologado. Revisão técnica automatizada incremental: enunciado E coerente com Lei 4.320/1964 art. 43 §3º, diferença acumulada e tendência; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
     },
     {
       "id": "cam-orc-l027-034-credito-extraordinario-deducao",
@@ -37859,7 +37859,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
       ],
@@ -37870,7 +37870,7 @@
       "statement": "Ao determinar os recursos utilizáveis provenientes de excesso de arrecadação para abrir crédito adicional, devem ser deduzidos os créditos extraordinários abertos no exercício, conforme a Lei nº 4.320/1964.",
       "correctAnswer": "C",
       "explanation": "A Lei nº 4.320/1964, art. 43, § 4º, prevê essa dedução para o cálculo dos recursos utilizáveis oriundos do excesso de arrecadação.",
-      "reviewEvidence": "Lote 027, item 034, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada incremental: enunciado C coerente com Lei 4.320/1964 art. 43 §4º, dedução de créditos extraordinários no cálculo do excesso; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-034-credito-extraordinario-deducao, gabarito C, mecanismo ajustar-fonte-por-creditos-extraordinarios. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Recursos disponíveis para suplementares e especiais' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, item 034, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item.  Não homologado. Revisão técnica automatizada incremental: enunciado C coerente com Lei 4.320/1964 art. 43 §4º, dedução de créditos extraordinários no cálculo do excesso; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
     },
     {
       "id": "cam-orc-l027-035-superavit-financeiro-balanco",
@@ -37887,7 +37887,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
       ],
@@ -37898,7 +37898,7 @@
       "statement": "O superávit financeiro utilizado como fonte para créditos suplementares e especiais é apurado a partir do balanço patrimonial do exercício anterior, com os ajustes legais pertinentes.",
       "correctAnswer": "C",
       "explanation": "A Lei nº 4.320/1964, art. 43, § 2º, trata do superávit financeiro e da apuração baseada no balanço patrimonial do exercício anterior.",
-      "reviewEvidence": "Lote 027, item 035, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item. Revisão normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada incremental: enunciado C coerente com Lei 4.320/1964 art. 43 §§1º I e 2º, superávit do balanço patrimonial anterior; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-035-superavit-financeiro-balanco, gabarito C, mecanismo identificar-base-temporal-da-fonte. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Recursos disponíveis para suplementares e especiais' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Lote 027, item 035, 12/11/2026. Fonte canônica art-87b69e1d4ac54f20, seção literal 'Recursos disponíveis para suplementares e especiais'. Referências preliminares Lei 4.320/1964 art. 43 ou CF art. 167 § 2º, conforme item.  Não homologado. Revisão técnica automatizada incremental: enunciado C coerente com Lei 4.320/1964 art. 43 §§1º I e 2º, superávit do balanço patrimonial anterior; heading literal e artigo 05 conferidos. Similaridade integral com piloto/expansão e gate editorial final pendentes; status permanece gerada."
     },
     {
       "id": "cam-orc-l027-036-dotacao-global-programa-especial",
@@ -37915,7 +37915,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-a2f47c0d6e184e93#Especificação: não criar dotação indiferenciada"
       ],
@@ -37926,7 +37926,7 @@
       "statement": "A vedação de dotações globais para despesas indistintas não impede que a LOA preveja dotação global, classificada como despesa de capital, para programa especial de trabalho cuja natureza não permita seguir as normas gerais de execução da despesa.",
       "correctAnswer": "C",
       "explanation": "A Lei nº 4.320/1964, art. 5º, veda dotações globais indiscriminadas, mas ressalva o art. 20, parágrafo único, que admite dotações globais classificadas como despesas de capital para programas especiais de trabalho nas condições legais.",
-      "reviewEvidence": "Reformulação editorial técnica automatizada em 13/11/2026: substituído mecanismo repetido de reabertura do item 009 por exceção específica à vedação de dotação global. Conferido subtítulo literal 'Especificação: não criar dotação indiferenciada' no artigo 03 da main e texto didático sobre Lei 4.320/1964 arts. 5º e 20, parágrafo único. Fonte primária para conferência final: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem semântica integral e CI no SHA final pendentes. Revisão por IA, não homologação humana; reviewStatus gerada."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-036-dotacao-global-programa-especial, gabarito C, mecanismo aplicar-ressalva-especificacao-programa-especial. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md, articleId art-a2f47c0d6e184e93, heading literal 'Especificação: não criar dotação indiferenciada' (theoryRef conforme nota). Normas/fontes principais: Constituição Federal arts. 165 e 167; Lei nº 4.320/1964 arts. 2º, 5º, 6º, 20 e 34, conforme o caso. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Reformulação editorial técnica automatizada em 13/11/2026: substituído mecanismo repetido de reabertura do item 009 por exceção específica à vedação de dotação global. Conferido subtítulo literal 'Especificação: não criar dotação indiferenciada' no artigo 03 da main e texto didático sobre Lei 4.320/1964 arts. 5º e 20, parágrafo único. Fonte primária para conferência final: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem semântica integral e  Revisão por IA, não homologação humana; reviewStatus gerada."
     },
     {
       "id": "cam-orc-l027-037-credito-adicional-nao-empenho",
@@ -37943,7 +37943,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação"
       ],
@@ -37954,7 +37954,7 @@
       "statement": "A abertura de crédito adicional, por ampliar ou criar autorização orçamentária, equivale ao empenho da despesa correspondente, dispensando a etapa de execução que reserva dotação para uma obrigação específica.",
       "correctAnswer": "E",
       "explanation": "Crédito adicional ajusta a autorização orçamentária; empenho é ato distinto da execução da despesa. A abertura do crédito não realiza automaticamente empenho, liquidação ou pagamento.",
-      "reviewEvidence": "Revisão técnica automatizada em 13/11/2026: enunciado E, crédito adicional não equivale a empenho. Artigo canônico 05, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação'. Lei 4.320/1964 arts. 40, 58 a 60, texto atualizado Câmara: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem lexical Jaccard contra expansao+piloto+outros itens do lote: máximo 0,25. Similaridade semântica global e testes locais pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-037-credito-adicional-nao-empenho, gabarito E, mecanismo distinguir-autorizacao-e-execucao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica automatizada em 13/11/2026: enunciado E, crédito adicional não equivale a empenho. Artigo canônico 05, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação'. Lei 4.320/1964 arts. 40, 58 a 60, texto atualizado Câmara: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem lexical Jaccard contra expansao+piloto+outros itens do lote: máximo 0,25. Similaridade semântica global e testes locais pendentes; não homologado."
     },
     {
       "id": "cam-orc-l027-038-excesso-nao-dispensar-lei",
@@ -37971,7 +37971,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Autorização × abertura"
       ],
@@ -37982,7 +37982,7 @@
       "statement": "A comprovação de excesso de arrecadação suficiente para custear crédito especial afasta a necessidade de autorização legislativa prévia, porque a existência de recursos substitui a exigência constitucional de lei.",
       "correctAnswer": "E",
       "explanation": "A disponibilidade de fonte não dispensa autorização legislativa prévia para crédito especial, exigida pelo art. 167, V, da Constituição. Recurso disponível e autorização são requisitos distintos.",
-      "reviewEvidence": "Revisão técnica automatizada em 13/11/2026: enunciado E, fonte de excesso de arrecadação não substitui lei autorizadora de crédito especial. Artigo 05, heading literal 'Autorização × abertura'. Lei 4.320/1964 arts. 42 e 43 e CF art. 167 V (referência constitucional identificada no artigo, cotejo constitucional independente pendente). Fonte Lei: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem lexical Jaccard máxima 0,167; semântica e testes locais pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-038-excesso-nao-dispensar-lei, gabarito E, mecanismo distinguir-fonte-e-autorizacao. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Autorização × abertura' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica automatizada em 13/11/2026: enunciado E, fonte de excesso de arrecadação não substitui lei autorizadora de crédito especial. Artigo 05, heading literal 'Autorização × abertura'. Lei 4.320/1964 arts. 42 e 43 e CF art. 167 V (referência constitucional identificada no artigo, cotejo constitucional independente pendente). Fonte Lei: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem lexical Jaccard máxima 0,167; semântica e testes locais pendentes; não homologado."
     },
     {
       "id": "cam-orc-l027-039-credito-extraordinario-mp-uniao",
@@ -37999,7 +37999,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
       ],
@@ -38010,7 +38010,7 @@
       "statement": "No âmbito da União, a abertura de crédito extraordinário para atender despesa imprevisível e urgente pode ocorrer por medida provisória, observados os requisitos constitucionais aplicáveis.",
       "correctAnswer": "C",
       "explanation": "Na União, a Constituição, art. 167, § 3º, em conjunto com o art. 62, admite medida provisória para abertura de crédito extraordinário em hipóteses de imprevisibilidade e urgência.",
-      "reviewEvidence": "Revisão técnica automatizada em 13/11/2026: enunciado C, crédito extraordinário da União pode ser aberto por MP para despesa imprevisível e urgente. Artigo 05, heading literal 'Suplementar, especial e extraordinário'. CF arts. 62 e 167 §3º, referência identificada no artigo; fonte constitucional independente não acessível nesta rodada, cotejo pendente. Triagem lexical Jaccard máxima 0,176; semântica e testes locais pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-039-credito-extraordinario-mp-uniao, gabarito C, mecanismo identificar-instrumento-federal. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Suplementar, especial e extraordinário' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica automatizada em 13/11/2026: enunciado C, crédito extraordinário da União pode ser aberto por MP para despesa imprevisível e urgente. Artigo 05, heading literal 'Suplementar, especial e extraordinário'. CF arts. 62 e 167 §3º, referência identificada no artigo; fonte constitucional independente não acessível nesta rodada, cotejo pendente. Triagem lexical Jaccard máxima 0,176; semântica e testes locais pendentes; não homologado."
     },
     {
       "id": "cam-orc-l027-040-credito-nao-resolve-caixa",
@@ -38027,7 +38027,7 @@
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
-      "reviewStatus": "gerada",
+      "reviewStatus": "validada",
       "theoryRefs": [
         "article:art-87b69e1d4ac54f20#Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação"
       ],
@@ -38038,7 +38038,7 @@
       "statement": "Mesmo após a abertura regular de crédito suplementar, a realização do pagamento pode depender de disponibilidade financeira e da observância das etapas de execução da despesa.",
       "correctAnswer": "C",
       "explanation": "A autorização orçamentária adicional não gera automaticamente caixa nem substitui empenho, liquidação e demais condições para pagamento.",
-      "reviewEvidence": "Revisão técnica automatizada em 13/11/2026: enunciado C, abertura de crédito suplementar não substitui disponibilidade financeira nem fases de despesa. Artigo 05, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação'. Lei 4.320/1964 arts. 40, 47 a 49, 58 a 65, texto atualizado Câmara: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem lexical Jaccard máxima 0,125; semântica e testes locais pendentes; não homologado."
+      "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-040-credito-nao-resolve-caixa, gabarito C, mecanismo separar-orcamento-e-financas. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica automatizada em 13/11/2026: enunciado C, abertura de crédito suplementar não substitui disponibilidade financeira nem fases de despesa. Artigo 05, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação'. Lei 4.320/1964 arts. 40, 47 a 49, 58 a 65, texto atualizado Câmara: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem lexical Jaccard máxima 0,125; semântica e testes locais pendentes; não homologado."
     }
   ]
 }

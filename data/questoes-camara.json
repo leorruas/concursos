@@ -37161,11 +37161,11 @@
       "cognitiveOperation": "análise",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-87b69e1d4ac54f20#Créditos extraordinários"
+        "article:art-87b69e1d4ac54f20#Suplementar, especial e extraordinário"
       ],
       "source": {
         "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
-        "section": "Créditos extraordinários"
+        "section": "Suplementar, especial e extraordinário"
       },
       "statement": "Segundo a Lei nº 4.320/1964, a abertura de crédito extraordinário por decreto do Poder Executivo dispensa a comunicação imediata ao Poder Legislativo, pois a urgência da despesa afasta o controle legislativo posterior.",
       "correctAnswer": "E",

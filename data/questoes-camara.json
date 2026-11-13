@@ -37145,7 +37145,7 @@
       "reviewEvidence": "Lote 027, produção inicial 12/11/2026: conferência preliminar de art-87b69e1d4ac54f20 / Suplementar, especial e extraordinário e Constituição Federal art. 165/167 ou Lei nº 4.320/1964. Revisão editorial independente e CI ainda pendentes. Não homologado."
     },
     {
-      "id": "cam-orc-l027-009-reabertura-especial-dezembro",
+      "id": "cam-orc-l027-009-deducao-creditos-extraordinarios",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -37154,23 +37154,23 @@
       "unitId": "processo-orcamentario",
       "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
       "articleId": "art-87b69e1d4ac54f20",
-      "conceptId": "reabertura-credito-especial-ultimo-quadrimestre",
-      "mechanism": "distinguir-vigencia-e-saldo",
+      "conceptId": "deduzir-creditos-extraordinarios-excesso-arrecadacao",
+      "mechanism": "aplicar-deducao-art43-paragrafo4",
       "questionType": "interpretacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "análise",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-87b69e1d4ac54f20#Vigência e reabertura"
+        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
       ],
       "source": {
         "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
-        "section": "Vigência e reabertura"
+        "section": "Recursos disponíveis para suplementares e especiais"
       },
-      "statement": "Um crédito especial autorizado em novembro e não integralmente utilizado pode, nos limites do saldo, ser reaberto no exercício seguinte e incorporado ao orçamento desse exercício.",
+      "statement": "Na apuração dos recursos utilizáveis provenientes de excesso de arrecadação para abertura de créditos suplementares ou especiais, devem ser deduzidos os créditos extraordinários abertos no exercício, conforme a Lei nº 4.320/1964.",
       "correctAnswer": "C",
-      "explanation": "O art. 167, § 2º, da Constituição permite reabrir créditos especiais e extraordinários autorizados nos últimos quatro meses do exercício, limitados aos saldos.",
-      "reviewEvidence": "Lote 027, autoria técnica preliminar 12/11/2026. Artigo 05, seção literal 'Vigência e reabertura'; fontes normativas para revisão: Constituição Federal art. 167 § 2º e Lei 4.320/1964 arts. 40, 41 e 43 conforme o item. Verificação normativa independente, similaridade e CI pendentes. Não homologado. Revisão técnica automatizada 13/11/2026: Conferência técnica: CF art. 167 §2º (reabertura de especial autorizado no último quadrimestre até saldo); heading literal Vigência e reabertura e artigo art-87b69e1d4ac54f20 conferidos. Risco de sobreposição de conceito com 036 (mesma regra com inversão do gabarito); exige decisão editorial na triagem semântica. Status gerada preservado; não homologado."
+      "explanation": "O art. 43, § 4º, da Lei nº 4.320/1964 determina a dedução da importância dos créditos extraordinários abertos no exercício ao apurar os recursos utilizáveis provenientes de excesso de arrecadação. A operação é distinta da reabertura de créditos especiais no exercício seguinte.",
+      "reviewEvidence": "Lote 027, substituição editorial técnica por IA em 13/11/2026: retirado mecanismo redundante de reabertura de crédito especial (sobreposição com piloto 290). Novo mecanismo: dedução dos créditos extraordinários abertos no exercício ao apurar recursos utilizáveis do excesso de arrecadação, Lei 4.320/1964 art. 43 §4º. Heading literal 'Recursos disponíveis para suplementares e especiais' e artigo art-87b69e1d4ac54f20. Gabarito C e explicação conferidos contra texto legal conhecido; cotejo independente da fonte primária vigente, similaridade integral e CI do novo SHA ainda pendentes. Revisão automatizada, não humana; status gerada."
     },
     {
       "id": "cam-orc-l027-010-suplementar-sem-reabertura",

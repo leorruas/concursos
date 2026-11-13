@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "direito-administrativo",
+  "entries": [
+    {
+      "id": "glo-camara-improbidade-dolo-tipificacao",
+      "term": "Dolo na improbidade administrativa",
+      "aliases": [],
+      "definition": "Intenção de alcançar o resultado ilícito descrito nos arts. 9º, 10 ou 11 da Lei de Improbidade; praticar voluntariamente um ato não basta.",
+      "contrast": "Culpa é falta de cuidado; dolo na LIA exige vontade consciente do resultado ilícito tipificado.",
+      "cebraspeTrap": "Tratar qualquer ato ilegal voluntário como improbidade.",
+      "example": "Um erro de digitação por descuido não demonstra, por si, dolo.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, Art. 1º, §§ 1º a 3º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-improbidade-dano-erario",
+      "term": "Prejuízo ao erário na improbidade",
+      "aliases": [],
+      "definition": "Perda efetiva e comprovada de recursos ou bens públicos causada por conduta dolosa enquadrada no art. 10.",
+      "contrast": "Um resultado financeiro ruim não demonstra automaticamente dano comprovado e dolo.",
+      "cebraspeTrap": "Afirmar que qualquer falha em licitação configura improbidade do art. 10.",
+      "example": "É necessário provar o prejuízo e a ligação com a conduta dolosa.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, Art. 10",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-improbidade-prescricao",
+      "term": "Prescrição na improbidade",
+      "aliases": [],
+      "definition": "Prazo para buscar sanções por improbidade; o art. 23 prevê prazo geral de oito anos, sujeito a marcos e decisões judiciais.",
+      "contrast": "Oito anos não significa que toda ação prescreve oito anos após o fato; há marcos, interrupções e transição.",
+      "cebraspeTrap": "Aplicar automaticamente o regime novo a fatos anteriores à reforma de 2021.",
+      "example": "Um processo antigo exige verificar datas e regras de transição.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, Art. 23; STF Tema 1199",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-improbidade-enriquecimento",
+      "term": "Enriquecimento ilícito na improbidade",
+      "aliases": [],
+      "definition": "Obtenção de vantagem econômica indevida em razão da função pública, conforme as hipóteses do art. 9º da LIA.",
+      "contrast": "Enriquecimento do agente no art. 9º não se confunde com dano ao erário no art. 10.",
+      "cebraspeTrap": "Exigir prejuízo ao erário como requisito universal de todo ato do art. 9º.",
+      "example": "Um gestor recebe vantagem indevida para favorecer empresa.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, Art. 9º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-improbidade-principios",
+      "term": "Improbidade por violação de princípios",
+      "aliases": [],
+      "definition": "Conduta dolosa enquadrada em uma das hipóteses específicas do art. 11 da LIA.",
+      "contrast": "Violação de princípio pode ser ilegal, mas só configura improbidade se atender ao tipo legal.",
+      "cebraspeTrap": "Considerar qualquer descumprimento da legalidade improbidade automática.",
+      "example": "Negar publicidade a ato oficial fora das exceções legais exige verificar o tipo e o dolo.",
+      "articleIds": [
+        "art-ea06e80ef83f4af7"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.429/1992, Art. 11",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

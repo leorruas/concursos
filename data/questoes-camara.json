@@ -38039,6 +38039,230 @@
       "correctAnswer": "C",
       "explanation": "A autorização orçamentária adicional não gera automaticamente caixa nem substitui empenho, liquidação e demais condições para pagamento.",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-040-credito-nao-resolve-caixa, gabarito C, mecanismo separar-orcamento-e-financas. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica automatizada em 13/11/2026: enunciado C, abertura de crédito suplementar não substitui disponibilidade financeira nem fases de despesa. Artigo 05, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação'. Lei 4.320/1964 arts. 40, 47 a 49, 58 a 65, texto atualizado Câmara: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem lexical Jaccard máxima 0,125; semântica e testes locais pendentes; não homologado."
+    },
+    {
+      "id": "cam-cpol-l028-001-pluralidade-sem-metade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "pluralidade-nao-exige-maioria-absoluta",
+      "mechanism": "aplicar-pluralidade-tres-candidatos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "Constituição Federal, arts. 29, II, e 46; distinção conceitual de pluralidade.",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Em uma eleição regida por maioria relativa, a candidatura que obtém 42% dos votos válidos pode vencer mesmo que as outras duas somem 58%.",
+      "correctAnswer": "C",
+      "explanation": "A pluralidade compara cada candidatura separadamente: 42% supera cada adversária se nenhuma tiver mais de 42%, sem exigir maioria absoluta.",
+      "reviewEvidence": "Pendente: cotejo semântico integral, confirmação normativa e gates CI. Fonte preliminar: Constituição Federal, arts. 29, II, e 46; distinção conceitual de pluralidade."
+    },
+    {
+      "id": "cam-cpol-l028-002-eleitorado-limiar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "limiar-eleitorado-municipal",
+      "mechanism": "distinguir-eleitores-de-habitantes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "Constituição Federal, art. 29, II.",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Regras brasileiras: cargos e condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Regras brasileiras: cargos e condições"
+      },
+      "statement": "A existência de mais de 200 mil habitantes em um município, por si só, torna obrigatório o segundo turno na eleição para prefeito.",
+      "correctAnswer": "E",
+      "explanation": "O art. 29, II, da Constituição adota o número de eleitores, não o de habitantes, como critério para aplicar o segundo turno.",
+      "reviewEvidence": "Pendente: cotejo semântico integral, confirmação normativa e gates CI. Fonte preliminar: Constituição Federal, art. 29, II."
+    },
+    {
+      "id": "cam-cpol-l028-003-senado-duas-vagas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "senado-renovacao-dois-tercos",
+      "mechanism": "separar-magnitude-de-proporcionalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "Constituição Federal, art. 46, §§ 1º e 2º.",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Regras brasileiras: cargos e condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Regras brasileiras: cargos e condições"
+      },
+      "statement": "Na renovação de dois terços do Senado Federal, a existência de duas vagas por unidade federativa transforma a eleição em disputa proporcional por quociente partidário.",
+      "correctAnswer": "E",
+      "explanation": "O Senado mantém eleição majoritária, inclusive quando duas vagas são preenchidas; não se usa quociente partidário para distribuir essas vagas.",
+      "reviewEvidence": "Pendente: cotejo semântico integral, confirmação normativa e gates CI. Fonte preliminar: Constituição Federal, art. 46, §§ 1º e 2º."
+    },
+    {
+      "id": "cam-cpol-l028-004-votos-validos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "denominador-maioria-absoluta",
+      "mechanism": "excluir-brancos-e-nulos-do-denominador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "Constituição Federal, art. 77, § 2º.",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Em eleição majoritária que exige maioria absoluta, os votos brancos e nulos devem integrar o denominador usado para verificar se a candidatura superou metade dos votos válidos.",
+      "correctAnswer": "E",
+      "explanation": "Brancos e nulos não são votos válidos para candidaturas; a maioria absoluta é calculada sobre os válidos.",
+      "reviewEvidence": "Pendente: cotejo semântico integral, confirmação normativa e gates CI. Fonte preliminar: Constituição Federal, art. 77, § 2º."
+    },
+    {
+      "id": "cam-cpol-l028-005-qp-fracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "qp-despreza-fracao",
+      "mechanism": "calcular-qp-sem-arredondar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "Código Eleitoral, art. 107.",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#2. Quociente partidário (QP)"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "2. Quociente partidário (QP)"
+      },
+      "statement": "Com quociente eleitoral de 10.000 e 47.000 votos válidos para uma federação, seu quociente partidário inicial corresponde a cinco cadeiras, após arredondamento de 4,7.",
+      "correctAnswer": "E",
+      "explanation": "No QP despreza-se a fração: 47.000/10.000 resulta em quatro cadeiras iniciais, não cinco.",
+      "reviewEvidence": "Pendente: cotejo semântico integral, confirmação normativa e gates CI. Fonte preliminar: Código Eleitoral, art. 107."
+    },
+    {
+      "id": "cam-cpol-l028-006-voto-legenda",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "voto-legenda-compoe-qe",
+      "mechanism": "agregar-voto-nominal-e-legenda",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "Código Eleitoral, art. 106.",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#1. Quociente eleitoral (QE)"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "1. Quociente eleitoral (QE)"
+      },
+      "statement": "Na apuração do quociente eleitoral de uma disputa proporcional, os votos válidos dados diretamente à legenda integram o total, ainda que não tenham sido atribuídos nominalmente a uma candidatura.",
+      "correctAnswer": "C",
+      "explanation": "O total de votos válidos proporcionais agrega votos nominais e de legenda; brancos e nulos são excluídos.",
+      "reviewEvidence": "Pendente: cotejo semântico integral, confirmação normativa e gates CI. Fonte preliminar: Código Eleitoral, art. 106."
+    },
+    {
+      "id": "cam-cpol-l028-007-minimo-nominal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "minimo-individual-distribuicao-inicial",
+      "mechanism": "testar-candidato-abaixo-de-dez-por-cento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "Código Eleitoral, art. 108.",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#2. Quociente partidário (QP)"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "2. Quociente partidário (QP)"
+      },
+      "statement": "Uma legenda que obtenha quatro cadeiras pelo quociente partidário pode preenchê-las com seus quatro candidatos mais votados mesmo que um deles não tenha alcançado 10% do quociente eleitoral.",
+      "correctAnswer": "E",
+      "explanation": "O preenchimento inicial exige votação nominal mínima de 10% do QE para cada eleito; a vaga não preenchida segue para as sobras.",
+      "reviewEvidence": "Pendente: cotejo semântico integral, confirmação normativa e gates CI. Fonte preliminar: Código Eleitoral, art. 108."
+    },
+    {
+      "id": "cam-cpol-l028-008-media-recalculada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "recalculo-medias-sobras",
+      "mechanism": "atualizar-denominador-apos-cadeira",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "Código Eleitoral, art. 109; Resolução TSE 23.677/2021, art. 11.",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "gerada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#3. Distribuição de sobras: maiores médias"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "3. Distribuição de sobras: maiores médias"
+      },
+      "statement": "Na distribuição de duas cadeiras remanescentes pelas maiores médias, a legenda que conquista a primeira deve ter seu denominador acrescido de uma cadeira para o cálculo da rodada seguinte.",
+      "correctAnswer": "C",
+      "explanation": "A média é votos da legenda divididos pelas cadeiras já atribuídas mais uma; a cadeira recebida modifica o denominador da próxima rodada.",
+      "reviewEvidence": "Pendente: cotejo semântico integral, confirmação normativa e gates CI. Fonte preliminar: Código Eleitoral, art. 109; Resolução TSE 23.677/2021, art. 11."
     }
   ]
 }

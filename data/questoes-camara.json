@@ -40755,6 +40755,174 @@
       "correctAnswer": "E",
       "explanation": "A adesão voluntária de um grupo não cria dever para os demais usuários. A produção compartilhada precisa respeitar a adesão e as responsabilidades institucionais.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado: A adesão voluntária de um grupo não cria dever para os demais usuários. A produção compartilhada precisa respeitar a adesão e as responsabilidades institucionais. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l038-001-defesa-limite-testemunhas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "defesa-limite-testemunhas",
+      "mechanism": "aplicar-limite-probatorio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Em processo de perda do mandato, o deputado oferece defesa escrita no prazo legal e arrola nove testemunhas. A tempestividade da defesa permite que ele arrole todas as nove.",
+      "correctAnswer": "E",
+      "explanation": "O código estabelece limite de oito testemunhas. O cumprimento do prazo da defesa não altera esse limite.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 14, § 4º, II. Critério conferido: O código estabelece limite de oito testemunhas. O cumprimento do prazo da defesa não altera esse limite. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l038-002-instrucao-prazo-pela-sancao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "instrucao-prazo-pela-sancao",
+      "mechanism": "distinguir-prazos-por-rito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Após a apresentação da defesa, o prazo improrrogável para diligências e instrução é maior no processo de perda do mandato que no processo de suspensão temporária do mandato.",
+      "correctAnswer": "C",
+      "explanation": "O código prevê quarenta dias úteis para perda e trinta dias úteis para suspensão temporária.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 14, § 4º, IV. Critério conferido: O código prevê quarenta dias úteis para perda e trinta dias úteis para suspensão temporária. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l038-003-rejeicao-parecer-novo-relator",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "rejeicao-parecer-novo-relator",
+      "mechanism": "aplicar-preferencia-sem-torna-la-obrigatoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Rejeitado o parecer original, a designação de novo relator é facultativa se nenhum membro tiver se manifestado contra o parecer durante a discussão.",
+      "correctAnswer": "E",
+      "explanation": "A rejeição obriga a designação de novo relator. A oposição manifestada durante a discussão é critério de preferência, não condição para designar.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 14, § 4º, V. Critério conferido: A rejeição obriga a designação de novo relator. A oposição manifestada durante a discussão é critério de preferência, não condição para designar. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l038-004-autorizacao-fiscal-quando-solicitada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "autorizacao-fiscal-quando-solicitada",
+      "mechanism": "distinguir-posse-e-solicitacao-posterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      },
+      "statement": "Mesmo tendo apresentado autorização de acesso aos dados fiscais ao assumir o mandato, o deputado deve apresentá-la quando solicitada pelo órgão competente.",
+      "correctAnswer": "C",
+      "explanation": "O código prevê a apresentação ao assumir o mandato e quando houver solicitação do órgão competente.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 18, I. Critério conferido: O código prevê a apresentação ao assumir o mandato e quando houver solicitação do órgão competente. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l038-005-impedimento-patrimonial-em-comissao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "impedimento-patrimonial-em-comissao",
+      "mechanism": "aplicar-dever-na-fase-da-apreciacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      },
+      "statement": "Ao iniciar-se na comissão a apreciação de matéria que envolve direta e especificamente seus interesses patrimoniais, o deputado deve declarar impedimento para votar, ainda que não haja votação prevista em Plenário.",
+      "correctAnswer": "C",
+      "explanation": "O dever alcança a apreciação em comissão e em Plenário e é acionado pela relação direta e específica com o interesse patrimonial.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 18, II. Critério conferido: O dever alcança a apreciação em comissão e em Plenário e é acionado pela relação direta e específica com o interesse patrimonial. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l038-006-sigilo-transferencia-votacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "sigilo-transferencia-votacao",
+      "mechanism": "identificar-modalidade-para-transferir-sigilo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "6. Autorização de acesso aos dados fiscais e impedimento patrimonial (art. 18)"
+      },
+      "statement": "A responsabilidade pelo sigilo dos dados fiscais pode ser transferida ao Conselho de Ética com aprovação de requerimento em votação simbólica.",
+      "correctAnswer": "E",
+      "explanation": "A transferência exige requerimento aprovado em votação nominal. O resultado simbólico não satisfaz essa exigência.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 18, § 3º. Critério conferido: A transferência exige requerimento aprovado em votação nominal. O resultado simbólico não satisfaz essa exigência. Dificuldade estimada."
     }
   ]
 }

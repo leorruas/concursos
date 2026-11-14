@@ -39495,6 +39495,286 @@
       "correctAnswer": "C",
       "explanation": "O regimento estabelece que a orientação de bancada não prejudica o início da votação nominal.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 192, § 2º-A. Critério de julgamento: O regimento estabelece que a orientação de bancada não prejudica o início da votação nominal. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l033-001-pericia-companheiro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal (Lei nº 9.784/1999)",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "pericia-companheiro",
+      "mechanism": "estender-impedimento-ao-vinculo-legal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#1. Imparcialidade processual: impedimento versus suspeição"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "1. Imparcialidade processual: impedimento versus suspeição"
+      },
+      "statement": "Em processo de autorização federal, o companheiro da servidora encarregada da instrução atua como perito. A servidora deve afastar-se ainda que não tenha interesse econômico no pedido.",
+      "correctAnswer": "C",
+      "explanation": "A participação do companheiro como perito é hipótese autônoma de impedimento. A inexistência de interesse econômico da servidora não elimina o vínculo previsto na lei.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 18, II. Critério: A participação do companheiro como perito é hipótese autônoma de impedimento. A inexistência de interesse econômico da servidora não elimina o vínculo previsto na lei. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l033-002-litigio-com-conjuge",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal (Lei nº 9.784/1999)",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "litigio-com-conjuge",
+      "mechanism": "classificar-litigio-por-sujeito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#1. Imparcialidade processual: impedimento versus suspeição"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "1. Imparcialidade processual: impedimento versus suspeição"
+      },
+      "statement": "Uma autoridade litiga judicialmente com o cônjuge do interessado em processo administrativo federal. Como o próprio interessado não é parte no litígio, a autoridade pode instruir o processo sem incorrer nessa hipótese de impedimento.",
+      "correctAnswer": "E",
+      "explanation": "O impedimento alcança litígio com o interessado, seu cônjuge ou companheiro. A identidade do cônjuge como parte basta para o enquadramento descrito.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 18, III. Critério: O impedimento alcança litígio com o interessado, seu cônjuge ou companheiro. A identidade do cônjuge como parte basta para o enquadramento descrito. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l033-003-suspeicao-coleguismo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal (Lei nº 9.784/1999)",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "suspeicao-coleguismo",
+      "mechanism": "avaliar-intensidade-do-vinculo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#1. Imparcialidade processual: impedimento versus suspeição"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "1. Imparcialidade processual: impedimento versus suspeição"
+      },
+      "statement": "Uma autoridade e o interessado apenas trabalham no mesmo andar e mantêm contato profissional eventual. Esses fatos, por si sós, caracterizam amizade íntima para fins de suspeição.",
+      "correctAnswer": "E",
+      "explanation": "A lei prevê amizade íntima. O contato profissional eventual descrito não demonstra a intensidade de vínculo necessária.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 20. Critério: A lei prevê amizade íntima. O contato profissional eventual descrito não demonstra a intensidade de vínculo necessária. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l033-004-suspeicao-indeferida-recurso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal (Lei nº 9.784/1999)",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "suspeicao-indeferida-recurso",
+      "mechanism": "identificar-recurso-na-incidencia-especifica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#1. Imparcialidade processual: impedimento versus suspeição"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "1. Imparcialidade processual: impedimento versus suspeição"
+      },
+      "statement": "O interessado pode recorrer contra o indeferimento de sua alegação de suspeição, mas a interposição desse recurso não suspende o processo administrativo.",
+      "correctAnswer": "C",
+      "explanation": "O art. 21 prevê possibilidade de recurso e expressamente lhe retira efeito suspensivo.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 21. Critério: O art. 21 prevê possibilidade de recurso e expressamente lhe retira efeito suspensivo. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l033-005-motivacao-modelo-e-defesa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal (Lei nº 9.784/1999)",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "motivacao-modelo-e-defesa",
+      "mechanism": "testar-limite-da-padronizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#2. A motivação dos atos decisórios no processo administrativo (art. 50)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "2. A motivação dos atos decisórios no processo administrativo (art. 50)"
+      },
+      "statement": "Uma agência federal usa texto idêntico em decisões sobre pedidos semelhantes. Em um dos casos, essa reprodução impede o interessado de identificar a razão pela qual sua situação particular levou ao indeferimento. A semelhança dos pedidos torna suficiente a motivação padronizada.",
+      "correctAnswer": "E",
+      "explanation": "A reprodução de fundamentos é permitida em assuntos semelhantes desde que não prejudique direitos ou garantias. O prejuízo descrito impede validar a padronização nesse caso.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 50, § 2º. Critério: A reprodução de fundamentos é permitida em assuntos semelhantes desde que não prejudique direitos ou garantias. O prejuízo descrito impede validar a padronização nesse caso. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l033-006-motivacao-colegiado-registro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal (Lei nº 9.784/1999)",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "motivacao-colegiado-registro",
+      "mechanism": "aplicar-dever-de-documentacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#2. A motivação dos atos decisórios no processo administrativo (art. 50)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "2. A motivação dos atos decisórios no processo administrativo (art. 50)"
+      },
+      "statement": "Um colegiado federal decide oralmente um recurso e expõe os fatos e fundamentos jurídicos que sustentam o resultado. A motivação deve constar da ata ou de termo escrito.",
+      "correctAnswer": "C",
+      "explanation": "A exposição oral não dispensa o registro da motivação. A lei prevê ata ou termo escrito para decisões colegiadas ou orais.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 50, § 3º. Critério: A exposição oral não dispensa o registro da motivação. A lei prevê ata ou termo escrito para decisões colegiadas ou orais. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l033-007-motivacao-reexame-oficio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal (Lei nº 9.784/1999)",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "motivacao-reexame-oficio",
+      "mechanism": "reconhecer-dever-sem-provocacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#2. A motivação dos atos decisórios no processo administrativo (art. 50)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "2. A motivação dos atos decisórios no processo administrativo (art. 50)"
+      },
+      "statement": "Uma autoridade federal decide em reexame de ofício e mantém o resultado anterior. Por não ter havido recurso nem alteração do resultado, a decisão de reexame dispensa motivação.",
+      "correctAnswer": "E",
+      "explanation": "O dever de motivar alcança os atos decorrentes de reexame de ofício, independentemente de recurso ou mudança do resultado.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 50, VI. Critério: O dever de motivar alcança os atos decorrentes de reexame de ofício, independentemente de recurso ou mudança do resultado. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l033-008-prazo-recursal-recebimento-autos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal (Lei nº 9.784/1999)",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "prazo-recursal-recebimento-autos",
+      "mechanism": "identificar-marco-do-julgamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#3. O sistema recursal administrativo na Lei nº 9.784/1999 (arts. 56 a 65)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "3. O sistema recursal administrativo na Lei nº 9.784/1999 (arts. 56 a 65)"
+      },
+      "statement": "59, § 1º",
+      "correctAnswer": "C",
+      "explanation": "O recebimento dos autos pelo órgão competente é o marco do prazo decisório. O protocolo do recurso é ato diverso e pode ocorrer antes.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 59, §§ 1º e 2º. Critério: O recebimento dos autos pelo órgão competente é o marco do prazo decisório. O protocolo do recurso é ato diverso e pode ocorrer antes. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l033-009-prazo-recursal-prorrogacao-justificada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal (Lei nº 9.784/1999)",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "prazo-recursal-prorrogacao-justificada",
+      "mechanism": "distinguir-prorrogacao-e-prazo-inicial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#3. O sistema recursal administrativo na Lei nº 9.784/1999 (arts. 56 a 65)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "3. O sistema recursal administrativo na Lei nº 9.784/1999 (arts. 56 a 65)"
+      },
+      "statement": "Na ausência de prazo legal específico, o órgão que julga recurso administrativo dispõe automaticamente de sessenta dias para decidir, sem precisar justificar o uso dos trinta dias adicionais.",
+      "correctAnswer": "E",
+      "explanation": "A regra geral concede trinta dias. A extensão por igual período depende de justificativa explícita.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 59, §§ 1º e 2º. Critério: A regra geral concede trinta dias. A extensão por igual período depende de justificativa explícita. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l033-010-revisao-sancao-fato-novo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal (Lei nº 9.784/1999)",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "revisao-sancao-fato-novo",
+      "mechanism": "classificar-reabertura-por-fato-novo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#4. Confronto crucial: *reformatio in pejus* no recurso versus vedação na revisão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "4. Confronto crucial: *reformatio in pejus* no recurso versus vedação na revisão"
+      },
+      "statement": "Encerrado o prazo recursal, é encontrada prova nova capaz de demonstrar a inadequação de sanção administrativa. A Administração pode instaurar revisão de ofício mesmo sem pedido da pessoa sancionada.",
+      "correctAnswer": "C",
+      "explanation": "A revisão por fatos novos ou circunstâncias relevantes é cabível a qualquer tempo, a pedido ou de ofício, quando possam evidenciar a inadequação da sanção.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 65, caput. Critério: A revisão por fatos novos ou circunstâncias relevantes é cabível a qualquer tempo, a pedido ou de ofício, quando possam evidenciar a inadequação da sanção. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
     }
   ]
 }

@@ -47699,6 +47699,62 @@
       "correctAnswer": "C",
       "explanation": "A coordenação é atribuída a uma estrutura criada para administrar a rede. A existência dessa estrutura diferencia o caso da coordenação direta pelos membros ou concentrada em um deles.",
       "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. A coordenação é atribuída a uma estrutura criada para administrar a rede. A existência dessa estrutura diferencia o caso da coordenação direta pelos membros ou concentrada em um deles. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l121-001-controle-procedimental-e-metas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / modelos de administração pública",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "controle-procedimental-e-metas",
+      "mechanism": "identificar-coexistencia-de-criterios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Modelos coexistem"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Modelos coexistem"
+      },
+      "statement": "Um órgão seleciona servidores por concurso, exige controles formais de contratação e avalia o atendimento por metas de prazo. A presença de mecanismos burocráticos é compatível com o uso de instrumentos gerenciais no mesmo órgão.",
+      "correctAnswer": "C",
+      "explanation": "A seleção impessoal e os controles formais coexistem com práticas voltadas à mensuração de resultados.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A seleção impessoal e os controles formais coexistem com práticas voltadas à mensuração de resultados. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l121-002-meta-sem-verificacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / modelos de administração pública",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "meta-sem-verificacao",
+      "mechanism": "distinguir-pacto-e-monitoramento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Contratualização de resultados e instrumentos de pactuação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Contratualização de resultados e instrumentos de pactuação"
+      },
+      "statement": "Um acordo define a meta de reduzir a espera para dez minutos, mas nenhuma unidade mede o tempo de atendimento. A assinatura do acordo já demonstra que a meta foi atingida.",
+      "correctAnswer": "E",
+      "explanation": "O acordo registra o resultado pretendido. Para verificar o seu alcance, é preciso medir a espera e comparar o valor observado com a meta.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O acordo registra o resultado pretendido. Para verificar o seu alcance, é preciso medir a espera e comparar o valor observado com a meta. Dificuldade estimada."
     }
   ]
 }

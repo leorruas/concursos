@@ -109,7 +109,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 </head>
 <body class="questoes-page">
 <div class="qs-shell">
-<nav class="qs-nav"><a class="qs-brand" href="index.html">concursos <span>/ questões</span></a><div class="qs-links"><a href="index.html">biblioteca</a><a href="flashcards.html">flashcards</a><a href="resultados.html">meus resultados</a><button id="qs-theme" type="button">modo claro</button></div></nav>
+<nav class="study-topbar" data-active="questions" aria-label="Ferramentas de estudo"><a class="study-topbar__brand" data-study-nav="library" href="index.html">concursos <span>• leorruas</span></a><div class="study-topbar__links"><a data-study-nav="library" href="index.html">biblioteca</a><a data-study-nav="glossary" href="index.html#/glossario?concurso=camara-2026">glossário</a><a data-study-nav="flashcards" href="flashcards.html">flashcards</a><a data-study-nav="questions" href="questoes.html">questões</a><a data-study-nav="results" href="resultados.html">meus resultados</a><button type="button" id="qs-theme">modo claro</button></div></nav>
 <header class="qs-hero"><span class="qs-eyebrow">ESTUDO ATIVO / CONCURSOS</span><h1>questões.</h1><p>Pratique com o banco revisado. Ao terminar, veja os conceitos que exigem atenção e os artigos para retomar a leitura.</p></header>
 <p id="qs-status" role="status" aria-live="polite">Carregando questões…</p>
 <section class="qs-panel" id="qs-config" hidden>
@@ -154,5 +154,6 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 </section>
 <footer class="qs-footer" id="qs-sync">Seu histórico não é publicado no repositório de questões.</footer>
 </div>
+<script src="web/16-study-nav.js" defer></script>
 <script src="web/15-questoes-ui.js" defer></script>
 </body></html>

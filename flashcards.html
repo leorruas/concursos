@@ -6,9 +6,9 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="flashcards-page">
-<header class="fc-header"><a href="index.html" class="fc-brand">concursos<span> / flashcards</span></a><a href="questoes.html" style="margin-left:auto;margin-right:16px;color:var(--accent-blue);font-size:.86rem">questões</a><button id="fc-theme" type="button">Alternar tema</button></header>
+<nav class="study-topbar" data-active="flashcards" aria-label="Ferramentas de estudo"><a class="study-topbar__brand" data-study-nav="library" href="index.html">concursos <span>• leorruas</span></a><div class="study-topbar__links"><a data-study-nav="library" href="index.html">biblioteca</a><a data-study-nav="glossary" href="index.html#/glossario?concurso=camara-2026">glossário</a><a data-study-nav="flashcards" href="flashcards.html">flashcards</a><a data-study-nav="questions" href="questoes.html">questões</a><a data-study-nav="results" href="resultados.html">meus resultados</a><button type="button" id="fc-theme">modo claro</button></div></nav>
 <main class="fc-main">
-<div class="fc-page-heading"><p class="fc-eyebrow">CADERNO DE MEMÓRIA</p><h1>Vocabulário de prova.</h1><p class="fc-intro">Entenda os termos. Recupere de memória. Volte ao que ainda precisa de atenção.</p></div>
+<div class="fc-page-heading"><p class="fc-eyebrow">REVISÃO ATIVA / CONCURSOS</p><h1>flashcards.</h1><p class="fc-intro">Entenda os termos. Recupere de memória. Volte ao que ainda precisa de atenção.</p></div>
 <p id="fc-status" role="status" aria-live="polite">Carregando coleção…</p>
 <section id="fc-dashboard" hidden>
 <div class="fc-section-label"><h2>Seu repertório</h2><span>lembrar é diferente de reconhecer</span></div>
@@ -49,4 +49,5 @@
 <noscript>Ative JavaScript para estudar e salvar o progresso neste dispositivo.</noscript>
 </main>
 <script src="web/00-route-utils.js"></script><script src="web/09-flashcards-engine.js"></script><script src="web/11-priority-sync.js"></script><script src="web/12-progress-sync.js"></script><script src="web/10-flashcards-ui.js"></script>
+<script src="web/16-study-nav.js" defer></script>
 </body></html>

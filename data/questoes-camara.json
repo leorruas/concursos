@@ -47111,6 +47111,62 @@
       "correctAnswer": "E",
       "explanation": "Projetor é um tipo de equipamento. A troca acrescenta uma identificação específica que o trecho original não fornece.",
       "reviewEvidence": "Revisão por IA com conferência do mecanismo na seção indicada. Projetor é um tipo de equipamento. A troca acrescenta uma identificação específica que o trecho original não fornece. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l111-001-aviso-suportes-distintos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gêneros textuais",
+      "articleId": "art-61af04b165d9d678",
+      "conceptId": "aviso-suportes-distintos",
+      "mechanism": "isolar-mudanca-do-meio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#2. Fundamentação Teórica: Bakhtin e Marcuschi"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/16 - genero textual situacao de uso suporte e finalidade.md",
+        "section": "2. Fundamentação Teórica: Bakhtin e Marcuschi"
+      },
+      "statement": "Um aviso de interrupção do atendimento é afixado na entrada de um posto e reproduzido integralmente no portal do órgão, com a mesma finalidade. A mudança de suporte, sozinha, obriga a classificar a versão digital em outro gênero.",
+      "correctAnswer": "E",
+      "explanation": "O suporte é o meio em que o texto circula. Para identificar o gênero, consideram-se a situação de uso e a finalidade, que permanecem no caso.",
+      "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. O suporte é o meio em que o texto circula. Para identificar o gênero, consideram-se a situação de uso e a finalidade, que permanecem no caso. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l111-002-relato-incorporado-ao-parecer",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / gêneros textuais",
+      "articleId": "art-61af04b165d9d678",
+      "conceptId": "relato-incorporado-ao-parecer",
+      "mechanism": "distinguir-sequencia-local-e-finalidade-global",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61af04b165d9d678#3. Dinâmica dos Gêneros na Esfera Pública e Legislativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/16 - genero textual situacao de uso suporte e finalidade.md",
+        "section": "3. Dinâmica dos Gêneros na Esfera Pública e Legislativa"
+      },
+      "statement": "Um parecer relata em ordem cronológica as inspeções feitas antes de recomendar providências. A presença desse relato é compatível com a função de fundamentar uma recomendação.",
+      "correctAnswer": "C",
+      "explanation": "A sequência narrativa organiza os fatos utilizados na análise. A função do parecer é avaliada pelo texto como um todo.",
+      "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. A sequência narrativa organiza os fatos utilizados na análise. A função do parecer é avaliada pelo texto como um todo. Dificuldade estimada."
     }
   ]
 }

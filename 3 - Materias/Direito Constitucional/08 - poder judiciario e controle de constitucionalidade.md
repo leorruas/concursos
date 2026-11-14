@@ -58,33 +58,58 @@ Os dois vícios podem coexistir. A popularidade, conveniência política ou perc
 
 ## Controle difuso × controle concentrado
 
-Aqui a pergunta muda: **de que maneira a constitucionalidade entrou na discussão judicial?** A mesma regra constitucional pode ser examinada por caminhos diferentes. Por isso, não use *difuso* como sinônimo de vício formal nem *concentrado* como sinônimo de vício material.
+Imagine uma lei que **proíba manifestações pacíficas em praças públicas**. A Constituição protege a liberdade de reunião (art. 5º, XVI). A mesma dúvida constitucional sobre essa lei pode chegar ao Judiciário por dois caminhos.
 
-| Caminho | Pergunta central do processo | Exemplo de situação |
+### Controle difuso: a lei é questionada dentro de um caso concreto
+
+Uma pessoa recebe multa por participar da manifestação e entra na Justiça para **anular a multa**. O juiz, para decidir esse pedido, precisa verificar se a lei aplicada à pessoa respeita a Constituição. A questão principal do processo é a multa; a constitucionalidade aparece **incidentalmente**, como uma questão necessária para resolver o caso.
+
+Esse é o **controle difuso**. Pode ser exercido por qualquer juiz ou tribunal competente, observadas as regras processuais e, nos tribunais, a reserva de plenário quando aplicável (art. 97 e Súmula Vinculante 10). Uma pessoa não precisa integrar o rol do art. 103 para questionar a lei no próprio processo.
+
+**Efeito típico:** se a multa for anulada, a decisão resolve o litígio entre aquelas partes (**inter partes**). Isso não significa que o controle difuso *nunca* tenha efeitos mais amplos: precedentes vinculantes e outros mecanismos podem projetar sua orientação para além do processo.
+
+**Atenção:** o **STF também realiza controle difuso**, por exemplo quando julga recurso extraordinário surgido de uma disputa concreta. A identidade do tribunal, isoladamente, não define a modalidade de controle.
+
+### Controle concentrado: a constitucionalidade da norma é o próprio pedido
+
+Agora, mantenha a **mesma lei**, mas altere o pedido. Um **partido político com representação no Congresso Nacional**, legitimado pelo art. 103, VIII, propõe uma **Ação Direta de Inconstitucionalidade (ADI)** no STF, pedindo que seja declarada a inconstitucionalidade da lei em si. Não é preciso que a discussão comece com a multa de uma pessoa.
+
+Esse é o **controle concentrado**: certas ações são julgadas por um órgão definido pela Constituição. No plano federal, o controle abstrato cabe ao **STF**. Há também controle concentrado estadual perante **Tribunais de Justiça**, nos termos do art. 125, § 2º, com a Constituição estadual como parâmetro.
+
+**Efeito típico:** uma decisão definitiva de mérito em ADI ou ADC tem eficácia **contra todos (erga omnes)** e efeito **vinculante** sobre os demais órgãos do Judiciário e a administração pública (art. 102, § 2º), respeitadas hipóteses legais de modulação. *Contra todos* refere-se ao alcance da decisão; *vinculante* significa que os órgãos abrangidos devem observá-la.
+
+**Quem pode propor:** no controle abstrato federal, a legitimidade é restrita. O art. 103 lista os legitimados para ADI e ADC, explicados adiante. A pessoa multada, apenas por ser cidadã, não pode ajuizar ADI.
+
+### Comparação: a mesma lei por duas vias
+
+| Pergunta | Difuso | Concentrado |
 | :--- | :--- | :--- |
-| **Difuso, incidental** | Como resolver o conflito concreto entre partes, inclusive a questão sobre a validade de uma lei? | Uma pessoa pede proteção de seu direito, e aplicar certa lei ao caso exigiria enfrentar sua constitucionalidade |
-| **Concentrado, abstrato** | A norma ou omissão é compatível com a Constituição, nos limites da ação proposta? | Um legitimado apresenta ação direta perante o STF para questionar uma lei em tese |
+| **Pedido principal** | Anular a multa individual | Julgar diretamente a constitucionalidade da lei |
+| **Papel da questão constitucional** | Incidental, para resolver um caso concreto | Objeto principal da ação |
+| **Quem julga** | Juízes e tribunais competentes, inclusive STF em recursos | STF no controle abstrato federal; TJ no estadual |
+| **Quem provoca** | Parte no processo, pelas vias processuais cabíveis | Legitimados constitucionais específicos |
+| **Efeitos típicos** | Entre as partes, com ressalvas sobre precedentes e outros mecanismos | Gerais e vinculantes, nas decisões definitivas de mérito em ADI/ADC |
 
-### Controle difuso
+**Não misture classificações:** *formal* e *material* indicam **qual é o defeito** da lei; *difuso* e *concentrado* indicam **como a constitucionalidade é examinada**. O mesmo vício material pode ser discutido por ambas as vias.
 
-O controle difuso surge **incidentalmente em um caso concreto**. A questão constitucional é necessária para solucionar a controvérsia principal.
+**Reserva de plenário:** juiz singular pode afastar a aplicação de lei inconstitucional no caso. Em tribunal, uma turma ou câmara deve observar o art. 97 e a Súmula Vinculante 10 quando afasta norma por fundamento constitucional, salvo hipóteses processuais de dispensa de nova remessa ao plenário ou órgão especial. A seção específica adiante detalha a regra.
 
-Pode ser realizado por juiz singular e por tribunais, observadas as regras constitucionais aplicáveis aos órgãos colegiados. Em sua formulação clássica, a decisão resolve **o caso das partes**. Há mecanismos constitucionais e processuais capazes de ampliar ou tornar obrigatória a orientação firmada em certas decisões, por isso **controle difuso não significa que uma decisão jamais possa ter repercussões além das partes**. O cuidado é não atribuir automaticamente a todo julgamento difuso o efeito geral típico do controle abstrato. As condições concretas da decisão e do precedente importam.
+### Instrumentos do controle concentrado federal
 
-### Controle concentrado
+- **ADI:** questiona a constitucionalidade de lei ou ato normativo **federal ou estadual** perante a Constituição Federal;
+- **ADC:** busca confirmar a constitucionalidade de lei ou ato normativo **federal**, observados seus requisitos, entre eles controvérsia judicial relevante;
+- **ADO:** questiona a ausência de providência exigida pela Constituição para tornar efetiva uma norma constitucional;
+- **ADPF:** procura evitar ou reparar lesão a **preceito fundamental**, nas hipóteses legais. Pode alcançar determinados atos municipais ou anteriores à Constituição de 1988, mas exige **subsidiariedade**: ausência de outro meio eficaz para sanar a lesão.
 
-No controle concentrado, a constitucionalidade é discutida **como objeto principal** da ação perante o órgão constitucionalmente competente. No STF, entre os instrumentos centrais estão:
+**Pegadinhas:** ADC não tem por objeto lei estadual no art. 102, I, a. Lei municipal não é automaticamente objeto de ADI perante o STF nem automaticamente de ADPF: o cabimento depende dos requisitos da ação.
 
-- **Ação Direta de Inconstitucionalidade (ADI):** questiona se uma lei ou ato normativo **federal ou estadual** é contrário à Constituição. Exemplo: uma lei estadual que imponha restrição incompatível com um direito constitucional;
-- **Ação Declaratória de Constitucionalidade (ADC):** busca uma decisão que confirme a constitucionalidade de uma lei ou ato normativo **federal**, nas condições legais. Exemplo: quando decisões judiciais divergentes geram controvérsia relevante sobre uma norma federal;
-- **Ação Direta de Inconstitucionalidade por Omissão (ADO):** discute a **falta de medida necessária para cumprir a Constituição**. Exemplo: a Constituição impõe um dever de regulamentar determinado direito, mas a providência exigida não é adotada. Aqui o problema é a **omissão**, não necessariamente o conteúdo de uma lei existente;
-- **Arguição de Descumprimento de Preceito Fundamental (ADPF):** busca evitar ou reparar lesão a **preceito fundamental**, que é uma norma ou princípio especialmente importante da ordem constitucional. Pode alcançar situações e atos que não se enquadram na ADI, inclusive em certas hipóteses atos municipais ou anteriores à Constituição de 1988. O **princípio da subsidiariedade** exige que não exista outro meio eficaz de sanar a lesão, conforme a Lei nº 9.882/1999 e a jurisprudência do STF.
+**Treino Cebraspe, itens autorais:**
 
-**Um modo de diferenciar:** na ADI, questiona-se a validade de uma norma; na ADC, busca-se confirmar a constitucionalidade de norma federal; na ADO, o centro é uma **providência constitucionalmente exigida que faltou**; na ADPF, examina-se lesão a preceito fundamental com requisitos próprios, inclusive subsidiariedade. **ADI e ADC não têm exatamente o mesmo objeto**. As quatro ações seguem procedimentos e hipóteses de cabimento próprios.
+1. “O STF, ao julgar recurso extraordinário originado em um processo concreto, realiza necessariamente controle concentrado.” **Errado:** pode realizar controle difuso.
+2. “O juiz de primeira instância pode examinar incidentalmente a constitucionalidade de lei para decidir uma demanda.” **Certo:** não se exige reserva de plenário de juiz singular.
+3. “Toda decisão de controle difuso produz efeitos exclusivamente entre as partes, sem qualquer exceção.” **Errado:** o sistema admite mecanismos de ampliação dos efeitos e precedentes obrigatórios.
 
-As decisões definitivas de mérito do STF em **ADI e ADC** produzem eficácia contra todos e efeito vinculante em relação aos demais órgãos do Poder Judiciário e à Administração Pública direta e indireta, nos termos do art. 102, §2º.
-
-**Pegadinha:** **ADC não tem como objeto lei estadual** no art. 102, I, a; **ADI no STF** pode ter por objeto lei ou ato normativo federal ou estadual. Quando um enunciado menciona **lei municipal** ou **norma anterior a 1988**, não conclua que a ADPF é automaticamente cabível: verifique seus requisitos, especialmente a subsidiariedade. **Controle concentrado também existe no plano estadual**, perante Tribunais de Justiça, nas hipóteses do art. 125, § 2º, da CF. Não associe toda ação de controle concentrado necessariamente ao STF.
+**Base normativa:** CF, arts. 5º, XVI, 97, 102, I, a e § 2º, 103 e 125, § 2º; Leis nº 9.868/1999 e nº 9.882/1999; Súmula Vinculante 10.
 
 ### Legitimados do controle abstrato e pertinência temática
 

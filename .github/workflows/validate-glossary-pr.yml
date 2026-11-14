@@ -50,6 +50,14 @@ jobs:
           trap 'kill "$server_pid" 2>/dev/null || true; wait "$server_pid" 2>/dev/null || true' EXIT
           curl --fail --silent --show-error --retry 10 --retry-connrefused --retry-delay 1 --max-time 2 http://127.0.0.1:8765/ >/dev/null
           timeout --signal=TERM --kill-after=10s 180s node scripts/test-glossary-browser.cjs
+          timeout --signal=TERM --kill-after=10s 180s node scripts/test-quiz-browser.cjs
+      - name: Anexar capturas do fluxo de questões
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: capturas-questoes
+          path: quiz-visual-evidence/
+          if-no-files-found: ignore
       - name: Anexar capturas do glossário
         if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4

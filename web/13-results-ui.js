@@ -103,30 +103,107 @@ function render(){
  root.hidden=false;
 }
 
-async function loadQuizResults(examId){
+
+/* Recomendações de leitura das baterias do site, calculadas somente após autenticação. */
+let quizBank=null,loadVersion=0;
+async function quizQuestions(){
+ if(quizBank)return quizBank;
+ const r=await fetch('/data/questoes-publicas.json',{cache:'no-store'});
+ if(!r.ok)throw Error('Banco de questões indisponível');
+ const x=await r.json();
+ if(x.version!==1||!Array.isArray(x.questions))throw Error('Catálogo incompatível');
+ quizBank=new Map(x.questions.map(q=>[q.id,q]));
+ return quizBank;
+}
+function quizPriorityGroups(attempts,questionMap,examId,cutoff){
+ const groups=new Map();
+ for(const a of attempts){
+  if(a.concursoId!==examId||(cutoff&&Number(a.answeredAt)<cutoff))continue;
+  const q=questionMap.get(a.questionId);
+  if(!q?.articleId||q.concursoId!==examId)continue;
+  const error=a.result==='incorrect',unsure=a.result==='correct'&&a.confidence==='insecure',blank=a.result==='blank';
+  if(!error&&!unsure&&!blank)continue;
+  const weight=error?(a.confidence==='secure'?8:6):unsure?2:1;
+  const g=groups.get(q.articleId)||{articleId:q.articleId,score:0,errors:0,secureErrors:0,uncertainCorrect:0,blanks:0,sections:new Map()};
+  g.score+=weight;
+  if(error){g.errors++;if(a.confidence==='secure')g.secureErrors++;}
+  if(unsure)g.uncertainCorrect++;
+  if(blank)g.blanks++;
+  const section=q.section||'';
+  g.sections.set(section,(g.sections.get(section)||0)+weight);
+  groups.set(q.articleId,g);
+ }
+ return [...groups.values()].map(g=>({...g,section:[...g.sections].sort((a,b)=>b[1]-a[1])[0]?.[0]||''}))
+  .sort((a,b)=>b.score-a.score||b.secureErrors-a.secureErrors||b.errors-a.errors||a.articleId.localeCompare(b.articleId));
+}
+function quizPriorityReason(g){
+ const p=[];
+ if(g.errors)p.push(g.errors+' erro'+(g.errors===1?'':'s')+(g.secureErrors?' ('+g.secureErrors+' com segurança declarada)':''));
+ if(g.uncertainCorrect)p.push(g.uncertainCorrect+' acerto'+(g.uncertainCorrect===1?'':'s')+' inseguro'+(g.uncertainCorrect===1?'':'s'));
+ if(g.blanks)p.push(g.blanks+' em branco');
+ return p.join(' · ');
+}
+function quizArticleLink(articleId,section,examId){
+ const m=manifest.get(articleId);
+ return WORKER+'/estudo/#/artigo/'+encodeURIComponent(m?.articleSlug||articleId)+
+  '?concurso='+encodeURIComponent(examId)+(section?'&secao='+encodeURIComponent(section):'');
+}
+function showQuizPriorities(attempts,questionMap,examId,now){
+ const root=$('results-quiz-priorities');
+ if(!root)return;
+ const sorted=quizPriorityGroups(attempts,questionMap,examId,now-30*86400000).slice(0,7);
+ root.replaceChildren();
+ $('results-quiz-priority-description').textContent=sorted.length
+  ?'Ordem sugerida pelos erros e acertos inseguros dos últimos 30 dias. A lista indica onde revisar, não mede retenção.'
+  :'Sem erros, acertos inseguros ou respostas em branco registrados nos últimos 30 dias.';
+ sorted.forEach((g,i)=>{
+  const article=el('article','results-quiz-priority'),left=el('div');
+  const tag=el('span','results-section-label',String(i+1).padStart(2,'0')+' · '+(g.errors?'revisar primeiro':'reforçar'));
+  const name=el('strong','',manifest.get(g.articleId)?.tituloExibicao||manifest.get(g.articleId)?.titulo||'Artigo vinculado');
+  const reason=el('small','',quizPriorityReason(g));
+  left.append(tag,name,reason);
+  if(g.section)left.append(el('small','','Trecho: '+g.section));
+  const link=el('a','','Ler trecho');
+  link.href=quizArticleLink(g.articleId,g.section,examId);link.rel='noreferrer';
+  article.append(left,link);root.append(article);
+ });
+}
+async function loadQuizResults(examId,version){
  const statusQuiz=$('results-quiz-status'),stats=$('results-quiz-stats'),subjects=$('results-quiz-subjects');
- if(!statusQuiz||!stats||!subjects)return;
- statusQuiz.textContent='Consultando tentativas da interface de questões…';
- stats.replaceChildren();subjects.replaceChildren();
+ const periods=$('results-quiz-periods'),priorities=$('results-quiz-priorities');
+ statusQuiz.textContent='Consultando respostas do site…';
+ stats.replaceChildren();subjects.replaceChildren();periods.replaceChildren();priorities.replaceChildren();
  try{
   const response=await fetch('/v1/study/quiz?concurso='+encodeURIComponent(examId),{
    credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}
   });
+  if(version!==loadVersion)return {authenticated:false,stale:true};
+  if(response.status===401){
+   statusQuiz.textContent='Entre com sua conta GitHub para consultar as baterias.';
+   return {authenticated:false};
+  }
   if(!response.ok)throw Error('HTTP '+response.status);
-  const result=await response.json();
-  if(!result||result.version!==1||!Array.isArray(result.attempts))throw Error('Formato inesperado');
-  if(select.value!==examId)return;
-  const attempts=result.attempts.filter(a=>a&&a.concursoId===examId&&['correct','incorrect','blank'].includes(a.result));
-  const correct=attempts.filter(a=>a.result==='correct').length;
-  const wrong=attempts.filter(a=>a.result==='incorrect').length;
-  const now=Date.now(),seven=7*86400000,thirty=30*86400000;
-  const recent=ms=>attempts.filter(a=>Number.isFinite(Number(a.answeredAt))&&Number(a.answeredAt)<=now&&now-Number(a.answeredAt)<ms).length;
-  const percentage=correct+wrong?Math.round(1000*correct/(correct+wrong))/10+'%':'Sem amostra';
+  const payload=await response.json();
+  if(payload?.version!==1||!Array.isArray(payload.attempts))throw Error('Resposta de questões inválida');
+  if(version!==loadVersion)return {authenticated:false,stale:true};
+  const attempts=payload.attempts.filter(a=>a?.concursoId===examId&&['correct','incorrect','blank'].includes(a.result));
+  const now=Date.now(),lastSession=attempts.length?[...attempts].sort((a,b)=>b.answeredAt-a.answeredAt)[0].sessionId:null;
+  const last=attempts.filter(a=>a.sessionId===lastSession);
+  const lastCorrect=last.filter(a=>a.result==='correct').length;
+  const lastWrong=last.filter(a=>a.result==='incorrect').length;
+  const lastUnsure=last.filter(a=>a.result==='correct'&&a.confidence==='insecure').length;
+  const rate=rows=>{const judged=rows.filter(a=>a.result!=='blank');return judged.length?(100*judged.filter(a=>a.result==='correct').length/judged.length).toFixed(0)+'%':'sem amostra';};
+  const recent=days=>attempts.filter(a=>a.answeredAt<=now&&a.answeredAt>=now-days*86400000);
   stats.replaceChildren(
-   stat('Tentativas no site',attempts.length),
-   stat('Últimos 7 dias',recent(seven)),
-   stat('Últimos 30 dias',recent(thirty)),
-   stat('Acerto entre respondidas',percentage)
+   stat('Última bateria',last.length?lastCorrect+'/'+last.length:'Sem respostas'),
+   stat('Acerto na última',rate(last)),
+   stat('Erros na última',lastWrong),
+   stat('Acertos inseguros',lastUnsure)
+  );
+  periods.replaceChildren(
+   el('span','','Últimos 7 dias: '+recent(7).length+' tentativas · '+rate(recent(7))),
+   el('span','','Últimos 30 dias: '+recent(30).length+' tentativas · '+rate(recent(30))),
+   el('span','','Histórico no site: '+attempts.length+' tentativas')
   );
   const grouped=new Map();
   for(const a of attempts){
@@ -136,18 +213,21 @@ async function loadQuizResults(examId){
    if(a.result==='correct')item.correct++;
    if(a.result==='incorrect')item.incorrect++;
   }
-  const sorted=[...grouped.values()].sort((a,b)=>b.total-a.total||title(a.id).localeCompare(title(b.id),'pt-BR'));
-  subjects.replaceChildren(...sorted.map(v=>{
-   const tr=el('tr'),answered=v.correct+v.incorrect;
-   for(const value of [title(v.id),v.total,v.correct,v.incorrect,answered?(100*v.correct/answered).toFixed(1)+'%':'Sem amostra'])tr.append(el('td','',value));
+  subjects.replaceChildren(...[...grouped.values()].sort((a,b)=>b.total-a.total||title(a.id).localeCompare(title(b.id),'pt-BR')).map(v=>{
+   const tr=el('tr'),judged=v.correct+v.incorrect;
+   for(const x of [title(v.id),v.total,v.correct,v.incorrect,judged?(100*v.correct/judged).toFixed(1)+'%':'Sem amostra'])tr.append(el('td','',x));
    return tr;
   }));
+  try{showQuizPriorities(attempts,await quizQuestions(),examId,now);}
+  catch{$('results-quiz-priority-description').textContent='Seus resultados foram recuperados, mas os vínculos com os artigos estão temporariamente indisponíveis.';}
   statusQuiz.textContent=attempts.length
-   ?'Tentativas autenticadas no site: até 5.000 registros recentes, separados do histórico consolidado no cofre. A mesma resposta não entra duas vezes neste painel.'
-   :'Ainda não há respostas da interface de questões sincronizadas para este concurso.';
- }catch{
-  if(select.value!==examId)return;
-  statusQuiz.textContent='O histórico da interface de questões está indisponível no momento. Os resultados consolidados abaixo continuam independentes.';
+   ?'Respostas sincronizadas no banco privado. As prioridades abaixo já incluem suas tentativas do site.'
+   :'Ainda não há questões sincronizadas para este concurso.';
+  return {authenticated:true};
+ }catch(e){
+  if(version!==loadVersion)return {authenticated:false,stale:true};
+  statusQuiz.textContent='Histórico das baterias indisponível ('+e.message+'). As respostas já salvas não são apagadas.';
+  return {authenticated:false};
  }
 }
 async function manifestLoad(){
@@ -155,29 +235,38 @@ async function manifestLoad(){
  catch{manifest=new Map();}
 }
 async function load(){
- root.hidden=true;
- status.textContent='Carregando histórico privado…';
+ const examId=select.value,version=++loadVersion,legacy=$('results-legacy');
+ root.hidden=false;legacy.hidden=true;current=null;
+ $('results-login').hidden=true;$('results-logout').hidden=true;
+ status.textContent='Carregando as sessões consolidadas…';
+ const quizPromise=loadQuizResults(examId,version);
+ let oldAuthed=false,oldFailed=false;
  try{
-  const r=await fetch('/v1/study/results?concurso='+encodeURIComponent(select.value),{
+  const r=await fetch('/v1/study/results?concurso='+encodeURIComponent(examId),{
    credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}
   });
-  if(r.status===401){
-   status.textContent='Entre com sua conta GitHub para acessar seus resultados e a prioridade dos artigos.';
-   $('results-login').hidden=false;
-   $('results-logout').hidden=true;
-   return;
-  }
-  if(!r.ok)throw Error('Histórico indisponível ('+r.status+').');
-  const j=await r.json();
-  if(!j||j.version!==1||j.concursoId!==select.value)throw Error('Resposta inesperada do serviço privado.');
-  current=j;$('results-login').hidden=true;$('results-logout').hidden=false;render();
-  void loadQuizResults(select.value);
+  if(version!==loadVersion)return;
+  if(r.ok){
+   const j=await r.json();
+   if(j?.version!==1||j.concursoId!==examId)throw Error('Resposta inesperada');
+   current=j;render();legacy.hidden=false;oldAuthed=true;
+  }else if(r.status===401){
+   status.textContent='Entre com GitHub para consultar o histórico de sessões.';
+  }else throw Error('HTTP '+r.status);
  }catch(e){
-  if(location.origin!==WORKER){
-   $('results-login').hidden=false;
-   status.textContent='O histórico fica em um serviço autenticado. Abra o painel privado e entre com GitHub.';
-   $('results-login').href=WORKER+'/resultados.html';
-  }else{status.textContent='Não foi possível consultar o histórico. '+e.message;}
+  if(version!==loadVersion)return;
+  oldFailed=true;status.textContent='As sessões consolidadas estão temporariamente indisponíveis. Suas baterias aparecem acima, de forma independente.';
+ }
+ const quiz=await quizPromise;
+ if(version!==loadVersion)return;
+ const authorized=oldAuthed||quiz?.authenticated;
+ $('results-login').hidden=!!authorized;
+ $('results-logout').hidden=!authorized;
+ if(!authorized){
+  $('results-login').href=WORKER+'/v1/login/github?return=%2Fresultados.html';
+  status.textContent=location.origin!==WORKER?'Abra o ambiente privado e entre com sua conta GitHub.':'Entre com sua conta GitHub para consultar seus resultados.';
+ }else if(!oldFailed&&!oldAuthed){
+  status.textContent='Baterias do site disponíveis; histórico consolidado ainda não carregado.';
  }
 }
 const themeButton=$('results-theme');
@@ -190,6 +279,8 @@ themeButton.addEventListener('click',()=>{
  setResultsTheme(document.documentElement.getAttribute('data-theme')==='light'?'dark':'light');
 });
 themeButton.textContent=document.documentElement.getAttribute('data-theme')==='light'?'modo escuro':'modo claro';
+const requestedContest=new URLSearchParams(location.search).get('concurso');
+if([...select.options].some(x=>x.value===requestedContest))select.value=requestedContest;
 select.addEventListener('change',load);
 $('results-logout').addEventListener('click',async()=>{
  try{await fetch('/v1/logout',{method:'POST',credentials:'same-origin',headers:{Origin:location.origin}});}catch{}

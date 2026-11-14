@@ -45,25 +45,58 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .qs-review summary{cursor:pointer}.qs-review p{font-size:.88rem;line-height:1.6;color:var(--muted)}
 .qs-footer{color:var(--muted);font-size:.8rem;border-top:1px solid color-mix(in srgb,var(--text) 20%,transparent);margin-top:60px;padding-top:20px}
 @media(max-width:640px){.qs-shell{padding:18px}.qs-form{grid-template-columns:1fr}.qs-panel{padding:20px}.qs-hero{padding:38px 0}.qs-stats{grid-template-columns:repeat(2,1fr)}}
+
+/* Revisão da experiência: menos altura inicial e decisões concentradas na tarefa. */
+.qs-hero{padding:34px 0 25px}
+.qs-hero h1{font-size:clamp(2.35rem,5vw,3.65rem);margin:7px 0 10px}
+.qs-hero p{max-width:690px;margin:0}
+.qs-panel{padding:28px 32px}
+.qs-panel h2{margin-bottom:19px}
+.qs-count-row{display:flex;gap:10px}
+.qs-count-row input{max-width:86px;text-align:center}
+.qs-preset{display:flex;flex:1;gap:7px}
+.qs-preset button{flex:1;cursor:pointer;background:var(--bg);color:var(--text);border:1px solid color-mix(in srgb,var(--text) 23%,transparent);padding:12px 8px;font:inherit}
+.qs-preset button[aria-pressed=true]{border-color:var(--accent-blue);color:var(--accent-blue);background:var(--accent-blue-alpha-05)}
+.qs-preset button:focus-visible{outline:2px solid var(--accent-blue);outline-offset:1px}
+.qs-answers label[hidden],.qs-field[hidden]{display:none!important}
+.qs-result-header{display:grid;grid-template-columns:minmax(150px,1fr) minmax(260px,1.4fr);gap:28px;align-items:center;margin-bottom:35px}
+.qs-result-percent{font-size:clamp(3.7rem,9vw,6rem);letter-spacing:-.075em;line-height:1;color:var(--text);font-weight:700}
+.qs-result-header .qs-note{max-width:400px}
+.qs-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.qs-stats strong{font-size:1.5rem}
+.qs-recommendations{margin:30px 0 28px;border-top:1px solid color-mix(in srgb,var(--text) 24%,transparent);padding-top:27px}
+.qs-recommendations h3{font-size:1.45rem;letter-spacing:-.035em;color:var(--text);margin:5px 0 6px}
+.qs-recommendation{display:flex;gap:18px;justify-content:space-between;align-items:flex-start;border-top:1px solid color-mix(in srgb,var(--text) 17%,transparent);padding:18px 0}
+.qs-recommendation h4{font-size:1.05rem;color:var(--text);font-weight:620;margin:2px 0 7px}
+.qs-recommendation p{color:var(--muted);font-size:.87rem;margin:0;line-height:1.6}
+.qs-recommendation a{font-size:.85rem;color:var(--accent-blue);text-decoration:none;white-space:nowrap;text-underline-offset:4px}
+.qs-recommendation a:hover{text-decoration:underline}
+.qs-review-all{border-top:1px solid color-mix(in srgb,var(--text) 25%,transparent);padding-top:21px}
+.qs-review-all>summary{cursor:pointer;font-size:.94rem;color:var(--text)}
+.qs-review-all>summary span{color:var(--muted)}
+.qs-action-link{display:inline-flex;text-decoration:none;align-items:center}
+@media(max-width:640px){.qs-nav{align-items:flex-start;flex-wrap:wrap}.qs-links{gap:9px;justify-content:flex-start}.qs-panel{padding:20px}.qs-result-header{grid-template-columns:1fr;gap:13px}.qs-recommendation{display:block}.qs-recommendation a{display:inline-block;margin-top:11px;white-space:normal}.qs-hero h1{font-size:2.65rem}}
+
 </style>
 </head>
 <body class="questoes-page">
 <div class="qs-shell">
 <nav class="qs-nav"><a class="qs-brand" href="index.html">concursos <span>/ questões</span></a><div class="qs-links"><a href="index.html">biblioteca</a><a href="flashcards.html">flashcards</a><a href="resultados.html">meus resultados</a><button id="qs-theme" type="button">modo claro</button></div></nav>
-<header class="qs-hero"><span class="qs-eyebrow">BATERIAS DE ESTUDO / CEBRASPE</span><h1>Resolver para lembrar.</h1><p>Escolha o concurso, o tamanho da bateria e uma matéria ou várias. O gabarito aparece depois da resposta ou no encerramento, conforme o modo de estudo.</p></header>
+<header class="qs-hero"><span class="qs-eyebrow">ESTUDO ATIVO / CONCURSOS</span><h1>questões.</h1><p>Pratique com o banco revisado. Ao terminar, veja os conceitos que exigem atenção e os artigos para retomar a leitura.</p></header>
 <p id="qs-status" role="status" aria-live="polite">Carregando questões…</p>
 <section class="qs-panel" id="qs-config" hidden>
-<h2>Montar uma bateria</h2>
+<h2>Configure sua bateria</h2>
 <div class="qs-form">
 <label class="qs-field" for="qs-concurso"><span class="qs-label">Concurso</span><select id="qs-concurso"></select></label>
-<label class="qs-field" for="qs-count"><span class="qs-label">Quantas questões?</span><input type="number" min="1" max="100" step="1" value="10" id="qs-count"></label>
+<div class="qs-field"><label class="qs-label" for="qs-count">Quantidade</label><div class="qs-count-row"><div class="qs-preset" id="qs-presets" role="group" aria-label="Quantidade de questões"><button type="button" data-count="10" aria-pressed="true">10</button><button type="button" data-count="20" aria-pressed="false">20</button><button type="button" data-count="30" aria-pressed="false">30</button></div><input type="number" min="1" max="100" step="1" value="10" id="qs-count" aria-label="Quantidade personalizada"></div></div>
 <div class="qs-field"><span class="qs-label">Matérias</span><div class="qs-options"><label><input type="radio" name="qs-scope" value="mixed" checked> misturadas</label><label><input type="radio" name="qs-scope" value="single"> uma matéria</label></div></div>
 <label class="qs-field qs-conditional" id="qs-materia-wrap" for="qs-materia" hidden><span class="qs-label">Escolher matéria</span><select id="qs-materia"></select></label>
+<label class="qs-field qs-conditional" id="qs-unidade-wrap" for="qs-unidade" hidden><span class="qs-label">Recorte da matéria</span><select id="qs-unidade"></select></label>
 <div class="qs-field"><span class="qs-label">Correção</span><div class="qs-options"><label><input type="radio" name="qs-mode" value="aprendizagem" checked> após cada questão</label><label><input type="radio" name="qs-mode" value="simulado"> no final</label></div></div>
 </div>
 <div class="qs-divider"></div><p class="qs-note" id="qs-availability"></p>
-<div class="qs-actions"><button class="qs-button" id="qs-start" type="button">Começar</button><a id="qs-login" class="qs-note" href="https://concurso-estudo.leoruas.workers.dev/questoes.html">Abrir versão com login GitHub</a></div>
-<p class="qs-note">Respostas salvas neste navegador. No ambiente autenticado, sincronização privada com confirmação de gravação. Os concursos sem banco revisado aparecem no seletor, mas não permitem iniciar uma bateria.</p>
+<div class="qs-actions"><button class="qs-button" id="qs-start" type="button">Iniciar bateria</button><a id="qs-login" class="qs-note" href="https://concurso-estudo.leoruas.workers.dev/questoes.html">Abrir versão com login GitHub</a></div>
+<p class="qs-note">As respostas são preservadas neste navegador. No ambiente autenticado, a gravação também é confirmada no banco privado. Concursos sem questões revisadas ainda não permitem baterias.</p>
 </section>
 <section class="qs-panel" id="qs-play" hidden>
 <div class="qs-top"><span class="qs-meta" id="qs-number"></span><span class="qs-meta" id="qs-context"></span></div>
@@ -75,7 +108,15 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <div class="qs-feedback" id="qs-feedback" hidden></div>
 <div class="qs-actions"><button class="qs-button" id="qs-submit" type="submit">Registrar resposta</button><button class="qs-button secondary" id="qs-next" type="button" hidden>Próxima questão</button><button class="qs-button secondary" id="qs-finish" type="button">Encerrar bateria</button></div></form>
 </section>
-<section class="qs-panel" id="qs-summary" hidden><span class="qs-meta" id="qs-result-context"></span><h2>Resultado da bateria</h2><div class="qs-stats" id="qs-stats"></div><p class="qs-note" id="qs-score"></p><div id="qs-reviews"></div><div class="qs-actions"><button class="qs-button" id="qs-restart" type="button">Nova bateria</button><button class="qs-button secondary" id="qs-export" type="button">Exportar respostas</button></div></section>
+<section class="qs-panel" id="qs-summary" hidden aria-labelledby="qs-summary-heading">
+<span class="qs-meta" id="qs-result-context"></span>
+<h2 id="qs-summary-heading">Sua bateria</h2>
+<div class="qs-result-header"><div><strong class="qs-result-percent" id="qs-result-percent">0%</strong><p class="qs-note" id="qs-score"></p></div><div class="qs-stats" id="qs-stats"></div></div>
+<section class="qs-recommendations" aria-labelledby="qs-priorities-title"><p class="qs-label">PRÓXIMO PASSO</p><h3 id="qs-priorities-title">Artigos para revisar</h3>
+<p class="qs-note" id="qs-priorities-note"></p><div id="qs-priorities"></div></section>
+<details class="qs-review-all"><summary>Conferir respostas e explicações <span id="qs-review-count"></span></summary><div id="qs-reviews"></div></details>
+<div class="qs-actions"><button class="qs-button" id="qs-restart" type="button">Montar outra bateria</button><a class="qs-button secondary qs-action-link" id="qs-results-link" href="resultados.html">Ver meus resultados</a><button class="qs-button secondary" id="qs-export" type="button">Exportar respostas</button></div>
+</section>
 <footer class="qs-footer" id="qs-sync">Seu histórico não é publicado no repositório de questões.</footer>
 </div>
 <script src="web/15-questoes-ui.js" defer></script>

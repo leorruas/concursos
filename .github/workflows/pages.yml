@@ -66,6 +66,8 @@ jobs:
         run: node scripts/validate-search-governance.js
       - name: Montar artefato estático isolado (_site)
         run: node scripts/build-site.js
+      - name: Conferir recomendações das questões, interface e catálogo
+        run: node scripts/test-quiz-insights.cjs
       - name: Auditar dados pessoais fora da publicação
         run: node scripts/test-public-privacy.js
       - name: Validar publicação dos flashcards

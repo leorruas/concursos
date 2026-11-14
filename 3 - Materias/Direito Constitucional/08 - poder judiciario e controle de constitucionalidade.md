@@ -5,14 +5,33 @@ title: "Poder judiciário e controle de constitucionalidade"
 type: "conceito"
 status: "ativo"
 created: 2026-06-09
-updated: 2026-11-12
+updated: 2026-11-14
 ---
 
 # Poder judiciário e controle de constitucionalidade
 
-O Poder Judiciário exerce **função jurisdicional**, isto é, resolve conflitos e aplica o direito a casos submetidos à sua competência. No **controle de constitucionalidade**, verifica se as leis e os atos normativos respeitam a **Constituição Federal (CF)**. O artigo apresenta a função do **Supremo Tribunal Federal (STF)** e diferencia **controle difuso e concentrado**, **inconstitucionalidade formal e material**, **órgão fracionário e plenário** e **controle administrativo do Conselho Nacional de Justiça (CNJ) e função jurisdicional**. As questões comentadas usam o formato **Certo ou Errado (C/E)** da banca Cebraspe.
+Imagine que o Congresso aprove uma lei que proíba críticas a autoridades públicas. Uma pessoa questiona essa proibição na Justiça. O juiz precisa aplicar a lei ao caso, mas primeiro deve verificar se ela respeita a **liberdade de expressão prevista na Constituição Federal (CF)**. Essa verificação é o **controle de constitucionalidade**.
+
+O **Poder Judiciário** resolve conflitos por meio de decisões judiciais, atividade chamada **função jurisdicional**. Quando a validade de uma lei é discutida, precisamos responder a quatro perguntas diferentes: **o que há de errado na lei; em que processo o problema foi levantado; qual órgão pode decidir; e quem será alcançado pela decisão**. É a mistura dessas quatro perguntas que costuma tornar o assunto confuso.
+
+O artigo explica o papel do **Supremo Tribunal Federal (STF)**, dos demais juízes e tribunais e do **Conselho Nacional de Justiça (CNJ)**. Depois relaciona os tipos de controle, os procedimentos e as garantias dos magistrados. Os itens de fixação seguem o formato **Certo ou Errado (C/E)** da banca Cebraspe.
+
+### Quatro perguntas antes de decorar as siglas
+
+| Pergunta | Distinção que responde | Exemplo |
+| :--- | :--- | :--- |
+| **Qual é o defeito?** | Inconstitucionalidade **formal ou material** | Autor sem competência para apresentar o projeto, ou conteúdo contrário à liberdade de expressão |
+| **Onde a questão aparece?** | Controle **difuso ou concentrado** | Discussão dentro de um processo individual, ou ação voltada principalmente à validade da norma |
+| **Quem decide?** | Juiz, tribunal, plenário/órgão especial, STF e competências próprias | Uma turma de tribunal não pode ignorar a reserva de plenário quando ela for exigível |
+| **Quem é alcançado?** | Efeitos da decisão e eventual força vinculante | A decisão num caso concreto não tem automaticamente os mesmos efeitos de uma ADI |
+
+**Estas classificações são independentes.** Uma lei pode ter um vício material discutido tanto num processo concreto quanto numa ação de controle abstrato. Portanto, *material* não é sinônimo de *concentrado*, assim como *formal* não é sinônimo de *difuso*.
 
 ## STF e guarda da Constituição
+
+Antes do STF, identifique os órgãos: **um juiz de primeira instância** pode resolver um processo e enfrentar incidentalmente uma questão constitucional; **tribunais** julgam os assuntos de sua competência, inclusive recursos, conforme as regras processuais; o **STF** exerce a guarda da Constituição e as competências que a Constituição lhe atribui; o **CNJ** fiscaliza a administração, as finanças e deveres funcionais da magistratura, sem reformar sentenças como órgão recursal.
+
+**Exemplo de trajetória possível:** alguém contesta uma lei num processo individual; o juiz decide a questão necessária ao caso; o assunto pode chegar a tribunais por recursos cabíveis e, preenchidos os requisitos próprios, ao STF. **Nem todo processo passa pelo STF**, e o acesso a ele depende das hipóteses constitucionais e processuais.
 
 O art. 102 da Constituição atribui ao Supremo Tribunal Federal, precipuamente, a **guarda da Constituição**. Isso não significa que todo processo constitucional comece no STF nem que apenas o STF possa examinar constitucionalidade.
 
@@ -22,9 +41,11 @@ A ideia de “STF no topo” deve ser usada com cuidado. O STF é a cúpula do P
 
 ## Inconstitucionalidade formal × material
 
-**Inconstitucionalidade formal** decorre de vício no processo de produção normativa: competência, iniciativa, procedimento ou forma constitucionalmente exigidos.
+**Inconstitucionalidade formal** é um defeito em **quem produziu a norma** ou **como ela foi aprovada**. Imagine uma lei apresentada por parlamentar sobre matéria cuja iniciativa a Constituição reserva ao Presidente da República. Mesmo que a ideia da lei seja aceitável, há um possível **vício formal de iniciativa**. Também podem ocorrer problemas de competência legislativa, procedimento ou forma constitucionalmente exigida.
 
-**Inconstitucionalidade material** decorre de incompatibilidade entre o **conteúdo** da norma e a Constituição.
+**Inconstitucionalidade material** é um defeito no **que a norma determina**. Imagine uma lei aprovada pelo procedimento correto, mas que proíba críticas lícitas a autoridades. Seu conteúdo pode contrariar a liberdade de expressão: **vício material**, ainda que todos os votos tenham sido obtidos.
+
+**Mudança de uma variável por vez:** manter o mesmo conteúdo e trocar o autor constitucionalmente competente por outro sem iniciativa reservada pode produzir um vício **formal**. Manter o autor e o procedimento corretos, mas mudar o texto para contrariar um direito constitucional, pode produzir um vício **material**.
 
 Pergunta de prova:
 
@@ -37,24 +58,33 @@ Os dois vícios podem coexistir. A popularidade, conveniência política ou perc
 
 ## Controle difuso × controle concentrado
 
+Aqui a pergunta muda: **de que maneira a constitucionalidade entrou na discussão judicial?** A mesma regra constitucional pode ser examinada por caminhos diferentes. Por isso, não use *difuso* como sinônimo de vício formal nem *concentrado* como sinônimo de vício material.
+
+| Caminho | Pergunta central do processo | Exemplo de situação |
+| :--- | :--- | :--- |
+| **Difuso, incidental** | Como resolver o conflito concreto entre partes, inclusive a questão sobre a validade de uma lei? | Uma pessoa pede proteção de seu direito, e aplicar certa lei ao caso exigiria enfrentar sua constitucionalidade |
+| **Concentrado, abstrato** | A norma ou omissão é compatível com a Constituição, nos limites da ação proposta? | Um legitimado apresenta ação direta perante o STF para questionar uma lei em tese |
+
 ### Controle difuso
 
 O controle difuso surge **incidentalmente em um caso concreto**. A questão constitucional é necessária para solucionar a controvérsia principal.
 
-Pode ser realizado por juiz singular e por tribunais, observadas as regras constitucionais aplicáveis aos órgãos colegiados. Em sua formulação clássica, a decisão resolve o caso das partes; os efeitos do controle difuso não devem ser confundidos automaticamente com a eficácia geral própria de decisões em certas ações de controle concentrado.
+Pode ser realizado por juiz singular e por tribunais, observadas as regras constitucionais aplicáveis aos órgãos colegiados. Em sua formulação clássica, a decisão resolve **o caso das partes**. Há mecanismos constitucionais e processuais capazes de ampliar ou tornar obrigatória a orientação firmada em certas decisões, por isso **controle difuso não significa que uma decisão jamais possa ter repercussões além das partes**. O cuidado é não atribuir automaticamente a todo julgamento difuso o efeito geral típico do controle abstrato. As condições concretas da decisão e do precedente importam.
 
 ### Controle concentrado
 
 No controle concentrado, a constitucionalidade é discutida **como objeto principal** da ação perante o órgão constitucionalmente competente. No STF, entre os instrumentos centrais estão:
 
-- **Ação Direta de Inconstitucionalidade (ADI):** questiona, no controle abstrato, a constitucionalidade de lei ou ato normativo federal ou estadual;
-- **Ação Declaratória de Constitucionalidade (ADC):** busca confirmar a constitucionalidade de lei ou ato normativo federal;
-- **Ação Direta de Inconstitucionalidade por Omissão (ADO):** examina falta de providência normativa necessária para tornar efetiva uma regra da Constituição;
-- **Arguição de Descumprimento de Preceito Fundamental (ADPF):** medida constitucional que exige os requisitos próprios da Lei nº 9.882/1999. O *preceito fundamental* é uma norma ou princípio essencial da ordem constitucional.
+- **Ação Direta de Inconstitucionalidade (ADI):** questiona se uma lei ou ato normativo **federal ou estadual** é contrário à Constituição. Exemplo: uma lei estadual que imponha restrição incompatível com um direito constitucional;
+- **Ação Declaratória de Constitucionalidade (ADC):** busca uma decisão que confirme a constitucionalidade de uma lei ou ato normativo **federal**, nas condições legais. Exemplo: quando decisões judiciais divergentes geram controvérsia relevante sobre uma norma federal;
+- **Ação Direta de Inconstitucionalidade por Omissão (ADO):** discute a **falta de medida necessária para cumprir a Constituição**. Exemplo: a Constituição impõe um dever de regulamentar determinado direito, mas a providência exigida não é adotada. Aqui o problema é a **omissão**, não necessariamente o conteúdo de uma lei existente;
+- **Arguição de Descumprimento de Preceito Fundamental (ADPF):** busca evitar ou reparar lesão a **preceito fundamental**, que é uma norma ou princípio especialmente importante da ordem constitucional. Pode alcançar situações e atos que não se enquadram na ADI, inclusive em certas hipóteses atos municipais ou anteriores à Constituição de 1988. O **princípio da subsidiariedade** exige que não exista outro meio eficaz de sanar a lesão, conforme a Lei nº 9.882/1999 e a jurisprudência do STF.
+
+**Um modo de diferenciar:** na ADI, questiona-se a validade de uma norma; na ADC, busca-se confirmar a constitucionalidade de norma federal; na ADO, o centro é uma **providência constitucionalmente exigida que faltou**; na ADPF, examina-se lesão a preceito fundamental com requisitos próprios, inclusive subsidiariedade. **ADI e ADC não têm exatamente o mesmo objeto**. As quatro ações seguem procedimentos e hipóteses de cabimento próprios.
 
 As decisões definitivas de mérito do STF em **ADI e ADC** produzem eficácia contra todos e efeito vinculante em relação aos demais órgãos do Poder Judiciário e à Administração Pública direta e indireta, nos termos do art. 102, §2º.
 
-Pegadinha: **ADC não tem como objeto lei estadual** no art. 102, I, `a`; ADI, perante o STF, pode ter por objeto lei ou ato normativo federal ou estadual.
+**Pegadinha:** **ADC não tem como objeto lei estadual** no art. 102, I, a; **ADI no STF** pode ter por objeto lei ou ato normativo federal ou estadual. Quando um enunciado menciona **lei municipal** ou **norma anterior a 1988**, não conclua que a ADPF é automaticamente cabível: verifique seus requisitos, especialmente a subsidiariedade. **Controle concentrado também existe no plano estadual**, perante Tribunais de Justiça, nas hipóteses do art. 125, § 2º, da CF. Não associe toda ação de controle concentrado necessariamente ao STF.
 
 ### Legitimados do controle abstrato e pertinência temática
 
@@ -68,7 +98,9 @@ O **art. 103 da CF** permite propor **ADI e ADC** ao **Presidente da República*
 
 O art. 97 estabelece que os tribunais somente podem declarar a inconstitucionalidade de lei ou ato normativo do Poder Público pelo voto da **maioria absoluta de seus membros** ou dos membros do respectivo **órgão especial**.
 
-Essa é a cláusula de **reserva de plenário**.
+Essa é a cláusula de **reserva de plenário**. O **plenário** é a reunião dos integrantes do tribunal; o **órgão especial** exerce atribuições próprias do plenário quando constituído nos termos constitucionais. Uma **turma ou câmara**, chamada *órgão fracionário*, reúne apenas parte dos integrantes do tribunal.
+
+**Caso em três decisões:** (1) um **juiz singular** julga um processo e, se necessário, deixa de aplicar uma lei que considera inconstitucional: o art. 97 não exige que ele reúna outros juízes. (2) Uma **turma de tribunal** quer afastar a mesma lei por fundamento constitucional: em regra, precisa respeitar a reserva de plenário. (3) Se o plenário, o órgão especial competente ou o Plenário do STF já decidiu a questão nos termos da legislação processual, pode haver **dispensa de nova submissão**. O ponto decisivo é distinguir **quem decide** e **se a matéria já foi resolvida pela instância competente**.
 
 A Súmula Vinculante nº 10 (SV 10) fecha uma tentativa comum de contornar a regra: um órgão fracionário também viola o art. 97 quando, sem declarar expressamente a inconstitucionalidade, **afasta a incidência da norma, no todo ou em parte, com fundamento constitucional**.
 
@@ -143,6 +175,8 @@ Sua competência central é o **controle da atuação administrativa e financeir
 
 O CNJ **não funciona como instância recursal das decisões jurisdicionais**. Uma sentença ou acórdão não é reformado pelo CNJ simplesmente porque o Conselho discorda da interpretação jurídica adotada. Sua esfera é administrativa, financeira e disciplinar, sem substituição da atividade jurisdicional própria dos tribunais.
 
+**Mesmo tribunal, dois problemas distintos:** se houver suspeita de irregularidade na gestão de contratos ou no cumprimento de dever funcional de magistrado, pode existir matéria de competência do CNJ, observados os requisitos legais. Se a parte disser que a sentença interpretou incorretamente a lei, deve usar a **via judicial adequada**, e não pedir ao CNJ que altere o mérito da sentença. A diferença é o **tipo de ato questionado**, não o nome do tribunal envolvido.
+
 Também é perigoso descrever o CNJ como superior hierárquico jurisdicional dos tribunais. Ele exerce competências constitucionais próprias de controle, não uma hierarquia recursal sobre o conteúdo das decisões judiciais.
 
 ## Inércia da jurisdição
@@ -184,7 +218,7 @@ Os distratores mais plausíveis deslocam uma regra correta para o contexto errad
 
 ## Relações com outros temas
 
-A reserva de plenário e o controle concentrado se conectam a [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]], porque vícios formais podem nascer do processo de produção normativa. O controle administrativo e financeiro do Judiciário se relaciona ao tema mais amplo de Controle da Administração Pública, que ainda demanda nota canônica própria no vault.
+A reserva de plenário e o controle concentrado se conectam ao artigo [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte: como diferenciar os sete tipos de norma]], porque um erro de iniciativa ou de votação na produção de uma lei pode dar origem a uma inconstitucionalidade formal. O controle administrativo e financeiro do Judiciário também se relaciona ao controle da Administração Pública, que deve ser estudado em conjunto com Direito Administrativo.
 
 ## Heurísticas
 
@@ -202,10 +236,12 @@ A reserva de plenário e o controle concentrado se conectam a [[3 - Materias/Dir
 
 ## Fontes
 
-- Constituição Federal, arts. 95, 97, 102, 103 e 103-B.
+- [Constituição Federal, texto atualizado](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), especialmente arts. 93, 95, 97, 102, 103, 103-A, 103-B e 125, § 2º.
+- [STF: explicação das ações ADI, ADC, ADO e ADPF](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=435436).
 - STF, Súmula Vinculante 10 e jurisprudência sobre reserva de plenário.
-- Lei nº 9.868/1999 — ADI, ADC e ADO.
-- Lei nº 9.882/1999 — ADPF.
+- Lei nº 9.868/1999: ADI, ADC e ADO.
+- Lei nº 9.882/1999: ADPF e subsidiariedade.
+- [CNJ: perguntas frequentes sobre sua competência e limites](https://www.cnj.jus.br/ouvidoria-cnj/perguntas-frequentes/).
 - [Lei nº 11.417/2006, arts. 2º a 7º: edição, revisão, cancelamento e reclamação](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11417-19-dezembro-2006-548408-publicacaooriginal-63540-pl.html).
 - Registro histórico de ingestão de 10/06/2026, arquivado fora da biblioteca pública.
 
@@ -224,3 +260,5 @@ A reserva de plenário e o controle concentrado se conectam a [[3 - Materias/Dir
 ## Atualização pedagógica: implementação de exercícios
 
 **Estado após os reparos desta rodada (11/11/2026):** a ressalva histórica de **zero exercícios** referia-se à versão anterior à implementação. Foram adicionados **três itens C/E inéditos comentados** e um caso progressivo ao artigo, sem suprimir o texto da certificação normativa anterior. Os itens são autorais e não representam questões oficiais ou respostas do estudante. A conferência é dirigida aos fundamentos constitucionais citados, sem declaração de homologação exaustiva do artigo ou de publicação visual.
+
+**Revisão didática de 14/11/2026:** acrescentada situação inicial, quadro de quatro perguntas independentes, exemplos progressivos de vício formal/material, controle difuso/concentrado e reserva de plenário, diferenciação operacional entre ADI/ADC/ADO/ADPF e aplicação CNJ versus decisão judicial. Preservados `articleId`, todos os subtítulos anteriores, casos de treino, gabaritos e as referências canônicas. Conferência jurídica apoiada na Constituição atualizada, legislação citada e materiais oficiais do STF e CNJ; exemplos são hipotéticos.

@@ -48091,6 +48091,62 @@
       "correctAnswer": "E",
       "explanation": "A migração muda o processo e os controles disponíveis. A efetividade anterior não demonstra que os riscos do novo fluxo foram identificados ou tratados.",
       "reviewEvidence": "Revisão por IA com conferência da seção canônica. A migração muda o processo e os controles disponíveis. A efetividade anterior não demonstra que os riscos do novo fluxo foram identificados ou tratados. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l129-001-meta-melhora-com-fila-oculta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "meta-melhora-com-fila-oculta",
+      "mechanism": "examinar-efeito-da-regra-de-medicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Caso progressivo integrado: liderança, estratégia e controle (CAM-AP-013 e CAM-AP-014)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Caso progressivo integrado: liderança, estratégia e controle (CAM-AP-013 e CAM-AP-014)"
+      },
+      "statement": "Uma unidade mede o prazo de atendimento a partir da abertura do protocolo. Após uma mudança, pedidos aguardam triagem antes de serem protocolados. A queda do prazo medido demonstra redução da espera total do usuário.",
+      "correctAnswer": "E",
+      "explanation": "O indicador exclui a fila anterior ao protocolo. Para avaliar a espera total, é preciso medir desde a solicitação inicial.",
+      "reviewEvidence": "Revisão por IA. O indicador exclui a fila anterior ao protocolo. Para avaliar a espera total, é preciso medir desde a solicitação inicial. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l129-002-objetivo-em-conflito-com-indicador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "objetivo-em-conflito-com-indicador",
+      "mechanism": "identificar-incentivo-a-encerramento-precoce",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Caso progressivo integrado: liderança, estratégia e controle (CAM-AP-013 e CAM-AP-014)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Caso progressivo integrado: liderança, estratégia e controle (CAM-AP-013 e CAM-AP-014)"
+      },
+      "statement": "Para reduzir retrabalho, um órgão passa a premiar equipes apenas pelo número de chamados encerrados. Acompanhar quantos chamados retornam pelo mesmo problema ajuda a verificar se o incentivo favorece o objetivo pretendido.",
+      "correctAnswer": "C",
+      "explanation": "Chamados reabertos pelo mesmo problema dão informação sobre retrabalho. O total encerrado pode subir mesmo quando os problemas voltam.",
+      "reviewEvidence": "Revisão por IA. Chamados reabertos pelo mesmo problema dão informação sobre retrabalho. O total encerrado pode subir mesmo quando os problemas voltam. Dificuldade estimada."
     }
   ]
 }

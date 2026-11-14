@@ -42519,6 +42519,90 @@
       "correctAnswer": "E",
       "explanation": "A exceção exige candidatura à reeleição. A candidatura a vice-prefeito é a outro cargo, mesmo que o irmão já exerça mandato eletivo.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 14, § 7º. A exceção exige candidatura à reeleição. A candidatura a vice-prefeito é a outro cargo, mesmo que o irmão já exerça mandato eletivo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l053-001-menos-invariavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "menos-invariavel",
+      "mechanism": "flexao-inadequada-de-quantificador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      },
+      "statement": "Em “Havia menos caixas disponíveis no depósito”, a substituição de “menos” por “menas” é exigida pela concordância com “caixas”.",
+      "correctAnswer": "E",
+      "explanation": "Menos é invariável. O gênero do substantivo não altera a forma do quantificador.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério de concordância nominal: Menos é invariável. O gênero do substantivo não altera a forma do quantificador. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l053-002-quite-concordancia-sujeito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "quite-concordancia-sujeito",
+      "mechanism": "flexao-predicativo-mesmo-genero",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      },
+      "statement": "Em “As duas fornecedoras ficaram quites com o município”, o plural de “quites” concorda com o sujeito, mas a palavra não recebe uma marca especial de feminino.",
+      "correctAnswer": "C",
+      "explanation": "Quite varia em número e tem a mesma forma para os dois gêneros. Quites concorda em número com as fornecedoras.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério de concordância nominal: Quite varia em número e tem a mesma forma para os dois gêneros. Quites concorda em número com as fornecedoras. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l053-003-mesmas-reforco-feminino",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "mesmas-reforco-feminino",
+      "mechanism": "distinguir-reforco-nominal-e-invariabilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      },
+      "statement": "Em “As conselheiras mesmas conferiram os registros”, o termo de reforço deve ser substituído obrigatoriamente por “mesmo”, pois sua função impede a concordância.",
+      "correctAnswer": "E",
+      "explanation": "Nesse emprego, mesmas reforça o sujeito e concorda com ele. O uso adverbial invariável de mesmo é distinto.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério de concordância nominal: Nesse emprego, mesmas reforça o sujeito e concorda com ele. O uso adverbial invariável de mesmo é distinto. Dificuldade estimada."
     }
   ]
 }

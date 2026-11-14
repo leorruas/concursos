@@ -45431,6 +45431,90 @@
       "correctAnswer": "C",
       "explanation": "Mitigar indica atenuação. Eliminar atribui às medidas a supressão do risco, resultado mais forte que o afirmado.",
       "reviewEvidence": "Revisão por IA. Equivalência contextual examinada na seção canônica: Mitigar indica atenuação. Eliminar atribui às medidas a supressão do risco, resultado mais forte que o afirmado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l089-001-colegiado-ato-simples",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "colegiado-ato-simples",
+      "mechanism": "identificar-unidade-do-orgao-deliberante",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "Um conselho administrativo aprova, por maioria, uma deliberação que compete exclusivamente ao próprio colegiado. A participação de vários conselheiros torna a deliberação um ato complexo.",
+      "correctAnswer": "E",
+      "explanation": "O conselho é um único órgão. Os votos dos membros formam a vontade do colegiado, enquanto o ato complexo reúne manifestações constitutivas de órgãos distintos.",
+      "reviewEvidence": "Revisão por IA com base na classificação doutrinária da seção indicada. O conselho é um único órgão. Os votos dos membros formam a vontade do colegiado, enquanto o ato complexo reúne manifestações constitutivas de órgãos distintos. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l089-002-visto-e-ato-principal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "visto-e-ato-principal",
+      "mechanism": "distinguir-condicao-de-eficacia-e-formacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#1. Critérios Fundamentais de Classificação dos Atos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "1. Critérios Fundamentais de Classificação dos Atos"
+      },
+      "statement": "Em um procedimento hipotético, a decisão é integralmente formada por uma diretoria e depende de visto formal autônomo da presidência apenas para produzir efeitos. Essa estrutura caracteriza ato composto.",
+      "correctAnswer": "C",
+      "explanation": "A diretoria forma o ato principal. O visto atua como condição de eficácia, sem integrar a formação de uma vontade administrativa única.",
+      "reviewEvidence": "Revisão por IA com base na classificação doutrinária da seção indicada. A diretoria forma o ato principal. O visto atua como condição de eficácia, sem integrar a formação de uma vontade administrativa única. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l089-003-ordem-de-servico-interna",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / ato administrativo",
+      "articleId": "art-10a91f6bf9b53f1a",
+      "conceptId": "ordem-de-servico-interna",
+      "mechanism": "classificar-pelo-conteudo-e-destinatario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10a91f6bf9b53f1a#2. Espécies de Atos Administrativos em Espécie (NONEP)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/16 - classificacoes e especies de atos administrativos.md",
+        "section": "2. Espécies de Atos Administrativos em Espécie (NONEP)"
+      },
+      "statement": "Uma ordem de serviço determina que os servidores de um setor alternem semanalmente a responsabilidade pela triagem de processos, sem criar deveres para o público. Pelo seu conteúdo, a ordem é um ato ordinatório.",
+      "correctAnswer": "C",
+      "explanation": "A chefia usa o poder hierárquico para organizar a rotina dos subordinados. O conteúdo da ordem disciplina a execução interna do serviço.",
+      "reviewEvidence": "Revisão por IA com base na classificação doutrinária da seção indicada. A chefia usa o poder hierárquico para organizar a rotina dos subordinados. O conteúdo da ordem disciplina a execução interna do serviço. Dificuldade estimada."
     }
   ]
 }

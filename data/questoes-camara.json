@@ -46327,6 +46327,118 @@
       "correctAnswer": "C",
       "explanation": "O alcance das decisões pertence ao eixo de autoridade e influência, independentemente do método de seleção e do modo de interação.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O alcance das decisões pertence ao eixo de autoridade e influência, independentemente do método de seleção e do modo de interação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l101-001-primeiro-mandato-selecao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação política",
+      "articleId": "art-3b8e7a6c91d4052f",
+      "conceptId": "primeiro-mandato-selecao",
+      "mechanism": "separar-escolha-do-tipo-e-sancao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Autorização, seleção, responsividade e controle: não são uma mesma operação"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao.md",
+        "section": "Autorização, seleção, responsividade e controle: não são uma mesma operação"
+      },
+      "statement": "Eleitores escolhem uma estreante porque julgam que sua trajetória sinaliza capacidade para negociar. Ao escolher com esse fundamento, exercem a função de seleção, mesmo sem poder avaliar seu desempenho anterior no cargo.",
+      "correctAnswer": "C",
+      "explanation": "A escolha usa uma característica percebida da candidata como sinal de desempenho futuro. A responsabilização retrospectiva pelo exercício daquele cargo pressuporia atuação anterior.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A escolha usa uma característica percebida da candidata como sinal de desempenho futuro. A responsabilização retrospectiva pelo exercício daquele cargo pressuporia atuação anterior. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l101-002-voto-congruente-origem-indeterminada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação política",
+      "articleId": "art-3b8e7a6c91d4052f",
+      "conceptId": "voto-congruente-origem-indeterminada",
+      "mechanism": "distinguir-alinhamento-e-causa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Autorização, seleção, responsividade e controle: não são uma mesma operação"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao.md",
+        "section": "Autorização, seleção, responsividade e controle: não são uma mesma operação"
+      },
+      "statement": "Uma pesquisa registra apoio majoritário a uma medida, e a deputada vota no mesmo sentido. Com esses dois dados, pode-se determinar que a pesquisa causou o voto.",
+      "correctAnswer": "E",
+      "explanation": "Há alinhamento entre as posições observadas. Os dados não mostram se a parlamentar reagiu à pesquisa, já compartilhava a posição ou seguiu outra influência.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. Há alinhamento entre as posições observadas. Os dados não mostram se a parlamentar reagiu à pesquisa, já compartilhava a posição ou seguiu outra influência. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l101-003-derrota-eleitoral-sem-assento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação política",
+      "articleId": "art-3b8e7a6c91d4052f",
+      "conceptId": "derrota-eleitoral-sem-assento",
+      "mechanism": "reconhecer-autorizacao-pelo-resultado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Autorização, seleção, responsividade e controle: não são uma mesma operação"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao.md",
+        "section": "Autorização, seleção, responsividade e controle: não são uma mesma operação"
+      },
+      "statement": "Um candidato recebe mais votos do que no pleito anterior, mas não obtém cadeira segundo as regras eleitorais aplicáveis. O aumento do apoio é suficiente para autorizá-lo a exercer o mandato.",
+      "correctAnswer": "E",
+      "explanation": "A autorização para ocupar o mandato decorre do resultado apurado segundo as regras eleitorais. O aumento de votos, isoladamente, indica maior apoio, mas não confere a cadeira.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A autorização para ocupar o mandato decorre do resultado apurado segundo as regras eleitorais. O aumento de votos, isoladamente, indica maior apoio, mas não confere a cadeira. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l101-004-resposta-a-demanda-sem-adesao-integral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação política",
+      "articleId": "art-3b8e7a6c91d4052f",
+      "conceptId": "resposta-a-demanda-sem-adesao-integral",
+      "mechanism": "identificar-reacao-em-alteracao-parcial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Autorização, seleção, responsividade e controle: não são uma mesma operação"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao.md",
+        "section": "Autorização, seleção, responsividade e controle: não são uma mesma operação"
+      },
+      "statement": "Após ouvir moradores preocupados com o horário de atendimento, uma parlamentar incorpora ao projeto um turno noturno em parte das unidades. A mudança pode evidenciar responsividade mesmo sem acolher o pedido de estender o turno a todas as unidades.",
+      "correctAnswer": "C",
+      "explanation": "A parlamentar levou em conta a demanda e alterou a proposta. A responsividade pode aparecer em uma resposta parcial, sem exigir coincidência integral com a preferência manifestada.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A parlamentar levou em conta a demanda e alterou a proposta. A responsividade pode aparecer em uma resposta parcial, sem exigir coincidência integral com a preferência manifestada. Dificuldade estimada."
     }
   ]
 }

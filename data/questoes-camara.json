@@ -44563,6 +44563,90 @@
       "correctAnswer": "C",
       "explanation": "A renúncia decorre da declaração do próprio titular de que abre mão de uma faculdade disponível.",
       "reviewEvidence": "Revisão por IA. Classificação doutrinária cotejada com a seção canônica. A renúncia decorre da declaração do próprio titular de que abre mão de uma faculdade disponível. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l077-001-controle-proporcional-etapas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança, riscos e controles",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "controle-proporcional-etapas",
+      "mechanism": "avaliar-custo-e-reducao-de-risco",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Após constatar que a dupla conferência reduz o risco de pagamentos indevidos de alto valor, um órgão federal decide aplicá-la também a toda operação de baixo valor. O benefício observado no primeiro grupo torna desnecessária a análise do custo do controle no segundo.",
+      "correctAnswer": "E",
+      "explanation": "A proporcionalidade do controle depende do risco e do custo em cada contexto. A eficácia em um grupo não determina se o mesmo controle é justificável em outro.",
+      "reviewEvidence": "Revisão editorial por IA. Decreto nº 9.203/2017, art. 17, conforme seção canônica. A proporcionalidade do controle depende do risco e do custo em cada contexto. A eficácia em um grupo não determina se o mesmo controle é justificável em outro. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l077-002-riscos-projeto-fora-da-matriz",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança, riscos e controles",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "riscos-projeto-fora-da-matriz",
+      "mechanism": "rastrear-integracao-com-processos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Uma autarquia registra riscos no planejamento estratégico, mas deixa sem análise um projeto crítico para atingir seus objetivos. O registro estratégico, por si só, não atende à integração da gestão de riscos aos projetos relevantes.",
+      "correctAnswer": "C",
+      "explanation": "A integração abrange planejamento e projetos relevantes. Um registro restrito ao nível estratégico não trata automaticamente os riscos da execução do projeto.",
+      "reviewEvidence": "Revisão editorial por IA. Decreto nº 9.203/2017, art. 17, conforme seção canônica. A integração abrange planejamento e projetos relevantes. Um registro restrito ao nível estratégico não trata automaticamente os riscos da execução do projeto. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l077-003-riscos-alta-administracao-direcao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança, riscos e controles",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "riscos-alta-administracao-direcao",
+      "mechanism": "separar-execucao-e-direcionamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Uma autarquia delega a execução de testes de controle a uma equipe técnica. Com essa divisão de tarefas, a alta administração fica dispensada de direcionar e monitorar o sistema de gestão de riscos.",
+      "correctAnswer": "E",
+      "explanation": "A equipe pode executar tarefas operacionais. A atribuição da alta administração de direcionar e monitorar o sistema permanece.",
+      "reviewEvidence": "Revisão editorial por IA. Decreto nº 9.203/2017, art. 17, conforme seção canônica. A equipe pode executar tarefas operacionais. A atribuição da alta administração de direcionar e monitorar o sistema permanece. Dificuldade estimada."
     }
   ]
 }

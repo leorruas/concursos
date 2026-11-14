@@ -46133,7 +46133,7 @@
       "reviewEvidence": "Revisão por IA com conferência do procedimento e dos prazos na seção indicada. O art. 56, § 1º, prevê primeiro a oportunidade de reconsideração e, se ela não ocorrer em cinco dias, a remessa à autoridade superior. Dificuldade estimada."
     },
     {
-      "id": "cam-da-l098-002-recurso-prorrogacao-expressa",
+      "id": "cam-da-l098-002-recurso-limite-por-lei-especial",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -46142,8 +46142,8 @@
       "unitId": "direito-administrativo",
       "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal",
       "articleId": "art-bc65879a85f5b5d8",
-      "conceptId": "recurso-prorrogacao-expressa",
-      "mechanism": "verificar-condicao-para-prorrogar-julgamento",
+      "conceptId": "recurso-limite-por-lei-especial",
+      "mechanism": "aplicar-ressalva-legal-ao-limite-de-instancias",
       "questionType": "aplicacao",
       "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
@@ -46155,10 +46155,10 @@
         "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
         "section": "3.1 Prazos e regras gerais de tramitação"
       },
-      "statement": "Na ausência de prazo legal distinto, o órgão encarregado de decidir recurso administrativo federal pode prorrogar, sem justificativa expressa, o prazo de trinta dias para julgamento.",
+      "statement": "Uma lei especial prevê quatro instâncias administrativas para determinada espécie de recurso federal. Essa previsão contraria a Lei nº 9.784/1999 pelo simples fato de exceder três instâncias.",
       "correctAnswer": "E",
-      "explanation": "O art. 59, §§ 1º e 2º, conta o prazo do recebimento dos autos e condiciona a prorrogação por igual período a justificativa expressa.",
-      "reviewEvidence": "Revisão por IA com conferência do procedimento e dos prazos na seção indicada. O art. 59, §§ 1º e 2º, conta o prazo do recebimento dos autos e condiciona a prorrogação por igual período a justificativa expressa. Dificuldade estimada."
+      "explanation": "O art. 57 fixa o máximo de três instâncias como regra geral e admite disposição legal diversa. O limite especial pode ser superior.",
+      "reviewEvidence": "Revisão por IA com conferência da ressalva do art. 57 na seção indicada. O art. 57 fixa o máximo de três instâncias como regra geral e admite disposição legal diversa. O limite especial pode ser superior. Dificuldade estimada."
     }
   ]
 }

@@ -46551,6 +46551,62 @@
       "correctAnswer": "E",
       "explanation": "A origem da chefia de Estado informa a forma de governo. Para classificar o regime, é preciso examinar critérios como competição política e direitos de participação.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A origem da chefia de Estado informa a forma de governo. Para classificar o regime, é preciso examinar critérios como competição política e direitos de participação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l104-001-dahl-extensao-do-eleitorado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "articleId": "art-5e8b4c72d13f906a",
+      "conceptId": "dahl-extensao-do-eleitorado",
+      "mechanism": "isolar-inclusividade-da-competicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Robert Dahl: poliarquia, contestação e inclusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos.md",
+        "section": "Robert Dahl: poliarquia, contestação e inclusividade"
+      },
+      "statement": "Uma reforma abre o direito de voto a um grupo antes excluído, sem alterar as condições em que partidos de oposição podem disputar cargos. Na análise de Dahl, a mudança incide diretamente sobre a inclusividade.",
+      "correctAnswer": "C",
+      "explanation": "A reforma amplia o conjunto de pessoas habilitadas a participar. O enunciado mantém constantes as condições de contestação pública.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A reforma amplia o conjunto de pessoas habilitadas a participar. O enunciado mantém constantes as condições de contestação pública. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l104-002-competicao-assimetria-midia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "articleId": "art-5e8b4c72d13f906a",
+      "conceptId": "competicao-assimetria-midia",
+      "mechanism": "avaliar-condicoes-alem-da-contagem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#As arenas de competição e a desigualdade de condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos.md",
+        "section": "As arenas de competição e a desigualdade de condições"
+      },
+      "statement": "Em um país que conta corretamente os votos, o governo usa seu controle sobre a mídia para impedir que candidatos de oposição divulguem suas propostas. A integridade da contagem basta para descartar desigualdade na competição eleitoral.",
+      "correctAnswer": "E",
+      "explanation": "A contagem preserva uma etapa da eleição. A competição também depende da possibilidade de alcançar eleitores em condições que permitam disputar apoio.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A contagem preserva uma etapa da eleição. A competição também depende da possibilidade de alcançar eleitores em condições que permitam disputar apoio. Dificuldade estimada."
     }
   ]
 }

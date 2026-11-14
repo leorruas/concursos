@@ -48203,6 +48203,62 @@
       "correctAnswer": "E",
       "explanation": "O apoio legislativo sustenta a aprovação da medida. A capacidade de detectar atrasos depende de como o órgão organiza e usa seus mecanismos de monitoramento.",
       "reviewEvidence": "Revisão por IA com cotejo da seção indicada. O apoio legislativo sustenta a aprovação da medida. A capacidade de detectar atrasos depende de como o órgão organiza e usa seus mecanismos de monitoramento. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l131-001-autonomia-com-revisao-de-resultados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / modelos de administração pública",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "autonomia-com-revisao-de-resultados",
+      "mechanism": "reconhecer-mudanca-do-objeto-de-controle",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Reforma gerencial dos anos 1990"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Reforma gerencial dos anos 1990"
+      },
+      "statement": "Uma unidade passa a escolher a escala de trabalho sem aprovação prévia de cada turno. A direção mantém revisões periódicas dos prazos e da qualidade das entregas. O arranjo é compatível com a ampliação da autonomia gerencial acompanhada de controle de resultados.",
+      "correctAnswer": "C",
+      "explanation": "A unidade recebe liberdade operacional para organizar a escala. A direção conserva o acompanhamento do que o serviço entrega.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A unidade recebe liberdade operacional para organizar a escala. A direção conserva o acompanhamento do que o serviço entrega. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l131-002-meta-de-procedimentos-reclassificada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / modelos de administração pública",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "meta-de-procedimentos-reclassificada",
+      "mechanism": "identificar-objeto-medido-pelo-indicador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#Reforma gerencial dos anos 1990"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "Reforma gerencial dos anos 1990"
+      },
+      "statement": "Uma unidade troca a conferência individual de cada processo por um painel com o percentual de formulários que contêm todas as assinaturas exigidas. Só por ser apresentado em um painel, esse percentual passa a medir o resultado do serviço para o cidadão.",
+      "correctAnswer": "E",
+      "explanation": "O percentual mede adesão a um requisito formal do processo. O formato do painel não altera o objeto que o indicador mede.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O percentual mede adesão a um requisito formal do processo. O formato do painel não altera o objeto que o indicador mede. Dificuldade estimada."
     }
   ]
 }

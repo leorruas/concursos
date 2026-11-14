@@ -46159,6 +46159,62 @@
       "correctAnswer": "E",
       "explanation": "O art. 57 fixa o máximo de três instâncias como regra geral e admite disposição legal diversa. O limite especial pode ser superior.",
       "reviewEvidence": "Revisão por IA com conferência da ressalva do art. 57 na seção indicada. O art. 57 fixa o máximo de três instâncias como regra geral e admite disposição legal diversa. O limite especial pode ser superior. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l099-001-necessidades-dois-predios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / elaboração da proposta orçamentária",
+      "articleId": "art-4be219d8f750ac63",
+      "conceptId": "necessidades-dois-predios",
+      "mechanism": "inferir-unidade-pela-dotacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4be219d8f750ac63#Arquitetura de atores: onde está cada decisão"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas.md",
+        "section": "Arquitetura de atores: onde está cada decisão"
+      },
+      "statement": "Dois setores de um mesmo órgão federal funcionam em prédios diferentes e dependem das dotações atribuídas a uma só unidade orçamentária. A separação física dos setores não exige, por si só, que cada um constitua uma unidade orçamentária.",
+      "correctAnswer": "C",
+      "explanation": "A unidade orçamentária é identificada pela estrutura do orçamento. O local de funcionamento de um setor não determina sua classificação institucional.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A unidade orçamentária é identificada pela estrutura do orçamento. O local de funcionamento de um setor não determina sua classificação institucional. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l099-002-acao-nova-sem-montante",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / elaboração da proposta orçamentária",
+      "articleId": "art-4be219d8f750ac63",
+      "conceptId": "acao-nova-sem-montante",
+      "mechanism": "classificar-alteracao-pelo-atributo-alterado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4be219d8f750ac63#Da orientação à proposta: etapas e produtos"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas.md",
+        "section": "Da orientação à proposta: etapas e produtos"
+      },
+      "statement": "Durante a elaboração da proposta federal, o trabalho de incluir uma nova ação e definir seu produto, antes de associar valores financeiros, trata da dimensão qualitativa da programação.",
+      "correctAnswer": "C",
+      "explanation": "A criação da ação e a definição de seu produto dizem respeito à estrutura e aos atributos da programação. A dimensão quantitativa detalha as magnitudes físicas e financeiras.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A criação da ação e a definição de seu produto dizem respeito à estrutura e aos atributos da programação. A dimensão quantitativa detalha as magnitudes físicas e financeiras. Dificuldade estimada."
     }
   ]
 }

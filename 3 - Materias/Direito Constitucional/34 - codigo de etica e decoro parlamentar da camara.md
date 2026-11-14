@@ -157,7 +157,6 @@ flowchart TD
  G --> G1{"Mesa aprova representação?"}
  G1 -->|Sim| G2["Reabre prazo de defesa; instrução complementar nos prazos do art. 14"]
  G2 --> I4
-["Parecer submetido à discussão e votação após instrução"]
  G1 -->|Não| G3["Sem passagem automática ao rito grave"]
  E4 -->|Suspensão de prerrogativas| R13["Parecer com projeto de resolução: art. 13, III, b e V"]
  B --> I["Suspensão do mandato (e todas prerrogativas) ou perda: art. 14"]

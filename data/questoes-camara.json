@@ -43359,6 +43359,90 @@
       "correctAnswer": "E",
       "explanation": "Conforme apresenta a previsão como referência seguida. Embora introduz concessão e sugeriria uma oposição entre a previsão e o fato anunciado.",
       "reviewEvidence": "Revisão editorial por IA. Critério: Conforme apresenta a previsão como referência seguida. Embora introduz concessão e sugeriria uma oposição entre a previsão e o fato anunciado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l063-001-vies-representacao-teste-da-media",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ética em inteligência artificial",
+      "articleId": "art-392b1e185fd2729e",
+      "conceptId": "vies-representacao-teste-da-media",
+      "mechanism": "testar-desempenho-no-grupo-sub-representado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-392b1e185fd2729e#2. Taxonomia dos vieses algorítmicos: origens e manifestações"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana.md",
+        "section": "2. Taxonomia dos vieses algorítmicos: origens e manifestações"
+      },
+      "statement": "Um classificador de documentos foi treinado sobretudo com formulários digitais e será usado também em formulários manuscritos. Uma boa taxa de acerto global não dispensa medir separadamente os erros nos manuscritos.",
+      "correctAnswer": "C",
+      "explanation": "O resultado agregado pode esconder falhas no grupo menos representado. A avaliação separada permite detectar uma diferença relevante para o uso previsto.",
+      "reviewEvidence": "Revisão por IA. Critério conferido: O resultado agregado pode esconder falhas no grupo menos representado. A avaliação separada permite detectar uma diferença relevante para o uso previsto. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l063-002-explicacao-geral-decisao-individual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ética em inteligência artificial",
+      "articleId": "art-392b1e185fd2729e",
+      "conceptId": "explicacao-geral-decisao-individual",
+      "mechanism": "separar-explicacao-global-e-local",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-392b1e185fd2729e#4. O dilema da Caixa-Preta (*Black-Box*) e a Explicabilidade (XAI)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana.md",
+        "section": "4. O dilema da Caixa-Preta (*Black-Box*) e a Explicabilidade (XAI)"
+      },
+      "statement": "Um manual descreve como um modelo pontua todos os pedidos em termos gerais. A existência desse manual, por si só, identifica quais fatores tiveram maior influência na pontuação de um pedido específico.",
+      "correctAnswer": "E",
+      "explanation": "A explicação global descreve o comportamento geral. Explicar um resultado individual exige informação sobre a decisão específica.",
+      "reviewEvidence": "Revisão por IA. Critério conferido: A explicação global descreve o comportamento geral. Explicar um resultado individual exige informação sobre a decisão específica. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l063-003-supervisao-contestacao-antes-do-efeito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ética em inteligência artificial",
+      "articleId": "art-392b1e185fd2729e",
+      "conceptId": "supervisao-contestacao-antes-do-efeito",
+      "mechanism": "verificar-capacidade-de-intervencao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-392b1e185fd2729e#5. Supervisão humana: modelos de integração e falácias de controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana.md",
+        "section": "5. Supervisão humana: modelos de integração e falácias de controle"
+      },
+      "statement": "Um sistema recomenda a rejeição de formulários. O responsável pode consultar os dados usados e corrigir a recomendação antes que produza efeito. Essas condições favorecem uma supervisão mais efetiva do que a simples assinatura sem acesso às razões da recomendação.",
+      "correctAnswer": "C",
+      "explanation": "O acesso aos fundamentos e a possibilidade prática de intervir permitem revisão substantiva. Uma assinatura isolada não demonstra que esse controle ocorreu.",
+      "reviewEvidence": "Revisão por IA. Critério conferido: O acesso aos fundamentos e a possibilidade prática de intervir permitem revisão substantiva. Uma assinatura isolada não demonstra que esse controle ocorreu. Dificuldade estimada."
     }
   ]
 }

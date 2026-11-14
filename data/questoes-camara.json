@@ -47923,6 +47923,62 @@
       "correctAnswer": "C",
       "explanation": "Encontrar o formulário correto observa o resultado pretendido para o usuário. O número de páginas reformuladas mede o trabalho entregue pela agência.",
       "reviewEvidence": "Revisão por IA com conferência da correspondência entre objetivo e medida. Encontrar o formulário correto observa o resultado pretendido para o usuário. O número de páginas reformuladas mede o trabalho entregue pela agência. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l126-001-rede-escalonamento-de-impasse",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-escalonamento-de-impasse",
+      "mechanism": "localizar-lacuna-na-regra-de-decisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Componentes, governança e riscos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Componentes, governança e riscos"
+      },
+      "statement": "Três órgãos compartilham dados e concordam com o objetivo da rede. Quando seus técnicos divergem sobre a correção de um registro, porém, o caso fica parado. Prever a quem encaminhar o impasse após uma tentativa de acordo atua diretamente sobre a falha descrita.",
+      "correctAnswer": "C",
+      "explanation": "O caso já tem objetivo comum e troca de dados. O ponto em aberto é como encaminhar divergências que os técnicos não resolvem.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O caso já tem objetivo comum e troca de dados. O ponto em aberto é como encaminhar divergências que os técnicos não resolvem. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l126-002-rede-agregado-oculta-etapa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-agregado-oculta-etapa",
+      "mechanism": "distinguir-monitoramento-global-e-localizacao-do-atraso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Componentes, governança e riscos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Componentes, governança e riscos"
+      },
+      "statement": "Uma rede registra apenas o tempo total entre o pedido e a entrega, sem marcar a passagem do processo entre seus membros. Esse indicador, por si só, identifica em qual etapa se acumulou a espera.",
+      "correctAnswer": "E",
+      "explanation": "O tempo total indica quanto durou o atendimento. Localizar a espera exige dados de etapas ou de transferências entre os participantes.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O tempo total indica quanto durou o atendimento. Localizar a espera exige dados de etapas ou de transferências entre os participantes. Dificuldade estimada."
     }
   ]
 }

@@ -41511,6 +41511,118 @@
       "correctAnswer": "E",
       "explanation": "A oração introduzida por because fornece a causa: o término antecipado. A chegada antes do meio-dia é o evento explicado.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência de escopo e gabarito no contexto: A oração introduzida por because fornece a causa: o término antecipado. A chegada antes do meio-dia é o evento explicado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l043-001-citacao-direta-nao-explicacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação e reescrita",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "citacao-direta-nao-explicacao",
+      "mechanism": "identificar-mudanca-de-voz",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#3.2. Dois-Pontos (:) e Suas Quatro Funções Canônicas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "3.2. Dois-Pontos (:) e Suas Quatro Funções Canônicas"
+      },
+      "statement": "Em “A coordenadora informou: ‘O prazo será prorrogado’”, trocar os dois-pontos por “porque” mantém a relação original entre os segmentos.",
+      "correctAnswer": "E",
+      "explanation": "Os dois-pontos introduzem o conteúdo atribuído à coordenadora. Porque introduziria causa, relação que não corresponde à apresentação da fala.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da função sintática e discursiva na seção canônica: Os dois-pontos introduzem o conteúdo atribuído à coordenadora. Porque introduziria causa, relação que não corresponde à apresentação da fala. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l043-002-dois-pontos-aposto-oracional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação e reescrita",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "dois-pontos-aposto-oracional",
+      "mechanism": "reconhecer-especificacao-oracional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#3.2. Dois-Pontos (:) e Suas Quatro Funções Canônicas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "3.2. Dois-Pontos (:) e Suas Quatro Funções Canônicas"
+      },
+      "statement": "Em “O acordo estabelece uma condição: que os arquivos sejam transferidos em formato aberto”, a oração após os dois-pontos especifica em que consiste a condição.",
+      "correctAnswer": "C",
+      "explanation": "A oração explica o conteúdo de “uma condição” e funciona como aposto. Não indica a causa da existência do acordo.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da função sintática e discursiva na seção canônica: A oração explica o conteúdo de “uma condição” e funciona como aposto. Não indica a causa da existência do acordo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l043-003-enumeracao-com-virgulas-internas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação e reescrita",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "enumeracao-com-virgulas-internas",
+      "mechanism": "delimitar-grupos-na-enumeracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#3.3. Ponto e Vírgula (;) no Discurso Oficial e Legislativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "3.3. Ponto e Vírgula (;) no Discurso Oficial e Legislativo"
+      },
+      "statement": "Em “A equipe ouviu Ana, da biblioteca; Rui, do arquivo; e Lia, do museu”, os pontos e vírgulas separam três itens da enumeração, cada qual com uma indicação de origem.",
+      "correctAnswer": "C",
+      "explanation": "Os pontos e vírgulas demarcam os grupos. As vírgulas internas ligam cada indicação de origem ao nome correspondente.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da função sintática e discursiva na seção canônica: Os pontos e vírgulas demarcam os grupos. As vírgulas internas ligam cada indicação de origem ao nome correspondente. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l043-004-travessao-aposto-em-final",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação e reescrita",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "travessao-aposto-em-final",
+      "mechanism": "reconhecer-limite-final-do-periodo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#3.1. A Equivalência entre Vírgulas Duplas, Travessões Duplos e Parênteses"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "3.1. A Equivalência entre Vírgulas Duplas, Travessões Duplos e Parênteses"
+      },
+      "statement": "No período “O arquivo recebeu um novo equipamento — um digitalizador de grande formato.”, é obrigatório inserir outro travessão imediatamente antes do ponto final para fechar o aposto.",
+      "correctAnswer": "E",
+      "explanation": "O aposto termina junto com o período. O ponto final já marca o limite, sem exigir um segundo travessão.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da função sintática e discursiva na seção canônica: O aposto termina junto com o período. O ponto final já marca o limite, sem exigir um segundo travessão. Dificuldade estimada."
     }
   ]
 }

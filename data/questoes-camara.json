@@ -39775,6 +39775,286 @@
       "correctAnswer": "C",
       "explanation": "A revisão por fatos novos ou circunstâncias relevantes é cabível a qualquer tempo, a pedido ou de ofício, quando possam evidenciar a inadequação da sanção.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei 9.784/1999, art. 65, caput. Critério: A revisão por fatos novos ou circunstâncias relevantes é cabível a qualquer tempo, a pedido ou de ofício, quando possam evidenciar a inadequação da sanção. Conferência com a seção canônica, o piloto e a expansão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l034-001-meio-numeral-adverbio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "meio-numeral-adverbio",
+      "mechanism": "comparar-funcoes-de-meio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      },
+      "statement": "Em “As servidoras estavam meio preocupadas e solicitaram meia hora de intervalo”, as diferentes formas de “meio” se explicam porque a primeira indica intensidade e a segunda indica uma fração.",
+      "correctAnswer": "C",
+      "explanation": "Como advérbio de intensidade, “meio” fica invariável. Como numeral fracionário, concorda com o substantivo “hora”.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: Como advérbio de intensidade, “meio” fica invariável. Como numeral fracionário, concorda com o substantivo “hora”. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l034-002-bastante-modificador-nominal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "bastante-modificador-nominal",
+      "mechanism": "distinguir-intensidade-e-quantidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      },
+      "statement": "Em “A equipe reuniu bastantes documentos, mas os anexos ficaram bastante extensos”, o segundo “bastante” deve flexionar-se no plural para concordar com “anexos”.",
+      "correctAnswer": "E",
+      "explanation": "O segundo “bastante” modifica o adjetivo “extensos” como advérbio invariável. O primeiro quantifica “documentos” e admite flexão.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: O segundo “bastante” modifica o adjetivo “extensos” como advérbio invariável. O primeiro quantifica “documentos” e admite flexão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l034-003-locucao-em-anexo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-0655bb314882606f",
+      "conceptId": "locucao-em-anexo",
+      "mechanism": "separar-locucao-e-adjetivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0655bb314882606f#4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/27 - concordancia verbal e nominal regras e casos de fronteira.md",
+        "section": "4. Arquitetura da concordância nominal: regras gerais e vocábulos de fronteira"
+      },
+      "statement": "Em “As planilhas seguem anexas ao relatório”, a substituição de “anexas” por “em anexo” preserva a correção gramatical.",
+      "correctAnswer": "C",
+      "explanation": "“Anexas” é adjetivo e concorda com “planilhas”. A locução “em anexo” é invariável e pode cumprir a função adverbial na reescrita.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: “Anexas” é adjetivo e concorda com “planilhas”. A locução “em anexo” é invariável e pode cumprir a função adverbial na reescrita. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l034-004-assistir-sentido-de-presenciar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-0cb14544830d0b6d",
+      "conceptId": "assistir-sentido-de-presenciar",
+      "mechanism": "inferir-preposicao-pela-acepcao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cb14544830d0b6d#3. Repertório estratégico de regência verbal: transitividade e mudança de sentido"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos.md",
+        "section": "3. Repertório estratégico de regência verbal: transitividade e mudança de sentido"
+      },
+      "statement": "Em “As servidoras assistiram à cerimônia”, a retirada do acento grave, mantendo-se “a cerimônia”, preserva a correção segundo a regência tradicional de “assistir” no sentido de presenciar.",
+      "correctAnswer": "E",
+      "explanation": "Na regência tradicional, “assistir” no sentido de presenciar seleciona a preposição “a”, que se funde com o artigo de “a cerimônia”.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: Na regência tradicional, “assistir” no sentido de presenciar seleciona a preposição “a”, que se funde com o artigo de “a cerimônia”. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l034-005-fiel-complemento-nominal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-0cb14544830d0b6d",
+      "conceptId": "fiel-complemento-nominal",
+      "mechanism": "localizar-regente-nominal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cb14544830d0b6d#5. Regência nominal: quadro dos nomes mais cobrados"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/28 - regencia verbal e nominal transitividade e sentidos.md",
+        "section": "5. Regência nominal: quadro dos nomes mais cobrados"
+      },
+      "statement": "Em “A transcrição permaneceu fiel ao depoimento”, a preposição de “ao depoimento” é selecionada pelo adjetivo “fiel”, independentemente de o verbo de ligação ser “permanecer” ou “continuar”.",
+      "correctAnswer": "C",
+      "explanation": "“Ao depoimento” completa o sentido de “fiel a”. A troca do verbo de ligação não retira a exigência do adjetivo.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: “Ao depoimento” completa o sentido de “fiel a”. A troca do verbo de ligação não retira a exigência do adjetivo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l034-006-crase-singular-antes-plural",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-3f8cfa8b8d43c2bd",
+      "conceptId": "crase-singular-antes-plural",
+      "mechanism": "verificar-presenca-de-artigo-compativel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3f8cfa8b8d43c2bd#3. Catálogo de proibições absolutas (impedimentos da crase)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos.md",
+        "section": "3. Catálogo de proibições absolutas (impedimentos da crase)"
+      },
+      "statement": "Em “O ofício faz referência a normas internas”, pode-se substituir “a” por “à”, mantendo as demais palavras, porque “referência” exige preposição.",
+      "correctAnswer": "E",
+      "explanation": "A preposição está presente, mas uma eventual determinação por artigo exigiria “as”, em concordância com “normas”, e resultaria em “às”.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: A preposição está presente, mas uma eventual determinação por artigo exigiria “as”, em concordância com “normas”, e resultaria em “às”. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l034-007-crase-demonstrativo-aquele",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-3f8cfa8b8d43c2bd",
+      "conceptId": "crase-demonstrativo-aquele",
+      "mechanism": "detectar-fusao-com-demonstrativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3f8cfa8b8d43c2bd#4. Casos de crase obrigatória e locuções fixas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos.md",
+        "section": "4. Casos de crase obrigatória e locuções fixas"
+      },
+      "statement": "Em “A nota se refere àquele parecer de abril”, o acento grave continua obrigatório embora o substantivo “parecer” seja masculino.",
+      "correctAnswer": "C",
+      "explanation": "O acento resulta da fusão da preposição exigida por “referir-se” com o “a” inicial do demonstrativo “aquele”, independentemente do gênero do substantivo.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: O acento resulta da fusão da preposição exigida por “referir-se” com o “a” inicial do demonstrativo “aquele”, independentemente do gênero do substantivo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l034-008-crase-casa-determinada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-3f8cfa8b8d43c2bd",
+      "conceptId": "crase-casa-determinada",
+      "mechanism": "classificar-casa-com-especificador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3f8cfa8b8d43c2bd#5. Os três casos facultativos clássicos e os quatro casos especiais (*casa, terra, distância, nomes de lugar*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/29 - crase condicoes de ocorrencia casos facultativos e impedimentos.md",
+        "section": "5. Os três casos facultativos clássicos e os quatro casos especiais (*casa, terra, distância, nomes de lugar*)"
+      },
+      "statement": "Em “A pesquisadora voltou à casa de seus avós”, a especificação “de seus avós” permite o artigo definido antes de “casa”, que se funde com a preposição exigida por “voltar”.",
+      "correctAnswer": "C",
+      "explanation": "O substantivo “casa”, determinado no contexto, pode receber artigo. O acento marca a fusão do artigo com a preposição de destino.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: O substantivo “casa”, determinado no contexto, pode receber artigo. O acento marca a fusão do artigo com a preposição de destino. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l034-009-proclise-relativo-na-subordinada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-3e69afeada1328e6",
+      "conceptId": "proclise-relativo-na-subordinada",
+      "mechanism": "delimitar-atracao-do-relativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3e69afeada1328e6#3. Fatores de próclise obrigatória (palavras atrativas)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/30 - colocacao dos pronomes atonos proclise mesoclise e enclise.md",
+        "section": "3. Fatores de próclise obrigatória (palavras atrativas)"
+      },
+      "statement": "Em “O assessor que nos avisou enviou o arquivo”, a substituição de “que nos avisou” por “que avisou-nos” preserva a correção segundo as regras de colocação pronominal da norma-padrão.",
+      "correctAnswer": "E",
+      "explanation": "O pronome relativo “que” atrai o pronome átono para antes de “avisou” na oração subordinada.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: O pronome relativo “que” atrai o pronome átono para antes de “avisou” na oração subordinada. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l034-010-enclise-terminacao-nasal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da estrutura morfossintática do período e reescrita",
+      "articleId": "art-3e69afeada1328e6",
+      "conceptId": "enclise-terminacao-nasal",
+      "mechanism": "aplicar-variante-pronominal-pos-nasal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3e69afeada1328e6#5. Regras da mesóclise, adaptações fonéticas da ênclise e locuções verbais"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/30 - colocacao dos pronomes atonos proclise mesoclise e enclise.md",
+        "section": "5. Regras da mesóclise, adaptações fonéticas da ênclise e locuções verbais"
+      },
+      "statement": "Com a substituição de “os formulários” por pronome átono em “Remeteram os formulários”, a construção com ênclise é “Remeteram-los”.",
+      "correctAnswer": "E",
+      "explanation": "Após a terminação nasal de “remeteram”, o pronome “os” assume a forma “nos”: “Remeteram-nos”. A forma “los” corresponde a outro ambiente fonético.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: Após a terminação nasal de “remeteram”, o pronome “os” assume a forma “nos”: “Remeteram-nos”. A forma “los” corresponde a outro ambiente fonético. Dificuldade estimada."
     }
   ]
 }

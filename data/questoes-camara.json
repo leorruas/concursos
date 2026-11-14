@@ -47643,6 +47643,62 @@
       "correctAnswer": "E",
       "explanation": "O apoio social e a capacidade de execução são evidências diferentes da autorização formal exigida no caso. O apoio não substitui a decisão competente.",
       "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. O apoio social e a capacidade de execução são evidências diferentes da autorização formal exigida no caso. O apoio não substitui a decisão competente. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l120-001-rede-gargalo-base-externa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-gargalo-base-externa",
+      "mechanism": "localizar-dependencia-fora-da-hierarquia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Caso progressivo: comunicação de dados legislativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Caso progressivo: comunicação de dados legislativos"
+      },
+      "statement": "Uma equipe corrige atrasos em sua própria rotina de publicação, mas continua recebendo dados desatualizados de outra instituição. A providência interna elimina, por si só, a dependência de atualização pela instituição parceira.",
+      "correctAnswer": "E",
+      "explanation": "A publicação e a atualização na origem são etapas distintas. Melhorar a primeira não altera automaticamente a produção da base externa.",
+      "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. A publicação e a atualização na origem são etapas distintas. Melhorar a primeira não altera automaticamente a produção da base externa. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l120-002-coordenacao-secretaria-propria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "coordenacao-secretaria-propria",
+      "mechanism": "identificar-estrutura-dedicada-de-coordenacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Origens e modelos teóricos: autores não são equivalentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Origens e modelos teóricos: autores não são equivalentes"
+      },
+      "statement": "Os membros de uma rede criam uma secretaria distinta das organizações participantes, dedicada a convocar reuniões, acompanhar decisões e resolver problemas de coordenação. O desenho é compatível com a organização administrativa da rede na tipologia de Provan e Kenis.",
+      "correctAnswer": "C",
+      "explanation": "A coordenação é atribuída a uma estrutura criada para administrar a rede. A existência dessa estrutura diferencia o caso da coordenação direta pelos membros ou concentrada em um deles.",
+      "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. A coordenação é atribuída a uma estrutura criada para administrar a rede. A existência dessa estrutura diferencia o caso da coordenação direta pelos membros ou concentrada em um deles. Dificuldade estimada."
     }
   ]
 }

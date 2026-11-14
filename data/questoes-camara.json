@@ -47811,6 +47811,34 @@
       "correctAnswer": "E",
       "explanation": "O tempo da equipe é só uma parcela. Avaliar o esforço total exige incluir o trabalho dos colaboradores e outras atividades de manutenção.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O tempo da equipe é só uma parcela. Avaliar o esforço total exige incluir o trabalho dos colaboradores e outras atividades de manutenção. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l123-001-selecao-no-canal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes, articulação e coprodução de serviços públicos",
+      "articleId": "art-ae41d8c6920f4b57",
+      "conceptId": "selecao-no-canal",
+      "mechanism": "identificar-exclusao-pelo-recrutamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ae41d8c6920f4b57#Elementos, condições e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md",
+        "section": "Elementos, condições e limites"
+      },
+      "statement": "Uma equipe divulga a oficina de redesenho de um serviço apenas no próprio aplicativo que pretende simplificar. Mesmo com muitas inscrições, o canal de divulgação pode sub-representar pessoas que já abandonaram o aplicativo por dificuldade de uso.",
+      "correctAnswer": "C",
+      "explanation": "Quem deixou de usar o aplicativo tem menos oportunidade de ver o convite. O número de inscrições não resolve a seleção produzida pelo canal de divulgação.",
+      "reviewEvidence": "Revisão por IA. Quem deixou de usar o aplicativo tem menos oportunidade de ver o convite. O número de inscrições não resolve a seleção produzida pelo canal de divulgação. Dificuldade estimada."
     }
   ]
 }

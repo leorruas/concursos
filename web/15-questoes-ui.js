@@ -138,13 +138,36 @@ function answer(ev){
 function finish(){
  if(!session)return;if(!session.finishedAt){session.finishedAt=new Date().toISOString();storeWrite();}
  localStorage.removeItem(ACTIVE);toggle('qs-play',false);toggle('qs-config',false);toggle('qs-summary',true);
- $('qs-result-context').textContent=session.concursoName+' / '+session.mode;
- const c=session.answers.filter(a=>a.result==='correct').length,w=session.answers.filter(a=>a.result==='incorrect').length,b=session.answers.filter(a=>a.result==='blank').length;
- $('qs-stats').replaceChildren(...[['Respondidas',session.answers.length],['Acertos',c],['Erros',w],['Em branco',b]].map(([k,v])=>{const el=elem('div');el.append(elem('strong',v),elem('span',k));return el;}));
- $('qs-score').textContent='Acerto: '+(session.answers.length?(100*c/session.answers.length).toFixed(1)+'%':'sem respostas')+'. '+(session.concursoId==='camara-2026'?'Saldo C/E: '+(c-w)+'. ':'')+'Treino didático, sem equivalência automática com nota de prova.';
+ $('qs-result-context').textContent=session.concursoName+' / '+(session.mode==='aprendizagem'?'aprendizagem':'simulado');
+ const correct=session.answers.filter(a=>a.result==='correct').length;
+ const wrong=session.answers.filter(a=>a.result==='incorrect').length;
+ const blank=session.answers.filter(a=>a.result==='blank').length;
+ const unsure=session.answers.filter(a=>a.result==='correct'&&a.confidence==='insecure').length;
+ const percent=session.answers.length?Math.round(100*correct/session.answers.length):0;
+ $('qs-result-percent').textContent=percent+'%';
+ $('qs-stats').replaceChildren(...[['Acertos',correct],['Erros',wrong],['Acertos inseguros',unsure],['Em branco',blank]].map(([label,value])=>{
+  const box=elem('div');box.append(elem('strong',value),elem('span',label));return box;
+ }));
+ $('qs-score').textContent=correct+' de '+session.answers.length+' questões. '+(session.concursoId==='camara-2026'?'Saldo C/E: '+(correct-wrong)+'. ':'')+'Treino didático, não equivale à nota oficial.';
+ $('qs-results-link').href='resultados.html?concurso='+encodeURIComponent(session.concursoId);
+ const priorities=quizPriorityGroups(session.answers,data.map,session.concursoId).slice(0,5);
+ const container=$('qs-priorities');container.replaceChildren();
+ $('qs-priorities-note').textContent=priorities.length?
+  'Baseadas nos erros e acertos inseguros desta bateria. Erros com segurança merecem atenção especial.':
+  'Sem erros ou acertos inseguros nesta bateria. Uma revisão em outro dia ajudará a testar a retenção.';
+ for(const [i,g] of priorities.entries()){
+  const card=elem('article');card.className='qs-recommendation';
+  const left=elem('div'),rank=elem('span',String(i+1).padStart(2,'0')+' / '+(g.errors?'prioridade':'reforço'));rank.className='qs-meta';
+  const title=elem('h4',quizArticleName(g.articleId));
+  const reason=elem('p',quizPriorityReason(g));left.append(rank,title,reason);
+  if(g.section)left.append(elem('p','Trecho: '+g.section));
+  const link=elem('a','Ler o trecho');link.href=quizArticleLink(g.articleId,g.section,session.concursoId);link.rel='noreferrer';card.append(left,link);
+  container.append(card);
+ }
+ $('qs-review-count').textContent='('+session.answers.length+')';
  const review=$('qs-reviews');review.replaceChildren();
  session.answers.forEach((a,i)=>{const q=data.map.get(a.questionId);if(!q)return;const d=elem('details');d.className='qs-review';d.append(elem('summary',(i+1)+'. '+(q.subjectName||q.subjectId)+' · '+(a.result==='correct'?'acerto':a.result==='blank'?'em branco':'erro')),elem('p',q.statement),elem('p','Sua resposta: '+(a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco')+' · Gabarito: '+(q.correctAnswer==='C'?'Certo':'Errado')),elem('p',q.explanation));const link=theory(q);if(link)d.append(link);review.append(d);});
- status('Bateria encerrada. Você pode consultar as justificativas abaixo.');
+ status('Bateria concluída. Prioridades de leitura calculadas a partir desta sessão.');
 }
 function resume(){
  const key=localStorage.getItem(ACTIVE),s=storeRead().find(x=>x.id===key&&!x.finishedAt);

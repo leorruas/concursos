@@ -40923,6 +40923,118 @@
       "correctAnswer": "E",
       "explanation": "A transferência exige requerimento aprovado em votação nominal. O resultado simbólico não satisfaz essa exigência.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código de Ética e Decoro Parlamentar, art. 18, § 3º. Critério conferido: A transferência exige requerimento aprovado em votação nominal. O resultado simbólico não satisfaz essa exigência. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l039-001-cronograma-periodicidade-mensal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "cronograma-periodicidade-mensal",
+      "mechanism": "separar-prazo-de-edicao-e-periodicidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Programação financeira: art. 8º da LRF"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Programação financeira: art. 8º da LRF"
+      },
+      "statement": "Um Poder publica a programação financeira dentro dos trinta dias posteriores à publicação da LOA, mas estabelece apenas limites trimestrais de desembolso. O atendimento do prazo de edição supre a ausência de cronograma mensal.",
+      "correctAnswer": "E",
+      "explanation": "O prazo para estabelecer a programação e a periodicidade mensal do cronograma são requisitos distintos. Cumprir o primeiro não dispensa o segundo.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. LC 101/2000, art. 8º. Critério conferido: O prazo para estabelecer a programação e a periodicidade mensal do cronograma são requisitos distintos. Cumprir o primeiro não dispensa o segundo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l039-002-vinculacao-caixa-virada-exercicio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "vinculacao-caixa-virada-exercicio",
+      "mechanism": "rastrear-finalidade-apos-encerramento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Recursos vinculados continuam vinculados"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Recursos vinculados continuam vinculados"
+      },
+      "statement": "Uma autarquia mantém saldo de recursos legalmente vinculados a um programa ao encerrar o exercício. O ingresso no exercício anterior não autoriza usar esse saldo em outro programa estranho à finalidade da vinculação.",
+      "correctAnswer": "C",
+      "explanation": "A obrigação de aplicar o recurso na finalidade legal continua mesmo em exercício diverso daquele em que ele ingressou.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. LC 101/2000, art. 8º, parágrafo único. Critério conferido: A obrigação de aplicar o recurso na finalidade legal continua mesmo em exercício diverso daquele em que ele ingressou. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l039-003-arrecadacao-meta-de-resultado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "arrecadacao-meta-de-resultado",
+      "mechanism": "avaliar-criterio-fiscal-do-gatilho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Contingenciamento: art. 9º da LRF"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "statement": "Ao fim de um bimestre, a arrecadação acumulada ficou abaixo da estimativa, mas a realização da receita ainda comporta as metas fiscais estabelecidas no Anexo de Metas Fiscais. Pelo art. 9º da LRF, a diferença em relação à estimativa basta para exigir limitação.",
+      "correctAnswer": "E",
+      "explanation": "O gatilho é o risco de que a realização da receita não comporte as metas de resultado. A diferença isolada não demonstra esse risco no caso.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. LC 101/2000, art. 9º, caput. Critério conferido: O gatilho é o risco de que a realização da receita não comporte as metas de resultado. A diferença isolada não demonstra esse risco no caso. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l039-004-recomposicao-proporcional-nao-linear",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "recomposicao-proporcional-nao-linear",
+      "mechanism": "identificar-base-da-distribuicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Contingenciamento: art. 9º da LRF"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Contingenciamento: art. 9º da LRF"
+      },
+      "statement": "Dois órgãos sofreram reduções de limites de R$ 3 milhões e R$ 9 milhões. Se a recomposição parcial disponível para o conjunto for de R$ 4 milhões, atribuir R$ 2 milhões a cada órgão satisfaz o critério proporcional da LRF.",
+      "correctAnswer": "E",
+      "explanation": "A base da recomposição são as reduções efetivadas. A proporção de 1 para 3 resulta em R$ 1 milhão para o primeiro órgão e R$ 3 milhões para o segundo.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. LC 101/2000, art. 9º, § 1º. Critério conferido: A base da recomposição são as reduções efetivadas. A proporção de 1 para 3 resulta em R$ 1 milhão para o primeiro órgão e R$ 3 milhões para o segundo. Dificuldade estimada."
     }
   ]
 }

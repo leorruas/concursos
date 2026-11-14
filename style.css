@@ -2559,3 +2559,15 @@ body:has(.glossario-pagina:not(.escondido)) .page-masthead{display:none}
     overflow-wrap: anywhere;
     font-size: 0.85em;
 }
+
+
+/* Cabeçalho comum às ferramentas, baseado nos tokens da biblioteca. */
+.study-topbar{max-width:1000px;margin:0 auto;padding:24px 0 19px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid color-mix(in srgb,var(--text) 25%,transparent)}
+.study-topbar__brand{color:var(--accent-blue);font-size:.95rem;font-weight:730;text-decoration:none;white-space:nowrap;letter-spacing:-.012em}
+.study-topbar__brand span{color:var(--muted);font-weight:400}
+.study-topbar__links{display:flex;align-items:center;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.study-topbar__links a,.study-topbar__links button{font:inherit;font-size:.77rem;text-decoration:none;line-height:1.2;color:var(--accent-blue);background:var(--accent-blue-alpha-05);border:1px solid var(--accent-blue-alpha-30);border-radius:20px;padding:7px 12px;cursor:pointer;white-space:nowrap;text-transform:lowercase}
+.study-topbar__links a:hover,.study-topbar__links button:hover,.study-topbar__links a[aria-current=page]{background:var(--accent-blue-alpha-15);border-color:var(--accent-blue)}
+.study-topbar__links :focus-visible{outline:2px solid var(--accent-blue);outline-offset:3px}
+@media(max-width:850px){.study-topbar{align-items:flex-start;flex-direction:column;gap:14px}.study-topbar__links{justify-content:flex-start;gap:7px}}
+@media(max-width:420px){.study-topbar__links a,.study-topbar__links button{font-size:.73rem;padding:7px 10px}}

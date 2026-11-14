@@ -95,19 +95,38 @@
     .results-quiz-priority a{color:var(--accent-blue);font-size:13px;white-space:nowrap;text-underline-offset:4px}
     @media(max-width:600px){.results-quiz-priority{display:block}.results-quiz-priority a{display:inline-block;margin-top:10px;white-space:normal}}
 
+
+    /* Painel unificado, mesma hierarquia editorial do catálogo de estudos. */
+    .results-header{margin-bottom:44px}
+    .results-title{font-size:clamp(2.65rem,6vw,4.6rem);line-height:1;letter-spacing:-.062em;text-transform:lowercase}
+    .results-section{margin-bottom:54px}
+    .results-unified{margin-bottom:44px}
+    .results-origin-grid{display:flex;flex-wrap:wrap;gap:6px 22px;border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent);padding:16px 0 0}
+    .results-origin-item{color:var(--muted);font-family:'IBM Plex Mono',monospace;font-size:12px}
+    .results-origin-item strong{color:var(--text);font-weight:650}
+    .results-quiz-priority{display:grid;grid-template-columns:32px minmax(0,1fr) auto;align-items:start;gap:14px;padding:20px 0;border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
+    .results-quiz-priority .results-order{font-family:'IBM Plex Mono',monospace;color:var(--accent-blue);font-size:12px;padding-top:4px}
+    .results-quiz-priority strong{display:block;color:var(--text);font-size:1.04rem;line-height:1.4}
+    .results-quiz-priority small{display:block;color:var(--muted);font-size:13px;margin-top:5px;line-height:1.5}
+    .results-quiz-priority a{color:var(--accent-blue);font-size:13px;text-decoration:none;padding-top:4px}
+    .results-quiz-priority a:hover{text-decoration:underline}
+    .results-revision-details{margin-top:20px;border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent);padding-top:17px}
+    .results-revision-details>summary{color:var(--accent-blue);font-size:13px;cursor:pointer}
+    .results-revision-details #results-articles{margin-top:20px}
+    .results-difficulty-row{display:grid;grid-template-columns:minmax(130px,1.1fr) minmax(130px,1.5fr) minmax(115px,.9fr);gap:18px;align-items:center;border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent);padding:17px 0}
+    .results-difficulty-row strong{color:var(--text);font-weight:600;font-size:15px}
+    .results-difficulty-row small{display:block;color:var(--muted);font-size:12px;margin-top:4px}
+    .results-difficulty-bar{height:5px;background:color-mix(in srgb,var(--text) 15%,transparent)}
+    .results-difficulty-bar>span{display:block;height:100%;background:var(--accent-blue)}
+    .results-difficulty-value{color:var(--text);font-size:14px;text-align:right}
+    .results-difficulty-value small{color:var(--muted)}
+    @media(max-width:650px){.results-quiz-priority{grid-template-columns:25px minmax(0,1fr)}.results-quiz-priority a{grid-column:2}.results-difficulty-row{grid-template-columns:minmax(110px,1fr) minmax(90px,1fr)}.results-difficulty-value{grid-column:1 / -1;text-align:left}}
+
   </style>
 </head>
 <body>
   <main class="results-layout">
-    <header class="results-header">
-      <a class="results-wordmark" href="https://leorruas.github.io/concursos/">concursos <span>• leorruas</span></a>
-      <nav class="results-nav" aria-label="Ferramentas de estudo">
-        <a href="https://leorruas.github.io/concursos/">Biblioteca</a>
-        <a href="https://concurso-estudo.leoruas.workers.dev/flashcards.html">flashcards</a>
-  <a href="https://concurso-estudo.leoruas.workers.dev/questoes.html">questões</a>
-        <button type="button" id="results-theme" aria-label="Alternar tema">modo claro</button>
-      </nav>
-    </header>
+    <nav class="study-topbar" data-active="results" aria-label="Ferramentas de estudo"><a class="study-topbar__brand" data-study-nav="library" href="index.html">concursos <span>• leorruas</span></a><div class="study-topbar__links"><a data-study-nav="library" href="index.html">biblioteca</a><a data-study-nav="glossary" href="index.html#/glossario?concurso=camara-2026">glossário</a><a data-study-nav="flashcards" href="flashcards.html">flashcards</a><a data-study-nav="questions" href="questoes.html">questões</a><a data-study-nav="results" href="resultados.html">meus resultados</a><button type="button" id="results-theme">modo claro</button></div></nav>
     <p class="results-kicker">acompanhamento privado de estudo</p>
     <h1 class="results-title">meus resultados</h1>
     <p class="results-explain">Confira seu desempenho recente e os artigos que merecem revisão. Os dados das baterias são armazenados no banco privado do site.</p>
@@ -123,53 +142,52 @@
     </div>
     <p class="results-status" id="results-status" role="status" aria-live="polite">Verificando acesso privado…</p>
     <div id="results-content" hidden>
-      <section class="results-section" aria-labelledby="title-quiz">
-        <p class="results-section-label">prática no site · armazenamento privado</p>
-        <h2 id="title-quiz">suas baterias de questões</h2>
-        <p class="results-caption">Respostas registradas no site, com desempenho por concurso e recomendações baseadas nos erros e na segurança declarada.</p>
-        <p class="results-caption" id="results-quiz-status" role="status" aria-live="polite">Consultando respostas do site…</p>
-        <div class="results-grid" id="results-quiz-stats"></div>
-        <div class="results-quiz-periods" id="results-quiz-periods"></div>
-        <section class="results-quiz-reading" aria-labelledby="results-quiz-priority-title">
-          <p class="results-section-label">próximas leituras</p>
-          <h3 id="results-quiz-priority-title">artigos prioritários</h3>
-          <p class="results-caption" id="results-quiz-priority-description">Recomendações derivadas das questões do site nos últimos 30 dias.</p>
-          <div id="results-quiz-priorities"></div>
-        </section>
-        <p class="results-section-label" style="margin-top:35px">desempenho por matéria no site</p>
-        <div style="overflow-x:auto"><table class="results-table"><thead><tr><th>Matéria</th><th>Respondidas</th><th>Acertos</th><th>Erros</th><th>Acerto</th></tr></thead><tbody id="results-quiz-subjects"></tbody></table></div>
-      </section>
-      <section class="results-section" aria-labelledby="title-legacy" id="results-legacy" hidden>
-        <p class="results-section-label">histórico consolidado anterior</p>
-        <h2 id="title-legacy">sessões de estudo registradas no cofre</h2>
-        <p class="results-caption">Fonte separada das baterias feitas neste site, para evitar contagem dupla.</p>
+      <section class="results-section results-unified" id="results-legacy" aria-labelledby="results-unified-heading">
+        <p class="results-section-label">histórico integrado · armazenamento privado</p>
+        <h2 id="results-unified-heading">seu desempenho</h2>
+        <p class="results-caption" id="results-unified-method">Questões resolvidas no chat e no site, reunidas por concurso. Cada tentativa tem uma origem identificada e é contada uma única vez.</p>
         <div class="results-grid" id="results-stats"></div>
-        <div class="results-section" aria-labelledby="title-reading">
-        <p class="results-section-label">leitura dirigida</p>
-        <h2 id="title-reading">artigos para ler primeiro</h2>
-        <p class="results-caption">Ordenados pelos conceitos com maior recorrência de erros e insegurança. Abra um artigo para rever suas questões.</p>
-        <div id="results-articles"></div>
-      </div>
-      <div class="results-section" aria-labelledby="title-concepts">
-        <p class="results-section-label">diagnóstico</p>
-        <h2 id="title-concepts">conceitos que mais precisam de revisão</h2>
-        <p class="results-caption">Veja os conceitos que concentraram mais erros e abra o artigo que explica cada um.</p>
+        <div class="results-origin-grid" id="results-quiz-stats" aria-label="Origem das respostas"></div>
+        <p class="results-caption" id="results-quiz-status" role="status" aria-live="polite"></p>
+      </section>
+      <section class="results-section" aria-labelledby="results-quiz-priority-title">
+        <p class="results-section-label">rota de revisão</p>
+        <h2 id="results-quiz-priority-title">artigos prioritários</h2>
+        <p class="results-caption" id="results-quiz-priority-description">As recomendações levam em conta os erros e as respostas inseguras das duas fontes.</p>
+        <div id="results-quiz-priorities"></div>
+        <details class="results-revision-details">
+          <summary>Ver explicações e questões associadas aos artigos</summary>
+          <div id="results-articles"></div>
+        </details>
+      </section>
+      <section class="results-section" aria-labelledby="results-difficulty-heading">
+        <p class="results-section-label">desempenho e complexidade</p>
+        <h2 id="results-difficulty-heading">dificuldade</h2>
+        <p class="results-caption">A dificuldade estimada é definida na revisão editorial da questão. A taxa de acerto mostra como você respondeu a itens de cada faixa. Uma amostra pequena ainda não permite uma conclusão estável.</p>
+        <div id="results-difficulty" class="results-difficulty-list"></div>
+      </section>
+      <section class="results-section" aria-labelledby="title-subjects">
+        <p class="results-section-label">desempenho por matéria</p>
+        <h2 id="title-subjects">matérias</h2>
+        <div style="overflow-x:auto"><table class="results-table">
+          <thead><tr><th>Matéria</th><th>Respondidas</th><th>Acertos</th><th>Erros</th><th>Insegurança</th><th>Acerto</th></tr></thead>
+          <tbody id="results-subjects"></tbody>
+        </table></div>
+      </section>
+      <section class="results-section" aria-labelledby="title-concepts">
+        <p class="results-section-label">diagnóstico por conceito</p>
+        <h2 id="title-concepts">conceitos que pedem revisão</h2>
+        <p class="results-caption">Prioridades relativas dentro das suas tentativas. Elas não são notas e não medem retenção sem revisão em outro dia.</p>
         <details class="results-method">
-          <summary>O que significa “prioridade 23/100”?</summary>
-          <p><strong>23/100 é um índice de prioridade de revisão, em uma escala de 0 a 100.</strong> Quanto maior o número, mais cedo o conceito ou artigo merece atenção. O cálculo considera frequência e repetição dos erros, erros recentes, respostas inseguras, revisão vencida e acertos seguros em dias diferentes. É uma recomendação calculada a partir das tentativas registradas, não uma nota, uma taxa de erros nem a probabilidade de você errar a próxima questão.</p>
-          <p>Um conceito com pouca amostra pode ter prioridade menor ou ainda pouco estável. Reavalie as recomendações conforme surgirem novos resultados.</p>
+          <summary>Como a prioridade é calculada?</summary>
+          <p>O índice de 0 a 100 considera erros, repetições, respostas inseguras e a data de revisão. Itens recentes e pouca amostra devem ser interpretados com cautela. A mesma questão resolvida em momentos diferentes pode ser um reteste legítimo.</p>
         </details>
         <div id="results-concepts"></div>
-      </div>
-      <div class="results-section" aria-labelledby="title-subjects">
-        <p class="results-section-label">histórico</p>
-        <h2 id="title-subjects">resultados por matéria</h2>
-        <div style="overflow-x:auto"><table class="results-table"><thead><tr><th>Matéria</th><th>Respondidas</th><th>Acertos</th><th>Erros</th><th>Acerto</th></tr></thead><tbody id="results-subjects"></tbody></table></div>
-      </div>
-      <p class="results-caption results-privacy">As sessões consolidadas ficam no repositório privado. As baterias do site ficam no banco privado Cloudflare. Esses totais não foram somados entre si, porque a mesma questão pode existir nas duas fontes. Acerto imediato não comprova retenção.</p>
       </section>
+      <p class="results-caption results-privacy">O histórico do chat permanece no cofre GitHub privado, e o do site, no banco D1 privado. O painel combina as duas fontes apenas depois do login GitHub. Nenhuma resposta pessoal entra na biblioteca pública.</p>
     </div>
   </main>
+  <script src="web/16-study-nav.js" defer></script>
   <script src="web/13-results-ui.js" defer></script>
 </body>
 </html>

@@ -46,6 +46,25 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .qs-footer{color:var(--muted);font-size:.8rem;border-top:1px solid color-mix(in srgb,var(--text) 20%,transparent);margin-top:60px;padding-top:20px}
 @media(max-width:640px){.qs-shell{padding:18px}.qs-form{grid-template-columns:1fr}.qs-panel{padding:20px}.qs-hero{padding:38px 0}.qs-stats{grid-template-columns:repeat(2,1fr)}}
 
+/* Ações com hierarquia clara: saída na barra superior, resposta na área de escolha, correção junto ao enunciado. */
+.qs-stop{background:none;color:var(--muted);border:1px solid color-mix(in srgb,var(--text) 22%,transparent);font:inherit;font-size:.81rem;padding:8px 12px;cursor:pointer}
+.qs-stop:hover{color:var(--text);border-color:color-mix(in srgb,var(--text) 55%,transparent)}
+.qs-stop:focus-visible{outline:2px solid var(--accent-blue);outline-offset:2px}
+.qs-context{margin:10px 0 0;max-width:95%;line-height:1.5}
+.qs-progress{margin:14px 0 20px}
+.qs-statement{margin:23px 0 28px}
+.qs-submit-row{border-top:1px solid color-mix(in srgb,var(--text) 15%,transparent);padding-top:23px;margin-top:24px;display:flex;align-items:center;gap:17px;flex-wrap:wrap}
+.qs-submit-row .qs-note{max-width:340px;margin:0}
+#qs-answer-form[hidden],#qs-after[hidden],#qs-feedback[hidden],#qs-pending[hidden]{display:none!important}
+.qs-answer-result{border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent);padding-top:22px;scroll-margin-top:20px}
+.qs-answer-result:focus{outline:none}
+.qs-answer-result .qs-feedback{margin:0 0 21px;padding:22px 24px}
+.qs-answer-result .qs-feedback strong{display:block;font-size:1.12rem;line-height:1.45;margin-bottom:10px}
+.qs-answer-result .qs-feedback p{line-height:1.65;margin:8px 0;font-size:.95rem}
+.qs-answer-result .qs-feedback a{display:inline-block;margin-top:8px}
+.qs-answer-result #qs-pending{margin:2px 0 22px}
+@media(max-width:640px){.qs-top{align-items:flex-start}.qs-stop{white-space:nowrap}.qs-submit-row{align-items:stretch}.qs-submit-row .qs-button{width:100%}.qs-submit-row .qs-note{font-size:.78rem}.qs-answer-result #qs-next{width:100%}}
+
 /* Revisão da experiência: menos altura inicial e decisões concentradas na tarefa. */
 .qs-hero{padding:34px 0 25px}
 .qs-hero h1{font-size:clamp(2.35rem,5vw,3.65rem);margin:7px 0 10px}
@@ -99,14 +118,19 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <p class="qs-note">As respostas são preservadas neste navegador. No ambiente autenticado, a gravação também é confirmada no banco privado. Concursos sem questões revisadas ainda não permitem baterias.</p>
 </section>
 <section class="qs-panel" id="qs-play" hidden>
-<div class="qs-top"><span class="qs-meta" id="qs-number"></span><span class="qs-meta" id="qs-context"></span></div>
+<div class="qs-top"><span class="qs-meta" id="qs-number"></span><button class="qs-stop" id="qs-finish" type="button">Encerrar bateria</button></div>
+<p class="qs-meta qs-context" id="qs-context"></p>
 <div class="qs-progress" aria-hidden="true"><div id="qs-progress-bar"></div></div>
 <h2 class="sr-only">Questão</h2><p class="qs-statement" id="qs-statement"></p>
+<section class="qs-answer-result" id="qs-after" hidden tabindex="-1" aria-label="Resultado da resposta" aria-live="polite">
+  <div class="qs-feedback" id="qs-feedback" hidden></div>
+  <p class="qs-note" id="qs-pending" hidden>Resposta registrada. O gabarito será mostrado ao concluir o simulado.</p>
+  <button class="qs-button" id="qs-next" type="button">Próxima questão</button>
+</section>
 <form id="qs-answer-form"><fieldset class="qs-answers" style="border:0;padding:0;margin:0"><legend class="sr-only">Julgue o item</legend>
 <label><input type="radio" name="qs-answer" value="C"> Certo</label><label><input type="radio" name="qs-answer" value="E"> Errado</label><label id="qs-blank-wrap" hidden><input type="radio" name="qs-answer" value="blank"> Em branco</label>
 </fieldset><label class="qs-uncertain"><input type="checkbox" id="qs-insecure"> Não estou seguro</label>
-<div class="qs-feedback" id="qs-feedback" hidden></div>
-<div class="qs-actions"><button class="qs-button" id="qs-submit" type="submit">Registrar resposta</button><button class="qs-button secondary" id="qs-next" type="button" hidden>Próxima questão</button><button class="qs-button secondary" id="qs-finish" type="button">Encerrar bateria</button></div></form>
+<div class="qs-submit-row"><button class="qs-button" id="qs-submit" type="submit">Registrar resposta</button><span class="qs-note">A resposta será salva antes de mostrar a correção.</span></div></form>
 </section>
 <section class="qs-panel" id="qs-summary" hidden aria-labelledby="qs-summary-heading">
 <span class="qs-meta" id="qs-result-context"></span>

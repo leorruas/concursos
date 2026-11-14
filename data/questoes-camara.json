@@ -40335,6 +40335,230 @@
       "correctAnswer": "E",
       "explanation": "A citação relata ausência de evidência de efeito. Isso não equivale a ter encontrado evidência que descarte o efeito.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: A citação relata ausência de evidência de efeito. Isso não equivale a ter encontrado evidência que descarte o efeito. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l036-001-agregacao-perde-ordem-interna",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "agregacao-perde-ordem-interna",
+      "mechanism": "testar-recuperabilidade-temporal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#4. Agregação e granularidade de dados"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "4. Agregação e granularidade de dados"
+      },
+      "statement": "Uma tabela armazena apenas o total mensal de atendimentos por unidade. Se o total de abril de uma unidade é 90, é possível determinar com esses dados se houve mais atendimentos na primeira ou na segunda quinzena.",
+      "correctAnswer": "E",
+      "explanation": "Múltiplas distribuições diárias resultam no mesmo total. O agrupamento mensal eliminou a informação necessária à comparação entre quinzenas.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado ao caso: Múltiplas distribuições diárias resultam no mesmo total. O agrupamento mensal eliminou a informação necessária à comparação entre quinzenas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l036-002-media-grupos-ponderar-observacoes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "media-grupos-ponderar-observacoes",
+      "mechanism": "recompor-media-por-pesos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#4. Agregação e granularidade de dados"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "4. Agregação e granularidade de dados"
+      },
+      "statement": "Um setor concluiu dois pedidos em prazo médio de quatro dias, e outro concluiu oito em prazo médio de nove dias. O prazo médio dos dez pedidos, atribuindo peso igual a cada pedido, é de oito dias.",
+      "correctAnswer": "C",
+      "explanation": "Os grupos contribuem com 2 × 4 e 8 × 9 dias. A soma de 80, dividida pelos dez pedidos, resulta em oito dias.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado ao caso: Os grupos contribuem com 2 × 4 e 8 × 9 dias. A soma de 80, dividida pelos dez pedidos, resulta em oito dias. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l036-003-duplicata-entidade-evento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "duplicata-entidade-evento",
+      "mechanism": "distinguir-identificador-e-granularidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#3. Limpeza de dados (*Data Cleansing*): operações fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "3. Limpeza de dados (*Data Cleansing*): operações fundamentais"
+      },
+      "statement": "Em um cadastro com uma linha por visita, dois registros com o mesmo identificador de visitante e horários distintos devem ser reduzidos automaticamente a uma única linha para eliminar duplicatas.",
+      "correctAnswer": "E",
+      "explanation": "A entidade visitante pode participar de várias visitas. Identidade do visitante, sem identidade do evento, não prova duplicação.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado ao caso: A entidade visitante pode participar de várias visitas. Identidade do visitante, sem identidade do evento, não prova duplicação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l036-004-data-ambigua-normalizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "data-ambigua-normalizacao",
+      "mechanism": "identificar-metadado-necessario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#3. Limpeza de dados (*Data Cleansing*): operações fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "3. Limpeza de dados (*Data Cleansing*): operações fundamentais"
+      },
+      "statement": "Ao combinar arquivos que usam tanto dia/mês quanto mês/dia, é possível que a data 04/06 tenha interpretações distintas. Para normalizá-la com segurança, a equipe precisa conhecer a convenção da fonte ou dispor de outra evidência que desambigue o registro.",
+      "correctAnswer": "C",
+      "explanation": "Os dois componentes são menores que 13 e aceitos nas duas posições. A aparência do valor não resolve sozinha a ordem de dia e mês.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado ao caso: Os dois componentes são menores que 13 e aceitos nas duas posições. A aparência do valor não resolve sozinha a ordem de dia e mês. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l036-005-codigo-postal-nominal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-217dafb9048089a8",
+      "conceptId": "codigo-postal-nominal",
+      "mechanism": "avaliar-significado-de-operacao-aritmetica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-217dafb9048089a8#3. Variáveis e atributos: fundamentos de modelagem e estatística"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
+        "section": "3. Variáveis e atributos: fundamentos de modelagem e estatística"
+      },
+      "statement": "Por consistirem exclusivamente em algarismos, os códigos postais podem ser tratados como variável quantitativa de modo que sua média informe a localização típica sem qualquer informação geográfica adicional.",
+      "correctAnswer": "E",
+      "explanation": "O código é identificador categórico. A aritmética sobre seus algarismos não produz, por si, uma medida de posição geográfica.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado ao caso: O código é identificador categórico. A aritmética sobre seus algarismos não produz, por si, uma medida de posição geográfica. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l036-006-taxa-por-populacao-em-risco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-217dafb9048089a8",
+      "conceptId": "taxa-por-populacao-em-risco",
+      "mechanism": "ajustar-comparacao-pelo-denominador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-217dafb9048089a8#5. Anatomia de um indicador de desempenho público"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/24 - dado informacao variavel atributo indicador e metrica.md",
+        "section": "5. Anatomia de um indicador de desempenho público"
+      },
+      "statement": "Duas unidades registraram 15 solicitações fora do prazo cada uma. Se uma recebeu 100 solicitações e a outra 300 no mesmo período, a primeira tem proporção de atrasos três vezes maior.",
+      "correctAnswer": "C",
+      "explanation": "As proporções são 15/100 e 15/300, ou 15% e 5%. Contagens iguais produzem proporções diferentes quando os denominadores diferem.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado ao caso: As proporções são 15/100 e 15/300, ou 15% e 5%. Contagens iguais produzem proporções diferentes quando os denominadores diferem. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l036-007-pizza-com-respostas-multiplas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-a2e4949761ab5a6f",
+      "conceptId": "pizza-com-respostas-multiplas",
+      "mechanism": "detectar-sobreposicao-das-partes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a2e4949761ab5a6f#4. Patologias visuais frequentes e o problema do gráfico de pizza"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica.md",
+        "section": "4. Patologias visuais frequentes e o problema do gráfico de pizza"
+      },
+      "statement": "Uma pesquisa permite assinalar vários canais de atendimento. Como 70% marcaram telefone e 60% marcaram portal, esses dois percentuais podem ser usados diretamente como fatias de uma pizza que representa 100% dos respondentes.",
+      "correctAnswer": "E",
+      "explanation": "As categorias podem se sobrepor e os percentuais somam 130%. Fatias de uma única pizza representam partes não sobrepostas de um todo.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado ao caso: As categorias podem se sobrepor e os percentuais somam 130%. Fatias de uma única pizza representam partes não sobrepostas de um todo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l036-008-comparar-composicao-com-normalizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-a2e4949761ab5a6f",
+      "conceptId": "comparar-composicao-com-normalizacao",
+      "mechanism": "selecionar-grafico-pela-unidade-de-comparacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a2e4949761ab5a6f#5. Matriz de decisão rápida: pergunta versus gráfico"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica.md",
+        "section": "5. Matriz de decisão rápida: pergunta versus gráfico"
+      },
+      "statement": "Para comparar a composição percentual das despesas de unidades com orçamentos diferentes, barras empilhadas normalizadas a 100% podem mostrar a participação de cada categoria mesmo quando as unidades têm totais diferentes.",
+      "correctAnswer": "C",
+      "explanation": "A normalização põe todas as barras na mesma escala percentual. Ela facilita comparar proporções, mas não mostra os totais absolutos.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado ao caso: A normalização põe todas as barras na mesma escala percentual. Ela facilita comparar proporções, mas não mostra os totais absolutos. Dificuldade estimada."
     }
   ]
 }

@@ -47895,6 +47895,34 @@
       "correctAnswer": "E",
       "explanation": "Para verificar o cumprimento da meta anual, é preciso conhecer o valor de referência e confirmar que o número divulgado corresponde ao período avaliado.",
       "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. Para verificar o cumprimento da meta anual, é preciso conhecer o valor de referência e confirmar que o número divulgado corresponde ao período avaliado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l125-001-localizacao-formulario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "localizacao-formulario",
+      "mechanism": "selecionar-indicador-alinhado-ao-objetivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Alinhamento estratégico e avaliação de impacto (CAM-AP-015)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Alinhamento estratégico e avaliação de impacto (CAM-AP-015)"
+      },
+      "statement": "Uma agência pretende facilitar a localização de formulários. Para avaliar essa finalidade, a proporção de usuários que encontram o formulário correto em um teste de navegação é uma medida mais direta do que o número de páginas reformuladas.",
+      "correctAnswer": "C",
+      "explanation": "Encontrar o formulário correto observa o resultado pretendido para o usuário. O número de páginas reformuladas mede o trabalho entregue pela agência.",
+      "reviewEvidence": "Revisão por IA com conferência da correspondência entre objetivo e medida. Encontrar o formulário correto observa o resultado pretendido para o usuário. O número de páginas reformuladas mede o trabalho entregue pela agência. Dificuldade estimada."
     }
   ]
 }

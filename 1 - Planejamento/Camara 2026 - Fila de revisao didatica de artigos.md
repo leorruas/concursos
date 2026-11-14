@@ -92,7 +92,7 @@ A cada execução, reler a `main`, consultar `AGENTS.md`, `CHAT.md`, o edital e 
 
 | Caminho canônico | Estado comprovável nesta implantação | Próxima ação |
 | :--- | :--- | :--- |
-| `3 - Materias/Direito Constitucional/01 - principios fundamentais.md` | Auditoria integral não comprovada | Auditar integralmente por ordem de pré-requisitos, sem repetir artigos concluídos |
+| `3 - Materias/Direito Constitucional/01 - principios fundamentais.md` | **Revisão editorial em PR** (14/11/2026; base `14a43e2d38c6`; `art-a6edc965cb9e4eb6`): abertura abstrata, fundamentos sem definição, separação sem mecanismo e objetivos sem aplicação; corrigidos com situações concretas, contraste e dois itens C/E. Fontes: CF, arts. 1º a 4º, 14 e 66 | Conferir PR, CI e integração; próximo artigo distinto: `02 - direitos e garantias fundamentais.md` |
 | `3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md` | Auditoria integral não comprovada | Auditar integralmente por ordem de pré-requisitos, sem repetir artigos concluídos |
 | `3 - Materias/Direito Constitucional/03 - direitos sociais.md` | Auditoria integral não comprovada | Auditar integralmente por ordem de pré-requisitos, sem repetir artigos concluídos |
 | `3 - Materias/Direito Constitucional/04 - nacionalidade.md` | Auditoria integral não comprovada | Auditar integralmente por ordem de pré-requisitos, sem repetir artigos concluídos |

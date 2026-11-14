@@ -45123,6 +45123,90 @@
       "correctAnswer": "C",
       "explanation": "A vedação de provimento ressalva a reposição por aposentadoria ou falecimento de servidores das áreas de educação, saúde e segurança.",
       "reviewEvidence": "Revisão editorial por IA. LC 101/2000, art. 22, parágrafo único, IV. A vedação de provimento ressalva a reposição por aposentadoria ou falecimento de servidores das áreas de educação, saúde e segurança. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l084-001-prefixo-inter-antes-r",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da ortografia oficial",
+      "articleId": "art-f0bd45f90ed9276a",
+      "conceptId": "prefixo-inter-antes-r",
+      "mechanism": "aplicar-fronteira-de-consoantes-iguais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f0bd45f90ed9276a#3. Hifenização com Prefixos no Acordo Ortográfico"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao.md",
+        "section": "3. Hifenização com Prefixos no Acordo Ortográfico"
+      },
+      "statement": "No trecho “O fórum terá alcance inter-regional”, o hífen decorre do encontro entre o r final de inter- e o r inicial de regional.",
+      "correctAnswer": "C",
+      "explanation": "Na formação com inter- seguido de elemento iniciado por r, conserva-se o hífen, como em inter-regional.",
+      "reviewEvidence": "Revisão por IA. Grafia e critérios da seção canônica: Na formação com inter- seguido de elemento iniciado por r, conserva-se o hífen, como em inter-regional. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l084-002-prefixo-anti-antes-s",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da ortografia oficial",
+      "articleId": "art-f0bd45f90ed9276a",
+      "conceptId": "prefixo-anti-antes-s",
+      "mechanism": "aplicar-duplicacao-sem-hifen",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f0bd45f90ed9276a#3. Hifenização com Prefixos no Acordo Ortográfico"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao.md",
+        "section": "3. Hifenização com Prefixos no Acordo Ortográfico"
+      },
+      "statement": "Na expressão “comportamento anti-social”, o hífen é necessário para conservar o som inicial do segundo elemento.",
+      "correctAnswer": "E",
+      "explanation": "Após prefixo terminado em vogal, o s inicial é duplicado e não se usa hífen nesse caso. A grafia é antissocial.",
+      "reviewEvidence": "Revisão por IA. Grafia e critérios da seção canônica: Após prefixo terminado em vogal, o s inicial é duplicado e não se usa hífen nesse caso. A grafia é antissocial. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l084-003-acentuacao-tem-sujeito-composto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / domínio da ortografia oficial",
+      "articleId": "art-f0bd45f90ed9276a",
+      "conceptId": "acentuacao-tem-sujeito-composto",
+      "mechanism": "distinguir-singular-e-plural-marcados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f0bd45f90ed9276a#2. Acentuação Gráfica: Sistema de Regras e Fundamentação Fonológica"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/17 - ortografia convencoes da escrita acentuacao e hifenizacao.md",
+        "section": "2. Acentuação Gráfica: Sistema de Regras e Fundamentação Fonológica"
+      },
+      "statement": "Em “O arquivo e a biblioteca têm acesso ao sistema”, o acento de “têm” distingue a forma plural da singular “tem”.",
+      "correctAnswer": "C",
+      "explanation": "O sujeito composto está no plural. Em ter, a terceira pessoa do plural do presente recebe circunflexo: têm.",
+      "reviewEvidence": "Revisão por IA. Grafia e critérios da seção canônica: O sujeito composto está no plural. Em ter, a terceira pessoa do plural do presente recebe circunflexo: têm. Dificuldade estimada."
     }
   ]
 }

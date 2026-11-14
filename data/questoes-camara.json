@@ -48035,6 +48035,62 @@
       "correctAnswer": "E",
       "explanation": "As avaliações descrevem a experiência de quem usou o canal. Para avaliar o benefício público, também importa saber o que aconteceu com quem perdeu acesso ao atendimento anterior.",
       "reviewEvidence": "Revisão por IA. As avaliações descrevem a experiência de quem usou o canal. Para avaliar o benefício público, também importa saber o que aconteceu com quem perdeu acesso ao atendimento anterior. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l128-001-revisao-por-faixa-de-risco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "revisao-por-faixa-de-risco",
+      "mechanism": "avaliar-proporcionalidade-do-controle",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Um órgão identifica que os pagamentos de alto valor concentram as perdas por erro. Ao comparar a dupla conferência de todos os pagamentos com a dupla conferência direcionada aos casos de maior risco, é pertinente considerar também o custo e os atrasos gerados por cada opção.",
+      "correctAnswer": "C",
+      "explanation": "A escolha de controles considera a redução esperada do risco e os custos da medida, inclusive o impacto sobre o funcionamento do serviço.",
+      "reviewEvidence": "Revisão por IA com conferência da seção canônica. A escolha de controles considera a redução esperada do risco e os custos da medida, inclusive o impacto sobre o funcionamento do serviço. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l128-002-risco-muda-apos-migracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "risco-muda-apos-migracao",
+      "mechanism": "reavaliar-controle-apos-mudanca-de-processo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Uma unidade transfere a análise de pedidos para um sistema digital e elimina a conferência em papel. O fato de o controle anterior ter funcionado é suficiente para concluir que os riscos do novo fluxo estão tratados.",
+      "correctAnswer": "E",
+      "explanation": "A migração muda o processo e os controles disponíveis. A efetividade anterior não demonstra que os riscos do novo fluxo foram identificados ou tratados.",
+      "reviewEvidence": "Revisão por IA com conferência da seção canônica. A migração muda o processo e os controles disponíveis. A efetividade anterior não demonstra que os riscos do novo fluxo foram identificados ou tratados. Dificuldade estimada."
     }
   ]
 }

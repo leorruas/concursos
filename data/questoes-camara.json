@@ -47559,6 +47559,90 @@
       "correctAnswer": "E",
       "explanation": "O volume passou de 80 para 90. A proporção caiu de 80% para 75%, pois o total de pedidos cresceu mais rapidamente.",
       "reviewEvidence": "Revisão por IA com conferência da interpretação do indicador. O volume passou de 80 para 90. A proporção caiu de 80% para 75%, pois o total de pedidos cresceu mais rapidamente. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l119-001-meta-e-turnos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "meta-e-turnos",
+      "mechanism": "classificar-decisoes-por-finalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × gestão"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança × gestão"
+      },
+      "statement": "Um colegiado define que reduzir o prazo de atendimento é prioridade institucional. A equipe responsável reorganiza seus turnos para cumprir essa prioridade. A primeira decisão exerce função de direcionamento, e a segunda integra a gestão operacional.",
+      "correctAnswer": "C",
+      "explanation": "O colegiado estabelece o resultado prioritário. A equipe organiza os recursos para executar a orientação.",
+      "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. O colegiado estabelece o resultado prioritário. A equipe organiza os recursos para executar a orientação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l119-002-controle-apos-falha-repetida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "controle-apos-falha-repetida",
+      "mechanism": "verificar-efetividade-do-controle",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Um controle foi incluído no procedimento para impedir pagamentos duplicados. Como a regra está documentada, a ocorrência de novos pagamentos duplicados é irrelevante para avaliar sua efetividade.",
+      "correctAnswer": "E",
+      "explanation": "A documentação evidencia o desenho do controle. A duplicidade recorrente é relevante para investigar sua aplicação e sua capacidade de reduzir o risco.",
+      "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. A documentação evidencia o desenho do controle. A duplicidade recorrente é relevante para investigar sua aplicação e sua capacidade de reduzir o risco. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l119-003-consulta-nao-e-autorizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "consulta-nao-e-autorizacao",
+      "mechanism": "distinguir-apoio-e-autorizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      },
+      "statement": "Uma proposta de serviço tem apoio dos usuários e equipe capaz de executá-la, mas depende de autorização da autoridade competente. O apoio dos usuários já satisfaz, por si só, a autorização necessária.",
+      "correctAnswer": "E",
+      "explanation": "O apoio social e a capacidade de execução são evidências diferentes da autorização formal exigida no caso. O apoio não substitui a decisão competente.",
+      "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. O apoio social e a capacidade de execução são evidências diferentes da autorização formal exigida no caso. O apoio não substitui a decisão competente. Dificuldade estimada."
     }
   ]
 }

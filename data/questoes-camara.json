@@ -47251,6 +47251,62 @@
       "correctAnswer": "C",
       "explanation": "A locução associa dois processos graduais. O aumento dos guichês em operação acompanha a redução do tempo médio de espera.",
       "reviewEvidence": "Revisão por IA com conferência da relação de sentido na seção indicada. A locução associa dois processos graduais. O aumento dos guichês em operação acompanha a redução do tempo médio de espera. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l113-001-attributed-prediction",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-21cf11553e25ae48",
+      "conceptId": "attributed-prediction",
+      "mechanism": "separate-source-expectation-from-outcome",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-21cf11553e25ae48#2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md",
+        "section": "2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)"
+      },
+      "statement": "“Contractors expect the bridge to reopen in May, the engineers said. The inspection is still pending.” The passage confirms that the bridge will reopen in May.",
+      "correctAnswer": "E",
+      "explanation": "A previsão é atribuída aos contratados por meio dos engenheiros. A inspeção pendente reforça que a reabertura em maio ainda é uma expectativa.",
+      "reviewEvidence": "Revisão por IA com conferência de fonte e conteúdo atribuído. A previsão é atribuída aos contratados por meio dos engenheiros. A inspeção pendente reforça que a reabertura em maio ainda é uma expectativa. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l113-002-disagreement-sources",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-21cf11553e25ae48",
+      "conceptId": "disagreement-sources",
+      "mechanism": "track-distinct-speaker-positions",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-21cf11553e25ae48#2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md",
+        "section": "2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)"
+      },
+      "statement": "“The agency calls the schedule realistic. In its review, the oversight panel questions whether enough staff are available.” The two sentences report different assessments of the schedule.",
+      "correctAnswer": "C",
+      "explanation": "A agência afirma que o cronograma é realista. O painel põe em dúvida se há pessoal suficiente para executá-lo.",
+      "reviewEvidence": "Revisão por IA com conferência de fonte e conteúdo atribuído. A agência afirma que o cronograma é realista. O painel põe em dúvida se há pessoal suficiente para executá-lo. Dificuldade estimada."
     }
   ]
 }

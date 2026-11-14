@@ -41,9 +41,9 @@ fs.mkdirSync(evidence,{recursive:true});
     await page.locator('#qs-feedback').waitFor({state:'visible'});
     assert.equal(await page.locator('#qs-answer-form').isVisible(),false,'alternativas e ações deixam espaço para explicação');
     assert.equal(await page.locator('#qs-after').isVisible(),true,'correção no contexto da questão');
-    const statement=await page.locator('#qs-statement').boundingBox();
+    const statementBox=await page.locator('#qs-statement').boundingBox();
     const correction=await page.locator('#qs-feedback').boundingBox();
-    assert.ok(correction.y>=statement.y+statement.height,'gabarito imediatamente após enunciado');
+    assert.ok(correction.y>=statementBox.y+statementBox.height,'gabarito imediatamente após enunciado');
 
     await page.locator('#qs-next').click();
    }

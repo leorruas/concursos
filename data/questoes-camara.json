@@ -44899,6 +44899,90 @@
       "correctAnswer": "C",
       "explanation": "Issue é verbo e tem como objeto a credencial. No contexto, significa emitir ou fornecer o documento.",
       "reviewEvidence": "Revisão por IA. Sentido contextual conferido: Issue é verbo e tem como objeto a credencial. No contexto, significa emitir ou fornecer o documento. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l081-001-dispersao-grupo-paradoxo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "dispersao-grupo-paradoxo",
+      "mechanism": "verificar-efeito-da-composicao",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      },
+      "statement": "Em um gráfico de dispersão com dados de várias unidades, uma tendência crescente no conjunto pode desaparecer quando os pontos são separados por unidade.",
+      "correctAnswer": "C",
+      "explanation": "A posição relativa das unidades pode produzir uma tendência agregada mesmo sem a mesma tendência dentro de cada unidade.",
+      "reviewEvidence": "Revisão por IA. Critério de leitura do gráfico: A posição relativa das unidades pode produzir uma tendência agregada mesmo sem a mesma tendência dentro de cada unidade. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l081-002-boxplot-largura-nao-contagem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "boxplot-largura-nao-contagem",
+      "mechanism": "distinguir-escala-e-tamanho-amostral",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#5. Comparação e cruzamento de grupos com box plots múltiplos"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "5. Comparação e cruzamento de grupos com box plots múltiplos"
+      },
+      "statement": "Dois box plots convencionais foram desenhados com largura fixa para comparar turmas. Caixas de mesma largura demonstram que as duas turmas fornecem o mesmo número de observações.",
+      "correctAnswer": "E",
+      "explanation": "A largura fixa é uma escolha gráfica. Nesse desenho, ela não codifica o tamanho amostral.",
+      "reviewEvidence": "Revisão por IA. Critério de leitura do gráfico: A largura fixa é uma escolha gráfica. Nesse desenho, ela não codifica o tamanho amostral. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l081-003-boxplot-quartis-nao-reconstituem-lista",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "boxplot-quartis-nao-reconstituem-lista",
+      "mechanism": "testar-perda-de-informacao-no-resumo",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#3. O box plot: o resumo dos cinco números de Tukey"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "3. O box plot: o resumo dos cinco números de Tukey"
+      },
+      "statement": "Dois conjuntos podem ter os mesmos valores de mínimo, primeiro quartil, mediana, terceiro quartil e máximo, embora apresentem valores intermediários diferentes.",
+      "correctAnswer": "C",
+      "explanation": "Os cinco números resumem posições da distribuição e não especificam todas as observações que ficam entre elas.",
+      "reviewEvidence": "Revisão por IA. Critério de leitura do gráfico: Os cinco números resumem posições da distribuição e não especificam todas as observações que ficam entre elas. Dificuldade estimada."
     }
   ]
 }

@@ -41847,6 +41847,90 @@
       "correctAnswer": "C",
       "explanation": "As tarefas de apoio circulam entre membros, enquanto a coordenação decisória continua nas mãos dos participantes.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Provan e Kenis (2008), conforme a seção canônica. Critério conferido: As tarefas de apoio circulam entre membros, enquanto a coordenação decisória continua nas mãos dos participantes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l046-001-relatoria-atraso-individual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relatoria-atraso-individual",
+      "mechanism": "separar-prazo-do-relator-e-do-processo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "O relator de processo de perda do mandato deixa vencer seu prazo de instrução. O presidente do Conselho precisa aguardar o esgotamento do prazo global do processo para designar substituto.",
+      "correctAnswer": "E",
+      "explanation": "O atraso do relator no prazo próprio permite avocar a relatoria ou designar substituto, observadas as condições do Código. Não é necessário aguardar o prazo global.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Código de Ética, art. 16, § 4º. Critério conferido: O atraso do relator no prazo próprio permite avocar a relatoria ou designar substituto, observadas as condições do Código. Não é necessário aguardar o prazo global. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l046-002-relatoria-substituta-instrucao-concluida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relatoria-substituta-instrucao-concluida",
+      "mechanism": "determinar-ato-pela-etapa-pendente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Se o relator for substituído por descumprimento de prazo após a conclusão da instrução, o novo relator deve apresentar parecer em até cinco dias úteis.",
+      "correctAnswer": "C",
+      "explanation": "Com a instrução concluída, resta apresentar parecer. Se a instrução estivesse pendente, o prazo legal seria empregado para concluí-la.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Código de Ética, art. 16, § 4º. Critério conferido: Com a instrução concluída, resta apresentar parecer. Se a instrução estivesse pendente, o prazo legal seria empregado para concluí-la. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l046-003-defesa-parlamentar-do-conselho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "defesa-parlamentar-do-conselho",
+      "mechanism": "verificar-restricao-ao-defensor-indicado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "No julgamento em Plenário de processo de suspensão do mandato, o representado pode indicar membro do Conselho de Ética para exercer sua defesa, pois o processo já saiu daquele colegiado.",
+      "correctAnswer": "E",
+      "explanation": "A defesa por outro parlamentar é admitida desde que ele não integre o Conselho de Ética. A restrição também vale na fase de Plenário.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Código de Ética, art. 15. Critério conferido: A defesa por outro parlamentar é admitida desde que ele não integre o Conselho de Ética. A restrição também vale na fase de Plenário. Dificuldade estimada."
     }
   ]
 }

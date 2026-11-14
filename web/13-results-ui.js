@@ -79,30 +79,70 @@ function priorityLabel(score){
 function stat(label,value){const box=el('div','results-stat');box.append(el('span','results-caption',label),el('strong','',value));return box;}
 function render(){
  if(!current)return;
- const s=current.summary||{};
+ const summary=current.summary||{},source=current.sources||{};
+ const valid=summary.valid||0;
  $('results-stats').replaceChildren(
-  stat('Respondidas',s.valid??0),
-  stat('Acertos',s.correct??0),
-  stat('Erros',s.incorrect??0),
-  stat('Taxa de acerto',s.accuracy===null?'Sem amostra':s.accuracy+'%'));
- const articles=(current.articles||[]).filter(a=>a.mistakes?.length||a.uncertainCorrect?.length);
- $('results-articles').replaceChildren(...(articles.length?articles.map(makeArticle):[el('p','results-caption','Ainda não há erros ou acertos inseguros associados a artigos neste concurso.')]));
+  stat('Questões respondidas',valid),
+  stat('Acertos',summary.correct??0),
+  stat('Erros',summary.incorrect??0),
+  stat('Acerto observado',summary.accuracy===null?'Sem amostra':summary.accuracy+'%')
+ );
+ const origins=$('results-quiz-stats');
+ const origin=(label,n)=>{const x=el('span','results-origin-item');x.append(el('strong','',n??0),' '+label);return x;};
+ origins.replaceChildren(origin('no ChatGPT',source.chat?.total),origin('no site',source.site?.total));
+ const removed=source.siteDuplicatesSkipped||0;
+ if(removed)origins.append(origin('registro(s) já presentes no chat, sem duplicar',removed));
+ $('results-quiz-status').textContent=source.unmatchedCatalog
+   ?source.unmatchedCatalog+' questão(ões) do site sem vínculo editorial no catálogo atual: entram no desempenho, mas não na recomendação de artigo.'
+   :'As fontes são lidas no momento do acesso. O histórico original permanece em seus respectivos sistemas.';
+ const articles=(current.articles||[]).filter(x=>x.mistakes?.length||x.uncertainCorrect?.length);
+ $('results-articles').replaceChildren(...(articles.length?articles.map(makeArticle):[el('p','results-caption','Ainda não há erros ou acertos inseguros vinculados a artigos.')]));
+ const priority=$('results-quiz-priorities');
+ priority.replaceChildren(...(articles.length?articles.slice(0,8).map((article,i)=>{
+  const box=el('article','results-quiz-priority'),number=el('span','results-order',String(i+1).padStart(2,'0'));
+  const copy=el('div'),meta=manifest.get(article.articleId);
+  copy.append(el('strong','',meta?.tituloExibicao||meta?.titulo||'Artigo vinculado'),el('small','',article.reason||'Revisão recomendada'));
+  const first=article.mistakes?.[0]||article.uncertainCorrect?.[0];
+  if(first?.section)copy.append(el('small','','Trecho: '+first.section));
+  const link=el('a','','Abrir artigo');
+  link.href=articleLink(article,first?.section||'');link.rel='noreferrer';
+  box.append(number,copy,link);return box;
+ }):[el('p','results-caption','Ainda não há recomendações baseadas em erros ou insegurança neste concurso.')]));
+ $('results-quiz-priority-description').textContent=
+  'Uma única ordem de leitura calculada com as questões do chat e do site. A prioridade é relativa e depende da amostra registrada.';
+ const difficultyRoot=$('results-difficulty');
+ const levelNames={facil:'Fácil',media:'Média',dificil:'Difícil','muito-dificil':'Muito difícil','nao-classificada':'Sem classificação'};
+ const levels=current.difficulty?.byLevel||[];
+ const order=['facil','media','dificil','muito-dificil','nao-classificada'];
+ difficultyRoot.replaceChildren(...order.map(k=>levels.find(x=>x.id===k)).filter(Boolean).map(x=>{
+  const row=el('div','results-difficulty-row'),copy=el('div');
+  copy.append(el('strong','',levelNames[x.id]||x.id),el('small','',x.total+' tentativa(s) · '+x.correct+' acerto(s), '+x.incorrect+' erro(s)'+(x.uncertain?' · '+x.uncertain+' insegura(s)':'')));
+  const bar=el('div','results-difficulty-bar'),fill=el('span');
+  bar.setAttribute('role','img');bar.setAttribute('aria-label','Acerto observado '+(x.accuracy===null?'sem amostra':x.accuracy+'%'));
+  fill.style.width=x.accuracy===null?'0%':Math.max(0,Math.min(100,x.accuracy))+'%';bar.append(fill);
+  const value=el('div','results-difficulty-value',x.accuracy===null?'Sem amostra':x.accuracy+'%');
+  value.append(el('small','',x.total<10?'Amostra pequena':'Acerto observado'));
+  row.append(copy,bar,value);return row;
+ }));
+ if(!levels.length)difficultyRoot.append(el('p','results-caption','Ainda não existem tentativas classificadas para este concurso.'));
  const cs=(current.concepts||[]).filter(c=>c.errors||c.uncertain).slice(0,30);
  $('results-concepts').replaceChildren(...(cs.length?cs.map(c=>{
-  const box=el('div','results-concept');const left=el('div');
+  const box=el('div','results-concept'),left=el('div');
   left.append(el('strong','',c.title),el('small','',title(c.subjectId)+' · '+c.errors+' erro(s) em '+c.attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')));
-  conceptLinks(left,c);
-  box.append(left,priorityLabel(c.priority));return box;
+  conceptLinks(left,c);box.append(left,priorityLabel(c.priority));return box;
  }):[el('p','results-caption','Sem recorrências registradas para priorizar.')]));
- $('results-subjects').replaceChildren(...(current.bySubject||[]).map(s=>{
-  const row=el('tr');const answered=s.correct+s.incorrect;
-  for(const x of [title(s.id),s.total,s.correct,s.incorrect,answered?Math.round(1000*s.correct/answered)/10+'%':'—'])row.append(el('td','',x));
+ const difficultyBySubject=new Map((current.difficulty?.bySubject||[]).map(x=>[x.id,x]));
+ $('results-subjects').replaceChildren(...(current.bySubject||[]).map(sub=>{
+  const row=el('tr'),judged=sub.correct+sub.incorrect;
+  const conf=difficultyBySubject.get(sub.id)?.uncertain||0;
+  for(const x of [title(sub.id),sub.total,sub.correct,sub.incorrect,conf,judged?Math.round(1000*sub.correct/judged)/10+'%':'Sem amostra'])row.append(el('td','',x));
   return row;
  }));
- status.textContent='Histórico até '+fmtDate(current.cut)+'. Classificação por amostra disponível, com atualização após consolidação das sessões.';
+ $('results-unified-method').textContent='Histórico até '+fmtDate(current.cut)+'. '+valid+' tentativas válidas de estudo, sem somar duas vezes um registro identificado nas duas fontes.';
+ $('results-legacy').hidden=false;
  root.hidden=false;
+ status.textContent='Histórico unificado carregado. Resultados e prioridades combinam as duas origens.';
 }
-
 
 /* Recomendações de leitura das baterias do site, calculadas somente após autenticação. */
 let quizBank=null,loadVersion=0;
@@ -235,38 +275,35 @@ async function manifestLoad(){
  catch{manifest=new Map();}
 }
 async function load(){
- const examId=select.value,version=++loadVersion,legacy=$('results-legacy');
- root.hidden=false;legacy.hidden=true;current=null;
- $('results-login').hidden=true;$('results-logout').hidden=true;
- status.textContent='Carregando as sessões consolidadas…';
- const quizPromise=loadQuizResults(examId,version);
- let oldAuthed=false,oldFailed=false;
+ const examId=select.value,version=++loadVersion;
+ current=null;root.hidden=true;
+ $('results-login').hidden=true;
+ $('results-logout').hidden=true;
+ status.textContent='Consultando histórico do chat e do site…';
  try{
-  const r=await fetch('/v1/study/results?concurso='+encodeURIComponent(examId),{
+  const res=await fetch('/v1/study/unified?concurso='+encodeURIComponent(examId),{
    credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}
   });
   if(version!==loadVersion)return;
-  if(r.ok){
-   const j=await r.json();
-   if(j?.version!==1||j.concursoId!==examId)throw Error('Resposta inesperada');
-   current=j;render();legacy.hidden=false;oldAuthed=true;
-  }else if(r.status===401){
-   status.textContent='Entre com GitHub para consultar o histórico de sessões.';
-  }else throw Error('HTTP '+r.status);
+  if(res.status===401){
+   $('results-login').hidden=false;
+   $('results-login').href=WORKER+'/v1/login/github?return=%2Fresultados.html';
+   status.textContent='Entre com GitHub para consultar seu histórico unificado.';
+   return;
+  }
+  if(!res.ok)throw Error('As fontes não puderam ser reunidas (HTTP '+res.status+').');
+  const data=await res.json();
+  if(data?.version!==2||data.concursoId!==examId||!data.sources)throw Error('Contrato de diagnóstico desatualizado.');
+  if(version!==loadVersion)return;
+  current=data;
+  $('results-logout').hidden=false;
+  render();
  }catch(e){
   if(version!==loadVersion)return;
-  oldFailed=true;status.textContent='As sessões consolidadas estão temporariamente indisponíveis. Suas baterias aparecem acima, de forma independente.';
- }
- const quiz=await quizPromise;
- if(version!==loadVersion)return;
- const authorized=oldAuthed||quiz?.authenticated;
- $('results-login').hidden=!!authorized;
- $('results-logout').hidden=!authorized;
- if(!authorized){
-  $('results-login').href=WORKER+'/v1/login/github?return=%2Fresultados.html';
-  status.textContent=location.origin!==WORKER?'Abra o ambiente privado e entre com sua conta GitHub.':'Entre com sua conta GitHub para consultar seus resultados.';
- }else if(!oldFailed&&!oldAuthed){
-  status.textContent='Baterias do site disponíveis; histórico consolidado ainda não carregado.';
+  status.textContent=location.origin===WORKER
+   ?'Não foi possível carregar o histórico unificado: '+e.message+' As respostas originais continuam preservadas.'
+   :'O diagnóstico privado fica disponível após login no ambiente de estudos.';
+  if(location.origin!==WORKER){$('results-login').hidden=false;$('results-login').href=WORKER+'/resultados.html?concurso='+encodeURIComponent(examId);}
  }
 }
 const themeButton=$('results-theme');

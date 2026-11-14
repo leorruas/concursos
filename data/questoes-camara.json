@@ -40559,6 +40559,202 @@
       "correctAnswer": "C",
       "explanation": "A normalização põe todas as barras na mesma escala percentual. Ela facilita comparar proporções, mas não mostra os totais absolutos.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado ao caso: A normalização põe todas as barras na mesma escala percentual. Ela facilita comparar proporções, mas não mostra os totais absolutos. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l037-001-rede-contrato-instrumental",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes, articulação e coprodução de serviços públicos",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-contrato-instrumental",
+      "mechanism": "classificar-pelos-mecanismos-coexistentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Rede, hierarquia, mercado e participação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Rede, hierarquia, mercado e participação"
+      },
+      "statement": "Um grupo de órgãos negocia padrões de dados em conjunto e contrata separadamente a hospedagem do portal. A contratação pode apoiar a rede sem converter a coordenação entre os órgãos em relação de mercado.",
+      "correctAnswer": "C",
+      "explanation": "O contrato disciplina a hospedagem. A coordenação interinstitucional continua baseada na negociação entre os órgãos.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado: O contrato disciplina a hospedagem. A coordenação interinstitucional continua baseada na negociação entre os órgãos. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l037-002-rede-conflito-sem-escalonamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes, articulação e coprodução de serviços públicos",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-conflito-sem-escalonamento",
+      "mechanism": "avaliar-falha-de-desenho-de-decisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Componentes, governança e riscos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Componentes, governança e riscos"
+      },
+      "statement": "Uma rede definiu responsáveis por cada base de dados, mas não definiu quem deve tratar divergências entre bases. A existência de responsáveis individuais assegura que a rede já dispõe de um mecanismo de solução desses conflitos.",
+      "correctAnswer": "E",
+      "explanation": "Atribuir manutenção de cada base e definir como resolver divergências entre instituições são providências distintas. A primeira não estabelece o procedimento ausente.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado: Atribuir manutenção de cada base e definir como resolver divergências entre instituições são providências distintas. A primeira não estabelece o procedimento ausente. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l037-003-rede-reunioes-e-entregas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes, articulação e coprodução de serviços públicos",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-reunioes-e-entregas",
+      "mechanism": "identificar-nivel-do-que-foi-medido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Entregas, resultados, impactos e causalidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Entregas, resultados, impactos e causalidade"
+      },
+      "statement": "Com base apenas no registro de doze reuniões de alinhamento, uma rede pode afirmar que entregou um protocolo de interoperabilidade ao final do período.",
+      "correctAnswer": "E",
+      "explanation": "As reuniões são atividades. A entrega do protocolo precisa ser demonstrada por evidência do produto, como a versão pactuada ou disponibilizada.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado: As reuniões são atividades. A entrega do protocolo precisa ser demonstrada por evidência do produto, como a versão pactuada ou disponibilizada. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l037-004-coplanejamento-entrega-profissional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes, articulação e coprodução de serviços públicos",
+      "articleId": "art-ae41d8c6920f4b57",
+      "conceptId": "coplanejamento-entrega-profissional",
+      "mechanism": "classificar-dois-eixos-independentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ae41d8c6920f4b57#Bovaird (2007): quem planeja e quem entrega"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md",
+        "section": "Bovaird (2007): quem planeja e quem entrega"
+      },
+      "statement": "Usuários e profissionais definem em conjunto o percurso de um serviço de orientação, mas apenas os profissionais prestam o atendimento. Na matriz de Bovaird, há planejamento compartilhado com entrega profissional.",
+      "correctAnswer": "C",
+      "explanation": "O desenho é compartilhado. A prestação por profissionais caracteriza separadamente o eixo da entrega.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado: O desenho é compartilhado. A prestação por profissionais caracteriza separadamente o eixo da entrega. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l037-005-deliberacao-decisao-vinculante",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes, articulação e coprodução de serviços públicos",
+      "articleId": "art-ae41d8c6920f4b57",
+      "conceptId": "deliberacao-decisao-vinculante",
+      "mechanism": "distinguir-debate-e-autoridade-final",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ae41d8c6920f4b57#Participação, consulta, cocriação e coprodução"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md",
+        "section": "Participação, consulta, cocriação e coprodução"
+      },
+      "statement": "Em um fórum público, participantes debatem alternativas e justificam preferências. Esse formato basta para tornar a opção mais votada juridicamente vinculante para o órgão.",
+      "correctAnswer": "E",
+      "explanation": "O debate com troca de razões pode caracterizar deliberação. Seu formato não confere, por si, competência decisória vinculante.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado: O debate com troca de razões pode caracterizar deliberação. Seu formato não confere, por si, competência decisória vinculante. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l037-006-coproducao-pontual-continuidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes, articulação e coprodução de serviços públicos",
+      "articleId": "art-ae41d8c6920f4b57",
+      "conceptId": "coproducao-pontual-continuidade",
+      "mechanism": "distinguir-contribuicao-e-regularidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ae41d8c6920f4b57#Elementos, condições e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md",
+        "section": "Elementos, condições e limites"
+      },
+      "statement": "Uma oficina em que usuários ajudam a redesenhar formulários pode fornecer contribuição relevante para o serviço, mesmo que uma única sessão seja insuficiente para demonstrar uma relação duradoura de coprodução.",
+      "correctAnswer": "C",
+      "explanation": "A contribuição ao desenho pode ser efetiva. A duração da relação depende de evidência de continuidade além daquele encontro.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado: A contribuição ao desenho pode ser efetiva. A duração da relação depende de evidência de continuidade além daquele encontro. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l037-007-coproducao-voluntaria-obrigacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes, articulação e coprodução de serviços públicos",
+      "articleId": "art-ae41d8c6920f4b57",
+      "conceptId": "coproducao-voluntaria-obrigacao",
+      "mechanism": "distinguir-adesao-e-dever-do-usuario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ae41d8c6920f4b57#Elementos, condições e limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md",
+        "section": "Elementos, condições e limites"
+      },
+      "statement": "Quando parte dos usuários adere voluntariamente à manutenção de um acervo público, o órgão pode presumir que os demais usuários também estão obrigados a colaborar pelo simples fato de utilizarem o acervo.",
+      "correctAnswer": "E",
+      "explanation": "A adesão voluntária de um grupo não cria dever para os demais usuários. A produção compartilhada precisa respeitar a adesão e as responsabilidades institucionais.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da seção canônica e do critério aplicado: A adesão voluntária de um grupo não cria dever para os demais usuários. A produção compartilhada precisa respeitar a adesão e as responsabilidades institucionais. Dificuldade estimada."
     }
   ]
 }

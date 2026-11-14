@@ -46691,6 +46691,90 @@
       "correctAnswer": "C",
       "explanation": "Only restringe o dia da aprovação a sextas-feiras. O período não identifica a data de uma aprovação específica.",
       "reviewEvidence": "Revisão por IA com teste da inferência e conferência da seção indicada. Only restringe o dia da aprovação a sextas-feiras. O período não identifica a data de uma aprovação específica. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l106-001-continuidade-sob-negacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação de textos",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "continuidade-sob-negacao",
+      "mechanism": "identificar-estado-anterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "Em “A equipe não deixou de conferir os endereços”, a negação recai sobre a interrupção da conferência, preservando a informação de que a equipe já realizava essa atividade.",
+      "correctAnswer": "C",
+      "explanation": "“Deixar de” introduz a ideia de interrupção de uma prática anterior. A negação rejeita a interrupção e mantém a prática anterior como pressuposta.",
+      "reviewEvidence": "Revisão por IA com conferência da inferência na seção indicada. “Deixar de” introduz a ideia de interrupção de uma prática anterior. A negação rejeita a interrupção e mantém a prática anterior como pressuposta. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l106-002-sequencia-relato-causa-nao-dada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação de textos",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "sequencia-relato-causa-nao-dada",
+      "mechanism": "distinguir-ordem-temporal-e-causa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "De “A iluminação foi substituída em maio e as reclamações diminuíram em junho” conclui-se necessariamente que a troca da iluminação causou a redução das reclamações.",
+      "correctAnswer": "E",
+      "explanation": "O enunciado informa dois acontecimentos em sequência. O texto não estabelece uma relação causal entre eles.",
+      "reviewEvidence": "Revisão por IA com conferência da inferência na seção indicada. O enunciado informa dois acontecimentos em sequência. O texto não estabelece uma relação causal entre eles. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l106-003-reduzir-atraso-sem-zerar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / compreensão e interpretação de textos",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "reduzir-atraso-sem-zerar",
+      "mechanism": "distinguir-reducao-e-eliminacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#2. O Explícito versus o Implícito"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "2. O Explícito versus o Implícito"
+      },
+      "statement": "O aviso “A nova triagem reduziu o tempo de espera” é compatível com a existência de fila depois da mudança.",
+      "correctAnswer": "C",
+      "explanation": "O aviso indica que a espera ficou mais curta. Uma redução pode deixar um tempo de espera positivo.",
+      "reviewEvidence": "Revisão por IA com conferência da inferência na seção indicada. O aviso indica que a espera ficou mais curta. Uma redução pode deixar um tempo de espera positivo. Dificuldade estimada."
     }
   ]
 }

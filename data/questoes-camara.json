@@ -45851,6 +45851,34 @@
       "correctAnswer": "E",
       "explanation": "O art. 9º, § 5º, exige a intimação de todos os atos do Conselho e permite manifestação em todas as fases. A intimação para a defesa escrita não supre a intimação sobre atos posteriores.",
       "reviewEvidence": "Revisão por IA com conferência da Resolução nº 25/2001 consolidada pela Câmara. O art. 9º, § 5º, exige a intimação de todos os atos do Conselho e permite manifestação em todas as fases. A intimação para a defesa escrita não supre a intimação sobre atos posteriores. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l094-001-coproducao-autenticacao-concorrente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes, articulação e coprodução de serviços públicos",
+      "articleId": "art-ae41d8c6920f4b57",
+      "conceptId": "coproducao-autenticacao-concorrente",
+      "mechanism": "identificar-intervencao-concorrente-em-comparacao-temporal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ae41d8c6920f4b57#Resultados e valor público"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md",
+        "section": "Resultados e valor público"
+      },
+      "statement": "Após incorporar sugestões de moradores ao desenho de um serviço digital, a equipe verificou que mais usuários passaram a concluir solicitações. No mesmo período, o órgão também simplificou a autenticação. A comparação antes e depois, sozinha, não permite atribuir à participação dos moradores o aumento observado.",
+      "correctAnswer": "C",
+      "explanation": "A conclusão de mais solicitações é um resultado observado. Como a autenticação também mudou, a comparação temporal não separa os efeitos das duas intervenções.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A conclusão de mais solicitações é um resultado observado. Como a autenticação também mudou, a comparação temporal não separa os efeitos das duas intervenções. Dificuldade estimada."
     }
   ]
 }

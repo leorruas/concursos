@@ -44647,6 +44647,90 @@
       "correctAnswer": "E",
       "explanation": "A equipe pode executar tarefas operacionais. A atribuição da alta administração de direcionar e monitorar o sistema permanece.",
       "reviewEvidence": "Revisão editorial por IA. Decreto nº 9.203/2017, art. 17, conforme seção canônica. A equipe pode executar tarefas operacionais. A atribuição da alta administração de direcionar e monitorar o sistema permanece. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l078-001-resumo-generalizacao-categoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / interpretação e síntese textual",
+      "articleId": "art-554511538d877686",
+      "conceptId": "resumo-generalizacao-categoria",
+      "mechanism": "agrupar-exemplos-sem-adicionar-fato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-554511538d877686#3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/13 - tema tese e progressao tematica.md",
+        "section": "3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      },
+      "statement": "Um relatório registra que a equipe consertou os scanners, substituiu cabos e limpou os projetores. A síntese “A equipe realizou manutenção em equipamentos” reúne essas ações em uma categoria mais geral.",
+      "correctAnswer": "C",
+      "explanation": "A generalização substitui ações particulares por uma categoria que as abrange. A síntese não precisa preservar a lista de operações.",
+      "reviewEvidence": "Revisão por IA. Conferência do conteúdo central e da operação de síntese: A generalização substitui ações particulares por uma categoria que as abrange. A síntese não precisa preservar a lista de operações. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l078-002-resumo-dado-adversativo-essencial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / interpretação e síntese textual",
+      "articleId": "art-554511538d877686",
+      "conceptId": "resumo-dado-adversativo-essencial",
+      "mechanism": "preservar-contraste-central",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-554511538d877686#3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/13 - tema tese e progressao tematica.md",
+        "section": "3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      },
+      "statement": "O texto conclui que “o novo atendimento reduziu a fila no centro, mas aumentou a espera nos bairros”. A síntese “O novo atendimento reduziu a espera em toda a cidade” preserva a conclusão do texto.",
+      "correctAnswer": "E",
+      "explanation": "A síntese estende ao conjunto da cidade um benefício localizado e elimina o resultado contrário observado nos bairros.",
+      "reviewEvidence": "Revisão por IA. Conferência do conteúdo central e da operação de síntese: A síntese estende ao conjunto da cidade um benefício localizado e elimina o resultado contrário observado nos bairros. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l078-003-resumo-supressao-detalhe-acessorio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / interpretação e síntese textual",
+      "articleId": "art-554511538d877686",
+      "conceptId": "resumo-supressao-detalhe-acessorio",
+      "mechanism": "distinguir-detalhe-e-fato-central",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-554511538d877686#3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/13 - tema tese e progressao tematica.md",
+        "section": "3. Macroestrutura Semântica e Macrorregras (Teun van Dijk)"
+      },
+      "statement": "Em “A comissão, reunida na sala 12, aprovou por unanimidade o calendário de audiências”, omitir o número da sala em uma síntese sobre o resultado da deliberação preserva a informação de que o calendário foi aprovado por unanimidade.",
+      "correctAnswer": "C",
+      "explanation": "O local da reunião é acessório para a pergunta sobre o resultado. Sua omissão não altera o objeto nem o modo da aprovação.",
+      "reviewEvidence": "Revisão por IA. Conferência do conteúdo central e da operação de síntese: O local da reunião é acessório para a pergunta sobre o resultado. Sua omissão não altera o objeto nem o modo da aprovação. Dificuldade estimada."
     }
   ]
 }

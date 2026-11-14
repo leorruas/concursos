@@ -45627,6 +45627,90 @@
       "correctAnswer": "E",
       "explanation": "A data verifica a entrega do protocolo. Medir sua adoção exige observar seu uso, por exemplo, pela proporção de encaminhamentos processados conforme as novas regras.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A data verifica a entrega do protocolo. Medir sua adoção exige observar seu uso, por exemplo, pela proporção de encaminhamentos processados conforme as novas regras. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l091-001-meta-fisica-sem-aumento-dotacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / classificação da despesa orçamentária",
+      "articleId": "art-28b3d9ef86aa4510",
+      "conceptId": "meta-fisica-sem-aumento-dotacao",
+      "mechanism": "detectar-mudanca-na-dimensao-fisica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-28b3d9ef86aa4510#Dimensões física e financeira da programação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04b - classificacao da despesa.md",
+        "section": "Dimensões física e financeira da programação"
+      },
+      "statement": "Ao comparar duas propostas orçamentárias para o mesmo subtítulo, verifica-se que ambas preveem R$ 800 mil e que a quantidade prevista de laboratórios a equipar passou de quatro para cinco. A alteração identificada recai sobre a meta física.",
+      "correctAnswer": "C",
+      "explanation": "A meta física quantifica o produto esperado. O aumento de quatro para cinco laboratórios altera a meta, mantendo o valor financeiro informado.",
+      "reviewEvidence": "Revisão por IA. Conferência da seção indicada e do MTO, capítulo 4. A meta física quantifica o produto esperado. O aumento de quatro para cinco laboratórios altera a meta, mantendo o valor financeiro informado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l091-002-elemento-sem-identificar-executor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / classificação da despesa orçamentária",
+      "articleId": "art-28b3d9ef86aa4510",
+      "conceptId": "elemento-sem-identificar-executor",
+      "mechanism": "distinguir-objeto-e-forma-de-aplicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-28b3d9ef86aa4510#Natureza da despesa: categoria, GND, modalidade e elemento"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04b - classificacao da despesa.md",
+        "section": "Natureza da despesa: categoria, GND, modalidade e elemento"
+      },
+      "statement": "Em um extrato orçamentário que informa apenas o elemento de despesa, é possível determinar, com base nesse campo, se a aplicação do recurso será direta ou mediante transferência.",
+      "correctAnswer": "E",
+      "explanation": "O elemento identifica o objeto do gasto. A forma de aplicação é informada pela modalidade de aplicação.",
+      "reviewEvidence": "Revisão por IA. Conferência da seção indicada e do MTO, capítulo 4. O elemento identifica o objeto do gasto. A forma de aplicação é informada pela modalidade de aplicação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l091-003-regionalizacao-dentro-da-acao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / classificação da despesa orçamentária",
+      "articleId": "art-28b3d9ef86aa4510",
+      "conceptId": "regionalizacao-dentro-da-acao",
+      "mechanism": "identificar-nivel-de-detalhamento-territorial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-28b3d9ef86aa4510#Classificação programática: programa × ação × subtítulo"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04b - classificacao da despesa.md",
+        "section": "Classificação programática: programa × ação × subtítulo"
+      },
+      "statement": "Uma mesma ação orçamentária federal pode ter dois subtítulos para distinguir a localização de suas entregas em estados diferentes.",
+      "correctAnswer": "C",
+      "explanation": "O subtítulo detalha a ação e pode identificar sua localização. É possível, assim, distinguir as duas programações territoriais dentro da mesma ação.",
+      "reviewEvidence": "Revisão por IA. Conferência da seção indicada e do MTO, capítulo 4. O subtítulo detalha a ação e pode identificar sua localização. É possível, assim, distinguir as duas programações territoriais dentro da mesma ação. Dificuldade estimada."
     }
   ]
 }

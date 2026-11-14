@@ -44283,6 +44283,90 @@
       "correctAnswer": "C",
       "explanation": "A Procuradoria recebe os autos para providências de reparação da imagem. Essa remessa não é uma penalidade disciplinar imposta ao deputado representado.",
       "reviewEvidence": "Revisão por IA. Código de Ética, art. 15, parágrafo único. A Procuradoria recebe os autos para providências de reparação da imagem. Essa remessa não é uma penalidade disciplinar imposta ao deputado representado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l074-001-saldo-veto-credito-autorizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "saldo-veto-credito-autorizacao",
+      "mechanism": "separar-origem-de-titulo-autorizativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Regras constitucionais para emendas ao orçamento anual"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "statement": "Após veto a uma despesa do projeto de LOA, os recursos que ficaram sem despesa correspondente podem ser empenhados imediatamente em outra finalidade apenas porque o veto deixou saldo disponível.",
+      "correctAnswer": "E",
+      "explanation": "O art. 166, § 8º, admite usar esses recursos para créditos especiais ou suplementares mediante autorização legislativa prévia e específica. O saldo não autoriza empenho diretamente.",
+      "reviewEvidence": "Revisão editorial por IA. Critério cotejado na seção canônica: O art. 166, § 8º, admite usar esses recursos para créditos especiais ou suplementares mediante autorização legislativa prévia e específica. O saldo não autoriza empenho diretamente."
+    },
+    {
+      "id": "cam-orc-l074-002-cmo-ordem-relatorio-excecao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "cmo-ordem-relatorio-excecao",
+      "mechanism": "identificar-colegiado-da-excecao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Sequência do projeto: do recebimento à lei"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Sequência do projeto: do recebimento à lei"
+      },
+      "statement": "O Plenário da CMO pode deliberar para inverter a ordem regimental que, como regra, põe a votação do relatório do Comitê de Admissibilidade de Emendas antes dos relatórios das matérias.",
+      "correctAnswer": "C",
+      "explanation": "O art. 25 da Resolução nº 1/2006-CN estabelece a precedência e admite deliberação em contrário pelo Plenário da CMO.",
+      "reviewEvidence": "Revisão editorial por IA. Critério cotejado na seção canônica: O art. 25 da Resolução nº 1/2006-CN estabelece a precedência e admite deliberação em contrário pelo Plenário da CMO."
+    },
+    {
+      "id": "cam-orc-l074-003-emenda-anulacao-transferencias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "emenda-anulacao-transferencias",
+      "mechanism": "verificar-protecao-da-fonte",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Regras constitucionais para emendas ao orçamento anual"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "statement": "Uma emenda que amplia despesa na LOA pode usar como fonte a anulação de dotação para transferências tributárias constitucionais a municípios se for compatível com o PPA e com a LDO.",
+      "correctAnswer": "E",
+      "explanation": "O art. 166, § 3º, II, exclui essas transferências das fontes de anulação admitidas. A compatibilidade com os instrumentos de planejamento não substitui a exigência sobre a fonte.",
+      "reviewEvidence": "Revisão editorial por IA. Critério cotejado na seção canônica: O art. 166, § 3º, II, exclui essas transferências das fontes de anulação admitidas. A compatibilidade com os instrumentos de planejamento não substitui a exigência sobre a fonte."
     }
   ]
 }

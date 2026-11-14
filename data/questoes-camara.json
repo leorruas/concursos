@@ -45039,6 +45039,90 @@
       "correctAnswer": "E",
       "explanation": "O recebimento de perguntas abre um canal de participação. Sem resposta ou encaminhamento, o canal não assegura justificação nem tratamento das irregularidades.",
       "reviewEvidence": "Revisão por IA. Critério de julgamento: O recebimento de perguntas abre um canal de participação. Sem resposta ou encaminhamento, o canal não assegura justificação nem tratamento das irregularidades. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l083-001-lrf-um-terco-excedente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal, despesa com pessoal",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "lrf-um-terco-excedente",
+      "mechanism": "calcular-reducao-minima-inicial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Despesa com pessoal: limites e marcos de ação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Despesa com pessoal: limites e marcos de ação"
+      },
+      "statement": "Se um Poder ultrapassar em três pontos percentuais seu limite de despesa com pessoal, a regra geral exige eliminar pelo menos um ponto percentual no primeiro dos dois quadrimestres seguintes.",
+      "correctAnswer": "C",
+      "explanation": "O art. 23 exige eliminar, no primeiro quadrimestre, pelo menos um terço do excedente, que neste caso é de três pontos percentuais.",
+      "reviewEvidence": "Revisão editorial por IA. LC 101/2000, art. 23. O art. 23 exige eliminar, no primeiro quadrimestre, pelo menos um terço do excedente, que neste caso é de três pontos percentuais. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l083-002-lrf-prudencial-antes-do-maximo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal, despesa com pessoal",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "lrf-prudencial-antes-do-maximo",
+      "mechanism": "distinguir-restricao-e-reconducao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Despesa com pessoal: limites e marcos de ação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Despesa com pessoal: limites e marcos de ação"
+      },
+      "statement": "Ao atingir 97% de seu limite de despesa com pessoal, um Poder ainda não está sujeito a nenhuma restrição do art. 22 da LRF, pois não superou o limite máximo.",
+      "correctAnswer": "E",
+      "explanation": "As restrições do art. 22 são acionadas quando a despesa excede 95% do limite. A superação do máximo aciona as medidas adicionais do art. 23.",
+      "reviewEvidence": "Revisão editorial por IA. LC 101/2000, art. 22 e 23. As restrições do art. 22 são acionadas quando a despesa excede 95% do limite. A superação do máximo aciona as medidas adicionais do art. 23. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l083-003-lrf-excecao-reposicao-seguranca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal, despesa com pessoal",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "lrf-excecao-reposicao-seguranca",
+      "mechanism": "delimitar-hipotese-de-reposicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Despesa com pessoal: limites e marcos de ação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Despesa com pessoal: limites e marcos de ação"
+      },
+      "statement": "Mesmo quando incidem as restrições do limite prudencial, a LRF ressalva a reposição decorrente de aposentadoria de servidor da área de segurança.",
+      "correctAnswer": "C",
+      "explanation": "A vedação de provimento ressalva a reposição por aposentadoria ou falecimento de servidores das áreas de educação, saúde e segurança.",
+      "reviewEvidence": "Revisão editorial por IA. LC 101/2000, art. 22, parágrafo único, IV. A vedação de provimento ressalva a reposição por aposentadoria ou falecimento de servidores das áreas de educação, saúde e segurança. Dificuldade estimada."
     }
   ]
 }

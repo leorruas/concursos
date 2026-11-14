@@ -42351,6 +42351,90 @@
       "correctAnswer": "E",
       "explanation": "A proposta de sustação depende também do juízo da comissão de que o gasto poderá causar dano irreparável ou grave lesão à economia pública.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 72, § 2º. A proposta de sustação depende também do juízo da comissão de que o gasto poderá causar dano irreparável ou grave lesão à economia pública. Dificuldade estimada."
+    },
+    {
+      "id": "cam-const-l051-001-tcu-aprovacao-senado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-aprovacao-senado",
+      "mechanism": "distinguir-escolha-e-aprovacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Escolha dos Ministros"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Escolha dos Ministros"
+      },
+      "statement": "Na escolha dos ministros do TCU que integram o terço de indicação presidencial, a aprovação pelo Senado é exigida inclusive para as vagas destinadas alternadamente a auditores e membros do Ministério Público junto ao Tribunal.",
+      "correctAnswer": "C",
+      "explanation": "O requisito de aprovação do Senado incide sobre o terço escolhido pelo presidente. A lista tríplice para as vagas reservadas não substitui essa aprovação.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Constituição Federal, art. 73, § 2º, I. O requisito de aprovação do Senado incide sobre o terço escolhido pelo presidente. A lista tríplice para as vagas reservadas não substitui essa aprovação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-const-l051-002-controle-interno-garantia-uniao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "controle-interno-garantia-uniao",
+      "mechanism": "rastrear-objeto-do-controle",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Controle interno: art. 74"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Controle interno: art. 74"
+      },
+      "statement": "A análise de garantias da União pelo sistema de controle interno só pode começar após manifestação do Tribunal de Contas da União.",
+      "correctAnswer": "E",
+      "explanation": "Controlar garantias é finalidade constitucional própria do sistema de controle interno. O art. 74 não condiciona seu exercício a pronunciamento prévio do TCU.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Constituição Federal, art. 74, III. Controlar garantias é finalidade constitucional própria do sistema de controle interno. O art. 74 não condiciona seu exercício a pronunciamento prévio do TCU. Dificuldade estimada."
+    },
+    {
+      "id": "cam-const-l051-003-auditor-garantias-na-substituicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "auditor-garantias-na-substituicao",
+      "mechanism": "classificar-garantias-pelo-exercicio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Composição do TCU"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Composição do TCU"
+      },
+      "statement": "Ao substituir um ministro do TCU, o auditor assume as garantias e os impedimentos do titular durante a substituição.",
+      "correctAnswer": "C",
+      "explanation": "Na substituição, aplicam-se as garantias e impedimentos do ministro. Nas demais atribuições da judicatura, a Constituição adota como referência o juiz de Tribunal Regional Federal.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Constituição Federal, art. 73, § 4º. Na substituição, aplicam-se as garantias e impedimentos do ministro. Nas demais atribuições da judicatura, a Constituição adota como referência o juiz de Tribunal Regional Federal. Dificuldade estimada."
     }
   ]
 }

@@ -47475,6 +47475,34 @@
       "correctAnswer": "E",
       "explanation": "Na primeira frase, só restringe quem revisou. Na segunda, restringe aquilo que a bibliotecária revisou.",
       "reviewEvidence": "Revisão por IA com conferência dos papéis e do escopo na seção indicada. Na primeira frase, só restringe quem revisou. Na segunda, restringe aquilo que a bibliotecária revisou. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l117-001-injuncao-no-infinitivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / tipos textuais",
+      "articleId": "art-7a7433d13f34cbad",
+      "conceptId": "injuncao-no-infinitivo",
+      "mechanism": "identificar-funcao-instrucional-pelo-contexto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7a7433d13f34cbad#3.5. Sequência Injuntiva versus Prescritiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/15 - tipologia textual criterios de distincao e sequencias prototipicas.md",
+        "section": "3.5. Sequência Injuntiva versus Prescritiva"
+      },
+      "statement": "Em um manual dirigido ao usuário, “Para emitir a segunda via, selecionar o protocolo e confirmar o endereço” pode cumprir função injuntiva embora os verbos estejam no infinitivo.",
+      "correctAnswer": "C",
+      "explanation": "O trecho orienta o leitor a executar ações em sequência para alcançar um objetivo. A função de instruir independe do uso do modo imperativo.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O trecho orienta o leitor a executar ações em sequência para alcançar um objetivo. A função de instruir independe do uso do modo imperativo. Dificuldade estimada."
     }
   ]
 }

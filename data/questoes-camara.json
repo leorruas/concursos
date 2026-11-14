@@ -44815,6 +44815,90 @@
       "correctAnswer": "E",
       "explanation": "A participação concorrente da vítima pode reduzir a indenização. A exclusão por culpa exclusiva pressupõe que a atuação estatal não seja causa do dano.",
       "reviewEvidence": "Revisão por IA. CF, art. 37, § 6º, e STF, Tema 130, conforme aplicável. A participação concorrente da vítima pode reduzir a indenização. A exclusão por culpa exclusiva pressupõe que a atuação estatal não seja causa do dano. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l080-001-bill-invoice-context",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-82b46bb07081dff1",
+      "conceptId": "bill-invoice-context",
+      "mechanism": "infer-sense-from-payment",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#4.1. Leitura de polissemia fora do Legislativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md",
+        "section": "4.1. Leitura de polissemia fora do Legislativo"
+      },
+      "statement": "“The restaurant sent the bill to the table after dessert.” In this sentence, “bill” refers to an amount to be paid rather than a legislative proposal.",
+      "correctAnswer": "C",
+      "explanation": "O restaurante, a mesa e o momento após a sobremesa indicam o sentido de conta a pagar.",
+      "reviewEvidence": "Revisão por IA. Sentido contextual conferido: O restaurante, a mesa e o momento após a sobremesa indicam o sentido de conta a pagar. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l080-002-board-train-context",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-82b46bb07081dff1",
+      "conceptId": "board-train-context",
+      "mechanism": "infer-verb-sense-from-travel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#4.1. Leitura de polissemia fora do Legislativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md",
+        "section": "4.1. Leitura de polissemia fora do Legislativo"
+      },
+      "statement": "In “Passengers must board the train before the doors close,” “board” refers to a group of people who supervise the railway.",
+      "correctAnswer": "E",
+      "explanation": "Board é verbo nesse trecho. A construção indica a ação de embarcar no trem, em vez de nomear um conselho.",
+      "reviewEvidence": "Revisão por IA. Sentido contextual conferido: Board é verbo nesse trecho. A construção indica a ação de embarcar no trem, em vez de nomear um conselho. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l080-003-issue-document-versus-problem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-82b46bb07081dff1",
+      "conceptId": "issue-document-versus-problem",
+      "mechanism": "identify-action-through-object",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-82b46bb07081dff1#4.1. Leitura de polissemia fora do Legislativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/11 - vocabulario contextual polissemia e falsos cognatos em ingles.md",
+        "section": "4.1. Leitura de polissemia fora do Legislativo"
+      },
+      "statement": "In “The office will issue a replacement badge on Monday,” the words “will issue” indicate that the office will provide a replacement badge.",
+      "correctAnswer": "C",
+      "explanation": "Issue é verbo e tem como objeto a credencial. No contexto, significa emitir ou fornecer o documento.",
+      "reviewEvidence": "Revisão por IA. Sentido contextual conferido: Issue é verbo e tem como objeto a credencial. No contexto, significa emitir ou fornecer o documento. Dificuldade estimada."
     }
   ]
 }

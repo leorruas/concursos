@@ -47027,6 +47027,90 @@
       "correctAnswer": "C",
       "explanation": "Appears to qualifica a afirmação como uma conclusão provisória. Sua retirada apresenta a redução como fato.",
       "reviewEvidence": "Revisão por IA com conferência da leitura modal na seção indicada. Appears to qualifica a afirmação como uma conclusão provisória. Sua retirada apresenta a redução como fato. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l110-001-elipse-partilha-verbo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / mecanismos de coesão textual",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "elipse-partilha-verbo",
+      "mechanism": "recuperar-verbo-pelo-paralelismo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#2.1. A Elipse e seus Limites Gramaticais"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "2.1. A Elipse e seus Limites Gramaticais"
+      },
+      "statement": "Em “O arquivo recebeu três mapas e a biblioteca, cinco fotografias”, o leitor pode recuperar “recebeu” na segunda oração sem atribuir à biblioteca o recebimento dos mapas.",
+      "correctAnswer": "C",
+      "explanation": "O paralelismo permite recuperar o verbo omitido. Cada oração tem seu próprio sujeito e seu próprio objeto.",
+      "reviewEvidence": "Revisão por IA com conferência do mecanismo na seção indicada. O paralelismo permite recuperar o verbo omitido. Cada oração tem seu próprio sujeito e seu próprio objeto. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l110-002-nominalizacao-sem-agente-expresso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / mecanismos de coesão textual",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "nominalizacao-sem-agente-expresso",
+      "mechanism": "distinguir-retomada-e-identificacao-do-agente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#3.3. Nominalização (Derivação Sufixal Coesiva)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "3.3. Nominalização (Derivação Sufixal Coesiva)"
+      },
+      "statement": "Em “Os técnicos digitalizaram as atas. A digitalização durou uma semana”, “a digitalização” retoma a ação da frase anterior sem repetir expressamente quem a realizou.",
+      "correctAnswer": "C",
+      "explanation": "O substantivo retoma o processo descrito pelo verbo. A identidade dos agentes vem da frase anterior.",
+      "reviewEvidence": "Revisão por IA com conferência do mecanismo na seção indicada. O substantivo retoma o processo descrito pelo verbo. A identidade dos agentes vem da frase anterior. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l110-003-hiperonimo-nao-especifica-especie",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / mecanismos de coesão textual",
+      "articleId": "art-952aa54cbc30eb00",
+      "conceptId": "hiperonimo-nao-especifica-especie",
+      "mechanism": "avaliar-direcao-da-especificacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-952aa54cbc30eb00#3.1. Hiperonímia versus Hiponímia no Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/19 - substituicao elipse repeticao e coesao lexical.md",
+        "section": "3.1. Hiperonímia versus Hiponímia no Cebraspe"
+      },
+      "statement": "Em “A equipe instalou um equipamento no saguão. O equipamento será testado amanhã”, substituir a segunda ocorrência de “equipamento” por “projetor” preserva o grau de especificidade da informação.",
+      "correctAnswer": "E",
+      "explanation": "Projetor é um tipo de equipamento. A troca acrescenta uma identificação específica que o trecho original não fornece.",
+      "reviewEvidence": "Revisão por IA com conferência do mecanismo na seção indicada. Projetor é um tipo de equipamento. A troca acrescenta uma identificação específica que o trecho original não fornece. Dificuldade estimada."
     }
   ]
 }

@@ -45711,6 +45711,90 @@
       "correctAnswer": "C",
       "explanation": "O subtítulo detalha a ação e pode identificar sua localização. É possível, assim, distinguir as duas programações territoriais dentro da mesma ação.",
       "reviewEvidence": "Revisão por IA. Conferência da seção indicada e do MTO, capítulo 4. O subtítulo detalha a ação e pode identificar sua localização. É possível, assim, distinguir as duas programações territoriais dentro da mesma ação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l092-001-assistencia-facultativa-advogado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "assistencia-facultativa-advogado",
+      "mechanism": "identificar-condicao-da-representacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#2.1 Direitos do administrado no processo (art. 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "2.1 Direitos do administrado no processo (art. 3º)"
+      },
+      "statement": "Em processo administrativo federal sem exigência legal de representação obrigatória, um interessado pode apresentar pessoalmente suas alegações, mesmo que outro interessado opte pela assistência de advogado.",
+      "correctAnswer": "C",
+      "explanation": "O art. 3º, IV, prevê assistência facultativa, salvo quando a lei exigir representação. A escolha do outro interessado não altera essa regra.",
+      "reviewEvidence": "Revisão por IA com conferência da Lei nº 9.784/1999 no Planalto e da seção indicada. O art. 3º, IV, prevê assistência facultativa, salvo quando a lei exigir representação. A escolha do outro interessado não altera essa regra. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l092-002-interessado-sem-pedido-inicial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "interessado-sem-pedido-inicial",
+      "mechanism": "verificar-impacto-da-decisao-em-terceiro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#2.2 Legitimidade para figurar como interessado (art. 9º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "2.2 Legitimidade para figurar como interessado (art. 9º)"
+      },
+      "statement": "Em processo administrativo federal, uma entidade pode figurar como interessada se a decisão puder afetar direito seu, ainda que o procedimento tenha sido iniciado por outra pessoa.",
+      "correctAnswer": "C",
+      "explanation": "O art. 9º, II, admite quem não iniciou o processo e pode ter direito ou interesse afetado pela decisão. A iniciativa do procedimento não é requisito nessa hipótese.",
+      "reviewEvidence": "Revisão por IA com conferência da Lei nº 9.784/1999 no Planalto e da seção indicada. O art. 9º, II, admite quem não iniciou o processo e pode ter direito ou interesse afetado pela decisão. A iniciativa do procedimento não é requisito nessa hipótese. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l092-003-documentos-antes-da-decisao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal",
+      "articleId": "art-c61cca38ed36e424",
+      "conceptId": "documentos-antes-da-decisao",
+      "mechanism": "avaliar-dever-de-considerar-documentos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c61cca38ed36e424#2.1 Direitos do administrado no processo (art. 3º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao.md",
+        "section": "2.1 Direitos do administrado no processo (art. 3º)"
+      },
+      "statement": "Um órgão federal recebe regularmente documentos pertinentes de um interessado antes da decisão, mas pode deixar de considerá-los pelo simples fato de o próprio órgão já ter produzido relatório técnico sobre o assunto.",
+      "correctAnswer": "E",
+      "explanation": "O art. 3º, III, assegura a apresentação de documentos antes da decisão e determina que sejam considerados. O relatório anterior não dispensa esse exame.",
+      "reviewEvidence": "Revisão por IA com conferência da Lei nº 9.784/1999 no Planalto e da seção indicada. O art. 3º, III, assegura a apresentação de documentos antes da decisão e determina que sejam considerados. O relatório anterior não dispensa esse exame. Dificuldade estimada."
     }
   ]
 }

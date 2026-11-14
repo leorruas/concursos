@@ -47839,6 +47839,62 @@
       "correctAnswer": "C",
       "explanation": "Quem deixou de usar o aplicativo tem menos oportunidade de ver o convite. O número de inscrições não resolve a seleção produzida pelo canal de divulgação.",
       "reviewEvidence": "Revisão por IA. Quem deixou de usar o aplicativo tem menos oportunidade de ver o convite. O número de inscrições não resolve a seleção produzida pelo canal de divulgação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l124-001-resposta-sem-criterio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "resposta-sem-criterio",
+      "mechanism": "avaliar-suficiencia-da-justificativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Accountability"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Accountability"
+      },
+      "statement": "Questionado sobre dois pedidos idênticos que receberam decisões diferentes, um gestor responde em audiência apenas que a decisão foi tomada. A resposta comunica a existência da decisão, mas não esclarece os critérios da diferença.",
+      "correctAnswer": "C",
+      "explanation": "A justificativa precisa expor as razões relevantes para a decisão. Comunicar que ela ocorreu não permite examinar o critério do tratamento distinto.",
+      "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. A justificativa precisa expor as razões relevantes para a decisão. Comunicar que ela ocorreu não permite examinar o critério do tratamento distinto. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l124-002-indicador-meta-e-prestacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "indicador-meta-e-prestacao",
+      "mechanism": "verificar-possibilidade-de-cobranca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Mecanismos: liderança, estratégia e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Mecanismos: liderança, estratégia e controle"
+      },
+      "statement": "Um órgão publica que atendeu 18 mil pessoas, mas não informa a meta nem o período correspondente. Esse número permite concluir que o órgão atingiu sua meta de atendimento anual.",
+      "correctAnswer": "E",
+      "explanation": "Para verificar o cumprimento da meta anual, é preciso conhecer o valor de referência e confirmar que o número divulgado corresponde ao período avaliado.",
+      "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. Para verificar o cumprimento da meta anual, é preciso conhecer o valor de referência e confirmar que o número divulgado corresponde ao período avaliado. Dificuldade estimada."
     }
   ]
 }

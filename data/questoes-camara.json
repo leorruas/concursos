@@ -45375,6 +45375,62 @@
       "correctAnswer": "E",
       "explanation": "Com numerador positivo constante, reduzir o denominador aumenta a razão. Isso pode aproximar a despesa dos limites fiscais mesmo sem elevar o valor nominal gasto.",
       "reviewEvidence": "Revisão por IA. Conferência da janela e do denominador da LRF: Com numerador positivo constante, reduzir o denominador aumenta a razão. Isso pode aproximar a despesa dos limites fiscais mesmo sem elevar o valor nominal gasto. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l088-001-postergar-versus-cancelar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita e substituição lexical",
+      "articleId": "art-d43257f539c036b9",
+      "conceptId": "postergar-versus-cancelar",
+      "mechanism": "distinguir-alteracao-temporal-e-supressao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d43257f539c036b9#2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido.md",
+        "section": "2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      },
+      "statement": "No comunicado “A banca postergou a divulgação do resultado para segunda-feira”, substituir “postergou” por “cancelou” mantém a informação sobre o destino da divulgação.",
+      "correctAnswer": "E",
+      "explanation": "Postergar transfere a divulgação para um momento posterior. Cancelar indica que ela foi suprimida, o que altera a informação.",
+      "reviewEvidence": "Revisão por IA. Equivalência contextual examinada na seção canônica: Postergar transfere a divulgação para um momento posterior. Cancelar indica que ela foi suprimida, o que altera a informação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l088-002-mitigar-nao-eliminar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita e substituição lexical",
+      "articleId": "art-d43257f539c036b9",
+      "conceptId": "mitigar-nao-eliminar",
+      "mechanism": "avaliar-intensidade-do-resultado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d43257f539c036b9#2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/32 - reescrita substituicao lexical e preservacao de sentido.md",
+        "section": "2. O protocolo de duplo filtro na avaliação de substituição lexical"
+      },
+      "statement": "No trecho “As medidas mitigaram o risco de atraso”, substituir “mitigaram” por “eliminaram” tornaria mais forte o resultado atribuído às medidas.",
+      "correctAnswer": "C",
+      "explanation": "Mitigar indica atenuação. Eliminar atribui às medidas a supressão do risco, resultado mais forte que o afirmado.",
+      "reviewEvidence": "Revisão por IA. Equivalência contextual examinada na seção canônica: Mitigar indica atenuação. Eliminar atribui às medidas a supressão do risco, resultado mais forte que o afirmado. Dificuldade estimada."
     }
   ]
 }

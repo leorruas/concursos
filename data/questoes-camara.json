@@ -43023,6 +43023,90 @@
       "correctAnswer": "E",
       "explanation": "O apoio social integra a análise, mas a adequação ao ambiente de autorização também depende das competências e dos limites institucionais.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Triângulo estratégico de Moore conforme a seção canônica. O apoio social integra a análise, mas a adequação ao ambiente de autorização também depende das competências e dos limites institucionais. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l059-001-backshift-nao-implica-fim",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e equivalência de sentido",
+      "articleId": "art-b1b8cbf8d0d7bc4a",
+      "conceptId": "backshift-nao-implica-fim",
+      "mechanism": "separate-backshift-from-cessation",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b1b8cbf8d0d7bc4a#4. Sequência dos Tempos no Discurso Indireto (*Sequence of Tenses*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md",
+        "section": "4. Sequência dos Tempos no Discurso Indireto (*Sequence of Tenses*)"
+      },
+      "statement": "In “On Tuesday, Nora said she lived near the depot,” the verb “lived” necessarily means that Nora no longer lives there at the time of reporting.",
+      "correctAnswer": "E",
+      "explanation": "Lived pode decorrer do recuo temporal após said. A frase, sozinha, não informa se Nora mudou de endereço.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério de leitura conferido com a seção canônica: Lived pode decorrer do recuo temporal após said. A frase, sozinha, não informa se Nora mudou de endereço. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l059-002-reported-progressive-not-completion",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e equivalência de sentido",
+      "articleId": "art-b1b8cbf8d0d7bc4a",
+      "conceptId": "reported-progressive-not-completion",
+      "mechanism": "preserve-progressive-in-reported-speech",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b1b8cbf8d0d7bc4a#4. Sequência dos Tempos no Discurso Indireto (*Sequence of Tenses*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md",
+        "section": "4. Sequência dos Tempos no Discurso Indireto (*Sequence of Tenses*)"
+      },
+      "statement": "In “At noon, the technician said the system was still rebooting,” the reported clause describes a process in progress at the time of the technician’s statement and does not report that the restart had finished.",
+      "correctAnswer": "C",
+      "explanation": "Was still rebooting marca o processo ainda em curso no momento indicado. O relato não afirma que a reinicialização já havia terminado.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério de leitura conferido com a seção canônica: Was still rebooting marca o processo ainda em curso no momento indicado. O relato não afirma que a reinicialização já havia terminado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l059-003-reported-can-backshift-not-permission",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e equivalência de sentido",
+      "articleId": "art-b1b8cbf8d0d7bc4a",
+      "conceptId": "reported-can-backshift-not-permission",
+      "mechanism": "resolve-could-from-direct-speech",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b1b8cbf8d0d7bc4a#4. Sequência dos Tempos no Discurso Indireto (*Sequence of Tenses*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/13 - tempos verbais aspecto e sequencia temporal em ingles.md",
+        "section": "4. Sequência dos Tempos no Discurso Indireto (*Sequence of Tenses*)"
+      },
+      "statement": "The engineer stated, “This device can operate underwater.” Reporting this as “The engineer stated that the device could operate underwater” changes the claim from technical capability to official permission.",
+      "correctAnswer": "E",
+      "explanation": "Could pode transpor can para o discurso indireto sem mudar o sentido de capacidade técnica. Nada na reescrita introduz autorização oficial.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério de leitura conferido com a seção canônica: Could pode transpor can para o discurso indireto sem mudar o sentido de capacidade técnica. Nada na reescrita introduz autorização oficial. Dificuldade estimada."
     }
   ]
 }

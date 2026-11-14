@@ -110,10 +110,13 @@ function render(){
  $('qs-progress-bar').style.width=(100*session.answers.length/session.ids.length)+'%';$('qs-statement').textContent=q.statement;
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>{e.checked=false;e.disabled=false;});
  $('qs-insecure').checked=false;$('qs-insecure').disabled=false;
- toggle('qs-blank-wrap',session.mode==='simulado');toggle('qs-feedback',false);toggle('qs-next',false);toggle('qs-submit',true);
+ toggle('qs-blank-wrap',session.mode==='simulado');toggle('qs-after',false);toggle('qs-feedback',false);toggle('qs-pending',false);toggle('qs-answer-form',true);toggle('qs-submit',true);
 }
 function feedback(q,a){
- const el=$('qs-feedback');el.replaceChildren(elem('strong',(a.result==='correct'?'Acerto':a.result==='blank'?'Em branco':'Erro')+' · Gabarito: '+(q.correctAnswer==='C'?'Certo':'Errado')),elem('p',q.explanation));
+ const el=$('qs-feedback');
+ const chosen=a.answer==='C'?'Certo':a.answer==='E'?'Errado':'Em branco';
+ const solution=q.correctAnswer==='C'?'Certo':'Errado';
+ el.replaceChildren(elem('strong',(a.result==='correct'?'Acertou':a.result==='blank'?'Em branco':'Errou')+' · Sua resposta: '+chosen+' · Gabarito: '+solution),elem('p',q.explanation));
  const link=theory(q);if(link)el.append(link);toggle('qs-feedback',true);
 }
 async function sync(a){
@@ -131,9 +134,15 @@ function answer(ev){
  const q=question();if(!q)return;const v=c.value,blank=v==='blank';
  const a={id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
  session.answers.push(a);storeWrite();sync(a);
- document.querySelectorAll('input[name="qs-answer"]').forEach(e=>e.disabled=true);$('qs-insecure').disabled=true;toggle('qs-submit',false);
+ document.querySelectorAll('input[name="qs-answer"]').forEach(e=>e.disabled=true);$('qs-insecure').disabled=true;
+ toggle('qs-answer-form',false);
+ toggle('qs-after',true);
  if(session.mode==='aprendizagem')feedback(q,a);
- $('qs-next').textContent=session.answers.length===session.ids.length?'Ver resultado':'Próxima questão';toggle('qs-next',true);status('Resposta salva neste navegador.');
+ else toggle('qs-pending',true);
+ $('qs-next').textContent=session.answers.length===session.ids.length?'Ver resultado':'Próxima questão';
+ $('qs-after').focus({preventScroll:true});
+ $('qs-after').scrollIntoView({behavior:'smooth',block:'start'});
+ status('Resposta registrada. '+(session.mode==='simulado'?'Correção disponível ao final.':'Confira o comentário junto ao enunciado.'));
 }
 function finish(){
  if(!session)return;if(!session.finishedAt){session.finishedAt=new Date().toISOString();storeWrite();}
@@ -195,7 +204,13 @@ async function init(){
  document.querySelectorAll('#qs-presets button').forEach(b=>b.addEventListener('click',()=>{count.value=b.dataset.count;refreshPresets();}));
  document.querySelectorAll('input[name="qs-scope"]').forEach(e=>e.addEventListener('change',availability));
  $('qs-start').addEventListener('click',start);$('qs-answer-form').addEventListener('submit',answer);
- $('qs-next').addEventListener('click',render);$('qs-finish').addEventListener('click',finish);
+ $('qs-next').addEventListener('click',render);
+ $('qs-finish').addEventListener('click',()=>{
+  if(!session||session.finishedAt)return;
+  const pending=session.ids.length-session.answers.length;
+  if(pending>0&&!window.confirm('Encerrar a bateria com '+pending+' questão'+(pending===1?'':'ões')+' ainda não respondida'+(pending===1?'':'s')+'?'))return;
+  finish();
+ });
  $('qs-restart').addEventListener('click',()=>{session=null;toggle('qs-summary',false);toggle('qs-config',true);status('Escolha a próxima bateria.');});
  $('qs-export').addEventListener('click',exportJson);
  try{

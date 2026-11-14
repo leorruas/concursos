@@ -24,6 +24,12 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.selectOption('#qs-unidade','constitucional-regimentos');
    await page.locator('#qs-count').fill('2');
    await page.locator('#qs-start').click();
+   assert.equal(await page.locator('#qs-finish').count(),1,'botão de encerramento na barra superior');
+   const stop=await page.locator('#qs-finish').boundingBox();
+   const submit=await page.locator('#qs-submit').boundingBox();
+   assert.ok(stop&&submit&&submit.y-stop.y>120,'encerrar separado da ação principal de responder');
+   assert.equal(await page.locator('#qs-finish').isVisible(),true);
+
    for(let i=0;i<2;i++){
     const statement=(await page.locator('#qs-statement').innerText()).trim();
     const q=questions.find(x=>x.statement===statement);
@@ -33,6 +39,12 @@ fs.mkdirSync(evidence,{recursive:true});
     if(i===0)await page.locator('#qs-insecure').check();
     await page.locator('#qs-submit').click();
     await page.locator('#qs-feedback').waitFor({state:'visible'});
+    assert.equal(await page.locator('#qs-answer-form').isVisible(),false,'alternativas e ações deixam espaço para explicação');
+    assert.equal(await page.locator('#qs-after').isVisible(),true,'correção no contexto da questão');
+    const statement=await page.locator('#qs-statement').boundingBox();
+    const correction=await page.locator('#qs-feedback').boundingBox();
+    assert.ok(correction.y>=statement.y+statement.height,'gabarito imediatamente após enunciado');
+
     await page.locator('#qs-next').click();
    }
    await page.locator('#qs-summary').waitFor({state:'visible',timeout:10000});

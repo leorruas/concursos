@@ -45319,6 +45319,62 @@
       "correctAnswer": "C",
       "explanation": "O art. 12, § 2º, fixa prazo de dois dias úteis. Dias sem expediente não esgotam esse prazo por mera passagem do tempo.",
       "reviewEvidence": "Revisão editorial por IA. Código de Ética, art. 12. O art. 12, § 2º, fixa prazo de dois dias úteis. Dias sem expediente não esgotam esse prazo por mera passagem do tempo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l087-001-rcl-janela-atravessa-exercicios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal, receita corrente líquida",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "rcl-janela-atravessa-exercicios",
+      "mechanism": "localizar-meses-na-janela-movel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Receita Corrente Líquida: denominador fiscal"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Receita Corrente Líquida: denominador fiscal"
+      },
+      "statement": "Para apurar a receita corrente líquida de março de um exercício, somam-se as receitas pertinentes de abril do ano anterior a março do ano corrente, observadas as deduções aplicáveis e excluídas as duplicidades.",
+      "correctAnswer": "C",
+      "explanation": "O art. 2º, § 3º, da LRF inclui o mês de referência e os onze anteriores. A janela móvel pode atravessar dois exercícios.",
+      "reviewEvidence": "Revisão por IA. Conferência da janela e do denominador da LRF: O art. 2º, § 3º, da LRF inclui o mês de referência e os onze anteriores. A janela móvel pode atravessar dois exercícios. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l087-002-rcl-queda-denominador-pessoal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal, receita corrente líquida",
+      "articleId": "art-91ab320cdfb64b8a",
+      "conceptId": "rcl-queda-denominador-pessoal",
+      "mechanism": "inferir-razao-com-numerador-constante",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-91ab320cdfb64b8a#Receita Corrente Líquida: denominador fiscal"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+        "section": "Receita Corrente Líquida: denominador fiscal"
+      },
+      "statement": "Se a despesa total com pessoal permanece constante e a receita corrente líquida cai de R$ 100 milhões para R$ 80 milhões, a razão entre despesa com pessoal positiva e RCL necessariamente diminui.",
+      "correctAnswer": "E",
+      "explanation": "Com numerador positivo constante, reduzir o denominador aumenta a razão. Isso pode aproximar a despesa dos limites fiscais mesmo sem elevar o valor nominal gasto.",
+      "reviewEvidence": "Revisão por IA. Conferência da janela e do denominador da LRF: Com numerador positivo constante, reduzir o denominador aumenta a razão. Isso pode aproximar a despesa dos limites fiscais mesmo sem elevar o valor nominal gasto. Dificuldade estimada."
     }
   ]
 }

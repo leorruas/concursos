@@ -126,15 +126,7 @@
 </head>
 <body>
   <main class="results-layout">
-    <header class="results-header">
-      <a class="results-wordmark" href="https://leorruas.github.io/concursos/">concursos <span>• leorruas</span></a>
-      <nav class="results-nav" aria-label="Ferramentas de estudo">
-        <a href="https://leorruas.github.io/concursos/">Biblioteca</a>
-        <a href="https://concurso-estudo.leoruas.workers.dev/flashcards.html">flashcards</a>
-  <a href="https://concurso-estudo.leoruas.workers.dev/questoes.html">questões</a>
-        <button type="button" id="results-theme" aria-label="Alternar tema">modo claro</button>
-      </nav>
-    </header>
+    <nav class="study-topbar" data-active="results" aria-label="Ferramentas de estudo"><a class="study-topbar__brand" data-study-nav="library" href="index.html">concursos <span>• leorruas</span></a><div class="study-topbar__links"><a data-study-nav="library" href="index.html">biblioteca</a><a data-study-nav="glossary" href="index.html#/glossario?concurso=camara-2026">glossário</a><a data-study-nav="flashcards" href="flashcards.html">flashcards</a><a data-study-nav="questions" href="questoes.html">questões</a><a data-study-nav="results" href="resultados.html">meus resultados</a><button type="button" id="results-theme">modo claro</button></div></nav>
     <p class="results-kicker">acompanhamento privado de estudo</p>
     <h1 class="results-title">meus resultados</h1>
     <p class="results-explain">Confira seu desempenho recente e os artigos que merecem revisão. Os dados das baterias são armazenados no banco privado do site.</p>
@@ -195,6 +187,7 @@
       <p class="results-caption results-privacy">O histórico do chat permanece no cofre GitHub privado, e o do site, no banco D1 privado. O painel combina as duas fontes apenas depois do login GitHub. Nenhuma resposta pessoal entra na biblioteca pública.</p>
     </div>
   </main>
+  <script src="web/16-study-nav.js" defer></script>
   <script src="web/13-results-ui.js" defer></script>
 </body>
 </html>

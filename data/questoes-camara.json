@@ -47363,6 +47363,90 @@
       "correctAnswer": "C",
       "explanation": "A segunda frase nomeia a sede como o local próximo ao terminal. No original, a oração relativa podia ser associada à sede ou à associação.",
       "reviewEvidence": "Revisão por IA com conferência das leituras possíveis. A segunda frase nomeia a sede como o local próximo ao terminal. No original, a oração relativa podia ser associada à sede ou à associação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l115-001-object-to-objection",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-55ba2a49e278525f",
+      "conceptId": "object-to-objection",
+      "mechanism": "preserve-target-in-nominalization",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1.2. Nominalização (*Nominalization*) e Compactação Sintática"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md",
+        "section": "1.2. Nominalização (*Nominalization*) e Compactação Sintática"
+      },
+      "statement": "“The tenants objected to the fee increase” can be paraphrased as “The tenants raised an objection to the fee increase” without changing who objected or what they objected to.",
+      "correctAnswer": "C",
+      "explanation": "A nominalização preserva os moradores como autores da objeção e o aumento da taxa como seu alvo.",
+      "reviewEvidence": "Revisão por IA com conferência da equivalência na seção indicada. A nominalização preserva os moradores como autores da objeção e o aumento da taxa como seu alvo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l115-002-resulted-from-swapped",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-55ba2a49e278525f",
+      "conceptId": "resulted-from-swapped",
+      "mechanism": "check-direction-of-causal-paraphrase",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1.3. Espelhamento de Relações Conversas de Causa e Consequência"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md",
+        "section": "1.3. Espelhamento de Relações Conversas de Causa e Consequência"
+      },
+      "statement": "The sentence “The postponement resulted from a power failure” preserves its causal direction if rewritten as “The postponement resulted in a power failure.”",
+      "correctAnswer": "E",
+      "explanation": "Resulted from indica que a falha causou o adiamento. Resulted in atribuiria ao adiamento a produção da falha.",
+      "reviewEvidence": "Revisão por IA com conferência da equivalência na seção indicada. Resulted from indica que a falha causou o adiamento. Resulted in atribuiria ao adiamento a produção da falha. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l115-003-no-later-than-inclusive",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-55ba2a49e278525f",
+      "conceptId": "no-later-than-inclusive",
+      "mechanism": "test-deadline-boundary-in-rewrite",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#4.1. Três critérios distintos de equivalência em reescrita"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md",
+        "section": "4.1. Três critérios distintos de equivalência em reescrita"
+      },
+      "statement": "Replacing “The receipt must be submitted no later than Friday” with “The receipt must be submitted before Friday” preserves all eligible submission days.",
+      "correctAnswer": "E",
+      "explanation": "No later than Friday admite a própria sexta-feira. Before Friday exige a entrega em dia anterior.",
+      "reviewEvidence": "Revisão por IA com conferência da equivalência na seção indicada. No later than Friday admite a própria sexta-feira. Before Friday exige a entrega em dia anterior. Dificuldade estimada."
     }
   ]
 }

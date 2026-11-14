@@ -45263,6 +45263,62 @@
       "correctAnswer": "C",
       "explanation": "A filiação à agremiação autora constitui vedação própria no caso. A ausência das demais vedações não a afasta.",
       "reviewEvidence": "Revisão por IA. Código de Ética, art. 13, I, c, e 14, § 4º, I. A filiação à agremiação autora constitui vedação própria no caso. A ausência das demais vedações não a afasta. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l086-001-censura-reincidencia-competencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-reincidencia-competencia",
+      "mechanism": "distinguir-solicitante-e-autoridade-punitiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Após reincidência em conduta sujeita a censura verbal, o presidente da comissão solicita censura escrita. Em razão de ter feito a solicitação, ele próprio passa a ser competente para aplicar a censura escrita.",
+      "correctAnswer": "E",
+      "explanation": "Nos casos de reincidência, a presidência da comissão pode solicitar a medida, mas a aplicação cabe à Mesa, conforme o art. 12.",
+      "reviewEvidence": "Revisão editorial por IA. Código de Ética, art. 12. Nos casos de reincidência, a presidência da comissão pode solicitar a medida, mas a aplicação cabe à Mesa, conforme o art. 12. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l086-002-censura-escrita-dias-uteis-recurso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "censura-escrita-dias-uteis-recurso",
+      "mechanism": "aplicar-unidade-do-prazo-recursal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)"
+      },
+      "statement": "Se a decisão de censura escrita for comunicada na sexta-feira e os dois dias seguintes não forem úteis, a passagem do sábado e do domingo não consome os dois dias de prazo para recorrer ao Plenário.",
+      "correctAnswer": "C",
+      "explanation": "O art. 12, § 2º, fixa prazo de dois dias úteis. Dias sem expediente não esgotam esse prazo por mera passagem do tempo.",
+      "reviewEvidence": "Revisão editorial por IA. Código de Ética, art. 12. O art. 12, § 2º, fixa prazo de dois dias úteis. Dias sem expediente não esgotam esse prazo por mera passagem do tempo. Dificuldade estimada."
     }
   ]
 }

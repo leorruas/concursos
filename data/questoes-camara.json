@@ -44731,6 +44731,90 @@
       "correctAnswer": "C",
       "explanation": "O local da reunião é acessório para a pergunta sobre o resultado. Sua omissão não altera o objeto nem o modo da aprovação.",
       "reviewEvidence": "Revisão por IA. Conferência do conteúdo central e da operação de síntese: O local da reunião é acessório para a pergunta sobre o resultado. Sua omissão não altera o objeto nem o modo da aprovação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l079-001-prestadora-terceiro-nao-usuario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / responsabilidade civil do Estado",
+      "articleId": "art-9f98650edd9e4278",
+      "conceptId": "prestadora-terceiro-nao-usuario",
+      "mechanism": "aplicar-regime-pelo-nexo-com-servico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-9f98650edd9e4278#Prestadoras privadas de serviço público"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado.md",
+        "section": "Prestadoras privadas de serviço público"
+      },
+      "statement": "Um veículo de concessionária, em operação do serviço público, atinge um ciclista que nunca utilizou o serviço. O fato de o ciclista não ser usuário obriga-o, por si só, a provar culpa da concessionária para obter indenização.",
+      "correctAnswer": "E",
+      "explanation": "O Tema 130 do STF abrange terceiros usuários e não usuários. A falta de vínculo de usuário não condiciona a reparação à prova de culpa, embora dano e nexo precisem ser demonstrados.",
+      "reviewEvidence": "Revisão por IA. CF, art. 37, § 6º, e STF, Tema 130, conforme aplicável. O Tema 130 do STF abrange terceiros usuários e não usuários. A falta de vínculo de usuário não condiciona a reparação à prova de culpa, embora dano e nexo precisem ser demonstrados. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l079-002-responsabilidade-regresso-provas-diferentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / responsabilidade civil do Estado",
+      "articleId": "art-9f98650edd9e4278",
+      "conceptId": "responsabilidade-regresso-provas-diferentes",
+      "mechanism": "separar-requisitos-de-duas-relacoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-9f98650edd9e4278#Regra constitucional: risco administrativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado.md",
+        "section": "Regra constitucional: risco administrativo"
+      },
+      "statement": "Depois de pagar indenização por dano causado por agente público nessa qualidade, a entidade deve demonstrar dolo ou culpa do agente para obter ressarcimento em ação regressiva.",
+      "correctAnswer": "C",
+      "explanation": "O art. 37, § 6º, da Constituição estabelece responsabilidade objetiva perante a vítima e assegura regresso contra o agente nos casos de dolo ou culpa.",
+      "reviewEvidence": "Revisão por IA. CF, art. 37, § 6º, e STF, Tema 130, conforme aplicável. O art. 37, § 6º, da Constituição estabelece responsabilidade objetiva perante a vítima e assegura regresso contra o agente nos casos de dolo ou culpa. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l079-003-responsabilidade-culpa-concorrente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / responsabilidade civil do Estado",
+      "articleId": "art-9f98650edd9e4278",
+      "conceptId": "responsabilidade-culpa-concorrente",
+      "mechanism": "distinguir-concorrencia-e-ruptura-do-nexo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-9f98650edd9e4278#Excludentes e atenuantes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado.md",
+        "section": "Excludentes e atenuantes"
+      },
+      "statement": "Se tanto a conduta estatal quanto a conduta da vítima contribuíram para o dano, a participação da vítima exclui integralmente a responsabilidade estatal do mesmo modo que a culpa exclusiva da vítima.",
+      "correctAnswer": "E",
+      "explanation": "A participação concorrente da vítima pode reduzir a indenização. A exclusão por culpa exclusiva pressupõe que a atuação estatal não seja causa do dano.",
+      "reviewEvidence": "Revisão por IA. CF, art. 37, § 6º, e STF, Tema 130, conforme aplicável. A participação concorrente da vítima pode reduzir a indenização. A exclusão por culpa exclusiva pressupõe que a atuação estatal não seja causa do dano. Dificuldade estimada."
     }
   ]
 }

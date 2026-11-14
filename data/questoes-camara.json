@@ -43275,6 +43275,90 @@
       "correctAnswer": "C",
       "explanation": "Almost all indica quantidade próxima da totalidade. All afirma recuperação de todos os arquivos, sem a restrição original.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério conferido na análise do trecho: Almost all indica quantidade próxima da totalidade. All afirma recuperação de todos os arquivos, sem a restrição original. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l062-001-conector-proporcional-dupla-variacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual e emprego de conectores",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "conector-proporcional-dupla-variacao",
+      "mechanism": "distinguir-covariacao-e-posterioridade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      },
+      "statement": "Em “À medida que o acervo foi digitalizado, aumentaram as consultas remotas”, o conector relaciona a progressão da digitalização ao aumento das consultas. Substituí-lo por “depois que” passaria a indicar que o aumento ocorreu após a digitalização.",
+      "correctAnswer": "C",
+      "explanation": "À medida que vincula duas progressões. Depois que estabelece uma ordem temporal, sem conservar a ideia de evolução paralela.",
+      "reviewEvidence": "Revisão editorial por IA. Critério: À medida que vincula duas progressões. Depois que estabelece uma ordem temporal, sem conservar a ideia de evolução paralela. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l062-002-conector-por-exemplo-recorte",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual e emprego de conectores",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "conector-por-exemplo-recorte",
+      "mechanism": "distinguir-exemplo-de-lista-exaustiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      },
+      "statement": "Em “O formulário deve ser legível em diferentes dispositivos, por exemplo, em celulares e tablets”, a expressão “por exemplo” limita a exigência de legibilidade aos dois tipos de dispositivo citados.",
+      "correctAnswer": "E",
+      "explanation": "Por exemplo introduz casos ilustrativos de uma categoria mais ampla. O segmento não encerra a lista de dispositivos.",
+      "reviewEvidence": "Revisão editorial por IA. Critério: Por exemplo introduz casos ilustrativos de uma categoria mais ampla. O segmento não encerra a lista de dispositivos. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l062-003-conector-conformidade-versus-justificativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / coesão textual e emprego de conectores",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "conector-conformidade-versus-justificativa",
+      "mechanism": "identificar-referencia-normativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3. Relações Lógico-Semânticas e Catálogo de Conectores"
+      },
+      "statement": "Em “Conforme prevê o regulamento, a ata será publicada na sexta-feira”, trocar “conforme” por “embora” preserva a relação de conformidade entre a publicação e a previsão do regulamento.",
+      "correctAnswer": "E",
+      "explanation": "Conforme apresenta a previsão como referência seguida. Embora introduz concessão e sugeriria uma oposição entre a previsão e o fato anunciado.",
+      "reviewEvidence": "Revisão editorial por IA. Critério: Conforme apresenta a previsão como referência seguida. Embora introduz concessão e sugeriria uma oposição entre a previsão e o fato anunciado. Dificuldade estimada."
     }
   ]
 }

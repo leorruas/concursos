@@ -7,6 +7,16 @@
 
 Protocolo cotidiano único. Para aulas, revisões e baterias, esta entrada substitui a releitura integral de governança e histórico. Manutenção, notas novas e simulados integrais seguem `AGENTS.md` e os contratos.
 
+## Diagnóstico único de respostas: chat e site (14/11/2026)
+
+As respostas do **chat** continuam sendo registradas exclusivamente no cofre privado `leorruas/concurso-dados:data/sessoes/<id>.json`, depois consolidadas em `data/questoes-ledger.json`. As respostas do **site** ficam no banco privado Cloudflare D1 `quiz_attempts`, isoladas por usuário e concurso. O endpoint autenticado `GET /v1/study/unified?concurso=<concursoId>` consulta as duas fontes **ao vivo**, deduplica apenas tentativas identificadas como o mesmo registro de origem e devolve estatísticas, artigos prioritários, conceitos e dificuldade por matéria e grau.
+
+**Para estudar ou continuar aqui no chat:** leia o contexto do cofre como de costume e, quando houver acesso autorizado ao conector Cloudflare, consulte também as tentativas do D1 do concurso selecionado antes de propor questões novas, retestes e diagnósticos. Compare `questionId`, `conceptId`, `subjectId`, data, resultado e confiança; evite repetir o mesmo enunciado sem intenção didática ou sem vencimento de revisão. Não converta acertos recentes em prova de retenção. Quando não houver acesso a ambas as fontes, informe explicitamente que o diagnóstico apresentado é parcial, sem alegar sincronização completa.
+
+**Ao concluir uma bateria no chat:** siga a gravação e a validação já obrigatórias no cofre privado. Não copie automaticamente tentativas do D1 para o ledger como se fossem novas respostas. O painel unificado lê ambas as fontes sem reescrevê-las. Uma nova sessão do chat aparece no painel após a consolidação do cofre; uma resposta do site aparece após confirmação de gravação no D1. A integração não altera gabaritos nem promove itens do banco público.
+
+**Dificuldade:** distinguir dificuldade **estimada editorialmente** da questão e dificuldade **observada no desempenho** (acertos, erros e insegurança com denominador). Amostras pequenas não justificam declarar domínio ou incapacidade. No site, a mesma leitura aparece em `Meus resultados`, por concurso, com transparência sobre a origem e sobre os itens sem classificação.
+
 ## Lembretes entre matérias
 
 Ao receber `#lembrete`, seguir o protocolo geral do `AGENTS.md`: preservar o texto original sem destaque na nota de lembretes da matéria e registrar precisões do assistente destacadas com `==...==`. Se relevante, refinar o artigo e o glossário. Não confundir lembrete com resposta de questão ou prova de aprendizagem.

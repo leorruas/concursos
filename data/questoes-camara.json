@@ -46215,6 +46215,118 @@
       "correctAnswer": "C",
       "explanation": "A criação da ação e a definição de seu produto dizem respeito à estrutura e aos atributos da programação. A dimensão quantitativa detalha as magnitudes físicas e financeiras.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A criação da ação e a definição de seu produto dizem respeito à estrutura e aos atributos da programação. A dimensão quantitativa detalha as magnitudes físicas e financeiras. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l100-001-fung-selecao-deliberacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / democracia e participação política",
+      "articleId": "art-4a6d2f90b18e753c",
+      "conceptId": "fung-selecao-deliberacao",
+      "mechanism": "separar-selecao-e-modo-de-interacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#Archon Fung: cubo da democracia, três eixos independentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa.md",
+        "section": "Archon Fung: cubo da democracia, três eixos independentes"
+      },
+      "statement": "Um conselho sorteia participantes e depois apenas recolhe seus votos individuais, sem troca de razões. No modelo de Fung, o sorteio basta para classificar o modo de interação como deliberativo.",
+      "correctAnswer": "E",
+      "explanation": "O sorteio responde a quem participa. A forma de comunicação e decisão é outro eixo, e o registro isolado de votos não demonstra deliberação.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O sorteio responde a quem participa. A forma de comunicação e decisão é outro eixo, e o registro isolado de votos não demonstra deliberação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l100-002-deliberacao-dissenso-final",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / democracia e participação política",
+      "articleId": "art-4a6d2f90b18e753c",
+      "conceptId": "deliberacao-dissenso-final",
+      "mechanism": "reconhecer-troca-de-razoes-sem-unanimidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#Deliberação: o que distingue discussão de mera soma de votos?"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa.md",
+        "section": "Deliberação: o que distingue discussão de mera soma de votos?"
+      },
+      "statement": "Em um fórum público, os participantes apresentam razões, respondem a objeções e reformulam propostas, mas mantêm desacordo sobre a opção final. O desacordo, por si só, é compatível com um processo deliberativo.",
+      "correctAnswer": "C",
+      "explanation": "A deliberação envolve exame recíproco de razões. A permanência de divergência ao final não apaga o processo de discussão e revisão.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A deliberação envolve exame recíproco de razões. A permanência de divergência ao final não apaga o processo de discussão e revisão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l100-003-participacao-taxa-por-grupo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / democracia e participação política",
+      "articleId": "art-4a6d2f90b18e753c",
+      "conceptId": "participacao-taxa-por-grupo",
+      "mechanism": "distinguir-volume-e-inclusao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#Como avaliar a qualidade de um processo participativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa.md",
+        "section": "Como avaliar a qualidade de um processo participativo"
+      },
+      "statement": "Se a participação total em uma consulta aumenta, mas cai a presença de pessoas da região mais afetada, o aumento agregado é suficiente para concluir que o processo se tornou mais inclusivo para essa região.",
+      "correctAnswer": "E",
+      "explanation": "O total mede volume de participação. Avaliar inclusão exige observar quem participou e quais grupos continuaram ou passaram a enfrentar barreiras.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O total mede volume de participação. Avaliar inclusão exige observar quem participou e quais grupos continuaram ou passaram a enfrentar barreiras. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l100-004-fung-recomendacao-sem-vinculo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / democracia e participação política",
+      "articleId": "art-4a6d2f90b18e753c",
+      "conceptId": "fung-recomendacao-sem-vinculo",
+      "mechanism": "classificar-influencia-pela-regra-decisoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#Archon Fung: cubo da democracia, três eixos independentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa.md",
+        "section": "Archon Fung: cubo da democracia, três eixos independentes"
+      },
+      "statement": "Dois fóruns selecionam participantes da mesma forma e adotam as mesmas regras de diálogo. Um emite recomendações e o outro pode decidir diretamente sobre parte do orçamento. No modelo de Fung, os fóruns diferem na dimensão de autoridade e influência.",
+      "correctAnswer": "C",
+      "explanation": "O alcance das decisões pertence ao eixo de autoridade e influência, independentemente do método de seleção e do modo de interação.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O alcance das decisões pertence ao eixo de autoridade e influência, independentemente do método de seleção e do modo de interação. Dificuldade estimada."
     }
   ]
 }

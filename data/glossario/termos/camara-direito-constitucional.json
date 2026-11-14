@@ -731,6 +731,167 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-maioria-qualificada",
+      "term": "Maioria qualificada",
+      "aliases": [],
+      "definition": "Quórum de aprovação mais exigente do que a maioria simples, expresso em fração prevista na norma, como três quintos ou dois terços dos membros.",
+      "contrast": "A fração e sua base dependem da decisão: PEC usa três quintos de cada Casa em dois turnos; outro procedimento pode exigir dois terços.",
+      "cebraspeTrap": "Achar que maioria qualificada é sempre dois terços ou que se calcula apenas sobre os presentes.",
+      "example": "PEC: 308 votos favoráveis por turno na Câmara e 49 por turno no Senado.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 60, § 2º",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-quorum-tres-quintos",
+      "term": "Três quintos (3/5) dos membros",
+      "aliases": [],
+      "definition": "Quórum qualificado que corresponde a 60% do total de integrantes, arredondado para o inteiro seguinte quando necessário. Câmara: 308 de 513; Senado: 49 de 81.",
+      "contrast": "Para PEC, o art. 60, § 2º, exige esse quórum em dois turnos em cada Casa.",
+      "cebraspeTrap": "Confundir três quintos com maioria absoluta ou com dois terços.",
+      "example": "Uma PEC com 48 votos no Senado não atinge os 49 necessários.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 60, § 2º",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-quorum-dois-tercos",
+      "term": "Dois terços (2/3) dos membros",
+      "aliases": [],
+      "definition": "Quórum qualificado que, quando calculado sobre todos os integrantes da Casa, equivale a 342 de 513 deputados ou 54 de 81 senadores.",
+      "contrast": "É diferente dos três quintos exigidos para emendas constitucionais; a fração aplicável depende do dispositivo.",
+      "cebraspeTrap": "Aplicar dois terços à aprovação de qualquer PEC ou calcular dois terços somente dos presentes.",
+      "example": "O art. 51, I, exige autorização de dois terços dos membros da Câmara na hipótese que descreve.",
+      "articleIds": [
+        "art-3d89c1b75a4e60f2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 51, I",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-incapacidade-civil-absoluta",
+      "term": "Incapacidade civil absoluta",
+      "aliases": [
+        "Absolutamente incapaz"
+      ],
+      "definition": "Situação em que a pessoa não pode exercer pessoalmente atos da vida civil e deve ser representada por responsável legal. Pelo art. 3º do Código Civil, são absolutamente incapazes os menores de 16 anos.",
+      "contrast": "A incapacidade relativa, em regra, exige assistência, não representação. Ter deficiência, por si só, não significa incapacidade civil absoluta.",
+      "cebraspeTrap": "Afirmar que toda pessoa com deficiência intelectual é absolutamente incapaz, ou que adolescentes de 16 e 17 anos também são absolutamente incapazes.",
+      "example": "Uma criança de 12 anos recebe um imóvel por herança. Pode ser proprietária, mas atos jurídicos como sua venda exigem representação e podem depender de autorização judicial.",
+      "articleIds": [
+        "art-6a55fcee78be4a39"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Código Civil, art. 3º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"
+        },
+        {
+          "label": "Constituição Federal, art. 15, II",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-incapacidade-civil-relativa",
+      "term": "Incapacidade civil relativa",
+      "aliases": [
+        "Relativamente incapaz"
+      ],
+      "definition": "Situação em que a pessoa pode praticar determinados atos civis, mas precisa de assistência para os atos que a lei exige. Inclui, em regra, pessoas maiores de 16 e menores de 18 anos e outras hipóteses do art. 4º do Código Civil.",
+      "contrast": "Na assistência, a pessoa participa do ato com quem a assiste; na representação, o responsável pratica o ato em nome do absolutamente incapaz. A emancipação pode antecipar a capacidade civil plena antes dos 18 anos.",
+      "cebraspeTrap": "Considerar todo menor de 18 anos absolutamente incapaz, ou esquecer as exceções legais, como a emancipação.",
+      "example": "Uma pessoa de 17 anos não emancipada assina contrato com a assistência de responsável legal, quando exigida.",
+      "articleIds": [
+        "art-6a55fcee78be4a39"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Código Civil, arts. 4º e 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-representacao-assistencia-civil",
+      "term": "Representação e assistência civil",
+      "aliases": [
+        "Representação legal",
+        "Assistência legal"
+      ],
+      "definition": "Representação: o responsável legal age juridicamente em nome do incapaz. Assistência: a pessoa relativamente incapaz participa do ato com o apoio jurídico de quem deve assisti-la.",
+      "contrast": "Menor de 16 anos precisa, em regra, de representação. De 16 a 17 anos, em regra, de assistência, ressalvada a emancipação e regras específicas.",
+      "cebraspeTrap": "Trocar representação por assistência ou presumir que a pessoa relativamente incapaz sempre deve ser substituída no ato.",
+      "example": "Um responsável representa a criança de 12 anos; um adolescente de 17 anos não emancipado atua com assistência quando exigida.",
+      "articleIds": [
+        "art-6a55fcee78be4a39"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Código Civil, arts. 3º a 5º e 1.634, VII",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

@@ -15,6 +15,17 @@ aliases:
 
 ## Núcleo do conceito
 
+Imagine que a União financie transporte escolar para estudantes da zona rural. O dinheiro é transferido, a prefeitura compra ou contrata veículos e define rotas. Mesmo assim, alguns alunos continuam sem chegar à escola: a estrada alaga, o cadastro não inclui todas as famílias ou a rota não atende às comunidades mais distantes. A política foi anunciada e recebeu recursos, mas sua execução ainda precisa ser examinada.
+
+Esse exemplo ajuda a separar quatro perguntas que uma avaliação deve fazer:
+
+- **Formulação:** qual problema o governo decidiu enfrentar e que solução escolheu?
+- **Implementação:** quem transformou a decisão em atividades e serviços, com quais recursos e dificuldades?
+- **Resultado:** o transporte passou a funcionar para os estudantes que deveriam ser atendidos?
+- **Impacto:** houve mudança na evasão escolar que possa ser atribuída ao programa, considerando outras causas possíveis?
+
+O avaliador precisa acompanhar o caminho entre a regra escrita e o atendimento real. Uma rota prevista em contrato é um plano; uma rota efetivamente realizada é uma entrega; a presença regular do estudante é um resultado a investigar. Esses fatos não comprovam, isoladamente, que o programa causou uma redução da evasão.
+
 **Implementação** é o processo pelo qual o desenho de uma política pública se transforma em serviços, ações e entregas concretas. Envolve regras, financiamento, organizações, profissionais, decisões cotidianas, usuários e condições locais. O problema analítico é explicar **por que o mesmo programa pode ser executado de modos diferentes em cada território**.
 
 Implementação não é mera aplicação automática de um plano. O desenho pode ser incompleto ou impreciso; recursos e capacidades variam; os agentes interpretam regras e enfrentam demandas e situações imprevistas. Uma diferença entre plano e execução, por si só, não demonstra fracasso ou irregularidade. O exame deve identificar a causa, a base normativa e os efeitos da alteração.

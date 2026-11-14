@@ -387,6 +387,70 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-efeito-suspensivo-recurso",
+      "term": "Efeito suspensivo do recurso administrativo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-recurso-revisao-sancionadora",
+      "term": "Recurso administrativo e revisão de sanção",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-maioria-qualificada",
+      "term": "Maioria qualificada",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-quorum-tres-quintos",
+      "term": "Três quintos (3/5) dos membros",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-quorum-dois-tercos",
+      "term": "Dois terços (2/3) dos membros",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-incapacidade-civil-absoluta",
+      "term": "Incapacidade civil absoluta",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-incapacidade-civil-relativa",
+      "term": "Incapacidade civil relativa",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-representacao-assistencia-civil",
+      "term": "Representação e assistência civil",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

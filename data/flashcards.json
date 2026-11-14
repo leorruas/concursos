@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "exams": [
     {
       "id": "cgu-2026",
@@ -9970,6 +9970,460 @@
       "contrast": {
         "prompt": "A reforma de 2021 alterou a prescrição da improbidade. Seus novos marcos se aplicam automaticamente a todos os fatos e processos anteriores?",
         "answer": "Não. Segundo o Tema 1199 do STF, o novo regime prescricional não retroage; a aplicação exige verificar os marcos temporais e as regras pertinentes."
+      }
+    },
+    {
+      "topic": "Recursos administrativos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Processo administrativo"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "id": "camara-recurso-efeito-suspensivo-lei9784",
+      "term": "Efeito suspensivo do recurso administrativo",
+      "definition": "É a suspensão temporária dos efeitos de uma decisão enquanto o recurso é examinado. No processo regido pela Lei nº 9.784/1999, o recurso normalmente não suspende a decisão. A autoridade recorrida ou a imediatamente superior pode conceder a suspensão quando houver justo receio de prejuízo de difícil ou incerta reparação.",
+      "example": "Uma pessoa contesta multa administrativa. Apenas apresentar o recurso não suspende os efeitos da multa; a autoridade pode conceder efeito suspensivo se verificar o risco previsto em lei.",
+      "confusion": "Efeito devolutivo é a possibilidade de reexaminar a matéria. Efeito suspensivo impede temporariamente os efeitos da decisão; um não implica automaticamente o outro.",
+      "note": {
+        "articleId": "art-bc65879a85f5b5d8",
+        "section": "3.2 Efeitos do recurso e a garantia da ampla defesa"
+      },
+      "source": {
+        "title": "Lei nº 9.784/1999",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Art. 61, caput e parágrafo único"
+      },
+      "conceptIds": [
+        "glo-camara-efeito-suspensivo-recurso"
+      ],
+      "contrast": {
+        "prompt": "Uma pessoa apresentou recurso contra multa. A cobrança fica suspensa automaticamente?",
+        "answer": "Não. O art. 61 da Lei nº 9.784/1999 prevê, em regra, ausência de efeito suspensivo. A autoridade recorrida ou imediatamente superior pode concedê-lo diante de justo receio de prejuízo de difícil ou incerta reparação."
+      }
+    },
+    {
+      "topic": "Recursos administrativos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Processo administrativo"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "id": "camara-recurso-revisao-agravamento-lei9784",
+      "term": "Agravamento no recurso e revisão de sanção",
+      "definition": "No julgamento de recurso administrativo, a decisão pode ser agravada, desde que a pessoa recorrente seja cientificada antes para apresentar alegações. Na revisão de processo sancionador, cabível a qualquer tempo diante de fatos novos ou circunstâncias relevantes que indiquem inadequação da sanção, a lei proíbe agravar a penalidade.",
+      "example": "Uma multa pode aumentar no recurso, com aviso prévio e chance de manifestação. Se o processo sancionador for revisto por fatos novos, a sanção não pode aumentar.",
+      "confusion": "A proibição de agravar sanção na revisão do art. 65 não impede todo agravamento no recurso do art. 64.",
+      "note": {
+        "articleId": "art-bc65879a85f5b5d8",
+        "section": "4. Confronto crucial: *reformatio in pejus* no recurso versus vedação na revisão"
+      },
+      "source": {
+        "title": "Lei nº 9.784/1999",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Arts. 64, caput e parágrafo único, e 65"
+      },
+      "conceptIds": [
+        "glo-camara-recurso-revisao-sancionadora"
+      ],
+      "contrast": {
+        "prompt": "Uma sanção pode piorar após recurso? E na revisão do processo sancionador por fatos novos?",
+        "answer": "No recurso, pode haver agravamento com ciência prévia para alegações (art. 64). Na revisão sancionadora, é proibido agravar a sanção (art. 65)."
+      }
+    },
+    {
+      "id": "camara-quorum-presenca-casas",
+      "term": "Quórum de presença: Câmara e Senado",
+      "definition": "É o mínimo de integrantes presentes para uma votação acontecer. A regra geral exige mais da metade de todos os membros: 257 dos 513 deputados ou 41 dos 81 senadores.",
+      "example": "Se 260 deputados estão presentes, a Câmara pode deliberar pela regra geral, mas a matéria ainda precisa obter votos suficientes para ser aprovada.",
+      "confusion": "257 presentes não significam 257 votos a favor.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 47"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Com 260 deputados presentes, uma lei complementar passa com 140 votos favoráveis?",
+        "answer": "Não. Há presença suficiente, mas LC exige 257 votos favoráveis dos deputados."
+      }
+    },
+    {
+      "id": "camara-maioria-simples-exemplo",
+      "term": "Maioria simples: como contar",
+      "definition": "Na regra geral do art. 47, após atingir o quórum mínimo de presença, vence a maioria dos votos computados para a decisão. O total de votos favoráveis necessário varia conforme os votos válidos, não é fixado em 257 ou 41.",
+      "example": "Câmara: 320 presentes, 145 sim, 130 não, 45 abstenções. Um PL ordinário pode ser aprovado por 145 a 130.",
+      "confusion": "Abstenções ajudam a compor o quórum de presença, mas não são votos contrários.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 47"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Com 320 deputados presentes, 145 sim, 130 não e 45 abstenções, um PL ordinário é rejeitado por não atingir 257 votos favoráveis?",
+        "answer": "Não. Em regra, é aprovado por maioria simples, pois há quórum de presença e mais votos sim que não."
+      }
+    },
+    {
+      "id": "camara-maioria-absoluta-duas-casas",
+      "term": "Maioria absoluta: número fixo",
+      "definition": "É o primeiro número inteiro superior à metade do total de membros, mesmo que parte deles falte: Câmara 257 de 513; Senado 41 de 81. É exigida, por exemplo, na aprovação de lei complementar.",
+      "example": "Um PLP recebe 250 votos favoráveis na Câmara e 50 no Senado. Passa no Senado pelo quórum, mas não na Câmara.",
+      "confusion": "Maioria absoluta dos membros não é maioria dos presentes.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 69"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Se só 300 deputados comparecem e 250 votam sim em um PLP, ele foi aprovado?",
+        "answer": "Não. Faltaram sete votos: a Câmara exige 257 votos favoráveis à lei complementar."
+      }
+    },
+    {
+      "id": "camara-maioria-qualificada-tres-quintos",
+      "term": "Maioria qualificada de 3/5: PEC",
+      "definition": "É uma exigência superior à maioria absoluta. Para aprovar proposta de emenda à Constituição (PEC), cada Casa precisa de três quintos de seus membros em dois turnos: 308 deputados e 49 senadores em cada turno.",
+      "example": "Uma PEC obtém 308 votos na Câmara no primeiro turno e 307 no segundo. Ela não foi aprovada na Câmara.",
+      "confusion": "3/5 é de todos os membros, não apenas dos presentes; o cálculo arredonda para cima quando não dá inteiro.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 60, § 2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Uma PEC com 308 votos na Câmara e 48 no Senado, em cada turno, está aprovada?",
+        "answer": "Não. O Senado exige 49 votos favoráveis por turno."
+      }
+    },
+    {
+      "id": "camara-maioria-qualificada-dois-tercos",
+      "term": "Maioria qualificada de 2/3",
+      "definition": "Significa pelo menos dois terços da base indicada na regra. Quando a base é o total de membros, equivale a 342 deputados ou 54 senadores. Deve-se conferir qual órgão e qual procedimento a norma menciona.",
+      "example": "Para autorização da Câmara prevista no art. 51, I, da Constituição, são necessários dois terços de seus membros: 342 votos.",
+      "confusion": "Não aplicar 2/3 a todas as PECs: PEC exige 3/5 em cada Casa, em dois turnos.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 51, I; art. 60, § 2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "O quórum de dois terços dos 81 senadores é 49?",
+        "answer": "Não. São 54. Quarenta e nove correspondem a três quintos dos senadores."
+      }
+    },
+    {
+      "id": "camara-quorum-aprovacao-diferenca",
+      "term": "Quórum de aprovação: cada projeto tem sua regra",
+      "definition": "É o número de votos favoráveis necessários para a matéria passar. Lei ordinária: regra geral de maioria simples com presença mínima. Lei complementar: maioria absoluta de membros. PEC: 3/5 dos membros em dois turnos em cada Casa.",
+      "example": "Com os mesmos 320 presentes e 145 votos sim na Câmara, um PL ordinário pode ser aprovado, mas PLP e PEC não.",
+      "confusion": "O quórum de presença não substitui o de aprovação.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Arts. 47, 60, § 2º, e 69"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Se 320 deputados estão presentes, todo projeto passa com 145 votos favoráveis e 130 contrários?",
+        "answer": "Não. Isso basta em regra para PL ordinário, mas não para PLP ou PEC."
+      }
+    },
+    {
+      "id": "camara-plp-lc-estagios",
+      "term": "PLP e LC: projeto e lei",
+      "definition": "PLP significa projeto de lei complementar: proposta ainda em tramitação. LC é a lei complementar depois da aprovação e das etapas constitucionais para virar lei. Sua aprovação exige maioria absoluta: 257 deputados e 41 senadores.",
+      "example": "Um PLP sobre matéria reservada à LC consegue 257 votos na Câmara, segue o processo legislativo aplicável e, após a conclusão constitucional, poderá tornar-se LC.",
+      "confusion": "A sigla PLP indica a fase de projeto; LC indica a espécie normativa aprovada. Votos em uma Casa não tornam o projeto automaticamente lei.",
+      "topic": "Processo legislativo e quóruns",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-3d89c1b75a4e60f2",
+        "section": "Os três números: presença, aprovação e modalidade"
+      },
+      "source": {
+        "title": "Constituição Federal de 1988",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Arts. 59, II, 65, 66 e 69"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Um PLP aprovado na Câmara por 257 votos já é automaticamente uma LC em vigor?",
+        "answer": "Não. Ainda depende das etapas legislativas necessárias, inclusive apreciação pelo Senado quando cabível e fase final."
+      }
+    },
+    {
+      "topic": "Capacidade civil e direitos políticos",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Direitos políticos"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "note": {
+        "articleId": "art-6a55fcee78be4a39",
+        "section": "Perda e suspensão dos direitos políticos"
+      },
+      "source": {
+        "title": "Código Civil e Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "locator": "Código Civil, arts. 3º a 5º; Constituição, art. 15, II"
+      },
+      "id": "camara-incapacidade-civil-absoluta-menor16",
+      "term": "Incapacidade civil absoluta: quem se enquadra?",
+      "definition": "Segundo o art. 3º do Código Civil, somente os menores de 16 anos são absolutamente incapazes de exercer pessoalmente atos da vida civil. Precisam de representação legal.",
+      "example": "Uma criança de 12 anos pode herdar imóvel, mas não assina sozinha contrato para vendê-lo.",
+      "confusion": "Ter deficiência não gera incapacidade absoluta por si só. De 16 a 17 anos, em regra, a incapacidade é relativa.",
+      "conceptIds": [
+        "glo-camara-incapacidade-civil-absoluta"
+      ],
+      "contrast": {
+        "prompt": "Uma pessoa de 17 anos e uma criança de 12 anos são ambas absolutamente incapazes?",
+        "answer": "Não. A criança de 12 anos é absolutamente incapaz; a de 17 anos é relativamente incapaz em regra, se não emancipada."
+      }
+    },
+    {
+      "topic": "Capacidade civil e direitos políticos",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Direitos políticos"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "note": {
+        "articleId": "art-6a55fcee78be4a39",
+        "section": "Perda e suspensão dos direitos políticos"
+      },
+      "source": {
+        "title": "Código Civil e Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "locator": "Código Civil, arts. 3º a 5º; Constituição, art. 15, II"
+      },
+      "id": "camara-representacao-vs-assistencia-civil",
+      "term": "Representação × assistência na incapacidade civil",
+      "definition": "Na representação, o responsável pratica o ato em nome do absolutamente incapaz. Na assistência, a pessoa relativamente incapaz participa do ato com quem a assiste.",
+      "example": "A criança de 12 anos é representada; o adolescente de 17 anos não emancipado é, em regra, assistido.",
+      "confusion": "Representação não é sinônimo de assistência.",
+      "conceptIds": [
+        "glo-camara-representacao-assistencia-civil"
+      ],
+      "contrast": {
+        "prompt": "Em um contrato, qual a diferença entre representar a criança de 12 anos e assistir o adolescente de 17?",
+        "answer": "Na representação, o responsável age em nome da criança. Na assistência, o adolescente participa do ato acompanhado de quem o assiste."
+      }
+    },
+    {
+      "topic": "Capacidade civil e direitos políticos",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Direitos políticos"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "note": {
+        "articleId": "art-6a55fcee78be4a39",
+        "section": "Perda e suspensão dos direitos políticos"
+      },
+      "source": {
+        "title": "Código Civil e Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "locator": "Código Civil, arts. 3º a 5º; Constituição, art. 15, II"
+      },
+      "id": "camara-incapacidade-relativa-emancipacao",
+      "term": "Incapacidade relativa e emancipação",
+      "definition": "Os maiores de 16 e menores de 18 anos são, em regra, relativamente incapazes (art. 4º, I). A emancipação nas hipóteses legais antecipa a capacidade civil plena (art. 5º).",
+      "example": "Uma pessoa de 17 anos emancipada pode, em regra, contratar por conta própria.",
+      "confusion": "Maioridade civil aos 18 anos não impede que a emancipação antecipe a capacidade civil. Emancipação não antecipa automaticamente idade mínima eleitoral.",
+      "conceptIds": [
+        "glo-camara-incapacidade-civil-relativa"
+      ],
+      "contrast": {
+        "prompt": "Um adolescente emancipado aos 17 anos continua relativamente incapaz só por ser menor de 18?",
+        "answer": "Não. A emancipação válida faz cessar a incapacidade civil decorrente da menoridade, mas não altera exigências etárias eleitorais."
+      }
+    },
+    {
+      "topic": "Capacidade civil e direitos políticos",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Direitos políticos"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-13",
+      "revision": 1,
+      "note": {
+        "articleId": "art-6a55fcee78be4a39",
+        "section": "Perda e suspensão dos direitos políticos"
+      },
+      "source": {
+        "title": "Código Civil e Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+        "locator": "Código Civil, arts. 3º a 5º; Constituição, art. 15, II"
+      },
+      "id": "camara-art15-incapacidade-civil-direitos-politicos",
+      "term": "Art. 15, II: incapacidade civil absoluta e direitos políticos",
+      "definition": "A Constituição enumera a incapacidade civil absoluta entre os casos de perda ou suspensão de direitos políticos (art. 15, II). À luz do Código Civil atual, a incapacidade absoluta corresponde aos menores de 16 anos.",
+      "example": "O inciso constitucional continua no texto, mas a categoria civil de incapacidade absoluta foi restringida pelo Código Civil e pela Lei Brasileira de Inclusão.",
+      "confusion": "O art. 15, II, não autoriza afirmar que toda deficiência causa suspensão de direitos políticos. E o art. 14 trata separadamente da idade para exercício do voto.",
+      "conceptIds": [
+        "glo-camara-incapacidade-civil-absoluta"
+      ],
+      "contrast": {
+        "prompt": "Uma pessoa adulta com deficiência intelectual perde automaticamente direitos políticos por incapacidade civil absoluta?",
+        "answer": "Não. A deficiência, por si só, não gera incapacidade absoluta nem perda ou suspensão automática de direitos políticos."
       }
     }
   ]

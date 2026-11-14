@@ -16,6 +16,10 @@ aliases:
 
 ## Núcleo do conceito
 
+Uma prefeitura criou aulas de reforço escolar. No relatório, a equipe encontra três informações: 90% das aulas previstas aconteceram, apenas 60% dos estudantes que poderiam participar foram atendidos e as notas dos participantes melhoraram. O gestor pergunta: **devemos ampliar o programa?** A equipe de avaliação precisa responder em etapas. Primeiro, confirmar o que foi entregue e quem ficou de fora. Depois, verificar se a melhora nas notas pode ser atribuída às aulas ou se também ocorreu em escolas sem o programa. Por fim, comparar alternativas, custos e riscos antes de recomendar uma decisão. **A decisão de ampliar ou ajustar o programa pertence ao gestor competente**, não à equipe que produziu a avaliação.
+
+Nesse exemplo, **entrega** é a realização das aulas; **cobertura** é a parcela do público elegível atendida; **resultado observado** é a melhora das notas; **impacto causal** seria a parcela da melhora que não teria ocorrido sem o reforço. Cada afirmação exige evidência diferente. A recomendação pode ser testar horários mais acessíveis antes de expandir o programa, mesmo que as notas tenham aumentado.
+
 A conclusão de uma avaliação deve **responder à pergunta examinada com força proporcional à evidência disponível**. A recomendação transforma o achado em alternativa de decisão, especificando responsáveis, custos e condições de implementação, efeitos distributivos e forma de acompanhar os resultados. **Descrever uma correlação, concluir causalidade e recomendar expansão nacional são três inferências diferentes**, com exigências distintas.
 
 A avaliação pode concluir que há uma falha de implementação sem demonstrar um impacto social; pode identificar impacto positivo em um território sem garantir reprodução em outro; pode não encontrar efeito estatisticamente significativo sem demonstrar que o efeito verdadeiro é zero. Essas fronteiras são centrais para os itens 6.1, 6.2 e 6.3 da CGU 2026, Cebraspe, Certo/Errado.

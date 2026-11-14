@@ -74,13 +74,13 @@ Ninguém é obrigado a fazer ou deixar de fazer alguma coisa senão em virtude d
 
 ## Remédios constitucionais
 
-### Habeas corpus (HC)
+### Habeas corpus — HC
 
 Protege a **liberdade de locomoção** quando alguém sofre ou se acha ameaçado de sofrer violência ou coação por ilegalidade ou abuso de poder.
 
 Palavras de prova: prisão, locomoção, ir e vir, ameaça de constrangimento à liberdade física.
 
-### Habeas data (HD)
+### Habeas data — HD
 
 Serve para:
 
@@ -90,7 +90,7 @@ Serve para:
 
 Pegadinha: habeas data não é instrumento genérico para obter **qualquer informação pública**; isso se relaciona ao direito de acesso à informação e à Lei de Acesso à Informação (LAI).
 
-### Mandado de segurança (MS)
+### Mandado de segurança — MS
 
 Protege **direito líquido e certo**, não amparado por habeas corpus ou habeas data, contra ilegalidade ou abuso de poder praticado por autoridade ou agente no exercício de atribuições públicas.
 
@@ -105,13 +105,13 @@ A Constituição legitima, entre outros casos previstos no art. 5º, LXX:
 
 Pegadinha: o requisito temporal de um ano aparece constitucionalmente para a **associação**, não deve ser transferido indiscriminadamente às demais entidades listadas.
 
-### Mandado de injunção (MI)
+### Mandado de injunção — MI
 
 É cabível quando a **falta de norma regulamentadora** torna inviável o exercício de direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, soberania e cidadania.
 
 A chave é: **omissão normativa que inviabiliza exercício constitucional**. Não é remédio geral contra qualquer omissão administrativa.
 
-### Ação popular (AP)
+### Ação popular — AP
 
 Pode ser proposta por **cidadão** para anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural, nos termos do art. 5º, LXXIII.
 

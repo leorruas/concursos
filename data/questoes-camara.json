@@ -42603,6 +42603,90 @@
       "correctAnswer": "E",
       "explanation": "Nesse emprego, mesmas reforça o sujeito e concorda com ele. O uso adverbial invariável de mesmo é distinto.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Critério de concordância nominal: Nesse emprego, mesmas reforça o sujeito e concorda com ele. O uso adverbial invariável de mesmo é distinto. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l054-001-should-invert-future-contingency",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e equivalência de sentido",
+      "articleId": "art-0cf9986f93a5a111",
+      "conceptId": "should-invert-future-contingency",
+      "mechanism": "distinguish-conditional-from-recommendation",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cf9986f93a5a111#4. Inversão em Orações Condicionais (Elisão do *IF*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md",
+        "section": "4. Inversão em Orações Condicionais (Elisão do *IF*)"
+      },
+      "statement": "“Should the courier arrive after six, leave the parcel at reception.” The opening clause recommends that the courier arrive after six.",
+      "correctAnswer": "E",
+      "explanation": "A inversão Should the courier arrive equivale a If the courier should arrive. A chegada depois das seis funciona como condição para a instrução, e não como recomendação ao entregador.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério de leitura: A inversão Should the courier arrive equivale a If the courier should arrive. A chegada depois das seis funciona como condição para a instrução, e não como recomendação ao entregador. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l054-002-were-to-invert-remote-possibility",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e equivalência de sentido",
+      "articleId": "art-0cf9986f93a5a111",
+      "conceptId": "were-to-invert-remote-possibility",
+      "mechanism": "preserve-hypothesis-with-if",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cf9986f93a5a111#4. Inversão em Orações Condicionais (Elisão do *IF*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md",
+        "section": "4. Inversão em Orações Condicionais (Elisão do *IF*)"
+      },
+      "statement": "“Were the museum to close the west entrance, visitors would enter through the courtyard” can be rewritten using “If the museum were to close the west entrance” without presenting the closure as a fact.",
+      "correctAnswer": "C",
+      "explanation": "Were + sujeito + to é a forma invertida de uma condição hipotética com if. Nenhuma das versões afirma que a entrada foi fechada.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério de leitura: Were + sujeito + to é a forma invertida de uma condição hipotética com if. Nenhuma das versões afirma que a entrada foi fechada. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l054-003-inverted-conditional-not-question",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e equivalência de sentido",
+      "articleId": "art-0cf9986f93a5a111",
+      "conceptId": "inverted-conditional-not-question",
+      "mechanism": "use-main-clause-to-disambiguate",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0cf9986f93a5a111#4. Inversão em Orações Condicionais (Elisão do *IF*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/12 - estrutura de frases negacao interrogacao e inversao sintatica em ingles.md",
+        "section": "4. Inversão em Orações Condicionais (Elisão do *IF*)"
+      },
+      "statement": "In “Had the driver seen the warning, she would have taken a different route,” the word order in the first clause introduces a condition about the past. The sentence does not ask whether the driver saw the warning.",
+      "correctAnswer": "C",
+      "explanation": "A oração inicial equivale a If the driver had seen the warning. A oração com would have fornece a consequência hipotética que distingue o período de uma pergunta.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério de leitura: A oração inicial equivale a If the driver had seen the warning. A oração com would have fornece a consequência hipotética que distingue o período de uma pergunta. Dificuldade estimada."
     }
   ]
 }

@@ -43527,6 +43527,90 @@
       "correctAnswer": "C",
       "explanation": "O pedido decorre do contexto e pode ser cancelado. O estado da janela continua afirmado.",
       "reviewEvidence": "Revisão por IA. Critério conferido: O pedido decorre do contexto e pode ser cancelado. O estado da janela continua afirmado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l065-001-pdrae-politica-e-fiscalizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolução da administração pública e reforma administrativa",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "pdrae-politica-e-fiscalizacao",
+      "mechanism": "distinguir-formulacao-e-poder-coercitivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#PDRAE: quatro setores, propriedade e formas de execução (CAM-AP-005; DA-026)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "PDRAE: quatro setores, propriedade e formas de execução (CAM-AP-005; DA-026)"
+      },
+      "statement": "Na classificação histórica do PDRAE, formular as diretrizes nacionais de uma política e aplicar sanções de fiscalização são funções de setores distintos, ainda que ambas sejam exercidas pelo Estado.",
+      "correctAnswer": "C",
+      "explanation": "O núcleo estratégico formula diretrizes. Fiscalizar e sancionar no exercício de poder estatal integram as atividades exclusivas.",
+      "reviewEvidence": "Revisão por IA. PDRAE de 1995, conforme a seção canônica. O núcleo estratégico formula diretrizes. Fiscalizar e sancionar no exercício de poder estatal integram as atividades exclusivas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l065-002-pdrae-servico-social-propriedade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolução da administração pública e reforma administrativa",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "pdrae-servico-social-propriedade",
+      "mechanism": "classificar-atividade-sem-inferir-pela-propriedade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#PDRAE: quatro setores, propriedade e formas de execução (CAM-AP-005; DA-026)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "PDRAE: quatro setores, propriedade e formas de execução (CAM-AP-005; DA-026)"
+      },
+      "statement": "Para o PDRAE, uma escola pertence ao setor das atividades exclusivas do Estado sempre que o prédio e a entidade que a mantém são estatais.",
+      "correctAnswer": "E",
+      "explanation": "A educação é exemplo de serviço não exclusivo. A propriedade estatal da unidade não determina a classificação da atividade.",
+      "reviewEvidence": "Revisão por IA. PDRAE de 1995, conforme a seção canônica. A educação é exemplo de serviço não exclusivo. A propriedade estatal da unidade não determina a classificação da atividade. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l065-003-pdrae-mercado-e-regulacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / evolução da administração pública e reforma administrativa",
+      "articleId": "art-2e8a8f600b964d40",
+      "conceptId": "pdrae-mercado-e-regulacao",
+      "mechanism": "distinguir-objeto-da-producao-e-da-regulacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e8a8f600b964d40#PDRAE: quatro setores, propriedade e formas de execução (CAM-AP-005; DA-026)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/01 - evolucao da administracao publica.md",
+        "section": "PDRAE: quatro setores, propriedade e formas de execução (CAM-AP-005; DA-026)"
+      },
+      "statement": "No PDRAE, a existência de regulação pública sobre uma atividade empresarial não desloca automaticamente a empresa produtora para o setor de atividades exclusivas do Estado.",
+      "correctAnswer": "C",
+      "explanation": "Regular é uma função pública distinta da atividade empresarial regulada. A classificação examina o papel exercido, não apenas a sujeição a regras.",
+      "reviewEvidence": "Revisão por IA. PDRAE de 1995, conforme a seção canônica. Regular é uma função pública distinta da atividade empresarial regulada. A classificação examina o papel exercido, não apenas a sujeição a regras. Dificuldade estimada."
     }
   ]
 }

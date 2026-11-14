@@ -38935,6 +38935,286 @@
       "correctAnswer": "C",
       "explanation": "O voto original passa a constituir voto em separado quando a comissão adota parecer diverso. Ele deixa de representar a posição do colegiado, mas permanece registrado.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, XIII, cotejado com a nota canônica. Critério decisivo: O voto original passa a constituir voto em separado quando a comissão adota parecer diverso. Ele deixa de representar a posição do colegiado, mas permanece registrado. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l031-001-ordem-materia-fora-pauta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "ordem-materia-fora-pauta",
+      "mechanism": "conferir-vinculo-com-a-pauta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "statement": "Durante a Ordem do Dia, um deputado indica com precisão um artigo regimental aplicável a projeto ausente da pauta. A indicação do dispositivo basta para que a questão de ordem seja admitida naquele momento.",
+      "correctAnswer": "E",
+      "explanation": "Durante a Ordem do Dia, a questão de ordem precisa ter relação direta com uma matéria da pauta. Indicar o dispositivo cumpre uma exigência, mas não supre a falta dessa relação.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 95, § 1º. Critério de julgamento: Durante a Ordem do Dia, a questão de ordem precisa ter relação direta com uma matéria da pauta. Indicar o dispositivo cumpre uma exigência, mas não supre a falta dessa relação. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l031-002-ordem-efeito-um-terco-presentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "ordem-efeito-um-terco-presentes",
+      "mechanism": "calcular-apoiamento-suspensivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "statement": "Com 300 deputados presentes, 100 apoiam o requerimento para que o Plenário decida de imediato sobre o efeito suspensivo de recurso contra decisão em questão de ordem. O apoiamento atinge o mínimo regimental.",
+      "correctAnswer": "C",
+      "explanation": "O apoiamento exigido é de um terço dos presentes. Cem assinaturas bastam para pedir a decisão imediata, cabendo ao Plenário decidir sobre o efeito.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 95, § 9º. Critério de julgamento: O apoiamento exigido é de um terço dos presentes. Cem assinaturas bastam para pedir a decisão imediata, cabendo ao Plenário decidir sobre o efeito. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l031-003-reclamacao-comissao-instancia-inicial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "reclamacao-comissao-instancia-inicial",
+      "mechanism": "determinar-instancia-inicial-da-reclamacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "statement": "Diante de omissão de uma comissão, um de seus membros pode recorrer diretamente ao Plenário pela via da reclamação, ainda que o presidente da comissão não tenha decidido a questão.",
+      "correctAnswer": "E",
+      "explanation": "A decisão inicial cabe ao presidente da comissão. A via recursal pressupõe essa decisão, em vez de substituir o exame inicial.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 96, § 2º. Critério de julgamento: A decisão inicial cabe ao presidente da comissão. A via recursal pressupõe essa decisão, em vez de substituir o exame inicial. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l031-004-diario-corrigir-discurso-publicado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "diario-corrigir-discurso-publicado",
+      "mechanism": "distinguir-retificacao-e-republicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "3. Questão de ordem, reclamação e ata: arts. 95 a 99"
+      },
+      "statement": "Detectado erro em discurso já publicado no Diário da Câmara, a correção pode ser divulgada na seção Errata sem republicação integral do discurso.",
+      "correctAnswer": "C",
+      "explanation": "As correções de discursos publicados saem em Errata. A providência documental retifica o erro sem reproduzir todo o texto anterior.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 98, § 1º. Critério de julgamento: As correções de discursos publicados saem em Errata. A providência documental retifica o erro sem reproduzir todo o texto anterior. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l031-005-proposicao-coautoria-prerrogativa-unica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "proposicao-coautoria-prerrogativa-unica",
+      "mechanism": "separar-coautoria-e-exercicio-em-plenario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      },
+      "statement": "Em proposição de autoria coletiva, o reconhecimento de todos os signatários como autores assegura a cada um deles o exercício cumulativo das prerrogativas de autoria em Plenário.",
+      "correctAnswer": "E",
+      "explanation": "Todos são autores, mas apenas um exerce as prerrogativas em Plenário, respeitada a ordem das assinaturas.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 102, § 1º. Critério de julgamento: Todos são autores, mas apenas um exerce as prerrogativas em Plenário, respeitada a ordem das assinaturas. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l031-006-justificacao-oral-indicacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "justificacao-oral-indicacao",
+      "mechanism": "identificar-indicacao-na-autoria-coletiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      },
+      "statement": "O primeiro signatário de uma proposição coletiva pode indicar outro deputado para apresentar sua justificação oral, observadas as regras de inscrição.",
+      "correctAnswer": "C",
+      "explanation": "Na autoria coletiva, o primeiro signatário pode fazer a justificação oral ou indicar quem a fará. Apresentar a justificação não altera a autoria da proposição.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 103. Critério de julgamento: Na autoria coletiva, o primeiro signatário pode fazer a justificação oral ou indicar quem a fará. Apresentar a justificação não altera a autoria da proposição. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l031-007-retirada-comissao-sem-autorizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "retirada-comissao-sem-autorizacao",
+      "mechanism": "verificar-autorizacao-do-colegiado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      },
+      "statement": "O presidente de uma comissão pode requerer, por decisão própria, a retirada de proposição de autoria da comissão se nenhum parecer tiver sido emitido.",
+      "correctAnswer": "E",
+      "explanation": "A proposição de comissão exige requerimento de seu presidente com autorização prévia do colegiado. A ausência de parecer não dispensa essa autorização.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 104, § 3º. Critério de julgamento: A proposição de comissão exige requerimento de seu presidente com autorização prévia do colegiado. A ausência de parecer não dispensa essa autorização. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l031-008-retirada-reapresentacao-deliberada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "retirada-reapresentacao-deliberada",
+      "mechanism": "aplicar-excecao-da-mesma-sessao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      },
+      "statement": "Se uma proposição for retirada, o Plenário pode autorizar sua reapresentação na mesma sessão legislativa.",
+      "correctAnswer": "C",
+      "explanation": "A vedação de reapresentar a matéria retirada na mesma sessão legislativa admite exceção por deliberação do Plenário.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 104, § 4º. Critério de julgamento: A vedação de reapresentar a matéria retirada na mesma sessão legislativa admite exceção por deliberação do Plenário. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l031-009-arquivamento-retencao-de-parecer",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "arquivamento-retencao-de-parecer",
+      "mechanism": "rastrear-instrucao-dos-remanescentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      },
+      "statement": "Ao fim da legislatura, uma proposição apensada é arquivada, mas outra permanece em tramitação. Em regra, o parecer já aprovado instrui a proposição remanescente.",
+      "correctAnswer": "C",
+      "explanation": "Na tramitação conjunta, o arquivamento de uma proposição não elimina os pareceres já aprovados para as remanescentes, ressalvada a hipótese regimental de requerimento deferido.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 105, § 2º. Critério de julgamento: Na tramitação conjunta, o arquivamento de uma proposição não elimina os pareceres já aprovados para as remanescentes, ressalvada a hipótese regimental de requerimento deferido. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l031-010-arquivamento-revisao-concluida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados, arts. 95 a 105",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "arquivamento-revisao-concluida",
+      "mechanism": "reconhecer-excecao-pela-fase-bicameral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      },
+      "statement": "Ao fim da legislatura, uma proposição já aprovada pela Câmara e revisada pelo Senado deve ser arquivada pela regra geral, pois só as matérias de iniciativa popular escapam desse arquivamento.",
+      "correctAnswer": "E",
+      "explanation": "A aprovação pela Câmara seguida de revisão pelo Senado é exceção própria à regra geral, independentemente de a iniciativa ter sido popular.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 105, X. Critério de julgamento: A aprovação pela Câmara seguida de revisão pelo Senado é exceção própria à regra geral, independentemente de a iniciativa ter sido popular. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
     }
   ]
 }

@@ -40055,6 +40055,286 @@
       "correctAnswer": "E",
       "explanation": "Após a terminação nasal de “remeteram”, o pronome “os” assume a forma “nos”: “Remeteram-nos”. A forma “los” corresponde a outro ambiente fonético.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério da norma-padrão explicitado na seção literal: Após a terminação nasal de “remeteram”, o pronome “os” assume a forma “nos”: “Remeteram-nos”. A forma “los” corresponde a outro ambiente fonético. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l035-001-times-as-many",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "times-as-many",
+      "mechanism": "compute-multiplicative-comparison",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#1. Estruturas Comparativas e Superlativas"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "1. Estruturas Comparativas e Superlativas"
+      },
+      "statement": "The archive digitized 18 maps in April and three times as many in May. This means that it digitized 54 maps in May.",
+      "correctAnswer": "C",
+      "explanation": "Three times as many multiplica a quantidade de abril por três, chegando a 54.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: Three times as many multiplica a quantidade de abril por três, chegando a 54. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l035-002-as-many-as-comparacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "as-many-as-comparacao",
+      "mechanism": "reverse-comparison-without-changing-ratio",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#1. Estruturas Comparativas e Superlativas"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "1. Estruturas Comparativas e Superlativas"
+      },
+      "statement": "“The smaller branch received half as many requests as the main branch” means the smaller branch received twice the number of requests received by the main branch.",
+      "correctAnswer": "E",
+      "explanation": "Half as many atribui à filial menor metade da quantidade da sede. Para enunciar o dobro, seria necessário inverter os termos da comparação.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: Half as many atribui à filial menor metade da quantidade da sede. Para enunciar o dobro, seria necessário inverter os termos da comparação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l035-003-only-clause-focus",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "only-clause-focus",
+      "mechanism": "locate-exclusive-focus",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#3. Delimitadores de Escopo e Operadores Restritivos"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "3. Delimitadores de Escopo e Operadores Restritivos"
+      },
+      "statement": "“The commission released only the summary on Monday” rules out releasing the full report on Tuesday.",
+      "correctAnswer": "E",
+      "explanation": "Only restringe o objeto da divulgação de segunda-feira. A frase não estabelece o que ocorreu na terça-feira.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: Only restringe o objeto da divulgação de segunda-feira. A frase não estabelece o que ocorreu na terça-feira. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l035-004-no-more-than-inclusive",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "no-more-than-inclusive",
+      "mechanism": "test-upper-bound-equality",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#2. Quantificadores Lógicos e a Fronteira do Escopo"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "2. Quantificadores Lógicos e a Fronteira do Escopo"
+      },
+      "statement": "If “participants may submit no more than three proposals,” submitting exactly three complies with the numerical limit.",
+      "correctAnswer": "C",
+      "explanation": "No more than estabelece um teto inclusivo. A quantidade igual ao teto é permitida.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: No more than estabelece um teto inclusivo. A quantidade igual ao teto é permitida. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l035-005-stop-previous-activity",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-fbfeb9a2a7fcf639",
+      "conceptId": "stop-previous-activity",
+      "mechanism": "recover-presupposition-of-cessation",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fbfeb9a2a7fcf639#3. Os ativadores linguísticos de pressuposição e inferência em língua inglesa"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md",
+        "section": "3. Os ativadores linguísticos de pressuposição e inferência em língua inglesa"
+      },
+      "statement": "“The office stopped sending paper reminders in July” implies that the office had previously sent paper reminders.",
+      "correctAnswer": "C",
+      "explanation": "Stopped pressupõe uma atividade anterior cuja continuidade foi interrompida.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: Stopped pressupõe uma atividade anterior cuja continuidade foi interrompida. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l035-006-unlikely-versus-impossible",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-fbfeb9a2a7fcf639",
+      "conceptId": "unlikely-versus-impossible",
+      "mechanism": "calibrate-negative-probability",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fbfeb9a2a7fcf639#4. O sistema de *Hedging* e a calibração modal: certeza, probabilidade e possibilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md",
+        "section": "4. O sistema de *Hedging* e a calibração modal: certeza, probabilidade e possibilidade"
+      },
+      "statement": "By saying that a delay is “unlikely,” the writer rules out the possibility of a delay.",
+      "correctAnswer": "E",
+      "explanation": "Unlikely expressa baixa probabilidade. A palavra não exclui a ocorrência.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: Unlikely expressa baixa probabilidade. A palavra não exclui a ocorrência. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l035-007-quoted-claim-explicit-disagreement",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-21cf11553e25ae48",
+      "conceptId": "quoted-claim-explicit-disagreement",
+      "mechanism": "trace-positions-across-sources",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-21cf11553e25ae48#2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md",
+        "section": "2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)"
+      },
+      "statement": "“The vendor calls the system error-free, but the audit documents recurring failures.” The passage presents the vendor’s assessment and then supplies evidence against it.",
+      "correctAnswer": "C",
+      "explanation": "A primeira oração atribui a avaliação ao fornecedor. A segunda introduz, com but, a evidência de falhas documentadas.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: A primeira oração atribui a avaliação ao fornecedor. A segunda introduz, com but, a evidência de falhas documentadas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l035-008-call-for-comments-versus-results",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-21cf11553e25ae48",
+      "conceptId": "call-for-comments-versus-results",
+      "mechanism": "infer-genre-from-request",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-21cf11553e25ae48#3. Gêneros Textuais Contemporâneos no Setor Público e Legislativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md",
+        "section": "3. Gêneros Textuais Contemporâneos no Setor Público e Legislativo"
+      },
+      "statement": "“Submit comments on the draft by 5 p.m. on Friday. The panel will publish its conclusions next month.” The passage announces the conclusions of a completed consultation.",
+      "correctAnswer": "E",
+      "explanation": "O imperativo solicita contribuições e a publicação das conclusões é futura. O trecho funciona como chamada à participação.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: O imperativo solicita contribuições e a publicação das conclusões é futura. O trecho funciona como chamada à participação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l035-009-nominal-repetition-change-of-topic",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-21cf11553e25ae48",
+      "conceptId": "nominal-repetition-change-of-topic",
+      "mechanism": "track-discourse-topic-despite-repetition",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-21cf11553e25ae48#1. Relações Intratextuais: Coerência Global e Progressão Temática"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md",
+        "section": "1. Relações Intratextuais: Coerência Global e Progressão Temática"
+      },
+      "statement": "“This section concerns how shelters are funded. The next section will explain how shelters are inspected.” The repeated noun does not prevent a shift from funding to inspection.",
+      "correctAnswer": "C",
+      "explanation": "A entidade discutida permanece a mesma, mas o aspecto que organiza a nova seção muda de financiamento para inspeção.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: A entidade discutida permanece a mesma, mas o aspecto que organiza a nova seção muda de financiamento para inspeção. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l035-010-quotation-negated-finding",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-21cf11553e25ae48",
+      "conceptId": "quotation-negated-finding",
+      "mechanism": "separate-no-evidence-from-evidence-of-absence",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-21cf11553e25ae48#2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/18 - relacoes intratextuais intertextuais e generos contemporaneos em ingles.md",
+        "section": "2. Intertextualidade, Atribuição e a Postura do Autor (*Authorial Stance*)"
+      },
+      "statement": "“We found no evidence that the leak affected water quality,” said the inspector. The quotation establishes that the inspector found evidence ruling out any effect on water quality.",
+      "correctAnswer": "E",
+      "explanation": "A citação relata ausência de evidência de efeito. Isso não equivale a ter encontrado evidência que descarte o efeito.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do enunciado inglês e do critério exposto na seção canônica: A citação relata ausência de evidência de efeito. Isso não equivale a ter encontrado evidência que descarte o efeito. Dificuldade estimada."
     }
   ]
 }

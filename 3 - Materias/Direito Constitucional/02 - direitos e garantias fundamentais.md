@@ -10,6 +10,8 @@ updated: 2026-09-10
 
 # Direitos e garantias fundamentais
 
+Imagine três problemas: uma pessoa foi presa ilegalmente; outra descobriu um dado pessoal errado em cadastro público; uma terceira não consegue exercer um direito constitucional porque falta uma lei que explique como fazê-lo. Embora os três casos envolvam direitos, **o instrumento de proteção depende do problema**. O primeiro pode exigir habeas corpus; o segundo, habeas data; o terceiro, mandado de injunção. Escolher o remédio pela palavra “direito”, sem verificar o que impede seu exercício, leva ao erro.
+
 O Título II da Constituição reúne diferentes grupos de direitos fundamentais. Para prova, é perigoso reduzir “direitos e garantias fundamentais” apenas ao art. 5º: o título constitucional também abrange direitos sociais, nacionalidade, direitos políticos e partidos políticos. Esta nota funciona como **porta de entrada canônica** para o tema amplo e concentra o art. 5º e os remédios constitucionais; os demais blocos são aprofundados em notas próprias.
 
 ## Mapa do Título II
@@ -86,7 +88,7 @@ Serve para:
 - retificar esses dados;
 - nos termos da Lei nº 9.507/1997, permitir anotação de contestação ou explicação sobre dado verdadeiro mas justificável e sob pendência.
 
-Pegadinha: habeas data não é instrumento genérico para obter **qualquer informação pública**; isso se relaciona ao direito de acesso à informação e à LAI.
+Pegadinha: habeas data não é instrumento genérico para obter **qualquer informação pública**; isso se relaciona ao direito de acesso à informação e à Lei de Acesso à Informação (LAI).
 
 ### Mandado de segurança — MS
 
@@ -114,6 +116,26 @@ A chave é: **omissão normativa que inviabiliza exercício constitucional**. N�
 Pode ser proposta por **cidadão** para anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural, nos termos do art. 5º, LXXIII.
 
 Em prova, cidadão aqui está ligado à condição político-eleitoral; não confundir com “qualquer pessoa” em sentido coloquial.
+
+## Como escolher o remédio constitucional: três casos progressivos
+
+**Caso 1: a pessoa está impedida de sair por prisão ilegal.** O problema é a liberdade de ir e vir, chamada **liberdade de locomoção**. O habeas corpus (art. 5º, LXVIII) busca afastar a coação ilegal ou impedir uma ameaça concreta. Se o problema fosse apenas a perda de um bem, sem ameaça à locomoção, esse remédio não seria o adequado. Não é preciso confundir o direito protegido com o nome da ação.
+
+**Caso 2: a prisão não existe, mas um cadastro de caráter público mantém informação pessoal errada sobre a própria pessoa.** O habeas data (art. 5º, LXXII; Lei nº 9.507/1997) pode permitir conhecer ou corrigir esses dados. Há um requisito processual importante: a jurisprudência exige demonstrar a recusa administrativa ao acesso ou à retificação, ou o decurso do prazo legal sem decisão. Para pedir uma informação pública geral, sem relação com os próprios dados pessoais, a via adequada pode ser o pedido previsto na Lei de Acesso à Informação, não o habeas data.
+
+**Caso 3: a Constituição prevê um direito, mas a falta de regulamentação impede seu exercício.** O mandado de injunção (art. 5º, LXXI; Lei nº 13.300/2016) enfrenta a **omissão normativa**, isto é, a ausência da regra necessária. O juiz examina a omissão e, preenchidos os requisitos legais, pode fixar condições para tornar possível o exercício do direito. Se a lei já existe e uma autoridade apenas se recusa ilegalmente a cumpri-la, o problema não é, por si só, de mandado de injunção.
+
+**Quarto caso: uma autoridade nega um direito demonstrável por documentos, sem questão de locomoção ou acesso a dados pessoais.** Pode caber mandado de segurança (art. 5º, LXIX; Lei nº 12.016/2009). **Direito líquido e certo** não significa direito sem discussão: significa que os fatos necessários podem ser comprovados desde o início, sem produção posterior de provas complexas. A ação está sujeita, em regra, ao prazo de 120 dias contados da ciência do ato impugnado (art. 23 da Lei nº 12.016/2009). Se os fatos ainda dependem de testemunhas e perícias, esse instrumento pode não ser adequado.
+
+**Quinto caso: um cidadão pretende anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente ou ao patrimônio histórico e cultural.** A ação popular (art. 5º, LXXIII; Lei nº 4.717/1965) é o instrumento específico. “Cidadão”, aqui, pressupõe direitos políticos, e não equivale automaticamente a qualquer morador ou contribuinte. Não basta discordar politicamente de um ato: é preciso enquadrar a lesão em uma das hipóteses constitucionais.
+
+### Autoverificação: Certo ou Errado
+
+**1.** Se o cadastro público contém dados pessoais incorretos, o habeas corpus é adequado porque protege genericamente direitos fundamentais. **Errado.** Habeas corpus protege a liberdade de locomoção; para dados pessoais, examina-se habeas data e seus requisitos.
+
+**2.** A existência de uma lei regulamentadora pode afastar o fundamento de mandado de injunção quando a controvérsia se limita ao descumprimento dessa lei por uma autoridade. **Certo.** O mandado de injunção pressupõe omissão normativa que inviabilize o exercício do direito, não qualquer ilegalidade administrativa.
+
+Estas explicações são **paráfrases didáticas**, não transcrições literais da Constituição ou das leis. Para conferência: [Constituição Federal, art. 5º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), [Lei nº 9.507/1997](https://www.planalto.gov.br/ccivil_03/leis/l9507.htm), [Lei nº 12.016/2009](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm), [Lei nº 13.300/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13300.htm) e [Lei nº 4.717/1965](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm).
 
 ## Dimensões dos direitos fundamentais
 

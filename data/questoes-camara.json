@@ -44115,6 +44115,90 @@
       "correctAnswer": "C",
       "explanation": "O trecho conserva a data original e altera o local. Venue indica o lugar do evento.",
       "reviewEvidence": "Revisão editorial por IA. O trecho conserva a data original e altera o local. Venue indica o lugar do evento. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l072-001-suspensao-conversao-servico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, processo administrativo disciplinar",
+      "articleId": "art-18fed28e7af50bca",
+      "conceptId": "suspensao-conversao-servico",
+      "mechanism": "calcular-base-e-identificar-dever",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-18fed28e7af50bca#2. Quadro analítico das penalidades disciplinares"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/22 - lei 8112 responsabilidades e penalidades disciplinares.md",
+        "section": "2. Quadro analítico das penalidades disciplinares"
+      },
+      "statement": "Se a suspensão de servidor federal for convertida em multa por conveniência do serviço, o servidor deve permanecer em atividade e a multa corresponde a 50% do vencimento ou da remuneração por dia de suspensão.",
+      "correctAnswer": "C",
+      "explanation": "A conversão mantém o servidor em atividade e aplica a multa diária de 50%, conforme a base indicada em lei.",
+      "reviewEvidence": "Revisão editorial por IA. Lei nº 8.112/1990, art. 130, § 2º. A conversão mantém o servidor em atividade e aplica a multa diária de 50%, conforme a base indicada em lei. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l072-002-suspensao-inspecao-cessa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, processo administrativo disciplinar",
+      "articleId": "art-18fed28e7af50bca",
+      "conceptId": "suspensao-inspecao-cessa",
+      "mechanism": "aplicar-cessacao-por-cumprimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-18fed28e7af50bca#2. Quadro analítico das penalidades disciplinares"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/22 - lei 8112 responsabilidades e penalidades disciplinares.md",
+        "section": "2. Quadro analítico das penalidades disciplinares"
+      },
+      "statement": "O servidor federal suspenso por recusa injustificada a inspeção médica determinada pela autoridade competente cumpre a penalidade até o fim do prazo fixado mesmo se realizar a inspeção antes.",
+      "correctAnswer": "E",
+      "explanation": "A recusa injustificada admite suspensão de até quinze dias, mas seus efeitos cessam quando o servidor cumpre a determinação.",
+      "reviewEvidence": "Revisão editorial por IA. Lei nº 8.112/1990, art. 130, § 1º. A recusa injustificada admite suspensão de até quinze dias, mas seus efeitos cessam quando o servidor cumpre a determinação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l072-003-registro-cancelamento-retroativo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, processo administrativo disciplinar",
+      "articleId": "art-18fed28e7af50bca",
+      "conceptId": "registro-cancelamento-retroativo",
+      "mechanism": "distinguir-cancelamento-e-retroatividade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-18fed28e7af50bca#2. Quadro analítico das penalidades disciplinares"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/22 - lei 8112 responsabilidades e penalidades disciplinares.md",
+        "section": "2. Quadro analítico das penalidades disciplinares"
+      },
+      "statement": "Cumpridas as condições para cancelar o registro de uma advertência funcional, o cancelamento retroage à data em que a penalidade foi aplicada.",
+      "correctAnswer": "E",
+      "explanation": "A lei admite cancelamento após o período de efetivo exercício sem nova infração, mas exclui efeito retroativo.",
+      "reviewEvidence": "Revisão editorial por IA. Lei nº 8.112/1990, art. 131. A lei admite cancelamento após o período de efetivo exercício sem nova infração, mas exclui efeito retroativo. Dificuldade estimada."
     }
   ]
 }

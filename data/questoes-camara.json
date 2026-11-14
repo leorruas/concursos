@@ -43947,6 +43947,90 @@
       "correctAnswer": "C",
       "explanation": "A afirmação sobre a chuva é uma dedução a partir dos indícios. Must expressa a força dessa inferência, sem impor uma obrigação.",
       "reviewEvidence": "Revisão editorial por IA. Critério contextual: A afirmação sobre a chuva é uma dedução a partir dos indícios. Must expressa a força dessa inferência, sem impor uma obrigação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l070-001-excel-precedencia-percentual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / Microsoft 365, Excel",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "excel-precedencia-percentual",
+      "mechanism": "calcular-percentual-antes-da-soma",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#3. Ordem de precedência dos operadores"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "3. Ordem de precedência dos operadores"
+      },
+      "statement": "No Excel, =100+20% retorna 120, pois o percentual é aplicado automaticamente ao número que aparece antes do sinal de adição.",
+      "correctAnswer": "E",
+      "explanation": "20% representa 0,2. A soma resulta em 100,2. Para aumentar 100 em 20%, uma fórmula possível é =100*(1+20%).",
+      "reviewEvidence": "Revisão editorial por IA. Ordem de operações conferida na documentação da Microsoft e na nota. 20% representa 0,2. A soma resulta em 100,2. Para aumentar 100 em 20%, uma fórmula possível é =100*(1+20%). Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l070-002-excel-divisao-multiplicacao-ordem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / Microsoft 365, Excel",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "excel-divisao-multiplicacao-ordem",
+      "mechanism": "resolver-operadores-de-mesma-prioridade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#3. Ordem de precedência dos operadores"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "3. Ordem de precedência dos operadores"
+      },
+      "statement": "No Excel, =48/4*3 retorna 36. A multiplicação da fórmula não é executada antes da divisão.",
+      "correctAnswer": "C",
+      "explanation": "Divisão e multiplicação têm a mesma precedência e são avaliadas da esquerda para a direita. Primeiro se obtém 12 e depois 36.",
+      "reviewEvidence": "Revisão editorial por IA. Ordem de operações conferida na documentação da Microsoft e na nota. Divisão e multiplicação têm a mesma precedência e são avaliadas da esquerda para a direita. Primeiro se obtém 12 e depois 36. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l070-003-excel-comparacao-apos-aritmetica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / Microsoft 365, Excel",
+      "articleId": "art-484ca8ef752c3d9a",
+      "conceptId": "excel-comparacao-apos-aritmetica",
+      "mechanism": "determinar-resultado-logico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-484ca8ef752c3d9a#3. Ordem de precedência dos operadores"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/05 - excel 365 celulas referencias funcoes e tabelas dinamicas.md",
+        "section": "3. Ordem de precedência dos operadores"
+      },
+      "statement": "Com A1 igual a 7 no Excel, a fórmula =A1+2>10 retorna FALSO.",
+      "correctAnswer": "C",
+      "explanation": "A adição é feita antes da comparação. O teste resultante é 9>10, que é falso.",
+      "reviewEvidence": "Revisão editorial por IA. Ordem de operações conferida na documentação da Microsoft e na nota. A adição é feita antes da comparação. O teste resultante é 9>10, que é falso. Dificuldade estimada."
     }
   ]
 }

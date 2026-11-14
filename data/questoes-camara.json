@@ -43107,6 +43107,90 @@
       "correctAnswer": "E",
       "explanation": "Could pode transpor can para o discurso indireto sem mudar o sentido de capacidade técnica. Nada na reescrita introduz autorização oficial.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério de leitura conferido com a seção canônica: Could pode transpor can para o discurso indireto sem mudar o sentido de capacidade técnica. Nada na reescrita introduz autorização oficial. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l060-001-layout-especifico-outro-layout",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / Microsoft 365, PowerPoint",
+      "articleId": "art-c870ee089d89cfaa",
+      "conceptId": "layout-especifico-outro-layout",
+      "mechanism": "rastrear-alcance-na-hierarquia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c870ee089d89cfaa#2. A ferramenta de governança visual: o Slide Mestre (*Slide Master*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/06 - powerpoint 365 organizacao slides mestre animacoes e apresentacao.md",
+        "section": "2. A ferramenta de governança visual: o Slide Mestre (*Slide Master*)"
+      },
+      "statement": "No PowerPoint para Microsoft 365, inserir um marcador de posição em um layout específico faz com que ele apareça em todos os outros layouts do mesmo slide mestre.",
+      "correctAnswer": "E",
+      "explanation": "A alteração feita no layout tem alcance próprio. Layouts irmãos não herdam configurações uns dos outros.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério conferido na seção canônica: A alteração feita no layout tem alcance próprio. Layouts irmãos não herdam configurações uns dos outros. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l060-002-transicao-em-slide-de-destino",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / Microsoft 365, PowerPoint",
+      "articleId": "art-c870ee089d89cfaa",
+      "conceptId": "transicao-em-slide-de-destino",
+      "mechanism": "identificar-slide-que-recebe-efeito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c870ee089d89cfaa#3. Transição de Slides versus Animação de Objetos"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/06 - powerpoint 365 organizacao slides mestre animacoes e apresentacao.md",
+        "section": "3. Transição de Slides versus Animação de Objetos"
+      },
+      "statement": "Para aplicar um efeito de transição apenas à entrada do quinto slide, o usuário deve configurar a transição no quinto slide.",
+      "correctAnswer": "C",
+      "explanation": "O efeito de transição está associado à entrada do slide selecionado, e não à saída do slide anterior.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério conferido na seção canônica: O efeito de transição está associado à entrada do slide selecionado, e não à saída do slide anterior. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l060-003-classificacao-reordenar-e-conteudo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / Microsoft 365, PowerPoint",
+      "articleId": "art-c870ee089d89cfaa",
+      "conceptId": "classificacao-reordenar-e-conteudo",
+      "mechanism": "separar-ordem-e-edicao-interna",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c870ee089d89cfaa#1. Modos de exibição e organização da apresentação"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/06 - powerpoint 365 organizacao slides mestre animacoes e apresentacao.md",
+        "section": "1. Modos de exibição e organização da apresentação"
+      },
+      "statement": "Na classificação de slides, arrastar a miniatura do quarto slide para a primeira posição altera a sequência da apresentação sem reordenar os objetos dentro do slide movido.",
+      "correctAnswer": "C",
+      "explanation": "A classificação opera sobre a ordem dos slides inteiros. Mover uma miniatura não muda a disposição dos elementos no interior do slide.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério conferido na seção canônica: A classificação opera sobre a ordem dos slides inteiros. Mover uma miniatura não muda a disposição dos elementos no interior do slide. Dificuldade estimada."
     }
   ]
 }

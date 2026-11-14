@@ -46607,6 +46607,90 @@
       "correctAnswer": "E",
       "explanation": "A contagem preserva uma etapa da eleição. A competição também depende da possibilidade de alcançar eleitores em condições que permitam disputar apoio.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A contagem preserva uma etapa da eleição. A competição também depende da possibilidade de alcançar eleitores em condições que permitam disputar apoio. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l105-001-repeated-checks-per-person",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "repeated-checks-per-person",
+      "mechanism": "do-not-infer-denominator-from-event-count",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#4.1. Leitura quantitativa: denominadores, limites e causalidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "4.1. Leitura quantitativa: denominadores, limites e causalidade"
+      },
+      "statement": "A report states: “Sixty of the eighty identity checks took under a minute. Some applicants underwent more than one check.” The report establishes that sixty distinct applicants completed a check in under a minute.",
+      "correctAnswer": "E",
+      "explanation": "O número sessenta conta verificações, e um mesmo candidato pode aparecer mais de uma vez. O total de candidatos distintos não pode ser obtido desses dados.",
+      "reviewEvidence": "Revisão por IA com teste da inferência e conferência da seção indicada. O número sessenta conta verificações, e um mesmo candidato pode aparecer mais de uma vez. O total de candidatos distintos não pode ser obtido desses dados. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l105-002-compared-with-own-baseline",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "compared-with-own-baseline",
+      "mechanism": "distinguish-change-and-final-ranking",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#1.1. Graus de Comparação e Restrições de Referência"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "1.1. Graus de Comparação e Restrições de Referência"
+      },
+      "statement": "“Turnaround time fell by more in Unit A than in Unit B.” This statement can be true even if Unit A still takes longer to process a request than Unit B.",
+      "correctAnswer": "C",
+      "explanation": "A comparação mede o tamanho da redução. Uma unidade que partiu de um prazo maior pode continuar mais lenta mesmo depois de obter a maior redução.",
+      "reviewEvidence": "Revisão por IA com teste da inferência e conferência da seção indicada. A comparação mede o tamanho da redução. Uma unidade que partiu de um prazo maior pode continuar mais lenta mesmo depois de obter a maior redução. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l105-003-only-shift-limits-approval",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "only-shift-limits-approval",
+      "mechanism": "identify-restriction-on-time-of-action",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#3. Delimitadores de Escopo e Operadores Restritivos"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "3. Delimitadores de Escopo e Operadores Restritivos"
+      },
+      "statement": "“The coordinator approves refunds only on Fridays.” The sentence rules out approval by the coordinator on Tuesdays, while leaving open which Friday a particular refund might be approved.",
+      "correctAnswer": "C",
+      "explanation": "Only restringe o dia da aprovação a sextas-feiras. O período não identifica a data de uma aprovação específica.",
+      "reviewEvidence": "Revisão por IA com teste da inferência e conferência da seção indicada. Only restringe o dia da aprovação a sextas-feiras. O período não identifica a data de uma aprovação específica. Dificuldade estimada."
     }
   ]
 }

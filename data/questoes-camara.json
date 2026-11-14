@@ -46495,6 +46495,62 @@
       "correctAnswer": "C",
       "explanation": "O presidente permanece no cargo enquanto o gabinete se apoia em maioria parlamentar de orientação adversária. Essa combinação caracteriza a coabitação nesse tipo de sistema.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O presidente permanece no cargo enquanto o gabinete se apoia em maioria parlamentar de orientação adversária. Essa combinação caracteriza a coabitação nesse tipo de sistema. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l103-001-sucessao-e-mudanca-de-gabinete",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / formas de governo",
+      "articleId": "art-e93a40d1c75b682f",
+      "conceptId": "sucessao-e-mudanca-de-gabinete",
+      "mechanism": "classificar-dois-eixos-institucionais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e93a40d1c75b682f#Quatro eixos que a banca não pode fundir"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia.md",
+        "section": "Quatro eixos que a banca não pode fundir"
+      },
+      "statement": "Em um país, a chefia de Estado é hereditária e o gabinete depende da confiança do Parlamento. A substituição do gabinete após a perda dessa confiança é compatível com a manutenção da forma monárquica.",
+      "correctAnswer": "C",
+      "explanation": "A confiança parlamentar rege a sobrevivência do gabinete no sistema de governo. A sucessão hereditária na chefia de Estado caracteriza a forma monárquica.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A confiança parlamentar rege a sobrevivência do gabinete no sistema de governo. A sucessão hereditária na chefia de Estado caracteriza a forma monárquica. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l103-002-competicao-e-chefia-hereditaria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / formas de governo",
+      "articleId": "art-e93a40d1c75b682f",
+      "conceptId": "competicao-e-chefia-hereditaria",
+      "mechanism": "identificar-insuficiencia-do-criterio-de-investidura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e93a40d1c75b682f#Comparação de cinco modelos institucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/17 - formas de governo republica e monarquia.md",
+        "section": "Comparação de cinco modelos institucionais"
+      },
+      "statement": "Um país mantém uma Coroa hereditária e realiza eleições legislativas competitivas. A origem hereditária da chefia de Estado basta para concluir que o regime político é autoritário.",
+      "correctAnswer": "E",
+      "explanation": "A origem da chefia de Estado informa a forma de governo. Para classificar o regime, é preciso examinar critérios como competição política e direitos de participação.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A origem da chefia de Estado informa a forma de governo. Para classificar o regime, é preciso examinar critérios como competição política e direitos de participação. Dificuldade estimada."
     }
   ]
 }

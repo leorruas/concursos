@@ -43695,6 +43695,90 @@
       "correctAnswer": "C",
       "explanation": "O art. 165, § 5º, da Constituição reúne os três orçamentos em uma lei orçamentária anual. Quadros próprios são compatíveis com essa estrutura.",
       "reviewEvidence": "Revisão editorial por IA. Critério verificado na Constituição e na seção canônica. O art. 165, § 5º, da Constituição reúne os três orçamentos em uma lei orçamentária anual. Quadros próprios são compatíveis com essa estrutura. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l067-001-ambiguidade-adjunto-instrumento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / significação e reescrita de frases",
+      "articleId": "art-569c69df60f66dfd",
+      "conceptId": "ambiguidade-adjunto-instrumento",
+      "mechanism": "distinguir-instrumento-e-caracteristica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-569c69df60f66dfd#4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md",
+        "section": "4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      },
+      "statement": "Em “A pesquisadora fotografou o pássaro com a câmera térmica”, deslocar a expressão para o início e explicitar “Usando a câmera térmica” apresenta o equipamento como instrumento da pesquisadora.",
+      "correctAnswer": "C",
+      "explanation": "A oração reduzida orienta a expressão para a ação de fotografar e identifica o equipamento como instrumento utilizado pelo sujeito.",
+      "reviewEvidence": "Revisão por IA. Análise de escopo sintático e de referência: A oração reduzida orienta a expressão para a ação de fotografar e identifica o equipamento como instrumento utilizado pelo sujeito. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l067-002-ambiguidade-coordenacao-adjetivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / significação e reescrita de frases",
+      "articleId": "art-569c69df60f66dfd",
+      "conceptId": "ambiguidade-coordenacao-adjetivo",
+      "mechanism": "delimitar-escopo-do-adjetivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-569c69df60f66dfd#4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md",
+        "section": "4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      },
+      "statement": "Em “Foram arquivadas cartas e fotografias antigas”, a concordância de “antigas” no feminino plural torna obrigatório entender que só as fotografias eram antigas.",
+      "correctAnswer": "E",
+      "explanation": "Cartas e fotografias são substantivos femininos no plural. A concordância é compatível com a leitura em que o adjetivo incide apenas sobre fotografias e com a leitura em que incide sobre os dois grupos.",
+      "reviewEvidence": "Revisão por IA. Análise de escopo sintático e de referência: Cartas e fotografias são substantivos femininos no plural. A concordância é compatível com a leitura em que o adjetivo incide apenas sobre fotografias e com a leitura em que incide sobre os dois grupos. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l067-003-ambiguidade-possessivo-reescrita",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / significação e reescrita de frases",
+      "articleId": "art-569c69df60f66dfd",
+      "conceptId": "ambiguidade-possessivo-reescrita",
+      "mechanism": "testar-resolucao-do-referente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-569c69df60f66dfd#4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md",
+        "section": "4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      },
+      "statement": "Em “Marina entregou a Paula sua credencial”, a reescrita “Marina entregou a Paula a credencial da própria Marina” elimina a dúvida sobre a quem pertencia a credencial.",
+      "correctAnswer": "C",
+      "explanation": "O possessivo permite mais de um referente no original. A nova expressão explicita Marina como possuidora.",
+      "reviewEvidence": "Revisão por IA. Análise de escopo sintático e de referência: O possessivo permite mais de um referente no original. A nova expressão explicita Marina como possuidora. Dificuldade estimada."
     }
   ]
 }

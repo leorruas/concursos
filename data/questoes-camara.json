@@ -44367,6 +44367,118 @@
       "correctAnswer": "E",
       "explanation": "O art. 166, § 3º, II, exclui essas transferências das fontes de anulação admitidas. A compatibilidade com os instrumentos de planejamento não substitui a exigência sobre a fonte.",
       "reviewEvidence": "Revisão editorial por IA. Critério cotejado na seção canônica: O art. 166, § 3º, II, exclui essas transferências das fontes de anulação admitidas. A compatibilidade com os instrumentos de planejamento não substitui a exigência sobre a fonte."
+    },
+    {
+      "id": "cam-pt-l075-001-registro-modalidade-dever",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita, registro e transposição de discurso",
+      "articleId": "art-fe3c1497fc8133b8",
+      "conceptId": "registro-modalidade-dever",
+      "mechanism": "preservar-obrigacao-na-adaptacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fe3c1497fc8133b8#2. Variação linguística, níveis de formalidade e adequação estilística"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais.md",
+        "section": "2. Variação linguística, níveis de formalidade e adequação estilística"
+      },
+      "statement": "Em instrução ao público, reescrever “Os candidatos deverão apresentar comprovante de residência” como “Os candidatos podem apresentar comprovante de residência” simplifica o registro sem alterar a exigência.",
+      "correctAnswer": "E",
+      "explanation": "Deverão estabelece obrigação. Podem indica permissão e altera a força da instrução.",
+      "reviewEvidence": "Revisão por IA. Critério de equivalência conferido: Deverão estabelece obrigação. Podem indica permissão e altera a força da instrução. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l075-002-registro-sigla-expansao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita, registro e transposição de discurso",
+      "articleId": "art-fe3c1497fc8133b8",
+      "conceptId": "registro-sigla-expansao",
+      "mechanism": "adequar-vocabulario-a-audiencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fe3c1497fc8133b8#2. Variação linguística, níveis de formalidade e adequação estilística"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais.md",
+        "section": "2. Variação linguística, níveis de formalidade e adequação estilística"
+      },
+      "statement": "Em aviso destinado a leitores que desconhecem a sigla “LOA”, escrever “Lei Orçamentária Anual (LOA)” na primeira ocorrência pode facilitar a leitura sem alterar a entidade designada.",
+      "correctAnswer": "C",
+      "explanation": "A expansão introduz o nome que a sigla abrevia. O referente permanece o mesmo, com maior acessibilidade para o público.",
+      "reviewEvidence": "Revisão por IA. Critério de equivalência conferido: A expansão introduz o nome que a sigla abrevia. O referente permanece o mesmo, com maior acessibilidade para o público. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l075-003-discurso-indireto-deitico-dia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita, registro e transposição de discurso",
+      "articleId": "art-fe3c1497fc8133b8",
+      "conceptId": "discurso-indireto-deitico-dia",
+      "mechanism": "ancorar-tempo-no-evento-de-fala",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fe3c1497fc8133b8#3. Transposição entre Discurso Direto, Discurso Indireto e Discurso Indireto Livre"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais.md",
+        "section": "3. Transposição entre Discurso Direto, Discurso Indireto e Discurso Indireto Livre"
+      },
+      "statement": "Uma servidora declarou na segunda-feira: “A equipe termina amanhã”. Ao relatar a fala na quinta-feira, pode-se escrever “Na segunda-feira, a servidora declarou que a equipe terminaria no dia seguinte” para preservar a referência à terça-feira.",
+      "correctAnswer": "C",
+      "explanation": "No relato, no dia seguinte se ancora na segunda-feira em que ocorreu a fala. O amanhã do discurso direto também apontava para terça-feira.",
+      "reviewEvidence": "Revisão por IA. Critério de equivalência conferido: No relato, no dia seguinte se ancora na segunda-feira em que ocorreu a fala. O amanhã do discurso direto também apontava para terça-feira. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l075-004-discurso-indireto-primeira-pessoa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita, registro e transposição de discurso",
+      "articleId": "art-fe3c1497fc8133b8",
+      "conceptId": "discurso-indireto-primeira-pessoa",
+      "mechanism": "rastrear-responsavel-pela-acao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fe3c1497fc8133b8#3. Transposição entre Discurso Direto, Discurso Indireto e Discurso Indireto Livre"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/34 - reescrita entre registros formalidade e generos textuais.md",
+        "section": "3. Transposição entre Discurso Direto, Discurso Indireto e Discurso Indireto Livre"
+      },
+      "statement": "Lia afirmou: “Eu entregarei o relatório”. Ao relatar a fala, Rui pode escrever “Lia afirmou que eu entregaria o relatório” sem mudar a pessoa responsável pela entrega.",
+      "correctAnswer": "E",
+      "explanation": "Na citação, eu designa Lia. No relato feito por Rui, eu passa a designar Rui. Para preservar Lia como agente, deve-se empregar a terceira pessoa ou repetir o nome.",
+      "reviewEvidence": "Revisão por IA. Critério de equivalência conferido: Na citação, eu designa Lia. No relato feito por Rui, eu passa a designar Rui. Para preservar Lia como agente, deve-se empregar a terceira pessoa ou repetir o nome. Dificuldade estimada."
     }
   ]
 }

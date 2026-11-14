@@ -42771,6 +42771,90 @@
       "correctAnswer": "C",
       "explanation": "A exibição altera a visualização, enquanto aceitar ou rejeitar resolve as alterações registradas.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Seção canônica do Word 365. A exibição altera a visualização, enquanto aceitar ou rejeitar resolve as alterações registradas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l056-001-disciplina-conviccao-nao-observada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes e coalizões",
+      "articleId": "art-71d4e9b30c86a25f",
+      "conceptId": "disciplina-conviccao-nao-observada",
+      "mechanism": "separar-voto-e-preferencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-71d4e9b30c86a25f#Estrutura: instituições, recursos e resultados"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes.md",
+        "section": "Estrutura: instituições, recursos e resultados"
+      },
+      "statement": "Em uma votação, todos os integrantes de uma bancada seguiram a orientação da liderança. O registro nominal basta para demonstrar que eles tinham a mesma preferência sobre o texto antes da negociação.",
+      "correctAnswer": "E",
+      "explanation": "O registro observa o comportamento final. A convergência pode decorrer de coordenação e não permite identificar as preferências anteriores.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério cotejado com a seção canônica: O registro observa o comportamento final. A convergência pode decorrer de coordenação e não permite identificar as preferências anteriores. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l056-002-apoio-avulso-sem-gabinete",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes e coalizões",
+      "articleId": "art-71d4e9b30c86a25f",
+      "conceptId": "apoio-avulso-sem-gabinete",
+      "mechanism": "distinguir-apoio-legislativo-e-participacao-executiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-71d4e9b30c86a25f#Estrutura: instituições, recursos e resultados"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes.md",
+        "section": "Estrutura: instituições, recursos e resultados"
+      },
+      "statement": "Uma bancada sem participação no gabinete votou a favor de um projeto do governo após negociar alterações. Esse apoio à proposição pode ocorrer sem que o partido passe a ocupar cargo no Executivo.",
+      "correctAnswer": "C",
+      "explanation": "A concordância legislativa sobre uma pauta não exige participação ministerial. O caso mostra apoio pontual negociado.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério cotejado com a seção canônica: A concordância legislativa sobre uma pauta não exige participação ministerial. O caso mostra apoio pontual negociado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l056-003-veto-player-apoio-substituivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes e coalizões",
+      "articleId": "art-71d4e9b30c86a25f",
+      "conceptId": "veto-player-apoio-substituivel",
+      "mechanism": "testar-necessidade-contrafactual-do-consentimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-71d4e9b30c86a25f#Autores e explicações concorrentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes.md",
+        "section": "Autores e explicações concorrentes"
+      },
+      "statement": "Uma bancada aliada se opõe a uma proposta, mas as demais bancadas podem aprová-la sem seus votos e nenhuma regra exige seu consentimento. A condição de aliada basta para torná-la um ator com poder de veto sobre essa proposta, no sentido de Tsebelis.",
+      "correctAnswer": "E",
+      "explanation": "O consentimento do ator precisa ser necessário para alterar o status quo. A posição de aliado e a oposição à proposta não tornam seu consentimento indispensável.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério cotejado com a seção canônica: O consentimento do ator precisa ser necessário para alterar o status quo. A posição de aliado e a oposição à proposta não tornam seu consentimento indispensável. Dificuldade estimada."
     }
   ]
 }

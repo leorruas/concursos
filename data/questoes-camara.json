@@ -48147,6 +48147,62 @@
       "correctAnswer": "C",
       "explanation": "Chamados reabertos pelo mesmo problema dão informação sobre retrabalho. O total encerrado pode subir mesmo quando os problemas voltam.",
       "reviewEvidence": "Revisão por IA. Chamados reabertos pelo mesmo problema dão informação sobre retrabalho. O total encerrado pode subir mesmo quando os problemas voltam. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l130-001-apoio-perdido-controles-mantidos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "apoio-perdido-controles-mantidos",
+      "mechanism": "isolar-mudanca-na-sustentacao-politica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × governabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança × governabilidade"
+      },
+      "statement": "Uma coalizão perde a maioria que sustentava o governo, enquanto os órgãos mantêm seus mecanismos de direção e controle. A perda da maioria pode afetar a governabilidade mesmo sem mudança imediata nesses mecanismos.",
+      "correctAnswer": "C",
+      "explanation": "A maioria compõe a sustentação política do governo. Os mecanismos organizacionais podem permanecer em operação apesar da perda desse apoio.",
+      "reviewEvidence": "Revisão por IA com cotejo da seção indicada. A maioria compõe a sustentação política do governo. Os mecanismos organizacionais podem permanecer em operação apesar da perda desse apoio. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l130-002-maioria-sem-monitoramento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "maioria-sem-monitoramento",
+      "mechanism": "distinguir-apoio-legislativo-e-evidencia-de-controle",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × governabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança × governabilidade"
+      },
+      "statement": "Um governo obtém maioria para aprovar a criação de um serviço. Essa maioria basta para concluir que o órgão executor tem mecanismos de monitoramento capazes de revelar atrasos na entrega.",
+      "correctAnswer": "E",
+      "explanation": "O apoio legislativo sustenta a aprovação da medida. A capacidade de detectar atrasos depende de como o órgão organiza e usa seus mecanismos de monitoramento.",
+      "reviewEvidence": "Revisão por IA com cotejo da seção indicada. O apoio legislativo sustenta a aprovação da medida. A capacidade de detectar atrasos depende de como o órgão organiza e usa seus mecanismos de monitoramento. Dificuldade estimada."
     }
   ]
 }

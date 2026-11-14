@@ -47979,6 +47979,62 @@
       "correctAnswer": "E",
       "explanation": "O tempo total indica quanto durou o atendimento. Localizar a espera exige dados de etapas ou de transferências entre os participantes.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O tempo total indica quanto durou o atendimento. Localizar a espera exige dados de etapas ou de transferências entre os participantes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l127-001-capacidade-com-parceiro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "capacidade-com-parceiro",
+      "mechanism": "avaliar-capacidade-alem-da-equipe-propria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      },
+      "statement": "No triângulo estratégico de Moore, uma parceria que disponibiliza intérpretes para um serviço de atendimento pode ampliar sua capacidade operacional, ainda que a equipe própria do órgão permaneça do mesmo tamanho.",
+      "correctAnswer": "C",
+      "explanation": "A capacidade operacional inclui recursos e relações que viabilizam a entrega. O acesso a intérpretes pode ampliar essa capacidade sem aumentar o quadro próprio.",
+      "reviewEvidence": "Revisão por IA. A capacidade operacional inclui recursos e relações que viabilizam a entrega. O acesso a intérpretes pode ampliar essa capacidade sem aumentar o quadro próprio. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l127-002-beneficio-e-custo-para-nao-usuarios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "beneficio-e-custo-para-nao-usuarios",
+      "mechanism": "distinguir-satisfacao-e-distribuicao-do-beneficio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      },
+      "statement": "Um novo canal digital recebe avaliações positivas de quem conseguiu usá-lo. No triângulo estratégico de Moore, essas avaliações bastam para estabelecer que a mudança gerou valor público para as pessoas que perderam acesso ao atendimento presencial.",
+      "correctAnswer": "E",
+      "explanation": "As avaliações descrevem a experiência de quem usou o canal. Para avaliar o benefício público, também importa saber o que aconteceu com quem perdeu acesso ao atendimento anterior.",
+      "reviewEvidence": "Revisão por IA. As avaliações descrevem a experiência de quem usou o canal. Para avaliar o benefício público, também importa saber o que aconteceu com quem perdeu acesso ao atendimento anterior. Dificuldade estimada."
     }
   ]
 }

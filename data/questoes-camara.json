@@ -41231,6 +41231,146 @@
       "correctAnswer": "E",
       "explanation": "Legitimidade e solidez são dimensões distintas. Dissolução recorrente após a saída de líderes evidencia dependência pessoal em vez de estrutura estável.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do critério na seção canônica: Legitimidade e solidez são dimensões distintas. Dissolução recorrente após a saída de líderes evidencia dependência pessoal em vez de estrutura estável. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l041-001-ferias-fracionamento-administracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, direitos e vantagens",
+      "articleId": "art-2c1333aa75b06e9c",
+      "conceptId": "ferias-fracionamento-administracao",
+      "mechanism": "aplicar-condicoes-cumulativas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c1333aa75b06e9c#3. Direitos: férias e licenças"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/21 - lei 8112 direitos vantagens deveres e proibicoes.md",
+        "section": "3. Direitos: férias e licenças"
+      },
+      "statement": "Um servidor federal pede para dividir suas férias em três etapas. Por estar dentro do limite legal de parcelas, o pedido obriga a Administração a conceder o fracionamento ainda que contrário ao interesse do serviço.",
+      "correctAnswer": "E",
+      "explanation": "O parcelamento depende do requerimento do servidor e do interesse da Administração. O limite de três etapas não elimina a segunda condição.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 8.112/1990, art. 77, § 3º. Critério conferido: O parcelamento depende do requerimento do servidor e do interesse da Administração. O limite de três etapas não elimina a segunda condição. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l041-002-ferias-abater-falta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, direitos e vantagens",
+      "articleId": "art-2c1333aa75b06e9c",
+      "conceptId": "ferias-abater-falta",
+      "mechanism": "separar-regularizacao-de-falta-e-ferias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c1333aa75b06e9c#3. Direitos: férias e licenças"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/21 - lei 8112 direitos vantagens deveres e proibicoes.md",
+        "section": "3. Direitos: férias e licenças"
+      },
+      "statement": "Para regularizar uma falta ao serviço, a chefia pode descontar um dia do saldo de férias do servidor federal, desde que ele concorde com o abatimento.",
+      "correctAnswer": "E",
+      "explanation": "A lei veda levar faltas ao serviço à conta de férias. A concordância individual não afasta essa vedação.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 8.112/1990, art. 77, § 2º. Critério conferido: A lei veda levar faltas ao serviço à conta de férias. A concordância individual não afasta essa vedação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l041-003-ferias-primeira-fracao-adicional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, direitos e vantagens",
+      "articleId": "art-2c1333aa75b06e9c",
+      "conceptId": "ferias-primeira-fracao-adicional",
+      "mechanism": "identificar-evento-de-pagamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c1333aa75b06e9c#3. Direitos: férias e licenças"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/21 - lei 8112 direitos vantagens deveres e proibicoes.md",
+        "section": "3. Direitos: férias e licenças"
+      },
+      "statement": "No parcelamento regular das férias de servidor federal, o adicional constitucional de férias é pago por ocasião da utilização da primeira etapa.",
+      "correctAnswer": "C",
+      "explanation": "A lei vincula o pagamento do adicional ao primeiro período utilizado quando as férias são parceladas.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 8.112/1990, art. 78, § 5º. Critério conferido: A lei vincula o pagamento do adicional ao primeiro período utilizado quando as férias são parceladas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l041-004-diarias-cancelamento-viagem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, direitos e vantagens",
+      "articleId": "art-2c1333aa75b06e9c",
+      "conceptId": "diarias-cancelamento-viagem",
+      "mechanism": "rastrear-dever-de-restituicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c1333aa75b06e9c#2. Tipologia das vantagens pecuniárias: indenizações, gratificações e adicionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/21 - lei 8112 direitos vantagens deveres e proibicoes.md",
+        "section": "2. Tipologia das vantagens pecuniárias: indenizações, gratificações e adicionais"
+      },
+      "statement": "Um servidor federal recebeu diárias, mas a missão foi cancelada antes de ele se afastar da sede. O cancelamento por decisão da Administração não o dispensa de restituir integralmente as diárias no prazo legal.",
+      "correctAnswer": "C",
+      "explanation": "Quando o afastamento não ocorre, a restituição integral é exigida em cinco dias, independentemente do motivo.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 8.112/1990, art. 59, caput. Critério conferido: Quando o afastamento não ocorre, a restituição integral é exigida em cinco dias, independentemente do motivo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l041-005-gratificacao-incorporacao-condicionada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, direitos e vantagens",
+      "articleId": "art-2c1333aa75b06e9c",
+      "conceptId": "gratificacao-incorporacao-condicionada",
+      "mechanism": "distinguir-recebimento-e-incorporacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c1333aa75b06e9c#2. Tipologia das vantagens pecuniárias: indenizações, gratificações e adicionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/21 - lei 8112 direitos vantagens deveres e proibicoes.md",
+        "section": "2. Tipologia das vantagens pecuniárias: indenizações, gratificações e adicionais"
+      },
+      "statement": "O recebimento reiterado de uma gratificação pelo servidor federal basta para incorporá-la aos proventos, mesmo sem hipótese legal de incorporação.",
+      "correctAnswer": "E",
+      "explanation": "Gratificações e adicionais só se incorporam nos casos e condições indicados em lei. O recebimento reiterado não substitui a previsão legal.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 8.112/1990, art. 49, § 2º. Critério conferido: Gratificações e adicionais só se incorporam nos casos e condições indicados em lei. O recebimento reiterado não substitui a previsão legal. Dificuldade estimada."
     }
   ]
 }

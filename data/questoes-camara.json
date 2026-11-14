@@ -42267,6 +42267,90 @@
       "correctAnswer": "C",
       "explanation": "A chamada à ação pode propor diagnóstico compatível com a evidência disponível, sem converter a observação em atribuição causal.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Critério aplicado: A chamada à ação pode propor diagnóstico compatível com a evidência disponível, sem converter a observação em atribuição causal. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l050-001-tcu-relatorio-dupla-periodicidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-relatorio-dupla-periodicidade",
+      "mechanism": "distinguir-relatorio-trimestral-e-anual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "O TCU encaminhou ao Congresso Nacional o relatório anual de suas atividades. Essa remessa, por si só, cumpre toda a obrigação constitucional de envio periódico de relatórios de atividades.",
+      "correctAnswer": "E",
+      "explanation": "O art. 71, § 4º, prevê relatórios trimestrais e anuais ao Congresso. A remessa anual não substitui as trimestrais.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 71, § 4º. O art. 71, § 4º, prevê relatórios trimestrais e anuais ao Congresso. A remessa anual não substitui as trimestrais. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l050-002-comissao-investimento-nao-programado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "comissao-investimento-nao-programado",
+      "mechanism": "identificar-gatilho-independentemente-da-forma",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "Diante de indícios de despesa não autorizada sob a forma de investimento não programado, a comissão mista permanente de orçamento pode solicitar esclarecimentos à autoridade governamental responsável.",
+      "correctAnswer": "C",
+      "explanation": "O art. 72 inclui expressamente investimentos não programados entre as formas que podem assumir as despesas investigadas.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 72, caput. O art. 72 inclui expressamente investimentos não programados entre as formas que podem assumir as despesas investigadas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l050-003-comissao-sustacao-condicoes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / fiscalização contábil, financeira e orçamentária",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "comissao-sustacao-condicoes",
+      "mechanism": "verificar-condicao-para-propor-sustacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "Depois de o TCU considerar irregular uma despesa no procedimento do art. 72, a comissão mista deve propor sua sustação ao Congresso mesmo se entender que o gasto não pode causar dano irreparável nem grave lesão à economia pública.",
+      "correctAnswer": "E",
+      "explanation": "A proposta de sustação depende também do juízo da comissão de que o gasto poderá causar dano irreparável ou grave lesão à economia pública.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 72, § 2º. A proposta de sustação depende também do juízo da comissão de que o gasto poderá causar dano irreparável ou grave lesão à economia pública. Dificuldade estimada."
     }
   ]
 }

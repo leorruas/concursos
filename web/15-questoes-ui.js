@@ -59,9 +59,13 @@ function shuffle(a){let x=a.slice();for(let i=x.length-1;i>0;i--){const j=Math.f
 function contest(){return data?.contests.find(c=>c.id===$('qs-concurso').value);}
 function available(){return data?.questions.filter(q=>q.concursoId===contest()?.id&&q.format==='CE')||[];}
 function eligible(){
- const a=available();if(selected('qs-scope')!=='single')return a;
- const u=$('qs-unidade').value;
- return a.filter(q=>q.subjectId===$('qs-materia').value&&(!u||q.unitId===u));
+ let a=available();
+ if(selected('qs-scope')==='single'){
+  const u=$('qs-unidade').value;
+  a=a.filter(q=>q.subjectId===$('qs-materia').value&&(!u||q.unitId===u));
+ }
+ const level=$('qs-difficulty-filter').value;
+ return level?a.filter(q=>q.estimatedDifficulty===level):a;
 }
 function updateSubjects(){
  const select=$('qs-materia'),count=new Map();available().forEach(q=>{const val=count.get(q.subjectId)||{label:q.subjectName||q.subjectId,n:0};val.n++;count.set(q.subjectId,val);});
@@ -107,6 +111,8 @@ function render(){
  const q=question();if(!q){status('Questão indisponível. Encerre esta bateria.');return;}
  $('qs-number').textContent='Questão '+(session.answers.length+1)+' / '+session.ids.length;
  $('qs-context').textContent=(q.examPart||'')+' · '+(q.unitName||q.subjectName||q.subjectId);
+ const levels={facil:'fácil',media:'média',dificil:'difícil','muito-dificil':'muito difícil'};
+ $('qs-question-difficulty').textContent=q.estimatedDifficulty?'Dificuldade estimada: '+(levels[q.estimatedDifficulty]||q.estimatedDifficulty):'Dificuldade não classificada';
  $('qs-progress-bar').style.width=(100*session.answers.length/session.ids.length)+'%';$('qs-statement').textContent=q.statement;
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>{e.checked=false;e.disabled=false;});
  $('qs-insecure').checked=false;$('qs-insecure').disabled=false;
@@ -158,6 +164,22 @@ function finish(){
   const box=elem('div');box.append(elem('strong',value),elem('span',label));return box;
  }));
  $('qs-score').textContent=correct+' de '+session.answers.length+' questões. '+(session.concursoId==='camara-2026'?'Saldo C/E: '+(correct-wrong)+'. ':'')+'Treino didático, não equivale à nota oficial.';
+ const difficultyGroups=new Map();
+ for(const a of session.answers){
+  const q=data.map.get(a.questionId),k=q?.estimatedDifficulty||'sem-classificacao';
+  if(!difficultyGroups.has(k))difficultyGroups.set(k,{total:0,correct:0,incorrect:0});
+  const d=difficultyGroups.get(k);d.total++;
+  if(a.result==='correct')d.correct++;
+  if(a.result==='incorrect')d.incorrect++;
+ }
+ const difficultyLabels={facil:'Fácil',media:'Média',dificil:'Difícil','muito-dificil':'Muito difícil','sem-classificacao':'Sem classificação'};
+ const difficultyRoot=$('qs-battery-difficulty');
+ difficultyRoot.replaceChildren(...['facil','media','dificil','muito-dificil','sem-classificacao'].filter(k=>difficultyGroups.has(k)).map(k=>{
+  const d=difficultyGroups.get(k),row=elem('div');row.className='qs-difficulty-item';
+  const judged=d.correct+d.incorrect,rate=judged?Math.round(100*d.correct/judged)+'%':'sem amostra';
+  row.append(elem('strong',difficultyLabels[k]),elem('span',d.total+' tentativa(s) · acerto: '+rate));return row;
+ }));
+
  $('qs-results-link').href='resultados.html?concurso='+encodeURIComponent(session.concursoId);
  const priorities=quizPriorityGroups(session.answers,data.map,session.concursoId).slice(0,5);
  const container=$('qs-priorities');container.replaceChildren();
@@ -197,7 +219,7 @@ async function auth(){
 function theme(){const t=document.documentElement.dataset.theme==='light'?'dark':'light';document.documentElement.dataset.theme=t;localStorage.setItem('tema-concursos',t);$('qs-theme').textContent=t==='light'?'modo escuro':'modo claro';}
 async function init(){
  $('qs-theme').textContent=document.documentElement.dataset.theme==='light'?'modo escuro':'modo claro';$('qs-theme').addEventListener('click',theme);
- $('qs-concurso').addEventListener('change',updateSubjects);$('qs-materia').addEventListener('change',updateUnits);$('qs-unidade').addEventListener('change',availability);
+ $('qs-concurso').addEventListener('change',updateSubjects);$('qs-materia').addEventListener('change',updateUnits);$('qs-unidade').addEventListener('change',availability);$('qs-difficulty-filter').addEventListener('change',availability);
  const count=$('qs-count');
  const refreshPresets=()=>document.querySelectorAll('#qs-presets button').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.count)===Number(count.value))));
  count.addEventListener('input',refreshPresets);

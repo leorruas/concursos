@@ -38039,6 +38039,398 @@
       "correctAnswer": "C",
       "explanation": "A autorização orçamentária adicional não gera automaticamente caixa nem substitui empenho, liquidação e demais condições para pagamento.",
       "reviewEvidence": "Lote 027, revisão editorial técnica final por IA em 13/11/2026: ID cam-orc-l027-040-credito-nao-resolve-caixa, gabarito C, mecanismo separar-orcamento-e-financas. Relidos enunciado e explicação; verificados fundamento e critérios no artigo canônico 3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md, articleId art-87b69e1d4ac54f20, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação' (theoryRef conforme nota). Normas/fontes principais: Lei nº 4.320/1964 arts. 40 a 46; Constituição Federal arts. 62 e 167, conforme a questão. Triagem de novidade: revisão de 40 mecanismos distintos, comparação lexical do banco com 1.040 questões de expansão e 389 itens do piloto, seguida de inspeção dos pares de maior semelhança. Reformuladas duplicações demonstradas nos itens 001, 005, 006, 007, 008, 009, 014, 021 e 029; outras semelhanças temáticas têm critérios ou operações de julgamento diferentes. Verificadas integridade do JSON, IDs/conceitos/mecanismos únicos, fonte, seção, parte e gabarito. Revisão realizada por IA, NÃO homologação humana; gates automatizados devem ser confirmados no SHA final deste commit antes de integrar. Evidência das etapas anteriores: Revisão técnica automatizada em 13/11/2026: enunciado C, abertura de crédito suplementar não substitui disponibilidade financeira nem fases de despesa. Artigo 05, heading literal 'Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação'. Lei 4.320/1964 arts. 40, 47 a 49, 58 a 65, texto atualizado Câmara: https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html. Triagem lexical Jaccard máxima 0,125; semântica e testes locais pendentes; não homologado."
+    },
+    {
+      "id": "cam-cpol-l028-001-duverger-efeito-mecanico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "duverger-efeito-mecanico",
+      "mechanism": "distinguir-perda-cadeiras-e-voto-estrategico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Autores, mecanismos e limites das hipóteses"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Autores, mecanismos e limites das hipóteses"
+      },
+      "statement": "Em um distrito uninominal que atribui a cadeira à candidatura mais votada, uma legenda recebe 28% dos votos válidos e fica em segundo lugar. A ausência de cadeira para essa legenda caracteriza o efeito psicológico de Duverger, mesmo sem informação sobre o comportamento estratégico dos eleitores.",
+      "correctAnswer": "E",
+      "explanation": "O efeito mecânico decorre da própria conversão de votos em cadeiras: só o vencedor ocupa a vaga. O efeito psicológico envolve antecipação e coordenação estratégica; não foi demonstrado no cenário.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. A regra de cadeira única explica o resultado observado, sem evidência de voto estratégico. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-003-representacao-descritiva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "representacao-descritiva-nao-deriva-proporcionalidade",
+      "mechanism": "distinguir-proporcao-partidaria-e-composicao-social",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#Comparação teórica: fórmula, magnitude e efeitos"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "Comparação teórica: fórmula, magnitude e efeitos"
+      },
+      "statement": "Um sistema que distribui cadeiras de modo exatamente proporcional aos votos recebidos pelos partidos garante, por essa única característica, que a composição social do Parlamento reproduza a distribuição de gênero e raça do eleitorado.",
+      "correctAnswer": "E",
+      "explanation": "Proporcionalidade partidária compara votos e cadeiras de legendas; representação descritiva compara características sociais de representantes e representados. Uma não garante a outra.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. O caso exige distinguir a distribuição de assentos entre partidos da composição social dos eleitos. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-004-voto-alternativo-rodadas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "voto-alternativo-rodadas",
+      "mechanism": "diferenciar-rodada-apuracao-e-novo-pleito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Comparação entre desenhos majoritários"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Comparação entre desenhos majoritários"
+      },
+      "statement": "Em um sistema de voto alternativo, a redistribuição de preferências após a eliminação de uma candidatura constitui necessariamente um segundo turno eleitoral, com nova convocação dos eleitores às urnas.",
+      "correctAnswer": "E",
+      "explanation": "No voto alternativo, preferências ordenadas na mesma cédula são transferidas em rodadas de apuração. Isso difere de convocar nova votação, como no sistema brasileiro de dois turnos.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. O critério é a existência de nova votação, independentemente do número de rodadas de apuração. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-005-magnitude-efeito-condicionado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "magnitude-distrital-nao-suficiente",
+      "mechanism": "avaliar-condicoes-para-representacao-minorias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#Comparação teórica: fórmula, magnitude e efeitos"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "Comparação teórica: fórmula, magnitude e efeitos"
+      },
+      "statement": "Ao aumentar de três para dez o número de cadeiras de uma circunscrição proporcional, mantendo inalterados os demais elementos do sistema, pode-se ampliar a oportunidade de representação de partidos menores, mas o resultado não é garantido independentemente da distribuição dos votos e dos limiares aplicáveis.",
+      "correctAnswer": "C",
+      "explanation": "Magnitude distrital maior pode reduzir barreiras efetivas à obtenção de cadeiras, mas distribuição territorial de votos, fórmula e limiares também condicionam o resultado; a relação é uma tendência, não uma necessidade lógica.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. A mudança de magnitude altera a oportunidade de obter assento, enquanto votos e limiares condicionam o resultado. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-006-federacao-coligacao-proporcional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "federacao-coligacao-proporcional",
+      "mechanism": "distinguir-alianca-ocasional-e-unidade-votos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#Núcleo do conceito"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "Núcleo do conceito"
+      },
+      "statement": "Uma coligação eleitoral formada apenas para disputar cargos proporcionais pode somar votos das legendas participantes para calcular um quociente partidário comum, desde que seja registrada antes da eleição.",
+      "correctAnswer": "E",
+      "explanation": "Coligações são vedadas nas eleições proporcionais. Federações partidárias, regidas por regras próprias, atuam como unidade de agregação de votos; não equivalem a coligações eleitorais ocasionais.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. CF, art. 17, § 1º, e Lei 9.504/1997, art. 6º-A. O registro antecipado não afasta a vedação constitucional à coligação proporcional. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-007-sobras-restrita-criterios-distintos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "sobras-restrita-criterios-distintos",
+      "mechanism": "aplicar-oitenta-vinte-a-sujeitos-distintos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#3. Distribuição de sobras: maiores médias"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "3. Distribuição de sobras: maiores médias"
+      },
+      "statement": "Com quociente eleitoral de 12.000 votos, uma legenda que obteve 9.700 votos e dispõe de candidato remanescente com 2.350 votos nominais satisfaz simultaneamente os requisitos de 80% e 20% do QE para disputar a etapa restrita das sobras.",
+      "correctAnswer": "E",
+      "explanation": "O partido supera 80% do QE (9.600), mas a candidatura fica abaixo de 20% do QE (2.400). Os dois requisitos são cumulativos nessa etapa.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Resolução TSE 23.677/2021, art. 11. O partido supera 9.600 votos, mas a candidatura fica abaixo de 2.400. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-008-suplencia-minimo-nominal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "suplencia-sem-minimo-dez-por-cento",
+      "mechanism": "distinguir-criterio-eleicao-e-suplencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#Quem ocupa as vagas e quem fica como suplente"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "Quem ocupa as vagas e quem fica como suplente"
+      },
+      "statement": "Em eleição proporcional, uma candidatura não eleita que recebeu menos de 10% do quociente eleitoral pode integrar a lista de suplentes de sua legenda, pois o mínimo individual exigido para a distribuição inicial das cadeiras não se estende automaticamente à suplência.",
+      "correctAnswer": "C",
+      "explanation": "O art. 112, parágrafo único, do Código Eleitoral afasta a exigência de votação nominal mínima do art. 108 para a definição dos suplentes; a ordem de suplência segue a votação nominal na legenda ou federação.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código Eleitoral, art. 112, parágrafo único, e Resolução TSE 23.677/2021, art. 14. A votação mínima para eleição inicial não se aplica à suplência. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-009-duverger-efeito-psicologico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "duverger-efeito-psicologico",
+      "mechanism": "antecipacao-de-inviabilidade-e-retirada-estrategica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Autores, mecanismos e limites das hipóteses"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Autores, mecanismos e limites das hipóteses"
+      },
+      "statement": "Uma legenda decide não lançar candidatura em um distrito uninominal porque antecipa que sua votação será insuficiente para vencer e prefere apoiar outra candidatura competitiva. Essa decisão pode exemplificar o efeito psicológico associado a Duverger, mesmo antes de qualquer voto ser contado.",
+      "correctAnswer": "C",
+      "explanation": "O efeito psicológico envolve antecipação dos efeitos da regra eleitoral e coordenação estratégica de partidos, candidatos ou eleitores. A decisão de não concorrer decorre da expectativa sobre a disputa, enquanto o efeito mecânico aparece na conversão efetiva de votos em cadeiras.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. A retirada ocorre antes da apuração e evidencia antecipação estratégica por uma organização partidária. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-010-voto-alternativo-transferencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "preferencia-transferida-apos-eliminacao",
+      "mechanism": "avaliar-transferencia-condicionada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Comparação entre desenhos majoritários"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Comparação entre desenhos majoritários"
+      },
+      "statement": "No voto alternativo, a eliminação de uma candidatura implica transferir todos os votos que ela recebeu à candidatura que estava em segundo lugar na contagem inicial, independentemente das preferências seguintes indicadas pelos eleitores.",
+      "correctAnswer": "E",
+      "explanation": "A redistribuição segue a próxima preferência válida registrada em cada cédula; não há transferência automática ao segundo colocado agregado.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. A unidade de análise é cada cédula. A posição do segundo colocado na contagem inicial não determina para onde vão as preferências. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-011-representacao-federativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "senado-igualdade-federativa-independente-formula",
+      "mechanism": "distinguir-alocacao-territorial-e-formula-vitoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Efeitos: expectativas, não equivalências lógicas"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Efeitos: expectativas, não equivalências lógicas"
+      },
+      "statement": "A distribuição de três cadeiras do Senado a cada estado e ao Distrito Federal decorre necessariamente da adoção do sistema majoritário, de modo que seria impossível preservar a mesma igualdade territorial em outro desenho de votação.",
+      "correctAnswer": "E",
+      "explanation": "A igualdade de representação territorial é uma escolha constitucional sobre distribuição de cadeiras entre unidades federativas. A fórmula eleitoral de seleção dos ocupantes é uma dimensão distinta.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. CF, art. 46, caput e § 1º. A norma que fixa três representantes por unidade federativa estabelece um critério separado da fórmula que seleciona os eleitos. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-013-qe-fracao-limite",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "qe-arredondamento-meia-fracao",
+      "mechanism": "calcular-limiar-arredondamento-qe",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#1. Quociente eleitoral (QE)"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "1. Quociente eleitoral (QE)"
+      },
+      "statement": "Para o cálculo do quociente eleitoral, um resultado de 1.250,5 deve ser elevado a 1.251, porque a fração igual a meio já determina arredondamento para cima.",
+      "correctAnswer": "E",
+      "explanation": "O art. 106 do Código Eleitoral manda desprezar a fração igual ou inferior a meio e elevar apenas a fração superior a meio. O QE seria 1.250.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código Eleitoral, art. 106. A fração exatamente igual a meio deve ser descartada. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-014-lista-flexivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "lista-flexivel",
+      "mechanism": "distinguir-lista-flexivel-de-aberta-e-fechada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#Quem ocupa as vagas e quem fica como suplente"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "Quem ocupa as vagas e quem fica como suplente"
+      },
+      "statement": "Em sistemas proporcionais de lista flexível, a ordem inicialmente definida pelo partido pode ser alterada por preferências expressas pelos eleitores, conforme regras específicas; isso os distingue tanto de listas inteiramente fechadas quanto do modelo brasileiro de lista aberta.",
+      "correctAnswer": "C",
+      "explanation": "A lista flexível combina uma ordem partidária inicial com possibilidade condicionada de influência do eleitor. Na lista fechada, prevalece a ordem predefinida; na lista aberta brasileira, a votação nominal ordena candidaturas dentro do grupo.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. O caso exige identificar a ordem prévia combinada com possibilidade condicionada de alteração pelo voto. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-015-nenhum-partido-qe",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-2e96b7d14a53c80f",
+      "conceptId": "ausencia-qp-distribuicao-medias",
+      "mechanism": "aplicar-excecao-nenhuma-legenda-atinge-qe",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2e96b7d14a53c80f#3. Distribuição de sobras: maiores médias"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/24 - sistema eleitoral proporcional quocientes listas e efeitos.md",
+        "section": "3. Distribuição de sobras: maiores médias"
+      },
+      "statement": "Se nenhuma legenda atingir o quociente eleitoral, todas as cadeiras de uma eleição proporcional serão preenchidas automaticamente pelos candidatos mais votados na circunscrição, sem cálculo de médias por partido ou federação.",
+      "correctAnswer": "E",
+      "explanation": "Pela interpretação do STF, aplica-se primeiro a distribuição por maiores médias com o filtro 80/20. Se remanescerem vagas e se esgotarem as candidaturas que atendem ao filtro, a etapa final abre a disputa por médias. A votação nominal isolada não distribui as cadeiras.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Código Eleitoral, nota oficial ao art. 111, e STF, ADIs 7.228, 7.263 e 7.325. Aplicam-se as etapas sucessivas por maiores médias, com filtro 80/20 na etapa restrita e participação aberta na etapa final. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
+    },
+    {
+      "id": "cam-cpol-l028-016-concentracao-territorial-cadeiras",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "distribuicao-territorial-votos-cadeiras",
+      "mechanism": "distinguir-votos-nacionais-e-vitorias-distritais",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Efeitos: expectativas, não equivalências lógicas"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Efeitos: expectativas, não equivalências lógicas"
+      },
+      "statement": "Em eleição legislativa realizada em distritos uninominais por pluralidade, o partido A obtém 52% dos votos somados nacionalmente, mas vence apenas 40 dos 100 distritos, enquanto o partido B vence os outros 60. Nesse desenho, é possível que B obtenha mais cadeiras que A, apesar de A ter recebido mais votos no total nacional.",
+      "correctAnswer": "C",
+      "explanation": "Cada distrito atribui uma cadeira à candidatura mais votada localmente. A soma nacional dos votos não distribui diretamente as cadeiras: se B vence 60 distritos e A vence 40, B conquista mais assentos, mesmo com votação nacional agregada inferior. A concentração e a distribuição territorial dos votos são decisivas.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. A unidade de atribuição da cadeira é o distrito. Sessenta vitórias locais rendem sessenta cadeiras, independentemente do total nacional. Conferidos o gabarito, o subtítulo literal e a diferença de julgamento perante os itens do piloto e os exercícios dos artigos 23 e 24. Sem homologação humana."
     }
   ]
 }

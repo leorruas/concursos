@@ -43191,6 +43191,90 @@
       "correctAnswer": "C",
       "explanation": "A classificação opera sobre a ordem dos slides inteiros. Mover uma miniatura não muda a disposição dos elementos no interior do slide.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Critério conferido na seção canônica: A classificação opera sobre a ordem dos slides inteiros. Mover uma miniatura não muda a disposição dos elementos no interior do slide. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l061-001-only-if-not-sufficient",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "only-if-not-sufficient",
+      "mechanism": "distinguish-necessary-from-sufficient",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#3. Delimitadores de Escopo e Operadores Restritivos"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "3. Delimitadores de Escopo e Operadores Restritivos"
+      },
+      "statement": "“The library issues a temporary card only if the applicant provides identification.” The sentence guarantees a temporary card to every applicant who provides identification.",
+      "correctAnswer": "E",
+      "explanation": "Only if apresenta a identificação como condição necessária. A frase não estabelece que seja suficiente para receber o cartão.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério conferido na análise do trecho: Only if apresenta a identificação como condição necessária. A frase não estabelece que seja suficiente para receber o cartão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l061-002-even-contrary-expectation",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "even-contrary-expectation",
+      "mechanism": "distinguish-scalar-focus-from-exclusion",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#3. Delimitadores de Escopo e Operadores Restritivos"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "3. Delimitadores de Escopo e Operadores Restritivos"
+      },
+      "statement": "“Even the smallest branch met the target.” The word “even” means that the smallest branch was the only branch to meet the target.",
+      "correctAnswer": "E",
+      "explanation": "Even realça um caso apresentado como menos esperado. A exclusividade seria expressa por only, que não aparece na frase.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério conferido na análise do trecho: Even realça um caso apresentado como menos esperado. A exclusividade seria expressa por only, que não aparece na frase. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l061-003-almost-all-exception",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-410108ee89cfadfa",
+      "conceptId": "almost-all-exception",
+      "mechanism": "test-universality-under-approximator",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-410108ee89cfadfa#2. Quantificadores Lógicos e a Fronteira do Escopo"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/16 - comparativos quantificadores e delimitadores de escopo em ingles.md",
+        "section": "2. Quantificadores Lógicos e a Fronteira do Escopo"
+      },
+      "statement": "“Almost all the files were recovered.” Replacing “Almost all the files” with “All the files” would strengthen the claim about the recovery.",
+      "correctAnswer": "C",
+      "explanation": "Almost all indica quantidade próxima da totalidade. All afirma recuperação de todos os arquivos, sem a restrição original.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério conferido na análise do trecho: Almost all indica quantidade próxima da totalidade. All afirma recuperação de todos os arquivos, sem a restrição original. Dificuldade estimada."
     }
   ]
 }

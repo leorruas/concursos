@@ -1,35 +1,53 @@
-/* Navegação compartilhada: mesma identidade e contexto de concurso do catálogo. */
-(function(){
+/* Navegação compartilhada da biblioteca e das ferramentas de estudo.
+ * A origem autenticada é a única que sincroniza progresso pessoal.
+ * Links de leitura não carregam credenciais nem dados de desempenho. */
+(() => {
  'use strict';
- const worker=location.origin==='https://concurso-estudo.leoruas.workers.dev';
- const nav=document.querySelector('.study-topbar');if(!nav)return;
- const library=worker?'estudo/':'index.html';
- const params=new URLSearchParams(location.search);
- let exam=params.get('concurso')||'';
- if(!exam){try{exam=localStorage.getItem('concurso_ativo_id')||'camara-2026';}catch{exam='camara-2026';}}
- const known=new Set(['camara-2026','cgu-2026','dataprev-2026']);
- if(!known.has(exam))exam='camara-2026';
- function update(examId){
-  if(!known.has(examId))return;
-  exam=examId;
-  const links={
-   library:library+'#/?concurso='+encodeURIComponent(exam),
-   glossary:library+'#/glossario?concurso='+encodeURIComponent(exam),
-   flashcards:'flashcards.html?concurso='+encodeURIComponent(exam),
-   questions:'questoes.html?concurso='+encodeURIComponent(exam),
-   results:'resultados.html?concurso='+encodeURIComponent(exam)
-  };
-  for(const [key,href] of Object.entries(links)){
-   const link=nav.querySelector('[data-study-nav="'+key+'"]');
-   if(link)link.href=href;
+ const WORKER='https://concurso-estudo.leoruas.workers.dev';
+ const allowed=new Set(['camara-2026','cgu-2026','dataprev-2026','anpd-2026']);
+ const onWorker=location.origin===new URL(WORKER).origin;
+ const nav=document.querySelector('.study-topbar');
+ const sticky=document.getElementById('sticky-nav');
+ const controls={
+  exam:document.getElementById('qs-concurso')||document.getElementById('results-contest')||document.getElementById('fc-exam')
+ };
+ const stored=()=>{try{return localStorage.getItem('concurso_ativo_id')||'';}catch{return '';}};
+ function contest(){
+  const value=controls.exam?.value||new URLSearchParams(location.search).get('concurso')||stored();
+  return allowed.has(value)?value:'camara-2026';
+ }
+ function destinations(){
+  const exam=encodeURIComponent(contest());
+  const library=onWorker?'/estudo/':'index.html';
+  return {library,glossary:library+'#/glossario?concurso='+exam,
+   flashcards:WORKER+'/flashcards.html?concurso='+exam,
+   questions:WORKER+'/questoes.html?concurso='+exam,
+   results:WORKER+'/resultados.html?concurso='+exam};
+ }
+ function update(){
+  const href=destinations();
+  if(nav){
+   for(const link of nav.querySelectorAll('a[data-study-nav]')){
+    const key=link.getAttribute('data-study-nav');
+    if(href[key])link.href=href[key];
+    if(key===nav.dataset.active)link.setAttribute('aria-current','page');
+    else link.removeAttribute('aria-current');
+   }
+  }
+  if(sticky){
+   const refs={'nav-link-glossario':'glossary','nav-link-flashcards':'flashcards',
+      'nav-link-questoes':'questions','nav-link-resultados':'results'};
+   for(const [id,key] of Object.entries(refs)){
+    const a=document.getElementById(id);if(a)a.href=href[key];
+   }
   }
  }
- update(exam);
- for(const id of ['qs-concurso','results-contest','fc-concurso']){
-  const control=document.getElementById(id);
-  control?.addEventListener('change',()=>update(control.value));
+ function persistChoice(){
+  const id=controls.exam?.value;
+  if(allowed.has(id))try{localStorage.setItem('concurso_ativo_id',id);}catch{}
+  update();
  }
- const active=nav.dataset.active||'';
- const current=nav.querySelector('[data-study-nav="'+active+'"]');
- if(current)current.setAttribute('aria-current','page');
+ if(controls.exam)controls.exam.addEventListener('change',persistChoice);
+ update();
+ window.addEventListener('hashchange',update);
 })();

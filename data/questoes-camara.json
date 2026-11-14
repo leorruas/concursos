@@ -46439,6 +46439,62 @@
       "correctAnswer": "C",
       "explanation": "A parlamentar levou em conta a demanda e alterou a proposta. A responsividade pode aparecer em uma resposta parcial, sem exigir coincidência integral com a preferência manifestada.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A parlamentar levou em conta a demanda e alterou a proposta. A responsividade pode aparecer em uma resposta parcial, sem exigir coincidência integral com a preferência manifestada. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l102-002-derrota-orcamentaria-sem-destituicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo",
+      "articleId": "art-d7b3e591a46c82f0",
+      "conceptId": "derrota-orcamentaria-sem-destituicao",
+      "mechanism": "separar-derrota-legislativa-e-perda-do-mandato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Presidencialismo: separação de origem e sobrevivência dos poderes"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo.md",
+        "section": "Presidencialismo: separação de origem e sobrevivência dos poderes"
+      },
+      "statement": "Em um sistema presidencialista, o Legislativo rejeita uma proposta prioritária de orçamento. Dessa derrota, por si só, decorre o término do mandato presidencial por perda de confiança parlamentar.",
+      "correctAnswer": "E",
+      "explanation": "A rejeição é uma derrota legislativa. No presidencialismo, a continuidade do mandato presidencial não depende da confiança ordinária do Legislativo.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A rejeição é uma derrota legislativa. No presidencialismo, a continuidade do mandato presidencial não depende da confiança ordinária do Legislativo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l102-003-coabitacao-apos-alternancia-parlamentar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo",
+      "articleId": "art-d7b3e591a46c82f0",
+      "conceptId": "coabitacao-apos-alternancia-parlamentar",
+      "mechanism": "localizar-mudanca-na-base-do-gabinete",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Coabitação versus governo dividido"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo.md",
+        "section": "Coabitação versus governo dividido"
+      },
+      "statement": "Em um sistema semipresidencialista, após eleição parlamentar, o presidente continua no cargo e passa a conviver com um primeiro-ministro sustentado pela nova maioria adversária. Essa combinação é compatível com a coabitação.",
+      "correctAnswer": "C",
+      "explanation": "O presidente permanece no cargo enquanto o gabinete se apoia em maioria parlamentar de orientação adversária. Essa combinação caracteriza a coabitação nesse tipo de sistema.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O presidente permanece no cargo enquanto o gabinete se apoia em maioria parlamentar de orientação adversária. Essa combinação caracteriza a coabitação nesse tipo de sistema. Dificuldade estimada."
     }
   ]
 }

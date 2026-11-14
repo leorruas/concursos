@@ -46775,6 +46775,90 @@
       "correctAnswer": "C",
       "explanation": "O aviso indica que a espera ficou mais curta. Uma redução pode deixar um tempo de espera positivo.",
       "reviewEvidence": "Revisão por IA com conferência da inferência na seção indicada. O aviso indica que a espera ficou mais curta. Uma redução pode deixar um tempo de espera positivo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l107-001-agentless-passive-inference",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-818a6bdff1647253",
+      "conceptId": "agentless-passive-inference",
+      "mechanism": "evaluate-whether-agent-is-entailed",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#1.1. Motivações Discursivas para o Emprego da Voz Passiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md",
+        "section": "1.1. Motivações Discursivas para o Emprego da Voz Passiva"
+      },
+      "statement": "The notice reads: “Three entries were removed during the audit.” This wording establishes that the auditors themselves removed the entries.",
+      "correctAnswer": "E",
+      "explanation": "A passiva omite o agente. “During the audit” situa a remoção no tempo, mas não identifica quem a realizou.",
+      "reviewEvidence": "Revisão por IA com conferência da estrutura e do sentido na seção indicada. A passiva omite o agente. “During the audit” situa a remoção no tempo, mas não identifica quem a realizou. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l107-002-past-progressive-passive",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-818a6bdff1647253",
+      "conceptId": "past-progressive-passive",
+      "mechanism": "preserve-completion-status-under-rewrite",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#2. Tabela de Transposição de Tempos Verbais para a Voz Passiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md",
+        "section": "2. Tabela de Transposição de Tempos Verbais para a Voz Passiva"
+      },
+      "statement": "Replacing “The technician was calibrating the meter when the alarm rang” with “The meter had been calibrated when the alarm rang” preserves the information about whether the calibration had already been completed.",
+      "correctAnswer": "E",
+      "explanation": "A primeira frase apresenta uma calibração em curso quando o alarme tocou. A segunda a apresenta como concluída até aquele momento.",
+      "reviewEvidence": "Revisão por IA com conferência da estrutura e do sentido na seção indicada. A primeira frase apresenta uma calibração em curso quando o alarme tocou. A segunda a apresenta como concluída até aquele momento. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l107-003-ditransitive-recipient-passive",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-818a6bdff1647253",
+      "conceptId": "ditransitive-recipient-passive",
+      "mechanism": "track-recipient-after-subject-change",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-818a6bdff1647253#3.1. Verbos Ditransitivos (Dois Objetos: Direto e Indireto)"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/14 - voz ativa passiva e foco informacional em ingles.md",
+        "section": "3.1. Verbos Ditransitivos (Dois Objetos: Direto e Indireto)"
+      },
+      "statement": "“The archive sent each researcher a temporary code” and “Each researcher was sent a temporary code by the archive” identify the same sender and recipient of the code.",
+      "correctAnswer": "C",
+      "explanation": "O arquivo pratica o envio nas duas construções. Na passiva, o pesquisador passa a sujeito gramatical e permanece o destinatário.",
+      "reviewEvidence": "Revisão por IA com conferência da estrutura e do sentido na seção indicada. O arquivo pratica o envio nas duas construções. Na passiva, o pesquisador passa a sujeito gramatical e permanece o destinatário. Dificuldade estimada."
     }
   ]
 }

@@ -46103,6 +46103,62 @@
       "correctAnswer": "C",
       "explanation": "O art. 71, I, dá ao TCU sessenta dias a partir do recebimento das contas para elaborar o parecer prévio.",
       "reviewEvidence": "Revisão por IA com conferência da Constituição consolidada pela Câmara. O art. 71, I, dá ao TCU sessenta dias a partir do recebimento das contas para elaborar o parecer prévio. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l098-001-recurso-encaminhamento-autoridade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "recurso-encaminhamento-autoridade",
+      "mechanism": "ordenar-reconsideracao-e-remessa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#3.1 Prazos e regras gerais de tramitação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "3.1 Prazos e regras gerais de tramitação"
+      },
+      "statement": "Em processo regido pela Lei nº 9.784/1999, o recurso é dirigido à autoridade que proferiu a decisão, que deverá encaminhá-lo à autoridade superior se não reconsiderar a decisão em cinco dias.",
+      "correctAnswer": "C",
+      "explanation": "O art. 56, § 1º, prevê primeiro a oportunidade de reconsideração e, se ela não ocorrer em cinco dias, a remessa à autoridade superior.",
+      "reviewEvidence": "Revisão por IA com conferência do procedimento e dos prazos na seção indicada. O art. 56, § 1º, prevê primeiro a oportunidade de reconsideração e, se ela não ocorrer em cinco dias, a remessa à autoridade superior. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l098-002-recurso-limite-por-lei-especial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "recurso-limite-por-lei-especial",
+      "mechanism": "aplicar-ressalva-legal-ao-limite-de-instancias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#3.1 Prazos e regras gerais de tramitação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "3.1 Prazos e regras gerais de tramitação"
+      },
+      "statement": "Uma lei especial prevê quatro instâncias administrativas para determinada espécie de recurso federal. Essa previsão contraria a Lei nº 9.784/1999 pelo simples fato de exceder três instâncias.",
+      "correctAnswer": "E",
+      "explanation": "O art. 57 fixa o máximo de três instâncias como regra geral e admite disposição legal diversa. O limite especial pode ser superior.",
+      "reviewEvidence": "Revisão por IA com conferência da ressalva do art. 57 na seção indicada. O art. 57 fixa o máximo de três instâncias como regra geral e admite disposição legal diversa. O limite especial pode ser superior. Dificuldade estimada."
     }
   ]
 }

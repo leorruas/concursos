@@ -44199,6 +44199,90 @@
       "correctAnswer": "E",
       "explanation": "A lei admite cancelamento após o período de efetivo exercício sem nova infração, mas exclui efeito retroativo.",
       "reviewEvidence": "Revisão editorial por IA. Lei nº 8.112/1990, art. 131. A lei admite cancelamento após o período de efetivo exercício sem nova infração, mas exclui efeito retroativo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l073-001-etica-consulta-sem-edicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "etica-consulta-sem-edicao",
+      "mechanism": "distinguir-acesso-e-alteracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      },
+      "statement": "Ao encontrar divergência em registro de presença parlamentar, o Conselho de Ética pode alterá-lo diretamente com base no acesso ao sistema assegurado pelo art. 17 do Código de Ética.",
+      "correctAnswer": "E",
+      "explanation": "O acesso previsto nesse artigo é exclusivamente para consulta. A constatação de divergência não confere ao Conselho permissão para editar o registro.",
+      "reviewEvidence": "Revisão por IA. Código de Ética, art. 17. O acesso previsto nesse artigo é exclusivamente para consulta. A constatação de divergência não confere ao Conselho permissão para editar o registro. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l073-002-etica-sistema-novo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "etica-sistema-novo",
+      "mechanism": "avaliar-abrangencia-temporal-do-acesso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Sistema de Acompanhamento e Informações do Mandato Parlamentar (art. 17)"
+      },
+      "statement": "A criação de um novo banco de dados na Câmara após a edição do Código de Ética não o exclui, por esse único motivo, da previsão de acesso para consulta pelo Conselho.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo alcança também sistemas e bancos de dados que venham a ser criados na Câmara, observada a finalidade de consulta.",
+      "reviewEvidence": "Revisão por IA. Código de Ética, art. 17. O dispositivo alcança também sistemas e bancos de dados que venham a ser criados na Câmara, observada a finalidade de consulta. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l073-003-etica-representacao-ofensiva-remessa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "etica-representacao-ofensiva-remessa",
+      "mechanism": "distinguir-reparacao-e-sancao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Se a representação for considerada leviana ou ofensiva à imagem do deputado, a remessa dos autos à Procuradoria Parlamentar destina-se a providências reparadoras.",
+      "correctAnswer": "C",
+      "explanation": "A Procuradoria recebe os autos para providências de reparação da imagem. Essa remessa não é uma penalidade disciplinar imposta ao deputado representado.",
+      "reviewEvidence": "Revisão por IA. Código de Ética, art. 15, parágrafo único. A Procuradoria recebe os autos para providências de reparação da imagem. Essa remessa não é uma penalidade disciplinar imposta ao deputado representado. Dificuldade estimada."
     }
   ]
 }

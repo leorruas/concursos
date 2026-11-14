@@ -47447,6 +47447,34 @@
       "correctAnswer": "E",
       "explanation": "No later than Friday admite a própria sexta-feira. Before Friday exige a entrega em dia anterior.",
       "reviewEvidence": "Revisão por IA com conferência da equivalência na seção indicada. No later than Friday admite a própria sexta-feira. Before Friday exige a entrega em dia anterior. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l116-002-so-alcance-na-reescrita",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / reescrita de frases e parágrafos",
+      "articleId": "art-ec4233e53951fb59",
+      "conceptId": "so-alcance-na-reescrita",
+      "mechanism": "distinguir-restricao-de-agente-e-de-objeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec4233e53951fb59#5.2. Deslocamento de termos e o impacto no sentido e na pontuação"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/33 - reorganizacao sintatica e equivalencia semantica.md",
+        "section": "5.2. Deslocamento de termos e o impacto no sentido e na pontuação"
+      },
+      "statement": "Em “Só a bibliotecária revisou os índices”, deslocar “só” para obter “A bibliotecária revisou só os índices” mantém o mesmo elemento sob restrição.",
+      "correctAnswer": "E",
+      "explanation": "Na primeira frase, só restringe quem revisou. Na segunda, restringe aquilo que a bibliotecária revisou.",
+      "reviewEvidence": "Revisão por IA com conferência dos papéis e do escopo na seção indicada. Na primeira frase, só restringe quem revisou. Na segunda, restringe aquilo que a bibliotecária revisou. Dificuldade estimada."
     }
   ]
 }

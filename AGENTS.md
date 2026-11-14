@@ -552,6 +552,16 @@ Quando uma operação só estiver correta se vários arquivos permanecerem sincr
 - Pelo conector GitHub, preferir um único `create_tree` → `create_commit` → `update_ref` para a operação lógica inteira.
 - Se a ferramenta disponível não permitir atomicidade, declarar essa limitação e concluir todas as superfícies dependentes antes de tratar a operação como encerrada; não iniciar trabalho não relacionado no intervalo.
 
+## Correções pequenas: validar, integrar e conferir publicação no mesmo atendimento (14/11/2026)
+
+Para correções pontuais de sintaxe, Mermaid, links, ortografia ou erros de apresentação em conteúdo público, o objetivo do atendimento é a alteração **efetivamente disponível no site**, não apenas uma branch ou PR criada.
+
+- Antes de editar, conferir `main`, PRs que alterem o mesmo arquivo e o contrato de publicação. Manter o escopo mínimo, sem reescrever conteúdo não solicitado.
+- Usar branch e PR para obter o CI obrigatório. Depois de conferir o diff, exigir checks verdes do **HEAD atual**, ausência de conflito e nenhum impedimento de revisão ou proteção de branch. Com autorização do usuário para corrigir/publicar no próprio pedido, realizar o merge na **mesma execução**, sem aguardar um novo comando para uma PR já validada. Não fazer merge se a validação falhar ou estiver pendente.
+- Depois do merge, conferir o SHA em `main`, o resultado do último workflow `Publicar no GitHub Pages` correspondente e a verificação do conteúdo publicado conforme `Contrato de publicacao GitHub Pages`. Em alterações de um artigo existente, conferir também o trecho corrigido no arquivo servido, pois a presença do artigo no manifesto não prova que o conteúdo novo foi entregue.
+- Só dizer **publicado/online** após evidência positiva do deploy e da versão servida. Se a execução ainda estiver na fila ou em andamento, informar que houve merge mas a publicação não está confirmada; deixar link do workflow e apontar a pendência concreta, sem transferir ao usuário a tarefa de mesclar uma PR aprovada.
+- Mudanças maiores, conflito com outra frente, alteração normativa, falha de testes ou exigência de revisão humana suspendem o merge automático: relatar o bloqueio e preservar a PR. Não enfraquecer CI, não ignorar proteção de branch, não forçar merge e não mesclar PRs de terceiros sem autorização.
+
 ## Regra de publicação de conteúdo público
 
 Sempre que a tarefa criar, mover ou alterar de forma relevante uma página pública em `3 - Materias/` (excluindo `Avancos.md`), o agente deve também ler e aplicar:

@@ -46047,6 +46047,62 @@
       "correctAnswer": "C",
       "explanation": "O futuro do pretérito toma o anúncio passado como referência. A frase relata o que foi anunciado e não confirma a execução.",
       "reviewEvidence": "Revisão por IA. Conferência do valor temporal na seção indicada. O futuro do pretérito toma o anúncio passado como referência. A frase relata o que foi anunciado e não confirma a execução. Dificuldade estimada."
+    },
+    {
+      "id": "cam-const-l097-001-contas-guarda-bem-federal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fiscalização contábil, financeira e orçamentária",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "contas-guarda-bem-federal",
+      "mechanism": "aplicar-dever-a-guarda-sem-propriedade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#3.1 Abrangência material e subjetiva do controle (CF, art. 70)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "3.1 Abrangência material e subjetiva do controle (CF, art. 70)"
+      },
+      "statement": "Uma associação privada que guarda equipamentos federais fica dispensada de prestar contas dessa guarda pelo fato de não ter recebido dinheiro da União.",
+      "correctAnswer": "E",
+      "explanation": "O art. 70, parágrafo único, alcança a guarda de bens públicos, inclusive por pessoa jurídica privada. O dever não depende do recebimento de dinheiro.",
+      "reviewEvidence": "Revisão por IA com conferência da Constituição consolidada pela Câmara. O art. 70, parágrafo único, alcança a guarda de bens públicos, inclusive por pessoa jurídica privada. O dever não depende do recebimento de dinheiro. Dificuldade estimada."
+    },
+    {
+      "id": "cam-const-l097-002-parecer-previo-recebimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / fiscalização contábil, financeira e orçamentária",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "parecer-previo-recebimento",
+      "mechanism": "identificar-termo-inicial-do-parecer",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "4. Julgamento das contas do Presidente da República (CF, art. 49, IX e art. 71, I)"
+      },
+      "statement": "O prazo constitucional do TCU para elaborar parecer prévio sobre as contas anuais do Presidente da República tem como marco inicial o recebimento das contas pelo Tribunal.",
+      "correctAnswer": "C",
+      "explanation": "O art. 71, I, dá ao TCU sessenta dias a partir do recebimento das contas para elaborar o parecer prévio.",
+      "reviewEvidence": "Revisão por IA com conferência da Constituição consolidada pela Câmara. O art. 71, I, dá ao TCU sessenta dias a partir do recebimento das contas para elaborar o parecer prévio. Dificuldade estimada."
     }
   ]
 }

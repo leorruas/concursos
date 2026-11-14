@@ -45515,6 +45515,118 @@
       "correctAnswer": "C",
       "explanation": "A chefia usa o poder hierárquico para organizar a rotina dos subordinados. O conteúdo da ordem disciplina a execução interna do serviço.",
       "reviewEvidence": "Revisão por IA com base na classificação doutrinária da seção indicada. A chefia usa o poder hierárquico para organizar a rotina dos subordinados. O conteúdo da ordem disciplina a execução interna do serviço. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l090-001-rede-coordenacao-por-membro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-coordenacao-por-membro",
+      "mechanism": "localizar-coordenacao-em-integrante",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Origens e modelos teóricos: autores não são equivalentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Origens e modelos teóricos: autores não são equivalentes"
+      },
+      "statement": "Em uma rede de atendimento, uma das organizações participantes concentra a elaboração das pautas, articula os demais integrantes e monitora as decisões comuns. Sem estrutura administrativa separada, esse arranjo é compatível com o modelo de organização líder de Provan e Kenis.",
+      "correctAnswer": "C",
+      "explanation": "A coordenação se concentra em uma organização que integra a própria rede. Uma organização administrativa da rede seria uma estrutura específica constituída para coordená-la.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A coordenação se concentra em uma organização que integra a própria rede. Uma organização administrativa da rede seria uma estrutura específica constituída para coordená-la. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l090-002-rede-responsavel-por-transicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-responsavel-por-transicao",
+      "mechanism": "atribuir-responsabilidade-na-interface",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Componentes, governança e riscos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Componentes, governança e riscos"
+      },
+      "statement": "Se os encaminhamentos entre dois órgãos são frequentemente perdidos porque cada órgão pressupõe que o outro deve confirmar o recebimento, explicitar quem confirma e em que prazo é uma intervenção diretamente voltada à falha de coordenação.",
+      "correctAnswer": "C",
+      "explanation": "A perda decorre de uma responsabilidade indefinida na passagem entre órgãos. Identificar o responsável e o prazo torna essa etapa verificável.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A perda decorre de uma responsabilidade indefinida na passagem entre órgãos. Identificar o responsável e o prazo torna essa etapa verificável. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l090-003-rede-contrato-e-arranjo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-contrato-e-arranjo",
+      "mechanism": "distinguir-obrigacao-bilateral-de-coordenacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Rede, hierarquia, mercado e participação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Rede, hierarquia, mercado e participação"
+      },
+      "statement": "A contratação de uma empresa para entregar um relatório conforme especificações de um órgão caracteriza, por si só, uma rede interinstitucional de governança.",
+      "correctAnswer": "E",
+      "explanation": "A situação demonstra uma relação contratual. Para identificar governança em rede, seria preciso examinar a coordenação entre atores parcialmente autônomos diante de objetivos interdependentes.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A situação demonstra uma relação contratual. Para identificar governança em rede, seria preciso examinar a coordenação entre atores parcialmente autônomos diante de objetivos interdependentes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l090-004-rede-padrao-adocao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-padrao-adocao",
+      "mechanism": "separar-entrega-e-uso-observado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Entregas, resultados, impactos e causalidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Entregas, resultados, impactos e causalidade"
+      },
+      "statement": "Depois de publicar um protocolo comum, a coordenação de uma rede usa apenas a data da publicação como indicador de que os órgãos passaram a seguir o protocolo. Esse indicador mede diretamente a adoção do protocolo pelos órgãos.",
+      "correctAnswer": "E",
+      "explanation": "A data verifica a entrega do protocolo. Medir sua adoção exige observar seu uso, por exemplo, pela proporção de encaminhamentos processados conforme as novas regras.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A data verifica a entrega do protocolo. Medir sua adoção exige observar seu uso, por exemplo, pela proporção de encaminhamentos processados conforme as novas regras. Dificuldade estimada."
     }
   ]
 }

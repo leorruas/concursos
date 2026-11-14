@@ -38,5 +38,7 @@ jobs:
       - run: node scripts/test-home-without-provas.js
       - run: node scripts/validate-search-governance.js
       - run: node scripts/build-site.js
+      - name: Conferir recomendações das questões, interface e catálogo
+        run: node scripts/test-quiz-insights.cjs
       - run: node scripts/test-public-privacy.js && node scripts/validate-flashcards.js --site && node scripts/test-public-projects.js && node scripts/test-glossary.js && node scripts/test-glossary-flashcards.js && node scripts/test-multi-glossary.js
       - run: node scripts/validate-search-index.js && node scripts/test-search-index.js && node scripts/test-search-routing.js && node scripts/test-search-ranking.js && node scripts/test-results-deeplinks.js

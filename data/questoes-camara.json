@@ -42043,6 +42043,118 @@
       "correctAnswer": "C",
       "explanation": "O art. 37 inclui restos a pagar com prescrição interrompida. O reconhecimento da obrigação e a dotação específica dão suporte ao pagamento nessa hipótese.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 4.320/1964, art. 37, e seção canônica. Critério conferido: O art. 37 inclui restos a pagar com prescrição interrompida. O reconhecimento da obrigação e a dotação específica dão suporte ao pagamento nessa hipótese. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l048-001-object-to-opposition",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e equivalência de sentido",
+      "articleId": "art-55ba2a49e278525f",
+      "conceptId": "object-to-opposition",
+      "mechanism": "preserve-nominal-complement",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1.1. Substituição Lexical com Preservação de Regência"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md",
+        "section": "1.1. Substituição Lexical com Preservação de Regência"
+      },
+      "statement": "“The board objected to the closure of the branch” can be rewritten as “The board expressed opposition to the closure of the branch” without changing who opposed what.",
+      "correctAnswer": "C",
+      "explanation": "As duas construções atribuem ao conselho a oposição ao fechamento da filial. A reescrita usa o substantivo opposition e mantém seu complemento com to.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência das duas construções em inglês e da seção canônica. Critério: As duas construções atribuem ao conselho a oposição ao fechamento da filial. A reescrita usa o substantivo opposition e mantém seu complemento com to. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l048-002-nominalizacao-agente-trocado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e equivalência de sentido",
+      "articleId": "art-55ba2a49e278525f",
+      "conceptId": "nominalizacao-agente-trocado",
+      "mechanism": "track-agent-through-nominalization",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1.2. Nominalização (*Nominalization*) e Compactação Sintática"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md",
+        "section": "1.2. Nominalização (*Nominalization*) e Compactação Sintática"
+      },
+      "statement": "“After the tenant inspected the flat, the landlord released the deposit” and “After the landlord’s inspection of the flat, the landlord released the deposit” identify the same person as having carried out the inspection.",
+      "correctAnswer": "E",
+      "explanation": "A primeira frase atribui a inspeção ao inquilino. A nominalização com the landlord’s inspection a atribui ao proprietário.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência das duas construções em inglês e da seção canônica. Critério: A primeira frase atribui a inspeção ao inquilino. A nominalização com the landlord’s inspection a atribui ao proprietário. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l048-003-causa-inversao-com-atenuacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e equivalência de sentido",
+      "articleId": "art-55ba2a49e278525f",
+      "conceptId": "causa-inversao-com-atenuacao",
+      "mechanism": "separate-causal-direction-from-certainty",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1.3. Espelhamento de Relações Conversas de Causa e Consequência"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md",
+        "section": "1.3. Espelhamento de Relações Conversas de Causa e Consequência"
+      },
+      "statement": "“The delay may have resulted from a missing signature” can be rewritten as “A missing signature caused the delay” without strengthening the original claim.",
+      "correctAnswer": "E",
+      "explanation": "A reescrita mantém a direção causal, mas elimina may have. Atribui como fato uma relação que o original apresenta como possível.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência das duas construções em inglês e da seção canônica. Critério: A reescrita mantém a direção causal, mas elimina may have. Atribui como fato uma relação que o original apresenta como possível. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l048-004-nominalizacao-preserva-anterioridade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e equivalência de sentido",
+      "articleId": "art-55ba2a49e278525f",
+      "conceptId": "nominalizacao-preserva-anterioridade",
+      "mechanism": "recover-time-order-after-compression",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-55ba2a49e278525f#1.2. Nominalização (*Nominalization*) e Compactação Sintática"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/17 - parafrase equivalencia semantica e mudanca de sentido em ingles.md",
+        "section": "1.2. Nominalização (*Nominalization*) e Compactação Sintática"
+      },
+      "statement": "“Before the tenants signed the lease, they received a copy of the inspection report” can be compressed to “Before signing the lease, the tenants received a copy of the inspection report” without changing the sequence of events or who signed.",
+      "correctAnswer": "C",
+      "explanation": "O sujeito da oração principal, the tenants, também é o sujeito implícito de signing. Before mantém o recebimento do relatório como evento anterior.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência das duas construções em inglês e da seção canônica. Critério: O sujeito da oração principal, the tenants, também é o sujeito implícito de signing. Before mantém o recebimento do relatório como evento anterior. Dificuldade estimada."
     }
   ]
 }

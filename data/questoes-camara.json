@@ -47307,6 +47307,62 @@
       "correctAnswer": "C",
       "explanation": "A agência afirma que o cronograma é realista. O painel põe em dúvida se há pessoal suficiente para executá-lo.",
       "reviewEvidence": "Revisão por IA com conferência de fonte e conteúdo atribuído. A agência afirma que o cronograma é realista. O painel põe em dúvida se há pessoal suficiente para executá-lo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l114-001-adjetivo-adjunto-alcance",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / significação e reescrita",
+      "articleId": "art-569c69df60f66dfd",
+      "conceptId": "adjetivo-adjunto-alcance",
+      "mechanism": "testar-alcance-de-modificador-na-coordenacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-569c69df60f66dfd#4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md",
+        "section": "4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      },
+      "statement": "A expressão “relatórios e planilhas atualizadas” assegura que tanto os relatórios quanto as planilhas foram atualizados.",
+      "correctAnswer": "E",
+      "explanation": "A concordância de “atualizadas” com “planilhas” permite que o adjetivo se refira apenas a elas. Para atribuir inequivocamente a atualização aos dois grupos, pode-se explicitar a informação para cada grupo.",
+      "reviewEvidence": "Revisão por IA com conferência das leituras possíveis. A concordância de “atualizadas” com “planilhas” permite que o adjetivo se refira apenas a elas. Para atribuir inequivocamente a atualização aos dois grupos, pode-se explicitar a informação para cada grupo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l114-002-relativa-antecedente-fixado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / significação e reescrita",
+      "articleId": "art-569c69df60f66dfd",
+      "conceptId": "relativa-antecedente-fixado",
+      "mechanism": "explicitar-antecedente-por-desdobramento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-569c69df60f66dfd#4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/31 - significacao lexical polissemia homonimia paronimia e ambiguidade.md",
+        "section": "4. Ambiguidade (anfibologia): causas léxicas e estruturais e como desfazê-la"
+      },
+      "statement": "Em “A equipe visitou a sede da associação, que fica perto do terminal”, a reescrita “A equipe visitou a sede da associação. A sede fica perto do terminal” explicita a sede como o referente de “que”.",
+      "correctAnswer": "C",
+      "explanation": "A segunda frase nomeia a sede como o local próximo ao terminal. No original, a oração relativa podia ser associada à sede ou à associação.",
+      "reviewEvidence": "Revisão por IA com conferência das leituras possíveis. A segunda frase nomeia a sede como o local próximo ao terminal. No original, a oração relativa podia ser associada à sede ou à associação. Dificuldade estimada."
     }
   ]
 }

@@ -41735,6 +41735,118 @@
       "correctAnswer": "C",
       "explanation": "A comparação fornece informação de preferência relativa. Ela pode servir de supervisão ao modelo de recompensa sem fornecer uma resposta única como alvo textual.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Critério conferido na seção canônica: A comparação fornece informação de preferência relativa. Ela pode servir de supervisão ao modelo de recompensa sem fornecer uma resposta única como alvo textual. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l045-001-rede-lider-membro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-lider-membro",
+      "mechanism": "localizar-coordenacao-em-membro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Origens e modelos teóricos: autores não são equivalentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Origens e modelos teóricos: autores não são equivalentes"
+      },
+      "statement": "Cinco entidades executam ações conjuntas. Uma delas organiza a agenda, consolida os relatórios e representa a rede, sem que se institua uma unidade separada de coordenação. O arranjo é compatível com a modalidade organização líder de Provan e Kenis.",
+      "correctAnswer": "C",
+      "explanation": "A coordenação está concentrada em uma entidade integrante. Esse local da coordenação caracteriza a modalidade organização líder.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Provan e Kenis (2008), conforme a seção canônica. Critério conferido: A coordenação está concentrada em uma entidade integrante. Esse local da coordenação caracteriza a modalidade organização líder. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l045-002-rede-secretaria-especifica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-secretaria-especifica",
+      "mechanism": "distinguir-coordenacao-propria-de-compartilhada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Origens e modelos teóricos: autores não são equivalentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Origens e modelos teóricos: autores não são equivalentes"
+      },
+      "statement": "Uma rede cria uma secretaria independente dos prestadores para coordenar suas atividades. Como os prestadores continuam autônomos na execução, a coordenação da rede é necessariamente compartilhada diretamente entre eles.",
+      "correctAnswer": "E",
+      "explanation": "A autonomia na execução é compatível com a coordenação por estrutura administrativa específica da rede. O critério examina quem coordena o conjunto.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Provan e Kenis (2008), conforme a seção canônica. Critério conferido: A autonomia na execução é compatível com a coordenação por estrutura administrativa específica da rede. O critério examina quem coordena o conjunto. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l045-003-rede-confianca-e-tamanho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-confianca-e-tamanho",
+      "mechanism": "avaliar-variaveis-de-escolha",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Origens e modelos teóricos: autores não são equivalentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Origens e modelos teóricos: autores não são equivalentes"
+      },
+      "statement": "Na tipologia de Provan e Kenis, duas redes com o mesmo número de integrantes devem adotar o mesmo modo de coordenação, mesmo quando a confiança e o consenso sobre objetivos diferem.",
+      "correctAnswer": "E",
+      "explanation": "Tamanho é uma das condições consideradas, ao lado de fatores como confiança e consenso. A quantidade de integrantes não determina sozinha o modelo mais adequado.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Provan e Kenis (2008), conforme a seção canônica. Critério conferido: Tamanho é uma das condições consideradas, ao lado de fatores como confiança e consenso. A quantidade de integrantes não determina sozinha o modelo mais adequado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l045-004-rede-coordenacao-rodizio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "rede-coordenacao-rodizio",
+      "mechanism": "interpretar-apoio-administrativo-rotativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Origens e modelos teóricos: autores não são equivalentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Origens e modelos teóricos: autores não são equivalentes"
+      },
+      "statement": "Os membros de uma rede decidem diretamente em conjunto e alternam a entidade responsável por enviar convites e atas. O rodízio de tarefas administrativas é compatível com governança compartilhada.",
+      "correctAnswer": "C",
+      "explanation": "As tarefas de apoio circulam entre membros, enquanto a coordenação decisória continua nas mãos dos participantes.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Provan e Kenis (2008), conforme a seção canônica. Critério conferido: As tarefas de apoio circulam entre membros, enquanto a coordenação decisória continua nas mãos dos participantes. Dificuldade estimada."
     }
   ]
 }

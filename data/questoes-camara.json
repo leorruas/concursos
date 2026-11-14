@@ -46859,6 +46859,90 @@
       "correctAnswer": "C",
       "explanation": "O arquivo pratica o envio nas duas construções. Na passiva, o pesquisador passa a sujeito gramatical e permanece o destinatário.",
       "reviewEvidence": "Revisão por IA com conferência da estrutura e do sentido na seção indicada. O arquivo pratica o envio nas duas construções. Na passiva, o pesquisador passa a sujeito gramatical e permanece o destinatário. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l108-001-unless-fallback",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "unless-fallback",
+      "mechanism": "identify-default-and-exception",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.4. Condição e Hipótese"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.4. Condição e Hipótese"
+      },
+      "statement": "“The archive will remain closed unless an inspector clears the building.” If the inspector does not clear the building, the sentence indicates that the archive will remain closed.",
+      "correctAnswer": "C",
+      "explanation": "Unless introduz a condição que pode afastar o resultado indicado. Sem a liberação, permanece o fechamento anunciado.",
+      "reviewEvidence": "Revisão por IA com conferência da relação e da estrutura na seção indicada. Unless introduz a condição que pode afastar o resultado indicado. Sem a liberação, permanece o fechamento anunciado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l108-002-even-though-rewrite",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "even-though-rewrite",
+      "mechanism": "distinguish-concession-from-reason",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.1. Concessão e Oposição/Contraste"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.1. Concessão e Oposição/Contraste"
+      },
+      "statement": "“Even though the shipment arrived late, the clinic opened on schedule.” Replacing “Even though” with “Because” preserves the relation between the delay and the opening.",
+      "correctAnswer": "E",
+      "explanation": "Even though apresenta o atraso como uma circunstância que poderia dificultar a abertura pontual. Because transformaria o atraso em motivo da abertura pontual.",
+      "reviewEvidence": "Revisão por IA com conferência da relação e da estrutura na seção indicada. Even though apresenta o atraso como uma circunstância que poderia dificultar a abertura pontual. Because transformaria o atraso em motivo da abertura pontual. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l108-003-because-clause-to-noun",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "because-clause-to-noun",
+      "mechanism": "identify-complement-after-preposition",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#2. A Fronteira Crítica: Conjunção Subordinativa vs. Preposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "2. A Fronteira Crítica: Conjunção Subordinativa vs. Preposição"
+      },
+      "statement": "In “The notice was withdrawn because the date was incorrect,” replacing “because the date was incorrect” with “because of the incorrect date” preserves the stated reason for withdrawal.",
+      "correctAnswer": "C",
+      "explanation": "Because introduz uma oração com verbo. Because of introduz um grupo nominal que expressa o mesmo motivo nesse contexto.",
+      "reviewEvidence": "Revisão por IA com conferência da relação e da estrutura na seção indicada. Because introduz uma oração com verbo. Because of introduz um grupo nominal que expressa o mesmo motivo nesse contexto. Dificuldade estimada."
     }
   ]
 }

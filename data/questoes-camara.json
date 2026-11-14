@@ -45795,6 +45795,62 @@
       "correctAnswer": "E",
       "explanation": "O art. 3º, III, assegura a apresentação de documentos antes da decisão e determina que sejam considerados. O relatório anterior não dispensa esse exame.",
       "reviewEvidence": "Revisão por IA com conferência da Lei nº 9.784/1999 no Planalto e da seção indicada. O art. 3º, III, assegura a apresentação de documentos antes da decisão e determina que sejam considerados. O relatório anterior não dispensa esse exame. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l093-001-mandato-conselho-fim-legislatura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "mandato-conselho-fim-legislatura",
+      "mechanism": "aplicar-excecao-ao-exercicio-ate-posse",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Composição e mandato (art. 7º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Composição e mandato (art. 7º)"
+      },
+      "statement": "Encerrada a última sessão legislativa da legislatura, um conselheiro pode continuar no Conselho de Ética até a posse dos novos integrantes com base na regra geral de continuidade do exercício.",
+      "correctAnswer": "E",
+      "explanation": "O art. 7º ressalva a última sessão legislativa da legislatura. Seu encerramento faz cessar os mandatos no Conselho.",
+      "reviewEvidence": "Revisão por IA com conferência da Resolução nº 25/2001 consolidada pela Câmara. O art. 7º ressalva a última sessão legislativa da legislatura. Seu encerramento faz cessar os mandatos no Conselho. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l093-002-intimacao-durante-instrucao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "intimacao-durante-instrucao",
+      "mechanism": "aplicar-garantia-ao-ato-intermediario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Em processo disciplinar parlamentar, a intimação regular para apresentar defesa escrita permite ao Conselho dispensar a intimação do representado sobre uma diligência posterior que o próprio Conselho pratique na instrução.",
+      "correctAnswer": "E",
+      "explanation": "O art. 9º, § 5º, exige a intimação de todos os atos do Conselho e permite manifestação em todas as fases. A intimação para a defesa escrita não supre a intimação sobre atos posteriores.",
+      "reviewEvidence": "Revisão por IA com conferência da Resolução nº 25/2001 consolidada pela Câmara. O art. 9º, § 5º, exige a intimação de todos os atos do Conselho e permite manifestação em todas as fases. A intimação para a defesa escrita não supre a intimação sobre atos posteriores. Dificuldade estimada."
     }
   ]
 }

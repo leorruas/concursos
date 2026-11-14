@@ -38711,6 +38711,230 @@
       "correctAnswer": "C",
       "explanation": "A Constituição estabelece prazos distintos para a decisão de veto e para a comunicação de seus motivos. A segunda obrigação pode ser cumprida depois do término da primeira janela.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 66, § 1º (texto compilado no Planalto). Critério conferido: A Constituição estabelece prazos distintos para a decisão de veto e para a comunicação de seus motivos. A segunda obrigação pode ser cumprida depois do término da primeira janela. Cotejo com o subtítulo literal da nota e com itens de tramitação, sanção e promulgação do banco e dos artigos. Dificuldade estimada editorialmente."
+    },
+    {
+      "id": "cam-pl-l030-001-parecer-apensado-omissao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "parecer-apensado-omissao",
+      "mechanism": "detectar-omissao-de-proposicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#Parecer independente e parecer único de proposições apensadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "Parecer independente e parecer único de proposições apensadas"
+      },
+      "statement": "Na instrução conjunta de três projetos apensados, a comissão examina apenas o principal e deixa os demais sem conclusão, porque o parecer único dispensa pronunciamento sobre as proposições acessórias.",
+      "correctAnswer": "E",
+      "explanation": "O parecer é único, mas deve pronunciar-se sobre todos os projetos apensados. A unidade do documento não reduz o conjunto de matérias examinadas.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, I, e 127, cotejado com a nota canônica. Critério decisivo: O parecer é único, mas deve pronunciar-se sobre todos os projetos apensados. A unidade do documento não reduz o conjunto de matérias examinadas. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l030-002-parecer-reformulacao-remessa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "parecer-reformulacao-remessa",
+      "mechanism": "localizar-controle-de-regularidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#Parecer independente e parecer único de proposições apensadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "Parecer independente e parecer único de proposições apensadas"
+      },
+      "statement": "Após receber parecer de comissão contrário às disposições regimentais, o presidente da Câmara pode devolvê-lo à comissão para reformulação, sem precisar substituir o conteúdo do parecer por decisão própria.",
+      "correctAnswer": "C",
+      "explanation": "A devolução para reformulação é o controle previsto no regimento. Cabe à comissão reformular o documento.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 130, parágrafo único, cotejado com a nota canônica. Critério decisivo: A devolução para reformulação é o controle previsto no regimento. Cabe à comissão reformular o documento. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l030-003-relator-aceita-alteracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "relator-aceita-alteracao",
+      "mechanism": "inferir-redator-pela-concordancia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#O que acontece entre voto do relator e parecer da comissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "O que acontece entre voto do relator e parecer da comissão"
+      },
+      "statement": "Durante a deliberação, a comissão sugere mudanças no texto do relator e ele concorda com elas. Nessa hipótese, o próprio relator pode redigir o novo texto, com prazo até a reunião seguinte.",
+      "correctAnswer": "C",
+      "explanation": "O acolhimento das mudanças pelo relator mantém com ele a tarefa de redigir o novo texto e aciona o prazo até a reunião seguinte.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, XI, cotejado com a nota canônica. Critério decisivo: O acolhimento das mudanças pelo relator mantém com ele a tarefa de redigir o novo texto e aciona o prazo até a reunião seguinte. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l030-004-redacao-vencedora-substituto-ausente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "redacao-vencedora-substituto-ausente",
+      "mechanism": "acionar-designacao-subsidiaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#O que acontece entre voto do relator e parecer da comissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "O que acontece entre voto do relator e parecer da comissão"
+      },
+      "statement": "Rejeitado o voto inicial, verificou-se que o relator substituto estava ausente. Nessa situação, o relator vencido reassume automaticamente a redação do parecer vencedor.",
+      "correctAnswer": "E",
+      "explanation": "Na ausência do relator substituto, o presidente da comissão designa outro deputado para redigir o parecer vencedor. Não há retorno automático da tarefa ao relator vencido.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, XII, cotejado com a nota canônica. Critério decisivo: Na ausência do relator substituto, o presidente da comissão designa outro deputado para redigir o parecer vencedor. Não há retorno automático da tarefa ao relator vencido. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l030-005-restricao-sem-conteudo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "restricao-sem-conteudo",
+      "mechanism": "classificar-ressalva-nao-explicitada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#Votos: pelas conclusões, com restrições, em separado e vencido"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "Votos: pelas conclusões, com restrições, em separado e vencido"
+      },
+      "statement": "Uma deputada registra voto com restrições, mas não explica em que consistem. Na contagem regimental, esse voto é considerado integralmente favorável.",
+      "correctAnswer": "C",
+      "explanation": "O regimento exige que a restrição seja explicada. Sem essa explicação, o voto recebe o tratamento de voto integralmente favorável.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, XIV e XV, cotejado com a nota canônica. Critério decisivo: O regimento exige que a restrição seja explicada. Sem essa explicação, o voto recebe o tratamento de voto integralmente favorável. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l030-006-vista-urgencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "vista-urgencia",
+      "mechanism": "aplicar-excecao-ao-direito-de-vista",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#Pedido de vista, discussão e votação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "Pedido de vista, discussão e votação"
+      },
+      "statement": "Durante a apreciação de proposição em regime de urgência, um membro da comissão pode exigir vista pelo prazo regimental de duas sessões se for o primeiro a fazer o pedido.",
+      "correctAnswer": "E",
+      "explanation": "A vista por duas sessões não se aplica à matéria urgente. A ordem de apresentação dos pedidos não altera essa exceção.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, XVI, cotejado com a nota canônica. Critério decisivo: A vista por duas sessões não se aplica à matéria urgente. A ordem de apresentação dos pedidos não altera essa exceção. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l030-007-parecer-quorum-insuficiente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "parecer-quorum-insuficiente",
+      "mechanism": "verificar-quorum-apesar-de-unanimidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#O que acontece entre voto do relator e parecer da comissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "O que acontece entre voto do relator e parecer da comissão"
+      },
+      "statement": "Em comissão com 24 integrantes, 12 membros estão presentes e todos votam a favor do parecer. Na ausência de disposição constitucional em contrário, a unanimidade dos presentes supre o requisito regimental de presença.",
+      "correctAnswer": "E",
+      "explanation": "A maioria absoluta dos 24 integrantes corresponde a 13 presentes. Com 12, a votação não satisfaz o requisito de presença, ainda que todos votem no mesmo sentido.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 56, § 2º, cotejado com a nota canônica. Critério decisivo: A maioria absoluta dos 24 integrantes corresponde a 13 presentes. Com 12, a votação não satisfaz o requisito de presença, ainda que todos votem no mesmo sentido. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l030-008-parecer-original-vencido-preservacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / comissões, pareceres e deliberação",
+      "articleId": "art-2589a6f0c3d74be1",
+      "conceptId": "parecer-original-vencido-preservacao",
+      "mechanism": "determinar-registro-do-voto-original",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2589a6f0c3d74be1#O que acontece entre voto do relator e parecer da comissão"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md",
+        "section": "O que acontece entre voto do relator e parecer da comissão"
+      },
+      "statement": "Se o colegiado adotar parecer diverso do proposto pelo relator original, a posição inicial do relator pode ser identificada nos registros como voto em separado.",
+      "correctAnswer": "C",
+      "explanation": "O voto original passa a constituir voto em separado quando a comissão adota parecer diverso. Ele deixa de representar a posição do colegiado, mas permanece registrado.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 57, XIII, cotejado com a nota canônica. Critério decisivo: O voto original passa a constituir voto em separado quando a comissão adota parecer diverso. Ele deixa de representar a posição do colegiado, mas permanece registrado. Conferidos o subtítulo, o gabarito e a fronteira examinada frente aos itens existentes. Dificuldade estimada."
     }
   ]
 }

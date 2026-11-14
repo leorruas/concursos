@@ -85,6 +85,16 @@
       .results-score{white-space:normal;text-align:right;max-width:105px}
     }
     @media(max-width:440px){.results-header{flex-direction:column}.results-nav{gap:6px}.results-nav a,.results-nav button{font-size:12px;padding:8px 10px}}
+
+    .results-quiz-periods{display:flex;gap:14px 30px;flex-wrap:wrap;padding:8px 0 20px;border-bottom:1px solid color-mix(in srgb,var(--text) 16%,transparent);font-size:13px;color:var(--muted)}
+    .results-quiz-reading{padding:30px 0 6px}
+    .results-quiz-reading h3{font-size:clamp(1.3rem,3vw,1.8rem);letter-spacing:-.035em;color:var(--text);font-weight:620;margin:9px 0}
+    .results-quiz-priority{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;padding:21px 0;border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
+    .results-quiz-priority strong{font-size:1.05rem;color:var(--text);font-weight:610;line-height:1.45}
+    .results-quiz-priority small{display:block;margin-top:6px;line-height:1.55;font-size:13px;color:var(--muted)}
+    .results-quiz-priority a{color:var(--accent-blue);font-size:13px;white-space:nowrap;text-underline-offset:4px}
+    @media(max-width:600px){.results-quiz-priority{display:block}.results-quiz-priority a{display:inline-block;margin-top:10px;white-space:normal}}
+
   </style>
 </head>
 <body>
@@ -100,7 +110,7 @@
     </header>
     <p class="results-kicker">acompanhamento privado de estudo</p>
     <h1 class="results-title">meus resultados</h1>
-    <p class="results-explain">Histórico de respostas, erros recorrentes e artigos para reler. A prioridade é uma recomendação de estudo baseada nas tentativas registradas.</p>
+    <p class="results-explain">Confira seu desempenho recente e os artigos que merecem revisão. Os dados das baterias são armazenados no banco privado do site.</p>
     <div class="results-controls">
       <label for="results-contest">Concurso</label>
       <select id="results-contest">
@@ -113,22 +123,34 @@
     </div>
     <p class="results-status" id="results-status" role="status" aria-live="polite">Verificando acesso privado…</p>
     <div id="results-content" hidden>
-      <div class="results-grid" id="results-stats"></div>
       <section class="results-section" aria-labelledby="title-quiz">
         <p class="results-section-label">prática no site · armazenamento privado</p>
-        <h2 id="title-quiz">questões resolvidas na interface</h2>
-        <p class="results-caption">Tentativas feitas em “Resolver questões”, por concurso. Estes números vêm do banco privado de respostas do site e são apresentados separadamente das sessões do cofre, para evitar contagem dupla.</p>
+        <h2 id="title-quiz">suas baterias de questões</h2>
+        <p class="results-caption">Respostas registradas no site, com desempenho por concurso e recomendações baseadas nos erros e na segurança declarada.</p>
         <p class="results-caption" id="results-quiz-status" role="status" aria-live="polite">Consultando respostas do site…</p>
         <div class="results-grid" id="results-quiz-stats"></div>
+        <div class="results-quiz-periods" id="results-quiz-periods"></div>
+        <section class="results-quiz-reading" aria-labelledby="results-quiz-priority-title">
+          <p class="results-section-label">próximas leituras</p>
+          <h3 id="results-quiz-priority-title">artigos prioritários</h3>
+          <p class="results-caption" id="results-quiz-priority-description">Recomendações derivadas das questões do site nos últimos 30 dias.</p>
+          <div id="results-quiz-priorities"></div>
+        </section>
+        <p class="results-section-label" style="margin-top:35px">desempenho por matéria no site</p>
         <div style="overflow-x:auto"><table class="results-table"><thead><tr><th>Matéria</th><th>Respondidas</th><th>Acertos</th><th>Erros</th><th>Acerto</th></tr></thead><tbody id="results-quiz-subjects"></tbody></table></div>
       </section>
-      <section class="results-section" aria-labelledby="title-reading">
+      <section class="results-section" aria-labelledby="title-legacy" id="results-legacy" hidden>
+        <p class="results-section-label">histórico consolidado anterior</p>
+        <h2 id="title-legacy">sessões de estudo registradas no cofre</h2>
+        <p class="results-caption">Fonte separada das baterias feitas neste site, para evitar contagem dupla.</p>
+        <div class="results-grid" id="results-stats"></div>
+        <div class="results-section" aria-labelledby="title-reading">
         <p class="results-section-label">leitura dirigida</p>
         <h2 id="title-reading">artigos para ler primeiro</h2>
         <p class="results-caption">Ordenados pelos conceitos com maior recorrência de erros e insegurança. Abra um artigo para rever suas questões.</p>
         <div id="results-articles"></div>
-      </section>
-      <section class="results-section" aria-labelledby="title-concepts">
+      </div>
+      <div class="results-section" aria-labelledby="title-concepts">
         <p class="results-section-label">diagnóstico</p>
         <h2 id="title-concepts">conceitos que mais precisam de revisão</h2>
         <p class="results-caption">Veja os conceitos que concentraram mais erros e abra o artigo que explica cada um.</p>
@@ -138,13 +160,14 @@
           <p>Um conceito com pouca amostra pode ter prioridade menor ou ainda pouco estável. Reavalie as recomendações conforme surgirem novos resultados.</p>
         </details>
         <div id="results-concepts"></div>
-      </section>
-      <section class="results-section" aria-labelledby="title-subjects">
+      </div>
+      <div class="results-section" aria-labelledby="title-subjects">
         <p class="results-section-label">histórico</p>
         <h2 id="title-subjects">resultados por matéria</h2>
         <div style="overflow-x:auto"><table class="results-table"><thead><tr><th>Matéria</th><th>Respondidas</th><th>Acertos</th><th>Erros</th><th>Acerto</th></tr></thead><tbody id="results-subjects"></tbody></table></div>
       </section>
-      <p class="results-caption results-privacy">Os registros individuais ficam no repositório privado. Nesta página, os dados são carregados apenas após autenticação, sem serem incluídos no GitHub Pages público. O histórico parcial não comprova domínio ou retenção.</p>
+      <p class="results-caption results-privacy">As sessões consolidadas ficam no repositório privado. As baterias do site ficam no banco privado Cloudflare. Esses totais não foram somados entre si, porque a mesma questão pode existir nas duas fontes. Acerto imediato não comprova retenção.</p>
+      </section>
     </div>
   </main>
   <script src="web/13-results-ui.js" defer></script>

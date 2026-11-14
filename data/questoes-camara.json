@@ -41623,6 +41623,118 @@
       "correctAnswer": "E",
       "explanation": "O aposto termina junto com o período. O ponto final já marca o limite, sem exigir um segundo travessão.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência da função sintática e discursiva na seção canônica: O aposto termina junto com o período. O ponto final já marca o limite, sem exigir um segundo travessão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l044-001-politica-condicionada-estado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / inteligência artificial e aprendizagem de máquina",
+      "articleId": "art-a3fd9f5c3eb6a721",
+      "conceptId": "politica-condicionada-estado",
+      "mechanism": "separar-politica-e-recompensa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a3fd9f5c3eb6a721#1. Formalização do Processo de Decisão de Markov (MDP)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/20 - aprendizagem por reforco e comparacao de modelos de machine learning.md",
+        "section": "1. Formalização do Processo de Decisão de Markov (MDP)"
+      },
+      "statement": "Um agente recebe o nível de carga de um equipamento e, a partir dele, escolhe entre continuar a operar e recarregar. A regra que associa o nível observado à escolha de ação faz parte da política.",
+      "correctAnswer": "C",
+      "explanation": "Política é a regra de seleção de ações em função do estado. A recompensa é o sinal recebido em consequência da interação.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério conferido na seção canônica: Política é a regra de seleção de ações em função do estado. A recompensa é o sinal recebido em consequência da interação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l044-002-retorno-desconto-comparacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / inteligência artificial e aprendizagem de máquina",
+      "articleId": "art-a3fd9f5c3eb6a721",
+      "conceptId": "retorno-desconto-comparacao",
+      "mechanism": "calcular-retorno-de-duas-trajetorias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a3fd9f5c3eb6a721#1. Formalização do Processo de Decisão de Markov (MDP)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/20 - aprendizagem por reforco e comparacao de modelos de machine learning.md",
+        "section": "1. Formalização do Processo de Decisão de Markov (MDP)"
+      },
+      "statement": "Em um episódio de dois passos, a ação A rende 6 imediatamente e zero no passo seguinte. A ação B rende zero e depois 10. Com fator de desconto 0,5 e sem recompensas adicionais, B oferece o maior retorno descontado.",
+      "correctAnswer": "E",
+      "explanation": "A oferece retorno 6. B oferece 0 + 0,5 × 10 = 5, portanto tem retorno inferior.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério conferido na seção canônica: A oferece retorno 6. B oferece 0 + 0,5 × 10 = 5, portanto tem retorno inferior. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l044-003-epsilon-acao-ja-favorita",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / inteligência artificial e aprendizagem de máquina",
+      "articleId": "art-a3fd9f5c3eb6a721",
+      "conceptId": "epsilon-acao-ja-favorita",
+      "mechanism": "distinguir-sorteio-e-escolha-subotima",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a3fd9f5c3eb6a721#2. O Dilema Fundamental: Exploração (*Exploration*) $\\times$ Explotação (*Exploitation*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/20 - aprendizagem por reforco e comparacao de modelos de machine learning.md",
+        "section": "2. O Dilema Fundamental: Exploração (*Exploration*) $\\times$ Explotação (*Exploitation*)"
+      },
+      "statement": "Em uma política epsilon-greedy que, no ramo exploratório, sorteia uniformemente entre todas as ações disponíveis, a melhor ação estimada nunca é escolhida nesse ramo.",
+      "correctAnswer": "E",
+      "explanation": "O sorteio inclui todas as ações, inclusive a que a estimativa atual considera melhor. Exploração por sorteio não equivale a excluir essa ação.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério conferido na seção canônica: O sorteio inclui todas as ações, inclusive a que a estimativa atual considera melhor. Exploração por sorteio não equivale a excluir essa ação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l044-004-rlhf-preferencia-nao-e-resposta-alvo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / inteligência artificial e aprendizagem de máquina",
+      "articleId": "art-a3fd9f5c3eb6a721",
+      "conceptId": "rlhf-preferencia-nao-e-resposta-alvo",
+      "mechanism": "identificar-o-alvo-do-modelo-de-recompensa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a3fd9f5c3eb6a721#3. RLHF: Aprendizagem por Reforço com Feedback Humano"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/20 - aprendizagem por reforco e comparacao de modelos de machine learning.md",
+        "section": "3. RLHF: Aprendizagem por Reforço com Feedback Humano"
+      },
+      "statement": "Em uma implementação clássica de RLHF, comparações humanas entre pares de respostas podem treinar um modelo de recompensa mesmo sem uma resposta canônica escrita por um avaliador para cada pergunta.",
+      "correctAnswer": "C",
+      "explanation": "A comparação fornece informação de preferência relativa. Ela pode servir de supervisão ao modelo de recompensa sem fornecer uma resposta única como alvo textual.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério conferido na seção canônica: A comparação fornece informação de preferência relativa. Ela pode servir de supervisão ao modelo de recompensa sem fornecer uma resposta única como alvo textual. Dificuldade estimada."
     }
   ]
 }

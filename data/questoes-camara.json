@@ -42939,6 +42939,90 @@
       "correctAnswer": "E",
       "explanation": "A contrariedade às provas permite divergência da conclusão, mas a autoridade deve motivar o agravamento.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei nº 8.112/1990, art. 168, parágrafo único. Critério conferido: A contrariedade às provas permite divergência da conclusão, mas a autoridade deve motivar o agravamento. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l058-001-valor-publico-apoio-sem-equipe",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "valor-publico-apoio-sem-equipe",
+      "mechanism": "localizar-restricao-operacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      },
+      "statement": "Uma biblioteca tem autorização e financiamento para estender seu horário, e usuários demonstram necessidade de acesso noturno. A falta de pessoal para cobrir o turno indica uma restrição de capacidade operacional no triângulo de Moore.",
+      "correctAnswer": "C",
+      "explanation": "A autorização e o financiamento sustentam o projeto, mas a disponibilidade de equipe integra as condições de execução.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Triângulo estratégico de Moore conforme a seção canônica. A autorização e o financiamento sustentam o projeto, mas a disponibilidade de equipe integra as condições de execução. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l058-002-valor-publico-ferramenta-sem-beneficio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "valor-publico-ferramenta-sem-beneficio",
+      "mechanism": "separar-meio-disponivel-e-beneficio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      },
+      "statement": "Uma autarquia dispõe de equipe e infraestrutura para lançar um aplicativo. No triângulo de Moore, essa disponibilidade demonstra por si só que o aplicativo produzirá um benefício relevante para a população atendida.",
+      "correctAnswer": "E",
+      "explanation": "Equipe e infraestrutura são meios de execução. O benefício público precisa ser identificado e sustentado em relação ao problema dos usuários.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Triângulo estratégico de Moore conforme a seção canônica. Equipe e infraestrutura são meios de execução. O benefício público precisa ser identificado e sustentado em relação ao problema dos usuários. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l058-003-valor-publico-legitimidade-sem-competencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "valor-publico-legitimidade-sem-competencia",
+      "mechanism": "testar-apoio-social-frente-a-autorizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)"
+      },
+      "statement": "No triângulo de Moore, o apoio dos moradores a uma nova política torna dispensável examinar se o órgão proponente possui autorização jurídica para executá-la.",
+      "correctAnswer": "E",
+      "explanation": "O apoio social integra a análise, mas a adequação ao ambiente de autorização também depende das competências e dos limites institucionais.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Triângulo estratégico de Moore conforme a seção canônica. O apoio social integra a análise, mas a adequação ao ambiente de autorização também depende das competências e dos limites institucionais. Dificuldade estimada."
     }
   ]
 }

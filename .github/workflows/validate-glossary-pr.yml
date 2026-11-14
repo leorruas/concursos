@@ -6,6 +6,7 @@ on:
       - 'scripts/glossary-*.js'
       - 'scripts/test-glossary*.js'
       - 'scripts/test-glossary-browser.cjs'
+      - 'scripts/test-quiz-browser.cjs'
       - 'scripts/build-site.js'
       - 'index.html'
       - 'style.css'

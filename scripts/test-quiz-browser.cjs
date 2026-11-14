@@ -56,6 +56,35 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.equal(horizontal,false,'sem overflow horizontal na largura '+preset.width);
    assert.deepEqual(errors,[],'sem erros JavaScript na interface');
    await page.screenshot({path:path.join(evidence,preset.name+'-result.png'),fullPage:true});
+   // História sintética de chat + site para validar o painel unificado, sem dados privados.
+   const meta=questions.find(q=>q.concursoId==='camara-2026'&&q.articleId&&q.section&&q.estimatedDifficulty);
+   assert.ok(meta,'necessário um artigo com trecho e dificuldade');
+   const fake={
+    version:2,concursoId:'camara-2026',cut:'2026-11-14',
+    summary:{valid:3,correct:2,incorrect:1,blank:0,accuracy:66.7},
+    sources:{chat:{total:1},site:{total:2},siteDuplicatesSkipped:0,unmatchedCatalog:0},
+    difficulty:{byLevel:[{id:meta.estimatedDifficulty,total:3,correct:2,incorrect:1,blank:0,accuracy:66.7,uncertain:1}],
+      bySubject:[{id:'direito-constitucional',uncertain:1}]},
+    bySubject:[{id:'direito-constitucional',total:3,correct:2,incorrect:1}],
+    articles:[{articleId:meta.articleId,priority:62,reason:'1 erro, 1 acerto inseguro',concepts:[{title:'Conceito do teste'}],
+      dueOn:null,mistakes:[{id:'example',date:'2026-11-14',result:'incorrect',statement:meta.statement,
+        explanation:meta.explanation,section:meta.section,userAnswer:'E',correctAnswer:meta.correctAnswer}],
+      uncertainCorrect:[]}],
+    concepts:[{title:'Conceito do teste',subjectId:'direito-constitucional',errors:1,uncertain:1,
+      attempts:3,priority:62,articles:[meta.articleId],dueOn:null}]
+   };
+   await page.route('**/v1/study/unified?*',route=>route.fulfill({status:200,
+     contentType:'application/json',body:JSON.stringify(fake)}));
+   await page.goto('http://127.0.0.1:8765/resultados.html?concurso=camara-2026',{waitUntil:'networkidle'});
+   await page.locator('#results-content').waitFor({state:'visible',timeout:15000});
+   assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('ChatGPT'),'origem de estudo precisa aparecer');
+   assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('site'),'origem do site precisa aparecer');
+   assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
+     (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
+   assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link direto para leitura prioritária');
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
+   assert.deepEqual(errors,[],'painel e quiz sem erros de JS');
+   await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
    await context.close();
   }
   console.log('OK: configuração, filtro Constitucional P1, correção, recomendações e layout mobile/desktop.');

@@ -42687,6 +42687,90 @@
       "correctAnswer": "C",
       "explanation": "A oração inicial equivale a If the driver had seen the warning. A oração com would have fornece a consequência hipotética que distingue o período de uma pergunta.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Critério de leitura: A oração inicial equivale a If the driver had seen the warning. A oração com would have fornece a consequência hipotética que distingue o período de uma pergunta. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l055-001-word-orientacao-quebra-pagina",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / Microsoft 365, Word",
+      "articleId": "art-005ae25143946d4e",
+      "conceptId": "word-orientacao-quebra-pagina",
+      "mechanism": "distinguir-limite-de-pagina-e-secao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-005ae25143946d4e#3. O papel crítico das Seções: quebras e cabeçalhos independentes"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/04 - word 365 estrutura edicao formatacao e controle de alteracoes.md",
+        "section": "3. O papel crítico das Seções: quebras e cabeçalhos independentes"
+      },
+      "statement": "No Word para Microsoft 365, inserir apenas uma quebra de página antes de uma tabela cria uma seção independente e, por si só, permite aplicar orientação paisagem somente a essa seção.",
+      "correctAnswer": "E",
+      "explanation": "A quebra de página desloca o conteúdo para outra página sem criar seção. Para isolar a orientação, é necessário delimitar a seção correspondente.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Seção canônica do Word 365. A quebra de página desloca o conteúdo para outra página sem criar seção. Para isolar a orientação, é necessário delimitar a seção correspondente. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l055-002-word-sumario-atualizacao-de-titulo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / Microsoft 365, Word",
+      "articleId": "art-005ae25143946d4e",
+      "conceptId": "word-sumario-atualizacao-de-titulo",
+      "mechanism": "separar-paginacao-e-texto-do-sumario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-005ae25143946d4e#4. Estilos (*Styles*) e Sumário Automático"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/04 - word 365 estrutura edicao formatacao e controle de alteracoes.md",
+        "section": "4. Estilos (*Styles*) e Sumário Automático"
+      },
+      "statement": "Após renomear um título no corpo de um documento do Word para Microsoft 365, atualizar somente os números das páginas do sumário automático também atualiza o texto daquela entrada.",
+      "correctAnswer": "E",
+      "explanation": "A opção de atualizar apenas os números preserva o texto das entradas. Para refletir a alteração do título, deve-se atualizar o índice inteiro.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Seção canônica do Word 365. A opção de atualizar apenas os números preserva o texto das entradas. Para refletir a alteração do título, deve-se atualizar o índice inteiro. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l055-003-word-ocultar-marcacoes-pendentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / Microsoft 365, Word",
+      "articleId": "art-005ae25143946d4e",
+      "conceptId": "word-ocultar-marcacoes-pendentes",
+      "mechanism": "distinguir-exibicao-e-resolucao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-005ae25143946d4e#5. Colaboração: Controle de Alterações (*Track Changes*) e Comentários"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/04 - word 365 estrutura edicao formatacao e controle de alteracoes.md",
+        "section": "5. Colaboração: Controle de Alterações (*Track Changes*) e Comentários"
+      },
+      "statement": "No Word para Microsoft 365, a exibição sem marcação pode ocultar revisões na tela sem aceitá-las ou rejeitá-las.",
+      "correctAnswer": "C",
+      "explanation": "A exibição altera a visualização, enquanto aceitar ou rejeitar resolve as alterações registradas.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Seção canônica do Word 365. A exibição altera a visualização, enquanto aceitar ou rejeitar resolve as alterações registradas. Dificuldade estimada."
     }
   ]
 }

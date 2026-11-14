@@ -41931,6 +41931,118 @@
       "correctAnswer": "E",
       "explanation": "A defesa por outro parlamentar é admitida desde que ele não integre o Conselho de Ética. A restrição também vale na fase de Plenário.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Código de Ética, art. 15. Critério conferido: A defesa por outro parlamentar é admitida desde que ele não integre o Conselho de Ética. A restrição também vale na fase de Plenário. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l047-001-adiantamento-terceiro-urgencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964, execução da despesa",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "adiantamento-terceiro-urgencia",
+      "mechanism": "aplicar-vedacao-apesar-da-finalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Suprimento de fundos: adiantamento excepcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Suprimento de fundos: adiantamento excepcional"
+      },
+      "statement": "Um servidor responde por dois adiantamentos em aberto. A urgência da próxima despesa permite conceder-lhe um terceiro, desde que exista dotação própria.",
+      "correctAnswer": "E",
+      "explanation": "A existência de dotação atende a requisito orçamentário, mas não afasta a vedação de conceder adiantamento a servidor responsável por dois adiantamentos.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 4.320/1964, art. 69, e seção canônica. Critério conferido: A existência de dotação atende a requisito orçamentário, mas não afasta a vedação de conceder adiantamento a servidor responsável por dois adiantamentos. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l047-002-suprimento-empenho-antes-entrega",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964, execução da despesa",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "suprimento-empenho-antes-entrega",
+      "mechanism": "ordenar-atos-no-regime-excepcional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Suprimento de fundos: adiantamento excepcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Suprimento de fundos: adiantamento excepcional"
+      },
+      "statement": "Em despesa que não pode seguir o processamento normal e se enquadra em hipótese legal de adiantamento, o empenho em dotação própria deve anteceder a entrega do numerário ao servidor.",
+      "correctAnswer": "C",
+      "explanation": "O caráter excepcional do regime altera a execução do gasto pelo servidor, mas a lei exige empenho antes da entrega do numerário.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 4.320/1964, art. 68, e seção canônica. Critério conferido: O caráter excepcional do regime altera a execução do gasto pelo servidor, mas a lei exige empenho antes da entrega do numerário. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l047-003-rp-cancelamento-direito-verificado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964, execução da despesa",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "rp-cancelamento-direito-verificado",
+      "mechanism": "separar-registro-e-direito-do-credor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Execução, cancelamento e seus limites"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Execução, cancelamento e seus limites"
+      },
+      "statement": "Uma despesa regularmente liquidada foi inscrita em restos a pagar. O cancelamento do registro, sem análise da obrigação, basta para demonstrar que o direito do credor deixou de existir.",
+      "correctAnswer": "E",
+      "explanation": "A liquidação verifica o direito do credor. O cancelamento contábil isolado não demonstra causa jurídica de extinção da obrigação.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 4.320/1964, art. 36, e seção canônica. Critério conferido: A liquidação verifica o direito do credor. O cancelamento contábil isolado não demonstra causa jurídica de extinção da obrigação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l047-004-dea-prescricao-interrompida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei nº 4.320/1964, execução da despesa",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "dea-prescricao-interrompida",
+      "mechanism": "reconhecer-hipotese-expressa-de-dea",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Despesas de Exercícios Anteriores (DEA): art. 37"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Despesas de Exercícios Anteriores (DEA): art. 37"
+      },
+      "statement": "Um resto a pagar cancelado, com prescrição interrompida e direito do credor reconhecido pela autoridade competente, pode ser pago à conta de dotação para despesas de exercícios anteriores, observadas as condições aplicáveis.",
+      "correctAnswer": "C",
+      "explanation": "O art. 37 inclui restos a pagar com prescrição interrompida. O reconhecimento da obrigação e a dotação específica dão suporte ao pagamento nessa hipótese.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 4.320/1964, art. 37, e seção canônica. Critério conferido: O art. 37 inclui restos a pagar com prescrição interrompida. O reconhecimento da obrigação e a dotação específica dão suporte ao pagamento nessa hipótese. Dificuldade estimada."
     }
   ]
 }

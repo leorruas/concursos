@@ -412,7 +412,7 @@ const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
   typeof q.explanation === 'string' && ['C','E'].includes(q.correctAnswer) && q.format === 'CE'
 ).map(q => ({id:q.id,concursoId:q.concursoId,subjectId:q.subjectId,subjectName:materiasQuestoes[q.subjectId] || q.subjectId,
   unitId:q.unitId,unitName:nomesUnidades[q.unitId] || q.unitId,examPart:q.examPart,articleId:q.articleId || null,section:q.source?.section || null,conceptId:q.conceptId||null,mechanism:q.mechanism||null,
-  format:q.format,statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
+  format:q.format,estimatedDifficulty:q.estimatedDifficulty||null,statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
 if(new Set(questoesPublicas.map(q=>q.id)).size !== questoesPublicas.length)throw Error('IDs duplicados no catálogo público de questões.');
 fs.writeFileSync(path.join(dataDest,'questoes-publicas.json'),JSON.stringify({version:1,contests:concursosQuestoes,questions:questoesPublicas}));
 console.log('✓ Banco de treino: '+questoesPublicas.length+' questões validadas da Câmara; outros concursos aguardam banco próprio.');

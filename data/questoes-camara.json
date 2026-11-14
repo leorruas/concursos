@@ -41035,6 +41035,202 @@
       "correctAnswer": "E",
       "explanation": "A base da recomposição são as reduções efetivadas. A proporção de 1 para 3 resulta em R$ 1 milhão para o primeiro órgão e R$ 3 milhões para o segundo.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. LC 101/2000, art. 9º, § 1º. Critério conferido: A base da recomposição são as reduções efetivadas. A proporção de 1 para 3 resulta em R$ 1 milhão para o primeiro órgão e R$ 3 milhões para o segundo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l040-001-sartori-cadeira-sem-competicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos e sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "sartori-cadeira-sem-competicao",
+      "mechanism": "classificar-abertura-da-disputa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Giovanni Sartori: partidos relevantes, formato e mecânica da competição"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Giovanni Sartori: partidos relevantes, formato e mecânica da competição"
+      },
+      "statement": "Em um país, três legendas de oposição ocupam cadeiras, mas regras impedem que disputem o governo em condições competitivas. A mera presença dessas legendas basta para classificar o sistema como de partido predominante.",
+      "correctAnswer": "E",
+      "explanation": "A predominância pressupõe competição efetiva e possibilidade de derrota. A presença formal de outras legendas é compatível com hegemonia.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do critério na seção canônica: A predominância pressupõe competição efetiva e possibilidade de derrota. A presença formal de outras legendas é compatível com hegemonia. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l040-002-sartori-oposicao-legitimidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos e sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "sartori-oposicao-legitimidade",
+      "mechanism": "distinguir-oposicao-e-rejeicao-do-regime",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Giovanni Sartori: partidos relevantes, formato e mecânica da competição"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Giovanni Sartori: partidos relevantes, formato e mecânica da competição"
+      },
+      "statement": "Um partido vota contra todas as propostas do gabinete, mas aceita as regras eleitorais e reconhece a legitimidade do regime. A conduta legislativa descrita, isoladamente, não o torna antissistema na análise de Sartori.",
+      "correctAnswer": "C",
+      "explanation": "A oposição ao gabinete indica conflito com o governo. A categoria antissistema depende da relação com a legitimidade da ordem política.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do critério na seção canônica: A oposição ao gabinete indica conflito com o governo. A categoria antissistema depende da relação com a legitimidade da ordem política. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l040-003-nep-entrada-com-transferencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos e sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "nep-entrada-com-transferencia",
+      "mechanism": "prever-efeito-de-divisao-de-parcela",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Laakso e Taagepera: número efetivo de partidos"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Laakso e Taagepera: número efetivo de partidos"
+      },
+      "statement": "Em um cenário, um partido tem 60% das cadeiras e outro, 40%. Em cenário alternativo, a parcela de 40% se divide igualmente entre duas legendas, sem alterar a parcela de 60%. O número efetivo de partidos é maior no segundo cenário.",
+      "correctAnswer": "C",
+      "explanation": "Dividir 0,40 em duas parcelas de 0,20 reduz a soma dos quadrados de 0,52 para 0,44, elevando o seu inverso.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do critério na seção canônica: Dividir 0,40 em duas parcelas de 0,20 reduz a soma dos quadrados de 0,52 para 0,44, elevando o seu inverso. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l040-004-nep-mesma-distribuicao-outra-identidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos e sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "nep-mesma-distribuicao-outra-identidade",
+      "mechanism": "separar-distribuicao-e-rotulo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Laakso e Taagepera: número efetivo de partidos"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Laakso e Taagepera: número efetivo de partidos"
+      },
+      "statement": "Dois parlamentos têm as mesmas parcelas de cadeiras por ordem de tamanho, mas as maiores bancadas pertencem a partidos de ideologias distintas em cada parlamento. O número efetivo de partidos parlamentares pode ser idêntico nos dois casos.",
+      "correctAnswer": "C",
+      "explanation": "O cálculo depende das parcelas, independentemente das identidades ou posições ideológicas associadas a elas.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do critério na seção canônica: O cálculo depende das parcelas, independentemente das identidades ou posições ideológicas associadas a elas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l040-005-pedersen-nova-legenda",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos e sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "pedersen-nova-legenda",
+      "mechanism": "incluir-entrada-com-base-zero",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Pedersen: volatilidade e mudança entre eleições"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Pedersen: volatilidade e mudança entre eleições"
+      },
+      "statement": "Uma legenda que não disputou a eleição anterior obtém 8% dos votos na eleição seguinte. Mesmo que o pesquisador mantenha comparáveis as demais siglas, deve omitir a estreante do índice de Pedersen porque ela não tem votação anterior observada.",
+      "correctAnswer": "E",
+      "explanation": "Nesse cenário, a participação anterior da estreante é zero. Sua variação entra no cálculo, desde que as categorias sejam comparáveis.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do critério na seção canônica: Nesse cenário, a participação anterior da estreante é zero. Sua variação entra no cálculo, desde que as categorias sejam comparáveis. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l040-006-pedersen-versus-nep-composicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos e sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "pedersen-versus-nep-composicao",
+      "mechanism": "distinguir-redistribuicao-e-concentracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Pedersen: volatilidade e mudança entre eleições"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Pedersen: volatilidade e mudança entre eleições"
+      },
+      "statement": "Entre duas eleições, os partidos A e B trocam entre si as parcelas de 70% e 30% dos votos. É possível observar volatilidade positiva sem alteração do número efetivo de partidos.",
+      "correctAnswer": "C",
+      "explanation": "O NEP permanece igual porque usa as mesmas duas parcelas. Pedersen acompanha as mudanças por partido, que no caso somam 80 pontos absolutos antes da divisão por dois.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do critério na seção canônica: O NEP permanece igual porque usa as mesmas duas parcelas. Pedersen acompanha as mudanças por partido, que no caso somam 80 pontos absolutos antes da divisão por dois. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l040-007-partidos-estrutura-lider",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos e sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "partidos-estrutura-lider",
+      "mechanism": "distinguir-legitimidade-e-solidez",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Mainwaring e Scully: institucionalização do sistema partidário"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Mainwaring e Scully: institucionalização do sistema partidário"
+      },
+      "statement": "Em um país, partidos e eleições são reconhecidos como meios legítimos de disputa, embora as siglas dissolvam suas estruturas sempre que seus líderes saem. A legitimidade observada basta para demonstrar solidez organizacional na análise de Mainwaring e Scully.",
+      "correctAnswer": "E",
+      "explanation": "Legitimidade e solidez são dimensões distintas. Dissolução recorrente após a saída de líderes evidencia dependência pessoal em vez de estrutura estável.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Conferência do critério na seção canônica: Legitimidade e solidez são dimensões distintas. Dissolução recorrente após a saída de líderes evidencia dependência pessoal em vez de estrutura estável. Dificuldade estimada."
     }
   ]
 }

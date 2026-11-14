@@ -5,7 +5,7 @@ title: "Direitos políticos"
 type: "conceito"
 status: "ativo"
 created: 2026-06-03
-updated: 2026-11-11
+updated: 2026-11-14
 ---
 
 # Direitos políticos
@@ -108,7 +108,18 @@ Presidente, Governadores e Prefeitos podem ser reeleitos para um único período
 
 ### Inelegibilidade reflexa
 
-No território de jurisdição do titular, há inelegibilidade do cônjuge e de parentes consanguíneos ou afins até o segundo grau, ou por adoção, do Presidente, Governador ou Prefeito, ou de quem os tenha substituído nos seis meses anteriores ao pleito, ressalvada a hipótese constitucional de titular de mandato eletivo candidato à reeleição.
+A **inelegibilidade reflexa** (art. 14, § 7º, da Constituição) impede, em regra, que o cônjuge, companheiro ou determinados parentes do chefe do Executivo disputem eleições no território em que ele exerce o mandato. A regra alcança parentes consanguíneos ou por afinidade até o segundo grau e por adoção, além dos familiares de quem tenha substituído o titular nos seis meses anteriores à eleição. Seu objetivo é limitar o uso da influência do governante para favorecer candidaturas da família.
+
+**A restrição se refere à candidatura, e não a uma proibição geral de dois familiares exercerem mandatos simultaneamente.** A própria Constituição ressalva quem **já é titular de um mandato eletivo e disputa a reeleição para esse mandato**. Para aplicar a ressalva, verifique a situação da pessoa que quer concorrer: ela ocupa efetivamente o cargo eletivo e pretende continuar nesse mesmo cargo? A mera condição de suplente não equivale à titularidade.
+
+**Exemplo com sequência temporal:** Ana e Bruno são casados. Ana já é vereadora do município quando Bruno assume a prefeitura. Durante o mandato do prefeito, Ana permanece na Câmara Municipal: os dois mandatos podem coexistir. Na eleição seguinte, se Ana continua titular do mandato e concorre à **reeleição como vereadora**, o parentesco com o prefeito **não a torna inelegível por si só**, devido à ressalva final do § 7º. A análise pressupõe que Ana também cumpra as demais exigências eleitorais.
+
+**Mude uma condição:** se Ana **não é vereadora** e pretende disputar pela primeira vez uma vaga na Câmara Municipal enquanto Bruno é prefeito, a exceção de reeleição não se aplica. Em regra, incide a inelegibilidade reflexa no município, salvo outra circunstância jurídica que afaste o impedimento. Da mesma forma, uma vereadora que pretende concorrer a **outro cargo** não pode usar automaticamente a ressalva destinada à reeleição.
+
+> [!IMPORTANT]
+> **Para a Cebraspe:** “cônjuge do prefeito” indica a regra de inelegibilidade reflexa; “já titular de mandato eletivo e candidata à reeleição” pode acionar a exceção constitucional. A coexistência de mandatos é questão distinta da elegibilidade para uma nova disputa. O STF, na ADPF 1.089 (2024), também afastou a leitura de que esse parentesco impediria, por si só, o exercício simultâneo da chefia do Executivo e da presidência da Casa Legislativa: trata-se de limite à criação de impedimentos não previstos na Constituição, e não de autorização geral de qualquer candidatura familiar.
+
+**Fontes:** [Constituição, art. 14, § 7º, com notas de jurisprudência do TSE](https://www.tse.jus.br/legislacao/codigo-eleitoral/codigo-eleitoral); [TSE, precedentes sobre parentes de titulares e a exceção à reeleição](https://temasselecionados.tse.jus.br/temas-selecionados/inelegibilidades-e-condicoes-de-elegibilidade/parte-i-inelegibilidades-e-condicoes-de-elegibilidade/inelegibilidade-reflexa/parentesco/parente-de-titular-em-primeiro-mandato); [STF, Informativo 1.140, ADPF 1.089](https://www.stf.jus.br/arquivo/informativo/documento/informativo1140.htm).
 
 ### Militar alistável
 

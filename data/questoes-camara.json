@@ -46943,6 +46943,90 @@
       "correctAnswer": "C",
       "explanation": "Because introduz uma oração com verbo. Because of introduz um grupo nominal que expressa o mesmo motivo nesse contexto.",
       "reviewEvidence": "Revisão por IA com conferência da relação e da estrutura na seção indicada. Because introduz uma oração com verbo. Because of introduz um grupo nominal que expressa o mesmo motivo nesse contexto. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l109-001-modal-optional-printing",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-c27fc58c042e852e",
+      "conceptId": "modal-optional-printing",
+      "mechanism": "distinguish-absence-of-obligation-from-ban",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c27fc58c042e852e#1.1. Modalidade Deôntica: A Conduta e a Norma"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md",
+        "section": "1.1. Modalidade Deôntica: A Conduta e a Norma"
+      },
+      "statement": "The instructions say, “Applicants do not have to print the receipt.” These words prohibit applicants from printing it.",
+      "correctAnswer": "E",
+      "explanation": "Do not have to remove a obrigação de imprimir. Uma proibição exigiria uma construção como must not.",
+      "reviewEvidence": "Revisão por IA com conferência da leitura modal na seção indicada. Do not have to remove a obrigação de imprimir. Uma proibição exigiria uma construção como must not. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l109-002-modal-inference-from-fresh-traces",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-c27fc58c042e852e",
+      "conceptId": "modal-inference-from-fresh-traces",
+      "mechanism": "identify-inference-from-evidence",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c27fc58c042e852e#2.1. Dedução Lógica sobre o Passado"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md",
+        "section": "2.1. Dedução Lógica sobre o Passado"
+      },
+      "statement": "In “The floor is still wet, so the crew must have cleaned it recently,” the speaker uses the wet floor as evidence for an inference about the past.",
+      "correctAnswer": "C",
+      "explanation": "Must have cleaned expressa uma conclusão sobre uma ação anterior. A umidade do piso é a evidência usada pelo falante.",
+      "reviewEvidence": "Revisão por IA com conferência da leitura modal na seção indicada. Must have cleaned expressa uma conclusão sobre uma ação anterior. A umidade do piso é a evidência usada pelo falante. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l109-003-hedge-single-study",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-c27fc58c042e852e",
+      "conceptId": "hedge-single-study",
+      "mechanism": "detect-loss-of-qualified-claim",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c27fc58c042e852e#3. O Fenômeno do *Hedging* no Discurso Institucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md",
+        "section": "3. O Fenômeno do *Hedging* no Discurso Institucional"
+      },
+      "statement": "Changing “The pilot appears to have reduced processing time” to “The pilot reduced processing time” makes the report more categorical about the effect of the pilot.",
+      "correctAnswer": "C",
+      "explanation": "Appears to qualifica a afirmação como uma conclusão provisória. Sua retirada apresenta a redução como fato.",
+      "reviewEvidence": "Revisão por IA com conferência da leitura modal na seção indicada. Appears to qualifica a afirmação como uma conclusão provisória. Sua retirada apresenta a redução como fato. Dificuldade estimada."
     }
   ]
 }

@@ -41371,6 +41371,146 @@
       "correctAnswer": "E",
       "explanation": "Gratificações e adicionais só se incorporam nos casos e condições indicados em lei. O recebimento reiterado não substitui a previsão legal.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Lei nº 8.112/1990, art. 49, § 2º. Critério conferido: Gratificações e adicionais só se incorporam nos casos e condições indicados em lei. O recebimento reiterado não substitui a previsão legal. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l042-001-provided-condition-not-fact",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / elementos linguísticos relevantes à compreensão de textos",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "provided-condition-not-fact",
+      "mechanism": "distinguish-condition-from-fulfilment",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.4. Condição e Hipótese"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.4. Condição e Hipótese"
+      },
+      "statement": "“Access will be renewed provided that the library submits an annual report.” The sentence states that the library has already submitted the report.",
+      "correctAnswer": "E",
+      "explanation": "Provided that introduz a condição para a renovação. A construção não afirma que a condição já foi cumprida.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência de escopo e gabarito no contexto: Provided that introduz a condição para a renovação. A construção não afirma que a condição já foi cumprida. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l042-002-otherwise-consequence-of-inaction",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / elementos linguísticos relevantes à compreensão de textos",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "otherwise-consequence-of-inaction",
+      "mechanism": "recover-negated-condition",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.4. Condição e Hipótese"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.4. Condição e Hipótese"
+      },
+      "statement": "“Keep the receipt. Otherwise, you may be unable to claim reimbursement.” The second sentence describes a possible consequence of failing to keep the receipt.",
+      "correctAnswer": "C",
+      "explanation": "Otherwise retoma a instrução anterior sob a condição de descumprimento. May mantém a consequência como possibilidade.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência de escopo e gabarito no contexto: Otherwise retoma a instrução anterior sob a condição de descumprimento. May mantém a consequência como possibilidade. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l042-003-thus-inference-not-independent-event",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / elementos linguísticos relevantes à compreensão de textos",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "thus-inference-not-independent-event",
+      "mechanism": "trace-inference-to-premises",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.3. Consequência, Conclusão e Dedução"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.3. Consequência, Conclusão e Dedução"
+      },
+      "statement": "“Both copies carry the same serial number. Thus, the number alone cannot distinguish them.” The second sentence draws a conclusion from the information in the first.",
+      "correctAnswer": "C",
+      "explanation": "Thus marca uma inferência: se os números são iguais, o número sozinho não diferencia as cópias.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência de escopo e gabarito no contexto: Thus marca uma inferência: se os números são iguais, o número sozinho não diferencia as cópias. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l042-004-moreover-adds-without-rank",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / elementos linguísticos relevantes à compreensão de textos",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "moreover-adds-without-rank",
+      "mechanism": "distinguish-addition-from-priority",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.5. Adição e Continuidade Argumentativa"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.5. Adição e Continuidade Argumentativa"
+      },
+      "statement": "“The revised form costs less to print. Moreover, it is easier to read.” The connector indicates that ease of reading was the primary reason for revising the form.",
+      "correctAnswer": "E",
+      "explanation": "Moreover acrescenta um argumento. A ordem em que as vantagens aparecem não determina prioridade nem registra o motivo da revisão.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência de escopo e gabarito no contexto: Moreover acrescenta um argumento. A ordem em que as vantagens aparecem não determina prioridade nem registra o motivo da revisão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l042-005-because-cause-scope",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / elementos linguísticos relevantes à compreensão de textos",
+      "articleId": "art-730e432a862d8770",
+      "conceptId": "because-cause-scope",
+      "mechanism": "identify-caused-event",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-730e432a862d8770#1.2. Causa, Motivo e Fundamentação"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/10 - conectivos relacoes logicas e sequenciacao discursiva em ingles.md",
+        "section": "1.2. Causa, Motivo e Fundamentação"
+      },
+      "statement": "“Because the meeting ended early, the delegates reached the station before noon.” The sentence attributes the early end of the meeting to the delegates’ arrival at the station.",
+      "correctAnswer": "E",
+      "explanation": "A oração introduzida por because fornece a causa: o término antecipado. A chegada antes do meio-dia é o evento explicado.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência de escopo e gabarito no contexto: A oração introduzida por because fornece a causa: o término antecipado. A chegada antes do meio-dia é o evento explicado. Dificuldade estimada."
     }
   ]
 }

@@ -43863,6 +43863,90 @@
       "correctAnswer": "C",
       "explanation": "Publicar o glossário é uma entrega. Sua localização pelo público é condição para que seja utilizado e ajude a compreender as informações.",
       "reviewEvidence": "Revisão por IA. Critério conferido na cadeia de valor: Publicar o glossário é uma entrega. Sua localização pelo público é condição para que seja utilizado e ajude a compreender as informações. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l069-001-must-not-versus-optional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-c27fc58c042e852e",
+      "conceptId": "must-not-versus-optional",
+      "mechanism": "distinguish-prohibition-from-option",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c27fc58c042e852e#1. Classificação Fundamental: Modalidade Deôntica vs. Epistêmica"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md",
+        "section": "1. Classificação Fundamental: Modalidade Deôntica vs. Epistêmica"
+      },
+      "statement": "“Visitors must not open the display cases.” This means that opening the cases is optional.",
+      "correctAnswer": "E",
+      "explanation": "Must not exprime proibição. Uma ação facultativa seria permitida, embora não exigida.",
+      "reviewEvidence": "Revisão editorial por IA. Critério contextual: Must not exprime proibição. Uma ação facultativa seria permitida, embora não exigida. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l069-002-may-permission-in-notice",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-c27fc58c042e852e",
+      "conceptId": "may-permission-in-notice",
+      "mechanism": "resolve-permission-by-context",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c27fc58c042e852e#1. Classificação Fundamental: Modalidade Deôntica vs. Epistêmica"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md",
+        "section": "1. Classificação Fundamental: Modalidade Deôntica vs. Epistêmica"
+      },
+      "statement": "A notice addressed to passengers reads, “You may use the waiting room until your train arrives.” In this context, “may” grants permission to use the room.",
+      "correctAnswer": "C",
+      "explanation": "No aviso, may autoriza o passageiro a usar o espaço. Until delimita a duração dessa permissão.",
+      "reviewEvidence": "Revisão editorial por IA. Critério contextual: No aviso, may autoriza o passageiro a usar o espaço. Until delimita a duração dessa permissão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l069-003-must-inference-present-evidence",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / leitura, inferência e gramática em contexto",
+      "articleId": "art-c27fc58c042e852e",
+      "conceptId": "must-inference-present-evidence",
+      "mechanism": "identify-deduction-not-instruction",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c27fc58c042e852e#1. Classificação Fundamental: Modalidade Deôntica vs. Epistêmica"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/15 - modalizacao possibilidade obrigacao deducao e conselho em ingles.md",
+        "section": "1. Classificação Fundamental: Modalidade Deôntica vs. Epistêmica"
+      },
+      "statement": "“The floor is wet and the umbrella stand is full. It must be raining outside.” The word “must” introduces a conclusion based on observations.",
+      "correctAnswer": "C",
+      "explanation": "A afirmação sobre a chuva é uma dedução a partir dos indícios. Must expressa a força dessa inferência, sem impor uma obrigação.",
+      "reviewEvidence": "Revisão editorial por IA. Critério contextual: A afirmação sobre a chuva é uma dedução a partir dos indícios. Must expressa a força dessa inferência, sem impor uma obrigação. Dificuldade estimada."
     }
   ]
 }

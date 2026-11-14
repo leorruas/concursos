@@ -340,7 +340,7 @@ if (fs.existsSync(outDir)) {
 }
 fs.mkdirSync(outDir, { recursive: true });
 
-const arquivosSPA = ['index.html', 'flashcards.html', 'resultados.html', 'style.css', 'script.js'];
+const arquivosSPA = ['index.html', 'flashcards.html', 'resultados.html', 'questoes.html', 'style.css', 'script.js'];
 for (const f of arquivosSPA) {
   const src = path.join(rootDir, f);
   const dest = path.join(outDir, f);
@@ -400,6 +400,22 @@ for (const nomeJson of JSONS_PUBLICOS_AUTORIZADOS) {
   }
 }
 
+// Catálogo público mínimo para treino. Não publicar evidence editorial interna,
+// dados do estudante nem conteúdos que não receberam revisão do banco.
+const arquivoQuestoes = JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara.json'),'utf8'));
+const concursosQuestoes = concursosRegistrados.map(c => ({id:c.id,nome:c.nome,banca:c.banca}));
+const materiasQuestoes = Object.fromEntries(Object.entries(arquivoQuestoes.subjects).map(([id,d]) => [id, d.units?.[0]?.[1] || id]));
+const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
+  q.reviewStatus === 'validada' && typeof q.reviewEvidence === 'string' && q.reviewEvidence.trim() &&
+  typeof q.id === 'string' && typeof q.statement === 'string' &&
+  typeof q.explanation === 'string' && ['C','E'].includes(q.correctAnswer) && q.format === 'CE'
+).map(q => ({id:q.id,concursoId:q.concursoId,subjectId:q.subjectId,subjectName:materiasQuestoes[q.subjectId] || q.subjectId,
+  unitId:q.unitId,examPart:q.examPart,articleId:q.articleId || null,conceptId:q.conceptId||null,mechanism:q.mechanism||null,
+  format:q.format,statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
+if(new Set(questoesPublicas.map(q=>q.id)).size !== questoesPublicas.length)throw Error('IDs duplicados no catálogo público de questões.');
+fs.writeFileSync(path.join(dataDest,'questoes-publicas.json'),JSON.stringify({version:1,contests:concursosQuestoes,questions:questoesPublicas}));
+console.log('✓ Banco de treino: '+questoesPublicas.length+' questões validadas da Câmara; outros concursos aguardam banco próprio.');
+
 for (const item of manifesto) {
   const srcFile = path.join(rootDir, item.sourcePath);
   const destFile = path.join(outDir, item.sourcePath);
@@ -428,7 +444,7 @@ fs.writeFileSync(path.join(outDir, 'data/flashcards.json'), JSON.stringify(colec
 console.log('✓ Glossário nos flashcards: ' + flashcardsGlossario.generatedCount + ' novos, ' + flashcardsGlossario.linkedCount + ' vinculados a cartões existentes. Total publicado: ' + colecaoFlashcardsPublicada.cards.length + '.');
 
 // A URL dos arquivos visuais muda com seu conteúdo, evitando CSS/JS de outra publicação.
-for (const pagina of ['index.html', 'flashcards.html', 'resultados.html']) {
+for (const pagina of ['index.html', 'flashcards.html', 'resultados.html', 'questoes.html']) {
 const htmlPath = path.join(outDir, pagina);
 const htmlVersionado = fs.readFileSync(htmlPath, 'utf8').replace(/(src|href)="([^"?#]+\.(?:css|js))(?:\?[^"#]*)?"/g, (original, atributo, recurso) => {
   if (/^(?:https?:|\/\/)/.test(recurso)) return original;

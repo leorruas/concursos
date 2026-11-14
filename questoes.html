@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resolver questões · concursos</title>
+<script>(function(){try{document.documentElement.dataset.theme=localStorage.getItem('tema-concursos')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark')}catch{document.documentElement.dataset.theme='dark'}})();</script>
+<link rel="stylesheet" href="style.css">
+<style>
+body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;margin:auto;padding:24px 28px 88px}
+.qs-nav{display:flex;justify-content:space-between;gap:18px;align-items:center;border-bottom:1px solid var(--accent-blue-alpha-30);padding:14px 0 24px}
+.qs-nav a,.qs-nav button{font-size:.83rem;text-decoration:none;color:var(--muted);background:transparent;border:0;cursor:pointer;font-family:inherit}
+.qs-nav .qs-brand{font-weight:750;font-size:1.1rem;color:var(--accent-blue)}
+.qs-nav span{color:var(--muted);font-weight:400}.qs-links{display:flex;gap:16px;flex-wrap:wrap}
+.qs-eyebrow,.qs-label,.qs-meta{font:500 .74rem 'IBM Plex Mono',monospace;letter-spacing:.05em;color:var(--accent-blue)}
+.qs-hero{padding:72px 0 43px}.qs-hero h1{font-size:clamp(2.5rem,6vw,4.6rem);letter-spacing:-.065em;line-height:1.05;margin:12px 0;color:var(--text)}
+.qs-hero p{font-size:1rem;color:var(--muted);max-width:640px;line-height:1.6}
+.qs-panel{background:var(--surface);border:1px solid var(--accent-blue-alpha-30);padding:30px;margin-bottom:20px}
+.qs-panel[hidden],.qs-feedback[hidden],.qs-conditional[hidden],button[hidden]{display:none!important}
+.qs-panel h2{font-size:1.38rem;margin:0 0 23px;letter-spacing:-.03em;color:var(--text)}
+.qs-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 24px}
+.qs-field{display:flex;flex-direction:column;gap:10px;color:var(--muted);font-size:.85rem}
+.qs-field input[type=number],.qs-field select{width:100%;background:var(--bg);border:1px solid color-mix(in srgb,var(--text) 25%,transparent);color:var(--text);font:inherit;padding:13px 14px;border-radius:0}
+.qs-field :focus-visible,.qs-button:focus-visible{outline:2px solid var(--accent-blue);outline-offset:2px}
+.qs-options{display:flex;flex-wrap:wrap;gap:9px}
+.qs-options label{border:1px solid color-mix(in srgb,var(--text) 22%,transparent);padding:10px 12px;display:flex;align-items:center;gap:8px;color:var(--text);cursor:pointer}
+.qs-options input,.qs-answers input,.qs-uncertain input{accent-color:var(--accent-blue)}
+.qs-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:26px}
+.qs-button{background:var(--accent-blue);border:1px solid var(--accent-blue);color:#090909;font:700 .93rem 'Archivo',sans-serif;padding:13px 20px;cursor:pointer}
+.qs-button.secondary{background:transparent;color:var(--accent-blue)}.qs-button:disabled{opacity:.45;cursor:not-allowed}
+.qs-note,#qs-status{font-size:.84rem;line-height:1.55;color:var(--muted)}.qs-note a{color:var(--accent-blue)}
+.qs-divider{border-top:1px solid color-mix(in srgb,var(--text) 17%,transparent);margin:25px 0}
+.qs-top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.qs-progress{height:4px;background:color-mix(in srgb,var(--text) 14%,transparent);margin:24px 0}.qs-progress div{background:var(--accent-blue);height:100%;transition:width .2s}
+.qs-statement{font-size:clamp(1.15rem,2.8vw,1.65rem);font-weight:550;line-height:1.45;margin:25px 0}
+.qs-answers label{display:flex;gap:13px;align-items:center;border:1px solid color-mix(in srgb,var(--text) 20%,transparent);padding:18px;margin:10px 0;cursor:pointer}
+.qs-answers label:has(input:checked){border-color:var(--accent-blue);background:var(--accent-blue-alpha-05)}
+.qs-answers label[hidden]{display:none}
+.qs-uncertain{display:flex;align-items:center;gap:9px;color:var(--muted);font-size:.88rem;margin-top:22px}
+.qs-feedback{border-left:3px solid var(--accent-blue);background:var(--accent-blue-alpha-05);padding:18px 20px;margin-top:20px;line-height:1.6}
+.qs-feedback p{font-size:.9rem}.qs-feedback a,.qs-review a{color:var(--accent-blue)}
+.qs-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.qs-stats div{border-top:1px solid var(--accent-blue-alpha-30);padding-top:16px}
+.qs-stats strong{display:block;font-size:1.9rem}.qs-stats span{color:var(--muted);font-size:.78rem}
+.qs-review{border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent);padding:17px 0}
+.qs-review summary{cursor:pointer}.qs-review p{font-size:.88rem;line-height:1.6;color:var(--muted)}
+.qs-footer{color:var(--muted);font-size:.8rem;border-top:1px solid color-mix(in srgb,var(--text) 20%,transparent);margin-top:60px;padding-top:20px}
+@media(max-width:640px){.qs-shell{padding:18px}.qs-form{grid-template-columns:1fr}.qs-panel{padding:20px}.qs-hero{padding:38px 0}.qs-stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body class="questoes-page">
+<div class="qs-shell">
+<nav class="qs-nav"><a class="qs-brand" href="index.html">concursos <span>/ questões</span></a><div class="qs-links"><a href="index.html">biblioteca</a><a href="flashcards.html">flashcards</a><a href="resultados.html">meus resultados</a><button id="qs-theme" type="button">modo claro</button></div></nav>
+<header class="qs-hero"><span class="qs-eyebrow">BATERIAS DE ESTUDO / CEBRASPE</span><h1>Resolver para lembrar.</h1><p>Escolha o concurso, o tamanho da bateria e uma matéria ou várias. O gabarito aparece depois da resposta ou no encerramento, conforme o modo de estudo.</p></header>
+<p id="qs-status" role="status" aria-live="polite">Carregando questões…</p>
+<section class="qs-panel" id="qs-config" hidden>
+<h2>Montar uma bateria</h2>
+<div class="qs-form">
+<label class="qs-field" for="qs-concurso"><span class="qs-label">Concurso</span><select id="qs-concurso"></select></label>
+<label class="qs-field" for="qs-count"><span class="qs-label">Quantas questões?</span><input type="number" min="1" max="100" step="1" value="10" id="qs-count"></label>
+<div class="qs-field"><span class="qs-label">Matérias</span><div class="qs-options"><label><input type="radio" name="qs-scope" value="mixed" checked> misturadas</label><label><input type="radio" name="qs-scope" value="single"> uma matéria</label></div></div>
+<label class="qs-field qs-conditional" id="qs-materia-wrap" for="qs-materia" hidden><span class="qs-label">Escolher matéria</span><select id="qs-materia"></select></label>
+<div class="qs-field"><span class="qs-label">Correção</span><div class="qs-options"><label><input type="radio" name="qs-mode" value="aprendizagem" checked> após cada questão</label><label><input type="radio" name="qs-mode" value="simulado"> no final</label></div></div>
+</div>
+<div class="qs-divider"></div><p class="qs-note" id="qs-availability"></p>
+<div class="qs-actions"><button class="qs-button" id="qs-start" type="button">Começar</button><a id="qs-login" class="qs-note" href="https://concurso-estudo.leoruas.workers.dev/questoes.html">Abrir versão com login GitHub</a></div>
+<p class="qs-note">Respostas salvas neste navegador. No ambiente autenticado, sincronização privada com confirmação de gravação. Os concursos sem banco revisado aparecem no seletor, mas não permitem iniciar uma bateria.</p>
+</section>
+<section class="qs-panel" id="qs-play" hidden>
+<div class="qs-top"><span class="qs-meta" id="qs-number"></span><span class="qs-meta" id="qs-context"></span></div>
+<div class="qs-progress" aria-hidden="true"><div id="qs-progress-bar"></div></div>
+<h2 class="sr-only">Questão</h2><p class="qs-statement" id="qs-statement"></p>
+<form id="qs-answer-form"><fieldset class="qs-answers" style="border:0;padding:0;margin:0"><legend class="sr-only">Julgue o item</legend>
+<label><input type="radio" name="qs-answer" value="C"> Certo</label><label><input type="radio" name="qs-answer" value="E"> Errado</label><label id="qs-blank-wrap" hidden><input type="radio" name="qs-answer" value="blank"> Em branco</label>
+</fieldset><label class="qs-uncertain"><input type="checkbox" id="qs-insecure"> Não estou seguro</label>
+<div class="qs-feedback" id="qs-feedback" hidden></div>
+<div class="qs-actions"><button class="qs-button" id="qs-submit" type="submit">Registrar resposta</button><button class="qs-button secondary" id="qs-next" type="button" hidden>Próxima questão</button><button class="qs-button secondary" id="qs-finish" type="button">Encerrar bateria</button></div></form>
+</section>
+<section class="qs-panel" id="qs-summary" hidden><span class="qs-meta" id="qs-result-context"></span><h2>Resultado da bateria</h2><div class="qs-stats" id="qs-stats"></div><p class="qs-note" id="qs-score"></p><div id="qs-reviews"></div><div class="qs-actions"><button class="qs-button" id="qs-restart" type="button">Nova bateria</button><button class="qs-button secondary" id="qs-export" type="button">Exportar respostas</button></div></section>
+<footer class="qs-footer" id="qs-sync">Seu histórico não é publicado no repositório de questões.</footer>
+</div>
+<script src="web/15-questoes-ui.js" defer></script>
+</body></html>

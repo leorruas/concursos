@@ -48315,6 +48315,34 @@
       "correctAnswer": "E",
       "explanation": "As metas descrevem resultados de cada órgão. A repetição do pedido aponta uma falha na passagem entre eles que pode ficar fora das medidas locais.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. As metas descrevem resultados de cada órgão. A repetição do pedido aponta uma falha na passagem entre eles que pode ficar fora das medidas locais. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l133-001-recurso-territorial-insubstituido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Nova Governança Pública",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "recurso-territorial-insubstituido",
+      "mechanism": "localizar-dependencia-especifica-de-um-membro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Elementos e condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Elementos e condições"
+      },
+      "statement": "Uma rede presta atendimento em cinco bairros. Em dois deles, apenas uma associação parceira dispõe de espaço para receber a equipe. A saída dessa associação pode interromper o atendimento nesses bairros mesmo que os outros participantes permaneçam.",
+      "correctAnswer": "C",
+      "explanation": "A rede depende de um recurso específico da associação nos dois bairros. A permanência dos demais membros não garante que eles possam substituir esse recurso.",
+      "reviewEvidence": "Revisão por IA com conferência da interdependência descrita na seção indicada. A rede depende de um recurso específico da associação nos dois bairros. A permanência dos demais membros não garante que eles possam substituir esse recurso. Dificuldade estimada."
     }
   ]
 }

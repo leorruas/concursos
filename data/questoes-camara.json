@@ -44983,6 +44983,62 @@
       "correctAnswer": "C",
       "explanation": "Os cinco números resumem posições da distribuição e não especificam todas as observações que ficam entre elas.",
       "reviewEvidence": "Revisão por IA. Critério de leitura do gráfico: Os cinco números resumem posições da distribuição e não especificam todas as observações que ficam entre elas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l082-001-contas-justificativa-verificavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "contas-justificativa-verificavel",
+      "mechanism": "distinguir-justificativa-e-resultado-de-controle",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Accountability"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Accountability"
+      },
+      "statement": "Em audiência, uma gestora explica os critérios usados para distribuir recursos e responde a questionamentos sobre as escolhas. Essa atuação exerce a dimensão de justificação da accountability, ainda que a audiência não tenha competência para impor sanções.",
+      "correctAnswer": "C",
+      "explanation": "Responder e justificar decisões atende a uma dimensão do conceito. A competência para responsabilizar pode pertencer a outro mecanismo institucional.",
+      "reviewEvidence": "Revisão por IA. Critério de julgamento: Responder e justificar decisões atende a uma dimensão do conceito. A competência para responsabilizar pode pertencer a outro mecanismo institucional. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l082-002-contas-canal-sem-resposta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "contas-canal-sem-resposta",
+      "mechanism": "distinguir-recebimento-e-dever-de-responder",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Accountability"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Accountability"
+      },
+      "statement": "Um portal recebe questionamentos, mas não prevê encaminhamento, resposta ou tratamento de irregularidades. A mera possibilidade de enviar manifestações assegura o exercício das dimensões de justificação e responsabilização.",
+      "correctAnswer": "E",
+      "explanation": "O recebimento de perguntas abre um canal de participação. Sem resposta ou encaminhamento, o canal não assegura justificação nem tratamento das irregularidades.",
+      "reviewEvidence": "Revisão por IA. Critério de julgamento: O recebimento de perguntas abre um canal de participação. Sem resposta ou encaminhamento, o canal não assegura justificação nem tratamento das irregularidades. Dificuldade estimada."
     }
   ]
 }

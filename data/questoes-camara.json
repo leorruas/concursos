@@ -42855,6 +42855,90 @@
       "correctAnswer": "E",
       "explanation": "O consentimento do ator precisa ser necessário para alterar o status quo. A posição de aliado e a oposição à proposta não tornam seu consentimento indispensável.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Critério cotejado com a seção canônica: O consentimento do ator precisa ser necessário para alterar o status quo. A posição de aliado e a oposição à proposta não tornam seu consentimento indispensável. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l057-001-pad-diversidade-sancoes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, processo administrativo disciplinar",
+      "articleId": "art-cc7c145f65061c3a",
+      "conceptId": "pad-diversidade-sancoes",
+      "mechanism": "escolher-autoridade-pela-pena-mais-grave",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cc7c145f65061c3a#4. Fase de julgamento e vícios sanáveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/24 - sindicancia processo administrativo disciplinar e seus ritos.md",
+        "section": "4. Fase de julgamento e vícios sanáveis"
+      },
+      "statement": "Em um mesmo PAD federal, dois indiciados estão sujeitos a sanções de gravidade diferente. Cada caso deve ser julgado separadamente pela autoridade competente para a sanção atribuída a cada indiciado.",
+      "correctAnswer": "E",
+      "explanation": "Em caso de vários indiciados e diversidade de sanções, o julgamento cabe à autoridade competente para impor a pena mais grave.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei nº 8.112/1990, art. 167, § 2º. Critério conferido: Em caso de vários indiciados e diversidade de sanções, o julgamento cabe à autoridade competente para impor a pena mais grave. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l057-002-pad-penalidade-excede-alcada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, processo administrativo disciplinar",
+      "articleId": "art-cc7c145f65061c3a",
+      "conceptId": "pad-penalidade-excede-alcada",
+      "mechanism": "identificar-remessa-e-prazo-julgador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cc7c145f65061c3a#4. Fase de julgamento e vícios sanáveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/24 - sindicancia processo administrativo disciplinar e seus ritos.md",
+        "section": "4. Fase de julgamento e vícios sanáveis"
+      },
+      "statement": "Em um PAD federal, se a penalidade cabível exceder a alçada da autoridade instauradora, o processo será encaminhado à autoridade competente, que dispõe de vinte dias para decidir.",
+      "correctAnswer": "C",
+      "explanation": "O excesso de alçada exige remessa à autoridade competente, que dispõe do mesmo prazo previsto para o julgamento.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei nº 8.112/1990, art. 167, §§ 1º e 3º. Critério conferido: O excesso de alçada exige remessa à autoridade competente, que dispõe do mesmo prazo previsto para o julgamento. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l057-003-pad-relatorio-agravamento-motivado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Lei nº 8.112/1990, processo administrativo disciplinar",
+      "articleId": "art-cc7c145f65061c3a",
+      "conceptId": "pad-relatorio-agravamento-motivado",
+      "mechanism": "avaliar-condicao-para-divergir-do-relatorio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-cc7c145f65061c3a#4. Fase de julgamento e vícios sanáveis"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/24 - sindicancia processo administrativo disciplinar e seus ritos.md",
+        "section": "4. Fase de julgamento e vícios sanáveis"
+      },
+      "statement": "Se o relatório da comissão contrariar as provas do PAD federal, a autoridade julgadora pode agravar a penalidade proposta, sem indicar os motivos da divergência.",
+      "correctAnswer": "E",
+      "explanation": "A contrariedade às provas permite divergência da conclusão, mas a autoridade deve motivar o agravamento.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Lei nº 8.112/1990, art. 168, parágrafo único. Critério conferido: A contrariedade às provas permite divergência da conclusão, mas a autoridade deve motivar o agravamento. Dificuldade estimada."
     }
   ]
 }

@@ -102,6 +102,54 @@ function render(){
  status.textContent='Histórico até '+fmtDate(current.cut)+'. Classificação por amostra disponível, com atualização após consolidação das sessões.';
  root.hidden=false;
 }
+
+async function loadQuizResults(examId){
+ const statusQuiz=$('results-quiz-status'),stats=$('results-quiz-stats'),subjects=$('results-quiz-subjects');
+ if(!statusQuiz||!stats||!subjects)return;
+ statusQuiz.textContent='Consultando tentativas da interface de questões…';
+ stats.replaceChildren();subjects.replaceChildren();
+ try{
+  const response=await fetch('/v1/study/quiz?concurso='+encodeURIComponent(examId),{
+   credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}
+  });
+  if(!response.ok)throw Error('HTTP '+response.status);
+  const result=await response.json();
+  if(!result||result.version!==1||!Array.isArray(result.attempts))throw Error('Formato inesperado');
+  if(select.value!==examId)return;
+  const attempts=result.attempts.filter(a=>a&&a.concursoId===examId&&['correct','incorrect','blank'].includes(a.result));
+  const correct=attempts.filter(a=>a.result==='correct').length;
+  const wrong=attempts.filter(a=>a.result==='incorrect').length;
+  const now=Date.now(),seven=7*86400000,thirty=30*86400000;
+  const recent=ms=>attempts.filter(a=>Number.isFinite(Number(a.answeredAt))&&Number(a.answeredAt)<=now&&now-Number(a.answeredAt)<ms).length;
+  const percentage=correct+wrong?Math.round(1000*correct/(correct+wrong))/10+'%':'Sem amostra';
+  stats.replaceChildren(
+   stat('Tentativas no site',attempts.length),
+   stat('Últimos 7 dias',recent(seven)),
+   stat('Últimos 30 dias',recent(thirty)),
+   stat('Acerto entre respondidas',percentage)
+  );
+  const grouped=new Map();
+  for(const a of attempts){
+   const key=typeof a.subjectId==='string'&&a.subjectId?a.subjectId:'sem-materia';
+   if(!grouped.has(key))grouped.set(key,{id:key,total:0,correct:0,incorrect:0});
+   const item=grouped.get(key);item.total++;
+   if(a.result==='correct')item.correct++;
+   if(a.result==='incorrect')item.incorrect++;
+  }
+  const sorted=[...grouped.values()].sort((a,b)=>b.total-a.total||title(a.id).localeCompare(title(b.id),'pt-BR'));
+  subjects.replaceChildren(...sorted.map(v=>{
+   const tr=el('tr'),answered=v.correct+v.incorrect;
+   for(const value of [title(v.id),v.total,v.correct,v.incorrect,answered?(100*v.correct/answered).toFixed(1)+'%':'Sem amostra'])tr.append(el('td','',value));
+   return tr;
+  }));
+  statusQuiz.textContent=attempts.length
+   ?'Tentativas autenticadas no site: até 5.000 registros recentes, separados do histórico consolidado no cofre. A mesma resposta não entra duas vezes neste painel.'
+   :'Ainda não há respostas da interface de questões sincronizadas para este concurso.';
+ }catch{
+  if(select.value!==examId)return;
+  statusQuiz.textContent='O histórico da interface de questões está indisponível no momento. Os resultados consolidados abaixo continuam independentes.';
+ }
+}
 async function manifestLoad(){
  try{const r=await fetch('/manifest.json',{cache:'no-store'});if(!r.ok)throw Error('manifesto');const list=await r.json();if(Array.isArray(list))manifest=new Map(list.filter(a=>a.articleId).map(a=>[a.articleId,a]));}
  catch{manifest=new Map();}
@@ -123,6 +171,7 @@ async function load(){
   const j=await r.json();
   if(!j||j.version!==1||j.concursoId!==select.value)throw Error('Resposta inesperada do serviço privado.');
   current=j;$('results-login').hidden=true;$('results-logout').hidden=false;render();
+  void loadQuizResults(select.value);
  }catch(e){
   if(location.origin!==WORKER){
    $('results-login').hidden=false;

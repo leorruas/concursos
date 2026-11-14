@@ -46,6 +46,15 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .qs-footer{color:var(--muted);font-size:.8rem;border-top:1px solid color-mix(in srgb,var(--text) 20%,transparent);margin-top:60px;padding-top:20px}
 @media(max-width:640px){.qs-shell{padding:18px}.qs-form{grid-template-columns:1fr}.qs-panel{padding:20px}.qs-hero{padding:38px 0}.qs-stats{grid-template-columns:repeat(2,1fr)}}
 
+.qs-question-attributes{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.qs-question-attributes .qs-context{margin:10px 0}
+.qs-difficulty{border:1px solid var(--accent-blue-alpha-30);padding:5px 10px;white-space:nowrap}
+.qs-difficulty-result{border-top:1px solid color-mix(in srgb,var(--text) 23%,transparent);padding-top:28px;margin:24px 0}
+.qs-difficulty-result h3{font-size:1.15rem;color:var(--text);font-weight:600;margin:8px 0 22px}
+.qs-difficulty-item{display:grid;grid-template-columns:minmax(90px,1fr) minmax(60px,1fr);gap:16px;padding:10px 0;border-top:1px solid color-mix(in srgb,var(--text) 12%,transparent)}
+.qs-difficulty-item strong{font-size:.9rem;font-weight:600;color:var(--text)}
+.qs-difficulty-item span{font-size:.87rem;color:var(--muted);text-align:right}
+
 /* Ações com hierarquia clara: saída na barra superior, resposta na área de escolha, correção junto ao enunciado. */
 .qs-stop{background:none;color:var(--muted);border:1px solid color-mix(in srgb,var(--text) 22%,transparent);font:inherit;font-size:.81rem;padding:8px 12px;cursor:pointer}
 .qs-stop:hover{color:var(--text);border-color:color-mix(in srgb,var(--text) 55%,transparent)}
@@ -111,6 +120,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <div class="qs-field"><span class="qs-label">Matérias</span><div class="qs-options"><label><input type="radio" name="qs-scope" value="mixed" checked> misturadas</label><label><input type="radio" name="qs-scope" value="single"> uma matéria</label></div></div>
 <label class="qs-field qs-conditional" id="qs-materia-wrap" for="qs-materia" hidden><span class="qs-label">Escolher matéria</span><select id="qs-materia"></select></label>
 <label class="qs-field qs-conditional" id="qs-unidade-wrap" for="qs-unidade" hidden><span class="qs-label">Recorte da matéria</span><select id="qs-unidade"></select></label>
+<div class="qs-field"><label class="qs-label" for="qs-difficulty-filter">Dificuldade estimada</label><select id="qs-difficulty-filter"><option value="">Todas as dificuldades</option><option value="facil">Fácil</option><option value="media">Média</option><option value="dificil">Difícil</option><option value="muito-dificil">Muito difícil</option></select></div>
 <div class="qs-field"><span class="qs-label">Correção</span><div class="qs-options"><label><input type="radio" name="qs-mode" value="aprendizagem" checked> após cada questão</label><label><input type="radio" name="qs-mode" value="simulado"> no final</label></div></div>
 </div>
 <div class="qs-divider"></div><p class="qs-note" id="qs-availability"></p>
@@ -119,7 +129,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 </section>
 <section class="qs-panel" id="qs-play" hidden>
 <div class="qs-top"><span class="qs-meta" id="qs-number"></span><button class="qs-stop" id="qs-finish" type="button">Encerrar bateria</button></div>
-<p class="qs-meta qs-context" id="qs-context"></p>
+<div class="qs-question-attributes"><p class="qs-meta qs-context" id="qs-context"></p><span class="qs-meta qs-difficulty" id="qs-question-difficulty"></span></div>
 <div class="qs-progress" aria-hidden="true"><div id="qs-progress-bar"></div></div>
 <h2 class="sr-only">Questão</h2><p class="qs-statement" id="qs-statement"></p>
 <section class="qs-answer-result" id="qs-after" hidden tabindex="-1" aria-label="Resultado da resposta" aria-live="polite">
@@ -136,6 +146,7 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <span class="qs-meta" id="qs-result-context"></span>
 <h2 id="qs-summary-heading">Sua bateria</h2>
 <div class="qs-result-header"><div><strong class="qs-result-percent" id="qs-result-percent">0%</strong><p class="qs-note" id="qs-score"></p></div><div class="qs-stats" id="qs-stats"></div></div>
+<section class="qs-difficulty-result" aria-labelledby="qs-difficulty-title"><p class="qs-label">DESEMPENHO POR DIFICULDADE ESTIMADA</p><h3 id="qs-difficulty-title">Como foram as questões desta bateria</h3><div id="qs-battery-difficulty"></div><p class="qs-note">A classificação é editorial, e a taxa mostra apenas seu desempenho nesta bateria. Não é uma medida estável de domínio.</p></section>
 <section class="qs-recommendations" aria-labelledby="qs-priorities-title"><p class="qs-label">PRÓXIMO PASSO</p><h3 id="qs-priorities-title">Artigos para revisar</h3>
 <p class="qs-note" id="qs-priorities-note"></p><div id="qs-priorities"></div></section>
 <details class="qs-review-all"><summary>Conferir respostas e explicações <span id="qs-review-count"></span></summary><div id="qs-reviews"></div></details>

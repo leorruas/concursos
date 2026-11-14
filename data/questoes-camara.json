@@ -43779,6 +43779,90 @@
       "correctAnswer": "C",
       "explanation": "O possessivo permite mais de um referente no original. A nova expressão explicita Marina como possuidora.",
       "reviewEvidence": "Revisão por IA. Análise de escopo sintático e de referência: O possessivo permite mais de um referente no original. A nova expressão explicita Marina como possuidora. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l068-001-valor-tempo-atividades",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "valor-tempo-atividades",
+      "mechanism": "classificar-indicador-pela-unidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação"
+      },
+      "statement": "Uma biblioteca mede as horas que sua equipe gastou revisando fichas de acervo. Como a revisão beneficia os leitores, essas horas medem diretamente quanto os leitores passaram a localizar melhor os livros.",
+      "correctAnswer": "E",
+      "explanation": "As horas medem recursos aplicados ao trabalho. Para medir o resultado no público, seria necessário observar o sucesso das buscas dos leitores.",
+      "reviewEvidence": "Revisão por IA. Critério conferido na cadeia de valor: As horas medem recursos aplicados ao trabalho. Para medir o resultado no público, seria necessário observar o sucesso das buscas dos leitores. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l068-002-valor-teste-com-usuarios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "valor-teste-com-usuarios",
+      "mechanism": "identificar-medida-proxima-de-resultado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação"
+      },
+      "statement": "Para verificar se um novo guia facilita encontrar serviços, uma equipe observa se usuários conseguem localizar o serviço adequado sem ajuda. A proporção de buscas bem-sucedidas aproxima-se mais do resultado pretendido do que o número de cópias do guia distribuídas.",
+      "correctAnswer": "C",
+      "explanation": "A taxa de sucesso mede uma mudança na capacidade de acesso. As cópias distribuídas medem a entrega.",
+      "reviewEvidence": "Revisão por IA. Critério conferido na cadeia de valor: A taxa de sucesso mede uma mudança na capacidade de acesso. As cópias distribuídas medem a entrega. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l068-003-valor-entrega-responsabilidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "valor-entrega-responsabilidade",
+      "mechanism": "localizar-elo-fraco-apos-entrega",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação"
+      },
+      "statement": "Um órgão publicou um glossário em linguagem simples, mas os usuários não o encontram no portal. A entrega foi realizada, enquanto a dificuldade de encontrar o material aponta para uma condição de acesso que pode impedir o resultado pretendido.",
+      "correctAnswer": "C",
+      "explanation": "Publicar o glossário é uma entrega. Sua localização pelo público é condição para que seja utilizado e ajude a compreender as informações.",
+      "reviewEvidence": "Revisão por IA. Critério conferido na cadeia de valor: Publicar o glossário é uma entrega. Sua localização pelo público é condição para que seja utilizado e ajude a compreender as informações. Dificuldade estimada."
     }
   ]
 }

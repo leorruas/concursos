@@ -42435,6 +42435,90 @@
       "correctAnswer": "C",
       "explanation": "Na substituição, aplicam-se as garantias e impedimentos do ministro. Nas demais atribuições da judicatura, a Constituição adota como referência o juiz de Tribunal Regional Federal.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Constituição Federal, art. 73, § 4º. Na substituição, aplicam-se as garantias e impedimentos do ministro. Nas demais atribuições da judicatura, a Constituição adota como referência o juiz de Tribunal Regional Federal. Dificuldade estimada."
+    },
+    {
+      "id": "cam-const-l052-001-renuncia-candidatura-outro-cargo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "renuncia-candidatura-outro-cargo",
+      "mechanism": "distinguir-reeleicao-e-mudanca-de-cargo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Um governador em primeiro mandato pretende candidatar-se ao Senado. Por ainda poder disputar a reeleição para governador, ele pode permanecer no cargo até o pleito também na disputa pela vaga de senador.",
+      "correctAnswer": "E",
+      "explanation": "A candidatura ao Senado é disputa por outro cargo. Para essa hipótese, exige-se renúncia ao governo até seis meses antes do pleito.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 14, §§ 5º e 6º. A candidatura ao Senado é disputa por outro cargo. Para essa hipótese, exige-se renúncia ao governo até seis meses antes do pleito. Dificuldade estimada."
+    },
+    {
+      "id": "cam-const-l052-002-inelegibilidade-reflexa-mandato-proprio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "inelegibilidade-reflexa-mandato-proprio",
+      "mechanism": "aplicar-excecao-candidatura-reeleicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "A cônjuge de um prefeito já exerce mandato de vereadora no mesmo município e pretende concorrer à reeleição para vereadora. A inelegibilidade reflexa do art. 14, § 7º, não impede, por si só, essa candidatura.",
+      "correctAnswer": "C",
+      "explanation": "A regra ressalva quem já é titular de mandato eletivo e se apresenta para a reeleição. O caso envolve o mesmo cargo que a vereadora já ocupa.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 14, § 7º. A regra ressalva quem já é titular de mandato eletivo e se apresenta para a reeleição. O caso envolve o mesmo cargo que a vereadora já ocupa. Dificuldade estimada."
+    },
+    {
+      "id": "cam-const-l052-003-inelegibilidade-reflexa-irmao-outro-cargo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / direitos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "inelegibilidade-reflexa-irmao-outro-cargo",
+      "mechanism": "delimitar-excecao-pelo-cargo-disputado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Dentro do território de jurisdição do prefeito, seu irmão, que é vereador, pode invocar a exceção constitucional destinada a candidatos à reeleição se trocar a disputa pela vereança por uma candidatura a vice-prefeito.",
+      "correctAnswer": "E",
+      "explanation": "A exceção exige candidatura à reeleição. A candidatura a vice-prefeito é a outro cargo, mesmo que o irmão já exerça mandato eletivo.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. Constituição Federal, art. 14, § 7º. A exceção exige candidatura à reeleição. A candidatura a vice-prefeito é a outro cargo, mesmo que o irmão já exerça mandato eletivo. Dificuldade estimada."
     }
   ]
 }

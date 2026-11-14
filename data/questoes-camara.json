@@ -43611,6 +43611,90 @@
       "correctAnswer": "C",
       "explanation": "Regular é uma função pública distinta da atividade empresarial regulada. A classificação examina o papel exercido, não apenas a sujeição a regras.",
       "reviewEvidence": "Revisão por IA. PDRAE de 1995, conforme a seção canônica. Regular é uma função pública distinta da atividade empresarial regulada. A classificação examina o papel exercido, não apenas a sujeição a regras. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l066-001-esfera-seguridade-assistencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei Orçamentária Anual, esferas orçamentárias",
+      "articleId": "art-74d90e9fa1b3452c",
+      "conceptId": "esfera-seguridade-assistencia",
+      "mechanism": "classificar-programacao-assistencial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Três orçamentos em uma lei"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+        "section": "Três orçamentos em uma lei"
+      },
+      "statement": "Uma fundação pública federal vinculada à assistência social executa exclusivamente um programa dessa área. Sua programação deve integrar o orçamento fiscal pelo simples fato de a entidade ser uma fundação pública.",
+      "correctAnswer": "E",
+      "explanation": "A forma jurídica da entidade não elimina a vinculação da programação à assistência social, que integra a seguridade social. Constituição, arts. 165, § 5º, III, e 194.",
+      "reviewEvidence": "Revisão editorial por IA. Critério verificado na Constituição e na seção canônica. A forma jurídica da entidade não elimina a vinculação da programação à assistência social, que integra a seguridade social. Constituição, arts. 165, § 5º, III, e 194. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l066-002-esfera-investimento-custeio-proprio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei Orçamentária Anual, esferas orçamentárias",
+      "articleId": "art-74d90e9fa1b3452c",
+      "conceptId": "esfera-investimento-custeio-proprio",
+      "mechanism": "delimitar-universo-da-esfera-de-investimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Três orçamentos em uma lei"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+        "section": "Três orçamentos em uma lei"
+      },
+      "statement": "Uma estatal federal não dependente amplia sua fábrica e paga a folha rotineira com receita própria. A presença da ampliação no orçamento de investimento das estatais inclui automaticamente nessa esfera a folha de pagamento da empresa.",
+      "correctAnswer": "E",
+      "explanation": "A esfera contempla a programação de investimento. Sua inclusão não estende a cobertura ao custeio rotineiro da empresa. Constituição, art. 165, § 5º, II.",
+      "reviewEvidence": "Revisão editorial por IA. Critério verificado na Constituição e na seção canônica. A esfera contempla a programação de investimento. Sua inclusão não estende a cobertura ao custeio rotineiro da empresa. Constituição, art. 165, § 5º, II. Dificuldade estimada."
+    },
+    {
+      "id": "cam-orc-l066-003-loa-esferas-numero-de-leis",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei Orçamentária Anual, esferas orçamentárias",
+      "articleId": "art-74d90e9fa1b3452c",
+      "conceptId": "loa-esferas-numero-de-leis",
+      "mechanism": "distinguir-componentes-e-instrumento-legal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-74d90e9fa1b3452c#Três orçamentos em uma lei"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+        "section": "Três orçamentos em uma lei"
+      },
+      "statement": "O projeto de lei orçamentária anual federal pode apresentar quadros separados para as esferas fiscal, da seguridade social e de investimento das estatais sem que essa separação exija três projetos de lei orçamentária anual.",
+      "correctAnswer": "C",
+      "explanation": "O art. 165, § 5º, da Constituição reúne os três orçamentos em uma lei orçamentária anual. Quadros próprios são compatíveis com essa estrutura.",
+      "reviewEvidence": "Revisão editorial por IA. Critério verificado na Constituição e na seção canônica. O art. 165, § 5º, da Constituição reúne os três orçamentos em uma lei orçamentária anual. Quadros próprios são compatíveis com essa estrutura. Dificuldade estimada."
     }
   ]
 }

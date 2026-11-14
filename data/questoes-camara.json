@@ -44031,6 +44031,90 @@
       "correctAnswer": "C",
       "explanation": "A adição é feita antes da comparação. O teste resultante é 9>10, que é falso.",
       "reviewEvidence": "Revisão editorial por IA. Ordem de operações conferida na documentação da Microsoft e na nota. A adição é feita antes da comparação. O teste resultante é 9>10, que é falso. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l071-001-except-union-of-days",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-fbfeb9a2a7fcf639",
+      "conceptId": "except-union-of-days",
+      "mechanism": "apply-exception-to-schedule",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fbfeb9a2a7fcf639#2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md",
+        "section": "2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação"
+      },
+      "statement": "“The reading room opens every weekday except Wednesday. It also opens on the first Saturday of each month.” According to the notice, the room opens on a Thursday that falls on the first day of the month.",
+      "correctAnswer": "C",
+      "explanation": "Thursday é um dia útil no esquema apresentado e não é a exceção. A condição first aplica-se ao sábado, não aos dias úteis.",
+      "reviewEvidence": "Revisão editorial por IA. Thursday é um dia útil no esquema apresentado e não é a exceção. A condição first aplica-se ao sábado, não aos dias úteis. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l071-002-remain-under-review-no-approval",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-fbfeb9a2a7fcf639",
+      "conceptId": "remain-under-review-no-approval",
+      "mechanism": "infer-procedural-status",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fbfeb9a2a7fcf639#2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md",
+        "section": "2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação"
+      },
+      "statement": "“The board renewed three permits. Two other applications remain under review.” The notice states that all five applications have received a final decision.",
+      "correctAnswer": "E",
+      "explanation": "Remain under review descreve dois processos ainda em análise. A decisão sobre os três primeiros não abrange esses dois.",
+      "reviewEvidence": "Revisão editorial por IA. Remain under review descreve dois processos ainda em análise. A decisão sobre os três primeiros não abrange esses dois. Dificuldade estimada."
+    },
+    {
+      "id": "cam-en-l071-003-reschedule-same-date-different-venue",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "ingles",
+      "unitId": "lingua-inglesa",
+      "editalRef": "14.2.3 / Língua Inglesa / compreensão de textos e elementos linguísticos relevantes à compreensão",
+      "articleId": "art-fbfeb9a2a7fcf639",
+      "conceptId": "reschedule-same-date-different-venue",
+      "mechanism": "distinguish-date-and-venue",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-fbfeb9a2a7fcf639#2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação"
+      ],
+      "source": {
+        "path": "3 - Materias/Ingles/08 - informacoes explicitas inferencias e limites da deducao.md",
+        "section": "2. A matriz de três camadas: Fato Explícito, Inferência Válida e Suposição/Extrapolação"
+      },
+      "statement": "“The public hearing will take place on the date originally announced, but the venue has changed to the library.” The announcement changes where the hearing will occur while retaining the original date.",
+      "correctAnswer": "C",
+      "explanation": "O trecho conserva a data original e altera o local. Venue indica o lugar do evento.",
+      "reviewEvidence": "Revisão editorial por IA. O trecho conserva a data original e altera o local. Venue indica o lugar do evento. Dificuldade estimada."
     }
   ]
 }

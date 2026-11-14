@@ -43443,6 +43443,90 @@
       "correctAnswer": "C",
       "explanation": "O acesso aos fundamentos e a possibilidade prática de intervir permitem revisão substantiva. Uma assinatura isolada não demonstra que esse controle ocorreu.",
       "reviewEvidence": "Revisão por IA. Critério conferido: O acesso aos fundamentos e a possibilidade prática de intervir permitem revisão substantiva. Uma assinatura isolada não demonstra que esse controle ocorreu. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l064-001-probabilidade-e-cronograma",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / interpretação de textos",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "probabilidade-e-cronograma",
+      "mechanism": "distinguir-previsao-e-confirmacao-de-evento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "5. Inferência Legítima versus Extrapolação no Padrão Cebraspe"
+      },
+      "statement": "O aviso informa que “a equipe espera concluir a conferência até sexta-feira, se receber os comprovantes na quarta”. O leitor pode concluir que a equipe já recebeu os comprovantes.",
+      "correctAnswer": "E",
+      "explanation": "A expectativa de conclusão está condicionada ao recebimento. O aviso não afirma que a condição se realizou.",
+      "reviewEvidence": "Revisão por IA. Critério conferido: A expectativa de conclusão está condicionada ao recebimento. O aviso não afirma que a condição se realizou. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l064-002-verbo-factivo-lamentar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / interpretação de textos",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "verbo-factivo-lamentar",
+      "mechanism": "recuperar-conteudo-factivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#3. Os Ativadores (Gatilhos) de Pressuposição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "3. Os Ativadores (Gatilhos) de Pressuposição"
+      },
+      "statement": "Em “A coordenadora não lamentou que a reunião tivesse sido adiada”, a negação recai sobre o lamento e preserva a pressuposição de que houve adiamento.",
+      "correctAnswer": "C",
+      "explanation": "Lamentar introduz um complemento factivo. Negar a reação da coordenadora não equivale a negar o fato apresentado no complemento.",
+      "reviewEvidence": "Revisão por IA. Critério conferido: Lamentar introduz um complemento factivo. Negar a reação da coordenadora não equivale a negar o fato apresentado no complemento. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l064-003-pedido-indireto-cancelamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / interpretação de textos",
+      "articleId": "art-90192f46b01d2516",
+      "conceptId": "pedido-indireto-cancelamento",
+      "mechanism": "testar-cancelabilidade-no-contexto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-90192f46b01d2516#4. O Subentendido: Inferência Pragmática e Não Dito"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/14 - informacao explicita pressuposto e inferencia.md",
+        "section": "4. O Subentendido: Inferência Pragmática e Não Dito"
+      },
+      "statement": "Ao dizer “A janela está aberta” em uma sala fria, alguém pode sugerir que ela seja fechada. Acrescentar “mas pode deixá-la assim” cancela essa sugestão sem contradizer a informação inicial.",
+      "correctAnswer": "C",
+      "explanation": "O pedido decorre do contexto e pode ser cancelado. O estado da janela continua afirmado.",
+      "reviewEvidence": "Revisão por IA. Critério conferido: O pedido decorre do contexto e pode ser cancelado. O estado da janela continua afirmado. Dificuldade estimada."
     }
   ]
 }

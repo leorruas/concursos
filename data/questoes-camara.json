@@ -44479,6 +44479,90 @@
       "correctAnswer": "E",
       "explanation": "Na citação, eu designa Lia. No relato feito por Rui, eu passa a designar Rui. Para preservar Lia como agente, deve-se empregar a terceira pessoa ou repetir o nome.",
       "reviewEvidence": "Revisão por IA. Critério de equivalência conferido: Na citação, eu designa Lia. No relato feito por Rui, eu passa a designar Rui. Para preservar Lia como agente, deve-se empregar a terceira pessoa ou repetir o nome. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l076-001-cassacao-descumprimento-superveniente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos, extinção",
+      "articleId": "art-61c7724cba33648a",
+      "conceptId": "cassacao-descumprimento-superveniente",
+      "mechanism": "identificar-causa-do-ato-extintivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#5. Outras Formas de Extinção dos Atos Administrativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md",
+        "section": "5. Outras Formas de Extinção dos Atos Administrativos"
+      },
+      "statement": "Uma autorização de uso foi concedida regularmente sob a condição de que o beneficiário mantivesse desobstruída uma rota de emergência. Se a Administração extinguir a autorização em razão do descumprimento posterior dessa condição, o fundamento corresponde à cassação.",
+      "correctAnswer": "C",
+      "explanation": "A condição foi descumprida durante a fruição de ato originalmente válido. Essa é a causa de extinção examinada na cassação.",
+      "reviewEvidence": "Revisão por IA. Classificação doutrinária cotejada com a seção canônica. A condição foi descumprida durante a fruição de ato originalmente válido. Essa é a causa de extinção examinada na cassação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l076-002-caducidade-norma-nova-ato-valido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos, extinção",
+      "articleId": "art-61c7724cba33648a",
+      "conceptId": "caducidade-norma-nova-ato-valido",
+      "mechanism": "distinguir-ilegalidade-originaria-e-incompatibilidade-nova",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#5. Outras Formas de Extinção dos Atos Administrativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md",
+        "section": "5. Outras Formas de Extinção dos Atos Administrativos"
+      },
+      "statement": "Uma autorização válida tornou-se incompatível com norma posterior que vedou a continuidade da atividade autorizada. Por si só, a mudança normativa comprova vício de legalidade na data da concessão.",
+      "correctAnswer": "E",
+      "explanation": "A incompatibilidade surgiu com a norma posterior. O caso descreve a fronteira da caducidade e não demonstra defeito na formação do ato.",
+      "reviewEvidence": "Revisão por IA. Classificação doutrinária cotejada com a seção canônica. A incompatibilidade surgiu com a norma posterior. O caso descreve a fronteira da caducidade e não demonstra defeito na formação do ato. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l076-003-renuncia-beneficiario-titular",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / atos administrativos, extinção",
+      "articleId": "art-61c7724cba33648a",
+      "conceptId": "renuncia-beneficiario-titular",
+      "mechanism": "identificar-origem-da-iniciativa-extintiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-61c7724cba33648a#5. Outras Formas de Extinção dos Atos Administrativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos.md",
+        "section": "5. Outras Formas de Extinção dos Atos Administrativos"
+      },
+      "statement": "O titular de uma autorização comunica formalmente que abdica da faculdade disponível que recebeu. A iniciativa extintiva do beneficiário é compatível com renúncia.",
+      "correctAnswer": "C",
+      "explanation": "A renúncia decorre da declaração do próprio titular de que abre mão de uma faculdade disponível.",
+      "reviewEvidence": "Revisão por IA. Classificação doutrinária cotejada com a seção canônica. A renúncia decorre da declaração do próprio titular de que abre mão de uma faculdade disponível. Dificuldade estimada."
     }
   ]
 }

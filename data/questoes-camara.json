@@ -45879,6 +45879,90 @@
       "correctAnswer": "C",
       "explanation": "A conclusão de mais solicitações é um resultado observado. Como a autenticação também mudou, a comparação temporal não separa os efeitos das duas intervenções.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A conclusão de mais solicitações é um resultado observado. Como a autenticação também mudou, a comparação temporal não separa os efeitos das duas intervenções. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l095-001-virgula-objeto-apos-adverbio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "virgula-objeto-apos-adverbio",
+      "mechanism": "reconhecer-limite-entre-verbo-e-objeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#2.1. As Três Proibições Inegociáveis (Ordem Direta S-V-C)"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "2.1. As Três Proibições Inegociáveis (Ordem Direta S-V-C)"
+      },
+      "statement": "Em “A equipe examinou cuidadosamente os registros”, inserir vírgula imediatamente depois de “cuidadosamente” preservaria a correção, pois a vírgula isolaria o advérbio.",
+      "correctAnswer": "E",
+      "explanation": "A vírgula única separaria o objeto direto “os registros” do verbo. O advérbio integrado ao predicado não justifica essa separação.",
+      "reviewEvidence": "Revisão por IA. Conferência sintática na seção indicada. A vírgula única separaria o objeto direto “os registros” do verbo. O advérbio integrado ao predicado não justifica essa separação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l095-002-dois-pontos-desdobramento-providencias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "dois-pontos-desdobramento-providencias",
+      "mechanism": "identificar-enumeracao-anunciada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#3.2. Dois-Pontos (:) e Suas Quatro Funções Canônicas"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "3.2. Dois-Pontos (:) e Suas Quatro Funções Canônicas"
+      },
+      "statement": "Em “Restavam duas providências: conferir os endereços e enviar os avisos”, o segmento após os dois-pontos enumera as providências anunciadas no primeiro segmento.",
+      "correctAnswer": "C",
+      "explanation": "Os dois infinitivos introduzem as tarefas que concretizam a expressão “duas providências”. A relação é de enumeração.",
+      "reviewEvidence": "Revisão por IA. Conferência sintática na seção indicada. Os dois infinitivos introduzem as tarefas que concretizam a expressão “duas providências”. A relação é de enumeração. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l095-003-travessoes-aposto-preserva-vinculo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / pontuação",
+      "articleId": "art-1008794d803c4eff",
+      "conceptId": "travessoes-aposto-preserva-vinculo",
+      "mechanism": "reconhecer-aposto-intercalado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1008794d803c4eff#3.1. A Equivalência entre Vírgulas Duplas, Travessões Duplos e Parênteses"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/26 - pontuacao e efeitos na estrutura e no sentido.md",
+        "section": "3.1. A Equivalência entre Vírgulas Duplas, Travessões Duplos e Parênteses"
+      },
+      "statement": "Em “A última etapa, a conferência dos anexos, começou ontem”, substituir as duas vírgulas por travessões preserva o vínculo explicativo entre “a conferência dos anexos” e “a última etapa”.",
+      "correctAnswer": "C",
+      "explanation": "O segmento identifica a etapa e funciona como aposto explicativo. Os travessões delimitam a mesma intercalação, embora possam destacá-la mais.",
+      "reviewEvidence": "Revisão por IA. Conferência sintática na seção indicada. O segmento identifica a etapa e funciona como aposto explicativo. Os travessões delimitam a mesma intercalação, embora possam destacá-la mais. Dificuldade estimada."
     }
   ]
 }

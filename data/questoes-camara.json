@@ -47167,6 +47167,90 @@
       "correctAnswer": "C",
       "explanation": "A sequência narrativa organiza os fatos utilizados na análise. A função do parecer é avaliada pelo texto como um todo.",
       "reviewEvidence": "Revisão por IA com conferência do critério na seção indicada. A sequência narrativa organiza os fatos utilizados na análise. A função do parecer é avaliada pelo texto como um todo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l112-001-conforme-protocolo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / conectores e relações lógico-semânticas",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "conforme-protocolo",
+      "mechanism": "distinguir-conformidade-e-causa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3.3. Relação de Conformidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3.3. Relação de Conformidade"
+      },
+      "statement": "Em “Os anexos foram numerados conforme determina o protocolo”, a oração introduzida por “conforme” apresenta o padrão seguido na numeração.",
+      "correctAnswer": "C",
+      "explanation": "A numeração foi feita de acordo com o protocolo. O conector estabelece conformidade com uma instrução.",
+      "reviewEvidence": "Revisão por IA com conferência da relação de sentido na seção indicada. A numeração foi feita de acordo com o protocolo. O conector estabelece conformidade com uma instrução. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l112-002-desde-que-prazo-hipotetico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / conectores e relações lógico-semânticas",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "desde-que-prazo-hipotetico",
+      "mechanism": "identificar-condicao-em-contexto-prospectivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3.2. Relação de Condição"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3.2. Relação de Condição"
+      },
+      "statement": "Em “O formulário será aceito desde que chegue até sexta-feira”, a expressão “desde que” indica o momento em que começou a aceitação dos formulários.",
+      "correctAnswer": "E",
+      "explanation": "O recebimento até sexta-feira é condição para aceitar o formulário. A frase não informa quando a aceitação começou.",
+      "reviewEvidence": "Revisão por IA com conferência da relação de sentido na seção indicada. O recebimento até sexta-feira é condição para aceitar o formulário. A frase não informa quando a aceitação começou. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pt-l112-003-proporcao-fila-atendimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "portugues",
+      "unitId": "lingua-portuguesa",
+      "editalRef": "14.2.3 / Língua Portuguesa / conectores e relações lógico-semânticas",
+      "articleId": "art-10e06314b6caf790",
+      "conceptId": "proporcao-fila-atendimento",
+      "mechanism": "reconhecer-duas-variacoes-correlatas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-10e06314b6caf790#3.4. Relação de Proporção"
+      ],
+      "source": {
+        "path": "3 - Materias/Portugues/20 - conectores relacoes logicas e sequenciacao.md",
+        "section": "3.4. Relação de Proporção"
+      },
+      "statement": "Em “À medida que novos guichês entravam em operação, o tempo médio de espera caía”, a locução estabelece uma relação entre o avanço da abertura dos guichês e a redução da espera.",
+      "correctAnswer": "C",
+      "explanation": "A locução associa dois processos graduais. O aumento dos guichês em operação acompanha a redução do tempo médio de espera.",
+      "reviewEvidence": "Revisão por IA com conferência da relação de sentido na seção indicada. A locução associa dois processos graduais. O aumento dos guichês em operação acompanha a redução do tempo médio de espera. Dificuldade estimada."
     }
   ]
 }

@@ -48259,6 +48259,62 @@
       "correctAnswer": "E",
       "explanation": "O percentual mede adesão a um requisito formal do processo. O formato do painel não altera o objeto que o indicador mede.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O percentual mede adesão a um requisito formal do processo. O formato do painel não altera o objeto que o indicador mede. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l132-001-controle-e-colaboracao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Nova Governança Pública",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "controle-e-colaboracao",
+      "mechanism": "reconhecer-complementaridade-institucional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Três lentes que podem coexistir"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Três lentes que podem coexistir"
+      },
+      "statement": "Um serviço usa regras formais para decidir quem pode ser atendido e reúne órgãos e associações para resolver falhas no encaminhamento de usuários. As regras formais e a coordenação em rede podem coexistir no desenho desse serviço.",
+      "correctAnswer": "C",
+      "explanation": "As regras organizam o acesso ao serviço. A articulação entre organizações trata das falhas no encaminhamento e pode operar dentro dessas regras.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. As regras organizam o acesso ao serviço. A articulação entre organizações trata das falhas no encaminhamento e pode operar dentro dessas regras. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l132-002-metas-locais-fluxo-integrado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Nova Governança Pública",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "metas-locais-fluxo-integrado",
+      "mechanism": "distinguir-desempenho-local-e-experiencia-conjunta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Elementos e condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Elementos e condições"
+      },
+      "statement": "Dois órgãos cumprem suas metas internas, mas os usuários precisam repetir a mesma solicitação ao passar de um órgão ao outro. O cumprimento das metas já demonstra que o fluxo entre as organizações está integrado.",
+      "correctAnswer": "E",
+      "explanation": "As metas descrevem resultados de cada órgão. A repetição do pedido aponta uma falha na passagem entre eles que pode ficar fora das medidas locais.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. As metas descrevem resultados de cada órgão. A repetição do pedido aponta uma falha na passagem entre eles que pode ficar fora das medidas locais. Dificuldade estimada."
     }
   ]
 }

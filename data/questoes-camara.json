@@ -42155,6 +42155,118 @@
       "correctAnswer": "C",
       "explanation": "O sujeito da oração principal, the tenants, também é o sujeito implícito de signing. Before mantém o recebimento do relatório como evento anterior.",
       "reviewEvidence": "Revisão por IA em 14/11/2026. Conferência das duas construções em inglês e da seção canônica. Critério: O sujeito da oração principal, the tenants, também é o sujeito implícito de signing. Before mantém o recebimento do relatório como evento anterior. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l049-001-alerta-visual-nao-confirma-irregularidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização e storytelling com dados",
+      "articleId": "art-2fde27c0e00dc520",
+      "conceptId": "alerta-visual-nao-confirma-irregularidade",
+      "mechanism": "distinguir-sinal-triagem-e-achado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2fde27c0e00dc520#7. Ética e Integridade na Visualização de Dados Públicos"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/30 - storytelling com dados estrutura narrativa contexto e persuasao.md",
+        "section": "7. Ética e Integridade na Visualização de Dados Públicos"
+      },
+      "statement": "Em um painel de despesas, um marcador identifica pagamentos acima de um limiar de triagem. O destaque, por si só, é suficiente para divulgar esses pagamentos como irregularidades confirmadas.",
+      "correctAnswer": "E",
+      "explanation": "O limiar de triagem seleciona casos para exame. A confirmação depende de informação adicional sobre a operação e sobre o critério aplicável.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério aplicado: O limiar de triagem seleciona casos para exame. A confirmação depende de informação adicional sobre a operação e sobre o critério aplicável. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l049-002-limpeza-preserva-unidade-de-medida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização e storytelling com dados",
+      "articleId": "art-2fde27c0e00dc520",
+      "conceptId": "limpeza-preserva-unidade-de-medida",
+      "mechanism": "distinguir-metadado-e-decoracao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2fde27c0e00dc520#4. Carga Cognitiva e *Decluttering* (Eliminação da Desordem)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/30 - storytelling com dados estrutura narrativa contexto e persuasao.md",
+        "section": "4. Carga Cognitiva e *Decluttering* (Eliminação da Desordem)"
+      },
+      "statement": "Em um gráfico de duração das sessões, remover a indicação de que os números estão em minutos é uma forma de reduzir a desordem visual sem alterar a leitura dos valores.",
+      "correctAnswer": "E",
+      "explanation": "A unidade é necessária para interpretar a magnitude. Removê-la não equivale a retirar uma moldura ou outra decoração dispensável.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério aplicado: A unidade é necessária para interpretar a magnitude. Removê-la não equivale a retirar uma moldura ou outra decoração dispensável. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l049-003-destaque-consistente-entre-paineis",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização e storytelling com dados",
+      "articleId": "art-2fde27c0e00dc520",
+      "conceptId": "destaque-consistente-entre-paineis",
+      "mechanism": "manter-codigo-semantico-da-cor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2fde27c0e00dc520#5. Atributos Pré-Atentivos: Direcionando o Foco da Audiência"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/30 - storytelling com dados estrutura narrativa contexto e persuasao.md",
+        "section": "5. Atributos Pré-Atentivos: Direcionando o Foco da Audiência"
+      },
+      "statement": "Se o laranja identifica valores preliminares em um gráfico, reutilizá-lo para valores definitivos em outro gráfico da mesma apresentação pode introduzir ambiguidade na leitura conjunta.",
+      "correctAnswer": "C",
+      "explanation": "O público pode transferir o significado visual de um gráfico ao seguinte. Manter a codificação ou explicitar a mudança reduz a ambiguidade.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério aplicado: O público pode transferir o significado visual de um gráfico ao seguinte. Manter a codificação ou explicitar a mudança reduz a ambiguidade. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l049-004-resolucao-investigar-sem-presumir-causa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / visualização e storytelling com dados",
+      "articleId": "art-2fde27c0e00dc520",
+      "conceptId": "resolucao-investigar-sem-presumir-causa",
+      "mechanism": "ajustar-acao-a-forca-da-evidencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2fde27c0e00dc520#6. A Estrutura da Narrativa de Dados: O Arco Dramático"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/30 - storytelling com dados estrutura narrativa contexto e persuasao.md",
+        "section": "6. A Estrutura da Narrativa de Dados: O Arco Dramático"
+      },
+      "statement": "Se o relatório documenta um aumento no tempo de espera, mas não identifica sua causa, a narrativa pode concluir com uma proposta de investigar os horários de pico sem atribuir o aumento a uma política específica.",
+      "correctAnswer": "C",
+      "explanation": "A chamada à ação pode propor diagnóstico compatível com a evidência disponível, sem converter a observação em atribuição causal.",
+      "reviewEvidence": "Revisão por IA em 14/11/2026. Critério aplicado: A chamada à ação pode propor diagnóstico compatível com a evidência disponível, sem converter a observação em atribuição causal. Dificuldade estimada."
     }
   ]
 }

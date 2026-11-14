@@ -38461,7 +38461,7 @@
       "reviewEvidence": "Lote 028, revisão técnica por IA em 13/11/2026: aplicação do caso nenhuma legenda alcança QE, Resolução TSE 23.677/2021, art. 12-A, artigo 24 heading '3. Distribuição de sobras: maiores médias'. Substitui repetição da etapa aberta 80/20. Pendente confirmação primária independente, cotejo semântico integral e CI final; gerada."
     },
     {
-      "id": "cam-cpol-l028-016-pluralidade-sem-maioria-absoluta",
+      "id": "cam-cpol-l028-016-concentracao-territorial-cadeiras",
       "concursoId": "camara-2026",
       "origin": "inedita",
       "format": "CE",
@@ -38470,23 +38470,23 @@
       "unitId": "ciencia-politica",
       "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais e representação política",
       "articleId": "art-b3e8d1c74f209a65",
-      "conceptId": "pluralidade-nao-exige-maioria-absoluta",
-      "mechanism": "calcular-vencedor-pluralidade-sem-cinquenta-por-cento",
+      "conceptId": "distribuicao-territorial-votos-cadeiras",
+      "mechanism": "distinguir-votos-nacionais-e-vitorias-distritais",
       "questionType": "aplicacao",
-      "estimatedDifficulty": "facil",
+      "estimatedDifficulty": "media",
       "cognitiveOperation": "aplicação",
       "reviewStatus": "gerada",
       "theoryRefs": [
-        "article:art-b3e8d1c74f209a65#Comparação entre desenhos majoritários"
+        "article:art-b3e8d1c74f209a65#Efeitos: expectativas, não equivalências lógicas"
       ],
       "source": {
         "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
-        "section": "Comparação entre desenhos majoritários"
+        "section": "Efeitos: expectativas, não equivalências lógicas"
       },
-      "statement": "Em eleição distrital uninominal por pluralidade, de turno único, as candidaturas A, B e C recebem, respectivamente, 42%, 35% e 23% dos votos válidos. Como A não alcançou maioria absoluta, a regra de pluralidade exige uma nova votação entre A e B para preencher a cadeira.",
-      "correctAnswer": "E",
-      "explanation": "Pela regra de pluralidade em turno único, vence a candidatura mais votada, mesmo com menos da metade dos votos válidos. A obteve 42% e ficou em primeiro lugar. Exigir maioria absoluta e eventual segundo turno descreve outro desenho majoritário.",
-      "reviewEvidence": "Lote 028, substituição editorial técnica por IA em 14/11/2026: removido cenário de voto estratégico que repetia exercício canônico; novo mecanismo calcular-vencedor-pluralidade-sem-cinquenta-por-cento. Conferidos cálculo 42 > 35 > 23 e distinção conceitual pluralidade versus maioria absoluta, artigo canônico 23, heading literal 'Comparação entre desenhos majoritários'. Gabarito E. Ainda pendentes cotejo semântico integral com banco/piloto/exercícios, verificação independente de fonte e gates finais; não homologado."
+      "statement": "Em eleição legislativa realizada em distritos uninominais por pluralidade, o partido A obtém 52% dos votos somados nacionalmente, mas vence apenas 40 dos 100 distritos, enquanto o partido B vence os outros 60. Nesse desenho, é possível que B obtenha mais cadeiras que A, apesar de A ter recebido mais votos no total nacional.",
+      "correctAnswer": "C",
+      "explanation": "Cada distrito atribui uma cadeira à candidatura mais votada localmente. A soma nacional dos votos não distribui diretamente as cadeiras: se B vence 60 distritos e A vence 40, B conquista mais assentos, mesmo com votação nacional agregada inferior. A concentração e a distribuição territorial dos votos são decisivas.",
+      "reviewEvidence": "Revisão editorial técnica por IA em 14/11/2026: substituído o mecanismo anterior de pluralidade versus maioria absoluta, que repetia o caso progressivo 1 e o exercício 6 do artigo 23. Novo mecanismo: distinguir-votos-nacionais-e-vitorias-distritais; gabarito C; checados 100 distritos, 60 cadeiras para B e 40 para A, sem inferir distribuição nacional de cadeiras a partir de votos agregados. Referência canônica: artigo 23, heading 'Efeitos: expectativas, não equivalências lógicas', que distingue votos nacionais e cadeiras em distritos uninominais. Fonte teórica: Rae, The Political Consequences of Electoral Laws; Duverger, Political Parties. Ainda pendentes cotejo integral de originalidade com banco/piloto e fontes independentes, além de CI final; revisão técnica por IA, não homologação humana."
     }
   ]
 }

@@ -45207,6 +45207,62 @@
       "correctAnswer": "C",
       "explanation": "O sujeito composto está no plural. Em ter, a terceira pessoa do plural do presente recebe circunflexo: têm.",
       "reviewEvidence": "Revisão por IA. Grafia e critérios da seção canônica: O sujeito composto está no plural. Em ter, a terceira pessoa do plural do presente recebe circunflexo: têm. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l085-001-relatoria-lista-nao-colegiada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relatoria-lista-nao-colegiada",
+      "mechanism": "distinguir-lista-de-orgaos-decisorios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "No rito disciplinar que pode levar à perda do mandato, o sorteio da lista tríplice constitui um colegiado de três relatores, que deve elaborar e assinar conjuntamente o parecer.",
+      "correctAnswer": "E",
+      "explanation": "O sorteio forma a lista de candidatos. O presidente do Conselho designa um relator dentre os nomes elegíveis da lista.",
+      "reviewEvidence": "Revisão por IA. Código de Ética, art. 13, I, e 14, § 4º, I. O sorteio forma a lista de candidatos. O presidente do Conselho designa um relator dentre os nomes elegíveis da lista. Dificuldade estimada."
+    },
+    {
+      "id": "cam-et-l085-002-relatoria-representacao-partido-autor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "relatoria-representacao-partido-autor",
+      "mechanism": "aplicar-impedimento-pela-autoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "5. O procedimento disciplinar no Conselho de Ética e o julgamento em Plenário"
+      },
+      "statement": "Em representação de autoria de partido político, um deputado filiado à legenda autora está impedido de assumir a relatoria mesmo que pertença a outro Estado e não pertença ao partido ou bloco do representado.",
+      "correctAnswer": "C",
+      "explanation": "A filiação à agremiação autora constitui vedação própria no caso. A ausência das demais vedações não a afasta.",
+      "reviewEvidence": "Revisão por IA. Código de Ética, art. 13, I, c, e 14, § 4º, I. A filiação à agremiação autora constitui vedação própria no caso. A ausência das demais vedações não a afasta. Dificuldade estimada."
     }
   ]
 }

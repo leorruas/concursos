@@ -46103,6 +46103,62 @@
       "correctAnswer": "C",
       "explanation": "O art. 71, I, dá ao TCU sessenta dias a partir do recebimento das contas para elaborar o parecer prévio.",
       "reviewEvidence": "Revisão por IA com conferência da Constituição consolidada pela Câmara. O art. 71, I, dá ao TCU sessenta dias a partir do recebimento das contas para elaborar o parecer prévio. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l098-001-recurso-encaminhamento-autoridade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "recurso-encaminhamento-autoridade",
+      "mechanism": "ordenar-reconsideracao-e-remessa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#3.1 Prazos e regras gerais de tramitação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "3.1 Prazos e regras gerais de tramitação"
+      },
+      "statement": "Em processo regido pela Lei nº 9.784/1999, o recurso é dirigido à autoridade que proferiu a decisão, que deverá encaminhá-lo à autoridade superior se não reconsiderar a decisão em cinco dias.",
+      "correctAnswer": "C",
+      "explanation": "O art. 56, § 1º, prevê primeiro a oportunidade de reconsideração e, se ela não ocorrer em cinco dias, a remessa à autoridade superior.",
+      "reviewEvidence": "Revisão por IA com conferência do procedimento e dos prazos na seção indicada. O art. 56, § 1º, prevê primeiro a oportunidade de reconsideração e, se ela não ocorrer em cinco dias, a remessa à autoridade superior. Dificuldade estimada."
+    },
+    {
+      "id": "cam-da-l098-002-recurso-prorrogacao-expressa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-administrativo",
+      "unitId": "direito-administrativo",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / processo administrativo federal",
+      "articleId": "art-bc65879a85f5b5d8",
+      "conceptId": "recurso-prorrogacao-expressa",
+      "mechanism": "verificar-condicao-para-prorrogar-julgamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-bc65879a85f5b5d8#3.1 Prazos e regras gerais de tramitação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Administrativo/26 - lei 9784 impedimento suspeicao motivacao e recursos.md",
+        "section": "3.1 Prazos e regras gerais de tramitação"
+      },
+      "statement": "Na ausência de prazo legal distinto, o órgão encarregado de decidir recurso administrativo federal pode prorrogar, sem justificativa expressa, o prazo de trinta dias para julgamento.",
+      "correctAnswer": "E",
+      "explanation": "O art. 59, §§ 1º e 2º, conta o prazo do recebimento dos autos e condiciona a prorrogação por igual período a justificativa expressa.",
+      "reviewEvidence": "Revisão por IA com conferência do procedimento e dos prazos na seção indicada. O art. 59, §§ 1º e 2º, conta o prazo do recebimento dos autos e condiciona a prorrogação por igual período a justificativa expressa. Dificuldade estimada."
     }
   ]
 }

@@ -39215,6 +39215,286 @@
       "correctAnswer": "E",
       "explanation": "A aprovação pela Câmara seguida de revisão pelo Senado é exceção própria à regra geral, independentemente de a iniciativa ter sido popular.",
       "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 105, X. Critério de julgamento: A aprovação pela Câmara seguida de revisão pelo Senado é exceção própria à regra geral, independentemente de a iniciativa ter sido popular. Conferidos subtítulo literal e aderência ao edital. Cotejo de novidade com banco, piloto e exercícios da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l032-001-dispensa-e-emendas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "dispensa-e-emendas",
+      "mechanism": "avaliar-efeito-da-dispensa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Discussão: debater a matéria, não votar ainda"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Discussão: debater a matéria, não votar ainda"
+      },
+      "statement": "O Plenário aprovou requerimento de líder para dispensar a discussão de projeto que recebeu todos os pareceres favoráveis. A dispensa impede, por si só, a apresentação de emendas ao projeto.",
+      "correctAnswer": "E",
+      "explanation": "A dispensa suprime a discussão nessa hipótese, mas preserva a possibilidade regimental de apresentar emendas.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 167. Critério de julgamento: A dispensa suprime a discussão nessa hipótese, mas preserva a possibilidade regimental de apresentar emendas. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l032-002-segundo-adiamento-erro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "segundo-adiamento-erro",
+      "mechanism": "distinguir-condicao-de-repeticao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Discussão: debater a matéria, não votar ainda"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Discussão: debater a matéria, não votar ainda"
+      },
+      "statement": "Após um primeiro adiamento da discussão, a alegação de erro na publicação, reconhecida pelo presidente da Câmara, é condição regimental para um novo adiamento.",
+      "correctAnswer": "C",
+      "explanation": "O segundo adiamento exige a alegação de erro de publicação reconhecida pelo presidente. A regra do primeiro adiamento não é suficiente para repetir a medida.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 177, § 3º. Critério de julgamento: O segundo adiamento exige a alegação de erro de publicação reconhecida pelo presidente. A regra do primeiro adiamento não é suficiente para repetir a medida. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l032-003-encerramento-ausencia-oradores",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "encerramento-ausencia-oradores",
+      "mechanism": "identificar-via-sem-requerimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Discussão: debater a matéria, não votar ainda"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Discussão: debater a matéria, não votar ainda"
+      },
+      "statement": "Depois de oito pronunciamentos, não restam oradores para discutir um projeto. A discussão pode encerrar-se por falta de oradores mesmo sem atingir doze pronunciamentos.",
+      "correctAnswer": "C",
+      "explanation": "O mínimo de doze oradores pertence à hipótese de encerramento por requerimento. A falta de oradores é outro fundamento regimental para encerrar a discussão.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 178, caput e § 2º. Critério de julgamento: O mínimo de doze oradores pertence à hipótese de encerramento por requerimento. A falta de oradores é outro fundamento regimental para encerrar a discussão. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l032-004-adiamento-votacao-reforma-merito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "adiamento-votacao-reforma-merito",
+      "mechanism": "testar-excecao-apos-encerramento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Discussão: debater a matéria, não votar ainda"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Discussão: debater a matéria, não votar ainda"
+      },
+      "statement": "Aprovado requerimento de encerramento da discussão, o requerimento de adiamento da votação fica necessariamente impedido na mesma sessão, mesmo se o relator reformular o parecer para alterar o mérito.",
+      "correctAnswer": "E",
+      "explanation": "O impedimento na mesma sessão ressalva a reformulação do parecer pelo relator para promover alteração de mérito.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 178, § 4º. Critério de julgamento: O impedimento na mesma sessão ressalva a reformulação do parecer pelo relator para promover alteração de mérito. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l032-005-empate-abstencao-presidente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "empate-abstencao-presidente",
+      "mechanism": "identificar-substituto-no-desempate",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "statement": "Em votação ostensiva de matéria não eleitoral no Plenário, a abstenção do presidente quanto ao desempate transfere o ato ao substituto regimental.",
+      "correctAnswer": "C",
+      "explanation": "O regimento atribui o desempate ao presidente e prevê atuação do substituto quando o presidente se abstiver de desempatar.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 180, §§ 3º e 5º. Critério de julgamento: O regimento atribui o desempate ao presidente e prevê atuação do substituto quando o presidente se abstiver de desempatar. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l032-006-voto-orientacao-divergente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "voto-orientacao-divergente",
+      "mechanism": "avaliar-validade-do-voto-individual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Modalidades de votação: simbólica, nominal e secreta"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Modalidades de votação: simbólica, nominal e secreta"
+      },
+      "statement": "Em votação nominal, constatou-se que uma deputada votou contra a orientação de sua liderança. A divergência permite excluir seu voto da apuração do resultado.",
+      "correctAnswer": "E",
+      "explanation": "A divergência entre a orientação da liderança e a escolha individual do parlamentar não invalida o voto.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 180, § 7º. Critério de julgamento: A divergência entre a orientação da liderança e a escolha individual do parlamentar não invalida o voto. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l032-007-verificacao-pacto-previo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "verificacao-pacto-previo",
+      "mechanism": "testar-contemporaneidade-do-apoio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      },
+      "statement": "Dois líderes firmaram acordo prévio de apoio recíproco para pedidos de verificação de votações simbólicas. O acordo pode substituir as manifestações específicas dos líderes em cada votação.",
+      "correctAnswer": "E",
+      "explanation": "O regimento veda apoiamento prévio e acordos recíprocos. O apoiamento deve ser manifestado em relação à votação concreta.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 185, § 3º-A. Critério de julgamento: O regimento veda apoiamento prévio e acordos recíprocos. O apoiamento deve ser manifestado em relação à votação concreta. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l032-008-intersticio-modalidade-do-requerimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "intersticio-modalidade-do-requerimento",
+      "mechanism": "separar-processo-da-verificacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Verificação de votação simbólica: 6% ≠ 10% ≠ 5%"
+      },
+      "statement": "O requerimento oral para permitir nova verificação antes de uma hora é votado simbolicamente, ainda que a eventual verificação do resultado da matéria seja nominal.",
+      "correctAnswer": "C",
+      "explanation": "A votação simbólica decide a quebra do interstício. A votação nominal que pode ocorrer em seguida verifica o resultado da matéria.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 185, §§ 6º e 7º. Critério de julgamento: A votação simbólica decide a quebra do interstício. A votação nominal que pode ocorrer em seguida verifica o resultado da matéria. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l032-009-substitutivo-emenda-propria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "substitutivo-emenda-propria",
+      "mechanism": "identificar-ressalva-a-prejudicialidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "statement": "A aprovação do substitutivo de comissão prejudica também, por esse único motivo, a emenda que tenha sido apresentada ao próprio substitutivo.",
+      "correctAnswer": "E",
+      "explanation": "A prejudicialidade decorrente da aprovação do substitutivo ressalva as emendas ao próprio substitutivo e os destaques.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 191. Critério de julgamento: A prejudicialidade decorrente da aprovação do substitutivo ressalva as emendas ao próprio substitutivo e os destaques. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
+    },
+    {
+      "id": "cam-pl-l032-010-orientacao-inicio-nominal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / discussão, deliberação e votação",
+      "articleId": "art-3d89c1b75a4e60f2",
+      "conceptId": "orientacao-inicio-nominal",
+      "mechanism": "distinguir-orientacao-e-abertura-do-voto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3d89c1b75a4e60f2#Ordem da votação, substitutivo, emendas e destaques"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao.md",
+        "section": "Ordem da votação, substitutivo, emendas e destaques"
+      },
+      "statement": "Em votação nominal no Plenário, o início da votação pode ocorrer antes de se concluir a orientação das bancadas.",
+      "correctAnswer": "C",
+      "explanation": "O regimento estabelece que a orientação de bancada não prejudica o início da votação nominal.",
+      "reviewEvidence": "Revisão editorial por IA em 14/11/2026. RICD, art. 192, § 2º-A. Critério de julgamento: O regimento estabelece que a orientação de bancada não prejudica o início da votação nominal. Cotejo com subtítulo canônico e com os exercícios de deliberação e votação do banco e da nota. Dificuldade estimada."
     }
   ]
 }

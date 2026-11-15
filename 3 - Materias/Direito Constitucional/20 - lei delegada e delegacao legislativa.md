@@ -5,7 +5,7 @@ title: "Lei delegada e delegação legislativa: autorização, limites e procedi
 type: "conceito"
 status: "ativo"
 created: 2026-11-08
-updated: 2026-11-11
+updated: 2026-11-15
 ---
 
 # Lei delegada e delegação legislativa: autorização, limites e procedimento
@@ -38,6 +38,10 @@ A terceira etapa admite dois caminhos, conforme o **art. 68, §§ 2º e 3º, da 
 **Duas votações com objetos diferentes:** ao aprovar a **resolução**, o Congresso decide **se concede a delegação e quais são seus limites**. Quando a própria resolução exige o retorno, o Congresso faz outra apreciação, agora sobre **o projeto elaborado pelo Presidente**. A regra constitucional de votação única e proibição de emendas refere-se **a essa segunda apreciação**. Se a resolução não exigir retorno, essa segunda votação não é obrigatória. [Constituição Federal, art. 68](https://www4.planalto.gov.br/legislacao/legis-federal/constituicao).
 
 O projeto não é uma medida provisória. Na **medida provisória** (art. 62), a edição pelo Presidente depende de relevância e urgência constitucionais e está sujeita a controle legislativo posterior próprio. Na **lei delegada** (art. 68), a elaboração pressupõe **autorização legislativa anterior**. Não transportar para a lei delegada os prazos, pressupostos e o rito de uma medida provisória.
+
+### Uma autorização não é um cheque em branco
+
+Considere uma resolução hipotética que autorize o Presidente a editar lei delegada **somente** para organizar determinado serviço administrativo federal, dentro de condições expressamente indicadas. A autorização é o **limite da competência transferida**, não uma aprovação antecipada de qualquer texto futuro. Se o Presidente incluir regras sobre direitos eleitorais, surge um obstáculo constitucional independente: a matéria é **indelegável** (art. 68, § 1º, II). Se incluir assunto administrativo diverso daquele autorizado, o problema é de **excesso dos termos da delegação**, ainda que esse novo assunto pudesse, em tese, ser delegado por outra resolução (arts. 49, V, e 68, § 2º). A primeira pergunta é *podia ser delegado?*; a segunda, *foi efetivamente delegado nestes termos?* O Congresso pode sustar atos normativos que excedam os limites da delegação, observada a hipótese constitucional do art. 49, V.
 
 ## Matérias que não podem ser delegadas: art. 68, § 1º
 

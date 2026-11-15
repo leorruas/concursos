@@ -145,7 +145,7 @@ A leitura dos órgãos legislativos integra [[3 - Materias/Direito Constituciona
 
 - [RICD: norma atualizada da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html).
 - [31ª edição, atualizada até Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/version/400).
-- [Constituição de 1988, texto atualizado](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+- [Constituição de 1988, texto atualizado](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 - [Edital nº 1/2026, cargo 1, programa de Direito Constitucional, tópico 7.1–7.4](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades), disponibilizado na [página oficial do concurso](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades), juntamente com as retificações; [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|síntese interna]] usada para navegação.
 
 **Nota editorial:** os quatro intervalos do RICD no bloco de Direito Constitucional são literais do Edital nº 1/2026, cargo 1, tópico 7.1–7.4, conforme cotejo com o programa do edital. A unidade é um **mapa de competências e erros de transposição**, e não uma segunda cópia dos artigos de base. A cobertura editorial não indica prática, retenção ou desempenho em questões.

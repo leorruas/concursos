@@ -49715,6 +49715,34 @@
       "correctAnswer": "E",
       "explanation": "A democracia liberal exige, além das condições eleitorais, garantias de direitos e limites ao Executivo. A vitória da oposição informa sobre a competição, mas não comprova essas outras condições.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A democracia liberal exige, além das condições eleitorais, garantias de direitos e limites ao Executivo. A vitória da oposição informa sobre a competição, mas não comprova essas outras condições. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l172-001-militar-sem-controle-corporativo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "articleId": "art-5e8b4c72d13f906a",
+      "conceptId": "militar-sem-controle-corporativo",
+      "mechanism": "distinguir-origem-do-lider-e-centro-de-decisao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Geddes, Wright e Frantz: quem controla o regime autoritário?"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos.md",
+        "section": "Geddes, Wright e Frantz: quem controla o regime autoritário?"
+      },
+      "statement": "Em uma autocracia, o chefe de governo é um general reformado, mas a cúpula militar não participa da escolha do governante nem das decisões centrais. Na tipologia de Geddes, Wright e Frantz, a carreira anterior do governante basta para identificar um regime militar.",
+      "correctAnswer": "E",
+      "explanation": "A tipologia observa quem controla a seleção da liderança e as decisões do regime. A profissão do dirigente, isoladamente, não demonstra controle pelos militares como organização.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A tipologia observa quem controla a seleção da liderança e as decisões do regime. A profissão do dirigente, isoladamente, não demonstra controle pelos militares como organização. Dificuldade estimada."
     }
   ]
 }

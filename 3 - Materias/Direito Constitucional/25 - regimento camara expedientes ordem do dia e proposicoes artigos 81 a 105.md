@@ -182,6 +182,6 @@ A diferença temporal mais importante é **fim da sessão legislativa × fim da 
 
 - [Câmara dos Deputados, Regimento Interno, texto consolidado atualizado, arts. 81 a 105](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), cotejado em 08/11/2026.
 - [Câmara dos Deputados, Regimento Interno, 31ª edição (2026)](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
-- [Constituição Federal, art. 59, para espécies normativas](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+- [Constituição Federal, art. 59, para espécies normativas](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 
 **Nota editorial:** os itens C/E são inéditos para treino e não reproduzem questões oficiais. Esta publicação editorial não comprova estudo pessoal, retenção ou execução de simulado.

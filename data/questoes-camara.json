@@ -50807,6 +50807,34 @@
       "correctAnswer": "C",
       "explanation": "O parágrafo único do art. 36 reserva o cômputo dos empenhos não liquidados à conta desses créditos ao último ano de vigência do crédito. Como a vigência só termina no exercício seguinte, a regra afasta o cômputo no encerramento do ano corrente.",
       "reviewEvidence": "Revisão editorial por IA. Conferidos o art. 36, parágrafo único, no texto atualizado da Câmara e a seção canônica. O enunciado fixa a vigência do próprio crédito e a ausência de liquidação."
+    },
+    {
+      "id": "cam-orc-l200-001-restituicao-em-dois-exercicios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "suprimento-restituicao-partes-em-exercicios-distintos",
+      "mechanism": "classificar-separadamente-recolhimentos-do-mesmo-adiantamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Restituições de suprimento"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Restituições de suprimento"
+      },
+      "statement": "De um suprimento de fundos concedido por órgão federal em dezembro, sobraram R$ 900. O servidor recolheu R$ 600 ainda em dezembro e R$ 300 em janeiro seguinte. Na classificação orçamentária das restituições, os R$ 600 constituem anulação de despesa e os R$ 300, receita do novo exercício.",
+      "correctAnswer": "C",
+      "explanation": "Pelo art. 45, § 1º, do Decreto nº 93.872/1986, o momento do recolhimento determina o tratamento orçamentário da restituição. Os R$ 600 retornaram no exercício da despesa, resultando em anulação parcial. Os R$ 300 foram recolhidos após o encerramento e constituem receita orçamentária do exercício do recolhimento.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidos o art. 45, § 1º, do Decreto nº 93.872/1986 e a seção canônica. O caso mantém o mesmo suprimento e exige classificar cada devolução pelo seu próprio exercício."
     }
   ]
 }

@@ -92,8 +92,14 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         if (await response.text() !== local) throw new Error('Recurso do glossário diverge do build: ' + recurso);
       }
       // Os metadados do manifesto não mudam quando o corpo Markdown é corrigido.
-      // Confirme explicitamente os dois materiais alterados pela auditoria PL.
+      // Verifique o corpo integral dos seis artigos da revisão constitucional e os materiais já monitorados.
       const materiaisAuditoriaPL = [
+        '3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md',
+        '3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md',
+        '3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado.md',
+        '3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md',
+        '3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md',
+        '3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md',
         '3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md',
         '3 - Materias/Direito Constitucional/direito-constitucional.md'
       ];
@@ -111,7 +117,7 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         const local = fs.readFileSync(localPath, 'utf8');
         if (publicado !== local) throw new Error('Nota de Processo Legislativo diverge do build publicado: ' + recurso);
       }
-      console.log('✓ Código de Ética e hub constitucional sincronizados no Pages.');
+      console.log('✓ Artigos constitucionais 17 a 22, Código de Ética e hub sincronizados no Pages.');
       console.log('✓ Glossário, interface e índice sincronizados no Pages.');
       console.log('✓ Coleção e interface dos flashcards sincronizadas no Pages.');
       console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');

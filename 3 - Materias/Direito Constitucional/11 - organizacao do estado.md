@@ -83,6 +83,18 @@ Para **Estados**, incorporação, subdivisão ou desmembramento exige aprovaçã
 
 Para **Municípios**, criação, incorporação, fusão e desmembramento dependem de lei estadual, dentro do período determinado por lei complementar federal, consulta prévia mediante plebiscito às populações envolvidas e divulgação dos estudos de viabilidade municipal, nos termos constitucionais e legais.
 
+### Formação de municípios: requisitos e impedimento atual
+
+Os requisitos do **art. 18, § 4º**, são **cumulativos**: lei estadual, consulta prévia por **plebiscito** às populações dos municípios envolvidos, **estudos de viabilidade municipal** publicados na forma da lei e criação dentro do período definido por **lei complementar federal**. Plebiscito é consulta popular realizada **antes** da decisão política; estudo de viabilidade examina as condições para a existência do novo ente, conforme o regime legal aplicável.
+
+**Distinção decisiva entre texto constitucional e eficácia atual:** o artigo determina como municípios *poderão* ser criados, fundidos, incorporados ou desmembrados, mas o período depende de lei complementar **federal**. O Supremo Tribunal Federal (STF), na **ADI 3.682**, reconheceu a omissão legislativa federal; na **ADPF 819**, considerou inconstitucional a disciplina estadual que tentasse suprir essa falta. Na **ADO 70**, julgada em 2025, o STF voltou a registrar a ausência da lei federal exigida. Assim, a mera aprovação de lei estadual e de plebiscito **não basta** para viabilizar regularmente a criação de um município enquanto faltar a norma federal necessária.
+
+**Exemplo hipotético:** dois municípios aprovam em consulta popular a formação de um terceiro, e a assembleia estadual aprova uma lei. O apoio popular é relevante, mas o procedimento ainda precisa respeitar a janela definida pela lei complementar federal exigida no art. 18, § 4º. Isso é diferente da reorganização de Estados prevista no **art. 18, § 3º**, que envolve plebiscito e **lei complementar aprovada pelo Congresso Nacional**.
+
+**Item C/E autoral:** “O plebiscito e a lei estadual bastam, por si sós, para a criação de novo município, mesmo sem a lei complementar federal prevista na Constituição.” **Errado.** O requisito federal integra o art. 18, § 4º, e não pode ser dispensado por norma estadual.
+
+**Fontes:** [Constituição Federal, art. 18, § 4º, com decisões ADI 3.682, ADPF 819 e ADO 70 catalogadas pelo STF](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=18&abrirBase=CF).
+
 ## Intervenção: autonomia com exceção constitucional
 
 **Intervenção** é uma medida excepcional pela qual um ente federativo atua temporariamente sobre outro nas situações previstas na Constituição, restringindo sua autonomia. Por exemplo, a Constituição prevê intervenção para assegurar determinados princípios constitucionais, mas a autoridade não pode intervir apenas porque discorda de uma decisão política local. **Hipóteses taxativas** significa que os motivos são definidos pela Constituição, não escolhidos livremente pela autoridade.

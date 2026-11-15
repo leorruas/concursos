@@ -22,7 +22,7 @@ Este artigo responde a quatro perguntas: o que forma o Estado, como governo e ad
 
 ## 1. O Estado e seus Elementos Constitutivos
 
-Na explicação clássica da Teoria Geral do Estado, o Estado reúne **povo**, **território** e **poder político soberano**. No Brasil, a República Federativa é pessoa jurídica de direito público interno (Código Civil, art. 41, I). A soberania aparece como fundamento constitucional (Constituição, art. 1º, I). A classificação dos três elementos é **doutrinária**, não uma lista literal do art. 1º.
+Na explicação clássica da Teoria Geral do Estado, o Estado reúne **povo**, **território** e **poder político soberano**. No Brasil, a **União** é pessoa jurídica de direito público interno (Código Civil, art. 41, I), assim como os Estados, o Distrito Federal e os Municípios, nos incisos seguintes. A **República Federativa do Brasil** é o Estado soberano formado pela união indissolúvel desses entes (Constituição, art. 1º); não é correto confundir a República Federativa, no plano político, com a pessoa jurídica União, no plano administrativo. A soberania aparece como fundamento constitucional (Constituição, art. 1º, I). A classificação dos três elementos é **doutrinária**, não uma lista literal do art. 1º.
 
 ```mermaid
 graph TD
@@ -34,7 +34,7 @@ graph TD
     R --> C2["Poderes e Funções Estatais"]:::criterio
     R --> C3["Sentidos da Administração Pública"]:::criterio
 
-    C1 --> O1["Povo: elemento humano/cívico<br/>Território: base física/espacial<br/>Governo Soberano: poder político supremo"]:::opcao
+    C1 --> O1["Povo: elemento humano/cívico<br/>Território: base física/espacial<br/>Poder soberano: autoridade política independente"]:::opcao
     C2 --> O2["Funções Típicas: Legislar, Fiscalizar, Julgar, Administrar<br/>Funções Atípicas: administração interna no Legislativo e Judiciário"]:::opcao
     C3 --> O3["Sentido Subjetivo/Orgânico: Quem faz (órgãos, entidades, agentes)<br/>Sentido Objetivo/Material: O que se faz (serviço público, polícia, fomento, intervenção)"]:::opcao
 ```
@@ -42,7 +42,7 @@ graph TD
 ### 1.1. Elementos Estruturais
 1. **Povo:** Elemento humano ou subjetivo do Estado; o conjunto de pessoas vinculadas ao Estado pela nacionalidade; nem todo nacional exerce direitos políticos, de modo que nacionalidade e cidadania política não são sinônimos (não se confunde com *população*, que é dado demográfico e numérico que inclui estrangeiros e apátridas, nem com *nação*, que tem caráter sociocultural).
 2. **Território:** Base geográfica e espacial na qual o Estado exerce sua autoridade territorial, observados os limites do direito internacional (solo, subsolo, espaço aéreo e mar territorial).
-3. **Governo Soberano:** O elemento condutor político, que expressa a soberania interna (supremacia sobre as demais organizações sociais) e internacional (independência e igualdade perante os demais Estados).
+3. **Poder político soberano:** O elemento condutor político, que expressa a soberania interna (supremacia sobre as demais organizações sociais) e internacional (independência e igualdade perante os demais Estados).
 
 ---
 
@@ -189,7 +189,7 @@ O art. 2º da **Constituição Federal de 1988 (CF/1988)** estabelece Poderes in
 ## Referências normativas e critério de leitura
 
 - [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): arts. 1º, I (soberania), 2º (separação dos Poderes), 5º, XXXV (acesso à Justiça), 37, caput (princípios administrativos), 173 a 175 (atividade econômica e serviços públicos).
-- [Código Civil, Lei nº 10.406/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm): art. 41, I (pessoa jurídica de direito público interno).
+- [Código Civil, Lei nº 10.406/2002](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm): art. 41, I a III (União, Estados, Distrito Federal e Municípios como pessoas jurídicas de direito público interno).
 - [Decreto-Lei nº 200/1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm): art. 4º (estrutura da administração federal).
 - [Lei nº 14.133/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm): regime geral de licitações e contratos administrativos, observado seu âmbito de aplicação.
 

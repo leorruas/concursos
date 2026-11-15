@@ -132,6 +132,18 @@ A **sessão legislativa ordinária** ocorre de **2 de fevereiro a 17 de julho e 
 
 O **art. 58** prevê comissões **permanentes e temporárias**, proporcionalidade partidária **tanto quanto possível**, poderes de fiscalização e apreciação de projetos quando o Regimento dispensa a deliberação plenária, **salvo recurso de um décimo dos membros da Casa**. **CPI** requer **um terço dos membros**, **fato determinado** e **prazo certo**, com poderes de investigação próprios das autoridades judiciais; os detalhes regimentais e limites estão na nota [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares]].
 
+### Foro por prerrogativa após o mandato: interpretação do STF em 2025
+
+**Foro por prerrogativa de função** designa a competência constitucional de determinado tribunal para julgar uma autoridade em determinadas infrações, conforme a relação entre o fato e a função. O art. 53, § 1º, deve ser interpretado à luz dos requisitos definidos pelo Supremo Tribunal Federal (STF).
+
+Em **março de 2025**, no julgamento do **HC 232.627**, o STF decidiu que, **para crimes cometidos no cargo e em razão das funções**, a competência por prerrogativa **subsiste após a saída do cargo**, mesmo quando o inquérito ou a ação penal só começarem depois. Os dois critérios, **temporal** (durante o exercício) e **funcional** (ligação com o cargo), precisam ser examinados. Não basta que a pessoa tenha sido parlamentar alguma vez.
+
+**Exemplo hipotético:** uma deputada é acusada de crime praticado durante o mandato e vinculado ao exercício da função. Ela deixa o cargo antes da abertura da ação penal. Pelo entendimento de 2025, o simples fim do mandato não elimina o foro aplicável ao fato. Se o delito for **anterior ao mandato** ou **sem relação com as funções**, não se aplica automaticamente a mesma conclusão.
+
+**Item C/E autoral:** “O fim do mandato parlamentar sempre transfere à primeira instância o processo penal relativo a crime cometido durante o cargo e em razão das funções.” **Errado.** O STF reconheceu a continuidade do foro nessas condições no HC 232.627.
+
+**Fonte jurisprudencial:** [STF, notícia oficial sobre a decisão de 12/03/2025](https://noticias.stf.jus.br/postsnoticias/acoes-contra-autoridades-permanecem-no-stf-mesmo-apos-saida-do-cargo/). A descrição não altera as hipóteses constitucionais de competência nem substitui a análise do fato e do cargo.
+
 ### Três proteções parlamentares que não devem ser confundidas
 
 **Exemplo hipotético 1: discurso no exercício do mandato.** Uma deputada critica a gestão de um órgão público em pronunciamento ligado à sua atividade parlamentar. A **imunidade material** do art. 53, caput, protege opiniões, palavras e votos vinculados ao exercício da função, nos limites da interpretação do Supremo Tribunal Federal (STF). A proteção não deve ser estendida automaticamente a toda manifestação privada, sem relação funcional.

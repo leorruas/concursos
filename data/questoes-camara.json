@@ -49575,6 +49575,62 @@
       "correctAnswer": "C",
       "explanation": "O alargamento do público eleitoral é compatível com a estratégia catch-all. A mudança do público visado não implica, por si, fusão com outras legendas.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O alargamento do público eleitoral é compatível com a estratégia catch-all. A mudança do público visado não implica, por si, fusão com outras legendas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l169-001-dirigentes-e-informacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos",
+      "articleId": "art-83d47f1a6c902be5",
+      "conceptId": "dirigentes-e-informacao",
+      "mechanism": "identificar-assimetria-interna",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-83d47f1a6c902be5#Michels: organização e poder interno"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao.md",
+        "section": "Michels: organização e poder interno"
+      },
+      "statement": "Em um partido, a direção permanente controla os dados de filiação e os canais de comunicação com a base. Mesmo com eleições internas, essa concentração de recursos pode dar aos dirigentes vantagem sobre seus concorrentes.",
+      "correctAnswer": "C",
+      "explanation": "O controle de informação e comunicação favorece quem dirige a organização. A realização de eleições internas é compatível com essa vantagem.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O controle de informação e comunicação favorece quem dirige a organização. A realização de eleições internas é compatível com essa vantagem. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l169-002-massas-sem-criterio-de-filiacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / partidos políticos",
+      "articleId": "art-83d47f1a6c902be5",
+      "conceptId": "massas-sem-criterio-de-filiacao",
+      "mechanism": "distinguir-audiencia-e-organizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-83d47f1a6c902be5#Duverger: quadros e massas"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/25 - partidos politicos origem funcoes e organizacao.md",
+        "section": "Duverger: quadros e massas"
+      },
+      "statement": "Uma legenda reúne grande público em um comício, mas depende de um pequeno círculo de dirigentes e mantém pouca atividade de filiação. Na tipologia de Duverger, o tamanho do público no comício basta para classificá-la como partido de massas.",
+      "correctAnswer": "E",
+      "explanation": "A tipologia examina a organização do partido e o papel dos filiados em sua atividade regular. O público de um evento não demonstra uma base organizada de membros.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A tipologia examina a organização do partido e o papel dos filiados em sua atividade regular. O público de um evento não demonstra uma base organizada de membros. Dificuldade estimada."
     }
   ]
 }

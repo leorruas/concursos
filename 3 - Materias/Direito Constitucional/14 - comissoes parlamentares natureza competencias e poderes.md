@@ -25,6 +25,12 @@ O **art. 33** subdivide as temporárias em **especiais, de inquérito e externas
 
 A [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] explica a **sequência de tramitação**. Aqui o objeto muda: **que tipo de comissão é competente para cada tarefa**, como se constitui e quais são seus poderes e limites. A estrutura do parecer e sua votação ficam para **CAM-PL-005**; os poderes investigatórios e limites judiciais das CPIs serão detalhados em **CAM-PL-031**.
 
+### A mesma comissão pode instruir, fiscalizar e deliberar, mas os efeitos mudam
+
+**Exemplo hipotético.** Uma comissão temática examina um projeto de lei de sua área. Ela pode produzir **parecer de mérito** e, nas hipóteses admitidas pela Constituição e pelo Regimento, **discutir e votar conclusivamente o projeto**, dispensando a apreciação ordinária pelo Plenário, sem eliminar o recurso previsto no art. 58, § 2º, I, da Constituição. A mesma comissão pode realizar **audiência pública** para obter informações, ou **convocar ministro de Estado** para prestar informações sobre assuntos de suas atribuições, conforme o art. 58, § 2º, II e III. Essas atuações possuem finalidades distintas: ouvir participantes não é aprovar projeto, e aprovar parecer não equivale necessariamente a produzir lei.
+
+Mude apenas a finalidade: se deputados pretendem **investigar um fato determinado por prazo certo** com os poderes de uma comissão parlamentar de inquérito, não basta chamar uma audiência da comissão temática de “investigação”. A criação de CPI obedece aos requisitos do art. 58, § 3º, inclusive requerimento de um terço dos membros. O critério para identificar a comissão é a combinação de **objeto, ato de criação, competência e efeito**, e não apenas o tema político discutido.
+
 ## Estrutura interna: permanentes versus temporárias
 
 | Critério | **Comissão permanente** | **Comissão temporária** |

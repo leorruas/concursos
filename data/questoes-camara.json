@@ -50051,6 +50051,34 @@
       "correctAnswer": "E",
       "explanation": "A comparação das medianas descreve o centro dos grupos. Ela não estabelece uma ordenação entre todas as observações individuais.",
       "reviewEvidence": "Revisão por IA com conferência da inferência a partir das medianas. A comparação das medianas descreve o centro dos grupos. Ela não estabelece uma ordenação entre todas as observações individuais. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l182-001-densidade-ao-fundir-classes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-719dd4ca3e84b65a",
+      "conceptId": "densidade-histograma-fusao-classes-desiguais",
+      "mechanism": "recalcular-densidade-de-classe-fundida-com-pesos-pelas-larguras",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-719dd4ca3e84b65a#3. Anatomia matemática do histograma"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/27 - histograma barras e linhas distincao dos eixos e aplicacoes.md",
+        "section": "3. Anatomia matemática do histograma"
+      },
+      "statement": "Em um histograma de frequência absoluta por unidade de tempo, as classes de 0 a menos de 2 minutos e de 2 a menos de 8 minutos têm alturas 9 e 5, respectivamente. Se as duas classes forem reunidas em uma única barra com a mesma escala vertical, a altura dessa barra será 7.",
+      "correctAnswer": "E",
+      "explanation": "As frequências são as áreas das barras: 2 × 9 = 18 e 6 × 5 = 30. A frequência combinada é 48 e a largura combinada é 8, o que dá altura 6. A média simples das alturas, 7, só seria o cálculo adequado se as duas larguras fossem iguais.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o título literal da seção canônica, a conservação da frequência ao reunir classes adjacentes e o cálculo 48/8 = 6. O item exige recomputar a densidade de uma união, além de reconhecer que a área representa frequência."
     }
   ]
 }

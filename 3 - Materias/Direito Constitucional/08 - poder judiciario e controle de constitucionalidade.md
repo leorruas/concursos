@@ -27,6 +27,26 @@ O artigo explica o papel do **Supremo Tribunal Federal (STF)**, dos demais juíz
 
 **Estas classificações são independentes.** Uma lei pode ter um vício material discutido tanto num processo concreto quanto numa ação de controle abstrato. Portanto, *material* não é sinônimo de *concentrado*, assim como *formal* não é sinônimo de *difuso*.
 
+## Quem compõe o Poder Judiciário: a estrutura do art. 92
+
+Antes de estudar o controle de constitucionalidade, é preciso localizar **quem julga**. A Constituição distribui a função jurisdicional por órgãos e ramos que tratam de matérias diferentes. **Jurisdição** é a função estatal de resolver conflitos e aplicar o direito em processos; **competência** é a parcela dessa função atribuída a cada órgão. Um juiz de primeira instância recebe e decide determinados processos inicialmente; um tribunal pode julgar recursos e causas de sua competência originária, conforme a Constituição e as leis.
+
+O **art. 92** enumera o **Supremo Tribunal Federal (STF)**, o **Conselho Nacional de Justiça (CNJ)**, o **Superior Tribunal de Justiça (STJ)**, o **Tribunal Superior do Trabalho (TST)**, os **Tribunais Regionais Federais (TRFs) e juízes federais**, os **tribunais e juízes do Trabalho**, **Eleitorais** e **Militares**, e os **tribunais e juízes dos Estados, do Distrito Federal e dos Territórios**. Essa enumeração é constitucional; nem todos esses órgãos realizam as mesmas tarefas.
+
+| Situação hipotética | Órgão ou ramo a localizar | O que não se deve presumir |
+| :--- | :--- | :--- |
+| Debate sobre a interpretação de lei federal em processo judicial, preenchidos os requisitos de recurso especial | **STJ**, com as competências previstas no art. 105 | O STJ não é a instância final de toda questão constitucional |
+| Questão constitucional em processo que pode comportar recurso extraordinário | **STF**, observados os requisitos do art. 102 | Nem toda alegação de inconstitucionalidade gera acesso direto ao STF |
+| Discussão trabalhista entre empregado e empregador, na hipótese legal | **Justiça do Trabalho**, conforme art. 114 | A presença de lei federal não transforma automaticamente a causa em matéria da Justiça Federal comum |
+| Discussão eleitoral submetida aos órgãos da Justiça Eleitoral | **Justiça Eleitoral**, conforme Constituição e legislação | O STF não exerce o julgamento inicial de toda disputa eleitoral |
+| Reclamação sobre gestão administrativa ou dever funcional de magistrado | **CNJ**, nos limites do art. 103-B | O CNJ não é tribunal de apelação para modificar sentenças |
+
+A estrutura do art. 92 não é uma escada única. **Justiça comum federal, Justiça estadual e Justiças especializadas** têm competências próprias. O STF exerce a guarda da Constituição (art. 102); o STJ tem atribuições próprias de uniformização da interpretação da legislação federal infraconstitucional, nos processos de sua competência (art. 105). **Infraconstitucional** é a norma abaixo da Constituição, como uma lei ordinária. O CNJ faz controle administrativo, financeiro e disciplinar, mas **não desempenha jurisdição recursal sobre o mérito das decisões judiciais**.
+
+**Item C/E autoral:** “O Conselho Nacional de Justiça é órgão do Poder Judiciário, mas suas competências administrativas não o tornam instância recursal de sentenças.” **Certo.** Arts. 92 e 103-B: integrar o Judiciário e exercer jurisdição recursal são atribuições distintas.
+
+**Fonte:** [Constituição Federal, arts. 92, 102, 103-B, 105 e 114, texto consolidado da Câmara](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+
 ## STF e guarda da Constituição
 
 Antes do STF, identifique os órgãos: **um juiz de primeira instância** pode resolver um processo e enfrentar incidentalmente uma questão constitucional; **tribunais** julgam os assuntos de sua competência, inclusive recursos, conforme as regras processuais; o **STF** exerce a guarda da Constituição e as competências que a Constituição lhe atribui; o **CNJ** fiscaliza a administração, as finanças e deveres funcionais da magistratura, sem reformar sentenças como órgão recursal.

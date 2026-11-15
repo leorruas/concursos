@@ -50751,6 +50751,34 @@
       "correctAnswer": "C",
       "explanation": "A Lei nº 4.320/1964, art. 60, § 2º, determina o empenho por estimativa quando o montante não pode ser determinado. A tarifa informa o preço unitário. Sem saber o consumo, o órgão ainda não conhece o montante total da despesa, mesmo que a cobrança seja mensal.",
       "reviewEvidence": "Revisão editorial por IA. Conferidos o art. 60, §§ 2º e 3º, da Lei nº 4.320/1964 no portal da Câmara e a seção canônica. O julgamento depende de distinguir tarifa conhecida e montante indeterminado."
+    },
+    {
+      "id": "cam-orc-l198-001-recebimento-preco-divergente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "liquidacao-preco-divergente-apos-recebimento",
+      "mechanism": "confrontar-preco-faturado-com-o-titulo-apos-aceite",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Nota fiscal × entrega efetiva"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Nota fiscal × entrega efetiva"
+      },
+      "statement": "Os bens foram recebidos definitivamente e a nota fiscal indica a quantidade correta. O preço unitário faturado, porém, é superior ao preço vigente no contrato. O recebimento definitivo, por si só, autoriza liquidar a despesa pelo valor integral da nota fiscal.",
+      "correctAnswer": "E",
+      "explanation": "A liquidação inclui verificar a importância exata a pagar, com base no contrato e nos documentos da entrega, conforme o art. 63 da Lei nº 4.320/1964. O recebimento confirma o aceite do objeto. A divergência de preço ainda precisa ser resolvida antes da liquidação pelo valor faturado.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidos os arts. 63 da Lei nº 4.320/1964 e 140 da Lei nº 14.133/2021 e a seção teórica. A quantidade e o aceite estão regulares. O mecanismo é verificar a divergência no preço unitário, distinta de entrega parcial."
     }
   ]
 }

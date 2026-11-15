@@ -49463,6 +49463,34 @@
       "correctAnswer": "E",
       "explanation": "A prioridade determina a ordem da apreciação. A aprovação depende dos votos exigidos pelas regras da assembleia.",
       "reviewEvidence": "Revisão por IA com cotejo da seção indicada. A prioridade determina a ordem da apreciação. A aprovação depende dos votos exigidos pelas regras da assembleia. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l165-001-autonomia-com-capacidades-desiguais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / federalismo",
+      "articleId": "art-4a9e1d735bc082f6",
+      "conceptId": "autonomia-com-capacidades-desiguais",
+      "mechanism": "distinguir-atribuicao-formal-e-meios-de-execucao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4a9e1d735bc082f6#Federalismo político e mecanismos de coordenação"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/27 - organizacao politica brasileira instituicoes e federalismo.md",
+        "section": "Federalismo político e mecanismos de coordenação"
+      },
+      "statement": "Em uma federação hipotética, dois governos locais têm as mesmas atribuições, mas somente um dispõe de equipe técnica para executar certa política. A igualdade de atribuições é compatível com capacidades de execução desiguais.",
+      "correctAnswer": "C",
+      "explanation": "A autonomia diz respeito às atribuições próprias. A capacidade de execução também depende dos recursos e das equipes disponíveis, que podem variar entre os entes.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A autonomia diz respeito às atribuições próprias. A capacidade de execução também depende dos recursos e das equipes disponíveis, que podem variar entre os entes. Dificuldade estimada."
     }
   ]
 }

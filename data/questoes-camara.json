@@ -50639,6 +50639,34 @@
       "correctAnswer": "E",
       "explanation": "O art. 57, § 2º, da Constituição condiciona a interrupção à aprovação do projeto de LDO. A aprovação do parecer na comissão é uma etapa preparatória. O projeto ainda aguarda a deliberação do Congresso Nacional, de modo que a condição ainda não foi satisfeita.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 57, § 2º, e o art. 166, caput e § 1º, no texto atualizado da Constituição no portal da Câmara. O caso diferencia aprovação do parecer de aprovação do projeto."
+    },
+    {
+      "id": "cam-orc-l195-001-inovacao-fonte-do-custeio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / Lei de Responsabilidade Fiscal",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "conceptId": "contingenciamento-inovacao-fundo-especifico",
+      "mechanism": "aplicar-condicao-da-fonte-a-projetos-de-mesma-finalidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0fb9b88e4d6c4151#Despesas não sujeitas à limitação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+        "section": "Despesas não sujeitas à limitação"
+      },
+      "statement": "Dois projetos de desenvolvimento tecnológico têm a mesma finalidade. Um é custeado por fundo criado para esse fim e o outro, por recursos ordinários. A igualdade de finalidade basta para que ambos recebam a proteção específica para desenvolvimento tecnológico contra a limitação de empenho prevista na Lei de Responsabilidade Fiscal.",
+      "correctAnswer": "E",
+      "explanation": "O art. 9º, § 2º, da LRF exige que a despesa de inovação ou desenvolvimento científico e tecnológico seja custeada por fundo criado para essa finalidade. A finalidade do projeto, isoladamente, não dá essa proteção específica ao segundo projeto.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidos o art. 9º, § 2º, da LC nº 101/2000 no Planalto e a seção literal. O caso mantém a finalidade constante e altera a fonte de custeio."
     }
   ]
 }

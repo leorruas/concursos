@@ -27,6 +27,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[1 - Planejamento/Regras de ingestao de questoes|Regras de ingestão de questões]]
 - [[1 - Planejamento/Contrato transacional de mudancas|Contrato transacional de mudanças]]
 - [[1 - Planejamento/Contrato de publicacao GitHub Pages|Contrato de publicação — GitHub Pages]]
+- [[1 - Planejamento/Exportacao EPUB para Kindle - protocolo e prompt|Exportação EPUB para Kindle: protocolo e prompt reutilizável]]
 - [[1 - Planejamento/Auditoria editorial do vault|Auditoria editorial do vault]]
 - [[1 - Planejamento/concursos abertos|Concursos abertos]]
 - [[1 - Planejamento/horarios|Cronograma e horários]]

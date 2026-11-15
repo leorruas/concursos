@@ -50667,6 +50667,62 @@
       "correctAnswer": "E",
       "explanation": "O art. 9º, § 2º, da LRF exige que a despesa de inovação ou desenvolvimento científico e tecnológico seja custeada por fundo criado para essa finalidade. A finalidade do projeto, isoladamente, não dá essa proteção específica ao segundo projeto.",
       "reviewEvidence": "Revisão editorial por IA. Conferidos o art. 9º, § 2º, da LC nº 101/2000 no Planalto e a seção literal. O caso mantém a finalidade constante e altera a fonte de custeio."
+    },
+    {
+      "id": "cam-orc-l196-001-global-liquidacao-por-parcela",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "global-liquidacao-por-parcela",
+      "mechanism": "identificar-o-alcance-da-liquidacao-em-contrato-empenhado-globalmente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Empenho ordinário, global e estimativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Empenho ordinário, global e estimativo"
+      },
+      "statement": "Um órgão empenhou globalmente um contrato de valor determinado para entregas parceladas no mesmo exercício. Depois de receber e conferir a primeira entrega, pode liquidar a despesa correspondente a essa parcela sem liquidar de imediato as parcelas ainda não entregues.",
+      "correctAnswer": "C",
+      "explanation": "O art. 60, § 3º, da Lei nº 4.320/1964 admite o empenho global. Pelo art. 63, a liquidação verifica o direito do credor com base na entrega e nos documentos. O empenho pelo total não antecipa a verificação das demais parcelas.",
+      "reviewEvidence": "Revisão editorial por IA. Lei nº 4.320/1964, arts. 60 e 63, cotejada com o portal da Câmara. Seção literal conferida. Mecanismo revisado: identificar-o-alcance-da-liquidacao-em-contrato-empenhado-globalmente."
+    },
+    {
+      "id": "cam-orc-l196-002-dispensa-da-nota",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "dispensa-da-nota",
+      "mechanism": "delimitar-dispensa-documental-sem-alterar-sequencia-da-despesa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Nota de empenho × empenho"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Nota de empenho × empenho"
+      },
+      "statement": "Em caso especial em que a legislação específica dispensa a emissão da nota de empenho, o órgão pode realizar a despesa antes de efetuar o empenho com base nessa mesma dispensa.",
+      "correctAnswer": "E",
+      "explanation": "O art. 60, § 1º, da Lei nº 4.320/1964 permite dispensar a emissão da nota nos casos especiais previstos em lei específica. A exigência de empenho prévio do caput continua aplicável. A dispensa tem alcance documental.",
+      "reviewEvidence": "Revisão editorial por IA. Lei nº 4.320/1964, arts. 60 e 63, cotejada com o portal da Câmara. Seção literal conferida. Mecanismo revisado: delimitar-dispensa-documental-sem-alterar-sequencia-da-despesa."
     }
   ]
 }

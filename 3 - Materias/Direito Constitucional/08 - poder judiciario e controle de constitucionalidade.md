@@ -5,7 +5,7 @@ title: "Poder judiciário e controle de constitucionalidade"
 type: "conceito"
 status: "ativo"
 created: 2026-06-09
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 
 # Poder judiciário e controle de constitucionalidade
@@ -203,6 +203,16 @@ O CNJ **não funciona como instância recursal das decisões jurisdicionais**. U
 **Mesmo tribunal, dois problemas distintos:** se houver suspeita de irregularidade na gestão de contratos ou no cumprimento de dever funcional de magistrado, pode existir matéria de competência do CNJ, observados os requisitos legais. Se a parte disser que a sentença interpretou incorretamente a lei, deve usar a **via judicial adequada**, e não pedir ao CNJ que altere o mérito da sentença. A diferença é o **tipo de ato questionado**, não o nome do tribunal envolvido.
 
 Também é perigoso descrever o CNJ como superior hierárquico jurisdicional dos tribunais. Ele exerce competências constitucionais próprias de controle, não uma hierarquia recursal sobre o conteúdo das decisões judiciais.
+
+### O alcance da decisão: caso concreto, precedente e eficácia geral
+
+O **controle difuso** identifica o caminho pelo qual a questão constitucional aparece **dentro de um processo concreto**; não determina, sozinho, que a decisão nunca terá efeitos para outras pessoas. Uma decisão de primeira instância normalmente resolve a situação das partes e pode ser revista por recurso. Em tribunais superiores, certos julgamentos podem formar **precedentes obrigatórios** nas condições da legislação processual e da Constituição. Por isso, a frase “toda decisão difusa só produz efeito entre as partes, em qualquer circunstância” é ampla demais.
+
+O **controle concentrado** identifica ações em que a validade constitucional é o objeto principal, perante o tribunal competente. Na ação direta de inconstitucionalidade e na ação declaratória de constitucionalidade julgadas definitivamente pelo Supremo Tribunal Federal, a Constituição prevê eficácia **contra todos** e efeito **vinculante** em relação aos demais órgãos do Judiciário e à administração pública direta e indireta nas esferas federal, estadual e municipal (art. 102, § 2º). **Eficácia contra todos** significa que o resultado não se limita às partes do processo. **Efeito vinculante** significa que os destinatários constitucionais devem observar aquela decisão.
+
+**Mesmo assunto, caminhos diferentes:** uma pessoa pede o cancelamento de uma multa e o juiz deixa de aplicar a lei por entendê-la inconstitucional: exemplo de controle incidental. Um legitimado do art. 103 pede diretamente ao STF, por ação adequada, a declaração de inconstitucionalidade da lei: exemplo de controle abstrato. Não é a gravidade da lei que escolhe o caminho; são o pedido, a legitimidade e a competência.
+
+**Item C/E autoral.** “Toda declaração de inconstitucionalidade em controle difuso possui automaticamente os mesmos efeitos vinculantes de decisão definitiva em ADI.” **Errado.** O procedimento e a espécie de decisão importam; a vinculação não decorre automaticamente da expressão controle difuso.
 
 ## Inércia da jurisdição
 

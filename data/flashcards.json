@@ -10641,6 +10641,108 @@
         "prompt": "Se ambos dispensam sanção presidencial, como diferenciar decreto legislativo e resolução da Câmara?",
         "answer": "Identifique a competência constitucional e o objeto: sustação de ato exorbitante do Executivo cabe ao Congresso por decreto legislativo; alteração do Regimento da Câmara é resolução da própria Casa."
       }
+    },
+    {
+      "id": "camara-foro-pos-mandato-hc232627",
+      "term": "Foro parlamentar após o fim do mandato",
+      "definition": "A competência por prerrogativa de função atende aos crimes cometidos durante o exercício do cargo e em razão das funções. Segundo o STF (HC 232.627, 2025), o término do mandato não afasta essa competência para esses fatos, mesmo se a investigação ou ação começar depois.",
+      "example": "Ex-deputada responde por fato praticado durante o mandato e ligado ao exercício da função: o simples fim do mandato não desloca automaticamente a competência para a primeira instância.",
+      "confusion": "Imunidade material protege opiniões, palavras e votos funcionalmente ligados ao mandato; foro por prerrogativa define o órgão judicial competente. Nenhum é autorização geral para crimes privados.",
+      "note": {
+        "articleId": "art-f3e70dd8fbe34df4",
+        "section": "Foro por prerrogativa após o mandato: interpretação do STF em 2025"
+      },
+      "source": {
+        "title": "STF, HC 232.627 (2025)",
+        "url": "https://noticias.stf.jus.br/postsnoticias/acoes-contra-autoridades-permanecem-no-stf-mesmo-apos-saida-do-cargo/",
+        "locator": "Tese sobre permanência do foro após a saída do cargo"
+      },
+      "contrast": {
+        "prompt": "Ex-deputado é investigado depois de deixar o cargo, por fato ocorrido durante o mandato e em razão dele. A saída do cargo retira automaticamente a competência por prerrogativa?",
+        "answer": "Não. No HC 232.627, o STF manteve a prerrogativa para crimes praticados no cargo e ligados às funções, ainda que o processo se inicie depois."
+      },
+      "topic": "Direito Constitucional",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "conceptIds": []
+    },
+    {
+      "id": "camara-difuso-controle-abstrato-legitimidade",
+      "term": "Controle difuso × ADI: quem pode provocar",
+      "definition": "No controle difuso, a questão constitucional surge dentro de caso concreto para resolver o pedido principal; uma parte pode alegá-la pela via processual adequada. Na ADI federal, a constitucionalidade é o pedido principal e a legitimidade está limitada aos sujeitos do art. 103 da Constituição.",
+      "example": "Pessoa multada contesta a validade da lei no pedido de anulação da multa; partido representado no Congresso propõe ADI para contestar a lei em abstrato.",
+      "confusion": "A pessoa afetada por norma não precisa ser legitimada do art. 103 para questionar sua aplicação em processo concreto, mas isso não lhe dá legitimidade para ajuizar ADI.",
+      "note": {
+        "articleId": "art-7c5228e2781b4336",
+        "section": "Aplicação integrada: legitimidade, via, órgão e efeito"
+      },
+      "source": {
+        "title": "Constituição Federal",
+        "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+        "locator": "Arts. 97, 102, 103 e 125, § 2º"
+      },
+      "contrast": {
+        "prompt": "Cidadão multado quer anular multa baseada em lei possivelmente inconstitucional. Ele precisa estar no rol do art. 103 para sustentar esse argumento?",
+        "answer": "Não. Pode suscitar a questão constitucional incidentalmente no processo concreto. O rol do art. 103 restringe a propositura das ações abstratas que ele disciplina."
+      },
+      "topic": "Direito Constitucional",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "conceptIds": []
+    },
+    {
+      "id": "camara-lc-maioria-turnos-fontes",
+      "term": "Lei complementar: maioria absoluta e dois turnos na Câmara",
+      "definition": "A Constituição, art. 69, exige maioria absoluta para aprovação de lei complementar. O Regimento Interno da Câmara, art. 148, prevê projetos de lei complementar entre as exceções à regra de turno único, resultando em dois turnos na Câmara. As exigências têm fontes e funções distintas.",
+      "example": "Projeto de LC aprovado por 151 votos entre 300 deputados presentes não atende à maioria absoluta de 257 votos favoráveis na Câmara, mesmo com quórum mínimo de presença.",
+      "confusion": "Os dois turnos de LC na Câmara são regimentais; os dois turnos de PEC em cada Casa e o quórum de três quintos são constitucionais. Não atribuir automaticamente ao Senado a regra interna da Câmara.",
+      "note": {
+        "articleId": "art-4c1041281ca44ee5",
+        "section": "Revisão final: quatro decisões com quóruns diferentes"
+      },
+      "source": {
+        "title": "Constituição Federal e Regimento Interno da Câmara dos Deputados",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "CF art. 69; RICD art. 148"
+      },
+      "contrast": {
+        "prompt": "Um PLP na Câmara obteve maioria dos votos de 300 presentes, mas apenas 151 votos favoráveis. Aprovou? A exigência de dois turnos vem do art. 69 da CF?",
+        "answer": "Não. A CF art. 69 exige 257 votos favoráveis (maioria absoluta da Câmara). Dois turnos decorrem do RICD art. 148, não do art. 69."
+      },
+      "topic": "Direito Constitucional",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P2.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "conceptIds": []
     }
   ]
 }

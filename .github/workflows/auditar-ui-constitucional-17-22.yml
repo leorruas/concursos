@@ -1,0 +1,78 @@
+name: Auditoria visual dos artigos constitucionais 17 a 22
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/auditar-ui-constitucional-17-22.yml'
+      - '3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md'
+      - '3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md'
+      - '3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado.md'
+      - '3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md'
+      - '3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md'
+      - '3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  browser-smoke:
+    name: Abrir seis rotas no Chrome e registrar telas
+    runs-on: ubuntu-26.04
+    timeout-minutes: 20
+    steps:
+      - name: Capturar desktop claro e mobile escuro
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p screenshots
+          CHROME="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          ids=(
+            art-51c7e2f904a68db3
+            art-68b5cf209e4d731a
+            art-c8e43a75d9061bf2
+            art-6bc728a14d0e49f3
+            art-7e91b362a40c58d2
+            art-a3f905cb76e1428d
+          )
+          markers=(
+            'Teste de interpretação: dois silêncios com consequências diferentes'
+            'Parecer de comissão não equivale a decisão conclusiva'
+            'Três formas de participação parlamentar que parecem iguais'
+            'Uma autorização não é um cheque em branco'
+            'Exceção de calendário efetivamente aplicada em 2026'
+            'Competência, instrumento e efeito: uma sequência de três perguntas'
+          )
+          for i in "${!ids[@]}"; do
+            article=$((i+17))
+            url="https://leorruas.github.io/concursos/#/artigo/${ids[$i]}"
+            echo "Verificando artigo ${article}: ${url}"
+            "$CHROME" --headless --no-sandbox --disable-dev-shm-usage --disable-gpu \
+              --hide-scrollbars --window-size=1440,900 --virtual-time-budget=15000 \
+              --dump-dom --screenshot="screenshots/${article}-desktop.png" \
+              "$url" >"screenshots/${article}-desktop.html" 2>"screenshots/${article}-chrome.log"
+            if ! grep -Fq "${markers[$i]}" "screenshots/${article}-desktop.html"; then
+              echo "::error::Artigo ${article} não apresentou a seção esperada no DOM"
+              exit 1
+            fi
+            if grep -Fq 'não foi possível carregar este artigo' "screenshots/${article}-desktop.html"; then
+              echo "::error::Erro de carregamento no artigo ${article}"
+              exit 1
+            fi
+            "$CHROME" --headless --no-sandbox --disable-dev-shm-usage --disable-gpu \
+              --force-dark-mode --hide-scrollbars --window-size=390,844 --virtual-time-budget=15000 \
+              --screenshot="screenshots/${article}-mobile-dark.png" \
+              "$url" >/dev/null 2>"screenshots/${article}-mobile-chrome.log"
+            test -s "screenshots/${article}-desktop.png"
+            test -s "screenshots/${article}-mobile-dark.png"
+            echo "Artigo ${article}: rota e texto renderizado confirmados; duas capturas registradas."
+          done
+      - name: Guardar evidências para inspeção visual
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: constitucional-17-22-capturas
+          path: screenshots/
+          if-no-files-found: warn
+          retention-days: 14

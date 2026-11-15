@@ -217,7 +217,7 @@ Para detalhes sobre sanção tácita, veto parcial, controle, prazos, promulgaç
 
 **Veto apreciado em sessão conjunta ≠ quórum somado**; **rejeição exige maioria absoluta separada de cada Casa**.
 
-**Fontes oficiais conferidas em 08/11/2026:** [RICD atualizado até Resolução nº 34/2026](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), arts. 100, 113–117, 126–130; [Congresso Nacional, tramitação de veto e Regimento Comum](https://www.congressonacional.leg.br/materias/vetos/entenda-a-tramitacao-do-veto), arts. 104–106-D; [Constituição Federal, art. 66](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). As questões são inéditas, e a produção desta nota não comprova estudo, retenção ou desempenho individual.
+**Fontes oficiais conferidas em 08/11/2026:** [RICD atualizado até Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), arts. 100, 113–117, 126–130; [Congresso Nacional, tramitação de veto e Regimento Comum](https://www.congressonacional.leg.br/materias/vetos/entenda-a-tramitacao-do-veto), arts. 104–106-D; [Constituição Federal, art. 66](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm). As questões são inéditas, e a produção desta nota não comprova estudo, retenção ou desempenho individual.
 
 ## Caso progressivo: projeto, indicação, requerimento e parecer
 
@@ -297,17 +297,19 @@ Para definir proposição na Câmara, indicar o **art. 100**, explicar sua **amp
 
 ## Fontes e recorte
 
-- [Regimento Interno da Câmara dos Deputados, Resolução nº 17/1989, texto atualizado, arts. 100 a 114](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+- [Regimento Interno da Câmara dos Deputados, Resolução nº 17/1989, texto atualizado, arts. 100 a 114](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html).
 - [Regimento Interno da Câmara dos Deputados, edição consolidada até a Resolução nº 34/2026, portal oficial](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
-- [Constituição Federal, art. 59, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+- [Constituição Federal, art. 59, texto atualizado da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988).
 - [Biblioteca da Câmara, 31ª edição do Regimento Interno (2026)](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
 
 **Nota editorial:** o recorte utiliza o texto regimental disponível e conferido em **07/11/2026**. Dispositivos e atos complementares podem ser atualizados; em questão de literalidade, priorizar o texto vigente no exercício da prova. Esta publicação não comprova estudo realizado, retenção nem acerto em questões.
 
 
+> **Fontes consolidadas para consulta (15/11/2026):** o portal da Câmara disponibiliza o [Regimento Interno atualizado até a Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e a [Constituição atualizada até a Emenda Constitucional nº 141/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988). A consolidação mais recente deve ser consultada quando houver divergência com reproduções antigas. Esta atualização de referências não representa nova certificação de todos os dispositivos citados no artigo.
+
 ## Certificação normativa delimitada: 11/11/2026
 
-**Recorte cotejado:** conteúdo e quadros de CAM-PL-001 e CAM-PL-016, **sete cenários do caso inicial**, **sete etapas do caso de fiscalização**, **dois exemplos comentados** e **13 exercícios C/E** em conjuntos de oito e cinco. Fonte normativa: [RICD consolidado, arts. 100–130](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), especialmente arts. 100–105, 108–118, 126–130, e [Constituição, arts. 59 e 66](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). Conferidos conceito e espécies regimentais de proposição, distinção entre projeto e ato normativo, indicação, requerimento, parecer, veto, autoria e retirada, arquivamento e emendas.
+**Recorte cotejado:** conteúdo e quadros de CAM-PL-001 e CAM-PL-016, **sete cenários do caso inicial**, **sete etapas do caso de fiscalização**, **dois exemplos comentados** e **13 exercícios C/E** em conjuntos de oito e cinco. Fonte normativa: [RICD consolidado, arts. 100–130](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), especialmente arts. 100–105, 108–118, 126–130, e [Constituição, arts. 59 e 66](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988). Conferidos conceito e espécies regimentais de proposição, distinção entre projeto e ato normativo, indicação, requerimento, parecer, veto, autoria e retirada, arquivamento e emendas.
 
 **NC-PL-053:** incorporados arts. **104, §§ 4º e 5º**, e **110**, distinguindo reapresentação após retirada e reapresentação de matéria de projeto rejeitado na mesma sessão legislativa. **NC-PL-054:** incluídos **art. 105, X e § 2º**, preservando os pareceres aprovados na tramitação conjunta remanescente após arquivamento, e **art. 112**, sobre instrução incompleta. **NC-PL-055:** explicitadas espécies e definições de emendas, subemenda e emenda de redação do **art. 118**, para evitar tratar genericamente todo ajuste como emenda modificativa.
 

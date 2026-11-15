@@ -35,7 +35,7 @@ try:
         driver.set_window_size(1440, 900)
         driver.get(url)
         try:
-            wait.until(lambda d: marker in d.find_element(By.ID, "artigo-corpo").text)
+            wait.until(lambda d: marker.casefold() in d.find_element(By.ID, "artigo-corpo").text.casefold())
         except Exception:
             Path(f"screenshots/{number}-debug.html").write_text(driver.page_source, encoding="utf-8")
             driver.save_screenshot(f"screenshots/{number}-debug.png")
@@ -51,7 +51,7 @@ try:
 
         driver.set_window_size(390, 844)
         driver.execute_script("localStorage.setItem('tema-concursos','dark'); document.documentElement.setAttribute('data-theme','dark')")
-        wait.until(lambda d: marker in d.find_element(By.ID, "artigo-corpo").text)
+        wait.until(lambda d: marker.casefold() in d.find_element(By.ID, "artigo-corpo").text.casefold())
         driver.execute_script("window.scrollTo(0,0)")
         assert driver.save_screenshot(f"screenshots/{number}-mobile-dark.png")
         overflow = driver.execute_script(

@@ -50527,6 +50527,62 @@
       "correctAnswer": "E",
       "explanation": "A exceção constitucional é determinada pela promulgação do ato de autorização nos últimos quatro meses do exercício, de setembro a dezembro. A lei foi promulgada em agosto. A edição do decreto de abertura em outubro não altera essa data.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 167, § 2º, na Constituição publicada pela Câmara, o subtítulo literal e o marco temporal. O item exige escolher o ato determinante quando autorização e abertura estão em meses diferentes."
+    },
+    {
+      "id": "cam-orc-l192-001-cae-orientacoes-antes-prazo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-c917e4a2d63b508f",
+      "conceptId": "cae-orientacoes-antes-prazo",
+      "mechanism": "separar-divulgacao-previa-da-ordem-de-votacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c917e4a2d63b508f#CAE: admissibilidade das emendas"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias.md",
+        "section": "CAE: admissibilidade das emendas"
+      },
+      "statement": "O Plenário da CMO decidiu inverter a ordem de votação dos relatórios para uma matéria orçamentária. Com essa decisão, o Comitê de Admissibilidade de Emendas também fica dispensado de divulgar orientações antes da abertura do prazo para apresentação de emendas.",
+      "correctAnswer": "E",
+      "explanation": "A exceção do art. 25, § 1º, da Resolução nº 1/2006-CN alcança a ordem de votação. O § 2º exige a divulgação prévia das orientações de admissibilidade. Inverter a votação não afasta essa exigência.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026 com o texto atualizado da Resolução nº 1/2006-CN no portal da Câmara. Art. 25, §§ 1º e 2º. Conferido o alcance da ressalva do Plenário da CMO. Seção literal conferida."
+    },
+    {
+      "id": "cam-orc-l192-002-cfis-exame-projeto-ppa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-c917e4a2d63b508f",
+      "conceptId": "cfis-exame-projeto-ppa",
+      "mechanism": "reconhecer-competencia-de-controle-na-fase-de-projeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c917e4a2d63b508f#CFIS: acompanhamento da execução"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias.md",
+        "section": "CFIS: acompanhamento da execução"
+      },
+      "statement": "Ao analisar a consistência fiscal de um projeto de plano plurianual ainda em tramitação, o Comitê de Avaliação, Fiscalização e Controle da Execução Orçamentária exerce uma de suas atribuições, embora a execução do plano ainda não tenha começado.",
+      "correctAnswer": "C",
+      "explanation": "O art. 22, II, da Resolução nº 1/2006-CN inclui a análise da consistência fiscal dos projetos de PPA e LOA nas atribuições do comitê. Essa análise pode ocorrer na fase de projeto, antes da execução.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026 com o texto atualizado da Resolução nº 1/2006-CN no portal da Câmara. Art. 22, II. Conferida a competência do comitê na fase de projeto. Seção literal conferida."
     }
   ]
 }

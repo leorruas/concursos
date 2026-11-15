@@ -92,8 +92,13 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         if (await response.text() !== local) throw new Error('Recurso do glossário diverge do build: ' + recurso);
       }
       // Os metadados do manifesto não mudam quando o corpo Markdown é corrigido.
-      // Verifique o corpo integral dos seis artigos da revisão constitucional e os materiais já monitorados.
+      // Verifique o corpo dos artigos PL11–15, PL17–22 e os materiais já monitorados.
       const materiaisAuditoriaPL = [
+        '3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao.md',
+        '3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md',
+        '3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md',
+        '3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md',
+        '3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md',
         '3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao.md',
         '3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md',
         '3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado.md',

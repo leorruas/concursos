@@ -50471,6 +50471,34 @@
       "correctAnswer": "E",
       "explanation": "Por força do art. 19 do Código, aplica-se o art. 216 do Regimento Interno. Seus §§ 4º e 5º fixam um mínimo de duas sessões em cada turno. O tempo adicional do primeiro turno e a falta de oradores não reduzem o mínimo do segundo.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 19 do Código e os §§ 4º e 5º do art. 216 do Regimento Interno no portal da Câmara. O caso testa a incidência do mínimo de sessões por turno, em vez de um prazo global."
+    },
+    {
+      "id": "cam-orc-l190-001-superavit-parcela-comprometida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "superavit-disponivel-apos-comprometimento",
+      "mechanism": "subtrair-parcela-do-superavit-ja-usada-como-fonte",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Recursos disponíveis para suplementares e especiais"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Recursos disponíveis para suplementares e especiais"
+      },
+      "statement": "Um ente apurou superávit financeiro de R$ 500 mil no balanço patrimonial do exercício anterior. No exercício corrente, R$ 350 mil desse superávit já foram usados como fonte para abrir outro crédito adicional. Na ausência de outros comprometimentos, restam, nessa fonte, R$ 150 mil para cobrir a abertura de novo crédito especial.",
+      "correctAnswer": "C",
+      "explanation": "O art. 43, § 1º, I, da Lei nº 4.320/1964 admite o superávit financeiro do exercício anterior como fonte na parcela ainda disponível. Dos R$ 500 mil já apurados, R$ 350 mil estão comprometidos com o crédito aberto. A diferença disponível nessa fonte é R$ 150 mil.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 43, caput e § 1º, I, no texto da Câmara, a seção canônica e o cálculo da parcela remanescente. O caso exige distinguir o superávit apurado da disponibilidade após uso parcial."
     }
   ]
 }

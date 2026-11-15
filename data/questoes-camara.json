@@ -48763,6 +48763,62 @@
       "correctAnswer": "E",
       "explanation": "As parcelas de 50%, 25% e 25% dão 1 ÷ 0,375, aproximadamente 2,67. Dividir o quarto final em duas parcelas de 12,5% reduz a soma dos quadrados para 0,34375 e eleva o número efetivo para cerca de 2,91.",
       "reviewEvidence": "Revisão por IA com conferência da fórmula e dos cálculos. As parcelas de 50%, 25% e 25% dão 1 ÷ 0,375, aproximadamente 2,67. Dividir o quarto final em duas parcelas de 12,5% reduz a soma dos quadrados para 0,34375 e eleva o número efetivo para cerca de 2,91. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l144-001-raizes-com-mudanca-eleitoral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "raizes-com-mudanca-eleitoral",
+      "mechanism": "separar-vinculos-e-estabilidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Mainwaring e Scully: institucionalização do sistema partidário"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Mainwaring e Scully: institucionalização do sistema partidário"
+      },
+      "statement": "Em determinado país, partidos mantêm vínculos duradouros com associações profissionais, mas suas parcelas de voto oscilam fortemente entre eleições. No modelo de Mainwaring e Scully, os vínculos e as oscilações fornecem evidências sobre dimensões diferentes da institucionalização.",
+      "correctAnswer": "C",
+      "explanation": "Os vínculos informam sobre raízes sociais. As oscilações informam sobre a estabilidade da competição.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. Os vínculos informam sobre raízes sociais. As oscilações informam sobre a estabilidade da competição. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l144-002-estrutura-e-aceitacao-das-regras",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "estrutura-e-aceitacao-das-regras",
+      "mechanism": "separar-solidez-e-legitimidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Mainwaring e Scully: institucionalização do sistema partidário"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Mainwaring e Scully: institucionalização do sistema partidário"
+      },
+      "statement": "Partidos mantêm escritórios, regras internas e equipes quando suas lideranças mudam. Essas características bastam para concluir que os atores aceitam a eleição como procedimento legítimo para resolver a disputa pelo poder.",
+      "correctAnswer": "E",
+      "explanation": "A continuidade organizacional informa sobre a solidez dos partidos. A aceitação dos procedimentos eleitorais exige evidências próprias.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A continuidade organizacional informa sobre a solidez dos partidos. A aceitação dos procedimentos eleitorais exige evidências próprias. Dificuldade estimada."
     }
   ]
 }

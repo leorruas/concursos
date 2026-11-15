@@ -49491,6 +49491,34 @@
       "correctAnswer": "C",
       "explanation": "A autonomia diz respeito às atribuições próprias. A capacidade de execução também depende dos recursos e das equipes disponíveis, que podem variar entre os entes.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A autonomia diz respeito às atribuições próprias. A capacidade de execução também depende dos recursos e das equipes disponíveis, que podem variar entre os entes. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l166-001-padrao-sem-centralizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / federalismo",
+      "articleId": "art-4a9e1d735bc082f6",
+      "conceptId": "padrao-sem-centralizacao",
+      "mechanism": "distinguir-interoperabilidade-e-centralizacao-de-decisoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4a9e1d735bc082f6#Federalismo político e mecanismos de coordenação"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/27 - organizacao politica brasileira instituicoes e federalismo.md",
+        "section": "Federalismo político e mecanismos de coordenação"
+      },
+      "statement": "Em uma federação hipotética, os governos locais adotam um formato comum para trocar dados de atendimento e continuam decidindo os pedidos de sua competência. A adoção do formato comum é compatível com a autonomia decisória local.",
+      "correctAnswer": "C",
+      "explanation": "A padronização permite trocar informações. No caso, cada governo mantém a decisão sobre os pedidos de sua competência.",
+      "reviewEvidence": "Revisão por IA com conferência da seção de coordenação federativa. A padronização permite trocar informações. No caso, cada governo mantém a decisão sobre os pedidos de sua competência. Dificuldade estimada."
     }
   ]
 }

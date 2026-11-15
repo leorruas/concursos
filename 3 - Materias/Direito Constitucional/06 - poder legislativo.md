@@ -142,6 +142,32 @@ O **art. 58** prevê comissões **permanentes e temporárias**, proporcionalidad
 
 **Item C/E autoral.** “A imunidade formal dos congressistas impede toda prisão depois da posse, mesmo em flagrante de crime inafiançável.” **Errado.** A Constituição admite a hipótese excepcional desde a diplomação, acompanhada do controle da Casa legislativa (art. 53, § 2º).
 
+### Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56
+
+**Situação hipotética:** um deputado aceita o cargo de ministro de Estado. A Constituição permite essa **investidura**, ou seja, o exercício do novo cargo, **sem perda do mandato parlamentar** (art. 56, I). A Casa convoca o suplente enquanto durar a substituição (art. 56, § 1º). Não se trata de cassação nem de vacância definitiva: o titular conserva seu vínculo com o mandato, observadas as regras para retorno.
+
+Compare três hipóteses: **(a)** parlamentar assume função do art. 56, I: mantém o mandato e há convocação do suplente; **(b)** parlamentar obtém licença por doença ou para interesse particular nas condições do art. 56, II: não perde o mandato, mas a convocação constitucional do suplente pela duração da licença ocorre quando ela **ultrapassa 120 dias**; **(c)** surge uma **vaga definitiva**, sem suplente disponível: o § 2º do art. 56 prevê eleição para preenchê-la somente se faltarem **mais de 15 meses** para o fim do mandato. Uma licença não é, por si, a vaga definitiva do terceiro caso. O afastamento por interesse particular previsto no inciso II é **sem remuneração** e não pode ultrapassar 120 dias por sessão legislativa.
+
+O art. 55 separa **motivos da perda do mandato** e **quem formaliza a perda**. Nos incisos I, II e VI (incompatibilidades, quebra de decoro e condenação criminal transitada em julgado), o texto constitucional prevê decisão da Câmara ou do Senado, **por maioria absoluta**, mediante provocação da Mesa ou de partido representado no Congresso e com ampla defesa (§ 2º). Nos incisos III a V (faltas, perda ou suspensão de direitos políticos e decisão da Justiça Eleitoral), a Mesa da Casa **declara** a perda, assegurada a defesa (§ 3º). Essa distinção textual precisa ser estudada com a jurisprudência aplicável em casos específicos, sem presumir que toda decisão judicial, em qualquer circunstância, produz o mesmo procedimento parlamentar.
+
+**Pergunta de prova:** a eleição do suplente por voto popular acontece sempre que o titular se licencia? **Não.** A Constituição prevê **convocação do suplente** nas hipóteses do art. 56, § 1º; a **eleição para preenchimento da vaga** tem pressupostos distintos no § 2º.
+
+**Item C/E autoral:** “Um parlamentar investido no cargo de ministro de Estado perde necessariamente seu mandato, sendo convocadas novas eleições para a vaga.” **Errado.** A investidura está expressamente protegida pelo art. 56, I, e o suplente é convocado conforme o § 1º.
+
+**Fonte oficial:** [Constituição Federal atualizada, arts. 55 e 56](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+
+### Comissões, apreciação conclusiva e fiscalização: art. 58
+
+As **comissões permanentes** acompanham temas de modo contínuo; as **temporárias** são criadas para tarefas determinadas. Ambas integram a organização parlamentar, mas as atribuições de cada uma dependem da Constituição e dos regimentos. Em regra, procura-se assegurar nelas a representação proporcional dos partidos ou blocos parlamentares, **tanto quanto possível** (art. 58, § 1º).
+
+Uma comissão pode **discutir e votar projeto de lei dispensando a competência do Plenário**, quando o regimento permitir, ressalvado o **recurso de um décimo dos membros da Casa** (art. 58, § 2º, I). Esse é o sentido de **apreciação conclusiva**, na Câmara: a comissão pode concluir a decisão parlamentar sobre certas proposições, dentro de seu regime. Uma comissão também pode realizar **audiências públicas**, convocar ministros para informações, receber petições e solicitar depoimentos (art. 58, § 2º). **Emitir parecer**, **concluir a apreciação de um projeto** e **investigar por CPI** são três funções com procedimentos diferentes.
+
+**Exemplo progressivo:** primeiro, uma comissão apenas emite parecer sobre o mérito de projeto que precisará ir ao Plenário; depois, em outra proposta submetida ao rito conclusivo, a comissão pode concluir a apreciação se não houver o recurso pertinente; por fim, uma **Comissão Parlamentar de Inquérito (CPI)**, constituída por requerimento de **um terço**, com **fato determinado** e **prazo certo**, exerce poderes de investigação próprios das autoridades judiciais, nos limites constitucionais (art. 58, § 3º). O requerimento de criação da CPI e o recurso contra apreciação conclusiva usam ambos frações de parlamentares, mas têm **objetos e frações diferentes**.
+
+**Item C/E autoral:** “Se uma comissão da Câmara emitir parecer favorável a qualquer projeto de lei, a proposição estará aprovada definitivamente, sem possibilidade de exame do Plenário.” **Errado.** Parecer não equivale a decisão final; o art. 58, § 2º, I, e o regimento estabelecem condições para apreciação conclusiva e recurso.
+
+**Fonte oficial:** [Constituição Federal atualizada, art. 58](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+
 ## Controle externo: arts. 70 e 71
 
 A fiscalização da União e de suas entidades abrange dimensões:
@@ -379,6 +405,22 @@ A alteração do art. 31, § 1º, reforça o mesmo limite na esfera municipal. *
 O estudo dialoga com [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|tramitação legislativa orçamentária]], [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|comissões parlamentares]], [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|decreto legislativo e controle parlamentar]] e [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|contratações e contratos administrativos]].
 
 **Fontes oficiais cotejadas em 08/11/2026:** [Constituição Federal, arts. 70–75, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html); [TCU, competências constitucionais](https://portal.tcu.gov.br/conheca-o-tcu/competencias-do-tcu); [EC 139/2026](https://www2.camara.leg.br/legin/fed/emecon/2026/emendaconstitucional-139-5-maio-2026-799072-publicacaooriginal-179182-pl.html). Os itens de treino são inéditos e não representam desempenho pessoal.
+
+### Síntese de competência: uma notícia, várias decisões
+
+Para Comunicação Social/Divulgação Institucional, uma notícia institucional deve deixar claro **quem decidiu, em qual fase e com qual efeito**. Use esta comparação antes dos itens:
+
+| Notícia hipotética | Órgão competente e efeito |
+| :--- | :--- |
+| “Projeto de lei federal aprovado nas duas Casas” | Câmara e Senado participam da formação da lei; em regra ainda há sanção ou veto presidencial (arts. 48 e 66) |
+| “Câmara autorizou processo por crime de responsabilidade contra o Presidente” | Câmara **autoriza** por dois terços; a autorização não é condenação (art. 51, I) |
+| “Senado julgou crime de responsabilidade presidencial” | Senado **processa e julga**, com quórum de condenação do art. 52, parágrafo único |
+| “TCU apreciou as contas anuais do Presidente” | TCU emite **parecer prévio**; o julgamento dessas contas compete ao Congresso (arts. 49, IX, e 71, I) |
+| “TCU julgou contas de gestor de autarquia” | TCU decide no exercício de competência própria (art. 71, II) |
+| “Comissão parlamentar identificou despesa não autorizada” | A comissão mista do art. 166, § 1º, pode acionar o procedimento específico do art. 72, sem sustação automática |
+| “Deputado foi nomeado ministro” | O art. 56, I, permite investidura sem perda do mandato; suplente é convocado |
+
+**Distinção operacional:** dizer que a Câmara “condenou” o Presidente apenas porque autorizou processo, ou que o TCU “julgou” as contas presidenciais apenas porque emitiu parecer prévio, altera o fato jurídico e pode produzir notícia incorreta.
 
 ## Como a banca cobra
 

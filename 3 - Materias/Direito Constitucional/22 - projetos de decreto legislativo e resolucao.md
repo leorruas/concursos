@@ -5,7 +5,7 @@ title: "Projetos de decreto legislativo e de resolução: competência, tramita�
 type: "conceito"
 status: "ativo"
 created: 2026-11-08
-updated: 2026-11-11
+updated: 2026-11-15
 ---
 
 # Projetos de decreto legislativo e de resolução: competência, tramitação e efeitos
@@ -49,6 +49,10 @@ A Constituição Federal (CF), **art. 59**, distingue **decreto legislativo** (i
 | **Pegadinha central** | Não tratar toda matéria administrativa como objeto de resolução | Não confundir **ausência de sanção** com ausência de deliberação parlamentar | Não presumir que **todas as resoluções sejam apenas internas à Câmara** |
 
 **Limite de generalização:** o art. 49 é a referência principal para **decretos legislativos do Congresso**, mas o instrumento também aparece em situações específicas fora do rol exemplificativo do art. 49, como a disciplina das relações jurídicas decorrentes de medida provisória rejeitada ou caducada (**art. 62, §§ 3º e 11**). A necessidade de **sessão conjunta ou de votação separada** exige consulta ao procedimento da matéria; **o nome “Congresso Nacional” não determina sozinho a forma da sessão**.
+
+### Competência, instrumento e efeito: uma sequência de três perguntas
+
+Suponha que o Presidente publique um decreto regulamentar que vá além do que a lei autorizou. **Quem controla o excesso?** O Congresso Nacional pode sustar o ato normativo que exorbite do poder regulamentar (CF, art. 49, V). **Por qual instrumento?** Na hipótese de sustação legislativa, utiliza-se o **decreto legislativo**, sem sanção presidencial. **Qual é o efeito?** A sustação incide sobre o excesso normativo e **não significa que o Congresso aprovou uma nova lei regulamentadora nem que o Presidente vetou seu próprio decreto**. Mude somente o fato: se a Câmara quiser alterar seu próprio Regimento Interno, o veículo será **resolução da Câmara**, pois mudou a competência constitucional e o objeto (CF, art. 51, III). A falta de sanção presidencial é característica comum aos dois atos, mas **não é critério suficiente** para escolher a espécie.
 
 ## Decreto legislativo: competências e casos concretos
 

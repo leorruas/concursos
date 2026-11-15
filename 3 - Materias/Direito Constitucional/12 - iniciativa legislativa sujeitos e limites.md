@@ -24,6 +24,12 @@ O **art. 61, caput, da Constituição Federal** estabelece a iniciativa das **le
 
 Esta unidade **CAM-PL-002** aprofunda **quem pode iniciar, em qual matéria, com que alcance e quais as consequências da iniciativa inadequada**. A [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]] conceitua proposições regimentais. A [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|nota constitucional sobre processo legislativo]] já aborda espécies normativas e PEC; permanece como referência sem duplicação.
 
+### Caso comparativo: mesmo autor, matérias distintas
+
+**Exemplo hipotético.** Uma deputada apresenta dois projetos: o primeiro determina que determinado serviço federal divulgue informações de interesse público; o segundo cria cargos em um ministério federal e fixa sua remuneração. **A autoria é a mesma, mas o objeto jurídico é diferente.** No primeiro caso, a análise deve identificar o conteúdo real da obrigação e verificar se ele invade matéria constitucionalmente reservada. Um eventual custo para cumprir uma lei não basta, sozinho, para presumir a reserva de iniciativa. No segundo caso, a criação de cargos e o aumento de remuneração na administração direta ou autárquica federal são matérias cuja iniciativa é privativa do presidente da República, nos termos do art. 61, § 1º, II, a.
+
+Altere uma única variável: se a proposição trata de cargos da **estrutura administrativa da própria Câmara**, o exame passa pelas regras de competência e iniciativa da Casa, especialmente o art. 51, IV, da Constituição, e pelo instrumento normativo adequado. A pergunta decisiva deixa de ser “envolve servidor?” e passa a ser **“servidor de qual órgão, e o que exatamente se pretende regular?”**. O fato de o projeto ter boa finalidade não substitui a verificação de iniciativa.
+
 ## Estrutura: três perguntas independentes
 
 | Pergunta | O que identificar | Erro característico |

@@ -23,6 +23,12 @@ A **tramitação legislativa** é o percurso procedimental de uma proposição e
 
 Este artigo desenvolve **CAM-PL-003** da preparação para a Câmara dos Deputados, banca Cebraspe, integrando a **Constituição, arts. 61 a 66**, e o **Regimento Interno da Câmara dos Deputados (RICD), arts. 24, 53 a 59 e 131 a 143**. A nota [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]] responde *o que é uma proposição*; [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]] responde *quem pode iniciar*. O foco aqui é **quem decide em cada momento, qual resultado a decisão produz e quando o projeto segue ou retorna**. Ritos especiais, PEC, medida provisória e projetos de orçamento exigem seus próprios procedimentos; as referências ao procedimento comum não devem ser transferidas sem exame.
 
+### Três finais possíveis depois da votação na Casa revisora
+
+**Exemplo hipotético de projeto de lei iniciado na Câmara.** Depois de aprovado, o texto segue ao Senado, que atua como **Casa revisora**. O art. 65 da Constituição distingue três resultados: se o Senado **aprova o texto sem mudanças**, conclui-se a revisão parlamentar e o projeto segue aos atos posteriores aplicáveis; se **rejeita**, o projeto é arquivado; se **emenda**, o texto retorna à Câmara, que é a Casa iniciadora, para apreciar as alterações. **A aprovação no Senado com emendas não equivale à rejeição do projeto nem reinicia automaticamente toda a apresentação inicial.**
+
+Troque apenas a Casa de origem: se a proposta se iniciou no Senado, a **Câmara é a revisora**, e uma emenda da Câmara devolve o texto ao Senado. Essa troca demonstra por que **“Câmara dos Deputados”** e **“Casa iniciadora”** não são sinônimos permanentes. A sequência descrita vale para a revisão de **projeto de lei** do art. 65; propostas de emenda à Constituição, medidas provisórias e matérias orçamentárias possuem regras próprias.
+
 ## Fases do processo legislativo: o mapa conceitual
 
 Na apresentação didática clássica da **formação de lei**, distinguem-se:

@@ -24,6 +24,12 @@ A palavra **deliberação** deve ser lida em sentido regimental: algumas proposi
 
 **CAM-PL-001** abre a trilha de **Processo Legislativo e Regimentos** da Câmara dos Deputados, banca Cebraspe. As espécies normativas do **art. 59 da Constituição** já estão na nota [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]]. Aqui, o problema é **classificar os documentos e atos que circulam no processo da Câmara**, sem confundi-los com leis ou com as fases posteriores de deliberação.
 
+### Exercício de identificação antes de classificar
+
+**Exemplo hipotético, em três momentos.** Uma deputada apresenta um **projeto de lei** para estabelecer uma obrigação de transparência. Nesse momento há uma **proposição** que pretende originar uma espécie normativa: a lei. Um colega apresenta **emenda** para mudar um artigo do projeto. A emenda é outra proposição regimental, mas sua aprovação isolada não cria uma lei. A comissão aprecia o texto e aprova **parecer** pela aprovação com alterações. O parecer registra a conclusão da comissão; a formação da lei ainda depende das demais decisões constitucionalmente exigidas.
+
+Agora altere apenas o documento: se a deputada protocola um **requerimento** para alterar o procedimento, continua havendo proposição, embora a finalidade deixe de ser editar o conteúdo da lei. Para acertar a classificação, procure **o objeto da decisão** (texto normativo, mudança de texto, manifestação técnica ou providência processual), **quem decide** e **qual efeito o ato pode produzir**. A lista de instrumentos regimentais do art. 100 do RICD e a lista de espécies normativas do art. 59 da Constituição respondem a perguntas diferentes.
+
 ## Duas classificações que não podem ser fundidas
 
 A Constituição, art. 59, enumera sete espécies de **atos normativos produzidos pelo processo legislativo constitucional**: emendas à Constituição, leis complementares, leis ordinárias, leis delegadas, medidas provisórias, decretos legislativos e resoluções.

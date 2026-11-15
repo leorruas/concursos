@@ -23,6 +23,12 @@ O **Regimento Interno da Câmara dos Deputados (RICD), art. 126**, define parece
 
 Este artigo atende à unidade **CAM-PL-005: Parecer legislativo, relatório, voto e deliberação**. Os textos [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] e [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]] já explicam onde o parecer se insere. Esta nota detalha **a estrutura interna e a conversão do voto individual em decisão colegiada**, com base nos arts. **53 a 57, 126 a 130 e 144 a 147** do RICD. A modalidade de votação em Plenário e seus quóruns próprios ficam para **CAM-PL-006**.
 
+### Do texto apresentado ao documento aprovado: identificação por etapas
+
+**Exemplo hipotético.** Um relator apresenta voto recomendando aprovar um projeto, com mudança em determinado artigo. Esse texto exprime **a posição individual do relator**. Durante a reunião, integrantes da comissão podem debater, sugerir ajustes e votar. Se a comissão adota integralmente o voto, a conclusão integra o **parecer da comissão**. Se a maioria prefere outra solução, o documento institucional deve refletir **a conclusão efetivamente vencedora**, observadas as regras de elaboração do parecer vencedor. Uma notícia que diga apenas “o relator foi favorável” não permite concluir que **a comissão aprovou**.
+
+Para localizar o resultado, leia três registros em ordem: **voto proposto pelo relator**, **decisão registrada na deliberação** e **texto do parecer adotado**. Depois, verifique **qual competência a comissão exercia**: opinião de mérito, exame terminativo de admissibilidade ou apreciação conclusiva do projeto. São três perguntas distintas, e a consequência de uma votação muda conforme a resposta. Esses critérios devem ser aplicados com os arts. 53 a 58 e 126 a 130 do RICD, sem presumir que toda manifestação favorável encerre o processo legislativo.
+
 ## Como se forma um parecer: três partes do art. 129
 
 | Parte | Quem elabora ou adota | Conteúdo ou função | Confusão de prova |

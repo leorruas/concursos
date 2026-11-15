@@ -10,7 +10,7 @@ updated: 2026-11-11
 
 # Regimento da Câmara: expedientes, Ordem do Dia, publicidade e proposições (arts. 81 a 105)
 
-**Câmara dos Deputados 2026, cargo 1, Divulgação Institucional. Banca: Cebraspe. Complemento editorial de CAM-PL-021 (sessões), dedicado aos arts. 81 a 105.** Base principal: **Regimento Interno da Câmara dos Deputados (RICD), arts. 81 a 105**, na [redação consolidada oficial](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferência em 08/11/2026.
+**Câmara dos Deputados 2026, cargo 1, Divulgação Institucional. Banca: Cebraspe. Complemento editorial de CAM-PL-021 (sessões), dedicado aos arts. 81 a 105.** Base principal: **Regimento Interno da Câmara dos Deputados (RICD), arts. 81 a 105**, na [redação consolidada oficial](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). Conferência em 08/11/2026.
 
 **Nota de rastreabilidade:** esta nota sobre expedientes e proposições é complemento autônomo de estudo da trilha de sessões (**CAM-PL-021**), e não corresponde à unidade **CAM-PL-022**, reservada no planejamento a deputados e mandato (arts. 226 a 251), coberta por [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|DC26]]. A classificação como complemento **não significa** que os arts. 95 a 105 integrem literalmente o recorte 65 a 94 da unidade planejada.
 
@@ -170,7 +170,7 @@ A diferença temporal mais importante é **fim da sessão legislativa × fim da 
 
 ## Certificação normativa delimitada: 11/11/2026
 
-**Escopo conferido:** conteúdo, quadros, nove casos progressivos e **dez itens inéditos C/E**, cotejados com os **arts. 81 a 105 do [Regimento Interno da Câmara dos Deputados, texto oficial atualizado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html)**. A verificação preserva a distinção entre o recorte **81–94** do programa de Direito Constitucional e o complemento didático **95–105**, associado à matéria geral de Processo Legislativo.
+**Escopo conferido:** conteúdo, quadros, nove casos progressivos e **dez itens inéditos C/E**, cotejados com os **arts. 81 a 105 do [Regimento Interno da Câmara dos Deputados, texto oficial atualizado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html)**. A verificação preserva a distinção entre o recorte **81–94** do programa de Direito Constitucional e o complemento didático **95–105**, associado à matéria geral de Processo Legislativo.
 
 **Verificações principais:** Pequeno Expediente com **cinco minutos sem apartes**, inscrição pessoal até **13h30**; Ordem do Dia com verificação de quórum e possibilidade de inversão; janela de **dez minutos** para apresentação de proposições; art. 84 **revogado**; Grande Expediente com **25 minutos** e limite de **três oportunidades por semestre** (uma por sorteio, duas por cessão); comunicações de líderes de três a dez minutos, com oito minutos para Governo, Minoria, Oposição e Maioria; Comissão Geral como **transformação da sessão plenária**, sem aprovação conclusiva de proposições; sessões secretas com rito e documentação próprios; questão de ordem de **três minutos**, recurso ao Plenário **sem efeito suspensivo automático**, parecer da CCJC em até **três sessões**; ata, Diário e Voz do Brasil sob regras de publicação; atos legislativos em **meio digital**; retirada de proposição após ao menos um parecer favorável decidida **pelo Plenário**; e arquivamento no fim da legislatura com **exceções da Resolução nº 33/2022**, notadamente iniciativa popular e projetos de código.
 
@@ -180,7 +180,7 @@ A diferença temporal mais importante é **fim da sessão legislativa × fim da 
 
 ### Fontes normativas
 
-- [Câmara dos Deputados, Regimento Interno, texto consolidado atualizado, arts. 81 a 105](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), cotejado em 08/11/2026.
+- [Câmara dos Deputados, Regimento Interno, texto consolidado atualizado, arts. 81 a 105](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), cotejado em 08/11/2026.
 - [Câmara dos Deputados, Regimento Interno, 31ª edição (2026)](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 - [Constituição Federal, art. 59, para espécies normativas](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 

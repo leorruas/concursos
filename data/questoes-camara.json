@@ -50975,6 +50975,34 @@
       "correctAnswer": "E",
       "explanation": "A previsão é estimativa. Pelo art. 57 da Lei nº 4.320/1964, a receita arrecadada é classificada na rubrica própria mesmo quando não prevista. Os R$ 950 mil são receita orçamentária tributária, inclusive a parcela arrecadada acima da estimativa.",
       "reviewEvidence": "Revisão editorial por IA. Conferidos o art. 57 no texto atualizado da Câmara e a seção canônica. O item exige classificar a parcela excedente da mesma receita e distingue natureza do ingresso de diferença em relação à previsão."
+    },
+    {
+      "id": "cam-orc-l205-001-consolidacao-de-receitas-de-capital",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-f13b65a28d8c4e91",
+      "conceptId": "receitas-capital-agregacao-de-origens-distintas",
+      "mechanism": "somar-por-categoria-e-segregar-por-origem",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f13b65a28d8c4e91#Vocabulário das origens da receita: o que efetivamente entra no caixa?"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04a - classificacao da receita.md",
+        "section": "Vocabulário das origens da receita: o que efetivamente entra no caixa?"
+      },
+      "statement": "Em um mês, um ente recebe R$ 200 mil de um financiamento que contratou e R$ 50 mil referentes exclusivamente ao principal de um empréstimo que havia concedido. Os dois ingressos somam R$ 250 mil em receitas de capital, mas devem ser registrados em origens distintas.",
+      "correctAnswer": "C",
+      "explanation": "Os R$ 200 mil são receita de operação de crédito, pois o ente tomou o financiamento. Os R$ 50 mil são receita de amortização de empréstimos concedidos, pois o ente recuperou principal que havia emprestado. Ambas as origens pertencem à categoria econômica receitas de capital.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidas as naturezas de receita de capital no MCASP, Parte I, e o subtítulo do artigo. O caso exige somar na categoria econômica e separar os ingressos por origem."
     }
   ]
 }

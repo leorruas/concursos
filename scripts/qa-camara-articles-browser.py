@@ -28,6 +28,20 @@ driver = webdriver.Chrome(options=options)
 driver.set_page_load_timeout(40)
 wait = WebDriverWait(driver, 40, poll_frequency=0.5)
 
+
+def esperar_transicao(d):
+    WebDriverWait(d, 15, poll_frequency=0.2).until(
+        lambda browser: browser.execute_script("""
+            return ['initial-loader','route-loader'].every(id => {
+                const el = document.getElementById(id);
+                if (!el) return true;
+                const css = getComputedStyle(el);
+                return css.display === 'none' || css.visibility === 'hidden' ||
+                       Number(css.opacity) < 0.03;
+            });
+        """)
+    )
+
 try:
     for number, article_id, marker in ARTICLES:
         url = f"https://leorruas.github.io/concursos/#/artigo/{article_id}?concurso=camara-2026"
@@ -45,6 +59,7 @@ try:
         title = driver.find_element(By.ID, "artigo-titulo").text
         assert title, f"Artigo {number}: título ausente"
         assert "não foi possível carregar este artigo" not in driver.page_source.lower()
+        esperar_transicao(driver)
         driver.execute_script("window.scrollTo(0,0)")
         assert driver.save_screenshot(f"screenshots/{number}-desktop-light.png")
         print(f"Artigo {number}: DOM carregado, título: {title}", flush=True)
@@ -52,6 +67,7 @@ try:
         driver.set_window_size(390, 844)
         driver.execute_script("localStorage.setItem('tema-concursos','dark'); document.documentElement.setAttribute('data-theme','dark')")
         wait.until(lambda d: marker.casefold() in d.find_element(By.ID, "artigo-corpo").text.casefold())
+        esperar_transicao(driver)
         driver.execute_script("window.scrollTo(0,0)")
         assert driver.save_screenshot(f"screenshots/{number}-mobile-dark.png")
         overflow = driver.execute_script(

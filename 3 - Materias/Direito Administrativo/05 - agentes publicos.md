@@ -10,14 +10,11 @@ updated: 2026-11-09
 
 # Agentes públicos: espécies, cargos, empregos, funções e regimes de vinculação estatal
 
-A expressão **agente público** constitui a mais ampla categoria jurídica do direito administrativo para designar toda e qualquer pessoa física que exerça, ainda que transitoriamente ou sem remuneração, por eleição, nomeação, designação, contratação ou qualquer outra forma de investidura ou vínculo, mandato, cargo, emprego ou função nas entidades da Administração Pública direta e indireta ou em órgãos dos Poderes do Estado (conceito positivado expressamente no art. 2º da Lei nº 8.429/1992 e no art. 327 do Código Penal).
+Imagine uma campanha institucional da Câmara: o deputado que define a prioridade política, a servidora concursada que executa o trabalho, a pessoa nomeada para assessoramento e o mesário convocado pela Justiça Eleitoral exercem funções públicas, mas seus vínculos são diferentes. **Agente público** é a categoria ampla que permite estudar essas situações sem confundir vínculo, cargo e função.
 
-Para a compreensão dogmática e o enfrentamento de questões do Cebraspe, é indispensável dominar:
-1. As **classificações doutrinárias** consagradas (destacando-se a taxonomia clássica de Hely Lopes Meirelles e a moderna de Maria Sylvia Zanella Di Pietro);
-2. A distinção conceitual precisa entre **cargo público**, **emprego público** e **função pública**;
-3. As espécies de cargos e funções (cargo efetivo, cargo em comissão e função de confiança - art. 37, V, da CF/1988);
-4. O regime dos **servidores temporários** (art. 37, IX, da CF/1988 e Lei nº 8.745/1993);
-5. As regras constitucionais de **acesso por concurso público** e o regime de **estabilidade** (art. 41 da CF/1988), contrastado com a dispensa motivada dos empregados públicos de empresas estatais (Tema 1022 do STF).
+A Lei nº 8.429/1992, em seu art. 2º, usa um conceito amplo de agente público **para os efeitos da Lei de Improbidade Administrativa**. O art. 327 do Código Penal define funcionário público **para efeitos penais**. Os conceitos legais têm finalidades próprias e não são automaticamente intercambiáveis. Nas provas do Cebraspe, identifique primeiro qual norma ou classificação doutrinária a questão utiliza.
+
+Neste artigo, a sequência é: classificação das pessoas que exercem função estatal; diferença entre **cargo**, **emprego** e **função**; regras de comissão e confiança; contratação temporária; concurso e estabilidade. A classificação de Hely Lopes Meirelles em cinco grupos e a de Maria Sylvia Zanella Di Pietro são **doutrinárias**, não listas fechadas impostas pela Constituição.
 
 ```mermaid
 flowchart TD
@@ -42,7 +39,7 @@ flowchart TD
 
 ## 1. Classificações Doutrinárias de Agentes Públicos
 
-A doutrina não adota uma classificação única e universal. Nas provas do Cebraspe, a taxonomia de **Hely Lopes Meirelles** é a mais cobrada quando se referem às "cinco espécies", ao passo que a formulação de **Maria Sylvia Zanella Di Pietro** é invocada quando se contrapõem "servidores públicos" a "particulares em colaboração".
+A doutrina não adota classificação única. A classificação de **Hely Lopes Meirelles** distingue cinco grupos; a de **Maria Sylvia Zanella Di Pietro** distingue, entre outros, servidores públicos e particulares em colaboração. Uma questão que não indique autor exige cuidado: a inclusão de magistrados ou membros do Ministério Público entre agentes políticos pode variar conforme o critério doutrinário.
 
 ### 1.1. Classificação Clássica de Hely Lopes Meirelles
 1. **Agentes Políticos:** componentes dos escalões superiores da Administração e dos Poderes do Estado. Não mantêm vínculo profissional/hierárquico comum, mas vínculo de natureza política e constitucional direta:
@@ -100,7 +97,7 @@ flowchart LR
 
 ## 3. O Confronto Constitucional: Cargo Efetivo, Cargo em Comissão e Função de Confiança
 
-O art. 37, inciso V, da Constituição Federal estabelece uma distinção rigorosa de enquadramento funcional:
+O art. 37, inciso V, da Constituição Federal estabelece uma distinção de enquadramento funcional. **Cargo em comissão** é um cargo de livre nomeação e exoneração; **função de confiança** é um conjunto de atribuições adicionais exercidas por quem já ocupa cargo efetivo:
 > *"As funções de confiança, exercidas **exclusivamente por servidores ocupantes de cargo efetivo**, e os cargos em comissão, a serem preenchidos por servidores de carreira nos casos, condições e percentuais mínimos previstos em lei, destinam-se **apenas às atribuições de direção, chefia e assessoramento**."*
 
 ### 3.1. Quadro Comparativo: Cargo em Comissão versus Função de Confiança
@@ -110,7 +107,7 @@ O art. 37, inciso V, da Constituição Federal estabelece uma distinção rigoro
 | **Destinação material** | **Apenas** direção, chefia e assessoramento. | **Apenas** direção, chefia e assessoramento. |
 | **Quem pode ocupar?** | Servidor de carreira **ou pessoa de fora** (sem vínculo efetivo), respeitados os percentuais mínimos de lei para servidores de carreira. | **Exclusivamente servidor titular de cargo efetivo**. |
 | **Forma de provimento** | Nomeação para cargo em comissão (livre nomeação e livre exoneração - *ad nutum*). | Designação para função de confiança (dispensa *ad nutum*). |
-| **Vínculo previdenciário** | Se não for efetivo: Regime Geral de Previdência Social (RGPS/INSS - art. 40, § 13, CF). | Mantém o Regime Próprio de Previdência Social (RPPS) do cargo efetivo. |
+| **Vínculo previdenciário** | Se não for efetivo: Regime Geral de Previdência Social (RGPS/INSS - art. 40, § 13, CF). | Mantém o Regime Próprio de Previdência Social (RPPS) do cargo efetivo, quando o titular estiver vinculado a esse regime. |
 | **Criação de atribuições burocráticas ordinárias** | **Inconstitucional** (vedada pelo STF - Tema 1010 de Repercussão Geral). | **Inconstitucional** se criada para tarefas operacionais cotidianas. |
 
 > [!WARNING]
@@ -128,7 +125,7 @@ A Constituição autoriza que a lei estabeleça os casos de contratação por te
   3. Caráter temporário da necessidade pública;
   4. Excepcionalidade do interesse público (calamidade pública, emergência sanitária, recenseamento demográfico, combate a endemias, etc.);
   5. Indispensabilidade da contratação imediata para a continuidade do serviço.
-- **Processo Seletivo Simplificado:** no plano federal, a Lei nº 8.745/1993 exige a realização de **processo seletivo simplificado sujeito a ampla divulgação** (com análise curricular ou provas), dispensando-se o processo seletivo apenas em hipóteses estritas de calamidade pública formalmente decretada ou emergência militar.
+- **Processo Seletivo Simplificado:** no plano federal, a Lei nº 8.745/1993 exige a realização de **processo seletivo simplificado sujeito a ampla divulgação** (com análise curricular ou provas), com hipóteses legais de dispensa, entre elas calamidade pública e emergência em saúde pública, conforme o art. 3º da Lei nº 8.745/1993. A dispensa do processo seletivo não elimina os demais requisitos legais da contratação.
 
 ---
 
@@ -140,7 +137,7 @@ A Constituição autoriza que a lei estabeleça os casos de contratação por te
 - **Direito subjetivo à nomeação:** o candidato aprovado dentro do número de vagas previsto originariamente no edital tem **direito subjetivo à nomeação**, salvo situações excepcionais supervenientes que preencham os requisitos fixados pelo STF no RE 598.099 (superveniência, imprevisibilidade, gravidade e necessidade motivada).
 
 ### 5.2. O Regime de Estabilidade Constitucional (Art. 41)
-A estabilidade no serviço público é direito outorgado ao servidor público civil estatutário, desde que preenchidos **dois requisitos cumulativos**:
+A estabilidade constitucional depende de **três requisitos cumulativos** para o servidor nomeado para cargo efetivo:
 1. **Nomeação para cargo de provimento efetivo em virtude de concurso público;**
 2. **Cumprimento de 3 (três) anos de efetivo exercício;**
 3. **Aprovação obrigatória em avaliação especial de desempenho** por comissão constituída para essa finalidade (art. 41, § 4º, CF).
@@ -149,7 +146,7 @@ O servidor público estável só perderá o cargo nas seguintes hipóteses taxat
 1. Em virtude de **sentença judicial transitada em julgado**;
 2. Mediante **processo administrativo disciplinar (PAD)** no qual lhe seja assegurada ampla defesa;
 3. Mediante procedimento de **avaliação periódica de desempenho**, na forma de lei complementar, assegurada ampla defesa;
-4. Para **adequação dos limites de gastos com pessoal** (art. 169 da CF/1988), após exoneração prévia de comissionados e redução de 20% das despesas com cargos em comissão.
+4. Para **adequação dos limites de gastos com pessoal** (art. 169 da CF/1988), observada a sequência do art. 169, §§ 3º e 4º: redução de pelo menos 20% das despesas com cargos em comissão e funções de confiança, exoneração dos servidores não estáveis e, se insuficiente, perda de cargo de servidor estável mediante ato normativo motivado e indenização legal.
 
 ### 5.3. A Situação dos Empregados Públicos de Empresas Estatais
 - Os empregados públicos concursados de empresas públicas e sociedades de economia mista (como Petrobras, Banco do Brasil, Caixa Econômica Federal e Correios) **NÃO gozam da estabilidade do art. 41 da CF/1988** (Súmula 390, II, do TST).
@@ -233,13 +230,13 @@ Julgue o item a seguir, relativo à criação de cargos em comissão segundo a j
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 No que tange aos requisitos constitucionais da estabilidade no serviço público, julgue o item subsequente.
 
-> O transcurso do prazo de três anos de efetivo exercício assegura ao servidor público nomeado para cargo efetivo em virtude de concurso público a aquisição automática da estabilidade, tornando dispensável a homologação de avaliação especial de desempenho caso a comissão competente não tenha sido instalada pela Administração Pública no período.
+> O transcurso de três anos de efetivo exercício torna dispensável a avaliação especial de desempenho exigida pelo art. 41, § 4º, da Constituição, porque a Administração deixou de instituir a comissão responsável.
 
 **( ) Certo**  
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** Consoante preceitua taxativamente o art. 41, § 4º, da Constituição Federal, *"como condição para a aquisição da estabilidade, é **obrigatória** a avaliação especial de desempenho por comissão instituída para essa finalidade"*. A estabilidade não se adquire de modo automático por mera inércia administrativa ou decurso isolado do prazo temporal de 3 anos; a avaliação formal por comissão especial constitui requisito constitucional de eficácia plena e vinculante.
+> **Comentário:** Consoante preceitua taxativamente o art. 41, § 4º, da Constituição Federal, *"como condição para a aquisição da estabilidade, é **obrigatória** a avaliação especial de desempenho por comissão instituída para essa finalidade"*. A Constituição exige avaliação especial por comissão instituída para essa finalidade. A omissão administrativa pode gerar controvérsia sobre os efeitos da demora, que não deve ser resolvida por uma afirmação genérica de aquisição automática ou de impossibilidade absoluta de estabilidade. O item é errado por declarar dispensável um requisito constitucional.
 
 ---
 
@@ -261,3 +258,10 @@ No que tange aos requisitos constitucionais da estabilidade no serviço público
   - **Tema 612:** requisitos cumulativos da contratação temporária do art. 37, IX, da CF/1988.
   - **ADI 3.395/DF:** competência da Justiça Comum (Federal/Estadual) para causas decorrentes do vínculo estatutário e de contratação temporária.
 - **Doutrina:** Hely Lopes Meirelles (*cinco espécies de agentes*); Maria Sylvia Zanella Di Pietro (*particulares em colaboração e servidores públicos*).
+
+
+### Exemplo integrado: qual vínculo existe?
+
+Uma servidora aprovada em concurso e nomeada para cargo efetivo da Câmara pode exercer função de confiança de chefia: conserva seu cargo efetivo e assume atribuições adicionais. Uma pessoa sem cargo efetivo pode ser nomeada para cargo em comissão de assessoramento, respeitados os requisitos legais, mas **não** pode exercer função de confiança reservada a ocupantes de cargo efetivo. Um contratado temporário para necessidade excepcional não se torna titular de cargo efetivo apenas porque exerce uma função pública. O vínculo e a finalidade da contratação, e não o nome informal usado no setor, determinam a regra aplicável.
+
+**Atenção às fontes:** art. 37, II, III, V e IX, e art. 41 da [Constituição](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm); arts. 2º e 3º da [Lei nº 8.745/1993](https://www.planalto.gov.br/ccivil_03/leis/l8745cons.htm); art. 2º da [Lei nº 8.429/1992](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm); art. 327 do [Código Penal](https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm). As classificações de autores são doutrina, enquanto os requisitos de estabilidade e contratação são constitucionais ou legais.

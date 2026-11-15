@@ -44,6 +44,8 @@ Esta unidade fecha **a arquitetura do Regimento Interno da Câmara dos Deputados
 
 **5. Que etapa vem depois?** Parecer de comissão não equivale necessariamente à aprovação de uma lei; pedido de apuração não é condenação; apresentação da ementa não equivale a votação; posse de suplente não indica sempre vacância definitiva.
 
+**Exemplo guiado, com uma variável de cada vez.** Um comunicado anuncia que a Câmara *aprovou* um projeto. Primeiro, confira se houve uma **sessão deliberativa** ou apenas debate. Se houve sessão deliberativa, confira se foi **proferido parecer** por comissão ou se ocorreu **votação com resultado proclamado**. Se uma comissão votou, pergunte ainda se a matéria estava sujeita à **apreciação conclusiva** e se houve recurso ao Plenário. Somente depois se pode descrever corretamente o estágio do projeto. Substituir o verbo *debater* por *aprovar* muda o fato informado; substituir *parecer aprovado* por *lei aprovada* pode omitir etapas legislativas essenciais. O registro formal da sessão e a tramitação da proposição devem sustentar a notícia.
+
 ## Comparações institucionais de maior risco
 
 | Confusão de prova | Regra de separação | Fonte principal |

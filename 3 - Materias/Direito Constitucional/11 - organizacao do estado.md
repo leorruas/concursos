@@ -37,7 +37,7 @@ O **art. 22 da CF** indica assuntos sobre os quais, como regra, a União legisla
 
 O **art. 23 da CF** atribui tarefas administrativas a **União, Estados, Distrito Federal e Municípios**. Todos podem atuar, dentro de suas responsabilidades, em temas como saúde, proteção ambiental e conservação do patrimônio público. Por exemplo, uma ação de proteção ambiental pode envolver fiscalização de mais de um ente. Isso não significa que cada ente possa criar qualquer lei sobre o assunto.
 
-**Comum não significa concorrente.** A primeira responde principalmente a **quem pode atuar administrativamente**; a segunda, a **quem pode legislar**.
+**Comum não significa concorrente.** A primeira responde principalmente a **quem pode atuar administrativamente**; a segunda, a **quem pode legislar**. O **parágrafo único do art. 23** prevê **leis complementares** para fixar normas de cooperação entre União, Estados, Distrito Federal e Municípios, tendo em vista o equilíbrio do desenvolvimento e do bem-estar em âmbito nacional. Essa cooperação ajuda a organizar a execução de políticas compartilhadas, sem transformar o art. 23 numa autorização geral para cada ente legislar sobre toda a matéria.
 
 ### Competência legislativa concorrente: art. 24
 
@@ -56,7 +56,9 @@ Superveniência de norma geral federal → suspende a eficácia da lei estadual 
 
 ### Estados: competência remanescente
 
-Aos Estados são reservadas as competências que **não lhes sejam vedadas** pela Constituição. Essa é a chamada competência residual ou remanescente estadual.
+Aos Estados são reservadas as competências que **não lhes sejam vedadas** pela Constituição (art. 25, § 1º). Essa é a chamada competência residual ou remanescente estadual. O Estado pode organizar-se por sua própria **Constituição estadual** e por suas leis, observados os princípios da Constituição Federal (art. 25, caput). A autonomia estadual inclui organização política própria dentro desses limites, não poder soberano independente.
+
+**Uma atribuição expressa que foge da regra genérica:** cabe aos Estados explorar diretamente ou mediante concessão os **serviços locais de gás canalizado**, na forma da lei, sendo vedada a edição de medida provisória para regulamentá-los (art. 25, § 2º). Já as **regiões metropolitanas, aglomerações urbanas e microrregiões** podem ser instituídas por lei complementar estadual, para integrar organização, planejamento e execução de funções públicas de interesse comum (art. 25, § 3º). Não confundir essa competência estadual com criação de novo Município.
 
 ### Municípios: interesse local e suplementação
 
@@ -66,11 +68,13 @@ O art. 30 atribui aos Municípios, entre outras competências:
 - suplementar a legislação federal e estadual no que couber;
 - organizar e prestar serviços públicos de interesse local, incluído o transporte coletivo, de caráter essencial.
 
-Municípios não aparecem no rol do art. 24, mas podem exercer competência legislativa própria e suplementar nos termos do art. 30.
+Municípios não aparecem no rol do art. 24, mas podem exercer competência legislativa própria e suplementar nos termos do art. 30. A **lei orgânica municipal**, votada em dois turnos com interstício mínimo de dez dias e aprovada por dois terços dos membros da Câmara Municipal, organiza o Município (art. 29, caput). **Lei orgânica** é a norma local básica de organização política municipal, subordinada à Constituição Federal e à Constituição estadual. Ela não é uma Constituição estadual em escala menor nem autoriza o Município a afastar competências dos demais entes.
+
+**Caso concreto hipotético:** o Município regulamenta horários e circulação de ônibus em linhas exclusivamente locais: exercício de competência sobre serviço público de interesse local (art. 30, V). Se pretende editar normas gerais de direito civil apenas porque a população local será afetada, invade matéria legislativa atribuída à União (art. 22, I). O impacto local de uma norma não torna qualquer tema juridicamente de interesse local.
 
 ### Distrito Federal: acumulação de competências
 
-O **Distrito Federal (DF)** reúne, em regra, competências legislativas estaduais e municipais (art. 32, § 1º, da CF) e **não pode ser dividido em Municípios**. Isso não elimina competências que a Constituição reserva à União, inclusive em relação à organização de determinadas instituições do Distrito Federal.
+O **Distrito Federal (DF)** reúne, em regra, competências legislativas estaduais e municipais (art. 32, § 1º, da CF) e **não pode ser dividido em Municípios**. Isso não elimina competências que a Constituição reserva à União, inclusive quanto à organização e manutenção da **polícia civil, polícia penal, polícia militar e corpo de bombeiros militar do Distrito Federal** e à assistência financeira federal, na forma constitucional (art. 21, XIV). O Distrito Federal rege-se por **lei orgânica**, aprovada segundo procedimento especial pela Câmara Legislativa (art. 32, caput). Seus **governador e deputados distritais** exercem funções próprias, sem divisão do território em municípios.
 
 > [!TIP]
 > Para prova: **DF = dimensão estadual + municipal**, sem municípios dentro dele.
@@ -87,13 +91,13 @@ Para **Municípios**, criação, incorporação, fusão e desmembramento depende
 
 Os requisitos do **art. 18, § 4º**, são **cumulativos**: lei estadual, consulta prévia por **plebiscito** às populações dos municípios envolvidos, **estudos de viabilidade municipal** publicados na forma da lei e criação dentro do período definido por **lei complementar federal**. Plebiscito é consulta popular realizada **antes** da decisão política; estudo de viabilidade examina as condições para a existência do novo ente, conforme o regime legal aplicável.
 
-**Distinção decisiva entre texto constitucional e eficácia atual:** o artigo determina como municípios *poderão* ser criados, fundidos, incorporados ou desmembrados, mas o período depende de lei complementar **federal**. O Supremo Tribunal Federal (STF), na **ADI 3.682**, reconheceu a omissão legislativa federal; na **ADPF 819**, considerou inconstitucional a disciplina estadual que tentasse suprir essa falta. Na **ADO 70**, julgada em 2025, o STF voltou a registrar a ausência da lei federal exigida. Assim, a mera aprovação de lei estadual e de plebiscito **não basta** para viabilizar regularmente a criação de um município enquanto faltar a norma federal necessária.
+**Distinção decisiva entre texto constitucional e eficácia atual:** o artigo determina como municípios *poderão* ser criados, fundidos, incorporados ou desmembrados, mas o período depende de lei complementar **federal**. O Supremo Tribunal Federal (STF), na **ADI 3.682**, reconheceu a omissão legislativa federal; na **ADPF 819**, considerou inconstitucional a disciplina estadual que tentasse suprir essa falta. Na **ADO 70**, julgada em 2025, o STF **rejeitou o pedido de reconhecimento de mora legislativa**: considerou que o Congresso havia deliberado sobre projetos, posteriormente vetados pelo Executivo. A decisão **não dispensou a lei complementar federal** exigida para viabilizar a criação ou alteração regular dos municípios. Assim, é preciso distinguir a falta da lei federal do reconhecimento judicial de omissão imputável ao Congresso. Assim, a mera aprovação de lei estadual e de plebiscito **não basta** para viabilizar regularmente a criação de um município enquanto faltar a norma federal necessária.
 
 **Exemplo hipotético:** dois municípios aprovam em consulta popular a formação de um terceiro, e a assembleia estadual aprova uma lei. O apoio popular é relevante, mas o procedimento ainda precisa respeitar a janela definida pela lei complementar federal exigida no art. 18, § 4º. Isso é diferente da reorganização de Estados prevista no **art. 18, § 3º**, que envolve plebiscito e **lei complementar aprovada pelo Congresso Nacional**.
 
 **Item C/E autoral:** “O plebiscito e a lei estadual bastam, por si sós, para a criação de novo município, mesmo sem a lei complementar federal prevista na Constituição.” **Errado.** O requisito federal integra o art. 18, § 4º, e não pode ser dispensado por norma estadual.
 
-**Fontes:** [Constituição Federal, art. 18, § 4º, com decisões ADI 3.682, ADPF 819 e ADO 70 catalogadas pelo STF](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=18&abrirBase=CF).
+**Fontes:** [Constituição Federal, art. 18, § 4º, e precedentes sobre municípios](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=18&abrirBase=CF); [STF, notícia oficial do julgamento da ADO 70 em 2025](https://noticias.stf.jus.br/postsnoticias/stf-rejeita-alegacao-de-inercia-do-congresso-em-legislar-sobre-criacao-de-municipios/).
 
 ## Intervenção: autonomia com exceção constitucional
 
@@ -111,9 +115,11 @@ O procedimento pode variar conforme a hipótese: há casos de intervenção espo
 
 **Exemplo hipotético 1: grave comprometimento da ordem pública em um Estado.** Essa é uma hipótese de intervenção federal prevista no art. 34, III. O Presidente da República pode decretar a medida, observados os requisitos constitucionais. O decreto deve indicar **amplitude, prazo e condições de execução** e, quando cabível, nomear um interventor. Em regra, o decreto é submetido à apreciação do **Congresso Nacional em 24 horas** (art. 36, § 1º). O Congresso exerce controle político sobre o ato; não é ele que substitui o Presidente na decretação.
 
-**Exemplo hipotético 2: obstrução ao funcionamento do Judiciário estadual.** Quando a coação recai sobre o Poder Judiciário, o art. 36, I, exige **requisição do Supremo Tribunal Federal (STF)**. Se o Legislativo ou Executivo estadual for coagido ou impedido, o mesmo dispositivo trata de **solicitação** do Poder atingido. **Solicitação e requisição não são palavras equivalentes**: a diferença integra a forma constitucional de acionamento, e a autoridade competente não pode ser trocada livremente.
+**Exemplo hipotético 2: obstrução ao funcionamento do Judiciário estadual.** Quando a coação recai sobre o Poder Judiciário, o art. 36, I, exige **requisição do Supremo Tribunal Federal (STF)**. Se o Legislativo ou Executivo estadual for coagido ou impedido, o mesmo dispositivo trata de **solicitação** do Poder atingido. **Se a hipótese for desobediência a ordem ou decisão judicial**, o art. 36, II, prevê requisição do **STF, do Superior Tribunal de Justiça (STJ) ou do Tribunal Superior Eleitoral (TSE)**, conforme a competência, e não uma requisição exclusiva do STF em qualquer caso. **Solicitação e requisição não são palavras equivalentes**: a diferença integra a forma constitucional de acionamento, e a autoridade competente não pode ser trocada livremente.
 
 **Exemplo hipotético 3: violação dos princípios sensíveis.** O art. 34, VII, protege, por exemplo, o regime democrático e a prestação de contas da administração. A intervenção depende de o STF acolher **representação do procurador-geral da República**, conforme o art. 36, III. Se bastar suspender a execução do ato questionado para restabelecer a normalidade, o art. 36, § 3º, permite decreto limitado a essa suspensão, **dispensando a apreciação parlamentar** na hipótese nele definida. Essa exceção não vale automaticamente para todo decreto de intervenção.
+
+**Controle parlamentar e exceção:** o art. 36, § 2º, exige convocação extraordinária do Congresso ou da Assembleia Legislativa **dentro de 24 horas** quando a respectiva Casa não estiver funcionando. O § 3º dispensa a apreciação parlamentar nas hipóteses expressas dos arts. 34, VI e VII, e 35, IV, **desde que** a suspensão da execução do ato questionado baste ao restabelecimento da normalidade. Fora dessas condições, não existe dispensa geral de apreciação.
 
 **Intervenção estadual em Município:** o governador atua nas hipóteses do art. 35, mas o inciso IV exige que o **Tribunal de Justiça** acolha representação para garantir princípios da Constituição estadual ou a execução de lei, ordem ou decisão judicial. Quando a medida se enquadra no art. 36, § 3º, também pode haver dispensa do exame pela Assembleia Legislativa se a suspensão do ato impugnado for suficiente.
 
@@ -124,6 +130,24 @@ O procedimento pode variar conforme a hipótese: há casos de intervenção espo
 **Item C/E autoral 2.** “A representação do procurador-geral da República acolhida pelo STF é exigência constitucional para intervenção federal destinada a assegurar os princípios do art. 34, VII.” **Certo.** Art. 36, III, combinado com art. 34, VII.
 
 **Fonte primária desta seção:** [Constituição Federal, arts. 34 a 36, texto atualizado no Tribunal Superior Eleitoral](https://www.tse.jus.br/legislacao/codigo-eleitoral/constituicao-federal/constituicao-da-republica-federativa-do-brasil).
+
+### Síntese de decisão: quem executa, quem legisla, quem controla
+
+| Situação | Base normativa | Resposta segura |
+| :--- | :--- | :--- |
+| União mantém relações diplomáticas | Art. 21, I | Competência **material** da União |
+| Lei sobre direito civil | Art. 22, I | Competência **legislativa privativa** da União; autorização específica a Estados depende de LC federal, nos termos do parágrafo único |
+| Atuação para proteção da saúde | Art. 23, II | Competência **administrativa comum** dos quatro entes |
+| Normas gerais de educação e suplementação estadual | Art. 24, IX e §§ 1º a 4º | Competência **legislativa concorrente** da União, dos Estados e do DF |
+| Lei municipal sobre transporte coletivo local | Art. 30, I e V | Competência própria municipal, não inclusão do Município no rol do art. 24 |
+| Reorganização de Municípios | Art. 18, § 4º | Exige também **período definido em lei complementar federal**, além dos outros requisitos |
+| Intervenção por desobediência a decisão judicial | Art. 36, II | Requisição do tribunal constitucionalmente competente, não simples escolha política |
+
+**Contraprova 1 (autoral, C/E).** “Por ser concorrente a competência legislativa sobre proteção ambiental, todos os municípios integram o rol expresso do art. 24.” **Errado.** O rol é União, Estados e DF, enquanto a competência municipal deve ser examinada pelo art. 30.
+
+**Contraprova 2 (autoral, C/E).** “Lei complementar estadual pode instituir região metropolitana formada por agrupamentos de municípios limítrofes para integrar funções públicas de interesse comum.” **Certo.** Art. 25, § 3º, da CF. Isso não equivale a criar um novo município.
+
+**Contraprova 3 (autoral, C/E).** “O STF, o STJ e o TSE podem, conforme a competência constitucional aplicável, requisitar intervenção federal por desobediência a ordem ou decisão judicial.” **Certo.** Art. 36, II. A hipótese é diferente da coação ao Poder Judiciário descrita no inciso I.
 
 ## Como a banca cobra
 
@@ -175,4 +199,4 @@ O critério de resolução é identificar o verbo da situação: **prestar, fisc
 
 ## Fontes
 
-- [Constituição da República Federativa do Brasil de 1988, texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), especialmente arts. 1º, 18, 21 a 24, 25, 30, 32, 34 e 35. Os exemplos do artigo são explicações didáticas, não transcrições da Constituição.
+- [Constituição da República Federativa do Brasil de 1988, texto oficial](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), especialmente arts. 1º, 18, 21 a 25, 29, 30, 32 e 34 a 36. Os exemplos do artigo são explicações didáticas, não transcrições da Constituição.

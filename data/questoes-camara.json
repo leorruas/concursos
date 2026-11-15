@@ -49827,6 +49827,34 @@
       "correctAnswer": "E",
       "explanation": "O governo dividido descreve a relação partidária entre Executivo e Legislativo no presidencialismo. A coabitação pressupõe um presidente e um gabinete apoiado por uma maioria parlamentar adversária em um sistema semipresidencialista.",
       "reviewEvidence": "Revisão por IA com cotejo da seção indicada. O governo dividido descreve a relação partidária entre Executivo e Legislativo no presidencialismo. A coabitação pressupõe um presidente e um gabinete apoiado por uma maioria parlamentar adversária em um sistema semipresidencialista. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l175-001-ponto-extremo-e-ajuste",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "ponto-extremo-e-ajuste",
+      "mechanism": "avaliar-influencia-de-uma-observacao-no-ajuste",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      },
+      "statement": "Em um gráfico de dispersão, quase todos os valores de x estão entre 1 e 5, e há uma observação com x igual a 100. Comparar o ajuste linear com e sem essa observação ajuda a verificar quanto ela influencia a inclinação estimada.",
+      "correctAnswer": "C",
+      "explanation": "Valores de x distantes do centro podem influenciar fortemente a reta ajustada. A comparação das retas permite avaliar essa influência.",
+      "reviewEvidence": "Revisão por IA com verificação da interpretação do gráfico. Valores de x distantes do centro podem influenciar fortemente a reta ajustada. A comparação das retas permite avaliar essa influência. Dificuldade estimada."
     }
   ]
 }

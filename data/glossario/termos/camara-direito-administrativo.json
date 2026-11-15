@@ -205,6 +205,62 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-vinculacao-tutela",
+      "term": "Vinculação e tutela administrativa",
+      "aliases": [
+        "supervisão ministerial",
+        "controle finalístico"
+      ],
+      "definition": "Vinculação é a relação institucional entre uma entidade da administração indireta e o órgão supervisor; tutela é o controle legal sobre suas finalidades e resultados, sem subordinação hierárquica.",
+      "contrast": "Na hierarquia, órgãos da mesma pessoa jurídica têm direção e revisão interna; na tutela, há pessoas jurídicas diferentes e competências de controle definidas em lei.",
+      "cebraspeTrap": "Afirmar que o ministro pode substituir livremente qualquer decisão de uma autarquia vinculada.",
+      "example": "Um ministério acompanha metas de autarquia federal, mas não assume automaticamente suas decisões técnicas.",
+      "sources": [
+        {
+          "label": "Decreto-Lei nº 200/1967, arts. 19 a 26",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm"
+        }
+      ],
+      "articleIds": [
+        "art-86dee064aef44ba4"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-fundacao-autarquica",
+      "term": "Fundação pública autárquica",
+      "aliases": [
+        "fundação pública de direito público",
+        "autarquia fundacional"
+      ],
+      "definition": "Fundação instituída sob personalidade jurídica de direito público, criada diretamente por lei específica e submetida ao regime próprio das autarquias.",
+      "contrast": "Fundação governamental de direito privado depende de autorização legal e atos de constituição; o nome fundação, isoladamente, não determina o regime.",
+      "cebraspeTrap": "Afirmar que todas as fundações públicas apenas recebem autorização legislativa e só nascem com registro civil.",
+      "example": "A lei específica cria uma fundação autárquica; para uma fundação governamental de direito privado, a lei autoriza sua instituição.",
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 37, XIX",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "articleIds": [
+        "art-86dee064aef44ba4"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
     }
   ]
 }

@@ -49911,6 +49911,62 @@
       "correctAnswer": "E",
       "explanation": "O intervalo interquartil mede a distância entre os quartis. Deslocar ambos em cinco unidades conserva essa distância, mesmo com mudança na posição da distribuição.",
       "reviewEvidence": "Revisão por IA com conferência dos quartis após translação. O intervalo interquartil mede a distância entre os quartis. Deslocar ambos em cinco unidades conserva essa distância, mesmo com mudança na posição da distribuição. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l178-001-curva-e-correlacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "curva-e-correlacao",
+      "mechanism": "distinguir-relacao-curva-e-linear",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      },
+      "statement": "Um gráfico de dispersão tem formato de U: os valores de y são altos nos dois extremos de x e baixos no centro. Uma correlação linear próxima de zero é compatível com esse padrão.",
+      "correctAnswer": "C",
+      "explanation": "A tendência decrescente de um lado e a crescente do outro podem se compensar no cálculo da correlação linear. O padrão curvo ainda revela associação.",
+      "reviewEvidence": "Revisão por IA da interpretação do padrão. A tendência decrescente de um lado e a crescente do outro podem se compensar no cálculo da correlação linear. O padrão curvo ainda revela associação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l178-002-dispersao-mais-larga-na-extremidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "dispersao-mais-larga-na-extremidade",
+      "mechanism": "avaliar-variacao-vertical-condicional",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "2. O gráfico de dispersão (*scatter plot*): relações bivariadas"
+      },
+      "statement": "Em um gráfico de dispersão, pontos com valores semelhantes de x ficam cada vez mais espalhados verticalmente conforme x aumenta. Esse padrão indica que a variabilidade de y permanece constante ao longo de x.",
+      "correctAnswer": "E",
+      "explanation": "O espalhamento vertical compara a variabilidade de y para valores próximos de x. Se aumenta ao longo do eixo horizontal, o gráfico sugere variabilidade crescente.",
+      "reviewEvidence": "Revisão por IA da interpretação do padrão. O espalhamento vertical compara a variabilidade de y para valores próximos de x. Se aumenta ao longo do eixo horizontal, o gráfico sugere variabilidade crescente. Dificuldade estimada."
     }
   ]
 }

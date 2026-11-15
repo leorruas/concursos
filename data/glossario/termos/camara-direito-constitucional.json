@@ -892,6 +892,60 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-foro-prerrogativa-apos-mandato",
+      "term": "Foro por prerrogativa de função após o mandato",
+      "aliases": [
+        "foro parlamentar após o mandato"
+      ],
+      "definition": "Competência judicial especial que, conforme o STF (HC 232.627, 2025), subsiste após a saída do cargo em crimes praticados durante o exercício e em razão das funções.",
+      "contrast": "Foro define o tribunal competente; imunidade material protege certas opiniões, palavras e votos ligados à função parlamentar. A saída do cargo não elimina automaticamente o foro para fatos que preencham ambos os critérios.",
+      "cebraspeTrap": "Afirmar que qualquer crime de ex-parlamentar vai ao STF ou que o foro sempre termina com o mandato.",
+      "example": "Investigação começa após o fim do mandato por suposto delito praticado no cargo e ligado à função: o afastamento não desloca por si só a competência.",
+      "articleIds": [
+        "art-f3e70dd8fbe34df4"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STF, HC 232.627 (2025)",
+          "url": "https://noticias.stf.jus.br/postsnoticias/acoes-contra-autoridades-permanecem-no-stf-mesmo-apos-saida-do-cargo/"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-controle-difuso-constitucionalidade",
+      "term": "Controle difuso de constitucionalidade",
+      "aliases": [
+        "controle incidental"
+      ],
+      "definition": "Exame de compatibilidade constitucional de norma dentro de processo concreto, quando a questão é necessária à solução do pedido; pode ser realizado por juiz ou tribunal competente, observadas as regras próprias.",
+      "contrast": "No controle concentrado abstrato, a validade da norma é objeto principal de ação específica, com legitimados e órgão definidos constitucionalmente. No controle difuso, a parte não precisa integrar o rol de legitimados para ADI.",
+      "cebraspeTrap": "Afirmar que apenas o STF exerce controle de constitucionalidade ou que qualquer parte pode propor ADI pelo simples fato de estar afetada.",
+      "example": "Pessoa multada requer anulação da multa, sustentando incidentalmente a incompatibilidade constitucional da lei aplicada.",
+      "articleIds": [
+        "art-7c5228e2781b4336"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 97, 102 e 103",
+          "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

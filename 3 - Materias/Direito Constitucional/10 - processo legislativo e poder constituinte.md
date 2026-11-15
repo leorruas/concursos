@@ -385,6 +385,20 @@ Os **dez itens inéditos** da expansão CAM-PL-015 também foram preservados.
 
 **10.** Se a CCJC concluir pela inadmissibilidade da PEC, o autor poderá requerer sua apreciação preliminar em Plenário, com apoio de líderes que representem ao menos um terço dos deputados. **Certo.** RICD art. 202, § 1º. Não confundir com **aprovação por três quintos** ou com reinício da proposta.
 
+### Revisão final: quatro decisões com quóruns diferentes
+
+**Caso 1: lei ordinária.** Um projeto comum tramita na Câmara e é votado com presença da maioria absoluta da Casa. Pela regra geral do art. 47, a deliberação ocorre por **maioria dos votos**, ressalvadas regras especiais. Isso exige separar **presença mínima** de **votos necessários**.
+
+**Caso 2: lei complementar.** Uma proposta sobre matéria reservada a LC exige **maioria absoluta de votos favoráveis** em cada Casa, por força do art. 69. Na Câmara, o Regimento Interno (art. 148) também prevê a exceção de **dois turnos** para projetos de lei complementar. Os dois turnos são **exigência regimental da Câmara**, enquanto a maioria absoluta decorre da **Constituição**. A regra regimental da Câmara não deve ser atribuída, sem verificação, ao Senado.
+
+**Caso 3: emenda constitucional.** Uma PEC requer **três quintos dos membros, em dois turnos em cada Casa** (art. 60, § 2º): com 513 deputados e 81 senadores, são **308** e **49** votos favoráveis por turno, respectivamente. Uma PEC aprovada não vai à sanção presidencial.
+
+**Caso 4: projeto rejeitado.** Reapresentar a mesma matéria na mesma sessão legislativa obedece ao art. **67** se se tratar de projeto de lei; a vedação do art. **60, § 5º**, vale para matéria de PEC rejeitada ou prejudicada. Quórum de apresentação não equivale a quórum de aprovação.
+
+**Item C/E autoral:** “Na Câmara, projeto de lei complementar exige maioria absoluta por previsão da Constituição e apreciação em dois turnos por determinação do Regimento Interno.” **Certo.** Arts. 69 da CF e 148 do RICD. A afirmação identifica as **duas fontes** normativas, evitando confundi-las.
+
+**Fontes:** [Constituição Federal, arts. 47, 60, 67 e 69](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html); [Regimento Interno da Câmara, art. 148, consolidado em 2026](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+
 ## Leitura seguinte e fontes oficiais
 
 Para aprofundar apenas o ponto que causou dúvida, use a sequência:

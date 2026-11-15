@@ -49015,6 +49015,34 @@
       "correctAnswer": "C",
       "explanation": "A possibilidade de organizar oposição amplia a contestação pública. O direito de participação eleitoral permanece restrito às mesmas pessoas.",
       "reviewEvidence": "Revisão por IA. A possibilidade de organizar oposição amplia a contestação pública. O direito de participação eleitoral permanece restrito às mesmas pessoas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l151-001-deliberacao-e-representatividade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / democracia e participação política",
+      "articleId": "art-4a6d2f90b18e753c",
+      "conceptId": "deliberacao-e-representatividade",
+      "mechanism": "separar-qualidade-da-discussao-e-representatividade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#James Fishkin: sondagem deliberativa e minipúblicos"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa.md",
+        "section": "James Fishkin: sondagem deliberativa e minipúblicos"
+      },
+      "statement": "Uma equipe mede a opinião de voluntários antes e depois de um debate informado. O simples fato de haver discussão entre as duas medições permite tratar a opinião final como representativa de toda a população.",
+      "correctAnswer": "E",
+      "explanation": "O debate e a informação precedem a segunda medição. Avaliar se os resultados representam a população depende também de como se selecionou a amostra e de quem permaneceu no processo.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O debate e a informação precedem a segunda medição. Avaliar se os resultados representam a população depende também de como se selecionou a amostra e de quem permaneceu no processo. Dificuldade estimada."
     }
   ]
 }

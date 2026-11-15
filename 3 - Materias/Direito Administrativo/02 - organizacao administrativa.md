@@ -174,7 +174,7 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
+**Gabarito: Errado, pela classificação automática do vício como desvio de finalidade.**  
 **Comentário:** Pelo princípio da especialidade, a entidade descentralizada deve atuar nas finalidades estabelecidas em sua lei instituidora. Um ato fora das atribuições legais pode ser inválido por incompetência ou outra ilegalidade; **desvio de finalidade** exige verificar se o agente perseguiu finalidade diversa da prevista na norma. Esses vícios não são sinônimos.
 
 ---
@@ -190,6 +190,6 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
 
 ## Nota de revisão jurídica dirigida (15/11/2026)
 
-Os itens 2, 5 e 6 foram ajustados para retirar, respectivamente, um exemplo institucional inadequado, uma generalização sobre prerrogativas de estatais e a equiparação automática entre incompetência e desvio de finalidade. **Esta intervenção não constitui certificação integral do artigo**: ainda dependem de cotejo individual as afirmações sobre fundações públicas, competência judicial, regime de pessoal, recursos impróprios e exceções jurisprudenciais.
+Os itens 2, 5 e 6 foram ajustados, inclusive o gabarito do item 6 para retirar, respectivamente, um exemplo institucional inadequado, uma generalização sobre prerrogativas de estatais e a equiparação automática entre incompetência e desvio de finalidade. **Esta intervenção não constitui certificação integral do artigo**: ainda dependem de cotejo individual as afirmações sobre fundações públicas, competência judicial, regime de pessoal, recursos impróprios e exceções jurisprudenciais.
 
 Fontes primárias a confrontar na etapa de certificação: [Constituição Federal, arts. 37, XIX, e § 6º, e 109, I](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm); [Decreto-Lei nº 200/1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm); [Lei nº 13.303/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm); jurisprudência oficial do STF sobre estatais prestadoras de serviços públicos. A revisão do glossário e dos flashcards também permanece pendente.

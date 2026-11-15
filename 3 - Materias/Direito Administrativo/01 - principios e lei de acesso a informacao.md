@@ -16,11 +16,11 @@ tags:
 
 # Princípios Expressos e Implícitos da Administração Pública
 
-No Direito Administrativo brasileiro, o regime jurídico-administrativo estrutura-se a partir de postulados fundamentais que condicionam a validade, a finalidade e os limites de toda atuação estatal. Nas provas elaboradas pelo Cebraspe para carreiras legislativas e de controle (como o cargo de Analista Legislativo da Câmara dos Deputados), a cobrança sobre princípios vai muito além da memorização mecânica do mnemônico constitucional **LIMPE**. A banca exige a precisa delimitação das **fronteiras de colisão entre princípios**, a distinção entre **princípios expressos no texto constitucional** e **princípios reconhecidos implicitamente ou por diplomas infraconstitucionais** (como a Lei nº 9.784/1999 e a LINDB - Decreto-Lei nº 4.657/1942), bem como as repercussões práticas de postulados consagrados pelas súmulas dos tribunais superiores (STF e STJ).
+Imagine que a Câmara dos Deputados precise contratar uma campanha de informação pública. A equipe deve escolher uma solução permitida em lei, tratar concorrentes sem favorecimento, justificar a contratação, divulgar o que a lei manda e usar os recursos com qualidade. Essas exigências correspondem a princípios que orientam decisões concretas, e não apenas a uma lista para memorizar.
 
-O regime jurídico-administrativo assenta-se sobre o que a doutrina de Celso Antônio Bandeira de Mello consagra como os dois **supraprincípios ou pilares basilares**:
-1. **A Supremacia do Interesse Público sobre o Privado:** Confere à Administração Pública as prerrogativas de autoridade necessárias para fazer prevalecer o bem coletivo (poder de império, autoexecutoriedade, cláusulas exorbitantes).
-2. **A Indisponibilidade do Interesse Público:** Estabelece as sujeições e amarras impostas ao administrador, que atua como mero gestor de coisa alheia (*res publica*), vedando renúncias, favorecimentos, liberalidades imotivadas ou desvios de finalidade.
+O art. 37, **caput**, da Constituição Federal de 1988 (CF/1988) apresenta cinco princípios expressos: **legalidade, impessoalidade, moralidade, publicidade e eficiência**. A sigla LIMPE ajuda a recordá-los. Outros princípios decorrem da Constituição, de leis e da interpretação jurídica. A **Lei nº 9.784/1999** disciplina o processo administrativo **federal** e a **Lei de Introdução às Normas do Direito Brasileiro (LINDB)** estabelece regras de interpretação e decisão.
+
+Na doutrina, a **supremacia do interesse público** explica certas prerrogativas conferidas por lei ao Estado; a **indisponibilidade do interesse público** significa que o agente não pode tratar bens e poderes públicos como patrimônio próprio. Esses conceitos não autorizam violar direitos fundamentais ou agir sem base legal. Por exemplo, a Administração pode fiscalizar uma atividade nos limites legais, mas não pode aplicar uma sanção apenas porque o gestor a considera conveniente.
 
 ---
 
@@ -34,11 +34,11 @@ graph TD
     classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:1.5px,color:#2b2b2b;
     classDef opcao fill:#ffffff,stroke:#d4a373,stroke-width:1px,color:#2b2b2b;
 
-    R["Regime Jurídico-Administrativo"]:::raiz --> C1["Pilares Basilares (Supraprincípios)"]:::criterio
+    R["Regime Jurídico-Administrativo"]:::raiz --> C1["Princípios doutrinários"]:::criterio
     R --> C2["Princípios Expressos (Art. 37 CF)"]:::criterio
     R --> C3["Princípios Implícitos e Setoriais"]:::criterio
 
-    C1 --> O1["Supremacia do Interesse Público (Prerrogativas)<br/>Indisponibilidade do Interesse Público (Sujeições)"]:::opcao
+    C1 --> O1["Supremacia: poderes previstos em lei<br/>Indisponibilidade: limites ao gestor"]:::opcao
     C2 --> O2["L - Legalidade Estrita (Juridicidade)<br/>I - Impessoalidade (Finalidade e não autopromoção)<br/>M - Moralidade Administrativa (Probidade e Boa-fé)<br/>P - Publicidade (Transparência como regra)<br/>E - Eficiência (Qualidade e Racionalidade - EC 19/98)"]:::opcao
     C3 --> O3["Autotutela (Súmulas 346 e 473 STF)<br/>Segurança Jurídica e Proteção à Confiança<br/>Razoabilidade e Proporcionalidade<br/>Motivação dos Atos Administrativos"]:::opcao
 ```
@@ -49,10 +49,10 @@ graph TD
 
 ### 1.2. Impessoalidade: Vertentes e Desdobramentos
 O princípio da impessoalidade desdobra-se em quatro facetas complementares:
-1. **Princípio da Finalidade:** A atuação administrativa deve buscar unicamente o interesse público primário visado pela norma, sem perseguições a adversários nem favorecimentos a aliados. O desvio de finalidade acarreta a nulidade insanável do ato.
+1. **Princípio da Finalidade:** A atuação administrativa deve buscar unicamente o interesse público primário visado pela norma, sem perseguições a adversários nem favorecimentos a aliados. O desvio de finalidade compromete a validade do ato e pode levar à sua anulação, observado o devido processo.
 2. **Igualdade e Isonomia:** Assegura tratamento paritário a todos os administrados em idêntica situação jurídica, orientando a exigência constitucional de concurso público para provimento de cargos (art. 37, II) e de processo licitatório para contratações (art. 37, XXI).
-3. **Imputação Volitiva (Teoria do Órgão):** Os atos praticados pelo agente público são imputados à pessoa jurídica estatal (órgão/entidade), e não à pessoa física do servidor. Disso decorre a validade dos atos praticados por funcionário de fato perante terceiros de boa-fé.
-4. **Vedação à Promoção Pessoal (Art. 37, § 1º, da CF/1988):** A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve ter caráter educativo, informativo ou de orientação social, dela **não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal** de autoridades ou servidores públicos. A violação configura ato de improbidade administrativa e desvio de finalidade.
+3. **Imputação Volitiva (Teoria do Órgão):** Os atos praticados pelo agente público são imputados à pessoa jurídica estatal (órgão/entidade), e não à pessoa física do servidor. A proteção de terceiros de boa-fé em situações de agente de fato exige análise das circunstâncias; não é uma consequência automática e ilimitada.
+4. **Vedação à Promoção Pessoal (Art. 37, § 1º, da CF/1988):** A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve ter caráter educativo, informativo ou de orientação social, dela **não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal** de autoridades ou servidores públicos. A violação pode tornar a publicidade irregular e, se presentes os requisitos legais específicos, também configurar improbidade administrativa. A Lei nº 8.429/1992 exige análise do tipo legal e do dolo, não bastando presumir improbidade de toda irregularidade.
 
 ### 1.3. Moralidade Administrativa e Probidade
 - A moralidade administrativa **não se confunde com a moral comum ou privada**, nem com juízos puramente subjetivos do agente. Constitui um **conceito jurídico indeterminado autônomo**, fundado nos deveres de boa-fé objetiva, lealdade, honestidade, probidade e retidão de conduta.
@@ -60,8 +60,8 @@ O princípio da impessoalidade desdobra-se em quatro facetas complementares:
 - **Súmula Vinculante nº 13 do STF (Antinepotismo):** O STF fixou que a vedação ao nepotismo na Administração Pública direta e indireta decorre **diretamente dos princípios constitucionais da moralidade, impessoalidade e eficiência**, independentemente da existência de lei formal ordinária local que o proíba expressamente.
 
 ### 1.4. Publicidade e Transparência
-- A publicidade constitui requisito de eficácia dos atos administrativos de efeitos externos ou que impliquem ônus financeiro, viabilizando o controle social e a prestação de contas (*accountability*).
-- **A Publicidade como Regra e o Sigilo como Exceção:** Nos termos do art. 5º, XXXIII, da CF/1988 e da Lei nº 12.527/2011 (LAI), a transparência é o preceito geral; o sigilo só é admitido em hipóteses constitucionais e legais estritas:
+- A publicidade permite conhecimento e controle dos atos públicos. A publicação oficial é condição de eficácia em hipóteses previstas nas normas aplicáveis, mas nem todo ato administrativo depende da mesma forma de divulgação para produzir efeitos.
+- **Publicidade como regra e sigilo como exceção:** a **Lei de Acesso à Informação (LAI), Lei nº 12.527/2011**, concretiza o art. 5º, XXXIII, da Constituição. A Administração deve divulgar informações de interesse coletivo ou geral e responder aos pedidos de acesso, ressalvadas as restrições legais, entre elas:
   1. Segurança da sociedade e do Estado;
   2. Proteção da intimidade, vida privada, honra e imagem dos cidadãos (dados pessoais).
 
@@ -78,8 +78,8 @@ Ao lado dos princípios expressos no art. 37, o ordenamento jurídico alberga pr
 
 | Princípio Implícito | Sede / Fundamento Normativo | Conteúdo e Alcance no Direito Administrativo |
 | :--- | :--- | :--- |
-| **Autotutela** | Súmulas 346 e 473 do STF; art. 53 da Lei nº 9.784/1999 | Poder-dever da Administração de rever seus próprios atos: **anulando** os ilegais (com efeitos *ex tunc*) e **revogando** os inoportunos/inconvenientes (*ex nunc*), respeitados os direitos adquiridos e o devido processo legal. |
-| **Segurança Jurídica e Proteção à Confiança** | Art. 5º, XXXVI, da CF/1988; art. 2º, parágrafo único, XIII, da Lei 9.784/1999; LINDB | Estabilidade das relações jurídicas. Veda a aplicação retroativa de nova interpretação normativa da Administração aos processos já definitivamente julgados, protegendo a boa-fé e a confiança legítima do administrado. |
+| **Autotutela** | Súmulas 346 e 473 do Supremo Tribunal Federal (STF); arts. 53 a 55 da Lei nº 9.784/1999 | A Administração **anula** atos ilegais e pode **revogar** atos válidos por conveniência e oportunidade, respeitando direitos, limites temporais e devido processo. Os efeitos dependem da situação e das regras aplicáveis; não presumir retroatividade irrestrita. |
+| **Segurança Jurídica e Proteção à Confiança** | Art. 5º, XXXVI, da CF/1988; art. 2º, parágrafo único, XIII, da Lei nº 9.784/1999; LINDB | A Administração deve considerar estabilidade, boa-fé e confiança legítima. A Lei nº 9.784/1999 veda aplicação retroativa de nova interpretação administrativa, não apenas em processos definitivamente julgados. |
 | **Razoabilidade e Proporcionalidade** | Devido processo legal substantivo (art. 5º, LIV, CF); art. 2º da Lei 9.784/1999 | Limitação ao poder discricionário. A proporcionalidade desdobra-se no tríplice teste: **adequação** (meio apto ao fim), **necessidade/exigibilidade** (meio menos gravoso) e **proporcionalidade em sentido estrito** (vantagens superam os ônus). |
 | **Motivação** | Princípio republicano e devido processo legal; art. 50 da Lei 9.784/1999 | Obrigação de explicitar os fundamentos de fato e de direito que determinaram a prática do ato administrativo, viabilizando o controle judicial e a aferição da teoria dos motivos determinantes. |
 | **Continuidade do Serviço Público** | Art. 175 da CF/1988; Lei nº 8.987/1995 | Os serviços públicos essenciais não podem sofrer interrupções imotivadas ou abruptas, impondo restrições ao direito de greve de servidores e mitigando a exceção do contrato não cumprido contra o Estado. |
@@ -94,7 +94,7 @@ A Súmula nº 473 do STF estabelece o clássico enunciado da autotutela:
 
 Contudo, nas provas do Cebraspe, a autotutela deve ser compreendida em harmonia com o **princípio da segurança jurídica**:
 - **Prazo Decadencial de 5 Anos (Art. 54 da Lei nº 9.784/1999):** O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários **decai em 5 (cinco) anos**, contados da data em que foram praticados, **salvo comprovada má-fé**.
-- Decorrido o prazo quinquenal sem comprovação de dolo ou má-fé do administrado, opera-se a estabilização do ato administrativo (*convalidação pelo decurso do tempo*), prevalecendo a segurança jurídica sobre a legalidade estrita.
+- **Como contar:** quando o ato gera efeitos patrimoniais contínuos, o art. 54, § 1º, conta o prazo da percepção do primeiro pagamento. O § 2º considera exercício do direito de anular qualquer medida administrativa que importe impugnação à validade do ato. A exceção do caput é a **comprovada má-fé**, e a decadência não deve ser confundida com a convalidação de defeitos sanáveis prevista no art. 55. A regra citada é a do processo administrativo federal; outros entes podem ter disciplina própria.
 
 ---
 
@@ -109,7 +109,7 @@ Contudo, nas provas do Cebraspe, a autotutela deve ser compreendida em harmonia 
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** A assertiva traduz com perfeição a superação da legalidade estrita positivista pelo princípio contemporâneo da juridicidade. A Administração Pública não se vincula apenas à lei formal oriunda do Legislativo, mas a todo o ordenamento jurídico (bloco de constitucionalidade, normas regulamentares e princípios gerais do Direito), tal como expressamente positivado no art. 2º, parágrafo único, I, da Lei nº 9.784/1999 (*atuação conforme a lei e o Direito*).
+**Comentário:** A juridicidade exige respeito à Constituição, à legislação e às demais normas válidas, dentro da hierarquia normativa. A Administração Pública não se vincula apenas à lei formal oriunda do Legislativo, mas a todo o ordenamento jurídico (bloco de constitucionalidade, normas regulamentares e princípios gerais do Direito), tal como expressamente positivado no art. 2º, parágrafo único, I, da Lei nº 9.784/1999 (*atuação conforme a lei e o Direito*).
 
 ---
 
@@ -135,7 +135,7 @@ Contudo, nas provas do Cebraspe, a autotutela deve ser compreendida em harmonia 
 - ( ) Errado
 
 **Gabarito: Errado**  
-**Comentário:** O item confunde supremacia com disponibilidade. O interesse público é regido pelo supraprincípio da **indisponibilidade do interesse público**: os bens, direitos e receitas públicas não pertencem à pessoa física do administrador, que é mero gestor do patrimônio coletivo. Qualquer renúncia de receita, transação ou liberalidade exige estrita autorização legal e demonstração formal do interesse público, sob pena de nulidade e responsabilização por improbidade.
+**Comentário:** O item confunde supremacia com disponibilidade. O interesse público é regido pelo supraprincípio da **indisponibilidade do interesse público**: os bens, direitos e receitas públicas não pertencem à pessoa física do administrador, que é mero gestor do patrimônio coletivo. Renúncia de receita e transações exigem observar os requisitos legais aplicáveis, inclusive os fiscais quando pertinentes. Uma irregularidade não gera automaticamente improbidade: é preciso verificar os requisitos da Lei nº 8.429/1992.
 
 ---
 
@@ -148,7 +148,7 @@ Contudo, nas provas do Cebraspe, a autotutela deve ser compreendida em harmonia 
 - ( ) Errado
 
 **Gabarito: Errado**  
-**Comentário:** A autotutela encontra limite temporal no princípio da segurança jurídica. Nos termos do art. 54 da Lei nº 9.784/1999, o direito da Administração de anular atos administrativos de que decorram efeitos favoráveis para os destinatários **decai em cinco anos**, contados da data em que foram praticados, **salvo comprovada má-fé**. Havendo boa-fé do administrado, o decurso do prazo quinquenal consolida a situação fática.
+**Comentário:** A autotutela encontra limite temporal no princípio da segurança jurídica. Nos termos do art. 54 da Lei nº 9.784/1999, o direito da Administração de anular atos administrativos de que decorram efeitos favoráveis para os destinatários **decai em cinco anos**, contados da data em que foram praticados, **salvo comprovada má-fé**. O prazo tem regras específicas para efeitos patrimoniais contínuos e para medidas de impugnação administrativa (art. 54, §§ 1º e 2º). A ressalva legal é a má-fé comprovada.
 
 ---
 
@@ -161,7 +161,7 @@ Contudo, nas provas do Cebraspe, a autotutela deve ser compreendida em harmonia 
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** O art. 37, § 1º, da CF/1988 estabelece categoricamente que a publicidade governamental deve ter caráter estritamente educativo, informativo ou de orientação social, sendo vedada a inclusão de nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores. A inclusão do nome e imagem do parlamentar em informe oficial corporifica clássica ofensa à impessoalidade e desvio de finalidade.
+**Comentário:** O art. 37, § 1º, da CF/1988 estabelece categoricamente que a publicidade governamental deve ter caráter estritamente educativo, informativo ou de orientação social, sendo vedada a inclusão de nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores. Na situação descrita, a divulgação centrada na imagem e no nome do parlamentar caracteriza promoção pessoal, vedada pelo art. 37, § 1º. A avaliação jurídica depende do conteúdo e da finalidade concreta da peça.
 
 ---
 
@@ -174,7 +174,7 @@ Contudo, nas provas do Cebraspe, a autotutela deve ser compreendida em harmonia 
 - ( ) Errado
 
 **Gabarito: Errado**  
-**Comentário:** O princípio da continuidade não é absoluto. Nos termos do art. 6º, § 3º, II, da Lei nº 8.987/1995, não se caracteriza como descontinuidade do serviço a sua interrupção em situação de emergência ou, **após prévio aviso**, por inadimplemento do usuário, considerado o interesse da coletividade (para evitar que os custos dos inadimplentes onerem a tarifa dos demais cidadãos).
+**Comentário:** O princípio da continuidade não é absoluto. Nos termos do art. 6º, § 3º, II, da Lei nº 8.987/1995, não se caracteriza como descontinuidade do serviço a sua interrupção em situação de emergência ou, **após prévio aviso**, por inadimplemento do usuário, considerado o interesse da coletividade. O mesmo § 3º também prevê interrupção por razões técnicas ou de segurança das instalações, após aviso, e por emergência, sem a mesma exigência de aviso prévio.
 
 ---
 
@@ -185,3 +185,15 @@ Contudo, nas provas do Cebraspe, a autotutela deve ser compreendida em harmonia 
   - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico]]: Aplicação dos princípios à Administração Direta e Indireta (descentralização e desconcentração).
   - [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto]]: Controle de validade, motivos determinantes, anulação e revogação pelo exercício da autotutela.
   - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]]: Concretização do princípio da publicidade pela LAI e limites da LGPD.
+
+
+## Fontes normativas para conferência
+
+- [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): arts. 5º, II, XXXIII, XXXV e LIV; 37, caput e § 1º; 175.
+- [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm): arts. 2º, 50 e 53 a 55, sobre processo administrativo federal, motivação, revisão de atos e decadência.
+- [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm): acesso à informação e hipóteses de restrição.
+- [Lei nº 8.987/1995](https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm): art. 6º, § 3º, sobre continuidade e interrupção do serviço.
+- [Lei nº 8.429/1992](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm): tipificação e requisitos dos atos de improbidade.
+- [LINDB, Decreto-Lei nº 4.657/1942](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm): segurança jurídica e consequências práticas da decisão administrativa.
+
+**Distinção de fontes:** os cinco princípios do art. 37 são texto constitucional. Os chamados supraprincípios são categorias doutrinárias. Os prazos e procedimentos citados decorrem de leis específicas; a autotutela também é tratada pelas Súmulas 346 e 473 do STF. A aplicação a um caso concreto exige conferir a redação vigente e a jurisprudência pertinente.

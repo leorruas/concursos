@@ -49379,6 +49379,34 @@
       "correctAnswer": "E",
       "explanation": "O critério é a possibilidade efetiva de derrota e de transferência do poder. Uma vitória repetida pode ocorrer mesmo sob competição aberta.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O critério é a possibilidade efetiva de derrota e de transferência do poder. Uma vitória repetida pode ocorrer mesmo sob competição aberta. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l162-001-vitoria-local-em-disputa-desigual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "articleId": "art-5e8b4c72d13f906a",
+      "conceptId": "vitoria-local-em-disputa-desigual",
+      "mechanism": "distinguir-vitoria-pontual-e-equidade-da-disputa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Levitsky e Way: autoritarismo competitivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos.md",
+        "section": "Levitsky e Way: autoritarismo competitivo"
+      },
+      "statement": "Em um país onde o governo usa sistematicamente recursos estatais para favorecer seus candidatos, a oposição consegue vencer uma eleição municipal. Essa vitória, isoladamente, elimina a hipótese de autoritarismo competitivo na abordagem de Levitsky e Way.",
+      "correctAnswer": "E",
+      "explanation": "Uma vitória local mostra que existe espaço de disputa. A classificação também depende das condições da competição, que podem continuar sistematicamente desiguais.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. Uma vitória local mostra que existe espaço de disputa. A classificação também depende das condições da competição, que podem continuar sistematicamente desiguais. Dificuldade estimada."
     }
   ]
 }

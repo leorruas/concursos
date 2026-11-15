@@ -49799,6 +49799,34 @@
       "correctAnswer": "E",
       "explanation": "A dupla responsabilidade do gabinete caracteriza a variante presidente-parlamentar. Na variante premier-presidencial, a sobrevivência do gabinete depende da confiança parlamentar.",
       "reviewEvidence": "Revisão por IA com cotejo da seção indicada. A dupla responsabilidade do gabinete caracteriza a variante presidente-parlamentar. Na variante premier-presidencial, a sobrevivência do gabinete depende da confiança parlamentar. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l174-001-oposicao-sem-gabinete",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo",
+      "articleId": "art-d7b3e591a46c82f0",
+      "conceptId": "oposicao-sem-gabinete",
+      "mechanism": "classificar-pela-estrutura-do-executivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Coabitação versus governo dividido"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo.md",
+        "section": "Coabitação versus governo dividido"
+      },
+      "statement": "Em um sistema presidencialista, a oposição conquista a maioria legislativa e o presidente mantém a chefia do governo. Essa configuração satisfaz o conceito de coabitação.",
+      "correctAnswer": "E",
+      "explanation": "O governo dividido descreve a relação partidária entre Executivo e Legislativo no presidencialismo. A coabitação pressupõe um presidente e um gabinete apoiado por uma maioria parlamentar adversária em um sistema semipresidencialista.",
+      "reviewEvidence": "Revisão por IA com cotejo da seção indicada. O governo dividido descreve a relação partidária entre Executivo e Legislativo no presidencialismo. A coabitação pressupõe um presidente e um gabinete apoiado por uma maioria parlamentar adversária em um sistema semipresidencialista. Dificuldade estimada."
     }
   ]
 }

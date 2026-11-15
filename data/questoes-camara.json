@@ -50583,6 +50583,34 @@
       "correctAnswer": "C",
       "explanation": "O art. 22, II, da Resolução nº 1/2006-CN inclui a análise da consistência fiscal dos projetos de PPA e LOA nas atribuições do comitê. Essa análise pode ocorrer na fase de projeto, antes da execução.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026 com o texto atualizado da Resolução nº 1/2006-CN no portal da Câmara. Art. 22, II. Conferida a competência do comitê na fase de projeto. Seção literal conferida."
+    },
+    {
+      "id": "cam-orc-l193-001-mensagem-parte-nao-votada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "mensagem-modificativa-marco-por-parte",
+      "mechanism": "distinguir-votacao-de-outra-parte-do-inicio-da-parte-alterada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#Regras constitucionais para emendas ao orçamento anual"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "Regras constitucionais para emendas ao orçamento anual"
+      },
+      "statement": "A Comissão Mista de Orçamento iniciou a votação de uma parte do projeto de lei orçamentária anual. A votação de outra parte, que o presidente da República pretende modificar por mensagem ao Congresso, ainda não começou. O início da votação da primeira parte, por si só, não impede o envio dessa mensagem.",
+      "correctAnswer": "C",
+      "explanation": "O art. 166, § 5º, da Constituição fixa o marco na votação, na comissão mista, da parte a ser alterada. Como a votação dessa parte ainda não foi iniciada, a votação de outro trecho não impede o envio da mensagem.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 166, § 5º, no portal da Câmara e o subtítulo canônico. O item testa o alcance do marco entre partes distintas do projeto."
     }
   ]
 }

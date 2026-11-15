@@ -49631,6 +49631,62 @@
       "correctAnswer": "E",
       "explanation": "A tipologia examina a organização do partido e o papel dos filiados em sua atividade regular. O público de um evento não demonstra uma base organizada de membros.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A tipologia examina a organização do partido e o papel dos filiados em sua atividade regular. O público de um evento não demonstra uma base organizada de membros. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l170-001-pluralismo-limitado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "articleId": "art-5e8b4c72d13f906a",
+      "conceptId": "pluralismo-limitado",
+      "mechanism": "avaliar-controle-com-espacos-restritos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Juan J. Linz: autoritarismo como categoria distinta de totalitarismo"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos.md",
+        "section": "Juan J. Linz: autoritarismo como categoria distinta de totalitarismo"
+      },
+      "statement": "Um regime permite que associações religiosas e empresariais atuem dentro de limites estritos, mas restringe a competição pelo governo. A existência dessas associações impede classificá-lo como autoritário na tipologia de Linz.",
+      "correctAnswer": "E",
+      "explanation": "Linz admite pluralismo limitado em regimes autoritários. A existência de associações com atuação restrita é compatível com essa categoria.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. Linz admite pluralismo limitado em regimes autoritários. A existência de associações com atuação restrita é compatível com essa categoria. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l170-002-erosao-por-reformas-graduais",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "articleId": "art-5e8b4c72d13f906a",
+      "conceptId": "erosao-por-reformas-graduais",
+      "mechanism": "reconhecer-deterioracao-sem-ruptura-instantanea",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Nancy Bermeo: retrocesso democrático"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos.md",
+        "section": "Nancy Bermeo: retrocesso democrático"
+      },
+      "statement": "Um governo eleito mantém o calendário eleitoral, mas aprova mudanças sucessivas que reduzem a independência dos órgãos de controle. O caso pode ser analisado como retrocesso democrático mesmo sem interrupção imediata das eleições.",
+      "correctAnswer": "C",
+      "explanation": "O retrocesso pode ocorrer por enfraquecimento gradual de controles institucionais. A manutenção do calendário eleitoral é compatível com essa trajetória.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O retrocesso pode ocorrer por enfraquecimento gradual de controles institucionais. A manutenção do calendário eleitoral é compatível com essa trajetória. Dificuldade estimada."
     }
   ]
 }

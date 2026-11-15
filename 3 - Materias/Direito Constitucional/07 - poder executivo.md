@@ -63,9 +63,13 @@ Pegadinha: participação do Senado não transforma a nomeação em ato do Legis
 
 ## Poder regulamentar
 
-O art. 84, IV, permite ao Presidente expedir decretos e regulamentos para a fiel execução das leis. Já o art. 84, VI, admite decreto autônomo apenas nas hipóteses constitucionais delimitadas.
+O **decreto de execução** do art. 84, IV, detalha como uma lei já existente será cumprida. Pense numa lei que cria um programa federal de atendimento e determina que o Executivo regulamente seus procedimentos: o decreto pode disciplinar as etapas operacionais autorizadas pela lei, mas não inventar uma proibição geral que o Legislativo não aprovou.
 
-A fronteira entre função executiva e legislativa não desaparece: o regulamento executivo não é autorização geral para criar obrigações primárias sem base legal.
+O **decreto autônomo** do art. 84, VI, depende de autorização diretamente constitucional e se limita a duas situações: organizar o funcionamento da administração federal **sem aumentar despesa nem criar ou extinguir órgãos públicos**, ou **extinguir funções e cargos públicos que estejam vagos**. Um cargo **vago** é aquele que não está ocupado por servidor titular; reorganizar atribuições internas sem aumento de despesa é diferente de criar um ministério.
+
+**Compare três hipóteses:** (1) estabelecer o formulário e a tramitação de um benefício nos limites de lei existente pode ser matéria de decreto de execução; (2) redistribuir tarefas internas de um órgão federal, sem criar ou extinguir órgãos nem elevar despesas, pode caber no art. 84, VI, a; (3) extinguir por decreto um ministério ou proibir por decreto toda uma atividade econômica antes lícita, sem base legal, ultrapassa essas autorizações.
+
+**Item C/E autoral:** “O Presidente pode extinguir por decreto qualquer cargo da administração federal, ainda que ocupado, desde que não aumente a despesa.” **Errado.** O art. 84, VI, b, exige que a função ou o cargo a extinguir esteja **vago**. Ver também a [Constituição, art. 84, IV e VI](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 
 ## Decretos, delegação e controles: art. 84
 

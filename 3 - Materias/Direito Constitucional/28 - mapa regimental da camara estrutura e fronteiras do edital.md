@@ -19,7 +19,7 @@ aliases:
 
 Esta unidade fecha **a arquitetura do Regimento Interno da Câmara dos Deputados (RICD)** e a conecta a situações de prova. A função é tornar os artigos estudados **recuperáveis por problema, órgão e consequência**, sem reproduzir os seus textos. O **Edital nº 1/2026 do concurso para Analista Legislativo, cargo 1, Divulgação Institucional**, no programa de **Direito Constitucional**, tópico **7.1 a 7.4**, exige expressamente o RICD nos **arts. 1º a 24, 65 a 94, 226 a 251 e 262 a 273, e suas alterações**. A conferência incluiu a página oficial da Câmara que disponibiliza o edital e as retificações publicadas até 11/11/2026. As retificações programáticas posteriores identificadas no Edital nº 5/2026 atingem os conhecimentos específicos dos cargos 8 e 9, não esse recorte do cargo 1. O bloco específico de Processo Legislativo tem abordagem mais ampla, que deve ser estudada por sua própria rubrica do programa. O bloco de Processo Legislativo também menciona o RICD e procedimentos, proposições e comissões de modo mais geral. É importante não converter toda cobertura adicional do vault em nova exigência literal do primeiro bloco.
 
-**Fonte normativa de referência:** [RICD vigente, Câmara dos Deputados, Resolução nº 17/1989 e alterações](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). A [31ª edição oficial (2026)](https://bd.camara.leg.br/bd/items/version/400) está atualizada até a **Resolução nº 34/2026**.
+**Fonte normativa de referência:** [RICD vigente, Câmara dos Deputados, Resolução nº 17/1989 e alterações](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). A [31ª edição oficial (2026)](https://bd.camara.leg.br/bd/items/version/400) está atualizada até a **Resolução nº 34/2026**.
 
 ### Quatro recortes literais do edital, um eixo de leitura
 
@@ -133,7 +133,7 @@ A leitura dos órgãos legislativos integra [[3 - Materias/Direito Constituciona
 
 ## Certificação normativa delimitada: 11/11/2026
 
-**Escopo:** quatro intervalos literais do Regimento da Câmara no Edital nº 1/2026, cargo 1 (Divulgação Institucional), Direito Constitucional, tópicos 7.1 a 7.4, comparados com a [página oficial dos editais e retificações](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades); regras e exemplos do mapa confrontados com o [RICD consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e a [31ª edição de 2026](https://bd.camara.leg.br/bd/items/version/400).
+**Escopo:** quatro intervalos literais do Regimento da Câmara no Edital nº 1/2026, cargo 1 (Divulgação Institucional), Direito Constitucional, tópicos 7.1 a 7.4, comparados com a [página oficial dos editais e retificações](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades); regras e exemplos do mapa confrontados com o [RICD consolidado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e a [31ª edição de 2026](https://bd.camara.leg.br/bd/items/version/400).
 
 **Conferências principais:** distinção Mesa/Presidência, Comissão Geral (art. 91), responsabilidades de comunicação (arts. 21-J, 21-L e 21-N), participação remota de deputada gestante (art. 227-A), parecer prévio da Mesa (art. 263), reclamação administrativa e 72h (art. 264), ordenação de despesas pelo Diretor-Geral e remessa anual de contas ao TCU pelo Presidente (art. 265), apuração da Corregedoria (art. 268), acesso condicionado (art. 272) e autorização para comércio (art. 273). Os dispositivos antigos sobre imunidade processual foram examinados à luz da EC nº 35/2001.
 
@@ -143,7 +143,7 @@ A leitura dos órgãos legislativos integra [[3 - Materias/Direito Constituciona
 
 ## Fontes oficiais e limite de evidência
 
-- [RICD: norma atualizada da Câmara](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+- [RICD: norma atualizada da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html).
 - [31ª edição, atualizada até Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/version/400).
 - [Constituição de 1988, texto atualizado](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 - [Edital nº 1/2026, cargo 1, programa de Direito Constitucional, tópico 7.1–7.4](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades), disponibilizado na [página oficial do concurso](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades), juntamente com as retificações; [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|síntese interna]] usada para navegação.

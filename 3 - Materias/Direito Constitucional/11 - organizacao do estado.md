@@ -5,7 +5,7 @@ title: "Organização do Estado"
 type: "conceito"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-11-12
+updated: 2026-11-15
 ---
 
 # Organização do Estado
@@ -91,7 +91,17 @@ Para **Municípios**, criação, incorporação, fusão e desmembramento depende
 - **Estado** pode intervir em seus Municípios nas hipóteses do art. 35.
 - A União **não intervém ordinariamente em Município situado em Estado**; a hipótese constitucional de intervenção federal em Município refere-se a Município localizado em Território Federal.
 
-O procedimento pode variar conforme a hipótese: há casos de intervenção espontânea e casos dependentes de solicitação, requisição ou provimento de representação. Por isso, não memorize uma única sequência procedimental para toda intervenção.
+### Quem inicia, quem decreta e quem controla a intervenção
+
+A **intervenção federal** é decretada e executada pelo **Presidente da República** (art. 84, X), mas a Constituição exige caminhos diferentes conforme o motivo. Nos casos de coação contra o Legislativo ou Executivo estadual, pode depender de **solicitação** do Poder atingido; se a coação for contra o Judiciário, exige **requisição do Supremo Tribunal Federal (STF)** (art. 36, I). Se o problema for descumprimento de ordem ou decisão judicial, a requisição cabe ao STF, ao **Superior Tribunal de Justiça (STJ)** ou ao **Tribunal Superior Eleitoral (TSE)**, conforme a hipótese (art. 36, II). Para assegurar princípios constitucionais sensíveis ou enfrentar recusa de execução de lei federal, exige-se **representação do Procurador-Geral da República (PGR) acolhida pelo STF** (art. 36, III). Solicitar é pedir a medida; requisitar é acionar a hipótese constitucional por órgão judicial competente; prover representação é julgar procedente o pedido apresentado ao STF. Essas etapas não significam que o tribunal substitua o Presidente na edição do decreto.
+
+O **decreto de intervenção** deve indicar a extensão da medida, sua duração, as condições de execução e, quando necessário, o interventor. Em regra, é submetido ao **Congresso Nacional em até 24 horas**; na intervenção estadual em Município, o controle cabe à **Assembleia Legislativa**. Se o órgão parlamentar estiver em recesso, há convocação extraordinária no mesmo prazo (art. 36, §§ 1º e 2º). Nas hipóteses do art. 34, VI e VII, e do art. 35, IV, a Constituição dispensa essa apreciação parlamentar **se bastar suspender a execução do ato impugnado**: nesse caso, o decreto se limita a tal suspensão (art. 36, § 3º). Encerrados os motivos da intervenção, as autoridades afastadas retornam aos cargos, salvo impedimento legal (§ 4º).
+
+**Caso hipotético:** uma decisão judicial contra um Estado deixa de ser cumprida. A questão exige identificar o tribunal competente para requisitar a intervenção, a competência presidencial para decretá-la e a exceção constitucional de controle parlamentar, se a simples suspensão do ato for suficiente. Já uma crise grave de ordem pública do art. 34, III, segue caminho distinto, com controle congressual do decreto. Assim, **nem toda intervenção começa por pedido do PGR, nem todo decreto exige votação do Congresso**.
+
+**Teste C/E autoral:** “Toda intervenção federal depende de representação prévia do Procurador-Geral da República e de aprovação posterior do Congresso Nacional.” **Errado.** O art. 36 distingue hipóteses de solicitação, requisição e representação acolhida pelo STF, além da dispensa excepcional de apreciação parlamentar prevista no § 3º.
+
+**Fonte normativa específica:** [Constituição Federal, arts. 34 a 36 e 84, X, publicação do Senado](https://legis.senado.leg.br/norma/579494/publicacao/16434817).
 
 ## Como a banca cobra
 

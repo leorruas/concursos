@@ -34,9 +34,14 @@ try:
         print(f"Verificando artigo {number}: {url}", flush=True)
         driver.set_window_size(1440, 900)
         driver.get(url)
-        driver.execute_script("localStorage.setItem('tema-concursos','light')")
-        driver.refresh()
-        wait.until(lambda d: marker in d.find_element(By.ID, "artigo-corpo").text)
+        try:
+            wait.until(lambda d: marker in d.find_element(By.ID, "artigo-corpo").text)
+        except Exception:
+            Path(f"screenshots/{number}-debug.html").write_text(driver.page_source, encoding="utf-8")
+            driver.save_screenshot(f"screenshots/{number}-debug.png")
+            print(f"Falha no artigo {number}: url={driver.current_url}; title={driver.title}; corpo={driver.find_element(By.ID, 'artigo-corpo').text[:400]}", flush=True)
+            raise
+        driver.execute_script("localStorage.setItem('tema-concursos','light'); document.documentElement.setAttribute('data-theme','light')")
         title = driver.find_element(By.ID, "artigo-titulo").text
         assert title, f"Artigo {number}: título ausente"
         assert "não foi possível carregar este artigo" not in driver.page_source.lower()
@@ -45,8 +50,7 @@ try:
         print(f"Artigo {number}: DOM carregado, título: {title}", flush=True)
 
         driver.set_window_size(390, 844)
-        driver.execute_script("localStorage.setItem('tema-concursos','dark')")
-        driver.refresh()
+        driver.execute_script("localStorage.setItem('tema-concursos','dark'); document.documentElement.setAttribute('data-theme','dark')")
         wait.until(lambda d: marker in d.find_element(By.ID, "artigo-corpo").text)
         driver.execute_script("window.scrollTo(0,0)")
         assert driver.save_screenshot(f"screenshots/{number}-mobile-dark.png")

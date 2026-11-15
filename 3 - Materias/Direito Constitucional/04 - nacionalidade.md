@@ -10,7 +10,9 @@ updated: 2026-11-15
 
 # Nacionalidade
 
-Nacionalidade é o vínculo jurídico-político entre a pessoa e o Estado. Para prova, a estrutura central está no art. 12 da Constituição: **brasileiros natos, brasileiros naturalizados, distinções constitucionais entre eles e hipóteses de perda da nacionalidade**.
+Imagine duas crianças nascidas no Brasil: uma filha de turistas estrangeiros e outra de diplomatas estrangeiros que estão a serviço do país deles. A nacionalidade das duas será a mesma? O art. 12 da Constituição exige verificar tanto o lugar do nascimento quanto a situação dos pais.
+
+**Nacionalidade** é o vínculo jurídico-político entre a pessoa e o Estado. Para prova, a estrutura central está no art. 12 da Constituição: **brasileiros natos, brasileiros naturalizados, distinções constitucionais entre eles e hipóteses de perda da nacionalidade**.
 
 ## Nacionalidade originária × adquirida
 
@@ -30,7 +32,7 @@ O art. 12, I, prevê três grupos.
 
 É brasileiro nato quem nasce na República Federativa do Brasil, ainda que de pais estrangeiros, **desde que estes não estejam a serviço de seu país**.
 
-A banca costuma inverter a exceção: nascer no Brasil de pais estrangeiros não retira, por si só, a nacionalidade brasileira. O elemento constitucional relevante é o serviço prestado ao país estrangeiro.
+No exemplo inicial, o filho dos turistas é brasileiro nato; o filho de pais estrangeiros a serviço do país deles se enquadra na exceção territorial. O fato de os pais serem estrangeiros, isoladamente, não retira a nacionalidade brasileira. A questão precisa indicar se eles estão a serviço **de seu país**, e não apenas se trabalham no Brasil.
 
 ### 2. Nascimento no exterior com pai ou mãe a serviço do Brasil
 
@@ -100,7 +102,7 @@ Para prova, a regra mental é: **a lei comum não cria novas distinções; a pr�
 
 ## Perda da nacionalidade: EC nº 131/2023
 
-A EC nº 131/2023 alterou profundamente o § 4º do art. 12. A redação antiga não deve ser usada.
+A Emenda Constitucional (EC) nº 131/2023 alterou profundamente o § 4º do art. 12. A redação antiga não deve ser usada. **Apatridia** é a condição de alguém que nenhum Estado reconhece como nacional. O pedido expresso de perda da nacionalidade brasileira não pode produzir apatridia, conforme a ressalva constitucional. Assim, adquirir outra nacionalidade e pedir a perda da brasileira são fatos distintos.
 
 A perda pode ocorrer quando:
 
@@ -142,7 +144,7 @@ A cobrança tende a deslocar uma condição constitucional para a hipótese erra
 
 ## Tensões e pegadinhas
 
-- **Jus soli × jus sanguinis**: a Constituição brasileira combina critérios; nenhum deles explica sozinho todas as hipóteses.
+- **Jus soli (critério do território de nascimento) × jus sanguinis (critério da filiação)**: o primeiro considera o local do nascimento; o segundo, a nacionalidade do pai ou da mãe. A Constituição brasileira combina ambos sob condições específicas. Exemplo: ter mãe brasileira e nascer fora do Brasil não satisfaz, sozinho, o art. 12, I, c; é preciso registro em repartição brasileira competente ou residência no Brasil acompanhada da opção após a maioridade.
 - **Registro × opção**: são caminhos alternativos no art. 12, I, c.
 - **Nato × cidadão**: nacionalidade não equivale automaticamente a capacidade eleitoral.
 - **Regra × exceção**: igualdade entre natos e naturalizados é a regra; distinções dependem de previsão constitucional.

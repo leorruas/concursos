@@ -22,9 +22,19 @@ Os direitos políticos disciplinam a participação do cidadão na formação da
 
 ## Soberania popular, sufrágio e voto
 
-O art. 14 da Constituição dispõe que a soberania popular será exercida pelo **sufrágio universal** e pelo **voto direto e secreto, com valor igual para todos**, além de plebiscito, referendo e iniciativa popular nos termos da lei.
+Imagine três decisões distintas: **eleger representantes**, **responder a uma consulta sobre uma proposta antes da decisão política** e **confirmar ou rejeitar uma decisão já tomada**. Todas envolvem participação popular, mas operam de modos diferentes.
 
-A periodicidade do voto aparece também como garantia protegida contra emenda no art. 60, § 4º. Em questão de literalidade, não confunda o texto do art. 14 com a fórmula das cláusulas pétreas.
+**Soberania popular** significa que o poder político tem origem no povo (art. 1º, parágrafo único). **Sufrágio** é o direito de participar das decisões políticas, sobretudo por meio da escolha de representantes; **voto** é o ato pelo qual esse direito é exercido em uma votação. O **sufrágio universal** estende a participação aos cidadãos em geral segundo os requisitos constitucionais: não autoriza votar sem alistamento nem elimina a idade mínima. O art. 14 exige voto **direto** (a escolha é feita pelo próprio eleitor, nas eleições a que essa regra se aplica), **secreto** (o conteúdo da escolha é protegido) e **com valor igual para todos** (cada voto tem o mesmo peso jurídico).
+
+O art. 14, I a III, também prevê mecanismos de participação direta, regulamentados pela Lei nº 9.709/1998:
+
+- **Plebiscito:** consulta convocada **antes** de uma decisão política de relevância, para que o povo aprove ou rejeite a questão apresentada.
+- **Referendo:** consulta convocada **depois** de ato político ou normativo, para que o povo o confirme ou rejeite.
+- **Iniciativa popular:** apresentação de projeto de lei pelos cidadãos, observados os requisitos aplicáveis. No plano federal, o art. 61, § 2º, exige assinatura de pelo menos **1% do eleitorado nacional**, distribuído por **cinco Estados ou mais**, com **0,3% dos eleitores de cada um deles**, no mínimo. A apresentação do projeto **não o transforma automaticamente em lei**: ele passa pelo processo legislativo.
+
+**Exemplos reais:** o plebiscito nacional de 1993 consultou sobre forma e sistema de governo; o referendo de 2005 tratou da proibição do comércio de armas de fogo e munição. Os dois ilustram a diferença temporal: consulta sobre escolha a realizar versus ratificação ou rejeição de norma já editada.
+
+A **periodicidade do voto** é protegida pelo art. 60, § 4º, II, que impede proposta de emenda tendente a abolir o voto direto, secreto, universal e periódico. Em questão de literalidade, confira se a banca está pedindo a redação do art. 14 ou a fórmula das cláusulas pétreas.
 
 ## Alistamento eleitoral e voto
 

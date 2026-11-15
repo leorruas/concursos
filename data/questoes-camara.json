@@ -50499,6 +50499,34 @@
       "correctAnswer": "C",
       "explanation": "O art. 43, § 1º, I, da Lei nº 4.320/1964 admite o superávit financeiro do exercício anterior como fonte na parcela ainda disponível. Dos R$ 500 mil já apurados, R$ 350 mil estão comprometidos com o crédito aberto. A diferença disponível nessa fonte é R$ 150 mil.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 43, caput e § 1º, I, no texto da Câmara, a seção canônica e o cálculo da parcela remanescente. O caso exige distinguir o superávit apurado da disponibilidade após uso parcial."
+    },
+    {
+      "id": "cam-orc-l191-001-data-autorizacao-abertura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / orçamento público e créditos adicionais",
+      "articleId": "art-87b69e1d4ac54f20",
+      "conceptId": "reabertura-data-promulgacao-autorizacao",
+      "mechanism": "escolher-marco-temporal-entre-autorizacao-e-abertura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-87b69e1d4ac54f20#Vigência e reabertura"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+        "section": "Vigência e reabertura"
+      },
+      "statement": "A lei que autorizou determinado crédito especial foi promulgada em agosto, mas o decreto de abertura só foi editado em outubro. Havendo saldo ao fim do exercício, a data do decreto de abertura permite reabrir esse saldo no exercício seguinte com base no art. 167, § 2º, da Constituição.",
+      "correctAnswer": "E",
+      "explanation": "A exceção constitucional é determinada pela promulgação do ato de autorização nos últimos quatro meses do exercício, de setembro a dezembro. A lei foi promulgada em agosto. A edição do decreto de abertura em outubro não altera essa data.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 167, § 2º, na Constituição publicada pela Câmara, o subtítulo literal e o marco temporal. O item exige escolher o ato determinante quando autorização e abertura estão em meses diferentes."
     }
   ]
 }

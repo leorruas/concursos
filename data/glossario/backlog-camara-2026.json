@@ -467,6 +467,14 @@
       "examBlock": "Conhecimentos básicos: Direito Constitucional",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-perda-eficacia-mp",
+      "term": "Perda de eficácia de medida provisória",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

@@ -48847,6 +48847,62 @@
       "correctAnswer": "E",
       "explanation": "Com dois candidatos, 51% e 90% dos votos produzem a mesma consequência distrital: uma cadeira para o vencedor. A margem de vitória não gera cadeiras adicionais.",
       "reviewEvidence": "Revisão por IA com conferência da regra de alocação distrital. Com dois candidatos, 51% e 90% dos votos produzem a mesma consequência distrital: uma cadeira para o vencedor. A margem de vitória não gera cadeiras adicionais. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l146-001-segundo-turno-sem-soma",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "segundo-turno-sem-soma",
+      "mechanism": "testar-independencia-da-segunda-votacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Comparação entre desenhos majoritários"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Comparação entre desenhos majoritários"
+      },
+      "statement": "Em uma eleição hipotética de dois turnos, Ana ficou à frente de Bruno na primeira votação, mas não atingiu maioria absoluta. Bruno obteve a maioria dos votos válidos no segundo turno. Para declarar o vencedor, é preciso verificar se a vantagem de Bruno no segundo turno supera a vantagem de Ana no primeiro.",
+      "correctAnswer": "E",
+      "explanation": "O segundo turno tem apuração própria. A maioria obtida nessa votação define o vencedor, independentemente da margem registrada no primeiro turno.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O segundo turno tem apuração própria. A maioria obtida nessa votação define o vencedor, independentemente da margem registrada no primeiro turno. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l146-002-preferencial-sem-nova-votacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "preferencial-sem-nova-votacao",
+      "mechanism": "identificar-transferencia-de-preferencias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Comparação entre desenhos majoritários"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Comparação entre desenhos majoritários"
+      },
+      "statement": "Em uma eleição com voto alternativo, os eleitores ordenam as candidaturas numa única cédula. Se a primeira contagem não produzir maioria, as preferências registradas podem ser usadas para redistribuir votos sem novo comparecimento dos eleitores.",
+      "correctAnswer": "C",
+      "explanation": "A redistribuição usa a ordem de preferências já registrada. Ela permite continuar a apuração sem convocar nova votação.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A redistribuição usa a ordem de preferências já registrada. Ela permite continuar a apuração sem convocar nova votação. Dificuldade estimada."
     }
   ]
 }

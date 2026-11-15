@@ -49435,6 +49435,34 @@
       "correctAnswer": "E",
       "explanation": "A iniciativa define quem pode apresentar a proposta. Nas regras descritas, escolher o momento da votação é atribuição do colegiado.",
       "reviewEvidence": "Revisão por IA com conferência da distinção entre poderes de agenda. A iniciativa define quem pode apresentar a proposta. Nas regras descritas, escolher o momento da votação é atribuição do colegiado. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l164-001-prioridade-sem-maioria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes e coalizões",
+      "articleId": "art-71d4e9b30c86a25f",
+      "conceptId": "prioridade-sem-maioria",
+      "mechanism": "separar-precedencia-de-apoio-na-votacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-71d4e9b30c86a25f#Estrutura: instituições, recursos e resultados"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes.md",
+        "section": "Estrutura: instituições, recursos e resultados"
+      },
+      "statement": "Em uma assembleia hipotética, a liderança do governo consegue que seu projeto seja votado antes dos demais. A prioridade obtida é suficiente para assegurar a aprovação, mesmo que os votos favoráveis não atinjam o quórum exigido.",
+      "correctAnswer": "E",
+      "explanation": "A prioridade determina a ordem da apreciação. A aprovação depende dos votos exigidos pelas regras da assembleia.",
+      "reviewEvidence": "Revisão por IA com cotejo da seção indicada. A prioridade determina a ordem da apreciação. A aprovação depende dos votos exigidos pelas regras da assembleia. Dificuldade estimada."
     }
   ]
 }

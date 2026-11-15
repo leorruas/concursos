@@ -49743,6 +49743,62 @@
       "correctAnswer": "E",
       "explanation": "A tipologia observa quem controla a seleção da liderança e as decisões do regime. A profissão do dirigente, isoladamente, não demonstra controle pelos militares como organização.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A tipologia observa quem controla a seleção da liderança e as decisões do regime. A profissão do dirigente, isoladamente, não demonstra controle pelos militares como organização. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l173-001-gabinete-troca-sem-eleicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo",
+      "articleId": "art-d7b3e591a46c82f0",
+      "conceptId": "gabinete-troca-sem-eleicao",
+      "mechanism": "separar-substituicao-de-governo-e-renovacao-legislativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Parlamentarismo: confiança legislativa e responsabilidade do gabinete"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo.md",
+        "section": "Parlamentarismo: confiança legislativa e responsabilidade do gabinete"
+      },
+      "statement": "Em um sistema parlamentarista hipotético, o gabinete perde a confiança da assembleia, que consegue formar uma nova maioria em torno de outro gabinete. A substituição do governo pode ocorrer sem renovar as cadeiras da assembleia.",
+      "correctAnswer": "C",
+      "explanation": "A nova maioria pode sustentar outro gabinete dentro da mesma legislatura. A troca de gabinete e a renovação da assembleia são eventos distintos.",
+      "reviewEvidence": "Revisão por IA com cotejo da seção indicada. A nova maioria pode sustentar outro gabinete dentro da mesma legislatura. A troca de gabinete e a renovação da assembleia são eventos distintos. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l173-002-dupla-responsabilidade-gabinete",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas de governo",
+      "articleId": "art-d7b3e591a46c82f0",
+      "conceptId": "dupla-responsabilidade-gabinete",
+      "mechanism": "classificar-pela-autoridade-de-destituicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d7b3e591a46c82f0#Shugart e Carey: duas variantes de responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/18 - sistemas de governo presidencialismo e parlamentarismo.md",
+        "section": "Shugart e Carey: duas variantes de responsabilidade"
+      },
+      "statement": "Em um sistema semipresidencialista hipotético, tanto o presidente quanto o Parlamento podem destituir o gabinete. Na tipologia de Shugart e Carey, esse arranjo corresponde à variante premier-presidencial.",
+      "correctAnswer": "E",
+      "explanation": "A dupla responsabilidade do gabinete caracteriza a variante presidente-parlamentar. Na variante premier-presidencial, a sobrevivência do gabinete depende da confiança parlamentar.",
+      "reviewEvidence": "Revisão por IA com cotejo da seção indicada. A dupla responsabilidade do gabinete caracteriza a variante presidente-parlamentar. Na variante premier-presidencial, a sobrevivência do gabinete depende da confiança parlamentar. Dificuldade estimada."
     }
   ]
 }

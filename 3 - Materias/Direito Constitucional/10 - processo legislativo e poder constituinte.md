@@ -207,6 +207,18 @@ O decreto legislativo costuma formalizar **competências exclusivas do Congresso
 > [!TIP]
 > **Método para resolver item da Cebraspe:** (1) O texto da Constituição será alterado? (2) Existe reserva explícita de LC? (3) O assunto é de competência exclusiva ou própria do Legislativo? (4) O Presidente está editando uma MP ou elaborando lei por delegação? (5) Quem tem iniciativa? (6) Qual é o quórum e quem promulga? **Essas perguntas não são intercambiáveis.**
 
+### Quando a proposta é rejeitada e quando a matéria pode voltar
+
+**Situação hipotética:** a Câmara rejeita um projeto de lei ordinária. O art. 67 da Constituição permite que a **mesma matéria** volte a ser objeto de novo projeto na **mesma sessão legislativa** se a nova proposta partir da **maioria absoluta dos membros de uma das Casas**. Esse requisito é de **iniciativa para reapresentação**, não o quórum de aprovação do novo projeto. Com 513 deputados, maioria absoluta são 257; com 81 senadores, 41.
+
+Uma **Proposta de Emenda à Constituição (PEC)** rejeitada ou considerada prejudicada tem regra diferente: o art. 60, § 5º, veda nova proposta sobre a **mesma matéria na mesma sessão legislativa**, sem a exceção de maioria absoluta prevista para projetos de lei. **Sessão legislativa** é o período anual de trabalho do Congresso, enquanto **legislatura** corresponde ao período de quatro anos. Trocar esses termos muda a conclusão.
+
+**Caso com uma variável de diferença:** um projeto de lei é rejeitado em junho e um novo projeto de mesma matéria é apresentado em setembro por maioria absoluta da Câmara: o art. 67 admite a reapresentação. Se o primeiro texto fosse uma **PEC** rejeitada, o apoio da maioria absoluta não afastaria a vedação do art. 60, § 5º.
+
+**Item C/E autoral:** “Matéria de PEC rejeitada pode voltar na mesma sessão legislativa desde que a iniciativa seja subscrita por maioria absoluta dos deputados.” **Errado.** A exceção do art. 67 vale para projetos de lei, não para PEC rejeitada.
+
+**Fonte:** [Constituição Federal, arts. 60, § 5º, e 67](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+
 ## Como nasce uma lei: iniciativa, votação e atos finais
 
 Para **lei ordinária ou complementar**, imagine o percurso básico:

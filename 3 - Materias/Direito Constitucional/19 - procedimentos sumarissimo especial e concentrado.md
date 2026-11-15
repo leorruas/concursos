@@ -118,11 +118,12 @@ O **art. 62, § 9º**, atribui a **comissão mista de deputados e senadores** o 
 
 Na **lei delegada** (CF, art. 68), o presidente solicita delegação ao **Congresso**, que especifica **conteúdo e condições** em **resolução**. O Congresso pode reservar apreciação do projeto, **em votação única e vedada emenda** na hipótese do § 3º. Não é idêntica à **medida provisória**, editada inicialmente pelo Executivo com força de lei sem delegação prévia. Tampouco é o **rito sumário** de projeto presidencial com urgência.
 
+
+## Procedimento concentrado: Câmara e Senado reunidos
+
 ### Três formas de participação parlamentar que parecem iguais
 
 **Comissão mista** reúne deputados e senadores para **examinar** uma matéria e produzir parecer, como ocorre, em regra, com medidas provisórias (CF, art. 62, § 9º). **Votação em cada Casa** significa que Câmara e Senado decidem em etapas próprias, como na conversão de medida provisória (art. 62, § 8º). **Sessão conjunta** significa que deputados e senadores se reúnem numa sessão do Congresso, como na apreciação de veto (art. 66, § 4º), mas essa reunião **não transforma automaticamente os votos em uma soma única**: para derrubar veto, são exigidas maiorias absolutas separadas de deputados e senadores. Portanto, a presença de uma comissão mista **não prova** que a votação final será conjunta; a sessão conjunta **não prova** que haverá quórum agregado.
-
-## Procedimento concentrado: Câmara e Senado reunidos
 
 Na classificação de **Luciano Henrique da Silva Oliveira (2021)**, o **procedimento concentrado** é aquele aplicável às matérias **deliberadas em sessão conjunta do Congresso**, como projetos de **leis orçamentárias** e de **resolução do Congresso**. **Concentrado** descreve o **formato institucional de deliberação conjunta**, não um rito com quórum universalmente menor nem uma forma de produção de lei com apenas uma Casa.
 

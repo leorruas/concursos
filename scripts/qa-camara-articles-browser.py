@@ -66,8 +66,10 @@ try:
         assert driver.save_screenshot(f"screenshots/{number}-desktop-light.png")
         print(f"Artigo {number}: DOM carregado, título: {title}", flush=True)
 
+        driver.execute_script("localStorage.setItem('tema-concursos','dark')")
+        driver.get("about:blank")
         driver.set_window_size(390, 844)
-        driver.execute_script("localStorage.setItem('tema-concursos','dark'); document.documentElement.setAttribute('data-theme','dark')")
+        driver.get(url)  # tema escuro é aplicado ANTES do CSS renderizar
         wait.until(lambda d: marker.casefold() in d.find_element(By.ID, "artigo-corpo").text.casefold())
         esperar_transicao(driver)
         driver.execute_script("window.scrollTo(0,0)")

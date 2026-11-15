@@ -48903,6 +48903,34 @@
       "correctAnswer": "C",
       "explanation": "A redistribuição usa a ordem de preferências já registrada. Ela permite continuar a apuração sem convocar nova votação.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A redistribuição usa a ordem de preferências já registrada. Ela permite continuar a apuração sem convocar nova votação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l147-001-delegacao-em-cadeia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação política",
+      "articleId": "art-3b8e7a6c91d4052f",
+      "conceptId": "delegacao-em-cadeia",
+      "mechanism": "classificar-papel-em-duas-relacoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Principal-agente: delegação, assimetria e problemas de controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao.md",
+        "section": "Principal-agente: delegação, assimetria e problemas de controle"
+      },
+      "statement": "Os eleitores delegam decisões a uma parlamentar, que encarrega sua equipe de elaborar propostas em seu nome. No modelo principal-agente, a parlamentar pode ser agente na primeira relação e principal na segunda.",
+      "correctAnswer": "C",
+      "explanation": "O papel depende da relação examinada. A parlamentar recebe poder decisório na primeira e distribui tarefas à equipe na segunda.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O papel depende da relação examinada. A parlamentar recebe poder decisório na primeira e distribui tarefas à equipe na segunda. Dificuldade estimada."
     }
   ]
 }

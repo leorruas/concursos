@@ -49883,6 +49883,34 @@
       "correctAnswer": "C",
       "explanation": "A caixa de A cobre 12 unidades e a de B cobre 8. Isso compara a dispersão entre o primeiro e o terceiro quartis, sem determinar a amplitude total.",
       "reviewEvidence": "Revisão por IA com conferência das diferenças entre quartis. A caixa de A cobre 12 unidades e a de B cobre 8. Isso compara a dispersão entre o primeiro e o terceiro quartis, sem determinar a amplitude total. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ti-l177-001-caixa-deslocada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-e3831c8dec419d79",
+      "conceptId": "caixa-deslocada",
+      "mechanism": "comparar-dispersao-apos-deslocamento-uniforme",
+      "questionType": "interpretacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-e3831c8dec419d79#5. Comparação e cruzamento de grupos com box plots múltiplos"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/28 - dispersao e box plot relacoes distribuicao e resumo estatistico.md",
+        "section": "5. Comparação e cruzamento de grupos com box plots múltiplos"
+      },
+      "statement": "Um box plot tem primeiro e terceiro quartis iguais a 12 e 20. Se forem somadas cinco unidades a cada observação, o novo box plot terá intervalo interquartil igual a 13.",
+      "correctAnswer": "E",
+      "explanation": "O intervalo interquartil mede a distância entre os quartis. Deslocar ambos em cinco unidades conserva essa distância, mesmo com mudança na posição da distribuição.",
+      "reviewEvidence": "Revisão por IA com conferência dos quartis após translação. O intervalo interquartil mede a distância entre os quartis. Deslocar ambos em cinco unidades conserva essa distância, mesmo com mudança na posição da distribuição. Dificuldade estimada."
     }
   ]
 }

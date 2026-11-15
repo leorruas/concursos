@@ -99,6 +99,8 @@ O **art. 226** assegura ao deputado o direito de **propor, discutir e deliberar;
 
 **Art. 251:** o texto regimental conserva passagens referidas ao **processo de licença** e a **voto secreto**. Em prova sobre o direito vigente, a leitura deve passar pela **CF art. 53 após EC 35/2001**, que eliminou a licença prévia e prevê o regime de sustação da ação penal, com maioria dos membros e fundamentos específicos. **Não reproduzir automaticamente os incisos incompatíveis do art. 251 como se estivessem plenamente vigentes.** O próprio art. 249 é assinalado como revogado tacitamente.
 
+**Rito antigo × Constituição atual (art. 251):** a parte do dispositivo que trata de licença prévia para processar parlamentar e de voto secreto não deve ser usada sem confronto com a **Emenda Constitucional nº 35/2001**. No flagrante de crime inafiançável, o parâmetro decisório é o art. **53, § 2º, da Constituição**: envio dos autos à Casa respectiva em **24 horas** e deliberação, por voto da **maioria de seus membros**, sobre a prisão. Em matéria de ação penal, o art. **53, §§ 3º a 5º** disciplina outro objeto: a eventual **sustação de ação já instaurada**, em condições constitucionais específicas. Por isso, uma notícia institucional não deve apresentar a votação sobre prisão como autorização para iniciar o processo criminal, nem a sustação como absolvição.
+
 **Fronteiras que importam:** prisão em flagrante de crime inafiançável **≠** condenação criminal; apreciação dos autos em 24 horas **≠** autorização para iniciar processo; imunidade material **≠** impunidade disciplinar; **sustação** da ação penal, nos casos previstos na Constituição, **≠** absolvição judicial.
 
 ## 6. Casos progressivos para identificar o órgão e a condição

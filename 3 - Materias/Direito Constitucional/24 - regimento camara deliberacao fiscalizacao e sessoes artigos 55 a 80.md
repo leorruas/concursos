@@ -198,6 +198,6 @@ A **sessão ordinária** tem etapas previstas no **art. 66**: **Pequeno Expedien
 
 - [Regimento Interno da Câmara dos Deputados, arts. 55–80, texto consolidado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), consultado em **08/11/2026**.
 - [Câmara dos Deputados: Regimento Interno, 31ª edição, atualizado até Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
-- [Constituição Federal, arts. 58 e 70–75](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+- [Constituição Federal, arts. 58 e 70–75](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 
 **Nota editorial:** esta nota complementa a cobertura de comissões e pareceres já existente. Os itens C/E são originais para estudo, e a conclusão editorial não significa aprendizado realizado nem publicação confirmada no Pages.

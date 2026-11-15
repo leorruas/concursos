@@ -10491,7 +10491,7 @@
       "reviewedAt": "2026-11-15",
       "revision": 1,
       "conceptIds": [
-        "glo-camara-promulgacao"
+        "glo-camara-apreciacao-conclusiva"
       ],
       "contrast": {
         "prompt": "Uma comissão emitiu parecer favorável em projeto de urgência constitucional. O projeto está definitivamente aprovado?",

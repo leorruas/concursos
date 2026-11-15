@@ -14,7 +14,7 @@ updated: 2026-11-15
 
 | articleId | Artigo | Estado inicial em 15/11/2026 | Evidência / PR / SHA / URL e próxima ação |
 | :--- | :--- | :--- | :--- |
-| `art-6b9002df47604ea5` | `3 - Materias/Direito Administrativo/05 - agentes publicos.md` | a conferir | Consultar evidências oficiais, PRs, histórico e versão publicada antes de classificar |
+| `art-6b9002df47604ea5` | `3 - Materias/Direito Administrativo/05 - agentes publicos.md` | em PR | Revisão textual integral de seções, tabelas, diagramas e seis itens C/E; corrigidos requisitos de estabilidade, art. 169, contratação temporária, conceitos legais e exemplos. Commit `ea93795`; fontes indicadas: CF arts. 37, 41, 169; Leis 8.745/1993 e 8.429/1992; CP art. 327. **Cotejo oficial de jurisprudência, vínculos de glossário/flashcards, CI, merge e Pages ainda pendentes; sem certificação integral.** |
 | `art-ea06e80ef83f4af7` | `3 - Materias/Direito Administrativo/07 - improbidade administrativa.md` | a conferir | Consultar evidências oficiais, PRs, histórico e versão publicada antes de classificar |
 | `art-4c8a4b35894d4fa9` | `3 - Materias/Direito Administrativo/09 - processo administrativo federal.md` | a conferir | Consultar evidências oficiais, PRs, histórico e versão publicada antes de classificar |
 | `art-b1f27b8954f08262` | `3 - Materias/Direito Administrativo/19 - requisicao cessao e movimentacao de agentes publicos.md` | a conferir | Consultar evidências oficiais, PRs, histórico e versão publicada antes de classificar |

@@ -43,7 +43,7 @@ O **art. 57** disciplina operações que devem ser lidas em sequência:
 
 **Contagem dos votos (art. 57, XIV):** são favoráveis votos **pelas conclusões**, **com restrições** e **em separado não divergentes das conclusões**; contrários são os **vencidos** e **em separado divergentes**. Quem vota **com restrição** precisa explicar qual é sua divergência; se não o fizer, o voto é considerado **integralmente favorável** (XV). Portanto, o nome do voto não decide isoladamente o placar; importa a **relação com a conclusão**.
 
-**Vista do processo (art. 57, XVI):** é concedida por **duas sessões**, salvo **matéria em regime de urgência**. Quando vários membros pedem vista simultaneamente, ela é **conjunta e na própria comissão**, sem atendimento a pedidos sucessivos. Um item que promete vista individual de duas sessões a cada deputado, um após o outro, erra a condição.
+**Vista do processo (art. 57, XVI):** como regra, o membro da comissão tem direito a examinar o processo por **duas sessões**, desde que a matéria **não esteja em regime de urgência**. Se vários membros pedirem vista simultaneamente, ela será **conjunta e na própria comissão**, sem pedidos sucessivos. Em regime de urgência, o artigo **não assegura esse direito de duas sessões**. Isso não equivale a proibição absoluta: em [decisão da Presidência de 24/09/2015](https://www2.camara.leg.br/legin/int/dpsn/2015/decisaodapresidencia-57009-24-setembro-2015-781585-publicacaooriginal-148202-cd-presi.html), a Câmara esclareceu que o presidente da comissão pode, em conjunto com o relator, **conceder vista de modo discricionário**, no recinto da comissão, desde que não prejudique a relatoria nem os prazos. Portanto, **não há direito automático à vista em urgência**, mas tampouco uma vedação absoluta a qualquer exame.
 
 **Questão de ordem na comissão (art. 57, XXI):** deve ser resolvida pelo **Presidente da comissão** antes de poder ser levada, em grau de recurso e por escrito, ao **Presidente da Câmara**, sem suspensão automática do andamento. Não confundir a instância do recurso com recurso contra **apreciação conclusiva** do art. 58.
 
@@ -82,11 +82,11 @@ O **art. 61** disciplina uma proposta de fiscalização e controle (PFC) sobre a
 3. **Implementação:** se a comissão aprovar o relatório prévio, **o mesmo relator** fica encarregado de implementar a fiscalização, observado o regime regimental.
 4. **Relatório final:** reúne comprovação da legalidade do ato, avaliação política, administrativa, social e econômica e **eficácia de resultados** sobre gestão orçamentária, financeira e patrimonial, conforme o caso.
 
-O § 1º permite solicitar ao **TCU** providências e informações constitucionais. O § 2º determina prazos **não inferiores a dez dias** para cumprimento de convocações, prestação de informações, requisição de documentos e realização de diligências e perícias. **Piso de dez dias** não é prazo máximo. Descumprimento pode ensejar **apuração de responsabilidade na forma da lei** (§ 3º).
+O § 1º permite solicitar ao **Tribunal de Contas da União (TCU)** providências e informações constitucionais. O § 2º determina prazos **não inferiores a dez dias** para cumprimento de convocações, prestação de informações, requisição de documentos e realização de diligências e perícias. **Piso de dez dias** não é prazo máximo. Descumprimento pode ensejar **apuração de responsabilidade na forma da lei** (§ 3º).
 
 **Art. 61-A, plano × relatório anual:** a **Comissão de Fiscalização Financeira e Controle** implementa em cada sessão legislativa o **Plano Anual de Fiscalização Financeira e Controle (PAFC)**, aprovado em até **cinco sessões da reinstalação da comissão**. O **Relatório Anual de Fiscalização e Controle (RAFC)** deve ser aprovado **até o fim da sessão legislativa** e enviado ao **TCU e ao órgão de controle interno do Executivo**. **PAFC antecipa ações; RAFC presta conta delas**. Não inverter a ordem ou dizer que o TCU aprova o plano da comissão.
 
-A comparação com controle externo constitucional está na [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder legislativo]]. PFC **não é CPI**: a primeira segue arts. 60–61; a segunda possui condições do art. 35 e do art. 58, § 3º, da Constituição.
+A comparação com controle externo constitucional está na [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder legislativo]]. PFC **não é comissão parlamentar de inquérito (CPI)**: a primeira segue arts. 60–61; a segunda possui condições do art. 35 e do art. 58, § 3º, da Constituição.
 
 ## 4. Secretaria, atas e assessoramento: arts. 62 a 64
 
@@ -162,7 +162,7 @@ A **sessão ordinária** tem etapas previstas no **art. 66**: **Pequeno Expedien
 
 **3.** Nas deliberações da comissão, como regra, a maioria dos votos decide, presente a maioria absoluta dos membros, prevalecendo o voto do relator em caso de empate. **Certo.** Art. 56, § 2º. Quórum de presença, votação e desempate são três elementos distintos.
 
-**4.** A vista de proposição em comissão, requerida simultaneamente por diversos membros, será concedida individualmente a cada um pelo prazo de duas sessões, inclusive nas matérias urgentes. **Errado.** Art. 57, XVI: **vista conjunta**, **não sucessiva** e excluída em **urgência**.
+**4.** A vista de proposição em comissão, requerida simultaneamente por diversos membros, será concedida individualmente a cada um pelo prazo de duas sessões, inclusive nas matérias urgentes. **Errado.** Art. 57, XVI: pedidos simultâneos recebem **vista conjunta**, não sucessiva. A urgência **afasta o direito regimental à vista por duas sessões**, mas não impede toda concessão discricionária, conforme [decisão da Presidência de 24/09/2015](https://www2.camara.leg.br/legin/int/dpsn/2015/decisaodapresidencia-57009-24-setembro-2015-781585-publicacaooriginal-148202-cd-presi.html).
 
 **5.** O recurso contra apreciação conclusiva pelas comissões exige, no mínimo, um décimo dos deputados e deve ser apresentado até cinco sessões contadas da publicação da matéria. **Certo.** Art. 58, §§ 1º e 3º. O marco é **publicação**, não primeiro parecer.
 

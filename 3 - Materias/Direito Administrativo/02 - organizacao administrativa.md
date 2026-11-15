@@ -20,7 +20,7 @@ A organização da Administração Pública brasileira estrutura a distribuiçã
 
 Dois pontos de fronteira doutrinária e jurisprudencial concentram a maior incidência de distratores do Cebraspe:
 1. **A ausência de hierarquia ou subordinação entre a Administração Direta e a Indireta:** A relação entre o ministério supervisor e a entidade descentralizada é de **vinculação e controle finalístico**, nos limites legais, e não de hierarquia. A intensidade do controle depende da legislação aplicável; não se presume poder geral de substituir decisões da entidade.
-2. **As regras de criação e autorização legislativa do art. 37, XIX, da CF/1988:** Somente a autarquia é **criada diretamente por lei específica**; as empresas públicas, as sociedades de economia mista e as fundações públicas têm sua **instituição autorizada por lei específica**, exigindo-se, no caso destas últimas, lei complementar para definir suas áreas de atuação.
+2. **As regras de criação e autorização legislativa do art. 37, XIX, da CF/1988:** A **autarquia e a fundação pública de direito público (autárquica)** são criadas diretamente por lei específica. A instituição de **empresa pública, sociedade de economia mista e fundação pública de direito privado** depende de autorização em lei específica e dos atos constitutivos correspondentes. O art. 37, XIX, também prevê lei complementar para definir áreas de atuação das fundações.
 
 ---
 
@@ -51,11 +51,11 @@ A tabela a seguir sistematiza as quatro espécies de entidades que integram a Ad
 
 | Entidade | Personalidade Jurídica | Forma de Criação (Art. 37, XIX) | Objeto / Finalidade Típica | Regime de Pessoal | Foro Processual (Esfera Federal) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Autarquia** | **Direito Público** | **Criada diretamente por lei específica** (adquire personalidade com a vigência da lei) | Atividades típicas de Estado, fiscalização, poder de polícia, previdência social | Estatutário (Regime Jurídico Único - Lei 8.112/1990) | Justiça Federal (art. 109, I, da CF/1988) |
-| **Fundação Pública (Autárquica)** | **Direito Público** | **Criada por lei específica** (equiparada a autarquia: *autarquia fundacional*) | Atividades sociais, educacionais, científicas e assistenciais sem fins lucrativos | Estatutário (Lei 8.112/1990) | Justiça Federal (art. 109, I, da CF/1988) |
+| **Autarquia** | **Direito Público** | **Criada diretamente por lei específica** (adquire personalidade com a vigência da lei) | Atividades típicas de Estado, fiscalização, poder de polícia, previdência social | Na União, em regra estatutário (Lei nº 8.112/1990); observar a legislação e a jurisprudência sobre regimes de pessoal | Justiça Federal (art. 109, I, da CF/1988) |
+| **Fundação Pública (Autárquica)** | **Direito Público** | **Criada por lei específica** (equiparada a autarquia: *autarquia fundacional*) | Atividades sociais, educacionais, científicas e assistenciais sem fins lucrativos | Na União, em regra estatutário (Lei nº 8.112/1990); observar a legislação aplicável | Justiça Federal (art. 109, I, da CF/1988) |
 | **Fundação Pública (Governamental)** | **Direito Privado** | **Instituição autorizada por lei específica** + registro civil dos estatutos (exige LC para área de atuação) | Atividades sociais, de pesquisa e saúde sem fins lucrativos | Regime de pessoal definido na legislação aplicável; não presumir estatuto ou CLT apenas pelo nome da entidade | **Depende da natureza da entidade, do interesse jurídico federal e das regras de competência aplicáveis**; não presumir Justiça Estadual para toda fundação federal |
-| **Empresa Pública** | **Direito Privado** | **Instituição autorizada por lei específica** + registro dos atos constitutivos na Junta Comercial | Exploração de atividade econômica ou prestação de serviço público | Celetista (CLT), mediante concurso público | **Justiça Federal** (art. 109, I, da CF/1988) |
-| **Sociedade de Economia Mista** | **Direito Privado** | **Instituição autorizada por lei específica** + registro comercial | Exploração de atividade econômica ou prestação de serviço público | Celetista (CLT), mediante concurso público | **Justiça Estadual Comum** (Súmulas 517 e 556 do STF) |
+| **Empresa Pública** | **Direito Privado** | **Instituição autorizada por lei específica** + registro dos atos constitutivos na Junta Comercial | Exploração de atividade econômica ou prestação de serviço público | Celetista (CLT), mediante concurso público | **Justiça Federal nas causas abrangidas pelo art. 109, I, da CF/1988**, ressalvadas as exceções constitucionais |
+| **Sociedade de Economia Mista** | **Direito Privado** | **Instituição autorizada por lei específica** + registro comercial | Exploração de atividade econômica ou prestação de serviço público | Celetista (CLT), mediante concurso público | **Justiça estadual nas causas cíveis em regra**, ressalvadas competência trabalhista, eleitoral, falimentar e interesse jurídico da União (art. 109, I; Súmulas 517 e 556 do STF) |
 
 ---
 
@@ -74,8 +74,8 @@ Ambas constituem espécies do gênero **empresas estatais**, submetidas ao regim
    - **Empresa Pública:** Pode adotar **qualquer forma jurídica admitida em direito** (Sociedade Anônima, Sociedade Limitada, ou modalidade societária unilinear).
    - **Sociedade de Economia Mista:** Deve constituir-se **obrigatoriamente sob a forma de Sociedade Anônima (S.A.)**, submetida às regras da Lei nº 6.404/1976.
 3. **Competência Jurisdicional (na Esfera Federal):**
-   - **Empresa Pública Federal (e.g., Caixa Econômica Federal, Correios):** Causas julgadas perante a **Justiça Federal** (art. 109, I, da CF/1988).
-   - **Sociedade de Economia Mista Federal (e.g., Banco do Brasil, Petrobras):** Causas julgadas perante a **Justiça Comum Estadual**, salvo quando a União intervir como assistente ou opoente (Súmula 517 do STF e Súmula 556 do STF).
+   - **Empresa Pública Federal (e.g., Caixa Econômica Federal, Correios):** Causas cíveis abrangidas pelo art. 109, I, julgadas pela **Justiça Federal**, ressalvadas as exceções constitucionais (como causas trabalhistas).
+   - **Sociedade de Economia Mista Federal (e.g., Banco do Brasil, Petrobras):** Causas cíveis, em regra, na **Justiça Estadual**; a presença de interesse jurídico da União pode deslocar a competência para a Justiça Federal, conforme o art. 109, I, e as Súmulas 517 e 556 do STF. Causas trabalhistas seguem a competência própria.
 
 ```mermaid
 graph TD
@@ -86,8 +86,8 @@ graph TD
     R["Empresas Estatais (Lei 13.303/2016)"]:::raiz --> C1["Empresa Pública (EP)"]:::criterio
     R --> C2["Sociedade de Economia Mista (SEM)"]:::criterio
 
-    C1 --> O1["Capital 100% público<br/>Qualquer forma societária (LTDA, S.A.)<br/>Justiça Federal (se federal)"]:::opcao
-    C2 --> O2["Capital misto (maioria votante pública)<br/>Obrigatoriamente S.A.<br/>Justiça Estadual (mesmo federal - Súm. 556 STF)"]:::opcao
+    C1 --> O1["Capital 100% público<br/>Qualquer forma societária (LTDA, S.A.)<br/>Justiça Federal em causas cíveis, com exceções"]:::opcao
+    C2 --> O2["Capital misto (maioria votante pública)<br/>Obrigatoriamente S.A.<br/>Justiça Estadual em regra, com exceções"]:::opcao
 ```
 
 ---
@@ -99,7 +99,7 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
 - **Inexistência de Hierarquia:** Não há relação de subordinação hierárquica entre a Administração Direta e a Indireta. A hierarquia pressupõe desconcentração interna (dentro da mesma pessoa jurídica).
 - **Controle Finalístico (Supervisão Ministerial ou Tutela Administrativa):** O vínculo existente é de mera **vinculação institucional**, voltada a assegurar que a entidade descentralizada atue em consonância com as finalidades para as quais foi criada pela lei (*princípio da especialidade*).
 - **Limites da Tutela:** A supervisão ministerial não autoriza a intervenção discricionária no mérito das decisões técnicas da entidade, dependendo sempre de autorização legal expressa para a prática de atos de controle (princípio da legalidade).
-- **Recurso Hierárquico Impróprio:** Em regra, das decisões finais de uma autarquia ou agência reguladora não cabe recurso para o Ministério supervisor, salvo quando a lei expressamente previr essa via extraordinária (*recurso hierárquico impróprio*).
+- **Recurso Hierárquico Impróprio:** Em regra, das decisões finais de uma autarquia ou agência reguladora não cabe recurso para o Ministério supervisor, salvo hipótese legal de revisão por autoridade de outra pessoa jurídica (*recurso hierárquico impróprio*). A jurisprudência e a orientação administrativa também exigem examinar o âmbito e os limites da supervisão, sem presumir recurso amplo ao ministro.
 
 ---
 
@@ -140,7 +140,7 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
 - ( ) Errado
 
 **Gabarito: Errado**  
-**Comentário:** A sociedade de economia mista **deve obrigatoriamente adotar a forma de Sociedade Anônima (S.A.)**, nos termos do art. 5º, III, do Decreto-Lei nº 200/1967 e da Lei nº 13.303/2016. Ademais, por definição ontológica, a sociedade de economia mista possui capital misto (público e privado), não podendo ter 100% de capital público (hipótese que caracterizaria empresa pública).
+**Comentário:** A sociedade de economia mista **deve obrigatoriamente adotar a forma de Sociedade Anônima (S.A.)**, nos termos do art. 5º, III, do Decreto-Lei nº 200/1967 e da Lei nº 13.303/2016. Além disso, no modelo legal de sociedade de economia mista, a sociedade de economia mista possui capital misto (público e privado), não podendo ter 100% de capital público (hipótese que caracterizaria empresa pública).
 
 ---
 
@@ -152,8 +152,8 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** O art. 109, I, da CF/1988 fixa a competência da Justiça Federal para as causas em que a União, entidade autárquica ou **empresa pública federal** (caso da CEF) forem interessadas. As sociedades de economia mista federais (como o Banco do Brasil) não constam do rol taxativo do art. 109, I, sendo suas causas processadas perante a Justiça Estadual, consoante pacificidade da Súmula 556 do STF.
+**Gabarito: Certo, considerando a regra geral das causas cíveis e a ausência de exceções no enunciado.**  
+**Comentário:** O art. 109, I, da CF/1988 fixa a competência da Justiça Federal para as causas em que a União, entidade autárquica ou **empresa pública federal** (caso da CEF) forem interessadas. As sociedades de economia mista federais (como o Banco do Brasil) não constam do rol taxativo do art. 109, I, sendo suas causas cíveis, em regra, processadas perante a Justiça Estadual (Súmula 556 do STF). A questão não trata das exceções constitucionais nem de participação da União com interesse jurídico (Súmula 517 do STF).
 
 ---
 
@@ -192,8 +192,8 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
   - [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos: espécies, cargos, empregos, funções e regimes de vinculação estatal]]: Regime jurídico de agentes públicos estatutários de autarquias vs. empregados celetistas de estatais.
 
 
-## Nota de revisão jurídica dirigida (15/11/2026)
+## Fontes, limites e revisão jurídica (15/11/2026)
 
-Os itens 2, 5 e 6 foram ajustados, inclusive o gabarito do item 6 para retirar, respectivamente, um exemplo institucional inadequado, uma generalização sobre prerrogativas de estatais e a equiparação automática entre incompetência e desvio de finalidade. **Esta intervenção não constitui certificação integral do artigo**: ainda dependem de cotejo individual as afirmações sobre fundações públicas, competência judicial, regime de pessoal, recursos impróprios e exceções jurisprudenciais.
+Os itens 2, 5 e 6 foram ajustados, inclusive o gabarito do item 6 para retirar, respectivamente, um exemplo institucional inadequado, uma generalização sobre prerrogativas de estatais e a equiparação automática entre incompetência e desvio de finalidade. A revisão posterior também ajustou a distinção entre fundações de direito público e privado, a competência judicial e as ressalvas de regime de pessoal. A certificação integral exige verificar as fontes primárias e a página publicada, além de conferir os vínculos de glossário e flashcards.
 
 Fontes primárias a confrontar na etapa de certificação: [Constituição Federal, arts. 37, XIX, e § 6º, e 109, I](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm); [Decreto-Lei nº 200/1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm); [Lei nº 13.303/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm); jurisprudência oficial do STF sobre estatais prestadoras de serviços públicos. A revisão do glossário e dos flashcards também permanece pendente.

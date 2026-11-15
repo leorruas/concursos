@@ -51003,6 +51003,62 @@
       "correctAnswer": "C",
       "explanation": "Os R$ 200 mil são receita de operação de crédito, pois o ente tomou o financiamento. Os R$ 50 mil são receita de amortização de empréstimos concedidos, pois o ente recuperou principal que havia emprestado. Ambas as origens pertencem à categoria econômica receitas de capital.",
       "reviewEvidence": "Revisão editorial por IA. Conferidas as naturezas de receita de capital no MCASP, Parte I, e o subtítulo do artigo. O caso exige somar na categoria econômica e separar os ingressos por origem."
+    },
+    {
+      "id": "cam-orc-l206-001-imoveis-finalidades-distintas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-28b3d9ef86aa4510",
+      "conceptId": "imoveis-finalidades-distintas",
+      "mechanism": "comparar-grupos-de-despesa-em-duas-aquisicoes-imobiliarias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-28b3d9ef86aa4510#Fronteiras progressivas: obra, imóvel e modalidade de aplicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04b - classificacao da despesa.md",
+        "section": "Fronteiras progressivas: obra, imóvel e modalidade de aplicação"
+      },
+      "statement": "Um órgão compra um terreno indispensável à execução de uma obra e, em operação separada, compra um prédio em uso para instalar uma unidade administrativa, sem obras. As duas aquisições integram a categoria econômica despesas de capital, mas a primeira é investimento e a segunda é inversão financeira.",
+      "correctAnswer": "C",
+      "explanation": "O terreno necessário à execução da obra integra Investimentos (GND 4). A compra do prédio em uso, desvinculada de obras, integra Inversões Financeiras (GND 5). Os dois grupos pertencem às despesas de capital.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidos o capítulo 4 do MTO 2026, a seção literal e a aplicação ao cenário. Mecanismo revisado: comparar-grupos-de-despesa-em-duas-aquisicoes-imobiliarias."
+    },
+    {
+      "id": "cam-orc-l206-002-compra-direta-ou-repasse",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-28b3d9ef86aa4510",
+      "conceptId": "compra-direta-ou-repasse",
+      "mechanism": "identificar-mudanca-de-modalidade-mantendo-o-objeto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-28b3d9ef86aa4510#Fronteiras progressivas: obra, imóvel e modalidade de aplicação"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/04b - classificacao da despesa.md",
+        "section": "Fronteiras progressivas: obra, imóvel e modalidade de aplicação"
+      },
+      "statement": "Para equipar duas unidades de saúde, a União compra diretamente os equipamentos para uma delas e transfere recursos a um município para que ele compre os da outra. Como os bens a adquirir são do mesmo tipo, a modalidade de aplicação é necessariamente a mesma nas duas despesas da União.",
+      "correctAnswer": "E",
+      "explanation": "A modalidade identifica como o orçamento da União aplica os recursos. Na primeira operação, ela contrata diretamente. Na segunda, ela transfere recursos ao município, que fará a compra. A identidade dos equipamentos não iguala essas modalidades.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidos o capítulo 4 do MTO 2026, a seção literal e a aplicação ao cenário. Mecanismo revisado: identificar-mudanca-de-modalidade-mantendo-o-objeto."
     }
   ]
 }

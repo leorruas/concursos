@@ -213,16 +213,18 @@ Uma resposta sólida pode seguir **conceito regimental de parecer (art. 126) →
 
 ## Fontes e limite
 
-- [RICD, texto normativo atualizado, arts. 53–59, 126–130 e 144–147, Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+- [RICD, texto normativo atualizado, arts. 53–59, 126–130 e 144–147, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html).
 - [RICD, edição consolidada até a Resolução nº 34/2026, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 - [RICD, 31ª edição, Biblioteca da Câmara dos Deputados (2026)](https://bd.camara.leg.br/bd/items/version/400).
 
 **Limites editoriais:** as questões são inéditas, didáticas e escritas para treinar distinções do Regimento, sem reivindicar reprodução de questões oficiais da Cebraspe. A nota não comprova estudo, domínio nem desempenho do candidato; prazos e procedimentos devem ser interpretados na redação vigente do texto normativo.
 
 
+> **Fontes consolidadas para consulta (15/11/2026):** o portal da Câmara disponibiliza o [Regimento Interno atualizado até a Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e a [Constituição atualizada até a Emenda Constitucional nº 141/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988). A consolidação mais recente deve ser consultada quando houver divergência com reproduções antigas. Esta atualização de referências não representa nova certificação de todos os dispositivos citados no artigo.
+
 ## Certificação normativa delimitada: 11/11/2026
 
-**Escopo cotejado:** texto, tabelas, **nove etapas do caso progressivo**, **dois exemplos comentados** e **oito questões inéditas C/E** confrontados com os [arts. 53–59, 126–130 e 144–147 do Regimento Interno da Câmara, versão consolidada](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferidos estrutura tripartida do parecer, exceção de relatório para emendas, parecer único das apensadas, restrição material por competência, quórum e desempate em comissão, voto original e parecer vencedor, voto em separado, vista conjunta, terminatividade e apreciação conclusiva.
+**Escopo cotejado:** texto, tabelas, **nove etapas do caso progressivo**, **dois exemplos comentados** e **oito questões inéditas C/E** confrontados com os [arts. 53–59, 126–130 e 144–147 do Regimento Interno da Câmara, versão consolidada](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). Conferidos estrutura tripartida do parecer, exceção de relatório para emendas, parecer único das apensadas, restrição material por competência, quórum e desempate em comissão, voto original e parecer vencedor, voto em separado, vista conjunta, terminatividade e apreciação conclusiva.
 
 **NC-PL-044, conteúdo da proposição decorrente do parecer:** acrescentado o **art. 129, § 2º**, que exige a **proposição devidamente formulada** quando, nas condições estritas do dispositivo, a conclusão do parecer deva resultar em resolução, decreto legislativo ou lei. **NC-PL-045, controle de regularidade:** explicitado o **art. 130, parágrafo único**, que prevê devolução à comissão para reformulação de parecer contrário ao Regimento ou na hipótese do art. 55, parágrafo único.
 

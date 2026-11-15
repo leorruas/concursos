@@ -116,6 +116,8 @@ A nota [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conce
 | **Contas do Presidente da República** (IX) | Exceção expressa | Confundir julgamento de contas com PL ordinário |
 | **Matérias aprovadas pela Câmara e revisadas pelo Senado** (X) | Exceção expressa | Aplicar arquivamento sem observar fase bicameral |
 
+**Exemplo de três legislaturas completas (art. 105, VI):** imagine uma proposição destinada à elaboração de espécie normativa do art. 59 da Constituição que esteja em tramitação há apenas duas legislaturas completas ao fim da legislatura atual. A exceção do inciso VI impede seu arquivamento automático por esse motivo. Alterando uma condição, se a proposição já tiver **tramitado por três legislaturas completas**, ela deixa de estar protegida **por essa exceção específica**; ainda será necessário verificar se alguma outra exceção do art. 105 se aplica, como a referente a projeto de código ou iniciativa popular. O prazo não significa aprovação tácita, nem equivale à contagem de três sessões legislativas anuais.
+
 O **art. 105, § 2º**, preserva **pareceres já aprovados** em matérias de **tramitação conjunta** quando uma das proposições é arquivada; os pareceres instruem os remanescentes e conserva-se a distribuição às comissões, salvo requerimento deferido em sentido diverso. **Arquivar uma proposição apensada não apaga automaticamente o trabalho institucional já validamente realizado.**
 
 A diferença temporal mais importante é **fim da sessão legislativa × fim da legislatura**: a vedação de reapresentação de **proposição retirada** do art. 104 usa a **mesma sessão legislativa**; o arquivamento geral do art. 105 é analisado no **fim da legislatura**, sujeita às exceções. São eventos distintos.

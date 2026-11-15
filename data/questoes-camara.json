@@ -48987,6 +48987,34 @@
       "correctAnswer": "C",
       "explanation": "A reforma faz do consentimento de B um requisito adicional. O aval de A continua necessário, mas já não é suficiente.",
       "reviewEvidence": "Revisão por IA com conferência do critério de consentimento necessário. A reforma faz do consentimento de B um requisito adicional. O aval de A continua necessário, mas já não é suficiente. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l150-001-oposicao-sem-ampliar-eleitorado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "articleId": "art-5e8b4c72d13f906a",
+      "conceptId": "oposicao-sem-ampliar-eleitorado",
+      "mechanism": "identificar-ampliacao-da-contestacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Robert Dahl: poliarquia, contestação e inclusividade"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos.md",
+        "section": "Robert Dahl: poliarquia, contestação e inclusividade"
+      },
+      "statement": "Um governo permite que grupos de oposição antes proibidos se organizem e disputem eleições, sem mudar quem tem direito a voto. Na análise de Dahl, a medida amplia diretamente a contestação pública.",
+      "correctAnswer": "C",
+      "explanation": "A possibilidade de organizar oposição amplia a contestação pública. O direito de participação eleitoral permanece restrito às mesmas pessoas.",
+      "reviewEvidence": "Revisão por IA. A possibilidade de organizar oposição amplia a contestação pública. O direito de participação eleitoral permanece restrito às mesmas pessoas. Dificuldade estimada."
     }
   ]
 }

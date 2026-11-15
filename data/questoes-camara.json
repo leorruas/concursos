@@ -50415,6 +50415,34 @@
       "correctAnswer": "C",
       "explanation": "O total de pedidos digitais mede o uso desse canal. Se a necessidade também existe entre pessoas que não conseguem acessar o canal, a contagem pode estar exata e continuar inadequada como medida da necessidade.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferida a distinção entre medir corretamente o indicador substituto e medir a variável de interesse. Seção literal conferida no artigo canônico."
+    },
+    {
+      "id": "cam-et-l188-001-reforma-prazos-emendas-pareceres",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "etica-publica",
+      "unitId": "decoro-parlamentar",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 7 / Código de Ética e Decoro Parlamentar",
+      "articleId": "art-5b41764164052519",
+      "conceptId": "reforma-codigo-etica-prazos-por-etapa",
+      "mechanism": "distinguir-prazo-de-emendas-do-prazo-de-parecer-em-reforma",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5b41764164052519#Alteração do próprio Código de Ética (art. 19)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md",
+        "section": "Alteração do próprio Código de Ética (art. 19)"
+      },
+      "statement": "Um projeto de resolução propõe uma reforma do Código de Ética e Decoro Parlamentar da Câmara. Como o prazo para os pareceres é de vinte sessões, o projeto deve permanecer na Ordem do Dia por esse mesmo período para receber emendas após a publicação e distribuição.",
+      "correctAnswer": "E",
+      "explanation": "O art. 19 do Código remete ao art. 216 do Regimento Interno. Pelo § 1º, a janela para emendas é de cinco sessões. As vinte sessões previstas no § 3º referem-se aos pareceres quando o projeto trata de reforma.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 19 do Código de Ética, o art. 216, §§ 1º e 3º, do RICD, e o subtítulo literal. O item verifica a transferência indevida de um prazo entre duas etapas."
     }
   ]
 }

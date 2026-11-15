@@ -151,7 +151,7 @@ O **art. 226** assegura ao deputado o direito de **propor, discutir e deliberar;
 
 ## Certificação normativa delimitada: 11/11/2026
 
-**Recorte examinado:** texto desta nota, quadros, **oito casos progressivos** e **dez itens C/E**, confrontados com os **arts. 226 a 251 do [RICD consolidado pela Câmara](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html)** e os **arts. 53 a 56 da [Constituição Federal atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html)**.
+**Recorte examinado:** texto desta nota, quadros, **oito casos progressivos** e **dez itens C/E**, confrontados com os **arts. 226 a 251 do [RICD consolidado pela Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html)** e os **arts. 53 a 56 da [Constituição Federal atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html)**.
 
 **Conferências centrais:** registro de presença em sessões e comissões; participação remota de gestantes desde a **30ª semana ou mediante atestado**, estendida ao período de até **180 dias contados do início da licença-gestante**; afastamento para cargo do art. 56, I, e reassunção; imunidades desde a diplomação; incompatibilidades desde a diplomação ou posse conforme CF art. 54; licença diplomática/cultural decidida pela **Mesa**; licença particular de até **120 dias por sessão legislativa**; renúncia efetiva após leitura ou publicação no Diário; causas de perda e competências regimentais; convocação de suplente em **48 horas**, com licença médica original **superior a 120 dias**, sem soma; atuação e limitações dos suplentes; revogação dos arts. 245–248 e inaplicabilidade da licença criminal prévia do art. 249 após EC 35/2001.
 
@@ -163,7 +163,7 @@ O **art. 226** assegura ao deputado o direito de **propor, discutir e deliberar;
 
 ## Fontes oficiais
 
-- [Câmara dos Deputados, RICD, arts. 226–251, consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+- [Câmara dos Deputados, RICD, arts. 226–251, consolidado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html).
 - [Constituição Federal atualizada, arts. 53–56](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 - [Câmara dos Deputados, Regimento Interno, edição de 2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 

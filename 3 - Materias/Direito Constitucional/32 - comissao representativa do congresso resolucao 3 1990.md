@@ -5,7 +5,7 @@ title: "Comissão Representativa do Congresso no recesso: Resolução nº 3/1990
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-15
 aliases:
   - "CAM-PL-028"
   - "Comissão Representativa no recesso parlamentar"
@@ -98,6 +98,8 @@ A base de cálculo **não é 594 congressistas**, e também **não é apenas o t
 | **Aprovar matéria:** maioria simples, com presença qualificada | Apura-se **separadamente** | Apura-se **separadamente** | Deve haver **decisão favorável das duas Casas** |
 
 A **votação começa pelos deputados** e o **resultado de cada Casa é computado separadamente** (art. 10, §§ 1º e 2º). Um resultado agregado com mais votos favoráveis pode ser **insuficiente** se o grupo dos senadores rejeitar a matéria. Em contrapartida, alcançar presença mínima de **3 senadores e 6 deputados** permite abrir reunião, **não** votar matérias que exigem o quórum de deliberação.
+
+**Como testar uma competência antes de contar votos:** suponha, hipoteticamente, que o Congresso esteja em recesso e que o Executivo proponha crédito adicional urgente. O primeiro passo é identificar o **objeto** da deliberação: projeto de crédito adicional solicitado pelo Presidente. O segundo é verificar a **condição anterior** do art. 7º, IV, b: a Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) já se manifestou? Sem essa manifestação, ter quórum na Comissão Representativa não resolve a falta de requisito. Apenas depois vêm a convocação regimental e os quóruns dos arts. 8º a 10. **Competência, condição de exercício, presença e votos são quatro verificações diferentes.**
 
 **Exemplo 1:** estão presentes **6 deputados e 3 senadores**. A reunião pode abrir, mas **não deliberar**: falta a maioria absoluta dos membros de ambas as Casas.
 

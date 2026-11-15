@@ -28,6 +28,9 @@ updated: 2026-11-15
 
 ## Histórico da frente
 
+- **15/11/2026, segunda rodada:** PR #347 integrado com CI aprovado; deploy correspondente ainda sem comprovação, logo artigo AP01 permanece sem certificação integral. Não abrir novo PR de artigo enquanto se verifica o resultado e se concluem pendências documentadas.
+
+
 - **15/11/2026:** divisão operacional criada com matriz imutável de propriedade por `articleId`, sem atribuir aprovação ou publicação fictícia. Cada nova rodada deve acrescentar somente evidências desta frente.
 
 **Regra de edição:** esta frente escreve apenas neste arquivo de estado; as outras frentes não o alteram. Não editar a fila geral compartilhada para registrar status cotidiano. Na auditoria de cada artigo, conferir todas as seções, os C/E, diagramas, fontes e vínculos de glossário/flashcards. PR, CI, integração e comprovação do Pages são etapas separadas; cada estado deve refletir seu grau de prova.

@@ -5,7 +5,7 @@ title: "Medida provisória: pressupostos, prazos, tramitação e efeitos"
 type: "conceito"
 status: "ativo"
 created: 2026-11-08
-updated: 2026-11-11
+updated: 2026-11-15
 ---
 
 # Medida provisória: pressupostos, prazos, tramitação e efeitos
@@ -76,6 +76,10 @@ A **rejeição** pela Câmara ou pelo Senado encerra a tramitação e a vigênci
 O **Congresso Nacional deve disciplinar por decreto legislativo** as relações jurídicas produzidas pela MP que perdeu eficácia. Se o decreto **não for editado em até 60 dias após a rejeição ou perda de eficácia**, as relações jurídicas **constituídas e decorrentes de atos praticados durante sua vigência permanecem regidas pela MP** (**art. 62, § 11**).
 
 **Reedição:** o **art. 62, § 10** proíbe reedição **na mesma sessão legislativa** da MP rejeitada ou que tenha perdido eficácia por decurso de prazo. **Sessão legislativa** é categoria temporal própria da atividade parlamentar, não sinônimo de **legislatura** (quatro anos) nem de **sessão de votação**. A regra não deve ser reduzida a “proibida para sempre”, tampouco contornada mudando o número da MP.
+
+### O efeito retroativo e a proteção de atos praticados: caso com datas hipotéticas
+
+Suponha que uma medida provisória seja publicada em **1º de março** e autorize uma providência administrativa que um órgão adote em **15 de março**, durante a vigência da medida. Depois, o Congresso rejeita a MP. A Constituição determina, no art. 62, § 3º, que a MP rejeitada **perde eficácia desde a edição**, mas também atribui ao Congresso a tarefa de disciplinar, **por decreto legislativo**, as relações jurídicas decorrentes. Se esse decreto **não for editado nos 60 dias posteriores** à rejeição, o § 11 preserva a regência pela MP das relações constituídas e decorrentes de atos praticados durante sua vigência, como a situação de 15 de março. Esse exemplo **não transforma a MP rejeitada em lei permanente** e não autoriza novos atos após o fim de sua vigência: trata da disciplina jurídica do que ocorreu enquanto ela vigorou. Em uma questão, distinguir *validade futura da norma* e *tratamento dos efeitos já produzidos* é decisivo.
 
 ## Caso progressivo: oito mudanças que alteram a resposta
 

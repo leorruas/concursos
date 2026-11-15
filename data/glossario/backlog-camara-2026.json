@@ -451,6 +451,22 @@
       "examBlock": "Conhecimentos básicos: Direito Constitucional",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-foro-prerrogativa-apos-mandato",
+      "term": "Foro por prerrogativa de função após o mandato",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-controle-difuso-constitucionalidade",
+      "term": "Controle difuso de constitucionalidade",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos básicos: Direito Constitucional",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

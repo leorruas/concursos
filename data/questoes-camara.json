@@ -49295,6 +49295,34 @@
       "correctAnswer": "C",
       "explanation": "A necessidade de financiar a guerra incentiva a extração regular de recursos. A organização fiscal criada para sustentar essa extração pode permanecer e ampliar a capacidade estatal.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A necessidade de financiar a guerra incentiva a extração regular de recursos. A organização fiscal criada para sustentar essa extração pode permanecer e ampliar a capacidade estatal. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l159-001-dialogo-com-autonomia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / Estado e sociedade",
+      "articleId": "art-a60d8274be1935cf",
+      "conceptId": "dialogo-com-autonomia",
+      "mechanism": "distinguir-vinculo-informacional-e-subordinacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a60d8274be1935cf#Evans: autonomia inserida, coordenação e risco de captura"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito.md",
+        "section": "Evans: autonomia inserida, coordenação e risco de captura"
+      },
+      "statement": "Uma agência mantém diálogo regular com associações empresariais para conhecer dificuldades de produção, mas conserva critérios próprios para decidir quais projetos apoiar. No modelo de Peter Evans, essa combinação é compatível com a autonomia inserida.",
+      "correctAnswer": "C",
+      "explanation": "A autonomia inserida combina capacidade própria de decisão e vínculos com atores sociais. Consultar empresas pode fornecer informação sem lhes entregar a decisão pública.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A autonomia inserida combina capacidade própria de decisão e vínculos com atores sociais. Consultar empresas pode fornecer informação sem lhes entregar a decisão pública. Dificuldade estimada."
     }
   ]
 }

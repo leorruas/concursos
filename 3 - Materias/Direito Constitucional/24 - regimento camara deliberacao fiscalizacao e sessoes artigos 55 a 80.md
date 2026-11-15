@@ -184,7 +184,7 @@ A **sessão ordinária** tem etapas previstas no **art. 66**: **Pequeno Expedien
 
 ## Certificação normativa delimitada: 11/11/2026
 
-**Recorte conferido:** texto, quadros, **oito casos progressivos** e **dez questões C/E** desta nota, cotejados com os **arts. 55 a 80 do [Regimento Interno da Câmara dos Deputados, versão normativa consolidada](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html)** e com a CF art. 58, § 2º, I. Os **arts. 55–64** complementam o regime geral das comissões; os **arts. 65–80** integram o recorte literal das sessões exigido no programa de Direito Constitucional do cargo 1, em conjunto com os arts. 81–94 estudados em DC25.
+**Recorte conferido:** texto, quadros, **oito casos progressivos** e **dez questões C/E** desta nota, cotejados com os **arts. 55 a 80 do [Regimento Interno da Câmara dos Deputados, versão normativa consolidada](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html)** e com a CF art. 58, § 2º, I. Os **arts. 55–64** complementam o regime geral das comissões; os **arts. 65–80** integram o recorte literal das sessões exigido no programa de Direito Constitucional do cargo 1, em conjunto com os arts. 81–94 estudados em DC25.
 
 **Verificações principais:** matéria alheia à competência da comissão e consequência condicionada de parecer não escrito (**art. 55**); parecer do relator e deliberação pelo Plenário da comissão com maioria absoluta presente e desempate pelo voto do relator (**56**); tramitação conjunta, votação, vista por **duas sessões salvo urgência**, com pedidos simultâneos conjuntos, e votos em separado (**57**); decisão conclusiva seguida de publicação, recurso ao Plenário em **cinco sessões** subscrito por **ao menos um décimo dos membros** e envio de redação final em até **72 horas** (**58–59**); fiscalização e PFC acessível a qualquer deputado, diligências com prazo **não inferior a dez dias**, **PAFC** aprovado em até cinco sessões desde a reinstalação e **RAFC** até o fim da sessão legislativa (**60–61-A**); secretaria, ata e consultoria (**62–64**); tipos, horários e fases de sessões, publicidade, sessão extraordinária e solene e suspensão por até **uma hora** (**65–72**); palavra, publicação de discursos, autorização de gravação e transmissão, abertura e ata (**73–80**).
 
@@ -196,8 +196,8 @@ A **sessão ordinária** tem etapas previstas no **art. 66**: **Pequeno Expedien
 
 ## Fontes oficiais e recorte de atualização
 
-- [Regimento Interno da Câmara dos Deputados, arts. 55–80, texto consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), consultado em **08/11/2026**.
+- [Regimento Interno da Câmara dos Deputados, arts. 55–80, texto consolidado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), consultado em **08/11/2026**.
 - [Câmara dos Deputados: Regimento Interno, 31ª edição, atualizado até Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
-- [Constituição Federal, arts. 58 e 70–75](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+- [Constituição Federal, arts. 58 e 70–75](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 
 **Nota editorial:** esta nota complementa a cobertura de comissões e pareceres já existente. Os itens C/E são originais para estudo, e a conclusão editorial não significa aprendizado realizado nem publicação confirmada no Pages.

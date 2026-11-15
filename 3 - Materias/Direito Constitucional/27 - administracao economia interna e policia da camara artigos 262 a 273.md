@@ -153,7 +153,7 @@ Relações: [[3 - Materias/Direito Constitucional/23 - regimento da camara organ
 
 ## Certificação normativa delimitada: 11/11/2026
 
-**Escopo:** texto explicativo, tabelas, oito situações práticas e **dez itens inéditos C/E** desta nota confrontados com os **arts. 262 a 273 do [Regimento Interno da Câmara dos Deputados, texto atualizado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html)**, com as ressalvas dos arts. 260 (credenciamento da imprensa), 274 (delegação de competência) e da **CF arts. 37, 51, 53 e 70–74**, onde relevantes.
+**Escopo:** texto explicativo, tabelas, oito situações práticas e **dez itens inéditos C/E** desta nota confrontados com os **arts. 262 a 273 do [Regimento Interno da Câmara dos Deputados, texto atualizado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html)**, com as ressalvas dos arts. 260 (credenciamento da imprensa), 274 (delegação de competência) e da **CF arts. 37, 51, 53 e 70–74**, onde relevantes.
 
 **Regras conferidas:** aprovação plenária dos regulamentos especiais e direção pela Mesa (**art. 262**); parecer obrigatório da Mesa antes da deliberação sobre modificação dos serviços (**263**); reclamação encaminhada à Mesa, providência em **72 horas**, seguida de possibilidade de submissão ao Plenário (**264**); despesas ordenadas pelo **Diretor-Geral**, balancetes mensais apreciados pela **Mesa**, prestação anual de contas encaminhada até **30 de junho** pelo **Presidente** ao **TCU**, recursos no Banco do Brasil ou na Caixa (**265**); patrimônio formado por bens da **União** e moradia funcional restrita ao mandato (**266**); ordem e disciplina pela Mesa, parágrafo único do art. 267 **revogado**; requisição da apuração disciplinar pelo Presidente à **Corregedoria** (**268**); presidência do inquérito no prédio conforme a qualidade de membro da Casa do investigado, com envio à autoridade judiciária (**269**); direção de policiamento pela Mesa e possibilidade de segurança própria, contratada ou efetivos do DF (**270**); restrição de armas com exceção para segurança e supervisão pelo Corregedor (**271**); requisitos de acesso público (**272**) e comércio apenas com autorização expressa da Mesa (**273**).
 
@@ -163,8 +163,8 @@ Relações: [[3 - Materias/Direito Constitucional/23 - regimento da camara organ
 
 ## Fontes oficiais
 
-- [Regimento Interno da Câmara dos Deputados, arts. 262 a 273, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html), consultado em **08/11/2026**.
-- [Constituição Federal, arts. 37, 51, 53, 70 a 74](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+- [Regimento Interno da Câmara dos Deputados, arts. 262 a 273, texto atualizado da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), consultado em **08/11/2026**.
+- [Constituição Federal, arts. 37, 51, 53, 70 a 74](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 - [Portal oficial do RICD e edições consolidadas](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 
 **Nota editorial:** este é o recorte da **CAM-PL-023** previsto no inventário da Câmara; os dez itens C/E são exercícios **inéditos**, não itens oficiais da Cebraspe. Publicar material editorial não significa que houve estudo, retenção ou desempenho do candidato.

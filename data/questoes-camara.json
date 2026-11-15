@@ -48931,6 +48931,34 @@
       "correctAnswer": "C",
       "explanation": "O papel depende da relação examinada. A parlamentar recebe poder decisório na primeira e distribui tarefas à equipe na segunda.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O papel depende da relação examinada. A parlamentar recebe poder decisório na primeira e distribui tarefas à equipe na segunda. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l148-001-pertencimento-sem-evidencia-de-atuacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / representação política",
+      "articleId": "art-3b8e7a6c91d4052f",
+      "conceptId": "pertencimento-sem-evidencia-de-atuacao",
+      "mechanism": "distinguir-identificacao-e-atuacao-em-favor-do-grupo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-3b8e7a6c91d4052f#Hanna Pitkin: quatro perspectivas de representação"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/19 - representacao politica mandato delegacao e responsabilizacao.md",
+        "section": "Hanna Pitkin: quatro perspectivas de representação"
+      },
+      "statement": "Integrantes de uma comunidade afirmam que a presença de uma parlamentar na Câmara reforça seu sentimento de pertencimento político. Na tipologia de Pitkin, esses relatos bastam para demonstrar que as decisões legislativas da parlamentar atendem aos interesses da comunidade.",
+      "correctAnswer": "E",
+      "explanation": "O sentimento de pertencimento é evidência de identificação simbólica. A representação substantiva depende de como a parlamentar atua em relação aos interesses do grupo.",
+      "reviewEvidence": "Revisão por IA com conferência do critério de classificação. O sentimento de pertencimento é evidência de identificação simbólica. A representação substantiva depende de como a parlamentar atua em relação aos interesses do grupo. Dificuldade estimada."
     }
   ]
 }

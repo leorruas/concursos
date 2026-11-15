@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Smoke browser de artigos publicados: espera o conteúdo real e salva capturas."""
 import os
+import time
 from pathlib import Path
 
 from selenium import webdriver
@@ -60,6 +61,7 @@ try:
         assert title, f"Artigo {number}: título ausente"
         assert "não foi possível carregar este artigo" not in driver.page_source.lower()
         esperar_transicao(driver)
+        time.sleep(0.65)  # aguardar transição CSS de cores e opacidade
         driver.execute_script("window.scrollTo(0,0)")
         assert driver.save_screenshot(f"screenshots/{number}-desktop-light.png")
         print(f"Artigo {number}: DOM carregado, título: {title}", flush=True)

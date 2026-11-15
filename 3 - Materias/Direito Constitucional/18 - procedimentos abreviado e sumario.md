@@ -5,7 +5,7 @@ title: "Procedimentos abreviado e sumário: comissões e urgência constituciona
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-11
+updated: 2026-11-15
 aliases:
   - "Rito legislativo abreviado"
   - "Rito legislativo sumário"
@@ -114,6 +114,10 @@ O **art. 64, § 1º, da CF** permite que o **presidente da República solicite u
 **Consequência da demora:** se Câmara ou Senado não se manifestarem no prazo aplicável, ficam **sobrestadas as demais deliberações legislativas da respectiva Casa**, **com exceção das que tenham prazo constitucional determinado**, até a votação. **Não ocorre aprovação tácita nem rejeição automática do projeto.** A redação vigente do **§ 2º da CF**, alterada pela **EC nº 32/2001**, é mais específica do que reproduções antigas que afirmam bloqueio absoluto da pauta.
 
 **Quem aprecia:** o RICD, **art. 204, I**, menciona manifestação definitiva do **Plenário** e inclusão na Ordem do Dia após o prazo. A regra de competência conclusiva das comissões **exclui projetos em regime de urgência** (art. 24, II, h). Assim, o rito sumário **não é o rito abreviado executado mais depressa**.
+
+### Parecer de comissão não equivale a decisão conclusiva
+
+Uma comissão pode **examinar** um projeto e emitir um **parecer**, isto é, uma recomendação fundamentada de aprovação, rejeição ou alteração, sem decidir definitivamente a proposição. A **apreciação conclusiva** ocorre apenas quando a comissão tem competência regimental para decidir o projeto no lugar do Plenário, sujeita às exclusões e ao recurso constitucional. Assim, mesmo no rito sumário com pedido presidencial de urgência, as comissões podem instruir o projeto e elaborar pareceres, mas isso **não as transforma em instância de votação final**. Para classificar o procedimento, a pergunta decisiva é: *a comissão apenas instrui a decisão ou pode concluir a apreciação do projeto?* (CF, art. 58, § 2º, I; RICD, arts. 24, II, e 204).
 
 ### Quatro urgências que não são sinônimas
 

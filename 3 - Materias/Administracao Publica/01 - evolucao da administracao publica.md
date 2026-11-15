@@ -106,8 +106,8 @@ A contratualização de resultados é uma técnica de gestão: o órgão supervi
 **Item C/E autoral:** “O contrato de desempenho federal previsto na Lei nº 13.934/2019 pode durar seis anos, desde que suas metas sejam mensuráveis.” **Errado.** O art. 7º, VIII, estabelece prazo de vigência entre um e cinco anos.
 
 No setor público não estatal (serviços não exclusivos), a contratualização opera por parcerias com o terceiro setor:
-- **Organizações Sociais (OS):** qualificadas pelo Poder Executivo (Lei nº 9.637/1998) para prestar serviços não exclusivos (saúde, cultura, pesquisa, ensino), vinculando-se ao Poder Público por meio de **Contrato de Gestão**, com dotações orçamentárias, cessão de bens e servidores;
-- **Organizações da Sociedade Civil de Interesse Público (OSCIP):** qualificadas nos termos da Lei nº 9.790/1999, que firmam com o Estado o **Termo de Parceria**.
+- **Organizações Sociais (OS):** entidades privadas sem fins lucrativos qualificadas pelo Poder Executivo (Lei nº 9.637/1998) para prestar serviços não exclusivos (saúde, cultura, pesquisa, ensino), vinculando-se ao Poder Público por meio de **Contrato de Gestão**, podendo receber recursos, bens e, nas condições previstas em lei, servidores cedidos; essas medidas dependem dos atos e requisitos aplicáveis, não decorrem automaticamente da qualificação;
+- **Organizações da Sociedade Civil de Interesse Público (OSCIP):** entidades privadas sem fins lucrativos qualificadas nos termos da Lei nº 9.790/1999, que firmam com o Estado o **Termo de Parceria**.
 
 ### Agências reguladoras e executivas no modelo gerencial
 
@@ -118,6 +118,8 @@ Paralelamente, **agência executiva** é uma qualificação de autarquia ou fund
 **Regra de contratações vigente na Lei nº 14.133/2021:** o **art. 75, § 2º**, determina que os limites de **dispensa de licitação em razão do valor**, previstos nos incisos **I e II** do caput, sejam **duplicados** para compras, obras e serviços contratados por consórcio público ou por autarquia ou fundação qualificada como agência executiva na forma da lei. O benefício é **específico para essas hipóteses de dispensa por valor**, não aumento universal de tetos de toda modalidade de licitação, nem autorização geral para contratação direta. Os montantes de referência são atualizados periodicamente; em questões, conferir o ano e a norma vigente.
 
 **Exemplo:** autarquia com qualificação válida de agência executiva analisa compra enquadrável no art. 75, II: deve avaliar o limite duplicado e os demais requisitos legais. Outra autarquia, sem essa qualificação, não pode reivindicar a duplicação somente por possuir metas gerenciais. **Contraexemplo:** concluir que o dobro se aplica automaticamente a qualquer licitação por pregão ou concorrência. A exceção legal incide sobre dispensas por valor dos incisos I e II.
+
+**Atenção aos prazos:** o contrato de gestão da agência executiva, disciplinado no art. 52, § 1º, da Lei nº 9.649/1998, tem periodicidade mínima de um ano. Esse comando não se confunde com a vigência de um a cinco anos do contrato de desempenho da Lei nº 13.934/2019. A expressão semelhante dos instrumentos não autoriza aplicar indistintamente seus prazos e efeitos.
 
 **Cotejo de fontes:** [Lei nº 9.649/1998, arts. 51–52](https://www2.camara.leg.br/legin/fed/lei/1998/lei-9649-27-maio-1998-372115-normaatualizada-pl.html); [Lei nº 14.133/2021, art. 75, § 2º, texto legislativo](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2021-04-01%3B14133%21art75); [manual do TCU sobre dispensa em razão do valor](https://licitacoesecontratos.tcu.gov.br/5-10-2-1-dispensa-em-razao-do-valor-incisos-i-e-ii-2/).
 

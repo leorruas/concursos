@@ -49071,6 +49071,34 @@
       "correctAnswer": "E",
       "explanation": "Na escala de Arnstein, a parceria envolve negociação e partilha de poder. Receber sugestões, ainda que em reuniões frequentes, não transfere poder decisório.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. Na escala de Arnstein, a parceria envolve negociação e partilha de poder. Receber sugestões, ainda que em reuniões frequentes, não transfere poder decisório. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l153-001-adesao-sem-delegacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / democracia e participação política",
+      "articleId": "art-4a6d2f90b18e753c",
+      "conceptId": "adesao-sem-delegacao",
+      "mechanism": "distinguir-influencia-observada-de-poder-conferido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4a6d2f90b18e753c#IAP2: espectro de participação e promessa ao público"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa.md",
+        "section": "IAP2: espectro de participação e promessa ao público"
+      },
+      "statement": "Um órgão compromete-se a ouvir sugestões e informar como foram consideradas. Ao adotar uma proposta dos participantes, o órgão passa, por esse fato, ao nível de empoderamento do espectro da IAP2.",
+      "correctAnswer": "E",
+      "explanation": "No espectro da IAP2, o compromisso assumido perante os participantes indica seu papel no processo. A adoção de uma sugestão em um caso não equivale a entregar ao público a decisão final.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. No espectro da IAP2, o compromisso assumido perante os participantes indica seu papel no processo. A adoção de uma sugestão em um caso não equivale a entregar ao público a decisão final. Dificuldade estimada."
     }
   ]
 }

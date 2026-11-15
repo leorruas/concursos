@@ -48595,6 +48595,62 @@
       "correctAnswer": "C",
       "explanation": "A elaboração conjunta organiza o trabalho entre participantes. A competência para aprovar as mudanças continua com as autoridades responsáveis.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A elaboração conjunta organiza o trabalho entre participantes. A competência para aprovar as mudanças continua com as autoridades responsáveis. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l139-001-controle-custo-de-triagem",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "controle-custo-de-triagem",
+      "mechanism": "calcular-custo-liquido-do-controle",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Um controle adicional evita perdas anuais estimadas em R$ 20 mil e custa R$ 30 mil por ano. Se esses forem os únicos efeitos considerados, o controle terá benefício líquido anual positivo.",
+      "correctAnswer": "E",
+      "explanation": "O benefício líquido é de R$ 20 mil menos R$ 30 mil, ou R$ 10 mil negativos. A existência de perdas evitadas é apenas uma parte da análise.",
+      "reviewEvidence": "Revisão por IA com cotejo da seção indicada. O benefício líquido é de R$ 20 mil menos R$ 30 mil, ou R$ 10 mil negativos. A existência de perdas evitadas é apenas uma parte da análise. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l139-002-alerta-sem-tratamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e valor público",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "alerta-sem-tratamento",
+      "mechanism": "distinguir-deteccao-e-resposta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Um sistema sinaliza pedidos duplicados e encaminha os avisos a uma caixa que ninguém acompanha. A emissão do aviso demonstra que existe um mecanismo de detecção, mas não garante que a duplicidade será corrigida.",
+      "correctAnswer": "C",
+      "explanation": "O alerta permite detectar uma ocorrência. A correção requer que alguém trate o aviso ou que exista um mecanismo automático de resposta.",
+      "reviewEvidence": "Revisão por IA com cotejo da seção indicada. O alerta permite detectar uma ocorrência. A correção requer que alguém trate o aviso ou que exista um mecanismo automático de resposta. Dificuldade estimada."
     }
   ]
 }

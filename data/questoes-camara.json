@@ -50891,6 +50891,34 @@
       "correctAnswer": "C",
       "explanation": "O art. 45, § 3º, alínea b, do Decreto nº 93.872/1986 impede, em regra, a concessão ao servidor encarregado da guarda ou da utilização do material. O próprio dispositivo ressalva a hipótese em que não há outro servidor na repartição.",
       "reviewEvidence": "Revisão editorial por IA. Conferido o texto atualizado do Decreto nº 93.872/1986, art. 45, § 3º, alínea b, na ANTT. Seção literal conferida e hipótese aplicada aos fatos do enunciado."
+    },
+    {
+      "id": "cam-orc-l202-001-devolucao-caucao-exercicio-seguinte",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-4677cfa327ce43bb",
+      "conceptId": "caucao-devolucao-extraorcamentaria-exercicio-seguinte",
+      "mechanism": "classificar-saida-de-deposito-apos-mudanca-de-exercicio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Receita orçamentária × ingresso extraorçamentário"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+        "section": "Receita orçamentária × ingresso extraorçamentário"
+      },
+      "statement": "Uma prefeitura recebeu, em dezembro, uma caução em dinheiro para garantir um contrato. Em janeiro, após o cumprimento das condições contratuais, devolveu integralmente o valor ao fornecedor. A mudança de exercício torna a devolução uma despesa orçamentária do novo ano.",
+      "correctAnswer": "E",
+      "explanation": "A prefeitura devolveu recursos de terceiro que mantinha em garantia. O desembolso extingue a obrigação de devolver a caução e é extraorçamentário, ainda que a entrada e a saída ocorram em exercícios diferentes.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidos o MCASP, 11ª edição, Parte I, tópico Dispêndios, e a seção canônica. O item testa a classificação da saída em exercício posterior."
     }
   ]
 }

@@ -238,7 +238,7 @@ Organizar a resposta por **ato, finalidade, sujeito competente, prazo, consequê
 
 ## Fontes primárias e atualização
 
-- [Constituição Federal, arts. 59, 60, 65 e 66, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+- [Constituição Federal, arts. 59, 60, 65 e 66, texto atualizado da Câmara](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 - [Congresso Nacional: Entenda a tramitação do veto](https://www.congressonacional.leg.br/materias/vetos/entenda-a-tramitacao-do-veto).
 - [Regimento Comum do Congresso Nacional, arts. 104 a 106-D, portal oficial](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional).
 - [STF: art. 66, precedentes sobre prazo e limites do veto, ADPF 1.078 e 893](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=66&abrirBase=CF).
@@ -250,7 +250,7 @@ Organizar a resposta por **ato, finalidade, sujeito competente, prazo, consequê
 
 ## Certificação normativa delimitada: 11/11/2026
 
-**Cotejo realizado:** texto e quadros, **oito etapas do caso progressivo**, **dois exemplos comentados** e **dez questões C/E**, comparados à [Constituição Federal, arts. 60, 65 e 66](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), ao [Regimento Comum do Congresso, arts. 104-A e 106](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional), à [LINDB, art. 1º](https://legis.senado.gov.br/norma/529744/publicacao/34620738) e à [jurisprudência do STF reunida no art. 66](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=66&abrirBase=CF). Conferidos sanção expressa/tácita, veto político/jurídico, extensão do veto parcial, prazos, sessão conjunta, quórum separado das Casas, promulgação subsidiária e vacatio legis.
+**Cotejo realizado:** texto e quadros, **oito etapas do caso progressivo**, **dois exemplos comentados** e **dez questões C/E**, comparados à [Constituição Federal, arts. 60, 65 e 66](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988), ao [Regimento Comum do Congresso, arts. 104-A e 106](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional), à [LINDB, art. 1º](https://legis.senado.gov.br/norma/529744/publicacao/34620738) e à [jurisprudência do STF reunida no art. 66](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=66&abrirBase=CF). Conferidos sanção expressa/tácita, veto político/jurídico, extensão do veto parcial, prazos, sessão conjunta, quórum separado das Casas, promulgação subsidiária e vacatio legis.
 
 **NC-PL-039, jurisprudência acrescentada:** precedentes das **ADPFs 714, 715 e 716**, além da **ADPF 893**, sobre a **irretratabilidade do veto**, impossibilidade de veto adicional tardio e preclusão da etapa de manifestação executiva. **NC-PL-040, efeito do prazo congressual:** **ADI 5.706 (2024)**: ultrapassar os 30 dias do art. 66, § 4º, produz inclusão na Ordem do Dia e sobrestamento conforme § 6º, **sem caducidade ou perda da competência do Congresso para deliberar**. Os acréscimos complementam as explicações existentes sem ampliar o alcance dos gabaritos.
 

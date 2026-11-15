@@ -95,7 +95,15 @@ Os quatro enunciados são autorais de treino, e não questões reais Cebraspe. *
 
 ### Contratualização de resultados e instrumentos de pactuação
 
-A contratualização de resultados consubstancia o instrumento gerencial por excelência para conferir maior autonomia e cobrar desempenho. Na Administração Pública brasileira, esse mecanismo fundamenta-se expressamente no art. 37, § 8º, da Constituição Federal (acrescentado pela Emenda Constitucional nº 19/1998), que autoriza a ampliação da autonomia gerencial, orçamentária e financeira dos órgãos e entidades da administração direta e indireta mediante a celebração de **contrato de gestão** (ou instrumento de pactuação congênere), que fixe metas de desempenho institucional, prazos, critérios de avaliação e responsabilidades dos dirigentes.
+A contratualização de resultados é uma técnica de gestão: o órgão supervisor combina metas e indicadores com o órgão supervisionado, acompanha os resultados e, nas hipóteses legais, concede maior autonomia. O art. 37, § 8º, da Constituição, introduzido pela Emenda Constitucional nº 19/1998, permite ampliar a autonomia gerencial, orçamentária e financeira mediante contrato que fixe metas de desempenho. O próprio dispositivo reserva à lei o prazo do contrato, os controles e critérios de avaliação, os direitos e responsabilidades dos dirigentes e a remuneração de pessoal.
+
+**Regra federal vigente: contrato de desempenho.** A [Lei nº 13.934/2019](https://www2.camara.leg.br/legin/fed/lei/2019/lei-13934-11-dezembro-2019-789558-publicacaooriginal-159615-pl.html) regulamenta esse contrato no âmbito da administração federal direta de qualquer Poder e das autarquias e fundações públicas federais. Seus arts. 1º a 3º distinguem **supervisor** (órgão ou entidade que pactua e acompanha) de **supervisionado** (órgão ou entidade que executa as metas). O contrato define prazos e indicadores de qualidade e tem como contrapartida flexibilidades ou autonomias especiais, dentro dos limites legais. Pelo art. 7º, VIII, sua vigência deve ser de **um a cinco anos**; o extrato precisa ser publicado em órgão oficial para produzir eficácia, além da divulgação eletrônica integral. Pelo art. 10, o descumprimento comprovado de metas intermediárias pode suspender, por ato motivado, o contrato e as flexibilidades até recuperação do desempenho ou repactuação.
+
+**Não confundir três instrumentos:** (1) o **contrato de desempenho** da Lei nº 13.934/2019 pactua resultados entre supervisor e supervisionado federais; (2) o **contrato de gestão com organização social**, previsto na Lei nº 9.637/1998, é uma parceria com entidade privada qualificada como OS; (3) o **termo de parceria** da Lei nº 9.790/1999 é o instrumento das organizações da sociedade civil de interesse público (OSCIP). A coincidência de metas ou a expressão histórica “contrato de gestão” não torna os regimes jurídicos intercambiáveis.
+
+**Exemplo na Câmara:** um órgão supervisor e uma unidade supervisionada federal podem pactuar metas de qualidade e prazos no instrumento legal adequado. O simples anúncio de metas pela chefia não cria, por si só, flexibilidades orçamentárias. **Contraexemplo:** uma OS contratada para executar projeto cultural não se transforma em órgão federal supervisionado pelo contrato de desempenho da Lei nº 13.934/2019.
+
+**Item C/E autoral:** “O contrato de desempenho federal previsto na Lei nº 13.934/2019 pode durar seis anos, desde que suas metas sejam mensuráveis.” **Errado.** O art. 7º, VIII, estabelece prazo de vigência entre um e cinco anos.
 
 No setor público não estatal (serviços não exclusivos), a contratualização opera por parcerias com o terceiro setor:
 - **Organizações Sociais (OS):** qualificadas pelo Poder Executivo (Lei nº 9.637/1998) para prestar serviços não exclusivos (saúde, cultura, pesquisa, ensino), vinculando-se ao Poder Público por meio de **Contrato de Gestão**, com dotações orçamentárias, cessão de bens e servidores;
@@ -181,5 +189,7 @@ Em prova recente, o Cebraspe voltou a explorar a oposição entre controle de pr
 ## Fontes
 
 - BRASIL. *Plano Diretor da Reforma do Aparelho do Estado*. Presidência da República / MARE, 1995.
-- Decreto-Lei nº 200, de 25 de fevereiro de 1967.
+- [Decreto-Lei nº 200/1967, art. 6º](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm): planejamento, coordenação, descentralização, delegação de competência e controle.
+- [Constituição Federal, art. 37, caput e § 8º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): eficiência e contrato para metas e autonomia.
+- [Lei nº 13.934/2019](https://www2.camara.leg.br/legin/fed/lei/2019/lei-13934-11-dezembro-2019-789558-publicacaooriginal-159615-pl.html): contrato de desempenho federal, partes, vigência, publicidade e suspensão.
 - Weber é utilizado como referência conceitual do tipo ideal burocrático; as associações históricas brasileiras são tratadas separadamente.

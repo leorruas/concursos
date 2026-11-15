@@ -50835,6 +50835,62 @@
       "correctAnswer": "C",
       "explanation": "Pelo art. 45, § 1º, do Decreto nº 93.872/1986, o momento do recolhimento determina o tratamento orçamentário da restituição. Os R$ 600 retornaram no exercício da despesa, resultando em anulação parcial. Os R$ 300 foram recolhidos após o encerramento e constituem receita orçamentária do exercício do recolhimento.",
       "reviewEvidence": "Revisão editorial por IA. Conferidos o art. 45, § 1º, do Decreto nº 93.872/1986 e a seção canônica. O caso mantém o mesmo suprimento e exige classificar cada devolução pelo seu próprio exercício."
+    },
+    {
+      "id": "cam-orc-l201-001-dois-suprimentos-sem-atraso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "dois-suprimentos-sem-atraso",
+      "mechanism": "distinguir-limite-simultaneo-de-atraso-de-contas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Suprimento de fundos: adiantamento excepcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Suprimento de fundos: adiantamento excepcional"
+      },
+      "statement": "Um servidor federal responde simultaneamente por dois suprimentos de fundos, ambos dentro do prazo de prestação de contas. Com base na regularidade dos prazos, o ordenador pode conceder ao mesmo servidor um terceiro suprimento enquanto os dois anteriores estiverem sob sua responsabilidade.",
+      "correctAnswer": "E",
+      "explanation": "O art. 45, § 3º, alínea a, do Decreto nº 93.872/1986 veda a concessão a quem já responde por dois suprimentos. A falta de prestação de contas após o prazo é um impedimento distinto, previsto na alínea c.",
+      "reviewEvidence": "Revisão editorial por IA. Conferido o texto atualizado do Decreto nº 93.872/1986, art. 45, § 3º, alíneas a e c, na ANTT. Seção literal conferida e hipótese aplicada aos fatos do enunciado."
+    },
+    {
+      "id": "cam-orc-l201-002-guarda-unico-servidor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "guarda-unico-servidor",
+      "mechanism": "aplicar-ressalva-quando-guardiao-e-unico-servidor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Suprimento de fundos: adiantamento excepcional"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Suprimento de fundos: adiantamento excepcional"
+      },
+      "statement": "Em uma repartição federal, o único servidor em exercício é o responsável pela guarda do material a adquirir. Observadas as demais condições de concessão, a guarda do material, por si só, não impede que ele receba suprimento de fundos para a compra.",
+      "correctAnswer": "C",
+      "explanation": "O art. 45, § 3º, alínea b, do Decreto nº 93.872/1986 impede, em regra, a concessão ao servidor encarregado da guarda ou da utilização do material. O próprio dispositivo ressalva a hipótese em que não há outro servidor na repartição.",
+      "reviewEvidence": "Revisão editorial por IA. Conferido o texto atualizado do Decreto nº 93.872/1986, art. 45, § 3º, alínea b, na ANTT. Seção literal conferida e hipótese aplicada aos fatos do enunciado."
     }
   ]
 }

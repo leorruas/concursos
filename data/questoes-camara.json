@@ -50723,6 +50723,34 @@
       "correctAnswer": "E",
       "explanation": "O art. 60, § 1º, da Lei nº 4.320/1964 permite dispensar a emissão da nota nos casos especiais previstos em lei específica. A exigência de empenho prévio do caput continua aplicável. A dispensa tem alcance documental.",
       "reviewEvidence": "Revisão editorial por IA. Lei nº 4.320/1964, arts. 60 e 63, cotejada com o portal da Câmara. Seção literal conferida. Mecanismo revisado: delimitar-dispensa-documental-sem-alterar-sequencia-da-despesa."
+    },
+    {
+      "id": "cam-orc-l197-001-tarifa-conhecida-consumo-incerto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-67167e9c18284c4c",
+      "conceptId": "estimativo-preco-conhecido-montante-incerto",
+      "mechanism": "distinguir-preco-unitario-de-montante-determinavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-67167e9c18284c4c#Empenho ordinário, global e estimativo"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+        "section": "Empenho ordinário, global e estimativo"
+      },
+      "statement": "Um órgão recebe contas mensais de água. A tarifa por metro cúbico é conhecida, mas o consumo futuro não pode ser determinado no momento do empenho. A existência de tarifa conhecida e de cobrança mensal não afasta o empenho por estimativa.",
+      "correctAnswer": "C",
+      "explanation": "A Lei nº 4.320/1964, art. 60, § 2º, determina o empenho por estimativa quando o montante não pode ser determinado. A tarifa informa o preço unitário. Sem saber o consumo, o órgão ainda não conhece o montante total da despesa, mesmo que a cobrança seja mensal.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidos o art. 60, §§ 2º e 3º, da Lei nº 4.320/1964 no portal da Câmara e a seção canônica. O julgamento depende de distinguir tarifa conhecida e montante indeterminado."
     }
   ]
 }

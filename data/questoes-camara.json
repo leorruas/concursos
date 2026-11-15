@@ -50303,6 +50303,62 @@
       "correctAnswer": "E",
       "explanation": "O F1 é a média harmônica de precisão e revocação. Para A, vale 2 × 1 × 0,25 ÷ 1,25 = 40%. Para B, a média harmônica de duas taxas iguais é a própria taxa, 62,5%.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Recalculados os dois F1 e conferida a igualdade das médias aritméticas. Seção literal conferida no artigo canônico."
+    },
+    {
+      "id": "cam-ti-l186-001-politica-mesma-acao-trajetoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-a3fd9f5c3eb6a721",
+      "conceptId": "politica-mesma-acao-trajetoria",
+      "mechanism": "distinguir-trajetoria-observada-de-politica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a3fd9f5c3eb6a721#1. Formalização do Processo de Decisão de Markov (MDP)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/20 - aprendizagem por reforco e comparacao de modelos de machine learning.md",
+        "section": "1. Formalização do Processo de Decisão de Markov (MDP)"
+      },
+      "statement": "Em um simulador, duas políticas determinísticas mandam esperar quando o reservatório está cheio. Quando ele está abaixo do nível mínimo, uma manda abrir a entrada e a outra manda manter a entrada fechada. Se o simulador só visitar o estado de reservatório cheio em certo teste, as duas políticas podem produzir a mesma sequência de ações nesse teste e ainda assim ser distintas.",
+      "correctAnswer": "C",
+      "explanation": "Uma política especifica como agir nos estados do problema. As duas coincidem no estado visitado e divergem no estado de nível baixo. A sequência observada nesse teste só revela a decisão no estado visitado.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferida a diferença entre a regra de decisão e a trajetória que a revela parcialmente. Seção literal conferida no artigo canônico."
+    },
+    {
+      "id": "cam-ti-l186-002-epsilon-acao-mais-bem-avaliada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-a3fd9f5c3eb6a721",
+      "conceptId": "epsilon-acao-mais-bem-avaliada",
+      "mechanism": "combinar-probabilidades-de-acao-nos-dois-ramos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a3fd9f5c3eb6a721#2. O Dilema Fundamental: Exploração (*Exploration*) $\\times$ Explotação (*Exploitation*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/20 - aprendizagem por reforco e comparacao de modelos de machine learning.md",
+        "section": "2. O Dilema Fundamental: Exploração (*Exploration*) $\\times$ Explotação (*Exploitation*)"
+      },
+      "statement": "Em determinado estado, um agente tem quatro ações, uma delas com valor estimado superior ao das demais. Em 80% das decisões ele escolhe essa ação diretamente. Nos outros 20%, sorteia uniformemente entre as quatro ações, incluindo a mais bem avaliada. A probabilidade de escolher a mais bem avaliada é de 80%.",
+      "correctAnswer": "E",
+      "explanation": "A ação pode ser selecionada por dois caminhos. Ela é escolhida diretamente com probabilidade de 80% e também em um quarto dos sorteios, que ocorrem em 20% das decisões. Isso soma 80% + 5% = 85%.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos os ramos da estratégia e a probabilidade total de 85%. Seção literal conferida no artigo canônico."
     }
   ]
 }

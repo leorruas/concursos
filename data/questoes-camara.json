@@ -48735,6 +48735,34 @@
       "correctAnswer": "C",
       "explanation": "O índice usa as parcelas agregadas de votos. Trocas individuais em direções opostas podem se compensar e deixar as parcelas inalteradas.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O índice usa as parcelas agregadas de votos. Trocas individuais em direções opostas podem se compensar e deixar as parcelas inalteradas. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l143-001-calculo-fragmentacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "calculo-fragmentacao-apos-divisao-de-bancada",
+      "mechanism": "comparar-somas-quadraticas-com-divisao-parcial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Laakso e Taagepera: número efetivo de partidos"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Laakso e Taagepera: número efetivo de partidos"
+      },
+      "statement": "Em um parlamento, três partidos têm 50%, 25% e 25% das cadeiras. Se um dos partidos de 25% se dividir em dois com 12,5% cada, mantendo-se as demais bancadas, o número efetivo de partidos aumentará em exatamente uma unidade.",
+      "correctAnswer": "E",
+      "explanation": "As parcelas de 50%, 25% e 25% dão 1 ÷ 0,375, aproximadamente 2,67. Dividir o quarto final em duas parcelas de 12,5% reduz a soma dos quadrados para 0,34375 e eleva o número efetivo para cerca de 2,91.",
+      "reviewEvidence": "Revisão por IA com conferência da fórmula e dos cálculos. As parcelas de 50%, 25% e 25% dão 1 ÷ 0,375, aproximadamente 2,67. Dividir o quarto final em duas parcelas de 12,5% reduz a soma dos quadrados para 0,34375 e eleva o número efetivo para cerca de 2,91. Dificuldade estimada."
     }
   ]
 }

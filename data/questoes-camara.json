@@ -48539,6 +48539,62 @@
       "correctAnswer": "C",
       "explanation": "O colegiado redefine qual objetivo deve receber prioridade. Organizar a execução das medidas para cumprir essa prioridade caberá à gestão.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O colegiado redefine qual objetivo deve receber prioridade. Organizar a execução das medidas para cumprir essa prioridade caberá à gestão. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l138-001-rede-atendimento-sem-acesso-local",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Nova Governança Pública",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "rede-atendimento-sem-acesso-local",
+      "mechanism": "avaliar-cobertura-territorial-da-entrega",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Elementos e condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Elementos e condições"
+      },
+      "statement": "Uma rede amplia o horário de atendimento em bairros centrais e fecha o único posto de um bairro periférico. A expansão do horário total basta para concluir que o acesso melhorou em todos os bairros.",
+      "correctAnswer": "E",
+      "explanation": "O total de horas não indica como a oferta se distribui. A mudança pode melhorar o acesso em alguns bairros e piorá-lo naquele que perdeu o posto.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O total de horas não indica como a oferta se distribui. A mudança pode melhorar o acesso em alguns bairros e piorá-lo naquele que perdeu o posto. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l138-002-rede-competencia-e-acordo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Nova Governança Pública",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "rede-competencia-e-acordo",
+      "mechanism": "separar-coordenacao-de-decisao-formal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Elementos e condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Elementos e condições"
+      },
+      "statement": "Uma rede reúne agentes de vários órgãos para propor um fluxo comum de atendimento. O grupo pode formular propostas de coordenação mesmo que a aprovação das mudanças permaneça com as autoridades de cada órgão.",
+      "correctAnswer": "C",
+      "explanation": "A elaboração conjunta organiza o trabalho entre participantes. A competência para aprovar as mudanças continua com as autoridades responsáveis.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A elaboração conjunta organiza o trabalho entre participantes. A competência para aprovar as mudanças continua com as autoridades responsáveis. Dificuldade estimada."
     }
   ]
 }

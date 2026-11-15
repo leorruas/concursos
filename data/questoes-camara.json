@@ -50079,6 +50079,90 @@
       "correctAnswer": "E",
       "explanation": "As frequências são as áreas das barras: 2 × 9 = 18 e 6 × 5 = 30. A frequência combinada é 48 e a largura combinada é 8, o que dá altura 6. A média simples das alturas, 7, só seria o cálculo adequado se as duas larguras fossem iguais.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o título literal da seção canônica, a conservação da frequência ao reunir classes adjacentes e o cálculo 48/8 = 6. O item exige recomputar a densidade de uma união, além de reconhecer que a área representa frequência."
+    },
+    {
+      "id": "cam-ti-l183-001-preenchimento-temporal-corte",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "preenchimento-temporal-corte",
+      "mechanism": "aplicar-preenchimento-sem-observacao-futura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#3.1. Tratamento de Valores Faltantes ou Nulos (*Missing Values*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "3.1. Tratamento de Valores Faltantes ou Nulos (*Missing Values*)"
+      },
+      "statement": "Um relatório calculado ao fim de terça-feira deve usar somente dados disponíveis até aquele dia. Na série de ocupação de uma sala, o último valor observado foi 18 na segunda-feira, houve falha de medição na terça-feira e a leitura de quarta-feira foi 31. O preenchimento da terça-feira com 31, por backward fill, respeitaria o corte temporal do relatório.",
+      "correctAnswer": "E",
+      "explanation": "O backward fill usa a observação seguinte e, nesse caso, introduziria a leitura de quarta-feira em um relatório de terça. O forward fill usaria a leitura anterior, 18, como estimativa para a lacuna.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. A direção de cada estratégia foi confrontada com a data-limite do relatório. Seção literal conferida no artigo canônico."
+    },
+    {
+      "id": "cam-ti-l183-002-contagem-distinta-entre-grupos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "contagem-distinta-entre-grupos",
+      "mechanism": "detectar-sobreposicao-ao-somar-contagens-distintas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#4.1. Funções de Agregação e Agrupamento"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "4.1. Funções de Agregação e Agrupamento"
+      },
+      "statement": "Uma unidade atendeu 24 pessoas distintas pela manhã e 18 à tarde. Se 7 dessas pessoas estiveram nos dois turnos, uma contagem distinta de pessoas no dia inteiro retorna 35, supondo que o mesmo identificador seja usado nos dois turnos.",
+      "correctAnswer": "C",
+      "explanation": "Somar as contagens por turno dá 42 e conta duas vezes cada uma das 7 pessoas presentes em ambos. A contagem distinta diária é 24 + 18 − 7 = 35.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o uso de um identificador estável por pessoa e a inclusão-exclusão. Seção literal conferida no artigo canônico."
+    },
+    {
+      "id": "cam-ti-l183-003-concordancia-entre-fontes-e-exatidao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / ferramentas digitais, segurança da informação e análise de dados",
+      "articleId": "art-03945be9cb42c4bd",
+      "conceptId": "concordancia-entre-fontes-e-exatidao",
+      "mechanism": "distinguir-concordancia-de-confronto-com-realidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-03945be9cb42c4bd#5. As dimensões da qualidade de dados (*Data Quality*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/25 - transformacao de dados limpeza agregacao e qualidade.md",
+        "section": "5. As dimensões da qualidade de dados (*Data Quality*)"
+      },
+      "statement": "Depois de uma migração, dois sistemas exibem o mesmo número de patrimônio para um equipamento. A vistoria confirma que a etiqueta física correta traz outro número. Para esse campo, a concordância entre os dois sistemas é compatível com uma falha de exatidão em ambos.",
+      "correctAnswer": "C",
+      "explanation": "Os dois sistemas concordam no campo comparado, mas nenhum registra o número confirmado na vistoria. Concordância entre bases verifica consistência nesse ponto. Exatidão exige correspondência com o identificador real.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferida a distinção entre concordância de registros e verificação factual. Seção literal conferida no artigo canônico."
     }
   ]
 }

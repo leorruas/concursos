@@ -87,6 +87,12 @@ O **art. 38** permite que comissão externa seja instituída pelo **Presidente d
 
 **Exemplo:** missão parlamentar para observar situação de emergência em município. Trata-se de possível comissão externa. Se, em vez disso, a Câmara pretende investigação com poderes especiais sobre irregularidades específicas, deve examinar os requisitos de **CPI**, não converter a missão temporária em inquérito por simples decisão informal.
 
+### Convocação para prestar informações e audiência pública: sujeitos e efeitos
+
+A Constituição distingue **audiência pública com entidades da sociedade civil** (art. 58, § 2º, II), **convocação de ministros de Estado pelas comissões** (art. 58, § 2º, III) e a competência prevista no **art. 50**, que alcança também **titulares de órgãos diretamente subordinados à Presidência da República** e o **Presidente do Comitê Gestor do Imposto sobre Bens e Serviços**. Esta última redação foi alterada pela **Emenda Constitucional nº 132/2023**. O art. 50 exige assunto previamente determinado e prevê consequências para o não comparecimento sem justificativa adequada. A audiência pública, por sua vez, serve à participação e à obtenção de contribuições e não deve ser tratada como convocação compulsória nos mesmos termos.
+
+**Exemplo hipotético.** Uma comissão quer ouvir pesquisadores sobre os efeitos de determinada política: pode organizar audiência pública. Se precisa exigir explicações de uma autoridade abrangida pelo art. 50 sobre atribuições institucionais, examina a competência de **convocação** e seus requisitos. Trocar “convidar participantes” por “convocar ministro” muda a natureza jurídica do ato e as consequências do não comparecimento. A leitura conjunta dos arts. 50 e 58 evita reduzir a lista dos convocáveis à redação resumida do art. 58, § 2º, III.
+
 ## Competências gerais das comissões: legislar e fiscalizar
 
 O **art. 58, § 2º, da Constituição** e o **art. 24 do RICD** atribuem competências às comissões **em razão da matéria**. A lista demonstra que **não se resumem a emitir pareceres**.

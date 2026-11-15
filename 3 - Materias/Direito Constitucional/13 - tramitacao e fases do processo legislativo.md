@@ -117,6 +117,12 @@ Se o projeto **não se enquadra** no poder conclusivo, as comissões emitem os p
 
 O **art. 133 do RICD** prevê hipótese de **rejeição e arquivamento por despacho da Presidência** quando uma proposição com eficácia conclusiva recebe **pareceres contrários quanto ao mérito de todas as comissões** a que foi distribuída, ressalvada a possibilidade de recurso e outras condições regimentais. **Parecer contrário de apenas uma comissão** não equivale automaticamente à hipótese “todas as comissões”. E **parecer contrário a emenda** não impede que a proposição principal siga seu curso.
 
+### Arquivamento por rejeição e novo projeto na mesma sessão legislativa
+
+**Exemplo hipotético.** Um projeto de lei aprovado pela Câmara é rejeitado pelo Senado, como Casa revisora. Pelo **art. 65 da Constituição**, o projeto é **arquivado**. Isso resolve o destino daquela proposição. Outra pergunta é se a **matéria** poderá voltar a ser apresentada em **novo projeto na mesma sessão legislativa**. O **art. 67** exige, para isso, proposta da **maioria absoluta dos membros de qualquer uma das Casas do Congresso Nacional**. Esse quórum especial diz respeito à reapresentação da matéria rejeitada, não à votação comum de todo projeto novo.
+
+**Mude a hipótese:** se o Senado apenas **emenda** o projeto, aplica-se o **parágrafo único do art. 65**, com retorno à Casa iniciadora para examinar as alterações. Não há, nessa situação, rejeição da proposição que faça incidir automaticamente a condição do art. 67. E se a proposição for **emenda constitucional**, há regra própria no **art. 60, § 5º**: matéria de proposta rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa. O quórum de reapresentação do art. 67 vale para **projetos de lei**, e não supera essa proibição específica das propostas de emenda constitucional.
+
 ## Bicameralismo: Casa iniciadora e Casa revisora
 
 O **art. 64 da Constituição** determina que **projetos de lei iniciados pelo presidente da República, pelo Supremo Tribunal Federal ou pelos Tribunais Superiores** comecem sua **discussão e votação na Câmara dos Deputados**. Projetos de **senador**, em regra, iniciam no **Senado**, com a Câmara como Casa revisora. **Casa iniciadora ≠ Casa fixa para toda matéria**; o sujeito constitucional e a espécie da proposição importam.

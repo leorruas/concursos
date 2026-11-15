@@ -30,6 +30,12 @@ Esta unidade **CAM-PL-002** aprofunda **quem pode iniciar, em qual matéria, com
 
 Altere uma única variável: se a proposição trata de cargos da **estrutura administrativa da própria Câmara**, o exame passa pelas regras de competência e iniciativa da Casa, especialmente o art. 51, IV, da Constituição, e pelo instrumento normativo adequado. A pergunta decisiva deixa de ser “envolve servidor?” e passa a ser **“servidor de qual órgão, e o que exatamente se pretende regular?”**. O fato de o projeto ter boa finalidade não substitui a verificação de iniciativa.
 
+### Criação de cargos da Câmara e remuneração: duas decisões diferentes
+
+**Exemplo hipotético.** A Câmara pretende criar cargos para seus próprios serviços e, depois, estabelecer a remuneração desses cargos. O **art. 51, IV, da Constituição** atribui privativamente à Câmara a competência para dispor sobre sua organização, funcionamento e criação, transformação ou extinção de cargos, empregos e funções de seus serviços. O mesmo dispositivo reserva à Câmara a **iniciativa de lei para fixar a remuneração** correspondente, observados os parâmetros da lei de diretrizes orçamentárias. Portanto, a autorização para a Casa organizar seus serviços não equivale a autorização para fixar vencimentos apenas por ato interno.
+
+A distinção também se aplica ao Senado no **art. 52, XIII**. Se a questão disser que, por tratar de servidores federais, a remuneração dos serviços da Câmara depende de projeto iniciado pelo **Presidente da República**, terá deslocado a iniciativa própria da Casa. Se disser que a Câmara pode fixar essa remuneração sem lei, terá confundido a competência de organização com o instrumento exigido para remuneração. A Constituição separa explicitamente essas duas funções.
+
 ## Estrutura: três perguntas independentes
 
 | Pergunta | O que identificar | Erro característico |

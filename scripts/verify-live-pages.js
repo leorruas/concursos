@@ -91,9 +91,14 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         const local = fs.readFileSync(path.join(rootDir, '_site', recurso), 'utf8');
         if (await response.text() !== local) throw new Error('Recurso do glossário diverge do build: ' + recurso);
       }
-      // Os metadados do manifesto não mudam quando o corpo Markdown é corrigido.
-      // Confirme explicitamente os dois materiais alterados pela auditoria PL.
+      // Metadados do manifesto não bastam para confirmar mudanças no Markdown.
+      // Conferir os artigos PL11–15 revisados e manter as verificações anteriores.
       const materiaisAuditoriaPL = [
+        '3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao.md',
+        '3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md',
+        '3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md',
+        '3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes.md',
+        '3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao.md',
         '3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md',
         '3 - Materias/Direito Constitucional/direito-constitucional.md'
       ];
@@ -111,7 +116,7 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         const local = fs.readFileSync(localPath, 'utf8');
         if (publicado !== local) throw new Error('Nota de Processo Legislativo diverge do build publicado: ' + recurso);
       }
-      console.log('✓ Código de Ética e hub constitucional sincronizados no Pages.');
+      console.log('✓ Artigos PL11–15, Código de Ética e hub constitucional sincronizados no Pages.');
       console.log('✓ Glossário, interface e índice sincronizados no Pages.');
       console.log('✓ Coleção e interface dos flashcards sincronizadas no Pages.');
       console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');

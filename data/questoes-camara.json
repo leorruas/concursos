@@ -49687,6 +49687,34 @@
       "correctAnswer": "C",
       "explanation": "O retrocesso pode ocorrer por enfraquecimento gradual de controles institucionais. A manutenção do calendário eleitoral é compatível com essa trajetória.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O retrocesso pode ocorrer por enfraquecimento gradual de controles institucionais. A manutenção do calendário eleitoral é compatível com essa trajetória. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l171-001-competicao-sem-limites-ao-executivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / regimes políticos",
+      "articleId": "art-5e8b4c72d13f906a",
+      "conceptId": "competicao-sem-limites-ao-executivo",
+      "mechanism": "testar-requisitos-adicionais-de-democracia-liberal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5e8b4c72d13f906a#Democracia, autocracia fechada e autocracia eleitoral: quatro tipos do V-Dem"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/16 - regimes politicos democracia autoritarismo e hibridismos.md",
+        "section": "Democracia, autocracia fechada e autocracia eleitoral: quatro tipos do V-Dem"
+      },
+      "statement": "Em um país, a oposição vence eleições competitivas, mas o Executivo pode afastar juízes por discordar de suas decisões. No esquema do V-Dem, a vitória eleitoral da oposição é suficiente para classificar o regime como democracia liberal.",
+      "correctAnswer": "E",
+      "explanation": "A democracia liberal exige, além das condições eleitorais, garantias de direitos e limites ao Executivo. A vitória da oposição informa sobre a competição, mas não comprova essas outras condições.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A democracia liberal exige, além das condições eleitorais, garantias de direitos e limites ao Executivo. A vitória da oposição informa sobre a competição, mas não comprova essas outras condições. Dificuldade estimada."
     }
   ]
 }

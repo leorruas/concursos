@@ -10,7 +10,9 @@ updated: 2026-09-10
 
 # Nacionalidade
 
-Nacionalidade é o vínculo jurídico-político entre a pessoa e o Estado. Para prova, a estrutura central está no art. 12 da Constituição: **brasileiros natos, brasileiros naturalizados, distinções constitucionais entre eles e hipóteses de perda da nacionalidade**.
+Imagine duas crianças nascidas no mesmo hospital brasileiro: uma é filha de turistas estrangeiros; a outra, de diplomatas estrangeiros que representam seu país. As duas terão nacionalidade brasileira originária? A resposta depende das condições do art. 12 da Constituição, não apenas do local do parto.
+
+**Nacionalidade** é o vínculo jurídico-político que faz uma pessoa pertencer juridicamente a um Estado. Esse vínculo define, entre outras consequências, quem é brasileiro nato ou naturalizado. Para prova, a estrutura central está no art. 12 da Constituição: **brasileiros natos, brasileiros naturalizados, distinções constitucionais entre eles e hipóteses de perda da nacionalidade**.
 
 ## Nacionalidade originária × adquirida
 
@@ -29,6 +31,8 @@ O art. 12, I, prevê três grupos.
 ### 1. Nascimento no Brasil
 
 É brasileiro nato quem nasce na República Federativa do Brasil, ainda que de pais estrangeiros, **desde que estes não estejam a serviço de seu país**.
+
+No exemplo inicial, o filho de turistas estrangeiros é brasileiro nato. Já o filho de pais estrangeiros que estejam a serviço do país deles se enquadra na exceção e não adquire a nacionalidade brasileira por esse critério. É preciso verificar se os pais estão efetivamente a serviço de seu país; a mera condição de estrangeiros não basta.
 
 A banca costuma inverter a exceção: nascer no Brasil de pais estrangeiros não retira, por si só, a nacionalidade brasileira. O elemento constitucional relevante é o serviço prestado ao país estrangeiro.
 
@@ -76,6 +80,10 @@ A regra é a igualdade: a lei não pode estabelecer distinções entre brasileir
 
 A pegadinha típica é ampliar a lista. Deputado, senador, governador, prefeito e ministro de Estado em geral não são, apenas por esses cargos, privativos de nato.
 
+### Portugueses com direitos equiparados: não é naturalização
+
+O art. 12, § 1º, prevê que portugueses com residência permanente no Brasil, **havendo reciprocidade em favor dos brasileiros em Portugal**, recebem os direitos inerentes ao brasileiro, ressalvadas as exceções constitucionais. *Reciprocidade* significa que o outro país também oferece tratamento correspondente aos brasileiros. Essa equiparação de direitos não transforma automaticamente o português em brasileiro nato ou naturalizado. Por exemplo, ela não permite ocupar um cargo reservado pela Constituição a brasileiro nato. A regra deve ser distinguida da naturalização, que é uma forma de adquirir nacionalidade brasileira.
+
 ### Outras distinções constitucionais
 
 As diferenças entre nato e naturalizado não se resumem à lista de cargos.
@@ -86,9 +94,11 @@ As diferenças entre nato e naturalizado não se resumem à lista de cargos.
 
 Para prova, a regra mental é: **a lei comum não cria novas distinções; a própria Constituição pode criá-las**.
 
-## Perda da nacionalidade: EC nº 131/2023
+## Perda da nacionalidade: Emenda Constitucional (EC) nº 131/2023
 
 A EC nº 131/2023 alterou profundamente o § 4º do art. 12. A redação antiga não deve ser usada.
+
+**Apatridia** é a situação de quem não é considerado nacional de nenhum Estado. A Constituição impede que o pedido expresso de perda produza essa situação. Antes de aplicar a regra, pergunte: a pessoa está apenas obtendo outra nacionalidade ou está pedindo expressamente a perda da brasileira?
 
 A perda pode ocorrer quando:
 
@@ -122,7 +132,7 @@ A cobrança tende a deslocar uma condição constitucional para a hipótese erra
 
 ## Tensões e pegadinhas
 
-- **Jus soli × jus sanguinis**: a Constituição brasileira combina critérios; nenhum deles explica sozinho todas as hipóteses.
+- **Jus soli (direito do solo) × jus sanguinis (direito de sangue ou filiação)**: o primeiro considera o território do nascimento; o segundo, a nacionalidade dos pais. A Constituição brasileira combina critérios, sujeitos a condições. Nascer no exterior de mãe brasileira, por exemplo, não basta isoladamente para enquadramento no art. 12, I, c: é preciso registro em repartição brasileira competente ou residência no Brasil e opção após a maioridade.
 - **Registro × opção**: são caminhos alternativos no art. 12, I, c.
 - **Nato × cidadão**: nacionalidade não equivale automaticamente a capacidade eleitoral.
 - **Regra × exceção**: igualdade entre natos e naturalizados é a regra; distinções dependem de previsão constitucional.
@@ -150,9 +160,15 @@ A cobrança tende a deslocar uma condição constitucional para a hipótese erra
 - [[3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais|Direitos e garantias fundamentais]]: extradição e proteção constitucional.
 - [[3 - Materias/Direito Constitucional/07 - poder executivo|Poder Executivo]]: cargos privativos de brasileiro nato.
 
+## Autochecagem: certo ou errado
+
+**1.** Um português com residência permanente no Brasil e reciprocidade em Portugal torna-se brasileiro nato por força do art. 12, § 1º. **Errado.** A norma atribui direitos com ressalvas constitucionais, mas não converte a nacionalidade do português em brasileira.
+
+**2.** Após a Emenda Constitucional nº 131/2023, a aquisição de outra nacionalidade, por si só, não é hipótese constitucional de perda da nacionalidade brasileira. **Certo.** O art. 12, § 4º, prevê cancelamento judicial da naturalização nas hipóteses descritas e pedido expresso de perda, ressalvada a apatridia.
+
 ## Fontes
 
-- Constituição da República Federativa do Brasil de 1988, art. 12.
+- [Constituição da República Federativa do Brasil de 1988, art. 12, incisos I e II e §§ 1º a 5º (texto atualizado)](https://www4.planalto.gov.br/legislacao/legis-federal/constituicao).
 - Emenda Constitucional nº 131, de 3 de outubro de 2023.
 
 ---

@@ -48819,6 +48819,34 @@
       "correctAnswer": "E",
       "explanation": "A continuidade organizacional informa sobre a solidez dos partidos. A aceitação dos procedimentos eleitorais exige evidências próprias.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A continuidade organizacional informa sobre a solidez dos partidos. A aceitação dos procedimentos eleitorais exige evidências próprias. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l145-001-margem-sem-cadeira-adicional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas eleitorais",
+      "articleId": "art-b3e8d1c74f209a65",
+      "conceptId": "margem-sem-cadeira-adicional",
+      "mechanism": "aplicar-limite-de-uma-cadeira-por-distrito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b3e8d1c74f209a65#Casos progressivos: altere uma variável de cada vez"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/23 - sistema eleitoral majoritario funcionamento e efeitos.md",
+        "section": "Casos progressivos: altere uma variável de cada vez"
+      },
+      "statement": "Em um sistema de pluralidade com uma cadeira por distrito, um partido obtém 51% dos votos em um distrito com dois candidatos. Se a sua votação nesse distrito subisse para 90%, mantidas as regras e todos os demais resultados, sua bancada aumentaria.",
+      "correctAnswer": "E",
+      "explanation": "Com dois candidatos, 51% e 90% dos votos produzem a mesma consequência distrital: uma cadeira para o vencedor. A margem de vitória não gera cadeiras adicionais.",
+      "reviewEvidence": "Revisão por IA com conferência da regra de alocação distrital. Com dois candidatos, 51% e 90% dos votos produzem a mesma consequência distrital: uma cadeira para o vencedor. A margem de vitória não gera cadeiras adicionais. Dificuldade estimada."
     }
   ]
 }

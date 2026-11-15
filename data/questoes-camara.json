@@ -49323,6 +49323,34 @@
       "correctAnswer": "C",
       "explanation": "A autonomia inserida combina capacidade própria de decisão e vínculos com atores sociais. Consultar empresas pode fornecer informação sem lhes entregar a decisão pública.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A autonomia inserida combina capacidade própria de decisão e vínculos com atores sociais. Consultar empresas pode fornecer informação sem lhes entregar a decisão pública. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l160-001-votos-e-cadeiras-com-pesos-distintos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "votos-e-cadeiras-com-pesos-distintos",
+      "mechanism": "comparar-fragmentacao-em-duas-bases",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Dispersão eleitoral e parlamentar podem divergir"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Dispersão eleitoral e parlamentar podem divergir"
+      },
+      "statement": "Dois partidos obtêm metade dos votos cada, mas ficam com 75% e 25% das cadeiras. Nesse caso, o número efetivo de partidos calculado pelas cadeiras é menor que o calculado pelos votos.",
+      "correctAnswer": "C",
+      "explanation": "O número efetivo usa as parcelas de votos no cálculo eleitoral e as parcelas de cadeiras no cálculo parlamentar. Com cadeiras de 75% e 25%, o valor parlamentar é 1,6, enquanto duas parcelas iguais de votos dão 2.",
+      "reviewEvidence": "Revisão por IA com conferência da fórmula e da seção indicada. O número efetivo usa as parcelas de votos no cálculo eleitoral e as parcelas de cadeiras no cálculo parlamentar. Com cadeiras de 75% e 25%, o valor parlamentar é 1,6, enquanto duas parcelas iguais de votos dão 2. Dificuldade estimada."
     }
   ]
 }

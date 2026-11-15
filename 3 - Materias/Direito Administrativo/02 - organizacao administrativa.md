@@ -19,7 +19,7 @@ tags:
 A organização da Administração Pública brasileira estrutura a distribuição das competências estatais entre a **Administração Direta** (os próprios entes federativos federados atuando por seus órgãos despersonalizados) e a **Administração Indireta** (conjunto de pessoas jurídicas instituídas para o desempenho descentralizado de atividades públicas especializadas). Nas provas de nível superior do Cebraspe (especialmente para o cargo de Analista Legislativo da Câmara dos Deputados), esse tema é abordado sob a ótica da **estrita legalidade na criação**, da **natureza da personalidade jurídica**, do **regime jurídico de direito público ou privado** e dos **limites do controle finalístico (*tutela ou supervisão ministerial*)** exercido pelo ente instituidor.
 
 Dois pontos de fronteira doutrinária e jurisprudencial concentram a maior incidência de distratores do Cebraspe:
-1. **A ausência de hierarquia ou subordinação entre a Administração Direta e a Indireta:** A relação entre o Ministério supervisor (ou órgão diretivo do Poder) e a entidade descentralizada é exclusivamente de **vinculação e controle finalístico**, sendo vedada a ingerência discricionária em sua autonomia técnica e administrativa, salvo expressa previsão legal.
+1. **A ausência de hierarquia ou subordinação entre a Administração Direta e a Indireta:** A relação entre o ministério supervisor e a entidade descentralizada é de **vinculação e controle finalístico**, nos limites legais, e não de hierarquia. A intensidade do controle depende da legislação aplicável; não se presume poder geral de substituir decisões da entidade.
 2. **As regras de criação e autorização legislativa do art. 37, XIX, da CF/1988:** Somente a autarquia é **criada diretamente por lei específica**; as empresas públicas, as sociedades de economia mista e as fundações públicas têm sua **instituição autorizada por lei específica**, exigindo-se, no caso destas últimas, lei complementar para definir suas áreas de atuação.
 
 ---
@@ -117,13 +117,13 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
 ### Questão 2
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Entre a Presidência da Câmara dos Deputados e uma autarquia federal vinculada inexiste relação de subordinação hierárquica, exercendo o ente central apenas controle finalístico ou tutela administrativa nos estritos limites definidos em lei.
+**Item:** Entre um ministério supervisor e uma autarquia federal a ele vinculada inexiste relação de subordinação hierárquica, cabendo ao ministério o controle finalístico nos limites definidos em lei.
 
 - ( ) Certo
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** A descentralização administrativa rompe o vínculo de hierarquia, que só opera no âmbito interno da mesma pessoa jurídica (desconcentração). A relação entre o ente instituidor/supervisor e a entidade descentralizada é de mera vinculação para fins de controle finalístico e cumprimento do princípio da especialidade.
+**Comentário:** A descentralização administrativa rompe o vínculo de hierarquia, que só opera no âmbito interno da mesma pessoa jurídica (desconcentração). A vinculação de uma autarquia federal ao ministério supervisor não transforma seus dirigentes em subordinados hierárquicos do ministro. A supervisão segue as competências previstas na legislação; a Câmara dos Deputados não deve ser usada como exemplo genérico de ministério supervisor de autarquia.
 
 ---
 
@@ -161,8 +161,8 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** As pessoas jurídicas de direito privado prestadoras de serviços públicos respondem objetivamente pelos danos causados por seus agentes (art. 37, § 6º, da CF/1988). Todavia, por possuírem personalidade de direito privado, não usufruem do regime processual privilegiado da Fazenda Pública (prazos diferenciados do CPC e precatórios), salvo hipóteses excepcionalíssimas de empresas públicas prestadoras de serviço público em regime de monopólio estrito (jurisprudência consolidada dos Correios/ECT no STF).
+**Gabarito: Errado, pela generalização da segunda oração.**  
+**Comentário:** O art. 37, § 6º, da Constituição prevê responsabilidade objetiva das pessoas jurídicas de direito privado prestadoras de serviços públicos pelos danos que seus agentes causem a terceiros nessa qualidade. Entretanto, não é seguro afirmar categoricamente que nenhuma estatal prestadora de serviço público possui prerrogativas processuais: o Supremo Tribunal Federal reconhece regimes específicos para determinadas entidades, conforme a atividade e as condições jurídicas. A extensão de prerrogativas não decorre automaticamente da personalidade privada nem pode ser negada sem ressalvas. A questão, como redigida, generaliza indevidamente.
 
 ---
 
@@ -174,8 +174,8 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** Pelo princípio da especialidade, a entidade descentralizada é criada para um fim determinado e específico. Ela não possui capacidade jurídica genérica e ampla, ficando adstrita aos objetivos fixados na lei instituidora. A prática de ato alheio à sua missão institucional acarreta incompetência e desvio de finalidade.
+**Gabarito: Errado, pela classificação automática do vício como desvio de finalidade.**  
+**Comentário:** Pelo princípio da especialidade, a entidade descentralizada deve atuar nas finalidades estabelecidas em sua lei instituidora. Um ato fora das atribuições legais pode ser inválido por incompetência ou outra ilegalidade; **desvio de finalidade** exige verificar se o agente perseguiu finalidade diversa da prevista na norma. Esses vícios não são sinônimos.
 
 ---
 
@@ -186,3 +186,10 @@ O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executi
   - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: Aplicação dos princípios de legalidade estrita, moralidade e eficiência à descentralização.
   - [[3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao|Centralização, Descentralização, Concentração e Desconcentração no Direito Administrativo]]: Aprofundamento dos mecanismos operacionais de desconcentração e descentralização por outorga e delegação.
   - [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos: espécies, cargos, empregos, funções e regimes de vinculação estatal]]: Regime jurídico de agentes públicos estatutários de autarquias vs. empregados celetistas de estatais.
+
+
+## Nota de revisão jurídica dirigida (15/11/2026)
+
+Os itens 2, 5 e 6 foram ajustados, inclusive o gabarito do item 6 para retirar, respectivamente, um exemplo institucional inadequado, uma generalização sobre prerrogativas de estatais e a equiparação automática entre incompetência e desvio de finalidade. **Esta intervenção não constitui certificação integral do artigo**: ainda dependem de cotejo individual as afirmações sobre fundações públicas, competência judicial, regime de pessoal, recursos impróprios e exceções jurisprudenciais.
+
+Fontes primárias a confrontar na etapa de certificação: [Constituição Federal, arts. 37, XIX, e § 6º, e 109, I](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm); [Decreto-Lei nº 200/1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm); [Lei nº 13.303/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm); jurisprudência oficial do STF sobre estatais prestadoras de serviços públicos. A revisão do glossário e dos flashcards também permanece pendente.

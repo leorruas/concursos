@@ -10779,6 +10779,78 @@
         "prompt": "Uma MP perde eficácia, mas foi usada para criar relações jurídicas enquanto vigorava. Sem decreto legislativo em 60 dias, todos os efeitos anteriores desaparecem?",
         "answer": "Não. O art. 62, § 11, mantém aquelas relações regidas pela MP. Isso não torna a MP vigente para autorizar atos futuros."
       }
+    },
+    {
+      "id": "camara-dad02-tutela-vinculacao",
+      "term": "Ministério pode rever livremente atos de autarquia vinculada?",
+      "definition": "Não. Vinculação não cria hierarquia: o controle finalístico depende das competências e limites legais.",
+      "example": "O ministério supervisiona objetivos de uma autarquia, mas não substitui automaticamente a decisão técnica da entidade.",
+      "confusion": "Tutela entre pessoas jurídicas distintas não equivale a subordinação interna entre órgãos.",
+      "conceptIds": [
+        "glo-camara-vinculacao-tutela"
+      ],
+      "source": {
+        "title": "Decreto-Lei nº 200/1967, arts. 19 a 26",
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm",
+        "locator": "Supervisão ministerial"
+      },
+      "topic": "Direito Administrativo",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "Direito Administrativo / organização administrativa"
+      ],
+      "note": {
+        "articleId": "art-86dee064aef44ba4",
+        "section": "Quadro comparativo e tutela administrativa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Ministério pode rever livremente atos de autarquia vinculada?",
+        "answer": "Não. Vinculação não cria hierarquia: o controle finalístico depende das competências e limites legais."
+      }
+    },
+    {
+      "id": "camara-dad02-fundacao-autarquica",
+      "term": "Fundação pública de direito público é criada ou apenas autorizada por lei?",
+      "definition": "É criada diretamente por lei específica, como uma autarquia. A fundação pública de direito privado tem sua instituição autorizada por lei.",
+      "example": "Uma lei cria uma fundação autárquica; outra autoriza o Executivo a instituir fundação de direito privado.",
+      "confusion": "O art. 37, XIX, distingue a fundação autárquica da fundação governamental de direito privado.",
+      "conceptIds": [
+        "glo-camara-fundacao-autarquica"
+      ],
+      "source": {
+        "title": "Constituição Federal, art. 37, XIX",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Art. 37, XIX"
+      },
+      "topic": "Direito Administrativo",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "Direito Administrativo / organização administrativa"
+      ],
+      "note": {
+        "articleId": "art-86dee064aef44ba4",
+        "section": "Quadro comparativo e tutela administrativa"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "contrast": {
+        "prompt": "Fundação pública de direito público é criada ou apenas autorizada por lei?",
+        "answer": "É criada diretamente por lei específica, como uma autarquia. A fundação pública de direito privado tem sua instituição autorizada por lei."
+      }
     }
   ]
 }

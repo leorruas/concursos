@@ -266,7 +266,7 @@ Para composição do **parecer escrito**, votos do relator, ressalvas, votos em 
 
 **Subcomissão especial ≠ comissão especial. Parecer terminativo ≠ apreciação conclusiva. Quórum de abertura ≠ quórum de votação.**
 
-**Fonte normativa verificada em 08/11/2026:** [RICD, texto atualizado da Câmara, arts. 25 a 54](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html); [31ª edição do RICD, 2026](https://bd.camara.leg.br/bd/items/version/400). Esta expansão é editorial; seus itens C/E são inéditos e não comprovam estudo ou retenção pessoal.
+**Fonte normativa verificada em 08/11/2026:** [RICD, texto atualizado da Câmara, arts. 25 a 54](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html); [31ª edição do RICD, 2026](https://bd.camara.leg.br/bd/items/version/400). Esta expansão é editorial; seus itens C/E são inéditos e não comprovam estudo ou retenção pessoal.
 
 ## Como a Cebraspe cobra
 
@@ -331,17 +331,19 @@ Uma resposta sobre comissões deve partir do **art. 58 da Constituição**, apre
 
 ## Fontes e recorte
 
-- [Constituição Federal, art. 58, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
-- [Regimento Interno da Câmara dos Deputados, arts. 22 a 24 e 32 a 41, texto normativo atualizado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+- [Constituição Federal, art. 58, texto atualizado da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988).
+- [Regimento Interno da Câmara dos Deputados, arts. 22 a 24 e 32 a 41, texto normativo atualizado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html).
 - [Portal oficial do RICD, consolidado até a Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 - [Biblioteca da Câmara, 31ª edição do RICD, 2026](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
 
 **Limites:** as questões são inéditas e didáticas, não provas oficiais da Cebraspe. A descrição das CPIs aqui cobre classificação e condições básicas; seus instrumentos investigatórios e as reservas de jurisdição serão objeto de CAM-PL-031. A nota não registra estudo individual, desempenho nem retenção.
 
 
+> **Fontes consolidadas para consulta (15/11/2026):** o portal da Câmara disponibiliza o [Regimento Interno atualizado até a Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e a [Constituição atualizada até a Emenda Constitucional nº 141/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988). A consolidação mais recente deve ser consultada quando houver divergência com reproduções antigas. Esta atualização de referências não representa nova certificação de todos os dispositivos citados no artigo.
+
 ## Certificação normativa delimitada: 11/11/2026
 
-**Escopo efetivamente conferido:** as partes do DC14 sobre natureza e espécies de comissões, composição, funcionamento e pareceres, com os [arts. 22–54 do Regimento Interno da Câmara dos Deputados, texto consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e o [art. 58 da Constituição Federal](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). Examinados **sete casos** sobre espécies e competências, **nove variações de funcionamento**, **dois exemplos comentados** e os **16 itens C/E** originais distribuídos em dois conjuntos de **dez e seis**. A leitura diferenciou comissões especiais, CPI e comissões externas; mandato de dirigentes, proporcionalidade, subcomissões sem poder decisório, prazos, quóruns e pareceres terminativos.
+**Escopo efetivamente conferido:** as partes do DC14 sobre natureza e espécies de comissões, composição, funcionamento e pareceres, com os [arts. 22–54 do Regimento Interno da Câmara dos Deputados, texto consolidado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e o [art. 58 da Constituição Federal](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988). Examinados **sete casos** sobre espécies e competências, **nove variações de funcionamento**, **dois exemplos comentados** e os **16 itens C/E** originais distribuídos em dois conjuntos de **dez e seis**. A leitura diferenciou comissões especiais, CPI e comissões externas; mandato de dirigentes, proporcionalidade, subcomissões sem poder decisório, prazos, quóruns e pareceres terminativos.
 
 **NC-PL-046:** acrescentado o **art. 35, § 2º**, sobre devolução de requerimento de CPI que não atenda aos requisitos, com **recurso em cinco sessões ao Plenário, ouvida a CCJC**, sem transformar criação de CPI validamente requerida em autorização discricionária da maioria. **NC-PL-047:** explicitados os **§§ 5º e 6º** do art. 35, quanto à composição numérica e ao apoio administrativo no ato de criação. **NC-PL-048:** detalhados destinatários do relatório de CPI e remessa pelo Presidente da Câmara em **cinco sessões** nas hipóteses do art. 37, parágrafo único.
 

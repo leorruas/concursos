@@ -5,7 +5,7 @@ title: "Sanção, veto, promulgação e publicação: etapas, prazos e competên
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-11
+updated: 2026-11-15
 aliases:
   - "Sanção expressa e tácita"
   - "Veto presidencial total e parcial"
@@ -69,6 +69,10 @@ A **sanção tácita não decorre da publicação da lei**, mas do **decurso do 
 **Cuidado com a contagem jurisprudencial:** conforme o **STF, ADPF 1.078 (2024)**, a contagem dos **15 dias úteis** do veto começa no **primeiro dia útil após o recebimento** do projeto, e o marco final para aferir tempestividade do veto é a **comunicação ao Legislativo**, não a data de publicação em diário oficial. A publicação tardia **não é, isoladamente, prova** de veto intempestivo. A Corte também afirmou a impossibilidade de exercer veto **após** transcorrido o prazo constitucional (ADPF 893).
 
 **Os 30 dias do Congresso não são “30 dias úteis” por inferência**: a Constituição utiliza **dias**, e o portal oficial do Congresso os descreve como **corridos**, contados do protocolo da mensagem. O marco dos **15 dias úteis** pertence à atuação presidencial e não substitui os marcos seguintes.
+
+### Teste de interpretação: dois silêncios com consequências diferentes
+
+Imagine que o Presidente receba um projeto em condições de sanção e não manifeste veto dentro dos **15 dias úteis**. O silêncio presidencial tem consequência expressa na Constituição: **sanção tácita** (art. 66, § 3º). Agora imagine que o Congresso receba uma mensagem de veto e deixe passar os **30 dias** sem apreciá-la. Nesse segundo caso, o silêncio **não derruba nem confirma definitivamente o veto**: a consequência é sua inclusão na ordem do dia da sessão conjunta imediata, com o sobrestamento previsto no § 6º. O mesmo comportamento aparente, não decidir, produz efeitos diferentes porque **mudam o sujeito, o prazo e a regra constitucional**. Em item C/E, identifique primeiro *quem* ficou inerte antes de escolher a consequência.
 
 ## Veto total versus parcial: a unidade mínima do texto
 

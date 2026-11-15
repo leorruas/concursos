@@ -48651,6 +48651,34 @@
       "correctAnswer": "C",
       "explanation": "O alerta permite detectar uma ocorrência. A correção requer que alguém trate o aviso ou que exista um mecanismo automático de resposta.",
       "reviewEvidence": "Revisão por IA com cotejo da seção indicada. O alerta permite detectar uma ocorrência. A correção requer que alguém trate o aviso ou que exista um mecanismo automático de resposta. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l140-001-aviso-sem-responsavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Nova Governança Pública",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "aviso-sem-responsavel",
+      "mechanism": "identificar-lacuna-de-responsabilidade-na-entrega",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Elementos e condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Elementos e condições"
+      },
+      "statement": "Uma rede prepara um atendimento em que uma instituição fornece dados e outra confirma os pedidos. Se ambas assumem que a outra avisará o usuário da decisão, definir expressamente quem deve enviar o aviso é uma medida de coordenação.",
+      "correctAnswer": "C",
+      "explanation": "A lacuna está na distribuição de uma tarefa entre as instituições. Atribuir a comunicação a um responsável permite acompanhar seu cumprimento.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A lacuna está na distribuição de uma tarefa entre as instituições. Atribuir a comunicação a um responsável permite acompanhar seu cumprimento. Dificuldade estimada."
     }
   ]
 }

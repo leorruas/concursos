@@ -5,7 +5,7 @@ title: "Organização do Estado"
 type: "conceito"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-11-12
+updated: 2026-11-15
 ---
 
 # Organização do Estado
@@ -92,6 +92,26 @@ Para **Municípios**, criação, incorporação, fusão e desmembramento depende
 - A União **não intervém ordinariamente em Município situado em Estado**; a hipótese constitucional de intervenção federal em Município refere-se a Município localizado em Território Federal.
 
 O procedimento pode variar conforme a hipótese: há casos de intervenção espontânea e casos dependentes de solicitação, requisição ou provimento de representação. Por isso, não memorize uma única sequência procedimental para toda intervenção.
+
+### Como funciona uma intervenção: iniciativa, decreto e controle
+
+É útil separar **motivo**, **provocação**, **decretação** e **fiscalização**. O motivo deve estar nas hipóteses fechadas dos arts. 34 e 35. **Decretar** a intervenção é editar o ato que determina a medida e seus limites. **Provocar** a intervenção é apresentar a solicitação, requisição ou representação exigida em determinados casos; quem provoca nem sempre é quem decreta.
+
+**Exemplo hipotético 1: grave comprometimento da ordem pública em um Estado.** Essa é uma hipótese de intervenção federal prevista no art. 34, III. O Presidente da República pode decretar a medida, observados os requisitos constitucionais. O decreto deve indicar **amplitude, prazo e condições de execução** e, quando cabível, nomear um interventor. Em regra, o decreto é submetido à apreciação do **Congresso Nacional em 24 horas** (art. 36, § 1º). O Congresso exerce controle político sobre o ato; não é ele que substitui o Presidente na decretação.
+
+**Exemplo hipotético 2: obstrução ao funcionamento do Judiciário estadual.** Quando a coação recai sobre o Poder Judiciário, o art. 36, I, exige **requisição do Supremo Tribunal Federal (STF)**. Se o Legislativo ou Executivo estadual for coagido ou impedido, o mesmo dispositivo trata de **solicitação** do Poder atingido. **Solicitação e requisição não são palavras equivalentes**: a diferença integra a forma constitucional de acionamento, e a autoridade competente não pode ser trocada livremente.
+
+**Exemplo hipotético 3: violação dos princípios sensíveis.** O art. 34, VII, protege, por exemplo, o regime democrático e a prestação de contas da administração. A intervenção depende de o STF acolher **representação do procurador-geral da República**, conforme o art. 36, III. Se bastar suspender a execução do ato questionado para restabelecer a normalidade, o art. 36, § 3º, permite decreto limitado a essa suspensão, **dispensando a apreciação parlamentar** na hipótese nele definida. Essa exceção não vale automaticamente para todo decreto de intervenção.
+
+**Intervenção estadual em Município:** o governador atua nas hipóteses do art. 35, mas o inciso IV exige que o **Tribunal de Justiça** acolha representação para garantir princípios da Constituição estadual ou a execução de lei, ordem ou decisão judicial. Quando a medida se enquadra no art. 36, § 3º, também pode haver dispensa do exame pela Assembleia Legislativa se a suspensão do ato impugnado for suficiente.
+
+**Quando termina?** Cessados os motivos, as autoridades afastadas voltam aos cargos, salvo impedimento legal (art. 36, § 4º). A intervenção é uma restrição **temporária e excepcional** à autonomia; não extingue o ente federativo.
+
+**Item C/E autoral 1.** “Todo decreto de intervenção federal deve, sem exceção, ser apreciado pelo Congresso Nacional em 24 horas.” **Errado.** O art. 36, § 3º, prevê hipóteses de dispensa se a suspensão do ato impugnado for suficiente.
+
+**Item C/E autoral 2.** “A representação do procurador-geral da República acolhida pelo STF é exigência constitucional para intervenção federal destinada a assegurar os princípios do art. 34, VII.” **Certo.** Art. 36, III, combinado com art. 34, VII.
+
+**Fonte primária desta seção:** [Constituição Federal, arts. 34 a 36, texto atualizado no Tribunal Superior Eleitoral](https://www.tse.jus.br/legislacao/codigo-eleitoral/constituicao-federal/constituicao-da-republica-federativa-do-brasil).
 
 ## Como a banca cobra
 

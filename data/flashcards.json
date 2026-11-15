@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-15",
   "exams": [
     {
       "id": "cgu-2026",
@@ -10424,6 +10424,222 @@
       "contrast": {
         "prompt": "Uma pessoa adulta com deficiência intelectual perde automaticamente direitos políticos por incapacidade civil absoluta?",
         "answer": "Não. A deficiência, por si só, não gera incapacidade absoluta nem perda ou suspensão automática de direitos políticos."
+      }
+    },
+    {
+      "id": "camara-sancao-tacita-veto-atrasado",
+      "term": "Dois silêncios: sanção tácita e veto sem votação",
+      "definition": "O silêncio presidencial por 15 dias úteis, após o recebimento do projeto, importa sanção tácita. O silêncio do Congresso por 30 dias quanto ao veto não produz sanção nem derrubada automática; inclui o veto na pauta da sessão conjunta imediata, com sobrestamento constitucional.",
+      "example": "O Presidente não veta o projeto em 15 dias úteis; há sanção tácita. O Congresso não aprecia o veto em 30 dias; terá de apreciá-lo, com efeito de pauta.",
+      "confusion": "Silêncio do Executivo tem efeito material no art. 66, § 3º; atraso do Congresso tem consequência procedimental no § 6º.",
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-51c7e2f904a68db3",
+        "section": "Teste de interpretação: dois silêncios com consequências diferentes"
+      },
+      "source": {
+        "title": "Constituição Federal e normas regimentais do Congresso",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 66, §§ 3º, 4º e 6º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-veto-presidencial"
+      ],
+      "contrast": {
+        "prompt": "O Congresso não apreciou o veto em 30 dias. Ele foi automaticamente rejeitado?",
+        "answer": "Não. Passa à ordem do dia da sessão conjunta imediata, com sobrestamento nos termos do art. 66, § 6º."
+      }
+    },
+    {
+      "id": "camara-parecer-conclusivo-distincao",
+      "term": "Parecer de comissão × apreciação conclusiva",
+      "definition": "O parecer é uma manifestação que instrui uma decisão; apreciação conclusiva é a competência de determinadas comissões para decidir o projeto sem voto ordinário do Plenário, sujeita a exceções e recurso.",
+      "example": "Uma comissão emite parecer sobre projeto em urgência presidencial; a decisão definitiva cabe ao Plenário no procedimento aplicável.",
+      "confusion": "Parecer favorável não significa aprovação final. O rito de urgência constitucional não cria poder conclusivo.",
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-68b5cf209e4d731a",
+        "section": "Parecer de comissão não equivale a decisão conclusiva"
+      },
+      "source": {
+        "title": "Constituição Federal e normas regimentais do Congresso",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 58, § 2º, I; RICD arts. 24, II, e 204"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-apreciacao-conclusiva"
+      ],
+      "contrast": {
+        "prompt": "Uma comissão emitiu parecer favorável em projeto de urgência constitucional. O projeto está definitivamente aprovado?",
+        "answer": "Não. Parecer instrui; no procedimento urgente, a decisão definitiva cabe ao Plenário segundo o rito aplicável."
+      }
+    },
+    {
+      "id": "camara-comissao-mista-sessao-conjunta",
+      "term": "Comissão mista × votação separada × sessão conjunta",
+      "definition": "Comissão mista reúne parlamentares das duas Casas para instruir; nas medidas provisórias, a votação final ocorre separadamente na Câmara e no Senado. Sessão conjunta reúne as Casas, mas a regra de quórum depende da matéria.",
+      "example": "Uma MP recebe parecer de comissão mista e é votada na Câmara e depois no Senado. Um veto é apreciado em sessão conjunta, com maiorias absolutas das duas Casas para rejeitá-lo.",
+      "confusion": "Comissão mista não implica votação final conjunta; sessão conjunta não significa soma indiscriminada de votos.",
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-c8e43a75d9061bf2",
+        "section": "Três formas de participação parlamentar que parecem iguais"
+      },
+      "source": {
+        "title": "Constituição Federal e normas regimentais do Congresso",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 62, §§ 8º e 9º; art. 66, § 4º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-medida-provisoria"
+      ],
+      "contrast": {
+        "prompt": "A comissão mista de uma MP torna dispensável a votação separada na Câmara e no Senado?",
+        "answer": "Não. A comissão instrui; a Constituição exige votação iniciada na Câmara e seguida do Senado."
+      }
+    },
+    {
+      "id": "camara-lei-delegada-limites-autorizacao",
+      "term": "Lei delegada: matéria indelegável × extrapolação da autorização",
+      "definition": "Uma lei delegada pode contrariar o art. 68, § 1º, por disciplinar matéria vedada, ou extrapolar os termos de uma resolução de delegação, mesmo que o assunto fosse delegável em tese.",
+      "example": "Resolução autoriza regular serviço administrativo X; Presidente inclui regras para serviço Y: extrapolação. Se incluir direitos políticos: matéria constitucionalmente indelegável.",
+      "confusion": "A autorização do Congresso delimita conteúdo e termos, não confere competência legislativa irrestrita.",
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-6bc728a14d0e49f3",
+        "section": "Uma autorização não é um cheque em branco"
+      },
+      "source": {
+        "title": "Constituição Federal e normas regimentais do Congresso",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Arts. 49, V, e 68, §§ 1º e 2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-lei-delegada"
+      ],
+      "contrast": {
+        "prompt": "Uma matéria é delegável, mas não foi autorizada na resolução. O Presidente pode incluí-la na lei delegada?",
+        "answer": "Não. Mesmo matérias em tese delegáveis precisam estar dentro do conteúdo e dos termos da resolução autorizativa."
+      }
+    },
+    {
+      "id": "camara-mp-emendas-excecao-eleicoes-2026",
+      "term": "Emendas a MP: regra regimental e exceção eleitoral de 2026",
+      "definition": "O art. 4º da Resolução nº 1/2002-CN estabelece prazo regimental geral de seis dias seguintes à publicação. Em 2026, despacho da Presidência da Mesa reabriu ou prorrogou, em casos específicos, o prazo até 13 de outubro em razão das eleições gerais.",
+      "example": "Na tramitação da MP 1.390/2026, a Presidência da Mesa determinou novo período de emendas até 13/10/2026, sem revogar a regra regimental geral.",
+      "confusion": "Prazo excepcional decidido para MPs concretas não se converte automaticamente em regra permanente ou aplicável a todas as MPs.",
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7e91b362a40c58d2",
+        "section": "Rito na Resolução nº 1/2002 do Congresso Nacional"
+      },
+      "source": {
+        "title": "Constituição Federal e normas regimentais do Congresso",
+        "url": "https://www.congressonacional.leg.br/pt_BR/materias/medidas-provisorias/-/mpv/175759",
+        "locator": "Resolução nº 1/2002-CN, art. 4º; despacho de 1º/10/2026 sobre a MP 1.390/2026"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-medida-provisoria"
+      ],
+      "contrast": {
+        "prompt": "O prazo de emendas à MP foi permanentemente substituído por 13 de outubro?",
+        "answer": "Não. Esse foi um prazo excepcional aplicado a certas MPs em 2026; o art. 4º mantém a regra geral."
+      }
+    },
+    {
+      "id": "camara-decreto-legislativo-resolucao-competencia",
+      "term": "Decreto legislativo × resolução: escolha pela competência",
+      "definition": "Decreto legislativo é usado, em especial, nas competências exclusivas do Congresso do art. 49. Resoluções da Câmara, Senado ou Congresso atendem competências constitucionais próprias, sem sanção presidencial.",
+      "example": "Sustar excesso de decreto regulamentar: decreto legislativo (art. 49, V). Alterar Regimento da Câmara: resolução da Câmara (art. 51, III).",
+      "confusion": "A ausência de sanção presidencial é comum a ambos e, sozinha, não define a espécie.",
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-a3f905cb76e1428d",
+        "section": "Competência, instrumento e efeito: uma sequência de três perguntas"
+      },
+      "source": {
+        "title": "Constituição Federal e normas regimentais do Congresso",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Arts. 49, V; 51, III; 59, VI e VII"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-decreto-legislativo"
+      ],
+      "contrast": {
+        "prompt": "Se ambos dispensam sanção presidencial, como diferenciar decreto legislativo e resolução da Câmara?",
+        "answer": "Identifique a competência constitucional e o objeto: sustação de ato exorbitante do Executivo cabe ao Congresso por decreto legislativo; alteração do Regimento da Câmara é resolução da própria Casa."
       }
     }
   ]

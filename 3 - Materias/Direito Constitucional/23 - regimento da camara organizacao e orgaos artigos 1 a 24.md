@@ -10,7 +10,7 @@ updated: 2026-11-11
 
 # Regimento da Câmara: organização, Mesa, lideranças e órgãos (arts. 1º a 24)
 
-**Câmara dos Deputados 2026, Divulgação Institucional, Cebraspe, CAM-PL-019 e CAM-PL-020.** Fonte primária: [Regimento Interno da Câmara dos Deputados (RICD), aprovado pela Resolução nº 17/1989, versão consolidada](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferido com a [31ª edição (2026), atualizada até a Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/version/400).
+**Câmara dos Deputados 2026, Divulgação Institucional, Cebraspe, CAM-PL-019 e CAM-PL-020.** Fonte primária: [Regimento Interno da Câmara dos Deputados (RICD), aprovado pela Resolução nº 17/1989, versão consolidada](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). Conferido com a [31ª edição (2026), atualizada até a Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/version/400).
 
 **Rastreabilidade de unidades:** este artigo cobre dois recortes editoriais planejados sobre os **mesmos arts. 1º a 24**: CAM-PL-019 (disposições preliminares) e CAM-PL-020 (Mesa e órgãos da Câmara). A correspondência é temática, não equivale a dois artigos autônomos nem comprova auditoria normativa integral. Para **comissões dos arts. 25 a 54**, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]].
 
@@ -22,7 +22,7 @@ O **Título I** disciplina sede, sessões legislativas, posse, eleição da Mesa
 
 ## Sede e sessões legislativas: arts. 1º e 2º
 
-A Câmara tem sede em **Brasília** e funciona no **Palácio do Congresso Nacional**. Diante de motivo relevante ou força maior, a **Mesa** pode deliberar reunião em outro edifício ou local do território nacional, **ad referendum da maioria absoluta dos deputados** (art. 1º, parágrafo único). Não basta decisão pessoal do Presidente sem a condição de referendo.
+A Câmara tem sede em **Brasília** e funciona no **Palácio do Congresso Nacional**. Diante de motivo relevante ou força maior, a **Mesa** pode deliberar reunião em outro edifício ou local do território nacional, **ad referendum da maioria absoluta dos deputados** (art. 1º, parágrafo único). Não basta decisão pessoal do Presidente sem a condição de referendo. **Ad referendum** significa que a Mesa toma uma decisão sujeita à confirmação posterior da maioria absoluta dos deputados. Em uma Câmara com 513 integrantes, essa maioria corresponde a **257 votos favoráveis**. Assim, a decisão inicial não substitui a manifestação da Casa exigida pelo Regimento.
 
 A **sessão legislativa ordinária** ocorre de **2 de fevereiro a 17 de julho** e de **1º de agosto a 22 de dezembro**, com deslocamento do início dos trabalhos para o primeiro dia útil quando recaia em sábado, domingo ou feriado (art. 2º). A sessão ordinária **não se interrompe em 17 de julho enquanto a lei de diretrizes orçamentárias não for aprovada**. A Câmara também se reúne em **sessões extraordinárias**, quando o Congresso é convocado com esse caráter, e nessa hipótese **delibera somente sobre as matérias objeto da convocação** (art. 2º, § 4º).
 
@@ -164,7 +164,7 @@ Artigos relacionados: [[3 - Materias/Direito Constitucional/14 - comissoes parla
 
 ## Certificação normativa delimitada: 11/11/2026
 
-**Escopo:** leitura e confronto dos arts. **1º a 24** do [RICD consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) com o texto, quadro de órgãos, **oito casos progressivos** e **dez questões C/E** presentes nesta nota. Verificadas as regras de sede, calendário, posse, eleição da Mesa, lideranças, blocos, **Bancada Negra (arts. 13-A e 13-B)**, Mesa, Presidência, órgãos especializados e competências das comissões. O recorte cobre as unidades editoriais **CAM-PL-019 e CAM-PL-020**, sem transformá-las em duas certificações.
+**Escopo:** leitura e confronto dos arts. **1º a 24** do [RICD consolidado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) com o texto, quadro de órgãos, **oito casos progressivos** e **dez questões C/E** presentes nesta nota. Verificadas as regras de sede, calendário, posse, eleição da Mesa, lideranças, blocos, **Bancada Negra (arts. 13-A e 13-B)**, Mesa, Presidência, órgãos especializados e competências das comissões. O recorte cobre as unidades editoriais **CAM-PL-019 e CAM-PL-020**, sem transformá-las em duas certificações.
 
 **Ajuste de cobertura:** o artigo omitia o regime da Bancada Negra criado em 2023 e alterado pela Resolução nº 33/2026. Incluída seção própria sobre composição, mandato, eleição e prerrogativas; também explicitada a fronteira com o Colégio de Líderes do art. 20. Corrigida a denominação completa da Secretaria de Monitoramento e Fiscalização das Decisões do Sistema Interamericano de Direitos Humanos, prevista no art. 21-V.
 

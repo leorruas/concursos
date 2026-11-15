@@ -5,7 +5,7 @@ title: "Procedimentos sumaríssimo, especial e concentrado: urgência e ritos pr
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-11
+updated: 2026-11-15
 aliases:
   - "Rito sumaríssimo"
   - "Urgência urgentíssima na Câmara"
@@ -117,6 +117,10 @@ O **art. 62, § 9º**, atribui a **comissão mista de deputados e senadores** o 
 ### Lei delegada: Congresso delega, Executivo elabora
 
 Na **lei delegada** (CF, art. 68), o presidente solicita delegação ao **Congresso**, que especifica **conteúdo e condições** em **resolução**. O Congresso pode reservar apreciação do projeto, **em votação única e vedada emenda** na hipótese do § 3º. Não é idêntica à **medida provisória**, editada inicialmente pelo Executivo com força de lei sem delegação prévia. Tampouco é o **rito sumário** de projeto presidencial com urgência.
+
+### Três formas de participação parlamentar que parecem iguais
+
+**Comissão mista** reúne deputados e senadores para **examinar** uma matéria e produzir parecer, como ocorre, em regra, com medidas provisórias (CF, art. 62, § 9º). **Votação em cada Casa** significa que Câmara e Senado decidem em etapas próprias, como na conversão de medida provisória (art. 62, § 8º). **Sessão conjunta** significa que deputados e senadores se reúnem numa sessão do Congresso, como na apreciação de veto (art. 66, § 4º), mas essa reunião **não transforma automaticamente os votos em uma soma única**: para derrubar veto, são exigidas maiorias absolutas separadas de deputados e senadores. Portanto, a presença de uma comissão mista **não prova** que a votação final será conjunta; a sessão conjunta **não prova** que haverá quórum agregado.
 
 ## Procedimento concentrado: Câmara e Senado reunidos
 

@@ -59,6 +59,20 @@ No sistema brasileiro há controle difuso, exercido incidentalmente em casos con
 
 A ideia de “STF no topo” deve ser usada com cuidado. O STF é a cúpula do Poder Judiciário e possui a última palavra institucional em matérias constitucionais submetidas à sua competência, mas não existe uma cadeia hierárquica administrativa simples em que todos os juízes recebam ordens jurisdicionais do STF.
 
+### Autonomia judicial, ingresso na carreira e dever de justificar decisões
+
+**Situação hipotética:** um tribunal precisa organizar suas unidades e preparar sua proposta orçamentária. A Constituição assegura ao Poder Judiciário **autonomia administrativa e financeira** (art. 99): os tribunais elaboram propostas de orçamento segundo os limites estipulados conjuntamente com os demais Poderes na lei de diretrizes orçamentárias. **Autonomia** significa capacidade institucional de organizar e administrar suas atividades nos limites constitucionais, e não liberdade para gastar sem controle orçamentário.
+
+O art. 96 distingue competências de organização dos próprios tribunais, como eleger órgãos diretivos, elaborar regimentos internos e prover cargos de juiz de carreira da respectiva jurisdição, das **iniciativas legislativas** reservadas aos tribunais nos casos constitucionais. Um tribunal pode iniciar projeto de lei sobre matéria de sua iniciativa, mas **a iniciativa não equivale à aprovação da lei**: as etapas legislativas continuam aplicáveis.
+
+O art. 93 atribui à **lei complementar de iniciativa do STF** a disciplina do Estatuto da Magistratura. A entrada na carreira, cujo cargo inicial é o de **juiz substituto**, ocorre mediante concurso público de provas e títulos, com participação da Ordem dos Advogados do Brasil em todas as fases, exigidos **três anos de atividade jurídica do bacharel em Direito**, entre outros requisitos do inciso I. Esse período de atividade jurídica é diferente dos **dois anos de exercício** necessários à vitaliciedade no primeiro grau (art. 95, I).
+
+Uma decisão judicial também precisa ser **fundamentada**: o juiz deve expor razões jurídicas para o resultado. O art. 93, IX, exige publicidade dos julgamentos e fundamentação das decisões, sob pena de nulidade, com possibilidade de restrição legal de presença em situações constitucionalmente justificadas. Fundamentar não equivale a simplesmente repetir o dispositivo legal ou afirmar que uma das partes “tem razão”.
+
+**Item C/E autoral:** “A autonomia financeira do Judiciário dispensa os tribunais de observar os limites da lei de diretrizes orçamentárias na elaboração de suas propostas.” **Errado.** O art. 99, § 1º, exige observância desses limites.
+
+**Fontes:** [Constituição Federal atualizada, arts. 93, 96 e 99](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+
 ## Inconstitucionalidade formal × material
 
 **Inconstitucionalidade formal** é um defeito em **quem produziu a norma** ou **como ela foi aprovada**. Imagine uma lei apresentada por parlamentar sobre matéria cuja iniciativa a Constituição reserva ao Presidente da República. Mesmo que a ideia da lei seja aceitável, há um possível **vício formal de iniciativa**. Também podem ocorrer problemas de competência legislativa, procedimento ou forma constitucionalmente exigida.

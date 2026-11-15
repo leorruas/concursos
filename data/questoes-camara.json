@@ -50947,6 +50947,34 @@
       "correctAnswer": "C",
       "explanation": "O art. 35, I, da Lei nº 4.320/1964 atribui a receita ao exercício da arrecadação. Ela ocorreu em dezembro, quando o agente autorizado recebeu o pagamento. A transferência posterior ao Tesouro é o recolhimento, que não muda o exercício da receita.",
       "reviewEvidence": "Revisão editorial por IA. Conferidos os arts. 35, I, e 56 da Lei nº 4.320/1964 no portal da Câmara e o subtítulo canônico. O caso usa a distinção entre as etapas para determinar o exercício da receita."
+    },
+    {
+      "id": "cam-orc-l204-001-parcela-acima-da-previsao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-4677cfa327ce43bb",
+      "conceptId": "arrecadacao-acima-da-previsao-natureza-da-parcela",
+      "mechanism": "classificar-parcela-acima-da-estimativa-sem-dividir-natureza-do-ingresso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Exceções: receitas sem previsão e sem lançamento"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+        "section": "Exceções: receitas sem previsão e sem lançamento"
+      },
+      "statement": "A LOA de um município estimou em R$ 800 mil a arrecadação de um tributo. Ao fim do exercício, o município arrecadou R$ 950 mil desse tributo. Os R$ 150 mil acima da previsão devem ser registrados como ingresso extraorçamentário.",
+      "correctAnswer": "E",
+      "explanation": "A previsão é estimativa. Pelo art. 57 da Lei nº 4.320/1964, a receita arrecadada é classificada na rubrica própria mesmo quando não prevista. Os R$ 950 mil são receita orçamentária tributária, inclusive a parcela arrecadada acima da estimativa.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidos o art. 57 no texto atualizado da Câmara e a seção canônica. O item exige classificar a parcela excedente da mesma receita e distingue natureza do ingresso de diferença em relação à previsão."
     }
   ]
 }

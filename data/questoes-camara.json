@@ -49239,6 +49239,62 @@
       "correctAnswer": "C",
       "explanation": "A abordagem considera como as regras internas e os recursos das lideranças organizam o processo decisório. A composição partidária, isoladamente, não determina o padrão de votação.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A abordagem considera como as regras internas e os recursos das lideranças organizam o processo decisório. A composição partidária, isoladamente, não determina o padrão de votação. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l158-001-ordem-sem-alcance",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / Estado e sociedade",
+      "articleId": "art-a60d8274be1935cf",
+      "conceptId": "ordem-sem-alcance",
+      "mechanism": "distinguir-decisao-e-implementacao-territorial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a60d8274be1935cf#Michael Mann: poder despótico e poder infraestrutural"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito.md",
+        "section": "Michael Mann: poder despótico e poder infraestrutural"
+      },
+      "statement": "Um governante decreta uma medida sem consultar outros atores, mas sua administração não consegue executá-la em grande parte do território. Na análise de Michael Mann, a liberdade para decidir nesse caso é compatível com baixa capacidade infraestrutural.",
+      "correctAnswer": "C",
+      "explanation": "A liberdade para decidir sem negociação informa sobre poder despótico. A dificuldade de fazer a decisão chegar ao território aponta um limite do poder infraestrutural.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A liberdade para decidir sem negociação informa sobre poder despótico. A dificuldade de fazer a decisão chegar ao território aponta um limite do poder infraestrutural. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l158-002-arrecadacao-em-guerra",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / Estado e sociedade",
+      "articleId": "art-a60d8274be1935cf",
+      "conceptId": "arrecadacao-em-guerra",
+      "mechanism": "identificar-cadeia-de-extracao-e-organizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a60d8274be1935cf#Tilly: coerção, extração e formação estatal como processo histórico"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/13 - estado e sociedade origem funcoes e conflito.md",
+        "section": "Tilly: coerção, extração e formação estatal como processo histórico"
+      },
+      "statement": "Para financiar guerras, governantes passam a manter registros e agentes permanentes de arrecadação. Na abordagem de Tilly, esse exemplo é compatível com um processo em que a extração de recursos contribui para consolidar estruturas estatais.",
+      "correctAnswer": "C",
+      "explanation": "A necessidade de financiar a guerra incentiva a extração regular de recursos. A organização fiscal criada para sustentar essa extração pode permanecer e ampliar a capacidade estatal.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A necessidade de financiar a guerra incentiva a extração regular de recursos. A organização fiscal criada para sustentar essa extração pode permanecer e ampliar a capacidade estatal. Dificuldade estimada."
     }
   ]
 }

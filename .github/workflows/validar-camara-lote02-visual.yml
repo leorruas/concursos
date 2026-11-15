@@ -1,0 +1,40 @@
+name: Verificar renderizacao visual do lote 02
+on:
+  pull_request:
+    paths:
+      - 'scripts/test-camara-lote02-browser.cjs'
+      - 'scripts/verify-live-pages.js'
+      - '.github/workflows/validar-camara-lote02-visual.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Montar site publico
+        run: node scripts/build-site.js
+      - name: Instalar Chromium para inspecao
+        run: |
+          npm install --no-save --ignore-scripts --package-lock=false playwright@1.56.1
+          npx playwright install chromium
+      - name: Verificar quatro paginas em duas larguras
+        timeout-minutes: 5
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory _site >/tmp/servidor-lote02.log 2>&1 &
+          servidor=$!
+          trap 'kill "$servidor" 2>/dev/null || true' EXIT
+          curl --fail --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:8765/ >/dev/null
+          node scripts/test-camara-lote02-browser.cjs
+      - name: Anexar capturas e relatorio de cada pagina
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: evidencias-camara-lote02
+          path: evidencias-camara-lote02/
+          if-no-files-found: warn

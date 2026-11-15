@@ -57,6 +57,8 @@ Se não houver recurso tempestivo ou se ele for **improvido**, a matéria segue 
 
 O **art. 59** trata do **outro percurso**: quando a matéria está **sujeita à decisão do Plenário**, ou quando o recurso do art. 58 é provido, a proposição segue à Mesa e **aguarda inclusão na Ordem do Dia**. A diferença não é “projeto aceito versus rejeitado”, mas **órgão competente para apreciar a proposição**.
 
+**Caso com três decisões distintas.** Um relator recomenda a aprovação de um projeto. A comissão vota e aprova seu parecer: essa é uma **decisão colegiada**, não apenas a opinião do relator. Se o projeto estiver sob **apreciação conclusiva**, o encerramento da análise pelas comissões abre o procedimento de publicação, comunicação à Mesa e possibilidade de recurso previsto no art. 58. Se deputados apresentarem recurso com o apoio mínimo de um décimo da Casa e dentro das cinco sessões contadas da publicação, o pedido será apreciado na forma regimental. Quando o projeto for desde o início de competência do Plenário, o caminho aplicável é o do art. 59, sem fingir que houve uma primeira aprovação conclusiva. A expressão **'aprovado na comissão'**, isolada, não informa qual desses três estágios ocorreu; a cobertura jornalística precisa conferir o regime do projeto e o registro da tramitação.
+
 ### Matriz de fronteiras
 
 | Caso | Quem decide e o que ocorre | Dispositivo |

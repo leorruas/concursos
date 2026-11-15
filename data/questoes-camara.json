@@ -49127,6 +49127,34 @@
       "correctAnswer": "E",
       "explanation": "A investidura regular demonstra conformidade com as regras de nomeação. A crença na legitimidade da autoridade é uma questão distinta e precisa de evidência sobre a aceitação dos governados.",
       "reviewEvidence": "Revisão por IA com cotejo da distinção na seção indicada. A investidura regular demonstra conformidade com as regras de nomeação. A crença na legitimidade da autoridade é uma questão distinta e precisa de evidência sobre a aceitação dos governados. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l155-001-pauta-bloqueada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / poder, autoridade e legitimidade",
+      "articleId": "art-81d6f4a2c7e093b5",
+      "conceptId": "pauta-bloqueada",
+      "mechanism": "identificar-exclusao-anterior-a-deliberacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-81d6f4a2c7e093b5#Bachrach e Baratz: segunda face do poder"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao.md",
+        "section": "Bachrach e Baratz: segunda face do poder"
+      },
+      "statement": "Uma comissão nunca vota uma proposta de fiscalização porque o grupo que controla a pauta impede repetidamente que ela seja incluída. O caso é compatível com a segunda face do poder de Bachrach e Baratz.",
+      "correctAnswer": "C",
+      "explanation": "O poder atua sobre a definição do que pode chegar à decisão. A ausência de votação é compatível com a exclusão prévia do tema da pauta.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O poder atua sobre a definição do que pode chegar à decisão. A ausência de votação é compatível com a exclusão prévia do tema da pauta. Dificuldade estimada."
     }
   ]
 }

@@ -254,6 +254,21 @@ A jurisdição é, em regra, provocada: o Judiciário não inicia livremente pro
 
 Uma vez regularmente provocado, o órgão judicial exerce os poderes processuais previstos no ordenamento. “Inércia” não significa que o juiz esteja impedido de determinar providências que a lei lhe autorize no curso do processo.
 
+### Aplicação integrada: legitimidade, via, órgão e efeito
+
+O mesmo problema constitucional pode exigir respostas processuais diferentes. **Imagine uma lei estadual que limite uma liberdade protegida pela Constituição.** Um cidadão diretamente afetado pode contestar sua aplicação em processo concreto, provocando controle **difuso**. Um legitimado previsto no art. 103 pode, observados os requisitos, propor **ADI** perante o STF, questionando a norma em abstrato. Se a pretensão for **confirmar** a constitucionalidade de norma, a **ADC federal** não tem por objeto uma lei estadual. Para o controle concentrado perante Tribunal de Justiça, o parâmetro e a competência decorrem do art. 125, § 2º, e do ordenamento correspondente.
+
+| Pergunta de prova | Como decidir |
+| :--- | :--- |
+| Quem questiona? | Parte de processo concreto ou legitimado constitucional de ação abstrata |
+| Qual norma é questionada? | Federal, estadual, municipal ou anterior à CF: o tipo importa para o cabimento |
+| Qual tribunal ou juiz é competente? | Controle difuso admite juiz ou tribunal competente; ações abstratas seguem competências próprias |
+| Qual efeito se pretende? | Decisão do caso, declaração abstrata, suprimento de omissão ou proteção de preceito fundamental são pedidos distintos |
+
+**Item C/E autoral:** “Uma pessoa multada com base em lei estadual só poderá levantar a inconstitucionalidade após reunir os legitimados do art. 103.” **Errado.** A discussão incidental da validade da lei em processo concreto não exige que a pessoa seja legitimada para ADI.
+
+**Fonte:** [Constituição Federal atualizada, arts. 97, 102, 103 e 125, § 2º](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+
 ## Como a banca pode cobrar
 
 Os distratores mais plausíveis deslocam uma regra correta para o contexto errado:

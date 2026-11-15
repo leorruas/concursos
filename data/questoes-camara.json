@@ -50163,6 +50163,62 @@
       "correctAnswer": "C",
       "explanation": "Os dois sistemas concordam no campo comparado, mas nenhum registra o número confirmado na vistoria. Concordância entre bases verifica consistência nesse ponto. Exatidão exige correspondência com o identificador real.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferida a distinção entre concordância de registros e verificação factual. Seção literal conferida no artigo canônico."
+    },
+    {
+      "id": "cam-ti-l184-001-inversao-participacao-volume",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-a2e4949761ab5a6f",
+      "conceptId": "inversao-participacao-volume",
+      "mechanism": "reverter-ordenacao-ao-aplicar-denominadores-distintos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a2e4949761ab5a6f#2.3. Composição de um Todo (*Composition*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica.md",
+        "section": "2.3. Composição de um Todo (*Composition*)"
+      },
+      "statement": "Um gráfico de barras empilhadas a 100% mostra que 60% dos 40 atendimentos de um posto e 30% dos 100 atendimentos de outro foram remotos. O posto com menor participação percentual realizou mais atendimentos remotos em números absolutos.",
+      "correctAnswer": "C",
+      "explanation": "O primeiro posto realizou 24 atendimentos remotos e o segundo, 30. Os comprimentos dos segmentos comparam participações. Para comparar volumes, é preciso aplicar cada percentual ao total do seu próprio posto.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos os denominadores e a inversão da ordem entre percentual e contagem. Seção literal conferida no artigo canônico."
+    },
+    {
+      "id": "cam-ti-l184-002-variacao-absoluta-em-escalas-distintas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-a2e4949761ab5a6f",
+      "conceptId": "variacao-absoluta-em-escalas-distintas",
+      "mechanism": "comparar-amplitudes-entre-paineis-por-valores-dos-eixos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a2e4949761ab5a6f#3.3. O Fator de Distorção (*Lie Factor*)"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/26 - visualizacao de dados selecao de grafico pela pergunta analitica.md",
+        "section": "3.3. O Fator de Distorção (*Lie Factor*)"
+      },
+      "statement": "Dois gráficos de linhas têm a mesma altura. O eixo vertical do primeiro vai de 0 a 20 atendimentos e o do segundo, de 0 a 100, ambos com escala linear. Entre os mesmos meses, cada linha sobe uma distância igual a um quarto da altura do seu gráfico. Os dois postos tiveram o mesmo aumento em número de atendimentos.",
+      "correctAnswer": "E",
+      "explanation": "Um quarto da escala do primeiro painel corresponde a 5 atendimentos e um quarto da escala do segundo corresponde a 25. A distância física igual representa aumentos diferentes porque a extensão numérica dos eixos difere.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos os intervalos dos eixos e as duas variações absolutas. Seção literal conferida no artigo canônico."
     }
   ]
 }

@@ -49155,6 +49155,62 @@
       "correctAnswer": "C",
       "explanation": "O poder atua sobre a definição do que pode chegar à decisão. A ausência de votação é compatível com a exclusão prévia do tema da pauta.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. O poder atua sobre a definição do que pode chegar à decisão. A ausência de votação é compatível com a exclusão prévia do tema da pauta. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l156-001-sucessao-e-limite-do-cargo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / poder, autoridade e legitimidade",
+      "articleId": "art-81d6f4a2c7e093b5",
+      "conceptId": "sucessao-e-limite-do-cargo",
+      "mechanism": "identificar-autoridade-vinculada-ao-cargo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-81d6f4a2c7e093b5#Dominação legal-racional"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao.md",
+        "section": "Dominação legal-racional"
+      },
+      "statement": "Uma dirigente é substituída nos termos do estatuto. Servidores reconhecem a autoridade da sucessora sobre as mesmas matérias porque as atribuições decorrem do cargo. A situação é compatível com a dominação legal-racional em Weber.",
+      "correctAnswer": "C",
+      "explanation": "A obediência se dirige à autoridade investida segundo as regras e dentro dos limites do cargo.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A obediência se dirige à autoridade investida segundo as regras e dentro dos limites do cargo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l156-002-popularidade-sem-caracter-extraordinario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / poder, autoridade e legitimidade",
+      "articleId": "art-81d6f4a2c7e093b5",
+      "conceptId": "popularidade-sem-caracter-extraordinario",
+      "mechanism": "distinguir-aprovacao-e-fundamento-da-obediencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-81d6f4a2c7e093b5#Dominação carismática"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/11 - poder autoridade legitimidade e dominacao.md",
+        "section": "Dominação carismática"
+      },
+      "statement": "Uma dirigente é popular entre os servidores, que justificam o cumprimento de suas ordens pela competência prevista no estatuto. Sua popularidade basta para classificar a relação de autoridade como dominação carismática.",
+      "correctAnswer": "E",
+      "explanation": "O carisma, em Weber, pressupõe devoção a qualidades tidas como extraordinárias. A popularidade isolada não demonstra que essas qualidades fundamentem a obediência.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O carisma, em Weber, pressupõe devoção a qualidades tidas como extraordinárias. A popularidade isolada não demonstra que essas qualidades fundamentem a obediência. Dificuldade estimada."
     }
   ]
 }

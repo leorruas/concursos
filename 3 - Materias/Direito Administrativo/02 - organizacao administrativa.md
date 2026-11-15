@@ -53,9 +53,13 @@ A tabela a seguir sistematiza as quatro espécies de entidades que integram a Ad
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Autarquia** | **Direito Público** | **Criada diretamente por lei específica** (adquire personalidade com a vigência da lei) | Atividades típicas de Estado, fiscalização, poder de polícia, previdência social | Estatutário (Regime Jurídico Único - Lei 8.112/1990) | Justiça Federal (art. 109, I, da CF/1988) |
 | **Fundação Pública (Autárquica)** | **Direito Público** | **Criada por lei específica** (equiparada a autarquia: *autarquia fundacional*) | Atividades sociais, educacionais, científicas e assistenciais sem fins lucrativos | Estatutário (Lei 8.112/1990) | Justiça Federal (art. 109, I, da CF/1988) |
-| **Fundação Pública (Governamental)** | **Direito Privado** | **Instituição autorizada por lei específica** + registro civil dos estatutos (exige LC para área de atuação) | Atividades sociais, de pesquisa e saúde sem fins lucrativos | Emprego Público (CLT) ou estatutário conforme desenho legal | Justiça Comum Estadual (salvo interesse federal específico) |
+| **Fundação Pública (Governamental)** | **Direito Privado** | **Instituição autorizada por lei específica** + registro civil dos estatutos (exige LC para área de atuação) | Atividades sociais, de pesquisa e saúde sem fins lucrativos | Regime de pessoal definido na legislação aplicável; não presumir estatuto ou CLT apenas pelo nome da entidade | **Depende da natureza da entidade, do interesse jurídico federal e das regras de competência aplicáveis**; não presumir Justiça Estadual para toda fundação federal |
 | **Empresa Pública** | **Direito Privado** | **Instituição autorizada por lei específica** + registro dos atos constitutivos na Junta Comercial | Exploração de atividade econômica ou prestação de serviço público | Celetista (CLT), mediante concurso público | **Justiça Federal** (art. 109, I, da CF/1988) |
 | **Sociedade de Economia Mista** | **Direito Privado** | **Instituição autorizada por lei específica** + registro comercial | Exploração de atividade econômica ou prestação de serviço público | Celetista (CLT), mediante concurso público | **Justiça Estadual Comum** (Súmulas 517 e 556 do STF) |
+
+---
+
+**Atenção ao foro das fundações:** a tabela indica uma orientação de estudo, não uma regra universal de competência. O art. 109, I, da Constituição atribui à Justiça Federal, com exceções expressas, as causas envolvendo a União, entidades autárquicas e empresas públicas federais. Fundações públicas de direito público são equiparadas às autarquias. Nas fundações de direito privado instituídas pelo poder público, a definição do foro exige verificar a natureza jurídica reconhecida, a presença de interesse jurídico federal e o entendimento judicial aplicável ao caso. A simples palavra “fundação” não resolve a competência.
 
 ---
 

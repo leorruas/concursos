@@ -5,7 +5,7 @@ title: "Poder legislativo"
 type: "conceito"
 status: "ativo"
 created: 2026-06-09
-updated: 2026-11-13
+updated: 2026-11-15
 ---
 
 # Poder Legislativo
@@ -131,6 +131,16 @@ O **art. 54** distingue incompatibilidades **desde a diplomação** (como determ
 A **sessão legislativa ordinária** ocorre de **2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro**, com deslocamento para primeiro dia útil quando a data de abertura recair em fim de semana ou feriado (art. 57). **Não se interrompe sem aprovação do projeto de LDO** (§ 2º). O **Congresso reúne-se em sessão conjunta**, entre outros fins, para abrir a sessão legislativa, elaborar regimento comum, receber o compromisso presidencial e **deliberar sobre veto** (§ 3º). A **Mesa do Congresso** é presidida pelo **Presidente do Senado** (§ 5º). Essas sessões conjuntas **não fundem Câmara e Senado num só órgão de votação para todos os quóruns**.
 
 O **art. 58** prevê comissões **permanentes e temporárias**, proporcionalidade partidária **tanto quanto possível**, poderes de fiscalização e apreciação de projetos quando o Regimento dispensa a deliberação plenária, **salvo recurso de um décimo dos membros da Casa**. **CPI** requer **um terço dos membros**, **fato determinado** e **prazo certo**, com poderes de investigação próprios das autoridades judiciais; os detalhes regimentais e limites estão na nota [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares]].
+
+### Três proteções parlamentares que não devem ser confundidas
+
+**Exemplo hipotético 1: discurso no exercício do mandato.** Uma deputada critica a gestão de um órgão público em pronunciamento ligado à sua atividade parlamentar. A **imunidade material** do art. 53, caput, protege opiniões, palavras e votos vinculados ao exercício da função, nos limites da interpretação do Supremo Tribunal Federal (STF). A proteção não deve ser estendida automaticamente a toda manifestação privada, sem relação funcional.
+
+**Exemplo hipotético 2: prisão em flagrante.** Um senador é diplomado e, posteriormente, é surpreendido em situação de flagrante. A regra constitucional **não autoriza prisão por qualquer crime**: exige flagrante de crime **inafiançável**. Os autos devem ser remetidos em 24 horas à Casa respectiva, que delibera sobre a prisão por voto da maioria de seus membros (art. 53, § 2º). **Diplomação** é o ato da Justiça Eleitoral que reconhece formalmente o resultado eleitoral e habilita o eleito para a posse; portanto, a proteção começa antes da posse.
+
+**Exemplo hipotético 3: ação penal.** Se a acusação tratar de crime ocorrido **após a diplomação**, um partido representado na Casa pode provocar a votação para sustar o andamento da ação penal, nos termos dos §§ 3º a 5º do art. 53. **Sustar** aqui significa suspender o andamento da ação, sem absolver o parlamentar nem extinguir o crime. O pedido deve ser apreciado em 45 dias, e a prescrição fica suspensa enquanto durar a sustação. A regra não se confunde com a decisão sobre prisão em flagrante.
+
+**Item C/E autoral.** “A imunidade formal dos congressistas impede toda prisão depois da posse, mesmo em flagrante de crime inafiançável.” **Errado.** A Constituição admite a hipótese excepcional desde a diplomação, acompanhada do controle da Casa legislativa (art. 53, § 2º).
 
 ## Controle externo: arts. 70 e 71
 

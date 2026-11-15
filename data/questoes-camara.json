@@ -48399,6 +48399,34 @@
       "correctAnswer": "E",
       "explanation": "A ajuda também mudou entre os grupos. O teste combina duas diferenças e não isola o efeito da interface.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A ajuda também mudou entre os grupos. O teste combina duas diferenças e não isola o efeito da interface. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l135-001-integracao-sem-criterio-comum",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / redes de cooperação e articulação interinstitucional",
+      "articleId": "art-c59173b20e684daf",
+      "conceptId": "integracao-sem-criterio-comum",
+      "mechanism": "verificar-equivalencia-da-regra-de-registro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-c59173b20e684daf#Componentes, governança e riscos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/05 - redes de cooperacao e articulacao interinstitucional.md",
+        "section": "Componentes, governança e riscos"
+      },
+      "statement": "Dois órgãos enviam registros a um painel comum. Um atribui cada atendimento ao mês da solicitação e outro ao mês da conclusão. A integração dos arquivos é suficiente para tornar comparáveis os totais mensais.",
+      "correctAnswer": "E",
+      "explanation": "Os registros associam o atendimento a eventos diferentes. A comparação requer harmonizar a regra de contagem.",
+      "reviewEvidence": "Revisão por IA com conferência da seção canônica. Os registros associam o atendimento a eventos diferentes. A comparação requer harmonizar a regra de contagem. Dificuldade estimada."
     }
   ]
 }

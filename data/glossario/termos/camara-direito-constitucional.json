@@ -946,6 +946,34 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-perda-eficacia-mp",
+      "term": "Perda de eficácia de medida provisória",
+      "aliases": [
+        "caducidade de medida provisória",
+        "medida provisória rejeitada e efeitos"
+      ],
+      "definition": "Quando uma medida provisória é rejeitada ou termina seu prazo sem conversão em lei, ela deixa de produzir novas regras e perde eficácia desde a edição, conforme o art. 62, § 3º, da Constituição. O Congresso deve disciplinar por decreto legislativo as relações jurídicas surgidas enquanto ela vigorou.",
+      "contrast": "A perda de eficácia da norma não apaga automaticamente os atos praticados enquanto estava vigente. Se o Congresso não editar o decreto legislativo em até 60 dias após a rejeição ou perda de eficácia, as relações jurídicas constituídas e decorrentes daqueles atos continuam regidas pela medida provisória (art. 62, § 11). Isso não permite praticar novos atos com base na MP depois do fim da vigência.",
+      "cebraspeTrap": "Confundir perda de eficácia desde a edição com invalidação automática de cada ato pretérito, ou dizer que o prazo de 60 dias autoriza a MP a continuar produzindo novos efeitos como norma vigente.",
+      "example": "Uma medida provisória produz efeitos sobre um ato administrativo em março e é rejeitada em abril. Se não houver decreto legislativo em até 60 dias após a rejeição, a relação jurídica daquele ato permanece regida pela MP, embora ela não esteja mais em vigor.",
+      "articleIds": [
+        "art-7e91b362a40c58d2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 62, §§ 3º e 11",
+          "url": "https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

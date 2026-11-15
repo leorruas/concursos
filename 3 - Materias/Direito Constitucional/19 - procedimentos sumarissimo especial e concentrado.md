@@ -242,9 +242,9 @@ Apresentar primeiro a separação entre **categoria doutrinária** e **regime re
 
 ## Fontes oficiais e doutrinárias verificadas em 07/11/2026
 
-- [RICD, arts. 151 a 157, 201 a 203, texto normativo atualizado da Câmara](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+- [RICD, arts. 151 a 157, 201 a 203, texto normativo atualizado da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html).
 - [Câmara dos Deputados, Requerimentos de Urgência, ensino legislativo](https://educacaoadistancia.camara.leg.br/clique_regimento/card/19).
-- [Constituição Federal, arts. 57, 60, 62, 64, 66, 68 e 166](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+- [Constituição Federal, arts. 57, 60, 62, 64, 66, 68 e 166](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 - [Congresso Nacional, atribuições, sessões conjuntas, comissões mistas e medidas provisórias](https://www.congressonacional.leg.br/pt/institucional/atribuicoes).
 - [Congresso Nacional, Entenda o Orçamento](https://www.congressonacional.leg.br/materias/materias-orcamentarias/entenda-o-orcamento).
 - [Congresso Nacional, Regimento Comum e Normas Conexas](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional).
@@ -256,7 +256,7 @@ Apresentar primeiro a separação entre **categoria doutrinária** e **regime re
 
 ## Certificação normativa delimitada: 11/11/2026
 
-**Fontes e escopo:** conferido o texto da nota, tabelas, **sete casos progressivos**, **dois exemplos comentados** e **dez questões C/E** frente aos [arts. 151–157 e 201–203 do RICD atualizado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html) e aos [arts. 57, 60, 62, 64, 66, 68 e 166 da Constituição](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). A classificação sumaríssimo/especial/concentrado é **doutrinária**, separada das espécies regimentais de urgência e dos procedimentos próprios.
+**Fontes e escopo:** conferido o texto da nota, tabelas, **sete casos progressivos**, **dois exemplos comentados** e **dez questões C/E** frente aos [arts. 151–157 e 201–203 do RICD atualizado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e aos [arts. 57, 60, 62, 64, 66, 68 e 166 da Constituição](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988). A classificação sumaríssimo/especial/concentrado é **doutrinária**, separada das espécies regimentais de urgência e dos procedimentos próprios.
 
 **NC-PL-036:** complementado o art. 157, §§ 3º-A, 5º e 6º, sobre adiamento de votação, diligência e intervalo **de dez minutos após disponibilização do parecer** às emendas de Plenário quando oferecido durante a sessão por relator designado. **NC-PL-037:** acrescentado o **interstício de duas sessões entre a publicação do parecer da comissão especial sobre PEC e a inclusão na Ordem do Dia** (RICD art. 202, § 5º), distinto das cinco sessões entre turnos (§ 6º). Preservados os requisitos de art. 155 para requerimento e aprovação, a exigência de parecer e quórum no art. 152, a votação separada das MPs e as maiorias separadas de deputados e senadores para derrubar veto.
 

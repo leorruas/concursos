@@ -50779,6 +50779,34 @@
       "correctAnswer": "E",
       "explanation": "A liquidação inclui verificar a importância exata a pagar, com base no contrato e nos documentos da entrega, conforme o art. 63 da Lei nº 4.320/1964. O recebimento confirma o aceite do objeto. A divergência de preço ainda precisa ser resolvida antes da liquidação pelo valor faturado.",
       "reviewEvidence": "Revisão editorial por IA. Conferidos os arts. 63 da Lei nº 4.320/1964 e 140 da Lei nº 14.133/2021 e a seção teórica. A quantidade e o aceite estão regulares. O mecanismo é verificar a divergência no preço unitário, distinta de entrega parcial."
+    },
+    {
+      "id": "cam-orc-l199-001-credito-vigente-ano-intermediario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "conceptId": "restos-a-pagar-credito-plurienal-ano-intermediario",
+      "mechanism": "aplicar-excecao-a-empenho-nao-liquidado-antes-do-ultimo-ano",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6e4e79c7f4bb4aa3#Crédito com vigência plurianual: exceção literal do art. 36"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+        "section": "Crédito com vigência plurianual: exceção literal do art. 36"
+      },
+      "statement": "Uma despesa foi empenhada à conta de um crédito com vigência plurienal que termina no exercício seguinte. Ao encerrar o exercício corrente, a despesa continua sem liquidação. O art. 36 da Lei nº 4.320/1964 impede que esse empenho seja computado como resto a pagar nesse encerramento.",
+      "correctAnswer": "C",
+      "explanation": "O parágrafo único do art. 36 reserva o cômputo dos empenhos não liquidados à conta desses créditos ao último ano de vigência do crédito. Como a vigência só termina no exercício seguinte, a regra afasta o cômputo no encerramento do ano corrente.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidos o art. 36, parágrafo único, no texto atualizado da Câmara e a seção canônica. O enunciado fixa a vigência do próprio crédito e a ausência de liquidação."
     }
   ]
 }

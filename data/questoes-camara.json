@@ -50611,6 +50611,34 @@
       "correctAnswer": "C",
       "explanation": "O art. 166, § 5º, da Constituição fixa o marco na votação, na comissão mista, da parte a ser alterada. Como a votação dessa parte ainda não foi iniciada, a votação de outro trecho não impede o envio da mensagem.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 166, § 5º, no portal da Câmara e o subtítulo canônico. O item testa o alcance do marco entre partes distintas do projeto."
+    },
+    {
+      "id": "cam-orc-l194-001-parecer-cmo-recesso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-d8f21b70c49e563a",
+      "conceptId": "recesso-aprovacao-projeto-ldo",
+      "mechanism": "distinguir-parecer-favoravel-de-aprovacao-do-pldo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d8f21b70c49e563a#PPA, LDO e LOA: três procedimentos, não uma única agenda"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+        "section": "PPA, LDO e LOA: três procedimentos, não uma única agenda"
+      },
+      "statement": "Em julho, a Comissão Mista de Orçamento aprovou parecer favorável ao projeto de lei de diretrizes orçamentárias, que ainda aguarda deliberação do Congresso Nacional. A aprovação do parecer já satisfaz a condição orçamentária para a interrupção da sessão legislativa.",
+      "correctAnswer": "E",
+      "explanation": "O art. 57, § 2º, da Constituição condiciona a interrupção à aprovação do projeto de LDO. A aprovação do parecer na comissão é uma etapa preparatória. O projeto ainda aguarda a deliberação do Congresso Nacional, de modo que a condição ainda não foi satisfeita.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos o art. 57, § 2º, e o art. 166, caput e § 1º, no texto atualizado da Constituição no portal da Câmara. O caso diferencia aprovação do parecer de aprovação do projeto."
     }
   ]
 }

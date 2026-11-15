@@ -94,6 +94,10 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
       // Os metadados do manifesto não mudam quando o corpo Markdown é corrigido.
       // Verifique o corpo dos artigos PL11–15, PL17–22 e os materiais já monitorados.
       const materiaisAuditoriaPL = [
+        '3 - Materias/Direito Constitucional/06 - poder legislativo.md',
+        '3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md',
+        '3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md',
+        '3 - Materias/Direito Constitucional/11 - organizacao do estado.md',
         '3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao.md',
         '3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md',
         '3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md',
@@ -122,7 +126,7 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         const local = fs.readFileSync(localPath, 'utf8');
         if (publicado !== local) throw new Error('Nota de Processo Legislativo diverge do build publicado: ' + recurso);
       }
-      console.log('✓ Artigos constitucionais 17 a 22, Código de Ética e hub sincronizados no Pages.');
+      console.log('✓ Artigos constitucionais 06, 08, 10, 11, 17 a 22, Código de Ética e hub sincronizados no Pages.');
       console.log('✓ Glossário, interface e índice sincronizados no Pages.');
       console.log('✓ Coleção e interface dos flashcards sincronizadas no Pages.');
       console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');

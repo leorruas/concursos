@@ -10743,6 +10743,42 @@
       "reviewedAt": "2026-11-15",
       "revision": 1,
       "conceptIds": []
+    },
+    {
+      "id": "camara-mp-perda-eficacia-relacoes-juridicas",
+      "term": "Medida provisória rejeitada: o que acontece aos atos anteriores?",
+      "definition": "A rejeição ou perda de eficácia de MP aciona a regra constitucional de perda de eficácia desde a edição. O Congresso deve editar decreto legislativo para disciplinar as relações jurídicas formadas. Sem decreto em 60 dias após o fim da MP, essas relações continuam regidas pela MP, embora ela não autorize novos atos.",
+      "example": "MP aplicada a um ato em março, rejeitada em abril: se não houver decreto legislativo nos 60 dias seguintes, a situação formada em março continua regida pela medida, mesmo após o fim de sua vigência.",
+      "confusion": "Perda de eficácia não implica anulação automática de atos passados; a preservação de relações antigas não significa prorrogação da vigência para novos atos.",
+      "topic": "Direito Constitucional",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7e91b362a40c58d2",
+        "section": "O efeito retroativo e a proteção de atos praticados: caso com datas hipotéticas"
+      },
+      "source": {
+        "title": "Constituição Federal, art. 62",
+        "url": "https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Art. 62, §§ 3º e 11"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-15",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-perda-eficacia-mp"
+      ],
+      "contrast": {
+        "prompt": "Uma MP perde eficácia, mas foi usada para criar relações jurídicas enquanto vigorava. Sem decreto legislativo em 60 dias, todos os efeitos anteriores desaparecem?",
+        "answer": "Não. O art. 62, § 11, mantém aquelas relações regidas pela MP. Isso não torna a MP vigente para autorizar atos futuros."
+      }
     }
   ]
 }

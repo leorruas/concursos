@@ -5,7 +5,7 @@ title: "Regimento Comum: lideranças, comissões mistas e votação no Congresso
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-11
+updated: 2026-11-15
 aliases:
   - "CAM-PL-027"
   - "Resolução 1/1970-CN: organização e procedimento comum"
@@ -72,6 +72,8 @@ A expressão *comissão do Congresso* é genérica. **Comissão mista ordinária
 | **Deliberação** | **Maioria de votos**, presente a **maioria dos membros**; Presidente vota **somente em desempate** (art. 14) | Presumir que basta o um terço necessário para começar |
 | **Parecer** | Pode propor aprovação total/parcial, rejeição, substitutivo, emendas e subemendas (arts. 15–16) | Tratar relatório inicial como decisão institucional |
 | **Parecer não apresentado no prazo** | Deve ser **proferido oralmente em Plenário** na discussão (art. 20) | Declarar aprovação tácita |
+
+**Exemplo operacional de quórum na comissão comum:** numa comissão de **11 senadores e 11 deputados**, um terço da composição de 22 corresponde a **oito presentes** (sete não alcançam um terço). Isso é suficiente para **iniciar trabalhos**, mas não basta para **deliberar**: a maioria de 22 exige **12 presentes**, e a proposta ainda precisa obter maioria dos votos computados segundo o art. 14. O exemplo supõe a composição-base de 22 membros; se houver vagas adicionais ou regra especial, refaça a conta. O Regimento Comum distingue o número mínimo de pessoas presentes do número de votos favoráveis.
 
 **Art. 14, parágrafo único:** quando a comissão mista **não possui paridade numérica**, votos de senadores e deputados são tomados **separadamente**. Não converter essa hipótese em regra universal sobre toda votação **na comissão**. Já no **Plenário do Congresso**, o **art. 43** determina computação **sempre separada**, mesmo quando há paridade: o sujeito e a condição mudam.
 

@@ -48679,6 +48679,34 @@
       "correctAnswer": "C",
       "explanation": "A lacuna está na distribuição de uma tarefa entre as instituições. Atribuir a comunicação a um responsável permite acompanhar seu cumprimento.",
       "reviewEvidence": "Revisão por IA com conferência da seção indicada. A lacuna está na distribuição de uma tarefa entre as instituições. Atribuir a comunicação a um responsável permite acompanhar seu cumprimento. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l141-001-dissenso-sem-ruptura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / relações entre Poderes e coalizões",
+      "articleId": "art-71d4e9b30c86a25f",
+      "conceptId": "dissenso-sem-ruptura",
+      "mechanism": "distinguir-voto-pontual-de-ruptura-politica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-71d4e9b30c86a25f#Como uma coalizão se forma e se mantém"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/22 - relacoes executivo legislativo e coalizoes.md",
+        "section": "Como uma coalizão se forma e se mantém"
+      },
+      "statement": "Durante a formação de um governo, três partidos aceitam integrar o gabinete. Meses depois, um deles mantém seus ministros, mas se opõe a uma proposta específica do Executivo. Esse voto revela divergência sobre a proposta, mas, por si só, não demonstra que o partido saiu da coalizão.",
+      "correctAnswer": "C",
+      "explanation": "A participação na coalizão envolve um acordo mais amplo que a posição em uma votação. Para identificar a saída, é preciso observar evidências de ruptura do acordo.",
+      "reviewEvidence": "Revisão por IA com cotejo da seção indicada. A participação na coalizão envolve um acordo mais amplo que a posição em uma votação. Para identificar a saída, é preciso observar evidências de ruptura do acordo. Dificuldade estimada."
     }
   ]
 }

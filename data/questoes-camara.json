@@ -50359,6 +50359,62 @@
       "correctAnswer": "E",
       "explanation": "A ação pode ser selecionada por dois caminhos. Ela é escolhida diretamente com probabilidade de 80% e também em um quarto dos sorteios, que ocorrem em 20% das decisões. Isso soma 80% + 5% = 85%.",
       "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferidos os ramos da estratégia e a probabilidade total de 85%. Seção literal conferida no artigo canônico."
+    },
+    {
+      "id": "cam-ti-l187-001-auditoria-amostra-fora-da-fila",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-392b1e185fd2729e",
+      "conceptId": "auditoria-amostra-fora-da-fila",
+      "mechanism": "identificar-rotulos-selecionados-pelas-predicoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-392b1e185fd2729e#2.2. Vieses de modelagem e ciclos viciosos de retroalimentação"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana.md",
+        "section": "2.2. Vieses de modelagem e ciclos viciosos de retroalimentação"
+      },
+      "statement": "Um sistema prioriza processos que parecem conter erros, e a equipe verifica apenas os casos priorizados. Se quase todos os erros confirmados no mês vierem dessa fila, esse resultado basta para concluir que o sistema deixou passar poucos erros.",
+      "correctAnswer": "E",
+      "explanation": "Os erros confirmados vêm da fila porque só ela foi examinada. Pode haver erros entre os processos deixados de fora. Verificar também uma amostra desses processos permite investigar quantos erros o sistema deixou passar.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferida a separação entre seleção para verificação e ocorrência real do erro. Seção literal conferida no artigo canônico."
+    },
+    {
+      "id": "cam-ti-l187-002-proxy-acesso-ao-canal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "informatica",
+      "unitId": "tecnologia-e-dados",
+      "editalRef": "14.2.3 / Tecnologia da Informação e Dados / fundamentos de dados, transformação e visualização",
+      "articleId": "art-392b1e185fd2729e",
+      "conceptId": "proxy-acesso-ao-canal",
+      "mechanism": "identificar-proxy-de-necessidade-que-mede-acesso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-392b1e185fd2729e#2.1. Vieses originados nos dados de treinamento"
+      ],
+      "source": {
+        "path": "3 - Materias/Informatica/23 - etica em ia vieses discriminacao transparencia e revisao humana.md",
+        "section": "2.1. Vieses originados nos dados de treinamento"
+      },
+      "statement": "Um órgão treina um modelo para estimar a necessidade de atendimento usando como medida o número de pedidos digitais enviados por região. Se duas regiões têm a mesma necessidade, mas uma delas tem menos acesso à internet, contar corretamente todos os pedidos enviados ainda pode subestimar a necessidade nessa região.",
+      "correctAnswer": "C",
+      "explanation": "O total de pedidos digitais mede o uso desse canal. Se a necessidade também existe entre pessoas que não conseguem acessar o canal, a contagem pode estar exata e continuar inadequada como medida da necessidade.",
+      "reviewEvidence": "Revisão editorial por IA em 15/11/2026. Conferida a distinção entre medir corretamente o indicador substituto e medir a variável de interesse. Seção literal conferida no artigo canônico."
     }
   ]
 }

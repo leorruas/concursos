@@ -39,7 +39,7 @@ flowchart TD
 
 ## 1. Classificações Doutrinárias de Agentes Públicos
 
-A doutrina não adota classificação única. A classificação de **Hely Lopes Meirelles** distingue cinco grupos; a de **Maria Sylvia Zanella Di Pietro** distingue, entre outros, servidores públicos e particulares em colaboração. Uma questão que não indique autor exige cuidado: a inclusão de magistrados ou membros do Ministério Público entre agentes políticos pode variar conforme o critério doutrinário.
+A doutrina não adota classificação única. A classificação de **Hely Lopes Meirelles** distingue cinco grupos; a de **Maria Sylvia Zanella Di Pietro** distingue, entre outros, servidores públicos e particulares em colaboração. **Atenção:** o diagrama acima representa a classificação de Hely; não é uma lista constitucional obrigatória, e o enquadramento de magistrados e membros do Ministério Público varia conforme o autor. Uma questão que não indique autor exige cuidado: a inclusão de magistrados ou membros do Ministério Público entre agentes políticos pode variar conforme o critério doutrinário.
 
 ### 1.1. Classificação Clássica de Hely Lopes Meirelles
 1. **Agentes Políticos:** componentes dos escalões superiores da Administração e dos Poderes do Estado. Não mantêm vínculo profissional/hierárquico comum, mas vínculo de natureza política e constitucional direta:
@@ -73,9 +73,9 @@ Uma das áreas mais férteis para distratores da banca consiste em confundir os 
 
 | Categoria | Conceito Dogmático | Regime Jurídico | Natureza do Vínculo | Hipótese de Ocorrência |
 | :--- | :--- | :--- | :--- | :--- |
-| **Cargo Público** | Lugar instituído na organização do serviço público, **criado por lei**, em número determinado e com denominação própria, com conjunto de atribuições e estipêndio pago pelos cofres públicos. | **Estatutário** (disciplinado por estatuto legal, e.g., Lei nº 8.112/1990). | Vínculo de direito público; não há contrato de trabalho; alteração unilateral de regime por lei. | Administração Direta, Autarquias e Fundações Públicas de direito público. |
+| **Cargo Público** | Lugar instituído na organização do serviço público, **criado por lei**, em número determinado e com denominação própria, com conjunto de atribuições e estipêndio pago pelos cofres públicos. | **Estatutário** no regime federal atualmente aplicável aos cargos efetivos (Lei nº 8.112/1990). A Constituição não impede, em abstrato, regimes distintos para vínculos distintos, observadas as leis e a jurisprudência. | Vínculo de direito público; não há contrato de trabalho; alteração unilateral de regime por lei. | Administração Direta, Autarquias e Fundações Públicas de direito público. |
 | **Emprego Público** | Unidade de atribuições e tarefas desempenhadas por trabalhador sob vínculo contratual regido predominantemente pelo direito do trabalho comum. | **Trabalhista / Celetista** (regido pela CLT - Consolidação das Leis do Trabalho). | Vínculo contratual trabalhista bilateral, com recolhimento obrigatório de FGTS. | Empresas Públicas, Sociedades de Economia Mista e suas subsidiárias (art. 173, § 1º, II, CF). |
-| **Função Pública** | Conjunto de atribuições materiais e responsabilidades conferidas ao agente. Toda posição estatal envolve função, mas **pode existir função sem cargo e sem emprego**. | Estatutário ou especial de direito público. | Vínculo especial de chefia transitória ou contratação emergencial. | 1. **Função de Confiança** (art. 37, V); 2. **Contratação Temporária** (art. 37, IX); 3. Funções transitórias de mesa diretora/comissões. |
+| **Função Pública** | Conjunto de atribuições e responsabilidades exercidas em nome do poder público. **Pode existir função sem cargo efetivo ou emprego público**. | Varia conforme o vínculo: função de confiança exercida por servidor efetivo, contratação temporária sob regime especial ou colaboração transitória. | **Não é, por si só, uma terceira espécie uniforme de vínculo**: é preciso identificar quem exerce a função e sob qual fundamento. | Função de confiança (art. 37, V); contratação temporária (art. 37, IX); atuação transitória de jurados e mesários. |
 
 ```mermaid
 flowchart LR
@@ -118,7 +118,7 @@ O art. 37, inciso V, da Constituição Federal estabelece uma distinção de enq
 ## 4. Servidores Temporários (Art. 37, IX, da CF/1988)
 
 A Constituição autoriza que a lei estabeleça os casos de contratação por tempo determinado para atender a **necessidade temporária de excepcional interesse público**:
-- **Regime Jurídico:** trata-se de regime **jurídico-administrativo especial**, e não de relação de emprego regida pela CLT nem de provimento de cargo efetivo estatutário. A competência jurisdicional para dirimir controvérsias decorrentes dessa contratação perante a União é da **Justiça Federal**, e não da Justiça do Trabalho (ADI 3.395/DF do STF).
+- **Regime Jurídico:** trata-se de regime **jurídico-administrativo especial**, e não de relação de emprego regida pela CLT nem de provimento de cargo efetivo estatutário. Nas controvérsias decorrentes do vínculo jurídico-administrativo com a União, a competência é, em regra, da **Justiça Federal comum**, não da Justiça do Trabalho (ADI 3.395/DF do STF). Para estados e municípios, a Justiça comum competente é, em regra, a estadual. A natureza real do vínculo e o pedido formulado devem ser examinados.
 - **Pressupostos cumulativos de validade (STF - Tema 612):**
   1. Previsão em lei formal das hipóteses taxativas de contratação;
   2. Determinação temporal do contrato (vedada prorrogação indefinida que burle o concurso);
@@ -222,7 +222,7 @@ Julgue o item a seguir, relativo à criação de cargos em comissão segundo a j
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** O STF fixou tese de repercussão geral (Tema 1010) declarando expressamente a **inconstitucionalidade da criação de cargos em comissão para o desempenho de atribuições técnicas, operacionais, burocráticas ou rotineiras**. Os cargos em comissão destinam-se exclusivamente às funções de direção, chefia e assessoramento. A mera previsão de reserva percentual para servidores de carreira não supre a inconstitucionalidade material decorrente da violação à exigência constitucional de concurso público para tarefas permanentes de suporte técnico e administrativo.
+> **Comentário:** O STF fixou tese de repercussão geral (Tema 1010) declarando expressamente a **inconstitucionalidade da criação de cargos em comissão para o desempenho de atribuições técnicas, operacionais, burocráticas ou rotineiras**. Os cargos em comissão destinam-se exclusivamente às funções de direção, chefia e assessoramento. A reserva percentual para servidores de carreira não transforma atribuições meramente técnicas ou burocráticas em direção, chefia ou assessoramento. O Tema 1010 também exige atribuições claras na própria lei e proporcionalidade do número de cargos comissionados em relação às necessidades e aos cargos efetivos.
 
 ---
 
@@ -249,9 +249,9 @@ No que tange aos requisitos constitucionais da estabilidade no serviço público
 
 ## Fontes normativas e jurisprudenciais
 
-- **Constituição Federal de 1988:** art. 37, incisos I, II, V e IX; art. 41 (estabilidade e perda de cargo); art. 173, § 1º, II (regime trabalhista das estatais).
-- **Lei nº 8.112/1990:** Regime Jurídico Único dos Servidores Públicos Civis da União.
-- **Lei nº 8.745/1993:** Regime de contratação temporária no âmbito da Administração Federal.
+- **[Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm):** art. 37, incisos I, II, III, V e IX; art. 41 (estabilidade e perda de cargo); art. 169, §§ 3º e 4º (limites de despesa com pessoal); art. 173, § 1º, II (regime trabalhista das estatais).
+- **[Lei nº 8.112/1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm):** regime estatutário dos servidores civis federais titulares de cargos abrangidos pela lei.
+- **[Lei nº 8.745/1993](https://www.planalto.gov.br/ccivil_03/leis/l8745cons.htm):** contratação temporária federal, especialmente arts. 2º e 3º.
 - **Supremo Tribunal Federal:**
   - **Tema 1010 de Repercussão Geral:** inconstitucionalidade de cargos em comissão para atividades técnicas e operacionais.
   - **Tema 1022 (RE 688.267):** dever de motivação da dispensa de empregados públicos de empresas estatais admitidos por concurso público.

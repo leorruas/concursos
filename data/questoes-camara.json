@@ -48707,6 +48707,34 @@
       "correctAnswer": "C",
       "explanation": "A participação na coalizão envolve um acordo mais amplo que a posição em uma votação. Para identificar a saída, é preciso observar evidências de ruptura do acordo.",
       "reviewEvidence": "Revisão por IA com cotejo da seção indicada. A participação na coalizão envolve um acordo mais amplo que a posição em uma votação. Para identificar a saída, é preciso observar evidências de ruptura do acordo. Dificuldade estimada."
+    },
+    {
+      "id": "cam-cpol-l142-001-trocas-compensadas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "estado-democracia",
+      "unitId": "ciencia-politica",
+      "editalRef": "14.2.4 / Ciência Política / sistemas partidários",
+      "articleId": "art-6c29a5f8d0317be4",
+      "conceptId": "trocas-compensadas",
+      "mechanism": "distinguir-fluxo-individual-e-variacao-agregada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6c29a5f8d0317be4#Pedersen: volatilidade e mudança entre eleições"
+      ],
+      "source": {
+        "path": "3 - Materias/Estado e Democracia/26 - sistemas partidarios competicao e fragmentacao.md",
+        "section": "Pedersen: volatilidade e mudança entre eleições"
+      },
+      "statement": "Entre duas eleições, dois partidos mantêm exatamente as mesmas parcelas de votos. O índice de volatilidade de Pedersen pode ser zero mesmo que parte dos eleitores de cada partido tenha passado a votar no outro.",
+      "correctAnswer": "C",
+      "explanation": "O índice usa as parcelas agregadas de votos. Trocas individuais em direções opostas podem se compensar e deixar as parcelas inalteradas.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O índice usa as parcelas agregadas de votos. Trocas individuais em direções opostas podem se compensar e deixar as parcelas inalteradas. Dificuldade estimada."
     }
   ]
 }

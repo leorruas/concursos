@@ -5,7 +5,7 @@ title: "Processo legislativo e poder constituinte: como diferenciar os sete tipo
 type: "conceito"
 status: "ativo"
 created: 2026-06-15
-updated: 2026-11-13
+updated: 2026-11-15
 ---
 
 # Processo legislativo e poder constituinte: como diferenciar os sete tipos de norma
@@ -220,6 +220,14 @@ Para **lei ordinária ou complementar**, imagine o percurso básico:
 **Exemplo do percurso.** Um deputado apresenta projeto de lei ordinária sobre transparência de um serviço federal, em assunto que admita iniciativa parlamentar. A Câmara o examina e aprova; o Senado, como Casa revisora, pode aprová-lo sem mudanças, rejeitá-lo ou propor alterações. Se o Senado modificar o texto, **a Câmara examina as alterações**. Encerrada a deliberação das Casas, o projeto segue para **sanção ou veto presidencial**. Se houver veto, o Congresso pode apreciá-lo conforme a Constituição. Observe que **aprovar em uma Casa não significa que o projeto já virou lei**. O exemplo é do percurso típico de projeto iniciado na Câmara; o sentido da revisão se inverte quando a tramitação começa no Senado.
 
 **Não transportamos esse percurso automaticamente para todas as sete espécies.** PEC, decreto legislativo e resolução não passam por sanção presidencial; MP nasce com força de lei por ato do Presidente, e lei delegada depende de autorização anterior. Uma MP aprovada com alterações por projeto de lei de conversão segue para sanção ou veto; aprovada sem alterações, segue regime próprio.
+
+### Quando o Senado modifica o projeto aprovado pela Câmara
+
+**Exemplo hipotético:** a Câmara, atuando como Casa iniciadora, aprova um projeto de lei ordinária com três artigos e o envia ao Senado, que funciona como **Casa revisora**. Se o Senado aprovar o texto sem modificações, a proposta segue para a etapa constitucional seguinte, em regra a sanção ou o veto presidencial. Se o Senado aprovar uma **emenda** que altere o projeto, o texto modificado retorna à **Casa iniciadora**, que examina a alteração, na forma do art. 65 da Constituição e do procedimento aplicável. A decisão sobre a emenda **não significa que todo o processo deva necessariamente recomeçar do zero**.
+
+A regra ajuda a separar três acontecimentos: **rejeição integral pela Casa revisora** (o projeto é arquivado, nos termos do art. 65), **aprovação sem alterações** (o projeto segue adiante) e **aprovação com emenda** (há retorno à Casa iniciadora). Também é preciso distinguir emenda feita pela Casa revisora de **veto presidencial**, que ocorre em etapa posterior e tem regime próprio no art. 66.
+
+**Item C/E autoral.** “Se a Casa revisora modificar um projeto de lei aprovado pela Casa iniciadora, a alteração deve voltar a esta última.” **Certo.** É a regra do parágrafo único do art. 65, observadas as condições do processo legislativo pertinente.
 
 ## Poder constituinte: criar uma Constituição × alterá-la
 

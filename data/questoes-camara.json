@@ -50919,6 +50919,34 @@
       "correctAnswer": "E",
       "explanation": "A prefeitura devolveu recursos de terceiro que mantinha em garantia. O desembolso extingue a obrigação de devolver a caução e é extraorçamentário, ainda que a entrada e a saída ocorram em exercícios diferentes.",
       "reviewEvidence": "Revisão editorial por IA. Conferidos o MCASP, 11ª edição, Parte I, tópico Dispêndios, e a seção canônica. O item testa a classificação da saída em exercício posterior."
+    },
+    {
+      "id": "cam-orc-l203-001-arrecadacao-dezembro-repasse-janeiro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "orcamento-publico",
+      "unitId": "processo-orcamentario",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / 4.1 a 4.7 / tramitação e emendas orçamentárias",
+      "articleId": "art-4677cfa327ce43bb",
+      "conceptId": "receita-exercicio-arrecadacao-repasse-posterior",
+      "mechanism": "identificar-o-exercicio-da-receita-quando-o-repasse-ocorre-depois",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4677cfa327ce43bb#Recolhimento: unidade de caixa"
+      ],
+      "source": {
+        "path": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+        "section": "Recolhimento: unidade de caixa"
+      },
+      "statement": "O banco autorizado a arrecadar tributos municipais recebeu o pagamento de um contribuinte em dezembro e transferiu o valor ao Tesouro municipal em janeiro. Para fins orçamentários, a receita pertence ao exercício em que o banco recebeu o pagamento.",
+      "correctAnswer": "C",
+      "explanation": "O art. 35, I, da Lei nº 4.320/1964 atribui a receita ao exercício da arrecadação. Ela ocorreu em dezembro, quando o agente autorizado recebeu o pagamento. A transferência posterior ao Tesouro é o recolhimento, que não muda o exercício da receita.",
+      "reviewEvidence": "Revisão editorial por IA. Conferidos os arts. 35, I, e 56 da Lei nº 4.320/1964 no portal da Câmara e o subtítulo canônico. O caso usa a distinção entre as etapas para determinar o exercício da receita."
     }
   ]
 }

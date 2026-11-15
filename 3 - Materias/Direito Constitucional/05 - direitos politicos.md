@@ -154,6 +154,10 @@ A Constituição **veda a cassação** de direitos políticos e admite perda ou 
 > [!NOTE]
 > A Constituição enumera as hipóteses, mas o próprio art. 15 não rotula inciso por inciso como “perda” ou “suspensão”. Em questão doutrinária, observe a classificação adotada pela banca; em questão de literalidade, memorize o rol constitucional.
 
+**O que é incapacidade civil absoluta?** É a impossibilidade jurídica de uma pessoa praticar pessoalmente certos atos da vida civil, exigindo representação legal. O **Código Civil, art. 3º, após a Lei nº 13.146/2015**, considera absolutamente incapazes somente os **menores de 16 anos**. Essa mudança importa: deficiência, por si só, não autoriza suspender direitos políticos. Também não se deve confundir o inciso II do art. 15 com uma regra que retire o direito de voto de toda pessoa sob curatela. O art. 14 já disciplina a idade de alistamento e voto. Uma questão Cebraspe que associa automaticamente deficiência intelectual à perda de direitos políticos troca o texto constitucional por uma classificação civil ultrapassada.
+
+**Item C/E autoral:** “A curatela de pessoa com deficiência determina, por si só, suspensão de seus direitos políticos, porque a Constituição prevê incapacidade civil absoluta.” **Errado.** A Lei nº 13.146/2015 alterou a classificação civil, e a deficiência não implica incapacidade civil absoluta automática. **Fontes:** [Código Civil, art. 3º](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm); Constituição, arts. 14 e 15; Lei nº 13.146/2015.
+
 A perda da nacionalidade possui hoje regime alterado pela EC nº 131/2023. Ver [[3 - Materias/Direito Constitucional/04 - nacionalidade|Nacionalidade]].
 
 ## Anualidade eleitoral e partidos políticos: arts. 16 e 17

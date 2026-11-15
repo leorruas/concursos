@@ -5,7 +5,7 @@ title: "Nacionalidade"
 type: "conceito"
 status: "ativo"
 created: 2026-06-03
-updated: 2026-09-10
+updated: 2026-11-15
 ---
 
 # Nacionalidade
@@ -76,6 +76,18 @@ A regra é a igualdade: a lei não pode estabelecer distinções entre brasileir
 
 A pegadinha típica é ampliar a lista. Deputado, senador, governador, prefeito e ministro de Estado em geral não são, apenas por esses cargos, privativos de nato.
 
+### Extradição: duas situações específicas do naturalizado
+
+**Extradição** é a entrega de uma pessoa a outro Estado, nos termos das normas aplicáveis, para responder a processo ou cumprir pena. O art. 5º, LI, proíbe a extradição de brasileiro **nato**. Quanto ao **naturalizado**, permite-a em duas hipóteses: **crime comum praticado antes da naturalização** ou **comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei**. A segunda hipótese não está limitada, no texto constitucional, aos fatos anteriores à naturalização.
+
+**Caso progressivo:** uma pessoa pratica crime comum no exterior, depois obtém a naturalização brasileira e passa a ser procurada pelo país estrangeiro. A Constituição admite extradição em razão do crime comum **anterior** à naturalização, desde que observadas as demais condições jurídicas. Se o crime comum foi praticado **depois** da naturalização, essa hipótese do art. 5º, LI, não se aplica. Se o caso envolve comprovado tráfico ilícito de drogas, a Constituição prevê uma exceção distinta, que não depende dessa mesma divisão temporal. A existência de uma exceção constitucional não significa extradição automática: o caso depende do procedimento e das exigências legais.
+
+### Portugueses com direitos equiparados
+
+O art. 12, § 1º, prevê que aos **portugueses com residência permanente no Brasil**, se houver **reciprocidade em favor de brasileiros**, serão atribuídos os direitos inerentes ao brasileiro, ressalvados os casos previstos na Constituição. **Reciprocidade** significa que a concessão pressupõe tratamento correspondente aos brasileiros em Portugal. Essa equiparação de direitos **não equivale a naturalização**: o português não se torna brasileiro simplesmente por receber os direitos previstos nessa regra.
+
+**Contraexemplo:** um português com equiparação de direitos não passa, por essa razão, a poder ocupar cargo reservado pela Constituição a brasileiro nato, como Presidente da Câmara. A ressalva constitucional continua relevante.
+
 ### Outras distinções constitucionais
 
 As diferenças entre nato e naturalizado não se resumem à lista de cargos.
@@ -107,6 +119,14 @@ A mera aquisição de outra nacionalidade **não provoca mais perda automática 
 ### Reaquisição
 
 A Constituição dispõe que a renúncia nos termos do pedido expresso de perda não impede o interessado de readquirir sua **nacionalidade brasileira originária**, nos termos da lei.
+
+## Três itens de aplicação: Certo ou Errado
+
+**Item inédito, C/E 1:** “O naturalizado pode ser extraditado pela prática de crime comum posterior à naturalização, porque a Constituição apenas proíbe a extradição de brasileiros natos.” **Errado.** Para crime comum, o art. 5º, LI, exige fato **anterior** à naturalização; a hipótese de envolvimento comprovado em tráfico ilícito de drogas tem disciplina constitucional distinta.
+
+**Item inédito, C/E 2:** “O português com residência permanente no Brasil pode receber direitos inerentes ao brasileiro quando houver reciprocidade em favor de brasileiros, sem que isso signifique aquisição automática da nacionalidade brasileira.” **Certo.** O art. 12, § 1º, disciplina equiparação de direitos, com ressalvas constitucionais.
+
+**Item inédito, C/E 3:** “A mera aquisição de nacionalidade estrangeira é motivo suficiente para perda da nacionalidade brasileira, mesmo sem pedido expresso perante autoridade brasileira.” **Errado.** A Emenda Constitucional nº 131/2023 retirou essa causa automática; permanecem as hipóteses atuais do art. 12, § 4º.
 
 ## Como a banca cobra
 
@@ -152,7 +172,7 @@ A cobrança tende a deslocar uma condição constitucional para a hipótese erra
 
 ## Fontes
 
-- Constituição da República Federativa do Brasil de 1988, art. 12.
+- [Constituição da República Federativa do Brasil de 1988, texto atualizado da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), arts. 5º, LI, e 12.
 - Emenda Constitucional nº 131, de 3 de outubro de 2023.
 
 ---

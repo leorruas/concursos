@@ -5,7 +5,7 @@ title: "Medidas provisórias: apreciação no Congresso e Resolução nº 1/2002
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-11
+updated: 2026-11-15
 aliases:
   - "CAM-PL-029"
   - "Resolução 1/2002-CN"
@@ -100,6 +100,8 @@ Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda pa
 **Extinção da eficácia:** a comissão mista elabora projeto de **decreto legislativo** para disciplinar relações jurídicas da vigência da MP quando seu prazo termina sem conclusão, quando ela é rejeitada ou quando há mudança do texto segundo as hipóteses do art. 11. **Se não houver proposta em 15 dias**, qualquer deputado ou senador pode apresentá-la à sua Casa, com instrução pela comissão (art. 11, § 1º).
 
 **Se o decreto legislativo não for editado até 60 dias após rejeição ou perda de eficácia**, as relações jurídicas **constituídas e decorrentes de atos praticados durante a vigência** permanecem por ela regidas, nos termos da **CF art. 62, § 11**, e do art. 11, § 2º. A frase “a MP perdeu eficácia e todos os atos anteriores são nulos” é falsa por generalizar a consequência temporal.
+
+**Exemplo de efeitos no tempo:** imagine uma MP que entrou em vigor em janeiro e permitiu a prática de atos administrativos durante dois meses. Se for rejeitada em março, o Congresso deve disciplinar, por decreto legislativo, as relações jurídicas geradas durante sua vigência (CF, art. 62, § 3º). Se **não editar esse decreto em até sessenta dias após a rejeição**, prevalece a regra constitucional do § 11: as relações jurídicas constituídas e decorrentes de atos praticados durante a vigência **conservam a disciplina da própria MP**. Isso protege a situação jurídica dos atos já praticados, sem tornar a MP vigente para novos atos depois da perda de eficácia. **Perda de eficácia, efeitos passados e aprovação de nova lei são perguntas distintas.**
 
 **Promulgação × sanção:** MP aprovada **sem alteração de mérito** é promulgada pela **Presidência da Mesa do Congresso** (art. 12). **PLV aprovado** segue para **sanção presidencial** (art. 13), podendo haver veto. Rejeição por qualquer Casa gera **comunicação imediata** e publicação de ato declaratório (art. 14). Decurso integral de vigência também gera ato declaratório de encerramento, sem confundir o ato de publicidade com o momento constitucional da perda de eficácia.
 

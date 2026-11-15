@@ -48427,6 +48427,62 @@
       "correctAnswer": "E",
       "explanation": "Os registros associam o atendimento a eventos diferentes. A comparação requer harmonizar a regra de contagem.",
       "reviewEvidence": "Revisão por IA com conferência da seção canônica. Os registros associam o atendimento a eventos diferentes. A comparação requer harmonizar a regra de contagem. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l136-001-rede-servico-sem-representacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Nova Governança Pública",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "rede-servico-sem-representacao",
+      "mechanism": "examinar-quem-pode-definir-a-pauta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Elementos e condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Elementos e condições"
+      },
+      "statement": "Uma rede consulta organizações de todos os bairros, mas permite que apenas o órgão financiador proponha temas para deliberação. A abrangência territorial da consulta demonstra que a influência sobre a pauta também está distribuída entre os participantes.",
+      "correctAnswer": "E",
+      "explanation": "A abrangência da consulta informa quem foi ouvido. O poder de propor temas permanece concentrado no financiador.",
+      "reviewEvidence": "Revisão por IA com conferência da seção Elementos e condições. A abrangência da consulta informa quem foi ouvido. O poder de propor temas permanece concentrado no financiador. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l136-002-rede-cooperacao-com-divergencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / Nova Governança Pública",
+      "articleId": "art-b72a64e019f34c8d",
+      "conceptId": "rede-cooperacao-com-divergencia",
+      "mechanism": "distinguir-consenso-geral-de-acordo-operacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72a64e019f34c8d#Elementos e condições"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/04 - nova governanca publica.md",
+        "section": "Elementos e condições"
+      },
+      "statement": "Dois órgãos discordam sobre a futura expansão de um serviço, mas estabelecem uma rotina comum de encaminhamento para atender os usuários atuais. O desacordo sobre a expansão é compatível com a cooperação na operação do serviço.",
+      "correctAnswer": "C",
+      "explanation": "A rotina comum coordena uma atividade definida. Os participantes podem cooperar nessa atividade mesmo mantendo divergências sobre decisões futuras.",
+      "reviewEvidence": "Revisão por IA com conferência da seção Elementos e condições. A rotina comum coordena uma atividade definida. Os participantes podem cooperar nessa atividade mesmo mantendo divergências sobre decisões futuras. Dificuldade estimada."
     }
   ]
 }

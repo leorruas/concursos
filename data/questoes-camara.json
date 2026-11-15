@@ -48483,6 +48483,62 @@
       "correctAnswer": "C",
       "explanation": "A rotina comum coordena uma atividade definida. Os participantes podem cooperar nessa atividade mesmo mantendo divergências sobre decisões futuras.",
       "reviewEvidence": "Revisão por IA com conferência da seção Elementos e condições. A rotina comum coordena uma atividade definida. Os participantes podem cooperar nessa atividade mesmo mantendo divergências sobre decisões futuras. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l137-001-indicador-frequencia-e-severidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "indicador-frequencia-e-severidade",
+      "mechanism": "distinguir-frequencia-e-consequencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Gestão de riscos e controles internos"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Gestão de riscos e controles internos"
+      },
+      "statement": "Após implantar um controle, um órgão observa menos falhas no processamento, mas cada falha restante causa perdas maiores. A redução da frequência basta para concluir que diminuiu o valor total das perdas.",
+      "correctAnswer": "E",
+      "explanation": "A perda total depende tanto do número de falhas quanto da perda por ocorrência. As duas mudanças têm sentidos opostos e seus efeitos precisam ser quantificados.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. A perda total depende tanto do número de falhas quanto da perda por ocorrência. As duas mudanças têm sentidos opostos e seus efeitos precisam ser quantificados. Dificuldade estimada."
+    },
+    {
+      "id": "cam-ap-l137-002-meta-e-revisao-de-prioridade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "administracao-publica",
+      "unitId": "administracao-publica",
+      "editalRef": "14.2.3 / Direito Administrativo e Administração Pública / governança e accountability",
+      "articleId": "art-23fe2441eab94f8d",
+      "conceptId": "meta-e-revisao-de-prioridade",
+      "mechanism": "reconhecer-revisao-do-direcionamento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-23fe2441eab94f8d#Governança × gestão"
+      ],
+      "source": {
+        "path": "3 - Materias/Administracao Publica/02 - governanca publica.md",
+        "section": "Governança × gestão"
+      },
+      "statement": "Com evidências de que a demanda migrou para outro canal, um colegiado decide substituir a expansão do atendimento telefônico pela melhoria do atendimento digital como prioridade institucional. A decisão altera o direcionamento da organização.",
+      "correctAnswer": "C",
+      "explanation": "O colegiado redefine qual objetivo deve receber prioridade. Organizar a execução das medidas para cumprir essa prioridade caberá à gestão.",
+      "reviewEvidence": "Revisão por IA com conferência da seção indicada. O colegiado redefine qual objetivo deve receber prioridade. Organizar a execução das medidas para cumprir essa prioridade caberá à gestão. Dificuldade estimada."
     }
   ]
 }

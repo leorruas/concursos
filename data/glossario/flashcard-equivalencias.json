@@ -205,6 +205,14 @@
     {
       "glossaryId": "glo-camara-projeto-lei-complementar",
       "cardId": "camara-plp-lc-estagios"
+    },
+    {
+      "glossaryId": "glo-camara-foro-prerrogativa-apos-mandato",
+      "cardId": "camara-foro-pos-mandato-hc232627"
+    },
+    {
+      "glossaryId": "glo-camara-controle-difuso-constitucionalidade",
+      "cardId": "camara-difuso-controle-abstrato-legitimidade"
     }
   ]
 }

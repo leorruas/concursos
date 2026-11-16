@@ -23,9 +23,9 @@ reviewedBy: "Auditoria Editorial e Dogmática"
 
 **Imagine dois casos:** um servidor recebe seu vencimento básico, uma gratificação e diárias de viagem; outro exerce dois cargos públicos em acumulação autorizada pela Constituição. Quais valores entram na remuneração? Quais parcelas são indenizatórias? Como funciona o teto? E o que muda quando o servidor descumpre um dever?
 
-A **Lei nº 8.112/1990**, estatuto federal dos servidores civis da União, autarquias e fundações públicas federais, disciplina **vencimento, remuneração, vantagens, férias, licenças, deveres e proibições**. O texto deve ser lido junto da **Constituição Federal, art. 37**, especialmente o teto e a acumulação remunerada. A **EC nº 135/2024** alterou o regime constitucional de exclusão de indenizações do teto; a **EC nº 138/2025** ampliou a acumulação de um cargo de professor com outro cargo de qualquer natureza.
+A **Lei nº 8.112/1990**, estatuto federal dos servidores civis da União, autarquias e fundações públicas federais, disciplina **vencimento, remuneração, vantagens, férias, licenças, deveres e proibições**. O texto deve ser lido junto da **Constituição Federal, art. 37**, especialmente o teto e a acumulação remunerada. A **EC nº 135/2024** alterou o regime de exclusão de indenizações do teto, com **regra transitória no art. 3º**; a **EC nº 138/2025** ampliou a acumulação de um cargo de professor com outro cargo de qualquer natureza.
 
-Para a Cebraspe, o método mais seguro é identificar **a natureza da parcela**, **o fundamento legal e o marco temporal**. A mesma palavra pode gerar efeitos diferentes: *indenização* não se incorpora por força do art. 49, § 1º, mas a exclusão de parcelas do teto constitucional **depende dos requisitos do art. 37, § 11, e das decisões judiciais aplicáveis**.
+Para a Cebraspe, o método mais seguro é identificar **a natureza da parcela**, **o fundamento legal e o marco temporal**. A mesma palavra pode gerar efeitos diferentes: *indenização* não se incorpora por força do art. 49, § 1º, mas a exclusão de parcelas do teto constitucional **depende do art. 37, § 11, da transição do art. 3º da EC nº 135/2024 e das decisões judiciais aplicáveis**.
 
 
 ---
@@ -63,7 +63,7 @@ O **art. 37, XI, da Constituição** limita a remuneração e o subsídio de age
 
 **Acumulação permitida e teto:** nos **Temas 377 e 384**, o STF estabeleceu, para vínculos constitucionalmente acumuláveis, a incidência do teto **em cada vínculo isoladamente**, e não sobre uma soma automática de todas as remunerações. Primeiro verifica-se se o acúmulo é lícito; só depois se aplica essa regra.
 
-**Indenizações e teto após a EC nº 135/2024:** o art. 37, § 11, passou a excluir do limite apenas parcelas de caráter indenizatório **expressamente previstas em lei ordinária nacional aprovada pelo Congresso**, aplicável aos Poderes e órgãos autônomos. Em **2026**, o STF adotou medidas para impedir classificações artificiais de vantagens remuneratórias como indenizatórias a fim de ultrapassar o teto. Portanto, a frase “qualquer verba chamada indenizatória está fora do teto” está incorreta. A inexistência de incorporação ao provento pelo **art. 49, § 1º**, também é questão distinta da exclusão constitucional do teto.
+**Indenizações e teto após a EC nº 135/2024:** o **art. 37, § 11**, estabeleceu como regra definitiva a previsão expressa da parcela em **lei ordinária nacional aprovada pelo Congresso**, aplicável aos Poderes e órgãos autônomos. O **art. 3º da própria EC nº 135/2024** prevê **transição até a edição dessa lei nacional**: as parcelas de caráter indenizatório previstas na legislação não são computadas no teto, respeitada a interpretação constitucional. Em **2026**, o STF restringiu pagamentos sem fundamento legal ou de aparência indenizatória que, na prática, aumentem remuneração. Em março e julho, fixou **regras transitórias específicas para magistratura e Ministério Público**, que não devem ser transplantadas automaticamente para todos os servidores. Logo, não basta o órgão chamar uma parcela de “indenização” para excluí-la do teto. A **não incorporação** ao provento pelo art. 49, § 1º, é uma questão diferente.
 
 **Descontos e proteção da remuneração:** pelo art. 45, descontos dependem, em regra, de **imposição legal, ordem judicial ou autorização em hipóteses legais de consignação**. O art. 48 protege vencimento, remuneração e provento contra arresto, sequestro e penhora, **com exceção legal para prestação de alimentos por decisão judicial**. O art. 44 prevê perda remuneratória por falta injustificada e descontos proporcionais, com regras de compensação.
 
@@ -103,7 +103,7 @@ As quatro hipóteses enumeradas no **art. 51** são:
 - **Transporte (art. 60):** indeniza gastos com uso de meio **próprio** de locomoção em serviços externos exigidos pelas atribuições, nas condições regulamentares. Não equivale ao auxílio-transporte cotidiano do trajeto casa-trabalho.
 - **Auxílio-moradia (arts. 60-A a 60-E):** ressarcimento de despesas de moradia ou hospedagem **comprovadas**, para situações legais como determinadas nomeações em comissão em outra localidade, sujeito a condições, impedimentos e limites. A existência de imóvel funcional disponível ou de imóvel próprio pode afetar o direito.
 
-**Dois testes separados:** indenização **não incorpora** pelo art. 49, § 1º; já sua **exclusão do teto** precisa respeitar a redação constitucional atual do art. 37, § 11. Evite afirmar de forma automática que uma parcela não sofre qualquer tributo ou contribuição sem consultar a lei específica e a natureza do valor.
+**Dois testes separados:** indenização **não incorpora** pelo art. 49, § 1º; já sua **exclusão do teto** exige examinar o art. 37, § 11, **a transição do art. 3º da EC nº 135/2024** e as decisões pertinentes. Evite afirmar de forma automática que uma parcela não sofre qualquer tributo ou contribuição sem consultar a lei específica e a natureza do valor.
 
 **Exemplo:** servidora viaja por dois dias e retorna antecipadamente. A eventual restituição de diárias não é uma sanção disciplinar por si só: decorre do ressarcimento de despesas que não se realizaram.
 
@@ -287,9 +287,9 @@ As questões são **inéditas, para treino Cebraspe (C/E)**. Julgue pela Constit
 
 > **Gabarito: CERTO.** A **nova redação do art. 37, XVI, b**, passou a permitir **um cargo de professor com outro de qualquer natureza**. A condição da **compatibilidade** permanece. Essa é uma mudança relevante em relação a materiais anteriores a dezembro de 2025.
 
-**8.** Qualquer parcela rotulada de indenizatória por ato administrativo está excluída do teto constitucional, ainda que não se enquadre na exigência de lei ordinária nacional do art. 37, § 11.
+**8.** Qualquer parcela rotulada de indenizatória por ato administrativo está excluída do teto constitucional, mesmo quando não existe base legal para o pagamento nem natureza efetivamente indenizatória.
 
-> **Gabarito: ERRADO.** A **EC nº 135/2024** alterou o **§ 11 do art. 37**, que exige lei ordinária nacional aprovada pelo Congresso e aplicável aos Poderes e órgãos autônomos. A denominação dada pelo órgão não basta, e o STF reforçou esse controle em 2026.
+> **Gabarito: ERRADO.** A **EC nº 135/2024** alterou o art. 37, § 11, e previu **transição no art. 3º**. São relevantes fundamento legal e natureza **realmente indenizatória**; a mera etiqueta administrativa não autoriza ultrapassar o teto. O STF reforçou essas restrições em 2026.
 
 **9.** A licença para atividade política prevista no art. 86 é integralmente remunerada desde a escolha do servidor como candidato em convenção partidária até a eleição.
 
@@ -315,14 +315,14 @@ As questões são **inéditas, para treino Cebraspe (C/E)**. Julgue pela Constit
 
 > **Gabarito: CERTO.** O **parágrafo único, II, do art. 117** afasta a vedação do inciso X para quem usufrui licença do **art. 91**, respeitadas as normas de conflito de interesses; a licença não elimina automaticamente todos os deveres funcionais.
 
-**Síntese de resolução:** antes de marcar C/E, confronte o **artigo e inciso** usados pelo item com a **data da redação**. Os maiores riscos neste tema são aplicar a acumulação antiga de professor + técnico/científico após a EC nº 138/2025, equiparar não incorporação de indenização a exclusão automática do teto e deslocar a sanção de um inciso do art. 117 para outro.
+**Síntese de resolução:** antes de marcar C/E, confronte o **artigo e inciso** usados pelo item com a **data da redação**. Os maiores riscos neste tema são aplicar a acumulação antiga de professor + técnico/científico após a EC nº 138/2025, equiparar não incorporação de indenização a exclusão automática do teto sem examinar a regra transitória e deslocar a sanção de um inciso do art. 117 para outro.
 
 ## Fontes normativas e jurisprudenciais
 
 - [Lei nº 8.112/1990, texto atualizado da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html): arts. 40 a 92, 116 a 119 e 128 a 132.
 - [Constituição da República, texto consolidado no Planalto](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm): art. 37, incisos XI, XVI e XVII e § 11.
-- [Emenda Constitucional nº 135/2024](https://www2.camara.leg.br/legin/fed/emecon/2024/emendaconstitucional-135-20-dezembro-2024-796825-norma-pl.html): nova redação do art. 37, § 11, sobre a exclusão de indenizações do teto.
+- [Emenda Constitucional nº 135/2024](https://www2.camara.leg.br/legin/fed/emecon/2024/emendaconstitucional-135-20-dezembro-2024-796776-norma-pl.html): nova redação do art. 37, § 11, e **regra transitória do art. 3º** sobre exclusão de indenizações do teto.
 - [Emenda Constitucional nº 138/2025, texto oficial do Senado](https://legis.senado.leg.br/norma/41853798/publicacao/41861303): substituiu “técnico ou científico” por **“de qualquer natureza”** no art. 37, XVI, b.
 - [STF, Tema 1081](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5819218&numeroProcesso=1246685&numeroTema=1081): compatibilidade de horários, sem limite fixo automático de sessenta horas.
-- [STF, Informativo 1210/2026](https://www.stf.jus.br/arquivo/informativo/documento/informativo1210.htm): teto constitucional, indenizações e EC nº 135/2024.
+- [STF, Informativo 1210/2026](https://www.stf.jus.br/arquivo/informativo/documento/informativo1210.htm) e [STF, decisão de julho de 2026](https://noticias.stf.jus.br/postsnoticias/stf-mantem-obrigatoriedade-de-respeito-ao-teto-remuneratorio-e-limitacao-sobre-o-pagamentos-de-verbas-indenizatorias): teto, indenizações e regras específicas de transição.
 - **STF, Súmula Vinculante nº 16:** salário mínimo aferido pela remuneração total; **Temas 377 e 384:** aplicação isolada do teto em acumulações constitucionalmente permitidas.

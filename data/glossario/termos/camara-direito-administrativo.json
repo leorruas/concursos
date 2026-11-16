@@ -535,6 +535,139 @@
       "contestIds": [
         "camara-2026"
       ]
+    },
+    {
+      "id": "glo-camara-da21-professor-acumulacao-ec138",
+      "term": "Acumulação de professor após a EC 138/2025",
+      "definition": "Desde dezembro de 2025, o art. 37, XVI, b, da Constituição permite acumular um cargo de professor com outro cargo de qualquer natureza, desde que haja compatibilidade de horários e cumprimento das demais exigências constitucionais.",
+      "contrast": "A redação antiga restringia a segunda posição a cargo técnico ou científico. Essa restrição deixou de integrar o texto constitucional em 2025.",
+      "cebraspeTrap": "Afirmar em prova de 2026 que o segundo cargo precisa ser técnico ou científico ou que a nova regra dispensa comprovar horários compatíveis.",
+      "example": "Professora pode acumular com cargo administrativo de outra natureza se os horários forem compatíveis e não houver outro obstáculo.",
+      "sources": [
+        {
+          "label": "Emenda Constitucional nº 138/2025, art. 1º",
+          "url": "https://legis.senado.leg.br/norma/41853798/publicacao/41861303"
+        },
+        {
+          "label": "Constituição, art. 37, XVI",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm"
+        }
+      ],
+      "articleIds": [
+        "art-2c1333aa75b06e9c"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "aliases": []
+    },
+    {
+      "id": "glo-camara-da21-teto-indenizacoes-ec135",
+      "term": "Teto remuneratório e indenizações após a EC 135/2024",
+      "definition": "O art. 37, § 11, da Constituição passou a prever exclusão do teto para indenizações expressas em lei ordinária nacional aprovada pelo Congresso. O art. 3º da EC 135/2024 estabeleceu regra de transição até a edição dessa lei; decisões do STF em 2026 combateram verbas sem base legal e disfarces remuneratórios.",
+      "contrast": "Uma indenização não se incorpora ao vencimento ou provento pelo art. 49, § 1º, da Lei nº 8.112. Isso não é o mesmo que sua exclusão constitucional do teto.",
+      "cebraspeTrap": "Confundir não incorporação de indenização com exclusão automática de todo pagamento denominado indenizatório, sem observar base legal e transição.",
+      "example": "Um órgão cria por ato interno um pagamento e o chama de ressarcimento para ultrapassar o teto; a denominação isolada não o torna constitucional.",
+      "sources": [
+        {
+          "label": "EC nº 135/2024, arts. 1º e 3º",
+          "url": "https://www2.camara.leg.br/legin/fed/emecon/2024/emendaconstitucional-135-20-dezembro-2024-796776-norma-pl.html"
+        },
+        {
+          "label": "STF, Informativo 1210/2026",
+          "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1210.htm"
+        }
+      ],
+      "articleIds": [
+        "art-2c1333aa75b06e9c"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "aliases": []
+    },
+    {
+      "id": "glo-camara-da21-licencas-remuneracao",
+      "term": "Licenças remuneradas e não remuneradas na Lei 8.112",
+      "definition": "Licenças do art. 81 têm regras próprias. Doença em pessoa da família pode ter até 60 dias remunerados e 90 sem por período de 12 meses (art. 83). Atividade política é sem remuneração antes do registro e com vencimentos do cargo efetivo por até três meses após registro (art. 86).",
+      "contrast": "A licença para interesses particulares (art. 91) é sem remuneração e vedada durante estágio probatório. Capacitação (art. 87) tem até três meses remunerados após cada quinquênio, conforme interesse da Administração.",
+      "cebraspeTrap": "Dizer que licença política é integralmente remunerada, que todas as licenças do art. 81 são iguais ou que licença para própria saúde integra os incisos do art. 81.",
+      "example": "Candidato escolhido em convenção não recebe nessa primeira fase; após o registro pode ter vencimentos até o limite legal.",
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 81, 83, 86, 87 e 91",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "articleIds": [
+        "art-2c1333aa75b06e9c"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "aliases": []
+    },
+    {
+      "id": "glo-camara-da21-penalidades-art117",
+      "term": "Proibições do art. 117 e sanções da Lei nº 8.112",
+      "definition": "O art. 129 prevê advertência escrita para violações dos incisos I a VIII e XIX, quando não couber sanção mais grave. O art. 132, XIII, vincula demissão às infrações dos incisos IX a XVI. Para XVII e XVIII, em regra cabe suspensão pelo art. 130, observados fatos e gravidade.",
+      "contrast": "Nem toda proibição do art. 117 é causa direta de demissão. Reincidência em falta advertível pode levar à suspensão; a imposição de pena exige apuração, fundamento legal e garantias de defesa.",
+      "cebraspeTrap": "Colocar o inciso XVIII na lista de demissão automática do art. 132, XIII, ou tratar o inciso XIV, usura, apenas como advertência.",
+      "example": "Usar recursos da repartição em atividade particular enquadra-se no inciso XVI; exercer atividade incompatível com horário no XVIII demanda outro enquadramento disciplinar.",
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 117 e 128 a 132",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "articleIds": [
+        "art-2c1333aa75b06e9c"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "aliases": []
+    },
+    {
+      "id": "glo-camara-da21-vencimento-remuneracao",
+      "term": "Vencimento, remuneração e indenizações no RJU",
+      "definition": "Vencimento é a retribuição legal do cargo (art. 40); remuneração é o vencimento do cargo efetivo mais vantagens permanentes previstas em lei (art. 41). Indenizações compensam despesas e não se incorporam ao vencimento ou provento (art. 49, § 1º).",
+      "contrast": "A garantia de salário mínimo recai sobre a remuneração total (Súmula Vinculante nº 16); diárias não são vencimento básico, nem gratificação se incorpora sem previsão legal.",
+      "cebraspeTrap": "Tratar vencimento singular, remuneração e verba indenizatória como conceitos idênticos.",
+      "example": "Vencimento básico + gratificação permanente legal compõe remuneração; diária por viagem é verba compensatória separada.",
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 40, 41 e 49",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "articleIds": [
+        "art-2c1333aa75b06e9c"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "aliases": []
     }
   ]
 }

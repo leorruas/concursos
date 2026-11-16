@@ -558,6 +558,14 @@ Quando uma operação só estiver correta se vários arquivos permanecerem sincr
 - Pelo conector GitHub, preferir um único `create_tree` → `create_commit` → `update_ref` para a operação lógica inteira.
 - Se a ferramenta disponível não permitir atomicidade, declarar essa limitação e concluir todas as superfícies dependentes antes de tratar a operação como encerrada; não iniciar trabalho não relacionado no intervalo.
 
+## Alterações diretas de documentação de baixo risco (decisão de 16/11/2026)
+
+**Regra de eficiência, autorizada pelo usuário:** ajustes pequenos e localizados de documentação ou governança textual, como este `AGENTS.md`, instruções, prompts e protocolos em `1 - Planejamento/`, podem ser **gravados diretamente na `main` em um commit**, sem abrir PR, quando não houver regra de proteção que impeça a escrita e quando a mudança não exigir sincronizar conteúdos ou dados de outras superfícies. Verificar a versão atual e o SHA antes de editar, preservar o restante do arquivo, conferir o diff e validar os vínculos quando aplicável. Confirmar o commit na `main` e comunicar o resultado na mesma conversa. Nunca abrir PR apenas para registrar uma orientação já aprovada se a edição direta for tecnicamente permitida.
+
+**Manter PR e checks para mudanças de maior risco**: alterações em código, scripts, lógica de publicação, renderizador, interfaces, Markdown de estudo sujeito a contratos e validação jurídica, metadados e catálogo estruturado, glossário/flashcards, dados, mudanças multi-arquivo com invariantes, alterações que possam quebrar links/deploy ou disputas com agentes paralelos. A proteção de branch e os validadores são requisitos técnicos que não devem ser contornados. O usuário pode pedir simplificação adicional desse fluxo; avaliar por tipo de mudança e risco, em vez de impor PR indiscriminadamente.
+
+**Conclusão direta:** se não for possível editar a `main` devido a proteção, permissão, conflito, ou a operação exigir validação por PR, informar objetivamente a causa e só então usar branch/PR. Não criar uma sequência de PRs desnecessários para pequenas regras textuais.
+
 ## Correções pequenas: validar, integrar e conferir publicação no mesmo atendimento (14/11/2026)
 
 Para correções pontuais de sintaxe, Mermaid, links, ortografia ou erros de apresentação em conteúdo público, o objetivo do atendimento é a alteração **efetivamente disponível no site**, não apenas uma branch ou PR criada.

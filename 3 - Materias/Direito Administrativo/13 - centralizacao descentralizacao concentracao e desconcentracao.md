@@ -22,7 +22,7 @@ A **teoria do órgão**, associada à doutrina de Otto Gierke, explica por que a
 
 ---
 
-## As Quatro Técnicas Fundamentais de Organização Administrativa
+## 1. As Quatro Técnicas Fundamentais de Organização Administrativa
 
 O quadro sinóptico a seguir resume a matriz classificatória de competências:
 
@@ -59,7 +59,7 @@ graph TD
 
 ---
 
-## Modalidades de Descentralização: Outorga vs. Delegação
+## 2. Modalidades de Descentralização: Outorga vs. Delegação
 
 O Cebraspe exige a distinção rigorosa entre as modalidades de descentralização administrativa:
 
@@ -77,7 +77,7 @@ O Cebraspe exige a distinção rigorosa entre as modalidades de descentralizaç�
 
 ---
 
-## Teoria do Órgão e Classificação dos Órgãos Públicos
+## 3. Teoria do Órgão e Classificação dos Órgãos Públicos
 
 Os órgãos públicos não possuem vontade própria nem personalidade jurídica autônoma. Para explicar como a manifestação do agente público vincula o Estado, a doutrina brasileira consagra a **Teoria do Órgão (Teoria da Imputação Volitiva)**, desenvolvida por Otto Gierke:
 

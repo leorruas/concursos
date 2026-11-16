@@ -11305,6 +11305,150 @@
         "prompt": "A condenação por improbidade tipificada somente no art. 11 impõe perda da função e suspensão de direitos políticos?",
         "answer": "Não. O art. 12, III, prevê multa civil e proibição de contratar/receber benefícios, observadas as condições legais."
       }
+    },
+    {
+      "id": "camara-da20-posse-exercicio",
+      "term": "Nomeação, posse e exercício: prazos e efeitos",
+      "definition": "A nomeação publica o provimento; a posse em até 30 dias realiza a investidura; o exercício começa em até 15 dias da posse. Sem posse, nomeação sem efeito; sem exercício após posse, exoneração de ofício.",
+      "example": "Uma pessoa toma posse no 20º dia após nomeação e começa no 10º dia seguinte: respeita os dois prazos.",
+      "confusion": "30 dias não são para exercício; 15 dias não são para posse.",
+      "note": {
+        "articleId": "art-d982b608fc646e5a",
+        "section": "2.1 Análise detalhada das etapas e consequências"
+      },
+      "conceptIds": [
+        "glo-camara-da20-posse-exercicio"
+      ],
+      "contrast": {
+        "prompt": "O nomeado não tomou posse. A consequência é exoneração de ofício?",
+        "answer": "Não. O ato de nomeação é tornado sem efeito; exoneração de ofício ocorre se, após posse, não iniciar exercício."
+      },
+      "topic": "Lei nº 8.112/1990: provimento, posse, exercício e vacância",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Provimento, posse e vacância"
+      ],
+      "source": {
+        "title": "Lei nº 8.112/1990, texto atualizado da Câmara",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Arts. 7º a 15, 20, 25, 28 a 30; Constituição art. 41"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da20-reconducao-reintegracao",
+      "term": "Recondução com cargo ocupado × reintegração",
+      "definition": "Recondução (art. 29) retorna servidor estável ao cargo anterior. Se o cargo estiver provido, aplica-se o parágrafo único: aproveitamento em outro cargo. Reintegração (art. 28) retorna servidor estável após anulação da demissão, com regramento próprio para o ocupante eventual.",
+      "example": "Servidora estável reprovada no novo estágio não expulsa automaticamente o ocupante de sua vaga anterior; deve ser aproveitada em cargo compatível.",
+      "confusion": "A solução do art. 28, § 2º, para o ocupante deslocado pela reintegração não é a mesma do art. 29, parágrafo único.",
+      "note": {
+        "articleId": "art-d982b608fc646e5a",
+        "section": "5. Institutos protetivos e de garantia funcional: reintegração, recondução, reversão e disponibilidade"
+      },
+      "conceptIds": [
+        "glo-camara-da20-reconducao-reintegracao"
+      ],
+      "contrast": {
+        "prompt": "Servidor estável volta ao cargo antigo por reprovação em novo probatório, mas a origem está ocupada. O ocupante deverá ser automaticamente reconduzido?",
+        "answer": "Não. Pelo art. 29, parágrafo único, o servidor que retorna será aproveitado em outro cargo, conforme a lei."
+      },
+      "topic": "Lei nº 8.112/1990: provimento, posse, exercício e vacância",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Provimento, posse e vacância"
+      ],
+      "source": {
+        "title": "Lei nº 8.112/1990, texto atualizado da Câmara",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Arts. 7º a 15, 20, 25, 28 a 30; Constituição art. 41"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da20-estagio-estabilidade",
+      "term": "Três anos do probatório e avaliação de estabilidade",
+      "definition": "A interpretação constitucional aplica três anos de efetivo exercício ao estágio probatório de cargo efetivo federal, apesar da redação antiga de 24 meses no art. 20 da Lei nº 8.112. A estabilidade também exige avaliação especial de desempenho por comissão.",
+      "example": "No 36º mês, o mero tempo decorrido não substitui a avaliação especial exigida pelo art. 41, § 4º, da Constituição.",
+      "confusion": "Estágio probatório verifica aptidão para o novo cargo; estabilidade é proteção constitucional, exigindo tempo e avaliação.",
+      "note": {
+        "articleId": "art-d982b608fc646e5a",
+        "section": "3.1 Duração do estágio probatório: a harmonização da Lei nº 8.112/1990 com a CF/1988"
+      },
+      "conceptIds": [
+        "glo-camara-da20-probatorio-estabilidade"
+      ],
+      "contrast": {
+        "prompt": "Os 24 meses literais do art. 20 bastam para o probatório e a estabilidade?",
+        "answer": "Não. A interpretação constitucional exige três anos; a estabilidade requer ainda avaliação especial."
+      },
+      "topic": "Lei nº 8.112/1990: provimento, posse, exercício e vacância",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Provimento, posse e vacância"
+      ],
+      "source": {
+        "title": "Lei nº 8.112/1990, texto atualizado da Câmara",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Arts. 7º a 15, 20, 25, 28 a 30; Constituição art. 41"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da20-reversao-diferencas",
+      "term": "Reversão: incapacidade cessada ou interesse administrativo",
+      "definition": "A reversão por cessação de incapacidade é determinada por junta médica e pode ocorrer como excedente se não houver vaga. A reversão no interesse da Administração requer solicitação, aposentadoria voluntária, estabilidade anterior, até cinco anos da aposentadoria e cargo vago.",
+      "example": "O aposentado por incapacidade recupera aptidão e volta como excedente. Já o aposentado voluntário não volta pelo interesse da Administração sem vaga.",
+      "confusion": "Apenas a hipótese médica pode funcionar como excedente diante de cargo ocupado; a outra requer cargo vago.",
+      "note": {
+        "articleId": "art-d982b608fc646e5a",
+        "section": "5. Institutos protetivos e de garantia funcional: reintegração, recondução, reversão e disponibilidade"
+      },
+      "conceptIds": [
+        "glo-camara-da20-reversao-aposentadoria"
+      ],
+      "contrast": {
+        "prompt": "Na reversão a pedido, o retorno pode ocorrer mesmo sem cargo vago?",
+        "answer": "Não. O art. 25, II, exige cargo vago, além dos demais requisitos."
+      },
+      "topic": "Lei nº 8.112/1990: provimento, posse, exercício e vacância",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Provimento, posse e vacância"
+      ],
+      "source": {
+        "title": "Lei nº 8.112/1990, texto atualizado da Câmara",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Arts. 7º a 15, 20, 25, 28 a 30; Constituição art. 41"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
     }
   ]
 }

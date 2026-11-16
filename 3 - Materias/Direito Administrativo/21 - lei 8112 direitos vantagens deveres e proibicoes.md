@@ -127,94 +127,131 @@ Pelo **art. 49, § 2º**, essas vantagens **só se incorporam ao vencimento ou p
 
 ## 3. Direitos: férias e licenças
 
+A Lei nº 8.112/1990 protege períodos de descanso, saúde e afastamento justificado. **Férias** e **licenças** possuem pressupostos distintos. Nem toda licença é remunerada e nem toda licença conta como efetivo exercício para qualquer finalidade.
+
 ### 3.1 Regime de férias (arts. 77 a 80)
 
-- O servidor fará jus anualmente a **30 (trinta) dias de férias**, que podem ser acumuladas até o máximo de dois períodos no caso de comprovada necessidade do serviço;
-- Para o primeiro período aquisitivo de férias serão exigidos **12 (doze) meses de efetivo exercício**;
-- É facultado o parcelamento das férias em **até 3 (três) etapas**, desde que assim requerido pelo servidor e no interesse da administração pública;
-- Os servidores que operam direta e permanentemente com raios X ou substâncias radioativas gozarão **obrigatoriamente 20 (vinte) dias consecutivos de férias por semestre**, sendo terminantemente vedada a acumulação (art. 79).
+O servidor tem direito, como regra, a **30 dias por ano**, podendo acumular **até dois períodos** em caso de necessidade do serviço (art. 77). O primeiro período aquisitivo exige **12 meses de exercício**. As férias podem ser divididas em **até três etapas**, a pedido do servidor e conforme interesse da Administração.
+
+A lei assegura adicional de **um terço**, pago nos termos dos arts. 76 e 78, § 5º. O restante das férias interrompidas é gozado **de uma só vez**. O art. 80 permite interrupção apenas em hipóteses legais, como calamidade pública, convocação para júri, serviço militar/eleitoral ou **necessidade de serviço declarada pela autoridade máxima**.
+
+**Exceção de risco ocupacional (art. 79):** quem opera **direta e permanentemente com raios X ou substâncias radioativas** tem **20 dias consecutivos por semestre**, sem possibilidade de acumulação. Esse regime não se soma automaticamente ao de trinta dias anuais.
+
+**Exemplo:** uma unidade enfrenta demanda extraordinária e quer adiar férias de servidor. Necessidade de serviço pode justificar a programação e, em hipóteses legais, a acumulação de períodos; a **interrupção de férias já iniciadas** exige fundamento específico e, na hipótese de necessidade do serviço, declaração da autoridade máxima.
 
 ### 3.2 Rol das licenças da Lei nº 8.112/1990 (arts. 81 a 92)
 
+O **art. 81** enumera sete modalidades de licença. É incorreto classificá-las simplesmente como “sempre remuneradas” ou “sempre sem remuneração”, pois algumas **mudam conforme a fase ou o tempo**. A licença para tratamento da **própria saúde**, prevista nos **arts. 202 e seguintes**, é matéria relacionada, mas **não integra os sete incisos do art. 81**.
+
 ```mermaid
 flowchart TD
-    classDef raiz fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#000000;
-    classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#000000;
-    classDef opcao fill:#fff8e7,stroke:#d4a373,stroke-width:1.5px,color:#000000;
+    classDef raiz fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#111111;
+    classDef criterio fill:#fff2d9,stroke:#b45309,stroke-width:1.5px,color:#3d2207;
+    classDef opcao fill:#fffbeb,stroke:#b68d58,stroke-width:1.5px,color:#1c1917;
 
-    LIC["Licenças do Servidor<br>(Art. 81)"]:::raiz
-    
-    LIC --> REM["Licenças Remuneradas"]:::criterio
-    LIC --> SREM["Licenças Não Remuneradas"]:::criterio
-    
-    REM --> L1["Tratamento da Própria Saúde (Art. 202)"]:::opcao
-    REM --> L2["Motivo de Doença em Pessoa da Família<br>(Remunerada até 60 dias; +90 dias sem remuneração)"]:::opcao
-    REM --> L3["Capacitação Profissional<br>(Até 3 meses após cada quinquênio - Art. 87)"]:::opcao
-    REM --> L4["Serviço Militar Obrigatório (Art. 85)"]:::opcao
-    REM --> L5["Atividade Política<br>(Remunerada nos 3 meses anteriores ao pleito)"]:::opcao
-    
-    SREM --> S1["Acompanhar Cônjuge ou Companheiro<br>(Prazo indeterminado - Art. 84)"]:::opcao
-    SREM --> S2["Tratar de Interesses Particulares<br>(Até 3 anos consecutivos; veda estágio probatório - Art. 91)"]:::opcao
-    SREM --> S3["Desempenho de Mandato Classista<br>(Sem remuneração pelo poder público - Art. 92)"]:::opcao
+    L["Licenças do art. 81: sete hipóteses"]:::raiz
+    L --> A["Remuneração varia por prazo ou hipótese"]:::criterio
+    L --> B["Regra sem remuneração"]:::criterio
+    L --> C["Requisitos legais próprios"]:::criterio
+    A --> A1["Doença na família: 60 dias com remuneração; até 90 sem"]:::opcao
+    A --> A2["Atividade política: período inicial sem; depois até 3 meses com"]:::opcao
+    B --> B1["Afastamento de cônjuge: licença indeterminada, sem"]:::opcao
+    B --> B2["Interesses particulares e mandato classista"]:::opcao
+    C --> C1["Serviço militar: disciplina específica"]:::opcao
+    C --> C2["Capacitação: quinquênio, até três meses remunerados"]:::opcao
 ```
 
-Pontos de alta incidência nas provas Cebraspe:
-- **Licença por motivo de doença em pessoa da família (art. 83):** cônjuge ou companheiro, pais, filhos, padrasto/madrasta, enteado ou dependente que viva a expensas do servidor. Exige perícia oficial. Pode ser concedida com remuneração por até 60 dias (consecutivos ou não) e, excedendo esse prazo, por até mais 90 dias **sem remuneração** dentro do período de 12 meses.
-- **Licença para tratar de interesses particulares (art. 91):** ato discricionário da Administração; prazo de até 3 anos consecutivos; sem remuneração; **vedada a servidores que não tenham cumprido o estágio probatório**.
+**Doença em pessoa da família (art. 83):** exige **perícia oficial**, necessidade de assistência direta indispensável e impossibilidade de prestá-la com exercício do cargo ou compensação de horário. Abrange familiares e dependentes previstos na lei. Em cada período de **12 meses**, até **60 dias com remuneração** e até **90 dias adicionais sem remuneração**. É proibido exercer atividade remunerada durante essa licença (art. 81, § 3º). **Não** confundir com afastamento para cuidar da própria saúde.
+
+**Afastamento de cônjuge ou companheiro (art. 84):** pode ser concedido por prazo indeterminado, **sem remuneração**, para acompanhar cônjuge deslocado. O § 2º permite, em certas situações, **exercício provisório em órgão federal** para atividades compatíveis com o cargo, com requisitos distintos da licença sem exercício.
+
+**Serviço militar (art. 85):** licença conforme a **legislação específica**. Depois de concluído o serviço militar, há até **30 dias sem remuneração** para reassumir. Por isso, não se deve pôr toda essa hipótese na categoria “remunerada” sem consultar a disciplina específica.
+
+**Atividade política (art. 86):** da escolha em **convenção partidária** até a **véspera do registro da candidatura**, é **sem remuneração**. A partir do **registro** e até o **décimo dia após a eleição**, a lei assegura os vencimentos do cargo efetivo **somente por três meses**. Há regra particular de afastamento de funções de direção, chefia, assessoramento, arrecadação e fiscalização na localidade da candidatura.
+
+**Capacitação (art. 87):** após **cada cinco anos de efetivo exercício**, pode haver **até três meses de licença remunerada**, no **interesse da Administração**, para curso de capacitação. Não é direito de afastar-se automaticamente nem acumular quinquênios não usados.
+
+**Interesses particulares (art. 91):** a critério da Administração, **até três anos consecutivos, sem remuneração**, para ocupante de cargo efetivo **que não esteja em estágio probatório**. Pode ser interrompida a pedido ou no interesse do serviço.
+
+**Mandato classista (art. 92):** licença, **sem remuneração**, para mandato nas entidades e condições expressamente previstas na lei, conforme limites de quantidade de servidores e duração do mandato.
+
+**Como resolver a questão:** sempre perguntar *qual licença, em que fase, por quanto tempo, com qual remuneração, e quais requisitos*. A palavra isolada “licença” não permite responder sobre pagamento.
+
 
 ---
 
 ## 4. Deveres funcionais e vedações disciplinares
 
-Os deveres e proibições estruturam o código ético-funcional do servidor civil federal nos arts. 116 e 117 da Lei nº 8.112/1990.
+Os **deveres (art. 116)** descrevem condutas que a Administração espera do servidor; as **proibições (art. 117)** identificam comportamentos vedados. A sanção depende do enquadramento e dos **arts. 128 a 132**. Não se pode atribuir uma penalidade única a todas as condutas do artigo 117.
 
 ### 4.1 Deveres do servidor público (art. 116)
 
-São 12 deveres expressos, dentre os quais destacam-se para fins de controle e prova:
-- Exercer com zelo e dedicação as atribuições do cargo;
-- Ser leal às instituições a que servir;
-- Cumprir as ordens superiores, **exceto quando manifestamente ilegais** (art. 116, IV - dever de desobediência a ordens ilegais);
-- Atender com presteza ao público, às requisições da defesa judicial do Estado e à expedição de certidões (art. 116, V);
-- Levar as irregularidades de que tiver ciência em razão do cargo ao conhecimento da autoridade superior ou, quando houver suspeita de envolvimento desta, a outra autoridade competente para apuração (art. 116, VI e parágrafo único);
-- Tratar com urbanidade as pessoas;
-- Manter conduta compatível com a moralidade administrativa;
-- Guardar sigilo sobre assunto da repartição.
+O art. 116 contém **doze incisos**. Os pontos que mais se confundem são:
+
+- **Legalidade e obediência:** observar normas e cumprir ordens superiores, **exceto as manifestamente ilegais** (incisos III e IV). “Manifestamente” significa ilegalidade evidente; não é autorização para descumprir qualquer ordem de que o servidor discorde.
+- **Serviço ao público:** atender com presteza e fornecer informações solicitadas, **respeitados os sigilos legais**; expedir certidões para defesa de direito; atender requisições para a defesa da Fazenda Pública (V).
+- **Comunicar irregularidades:** levar à autoridade competente a irregularidade conhecida em razão do cargo; se houver suspeita de envolvimento da chefia, comunicar a **outra autoridade competente para apuração** (VI).
+- **Representar contra ilegalidade, omissão ou abuso:** o inciso XII e seu parágrafo único disciplinam encaminhamento hierárquico e direito de defesa da pessoa representada. Essa regra convive com o canal alternativo do inciso VI quando a própria chefia for suspeita.
+- **Zelo, lealdade institucional, economia de material, guarda do sigilo, moralidade, pontualidade e urbanidade:** são obrigações jurídicas, não sugestões de estilo de trabalho.
+
+**Exemplo de comunicação institucional:** quem publica conteúdo em nome de um órgão deve obedecer às normas, preservar dados pessoais e sigilo legal e separar comunicação pública de promoção pessoal indevida. Obedecer a ordem **manifestamente ilegal** de divulgar informação sigilosa não é dever funcional.
 
 ### 4.2 Proibições ao servidor público (art. 117)
 
-O art. 117 traz um rol minucioso de 19 proibições. As infrações a essas vedações graduam-se em penalidades que vão desde a advertência até a demissão:
+Para acertar a correspondência entre conduta e sanção, observe **três grupos legais**, sem esquecer gravidade, reincidência e apuração regular:
 
-| Dispositivo Legal | Conduta Vedada | Sanção Aplicável |
-| :--- | :--- | :--- |
-| **Art. 117, I a VIII e XIX** | Ausentar-se sem autorização; retirar documento sem anuência; recusar fé a documentos públicos; opor resistência injustificada; promover manifestação de apreço/desapreço; delegar competência estranha a subordinado; coagir subordinados para filiação partidária; recusar-se a atualizar dados cadastrais. | **Advertência** (art. 129) ou **Suspensão** em caso de reincidência. |
-| **Art. 117, IX** | Valer-se do cargo para lograr proveito pessoal ou de outrem, em detrimento da dignidade da função pública. | **Demissão** (art. 132, XIII). |
-| **Art. 117, X** | Participar de gerência ou administração de sociedade privada, personificada ou não, exercer o comércio, exceto na qualidade de **acionista, cotista ou comanditário**. | **Demissão** (art. 132, XIII). *Ressalva:* Lei nº 11.784/2008 autoriza a participação nos conselhos de administração/fiscal de empresas em que a União detenha participação. |
-| **Art. 117, XI** | Atuar, como procurador ou intermediário, junto a repartições públicas, salvo quando se tratar de benefícios previdenciários ou assistenciais de **parentes até o segundo grau, e de cônjuge ou companheiro**. | **Demissão** (art. 132, XIII). |
-| **Art. 117, XII** | Receber propina, comissão, presente ou vantagem de qualquer espécie, em razão de suas atribuições. | **Demissão** (art. 132, XIII). |
-| **Art. 117, XIII** | Aceitar comissão, emprego ou pensão de estado estrangeiro sem autorização. | **Demissão** (art. 132, XIII). |
-| **Art. 117, XIV a XVIII** | Praticar usura; proceder de forma desidiosa; cometer a pessoa estranha encargos do cargo; exercer atividades incompatíveis com o cargo e com o horário de trabalho. | **Demissão** (usura, desídia) ou **Suspensão** (conforme a gravidade). |
+| Grupo do art. 117 | Exemplo de conduta | Regra principal de sanção |
+| --- | --- | --- |
+| **I a VIII e XIX** | Faltar ao expediente sem autorização; retirar documento; recusar fé; coagir subordinados; não atualizar cadastro | **Advertência por escrito** pelo art. 129 se não justificar pena mais grave; reincidência pode levar à suspensão (art. 130) |
+| **IX a XVI** | Usar cargo para proveito indevido; gerenciar empresa em situação vedada; intermediar interesse privado na repartição; receber propina; desídia; usar recursos públicos para negócio particular | **Demissão**, nos termos do art. 132, XIII, após apuração e enquadramento |
+| **XVII e XVIII** | Atribuir função estranha ao cargo de outro servidor fora de emergência transitória; exercer atividade incompatível com cargo/horário | **Suspensão**, conforme art. 130, se não houver outra infração mais grave |
+
+**Cuidado com a literalidade:**
+
+- **Art. 117, VIII:** proíbe manter sob **chefia imediata**, em cargo ou função de confiança, cônjuge, companheiro ou parente até segundo grau. A questão pode incluir “qualquer parentesco em toda repartição”, ampliando indevidamente o enunciado específico. Outras regras sobre nepotismo podem ser aplicáveis, mas são normas distintas.
+- **Art. 117, X:** veda gerência/administrar sociedade privada ou exercer comércio, ressalvadas as condições de participação como **acionista, cotista ou comanditário**, além das exceções do **parágrafo único** (conselhos legalmente previstos e **licença para interesses particulares**, com regras de conflito de interesses).
+- **Art. 117, XI:** só admite procurador/intermediário perante repartições para **benefícios previdenciários ou assistenciais** de parentes até segundo grau, cônjuge ou companheiro. A ressalva não libera atuar como procurador privado em qualquer tema.
+- **Art. 117, XIII:** o texto legal proíbe aceitar comissão, emprego ou pensão de Estado estrangeiro. Afirmar que o inciso contém ressalva geral de autorização administrativa altera sua redação.
+
+**Diferença de processo:** infrações são apuradas com contraditório e ampla defesa; o art. 128 determina considerar natureza/gravid​ade, danos, circunstâncias e antecedentes. **Nem toda violação do art. 117 causa demissão**, e “suspensão” não deve ser confundida com afastamento cautelar do processo disciplinar.
+
+Para detalhes de tipos de falta, rito e autoridades competentes, ver [[3 - Materias/Direito Administrativo/22 - lei 8112 responsabilidades e penalidades disciplinares|Responsabilidades e penalidades disciplinares]] e [[3 - Materias/Direito Administrativo/24 - sindicancia processo administrativo disciplinar e seus ritos|Sindicância e PAD]].
+
 
 ---
 
 ## 5. Acumulação remunerada de cargos públicos
 
-A regra geral do art. 37, XVI, da Constituição Federal e do art. 118 da Lei nº 8.112/1990 é a **vedação à acumulação remunerada** de cargos, empregos e funções públicas na Administração direta, autárquica, fundacional, empresas públicas e sociedades de economia mista da União, dos Estados, do DF e dos Municípios.
+A regra da **Constituição Federal, art. 37, XVI e XVII**, e do **art. 118 da Lei nº 8.112/1990** é a proibição de acumular remuneradamente cargos, empregos e funções públicas, salvo exceções constitucionais e compatibilidade de horários. A regra se estende à Administração indireta e a empregos em empresas estatais, conforme a Constituição.
 
 ### 5.1 As exceções constitucionais taxativas (art. 37, XVI, CF/1988)
 
-A acumulação de dois cargos públicos só é lícita quando houver **compatibilidade de horários** comprovada e recair estritamente sobre:
-1. **Dois cargos de professor;**
-2. **Um cargo de professor com outro técnico ou científico** (cargo técnico é aquele que exige habilitação profissional específica de nível médio ou superior, não se enquadrando funções meramente burocráticas ou rotineiras de nível fundamental);
-3. **Dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas.**
+**A redação de 2026 é essencial.** A **Emenda Constitucional nº 138, promulgada em 19/12/2025 e publicada em 22/12/2025**, alterou a alínea **b**, que deixou de exigir cargo técnico ou científico ao lado do cargo de professor. Atualmente as três hipóteses são:
+
+- **a) Dois cargos de professor.**
+- **b) Um cargo de professor com outro de qualquer natureza.**
+- **c) Dois cargos ou empregos privativos de profissionais de saúde, com profissões regulamentadas.**
+
+**Exemplo:** uma professora concursada também é aprovada para cargo administrativo de atribuições gerais. Pela redação anterior da Constituição, seria preciso examinar se o segundo cargo era técnico ou científico; pela **redação vigente desde dezembro de 2025**, a alínea b autoriza a acumulação do cargo de professor com **outro de qualquer natureza**, desde que os horários sejam compatíveis e se respeitem os limites constitucionais.
+
+**Não confundir a permissão constitucional com dispensa de deveres.** A ocupação dos dois cargos exige efetivo cumprimento de ambas as jornadas, sem sobreposição indevida, além de observar normas de acumulação e teto aplicáveis. A mudança constitucional **não** libera dois cargos administrativos sem vínculo com magistério.
 
 ### 5.2 Limite semanal de jornada e a tese vinculante do STF
 
-Por muitos anos a AGU e o TCU aplicaram o limite fixo de 60 horas semanais como barreira absoluta à acumulação, sob o argumento de que jornadas superiores comprometeriam a higidez física e a eficiência do servidor.
+O **Tema 1081 do STF** afastou a ideia de limite universal e automático de **60 horas por semana** para os casos em que a Constituição permite acumulação. A compatibilidade deve ser verificada **no caso concreto**, e a existência de norma administrativa com máximo semanal não serve, isoladamente, para negar situação constitucionalmente permitida.
 
-> **Tema 1081 da Repercussão Geral do STF:**  
-> *"Assegurada a compatibilidade de horários e a ausência de prejuízo às atividades exercidas, é legítima a acumulação remunerada de cargos públicos, ainda que a soma das jornadas de trabalho supere o limite de 60 horas semanais."*
+**O que é compatibilidade real?** Horários que permitam cumprir as duas jornadas e funções sem sobreposição, com condições de deslocamento e trabalho efetivo. O STF não reconheceu direito de exigir que um órgão **altere unilateralmente sua escala** para tornar possível um acúmulo que era incompatível; esse ponto também foi reafirmado em julgados posteriores.
 
-O Cebraspe exige o conhecimento pacificado do STF: **não existe limite apriorístico de 60 horas semanais** para impedir a acumulação legítima, cabendo à Administração apurar no caso concreto se há efetiva compatibilidade de horários e regularidade no cumprimento de cada jornada de trabalho.
+**Teto sobre os vínculos:** nos Temas **377 e 384**, o STF determina a análise isolada do teto nas situações de acumulação **constitucionalmente legítima**. Não se usa a regra do teto para justificar acúmulo proibido.
+
+**Duas armadilhas para prova:**
+
+“Professor só pode acumular com outro cargo técnico ou científico.” **Errado para o texto constitucional vigente em 2026** pela EC nº 138/2025.
+
+“Acumular dois cargos constitucionais é sempre ilegal se somar 70 horas semanais.” **Errado:** Tema 1081 exige **compatibilidade concreta**, sem limite fixo automático de 60 horas.
+
+Fontes: [EC nº 138/2025, texto oficial do Senado](https://legis.senado.leg.br/norma/41853798/publicacao/41861303) e [STF, Tema 1081](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5819218&numeroProcesso=1246685&numeroTema=1081).
+
 
 ---
 

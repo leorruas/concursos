@@ -44,7 +44,7 @@ A **anulação** é a extinção forçada de um ato administrativo em decorrênc
   1. Pela **própria Administração Pública** (exercício direto da autotutela, de ofício ou mediante provocação);
   2. Pelo **Poder Judiciário**, quando formalmente provocado mediante ação judicial própria (mandado de segurança, ação civil pública, ação popular, etc.). O Judiciário **nunca anula de ofício** ato administrativo de outro Poder.
 
-### Efeitos temporais: eficácia retroativa (*ex tunc*)
+### Efeitos da anulação: eficácia retroativa (*ex tunc*)
 A declaração de nulidade atinge o ato desde a sua origem fática, operando efeitos retroativos (**efeito *ex tunc***):
 - **Regra:** a anulação procura desfazer os efeitos jurídicos desde a origem (*ex tunc*). A expressão não autoriza apagar automaticamente toda consequência já produzida, sobretudo quando há terceiros de boa-fé e situações consolidadas protegidas pelo Direito.
 - **Ressalva à retroatividade (proteção de terceiros de boa-fé):** em reverência aos princípios da boa-fé, da confiança legítima e da segurança jurídica, a jurisprudência consolidada do STF e do STJ preserva os efeitos práticos produzidos pelo ato nulo em favor de terceiros que tenham atuado imbuídos de boa-fé (ex.: atos praticados por funcionário de fato ou vencimentos percebidos de boa-fé por servidor nomeado com base em critério posteriormente invalidado).
@@ -97,7 +97,7 @@ O art. 55 da Lei nº 9.784/1999 positiva os pressupostos cumulativos:
   3. Ausência de **prejuízo a terceiros**;
   4. A autoridade deve verificar o regime, o estágio do procedimento e os direitos envolvidos. **O art. 55 não estabelece, textualmente, vedação universal à convalidação de todo ato já impugnado**; a impugnação pode ser juridicamente relevante conforme o vício e o caso.
 
-### Efeitos temporais: eficácia retroativa (*ex tunc*)
+### Efeitos da convalidação: eficácia retroativa (*ex tunc*)
 A convalidação, em regra, **retroage à edição do ato defeituoso (*ex tunc*)**, aproveitando os efeitos juridicamente admissíveis. Essa retroação não dispensa os requisitos do art. 55: defeito sanável e ausência de lesão ao interesse público ou prejuízo a terceiros.
 
 ```mermaid

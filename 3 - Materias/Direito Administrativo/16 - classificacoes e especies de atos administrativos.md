@@ -33,9 +33,9 @@ flowchart TD
     A --> E["Enunciativos<br/>(Certidões, atestados, pareceres, relatórios)"]:::especie
     A --> F["Punitivos<br/>(Multas, interdições, advertências, demissões)"]:::especie
 
-    B --> B1["Comandos gerais e abstratos secundários"]:::detalhe
+    B --> B1["Normas gerais administrativas<br/>nos limites da Constituição e da lei"]:::detalhe
     C --> C1["Efeitos internos e poder hierárquico"]:::detalhe
-    D --> D1["Coincidência entre interesse público e privado"]:::detalhe
+    D --> D1["Consentimento administrativo<br/>segundo o regime jurídico aplicável"]:::detalhe
     E --> E1["Atestação fática ou juízo técnico sem comando"]:::detalhe
     F --> F1["Sanções a servidores ou particulares sob fiscalização"]:::detalhe
 ```
@@ -47,8 +47,8 @@ flowchart TD
 Antes de examinar as espécies substantivas, é imprescindível dominar os critérios estruturais frequentemente exigidos pelo Cebraspe:
 
 ### Quanto ao grau de liberdade da autoridade (Vinculados versus Discricionários)
-- **Atos Vinculados (regrados):** a lei estabelece de forma exaustiva e objetiva todos os requisitos e a única conduta cabível perante a situação fática. Não há margem de valoração subjetiva para a autoridade. Exemplo: concessão de licença para edificar ou aposentadoria compulsória aos 75 anos.
-- **Atos Discricionários:** a lei outorga certa margem de apreciação de conveniência e oportunidade (**mérito administrativo**), permitindo ao administrador escolher o momento, o conteúdo ou a sanção mais adequada dentre as opções juridicamente válidas. Exemplo: concessão de autorização de uso de bem público ou fixação do valor de multa dentro de uma faixa legal graduável.
+- **Atos vinculados (regrados):** preenchidos os requisitos legais, a autoridade deve adotar o resultado previsto, sem escolher livremente entre deferir e negar. Exemplo: licença para edificar quando todos os requisitos urbanísticos estão preenchidos. Pode haver análise técnica dos fatos, mas ela não autoriza uma recusa por mera conveniência.
+- **Atos discricionários:** a lei admite margem de escolha quanto a aspectos da decisão, como o momento da medida ou alternativas legalmente permitidas. Exemplo: autorização precária de uso de praça pública, quando prevista nesse regime. **Discricionariedade não é arbitrariedade:** a decisão continua sujeita à competência, finalidade, motivos e proporcionalidade, passíveis de controle jurídico.
 
 ### Quanto aos destinatários (Gerais versus Individuais)
 - **Atos Gerais (abstratos ou regulamentares):** não possuem destinatários nominais determinados; dirigem-se a uma coletividade indeterminada em idêntica situação de fato. Sua abrangência não lhes dá, por si só, superioridade hierárquica: esta decorre da competência, da espécie normativa e do ordenamento. Exemplo: regulamento de trânsito ou edital de concurso público.
@@ -78,7 +78,7 @@ flowchart LR
     C --> E["Exemplo hipotético: decisão sujeita a aprovação acessória"]:::composto
 ```
 
-A classificação como ato **complexo** da concessão inicial de aposentadoria resulta da jurisprudência do STF. A **Súmula Vinculante nº 3** disciplina contraditório e ampla defesa no exame pelo TCU, com ressalva para a concessão inicial: **não é sua fonte classificatória**. O **Tema 445 do STF (RE 636.553)** limita a **cinco anos**, desde a chegada do processo à Corte de Contas, o julgamento de sua legalidade. Não se deve usar, como exemplo atual de ato composto, a antiga fórmula de dispensa de licitação "declarada e ratificada": a **Lei nº 14.133/2021**, Lei de Licitações e Contratos Administrativos, prevê no art. 72, VIII, autorização da autoridade competente para a contratação direta.
+A classificação como ato **complexo** da concessão inicial de aposentadoria decorre da jurisprudência do STF, que considera a manifestação do órgão de origem e o registro pelo tribunal de contas. Isso não impede que o benefício produza efeitos antes do registro, conforme o regime aplicável. A **Súmula Vinculante nº 3** trata do contraditório e da ampla defesa no exame pelo TCU, com ressalva para a concessão inicial: **não é sua fonte classificatória**. O **Tema 445 do STF (RE 636.553)** fixa prazo de **cinco anos**, contado da chegada do processo à Corte de Contas, para julgar a legalidade da concessão inicial de aposentadoria, reforma ou pensão. Não se deve usar, como exemplo atual de ato composto, a antiga fórmula de dispensa de licitação "declarada e ratificada": a **Lei nº 14.133/2021**, Lei de Licitações e Contratos Administrativos, prevê no art. 72, VIII, autorização da autoridade competente para a contratação direta.
 
 ### Quanto aos efeitos e eficácia (Constitutivos, Declaratórios e Enunciativos)
 - **Constitutivos:** criam, modificam ou extinguem uma nova relação jurídica ou direito subjetivo (ex.: demissão, permissão).
@@ -91,7 +91,7 @@ A classificação como ato **complexo** da concessão inicial de aposentadoria r
 
 ### Atos Normativos
 Os atos normativos contêm comandos gerais e abstratos expedidos pela Administração Pública com o objetivo de explicitar, fielmente executar ou complementar a lei formal.
-- **Decretos e regulamentos:** o art. 84, IV, da **Constituição Federal de 1988** permite ao Presidente expedir decretos para fiel execução das leis. O art. 84, VI, admite decreto autônomo apenas nas hipóteses constitucionais de organização da Administração federal sem aumento de despesa ou criação/extinção de órgãos, ou de extinção de funções ou cargos vagos.
+- **Decretos e regulamentos:** o art. 84, IV, da **Constituição Federal de 1988** permite ao Presidente expedir decretos para fiel execução das leis. O art. 84, VI, admite decreto autônomo em duas hipóteses: organização e funcionamento da Administração federal, sem aumento de despesa nem criação ou extinção de órgãos; e extinção de funções ou cargos públicos **quando vagos**. Ao contrário do regulamento executivo, o decreto autônomo tem fundamento direto na Constituição, dentro dessas hipóteses.
 - **Resoluções e Portarias de caráter geral:** expedidas por colegiados administrativos, ministros de Estado ou dirigentes de autarquias e agências reguladoras no âmbito de sua competência setorial.
 - **Regimentos internos:** organizam o funcionamento dos órgãos. O Regimento Interno da Câmara dos Deputados é norma do Poder Legislativo com fundamento constitucional e regimental próprio, e não simples regulamento administrativo do Executivo.
 
@@ -100,10 +100,9 @@ Os atos ordinatórios fundam-se no **poder hierárquico** e visam a disciplinar 
 - **Características:** produzem efeitos primordialmente *interna corporis*; não obrigam nem vinculam diretamente os particulares que não mantenham relação funcional com o Estado.
 - **Instruções e circulares:** podem orientar servidores subordinados. Uma **instrução normativa** também pode veicular normas gerais dentro da competência legal; o nome do documento, isoladamente, não determina que seja ordinatório.
 - **Ordens de serviço:** determinações sobre tarefas específicas. Memorandos, ofícios e avisos podem ser apenas **meios de comunicação**, sem constituir decisão administrativa por si sós.
-- **Avisos e Ofícios:** comunicações funcionais formais entre autoridades.
 
 ### Atos Negociais (Consentimento Estatal)
-Os atos negociais são expedidos em situações nas quais a vontade da Administração coincide com a pretensão jurídica manifestada pelo administrado, outorgando-lhe faculdades ou uso de bens públicos.
+Os atos negociais são manifestações **unilaterais de consentimento administrativo**, como licença e autorização. Apesar do nome, não se confundem com contratos: a autoridade decide segundo o regime jurídico aplicável. O pedido do particular não permite negociar livremente os requisitos legais.
 
 As distinções mais cobradas entre os atos negociais são:
 
@@ -111,7 +110,7 @@ As distinções mais cobradas entre os atos negociais são:
 | :--- | :--- | :--- | :--- | :--- |
 | **Licença** | Em regra, **vinculada**: cumpridos os requisitos legais, a concessão é devida. | Sem juízo livre de conveniência no deferimento. | Não se revoga por mera preferência; outras formas legais de extinção permanecem possíveis. | Licença para construir. |
 | **Autorização** | No modelo clássico, **discricionária e precária**. | Escolha limitada pela lei e finalidade pública. | Revogação por interesse público legítimo; indenização pode surgir em hipóteses excepcionais. | Autorização de uso transitório de praça pública, se esse for o regime legal. |
-| **Permissão** | **De uso de bem:** no regime clássico, discricionária e precária. **De serviço público:** categoria distinta. | Depende da modalidade legal. | A **Lei nº 8.987/1995**, sobre concessões e permissões de serviços públicos, exige licitação e contrato de adesão (arts. 2º, IV, e 40). | Uso de área pública, ou delegação contratual de serviço público. |
+| **Permissão** | **De uso de bem:** no modelo clássico, discricionária e precária. **De serviço público:** modalidade distinta. | Depende da modalidade legal. | Na **permissão de serviço público**, a Lei nº 8.987/1995 exige licitação e **contrato de adesão**, com precariedade e revogabilidade unilateral previstas no art. 40. | Uso de bem público ou delegação contratual de serviço público, conforme a espécie. |
 | **Aprovação** | Concordância ou controle exigido pela norma. | Pode envolver exame técnico ou margem de escolha. | Efeitos dependem do regime jurídico. | Aprovação de plano por órgão competente. |
 | **Homologação** | Confirma procedimento ou resultado conforme o regime. | **Não é chancela automática em toda hipótese.** | Na licitação, o art. 71 da **Lei nº 14.133/2021** permite sanear, anular, revogar nos casos legais, ou adjudicar e homologar. | Homologação de licitação. |
 | **Visto** | Ciência ou verificação segundo norma específica. | Depende da finalidade legal. | O nome não demonstra sozinho aprovação acessória. | Visto interno exigido para conferência. |
@@ -124,13 +123,13 @@ flowchart TD
 
     A["Atos Negociais Principais"]:::raiz
 
-    A --> B["LICENÇA<br/>(Ato VINCULADO e definitivo)"]:::vinculado
+    A --> B["LICENÇA<br/>(Vinculada se preenchidos requisitos)"]:::vinculado
     A --> C["AUTORIZAÇÃO<br/>(Ato DISCRICIONÁRIO e precário)"]:::discricionario
-    A --> D["PERMISSÃO<br/>(Ato DISCRICIONÁRIO e precário)"]:::discricionario
-    A --> E["HOMOLOGAÇÃO<br/>(Ato VINCULADO de controle de legalidade)"]:::vinculado
+    A --> D["PERMISSÃO DE USO<br/>(Regime clássico; verificar a lei)"]:::discricionario
+    A --> E["HOMOLOGAÇÃO<br/>(Exame conforme legislação específica)"]:::vinculado
 
-    B --> B1["Preenchidos os requisitos legais, o administrado tem direito subjetivo à expedição"]:::vinculado
-    C --> C1["Escolha dentro da lei; revogação requer interesse público legítimo"]:::discricionario
+    B --> B1["Requisitos preenchidos<br/>direito ao deferimento"]:::vinculado
+    C --> C1["Escolha nos limites legais<br/>revogação exige razão legítima"]:::discricionario
 ```
 
 ### Atos Enunciativos

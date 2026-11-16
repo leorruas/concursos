@@ -1165,7 +1165,8 @@
           "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     },
     {
       "id": "glo-camara-da23-sumula665",
@@ -1189,7 +1190,8 @@
           "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?sumula=665"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     }
   ]
 }

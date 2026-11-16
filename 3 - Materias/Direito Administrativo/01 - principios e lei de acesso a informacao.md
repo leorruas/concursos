@@ -29,14 +29,18 @@ graph TD
     classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:1.5px,color:#2b2b2b;
     classDef opcao fill:#ffffff,stroke:#d4a373,stroke-width:1px,color:#2b2b2b;
 
-    R["Regime Jurídico-Administrativo"]:::raiz --> C1["Princípios doutrinários"]:::criterio
+    R["Regime Jurídico-Administrativo"]:::raiz --> C1["Categorias doutrinárias"]:::criterio
     R --> C2["Princípios Expressos (art. 37 da Constituição)"]:::criterio
     R --> C3["Princípios Implícitos e Setoriais"]:::criterio
 
     C1 --> O1["Supremacia: poderes previstos em lei<br/>Indisponibilidade: limites ao gestor"]:::opcao
-    C2 --> O2["L: Legalidade e juridicidade<br/>I: Impessoalidade (Finalidade e não autopromoção)<br/>M: Moralidade Administrativa (Probidade e Boa-fé)<br/>P: Publicidade (Transparência como regra)<br/>E: Eficiência (Qualidade e Racionalidade - EC 19/98)"]:::opcao
-    C3 --> O3["Autotutela (Súmulas 346 e 473 STF)<br/>Segurança Jurídica e Proteção à Confiança<br/>Razoabilidade e Proporcionalidade<br/>Motivação dos Atos Administrativos"]:::opcao
+    C2 --> O2["L: Legalidade<br/>I: Impessoalidade<br/>M: Moralidade<br/>P: Publicidade<br/>E: Eficiência (EC nº 19/1998)"]:::opcao
+    C3 --> O3["Autotutela (Súmulas 346 e 473 do STF)<br/>Segurança jurídica e proteção da confiança<br/>Razoabilidade e proporcionalidade<br/>Motivação (também expressa na Lei nº 9.784/1999)"]:::opcao
 ```
+
+A figura separa os cinco princípios **expressos no art. 37, caput**, de categorias e deveres estudados pela doutrina ou previstos em outras normas. A classificação não significa que toda regra do terceiro grupo seja apenas implícita: a **Lei nº 9.784/1999**, por exemplo, enuncia expressamente motivação, proporcionalidade e segurança jurídica no processo administrativo federal.
+
+**Supremacia do interesse público** é a expressão doutrinária usada para explicar certas prerrogativas que a legislação atribui à Administração para realizar finalidades coletivas. Não significa que a vontade do gestor prevaleça sempre sobre direitos individuais: cada restrição precisa de competência, fundamento jurídico e respeito aos direitos fundamentais. **Indisponibilidade do interesse público** significa que o gestor administra competências e recursos destinados a fins públicos, sem poder tratá-los como patrimônio pessoal. Por exemplo, uma autoridade não pode perdoar uma dívida devida ao poder público apenas por simpatia ao devedor; a renúncia exige autorização e requisitos legais. No processo federal, o art. 2º, parágrafo único, II, da Lei nº 9.784/1999 veda renunciar a poderes ou competências, salvo autorização em lei. Essas duas expressões são **formulações doutrinárias**, e não autorização geral para agir fora das regras.
 
 ### Legalidade e juridicidade
 

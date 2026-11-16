@@ -11845,6 +11845,294 @@
       "status": "validated",
       "reviewedAt": "2026-11-16",
       "revision": 1
+    },
+    {
+      "id": "camara-da22-absolvicao-negativa-autoria",
+      "term": "Absolvição penal: negativa da autoria ou dúvida?",
+      "definition": "Se o juízo criminal provar que o fato não existiu ou que o servidor não foi autor, art. 126 afasta responsabilidade administrativa pelo mesmo fato. Absolvição por insuficiência probatória não impede automaticamente PAD.",
+      "example": "Uma investigação penal conclui que a autoria é de terceiro; a Administração não pode punir o servidor por aquele mesmo fato.",
+      "confusion": "Dúvida sobre autoria não equivale a prova da negativa de autoria; falta residual independente segue possível.",
+      "topic": "Lei nº 8.112/1990: responsabilidades e penalidades",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Responsabilidade e penalidades"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-18fed28e7af50bca",
+        "section": "1.2 Regra de ouro da comunicabilidade das instâncias: o art. 126 da Lei nº 8.112/1990"
+      },
+      "source": {
+        "title": "Fontes oficiais: Lei nº 8.112/1990 e jurisprudência STF/STJ",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Artigos e precedentes citados no verbete"
+      },
+      "conceptIds": [
+        "glo-camara-da22-absolvicao-criminal"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica decide este tema?",
+        "answer": "Dúvida sobre autoria não equivale a prova da negativa de autoria; falta residual independente segue possível. Verifique fundamento legal e situação concreta."
+      }
+    },
+    {
+      "id": "camara-da22-responsabilidade-civil-terceiro",
+      "term": "Dano a terceiro e ação regressiva",
+      "definition": "Por dano causado por agente público nessa qualidade, a vítima exige reparação da pessoa jurídica estatal responsável; o Estado tem direito de regresso contra o agente se houver dolo ou culpa (Tema 940 do STF).",
+      "example": "Cidadão prejudicado por ato funcional demanda reparação estatal; ação de regresso contra servidor segue requisitos próprios.",
+      "confusion": "Distinguir responsabilidade estatal objetiva perante terceiro e responsabilidade subjetiva do servidor no regresso.",
+      "topic": "Lei nº 8.112/1990: responsabilidades e penalidades",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Responsabilidade e penalidades"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-18fed28e7af50bca",
+        "section": "1.1 Natureza e características de cada modalidade de responsabilidade"
+      },
+      "source": {
+        "title": "Fontes oficiais: Lei nº 8.112/1990 e jurisprudência STF/STJ",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Artigos e precedentes citados no verbete"
+      },
+      "conceptIds": [
+        "glo-camara-da22-responsabilidades-civil-penal-adm"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica decide este tema?",
+        "answer": "Distinguir responsabilidade estatal objetiva perante terceiro e responsabilidade subjetiva do servidor no regresso. Verifique fundamento legal e situação concreta."
+      }
+    },
+    {
+      "id": "camara-da22-acumulacao-boa-fe",
+      "term": "Acumulação ilegal: quando há opção e má-fé?",
+      "definition": "Art. 133: notificação para opção em dez dias; se houver omissão, rito sumário, defesa e possibilidade de opção até último dia da defesa, que configura boa-fé. Demissão pelo § 6º depende de má-fé comprovada.",
+      "example": "Servidor descobre incompatibilidade e opta por um cargo dentro do prazo defensivo do rito sumário.",
+      "confusion": "Não há demissão automática pela simples detecção de vínculos irregulares.",
+      "topic": "Lei nº 8.112/1990: responsabilidades e penalidades",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Responsabilidade e penalidades"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-18fed28e7af50bca",
+        "section": "2.3 Demissão (art. 132)"
+      },
+      "source": {
+        "title": "Fontes oficiais: Lei nº 8.112/1990 e jurisprudência STF/STJ",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Artigos e precedentes citados no verbete"
+      },
+      "conceptIds": [
+        "glo-camara-da22-acumulacao-ilicita-boa-fe"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica decide este tema?",
+        "answer": "Não há demissão automática pela simples detecção de vínculos irregulares. Verifique fundamento legal e situação concreta."
+      }
+    },
+    {
+      "id": "camara-da22-abandono-inassiduidade",
+      "term": "Abandono × inassiduidade habitual",
+      "definition": "Abandono exige ausência intencional por mais de trinta dias consecutivos (art. 138). Inassiduidade habitual exige sessenta faltas injustificadas intercaladas dentro de doze meses (art. 139).",
+      "example": "Servidor falta intencionalmente 31 dias seguidos: investigar abandono; 60 faltas separadas, sem causa, em um ano: inassiduidade.",
+      "confusion": "Não confundir dias corridos consecutivos com faltas intercaladas nem omitir a intenção do abandono.",
+      "topic": "Lei nº 8.112/1990: responsabilidades e penalidades",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Responsabilidade e penalidades"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-18fed28e7af50bca",
+        "section": "2.3 Demissão (art. 132)"
+      },
+      "source": {
+        "title": "Fontes oficiais: Lei nº 8.112/1990 e jurisprudência STF/STJ",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Artigos e precedentes citados no verbete"
+      },
+      "conceptIds": [
+        "glo-camara-da22-abandono-inassiduidade"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica decide este tema?",
+        "answer": "Não confundir dias corridos consecutivos com faltas intercaladas nem omitir a intenção do abandono. Verifique fundamento legal e situação concreta."
+      }
+    },
+    {
+      "id": "camara-da22-prescricao-635",
+      "term": "Súmula 635: interrupção de prescrição no PAD",
+      "definition": "Prescrição começa na ciência da autoridade competente; primeiro ato válido de sindicância punitiva ou PAD interrompe; se não há decisão final, 140 dias depois o prazo original volta por inteiro (STJ, Súmula 635).",
+      "example": "Infrações puníveis com suspensão têm prazo base de dois anos; o limite de 140 dias afeta a interrupção, não substitui os dois anos.",
+      "confusion": "Sindicância investigativa e mero relatório não equivalem automaticamente à instauração punitiva válida.",
+      "topic": "Lei nº 8.112/1990: responsabilidades e penalidades",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Responsabilidade e penalidades"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-18fed28e7af50bca",
+        "section": "3.4 Interrupção da prescrição e reinício do prazo (art. 142, §§ 3º e 4º)"
+      },
+      "source": {
+        "title": "Fontes oficiais: Lei nº 8.112/1990 e jurisprudência STF/STJ",
+        "url": "https://scon.stj.jus.br/SCON/sumstj/doc.jsp?b=SUMU&i=1&l=10&livre=%22635%22.num.&operador=AND&ordenacao=-%40NUM&p=false",
+        "locator": "Artigos e precedentes citados no verbete"
+      },
+      "conceptIds": [
+        "glo-camara-da22-prescricao-sumula635"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica decide este tema?",
+        "answer": "Sindicância investigativa e mero relatório não equivalem automaticamente à instauração punitiva válida. Verifique fundamento legal e situação concreta."
+      }
+    },
+    {
+      "id": "camara-da22-prescricao-crime-sem-inquerito",
+      "term": "Prazo penal sem inquérito: art. 142, § 2º",
+      "definition": "Para falta disciplinar também tipificada como crime, a lei penal define o prazo prescricional aplicável, mesmo sem investigação ou ação criminal instaurada (STJ, MS 20.857/DF).",
+      "example": "A Administração descreve e fundamenta o tipo penal correspondente mesmo sem denúncia criminal.",
+      "confusion": "Sem crime tipificado, não se pode escolher prazo penal mais longo apenas por gravidade.",
+      "topic": "Lei nº 8.112/1990: responsabilidades e penalidades",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Responsabilidade e penalidades"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-18fed28e7af50bca",
+        "section": "3.3 Infrações que também configuram crime (art. 142, § 2º)"
+      },
+      "source": {
+        "title": "Fontes oficiais: Lei nº 8.112/1990 e jurisprudência STF/STJ",
+        "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=%270651%27.cod.",
+        "locator": "Artigos e precedentes citados no verbete"
+      },
+      "conceptIds": [
+        "glo-camara-da22-prescricao-penal-ms20857"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica decide este tema?",
+        "answer": "Sem crime tipificado, não se pode escolher prazo penal mais longo apenas por gravidade. Verifique fundamento legal e situação concreta."
+      }
+    },
+    {
+      "id": "camara-da22-adi2975-cinco-anos",
+      "term": "Demissão por corrupção gera retorno proibido para sempre?",
+      "definition": "Não. ADI 2.975 invalidou vedação perpétua do art. 137, parágrafo único; embargos de 2023 aplicam incompatibilidade de cinco anos do caput, até que legislação superveniente regule.",
+      "example": "Demitido em falta abrangida pelo antigo parágrafo único não tem impedimento vitalício automático.",
+      "confusion": "A demissão e o impedimento temporário de nova investidura são efeitos diferentes.",
+      "topic": "Lei nº 8.112/1990: responsabilidades e penalidades",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Responsabilidade e penalidades"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-18fed28e7af50bca",
+        "section": "2.4 Efeitos da demissão: incompatibilidade temporária e controle de constitucionalidade"
+      },
+      "source": {
+        "title": "Fontes oficiais: Lei nº 8.112/1990 e jurisprudência STF/STJ",
+        "url": "https://www.tst.jus.br/documents/10157/31760431/STF%2B-%2BA%C3%A7%C3%A3o%2BDireta%2Bde%2BInconstitucionalidade%2Bn%C2%BA%2B2.975%2C%2BDOU%2Bde%2B26.5.2023%2B-%2BADI-ED.pdf/ac22d3ef-d140-3138-4577-672bbef9eb4f?download=true&t=1688400959344",
+        "locator": "Artigos e precedentes citados no verbete"
+      },
+      "conceptIds": [
+        "glo-camara-da22-adi2975"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica decide este tema?",
+        "answer": "A demissão e o impedimento temporário de nova investidura são efeitos diferentes. Verifique fundamento legal e situação concreta."
+      }
+    },
+    {
+      "id": "camara-da22-competencia-sancionadora",
+      "term": "Quem pode demitir servidor federal da Câmara?",
+      "definition": "O art. 141, I, atribui à presidência de cada Casa legislativa a competência para demissão e cassação de servidor vinculado à Casa. Advertência e suspensão até 30 dias seguem autoridades dos regimentos, e suspensão superior a 30 dias segue inciso II.",
+      "example": "Comissão de PAD instrui e emite relatório, mas isso não lhe confere automaticamente poder para demitir.",
+      "confusion": "Não confundir a autoridade instauradora, comissão instrutória e autoridade competente para aplicar pena.",
+      "topic": "Lei nº 8.112/1990: responsabilidades e penalidades",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Responsabilidade e penalidades"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-18fed28e7af50bca",
+        "section": "2.6 Destituição, competência sancionadora e graduação da sanção"
+      },
+      "source": {
+        "title": "Fontes oficiais: Lei nº 8.112/1990 e jurisprudência STF/STJ",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Artigos e precedentes citados no verbete"
+      },
+      "conceptIds": [
+        "glo-camara-da22-competencia-sancoes"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica decide este tema?",
+        "answer": "Não confundir a autoridade instauradora, comissão instrutória e autoridade competente para aplicar pena. Verifique fundamento legal e situação concreta."
+      }
     }
   ]
 }

@@ -930,6 +930,214 @@
       ],
       "status": "reviewed",
       "aliases": []
+    },
+    {
+      "id": "glo-camara-da22-absolvicao-criminal",
+      "term": "Absolvição criminal e responsabilidade administrativa",
+      "aliases": [],
+      "definition": "Absolvição penal que reconheça categoricamente inexistência do fato ou negativa de autoria afasta a imputação disciplinar pelo mesmo fato (art. 126 da Lei nº 8.112/1990). Outras absolvições podem não ter esse efeito.",
+      "contrast": "Insuficiência de provas ou atipicidade penal não apagam automaticamente infração disciplinar; falta residual independente pode ser apurada (Súmula 18 do STF).",
+      "cebraspeTrap": "Dizer que qualquer absolvição penal impede PAD, ou que negativa categórica de autoria pode ser ignorada.",
+      "example": "Servidor absolvido porque ficou provado não ser autor da divulgação não pode ser punido por essa divulgação, mas pode responder por outra falta independente.",
+      "articleIds": [
+        "art-18fed28e7af50bca"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 125 e 126",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-responsabilidades-civil-penal-adm",
+      "term": "Responsabilidades civil, penal e administrativa do servidor",
+      "aliases": [],
+      "definition": "A mesma conduta pode produzir responsabilidade civil por dano, penal por crime/contravenção e administrativa por infração funcional (arts. 121 a 125 da Lei nº 8.112/1990), desde que atendidos seus requisitos.",
+      "contrast": "Na reparação por dano a terceiro cometido por agente nessa qualidade, o particular se dirige ao Estado; regresso contra o agente exige dolo ou culpa (Constituição art. 37, § 6º, Tema 940).",
+      "cebraspeTrap": "Presumir que qualquer infração funcional é crime ou que a vítima deve processar diretamente o servidor.",
+      "example": "Divulgação ilícita de documento pode gerar três apurações distintas; nenhuma condenação decorre automaticamente da outra.",
+      "articleIds": [
+        "art-18fed28e7af50bca"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 121 a 125",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-acumulacao-ilicita-boa-fe",
+      "term": "Acumulação ilegal de cargos: opção e boa-fé",
+      "aliases": [],
+      "definition": "No art. 133 da Lei nº 8.112/1990, o servidor é notificado para optar por vínculo em dez dias. Se permanecer omisso, há rito sumário; opção até último dia para defesa configura boa-fé (§ 5º), enquanto demissão por acumulação ilegal exige má-fé comprovada (§ 6º).",
+      "contrast": "Detectar acumulação ilegal não equivale a demitir de imediato: devem ser observados oportunidade de opção, contraditório, defesa e apuração.",
+      "cebraspeTrap": "Afirmar que escolha dentro do prazo de defesa não produz boa-fé ou que qualquer acumulação irregular gera demissão sem demonstração de má-fé.",
+      "example": "Pessoa opta por um vínculo durante prazo de defesa e tem o pedido de exoneração do outro cargo regularizado.",
+      "articleIds": [
+        "art-18fed28e7af50bca"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 132, XII, e 133",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-abandono-inassiduidade",
+      "term": "Abandono de cargo e inassiduidade habitual",
+      "aliases": [],
+      "definition": "Abandono (arts. 132, II, e 138) é ausência intencional superior a trinta dias consecutivos. Inassiduidade habitual (arts. 132, III, e 139) é falta injustificada por sessenta dias intercalados dentro de doze meses.",
+      "contrast": "Abandono exige examinar intenção e sequência; inassiduidade se caracteriza por faltas intercaladas sem causa justa e contagem no período legal.",
+      "cebraspeTrap": "Confundir trinta dias exatos com mais de trinta, ou usar sessenta dias consecutivos como definição de inassiduidade.",
+      "example": "Ausência intencional durante 31 dias seguidos pode ser abandono; 60 faltas esparsas sem causa em doze meses podem ser inassiduidade.",
+      "articleIds": [
+        "art-18fed28e7af50bca"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 138 a 140",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-prescricao-sumula635",
+      "term": "Prescrição disciplinar e Súmula 635 do STJ",
+      "aliases": [],
+      "definition": "O prazo do art. 142 (cinco anos, dois anos ou 180 dias) inicia quando autoridade competente para instaurar apuração conhece o fato; primeiro ato válido de sindicância punitiva ou PAD interrompe; após 140 dias, sem decisão, volta a fluir por inteiro.",
+      "contrast": "140 dias são limite de interrupção no PAD segundo STJ, não o prazo prescricional universal nem o tempo de cancelamento de registro de sanção do art. 131.",
+      "cebraspeTrap": "Contar da data do fato ou de simples ciência de qualquer servidor; interromper por investigação preliminar não punitiva.",
+      "example": "PAD interrompe prazo de cinco anos; transcorridos 140 dias sem decisão, os cinco anos voltam a correr inteiros.",
+      "articleIds": [
+        "art-18fed28e7af50bca"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STJ, Súmula 635",
+          "url": "https://scon.stj.jus.br/SCON/sumstj/doc.jsp?b=SUMU&i=1&l=10&livre=%22635%22.num.&operador=AND&ordenacao=-%40NUM&p=false"
+        },
+        {
+          "label": "Lei nº 8.112/1990, art. 142",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-prescricao-penal-ms20857",
+      "term": "Prazo penal em infração disciplinar tipificada como crime",
+      "aliases": [],
+      "definition": "O art. 142, § 2º, da Lei nº 8.112/1990 aplica prazos da lei penal à falta disciplinar também tipificada como crime; o STJ, no MS 20.857/DF, esclareceu que não é necessária abertura de investigação ou ação criminal.",
+      "contrast": "Enquadramento da conduta como crime precisa ser fundamentado; sem tipificação criminal, prevalece prazo disciplinar próprio.",
+      "cebraspeTrap": "Afirmar que ausência de inquérito policial impede usar prazo penal ou que toda falta grave recebe prazo criminal.",
+      "example": "O órgão apura disciplinarmente conduta que também constitui crime mesmo sem ação penal instaurada.",
+      "articleIds": [
+        "art-18fed28e7af50bca"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STJ, MS 20.857/DF, Informativo 651",
+          "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=%270651%27.cod."
+        },
+        {
+          "label": "Lei nº 8.112/1990, art. 142, § 2º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-adi2975",
+      "term": "ADI 2.975 e impedimento de retorno ao serviço público",
+      "aliases": [],
+      "definition": "O STF invalidou a proibição perpétua de retorno ao serviço público federal do art. 137, parágrafo único, da Lei nº 8.112/1990. Nos embargos publicados em 2023, determinou aplicar o prazo de cinco anos do caput às hipóteses alcançadas, até nova disciplina legal.",
+      "contrast": "A perda do cargo pela demissão é diferente da incompatibilidade temporária para uma nova investidura federal.",
+      "cebraspeTrap": "Afirmar que demitido por corrupção jamais poderá prestar novo concurso ou que o art. 137 deixou de prever qualquer prazo de incompatibilidade.",
+      "example": "Quem foi demitido por hipótese abrangida no antigo parágrafo único sujeita-se ao regime de cinco anos definido pelo STF, até mudança legislativa.",
+      "articleIds": [
+        "art-18fed28e7af50bca"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STF, ADI 2.975, embargos de declaração",
+          "url": "https://www.tst.jus.br/documents/10157/31760431/STF%2B-%2BA%C3%A7%C3%A3o%2BDireta%2Bde%2BInconstitucionalidade%2Bn%C2%BA%2B2.975%2C%2BDOU%2Bde%2B26.5.2023%2B-%2BADI-ED.pdf/ac22d3ef-d140-3138-4577-672bbef9eb4f?download=true&t=1688400959344"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-competencia-sancoes",
+      "term": "Competência para aplicar penalidades do art. 141 da Lei 8.112",
+      "aliases": [],
+      "definition": "Demissão e cassação: autoridade máxima indicada no art. 141, I, inclusive presidentes das Casas legislativas para seus servidores. Suspensão acima de trinta dias: autoridades imediatamente inferiores. Advertência e suspensão até trinta dias: chefias e outras autoridades conforme regimento.",
+      "contrast": "Quem instaura ou instrui o PAD pode não ser quem julga e aplica a penalidade. Destituição de cargo em comissão segue a autoridade que nomeou.",
+      "cebraspeTrap": "Afirmar que chefia imediata pode demitir servidor da Câmara apenas por ter coordenado a investigação.",
+      "example": "Comissão conclui relatório do PAD; aplicação de demissão de servidor da Câmara segue a competência do presidente da Casa, nos termos legais.",
+      "articleIds": [
+        "art-18fed28e7af50bca"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, art. 141",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

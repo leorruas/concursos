@@ -383,6 +383,34 @@
         "camara-2026"
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-delegacao-policia-tema532",
+      "term": "Delegação do poder de polícia: Tema 532",
+      "aliases": [
+        "Tema 532 do STF",
+        "polícia administrativa delegada a estatal"
+      ],
+      "definition": "É a possibilidade de lei atribuir exercício do poder de polícia a pessoa jurídica de direito privado integrante da Administração Indireta, com capital social majoritariamente público, que preste exclusivamente serviço público próprio do Estado e atue em regime não concorrencial.",
+      "contrast": "A tese do STF não autoriza delegação indiscriminada a particulares ou empresas privadas concorrenciais. A atividade de legislar, que estabelece a ordem de polícia, permanece reservada ao Poder Legislativo.",
+      "cebraspeTrap": "Afirmar que nenhuma estatal de direito privado pode aplicar multa administrativa ou que toda empresa privada pode exercer poder de polícia.",
+      "example": "Uma sociedade de economia mista pública prestadora exclusiva de serviço de trânsito pode, quando preenchidos os critérios e houver lei delegando, aplicar multa de trânsito, conforme o RE 633.782.",
+      "sources": [
+        {
+          "label": "STF, Tema 532 (RE 633.782)",
+          "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=532"
+        }
+      ],
+      "articleIds": [
+        "art-b740cbbd05e54a26"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
     }
   ]
 }

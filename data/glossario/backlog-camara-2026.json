@@ -651,6 +651,14 @@
       "examBlock": "Conhecimentos básicos: Administração Pública",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-delegacao-policia-tema532",
+      "term": "Delegação do poder de polícia: Tema 532",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

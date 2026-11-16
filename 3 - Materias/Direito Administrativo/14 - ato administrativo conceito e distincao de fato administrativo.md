@@ -11,20 +11,19 @@ tags:
   - cebraspe
   - camara-dos-deputados
 ---
+# Ato administrativo, fato administrativo e silêncio da Administração
 
-# Ato Administrativo: Conceito, Requisitos e Distinção de Fato Administrativo
+Imagine que a Câmara dos Deputados publique uma portaria de nomeação. A portaria contém uma **decisão jurídica**. Se o servidor nomeado morre depois de assumir o cargo, seu falecimento é um **acontecimento** que produz consequências previstas em lei. Se a Câmara deixa de responder a um pedido, surge uma terceira situação: **silêncio administrativo**. Os três casos afetam a Administração, mas têm naturezas distintas.
 
-No Direito Administrativo brasileiro, a manifestação da vontade estatal materializa-se por intermédio de múltiplos acontecimentos e provimentos jurídicos. Nas provas elaboradas pelo Cebraspe para carreiras legislativas de alto nível (notadamente para o cargo de Analista Legislativo da Câmara dos Deputados), a compreensão dogmática do **ato administrativo**, sua delimitação em face dos **atos da Administração em geral** e a distinção cirúrgica entre **ato administrativo**, **fato administrativo**, **ato material** e o regime do **silêncio administrativo** constituem um dos temas de maior precisão conceitual da disciplina.
+A **Constituição Federal de 1988**, no art. 37, exige que a atividade administrativa observe legalidade, impessoalidade, moralidade, publicidade e eficiência. A **Lei nº 9.784/1999**, que disciplina o processo administrativo federal, impõe o dever de decidir nos arts. 48 e 49. A diferença entre ato e fato é sobretudo uma **classificação doutrinária**, construída para compreender como os efeitos jurídicos surgem e como podem ser controlados.
 
-A banca exige do candidato a superação de noções vulgares que confundem qualquer atividade executada por um servidor com ato administrativo. O ato administrativo em sentido estrito constitui uma **declaração jurídica unilateral de vontade**, emanada do Estado ou de quem lhe faça as vezes, no exercício de prerrogativas públicas, sob regime de direito público e sujeita a controle jurisdicional.
+## O que caracteriza um ato administrativo
 
----
+O **ato administrativo**, em uma definição doutrinária frequente, é uma **declaração jurídica unilateral** do Estado ou de quem exerce função administrativa sob regime predominantemente de direito público, com aptidão para produzir efeitos jurídicos. Ele pode reconhecer, criar, alterar ou extinguir situações jurídicas. Exemplos: conceder licença, nomear servidor, aplicar sanção ou expedir certidão.
 
-## 1. Conceito Dogmático de Ato Administrativo
+**Declaração unilateral** significa que a formação do ato decorre da manifestação da autoridade competente; o destinatário não precisa negociar seus termos como em um contrato. Entretanto, a produção de certos efeitos pode depender de ciência, publicação, aceitação ou de outra condição prevista em lei. **Unilateralidade não significa que o ato possa ignorar os direitos do administrado.**
 
-A doutrina administrativista clássica (com destaque para Celso Antônio Bandeira de Mello, Hely Lopes Meirelles e Maria Sylvia Zanella Di Pietro) define o ato administrativo a partir de seus traços constitutivos essenciais:
-
-> *"Declaração jurídica do Estado ou de quem lhe faça as vezes, que, no exercício de prerrogativas públicas e sob regime jurídico de direito público, produz efeitos jurídicos imediatos, com observância da lei e sob controle judicial."*
+A doutrina não usa uma única fórmula rígida: algumas classificações incluem atos gerais e de conteúdo declaratório; outras reservam a expressão “ato administrativo em sentido estrito” para determinadas manifestações. Para resolver questões da Cebraspe, é essencial reconhecer o **regime jurídico** e a **função exercida**, além do nome do documento.
 
 ```mermaid
 graph TD
@@ -36,153 +35,125 @@ graph TD
     R --> C2["Fato Administrativo"]:::criterio
     R --> C3["Atos da Administração em Geral"]:::criterio
 
-    C1 --> O1["Declaração unilateral de vontade jurídica<br/>Regime de direito público e prerrogativas estatais<br/>Exemplos: Portaria, Licença, Demissão, Multa"]:::opcao
-    C2 --> O2["Acontecimento material ou natural relevante<br/>Sem declaração de vontade jurídica imediata<br/>Exemplos: Morte de servidor, queda de árvore, colisão"]:::opcao
-    C3 --> O3["Atos de direito privado (locação civil)<br/>Atos materiais/executórios (varrição de rua)<br/>Atos políticos/de governo (sanção/veto)"]:::opcao
+    C1 --> O1["Declaração jurídica unilateral<br/>Regime predominantemente público<br/>Exemplos: licença, nomeação, sanção"]:::opcao
+    C2 --> O2["Ocorrência material juridicamente relevante<br/>Sem declaração que produza o efeito<br/>Exemplos: morte, decurso de prazo, execução física"]:::opcao
+    C3 --> O3["Atos regidos pelo direito privado<br/>Atos materiais e políticos<br/>Regimes específicos e controle"]:::opcao
 ```
 
-### 1.1. Traços Distintivos Essenciais
-1. **Declaração Jurídica Unilateral:** O ato emana exclusivamente da manifestação de vontade do Estado (ou delegatário), independendo da concordância ou anuência prévia do administrado para existir e operar efeitos (distinguindo-se dos *contratos administrativos*, que são negócios jurídicos bilaterais).
-2. **Exercício de Função Administrativa:** Pode ser praticado pelo Poder Executivo (função típica) ou pelos Poderes Legislativo e Judiciário (no exercício de suas funções administrativas atípicas de gestão interna de servidores, licitações e patrimônio).
-3. **Regime de Direito Público:** Reveste-se das prerrogativas de autoridade (supremacia do interesse público) e sujeições (indisponibilidade e legalidade).
-4. **Produção Imediata de Efeitos:** Cria, modifica, extingue ou declara direitos ou deveres concretos perante administrados ou órgãos internos.
-5. **Submissão a Controle Jurisdicional:** Por força do art. 5º, XXXV, da CF/1988 (princípio da inafastabilidade da tutela jurisdicional), nenhum ato administrativo pode ser excluído da apreciação do Poder Judiciário quanto aos seus aspectos de legalidade e moralidade.
+Um ato administrativo pode ser praticado pelo **Executivo**, pelo **Legislativo** ou pelo **Judiciário** quando exerce função administrativa. A Mesa da Câmara, por exemplo, administra pessoal e contratos. Isso é diferente de votar um projeto de lei, atividade legislativa. E a **possibilidade de controle judicial** prevista no art. 5º, XXXV, da Constituição não transforma o Judiciário em substituto livre do mérito administrativo.
 
----
+A **Lei nº 4.717/1965**, Lei da Ação Popular, indica em seu art. 2º vícios relativos a competência, forma, objeto, motivo e finalidade. Esses elementos e a diferença entre atos perfeitos, válidos e eficazes são tratados em [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos e validade do ato administrativo]].
 
-## 2. Ato Administrativo vs. Fato Administrativo
+## Ato administrativo e fato administrativo
 
-A distinção entre ato e fato constitui uma das armadilhas prediletas do Cebraspe em questões literais e de casos concretos:
+**Fato administrativo** designa, na classificação aqui utilizada, um acontecimento da realidade que interessa à Administração e ao qual o Direito atribui consequências, **sem que esse acontecimento seja uma declaração jurídica de vontade**. A denominação varia entre autores: *fato da Administração* também pode designar atividade material ligada à gestão pública, embora nem todo acontecimento administrativo produza efeito jurídico.
 
-| Critério de Comparação | Ato Administrativo | Fato Administrativo |
+| Situação | Natureza | Efeito jurídico ou prático |
 | :--- | :--- | :--- |
-| **Origem e Vontade** | **Declaração formal e voluntária** de vontade da Administração. | **Acontecimento material ou da natureza** que independe de declaração formal. |
-| **Finalidade Imediata** | Produzir efeitos jurídicos predeterminados pelo ordenamento. | O efeito jurídico decorre automaticamente da lei em virtude da ocorrência material do fato. |
-| **Revogação / Convalidação** | **Passível de anulação, revogação e convalidação**, por se tratar de ato jurídico. | **Não comporta revogação, anulação ou convalidação** (não se "anula" uma tempestade ou uma morte). |
-| **Exemplos no Parlamento** | Publicação de portaria de nomeação; aplicação de suspensão disciplinar; concessão de licença. | Morte de servidor (fato natural que gera a vacância do cargo); decurso de prazo decadencial; incêndio no plenário. |
+| A Câmara expede portaria de nomeação | **Ato administrativo** | Declara a decisão de nomear; efeitos segundo o regime de investidura |
+| Um servidor falece | **Fato jurídico com efeito administrativo** | Produz vacância do cargo na esfera federal (Lei nº 8.112/1990, art. 33, IX) |
+| A Defesa Civil expede ordem legal de demolição | **Ato administrativo** | Determina a providência prevista nas condições legais |
+| Equipe executa fisicamente a demolição | **Atuação material da Administração** | Concretiza a medida; continua sujeita a limites jurídicos |
+| Termina prazo legal sem decisão | **Omissão ou silêncio administrativo** | Pode gerar mora e, se houver regra específica, efeitos como aprovação tácita |
 
-### 2.1. Atos Materiais da Administração (*Fatos da Administração*)
-Ao lado dos fatos da natureza, existem os **atos materiais** ou meras atuações físicas de execução (frequentemente chamados pela doutrina de *fatos da Administração voluntários*). Consistem na execução física pura de um ato administrativo prévio:
-- *Ato Administrativo:* A ordem de demolição de um prédio em ruínas expedida pela fiscalização de obras.
-- *Ato Material / Fato Administrativo:* A marretada ou a demolição mecânica realizada pelos operários da prefeitura.
-- *Ato Administrativo:* A ordem de apreensão de mercadoria contrabandeada.
-- *Ato Material:* O carregamento físico dos bens apreendidos na viatura fiscal.
-- Os atos materiais não corporificam uma declaração jurídica de vontade em si, mas a execução física subordinada a um ato anterior.
+**Ato material** é a ação física de execução: varrer a rua, transportar equipamentos, remover um obstáculo ou executar uma demolição. Mesmo quando tem consequências jurídicas, ele **não é a declaração jurídica que o autoriza**. Por isso a demolição física não se “revoga”, embora se possa questionar judicialmente sua legalidade, sua execução e eventuais danos. Uma portaria ilegal, ao contrário, pode ser **anulada** nas condições do Direito.
 
----
+Nem todo ato administrativo admite **revogação** por conveniência ou **convalidação** de defeito: a primeira pressupõe um ato válido e juridicamente revogável; a segunda exige defeito sanável e ausência de lesão ao interesse público e prejuízo a terceiros, nos termos dos arts. 53 e 55 da Lei nº 9.784/1999. A distinção completa aparece em [[3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos|Anulação, revogação e convalidação]].
 
-## 3. O Silêncio Administrativo e seus Efeitos Jurídicos
+## Silêncio administrativo: quando a ausência de resposta importa
 
-O Cebraspe questiona frequentemente a natureza jurídica da omissão estatal diante do requerimento de um cidadão: **o silêncio da Administração é ato administrativo?**
+O **silêncio administrativo** ocorre quando a Administração deixa de manifestar uma decisão que deveria tomar. **A regra geral é que o silêncio, por si só, não equivale nem a autorização nem a recusa.** A omissão pode ser ilegal porque a autoridade tem o dever de decidir; o efeito positivo ou negativo do silêncio depende de previsão normativa aplicável.
 
-> [!IMPORTANT]
-> **A Regra Geral no Direito Administrativo:**
-> O silêncio administrativo **NÃO é ato administrativo; é um FATO ADMINISTRATIVO (uma omissão material juridicamente relevante)**. Quem cala no Direito Público **não consente nem rejeita**, salvo se houver expressa e inequívoca determinação legal que atribua efeito específico ao transcurso do prazo.
+No **processo administrativo federal**, o art. 48 da **Lei nº 9.784/1999** estabelece que a Administração deve emitir **decisão expressa** em processos, solicitações e reclamações de sua competência. Depois de concluída a instrução, o **art. 49** prevê **até 30 dias para decidir**, prorrogáveis por **igual período**, com motivação expressa. Esse prazo começa **ao final da instrução**, e não automaticamente na data de todo protocolo. Normas especiais podem estabelecer regime distinto.
 
-### 3.1. Efeitos do Silêncio e Remédios Jurídicos
-1. **Inexistência de Manifestação de Vontade:** O silêncio revela inércia, descumprimento do dever constitucional de prestar informações e decidir (art. 5º, XXXIII e LXXVIII, da CF/1988 e art. 48 da Lei nº 9.784/1999).
-2. **Quando a Lei Estabelece Efeito ao Silêncio:**
-   - Se a lei expressamente dispuser que o silêncio durante determinado prazo importa em **deferimento tácito** (como ocorre na Lei de Liberdade Econômica - Lei nº 13.874/2019 para liberação de certas atividades econômicas de baixo risco), o transcurso do tempo gera os efeitos jurídicos previstos na norma.
-   - Se a lei dispuser que o silêncio importa em **indeferimento tácito**, abre-se para o interessado a via recursal cabível.
-3. **Ausência de Previsão Legal sobre o Efeito do Silêncio:**
-   - O cidadão não pode presumir deferido nem indeferido o seu pedido. Diante da inércia ilícita da autoridade, o remédio constitucional cabível é o **Mandado de Segurança contra a omissão** ou a **Ação Ordinária de Obrigação de Fazer**, visando obter provimento judicial que **determine que a autoridade aprecie e decida o requerimento**, e não que o juiz profira a decisão discricionária no lugar do administrador.
+**Aprovação tácita** ocorre quando a lei atribui à falta de resposta, após determinado prazo, o efeito de aprovação do pedido. A **Lei nº 13.874/2019 (Declaração de Direitos de Liberdade Econômica)** prevê em seu **art. 3º, IX**, para certos **atos públicos de liberação de atividade econômica**, a comunicação de prazo máximo depois da apresentação dos elementos necessários e a aprovação tácita se transcorrido esse prazo sem decisão, **ressalvadas as proibições e condições da própria lei**. Entre as restrições do art. 3º estão matérias tributárias, decisões que importem compromisso financeiro estatal e determinados pedidos envolvendo agente público. O § 5º limita a aplicação automática da regra a estados e municípios. O **Decreto nº 10.178/2019** disciplina sua aplicação em seu âmbito.
 
----
+Há uma diferença importante: o **art. 3º, I**, da Lei nº 13.874/2019 trata de certas **atividades econômicas de baixo risco dispensadas de atos de liberação**. Já a **aprovação tácita** do inciso IX diz respeito a pedidos de atos de liberação sujeitos ao regime da lei. São hipóteses distintas, portanto não basta mencionar "atividade de baixo risco" para presumir aprovação de pedido.
 
-## 4. Atos da Administração em Geral: Categorias Excluídas do Conceito Estrito
+| Situação | Consequência |
+| :--- | :--- |
+| A autoridade não responde e não existe regra de efeito tácito | Há omissão; não se presume deferimento ou indeferimento |
+| A lei estabelece aprovação tácita, todos os requisitos foram preenchidos e acabou o prazo | Produz-se o efeito previsto, observadas as exceções |
+| A autoridade indefere expressamente um pedido | Existe decisão administrativa sujeita às formas cabíveis de recurso |
+| O requerimento aguarda decisão além do prazo aplicável | O interessado pode buscar medidas administrativas e, se cabível, controle judicial para que haja decisão |
 
-Nem todo ato praticado pela Administração Pública constitui ato administrativo em sentido estrito. A doutrina identifica espécies de atos da Administração que se submetem a regimes jurídicos próprios:
+**Exemplo:** um cidadão requer informação à Câmara. A falta de resposta não transforma automaticamente o documento em informação liberada; aplicam-se o procedimento e os prazos próprios da **Lei nº 12.527/2011**, Lei de Acesso à Informação. Já uma autorização econômica sujeita validamente ao art. 3º, IX, da Lei nº 13.874/2019 pode ter efeito diferente. **O objeto do pedido e a lei incidente determinam a resposta.**
 
-1. **Atos de Direito Privado da Administração:** Praticados pela Administração despida de suas prerrogativas de autoridade pública, submetendo-se predominantemente ao direito civil ou comercial (e.g., celebração de contrato de locação de imóvel privado em que o Estado atua como locatário comum; doação civil pura; emissão de cheques por estatais).
-2. **Atos Materiais:** Operações técnicas e tarefas físicas de rotina desprovidas de caráter decisório (varrição de vias, digitação de memorandos, condução de veículos oficiais).
-3. **Atos Políticos ou de Governo:** Atos que consubstanciam o exercício direto de competências políticas previstas na própria Constituição, marcados por ampla discricionariedade e controle judicial mitigado (e.g., sanção ou veto de projeto de lei pelo Presidente da República; declaração de guerra ou celebração de paz; declaração de estado de defesa ou sítio; indicação de Ministros de Tribunais Superiores).
+Quando não há efeito tácito previsto, o interessado pode pedir providências administrativas e, conforme os requisitos do caso, recorrer ao Judiciário, inclusive por **mandado de segurança** para combater omissão ilegal. A ordem judicial pode exigir que a autoridade **decida**; ela não representa autorização automática para substituir uma escolha administrativa discricionária válida.
 
----
+## Atos da Administração que seguem outros regimes
 
-## 5. Questões Comentadas no Estilo Cebraspe
+**Atos da Administração**, em sentido amplo, compreendem diversas atividades do Estado, nem todas classificadas como atos administrativos **em sentido estrito**. As categorias devem ser identificadas pelo regime aplicável:
+
+- **Atos de gestão sob regime predominantemente privado:** uma empresa estatal concorrencial realiza operações de sua atividade econômica. A Constituição, art. 173, § 1º, II, e a **Lei nº 13.303/2016**, Estatuto Jurídico das Empresas Estatais, impõem regras próprias, sem transformar cada contrato comercial em ato de autoridade. A estatal permanece sujeita aos deveres públicos aplicáveis.
+- **Atos materiais:** execução física de atividade, como limpeza de prédio público ou cumprimento de medida administrativa. Suas consequências podem ser controladas e gerar responsabilidade por dano.
+- **Atos políticos ou de governo:** exercício de competências constitucionais políticas, como **sanção ou veto presidencial** de projeto de lei (Constituição, art. 66). Seu conteúdo político não os torna imunes ao controle de constitucionalidade e legalidade nas hipóteses cabíveis.
+- **Contratos administrativos:** ajustes com manifestação de vontade de duas ou mais partes, submetidos às regras legais da espécie, como a **Lei nº 14.133/2021** quando aplicável. Não se confundem com a declaração unilateral característica do ato administrativo.
+
+## Questões comentadas no estilo Cebraspe
 
 ### Questão 1
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** O ato administrativo constitui uma declaração jurídica unilateral emanada do Estado ou de seus delegatários que, sob regime predominantemente de direito público, tem por fim imediato adquirir, resguardar, transferir, modificar, extinguir direitos ou impor obrigações aos administrados ou a si próprio.
+*Item inédito.* O ato administrativo em sentido estrito constitui, segundo definição doutrinária usual, uma manifestação jurídica unilateral da função administrativa, sujeita ao regime jurídico aplicável e ao controle de legalidade.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** O item sintetiza a clássica e precisa conceituação dogmática de ato administrativo adotada pelo Cebraspe e consolidada na doutrina (Hely Lopes Meirelles e Celso Antônio Bandeira de Mello), destacando seu caráter unilateral, a submissão ao regime de direito público e a produção imediata de efeitos jurídicos.
-
----
+**Gabarito: Certo.** A manifestação é jurídica e unilateral; a função administrativa pode ser exercida por Poderes diferentes. Isso não elimina condições de eficácia nem dispensa controle da legalidade.
 
 ### Questão 2
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** A morte de um servidor público titular de cargo efetivo da Câmara dos Deputados constitui ato administrativo extintivo da relação funcional, devendo ser objeto de anulação caso seja comprovada irregularidade no laudo pericial cadavérico.
+*Item inédito.* O falecimento de servidor público federal é um ato administrativo da autoridade responsável pelo registro de pessoal, pois o ato de registro é a causa jurídica da vacância do cargo.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado**  
-**Comentário:** A morte é um **fato natural da vida com reflexos jurídicos**, consubstanciando um **fato administrativo**, e não um ato administrativo. O fato administrativo gera automaticamente a vacância do cargo (art. 33, IX, da Lei nº 8.112/1990) por força da lei, não emanando de uma declaração de vontade volitiva da Administração. Fatos não são passíveis de "anulação" ou "revogação" (institutos privativos de atos administrativos). O que a autoridade faz é apenas formalizar a declaração de vacância decorrente do fato da morte.
-
----
+**Gabarito: Errado.** A **morte** é um fato natural juridicamente relevante que provoca vacância, nos termos do art. 33, IX, da **Lei nº 8.112/1990**. O registro administrativo reconhece e documenta o fato, mas não é sua causa.
 
 ### Questão 3
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Na omissão da lei quanto aos efeitos do silêncio da autoridade administrativa perante requerimento de licença formulado por cidadão, presume-se a ocorrência de deferimento tácito, em consonância com o princípio da eficiência administrativa.
+*Item inédito.* No processo administrativo federal regido pela Lei nº 9.784/1999, o silêncio da autoridade após o prazo de decisão produz, como regra geral, deferimento automático de qualquer requerimento, ainda que não haja previsão de efeito tácito.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado**  
-**Comentário:** No Direito Administrativo brasileiro, o silêncio administrativo é um **fato omissivo** que não gera presunção de consentimento ou deferimento, salvo expressa e inequívoca previsão legal em contrário. Diante da inércia ilícita da autoridade sem disciplina normativa autorizadora de deferimento tácito, cabe ao interessado socorrer-se das vias judiciais (como o mandado de segurança) para compelir a autoridade a decidir.
-
----
+**Gabarito: Errado.** Os arts. 48 e 49 exigem decisão expressa, com prazo após conclusão da instrução. A aprovação tácita necessita de disciplina normativa específica, como nas hipóteses e limites do art. 3º, IX, da Lei nº 13.874/2019.
 
 ### Questão 4
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** A demolição física de imóvel condenado pela Defesa Civil, levada a efeito pelos operários municipais com base em prévia ordem da fiscalização de posturas, configura ato material da Administração, correspondendo à execução de um ato administrativo prévio.
+*Item inédito.* A execução física de demolição determinada legalmente pela Defesa Civil constitui atuação material da Administração, distinta da decisão administrativa que ordenou a medida.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** A demolição física levada a efeito constitui ato material (fato da Administração voluntário), o qual consubstancia a concretização mecânica e fática da ordem jurídica de demolição (que esta sim corporificou o ato administrativo prévio dotado de autoexecutoriedade).
-
----
+**Gabarito: Certo.** A ordem é declaração jurídica; a demolição é sua execução material. Ambas precisam respeitar o regime jurídico aplicável.
 
 ### Questão 5
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Os atos de gestão privada praticados pelas empresas públicas e sociedades de economia mista exploradoras de atividade econômica em concorrência no mercado equiparam-se, para todos os efeitos de validade e controle, aos atos administrativos típicos das autarquias.
+*Item inédito.* Os contratos comerciais de uma sociedade de economia mista que explore atividade econômica em concorrência possuem automaticamente as mesmas prerrogativas de autoridade que os atos administrativos típicos de uma autarquia.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado**  
-**Comentário:** Conforme o art. 173, § 1º, II, da CF/1988 e a Lei nº 13.303/2016, as empresas estatais exploradoras de atividade econômica submetem-se ao regime jurídico próprio das empresas privadas, inclusive quanto aos direitos e obrigações civis, comerciais, trabalhistas e tributários. Seus atos de comércio e gestão comercial não constituem atos administrativos em sentido estrito dotados de presunção de legitimidade ou imperatividade pública.
-
----
+**Gabarito: Errado.** O art. 173, § 1º, II, da Constituição prevê regime próprio das empresas privadas para obrigações civis, comerciais, trabalhistas e tributárias dessas estatais, sem eliminar controles públicos específicos.
 
 ### Questão 6
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** A fixação de diretrizes de política externa e a sanção ou veto a projetos de lei pelo Chefe do Poder Executivo corporificam atos de governo ou políticos, os quais se distinguem dos atos administrativos ordinários por estarem diretamente vinculados ao texto constitucional e possuírem ampla discricionariedade política.
+*Item inédito.* Sanção e veto presidenciais a projetos de lei são exemplos de atos de governo, ligados ao exercício de competência constitucional, cuja natureza política não afasta por completo as possibilidades juridicamente cabíveis de controle.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** Os atos políticos ou de governo decorrem do exercício da função política de condução suprema do Estado (*policy making*), vinculando-se diretamente à Constituição. Distinguem-se dos atos administrativos comuns, que consubstanciam atividade executória, técnica e subordinada à lei formal.
+**Gabarito: Certo.** Esses atos decorrem do processo político constitucional; a qualificação política não gera imunidade absoluta ao controle de constitucionalidade ou legalidade.
 
----
+## Relações com outros artigos
 
-## 6. Relações com Outros Artigos e Síntese de Revisão
+Para reconhecer quem atua na estrutura estatal, veja [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo e Administração]]. A distinção entre motivo, finalidade, objeto e demais elementos está em [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos do ato administrativo]]. A revisão e extinção de atos é estudada em [[3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos|Anulação, revogação e convalidação]], e o dever de decidir no processo federal é aprofundado em [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo federal]].
 
-- **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo, Administração Pública e Função Administrativa]]: Distinção estrutural entre Governo e Administração técnica.
-  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: A submissão dos atos administrativos ao princípio da juridicidade e da moralidade.
-  - [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto]]: Os requisitos de validade (CO-FI-FO-MO-O), atributos, classificação e extinção de atos administrativos.
-  - [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo federal]]: A formalização do ato administrativo e o dever legal de motivação da Lei nº 9.784/1999.
+## Fontes jurídicas
+
+- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), arts. 5º, XXXV; 37; 66; 173; [Lei nº 4.717/1965](https://www.planalto.gov.br/ccivil_03/leis/l4717.htm), Lei da Ação Popular, art. 2º.
+- [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm), processo administrativo federal, arts. 48 e 49 (dever e prazo de decisão) e 53 a 55 (anulação e convalidação).
+- [Lei nº 13.874/2019](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13874.htm), Declaração de Direitos de Liberdade Econômica, art. 3º, I, IX e §§ 5º a 8º, e [Decreto nº 10.178/2019](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d10178.htm), regulamentação de atos públicos de liberação econômica.
+- [Lei nº 8.112/1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm), art. 33, IX, vacância por falecimento; [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), acesso à informação.
+- [Lei nº 13.303/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm), Estatuto das Empresas Estatais; [Lei nº 14.133/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), licitações e contratos administrativos.

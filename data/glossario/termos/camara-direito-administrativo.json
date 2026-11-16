@@ -479,6 +479,62 @@
         "camara-2026"
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-silencio-administrativo",
+      "term": "Silêncio administrativo e dever de decidir",
+      "aliases": [
+        "silêncio da Administração",
+        "omissão de resposta administrativa"
+      ],
+      "definition": "É a falta de decisão expressa que a autoridade deveria tomar. No processo administrativo federal, a Lei nº 9.784/1999 impõe o dever de decidir e prevê prazo de até 30 dias após a instrução, prorrogável por igual período com motivação. O silêncio não aprova nem rejeita pedido sem regra específica.",
+      "contrast": "Aprovação tácita exige previsão normativa e requisitos próprios. Silêncio administrativo ordinário é omissão, cuja correção pode ser exigida; decisão expressa desfavorável é um ato sujeito a recursos nas hipóteses legais.",
+      "cebraspeTrap": "Afirmar que qualquer requerimento administrativo federal fica automaticamente aprovado após 30 dias de silêncio ou que o prazo de decisão começa sempre na data do protocolo.",
+      "example": "Pedido administrativo cuja instrução terminou deve ser decidido pela autoridade competente; sua omissão não concede automaticamente a licença que o cidadão solicitou.",
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999, arts. 48 e 49",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ],
+      "status": "reviewed",
+      "articleIds": [
+        "art-e9d0b4352f3e1455"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ]
+    },
+    {
+      "id": "glo-camara-aprovacao-tacita-liberdade-economica",
+      "term": "Aprovação tácita em atos de liberação econômica",
+      "aliases": [
+        "art. 3º, IX, da Lei nº 13.874/2019",
+        "deferimento tácito econômico"
+      ],
+      "definition": "É o efeito que a Lei nº 13.874/2019 prevê para pedidos de atos públicos de liberação de atividade econômica abrangidos por ela quando o interessado apresenta elementos necessários, recebe prazo definido e a autoridade permanece em silêncio depois de esgotado esse prazo, observadas as exceções legais.",
+      "contrast": "Dispensa de ato de liberação para atividades de baixo risco (art. 3º, I) não se confunde com aprovação tácita de um pedido (art. 3º, IX). Nem todo pedido ou ente federativo se enquadra automaticamente na regra.",
+      "cebraspeTrap": "Confundir atividade de baixo risco dispensada de alvará com aprovação tácita universal, ou ignorar as exclusões e a disciplina de entes federativos.",
+      "example": "Um pedido federal de ato de liberação econômica coberto pela lei pode obter efeito de aprovação após o prazo comunicado se todos os requisitos legais forem cumpridos e não houver exceção aplicável.",
+      "sources": [
+        {
+          "label": "Lei nº 13.874/2019, art. 3º, I e IX e §§ 5º a 8º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13874.htm"
+        }
+      ],
+      "status": "reviewed",
+      "articleIds": [
+        "art-e9d0b4352f3e1455"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ]
     }
   ]
 }

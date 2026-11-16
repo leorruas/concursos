@@ -715,6 +715,22 @@
       "examBlock": "Conhecimentos básicos: Administração Pública",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-silencio-administrativo",
+      "term": "Silêncio administrativo e dever de decidir",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-aprovacao-tacita-liberdade-economica",
+      "term": "Aprovação tácita em atos de liberação econômica",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

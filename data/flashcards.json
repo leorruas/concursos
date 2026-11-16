@@ -10810,6 +10810,10 @@
       "contrast": {
         "prompt": "A Mesa Diretora reúne os 513 deputados e é responsável por votar todos os projetos em lugar do Plenário. Certo ou errado?",
         "answer": "Errado. A Mesa é órgão de direção composto por sete titulares; Plenário e comissões desempenham funções deliberativas próprias."
+      },
+      "note": {
+        "articleId": "art-4c1041281ca44ee5",
+        "section": "Revisão final: quatro decisões com quóruns diferentes"
       }
     }
   ]

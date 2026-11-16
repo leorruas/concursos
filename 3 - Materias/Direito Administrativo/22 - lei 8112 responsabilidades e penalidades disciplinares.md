@@ -278,38 +278,88 @@ Fonte: [STJ, Súmula nº 635, texto oficial](https://scon.stj.jus.br/SCON/sumstj
 
 ## 4. Questões comentadas
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**1.** A absolvição de servidor público federal no juízo penal por ausência ou insuficiência de provas vincula de forma absoluta a esfera administrativa, impedindo que contra ele seja aplicada a penalidade de demissão pelos mesmos fatos.
+Os itens abaixo são **inéditos**, em formato **Cebraspe (C/E)**. O gabarito e a explicação ficam na fonte Markdown para permitir revisão também no Obsidian ou em eventual EPUB.
 
-> **Gabarito: ERRADO**  
-> **Comentário:** A regra do ordenamento jurídico brasileiro é a independência e comunicabilidade mitigada das instâncias civil, penal e administrativa (art. 125 da Lei nº 8.112/1990). A sentença penal absolutória só repercute na esfera administrativa se fundar-se expressamente na **inexistência material do fato** ou na **negativa categórica de autoria** (art. 126 c/c Súmula 18 do STF). A absolvição penal por insuficiência de provas (art. 386, VII, CPP) não impede a punição disciplinar administrativa, porquanto o padrão probatório e o bem jurídico tutelado na seara disciplinar são autônomos.
+**1.** A absolvição criminal de servidor por insuficiência de provas impede a punição administrativa fundada nos mesmos acontecimentos, porque a decisão judicial sempre vincula o PAD.
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**2.** A penalidade de demissão decorrente de ato de corrupção ou improbidade administrativa acarreta a proibição perpétua de retorno do ex-servidor ao serviço público federal, não sendo aplicável, nesses casos, o prazo de incompatibilidade de cinco anos reservado para faltas de menor potencial ofensivo.
+> **Gabarito: ERRADO.** Pelo **art. 126 da Lei nº 8.112/1990**, o afastamento obrigatório da responsabilidade administrativa pelo mesmo fato decorre de absolvição que **negue sua existência** ou **a autoria**. Falta de provas na esfera penal, por si só, **não elimina** apuração disciplinar que tenha provas suficientes.
 
-> **Gabarito: ERRADO**  
-> **Comentário:** A ADI 2.975 declarou inconstitucional a vedação perpétua do art. 137, parágrafo único, da Lei nº 8.112/1990. Nos embargos julgados em 2023, o STF esclareceu que a incompatibilidade de **cinco anos**, prevista no caput, também alcança essas hipóteses até nova disciplina legal. Por isso, o enunciado erra ao afirmar proibição perpétua e ao negar a incidência do prazo quinquenal. Fonte: [ADI 2.975, embargos de declaração](https://www.tst.jus.br/documents/10157/31760431/STF%2B-%2BA%C3%A7%C3%A3o%2BDireta%2Bde%2BInconstitucionalidade%2Bn%C2%BA%2B2.975%2C%2BDOU%2Bde%2B26.5.2023%2B-%2BADI-ED.pdf/ac22d3ef-d140-3138-4577-672bbef9eb4f?download=true&t=1688400959344).
+**2.** Quando a Justiça criminal reconhece categoricamente que o servidor não foi autor de determinado fato, a Administração não pode continuar imputando-lhe disciplinarmente essa mesma conduta, sem prejuízo da apuração de falta residual distinta.
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**3.** O prazo de prescrição da ação disciplinar contra servidor público federal começa a correr a partir da data em que a infração foi efetivamente cometida no ambiente de trabalho, interrompendo-se com a portaria de instauração do processo administrativo disciplinar.
+> **Gabarito: CERTO.** É a combinação dos **arts. 125 e 126** com a **Súmula 18 do STF**. Negativa categórica de autoria vincula quanto ao fato, mas infração **residual autônoma** não excluída pelo julgamento penal pode ser apurada, com os requisitos legais.
 
-> **Gabarito: ERRADO**  
-> **Comentário:** Conforme o art. 142, § 1º, da Lei nº 8.112/1990, o prazo prescricional começa a correr não da data do cometimento da falta, mas da **data em que o fato se tornou conhecido pela autoridade competente para a instauração do processo disciplinar**. A data do fato não marca o termo inicial do cômputo prescricional administrativo.
+**3.** A responsabilidade civil por dano causado por agente público a terceiro implica, em regra, que a vítima tenha de processar diretamente o servidor e apenas subsidiariamente o Estado.
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**4.** A instauração de processo administrativo disciplinar interrompe a prescrição da pretensão punitiva da Administração, voltando o prazo a correr por inteiro após decorridos cento e quarenta dias sem que haja decisão final proferida pela autoridade julgadora.
+> **Gabarito: ERRADO.** Pelo **art. 37, § 6º, da Constituição** e **Tema 940 do STF**, a pretensão de reparação por dano causado pelo agente nessa qualidade se dirige à pessoa jurídica responsável, ressalvada a **ação regressiva** contra o servidor quando comprovado dolo ou culpa.
 
-> **Gabarito: CERTO**  
-> **Comentário:** Exata tese consolidada na Súmula nº 635 do STJ e na jurisprudência do STF. A instauração do PAD interrompe o prazo prescricional (art. 142, § 3º). Essa interrupção cessa e o prazo recomeça a fluir por inteiro após o esgotamento do prazo legal para o término regular do procedimento disciplinar (60 dias de prazo ordinário da comissão + 60 dias de prorrogação + 20 dias para decisão da autoridade julgadora = 140 dias).
+**4.** A comunicação de suspeitas de crimes ou improbidade a autoridade competente, observadas as condições do art. 126-A, pode receber proteção contra responsabilização do servidor pelo simples fato de reportá-las, mesmo quando a chefia é suspeita de envolvimento.
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**5.** Servidor aposentado que tiver praticado, na atividade, conduta legalmente capitulada como passível de demissão estará sujeito à cassação de sua aposentadoria, instituto cuja constitucionalidade foi chancelada pelo Supremo Tribunal Federal.
+> **Gabarito: CERTO.** O **art. 126-A** protege a comunicação nos canais legais, inclusive **a outra autoridade competente** quando a chefia estiver envolvida. Não constitui autorização para fabricar denúncias ou praticar outros ilícitos.
 
-> **Gabarito: CERTO**  
-> **Comentário:** Assertiva plenamente conforme ao art. 134 da Lei nº 8.112/1990 ("Será cassada a aposentadoria ou a disponibilidade do inativo que houver praticado, na atividade, falta punível com a demissão") e à **ADPF 418**, cujo julgamento de mérito pelo STF, em abril de 2020, reconheceu a constitucionalidade da cassação disciplinar de aposentadoria nos termos da lei. [STF, Informativo 975, ADPF 418](https://www.stf.jus.br/arquivo/informativo/documento/informativo975.htm).
+**5.** A advertência disciplinar prevista no estatuto federal pode ser verbal quando houver retratação imediata e, por isso, dispensa a exposição do fundamento legal.
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**6.** A penalidade disciplinar de advertência poderá ser aplicada verbalmente pelo superior hierárquico direto na hipótese de faltas leves de insubordinação, dispensando-se o registro nos assentamentos funcionais caso o servidor apresente retratação imediata.
+> **Gabarito: ERRADO.** O **art. 129** exige advertência **por escrito** e o **art. 128, parágrafo único**, exige indicação de causa e fundamento da sanção. Retratação, quando relevante, não cria uma espécie de advertência disciplinar verbal.
 
-> **Gabarito: ERRADO**  
-> **Comentário:** De acordo com o art. 129 da Lei nº 8.112/1990, a advertência será aplicada **sempre por escrito** e constará do assentamento individual do servidor. Não existe no estatuto federal a figura da advertência verbal tácita, sendo nulo o ato disciplinar punitivo que desatender à forma escrita e à garantia do contraditório e da ampla defesa.
+**6.** Quando houver conveniência para o serviço, a suspensão pode ser convertida em multa de cinquenta por cento por dia de vencimento ou remuneração, devendo o servidor permanecer trabalhando.
+
+> **Gabarito: CERTO.** É a regra do **art. 130, § 2º**. A suspensão tem limite geral de **90 dias** e o caso especial de recusa injustificada a inspeção médica pode gerar **até quinze dias**, cessando efeitos após o cumprimento (art. 130, § 1º).
+
+**7.** A detecção de acumulação ilícita de cargos exige demissão imediata em qualquer hipótese, uma vez que o art. 132, XII, não concede oportunidade de opção ou de defesa.
+
+> **Gabarito: ERRADO.** Pelo **art. 133**, há **dez dias para opção**, seguidos, em caso de omissão, de rito sumário com defesa; opção até o último dia do prazo defensivo configura **boa-fé**. A pena expulsiva descrita no § 6º pressupõe **acumulação ilegal e má-fé comprovada**.
+
+**8.** Ausência intencional por mais de trinta dias consecutivos pode configurar abandono de cargo, enquanto sessenta dias de faltas injustificadas intercaladas em doze meses podem constituir inassiduidade habitual.
+
+> **Gabarito: CERTO.** São os critérios diferentes dos **arts. 138 e 139**. No abandono, é essencial a **intenção** e a sequência superior a trinta dias; na inassiduidade, contam-se **sessenta faltas intercaladas sem justa causa** no intervalo legal.
+
+**9.** Por força do parágrafo único do art. 137, que permanece integralmente válido, a demissão por corrupção proíbe para sempre novo ingresso no serviço público federal.
+
+> **Gabarito: ERRADO.** O **STF declarou inconstitucional** a proibição perpétua na **ADI 2.975**. Nos embargos de 2023, aplicou às hipóteses atingidas, **até disciplina legal nova**, a **incompatibilidade de cinco anos** do caput.
+
+**10.** A cassação de aposentadoria disciplinar somente se aplica, nos termos do art. 134, a falta punível com demissão praticada enquanto o agente estava em atividade, respeitado o devido procedimento.
+
+> **Gabarito: CERTO.** É a disciplina do **art. 134**, cuja constitucionalidade foi reconhecida na **ADPF 418 do STF**. A sanção não equivale a responsabilizar automaticamente qualquer comportamento posterior à aposentadoria.
+
+**11.** Os prazos básicos de prescrição são de cinco anos para faltas puníveis com demissão, dois anos para suspensão e cento e oitenta dias para advertência, contados da ciência do fato pela autoridade competente para iniciar a apuração.
+
+> **Gabarito: CERTO.** São os **arts. 142, I a III e § 1º**, interpretados pela **Súmula 635 do STJ**. A simples data da prática da falta ou ciência de qualquer colega não é necessariamente o termo inicial.
+
+**12.** Uma sindicância meramente investigativa interrompe obrigatoriamente o prazo prescricional, tal como a sindicância punitiva e o PAD, e permite mantê-lo interrompido por prazo ilimitado até a conclusão.
+
+> **Gabarito: ERRADO.** Segundo a **Súmula 635**, a interrupção exige o **primeiro ato válido** de sindicância **punitiva** ou PAD, e o prazo volta a correr **por inteiro após 140 dias** desde a interrupção se não houver decisão final. Uma investigação preliminar não se equipara automaticamente a essa instauração.
+
+**13.** A aplicação do prazo prescricional penal a conduta disciplinar também tipificada como crime depende necessariamente da abertura de inquérito ou ação penal sobre os mesmos fatos.
+
+> **Gabarito: ERRADO.** O **STJ, MS 20.857/DF**, decidiu que o **art. 142, § 2º**, admite o prazo penal para falta também capitulada como crime **independentemente de apuração criminal**, exigindo enquadramento jurídico e prova adequados no processo administrativo.
+
+**14.** Em servidor vinculado à Câmara dos Deputados, a aplicação de demissão ou cassação de aposentadoria no regime da Lei nº 8.112/1990 é matéria de competência do presidente da Casa, enquanto advertência e suspensão até trinta dias observam as autoridades previstas no regimento ou regulamento.
+
+> **Gabarito: CERTO.** O **art. 141, I**, menciona os **presidentes das Casas do Legislativo** para demissão e cassação. O **inciso III** prevê chefia e outras autoridades conforme disciplina interna para advertência e suspensão **até trinta dias**; competência para **suspensão superior a trinta dias** segue o inciso II.
+
+**15.** Depois de três anos de efetivo exercício sem nova falta, o cancelamento do registro de advertência tem efeito retroativo e apaga o fundamento jurídico da sanção, inclusive a obrigação de ressarcir danos.
+
+> **Gabarito: ERRADO.** O **art. 131** cancela o registro da advertência após **três anos** e o da suspensão após **cinco anos** nas condições previstas, mas seu **parágrafo único proíbe efeitos retroativos**. O cancelamento do registro disciplinar não equivale a anulação da sanção nem extingue automaticamente eventual dever civil de reparar.
+
+**16.** Quem ocupa apenas cargo em comissão, sem cargo efetivo, pode sofrer destituição quando cometer falta sujeita às penas de suspensão ou demissão; na hipótese legal, uma exoneração já efetivada pode ser convertida em destituição.
+
+> **Gabarito: CERTO.** É a disciplina do **art. 135 e seu parágrafo único**. A destituição de função comissionada também consta do **art. 127, VI**, mas não se deve tratar os dois institutos como idênticos.
+
+**Heurísticas:** na prova, separe **fato, autoria, espécie de responsabilidade, tipificação, competência para punir e prazo**. A diferença entre **não ter prova da autoria** e **estar provado que não houve autoria**, assim como entre **30 dias consecutivos e 60 dias intercalados**, costuma decidir o gabarito.
+
+## Relações com outros temas
+
+- [[3 - Materias/Direito Administrativo/21 - lei 8112 direitos vantagens deveres e proibicoes|Lei nº 8.112: direitos, deveres e proibições]]: associa o inciso do art. 117 à pena dos arts. 129, 130 e 132.
+- [[3 - Materias/Direito Administrativo/23 - direito administrativo disciplinar principios e ilicitos funcionais|Direito disciplinar: princípios e ilícitos funcionais]]: tipicidade, prova e enquadramento de condutas.
+- [[3 - Materias/Direito Administrativo/24 - sindicancia processo administrativo disciplinar e seus ritos|Sindicância e processo administrativo disciplinar]]: fases do procedimento, defesa, comissão, julgamento e afastamento preventivo.
+- [[3 - Materias/Direito Administrativo/07 - improbidade administrativa|Improbidade administrativa]]: ação judicial de improbidade e distinção do enquadramento disciplinar.
+- [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo federal]]: motivação, recurso, prazo e revisão administrativa.
+
+## Fontes oficiais
+
+- [Lei nº 8.112/1990, texto atualizado da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html): arts. 121 a 142 e, nos procedimentos, 143, 152 e 167.
+- [STJ, Súmula 635](https://scon.stj.jus.br/SCON/sumstj/doc.jsp?b=SUMU&i=1&l=10&livre=%22635%22.num.&operador=AND&ordenacao=-%40NUM&p=false): ciência pela autoridade competente, interrupção válida e retorno da contagem depois de 140 dias.
+- [STJ, MS 20.857/DF, Informativo 651](https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=%270651%27.cod.): aplicação de prazo penal sem necessidade de processo criminal.
+- [STF, ADPF 418, Informativo 975](https://www.stf.jus.br/arquivo/informativo/documento/informativo975.htm): constitucionalidade da cassação disciplinar de aposentadoria.
+- [STF, ADI 2.975, embargos publicados em 2023](https://www.tst.jus.br/documents/10157/31760431/STF%2B-%2BA%C3%A7%C3%A3o%2BDireta%2Bde%2BInconstitucionalidade%2Bn%C2%BA%2B2.975%2C%2BDOU%2Bde%2B26.5.2023%2B-%2BADI-ED.pdf/ac22d3ef-d140-3138-4577-672bbef9eb4f?download=true&t=1688400959344): incompatibilidade de cinco anos até nova disciplina legal.
+- [Constituição Federal, art. 37, § 6º](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988): responsabilidade estatal por danos a terceiros e direito de regresso.
+

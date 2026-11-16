@@ -1171,6 +1171,94 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo",
       "contestId": "camara-2026",
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-ppp-lei-11079",
+      "term": "Parceria público-privada na Lei nº 11.079/2004",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-ppp-patrocinada",
+      "term": "Concessão patrocinada de PPP",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-ppp-administrativa",
+      "term": "Concessão administrativa de PPP",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-ppp-valor-prazo-objeto",
+      "term": "Requisitos de valor, prazo e objeto em PPP",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-mrosc-termo-colaboracao",
+      "term": "Termo de colaboração do MROSC",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-mrosc-termo-fomento",
+      "term": "Termo de fomento do MROSC",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-mrosc-chamamento-art29",
+      "term": "Chamamento público e art. 29 do MROSC",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-os-contrato-gestao-9637",
+      "term": "Organização social (OS) e contrato de gestão",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-oscip-termo-parceria-9790",
+      "term": "OSCIP e termo de parceria",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-mrosc-exclusoes-os-oscip",
+      "term": "Exclusão dos instrumentos de OS e OSCIP do MROSC",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-mrosc-terceiro-setor-osc",
+      "term": "Terceiro setor, OSC e qualificações especiais",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

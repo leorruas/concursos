@@ -18,7 +18,17 @@ export function validateFlashcards(data,root) {
         assert.equal(c.status,'validated');assert.match(c.reviewedAt,/^\d{4}-\d{2}-\d{2}$/);assert.ok(Number.isInteger(c.revision)&&c.revision>0);
         assert.ok(c.examIds.length&&c.examIds.every(id=>exams.has(id)));assert.ok(c.subjectIds.length&&c.subjectIds.every(id=>subjects.has(id)));
         assert.ok(c.editalRefs.length&&c.editalRefs.every(x=>typeof x==='string'&&/^(?:P\d|DP-(?:GER|ESP))/.test(x)));
-        for(const eid of c.examIds) {const cat=contests.find(x=>x.concursoId===eid);assert.ok(cat);assert.ok(c.subjectIds.every(id=>cat.subjects.some(s=>s.subjectId===id)),c.id+': matéria fora do catálogo');}
+        // Cada cartão pode servir a disciplinas diferentes em concursos diferentes.
+        // Garantir uma disciplina válida por concurso e cobertura de toda disciplina declarada.
+        const covered=new Set();
+        for(const eid of c.examIds) {
+            const cat=contests.find(x=>x.concursoId===eid);
+            assert.ok(cat);
+            const applicable=c.subjectIds.filter(id=>cat.subjects.some(s=>s.subjectId===id));
+            assert.ok(applicable.length>0,c.id+': sem matéria no catálogo do concurso '+eid);
+            applicable.forEach(id=>covered.add(id));
+        }
+        assert.ok(c.subjectIds.every(id=>covered.has(id)),c.id+': matéria fora do catálogo dos concursos do cartão');
         if(c.legacyErrorIds!==undefined)assert.ok(Array.isArray(c.legacyErrorIds)&&
             c.legacyErrorIds.length>0&&new Set(c.legacyErrorIds).size===c.legacyErrorIds.length &&
             c.legacyErrorIds.every(id=>typeof id==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(id)),c.id+': IDs históricos inválidos');

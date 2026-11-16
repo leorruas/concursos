@@ -71,6 +71,17 @@ assert.ok(F.select(cards.filter(c=>c.id===id),state,{...options,direction:'rever
 assert.throws(()=>F.validateState({version:99,reviews:{}},cards));
 assert.throws(()=>F.validateState({version:1,reviews:{[id+':forward']:{grade:'good',due:NaN,last:0,streak:9,attempts:1}}},cards));
 assert.throws(()=>F.validateState({...state,session:{...state.session,position:99}},cards));
+// Cobertura de categorias por concurso: um cartão pode ter assunto de CGU e Câmara.
+const sharedCard=cards.find(c=>c.id==='transparencia-ativa');
+assert(sharedCard?.examIds.includes('cgu-2026')&&sharedCard.examIds.includes('camara-2026'));
+assert(sharedCard.subjectIds.includes('transparencia-ouvidoria')&&sharedCard.subjectIds.includes('administracao-publica'));
+assert.equal(validateFlashcards(data,root),cards.length);
+const withoutCamara=structuredClone(data);
+withoutCamara.cards.find(c=>c.id==='transparencia-ativa').subjectIds=['transparencia-ouvidoria'];
+assert.throws(()=>validateFlashcards(withoutCamara,root),/sem matéria no catálogo do concurso camara-2026/);
+const extraneousSubject=structuredClone(data);
+extraneousSubject.cards.find(c=>c.id==='transparencia-ativa').examIds=['camara-2026'];
+assert.throws(()=>validateFlashcards(extraneousSubject,root),/matéria fora do catálogo dos concursos do cartão/);
 const bad=structuredClone(data);bad.cards[0].note.section='Seção que não existe';assert.throws(()=>validateFlashcards(bad,root));
 const duplicate=structuredClone(data);duplicate.cards.push(duplicate.cards[0]);assert.throws(()=>validateFlashcards(duplicate,root));
 

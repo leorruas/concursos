@@ -11215,6 +11215,78 @@
       "editalRefs": [
         "P1. 14.2.3 / Direito Administrativo / Agentes públicos"
       ]
+    },
+    {
+      "topic": "Improbidade administrativa",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Improbidade administrativa"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "id": "camara-improbidade-publicidade-personalista",
+      "term": "Publicidade institucional e improbidade",
+      "definition": "O art. 11, XII, da LIA alcança publicidade custeada com recursos públicos que enalteça inequivocamente agente público e personalize atos ou serviços, em contrariedade ao art. 37, § 1º, da Constituição, com dolo e demais requisitos do tipo.",
+      "example": "Campanha informa acesso a um serviço: divulgação institucional. Campanha deliberadamente voltada a enaltecer autoridade com recursos públicos: hipótese a investigar no art. 11, XII.",
+      "confusion": "A presença de autoridade em campanha não comprova automaticamente enaltecimento ilícito, dolo ou lesividade relevante.",
+      "note": {
+        "articleId": "art-ea06e80ef83f4af7",
+        "section": "Art. 11 — atentado contra princípios"
+      },
+      "source": {
+        "title": "Lei nº 8.429/1992, art. 11, XII; Constituição Federal",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1992/lei-8429-2-junho-1992-357452-normaatualizada-pl.html",
+        "locator": "Art. 11, XII, §§ 1º, 3º e 4º; art. 37, § 1º, da CF"
+      },
+      "conceptIds": [
+        "glo-camara-improbidade-principios"
+      ],
+      "contrast": {
+        "prompt": "Campanha institucional custeada pelo erário é, por si só, improbidade do art. 11, XII?",
+        "answer": "Não. É preciso provar promoção pessoal inequívoca, dolo e demais requisitos legais, diferenciando a campanha informativa impessoal."
+      }
+    },
+    {
+      "topic": "Improbidade administrativa",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Improbidade administrativa"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "id": "camara-improbidade-stf-2026-sancoes",
+      "term": "Improbidade: consequências das ADIs de 2026",
+      "definition": "Nas ADIs 7.156 e 7.236, o STF afastou restrições à perda da função e à proibição de contratar, assim como o desconto prévio de tempo na suspensão de direitos políticos. A pena depende do tipo do art. 9º, 10 ou 11.",
+      "example": "Condenação exclusivamente pelo art. 11 não permite impor perda da função pública ou suspensão de direitos políticos com base no art. 12, III.",
+      "confusion": "A Constituição lista consequências gerais, mas o art. 12 da LIA distribui sanções por categoria; o art. 11 tem sanções distintas dos arts. 9º e 10.",
+      "note": {
+        "articleId": "art-ea06e80ef83f4af7",
+        "section": "Sanções: Constituição × Lei de Improbidade"
+      },
+      "source": {
+        "title": "STF, Informativo 1225/2026",
+        "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm",
+        "locator": "ADIs 7.156 e 7.236; Lei nº 8.429/1992, art. 12"
+      },
+      "conceptIds": [
+        "glo-camara-tipificacao-improbidade"
+      ],
+      "contrast": {
+        "prompt": "A condenação por improbidade tipificada somente no art. 11 impõe perda da função e suspensão de direitos políticos?",
+        "answer": "Não. O art. 12, III, prevê multa civil e proibição de contratar/receber benefícios, observadas as condições legais."
+      }
     }
   ]
 }

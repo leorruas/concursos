@@ -81,9 +81,9 @@
       "id": "glo-camara-prescricao-improbidade",
       "term": "Prescrição na improbidade administrativa",
       "aliases": [],
-      "definition": "É o prazo para propor a ação que busca aplicar sanções por improbidade. Como regra, são oito anos contados do fato ou do fim da infração permanente (art. 23 da Lei nº 8.429/1992), com causas legais de suspensão e interrupção.",
-      "contrast": "A prescrição das sanções difere da discussão sobre ressarcimento ao erário. Pelo Tema 1199 do STF, os novos marcos prescricionais não retroagem; nas ADIs 7.156 e 7.236, o STF afastou o reinício pela metade.",
-      "cebraspeTrap": "Aplicar automaticamente quatro anos após uma interrupção: nas ADIs 7.156 e 7.236, o STF afastou a redução pela metade e estabeleceu reinício integral, observado o limite global de 20 anos para a pretensão sancionatória.",
+      "definition": "Prazo para exigir sanções por improbidade, em regra oito anos (art. 23 da LIA), com suspensão e interrupção legais; após interrupção válida, o prazo recomeça integralmente, observado o limite global máximo de vinte anos definido pelo STF em 2026.",
+      "contrast": "A prescrição da pretensão sancionatória não se confunde com a ação de ressarcimento ao erário fundada em ato doloso tipificado na LIA, que o STF considerou imprescritível no Tema 897.",
+      "cebraspeTrap": "Aplicar quatro anos após interrupção, contrariando as ADIs 7.156 e 7.236, ou afirmar que toda reparação civil é imprescritível.",
       "example": "Ao examinar um processo, identifique a data dos fatos e cada causa de interrupção; a contagem depende do regime aplicável e dos marcos reconhecidos pelo STF.",
       "articleIds": [
         "art-ea06e80ef83f4af7"
@@ -102,6 +102,10 @@
         {
           "label": "STF, Informativo 1225, ADIs 7.156 e 7.236",
           "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm"
+        },
+        {
+          "label": "STF, Tema 897: ressarcimento por ato doloso tipificado",
+          "url": "https://portal.stf.jus.br/jurisprudenciarepercussao/tema.asp?num=897"
         }
       ],
       "status": "reviewed"
@@ -135,10 +139,10 @@
       "id": "glo-camara-improbidade-principios",
       "term": "Improbidade por violação de princípios",
       "aliases": [],
-      "definition": "É a prática dolosa de uma das condutas especificamente previstas no art. 11 da Lei de Improbidade Administrativa (LIA), que atentam contra deveres como honestidade, imparcialidade e legalidade na atuação pública.",
-      "contrast": "Uma conduta pode contrariar um princípio administrativo e ser ilegal sem configurar improbidade. Para o art. 11, é necessário demonstrar dolo e enquadramento em uma das condutas expressamente previstas na lei.",
-      "cebraspeTrap": "Tratar qualquer descumprimento da legalidade como improbidade automática. O art. 11 exige conduta específica prevista em lei e os elementos subjetivos aplicáveis.",
-      "example": "Um agente nega deliberadamente publicidade a ato oficial que deveria ser divulgado, fora das exceções legais. O enquadramento exige verificar os requisitos do inciso correspondente, e não apenas constatar atraso.",
+      "definition": "Conduta dolosa e taxativamente prevista no art. 11 da Lei nº 8.429/1992, com demonstração da norma violada, do fim ilícito aplicável e de lesividade relevante, sem exigir necessariamente dano patrimonial ao erário.",
+      "contrast": "O art. 10 requer dano patrimonial efetivo e comprovado. O art. 11 protege princípios em hipóteses específicas, inclusive publicidade custeada pelo erário para enaltecer inequivocamente agente público e personalizar atos ou serviços (inciso XII).",
+      "cebraspeTrap": "Tratar toda violação genérica de princípio ou toda campanha institucional como improbidade, sem provar dolo, lesividade relevante e o inciso específico.",
+      "example": "Uma campanha informa como acessar serviço público; uma peça preparada deliberadamente para enaltecer autoridade com recursos públicos pode preencher o art. 11, XII, conforme os requisitos legais.",
       "articleIds": [
         "art-ea06e80ef83f4af7"
       ],
@@ -152,6 +156,10 @@
         {
           "label": "Lei nº 8.429/1992, Art. 11",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"
+        },
+        {
+          "label": "STF, Informativo 1225/2026: ADIs 7.156 e 7.236",
+          "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1225.htm"
         }
       ],
       "status": "reviewed"

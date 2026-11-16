@@ -236,7 +236,8 @@ flowchart TD
     P5["Comissões sucessivas:<br/>10 sessões por comissão<br/>Relator: inicialmente 5 sessões"]
     P6["Comissão vota parecer;<br/>CCJC e CFT examinam preliminares<br/>quando cabíveis"]
     P7{"Parecer terminativo<br/>impede prosseguimento?"}
-    P8["Aplicar recurso e exame<br/>preliminar; pode haver arquivo"]
+    P8{"Recurso e apreciação<br/>preliminar superados?"}
+    P15["Arquivamento conforme<br/>regras aplicáveis"]
     P9{"Cabe apreciação conclusiva<br/>pelas comissões?"}
     P10["Comissões decidem; cabe recurso<br/>nos termos dos arts. 58 e 132"]
     P11["Pareceres publicados e avulsos<br/>distribuídos com antecedência"]
@@ -247,18 +248,22 @@ flowchart TD
     P1 -- "concessão" --> P3 --> P4
     P4 --> P5 --> P6 --> P7
     P7 -- "sim" --> P8
+    P8 -- "sim" --> P9
+    P8 -- "não" --> P15
     P7 -- "não" --> P9
     P9 -- "sim" --> P10
     P9 -- "não" --> P11 --> P12 --> P13
     P10 -- "sem recurso provido e aprovado" --> P14
     P10 -- "recurso provido" --> P13
+    P10 -- "rejeição" --> P15
     P13 -- "aprovação" --> P14
+    P13 -- "rejeição" --> P15
     classDef raiz fill:#fff2d9,stroke:#b45309,color:#3d2207
     classDef criterio fill:#fffbeb,stroke:#b45309,color:#3d2207
     classDef opcao fill:#ffffff,stroke:#a16207,color:#1c1917
     class P2,P3,P4 raiz
-    class P1,P7,P9 criterio
-    class P5,P6,P8,P10,P11,P12,P13,P14 opcao
+    class P1,P7,P8,P9 criterio
+    class P5,P6,P10,P11,P12,P13,P14,P15 opcao
 ```
 
 **O que a prioridade muda concretamente:** as **10 sessões** são atribuídas a **cada comissão**, e não à soma de todas. O relator tem inicialmente metade desse prazo, com regras para prorrogação e substituição no art. 52. A proposta apta à pauta deve estar numerada, publicada e distribuída em avulsos **com pareceres disponibilizados com pelo menos uma sessão de antecedência**, conforme o art. 158, § 1º. A inclusão na Ordem do Dia da sessão seguinte aplica-se **à matéria sujeita a Plenário que atenda essas condições**; não converte automaticamente matéria conclusiva em matéria plenária. Um parecer terminativo contrário não é ignorado só porque o projeto tem prioridade.

@@ -17,7 +17,7 @@ Imagine que a Câmara dos Deputados publique uma portaria de nomeação. A porta
 
 A **Constituição Federal de 1988**, no art. 37, exige que a atividade administrativa observe legalidade, impessoalidade, moralidade, publicidade e eficiência. A **Lei nº 9.784/1999**, que disciplina o processo administrativo federal, impõe o dever de decidir nos arts. 48 e 49. A diferença entre ato e fato é sobretudo uma **classificação doutrinária**, construída para compreender como os efeitos jurídicos surgem e como podem ser controlados.
 
-## O que caracteriza um ato administrativo
+## 1. Conceito Dogmático de Ato Administrativo
 
 O **ato administrativo**, em uma definição doutrinária frequente, é uma **declaração jurídica unilateral** do Estado ou de quem exerce função administrativa sob regime predominantemente de direito público, com aptidão para produzir efeitos jurídicos. Ele pode reconhecer, criar, alterar ou extinguir situações jurídicas. Exemplos: conceder licença, nomear servidor, aplicar sanção ou expedir certidão.
 
@@ -44,7 +44,7 @@ Um ato administrativo pode ser praticado pelo **Executivo**, pelo **Legislativo*
 
 A **Lei nº 4.717/1965**, Lei da Ação Popular, indica em seu art. 2º vícios relativos a competência, forma, objeto, motivo e finalidade. Esses elementos e a diferença entre atos perfeitos, válidos e eficazes são tratados em [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos e validade do ato administrativo]].
 
-## Ato administrativo e fato administrativo
+## 2. Ato Administrativo vs. Fato Administrativo
 
 **Fato administrativo** designa, na classificação aqui utilizada, um acontecimento da realidade que interessa à Administração e ao qual o Direito atribui consequências, **sem que esse acontecimento seja uma declaração jurídica de vontade**. A denominação varia entre autores: *fato da Administração* também pode designar atividade material ligada à gestão pública, embora nem todo acontecimento administrativo produza efeito jurídico.
 
@@ -60,7 +60,7 @@ A **Lei nº 4.717/1965**, Lei da Ação Popular, indica em seu art. 2º vícios 
 
 Nem todo ato administrativo admite **revogação** por conveniência ou **convalidação** de defeito: a primeira pressupõe um ato válido e juridicamente revogável; a segunda exige defeito sanável e ausência de lesão ao interesse público e prejuízo a terceiros, nos termos dos arts. 53 e 55 da Lei nº 9.784/1999. A distinção completa aparece em [[3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos|Anulação, revogação e convalidação]].
 
-## Silêncio administrativo: quando a ausência de resposta importa
+## 3. O Silêncio Administrativo e seus Efeitos Jurídicos
 
 O **silêncio administrativo** ocorre quando a Administração deixa de manifestar uma decisão que deveria tomar. **A regra geral é que o silêncio, por si só, não equivale nem a autorização nem a recusa.** A omissão pode ser ilegal porque a autoridade tem o dever de decidir; o efeito positivo ou negativo do silêncio depende de previsão normativa aplicável.
 

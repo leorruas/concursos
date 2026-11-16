@@ -12205,6 +12205,78 @@
         "prompt": "Qual distinção jurídica resolve este caso?",
         "answer": "Fiscalização de legalidade não é nova dosimetria por preferência judicial."
       }
+    },
+    {
+      "id": "camara-da24-opcao-10-5",
+      "term": "Acumulação ilegal: dez dias ou cinco dias para opção?",
+      "definition": "Art. 133: dez dias improrrogáveis para a opção após a notificação inicial. Sem opção, instaura-se rito sumário, com indicação e defesa em cinco dias. Opção até o último dia de defesa configura boa-fé e vira pedido de exoneração do outro cargo.",
+      "example": "Sem resposta à notificação inicial, inicia-se o sumário; a opção durante a defesa ainda configura boa-fé.",
+      "confusion": "Dez dias precedem o PAD; cinco dias são para defesa do indiciado.",
+      "topic": "Sindicância, PAD e seus ritos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Responsabilidade e penalidades"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-cc7c145f65061c3a",
+        "section": "5. Rito sumário: hipóteses taxativas e prazos enxutos"
+      },
+      "source": {
+        "title": "Lei nº 8.112/1990 atualizada",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Artigos 133 e 168-169"
+      },
+      "conceptIds": [
+        "glo-camara-da24-sumario-acumulacao-prazos"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica decide o caso?",
+        "answer": "Dez dias precedem o PAD; cinco dias são para defesa do indiciado."
+      }
+    },
+    {
+      "id": "camara-da24-art168-169",
+      "term": "Art. 168 × art. 169: quando divergir e quando anular?",
+      "definition": "Art. 168: relatório contrário às provas permite divergência motivada na sanção. Art. 169: vício insanável exige declaração de nulidade total ou parcial e constituição de nova comissão.",
+      "example": "Provas contrariam sanção sugerida: art. 168; cerceamento de defesa insanável: art. 169.",
+      "confusion": "Discordância probatória da proposta não corresponde automaticamente a vício processual.",
+      "topic": "Sindicância, PAD e seus ritos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Responsabilidade e penalidades"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-cc7c145f65061c3a",
+        "section": "4. Fase de julgamento e vícios sanáveis"
+      },
+      "source": {
+        "title": "Lei nº 8.112/1990 atualizada",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Artigos 133 e 168-169"
+      },
+      "conceptIds": [
+        "glo-camara-da24-divergencia-nulidade"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica decide o caso?",
+        "answer": "Discordância probatória da proposta não corresponde automaticamente a vício processual."
+      }
     }
   ]
 }

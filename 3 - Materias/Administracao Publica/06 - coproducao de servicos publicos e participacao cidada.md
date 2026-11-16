@@ -5,41 +5,44 @@ title: "Coprodução de serviços públicos e participação cidadã"
 type: "conceito"
 status: "ativo"
 created: 2026-11-11
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 # Coprodução de serviços públicos e participação cidadã
 
 ## O problema de gestão
 
-Uma instituição cria uma ferramenta digital de acompanhamento legislativo. O serviço funciona tecnicamente, mas pessoas com deficiência e usuários pouco familiarizados com o processo legislativo enfrentam barreiras. Uma consulta pública pode revelar necessidades; a colaboração direta de usuários no desenho, teste e melhoria contínua pode alterar **como o próprio serviço é produzido**. É nessa fronteira entre contribuição e produção que se situa a **coprodução**.
+Imagine que a Câmara publique informações sobre a atividade legislativa num portal. A equipe mede disponibilidade e velocidade do sistema, mas uma pessoa com deficiência visual não consegue navegar por certos documentos e quem desconhece termos regimentais não encontra o assunto procurado. **Como descobrir o problema e transformar o serviço sem deixar toda a responsabilidade sobre usuários voluntários?**
 
-Um problema central é mobilizar conhecimentos, capacidades e recursos que as organizações públicas não possuem sozinhas, preservando o dever estatal de garantir direitos, acesso e qualidade. A colaboração deve ser avaliada também por seus custos e por quem consegue participar.
+A equipe pode **consultar** cidadãos para entender dificuldades, **codesenhar** soluções com eles ou construir formas contínuas de **coprodução** em que profissionais e usuários contribuem com recursos e trabalho. As três situações diferem pelo **papel efetivo do usuário** nas decisões ou na produção. É necessário também examinar quem pôde participar, quem ficou excluído e **qual dever continua com a instituição**.
+
+O caso é hipotético. Ele serve para entender uma pergunta de gestão pública: como combinar capacidades de usuários e profissionais para melhorar serviços, sem substituir direitos, responsabilidade pública e acesso universal por colaboração voluntária?
 
 ## Definição, origem e autores
 
-**Coprodução** designa uma forma de produção de bens ou serviços públicos em que contribuições de profissionais e organizações responsáveis pelo serviço se articulam com contribuições ativas de usuários, cidadãos ou comunidades. **Elinor Ostrom** estudou como insumos de pessoas pertencentes a organizações distintas podem combinar-se na produção de serviços, inclusive infraestrutura, em *Crossing the Great Divide* (1996). **Tony Bovaird** (2007) propôs um quadro para examinar papéis de usuários e comunidades no planejamento e prestação de serviços.
+**Coprodução** é uma perspectiva sobre a produção de bens e serviços em que **profissionais** e **usuários, cidadãos ou comunidades** oferecem contribuições relevantes, como conhecimento, tempo, trabalho, dados ou recursos, em etapas do serviço. A participação precisa fazer diferença no modo como o bem ou serviço é produzido; **o simples uso do serviço não demonstra uma parceria de produção**.
 
-Esses trabalhos representam enfoques relacionados, mas não uma única classificação obrigatória. Ostrom destaca arranjos institucionais e contribuições complementares; Bovaird examina modalidades de participação na produção de serviços. **Coprodução não é categoria jurídica brasileira autônoma** e não transforma automaticamente usuários em agentes públicos.
+**Elinor Ostrom**, no artigo [*Crossing the Great Divide: Coproduction, Synergy, and Development* (1996)](https://doi.org/10.1016/0305-750X(96)00023-X), investiga como contribuições de pessoas de organizações distintas podem combinar-se na produção de bens e serviços. Contrasta experiências de infraestrutura urbana **no Brasil**, nas quais agentes públicos incentivaram participação cidadã, e de educação básica **na Nigéria**, em que houve desestímulo à colaboração. Sua questão central é **quando arranjos institucionais permitem que recursos complementares gerem resultados que participantes isolados teriam dificuldade de entregar**.
+
+**Tony Bovaird**, em [*Beyond Engagement and Participation* (2007)](https://doi.org/10.1111/j.1540-6210.2007.00773.x), examina relações **regulares e duradouras** entre profissionais e usuários ou comunidades, com contribuições substantivas de recursos. Seu modelo cruza quem planeja com quem entrega o serviço. **Ostrom explica a combinação de contribuições e instituições; Bovaird ajuda a identificar os papéis concretos na prestação e no desenho.** São referenciais acadêmicos, não uma tipologia legal brasileira. Colaborar em um serviço não transforma automaticamente cidadãos em servidores ou em autoridades administrativas.
 
 ## Bovaird (2007): quem planeja e quem entrega
 
-Bovaird analisa o papel de **profissionais** e de **usuários/comunidades** em duas dimensões: **planejamento e desenho** do serviço e **execução ou entrega**. Em cada dimensão, examina se a participação está concentrada nos profissionais, é compartilhada ou ocorre predominantemente pelos usuários/comunidades. O cruzamento permite observar diferentes arranjos, desde prestação tradicional até formas mais intensas de produção conjunta. **Essa matriz analítica não é uma classificação legal brasileira, nem uma escada de poder cidadão.**
+Bovaird cruza **duas decisões**: **quem planeja/desenha** o serviço e **quem o entrega**. Em cada eixo, os responsáveis podem ser só profissionais, profissionais e usuários em conjunto ou apenas usuários/comunidade. A combinação cria **oito arranjos analíticos** e uma possibilidade não aplicável. A tabela abaixo reexpressa essa matriz, segundo Bovaird (2007), tal como reproduzida e discutida por [Rocha e colaboradores (2019), tabela 1, p. 6](https://doi.org/10.12660/cgpc.v24n78.74929).
 
-| Configuração ilustrativa | Planejamento | Entrega | Questão analítica |
+| Quem entrega ↓ / Quem planeja → | Só profissionais | Profissionais e usuários em conjunto | Só usuários/comunidade |
 | --- | --- | --- | --- |
-| Provisão profissional tradicional | Profissionais | Profissionais | Os usuários apenas recebem o serviço? |
-| Planejamento compartilhado, entrega profissional | Profissionais e usuários | Profissionais | Como as contribuições no desenho influenciam a operação? |
-| Planejamento profissional, entrega compartilhada | Profissionais | Profissionais e usuários | Quem executa tarefas e assume os custos? |
-| Coprodução mais ampla | Profissionais e usuários | Profissionais e usuários | Como se dividem decisões, trabalho, riscos e responsabilidade? |
+| **Só profissionais** | **1. Prestação profissional tradicional:** profissionais decidem e executam | **2. Planejamento compartilhado:** usuários contribuem no desenho, profissionais entregam | **Não aplicável** no quadro original |
+| **Profissionais e usuários** | **3. Coentrega de serviço planejado pelos profissionais** | **4. Coprodução plena:** ambos planejam e entregam | **5. Coentrega com pouco planejamento formal profissional** |
+| **Só usuários/comunidade** | **6. Entrega comunitária de serviço planejado por profissionais** | **7. Entrega comunitária de serviço coplanejado** | **8. Prestação tradicional auto-organizada pela comunidade** |
 
-**A tabela seleciona situações para comparação, sem reproduzir todos os cruzamentos do quadro de Bovaird.** Na formulação do autor, relações regulares entre prestadores e usuários/comunidades ganham especial importância. Uma oficina ocasional pode contribuir para o codesenho, mas a intensidade e a continuidade da coprodução precisam ser demonstradas, não pressupostas. A tipologia de Bovaird inclui arranjos que servem de **comparação**, inclusive a provisão puramente profissional, que não deve ser rotulada como coprodução.
+A **prestação tradicional do tipo 1** é um ponto de comparação, e não coprodução. O tipo 4 indica participação conjunta nas duas dimensões, mas **maior intensidade não significa sempre melhor resultado**. Os oito tipos não são espécies de contrato, níveis legais de poder ou uma sequência obrigatória de evolução institucional.
 
-**Caso progressivo de contraste:** uma equipe coleta respostas a uma enquete (consulta); depois usuários passam a revisar e decidir conjuntamente aspectos do desenho (coplanejamento); por fim participam regularmente da manutenção de um acervo, sob revisão técnica (possível coentrega e coprodução mais ampla). O aumento da colaboração não implica que os usuários adquiram poder legal sobre toda decisão nem que a coprodução seja superior em todos os contextos.
+**Como interpretar:** uma enquete simples permite ouvir necessidades sem demonstrar coentrega. Usuários que participam regularmente do desenho de uma interface enquanto os servidores a implementam podem aproximar-se do **tipo 2**, conforme a relevância e a continuidade da contribuição. Se usuários mantêm o glossário junto com equipe técnica e ajudam a planejar sua evolução, podem aproximar-se do **tipo 4**, sem assumir decisões legalmente reservadas à administração.
 
-**Questão inédita C/E:** “A estrutura analítica de Bovaird distingue papéis de profissionais e usuários no planejamento e na entrega; essa distribuição de tarefas não corresponde necessariamente aos degraus de redistribuição de poder descritos por Arnstein.” **Gabarito: Certo.** As duas autoras e autores respondem a objetos analíticos distintos: produção de serviços e influência política. Item autoral.
+Bovaird dá importância às **relações regulares e aos recursos substantivos**. Uma oficina ocasional pode ser parte de um projeto de codesenho, mas não autoriza automaticamente classificar todo o serviço como coproduzido de forma duradoura. A matriz também **não deve ser confundida com a escada de participação política de Arnstein**, que examina a distribuição de poder decisório.
 
-**Referências complementares:** [Bovaird, artigo original e resumo](https://doi.org/10.1111/j.1540-6210.2007.00773.x); [síntese e exemplos de Bovaird, GSDRC](https://gsdrc.org/document-library/beyond-engagement-and-participation-user-and-community-coproduction-of-public-services/).
+**Referências complementares:** [Bovaird (2007), DOI e artigo](https://doi.org/10.1111/j.1540-6210.2007.00773.x); [GSDRC, síntese do estudo](https://gsdrc.org/document-library/beyond-engagement-and-participation-user-and-community-coproduction-of-public-services/); [Rocha et al. (2019), tabela adaptada de Bovaird](https://periodicos.fgv.br/cgpc/article/download/74929/77576).
 
 ## Participação, consulta, cocriação e coprodução
 
@@ -51,39 +54,91 @@ Bovaird analisa o papel de **profissionais** e de **usuários/comunidades** em d
 | Cocriação ou codesenho | Usuários ajudam a formular alternativas, prototipar ou projetar soluções | Que necessariamente participam da execução continuada |
 | Coprodução | Recursos, tempo ou capacidades de usuários/comunidade contribuem efetivamente para uma ou mais etapas de produção do serviço | Que todas as etapas têm participação igual ou que o Estado perdeu responsabilidade |
 
-Os termos têm usos variados na literatura. **Coprodução pode ocorrer no planejamento, desenho, execução, avaliação ou melhoria**, conforme a definição adotada. Não é requisito universal que cidadãos executem diretamente toda a entrega. Cocriação e codesenho podem ser dimensões da coprodução em alguns referenciais, mas não são sinônimos em toda a literatura.
+Os termos têm **limites diferentes conforme o autor**, e essa divergência pode aparecer num item C/E. **Bovaird (2007)** e **Nabatchi, Sancino e Sicilia (2017)** trabalham com conceitos que admitem coprodução em etapas de **planejamento/desenho**; **Brandsen e Honingh (2016)** usam definição mais restrita, exigindo contribuição do usuário na **implementação**. Assim, afirmar categoricamente que codesenho **nunca** pode ser coprodução é incorreto quando a questão adota a primeira abordagem. Afirmar que **qualquer consulta** já constitui coprodução também ignora a necessidade de contribuição relevante e o referencial empregado.
 
-**Arnstein (1969)** trata de graus de participação conforme a redistribuição de poder cidadão; **Ostrom e Bovaird** examinam a contribuição para produzir serviços. Esses critérios são diferentes: alguém pode realizar trabalho conjunto na execução com pouca influência sobre a política, ou participar de uma deliberação sem coproduzir a operação. Ver [[3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa|Democracia representativa, participativa e deliberativa]].
+Na distinção proposta por **Nabatchi, Sancino e Sicilia (2017)**, há quatro momentos do ciclo de serviço: **codecidir a encomenda/prioridade** (*co-commissioning*: o que, para quem e com qual resultado), **codesenhar** a solução (*co-design*), **coexecutar a entrega** (*co-delivery*) e **coavaliar** (*co-assessment*). Os autores cruzam essas fases com envolvimento **individual, grupal ou coletivo**, produzindo 12 combinações analíticas. Uma pessoa que responde à consulta pode apoiar o codesenho, mas a **qualidade de sua influência e a aplicação da resposta** precisam ser verificadas.
+
+**Arnstein (1969)** examina **poder cidadão**, e não a quantidade de trabalho operacional oferecida por usuários. Uma comunidade pode executar tarefas sem ter poder sobre as prioridades. Da mesma forma, cidadãos podem exercer influência política sobre uma decisão sem assumir a prestação direta do serviço. Ver [[3 - Materias/Estado e Democracia/20 - democracia representativa participativa e deliberativa|Democracia representativa, participativa e deliberativa]].
+
+## Escada de Arnstein: influência não é volume de trabalho
+
+**Sherry R. Arnstein**, em [*A Ladder of Citizen Participation* (1969)](https://doi.org/10.1080/01944366908977225), usa uma escada de **oito degraus** para discutir o grau de **poder dos cidadãos nas decisões**. A representação ajuda a não confundir ouvir pessoas com compartilhar poder:
+
+| Grupo na escada | Degraus, de menor para maior poder | O que examinar |
+| --- | --- | --- |
+| **Não participação** | **1. Manipulação; 2. Terapia** | A participação aparente serve para conduzir ou educar os participantes, sem conferir influência real |
+| **Concessão simbólica de voz (*tokenism*)** | **3. Informação; 4. Consulta; 5. Pacificação (*placation*)** | As pessoas podem conhecer e comentar decisões, mas a autoridade mantém controle predominante |
+| **Poder cidadão** | **6. Parceria; 7. Poder delegado; 8. Controle cidadão** | Há graus crescentes de capacidade efetiva para negociar ou determinar resultados |
+
+**Armadilha:** os degraus não medem quanta mão de obra voluntária a comunidade fornece, nem formam estágios obrigatórios para todos os serviços públicos. A teoria é um **modelo crítico de relações de poder**. Seu uso para examinar um portal legislativo exige observar quais sugestões foram aceitas, quem decide e a existência de espaços reais de contestação. Poder delegado na tipologia acadêmica não é sinônimo automático de **delegação de competência administrativa**, que depende de lei e atos válidos.
+
+## Participação de usuários no direito brasileiro
+
+A [Lei nº 13.460/2017](https://www2.camara.leg.br/legin/fed/lei/2017/lei-13460-26-junho-2017-785098-normaatualizada-pl.html) dispõe sobre participação, proteção e defesa dos direitos de usuários de serviços públicos e traz **deveres jurídicos concretos** que podem favorecer a escuta e a avaliação. **A lei não transforma toda participação institucional em coprodução segundo Bovaird ou Ostrom.**
+
+| Dispositivo | Regra e ator | Consequência prática |
+| --- | --- | --- |
+| **Art. 6º, I e II** | O usuário tem direito de participar do acompanhamento e avaliação dos serviços e utilizá-los sem discriminação | Atendimento não pode depender de aceitar participar de oficina voluntária |
+| **Art. 7º** | Órgãos e entidades devem divulgar **Carta de Serviços ao Usuário**, descrevendo serviços e padrões de atendimento | A carta informa compromissos que podem ser avaliados |
+| **Arts. 18 e 19** | Conselhos de usuários são **consultivos**: acompanham serviços, participam da avaliação, propõem melhorias e contribuem nas diretrizes; composição deve observar representatividade e pluralidade | Um conselho pode identificar problemas e contribuir para o redesenho, mas não exerce automaticamente poder de decisão final |
+| **Arts. 22 a 24** | Cada Poder e esfera deve regulamentar organização dos conselhos e avaliação; serviços são avaliados por satisfação, qualidade, prazos, manifestações e medidas de melhoria | Não confundir o procedimento geral da lei com regras exclusivas do Executivo federal |
+
+O **art. 23, § 1º**, prevê **pesquisa de satisfação no mínimo anual ou outro meio com significância estatística**, e o **§ 2º** estabelece divulgação integral do resultado e sua utilização para aperfeiçoar o serviço. **Pesquisa de satisfação é um mecanismo de avaliação**: sozinha não prova que usuários planejaram ou executaram o serviço. A autoridade administrativa continua responsável pela prestação e pelas decisões no âmbito de suas competências.
+
+**Duas garantias adicionais importam no exemplo digital:**
+
+- [Lei Brasileira de Inclusão, Lei nº 13.146/2015, art. 63](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-normaatualizada-pl.html): a **acessibilidade de sítios de órgãos de governo é obrigatória**. Coprodução ajuda a identificar barreiras, mas acessibilidade legal não depende de voluntários participarem.
+- [LGPD, Lei nº 13.709/2018, arts. 6º, 7º, 11 e 23](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html): coleta de comentários, cadastros e relatos de necessidades de acessibilidade precisa de **finalidade, base legal adequada, necessidade e segurança**, sobretudo quando envolver dados sensíveis.
+
+**O que a Câmara efetivamente faz em uma situação real** depende de seu regulamento, da atribuição da unidade e do procedimento aplicável. O caso aqui é um **exemplo de aprendizagem**, não afirma a existência de um conselho, oficina ou serviço específico já implantado.
 
 ## Elementos, condições e limites
 
-**Contribuição relevante:** tempo, conhecimento local, experiência de uso, trabalho comunitário ou dados fornecidos sob condições legítimas. **Reciprocidade:** profissionais e participantes têm papéis identificáveis, que podem ser desiguais. **Continuidade:** pactuar retorno sobre contribuições, manutenção e correções; um episódio único pode constituir colaboração pontual, mas não prova uma relação de coprodução duradoura. **Inclusão:** quem tem tempo, conexão, linguagem ou capacidade física para colaborar? **Responsabilidade:** delimitar quem decide e responde pela execução. **Evidências:** distinguir número de participantes, qualidade da entrega e efeito sobre o problema público.
+Coproduzir com qualidade exige **contribuições efetivas e complementares**. Profissionais podem ter competência técnica e dever de serviço; usuários conhecem barreiras de uso, contextos de vida e estratégias informais que a administração não percebe. A colaboração ganha valor quando a equipe **transforma essas contribuições em decisões, entregas ou avaliações verificáveis**.
 
-Riscos: transferir indevidamente aos cidadãos custos de um dever estatal; substituir serviço necessário por trabalho voluntário instável; sobrecarregar grupos; exposição de dados pessoais; exclusão digital; captura por participantes mais organizados; indefinição de responsabilidades. **Engajamento voluntário não pode ser presumido como obrigação legal de usuários**. A participação pode ser legítima sem que todos os usuários aceitem colaborar.
+Um processo de coprodução pode seguir um roteiro **didático**, sujeito a ajustes: **(1)** identificar o problema e as pessoas afetadas; **(2)** avaliar que etapas admitem contribuição real; **(3)** convidar participantes de perfis diversos, com canais acessíveis e alternativas presenciais; **(4)** definir papéis, limites de decisão, apoio necessário e proteção de dados; **(5)** testar e executar alterações; **(6)** dar retorno sobre o que foi acolhido e por quê; **(7)** acompanhar efeitos e revisar a participação.
 
-A administração deve respeitar competência, acessibilidade, impessoalidade, proteção de dados, orçamento e dever de prestar contas. Decisões normativas reservadas a autoridade competente não passam aos coprodutores pelo simples desenho colaborativo.
+**Quatro problemas precisam ser examinados:**
+
+| Risco | Como surge | Resposta de governança |
+| --- | --- | --- |
+| **Transferência de custos** | Serviço obrigatório passa a depender de trabalho gratuito | Manter equipe e financiamento necessários; tratar colaboração como contribuição, não condição para atendimento |
+| **Participação desigual** | Só pessoas com tempo, internet e familiaridade com o tema conseguem colaborar | Recrutar perfis diferentes, oferecer acessibilidade e registrar ausências |
+| **Captura e participação simbólica** | Grupo influente controla pauta e gestão ignora as contribuições | Publicar critérios, registrar divergências e dar retorno fundamentado |
+| **Risco de dados pessoais** | Histórias ou diagnósticos sensíveis são coletados em oficina sem necessidade | Minimizar dados, identificar base legal e estabelecer regras de acesso e segurança |
+
+Um grupo pode prestar colaboração valiosa sem dominar a decisão final. **O dever legal de prestar o serviço, garantir acesso e responder por seus atos permanece com o órgão competente.** A qualidade da coprodução também depende de continuidade quando ela for necessária ao modelo adotado, de reciprocidade e de atenção a quem não deseja ou não pode colaborar.
 
 ## Caso progressivo: serviço de acesso à atividade legislativa
 
-**1. Atendimento tradicional:** equipe publica uma página de busca e responde às demandas. Há prestação profissional do serviço, com métricas de disponibilidade e resposta.
+**Etapa 1, prestação profissional:** servidores publicam informações e respondem aos cidadãos; o portal possui métricas de disponibilidade. A instituição é responsável pelo serviço, e usuários são destinatários. É a provisão profissional tradicional, **não coprodução só por haver usuários**.
 
-**2. Consulta:** a equipe realiza entrevistas e recebe sugestões de cidadãs e cidadãos. Obtém informação útil para o desenho, mas ouvir não significa necessariamente coproduzir o serviço.
+**Etapa 2, consulta:** a equipe conversa com pessoas cegas, cidadãos com pouca experiência legislativa e usuários que acessam o site pelo celular. Identifica problemas de navegação e linguagem. Isso é coleta de informações e participação, mas o grupo ainda **não exerce necessariamente um papel na produção**.
 
-**3. Codesenho:** um grupo diverso testa protótipos, descreve termos confusos e participa de oficinas nas quais decisões de interface são justificadas. Aqui a contribuição entra em uma etapa de produção. A instituição continua responsável pelas decisões públicas e pelos critérios legais do serviço.
+**Etapa 3, codesenho:** pessoas de diferentes perfis testam alternativas, avaliam protótipos, ajudam a escrever nomes de seções e acompanham como a equipe acolheu ou rejeitou propostas. A contribuição afeta o desenho. Sob a definição **mais ampla de Bovaird**, pode ser considerada modalidade de coprodução, conforme a relevância e a regularidade da colaboração; sob a abordagem **mais restrita de Brandsen e Honingh**, seria necessário examinar a participação na implementação.
 
-**4. Produção continuada:** organizações e usuários, sob procedimentos de revisão, ajudam a manter um glossário acessível e identificar erros recorrentes; equipe técnica valida atualizações e responde formalmente. Existe contribuição conjunta mais duradoura, com competências e controles explícitos.
+**Etapa 4, coentrega continuada:** usuários e organizações comunitárias ajudam regularmente a manter um glossário de linguagem simples, sinalizar erros e verificar se melhorias funcionam, enquanto uma equipe da Câmara **valida conteúdo, cuida dos dados e mantém responsabilidade editorial e institucional**. Nesse cenário, as duas partes contribuem em etapas de produção sem que a competência legal de publicar ou proteger informação seja entregue a voluntários.
 
-**5. Mudança de variável, exclusão:** apenas cidadãos com boa conexão e domínio do jargão conseguem participar. O número de sugestões sobe, mas a solução pode representar menos os grupos com maior dificuldade. Coprodução e qualidade democrática não podem ser inferidas de volume de contribuições.
+**Etapa 5, testar equidade:** descobre-se que quase todos os participantes têm conexão rápida e graduação universitária. O número de contribuições subiu, mas quem enfrenta mais barreiras continua pouco representado. É preciso **corrigir o recrutamento e os canais de acesso**, e testar o serviço com pessoas ausentes do grupo inicial.
 
-**Contraexemplo:** uma enquete pergunta se a página é fácil de usar; as respostas são arquivadas sem influenciar o processo e sem contribuição dos respondentes à produção. É coleta de opinião, sem demonstração de coprodução efetiva.
+**Etapa 6, verificar resultados:** a equipe mede tarefas concluídas com sucesso, tempo para encontrar a informação, avaliação dos públicos sub-representados e custo total suportado pela administração e pelos usuários. **A melhora do serviço não pode ser atribuída automaticamente às oficinas**: mudanças simultâneas, como nova ferramenta de busca, podem explicar parte do resultado.
 
-O caso é hipotético; não afirma a existência de sistema específico da Câmara.
+**Contraexemplo:** uma enquete pergunta se o site é fácil de usar. As respostas são arquivadas sem serem consideradas e os participantes não contribuem para as atividades do serviço. **Responder à pesquisa não demonstra coprodução**, nem participação efetiva nas decisões.
+
+O caso é hipotético e **não descreve serviço, conselho ou programa concreto já implantado pela Câmara**.
 
 ## Resultados e valor público
 
-**Atividade:** oficinas realizadas. **Entrega:** glossário ou interface revisada. **Resultado:** usuários encontram e compreendem informações com menos barreiras. **Impacto ou objetivo final:** ampliação duradoura do acesso democrático e do controle social. Mais oficinas não comprovam maior inclusão. Atribuir causalmente mudanças à coprodução exige avaliar explicações alternativas e construir evidência.
+Um processo pode ter muitas contribuições e baixo efeito social. **Atividade** é realizar oficinas e entrevistas; **entrega** é publicar um glossário ou interface revisada; **resultado** é permitir que mais pessoas encontrem e compreendam informações; **impacto pretendido** é fortalecer o acesso à atividade legislativa e o controle social ao longo do tempo.
 
-**Eficiência** considera relação entre recursos mobilizados e entregas/resultados, conforme o indicador; **valor público** exige observar utilidade social, legitimidade, direitos, equidade e necessidades coletivas. Uma opção pode ser barata para o órgão por transferir trabalho aos usuários, mas gerar custo social ou exclusão. A distinção é desenvolvida em [[3 - Materias/Administracao Publica/02 - governanca publica|Governança pública]] e [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|Teoria da mudança]].
+| Pergunta | Indicador possível | O que o indicador não comprova sozinho |
+| --- | --- | --- |
+| Quem conseguiu participar? | Perfil, diversidade e barreiras dos participantes | Representatividade plena da população |
+| A equipe acolheu a participação? | Propostas consideradas, implementadas e justificativas das recusas | Que as alterações atenderam às necessidades sociais |
+| O serviço melhorou? | Sucesso em tarefas de busca, inclusive por perfil de usuário | Que a coprodução causou toda a melhoria |
+| A colaboração custou menos? | Horas da equipe, gastos públicos e tempo dos usuários | Que houve economia social ou maior equidade |
+
+**Eficiência** exige considerar recursos totais mobilizados e resultados; **valor público** exige considerar direitos, utilidade, legitimidade e distribuição dos benefícios. Um serviço pode custar menos ao órgão porque transfere trabalho a usuários, aumentando custo e exclusão fora do orçamento. Para investigar o impacto, compare perfis, períodos ou situações adequadas e considere outras mudanças simultâneas. Atribuição causal não decorre de correlação temporal. Ver [[3 - Materias/Administracao Publica/02 - governanca publica|Governança pública]] e [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|Teoria da mudança]].
 
 ## Questões inéditas: julgamento Certo/Errado
 
@@ -99,7 +154,23 @@ O caso é hipotético; não afirma a existência de sistema específico da Câma
 
 **6.** A coprodução exige que cidadãos recebam, em todos os casos, competência formal para praticar atos administrativos reservados à autoridade pública. **Gabarito: Errado.** Coprodução de etapas do serviço não implica delegação de competência legal.
 
-Todos os enunciados são **autorais** e não foram retirados de prova do Cebraspe.
+**7.** A matriz de Bovaird distingue o papel de profissionais e usuários nas fases de planejamento e entrega, enquanto a escada de Arnstein examina a distribuição do poder cidadão. **Gabarito: Certo.** As tipologias respondem a perguntas diferentes, embora possam ser usadas no mesmo caso.
+
+**8.** No quadro de Bovaird (2007), a prestação exclusivamente profissional no planejamento e na entrega corresponde a uma modalidade de coprodução plena. **Gabarito: Errado.** É a provisão profissional tradicional, incluída como comparação, sem contribuição efetiva de usuários às duas etapas.
+
+**9.** Toda contribuição de cidadãos apenas ao codesenho é necessariamente excluída do conceito de coprodução por todas as correntes acadêmicas. **Gabarito: Errado.** Bovaird e Nabatchi admitem participação no desenho; Brandsen e Honingh exigem contribuição à implementação. O enunciado generaliza correntes distintas.
+
+**10.** A escada de Arnstein classifica os graus de participação conforme a influência dos cidadãos na decisão, e não segundo o volume de trabalho voluntário oferecido à operação do serviço. **Gabarito: Certo.** Os oito degraus tratam da distribuição do poder entre cidadãos e autoridades.
+
+**11.** A Lei nº 13.460/2017 define os conselhos de usuários de serviços públicos como órgãos consultivos, com atribuições de acompanhamento, avaliação e proposição de melhorias. **Gabarito: Certo.** É o conteúdo do art. 18, complementado por regras de representatividade e regulamentação de cada Poder e esfera.
+
+**12.** A participação do usuário em conselho, conforme a Lei nº 13.460/2017, transfere-lhe automaticamente competência legal para autorizar despesas e impor sanções à Administração. **Gabarito: Errado.** O conselho tem caráter consultivo, e as atribuições legais da autoridade não são transferidas pelo simples ingresso do usuário.
+
+**13.** O dever de acessibilidade nos sítios mantidos por órgãos de governo, previsto na Lei nº 13.146/2015, art. 63, depende de adesão voluntária de usuários ao codesenho. **Gabarito: Errado.** A exigência legal de acessibilidade não fica condicionada à coprodução.
+
+**14.** Um projeto pode reduzir gastos internos porque usuários passam a executar tarefas, sem por isso comprovar melhoria de eficiência social, equidade ou valor público. **Gabarito: Certo.** É necessário considerar custos suportados pelas pessoas, distribuição dos resultados e cumprimento dos deveres estatais.
+
+**Todos os 14 itens numerados são autorais e didáticos**, com comentários fundamentados nas fontes citadas. Não são reproduções de questões reais nem evidência de calibração contra provas da Cebraspe.
 
 ## Relações com outros artigos
 
@@ -111,10 +182,14 @@ Todos os enunciados são **autorais** e não foram retirados de prova do Cebrasp
 
 ## Fontes verificáveis
 
-- [Câmara dos Deputados, edital 1/2026, item 8.3](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades).
-- Ostrom, Elinor (1996). [Crossing the Great Divide: Coproduction, Synergy, and Development](https://doi.org/10.1016/0305-750X(96)00023-X). *World Development*, 24(6), 1073–1087.
-- Bovaird, Tony (2007). [Beyond Engagement and Participation: User and Community Coproduction of Public Services](https://doi.org/10.1111/j.1540-6210.2007.00773.x). *Public Administration Review*, 67(5), 846–860.
-- [TCU, Referencial Básico do Programa de Inovação](https://portal.tcu.gov.br/data/files/93/43/FA/EA/2451F6107AD96FE6F18818A8/Referencial_basico_programa_inovacao.pdf): coprodução como aproveitamento de capacidades de usuários e comunidades.
-- Arnstein, Sherry (1969). [A Ladder of Citizen Participation](https://doi.org/10.1080/01944366908977225). *Journal of the American Institute of Planners*, 35(4), 216–224.
+- [Câmara dos Deputados, edital nº 1/2026, programa de Administração Pública, coprodução e participação](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades).
+- Ostrom, Elinor (1996). [*Crossing the Great Divide: Coproduction, Synergy, and Development*](https://doi.org/10.1016/0305-750X(96)00023-X). *World Development*, 24(6), 1073–1087: arranjos institucionais e complementaridade de contribuições, com exemplos do Brasil e da Nigéria.
+- Bovaird, Tony (2007). [*Beyond Engagement and Participation: User and Community Coproduction of Public Services*](https://doi.org/10.1111/j.1540-6210.2007.00773.x). *Public Administration Review*, 67(5), 846–860: planejamento, entrega e relações de longo prazo.
+- Rocha, Arlindo C.; Schommer, Paula C.; Debetir, Emiliana; Pinheiro, Daniel M. (2019). [*Transparência como elemento da coprodução na pavimentação de vias públicas*](https://periodicos.fgv.br/cgpc/article/download/74929/77576), *Cadernos Gestão Pública e Cidadania*, 24(78), tabela 1, p. 6: reprodução comentada dos oito tipos da tipologia de Bovaird e confronto entre conceitos.
+- Brandsen, Taco; Honingh, Marlies (2016). [*Distinguishing Different Types of Coproduction: A Conceptual Analysis Based on the Classical Definitions*](https://doi.org/10.1080/01900692.2015.1118238): contribuição do usuário à implementação no recorte mais restrito.
+- Nabatchi, Tina; Sancino, Alessandro; Sicilia, Mariafrancesca (2017). [*Varieties of Participation in Public Services: The Who, When, and What of Coproduction*](https://doi.org/10.1111/puar.12765): fases de *co-commissioning*, *co-design*, *co-delivery* e *co-assessment*.
+- Arnstein, Sherry R. (1969). [*A Ladder of Citizen Participation*](https://doi.org/10.1080/01944366908977225). *Journal of the American Institute of Planners*, 35(4), 216–224: oito graus de poder cidadão, distintos de trabalho operacional.
+- [Lei nº 13.460/2017, texto normativo da Câmara](https://www2.camara.leg.br/legin/fed/lei/2017/lei-13460-26-junho-2017-785098-normaatualizada-pl.html), especialmente arts. 6º, 7º e 18 a 24: participação e avaliação de serviços.
+- [Lei nº 13.146/2015, art. 63, acessibilidade digital](https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-normaatualizada-pl.html) e [LGPD, arts. 6º, 7º, 11 e 23](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html): limites da cooperação com usuários e tratamento de seus dados.
 
-**Nota de método:** tipologias acadêmicas não são regras legais de funcionamento da Câmara; casos são construídos para ensino e julgamento conceitual.
+**Nota de método:** os modelos de Ostrom, Bovaird, Brandsen e Honingh, Nabatchi e Arnstein são referenciais acadêmicos com recortes distintos. As leis citadas estabelecem deveres de serviço, participação, avaliação, acessibilidade e proteção de dados, mas não obrigam a Administração a adotar uma tipologia acadêmica de coprodução. Os exemplos da Câmara neste artigo são hipóteses didáticas; confirmar sempre atos e competências próprios antes de descrever um programa real.

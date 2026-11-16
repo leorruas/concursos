@@ -22,7 +22,7 @@ A **Constituição Federal de 1988**, especialmente seu art. 37, XIX, estabelece
 <a id="1-estrutura-geral-da-organizacao-administrativa"></a>
 ## Estrutura geral: entes, órgãos e entidades
 
-**Ente federativo** é a pessoa política com autonomia prevista na Constituição: União, estados, Distrito Federal e municípios. Cada um pode organizar sua própria Administração. **Órgão público** é uma unidade de competências dentro de uma pessoa jurídica, sem personalidade própria: um ministério, uma secretaria ou um departamento. **Entidade administrativa** é uma pessoa jurídica distinta, com patrimônio e competências próprios, integrante da Administração Indireta.
+**Ente federativo** é a pessoa política com autonomia prevista na Constituição: União, estados, Distrito Federal e municípios. Cada um pode organizar sua própria Administração. **Órgão público** é uma unidade de competências dentro de uma pessoa jurídica, sem personalidade própria: um ministério, uma secretaria ou um departamento. Isso significa que, em regra, os atos de um ministério são imputados à União, e não a uma pessoa jurídica chamada “ministério”. **Entidade administrativa** é uma pessoa jurídica distinta, com patrimônio e competências próprios, integrante da Administração Indireta.
 
 A **Administração Direta** reúne os órgãos internos de cada ente federativo. Uma secretaria municipal, por exemplo, não se torna pessoa jurídica apenas por ter orçamento e chefia. A **Administração Indireta** reúne autarquias, fundações públicas, empresas públicas e sociedades de economia mista instituídas segundo o regime aplicável. Elas possuem personalidade jurídica própria, mas continuam sujeitas aos deveres constitucionais da Administração.
 
@@ -32,11 +32,11 @@ graph TD
     classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:1.5px,color:#2b2b2b;
     classDef opcao fill:#ffffff,stroke:#d4a373,stroke-width:1px,color:#2b2b2b;
 
-    R["Organização Administrativa Brasileira"]:::raiz --> C1["Administração Direta (Entes Federados)"]:::criterio
+    R["Organização Administrativa Brasileira"]:::raiz --> C1["Administração Direta (órgãos dos entes federativos)"]:::criterio
     R --> C2["Administração Indireta (Entidades Descentralizadas)"]:::criterio
 
-    C1 --> O1["União, Estados, DF e Municípios<br/>Atuam mediante ÓRGÃOS DESPERSONALIZADOS<br/>Relação interna: Hierarquia e subordinação"]:::opcao
-    C2 --> O2["Autarquias (Direito Público - Criadas por lei)<br/>Fundações Públicas (Direito Público ou Privado)<br/>Empresas Públicas (Direito Privado - 100% público)<br/>Sociedades de Economia Mista (Direito Privado - S.A.)"]:::opcao
+    C1 --> O1["União, estados, DF e municípios<br/>Atuam por órgãos sem personalidade própria<br/>Hierarquia nos limites legais"]:::opcao
+    C2 --> O2["Autarquias: direito público, criadas por lei<br/>Fundações: direito público ou privado<br/>Empresas públicas: capital integralmente público<br/>Sociedades de economia mista: S.A. sob controle público"]:::opcao
     
     C1 -.->|Controle Finalístico / Supervisão / Tutela| C2
 ```
@@ -60,14 +60,14 @@ O art. 37, XIX, da Constituição faz uma distinção decisiva: **a lei específ
 
 A **Lei nº 8.112/1990** disciplina o regime jurídico dos servidores civis da União, de suas autarquias e fundações públicas. Não se deve transformar essa regra de pessoal federal em regra para todas as esferas ou todas as entidades. Na **ADI 2135**, julgada pelo Supremo Tribunal Federal (STF) em 2024, admitiu-se a flexibilização constitucional do regime jurídico único, com efeitos prospectivos e preservação dos regimes dos atuais servidores. A legislação do cargo e do ente continua necessária para responder a uma questão concreta.
 
-As fundações públicas pedem especial atenção. No **Tema 545 de repercussão geral**, o STF esclareceu que sua natureza pública ou privada exige examinar **a lei de criação ou autorização e a atividade desempenhada**; o nome “fundação” não resolve o enquadramento. Portanto, também não basta ler “fundação federal” para concluir automaticamente que toda causa será julgada na Justiça Federal.
+As fundações públicas pedem especial atenção. No **Tema 545 de repercussão geral (RE 716.378)**, o STF esclareceu que o regime público ou privado depende **da lei de criação ou autorização e das atividades efetivamente atribuídas**; o nome “fundação” não resolve o enquadramento. A decisão também afastou a extensão da estabilidade excepcional do art. 19 do Ato das Disposições Constitucionais Transitórias (ADCT) aos empregados de fundações públicas de direito privado. Assim, tanto o regime de pessoal quanto a competência judicial exigem examinar a natureza da fundação e o tipo de causa, sem concluir automaticamente pelo foro federal apenas porque a entidade é chamada de “fundação federal”.
 
 <a id="3-o-confronto-critico-empresa-publica-vs-sociedade-de-economia-mista"></a>
 ## Empresas públicas e sociedades de economia mista
 
 A **Lei nº 13.303/2016**, chamada Estatuto Jurídico das Empresas Estatais, disciplina aspectos de governança, licitações e contratos de empresas públicas e sociedades de economia mista. Seus arts. 3º e 4º permitem distinguir as duas espécies. A **Lei nº 6.404/1976**, Lei das Sociedades por Ações, é relevante porque a sociedade de economia mista deve assumir a forma de **sociedade anônima (S.A.)**.
 
-Na **empresa pública**, o capital é integralmente público, admitida a participação de pessoas jurídicas de direito público e de entidades da Administração Indireta nas condições do art. 3º da Lei nº 13.303/2016. Ela pode assumir as formas jurídicas admitidas em direito. Na **sociedade de economia mista**, há participação de capital público e privado e a maioria das ações com direito a voto deve permanecer sob controle público, conforme o art. 4º. Ela deve ser sociedade anônima.
+Na **empresa pública**, o capital é integralmente público. O art. 3º, parágrafo único, da Lei nº 13.303/2016 permite participação de outras pessoas jurídicas de direito público interno e de entidades da Administração Indireta, desde que a maioria do capital votante permaneça com a União, um estado, o Distrito Federal ou um município. Ela pode assumir as formas jurídicas admitidas em direito. Na **sociedade de economia mista**, há participação de capital público e privado e a maioria das ações com direito a voto deve permanecer sob controle público, conforme o art. 4º. Ela deve ser sociedade anônima.
 
 ```mermaid
 graph TD
@@ -172,5 +172,5 @@ A distinção inicial entre Estado e Administração é explicada em [[3 - Mater
 - [Decreto-Lei nº 200/1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm): organização da Administração Federal, arts. 4º, 5º e 19 a 26.
 - [Lei nº 13.303/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm): Estatuto das Estatais, arts. 3º e 4º; [Lei nº 6.404/1976](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm): sociedades por ações.
 - [Lei nº 8.112/1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm): servidores civis federais; [STF, ADI 2135](https://portal.stf.jus.br/processos/listarProcessos.asp?classe=ADI&numeroProcesso=2135): flexibilização do regime jurídico único, com limites temporais.
-- [STF, Tema 545](https://www.stf.jus.br/arquivo/informativo/documento/informativo946.htm): natureza e pessoal das fundações públicas; [STF, Súmula 517](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2054) e [Súmula 556](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2793): competência judicial.
+- [STF, Tema 545 (RE 716.378)](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4312969&numeroProcesso=716378&numeroTema=545): natureza e pessoal das fundações públicas; [STF, Súmula 517](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2054) e [Súmula 556](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2793): competência judicial.
 - [AGU, Parecer AC-51/2006](https://www.gov.br/agu/pt-br/assuntos-1/Publicacoes/cartilhas/ConsolidacaodePareceresVinculantesatualizacao.pdf): limites da supervisão e do recurso hierárquico impróprio nas agências reguladoras.

@@ -27,8 +27,8 @@ flowchart TD
     B --> D["Presunção relativa<br/>de legitimidade e veracidade<br/>(admite prova em contrário)"]:::universal
     C --> E["Tipicidade: exigência de tipos<br/>previstos no ordenamento, na doutrina<br/>sobretudo para atos de autoridade"]:::condicional
 
-    C --> F["Imperatividade<br/>(Coercibilidade / Poder extroverso; ausente em negociais e enunciativos)"]:::condicional
-    C --> G["Autoexecutoriedade<br/>(Execução direta sem ordem judicial prévia; exigibilidade vs. executoriedade)"]:::condicional
+    C --> F["Imperatividade<br/>Imposição unilateral de deveres<br/>(não se confunde com execução direta)"]:::condicional
+    C --> G["Autoexecutoriedade<br/>Exigibilidade: meios indiretos<br/>Executoriedade: meios materiais diretos"]:::condicional
 ```
 
 ## 1. Presunção de Legitimidade e de Veracidade
@@ -43,7 +43,7 @@ A presunção também **não produz inversão automática e irrestrita de todo �
 
 ## 2. Imperatividade (Poder Extroverso / Coercibilidade)
 
-**Imperatividade** é a capacidade de determinados atos administrativos criarem obrigações ou sujeições para terceiros sem depender da aceitação deles. A expressão *poder extroverso* refere-se à possibilidade de o poder público produzir efeitos jurídicos fora da sua própria estrutura, nos limites do Direito.
+**Imperatividade** é a capacidade de determinados atos administrativos imporem obrigações ou sujeições a terceiros sem depender da aceitação deles. A expressão *poder extroverso* refere-se à possibilidade de o poder público produzir efeitos jurídicos fora da sua própria estrutura, nos limites do Direito. **Coercibilidade** descreve a possibilidade de exigir o cumprimento de uma determinação legítima, inclusive por meios de coerção autorizados pelo Direito. Essas expressões aparecem associadas na doutrina, mas é preciso distinguir **impor o dever**, **exigir seu cumprimento** e **executar materialmente uma providência**. Uma multa pode ser imposta unilateralmente sem que a Administração possa retirar dinheiro da conta do multado por conta própria.
 
 Uma multa de trânsito ou uma ordem legal de interdição pode ter **imperatividade**. Uma certidão que apenas atesta tempo de serviço não impõe dever novo ao destinatário, assim como uma licença vinculada requerida e concedida ao interessado não precisa desse atributo para produzir seu efeito favorável.
 
@@ -51,7 +51,7 @@ Assim, **nem todo ato unilateral é imperativo**. O fato de uma autoridade assin
 
 ## 3. Autoexecutoriedade
 
-**Autoexecutoriedade** é a faculdade, em hipóteses juridicamente admitidas, de a Administração dar execução a uma medida sem obter previamente autorização judicial. A doutrina costuma distinguir **exigibilidade** de **executoriedade**:
+**Autoexecutoriedade**, em sentido amplo, é a possibilidade de a Administração fazer cumprir determinadas decisões sem obter previamente autorização judicial, quando o ordenamento o permite. Parte da doutrina distingue duas manifestações, que também recebem classificações diferentes conforme o autor: **exigibilidade** e **executoriedade**. Em sentido estrito, a executoriedade corresponde à execução material direta:
 
 ```mermaid
 flowchart LR
@@ -64,7 +64,7 @@ flowchart LR
     A --> B["Exigibilidade<br/>(Meios INDIRETOS de coação)"]:::indireto
     A --> C["Executoriedade<br/>(Meios DIRETOS de coação física)"]:::direto
 
-    B --> D["Multas e penalidades<br/>Meios indiretos legalmente previstos<br/>Exigência de cumprimento"]:::indireto
+    B --> D["Imposição de multa prevista em lei<br/>Pressão indireta para cumprir<br/>Sem penhora administrativa automática"]:::indireto
     C --> E["Demolição em caso legalmente admitido<br/>Apreensão de alimentos estragados<br/>Interdição autorizada ou urgente"]:::direto
 ```
 
@@ -72,7 +72,7 @@ flowchart LR
 
 ### 3.2. Hipóteses em que a autoexecutoriedade é admitida
 
-A execução direta exige **previsão normativa suficiente** ou **urgência real** que justifique agir sem aguardar ordem judicial, com competência, proporcionalidade e respeito às garantias aplicáveis. A **Lei nº 6.437/1977** define infrações à legislação sanitária federal e suas sanções, oferecendo exemplos de medidas de fiscalização. A urgência deve ser demonstrável: não basta escrever “interesse público” para legitimar qualquer intervenção.
+A execução direta exige **previsão normativa suficiente** ou **urgência real** que justifique agir sem aguardar ordem judicial, com competência, proporcionalidade e respeito às garantias aplicáveis. A **Lei nº 6.437/1977**, em seu art. 2º, prevê sanções como multa, apreensão e inutilização de produtos e interdição parcial ou total de estabelecimentos, observados os requisitos legais. O elenco ajuda a diferenciar a **decisão de aplicar uma sanção** da **execução material de uma medida**: aplicar uma multa não equivale a penhorar dinheiro, enquanto uma apreensão legalmente admitida pode envolver atuação física do fiscal. A urgência deve ser demonstrável: não basta escrever “interesse público” para legitimar qualquer intervenção.
 
 A **cobrança forçada de multa pecuniária** normalmente exige o procedimento judicial cabível. A **Lei nº 6.830/1980 (Lei de Execução Fiscal)** disciplina a cobrança judicial de Dívida Ativa tributária e não tributária da Fazenda Pública. A Administração pode constituir o crédito e tomar providências administrativas previstas em lei, mas **não pode penhorar a conta bancária do multado por ato próprio** sob o pretexto de autoexecutoriedade.
 
@@ -153,5 +153,5 @@ A base dos atributos é explicada em [[3 - Materias/Direito Administrativo/14 - 
 
 - [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), art. 37, princípios e limites dos poderes administrativos.
 - [Lei nº 13.105/2015](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm), Código de Processo Civil, art. 373: distribuição do ônus da prova; [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm), processo administrativo federal, dever de fundamentação.
-- [Lei nº 6.830/1980](https://www.planalto.gov.br/ccivil_03/leis/l6830.htm), Execução Fiscal: cobrança judicial de Dívida Ativa; [Lei nº 6.437/1977](https://www.planalto.gov.br/ccivil_03/leis/l6437.htm), infrações e sanções sanitárias federais.
+- [Lei nº 6.830/1980](https://www.planalto.gov.br/ccivil_03/leis/l6830.htm), Execução Fiscal: cobrança judicial de Dívida Ativa; [Lei nº 6.437/1977, art. 2º](https://www2.camara.leg.br/legin/fed/lei/1970-1979/lei-6437-20-agosto-1977-357206-normaatualizada-pl.html), sanções sanitárias federais, incluindo multa, apreensão e interdição.
 - **Doutrina:** Maria Sylvia Zanella Di Pietro (tipicidade); Celso Antônio Bandeira de Mello (exigibilidade e executoriedade); Hely Lopes Meirelles (atributos dos atos).

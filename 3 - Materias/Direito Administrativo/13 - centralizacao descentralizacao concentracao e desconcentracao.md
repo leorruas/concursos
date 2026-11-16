@@ -16,13 +16,13 @@ tags:
 
 # Centralização, Descentralização, Concentração e Desconcentração no Direito Administrativo
 
-No Direito Administrativo brasileiro, a distribuição funcional e estrutural das competências públicas opera mediante quatro técnicas fundamentais de organização: **centralização**, **descentralização**, **concentração** e **desconcentração**. Nas provas elaboradas pelo Cebraspe para carreiras legislativas de alto nível (notadamente para o cargo de Analista Legislativo da Câmara dos Deputados), a banca explora reiteradamente as fronteiras conceituais entre esses institutos, com ênfase na identificação da **criação de nova pessoa jurídica (*descentralização*)** em contraposição à **distribuição interna de atribuições entre órgãos despersonalizados dentro da mesma pessoa jurídica (*desconcentração*)**.
+Uma secretaria da Câmara dos Deputados pode distribuir tarefas entre departamentos sem criar uma nova pessoa jurídica. Uma autarquia, em contraste, possui personalidade jurídica própria. Essa diferença permite compreender quatro técnicas administrativas: **centralização**, **descentralização**, **concentração** e **desconcentração**. Pergunte primeiro se mudou a **pessoa jurídica responsável** e depois se mudaram os **órgãos internos**. Essa distinção evita confundir entidades da Administração Indireta com departamentos do mesmo órgão.
 
-A compreensão desse tema exige o domínio da **Teoria do Órgão (imputação volitiva)** concebida por Otto Gierke, da classificação dos órgãos públicos e da distinção estrita entre **descentralização por outorga / legal / por serviços** (que transfere a titularidade e a execução a entidades da Administração Indireta) e **descentralização por delegação / colaboração** (que transfere apenas a execução a particulares concessionários ou permissionários).
+A **teoria do órgão**, associada à doutrina de Otto Gierke, explica por que atos de agentes investidos em funções públicas são atribuídos à pessoa jurídica estatal. A distinção entre **outorga por serviços** (caso clássico das autarquias: a lei atribui titularidade e execução) e **delegação por colaboração** (concessionárias e permissionárias privadas executam um serviço cuja titularidade permanece pública) será analisada com a legislação de cada modalidade.
 
 ---
 
-## 1. As Quatro Técnicas Fundamentais de Organização Administrativa
+## As Quatro Técnicas Fundamentais de Organização Administrativa
 
 O quadro sinóptico a seguir resume a matriz classificatória de competências:
 
@@ -36,60 +36,60 @@ graph TD
     R --> C2["Quanto à Distribuição Interna de Órgãos"]:::criterio
 
     C1 --> O1["Centralização: Estado atua diretamente pelos seus órgãos originários<br/>Descentralização: Atribuições transferidas para OUTRA PESSOA (Indireta ou Particular)"]:::opcao
-    C2 --> O2["Concentração: Competências reunidas em um único órgão de cúpula<br/>Desconcentração: Divisão interna de atribuições em ÓRGÃOS na MESMA PESSOA (COncentração -> Órgão)"]:::opcao
+    C2 --> O2["Concentração: Reunião de atribuições internas<br/>Desconcentração: Distribuição entre órgãos na mesma pessoa jurídica"]:::opcao
 ```
 
-### 1.1. Centralização Administrativa
+### Centralização Administrativa
 - A atividade pública é executada **diretamente pela pessoa jurídica federada matriz** (União, Estados, Distrito Federal ou Municípios), por intermédio de seus órgãos internos despersonalizados.
 - Não há interposição de outras pessoas jurídicas. A União atua "de forma centralizada" quando a Presidência da República ou um Ministério executa diretamente uma política pública.
 
-### 1.2. Descentralização Administrativa
+### Descentralização Administrativa
 - A execução ou a titularidade da atividade pública é atribuída a **outra pessoa jurídica**, distinta do ente federado instituidor.
 - **Característica Primordial:** Pressupõe sempre a dualidade de pessoas jurídicas (Pessoa A $\rightarrow$ Pessoa B).
 - **Inexistência de Hierarquia:** Não há subordinação hierárquica entre o ente que descentralizou e a pessoa jurídica descentralizada, mas mero controle de legalidade e finalístico (*tutela administrativa / supervisão ministerial*).
 
-### 1.3. Desconcentração Administrativa
+### Desconcentração Administrativa
 - Técnica de simplificação e distribuição interna de atribuições **dentro de uma mesma pessoa jurídica**.
-- **Resultado:** A desconcentração **cria órgãos públicos**, os quais são meros centros despersonalizados de competências.
-- **Relação de Hierarquia:** A desconcentração é informada pelo **poder hierárquico**, existindo subordinação direta entre os órgãos superiores e os inferiores.
-- *Mnemônico clássico de concurso:* Des**CO**ncentração cria órgãos (**CO** = cria órgãos); Des**CE**ntralização cria entidades (**CE** = cria entidades ou transfere a particulares).
+- **Resultado:** a desconcentração pode **criar órgãos internos** ou redistribuir atribuições entre órgãos já existentes. Ela não cria nova pessoa jurídica.
+- **Relação de Hierarquia:** quando se distribuem atribuições em departamentos subordinados, existe hierarquia entre as unidades internas, conforme a estrutura legal. A desconcentração não equivale à vinculação entre entidades distintas.
+- **Regra de identificação:** desconcentração opera **dentro da mesma pessoa jurídica**; descentralização atribui atividades a **outra pessoa jurídica**, inclusive particular contratado nas hipóteses admitidas. A criação de órgão é um exemplo de desconcentração, não sua única forma.
 
-### 1.4. Concentração Administrativa
+### Concentração Administrativa
 - Processo inverso da desconcentração: consiste na extinção de órgãos intermediários ou na unificação de atribuições em um único órgão de cúpula da pessoa jurídica.
 
 ---
 
-## 2. Modalidades de Descentralização: Outorga vs. Delegação
+## Modalidades de Descentralização: Outorga vs. Delegação
 
 O Cebraspe exige a distinção rigorosa entre as modalidades de descentralização administrativa:
 
 | Critério de Comparação | Descentralização por Serviços / Outorga / Legal | Descentralização por Colaboração / Delegação |
 | :--- | :--- | :--- |
 | **Destinatário da Descentralização** | Entidades da **Administração Indireta de direito público** (autarquias e fundações autárquicas). | **Particulares** (concessionárias, permissionárias, autorizatárias de serviço público). |
-| **Instrumento Jurídico** | Sempre criada ou instituída diretamente mediante **lei específica** (art. 37, XIX, CF/1988). | Realizada mediante **contrato administrativo** (concessão) ou **ato unilateral precário** (permissão/autorização). |
+| **Instrumento Jurídico** | Atribuições a autarquia ou fundação autárquica são estabelecidas por **lei específica**, que cria a entidade (art. 37, XIX, CF/1988). | **Concessão** por contrato e **permissão de serviço público** por **contrato de adesão**, com precariedade e possibilidade de revogação unilateral (art. 40 da Lei nº 8.987/1995); autorização possui disciplina legal específica. |
 | **Objeto Transferido** | Transfere a **titularidade E a execução** do serviço público. | Transfere **APENAS a execução** material do serviço público (o Estado mantém a titularidade indelegável). |
-| **Prazo de Duração** | Em regra, **indeterminado** (instituição permanente). | **Determinado** (fixado contratualmente, como nas concessões de rodovias ou aeroportos). |
-| **Controle Exercido** | Supervisão ministerial finalística (tutela administrativa). | Fiscalização estatal regulatória (poder de polícia e fiscalização contratual por agências reguladoras). |
+| **Prazo de Duração** | Em regra, indeterminado enquanto a entidade existir segundo a lei. | **Concessão** por prazo contratual; **permissão** sujeita ao regime de precariedade do art. 40 da Lei nº 8.987/1995. Não aplicar um mesmo prazo a toda modalidade de delegação. |
+| **Controle Exercido** | Controle finalístico da entidade conforme sua lei, sem hierarquia geral entre pessoas jurídicas. | Fiscalização contratual e regulatória pelo poder concedente e, quando houver, órgão ou agência competente. |
 
 > [!WARNING]
 > **Pegadinha de Prova do Cebraspe:**
-> A concessão de um serviço público de telecomunicações a uma empresa privada é um exemplo clássico de **descentralização por delegação**. Ela **NÃO cria entidade da Administração Indireta**, nem transfere a titularidade do serviço para o particular. O particular é mero executor temporário do serviço.
+> A concessionária privada de serviço público **não integra automaticamente a Administração Indireta**. A execução é delegada, mas a titularidade do serviço continua pública. E a **permissão de serviço público**, embora precária, **não deve ser descrita somente como ato unilateral**, pois a Lei nº 8.987/1995 exige contrato de adesão (art. 40).
 
 ---
 
-## 3. Teoria do Órgão e Classificação dos Órgãos Públicos
+## Teoria do Órgão e Classificação dos Órgãos Públicos
 
 Os órgãos públicos não possuem vontade própria nem personalidade jurídica autônoma. Para explicar como a manifestação do agente público vincula o Estado, a doutrina brasileira consagra a **Teoria do Órgão (Teoria da Imputação Volitiva)**, desenvolvida por Otto Gierke:
 
 - **Imputação Volitiva:** A atuação da pessoa física do agente público é considerada juridicamente como a atuação do próprio órgão e, consequentemente, da pessoa jurídica estatal em nome da qual ele atua.
-- **Consequência Prática:** A validade do ato subsiste perante terceiros de boa-fé mesmo quando o agente que o praticou era um "funcionário de fato" (investidura irregular), em homenagem aos princípios da segurança jurídica e da proteção à confiança legítima.
+- **Consequência Prática:** a atuação do agente regularmente investido é imputada à pessoa jurídica. Na hipótese de **agente de fato**, com investidura irregular mas aparência de legitimidade, a proteção de terceiros de boa-fé **pode preservar efeitos de atos**, conforme a situação. Não significa validar indiscriminadamente todo ato irregular.
 
-### 3.1. Capacidade Processual Excepcional dos Órgãos de Cúpula (*Personalidade Judiciária*)
-Embora os órgãos públicos sejam, por regra universal, despersonalizados e não possam figurar em juízo como autores ou réus (a citação cabe à pessoa jurídica correspondente: União, Estado, etc.), a jurisprudência pacífica do STF e do STJ admite que **órgãos públicos independentes ou autônomos de cúpula constitucional** (como a Mesa da Câmara dos Deputados, o Senado Federal, Tribunais de Justiça e Tribunais de Contas) possuem **capacidade processual extraordinária (*personalidade judiciária*)** para impetrar **mandado de segurança exclusivamente na defesa de suas prerrogativas institucionais e competências constitucionais**.
+### Capacidade Processual Excepcional dos Órgãos de Cúpula (*Personalidade Judiciária*)
+Os órgãos públicos normalmente **não possuem personalidade jurídica própria**, mas certas instituições podem ter **capacidade processual excepcional**, chamada *personalidade judiciária*, para defender suas **prerrogativas institucionais**. A **Súmula 525 do Superior Tribunal de Justiça (STJ)** afirma, sobre câmaras municipais, que elas podem demandar em juízo somente para proteger direitos institucionais. Esse entendimento **não significa** que qualquer órgão possa ajuizar demanda patrimonial comum em nome próprio. A legitimidade e o tipo de ação exigem avaliação da norma e da jurisprudência aplicáveis. A Mesa da Câmara dos Deputados pode atuar na defesa de prerrogativas institucionais nas hipóteses reconhecidas pelo Direito, sem se tornar pessoa jurídica separada da União.
 
 ---
 
-## 4. Classificação dos Órgãos Públicos quanto à Posição Estatal
+## Classificação dos Órgãos Públicos quanto à Posição Estatal
 
 A doutrina de Hely Lopes Meirelles classifica os órgãos em quatro categorias de grande incidência em provas:
 
@@ -100,7 +100,7 @@ A doutrina de Hely Lopes Meirelles classifica os órgãos em quatro categorias d
 
 ---
 
-## 5. Questões Comentadas no Estilo Cebraspe
+## Questões Comentadas no Estilo Cebraspe
 
 ### Questão 1
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
@@ -118,13 +118,13 @@ A doutrina de Hely Lopes Meirelles classifica os órgãos em quatro categorias d
 ### Questão 2
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Na descentralização por outorga, a lei instituidora transfere ao novo ente da Administração Indireta tanto a execução quanto a titularidade do serviço público, ao passo que na descentralização por delegação a particulares transfere-se unicamente a execução material da atividade.
+**Item:** Na descentralização por outorga a uma autarquia criada por lei específica, atribuem-se a titularidade e a execução da atividade nos limites da lei, enquanto a delegação de serviço público a concessionária privada transfere a execução, mantendo a titularidade pública.
 
 - ( ) Certo
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** A assertiva sintetiza com exatidão a clássica distinção doutrinária: na outorga (típica das autarquias e fundações públicas), transfere-se a titularidade e a execução por lei; na delegação a particulares (concessionárias e permissionárias), o Poder Público preserva para si a titularidade originária indelegável do serviço, transferindo unicamente a sua execução material e temporária.
+**Comentário:** Na **outorga** a autarquia ou fundação autárquica, a lei cria a entidade e lhe atribui a atividade. Na **delegação**, o particular presta o serviço mantendo-se a titularidade no poder concedente. A assertiva foi delimitada à autarquia, evitando pressupor que toda fundação ou estatal nasce da mesma forma.
 
 ---
 
@@ -137,7 +137,7 @@ A doutrina de Hely Lopes Meirelles classifica os órgãos em quatro categorias d
 - ( ) Errado
 
 **Gabarito: Errado**  
-**Comentário:** Pela Teoria do Órgão (imputação volitiva), os atos do servidor são imputados à pessoa jurídica estatal, e não ao indivíduo. Em homenagem aos princípios da segurança jurídica, da boa-fé objetiva e da proteção à confiança dos cidadãos, a doutrina e a jurisprudência consagram a **teoria do funcionário de fato**: os atos praticados por agente de fato perante terceiros de boa-fé são considerados válidos e produzem regulares efeitos jurídicos.
+**Comentário:** Pela Teoria do Órgão (imputação volitiva), os atos do servidor são imputados à pessoa jurídica estatal, e não ao indivíduo. Em homenagem aos princípios da segurança jurídica, da boa-fé objetiva e da proteção à confiança dos cidadãos, a doutrina e a jurisprudência consagram a **teoria do funcionário de fato**: a teoria da aparência **pode preservar efeitos** dos atos perante terceiros de boa-fé, consideradas as circunstâncias; não se conclui que qualquer ato do agente de fato seja automaticamente válido.
 
 ---
 
@@ -150,7 +150,7 @@ A doutrina de Hely Lopes Meirelles classifica os órgãos em quatro categorias d
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** O item reflete o entendimento pacificado nos tribunais superiores: os órgãos públicos de cúpula constitucional (órgãos independentes e autônomos) gozam de *personalidade judiciária* ou capacidade processual excepcional para impetrar mandado de segurança visando resguardar suas prerrogativas orgânicas e funcionais perante usurpações de outros órgãos ou Poderes.
+**Comentário:** A capacidade processual excepcional, chamada *personalidade judiciária*, é admitida para defesa de prerrogativas institucionais. A **Súmula 525 do STJ**, embora trate expressamente das câmaras municipais, mostra o limite: a ausência de personalidade jurídica não impede toda atuação em juízo, mas a legitimação não se estende indiscriminadamente a demandas patrimoniais.
 
 ---
 
@@ -180,10 +180,13 @@ A doutrina de Hely Lopes Meirelles classifica os órgãos em quatro categorias d
 
 ---
 
-## 6. Relações com Outros Artigos e Síntese de Revisão
+## Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
   - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo, Administração Pública e Função Administrativa]]: O exercício da função administrativa nos sentidos subjetivo e objetivo.
   - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: A impessoalidade e a imputação volitiva da teoria do órgão.
   - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico]]: Entidades da Administração Indireta como fruto da descentralização por outorga.
   - [[3 - Materias/Direito Administrativo/04 - poderes administrativos|Poderes administrativos]]: O poder hierárquico como fundamento da desconcentração interna.
+
+- [Lei nº 8.987/1995](https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm), art. 40: permissão de serviço público por contrato de adesão, com precariedade e revogabilidade unilateral.
+- [STJ, Súmula 525](https://scon.stj.jus.br/SCON/SearchBRS?b=SUMU&livre=%40NUM%3D525): personalidade judiciária excepcional das câmaras municipais para defesa de direitos institucionais.

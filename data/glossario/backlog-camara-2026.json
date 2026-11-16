@@ -667,6 +667,14 @@
       "examBlock": "Conhecimentos básicos",
       "contestId": "camara-2026",
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-permissao-servico-publico-contrato",
+      "term": "Permissão de serviço público e contrato de adesão",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

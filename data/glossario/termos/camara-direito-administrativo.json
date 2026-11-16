@@ -451,6 +451,34 @@
         "camara-2026"
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-permissao-servico-publico-contrato",
+      "term": "Permissão de serviço público e contrato de adesão",
+      "aliases": [
+        "permissão de serviço público",
+        "artigo 40 da Lei nº 8.987/1995"
+      ],
+      "definition": "Permissão de serviço público é modalidade de delegação da prestação de serviço público. A Lei nº 8.987/1995 exige sua formalização mediante contrato de adesão, com observância das normas, do edital, da precariedade e da revogabilidade unilateral pelo poder concedente.",
+      "contrast": "Concessão também envolve contrato, mas o regime de permissão possui previsão expressa de precariedade e revogabilidade unilateral. Autorização de atividade ou serviço tem disciplina própria e não deve ser confundida com permissão.",
+      "cebraspeTrap": "Afirmar que, após a Lei nº 8.987/1995, toda permissão de serviço público se formaliza exclusivamente por ato administrativo unilateral, sem contrato.",
+      "example": "O município seleciona prestador por procedimento cabível e formaliza permissão de serviço nos termos do art. 40 por contrato de adesão.",
+      "sources": [
+        {
+          "label": "Lei nº 8.987/1995, art. 40",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm"
+        }
+      ],
+      "articleIds": [
+        "art-880b577a5c2ba82d"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
     }
   ]
 }

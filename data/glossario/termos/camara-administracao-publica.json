@@ -876,6 +876,231 @@
         "camara-2026"
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-coproducao-servicos",
+      "term": "Coprodução de serviços públicos",
+      "definition": "Articulação de contribuições substanciais de profissionais e usuários ou comunidades na produção de bens ou serviços públicos, como conhecimento, trabalho e capacidades em etapas do serviço.",
+      "contrast": "Uma enquete sem influência efetiva não prova coprodução; os autores divergem sobre a inclusão do codesenho sem execução. O dever estatal de prestar serviços permanece.",
+      "cebraspeTrap": "Afirmar que toda pesquisa de opinião é coprodução ou que cidadãos voluntários podem substituir compulsoriamente servidores.",
+      "example": "Usuários e técnicos mantêm juntos glossário acessível, com decisões institucionais e verificação técnica preservadas.",
+      "aliases": [],
+      "articleIds": [
+        "art-ae41d8c6920f4b57"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Ostrom (1996), Crossing the Great Divide",
+          "url": "https://doi.org/10.1016/0305-750X(96)00023-X"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-matriz-bovaird",
+      "term": "Matriz de coprodução de Bovaird",
+      "definition": "Modelo acadêmico que cruza quem planeja e quem entrega: profissionais, profissionais com usuários ou só usuários. Comporta oito configurações e uma combinação não aplicável.",
+      "contrast": "Prestação puramente profissional é caso tradicional de comparação, não coprodução plena; a matriz trata de papéis produtivos e não de poder político.",
+      "cebraspeTrap": "Afirmar que os oito tipos são figuras jurídicas ou degraus da escada de Arnstein.",
+      "example": "Usuários participam do planejamento da interface e também ajudam na manutenção, aproximando-se de coprodução plena.",
+      "aliases": [],
+      "articleIds": [
+        "art-ae41d8c6920f4b57"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Bovaird (2007), Beyond Engagement and Participation",
+          "url": "https://doi.org/10.1111/j.1540-6210.2007.00773.x"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-codesenho-coentrega",
+      "term": "Codesenho e coentrega",
+      "definition": "Codesenho incorpora contribuição efetiva de usuários para projetar o serviço; coentrega envolve a contribuição na execução. Podem acontecer separadamente ou em conjunto.",
+      "contrast": "Consultar preferências é diferente de construir soluções conjuntamente; codesenho não garante coentrega nem altera competência administrativa.",
+      "cebraspeTrap": "Afirmar que todo teste de protótipo concede ao usuário poder final de publicação ou comprova manutenção continuada.",
+      "example": "Grupo revisa nomes de seções com técnicos e depois pode colaborar na atualização de glossário, sob supervisão.",
+      "aliases": [],
+      "articleIds": [
+        "art-ae41d8c6920f4b57"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Nabatchi, Sancino e Sicilia (2017), Varieties of Participation",
+          "url": "https://doi.org/10.1111/puar.12765"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-quatro-fases-nabatchi",
+      "term": "Quatro fases da coprodução em Nabatchi e colaboradores",
+      "definition": "Nabatchi, Sancino e Sicilia (2017) distinguem co-commissioning, escolha de prioridades, co-design, desenho, co-delivery, entrega e co-assessment, avaliação, cruzados com três níveis de participação.",
+      "contrast": "As quatro fases são categorias analíticas e não rito jurídico obrigatório; colaborar na avaliação não significa ter participado da execução.",
+      "cebraspeTrap": "Afirmar que todas as quatro fases precisam sempre ocorrer ou que qualquer consulta prova participação substantiva.",
+      "example": "Cidadãos ajudam a priorizar serviço, projetar interface, testar entrega e avaliar efeitos, em momentos distintos.",
+      "aliases": [],
+      "articleIds": [
+        "art-ae41d8c6920f4b57"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Nabatchi, Sancino e Sicilia (2017), Varieties of Participation",
+          "url": "https://doi.org/10.1111/puar.12765"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-escada-arnstein",
+      "term": "Escada de participação de Arnstein",
+      "definition": "Tipologia de oito níveis de Sherry Arnstein, de manipulação, terapia, informação, consulta, pacificação, parceria, poder delegado até controle cidadão, segundo a influência sobre decisões.",
+      "contrast": "Mede poder nas decisões e não o volume de trabalho operacional; delegação no modelo não equivale automaticamente à delegação jurídica de competência.",
+      "cebraspeTrap": "Afirmar que muitas reuniões ou oficinas demonstram necessariamente controle cidadão sobre a política.",
+      "example": "A instituição consulta pessoas mas conserva a decisão, nível distinto de uma parceria com poder negociado.",
+      "aliases": [],
+      "articleIds": [
+        "art-ae41d8c6920f4b57"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Arnstein (1969), A Ladder of Citizen Participation",
+          "url": "https://doi.org/10.1080/01944366908977225"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-conselho-usuarios-13460",
+      "term": "Conselhos de usuários da Lei 13.460/2017",
+      "definition": "Órgãos consultivos para acompanhar serviços, participar de avaliações, propor melhorias e contribuir para diretrizes de atendimento, conforme arts. 18 a 22 da Lei 13.460/2017.",
+      "contrast": "Representatividade e pluralidade devem ser observadas; o conselho não substitui competência de autoridade administrativa para contratar ou impor sanções.",
+      "cebraspeTrap": "Afirmar que todo membro de conselho recebe automaticamente competência decisória ou que somente o Executivo pode regular seus conselhos.",
+      "example": "Um conselho examina problemas de atendimento, recomenda mudanças e acompanha melhorias, mantendo sua natureza consultiva.",
+      "aliases": [],
+      "articleIds": [
+        "art-ae41d8c6920f4b57"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Lei 13.460/2017, direitos e avaliação dos usuários",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13460-26-junho-2017-785098-normaatualizada-pl.html"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-avaliacao-servicos-13460",
+      "term": "Avaliação continuada de serviços: Lei 13.460/2017",
+      "definition": "O art. 23 exige avaliar satisfação, qualidade, prazos, manifestações e medidas de melhoria, com pesquisa ao menos anual ou outro método com significância estatística e publicação dos resultados.",
+      "contrast": "Pesquisa de satisfação é avaliação; não demonstra por si só codesenho, coprodução da entrega, representatividade ou efeito causal da política.",
+      "cebraspeTrap": "Afirmar que contar respostas basta para demonstrar inclusão e resultados de serviço público.",
+      "example": "Órgão avalia satisfação e cumprimento de prazos por perfis de usuários, publica resultados e reorienta o atendimento.",
+      "aliases": [],
+      "articleIds": [
+        "art-ae41d8c6920f4b57"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Lei 13.460/2017, direitos e avaliação dos usuários",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13460-26-junho-2017-785098-normaatualizada-pl.html"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-acessibilidade-digital-lbi",
+      "term": "Acessibilidade de sítios governamentais: art. 63 da LBI",
+      "definition": "A Lei 13.146/2015, art. 63, obriga acessibilidade nos sítios de órgãos de governo para pessoas com deficiência, observadas diretrizes e boas práticas de acessibilidade.",
+      "contrast": "O codesenho com pessoas com deficiência ajuda a detectar barreiras, mas a obrigação legal não depende da participação voluntária delas.",
+      "cebraspeTrap": "Afirmar que o site pode continuar inacessível se não houver voluntários para testar o serviço.",
+      "example": "Órgão mantém portal acessível e usa testes inclusivos como apoio adicional a um dever já existente.",
+      "aliases": [],
+      "articleIds": [
+        "art-ae41d8c6920f4b57"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Lei 13.146/2015, art. 63, acessibilidade digital",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-normaatualizada-pl.html"
+        }
+      ]
+    },
+    {
+      "id": "glo-camara-riscos-coproducao",
+      "term": "Riscos de exclusão e transferência de custos na coprodução",
+      "definition": "Problemas de coprodução quando grupos com mais tempo monopolizam o processo, usuários assumem custos de serviços obrigatórios, dados pessoais ficam expostos ou responsabilidades são indefinidas.",
+      "contrast": "Economia no orçamento interno não demonstra economia social nem valor público; avaliar tempo dos participantes, acessibilidade e distribuição de benefícios.",
+      "cebraspeTrap": "Afirmar que substituir trabalho profissional por trabalho gratuito sempre aumenta eficiência e equidade.",
+      "example": "Projeto exige que usuários mantenham informação pública sem apoio, excluindo quem não tem tempo nem internet.",
+      "aliases": [],
+      "articleIds": [
+        "art-ae41d8c6920f4b57"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "sources": [
+        {
+          "label": "Bovaird (2007), Beyond Engagement and Participation",
+          "url": "https://doi.org/10.1111/j.1540-6210.2007.00773.x"
+        }
+      ]
     }
   ]
 }

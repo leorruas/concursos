@@ -939,6 +939,78 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo",
       "contestId": "camara-2026",
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-coproducao-servicos",
+      "term": "Coprodução de serviços públicos",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, coprodução e participação cidadã",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-matriz-bovaird",
+      "term": "Matriz de coprodução de Bovaird",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, coprodução e participação cidadã",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-codesenho-coentrega",
+      "term": "Codesenho e coentrega",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, coprodução e participação cidadã",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-quatro-fases-nabatchi",
+      "term": "Quatro fases da coprodução em Nabatchi e colaboradores",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, coprodução e participação cidadã",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-escada-arnstein",
+      "term": "Escada de participação de Arnstein",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, coprodução e participação cidadã",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-conselho-usuarios-13460",
+      "term": "Conselhos de usuários da Lei 13.460/2017",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, coprodução e participação cidadã",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-avaliacao-servicos-13460",
+      "term": "Avaliação continuada de serviços: Lei 13.460/2017",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, coprodução e participação cidadã",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-acessibilidade-digital-lbi",
+      "term": "Acessibilidade de sítios governamentais: art. 63 da LBI",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, coprodução e participação cidadã",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-riscos-coproducao",
+      "term": "Riscos de exclusão e transferência de custos na coprodução",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, coprodução e participação cidadã",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

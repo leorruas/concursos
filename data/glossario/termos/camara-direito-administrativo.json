@@ -558,7 +558,8 @@
           "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     },
     {
       "id": "glo-camara-lei9784-decisao-coordenada",
@@ -582,7 +583,8 @@
           "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     },
     {
       "id": "glo-camara-lei9784-intimacao-efeitos",
@@ -606,7 +608,8 @@
           "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
         }
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     }
   ]
 }

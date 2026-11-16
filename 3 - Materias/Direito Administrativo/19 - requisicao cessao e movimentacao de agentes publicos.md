@@ -151,19 +151,29 @@ No **STJ, MS 21.991/DF, julgado em 2016**, foi admitida a separação das fases 
 
 Fonte: [STJ, Informativo 598, MS 21.991/DF](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D016203).
 
+## Como a banca pode cobrar
+
+Para julgar um item, faça quatro perguntas na ordem: **quem tem competência para requisitar/ceder**, **qual agente é elegível**, **quem precisa concordar** e **quem suporta o custo**. Só então examine duração e efeitos disciplinares.
+
+- **Requisição é irrecusável se legalmente válida:** a Justiça Eleitoral tem restrições de elegibilidade e regras de prazo diferentes por hipótese.
+- **Cessão não é transferência de cargo:** vínculo na origem, anuências no decreto, finalidade do art. 93 e condições adicionais para outros Poderes e entes.
+- **Composição é só para o Executivo federal:** indicação consensual e realocação têm critérios distintos, inclusive quanto à anuência.
+- **Folha não é ônus:** quem paga ao agente pode ser diferente de quem deve suportar o custo; reembolso depende de norma.
+- **PAD de servidor cedido:** localizar o fato não equivale a concentrar no destino o poder de demitir servidor efetivo de outro quadro.
+
 ## Questões Comentadas (Estilo Cebraspe)
 
 ### Questão 1
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 Acerca do instituto da requisição de agentes públicos pela Justiça Eleitoral, julgue o item a seguir.
 
-> Em virtude da autonomia administrativa assegurada aos Poderes da República, o dirigente de órgão da Câmara dos Deputados poderá recusar motivadamente a liberação de servidor de seu quadro efetivo requisitado por Tribunal Regional Eleitoral, sob o fundamento de carência crônica e insubstituível de pessoal no setor legislativo de origem.
+> Em virtude da autonomia administrativa assegurada aos Poderes da República, o dirigente de órgão da Câmara dos Deputados poderá recusar o atendimento a requisição eleitoral regular de servidor de cargo elegível, sob o único fundamento de carência de pessoal no setor legislativo de origem.
 
 **( ) Certo**  
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** A requisição fundamentada na legislação eleitoral (Lei nº 6.999/1982 e Código Eleitoral) tem natureza jurídica **impositiva e cogente**, não outorgando à autoridade de origem margem discricionária de conveniência para indeferir ou postergar a apresentação do servidor. A prerrogativa legal da Justiça Eleitoral prevalece sobre as conveniências operacionais internas do órgão de origem, constituindo dever funcional estrito a liberação imediata do servidor requisitado.
+> **Comentário:** A requisição fundamentada na legislação eleitoral (Lei nº 6.999/1982 e Código Eleitoral) tem natureza jurídica **impositiva e cogente**, não outorgando à autoridade de origem margem discricionária de conveniência para indeferir ou postergar a apresentação do servidor. A prerrogativa legal da Justiça Eleitoral prevalece sobre as conveniências operacionais internas do órgão de origem, com observância do **prazo de apresentação**. A Resolução TSE nº 23.765/2026 reafirmou a irrecusabilidade, mas a legalidade pressupõe respeitar as **vedações relativas a cargos, estágio probatório e outras condições** dos arts. 2º e 3º da Resolução nº 23.523/2017. **A irrecusabilidade não dispensa a elegibilidade.**
 
 ---
 
@@ -185,7 +195,7 @@ No que concerne à cessão de servidores públicos federais disciplinada pela Le
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 Julgue o item que se segue, relativo ao ônus remuneratório na cessão de servidores entre entes federativos distintos.
 
-> Cedido servidor público federal para exercer cargo de Secretário Municipal em determinada prefeitura, o ônus da remuneração do cargo efetivo permanecerá compulsoriamente a cargo da União, vedada qualquer cobrança de ressarcimento contra a municipalidade cessionária.
+> Cedido servidor público federal para exercer **cargo em comissão de direção** em uma prefeitura municipal, o ônus da remuneração do cargo efetivo permanecerá obrigatoriamente com a União, vedado ressarcimento pela municipalidade cessionária.
 
 **( ) Certo**  
 **( ) Errado**
@@ -213,13 +223,13 @@ A respeito da contagem de tempo de serviço do servidor público durante o perí
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 Julgue o item a seguir, referente às diferenças dogmáticas entre requisição e cessão de agentes públicos.
 
-> Enquanto a cessão de servidores constitui ato administrativo bilateral e discricionário que depende do consentimento e da aquiescência do órgão de origem, a requisição opera-se por ato unilateral e cogente, dotado de autoexecutoriedade e fundado em mandamento legal inderrogável.
+> No regime do Decreto nº 10.835/2021, a cessão exige pedido do cessionário, concordância da origem e do agente, ao passo que a requisição expedida por autoridade legalmente competente é irrecusável quando preenchidos seus requisitos.
 
 **( ) Certo**  
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** O item traça com rigor doutrinário a linha divisória dos dois institutos. A cessão exige o alinhamento de vontades e a concordância da autoridade de origem (juízo de mérito), ao passo que a requisição decorre de poder de império estatal atribuído por lei a determinados órgãos (como na Justiça Eleitoral), traduzindo comando unilateral de cumprimento obrigatório pelo órgão de lotação originária.
+> **Comentário:** O Decreto nº 10.835/2021, art. 3º, § 2º, estabelece as três condições da cessão. O art. 9º define a requisição como irrecusável, desde que o requisitante tenha a prerrogativa legal e observe as restrições aplicáveis. O caráter impositivo **não torna válida ordem incompatível com lei especial**.
 
 ---
 
@@ -237,6 +247,45 @@ No que tange ao exercício do poder disciplinar sobre o servidor público cedido
 
 ---
 
+### Questão 7
+*(Inédita: estilo Cebraspe / Câmara dos Deputados)*
+
+> A irrecusabilidade da requisição de pessoal pela Justiça Eleitoral, reforçada por resolução do TSE em 2026, torna lícita a requisição de qualquer servidor efetivo, ainda que esteja em estágio probatório ou exerça cargo técnico vedado pela regulamentação.
+
+**( ) Certo**
+**( ) Errado**
+
+> **Gabarito: Errado**
+> **Comentário:** A Resolução TSE nº 23.523/2017, com alterações de 2026, reafirma a **irrecusabilidade de ordem válida**, mas mantém as **restrições do art. 2º** quanto a estágio probatório, cargos técnicos/científicos e outras hipóteses. As exceções precisam ser analisadas no dispositivo aplicável.
+
+---
+
+### Questão 8
+*(Inédita: estilo Cebraspe / Câmara dos Deputados)*
+
+> O Decreto nº 10.835/2021 prevê, como regra, cessão por prazo indeterminado, sem que isso impeça o seu encerramento por iniciativa das partes, observadas as regras de notificação e de retorno.
+
+**( ) Certo**
+**( ) Errado**
+
+> **Gabarito: Certo**
+> **Comentário:** Os arts. **7º e 8º** estabelecem, respectivamente, **prazo indeterminado** e possibilidade de **encerramento**. O cessionário pode exigir, em situação específica, manutenção por até um mês quando a cessão durar mais de um ano; prazo indeterminado não significa permanência irrevogável.
+
+---
+
+### Questão 9
+*(Inédita: estilo Cebraspe / Câmara dos Deputados)*
+
+> Por admitir composição da força de trabalho sem anuência do órgão de origem na modalidade de realocação, o Decreto nº 10.835/2021 permite que a Câmara dos Deputados receba servidores de ministérios por essa via.
+
+**( ) Certo**
+**( ) Errado**
+
+> **Gabarito: Errado**
+> **Comentário:** A composição da força de trabalho dos arts. 12 e 13 é **restrita ao Executivo federal**. O art. 13, § 2º, exclui movimentação para **outros Poderes**, ainda que o procedimento de realocação dispense anuência da origem no seu campo válido.
+
+---
+
 ## Relações com outros temas
 
 - [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos: espécies, cargos, empregos e funções]]: o vínculo estatutário originário e as posições de comissão e confiança.
@@ -247,7 +296,7 @@ No que tange ao exercício do poder disciplinar sobre o servidor público cedido
 
 - **Lei nº 8.112/1990 (RJU):** art. 93 (cessão de servidores e reembolso); art. 102, II (**exercício de cargo em comissão ou equivalente**, sem generalizar para toda requisição).
 - **Lei nº 6.999/1982:** normas sobre requisição de servidores públicos pela Justiça Eleitoral.
-- **Decreto nº 10.835/2021:** regulamentação da cessão e movimentação de pessoal no Poder Executivo Federal.
-- **Lei nº 6.999/1982 e regulamentação do TSE:** verificar, em cada requisição eleitoral, competência, elegibilidade do cargo, limites e prazos.
+- **Decreto nº 10.835/2021**, texto atualizado: conceitos e limites das movimentações, normas de cessão (arts. 3º a 8º), requisição (arts. 9º a 11), composição (arts. 12 a 16) e reembolso (arts. 17 a 26), em [texto da Câmara](https://www2.camara.leg.br/legin/fed/decret/2021/decreto-10835-14-outubro-2021-791864-normaatualizada-pe.html).
+- **Lei nº 6.999/1982 e regulamentação atual do TSE:** conferir elegibilidade, prazos, competência e irrecusabilidade em [Resolução nº 23.523/2017 consolidada](https://www.tse.jus.br/legislacao/compilada/res/2017/resolucao-no-23-523-de-27-de-junho-de-2017) e [Resolução nº 23.765/2026](https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-765-de-30-de-junho-de-2026).
 - **STJ, MS 21.991/DF:** delimitação da competência de instauração e instrução de processo disciplinar em cessão.
 - **Referência doutrinária:** conceitos gerais de agentes públicos e atos administrativos, sem atribuir títulos autônomos não identificados bibliograficamente a autores.

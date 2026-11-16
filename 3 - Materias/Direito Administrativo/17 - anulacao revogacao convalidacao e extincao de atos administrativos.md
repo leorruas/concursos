@@ -27,8 +27,8 @@ flowchart TD
 
     A["Desfazimento e Extinção do Ato Administrativo"]:::raiz
 
-    A --> B["ANULAÇÃO<br/>(Ilegalidade / regra ex tunc / limites da segurança jurídica)"]:::anula
-    A --> C["REVOGAÇÃO<br/>(Inconveniência ou inoportunidade / PODER da Adm / ex nunc)"]:::revoga
+    A --> B["ANULAÇÃO<br/>Vício jurídico; efeitos em regra retroativos<br/>com limites de segurança jurídica"]:::anula
+    A --> C["REVOGAÇÃO<br/>Ato válido, decisão de mérito<br/>efeitos em regra prospectivos"]:::revoga
     A --> D["CONVALIDAÇÃO<br/>(Defeito sanável / sem dano público nem a terceiros)"]:::convalida
     A --> E["OUTRAS FORMAS DE EXTINÇÃO<br/>(Cassação, caducidade, contraposição, renúncia)"]:::outras
 ```
@@ -42,7 +42,7 @@ A **anulação** é a extinção forçada de um ato administrativo em decorrênc
 - **Natureza:** a Administração **deve enfrentar a ilegalidade**, mas a solução exige verificar se há convalidação possível (art. 55), decadência (art. 54) e proteção da confiança. O art. 53 não permite ignorar esses limites.
 - **Competência para anular:** pode ser efetuada:
   1. Pela **própria Administração Pública** (exercício direto da autotutela, de ofício ou mediante provocação);
-  2. Pelo **Poder Judiciário**, quando formalmente provocado mediante ação judicial própria (mandado de segurança, ação civil pública, ação popular, etc.). O Judiciário **nunca anula de ofício** ato administrativo de outro Poder.
+  2. Pelo **Poder Judiciário**, no exercício do controle jurisdicional, observados os limites do processo e da provocação da jurisdição. Em regra, o Judiciário não inicia de ofício uma ação para anular ato administrativo de outro Poder; isso não impede que reconheça ilegalidades de ofício **dentro de processo regularmente instaurado**, quando a legislação processual autorizar.
 
 ### Efeitos da anulação: eficácia retroativa (*ex tunc*)
 A declaração de nulidade atinge o ato desde a sua origem fática, operando efeitos retroativos (**efeito *ex tunc***):
@@ -62,22 +62,20 @@ A autotutela anulatória não é perpétua nem ilimitada no tempo:
 ## 2. Revogação
 
 ### 2.1. Fundamento, mérito administrativo e competência privativa
-A **revogação** consiste na supressão de um ato administrativo **válido, perfeito e eficaz**, motivada por razões supervenientes de **inconveniência ou inoportunidade** sob o prisma do interesse público.
+A **revogação** consiste em retirar um ato administrativo **válido** que ainda admite reavaliação de conveniência e oportunidade. Em regra, a decisão é tomada porque manter o ato deixou de atender ao interesse público. A revogação não serve para corrigir ilegalidade: quando o problema é um vício jurídico, examina-se anulação ou convalidação, conforme o caso.
 - **Mérito administrativo:** a autoridade reavalia a oportunidade e a conveniência de manter em vigor uma determinada medida estatal discricionária.
-- **Competência exclusiva da Administração:** a revogação é prerrogativa privativa do Poder ou órgão que praticou o ato no exercício da função administrativa.
+- **Competência administrativa:** a revogação é realizada pela autoridade administrativa competente, que pode ser a própria autoridade que praticou o ato ou outra autoridade com poder de revisão segundo a organização e a legislação aplicáveis. Uma autoridade hierarquicamente superior, por exemplo, pode rever ato discricionário de subordinado quando o ordenamento permitir. Não se deve confundir competência para revogar com o poder judicial de controlar a legalidade.
 - **Controle judicial:** o Judiciário não substitui o juízo legítimo de conveniência da Administração para **revogar atos administrativos de outro Poder**. Pode invalidá-los por ilegalidade e controlar o respeito aos limites jurídicos da discricionariedade. Quando o próprio Judiciário atua administrativamente, pode rever os seus atos segundo as regras aplicáveis.
 
 ### Efeitos temporais: eficácia prospectiva (*ex nunc*)
-Como o ato revogado nasceu perfeito e compatível com a ordem jurídica, a sua revogação produz exclusivamente efeitos futuros (**efeito *ex nunc***):
-- Os efeitos produzidos durante a vigência do ato permanecem intangíveis e válidos no tempo.
-- Não há qualquer retroatividade.
+Como a revogação retira um ato válido por razões de mérito, seus efeitos são, **em regra, prospectivos (*ex nunc*)**: ela encerra a continuidade da eficácia do ato, respeitados direitos adquiridos e situações jurídicas protegidas. Por exemplo, a revogação de uma autorização precária de uso de espaço público não apaga, por si só, o período em que o uso foi legitimamente permitido.
 
 ### Atos insuscetíveis de revogação (Atos Irrevogáveis)
 A doutrina sintetiza um rol consagrado de atos administrativos que **não admitem revogação**:
-1. **Atos vinculados:** como a autoridade não possui margem de conveniência na expedição (preenchidos os requisitos legais, o administrado tem direito subjetivo), não pode revogar por critério discricionário superveniente (ex.: licença para construir).
+1. **Atos vinculados, quanto ao conteúdo sem margem de escolha:** se os requisitos legais conferem direito ao destinatário, a Administração não pode retirar o ato apenas porque mudou de preferência (ex.: licença urbanística regularmente concedida). A extinção por outras causas legalmente previstas continua possível; alguns atos denominados “licença” seguem regimes especiais.
 2. **Atos consumados ou exauridos:** aqueles que já produziram integralmente todos os seus efeitos materiais (ex.: gozo de licença-prêmio já usufruída integralmente pelo servidor).
 3. **Atos que geraram direito adquirido:** vedação expressa no art. 53 da Lei nº 9.784/1999 e no art. 5º, XXXVI, da CF/1988 (Súmula 473 do STF).
-4. **Atos que integram um procedimento administrativo (preclusão administrativa):** com o avanço das fases procedimentais, os atos das etapas anteriores tornam-se preclusos (ex.: superada a fase de habilitação na licitação, não se pode revogar ato da fase preparatória inicial sem desconstituir o procedimento).
+4. **Atos procedimentais já superados:** a preclusão pode impedir reavaliar isoladamente uma etapa após o avanço regular do procedimento, mas não elimina as hipóteses legais de anulação ou revogação do próprio procedimento. Na licitação, por exemplo, a autoridade deve observar as alternativas e os requisitos do art. 71 da Lei nº 14.133/2021; não há proibição absoluta de rever todo ato de fase anterior.
 5. **Meros atos administrativos / Atos enunciativos:** atos que apenas atestam fatos ou emitem juízos de valor sem carga volitiva autônoma (ex.: certidões, atestados, pareceres).
 6. **Atos complexos (pela manifestação unilateral isolada de apenas um dos órgãos):** um dos órgãos formadores não pode revogar isoladamente ato que depende da fusão de vontades de ambos.
 
@@ -86,13 +84,13 @@ A doutrina sintetiza um rol consagrado de atos administrativos que **não admite
 ## 3. Convalidação (Saneamento ou Ratificação)
 
 ### Conceito e pressupostos dogmáticos
-A **convalidação** é o ato administrativo pelo qual a autoridade supre vício prévio existente em ato com defeito sanável, confirmando sua validade no ordenamento jurídico.
+A **convalidação** é a correção de defeito sanável em ato administrativo, nos limites previstos em lei, com aproveitamento de seus efeitos quando juridicamente possível. Exemplo: um ato praticado por autoridade sem competência exclusiva pode ser ratificado pela autoridade competente, se não houver lesão ao interesse público nem prejuízo a terceiros. Isso difere de produzir um novo ato para substituir uma decisão cujo vício é insanável.
 
 O art. 55 da Lei nº 9.784/1999 positiva os pressupostos cumulativos:
 > *"Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração."*
 
 - **Requisitos cumulativos para convalidar:**
-  1. O defeito deve ser **sanável** (vícios de competência não exclusiva ou forma não essencial);
+  1. O defeito deve ser **sanável** (exemplos clássicos: certos vícios de competência não exclusiva ou de forma não essencial);
   2. Ausência de **lesão ao interesse público**;
   3. Ausência de **prejuízo a terceiros**;
   4. A autoridade deve verificar o regime, o estágio do procedimento e os direitos envolvidos. **O art. 55 não estabelece, textualmente, vedação universal à convalidação de todo ato já impugnado**; a impugnação pode ser juridicamente relevante conforme o vício e o caso.
@@ -113,7 +111,7 @@ flowchart TD
     A --> C["Forma"]:::forma
     A --> D["Finalidade, Motivo e Objeto"]:::vedado
 
-    B --> B1["Admite convalidação SE NÃO for exclusiva (Ratificação por autoridade superior)"]:::comp
+    B --> B1["Competência não exclusiva<br/>ratificação pela autoridade competente<br/>observados requisitos do art. 55"]:::comp
     C --> C1["Admite convalidação SE a solenidade não for essencial à validade"]:::forma
     D --> D1["Em regra, vícios substanciais não são sanáveis; examinar o caso"]:::vedado
 ```
@@ -137,8 +135,7 @@ flowchart TD
 Além da anulação e da revogação, o ato administrativo pode ser extinto pelas seguintes espécies dogmáticas:
 
 ### Cassação
-Extinção do ato porque o seu **beneficiário descumpriu condição legal obrigatória superveniente** que deveria manter para continuar fruindo daquela situação jurídica (espécie de sanção pelo descumprimento culposo do particular).
-- *Exemplo clássico:* cassação da licença/alvará de funcionamento de estabelecimento comercial que passa a operar como ponto de tráfico de drogas, ou cassação da Carteira Nacional de Habilitação (CNH) por reincidência de infrações graves.
+Na classificação doutrinária, a **cassação** ocorre quando o beneficiário descumpre condição necessária à manutenção de um ato antes válido. Exemplo: um estabelecimento deixa de observar requisitos sanitários indispensáveis ao funcionamento e sofre cassação do alvará, **se a legislação aplicável prever essa consequência**, observado o procedimento devido. O nome da sanção e seus pressupostos devem ser verificados na lei específica; nem toda infração implica cassação.
 
 ### Caducidade (Derrubada por Norma Superveniente)
 Na **classificação doutrinária de atos administrativos**, caducidade pode designar extinção por **norma superveniente** que torna incompatível atividade antes permitida. Não confundir com a **caducidade da concessão de serviço público** na **Lei nº 8.987/1995**, que rege concessões e permissões: seu art. 38 disciplina a extinção por inexecução contratual do concessionário, e não por simples lei nova.

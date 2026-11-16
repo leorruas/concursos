@@ -5,17 +5,17 @@ title: "Anulação, revogação, convalidação e extinção de atos administrat
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-16
 ---
 
 # Anulação, revogação, convalidação e extinção de atos administrativos: autotutela, limites e formas de desfazimento
 
-O encerramento do ciclo de vida do ato administrativo no ordenamento jurídico pode ocorrer por causas naturais (cumprimento dos efeitos, exaurimento material ou advento do termo/condição resolutiva) ou por intervenção voluntária de desfazimento decorrente do exercício do poder de **autotutela** administrativa ou de intervenção jurisdicional.
+Uma prefeitura concede licença para uma atividade, mas depois descobre um vício na concessão. Em outra situação, a Administração muda sua política e já não quer manter uma autorização precária. As soluções são diferentes: **anular** trata de ilegalidade; **revogar** trata de conveniência e oportunidade dentro dos limites legais. Há ainda **convalidação**, que corrige defeitos sanáveis, e outras hipóteses de extinção.
 
-O direito brasileiro consagra a **autotutela administrativa** nos enunciados das **Súmulas 346 e 473 do Supremo Tribunal Federal (STF)** e no **art. 53 da Lei nº 9.784/1999**:
+**Autotutela** é o poder-dever de a Administração controlar a legalidade de seus próprios atos e reavaliar, nos casos cabíveis, a conveniência de mantê-los. Está prevista nas **Súmulas 346 e 473 do Supremo Tribunal Federal (STF)** e no **art. 53 da Lei nº 9.784/1999**, lei que regula o processo administrativo federal:
 > *"A Administração deve anular seus próprios atos, quando eivados de vício de legalidade, e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos."* (Lei nº 9.784/1999, art. 53).
 
-A dogmática do desfazimento do ato administrativo assenta-se no confronto perene entre os princípios da **legalidade estrita**, da **segurança jurídica**, da **proteção da confiança legítima** e da **economicidade**, desdobrando-se em regimes distintos de anulação, revogação, convalidação e outras formas especiais de extinção (cassação, caducidade, contraposição e renúncia).
+O art. 53 deve ser lido com os arts. 54 e 55 da mesma lei: proteger a legalidade exige também considerar **segurança jurídica**, **confiança legítima**, prazo decadencial e possibilidade de sanar o vício. Extinção natural ocorre quando o ato cumpre seus efeitos ou chega ao prazo final. Cassação, caducidade, contraposição e renúncia são outras categorias doutrinárias que dependem do caso e da norma aplicável.
 
 ```mermaid
 flowchart TD
@@ -27,9 +27,9 @@ flowchart TD
 
     A["Desfazimento e Extinção do Ato Administrativo"]:::raiz
 
-    A --> B["ANULAÇÃO<br/>(Vício de legalidade / DEVER da Adm / ex tunc)"]:::anula
+    A --> B["ANULAÇÃO<br/>(Ilegalidade / regra ex tunc / limites da segurança jurídica)"]:::anula
     A --> C["REVOGAÇÃO<br/>(Inconveniência ou inoportunidade / PODER da Adm / ex nunc)"]:::revoga
-    A --> D["CONVALIDAÇÃO<br/>(Correção de defeito sanável / FACULDADE / ex tunc)"]:::convalida
+    A --> D["CONVALIDAÇÃO<br/>(Defeito sanável / sem dano público nem a terceiros)"]:::convalida
     A --> E["OUTRAS FORMAS DE EXTINÇÃO<br/>(Cassação, caducidade, contraposição, renúncia)"]:::outras
 ```
 
@@ -39,14 +39,14 @@ flowchart TD
 
 ### 1.1. Fundamento, dever de anular e competência
 A **anulação** é a extinção forçada de um ato administrativo em decorrência de **vício originário de legalidade ou legitimidade** (desconformidade com a Constituição, lei ou regulamento no momento de sua edição).
-- **Natureza do ato:** enquanto a revogação é faculdade discricionária (*"pode revogar"*), a anulação consubstancia um **dever de ofício** da Administração (*"deve anular"*), ressalvada a hipótese de convalidação quando juridicamente cabível.
+- **Natureza:** a Administração **deve enfrentar a ilegalidade**, mas a solução exige verificar se há convalidação possível (art. 55), decadência (art. 54) e proteção da confiança. O art. 53 não permite ignorar esses limites.
 - **Competência para anular:** pode ser efetuada:
   1. Pela **própria Administração Pública** (exercício direto da autotutela, de ofício ou mediante provocação);
   2. Pelo **Poder Judiciário**, quando formalmente provocado mediante ação judicial própria (mandado de segurança, ação civil pública, ação popular, etc.). O Judiciário **nunca anula de ofício** ato administrativo de outro Poder.
 
 ### 1.2. Efeitos temporais: eficácia retroativa (*ex tunc*)
 A declaração de nulidade atinge o ato desde a sua origem fática, operando efeitos retroativos (**efeito *ex tunc***):
-- Como o ato ilegal nunca deveria ter nascido, o reconhecimento da nulidade fulmina o ato e desconstitui todas as suas consequências jurídicas passadas, restaurando o estado anterior de coisas (*status quo ante*).
+- **Regra:** a anulação procura desfazer os efeitos jurídicos desde a origem (*ex tunc*). A expressão não autoriza apagar automaticamente toda consequência já produzida, sobretudo quando há terceiros de boa-fé e situações consolidadas protegidas pelo Direito.
 - **Ressalva à retroatividade (proteção de terceiros de boa-fé):** em reverência aos princípios da boa-fé, da confiança legítima e da segurança jurídica, a jurisprudência consolidada do STF e do STJ preserva os efeitos práticos produzidos pelo ato nulo em favor de terceiros que tenham atuado imbuídos de boa-fé (ex.: atos praticados por funcionário de fato ou vencimentos percebidos de boa-fé por servidor nomeado com base em critério posteriormente invalidado).
 
 ### 1.3. Limites à anulação: prazo decadencial de 5 anos (art. 54 da Lei nº 9.784/1999)
@@ -54,8 +54,8 @@ A autotutela anulatória não é perpétua nem ilimitada no tempo:
 > *"O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé."* (art. 54, *caput*).
 
 - **Efeitos patrimoniais contínuos:** nos atos que geram prestações patrimoniais periódicas (ex.: pensões, vantagens salariais), o prazo de cinco anos conta-se a partir da percepção do **primeiro pagamento** (art. 54, § 1º).
-- **Ressalva de má-fé:** se o beneficiário concorreu ou tinha ciência inequívoca da ilegalidade com dolo ou má-fé comprovada, **não incide decadência**, podendo a Administração anular o ato a qualquer tempo.
-- **Atos flagrantemente inconstitucionais:** segundo orientação do STF, atos que afrontam de modo frontal e direto o texto constitucional (ex.: provimento derivado de cargo público sem concurso público após a CF/1988) não se convalidam pelo decurso de prazo decadencial ordinário.
+- **Má-fé comprovada:** afasta a decadência quinquenal do art. 54; a simples alegação de má-fé pela autoridade não basta. O § 2º considera exercício do direito de anular qualquer medida administrativa que impugne a validade do ato, aspecto relevante para verificar o prazo.
+- **Inconstitucionalidade:** há jurisprudência que afasta a estabilização de certas situações diretamente contrárias à Constituição, mas não se deve afirmar que qualquer irregularidade rotulada como "inconstitucional" elimina automaticamente o art. 54. É indispensável examinar o precedente, o tipo de ato e a segurança jurídica. Para **registro inicial de aposentadorias nos tribunais de contas**, o STF fixou no **Tema 445 (RE 636.553)** prazo próprio de cinco anos desde a chegada do processo à Corte, que não se confunde com o termo inicial ordinário do art. 54.
 
 ---
 
@@ -65,7 +65,7 @@ A autotutela anulatória não é perpétua nem ilimitada no tempo:
 A **revogação** consiste na supressão de um ato administrativo **válido, perfeito e eficaz**, motivada por razões supervenientes de **inconveniência ou inoportunidade** sob o prisma do interesse público.
 - **Mérito administrativo:** a autoridade reavalia a oportunidade e a conveniência de manter em vigor uma determinada medida estatal discricionária.
 - **Competência exclusiva da Administração:** a revogação é prerrogativa privativa do Poder ou órgão que praticou o ato no exercício da função administrativa.
-- **Vedação absoluta ao Poder Judiciário:** o Poder Judiciário **jamais pode revogar ato administrativo praticado pelo Poder Executivo ou pelo Poder Legislativo**. O controle judicial restringe-se estritamente à anulação por ilegalidade/legitimidade. O Judiciário somente revoga seus próprios atos quando atua no exercício atípico de sua função administrativa interna.
+- **Controle judicial:** o Judiciário não substitui o juízo legítimo de conveniência da Administração para **revogar atos administrativos de outro Poder**. Pode invalidá-los por ilegalidade e controlar o respeito aos limites jurídicos da discricionariedade. Quando o próprio Judiciário atua administrativamente, pode rever os seus atos segundo as regras aplicáveis.
 
 ### 2.2. Efeitos temporais: eficácia prospectiva (*ex nunc*)
 Como o ato revogado nasceu perfeito e compatível com a ordem jurídica, a sua revogação produz exclusivamente efeitos futuros (**efeito *ex nunc***):
@@ -95,10 +95,10 @@ O art. 55 da Lei nº 9.784/1999 positiva os pressupostos cumulativos:
   1. O defeito deve ser **sanável** (vícios de competência não exclusiva ou forma não essencial);
   2. Ausência de **lesão ao interesse público**;
   3. Ausência de **prejuízo a terceiros**;
-  4. O ato não deve ter sido previamente impugnado administrativa ou judicialmente pelo interessado.
+  4. A autoridade deve verificar o regime, o estágio do procedimento e os direitos envolvidos. **O art. 55 não estabelece, textualmente, vedação universal à convalidação de todo ato já impugnado**; a impugnação pode ser juridicamente relevante conforme o vício e o caso.
 
 ### 3.2. Efeitos temporais: eficácia retroativa (*ex tunc*)
-A convalidação retroage no tempo até o momento em que o ato original defeituoso foi editado (**efeito *ex tunc***), considerando-o perfeito e acabado desde a sua origem.
+A convalidação, em regra, **retroage à edição do ato defeituoso (*ex tunc*)**, aproveitando os efeitos juridicamente admissíveis. Essa retroação não dispensa os requisitos do art. 55: defeito sanável e ausência de lesão ao interesse público ou prejuízo a terceiros.
 
 ```mermaid
 flowchart TD
@@ -115,7 +115,7 @@ flowchart TD
 
     B --> B1["Admite convalidação SE NÃO for exclusiva (Ratificação por autoridade superior)"]:::comp
     C --> C1["Admite convalidação SE a solenidade não for essencial à validade"]:::forma
-    D --> D1["NUNCA admitem convalidação (Vícios insanáveis geram anulação obrigatória)"]:::vedado
+    D --> D1["Em regra, vícios substanciais não são sanáveis; examinar o caso"]:::vedado
 ```
 
 ---
@@ -126,9 +126,9 @@ flowchart TD
 | :--- | :--- | :--- | :--- |
 | **Motivo gerador** | **Ilegalidade originária** (vício de legalidade/legitimidade). | **Inconveniência ou inoportunidade superveniente** (mérito). | **Defeito sanável originário** (competência não exclusiva / forma não essencial). |
 | **Quem pode praticar?** | **Administração Pública** (autotutela) ou **Poder Judiciário** (provocado). | **Exclusivamente a Administração Pública** (vedado ao Judiciário em atos alheios). | **A própria Administração Pública**. |
-| **Natureza da atuação** | **Dever de ofício** (vinculado). | **Faculdade / Poder discricionário**. | **Faculdade / Poder-dever discricionário regrado**. |
-| **Efeitos temporais** | **Retroativos (*ex tunc*)**, ressalvada boa-fé de terceiros. | **Prospectivos (*ex nunc*)**, preservados direitos adquiridos. | **Retroativos (*ex tunc*)** à data do ato original. |
-| **Prazo extintivo** | Decadência em **5 anos** para atos favoráveis, salvo má-fé (art. 54). | A qualquer tempo, desde que antes da consumação ou consolidação de direito adquirido. | Antes da anulação ou de impugnação tempestiva. |
+| **Natureza da atuação** | Dever de corrigir ilegalidade, observado prazo, convalidação e confiança. | Decisão de mérito dentro da competência legal. | Decisão condicionada a defeito sanável e ausência de lesão/prejuízo (art. 55). |
+| **Efeitos temporais** | Em regra **ex tunc**, com possíveis limites de segurança jurídica. | Em regra **ex nunc**, preservados efeitos anteriores legítimos. | Em regra **ex tunc**, dentro das condições legais do saneamento. |
+| **Prazo e limites** | Regra de **5 anos** para atos favoráveis, salvo má-fé (art. 54), com regimes especiais. | Enquanto juridicamente possível, respeitados direitos adquiridos e atos exauridos. | Art. 55 exige sanabilidade, interesse público e ausência de prejuízo a terceiros; não fixa prazo geral nesses termos. |
 
 ---
 
@@ -141,7 +141,7 @@ Extinção do ato porque o seu **beneficiário descumpriu condição legal obrig
 - *Exemplo clássico:* cassação da licença/alvará de funcionamento de estabelecimento comercial que passa a operar como ponto de tráfico de drogas, ou cassação da Carteira Nacional de Habilitação (CNH) por reincidência de infrações graves.
 
 ### 5.2. Caducidade (Derrubada por Norma Superveniente)
-Extinção do ato administrativo decorrente da **superveniência de nova norma jurídica (lei ou regulamento)** que torna incompatível e juridicamente proibida a manutenção daquela situação jurídica anteriormente outorgada de forma válida.
+Na **classificação doutrinária de atos administrativos**, caducidade pode designar extinção por **norma superveniente** que torna incompatível atividade antes permitida. Não confundir com a **caducidade da concessão de serviço público** na **Lei nº 8.987/1995**, que rege concessões e permissões: seu art. 38 disciplina a extinção por inexecução contratual do concessionário, e não por simples lei nova.
 - *Exemplo clássico:* permissão concedida para uso de calçada por feirantes que caduca em decorrência de plano diretor municipal superveniente que proíbe qualquer ocupação de vias públicas naquela zona urbana residencial.
 
 ### 5.3. Contraposição (Derrubada)
@@ -150,7 +150,7 @@ Extinção que ocorre pela **edição de um novo ato administrativo, fundado em 
 
 ### 5.4. Renúncia
 Extinção que decorre da **manifestação expressa de vontade do administrado beneficiário**, declarando perante o Poder Público que abdica voluntariamente da prerrogativa ou faculdade jurídica conferida pelo ato administrativo (aplicável apenas a direitos disponíveis).
-- *Exemplo clássico:* renúncia formal de servidor aposentado para aproveitamento de tempo de serviço em outro regime previdenciário, ou renúncia a alvará de funcionamento.
+- *Exemplo:* o beneficiário renuncia a uma autorização de uso que podia livremente abandonar. A disponibilidade do direito precisa ser verificada; renúncia a aposentadoria para obter benefício novo não é exemplo seguro de aplicação geral.
 
 ---
 
@@ -166,7 +166,7 @@ Acerca do controle jurisdicional dos atos administrativos e do princípio da aut
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** A assertiva apresenta múltiplos erros crônicos: 1) O Poder Judiciário **jamais tem competência para revogar ato administrativo praticado pelo Poder Executivo** ou Legislativo; a revogação por conveniência e oportunidade insere-se no núcleo infenso do mérito administrativo, privativo da autoridade administrativa prolatora. O controle jurisdicional limita-se à **anulação** por vício de legalidade ou legitimidade; 2) Ainda que se tratasse de revogação legítima praticada pela própria Administração, seus efeitos temporais seriam prospectivos (**efeito *ex nunc***), e nunca retroativos (*ex tunc*).
+> **Comentário:** Há dois erros. A revogação por conveniência é decisão administrativa, não medida judicial para substituir o mérito legítimo do Executivo. Além disso, a revogação, em regra, atua apenas para o futuro (**ex nunc**). O Judiciário pode invalidar atos ilegais e controlar os limites jurídicos da discricionariedade; contrato de concessão tem ainda formas próprias de extinção regidas pela Lei nº 8.987/1995.
 
 ---
 
@@ -180,7 +180,7 @@ Julgue o item subsequente, relativo ao prazo decadencial previsto na Lei nº 9.7
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** O item reproduz com estrita precisão a redação e a inteligência do art. 54, *caput*, da Lei nº 9.784/1999. A segurança jurídica e a estabilização das relações sociais consagram a decadência quinquenal para a anulação de atos favoráveis aos destinatários. Contudo, a norma legal ressalva expressamente a comprovada má-fé do administrado, situação em que a prerrogativa anulatória da Administração não é obstada pelo decurso do tempo.
+> **Comentário:** O art. 54, **caput**, da Lei nº 9.784/1999 prevê cinco anos para anular atos com efeitos favoráveis, a partir da prática, salvo má-fé comprovada. O § 1º conta do primeiro pagamento quando houver efeitos patrimoniais contínuos; o § 2º considera exercício do direito de anular medida administrativa que impugne a validade do ato. Regimes especiais exigem atenção.
 
 ---
 
@@ -188,13 +188,13 @@ Julgue o item subsequente, relativo ao prazo decadencial previsto na Lei nº 9.7
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 No que concerne à convalidação de atos administrativos federais, julgue o item a seguir.
 
-> Identificado vício de forma essencial em ato administrativo disciplinar que culminou na imposição de penalidade de suspensão a servidor público sem oportunização de prazo legal para apresentação de alegações finais de defesa, a autoridade julgadora poderá convalidar o ato com base no art. 55 da Lei nº 9.784/1999, caso verifique a inexistência de má-fé da comissão processante.
+> Identificado vício de forma essencial em ato administrativo disciplinar que culminou na imposição de penalidade de suspensão a servidor público sem abertura do prazo legal para apresentação de **defesa escrita**, assegurado pelo art. 161, § 1º, da Lei nº 8.112/1990, a autoridade julgadora poderá convalidar o ato com base no art. 55 da Lei nº 9.784/1999, caso verifique a inexistência de má-fé da comissão processante.
 
 **( ) Certo**  
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** A ausência de oportunidade para alegações finais de defesa em processo disciplinar consubstancia vício de **forma essencial** e frontal violação aos princípios constitucionais do contraditório e da ampla defesa (art. 5º, LV, da CF/1988). Trata-se de vício **insanável**, que gera nulidade absoluta do procedimento a partir do momento em que a oportunidade defensiva foi suprimida. A convalidação admitida pelo art. 55 da Lei nº 9.784/1999 restringe-se estritamente a "defeitos sanáveis" (como formalidades periféricas secundárias que não afetem garantias de defesa nem lesionem o interesse público ou terceiros).
+> **Comentário:** O enunciado passou a referir-se à **defesa escrita prevista no art. 161, § 1º, da Lei nº 8.112/1990**. Suprimir essa oportunidade afeta garantia essencial de defesa. O art. 55 da Lei nº 9.784/1999 permite convalidar apenas defeitos sanáveis, sem lesão ao interesse público nem prejuízo a terceiros; a boa-fé da comissão não supre a defesa do indiciado. Não confundir essa fase legal com suposta exigência universal de alegações finais adicionais em todo PAD.
 
 ---
 
@@ -208,7 +208,7 @@ Julgue o item a respeito das formas dogmáticas de extinção dos atos administr
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** O enunciado inverteu os conceitos de cassação e caducidade. A extinção de ato administrativo motivada pela superveniência de lei nova que torna a situação antes permitida juridicamente incompatível com o ordenamento denomina-se **caducidade**. A **cassação**, por sua vez, é a extinção punitiva decorrente do descumprimento superveniente pelo particular das condições legais ou regulamentares que sustentavam a eficácia do ato (ex.: descumprimento de normas sanitárias pelo titular do alvará).
+> **Comentário:** O item troca **cassação** por **caducidade em sentido doutrinário**. A primeira decorre do descumprimento de condição pelo beneficiário; a segunda, nessa classificação, de incompatibilidade criada por norma posterior. Atenção: na **Lei nº 8.987/1995, art. 38**, a expressão 'caducidade da concessão' possui sentido legal específico ligado a inexecução contratual.
 
 ---
 
@@ -222,7 +222,7 @@ Acerca dos limites materiais ao poder de revogação da Administração Pública
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** A **licença** consubstancia ato administrativo **vinculado** e declaratório de direito subjetivo. Uma vez preenchidos todos os pressupostos técnicos e normativos estabelecidos na legislação de regência, a sua manutenção é garantida contra revogações discricionárias motivadas por mera conveniência subjetiva da autoridade. Caso o particular venha a cometer infração ambiental posterior, a medida cabível é a **cassação** (sanção) ou, caso haja vício originário na outorga, a **anulação**, mas jamais revogação simples.
+> **Comentário:** A licença ambiental está submetida a **regime especial**. A **Lei nº 15.190/2025**, Lei Geral do Licenciamento Ambiental, art. 16, prevê suspensão ou cancelamento **por decisão motivada**, por exemplo, diante de graves riscos supervenientes à saúde pública ou ao meio ambiente. Logo, é incorreta tanto a ideia de que a licença possa ser retirada **por mero gosto da autoridade** como a afirmação de que sua extinção só caberia em caso de infração do empreendedor. Avaliar requisitos e hipóteses legais é essencial.
 
 ---
 
@@ -236,7 +236,7 @@ Julgue o item a seguir, referente à extinção por contraposição e aos atos a
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** A assertiva exemplifica com precisão a extinção por **contraposição** (também denominada pela doutrina de derrubada). Ocorre quando a edição de um novo ato administrativo legalmente praticado tem o efeito direto e imediato de desconstituir o ato anterior pelo simples fato de os conteúdos e as finalidades serem reciprocamente excludentes no mundo jurídico, a exemplo da nomeação extinta pelo advento do ato superveniente de exoneração ou demissão.
+> **Comentário:** A exoneração de ocupante de cargo em comissão encerra os efeitos do ato anterior de nomeação e serve de exemplo doutrinário de **contraposição**. Essa classificação não transforma a exoneração em sanção disciplinar: a exoneração ad nutum do cargo em comissão distingue-se de demissão punitiva.
 
 ---
 
@@ -249,7 +249,10 @@ Julgue o item a seguir, referente à extinção por contraposição e aos atos a
 
 ## Fontes normativas e jurisprudenciais
 
-- **Constituição Federal de 1988:** art. 5º, XXXVI (direito adquirido); art. 37, *caput* (princípios).
-- **Lei nº 9.784/1999 (Processo Administrativo Federal):** art. 53 (autotutela: anulação e revogação); art. 54 (decadência quinquenal); art. 55 (convalidação de defeitos sanáveis).
-- **Supremo Tribunal Federal:** Súmula 346 e Súmula 473 (autotutela e limites dos direitos adquiridos); jurisprudência consolidada sobre decadência do art. 54 e atos inconstitucionais.
-- **Superior Tribunal de Justiça:** proteção à confiança legítima e irrepetibilidade de verbas remuneratórias recebidas de boa-fé pelo administrado.
+- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): art. 5º, XXXVI e LV, e art. 37, caput; direitos adquiridos, defesa e legalidade.
+- [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm): processo administrativo federal; arts. 53, 54 e 55, sobre autotutela, decadência e convalidação.
+- [Lei nº 8.112/1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm): estatuto dos servidores civis da União; art. 161, § 1º, prazo de defesa escrita no PAD.
+- [Lei nº 8.987/1995](https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm): concessões e permissões de serviços públicos; art. 38, caducidade da concessão por inexecução.
+- [Lei nº 15.190/2025, Lei Geral do Licenciamento Ambiental](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15190-8-agosto-2025-797833-normaatualizada-pl.html): art. 16, suspensão/cancelamento motivado de licença ambiental em hipóteses legais.
+- [STF, Tema 445, RE 636.553](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4043019&numeroProcesso=636553&numeroTema=445): prazo específico de cinco anos para tribunal de contas examinar concessão inicial.
+- **STF, Súmulas 346 e 473:** autotutela administrativa, anulação e revogação, com proteção dos direitos adquiridos.

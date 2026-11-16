@@ -42,17 +42,17 @@ flowchart TD
 ## Competência (Sujeito)
 
 ### Conceito e características
-A **competência** é o círculo de atribuições conferido pelo ordenamento jurídico aos órgãos e agentes públicos para o desempenho de funções administrativas. Decorre diretamente do princípio da legalidade administrativa (art. 37, *caput*, da CF/1988), segundo o qual o administrador somente pode agir quando expressamente autorizado pela lei (*princípio da legalidade estrita*).
+A **competência** é o círculo de atribuições conferido pelo ordenamento jurídico aos órgãos e agentes públicos para o desempenho de funções administrativas. Sua fonte é o ordenamento jurídico, observado o princípio da legalidade administrativa (art. 37, *caput*, da Constituição Federal de 1988). O agente precisa de fundamento jurídico para exercer a atribuição, mas isso não exige que cada providência material esteja descrita literalmente em uma lei. Por exemplo, a lei pode conferir a um órgão competência para fiscalizar contratos, enquanto normas válidas organizam os procedimentos dessa fiscalização.
 
-A competência administrativa possui características dogmáticas intransigíveis:
-- **Origem legal:** decorre sempre de previsão legal (ou constitucional). Não existe competência presumida nem criada por vontade unilateral do agente.
+A competência administrativa apresenta características importantes para a prova:
+- **Origem normativa:** deve ter fundamento na Constituição ou na legislação pertinente. Normas administrativas podem distribuir o exercício de atribuições dentro dos limites legais; a vontade isolada do agente não cria competência.
 - **Irrenunciabilidade e inderrogabilidade:** a competência é conferida em benefício do interesse coletivo (poder-dever), sendo vedado ao agente renunciar a ela ou transferi-la por conveniência privada (art. 11 da Lei nº 9.784/1999).
 - **Imprescritibilidade:** o não exercício continuado de uma competência não acarreta sua extinção temporal nem convalida a usurpação.
-- **Intransferibilidade:** ressalvadas as hipóteses legalmente admitidas de delegação e avocação, a competência permanece circunscrita ao órgão/cargo instituidor.
+- **Permanência da titularidade:** na delegação, transfere-se o exercício de parte das atribuições, sem mudar definitivamente quem recebeu a competência na norma; na avocação, a autoridade superior assume temporariamente o exercício nas condições legais.
 
 ### Delegação e avocação de competência
-A Lei nº 9.784/1999 disciplina os instrumentos temporários de alteração do exercício da competência:
-- **Delegação (art. 12):** transferência transitória do *exercício* de parte das atribuições a outro órgão ou agente subordinado ou até mesmo não subordinado (relação horizontal ou vertical), quando conveniente por motivos técnicos, sociais, econômicos, jurídicos ou territoriais. Não se delega a titularidade da competência, mas apenas o seu exercício material. O ato de delegação é revogável a qualquer tempo pela autoridade delegante.
+A Lei nº 9.784/1999 disciplina dois instrumentos que modificam **quem exerce** determinada competência no processo administrativo federal, sem equivaler à criação de uma nova pessoa jurídica:
+- **Delegação (arts. 12 e 14):** atribuição do *exercício* de parte da competência a outro órgão ou titular, mesmo sem subordinação hierárquica, quando conveniente por razões técnicas, sociais, econômicas, jurídicas ou territoriais e sem impedimento legal. Não se transfere a titularidade da competência. A delegação e sua revogação devem ser publicadas; o ato precisa delimitar matérias, poderes, duração, objetivos e recurso cabível. A autoridade delegante pode revogá-lo a qualquer tempo.
 - **Vedação absoluta à delegação (art. 13 da Lei nº 9.784/1999 - mnemônico NO-RE-EX):**
   1. Edição de atos de caráter **normativo**;
   2. Decisão de **recursos** administrativos;
@@ -91,7 +91,7 @@ A **forma** é o modo pelo qual a vontade da Administração se exterioriza no m
 
 ### Vício de forma e convalidação
 O art. 2º, parágrafo único, "b", da Lei nº 4.717/1965 estabelece que o vício de forma consiste na omissão ou na observância incompleta ou irregular de formalidades indispensáveis à existência ou seriedade do ato.
-- **Forma essencial (insanável):** quando a formalidade é indispensável para a validade do ato ou constitui garantia fundamental de ampla defesa do administrado (ex.: ausência de contraditório em processo disciplinar; ausência de parecer vinculante obrigatório). Gera nulidade absoluta.
+- **Forma essencial (em regra, insanável):** quando a formalidade protege uma garantia ou é indispensável para a decisão. Exemplo: aplicar uma punição disciplinar sem dar ao servidor oportunidade de defesa pode invalidar o procedimento. É preciso avaliar o vício concreto e as consequências jurídicas, em vez de presumir que qualquer falha formal seja corrigível.
 - **Forma não essencial (sanável):** irregularidades que não causem prejuízo a terceiros nem lesão ao interesse público, permitindo a **convalidação** (art. 55 da Lei nº 9.784/1999).
 
 ---
@@ -103,8 +103,8 @@ Para as bancas de concurso público (especialmente o Cebraspe), a distinção en
 
 | Conceito | Natureza | Pergunta respondida | Existência obrigatória? |
 | :--- | :--- | :--- | :--- |
-| **Motivo** | Pressuposto fático e normativo que autoriza ou exige a prática do ato. | *O que aconteceu no mundo real e qual norma incide sobre o caso?* | **Sim, indispensável**. Todo ato administrativo possui motivo (se o fato não existiu, o ato é nulo). |
-| **Motivação** | Exposição dos fundamentos fáticos e jurídicos, inclusive mediante remissão válida a parecer anterior. | *Como a autoridade justificou sua decisão?* | Exigida nas hipóteses legais do art. 50 da Lei nº 9.784/1999 e demais normas aplicáveis; pode não ser exigida expressamente em certas exonerações de cargo em comissão de livre nomeação e exoneração. |
+| **Motivo** | Situação de fato e fundamento jurídico que autorizam ou exigem o ato. | *Qual fato e qual norma justificam a decisão?* | O ato precisa ter suporte fático e jurídico válido. Fato inexistente ou juridicamente inadequado pode invalidá-lo (Lei nº 4.717/1965, art. 2º, parágrafo único, d). |
+| **Motivação** | Explicação dos fatos e das normas que sustentam a decisão, inclusive por remissão válida a parecer anterior. | *Como a autoridade apresentou suas razões?* | Obrigatória nas hipóteses legais do art. 50 da Lei nº 9.784/1999 e em outras situações previstas no ordenamento. Há atos, como certas exonerações de cargo em comissão de livre nomeação, que podem dispensar motivação expressa. |
 
 ### Motivação aliunde (por remissão)
 A Lei nº 9.784/1999 consagra expressamente a **motivação per relationem** ou **aliunde** em seu art. 50, § 1º:

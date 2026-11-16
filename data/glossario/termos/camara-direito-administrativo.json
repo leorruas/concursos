@@ -269,6 +269,60 @@
         "camara-2026"
       ],
       "status": "reviewed"
+    },
+    {
+      "articleIds": [
+        "art-6b9002df47604ea5"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "id": "glo-camara-funcao-confianca",
+      "term": "Função de confiança",
+      "aliases": [
+        "Função gratificada"
+      ],
+      "definition": "Atribuições de direção, chefia ou assessoramento exercidas exclusivamente por servidor ocupante de cargo efetivo.",
+      "contrast": "O cargo em comissão pode ser ocupado por pessoa sem cargo efetivo, observados os percentuais mínimos legais para servidores de carreira.",
+      "cebraspeTrap": "Afirmar que pessoa sem cargo efetivo pode exercer função de confiança.",
+      "example": "Servidora efetiva designada para chefiar uma equipe sem perder seu cargo original.",
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 37, V",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "art-6b9002df47604ea5"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "id": "glo-camara-motivacao-dispensa-estatal",
+      "term": "Motivação da dispensa de empregado público concursado",
+      "aliases": [
+        "Tema 1022 STF"
+      ],
+      "definition": "Dever de empresa pública ou sociedade de economia mista justificar formalmente a dispensa de empregado admitido por concurso, conforme STF Tema 1022.",
+      "contrast": "Motivação não confere estabilidade constitucional do art. 41 nem exige PAD em toda dispensa.",
+      "cebraspeTrap": "Confundir dispensa motivada com estabilidade do servidor titular de cargo efetivo.",
+      "example": "Estatal registra os critérios operacionais usados para dispensar empregado concursado.",
+      "sources": [
+        {
+          "label": "STF, RE 688.267, Tema 1022",
+          "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1022"
+        }
+      ]
     }
   ]
 }

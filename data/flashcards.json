@@ -11139,6 +11139,72 @@
         "prompt": "Confundir CMO e CFT ou afirmar que a CMO, sozinha, aprova definitivamente a LOA. Certo ou errado?",
         "answer": "Errado. A CMO é mista do Congresso; difere da CFT, que é comissão permanente apenas da Câmara dos Deputados."
       }
+    },
+    {
+      "topic": "Direito Administrativo",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "note": {
+        "articleId": "art-6b9002df47604ea5",
+        "section": "3.1. Quadro Comparativo: Cargo em Comissão versus Função de Confiança"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "id": "camara-dad05-funcao-confianca",
+      "term": "Função de confiança: quem pode exercer?",
+      "definition": "Somente servidor ocupante de cargo efetivo pode exercer função de confiança, destinada a direção, chefia e assessoramento (CF, art. 37, V).",
+      "example": "Servidora concursada efetiva assume coordenação por designação.",
+      "confusion": "Cargo em comissão pode admitir pessoa sem vínculo efetivo; função de confiança não.",
+      "source": {
+        "title": "Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Art. 37, V"
+      },
+      "conceptIds": [
+        "glo-camara-funcao-confianca"
+      ],
+      "contrast": {
+        "prompt": "Pessoa sem cargo efetivo pode assumir função de confiança se for nomeada livremente?",
+        "answer": "Não. Livre nomeação é característica do cargo em comissão; função de confiança é exclusiva de ocupante de cargo efetivo."
+      }
+    },
+    {
+      "topic": "Direito Administrativo",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "note": {
+        "articleId": "art-6b9002df47604ea5",
+        "section": "5.3. A Situação dos Empregados Públicos de Empresas Estatais"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "id": "camara-dad05-estatal-dispensa-motivada",
+      "term": "Empregado de estatal: estabilidade e dispensa motivada",
+      "definition": "Empregado concursado de empresa pública ou sociedade de economia mista não tem estabilidade do art. 41, mas sua dispensa exige motivação formal (STF, Tema 1022).",
+      "example": "Estatal comunica formalmente a razão operacional de dispensa de empregado concursado.",
+      "confusion": "Exigir motivação não é exigir justa causa da CLT ou processo disciplinar idêntico ao de servidor estável.",
+      "source": {
+        "title": "STF, Tema 1022, RE 688.267",
+        "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1022",
+        "locator": "Tese de repercussão geral"
+      },
+      "conceptIds": [
+        "glo-camara-motivacao-dispensa-estatal"
+      ],
+      "contrast": {
+        "prompt": "A exigência de motivação transforma empregado de estatal em servidor estável?",
+        "answer": "Não. O dever de motivar a dispensa não cria a estabilidade constitucional do art. 41."
+      }
     }
   ]
 }

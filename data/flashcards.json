@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "exams": [
     {
       "id": "cgu-2026",
@@ -10814,6 +10814,330 @@
       "note": {
         "articleId": "art-4c1041281ca44ee5",
         "section": "Revisão final: quatro decisões com quóruns diferentes"
+      }
+    },
+    {
+      "id": "camara-ordem-do-dia",
+      "term": "Ordem do Dia",
+      "definition": "Parte da sessão destinada à discussão e à votação das matérias da pauta. A Presidência organiza a Ordem do Dia, observadas as regras regimentais; também há Ordem do Dia em reuniões de comissões.",
+      "example": "Um projeto é incluído na Ordem do Dia de terça-feira, mas a votação pode ser adiada.",
+      "confusion": "Pauta prevista não significa votação efetivamente realizada nem aprovação da proposta.",
+      "topic": "Regimento Interno e processo legislativo",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Organização e tramitação"
+      ],
+      "note": {
+        "articleId": "art-6d8e3f041b9a52c7",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "source": {
+        "title": "RICD, arts. 66 e 82",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "RICD, arts. 66 e 82"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-ordem-do-dia"
+      ],
+      "contrast": {
+        "prompt": "Afirmar que a inclusão na Ordem do Dia equivale à aprovação automática. Certo ou errado?",
+        "answer": "Errado. Pauta prevista não significa votação efetivamente realizada nem aprovação da proposta."
+      }
+    },
+    {
+      "id": "camara-poder-conclusivo",
+      "term": "Poder conclusivo das comissões",
+      "definition": "Competência regimental de comissões da Câmara para discutir e votar certos projetos de lei dispensando a deliberação ordinária do Plenário, ressalvadas as matérias excluídas do rito e o recurso regimental.",
+      "example": "Projeto de lei ordinária pode encerrar a apreciação na Câmara pelas comissões, se cabível e sem recurso válido.",
+      "confusion": "Conclusivo diz respeito a quem decide o mérito; terminativo, à admissibilidade jurídica ou orçamentária do projeto.",
+      "topic": "Regimento Interno e processo legislativo",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Organização e tramitação"
+      ],
+      "note": {
+        "articleId": "art-b6f0d82c91a74e35",
+        "section": "Competências gerais das comissões: legislar e fiscalizar"
+      },
+      "source": {
+        "title": "CF art. 58, § 2º, I; RICD art. 24, II",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "CF art. 58, § 2º, I; RICD art. 24, II"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-poder-conclusivo"
+      ],
+      "contrast": {
+        "prompt": "Supor que todo projeto será votado conclusivamente, inclusive PEC ou lei complementar. Certo ou errado?",
+        "answer": "Errado. Conclusivo diz respeito a quem decide o mérito; terminativo, à admissibilidade jurídica ou orçamentária do projeto."
+      }
+    },
+    {
+      "id": "camara-apensacao",
+      "term": "Apensação de proposições",
+      "definition": "Tramitação conjunta de proposições semelhantes ou conexas, vinculadas a uma proposição principal, observados os requisitos regimentais. A apensação coordena a análise, mas não funde automaticamente os textos.",
+      "example": "Dois projetos sobre a mesma política pública podem tramitar juntos para exame coordenado.",
+      "confusion": "Apensar não transforma dois projetos em um único texto nem garante que terão aprovação conjunta.",
+      "topic": "Regimento Interno e processo legislativo",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Organização e tramitação"
+      ],
+      "note": {
+        "articleId": "art-d269c5708f314eba",
+        "section": "Apensação: tramitação conjunta sem fusão de textos"
+      },
+      "source": {
+        "title": "RICD, arts. 139 e 142",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "RICD, arts. 139 e 142"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-apensacao"
+      ],
+      "contrast": {
+        "prompt": "Afirmar que o projeto apensado perde imediatamente sua identidade legislativa. Certo ou errado?",
+        "answer": "Errado. Apensar não transforma dois projetos em um único texto nem garante que terão aprovação conjunta."
+      }
+    },
+    {
+      "id": "camara-parecer-terminativo",
+      "term": "Caráter terminativo do parecer",
+      "definition": "Efeito decisório do parecer sobre admissibilidade jurídica ou adequação financeira e orçamentária, nos casos regimentais. Um parecer negativo pode encerrar a tramitação, ressalvado o recurso cabível.",
+      "example": "A CCJC conclui pela inconstitucionalidade de um projeto e seu parecer pode impedir o prosseguimento, salvo recurso.",
+      "confusion": "O caráter terminativo da CCJC ou CFT difere do poder conclusivo das comissões para decidir o mérito.",
+      "topic": "Regimento Interno e processo legislativo",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Organização e tramitação"
+      ],
+      "note": {
+        "articleId": "art-b6f0d82c91a74e35",
+        "section": "Admissibilidade e parecer terminativo: arts. 53 e 54"
+      },
+      "source": {
+        "title": "RICD art. 54",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "RICD art. 54"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-parecer-terminativo"
+      ],
+      "contrast": {
+        "prompt": "Tratar parecer terminativo como aprovação final de mérito ou afirmar que jamais admite recurso. Certo ou errado?",
+        "answer": "Errado. O caráter terminativo da CCJC ou CFT difere do poder conclusivo das comissões para decidir o mérito."
+      }
+    },
+    {
+      "id": "camara-enquadramento-residual",
+      "term": "Enquadramento residual de competência",
+      "definition": "Critério de classificação utilizado quando uma matéria não se ajusta claramente a uma competência temática mais específica. A aplicação depende do despacho, do regimento e do objeto predominante da proposição; a expressão não cria por si só uma nova comissão nem uma regra geral de distribuição.",
+      "example": "Uma proposta multidisciplinar exige examinar o tema central e o despacho antes de definir quais comissões de mérito atuarão.",
+      "confusion": "Competência residual não autoriza escolher livremente qualquer comissão: é preciso identificar fundamento regimental e a matéria predominante.",
+      "topic": "Regimento Interno e processo legislativo",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Organização e tramitação"
+      ],
+      "note": {
+        "articleId": "art-d269c5708f314eba",
+        "section": "Recebimento e distribuição: procedimento na Câmara"
+      },
+      "source": {
+        "title": "RICD, arts. 32 e 139",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "RICD, arts. 32 e 139"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-enquadramento-residual"
+      ],
+      "contrast": {
+        "prompt": "Afirmar que sempre existe uma comissão residual obrigatória para qualquer assunto não classificado. Certo ou errado?",
+        "answer": "Errado. Competência residual não autoriza escolher livremente qualquer comissão: é preciso identificar fundamento regimental e a matéria predominante."
+      }
+    },
+    {
+      "id": "camara-comissao-merito",
+      "term": "Comissão de mérito",
+      "definition": "Comissão competente para examinar o conteúdo e a conveniência de uma proposição em sua área temática, avaliando a política ou a solução proposta. Pode também exercer apreciação conclusiva quando o regimento permitir.",
+      "example": "Comissão de Educação avalia a política educacional proposta; a CCJC pode examinar a constitucionalidade da mesma matéria.",
+      "confusion": "Exame de mérito não é o mesmo que verificar constitucionalidade ou adequação orçamentária; CCJC e CFT também podem julgar mérito dentro de suas áreas.",
+      "topic": "Regimento Interno e processo legislativo",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Organização e tramitação"
+      ],
+      "note": {
+        "articleId": "art-b6f0d82c91a74e35",
+        "section": "Competências gerais das comissões: legislar e fiscalizar"
+      },
+      "source": {
+        "title": "RICD, arts. 32 e 53, I",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "RICD, arts. 32 e 53, I"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-comissao-merito"
+      ],
+      "contrast": {
+        "prompt": "Imaginar que toda comissão de mérito somente emite parecer consultivo e nunca decide conclusivamente. Certo ou errado?",
+        "answer": "Errado. Exame de mérito não é o mesmo que verificar constitucionalidade ou adequação orçamentária; CCJC e CFT também podem julgar mérito dentro de suas áreas."
+      }
+    },
+    {
+      "id": "camara-ccjc",
+      "term": "Comissão de Constituição e Justiça e de Cidadania (CCJC)",
+      "definition": "Comissão permanente da Câmara que examina constitucionalidade, juridicidade e técnica legislativa das proposições nos casos regimentais; também analisa o mérito de temas de seu campo, como direito civil e penal, e a admissibilidade de PECs.",
+      "example": "Proposta sobre direito penal pode ter exame de mérito pela CCJC, além da análise de constitucionalidade.",
+      "confusion": "Seu exame jurídico pode ser terminativo; isso não significa que todo parecer da CCJC seja uma decisão de mérito ou que toda matéria seja votada conclusivamente por ela.",
+      "topic": "Regimento Interno e processo legislativo",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Organização e tramitação"
+      ],
+      "note": {
+        "articleId": "art-b6f0d82c91a74e35",
+        "section": "Admissibilidade e parecer terminativo: arts. 53 e 54"
+      },
+      "source": {
+        "title": "RICD, arts. 32, 53 e 54",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "RICD, arts. 32, 53 e 54"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-ccjc"
+      ],
+      "contrast": {
+        "prompt": "Reduzir a CCJC a uma comissão que apenas confere a gramática ou supor que ela vota o mérito de todos os projetos. Certo ou errado?",
+        "answer": "Errado. Seu exame jurídico pode ser terminativo; isso não significa que todo parecer da CCJC seja uma decisão de mérito ou que toda matéria seja votada conclusivamente por ela."
+      }
+    },
+    {
+      "id": "camara-cft",
+      "term": "Comissão de Finanças e Tributação (CFT)",
+      "definition": "Comissão permanente da Câmara que avalia compatibilidade e adequação financeira e orçamentária de proposições com impacto nas contas públicas, e também examina o mérito de assuntos de sua área temática, como tributação.",
+      "example": "Projeto que aumenta gasto público é examinado quanto à adequação orçamentária; proposta tributária pode ter também mérito na CFT.",
+      "confusion": "O parecer de adequação pode ser terminativo; a análise de mérito da CFT tem objeto diferente e não substitui a da CCJC.",
+      "topic": "Regimento Interno e processo legislativo",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Organização e tramitação"
+      ],
+      "note": {
+        "articleId": "art-b6f0d82c91a74e35",
+        "section": "Admissibilidade e parecer terminativo: arts. 53 e 54"
+      },
+      "source": {
+        "title": "RICD, arts. 32, 53 e 54",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "RICD, arts. 32, 53 e 54"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-cft"
+      ],
+      "contrast": {
+        "prompt": "Afirmar que a CFT analisa toda proposta obrigatoriamente, mesmo sem aspectos financeiros ou orçamentários pertinentes. Certo ou errado?",
+        "answer": "Errado. O parecer de adequação pode ser terminativo; a análise de mérito da CFT tem objeto diferente e não substitui a da CCJC."
+      }
+    },
+    {
+      "id": "camara-cmo",
+      "term": "Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO)",
+      "definition": "Comissão permanente do Congresso Nacional integrada por deputados e senadores que examina e emite pareceres sobre PPA, LDO, LOA, créditos adicionais e acompanha a fiscalização orçamentária, conforme a Constituição e as normas do Congresso.",
+      "example": "O projeto da lei orçamentária anual passa pela CMO antes da deliberação do Congresso Nacional.",
+      "confusion": "A CMO é mista do Congresso; difere da CFT, que é comissão permanente apenas da Câmara dos Deputados.",
+      "topic": "Regimento Interno e processo legislativo",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Organização e tramitação"
+      ],
+      "note": {
+        "articleId": "art-91d84ac6f2b70e35",
+        "section": "Três colegiados que não devem ser confundidos"
+      },
+      "source": {
+        "title": "Constituição, art. 166, § 1º; Resolução 1/2006-CN",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "Constituição, art. 166, § 1º; Resolução 1/2006-CN"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-cmo"
+      ],
+      "contrast": {
+        "prompt": "Confundir CMO e CFT ou afirmar que a CMO, sozinha, aprova definitivamente a LOA. Certo ou errado?",
+        "answer": "Errado. A CMO é mista do Congresso; difere da CFT, que é comissão permanente apenas da Câmara dos Deputados."
       }
     }
   ]

@@ -11413,6 +11413,114 @@
       "status": "validated",
       "reviewedAt": "2026-11-16",
       "revision": 1
+    },
+    {
+      "id": "camara-da19-requisicao-eleitoral-limites",
+      "term": "Requisição eleitoral é irrecusável, mas tem limites",
+      "definition": "Requisição regular pela Justiça Eleitoral é irrecusável; a Resolução TSE nº 23.523/2017 atualizada em 2026 restringe certas categorias, como servidores em estágio probatório, sob PAD e cargos técnicos ou científicos, observadas suas exceções.",
+      "example": "Um tribunal pede servidor efetivo de cargo técnico: deve-se examinar a vedação legal, e não concluir pela validade só por ser efetivo.",
+      "confusion": "Irrecusabilidade não autoriza ignorar elegibilidade, prazos e competência; a requisição eleitoral também pode ser nominal.",
+      "note": {
+        "articleId": "art-b1f27b8954f08262",
+        "section": "1.2. Principais hipóteses legais de requisição no ordenamento federal"
+      },
+      "conceptIds": [
+        "glo-camara-da19-requisicao-eleitoral"
+      ],
+      "source": {
+        "title": "Resolução TSE nº 23.523/2017, modificada em 2026",
+        "url": "https://www.tse.jus.br/legislacao/compilada/res/2017/resolucao-no-23-523-de-27-de-junho-de-2017",
+        "locator": "Arts. 1º a 8º, em especial art. 2º"
+      },
+      "contrast": {
+        "prompt": "Toda requisição feita pela Justiça Eleitoral pode atingir qualquer servidor efetivo?",
+        "answer": "Não. A ordem deve respeitar cargos elegíveis, vedações como estágio probatório e limites da Lei nº 6.999 e normas do TSE."
+      },
+      "topic": "Requisição, cessão e movimentação de agentes públicos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Agentes públicos / Requisição, cessão e movimentação"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da19-cessao-anuencia",
+      "term": "Cessão: três concordâncias e finalidade",
+      "definition": "No Decreto nº 10.835/2021, cessão depende de pedido do destino, concordância da origem e do agente, e normalmente de cargo em comissão ou função de confiança ou exceção legal, conforme art. 93 da Lei nº 8.112/1990.",
+      "example": "Um ministério só poderá receber em cessão servidora de autarquia se houver as concordâncias e os demais requisitos, salvo regime legal distinto.",
+      "confusion": "Cessão não é requisição e não rompe o vínculo; em certas cessões a outros Poderes, o decreto prevê nível mínimo de cargo.",
+      "note": {
+        "articleId": "art-b1f27b8954f08262",
+        "section": "2.1. Conceito, participantes e anuências"
+      },
+      "conceptIds": [
+        "glo-camara-da19-cessao-condicoes"
+      ],
+      "source": {
+        "title": "Decreto nº 10.835/2021, art. 3º, § 2º",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/2021/decreto-10835-14-outubro-2021-791864-normaatualizada-pe.html",
+        "locator": "Arts. 3º a 8º"
+      },
+      "contrast": {
+        "prompt": "Se o destino quer receber o servidor, isso basta para cessão no Decreto nº 10.835?",
+        "answer": "Não. O art. 3º, § 2º, exige pedido do destino, concordância da origem e do agente, além das condições legais."
+      },
+      "topic": "Requisição, cessão e movimentação de agentes públicos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Agentes públicos / Requisição, cessão e movimentação"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da19-onus-reembolso",
+      "term": "Ônus financeiro não é pagamento em folha",
+      "definition": "Pagamento em folha é quem remunera diretamente o agente; ônus é quem suporta economicamente o gasto e reembolso é a restituição, quando aplicável, ao órgão que pagou. A regra depende de origem, destino e natureza da movimentação.",
+      "example": "Na cessão federal a Município para cargo comissionado, o ônus do cessionário pode coexistir com pagamento operacional feito pela origem e ressarcimento.",
+      "confusion": "Não confundir quem emite o contracheque com quem assume o custo; não presumir ressarcimento de qualquer parcela em todo caso.",
+      "note": {
+        "articleId": "art-b1f27b8954f08262",
+        "section": "2.3. Ônus econômico, pagamento em folha e reembolso"
+      },
+      "conceptIds": [
+        "glo-camara-da19-onus-reembolso"
+      ],
+      "source": {
+        "title": "Lei nº 8.112/1990, art. 93, e Decreto nº 10.835/2021",
+        "url": "https://www2.camara.leg.br/legin/fed/decret/2021/decreto-10835-14-outubro-2021-791864-normaatualizada-pe.html",
+        "locator": "Arts. 17 a 26"
+      },
+      "contrast": {
+        "prompt": "Se a origem segue pagando a folha, ela arca necessariamente com todo o ônus final da cessão?",
+        "answer": "Não. O destino pode ter obrigação de reembolsar, segundo o art. 93 e as regras de reembolso pertinentes."
+      },
+      "topic": "Requisição, cessão e movimentação de agentes públicos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Agentes públicos / Requisição, cessão e movimentação"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
     }
   ]
 }

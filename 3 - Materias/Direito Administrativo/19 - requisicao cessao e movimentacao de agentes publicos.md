@@ -5,60 +5,65 @@ title: "Requisição, cessão e movimentação de agentes públicos: distinçõe
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-16
 ---
 
 # Requisição, cessão e movimentação de agentes públicos: distinções, ônus financeiro e regime jurídico
 
-A gestão de recursos humanos na Administração Pública contemporânea exige instrumentos flexíveis de cooperação e mobilidade interinstitucional para atender a demandas sazonais, missões extraordinárias, cooperação federativa e funcionamento de órgãos essenciais da República.
+**Caso concreto:** um tribunal eleitoral precisa reforçar temporariamente um cartório e requisita servidor de outro órgão. Um ministério pede a uma autarquia que ceda uma servidora para cargo em comissão. Em outra situação, o Executivo federal organiza uma realocação de pessoal. Nos três casos, o vínculo com a origem pode permanecer. **A diferença está em quem pode determinar a mudança, quais concordâncias são necessárias, para onde a pessoa pode ir e quem arca com a remuneração.**
 
-No regime federal, a mobilidade pode assumir **três formas distintas**, conforme o art. 2º, parágrafo único, do Decreto nº 10.835/2021: **cessão**, **requisição** e **alteração de exercício para composição da força de trabalho**. Cada instituto tem finalidade, autoridade competente, regras de anuência e consequências financeiras próprias. A mudança de exercício **preserva o vínculo** do agente com o órgão ou entidade de origem.
+O **Decreto nº 10.835/2021**, aplicável a movimentações em que a Administração federal seja parte, trata a **movimentação** como alteração do exercício sem interromper o vínculo com a origem (art. 2º). Distingue **requisição, cessão e alteração de exercício para composição da força de trabalho**. O **art. 93 da Lei nº 8.112/1990**, estatuto dos servidores civis federais, disciplina a cessão; a **Justiça Eleitoral** possui regras especiais.
 
-A expressão **“movimentação” é gênero**, e as três formas são espécies. Para estudar o concurso da Câmara, é essencial distinguir também o âmbito do decreto (Executivo federal) das regras gerais da Lei nº 8.112/1990 e dos regimes especiais aplicáveis a outros Poderes. A composição de força de trabalho prevista no decreto **não permite, por si, transferência ao Legislativo**.
+**Vínculo** é a relação jurídica com o cargo/emprego de origem; **exercício** é o local de prestação do serviço; **lotação** é a unidade de vinculação administrativa. A composição da força de trabalho **não serve para transferir agentes à Câmara**, pois o decreto a restringe ao **Poder Executivo federal**.
 
 ```mermaid
 flowchart TD
-    classDef raiz fill:#fff8e7,stroke:#d4a373,stroke-width:2px,color:#2b2b2b;
-    classDef req fill:#f8d7da,stroke:#e63946,stroke-width:1.5px,color:#721c24;
-    classDef cessao fill:#faedcd,stroke:#d4a373,stroke-width:1.5px,color:#2b2b2b;
-    classDef detalhe fill:#e9edc9,stroke:#ccd5ae,stroke-width:1.5px,color:#2b2b2b;
+    classDef raiz fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#111111;
+    classDef criterio fill:#fff2d9,stroke:#b45309,stroke-width:1.5px,color:#3d2207;
+    classDef opcao fill:#fffbeb,stroke:#b68d58,stroke-width:1.5px,color:#1c1917;
 
-    A["Mobilidade Externa de Agentes Públicos"]:::raiz
-
-    A --> B["REQUISIÇÃO<br/>(Ato IMPOSITIVO e obrigatório)"]:::req
-    A --> C["CESSÃO<br/>(Concordância de cedente e agente)"]:::cessao
-    A --> D["COMPOSIÇÃO DA FORÇA DE TRABALHO<br/>(Executivo federal)"]:::detalhe
-
-    B --> B1["Órgão de origem NÃO PODE recusar<br/>(Poder de império legal)"]:::req
-    B --> B2["Justiça Eleitoral (Lei 6.999/82), Presidência da República e Defensoria"]:::detalhe
-    B --> B3["Folha, ônus e reembolso<br/>conforme lei e destino"]:::detalhe
-
-    C --> C1["Pedido do destino e concordância<br/>da origem e do agente"]:::cessao
-    C --> C2["Finalidade: exercício de cargo em comissão ou função de confiança (art. 93, Lei 8.112)"]:::detalhe
-    C --> C3["Ônus e reembolso: conforme origem, destino e norma"]:::detalhe
-    D --> D1["Indicação consensual: anuências<br/>Realocação: sem anuência da origem"]:::detalhe
+    A["Alteração de exercício, vínculo na origem"]:::raiz
+    A --> B["REQUISIÇÃO: prerrogativa prevista em lei"]:::criterio
+    A --> C["CESSÃO: pedido e concordâncias"]:::criterio
+    A --> D["COMPOSIÇÃO: só Executivo federal"]:::criterio
+    B --> B1["Irrecusável se válida; há restrições legais"]:::opcao
+    B --> B2["Justiça Eleitoral: requisitos e prazos próprios"]:::opcao
+    C --> C1["Comissão, confiança ou hipótese legal específica"]:::opcao
+    C --> C2["Quem paga, quem suporta o ônus e reembolso"]:::opcao
+    D --> D1["Indicação consensual ou realocação"]:::opcao
+    D --> D2["Não alcança a Câmara como destino"]:::opcao
 ```
+
 
 ---
 
 ## 1. Requisição de Agentes Públicos
 
 ### 1.1. Conceito e natureza impositiva
-A **requisição** é o ato administrativo pelo qual uma autoridade ou órgão público legalmente investido de poder de império requisitório determina a transferência temporária do exercício funcional de um servidor público de outro órgão ou ente federativo para prestar serviços no órgão requisitante.
-- **Caráter irrecusável e cogente:** a autoridade do órgão de origem (lotador original do servidor) **não possui margem de discricionariedade** para indeferir o pedido, avaliar conveniência interna de sua repartição ou condicionar a liberação à reposição de pessoal. A liberação do servidor é um **dever jurídico de estrito cumprimento**.
-- **Natureza jurídica:** ato unilateral imperativo derivado de autorização legal expressa vinculada ao interesse público primário.
+
+A **requisição** é uma ordem de órgão ou entidade que dispõe de **prerrogativa legal expressa** para obter o exercício temporário do agente. Pelo art. 9º do Decreto nº 10.835/2021, a requisição regular é **irrecusável** e não altera a lotação no órgão de origem.
+
+**Irrecusável não significa sem condições:** precisam estar presentes competência legal, elegibilidade do servidor, finalidade e limites de prazo. A falta de pessoal na origem, por si só, não é motivo para recusar requisição **regular**; uma ordem que viole proibição legal deve ter sua validade examinada.
+
+**Indicação nominal:** no Decreto nº 10.835/2021, a regra é **não indicar nominalmente** o agente; a origem pode selecionar pessoa compatível, exceto nas requisições para **Presidência e Vice-Presidência da República** (art. 9º, §§ 2º e 3º). No regime especial da **Justiça Eleitoral**, a Resolução TSE nº 23.523/2017 admite **requisição nominal** (art. 3º, parágrafo único). Portanto, a indicação depende da norma aplicável.
 
 ### 1.2. Principais hipóteses legais de requisição no ordenamento federal
-A requisição não é um poder genérico de qualquer repartição; depende de **previsão estrita em lei formal**:
-1. **Justiça Eleitoral (Lei nº 6.999/1982 e art. 30 do Código Eleitoral):**
-   - Os juízes e tribunais eleitorais têm competência legal para requisitar servidores públicos da União, Estados, DF e Municípios, bem como de suas autarquias, para auxiliar os cartórios eleitorais e as eleições.
-   - A requisição tem prazo certo (em regra 1 ano, prorrogável) e o órgão de origem não pode obstar a apresentação do servidor.
-2. **Presidência da República e Vice-Presidência (Lei nº 9.007/1995 e Lei nº 14.600/2023):**
-   - Prerrogativa legal para requisitar servidores de quaisquer órgãos ou entidades federais para exercício de atribuições nos órgãos da Presidência da República.
-3. **Defensoria Pública da União (Lei Complementar nº 80/1994):**
-   - Hipóteses extraordinárias de requisição de pessoal para viabilizar a implantação e funcionamento emergencial de núcleos defensoriais.
-4. **Poder Judiciário e Ministério Público da União:**
-   - Previsões estritas nas respectivas leis orgânicas e regimentais para atendimento de situações específicas e temporárias de assessoria técnica.
+
+A principal hipótese de prova é a **Justiça Eleitoral**, cuja requisição é disciplinada pela **Lei nº 6.999/1982**, pela **Resolução TSE nº 23.523/2017** e pela **Resolução TSE nº 23.765/2026**. A mudança de 2026 reafirmou a **irrecusabilidade da requisição legalmente válida** e admitiu providências administrativas em caso de descumprimento, sem eliminar requisitos e limites.
+
+**Quem pode ser requisitado:**
+
+- A regra é servidor ocupante de **cargo efetivo**; a resolução veda requisitar quem está em **estágio probatório**, sob **sindicância ou processo administrativo disciplinar**, ou é **contratado temporário** (art. 2º).
+- Também restringe **cargos isolados, técnicos ou científicos e magistério**. O § 2º define técnico/científico pelo **conteúdo especializado das tarefas**, independentemente do nome do cargo e do nível escolar. A exceção de nomeação em cargo em comissão precisa ser lida com o **§ 3º acrescido em 2026**, relativo ao TSE.
+- A requisição normalmente ocorre na **mesma unidade da Federação**, podendo ser **nominal** (art. 3º). Existem também limites quantitativos vinculados aos cartórios.
+
+**Prazos variam com a hipótese legal:** o **art. 6º** prevê, para cartórios eleitorais, **um ano, prorrogável por até mais quatro anos, em períodos anuais**, com regra especial para fim do prazo máximo em ano eleitoral. O **art. 7º** trata de servidores da administração federal direta, autárquica e fundacional, com **prazo de até três anos ininterruptos** e possível prorrogação excepcional com condições de reembolso. O **art. 8º** prevê requisições extraordinárias para acúmulo ocasional de serviço, com regras próprias. **Não memorizar um único prazo para toda requisição eleitoral.**
+
+**Caso concreto na Câmara:** um servidor de cargo elegível, dentro das condições legais, é requisitado regularmente pelo tribunal eleitoral. O dirigente da origem não pode simplesmente recusar por carência de pessoal. Se o servidor exerce cargo especializado ou está em estágio probatório, a elegibilidade precisa ser examinada antes de afirmar que a ordem é válida.
+
+**Outras hipóteses:** Presidência e Vice-Presidência da República dispõem de prerrogativas próprias, inclusive sob a **Lei nº 9.007/1995**. Para outros órgãos e poderes, exige-se **identificar lei autorizadora específica**: a natureza constitucional do órgão, isoladamente, não cria poder geral de requisitar servidores.
+
+Fontes: [Resolução TSE nº 23.523/2017, texto consolidado](https://www.tse.jus.br/legislacao/compilada/res/2017/resolucao-no-23-523-de-27-de-junho-de-2017), [Resolução TSE nº 23.765/2026](https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-765-de-30-de-junho-de-2026) e [Lei nº 6.999/1982](https://www.tse.jus.br/legislacao/codigo-eleitoral/leis-ordinarias/lei-nb0-6.999-de-7-de-junho-de-1982).
 
 ### 1.3. Remuneração e direitos durante a requisição
 
@@ -74,25 +79,27 @@ Fonte: [Decreto nº 10.835/2021, arts. 9º, 10 e 17 a 26](https://www2.camara.le
 
 ### 2.1. Conceito, participantes e anuências
 
-A **cessão** é a alteração do exercício de agente público para outro órgão ou entidade, preservado o vínculo funcional de origem. O conceito do Decreto nº 10.835/2021 **não exige estabilidade como requisito universal**, e o seu art. 1º também abrange determinadas categorias de empregados públicos.
+Na **cessão**, o agente passa a exercer atividades em outro órgão ou entidade, preservando o vínculo com a origem. **Cedente** é o órgão que disponibiliza; **cessionário**, o órgão que recebe. Não se exige **estabilidade como requisito universal**; o art. 1º do Decreto nº 10.835/2021 contempla servidores efetivos e certas categorias de empregados públicos.
 
-Para a cessão no regime do decreto, o art. 3º, § 2º, exige **três condições cumulativas**: **pedido do órgão cessionário**, **concordância do cedente** e **concordância do próprio agente público**. Como regra, a cessão para cargo em comissão ou função de confiança admite exceções estabelecidas em lei.
+Para uma cessão no regime do decreto, o art. 3º, § 2º, exige **três condições cumulativas:** (1) **pedido do órgão cessionário**, (2) **concordância do cedente** e (3) **concordância do agente**. A autorização depende ainda de finalidade, competências e limites da legislação aplicável.
 
-**Exemplo:** uma autarquia federal recebe pedido para cessão de servidora a ministério. O interesse do destino, por si só, não supre a anuência da entidade de origem nem a concordância da servidora. Já a requisição legal válida, ou a alteração de exercício por realocação, tem disciplina distinta.
+**Exemplo:** um ministério solicita servidora de autarquia para cargo de direção. O pedido do destino, sozinho, não supre a anuência da autarquia e da servidora. Na **requisição eleitoral válida**, o regime é outro, porque o poder requisitório vem de lei especial.
 
 ### 2.2. Hipóteses legais de cabimento (Art. 93 da Lei nº 8.112/1990)
-O servidor público federal regido pela Lei nº 8.112/1990 somente pode ser cedido nas seguintes condições estritas:
-1. Para o **exercício de cargo em comissão ou função de confiança** (art. 93, I);
-2. Em casos previstos em **leis específicas** (art. 93, II).
 
-> [!IMPORTANT]
-> **Vício de desvio na cessão:** É ilegal e nula a cessão de servidor público federal para outro Poder ou ente federativo quando destinada ao desempenho de atribuições técnicas ordinárias sem vinculação a cargo em comissão ou função de confiança (salvo lei autorizativa expressa).
+O **art. 93 da Lei nº 8.112/1990**, estatuto dos servidores civis federais, admite cessão de servidor **(I) para exercer cargo em comissão ou função de confiança** ou **(II) nas hipóteses de lei específica**. Cessão não significa ingresso em novo cargo efetivo: o vínculo original permanece.
+
+No âmbito do **Decreto nº 10.835/2021**, o art. 3º, § 1º, repete essa regra, salvo lei em contrário. Seu **art. 4º** restringe a cessão para **outros Poderes, órgãos constitucionalmente autônomos ou entes federativos** a cargo ou função com graduação **mínima equivalente ao nível DAS 4**. O **art. 6º** também limita cessões que impliquem **reembolso pela Administração federal** a esse nível mínimo, **salvo a hipótese de estatal não dependente** prevista em seu parágrafo único. Esses limites pertencem ao decreto e devem ser lidos com sua incidência e com eventuais regras legais especiais.
+
+**Prazo e encerramento:** os arts. 7º e 8º do decreto preveem cessão **por prazo indeterminado**, que pode ser encerrada por iniciativa do cedente, cessionário ou agente, observados aviso e prazos de retorno. Se a cessão existe há mais de um ano, o destino pode exigir, no interesse da Administração, permanência por **até um mês** em determinadas condições (art. 8º, § 2º). Prazo indeterminado **não equivale a vínculo permanente com o destino**.
+
+**Caso comparativo:** uma servidora aceita cessão para exercer cargo comissionado de outro ente, respeitadas as condições legais; isso pode ser regular. Um órgão que simplesmente queira utilizar sua força de trabalho para atividades técnicas comuns, **sem cargo comissionado e sem lei especial**, não satisfaz o art. 93. A solução exige procurar outro instrumento legal, e não apenas mudar o nome da movimentação.
 
 ### 2.3. Ônus econômico, pagamento em folha e reembolso
 
 A **Lei nº 8.112/1990, art. 93, § 1º**, disciplina a cessão para cargo em comissão ou função de confiança: na movimentação para órgãos ou entidades de **Estados, Distrito Federal e Municípios**, o **ônus da remuneração cabe ao cessionário**. Nos demais casos da hipótese, a regra do parágrafo mantém o ônus do cedente, **ressalvadas as previsões legais e regulamentares especiais**. Pelo § 2º, quando o servidor cedido a **empresa pública ou sociedade de economia mista** opta pela remuneração prevista no dispositivo, a entidade cessionária deve reembolsar as despesas feitas pela origem. A cessão depende também das regras de formalização do art. 93, § 3º.
 
-O **Decreto nº 10.835/2021, arts. 17 a 26**, disciplina a **restituição das parcelas efetivamente despendidas** com agentes movimentados em seu âmbito. Ele distingue quando existe obrigação de reembolso, quando não haverá reembolso pela administração pública federal e quais parcelas podem ser incluídas. A expressão “destino suporta o ônus” (art. 21) **não autoriza deduzir que todo movimento exige depósito mensal à origem**, pois a ocorrência de reembolso depende das hipóteses dos arts. 18 a 20.
+O **Decreto nº 10.835/2021, arts. 17 a 26**, disciplina o **reembolso**, que é a restituição das parcelas efetivamente despendidas pela origem nas hipóteses legais. **Pagamento em folha** é quem deposita a remuneração; **ônus econômico** é quem deve suportar o custo ao final; **reembolso** é o ajuste financeiro entre órgãos. Uma origem pode continuar pagando em folha enquanto o destino assume o ônus por reembolso. Ele distingue quando existe obrigação de reembolso, quando não haverá reembolso pela administração pública federal e quais parcelas podem ser incluídas. A expressão “destino suporta o ônus” (art. 21) **não autoriza deduzir que todo movimento exige depósito mensal à origem**, pois a ocorrência de reembolso depende das hipóteses dos arts. 18 a 20.
 
 | Situação de referência | Ônus ou regra de reembolso | Fundamento |
 | --- | --- | --- |
@@ -130,17 +137,29 @@ Fontes: [Decreto 10.835/2021, arts. 2º, 12 e 13](https://www2.camara.leg.br/leg
 | Critério | Requisição | Cessão | Composição da força de trabalho |
 | --- | --- | --- | --- |
 | Fundamento | Prerrogativa legal específica | Lei 8.112, art. 93 e normas de cessão | Decreto 10.835, arts. 12–13 e regras complementares |
-| Anuência | Em regra, irrecusável se legalmente válida | Pedido do destino, concordância do cedente e do agente | Indicação consensual exige anuências; realocação as dispensa segundo MGI |
-| Destino | Conforme a lei de requisição | Conforme lei e regime do vínculo | **Somente Executivo federal** |
-| Finalidade | Necessidade prevista em lei requisitória | Regra de comissão/confiança ou lei específica | Adequação da distribuição da força de trabalho |
+| Anuência | Irrecusável quando legalmente válida; Justiça Eleitoral admite indicação nominal | Pedido do destino e concordância da origem e agente, no decreto | Consensual exige anuências; realocação dispensa anuência da origem, conforme modalidade |
+| Destino | Conforme lei especial e requisitos de elegibilidade | Conforme art. 93 e normas incidentes, inclusive limites de cargo do decreto | **Somente Executivo federal** |
+| Finalidade | Necessidade legalmente autorizada, com restrições de cargos e prazos | Comissão/confiança ou hipótese de lei específica | Distribuição da força de trabalho entre órgãos do Executivo federal |
 | Ônus/reembolso | Lei requisitória e, se cabível, decreto | Art. 93 da Lei 8.112 e arts. 17–26 do decreto: distinguir ônus, folha e restituição | Na composição interna ao Executivo, analisar arts. 18–21; estatal não dependente pode exigir reembolso |
 | Apuração disciplinar | Considerar local do fato, vínculo e competência de julgamento | Instauração/instrução pode ocorrer no destino; julgamento/sanção sobre cargo efetivo têm competência própria | Examinar competência e vínculo funcional originário |
 
 ### Competência disciplinar no caso de servidor cedido
 
-O **STJ, MS 21.991/DF**, admite separação das fases: a **instauração e a apuração** devem ocorrer preferencialmente no órgão onde se deu a irregularidade; o **julgamento e eventual sanção**, quando encerrada a cessão e retornado o servidor, são da autoridade do órgão de origem à qual se vincula o cargo efetivo. Isso impede tanto a tese de que o órgão de destino nunca pode instaurar PAD quanto a de que pode demitir autonomamente servidor efetivo vinculado a outro ente.
+No **STJ, MS 21.991/DF, julgado em 2016**, foi admitida a separação das fases do processo administrativo disciplinar (PAD). A **instauração e a instrução** devem ocorrer preferencialmente onde o fato aconteceu. No caso concreto, **a cessão já havia terminado e o servidor retornado à origem**; por isso, o **julgamento e a eventual sanção** competiam à autoridade do órgão ao qual se vinculava o cargo efetivo.
+
+**Exemplo:** durante cessão, servidor pratica possível infração no destino. O órgão que conheceu o fato pode apurar; a competência para julgar e aplicar demissão não decorre automaticamente do local de exercício. Deve-se verificar vínculo e competência legal. **Não extrapole o precedente** para toda hipótese de cessão em andamento sem examinar seus fatos.
 
 Fonte: [STJ, Informativo 598, MS 21.991/DF](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D016203).
+
+## Como a banca pode cobrar
+
+Para julgar um item, faça quatro perguntas na ordem: **quem tem competência para requisitar/ceder**, **qual agente é elegível**, **quem precisa concordar** e **quem suporta o custo**. Só então examine duração e efeitos disciplinares.
+
+- **Requisição é irrecusável se legalmente válida:** a Justiça Eleitoral tem restrições de elegibilidade e regras de prazo diferentes por hipótese.
+- **Cessão não é transferência de cargo:** vínculo na origem, anuências no decreto, finalidade do art. 93 e condições adicionais para outros Poderes e entes.
+- **Composição é só para o Executivo federal:** indicação consensual e realocação têm critérios distintos, inclusive quanto à anuência.
+- **Folha não é ônus:** quem paga ao agente pode ser diferente de quem deve suportar o custo; reembolso depende de norma.
+- **PAD de servidor cedido:** localizar o fato não equivale a concentrar no destino o poder de demitir servidor efetivo de outro quadro.
 
 ## Questões Comentadas (Estilo Cebraspe)
 
@@ -148,13 +167,13 @@ Fonte: [STJ, Informativo 598, MS 21.991/DF](https://processo.stj.jus.br/jurispru
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 Acerca do instituto da requisição de agentes públicos pela Justiça Eleitoral, julgue o item a seguir.
 
-> Em virtude da autonomia administrativa assegurada aos Poderes da República, o dirigente de órgão da Câmara dos Deputados poderá recusar motivadamente a liberação de servidor de seu quadro efetivo requisitado por Tribunal Regional Eleitoral, sob o fundamento de carência crônica e insubstituível de pessoal no setor legislativo de origem.
+> Em virtude da autonomia administrativa assegurada aos Poderes da República, o dirigente de órgão da Câmara dos Deputados poderá recusar o atendimento a requisição eleitoral regular de servidor de cargo elegível, sob o único fundamento de carência de pessoal no setor legislativo de origem.
 
 **( ) Certo**  
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** A requisição fundamentada na legislação eleitoral (Lei nº 6.999/1982 e Código Eleitoral) tem natureza jurídica **impositiva e cogente**, não outorgando à autoridade de origem margem discricionária de conveniência para indeferir ou postergar a apresentação do servidor. A prerrogativa legal da Justiça Eleitoral prevalece sobre as conveniências operacionais internas do órgão de origem, constituindo dever funcional estrito a liberação imediata do servidor requisitado.
+> **Comentário:** A requisição fundamentada na legislação eleitoral (Lei nº 6.999/1982 e Código Eleitoral) tem natureza jurídica **impositiva e cogente**, não outorgando à autoridade de origem margem discricionária de conveniência para indeferir ou postergar a apresentação do servidor. A prerrogativa legal da Justiça Eleitoral prevalece sobre as conveniências operacionais internas do órgão de origem, com observância do **prazo de apresentação**. A Resolução TSE nº 23.765/2026 reafirmou a irrecusabilidade, mas a legalidade pressupõe respeitar as **vedações relativas a cargos, estágio probatório e outras condições** dos arts. 2º e 3º da Resolução nº 23.523/2017. **A irrecusabilidade não dispensa a elegibilidade.**
 
 ---
 
@@ -176,7 +195,7 @@ No que concerne à cessão de servidores públicos federais disciplinada pela Le
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 Julgue o item que se segue, relativo ao ônus remuneratório na cessão de servidores entre entes federativos distintos.
 
-> Cedido servidor público federal para exercer cargo de Secretário Municipal em determinada prefeitura, o ônus da remuneração do cargo efetivo permanecerá compulsoriamente a cargo da União, vedada qualquer cobrança de ressarcimento contra a municipalidade cessionária.
+> Cedido servidor público federal para exercer **cargo em comissão de direção** em uma prefeitura municipal, o ônus da remuneração do cargo efetivo permanecerá obrigatoriamente com a União, vedado ressarcimento pela municipalidade cessionária.
 
 **( ) Certo**  
 **( ) Errado**
@@ -204,13 +223,13 @@ A respeito da contagem de tempo de serviço do servidor público durante o perí
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 Julgue o item a seguir, referente às diferenças dogmáticas entre requisição e cessão de agentes públicos.
 
-> Enquanto a cessão de servidores constitui ato administrativo bilateral e discricionário que depende do consentimento e da aquiescência do órgão de origem, a requisição opera-se por ato unilateral e cogente, dotado de autoexecutoriedade e fundado em mandamento legal inderrogável.
+> No regime do Decreto nº 10.835/2021, a cessão exige pedido do cessionário, concordância da origem e do agente, ao passo que a requisição expedida por autoridade legalmente competente é irrecusável quando preenchidos seus requisitos.
 
 **( ) Certo**  
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** O item traça com rigor doutrinário a linha divisória dos dois institutos. A cessão exige o alinhamento de vontades e a concordância da autoridade de origem (juízo de mérito), ao passo que a requisição decorre de poder de império estatal atribuído por lei a determinados órgãos (como na Justiça Eleitoral), traduzindo comando unilateral de cumprimento obrigatório pelo órgão de lotação originária.
+> **Comentário:** O Decreto nº 10.835/2021, art. 3º, § 2º, estabelece as três condições da cessão. O art. 9º define a requisição como irrecusável, desde que o requisitante tenha a prerrogativa legal e observe as restrições aplicáveis. O caráter impositivo **não torna válida ordem incompatível com lei especial**.
 
 ---
 
@@ -228,6 +247,45 @@ No que tange ao exercício do poder disciplinar sobre o servidor público cedido
 
 ---
 
+### Questão 7
+*(Inédita: estilo Cebraspe / Câmara dos Deputados)*
+
+> A irrecusabilidade da requisição de pessoal pela Justiça Eleitoral, reforçada por resolução do TSE em 2026, torna lícita a requisição de qualquer servidor efetivo, ainda que esteja em estágio probatório ou exerça cargo técnico vedado pela regulamentação.
+
+**( ) Certo**
+**( ) Errado**
+
+> **Gabarito: Errado**
+> **Comentário:** A Resolução TSE nº 23.523/2017, com alterações de 2026, reafirma a **irrecusabilidade de ordem válida**, mas mantém as **restrições do art. 2º** quanto a estágio probatório, cargos técnicos/científicos e outras hipóteses. As exceções precisam ser analisadas no dispositivo aplicável.
+
+---
+
+### Questão 8
+*(Inédita: estilo Cebraspe / Câmara dos Deputados)*
+
+> O Decreto nº 10.835/2021 prevê, como regra, cessão por prazo indeterminado, sem que isso impeça o seu encerramento por iniciativa das partes, observadas as regras de notificação e de retorno.
+
+**( ) Certo**
+**( ) Errado**
+
+> **Gabarito: Certo**
+> **Comentário:** Os arts. **7º e 8º** estabelecem, respectivamente, **prazo indeterminado** e possibilidade de **encerramento**. O cessionário pode exigir, em situação específica, manutenção por até um mês quando a cessão durar mais de um ano; prazo indeterminado não significa permanência irrevogável.
+
+---
+
+### Questão 9
+*(Inédita: estilo Cebraspe / Câmara dos Deputados)*
+
+> Por admitir composição da força de trabalho sem anuência do órgão de origem na modalidade de realocação, o Decreto nº 10.835/2021 permite que a Câmara dos Deputados receba servidores de ministérios por essa via.
+
+**( ) Certo**
+**( ) Errado**
+
+> **Gabarito: Errado**
+> **Comentário:** A composição da força de trabalho dos arts. 12 e 13 é **restrita ao Executivo federal**. O art. 13, § 2º, exclui movimentação para **outros Poderes**, ainda que o procedimento de realocação dispense anuência da origem no seu campo válido.
+
+---
+
 ## Relações com outros temas
 
 - [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos: espécies, cargos, empregos e funções]]: o vínculo estatutário originário e as posições de comissão e confiança.
@@ -238,7 +296,7 @@ No que tange ao exercício do poder disciplinar sobre o servidor público cedido
 
 - **Lei nº 8.112/1990 (RJU):** art. 93 (cessão de servidores e reembolso); art. 102, II (**exercício de cargo em comissão ou equivalente**, sem generalizar para toda requisição).
 - **Lei nº 6.999/1982:** normas sobre requisição de servidores públicos pela Justiça Eleitoral.
-- **Decreto nº 10.835/2021:** regulamentação da cessão e movimentação de pessoal no Poder Executivo Federal.
-- **Lei nº 6.999/1982 e regulamentação do TSE:** verificar, em cada requisição eleitoral, competência, elegibilidade do cargo, limites e prazos.
+- **Decreto nº 10.835/2021**, texto atualizado: conceitos e limites das movimentações, normas de cessão (arts. 3º a 8º), requisição (arts. 9º a 11), composição (arts. 12 a 16) e reembolso (arts. 17 a 26), em [texto da Câmara](https://www2.camara.leg.br/legin/fed/decret/2021/decreto-10835-14-outubro-2021-791864-normaatualizada-pe.html).
+- **Lei nº 6.999/1982 e regulamentação atual do TSE:** conferir elegibilidade, prazos, competência e irrecusabilidade em [Resolução nº 23.523/2017 consolidada](https://www.tse.jus.br/legislacao/compilada/res/2017/resolucao-no-23-523-de-27-de-junho-de-2017) e [Resolução nº 23.765/2026](https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-765-de-30-de-junho-de-2026).
 - **STJ, MS 21.991/DF:** delimitação da competência de instauração e instrução de processo disciplinar em cessão.
 - **Referência doutrinária:** conceitos gerais de agentes públicos e atos administrativos, sem atribuir títulos autônomos não identificados bibliograficamente a autores.

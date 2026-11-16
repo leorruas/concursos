@@ -93,69 +93,116 @@ Fontes: [Lei nº 8.112/1990, arts. 121 a 126-A](https://www2.camara.leg.br/legin
 
 ## 2. Quadro analítico das penalidades disciplinares
 
-Conforme o art. 127 da Lei nº 8.112/1990, são sanções disciplinares aplicáveis aos servidores civis da União:
+O **art. 127** enumera **seis espécies**: **advertência, suspensão, demissão, cassação de aposentadoria ou disponibilidade, destituição de cargo em comissão e destituição de função comissionada**. O **art. 128** exige considerar natureza e gravidade da infração, dano ao serviço, circunstâncias agravantes/atenuantes e antecedentes, mas essa avaliação **não autoriza trocar livremente uma penalidade legalmente vinculada por outra**.
 
 ```mermaid
 flowchart TD
-    classDef raiz fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#000000;
-    classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#000000;
-    classDef opcao fill:#fff8e7,stroke:#d4a373,stroke-width:1.5px,color:#000000;
+    classDef raiz fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#111111;
+    classDef criterio fill:#fff2d9,stroke:#b45309,stroke-width:1.5px,color:#3d2207;
+    classDef opcao fill:#fffbeb,stroke:#b68d58,stroke-width:1.5px,color:#1c1917;
 
-    PEN["Penalidades Disciplinares<br>(Lei nº 8.112/1990, art. 127)"]:::raiz
-    
-    PEN --> P1["1. Advertência<br>(Faltas leves por escrito - Art. 129)"]:::criterio
-    PEN --> P2["2. Suspensão<br>(Até 90 dias / Reincidência - Art. 130)"]:::criterio
-    PEN --> P3["3. Demissão<br>(Infrações graves taxativas - Art. 132)"]:::raiz
-    PEN --> P4["4. Cassação de Aposentadoria / Disp.<br>(Falta punível com demissão na ativa - Art. 134)"]:::raiz
-    PEN --> P5["5. Destituição de Cargo em Comissão<br>(Infrator não ocupante de cargo efetivo - Art. 135)"]:::opcao
-    PEN --> P6["6. Destituição de Função Comissionada<br>(Ocupante de função que comete falta - Art. 135)"]:::opcao
+    A["Penalidades disciplinares: art. 127"]:::raiz
+    A --> B["Advertência: por escrito, art. 129"]:::criterio
+    A --> C["Suspensão: até 90 dias, art. 130"]:::criterio
+    A --> D["Demissão: hipóteses do art. 132"]:::criterio
+    A --> E["Cassação de aposentadoria ou disponibilidade"]:::opcao
+    A --> F["Destituição de cargo em comissão"]:::opcao
+    A --> G["Destituição de função comissionada"]:::opcao
+    B --> H["Registro: cancelamento após 3 anos nas condições legais"]:::opcao
+    C --> I["Registro: cancelamento após 5 anos nas condições legais"]:::opcao
 ```
+
+A decisão disciplinar precisa mencionar **a causa e o fundamento jurídico** (art. 128, parágrafo único). **Demissão** é pena; **exoneração** é saída do cargo **sem caráter punitivo**. **Suspensão** é sanção, distinta de **afastamento preventivo** para proteger a investigação (art. 147).
 
 ### 2.1 Advertência (art. 129)
 
-- **Forma:** aplicada sempre **por escrito** (não existe advertência verbal formal);
-- **Hipóteses:** violação de proibição constante do art. 117, incisos I a VIII e XIX, e inobservância de dever funcional previsto em lei, regulamento ou norma interna, que não justifique imposição de penalidade mais grave;
-- **Cancelamento do registro funcional:** o registro da advertência será cancelado após o decurso de **3 (três) anos** de efetivo exercício, se o servidor não houver, nesse período, praticado nova infração disciplinar (art. 131). O cancelamento opera efeitos para o futuro e não gera indenização.
+A advertência é **sempre escrita**. Incide, como regra, sobre infrações aos **incisos I a VIII e XIX do art. 117** e sobre violação de dever funcional de lei, regulamento ou norma interna que não justifique sanção mais grave.
+
+**Exemplo:** um servidor pratica falta sujeita à advertência, comprovada em procedimento regular. A chefia não pode substituir o processo e a sanção escrita por uma “advertência verbal disciplinar” como se isso tivesse o mesmo efeito legal.
+
+**Cancelamento do registro (art. 131):** após **três anos de efetivo exercício**, sem nova infração disciplinar no período, o registro pode ser cancelado. **O cancelamento vale para o futuro**, não apaga retroativamente a ocorrência nem devolve automaticamente qualquer valor.
 
 ### 2.2 Suspensão (art. 130)
 
-- **Duração:** aplicada por até **90 (noventa) dias**;
-- **Hipóteses:** reincidência das faltas punidas com advertência e violação das demais proibições que não tipifiquem infração sujeita a demissão;
-- **Suspensão especial de 15 dias (art. 130, § 1º):** será punido com suspensão de até 15 dias o servidor que, injustificadamente, recusar-se a ser submetido a inspeção médica determinada pela autoridade competente, cessando os efeitos da penalidade uma vez cumprida a determinação;
-- **Conversão em multa (art. 130, § 2º):** quando houver conveniência para o serviço, a penalidade de suspensão poderá ser convertida em multa, na base de **50% (cinquenta por cento) por dia de vencimento ou remuneração**, ficando o servidor obrigado a permanecer em serviço;
-- **Cancelamento do registro:** cancela-se após **5 (cinco) anos** de efetivo exercício sem reincidência (art. 131).
+A suspensão é prevista para **reincidência de faltas punidas com advertência** e outras infrações que não estejam legalmente sujeitas à demissão. Seu limite é **90 dias**.
+
+**Hipótese especial:** recusar-se **injustificadamente** a realizar inspeção médica determinada por autoridade competente pode gerar suspensão de **até 15 dias**. Os **efeitos da penalidade cessam quando a determinação for cumprida** (art. 130, § 1º). Não é correto afirmar que a sanção de 15 dias deve ser necessariamente executada até o fim.
+
+**Conversão em multa:** se houver conveniência para o serviço, o art. 130, § 2º, permite converter a suspensão em multa equivalente a **50% por dia de vencimento ou remuneração**, **mantendo o servidor trabalhando**. Essa conversão não transforma suspensão em uma nova modalidade de advertência.
+
+**Cancelamento do registro:** pode ocorrer após **cinco anos de efetivo exercício** sem nova infração disciplinar; **não tem efeitos retroativos** (art. 131). O prazo de cancelamento do registro **não é** o prazo prescricional de dois anos para aplicar a sanção.
 
 ### 2.3 Demissão (art. 132)
 
-A demissão é a sanção disciplinar máxima aplicável ao servidor ativo. O art. 132 estabelece rol taxativo de condutas que ensejam demissão obrigatória:
+O art. 132 estabelece as hipóteses legais de **demissão**, a pena expulsiva do cargo efetivo, após apuração com defesa. Para fins de prova, é útil ler as treze categorias como grupos de conduta e **associar cada uma ao inciso certo**:
 
-1. Crime contra a administração pública;
-2. Abandono de cargo (ausência intencional por mais de 30 dias consecutivos, art. 138);
-3. Inassiduidade habitual (falta ao serviço, sem causa justificada, por 60 dias interpoladamente durante o período de 12 meses, art. 139);
-4. Improbidade administrativa;
-5. Incontinência pública e conduta escandalosa, na repartição;
-6. Insubordinação grave em serviço;
-7. Ofensa física, em serviço, a servidor ou a particular, salvo em legítima defesa própria ou de outrem;
-8. Aplicação irregular de dinheiros públicos;
-9. Revelação de segredo do qual se apropriou em razão do cargo;
-10. Lesão aos cofres públicos e dilapidação do patrimônio nacional;
-11. Corrupção (passiva ou ativa);
-12. Acumulação ilegal de cargos, empregos ou funções públicas (se comprovada a má-fé, art. 133, § 6º);
-13. Transgressão do art. 117, incisos IX a XVI (valer-se do cargo para proveito pessoal, exercer comércio/gerência mercantil, atuar como procurador perante repartições, receber propina/vantagem, aceitar comissão/pensão de estado estrangeiro, praticar usura e proceder de forma desidiosa).
+| Inciso do art. 132 | Conduta |
+| --- | --- |
+| **I** | Crime contra a Administração Pública |
+| **II** | Abandono de cargo |
+| **III** | Inassiduidade habitual |
+| **IV** | Improbidade administrativa |
+| **V, VI, VII** | Incontinência pública/conduta escandalosa na repartição; insubordinação grave em serviço; ofensa física em serviço, ressalvada legítima defesa |
+| **VIII a XI** | Aplicação irregular de dinheiro público; revelação de segredo obtido pelo cargo; lesão ao erário/dilapidação patrimonial; corrupção |
+| **XII** | Acumulação ilegal de cargos, empregos ou funções, observadas **boa-fé e má-fé** do procedimento especial |
+| **XIII** | Transgressões dos **incisos IX a XVI do art. 117** |
+
+**Não confundir gravidade com enquadramento.** O art. 117 contém dezenove proibições, mas o **art. 132, XIII**, remete **apenas aos incisos IX a XVI**. Já **I a VIII e XIX** se vinculam, em regra, à advertência (art. 129) e **XVII e XVIII** podem ensejar suspensão (art. 130), conforme os fatos e o enquadramento legal.
+
+**Abandono (arts. 132, II, e 138):** exige **ausência intencional por mais de 30 dias consecutivos**. Não bastam trinta dias exatos; a lei usa a expressão “mais de trinta”. Também é preciso examinar a **intencionalidade** do abandono, e não apenas somar ausências.
+
+**Inassiduidade habitual (arts. 132, III, e 139):** corresponde a **60 dias de faltas injustificadas**, **intercalados**, dentro de **12 meses**. A diferença principal é: abandono exige sequência e intenção; inassiduidade corresponde à soma legal de dias não consecutivos sem justa causa. O **art. 140** prevê procedimento **sumário** para as duas hipóteses, com apuração e defesa.
+
+**Acumulação ilegal (arts. 132, XII, e 133):** identificar dois vínculos aparentemente incompatíveis **não equivale a demitir automaticamente**. A lei exige uma sequência:
+1. A autoridade notifica o servidor para **optar em dez dias improrrogáveis** após a ciência.
+2. Se não houver opção, instaura-se **procedimento sumário** com comissão de **dois servidores estáveis**, indicando os vínculos e horários.
+3. O servidor tem **cinco dias para defesa escrita** após a indiciação.
+4. A **opção até o último dia para defesa** configura, nos termos do § 5º, **boa-fé**, com conversão em pedido de exoneração do outro cargo.
+5. **Acumulação ilegal e má-fé comprovada** podem levar à demissão, destituição ou cassação na forma do § 6º.
+
+**Exemplo:** servidor percebe que seus cargos não são constitucionalmente acumuláveis e opta durante o prazo de defesa do procedimento sumário. Segundo o art. 133, § 5º, a opção configura **boa-fé**. A banca erra se disser que toda acumulação ilegal necessariamente produz demissão sem oportunidade de escolha.
+
+**Improbidade (inciso IV):** é preciso distinguir a **infração disciplinar** da **ação judicial de improbidade da Lei nº 8.429/1992**. As duas têm procedimentos e exigências próprias; não se deve concluir que todo ato irregular automaticamente configura improbidade judicial ou justificar perda do cargo com base apenas no rótulo.
 
 ### 2.4 Efeitos da demissão: incompatibilidade temporária e controle de constitucionalidade
 
-O art. 137 da Lei nº 8.112/1990 estabelece hipóteses de incompatibilidade para nova investidura em cargo público federal. O **caput** prevê prazo de **cinco anos** para demissão ou destituição de cargo em comissão por infração ao art. 117, IX ou XI.
+O **art. 137, caput**, prevê **cinco anos de incompatibilidade para nova investidura federal** após demissão ou destituição de cargo em comissão por transgressão do **art. 117, IX ou XI**.
 
-O parágrafo único do art. 137, em sua redação original, previa impedimento definitivo de retorno ao serviço público federal em hipóteses como crime contra a administração, improbidade administrativa, aplicação irregular de recursos, lesão ao erário e corrupção. O **STF declarou inconstitucional essa restrição perpétua na ADI 2.975**. Ao julgar embargos de declaração em 2023, esclareceu que **o prazo de cinco anos do caput também se aplica às hipóteses do parágrafo único até que sobrevenha disciplina legislativa diversa**.
+O antigo **parágrafo único** proibia **perpetuamente** o retorno de demitidos por certas faltas graves do **art. 132, I, IV, VIII, X e XI**, como corrupção ou improbidade. O **STF, na ADI 2.975**, declarou essa proibição perpétua **inconstitucional**. Nos embargos de declaração publicados em **2023**, esclareceu que, **até nova lei**, deve ser aplicado **o prazo de cinco anos do caput** também às hipóteses antes mencionadas no parágrafo único.
 
-**Caso progressivo:** (1) a demissão por infração ao art. 117, IX, atrai a incompatibilidade de cinco anos prevista no caput; (2) se a demissão decorreu de corrupção, a redação original sugeria restrição perpétua, mas a ADI 2.975 impede aplicá-la; (3) enquanto não houver nova lei, utiliza-se também para o segundo caso o prazo de cinco anos. **Contraexemplo:** afirmar que a gravidade da corrupção autoriza automaticamente impedimento vitalício, apesar da decisão do STF.
+**Duas consequências diferentes:** a demissão extingue o vínculo; a **incompatibilidade** do art. 137 limita eventual nova investidura federal. Não se pode converter a restrição de cinco anos em “pena de caráter vitalício”, nem supor que o prazo seja perdão automático do motivo da demissão.
 
-Fonte primária: [STF, ADI 2.975, embargos de declaração, publicação de 2023](https://www.tst.jus.br/documents/10157/31760431/STF%2B-%2BA%C3%A7%C3%A3o%2BDireta%2Bde%2BInconstitucionalidade%2Bn%C2%BA%2B2.975%2C%2BDOU%2Bde%2B26.5.2023%2B-%2BADI-ED.pdf/ac22d3ef-d140-3138-4577-672bbef9eb4f?download=true&t=1688400959344). Conferir eventual legislação superveniente antes de aplicar a regra a fatos futuros.
+**Art. 136:** demissão ou destituição por certas infrações graves (incisos IV, VIII, X e XI do art. 132) pode acarretar **indisponibilidade patrimonial e ressarcimento ao erário**, com exigência de observar competências e procedimento jurídico para efetivação dessas medidas. A Administração **não recebe poder irrestrito de bloquear contas por iniciativa informal** apenas porque abriu um PAD.
+
+Fonte: [STF, ADI 2.975, embargos de declaração, DOU de 26/5/2023](https://www.tst.jus.br/documents/10157/31760431/STF%2B-%2BA%C3%A7%C3%A3o%2BDireta%2Bde%2BInconstitucionalidade%2Bn%C2%BA%2B2.975%2C%2BDOU%2Bde%2B26.5.2023%2B-%2BADI-ED.pdf/ac22d3ef-d140-3138-4577-672bbef9eb4f?download=true&t=1688400959344).
 
 ### 2.5 Cassação de aposentadoria ou disponibilidade (art. 134)
 
-Será cassada a aposentadoria ou a disponibilidade do inativo que houver praticado, **na atividade**, falta punível com demissão. Não é punição pela conduta pós-aposentadoria, mas pela descoberta ou apuração regular de falta gravíssima cometida enquanto o agente estava em efetivo exercício. O STF reconheceu a constitucionalidade da cassação de aposentadoria disciplinar prevista nos arts. 127, IV, e 134 da Lei nº 8.112/1990 na **ADPF 418**, julgada em abril de 2020. A referência à ADI 4.882 não deve ser utilizada como fundamento desse julgamento sem confirmação específica.
+O **art. 134** prevê cassação da aposentadoria ou disponibilidade do servidor **inativo** por **falta praticada quando estava em atividade** e que seja legalmente punível com demissão. Isso exige apuração regular; o enquadramento não decorre de qualquer irregularidade menor.
+
+O STF, na **ADPF 418 (2020)**, reconheceu a compatibilidade constitucional dessa penalidade disciplinar. Portanto, afirmar que aposentadoria contributiva impede sempre a cassação disciplinar contraria o precedente, mas não se pode dispensar o exame de fato, autoria, prazo e defesa.
+
+**Não confundir:** aposentar-se durante a apuração não apaga por si só responsabilidade funcional anterior; cometer ato totalmente estranho ao vínculo após a aposentadoria não é automaticamente a hipótese do art. 134.
+
+Fonte: [STF, Informativo 975, ADPF 418](https://www.stf.jus.br/arquivo/informativo/documento/informativo975.htm).
+
+### 2.6 Destituição, competência sancionadora e graduação da sanção
+
+A **destituição de cargo em comissão** integra o rol do art. 127, V. Pelo **art. 135**, quando o cargo em comissão é exercido por pessoa **sem cargo efetivo**, há destituição em infração sujeita a suspensão ou demissão. Se já tiver ocorrido exoneração na hipótese legal, ela é convertida em **destituição** (art. 135, parágrafo único). A **destituição de função comissionada** está prevista separadamente no art. 127, VI; **não confunda cargo em comissão com função de confiança** nem atribua ao art. 135 uma regra indistinta para ambos.
+
+**A autoridade competente é parte da legalidade da pena** (art. 141):
+
+| Penalidade | Quem aplica no regime geral federal |
+| --- | --- |
+| **Demissão e cassação de aposentadoria/disponibilidade** | Presidente da República, **presidentes das Casas do Legislativo**, presidentes dos Tribunais Federais ou PGR, conforme vínculo institucional |
+| **Suspensão acima de 30 dias** | Autoridade **imediatamente inferior** às do art. 141, I |
+| **Advertência ou suspensão de até 30 dias** | Chefe da repartição e outras autoridades segundo regimentos/regulamentos |
+| **Destituição de cargo em comissão** | Autoridade que realizou a nomeação |
+
+**Exemplo da Câmara:** um servidor do quadro da Casa não pode ser demitido simplesmente por decisão do seu chefe imediato. O art. 141, I, atribui, no regime legal, essa competência ao **presidente da Casa legislativa**, observadas as normas específicas válidas.
+
+**Distinção com o rito:** a autoridade que instaura e a comissão que instrui o PAD **não necessariamente aplicam a pena**. O artigo 24 detalha procedimento, comissão, defesa, julgamento e afastamento preventivo.
+
 
 ---
 

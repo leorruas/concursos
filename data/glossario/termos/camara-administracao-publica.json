@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "administracao-publica",
+  "entries": [
+    {
+      "id": "glo-camara-dasp",
+      "term": "Departamento Administrativo do Serviço Público (DASP)",
+      "aliases": [
+        "DASP"
+      ],
+      "definition": "Órgão criado pelo Decreto-Lei nº 579/1938 junto à Presidência da República para racionalizar repartições, estudar processos de trabalho e atuar na seleção e aperfeiçoamento de servidores federais. É um marco histórico da organização burocrática no Brasil.",
+      "contrast": "A reforma burocrática buscava regras, profissionalização e impessoalidade. A existência do DASP não significou que o patrimonialismo ou o clientelismo desapareceram.",
+      "cebraspeTrap": "Afirmar que o DASP foi criado pelo Plano Diretor de 1995 ou que introduziu o modelo gerencial de metas de resultados no Brasil.",
+      "example": "Uma repartição passa a selecionar pessoas por critérios técnicos e a registrar procedimentos: isso ilustra o esforço burocrático de padronização, sem provar que todo favorecimento acabou.",
+      "articleIds": [
+        "art-2e8a8f600b964d40"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Decreto-Lei nº 579/1938, arts. 1º e 2º",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/1937-1946/del0579.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-pdrae",
+      "term": "Plano Diretor da Reforma do Aparelho do Estado (PDRAE)",
+      "aliases": [
+        "PDRAE",
+        "Plano Diretor de 1995"
+      ],
+      "definition": "Plano de reforma administrativa aprovado em 1995 que distingue núcleo estratégico, atividades exclusivas, serviços não exclusivos e produção para o mercado. Relaciona cada setor a formas de propriedade e gestão e propõe ampliar o controle de resultados.",
+      "contrast": "O PDRAE é um documento de política administrativa, não uma lei que transferiu automaticamente serviços. A proposta combinava controle burocrático e gerencial, com intensidades distintas conforme o setor.",
+      "cebraspeTrap": "Tratar os quatro setores como categorias jurídicas obrigatórias ou concluir que serviços de saúde e ensino passaram necessariamente para organizações privadas.",
+      "example": "Uma universidade pública permanece estatal apesar de atuar em serviço social classificado pelo PDRAE como não exclusivo; o setor de atividade não determina sozinho a personalidade jurídica.",
+      "articleIds": [
+        "art-2e8a8f600b964d40"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Plano Diretor da Reforma do Aparelho do Estado, Presidência da República/MARE, 1995, seções 5 e 6",
+          "url": "https://www.biblioteca.presidencia.gov.br/publicacoes-oficiais/catalogo/fhc/plano-diretor-da-reforma-do-aparelho-do-estado-1995.pdf/view"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-publicizacao-pdrae",
+      "term": "Publicização no PDRAE",
+      "aliases": [
+        "publicização da execução de serviços não exclusivos"
+      ],
+      "definition": "Na proposta do PDRAE de 1995, publicização significava transferir a execução de serviços não exclusivos do aparelho estatal para organizações públicas não estatais, por formas próprias de parceria e com financiamento e controle públicos.",
+      "contrast": "Privatização envolve a transferência de atividade ou propriedade empresarial ao setor privado; terceirização contrata atividades específicas. Publicização, no sentido histórico do plano, envolve serviços não exclusivos e parceria com entidades públicas não estatais.",
+      "cebraspeTrap": "Afirmar que qualquer contrato de manutenção, concessão ou privatização de empresa estatal é uma publicização nos termos do PDRAE.",
+      "example": "Uma instituição social de pesquisa passa a executar atividades sob contrato de gestão com uma organização social: esse arranjo pode integrar a estratégia histórica de publicização.",
+      "articleIds": [
+        "art-2e8a8f600b964d40"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "PDRAE, 1995, serviços não exclusivos e publicização",
+          "url": "https://www.biblioteca.presidencia.gov.br/publicacoes-oficiais/catalogo/fhc/plano-diretor-da-reforma-do-aparelho-do-estado-1995.pdf/view"
+        },
+        {
+          "label": "Lei nº 9.637/1998, organizações sociais",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9637.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-contrato-desempenho",
+      "term": "Contrato de desempenho",
+      "aliases": [
+        "contrato de desempenho da Lei nº 13.934/2019"
+      ],
+      "definition": "Acordo da Lei nº 13.934/2019 entre supervisor e supervisionado da Administração federal para fixar metas, prazos, indicadores de qualidade e autonomias especiais. O art. 7º prevê vigência de um a cinco anos e publicação oficial do extrato como condição de eficácia.",
+      "contrast": "O contrato de gestão com organização social, da Lei nº 9.637/1998, envolve entidade privada qualificada; o termo de parceria com OSCIP segue a Lei nº 9.790/1999. O contrato de desempenho não se confunde com esses instrumentos.",
+      "cebraspeTrap": "Aplicar o limite de um a cinco anos ao contrato de gestão de agência executiva ou afirmar que metas criam liberdade para descumprir regras legais.",
+      "example": "Uma unidade federal pactua indicadores e recebe flexibilidades legais condicionadas a resultados; metas intermediárias descumpridas podem levar à suspensão motivada prevista no art. 10.",
+      "articleIds": [
+        "art-2e8a8f600b964d40"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 13.934/2019, arts. 1º a 3º, 7º e 10",
+          "url": "https://legis.senado.gov.br/norma/31808180/publicacao/31808789"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-agencia-executiva",
+      "term": "Agência executiva",
+      "aliases": [
+        "qualificação de agência executiva"
+      ],
+      "definition": "Qualificação federal de autarquia ou fundação que possui plano estratégico de reestruturação em andamento e contrato de gestão com o ministério supervisor, nos termos do art. 51 da Lei nº 9.649/1998. A qualificação ocorre por ato do Presidente da República.",
+      "contrast": "A agência executiva recebe qualificação para gestão e resultados; a agência reguladora federal é autarquia em regime especial com competência regulatória definida por lei. Não são duas denominações para a mesma espécie de entidade.",
+      "cebraspeTrap": "Supor que qualquer autarquia com metas vira agência executiva ou que a qualificação dobra todos os limites de qualquer modalidade licitatória.",
+      "example": "Uma autarquia federal qualificada pode aplicar, quando cabível, a duplicação específica dos limites de dispensa por valor prevista no art. 75, § 2º, da Lei nº 14.133/2021.",
+      "articleIds": [
+        "art-2e8a8f600b964d40"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.649/1998, arts. 51 e 52",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9649-27-maio-1998-372115-normaatualizada-pl.html"
+        },
+        {
+          "label": "Lei nº 14.133/2021, art. 75, § 2º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-agencia-reguladora-federal",
+      "term": "Agência reguladora federal",
+      "aliases": [
+        "autarquia reguladora federal"
+      ],
+      "definition": "Autarquia sob regime especial disciplinada pela Lei nº 13.848/2019, com autonomia funcional, decisória, administrativa e financeira, ausência de subordinação hierárquica e dirigentes investidos em mandatos nos termos legais. Atua nas competências regulatórias e fiscalizatórias de sua lei específica.",
+      "contrast": "Autonomia decisória não equivale a ausência de prestação de contas, controle externo ou legalidade. A Lei nº 13.848/2019 é federal e não se aplica automaticamente a todas as agências estaduais e municipais.",
+      "cebraspeTrap": "Afirmar que a agência reguladora não presta contas ao TCU ou que seu dirigente pode ser exonerado livremente por conveniência política durante o mandato.",
+      "example": "Uma agência federal verifica o cumprimento de obrigações de concessionária: fiscalizar o contrato e editar regras técnicas são ações distintas, ambas limitadas por competência legal.",
+      "articleIds": [
+        "art-2e8a8f600b964d40"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 13.848/2019, arts. 1º e 3º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2019/lei-13848-25-junho-2019-788523-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    }
+  ]
+}

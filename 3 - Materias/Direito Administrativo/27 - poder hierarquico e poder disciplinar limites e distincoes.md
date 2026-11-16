@@ -23,7 +23,7 @@ reviewedBy: "Auditoria Editorial e Dogmática"
 
 Imagine que um diretor distribua tarefas aos servidores de seu departamento e, depois, apure uma infração funcional. No primeiro momento exerce **poder hierárquico**: organiza e dirige o serviço. No segundo, exerce **poder disciplinar**: apura uma falta e, se comprovada, aplica a sanção prevista em lei. Ambos são poderes-deveres destinados à atuação pública e sujeitos a controle.
 
-O critério decisivo é a **relação jurídica e a finalidade**. Organizar trabalho, distribuir competências e revisar atos de subordinados envolve hierarquia. Investigar e sancionar infração funcional envolve disciplina. A aplicação de sanções contratuais a empresas, por sua vez, exige atenção ao regime legal próprio e à classificação doutrinária, sem presumir subordinação hierárquica da contratada.
+O critério decisivo é a **relação jurídica e a finalidade**. Organizar trabalho, distribuir tarefas e rever atos de subordinados, quando a lei permite, envolve hierarquia. **Distribuir tarefas internas** não equivale a transferir a titularidade de uma competência: a delegação atribui o seu exercício, com limites, publicidade e possibilidade de revogação (Lei nº 9.784/1999, arts. 11 a 14). Investigar e sancionar infração funcional envolve disciplina. A aplicação de sanções contratuais a empresas, por sua vez, exige atenção ao regime legal próprio e à classificação doutrinária, sem presumir subordinação hierárquica da contratada.
 
 ---
 
@@ -37,24 +37,24 @@ flowchart TD
     classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#000000;
     classDef opcao fill:#fff8e7,stroke:#d4a373,stroke-width:1.5px,color:#000000;
 
-    PH["Poder Hierárquico<br>(Estruturação e Coordenação Interna)"]:::raiz
+    PH["Poder Hierárquico<br/>(Estruturação e Coordenação Interna)"]:::raiz
     
-    PH --> FAC1["1. Dar Ordens<br>(Imposição de conduta funcional aos subordinados)"]:::criterio
-    PH --> FAC2["2. Fiscalizar Atos<br>(Controle permanente de legalidade e mérito)"]:::criterio
-    PH --> FAC3["3. Delegar e Avocar<br>(Delegar pode ocorrer sem hierarquia; avocar exige superioridade)"]:::criterio
-    PH --> FAC4["4. Rever Atos<br>(Controle de legalidade e, quando cabível, do mérito)"]:::criterio
-    PH --> FAC5["5. Dirimir Conflitos<br>(Solução de disputas de atribuição entre subordinados)"]:::criterio
+    PH --> FAC1["1. Dar Ordens<br/>(Imposição de conduta funcional aos subordinados)"]:::criterio
+    PH --> FAC2["2. Fiscalizar Atos<br/>(Controle permanente de legalidade e mérito)"]:::criterio
+    PH --> FAC3["3. Delegar e Avocar<br/>(Delegar pode ocorrer sem hierarquia; avocar exige superioridade)"]:::criterio
+    PH --> FAC4["4. Rever Atos<br/>(Controle de legalidade e, quando cabível, do mérito)"]:::criterio
+    PH --> FAC5["5. Dirimir Conflitos<br/>(Solução de disputas de atribuição entre subordinados)"]:::criterio
     
-    PH -. "Limites" .-> LIM["Sem hierarquia entre ministério e autarquia<br>Funções jurisdicionais têm independência decisória<br>Ordens manifestamente ilegais não obrigam"]:::raiz
+    PH -. "Limites" .-> LIM["Sem hierarquia entre ministério e autarquia<br/>Funções jurisdicionais têm independência decisória<br/>Ordens manifestamente ilegais não obrigam"]:::raiz
 ```
 
-### As cinco faculdades decorrentes do poder hierárquico
+### As cinco manifestações da organização hierárquica
 
 Entre as manifestações da organização hierárquica estão:
 1. **Comando:** a chefia dirige a execução de tarefas legais. Instruções e ordens de serviço podem expressar decisões; um memorando ou ofício pode servir apenas para comunicá-las;
 2. **Fiscalização:** o superior acompanha a legalidade e a execução das atribuições, sem dispensar as garantias dos agentes;
-3. **Revisão:** nas competências legalmente previstas, a autoridade pode invalidar ato ilegal ou revogar ato cuja manutenção deixou de ser conveniente. **Anulação** costuma retroagir (*ex tunc*), ressalvados limites de segurança jurídica; **revogação** produz efeitos para o futuro (*ex nunc*), sem desfazer direitos adquiridos;
-4. **Delegação e avocação:** **delegação** é atribuição do exercício de parte da competência a outro órgão ou titular, **ainda que não seja subordinado**, quando a lei permitir (Lei nº 9.784/1999, art. 12). O art. 13 proíbe delegar atos normativos, decisões de recursos e competências exclusivas; o art. 14 exige publicidade do ato, delimitação dos poderes, duração e objetivos e permite sua revogação. **Avocação**, ao contrário, é excepcional, temporária, motivada e recai sobre competência de órgão **hierarquicamente inferior** (art. 15);
+3. **Revisão:** quando o ordenamento confere poder para isso, a autoridade pode **anular** ato ilegal ou **revogar** ato válido cuja manutenção não seja mais conveniente. A anulação, em regra, produz efeitos retroativos (*ex tunc*), com limites de segurança jurídica; a revogação, em regra, produz efeitos para o futuro (*ex nunc*), respeitados direitos adquiridos. **Exemplo:** uma chefia pode rever uma autorização precária concedida por subordinado dentro de sua competência de revisão, mas não pode revogar uma licença vinculada apenas por preferência pessoal;
+4. **Delegação e avocação:** **delegação** atribui o exercício de parte da competência a outro órgão ou titular, **ainda que não seja subordinado**, quando a lei permitir (Lei nº 9.784/1999, art. 12). O art. 13 proíbe delegar a edição de atos normativos, a decisão de recursos e matérias de competência exclusiva; o art. 14 exige publicação da delegação e de sua revogação, além de delimitação de poderes, duração, objetivos e recurso cabível. As decisões delegadas devem indicar essa condição e são consideradas editadas pelo **delegado** (art. 14, § 3º). **Avocação**, ao contrário, é excepcional, temporária, motivada e recai sobre competência de órgão **hierarquicamente inferior** (art. 15);
 5. **Solução de conflitos de atribuição:** quando os órgãos se subordinam à mesma autoridade, esta pode definir a atuação que cabe a cada um conforme a lei. Nem toda controvérsia de competência pode ser resolvida livremente pela chefia.
 
 ### Limites dogmáticos do poder hierárquico
@@ -78,13 +78,13 @@ flowchart TD
     classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#000000;
     classDef opcao fill:#fff8e7,stroke:#d4a373,stroke-width:1.5px,color:#000000;
 
-    PD["Poder Disciplinar<br>(Sanções sob Vínculo Jurídico Especial)"]:::raiz
+    PD["Poder Disciplinar<br/>(Sanções sob Vínculo Jurídico Especial)"]:::raiz
     
-    PD --> SERV["1. Servidores Públicos Estatutários<br>(Infrações à Lei nº 8.112/1990 apuradas em PAD)"]:::criterio
-    PD --> CONT["2. Licitantes ou contratados<br>(Sanções administrativas com regime legal próprio)"]:::criterio
-    PD --> ALUN["3. Relações especiais<br>(Disciplina conforme norma de cada serviço)"]:::criterio
+    PD --> SERV["1. Servidores Públicos Estatutários<br/>(Infrações à Lei nº 8.112/1990 apuradas em PAD)"]:::criterio
+    PD --> CONT["2. Licitantes ou contratados<br/>(Sanções administrativas com regime legal próprio)"]:::criterio
+    PD --> ALUN["3. Relações especiais<br/>(Disciplina conforme norma de cada serviço)"]:::criterio
     
-    PD -. "Diferença" .-> HIER["Hierarquia dirige trabalho interno<br>Sanção exige infração, competência e procedimento"]:::raiz
+    PD -. "Diferença" .-> HIER["Hierarquia dirige trabalho interno<br/>Sanção exige infração, competência e procedimento"]:::raiz
 ```
 
 ### Supremacia especial versus supremacia geral
@@ -97,7 +97,7 @@ A distinção doutrinária depende do **vínculo jurídico** e da **fonte legal 
 ### Vinculação e discricionariedade no poder disciplinar
 
 O poder disciplinar não é puramente vinculado nem amplamente discricionário:
-- **Dever de apurar:** o **art. 143 da Lei nº 8.112/1990** obriga a autoridade a promover a apuração imediata de irregularidade de que tome ciência. Isso não dispensa avaliação inicial dos elementos disponíveis nem implica **abrir PAD formal para qualquer notícia sem indícios mínimos**. A penalidade exige infração, rito e competência legais; hipóteses de demissão estão no art. 132;
+- **Dever de apurar:** o **art. 143 da Lei nº 8.112/1990** obriga a autoridade a promover a apuração imediata de irregularidade de que tome ciência, por sindicância ou processo administrativo disciplinar, conforme a hipótese legal. Isso não impede o exame inicial da consistência de uma notícia, nem significa **instaurar PAD completo diante de alegação manifestamente infundada**. A apuração prévia não pode servir de pretexto para ignorar indícios relevantes. A penalidade exige infração, rito e competência legais; hipóteses de demissão estão no art. 132;
 - **Dosimetria regrada:** o **art. 128 da Lei nº 8.112/1990** exige considerar natureza e gravidade da infração, danos, agravantes, atenuantes e antecedentes. A suspensão, limitada pelo art. 130 a **90 dias**, não permite escolher pena ao acaso. O art. 5º, LIV e LV, da Constituição exige devido processo, contraditório e ampla defesa.
 
 ---
@@ -108,15 +108,17 @@ A tabela a seguir sistematiza as fronteiras dogmáticas exigidas em provas:
 
 | Critério de Comparação | Poder Hierárquico | Poder Disciplinar |
 | :--- | :--- | :--- |
-| **Finalidade Essencial** | Estruturação, coordenação, divisão de tarefas e comando da máquina administrativa interna. | Punição, apuração e repressão a infrações de agentes e pessoas submetidas a vínculo especial. |
+| **Finalidade essencial** | Organizar e coordenar a atuação interna, distribuir tarefas e revisar atos nos limites legais. | Apurar infrações e, quando comprovadas, aplicar sanções previstas em lei, com o procedimento e as garantias cabíveis. |
 | **Destinatários** | Órgãos e agentes sujeitos à subordinação; **delegação pode alcançar não subordinados**, por fundamento legal. | Agentes públicos em regime funcional; em doutrina mais ampla, pessoas sob vínculo especial, com sanções próprias em cada lei. |
 | **Existência de Subordinação** | O comando hierárquico pressupõe subordinação. **Delegar competência não a pressupõe** (Lei nº 9.784/1999, art. 12); avocação sim (art. 15). | A apuração disciplinar de servidores decorre de vínculo funcional; sanções contratuais não pressupõem hierarquia sobre a empresa. |
-| **Instrumentos de Atuação** | Ordens de serviço, fiscalização, revisão e distribuição legal de competências. | Sindicância e PAD no regime funcional; apuração e sanções específicas em regime contratual. |
+| **Instrumentos de atuação** | Ordens de serviço, fiscalização, revisão e distribuição legal de atribuições; delegação sem hierarquia também é possível. | Sindicância e processo administrativo disciplinar (PAD) no regime funcional; procedimento sancionador específico em licitações e contratos. |
 | **Controle e limites** | Revisão de legalidade e de mérito **quando a competência e a natureza do ato permitem**. | Tipicidade legal, motivação, proporcionalidade, contraditório e ampla defesa no processo aplicável. |
 
 ---
 
 ## Questões comentadas
+
+Os seis itens seguintes são **inéditos**, no estilo Certo/Errado da Cebraspe. O gabarito considera a distinção entre supervisão finalística, hierarquia interna e sanção por infração.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **1.** A aplicação da sanção de **impedimento de licitar e contratar**, prevista no art. 156, III, da Lei nº 14.133/2021, a empresa contratada que comete infração contratual apurada em processo regular integra a atividade sancionadora ligada ao vínculo contratual com a Administração, distinta da fiscalização geral do poder de polícia.
@@ -134,7 +136,7 @@ A tabela a seguir sistematiza as fronteiras dogmáticas exigidas em provas:
 **3.** O poder hierárquico confere ao Ministério supervisor a prerrogativa de expedir ordens imperativas de natureza finalística aos dirigentes de autarquias a ele vinculadas, inclusive com a possibilidade de avocar competências exclusivas destas.
 
 > **Gabarito: ERRADO**  
-> **Comentário:** Entre a Administração Direta (Ministério) e as entidades da Administração Indireta (Autarquias) **não existe relação de hierarquia ou subordinação**. O controle existente é de mera tutela administrativa ou supervisão ministerial, restrito aos limites finalísticos previstos em lei. Por isso, o ministério não pode **avocar como superior hierárquico** competências da autarquia. A lei pode atribuir instrumentos próprios de supervisão e controle finalístico, sem converter a entidade em órgão subordinado.
+> **Comentário:** Entre um ministério e a autarquia a ele vinculada **não existe hierarquia geral**. O ministério pode exercer **supervisão finalística e outros controles especificamente previstos em lei**, sem ganhar a faculdade geral de comandar a entidade como departamento interno. Por isso, o ministério não pode **avocar como superior hierárquico** competências da autarquia. A lei pode atribuir instrumentos próprios de supervisão e controle finalístico, sem converter a entidade em órgão subordinado.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **4.** Ao tomar conhecimento de suposta irregularidade funcional praticada por servidor subordinado, a autoridade competente dispõe de margem discricionária para decidir pela conveniência ou não da instauração de procedimento apuratório disciplinar.
@@ -166,4 +168,4 @@ A tabela a seguir sistematiza as fronteiras dogmáticas exigidas em provas:
 - [Lei nº 14.133/2021, Licitações e Contratos Administrativos](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm): arts. 155 a 158, sanções a licitantes e contratados.
 - [Decreto-Lei nº 200/1967, organização da Administração Federal](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm): arts. 19 a 26, supervisão ministerial.
 - [Lei nº 5.172/1966, Código Tributário Nacional](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm): art. 78, poder de polícia.
-- Constituição Federal de 1988, arts. 5º, LIV e LV, e 133: devido processo, defesa e limites da inviolabilidade do advogado.
+- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), arts. 5º, LIV e LV, e 133: devido processo, defesa e limites da inviolabilidade do advogado.

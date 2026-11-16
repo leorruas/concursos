@@ -522,6 +522,181 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-nova-governanca-publica-npg",
+      "term": "Nova Governança Pública (New Public Governance)",
+      "definition": "Perspectiva de administração e gestão pública sintetizada por Stephen P. Osborne em 2006, voltada a políticas e serviços produzidos em ambientes plurais por organizações interdependentes, com atenção às relações contínuas, à confiança e aos resultados coletivos.",
+      "contrast": "Nova Governança Pública não elimina a burocracia nem a New Public Management. O foco passa a incluir coordenação entre organizações e efetividade social, para além de cumprimento de regras e desempenho isolado de unidades.",
+      "cebraspeTrap": "Afirmar que NPG é uma lei brasileira obrigatória, que extingue contratos de desempenho ou que qualquer terceirização comprova uma rede cooperativa.",
+      "example": "Um serviço de dados legislativos depende de padrões e correções de diferentes instituições: metas internas não bastam sem coordenação do conjunto.",
+      "sources": [
+        {
+          "label": "Osborne, The New Public Governance?, 2006",
+          "url": "https://doi.org/10.1080/14719030600853022"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-b72a64e019f34c8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-estado-plural-pluralista-osborne",
+      "term": "Estado plural e pluralista em Osborne",
+      "definition": "Na explicação de Osborne sobre Nova Governança Pública, Estado plural envolve múltiplas organizações interdependentes na prestação de serviços públicos; Estado pluralista envolve diferentes processos e interesses influenciando a formulação das políticas.",
+      "contrast": "Pluralidade de prestadores não é idêntica à pluralidade de posições e processos de decisão. A presença de muitos fornecedores não assegura participação democrática ou poder decisório compartilhado.",
+      "cebraspeTrap": "Tratar as expressões plural e pluralista como termos necessariamente sinônimos ou concluir que a NPG exige unanimidade de todos os atores envolvidos.",
+      "example": "Vários órgãos alimentam uma base de dados pública: pluralidade na prestação. Grupos e processos distintos influenciam prioridades legislativas: pluralismo na decisão.",
+      "sources": [
+        {
+          "label": "Osborne, The New Public Governance?, 2006, discussão de plural/pluralist state",
+          "url": "https://doi.org/10.1080/14719030600853022"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-b72a64e019f34c8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-governanca-compartilhada-rede",
+      "term": "Governança compartilhada pelos participantes da rede",
+      "definition": "Um dos três tipos analíticos de Provan e Kenis (2008): os participantes da rede coordenam decisões coletivamente, sem uma organização coordenadora exclusiva ou entidade administrativa criada apenas para dirigir a rede.",
+      "contrast": "A governança compartilhada é mais plausível em redes com poucos membros, confiança distribuída e acordo elevado sobre objetivos; não é requisito obrigatório da Nova Governança Pública.",
+      "cebraspeTrap": "Afirmar que toda rede colaborativa precisa de autoridade central única ou que a forma compartilhada se torna mais eficiente necessariamente à medida que cresce o número de participantes.",
+      "example": "Três unidades públicas com objetivo comum e rotina estável definem diretamente padrões de atualização, responsáveis e formas de resolver conflitos.",
+      "sources": [
+        {
+          "label": "Provan e Kenis, Modes of Network Governance, 2008",
+          "url": "https://doi.org/10.1093/jopart/mum015"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-b72a64e019f34c8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-organizacao-lider-rede",
+      "term": "Governança de rede por organização líder",
+      "definition": "Forma de coordenação descrita por Provan e Kenis (2008) em que um dos participantes da rede assume a condução das atividades e das decisões da rede, oferecendo coordenação central sem criar uma entidade independente para esse fim.",
+      "contrast": "Difere da governança compartilhada, em que todos os membros coordenam diretamente, e da organização administrativa da rede, em que há entidade específica para coordenar. A organização líder não detém automaticamente competência legal sobre outros órgãos.",
+      "cebraspeTrap": "Interpretar a liderança da rede como transferência automática de poderes legais de todos os participantes ou ausência de obrigação de prestação de contas.",
+      "example": "Um dos órgãos integrantes organiza calendário e padrões conjuntos, enquanto cada parceiro continua responsável por seus atos e dados.",
+      "sources": [
+        {
+          "label": "Provan e Kenis, Modes of Network Governance, 2008",
+          "url": "https://doi.org/10.1093/jopart/mum015"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-b72a64e019f34c8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-organizacao-administrativa-rede",
+      "term": "Organização administrativa da rede (NAO)",
+      "definition": "Categoria analítica de Provan e Kenis (2008), chamada Network Administrative Organization, na qual uma entidade específica coordena atividades, decisões e relações entre organizações participantes de uma rede.",
+      "contrast": "NAO não é espécie de autarquia, órgão ou pessoa jurídica criada por lei brasileira. Seu desenho jurídico depende dos instrumentos e competências aplicáveis, e sua estrutura adiciona custos de coordenação.",
+      "cebraspeTrap": "Afirmar que toda NAO é necessariamente autarquia federal ou que sua criação dispensa fundamentação normativa e contratos quando exigidos pelo regime jurídico.",
+      "example": "Uma rede ampla designa estrutura administrativa própria para administrar dados, acompanhar acordos e mediar conflitos entre parceiros.",
+      "sources": [
+        {
+          "label": "Provan e Kenis, Modes of Network Governance, 2008",
+          "url": "https://doi.org/10.1093/jopart/mum015"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-b72a64e019f34c8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-contingencias-governanca-rede",
+      "term": "Condições de adequação dos modelos de governança de rede",
+      "definition": "Provan e Kenis (2008) examinam confiança entre participantes, número de organizações, consenso sobre objetivos e necessidade de competências em nível de rede para avaliar quando formas compartilhadas ou coordenadas podem funcionar melhor.",
+      "contrast": "As quatro condições não formam lei universal nem garantem sucesso. Redes pequenas e confiáveis podem coordenar-se diretamente; redes maiores ou mais complexas podem precisar de estruturas estáveis de articulação.",
+      "cebraspeTrap": "Presumir que uma rede numerosa deve sempre ser governada igualmente por todos ou que aumentar estruturas coordenadoras garante impacto sem considerar contexto.",
+      "example": "Uma rede de poucos parceiros com confiança mútua usa coordenação direta; ao crescer e depender de sistemas complexos pode necessitar de coordenação especializada.",
+      "sources": [
+        {
+          "label": "Provan e Kenis, Modes of Network Governance, 2008, contingências",
+          "url": "https://doi.org/10.1093/jopart/mum015"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-b72a64e019f34c8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-governanca-colaborativa-ansell-gash",
+      "term": "Governança colaborativa em Ansell e Gash",
+      "definition": "Modelo de governança colaborativa estudado por Ansell e Gash (2008) que considera condições iniciais, desenho institucional, liderança facilitadora e processo colaborativo com diálogo, construção de confiança, compromisso e entendimento compartilhado.",
+      "contrast": "Um fórum colaborativo de decisão conjunta não é idêntico a qualquer rede interorganizacional ou a uma simples consulta pública. A participação de interessados não transfere automaticamente competências decisórias legais.",
+      "cebraspeTrap": "Afirmar que participação formal por si elimina assimetrias de poder ou que todo conflito precisa resultar em consenso para que se reconheça cooperação entre instituições.",
+      "example": "Um fórum de aperfeiçoamento do acesso à informação inclui públicos diversos, regras transparentes e liderança mediadora, registra conflitos e testa resultados antes de novas decisões.",
+      "sources": [
+        {
+          "label": "Ansell e Gash, Collaborative Governance in Theory and Practice, 2008",
+          "url": "https://doi.org/10.1093/jopart/mum032"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-b72a64e019f34c8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
     }
   ]
 }

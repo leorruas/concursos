@@ -803,6 +803,62 @@
       "examBlock": "Conhecimentos básicos: Administração Pública",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-nova-governanca-publica-npg",
+      "term": "Nova Governança Pública (New Public Governance)",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, item 8.1",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-estado-plural-pluralista-osborne",
+      "term": "Estado plural e pluralista em Osborne",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, item 8.1",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-governanca-compartilhada-rede",
+      "term": "Governança compartilhada pelos participantes da rede",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, item 8.1",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-organizacao-lider-rede",
+      "term": "Governança de rede por organização líder",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, item 8.1",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-organizacao-administrativa-rede",
+      "term": "Organização administrativa da rede (NAO)",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, item 8.1",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-contingencias-governanca-rede",
+      "term": "Condições de adequação dos modelos de governança de rede",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, item 8.1",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-governanca-colaborativa-ansell-gash",
+      "term": "Governança colaborativa em Ansell e Gash",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, item 8.1",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

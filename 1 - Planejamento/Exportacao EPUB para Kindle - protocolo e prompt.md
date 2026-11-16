@@ -3,7 +3,7 @@ title: "Exportação EPUB para Kindle: protocolo e prompt reutilizável"
 type: "protocolo-operacional"
 status: "ativo"
 created: 2026-11-15
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 
 # Exportação EPUB para Kindle: protocolo e prompt reutilizável
@@ -19,6 +19,12 @@ Este protocolo orienta pedidos futuros como "gere um EPUB de Direito Constitucio
 5. **Priorizar leitura.** EPUB 3 fluido (reflowable), com navegação e ajustes de fonte do Kindle. A conversão de diagramas, tabelas e figuras deve preservar compreensão em tela estreita e monocromática. Não depender de JavaScript ou elementos remotos.
 6. **Privacidade e escopo.** Usar somente teoria e recursos do repositório público, salvo pedido explícito e autorização para outra fonte. Nunca inserir sessões ou desempenho do cofre privado leorruas/concurso-dados em EPUB distribuído.
 7. **Não criar trabalho invisível.** Se alguma ferramenta não estiver acessível, registrar limitações e produzir a melhor versão verificável, sem inventar validações. Não declarar um EPUB criado ou testado sem arquivo e evidências.
+
+## Questões e revisão editorial: atualização de 16/11/2026
+
+Antes da exportação, a matéria deve estar revisada segundo [[1 - Planejamento/Revisao editorial para leitura e EPUB - diretrizes|diretrizes de leitura e EPUB]]. Retirar códigos técnicos **apenas dos títulos visíveis** e do sumário, conservando IDs e navegação interna. Não corrigir ou reescrever texto jurídico durante a exportação: se houver leis sem identificação, seções editoriais artificiais ou redundâncias, apontar as lacunas para a revisão canônica, publicar a correção no GitHub Pages e fixar um novo SHA da main.
+
+**Respostas das questões no EPUB:** transformar gabarito e justificativa de cada questão C/E em uma nota de rodapé clicável e com link de retorno. Preferir semântica EPUB 3 (noteref/footnote), âncoras únicas, `Ver resposta` como rótulo e fallback que funcione sem popup; testar em Kindle Previewer e em um leitor EPUB quando disponíveis. Evitar revelar gabarito logo após o item no fluxo de leitura. O comportamento do site é outro: resposta oculta com revelação por clique/toque/teclado e hover apenas como complemento, exigindo implementação e testes próprios na interface. O Markdown do vault deve continuar contendo gabarito e comentário completos.
 
 ## Pipeline recomendado
 
@@ -57,9 +63,9 @@ fixando o SHA de origem. Inventarie todos os artigos reais do escopo, incluindo
 nomes repetidos, sem tratar índices ou títulos planejados como capítulos.
 
 Converta integralmente o conteúdo, sem resumir ou fazer revisão jurídica
-durante a exportação. Preserve exemplos, questões C/E comentadas, fontes,
+durante a exportação. Preserve exemplos, questões C/E comentadas na fonte, fontes,
 referências, tabelas, fórmulas, figuras e links. Organize os capítulos em
-sequência didática com sumário navegável, âncoras internas e EPUB 3 fluido.
+sequência didática com sumário navegável, âncoras internas e EPUB 3 fluido.\nConverta cada resposta e justificativa de questão C/E em nota clicável\ncom retorno ao enunciado, fallback sem popup e teste de compatibilidade;\nnão apresente o gabarito aberto logo após a pergunta no EPUB.\nUse títulos de leitura sem prefixos editoriais e preserve os IDs em metadados.
 
 Adapte tabelas para telas pequenas: tabelas simples em XHTML, tabelas largas
 preferencialmente em blocos verticais com toda a informação, e imagens com

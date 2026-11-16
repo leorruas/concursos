@@ -29,7 +29,7 @@ A relação entre um ministério e uma autarquia **não é hierárquica**: são 
 
 ## Poder disciplinar: relações de sujeição específica
 
-O **poder disciplinar** permite apurar infrações funcionais e aplicar sanções a servidores e outras pessoas submetidas a uma **relação jurídica especial** com a Administração. Deve haver fundamento legal e observância do procedimento aplicável, com contraditório e ampla defesa quando exigidos. A **Lei nº 8.112/1990**, regime jurídico dos servidores civis da União, contém deveres, infrações e sanções dos servidores federais; sua disciplina não se aplica indistintamente a contratados e a servidores de todos os entes.
+O **poder disciplinar** permite apurar infrações funcionais e aplicar sanções a servidores e a outras pessoas sujeitas a uma **relação jurídica especial** com a Administração. Essa relação nasce, por exemplo, do vínculo funcional do servidor. A aplicação de uma sanção exige fundamento legal, procedimento adequado e respeito ao contraditório e à ampla defesa. **Contraditório** é a possibilidade de conhecer e contestar as acusações e provas; **ampla defesa** é a possibilidade de usar os meios lícitos de defesa previstos no procedimento. A **Lei nº 8.112/1990**, regime jurídico dos servidores civis da União, contém deveres, infrações e sanções dos servidores federais; sua disciplina não se aplica indistintamente a contratados e a servidores de todos os entes.
 
 Exemplos: um servidor federal responde por infração funcional perante a Administração, ao passo que uma empresa contratada pode sofrer sanções por descumprir seu contrato segundo a legislação de contratações. A **Lei nº 14.133/2021**, Lei de Licitações e Contratos Administrativos, disciplina infrações e sanções contratuais nos arts. 155 a 163. A classificação doutrinária dessas sanções como manifestação de poder disciplinar ou de poder sancionador contratual varia; o importante é identificar o **vínculo jurídico específico e a norma aplicável**.
 
@@ -37,7 +37,7 @@ Exemplos: um servidor federal responde por infração funcional perante a Admini
 
 O art. 78 do **Código Tributário Nacional, Lei nº 5.172/1966**, descreve o poder de polícia como atividade estatal que limita ou disciplina direitos, interesses ou liberdades em razão de interesses públicos, como segurança, higiene e ordem. Exemplo: a vigilância sanitária fiscaliza estabelecimentos, determina correções e, quando a lei permite, aplica sanções.
 
-A **polícia administrativa** incide sobre atividades, bens ou direitos sujeitos a regras administrativas. Não é sinônimo de **polícia de segurança pública** e não depende de a pessoa fiscalizada manter contrato ou vínculo funcional especial com o órgão.
+A **polícia administrativa** incide sobre atividades, bens ou direitos sujeitos a regras administrativas. Não é sinônimo de **polícia de segurança pública** e não depende de a pessoa fiscalizada manter contrato ou vínculo funcional especial com o órgão. Ela pode envolver regras preventivas, fiscalização e, quando prevista em lei, sanção. Por exemplo, exigir condições sanitárias para o funcionamento de um restaurante, fiscalizá-lo e aplicar multa por infração são manifestações distintas desse poder; cada medida precisa de base legal e procedimento compatível.
 
 | Situação | Instrumento predominante | Por quê |
 | :--- | :--- | :--- |
@@ -55,7 +55,7 @@ Esses conceitos não são intercambiáveis. Uma fiscalização pode gerar multa 
 
 ### Delegação do poder de polícia
 
-O **Tema 532 do Supremo Tribunal Federal (STF)** afastou uma afirmação absoluta de que nenhuma pessoa jurídica de direito privado da Administração Indireta pode exercer poder de polícia. Segundo a tese, **lei** pode delegar esse exercício a entidades de direito privado da Administração Indireta **com capital social majoritariamente público**, que prestem **exclusivamente serviço público próprio do Estado**, em **regime não concorrencial**. O caso paradigma tratou de aplicação de multas de trânsito por sociedade de economia mista.
+O **Tema 532 do Supremo Tribunal Federal (STF)** afastou uma afirmação absoluta de que nenhuma pessoa jurídica de direito privado da Administração Indireta pode exercer poder de polícia. Segundo a tese, **lei** pode delegar esse exercício a entidades de direito privado da Administração Indireta **com capital social majoritariamente público**, que prestem **exclusivamente serviço público próprio do Estado**, em **regime não concorrencial**. O caso paradigma foi o **RE 633.782**, relativo à aplicação de multas de trânsito pela BHTRANS, sociedade de economia mista de Belo Horizonte. É um exemplo útil porque a natureza privada da pessoa jurídica, isoladamente, não resolve a questão: é preciso verificar **todos** os requisitos cumulativos fixados pelo STF.
 
 A tese **não autoriza delegação geral a qualquer empresa privada**. Também não transforma a edição de leis, que é competência legislativa, em atividade delegável a uma estatal. O que importa para a prova é reunir as condições fixadas pelo STF, e não decorar que “tudo é delegável” ou “nada é delegável”.
 
@@ -63,13 +63,13 @@ A tese **não autoriza delegação geral a qualquer empresa privada**. Também n
 
 O **poder regulamentar ou normativo** envolve a edição de normas administrativas nos limites da competência. A Constituição, no art. 84, IV, permite ao Presidente da República expedir **decretos e regulamentos para a fiel execução das leis**: são regulamentos executivos, que detalham a execução da obrigação estabelecida em lei, sem poder substituir o Legislativo ou criar livremente obrigações primárias.
 
-O art. 84, VI, da Constituição admite **decreto autônomo**, sem lei executada como fundamento imediato, em hipóteses delimitadas. Sua alínea **a** trata da organização e do funcionamento da Administração Federal, quando não houver aumento de despesa nem criação ou extinção de órgãos públicos. A alínea **b** permite extinguir funções ou cargos públicos **quando vagos**. O decreto autônomo não autoriza o Presidente a extinguir ministério ou cargo ocupado por mera vontade.
+O art. 84, VI, da Constituição admite **decreto autônomo**, com fundamento direto na Constituição, em hipóteses delimitadas. Sua alínea **a** trata da organização e do funcionamento da Administração Federal, quando não houver aumento de despesa nem criação ou extinção de órgãos públicos. A alínea **b** permite extinguir funções ou cargos públicos **quando vagos**. Exemplo: um decreto pode reorganizar a distribuição interna de tarefas sem criar um ministério nem elevar despesas, dentro desses limites; criar ou extinguir um ministério depende de lei. O decreto autônomo tampouco permite extinguir por decreto um cargo ocupado. Já o **decreto executivo** do inciso IV detalha como executar uma lei existente: os dois tipos de decreto têm fundamentos e limites diferentes.
 
 A delegação das atribuições do art. 84, VI, segue o **parágrafo único do próprio art. 84**, que prevê destinatários específicos (Ministros de Estado, Procurador-Geral da República ou Advogado-Geral da União), observados os limites da delegação. Não confundir essa delegação constitucional com a regra geral de processo federal da Lei nº 9.784/1999.
 
 ## Abuso de poder: excesso e desvio
 
-Há **abuso de poder** quando a autoridade atua fora dos limites jurídicos da competência. Suas manifestações clássicas são:
+Há **abuso de poder** quando a autoridade usa sua atribuição fora dos limites jurídicos, seja porque ultrapassa **quem pode praticar o ato**, seja porque desrespeita **para que a competência foi conferida**. Suas manifestações clássicas são:
 
 - **Excesso de poder:** o agente age sem atribuição suficiente, ultrapassando sua competência. Exemplo: aplica sanção que a lei reservou a outra autoridade.
 - **Desvio de finalidade ou de poder:** a autoridade tem competência para o ato, mas o pratica buscando fim diferente do previsto na norma. Exemplo: utiliza remoção de servidor para puni-lo informalmente.

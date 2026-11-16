@@ -587,6 +587,22 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-juridicidade-administrativa",
+      "term": "Juridicidade administrativa",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-decadencia-autotutela",
+      "term": "Decadência da autotutela federal",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

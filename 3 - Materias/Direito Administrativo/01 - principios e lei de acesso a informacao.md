@@ -13,20 +13,15 @@ tags:
   - cebraspe
   - camara-dos-deputados
 ---
+# Princípios da Administração Pública: decisões, limites e controle
 
-# Princípios Expressos e Implícitos da Administração Pública
+Imagine que a Câmara dos Deputados precise divulgar uma campanha de utilidade pública. A contratação deve ter fundamento jurídico, tratar interessados sem favorecimento, respeitar padrões éticos e explicar à sociedade o uso de recursos. O resultado precisa ser útil. Cada uma dessas exigências corresponde a um princípio, ou seja, uma **regra de orientação e limite** que influencia decisões administrativas concretas.
 
-Imagine que a Câmara dos Deputados precise contratar uma campanha de informação pública. A equipe deve escolher uma solução permitida em lei, tratar concorrentes sem favorecimento, justificar a contratação, divulgar o que a lei manda e usar os recursos com qualidade. Essas exigências correspondem a princípios que orientam decisões concretas, e não apenas a uma lista para memorizar.
+O art. 37, **caput**, da **Constituição Federal de 1988** enumera cinco princípios expressos: **legalidade, impessoalidade, moralidade, publicidade e eficiência**. O acrônimo LIMPE ajuda a memorizá-los. Esses princípios se aplicam à Administração Direta e Indireta dos três Poderes e de todos os entes federativos.
 
-O art. 37, **caput**, da Constituição Federal de 1988 (CF/1988) apresenta cinco princípios expressos: **legalidade, impessoalidade, moralidade, publicidade e eficiência**. A sigla LIMPE ajuda a recordá-los. Outros princípios decorrem da Constituição, de leis e da interpretação jurídica. A **Lei nº 9.784/1999** disciplina o processo administrativo **federal** e a **Lei de Introdução às Normas do Direito Brasileiro (LINDB)** estabelece regras de interpretação e decisão.
+A **Lei nº 9.784/1999**, que regula o processo administrativo no âmbito da Administração Pública Federal, desenvolve esses deveres em seu art. 2º. A **Lei de Introdução às Normas do Direito Brasileiro (LINDB), Decreto-Lei nº 4.657/1942**, orienta a interpretação e a aplicação das normas, inclusive quando uma decisão pública precisa considerar consequências práticas e segurança jurídica (arts. 20 a 24). A Constituição vale em todo o país; as regras procedimentais da Lei nº 9.784/1999 são federais, sem que isso as transforme automaticamente em lei estadual ou municipal.
 
-Na doutrina, a **supremacia do interesse público** explica certas prerrogativas conferidas por lei ao Estado; a **indisponibilidade do interesse público** significa que o agente não pode tratar bens e poderes públicos como patrimônio próprio. Esses conceitos não autorizam violar direitos fundamentais ou agir sem base legal. Por exemplo, a Administração pode fiscalizar uma atividade nos limites legais, mas não pode aplicar uma sanção apenas porque o gestor a considera conveniente.
-
----
-
-## 1. Princípios Constitucionais Expressos (Art. 37, *Caput*, da CF/1988)
-
-O art. 37, *caput*, da Constituição Federal submete a administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios aos princípios de **Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência**:
+## Princípios expressos: o que cada um exige
 
 ```mermaid
 graph TD
@@ -35,165 +30,158 @@ graph TD
     classDef opcao fill:#ffffff,stroke:#d4a373,stroke-width:1px,color:#2b2b2b;
 
     R["Regime Jurídico-Administrativo"]:::raiz --> C1["Princípios doutrinários"]:::criterio
-    R --> C2["Princípios Expressos (Art. 37 CF)"]:::criterio
+    R --> C2["Princípios Expressos (art. 37 da Constituição)"]:::criterio
     R --> C3["Princípios Implícitos e Setoriais"]:::criterio
 
     C1 --> O1["Supremacia: poderes previstos em lei<br/>Indisponibilidade: limites ao gestor"]:::opcao
-    C2 --> O2["L - Legalidade Estrita (Juridicidade)<br/>I - Impessoalidade (Finalidade e não autopromoção)<br/>M - Moralidade Administrativa (Probidade e Boa-fé)<br/>P - Publicidade (Transparência como regra)<br/>E - Eficiência (Qualidade e Racionalidade - EC 19/98)"]:::opcao
+    C2 --> O2["L: Legalidade e juridicidade<br/>I: Impessoalidade (Finalidade e não autopromoção)<br/>M: Moralidade Administrativa (Probidade e Boa-fé)<br/>P: Publicidade (Transparência como regra)<br/>E: Eficiência (Qualidade e Racionalidade - EC 19/98)"]:::opcao
     C3 --> O3["Autotutela (Súmulas 346 e 473 STF)<br/>Segurança Jurídica e Proteção à Confiança<br/>Razoabilidade e Proporcionalidade<br/>Motivação dos Atos Administrativos"]:::opcao
 ```
 
-### 1.1. Legalidade Estrita e o Princípio da Juridicidade
-- **Distinção Clássica:** Enquanto para o particular vige o princípio da autonomia da vontade (art. 5º, II, da CF/1988: *ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei*), permitindo-se tudo o que a lei não proíbe, para a Administração Pública vige o princípio da **legalidade estrita**: o administrador só pode agir quando e como a lei autoriza ou determina (*subordinação estrita à lei*).
-- **Evolução para a Juridicidade:** A legalidade contemporânea é concebida como **princípio da juridicidade** (art. 2º, parágrafo único, I, da Lei nº 9.784/1999: *atuação conforme a lei e o Direito*). O administrador vincula-se não apenas à lei em sentido formal estrito, mas a todo o bloco de constitucionalidade, aos princípios gerais do Direito, aos tratados internacionais de direitos humanos e aos precedentes vinculantes.
+### Legalidade e juridicidade
 
-### 1.2. Impessoalidade: Vertentes e Desdobramentos
-O princípio da impessoalidade desdobra-se em quatro facetas complementares:
-1. **Princípio da Finalidade:** A atuação administrativa deve buscar unicamente o interesse público primário visado pela norma, sem perseguições a adversários nem favorecimentos a aliados. O desvio de finalidade compromete a validade do ato e pode levar à sua anulação, observado o devido processo.
-2. **Igualdade e Isonomia:** Assegura tratamento paritário a todos os administrados em idêntica situação jurídica, orientando a exigência constitucional de concurso público para provimento de cargos (art. 37, II) e de processo licitatório para contratações (art. 37, XXI).
-3. **Imputação Volitiva (Teoria do Órgão):** Os atos praticados pelo agente público são imputados à pessoa jurídica estatal (órgão/entidade), e não à pessoa física do servidor. A proteção de terceiros de boa-fé em situações de agente de fato exige análise das circunstâncias; não é uma consequência automática e ilimitada.
-4. **Vedação à Promoção Pessoal (Art. 37, § 1º, da CF/1988):** A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve ter caráter educativo, informativo ou de orientação social, dela **não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal** de autoridades ou servidores públicos. A violação pode tornar a publicidade irregular e, se presentes os requisitos legais específicos, também configurar improbidade administrativa. A Lei nº 8.429/1992 exige análise do tipo legal e do dolo, não bastando presumir improbidade de toda irregularidade.
+A **legalidade** significa que o agente público precisa de fundamento jurídico para agir. O cidadão, segundo o art. 5º, II, da Constituição, não pode ser obrigado a fazer ou deixar de fazer algo senão em virtude de lei. Já a autoridade pública exerce competências atribuídas pelo ordenamento: não pode inventar uma multa, dispensar requisitos legais ou criar uma proibição apenas por achar útil.
 
-### 1.3. Moralidade Administrativa e Probidade
-- A moralidade administrativa **não se confunde com a moral comum ou privada**, nem com juízos puramente subjetivos do agente. Constitui um **conceito jurídico indeterminado autônomo**, fundado nos deveres de boa-fé objetiva, lealdade, honestidade, probidade e retidão de conduta.
-- **Autonomia da Moralidade:** Um ato administrativo pode ser formalmente compatível com a letra da lei, mas ser materialmente nulo por ofensa direta à moralidade administrativa (*imoralidade jurídica*).
-- **Súmula Vinculante nº 13 do STF (Antinepotismo):** O STF fixou que a vedação ao nepotismo na Administração Pública direta e indireta decorre **diretamente dos princípios constitucionais da moralidade, impessoalidade e eficiência**, independentemente da existência de lei formal ordinária local que o proíba expressamente.
+A **juridicidade** é uma forma mais ampla de explicar essa vinculação: a decisão precisa respeitar a Constituição, as leis, os princípios e as demais normas válidas, observada a hierarquia entre elas. O art. 2º, parágrafo único, I, da Lei nº 9.784/1999 exige atuação conforme **a lei e o Direito**. Um regulamento válido pode orientar o procedimento, mas não pode contrariar uma lei ou a Constituição.
 
-### 1.4. Publicidade e Transparência
-- A publicidade permite conhecimento e controle dos atos públicos. A publicação oficial é condição de eficácia em hipóteses previstas nas normas aplicáveis, mas nem todo ato administrativo depende da mesma forma de divulgação para produzir efeitos.
-- **Publicidade como regra e sigilo como exceção:** a **Lei de Acesso à Informação (LAI), Lei nº 12.527/2011**, concretiza o art. 5º, XXXIII, da Constituição. A Administração deve divulgar informações de interesse coletivo ou geral e responder aos pedidos de acesso, ressalvadas as restrições legais, entre elas:
-  1. Segurança da sociedade e do Estado;
-  2. Proteção da intimidade, vida privada, honra e imagem dos cidadãos (dados pessoais).
+**Exemplo:** um órgão deseja exigir um documento adicional em um serviço digital. Precisa verificar se há competência e fundamento jurídico para impor a exigência. A simples intenção de reduzir fraudes não cria autorização para uma restrição desproporcional.
 
-### 1.5. Eficiência
-- Inserido expressamente no art. 37 pela Emenda Constitucional nº 19/1998 (Reforma Administrativa do Estado).
-- Exige do administrador a obtenção do melhor resultado prático com o menor dispêndio de recursos públicos (relação custo-benefício, produtividade, celeridade e qualidade no serviço público prestado).
-- **Limites da Eficiência:** A busca pela eficiência **não autoriza a burla à legalidade, à moralidade ou aos direitos e garantias fundamentais** dos cidadãos. Não há eficiência lícita fora do Estado Democrático de Direito.
+### Impessoalidade: finalidade, igualdade e comunicação pública
 
----
+**Impessoalidade** significa atuar para a finalidade pública prevista na norma, com critérios objetivos, sem favorecer amigos nem perseguir adversários. Tem aplicações distintas:
 
-## 2. Princípios Constitucionais e Infraconstitucionais Implícitos
+- **Finalidade:** a autoridade recebe uma competência para um fim específico. Remover um servidor de local de trabalho apenas como punição disfarçada, por exemplo, pode configurar **desvio de finalidade**: o poder foi usado para fim diferente daquele permitido.
+- **Isonomia:** pessoas em condições equivalentes devem receber tratamento conforme critérios jurídicos equivalentes. Os arts. 37, II e XXI, preveem, respectivamente, concurso público para ingresso em cargo ou emprego, ressalvadas as exceções constitucionais, e licitação nas contratações, observadas as exceções legais.
+- **Imputação à pessoa jurídica:** quando um agente atua regularmente em nome do órgão, seu ato é atribuído à pessoa jurídica pública, não à sua pessoa física. Essa explicação é conhecida como *teoria do órgão*. A análise de agentes sem investidura regular exige cautela: eventual proteção a terceiros de boa-fé não vale para toda situação.
+- **Comunicação institucional:** o art. 37, § 1º, exige que a publicidade de órgãos públicos tenha caráter **educativo, informativo ou de orientação social** e veda nomes, símbolos e imagens **que caracterizem promoção pessoal** de autoridades ou servidores. Divulgar quem é a autoridade para informar sobre um serviço não equivale necessariamente a promover sua imagem: o conteúdo, a forma e a finalidade da peça importam.
 
-Ao lado dos princípios expressos no art. 37, o ordenamento jurídico alberga princípios implícitos dotados de idêntica força cogente:
+**Exemplo para Divulgação Institucional:** uma campanha pública explica como utilizar um serviço da Câmara, com informações, acesso e identificação institucional. Se a peça passa a associar a entrega do serviço ao mérito pessoal de um parlamentar, pode ultrapassar o limite constitucional.
 
-| Princípio Implícito | Sede / Fundamento Normativo | Conteúdo e Alcance no Direito Administrativo |
+### Moralidade, probidade e nepotismo
+
+A **moralidade administrativa** é um dever jurídico de conduta correta no exercício da função: envolve boa-fé, lealdade, honestidade e respeito à finalidade do cargo. É diferente de preferências morais privadas. Um ato pode seguir a forma prevista na lei e, ainda assim, ser inválido por violar a moralidade constitucional.
+
+**Probidade** é a exigência de agir honestamente na gestão pública. A **Lei nº 8.429/1992**, Lei de Improbidade Administrativa, estabelece condutas e sanções específicas; uma ilegalidade ou imoralidade não configura automaticamente o ilícito de improbidade. Para aplicar as sanções dessa lei, é preciso identificar a hipótese legal e demonstrar seus requisitos, inclusive o dolo exigido.
+
+**Nepotismo** é o favorecimento de familiares em nomeações e designações públicas. A **Súmula Vinculante nº 13 do Supremo Tribunal Federal (STF)** veda as nomeações de parentes indicadas em seu enunciado para cargos em comissão ou confiança e funções gratificadas, inclusive ajustes recíprocos conhecidos como *nepotismo cruzado*. A proibição decorre diretamente da Constituição e independe de lei local. A jurisprudência examina de modo distinto os **cargos eminentemente políticos** do primeiro escalão do Executivo, como os de ministro ou secretário, sem permitir fraude ou troca de favores. Não tratar todo cargo de livre nomeação como exceção política.
+
+### Publicidade e acesso à informação
+
+**Publicidade** exige tornar os atos e as informações administrativas acessíveis nos termos da legislação. A publicidade é pressuposto de controle público, mas **publicação oficial**, **transparência** e **propaganda institucional** são coisas diferentes. A publicação de um ato pode ser condição para sua eficácia quando a norma assim determinar; divulgar uma campanha não substitui o acesso aos documentos e dados que a lei manda disponibilizar.
+
+A **Lei nº 12.527/2011**, Lei de Acesso à Informação (LAI), concretiza o direito constitucional de obter informações públicas e estabelece a **publicidade como regra e o sigilo como exceção**. Há duas formas básicas:
+
+| Forma de transparência | Como funciona | Exemplo |
 | :--- | :--- | :--- |
-| **Autotutela** | Súmulas 346 e 473 do Supremo Tribunal Federal (STF); arts. 53 a 55 da Lei nº 9.784/1999 | A Administração **anula** atos ilegais e pode **revogar** atos válidos por conveniência e oportunidade, respeitando direitos, limites temporais e devido processo. Os efeitos dependem da situação e das regras aplicáveis; não presumir retroatividade irrestrita. |
-| **Segurança Jurídica e Proteção à Confiança** | Art. 5º, XXXVI, da CF/1988; art. 2º, parágrafo único, XIII, da Lei nº 9.784/1999; LINDB | A Administração deve considerar estabilidade, boa-fé e confiança legítima. A Lei nº 9.784/1999 veda aplicação retroativa de nova interpretação administrativa, não apenas em processos definitivamente julgados. |
-| **Razoabilidade e Proporcionalidade** | Devido processo legal substantivo (art. 5º, LIV, CF); art. 2º da Lei 9.784/1999 | Limitação ao poder discricionário. A proporcionalidade desdobra-se no tríplice teste: **adequação** (meio apto ao fim), **necessidade/exigibilidade** (meio menos gravoso) e **proporcionalidade em sentido estrito** (vantagens superam os ônus). |
-| **Motivação** | Princípio republicano e devido processo legal; art. 50 da Lei 9.784/1999 | Obrigação de explicitar os fundamentos de fato e de direito que determinaram a prática do ato administrativo, viabilizando o controle judicial e a aferição da teoria dos motivos determinantes. |
-| **Continuidade do Serviço Público** | Art. 175 da CF/1988; Lei nº 8.987/1995 | Os serviços públicos essenciais não podem sofrer interrupções imotivadas ou abruptas, impondo restrições ao direito de greve de servidores e mitigando a exceção do contrato não cumprido contra o Estado. |
+| **Ativa** | O órgão divulga informações de interesse coletivo ou geral sem esperar pedido (art. 8º da LAI), ressalvadas exceções legais específicas | Publicar dados de despesas e contratos no portal institucional |
+| **Passiva** | Uma pessoa solicita informação que não localizou; o órgão analisa e responde ao pedido (arts. 10 e 11 da LAI) | Pedir acesso a um relatório ou conhecer o fundamento de uma decisão |
 
----
+Na transparência passiva, **qualquer interessado** pode formular pedido com identificação e descrição da informação, sem precisar explicar por que a deseja (art. 10). O acesso deve ser imediato se a informação estiver disponível. Se não for possível, a resposta ocorre em **até 20 dias**, prorrogáveis por **mais 10**, com justificativa expressa (art. 11). A negativa precisa indicar razões e meios de recurso nos casos previstos na lei.
 
-## 3. O Regime Jurídico da Autotutela e Prazos Decadenciais
+Os limites incluem a proteção da segurança da sociedade e do Estado e o tratamento das **informações pessoais** relativas à intimidade, vida privada, honra e imagem, observadas as hipóteses e exceções legais. A **Lei nº 13.709/2018**, Lei Geral de Proteção de Dados Pessoais (LGPD), também estabelece regras de tratamento de dados pessoais. Uma informação não se torna sigilosa só porque sua divulgação é inconveniente para o órgão. O procedimento de pedidos, recursos e relação LAI × LGPD está no [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|artigo sobre transparência e dados pessoais]].
 
-A Súmula nº 473 do STF estabelece o clássico enunciado da autotutela:
+### Eficiência
 
-> *"A administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos, e ressalvada, em todos os casos, a apreciação judicial."*
+A **eficiência** exige prestar serviços e cumprir atribuições com qualidade, rapidez adequada e uso responsável dos recursos. Foi expressamente incorporada ao art. 37 pela **Emenda Constitucional nº 19/1998**, que reformou regras da Administração Pública.
 
-Contudo, nas provas do Cebraspe, a autotutela deve ser compreendida em harmonia com o **princípio da segurança jurídica**:
-- **Prazo Decadencial de 5 Anos (Art. 54 da Lei nº 9.784/1999):** O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários **decai em 5 (cinco) anos**, contados da data em que foram praticados, **salvo comprovada má-fé**.
-- **Como contar:** quando o ato gera efeitos patrimoniais contínuos, o art. 54, § 1º, conta o prazo da percepção do primeiro pagamento. O § 2º considera exercício do direito de anular qualquer medida administrativa que importe impugnação à validade do ato. A exceção do caput é a **comprovada má-fé**, e a decadência não deve ser confundida com a convalidação de defeitos sanáveis prevista no art. 55. A regra citada é a do processo administrativo federal; outros entes podem ter disciplina própria.
+Eficiência envolve resultados e custos, mas **não significa sempre escolher a alternativa mais barata**. Uma solução digital de menor custo que exclua cidadãos sem acesso à internet pode fracassar no atendimento da finalidade pública. Uma alternativa operacionalmente rápida também não pode ignorar deveres de licitação, proteção de dados ou motivação.
 
----
+## Princípios reconhecidos pela legislação e jurisprudência
 
-## 4. Questões Comentadas no Estilo Cebraspe
+Os princípios expressos no art. 37 convivem com outros derivados da Constituição, da legislação e de sua interpretação. Chamar todos eles de “implícitos” simplifica demais: **motivação, razoabilidade, proporcionalidade e segurança jurídica**, por exemplo, aparecem expressamente no art. 2º da Lei nº 9.784/1999 para o processo administrativo federal.
+
+| Princípio | O que orienta | Consequência prática |
+| :--- | :--- | :--- |
+| **Autotutela** | A Administração controla a legalidade dos próprios atos e pode rever escolhas administrativas nos limites legais (Súmulas 346 e 473 do STF; arts. 53 a 55 da Lei nº 9.784/1999) | Corrigir ato ilegal é diferente de revogar ato válido por conveniência |
+| **Segurança jurídica e proteção da confiança** | Proteger estabilidade, boa-fé e expectativas legítimas juridicamente relevantes (Lei nº 9.784/1999; LINDB) | Não invalidar automaticamente situação concluída apenas porque mudou depois a orientação geral |
+| **Razoabilidade** | Evitar medidas arbitrárias ou sem justificativa coerente | Uma exigência deve ter relação racional com o problema enfrentado |
+| **Proporcionalidade** | Avaliar adequação do meio, necessidade e equilíbrio entre benefícios e restrições | Não impor sanção excessiva quando outra medida legal for suficiente |
+| **Motivação** | Explicar fatos e fundamentos jurídicos da decisão nas hipóteses exigidas pelo art. 50 da Lei nº 9.784/1999 | Permitir compreender e controlar por que um pedido foi negado |
+| **Continuidade do serviço público** | Assegurar prestação regular dos serviços, observadas interrupções admitidas em lei | Não suspender serviço por inadimplemento fora das condições legais |
+
+**Razoabilidade e proporcionalidade:** ambas controlam excessos. A proporcionalidade costuma ser examinada em três passos: *adequação* (o meio pode atingir o fim?), *necessidade* (existe meio igualmente eficaz menos restritivo?) e *proporcionalidade em sentido estrito* (o benefício justifica o ônus?). Se uma sanção legalmente possível puder ser substituída por providência igualmente eficaz e menos gravosa nas condições do caso, a escolha exige justificativa.
+
+**Motivação** não se confunde com **motivo**: *motivo* é a situação de fato e de direito que sustenta o ato; *motivação* é a explicação desses fundamentos. O art. 50 da Lei nº 9.784/1999 identifica situações em que a decisão deve ser motivada, como negar direitos, impor sanções, decidir recurso ou anular ato. Uma motivação pode remeter a parecer anterior, desde que seus fundamentos integrem efetivamente a decisão e sejam claros, conforme o § 1º.
+
+A **continuidade** também tem limites concretos. A **Lei nº 8.987/1995**, que disciplina concessões e permissões de serviços públicos, admite interrupções em emergência ou, depois de aviso, por razões técnicas e de segurança ou por inadimplemento do usuário, considerado o interesse coletivo (art. 6º, § 3º). A **Lei nº 14.015/2020** acrescentou o § 4º: a interrupção por inadimplemento não pode **começar** na sexta-feira, sábado, domingo, feriado ou no dia anterior a feriado. Essas hipóteses exigem leitura das condições legais, não uma licença geral para cortar qualquer serviço.
+
+## Autotutela, anulação, revogação e decadência
+
+A Administração deve **anular** atos ilegais e pode **revogar** atos válidos por conveniência ou oportunidade, respeitados direitos adquiridos e limites jurídicos. A regra consta do art. 53 da Lei nº 9.784/1999 e das Súmulas 346 e 473 do STF. O Poder Judiciário continua podendo controlar a legalidade quando provocado nas condições processuais cabíveis.
+
+**Anulação** pergunta se o ato tem vício jurídico; **revogação** pergunta se um ato válido ainda é conveniente, quando ele admite esse tipo de juízo. **Convalidação**, prevista no art. 55 da Lei nº 9.784/1999, permite corrigir determinados defeitos sanáveis quando não houver lesão ao interesse público nem prejuízo a terceiros. A análise mais detalhada está no [[3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos|artigo sobre extinção e correção de atos]].
+
+A autotutela sofre limites temporais. No âmbito federal, pelo **art. 54 da Lei nº 9.784/1999**, o direito administrativo de anular atos que produzam efeitos favoráveis aos destinatários **decai em cinco anos**, contados de sua prática, **salvo comprovada má-fé**. Quando há efeitos patrimoniais contínuos, o prazo começa no primeiro pagamento (§ 1º). Uma medida administrativa que impugne a validade do ato caracteriza exercício do direito de anular (§ 2º). Isso é *decadência*, isto é, perda do poder de agir após o prazo legal, e não uma autorização para conservar qualquer ato irregular em qualquer hipótese.
+
+**Exemplo:** uma vantagem administrativa é paga mensalmente por decisão posteriormente questionada. Se o caso se sujeita ao art. 54, o marco inicial, em regra, é o **primeiro pagamento**, não cada parcela; a má-fé precisa ser comprovada para afastar a regra decadencial. O regime concreto do ato e as garantias procedimentais importam.
+
+A LINDB reforça essa análise: seus **arts. 20 e 21** exigem considerar consequências práticas e, em caso de invalidação, indicar as consequências jurídicas e administrativas; o **art. 23** prevê transição quando indispensável diante de nova interpretação que imponha dever, e o **art. 24** protege situações constituídas segundo orientações gerais da época contra invalidação baseada apenas em mudança posterior de orientação. Não significam autorização para manter qualquer ilegalidade: disciplinam como decidir e justificar.
+
+## Questões comentadas no estilo Cebraspe
 
 ### Questão 1
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Em decorrência do princípio da juridicidade, a atuação da Administração Pública não se subordina exclusivamente à lei em sentido formal, devendo obediência a todo o bloco de legalidade, incluindo princípios constitucionais implícitos, tratados internacionais e normas infralegais expedidas no âmbito da competência regulamentar.
+*Item inédito.* A juridicidade exige que a Administração observe a Constituição, as leis e as demais normas válidas, conforme sua hierarquia, não ficando limitada apenas à lei formal produzida pelo Legislativo.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** A juridicidade exige respeito à Constituição, à legislação e às demais normas válidas, dentro da hierarquia normativa. A Administração Pública não se vincula apenas à lei formal oriunda do Legislativo, mas a todo o ordenamento jurídico (bloco de constitucionalidade, normas regulamentares e princípios gerais do Direito), tal como expressamente positivado no art. 2º, parágrafo único, I, da Lei nº 9.784/1999 (*atuação conforme a lei e o Direito*).
-
----
+**Gabarito: Certo.** O art. 2º, parágrafo único, I, da Lei nº 9.784/1999 fala em atuação conforme a lei e o Direito. Regulamentos válidos e princípios também importam, mas nenhuma norma inferior pode contrariar a Constituição ou a lei.
 
 ### Questão 2
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Conforme entendimento sumulado pelo Supremo Tribunal Federal, a vedação ao nepotismo nos órgãos dos Três Poderes da República decorre de expressa exigência legal infraconstitucional, de modo que, na ausência de lei local regulamentadora, é lícita a nomeação de cônjuge ou parente de autoridade para cargo em comissão.
+*Item inédito.* A falta de lei municipal específica torna lícita a nomeação, para cargo em comissão administrativo, do cônjuge da autoridade nomeante, ainda que a situação esteja abrangida pela Súmula Vinculante nº 13 do STF.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado**  
-**Comentário:** Conforme assentado na Súmula Vinculante nº 13 do STF, a vedação ao nepotismo decorre **diretamente dos princípios constitucionais da moralidade, impessoalidade, igualdade e eficiência** (art. 37, *caput*, da CF/1988), possuindo aplicabilidade imediata e **independente de qualquer lei formal ordinária** editada pelo ente federativo.
-
----
+**Gabarito: Errado.** O nepotismo vedado pela Súmula Vinculante nº 13 viola diretamente os princípios constitucionais. A proibição não depende de lei municipal. O item se refere a cargo em comissão **administrativo**, sem confundi-lo com o debate jurisprudencial próprio de cargos políticos do primeiro escalão.
 
 ### Questão 3
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Em virtude do princípio da supremacia do interesse público sobre o privado, o administrador público goza de liberdade para transigir, dispensar garantias ou renunciar a créditos tributários titularizados pelo Estado sempre que julgar politicamente conveniente.
+*Item inédito.* Pela supremacia do interesse público, uma autoridade pode renunciar a crédito público sem observar os requisitos legais, desde que considere a renúncia politicamente conveniente.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado**  
-**Comentário:** O item confunde supremacia com disponibilidade. O interesse público é regido pelo supraprincípio da **indisponibilidade do interesse público**: os bens, direitos e receitas públicas não pertencem à pessoa física do administrador, que é mero gestor do patrimônio coletivo. Renúncia de receita e transações exigem observar os requisitos legais aplicáveis, inclusive os fiscais quando pertinentes. Uma irregularidade não gera automaticamente improbidade: é preciso verificar os requisitos da Lei nº 8.429/1992.
-
----
+**Gabarito: Errado.** Supremacia do interesse público é categoria doutrinária sobre determinadas prerrogativas legais, não liberdade para dispor de bens e receitas públicas. A renúncia depende das condições e autorizações legais aplicáveis.
 
 ### Questão 4
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** O poder de autotutela permite que a Administração Pública anule atos administrativos ilegais de que decorram efeitos favoráveis para os destinatários a qualquer tempo, tendo em vista que atos eivados de vício de legalidade não são alcançados pela decadência ou pela prescrição.
+*Item inédito.* No processo administrativo federal, o ato favorável ao destinatário pode sempre ser anulado a qualquer tempo, pois a ilegalidade afasta a decadência prevista no art. 54 da Lei nº 9.784/1999.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado**  
-**Comentário:** A autotutela encontra limite temporal no princípio da segurança jurídica. Nos termos do art. 54 da Lei nº 9.784/1999, o direito da Administração de anular atos administrativos de que decorram efeitos favoráveis para os destinatários **decai em cinco anos**, contados da data em que foram praticados, **salvo comprovada má-fé**. O prazo tem regras específicas para efeitos patrimoniais contínuos e para medidas de impugnação administrativa (art. 54, §§ 1º e 2º). A ressalva legal é a má-fé comprovada.
-
----
+**Gabarito: Errado.** A regra legal é o prazo de **cinco anos**, salvo comprovada má-fé, com contagem específica em caso de efeitos patrimoniais contínuos. O enunciado elimina indevidamente o limite temporal da autotutela.
 
 ### Questão 5
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Campanha institucional de utilidade pública veiculada pela Câmara dos Deputados que contenha exclusivamente o nome e a fotografia do parlamentar relator de proposição legislativa de grande repercussão social viola o princípio da impessoalidade, ainda que os recursos orçamentários utilizados na veiculação sejam de origem pública e devidamente autorizados.
+*Item inédito.* Uma campanha institucional que atribua a um parlamentar, por meio de nome e fotografia usados para enaltecê-lo, o mérito pessoal de serviço prestado pela Câmara viola o art. 37, § 1º, da Constituição, ainda que sua despesa tenha sido autorizada.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** O art. 37, § 1º, da CF/1988 estabelece categoricamente que a publicidade governamental deve ter caráter estritamente educativo, informativo ou de orientação social, sendo vedada a inclusão de nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores. Na situação descrita, a divulgação centrada na imagem e no nome do parlamentar caracteriza promoção pessoal, vedada pelo art. 37, § 1º. A avaliação jurídica depende do conteúdo e da finalidade concreta da peça.
-
----
+**Gabarito: Certo.** O elemento decisivo é a **promoção pessoal** identificada no enunciado. A autorização orçamentária não dispensa o caráter educativo, informativo ou de orientação social exigido para a publicidade institucional. A simples presença factual do nome de uma autoridade, isoladamente, exige avaliação do contexto.
 
 ### Questão 6
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** O princípio da continuidade do serviço público constitui óbice absoluto à interrupção do fornecimento de utilidades públicas por inadimplemento do usuário, ainda que precedida de aviso formal e motivada por razões de interesse coletivo.
+*Item inédito.* O princípio da continuidade impede absolutamente a interrupção por inadimplemento de usuário, ainda que o serviço concedido esteja submetido às hipóteses legais de aviso e proteção do interesse coletivo.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado**  
-**Comentário:** O princípio da continuidade não é absoluto. Nos termos do art. 6º, § 3º, II, da Lei nº 8.987/1995, não se caracteriza como descontinuidade do serviço a sua interrupção em situação de emergência ou, **após prévio aviso**, por inadimplemento do usuário, considerado o interesse da coletividade. O mesmo § 3º também prevê interrupção por razões técnicas ou de segurança das instalações, após aviso, e por emergência, sem a mesma exigência de aviso prévio.
+**Gabarito: Errado.** O art. 6º, § 3º, II, da Lei nº 8.987/1995 admite, nas condições legais, interrupção por inadimplemento após aviso, considerado o interesse coletivo. Pelo § 4º, ela não pode começar na sexta-feira, sábado, domingo, feriado ou dia anterior a feriado.
 
----
+## Relações com outros artigos
 
-## 5. Relações com Outros Artigos e Síntese de Revisão
+Os princípios se aplicam a órgãos e entidades descritos em [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Administração Direta e Indireta]]. A diferença entre motivo, finalidade e competência integra [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]]. A revisão dos atos e seus limites é aprofundada em [[3 - Materias/Direito Administrativo/17 - anulacao revogacao convalidacao e extincao de atos administrativos|Anulação, revogação e convalidação]], enquanto [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência e proteção de dados]] trata dos procedimentos da LAI e da LGPD.
 
-- **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo, Administração Pública e Função Administrativa]]: Fundamentação da função administrativa e subordinação técnica à legalidade e ao interesse público.
-  - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico]]: Aplicação dos princípios à Administração Direta e Indireta (descentralização e desconcentração).
-  - [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto]]: Controle de validade, motivos determinantes, anulação e revogação pelo exercício da autotutela.
-  - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]]: Concretização do princípio da publicidade pela LAI e limites da LGPD.
+## Fontes jurídicas
 
-
-## Fontes normativas para conferência
-
-- [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): arts. 5º, II, XXXIII, XXXV e LIV; 37, caput e § 1º; 175.
-- [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm): arts. 2º, 50 e 53 a 55, sobre processo administrativo federal, motivação, revisão de atos e decadência.
-- [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm): acesso à informação e hipóteses de restrição.
-- [Lei nº 8.987/1995](https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm): art. 6º, § 3º, sobre continuidade e interrupção do serviço.
-- [Lei nº 8.429/1992](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm): tipificação e requisitos dos atos de improbidade.
-- [LINDB, Decreto-Lei nº 4.657/1942](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm): segurança jurídica e consequências práticas da decisão administrativa.
-
-**Distinção de fontes:** os cinco princípios do art. 37 são texto constitucional. Os chamados supraprincípios são categorias doutrinárias. Os prazos e procedimentos citados decorrem de leis específicas; a autotutela também é tratada pelas Súmulas 346 e 473 do STF. A aplicação a um caso concreto exige conferir a redação vigente e a jurisprudência pertinente.
+- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), arts. 5º, II e XXXIII; 37, caput e § 1º; 175.
+- [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm), processo administrativo federal, arts. 2º, 50 e 53 a 55; [Súmulas 346 e 473 do STF](https://portal.stf.jus.br/jurisprudencia/).
+- [Súmula Vinculante nº 13 do STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1227), nepotismo, enunciado e jurisprudência de cargos políticos.
+- [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), LAI, arts. 7º, 8º, 10, 11 e 31; [Lei nº 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm), LGPD.
+- [Lei nº 8.987/1995](https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm), concessões de serviços públicos, art. 6º, §§ 3º e 4º; [Lei nº 14.015/2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14015.htm), condições de suspensão por inadimplemento.
+- [LINDB, Decreto-Lei nº 4.657/1942](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm), arts. 20 a 24, consequências e segurança jurídica; [Lei nº 8.429/1992](https://www.planalto.gov.br/ccivil_03/leis/l8429.htm), improbidade administrativa e seus requisitos.

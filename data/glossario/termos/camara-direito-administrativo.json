@@ -323,6 +323,66 @@
           "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1022"
         }
       ]
+    },
+    {
+      "id": "glo-camara-juridicidade-administrativa",
+      "term": "Juridicidade administrativa",
+      "aliases": [
+        "legalidade ampliada",
+        "atuação conforme a lei e o Direito"
+      ],
+      "definition": "É o dever da Administração Pública de agir conforme a Constituição, as leis, os princípios e as demais normas válidas. Cada autoridade precisa exercer competências dentro dos limites e da hierarquia do ordenamento.",
+      "contrast": "Legalidade estrita destaca que o gestor depende de autorização jurídica para agir; juridicidade ressalta que sua atuação respeita também princípios e a Constituição, sem transformar regulamentos em normas superiores à lei.",
+      "cebraspeTrap": "Afirmar que a Administração só deve obediência à lei formal e pode ignorar princípios constitucionais ou que um regulamento pode contrariar uma lei.",
+      "example": "Um órgão não pode criar por regulamento uma restrição não autorizada na legislação apenas porque considera a medida eficiente.",
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999, art. 2º, parágrafo único, I",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        },
+        {
+          "label": "Constituição Federal de 1988, art. 37",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "articleIds": [
+        "art-8946971690804376"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-decadencia-autotutela",
+      "term": "Decadência da autotutela federal",
+      "aliases": [
+        "prazo de cinco anos para anular ato favorável",
+        "artigo 54 da Lei nº 9.784/1999"
+      ],
+      "definition": "É o limite de tempo para a Administração Pública Federal exercer o direito de anular ato administrativo que produz efeitos favoráveis ao destinatário. Em regra, o prazo é de cinco anos, salvo comprovada má-fé.",
+      "contrast": "Decadência limita temporalmente o direito administrativo de anular; convalidação é a correção de defeito sanável, enquanto revogação retira ato válido por conveniência ou oportunidade, nos limites legais.",
+      "cebraspeTrap": "Afirmar que todo ato ilegal pode ser anulado a qualquer tempo ou que cada pagamento mensal reinicia o prazo de decadência do ato com efeitos patrimoniais contínuos.",
+      "example": "Um benefício favorável concedido por ato administrativo federal tem, em regra, prazo de cinco anos para anulação; se gera pagamentos contínuos, conta-se do primeiro pagamento, salvo má-fé comprovada.",
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999, arts. 53 a 55",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ],
+      "articleIds": [
+        "art-8946971690804376"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
     }
   ]
 }

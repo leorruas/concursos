@@ -859,6 +859,70 @@
       "examBlock": "Conhecimentos básicos: Administração Pública, item 8.1",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-da22-absolvicao-criminal",
+      "term": "Absolvição criminal e responsabilidade administrativa",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-responsabilidades-civil-penal-adm",
+      "term": "Responsabilidades civil, penal e administrativa do servidor",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-acumulacao-ilicita-boa-fe",
+      "term": "Acumulação ilegal de cargos: opção e boa-fé",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-abandono-inassiduidade",
+      "term": "Abandono de cargo e inassiduidade habitual",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-prescricao-sumula635",
+      "term": "Prescrição disciplinar e Súmula 635 do STJ",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-prescricao-penal-ms20857",
+      "term": "Prazo penal em infração disciplinar tipificada como crime",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-adi2975",
+      "term": "ADI 2.975 e impedimento de retorno ao serviço público",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da22-competencia-sancoes",
+      "term": "Competência para aplicar penalidades do art. 141 da Lei 8.112",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

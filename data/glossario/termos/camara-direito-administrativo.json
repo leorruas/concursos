@@ -535,6 +535,86 @@
       "contestIds": [
         "camara-2026"
       ]
+    },
+    {
+      "id": "glo-camara-da19-requisicao-eleitoral",
+      "term": "Requisição de servidor pela Justiça Eleitoral",
+      "definition": "Ordem de tribunal ou juiz eleitoral legalmente competente que desloca o exercício de servidor elegível para serviço eleitoral. É irrecusável quando regular, mas a Lei nº 6.999/1982 e a Resolução TSE nº 23.523/2017, alterada em 2026, impõem restrições de cargo, prazo e competência.",
+      "contrast": "Ao contrário da cessão regida pelo Decreto nº 10.835/2021, a requisição regular dispensa concordância da origem. O TSE admite requisição nominal, mas nem todo servidor efetivo é elegível.",
+      "cebraspeTrap": "Afirmar que irrecusabilidade autoriza requisitar servidor em estágio probatório ou qualquer cargo técnico, ignorando os impedimentos legais.",
+      "example": "Tribunal eleitoral requisita servidor de cargo apto; a origem não pode recusar só por carência de pessoal, embora devam ser observados limites de elegibilidade.",
+      "sources": [
+        {
+          "label": "TSE, Resolução nº 23.523/2017, atualizada pela nº 23.765/2026, arts. 1º a 8º",
+          "url": "https://www.tse.jus.br/legislacao/compilada/res/2017/resolucao-no-23-523-de-27-de-junho-de-2017"
+        }
+      ],
+      "articleIds": [
+        "art-b1f27b8954f08262"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da19-cessao-condicoes",
+      "term": "Cessão de agente público",
+      "definition": "Alteração do exercício para outro órgão ou entidade, preservado o vínculo com a origem. Na disciplina do Decreto nº 10.835/2021, depende de pedido do cessionário e concordância do cedente e do agente, e normalmente de cargo em comissão ou função de confiança.",
+      "contrast": "Requisição decorre de prerrogativa legal de caráter impositivo; composição da força de trabalho se limita ao Executivo federal. A cessão também deve respeitar o art. 93 da Lei nº 8.112/1990 e limites legais.",
+      "cebraspeTrap": "Afirmar que uma cessão para tarefas técnicas ordinárias é sempre possível sem cargo comissionado nem hipótese legal específica.",
+      "example": "Ministério pede servidora de autarquia para direção comissionada, mediante concordâncias e requisitos legais.",
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, art. 93",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        },
+        {
+          "label": "Decreto nº 10.835/2021, arts. 3º a 8º",
+          "url": "https://www2.camara.leg.br/legin/fed/decret/2021/decreto-10835-14-outubro-2021-791864-normaatualizada-pe.html"
+        }
+      ],
+      "articleIds": [
+        "art-b1f27b8954f08262"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da19-onus-reembolso",
+      "term": "Ônus da remuneração e reembolso em movimentação",
+      "definition": "Ônus econômico é quem suporta o custo do agente; pagamento em folha é quem entrega a remuneração; reembolso é o ressarcimento entre órgãos quando determinado por lei ou regulamento. As três operações podem envolver sujeitos diferentes.",
+      "contrast": "Uma origem continuar pagando em folha não significa necessariamente que suporta o ônus final. Nem toda cessão ou requisição gera reembolso automático, e nem todas as parcelas são reembolsáveis.",
+      "cebraspeTrap": "Confundir pagamento direto ao agente com ônus econômico e presumir reembolso integral em qualquer movimentação.",
+      "example": "Servidor cedido ao Município pode seguir na folha da União enquanto o Município assume o ônus e realiza reembolso nas condições aplicáveis.",
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, art. 93, §§ 1º e 2º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        },
+        {
+          "label": "Decreto nº 10.835/2021, arts. 17 a 26",
+          "url": "https://www2.camara.leg.br/legin/fed/decret/2021/decreto-10835-14-outubro-2021-791864-normaatualizada-pe.html"
+        }
+      ],
+      "articleIds": [
+        "art-b1f27b8954f08262"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
     }
   ]
 }

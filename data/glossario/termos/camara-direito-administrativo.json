@@ -1138,6 +1138,58 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da23-defesa-tecnica",
+      "term": "Defesa técnica no PAD e defensor dativo",
+      "definition": "A Súmula Vinculante 5 do STF dispensa advogado como requisito geral de validade do PAD. Se o indiciado regularmente citado não apresentar defesa no prazo, a autoridade instauradora nomeia defensor dativo com os requisitos funcionais ou de escolaridade do art. 164, § 2º, da Lei 8.112/1990.",
+      "contrast": "Ausência de advogado não equivale a ausência de defesa; revelia exige defensor dativo no regime da Lei 8.112.",
+      "cebraspeTrap": "Dizer que todo PAD sem advogado é nulo ou que defensor dativo precisa ter inscrição na OAB.",
+      "example": "Servidor citado não entrega defesa escrita: a autoridade nomeia defensor dativo conforme o art. 164, § 2º.",
+      "articleIds": [
+        "art-71166a1de21cc98f"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STF, Súmula Vinculante 5",
+          "url": "https://noticias.stf.jus.br/postsnoticias/sumula-vinculante-no-5-stf-decide-que-nao-e-obrigatoria-defesa-elaborada-por-advogado-em-processo-administrativo-disciplinar/"
+        },
+        {
+          "label": "Lei 8.112/1990, art. 164",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da23-sumula665",
+      "term": "Súmula 665 do STJ e controle judicial do PAD",
+      "definition": "O Judiciário pode verificar regularidade do procedimento e legalidade da sanção disciplinar; não substitui livremente o mérito administrativo, salvo flagrante ilegalidade, teratologia ou manifesta desproporcionalidade.",
+      "contrast": "Rever legalidade e garantias não equivale a julgar novamente, por preferência, a conveniência da penalidade.",
+      "cebraspeTrap": "Afirmar que qualquer discordância judicial sobre a sanção autoriza substituir o enquadramento administrativo.",
+      "example": "Decisão disciplinar sem prova de infração pode ser anulada; simples preferência judicial por pena mais branda não é fundamento suficiente.",
+      "articleIds": [
+        "art-71166a1de21cc98f"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STJ, Súmula 665",
+          "url": "https://scon.stj.jus.br/SCON/sumstj/toc.jsp?sumula=665"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

@@ -558,7 +558,8 @@
       "contestIds": [
         "camara-2026"
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     },
     {
       "id": "glo-camara-da19-cessao-condicoes",
@@ -586,7 +587,8 @@
       "contestIds": [
         "camara-2026"
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     },
     {
       "id": "glo-camara-da19-onus-reembolso",
@@ -614,7 +616,8 @@
       "contestIds": [
         "camara-2026"
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     }
   ]
 }

@@ -46,15 +46,15 @@ flowchart TD
 
 Antes de examinar as espécies substantivas, é imprescindível dominar os critérios estruturais frequentemente exigidos pelo Cebraspe:
 
-### 1.1. Quanto ao grau de liberdade da autoridade (Vinculados versus Discricionários)
+### Quanto ao grau de liberdade da autoridade (Vinculados versus Discricionários)
 - **Atos Vinculados (regrados):** a lei estabelece de forma exaustiva e objetiva todos os requisitos e a única conduta cabível perante a situação fática. Não há margem de valoração subjetiva para a autoridade. Exemplo: concessão de licença para edificar ou aposentadoria compulsória aos 75 anos.
 - **Atos Discricionários:** a lei outorga certa margem de apreciação de conveniência e oportunidade (**mérito administrativo**), permitindo ao administrador escolher o momento, o conteúdo ou a sanção mais adequada dentre as opções juridicamente válidas. Exemplo: concessão de autorização de uso de bem público ou fixação do valor de multa dentro de uma faixa legal graduável.
 
-### 1.2. Quanto aos destinatários (Gerais versus Individuais)
+### Quanto aos destinatários (Gerais versus Individuais)
 - **Atos Gerais (abstratos ou regulamentares):** não possuem destinatários nominais determinados; dirigem-se a uma coletividade indeterminada em idêntica situação de fato. Sua abrangência não lhes dá, por si só, superioridade hierárquica: esta decorre da competência, da espécie normativa e do ordenamento. Exemplo: regulamento de trânsito ou edital de concurso público.
 - **Atos Individuais (concretos):** dirigem-se a indivíduos ou situações jurídicas perfeitamente individualizadas e nominais. Exemplo: decreto de desapropriação de imóvel específico ou portaria de nomeação de servidor.
 
-### 1.3. Quanto à formação da vontade (Simples, Complexos e Compostos)
+### Quanto à formação da vontade (Simples, Complexos e Compostos)
 Trata-se de uma das distinções mais cobradas em provas de concursos federais:
 
 | Categoria | Definição dogmática | Órgãos envolvidos | Exemplo clássico em jurisprudência |
@@ -80,7 +80,7 @@ flowchart LR
 
 A classificação como ato **complexo** da concessão inicial de aposentadoria resulta da jurisprudência do STF. A **Súmula Vinculante nº 3** disciplina contraditório e ampla defesa no exame pelo TCU, com ressalva para a concessão inicial: **não é sua fonte classificatória**. O **Tema 445 do STF (RE 636.553)** limita a **cinco anos**, desde a chegada do processo à Corte de Contas, o julgamento de sua legalidade. Não se deve usar, como exemplo atual de ato composto, a antiga fórmula de dispensa de licitação "declarada e ratificada": a **Lei nº 14.133/2021**, Lei de Licitações e Contratos Administrativos, prevê no art. 72, VIII, autorização da autoridade competente para a contratação direta.
 
-### 1.4. Quanto aos efeitos e eficácia (Constitutivos, Declaratórios e Enunciativos)
+### Quanto aos efeitos e eficácia (Constitutivos, Declaratórios e Enunciativos)
 - **Constitutivos:** criam, modificam ou extinguem uma nova relação jurídica ou direito subjetivo (ex.: demissão, permissão).
 - **Declaratórios:** reconhecem situação jurídica preexistente, sem criá-la pelo próprio reconhecimento. **Não existe retroatividade automática para todo ato declaratório**; os efeitos temporais dependem da norma e do instituto. A anulação de ato ilegal segue regime próprio, explicado no artigo sobre extinção dos atos.
 - **Enunciativos:** limitam-se a certificar ou atestar um fato constante de registros públicos (ex.: certidão de tempo de contribuição).
@@ -89,20 +89,20 @@ A classificação como ato **complexo** da concessão inicial de aposentadoria r
 
 ## 2. Espécies de Atos Administrativos em Espécie (NONEP)
 
-### 2.1. Atos Normativos
+### Atos Normativos
 Os atos normativos contêm comandos gerais e abstratos expedidos pela Administração Pública com o objetivo de explicitar, fielmente executar ou complementar a lei formal.
 - **Decretos e regulamentos:** o art. 84, IV, da **Constituição Federal de 1988** permite ao Presidente expedir decretos para fiel execução das leis. O art. 84, VI, admite decreto autônomo apenas nas hipóteses constitucionais de organização da Administração federal sem aumento de despesa ou criação/extinção de órgãos, ou de extinção de funções ou cargos vagos.
 - **Resoluções e Portarias de caráter geral:** expedidas por colegiados administrativos, ministros de Estado ou dirigentes de autarquias e agências reguladoras no âmbito de sua competência setorial.
 - **Regimentos internos:** organizam o funcionamento dos órgãos. O Regimento Interno da Câmara dos Deputados é norma do Poder Legislativo com fundamento constitucional e regimental próprio, e não simples regulamento administrativo do Executivo.
 
-### 2.2. Atos Ordinatórios
+### Atos Ordinatórios
 Os atos ordinatórios fundam-se no **poder hierárquico** e visam a disciplinar o funcionamento interno da Administração e a conduta de seus agentes públicos.
 - **Características:** produzem efeitos primordialmente *interna corporis*; não obrigam nem vinculam diretamente os particulares que não mantenham relação funcional com o Estado.
 - **Instruções e circulares:** podem orientar servidores subordinados. Uma **instrução normativa** também pode veicular normas gerais dentro da competência legal; o nome do documento, isoladamente, não determina que seja ordinatório.
 - **Ordens de serviço:** determinações sobre tarefas específicas. Memorandos, ofícios e avisos podem ser apenas **meios de comunicação**, sem constituir decisão administrativa por si sós.
 - **Avisos e Ofícios:** comunicações funcionais formais entre autoridades.
 
-### 2.3. Atos Negociais (Consentimento Estatal)
+### Atos Negociais (Consentimento Estatal)
 Os atos negociais são expedidos em situações nas quais a vontade da Administração coincide com a pretensão jurídica manifestada pelo administrado, outorgando-lhe faculdades ou uso de bens públicos.
 
 As distinções mais cobradas entre os atos negociais são:
@@ -133,14 +133,14 @@ flowchart TD
     C --> C1["Escolha dentro da lei; revogação requer interesse público legítimo"]:::discricionario
 ```
 
-### 2.4. Atos Enunciativos
+### Atos Enunciativos
 São aqueles em que a Administração não cria, modifica ou extingue direitos, nem manifesta vontade própria impositiva, limitando-se a certificar uma situação existente, atestar um fato ou emitir opinião técnica:
 - **Certidões:** cópias fiéis de registros públicos existentes em repartições estatais (ex.: certidão negativa de débitos).
 - **Atestados:** declarações da autoridade sobre fatos transitórios que constatam pessoalmente (ex.: atestado médico oficial de capacidade física).
 - **Pareceres:** análises técnicas ou jurídicas que orientam decisões. Podem ser *facultativos* (consulta opcional), *obrigatórios* (consulta exigida) ou *vinculantes* (efeito definido em lei). Logo, nem todo parecer é juridicamente irrelevante; consultar o artigo [[3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista|parecer administrativo]].
 - **Apostilas:** averbações feitas em títulos funcionais para atualização de registros cadastrais ou anotações legais sem alteração substancial da situação jurídica.
 
-### 2.5. Atos Punitivos
+### Atos Punitivos
 Os atos punitivos impõem sanções administrativas a agentes públicos (fundados no poder disciplinar) ou a particulares (fundados no poder de polícia ou no vínculo contratual administrativo):
 - **Sanções disciplinares internas:** demissão, suspensão, advertência, destituição de cargo em comissão e cassação de aposentadoria (Lei nº 8.112/1990).
 - **Sanções a particulares:** multas por infração e, no regime da **Lei nº 14.133/2021**, Lei de Licitações e Contratos Administrativos, sanções tipificadas nos arts. 155 e 156. Interdição ou apreensão podem ser **medidas cautelares preventivas**, conforme finalidade e norma, e não necessariamente punição.

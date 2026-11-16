@@ -5,16 +5,20 @@ title: "Governança pública"
 type: "conceito"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-11-11
+updated: 2026-11-16
+## Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)
+## Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação
+## Alinhamento estratégico e avaliação de impacto (CAM-AP-015)
+## Caso progressivo integrado: liderança, estratégia e controle (CAM-AP-013 e CAM-AP-014)
 ---
 
 # Governança pública
 
-Governança pública organiza mecanismos pelos quais a organização pública é **avaliada, direcionada e monitorada** para aumentar sua capacidade de gerar valor público. Para concursos, a fronteira principal é **governança × gestão**; depois vêm governança × governabilidade, liderança × estratégia × controle e accountability × transparência.
+Um órgão público pode cumprir todas as metas de publicação e ainda deixar cidadãos sem informação compreensível. Quem escolhe a prioridade, quem executa as tarefas e quem verifica o resultado? **Governança pública** organiza as funções de avaliar necessidades, definir direção, atribuir responsabilidades e monitorar se a gestão gera **valor público**. Para compreender seu funcionamento, é preciso separar governança, gestão, governabilidade e fiscalização.
 
 ## Núcleo do conceito
 
-O Decreto nº 9.203/2017 define governança pública, no âmbito da administração pública federal direta, autárquica e fundacional, como o conjunto de mecanismos de **liderança, estratégia e controle** postos em prática para **avaliar, direcionar e monitorar a gestão**, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.
+O **Decreto nº 9.203/2017**, que dispõe sobre a política de governança da administração pública federal direta, autárquica e fundacional **do Poder Executivo federal**, define no **art. 2º, I** a governança pública como o conjunto de mecanismos de **liderança, estratégia e controle** usados para **avaliar, direcionar e monitorar a gestão** de políticas e serviços de interesse da sociedade. O **art. 1º** delimita seu âmbito. A Câmara estuda esse decreto por exigência do edital; ele não é, por si, regulamento interno do Poder Legislativo.
 
 Essa fórmula é especialmente útil para prova:
 
@@ -30,13 +34,13 @@ Gestão
 → controla operacionalmente recursos e atividades
 ```
 
-A segunda linha é uma síntese didática: diferentes referenciais descrevem as funções da gestão com termos próprios. O ponto seguro é que **governança não executa diretamente toda a operação**, mas estabelece direção, supervisão, controles e condições para que a gestão entregue resultados.
+A linha sobre gestão é **síntese teórica**, não uma lista literal do decreto. Em uma instituição, direção e execução podem se sobrepor na atuação das pessoas; a distinção é funcional: estabelecer prioridades e cobrar resultados é diferente de organizar os meios para executar as decisões.
 
 ## Governança × gestão
 
-**Governança** está associada a direção superior, supervisão, avaliação de necessidades, definição de orientação, monitoramento de desempenho, integridade, riscos e accountability.
+**Governança** examina quais problemas públicos enfrentar, escolhe prioridades e limites, acompanha riscos e resultados e decide quando mudar a direção. **Gestão** planeja processos, distribui recursos e pessoas, conduz projetos e acompanha a execução. As duas funções podem planejar e monitorar, mas com **responsabilidades e objetos diferentes**.
 
-**Gestão** traduz direção em planos, processos, projetos, recursos e entregas. Ela implementa políticas e decisões dentro dos limites definidos pela governança.
+**Exemplo:** a direção estabelece como prioridade tornar um portal acessível (governança); uma equipe organiza os testes e corrige a navegação (gestão); indicadores mostram que parte do público continua excluída (evidência); a direção redefine prioridades e cobra a correção (governança). Medir tarefas concluídas, isoladamente, ainda não prova que a população recebeu benefício.
 
 > [!WARNING]
 > **Governança ≠ gestão sofisticada.** Uma questão que afirma que governança consiste em executar rotinas, alocar recursos cotidianos e realizar diretamente operações está deslocando funções típicas da gestão.
@@ -45,24 +49,24 @@ Também é incorreto imaginar que governança fica “fora” da organização: 
 
 ## Governança × governabilidade
 
-**Governabilidade** refere-se, em sentido político-institucional, às condições para exercer poder e implementar decisões: legitimidade, apoio político, relações institucionais e capacidade de formar sustentação para governar.
+**Governabilidade**, na teoria político-institucional, refere-se às condições para exercer poder e sustentar decisões: legitimidade, apoio parlamentar, acordos e estabilidade das relações políticas. Um governo pode ter boa equipe técnica e enfrentar dificuldade para aprovar uma política por falta de apoio legislativo.
 
-**Governança**, em abordagem organizacional, refere-se aos mecanismos e práticas de direção, monitoramento e controle que orientam a atuação e a entrega de valor.
-
-As duas dimensões podem se relacionar, mas não são sinônimas.
+**Governança organizacional** trata dos mecanismos para avaliar, dirigir e monitorar instituições. Ter sustentação política não substitui prestação de contas; estabelecer indicadores não produz automaticamente apoio político. A distinção entre os dois conceitos é **doutrinária**, não uma definição de governabilidade escrita no Decreto nº 9.203/2017.
 
 > [!TIP]
 > **Governabilidade pergunta “há condições políticas para governar?”; governança pergunta “como a organização é dirigida, monitorada e responsabilizada?”**
 
 ## Valor público
 
-O Decreto nº 9.203/2017 define valor público como produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização que constituam respostas efetivas e úteis às necessidades ou demandas de interesse público e modifiquem aspectos da sociedade ou de grupos reconhecidos como destinatários legítimos.
+O **art. 2º, II, do Decreto nº 9.203/2017** define **valor público** como produtos e resultados gerados, preservados ou entregues que respondam de modo efetivo e útil a necessidades de interesse público e modifiquem aspectos da sociedade ou de grupos destinatários legítimos. A pergunta é **que benefício foi gerado, para quem e com qual efeito**.
 
-Portanto, gerar valor público não é simplesmente “economizar recursos” nem “ter lucro”. Eficiência pode contribuir, mas o foco está na resposta útil às necessidades públicas e nos resultados entregues à sociedade.
+Publicar documentos é uma **entrega**; permitir que cidadãos os encontrem e compreendam é um **resultado possível**. Economizar recursos pode contribuir para o valor público, mas lucro, volume de entregas e satisfação de uma amostra não comprovam, sozinhos, acesso com equidade, legalidade e respeito a direitos. A definição é normativa; a escolha de indicadores e métodos de avaliação pertence à teoria e à prática de gestão.
 
-## Valor público: triângulo estratégico de Mark Moore (CAM-AP-010)
+<a id="valor-publico-triangulo-estrategico-de-mark-moore-cam-ap-010"></a>
 
-**Problema:** uma política pode ser tecnicamente executável, mas não responder a uma necessidade coletiva; outra pode parecer útil, mas carecer de legitimidade, competência ou recursos. O **triângulo estratégico de Mark H. Moore**, de *Creating Public Value* (1995), relaciona três perguntas:
+## Valor público: triângulo estratégico de Mark Moore
+
+O **triângulo estratégico de Mark H. Moore**, apresentado em *Creating Public Value: Strategic Management in Government* (1995), é um **modelo teórico** que examina três condições simultâneas: uma finalidade pública relevante, autorização e apoio para agir, e capacidade real de executar. Uma proposta pode ser tecnicamente possível e carecer de legitimidade; outra pode ser popular e inviável pela ausência de recursos.
 
 | Dimensão | Pergunta de gestão pública | Risco |
 | --- | --- | --- |
@@ -70,7 +74,7 @@ Portanto, gerar valor público não é simplesmente “economizar recursos” ne
 | **Legitimidade e apoio** | Qual autoridade e apoio social, político, jurídico ou financeiro sustentam a decisão? | Agir sem base legítima ou sustentação |
 | **Capacidade operacional** | Quais recursos, processos, equipes e relações permitem a execução? | Prometer benefícios sem condições de entrega |
 
-O triângulo constitui **modelo teórico de estratégia pública**, não os três mecanismos literais do **Decreto 9.203/2017**: este enumera **liderança, estratégia e controle**. As categorias não são intercambiáveis. A **percepção do cidadão** pode ajudar a identificar valor, mas satisfação dos respondentes não basta para comprovar legalidade, equidade, proteção de direitos ou resultado para toda a sociedade. Uma medida pode beneficiar um grupo atendido e prejudicar injustificadamente outro.
+O triângulo de Moore é **modelo acadêmico**, diferente dos mecanismos **liderança, estratégia e controle** previstos no **art. 5º do Decreto nº 9.203/2017**. Suas categorias não podem ser usadas como se fossem o texto da norma. A **percepção do cidadão** pode ajudar a identificar valor, mas satisfação dos respondentes não basta para comprovar legalidade, equidade, proteção de direitos ou resultado para toda a sociedade. Uma medida pode beneficiar um grupo atendido e prejudicar injustificadamente outro.
 
 **Caso progressivo:** (1) órgão legislativo identifica barreiras de acesso à informação: define benefício público; (2) verifica competência, regras de transparência e orçamento: analisa legitimidade e apoio; (3) analisa capacidade técnica de tornar documentos acessíveis: verifica condições operacionais; (4) testa se pessoas com necessidades distintas conseguem encontrar e compreender informações: produz evidências de resultado; (5) revê a solução quando identifica exclusão: realinha valor pretendido, autorização e capacidade. **Contraexemplo:** supor que 95% de satisfação de usuários que possuem conexão rápida prova acesso equitativo para toda a população.
 
@@ -84,7 +88,9 @@ O triângulo constitui **modelo teórico de estratégia pública**, não os trê
 
 Questões **autorais**, não retiradas de provas Cebraspe. **Fontes acadêmicas:** [Moore, *On Creating Public Value*, Harvard Kennedy School](https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/programs/cri/files/workingpaper_3_moore_khagram.pdf); [Moore, *Recognizing Public Value*](https://www.hks.harvard.edu/publications/recognizing-public-value); [Moore, artigo de 2021](https://www.hks.harvard.edu/publications/creating-public-value-core-idea-strategic-management-government).
 
-## Cadeia de valor público (CAM-AP-011): hipótese de criação de valor e verificação
+<a id="cadeia-de-valor-publico-cam-ap-011-hipotese-de-criacao-de-valor-e-verificacao"></a>
+
+## Cadeia de valor público: hipótese de criação de valor e verificação
 
 **Problema:** um serviço pode cumprir metas de produtividade e entregar produtos sem resolver a necessidade pública. Para verificar a relação entre meios, entregas e valor, é útil construir uma **cadeia lógica**. O detalhamento metodológico completo já está em [[3 - Materias/Avaliacao de Politicas Publicas/01 - teoria da mudanca|Teoria da mudança]] e [[3 - Materias/Avaliacao de Politicas Publicas/03 - monitoramento e avaliacao de politicas publicas|Monitoramento e avaliação]]; esta seção acrescenta a pergunta específica da governança: **qual benefício público, para quem, sob quais condições e com que responsabilidades?**
 
@@ -116,7 +122,9 @@ Itens inéditos, elaborados para aprendizagem, **não questões reais do Cebrasp
 
 **Fontes específicas:** [Guia Prático de Análise Ex Post, Ipea/Casa Civil](https://ipea.gov.br/portal/images/stories/PDFs/livros/livros/181218_avaliacao_de_politicas_publicas_vol2_guia_expost.pdf), modelo lógico; [Lassance (2026), análise ex ante e teoria do programa, Ipea](https://repositorio.ipea.gov.br/entities/book/df969e98-db5e-4c9f-868b-319899862b8d/full); [Decreto 9.203/2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9203.htm), conceito normativo de valor público. O decreto rege a administração direta, autárquica e fundacional do **Executivo federal**; a cadeia aqui apresentada é instrumento analítico e não obrigação instituída pelo decreto para a Câmara.
 
-## Alinhamento estratégico e avaliação de impacto (CAM-AP-015)
+<a id="alinhamento-estrategico-e-avaliacao-de-impacto-cam-ap-015"></a>
+
+## Alinhamento estratégico e avaliação de impacto
 
 Uma instituição pode cumprir perfeitamente um **plano operacional** e ainda produzir pouco valor público se o objetivo escolhido não responder à necessidade social. **Alinhamento estratégico** é a coerência entre problema público, missão institucional, objetivos, recursos, processos, indicadores, responsabilidades e mecanismos de decisão. Ele exige revisar escolhas quando evidências mostram que entregas não conduzem aos resultados pretendidos.
 
@@ -150,21 +158,35 @@ Os exercícios são **autorais**, não transcrições do Cebraspe. Para a metodo
 
 ## Princípios do Decreto nº 9.203/2017
 
-O art. 3º enumera seis princípios de governança pública:
+O **art. 3º do Decreto nº 9.203/2017** enumera seis princípios. Eles atuam sobre problemas institucionais diferentes:
 
-1. **capacidade de resposta**;
-2. **integridade**;
-3. **confiabilidade**;
-4. **melhoria regulatória**;
-5. **prestação de contas e responsabilidade**;
-6. **transparência**.
+| Princípio legal | Como se manifesta | Risco de ausência |
+| --- | --- | --- |
+| **Capacidade de resposta** | Ouvir demandas e responder em prazo adequado | Falha conhecida sem reação |
+| **Integridade** | Prevenir favorecimento e conflito de interesses | Decisão capturada por interesse privado |
+| **Confiabilidade** | Garantir decisões e informações consistentes e previsíveis | Registros alterados sem critério |
+| **Melhoria regulatória** | Avaliar necessidade, qualidade e efeitos das regras | Obrigações criadas sem considerar impactos |
+| **Prestação de contas e responsabilidade** | Explicar decisões e responder por elas | Resultado sem justificativa ou responsável |
+| **Transparência** | Tornar informações relevantes acessíveis, respeitando sigilos legítimos | Dados públicos ocultados |
 
-> [!WARNING]
-> Esses seis itens são a literalidade do Decreto. Não misture princípios de outros referenciais, como princípios constitucionais do art. 37, com a lista específica do art. 3º.
+A coluna explicativa é **didática**; os seis nomes são a literalidade do art. 3º. Os princípios constitucionais do art. 37 da Constituição, como legalidade e impessoalidade, continuam aplicáveis, mas pertencem a outro dispositivo.
+
+### Diretrizes do art. 4º: transformar princípios em decisões
+
+O **art. 4º** estabelece onze diretrizes de governança. Em vez de decorá-las isoladamente, observe o problema que cada conjunto enfrenta:
+
+| Finalidade | Incisos do art. 4º | Mecanismo |
+| --- | --- | --- |
+| **Produzir resultados e aprender** | I, III e VII | Responder às necessidades, acompanhar políticas e avaliar custos e benefícios |
+| **Coordenar organizações** | II, IV e X | Simplificar serviços, articular instituições e definir responsabilidades |
+| **Prevenir desvios** | V e VI | Promover conduta da alta administração e controles internos baseados em riscos |
+| **Decidir com evidências e prestar informações** | VIII, IX e XI | Usar evidências e participação, qualificar normas e divulgar atividades e resultados |
+
+Essas diretrizes funcionam de modo simultâneo, conforme as competências do órgão. **Não são onze fases obrigatórias de uma sequência cronológica.**
 
 ## Mecanismos: liderança, estratégia e controle
 
-O art. 5º organiza a governança em três mecanismos.
+O **art. 5º do Decreto nº 9.203/2017** organiza a governança em três mecanismos. Pelo **art. 6º**, cabe à **alta administração** implementar e manter práticas de governança, incluindo acompanhamento de resultados, soluções para melhorar desempenho e decisões fundamentadas em evidências. A existência de um comitê formal, sozinha, não comprova funcionamento desses mecanismos.
 
 ### Liderança
 
@@ -179,16 +201,18 @@ Compreende práticas de natureza humana ou comportamental exercidas nos principa
 
 ### Estratégia
 
-Compreende definição de diretrizes, objetivos, planos e ações, além de critérios de priorização e alinhamento entre organizações e partes interessadas para alcançar resultados pretendidos.
+A **estratégia**, conforme o art. 5º, II, define diretrizes, objetivos, planos, ações, critérios de priorização e alinhamento com partes interessadas. Escolher uma prioridade implica justificar o resultado esperado, reconhecer limites de orçamento e capacidade, e comunicar o que será executado pela gestão.
 
 ### Controle
 
-Compreende processos estruturados para mitigar riscos e assegurar execução ordenada, ética, econômica, eficiente e eficaz, preservando legalidade e economicidade.
+O **controle**, no art. 5º, III, reúne processos para reduzir riscos e garantir execução ordenada, ética, econômica, eficiente e eficaz, preservando legalidade e economicidade. **Fiscalização** verifica cumprimento de regras e obrigações; **controle** é mais amplo e inclui prevenção, acompanhamento, correção e revisão de riscos. A contagem de produtos, isolada, não comprova governança.
 
 > [!TIP]
 > **LEC = Liderança, Estratégia, Controle.** Se a banca trocar um deles por “execução”, “estrutura” ou “eficiência”, confira a literalidade do Decreto.
 
-## Caso progressivo integrado: liderança, estratégia e controle (CAM-AP-013 e CAM-AP-014)
+<a id="caso-progressivo-integrado-lideranca-estrategia-e-controle-cam-ap-013-e-cam-ap-014"></a>
+
+## Caso progressivo integrado: liderança, estratégia e controle
 
 **Problema:** uma instituição legislativa precisa ampliar o acesso a documentos, respeitando sua competência e os limites legais de transparência e proteção de dados. O exemplo é **hipotético**, e não descreve mecanismo interno efetivamente adotado pela Câmara.
 
@@ -214,28 +238,34 @@ Itens autorais didáticos, não recuperados de prova oficial Cebraspe. Referênc
 
 ## Gestão de riscos e controles internos
 
-O Decreto trata gestão de riscos como processo permanente estabelecido, direcionado e monitorado pela alta administração. O art. 17 exige integração da gestão de riscos ao planejamento estratégico e aos processos, projetos e atividades relevantes para os objetivos institucionais.
+A **gestão de riscos** é definida no **art. 2º, IV**, do Decreto nº 9.203/2017 como processo permanente voltado a identificar, avaliar e gerenciar eventos que possam afetar os objetivos institucionais, oferecendo **segurança razoável**, não garantia absoluta. O **art. 17** determina que a alta administração estabeleça, mantenha, monitore e aprimore a gestão de riscos e os controles internos, integrando-os ao planejamento e às atividades relevantes.
 
-Controles devem ser proporcionais aos riscos e considerar relação custo-benefício. Isso evita a falsa equivalência “mais controle = melhor governança”. Controle excessivo também pode gerar custo e dificultar a entrega de valor.
+**Exemplo progressivo:** (1) o portal pode divulgar dados pessoais indevidamente; (2) a equipe identifica fontes e consequências do risco; (3) define responsabilidades e controles de publicação; (4) acompanha incidentes e revê medidas. O **art. 17, III** exige controles **proporcionais aos riscos**, com avaliação de custo-benefício. Dez autorizações para toda alteração simples podem paralisar o serviço sem melhorar a proteção.
+
+O **art. 18** atribui à **auditoria interna governamental** avaliação e consultoria independentes para melhorar riscos, controles e governança. A auditoria não substitui as decisões e responsabilidades da alta administração. O **art. 19** prevê programa de integridade estruturado em apoio da alta administração, unidade responsável, gestão de riscos de integridade e monitoramento contínuo. Seu objetivo é prevenir, detectar, punir e remediar fraudes e corrupção no âmbito de aplicação do decreto.
+
+**Itens C/E autorais:** (1) “O Decreto nº 9.203/2017 exige controles internos máximos, independentemente do risco e do custo.” **Errado.** O art. 17, III, prevê proporcionalidade e custo-benefício. (2) “A auditoria interna substitui a alta administração na gestão dos riscos, conforme o art. 18.” **Errado.** A auditoria realiza avaliação e consultoria; a gestão dos riscos permanece com a administração. (3) “O programa de integridade federal do art. 19 envolve comprometimento da alta administração, unidade responsável, riscos e monitoramento.” **Certo.** Esses são os quatro eixos do dispositivo.
 
 ## Accountability
 
-**Accountability** é conceito mais amplo do que transparência. Envolve obrigação de prestar contas, justificar decisões, assumir responsabilidade e sujeitar-se a mecanismos de responsabilização.
+**Accountability** envolve a exigência de **informar e justificar decisões** e a possibilidade de **cobrar consequências** dos responsáveis pelos atos, conforme os procedimentos legais. A transparência permite conhecer dados, mas a publicação de uma planilha não substitui respostas a questionamentos, correção de falhas nem responsabilização quando cabível.
 
-Transparência fornece informação e visibilidade; é condição importante para accountability, mas não garante sozinha que agentes serão responsabilizados.
+**Exemplo:** publicar gastos de um contrato é transparência; explicar as razões da escolha é prestação de contas; submeter eventual irregularidade à apuração e às consequências legais é responsabilização. Um resultado negativo não significa culpa automática. O **art. 3º, V e VI, do Decreto nº 9.203/2017** enumera prestação de contas e responsabilidade, e transparência como princípios distintos.
 
 > [!WARNING]
 > **Transparência ≠ accountability.** Publicar dados sem mecanismos de resposta, justificativa e responsabilização não esgota accountability.
 
 ## Referencial do TCU
 
-A 3ª edição do **Referencial Básico de Governança Organizacional** do TCU, aprovada pela Portaria-TCU nº 170/2020 e vigente, também estrutura governança organizacional em práticas de **liderança, estratégia e controle**, pelas quais se avalia situação e demandas, direciona atuação e monitora funcionamento para aumentar as chances de entrega de bons resultados aos cidadãos.
+A **3ª edição do Referencial Básico de Governança Organizacional**, publicada em 2020 pelo **Tribunal de Contas da União (TCU)** e aprovada pela **Portaria-TCU nº 170/2020**, orienta boas práticas e serve de referência às ações de controle do tribunal. Também organiza a governança em **liderança, estratégia e controle**, mas detalha práticas próprias, como definir responsabilidades, promover a estratégia, acompanhar funções de gestão e prestar contas.
 
-O referencial dialoga com o Decreto nº 9.203/2017, mas não deve ser tratado como se cada formulação do TCU fosse texto literal do Decreto.
+O referencial permite diagnosticar instituições que criam comitês sem monitorar resultados ou que recolhem indicadores sem definir quem corrigirá os problemas. **Orientação técnica do TCU, regra do decreto federal e decisão institucional da Câmara são fontes distintas**: o referencial não transforma todas as suas recomendações em comandos legais internos da Câmara.
 
 ## Governança e partes interessadas
 
-Boa governança considera necessidades legítimas das partes interessadas e cria mecanismos de decisão, transparência e monitoramento. Isso não significa que toda demanda de stakeholder deva ser atendida: interesses podem conflitar e precisam ser avaliados à luz do interesse público, objetivos, riscos e legalidade.
+**Partes interessadas** são pessoas e grupos afetados pelas decisões ou capazes de influenciá-las: cidadãos, servidores, organizações sociais e órgãos de controle, conforme o contexto. A participação ajuda a detectar necessidades que os indicadores internos não revelam, mas **consulta pública não transfere automaticamente a competência de decisão** para os participantes.
+
+**Exemplo:** usuários pedem acesso mais simples a documentos e a equipe jurídica exige preservar informações obrigatórias. A governança deve justificar uma solução que concilie transparência, acessibilidade, direitos e custos, explicar o que acolheu e monitorar as consequências. O interesse de um grupo não se confunde com o interesse público de todos os afetados.
 
 ## Como a banca cobra
 
@@ -251,7 +281,7 @@ FGV e Cebraspe exploram especialmente:
 - controle como fim em si mesmo;
 - governança tratada como competência exclusiva de unidade de controle ou auditoria.
 
-Em editais recentes do Cebraspe, governança pública aparece junto de gestão por resultados, transparência, integridade, riscos e mecanismos de accountability, o que torna essas fronteiras especialmente úteis.
+Para um item C/E, o critério é reconhecer **a fonte e a função**: um modelo de Moore não é redação do decreto; publicar dados não comprova responsabilização; e monitorar produtos não prova impacto causal. Também não se deve aplicar automaticamente um ato do Executivo federal à Câmara.
 
 ## Relações com outros temas
 
@@ -279,16 +309,13 @@ Em editais recentes do Cebraspe, governança pública aparece junto de gestão p
 
 **“Segundo o Decreto nº 9.203/2017, liderança, estratégia e controle são mecanismos da governança pública.”** Correto.
 
-## Heurísticas
+## Síntese para aplicar em casos
 
-- **Governança = avaliar, direcionar, monitorar.**
-- **LEC = liderança, estratégia, controle.**
-- **Gestão = executar sob a direção da governança.**
-- **Governabilidade = condições políticas/institucionais.**
-- **Transparência mostra; accountability cobra explicação e responsabilidade.**
-- **Controle proporcional ao risco, não controle máximo a qualquer custo.**
+Antes de classificar um exemplo, identifique **quem decide**, **quem executa**, **quem monitora riscos**, **quem responde por resultados** e **que evidências demonstram o benefício público**. Em seguida, verifique se a afirmação reproduz uma norma, um referencial técnico ou um modelo acadêmico.
 
 ## Fontes
 
-- Decreto nº 9.203, de 22 de novembro de 2017, especialmente arts. 2º a 6º e 17.
-- Tribunal de Contas da União. *Referencial Básico de Governança Organizacional para organizações públicas e outros entes jurisdicionados ao TCU*, 3ª edição, 2020, aprovado pela Portaria-TCU nº 170/2020.
+- [Decreto nº 9.203/2017, redação atualizada, arts. 1º a 6º e 17 a 19](https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html): política de governança do Executivo federal, definições, princípios, diretrizes, mecanismos, riscos, auditoria e integridade. Considerar alterações posteriores, inclusive do Decreto nº 9.901/2019.
+- [TCU, Referencial Básico de Governança Organizacional, 3ª edição, e Portaria-TCU nº 170/2020](https://pesquisa.apps.tcu.gov.br/documento/norma/1273%252F2015/%2520/score%2520desc/1): orientação técnica utilizada em ações de controle e melhoria de processos.
+- Mark H. Moore, *Creating Public Value: Strategic Management in Government* (1995); [Moore, *On Creating Public Value*](https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/programs/cri/files/workingpaper_3_moore_khagram.pdf): triângulo estratégico e suas três dimensões.
+- [Ipea/Casa Civil, Guia prático de análise ex ante](https://repositorio.ipea.gov.br/handle/11058/8285) e [Guia prático de análise ex post](https://repositorio.ipea.gov.br/entities/book/61a5b71e-5257-46bf-8670-515bfcd381b6): cadeia lógica, resultados e análise de impacto.

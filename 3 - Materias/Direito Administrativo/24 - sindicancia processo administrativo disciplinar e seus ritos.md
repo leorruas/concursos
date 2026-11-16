@@ -147,7 +147,7 @@ Apreciada a defesa, a comissão elaborará **relatório minucioso**, onde resumi
 
 ---
 
-## 4. Fase de julgamento e vícios processuais
+## 4. Fase de julgamento e vícios sanáveis
 
 Recebido o processo disciplinar com o relatório da comissão, a autoridade julgadora proferirá a sua decisão no prazo de **20 (vinte) dias** (art. 167).
 

@@ -7,8 +7,8 @@ subjectId: "direito-administrativo"
 topicId: "poderes-administrativos"
 trackId: "direito-administrativo"
 created: "2026-11-09"
-updated: "2026-11-09"
-revision: 1
+updated: "2026-11-16"
+revision: 2
 status: "published"
 confidenceLevel: "high"
 importanceLevel: "critical"
@@ -21,15 +21,15 @@ reviewedBy: "Auditoria Editorial e Dogmática"
 
 # Poder hierárquico e poder disciplinar: prerrogativas, limites, distinções e controle
 
-Os poderes administrativos são prerrogativas instrumentais conferidas pelo ordenamento jurídico aos agentes públicos para a realização dos fins de interesse coletivo tutelados pelo Estado. Não consubstanciam privilégios pessoais, configurando verdadeiros **poderes-deveres** de agir. Entre essas prerrogativas internas da organização administrativa, destacam-se o **poder hierárquico** e o **poder disciplinar**.
+Imagine que um diretor distribua tarefas aos servidores de seu departamento e, depois, apure uma infração funcional. No primeiro momento exerce **poder hierárquico**: organiza e dirige o serviço. No segundo, exerce **poder disciplinar**: apura uma falta e, se comprovada, aplica a sanção prevista em lei. Ambos são poderes-deveres destinados à atuação pública e sujeitos a controle.
 
-Nas provas formuladas pelo Cebraspe para a Câmara dos Deputados, a distinção dogmática entre as manifestações da hierarquia (dar ordens, fiscalizar, delegar e avocar) e da disciplina (apurar faltas e aplicar sanções), a fronteira crítica entre a supremacia especial (poder disciplinar) e a supremacia geral (poder de polícia), bem como os limites da obediência hierárquica e a inadmissibilidade de hierarquia entre a Administração Direta e a Indireta, representam conteúdos de alta frequência.
+O critério decisivo é a **relação jurídica e a finalidade**. Organizar trabalho, distribuir competências e revisar atos de subordinados envolve hierarquia. Investigar e sancionar infração funcional envolve disciplina. A aplicação de sanções contratuais a empresas, por sua vez, exige atenção ao regime legal próprio e à classificação doutrinária, sem presumir subordinação hierárquica da contratada.
 
 ---
 
 ## 1. O poder hierárquico: conceito, escopo e manifestações estruturais
 
-O **poder hierárquico** é a prerrogativa conferida à Administração Pública para estruturar, organizar, coordenar e escalonar internamente os seus órgãos e a atuação de seus agentes, estabelecendo uma relação jurídica de subordinação e comando.
+O **poder hierárquico** organiza o funcionamento de órgãos e agentes subordinados dentro de uma estrutura administrativa. Inclui distribuir tarefas, orientar, fiscalizar e, nos limites da lei, rever decisões. **Delegação de competência**, porém, também pode ocorrer **sem hierarquia**, enquanto a **avocação** exige vínculo hierárquico e justificativa excepcional, como dispõem os arts. 12 a 15 da **Lei nº 9.784/1999**, que regula o processo administrativo federal.
 
 ```mermaid
 flowchart TD
@@ -41,36 +41,36 @@ flowchart TD
     
     PH --> FAC1["1. Dar Ordens<br>(Imposição de conduta funcional aos subordinados)"]:::criterio
     PH --> FAC2["2. Fiscalizar Atos<br>(Controle permanente de legalidade e mérito)"]:::criterio
-    PH --> FAC3["3. Delegar e Avocar<br>(Distribuição dinâmica de competências)"]:::criterio
-    PH --> FAC4["4. Rever Atos<br>(Autotutela: anulação de ilegais e revogação de inoportunos)"]:::criterio
+    PH --> FAC3["3. Delegar e Avocar<br>(Delegar pode ocorrer sem hierarquia; avocar exige superioridade)"]:::criterio
+    PH --> FAC4["4. Rever Atos<br>(Controle de legalidade e, quando cabível, do mérito)"]:::criterio
     PH --> FAC5["5. Dirimir Conflitos<br>(Solução de disputas de atribuição entre subordinados)"]:::criterio
     
-    PH -. "Limites Inafastáveis" .-> LIM["NÃO HÁ HIERARQUIA:<br>1. Entre Administração Direta e Indireta (Apenas Tutela/Supervisão)<br>2. Em funções jurisdicionais, legislativas ou consultivas atípicas<br>3. Perante ordens MANIFESTAMENTE ILEGAIS (Dever de desobediência)"]:::raiz
+    PH -. "Limites" .-> LIM["Sem hierarquia entre ministério e autarquia<br>Funções jurisdicionais têm independência decisória<br>Ordens manifestamente ilegais não obrigam"]:::raiz
 ```
 
 ### 1.1 As cinco faculdades decorrentes do poder hierárquico
 
-Do poder hierárquico decorrem competências administrativas instrumentais vinculantes:
-1. **Poder de comando (dar ordens):** faculdade de expedir instruções de serviço, memorandos, circulares e ordens concretas aos subordinados a respeito da execução de suas atribuições;
-2. **Poder de fiscalização:** controle contínuo exercido pela autoridade superior sobre a conduta e os atos praticados pelos órgãos e agentes inferiores, velando pelo cumprimento da lei e das metas institucionais;
-3. **Poder de revisão (autotutela hierárquica):** competência para anular atos ilegais praticados pelo subordinado (efeito *ex tunc*) ou revogá-los por razões supervenientes de conveniência e oportunidade administrativa (efeito *ex nunc*);
-4. **Poder de delegação e avocação:** transferência precária de competência a subordinados (delegação vertical) ou atração excepcional e temporária de competência do subordinado pelo superior (avocação);
-5. **Poder de dirimir conflitos de competência:** pacificação de controvérsias de atribuição surgidas entre órgãos ou servidores submetidos ao mesmo comando hierárquico superior.
+Entre as manifestações da organização hierárquica estão:
+1. **Comando:** a chefia dirige a execução de tarefas legais. Instruções e ordens de serviço podem expressar decisões; um memorando ou ofício pode servir apenas para comunicá-las;
+2. **Fiscalização:** o superior acompanha a legalidade e a execução das atribuições, sem dispensar as garantias dos agentes;
+3. **Revisão:** nas competências legalmente previstas, a autoridade pode invalidar ato ilegal ou revogar ato cuja manutenção deixou de ser conveniente. **Anulação** costuma retroagir (*ex tunc*), ressalvados limites de segurança jurídica; **revogação** produz efeitos para o futuro (*ex nunc*), sem desfazer direitos adquiridos;
+4. **Delegação e avocação:** **delegação** é atribuição do exercício de parte da competência a outro órgão ou titular, **ainda que não seja subordinado**, quando a lei permitir (Lei nº 9.784/1999, art. 12). O art. 13 proíbe delegar atos normativos, decisões de recursos e competências exclusivas; o art. 14 exige publicidade do ato, delimitação dos poderes, duração e objetivos e permite sua revogação. **Avocação**, ao contrário, é excepcional, temporária, motivada e recai sobre competência de órgão **hierarquicamente inferior** (art. 15);
+5. **Solução de conflitos de atribuição:** quando os órgãos se subordinam à mesma autoridade, esta pode definir a atuação que cabe a cada um conforme a lei. Nem toda controvérsia de competência pode ser resolvida livremente pela chefia.
 
 ### 1.2 Limites dogmáticos do poder hierárquico
 
 O Cebraspe explora com rigor as situações jurídicas em que o poder hierárquico **não existe ou não opera**:
 
-- **Inexistência de hierarquia entre a Administração Direta e a Indireta:** entre um Ministério da União e uma autarquia federal (e.g., Anatel, Ibama, INSS) não existe relação de subordinação hierárquica. O vínculo que os une é de **vinculação administrativa** (tutela administrativa ou supervisão ministerial), restrito aos limites expressos de controle finalístico previstos em lei;
-- **Inexistência de hierarquia no exercício de funções típicas constitucionais:** os juízes e membros do Ministério Público gozam de independência funcional no exercício da jurisdição. Não há hierarquia jurisdicional entre um juiz de primeira instância e os desembargadores ou ministros dos tribunais superiores (há apenas hierarquia funcional-recursal);
-- **Autonomia técnica e deveres hierárquicos:** a emissão de opinião jurídica ou técnica deve observar deveres de fundamentação e o regime do agente. O art. 133 da Constituição trata da inviolabilidade profissional **do advogado nos limites da lei** e não assegura imunidade hierárquica universal a todo parecerista ou consultor. Ver [[3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista|pareceres administrativos]];
-- **O dever de desobediência a ordens manifestamente ilegais:** nos termos do art. 116, IV, da Lei nº 8.112/1990, é dever do servidor público *"cumprir as ordens superiores, exceto quando manifestamente ilegais"*. A ordem manifestamente ilegal não obriga o subordinado. Eventual responsabilidade pela execução exige examinar a própria conduta, seus requisitos e o nexo causal, sem solidariedade automática em todas as esferas.
+- **Administração Direta versus Indireta:** um ministério e uma autarquia vinculada são pessoas jurídicas distintas; há **tutela ou supervisão finalística** conforme os poderes previstos em lei, **não comando hierárquico geral**. O **Decreto-Lei nº 200/1967**, que organiza a Administração Federal, trata da supervisão ministerial nos arts. 19 a 26. Supervisão pode conter instrumentos específicos de controle, mas não autoriza avocar competência exclusiva da autarquia como se fosse departamento do ministério;
+- **Funções independentes e atividades administrativas:** magistrados têm independência para julgar; integrantes do Ministério Público têm independência funcional em sua atuação constitucional, **mas o Ministério Público não exerce jurisdição**. Há revisão por recursos e competências próprias sem que o tribunal possa dar ordens para um juiz decidir conforme preferência pessoal. **Judiciário, Legislativo e Ministério Público possuem estruturas administrativas**, nas quais podem existir chefias, servidores e hierarquia para tarefas de gestão;
+- **Autonomia técnica:** parecerista pode ter dever de justificar sua análise e garantias profissionais específicas. O **art. 133 da Constituição Federal de 1988** protege a atuação do advogado nos limites da lei, **não concede independência funcional genérica a todos os consultores**. Ver [[3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista|parecer administrativo]];
+- **Ordens manifestamente ilegais:** a **Lei nº 8.112/1990**, regime jurídico dos servidores civis da União, determina no art. 116, IV, que o servidor cumpra ordens superiores **exceto quando manifestamente ilegais**. A simples alegação de ordem superior não torna lícito executar determinação claramente contrária à lei. Eventual responsabilização depende de apuração da conduta, dolo ou culpa conforme o regime aplicável e nexo causal, sem presunção de solidariedade civil, penal e administrativa.
 
 ---
 
 ## 2. O poder disciplinar: conceito, fundamento e o regime da supremacia especial
 
-O **poder disciplinar** é a prerrogativa estatal de apurar infrações funcionais e aplicar as correspondentes sanções administrativas àqueles sujeitos a uma **relação jurídica especial com o Estado**.
+O **poder disciplinar** permite investigar faltas funcionais e aplicar, após procedimento adequado, as penalidades que a lei prevê para agentes submetidos a regime funcional. Em sentido doutrinário mais amplo, também se utiliza a expressão para certas sanções a pessoas com **vínculo especial** com o Estado, como contratados, embora a Lei nº 14.133/2021 estabeleça um regime próprio de **sanções administrativas em licitações e contratos** (arts. 155 a 158). Não há relação hierárquica entre Administração e empresa contratada.
 
 ```mermaid
 flowchart TD
@@ -81,24 +81,24 @@ flowchart TD
     PD["Poder Disciplinar<br>(Sanções sob Vínculo Jurídico Especial)"]:::raiz
     
     PD --> SERV["1. Servidores Públicos Estatutários<br>(Infrações à Lei nº 8.112/1990 apuradas em PAD)"]:::criterio
-    PD --> CONT["2. Particulares Contratados pelo Estado<br>(Sanções da Lei nº 14.133/2021 por inadimplemento contratual)"]:::criterio
-    PD --> ALUN["3. Usuários em Situação Especial<br>(e.g., Alunos de escola pública ou reeducandos em presídios)"]:::criterio
+    PD --> CONT["2. Licitantes ou contratados<br>(Sanções administrativas com regime legal próprio)"]:::criterio
+    PD --> ALUN["3. Relações especiais<br>(Disciplina conforme norma de cada serviço)"]:::criterio
     
-    PD -. "Conexão Teórica" .-> HIER["Decorre do Poder Hierárquico?<br>• Em relação a servidores: SIM (disciplina interna)<br>• Em relação a contratados: NÃO (vínculo contratual sem hierarquia)"]:::raiz
+    PD -. "Diferença" .-> HIER["Hierarquia dirige trabalho interno<br>Sanção exige infração, competência e procedimento"]:::raiz
 ```
 
 ### 2.1 Supremacia especial versus supremacia geral
 
-A distinção fundamental para gabaritar questões do Cebraspe reside na natureza do liame que liga o indivíduo ao Poder Público:
+A distinção doutrinária depende do **vínculo jurídico** e da **fonte legal da obrigação**:
 
-1. **Supremacia especial (Poder Disciplinar):** incide exclusivamente sobre indivíduos que possuem um **vínculo jurídico específico, individualizado e prévio com a Administração Pública** (servidores estatutários, empregados públicos, delegatários de serviços, concessionárias e empresas privadas contratadas para obras/serviços públicos). A sanção decorre do inadimplemento desse regime especial de sujeição;
-2. **Supremacia geral (Poder de Polícia):** incide sobre a **coletividade indeterminada de particulares**, independentemente de qualquer vínculo jurídico prévio ou voluntário. Toda a sociedade submete-se ao poder de polícia em razão da primazia do interesse público e da soberania estatal (e.g., aplicação de multa de trânsito ou interdição sanitária de um restaurante comercial).
+1. **Relação especial de sujeição:** deveres surgem do regime funcional, contratual ou institucional específico. Servidor pode cometer infração disciplinar; licitante ou contratado pode responder pelas infrações tipificadas nos arts. 155 e 156 da **Lei nº 14.133/2021**, que disciplina licitações e contratos administrativos. **O regime e a competência sancionadora dependem da lei específica**; o vínculo não permite criar sanções livremente;
+2. **Sujeição geral ao poder de polícia:** o Estado condiciona atividades de particulares para proteger interesses públicos, mesmo sem contrato ou relação funcional com eles. Exemplo: multa de trânsito baseada em infração legal. O **art. 78 do Código Tributário Nacional (Lei nº 5.172/1966)** define poder de polícia como atividade administrativa que limita ou disciplina direitos, interesses e liberdades por razões de interesse público. A finalidade de uma interdição sanitária pode ser preventiva, e não punitiva.
 
 ### 2.2 Vinculação e discricionariedade no poder disciplinar
 
 O poder disciplinar não é puramente vinculado nem amplamente discricionário:
-- **Aspecto estritamente vinculado:** o **dever de instaurar o processo disciplinar** diante da notícia de falta funcional é imperativo e obrigatório (art. 143 da Lei nº 8.112/1990); a espécie da pena para faltas graves cominadas na lei (e.g., demissão no art. 132) também é vinculada;
-- **Aspecto discricionário regulado:** a autoridade dispõe de margem de dosimetria na fixação do prazo de suspensão (entre 1 e 90 dias, art. 130) e na valoração de atenuantes, agravantes, danos causados e antecedentes do servidor (art. 128).
+- **Dever de apurar:** o **art. 143 da Lei nº 8.112/1990** obriga a autoridade a promover a apuração imediata de irregularidade de que tome ciência. Isso não dispensa avaliação inicial dos elementos disponíveis nem implica **abrir PAD formal para qualquer notícia sem indícios mínimos**. A penalidade exige infração, rito e competência legais; hipóteses de demissão estão no art. 132;
+- **Dosimetria regrada:** o **art. 128 da Lei nº 8.112/1990** exige considerar natureza e gravidade da infração, danos, agravantes, atenuantes e antecedentes. A suspensão, limitada pelo art. 130 a **90 dias**, não permite escolher pena ao acaso. O art. 5º, LIV e LV, da Constituição exige devido processo, contraditório e ampla defesa.
 
 ---
 
@@ -109,10 +109,10 @@ A tabela a seguir sistematiza as fronteiras dogmáticas exigidas em provas:
 | Critério de Comparação | Poder Hierárquico | Poder Disciplinar |
 | :--- | :--- | :--- |
 | **Finalidade Essencial** | Estruturação, coordenação, divisão de tarefas e comando da máquina administrativa interna. | Punição, apuração e repressão a infrações de agentes e pessoas submetidas a vínculo especial. |
-| **Destinatários** | Exclusivamente órgãos e agentes **internos** subordinados na mesma pessoa jurídica. | Agentes públicos e particulares que ostentem **vínculo especial** (contratados, concessionárias). |
-| **Existência de Subordinação** | Indispensável: pressupõe necessariamente relação vertical de superior e inferior hierárquico. | Não indispensável: na punição a terceiros contratados (Lei nº 14.133/2021) não há relação hierárquica. |
-| **Instrumentos de Atuação** | Ordens de serviço, instruções, delegação, avocação e revisão de decisões. | Abertura de sindicância, PAD, aplicação de advertência, suspensão, demissão e multas contratuais. |
-| **Controle de Mérito** | Amplo: o superior hierárquico pode rever legalidade e o mérito (oportunidade e conveniência). | Restrito: o controle do ato punitivo pauta-se pela legalidade, proporcionalidade e devido processo legal. |
+| **Destinatários** | Órgãos e agentes sujeitos à subordinação; **delegação pode alcançar não subordinados**, por fundamento legal. | Agentes públicos em regime funcional; em doutrina mais ampla, pessoas sob vínculo especial, com sanções próprias em cada lei. |
+| **Existência de Subordinação** | O comando hierárquico pressupõe subordinação. **Delegar competência não a pressupõe** (Lei nº 9.784/1999, art. 12); avocação sim (art. 15). | A apuração disciplinar de servidores decorre de vínculo funcional; sanções contratuais não pressupõem hierarquia sobre a empresa. |
+| **Instrumentos de Atuação** | Ordens de serviço, fiscalização, revisão e distribuição legal de competências. | Sindicância e PAD no regime funcional; apuração e sanções específicas em regime contratual. |
+| **Controle e limites** | Revisão de legalidade e de mérito **quando a competência e a natureza do ato permitem**. | Tipicidade legal, motivação, proporcionalidade, contraditório e ampla defesa no processo aplicável. |
 
 ---
 
@@ -128,28 +128,42 @@ A tabela a seguir sistematiza as fronteiras dogmáticas exigidas em provas:
 **2.** Em virtude do princípio da hierarquia administrativa, as ordens emanadas de superior hierárquico devem ser rigorosamente cumpridas pelo servidor público subordinado, ainda que tais determinações sejam manifestamente contrárias à lei expressa, cabendo-lhe ressalvar sua discordância após a execução do ato.
 
 > **Gabarito: ERRADO**  
-> **Comentário:** O ordenamento jurídico brasileiro consagra o dever de desobediência a ordens manifestamente ilegais. Conforme o art. 116, IV, da Lei nº 8.112/1990, é dever funcional cumprir ordens superiores, **exceto quando manifestamente ilegais**. O cumprimento de ordem flagrantemente criminosa ou ilícita enseja a responsabilização solidária do subordinado nas esferas administrativa, civil e criminal.
+> **Comentário:** O ordenamento jurídico brasileiro consagra o dever de desobediência a ordens manifestamente ilegais. Conforme o art. 116, IV, da Lei nº 8.112/1990, é dever funcional cumprir ordens superiores, **exceto quando manifestamente ilegais**. Executar ordem manifestamente ilegal pode gerar responsabilidade **pessoal**, conforme conduta, elemento subjetivo e nexo, mas não há solidariedade automática nas três esferas.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **3.** O poder hierárquico confere ao Ministério supervisor a prerrogativa de expedir ordens imperativas de natureza finalística aos dirigentes de autarquias a ele vinculadas, inclusive com a possibilidade de avocar competências exclusivas destas.
 
 > **Gabarito: ERRADO**  
-> **Comentário:** Entre a Administração Direta (Ministério) e as entidades da Administração Indireta (Autarquias) **não existe relação de hierarquia ou subordinação**. O controle existente é de mera tutela administrativa ou supervisão ministerial, restrito aos limites finalísticos previstos em lei. Por conseguinte, é juridicamente impossível ao Ministério dar ordens hierárquicas ou avocar competências de dirigentes de autarquias.
+> **Comentário:** Entre a Administração Direta (Ministério) e as entidades da Administração Indireta (Autarquias) **não existe relação de hierarquia ou subordinação**. O controle existente é de mera tutela administrativa ou supervisão ministerial, restrito aos limites finalísticos previstos em lei. Por isso, o ministério não pode **avocar como superior hierárquico** competências da autarquia. A lei pode atribuir instrumentos próprios de supervisão e controle finalístico, sem converter a entidade em órgão subordinado.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **4.** Ao tomar conhecimento de suposta irregularidade funcional praticada por servidor subordinado, a autoridade competente dispõe de margem discricionária para decidir pela conveniência ou não da instauração de procedimento apuratório disciplinar.
 
 > **Gabarito: ERRADO**  
-> **Comentário:** O exercício do poder disciplinar quanto à deflagração da apuração é ato **estritamente vinculado**. Nos termos do art. 143 da Lei nº 8.112/1990, a autoridade que tiver ciência de irregularidade no serviço público é **obrigada a promover a sua apuração imediata**, mediante sindicância ou processo administrativo disciplinar, e deve observar o dever de apuração funcional. **A omissão pode ensejar responsabilização conforme seus elementos concretos**, mas a configuração de condescendência criminosa (art. 320 do Código Penal) e de improbidade administrativa depende dos requisitos de cada tipo, incluindo o elemento subjetivo pertinente. A omissão, isoladamente, não comprova automaticamente ambos os ilícitos.
+> **Comentário:** O art. 143 da Lei nº 8.112/1990 impõe **dever de promover apuração** da irregularidade funcional. A autoridade não pode simplesmente ignorá-la por conveniência, mas deve avaliar a notícia e os indícios para escolher o procedimento legal adequado; não se presume que toda notícia imponha abertura imediata de PAD completo. **A omissão pode ensejar responsabilização conforme seus elementos concretos**, mas a configuração de condescendência criminosa (art. 320 do Código Penal) e de improbidade administrativa depende dos requisitos de cada tipo, incluindo o elemento subjetivo pertinente. A omissão, isoladamente, não comprova automaticamente ambos os ilícitos.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **5.** Do poder hierárquico decorrem a faculdade de comando, a fiscalização permanente de conduta, a autotutela revisora de mérito e legalidade, bem como os institutos da delegação e da avocação temporária de competências.
 
 > **Gabarito: CERTO**  
-> **Comentário:** A assertiva enumera com exatidão as cinco manifestações clássicas do poder hierárquico consagradas pela doutrina de Direito Administrativo: dar ordens, fiscalizar atos, revisar atos por anulação ou revogação, delegar atribuições e avocar competências subordinadas nos termos da lei.
+> **Comentário:** A questão está correta como enumeração das **faculdades usuais de organização hierárquica**, com a ressalva de que **delegar não exige hierarquia** (Lei nº 9.784/1999, art. 12), enquanto **avocar exige** órgão inferior e motivação excepcional (art. 15). A revisão de atos também depende das competências legais e dos limites da autotutela.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **6.** A anulação de ato administrativo ilegal praticado por autoridade subordinada fundamenta-se simultaneamente no princípio da autotutela e no exercício do poder disciplinar da Administração.
 
 > **Gabarito: ERRADO**  
-> **Comentário:** A anulação ou revogação de atos praticados por subordinados decorre diretamente do **poder hierárquico** (controle e coordenação interna de atos administrativos) conjugado à autotutela (Súmulas 346 e 473 do STF). O **poder disciplinar** tem por finalidade exclusiva a aplicação de sanções punitivas e repressivas a pessoas que cometeram faltas funcionais, não se confundindo com o desfazimento ou anulação de atos administrativos objetivos.
+> **Comentário:** A anulação ou revogação de atos praticados por subordinados decorre diretamente do **poder hierárquico** (controle e coordenação interna de atos administrativos) conjugado à autotutela (Súmulas 346 e 473 do STF). O **poder disciplinar** rege a apuração de faltas e a imposição de sanções previstas em lei; **anular ato ilegal** é atividade de controle de legalidade/autotutela, e não sanção à pessoa que o praticou.
+
+
+## Relações e fontes normativas
+
+- [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Organização administrativa]]: ministério e autarquia possuem vínculo de supervisão, sem hierarquia geral.
+- [[3 - Materias/Direito Administrativo/04 - poderes administrativos|Poderes administrativos]]: quadro geral de poderes, sem repetir todos os casos de competência.
+- [[3 - Materias/Direito Administrativo/25 - lei 9784 processo administrativo federal competencia delegacao e avocacao|Delegação e avocação]]: regras detalhadas da Lei nº 9.784/1999.
+- [[3 - Materias/Direito Administrativo/24 - sindicancia processo administrativo disciplinar e seus ritos|Sindicância e PAD]]: procedimento e defesa.
+- [Lei nº 9.784/1999, processo administrativo federal](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm): arts. 12 a 15, delegação, limites, publicação e avocação.
+- [Lei nº 8.112/1990, regime dos servidores civis da União](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html): arts. 116, IV, 128, 130, 132 e 143, ordens superiores e disciplina.
+- [Lei nº 14.133/2021, Licitações e Contratos Administrativos](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm): arts. 155 a 158, sanções a licitantes e contratados.
+- [Decreto-Lei nº 200/1967, organização da Administração Federal](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm): arts. 19 a 26, supervisão ministerial.
+- [Lei nº 5.172/1966, Código Tributário Nacional](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm): art. 78, poder de polícia.
+- Constituição Federal de 1988, arts. 5º, LIV e LV, e 133: devido processo, defesa e limites da inviolabilidade do advogado.

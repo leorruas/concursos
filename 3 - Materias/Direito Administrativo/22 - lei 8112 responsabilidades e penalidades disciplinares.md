@@ -208,57 +208,71 @@ A **destituição de cargo em comissão** integra o rol do art. 127, V. Pelo **a
 
 ## 3. Prescrição da ação disciplinar (art. 142)
 
-O poder sancionador do Estado submete-se a prazos prescricionais peremptórios que visam conferir segurança jurídica às relações administrativas:
+**Prescrição disciplinar** significa perda, pelo decurso do tempo, da pretensão da Administração de punir uma infração. **Não** deve ser confundida com o **cancelamento do registro de sanção já aplicada** do art. 131 (três ou cinco anos de efetivo exercício sem nova infração).
+
+O **art. 142** apresenta os prazos por **espécie de infração e penalidade prevista**, e a **Súmula 635 do STJ** define quais acontecimentos iniciam, interrompem e fazem retomar a contagem.
 
 ```mermaid
-flowchart LR
-    classDef raiz fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#000000;
-    classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#000000;
-    classDef opcao fill:#fff8e7,stroke:#d4a373,stroke-width:1.5px,color:#000000;
+flowchart TD
+    classDef raiz fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#111111;
+    classDef criterio fill:#fff2d9,stroke:#b45309,stroke-width:1.5px,color:#3d2207;
+    classDef opcao fill:#fffbeb,stroke:#b68d58,stroke-width:1.5px,color:#1c1917;
 
-    TERMO["Termo Inicial da Prescrição<br>(Data em que o fato se tornou CONHECIDO<br>pela autoridade competente - Art. 142, § 1º)"]:::raiz
-    
-    TERMO --> DEM["5 ANOS<br>Demissão, Cassação e Destituição"]:::criterio
-    TERMO --> SUSP["2 ANOS<br>Suspensão"]:::criterio
-    TERMO --> ADV["180 DIAS<br>Advertência"]:::criterio
-    
-    DEM -. "Interrupção da Prescrição" .-> INT["Instauração de SINDICÂNCIA ou PAD<br>(Art. 142, § 3º)"]:::raiz
-    SUSP -. "Interrupção da Prescrição" .-> INT
-    ADV -. "Interrupção da Prescrição" .-> INT
-    
-    INT --> REIN["Súmula 635/STJ:<br>prazo volta a correr por inteiro<br>após 140 dias desde a interrupção"]:::opcao
+    A["Autoridade competente conhece os fatos"]:::raiz
+    A --> B["Prazo: 5 anos, 2 anos ou 180 dias"]:::criterio
+    B --> C["Primeira instauração válida: sindicância punitiva ou PAD"]:::criterio
+    C --> D["Prescrição interrompida"]:::criterio
+    D --> E["Decisão final, ou 140 dias desde interrupção"]:::opcao
+    E --> F["Se ainda sem decisão após 140 dias: prazo recomeça por inteiro"]:::opcao
 ```
 
 ### 3.1 Prazos prescricionais básicos (art. 142, I a III)
 
-A ação disciplinar prescreverá em:
-- **5 (cinco) anos:** quanto às infrações puníveis com **demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão**;
-- **2 (dois) anos:** quanto às infrações puníveis com **suspensão**;
-- **180 (cento e oitenta) dias:** quanto às infrações puníveis com **advertência**.
+| Infração punível com | Prazo da ação disciplinar |
+| --- | --- |
+| **Demissão**, cassação de aposentadoria/disponibilidade ou **destituição de cargo em comissão** | **5 anos** |
+| **Suspensão** | **2 anos** |
+| **Advertência** | **180 dias** |
+
+**Exemplo:** aplicar o prazo de dois anos a infração tipificada para **demissão** apenas porque o fato parece “leve” é trocar a tipificação por uma avaliação informal. É preciso localizar a conduta e a **sanção que a lei prevê**.
+
+**Exceção:** o art. 142, § 2º, permite prazo da **lei penal** se a mesma infração disciplinar também for legalmente tipificada como **crime**. Esse caso é tratado na seção 3.3.
 
 ### 3.2 Termo inicial da contagem prescricional (art. 142, § 1º)
 
-O prazo de prescrição começa a correr da data em que o fato se tornou **conhecido pela autoridade competente para a instauração do processo disciplinar** (e não da data em que a infração foi efetivamente cometida por ato isolado). A autoridade competente é aquela dotada de atribuição legal para deflagrar a apuração (ministro de Estado, dirigente máximo de órgão/entidade ou autoridade delegada).
+O ponto de partida é a data em que a **autoridade competente para instaurar apuração** toma **conhecimento do fato**, conforme a **Súmula 635 do STJ**. **Não é, por regra, a data em que ocorreu a infração**, nem a simples ciência informal por qualquer outro servidor sem competência para instaurar.
+
+**Caso:** um fato ocorre em janeiro. A autoridade que pode instaurar o procedimento toma conhecimento documentado em março. Na regra disciplinar explicada pela Súmula 635, o prazo começa com a ciência **dessa autoridade competente**, e não necessariamente em janeiro.
+
+**Pergunta de prova:** o conhecimento de um colega de trabalho, por si só, inicia o prazo prescricional? **Não**, segundo a formulação da Súmula 635. Examine quem tem atribuição legal para determinar a instauração.
 
 ### 3.3 Infrações que também configuram crime (art. 142, § 2º)
 
-Quando a **infração disciplinar também é tipificada como crime**, aplicam-se os prazos de prescrição previstos na legislação penal, conforme art. 142, § 2º, da Lei nº 8.112/1990. **Não é necessária instauração de inquérito policial, investigação criminal ou ação penal**. Esse entendimento foi firmado pela Primeira Seção do STJ no **MS 20.857/DF**, julgado em 22/05/2019, superando orientação anterior que exigia apuração criminal.
+Quando a infração administrativa **também constitui crime em lei**, o **§ 2º do art. 142** manda observar os **prazos prescricionais da lei penal**, conforme o enquadramento do fato. Isso se refere à **natureza da conduta**, não à preferência da Administração por prazo maior.
 
-A administração deve demonstrar o enquadramento penal da conduta descrita na apuração disciplinar; mera afirmação sem suporte fático e jurídico não basta. A independência das instâncias permite que a capitulação penal relevante para o prazo seja apreciada no processo disciplinar.
+O **STJ, MS 20.857/DF (2019)**, fixou que **não é necessária a existência de inquérito ou processo criminal** para aplicar esses prazos. A Administração ainda deve identificar de forma fundamentada a possível tipificação penal e seus requisitos; simplesmente denominar a falta “crime” não basta.
 
-**Exemplo:** um servidor pratica conduta disciplinar também tipificada como crime, mas nenhum inquérito é aberto. A ausência de investigação criminal **não afasta por si** a incidência do prazo penal. Se a conduta não corresponder a infração penal, aplica-se o prazo disciplinar próprio do art. 142.
+**Exemplo:** um servidor comete ato disciplinar que pode corresponder a crime previsto no Código Penal. Mesmo que o Ministério Público ainda não tenha denunciado o agente, a **ausência de ação penal não impede**, por si só, o uso do prazo penal, desde que o fato seja realmente capitulado também como crime. Se não for crime, aplica-se o prazo disciplinar correspondente.
 
-Fonte: [STJ, MS 20.857/DF, Primeira Seção, DJe 12/06/2019](https://scon.stj.jus.br/SCON/pesquisar.jsp?b=ACOR&fr=veja&i=1&livre=%28%27MS%27+INPATH%28CLAP%29+AND+%2720857%27+INPATH%28NUM%29%29+OR+%28%28%27MS+20857%27%29+INPATH%28SUCE%29%29).
+**Não confundir:** absolvição penal por falta de provas (art. 126) e **prazo penal de prescrição aplicável ao PAD** (art. 142, § 2º) respondem a perguntas diferentes. Uma trata de **responsabilidade**; a outra, de **tempo para punir**.
+
+Fonte: [STJ, MS 20.857/DF, Informativo 651](https://scon.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisarumaedicao&livre=%270651%27.cod.).
 
 ### 3.4 Interrupção da prescrição e reinício do prazo (art. 142, §§ 3º e 4º)
 
-O primeiro ato válido de instauração de **sindicância punitiva** ou de **processo administrativo disciplinar (PAD)** interrompe o prazo prescricional. A Súmula 635 do STJ fixa o momento de conhecimento da infração pela autoridade competente como início da contagem e determina o retorno da fluência **por inteiro após 140 dias desde a interrupção**.
+A **Súmula 635 do STJ** esclarece a interrupção prescricional:
 
-> **Súmula 635 do STJ, texto oficial:** “Os prazos prescricionais previstos no art. 142 da Lei n. 8.112/1990 iniciam-se na data em que a autoridade competente para a abertura do procedimento administrativo toma conhecimento do fato, interrompem-se com o primeiro ato de instauração válido - sindicância de caráter punitivo ou processo disciplinar - e voltam a fluir por inteiro, após decorridos 140 dias desde a interrupção.”
+- O **primeiro ato de instauração válido** de **sindicância punitiva** ou **processo administrativo disciplinar** interrompe a contagem. **Sindicância meramente investigativa** não deve ser tratada automaticamente como causa interruptiva.
+- A interrupção **não é eterna**: se a apuração demora, o prazo volta a correr **por inteiro após 140 dias** contados da interrupção, conforme a súmula.
+- A referência de **140 dias** corresponde à sequência usual do **PAD ordinário**: **60 dias de comissão + até 60 dias de prorrogação + 20 dias para julgamento** (arts. 152 e 167). São prazos do procedimento; eles **não substituem** o prazo prescricional de cinco anos, dois anos ou 180 dias.
+- **Se houve decisão final antes**, a relação entre interrupção e conclusão deve ser considerada no caso concreto; a súmula descreve o limite de retorno da contagem quando o prazo se exaure **sem decisão final**.
 
-O enunciado **não contém a expressão “80 dias para sindicância”**. Eventuais distinções de prazo feitas em julgados específicos devem ser identificadas e fundamentadas em separado, sem serem atribuídas à redação da súmula. Os **60 dias de duração inicial da comissão, até 60 de prorrogação e 20 dias para julgamento**, que explicam a referência de 140 dias no PAD ordinário, são prazos procedimentais diferentes do prazo prescricional de cinco, dois anos ou 180 dias, conforme a sanção (art. 142). O reinício após a interrupção não deve ser confundido com cessação automática do afastamento preventivo, disciplinado pelo art. 147.
+**Exemplo didático:** uma falta punível com advertência tem prazo prescricional de **180 dias**. Um PAD válido é instaurado enquanto o prazo ainda corre. A instauração interrompe o relógio; se **não houver decisão final** e transcorrerem **140 dias**, o prazo de **180 dias recomeça por inteiro**, conforme o regime da Súmula 635. O marco não é “80 dias de sindicância” nem “140 dias como prazo universal para qualquer sanção”.
 
-Fonte: [STJ, texto oficial da Súmula 635](https://scon.stj.jus.br/SCON/sumstj/doc.jsp?b=SUMU&i=1&l=10&livre=%22635%22.num.&operador=AND&ordenacao=-%40NUM&p=false).
+**Três relógios que a banca mistura:** (1) **prazo prescricional**, que pode ser 180 dias, dois ou cinco anos; (2) **prazo de procedimento**, que pode combinar 60 + 60 + 20 dias; (3) **prazo de cancelamento de registro**, três ou cinco anos **após a sanção**, nas condições do art. 131.
+
+Fonte: [STJ, Súmula nº 635, texto oficial](https://scon.stj.jus.br/SCON/sumstj/doc.jsp?b=SUMU&i=1&l=10&livre=%22635%22.num.&operador=AND&ordenacao=-%40NUM&p=false).
+
 
 ---
 

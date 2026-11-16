@@ -2687,13 +2687,16 @@
       "confusion": "Transparência passiva responde a uma solicitação.",
       "topic": "Acesso à informação",
       "subjectIds": [
-        "transparencia-ouvidoria"
+        "transparencia-ouvidoria",
+        "administracao-publica"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P2.2"
+        "P2.2",
+        "P1. 14.2.3 / Administração Pública / Transparência e proteção de dados"
       ],
       "note": {
         "articleId": "art-2ca37017208841b8",
@@ -2705,8 +2708,8 @@
         "locator": "Lei nº 12.527/2011, arts. 3º, 8º e 10; nota de transparência"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-16",
+      "revision": 2,
       "contrast": {
         "prompt": "Transparência ativa × passiva: o que distingue as duas?",
         "answer": "Ativa é divulgação sem solicitação; passiva é resposta a um pedido de acesso."
@@ -2721,13 +2724,16 @@
       "confusion": "Divulgação espontânea no portal é ativa.",
       "topic": "Acesso à informação",
       "subjectIds": [
-        "transparencia-ouvidoria"
+        "transparencia-ouvidoria",
+        "administracao-publica"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P2.2"
+        "P2.2",
+        "P1. 14.2.3 / Administração Pública / Transparência e proteção de dados"
       ],
       "note": {
         "articleId": "art-2ca37017208841b8",
@@ -2739,8 +2745,8 @@
         "locator": "Lei nº 12.527/2011, arts. 3º, 8º e 10; nota de transparência"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-16",
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Órgão publica contrato no portal e responde pedido de cópia. Qual parte caracteriza transparência passiva?",
@@ -2759,10 +2765,12 @@
         "administracao-publica"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P2.2"
+        "P2.2",
+        "P1. 14.2.3 / Administração Pública / Transparência e proteção de dados"
       ],
       "note": {
         "articleId": "art-2ca37017208841b8",
@@ -2774,8 +2782,8 @@
         "locator": "Lei nº 12.527/2011, arts. 3º, 8º e 10; nota de transparência"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 3,
+      "reviewedAt": "2026-11-16",
+      "revision": 4,
       "conceptIds": [],
       "contrast": {
         "prompt": "Portal disponibiliza gastos, mas a gestão não explica escolhas nem se sujeita a controle. A publicidade basta para accountability?",
@@ -2790,13 +2798,16 @@
       "confusion": "Dado de pessoa jurídica não se torna pessoal apenas por constar em cadastro.",
       "topic": "Proteção de dados",
       "subjectIds": [
-        "transparencia-ouvidoria"
+        "transparencia-ouvidoria",
+        "administracao-publica"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P2.2"
+        "P2.2",
+        "P1. 14.2.3 / Administração Pública / Transparência e proteção de dados"
       ],
       "note": {
         "articleId": "art-2ca37017208841b8",
@@ -2808,8 +2819,8 @@
         "locator": "Lei nº 13.709/2018, art. 5º, I e II"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-16",
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Número identificador de empregado aparece em cadastro de pessoa jurídica. É dado pessoal?",
@@ -2824,13 +2835,16 @@
       "confusion": "Dado sensível não é sinônimo de toda informação confidencial.",
       "topic": "Proteção de dados",
       "subjectIds": [
-        "transparencia-ouvidoria"
+        "transparencia-ouvidoria",
+        "administracao-publica"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P2.2"
+        "P2.2",
+        "P1. 14.2.3 / Administração Pública / Transparência e proteção de dados"
       ],
       "note": {
         "articleId": "art-2ca37017208841b8",
@@ -2842,8 +2856,8 @@
         "locator": "Lei nº 13.709/2018, art. 5º, I e II"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-16",
+      "revision": 3,
       "conceptIds": [],
       "contrast": {
         "prompt": "Salário e histórico de compras são sempre dados sensíveis na LGPD porque são privados?",

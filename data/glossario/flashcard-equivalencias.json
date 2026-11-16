@@ -217,6 +217,26 @@
     {
       "glossaryId": "glo-camara-perda-eficacia-mp",
       "cardId": "camara-mp-perda-eficacia-relacoes-juridicas"
+    },
+    {
+      "glossaryId": "glo-camara-transparencia-ativa",
+      "cardId": "transparencia-ativa"
+    },
+    {
+      "glossaryId": "glo-camara-transparencia-passiva",
+      "cardId": "transparencia-passiva"
+    },
+    {
+      "glossaryId": "glo-camara-accountability-transparencia",
+      "cardId": "accountability"
+    },
+    {
+      "glossaryId": "glo-camara-dado-pessoal-lgpd",
+      "cardId": "dado-pessoal"
+    },
+    {
+      "glossaryId": "glo-camara-dado-pessoal-sensivel-lgpd",
+      "cardId": "dado-sensivel"
     }
   ]
 }

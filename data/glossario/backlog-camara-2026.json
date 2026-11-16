@@ -731,6 +731,78 @@
       "examBlock": "Conhecimentos básicos",
       "contestId": "camara-2026",
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-accountability-transparencia",
+      "term": "Accountability",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-dado-pessoal-lgpd",
+      "term": "Dado pessoal",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-dado-pessoal-sensivel-lgpd",
+      "term": "Dado pessoal sensível",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-acesso-parcial-lai",
+      "term": "Acesso parcial à informação pública",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-prazo-resposta-lai",
+      "term": "Prazo de resposta ao pedido LAI",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-protecao-informacoes-pessoais-lai",
+      "term": "Proteção de informações pessoais na LAI",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-recursos-lai-camara",
+      "term": "Recurso de acesso à informação na Câmara",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-incidente-relevante-anpd",
+      "term": "Incidente de segurança com risco ou dano relevante",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-encarregado-lgpd",
+      "term": "Encarregado pelo tratamento de dados pessoais",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

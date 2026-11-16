@@ -297,6 +297,281 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-transparencia-ativa",
+      "term": "Transparência ativa",
+      "aliases": [],
+      "definition": "Divulgação pela Administração, independentemente de pedido, das informações de interesse coletivo ou geral, conforme o art. 8º da Lei de Acesso à Informação. Inclui despesas, contratos, estrutura e programas, observados os deveres de proteção legal.",
+      "contrast": "Transparência passiva começa com pedido específico de acesso. Publicar informação não afasta a exigência de formatos acessíveis, atualização, pesquisa e proteção de dados restritos.",
+      "cebraspeTrap": "Afirmar que basta publicar qualquer arquivo em imagem, sem pesquisa, atualização ou acessibilidade, para cumprir integralmente as exigências do art. 8º.",
+      "example": "A Câmara divulga despesas e contratos em seu portal, com mecanismos de busca, dados atualizados e resguardo dos trechos legalmente protegidos.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "LAI, art. 8º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-transparencia-passiva",
+      "term": "Transparência passiva",
+      "aliases": [],
+      "definition": "Atendimento ao pedido de acesso à informação apresentado pelo interessado ao órgão competente. O art. 10 da LAI veda exigir motivação pessoal; o art. 11 prevê acesso imediato quando possível ou resposta em até vinte dias, prorrogáveis justificadamente por dez.",
+      "contrast": "Transparência ativa decorre de divulgação espontânea. A ausência de obrigação de justificar o pedido não dispensa o órgão de fundamentar sua negativa e informar as vias recursais.",
+      "cebraspeTrap": "Concluir que a administração pode exigir do solicitante prova de interesse especial ou que vinte dias são prazo mínimo para fornecer informação já disponível.",
+      "example": "Uma pessoa pede à Câmara cópia de determinado contrato: a casa deve analisar o pedido e oferecer acesso ou justificar as restrições legalmente cabíveis.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "LAI, arts. 10 e 11",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-accountability-transparencia",
+      "term": "Accountability",
+      "aliases": [],
+      "definition": "Dever institucional de prestar contas, explicar escolhas e permitir controle e responsabilização dentro das competências legais, distinguindo informação publicada, justificativa das decisões e apuração de eventuais irregularidades.",
+      "contrast": "Transparência disponibiliza informações; accountability exige também explicações e condições de fiscalização e responsabilização. Controle social não é atribuição constitucional do órgão de controle externo.",
+      "cebraspeTrap": "Afirmar que a simples publicação mensal de planilhas garante prestação de contas efetiva e responsabilização automática dos agentes públicos.",
+      "example": "Uma unidade publica gastos, fundamenta escolhas e responde a fiscalização: informações, justificativas e responsabilidades são dimensões distintas do processo.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "LAI, arts. 3º e 8º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-dado-pessoal-lgpd",
+      "term": "Dado pessoal",
+      "aliases": [],
+      "definition": "Informação relacionada a pessoa natural identificada ou identificável, conforme o art. 5º, I, da LGPD. Abrange identificadores diretos e dados que, em conjunto com outras informações disponíveis, permitam reconhecer uma pessoa.",
+      "contrast": "Dado pessoal não é sinônimo de dado pessoal sensível. Informação pública também pode conter dado pessoal e precisa ter finalidade e hipótese de tratamento adequadas.",
+      "cebraspeTrap": "Concluir que matrícula funcional ou identificador de usuário deixa de ser dado pessoal apenas porque não inclui o nome por extenso.",
+      "example": "Uma planilha identifica servidor por matrícula associada ao cadastro institucional: a informação permite identificação e deve ser analisada sob a LGPD.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "LGPD, art. 5º, I",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-dado-pessoal-sensivel-lgpd",
+      "term": "Dado pessoal sensível",
+      "aliases": [],
+      "definition": "Dado pessoal que revela origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou organização das categorias legais, saúde, vida sexual, dados genéticos ou biométricos associados a pessoa natural, conforme art. 5º, II, da LGPD.",
+      "contrast": "CPF, salário ou endereço podem exigir proteção, mas não são automaticamente dados sensíveis. O tratamento de dados sensíveis depende das bases do art. 11, diferentes das bases gerais do art. 7º.",
+      "cebraspeTrap": "Afirmar que qualquer informação confidencial é sensível ou que o legítimo interesse do art. 7º serve, por si, como base para dados de saúde.",
+      "example": "Um diagnóstico médico ligado ao prontuário de pessoa identificável é sensível; o valor total de despesa pública não assume essa categoria só por constar no mesmo relatório.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "LGPD, arts. 5º, II, e 11",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-acesso-parcial-lai",
+      "term": "Acesso parcial à informação pública",
+      "aliases": [],
+      "definition": "Quando apenas parte de um documento público estiver legalmente protegida, a LAI assegura acesso à parte não sigilosa por certidão, extrato ou cópia com ocultação de trechos restritos, nos termos do art. 7º, § 2º.",
+      "contrast": "Ocultar trecho protegido é técnica de atendimento parcial; não é justificativa para negar o documento inteiro quando a separação é possível.",
+      "cebraspeTrap": "Afirmar que uma única célula com dado de saúde torna sigilosa toda uma planilha sobre gastos públicos, sem examinar separação de conteúdo.",
+      "example": "O órgão fornece valores e datas de contratos, ocultando apenas dados médicos identificáveis sem interesse público prevalente para divulgação.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "LAI, art. 7º, § 2º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-prazo-resposta-lai",
+      "term": "Prazo de resposta ao pedido LAI",
+      "aliases": [],
+      "definition": "O art. 11 da LAI determina acesso imediato à informação disponível. Se não for possível, prevê resposta em até vinte dias, prorrogáveis por dez dias com justificativa expressa e ciência do interessado.",
+      "contrast": "Prazos de resposta de vinte mais dez dias não são os prazos de classificação reservada, secreta e ultrassecreta nem o prazo de acesso do titular pela LGPD, art. 19.",
+      "cebraspeTrap": "Afirmar que o órgão pode aguardar vinte dias para responder qualquer pedido simples ou que a prorrogação é automática e dispensa justificativa.",
+      "example": "O interessado pede cópia de contrato já digitalizado: o acesso deve ser imediato se disponível, sem exigir aguardar o fim do prazo máximo.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "LAI, art. 11, caput e §§ 1º e 2º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-protecao-informacoes-pessoais-lai",
+      "term": "Proteção de informações pessoais na LAI",
+      "aliases": [],
+      "definition": "O art. 31 da LAI protege informações pessoais relacionadas à intimidade, vida privada, honra e imagem com restrição por até cem anos desde a produção, independente de classificação de sigilo, ressalvadas hipóteses legais de acesso.",
+      "contrast": "O limite de cem anos não é quarto grau de sigilo e não se aplica de modo automático a qualquer nome ou CPF presente em documento de interesse público.",
+      "cebraspeTrap": "Afirmar que valores de despesas públicas precisam permanecer ocultos por cem anos sempre que houver o nome de um servidor na planilha.",
+      "example": "Em relatório de fiscalização, dados de saúde identificáveis recebem proteção específica; valores públicos podem ser fornecidos com ocultação dos trechos protegidos.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "LAI, art. 31",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-recursos-lai-camara",
+      "term": "Recurso de acesso à informação na Câmara",
+      "aliases": [],
+      "definition": "Procedimento de contestação de negativa de acesso disciplinado pelo Ato da Mesa nº 45/2012, arts. 12 a 15, com vias próprias para matérias administrativas e legislativas e prazo de dez dias da ciência da decisão para recorrer.",
+      "contrast": "A CGU é instância recursal do Executivo federal nas hipóteses legais; ela não constitui terceira instância universal para negativas da Câmara dos Deputados.",
+      "cebraspeTrap": "Encaminhar automaticamente à CGU pedido de recurso contra informação legislativa negada por órgão da Câmara, ignorando o Ato da Mesa e as instâncias institucionais.",
+      "example": "Negativa de informação administrativa é levada à autoridade hierarquicamente superior; matéria legislativa segue as autoridades e colegiados definidos no ato.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Ato da Mesa nº 45/2012, arts. 12 a 15",
+          "url": "https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-incidente-relevante-anpd",
+      "term": "Incidente de segurança com risco ou dano relevante",
+      "aliases": [],
+      "definition": "Incidente confirmado que afete dados pessoais e possa produzir risco ou dano relevante aos titulares. A Resolução CD/ANPD nº 15/2024, art. 5º, exige possibilidade de lesão significativa e envolvimento de categoria especificada, como dados sensíveis, autenticação ou larga escala.",
+      "contrast": "Vulnerabilidade identificada sem ocorrência não é incidente confirmado. Nem todo incidente exige comunicação, mas todos os riscos devem ser analisados e tratados com medidas proporcionais.",
+      "cebraspeTrap": "Afirmar que qualquer erro técnico deve ser comunicado automaticamente ou que o controlador pode aguardar vinte dias úteis antes da primeira comunicação obrigatória.",
+      "example": "Exposição confirmada de senhas vinculadas a titulares pode demandar comunicação à ANPD e aos afetados no prazo geral de três dias úteis.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Resolução CD/ANPD nº 15/2024, arts. 3º a 10",
+          "url": "https://bibliotecadigital.mj.gov.br/bitstream/1/12879/2/RES_ANPD_2024_15.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-encarregado-lgpd",
+      "term": "Encarregado pelo tratamento de dados pessoais",
+      "aliases": [],
+      "definition": "Pessoa indicada para atuar como canal de comunicação entre agentes de tratamento, titulares e a ANPD, conforme LGPD art. 5º, VIII, com redação da Lei nº 15.352/2026; a indicação pelo controlador segue o art. 41 e as regras da Resolução CD/ANPD nº 18/2024.",
+      "contrast": "A redação de 2026 menciona controlador e operador na definição. A indicação por operador é facultativa segundo o art. 6º da resolução, enquanto o controlador tem dever legal sujeito às dispensas aplicáveis.",
+      "cebraspeTrap": "Concluir que a atualização da definição em 2026 tornou obrigatória a indicação de encarregado por todos os operadores sem observar o regulamento.",
+      "example": "A Câmara indica encarregado para orientar a instituição e receber comunicações sobre dados; a empresa operadora pode nomear encarregado por boa prática.",
+      "articleIds": [
+        "art-2ca37017208841b8"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "LGPD, arts. 5º, VIII, e 41",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

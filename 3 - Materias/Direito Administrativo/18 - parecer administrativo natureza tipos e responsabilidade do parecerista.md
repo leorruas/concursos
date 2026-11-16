@@ -33,16 +33,16 @@ flowchart TD
 
 ---
 
-## 1. Natureza Jurídica e Distinção Dogmática
+## Natureza Jurídica e Distinção Dogmática
 
-### 1.1. Parecer versus Decisão Administrativa
+### Parecer versus Decisão Administrativa
 Em regra, **quem emite parecer apresenta razões** e **quem possui competência legal profere a decisão**. Parecer obrigatório não significa, sozinho, parecer vinculante. O conteúdo e os efeitos dependem da norma que exige a consulta:
 - O parecer pode integrar a fundamentação da decisão se a autoridade o adota expressamente e a motivação for clara e acessível. É a **motivação por remissão (*aliunde* ou *per relationem*)**, admitida pelo **art. 50, § 1º, da Lei nº 9.784/1999**, que regula o processo administrativo federal. A autoridade continua responsável por sua decisão.
 - Um parecer **meramente opinativo**, sem efeito jurídico imediato sobre o interessado, em regra não é o ato impugnável diretamente por **mandado de segurança** (ação destinada a proteger direito líquido e certo contra ilegalidade ou abuso de poder). O controle costuma dirigir-se ao ato decisório que o adota. Contudo, se o parecer tiver efeito próprio e concreto, a análise da possibilidade de impugnação muda; simples homologação formal não basta para presumir esse efeito.
 
 ---
 
-## 2. Tipologia dos Pareceres Administrativos
+## Tipologia dos Pareceres Administrativos
 
 A classificação doutrinária abaixo ajuda a identificar **se consultar é obrigatório e se seguir a opinião é obrigatório**. O **MS 24.631/DF**, julgado pelo Supremo Tribunal Federal, é uma referência importante sobre o tema, mas a aplicação dos efeitos e a responsabilidade devem seguir cada norma e o caso concreto.
 
@@ -64,7 +64,7 @@ A consequência de consulta omitida deve ser examinada pela norma que a exige, p
 
 Fonte: [Lei 14.133/2021, art. 53](https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2021-04-01%3B14133%21art53).
 
-### 2.3. Parecer vinculante
+### Parecer vinculante
 Há eficácia vinculante quando a norma estabelece que a autoridade deve observar o entendimento. O alcance da obrigação depende da **fonte específica** e de suas condições de aprovação e publicação.
 
 **Exemplo AGU:** segundo o art. 40, § 1º, da LC nº 73/1993, o parecer do Advogado-Geral da União **aprovado pelo Presidente da República e publicado com o despacho presidencial** vincula a Administração Federal. Se aprovado, mas **não publicado**, obriga apenas as repartições interessadas a partir da ciência (§ 2º). Pareceres consultivos ou técnicos sem essas condições não adquirem automaticamente alcance geral.
@@ -93,27 +93,27 @@ flowchart TD
     C --> C2["Vinculação não gera<br/>solidariedade automática"]:::excecao
 ```
 
-### 3.1. A baliza do art. 28 da LINDB (Decreto-Lei nº 4.657/1942)
+### A baliza do art. 28 da LINDB (Decreto-Lei nº 4.657/1942)
 Incluído pela Lei nº 13.655/2018, o art. 28 da Lei de Introdução às Normas do Direito Brasileiro estabelece o regime geral de responsabilização dos agentes públicos:
 > *"O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de **dolo ou erro grosseiro**."*
 
 O Decreto nº 9.830/2019 (regulamentador da LINDB) define **erro grosseiro** como aquele manifesto, evidente e inescusável praticado com **culpa grave**, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia, violando padrão de conduta exigível de um profissional ordinariamente diligente.
 
-### 3.2. STF: natureza do parecer e apuração de responsabilidade
+### STF: natureza do parecer e apuração de responsabilidade
 Os mandados de segurança **MS 24.631/DF** e **MS 24.584/DF** são referências para distinguir emissão de opinião, consulta obrigatória e efeitos de parecer vinculante. A responsabilidade não pode ser inferida somente da classificação do documento.
 
 A análise deve verificar **(1)** se o parecer foi exigido, **(2)** se vinculava o ato, **(3)** o dever concreto do parecerista, **(4)** dolo ou erro grosseiro no regime da LINDB, **(5)** a participação causal no resultado e **(6)** qual órgão possui competência para apurar. Parecer motivado com interpretação jurídica defensável não configura, apenas pela divergência, ilícito imputável ao autor.
 
 O **art. 133 da Constituição Federal de 1988** protege o **advogado** por seus atos e manifestações no exercício da profissão, nos limites da lei. Isso não representa imunidade geral de qualquer consultor técnico nem afasta apuração de dolo ou erro grosseiro quando cabível.
 
-### 3.3. Tribunal de Contas da União: fundamento correto e limites
+### Tribunal de Contas da União: fundamento correto e limites
 O Tribunal de Contas da União pode examinar condutas de pareceristas no contexto de suas competências de controle, observando responsabilidade pessoal, dever funcional, dolo ou erro grosseiro, nexo e consequências concretas. A mera participação na emissão de parecer não demonstra solidariedade pelo ato de gestão.
 
 **A Súmula 222 do TCU não disciplina responsabilidade de pareceristas.** Seu objeto são decisões do Tribunal relativas à aplicação de normas gerais de licitação que devem ser observadas por administradores dos entes federativos. Para discutir eventual responsabilidade do parecerista, devem ser citados **acórdãos específicos sobre sua conduta**, em conjunto com a LINDB e o regime aplicável, sem atribuir essa tese à Súmula 222.
 
 Fonte primária: [TCU, Súmula 222](https://pesquisa.apps.tcu.gov.br/documento/sumula/%2A/NUMERO%253A222/DTRELEVANCIA%2520desc%252C%2520NUMEROINT%2520desc/0/sinonimos%253Dtrue).
 
-### 3.4. Lei nº 14.133/2021: controle de legalidade e representação
+### Lei nº 14.133/2021: controle de legalidade e representação
 O **art. 53** estabelece o controle prévio de legalidade por assessoramento jurídico, ressalvadas as **hipóteses de dispensa do § 5º**. O parecer deve apreciar elementos indispensáveis e explicitar os pressupostos de fato e direito (art. 53, § 1º, II).
 
 O **art. 10 da Lei nº 14.133/2021** trata da **representação, pela advocacia pública, de autoridades e servidores que participaram de procedimentos licitatórios ou contratuais**, quando precisem se defender por ato praticado **em estrita observância de orientação de parecer jurídico** elaborado conforme o art. 53, § 1º. Essa regra refere-se aos **participantes do procedimento**, não a uma defesa automática e irrestrita de qualquer parecerista. A representação ocorre **a critério do agente** e não se aplica quando constarem dos autos provas de atos ilícitos dolosos (art. 10, § 1º, II); também alcança quem já deixou a função (§ 2º). **O dispositivo não oferece representação automática e irrestrita a quem elaborou qualquer parecer.** A garantia depende dos pressupostos legais e do papel exercido no procedimento.

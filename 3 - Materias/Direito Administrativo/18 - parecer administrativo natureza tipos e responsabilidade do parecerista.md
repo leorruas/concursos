@@ -12,7 +12,7 @@ updated: 2026-11-16
 
 Um setor pretende contratar serviço de comunicação e consulta a assessoria jurídica sobre a minuta. A assessoria examina a legalidade e emite um **parecer**. Depois, a autoridade competente decide como prosseguir. Essa sequência mostra a diferença entre **opinar**, **consultar obrigatoriamente** e **decidir**, distinção que afeta tanto a validade do processo quanto a responsabilidade de cada agente.
 
-O parecer é, na classificação tradicional, **ato enunciativo**, porque contém opinião ou análise e, em regra, não ordena por si só a execução de uma medida. **Facultativo, obrigatório e vinculante** indicam efeitos distintos: a consulta pode ser dispensável ou exigida, e o conteúdo pode ou não obrigar a autoridade. A responsabilidade pessoal depende de conduta concreta, não do rótulo do parecer. O **art. 28 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), Decreto-Lei nº 4.657/1942**, estabelece responsabilidade pessoal do agente por decisões ou opiniões técnicas em casos de dolo ou erro grosseiro.
+O parecer é, na classificação tradicional, **ato enunciativo**, porque contém opinião ou análise e, em regra, não ordena por si só a execução de uma medida. **Facultativo, obrigatório e vinculante** indicam efeitos distintos: a consulta pode ser dispensável ou exigida, e o conteúdo pode ou não obrigar a autoridade. A responsabilidade pessoal depende de conduta concreta, não do rótulo do parecer. Para classificar um caso, faça duas perguntas separadas: **a autoridade era obrigada a consultar?** e **era obrigada a seguir a conclusão?** Uma consulta pode ser obrigatória e a conclusão continuar não vinculante. O **art. 28 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), Decreto-Lei nº 4.657/1942**, estabelece responsabilidade pessoal do agente por decisões ou opiniões técnicas em casos de dolo ou erro grosseiro.
 
 ```mermaid
 flowchart TD
@@ -58,7 +58,7 @@ A consulta integra o procedimento quando norma exige prévia manifestação espe
 
 **Licitações:** o art. 53 da Lei nº 14.133/2021 prevê controle jurídico prévio ao final da fase preparatória; o § 4º disciplina outras contratações e instrumentos. O **§ 5º permite dispensar a análise jurídica em hipóteses previamente definidas por ato da autoridade jurídica máxima competente**, considerados baixo valor, baixa complexidade, entrega imediata e instrumentos padronizados. É incorreto afirmar que todo processo de contratação sempre exige um parecer individual.
 
-**Procedimento progressivo:** (1) minuta encaminhada à consultoria; (2) parecer indica risco e propõe ajuste; (3) a autoridade acolhe e corrige a minuta; (4) se pretende adotar solução substancialmente diferente, avalia a necessidade de submeter novamente a proposta à análise jurídica. **Contraexemplo:** supor que bastaria apagar o parecer desfavorável e contratar sem motivação.
+**Exemplo de procedimento:** a Câmara encaminha minuta contratual à consultoria; o parecer identifica uma cláusula ilegal; a autoridade corrige a minuta e registra como atendeu à orientação. Se optar por uma solução substancialmente diferente, precisa motivar a decisão e verificar se a nova versão exige outra análise jurídica. A exigência de nova consulta depende do regime e da alteração concreta: **discordar fundamentadamente de parecer não vinculante não equivale, por si só, a proibição de decidir**. Simplesmente omitir o parecer desfavorável do processo impediria a adequada verificação da decisão.
 
 A consequência de consulta omitida deve ser examinada pela norma que a exige, pela natureza do vício, pelas possibilidades de saneamento e pelos efeitos no caso. Não há base para afirmar **nulidade absoluta e insanável em toda hipótese**.
 
@@ -97,19 +97,19 @@ flowchart TD
 Incluído pela Lei nº 13.655/2018, o art. 28 da Lei de Introdução às Normas do Direito Brasileiro estabelece o regime geral de responsabilização dos agentes públicos:
 > *"O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de **dolo ou erro grosseiro**."*
 
-O Decreto nº 9.830/2019 (regulamentador da LINDB) define **erro grosseiro** como aquele manifesto, evidente e inescusável praticado com **culpa grave**, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia, violando padrão de conduta exigível de um profissional ordinariamente diligente.
+O **art. 12, § 1º, do Decreto nº 9.830/2019** define **erro grosseiro** como aquele manifesto, evidente e inescusável, praticado com **culpa grave**, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia. Os §§ 3º a 6º acrescentam limites relevantes: o mero nexo causal e o valor elevado do dano não provam, por si sós, dolo ou erro grosseiro; também **não se transfere automaticamente ao gestor** a responsabilidade pela opinião técnica que ele adotou. O § 6º exige elementos suficientes para o gestor perceber o dolo ou erro grosseiro da opinião, ou conluio. Isso não impede examinar eventual conduta irregular própria do gestor.
 
 ### STF: natureza do parecer e apuração de responsabilidade
 Os mandados de segurança **MS 24.631/DF** e **MS 24.584/DF** são referências para distinguir emissão de opinião, consulta obrigatória e efeitos de parecer vinculante. A responsabilidade não pode ser inferida somente da classificação do documento.
 
-A análise deve verificar **(1)** se o parecer foi exigido, **(2)** se vinculava o ato, **(3)** o dever concreto do parecerista, **(4)** dolo ou erro grosseiro no regime da LINDB, **(5)** a participação causal no resultado e **(6)** qual órgão possui competência para apurar. Parecer motivado com interpretação jurídica defensável não configura, apenas pela divergência, ilícito imputável ao autor.
+A análise deve verificar **(1)** se o parecer foi exigido, **(2)** se vinculava o ato, **(3)** o dever concreto do parecerista, **(4)** dolo ou erro grosseiro no regime da LINDB, **(5)** a participação causal no resultado e **(6)** qual órgão possui competência para apurar. **Exemplo:** se o parecer apresenta interpretação juridicamente defensável que depois é rejeitada por tribunal, isso não demonstra automaticamente erro grosseiro; é preciso examinar a diligência, os fatos conhecidos à época e o padrão de cuidado exigível. Parecer motivado com interpretação jurídica defensável não configura, apenas pela divergência, ilícito imputável ao autor.
 
 O **art. 133 da Constituição Federal de 1988** protege o **advogado** por seus atos e manifestações no exercício da profissão, nos limites da lei. Isso não representa imunidade geral de qualquer consultor técnico nem afasta apuração de dolo ou erro grosseiro quando cabível.
 
 ### Tribunal de Contas da União: fundamento correto e limites
 O Tribunal de Contas da União pode examinar condutas de pareceristas no contexto de suas competências de controle, observando responsabilidade pessoal, dever funcional, dolo ou erro grosseiro, nexo e consequências concretas. A mera participação na emissão de parecer não demonstra solidariedade pelo ato de gestão.
 
-**A Súmula 222 do TCU não disciplina responsabilidade de pareceristas.** Seu objeto são decisões do Tribunal relativas à aplicação de normas gerais de licitação que devem ser observadas por administradores dos entes federativos. Para discutir eventual responsabilidade do parecerista, devem ser citados **acórdãos específicos sobre sua conduta**, em conjunto com a LINDB e o regime aplicável, sem atribuir essa tese à Súmula 222.
+**A Súmula 222 do TCU não disciplina responsabilidade de pareceristas.** Ela trata da observância de decisões do Tribunal relativas à aplicação de normas gerais de licitação por administradores dos entes federativos. Para discutir eventual responsabilidade do parecerista, devem ser citados **acórdãos específicos sobre sua conduta**, em conjunto com a LINDB e o regime aplicável, sem atribuir essa tese à Súmula 222.
 
 Fonte primária: [TCU, Súmula 222](https://pesquisa.apps.tcu.gov.br/documento/sumula/%2A/NUMERO%253A222/DTRELEVANCIA%2520desc%252C%2520NUMEROINT%2520desc/0/sinonimos%253Dtrue).
 
@@ -226,8 +226,8 @@ Julgue o item seguinte, relativo à responsabilidade do gestor público que acol
 ## Fontes normativas e jurisprudenciais
 
 - **Constituição Federal de 1988:** art. 37, *caput*; art. 133 (inviolabilidade do advogado).
-- **Decreto-Lei nº 4.657/1942 (LINDB):** art. 28 (responsabilização por dolo ou erro grosseiro) e Decreto nº 9.830/2019 (regulamentação de erro grosseiro).
+- [Decreto-Lei nº 4.657/1942 (LINDB)](https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm): art. 28, responsabilização por dolo ou erro grosseiro; [Decreto nº 9.830/2019](https://www2.camara.leg.br/legin/fed/decret/2019/decreto-9830-10-junho-2019-788287-normaatualizada-pe.pdf): art. 12, §§ 1º e 3º a 6º, critérios de erro grosseiro e limites de responsabilização.
 - [Lei Complementar nº 73/1993 (Lei Orgânica da AGU)](https://www2.camara.leg.br/legin/fed/leicom/1993/leicomplementar-73-10-fevereiro-1993-354947-normaatualizada-pl.html): arts. 40 a 43 (efeitos de aprovação, publicação e vinculação dos pareceres).
 - [Lei nº 14.133/2021 (Lei de Licitações e Contratos Administrativos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm): arts. 10 e 53 (controle jurídico prévio, hipóteses de dispensa e representação de agentes participantes que observam estritamente parecer jurídico nas condições legais).
-- **Supremo Tribunal Federal:** MS 24.631/DF e MS 24.584/DF (regime de responsabilidade em pareceres facultativos, obrigatórios e vinculantes).
+- **Supremo Tribunal Federal:** MS 24.631/DF e MS 24.584/DF (distinções sobre pareceres facultativos, obrigatórios e vinculantes e responsabilidade do parecerista). As decisões devem ser examinadas conforme seus fatos e fundamentos, sem supor que a classificação, isoladamente, determine responsabilidade.
 - **Tribunal de Contas da União:** [Súmula 222](https://pesquisa.apps.tcu.gov.br/documento/sumula/%2A/NUMERO%253A222/DTRELEVANCIA%2520desc%252C%2520NUMEROINT%2520desc/0/sinonimos%253Dtrue), citada apenas para delimitar seu objeto (normas gerais de licitação), não como precedente de responsabilidade do parecerista.

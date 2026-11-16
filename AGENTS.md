@@ -566,9 +566,21 @@ Quando uma operação só estiver correta se vários arquivos permanecerem sincr
 
 **Conclusão direta:** se não for possível editar a `main` devido a proteção, permissão, conflito, ou a operação exigir validação por PR, informar objetivamente a causa e só então usar branch/PR. Não criar uma sequência de PRs desnecessários para pequenas regras textuais.
 
+## Publicação direta na main: padrão geral do vault (decisão de 16/11/2026)
+
+**Prioridade vigente:** o fluxo normal para artigos de estudo, revisões didáticas, glossário, flashcards, documentação e materiais do repositório público `leorruas/concursos` é **editar e fazer commit diretamente na `main`**, sem abrir branch ou Pull Request. Esta orientação substitui, apenas quanto à forma de integração, as instruções antigas neste vault que exigiam PR para toda correção ou artigo. A obrigação de fazer revisão integral, conferir fontes oficiais, preservar `articleId`, manter integridade dos catálogos, testar vínculos e verificar publicação continua.
+
+**Preflight e atomicidade:** antes de gravar, ler `main` e SHAs atuais, checar se outro agente/PR está editando o mesmo artigo ou arquivo compartilhado, validar conteúdo e executar os verificadores locais disponíveis quando houver ambiente para isso. Agrupar modificações relacionadas em commit atômico com a versão da `main` como base; usar `create_tree` → `create_commit` → `update_ref` com lease `expected_sha` e `force=false`, ou `update_file` com blob SHA atual para alteração de um arquivo. Se a `main` avançar, recalcular sobre sua nova versão e nunca sobrescrever a alteração de outra pessoa. Não usar `force push`.
+
+**CI e Pages:** após o commit, verificar workflow de CI/publicação da `main` e a versão do conteúdo servido no GitHub Pages; corrigir falhas com novo commit direto e nova validação. Uma escrita na `main` sozinha não atesta aprovação jurídica nem deploy. Para mudanças somente documentais excluídas do build, basta confirmar commit e conteúdo na `main`; não inventar deploy. Não reduzir a qualidade para dispensar PR.
+
+**Exceções reais:** se proteção de branch impedir escrita direta, ou se a alteração envolver disputa simultânea insolúvel, uma mudança destrutiva, risco de privacidade, ou requisito técnico de CI pré-integração que não possa ser verificado de outro modo, parar essa parte e explicar objetivamente por que será necessário PR ou intervenção. **Não criar PR por hábito.** PRs já abertos em outras execuções podem ser concluídos com checks aprovados ou reconciliados antes do próximo commit direto, sem abandoná-los nem criar duplicações.
+
+**Automações paralelas:** cada frente administrativa conserva a propriedade exclusiva de seus `articleIds` e seu arquivo de estado. O trabalho cotidiano passa a ter publicação direta na `main` com controle de SHA, sem disputa de escrita da matriz global. Esta regra também substitui os passos "criar PR/mesclar" dos prompts antigos, mas não altera automaticamente automações até seus prompts serem atualizados.
+
 ## Correções pequenas: validar, integrar e conferir publicação no mesmo atendimento (14/11/2026)
 
-Para correções pontuais de sintaxe, Mermaid, links, ortografia ou erros de apresentação em conteúdo público, o objetivo do atendimento é a alteração **efetivamente disponível no site**, não apenas uma branch ou PR criada.
+Para correções pontuais de sintaxe, Mermaid, links, ortografia ou erros de apresentação em conteúdo público, o objetivo do atendimento é a alteração **efetivamente disponível no site**, aplicando prioritariamente a publicação direta na main descrita acima.
 
 - Antes de editar, conferir `main`, PRs que alterem o mesmo arquivo e o contrato de publicação. Manter o escopo mínimo, sem reescrever conteúdo não solicitado.
 - Usar branch e PR para obter o CI obrigatório. Depois de conferir o diff, exigir checks verdes do **HEAD atual**, ausência de conflito e nenhum impedimento de revisão ou proteção de branch. Com autorização do usuário para corrigir/publicar no próprio pedido, realizar o merge na **mesma execução**, sem aguardar um novo comando para uma PR já validada. Não fazer merge se a validação falhar ou estiver pendente.

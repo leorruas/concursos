@@ -5,60 +5,65 @@ title: "Requisição, cessão e movimentação de agentes públicos: distinçõe
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-16
 ---
 
 # Requisição, cessão e movimentação de agentes públicos: distinções, ônus financeiro e regime jurídico
 
-A gestão de recursos humanos na Administração Pública contemporânea exige instrumentos flexíveis de cooperação e mobilidade interinstitucional para atender a demandas sazonais, missões extraordinárias, cooperação federativa e funcionamento de órgãos essenciais da República.
+**Caso concreto:** um tribunal eleitoral precisa reforçar temporariamente um cartório e requisita servidor de outro órgão. Um ministério pede a uma autarquia que ceda uma servidora para cargo em comissão. Em outra situação, o Executivo federal organiza uma realocação de pessoal. Nos três casos, o vínculo com a origem pode permanecer. **A diferença está em quem pode determinar a mudança, quais concordâncias são necessárias, para onde a pessoa pode ir e quem arca com a remuneração.**
 
-No regime federal, a mobilidade pode assumir **três formas distintas**, conforme o art. 2º, parágrafo único, do Decreto nº 10.835/2021: **cessão**, **requisição** e **alteração de exercício para composição da força de trabalho**. Cada instituto tem finalidade, autoridade competente, regras de anuência e consequências financeiras próprias. A mudança de exercício **preserva o vínculo** do agente com o órgão ou entidade de origem.
+O **Decreto nº 10.835/2021**, aplicável a movimentações em que a Administração federal seja parte, trata a **movimentação** como alteração do exercício sem interromper o vínculo com a origem (art. 2º). Distingue **requisição, cessão e alteração de exercício para composição da força de trabalho**. O **art. 93 da Lei nº 8.112/1990**, estatuto dos servidores civis federais, disciplina a cessão; a **Justiça Eleitoral** possui regras especiais.
 
-A expressão **“movimentação” é gênero**, e as três formas são espécies. Para estudar o concurso da Câmara, é essencial distinguir também o âmbito do decreto (Executivo federal) das regras gerais da Lei nº 8.112/1990 e dos regimes especiais aplicáveis a outros Poderes. A composição de força de trabalho prevista no decreto **não permite, por si, transferência ao Legislativo**.
+**Vínculo** é a relação jurídica com o cargo/emprego de origem; **exercício** é o local de prestação do serviço; **lotação** é a unidade de vinculação administrativa. A composição da força de trabalho **não serve para transferir agentes à Câmara**, pois o decreto a restringe ao **Poder Executivo federal**.
 
 ```mermaid
 flowchart TD
-    classDef raiz fill:#fff8e7,stroke:#d4a373,stroke-width:2px,color:#2b2b2b;
-    classDef req fill:#f8d7da,stroke:#e63946,stroke-width:1.5px,color:#721c24;
-    classDef cessao fill:#faedcd,stroke:#d4a373,stroke-width:1.5px,color:#2b2b2b;
-    classDef detalhe fill:#e9edc9,stroke:#ccd5ae,stroke-width:1.5px,color:#2b2b2b;
+    classDef raiz fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#111111;
+    classDef criterio fill:#fff2d9,stroke:#b45309,stroke-width:1.5px,color:#3d2207;
+    classDef opcao fill:#fffbeb,stroke:#b68d58,stroke-width:1.5px,color:#1c1917;
 
-    A["Mobilidade Externa de Agentes Públicos"]:::raiz
-
-    A --> B["REQUISIÇÃO<br/>(Ato IMPOSITIVO e obrigatório)"]:::req
-    A --> C["CESSÃO<br/>(Concordância de cedente e agente)"]:::cessao
-    A --> D["COMPOSIÇÃO DA FORÇA DE TRABALHO<br/>(Executivo federal)"]:::detalhe
-
-    B --> B1["Órgão de origem NÃO PODE recusar<br/>(Poder de império legal)"]:::req
-    B --> B2["Justiça Eleitoral (Lei 6.999/82), Presidência da República e Defensoria"]:::detalhe
-    B --> B3["Folha, ônus e reembolso<br/>conforme lei e destino"]:::detalhe
-
-    C --> C1["Pedido do destino e concordância<br/>da origem e do agente"]:::cessao
-    C --> C2["Finalidade: exercício de cargo em comissão ou função de confiança (art. 93, Lei 8.112)"]:::detalhe
-    C --> C3["Ônus e reembolso: conforme origem, destino e norma"]:::detalhe
-    D --> D1["Indicação consensual: anuências<br/>Realocação: sem anuência da origem"]:::detalhe
+    A["Alteração de exercício, vínculo na origem"]:::raiz
+    A --> B["REQUISIÇÃO: prerrogativa prevista em lei"]:::criterio
+    A --> C["CESSÃO: pedido e concordâncias"]:::criterio
+    A --> D["COMPOSIÇÃO: só Executivo federal"]:::criterio
+    B --> B1["Irrecusável se válida; há restrições legais"]:::opcao
+    B --> B2["Justiça Eleitoral: requisitos e prazos próprios"]:::opcao
+    C --> C1["Comissão, confiança ou hipótese legal específica"]:::opcao
+    C --> C2["Quem paga, quem suporta o ônus e reembolso"]:::opcao
+    D --> D1["Indicação consensual ou realocação"]:::opcao
+    D --> D2["Não alcança a Câmara como destino"]:::opcao
 ```
+
 
 ---
 
 ## 1. Requisição de Agentes Públicos
 
 ### 1.1. Conceito e natureza impositiva
-A **requisição** é o ato administrativo pelo qual uma autoridade ou órgão público legalmente investido de poder de império requisitório determina a transferência temporária do exercício funcional de um servidor público de outro órgão ou ente federativo para prestar serviços no órgão requisitante.
-- **Caráter irrecusável e cogente:** a autoridade do órgão de origem (lotador original do servidor) **não possui margem de discricionariedade** para indeferir o pedido, avaliar conveniência interna de sua repartição ou condicionar a liberação à reposição de pessoal. A liberação do servidor é um **dever jurídico de estrito cumprimento**.
-- **Natureza jurídica:** ato unilateral imperativo derivado de autorização legal expressa vinculada ao interesse público primário.
+
+A **requisição** é uma ordem de órgão ou entidade que dispõe de **prerrogativa legal expressa** para obter o exercício temporário do agente. Pelo art. 9º do Decreto nº 10.835/2021, a requisição regular é **irrecusável** e não altera a lotação no órgão de origem.
+
+**Irrecusável não significa sem condições:** precisam estar presentes competência legal, elegibilidade do servidor, finalidade e limites de prazo. A falta de pessoal na origem, por si só, não é motivo para recusar requisição **regular**; uma ordem que viole proibição legal deve ter sua validade examinada.
+
+**Indicação nominal:** no Decreto nº 10.835/2021, a regra é **não indicar nominalmente** o agente; a origem pode selecionar pessoa compatível, exceto nas requisições para **Presidência e Vice-Presidência da República** (art. 9º, §§ 2º e 3º). No regime especial da **Justiça Eleitoral**, a Resolução TSE nº 23.523/2017 admite **requisição nominal** (art. 3º, parágrafo único). Portanto, a indicação depende da norma aplicável.
 
 ### 1.2. Principais hipóteses legais de requisição no ordenamento federal
-A requisição não é um poder genérico de qualquer repartição; depende de **previsão estrita em lei formal**:
-1. **Justiça Eleitoral (Lei nº 6.999/1982 e art. 30 do Código Eleitoral):**
-   - Os juízes e tribunais eleitorais têm competência legal para requisitar servidores públicos da União, Estados, DF e Municípios, bem como de suas autarquias, para auxiliar os cartórios eleitorais e as eleições.
-   - A requisição tem prazo certo (em regra 1 ano, prorrogável) e o órgão de origem não pode obstar a apresentação do servidor.
-2. **Presidência da República e Vice-Presidência (Lei nº 9.007/1995 e Lei nº 14.600/2023):**
-   - Prerrogativa legal para requisitar servidores de quaisquer órgãos ou entidades federais para exercício de atribuições nos órgãos da Presidência da República.
-3. **Defensoria Pública da União (Lei Complementar nº 80/1994):**
-   - Hipóteses extraordinárias de requisição de pessoal para viabilizar a implantação e funcionamento emergencial de núcleos defensoriais.
-4. **Poder Judiciário e Ministério Público da União:**
-   - Previsões estritas nas respectivas leis orgânicas e regimentais para atendimento de situações específicas e temporárias de assessoria técnica.
+
+A principal hipótese de prova é a **Justiça Eleitoral**, cuja requisição é disciplinada pela **Lei nº 6.999/1982**, pela **Resolução TSE nº 23.523/2017** e pela **Resolução TSE nº 23.765/2026**. A mudança de 2026 reafirmou a **irrecusabilidade da requisição legalmente válida** e admitiu providências administrativas em caso de descumprimento, sem eliminar requisitos e limites.
+
+**Quem pode ser requisitado:**
+
+- A regra é servidor ocupante de **cargo efetivo**; a resolução veda requisitar quem está em **estágio probatório**, sob **sindicância ou processo administrativo disciplinar**, ou é **contratado temporário** (art. 2º).
+- Também restringe **cargos isolados, técnicos ou científicos e magistério**. O § 2º define técnico/científico pelo **conteúdo especializado das tarefas**, independentemente do nome do cargo e do nível escolar. A exceção de nomeação em cargo em comissão precisa ser lida com o **§ 3º acrescido em 2026**, relativo ao TSE.
+- A requisição normalmente ocorre na **mesma unidade da Federação**, podendo ser **nominal** (art. 3º). Existem também limites quantitativos vinculados aos cartórios.
+
+**Prazos variam com a hipótese legal:** o **art. 6º** prevê, para cartórios eleitorais, **um ano, prorrogável por até mais quatro anos, em períodos anuais**, com regra especial para fim do prazo máximo em ano eleitoral. O **art. 7º** trata de servidores da administração federal direta, autárquica e fundacional, com **prazo de até três anos ininterruptos** e possível prorrogação excepcional com condições de reembolso. O **art. 8º** prevê requisições extraordinárias para acúmulo ocasional de serviço, com regras próprias. **Não memorizar um único prazo para toda requisição eleitoral.**
+
+**Caso concreto na Câmara:** um servidor de cargo elegível, dentro das condições legais, é requisitado regularmente pelo tribunal eleitoral. O dirigente da origem não pode simplesmente recusar por carência de pessoal. Se o servidor exerce cargo especializado ou está em estágio probatório, a elegibilidade precisa ser examinada antes de afirmar que a ordem é válida.
+
+**Outras hipóteses:** Presidência e Vice-Presidência da República dispõem de prerrogativas próprias, inclusive sob a **Lei nº 9.007/1995**. Para outros órgãos e poderes, exige-se **identificar lei autorizadora específica**: a natureza constitucional do órgão, isoladamente, não cria poder geral de requisitar servidores.
+
+Fontes: [Resolução TSE nº 23.523/2017, texto consolidado](https://www.tse.jus.br/legislacao/compilada/res/2017/resolucao-no-23-523-de-27-de-junho-de-2017), [Resolução TSE nº 23.765/2026](https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-765-de-30-de-junho-de-2026) e [Lei nº 6.999/1982](https://www.tse.jus.br/legislacao/codigo-eleitoral/leis-ordinarias/lei-nb0-6.999-de-7-de-junho-de-1982).
 
 ### 1.3. Remuneração e direitos durante a requisição
 

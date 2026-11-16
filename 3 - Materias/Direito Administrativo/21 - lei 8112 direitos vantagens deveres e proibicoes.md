@@ -257,38 +257,72 @@ Fontes: [EC nº 138/2025, texto oficial do Senado](https://legis.senado.leg.br/n
 
 ## 6. Questões comentadas
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**1.** Ao servidor público federal que responder cumulativamente a encargos de insalubridade e de periculosidade é assegurado o direito de perceber conjuntamente ambos os adicionais em seu contracheque, incidindo sobre o total da remuneração percebida.
+As questões são **inéditas, para treino Cebraspe (C/E)**. Julgue pela Constituição e pelas leis **vigentes em 2026**, sem aplicar redações antigas. Cada gabarito explica o motivo jurídico.
 
-> **Gabarito: ERRADO**  
-> **Comentário:** Conforme o art. 68, § 1º, da Lei nº 8.112/1990, o servidor que fizer jus aos adicionais de insalubridade e de periculosidade **deverá optar por um deles**, sendo expressamente vedada a percepção cumulativa de ambos os adicionais. Ademais, tais adicionais incidem sobre o vencimento do cargo efetivo, e não sobre a remuneração global.
+**1.** Servidor que trabalha sob condições de insalubridade e de periculosidade simultaneamente pode receber ambos os adicionais, pois a Constituição proíbe renunciar a direitos remuneratórios adquiridos.
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**2.** As indenizações previstas no estatuto do servidor público civil da União, tais como ajuda de custo, diárias e indenização de transporte, incorporam-se aos proventos de aposentadoria desde que o servidor as tenha recebido de modo contínuo por mais de cinco anos ininterruptos.
+> **Gabarito: ERRADO.** O **art. 68, § 1º**, exige que o servidor **opte por um** dos adicionais. O argumento constitucional genérico não afasta a regra legal específica.
 
-> **Gabarito: ERRADO**  
-> **Comentário:** Nos termos do art. 51, § 1º, da Lei nº 8.112/1990, as indenizações **não se incorporam ao vencimento ou provento para qualquer efeito**. Trata-se de verbas compensatórias de natureza transitória que visam indenizar custos materiais da função pública, não possuindo natureza remuneratória nem integrando cálculo de proventos.
+**2.** A ajuda de custo e as diárias incorporam-se aos proventos caso tenham sido percebidas durante cinco anos consecutivos.
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**3.** O servidor público civil da União que se encontre no cumprimento do estágio probatório não poderá usufruir da licença para tratar de interesses particulares, embora possa, preenchidos os requisitos legais, obter licença para capacitação profissional após cada quinquênio de efetivo exercício.
+> **Gabarito: ERRADO.** O **art. 49, § 1º**, determina que indenizações **não se incorporam ao vencimento ou provento para qualquer efeito**. Percebê-las por tempo prolongado não muda automaticamente sua natureza. A exclusão do **teto remuneratório** depende de requisitos próprios, hoje previstos no **art. 37, § 11, da Constituição**.
 
-> **Gabarito: CERTO**  
-> **Comentário:** A licença para tratar de interesses particulares (art. 91 da Lei nº 8.112/1990) é expressamente vedada a servidores que não tenham cumprido o estágio probatório ("A critério da Administração, poderão ser concedidas ao servidor ocupante de cargo efetivo, desde que não esteja em estágio probatório, licenças para o trato de assuntos particulares pelo prazo de até três anos consecutivos"). Por outro lado, a licença para capacitação (art. 87) pressupõe o decurso de 5 anos de exercício, momento em que o servidor já ultrapassou o estágio probatório de 3 anos.
+**3.** A licença para interesses particulares é vedada durante o estágio probatório e, diferentemente da licença para capacitação, é concedida sem remuneração.
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**4.** É lícita a participação de servidor público federal como acionista, cotista ou comanditário em sociedade empresária mercantil, sendo-lhe, contudo, proibido participar da gerência ou administração de sociedade privada personificada ou não, sob pena de demissão.
+> **Gabarito: CERTO.** Os **arts. 91 e 87** distinguem a licença **discricionária, sem remuneração, e proibida no probatório**, da licença **remunerada para capacitação** após quinquênio de efetivo exercício, conforme interesse da Administração.
 
-> **Gabarito: CERTO**  
-> **Comentário:** Assertiva em conformidade com o art. 117, X, da Lei nº 8.112/1990, que veda participar de gerência ou administração de sociedade privada, personificada ou não, mas ressalva expressamente a qualidade de "acionista, cotista ou comanditário". O descumprimento dessa vedação sujeita o infrator à pena capital de **demissão**, nos termos do art. 132, XIII.
+**4.** O servidor público federal pode ser acionista ou cotista de sociedade privada e, em qualquer circunstância, também poderá exercer sua gerência, pois a propriedade de cotas afasta a vedação do art. 117, X.
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**5.** Segundo o entendimento fixado pelo Supremo Tribunal Federal em regime de repercussão geral, é ilegítima a acumulação remunerada de dois cargos públicos da área da saúde quando a jornada semanal total dos dois vínculos somar mais de sessenta horas, tendo em vista a presunção absoluta de fadiga e prejuízo à qualidade do serviço prestado.
+> **Gabarito: ERRADO.** Ser **acionista, cotista ou comanditário** é permitido, em regra, sem exercer gerência. O **art. 117, X**, proíbe administrar sociedade privada ou exercer comércio, ressalvadas as **exceções legais do parágrafo único**, que não autorizam gerência universal.
 
-> **Gabarito: ERRADO**  
-> **Comentário:** O STF fixou a tese de Repercussão Geral no Tema 1081: "Assegurada a compatibilidade de horários e a ausência de prejuízo às atividades exercidas, é legítima a acumulação remunerada de cargos públicos, ainda que a soma das jornadas de trabalho supere o limite de 60 horas semanais." Não há presunção absoluta baseada em limite fixo; o critério jurídico vinculante é a averiguação concreta da compatibilidade fática de horários.
+**5.** O simples fato de dois cargos acumuláveis constitucionalmente somarem mais de sessenta horas semanais torna ilegal a acumulação, mesmo quando a compatibilidade de horários está comprovada.
 
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
-**6.** A atuação de servidor público federal como procurador perante repartições públicas é proibida pela Lei nº 8.112/1990, ressalvada a representação legal referente a benefícios previdenciários ou assistenciais de parentes até o segundo grau civil, e de cônjuge ou companheiro.
+> **Gabarito: ERRADO.** Pelo **Tema 1081 do STF**, a compatibilidade é examinada **no caso concreto**, e não por limite automático de sessenta horas. A hipótese de acumulação deve estar autorizada pela Constituição.
 
-> **Gabarito: CERTO**  
-> **Comentário:** Literalidade do art. 117, XI, da Lei nº 8.112/1990: é proibido "atuar, como procurador ou intermediário, junto a repartições públicas, salvo quando se tratar de benefícios previdenciários ou assistenciais de parentes até o segundo grau, e de cônjuge ou companheiro". A violação fora dessa ressalva legal também enseja demissão (art. 132, XIII).
+**6.** A vedação de atuar como procurador ou intermediário em repartições públicas admite exceção para benefícios previdenciários ou assistenciais de parentes até segundo grau, além de cônjuge ou companheiro.
+
+> **Gabarito: CERTO.** O **art. 117, XI**, contém essa ressalva específica; ela **não** autoriza representar terceiros em qualquer processo administrativo ou interesse comercial.
+
+**7.** Desde a Emenda Constitucional nº 138/2025, a acumulação de um cargo de professor com outro cargo público deixou de exigir que o segundo seja técnico ou científico, mas continua condicionada à compatibilidade de horários.
+
+> **Gabarito: CERTO.** A **nova redação do art. 37, XVI, b**, passou a permitir **um cargo de professor com outro de qualquer natureza**. A condição da **compatibilidade** permanece. Essa é uma mudança relevante em relação a materiais anteriores a dezembro de 2025.
+
+**8.** Qualquer parcela rotulada de indenizatória por ato administrativo está excluída do teto constitucional, ainda que não se enquadre na exigência de lei ordinária nacional do art. 37, § 11.
+
+> **Gabarito: ERRADO.** A **EC nº 135/2024** alterou o **§ 11 do art. 37**, que exige lei ordinária nacional aprovada pelo Congresso e aplicável aos Poderes e órgãos autônomos. A denominação dada pelo órgão não basta, e o STF reforçou esse controle em 2026.
+
+**9.** A licença para atividade política prevista no art. 86 é integralmente remunerada desde a escolha do servidor como candidato em convenção partidária até a eleição.
+
+> **Gabarito: ERRADO.** A fase **entre convenção e véspera do registro** é **sem remuneração**. Após o registro, a lei assegura vencimentos do cargo efetivo **por no máximo três meses** no período legal.
+
+**10.** A utilização de recursos públicos em atividades particulares, vedada pelo art. 117, XVI, está entre as infrações ligadas à demissão pelo art. 132, XIII; já exercer atividade incompatível com o cargo ou horário, previsto no inciso XVIII, pode ser punido com suspensão, se não houver outra infração mais grave.
+
+> **Gabarito: CERTO.** O art. **132, XIII**, remete às proibições **IX a XVI**; para **XVII e XVIII**, aplica-se em regra o art. **130**, sem ignorar o enquadramento e a gravidade do caso.
+
+**11.** A licença por motivo de doença em pessoa da família pode alcançar, a cada período de doze meses, até sessenta dias com remuneração e até noventa dias sem remuneração, desde que preenchidos os requisitos legais de assistência e perícia.
+
+> **Gabarito: CERTO.** É a disciplina do **art. 83**, incluindo suas prorrogações. A assistência pessoal precisa ser indispensável e incompatível com o exercício simultâneo ou compensação de horário.
+
+**12.** Para a gratificação natalina, a fração de período trabalhado igual ou superior a quinze dias conta como mês integral, e o pagamento deve ocorrer até vinte de dezembro.
+
+> **Gabarito: CERTO.** Pelos **arts. 63 e 64**, o cálculo é de **1/12 por mês de exercício**, com mês completo a partir de **15 dias**, e o pagamento ocorre até **20 de dezembro**.
+
+**13.** Uma chefia de repartição pode determinar, a qualquer tempo e por simples necessidade cotidiana do serviço, a interrupção unilateral de férias já iniciadas, sem declaração da autoridade máxima do órgão.
+
+> **Gabarito: ERRADO.** O **art. 80** enumera hipóteses de interrupção. Quando fundada em **necessidade do serviço**, a exigência é de **declaração pela autoridade máxima do órgão ou entidade**, não de simples conveniência de uma chefia imediata.
+
+**14.** Servidor em licença para tratar de interesses particulares pode exercer gerência de sociedade privada nas condições legais, desde que observe a legislação sobre conflito de interesses, em razão de exceção expressa à vedação geral do art. 117, X.
+
+> **Gabarito: CERTO.** O **parágrafo único, II, do art. 117** afasta a vedação do inciso X para quem usufrui licença do **art. 91**, respeitadas as normas de conflito de interesses; a licença não elimina automaticamente todos os deveres funcionais.
+
+**Síntese de resolução:** antes de marcar C/E, confronte o **artigo e inciso** usados pelo item com a **data da redação**. Os maiores riscos neste tema são aplicar a acumulação antiga de professor + técnico/científico após a EC nº 138/2025, equiparar não incorporação de indenização a exclusão automática do teto e deslocar a sanção de um inciso do art. 117 para outro.
+
+## Fontes normativas e jurisprudenciais
+
+- [Lei nº 8.112/1990, texto atualizado da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html): arts. 40 a 92, 116 a 119 e 128 a 132.
+- [Constituição da República, texto consolidado no Planalto](https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm): art. 37, incisos XI, XVI e XVII e § 11.
+- [Emenda Constitucional nº 135/2024](https://www2.camara.leg.br/legin/fed/emecon/2024/emendaconstitucional-135-20-dezembro-2024-796825-norma-pl.html): nova redação do art. 37, § 11, sobre a exclusão de indenizações do teto.
+- [Emenda Constitucional nº 138/2025, texto oficial do Senado](https://legis.senado.leg.br/norma/41853798/publicacao/41861303): substituiu “técnico ou científico” por **“de qualquer natureza”** no art. 37, XVI, b.
+- [STF, Tema 1081](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=5819218&numeroProcesso=1246685&numeroTema=1081): compatibilidade de horários, sem limite fixo automático de sessenta horas.
+- [STF, Informativo 1210/2026](https://www.stf.jus.br/arquivo/informativo/documento/informativo1210.htm): teto constitucional, indenizações e EC nº 135/2024.
+- **STF, Súmula Vinculante nº 16:** salário mínimo aferido pela remuneração total; **Temas 377 e 384:** aplicação isolada do teto em acumulações constitucionalmente permitidas.

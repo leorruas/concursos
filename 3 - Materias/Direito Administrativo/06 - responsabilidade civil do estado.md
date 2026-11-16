@@ -78,39 +78,67 @@ O art. 37, § 6º, alcança pessoas jurídicas privadas **prestadoras de serviç
 
 ## Ação estatal × omissão: não use uma fórmula única
 
-A responsabilidade por atos comissivos é o exemplo clássico de aplicação direta do art. 37, §6º. Nas omissões, a jurisprudência exige cuidado maior: o resultado depende da natureza do dever estatal e do nexo causal. Para prova, é perigoso decorar tanto “omissão é sempre subjetiva” quanto “omissão é sempre objetiva”.
+**Ato comissivo** é a ação positiva do agente, como uma colisão de veículo em serviço. **Omissão** é a falta de atuação quando há dever jurídico de agir, como deixar de proteger pessoa sob custódia estatal.
+
+A responsabilidade objetiva é a regra quanto aos **atos comissivos** imputáveis ao serviço. Para **omissões**, é necessário avaliar a natureza do dever, o risco assumido, a possibilidade de agir e o nexo com o dano. A jurisprudência diferencia o **dever genérico de agir** de situações com **dever especial de proteção**; por isso, são erradas as duas fórmulas absolutas: "omissão sempre gera responsabilidade objetiva" e "toda omissão exige demonstração de culpa".
 
 ### Dever específico de proteção
 
-**Omissão** é deixar de agir quando havia dever de atuação; **ato comissivo** é uma ação praticada. No **Tema 592**, relativo à morte de detento, o STF fixou que o Estado responde quando descumpre o dever específico de proteção previsto no art. 5º, XLIX, da Constituição.
+| Situação | Pergunta relevante | Direção da análise |
+| --- | --- | --- |
+| **Dever genérico de segurança** | Existia obrigação individualizada de impedir aquele resultado? | Em regra, omissão genérica exige verificar falha do serviço e elementos da responsabilidade subjetiva |
+| **Dever especial de custódia ou proteção** | O Estado assumiu posição de garantidor da integridade de uma pessoa? | Omissão causalmente relevante pode gerar responsabilidade **objetiva** |
+| **Atividade de risco anormal** | O dano decorre de risco criado ou assumido pela própria atividade? | Em certas hipóteses, a responsabilidade pode ser objetiva mesmo diante de omissão |
 
-A lógica é que a pessoa está sob custódia estatal e existe dever constitucional específico de proteção. A omissão relevante, nesse contexto, pode fundamentar responsabilidade estatal.
+No [STF, Tema 592 (RE 841.526)](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4645403&numeroProcesso=841526&numeroTema=592), o Tribunal determinou que o Estado responde pela **morte de detento** quando **descumpre o dever específico de proteção** do art. 5º, XLIX, da Constituição. A posição de custódia é decisiva: o Estado possui obrigação especial de proteger a integridade do preso. A tese não diz que **qualquer morte em qualquer circunstância** implica condenação automática, sem análise do dever e do dano.
 
 ### Nexo causal ainda é indispensável
 
-No **Tema 362**, o STF afastou a responsabilidade civil objetiva por crime praticado por preso foragido quando não demonstrado nexo causal direto entre a fuga e a conduta criminosa posterior.
+No [STF, Tema 362 (RE 608.880)](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=3838114&numeroProcesso=608880&numeroTema=362), não se configura a responsabilidade civil objetiva por crime cometido por **preso foragido** quando não se demonstra **nexo causal direto entre a fuga e a conduta criminosa posterior**.
 
-A pegadinha é importante: **existência de falha estatal anterior não elimina a necessidade de nexo causal com o dano discutido**.
+**Compare:** o preso sofre lesão **sob custódia**, e examina-se se a omissão violou o dever específico de proteção do Tema 592. Em outro caso, preso foge e comete delito meses depois, e o Tema 362 impede transformar a fuga anterior em prova suficiente do nexo com qualquer crime posterior. O simples fato de um dano ocorrer **depois** de uma falha estatal não demonstra que ela o causou.
+
+O [STJ, Informativo 856 (2025)](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&b=INFJ&livre=RESPONSABILIDADE+POR+CONDUTA+OMISSIVA&operador=mesmo&p=true&thesaurus=JURIDICO) reforça que situações de **risco anormal** da atividade podem justificar responsabilidade objetiva também por omissão. A referência não transforma todas as omissões em uma única modalidade.
+
+### Dano durante operação de segurança pública: Tema 1237
+
+No [STF, Tema 1237 (ARE 1.385.315)](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=6411925&numeroProcesso=1385315&numeroTema=1237), a tese, com redação ajustada em embargos de declaração, afirma que **(i)** o Estado responde na esfera civil por morte ou ferimento **decorrente de operações de segurança pública** segundo o risco administrativo; **(ii)** o **ente federativo** deve demonstrar eventuais excludentes; e **(iii)** uma **perícia inconclusiva** sobre origem de disparo, por si só, **não basta para afastar a responsabilidade**.
+
+**Situação de prova:** alguém é ferido durante uma operação policial e a perícia não identifica conclusivamente a origem do disparo. A inconclusão isolada não isenta automaticamente o Estado; é preciso analisar as circunstâncias e eventuais excludentes efetivamente comprovadas. **Não se presume**, só por proximidade geográfica, que qualquer ferimento sem relação com a operação está abrangido pela tese.
+
+**Armadilha C/E:** “Laudo inconclusivo prova ausência de nexo e sempre afasta responsabilidade civil em operação policial.” **Errado, conforme o Tema 1237.**
 
 ## Excludentes e atenuantes
 
-A teoria do risco administrativo permite examinar fatos que rompem ou reduzem o nexo causal. Em questões, podem aparecer:
+A teoria do **risco administrativo** permite avaliar causas que **rompem ou reduzem** o nexo causal. Uma excludente precisa estar demonstrada e realmente ser pertinente ao contexto, e não apenas aparecer nominalmente na defesa.
 
-- **culpa exclusiva da vítima**: o dano decorre apenas da conduta da própria pessoa lesada, sem contribuição causal do serviço;
-- **fato exclusivo de terceiro**: outra pessoa, sem relação causal atribuível ao serviço, produz sozinha o dano;
-- **caso fortuito ou força maior**: acontecimento que, nas circunstâncias do caso, rompe o vínculo causal entre a atuação estatal e o prejuízo;
-- **culpa concorrente da vítima**: vítima e atuação estatal contribuem para o resultado, o que pode reduzir a indenização sem eliminá-la.
+| Fato alegado | Consequência possível | Distinção essencial |
+| --- | --- | --- |
+| **Culpa exclusiva da vítima** | Pode afastar a responsabilidade quando a conduta da vítima é a única causa do dano | Não confundir com culpa **concorrente** |
+| **Fato exclusivo de terceiro** | Pode romper o nexo se a conduta de terceiro for independente e causa única | Não basta existir terceiro se o risco estiver ligado ao serviço |
+| **Caso fortuito ou força maior** | Podem excluir responsabilidade quando o acontecimento rompe o nexo causal no regime aplicável | É preciso examinar se o risco era inerente à atividade |
+| **Culpa concorrente da vítima** | Pode reduzir a indenização, conforme a contribuição causal | Não exclui automaticamente todo dever reparatório |
 
-A classificação concreta depende do caso. A banca frequentemente transforma essas hipóteses em frases absolutas como “força maior sempre afasta” ou “qualquer culpa da vítima exclui integralmente a indenização”; esses absolutos são perigosos porque a pergunta central continua sendo o **nexo causal**.
+**Fortuito interno e externo:** a doutrina distingue eventos ligados aos riscos próprios da atividade daqueles verdadeiramente externos. Um incidente inesperado dentro do risco que a atividade gera não se torna necessariamente uma excludente pelo simples nome de “fortuito”.
+
+**Risco integral ambiental:** o [STJ, Tema 681](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=681&cod_tema_inicial=681&novaConsulta=true&tipo_pesquisa=T), rejeita as excludentes usuais para afastar o dever de reparar **dano ambiental** na tese firmada, mantendo o **nexo causal** como necessário.
+
+**Três frases comparáveis:** “culpa concorrente sempre elimina indenização” é **errada**; “força maior necessariamente afasta qualquer responsabilidade objetiva” é **excessiva**; “fato de terceiro comprovadamente exclusivo e independente pode romper nexo no risco administrativo” pode ser **correta**, dependendo do caso.
 
 ## Teoria da dupla garantia — como usar em prova
 
-A expressão “dupla garantia” ajuda a compreender o Tema 940:
+A expressão doutrinária **dupla garantia** ajuda a compreender o [Tema 940 do STF](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5136782&numeroProcesso=1027633&numeroTema=940):
 
-- protege a vítima ao direcionar a pretensão contra a pessoa jurídica responsável pela atuação estatal;
-- protege o agente público contra responsabilização direta pela vítima, reservando a apuração de dolo ou culpa à relação regressiva.
+- **Proteção à vítima:** a reparação é buscada perante a pessoa jurídica responsável pelo serviço, sem necessidade de provar culpa pessoal do agente no regime objetivo.
+- **Proteção ao agente:** pela tese, o agente não é réu da ação direta de indenização por ato funcional; a pessoa jurídica pode buscar **regresso** se comprovar dolo ou culpa.
 
-A heurística é útil, mas o que deve ser memorizado como regra jurídica é a tese do Tema 940, não apenas o nome doutrinário.
+“Dupla garantia” é **explicação doutrinária**, não expressão literal do art. 37, § 6º. O dispositivo constitucional e a tese do Tema 940 são as referências jurídicas para a prova.
+
+### Erro judiciário: outra hipótese expressa na Constituição
+
+O **art. 5º, LXXV**, assegura que o Estado **indenize o condenado por erro judiciário** e a pessoa que ficar **presa além do tempo fixado na sentença**. O dispositivo prevê essas hipóteses específicas.
+
+**Cuidado:** uma sentença posteriormente reformada por recurso **não gera automaticamente** dever de indenizar. É necessário examinar se houve erro judiciário indenizável, prisão além do limite e os demais elementos juridicamente relevantes.
 
 ## Como a banca pode cobrar
 

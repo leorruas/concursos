@@ -5,14 +5,14 @@ title: "Parecer administrativo: natureza jurídica, tipologia e responsabilidade
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-16
 ---
 
 # Parecer administrativo: natureza jurídica, tipologia e responsabilidade civil, disciplinar e financeira do parecerista
 
-O **parecer administrativo** é uma manifestação técnica ou jurídica emitida por órgão especializado (como consultorias jurídicas, procuradorias, assessorias legislativas ou comissões técnicas) que visa a subsidiar e orientar a tomada de decisão da autoridade administrativa competente.
+Um setor pretende contratar serviço de comunicação e consulta a assessoria jurídica sobre a minuta. A assessoria examina a legalidade e emite um **parecer**. Depois, a autoridade competente decide como prosseguir. Essa sequência mostra a diferença entre **opinar**, **consultar obrigatoriamente** e **decidir**, distinção que afeta tanto a validade do processo quanto a responsabilidade de cada agente.
 
-No direito administrativo brasileiro, o parecer enquadra-se originariamente na espécie dos **atos enunciativos**: trata-se de um ato de opinião, juízo ou esclarecimento técnico, e não de um ato administrativo decisório propriamente dito. Contudo, as repercussões práticas e jurídicas do parecer variam drasticamente conforme sua **natureza normativa (facultativo, obrigatório ou vinculante)** e segundo a jurisprudência fixada pelo **Supremo Tribunal Federal (STF)** e pelo **Tribunal de Contas da União (TCU)**, especialmente no tocante à **responsabilização pessoal do parecerista por erro grosseiro ou culpa grave** (art. 28 da LINDB, Dec.-Lei nº 4.657/1942, e Lei nº 14.133/2021).
+O parecer é, na classificação tradicional, **ato enunciativo**, porque contém opinião ou análise e, em regra, não ordena por si só a execução de uma medida. **Facultativo, obrigatório e vinculante** indicam efeitos distintos: a consulta pode ser dispensável ou exigida, e o conteúdo pode ou não obrigar a autoridade. A responsabilidade pessoal depende de conduta concreta, não do rótulo do parecer. O **art. 28 da Lei de Introdução às Normas do Direito Brasileiro (LINDB), Decreto-Lei nº 4.657/1942**, estabelece responsabilidade pessoal do agente por decisões ou opiniões técnicas em casos de dolo ou erro grosseiro.
 
 ```mermaid
 flowchart TD
@@ -36,18 +36,18 @@ flowchart TD
 ## 1. Natureza Jurídica e Distinção Dogmática
 
 ### 1.1. Parecer versus Decisão Administrativa
-O parecerista não decide; ele opina e fundamenta. A autoridade competente é quem detém o poder de império e a competência legal originária para praticar o ato decisório:
-- O parecer é **ato de apoio instrutório** que integra a motivação do ato definitivo quando expressamente adotado pela autoridade (**motivação *aliunde* ou *per relationem***, art. 50, § 1º, da Lei nº 9.784/1999).
-- Enquanto ato meramente opinativo, o parecer **não é passível de impugnação direta por mandado de segurança**, pois não lesa diretamente direito líquido e certo por si só, salvo quando tiver eficácia imediatamente vinculante ou for homologado pela autoridade.
+Em regra, **quem emite parecer apresenta razões** e **quem possui competência legal profere a decisão**. Parecer obrigatório não significa, sozinho, parecer vinculante. O conteúdo e os efeitos dependem da norma que exige a consulta:
+- O parecer pode integrar a fundamentação da decisão se a autoridade o adota expressamente e a motivação for clara e acessível. É a **motivação por remissão (*aliunde* ou *per relationem*)**, admitida pelo **art. 50, § 1º, da Lei nº 9.784/1999**, que regula o processo administrativo federal. A autoridade continua responsável por sua decisão.
+- Um parecer **meramente opinativo**, sem efeito jurídico imediato sobre o interessado, em regra não é o ato impugnável diretamente por **mandado de segurança** (ação destinada a proteger direito líquido e certo contra ilegalidade ou abuso de poder). O controle costuma dirigir-se ao ato decisório que o adota. Contudo, se o parecer tiver efeito próprio e concreto, a análise da possibilidade de impugnação muda; simples homologação formal não basta para presumir esse efeito.
 
 ---
 
 ## 2. Tipologia dos Pareceres Administrativos
 
-A doutrina administrativista clássica (consagrada por Oswaldo Aranha Bandeira de Mello e acolhida pacificamente pelo STF no histórico **MS 24.631/DF**) classifica os pareceres em três categorias fundamentais:
+A classificação doutrinária abaixo ajuda a identificar **se consultar é obrigatório e se seguir a opinião é obrigatório**. O **MS 24.631/DF**, julgado pelo Supremo Tribunal Federal, é uma referência importante sobre o tema, mas a aplicação dos efeitos e a responsabilidade devem seguir cada norma e o caso concreto.
 
 ### 2.1. Parecer facultativo
-A consulta é **facultativa** quando a norma não a torna etapa exigida para a decisão. A autoridade solicita o parecer por necessidade técnica e decide, motivadamente, se acolhe suas conclusões.
+A consulta é **facultativa** quando nenhuma norma a exige como etapa obrigatória. A autoridade pode solicitar apoio técnico para decidir. Imagine a chefia pedindo opinião sobre estratégia de divulgação institucional: ela pode seguir ou rejeitar a recomendação, justificando sua própria decisão.
 
 A natureza facultativa **não cria irresponsabilidade absoluta do parecerista**. A imputação pessoal depende de conduta concreta, elemento subjetivo e nexo com o resultado, considerados o regime aplicável e o art. 28 da LINDB. Divergência interpretativa razoavelmente fundamentada não equivale automaticamente a erro grosseiro.
 
@@ -104,7 +104,7 @@ Os mandados de segurança **MS 24.631/DF** e **MS 24.584/DF** são referências 
 
 A análise deve verificar **(1)** se o parecer foi exigido, **(2)** se vinculava o ato, **(3)** o dever concreto do parecerista, **(4)** dolo ou erro grosseiro no regime da LINDB, **(5)** a participação causal no resultado e **(6)** qual órgão possui competência para apurar. Parecer motivado com interpretação jurídica defensável não configura, apenas pela divergência, ilícito imputável ao autor.
 
-O art. 133 da Constituição protege a atuação do **advogado** nos limites da lei, e não confere a qualquer consultor técnico uma imunidade funcional genérica.
+O **art. 133 da Constituição Federal de 1988** protege o **advogado** por seus atos e manifestações no exercício da profissão, nos limites da lei. Isso não representa imunidade geral de qualquer consultor técnico nem afasta apuração de dolo ou erro grosseiro quando cabível.
 
 ### 3.3. Tribunal de Contas da União: fundamento correto e limites
 O Tribunal de Contas da União pode examinar condutas de pareceristas no contexto de suas competências de controle, observando responsabilidade pessoal, dever funcional, dolo ou erro grosseiro, nexo e consequências concretas. A mera participação na emissão de parecer não demonstra solidariedade pelo ato de gestão.
@@ -116,7 +116,7 @@ Fonte primária: [TCU, Súmula 222](https://pesquisa.apps.tcu.gov.br/documento/s
 ### 3.4. Lei nº 14.133/2021: controle de legalidade e representação
 O **art. 53** estabelece o controle prévio de legalidade por assessoramento jurídico, ressalvadas as **hipóteses de dispensa do § 5º**. O parecer deve apreciar elementos indispensáveis e explicitar os pressupostos de fato e direito (art. 53, § 1º, II).
 
-O **art. 10 trata da representação pela advocacia pública de autoridades e servidores participantes dos procedimentos licitatórios e contratuais** quando precisem defender ato praticado **em estrita observância de orientação constante de parecer jurídico** elaborado nos termos do art. 53, § 1º. A representação ocorre **a critério do agente** e não se aplica quando constarem dos autos provas de atos ilícitos dolosos (art. 10, § 1º, II); também alcança quem já deixou a função (§ 2º). **O dispositivo não oferece automaticamente defesa pessoal ao autor de qualquer parecer por todo ato funcional.**
+O **art. 10 da Lei nº 14.133/2021** trata da **representação, pela advocacia pública, de autoridades e servidores que participaram de procedimentos licitatórios ou contratuais**, quando precisem se defender por ato praticado **em estrita observância de orientação de parecer jurídico** elaborado conforme o art. 53, § 1º. Essa regra refere-se aos **participantes do procedimento**, não a uma defesa automática e irrestrita de qualquer parecerista. A representação ocorre **a critério do agente** e não se aplica quando constarem dos autos provas de atos ilícitos dolosos (art. 10, § 1º, II); também alcança quem já deixou a função (§ 2º). **O dispositivo não oferece representação automática e irrestrita a quem elaborou qualquer parecer.** A garantia depende dos pressupostos legais e do papel exercido no procedimento.
 
 **Exemplo:** gestor observa estritamente orientação jurídica regular e precisa defender essa decisão. As condições do art. 10 devem ser verificadas. Se o gestor decide em desacordo com a orientação, a regra específica do artigo não pode ser presumida.
 
@@ -170,7 +170,7 @@ Acerca do conceito de erro grosseiro previsto no art. 28 da LINDB e sua incidên
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** Nos termos do art. 28 da LINDB e do Decreto regulamentador nº 9.830/2019, o **erro grosseiro** consubstancia a **culpa grave**, isto é, aquele erro inescusável decorrente de manifesta negligência, imperícia evidente ou imprudência temerária, que desrespeita jurisprudência pacificada das Cortes de Contas ou ignora texto expresso de lei sem qualquer fundamentação jurídica plausível. A mera adoção de interpretação jurídica controvertida ou tese doutrinária minoritária, quando respaldada em argumentos racionais e consistentes, **não caracteriza por si só erro grosseiro**. A inviolabilidade profissional do art. 133 da Constituição refere-se ao **advogado nos limites da lei**; os demais agentes técnicos são avaliados conforme seu regime jurídico e as condições concretas do parecer.
+> **Comentário:** A LINDB, art. 28, e o **Decreto nº 9.830/2019**, que disciplina sua aplicação, associam **erro grosseiro** a erro manifesto, evidente e inescusável, caracterizado por **culpa grave**. Adotar tese minoritária, mas fundamentada e juridicamente defensável, não demonstra por si só erro grosseiro. Para responsabilizar, é preciso verificar o dever profissional, a conduta, o elemento subjetivo aplicável e o nexo com o resultado. O art. 133 da Constituição protege a atuação do advogado nos limites legais, sem criar imunidade geral.
 
 ---
 
@@ -178,13 +178,13 @@ Acerca do conceito de erro grosseiro previsto no art. 28 da LINDB e sua incidên
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 Julgue o item a seguir, referente aos pareceres vinculantes no âmbito federal.
 
-> Os pareceres emanados pela Advocacia-Geral da União que obtenham expressa aprovação do Presidente da República adquirem caráter vinculante para toda a Administração Pública Federal direta e indireta, vinculando compulsoriamente os órgãos subordinados ao seu estrito cumprimento a partir de sua publicação oficial.
+> O parecer do Advogado-Geral da União aprovado pelo Presidente da República **e publicado juntamente com o despacho presidencial** vincula os órgãos e entidades da Administração Federal, que devem observar seu conteúdo.
 
 **( ) Certo**  
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** O núcleo da assertiva é compatível **quando houver publicação conjunta do parecer e do despacho presidencial**, condição expressa do art. 40, § 1º, da LC nº 73/1993. Quando o parecer é aprovado mas **não publicado**, a vinculação tem alcance mais restrito (§ 2º). O § 2º diferencia parecer aprovado **não publicado**, que obriga apenas repartições interessadas a partir da ciência.
+> **Comentário:** O **art. 40, § 1º, da Lei Complementar nº 73/1993**, Lei Orgânica da Advocacia-Geral da União, exige **aprovação presidencial e publicação conjunta do parecer e do despacho** para vincular a Administração Federal. Pelo **§ 2º**, se aprovado mas não publicado, obriga apenas repartições interessadas a partir da ciência. A questão enuncia expressamente as duas condições para a vinculação geral.
 
 ---
 
@@ -227,7 +227,7 @@ Julgue o item seguinte, relativo à responsabilidade do gestor público que acol
 
 - **Constituição Federal de 1988:** art. 37, *caput*; art. 133 (inviolabilidade do advogado).
 - **Decreto-Lei nº 4.657/1942 (LINDB):** art. 28 (responsabilização por dolo ou erro grosseiro) e Decreto nº 9.830/2019 (regulamentação de erro grosseiro).
-- **Lei Complementar nº 73/1993 (Lei Orgânica da AGU):** arts. 40 e 41 (pareceres vinculantes com aprovação presidencial).
-- **Lei nº 14.133/2021 (Nova Lei de Licitações):** arts. 10 e 53 (controle prévio de legalidade e representação judicial do parecerista).
+- [Lei Complementar nº 73/1993 (Lei Orgânica da AGU)](https://www2.camara.leg.br/legin/fed/leicom/1993/leicomplementar-73-10-fevereiro-1993-354947-normaatualizada-pl.html): arts. 40 a 43 (efeitos de aprovação, publicação e vinculação dos pareceres).
+- [Lei nº 14.133/2021 (Lei de Licitações e Contratos Administrativos)](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm): arts. 10 e 53 (controle jurídico prévio, hipóteses de dispensa e representação de agentes participantes que observam estritamente parecer jurídico nas condições legais).
 - **Supremo Tribunal Federal:** MS 24.631/DF e MS 24.584/DF (regime de responsabilidade em pareceres facultativos, obrigatórios e vinculantes).
 - **Tribunal de Contas da União:** [Súmula 222](https://pesquisa.apps.tcu.gov.br/documento/sumula/%2A/NUMERO%253A222/DTRELEVANCIA%2520desc%252C%2520NUMEROINT%2520desc/0/sinonimos%253Dtrue), citada apenas para delimitar seu objeto (normas gerais de licitação), não como precedente de responsabilidade do parecerista.

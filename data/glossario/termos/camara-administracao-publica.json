@@ -172,6 +172,131 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-governanca-publica-decreto",
+      "term": "Governança pública no Decreto nº 9.203/2017",
+      "aliases": [],
+      "definition": "Conjunto de mecanismos de liderança, estratégia e controle para avaliar, direcionar e monitorar a gestão. O Decreto nº 9.203/2017 estabelece a política de governança da administração direta, autárquica e fundacional do Poder Executivo federal.",
+      "contrast": "Governança orienta e monitora a gestão; gestão executa processos e administra recursos. Governabilidade expressa condições políticas para sustentar decisões e não é definida por esse decreto.",
+      "cebraspeTrap": "Afirmar que governança consiste apenas na execução de tarefas ou que esse decreto federal automaticamente vincula a Câmara como seu regimento interno.",
+      "example": "A direção define o resultado público esperado, recebe indicadores sobre a execução e decide corrigir um serviço que não atende parte da população.",
+      "articleIds": [
+        "art-23fe2441eab94f8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Decreto nº 9.203/2017, arts. 1º e 2º, I",
+          "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-valor-publico",
+      "term": "Valor público",
+      "aliases": [],
+      "definition": "Produtos e resultados efetivos e úteis para necessidades de interesse público, capazes de produzir mudanças para a sociedade ou grupos destinatários legítimos, conforme o art. 2º, II, do Decreto nº 9.203/2017.",
+      "contrast": "Economizar recursos ou publicar muitas páginas não comprova, sozinho, que os cidadãos receberam benefício, que direitos foram respeitados ou que os grupos mais afetados foram alcançados.",
+      "cebraspeTrap": "Tratar a quantidade de serviços entregues como prova suficiente de que houve mudança efetiva e equitativa para todos os destinatários.",
+      "example": "Publicar relatórios é uma entrega; melhorar a capacidade das pessoas de encontrá-los e compreendê-los pode ser resultado com valor público.",
+      "articleIds": [
+        "art-23fe2441eab94f8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Decreto nº 9.203/2017, art. 2º, II",
+          "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-triangulo-mark-moore",
+      "term": "Triângulo estratégico de Mark Moore",
+      "aliases": [],
+      "definition": "Modelo teórico de estratégia pública que examina conjuntamente o valor público pretendido, a legitimidade e o apoio para agir e a capacidade operacional para executar. A coerência entre os três eixos orienta decisões de política pública.",
+      "contrast": "Os eixos do modelo de Moore são distintos dos mecanismos liderança, estratégia e controle do art. 5º do Decreto nº 9.203/2017; não são três nomes para o mesmo conteúdo normativo.",
+      "cebraspeTrap": "Afirmar que capacidade técnica e recursos bastam para justificar uma política sem investigar necessidade pública, autorização e sustentação institucional.",
+      "example": "Antes de lançar serviço digital, o órgão avalia a utilidade social, a autorização necessária e a disponibilidade de equipes e infraestrutura.",
+      "articleIds": [
+        "art-23fe2441eab94f8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Mark Moore, On Creating Public Value, Harvard Kennedy School",
+          "url": "https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/programs/cri/files/workingpaper_3_moore_khagram.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-mecanismos-governanca-9203",
+      "term": "Mecanismos de governança: liderança, estratégia e controle",
+      "aliases": [],
+      "definition": "O art. 5º do Decreto nº 9.203/2017 define liderança como condições humanas de integridade e competência, estratégia como direção e prioridades, e controle como processos para reduzir riscos e preservar legalidade e economicidade.",
+      "contrast": "Esses mecanismos podem operar simultaneamente e não são etapas cronológicas obrigatórias. Fiscalizar conformidade é parte possível do controle, mas não equivale ao sistema inteiro de governança.",
+      "cebraspeTrap": "Trocar um dos três mecanismos por execução ou afirmar que controle vem apenas depois de terminada toda atividade estratégica.",
+      "example": "Dirigentes designam responsabilidades, escolhem prioridades de acesso à informação e monitoram riscos e resultados do serviço.",
+      "articleIds": [
+        "art-23fe2441eab94f8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Decreto nº 9.203/2017, arts. 5º e 6º",
+          "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-riscos-controles-9203",
+      "term": "Gestão de riscos e controles internos no Decreto nº 9.203/2017",
+      "aliases": [],
+      "definition": "Processo permanente de identificar, avaliar e gerenciar eventos que possam ameaçar objetivos. O art. 17 exige que riscos integrem o planejamento e que controles sejam proporcionais, considerando custo-benefício e responsabilidade da alta administração.",
+      "contrast": "Gestão de riscos produz segurança razoável, não certeza absoluta. Auditoria interna, no art. 18, avalia e presta consultoria independente, sem assumir a decisão gerencial.",
+      "cebraspeTrap": "Considerar que todo aumento do número de controles é melhor ou que o auditor passa a ser o responsável por dirigir a organização.",
+      "example": "Para evitar divulgação indevida de dados, o órgão identifica riscos, institui revisão proporcional, monitora incidentes e corrige falhas.",
+      "articleIds": [
+        "art-23fe2441eab94f8d"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Decreto nº 9.203/2017, arts. 2º, IV, 17 e 18",
+          "url": "https://www2.camara.leg.br/legin/fed/decret/2017/decreto-9203-22-novembro-2017-785782-normaatualizada-pe.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

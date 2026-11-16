@@ -5582,10 +5582,12 @@
         "administracao-publica"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P1.4"
+        "P1.4",
+        "P1. 14.2.3 / Administração Pública / Governança"
       ],
       "note": {
         "articleId": "art-23fe2441eab94f8d",
@@ -5597,8 +5599,8 @@
         "locator": "Arts. 2º e 5º; mecanismos de governança"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-16",
+      "revision": 3,
       "conceptIds": [
         "governanca-avalia-direciona-monitora"
       ],
@@ -5618,10 +5620,12 @@
         "administracao-publica"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P1.4"
+        "P1.4",
+        "P1. 14.2.3 / Administração Pública / Governança"
       ],
       "note": {
         "articleId": "art-23fe2441eab94f8d",
@@ -5633,8 +5637,8 @@
         "locator": "Arts. 2º e 5º; mecanismos de governança"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-16",
+      "revision": 3,
       "conceptIds": [
         "governanca-versus-governabilidade"
       ],

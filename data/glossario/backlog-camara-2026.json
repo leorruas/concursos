@@ -675,6 +675,46 @@
       "examBlock": "Conhecimentos básicos",
       "contestId": "camara-2026",
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-governanca-publica-decreto",
+      "term": "Governança pública no Decreto nº 9.203/2017",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-valor-publico",
+      "term": "Valor público",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-triangulo-mark-moore",
+      "term": "Triângulo estratégico de Mark Moore",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-mecanismos-governanca-9203",
+      "term": "Mecanismos de governança: liderança, estratégia e controle",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-riscos-controles-9203",
+      "term": "Gestão de riscos e controles internos no Decreto nº 9.203/2017",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

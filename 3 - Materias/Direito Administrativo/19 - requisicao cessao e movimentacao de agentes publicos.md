@@ -79,25 +79,27 @@ Fonte: [Decreto nº 10.835/2021, arts. 9º, 10 e 17 a 26](https://www2.camara.le
 
 ### 2.1. Conceito, participantes e anuências
 
-A **cessão** é a alteração do exercício de agente público para outro órgão ou entidade, preservado o vínculo funcional de origem. O conceito do Decreto nº 10.835/2021 **não exige estabilidade como requisito universal**, e o seu art. 1º também abrange determinadas categorias de empregados públicos.
+Na **cessão**, o agente passa a exercer atividades em outro órgão ou entidade, preservando o vínculo com a origem. **Cedente** é o órgão que disponibiliza; **cessionário**, o órgão que recebe. Não se exige **estabilidade como requisito universal**; o art. 1º do Decreto nº 10.835/2021 contempla servidores efetivos e certas categorias de empregados públicos.
 
-Para a cessão no regime do decreto, o art. 3º, § 2º, exige **três condições cumulativas**: **pedido do órgão cessionário**, **concordância do cedente** e **concordância do próprio agente público**. Como regra, a cessão para cargo em comissão ou função de confiança admite exceções estabelecidas em lei.
+Para uma cessão no regime do decreto, o art. 3º, § 2º, exige **três condições cumulativas:** (1) **pedido do órgão cessionário**, (2) **concordância do cedente** e (3) **concordância do agente**. A autorização depende ainda de finalidade, competências e limites da legislação aplicável.
 
-**Exemplo:** uma autarquia federal recebe pedido para cessão de servidora a ministério. O interesse do destino, por si só, não supre a anuência da entidade de origem nem a concordância da servidora. Já a requisição legal válida, ou a alteração de exercício por realocação, tem disciplina distinta.
+**Exemplo:** um ministério solicita servidora de autarquia para cargo de direção. O pedido do destino, sozinho, não supre a anuência da autarquia e da servidora. Na **requisição eleitoral válida**, o regime é outro, porque o poder requisitório vem de lei especial.
 
 ### 2.2. Hipóteses legais de cabimento (Art. 93 da Lei nº 8.112/1990)
-O servidor público federal regido pela Lei nº 8.112/1990 somente pode ser cedido nas seguintes condições estritas:
-1. Para o **exercício de cargo em comissão ou função de confiança** (art. 93, I);
-2. Em casos previstos em **leis específicas** (art. 93, II).
 
-> [!IMPORTANT]
-> **Vício de desvio na cessão:** É ilegal e nula a cessão de servidor público federal para outro Poder ou ente federativo quando destinada ao desempenho de atribuições técnicas ordinárias sem vinculação a cargo em comissão ou função de confiança (salvo lei autorizativa expressa).
+O **art. 93 da Lei nº 8.112/1990**, estatuto dos servidores civis federais, admite cessão de servidor **(I) para exercer cargo em comissão ou função de confiança** ou **(II) nas hipóteses de lei específica**. Cessão não significa ingresso em novo cargo efetivo: o vínculo original permanece.
+
+No âmbito do **Decreto nº 10.835/2021**, o art. 3º, § 1º, repete essa regra, salvo lei em contrário. Seu **art. 4º** restringe a cessão para **outros Poderes, órgãos constitucionalmente autônomos ou entes federativos** a cargo ou função com graduação **mínima equivalente ao nível DAS 4**. O **art. 6º** também limita cessões que impliquem **reembolso pela Administração federal** a esse nível mínimo, **salvo a hipótese de estatal não dependente** prevista em seu parágrafo único. Esses limites pertencem ao decreto e devem ser lidos com sua incidência e com eventuais regras legais especiais.
+
+**Prazo e encerramento:** os arts. 7º e 8º do decreto preveem cessão **por prazo indeterminado**, que pode ser encerrada por iniciativa do cedente, cessionário ou agente, observados aviso e prazos de retorno. Se a cessão existe há mais de um ano, o destino pode exigir, no interesse da Administração, permanência por **até um mês** em determinadas condições (art. 8º, § 2º). Prazo indeterminado **não equivale a vínculo permanente com o destino**.
+
+**Caso comparativo:** uma servidora aceita cessão para exercer cargo comissionado de outro ente, respeitadas as condições legais; isso pode ser regular. Um órgão que simplesmente queira utilizar sua força de trabalho para atividades técnicas comuns, **sem cargo comissionado e sem lei especial**, não satisfaz o art. 93. A solução exige procurar outro instrumento legal, e não apenas mudar o nome da movimentação.
 
 ### 2.3. Ônus econômico, pagamento em folha e reembolso
 
 A **Lei nº 8.112/1990, art. 93, § 1º**, disciplina a cessão para cargo em comissão ou função de confiança: na movimentação para órgãos ou entidades de **Estados, Distrito Federal e Municípios**, o **ônus da remuneração cabe ao cessionário**. Nos demais casos da hipótese, a regra do parágrafo mantém o ônus do cedente, **ressalvadas as previsões legais e regulamentares especiais**. Pelo § 2º, quando o servidor cedido a **empresa pública ou sociedade de economia mista** opta pela remuneração prevista no dispositivo, a entidade cessionária deve reembolsar as despesas feitas pela origem. A cessão depende também das regras de formalização do art. 93, § 3º.
 
-O **Decreto nº 10.835/2021, arts. 17 a 26**, disciplina a **restituição das parcelas efetivamente despendidas** com agentes movimentados em seu âmbito. Ele distingue quando existe obrigação de reembolso, quando não haverá reembolso pela administração pública federal e quais parcelas podem ser incluídas. A expressão “destino suporta o ônus” (art. 21) **não autoriza deduzir que todo movimento exige depósito mensal à origem**, pois a ocorrência de reembolso depende das hipóteses dos arts. 18 a 20.
+O **Decreto nº 10.835/2021, arts. 17 a 26**, disciplina o **reembolso**, que é a restituição das parcelas efetivamente despendidas pela origem nas hipóteses legais. **Pagamento em folha** é quem deposita a remuneração; **ônus econômico** é quem deve suportar o custo ao final; **reembolso** é o ajuste financeiro entre órgãos. Uma origem pode continuar pagando em folha enquanto o destino assume o ônus por reembolso. Ele distingue quando existe obrigação de reembolso, quando não haverá reembolso pela administração pública federal e quais parcelas podem ser incluídas. A expressão “destino suporta o ônus” (art. 21) **não autoriza deduzir que todo movimento exige depósito mensal à origem**, pois a ocorrência de reembolso depende das hipóteses dos arts. 18 a 20.
 
 | Situação de referência | Ônus ou regra de reembolso | Fundamento |
 | --- | --- | --- |
@@ -135,15 +137,17 @@ Fontes: [Decreto 10.835/2021, arts. 2º, 12 e 13](https://www2.camara.leg.br/leg
 | Critério | Requisição | Cessão | Composição da força de trabalho |
 | --- | --- | --- | --- |
 | Fundamento | Prerrogativa legal específica | Lei 8.112, art. 93 e normas de cessão | Decreto 10.835, arts. 12–13 e regras complementares |
-| Anuência | Em regra, irrecusável se legalmente válida | Pedido do destino, concordância do cedente e do agente | Indicação consensual exige anuências; realocação as dispensa segundo MGI |
-| Destino | Conforme a lei de requisição | Conforme lei e regime do vínculo | **Somente Executivo federal** |
-| Finalidade | Necessidade prevista em lei requisitória | Regra de comissão/confiança ou lei específica | Adequação da distribuição da força de trabalho |
+| Anuência | Irrecusável quando legalmente válida; Justiça Eleitoral admite indicação nominal | Pedido do destino e concordância da origem e agente, no decreto | Consensual exige anuências; realocação dispensa anuência da origem, conforme modalidade |
+| Destino | Conforme lei especial e requisitos de elegibilidade | Conforme art. 93 e normas incidentes, inclusive limites de cargo do decreto | **Somente Executivo federal** |
+| Finalidade | Necessidade legalmente autorizada, com restrições de cargos e prazos | Comissão/confiança ou hipótese de lei específica | Distribuição da força de trabalho entre órgãos do Executivo federal |
 | Ônus/reembolso | Lei requisitória e, se cabível, decreto | Art. 93 da Lei 8.112 e arts. 17–26 do decreto: distinguir ônus, folha e restituição | Na composição interna ao Executivo, analisar arts. 18–21; estatal não dependente pode exigir reembolso |
 | Apuração disciplinar | Considerar local do fato, vínculo e competência de julgamento | Instauração/instrução pode ocorrer no destino; julgamento/sanção sobre cargo efetivo têm competência própria | Examinar competência e vínculo funcional originário |
 
 ### Competência disciplinar no caso de servidor cedido
 
-O **STJ, MS 21.991/DF**, admite separação das fases: a **instauração e a apuração** devem ocorrer preferencialmente no órgão onde se deu a irregularidade; o **julgamento e eventual sanção**, quando encerrada a cessão e retornado o servidor, são da autoridade do órgão de origem à qual se vincula o cargo efetivo. Isso impede tanto a tese de que o órgão de destino nunca pode instaurar PAD quanto a de que pode demitir autonomamente servidor efetivo vinculado a outro ente.
+No **STJ, MS 21.991/DF, julgado em 2016**, foi admitida a separação das fases do processo administrativo disciplinar (PAD). A **instauração e a instrução** devem ocorrer preferencialmente onde o fato aconteceu. No caso concreto, **a cessão já havia terminado e o servidor retornado à origem**; por isso, o **julgamento e a eventual sanção** competiam à autoridade do órgão ao qual se vinculava o cargo efetivo.
+
+**Exemplo:** durante cessão, servidor pratica possível infração no destino. O órgão que conheceu o fato pode apurar; a competência para julgar e aplicar demissão não decorre automaticamente do local de exercício. Deve-se verificar vínculo e competência legal. **Não extrapole o precedente** para toda hipótese de cessão em andamento sem examinar seus fatos.
 
 Fonte: [STJ, Informativo 598, MS 21.991/DF](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D016203).
 

@@ -60,6 +60,9 @@ Na década de 1990, o debate sobre crise fiscal, qualidade dos serviços e capac
 
 O PDRAE é **documento de política administrativa**, não lei que, por sua simples publicação, transferiu competências, privatizou entidades ou criou todas as estruturas previstas. Algumas propostas influenciaram normas posteriores; cada medida jurídica depende do ato legislativo ou administrativo correspondente.
 
+<!-- Título canônico legado mantido apenas para validar theoryRefs existentes, sem exibir código editorial ao leitor.
+### PDRAE: quatro setores, propriedade e formas de execução (CAM-AP-005; DA-026)
+-->
 <a id="pdrae-quatro-setores-propriedade-e-formas-de-execucao-cam-ap-005-da-026"></a>
 
 ### PDRAE: quatro setores, propriedade e formas de execução

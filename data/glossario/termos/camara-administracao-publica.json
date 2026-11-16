@@ -299,56 +299,6 @@
       "status": "reviewed"
     },
     {
-      "id": "glo-camara-transparencia-ativa",
-      "term": "Transparência ativa",
-      "aliases": [],
-      "definition": "Divulgação pela Administração, independentemente de pedido, das informações de interesse coletivo ou geral, conforme o art. 8º da Lei de Acesso à Informação. Inclui despesas, contratos, estrutura e programas, observados os deveres de proteção legal.",
-      "contrast": "Transparência passiva começa com pedido específico de acesso. Publicar informação não afasta a exigência de formatos acessíveis, atualização, pesquisa e proteção de dados restritos.",
-      "cebraspeTrap": "Afirmar que basta publicar qualquer arquivo em imagem, sem pesquisa, atualização ou acessibilidade, para cumprir integralmente as exigências do art. 8º.",
-      "example": "A Câmara divulga despesas e contratos em seu portal, com mecanismos de busca, dados atualizados e resguardo dos trechos legalmente protegidos.",
-      "articleIds": [
-        "art-2ca37017208841b8"
-      ],
-      "subjectIds": [
-        "administracao-publica"
-      ],
-      "contestIds": [
-        "camara-2026"
-      ],
-      "sources": [
-        {
-          "label": "LAI, art. 8º",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
-        }
-      ],
-      "status": "reviewed"
-    },
-    {
-      "id": "glo-camara-transparencia-passiva",
-      "term": "Transparência passiva",
-      "aliases": [],
-      "definition": "Atendimento ao pedido de acesso à informação apresentado pelo interessado ao órgão competente. O art. 10 da LAI veda exigir motivação pessoal; o art. 11 prevê acesso imediato quando possível ou resposta em até vinte dias, prorrogáveis justificadamente por dez.",
-      "contrast": "Transparência ativa decorre de divulgação espontânea. A ausência de obrigação de justificar o pedido não dispensa o órgão de fundamentar sua negativa e informar as vias recursais.",
-      "cebraspeTrap": "Concluir que a administração pode exigir do solicitante prova de interesse especial ou que vinte dias são prazo mínimo para fornecer informação já disponível.",
-      "example": "Uma pessoa pede à Câmara cópia de determinado contrato: a casa deve analisar o pedido e oferecer acesso ou justificar as restrições legalmente cabíveis.",
-      "articleIds": [
-        "art-2ca37017208841b8"
-      ],
-      "subjectIds": [
-        "administracao-publica"
-      ],
-      "contestIds": [
-        "camara-2026"
-      ],
-      "sources": [
-        {
-          "label": "LAI, arts. 10 e 11",
-          "url": "https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html"
-        }
-      ],
-      "status": "reviewed"
-    },
-    {
       "id": "glo-camara-accountability-transparencia",
       "term": "Accountability",
       "aliases": [],

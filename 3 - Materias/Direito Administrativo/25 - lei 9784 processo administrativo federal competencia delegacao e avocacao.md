@@ -7,8 +7,8 @@ subjectId: "direito-administrativo"
 topicId: "processo-administrativo"
 trackId: "direito-administrativo"
 created: "2026-11-09"
-updated: "2026-11-13"
-revision: 2
+updated: "2026-11-16"
+revision: 3
 status: "published"
 confidenceLevel: "high"
 importanceLevel: "critical"
@@ -23,7 +23,7 @@ reviewedBy: "Auditoria Editorial e Dogmática"
 
 Imagine que um cidadão pede à Câmara dos Deputados a revisão de uma decisão administrativa. Quem pode decidir o pedido? A autoridade que recebeu o processo pode pedir que outra decida? E um superior pode assumir a decisão? Essas perguntas envolvem **competência administrativa**, isto é, a atribuição dada por norma a um órgão ou agente para praticar determinado ato. A Lei nº 9.784, de 29 de janeiro de 1999, estabelece regras para responder a elas.
 
-A lei se aplica à Administração Pública federal direta e indireta. Também alcança a Câmara e os demais órgãos dos Poderes Legislativo e Judiciário da União **quando exercem função administrativa**, como gerir pessoal ou contratos, e não quando legislam ou julgam processos judiciais (art. 1º, § 1º). Processos federais com lei específica seguem primeiro essa lei especial; a Lei nº 9.784/1999 atua de forma subsidiária no que for compatível (art. 69). Isso não torna a lei automaticamente obrigatória para todos os processos estaduais e municipais.
+A lei se aplica à Administração Pública federal direta e indireta. Também alcança a Câmara e os demais órgãos dos Poderes Legislativo e Judiciário da União **quando exercem função administrativa**, como gerir pessoal ou contratos, e não quando legislam ou julgam processos judiciais (art. 1º, § 1º). Para a prova, diferencie **órgão** (unidade sem personalidade jurídica própria), **entidade** (unidade com personalidade jurídica) e **autoridade** (agente público dotado de poder de decisão), conforme o art. 1º, § 2º. Processos federais com lei específica seguem primeiro essa lei especial; a Lei nº 9.784/1999 atua de forma subsidiária no que for compatível (art. 69). Isso não torna a lei automaticamente obrigatória para todos os processos estaduais e municipais.
 
 O ponto decisivo é distinguir **titularidade da competência**, que permanece atribuída pela norma, de **exercício da competência**, que pode mudar temporariamente nas condições legais. A seguir, a regra será aplicada a situações concretas, antes de comparar delegação e avocação.
 ---
@@ -54,9 +54,9 @@ A Administração Pública obedecerá, dentre outros, aos princípios da **legal
 Nos termos do parágrafo único do art. 2º, destacam-se os seguintes critérios norteadores:
 - **Atuação conforme a lei e o Direito:** consagração do princípio da juridicidade administrativa (respeito à legalidade e aos princípios constitucionais);
 - **Impulsão de ofício:** o processo administrativo pode iniciar-se de ofício ou a pedido do interessado, mas, uma vez instaurado, a sua tramitação e instrução são impulsionadas de ofício pela própria Administração, sem prejuízo da atuação dos interessados (art. 2º, parágrafo único, XII, combinado com o art. 29);
-- **Formalismo moderado:** adoção de formas simples, suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados, vedada a exigência de formalidades dispensáveis (art. 2º, parágrafo único, VIII e IX);
+- **Formalismo moderado:** o art. 2º, parágrafo único, VIII e IX, exige observar as formalidades essenciais à proteção de direitos e, ao mesmo tempo, adotar formas simples e suficientes. Não autoriza ignorar uma formalidade que a lei considere indispensável;
 - **Proibição de cobrança de despesas processuais:** ressalvadas as previstas em lei expressa (gratuidade do processo administrativo);
-- **Vedação de aplicação retroativa de nova interpretação:** a alteração superveniente de orientação interpretativa jurídica da Administração não autoriza a desconstituição de atos pretéritos consolidados sob a orientação anterior, preservando a segurança jurídica e a confiança legítima (art. 2º, parágrafo único, XIII).
+- **Vedação de aplicação retroativa de nova interpretação:** o art. 2º, parágrafo único, XIII, proíbe aplicar retroativamente uma nova interpretação administrativa da norma. Isso protege a segurança jurídica, sem impedir que um ato anterior ilegal seja examinado segundo as regras aplicáveis de anulação, decadência e boa-fé.
 
 ---
 
@@ -172,13 +172,22 @@ O raciocínio segue quatro perguntas: há uma relação de hierarquia? A situaç
 
 ## 6. O instituto da decisão coordenada (Lei nº 14.210/2021)
 
-A Lei nº 14.210/2021 inseriu os arts. 49-A a 49-G na Lei nº 9.784/1999, disciplinando o mecanismo da **decisão coordenada**.
+Imagine que uma decisão administrativa federal exige a participação de quatro setores, mas eles discordam sobre uma solução e isso está atrasando o processo. Uma reunião organizada para que todos decidam simultaneamente pode ser mais adequada do que enviar o processo de uma mesa para outra. A **Lei nº 14.210/2021** acrescentou à Lei nº 9.784/1999 os arts. 49-A a 49-G para disciplinar essa **decisão coordenada**.
 
-- **Conceito:** é a articulação formal de órgãos ou entidades da administração pública federal que tenham competências decisórias conexas para deliberar conjuntamente sobre matéria complexa e intersetorial, visando à integração e simplificação do processo decisório (art. 49-A);
-- **Vedações absolutas de cabimento (art. 49-A, § 1º):** o instituto da decisão coordenada **não se aplica**:
-  1. Aos processos administrativos de **licitação**;
-  2. Aos processos relacionados ao poder sancionador da administração (**processos disciplinares ou punitivos**);
-  3. Aos processos em que haja discordância que envolva matéria sob competência privativa de órgãos ou poderes com autonomia constitucional.
+**Quando cabe (art. 49-A, caput):** é necessário que a decisão exija a participação de **três ou mais setores, órgãos ou entidades** e que, cumulativamente, **a relevância da matéria justifique o procedimento** e **exista discordância que prejudique a rapidez da decisão**. Não basta o tema ser complexo ou envolver dois órgãos. A decisão coordenada funciona como instância compartilhada, com participação simultânea dos decisores e dos responsáveis pela instrução técnico-jurídica (§ 1º); cada autoridade mantém sua responsabilidade originária (§ 4º).
+
+**Quando não cabe (art. 49-A, § 6º):** a lei exclui três hipóteses, mesmo que existam três órgãos e discordância: processos de **licitação**, processos relacionados ao **poder sancionador** (como PAD) e processos **que envolvam autoridades de Poderes distintos**. Este último impedimento se refere à participação de autoridades de Poderes diferentes; não depende de provar que houve disputa sobre uma competência privativa.
+
+**Como termina:** os participantes registram em ata fundamentos, propostas e a decisão de cada órgão ou entidade sobre a matéria de sua competência (art. 49-G). A ata tem publicação por extrato no Diário Oficial da União (§ 3º). Um interessado pode participar como ouvinte, e eventualmente falar se a autoridade responsável pela convocação permitir (art. 49-B).
+
+| Situação | Cabe decisão coordenada? | Por quê? |
+| --- | --- | --- |
+| Quatro setores do mesmo Poder precisam decidir tema relevante e discordam, atrasando a decisão | **Em princípio, sim** | Preenche número mínimo e requisitos cumulativos, desde que não haja vedação do § 6º |
+| Dois órgãos discutem um assunto complexo | **Não**, por esse mecanismo | A lei exige pelo menos três setores, órgãos ou entidades |
+| Órgãos dos Poderes Executivo e Legislativo querem decidir conjuntamente | **Não** | Autoridades de Poderes distintos estão excluídas pelo § 6º, III |
+| Três unidades participam de processo sancionador | **Não** | A vedação decorre da natureza punitiva do processo |
+
+A diferença para delegação e avocação é importante: na decisão coordenada **cada órgão continua competente por sua própria decisão**; não há transferência do exercício da competência nem tomada da competência de um subordinado.
 
 ---
 
@@ -218,4 +227,4 @@ A Lei nº 14.210/2021 inseriu os arts. 49-A a 49-G na Lei nº 9.784/1999, discip
 **6.** O instrumento da decisão coordenada, introduzido na Lei nº 9.784/1999 pela Lei nº 14.210/2021 para a deliberação conjunta entre órgãos e entidades sobre matérias complexas, pode ser plenamente utilizado em processos administrativos de licitação pública e em processos de natureza punitivo-disciplinar.
 
 > **Gabarito: ERRADO**  
-> **Comentário:** O art. 49-A, § 1º, da Lei nº 9.784/1999 veda expressamente a aplicação da decisão coordenada aos processos administrativos de licitação e àqueles relacionados ao poder sancionador da Administração Pública (como processos disciplinares e punitivos).
+> **Comentário:** O gabarito é ERRADO. O art. 49-A, **§ 6º, I e II**, da Lei nº 9.784/1999 impede decisão coordenada em licitações e processos sancionadores. O § 6º, III, também afasta processos com autoridades de Poderes distintos. O caput ainda exige **três ou mais setores, órgãos ou entidades**, relevância da matéria e discordância que atrase a decisão. O § 1º define o mecanismo, e não as vedações.

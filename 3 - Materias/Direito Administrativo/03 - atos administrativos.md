@@ -96,7 +96,7 @@ O art. 2º, parágrafo único, "b", da Lei nº 4.717/1965 estabelece que o víci
 
 ---
 
-## Motivo e Motivação
+## 4. Motivo e Motivação
 
 ### Distinção essencial entre motivo e motivação
 Para as bancas de concurso público (especialmente o Cebraspe), a distinção entre **motivo** e **motivação** é tema recorrente e decisivo:

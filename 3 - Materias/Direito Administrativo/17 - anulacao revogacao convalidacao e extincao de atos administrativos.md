@@ -37,19 +37,19 @@ flowchart TD
 
 ## 1. Anulação (Invalidação)
 
-### 1.1. Fundamento, dever de anular e competência
+### Fundamento, dever de anular e competência
 A **anulação** é a extinção forçada de um ato administrativo em decorrência de **vício originário de legalidade ou legitimidade** (desconformidade com a Constituição, lei ou regulamento no momento de sua edição).
 - **Natureza:** a Administração **deve enfrentar a ilegalidade**, mas a solução exige verificar se há convalidação possível (art. 55), decadência (art. 54) e proteção da confiança. O art. 53 não permite ignorar esses limites.
 - **Competência para anular:** pode ser efetuada:
   1. Pela **própria Administração Pública** (exercício direto da autotutela, de ofício ou mediante provocação);
   2. Pelo **Poder Judiciário**, quando formalmente provocado mediante ação judicial própria (mandado de segurança, ação civil pública, ação popular, etc.). O Judiciário **nunca anula de ofício** ato administrativo de outro Poder.
 
-### 1.2. Efeitos temporais: eficácia retroativa (*ex tunc*)
+### Efeitos temporais: eficácia retroativa (*ex tunc*)
 A declaração de nulidade atinge o ato desde a sua origem fática, operando efeitos retroativos (**efeito *ex tunc***):
 - **Regra:** a anulação procura desfazer os efeitos jurídicos desde a origem (*ex tunc*). A expressão não autoriza apagar automaticamente toda consequência já produzida, sobretudo quando há terceiros de boa-fé e situações consolidadas protegidas pelo Direito.
 - **Ressalva à retroatividade (proteção de terceiros de boa-fé):** em reverência aos princípios da boa-fé, da confiança legítima e da segurança jurídica, a jurisprudência consolidada do STF e do STJ preserva os efeitos práticos produzidos pelo ato nulo em favor de terceiros que tenham atuado imbuídos de boa-fé (ex.: atos praticados por funcionário de fato ou vencimentos percebidos de boa-fé por servidor nomeado com base em critério posteriormente invalidado).
 
-### 1.3. Limites à anulação: prazo decadencial de 5 anos (art. 54 da Lei nº 9.784/1999)
+### Limites à anulação: prazo decadencial de 5 anos (art. 54 da Lei nº 9.784/1999)
 A autotutela anulatória não é perpétua nem ilimitada no tempo:
 > *"O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé."* (art. 54, *caput*).
 
@@ -67,12 +67,12 @@ A **revogação** consiste na supressão de um ato administrativo **válido, per
 - **Competência exclusiva da Administração:** a revogação é prerrogativa privativa do Poder ou órgão que praticou o ato no exercício da função administrativa.
 - **Controle judicial:** o Judiciário não substitui o juízo legítimo de conveniência da Administração para **revogar atos administrativos de outro Poder**. Pode invalidá-los por ilegalidade e controlar o respeito aos limites jurídicos da discricionariedade. Quando o próprio Judiciário atua administrativamente, pode rever os seus atos segundo as regras aplicáveis.
 
-### 2.2. Efeitos temporais: eficácia prospectiva (*ex nunc*)
+### Efeitos temporais: eficácia prospectiva (*ex nunc*)
 Como o ato revogado nasceu perfeito e compatível com a ordem jurídica, a sua revogação produz exclusivamente efeitos futuros (**efeito *ex nunc***):
 - Os efeitos produzidos durante a vigência do ato permanecem intangíveis e válidos no tempo.
 - Não há qualquer retroatividade.
 
-### 2.3. Atos insuscetíveis de revogação (Atos Irrevogáveis)
+### Atos insuscetíveis de revogação (Atos Irrevogáveis)
 A doutrina sintetiza um rol consagrado de atos administrativos que **não admitem revogação**:
 1. **Atos vinculados:** como a autoridade não possui margem de conveniência na expedição (preenchidos os requisitos legais, o administrado tem direito subjetivo), não pode revogar por critério discricionário superveniente (ex.: licença para construir).
 2. **Atos consumados ou exauridos:** aqueles que já produziram integralmente todos os seus efeitos materiais (ex.: gozo de licença-prêmio já usufruída integralmente pelo servidor).
@@ -85,7 +85,7 @@ A doutrina sintetiza um rol consagrado de atos administrativos que **não admite
 
 ## 3. Convalidação (Saneamento ou Ratificação)
 
-### 3.1. Conceito e pressupostos dogmáticos
+### Conceito e pressupostos dogmáticos
 A **convalidação** é o ato administrativo pelo qual a autoridade supre vício prévio existente em ato com defeito sanável, confirmando sua validade no ordenamento jurídico.
 
 O art. 55 da Lei nº 9.784/1999 positiva os pressupostos cumulativos:
@@ -97,7 +97,7 @@ O art. 55 da Lei nº 9.784/1999 positiva os pressupostos cumulativos:
   3. Ausência de **prejuízo a terceiros**;
   4. A autoridade deve verificar o regime, o estágio do procedimento e os direitos envolvidos. **O art. 55 não estabelece, textualmente, vedação universal à convalidação de todo ato já impugnado**; a impugnação pode ser juridicamente relevante conforme o vício e o caso.
 
-### 3.2. Efeitos temporais: eficácia retroativa (*ex tunc*)
+### Efeitos temporais: eficácia retroativa (*ex tunc*)
 A convalidação, em regra, **retroage à edição do ato defeituoso (*ex tunc*)**, aproveitando os efeitos juridicamente admissíveis. Essa retroação não dispensa os requisitos do art. 55: defeito sanável e ausência de lesão ao interesse público ou prejuízo a terceiros.
 
 ```mermaid
@@ -120,7 +120,7 @@ flowchart TD
 
 ---
 
-## 4. Quadro Comparativo: Anulação, Revogação e Convalidação
+## Quadro Comparativo: Anulação, Revogação e Convalidação
 
 | Critério discriminador | Anulação | Revogação | Convalidação |
 | :--- | :--- | :--- | :--- |
@@ -136,19 +136,19 @@ flowchart TD
 
 Além da anulação e da revogação, o ato administrativo pode ser extinto pelas seguintes espécies dogmáticas:
 
-### 5.1. Cassação
+### Cassação
 Extinção do ato porque o seu **beneficiário descumpriu condição legal obrigatória superveniente** que deveria manter para continuar fruindo daquela situação jurídica (espécie de sanção pelo descumprimento culposo do particular).
 - *Exemplo clássico:* cassação da licença/alvará de funcionamento de estabelecimento comercial que passa a operar como ponto de tráfico de drogas, ou cassação da Carteira Nacional de Habilitação (CNH) por reincidência de infrações graves.
 
-### 5.2. Caducidade (Derrubada por Norma Superveniente)
+### Caducidade (Derrubada por Norma Superveniente)
 Na **classificação doutrinária de atos administrativos**, caducidade pode designar extinção por **norma superveniente** que torna incompatível atividade antes permitida. Não confundir com a **caducidade da concessão de serviço público** na **Lei nº 8.987/1995**, que rege concessões e permissões: seu art. 38 disciplina a extinção por inexecução contratual do concessionário, e não por simples lei nova.
 - *Exemplo clássico:* permissão concedida para uso de calçada por feirantes que caduca em decorrência de plano diretor municipal superveniente que proíbe qualquer ocupação de vias públicas naquela zona urbana residencial.
 
-### 5.3. Contraposição (Derrubada)
+### Contraposição (Derrubada)
 Extinção que ocorre pela **edição de um novo ato administrativo, fundado em competência diferente, cujos efeitos jurídicos são frontalmente incompatíveis e contraditórios** com o ato anterior, extinguindo-o por absorção.
 - *Exemplo clássico:* a edição do ato de **exoneração** extingue por contraposição o ato de **nomeação** anterior daquele mesmo agente público; o ato de **demissão** extingue a relação jurídica constituída pela posse funcional.
 
-### 5.4. Renúncia
+### Renúncia
 Extinção que decorre da **manifestação expressa de vontade do administrado beneficiário**, declarando perante o Poder Público que abdica voluntariamente da prerrogativa ou faculdade jurídica conferida pelo ato administrativo (aplicável apenas a direitos disponíveis).
 - *Exemplo:* o beneficiário renuncia a uma autorização de uso que podia livremente abandonar. A disponibilidade do direito precisa ser verificada; renúncia a aposentadoria para obter benefício novo não é exemplo seguro de aplicação geral.
 

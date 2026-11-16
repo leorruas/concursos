@@ -1246,6 +1246,60 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da25-delegacao-limites",
+      "term": "Delegação administrativa: exercício, limites e autoria do ato",
+      "aliases": [
+        "Delegação e autoridade delegada"
+      ],
+      "definition": "A competência é irrenunciável, mas o art. 12 admite delegar parte do exercício a órgão ou titular mesmo sem subordinação, salvo as três proibições do art. 13. O ato de delegação e a revogação são publicados; a decisão deve indicar a delegação e considera-se editada pelo delegado (art. 14).",
+      "contrast": "Delegação muda o exercício da competência em limites definidos; não transfere definitivamente sua titularidade e não depende necessariamente de hierarquia.",
+      "cebraspeTrap": "Indicar a autoridade delegante como autora do ato delegado ou permitir delegação de recursos, atos normativos ou competência exclusiva.",
+      "example": "Diretor delega a outra autoridade uma decisão individual permitida em lei, com delimitação publicada: o ato final deve indicar a delegação e é considerado editado pelo delegado.",
+      "articleIds": [
+        "art-c61cca38ed36e424"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999 atualizada pela Câmara dos Deputados",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da25-decisao-coordenada-requisitos",
+      "term": "Decisão coordenada: condições cumulativas e exclusões",
+      "aliases": [
+        "Cabimento da decisão coordenada"
+      ],
+      "definition": "Art. 49-A da Lei 9.784/1999: decisão administrativa que envolva pelo menos três setores, órgãos ou entidades, relevância da matéria e discordância que prejudique a celeridade. O § 6º exclui licitação, poder sancionador e processos com autoridades de Poderes distintos.",
+      "contrast": "A decisão coordenada mantém a responsabilidade decisória de cada órgão; não equivale à delegação nem à avocação.",
+      "cebraspeTrap": "Bastar dois setores ou citar § 1º como se contivesse vedações; ignorar o impedimento para autoridades de Poderes distintos.",
+      "example": "Quatro setores do mesmo Poder divergem e atrasam decisão relevante: poderá caber coordenação; em PAD ou licitação, o § 6º impede.",
+      "articleIds": [
+        "art-c61cca38ed36e424"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999 atualizada pela Câmara dos Deputados",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

@@ -5,7 +5,7 @@ title: "Tramitação legislativa: fases, comissões, Plenário e revisão bicame
 type: "conceito"
 status: "ativo"
 created: 2026-11-07
-updated: 2026-11-11
+updated: 2026-11-16
 aliases:
   - "Tramitação e fases do processo legislativo"
   - "Casa iniciadora e Casa revisora"
@@ -170,6 +170,151 @@ A unidade **CAM-PL-003** já apresenta **recebimento, comissões, Plenário, rev
 **Art. 151, III, do RICD:** têm tramitação ordinária **os projetos não compreendidos nos incisos anteriores**, que tratam de urgência (I) e prioridade (II). É uma **categoria residual**, não sinônimo de todo projeto de lei ordinária. Um projeto de **lei ordinária de iniciativa do Executivo**, por exemplo, pode enquadrar-se em **prioridade pelo art. 151, II, a**, ou em **urgência** quando estiverem atendidos os requisitos constitucionais ou regimentais. Mudar **o autor** ou **o regime validamente atribuído** pode alterar os prazos sem mudar a **espécie normativa**.
 
 **Regime de tramitação × forma de apreciação:** o projeto pode tramitar **ordinariamente e ser apreciado conclusivamente pelas comissões**, ou tramitar ordinariamente e **exigir Plenário** por não se enquadrar no poder conclusivo. A modalidade conclusiva não é a categoria “quarto regime” ao lado de urgência, prioridade e ordinária.
+
+### Blueprint da tramitação na Câmara: três regimes, atores, decisões e saídas
+
+Os três mapas mostram **projetos de lei sujeitos ao procedimento legislativo comum**, comparando regimes de tramitação do **art. 151 do RICD**. Leia os retângulos como **ações de um responsável** e os losangos como **decisões que podem mudar o percurso**. Os prazos do art. 52 são contados em **sessões da Câmara**, não em dias corridos, e valem **para exame pelas comissões**, salvo regra especial. Os mapas simplificam o percurso para tornar visíveis suas bifurcações: aplicação de emendas, destaques, recursos e procedimentos especiais depende do caso.
+
+| Aspecto | Ordinário | Prioridade | Urgência regimental |
+| :--- | :--- | :--- | :--- |
+| **Enquadramento** | Residual, quando não couber urgência nem prioridade (art. 151, III) | Pelo autor/objeto do projeto ou concessão do Plenário (arts. 151, II, e 158) | Pela natureza da matéria ou por requerimento aprovado, incluindo art. 155 (arts. 151 a 155) |
+| **Exame em comissão** | Até **40 sessões por comissão**, em regra | Até **10 sessões por comissão**, em regra | **5 sessões em comum** às comissões, em regra; a pauta urgente pode antecipar parecer e deliberação |
+| **Relator** | Metade do prazo da comissão: inicialmente **20 sessões** | Metade do prazo: inicialmente **5 sessões** | Regra de metade do prazo do art. 52, sem prorrogação do relator; pode haver parecer por relator em Plenário |
+| **Forma de apreciação** | Comissões conclusivamente, se couber, **ou** Plenário | Comissões conclusivamente, se couber, **ou** Plenário | **Plenário**: o art. 24, II, exclui o poder conclusivo na urgência |
+| **Pauta do Plenário** | Sem inclusão automática por decurso de 40 sessões | Se preenchidas as condições do art. 158, Ordem do Dia da sessão seguinte, **após as urgentes** | Urgência comum: sessão imediata (art. 157); art. 155: pode ocorrer **na própria sessão** |
+| **Resultado possível** | Aprovação, rejeição, recurso, exame de preliminar ou prosseguimento | Os mesmos caminhos, com preferência e prazo menor | Aprovação ou rejeição em Plenário, após a instrução exigível; urgência **não aprova o texto por si** |
+
+**Parte 1: tramitação ordinária.** Suponha um projeto apresentado por deputado sem hipótese de prioridade ou urgência. O seu prazo de 40 sessões **não significa** que o Plenário votará em 40 sessões, nem que exista um prazo único de 40 sessões para todas as comissões.
+
+```mermaid
+flowchart TD
+    O1["Autor: apresenta projeto de lei<br/>sem hipótese de urgência ou prioridade"]
+    O2["Mesa: recebe, numera e publica<br/>Presidência: distribui em até 2 sessões"]
+    O3["Comissões em sequência:<br/>mérito, CFT se cabível e CCJC<br/>40 sessões por comissão"]
+    O4["Relator: até metade do prazo<br/>Comissão discute e vota o parecer"]
+    O5{"Parecer terminativo contrário<br/>à admissibilidade?"}
+    O6{"Recurso provido<br/>e preliminar superada?"}
+    O7["Arquivamento conforme<br/>regras regimentais"]
+    O8{"Projeto pode ser aprovado<br/>conclusivamente pelas comissões?"}
+    O9["Comissões concluem o mérito;<br/>publicação e anúncio"]
+    O10{"Recurso ao Plenário:<br/>1/10 dos deputados, 5 sessões;<br/>recurso provido?"}
+    O11["Plenário: pauta e deliberação<br/>observados pareceres e interstícios"]
+    O12{"Texto aprovado<br/>na Câmara?"}
+    O13["Câmara conclui a apreciação<br/>sem votação final no Plenário"]
+    O14["Casa revisora: Senado, se o<br/>projeto começou na Câmara"]
+    O1 --> O2 --> O3 --> O4 --> O5
+    O5 -- "sim" --> O6
+    O6 -- "não" --> O7
+    O6 -- "sim" --> O8
+    O5 -- "não" --> O8
+    O8 -- "sim" --> O9 --> O10
+    O10 -- "não" --> O13
+    O10 -- "sim" --> O11
+    O8 -- "não" --> O11
+    O11 --> O12
+    O12 -- "não" --> O7
+    O12 -- "sim" --> O14
+    O13 --> O14
+    classDef raiz fill:#fff2d9,stroke:#b45309,color:#3d2207
+    classDef criterio fill:#fffbeb,stroke:#b45309,color:#3d2207
+    classDef opcao fill:#ffffff,stroke:#a16207,color:#1c1917
+    class O1,O2 raiz
+    class O5,O6,O8,O10,O12 criterio
+    class O3,O4,O7,O9,O11,O13,O14 opcao
+```
+
+**Como interpretar as saídas:** um parecer terminativo desfavorável da Comissão de Constituição e Justiça e de Cidadania (CCJC) ou da Comissão de Finanças e Tributação (CFT), nas matérias respectivas, pode conduzir a arquivamento, mas existe procedimento de recurso e **apreciação preliminar em Plenário**, conforme os arts. 54 e 144 a 146. O desenho reúne essas possibilidades no losango “recurso e preliminar superados”; não presume que qualquer recurso seja provido. Para projeto **conclusivo**, há recurso de um décimo dos deputados em cinco sessões, sujeito a decisão do Plenário (arts. 58 e 132, § 2º). Se a proposição for de Plenário, valem os pareceres, a pauta e, como regra, o **interstício de duas sessões** do art. 150, salvo dispensa aplicável. Pareceres contrários de todas as comissões de mérito em matéria conclusiva podem acionar hipótese específica de arquivamento (art. 133).
+
+**Parte 2: tramitação com prioridade.** Um projeto de iniciativa do Poder Executivo, por exemplo, tem prioridade pelo art. 151, II, *a*, salvo se submetido validamente a urgência ou a regime especial. A prioridade também pode ser proposta ao Plenário pela Mesa, por comissão que já examinou a proposição ou pelo autor apoiado por um décimo dos deputados ou por líderes que representem esse número (art. 158, § 2º). O efeito principal é a **redução do prazo de instrução e a preferência na pauta**, mantendo as verificações indispensáveis.
+
+```mermaid
+flowchart TD
+    P1{"Como foi atribuída<br/>a prioridade?"}
+    P2["Autor ou matéria previstos<br/>no art. 151, II"]
+    P3["Plenário concede prioridade<br/>a pedido legitimado (art. 158)"]
+    P4["Presidência: despacho às<br/>comissões competentes"]
+    P5["Comissões sucessivas:<br/>10 sessões por comissão<br/>Relator: inicialmente 5 sessões"]
+    P6["Comissão vota parecer;<br/>CCJC e CFT examinam preliminares<br/>quando cabíveis"]
+    P7{"Parecer terminativo<br/>impede prosseguimento?"}
+    P8{"Recurso e apreciação<br/>preliminar superados?"}
+    P15["Arquivamento conforme<br/>regras aplicáveis"]
+    P9{"Cabe apreciação conclusiva<br/>pelas comissões?"}
+    P10["Comissões decidem; cabe recurso<br/>nos termos dos arts. 58 e 132"]
+    P11["Pareceres publicados e avulsos<br/>distribuídos com antecedência"]
+    P12["Presidência: Ordem do Dia<br/>da sessão seguinte,<br/>depois das matérias urgentes"]
+    P13["Plenário discute e vota;<br/>decisão: aprovar ou rejeitar"]
+    P14["Se aprovado na Câmara:<br/>segue a revisão bicameral"]
+    P1 -- "enquadramento legal" --> P2 --> P4
+    P1 -- "concessão" --> P3 --> P4
+    P4 --> P5 --> P6 --> P7
+    P7 -- "sim" --> P8
+    P8 -- "sim" --> P9
+    P8 -- "não" --> P15
+    P7 -- "não" --> P9
+    P9 -- "sim" --> P10
+    P9 -- "não" --> P11 --> P12 --> P13
+    P10 -- "sem recurso provido e aprovado" --> P14
+    P10 -- "recurso provido" --> P13
+    P10 -- "rejeição" --> P15
+    P13 -- "aprovação" --> P14
+    P13 -- "rejeição" --> P15
+    classDef raiz fill:#fff2d9,stroke:#b45309,color:#3d2207
+    classDef criterio fill:#fffbeb,stroke:#b45309,color:#3d2207
+    classDef opcao fill:#ffffff,stroke:#a16207,color:#1c1917
+    class P2,P3,P4 raiz
+    class P1,P7,P8,P9 criterio
+    class P5,P6,P10,P11,P12,P13,P14,P15 opcao
+```
+
+**O que a prioridade muda concretamente:** as **10 sessões** são atribuídas a **cada comissão**, e não à soma de todas. O relator tem inicialmente metade desse prazo, com regras para prorrogação e substituição no art. 52. A proposta apta à pauta deve estar numerada, publicada e distribuída em avulsos **com pareceres disponibilizados com pelo menos uma sessão de antecedência**, conforme o art. 158, § 1º. A inclusão na Ordem do Dia da sessão seguinte aplica-se **à matéria sujeita a Plenário que atenda essas condições**; não converte automaticamente matéria conclusiva em matéria plenária. Um parecer terminativo contrário não é ignorado só porque o projeto tem prioridade.
+
+**Parte 3: urgência regimental, inclusive a hipótese do art. 155.** Existem diferentes **portas de entrada**. A matéria pode ser urgente por sua natureza regimental (art. 151, I); pode receber urgência por requerimento adequado às hipóteses dos arts. 153 e 154, após deliberação; ou ter a **inclusão imediata** autorizada pelo art. 155, com requerimento subscrito pela maioria absoluta (ou líderes que a representem) e aprovado pela maioria absoluta dos deputados: **257 votos** na Câmara de 513 membros. A urgência modifica **tempo, distribuição e pauta**, mantendo publicação, parecer e quórum.
+
+```mermaid
+flowchart TD
+    U1{"Qual a origem<br/>da urgência?"}
+    U2["Matéria urgente por natureza<br/>RICD, art. 151, I"]
+    U3["Requerimento de urgência<br/>arts. 153 e 154, aprovado<br/>pelo Plenário"]
+    U4["Urgentíssima: art. 155<br/>pedido e aprovação por maioria<br/>absoluta: 257 deputados"]
+    U5["Presidência: distribuição imediata<br/>às comissões; exame conjunto<br/>prazo geral comum: 5 sessões"]
+    U6{"Parecer já disponível<br/>para a discussão?"}
+    U7["Comissões podem solicitar<br/>até 2 sessões em conjunto;<br/>sem parecer, relator em Plenário"]
+    U8["Plenário: discute e vota<br/>pauta imediata (art. 157) ou<br/>na própria sessão (art. 155)"]
+    U9{"Projeto aprovado?"}
+    U10["Aprovado na Câmara:<br/>segue à Casa revisora,<br/>se iniciado na Câmara"]
+    U11["Rejeitado: arquivamento<br/>nos termos aplicáveis"]
+    U1 -- "natureza da matéria" --> U2 --> U5
+    U1 -- "urgência aprovada" --> U3 --> U5
+    U1 -- "urgência urgentíssima" --> U4 --> U5
+    U5 --> U6
+    U6 -- "sim" --> U8
+    U6 -- "não" --> U7 --> U8
+    U8 --> U9
+    U9 -- "sim" --> U10
+    U9 -- "não" --> U11
+    classDef raiz fill:#fff2d9,stroke:#b45309,color:#3d2207
+    classDef criterio fill:#fffbeb,stroke:#b45309,color:#3d2207
+    classDef opcao fill:#ffffff,stroke:#a16207,color:#1c1917
+    class U2,U3,U4 raiz
+    class U1,U6,U9 criterio
+    class U5,U7,U8,U10,U11 opcao
+```
+
+**Atenção ao aparente conflito de prazos:** o art. 52 prevê **5 sessões comuns** para as comissões em urgência. Mas o **art. 157** pode colocar a matéria em discussão na **sessão imediata** ao deferimento da urgência, sem esperar que essas cinco sessões transcorram. Se faltar parecer, as comissões podem solicitar até **duas sessões conjuntas** e, depois, o Presidente pode designar relator para emitir parecer inclusive **verbalmente**, nos termos do art. 157, §§ 1º e 2º. Isso preserva a exigência de instrução do art. 152, § 1º: urgência não equivale a votação sem qualquer parecer. Emendas de Plenário em urgência têm regras próprias de apresentação e, quando distribuídas às comissões, **prazo de uma sessão** para parecer (arts. 120, § 4º, e 157, § 4º); parecer às emendas oferecido durante a sessão por relator designado exige **10 minutos após sua disponibilização** antes de iniciar a votação (art. 157, § 6º).
+
+A urgência do **art. 154** exige legitimidade para apresentar o requerimento: **dois terços da Mesa**, quando a matéria for de sua competência; **um terço dos deputados ou líderes que os representem**; ou **dois terços dos membros da comissão de mérito**. O requerimento depende de deliberação do Plenário e há limite regimental para votar novo requerimento enquanto duas matérias estiverem em urgência por requerimento aprovado (art. 154, § 2º). **O art. 155 tem requisitos e efeitos diferentes**: maioria absoluta para requerer e aprovar; pode pautar na mesma sessão e não se sujeita à restrição do art. 154, § 2º. Isso não significa que a urgência especial permita abolir quórum ou pareceres.
+
+**Uma quarta situação dentro do tema urgência, mas com relógio próprio: urgência constitucional.** Pelo **art. 64, §§ 1º a 4º, da Constituição**, o **Presidente da República** pode pedir urgência para **projeto de lei de sua iniciativa**. Câmara e Senado têm **45 dias cada, sucessivamente**, para se manifestar; a Câmara dispõe de **10 dias** para examinar emendas do Senado. Se a Casa não se manifestar dentro do prazo constitucional, ocorre **sobrestamento das demais deliberações legislativas da respectiva Casa**, ressalvadas as de prazo constitucional determinado, até a votação. Os prazos do § 2º **não correm durante o recesso** e **não se aplicam a projetos de código**. Esses são **dias constitucionais**, não 45 sessões de comissão, e o pedido presidencial **não equivale ao requerimento aprovado do art. 155**.
+
+**Três testes que mudam o caminho:**
+
+- **Projeto A:** um deputado apresenta projeto de lei ordinária sem urgência nem prioridade; após pareceres favoráveis, cabe apreciação conclusiva. A conclusão nas comissões pode encerrar sua votação na Câmara, **ressalvado recurso**. A espécie “lei ordinária” não exige, por si, deliberação final do Plenário.
+- **Projeto B:** o Executivo apresenta projeto com prioridade, mas a CCJC emite parecer terminativo pela inconstitucionalidade. O prazo de 10 sessões **não elimina** o exame da preliminar e do eventual recurso.
+- **Projeto C:** 257 deputados subscrevem requerimento do art. 155, mas apenas 250 votam favoravelmente. **Não se aprova a urgência urgentíssima por esse placar**, porque o requerimento depende da maioria absoluta tanto para apresentação quanto para aprovação.
+
+**Depois da aprovação na Câmara:** se o projeto começou aqui, o Senado atua como Casa revisora. Se **aprovar sem emendas**, seguem-se os atos finais cabíveis; se **rejeitar**, há arquivamento; se **emendar**, as alterações retornam à Casa iniciadora (CF, art. 65). **Mudar o regime de tramitação na Câmara não dispensa a revisão bicameral.** Em projetos vindos do Senado, a Câmara já é a revisora e as consequências seguem essa posição.
+
+**Fontes oficiais para conferir as setas:** [Regimento Interno da Câmara dos Deputados, arts. 24, 52 a 58, 119, 120, 139, 144 a 159](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html); [Constituição Federal, arts. 58, 64 e 65](https://www4.planalto.gov.br/legislacao/legis-federal/constituicao); [Câmara: prazos nas comissões](https://educacaoadistancia.camara.leg.br/clique_regimento/card/53). Os mapas são **sínteses didáticas**, não substituem as condições de cada regra nem os ritos específicos de PEC, medida provisória, orçamento ou outras proposições especiais.
 
 ### Mapa operacional do projeto de lei em regime ordinário
 

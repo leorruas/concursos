@@ -142,19 +142,41 @@ O **art. 5º, LXXV**, assegura que o Estado **indenize o condenado por erro judi
 
 ## Como a banca pode cobrar
 
-**Item inédito, Certo ou Errado:** “Para indenizar a vítima de acidente causado por agente público em serviço, a pessoa jurídica responsável somente poderá ser condenada se a vítima comprovar culpa pessoal do agente.” **Errado.** A responsabilidade da pessoa jurídica, quando presentes os pressupostos do art. 37, § 6º, é objetiva. A prova de dolo ou culpa é relevante para eventual ação regressiva contra o agente.
+**Dezesseis itens C/E autorais, comentados:** destinam-se a aprender a aplicar as normas e os precedentes. **Não são questões extraídas de provas oficiais da Cebraspe.**
 
-**Item inédito, Certo ou Errado:** “A responsabilidade objetiva do Estado dispensa a demonstração de qualquer relação entre o serviço público e o prejuízo.” **Errado.** O nexo causal continua sendo indispensável.
+**1.** Em acidente provocado por veículo oficial em serviço, a vítima precisa demonstrar a negligência pessoal do servidor para responsabilizar objetivamente a pessoa jurídica pública. **Gabarito: Errado.** O art. 37, § 6º, dispensa prova de culpa pessoal, mas exige dano, conduta imputável e nexo.
 
+**2.** A responsabilidade regressiva do agente depende de dolo ou culpa, ao contrário da responsabilidade objetiva da pessoa jurídica perante a vítima. **Gabarito: Certo.** O art. 37, § 6º, estabelece duas relações jurídicas distintas.
 
-Os distratores mais fortes costumam deslocar elementos entre as duas relações:
+**3.** Segundo o Tema 940, o agente público causador de dano funcional e o Estado são réus diretos equivalentes, cabendo à vítima escolher livremente entre eles. **Gabarito: Errado.** O STF considera o agente parte ilegítima para a ação direta da vítima nesse contexto.
 
-- exigir da vítima prova de culpa do agente para responsabilizar o Estado;
-- dizer que o agente pode ser demandado diretamente pela vítima em alternativa ao Estado, contrariando o Tema 940;
-- afirmar que concessionária só responde objetivamente perante usuários;
-- dizer que toda omissão estatal gera responsabilidade automática;
-- dizer que toda omissão exige necessariamente culpa subjetiva, ignorando deveres específicos de proteção reconhecidos pelo STF;
-- identificar falha estatal, mas ignorar a ausência de nexo causal direto.
+**4.** A concessionária de serviço público responde objetivamente apenas por danos sofridos por pessoas que estavam utilizando o serviço. **Gabarito: Errado.** O Tema 130 abrange usuários e **não usuários**.
+
+**5.** Comprovada a ação de servidor público e a existência de prejuízo, a pessoa jurídica sempre indenizará, mesmo que não haja nexo causal. **Gabarito: Errado.** Objetividade da responsabilidade não dispensa relação causal.
+
+**6.** A culpa exclusivamente atribuível à vítima pode afastar responsabilidade no risco administrativo; culpa concorrente pode levar a redução do valor reparatório. **Gabarito: Certo.** Os efeitos variam conforme a contribuição causal.
+
+**7.** No regime de risco integral para dano ambiental examinado pelo STJ, a demonstração do nexo causal é dispensada por se tratar de responsabilidade objetiva. **Gabarito: Errado.** O Tema 681 afirma a importância do nexo causal.
+
+**8.** O Tema 592 reconhece dever de indenizar do Estado quando descumpre a proteção específica à integridade de detento, prevista no art. 5º, XLIX, da Constituição. **Gabarito: Certo.** O Estado tem posição especial de proteção da pessoa sob sua custódia.
+
+**9.** Qualquer crime praticado por preso que anteriormente fugiu do sistema carcerário gera responsabilidade civil objetiva estatal, mesmo sem ligação causal direta entre fuga e crime. **Gabarito: Errado.** O Tema 362 exige nexo causal direto no contexto da tese.
+
+**10.** Toda omissão estatal gera responsabilidade subjetiva, sem exceção para dever específico de proteção ou atividade que envolve risco anormal. **Gabarito: Errado.** As circunstâncias e os precedentes podem justificar responsabilidade objetiva também diante de omissão.
+
+**11.** No Tema 1237, o STF considerou que perícia inconclusiva sobre origem de disparo em operação policial basta, por si só, para afastar responsabilidade civil do ente federativo. **Gabarito: Errado.** A tese diz justamente que o resultado inconclusivo não basta para afastá-la.
+
+**12.** No Tema 1237, cabe ao ente federativo demonstrar eventuais excludentes na responsabilização civil decorrente de operação de segurança pública. **Gabarito: Certo.** É um dos pontos expressos da tese.
+
+**13.** A Constituição prevê indenização ao condenado por erro judiciário e àquele que permanecer preso além do tempo fixado na sentença. **Gabarito: Certo.** Trata-se do art. 5º, LXXV.
+
+**14.** Empresa que fornece computadores à Administração se torna, só por esse contrato, prestadora de serviço público para aplicação do art. 37, § 6º. **Gabarito: Errado.** Fornecimento comum e prestação de serviço público são enquadramentos distintos.
+
+**15.** A expressão “agentes, nessa qualidade” exige relação funcional entre a conduta e o exercício público, não somente a titularidade de cargo efetivo. **Gabarito: Certo.** O vínculo pode decorrer de diferentes formas de atuação funcional.
+
+**16.** No risco administrativo, basta chamar um fato de força maior para afastar automaticamente a responsabilidade, sem examinar o vínculo com o risco e o prejuízo. **Gabarito: Errado.** É preciso verificar ruptura efetiva do nexo causal na hipótese.
+
+**Correção de erros:** identifique primeiro quem busca indenização contra quem; depois verifique natureza da atividade, dano, conduta e nexo; por fim aplique eventual dever de proteção, excludente e tese jurisprudencial. Evite concluir apenas com palavras isoladas como *omissão*, *fuga*, *força maior* ou *não usuário*.
 
 ## Relações com outros temas
 
@@ -162,20 +184,27 @@ A nota se conecta a [[3 - Materias/Direito Administrativo/05 - agentes publicos|
 
 ## Heurísticas
 
-**1. Primeiro identifique quem está demandando quem.** Vítima contra pessoa jurídica ≠ Estado contra agente.
+| Passo | Pergunta | O que essa pergunta evita? |
+| --- | --- | --- |
+| **1. Partes** | Vítima contra pessoa jurídica ou pessoa jurídica contra agente? | Confusão entre responsabilidade objetiva e regressiva subjetiva |
+| **2. Atividade** | Houve prestação de serviço público ou simples atividade econômica? | Aplicar o Tema 130 a qualquer empresa |
+| **3. Imputação** | O agente atuava **nessa qualidade**? | Equiparar ato privado à atuação estatal |
+| **4. Dano e nexo** | Como a ação ou a omissão produziu o prejuízo? | Concluir que toda falha estatal causa indenização |
+| **5. Omissão** | Havia dever especial de proteção ou só dever genérico? | Usar regra absoluta para todas as omissões |
+| **6. Excludente** | O fato é comprovado, exclusivo, concorrente ou inerente ao risco? | Tratar fortuito ou culpa concorrente como exclusão automática |
+| **7. Precedente** | Qual é o objeto e a tese específica do Tema STF/STJ? | Misturar custódia, fuga, operação policial e dano ambiental |
 
-**2. Para a vítima, procure conduta + dano + nexo. Não comece procurando culpa.**
-
-**3. Para a ação regressiva, dolo ou culpa do agente volta a importar.**
-
-**4. Em omissão, pergunte: havia dever específico de agir/proteger? E há nexo causal com o dano?**
-
-**5. Falha estatal não é sinônimo automático de indenização. O nexo causal continua central.**
+**Contrastes para a Câmara:** o Tema 592 trata da proteção do preso sob custódia; o Tema 362, do **nexo direto** entre fuga e crime; o Tema 1237, de responsabilidade e prova em **operação de segurança pública**; o Tema 940, da escolha do **réu** e do regresso; o Tema 130, de **usuários e não usuários** de serviço público.
 
 ## Fontes
 
-- Constituição Federal, art. 37, §6º.
-- STF, Tema 940 (RE 1.027.633): ação da vítima contra o Estado/pessoa jurídica prestadora; agente é parte ilegítima.
-- STF, Tema 130 (RE 591.874): responsabilidade objetiva de prestadora de serviço público também perante não usuários.
-- STF, Tema 592 (RE 841.526): dever específico de proteção de detento.
-- STF, Tema 362 (RE 608.880): necessidade de nexo causal direto em dano praticado por preso foragido.
+- [Constituição Federal, art. 37, § 6º, e art. 5º, XLIX e LXXV](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): responsabilidade das pessoas jurídicas, integridade de presos e indenização por erro judiciário.
+- [STF, Tema 940, RE 1.027.633](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5136782&numeroProcesso=1027633&numeroTema=940): vítima contra Estado ou prestadora, agente ilegítimo e regresso.
+- [STF, Tema 130, RE 591.874](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=2635450&numeroTema=130): responsabilidade objetiva de prestadora diante de usuários e não usuários.
+- [STF, Tema 592, RE 841.526](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4645403&numeroProcesso=841526&numeroTema=592): violação do dever específico de proteção de detento.
+- [STF, Tema 362, RE 608.880](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=3838114&numeroProcesso=608880&numeroTema=362): ausência de responsabilidade objetiva sem nexo causal direto entre fuga e crime.
+- [STF, Tema 1237, ARE 1.385.315](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=6411925&numeroProcesso=1385315&numeroTema=1237): morte ou ferimento em operações policiais, ônus de demonstrar excludentes e perícia inconclusiva.
+- [STJ, Tema Repetitivo 681](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=681&cod_tema_inicial=681&novaConsulta=true&tipo_pesquisa=T): responsabilidade por dano ambiental e teoria do risco integral, mantendo o nexo.
+- [STJ, Informativo de Jurisprudência 856, 2025](https://processo.stj.jus.br/jurisprudencia/externo/informativo/?acao=pesquisar&b=INFJ&livre=RESPONSABILIDADE+POR+CONDUTA+OMISSIVA&operador=mesmo&p=true&thesaurus=JURIDICO): risco anormal e responsabilidade estatal em situação omissiva.
+
+**Limite de aplicação:** as teses se referem aos contextos específicos em que foram fixadas. Doutrina, exemplo e precedente judicial são fontes de natureza distinta; casos reais demandam provas, análise do nexo, normas pertinentes e decisões atualizadas. Os itens C/E são autorais e não reproduzem questões oficiais.

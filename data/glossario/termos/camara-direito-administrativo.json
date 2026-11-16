@@ -558,7 +558,8 @@
       "contestIds": [
         "camara-2026"
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     },
     {
       "id": "glo-camara-da20-reconducao-reintegracao",
@@ -582,7 +583,8 @@
       "contestIds": [
         "camara-2026"
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     },
     {
       "id": "glo-camara-da20-probatorio-estabilidade",
@@ -610,7 +612,8 @@
       "contestIds": [
         "camara-2026"
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     },
     {
       "id": "glo-camara-da20-reversao-aposentadoria",
@@ -634,7 +637,8 @@
       "contestIds": [
         "camara-2026"
       ],
-      "status": "reviewed"
+      "status": "reviewed",
+      "aliases": []
     }
   ]
 }

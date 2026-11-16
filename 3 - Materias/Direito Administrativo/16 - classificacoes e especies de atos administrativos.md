@@ -5,14 +5,14 @@ title: "Classificações e espécies de atos administrativos: critérios, atos n
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-16
 ---
 
 # Classificações e espécies de atos administrativos: critérios, atos normativos, ordinatórios, negociais, enunciativos e punitivos
 
-A diversidade das manifestações da Administração Pública exige uma tipologia dogmática precisa para orientar a aplicação do regime jurídico, a intensidade do controle de legalidade e a identificação das prerrogativas estatais. No direito administrativo brasileiro, os atos administrativos são organizados tanto por **grandes critérios classificatórios estruturais** (vinculação, destinatários, formação da vontade, eficácia e executoriedade) quanto por suas **espécies segundo o conteúdo substantivo**.
+Uma licença para construir, uma ordem interna de serviço e uma multa administrativa são atos com funções distintas. Primeiro, pergunte **como o ato se forma e produz efeitos**; depois, **qual é seu conteúdo**. Uma licença pode ser, ao mesmo tempo, individual, vinculada e negocial. Esses critérios não se excluem. O nome do documento não determina sozinho seu regime jurídico.
 
-A doutrina clássica (notadamente Hely Lopes Meirelles, Maria Sylvia Zanella Di Pietro e Celso Antônio Bandeira de Mello) organiza as **espécies de atos administrativos** em cinco grupos fundamentais, sintetizados pelo mnemônico **NONEP**:
+Uma classificação doutrinária tradicional, sujeita a variações entre autores e não fixada taxativamente em lei, reúne cinco **espécies de atos administrativos** no mnemônico **NONEP**:
 1. **Atos Normativos** (N);
 2. **Atos Ordinatórios** (O);
 3. **Atos Negociais** (N);
@@ -51,7 +51,7 @@ Antes de examinar as espécies substantivas, é imprescindível dominar os crit�
 - **Atos Discricionários:** a lei outorga certa margem de apreciação de conveniência e oportunidade (**mérito administrativo**), permitindo ao administrador escolher o momento, o conteúdo ou a sanção mais adequada dentre as opções juridicamente válidas. Exemplo: concessão de autorização de uso de bem público ou fixação do valor de multa dentro de uma faixa legal graduável.
 
 ### 1.2. Quanto aos destinatários (Gerais versus Individuais)
-- **Atos Gerais (abstratos ou regulamentares):** não possuem destinatários nominais determinados; dirigem-se a uma coletividade indeterminada em idêntica situação de fato. Prevalecem hierarquicamente sobre os atos individuais. Exemplo: regulamento de trânsito ou edital de concurso público.
+- **Atos Gerais (abstratos ou regulamentares):** não possuem destinatários nominais determinados; dirigem-se a uma coletividade indeterminada em idêntica situação de fato. Sua abrangência não lhes dá, por si só, superioridade hierárquica: esta decorre da competência, da espécie normativa e do ordenamento. Exemplo: regulamento de trânsito ou edital de concurso público.
 - **Atos Individuais (concretos):** dirigem-se a indivíduos ou situações jurídicas perfeitamente individualizadas e nominais. Exemplo: decreto de desapropriação de imóvel específico ou portaria de nomeação de servidor.
 
 ### 1.3. Quanto à formação da vontade (Simples, Complexos e Compostos)
@@ -60,8 +60,8 @@ Trata-se de uma das distinções mais cobradas em provas de concursos federais:
 | Categoria | Definição dogmática | Órgãos envolvidos | Exemplo clássico em jurisprudência |
 | :--- | :--- | :--- | :--- |
 | **Ato Simples** | Resulta da manifestação de vontade de um **único órgão** (seja ele singular ou colegiado). | Um órgão. | Despacho de deferimento de férias por um chefe de setor; deliberação de um Tribunal de Contas reunido em Plenário. |
-| **Ato Complexo** | Resulta da conjugação da vontade de **dois ou mais órgãos diferentes**, cujas manifestações se fundem para formar um **único ato perfeito**. | Dois ou mais órgãos distintos fundindo vontades. | **Registro de aposentadoria pelo Tribunal de Contas da União (TCU)** (Súmula Vinculante 3 do STF); investidura de Ministro do STF (escolha pelo Presidente + aprovação pelo Senado Federal). |
-| **Ato Composto** | Resulta da manifestação de vontade de **um órgão principal**, mas cuja exequibilidade ou eficácia depende da aprovação, homologação ou visto de **outro órgão acessório**. | Um ato principal + um ato acessório instrumental. | Dispensa de licitação declarada pelo setor competente e ratificada/homologada pela autoridade superior. |
+| **Ato Complexo** | Resulta da conjugação da vontade de **dois ou mais órgãos diferentes**, cujas manifestações se fundem para formar um **único ato perfeito**. | Dois ou mais órgãos distintos fundindo vontades. | **Concessão inicial de aposentadoria submetida a registro no Tribunal de Contas**: classificação tradicional adotada pelo STF, à luz do art. 71, III, da Constituição. |
+| **Ato Composto** | Resulta da manifestação de vontade de **um órgão principal**, mas cuja exequibilidade ou eficácia depende da aprovação, homologação ou visto de **outro órgão acessório**. | Um ato principal + um ato acessório instrumental. | Exemplo hipotético: decisão de dirigente cuja eficácia dependa de aprovação acessória exigida por norma específica. |
 
 ```mermaid
 flowchart LR
@@ -75,12 +75,14 @@ flowchart LR
     A --> C["Ato Composto<br/>(Ato Principal + Ato Acessório de Homologação)"]:::composto
 
     B --> D["Exemplo: Aposentadoria (Órgão de origem + TCU)"]:::complexo
-    C --> E["Exemplo: Nomeação que depende de homologação prévia"]:::composto
+    C --> E["Exemplo hipotético: decisão sujeita a aprovação acessória"]:::composto
 ```
+
+A classificação como ato **complexo** da concessão inicial de aposentadoria resulta da jurisprudência do STF. A **Súmula Vinculante nº 3** disciplina contraditório e ampla defesa no exame pelo TCU, com ressalva para a concessão inicial: **não é sua fonte classificatória**. O **Tema 445 do STF (RE 636.553)** limita a **cinco anos**, desde a chegada do processo à Corte de Contas, o julgamento de sua legalidade. Não se deve usar, como exemplo atual de ato composto, a antiga fórmula de dispensa de licitação "declarada e ratificada": a **Lei nº 14.133/2021**, Lei de Licitações e Contratos Administrativos, prevê no art. 72, VIII, autorização da autoridade competente para a contratação direta.
 
 ### 1.4. Quanto aos efeitos e eficácia (Constitutivos, Declaratórios e Enunciativos)
 - **Constitutivos:** criam, modificam ou extinguem uma nova relação jurídica ou direito subjetivo (ex.: demissão, permissão).
-- **Declaratórios:** apenas reconhecem a existência de um direito ou situação pré-constituída pela lei (ex.: licença para dirigir, anulação de ato ilegal). Opera efeitos retroativos (*ex tunc*).
+- **Declaratórios:** reconhecem situação jurídica preexistente, sem criá-la pelo próprio reconhecimento. **Não existe retroatividade automática para todo ato declaratório**; os efeitos temporais dependem da norma e do instituto. A anulação de ato ilegal segue regime próprio, explicado no artigo sobre extinção dos atos.
 - **Enunciativos:** limitam-se a certificar ou atestar um fato constante de registros públicos (ex.: certidão de tempo de contribuição).
 
 ---
@@ -89,15 +91,15 @@ flowchart LR
 
 ### 2.1. Atos Normativos
 Os atos normativos contêm comandos gerais e abstratos expedidos pela Administração Pública com o objetivo de explicitar, fielmente executar ou complementar a lei formal.
-- **Decretos e Regulamentos:** atos de competência privativa dos Chefes do Poder Executivo (art. 84, IV e VI, da CF/1988) destinados a conferir fiel execução às leis ou organizar o funcionamento da Administração (decreto autônomo).
+- **Decretos e regulamentos:** o art. 84, IV, da **Constituição Federal de 1988** permite ao Presidente expedir decretos para fiel execução das leis. O art. 84, VI, admite decreto autônomo apenas nas hipóteses constitucionais de organização da Administração federal sem aumento de despesa ou criação/extinção de órgãos, ou de extinção de funções ou cargos vagos.
 - **Resoluções e Portarias de caráter geral:** expedidas por colegiados administrativos, ministros de Estado ou dirigentes de autarquias e agências reguladoras no âmbito de sua competência setorial.
-- **Regimento Interno:** atos normativos que disciplinam o funcionamento interno de órgãos colegiados (ex.: Regimento Interno da Câmara dos Deputados).
+- **Regimentos internos:** organizam o funcionamento dos órgãos. O Regimento Interno da Câmara dos Deputados é norma do Poder Legislativo com fundamento constitucional e regimental próprio, e não simples regulamento administrativo do Executivo.
 
 ### 2.2. Atos Ordinatórios
 Os atos ordinatórios fundam-se no **poder hierárquico** e visam a disciplinar o funcionamento interno da Administração e a conduta de seus agentes públicos.
 - **Características:** produzem efeitos primordialmente *interna corporis*; não obrigam nem vinculam diretamente os particulares que não mantenham relação funcional com o Estado.
-- **Instruções e Circulares:** ordens gerais e uniformes dirigidas aos servidores subordinados para a correta aplicação de normas e padronização de serviços.
-- **Ordens de Serviço e Memorandos:** determinações operacionais concretas relativas à execução de tarefas específicas ou comunicação interna entre unidades administrativas.
+- **Instruções e circulares:** podem orientar servidores subordinados. Uma **instrução normativa** também pode veicular normas gerais dentro da competência legal; o nome do documento, isoladamente, não determina que seja ordinatório.
+- **Ordens de serviço:** determinações sobre tarefas específicas. Memorandos, ofícios e avisos podem ser apenas **meios de comunicação**, sem constituir decisão administrativa por si sós.
 - **Avisos e Ofícios:** comunicações funcionais formais entre autoridades.
 
 ### 2.3. Atos Negociais (Consentimento Estatal)
@@ -107,12 +109,12 @@ As distinções mais cobradas entre os atos negociais são:
 
 | Ato Negocial | Natureza Jurídica | Discricionariedade | Estabilidade | Objeto típico |
 | :--- | :--- | :--- | :--- | :--- |
-| **Licença** | **Vinculado** e declaratório. Preenchidos os requisitos legais, a concessão é um direito subjetivo. | Não há discricionariedade. | Definitivo; não revogável por conveniência simples. | Licença para construir; licença para exercer profissão regulamentada. |
-| **Autorização** | **Discricionário** e constitutivo. Atende primordialmente a interesse particular. | Plena discricionariedade. | Precário; revogável a qualquer tempo sem indenização. | Autorização de porte de arma; autorização para uso privativo transitório de praça pública. |
-| **Permissão** | **Discricionário** e precário (salvo permissão de serviço público contratualizada pela Lei nº 8.987/1995). | Discricionário. | Precário (revogável sem indenização quando gratuita). | Permissão de uso de bem público (ex.: banca de jornal ou quiosque). |
-| **Aprovação** | Discricionário e posterior (ou prévio). | Discricionário. | Variável. | Aprovação de plano de gestão por conselho fiscal. |
-| **Homologação** | **Vinculado** e posterior. Controle de estrita legalidade. | Vinculado. | Estável. | Homologação de procedimento licitatório ou concurso público. |
-| **Visto** | Vinculado. Atesta a regularidade formal de outro ato. | Vinculado. | Estável. | Visto em passaporte ou em diploma escolar. |
+| **Licença** | Em regra, **vinculada**: cumpridos os requisitos legais, a concessão é devida. | Sem juízo livre de conveniência no deferimento. | Não se revoga por mera preferência; outras formas legais de extinção permanecem possíveis. | Licença para construir. |
+| **Autorização** | No modelo clássico, **discricionária e precária**. | Escolha limitada pela lei e finalidade pública. | Revogação por interesse público legítimo; indenização pode surgir em hipóteses excepcionais. | Autorização de uso transitório de praça pública, se esse for o regime legal. |
+| **Permissão** | **De uso de bem:** no regime clássico, discricionária e precária. **De serviço público:** categoria distinta. | Depende da modalidade legal. | A **Lei nº 8.987/1995**, sobre concessões e permissões de serviços públicos, exige licitação e contrato de adesão (arts. 2º, IV, e 40). | Uso de área pública, ou delegação contratual de serviço público. |
+| **Aprovação** | Concordância ou controle exigido pela norma. | Pode envolver exame técnico ou margem de escolha. | Efeitos dependem do regime jurídico. | Aprovação de plano por órgão competente. |
+| **Homologação** | Confirma procedimento ou resultado conforme o regime. | **Não é chancela automática em toda hipótese.** | Na licitação, o art. 71 da **Lei nº 14.133/2021** permite sanear, anular, revogar nos casos legais, ou adjudicar e homologar. | Homologação de licitação. |
+| **Visto** | Ciência ou verificação segundo norma específica. | Depende da finalidade legal. | O nome não demonstra sozinho aprovação acessória. | Visto interno exigido para conferência. |
 
 ```mermaid
 flowchart TD
@@ -128,21 +130,21 @@ flowchart TD
     A --> E["HOMOLOGAÇÃO<br/>(Ato VINCULADO de controle de legalidade)"]:::vinculado
 
     B --> B1["Preenchidos os requisitos legais, o administrado tem direito subjetivo à expedição"]:::vinculado
-    C --> C1["Administração avalia conveniência e oportunidade; revogável a qualquer tempo"]:::discricionario
+    C --> C1["Escolha dentro da lei; revogação requer interesse público legítimo"]:::discricionario
 ```
 
 ### 2.4. Atos Enunciativos
 São aqueles em que a Administração não cria, modifica ou extingue direitos, nem manifesta vontade própria impositiva, limitando-se a certificar uma situação existente, atestar um fato ou emitir opinião técnica:
 - **Certidões:** cópias fiéis de registros públicos existentes em repartições estatais (ex.: certidão negativa de débitos).
 - **Atestados:** declarações da autoridade sobre fatos transitórios que constatam pessoalmente (ex.: atestado médico oficial de capacidade física).
-- **Pareceres:** manifestações opinativas de órgãos técnicos ou jurídicos que orientam a tomada de decisão da autoridade administrativa. Podem ser *facultativos*, *obrigatórios* ou *vinculantes*.
+- **Pareceres:** análises técnicas ou jurídicas que orientam decisões. Podem ser *facultativos* (consulta opcional), *obrigatórios* (consulta exigida) ou *vinculantes* (efeito definido em lei). Logo, nem todo parecer é juridicamente irrelevante; consultar o artigo [[3 - Materias/Direito Administrativo/18 - parecer administrativo natureza tipos e responsabilidade do parecerista|parecer administrativo]].
 - **Apostilas:** averbações feitas em títulos funcionais para atualização de registros cadastrais ou anotações legais sem alteração substancial da situação jurídica.
 
 ### 2.5. Atos Punitivos
 Os atos punitivos impõem sanções administrativas a agentes públicos (fundados no poder disciplinar) ou a particulares (fundados no poder de polícia ou no vínculo contratual administrativo):
 - **Sanções disciplinares internas:** demissão, suspensão, advertência, destituição de cargo em comissão e cassação de aposentadoria (Lei nº 8.112/1990).
-- **Sanções externas a particulares:** multas administrativas, interdição de atividades poluidoras, apreensão de mercadorias deterioradas e declaração de inidoneidade para licitar (Lei nº 14.133/2021).
-- **Garantias constitucionais:** todo ato punitivo exige estrita observância ao devido processo legal, ao contraditório e à ampla defesa prévia (art. 5º, LIV e LV, da CF/1988), sob pena de nulidade absoluta insanável.
+- **Sanções a particulares:** multas por infração e, no regime da **Lei nº 14.133/2021**, Lei de Licitações e Contratos Administrativos, sanções tipificadas nos arts. 155 e 156. Interdição ou apreensão podem ser **medidas cautelares preventivas**, conforme finalidade e norma, e não necessariamente punição.
+- **Garantias:** a **Constituição Federal de 1988, art. 5º, LIV e LV**, exige devido processo legal, contraditório e ampla defesa; a **Lei nº 9.784/1999**, que regula o processo administrativo federal, exige motivação ao impor sanção (art. 50). Medidas cautelares urgentes legalmente justificadas podem admitir contraditório posterior. Nem todo vício formal acarreta, automaticamente, nulidade insanável.
 
 ---
 
@@ -158,7 +160,7 @@ Acerca da classificação dos atos administrativos quanto à formação da vonta
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** Segundo jurisprudência firme e reiterada do Supremo Tribunal Federal (incluindo o enunciado da Súmula Vinculante nº 3), a concessão inicial de aposentadoria, reforma ou pensão é classificada dogmaticamente como **ato complexo** (e não composto). No ato complexo, as vontades do órgão concedente de origem e da Corte de Contas competente fundem-se para formar um único ato jurídico perfeito; a aposentadoria somente se aperfeiçoa e se torna definitiva com a apreciação e o registro pelo Tribunal de Contas.
+> **Comentário:** O STF classifica tradicionalmente a concessão inicial de aposentadoria como **ato complexo**, com registro pelo tribunal de contas (Constituição, art. 71, III). A Súmula Vinculante nº 3 versa sobre contraditório e ampla defesa, não sobre essa classificação. O Tema 445 fixa cinco anos desde a chegada do processo à Corte de Contas para julgamento de sua legalidade.
 
 ---
 
@@ -172,7 +174,7 @@ No que tange aos atos administrativos negociais, julgue o item subsequente.
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** A assertiva está impecável. A **licença** é o clássico exemplo de ato administrativo vinculado e definitivo. Diferentemente da autorização (que é discricionária e precária), uma vez cumpridas todas as condições legais e regulamentares estabelecidas pelo Poder Público, a Administração não pode recusar o seu deferimento, gerando direito público subjetivo à sua emissão e fruição, o que obsta a revogação discricionária fundada em conveniência e oportunidade.
+> **Comentário:** A licença é ato clássico **vinculado**: cumpridos os requisitos legais, há direito ao deferimento, afastada revogação por mero juízo de conveniência. Isso não impede anulação por ilegalidade ou outra extinção prevista em lei.
 
 ---
 
@@ -186,7 +188,7 @@ A respeito das espécies de atos administrativos e do poder hierárquico, julgue
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** Os atos ordinatórios (como circulares, memorandos e ordens de serviço) decorrem do poder hierárquico e possuem efeitos estritamente **internos (*interna corporis*)**, destinando-se a orientar a conduta e o serviço dos servidores públicos subordinados. Não possuem eficácia jurídica autônoma em relação a terceiros particulares, que não estão sujeitos à hierarquia administrativa e somente devem obrigações fundamentadas em lei formal (art. 5º, II, CF/1988).
+> **Comentário:** A hierarquia produz efeitos sobre subordinados, mas não cria deveres ilimitados para particulares (Constituição, art. 5º, II). Uma instrução normativa pode ter caráter geral conforme seu conteúdo; não é necessariamente ato apenas ordinatório. *Ultra partes* significa alcançar pessoas além dos destinatários imediatos, efeito atribuído incorretamente de forma indiscriminada.
 
 ---
 
@@ -200,7 +202,7 @@ Julgue o item que se segue, relativo à distinção dogmática entre atos enunci
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** Os atos enunciativos (como certidões, atestados e pareceres opinativos) caracterizam-se pela ausência de declaração volitiva constitutiva ou coercitiva da Administração. O agente público apenas certifica ou reproduz documentalmente um dado fático já existente nos arquivos e bancos de dados oficiais do Estado.
+> **Comentário:** A certidão **atesta informação preexistente** em assentamento oficial; não constitui, por si, direito a benefício. A concessão de aposentadoria exige decisão e requisitos legais próprios.
 
 ---
 
@@ -214,7 +216,7 @@ Acerca dos atos administrativos discricionários e do controle de legalidade, ju
 **( ) Errado**
 
 > **Gabarito: Errado**  
-> **Comentário:** Embora o mérito administrativo (o núcleo de conveniência e oportunidade legítima) não possa ser substituído pelo julgador em um juízo de mera preferência pessoal, a discricionariedade administrativa encontra balizas inafastáveis nos limites da lei e nos princípios constitucionais da razoabilidade e proporcionalidade. Quando o ato discricionário transborda tais fronteiras, incorre em vício de legalidade/legitimidade, autorizando o Poder Judiciário a declarar sua **anulação**, sem que isso represente invasão indevida no mérito.
+> **Comentário:** A discricionariedade existe **dentro** da lei. O Judiciário pode anular escolha que viole finalidade, razoabilidade ou proporcionalidade, sem substituir a opção legítima da autoridade por preferência pessoal (Lei nº 9.784/1999, art. 2º).
 
 ---
 
@@ -228,7 +230,7 @@ Julgue o item a seguir, referente às espécies de atos negociais e suas prerrog
 **( ) Errado**
 
 > **Gabarito: Certo**  
-> **Comentário:** A **autorização** é ato administrativo discricionário e precário expedido no interesse preponderante do particular. Em virtude de sua precariedade jurídica congênita, o titular não ostenta direito subjetivo à sua permanência definitiva, podendo o Poder Público revogá-la quando a continuidade da autorização se mostrar inconveniente ou inoportuna ao interesse coletivo, inexistindo direito à indenização por perdas e danos.
+> **Comentário:** O item descreve a **regra geral da autorização administrativa clássica**, quando essa for a modalidade legal adotada. Sua precariedade permite revogação motivada por interesse público legítimo. A expressão 'como regra geral' preserva exceções: indenização e proteção de situações jurídicas dependem da lei, do caso e de eventuais danos.
 
 ---
 
@@ -241,6 +243,11 @@ Julgue o item a seguir, referente às espécies de atos negociais e suas prerrog
 
 ## Fontes normativas e doutrinárias
 
-- **Constituição Federal de 1988:** art. 5º, II, LIV e LV; art. 37, *caput*; art. 84, IV e VI (decretos e regulamentos).
-- **Supremo Tribunal Federal:** Súmula Vinculante nº 3 (natureza de ato complexo da concessão inicial de aposentadoria pelo TCU).
-- **Doutrina:** Hely Lopes Meirelles (*Direito Administrativo Brasileiro* - classificação NONEP); Maria Sylvia Zanella Di Pietro (*Atos simples, complexos e compostos*); Celso Antônio Bandeira de Mello (*Curso de Direito Administrativo*).
+- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): arts. 5º, II, LIV e LV; 37; 71, III; 84, IV e VI, sobre legalidade, garantias, registro de aposentadorias e decretos.
+- [Lei nº 9.784/1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm): processo administrativo federal, princípios (art. 2º) e motivação (art. 50).
+- [Lei nº 14.133/2021](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm): Lei de Licitações e Contratos Administrativos, arts. 71, 72, VIII, 155 e 156.
+- [Lei nº 8.987/1995](https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm): concessões e permissões de serviços públicos, arts. 2º, IV, e 40.
+- [Lei nº 8.112/1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm): regime dos servidores públicos civis da União, arts. 127 e 128.
+- [STF, Súmula Vinculante nº 3](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1184): contraditório no controle pelo TCU.
+- [STF, Tema 445, RE 636.553](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4043019&numeroProcesso=636553&numeroTema=445): prazo de cinco anos no exame de concessão inicial.
+- **Doutrina:** Hely Lopes Meirelles, Maria Sylvia Zanella Di Pietro e Celso Antônio Bandeira de Mello, cujas classificações devem ser lidas conforme a abordagem de cada autor.

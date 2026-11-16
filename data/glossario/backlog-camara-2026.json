@@ -859,6 +859,62 @@
       "examBlock": "Conhecimentos básicos: Administração Pública, item 8.1",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-rede-cooperacao-interinstitucional",
+      "term": "Rede de cooperação interinstitucional",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, redes de cooperação",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-articulacao-interinstitucional",
+      "term": "Articulação interinstitucional",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, redes de cooperação",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-acordo-cooperacao-tecnica-11531",
+      "term": "Acordo de cooperação técnica do Decreto nº 11.531/2023",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, redes de cooperação",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-acordo-adesao-11531",
+      "term": "Acordo de adesão para cooperação do Decreto nº 11.531/2023",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, redes de cooperação",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-acordo-cooperacao-osc-mrosc",
+      "term": "Acordo de cooperação com OSC na Lei nº 13.019/2014",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, redes de cooperação",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-consorcio-publico-11107",
+      "term": "Consórcio público na Lei nº 11.107/2005",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, redes de cooperação",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-responsabilidade-coordenacao-rede",
+      "term": "Responsabilidade e controle em rede de cooperação",
+      "subjectId": "administracao-publica",
+      "examBlock": "Conhecimentos básicos: Administração Pública, redes de cooperação",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

@@ -697,6 +697,185 @@
         "camara-2026"
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-rede-cooperacao-interinstitucional",
+      "term": "Rede de cooperação interinstitucional",
+      "definition": "Relações estáveis entre organizações que conservam competências e recursos próprios, mas coordenam ações ou informações por depender umas das outras para alcançar um objetivo de interesse público. A rede não é, por definição, pessoa jurídica nem modalidade de contrato.",
+      "contrast": "Reunião isolada, contrato de fornecimento e redistribuição de tarefas dentro de uma entidade não comprovam, isoladamente, governança em rede. É preciso verificar dependências e coordenação continuada.",
+      "cebraspeTrap": "Afirmar que a rede substitui a personalidade jurídica dos órgãos ou elimina suas hierarquias e controles internos.",
+      "example": "Diversas instituições combinam padrões de dados, responsabilidades de atualização e procedimentos para corrigir discrepâncias em informações de um serviço público.",
+      "sources": [
+        {
+          "label": "Provan e Kenis, Modes of Network Governance, 2008",
+          "url": "https://doi.org/10.1093/jopart/mum015"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-c59173b20e684daf"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-articulacao-interinstitucional",
+      "term": "Articulação interinstitucional",
+      "definition": "Atividade de reconhecer dependências e construir acordos, interfaces, rotinas e formas de resolução de conflito entre instituições com atribuições distintas, visando coordenar a realização de uma política ou serviço público.",
+      "contrast": "Articular órgãos não é, por si só, descentralizar a atividade, desconcentrar competências ou delegar poderes legais. Cada alteração jurídica exige fundamento e procedimento próprios.",
+      "cebraspeTrap": "Concluir que quem coordena tecnicamente uma rede automaticamente pode ordenar despesas, aplicar sanções ou decidir o sigilo das informações mantidas por outros órgãos.",
+      "example": "Equipes de órgãos diferentes definem o formato de um campo de dados e escalonam divergências à unidade formalmente responsável por cada registro.",
+      "sources": [
+        {
+          "label": "Provan e Kenis, Modes of Network Governance, 2008",
+          "url": "https://doi.org/10.1093/jopart/mum015"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-c59173b20e684daf"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-acordo-cooperacao-tecnica-11531",
+      "term": "Acordo de cooperação técnica do Decreto nº 11.531/2023",
+      "definition": "Instrumento de cooperação do regime do Decreto nº 11.531/2023 para executar ação de interesse recíproco em mútua colaboração, a título gratuito, sem transferência de recursos ou doação de bens, com objeto e condições definidos de comum acordo entre as partes.",
+      "contrast": "Diferencia-se do acordo de adesão do mesmo decreto, em que as condições são previamente fixadas, e do acordo de cooperação com OSC da Lei nº 13.019/2014, sujeito a regime próprio.",
+      "cebraspeTrap": "Tratar o ACT como convênio com repasse financeiro obrigatório ou supor que o decreto do Executivo federal vale automaticamente como regulamento interno de cooperação da Câmara.",
+      "example": "Dois órgãos abrangidos pelo regime negociam responsabilidades e fluxo de informações para integrar serviços, sem repasse financeiro e com obrigações pactuadas.",
+      "sources": [
+        {
+          "label": "Decreto nº 11.531/2023, arts. 1º, 2º, XIII, 24 e 25",
+          "url": "https://www2.camara.leg.br/legin/fed/decret/2023/decreto-11531-16-maio-2023-794191-normaatualizada-pe.html"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-c59173b20e684daf"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-acordo-adesao-11531",
+      "term": "Acordo de adesão para cooperação do Decreto nº 11.531/2023",
+      "definition": "Instrumento gratuito de cooperação do Decreto nº 11.531/2023, sem transferência de recursos ou bens, em que objeto e condições são previamente definidos pela entidade federal responsável pela política e aceitos pelo participante que adere.",
+      "contrast": "No acordo de cooperação técnica do mesmo decreto, as partes ajustam juntas condições e objeto. Acordo de adesão de cooperação não equivale a contrato de adesão para permissão de serviço público.",
+      "cebraspeTrap": "Afirmar que todo acordo de adesão resulta da negociação individual de todas as cláusulas ou que seu nome implica contratação de fornecedor privado.",
+      "example": "Um programa federal disponibiliza condições padrão de intercâmbio de dados e órgão participante adere aos termos previstos, se cumprir os requisitos jurídicos.",
+      "sources": [
+        {
+          "label": "Decreto nº 11.531/2023, arts. 2º, XIV, e 24, II",
+          "url": "https://www2.camara.leg.br/legin/fed/decret/2023/decreto-11531-16-maio-2023-794191-normaatualizada-pe.html"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-c59173b20e684daf"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-acordo-cooperacao-osc-mrosc",
+      "term": "Acordo de cooperação com OSC na Lei nº 13.019/2014",
+      "definition": "Instrumento de parceria entre Administração e organização da sociedade civil no Marco Regulatório das Organizações da Sociedade Civil para finalidades de interesse público e recíproco sem transferência de recursos financeiros, observados os requisitos da Lei nº 13.019/2014.",
+      "contrast": "Não se confunde com o ACT previsto no Decreto nº 11.531/2023, cujo art. 1º, parágrafo único, expressamente afasta os acordos de cooperação sujeitos ao regime da Lei nº 13.019/2014.",
+      "cebraspeTrap": "Aplicar automaticamente às OSCs o procedimento do ACT de órgãos federais ou afirmar que o acordo de cooperação do MROSC exige sempre transferência financeira.",
+      "example": "A administração e uma organização da sociedade civil pactuam ação pública de cooperação sem repasse financeiro, examinando os requisitos próprios do MROSC.",
+      "sources": [
+        {
+          "label": "Lei nº 13.019/2014, arts. 2º e 16 e seguintes, regime de parceria",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13019.htm"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-c59173b20e684daf"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-consorcio-publico-11107",
+      "term": "Consórcio público na Lei nº 11.107/2005",
+      "definition": "Arranjo formal de cooperação federativa entre entes da Federação, constituído por contrato de consórcio segundo a Lei nº 11.107/2005. Pode adquirir personalidade jurídica de direito público como associação pública ou de direito privado nos requisitos legais.",
+      "contrast": "A rede interorganizacional em sentido teórico não é necessariamente pessoa jurídica; um consórcio público formal tem procedimentos constitutivos e regime jurídico definidos em lei.",
+      "cebraspeTrap": "Afirmar que toda rede tem personalidade jurídica de consórcio ou que o consórcio público é composto livremente por empresas particulares sem entes federativos.",
+      "example": "Municípios constituem consórcio para desenvolver serviço de interesse comum, com protocolo de intenções e ratificação conforme o regime legal.",
+      "sources": [
+        {
+          "label": "Lei nº 11.107/2005, arts. 1º, 3º, 5º e 6º",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11107.htm"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-c59173b20e684daf"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-responsabilidade-coordenacao-rede",
+      "term": "Responsabilidade e controle em rede de cooperação",
+      "definition": "Definição de quais instituições devem decidir, executar, corrigir falhas e prestar contas por cada ato na cooperação interorganizacional, com procedimentos de rastreabilidade, avaliação do resultado conjunto e respeito às competências legais.",
+      "contrast": "Objetivo público compartilhado não implica solidariedade jurídica automática entre todos os parceiros, nem transfere ao coordenador da rede o poder de aplicar sanções ou divulgar dados sigilosos.",
+      "cebraspeTrap": "Concluir que a coordenação horizontal permite afastar LAI, LGPD, contratos e responsabilidades formais dos participantes.",
+      "example": "A coordenação registra divergência em dados; o órgão que mantém a base corrige os registros, e a autoridade competente responde pela publicação e pelo atendimento à LAI.",
+      "sources": [
+        {
+          "label": "LGPD, arts. 23, 25 e 26, compartilhamento e responsabilidades",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+        },
+        {
+          "label": "Provan e Kenis, 2008, governança de redes",
+          "url": "https://doi.org/10.1093/jopart/mum015"
+        }
+      ],
+      "aliases": [],
+      "articleIds": [
+        "art-c59173b20e684daf"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
     }
   ]
 }

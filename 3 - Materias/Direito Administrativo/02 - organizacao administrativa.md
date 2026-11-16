@@ -13,20 +13,18 @@ tags:
   - cebraspe
   - camara-dos-deputados
 ---
+# Administração Direta e Indireta: entidades, vínculos e regime jurídico
 
-# Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico
+Imagine que um ministério precise executar uma política que exige decisões técnicas contínuas. Ele pode agir por seus próprios departamentos ou contar com uma entidade criada para esse fim, como uma autarquia. Em ambos os casos existe Administração Pública, mas **muda quem tem personalidade jurídica, quem decide e como se exerce o controle**. Essas diferenças explicam as regras de criação, de pessoal e de competência judicial cobradas pela banca Cebraspe.
 
-A organização da Administração Pública brasileira estrutura a distribuição das competências estatais entre a **Administração Direta** (os próprios entes federativos federados atuando por seus órgãos despersonalizados) e a **Administração Indireta** (conjunto de pessoas jurídicas instituídas para o desempenho descentralizado de atividades públicas especializadas). Nas provas de nível superior do Cebraspe (especialmente para o cargo de Analista Legislativo da Câmara dos Deputados), esse tema é abordado sob a ótica da **estrita legalidade na criação**, da **natureza da personalidade jurídica**, do **regime jurídico de direito público ou privado** e dos **limites do controle finalístico (*tutela ou supervisão ministerial*)** exercido pelo ente instituidor.
+A **Constituição Federal de 1988**, especialmente seu art. 37, XIX, estabelece como surgem as entidades. O **Decreto-Lei nº 200/1967**, norma de organização da Administração Federal e reforma administrativa, distingue Administração Direta e Indireta (arts. 4º e 5º) e disciplina a supervisão ministerial (arts. 19 a 26). O decreto-lei trata da esfera federal; para estados e municípios, é preciso considerar a Constituição e a legislação do ente.
 
-Dois pontos de fronteira doutrinária e jurisprudencial concentram a maior incidência de distratores do Cebraspe:
-1. **A ausência de hierarquia ou subordinação entre a Administração Direta e a Indireta:** A relação entre o ministério supervisor e a entidade descentralizada é de **vinculação e controle finalístico**, nos limites legais, e não de hierarquia. A intensidade do controle depende da legislação aplicável; não se presume poder geral de substituir decisões da entidade.
-2. **As regras de criação e autorização legislativa do art. 37, XIX, da CF/1988:** Somente a autarquia é **criada diretamente por lei específica**; as empresas públicas, as sociedades de economia mista e as fundações públicas têm sua **instituição autorizada por lei específica**, exigindo-se, no caso destas últimas, lei complementar para definir suas áreas de atuação.
+<a id="1-estrutura-geral-da-organizacao-administrativa"></a>
+## Estrutura geral: entes, órgãos e entidades
 
----
+**Ente federativo** é a pessoa política com autonomia prevista na Constituição: União, estados, Distrito Federal e municípios. Cada um pode organizar sua própria Administração. **Órgão público** é uma unidade de competências dentro de uma pessoa jurídica, sem personalidade própria: um ministério, uma secretaria ou um departamento. **Entidade administrativa** é uma pessoa jurídica distinta, com patrimônio e competências próprios, integrante da Administração Indireta.
 
-## 1. Estrutura Geral da Organização Administrativa
-
-O Estado organiza o desempenho de suas atribuições mediante dois grandes eixos estruturantes:
+A **Administração Direta** reúne os órgãos internos de cada ente federativo. Uma secretaria municipal, por exemplo, não se torna pessoa jurídica apenas por ter orçamento e chefia. A **Administração Indireta** reúne autarquias, fundações públicas, empresas públicas e sociedades de economia mista instituídas segundo o regime aplicável. Elas possuem personalidade jurídica própria, mas continuam sujeitas aos deveres constitucionais da Administração.
 
 ```mermaid
 graph TD
@@ -43,39 +41,33 @@ graph TD
     C1 -.->|Controle Finalístico / Supervisão / Tutela| C2
 ```
 
----
+A criação de órgãos dentro de uma mesma pessoa jurídica é forma de **desconcentração**; a atribuição de atividade a outra pessoa jurídica é forma de **descentralização**. Um ministério que cria internamente uma coordenação desconcentra tarefas. Quando uma lei cria uma autarquia para uma atividade especializada, há descentralização por serviços. A explicação completa das modalidades está no [[3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao|artigo sobre centralização e descentralização]].
 
-## 2. Quadro Comparativo das Entidades da Administração Indireta
+<a id="2-quadro-comparativo-das-entidades-da-administracao-indireta"></a>
+## Entidades da Administração Indireta e como são constituídas
 
-A tabela a seguir sistematiza as quatro espécies de entidades que integram a Administração Indireta (Decreto-Lei nº 200/1967 e art. 37, XIX, da CF/1988):
+O art. 37, XIX, da Constituição faz uma distinção decisiva: **a lei específica cria a autarquia**, ao passo que **autoriza a instituição** de empresa pública, sociedade de economia mista e fundação. A jurisprudência reconhece que a **fundação pública de direito público**, também chamada *fundação autárquica*, segue o regime da autarquia e é criada diretamente pela lei. A fundação pública de direito privado depende de autorização e posterior constituição. A Constituição exige lei complementar que defina as áreas de atuação das fundações: esse comando não deve ser confundido com uma lei complementar que crie individualmente cada fundação.
 
-| Entidade | Personalidade Jurídica | Forma de Criação (Art. 37, XIX) | Objeto / Finalidade Típica | Regime de Pessoal | Foro Processual (Esfera Federal) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Autarquia** | **Direito Público** | **Criada diretamente por lei específica** (adquire personalidade com a vigência da lei) | Atividades típicas de Estado, fiscalização, poder de polícia, previdência social | Estatutário (Regime Jurídico Único - Lei 8.112/1990) | Justiça Federal (art. 109, I, da CF/1988) |
-| **Fundação Pública (Autárquica)** | **Direito Público** | **Criada por lei específica** (equiparada a autarquia: *autarquia fundacional*) | Atividades sociais, educacionais, científicas e assistenciais sem fins lucrativos | Estatutário (Lei 8.112/1990) | Justiça Federal (art. 109, I, da CF/1988) |
-| **Fundação Pública (Governamental)** | **Direito Privado** | **Instituição autorizada por lei específica** + registro civil dos estatutos (exige LC para área de atuação) | Atividades sociais, de pesquisa e saúde sem fins lucrativos | Regime de pessoal definido na legislação aplicável; não presumir estatuto ou CLT apenas pelo nome da entidade | **Depende da natureza da entidade, do interesse jurídico federal e das regras de competência aplicáveis**; não presumir Justiça Estadual para toda fundação federal |
-| **Empresa Pública** | **Direito Privado** | **Instituição autorizada por lei específica** + registro dos atos constitutivos na Junta Comercial | Exploração de atividade econômica ou prestação de serviço público | Celetista (CLT), mediante concurso público | **Justiça Federal** (art. 109, I, da CF/1988) |
-| **Sociedade de Economia Mista** | **Direito Privado** | **Instituição autorizada por lei específica** + registro comercial | Exploração de atividade econômica ou prestação de serviço público | Celetista (CLT), mediante concurso público | **Justiça Estadual Comum** (Súmulas 517 e 556 do STF) |
+**Lei específica** é uma lei voltada à criação ou à autorização de determinada entidade. Quando a lei apenas autoriza, a pessoa jurídica surge depois dos atos constitutivos e do registro exigido pela sua natureza; a autorização isolada não basta. Para a autarquia e a fundação autárquica, a personalidade nasce da própria lei que as cria, conforme sua vigência.
 
----
+| Espécie | Personalidade e criação | Atuação característica | Pessoal e justiça, na esfera federal |
+| :--- | :--- | :--- | :--- |
+| **Autarquia** | Direito público; criada por lei específica | Atividades administrativas especializadas, como regulação, fiscalização e previdência | Cargos efetivos federais em regra sujeitos à Lei nº 8.112/1990; causas do art. 109, I, na Justiça Federal, com exceções constitucionais |
+| **Fundação pública de direito público** | Direito público; criada por lei específica, como autarquia fundacional | Pesquisa, ensino, cultura ou outras finalidades públicas definidas na lei | Regime das autarquias; Justiça Federal nas hipóteses do art. 109, I, com exceções |
+| **Fundação pública de direito privado** | Direito privado; instituição autorizada por lei e formalizada pelos atos constitutivos | Atividades compatíveis com o regime privado, conforme finalidade e atividades concretas | Pessoal conforme regime legal aplicável; a competência judicial depende da natureza da demanda e do interesse jurídico federal |
+| **Empresa pública** | Direito privado; instituição autorizada por lei, com constituição e registro próprios | Serviço público ou atividade econômica | Empregados regidos pela Consolidação das Leis do Trabalho; Justiça Federal nas causas do art. 109, I, com exceções |
+| **Sociedade de economia mista** | Direito privado; instituição autorizada por lei; obrigatoriamente sociedade anônima | Serviço público ou atividade econômica | Empregados celetistas; causas cíveis comuns em regra na Justiça estadual, sem prejuízo das competências especiais |
 
-**Atenção ao foro das fundações:** a tabela indica uma orientação de estudo, não uma regra universal de competência. O art. 109, I, da Constituição atribui à Justiça Federal, com exceções expressas, as causas envolvendo a União, entidades autárquicas e empresas públicas federais. Fundações públicas de direito público são equiparadas às autarquias. Nas fundações de direito privado instituídas pelo poder público, a definição do foro exige verificar a natureza jurídica reconhecida, a presença de interesse jurídico federal e o entendimento judicial aplicável ao caso. A simples palavra “fundação” não resolve a competência.
+A **Lei nº 8.112/1990** disciplina o regime jurídico dos servidores civis da União, de suas autarquias e fundações públicas. Não se deve transformar essa regra de pessoal federal em regra para todas as esferas ou todas as entidades. Na **ADI 2135**, julgada pelo Supremo Tribunal Federal (STF) em 2024, admitiu-se a flexibilização constitucional do regime jurídico único, com efeitos prospectivos e preservação dos regimes dos atuais servidores. A legislação do cargo e do ente continua necessária para responder a uma questão concreta.
 
----
+As fundações públicas pedem especial atenção. No **Tema 545 de repercussão geral**, o STF esclareceu que sua natureza pública ou privada exige examinar **a lei de criação ou autorização e a atividade desempenhada**; o nome “fundação” não resolve o enquadramento. Portanto, também não basta ler “fundação federal” para concluir automaticamente que toda causa será julgada na Justiça Federal.
 
-## 3. O Confronto Crítico: Empresa Pública vs. Sociedade de Economia Mista
+<a id="3-o-confronto-critico-empresa-publica-vs-sociedade-de-economia-mista"></a>
+## Empresas públicas e sociedades de economia mista
 
-Ambas constituem espécies do gênero **empresas estatais**, submetidas ao regime geral da Lei nº 13.303/2016 (Estatuto das Estatais). O Cebraspe testa reiteradamente as três diferenças fundamentais que as discriminam:
+A **Lei nº 13.303/2016**, chamada Estatuto Jurídico das Empresas Estatais, disciplina aspectos de governança, licitações e contratos de empresas públicas e sociedades de economia mista. Seus arts. 3º e 4º permitem distinguir as duas espécies. A **Lei nº 6.404/1976**, Lei das Sociedades por Ações, é relevante porque a sociedade de economia mista deve assumir a forma de **sociedade anônima (S.A.)**.
 
-1. **Composição do Capital Social:**
-   - **Empresa Pública:** Capital **100% público** (integralmente titularizado pela União, Estados, DF, Municípios ou por outras entidades da administração pública direta ou indireta).
-   - **Sociedade de Economia Mista:** Capital **misto** (composto por recursos públicos e privados), exigindo-se obrigatoriamente que a **maioria das ações com direito a voto** pertença à entidade pública controladora.
-2. **Forma Societária:**
-   - **Empresa Pública:** Pode adotar **qualquer forma jurídica admitida em direito** (Sociedade Anônima, Sociedade Limitada, ou modalidade societária unilinear).
-   - **Sociedade de Economia Mista:** Deve constituir-se **obrigatoriamente sob a forma de Sociedade Anônima (S.A.)**, submetida às regras da Lei nº 6.404/1976.
-3. **Competência Jurisdicional (na Esfera Federal):**
-   - **Empresa Pública Federal (e.g., Caixa Econômica Federal, Correios):** Causas julgadas perante a **Justiça Federal** (art. 109, I, da CF/1988).
-   - **Sociedade de Economia Mista Federal (e.g., Banco do Brasil, Petrobras):** Causas julgadas perante a **Justiça Comum Estadual**, salvo quando a União intervir como assistente ou opoente (Súmula 517 do STF e Súmula 556 do STF).
+Na **empresa pública**, o capital é integralmente público, admitida a participação de pessoas jurídicas de direito público e de entidades da Administração Indireta nas condições do art. 3º da Lei nº 13.303/2016. Ela pode assumir as formas jurídicas admitidas em direito. Na **sociedade de economia mista**, há participação de capital público e privado e a maioria das ações com direito a voto deve permanecer sob controle público, conforme o art. 4º. Ela deve ser sociedade anônima.
 
 ```mermaid
 graph TD
@@ -90,110 +82,95 @@ graph TD
     C2 --> O2["Capital misto (maioria votante pública)<br/>Obrigatoriamente S.A.<br/>Justiça Estadual (mesmo federal - Súm. 556 STF)"]:::opcao
 ```
 
----
+Uma comparação útil: a **Caixa Econômica Federal** é empresa pública federal; o **Banco do Brasil S.A.** é sociedade de economia mista federal. Ambas integram a Administração Indireta, têm personalidade de direito privado e contratam empregados mediante concurso público para empregos permanentes, mas têm estruturas de capital e regras de competência judicial distintas.
 
-## 4. O Vínculo entre Administração Direta e Indireta: Tutela vs. Hierarquia
+<a id="4-o-vinculo-entre-administracao-direta-e-indireta-tutela-vs-hierarquia"></a>
+## Vinculação, supervisão e hierarquia
 
-O Cebraspe explora intensamente a falsa premissa de que o Chefe do Poder Executivo ou os Ministros de Estado exerceriam "poder hierárquico" sobre as entidades da Administração Indireta:
+A relação entre o ministério e seus **órgãos internos** é normalmente de **hierarquia**: dentro da mesma pessoa jurídica, a autoridade superior dirige, distribui tarefas e pode rever atos nos limites legais. Entre o ministério e uma autarquia vinculada, há **vinculação**, com **supervisão ministerial ou tutela administrativa**. O ministério acompanha a finalidade institucional, a legalidade e os resultados previstos na legislação, mas não ganha por isso poder hierárquico geral para substituir toda decisão técnica.
 
-- **Inexistência de Hierarquia:** Não há relação de subordinação hierárquica entre a Administração Direta e a Indireta. A hierarquia pressupõe desconcentração interna (dentro da mesma pessoa jurídica).
-- **Controle Finalístico (Supervisão Ministerial ou Tutela Administrativa):** O vínculo existente é de mera **vinculação institucional**, voltada a assegurar que a entidade descentralizada atue em consonância com as finalidades para as quais foi criada pela lei (*princípio da especialidade*).
-- **Limites da Tutela:** A supervisão ministerial não autoriza a intervenção discricionária no mérito das decisões técnicas da entidade, dependendo sempre de autorização legal expressa para a prática de atos de controle (princípio da legalidade).
-- **Recurso Hierárquico Impróprio:** Em regra, das decisões finais de uma autarquia ou agência reguladora não cabe recurso para o Ministério supervisor, salvo quando a lei expressamente previr essa via extraordinária (*recurso hierárquico impróprio*).
+Os arts. 19, 25 e 26 do Decreto-Lei nº 200/1967 descrevem a supervisão federal e seus objetivos: observar a legislação, acompanhar a execução de políticas públicas, fiscalizar o uso de recursos e assegurar também a **autonomia administrativa, operacional e financeira** das entidades. **Controle finalístico** significa verificar se a entidade cumpre a finalidade para a qual foi instituída. **Princípio da especialidade** significa que ela só pode atuar nas competências e fins legalmente atribuídos.
 
----
+Exemplo: um ministério pode acompanhar a execução das metas legais de uma autarquia e adotar medidas de supervisão autorizadas. Isso não o transforma em instância recursal automática de todo processo decidido pela autarquia. **Recurso hierárquico impróprio** é o pedido de revisão dirigido a autoridade situada fora da estrutura hierárquica da pessoa jurídica que decidiu. Seu cabimento e alcance dependem da disciplina específica. No âmbito federal, o **Parecer AGU AC-51/2006**, aprovado pelo Presidente da República, reconhece hipóteses delimitadas de revisão ministerial de decisões de agências reguladoras que ultrapassem competências ou contrariem políticas públicas setoriais, preservando sua autonomia técnica na competência finalística. Uma regra absoluta de “nunca cabe recurso” seria tão imprecisa quanto “o ministro sempre pode rever”.
 
-## 5. Questões Comentadas no Estilo Cebraspe
+<a id="competencia-judicial-responsabilidade-e-prerrogativas"></a>
+## Competência judicial, responsabilidade e prerrogativas
+
+O art. 109, I, da Constituição atribui à **Justiça Federal**, com exceções expressas, causas nas quais a União, autarquia federal ou empresa pública federal sejam interessadas na posição processual indicada pela norma. Entre as exceções estão causas de competência da Justiça do Trabalho e da Justiça Eleitoral, além das hipóteses constitucionais específicas. **Competência** é a definição de qual órgão do Judiciário pode processar e julgar a causa.
+
+Uma **sociedade de economia mista federal** não entra automaticamente nesse rol: a regra das causas cíveis comuns é a Justiça estadual (**Súmula 556 do STF**). Pode haver deslocamento quando a União participa como assistente ou opoente, conforme a **Súmula 517 do STF**. Nas fundações, é preciso primeiro definir a natureza jurídica e os elementos da causa. Por isso, a tabela anterior é um roteiro de classificação, e não uma previsão de foro para qualquer processo trabalhista, eleitoral ou outra matéria de competência específica.
+
+O **art. 37, § 6º, da Constituição** impõe **responsabilidade civil objetiva** às pessoas jurídicas de direito público e às pessoas jurídicas de direito privado prestadoras de serviços públicos pelos danos causados por seus agentes, nessa qualidade, a terceiros. “Objetiva” significa que a vítima não precisa provar culpa do agente para responsabilizar a pessoa jurídica, embora deva demonstrar os requisitos do caso, como dano e nexo causal. A possibilidade de a pessoa jurídica exigir ressarcimento do agente depende de dolo ou culpa.
+
+As **prerrogativas da Fazenda Pública**, como certas regras especiais de execução e processo, não são concedidas nem negadas automaticamente a todas as estatais apenas por terem personalidade privada. O STF reconhece tratamentos específicos para entidades como a **Empresa Brasileira de Correios e Telégrafos (ECT)**. É necessário analisar a atividade, a legislação e a jurisprudência; o reconhecimento de uma prerrogativa tributária, por exemplo, não prova que todas as prerrogativas processuais sejam idênticas.
+
+<a id="5-questoes-comentadas-no-estilo-cebraspe"></a>
+## Questões comentadas: Certo ou Errado
 
 ### Questão 1
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** As autarquias adquirem personalidade jurídica a partir da inscrição de seus atos constitutivos no registro competente, cabendo à lei específica apenas autorizar a sua posterior instituição pelo Poder Executivo.
+*Item inédito, estilo Cebraspe.* As autarquias adquirem personalidade jurídica a partir da inscrição de seus atos constitutivos no registro competente, cabendo à lei específica apenas autorizar a sua posterior instituição pelo Poder Executivo.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado**  
-**Comentário:** O art. 37, XIX, da CF/1988 estabelece uma distinção rigorosa: a autarquia **é criada diretamente pela lei específica**, adquirindo personalidade jurídica de direito público no momento da entrada em vigor da lei, sem necessidade de registro civil. As demais entidades (empresas públicas, sociedades de economia mista e fundações de direito privado) é que dependem de lei autorizativa cumulada com o registro no órgão competente.
-
----
+**Gabarito: Errado.** A autarquia nasce diretamente da lei específica que a cria (art. 37, XIX). Registro e constituição posterior caracterizam entidades cuja instituição é apenas autorizada, como a empresa pública. A fundação autárquica também nasce da lei.
 
 ### Questão 2
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Entre um ministério supervisor e uma autarquia federal a ele vinculada inexiste relação de subordinação hierárquica, cabendo ao ministério o controle finalístico nos limites definidos em lei.
+*Item inédito, estilo Cebraspe.* Entre um ministério supervisor e uma autarquia federal a ele vinculada inexiste relação de subordinação hierárquica, cabendo ao ministério o controle finalístico nos limites definidos em lei.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** A descentralização administrativa rompe o vínculo de hierarquia, que só opera no âmbito interno da mesma pessoa jurídica (desconcentração). A vinculação de uma autarquia federal ao ministério supervisor não transforma seus dirigentes em subordinados hierárquicos do ministro. A supervisão segue as competências previstas na legislação; a Câmara dos Deputados não deve ser usada como exemplo genérico de ministério supervisor de autarquia.
-
----
+**Gabarito: Certo.** A autarquia é outra pessoa jurídica. Supervisão ou tutela e hierarquia são vínculos distintos: o ministério não se torna superior hierárquico de todos os seus dirigentes e servidores por força da vinculação.
 
 ### Questão 3
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Uma sociedade de economia mista federal que explore atividade econômica em regime de concorrência pode ser constituída sob a forma de sociedade de responsabilidade limitada, desde que a totalidade de suas cotas pertença a entes públicos.
+*Item inédito, estilo Cebraspe.* Uma sociedade de economia mista federal que explore atividade econômica em regime de concorrência pode ser constituída sob a forma de sociedade limitada, desde que a totalidade de suas cotas pertença a entes públicos.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado**  
-**Comentário:** A sociedade de economia mista **deve obrigatoriamente adotar a forma de Sociedade Anônima (S.A.)**, nos termos do art. 5º, III, do Decreto-Lei nº 200/1967 e da Lei nº 13.303/2016. Ademais, por definição ontológica, a sociedade de economia mista possui capital misto (público e privado), não podendo ter 100% de capital público (hipótese que caracterizaria empresa pública).
-
----
+**Gabarito: Errado.** A sociedade de economia mista deve ser uma **sociedade anônima**, sob controle público da maioria do capital votante, e seu modelo legal admite capital privado. A forma limitada e o capital integralmente público são incompatíveis com a espécie descrita.
 
 ### Questão 4
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** Compete à Justiça Federal processar e julgar as ações cíveis propostas contra a Caixa Econômica Federal, ao passo que as ações promovidas contra o Banco do Brasil S.A., sociedade de economia mista federal, são de competência da Justiça Comum Estadual.
+*Item inédito, estilo Cebraspe.* Em causas cíveis comuns, sem exceção constitucional nem intervenção da União, a Caixa Econômica Federal, empresa pública federal, submete-se à Justiça Federal, enquanto o Banco do Brasil S.A., sociedade de economia mista federal, submete-se, em regra, à Justiça estadual.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Certo**  
-**Comentário:** O art. 109, I, da CF/1988 fixa a competência da Justiça Federal para as causas em que a União, entidade autárquica ou **empresa pública federal** (caso da CEF) forem interessadas. As sociedades de economia mista federais (como o Banco do Brasil) não constam do rol taxativo do art. 109, I, sendo suas causas processadas perante a Justiça Estadual, consoante pacificidade da Súmula 556 do STF.
-
----
+**Gabarito: Certo.** O art. 109, I, inclui a empresa pública federal, mas não a sociedade de economia mista federal. As Súmulas 517 e 556 do STF explicam a regra e a possível participação da União. A delimitação a causas cíveis comuns evita generalização sobre processos trabalhistas.
 
 ### Questão 5
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** As empresas estatais prestadoras de serviços públicos submetem-se ao regime de responsabilidade civil objetiva previsto no art. 37, § 6º, da Constituição Federal, não gozando, contudo, das prerrogativas processuais da Fazenda Pública, como o prazo em dobro para manifestação em juízo.
+*Item inédito, estilo Cebraspe.* As empresas estatais prestadoras de serviços públicos submetem-se à responsabilidade civil objetiva do art. 37, § 6º, da Constituição, mas nenhuma pode receber prerrogativas processuais próprias da Fazenda Pública.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado, pela generalização da segunda oração.**  
-**Comentário:** O art. 37, § 6º, da Constituição prevê responsabilidade objetiva das pessoas jurídicas de direito privado prestadoras de serviços públicos pelos danos que seus agentes causem a terceiros nessa qualidade. Entretanto, não é seguro afirmar categoricamente que nenhuma estatal prestadora de serviço público possui prerrogativas processuais: o Supremo Tribunal Federal reconhece regimes específicos para determinadas entidades, conforme a atividade e as condições jurídicas. A extensão de prerrogativas não decorre automaticamente da personalidade privada nem pode ser negada sem ressalvas. A questão, como redigida, generaliza indevidamente.
-
----
+**Gabarito: Errado.** A primeira parte enuncia a regra de responsabilidade objetiva das prestadoras de serviço público. A palavra **nenhuma** torna a segunda parte falsa: há regimes específicos reconhecidos pelo STF para determinadas estatais, que devem ser examinados conforme sua atividade e a prerrogativa discutida.
 
 ### Questão 6
-*(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
 
-**Item:** O princípio da especialidade impede que uma autarquia exerça competências estranhas às finalidades expressamente delimitadas na lei instituidora, sob pena de nulidade do ato praticado por desvio de finalidade.
+*Item inédito, estilo Cebraspe.* O princípio da especialidade impede que uma autarquia exerça competências estranhas às finalidades da lei instituidora, sob pena de nulidade do ato necessariamente por desvio de finalidade.
 
 - ( ) Certo
 - ( ) Errado
 
-**Gabarito: Errado, pela classificação automática do vício como desvio de finalidade.**  
-**Comentário:** Pelo princípio da especialidade, a entidade descentralizada deve atuar nas finalidades estabelecidas em sua lei instituidora. Um ato fora das atribuições legais pode ser inválido por incompetência ou outra ilegalidade; **desvio de finalidade** exige verificar se o agente perseguiu finalidade diversa da prevista na norma. Esses vícios não são sinônimos.
+**Gabarito: Errado.** A autarquia deve respeitar as competências legais. Entretanto, **incompetência** (ato praticado por quem não tinha atribuição) e **desvio de finalidade** (uso da competência para fim diverso do previsto) são vícios distintos. O enunciado erra ao classificar automaticamente qualquer extrapolação como desvio de finalidade.
 
----
+<a id="6-relacoes-com-outros-artigos-e-sintese-de-revisao"></a>
+## Relações com outros artigos
 
-## 6. Relações com Outros Artigos e Síntese de Revisão
+A distinção inicial entre Estado e Administração é explicada em [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo e função administrativa]]. Os mecanismos de desconcentração e descentralização são aprofundados em [[3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao|Centralização e descentralização]]. As regras de emprego, cargo e vínculo com o Estado aparecem em [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos]]. Para a diferença entre incompetência e desvio de finalidade, consulte [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]].
 
-- **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo, Administração Pública e Função Administrativa]]: Distinção entre Estado, Governo e o aparelho administrativo técnico.
-  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: Aplicação dos princípios de legalidade estrita, moralidade e eficiência à descentralização.
-  - [[3 - Materias/Direito Administrativo/13 - centralizacao descentralizacao concentracao e desconcentracao|Centralização, Descentralização, Concentração e Desconcentração no Direito Administrativo]]: Aprofundamento dos mecanismos operacionais de desconcentração e descentralização por outorga e delegação.
-  - [[3 - Materias/Direito Administrativo/05 - agentes publicos|Agentes públicos: espécies, cargos, empregos, funções e regimes de vinculação estatal]]: Regime jurídico de agentes públicos estatutários de autarquias vs. empregados celetistas de estatais.
+## Fontes normativas e jurisprudenciais
 
-
-## Nota de revisão jurídica dirigida (15/11/2026)
-
-Os itens 2, 5 e 6 foram ajustados, inclusive o gabarito do item 6 para retirar, respectivamente, um exemplo institucional inadequado, uma generalização sobre prerrogativas de estatais e a equiparação automática entre incompetência e desvio de finalidade. **Esta intervenção não constitui certificação integral do artigo**: ainda dependem de cotejo individual as afirmações sobre fundações públicas, competência judicial, regime de pessoal, recursos impróprios e exceções jurisprudenciais.
-
-Fontes primárias a confrontar na etapa de certificação: [Constituição Federal, arts. 37, XIX, e § 6º, e 109, I](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm); [Decreto-Lei nº 200/1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm); [Lei nº 13.303/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm); jurisprudência oficial do STF sobre estatais prestadoras de serviços públicos. A revisão do glossário e dos flashcards também permanece pendente.
+- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): arts. 37, XIX e § 6º; 109, I; 173.
+- [Decreto-Lei nº 200/1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm): organização da Administração Federal, arts. 4º, 5º e 19 a 26.
+- [Lei nº 13.303/2016](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm): Estatuto das Estatais, arts. 3º e 4º; [Lei nº 6.404/1976](https://www.planalto.gov.br/ccivil_03/leis/l6404consol.htm): sociedades por ações.
+- [Lei nº 8.112/1990](https://www.planalto.gov.br/ccivil_03/leis/l8112cons.htm): servidores civis federais; [STF, ADI 2135](https://portal.stf.jus.br/processos/listarProcessos.asp?classe=ADI&numeroProcesso=2135): flexibilização do regime jurídico único, com limites temporais.
+- [STF, Tema 545](https://www.stf.jus.br/arquivo/informativo/documento/informativo946.htm): natureza e pessoal das fundações públicas; [STF, Súmula 517](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2054) e [Súmula 556](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2793): competência judicial.
+- [AGU, Parecer AC-51/2006](https://www.gov.br/agu/pt-br/assuntos-1/Publicacoes/cartilhas/ConsolidacaodePareceresVinculantesatualizacao.pdf): limites da supervisão e do recurso hierárquico impróprio nas agências reguladoras.

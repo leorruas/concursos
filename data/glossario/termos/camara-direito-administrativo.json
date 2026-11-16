@@ -205,6 +205,70 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-vinculacao-tutela",
+      "term": "Vinculação e tutela administrativa",
+      "aliases": [
+        "supervisão ministerial",
+        "controle finalístico"
+      ],
+      "definition": "É a ligação entre uma entidade com personalidade jurídica própria e o órgão público que acompanha suas finalidades e resultados. A supervisão respeita as competências legais e não transforma a entidade em departamento subordinado.",
+      "contrast": "Hierarquia ocorre entre órgãos da mesma pessoa jurídica e admite poderes internos de direção e revisão. Tutela relaciona pessoas jurídicas distintas, conforme os poderes de controle previstos na legislação.",
+      "cebraspeTrap": "Afirmar que a vinculação ao ministério autoriza qualquer revisão de decisões técnicas de autarquia.",
+      "example": "Um ministério acompanha a aplicação de recursos de uma autarquia federal, mas não substitui automaticamente suas decisões técnicas.",
+      "sources": [
+        {
+          "label": "Decreto-Lei nº 200/1967, arts. 19 a 26",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm"
+        },
+        {
+          "label": "Parecer AGU AC-51/2006",
+          "url": "https://www.gov.br/agu/pt-br/assuntos-1/Publicacoes/cartilhas/ConsolidacaodePareceresVinculantesatualizacao.pdf"
+        }
+      ],
+      "articleIds": [
+        "art-86dee064aef44ba4"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-fundacao-autarquica",
+      "term": "Fundação pública autárquica",
+      "aliases": [
+        "fundação pública de direito público",
+        "autarquia fundacional"
+      ],
+      "definition": "É uma fundação governamental com personalidade de direito público, criada diretamente por lei específica e submetida ao regime jurídico das autarquias. Em geral, realiza atividades de interesse público definidas em lei.",
+      "contrast": "A fundação pública de direito privado depende de lei que autorize a instituição e de atos de constituição. Para reconhecer a natureza da fundação, examinam-se sua lei e as atividades exercidas.",
+      "cebraspeTrap": "Tratar toda fundação pública como pessoa de direito privado nascida somente após registro dos estatutos.",
+      "example": "Uma lei cria diretamente uma fundação pública de direito público; para outra fundação de direito privado, autoriza que os atos constitutivos sejam praticados.",
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 37, XIX",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "STF, Tema 545",
+          "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo946.htm"
+        }
+      ],
+      "articleIds": [
+        "art-86dee064aef44ba4"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
     }
   ]
 }

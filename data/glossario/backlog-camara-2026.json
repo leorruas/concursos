@@ -555,6 +555,22 @@
       "examBlock": "Conhecimentos legislativos",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-vinculacao-tutela",
+      "term": "Vinculação e tutela administrativa",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-fundacao-autarquica",
+      "term": "Fundação pública autárquica",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

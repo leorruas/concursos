@@ -12277,6 +12277,78 @@
         "prompt": "Qual distinção jurídica decide o caso?",
         "answer": "Discordância probatória da proposta não corresponde automaticamente a vício processual."
       }
+    },
+    {
+      "id": "camara-da25-delegacao-autor-ato",
+      "term": "Quem pratica juridicamente a decisão no exercício de competência delegada?",
+      "definition": "Art. 14, § 3º: o ato deve mencionar a delegação e considera-se editado pelo delegado; o art. 12 permite delegação mesmo sem hierarquia, salvo vedações do art. 13.",
+      "example": "Diretor delega a outra autoridade uma decisão individual permitida em lei, com delimitação publicada: o ato final deve indicar a delegação e é considerado editado pelo delegado.",
+      "confusion": "Delegação muda o exercício da competência em limites definidos; não transfere definitivamente sua titularidade e não depende necessariamente de hierarquia.",
+      "topic": "Lei nº 9.784/1999: competência e decisão coordenada",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.4 / Direito Administrativo / Lei nº 9.784/1999 / Processo administrativo"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c61cca38ed36e424",
+        "section": "4. Delegação de competência: conceito, pressupostos e limites"
+      },
+      "source": {
+        "title": "Lei nº 9.784/1999 atualizada",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Artigos 11 a 15 e 49-A"
+      },
+      "conceptIds": [
+        "glo-camara-da25-delegacao-limites"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica muda a resposta?",
+        "answer": "Delegação muda o exercício da competência em limites definidos; não transfere definitivamente sua titularidade e não depende necessariamente de hierarquia."
+      }
+    },
+    {
+      "id": "camara-da25-coordenada-requisitos",
+      "term": "Quando é cabível decisão coordenada na Lei 9.784?",
+      "definition": "Art. 49-A: pelo menos três setores, órgãos ou entidades + relevância da matéria + discordância que prejudique a celeridade. O § 6º exclui licitação, poder sancionador e autoridades de Poderes distintos.",
+      "example": "Quatro setores do mesmo Poder divergem e atrasam decisão relevante: poderá caber coordenação; em PAD ou licitação, o § 6º impede.",
+      "confusion": "A decisão coordenada mantém a responsabilidade decisória de cada órgão; não equivale à delegação nem à avocação.",
+      "topic": "Lei nº 9.784/1999: competência e decisão coordenada",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.4 / Direito Administrativo / Lei nº 9.784/1999 / Processo administrativo"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-c61cca38ed36e424",
+        "section": "6. O instituto da decisão coordenada (Lei nº 14.210/2021)"
+      },
+      "source": {
+        "title": "Lei nº 9.784/1999 atualizada",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Artigos 11 a 15 e 49-A"
+      },
+      "conceptIds": [
+        "glo-camara-da25-decisao-coordenada-requisitos"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção jurídica muda a resposta?",
+        "answer": "A decisão coordenada mantém a responsabilidade decisória de cada órgão; não equivale à delegação nem à avocação."
+      }
     }
   ]
 }

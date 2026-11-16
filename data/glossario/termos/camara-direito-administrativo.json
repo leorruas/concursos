@@ -419,6 +419,38 @@
         "camara-2026"
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-sentidos-administracao",
+      "term": "Administração Pública em sentido subjetivo e objetivo",
+      "aliases": [
+        "critério orgânico e material",
+        "sentido formal e funcional da Administração"
+      ],
+      "definition": "O sentido subjetivo ou orgânico identifica quem integra a estrutura administrativa, como órgãos e entidades da Administração Direta e Indireta. O sentido objetivo ou material identifica o que se faz administrativamente, como serviços públicos, polícia administrativa, fomento e intervenção.",
+      "contrast": "Uma concessionária privada pode prestar serviço público em sentido material sem integrar a Administração Indireta em sentido subjetivo. O vínculo estrutural não se confunde com a natureza da atividade desempenhada.",
+      "cebraspeTrap": "Afirmar que serviço público, fomento e poder de polícia são a definição de Administração em sentido subjetivo ou que toda prestadora de serviço público integra a Administração Indireta.",
+      "example": "A Câmara dos Deputados integra a estrutura administrativa estatal quando gere seus servidores; uma empresa privada concessionária presta serviço público sem tornar-se autarquia.",
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 37, 173 a 175",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Decreto-Lei nº 200/1967, art. 4º",
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm"
+        }
+      ],
+      "articleIds": [
+        "art-0242ff68d8ca9529"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
     }
   ]
 }

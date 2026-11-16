@@ -20,9 +20,9 @@ Este artigo responde a quatro perguntas: o que forma o Estado, como governo e ad
 
 ---
 
-## 1. O Estado e seus Elementos Constitutivos
+## O Estado e seus Elementos Constitutivos
 
-Na explicação clássica da Teoria Geral do Estado, o Estado reúne **povo**, **território** e **poder político soberano**. No Brasil, a **União** é pessoa jurídica de direito público interno (Código Civil, art. 41, I), assim como os Estados, o Distrito Federal e os Municípios, nos incisos seguintes. A **República Federativa do Brasil** é o Estado soberano formado pela união indissolúvel desses entes (Constituição, art. 1º); não é correto confundir a República Federativa, no plano político, com a pessoa jurídica União, no plano administrativo. A soberania aparece como fundamento constitucional (Constituição, art. 1º, I). A classificação dos três elementos é **doutrinária**, não uma lista literal do art. 1º.
+Na classificação clássica da **Teoria Geral do Estado**, disciplina que estuda sua origem, estrutura e organização, o Estado reúne **povo**, **território** e **poder político soberano**. Trata-se de uma classificação **doutrinária**, e não de uma enumeração literal da Constituição. No Brasil, a **União** é pessoa jurídica de direito público interno (Código Civil, art. 41, I), assim como os Estados, o Distrito Federal e os Municípios, nos incisos seguintes. A **República Federativa do Brasil** é o Estado soberano formado pela união indissolúvel desses entes (Constituição, art. 1º); não é correto confundir a República Federativa, no plano político, com a pessoa jurídica União, no plano administrativo. A soberania aparece como fundamento constitucional (Constituição, art. 1º, I). **Soberania** é a independência do Estado no plano internacional; **autonomia federativa** é a capacidade constitucional de auto-organização e autogoverno dos entes internos, que não são soberanos individualmente.
 
 ```mermaid
 graph TD
@@ -35,20 +35,21 @@ graph TD
     R --> C3["Sentidos da Administração Pública"]:::criterio
 
     C1 --> O1["Povo: elemento humano/cívico<br/>Território: base física/espacial<br/>Poder soberano: autoridade política independente"]:::opcao
-    C2 --> O2["Funções Típicas: Legislar, Fiscalizar, Julgar, Administrar<br/>Funções Atípicas: administração interna no Legislativo e Judiciário"]:::opcao
+    C2 --> O2["Legislativo: legislar e fiscalizar<br/>Executivo: administrar e dirigir políticas<br/>Judiciário: julgar<br/>Todos: administração interna"]:::opcao
     C3 --> O3["Sentido Subjetivo/Orgânico: Quem faz (órgãos, entidades, agentes)<br/>Sentido Objetivo/Material: O que se faz (serviço público, polícia, fomento, intervenção)"]:::opcao
 ```
 
-### 1.1. Elementos Estruturais
-1. **Povo:** Elemento humano ou subjetivo do Estado; o conjunto de pessoas vinculadas ao Estado pela nacionalidade; nem todo nacional exerce direitos políticos, de modo que nacionalidade e cidadania política não são sinônimos (não se confunde com *população*, que é dado demográfico e numérico que inclui estrangeiros e apátridas, nem com *nação*, que tem caráter sociocultural).
-2. **Território:** Base geográfica e espacial na qual o Estado exerce sua autoridade territorial, observados os limites do direito internacional (solo, subsolo, espaço aéreo e mar territorial).
-3. **Poder político soberano:** O elemento condutor político, que expressa a soberania interna (supremacia sobre as demais organizações sociais) e internacional (independência e igualdade perante os demais Estados).
+### Povo, população e nação
+
+1. **Povo:** conjunto de pessoas com vínculo jurídico de nacionalidade com o Estado, embora nem todas tenham direitos políticos em exercício. **População** é o conjunto de residentes em certo território, inclusive estrangeiros e apátridas. **Nação** é vínculo histórico ou cultural, que pode ultrapassar fronteiras políticas. Assim, povo, população, nação e eleitorado são conjuntos diferentes.
+2. **Território:** espaço sobre o qual o Estado exerce sua autoridade, observados tratados e limites do direito internacional, incluindo solo, subsolo, espaço aéreo e mar territorial nas condições jurídicas aplicáveis.
+3. **Poder político soberano:** capacidade de estabelecer e aplicar decisões públicas dentro da ordem jurídica, sem subordinação a outro Estado no plano internacional. **Soberania não significa atuação ilimitada:** há Constituição, direitos fundamentais e compromissos internacionais.
 
 ---
 
-## 2. Governo vs. Administração Pública: Distinção Ontológica e Funcional
+## Governo vs. Administração Pública: Distinção Ontológica e Funcional
 
-A distinção é **funcional**: uma mesma autoridade pode participar de decisões políticas e praticar atos administrativos. Por exemplo, definir prioridades gerais para uma política é uma decisão de governo; realizar a licitação para executar essa política é atividade administrativa. Ambas devem respeitar a Constituição e o direito aplicável.
+A distinção entre **governo** e **Administração** é sobretudo **funcional**: uma mesma autoridade pode participar de decisões políticas e praticar atos administrativos. Governo orienta prioridades coletivas dentro das competências constitucionais; Administração executa serviços e gere recursos para concretizá-las conforme o Direito. Por exemplo, definir prioridades gerais para uma política é uma decisão de governo; realizar a licitação para executar essa política é atividade administrativa. Ambas devem respeitar a Constituição e o direito aplicável.
 
 | Pergunta | Governo: direção política | Administração: execução e gestão |
 | :--- | :--- | :--- |
@@ -63,29 +64,29 @@ A distinção é **funcional**: uma mesma autoridade pode participar de decisõe
 
 ---
 
-## 3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo
+## Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo
 
-A distinção doutrinária central é entre os sentidos **subjetivo/formal/orgânico** e **objetivo/material/funcional**:
+A diferença entre os sentidos **subjetivo (formal ou orgânico)** e **objetivo (material ou funcional)** aparece com frequência em questões Cebraspe. O primeiro pergunta **quem integra a estrutura administrativa**; o segundo pergunta **qual atividade é desempenhada**. A mesma instituição pode responder à primeira pergunta enquanto executa atividades da segunda categoria.
 
-### 3.1. Sentido Subjetivo, Formal ou Orgânico
-Responde à pergunta: **"QUEM integra a Administração Pública?"**
+### Sentido Subjetivo, Formal ou Orgânico
+Responde à pergunta: **"Quem integra a estrutura da Administração Pública?"**
 - Designa o conjunto de **órgãos públicos, entidades jurídicas e agentes públicos** que integram a estrutura estatal encarregada da execução da função administrativa.
 - **Critério Adotado no Brasil:** Para identificar a **estrutura administrativa**, observe os órgãos da Administração direta e as entidades da Administração indireta: autarquias, fundações públicas, empresas públicas e sociedades de economia mista. A Constituição, art. 37, caput, sujeita a administração direta e indireta de todos os Poderes aos princípios administrativos. A lista de entidades da administração indireta aparece também no Decreto-Lei nº 200/1967, art. 4º, II, no âmbito federal. Um órgão não tem personalidade jurídica própria; uma entidade administrativa tem.
 - Uma **concessionária privada** presta serviço público por delegação, mas não passa a integrar a Administração direta ou indireta por esse motivo (Constituição, art. 175). Organizações sociais (OS) e organizações da sociedade civil de interesse público (OSCIP) também não se tornam entidades da Administração indireta pela parceria. A natureza da atividade e a posição na estrutura são perguntas distintas.
 
-### 3.2. Sentido Objetivo, Material ou Funcional
-Responde à pergunta: **"O QUE É a atividade administrativa?"**
+### Sentido Objetivo, Material ou Funcional
+Responde à pergunta: **"Que atividade administrativa é realizada?"**
 - Designa a própria **atividade ou função administrativa** desempenhada pelo Estado, consubstanciada em quatro campos materiais precípuos:
   1. **Serviço Público:** Atividades de prestação material direta de utilidades e comodidades aos cidadãos (transporte, saúde, educação, saneamento).
   2. **Poder de Polícia Administrativa:** Restrições, condicionamentos e fiscalizações impostas a direitos e liberdades individuais em prol do interesse coletivo (segurança, trânsito, vigilância sanitária).
   3. **Fomento Público:** Estímulo estatal a iniciativas privadas de interesse social (concessão de incentivos fiscais, subvenções, linhas de crédito).
-  4. **Intervenção:** Atuação estatal sobre a atividade econômica, conforme as modalidades e limites constitucionais. Regulação e fiscalização podem integrar essa atuação, mas não se confundem automaticamente com exploração direta de atividade econômica (Constituição, arts. 173 e 174).
+  4. **Intervenção na atividade econômica:** Atuação estatal nas modalidades e limites constitucionais. **Regulação** (estabelecer regras e fiscalizar, art. 174) não é sinônimo de **exploração direta da atividade econômica** (hipóteses do art. 173).
 
 ---
 
-## 4. O Exercício da Função Administrativa nos Três Poderes
+## O Exercício da Função Administrativa nos Três Poderes
 
-O art. 2º da **Constituição Federal de 1988 (CF/1988)** estabelece Poderes independentes e harmônicos. Isso distribui funções principais e permite controles recíprocos, sem impedir que cada Poder administre seus próprios recursos. A distinção entre função típica e atípica descreve a **atividade**, não cria uma exceção à legalidade:
+O art. 2º da **Constituição Federal de 1988 (CF/1988)** estabelece Poderes independentes e harmônicos. Isso distribui funções principais e permite controles recíprocos, sem impedir que cada Poder administre seus próprios recursos. A distinção entre função típica e atípica descreve a **atividade**, não cria exceção à legalidade. **Função jurisdicional** é a atividade de solucionar conflitos mediante decisões judiciais, com possibilidade de coisa julgada material, ao passo que uma decisão administrativa final não se transforma em sentença judicial:
 
 - **Funções Típicas (Precípuas):**
   - **Poder Executivo:** Exercício típico da função administrativa e de governo.
@@ -98,7 +99,7 @@ O art. 2º da **Constituição Federal de 1988 (CF/1988)** estabelece Poderes in
 
 ---
 
-## 5. Questões Comentadas no Estilo Cebraspe
+## Questões Comentadas no Estilo Cebraspe
 
 ### Questão 1
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*
@@ -122,7 +123,7 @@ O art. 2º da **Constituição Federal de 1988 (CF/1988)** estabelece Poderes in
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** A Câmara legisla e fiscaliza como funções principais, mas também precisa contratar e gerir serviços. Nessa situação exerce função administrativa. Aplicam-se os princípios do art. 37 da Constituição e as normas de contratação pertinentes; o controle judicial examina a conformidade jurídica do ato, não substitui livremente a decisão administrativa.
+**Comentário:** A Câmara exerce a função legislativa e a fiscalização política como atividades principais, mas também precisa contratar e gerir serviços. Nessa situação exerce função administrativa. Aplicam-se os princípios do art. 37 da Constituição e as normas de contratação pertinentes; o controle judicial examina a conformidade jurídica do ato, não substitui livremente a decisão administrativa.
 
 ---
 
@@ -135,7 +136,7 @@ O art. 2º da **Constituição Federal de 1988 (CF/1988)** estabelece Poderes in
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** A concessão transfere a execução de um serviço, nos termos do art. 175 da Constituição, sem transformar a empresa privada em autarquia, empresa pública ou outro ente da Administração indireta. Prestar serviço público e integrar a estrutura estatal são critérios diferentes.
+**Comentário:** A concessão delega a prestação de um serviço, nos termos do art. 175 da Constituição, sem transformar a concessionária privada em autarquia, empresa pública ou outro ente da Administração Indireta. Prestar serviço público e integrar a estrutura estatal são critérios diferentes.
 
 ---
 
@@ -161,7 +162,7 @@ O art. 2º da **Constituição Federal de 1988 (CF/1988)** estabelece Poderes in
 - ( ) Errado
 
 **Gabarito: Certo**  
-**Comentário:** A classificação doutrinária tradicional identifica povo, território e poder soberano. Ela serve para descrever a estrutura do Estado; não é transcrição literal da Constituição. O art. 1º, I, da CF/1988 consagra a soberania como fundamento da República.
+**Comentário:** A classificação doutrinária tradicional identifica povo, território e poder soberano. É uma forma de explicar a estrutura do Estado e não uma lista do art. 1º da Constituição. A soberania é fundamento da República (art. 1º, I), enquanto União, estados, Distrito Federal e municípios possuem graus de autonomia previstos constitucionalmente.
 
 ---
 
@@ -174,14 +175,14 @@ O art. 2º da **Constituição Federal de 1988 (CF/1988)** estabelece Poderes in
 - ( ) Errado
 
 **Gabarito: Errado**  
-**Comentário:** Julgar recurso administrativo continua sendo função administrativa. A decisão pode tornar-se definitiva **na esfera administrativa**, mas não adquire coisa julgada material judicial. O art. 5º, XXXV, da Constituição impede excluir da apreciação do Judiciário lesão ou ameaça a direito. A revisão judicial depende de provocação e dos requisitos processuais aplicáveis.
+**Comentário:** Decidir recurso administrativo é uma função administrativa, mesmo quando a autoridade examina fatos, provas e argumentos como em um julgamento. A decisão pode tornar-se definitiva **na esfera administrativa**, mas não adquire coisa julgada material judicial. O art. 5º, XXXV, da Constituição impede excluir da apreciação do Judiciário lesão ou ameaça a direito. A revisão judicial depende de provocação e dos requisitos processuais aplicáveis.
 
 ---
 
-## 6. Relações com Outros Artigos e Síntese de Revisão
+## Relações com Outros Artigos e Síntese de Revisão
 
 - **Pré-requisitos e Vínculos Teóricos:**
-  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: Os princípios expressos e implícitos do regime jurídico-administrativo decorrem da supremacia e indisponibilidade do interesse público.
+  - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: Os princípios que orientam a administração estão no art. 37 da Constituição, na legislação e na jurisprudência; supremacia e indisponibilidade são categorias doutrinárias, com limites constitucionais.
   - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico]]: A estruturação da Administração Direta e Indireta operacionaliza a separação entre Governo e Administração técnica.
   - [[3 - Materias/Direito Administrativo/03 - atos administrativos|Elementos e requisitos de validade do ato administrativo: competência, finalidade, forma, motivo e objeto]]: A manifestação formal da função administrativa por meio de atos e contratos.
 

@@ -659,6 +659,14 @@
       "examBlock": "Conhecimentos básicos",
       "contestId": "camara-2026",
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-sentidos-administracao",
+      "term": "Administração Pública em sentido subjetivo e objetivo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

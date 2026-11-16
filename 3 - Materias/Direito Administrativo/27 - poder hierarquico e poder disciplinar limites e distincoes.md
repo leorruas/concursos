@@ -48,7 +48,7 @@ flowchart TD
     PH -. "Limites" .-> LIM["Sem hierarquia entre ministério e autarquia<br>Funções jurisdicionais têm independência decisória<br>Ordens manifestamente ilegais não obrigam"]:::raiz
 ```
 
-### 1.1 As cinco faculdades decorrentes do poder hierárquico
+### As cinco faculdades decorrentes do poder hierárquico
 
 Entre as manifestações da organização hierárquica estão:
 1. **Comando:** a chefia dirige a execução de tarefas legais. Instruções e ordens de serviço podem expressar decisões; um memorando ou ofício pode servir apenas para comunicá-las;
@@ -57,7 +57,7 @@ Entre as manifestações da organização hierárquica estão:
 4. **Delegação e avocação:** **delegação** é atribuição do exercício de parte da competência a outro órgão ou titular, **ainda que não seja subordinado**, quando a lei permitir (Lei nº 9.784/1999, art. 12). O art. 13 proíbe delegar atos normativos, decisões de recursos e competências exclusivas; o art. 14 exige publicidade do ato, delimitação dos poderes, duração e objetivos e permite sua revogação. **Avocação**, ao contrário, é excepcional, temporária, motivada e recai sobre competência de órgão **hierarquicamente inferior** (art. 15);
 5. **Solução de conflitos de atribuição:** quando os órgãos se subordinam à mesma autoridade, esta pode definir a atuação que cabe a cada um conforme a lei. Nem toda controvérsia de competência pode ser resolvida livremente pela chefia.
 
-### 1.2 Limites dogmáticos do poder hierárquico
+### Limites dogmáticos do poder hierárquico
 
 O Cebraspe explora com rigor as situações jurídicas em que o poder hierárquico **não existe ou não opera**:
 
@@ -87,14 +87,14 @@ flowchart TD
     PD -. "Diferença" .-> HIER["Hierarquia dirige trabalho interno<br>Sanção exige infração, competência e procedimento"]:::raiz
 ```
 
-### 2.1 Supremacia especial versus supremacia geral
+### Supremacia especial versus supremacia geral
 
 A distinção doutrinária depende do **vínculo jurídico** e da **fonte legal da obrigação**:
 
 1. **Relação especial de sujeição:** deveres surgem do regime funcional, contratual ou institucional específico. Servidor pode cometer infração disciplinar; licitante ou contratado pode responder pelas infrações tipificadas nos arts. 155 e 156 da **Lei nº 14.133/2021**, que disciplina licitações e contratos administrativos. **O regime e a competência sancionadora dependem da lei específica**; o vínculo não permite criar sanções livremente;
 2. **Sujeição geral ao poder de polícia:** o Estado condiciona atividades de particulares para proteger interesses públicos, mesmo sem contrato ou relação funcional com eles. Exemplo: multa de trânsito baseada em infração legal. O **art. 78 do Código Tributário Nacional (Lei nº 5.172/1966)** define poder de polícia como atividade administrativa que limita ou disciplina direitos, interesses e liberdades por razões de interesse público. A finalidade de uma interdição sanitária pode ser preventiva, e não punitiva.
 
-### 2.2 Vinculação e discricionariedade no poder disciplinar
+### Vinculação e discricionariedade no poder disciplinar
 
 O poder disciplinar não é puramente vinculado nem amplamente discricionário:
 - **Dever de apurar:** o **art. 143 da Lei nº 8.112/1990** obriga a autoridade a promover a apuração imediata de irregularidade de que tome ciência. Isso não dispensa avaliação inicial dos elementos disponíveis nem implica **abrir PAD formal para qualquer notícia sem indícios mínimos**. A penalidade exige infração, rito e competência legais; hipóteses de demissão estão no art. 132;
@@ -102,7 +102,7 @@ O poder disciplinar não é puramente vinculado nem amplamente discricionário:
 
 ---
 
-## 3. Confronto analítico: poder hierárquico versus poder disciplinar
+## Confronto analítico: poder hierárquico versus poder disciplinar
 
 A tabela a seguir sistematiza as fronteiras dogmáticas exigidas em provas:
 
@@ -116,7 +116,7 @@ A tabela a seguir sistematiza as fronteiras dogmáticas exigidas em provas:
 
 ---
 
-## 4. Questões comentadas
+## Questões comentadas
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **1.** A aplicação da sanção de **impedimento de licitar e contratar**, prevista no art. 156, III, da Lei nº 14.133/2021, a empresa contratada que comete infração contratual apurada em processo regular integra a atividade sancionadora ligada ao vínculo contratual com a Administração, distinta da fiscalização geral do poder de polícia.

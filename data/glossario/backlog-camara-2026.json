@@ -1307,6 +1307,94 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo",
       "contestId": "camara-2026",
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-objetiva",
+      "term": "Responsabilidade civil objetiva do Estado",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da06-risco-administrativo",
+      "term": "Teoria do risco administrativo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da06-risco-integral-ambiental",
+      "term": "Risco integral no dano ambiental",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da06-regresso",
+      "term": "Ação regressiva por dano de agente público",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da06-dupla-garantia",
+      "term": "Dupla garantia no Tema 940 do STF",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da06-nao-usuario",
+      "term": "Responsabilidade perante não usuários no Tema 130",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da06-omissao-detento",
+      "term": "Omissão em dever específico de proteção: Tema 592",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da06-nexo-fuga",
+      "term": "Nexo causal direto e preso foragido: Tema 362",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da06-excludentes",
+      "term": "Excludentes e atenuantes no risco administrativo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da06-operacoes",
+      "term": "Responsabilidade em operações de segurança: Tema 1237",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da06-erro-judiciario",
+      "term": "Indenização constitucional por erro judiciário",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

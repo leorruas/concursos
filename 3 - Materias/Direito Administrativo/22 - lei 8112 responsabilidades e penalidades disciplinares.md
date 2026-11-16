@@ -7,8 +7,8 @@ subjectId: "direito-administrativo"
 topicId: "agentes-publicos"
 trackId: "direito-administrativo"
 created: "2026-11-09"
-updated: "2026-11-09"
-revision: 1
+updated: "2026-11-16"
+revision: 2
 status: "published"
 confidenceLevel: "high"
 importanceLevel: "critical"
@@ -21,58 +21,73 @@ reviewedBy: "Auditoria Editorial e Dogmática"
 
 # Lei nº 8.112/1990: responsabilidades e penalidades disciplinares
 
-O regime disciplinar dos servidores públicos civis da União, autarquias e fundações públicas federais é estruturado pelos arts. 121 a 142 da Lei nº 8.112/1990. No âmbito dos concursos públicos organizados pelo Cebraspe para carreiras do Poder Legislativo Federal, a disciplina sancionatória exige do candidato o domínio minucioso de três eixos fundamentais: (1) a independência e comunicabilidade das esferas civil, penal e administrativa, com ênfase nas hipóteses restritas de repercussão da sentença penal absolutória; (2) a tipicidade estrita e as hipóteses legais taxativas de cabimento de cada penalidade funcional; e (3) os prazos de prescrição da pretensão punitiva disciplinar, seus marcos interruptivos e a regra especial de equiparação a crimes contra a administração pública.
+**Caso para entender o tema:** um servidor usa indevidamente informações de seu órgão. A conduta pode causar **dano financeiro**, constituir **crime** e violar um **dever funcional**. Cada consequência tem requisitos próprios e pode ser examinada em procedimento diferente. Se houver absolvição criminal, é indispensável descobrir **o fundamento** antes de concluir se a Administração pode continuar apurando.
+
+A **Lei nº 8.112/1990**, estatuto dos servidores civis da União, autarquias e fundações públicas federais, distingue as responsabilidades **civil, penal e administrativa** (arts. 121 a 126-A) e estabelece **seis espécies de penalidades disciplinares** (arts. 127 a 142). A **Cebraspe** costuma trocar a causa da absolvição, o prazo de prescrição, a autoridade que decide ou a diferença entre **abandono de cargo e inassiduidade habitual**.
+
+**Roteiro:** identificar o fato e os envolvidos → verificar se há dano, crime e infração estatutária → assegurar procedimento e defesa → escolher a penalidade conforme a lei → conferir competência para aplicação e prescrição. É um **mapa de análise**, não um rito processual único; os ritos de sindicância e processo administrativo disciplinar (PAD) são detalhados no artigo 24.
+
 
 ---
 
 ## 1. Responsabilidade tríplice do servidor: independência e comunicabilidade das instâncias
 
-O servidor público responde civil, penal e administrativamente pelo exercício irregular de suas atribuições (art. 121 da Lei nº 8.112/1990).
+**Três esferas** podem tratar da mesma conduta. O **art. 121** diz que o servidor responde civil, penal e administrativamente pelo exercício irregular de suas atribuições; o **art. 125** permite que as consequências se acumulem, respeitados os pressupostos de cada responsabilidade.
 
 ```mermaid
 flowchart TD
-    classDef raiz fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#000000;
-    classDef criterio fill:#faedcd,stroke:#d4a373,stroke-width:2px,color:#000000;
-    classDef opcao fill:#fff8e7,stroke:#d4a373,stroke-width:1.5px,color:#000000;
+    classDef raiz fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#111111;
+    classDef criterio fill:#fff2d9,stroke:#b45309,stroke-width:1.5px,color:#3d2207;
+    classDef opcao fill:#fffbeb,stroke:#b68d58,stroke-width:1.5px,color:#1c1917;
 
-    RESP["Tríplice Responsabilidade do Servidor<br>(Art. 121)"]:::raiz
-    
-    RESP --> RC["Responsabilidade Civil<br>(Dano patrimonial ao erário ou terceiros)"]:::criterio
-    RESP --> RP["Responsabilidade Penal<br>(Crimes e contravenções imputadas)"]:::criterio
-    RESP --> RA["Responsabilidade Administrativa<br>(Infrações disciplinares do estatuto)"]:::criterio
-    
-    RC --> CUM["Regra Geral: CUMULAÇÃO e INDEPENDÊNCIA<br>(Sanções podem ser aplicadas concomitantemente - Art. 125)"]:::raiz
-    RP --> CUM
-    RA --> CUM
-    
-    CUM --> EXCEP["Exceções de Comunicabilidade Penal<br>(Art. 126 da Lei 8.112 e Art. 935 do CC)"]:::criterio
-    EXCEP --> NEG["ABSOLVIÇÃO CRIMINAL por:<br>1. Negativa da existência do fato<br>2. Negativa de autoria comprovada"]:::opcao
-    NEG -. "Efeito Vinculante" .-> REPERC["AFASTA responsabilidade civil e administrativa<br>Anula demissão e gera REINTEGRAÇÃO"]:::raiz
+    A["Mesma conduta de agente público"]:::raiz
+    A --> B["Civil: reparar dano, se preenchidos os requisitos"]:::criterio
+    A --> C["Penal: crime ou contravenção"]:::criterio
+    A --> D["Administrativa: infração disciplinar"]:::criterio
+    C --> E{"Fundamento da decisão penal?"}:::criterio
+    E -->|"Fato não existiu ou autoria negada"|F["Afasta responsabilidade administrativa pelo mesmo fato"]:::opcao
+    E -->|"Falta de prova ou conduta atípica penal"|G["Apuração disciplinar ainda pode ser possível"]:::opcao
+    F --> H["Verificar se há falta residual independente"]:::opcao
 ```
 
 ### 1.1 Natureza e características de cada modalidade de responsabilidade
 
-1. **Responsabilidade civil (art. 122):** decorre de ato omissivo ou comissivo, doloso ou culposo, que resulte em prejuízo ao erário ou a terceiros.
-   - **Prejuízo ao erário:** a obrigação de reparar o dano estende-se aos sucessores e contra eles será executada até o limite do valor do patrimônio transferido (art. 122, § 3º c/c art. 5º, XLV, CF/1988);
-   - **Dano a terceiros:** o servidor responderá perante a Fazenda Pública em ação regressiva (art. 122, § 2º c/c art. 37, § 6º, CF/1988; Tema 940 STF: a ação de reparação deve ser ajuizada diretamente contra o Estado, sendo vedado o ajuizamento direto contra o servidor público).
-2. **Responsabilidade penal (art. 123):** abrange os crimes e contravenções tipificados no Código Penal e em legislação penal especial cometidos pelo servidor no exercício de suas atribuições ou a pretexto de exercê-las.
-3. **Responsabilidade administrativa (art. 124):** resulta de ato omissivo ou comissivo praticado no desempenho do cargo ou função pública que configure descumprimento de dever funcional ou violação de proibições estatutárias.
+**Civil (art. 122):** surge quando um ato ou omissão **doloso ou culposo** causa prejuízo ao erário ou a terceiro. **Dolo** é intenção juridicamente relevante; **culpa**, em sentido amplo, pode decorrer de negligência, imprudência ou imperícia. É preciso identificar conduta, dano e nexo causal, sem presumir indenização em qualquer erro administrativo.
+
+**Dano ao erário:** o Estado pode buscar o ressarcimento na forma legal. A dívida reparatória pode ser exigida dos **sucessores**, mas somente até o **limite da herança recebida** (art. 122, § 3º). O artigo não torna herdeiros pessoalmente responsáveis por valores superiores à herança.
+
+**Dano a terceiros:** o art. 37, § 6º, da Constituição estabelece a responsabilidade do Estado perante a vítima, com possibilidade de **ação regressiva** contra o agente quando houver dolo ou culpa. No **Tema 940 do STF**, a ação de reparação por dano de agente público nessa qualidade deve ser dirigida contra a pessoa jurídica responsável, não diretamente contra o servidor; a possibilidade de regresso é distinta da ação da vítima.
+
+**Penal (art. 123):** responde por **crimes e contravenções** atribuídos ao agente nessa qualidade, mediante persecução e decisão dos órgãos competentes, segundo regras penais e processuais penais. Uma infração estatutária **não é necessariamente crime**, e um crime pode gerar consequência disciplinar quando previsto.
+
+**Administrativa (art. 124):** exige ato ou omissão ligado ao desempenho do cargo ou função que infrinja norma funcional. É analisada no âmbito disciplinar, com **contraditório e ampla defesa**. Uma investigação penal não substitui o enquadramento e a apuração necessários à sanção administrativa.
+
+**Exemplo:** servidor divulga informação protegida. Poderá haver dever de reparação se houver dano, tipificação penal se preencher a lei criminal e apuração funcional se violar dever de sigilo. Para marcar C/E, não se pode presumir automaticamente as três condenações apenas porque a conduta ocorreu.
 
 ### 1.2 Regra de ouro da comunicabilidade das instâncias: o art. 126 da Lei nº 8.112/1990
 
-As sanções civis, penais e administrativas **podem cumular-se**, sendo independentes entre si (art. 125). Essa é a regra geral. Todavia, a sentença criminal repercute na esfera administrativa nas hipóteses taxativas delineadas pela lei e pela jurisprudência pacífica dos tribunais superiores:
+**Independência das instâncias:** o art. 125 permite que **responsabilidades e sanções coexistam**; não exige aguardar, em todo caso, o fim do processo criminal para iniciar o PAD.
 
-- **Hipóteses em que a sentença penal VINCULA e AFASTA a sanção administrativa (art. 126):**
-  1. Sentença penal absolutória que reconhecer categoricamente a **inexistência material do fato** (art. 386, I, CPP);
-  2. Sentença penal absolutória que negar categoricamente a **autoria do crime** pelo servidor imputado (art. 386, IV, CPP).
-- **Hipóteses em que a sentença penal NÃO vincula e NÃO afasta a sanção administrativa:**
-  - Absolvição penal por **falta ou insuficiência de provas** (art. 386, II, V e VII, CPP);
-  - Absolvição penal por **atipicidade da conduta na lei penal** (art. 386, III, CPP) — o fato pode não constituir crime, mas configurar grave ilícito disciplinar autônomo (ex.: quebra de dever ético ou desídia);
-  - Extinção da punibilidade pela **prescrição penal** — não impede a punição disciplinar, desde que respeitados os prazos prescricionais administrativos;
-  - Decisão de arquivamento de inquérito policial ou não recebimento de denúncia criminal por razões formais.
+**Exceção do art. 126:** a **absolvição criminal** afasta a responsabilidade administrativa **pelo mesmo fato** quando a decisão penal reconhecer categoricamente **que o fato não existiu** ou **que o servidor não foi o autor**. Não se deve confundir **prova de que a pessoa não praticou o fato** com **ausência de prova suficiente para condená-la**.
 
-> **Súmula nº 18 do STF:**  
-> *"Pela falta residual, não compreendida na absolvição pelo juízo criminal, é admissível a punição administrativa do servidor público."*
+| Resultado no processo penal | Efeito típico na esfera disciplinar pelo mesmo fato |
+| --- | --- |
+| **Reconhecimento de inexistência do fato** | Afasta a imputação administrativa baseada nesse fato |
+| **Reconhecimento de negativa de autoria** | Afasta a imputação administrativa àquela pessoa pelo fato |
+| **Insuficiência de provas para condenação** | Não afasta automaticamente o PAD, que precisa de provas próprias |
+| **Fato não constitui crime (atipicidade penal)** | Pode permanecer infração funcional, se houver previsão e prova |
+| **Prescrição penal ou arquivamento de investigação** | Não apaga automaticamente a infração disciplinar; examinar prescrição administrativa e possíveis regras do art. 142, § 2º |
+
+**Falta residual (Súmula 18 do STF):** mesmo diante de absolvição penal, pode existir **outra infração disciplinar independente** que a decisão criminal não examinou nem excluiu. É errado deduzir que toda absolvição impede qualquer sanção ou, no sentido oposto, que a Administração sempre pode desconsiderar a decisão que provou inexistência do fato ou negativa de autoria.
+
+**Exemplo:** servidor é absolvido porque a Justiça reconheceu que **não foi ele quem divulgou** um documento. A Administração não pode puni-lo como autor dessa mesma divulgação. Contudo, se houver uma falta independente, demonstrada em outro comportamento não afastado pela decisão, ela exige apuração própria. Se o servidor foi absolvido apenas por **dúvida**, a apuração disciplinar não se encerra automaticamente.
+
+**Art. 126-A: comunicação de irregularidades.** A Lei nº 8.112 protege o servidor que comunica à chefia ou, quando ela estiver envolvida, a outra autoridade competente a informação sobre **crimes ou improbidade** de que teve conhecimento. A comunicação nos termos legais não gera, por si, responsabilidade civil, penal ou administrativa. **Essa proteção não é autorização para praticar crime, inventar fatos ou divulgar dados sigilosos fora dos canais legais.**
+
+**Consequência funcional de decisão penal:** se uma penalidade administrativa for afastada em razão do art. 126, os efeitos sobre o vínculo devem ser formalizados no procedimento próprio. Caso uma **demissão seja invalidada** e o servidor seja estável, pode haver **reintegração** conforme o **art. 28**; **não se deve desenhar reintegração como efeito automático de toda absolvição penal**.
+
+Fontes: [Lei nº 8.112/1990, arts. 121 a 126-A](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html); [Súmula 18 do STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2576); [Constituição, art. 37, § 6º](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988).
+
 
 ---
 

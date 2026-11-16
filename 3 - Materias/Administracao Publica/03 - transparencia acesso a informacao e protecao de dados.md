@@ -250,7 +250,9 @@ O **art. 15** prevê aplicação subsidiária, no que couber, da Lei nº 9.784/1
 
 Enunciados autorais, sem atribuição a questão real Cebraspe. **Fonte primária:** [Ato da Mesa nº 45/2012, arts. 12 a 15, versão atualizada](https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html). Relações: [[3 - Materias/Administracao Publica/02 - governanca publica|Governança pública]] e [[3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor|Relações institucionais]].
 
-## LGPD: categorias fundamentais
+## LGPD: aplicação e categorias fundamentais
+
+A LGPD alcança operações de **coleta, consulta, armazenamento, compartilhamento, análise e eliminação** de dados pessoais, inclusive em suporte físico (**arts. 1º, 3º e 5º, X**). O **art. 4º** estabelece exclusões específicas, como tratamento exclusivamente particular e não econômico por pessoa natural, finalidades jornalísticas e artísticas e regimes próprios para fins acadêmicos e para segurança pública. A finalidade acadêmica não dispensa os arts. 7º e 11. Uma atividade **não está fora da LGPD apenas por ser feita por órgão público**.
 
 ### Dado pessoal
 
@@ -313,26 +315,26 @@ Entre as bases estão consentimento, obrigação legal ou regulatória, execuç�
 
 ### Dados pessoais sensíveis, art. 11
 
-O tratamento pode ocorrer mediante consentimento específico e destacado para finalidades específicas ou, sem consentimento, nas hipóteses legais, entre elas:
+O **art. 11** permite tratar dados sensíveis mediante **consentimento específico e destacado, para finalidades específicas**, ou, sem consentimento, nas hipóteses legais: obrigação legal ou regulatória; execução, **pela administração pública**, de políticas previstas em leis ou regulamentos, quando necessário o tratamento compartilhado; estudos por órgão de pesquisa, com anonimização sempre que possível; exercício regular de direitos; proteção da vida; tutela da saúde nas condições legais; e **prevenção à fraude e segurança do titular em identificação e autenticação**, observadas as salvaguardas legais.
 
-- obrigação legal ou regulatória;
-- execução de políticas públicas;
-- estudos por órgão de pesquisa;
-- exercício regular de direitos;
-- proteção da vida;
-- tutela da saúde;
-- **prevenção à fraude e segurança do titular em processos de identificação e autenticação**, observadas as condições legais.
+**Exemplo:** um órgão precisa tratar informação de saúde para executar política pública autorizada. A existência de base legal não autoriza divulgar prontuários nem coletar dados excessivos. **Legítimo interesse**, presente no art. 7º, não integra o rol do art. 11 para dados sensíveis.
 
 > [!IMPORTANT]
 > **Legítimo interesse não é base legal do art. 11 para dados sensíveis.** A banca pode deslocar a base do art. 7º para o regime do art. 11 como verdade parcial.
 
 ### Consentimento
 
-Quando utilizado, deve ser livre, informado e inequívoco para finalidade determinada. Autorizações genéricas são nulas. Se escrito, deve constar de cláusula destacada. O controlador tem o ônus de demonstrar que o consentimento foi obtido conforme a lei, e o titular pode revogá-lo mediante procedimento gratuito e facilitado.
+Quando consentimento for a base legal, deve ser **livre, informado e inequívoco**, para finalidade determinada (**arts. 5º, XII, e 8º**). Autorizações genéricas são nulas; se o consentimento for escrito, exige-se **cláusula destacada**. O controlador precisa comprovar a obtenção regular; a revogação pelo titular deve ser gratuita e facilitada, observadas as hipóteses legais de conservação.
+
+**Caso:** uma pessoa precisa usar serviço público obrigatório. Assinar um formulário não basta para concluir que houve escolha livre; o órgão deve analisar a competência legal e a base apropriada, sem presumir consentimento como regra universal.
 
 ## Poder Público e empresas estatais
 
-O tratamento pelo Poder Público deve atender à finalidade pública, à persecução do interesse público e à execução de competências ou atribuições legais do serviço público.
+O **art. 23 da LGPD** exige finalidade e interesse públicos e atuação dentro das competências ou atribuições legais do órgão. Também impõe informar, em meio de fácil acesso, a previsão legal, os objetivos e as práticas do tratamento de dados.
+
+Os **arts. 25 e 26** disciplinam o compartilhamento no Poder Público, com finalidades específicas e respeito aos princípios. Transferir dados pessoais de bases públicas a entidade privada **não é sempre proibido nem livre por conveniência**: o art. 26, § 1º, prevê exceções, como execução descentralizada de atividade pública para finalidade determinada, previsão legal e instrumentos autorizados. A comunicação e o compartilhamento com entidades privadas também seguem as condições do **art. 27**.
+
+**Exemplo:** empresa contratada para operar portal legislativo deve acessar apenas os dados necessários ao serviço. A contratação não lhe concede licença para utilizar os registros para marketing próprio incompatível com a finalidade pública.
 
 Empresas públicas e sociedades de economia mista recebem tratamento diferente conforme a atividade:
 
@@ -352,7 +354,9 @@ Empresas públicas e sociedades de economia mista recebem tratamento diferente c
 
 ### Indicação do encarregado
 
-A LGPD, no art. 41, estabelece a indicação pelo controlador. A Resolução CD/ANPD nº 18/2024 prevê que a **indicação pelo operador é facultativa**, considerada boa prática de governança. A Lei nº 15.352/2026 modificou a definição do art. 5º, VIII, para mencionar controlador e operador; distinguir a definição legal das regras sobre obrigatoriedade de indicação.
+O **art. 41 da LGPD** estabelece indicação de encarregado pelo **controlador**, ressalvadas hipóteses regulatórias de dispensa. A **Resolução CD/ANPD nº 18/2024, art. 6º**, considera **facultativa** a indicação pelo **operador** como boa prática. Para as pessoas jurídicas de direito público tratadoras de dados, o **art. 5º** do regulamento prevê indicação, preferencialmente de servidor ou empregado público, e publicação no diário oficial correspondente.
+
+A **Lei nº 15.352/2026** atualizou a **definição** do encarregado no **art. 5º, VIII, da LGPD**, mencionando controlador e operador. A definição de quem pode indicar não elimina automaticamente a diferença entre o dever do controlador e a faculdade do operador segundo o regulamento.
 
 > [!TIP]
 > Não confunda a definição geral do art. 5º, VIII, com a regra operacional de indicação prevista no art. 41 e regulamentada pela ANPD.
@@ -379,11 +383,17 @@ O art. 18 assegura, entre outros, direitos de:
 - revogação do consentimento;
 - oposição, nas hipóteses legais, a tratamento realizado sem consentimento em desconformidade com a LGPD.
 
+### Prazo para o titular acessar os próprios dados: LGPD, art. 19
+
+O titular pode receber **confirmação ou acesso em formato simplificado imediatamente**, ou declaração clara e completa em até **15 dias**, contendo origem dos dados, critérios e finalidade, respeitados os segredos comercial e industrial (**art. 19**). O **art. 23, § 3º**, estabelece que o exercício de direitos perante o Poder Público também observa legislação específica, em especial LAI, habeas data e processo administrativo. **Os 15 dias do art. 19 da LGPD não substituem o prazo de 20 dias, prorrogáveis por dez, do pedido público regido pela LAI.**
+
 ## Decisões automatizadas, art. 20
 
 O titular pode solicitar revisão de decisões tomadas **unicamente com base em tratamento automatizado** que afetem seus interesses, inclusive decisões destinadas a definir perfil pessoal, profissional, de consumo, crédito ou aspectos da personalidade.
 
-A LGPD vigente não exige, como regra textual do art. 20, que essa revisão seja obrigatoriamente realizada por pessoa humana. O controlador deve fornecer, quando solicitado, informações claras e adequadas sobre critérios e procedimentos utilizados, observados segredos comercial e industrial.
+O texto vigente do art. 20 **não exige expressamente revisão obrigatória por pessoa humana**. O controlador deve informar critérios e procedimentos de modo claro e adequado, observados segredos comercial e industrial. Se a informação for negada com base nesse segredo, a **ANPD pode auditar possíveis aspectos discriminatórios** (**art. 20, § 2º**).
+
+**Exemplo:** se um sistema decide sozinho negar determinado benefício e a decisão afeta o interessado, cabe examinar o art. 20. Se houve participação humana relevante na decisão, é necessário verificar se o processo foi realmente **unicamente automatizado**, sem pressupor a resposta pelo simples uso de algoritmo.
 
 > [!WARNING]
 > **Decisão automatizada não é proibida pela LGPD.** A pegadinha é transformar direito de revisão em proibição do uso de automação.
@@ -419,13 +429,9 @@ Incidente de segurança com dados pessoais é evento adverso confirmado que comp
 
 ### Quando comunicar
 
-A comunicação à ANPD e aos titulares é exigida quando, cumulativamente:
+O **art. 48 da LGPD** e a **Resolução CD/ANPD nº 15/2024, arts. 4º e 5º**, exigem comunicação de incidente confirmado envolvendo dados pessoais **quando ele puder acarretar risco ou dano relevante**. O regulamento considera cumulativamente: **(a)** possibilidade de afetar significativamente interesses ou direitos fundamentais do titular e **(b)** envolvimento de pelo menos uma categoria: dados sensíveis; de crianças, adolescentes ou idosos; financeiros; de autenticação; protegidos por sigilo legal, judicial ou profissional; **ou** tratados em larga escala.
 
-1. o incidente está confirmado;
-2. envolve dados pessoais sujeitos à LGPD;
-3. pode acarretar risco ou dano relevante aos titulares.
-
-Nem todo incidente precisa ser comunicado. O controlador deve avaliar o risco e o impacto.
+**Exemplo:** exposição confirmada de credenciais associadas a titulares pode exigir comunicação pelo risco de fraude. Uma vulnerabilidade encontrada e corrigida antes de produzir um incidente não é, por si, ocorrência a comunicar. Incidentes que não alcancem os critérios de comunicação ainda podem exigir medidas internas de correção e registro.
 
 ### Responsabilidades
 
@@ -434,13 +440,15 @@ Nem todo incidente precisa ser comunicado. O controlador deve avaliar o risco e 
 
 ### Prazos
 
-A comunicação deve ser feita em até **3 dias úteis**, ressalvada legislação específica. Se o controlador ainda não tiver todas as informações, pode realizar comunicação preliminar e complementá-la de forma fundamentada em até **20 dias úteis contados da comunicação**.
+O controlador deve comunicar à **ANPD e aos titulares** os incidentes sujeitos à obrigação em **até três dias úteis**, contados do conhecimento de que dados pessoais foram afetados, ressalvados prazos de legislação específica (**arts. 6º e 9º da resolução**). Informações adicionais à ANPD podem ser apresentadas justificadamente em até **20 dias úteis contados da comunicação** (**art. 6º, § 3º**). Esses prazos são, em regra, **contados em dobro para agentes de pequeno porte** abrangidos pela regulamentação.
+
+**Questão C/E autoral:** “Todo incidente só precisa ser comunicado após 20 dias úteis, quando terminar a investigação.” **Errado.** A comunicação inicial e a complementação têm prazos e condições diferentes. A contagem em dias úteis aqui também não deve ser confundida com os prazos de resposta da LAI.
 
 O controlador deve, em regra, manter o registro dos incidentes de segurança com dados pessoais por pelo menos **5 anos**, inclusive dos não comunicados. **Atenção à exceção do art. 10, § 2º, do Regulamento de Comunicação de Incidentes:** esse prazo não se aplica indistintamente às entidades do art. 23 da LGPD, quando observadas as regras de guarda permanente definidas por sua tabela de temporalidade ou pelo Conselho Nacional de Arquivos.
 
 ### Comunicação aos titulares
 
-Deve usar linguagem simples e de fácil entendimento. Quando possível, deve ser direta e individualizada. O regulamento admite, excepcionalmente e com justificativa, comunicação indireta por meio capaz de alcançar os titulares quando a individualização não for possível.
+A comunicação ao titular deve empregar **linguagem simples e compreensível** e ocorrer **direta e individualmente**, quando possível. Caso seja inviável ou não se consiga identificar todos os afetados, a **Resolução nº 15/2024, art. 9º, § 3º**, permite divulgação nos meios disponíveis, com visibilidade ampla, **por no mínimo três meses**. O aviso deve conter informações sobre os dados envolvidos, riscos, medidas de mitigação e meio de contato, observados os requisitos legais. **Comunicado de relações públicas não substitui a comunicação jurídica devida.**
 
 > [!IMPORTANT]
 > Gestão de crise comunicacional não substitui o dever jurídico de comunicar incidente quando os requisitos legais estiverem presentes.
@@ -513,16 +521,13 @@ Ver [[3 - Materias/Direito Administrativo/11 - controle da administracao publica
 - **Vulnerabilidade × incidente × comunicação:** a obrigação depende das condições previstas no regulamento.
 - **Denúncia × prova × sanção:** etapas e competências não intercambiáveis.
 
-## Heurísticas
+## Síntese para resolver itens C/E
 
-- **LAI:** quem pede? qual informação? qual hipótese de restrição? cabe acesso parcial? qual instância e prazo?
-- **LGPD:** é dado pessoal identificável? é sensível? qual finalidade e base legal? é necessário? que riscos e controles existem?
-- **CGU:** separar acesso, ouvidoria, auditoria, evidência, apuração e responsabilização.
-- **Cebraspe C/E:** desconfiar de troca de competência, condição, prazo, categoria ou alcance.
+Pela **LAI**, identifique órgão destinatário, informação solicitada, fundamento de eventual restrição, acesso parcial, prazo e recurso. Pela **LGPD**, identifique a pessoa, a natureza dos dados, a finalidade e a base legal, a necessidade e as medidas de segurança. Distinga a **obrigação literal de cada norma** de recomendações de boas práticas. Se a questão mencionar CGU, Câmara ou ANPD, verifique primeiro a **competência institucional**.
 
-## Pendências de aprofundamento
+## Limites desta unidade
 
-Ouvidoria e participação social precisam de estudo próprio sobre legislação de manifestações, proteção de denunciantes e procedimentos. O áudio e a consolidação representam **exposição e cobertura documental**, ainda sem treino Cebraspe corrigido que comprove domínio dos itens.
+O procedimento completo de ouvidoria da Lei nº 13.460/2017, a proteção específica de denunciantes e a fiscalização sancionadora da ANPD merecem tratamento próprio. Aqui são examinadas suas relações com transparência, acesso e proteção de dados. A presença de exercícios explicados **não demonstra, isoladamente, domínio em prova**, que depende da resolução e correção dos itens pelo estudante.
 
 ## Relações com outros temas
 
@@ -534,10 +539,12 @@ Ouvidoria e participação social precisam de estudo próprio sobre legislação
 ## Fontes
 
 - [Constituição Federal](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), art. 37.
-- [Lei nº 12.527/2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm), especialmente arts. 3º, 7º, 8º, 11, 16, 24 e 31.
+- [Lei nº 12.527/2011 (LAI), texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/2011/lei-12527-18-novembro-2011-611802-normaatualizada-pl.html), especialmente arts. 3º, 7º, 8º, 10 a 12, 24 e 31, inclusive regras específicas dos arts. 8º-A e 8º-B.
 - [Decreto nº 7.724/2012](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/decreto/d7724.htm), recursos e reclamação.
-- [Lei nº 13.709/2018](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm), texto atualizado.
+- [Lei nº 13.709/2018 (LGPD), texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-normaatualizada-pl.html), especialmente arts. 4º a 11, 18 a 20, 23 a 27, 41, 48 e 52.
 - [Lei nº 15.352/2026](https://legis.senado.gov.br/norma/42835651/publicacao/42841343), ANPD.
 - [CGU: prazos e instâncias de recursos](https://www.gov.br/acessoainformacao/pt-br/assuntos/recursos/prazos) e [enunciados da LAI](https://www.gov.br/acessoainformacao/pt-br/entendimentos-e-estudos-sobre-a-lai/enunciados-da-lai/), nº 4/2022 e nº 12/2023.
-- [Resolução CD/ANPD nº 15/2024](https://bibliotecadigital.mj.gov.br/bitstream/1/12879/2/RES_ANPD_2024_15.html), incidentes; Resolução CD/ANPD nº 18/2024, encarregado.
+- [Resolução CD/ANPD nº 15/2024, arts. 3º a 10](https://bibliotecadigital.mj.gov.br/bitstream/1/12879/2/RES_ANPD_2024_15.html): comunicação de incidentes e critérios de relevância.
+- [Resolução CD/ANPD nº 18/2024](https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/processo_integra_-resolucao_cd_anpd_no_18_2024.pdf): indicação e deveres do encarregado.
+- [Ato da Mesa nº 45/2012, texto atualizado da Câmara](https://www2.camara.leg.br/legin/int/atomes/2012/atodamesa-45-16-julho-2012-773823-normaatualizada-cd-mesa.html): regras institucionais de acesso e recursos.
 - Notas de origem consolidadas: [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Direito Administrativo]] e [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|Comunicação]].

@@ -693,6 +693,110 @@
       ],
       "status": "reviewed",
       "aliases": []
+    },
+    {
+      "id": "glo-camara-da20-posse-exercicio",
+      "term": "Posse e exercício na Lei nº 8.112/1990",
+      "definition": "Posse é a investidura mediante assinatura do termo, somente quando o provimento é por nomeação. Exercício é o início efetivo das atribuições. A posse ocorre, em regra, até 30 dias da publicação; o exercício, até 15 dias da posse.",
+      "contrast": "Falta de posse torna sem efeito o ato de nomeação (art. 13, § 6º). Falta de exercício após posse gera exoneração de ofício (art. 15, § 2º).",
+      "cebraspeTrap": "Afirmar que a nomeação já investe no cargo ou que a falta de exercício torna a nomeação sem efeito.",
+      "example": "Uma pessoa foi nomeada, mas não tomou posse: nomeação sem efeito. Outra tomou posse e não começou a trabalhar: exoneração de ofício.",
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 7º e 13 a 15",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "articleIds": [
+        "art-d982b608fc646e5a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "aliases": []
+    },
+    {
+      "id": "glo-camara-da20-reconducao-reintegracao",
+      "term": "Recondução e reintegração",
+      "definition": "Recondução é o retorno do servidor estável ao cargo anteriormente ocupado por reprovação em estágio probatório de outro cargo ou reintegração do antigo titular (art. 29). Reintegração é o retorno do servidor estável após anulação de sua demissão, com ressarcimento (art. 28).",
+      "contrast": "Na recondução, se a origem estiver ocupada, o art. 29, parágrafo único, determina aproveitamento em outro cargo. Na reintegração, o art. 28, § 2º, disciplina o destino do eventual ocupante do cargo.",
+      "cebraspeTrap": "Aplicar a regra de deslocamento do ocupante da reintegração à recondução do servidor inabilitado em outro estágio probatório.",
+      "example": "Servidor estável muda de cargo e é reprovado no estágio, mas origem está ocupada: aproveitamento em outro. Se sua demissão anterior foi invalidada: reintegração.",
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 20, 28 a 30",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "articleIds": [
+        "art-d982b608fc646e5a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "aliases": []
+    },
+    {
+      "id": "glo-camara-da20-probatorio-estabilidade",
+      "term": "Estágio probatório e estabilidade do servidor federal",
+      "definition": "Estágio probatório avalia a aptidão do servidor para exercer determinado cargo efetivo. A estabilidade constitucional exige três anos de efetivo exercício e avaliação especial por comissão (art. 41, § 4º, da Constituição).",
+      "contrast": "A Lei nº 8.112/1990 ainda contém redação de 24 meses no art. 20, superada na interpretação constitucional. Estabilidade anterior pode coexistir com probatório em novo cargo, permitindo recondução se houver inabilitação.",
+      "cebraspeTrap": "Memorizar 24 meses como duração aplicável do probatório ou afirmar que três anos, sem avaliação especial, bastam para estabilidade.",
+      "example": "Uma servidora já estável toma posse em outro cargo e inicia novo estágio probatório para as novas atribuições.",
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, art. 20",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        },
+        {
+          "label": "Constituição Federal, art. 41, § 4º",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "articleIds": [
+        "art-d982b608fc646e5a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "aliases": []
+    },
+    {
+      "id": "glo-camara-da20-reversao-aposentadoria",
+      "term": "Reversão do servidor aposentado",
+      "definition": "É o retorno à atividade do aposentado por cessação das causas de incapacidade médica ou, no interesse da Administração, a pedido do aposentado voluntário que preencha os requisitos do art. 25. A reversão se submete também ao art. 27 da Lei nº 8.112/1990.",
+      "contrast": "Reversão por cessação da incapacidade pode ocorrer como excedente se não houver vaga. A reversão no interesse da Administração exige cargo vago, estabilidade anterior, pedido e aposentadoria nos cinco anos anteriores, entre outros requisitos.",
+      "cebraspeTrap": "Afirmar que toda reversão depende de cargo vago ou que a reversão a pedido pode ocorrer como excedente.",
+      "example": "Aposentado por incapacidade recupera aptidão e volta como excedente se não há vaga; aposentado voluntário pede retorno, mas precisa cumprir requisitos legais.",
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 25 e 27",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "articleIds": [
+        "art-d982b608fc646e5a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed",
+      "aliases": []
     }
   ]
 }

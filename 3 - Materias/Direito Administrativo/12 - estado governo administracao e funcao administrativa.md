@@ -47,7 +47,7 @@ graph TD
 
 ---
 
-## Governo vs. Administração Pública: Distinção Ontológica e Funcional
+## 2. Governo vs. Administração Pública: Distinção Ontológica e Funcional
 
 A distinção entre **governo** e **Administração** é sobretudo **funcional**: uma mesma autoridade pode participar de decisões políticas e praticar atos administrativos. Governo orienta prioridades coletivas dentro das competências constitucionais; Administração executa serviços e gere recursos para concretizá-las conforme o Direito. Por exemplo, definir prioridades gerais para uma política é uma decisão de governo; realizar a licitação para executar essa política é atividade administrativa. Ambas devem respeitar a Constituição e o direito aplicável.
 
@@ -64,7 +64,7 @@ A distinção entre **governo** e **Administração** é sobretudo **funcional**
 
 ---
 
-## Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo
+## 3. Sentidos da Administração Pública: Critério Subjetivo vs. Objetivo
 
 A diferença entre os sentidos **subjetivo (formal ou orgânico)** e **objetivo (material ou funcional)** aparece com frequência em questões Cebraspe. O primeiro pergunta **quem integra a estrutura administrativa**; o segundo pergunta **qual atividade é desempenhada**. A mesma instituição pode responder à primeira pergunta enquanto executa atividades da segunda categoria.
 
@@ -84,7 +84,7 @@ Responde à pergunta: **"Que atividade administrativa é realizada?"**
 
 ---
 
-## O Exercício da Função Administrativa nos Três Poderes
+## 4. O Exercício da Função Administrativa nos Três Poderes
 
 O art. 2º da **Constituição Federal de 1988 (CF/1988)** estabelece Poderes independentes e harmônicos. Isso distribui funções principais e permite controles recíprocos, sem impedir que cada Poder administre seus próprios recursos. A distinção entre função típica e atípica descreve a **atividade**, não cria exceção à legalidade. **Função jurisdicional** é a atividade de solucionar conflitos mediante decisões judiciais, com possibilidade de coisa julgada material, ao passo que uma decisão administrativa final não se transforma em sentença judicial:
 

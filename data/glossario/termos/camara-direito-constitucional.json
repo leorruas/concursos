@@ -986,7 +986,9 @@
       "contrast": "O Plenário delibera com a participação dos deputados e as comissões examinam matérias nos respectivos campos de atuação; a Mesa exerce a direção dos trabalhos e serviços. O presidente da Câmara tem competências individuais distintas das atribuições da Mesa como órgão coletivo.",
       "cebraspeTrap": "Confundir a Mesa com o conjunto dos 513 deputados, atribuir à Mesa toda votação plenária ou supor que as competências do presidente e as da Mesa são idênticas.",
       "example": "O presidente conduz uma sessão do Plenário; a Mesa delibera sobre assuntos administrativos de sua competência. Uma comissão analisa um projeto antes de eventual deliberação do Plenário.",
-      "articleIds": [],
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
       "subjectIds": [
         "direito-constitucional"
       ],

@@ -57,6 +57,14 @@ updated: 2026-11-15
 | AP | `3 - Materias/Administracao Publica/06 - coproducao de servicos publicos e participacao cidada.md` | `art-ae41d8c6920f4b57` | **B** |
 | AP | `3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor.md` | `art-d8257e60c3494b91` | **B** |
 
+## Fluxo atual de publicação sem Pull Request (16/11/2026)
+
+Por decisão do usuário, as três frentes devem editar e publicar seus artigos **diretamente na `main`** do repositório, seguindo o procedimento de commit atômico, proteção de SHAs, validações e deploy descrito em `AGENTS.md`. A atribuição exclusiva por `articleId` e os três arquivos de estado continuam obrigatórios. Não criar PRs de revisão, documentação ou registro por rotina.
+
+Antes de um commit: ler a `main` atual, conferir arquivos de outras frentes e conflitos, preparar a revisão integral do artigo e vínculos necessários, validar localmente quando possível e gravar com precondição SHA sem `force push`. Depois: verificar CI/Pages e conteúdo servido. Se falhar, corrigir em novo commit e registrar o bloqueio concreto. Não declarar certificação integral sem cotejo completo.
+
+PRs antigos existentes devem ser encerrados ou reconciliados de maneira segura, sem duplicar alterações; somente usar novo PR se proteção de branch ou exigência técnica efetiva bloquear a escrita direta. Onde a seção histórica abaixo fala em 'branch', 'PR' ou 'merge', prevalece esta regra de publicação direta para todas as novas execuções.
+
 ## Controle de execução, evidências e conflitos
 
 1. **Fonte viva de estados:** cada frente atualiza apenas seu arquivo de evidências acima, com uma linha para cada `articleId` e estado `a conferir`, `reservado`, `em PR`, `integrado, deploy pendente`, `publicado, revisão integral certificada`, `publicado, revisão parcial`, `adequado sem alterações` ou `bloqueado`. Nunca inferir certificação integral pela existência de um merge, por teste técnico ou por revisão dirigida. Registrar PR, SHA, fontes, todos os itens C/E e a comprovação do Pages.

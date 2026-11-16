@@ -11171,7 +11171,10 @@
       "contrast": {
         "prompt": "Pessoa sem cargo efetivo pode assumir função de confiança se for nomeada livremente?",
         "answer": "Não. Livre nomeação é característica do cargo em comissão; função de confiança é exclusiva de ocupante de cargo efetivo."
-      }
+      },
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Agentes públicos"
+      ]
     },
     {
       "topic": "Direito Administrativo",
@@ -11204,7 +11207,10 @@
       "contrast": {
         "prompt": "A exigência de motivação transforma empregado de estatal em servidor estável?",
         "answer": "Não. O dever de motivar a dispensa não cria a estabilidade constitucional do art. 41."
-      }
+      },
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Agentes públicos"
+      ]
     }
   ]
 }

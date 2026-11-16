@@ -86,7 +86,7 @@ flowchart TD
 
 **Consequência funcional de decisão penal:** se uma penalidade administrativa for afastada em razão do art. 126, os efeitos sobre o vínculo devem ser formalizados no procedimento próprio. Caso uma **demissão seja invalidada** e o servidor seja estável, pode haver **reintegração** conforme o **art. 28**; **não se deve desenhar reintegração como efeito automático de toda absolvição penal**.
 
-Fontes: [Lei nº 8.112/1990, arts. 121 a 126-A](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html); [Súmula 18 do STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2576); [Constituição, art. 37, § 6º](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988).
+Fontes: [Lei nº 8.112/1990, arts. 121 a 126-A](https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html); [Súmula 18 do STF](https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2096); [Constituição, art. 37, § 6º](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988).
 
 
 ---

@@ -475,6 +475,14 @@
       "examBlock": "Conhecimentos básicos: Direito Constitucional",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-mesa-diretora",
+      "term": "Mesa Diretora da Câmara dos Deputados",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

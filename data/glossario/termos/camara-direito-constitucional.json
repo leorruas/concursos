@@ -974,6 +974,34 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-mesa-diretora",
+      "term": "Mesa Diretora da Câmara dos Deputados",
+      "aliases": [
+        "Mesa da Câmara",
+        "Mesa"
+      ],
+      "definition": "Órgão que dirige os trabalhos legislativos e os serviços administrativos da Câmara dos Deputados. É composto pelo presidente, dois vice-presidentes e quatro secretários; há também quatro suplentes de secretário. Seus membros são eleitos para mandato de dois anos.",
+      "contrast": "O Plenário delibera com a participação dos deputados e as comissões examinam matérias nos respectivos campos de atuação; a Mesa exerce a direção dos trabalhos e serviços. O presidente da Câmara tem competências individuais distintas das atribuições da Mesa como órgão coletivo.",
+      "cebraspeTrap": "Confundir a Mesa com o conjunto dos 513 deputados, atribuir à Mesa toda votação plenária ou supor que as competências do presidente e as da Mesa são idênticas.",
+      "example": "O presidente conduz uma sessão do Plenário; a Mesa delibera sobre assuntos administrativos de sua competência. Uma comissão analisa um projeto antes de eventual deliberação do Plenário.",
+      "articleIds": [
+        "art-4c1041281ca44ee5"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Regimento Interno da Câmara dos Deputados, arts. 14 e 15",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

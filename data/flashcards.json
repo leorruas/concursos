@@ -10779,6 +10779,42 @@
         "prompt": "Uma MP perde eficácia, mas foi usada para criar relações jurídicas enquanto vigorava. Sem decreto legislativo em 60 dias, todos os efeitos anteriores desaparecem?",
         "answer": "Não. O art. 62, § 11, mantém aquelas relações regidas pela MP. Isso não torna a MP vigente para autorizar atos futuros."
       }
+    },
+    {
+      "id": "camara-mesa-diretora-funcoes",
+      "term": "Mesa Diretora: composição e função",
+      "definition": "A Mesa Diretora dirige os trabalhos legislativos e os serviços administrativos da Câmara. Possui presidente, dois vice-presidentes e quatro secretários, além de quatro suplentes de secretário. Os membros titulares têm mandato de dois anos.",
+      "example": "Presidir sessão é atribuição do presidente; administrar e dirigir os serviços da Casa envolve competências da Mesa, conforme o Regimento.",
+      "confusion": "Mesa Diretora não equivale ao Plenário nem às comissões; também não se devem confundir atribuições da Mesa como colegiado com competências individuais do presidente.",
+      "topic": "Direito Constitucional",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Organização da Câmara"
+      ],
+      "source": {
+        "title": "Regimento Interno da Câmara dos Deputados",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "Arts. 14 e 15"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "conceptIds": [
+        "glo-camara-mesa-diretora"
+      ],
+      "contrast": {
+        "prompt": "A Mesa Diretora reúne os 513 deputados e é responsável por votar todos os projetos em lugar do Plenário. Certo ou errado?",
+        "answer": "Errado. A Mesa é órgão de direção composto por sete titulares; Plenário e comissões desempenham funções deliberativas próprias."
+      },
+      "note": {
+        "articleId": "art-4c1041281ca44ee5",
+        "section": "Revisão final: quatro decisões com quóruns diferentes"
+      }
     }
   ]
 }

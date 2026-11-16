@@ -1300,6 +1300,281 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-objetiva",
+      "term": "Responsabilidade civil objetiva do Estado",
+      "aliases": [],
+      "definition": "Regra de responsabilidade de pessoa jurídica de direito público ou prestadora de serviço público por dano causado por agente nessa qualidade, sem exigir prova de dolo ou culpa pessoal para a reparação da vítima.",
+      "contrast": "Mesmo objetiva, depende de conduta imputável ao serviço, dano e nexo causal. A ação regressiva contra agente exige dolo ou culpa.",
+      "cebraspeTrap": "Afirmar que o dano basta, sem nexo causal, ou que a vítima precisa comprovar negligência do servidor.",
+      "example": "Veículo em serviço causa colisão e a vítima demonstra prejuízo e nexo sem provar culpa do condutor.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 37, §6º e 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-risco-administrativo",
+      "term": "Teoria do risco administrativo",
+      "aliases": [],
+      "definition": "Teoria geral de responsabilidade estatal objetiva que permite examinar fatos capazes de romper ou reduzir o nexo causal, mesmo quando a vítima não precisa demonstrar culpa pessoal do agente.",
+      "contrast": "Diferencia-se do risco integral, que tem aplicação excepcional e não admite as excludentes usuais em certos contextos.",
+      "cebraspeTrap": "Afirmar que responsabilidade objetiva é sempre risco integral ou que um evento fortuito sempre exime o Estado.",
+      "example": "Conduta exclusivamente atribuível à vítima causa o acidente, podendo afastar imputação ao serviço.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 37, §6º e 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-risco-integral-ambiental",
+      "term": "Risco integral no dano ambiental",
+      "aliases": [],
+      "definition": "Regime excepcional empregado pelo STJ em dano ambiental no Tema 681, com responsabilidade objetiva e rejeição das excludentes tradicionais de reparação, mantendo a exigência do nexo causal.",
+      "contrast": "Não se aplica automaticamente a todo dano estatal; excluir defesas usuais não equivale a dispensar a ligação causal com o dano.",
+      "cebraspeTrap": "Afirmar que o STJ dispensa o nexo causal por aplicar a teoria do risco integral.",
+      "example": "Dano ambiental vinculado à atividade do causador segue o regime especial examinado no Tema 681.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STJ, Tema 681",
+          "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=681&cod_tema_inicial=681&novaConsulta=true&tipo_pesquisa=T"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-regresso",
+      "term": "Ação regressiva por dano de agente público",
+      "aliases": [],
+      "definition": "Pretensão da pessoa jurídica que indenizou ou deve ressarcimento para cobrar do agente causador o prejuízo imputável à sua atuação pessoal quando comprovados dolo ou culpa, conforme art. 37, § 6º.",
+      "contrast": "A demanda da vítima contra a pessoa jurídica é em regra objetiva, mas o regresso exige responsabilização subjetiva do agente.",
+      "cebraspeTrap": "Afirmar que a pessoa jurídica pode cobrar regressivamente do agente sem qualquer prova de culpa ou dolo.",
+      "example": "Após indenizar colisão funcional, ente busca ressarcimento se comprovar imprudência do servidor.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 37, §6º e 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-dupla-garantia",
+      "term": "Dupla garantia no Tema 940 do STF",
+      "aliases": [],
+      "definition": "Expressão doutrinária que resume a tese segundo a qual a vítima demanda a pessoa jurídica responsável por dano funcional, sendo o agente parte ilegítima nessa ação direta, com regresso por dolo ou culpa.",
+      "contrast": "Dupla garantia não é denominação literal constitucional nem impede que o agente responda em outros procedimentos juridicamente cabíveis.",
+      "cebraspeTrap": "Afirmar que vítima pode escolher ajuizar ação diretamente contra servidor por ato funcional sob Tema 940.",
+      "example": "O prejudicado busca reparação perante o ente responsável, que pode ajuizar ação regressiva contra agente culposo.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STF, Tema 940",
+          "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5136782&numeroProcesso=1027633&numeroTema=940"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-nao-usuario",
+      "term": "Responsabilidade perante não usuários no Tema 130",
+      "aliases": [],
+      "definition": "Tese do STF de responsabilidade objetiva de pessoa jurídica privada prestadora de serviço público perante usuários e não usuários, observados conduta funcional, dano e nexo causal.",
+      "contrast": "Fornecer bens comuns ao Estado não converte uma empresa automaticamente em prestadora de serviço público para esse efeito.",
+      "cebraspeTrap": "Afirmar que concessionária de ônibus só responde objetivamente a passageiros com tarifa paga.",
+      "example": "Concessionária provoca dano a pedestre que não embarcou; condição de não usuário não afasta o regime.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STF, Tema 130",
+          "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=2635450&numeroTema=130"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-omissao-detento",
+      "term": "Omissão em dever específico de proteção: Tema 592",
+      "aliases": [],
+      "definition": "Tese que reconhece a responsabilidade estatal pela morte de detento quando descumprido o dever específico de proteção da integridade de pessoa sob custódia, previsto no art. 5º, XLIX.",
+      "contrast": "Não equivale à responsabilidade automática por qualquer morte em qualquer contexto, nem à regra genérica de toda omissão.",
+      "cebraspeTrap": "Afirmar que todas as omissões dependem necessariamente de culpa subjetiva, inclusive na custódia.",
+      "example": "Pessoa sob custódia morre após falha causalmente relacionada ao dever de proteção estatal.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STF, Tema 592",
+          "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=4645403&numeroProcesso=841526&numeroTema=592"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-nexo-fuga",
+      "term": "Nexo causal direto e preso foragido: Tema 362",
+      "aliases": [],
+      "definition": "O STF afasta a responsabilidade civil objetiva do Estado por crime de preso foragido quando não se demonstra relação causal direta entre o momento da fuga e a conduta criminosa posterior.",
+      "contrast": "Fuga anterior não presume nexo para todo crime futuro, diferentemente da análise do dever específico em prisão sob custódia.",
+      "cebraspeTrap": "Afirmar que qualquer delito cometido por foragido deve ser indenizado automaticamente pelo Estado.",
+      "example": "Um preso foge e comete crime meses depois; a tese exige verificar nexo direto entre os fatos.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STF, Tema 362",
+          "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=3838114&numeroProcesso=608880&numeroTema=362"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-excludentes",
+      "term": "Excludentes e atenuantes no risco administrativo",
+      "aliases": [],
+      "definition": "Causas que podem romper ou reduzir a imputação estatal diante de dano, incluindo culpa exclusiva de vítima, fato exclusivo de terceiro, fortuito externo pertinente e culpa concorrente.",
+      "contrast": "Culpa concorrente costuma repercutir na extensão da indenização; causa exclusiva e independente pode romper o nexo causal.",
+      "cebraspeTrap": "Afirmar que toda força maior afasta automaticamente responsabilidade ou que culpa concorrente sempre elimina reparação.",
+      "example": "Atuação estatal e imprudência da vítima concorrem para acidente, com possível redução do valor reparatório.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 37, §6º e 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-operacoes",
+      "term": "Responsabilidade em operações de segurança: Tema 1237",
+      "aliases": [],
+      "definition": "O STF afirma o risco administrativo para morte ou ferimento decorrente de operação de segurança pública, impõe ao ente demonstrar excludentes e não considera perícia inconclusiva motivo suficiente, por si, para afastar responsabilidade.",
+      "contrast": "Perícia inconclusiva não significa automaticamente ausência de vínculo com a operação, mas a tese não elimina análise da relação causal.",
+      "cebraspeTrap": "Afirmar que laudo inconclusivo isenta sempre o Estado ou que o ente não precisa demonstrar excludentes.",
+      "example": "Pessoa ferida durante operação tem perícia inconclusiva sobre disparo; isso isoladamente não afasta indenização.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "STF, Tema 1237",
+          "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=6411925&numeroProcesso=1385315&numeroTema=1237"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da06-erro-judiciario",
+      "term": "Indenização constitucional por erro judiciário",
+      "aliases": [],
+      "definition": "Garantia do art. 5º, LXXV, de indenização do condenado por erro judiciário e de quem ficar preso além do tempo fixado na sentença.",
+      "contrast": "A simples reforma de decisão judicial não comprova automaticamente erro judiciário indenizável; a hipótese exige análise concreta.",
+      "cebraspeTrap": "Afirmar que qualquer recurso provido gera indenização por erro judiciário sem outros pressupostos.",
+      "example": "Condenado comprova erro judiciário reparável ou prisão além do prazo da sentença e requer indenização.",
+      "articleIds": [
+        "art-9f98650edd9e4278"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, arts. 37, §6º e 5º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

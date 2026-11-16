@@ -5,51 +5,76 @@ title: "Responsabilidade civil do Estado"
 type: "conceito"
 status: "ativo"
 created: 2026-06-04
-updated: 2026-11-12
+updated: 2026-11-16
 ---
 
 # Responsabilidade civil do Estado
 
-Imagine que um veículo de uma repartição pública, conduzido por servidor em serviço, atinja o carro de uma pessoa. Quem deve pagar o conserto: o servidor ou o órgão público? A **responsabilidade civil do Estado** trata do dever de reparar danos causados a outras pessoas pela atuação estatal. **Reparar** significa compensar o prejuízo, normalmente por indenização. O núcleo constitucional está no art. 37, §6º, da Constituição: pessoas jurídicas de direito público e pessoas jurídicas de direito privado **prestadoras de serviço público** respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o agente responsável nos casos de dolo ou culpa.
+**Caso inicial:** um veículo oficial, conduzido por servidor durante o serviço, atinge o carro de uma pessoa. A vítima teve prejuízo, mas desconhece se o motorista agiu com imprudência. **Ela precisa provar a culpa do servidor? Quem deve ser demandado judicialmente?**
+
+A **responsabilidade civil do Estado** é o dever de reparar danos causados a terceiros por atuação imputável ao serviço público. A indenização pode envolver danos materiais ou morais, conforme os elementos do caso. O **art. 37, § 6º, da Constituição** prevê que pessoas jurídicas de direito público e pessoas jurídicas de direito privado **prestadoras de serviços públicos** respondem pelos danos que seus agentes, **nessa qualidade**, causem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.
+
+A norma cria **duas relações**: a vítima busca reparação da pessoa jurídica responsável pelo serviço, e esta pode buscar ressarcimento pessoal do agente se comprovar dolo ou culpa. A regra precisa ser aplicada ao fato concreto: **dano, conduta imputável e nexo causal**. Um acidente ocorrido perto de uma repartição não se torna automaticamente dano indenizável pelo Estado.
+
+Este artigo diferencia o texto constitucional, a explicação doutrinária do **risco administrativo**, as exceções e as teses vinculantes do STF. Os exemplos são hipóteses didáticas, sem relação com episódios concretos da Câmara.
 
 ## Regra constitucional: risco administrativo
 
-**Responsabilidade objetiva** significa que a vítima não precisa demonstrar que o agente agiu com intenção de causar o dano (**dolo**) ou com falta de cuidado (**culpa**). A pessoa jurídica é o Estado ou a entidade prestadora do serviço, que pode assumir obrigações e responder judicialmente. Em regra, a vítima deve demonstrar:
+A responsabilidade é **objetiva** porque a vítima **não precisa comprovar dolo ou culpa pessoal do agente** para responsabilizar a pessoa jurídica. A dispensa desse elemento não significa responsabilidade automática.
 
-1. **conduta atribuível ao serviço público**: por exemplo, o servidor dirigia o veículo durante o trabalho;
-2. **dano**: por exemplo, o carro da vítima foi danificado;
-3. **nexo causal**: ligação entre a conduta e o prejuízo, como a colisão provocada pelo veículo em serviço.
+| Elemento necessário | O que demonstrar? | Exemplo do carro oficial |
+| --- | --- | --- |
+| **Conduta imputável ao serviço** | O agente atuava **nessa qualidade**, no exercício ou em razão da função pública? | Servidor cumpria atividade da repartição |
+| **Dano** | Houve prejuízo efetivamente demonstrado? | Veículo da vítima sofreu avaria |
+| **Nexo causal** | A conduta atribuível ao serviço causou o prejuízo? | A colisão provocou o conserto necessário |
 
-Não é necessário provar dolo ou culpa do agente para obter a indenização da pessoa jurídica. Isso não significa responsabilidade automática: sem dano ou sem nexo causal, não há dever de indenizar com base nessa regra.
+**Dolo** é conduta intencional. **Culpa**, no sentido jurídico aqui utilizado, abrange negligência, imprudência e imperícia. Na ação da vítima contra a pessoa jurídica, a demonstração desses elementos pessoais é dispensada; na **ação regressiva** contra o agente, volta a ser essencial.
 
-**Risco administrativo** é o nome da regra segundo a qual o poder público assume os danos relacionados à sua atuação, mas pode demonstrar que determinado prejuízo não foi causado por ela. **Risco integral**, em contraste, é um regime excepcional que não admite as mesmas formas de afastar a responsabilidade. Por isso, fatos capazes de romper o nexo causal podem afastar a responsabilidade; culpa concorrente da vítima pode repercutir na extensão da indenização.
+A expressão constitucional **"agentes, nessa qualidade"** não abrange somente servidores efetivos. O que interessa é a atuação ligada ao exercício ou à condição funcional. Um ato inteiramente privado, sem ligação com o serviço, não é imputado automaticamente ao Estado. A conexão **não exige** que o fato ocorra fisicamente dentro do prédio público.
+
+### Risco administrativo × risco integral
+
+A teoria do **risco administrativo** explica o regime geral do art. 37, § 6º: a pessoa jurídica responde sem prova de culpa, mas a relação causal pode ser afastada ou diminuída por circunstâncias demonstradas, como culpa exclusiva ou concorrente da vítima.
+
+O **risco integral** é excepcional. Em matéria de **dano ambiental**, o [STJ, Tema Repetitivo 681](https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?cod_tema_final=681&cod_tema_inicial=681&novaConsulta=true&tipo_pesquisa=T), adota responsabilidade objetiva informada pelo risco integral e afasta a invocação das excludentes tradicionais na hipótese julgada. **Mesmo nessa teoria, o nexo causal é indispensável**. A tese ambiental não transforma todos os prejuízos atribuídos ao Estado em risco integral.
+
+| Comparação | Risco administrativo | Risco integral no contexto especial |
+| --- | --- | --- |
+| Prova de culpa para responsabilizar? | **Dispensada** | **Dispensada** |
+| Prova de nexo causal? | **Necessária** | **Necessária** |
+| Excludentes usuais? | Podem romper ou reduzir nexo, conforme o caso | Não afastam a indenização na tese especial |
+| Exemplo | Dano causado por veículo oficial | Dano ambiental vinculado ao responsável |
+
+**Armadilha C/E:** responsabilidade **objetiva** e **risco integral** não são sinônimos. A distinção envolve os efeitos das excludentes, sem eliminar o requisito causal.
 
 ## Vítima × Estado × agente público
 
-Há duas relações diferentes. No exemplo da colisão, a vítima busca reparação da pessoa jurídica responsável pelo serviço. Depois, se houver prova de dolo ou culpa do servidor, essa pessoa jurídica poderá buscar dele o ressarcimento do valor pago. Esse segundo pedido é chamado **ação regressiva** ou **direito de regresso**:
+O [STF, Tema 940 (RE 1.027.633)](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5136782&numeroProcesso=1027633&numeroTema=940), fixou que a **ação indenizatória da vítima**, por dano causado por agente público no exercício da função, deve ser ajuizada **contra o Estado ou a pessoa jurídica privada prestadora do serviço público**. O agente é **parte ilegítima** nessa ação direta, permanecendo assegurado o regresso da pessoa jurídica se houver dolo ou culpa.
 
-```text
-Vítima → Estado / pessoa jurídica prestadora de serviço público
-          responsabilidade objetiva
+| Relação | Quem demanda quem? | Regime e demonstração |
+| --- | --- | --- |
+| **Reparação** | Vítima → pessoa jurídica responsável pelo serviço | **Objetiva**: conduta imputável, dano e nexo causal |
+| **Regresso** | Pessoa jurídica → agente causador | **Subjetiva**: dolo ou culpa pessoal, além dos elementos do ressarcimento |
 
-Estado → agente causador
-         direito de regresso com dolo ou culpa
-```
+Um **órgão**, como uma repartição interna, em regra não possui personalidade jurídica própria. Se o agente atua por um órgão da **União**, a pessoa jurídica a examinar para a ação é a União, não a unidade administrativa isolada. **Autarquias** possuem personalidade jurídica própria. Assim, identificar quem é responsável pelo serviço exige diferenciar **órgão e pessoa jurídica**.
 
-O **Supremo Tribunal Federal (STF)** reúne decisões com orientação vinculante para casos semelhantes em **temas de repercussão geral**. No **Tema 940**, o STF fixou que a ação por danos causados por agente público no exercício da função deve ser ajuizada contra o Estado ou contra a pessoa jurídica de direito privado prestadora do serviço público. O agente causador é parte ilegítima para essa ação direta da vítima, permanecendo assegurado o direito de regresso nos casos de dolo ou culpa.
+**Exemplo:** a vítima comprova a colisão em serviço e o prejuízo. A pessoa jurídica pode indenizar sem prova de imprudência do motorista. Se depois demonstrar que o agente causou o dano culposamente, poderá buscar regresso. Se a colisão decorrer exclusivamente da vítima, o nexo causal imputável ao serviço pode ser afastado.
 
-Portanto:
-
-- responsabilidade da pessoa jurídica perante a vítima → objetiva;
-- responsabilidade regressiva do agente → subjetiva, dependente de dolo ou culpa.
+**Limite da tese:** o Tema 940 trata da ação indenizatória da vítima por **ato funcional**. Ele não significa que o agente jamais responde pessoalmente em qualquer outro processo ou âmbito jurídico.
 
 ## Prestadoras privadas de serviço público
 
-O art. 37, §6º, não se limita à Administração Direta. Pessoas jurídicas de direito privado prestadoras de serviços públicos também entram no regime constitucional.
+O art. 37, § 6º, alcança pessoas jurídicas privadas **prestadoras de serviço público**, mesmo que não façam parte da Administração Direta. No [STF, Tema 130 (RE 591.874)](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=2635450&numeroTema=130), a responsabilidade objetiva foi reconhecida tanto diante de **usuários** quanto de **não usuários** do serviço.
 
-Uma **concessionária** é uma empresa autorizada por contrato a prestar serviço público, como transporte coletivo, sob regras e fiscalização estatais. No **Tema 130**, o STF reconheceu a responsabilidade objetiva dessas prestadoras também em relação a terceiros **não usuários** do serviço. A condição de usuário não é requisito para a incidência da regra quando presentes os demais pressupostos.
+**Exemplo:** ônibus de concessionária de transporte coletivo atinge pedestre que não era passageiro. A condição de **não usuário** não impede a responsabilização objetiva da prestadora, desde que haja conduta imputável à prestação, dano e nexo causal.
 
-Isso não deve ser confundido com empresa estatal que explora atividade econômica simplesmente por possuir participação pública: o texto constitucional destaca, para essa hipótese de responsabilidade objetiva do §6º, a **prestação de serviço público**.
+**Três situações que devem ser separadas:**
+
+- **Concessionária prestadora de serviço público:** pode estar diretamente abrangida pelo § 6º, inclusive perante não usuários, segundo o Tema 130.
+- **Empresa estatal que exerce atividade exclusivamente econômica:** participação estatal no capital **não equivale**, por si, à prestação de serviço público para essa regra constitucional específica.
+- **Fornecedor comum contratado para entregar equipamentos ao Estado:** celebrar contrato de compra **não transforma** a empresa em prestadora de serviço público abrangida automaticamente por essa hipótese.
+
+É o **tipo de atividade prestada**, e não simplesmente o rótulo "empresa privada" ou "empresa pública", que orienta o enquadramento. Outros regimes de responsabilidade podem incidir conforme o caso; esse contraste delimita o § 6º constitucional.
 
 ## Ação estatal × omissão: não use uma fórmula única
 

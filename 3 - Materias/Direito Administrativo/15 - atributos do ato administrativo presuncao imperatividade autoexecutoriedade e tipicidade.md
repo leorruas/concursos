@@ -5,7 +5,7 @@ title: "Atributos do ato administrativo: presunção de legitimidade e veracidad
 type: "conceito"
 status: "ativo"
 created: 2026-11-09
-updated: 2026-11-09
+updated: 2026-11-16
 ---
 # Atributos do ato administrativo: presunção, imperatividade, autoexecutoriedade e tipicidade
 
@@ -31,7 +31,7 @@ flowchart TD
     C --> G["Autoexecutoriedade<br/>(Execução direta sem ordem judicial prévia; exigibilidade vs. executoriedade)"]:::condicional
 ```
 
-## Presunção de legitimidade e veracidade
+## 1. Presunção de Legitimidade e de Veracidade
 
 A **presunção de legitimidade** significa que o ato administrativo é considerado, inicialmente, compatível com o Direito. A **presunção de veracidade** diz respeito aos fatos declarados pela autoridade no exercício de suas atribuições. Por exemplo, um auto de fiscalização registra que o fiscal encontrou alimentos vencidos. O registro goza de presunção inicial, mas pode ser contestado com elementos em contrário.
 
@@ -41,7 +41,7 @@ A presunção também **não produz inversão automática e irrestrita de todo �
 
 **Efeitos do ato:** a apresentação de uma ação judicial não suspende automaticamente o ato contestado. A suspensão pode decorrer de decisão judicial, administrativa ou de previsão legal, conforme a situação. Além disso, um ato pode depender de publicação, ciência ou condição para produzir seus efeitos; presunção de validade não substitui requisito de eficácia.
 
-## Imperatividade: impor deveres independentemente de concordância
+## 2. Imperatividade (Poder Extroverso / Coercibilidade)
 
 **Imperatividade** é a capacidade de determinados atos administrativos criarem obrigações ou sujeições para terceiros sem depender da aceitação deles. A expressão *poder extroverso* refere-se à possibilidade de o poder público produzir efeitos jurídicos fora da sua própria estrutura, nos limites do Direito.
 
@@ -49,7 +49,7 @@ Uma multa de trânsito ou uma ordem legal de interdição pode ter **imperativid
 
 Assim, **nem todo ato unilateral é imperativo**. O fato de uma autoridade assinar um documento não basta para afirmar que ele pode impor obrigação a qualquer pessoa. O fundamento jurídico e o conteúdo da decisão determinam os efeitos.
 
-## Autoexecutoriedade: execução sem ordem judicial prévia
+## 3. Autoexecutoriedade
 
 **Autoexecutoriedade** é a faculdade, em hipóteses juridicamente admitidas, de a Administração dar execução a uma medida sem obter previamente autorização judicial. A doutrina costuma distinguir **exigibilidade** de **executoriedade**:
 
@@ -69,6 +69,8 @@ flowchart LR
 ```
 
 **Exigibilidade** é usar meios **indiretos** legalmente permitidos para exigir cumprimento, como impor uma multa administrativa prevista em lei. **Executoriedade** é realizar a medida materialmente, por exemplo apreender alimento impróprio para consumo ou interditar local em situação permitida. Não confundir **aplicar uma multa** com **tomar compulsoriamente dinheiro para cobrá-la**.
+
+### 3.2. Hipóteses em que a autoexecutoriedade é admitida
 
 A execução direta exige **previsão normativa suficiente** ou **urgência real** que justifique agir sem aguardar ordem judicial, com competência, proporcionalidade e respeito às garantias aplicáveis. A **Lei nº 6.437/1977** define infrações à legislação sanitária federal e suas sanções, oferecendo exemplos de medidas de fiscalização. A urgência deve ser demonstrável: não basta escrever “interesse público” para legitimar qualquer intervenção.
 

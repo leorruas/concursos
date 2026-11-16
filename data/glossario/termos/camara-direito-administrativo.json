@@ -1192,6 +1192,60 @@
       ],
       "status": "reviewed",
       "aliases": []
+    },
+    {
+      "id": "glo-camara-da24-sumario-acumulacao-prazos",
+      "term": "Acumulação ilegal: opção prévia e defesa no rito sumário",
+      "aliases": [
+        "Opção em dez dias e defesa em cinco dias"
+      ],
+      "definition": "Ao detectar acumulação ilegal, a Administração notifica o servidor para optar em dez dias improrrogáveis. Se ele não optar, instaura o rito sumário, com termo de indiciação em até três dias e defesa em cinco dias. A opção até o fim da defesa caracteriza boa-fé e converte-se em pedido de exoneração do outro cargo.",
+      "contrast": "Os dez dias da notificação inicial são anteriores à instauração do procedimento; os cinco dias pertencem à defesa depois da indiciação.",
+      "cebraspeTrap": "Tratar os dez dias como prazo da defesa do sumário ou afirmar que a opção até o fim da defesa equivale a demissão.",
+      "example": "Servidor com dois cargos incompatíveis ignora a notificação inicial; a comissão é instaurada e abre defesa de cinco dias. Se optar dentro desse prazo, incide o art. 133, § 5º.",
+      "articleIds": [
+        "art-cc7c145f65061c3a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, art. 133, caput e §§ 2º, 5º e 6º",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da24-divergencia-nulidade",
+      "term": "PAD: divergência do relatório e nulidade por vício insanável",
+      "aliases": [
+        "Artigos 168 e 169 no PAD"
+      ],
+      "definition": "Se o relatório contradiz as provas, a autoridade julgadora pode motivadamente agravar, abrandar ou afastar a penalidade proposta (art. 168). Se há vício insanável do procedimento, a autoridade competente declara nulidade total ou parcial e constitui nova comissão (art. 169).",
+      "contrast": "Discordar do enquadramento ou da sanção sugerida não é o mesmo que reconhecer vício insanável no procedimento.",
+      "cebraspeTrap": "Atribuir ao art. 168 a anulação automática do PAD ou exigir que a autoridade acate relatório contrário às provas.",
+      "example": "Comissão propõe advertência, mas provas autorizam outra sanção: examinar art. 168; comissão cerceou gravemente defesa: examinar nulidade do art. 169.",
+      "articleIds": [
+        "art-cc7c145f65061c3a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.112/1990, arts. 168 e 169",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

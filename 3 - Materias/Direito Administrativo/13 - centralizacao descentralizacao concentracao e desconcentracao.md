@@ -16,15 +16,15 @@ tags:
 
 # Centralização, Descentralização, Concentração e Desconcentração no Direito Administrativo
 
-Uma secretaria da Câmara dos Deputados pode distribuir tarefas entre departamentos sem criar uma nova pessoa jurídica. Uma autarquia, em contraste, possui personalidade jurídica própria. Essa diferença permite compreender quatro técnicas administrativas: **centralização**, **descentralização**, **concentração** e **desconcentração**. Pergunte primeiro se mudou a **pessoa jurídica responsável** e depois se mudaram os **órgãos internos**. Essa distinção evita confundir entidades da Administração Indireta com departamentos do mesmo órgão.
+Uma secretaria da Câmara dos Deputados pode distribuir tarefas entre departamentos sem criar uma nova pessoa jurídica. Uma autarquia, em contraste, possui personalidade jurídica própria. Quando um ministério transfere parte das tarefas a uma coordenação interna, há **desconcentração**; quando uma lei cria uma autarquia com atribuições próprias, há **descentralização por serviços**. Essa diferença permite compreender quatro técnicas administrativas: **centralização**, **descentralização**, **concentração** e **desconcentração**. Pergunte primeiro se mudou a **pessoa jurídica responsável** e depois se mudaram os **órgãos internos**. Essa distinção evita confundir entidades da Administração Indireta com departamentos do mesmo órgão.
 
-A **teoria do órgão**, associada à doutrina de Otto Gierke, explica por que atos de agentes investidos em funções públicas são atribuídos à pessoa jurídica estatal. A distinção entre **outorga por serviços** (caso clássico das autarquias: a lei atribui titularidade e execução) e **delegação por colaboração** (concessionárias e permissionárias privadas executam um serviço cuja titularidade permanece pública) será analisada com a legislação de cada modalidade.
+A **teoria do órgão**, associada à doutrina de Otto Gierke, explica a **imputação**: a atuação funcional de um agente é juridicamente atribuída à pessoa jurídica de que seu órgão faz parte. Assim, em regra, um ato praticado por servidor da Câmara é imputado à União, e não a uma pessoa jurídica chamada “Câmara dos Deputados”. A distinção entre **outorga por serviços** (caso clássico das autarquias: a lei atribui titularidade e execução) e **delegação por colaboração** (concessionárias e permissionárias privadas executam um serviço cuja titularidade permanece pública) será analisada com a legislação de cada modalidade.
 
 ---
 
 ## 1. As Quatro Técnicas Fundamentais de Organização Administrativa
 
-O quadro sinóptico a seguir resume a matriz classificatória de competências:
+O quadro a seguir organiza as duas perguntas essenciais. A primeira distingue **quem presta a atividade**; a segunda observa **como se distribuem as tarefas dentro da mesma pessoa jurídica**. As técnicas podem coexistir: uma autarquia é fruto de descentralização e pode desconcentrar suas próprias atribuições entre departamentos.
 
 ```mermaid
 graph TD
@@ -46,16 +46,16 @@ graph TD
 ### Descentralização Administrativa
 - A execução ou a titularidade da atividade pública é atribuída a **outra pessoa jurídica**, distinta do ente federado instituidor.
 - **Característica Primordial:** Pressupõe sempre a dualidade de pessoas jurídicas (Pessoa A $\rightarrow$ Pessoa B).
-- **Inexistência de Hierarquia:** Não há subordinação hierárquica entre o ente que descentralizou e a pessoa jurídica descentralizada, mas mero controle de legalidade e finalístico (*tutela administrativa / supervisão ministerial*).
+- **Controle sem hierarquia entre pessoas jurídicas:** entre ente instituidor e entidade da Administração Indireta há controle de supervisão ou tutela nos limites legais, com atenção à finalidade, à legalidade e aos resultados. Na delegação a particulares, o poder concedente também exerce fiscalização e poderes contratuais/regulatórios; portanto, chamar toda forma de descentralização de mera tutela ministerial seria incorreto.
 
 ### Desconcentração Administrativa
 - Técnica de simplificação e distribuição interna de atribuições **dentro de uma mesma pessoa jurídica**.
 - **Resultado:** a desconcentração pode **criar órgãos internos** ou redistribuir atribuições entre órgãos já existentes. Ela não cria nova pessoa jurídica.
 - **Relação de Hierarquia:** quando se distribuem atribuições em departamentos subordinados, existe hierarquia entre as unidades internas, conforme a estrutura legal. A desconcentração não equivale à vinculação entre entidades distintas.
-- **Regra de identificação:** desconcentração opera **dentro da mesma pessoa jurídica**; descentralização atribui atividades a **outra pessoa jurídica**, inclusive particular contratado nas hipóteses admitidas. A criação de órgão é um exemplo de desconcentração, não sua única forma.
+- **Regra de identificação:** desconcentração opera **dentro da mesma pessoa jurídica**; descentralização atribui a outra pessoa jurídica a execução de determinada atividade ou, na outorga, competências próprias previstas em lei. Um contrato comum de compra de materiais não constitui, por si só, descentralização de serviço público: é preciso identificar o objeto e o regime da transferência. A criação de órgão é um exemplo de desconcentração, não sua única forma.
 
 ### Concentração Administrativa
-- Processo inverso da desconcentração: consiste na extinção de órgãos intermediários ou na unificação de atribuições em um único órgão de cúpula da pessoa jurídica.
+- É a reunião de atribuições antes distribuídas entre órgãos de uma mesma pessoa jurídica. Por exemplo, extinguir duas coordenações e concentrar suas tarefas em um departamento é **concentração**, desde que não haja transferência da atividade para outra pessoa jurídica. A reorganização deve respeitar as competências e formas legais de criação e extinção de órgãos.
 
 ---
 
@@ -65,11 +65,11 @@ O Cebraspe exige a distinção rigorosa entre as modalidades de descentralizaç�
 
 | Critério de Comparação | Descentralização por Serviços / Outorga / Legal | Descentralização por Colaboração / Delegação |
 | :--- | :--- | :--- |
-| **Destinatário da Descentralização** | Entidades da **Administração Indireta de direito público** (autarquias e fundações autárquicas). | **Particulares** (concessionárias, permissionárias, autorizatárias de serviço público). |
+| **Destinatário da descentralização** | Exemplo clássico: **autarquia ou fundação pública de direito público**, com competências próprias conferidas por lei. | **Particular delegatário** de serviço público, como concessionária ou permissionária, sem ingresso automático na Administração Indireta. |
 | **Instrumento Jurídico** | Atribuições a autarquia ou fundação autárquica são estabelecidas por **lei específica**, que cria a entidade (art. 37, XIX, CF/1988). | **Concessão** por contrato e **permissão de serviço público** por **contrato de adesão**, com precariedade e possibilidade de revogação unilateral (art. 40 da Lei nº 8.987/1995); autorização possui disciplina legal específica. |
-| **Objeto Transferido** | Transfere a **titularidade E a execução** do serviço público. | Transfere **APENAS a execução** material do serviço público (o Estado mantém a titularidade indelegável). |
+| **O que é atribuído** | A lei atribui à entidade competências e execução da atividade em sua esfera própria; na formulação doutrinária clássica, fala-se em **titularidade e execução** por serviços, sem confundir isso com soberania ou competência constitucional do ente político. | Atribui-se a **prestação/execução do serviço** ao delegatário, enquanto o poder público conserva a titularidade e os poderes de regulamentação, fiscalização e controle previstos na lei. |
 | **Prazo de Duração** | Em regra, indeterminado enquanto a entidade existir segundo a lei. | **Concessão** por prazo contratual; **permissão** sujeita ao regime de precariedade do art. 40 da Lei nº 8.987/1995. Não aplicar um mesmo prazo a toda modalidade de delegação. |
-| **Controle Exercido** | Controle finalístico da entidade conforme sua lei, sem hierarquia geral entre pessoas jurídicas. | Fiscalização contratual e regulatória pelo poder concedente e, quando houver, órgão ou agência competente. |
+| **Controle exercido** | Controle finalístico e de legalidade nos termos da lei, sem hierarquia geral entre pessoas jurídicas. | Fiscalização contratual e regulatória pelo poder concedente e, quando houver, órgão ou agência competente. |
 
 > [!WARNING]
 > **Pegadinha de Prova do Cebraspe:**
@@ -91,7 +91,7 @@ Os órgãos públicos normalmente **não possuem personalidade jurídica própri
 
 ## Classificação dos Órgãos Públicos quanto à Posição Estatal
 
-A doutrina de Hely Lopes Meirelles classifica os órgãos em quatro categorias de grande incidência em provas:
+Uma classificação **doutrinária**, associada a Hely Lopes Meirelles, distingue quatro posições na organização estatal. Os exemplos podem variar conforme a estrutura legal; essas categorias não são uma lista constitucional fechada:
 
 1. **Órgãos Independentes:** Previstos no texto constitucional, representam os Poderes do Estado e não possuem qualquer subordinação hierárquica (Presidência da República, Câmara dos Deputados, Senado Federal, Supremo Tribunal Federal, Tribunal de Contas da União).
 2. **Órgãos Autônomos:** Situam-se na cúpula da administração, imediatamente abaixo dos independentes. Gozam de ampla autonomia técnica, financeira e administrativa (Ministérios de Estado, Secretarias de Estado, Advocacia-Geral da União).
@@ -182,11 +182,13 @@ A doutrina de Hely Lopes Meirelles classifica os órgãos em quatro categorias d
 
 ## Relações com Outros Artigos e Síntese de Revisão
 
-- **Pré-requisitos e Vínculos Teóricos:**
+- **Para aprofundar os conceitos:**
   - [[3 - Materias/Direito Administrativo/12 - estado governo administracao e funcao administrativa|Estado, Governo, Administração Pública e Função Administrativa]]: O exercício da função administrativa nos sentidos subjetivo e objetivo.
   - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios Expressos e Implícitos da Administração Pública]]: A impessoalidade e a imputação volitiva da teoria do órgão.
   - [[3 - Materias/Direito Administrativo/02 - organizacao administrativa|Administração Direta e Indireta: Entidades, Vínculos e Regime Jurídico]]: Entidades da Administração Indireta como fruto da descentralização por outorga.
   - [[3 - Materias/Direito Administrativo/04 - poderes administrativos|Poderes administrativos]]: O poder hierárquico como fundamento da desconcentração interna.
 
-- [Lei nº 8.987/1995](https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm), art. 40: permissão de serviço público por contrato de adesão, com precariedade e revogabilidade unilateral.
+- [Lei nº 8.987/1995, Lei de Concessões e Permissões de Serviços Públicos](https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html), arts. 2º e 40: definição de poder concedente e permissão de serviço público por contrato de adesão, com precariedade e revogabilidade unilateral.
 - [STJ, Súmula 525](https://scon.stj.jus.br/SCON/SearchBRS?b=SUMU&livre=%40NUM%3D525): personalidade judiciária excepcional das câmaras municipais para defesa de direitos institucionais.
+- [Constituição Federal de 1988](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm), arts. 37, XIX, e 175: entidades da Administração Indireta e delegação de serviços públicos.
+- [Decreto-Lei nº 200/1967](https://www.planalto.gov.br/ccivil_03/decreto-lei/del0200.htm), arts. 4º, 5º e 19 a 26: organização da Administração Federal e supervisão ministerial.

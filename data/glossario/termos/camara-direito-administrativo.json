@@ -535,6 +535,78 @@
       "contestIds": [
         "camara-2026"
       ]
+    },
+    {
+      "id": "glo-camara-lei9784-contagem-prazos",
+      "term": "Contagem de prazos na Lei nº 9.784/1999",
+      "definition": "Nos processos administrativos federais regidos pela Lei nº 9.784/1999, o art. 66 manda excluir o dia do começo, incluir o vencimento e contar prazos em dias de modo contínuo. Vencimento em dia sem expediente é prorrogado ao primeiro dia útil seguinte, ressalvada regra específica que use dias úteis.",
+      "contrast": "Os três dias úteis de antecedência da intimação (arts. 26 e 41) e os cinco dias úteis para alegações dos demais interessados após recurso (art. 62) são exceções expressas, não a regra para todo prazo em dias.",
+      "cebraspeTrap": "Confundir a realização de atos em dias úteis com contagem de todos os prazos em dias úteis; ou iniciar os trinta dias para decidir desde o protocolo, e não do fim da instrução.",
+      "example": "Em prazo de dez dias com ciência numa segunda-feira, a contagem geral começa na terça e inclui fim de semana; se vencer sem expediente, prorroga até o próximo dia útil.",
+      "articleIds": [
+        "art-4c8a4b35894d4fa9"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999, arts. 23, 24, 26, 49, 59, 62 e 66",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-lei9784-decisao-coordenada",
+      "term": "Decisão coordenada no processo administrativo federal",
+      "definition": "Procedimento dos arts. 49-A a 49-G da Lei nº 9.784/1999 em que três ou mais setores, órgãos ou entidades federais participam simultaneamente de uma decisão relevante, diante de discordância que prejudique a celeridade, mantendo cada órgão sua competência e responsabilidade.",
+      "contrast": "Não é uma decisão superior que absorve competência. É proibida em licitações, processos relacionados ao poder sancionador e procedimentos com autoridades de Poderes distintos (art. 49-A, § 6º).",
+      "cebraspeTrap": "Afirmar que envolver três órgãos basta ou que a coordenação serve para solucionar divergência em licitação ou processo sancionador.",
+      "example": "Três setores administrativos federais divergentes podem discutir simultaneamente decisão de gestão relevante, com relatório e ata, desde que cumpridos os requisitos e sem afetar exclusões.",
+      "articleIds": [
+        "art-4c8a4b35894d4fa9"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999, arts. 49-A a 49-G, incluídos pela Lei nº 14.210/2021",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-lei9784-intimacao-efeitos",
+      "term": "Intimação e não comparecimento no processo administrativo",
+      "definition": "Intimação é o ato de dar ciência de uma decisão ou convocar o interessado para diligência. A intimação para comparecimento exige antecedência mínima de três dias úteis, e a falta de comparecimento não é confissão nem renúncia a direitos (arts. 26 e 27 da Lei nº 9.784/1999).",
+      "contrast": "Intimação regular não se confunde com obrigação de comparecer sob pena de presumir verdadeiras todas as alegações; o processo pode prosseguir, mas deve assegurar a defesa.",
+      "cebraspeTrap": "Afirmar que falta de resposta a intimação faz o administrado confessar os fatos ou renunciar ao direito de ampla defesa.",
+      "example": "Pessoa convocada não comparece. O processo pode continuar, mas a Administração não pode concluir por confissão automática.",
+      "articleIds": [
+        "art-4c8a4b35894d4fa9"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999, arts. 26 a 28 e 41",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

@@ -731,6 +731,30 @@
       "examBlock": "Conhecimentos básicos",
       "contestId": "camara-2026",
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-lei9784-contagem-prazos",
+      "term": "Contagem de prazos na Lei nº 9.784/1999",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-lei9784-decisao-coordenada",
+      "term": "Decisão coordenada no processo administrativo federal",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-lei9784-intimacao-efeitos",
+      "term": "Intimação e não comparecimento no processo administrativo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

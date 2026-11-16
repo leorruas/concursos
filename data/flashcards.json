@@ -11291,6 +11291,114 @@
         "prompt": "A condenação por improbidade tipificada somente no art. 11 impõe perda da função e suspensão de direitos políticos?",
         "answer": "Não. O art. 12, III, prevê multa civil e proibição de contratar/receber benefícios, observadas as condições legais."
       }
+    },
+    {
+      "id": "camara-da09-prazos-continuos",
+      "term": "Lei nº 9.784: dias corridos ou dias úteis?",
+      "definition": "Pelo art. 66, § 2º, prazos expressos em dias contam-se de modo contínuo (dias corridos), salvo disposição específica, como os cinco dias úteis para manifestação dos demais interessados no recurso (art. 62). Exclui-se o dia da ciência e inclui-se o vencimento, prorrogando-se dia sem expediente.",
+      "example": "Prazo de dez dias para recurso não significa dez dias úteis sob a regra geral da Lei nº 9.784/1999.",
+      "confusion": "Atos realizam-se em dias úteis (art. 23), mas a contagem geral de prazos em dias é contínua (art. 66).",
+      "note": {
+        "articleId": "art-4c8a4b35894d4fa9",
+        "section": "Prazos: contagem e quadro comparativo"
+      },
+      "conceptIds": [
+        "glo-camara-lei9784-contagem-prazos"
+      ],
+      "contrast": {
+        "prompt": "Na Lei nº 9.784, a regra para prazo de dez dias de recurso é contar somente dias úteis?",
+        "answer": "Não. A regra geral é contar dias continuamente, com prorrogação do vencimento em dia sem expediente, salvo lei especial."
+      },
+      "topic": "Processo administrativo federal",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Processo administrativo federal"
+      ],
+      "source": {
+        "title": "Lei nº 9.784/1999, texto atualizado",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Arts. 26, 27, 40, 49-A, 49-G, 59, 62, 66 conforme conceito"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da09-decisao-coordenada",
+      "term": "Decisão coordenada: requisitos e exclusões",
+      "definition": "A decisão coordenada dos arts. 49-A a 49-G exige três ou mais setores, órgãos ou entidades, relevância da matéria e discordância prejudicial à celeridade. É incompatível com licitação, poder sancionador e autoridades de Poderes distintos.",
+      "example": "Três setores da Câmara podem compartilhar decisão administrativa relevante se a discordância está atrasando o processo e não for caso excluído.",
+      "confusion": "Três participantes, sem relevância e discordância, não tornam obrigatória nem autorizam automaticamente a modalidade.",
+      "note": {
+        "articleId": "art-4c8a4b35894d4fa9",
+        "section": "Decisão coordenada"
+      },
+      "conceptIds": [
+        "glo-camara-lei9784-decisao-coordenada"
+      ],
+      "contrast": {
+        "prompt": "Uma licitação com divergência entre cinco órgãos pode adotar decisão coordenada da Lei nº 9.784?",
+        "answer": "Não. O art. 49-A, § 6º, exclui processos de licitação, independentemente do número de participantes."
+      },
+      "topic": "Processo administrativo federal",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Processo administrativo federal"
+      ],
+      "source": {
+        "title": "Lei nº 9.784/1999, texto atualizado",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Arts. 26, 27, 40, 49-A, 49-G, 59, 62, 66 conforme conceito"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da09-intimacao-nao-confissao",
+      "term": "Intimação: ausência não é confissão",
+      "definition": "O art. 26 exige antecedência mínima de três dias úteis para intimação de comparecimento, e o art. 27 estabelece que não comparecer não importa admissão da verdade dos fatos nem renúncia a direitos. O processo pode seguir com ampla defesa.",
+      "example": "Um interessado perde diligência apesar de regularmente intimado. O órgão continua o processo, mas não pode considerar automaticamente comprovadas acusações.",
+      "confusion": "Descumprimento de intimação não se confunde com falta de documentos indispensáveis ao pedido, que pode levar a arquivamento pelo art. 40.",
+      "note": {
+        "articleId": "art-4c8a4b35894d4fa9",
+        "section": "Intimação e comunicação dos atos"
+      },
+      "conceptIds": [
+        "glo-camara-lei9784-intimacao-efeitos"
+      ],
+      "contrast": {
+        "prompt": "Se o interessado não comparecer à intimação na Lei nº 9.784/1999, os fatos ficam automaticamente provados?",
+        "answer": "Não. O art. 27 impede considerar o não comparecimento confissão ou renúncia de direito."
+      },
+      "topic": "Processo administrativo federal",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Processo administrativo federal"
+      ],
+      "source": {
+        "title": "Lei nº 9.784/1999, texto atualizado",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Arts. 26, 27, 40, 49-A, 49-G, 59, 62, 66 conforme conceito"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
     }
   ]
 }

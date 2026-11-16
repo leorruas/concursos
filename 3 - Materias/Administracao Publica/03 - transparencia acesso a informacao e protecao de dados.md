@@ -5,7 +5,8 @@ title: "Transparência, acesso à informação e proteção de dados pessoais"
 type: "conceito"
 status: "ativo"
 created: 2026-11-03
-updated: 2026-11-03
+updated: 2026-11-16
+## Transparência ativa como governança: aplicação institucional da Câmara (CAM-AP-009)
 aliases:
   - "LAI e LGPD"
   - "Transparência pública e proteção de dados"
@@ -13,13 +14,13 @@ aliases:
 
 # Transparência, acesso à informação e proteção de dados pessoais
 
-Nota canônica multi-edital que integra a **Lei de Acesso à Informação (LAI), Lei nº 12.527/2011**, e a **Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018**. A LAI viabiliza o direito à informação pública; a LGPD disciplina o tratamento de dados de pessoas naturais. Publicidade e proteção de direitos devem ser harmonizadas no caso concreto.
+Um relatório de fiscalização pode conter valores de contratos públicos, nomes de servidores e informações de saúde de terceiros. **O que precisa ser divulgado e o que deve ser protegido?** A resposta exige aplicar a **Lei de Acesso à Informação (LAI), Lei nº 12.527/2011**, e a **Lei Geral de Proteção de Dados Pessoais (LGPD), Lei nº 13.709/2018**. A LAI disciplina o direito e os procedimentos de acesso; a LGPD estabelece condições para tratar dados pessoais. Quando apenas parte do documento está protegida, cabe avaliar **acesso parcial**, em vez de negar tudo.
 
-**Aplicação ao edital da Controladoria-Geral da União (CGU) 2026:** P2, transparência, ouvidoria e participação social; P3, integridade, transparência e responsabilização. Esta nota organiza a teoria para vários concursos. O roteiro ouvido no chat não constitui diagnóstico de domínio em prova.
+**Recorte para a Câmara dos Deputados 2026, Cargo 1, Comunicação Social/Divulgação Institucional:** as normas gerais da LAI e da LGPD, o **Ato da Mesa nº 45/2012** e as competências distintas da Câmara, da CGU e da Agência Nacional de Proteção de Dados (ANPD).
 
 ## Caso-condutor: pedido de relatório de auditoria
 
-Uma pessoa solicita relatório de fiscalização sobre benefícios públicos que contém despesas, identificação de servidores, dados de saúde e nome de denunciante. O órgão deve identificar a informação de interesse público, as restrições legais, o que pode ser oferecido parcialmente e quais operações de tratamento são realmente necessárias. O resultado exige leitura conjunta da LAI e LGPD; não se resolve com a máxima de que uma delas sempre prevalece.
+Uma pessoa solicita à Câmara relatório com despesas, dados de servidores, informações médicas e nome de denunciante. O atendimento exige: **localizar a informação; reconhecer seu interesse público; examinar a proteção de cada trecho; oferecer acesso às partes não protegidas; e fundamentar eventual restrição e o caminho recursal**. A proteção tem fundamento específico: a presença de um dado pessoal em uma célula da planilha não autoriza negar todo o documento, se for possível separar o conteúdo.
 
 ## Transparência, prestação de contas e participação
 
@@ -31,7 +32,7 @@ A publicidade também decorre do art. 37 da Constituição, cujos cinco princíp
 
 ## Lei de Acesso à Informação: Lei nº 12.527/2011
 
-A LAI regula o direito constitucional de acesso à informação e estabelece procedimentos para União, Estados, Distrito Federal e Municípios.
+A LAI regula o direito assegurado na **Constituição, art. 5º, XXXIII**, e dialoga com os **arts. 37, § 3º, II, e 216, § 2º**. Abarca União, Estados, Distrito Federal e Municípios, nos âmbitos de seus Poderes e entes alcançados. **A Câmara dos Deputados é destinatária direta da LAI**, enquanto o Ato da Mesa nº 45/2012 disciplina seus procedimentos institucionais.
 
 Estão submetidos ao seu regime, entre outros:
 
@@ -100,9 +101,11 @@ Os sítios oficiais devem possuir, entre outros requisitos, ferramenta de pesqui
 
 Surge quando o interessado apresenta pedido de acesso. O termo “passiva” não significa inércia administrativa: apenas indica que o fluxo foi provocado por uma solicitação.
 
-O pedido deve identificar o requerente e especificar a informação pretendida, mas a Administração **não pode exigir os motivos determinantes da solicitação de informação de interesse público**.
+O **art. 10 da LAI** exige identificar o requerente e especificar a informação, sem formalidades que inviabilizem a solicitação. **Não se pode exigir a justificativa pessoal de quem pede acesso**. Por outro lado, o **órgão precisa fundamentar sua própria negativa**. Pelo **art. 11, § 1º**, quando o acesso imediato não é possível, deve informar como obter o documento, justificar a restrição ou indicar/remeter o pedido à entidade competente quando souber quem possui a informação.
 
-## Transparência ativa como governança: aplicação institucional da Câmara (CAM-AP-009)
+<a id="transparencia-ativa-como-governanca-aplicacao-institucional-da-camara-cam-ap-009"></a>
+
+## Transparência ativa na Câmara: responsabilidades e avaliação
 
 **Questão de governança:** colocar uma planilha no portal resolve a obrigação de publicar? A **LAI, art. 8º**, exige divulgação espontânea de informações de interesse coletivo ou geral e determina requisitos de acesso em sítio oficial. A direção da organização precisa estabelecer responsabilidades por divulgação, atualização e integridade, enquanto a gestão executa os processos. A mensuração da qualidade do acesso deve observar tanto conformidade normativa quanto utilidade ao público.
 
@@ -128,9 +131,9 @@ Exercícios **autorais**, sem atribuição à Cebraspe. **Fontes oficiais:** [LA
 
 ## Prazo para resposta
 
-Se a informação estiver disponível, o acesso deve ser autorizado ou concedido **imediatamente**.
+O **art. 11 da LAI** exige acesso **imediato** à informação disponível. Se isso não for possível, a resposta deve ser dada em **até 20 dias**, prorrogáveis por **mais dez dias**, mediante justificativa expressa e ciência do interessado.
 
-Se isso não for possível, o órgão possui prazo de até **20 dias** para adotar as providências do art. 11, prorrogável por **mais 10 dias**, mediante justificativa expressa e ciência do requerente.
+**Exemplo:** se o contrato já está disponível, basta localizar e fornecer acesso; se depender de busca e análise de trechos protegidos, vale o prazo legal. A resposta ao pedido público na LAI tem regras diferentes do acesso do **titular aos seus próprios dados** pela LGPD, art. 19.
 
 > [!WARNING]
 > O prazo de 20 dias não é um “prazo mínimo de espera”. A regra legal continua sendo acesso imediato quando possível.
@@ -160,7 +163,7 @@ Portanto, a existência de informação restrita dentro de um documento não tra
 
 ## Gratuidade
 
-A busca e o fornecimento da informação são gratuitos. Pode haver cobrança exclusivamente para ressarcir custos de reprodução de documentos, observadas as hipóteses legais de isenção.
+O **art. 12 da LAI** garante gratuidade da busca e do fornecimento. Só se pode cobrar ressarcimento do serviço e dos materiais de **reprodução de documentos**, com as isenções legais, inclusive quando a pessoa não puder arcar com os custos sem prejuízo do sustento próprio ou da família. **Localizar um arquivo digital não autoriza uma taxa genérica de pesquisa.**
 
 ## Informação pessoal × informação sigilosa
 
@@ -197,7 +200,9 @@ Ver [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas#Nova c
 
 ## Refinamento: proteção de informações pessoais e documento preparatório
 
-O **art. 31 da LAI** protege informações pessoais relativas à intimidade, vida privada, honra e imagem: acesso restrito por até **100 anos** desde a produção, **independentemente de classificação em grau de sigilo**, ressalvadas hipóteses legais de acesso. Esse prazo não cria um quarto grau de classificação e não significa que qualquer documento com nome ou CPF fique protegido integralmente por 100 anos. Divulgação de remuneração de agente público e de prontuário médico exigem fundamentos diferentes.
+O **art. 31, § 1º, da LAI** restringe o acesso a informações pessoais relativas à **intimidade, vida privada, honra e imagem**, pelo prazo máximo de **100 anos desde a produção**, independentemente de classificação ultrassecreta, secreta ou reservada. Há hipóteses legais de acesso, inclusive previsão legal e consentimento quando exigido, e dispensas de consentimento no **§ 3º**. Isso **não é um quarto grau de sigilo** nem significa que todo documento com nome, matrícula ou CPF deva permanecer oculto por 100 anos.
+
+**Exemplo:** despesas de um órgão e diagnósticos médicos identificáveis exigem tratamento diferente, mesmo no mesmo relatório. O **§ 4º** também impede usar a proteção da intimidade, vida privada, honra e imagem para prejudicar apuração de irregularidades ou a recuperação de fatos históricos de maior relevância. A medida concreta de proteção deve ser proporcional e fundamentada.
 
 Sigilos previstos em legislação específica, como bancário e fiscal, não dependem de enquadramento nos graus ultrassecreto, secreto e reservado da LAI. Para documentos preparatórios utilizados como fundamento de decisão, o acesso é assegurado a partir da edição do respectivo ato decisório, sem afastar outras restrições legais.
 

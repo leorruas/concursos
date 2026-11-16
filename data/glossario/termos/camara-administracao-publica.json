@@ -813,7 +813,8 @@
       ],
       "aliases": [],
       "articleIds": [
-        "art-c59173b20e684daf"
+        "art-c59173b20e684daf",
+        "art-d8257e60c3494b91"
       ],
       "subjectIds": [
         "administracao-publica"
@@ -1101,6 +1102,281 @@
           "url": "https://doi.org/10.1111/j.1540-6210.2007.00773.x"
         }
       ]
+    },
+    {
+      "id": "glo-camara-ppp-lei-11079",
+      "term": "Parceria público-privada na Lei nº 11.079/2004",
+      "aliases": [],
+      "definition": "Contrato de concessão patrocinada ou administrativa sujeito aos requisitos específicos de valor, duração, objeto e repartição de riscos da Lei nº 11.079/2004.",
+      "contrast": "Uma concessão comum ou um contrato de aquisição não constituem necessariamente PPP no sentido jurídico.",
+      "cebraspeTrap": "Toda compra pública de serviço privado já configura PPP.",
+      "example": "Projeto de serviço continuado que adota a estrutura legal de concessão e remuneração própria da PPP.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 11.079/2004, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-11079-30-dezembro-2004-535279-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-ppp-patrocinada",
+      "term": "Concessão patrocinada de PPP",
+      "aliases": [],
+      "definition": "Concessão de serviço público ou obra pública que reúne tarifa paga por usuários e contraprestação pecuniária adicional do parceiro público, segundo o art. 2º, § 1º, da Lei nº 11.079/2004.",
+      "contrast": "Concessão comum não tem a contraprestação pecuniária adicional, e concessão administrativa possui outro critério definidor.",
+      "cebraspeTrap": "Basta cobrar tarifa dos usuários para que toda concessão seja patrocinada.",
+      "example": "Serviço concedido recebe tarifa dos usuários e pagamento adicional da Administração nas condições legais.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 11.079/2004, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-11079-30-dezembro-2004-535279-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-ppp-administrativa",
+      "term": "Concessão administrativa de PPP",
+      "aliases": [],
+      "definition": "Modalidade de concessão em que a Administração é usuária direta ou indireta do serviço, inclusive com obra ou instalação de bens, nos termos do art. 2º, § 2º, da Lei nº 11.079.",
+      "contrast": "O fato de a Administração usar software contratado não faz dessa compra uma concessão administrativa de PPP.",
+      "cebraspeTrap": "Qualquer contrato de serviço usado pelo órgão é uma PPP administrativa.",
+      "example": "Projeto de prestação continuada é estruturado como concessão para serviço de que a Administração é usuária.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 11.079/2004, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-11079-30-dezembro-2004-535279-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-ppp-valor-prazo-objeto",
+      "term": "Requisitos de valor, prazo e objeto em PPP",
+      "aliases": [],
+      "definition": "A Lei nº 11.079/2004 veda PPP com valor inferior a R$ 10 milhões, serviço inferior a cinco anos ou objeto único de mão de obra, equipamentos ou obra; o prazo máximo é de 35 anos, inclusive prorrogações.",
+      "contrast": "Cumprir os pisos de valor e duração não basta quando a estrutura do contrato não constitui concessão patrocinada ou administrativa.",
+      "cebraspeTrap": "Comprar apenas equipamentos por R$ 12 milhões pode ser PPP por superar o limite de valor.",
+      "example": "Uma contratação de serviço por quatro anos não atende à duração mínima da PPP, ainda que o valor seja elevado.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 11.079/2004, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2004/lei-11079-30-dezembro-2004-535279-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-mrosc-termo-colaboracao",
+      "term": "Termo de colaboração do MROSC",
+      "aliases": [],
+      "definition": "Parceria entre Administração e organização da sociedade civil elegível proposta pela Administração e com transferência de recursos financeiros, segundo a Lei nº 13.019/2014.",
+      "contrast": "O termo de fomento nasce de proposta da OSC, e o acordo de cooperação não envolve repasse financeiro.",
+      "cebraspeTrap": "Termo de colaboração e fomento se distinguem apenas pelo montante de recursos.",
+      "example": "O órgão propõe atividade de formação cidadã financiada por repasse público a OSC apta.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 13.019/2014, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2014/lei-13019-31-julho-2014-779123-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-mrosc-termo-fomento",
+      "term": "Termo de fomento do MROSC",
+      "aliases": [],
+      "definition": "Parceria proposta por organização da sociedade civil elegível e com transferência de recursos financeiros da Administração, nos termos do art. 2º, VIII, da Lei nº 13.019/2014.",
+      "contrast": "A proposta de termo de colaboração parte da Administração; termo de parceria é próprio do regime de OSCIP.",
+      "cebraspeTrap": "Uma OSC pode receber recursos sem cumprir os requisitos de seleção e prestação de contas.",
+      "example": "Associação propõe programa de formação com repasse e plano de trabalho submetido ao procedimento legal.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 13.019/2014, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2014/lei-13019-31-julho-2014-779123-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-mrosc-chamamento-art29",
+      "term": "Chamamento público e art. 29 do MROSC",
+      "aliases": [],
+      "definition": "Termos de colaboração e fomento em regra exigem chamamento, salvo exceções. O art. 29 prevê acordo de cooperação sem chamamento, exceto quando envolve comodato, doação ou compartilhamento patrimonial.",
+      "contrast": "Dispensa de chamamento não elimina as exigências de formalização, fiscalização e controle da parceria.",
+      "cebraspeTrap": "Acordo de cooperação nunca exige chamamento público, mesmo com doação de bens.",
+      "example": "Cooperação sem dinheiro pode ter chamamento caso envolva compartilhamento de recurso patrimonial.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 13.019/2014, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2014/lei-13019-31-julho-2014-779123-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-os-contrato-gestao-9637",
+      "term": "Organização social (OS) e contrato de gestão",
+      "aliases": [],
+      "definition": "Entidade privada sem fins lucrativos qualificada conforme Lei nº 9.637/1998, que celebra contrato de gestão com programa de trabalho, metas, indicadores e supervisão para atividades legalmente previstas.",
+      "contrast": "Contrato de gestão de OS não é termo de parceria de OSCIP nem aquisição ordinária pela Lei nº 14.133/2021.",
+      "cebraspeTrap": "Selecionar uma OS dispensa publicidade e critérios objetivos, segundo o STF.",
+      "example": "Organização qualificada executa atividade cultural com metas e presta contas ao órgão supervisor.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.637/1998, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9637-15-maio-1998-372244-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-oscip-termo-parceria-9790",
+      "term": "OSCIP e termo de parceria",
+      "aliases": [],
+      "definition": "OSCIP é qualificação legal para entidade privada sem fins lucrativos com requisitos como funcionamento regular de três anos, que pode celebrar termo de parceria conforme Lei nº 9.790/1999.",
+      "contrast": "Uma OS não pode ser qualificada também como OSCIP pelo art. 2º, IX, e termo de parceria difere de termo de fomento do MROSC.",
+      "cebraspeTrap": "Qualquer associação com finalidade social é OSCIP desde a sua constituição.",
+      "example": "Entidade solicita qualificação após três anos de funcionamento e, se aprovada, pode firmar termo de parceria.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.790/1999, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9790-23-marco-1999-349541-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-mrosc-exclusoes-os-oscip",
+      "term": "Exclusão dos instrumentos de OS e OSCIP do MROSC",
+      "aliases": [],
+      "definition": "O art. 3º, III e VI, da Lei nº 13.019/2014 exclui de suas exigências contratos de gestão de OS e termos de parceria de OSCIP quando atendidos os requisitos das leis especiais.",
+      "contrast": "A exclusão se refere aos instrumentos especiais regulares, não a qualquer relacionamento de terceiro setor com o Estado.",
+      "cebraspeTrap": "Todo contrato de gestão de OS deve adotar as regras de chamamento do termo de fomento.",
+      "example": "Contrato de gestão regular segue as condições da Lei nº 9.637/1998 e princípios constitucionais.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 13.019/2014, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2014/lei-13019-31-julho-2014-779123-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-mrosc-terceiro-setor-osc",
+      "term": "Terceiro setor, OSC e qualificações especiais",
+      "aliases": [],
+      "definition": "Terceiro setor designa em geral organizações privadas voltadas a fins sociais. A definição legal de OSC abrange entidades privadas sem fins lucrativos e certas cooperativas e organizações religiosas.",
+      "contrast": "Ser OSC não concede automaticamente os títulos de OS ou OSCIP nem torna uma entidade apta a todos os instrumentos.",
+      "cebraspeTrap": "Todas as entidades privadas de fins sociais têm qualificação de OS e de OSCIP.",
+      "example": "Cooperativa prevista no art. 2º, I, da Lei nº 13.019 pode ser OSC se cumprir as condições.",
+      "articleIds": [
+        "art-d8257e60c3494b91"
+      ],
+      "subjectIds": [
+        "administracao-publica"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 13.019/2014, texto consolidado da Câmara",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2014/lei-13019-31-julho-2014-779123-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

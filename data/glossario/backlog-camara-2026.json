@@ -1067,6 +1067,46 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo",
       "contestId": "camara-2026",
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da21-professor-acumulacao-ec138",
+      "term": "Acumulação de professor após a EC 138/2025",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da21-teto-indenizacoes-ec135",
+      "term": "Teto remuneratório e indenizações após a EC 135/2024",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da21-licencas-remuneracao",
+      "term": "Licenças remuneradas e não remuneradas na Lei 8.112",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da21-penalidades-art117",
+      "term": "Proibições do art. 117 e sanções da Lei nº 8.112",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da21-vencimento-remuneracao",
+      "term": "Vencimento, remuneração e indenizações no RJU",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

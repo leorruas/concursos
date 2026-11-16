@@ -11665,6 +11665,186 @@
       "status": "validated",
       "reviewedAt": "2026-11-16",
       "revision": 1
+    },
+    {
+      "id": "camara-da21-professor-ec138",
+      "term": "Professor pode acumular com qualquer cargo após EC 138?",
+      "definition": "Sim. A EC nº 138/2025 alterou o art. 37, XVI, b: um cargo de professor com outro cargo de qualquer natureza, havendo compatibilidade de horários e observância das demais regras constitucionais.",
+      "example": "Professora e analista administrativo com jornadas efetivamente compatíveis podem se enquadrar na nova alínea b.",
+      "confusion": "A antiga exigência de segundo cargo técnico ou científico não é mais a redação constitucional vigente desde dezembro de 2025.",
+      "note": {
+        "articleId": "art-2c1333aa75b06e9c",
+        "section": "5.1 As exceções constitucionais taxativas (art. 37, XVI, CF/1988)"
+      },
+      "conceptIds": [
+        "glo-camara-da21-professor-acumulacao-ec138"
+      ],
+      "contrast": {
+        "prompt": "Um cargo de professor com outro administrativo não técnico é sempre proibido em 2026?",
+        "answer": "Não. A EC 138/2025 admite cargo de qualquer natureza, desde que haja compatibilidade de horários e outros requisitos constitucionais."
+      },
+      "source": {
+        "title": "EC nº 138/2025",
+        "url": "https://legis.senado.leg.br/norma/41853798/publicacao/41861303",
+        "locator": "Art. 1º, alteração do art. 37, XVI, b"
+      },
+      "topic": "Lei nº 8.112/1990: direitos, vantagens, deveres e proibições",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Direitos e deveres"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da21-indenizacao-ec135",
+      "term": "Indenização fora do teto: EC 135 e transição",
+      "definition": "O art. 37, § 11, da CF prevê exclusão por lei ordinária nacional. Até sua edição, o art. 3º da EC nº 135/2024 estabeleceu transição para parcelas indenizatórias previstas em legislação. STF em 2026 restringiu disfarces remuneratórios e parcelas sem base legal.",
+      "example": "Uma ajuda de custo legalmente prevista não se confunde com gratificação batizada de indenização para fugir do teto.",
+      "confusion": "Não incorporação ao provento pelo art. 49, § 1º, da Lei 8112 é diferente de exclusão constitucional do teto.",
+      "note": {
+        "articleId": "art-2c1333aa75b06e9c",
+        "section": "1.2 Limites, descontos e teto constitucional"
+      },
+      "conceptIds": [
+        "glo-camara-da21-teto-indenizacoes-ec135"
+      ],
+      "contrast": {
+        "prompt": "Basta chamar um pagamento de indenização para excluí-lo do teto?",
+        "answer": "Não. Devem ser considerados base legal, caráter indenizatório real, art. 37, § 11, transição da EC 135 e jurisprudência."
+      },
+      "source": {
+        "title": "Emenda Constitucional nº 135/2024",
+        "url": "https://www2.camara.leg.br/legin/fed/emecon/2024/emendaconstitucional-135-20-dezembro-2024-796776-norma-pl.html",
+        "locator": "Art. 1º (CF art. 37, § 11) e art. 3º"
+      },
+      "topic": "Lei nº 8.112/1990: direitos, vantagens, deveres e proibições",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Direitos e deveres"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da21-licenca-politica",
+      "term": "Licença para atividade política: duas fases",
+      "definition": "Da escolha em convenção até a véspera do registro da candidatura, licença sem remuneração. Do registro até o 10º dia após a eleição, vencimentos do cargo efetivo por até três meses, nos termos do art. 86.",
+      "example": "Uma candidata se afasta antes do registro e não recebe nessa primeira etapa; após registro vale a regra de remuneração limitada.",
+      "confusion": "Licença política não é integralmente remunerada, nem a licença familiar do art. 83 tem os mesmos marcos.",
+      "note": {
+        "articleId": "art-2c1333aa75b06e9c",
+        "section": "3.2 Rol das licenças da Lei nº 8.112/1990 (arts. 81 a 92)"
+      },
+      "conceptIds": [
+        "glo-camara-da21-licencas-remuneracao"
+      ],
+      "contrast": {
+        "prompt": "Licença política é remunerada desde a convenção partidária?",
+        "answer": "Não. Até a véspera do registro é sem remuneração; após registro a lei assegura vencimentos por até três meses."
+      },
+      "source": {
+        "title": "Lei nº 8.112/1990",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Arts. 81 e 86"
+      },
+      "topic": "Lei nº 8.112/1990: direitos, vantagens, deveres e proibições",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Direitos e deveres"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da21-penalidades-art117",
+      "term": "Sanções para incisos do art. 117",
+      "definition": "I a VIII e XIX: advertência (art. 129), salvo gravidade; IX a XVI: demissão (art. 132, XIII); XVII e XVIII: em regra suspensão (art. 130). Enquadrar a infração e assegurar defesa.",
+      "example": "Utilizar recursos públicos para serviços particulares é art. 117, XVI; atividade incompatível com horário é XVIII.",
+      "confusion": "O art. 132, XIII, remete a IX a XVI, não a todas as 19 proibições.",
+      "note": {
+        "articleId": "art-2c1333aa75b06e9c",
+        "section": "4.2 Proibições ao servidor público (art. 117)"
+      },
+      "conceptIds": [
+        "glo-camara-da21-penalidades-art117"
+      ],
+      "contrast": {
+        "prompt": "Uma conduta do art. 117, XVIII, tem demissão automática por força do art. 132, XIII?",
+        "answer": "Não. O art. 132, XIII, refere-se aos incisos IX a XVI; art. 130 disciplina em regra XVII e XVIII."
+      },
+      "source": {
+        "title": "Lei nº 8.112/1990",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Arts. 117 e 128 a 132"
+      },
+      "topic": "Lei nº 8.112/1990: direitos, vantagens, deveres e proibições",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Direitos e deveres"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-da21-vencimento-indemn",
+      "term": "Vencimento e remuneração: diferença legal",
+      "definition": "Vencimento (art. 40) é a retribuição legal básica do cargo. Remuneração (art. 41) é vencimento mais vantagens permanentes de lei. Indenizações (art. 49, § 1º) não se incorporam ao vencimento ou provento.",
+      "example": "Vencimento básico pode ser menor que salário mínimo se remuneração total respeitar piso, conforme SV 16, observadas parcelas juridicamente relevantes.",
+      "confusion": "Não usar diárias como sinônimo de vencimento e não confundir não incorporação com tratamento perante o teto.",
+      "note": {
+        "articleId": "art-2c1333aa75b06e9c",
+        "section": "1.1 Vencimento versus remuneração"
+      },
+      "conceptIds": [
+        "glo-camara-da21-vencimento-remuneracao"
+      ],
+      "contrast": {
+        "prompt": "A garantia de salário mínimo refere-se necessariamente ao vencimento básico?",
+        "answer": "Não. SV 16 e art. 41, § 5º, levam em conta remuneração total juridicamente considerada."
+      },
+      "source": {
+        "title": "Lei nº 8.112/1990",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-normaatualizada-pl.html",
+        "locator": "Arts. 40, 41 e 49"
+      },
+      "topic": "Lei nº 8.112/1990: direitos, vantagens, deveres e proibições",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Lei nº 8.112/1990 / Direitos e deveres"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
     }
   ]
 }

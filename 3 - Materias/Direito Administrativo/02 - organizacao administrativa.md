@@ -78,8 +78,8 @@ graph TD
     R["Empresas Estatais (Lei 13.303/2016)"]:::raiz --> C1["Empresa Pública (EP)"]:::criterio
     R --> C2["Sociedade de Economia Mista (SEM)"]:::criterio
 
-    C1 --> O1["Capital 100% público<br/>Qualquer forma societária (LTDA, S.A.)<br/>Justiça Federal (se federal)"]:::opcao
-    C2 --> O2["Capital misto (maioria votante pública)<br/>Obrigatoriamente S.A.<br/>Justiça Estadual (mesmo federal - Súm. 556 STF)"]:::opcao
+    C1 --> O1["Capital integralmente público<br/>Formas societárias admitidas em direito<br/>Justiça Federal em causas cíveis, com exceções"]:::opcao
+    C2 --> O2["Capital misto, maioria votante pública<br/>Obrigatoriamente S.A.<br/>Justiça estadual cível em regra, com exceções"]:::opcao
 ```
 
 Uma comparação útil: a **Caixa Econômica Federal** é empresa pública federal; o **Banco do Brasil S.A.** é sociedade de economia mista federal. Ambas integram a Administração Indireta, têm personalidade de direito privado e contratam empregados mediante concurso público para empregos permanentes, mas têm estruturas de capital e regras de competência judicial distintas.

@@ -1259,6 +1259,22 @@
       "examBlock": "Conhecimentos básicos: Administração Pública, parcerias com setor privado e terceiro setor",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-da23-defesa-tecnica",
+      "term": "Defesa técnica no PAD e defensor dativo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da23-sumula665",
+      "term": "Súmula 665 do STJ e controle judicial do PAD",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

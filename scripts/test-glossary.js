@@ -357,8 +357,8 @@ for (const [query, id] of [
 const notaEmpenho = fs.readFileSync(path.join(root,'3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md'),'utf8');
 assert(notaEmpenho.includes('**pendente ou não de implemento de condição**'),'Artigo canônico deve preservar o alcance literal do art. 58');
 // Artigo de classificação orçamentária com 30 conceitos próprios no catálogo atual.
-// O artigo usado anteriormente neste teste tem apenas um vínculo e tornava o CI inviável.
-const articleId = 'art-28b3d9ef86aa4510';
+// O artigo escolhido agrupa os 30 conceitos de classificação orçamentária no catálogo atual.
+const articleId = 'art-3f9d17a6c04b4e82';
 const articleList = JSON.parse(JSON.stringify(ctx.listarArtigosGlossario(termos)));
 assert(articleList.length >= 32, 'Artigos vinculados devem ser listados sem duplicação');
 assert.equal(new Set(articleList.map(a => a.articleId)).size, articleList.length);

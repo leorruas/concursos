@@ -17,7 +17,7 @@ updated: 2026-11-16
 | `art-6e4e79c7f4bb4aa3` | `09 - restos a pagar dea e suprimento de fundos.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
 | `art-743d234d819842d1` | `10 - conta unica e execucao financeira.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
 | `art-91ab320cdfb64b8a` | `11 - responsabilidade fiscal e controle orcamentario.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
-| `art-9d42c1f68a7be053` | `15 - emendas parlamentares deliberacao e rastreabilidade.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
+| `art-9d42c1f68a7be053` | `15 - emendas parlamentares deliberacao e rastreabilidade.md` | Revisão pontual publicada; auditoria integral pendente | Atualização jurídica da ADPF 854 publicada no commit `6bf553c5cb3c1917c1cf941093cf27e1acd1cf78`; fontes STF de 24/08 e 09/09/2026. Ainda não verificados integralmente C/E, glossário, flashcards, CI/Pages deste SHA e inspeção visual; não certificar. |
 
 ## Fechamento e retomada
 

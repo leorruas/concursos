@@ -66,16 +66,16 @@ Para entender as oito condições, pense em um ônibus: **regularidade** é cump
 
 A lei não considera descontinuidade a interrupção em situação de emergência ou, após prévio aviso, quando motivada por razões técnicas ou de segurança das instalações ou por inadimplemento do usuário, considerado o interesse da coletividade.
 
-No caso de interrupção por inadimplemento, há restrições legais adicionais quanto aos dias em que o corte pode começar.
+No caso de inadimplemento do usuário, o art. 6º, § 4º, da **Lei nº 8.987/1995**, incluído pela **Lei nº 14.015/2020**, proíbe iniciar a interrupção **na sexta-feira, no sábado, no domingo, em feriado ou na véspera de feriado**. A lei distingue emergência (sem exigência de aviso prévio no § 3º) das duas hipóteses de interrupção que pressupõem prévio aviso (razões técnicas ou de segurança e inadimplemento). A regra geral precisa ainda ser conjugada com a legislação setorial, a proteção de usuários vulneráveis e as circunstâncias concretas. Exemplo: se a concessionária notificou o usuário inadimplente, a mera existência de aviso não autoriza começar o corte numa sexta-feira.
 
 > [!WARNING]
 > A alternativa “serviço público jamais pode ser interrompido” é falsa. O princípio da continuidade admite hipóteses legais de interrupção.
 
 ## Direitos dos usuários
 
-A Lei nº 8.987/1995 assegura, entre outros, o direito de receber serviço adequado e obter informações para defesa de interesses individuais ou coletivos. O usuário também pode comunicar irregularidades e ilícitos relacionados ao serviço.
+O **art. 7º da Lei nº 8.987/1995**, chamada Lei Geral de Concessões e Permissões de Serviços Públicos, assegura, entre outros, receber serviço adequado, obter informações do poder concedente e da concessionária, comunicar irregularidades e ilícitos e contribuir para a conservação dos bens utilizados. O artigo deve ser lido em conjunto com a **Lei nº 8.078/1990 (Código de Defesa do Consumidor)**, expressamente ressalvada pelo próprio art. 7º. Direitos do usuário não se resumem ao pagamento de tarifa.
 
-A Constituição, no art. 37, §3º, prevê participação do usuário na Administração e avaliação da qualidade dos serviços públicos.
+A **Lei nº 13.460/2017 (Lei de Defesa dos Direitos do Usuário dos Serviços Públicos)** disciplina participação, proteção e defesa dos usuários, inclusive manifestações e avaliação dos serviços; a incidência sobre serviços prestados por particulares depende do regime legal aplicável. A **Constituição de 1988, art. 37, § 3º**, exige disciplina legal da participação do usuário na Administração Pública direta e indireta, especialmente reclamações, acesso a registros e representação contra exercício negligente ou abusivo de cargo, emprego ou função. A avaliação da qualidade também é objeto da Lei nº 13.460/2017. Não confundir o mecanismo constitucional de participação com a fiscalização contratual do poder concedente.
 
 ## Tarifa e equilíbrio econômico-financeiro
 
@@ -95,8 +95,8 @@ A Lei nº 8.987/1995 prevê hipóteses distintas de extinção. Para prova, as f
 
 - **advento do termo contratual**: término normal do prazo;
 - **encampação**: retomada antecipada do serviço por decisão de interesse público, mesmo sem falta da concessionária; exige **lei autorizativa específica e prévio pagamento de indenização**, na forma do art. 37 da Lei nº 8.987/1995;
-- **caducidade**: encerramento da concessão porque a empresa descumpriu obrigações contratuais ou legais; exige **processo administrativo com ampla defesa** e observância dos demais requisitos do art. 38 da Lei nº 8.987/1995;
-- **rescisão**: pode ocorrer por iniciativa da concessionária em razão de descumprimento das normas contratuais pelo poder concedente, pela via legal cabível;
+- **caducidade**: diante de hipóteses legais de inadimplemento da concessionária, o poder concedente deve **comunicar detalhadamente as falhas e conceder prazo para corrigi-las antes de instaurar o processo**; a declaração exige processo administrativo e ampla defesa e é feita por **decreto**, sem indenização prévia, observada a apuração da indenização cabível com descontos legais (art. 38, §§ 2º a 5º);
+- **rescisão**: pelo **art. 39**, quando o poder concedente descumpre o contrato, a concessionária pode pedir a rescisão mediante **ação judicial específica**; até o **trânsito em julgado** da decisão, não pode interromper nem paralisar o serviço com fundamento nessa iniciativa;
 - **anulação**: decorre de ilegalidade;
 - falência ou extinção da empresa concessionária e falecimento/incapacidade do titular, quando empresa individual, nas hipóteses legais.
 
@@ -110,6 +110,10 @@ Uma cidade precisa manter seu transporte coletivo. Se o serviço é prestado por
 **Item inédito, Certo ou Errado:** “Uma concessionária que opera transporte coletivo passa a ser titular do serviço público, pois assume sua execução e seus riscos.” **Errado.** A concessão transfere a prestação, não a titularidade pública.
 
 **Item inédito, Certo ou Errado:** “A retomada antecipada de concessão por interesse público, sem inadimplemento da concessionária, caracteriza caducidade.” **Errado.** Trata-se de encampação, observados seus requisitos legais; caducidade decorre de inadimplemento.
+
+**Item inédito, Certo ou Errado:** “Mesmo após aviso prévio, o corte por inadimplemento de usuário sujeito à Lei nº 8.987/1995 não pode ser iniciado numa sexta-feira.” **Certo.** O art. 6º, § 4º, impede o início de corte por inadimplemento em sexta-feira, sábado, domingo, feriado ou véspera de feriado.
+
+**Item inédito, Certo ou Errado:** “A concessionária pode suspender imediatamente o serviço ao ajuizar ação de rescisão do contrato por inadimplemento do poder concedente.” **Errado.** O art. 39, parágrafo único, impede a paralisação até o trânsito em julgado.
 
 ## Como a banca cobra
 
@@ -161,4 +165,7 @@ FGV e Cebraspe tendem a deslocar características entre institutos próximos:
 ## Fontes
 
 - Constituição da República Federativa do Brasil de 1988, especialmente arts. 37, §3º e §6º, e 175.
-- Lei nº 8.987, de 13 de fevereiro de 1995, texto compilado, especialmente arts. 1º a 7º, 9º, 14, 18, 23 e dispositivos sobre extinção da concessão.
+- [Lei nº 8.987, de 13 de fevereiro de 1995: Lei Geral de Concessões e Permissões de Serviços Públicos](https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html), especialmente arts. 2º, 6º, 7º, 9º, 14, 35 a 39 e 40.
+- Lei nº 14.015, de 15 de junho de 2020: alterou a Lei nº 8.987/1995 para restringir os dias de início de interrupção por inadimplemento.
+- Lei nº 13.460, de 26 de junho de 2017: direitos de participação, proteção e defesa dos usuários de serviços públicos.
+- Lei nº 8.078, de 11 de setembro de 1990: Código de Defesa do Consumidor, cuja aplicação é ressalvada pelo art. 7º da Lei nº 8.987/1995.

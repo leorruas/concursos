@@ -132,7 +132,7 @@ Uma ação possuía dotação atualizada de R$ 10 milhões. O gestor recebeu lim
 
 ## Relações e continuidade
 
-O capítulo [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria|Créditos adicionais e evidências de auditoria]] examina como a autorização de despesa pode mudar. Aqui o foco é **em que ritmo a autorização pode ser executada e paga**. Para aprofundar as fases da despesa, consulte [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Despesas: empenho, liquidação e pagamento]]. Para informações sobre classificação e fontes de recursos, use [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|Classificações da CGU]].
+O capítulo [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria|Créditos adicionais e evidências de auditoria]] examina como a autorização de despesa pode mudar. Aqui o foco é **em que ritmo a autorização pode ser executada e paga**. Para aprofundar as fases da despesa, consulte [[3 - Materias/Orcamento Publico/CGU 2026 - despesa empenho liquidacao e evidencias|Despesas: empenho, liquidação e pagamento]]. Para informações sobre classificação e fontes de recursos, use [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|Classificações da CGU]].
 
 ## Fontes e atualizações
 

@@ -109,7 +109,7 @@ A Constituição e a LRF usam palavras que descrevem **decisões diferentes**. L
 
 ### Metas fiscais × riscos fiscais
 
-As **metas fiscais** expressam resultados e parâmetros que orientam a gestão fiscal. Os **riscos fiscais** identificam passivos contingentes e outros fatores capazes de afetar as contas públicas, com medidas previstas para enfrentá-los. São anexos com propósitos diferentes. A existência de um risco não equivale à certeza de que a despesa se realizará.
+As **metas fiscais** indicam resultados que o governo pretende alcançar nas contas públicas, como um determinado resultado primário, calculado conforme as regras fiscais aplicáveis. A LDO apresenta essas metas no **Anexo de Metas Fiscais**. Os **riscos fiscais** são acontecimentos incertos que podem alterar receitas ou gastos, como uma ação judicial cujo resultado pode gerar obrigação de pagamento. O **Anexo de Riscos Fiscais** identifica essas situações e as providências possíveis. Uma meta descreve um resultado que se pretende alcançar; um risco descreve algo que **pode acontecer**. Incluir uma ação judicial como risco não significa que o governo já perdeu a causa ou já pagou a despesa.
 
 ### Abrangência federativa da LDO e situação das autarquias
 
@@ -145,15 +145,15 @@ Se a arrecadação ficar abaixo do previsto, a execução poderá ser ajustada c
 
 ### Três orçamentos em uma lei
 
-A LOA contém os orçamentos fiscal, da seguridade social e de investimento das estatais (CF, art. 165, § 5º). **Esta pergunta é sobre a esfera da programação**, não sobre o PPA, a LDO ou a categoria econômica da despesa. Compare critérios e exemplos em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes#Três orçamentos em uma lei|Esferas da LOA e estatais]].
+A **Lei Orçamentária Anual (LOA)** reúne três partes, chamadas **esferas orçamentárias**, conforme o art. 165, § 5º, da Constituição. O **orçamento fiscal** reúne, entre outras, despesas de órgãos federais com educação, administração e infraestrutura; o **orçamento da seguridade social** abrange ações de saúde, previdência e assistência social; e o **orçamento de investimento das estatais** abrange investimentos de empresas que atendam ao critério constitucional de controle e ao enquadramento orçamentário aplicável. **Esfera** informa em qual dessas partes a programação é registrada. É um critério diferente de classificar a despesa como corrente ou de capital. Os detalhes e as exceções constam em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes#Três orçamentos em uma lei|Esferas da LOA e estatais]].
 
 ### Entendendo as três esferas orçamentárias na prática
 
-A comparação entre escola, unidade de saúde e empresa estatal foi desenvolvida em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes#Entendendo as três esferas orçamentárias na prática|três esferas na prática]].
+Imagine três despesas federais: construir uma escola pública, custear atendimento do Sistema Único de Saúde (SUS) e financiar investimento de uma empresa estatal incluída no orçamento de investimento. A primeira, em regra, pertence ao **orçamento fiscal**; a segunda, ao **orçamento da seguridade social**; a terceira, ao **orçamento de investimento das estatais**. O nome da organização, sozinho, não define todos os casos: a classificação depende da programação e das regras aplicáveis. A análise detalhada foi desenvolvida em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes#Entendendo as três esferas orçamentárias na prática|três esferas na prática]].
 
 #### Empresa controlada × estatal dependente × estatal não dependente
 
-A maioria do capital **votante** responde à pergunta do controle; os aportes e suas finalidades ajudam a verificar dependência conforme a Lei de Responsabilidade Fiscal. A distinção e os casos estão em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes#Empresa controlada × estatal dependente × estatal não dependente|controle societário e dependência]].
+Uma **empresa estatal controlada** tem a maioria das ações com direito a voto pertencente, direta ou indiretamente, ao ente público, de acordo com os critérios legais. O **controle** responde à pergunta sobre quem tem poder societário de decisão. A **dependência orçamentária** responde a outra pergunta: a empresa recebe recursos do ente controlador para pagar despesas com pessoal, custeio em geral ou capital, ressalvadas as hipóteses legais? Uma estatal pode ser controlada sem ser classificada como dependente. A classificação exige verificar os aportes e sua finalidade, não apenas o nome da empresa. Os casos e os critérios legais estão em [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes#Empresa controlada × estatal dependente × estatal não dependente|controle societário e dependência]].
 
 ### Princípio da exclusividade na LOA
 
@@ -163,9 +163,9 @@ A ideia “a LOA não pode conter absolutamente nenhuma outra autorização” f
 
 ## MTO 2027: linha de base e orçamento de médio prazo
 
-O Manual Técnico de Orçamento (MTO) 2027 explica a projeção das despesas atuais e o planejamento orçamentário para os anos seguintes.
+O **Manual Técnico de Orçamento (MTO)** descreve procedimentos usados pela administração federal para preparar e classificar o orçamento. A edição de 2027 também apresenta maneiras de estimar o custo das políticas públicas nos anos seguintes. Essa estimativa ajuda no planejamento: **a despesa projetada para um ano futuro ainda precisa passar pela autorização orçamentária do respectivo exercício**.
 
-No [MTO 2027, 3ª versão, capítulo 7, pp. 169–177](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027), há três estágios do marco de gasto: **Marco Fiscal de Médio Prazo (MFMP)**, **Marco Orçamentário de Médio Prazo (MOMP)** e **Marco de Desempenho de Médio Prazo (MDMP)**. São instrumentos de planejamento, não substitutos das leis **PPA, LDO e LOA**.
+O [MTO 2027, 3ª versão, capítulo 7, pp. 169–177](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027) distingue três perspectivas: o **Marco Fiscal de Médio Prazo (MFMP)** trata das condições e metas das contas públicas nos anos seguintes; o **Marco Orçamentário de Médio Prazo (MOMP)** organiza projeções de despesa e escolhas de alocação dos recursos; e o **Marco de Desempenho de Médio Prazo (MDMP)** relaciona recursos às entregas e aos resultados esperados. Essas perspectivas orientam decisões e análises. Continuam necessárias as leis **PPA, LDO e LOA**, com suas competências e procedimentos constitucionais próprios.
 
 A **linha de base da despesa** estima os custos de **manter as políticas existentes**, com ajustes de preços, volumes e compromissos já assumidos. Em regra, não incorpora criação ou expansão relevante de políticas. O **MOMP** é mais amplo: usa a linha de base como insumo, além de poder considerar novas iniciativas, expansão e revisão de gastos. **Previsão indicativa plurianual não é dotação autorizada em exercícios futuros**.
 
@@ -192,7 +192,7 @@ A **linha de base da despesa** estima os custos de **manter as políticas existe
 
 ## Iniciativa, apreciação e prazos no plano federal
 
-A **iniciativa dos projetos** cabe ao Executivo. A **apreciação e a aprovação** cabem ao Legislativo, segundo a Constituição. Emendas parlamentares podem modificar a proposta dentro de limites e condições específicos (CF, art. 166), já detalhados em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]].
+A **iniciativa** é a competência para encaminhar formalmente os projetos de leis orçamentárias: no plano federal, ela cabe ao Presidente da República. O **Congresso Nacional** discute e vota esses projetos. Parlamentares podem apresentar **emendas**, propostas de alteração do projeto, mas sua aprovação deve respeitar os requisitos do art. 166 da Constituição. Para o projeto da LOA, por exemplo, a emenda deve ser compatível com o PPA e a LDO e observar as regras de indicação de recursos, além das hipóteses constitucionais próprias de correção de erros, omissões e texto. Veja [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]].
 
 No regime transitório do ADCT, art. 35, § 2º, usado enquanto não sobrevier a disciplina complementar pertinente, os marcos federais usuais de **envio** são:
 
@@ -202,7 +202,7 @@ No regime transitório do ADCT, art. 35, § 2º, usado enquanto não sobrevier a
 | LDO | Até oito meses e meio antes do encerramento do exercício financeiro |
 | LOA | Até quatro meses antes do encerramento do exercício financeiro |
 
-Esses marcos são usualmente apresentados como **31 de agosto do primeiro ano de mandato para o PPA, 15 de abril para a LDO e 31 de agosto para a LOA**. **Envio × devolução:** pelo [ADCT, art. 35, § 2º, I–III](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/constituicao-adct-de-1988_ec-136.html), **PPA e LOA** devem ser devolvidos para sanção **até o encerramento da sessão legislativa**, mas a **LDO** deve ser devolvida **até o encerramento do primeiro período da sessão legislativa**. A tabela apresenta os prazos de **envio**, não os de devolução. Os marcos são federais: não atribuir automaticamente essas datas a outros entes. **Item didático C/E:** “PPA, LDO e LOA têm o mesmo prazo constitucional para devolução à sanção presidencial.” **Errado:** a LDO tem marco próprio.
+Na União, essas regras resultam, em geral, em **31 de agosto do primeiro ano do mandato para enviar o PPA**, **15 de abril de cada ano para enviar a LDO** e **31 de agosto de cada ano para enviar a LOA**. O prazo de **envio** indica quando o Executivo deve apresentar o projeto ao Congresso. O prazo de **devolução para sanção** indica até quando o Congresso deve encerrar sua apreciação e remeter o projeto aprovado ao Presidente da República, que poderá sancioná-lo ou vetá-lo nos termos constitucionais. **Envio × devolução:** pelo [ADCT, art. 35, § 2º, I–III](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/constituicao-adct-de-1988_ec-136.html), **PPA e LOA** devem ser devolvidos para sanção **até o encerramento da sessão legislativa**, mas a **LDO** deve ser devolvida **até o encerramento do primeiro período da sessão legislativa**. A tabela apresenta os prazos de **envio**, não os de devolução. Os marcos são federais: não atribuir automaticamente essas datas a outros entes. **Item didático C/E:** “PPA, LDO e LOA têm o mesmo prazo constitucional para devolução à sanção presidencial.” **Errado:** a LDO tem marco próprio.
 
 ## Como pode ser cobrado
 

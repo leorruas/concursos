@@ -157,7 +157,7 @@ Uma **empresa estatal controlada** tem a maioria das ações com direito a voto 
 
 ### Princípio da exclusividade na LOA
 
-A Constituição, art. 165, § 8º, determina que a LOA não conterá dispositivo estranho à previsão da receita e à fixação da despesa. A própria Constituição **retira dessa proibição** a autorização para abertura de **créditos suplementares** e para contratação de **operações de crédito**, inclusive por antecipação de receita, nos termos da lei.
+A Constituição, art. 165, § 8º, estabelece o **princípio da exclusividade**: a LOA trata, em regra, de prever receitas e fixar despesas. A própria Constituição permite **duas exceções**. A primeira é autorizar **créditos suplementares**, que reforçam dotações já existentes. A segunda é autorizar **operações de crédito**, como empréstimos públicos, inclusive os contratados por antecipação de receita orçamentária, observadas as condições legais. **Autorizar** o crédito ou o empréstimo na LOA não significa que a abertura ou a contratação já tenha ocorrido.
 
 A ideia “a LOA não pode conter absolutamente nenhuma outra autorização” falha porque ignora as exceções constitucionais expressas. Em contrapartida, essas exceções **não** autorizam inserir qualquer matéria administrativa ou tributária na LOA.
 
@@ -171,13 +171,13 @@ A **linha de base da despesa** estima os custos de **manter as políticas existe
 
 **Para o PLOA 2027**, o MTO estendeu a apuração de linhas de base a **todas as despesas dos orçamentos fiscal e da seguridade social da União**, com projeções para **2028–2030** no módulo **LOA – Médio Prazo** do Sistema Integrado de Planejamento e Orçamento (SIOP). Nesse módulo, as projeções do ciclo 2027 devem conter **somente linhas de base**, sem referenciais monetários prévios para essas estimativas. A regra é operacional desse ciclo, não autorização legislativa futura.
 
-**Fundamentos diferentes:** o **art. 165, § 14, da CF** permite previsões de despesa para exercícios seguintes na LOA; o **art. 4º, § 5º, da LRF** exige projeções plurianuais do marco fiscal no Anexo de Metas Fiscais da LDO federal; o **art. 5º, V, da LRF**, incluído pela Lei Complementar (LC) nº 224/2025, estabelece anexo de estimativa de despesas para os períodos previstos em lei. Diferenciar essas exigências da apuração técnica da linha de base.
+**Três bases jurídicas que cumprem funções diferentes:** o **art. 165, § 14, da Constituição Federal** permite que a LOA contenha previsões para despesas de exercícios posteriores, mas esses valores não substituem a autorização da LOA de cada ano. O **art. 4º, § 5º, da Lei de Responsabilidade Fiscal (LRF)** trata das projeções fiscais de médio prazo no Anexo de Metas Fiscais da LDO federal, para ajudar a compreender receitas, despesas, resultados e dívida nos anos seguintes. O **art. 5º, V, da LRF**, incluído pela Lei Complementar (LC) nº 224/2025, prevê um anexo de estimativas de despesas para períodos futuros. O MTO detalha **como elaborar projeções técnicas**, como a linha de base. Assim, uma exigência legal de apresentar informação futura e a metodologia usada para estimá-la são coisas diferentes.
 
 **Caso progressivo:** manter o atendimento de uma unidade existente custa R$ 8 milhões em 2027 e R$ 8,4 milhões estimados em 2028 por inflação: o custo futuro pode integrar a linha de base. Instalar três novas unidades é **expansão**, a ser analisada separadamente. Nenhum desses números constitui, por si, dotação aprovada em LOA futura.
 
 **Item inédito de Certo ou Errado (C/E), no padrão Cebraspe da Câmara.** A linha de base da despesa do MTO 2027 deve incluir automaticamente os custos de políticas novas ainda não aprovadas, pois substitui a função do PPA.
 
-**Gabarito: Errado.** Linha de base é a projeção de **continuidade das políticas atuais**, e o MOMP pode considerar expansão; nenhum substitui o PPA. [MTO 2027, cap. 7, seções 7.1 a 7.3](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2027%3Amto2027.pdf).
+**Gabarito: Errado.** A **linha de base** procura estimar quanto custará manter as ações existentes, consideradas as hipóteses técnicas aplicáveis. Uma nova política, como abrir três unidades ainda não existentes, representa expansão e precisa ser examinada separadamente. O **Marco Orçamentário de Médio Prazo (MOMP)** pode ajudar a avaliar essa expansão, mas continua sendo projeção de planejamento, sem substituir o Plano Plurianual (PPA) nem a autorização anual da LOA. O item erra ao usar **automaticamente** e **substitui**: atribui à linha de base uma finalidade que ela não tem. [MTO 2027, cap. 7, seções 7.1 a 7.3](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2027%3Amto2027.pdf).
 
 ## PPA LDO e LOA lado a lado
 
@@ -246,9 +246,9 @@ O caso documentado e suas fontes foram agrupados com o critério de dependência
 
 ## Questões comentadas: treino didático C/E
 
-**Item 1.** O plano plurianual federal em vigor durante os três últimos exercícios de um mandato presidencial alcança também o primeiro exercício financeiro do mandato seguinte. **Gabarito: Certo.** É a regra federal de transição do ADCT, art. 35, § 2º, I. O possível erro nasce da associação automática entre os quatro anos do PPA e os quatro anos de um mandato.
+**Item 1.** O plano plurianual federal em vigor durante os três últimos exercícios de um mandato presidencial alcança também o primeiro exercício financeiro do mandato seguinte. **Gabarito: Certo.** O **Ato das Disposições Constitucionais Transitórias (ADCT)**, art. 35, § 2º, I, estabelece essa regra para a União. Por exemplo, o PPA de 2024 a 2027 começa no segundo ano do mandato iniciado em 2023 e termina no primeiro ano do mandato seguinte, iniciado em 2027. O item está certo porque os quatro exercícios do plano **atravessam a mudança de mandato**. Confundir o período do PPA com os quatro anos de um único presidente levaria ao erro.
 
-**Item 2.** O princípio da exclusividade impede que a lei orçamentária anual contenha autorização para abertura de créditos suplementares. **Gabarito: Errado.** A autorização para créditos suplementares é **exceção expressa** à proibição no art. 165, § 8º. A frase enuncia a proibição geral e omite justamente sua ressalva.
+**Item 2.** O princípio da exclusividade impede que a lei orçamentária anual contenha autorização para abertura de créditos suplementares. **Gabarito: Errado.** A **exclusividade** limita o conteúdo da LOA à previsão de receitas e à fixação de despesas. Mas o art. 165, § 8º, da Constituição permite que a própria LOA também **autorize a abertura de créditos suplementares**, usados para reforçar dotações existentes, dentro das condições legais. Exemplo: se uma dotação de R$ 100 mil se revelar insuficiente, a LOA pode ter autorizado previamente reforços nas condições que especificar. Essa autorização prévia não significa que o reforço já foi aberto. O item é falso porque transforma a regra geral em proibição sem exceções.
 
 Itens **inéditos, didáticos e não calibrados como prova real**. A presença dos gabaritos no artigo não registra resposta nem acerto do estudante.
 

@@ -27,7 +27,7 @@ Para escolher o tratamento, verifique o ano do empenho, a entrega ou prestação
 
 ## Restos a pagar: condição e espécie
 
-A Lei nº 4.320/1964, art. 35, atribui a despesa orçamentária ao exercício em que ela foi **legalmente empenhada**. O art. 36 trata como restos a pagar as despesas empenhadas e não pagas até 31 de dezembro. Isso permite continuar no exercício seguinte a execução dos estágios pendentes, sem criar automaticamente um **novo empenho na LOA seguinte**.
+O art. 35 da Lei nº 4.320/1964 determina que a despesa pertence, para fins **orçamentários**, ao ano em que foi legalmente empenhada. O art. 36 denomina **restos a pagar** as despesas empenhadas que ainda não foram pagas até 31 de dezembro. Por exemplo: um órgão empenha R$ 10 mil em dezembro de 2026 e paga em janeiro de 2027. Esse pagamento não transforma automaticamente a obrigação em uma nova despesa empenhada na Lei Orçamentária Anual (LOA) de 2027. É preciso conferir a inscrição e as demais condições legais. O registro **patrimonial** da obrigação, por sua vez, segue a ocorrência do fato gerador: os dois enfoques contábeis devem ser distinguidos.
 
 | Situação em 31/12 | Classificação | Estágio ainda pendente |
 | :--- | :--- | :--- |
@@ -60,7 +60,7 @@ As três quantias não devem ser lançadas como nova **despesa orçamentária em
 
 ### Crédito com vigência plurianual: exceção literal do art. 36
 
-**Regra do art. 36, parágrafo único, da Lei nº 4.320/1964:** empenhos à conta de **créditos com vigência plurianual** que **ainda não foram liquidados** **somente** serão computados como **Restos a Pagar no último ano de vigência do crédito**. Portanto, a máxima “todo empenho não pago em 31 de dezembro vira RP” exige verificar **a vigência do crédito**. **Não confundir** crédito com vigência plurianual com despesa contratual de execução plurianual ou mera existência de previsão no PPA: são critérios diferentes.
+O art. 36, parágrafo único, da Lei nº 4.320/1964 estabelece uma exceção: quando um **crédito tem vigência plurianual**, isto é, sua autorização orçamentária pode produzir efeitos durante mais de um exercício, os empenhos **não liquidados** só são computados como restos a pagar no **último ano de vigência desse crédito**. Imagine uma autorização válida por mais de um exercício: uma despesa ainda não liquidada não entra automaticamente como RP no primeiro encerramento abrangido por essa vigência. A regra depende da vigência jurídica do **crédito**, e não simplesmente de um contrato que dure vários anos ou da previsão de uma ação no Plano Plurianual (PPA).
 
 **Item C/E didático:** “Empenho não liquidado vinculado a crédito de vigência plurianual deverá ser inscrito em restos a pagar no encerramento de cada um dos anos de vigência.” **Errado.** O art. 36, parágrafo único, prevê seu cômputo apenas no **último** ano de vigência, sob as condições do dispositivo. Para empenhos de créditos comuns, examinar o caput e as condições de inscrição do regime aplicável.
 
@@ -70,7 +70,7 @@ As três quantias não devem ser lançadas como nova **despesa orçamentária em
 
 Não basta encontrar despesa empenhada sem pagamento para concluir que toda inscrição será regular **independentemente de controles de encerramento**. A inscrição deve observar disponibilidade de caixa, vinculações de fontes, atos normativos pertinentes e limites de responsabilidade fiscal. O **MCASP, seção 4.7.1**, ressalta esse exame.
 
-O art. 42 da **Lei de Responsabilidade Fiscal (LRF)** proíbe ao titular de Poder ou órgão referido no art. 20, **nos últimos dois quadrimestres do mandato**, contrair obrigação de despesa que não possa ser cumprida integralmente no mandato ou que tenha parcela a pagar no exercício seguinte sem **suficiente disponibilidade de caixa**. O parágrafo único determina considerar encargos e despesas compromissadas até o final do exercício.
+O art. 42 da **Lei Complementar nº 101/2000, chamada Lei de Responsabilidade Fiscal (LRF)**, estabelece uma restrição no final do mandato. Nos **últimos dois quadrimestres**, isto é, nos oito meses finais, o titular de Poder ou órgão abrangido pela regra não pode contrair obrigação de despesa sem condições de pagá-la integralmente no mandato ou, quando houver parcela para o exercício seguinte, sem deixar **dinheiro disponível suficiente**. Ao calcular essa disponibilidade, o parágrafo único manda considerar encargos e despesas já compromissadas até 31 de dezembro. O controle evita deixar compromissos sem cobertura para a gestão seguinte; não equivale a proibir todos os restos a pagar em qualquer ano.
 
 **Últimos dois quadrimestres do mandato** não são o mesmo que **últimos dois meses do exercício**, nem a vedação é restrita ao período entre eleição e posse. A regra não equivale à proibição geral de todo RP. **Ressalva normativa:** a **LRF, art. 65**, estabelece situações excepcionais de **calamidade pública reconhecida**, com requisitos territoriais, temporais e de finalidade específicos. O **§ 1º, II**, nas condições do **§ 2º**, afasta vedação e sanções do **art. 42** para a resposta à calamidade. **Não aplicar essa dispensa sem o reconhecimento e os requisitos legais**, nem concluí-la como afastamento de transparência/controle (art. 65, § 2º, II).
 
@@ -108,7 +108,7 @@ O pagamento dos RP é, no **orçamento do exercício em que se paga**, um **dese
 
 ## Despesas de Exercícios Anteriores (DEA): art. 37
 
-A Lei nº 4.320/1964, art. 37, prevê pagamento em **dotação específica consignada no orçamento do exercício atual**, discriminada por elemento, para:
+O art. 37 da Lei nº 4.320/1964 admite pagar certas obrigações de anos encerrados utilizando **dotação específica no orçamento do ano atual**. **Dotação** é o valor autorizado para uma despesa; **elemento de despesa** é a classificação que identifica o objeto do gasto, como materiais ou serviços. O artigo prevê três situações:
 
 - **Despesas de exercícios encerrados** que possuíam crédito e saldo suficiente, mas **não se processaram na época própria**.
 - **Restos a pagar com prescrição interrompida**, nas hipóteses pertinentes.
@@ -120,7 +120,7 @@ A lei determina observar, **sempre que possível, ordem cronológica**. A identi
 
 Se existe **empenho válido inscrito como RP**, a liquidação/pagamento segue a execução de restos a pagar, sem novo empenho ordinário no orçamento atual. Se a obrigação antiga precisa ser reconhecida e paga mediante **dotação do exercício atual**, por se enquadrar no art. 37, aplica-se o procedimento de **DEA**.
 
-**Exemplo:** um serviço prestado em dezembro foi reconhecido apenas depois do fechamento e não permaneceu inscrito em RP. Confirmado o enquadramento no art. 37, a administração deverá avaliar **despesa de exercício anterior com dotação e empenho atuais**, mantendo a identificação do período de origem. Não basta pagar diretamente como “RP” uma obrigação sem inscrição válida.
+**Exemplo:** em dezembro de 2026, uma unidade recebeu um serviço, mas só reconheceu formalmente a obrigação em fevereiro de 2027. Não há restos a pagar válidos que sustentem o pagamento. A unidade deve verificar se o caso se enquadra em uma das hipóteses do art. 37, identificar o credor e a documentação, e utilizar **dotação e empenho de 2027** para a DEA quando todos os requisitos forem cumpridos. O serviço continua relacionado a 2026; a autorização orçamentária para regularizar o pagamento é do exercício atual. Uma obrigação antiga não pode ser lançada como RP sem inscrição válida.
 
 DEA não é sinônimo de toda despesa paga em ano diferente: **RP já cobre muitos pagamentos posteriores**.
 
@@ -134,7 +134,7 @@ O Decreto nº 93.872/1986, art. 45, disciplina hipóteses federais, como:
 - Despesas sigilosas quando assim classificadas em regulamento.
 - Despesas de **pequeno vulto**, conforme limites aplicáveis.
 
-**Excepcionalidade não equivale a dispensa de controle**. Há concessão motivada, empenho prévio, identificação do servidor responsável, documentação e prestação de contas. No âmbito federal, o Cartão de Pagamento do Governo Federal (CPGF) integra a operacionalização, observadas as hipóteses normativas. Limites e prazos específicos são atualizáveis e não devem ser memorizados sem conferir o ato vigente.
+**O adiantamento exige controle.** O órgão autoriza a concessão com justificativa, faz o empenho antes de disponibilizar os recursos, identifica o servidor responsável e exige comprovantes e prestação de contas. Na União, o **Cartão de Pagamento do Governo Federal (CPGF)** pode ser usado nos procedimentos previstos. Valores máximos, prazos de uso e prestação de contas dependem das normas aplicáveis e devem ser conferidos para o exercício e o órgão. O fato de uma compra ser pequena ou urgente não autoriza dispensar empenho ou documentos.
 
 ### Suprimento de fundos × pagamento normal × DEA
 

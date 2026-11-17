@@ -54139,6 +54139,286 @@
       "correctAnswer": "C",
       "explanation": "O atraso na emissão de parecer permite requerimento de qualquer deputado. Cabe ao Presidente determinar o envio à comissão seguinte ou ao Plenário, conforme o caso. O recurso subscrito por um décimo incide em outra fase, quando a apreciação conclusiva já terminou. (Regimento Interno, arts. 52, § 6º, 58 e 132, § 2º.)",
       "reviewEvidence": "Regimento Interno, arts. 52, § 6º, 58 e 132, § 2º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Identifica a fase, o legitimado, a autoridade e o destino possível."
+    },
+    {
+      "id": "cam-const-200-expressao-artistica-licenca",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "expressao-artistica-licenca",
+      "mechanism": "expressao-artistica-licenca",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Manifestação do pensamento"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Manifestação do pensamento"
+      },
+      "statement": "A liberdade de expressão artística é compatível com a exigência de licença estatal prévia para a obra ser divulgada, desde que a autoridade não avalie seu mérito artístico.",
+      "correctAnswer": "E",
+      "explanation": "A condição indevida é a licença prévia para a própria expressão. O inciso IX protege a expressão artística independentemente de censura ou licença. (Constituição Federal, art. 5º, IX.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, IX — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece a proibição de licença como condição de expressão."
+    },
+    {
+      "id": "cam-const-200-assistencia-religiosa-internacao-militar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "assistencia-religiosa-internacao-militar",
+      "mechanism": "assistencia-religiosa-internacao-militar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Liberdade de consciência e crença"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Liberdade de consciência e crença"
+      },
+      "statement": "A garantia constitucional de assistência religiosa alcança, nos termos da lei, as entidades militares de internação coletiva.",
+      "correctAnswer": "C",
+      "explanation": "O inciso VII abrange entidades civis e militares de internação coletiva. A prestação da assistência observa os termos da lei. (Constituição Federal, art. 5º, VII.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, VII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Verifica a abrangência institucional expressa da garantia."
+    },
+    {
+      "id": "cam-const-200-domicilio-socorro-noturno",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "domicilio-socorro-noturno",
+      "mechanism": "domicilio-socorro-noturno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "A necessidade de prestar socorro permite ingresso em residência sem consentimento do morador, ainda que seja noite.",
+      "correctAnswer": "C",
+      "explanation": "A exigência de ingresso durante o dia acompanha a hipótese de determinação judicial. Prestar socorro é uma exceção autônoma à inviolabilidade da casa e não está sujeita a essa limitação de horário. (Constituição Federal, art. 5º, XI.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, XI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue uma exceção autônoma da hipótese de ordem judicial diurna."
+    },
+    {
+      "id": "cam-const-200-reuniao-pacifica-autorizacao-distinta-aviso",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "reuniao-pacifica-autorizacao-distinta-aviso",
+      "mechanism": "reuniao-pacifica-autorizacao-distinta-aviso",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "Em local aberto ao público, uma reunião pacífica, sem armas e que não prejudique reunião anteriormente convocada para o mesmo local precisa de autorização prévia da autoridade competente, ainda que tenha havido prévio aviso.",
+      "correctAnswer": "E",
+      "explanation": "O requisito incorreto é a autorização. Atendidas as condições constitucionais, há exigência de aviso prévio à autoridade competente, que não se confunde com pedir permissão. (Constituição Federal, art. 5º, XVI.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, XVI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue aviso prévio e autorização, conservando as condições da reunião."
+    },
+    {
+      "id": "cam-const-200-associacao-suspensao-transito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "associacao-suspensao-transito",
+      "mechanism": "associacao-suspensao-transito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "A exigência constitucional de trânsito em julgado para dissolver compulsoriamente uma associação não se estende à suspensão judicial de suas atividades.",
+      "correctAnswer": "C",
+      "explanation": "Ambas as medidas dependem de decisão judicial. O requisito expresso de trânsito em julgado, quando já não cabem recursos, refere-se à dissolução compulsória. (Constituição Federal, art. 5º, XIX.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, XIX — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Separa dois atos judiciais sujeitos a condições distintas."
+    },
+    {
+      "id": "cam-const-200-associado-permanencia-compulsoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "associado-permanencia-compulsoria",
+      "mechanism": "associado-permanencia-compulsoria",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Art. 5º: núcleo dos direitos individuais e coletivos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Art. 5º: núcleo dos direitos individuais e coletivos"
+      },
+      "statement": "A Constituição permite compelir a pessoa a permanecer associada, desde que a associação inicial tenha ocorrido voluntariamente.",
+      "correctAnswer": "E",
+      "explanation": "A proteção constitucional alcança as duas etapas. Ninguém pode ser obrigado a associar-se ou a permanecer associado. (Constituição Federal, art. 5º, XX.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, XX — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece a liberdade de deixar uma associação."
+    },
+    {
+      "id": "cam-const-200-propriedade-funcao-social",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "propriedade-funcao-social",
+      "mechanism": "propriedade-funcao-social",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Art. 5º: núcleo dos direitos individuais e coletivos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Art. 5º: núcleo dos direitos individuais e coletivos"
+      },
+      "statement": "A Constituição garante a propriedade e prevê que ela cumpra sua função social.",
+      "correctAnswer": "C",
+      "explanation": "O direito de propriedade é garantido, e seu exercício deve atender à função social exigida pelo inciso XXIII. (Constituição Federal, art. 5º, XXII e XXIII.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, XXII e XXIII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece uma condição expressa relacionada à propriedade."
+    },
+    {
+      "id": "cam-const-200-requisicao-dano-indenizacao-previa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "requisicao-dano-indenizacao-previa",
+      "mechanism": "requisicao-dano-indenizacao-previa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "Diante de perigo público iminente, a autoridade competente pode utilizar imóvel particular, mas deve indenizar previamente o proprietário mesmo quando o uso não causar dano.",
+      "correctAnswer": "E",
+      "explanation": "O erro está em exigir pagamento prévio e independente de dano. Na requisição por perigo público iminente, a indenização é posterior e condicionada à existência de dano. (Constituição Federal, art. 5º, XXIV e XXV.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, XXIV e XXV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Compara finalidade, momento e condição de indenização entre institutos."
+    },
+    {
+      "id": "cam-const-200-peticao-abuso-taxa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "peticao-abuso-taxa",
+      "mechanism": "peticao-abuso-taxa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Direito × garantia"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Direito × garantia"
+      },
+      "statement": "A repartição pode cobrar taxa como condição para receber petição de particular contra abuso de poder.",
+      "correctAnswer": "E",
+      "explanation": "A cobrança como condição para exercer esse direito está errada. A Constituição assegura, sem pagamento de taxa, a petição aos poderes públicos em defesa de direitos ou contra ilegalidade ou abuso. (Constituição Federal, art. 5º, XXXIV, a.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, XXXIV, a — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a gratuidade constitucional à hipótese de petição contra abuso."
+    },
+    {
+      "id": "cam-const-200-certidao-interesse-pessoal-sem-taxa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "certidao-interesse-pessoal-sem-taxa",
+      "mechanism": "certidao-interesse-pessoal-sem-taxa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Direito × garantia"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Direito × garantia"
+      },
+      "statement": "A obtenção de certidão em repartição pública para esclarecer situação de interesse pessoal está abrangida pela garantia constitucional de gratuidade.",
+      "correctAnswer": "C",
+      "explanation": "A gratuidade prevista no dispositivo alcança certidões para defender direitos ou esclarecer situações de interesse pessoal. A finalidade apresentada corresponde à segunda hipótese. (Constituição Federal, art. 5º, XXXIV, b.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, XXXIV, b — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Enquadra o objeto do pedido e sua finalidade na garantia."
     }
   ]
 }

@@ -869,6 +869,94 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-orc10-conta-unica",
+      "term": "Conta Única do Tesouro Nacional",
+      "aliases": [
+        "Conta Única federal"
+      ],
+      "definition": "É o mecanismo de centralização das disponibilidades de caixa da União. Os valores ficam depositados no Banco Central, enquanto a Secretaria do Tesouro Nacional administra a movimentação financeira segundo as regras aplicáveis.",
+      "contrast": "A Conta Única é o mecanismo de caixa; o Banco Central é depositário; o Tesouro administra o fluxo; o SIAFI é o sistema de registro. Centralizar recursos não transforma receita vinculada em dinheiro de uso livre.",
+      "cebraspeTrap": "Afirmar que o Banco do Brasil é o depositário da Conta Única federal ou que o Banco Central decide a aplicação de cada dotação.",
+      "example": "Uma universidade tem dotação para laboratório, mas precisa seguir os limites de pagamento. O saldo global da Conta Única não permite pagar sem empenho e liquidação regulares.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "articleIds": [
+        "art-743d234d819842d1"
+      ],
+      "sources": [
+        {
+          "label": "Constituição Federal, art. 164, § 3º",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        },
+        {
+          "label": "Tesouro Nacional: Gestão da Conta Única",
+          "url": "https://www.gov.br/tesouronacional/pt-br/execucao-orcamentaria-e-financeira/programacao-financeira/gestao-da-conta-unica"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-orc10-provisao-destaque",
+      "term": "Provisão e destaque de crédito",
+      "aliases": [
+        "Provisão orçamentária",
+        "Destaque orçamentário"
+      ],
+      "definition": "São formas de descentralizar autorização orçamentária entre unidades: provisão ocorre dentro do mesmo órgão ou entidade, e destaque entre órgãos ou entidades distintos, conforme a estrutura federal.",
+      "contrast": "Provisão e destaque movimentam crédito, não dinheiro; cota, repasse e sub-repasse são movimentações financeiras.",
+      "cebraspeTrap": "Confundir destaque de crédito com repasse financeiro ou somar a parcela descentralizada à dotação original como dinheiro novo.",
+      "example": "De uma dotação de R$ 1 milhão, R$ 300 mil são destacados para outro órgão executar parte da ação. A autorização total não passa a R$ 1,3 milhão.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "articleIds": [
+        "art-743d234d819842d1"
+      ],
+      "sources": [
+        {
+          "label": "Manual SIAFI, descentralização orçamentária",
+          "url": "https://conteudo.tesouro.gov.br/manuais/modules/mod_pdf_manual/pdf/manual-siafi.pdf"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-orc10-cota-repasse-subrepassse",
+      "term": "Cota, repasse e sub-repasse",
+      "aliases": [
+        "Cota financeira",
+        "Repasse financeiro",
+        "Sub-repasse financeiro"
+      ],
+      "definition": "No fluxo federal, cota é a disponibilização financeira do órgão central aos órgãos setoriais; repasse ocorre entre órgãos ou entidades distintos; sub-repasse ocorre entre unidades do mesmo órgão ou entidade.",
+      "contrast": "As três operações movimentam disponibilidade financeira; não criam, por si, nova autorização de gasto na Lei Orçamentária Anual.",
+      "cebraspeTrap": "Tratar cota como crédito suplementar ou supor que um repasse comprova a entrega do bem ou serviço ao fornecedor.",
+      "example": "O Tesouro libera uma cota para órgão setorial, que pode movimentar valores na estrutura aplicável. A unidade só paga o credor depois dos procedimentos de execução e dos limites financeiros.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "articleIds": [
+        "art-743d234d819842d1"
+      ],
+      "sources": [
+        {
+          "label": "Tesouro Nacional, Manual SIAFI",
+          "url": "https://conteudo.tesouro.gov.br/manuais/modules/mod_pdf_manual/pdf/manual-siafi.pdf"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

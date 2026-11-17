@@ -18,15 +18,15 @@ aliases:
 
 ## Núcleo do conceito: crédito autorizado não equivale a dinheiro
 
-Uma universidade recebeu [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Dotação orçamentária: autorização e limite de gasto|**dotação de R$ 2 milhões**]] para determinado programa. O orçamento foi aprovado, mas os pagamentos precisam seguir um cronograma de desembolso e a movimentação das disponibilidades públicas. A dotação é uma **autorização orçamentária**; a liberação financeira é disponibilização de **recursos para pagar**; o pagamento depende ainda da execução regular da despesa.
+Imagine uma universidade federal que recebeu [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Dotação orçamentária: autorização e limite de gasto|**dotação de R$ 2 milhões**]] para manter seus laboratórios. **Dotação** é a autorização registrada no orçamento para gastar até certo valor numa finalidade. Mesmo com essa autorização, a universidade não pode concluir que há R$ 2 milhões prontos para pagamento. O governo precisa administrar as entradas de dinheiro, definir quando poderá liberar recursos e conferir se cada fornecedor cumpriu sua obrigação. A autorização pertence à **execução orçamentária**; o dinheiro e os desembolsos pertencem à **execução financeira**.
 
 A gestão da **Conta Única do Tesouro Nacional** centraliza disponibilidades financeiras federais e permite racionalizar movimentações. O **Sistema Integrado de Administração Financeira do Governo Federal (SIAFI)** registra, acompanha e controla operações orçamentárias, financeiras, patrimoniais e contábeis.
 
-O principal contraste de prova é **crédito orçamentário × recurso financeiro**, seguido de **descentralização de crédito × descentralização de recursos**. Para diferenciar os termos, consulte [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Dotação orçamentária: autorização e limite de gasto|crédito, dotação e disponibilidade orçamentária]] e [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento#Dotação, empenho, caixa e pagamento|limite de empenho, caixa e pagamento]]. A base de empenho e liquidação já está em [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Despesa pública]], e a programação do ano em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]].
+O principal contraste de prova é **crédito orçamentário**, a autorização para gastar, e **recurso financeiro**, a disponibilidade para pagar. **Descentralização de crédito** transfere a possibilidade de executar uma programação entre unidades competentes; **descentralização financeira** movimenta recursos para atender pagamentos. Os dois processos podem estar relacionados, mas um não comprova automaticamente o outro. Para diferenciar os termos, consulte [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario#Dotação orçamentária: autorização e limite de gasto|crédito, dotação e disponibilidade orçamentária]] e [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento#Dotação, empenho, caixa e pagamento|limite de empenho, caixa e pagamento]]. A base de empenho e liquidação já está em [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Despesa pública]], e a programação do ano em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação e contingenciamento]].
 
 ## Conta Única: fundamento, localização e administração
 
-A **Conta Única do Tesouro Nacional** concentra disponibilidades de caixa da União, inclusive fundos, autarquias e fundações abrangidos pelo regime, reduzindo contas dispersas, simplificando transferências e ampliando o controle de liquidez. A Constituição, art. 164, § 3º, prevê que as **disponibilidades de caixa da União sejam depositadas no Banco Central**, nos termos constitucionais.
+A **Conta Única do Tesouro Nacional** reúne disponibilidades de caixa da União e das entidades abrangidas pelo regime, inclusive fundos, autarquias e fundações. **Disponibilidade de caixa** é o dinheiro que o poder público possui e pode administrar, observadas as obrigações e as vinculações legais. Centralizar a gestão ajuda o governo a acompanhar entradas, saídas e necessidades de pagamento sem manter os recursos fragmentados em inúmeros caixas. A Constituição, art. 164, § 3º, prevê que as **disponibilidades de caixa da União sejam depositadas no Banco Central**, nos termos constitucionais.
 
 Distinguir três responsabilidades:
 
@@ -74,10 +74,10 @@ Suponha uma ação com dotação de R$ 500 mil. A unidade recebe limite operacio
 
 A movimentação interna do orçamento pode transferir **autorização** entre unidades, sem movimentação monetária correspondente naquele momento. A execução financeira libera **disponibilidades** para atender desembolsos, sem criar nova dotação apenas pela liberação.
 
-Na terminologia federal de descentralização orçamentária:
+Uma universidade pode receber autorização para executar uma parte do orçamento de outro setor sem receber dinheiro naquele momento. Na terminologia federal de descentralização **orçamentária**:
 
-- **Provisão**: descentralização de **créditos orçamentários** entre unidades integrantes do **mesmo órgão ou entidade**.
-- **Destaque**: descentralização de **créditos orçamentários** entre unidades de **órgãos ou entidades distintos**.
+- **Provisão**: transferência de **crédito orçamentário** entre unidades do **mesmo órgão ou entidade**.
+- **Destaque**: transferência de **crédito orçamentário** entre unidades de **órgãos ou entidades distintos**.
 
 Essas expressões são usadas para créditos; não devem ser confundidas com modalidades de liberação de dinheiro. Regras de execução e detalhamento de documentos correspondentes devem ser conferidas no Manual SIAFI vigente.
 
@@ -93,11 +93,11 @@ O contraste mais útil: **provisão/destaque movimentam crédito; cota/repasse/s
 
 ### Exemplo operacional
 
-Uma unidade precisa realizar projeto e recebe **destaque de crédito** de outro órgão. Ela tem autorização para efetuar empenhos dentro do crédito descentralizado, observadas as regras. Para realizar pagamentos, precisará de **recursos financeiros**, cuja movimentação segue cotas, repasses ou sub-repasses conforme o vínculo entre as unidades. **Destaque não é repasse financeiro**: são dimensões paralelas.
+Imagine que um ministério autorize uma autarquia de outro órgão a executar R$ 100 mil de certa ação por meio de **destaque**. A autarquia passa a poder empenhar despesas dentro das condições do crédito recebido. Para pagar um fornecedor, porém, precisará de disponibilidade financeira. Essa circulação poderá ocorrer por **cota, repasse ou sub-repasse**, conforme a estrutura de programação financeira e os participantes. **Destaque não é repasse financeiro**: o primeiro transfere autorização, o segundo movimenta recursos.
 
 ### Quem define o momento do pagamento e quando há caixa?
 
-O ingresso financeiro depende da **arrecadação efetiva**, das demais entradas de recursos e das disponibilidades já existentes: a publicação da LOA, por si, não deposita dinheiro na conta de nenhum órgão. A **Lei de Responsabilidade Fiscal (LRF), art. 8º**, determina que o **Poder Executivo** estabeleça, até **30 dias depois da publicação dos orçamentos**, a programação financeira e o **cronograma mensal de desembolso**. Esse calendário organiza a execução conforme o fluxo provável de receitas e os limites fiscais; não é uma garantia de que todo o valor autorizado esteja disponível de imediato.
+O ingresso financeiro depende da **arrecadação efetiva**, das demais entradas de recursos e das disponibilidades já existentes: a publicação da LOA, por si, não deposita dinheiro na conta de nenhum órgão. A **Lei Complementar nº 101/2000, conhecida como Lei de Responsabilidade Fiscal (LRF)**, determina no art. 8º que o **Poder Executivo** estabeleça, até **30 dias depois da publicação dos orçamentos**, a **programação financeira** e um **cronograma mensal de desembolso**, isto é, uma previsão organizada de quando o governo poderá realizar pagamentos. Esse calendário organiza a execução conforme o fluxo provável de receitas e os limites fiscais; não é uma garantia de que todo o valor autorizado esteja disponível de imediato.
 
 Na União, a **Secretaria do Tesouro Nacional (STN)** é o órgão central da programação financeira. O **órgão setorial de programação financeira** consolida as necessidades das unidades vinculadas e distribui disponibilidades conforme a programação; a **unidade gestora executora** empenha, liquida e paga a despesa, nos limites aplicáveis. A execução pode envolver órgãos de diferentes Poderes, cujos regimes de programação e autonomia devem ser respeitados; não atribuir ao Tesouro a decisão individual sobre cada contrato ou pagamento.
 
@@ -145,7 +145,7 @@ Uma despesa inscrita pode comprometer o caixa disponível sem gerar novo crédit
 
 ## Refinamento para Câmara 2026: duas execuções e uma despesa
 
-**CAM-ORC-013: crédito orçamentário, recurso financeiro e rastreio da despesa.** A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|aprovação da LOA]] cria autorização para executar dotações, mas não produz automaticamente dinheiro disponível para pagamentos. A distinção é apresentada pelo [Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos): **crédito** designa a dotação ou autorização de gasto e sua descentralização, no enfoque **orçamentário**; **recurso** designa o dinheiro ou saldo de disponibilidade bancária, no enfoque **financeiro**.
+**Crédito orçamentário, recurso financeiro e rastreio da despesa.** A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|aprovação da LOA]] cria autorização para executar dotações, mas não produz automaticamente dinheiro disponível para pagamentos. A distinção é apresentada pelo [Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos): **crédito** designa a dotação ou autorização de gasto e sua descentralização, no enfoque **orçamentário**; **recurso** designa o dinheiro ou saldo de disponibilidade bancária, no enfoque **financeiro**.
 
 | Acontecimento | Eixo principal | Que fato autoriza afirmar? | Inferência indevida |
 | :--- | :--- | :--- | :--- |

@@ -56379,6 +56379,286 @@
       "correctAnswer": "C",
       "explanation": "Ela é um princípio expresso das relações internacionais da República. Por isso, orienta a atuação brasileira nesse âmbito. (Constituição Federal, art. 4º, II.)",
       "reviewEvidence": "Constituição Federal, art. 4º, II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica uma diretriz expressa à atuação internacional."
+    },
+    {
+      "id": "cam-const-200-dados-digitais-protecao-fundamental",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "dados-digitais-protecao-fundamental",
+      "mechanism": "dados-digitais-protecao-fundamental",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Art. 5º: núcleo dos direitos individuais e coletivos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Art. 5º: núcleo dos direitos individuais e coletivos"
+      },
+      "statement": "A Constituição assegura o direito à proteção dos dados pessoais também nos meios digitais, nos termos da lei.",
+      "correctAnswer": "C",
+      "explanation": "O texto constitucional inclui expressamente os meios digitais no alcance da proteção de dados pessoais. (Constituição Federal, art. 5º, LXXIX.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, LXXIX — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece direito fundamental expresso."
+    },
+    {
+      "id": "cam-const-200-duracao-razoavel-processo-administrativo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "duracao-razoavel-processo-administrativo",
+      "mechanism": "duracao-razoavel-processo-administrativo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Direito × garantia"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Direito × garantia"
+      },
+      "statement": "A garantia da razoável duração do processo pode ser invocada em processo administrativo, pois a Constituição também a assegura nessa esfera.",
+      "correctAnswer": "C",
+      "explanation": "A garantia vale nos âmbitos judicial e administrativo. Ela abrange tanto a duração razoável quanto os meios que tornem a tramitação mais célere. (Constituição Federal, art. 5º, LXXVIII.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, LXXVIII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a garantia ao âmbito administrativo expresso."
+    },
+    {
+      "id": "cam-const-200-hc-gratuidade-independe-pobreza",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "hc-gratuidade-independe-pobreza",
+      "mechanism": "hc-gratuidade-independe-pobreza",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Habeas corpus — HC"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Habeas corpus — HC"
+      },
+      "statement": "A gratuidade constitucional do habeas corpus depende da comprovação da condição de pobreza, como ocorre na garantia do art. 5º, LXXVI.",
+      "correctAnswer": "E",
+      "explanation": "A condição de pobreza aparece no inciso sobre registro de nascimento e certidão de óbito. A gratuidade da ação de habeas corpus é assegurada em outro inciso, sem essa condição. (Constituição Federal, art. 5º, LXXVI e LXXVII.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, LXXVI e LXXVII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue gratuidade da ação e gratuidade de atos reservada aos reconhecidamente pobres."
+    },
+    {
+      "id": "cam-const-200-catalogo-direitos-tratados-abertura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "catalogo-direitos-tratados-abertura",
+      "mechanism": "catalogo-direitos-tratados-abertura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "Para serem reconhecidos no ordenamento brasileiro, os direitos decorrentes de tratados de que o Brasil seja parte precisam estar previamente enumerados no art. 5º da Constituição.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição prevê abertura do catálogo. Os direitos expressos não excluem aqueles decorrentes do regime, dos princípios constitucionais ou de tratados de que o Brasil seja parte. (Constituição Federal, art. 5º, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue direitos enumerados e direitos admitidos pela cláusula de abertura."
+    },
+    {
+      "id": "cam-const-200-tratado-direitos-humanos-quorum-turno-unico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "tratado-direitos-humanos-quorum-turno-unico",
+      "mechanism": "tratado-direitos-humanos-quorum-turno-unico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Aplicação e limites dos direitos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Aplicação e limites dos direitos fundamentais"
+      },
+      "statement": "Um tratado de direitos humanos aprovado por três quintos dos membros da Câmara em dois turnos e por quatro quintos dos membros do Senado em turno único já satisfaz o rito para equivaler a emenda constitucional.",
+      "correctAnswer": "E",
+      "explanation": "No Senado, o quórum superou três quintos, mas faltou o segundo turno. O rito especial exige dois turnos e pelo menos três quintos dos votos dos respectivos membros em cada Casa. (Constituição Federal, art. 5º, § 3º.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, § 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Combina objeto do tratado, quóruns por Casa e número de turnos."
+    },
+    {
+      "id": "cam-const-200-pec-prejudicada-maioria-reapresentacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "pec-prejudicada-maioria-reapresentacao",
+      "mechanism": "pec-prejudicada-maioria-reapresentacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Como nasce uma lei: iniciativa, votação e atos finais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Como nasce uma lei: iniciativa, votação e atos finais"
+      },
+      "statement": "Uma proposta de emenda à Constituição foi declarada prejudicada sem votação de mérito. Na mesma sessão legislativa, o apoio da maioria absoluta de uma das Casas permite apresentar nova proposta de emenda com a mesma matéria, aplicando-se a regra de reapresentação dos projetos de lei.",
+      "correctAnswer": "E",
+      "explanation": "A regra do art. 67 é própria de projetos de lei rejeitados. O art. 60, § 5º, veda que a matéria de proposta de emenda rejeitada ou prejudicada volte em nova proposta na mesma sessão legislativa, ainda que haja apoio de maioria absoluta. (Constituição Federal, arts. 60, § 5º, e 67.)",
+      "reviewEvidence": "Constituição Federal, arts. 60, § 5º, e 67 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue dois tipos de proposição, causas de encerramento e efeitos na mesma sessão legislativa."
+    },
+    {
+      "id": "cam-const-200-lc-consolidacao-reserva-constitucional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "lc-consolidacao-reserva-constitucional",
+      "mechanism": "lc-consolidacao-reserva-constitucional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Lei ordinária × lei complementar"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Lei ordinária × lei complementar"
+      },
+      "statement": "A Constituição reserva à lei complementar a disciplina da elaboração, da redação, da alteração e da consolidação das leis.",
+      "correctAnswer": "C",
+      "explanation": "A disciplina de como as leis são elaboradas, redigidas, alteradas e consolidadas é uma matéria expressamente reservada a lei complementar. (Constituição Federal, art. 59, parágrafo único.)",
+      "reviewEvidence": "Constituição Federal, art. 59, parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece reserva de espécie normativa para matéria expressa."
+    },
+    {
+      "id": "cam-const-200-normas-gerais-credito-tributario-ordinaria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Processo legislativo e espécies normativas",
+      "articleId": "art-4c1041281ca44ee5",
+      "conceptId": "normas-gerais-credito-tributario-ordinaria",
+      "mechanism": "normas-gerais-credito-tributario-ordinaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-4c1041281ca44ee5#Lei ordinária × lei complementar"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md",
+        "section": "Lei ordinária × lei complementar"
+      },
+      "statement": "Lei ordinária federal basta para estabelecer normas gerais de direito tributário sobre crédito tributário quando voltadas às administrações tributárias de todos os entes.",
+      "correctAnswer": "E",
+      "explanation": "A abrangência nacional não afasta a reserva. O art. 146 atribui à lei complementar as normas gerais tributárias e inclui entre elas as relativas ao crédito tributário. (Constituição Federal, art. 146, III, b.)",
+      "reviewEvidence": "Constituição Federal, art. 146, III, b — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue norma geral tributária de disciplina ordinária de um tributo."
+    },
+    {
+      "id": "cam-const-200-mp-direito-eleitoral-urgencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-direito-eleitoral-urgencia",
+      "mechanism": "mp-direito-eleitoral-urgencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "O Presidente pode editar medida provisória sobre matéria de direito eleitoral se demonstrar urgência e relevância.",
+      "correctAnswer": "E",
+      "explanation": "Os pressupostos de urgência e relevância não afastam a vedação expressa de medida provisória sobre direito eleitoral. (Constituição Federal, art. 62, § 1º, I, a.)",
+      "reviewEvidence": "Constituição Federal, art. 62, § 1º, I, a — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica uma vedação material expressa."
+    },
+    {
+      "id": "cam-const-200-mp-ir-ano-conversao-seguinte",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-ir-ano-conversao-seguinte",
+      "mechanism": "mp-ir-ano-conversao-seguinte",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "Medida provisória que majore o imposto sobre a renda e só seja convertida em lei no exercício seguinte ao de sua edição não poderá produzir efeitos da majoração nesse exercício seguinte com fundamento no art. 62, § 2º.",
+      "correctAnswer": "C",
+      "explanation": "O imposto sobre a renda não integra as exceções do § 2º. Para produzir efeitos no exercício imediatamente seguinte ao da edição da medida, a conversão em lei teria de ocorrer até o último dia do exercício em que a medida foi editada. (Constituição Federal, art. 62, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 62, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Relaciona o imposto envolvido, o ano de edição e a data da conversão."
     }
   ]
 }

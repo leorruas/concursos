@@ -53,64 +53,6 @@
       "status": "reviewed"
     },
     {
-      "id": "glo-lancamento-da-receita",
-      "term": "Lançamento da receita",
-      "aliases": [],
-      "definition": "É uma etapa usada para identificar e formalizar um valor que alguém deve pagar ao governo, quando a lei exige esse procedimento.",
-      "contrast": "Prever receita é estimar quanto entrará no orçamento; lançar é identificar e constituir uma cobrança nos casos previstos; arrecadar é receber o pagamento; recolher é transferir o valor arrecadado ao caixa do Tesouro, quando há agente arrecadador. Nem toda receita precisa de lançamento: uma doação recebida, por exemplo, não segue necessariamente a mesma etapa de um imposto lançado. No caso de tributos, o lançamento verifica o fato previsto em lei, calcula o valor devido e identifica o contribuinte; o Código Tributário Nacional, art. 142, trata da constituição do crédito tributário.",
-      "cebraspeTrap": "Crédito tributário lançado não é dinheiro já recebido. Também não se deve dizer que todas as receitas passam obrigatoriamente por lançamento.",
-      "example": "Em março, o município lança R$ 800 de imposto devido por um contribuinte. Ele ainda não pagou: há cobrança, mas não arrecadação. Em maio, paga os R$ 800 no banco autorizado: ocorre arrecadação e, conforme o procedimento, o valor é recolhido ao Tesouro.",
-      "subjectIds": [
-        "orcamento-publico"
-      ],
-      "contestIds": [
-        "cgu-2026"
-      ],
-      "articleIds": [
-        "art-4677cfa327ce43bb"
-      ],
-      "sources": [
-        {
-          "label": "Lei nº 4.320/1964",
-          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
-        },
-        {
-          "label": "Código Tributário Nacional, art. 142",
-          "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"
-        }
-      ],
-      "status": "reviewed"
-    },
-    {
-      "id": "glo-recolhimento-da-receita",
-      "term": "Recolhimento da receita",
-      "aliases": [],
-      "definition": "É a etapa em que o dinheiro que já foi recebido por um banco ou outro agente arrecadador é transferido ao caixa do Tesouro público. A etapa ocorre quando existe esse caminho de arrecadação e faz parte do controle de onde os valores públicos estão.",
-      "contrast": "Arrecadação é quando o contribuinte ou pagador entrega o dinheiro ao agente autorizado. Recolhimento é quando esse agente encaminha o valor ao Tesouro. Previsão é apenas estimativa, e lançamento é a identificação formal de uma cobrança nos casos previstos. Arrecadação e recolhimento podem ocorrer com intervalo muito pequeno ou praticamente no mesmo momento.",
-      "cebraspeTrap": "Lançar, arrecadar e recolher são ações diferentes. O fato de ocorrerem rapidamente não autoriza trocar seus significados.",
-      "example": "Uma pessoa paga R$ 300 de tributo em um banco autorizado na segunda-feira: o banco arrecada. Quando ele transfere os R$ 300 para a conta do Tesouro, ocorre o recolhimento. O fato de o imposto já ter sido lançado antes não quer dizer que houve arrecadação.",
-      "subjectIds": [
-        "orcamento-publico"
-      ],
-      "contestIds": [
-        "cgu-2026"
-      ],
-      "articleIds": [
-        "art-4677cfa327ce43bb"
-      ],
-      "sources": [
-        {
-          "label": "Lei nº 4.320/1964",
-          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
-        },
-        {
-          "label": "MCASP 11ª edição, Tesouro Nacional",
-          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
-        }
-      ],
-      "status": "reviewed"
-    },
-    {
       "id": "glo-dotacao-orcamentaria",
       "term": "Dotação orçamentária",
       "aliases": [],
@@ -253,33 +195,6 @@
         {
           "label": "MCASP 11ª edição, Tesouro Nacional",
           "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
-        }
-      ],
-      "status": "reviewed"
-    },
-    {
-      "id": "glo-ordem-de-pagamento",
-      "term": "Ordem de pagamento",
-      "aliases": [
-        "OP"
-      ],
-      "definition": "É a autorização formal para que a tesouraria pague uma despesa cujo direito do credor já foi conferido na liquidação. Fica entre a conferência da despesa e a transferência efetiva do dinheiro, conforme as regras da Lei nº 4.320/1964.",
-      "contrast": "Empenho compromete a verba; liquidação verifica o direito do credor; ordem de pagamento é o despacho da autoridade competente determinando que a despesa seja paga; pagamento é a saída efetiva de dinheiro. Pelo art. 64 da Lei nº 4.320/1964, a ordem só pode ser emitida em documentos processados pelos serviços de contabilidade. A assinatura da ordem não prova transferência ao credor.",
-      "cebraspeTrap": "Uma ordem assinada não é comprovante de transferência. A banca pode antecipar o pagamento para a etapa da autorização.",
-      "example": "A prefeitura confere a entrega de cadeiras e liquida R$ 4 mil. A autoridade competente emite ordem de pagamento. Só quando a transferência é realizada os R$ 4 mil são efetivamente pagos ao fornecedor.",
-      "subjectIds": [
-        "orcamento-publico"
-      ],
-      "contestIds": [
-        "cgu-2026"
-      ],
-      "articleIds": [
-        "art-67167e9c18284c4c"
-      ],
-      "sources": [
-        {
-          "label": "Lei nº 4.320/1964",
-          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"
         }
       ],
       "status": "reviewed"

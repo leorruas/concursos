@@ -75,6 +75,16 @@ Uma unidade usa suprimento de fundos para adquirir material pequeno, necessário
 
 **Houve entrega antecipada de numerário a servidor para despesa excepcional?** Examinar suprimento de fundos, condições, documentação e prestação de contas.
 
+## Cancelamento de RP e restituição de suprimento: fatos diferentes
+
+O cancelamento de **restos a pagar (RP)** baixa uma obrigação orçamentária anteriormente registrada e pode liberar disponibilidade financeira que estava comprometida. **A baixa, por si, não é arrecadação nova**, segundo o tratamento atual do **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição, Parte I**. Para identificar exatamente a fonte jurídica de uma questão, é necessário observar uma diferença: o **art. 38 da Lei nº 4.320/1964** conserva redação histórica que trata a anulação de despesas após o encerramento como receita do ano da anulação. O tratamento contábil-orçamentário atual do cancelamento de RP no MCASP não reconhece receita nova porque não houve ingresso adicional. A divergência de formulações exige distinguir **literalidade da lei** de **procedimento contábil atual**, sem afirmar que o manual revogou a lei.
+
+**Outro fato é devolver recursos de suprimento de fundos.** Segundo o MCASP, quando o servidor devolve numerário de adiantamento **no mesmo exercício da concessão**, o tratamento típico é **anulação da despesa**. A devolução **em exercício seguinte** segue o tratamento de **receita orçamentária**, na classificação pertinente. A equipe deve conferir ano da concessão, data de devolução, comprovante, empenho e conta de destino. Essa diferença de tratamento temporal **não pode ser aplicada automaticamente ao cancelamento de restos a pagar**, que é baixa de obrigação, não restituição de numerário anteriormente entregue a servidor.
+
+**Exemplo:** o cancelamento de R$ 20 mil de RP não faz ingressarem R$ 20 mil novos no banco. Por outro lado, a devolução de R$ 500 não utilizados de suprimento pode efetivamente gerar entrada de numerário; seu registro depende do exercício a que se refere a concessão.
+
+Fonte de confronto: [Lei nº 4.320/1964, art. 38](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html), [MCASP, 11ª edição, Parte I](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1). O capítulo histórico [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|Restos a pagar: tratamento legal e contábil]] contém discussão ampliada da tensão entre art. 38 e manuais do Tesouro.
+
 ## Roteiro de auditoria do encerramento do exercício
 
 1. Extrair empenhos por exercício, unidade, fonte, credor, objeto, data e valores.

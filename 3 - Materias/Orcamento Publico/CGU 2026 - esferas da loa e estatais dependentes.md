@@ -133,8 +133,8 @@ Estes itens são autorais e didáticos. Não são questões oficiais nem evidên
 
 ## Fontes e relação editorial
 
-- [Constituição Federal, art. 165, § 5º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): os três orçamentos da LOA.
-- [Lei Complementar nº 101/2000, art. 2º, II e III](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): empresa controlada e estatal dependente.
+- [Constituição Federal, art. 165, § 5º](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html): os três orçamentos da LOA.
+- [Lei Complementar nº 101/2000, art. 2º, II e III](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html): empresa controlada e estatal dependente.
 - [Decreto nº 12.500/2025, texto atualizado, arts. 2º, 7º e 9º](https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12500-11-junho-2025-797585-normaatualizada-pe.html): classificação, transição e contrato de gestão.
 - [LDO federal 2026, Lei nº 15.321/2025, arts. 6º, §§ 2º e 4º, e 52, §§ 6º, 7º e 9º a 12](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15321-31-dezembro-2025-798617-publicacaooriginal-179567-pl.html): tratamento das estatais no Orçamento de Investimento e requisitos da transição.
 - [Manual Técnico de Orçamento, classificação por esfera](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto%3Acap4): categorias e códigos do orçamento federal.

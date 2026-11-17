@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: integracao-catalogo-aprovada-pages-pendente
+status: cinco-certificados-dez-em-auditoria
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -395,3 +395,34 @@ Completada a leitura integral dos três capítulos restantes, examinando a sequ�
 **Ressalva obrigatória, idêntica para os cinco artigos:** **inspeção visual individual não realizada** nesta sessão. Não foram verificadas presencialmente as telas em modo claro/escuro, largura mobile, contraste percebido, quebras de tabelas, texto eventualmente cortado, modal, navegação de teclado e âncoras pelo navegador; o acesso a navegador interativo do usuário não estava disponível. O workflow visual geral da PR #368 não é substituto de inspeção individual da matéria. As notas não contêm diagramas Mermaid próprios que exigissem teste visual de Mermaid nesta etapa. A ressalva representa *teste indisponível*, não defeito conhecido. Build, conteúdo e links verificáveis passaram; qualquer falha real encontrada posteriormente deve ser corrigida antes do EPUB.
 
 **Fechamento desta frente:** **5 de 5 artigos com revisão integral concluída com ressalva visual; 57 de 57 questões C/E revisadas e publicadas**. Bloqueio técnico anterior da issue #362 solucionado por prova de deploy e conteúdo ao vivo. A inspeção visual consolidada da matéria, a preparação de um EPUB conjunto e a migração dos demais conteúdos legados CGU são trabalhos **separados e futuros**, sujeitos a escopo e coordenação próprios. Não foi produzido EPUB nem afirmada compatibilidade com Kindle.
+
+## Segundo ciclo: triagem técnica de dez derivados e revisão jurídica de créditos (17/11/2026)
+
+**Estado editorial antes do gate:** cinco versões já certificadas com ressalva visual, dez derivadas submetidas à triagem técnica. A triagem não representa revisão jurídica integral dos dez conteúdos e não herda certificação da Câmara. O lote preservou os históricos da Câmara e não alterou `data/questoes-camara.json`.
+
+**Fonte atualizada:** substituídas as dez referências ao edital anterior pela [versão oficial consolidada CGU/Cebraspe, retificada em 06/11/2026](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf), no commit `f4f43987b5adfdf136e3988bb3375457c19fce64`, workflow [44188069063](https://github.com/leorruas/concursos/actions/runs/44188069063) com resultado `success`. O edital consolidado mantém o recorte de Orçamento e planejamento (2.1/2.2), Execução e responsabilidade fiscal (3.1/3.2). A conferência foi feita contra o texto oficial, sem alterar o conteúdo das questões.
+
+**Fonte MCASP:** quatro vínculos para endereço desativado do Tesouro Nacional foram trocados pelo [portal oficial da 11ª edição vigente](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1), no commit `a239c7c17c7d2c4ae752cf5918b40a1c3cea13ba`. Afetados: receitas, despesa, restos a pagar e natureza/fonte da receita. O workflow próprio dessa alteração foi iniciado em [44188330526](https://github.com/leorruas/concursos/actions/runs/44188330526); antes de atribuir certificação final, conferir seu resultado e a confirmação do Pages.
+
+**Teste independente do inventário:** conferidos na árvore atual os dez `articleIds`, dez corpos Markdown, dez referências ao edital consolidado, **100 marcadores de gabarito** no padrão `Gabarito: Certo/Errado` (dez por artigo) e **45 wikilinks com 45 destinos existentes**, sem caminhos internos ausentes. Os valores indicam sintaxe e presença de gabaritos; não substituem a leitura dos cem enunciados e justificativas. Nenhuma nota legada foi movida ou renomeada.
+
+| Novo artigo CGU | ID | Blob auditado tecnicamente | Itens C/E | Links internos | Estado |
+| :--- | :--- | :--- | ---: | ---: | :--- |
+| Créditos adicionais | `art-83d7c5ef2a0b4916` | `87f45dbf2b62712432181d8674aa27bddb561e2a` | 10 | 4 | Triagem técnica concluída; certificação editorial pendente |
+| Programação, contingenciamento e bloqueio | `art-6f2c1ae9d483457b` | `863eb6aea31bc9bf117ba260a67ef2fc700951fe` | 10 | 4 | Triagem técnica concluída; certificação editorial pendente |
+| Receitas, registros e evidências | `art-b3e5d91a740c46f8` | `1d28fd3fe5c0e2acf5a62350fb7488c7ea41f02e` | 10 | 4 | Triagem técnica concluída; certificação editorial pendente |
+| Despesa, empenho e liquidação | `art-79e2c6a4f80143bd` | `e6397064aca101f7b9c30055f1d761ba492555aa` | 10 | 5 | Triagem técnica concluída; certificação editorial pendente |
+| Restos a pagar, DEA e suprimento | `art-c85e29a3741f40bd` | `010fd0cb46f9e39f2fbd5b465a993e684aaa5f37` | 10 | 3 | Triagem técnica concluída; certificação editorial pendente |
+| Conta Única e execução financeira | `art-7a4f21e965d048b3` | `fd02555b9f2c2735fd9d345bdd5dc18bb72277cd` | 10 | 4 | Triagem técnica concluída; certificação editorial pendente |
+| LRF, riscos e controle | `art-d218c459af1e4b73` | `8b66c1340fa6aa6c3722fb899bde72ede5b65363` | 10 | 6 | Triagem técnica concluída; certificação editorial pendente |
+| Emendas e rastreabilidade | `art-a91ef3c628d04b57` | `4c26fb57a1d2de888cc6588415d5d30d3a9e4d71` | 10 | 5 | Triagem técnica concluída; certificação editorial pendente |
+| Natureza e fonte da receita | `art-e4c982a6713d4bf5` | `ad0c453427cbd79358f9191e2f57cde3cae2f2d0` | 10 | 5 | Triagem técnica concluída; certificação editorial pendente |
+| Classificação da despesa | `art-3f9d17a6c04b4e82` | `c5afc9dfa1ed0e45bb4a09e0f4e5b9cd668e72a7` | 10 | 5 | Triagem técnica concluída; certificação editorial pendente |
+
+### Revisão de mérito: créditos adicionais (primeira leitura independente)
+
+No artigo `art-83d7c5ef2a0b4916`, conferidos **10 de 10 itens C/E e suas justificativas** com os [arts. 40 a 43 da Lei nº 4.320/1964](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html), a [Constituição, art. 167, §§ 2º e 3º](https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao), e os limites do edital oficial. Foram confrontadas as diferenças suplementar/especial/extraordinário, autorização prévia da LOA para suplementar, urgência constitucional do extraordinário, fontes do art. 43 (superávit, excesso, anulação e operação de crédito), exigência da memória de cálculo do excesso, separação entre crédito e entrega, reabertura nos últimos quatro meses e emenda parlamentar como proposta distinta do crédito. **Nenhuma contradição foi identificada nos dez gabaritos nessa leitura.** As explicações de auditoria são exemplos hipotéticos e não substituem a legislação aplicável ao caso.
+
+**Situação de aprovação:** mérito jurídico do capítulo de créditos conferido nessa primeira leitura, sem reivindicar inspeção visual individual nem publicação no SHA `a239c7c...` antes do resultado do workflow. Para uma certificação integral com ressalva visual, ainda registrar explicitamente a segunda passagem didática do texto, a evidência final do Pages para esse blob e eventuais fontes complementares. Os outros nove artigos permanecem com revisão jurídica integral pendente, mesmo com seus testes estruturais aprovados.
+
+**Próxima etapa:** completar leitura de mérito artigo por artigo, verificar o Pages do SHA final, certificar individualmente com ressalvas necessárias e só depois iniciar a migração coordenada dos dez IDs históricos da CGU, avaliando os 101 cartões de flashcards e glossário por seção. A nota transversal `art-9be1a39d536a47ea` permanece compartilhada.

@@ -75,13 +75,13 @@ function listarArtigosGlossario(terms, block = '', subject = '') {
 function agruparTermosGlossario(terms, selectedArticle = '') {
     const grouped = new Map();
     for (const item of terms || []) {
-        const links = item.articleLinks || [];
-        const article = selectedArticle
-            ? links.find(link => link.articleId === selectedArticle)
-            : links.find(link => !grouped.has(link.articleId)) || links[0];
-        if (!article) continue;
-        if (!grouped.has(article.articleId)) grouped.set(article.articleId, { article, terms: [] });
-        grouped.get(article.articleId).terms.push(item);
+        const links = selectedArticle
+            ? (item.articleLinks || []).filter(article => article.articleId === selectedArticle)
+            : (item.articleLinks || []);
+        for (const article of links) {
+            if (!grouped.has(article.articleId)) grouped.set(article.articleId, { article, terms: [] });
+            grouped.get(article.articleId).terms.push(item);
+        }
     }
     return [...grouped.values()].sort((a, b) =>
         a.article.title.localeCompare(b.article.title, 'pt-BR', { numeric: true }));

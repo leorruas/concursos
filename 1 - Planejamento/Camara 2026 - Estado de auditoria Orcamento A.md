@@ -18,7 +18,7 @@ updated: 2026-11-16
 | `art-a2f47c0d6e184e93` | `03 - principios orcamentarios e vedacoes constitucionais.md` | Revisão de linguagem simples parcial; não certificado | Commits `1b6387a27cf66572241f652dfa90c5041416d419` e `14f9d5cf0a4ce5f9d84bec8ab51ae456af612ec2`. Cotejo pontual CF art. 167 e Lei 4.320/1964, arts. 20 e 22; corrigidos conceitos de ingresso extraorçamentário, reabertura de créditos e três C/E. Nove flashcards apontam para headings existentes; um diagrama Mermaid aguarda teste visual. CI/Pages e revisão jurídica integral pendentes. |
 | `art-4be219d8f750ac63` | `12 - elaboracao da proposta orcamentaria orgaos e etapas.md` | Linguagem simples em andamento; não certificado | Commit `b8ce8bcc00d63b1dbfc17c5dfd66f9083eda9ca2` na `main`: nove correções sobre atores e etapas, valores qualitativos/quantitativos, execução e quatro gabaritos. ID presente no catálogo v2; zero flashcards com `note.articleId` correspondente no JSON consultado. Faltam segunda leitura integral, cotejo jurídico completo, auditoria dos links, CI e Pages. |
 | `art-d8f21b70c49e563a` | `13 - tramitacao legislativa das leis orcamentarias.md` | Linguagem simples parcial; não certificado | Commit `e1d55f14a687d743982266b872d9bd47f4eb394b`: sete revisões sobre tramitação, autuação, relatórios, atos após aprovação e três gabaritos C/E. ID no catálogo; nenhum flashcard diretamente ligado por `note.articleId`, sem Mermaid. Segunda leitura e cotejo jurídico integrais, CI e Pages pendentes. |
-| `art-c917e4a2d63b508f` | `14 - comissao mista de orcamento composicao comites e competencias.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
+| `art-c917e4a2d63b508f` | `14 - comissao mista de orcamento composicao comites e competencias.md` | Linguagem simples parcial; não certificado | Commit `e21f4afcbbbf87154888a631b08660689969da75`: sete revisões na abertura, comitês, maioria absoluta, decisão terminativa e três gabaritos C/E. ID no catálogo; nenhum flashcard diretamente vinculado por `note.articleId`. Pendente cotejo jurídico integral, segunda leitura, CI/Pages. |
 
 ## Fechamento e retomada
 
@@ -83,3 +83,14 @@ Aplicar a matriz `1 - Planejamento/Camara 2026 - Coordenacao editorial Orcamento
 - **Pontos corrigidos:** atos parlamentares sem definição, finalidade dos relatórios muito abstrata, distinção insuficiente entre apresentação e aprovação da lei, e justificativas telegráficas sobre emendas e regra específica da LDO. O texto não modifica headings nem IDs.
 - **Vínculos:** `art-d8f21b70c49e563a` presente no catálogo v2; zero cartões ligados diretamente ao ID no JSON de flashcards consultado, sem inferir que conceitos estejam ausentes de cartões vinculados a outros artigos. Sem Mermaid.
 - **Fontes e limitações:** confrontar integralmente Constituição arts. 57, 165 e 166 e a Resolução 1/2006-CN consolidada, em especial alterações de 2025; validar links, CI e Pages antes de certificar.
+
+### Artigo 14: revisão de linguagem simples e atribuições da CMO
+
+- **Segunda leitura integral:** pendente. Foram revisadas abertura, composição dos comitês, votação interna, caráter terminativo do parecer sobre informações do TCU e gabaritos dos três itens C/E; restam reexame integral das demais seções, tabelas e fontes.
+- **Correções concretas:** definidas emenda e dotação na situação inicial; diferenciação entre relator, comitê e CMO; exemplo numérico para maioria absoluta; explicação de decisão terminativa com ressalva de recurso; gabaritos passaram a identificar expressamente erro de competência e exceção regimental. Heads, IDs e links preservados.
+- **Vínculos e limites:** `art-c917e4a2d63b508f` no catálogo v2; zero cartões com `note.articleId` correspondente na versão consultada de flashcards, sem conclusão de que os conceitos não estejam contemplados em cartões de outros artigos. Sem Mermaid. Cotejar todos os requisitos da Resolução 1/2006-CN atualizada pela Resolução 1/2025-CN, CF arts. 70, 71, 165–166, e confirmar CI e GitHub Pages antes de qualquer certificação.
+
+### Situação global após esta execução
+
+- Os sete artigos de propriedade da frente A receberam alterações editoriais nesta sequência de execuções: 01, 02, 02a, 03, 12, 13 e 14.
+- **Certificação editorial: zero de sete**. Uma correção publicada em `main` não substitui segunda leitura integral de linguagem simples, cotejo jurídico integral nem validação de CI/Pages. Sem EPUB e sem alterações nos artigos das frentes B e C.

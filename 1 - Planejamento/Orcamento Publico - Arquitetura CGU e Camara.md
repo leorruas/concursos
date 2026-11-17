@@ -1,7 +1,7 @@
 ---
 title: "Orçamento Público: arquitetura editorial separada CGU e Câmara"
 type: coordenacao-editorial
-status: estrutura-implementada-validacao-pendente
+status: liberacao-controlada
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -10,7 +10,7 @@ updated: 2026-11-17
 
 ## Estado e decisão de segurança
 
-**Arquitetura documental implementada; migração de artigos não concluída; liberação depende de validação.** Este documento não certifica qualquer novo artigo nem substitui os três arquivos de estado históricos da Câmara. O repositório já contém uma separação pontual entre `CGU 2026 - ppa ldo e loa.md` (`art-9dc8a6e2f31b47c0`) e `02 - ppa ldo e loa.md` (`art-c301f2c741504403`). O índice e o catálogo já refletem essa coexistência. Não deslocar ou sobrescrever nenhum dos dois.
+**Arquitetura documental implementada; migração dos artigos não concluída; liberadas apenas as frentes com propriedade de arquivos explicitamente definida.** Este documento não certifica qualquer novo artigo nem substitui os três arquivos de estado históricos da Câmara. O repositório já contém uma separação pontual entre `CGU 2026 - ppa ldo e loa.md` (`art-9dc8a6e2f31b47c0`) e `02 - ppa ldo e loa.md` (`art-c301f2c741504403`). O índice e o catálogo já refletem essa coexistência. Não deslocar ou sobrescrever nenhum dos dois.
 
 A separação é **por concurso, identidade e ciclo de revisão**, preservando fontes comuns. Todo artigo novo ou derivado recebe `articleId` inédito, `concursoId` e `derivedFromArticleId` quando couber. O original mantém ID, caminho e aliases antigos, a menos que haja migração técnica comprovada das referências. A mera presença de artigo num catálogo não prova revisão ou certificação para aquele concurso.
 
@@ -76,6 +76,8 @@ Planejar `1 - Planejamento/Orcamento Publico - Manifesto EPUB integrado.json` co
 
 ## Pendências e gate de liberação
 
-**Implantado:** roteiros independentes CGU/Câmara em `1 - Planejamento/`, links no índice e no hub, matriz de propriedade no `AGENTS.md`, manifesto EPUB em JSON sem capítulos. **Pendente:** inventário completo dos consumidores de IDs compartilhados, identificação de dois IDs próprios da CGU que não aparecem na série de 19 artigos, preflight/CI/Pages da operação, validação técnica de campos extras de frontmatter, estados individuais novos e migração gradual dos legados.
+**Implantado:** roteiros independentes CGU/Câmara em `1 - Planejamento/`, links no índice e no hub, matriz de propriedade no `AGENTS.md`, manifesto EPUB em JSON sem capítulos e arquivos de estado distintos por concurso. **Pendente:** inventário completo dos consumidores de IDs compartilhados, identificação dos IDs CGU próprios adicionais, validação de campos extras de frontmatter, migração gradual dos legados e conferência integral dos editais por cada agente.
 
-**Liberação somente após:** contratos publicados em `AGENTS.md`, trilhas navegáveis independentes, catálogo/index/hub consistentes, validações técnicas e workflow Pages confirmados no SHA de liberação. Enquanto este documento estiver em `preparacao-sem-liberacao`, os agentes CGU e Câmara podem consultar a matriz, mas **não iniciar alterações de migração fundamentadas nela**.
+**Validação estrutural anterior:** commit `bf369d41aa5e9293e48b7836460b45019043524f`, workflow [44111853660](https://github.com/leorruas/concursos/actions/runs/44111853660) com conclusão `success`, incluindo build, validações de IDs/catálogo e confirmação de catálogo servido no Pages. Conferência estática adicional: 22 caminhos distintos de notas de Orçamento Público usados pelos novos documentos, nenhum ausente. Este commit de liberação documental exige verificação própria do Pages.
+
+**Liberação controlada:** agentes CGU e Câmara podem iniciar suas respectivas revisões e produzir **somente** arquivos de sua propriedade, conforme matriz, com IDs inéditos em derivados e estados separados. Não podem substituir entradas do catálogo, reescrever índices/hub nem alterar legados congelados. Cada troca de ID ou vínculo depende de commit atômico exclusivo da coordenação, após inventário das referências. A migração integral não está concluída; conteúdo ainda compartilhado é transitório.

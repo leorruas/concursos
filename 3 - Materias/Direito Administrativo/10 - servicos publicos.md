@@ -5,7 +5,7 @@ title: "Serviços públicos"
 type: "conceito"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-11-12
+updated: 2026-11-16
 ---
 
 # Serviços públicos
@@ -89,6 +89,14 @@ Concessões e permissões são fiscalizadas pelo poder concedente, com cooperaç
 
 Quanto à responsabilidade civil, pessoas jurídicas de direito privado prestadoras de serviços públicos submetem-se ao art. 37, §6º, da Constituição pelos danos causados por seus agentes nessa qualidade. Ver [[3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado|Responsabilidade civil do Estado]].
 
+## Intervenção e retomada de bens
+
+O **art. 32 da Lei nº 8.987/1995** autoriza o poder concedente a intervir temporariamente na concessão para assegurar a prestação adequada ou o cumprimento do contrato e das normas. A intervenção é determinada por **decreto**, com indicação do interventor, prazo e limites. O **art. 33** exige instauração do procedimento administrativo em até **30 dias** da declaração e conclusão em até **180 dias**, assegurada ampla defesa; o descumprimento do prazo de conclusão invalida a intervenção. Ao fim, se a concessão não tiver sido extinta, a gestão retorna à concessionária, precedida de prestação de contas (art. 34). Assim, **intervenção não é hipótese autônoma de extinção da concessão**.
+
+A extinção, por sua vez, produz efeitos sobre os **bens reversíveis**: aqueles vinculados ao serviço que, conforme edital e contrato, retornam ao poder concedente para permitir a continuidade da prestação (art. 35, §§ 1º a 3º). Essa reversão não equivale a confisco indiscriminado de todo o patrimônio da empresa. No término normal, o **art. 36** prevê indenização das parcelas ainda não amortizadas ou depreciadas dos investimentos vinculados a bens reversíveis feitos para garantir continuidade e atualidade do serviço. A hipótese e o momento do pagamento variam conforme a causa da extinção, como se observa em encampação e caducidade.
+
+**Item inédito, Certo ou Errado:** “A intervenção administrativa extingue automaticamente a concessão e dispensa a instauração de processo administrativo.” **Errado.** Os arts. 32 a 34 tratam de medida temporária, com procedimento e prazos próprios; a extinção obedece às hipóteses do art. 35.
+
 ## Extinção da concessão
 
 A Lei nº 8.987/1995 prevê hipóteses distintas de extinção. Para prova, as fronteiras mais importantes são:
@@ -165,7 +173,7 @@ FGV e Cebraspe tendem a deslocar características entre institutos próximos:
 ## Fontes
 
 - Constituição da República Federativa do Brasil de 1988, especialmente arts. 37, §3º e §6º, e 175.
-- [Lei nº 8.987, de 13 de fevereiro de 1995: Lei Geral de Concessões e Permissões de Serviços Públicos](https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html), especialmente arts. 2º, 6º, 7º, 9º, 14, 35 a 39 e 40.
+- [Lei nº 8.987, de 13 de fevereiro de 1995: Lei Geral de Concessões e Permissões de Serviços Públicos](https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html), especialmente arts. 2º, 6º, 7º, 9º, 14 e 32 a 40.
 - Lei nº 14.015, de 15 de junho de 2020: alterou a Lei nº 8.987/1995 para restringir os dias de início de interrupção por inadimplemento.
 - Lei nº 13.460, de 26 de junho de 2017: direitos de participação, proteção e defesa dos usuários de serviços públicos.
 - Lei nº 8.078, de 11 de setembro de 1990: Código de Defesa do Consumidor, cuja aplicação é ressalvada pelo art. 7º da Lei nº 8.987/1995.

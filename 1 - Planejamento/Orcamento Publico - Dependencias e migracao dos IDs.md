@@ -45,3 +45,25 @@ Antes de cada troca, exigir (1) artigo CGU completo e certificado individualment
 **Próximas unidades de certificação:** classificações de receita (04a) e despesa (04b), créditos (05), emendas (05a), programação (06), receitas (07), despesas (08), restos a pagar (09), execução financeira (10) e responsabilidade fiscal (11). Não criar novos clones: conferir normas, fontes, dez itens C/E de cada derivado, links, glossário, flashcards e publicação; somente depois reconciliar e substituir associações dos IDs antigos. Preservar a especificidade de CGU e Câmara e evitar repetição no futuro EPUB por `topicKey` e certificação individual.
 
 **Estado do trabalho:** 15 artigos próprios CGU presentes, dez aguardando auditoria individual; 11 IDs ainda compartilhados no catálogo (dez legados e um transversal); nenhum EPUB gerado, nenhuma exclusão ou renomeação executada.
+
+## Auditoria das referências diretas de flashcards: 17/11/2026
+
+Leitura estruturada do array `cards` em `data/flashcards.json`, usando `card.note.articleId` e os `examIds` de cada cartão. O arquivo possui 356 cartões explícitos, dos quais **101 apontam aos 11 IDs ainda compartilhados**. A soma por concurso abaixo não é exclusiva, pois quatro cartões têm simultaneamente CGU e Câmara em `examIds`.
+
+| ID legado | Cartões | Com CGU | Com Câmara | Decisão |
+| :--- | ---: | ---: | ---: | :--- |
+| `art-f13b65a28d8c4e91` | 7 | 7 | 0 | Migrar apenas após mapear headings para novo artigo de receita |
+| `art-28b3d9ef86aa4510` | 27 | 27 | 0 | Vários headings especializados; revisão manual prioritária antes da remoção |
+| `art-87b69e1d4ac54f20` | 9 | 9 | 0 | Conferir fontes e headings do derivado de créditos |
+| `art-715e2d16a93446cb` | 3 | 0 | 3 | Manter no histórico Câmara; retirar vínculo CGU apenas após conferir outros consumidores |
+| `art-0fb9b88e4d6c4151` | 5 | 5 | 0 | Reconciliar com novo capítulo de programação |
+| `art-4677cfa327ce43bb` | 15 | 15 | 2 | Dois cartões servem também à Câmara; evitar troca global |
+| `art-67167e9c18284c4c` | 12 | 12 | 2 | Dois cartões servem também à Câmara; preservar a referência original nesses casos |
+| `art-6e4e79c7f4bb4aa3` | 9 | 9 | 0 | Reconciliar com novo capítulo de restos a pagar e DEA |
+| `art-743d234d819842d1` | 3 | 0 | 3 | Manter no histórico Câmara; conferir necessidade real de associação CGU |
+| `art-91ab320cdfb64b8a` | 7 | 7 | 0 | Reconciliar com capítulo CGU da LRF |
+| `art-9be1a39d536a47ea` | 4 | 4 | 0 | Referência transversal válida: preservar artigo de Atualidades |
+
+**Bloqueio demonstrado:** retirar imediatamente os dez IDs históricos do catálogo CGU deixaria cartões com `examIds: [cgu-2026]` apontando a artigo fora da matéria. A simples troca do ID também seria insegura porque `card.note.section` contém headings exatos dos artigos antigos, enquanto os capítulos derivados possuem seções e abordagem distintas. Antes da migração, avaliar cartão por cartão: objeto do conceito, fonte, seção no novo texto, contextos de CGU/Câmara, e revisar ID, heading e eventual duplicação juntos. Não usar busca/substituição textual sobre o JSON.
+
+**Limite da contagem:** são cartões escritos no arquivo, não os flashcards adicionais derivados automaticamente do glossário durante o build. A matriz anterior de ocorrências textuais nos arquivos de glossário continua válida como triagem, não como levantamento de verbetes únicos. O banco `data/questoes-camara.json` não foi alterado.

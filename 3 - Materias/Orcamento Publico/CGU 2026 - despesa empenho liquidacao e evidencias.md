@@ -77,7 +77,7 @@ Crédito adicional altera dotação; programação financeira limita ritmo de ga
 
 O art. 35, II, da Lei nº 4.320/1964 estabelece que pertencem ao exercício financeiro as **despesas nele legalmente empenhadas** para fins do regime orçamentário. Isso não significa que a entrega, o reconhecimento patrimonial e o pagamento sempre ocorram no mesmo exercício.
 
-A despesa empenhada e não paga até 31 de dezembro pode se relacionar a **restos a pagar**, observadas as condições legais. O tema está desenvolvido no capítulo histórico [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|Restos a pagar, despesas de exercícios anteriores e suprimento de fundos]].
+A despesa empenhada e não paga até 31 de dezembro pode se relacionar a **restos a pagar**, observadas as condições legais. O tema está desenvolvido no capítulo histórico [[3 - Materias/Orcamento Publico/CGU 2026 - restos a pagar dea e suprimento de fundos|Restos a pagar, despesas de exercícios anteriores e suprimento de fundos]].
 
 ## Roteiro de auditoria da despesa
 

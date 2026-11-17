@@ -128,6 +128,16 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         '3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes.md',
         '3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes.md',
         '3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - natureza fonte e resultado da receita.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - classificacao da despesa e rastreamento.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - emendas rastreabilidade e controle.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - receitas publicas registros e evidencias.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - despesa empenho liquidacao e evidencias.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - restos a pagar dea e suprimento de fundos.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - conta unica e execucao financeira.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - responsabilidade fiscal riscos e controle.md',
         '3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md',
         '3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md',
         '3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md',
@@ -156,7 +166,7 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         const local = fs.readFileSync(localPath, 'utf8');
         if (publicado !== local) throw new Error('Nota auditada diverge do build publicado: ' + recurso);
       }
-      console.log(`✓ ${materiaisAuditoria.length} artigos auditados com corpo Markdown sincronizado no Pages, incluindo os cinco artigos exclusivos da CGU, além dos artigos históricos de Orçamento Público.`);
+      console.log(`✓ ${materiaisAuditoria.length} artigos auditados com corpo Markdown sincronizado no Pages, incluindo os quinze artigos exclusivos da CGU, além dos artigos históricos de Orçamento Público.`);
       console.log('✓ Glossário, interface e índice de busca sincronizados no Pages.');
       console.log('✓ Coleção e interface dos flashcards sincronizadas no Pages.');
       console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');

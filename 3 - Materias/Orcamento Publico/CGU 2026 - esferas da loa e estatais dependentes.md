@@ -64,6 +64,14 @@ A **LDO federal de 2026, Lei nº 15.321/2025, art. 52, §§ 6º e 7º**, discipl
 
 **Exemplo de fiscalização:** uma estatal controlada recebeu recursos públicos e permaneceu no Orçamento de Investimento. Para avaliar a regularidade, a equipe não deve usar somente o valor transferido. É preciso verificar a finalidade do repasse, os requisitos do art. 52, § 9º, a classificação anterior, a vigência do plano, os atos autorizativos e a norma aplicada àquele exercício. A classificação jurídica e o enquadramento da programação podem exigir conclusões separadas.
 
+### Repasse e comunicação à Comissão Mista de Orçamento
+
+A **LDO de 2026, art. 6º, § 2º**, determina que as despesas de repasse de recursos do ente controlador para estatais que firmaram o contrato de gestão sejam registradas nos Orçamentos Fiscal e da Seguridade Social. Assim, o tratamento orçamentário da estatal destinatária não elimina a necessidade de verificar a **despesa de transferência do controlador**.
+
+O **art. 6º, § 4º**, exige que a estatal encaminhe à **Comissão Mista de Orçamento (CMO)** o contrato de gestão ou o ato relacionado à transição orçamentária, no prazo de **30 dias contado da aprovação**. Esse dever de comunicação é uma evidência adicional de controle, distinta da aprovação do contrato e da condição jurídica da empresa.
+
+**Roteiro de fiscalização:** conferir ato de aprovação e sua data, contrato e plano aplicáveis, prova de envio à CMO, dotações de repasse nos orçamentos fiscal ou da seguridade e classificação das programações da estatal. A ausência de um desses documentos pede apuração específica; a comunicação não substitui os requisitos materiais de enquadramento.
+
 ## Como verificar a classificação em uma auditoria da CGU
 
 Considere uma estatal que declara autonomia financeira, mas recebe aportes públicos. A fiscalização deve reunir fatos e critérios antes de decidir sobre seu enquadramento.
@@ -105,6 +113,10 @@ Um hospital da administração pública amplia uma unidade e uma estatal não de
 
 **Item 10.** “Segundo a LDO federal de 2026, a permanência de certas estatais no Orçamento de Investimento, mesmo após recebimento de recursos da União para custeio, depende do cumprimento cumulativo dos requisitos do art. 52, § 9º.” **Certo.** Entre os requisitos estão a presença no orçamento de investimento anterior, plano de reequilíbrio aprovado e vigente e a observância das normas pertinentes.
 
+**Item 11.** “A empresa estatal com contrato de gestão pode ficar sujeita a regras orçamentárias de não dependente sem que isso dispense a previsão da despesa de repasse do ente controlador nos orçamentos apropriados.” **Certo.** A LDO federal 2026, art. 6º, § 2º, exige o registro dos repasses, enquanto o art. 52, § 7º, trata do regime da estatal.
+
+**Item 12.** “O encaminhamento do contrato de gestão de estatal à Comissão Mista de Orçamento, exigido pela LDO de 2026, substitui os requisitos legais de transição e dispensa a análise de seu orçamento.” **Errado.** O art. 6º, § 4º, prevê a comunicação em 30 dias, mas ela é apenas uma das exigências de controle e não equivale ao enquadramento material.
+
 Estes itens são autorais e didáticos. Não são questões oficiais nem evidência de desempenho individual.
 
 ## Fontes e relação editorial
@@ -112,7 +124,7 @@ Estes itens são autorais e didáticos. Não são questões oficiais nem evidên
 - [Constituição Federal, art. 165, § 5º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): os três orçamentos da LOA.
 - [Lei Complementar nº 101/2000, art. 2º, II e III](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): empresa controlada e estatal dependente.
 - [Decreto nº 12.500/2025, texto atualizado, arts. 2º e 7º](https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12500-11-junho-2025-797585-normaatualizada-pe.html): classificação, transição e contrato de gestão.
-- [LDO federal 2026, Lei nº 15.321/2025, art. 52, §§ 6º, 7º e 9º](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15321-31-dezembro-2025-798617-publicacaooriginal-179567-pl.html): tratamento das estatais no Orçamento de Investimento e requisitos da transição.
+- [LDO federal 2026, Lei nº 15.321/2025, arts. 6º, §§ 2º e 4º, e 52, §§ 6º, 7º e 9º](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15321-31-dezembro-2025-798617-publicacaooriginal-179567-pl.html): tratamento das estatais no Orçamento de Investimento e requisitos da transição.
 - [Manual Técnico de Orçamento, classificação por esfera](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto%3Acap4): categorias e códigos do orçamento federal.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: instrumentos de planejamento e autorização.
 

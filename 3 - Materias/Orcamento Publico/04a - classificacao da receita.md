@@ -17,11 +17,11 @@ aliases:
 
 ## Núcleo: primeiro a pergunta, depois a classificação
 
-A prefeitura arrecada impostos, aluga um imóvel, vende um terreno ou contrai empréstimo. Há **quatro perguntas independentes**: (1) o ingresso integra o orçamento? (2) qual operação gerou o dinheiro? (3) quais regras orientam seu uso? (4) ele entra no resultado primário? Para responder, use **tratamento orçamentário**, **natureza da receita**, **fonte/destinação** e **indicador de resultado primário**, respectivamente.
+Imagine uma prefeitura que recebe quatro valores: um imposto pago pelo morador, o aluguel de um prédio público, o preço da venda de um terreno e o dinheiro de um empréstimo. Todos aumentam o dinheiro disponível naquele momento, mas representam operações diferentes. A prefeitura precisa responder **quatro perguntas** para registrá-los: **(1)** a entrada conta como receita do orçamento? **(2)** qual operação gerou o ingresso? **(3)** quais regras permitem ou restringem seu uso? **(4)** a entrada integra o cálculo do resultado primário, usado para acompanhar a situação fiscal sem considerar determinadas operações financeiras? Essas perguntas correspondem, respectivamente, ao **tratamento orçamentário**, à **natureza da receita**, à **fonte/destinação** e ao **indicador de resultado primário**.
 
 Ao examinar a natureza, siga sua **estrutura interna** (categoria econômica → origem → espécie → detalhamentos). Corrente e capital são categorias de natureza; primária e financeira são categorias de resultado fiscal. A classificação doutrinária originária/derivada forma ainda **outro** conjunto, e não um nível adicional da codificação da receita.
 
-**Caso em quatro alterações:** IPTU recebido: receita corrente de impostos e, em regra, primária. Aluguel de prédio público: continua corrente e, em regra, primária, mas a **origem da natureza** muda para patrimonial. Venda do mesmo prédio: receita de capital por alienação de bens, em regra primária, com restrições legais de aplicação. Empréstimo comum: receita de capital por operação de crédito, **financeira**. Uma ARO, por sua vez, é ingresso **extraorçamentário**, em razão do tratamento próprio dessa operação. A intenção de usar o dinheiro ilegalmente não altera retroativamente a natureza do ingresso.
+**Compare as operações:** o **Imposto Predial e Territorial Urbano (IPTU)** recebido é receita corrente de impostos e, em regra, primária. O **aluguel de prédio público** continua sendo receita corrente, mas sua origem na classificação por natureza é patrimonial. A **venda do prédio** é receita de capital por alienação de bens, em regra primária, com restrições legais de aplicação. Um **empréstimo comum** é receita de capital por operação de crédito e, no indicador fiscal, financeira. Já uma **antecipação de receita orçamentária (ARO)** é empréstimo de curto prazo para suprir falta temporária de caixa: seu ingresso é extraorçamentário. A classificação descreve a operação efetivamente realizada; uma intenção irregular de usar o dinheiro não muda a natureza original do ingresso.
 
 ## Receita: categoria econômica e natureza
 
@@ -145,7 +145,7 @@ A **natureza** responde: *qual fato econômico originou o ingresso?* A **fonte/d
 
 A fonte/destinação reúne receitas com **normas de aplicação semelhantes** e é empregada tanto na receita quanto na despesa, permitindo verificar o financiamento de ações e suas vinculações. Uma mesma ação pode ser financiada por fontes distintas, quando legalmente permitido.
 
-Exemplo: duas entradas patrimoniais com natureza semelhante podem ter destinações diferentes, a depender das regras aplicáveis. A origem econômica não determina automaticamente o vínculo. Da mesma forma, “fonte de recurso” não equivale a “origem da receita” na estrutura por natureza.
+Exemplo: uma prefeitura recebe **R$ 50 mil de aluguel** de imóvel público e **R$ 50 mil de transferência com obrigação de financiar determinado projeto**. Os dois ingressos têm naturezas diferentes: o aluguel é receita patrimonial; a transferência recebe a natureza correspondente à sua finalidade e às regras do repasse. A **fonte/destinação** de cada valor informa se há regra específica de aplicação, por exemplo a obrigação de gastar a transferência no projeto. Assim, os mesmos R$ 50 mil não se tornam receitas da mesma natureza apenas porque a destinação de ambos poderia, em outro cenário, financiar uma despesa semelhante. A fonte não é a origem na classificação por natureza.
 
 **Atenção:** a vedação constitucional de vincular receitas de **impostos** tem exceções específicas; a existência do classificador de fonte não autoriza inventar uma vinculação. Ver [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|não afetação e suas exceções]].
 
@@ -153,7 +153,7 @@ Exemplo: duas entradas patrimoniais com natureza semelhante podem ter destinaç�
 
 ## Primária × financeira: efeito no resultado primário
 
-O **identificador de resultado primário** distingue receitas que entram no cálculo do resultado primário das que ficam fora dele, conforme a regra fiscal aplicável. É uma classificação **independente** da categoria econômica corrente/capital.
+O **identificador de resultado primário** indica se uma receita participa do cálculo do **resultado primário**. Em termos introdutórios, esse resultado compara as receitas primárias com as despesas primárias do período: por exemplo, **R$ 600 mil de receitas primárias menos R$ 450 mil de despesas primárias = superávit primário de R$ 150 mil**, sem considerar as operações classificadas como financeiras. A metodologia oficial do ente e do exercício deve ser consultada para calcular o indicador real. A distinção entre primária e financeira é **independente** da categoria econômica corrente/capital.
 
 Não é correto resolver automaticamente por equivalência:
 - toda receita corrente seria primária;

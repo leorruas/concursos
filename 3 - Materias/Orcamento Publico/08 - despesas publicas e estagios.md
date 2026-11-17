@@ -5,7 +5,7 @@ title: "Despesas públicas: fixação, empenho, liquidação e pagamento"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-07
+updated: 2026-11-16
 aliases:
   - "Estágios da despesa"
   - "Empenho ordinário global estimativo"
@@ -18,7 +18,7 @@ aliases:
 
 O orçamento de uma universidade autoriza R$ 600 mil para equipamentos. A universidade contrata o fornecimento, recebe parte dos bens, verifica a documentação e paga posteriormente. Cada etapa responde a uma pergunta diferente: **há autorização? a dotação foi comprometida? o credor tem direito comprovado? houve desembolso?**
 
-A estrutura didática combina a **fixação da despesa**, etapa de planejamento, com três estágios de execução: **empenho, liquidação e pagamento**. A Lei nº 4.320/1964, arts. 58 a 65, disciplina os conceitos decisivos.
+A estrutura didática combina a **fixação da despesa**, etapa de planejamento, com três estágios de execução: **empenho, liquidação e pagamento**. Na **fixação**, a Lei Orçamentária Anual (LOA) autoriza quanto se pode gastar. No **empenho**, a autoridade competente compromete parte dessa autorização para determinada despesa. Na **liquidação**, o órgão confere documentos e execução do objeto para verificar o direito do credor, isto é, de quem deve receber. No **pagamento**, a autoridade competente ordena e o órgão realiza o desembolso. Os arts. 58 a 65 da Lei nº 4.320/1964 dão a base jurídica dessa sequência.
 
 Não confundir essa sequência com as quatro fases do [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|ciclo orçamentário]]: elaboração, discussão/aprovação, execução e controle. Uma classificação trata da **gestão do orçamento**; outra, dos **estágios da despesa**.
 
@@ -37,7 +37,7 @@ A mesma despesa pode estar **empenhada e ainda não liquidada**, ou **liquidada 
 
 Na LOA, o Poder Público **fixa despesas** por dotações orçamentárias. Alterações legais por **créditos adicionais** podem reforçar ou criar autorizações. Fixação é referência de **planejamento** e não realização material da despesa.
 
-Exemplo: uma ação tem R$ 1 milhão de dotação e apenas R$ 400 mil empenhados. O primeiro valor informa autorização; o segundo, compromisso orçamentário registrado. A diferença não demonstra necessariamente economia: pode refletir calendário, demanda, limitação ou não execução.
+Exemplo: uma ação tem **R$ 1 milhão de dotação**, isto é, autorização de gasto, e **R$ 400 mil empenhados**, isto é, já comprometidos. Permanecem **R$ 600 mil não empenhados** naquela dotação, antes de considerar outras alterações e limites. Essa diferença não demonstra necessariamente economia: a contratação pode ainda não ter ocorrido, pode haver limitação de empenho ou a demanda pode ser menor do que se previa.
 
 A distinção entre dotação, limite de empenho e dinheiro em caixa está em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|programação orçamentária e financeira]].
 
@@ -53,7 +53,7 @@ O empenho **não é prova de entrega** e tampouco corresponde ao pagamento. A ex
 
 O art. 61 prevê a emissão de **nota de empenho**, com informações como credor, especificação, importância e dedução da dotação. O art. 60, § 1º, admite **dispensa da emissão da nota**, em casos especiais previstos na legislação específica.
 
-**Dispensa de emissão da nota** não pode ser transformada, por interpretação, em **dispensa geral do empenho**. No glossário, os conceitos **empenho prévio**, **dispensa da emissão da nota**, **reforço** e **anulação de empenho** recebem verbetes próprios. Documento e ato não se confundem.
+A **nota de empenho** é o documento que registra informações do ato, como credor, valor e objeto. O **empenho** é o próprio ato administrativo de comprometer crédito orçamentário. Por isso, a **dispensa legal de emitir a nota**, prevista para casos especiais, **não é dispensa geral de empenhar antes de realizar a despesa**. O glossário distingue empenho prévio, dispensa de nota, reforço (aumento do valor empenhado) e anulação de empenho (desfazimento do registro, quando cabível).
 
 ### Empenho ordinário, global e estimativo
 
@@ -136,7 +136,7 @@ Esses mecanismos são sugestões didáticas fundadas nas normas, não estatísti
 
 ## Exemplos comentados
 
-**Caso 1:** contrato tem valor anual fixo de R$ 240 mil e doze pagamentos mensais. O parcelamento com valor total conhecido permite **empenho global**, em regra; não é estimativo apenas por existir mensalidade.
+**Caso 1:** um contrato anual de limpeza custa **R$ 240 mil**, com **12 pagamentos de R$ 20 mil**. Como o montante total já é conhecido e o pagamento ocorre em parcelas, cabe, em regra, **empenho global**. O empenho estimativo seria adequado à hipótese legal de montante que não se pode determinar previamente; uma mensalidade não torna o valor incerto.
 
 **Caso 2:** uma empresa envia nota fiscal por equipamento não entregue. A administração já empenhou o valor. A **liquidação** exige comprovar o direito do credor; nota fiscal sem verificação não basta.
 
@@ -148,7 +148,7 @@ Esses mecanismos são sugestões didáticas fundadas nas normas, não estatísti
 
 **Item 2.** O empenho estimativo é apropriado quando o montante não pode ser previamente determinado; o global pode ser utilizado quando o valor contratual é conhecido e sujeito a parcelamento. **Gabarito: Certo.** A assertiva distingue **incerteza de valor** de **parcelamento**.
 
-**Item 3.** A liquidação verifica o direito adquirido pelo credor, mediante documentos pertinentes, e pode ocorrer antes do pagamento efetivo. **Gabarito: Certo.** Liquidação e pagamento são momentos diferentes, segundo os arts. 62 e 63.
+**Item 3.** A liquidação verifica o direito adquirido pelo credor, mediante documentos pertinentes, e pode ocorrer antes do pagamento efetivo. **Gabarito: Certo.** Primeiro o órgão verifica o direito do fornecedor, o objeto entregue e o valor devido (art. 63). Só depois pode realizar o pagamento regularmente liquidado, mediante ordem competente (arts. 62 e 64). Assim, uma obrigação pode estar liquidada e ainda aguardar dinheiro ou autorização para pagar.
 
 **Item 4.** Nos termos do art. 58 da Lei nº 4.320/1964, todo empenho cria obrigação de pagamento ainda pendente de implemento de condição. **Gabarito: Errado.** A definição legal abrange obrigação **pendente ou não** de implemento de condição. Excluir a locução “ou não” altera o alcance do dispositivo.
 

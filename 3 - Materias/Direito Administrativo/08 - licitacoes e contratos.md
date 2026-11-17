@@ -187,6 +187,14 @@ O **Termo de Referência (TR)** descreve parâmetros para contratar bens e servi
 | Execução e fiscalização | Registros do fiscal designado | Documentar falhas e solicitar regularização nos limites das atribuições |
 | Recebimento | Verificação provisória e definitiva conforme art. 140 | Avaliar tecnicamente entregas e registrar o aceite devido |
 
+### Propostas inexequíveis e garantias: art. 59
+
+**Exequibilidade** significa que o preço e as condições permitem executar efetivamente o objeto. Proposta muito barata pode representar risco de abandono ou baixa qualidade. O **art. 59** prevê desclassificação nas hipóteses legais e diligências para verificar exequibilidade.
+
+Em **obras e serviços de engenharia**, o **art. 59, § 4º**, considera inexequíveis propostas com valor **inferior a 75%** do orçamento da Administração. O **§ 5º** exige **garantia adicional** do licitante vencedor cuja proposta seja **inferior a 85%** desse orçamento, no valor correspondente à diferença entre preço orçado e proposta, sem prejuízo das demais garantias cabíveis.
+
+**Exemplo comparativo:** com orçamento de R$ 100 mil para obra ou serviço de engenharia, proposta de R$ 74 mil situa-se abaixo de 75% e aciona a hipótese legal de inexequibilidade; proposta de R$ 82 mil está abaixo de 85% e aciona garantia adicional se for vencedora, observadas as condições do dispositivo. **Os percentuais são próprios do recorte de engenharia do art. 59, não regras universais para toda compra ou serviço comum.**
+
 ### Gestão, fiscalização e recebimento do objeto
 
 O **art. 117** exige acompanhamento da execução por um ou mais **fiscais especialmente designados**, ou substitutos. O fiscal registra ocorrências, determina a regularização das falhas dentro de suas competências e informa superiores quando a decisão extrapola sua atribuição. Terceiros contratados podem **assistir e subsidiar a fiscalização**, sem substituir a responsabilidade funcional do fiscal.
@@ -367,15 +375,43 @@ Para recursos do **art. 165**, a autoridade recorrida tem **três dias úteis** 
 
 ## Heurísticas
 
-- **Modalidade = formato do procedimento; critério = como a proposta vence.**
-- **Art. 17 = sete fases; homologação é a última.**
-- **Adjudicação não é “fase 8”; art. 71 trata do encerramento.**
-- **Inexigibilidade = competição inviável.**
-- **Dispensa = hipótese legal de contratação direta.**
-- **Serviço técnico do art. 74, III: não invente requisito geral de singularidade.**
-- **25% é regra de alteração unilateral quantitativa; 50% apenas para acréscimo em reforma de edifício/equipamento.**
+| Pergunta classificadora | Identificação | Atenção à pegadinha |
+| --- | --- | --- |
+| **Para que contratar?** | Planejamento, ETP e TR | Necessidade não é objeto pronto nem fornecedor já escolhido |
+| **Qual modalidade?** | Art. 28, cinco modalidades | Não confundir pregão com menor preço |
+| **Como escolher o vencedor?** | Art. 33, seis critérios | Maior retorno econômico é critério de contrato de eficiência |
+| **Qual a ordem do procedimento?** | Art. 17, sete fases | Adjudicação do art. 71 não é a oitava fase |
+| **Pode contratar diretamente?** | Inviabilidade do art. 74 ou hipótese do art. 75 | Dispensa não elimina processo do art. 72 |
+| **Que preço permite dispensa por valor?** | Limites de **2026** e somatórios do art. 75 | Lembrar reajuste anual e unidade gestora |
+| **Quem fiscaliza e recebe?** | Arts. 117 e 140 | A assistência de terceiros não substitui o fiscal; aceite provisório não é definitivo |
+| **Quando o contrato produz efeitos?** | Art. 94 e divulgação no PNCP | Prazos de publicação diferem: licitação e contratação direta |
+| **Pode alterar ou extinguir?** | Arts. 104 e 124 a 139 | Percentuais e objeto limitam alterações unilaterais |
+| **Qual punição e prazo recursal?** | Arts. 155 a 168 | Não trocar impedimento por inidoneidade nem recurso de 3 por 15 dias úteis |
+
+**Caso integrado de acessibilidade digital, em sete decisões:**
+
+1. **Problema:** documentos legislativos são difíceis de acessar. Equipe define necessidade e alternativas, utilizando ETP quando cabível.
+2. **Objeto:** TR especifica documentos, padrões de acessibilidade, entregas mensuráveis e teste de aceite, quando adequado.
+3. **Seleção:** se a prestação for serviço comum padronizável, analisa-se pregão e critério de menor preço ou maior desconto; se intelectual predominantemente especializada, a modalidade e a hipótese legal mudam.
+4. **Contratação direta:** se uma exceção do art. 75 for considerada, verificar valor de 2026, somatório, documentação do art. 72, preço e escolha, sem concluir só pelo valor isolado.
+5. **Execução:** fiscal registra ocorrências, fornecedor corrige entregas, e o recebimento definitivo exige conformidade nos termos aplicáveis.
+6. **Mudança:** se o órgão deseja alterar o objeto, examina motivo, natureza quantitativa ou qualitativa, percentuais e vedação de transfiguração.
+7. **Problema contratual:** inadimplemento exige apuração, defesa e sanção proporcionada, com prazo recursal segundo o ato, mantendo distinção entre extinção e penalidade.
+
+**Método Cebraspe:** identifique o instituto nomeado, substitua frases absolutas pela condição legal concreta e compare o enunciado com o **dispositivo e seu alcance**, em vez de decorar isoladamente números ou termos.
 
 ## Fontes
+
+- [Lei nº 14.133/2021, texto consolidado no Planalto](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm), especialmente arts. **1º, 5º a 11, 17 e 18, 28 a 33, 59, 62, 71 a 75, 89 a 95, 104, 115, 117, 124 a 140, 155 a 168, 182**. Fonte normativa principal. Alterações posteriores ao ano de publicação devem ser conferidas em texto atualizado.
+- [Governo Federal, Decreto nº 12.807/2025 e tabela de valores para 2026](https://www.gov.br/compras/pt-br/acesso-a-informacao/comunicados/2025/no-47-25-decreto-altera-valores-da-lei-14-133-para-compras-publicas), atualizada em 26/10/2026: **art. 75, I e II** (R$ 130.984,20 e R$ 65.492,11), **art. 75, § 7º** (R$ 10.478,74) e **art. 95, § 2º** (R$ 13.098,41), vigentes desde 1º/01/2026.
+- [Câmara dos Deputados, Lei nº 14.133/2021, publicação oficial](https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-publicacaooriginal-162591-pl.html): conferência dos arts. 94, 95, 156, 165 a 168 e distinção entre edital, processo e sanções.
+- [TCU, Licitações e Contratos: Orientações e Jurisprudência, 5ª edição (2023)](https://www.gov.br/defesa/pt-br/arquivos/ajuste-01/lai/auditoria/ciset/Licitacoes_e_Contratos___Orientacoes_e_Jurisprudencia_do_TCU___5a_Edicao_2023.pdf): fonte complementar de interpretação e exemplos, sujeita a atualização normativa.
+- [Portal de Compras do Governo Federal, Manual de boas práticas em contratações públicas](https://www.gov.br/compras/pt-br/acesso-a-informacao/manuais/manual-governanca-nas-contratacoes/manual-de-boas-praticas-em-contratacoes-publicas.pdf): orientações e instrumentos de trabalho.
+- [Lei nº 12.232/2010, licitação de serviços de publicidade por intermédio de agências de propaganda](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm): disciplina específica para objeto relevante ao cargo de Comunicação Social, sem confundir a proibição do art. 74, III, da Lei nº 14.133/2021 com proibição geral de contratação de publicidade.
+
+**Observações de método:** o artigo contém regras jurídicas e exemplos hipotéticos para o edital da Câmara. A aplicação de decretos e manuais específicos do **Poder Executivo federal** à Câmara exige conferência da competência e de normas internas. Percentuais, prazos, hipóteses de contratação direta e sanções têm condições próprias; os **valores de 2026** não são definitivos para exercícios posteriores. Os exercícios C/E são **autorais**, não questões oficiais.
+
+
 
 - Lei nº 14.133, de 1º de abril de 2021, especialmente arts. 5º, 17, 28, 33, 71 a 75, 92, 104, 115, 124 a 138 e 155 a 163.
 

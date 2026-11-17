@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 const bank=JSON.parse(fs.readFileSync(new URL('../data/questoes-camara.json',import.meta.url),'utf8'));
-const allowed=['facil','media','dificil','muito-dificil'];
+const allowed=['muito-facil','facil','media','dificil','muito-dificil'];
 assert.equal(bank.pilotoDidatico.length,389,'Alteração no piloto exige revisão desta auditoria');
 const totals={};let pending=0,reviewed=0;
 for(const p of bank.pilotoDidatico){

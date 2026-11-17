@@ -111,9 +111,9 @@ function render(){
  $('results-quiz-priority-description').textContent=
   'Uma única ordem de leitura calculada com as questões do chat e do site. A prioridade é relativa e depende da amostra registrada.';
  const difficultyRoot=$('results-difficulty');
- const levelNames={facil:'Fácil',media:'Média',dificil:'Difícil','muito-dificil':'Muito difícil','nao-classificada':'Sem classificação'};
+ const levelNames={'muito-facil':'Muito fácil',facil:'Fácil',media:'Média',dificil:'Difícil','muito-dificil':'Muito difícil','nao-classificada':'Sem classificação'};
  const levels=current.difficulty?.byLevel||[];
- const order=['facil','media','dificil','muito-dificil','nao-classificada'];
+ const order=['muito-facil','facil','media','dificil','muito-dificil','nao-classificada'];
  difficultyRoot.replaceChildren(...order.map(k=>levels.find(x=>x.id===k)).filter(Boolean).map(x=>{
   const row=el('div','results-difficulty-row'),copy=el('div');
   copy.append(el('strong','',levelNames[x.id]||x.id),el('small','',x.total+' tentativa(s) · '+x.correct+' acerto(s), '+x.incorrect+' erro(s)'+(x.uncertain?' · '+x.uncertain+' insegura(s)':'')));

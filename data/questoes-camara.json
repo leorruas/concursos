@@ -51059,6 +51059,286 @@
       "correctAnswer": "E",
       "explanation": "A modalidade identifica como o orçamento da União aplica os recursos. Na primeira operação, ela contrata diretamente. Na segunda, ela transfere recursos ao município, que fará a compra. A identidade dos equipamentos não iguala essas modalidades.",
       "reviewEvidence": "Revisão editorial por IA. Conferidos o capítulo 4 do MTO 2026, a seção literal e a aplicação ao cenário. Mecanismo revisado: identificar-mudanca-de-modalidade-mantendo-o-objeto."
+    },
+    {
+      "id": "cam-const-200-pluralismo-fundamento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "pluralismo-fundamento",
+      "mechanism": "pluralismo-fundamento",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "statement": "O pluralismo político é um fundamento da República Federativa do Brasil.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição protege a convivência de correntes políticas diferentes. O pluralismo integra a base da organização do Estado brasileiro. (Constituição Federal, art. 1º, V.)",
+      "reviewEvidence": "Constituição Federal, art. 1º, V — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece um fundamento expresso."
+    },
+    {
+      "id": "cam-const-200-objetivo-bem-sem-discriminacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "objetivo-bem-sem-discriminacao",
+      "mechanism": "objetivo-bem-sem-discriminacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 3º — objetivos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 3º — objetivos fundamentais"
+      },
+      "statement": "Ao revisar regras de acesso a um serviço público para retirar uma barreira discriminatória baseada na idade, o órgão atua em linha com um objetivo fundamental da República.",
+      "correctAnswer": "C",
+      "explanation": "Promover o bem de todos sem preconceito de idade é um objetivo fundamental. O caso ilustra a retirada de uma barreira discriminatória para concretizar essa finalidade. (Constituição Federal, art. 3º, IV.)",
+      "reviewEvidence": "Constituição Federal, art. 3º, IV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica um objetivo expresso a uma medida concreta."
+    },
+    {
+      "id": "cam-const-200-integracao-latino-americana",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "integracao-latino-americana",
+      "mechanism": "integracao-latino-americana",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "A Constituição estabelece que a busca pela integração latino-americana tem alcance econômico, enquanto a aproximação política e cultural depende de previsão constitucional adicional.",
+      "correctAnswer": "E",
+      "explanation": "A condição incorreta é a exigência de previsão adicional. A própria Constituição orienta a busca de integração econômica, política, social e cultural entre os povos da América Latina. (Constituição Federal, art. 4º, parágrafo único.)",
+      "reviewEvidence": "Constituição Federal, art. 4º, parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue o recorte regional e o alcance material da integração."
+    },
+    {
+      "id": "cam-const-200-asilo-diretriz-externa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "asilo-diretriz-externa",
+      "mechanism": "asilo-diretriz-externa",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "A concessão de asilo político figura entre os princípios constitucionais que orientam as relações internacionais do Brasil.",
+      "correctAnswer": "C",
+      "explanation": "O asilo político aparece expressamente entre as diretrizes da atuação externa brasileira. (Constituição Federal, art. 4º, X.)",
+      "reviewEvidence": "Constituição Federal, art. 4º, X — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica uma diretriz expressa."
+    },
+    {
+      "id": "cam-const-200-delegacao-questao-especifica",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "delegacao-questao-especifica",
+      "mechanism": "delegacao-questao-especifica",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#União: arts. 21 e 22"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "União: arts. 21 e 22"
+      },
+      "statement": "Lei complementar federal autorizou os estados a disciplinar uma questão específica de direito civil. Um estado pode, com base nessa autorização, instituir um código civil estadual que trate também das demais questões da matéria.",
+      "correctAnswer": "E",
+      "explanation": "O erro está em estender a autorização às demais questões. A União legisla privativamente sobre direito civil. A lei complementar pode abrir espaço para os estados apenas quanto às questões específicas que delimitar. (Constituição Federal, art. 22, I e parágrafo único.)",
+      "reviewEvidence": "Constituição Federal, art. 22, I e parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Combina matéria reservada, espécie normativa e extensão da autorização."
+    },
+    {
+      "id": "cam-const-200-norma-geral-parte-incompativel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "norma-geral-parte-incompativel",
+      "mechanism": "norma-geral-parte-incompativel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência legislativa concorrente: art. 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência legislativa concorrente: art. 24"
+      },
+      "statement": "Um estado regulou tema ambiental de competência concorrente na falta de norma geral federal. Se uma norma geral federal posterior contrariar apenas um capítulo autônomo da lei estadual, a incompatibilidade suspenderá a eficácia desse capítulo e, por si só, não atingirá o restante.",
+      "correctAnswer": "C",
+      "explanation": "Na falta da regra geral federal, o estado pode legislar plenamente para atender a suas peculiaridades. A norma geral superveniente suspende a eficácia da lei estadual no trecho incompatível. As disposições compatíveis podem continuar produzindo efeitos. (Constituição Federal, art. 24, VI e §§ 1º a 4º.)",
+      "reviewEvidence": "Constituição Federal, art. 24, VI e §§ 1º a 4º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica a competência original e delimita o efeito da lei geral posterior."
+    },
+    {
+      "id": "cam-const-200-gas-local-medida-provisoria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "gas-local-medida-provisoria",
+      "mechanism": "gas-local-medida-provisoria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Estados: competência remanescente"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Estados: competência remanescente"
+      },
+      "statement": "Um estado que admite medidas provisórias em sua constituição pode usar essa espécie normativa para regulamentar a exploração do serviço local de gás canalizado.",
+      "correctAnswer": "E",
+      "explanation": "O instrumento escolhido invalida a proposição. A Constituição atribui aos estados a exploração do serviço local de gás canalizado, mas veda expressamente medida provisória para regulamentá-lo. (Constituição Federal, art. 25, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 25, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a atribuição estadual do instrumento permitido para regulá-la."
+    },
+    {
+      "id": "cam-const-200-microrregiao-lei-ordinaria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "microrregiao-lei-ordinaria",
+      "mechanism": "microrregiao-lei-ordinaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Estados: competência remanescente"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Estados: competência remanescente"
+      },
+      "statement": "Uma assembleia legislativa pode instituir microrregião de municípios limítrofes por lei ordinária estadual para integrar o planejamento de serviços de interesse comum.",
+      "correctAnswer": "E",
+      "explanation": "A finalidade é compatível com a Constituição. A expressão errada é “lei ordinária estadual”. A instituição de microrregião para essa integração exige lei complementar estadual. (Constituição Federal, art. 25, § 3º.)",
+      "reviewEvidence": "Constituição Federal, art. 25, § 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Testa o instrumento constitucional exigido em um caso direto."
+    },
+    {
+      "id": "cam-const-200-lei-organica-intersticio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "lei-organica-intersticio",
+      "mechanism": "lei-organica-intersticio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Municípios: interesse local e suplementação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Municípios: interesse local e suplementação"
+      },
+      "statement": "Se a Câmara Municipal aprovou a lei orgânica por dois terços de seus membros em dois turnos separados por apenas sete dias, o quórum alcançado não sana a insuficiência do intervalo entre as votações.",
+      "correctAnswer": "C",
+      "explanation": "São exigências cumulativas. Além de dois turnos e da aprovação por dois terços dos membros da Câmara Municipal, a Constituição exige intervalo mínimo de dez dias entre os turnos. (Constituição Federal, art. 29, caput.)",
+      "reviewEvidence": "Constituição Federal, art. 29, caput — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Confronta o quórum de aprovação com o requisito temporal autônomo."
+    },
+    {
+      "id": "cam-const-200-df-organizacao-policias",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "df-organizacao-policias",
+      "mechanism": "df-organizacao-policias",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Distrito Federal: acumulação de competências"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Distrito Federal: acumulação de competências"
+      },
+      "statement": "A acumulação de competências legislativas estaduais e municipais permite ao Distrito Federal assumir da União, mediante sua lei orgânica, a organização e a manutenção da Polícia Militar do Distrito Federal.",
+      "correctAnswer": "E",
+      "explanation": "A acumulação de competências não transfere a atribuição indicada. A Constituição reserva à União a organização e a manutenção da Polícia Militar do Distrito Federal. A lei orgânica distrital não pode alterar essa repartição. (Constituição Federal, arts. 21, XIV, e 32, § 1º.)",
+      "reviewEvidence": "Constituição Federal, arts. 21, XIV, e 32, § 1º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Concilia a regra de acumulação de competências com uma reserva constitucional expressa."
     }
   ]
 }

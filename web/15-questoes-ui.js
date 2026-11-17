@@ -111,7 +111,7 @@ function render(){
  const q=question();if(!q){status('Questão indisponível. Encerre esta bateria.');return;}
  $('qs-number').textContent='Questão '+(session.answers.length+1)+' / '+session.ids.length;
  $('qs-context').textContent=(q.examPart||'')+' · '+(q.unitName||q.subjectName||q.subjectId);
- const levels={facil:'fácil',media:'média',dificil:'difícil','muito-dificil':'muito difícil'};
+ const levels={'muito-facil':'muito fácil',facil:'fácil',media:'média',dificil:'difícil','muito-dificil':'muito difícil'};
  $('qs-question-difficulty').textContent=q.estimatedDifficulty?'Dificuldade estimada: '+(levels[q.estimatedDifficulty]||q.estimatedDifficulty):'Dificuldade não classificada';
  $('qs-progress-bar').style.width=(100*session.answers.length/session.ids.length)+'%';$('qs-statement').textContent=q.statement;
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>{e.checked=false;e.disabled=false;});
@@ -172,9 +172,9 @@ function finish(){
   if(a.result==='correct')d.correct++;
   if(a.result==='incorrect')d.incorrect++;
  }
- const difficultyLabels={facil:'Fácil',media:'Média',dificil:'Difícil','muito-dificil':'Muito difícil','sem-classificacao':'Sem classificação'};
+ const difficultyLabels={'muito-facil':'Muito fácil',facil:'Fácil',media:'Média',dificil:'Difícil','muito-dificil':'Muito difícil','sem-classificacao':'Sem classificação'};
  const difficultyRoot=$('qs-battery-difficulty');
- difficultyRoot.replaceChildren(...['facil','media','dificil','muito-dificil','sem-classificacao'].filter(k=>difficultyGroups.has(k)).map(k=>{
+ difficultyRoot.replaceChildren(...['muito-facil','facil','media','dificil','muito-dificil','sem-classificacao'].filter(k=>difficultyGroups.has(k)).map(k=>{
   const d=difficultyGroups.get(k),row=elem('div');row.className='qs-difficulty-item';
   const judged=d.correct+d.incorrect,rate=judged?Math.round(100*d.correct/judged)+'%':'sem amostra';
   row.append(elem('strong',difficultyLabels[k]),elem('span',d.total+' tentativa(s) · acerto: '+rate));return row;

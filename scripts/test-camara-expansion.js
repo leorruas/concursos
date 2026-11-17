@@ -14,7 +14,7 @@ const normalize = value => value.normalize('NFKC').toLowerCase().replace(/\s+/g,
 const statements = new Set(bank.pilotoDidatico.map(item => normalize(item.statement)));
 const ids = new Set(bank.pilotoDidatico.map(item => item.id).filter(Boolean));
 const articles = new Map();
-const levels = ['facil', 'media', 'dificil', 'muito-dificil'];
+const levels = ['muito-facil', 'facil', 'media', 'dificil', 'muito-dificil'];
 const operations = ['reconhecimento', 'compreensão', 'aplicação', 'análise', 'integração'];
 const required = ['id', 'conceptId', 'mechanism', 'questionType', 'statement', 'explanation'];
 
@@ -69,3 +69,9 @@ const selection = selectCamaraQuestions({ expansao: [
 ] }, { unitId: fixture.unitId, difficulty: fixture.estimatedDifficulty });
 assert.deepEqual(selection.map(item => item.id), ['validada']);
 assert.deepEqual(selectCamaraQuestions({ expansao: selection }, { unitId: 'outra' }), []);
+
+const veryEasy = { ...fixture, id: 'muito-facil', estimatedDifficulty: 'muito-facil', reviewStatus: 'validada', reviewEvidence: 'fixture' };
+const unclassified = { ...veryEasy, id: 'sem-classificacao', estimatedDifficulty: undefined };
+const mixedLevels = { expansao: [veryEasy, unclassified] };
+assert.deepEqual(selectCamaraQuestions(mixedLevels, { difficulty: 'muito-facil' }).map(item => item.id), ['muito-facil']);
+assert.equal(selectCamaraQuestions(mixedLevels).length, 2);

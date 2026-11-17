@@ -18,7 +18,7 @@ aliases:
 
 Imagine que o governo queira construir cinco escolas. Primeiro, ele planeja a expansão para os próximos anos. Depois, escolhe o que será prioridade no ano seguinte. A lei orçamentária pode reservar uma quantia para a obra. Essa quantia é chamada de **dotação orçamentária**: um valor autorizado para determinada despesa. Até aqui, nenhuma escola precisa ter sido construída. Ainda será necessário realizar os procedimentos de contratação, usar os recursos conforme a lei e acompanhar o que foi entregue. Esse percurso explica por que **planejamento, orçamento, execução e resultado** são conceitos diferentes.
 
-Este é o ponto de entrada da matéria. O artigo [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] aprofunda o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA); classificações, créditos adicionais, estágios de receita e despesa e responsabilidade fiscal terão notas próprias. A organização é reutilizável entre editais. Na Controladoria-Geral da União (CGU) 2026, este texto atende **parcialmente** ao recorte P3.2.2, em formato **Cebraspe, Certo ou Errado**.
+Este é o ponto de entrada da matéria. O artigo [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] aprofunda três leis: o **Plano Plurianual (PPA)**, que organiza objetivos para vários anos; a **Lei de Diretrizes Orçamentárias (LDO)**, que orienta o orçamento seguinte; e a **Lei Orçamentária Anual (LOA)**, que prevê receitas e autoriza despesas para um ano. Outras notas explicam as formas de classificar receitas e despesas, as alterações das autorizações orçamentárias e as regras de equilíbrio das contas públicas. A organização é reutilizável entre editais. Na Controladoria-Geral da União (CGU) 2026, este texto atende **parcialmente** ao recorte P3.2.2, em formato **Cebraspe, Certo ou Errado**.
 
 ## Três conjuntos de perguntas: momento, autorização e entrega
 
@@ -32,9 +32,9 @@ Antes de classificar um acontecimento, identifique **que tipo de informação** 
 
 Os conjuntos são relacionados, mas **não formam uma classificação única**. Dentro do ciclo há momentos; dentro da execução há atos e situações financeiras; na avaliação há indicadores de produção e resultados.
 
-**Mesmo caso, uma condição por vez.** A prefeitura planeja cinco escolas: isso descreve uma intenção de política. O Legislativo aprova uma dotação de R$ 10 milhões: agora há **autorização orçamentária**, embora nenhuma escola tenha sido construída. O órgão empenha R$ 8 milhões: há comprometimento de crédito, mas o empenho ainda não comprova entrega. Três escolas são concluídas: a realização física é **3/5 da meta inicial**, independentemente do valor pago. Se a avaliação perguntar se aumentou a aprendizagem, são necessárias evidências adicionais sobre esse efeito.
+**Mesmo caso, uma condição por vez.** A prefeitura planeja cinco escolas: essa é a intenção. A Câmara Municipal aprova R$ 10 milhões de dotação na lei: isso autoriza o gasto dentro das regras aplicáveis, embora ainda não exista escola construída. Depois, o órgão empenha R$ 8 milhões, ou seja, compromete parte da autorização com despesas específicas. Três escolas são concluídas: a **meta física**, que mede quantas unidades foram entregues, alcançou **3 de 5 escolas (60%)**. O valor pago pode ser diferente. Para descobrir se a aprendizagem dos alunos aumentou, será necessário avaliar outros dados.
 
-**Regra de escolha:** primeiro nomeie a pergunta do enunciado. Depois procure a categoria pertinente. O ato de pagar não muda a fase em que a LOA foi aprovada; a entrega física não equivale ao efeito social.
+**Regra de escolha:** identifique primeiro o que o enunciado quer saber: o momento do processo, o uso do dinheiro ou o que foi entregue. O pagamento ocorre durante a execução; a aprovação da LOA ocorreu antes, na etapa legislativa. Construir uma escola é uma entrega; melhorar a aprendizagem é um possível resultado, que precisa de avaliação.
 
 ## Núcleo do conceito
 
@@ -59,7 +59,7 @@ Costuma-se dividir o ciclo em quatro momentos para facilitar o estudo. Essa divi
 
 ### Elaboração da proposta
 
-O Poder Executivo prepara as propostas das leis orçamentárias de sua iniciativa, com estimativas de receitas, prioridades e propostas de despesas. A Constituição, art. 165, prevê três instrumentos: Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA). Eles operam em horizontes diferentes.
+O **Poder Executivo** conduz a preparação dos projetos das leis orçamentárias e os apresenta ao Legislativo. Os órgãos envolvidos estimam quanto o governo deverá arrecadar, identificam despesas e propõem prioridades. O art. 165 da Constituição prevê três leis com funções diferentes: **PPA**, para planejamento de vários anos; **LDO**, para orientar o orçamento do exercício seguinte; e **LOA**, para autorizar as despesas anuais.
 
 A elaboração também precisa considerar restrições fiscais, receitas previstas e compromissos legais. A estimativa de receita não equivale à arrecadação efetiva, que só será conhecida durante a execução.
 
@@ -71,7 +71,7 @@ A apreciação da proposta e o controle posterior são funções distintas: o Le
 
 ### Execução orçamentária e financeira
 
-Depois da autorização, os órgãos realizam ações e despesas sob as regras de execução, crédito orçamentário, programação financeira e disponibilidade de caixa. O orçamento **autoriza** despesa dentro dos limites aplicáveis; o cronograma financeiro organiza o desembolso. Uma dotação disponível não demonstra que há dinheiro imediatamente liberado para pagamento.
+Depois da aprovação do orçamento, os órgãos podem executar as despesas autorizadas, desde que cumpram os procedimentos e limites legais. O governo também organiza **quando** os recursos financeiros poderão ser usados. Essa organização é a **programação financeira**; seu **cronograma de desembolso** prevê o ritmo dos pagamentos. Assim, ter uma dotação na lei significa ter autorização de gasto, mas não assegura dinheiro disponível para pagamento naquele momento.
 
 Na execução, a despesa passa, em regra, por três estágios que respondem a perguntas diferentes. **Empenho:** o órgão formaliza o comprometimento do crédito orçamentário para uma despesa, criando obrigação de pagamento para o Estado, pendente ou não de condição, nos termos da Lei nº 4.320/1964, art. 58. **Liquidação:** o órgão confere os documentos e verifica o direito do credor, como a entrega de materiais previstos no contrato (art. 63). **Pagamento:** depois da regular liquidação e da ordem da autoridade competente, ocorre o desembolso (arts. 62 e 64). Exemplo: reservar formalmente o crédito para comprar computadores é diferente de verificar a entrega e de transferir o dinheiro ao fornecedor. Esses três estágios pertencem à **fase de execução** do ciclo, não são três fases autônomas do ciclo.
 
@@ -128,7 +128,7 @@ Dizer que a **programação física foi cumprida** significa que o realizado alc
 
 A distinção para prova é: **meta física mede entrega; execução financeira mede valores; efetividade exige examinar a mudança produzida na realidade**. Entregar as cinco escolas não demonstra, isoladamente, redução da evasão ou melhora da aprendizagem. Também não basta observar gasto menor para concluir automaticamente pela eficiência: é preciso comparar produtos, qualidade, custos e condições de execução.
 
-**Cuidado com a base de comparação:** meta inicial e meta reprogramada podem ser diferentes. Ao informar que a programação foi cumprida, explicitar qual meta e qual período foram usados. No acompanhamento federal pelo Sistema Integrado de Planejamento e Orçamento (SIOP), a apuração do realizado físico segue os critérios do produto e da unidade de medida; o orientador da Secretaria de Orçamento Federal (SOF), item 4.3, também estabelece sua relação com a liquidação financeira. Essa regra de registro não torna liquidação, pagamento e entrega conceitos equivalentes.
+**Cuidado com a base de comparação:** o governo pode alterar a meta durante o ano. A **meta inicial** é aquela prevista no começo; a **meta reprogramada** é a versão modificada conforme as regras de acompanhamento. Se a meta inicial era construir cinco escolas e foi reduzida para quatro, entregar quatro representa 80% da meta inicial e 100% da reprogramada. Portanto, é preciso informar qual delas está sendo usada e a que período se refere. No acompanhamento federal pelo Sistema Integrado de Planejamento e Orçamento (SIOP), a apuração do realizado físico segue os critérios do produto e da unidade de medida; o orientador da Secretaria de Orçamento Federal (SOF), item 4.3, também estabelece sua relação com a liquidação financeira. Essa regra de registro não torna liquidação, pagamento e entrega conceitos equivalentes.
 
 ## Fronteiras fundamentais para recuperar em prova
 
@@ -146,7 +146,7 @@ A **LOA** se refere a um exercício financeiro. O **PPA** estabelece o planejame
 
 ### Direito financeiro × contabilidade pública × finanças públicas
 
-**Direito financeiro e orçamento** examinam autorizações, normas, procedimentos e limites; **contabilidade pública** registra e evidencia informações orçamentárias, financeiras e patrimoniais; **finanças públicas** também analisa funções econômicas do Estado, tributação, gasto, dívida e efeitos fiscais. As áreas se cruzam, mas a pergunta central de cada uma pode ser diferente.
+**Direito financeiro e orçamento** tratam das leis e dos limites para arrecadar e gastar recursos públicos. **Contabilidade pública** registra e apresenta informações sobre receitas, despesas, dinheiro e patrimônio, como bens e obrigações. **Finanças públicas** estudam também os efeitos da tributação, do gasto e da dívida na economia. Por exemplo, uma compra pode ser analisada quanto à autorização legal, ao registro contábil e ao efeito sobre as contas do governo. As áreas se cruzam, mas a pergunta central de cada uma pode ser diferente.
 
 Consultar [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]] e [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]] para não duplicar conteúdo no vault.
 

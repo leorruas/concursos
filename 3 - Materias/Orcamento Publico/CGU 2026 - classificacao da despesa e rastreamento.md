@@ -85,6 +85,18 @@ A **categoria econômica** distingue **despesas correntes** de **despesas de cap
 
 A construção de estrutura nova pode ser classificada em **investimentos**; a aquisição de imóvel já existente pode ser classificada em **inversões financeiras** conforme a hipótese. A Lei nº 4.320/1964 contém distinções pertinentes, mas aplicações específicas exigem conferência da codificação e do objeto efetivo. Não presumir o GND somente pelo nome geral “imóvel”.
 
+## Transferências, subtítulo e casos de classificação
+
+A classificação **programática** pode incluir o **subtítulo**, que localiza geograficamente ou detalha a programação de uma ação, segundo as tabelas da Lei Orçamentária Anual e do Manual Técnico de Orçamento. Subtítulo é diferente de **elemento de despesa**: o primeiro ajuda a identificar onde e como a ação se localiza; o segundo detalha o objeto do gasto na natureza.
+
+A **modalidade de aplicação** distingue, entre outras hipóteses, **aplicações diretas** e **transferências a outros entes** conforme a codificação. O mesmo fato econômico pode aparecer como **despesa do ente que transfere recursos** e, conforme os requisitos, **receita do ente recebedor**. O fato de a transferência sair de um orçamento não torna automaticamente corrente ou de capital a receita do destinatário; seu tratamento depende da finalidade e das regras da classificação. O auditor não deve somar a despesa do transferidor à despesa final do recebedor como se fossem dois serviços entregues à sociedade.
+
+**Aplicação direta × transferência:** na aplicação direta, o órgão ou unidade realiza o gasto diretamente segundo a modalidade e os instrumentos pertinentes; na transferência, destina recursos para aplicação por outro ente ou entidade conforme o regime. **Modalidade de aplicação** responde à forma de execução; **elemento** responde ao objeto, como material de consumo ou equipamentos e material permanente. Uma transferência a município não substitui a identificação do elemento ou da natureza do gasto quando exigida nos registros do órgão ou do recebedor.
+
+**Projeto com custeio:** projeto orçamentário é categoria de ação com resultado e duração definidos, e **pode conter despesas correntes** vinculadas à execução. Portanto, a presença de atividade temporária não transforma automaticamente todo gasto em investimento, nem a aquisição de serviço torna toda ação uma atividade permanente.
+
+**Terreno e obra:** a aquisição de terreno vinculada à realização de obra pode ter tratamento distinto da aquisição isolada de bem imobiliário já existente. A classificação correta exige examinar o objeto, a finalidade e as hipóteses normativas para **investimentos** ou **inversões financeiras**, em vez de deduzir o grupo pelo termo genérico “imóvel”.
+
 ## Fontes, RP e IU: três marcadores que não são natureza
 
 Uma despesa pode estar correta quanto ao grupo econômico e incorreta quanto à **fonte de recursos**. O **identificador de resultado primário (RP)** e o **identificador de uso (IU)** fornecem outros atributos de programação e controle, sujeitos às regras do exercício. Nenhum deles substitui função, programa ou natureza.

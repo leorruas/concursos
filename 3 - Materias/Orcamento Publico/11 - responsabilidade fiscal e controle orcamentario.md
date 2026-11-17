@@ -19,17 +19,17 @@ aliases:
 
 ## Núcleo do conceito: controle de limites não se reduz a executar dotações
 
-Um ente aprovou a Lei Orçamentária Anual (LOA), abriu dotações para serviços essenciais e cumpriu parte do cronograma de pagamentos. Ainda assim, pode violar regras de **despesa com pessoal**, **endividamento**, **renúncia de receita**, **disponibilidade de caixa** ou **transparência fiscal**. A autorização orçamentária não elimina os limites da gestão.
+Imagine que um município tenha aprovado a **Lei Orçamentária Anual (LOA)**, que estima receitas e autoriza despesas do ano, e reservado valores para escolas e postos de saúde. Mesmo com autorização para gastar, a prefeitura precisa respeitar regras sobre salários, dívidas, concessão de benefícios tributários, dinheiro disponível para pagar obrigações e divulgação das contas. **Dotação orçamentária** é o valor autorizado para uma finalidade, não dinheiro livre de condições legais.
 
 A **Lei Complementar nº 101/2000**, Lei de Responsabilidade Fiscal (**LRF**), estabelece regras de **planejamento, transparência, prevenção de riscos, metas e limites**. Seu art. 1º, § 1º, vincula a responsabilidade fiscal à ação **planejada e transparente**, à prevenção de riscos e à correção de desvios capazes de afetar o equilíbrio das contas.
 
-**Dois relatórios com perguntas diferentes.** Imagine que o Congresso queira saber quanto do orçamento federal foi efetivamente executado e, em seguida, se cada Poder está respeitando seus limites fiscais. Para a primeira pergunta, consulta-se o **Relatório Resumido da Execução Orçamentária (RREO)**, previsto na Constituição, art. 165, § 3º, e detalhado na LRF, arts. 52 e 53. Para a segunda, consulta-se o **Relatório de Gestão Fiscal (RGF)**, disciplinado nos arts. 54 e 55 da LRF. O RREO apresenta a execução orçamentária do ente, abrangendo os Poderes e o Ministério Público; o RGF é emitido pelos titulares dos Poderes e órgãos abrangidos pelo art. 20, de modo que cada responsável demonstre a situação fiscal de sua esfera. Mais adiante, examinamos as diferenças de prazo, conteúdo e responsabilidade.
+**Dois relatórios respondem a perguntas diferentes.** Para saber quanto o governo arrecadou e executou de seu orçamento, consulta-se o **Relatório Resumido da Execução Orçamentária (RREO)**, que reúne informações do ente federativo, abrangendo seus Poderes e o Ministério Público. Para verificar se os responsáveis de cada Poder ou órgão estão respeitando limites e condições fiscais, consulta-se o **Relatório de Gestão Fiscal (RGF)**. O RREO decorre do art. 165, § 3º, da Constituição e dos arts. 52 e 53 da LRF; o RGF, dos arts. 54 e 55. **Ente federativo** significa União, estado, Distrito Federal ou município. As seções seguintes explicam quem publica cada relatório, quando e com quais dados.
 
 Este artigo encerra o **roteiro editorial** de [[3 - Materias/Orcamento Publico/orcamento-publico|Orçamento Público]], conectando os fundamentos jurídicos à execução e ao controle. A incidência e o grau de aprofundamento exigidos no edital da CGU devem ser confirmados no documento oficial e em provas-espelho. Preparação editorial **não equivale à conclusão didática** da matéria.
 
 ## Planejamento fiscal: PPA, LDO, LOA e LRF
 
-A Constituição, art. 165, organiza **Plano Plurianual (PPA)**, **Lei de Diretrizes Orçamentárias (LDO)** e **Lei Orçamentária Anual (LOA)**. A LRF adiciona exigências à gestão fiscal, como equilíbrio entre receitas e despesas, controle de gastos e informações sobre riscos.
+O art. 165 da Constituição organiza três leis que cumprem funções distintas: o **Plano Plurianual (PPA)** estabelece objetivos e metas para um período de quatro anos; a **Lei de Diretrizes Orçamentárias (LDO)** orienta a elaboração e a execução do orçamento anual; e a **LOA** prevê receitas e fixa despesas de cada exercício. A **LRF** estabelece limites e controles para que essas decisões sejam financeiramente sustentáveis e transparentes.
 
 | Instrumento | Pergunta principal | Fronteira |
 | :--- | :--- | :--- |
@@ -48,7 +48,7 @@ Ver [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] para o 
 
 ## Receita Corrente Líquida: denominador fiscal
 
-A **Receita Corrente Líquida (RCL)**, definida no art. 2º, IV, da LRF, é referência para diversos **limites e indicadores fiscais**. Seu cálculo se baseia em receitas correntes e **deduções legalmente previstas**, com apuração do período estabelecido pela lei, incluindo os **12 meses de referência**.
+A **Receita Corrente Líquida (RCL)** é uma medida da receita utilizada como base de cálculo para limites fiscais, inclusive de pessoal. O art. 2º, IV, da LRF manda considerar determinadas **receitas correntes**, como tributos e outras receitas regulares, e subtrair as **deduções indicadas na lei**. A apuração reúne o mês de referência e os **11 meses anteriores**, totalizando 12 meses. Por exemplo, se a RCL apurada for R$ 100 milhões e o limite aplicável for 50%, o teto correspondente será de R$ 50 milhões: é a RCL calculada, não o saldo existente em conta bancária, que funciona como base.
 
 **RCL não é sinônimo de receita tributária, receita primária, arrecadação bruta ou saldo de caixa**. A dedução legal de parcelas e a janela móvel de **mês de referência mais 11 anteriores** (art. 2º, § 3º) impedem tratar a RCL como arrecadação isolada de um mês.
 
@@ -96,7 +96,7 @@ Existem exclusões legais específicas no art. 19, § 1º. Não generalizar a in
 
 ### Limite de alerta × prudencial × máximo
 
-Três patamares podem aparecer em uma mesma questão, mas cumprem funções diferentes:
+Os percentuais a seguir não se referem diretamente à receita total do governo: cada um é aplicado ao **limite próprio de despesa com pessoal** do Poder ou órgão. Eles indicam momentos diferentes de atenção e reação:
 
 | Patamar | Significado | Efeito principal |
 | :--- | :--- | :--- |
@@ -110,7 +110,7 @@ O art. 22 prevê restrições quando a despesa ultrapassa 95% do limite, como cr
 
 ### Recondução após ultrapassar o máximo
 
-O art. 23 determina que o excesso de despesa de pessoal seja eliminado nos **dois quadrimestres seguintes**, com **ao menos um terço no primeiro**, observados procedimentos e ressalvas legais. Recondução de limite é uma obrigação posterior ao excesso; a ultrapassagem do prudencial do art. 22 já provoca certas vedações antes de chegar ao máximo.
+O art. 23 da LRF determina que o Poder ou órgão elimine o excesso de despesa com pessoal nos **dois quadrimestres seguintes**. **Quadrimestre** é um período de quatro meses. Pelo menos **um terço do excesso** deve ser eliminado no primeiro quadrimestre, observados procedimentos e ressalvas legais. Assim, ultrapassar 95% do limite prudencial já aciona determinadas restrições do art. 22; ultrapassar 100% do limite máximo exige ainda medidas para voltar ao teto legal.
 
 **Exemplo:** um Poder tem limite próprio de R$ 12 milhões em pessoal e registra R$ 12,6 milhões. O excesso de R$ 600 mil aciona exame de recondução; não se pode confundir o patamar de alerta (90%) com o excesso efetivo acima de 100%.
 
@@ -124,7 +124,7 @@ A LRF estabelece requisitos além dos limites de pessoal:
 - **Criação, expansão ou aperfeiçoamento de ação governamental com aumento de despesa (art. 16):** exige estimativa de impacto e declaração de adequação orçamentária e financeira e compatibilidade com planejamento, nas condições legais.
 - **Despesa obrigatória de caráter continuado (art. 17):** obrigação corrente derivada de lei, medida provisória ou ato normativo, com execução **por período superior a dois exercícios**, sujeita a requisitos específicos de compensação e demonstração.
 
-**Despesas continuadas × despesas de capital** são categorias diferentes. Obra que dure mais de um ano não se torna, só por isso, despesa obrigatória corrente de caráter continuado. Da mesma forma, despesa relevante, porém pontual, não pode ser enquadrada automaticamente no art. 17 apenas por seu valor.
+**Despesa obrigatória de caráter continuado** não é qualquer gasto que dure mais de um ano: a definição do art. 17 exige despesa **corrente**, criada por lei, medida provisória ou ato normativo, com obrigação de execução por período superior a dois exercícios. **Despesa de capital**, como investimento em obra, é outra classificação, ligada à natureza do gasto. Uma obra que se estenda por três anos não se torna despesa obrigatória continuada apenas por sua duração.
 
 
 ### Benefícios tributários para pessoas jurídicas: LRF art. 14-A (LC nº 224/2025)
@@ -207,7 +207,7 @@ Exemplos de respostas diferentes a problemas diferentes:
 
 Não confundir **alerta do Tribunal de Contas**, **restrição preventiva**, **necessidade de recondução** e **punição individual**. São instrumentos com gatilhos, órgãos e condições diferentes.
 
-## Refinamento para Câmara 2026: fiscalização orçamentária, Congresso e TCU (CAM-ORC-016)
+## Fiscalização orçamentária: Congresso e Tribunal de Contas da União
 
 **Situação concreta.** Uma auditoria encontra indícios de despesa pública sem autorização na Lei Orçamentária Anual (LOA). A Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) pede esclarecimentos; o Tribunal de Contas da União (TCU) examina a matéria; e o Congresso Nacional decide sobre providências legislativas cabíveis. A questão central é **qual órgão pode solicitar, avaliar, julgar, sustar ou fiscalizar**, e em qual hipótese. O fato de o TCU **auxiliar o Congresso no controle externo** não elimina as competências próprias do Tribunal nem atribui ao TCU todo julgamento político das contas de governo.
 

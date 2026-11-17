@@ -320,7 +320,7 @@ Para explicar controle orçamentário federal, apresentar **objeto do art. 70 �
 
 ## Como pode ser cobrado
 
-Para CGU 2026, Cebraspe C/E, os contrastes de alto valor são **RREO × RGF**, **bimestre × quadrimestre**, **90% × 95% × 100%**, **50% da RCL × 60% da RCL**, **limite global × limite por Poder**, **art. 14 × art. 16 × art. 17**, **contingenciamento × anulação** e **controle interno × controle externo**.
+Para Câmara dos Deputados 2026 e CGU 2026, nas questões de Certo/Errado da Cebraspe, contrastes importantes são **RREO × RGF**, **bimestre × quadrimestre**, **90% × 95% × 100%**, **50% da RCL × 60% da RCL**, **limite global × limite por Poder**, **art. 14 × art. 16 × art. 17**, **contingenciamento × anulação** e **controle interno × controle externo**.
 
 Esses são mecanismos de cobrança **teoricamente plausíveis**. A frequência concreta precisa de comparação com provas reais e com o edital consolidado.
 

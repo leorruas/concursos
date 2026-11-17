@@ -107,3 +107,22 @@ O site também cria `session.id` por UUID, preserva `ids`, `answers` e `finished
 **Decisão técnica ajustada:** construir primeiro um adaptador de leitura entre o banco público revisado e as sessões do chat, sem alterar o armazenamento das respostas. Antes de escrever esse adaptador, verificar a forma publicada de `data/questoes-publicas.json` e seu processo de geração. Em particular, o site contém gabaritos públicos para correção local; um endpoint autenticado que esconda o gabarito pode melhorar o controle de apresentação, mas é uma evolução e não uma propriedade atual.
 
 **Teste de integração proposto:** selecionar dez `questionId` do banco revisado, garantir `subjectId`, `unitId`, `examPart` e `editalRef` verificáveis, aplicar dez no chat sem reler o banco, salvar uma sessão de dez respostas apenas no cofre privado e checar o painel unificado. Evitar enviar as mesmas tentativas também pelo endpoint do site, a menos que compartilhem ID de origem rastreável e haja garantia de deduplicação.
+
+
+## Piloto implementado no PR #372
+
+`scripts/prepare-chat-battery.js` reaproveita `selectCamaraQuestions`, trabalhando **somente com `expansao` validada** (`reviewStatus: validada` e `reviewEvidence` presente). Rejeita quantidade insuficiente, campos curriculares ausentes, gabarito inválido, ID duplicado ou concurso/cargo incompatível. **Não inclui** automaticamente `pilotoDidatico`, questões reais de cadernos externos, CGU ou Dataprev. O arquivo não lê o cofre privado.
+
+Uso em ambiente que tenha checkout do repositório e Node.js:
+
+```bash
+node scripts/prepare-chat-battery.js --subject direito-constitucional --count 10
+node scripts/prepare-chat-battery.js --unit processo-legislativo --count 10 --exclude /caminho/privado/ids-respondidos.json
+node scripts/test-prepare-chat-battery.js
+```
+
+`--exclude` recebe um arquivo JSON com **somente a lista de IDs de questões anteriores**. Gerar esse arquivo do histórico privado em ambiente autorizado; nunca versioná-lo no público. A saída vai a stdout e inclui gabaritos para o corretor. Evitar expor o pacote em URLs públicas e jamais tratá-lo como uma nova sessão concluída. `--source-version` aceita SHA fornecido pelo processo de chamada para rastreabilidade.
+
+**Limites deste piloto:** a execução do CLI depende de um ambiente com Node e acesso aos arquivos (não é uma função remota da conexão GitHub dentro do chat). Não há recuperação automática de pacote por ID nem checkpoint de chat entre conversas. Também não há integração com D1/cofre ou medição de tokens reais. O teste CI cobre seleção, filtros, integridade e tamanho de saída, mas **não** mede persistência privada, retomada, UI ou economia de contexto no produto.
+
+A próxima implementação deve ser um ponto de acesso autorizado que faça a seleção e devolva ao assistente somente N itens, mais um ponto de checkpoint privado idempotente. Até lá, este script é uma prova de integração local, sem alterar a operação padrão do chat.

@@ -13,11 +13,15 @@ export function resumePreparedBattery(packet, checkpoint) {
     throw new Error('Pacote de questões inválido');
   }
   requiredString(packet.concursoId, 'concursoId');
-  if (!checkpoint || checkpoint.sessionId !== checkpoint.id ||
-      typeof checkpoint.id !== 'string' || !checkpoint.id.trim()) {
+  if (!checkpoint ||
+      (checkpoint.sessionId != null && checkpoint.sessionId !== checkpoint.id) ||
+      typeof checkpoint.id !== 'string' || !checkpoint.id.trim() ||
+      (checkpoint.kind != null && checkpoint.kind !== 'chat-battery-checkpoint') ||
+      (checkpoint.schemaVersion != null && checkpoint.schemaVersion !== 1)) {
     throw new Error('Checkpoint sem ID estável');
   }
   if (checkpoint.concursoId !== packet.concursoId ||
+      (checkpoint.mode != null && checkpoint.mode !== packet.mode) ||
       checkpoint.source !== packet.source ||
       checkpoint.sourceVersion !== packet.sourceVersion) {
     throw new Error('Checkpoint pertence a outra seleção ou versão do banco');
@@ -58,7 +62,7 @@ export function resumePreparedBattery(packet, checkpoint) {
   }
   const nextIndex = checkpoint.answers.length;
   return {
-    sessionId: checkpoint.sessionId,
+    sessionId: checkpoint.id,
     concursoId: packet.concursoId,
     answered: nextIndex,
     total: packet.count,

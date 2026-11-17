@@ -172,7 +172,7 @@ O **§ 2º do art. 16** permite, observada a hipótese de autorização posterio
 
 **Item 1.** O cronograma de desembolso previsto no art. 8º da LRF deve ser estabelecido em função da publicação dos orçamentos, mesmo que a primeira avaliação bimestral não tenha revelado risco às metas fiscais.
 
-**Gabarito: Certo.** A programação inicial possui marco **próprio**, sem depender do gatilho do art. 9º. **Mecanismo:** distinguir regra de programação normal de providência de ajuste posterior.
+**Gabarito: Certo.** O art. 8º exige que o Executivo estabeleça programação financeira e calendário mensal de pagamentos **até 30 dias depois da publicação dos orçamentos**. Essa providência organiza a execução normal. Só depois, em situação diferente, a avaliação bimestral de receitas pode gerar limitação pelo art. 9º. A palavra *mesmo* no item está correta: não é preciso esperar uma crise fiscal para organizar o fluxo de pagamento.
 
 **Item 2.** Na aplicação da LDO federal de 2026, os bloqueios de dotações voltados ao respeito dos limites individualizados da LC nº 200/2023 constituem necessariamente a mesma medida de limitação de empenho do art. 9º da LRF, porque ambos podem restringir a execução.
 
@@ -184,7 +184,7 @@ O **§ 2º do art. 16** permite, observada a hipótese de autorização posterio
 
 **Item 4.** Na hipótese de recuperação parcial da receita prevista, o art. 9º, § 1º, da LRF determina recomposição proporcional das dotações cujos empenhos tenham sido limitados, sem que isso equivalha, por si, à criação de novo crédito adicional.
 
-**Gabarito: Certo.** Quando parte da receita prevista volta a se realizar, o art. 9º, § 1º, manda recompor proporcionalmente as dotações cujos empenhos foram limitados. Exemplo: se A sofreu limitação de R$ 4 milhões e B de R$ 6 milhões, recuperar R$ 5 milhões permite recompor R$ 2 milhões e R$ 3 milhões, respectivamente, nas condições do caso. O órgão recupera capacidade de empenhar dentro da autorização existente; não surge uma nova dotação apenas por essa recomposição.
+**Gabarito: Certo.** Quando parte da receita prevista volta a se realizar, o art. 9º, § 1º, manda recompor proporcionalmente as dotações cujos empenhos foram limitados. Se A sofreu limitação de R$ 4 milhões e B de R$ 6 milhões, recuperar R$ 5 milhões permite recompor R$ 2 milhões e R$ 3 milhões, respectivamente, nas condições do caso. O órgão recupera capacidade de empenhar dentro da autorização existente; não surge uma nova dotação apenas por essa recomposição.
 
 ### Heurística e conexão com as próximas notas
 
@@ -204,23 +204,23 @@ Os mecanismos mais úteis para um item **Certo/Errado** da Cebraspe são: **mens
 
 **Caso 1:** a LOA fixou R$ 12 milhões para determinada ação. A arrecadação do primeiro bimestre indica risco para a meta fiscal e o órgão recebe limite de empenho de R$ 8 milhões. **Os R$ 4 milhões restantes não foram automaticamente excluídos da LOA.** Houve restrição operacional, que poderá exigir nova avaliação no bimestre seguinte.
 
-**Caso 2:** recursos de fonte vinculada ingressam no fim do exercício, mas o pagamento previsto ocorrerá no exercício seguinte. O mero decurso do tempo **não libera a receita de sua finalidade**. A administração precisa respeitar a vinculação.
+**Caso 2:** o município recebe, em dezembro, **R$ 100 mil vinculados à construção de uma unidade de saúde**. Se o pagamento ocorrer no exercício seguinte, a mudança de ano não transforma esses recursos em dinheiro para qualquer finalidade. O **art. 8º, parágrafo único, da LRF** exige que recursos vinculados sejam usados no objeto da vinculação, mesmo em outro exercício. O responsável pela despesa deve observar essa finalidade e a documentação exigida.
 
-**Caso 3:** a arrecadação melhora apenas parcialmente e o gestor pretende recompor integralmente uma única unidade enquanto mantém todas as demais limitações. É necessário verificar a **proporcionalidade** exigida pelo art. 9º, § 1º, em vez de tratar a recomposição como escolha irrestrita.
+**Caso 3:** os órgãos A e B sofreram limitações de **R$ 4 milhões** e **R$ 6 milhões**, respectivamente. Se a melhora da arrecadação permite recompor **R$ 5 milhões** no conjunto considerado, o **art. 9º, § 1º, da LRF** exige recomposição proporcional às reduções: **R$ 2 milhões para A e R$ 3 milhões para B**, nas condições do exemplo. O gestor não pode tratar essa recomposição como distribuição livre sem observar o critério legal.
 
 ## Questões comentadas: treino didático C/E
 
-**Item 1.** A programação financeira e o cronograma mensal de desembolso previstos na LRF devem ser estabelecidos apenas após a primeira avaliação bimestral que indique risco de descumprimento das metas fiscais. **Gabarito: Errado.** O art. 8º exige providência após a publicação do orçamento, mesmo sem risco fiscal. A avaliação bimestral é gatilho específico do art. 9º.
+**Item 1.** A programação financeira e o cronograma mensal de desembolso previstos na LRF devem ser estabelecidos apenas após a primeira avaliação bimestral que indique risco de descumprimento das metas fiscais. **Gabarito: Errado.** O **art. 8º da LRF** obriga o Executivo a estabelecer a programação financeira e o calendário mensal de pagamentos em até **30 dias após a publicação dos orçamentos**, ainda que a arrecadação esteja normal. A avaliação de risco feita ao final de cada bimestre pode acionar a **limitação de empenho e movimentação financeira do art. 9º**, nos 30 dias seguintes. O item transporta a condição do art. 9º para o art. 8º.
 
-**Item 2.** A LRF prevê recomposição proporcional das dotações cujos empenhos tenham sido limitados caso a receita prevista volte a se realizar, ainda que parcialmente. **Gabarito: Certo.** A assertiva aplica o art. 9º, § 1º. Recomposição não é criação de receita nem crédito adicional.
+**Item 2.** A LRF prevê recomposição proporcional das dotações cujos empenhos tenham sido limitados caso a receita prevista volte a se realizar, ainda que parcialmente. **Gabarito: Certo.** Se A sofreu limitação de R$ 4 milhões e B de R$ 6 milhões, uma recomposição total de R$ 5 milhões, consideradas essas reduções, devolve **R$ 2 milhões a A e R$ 3 milhões a B**. O **art. 9º, § 1º, da LRF** exige proporcionalidade às reduções efetivadas. A medida restabelece capacidade de empenhar em autorizações existentes; não abre, por si só, um novo crédito orçamentário.
 
-**Item 3.** Uma obrigação protegida contra limitação de empenho pelo art. 9º da LRF pode ser paga sem verificação do direito do credor, porque a proteção fiscal afasta as exigências da liquidação. **Gabarito: Errado.** A regra fiscal não afasta a liquidação da Lei nº 4.320/1964, art. 63. O distrator aplica uma exceção ao objeto errado.
+**Item 3.** Uma obrigação protegida contra limitação de empenho pelo art. 9º da LRF pode ser paga sem verificação do direito do credor, porque a proteção fiscal afasta as exigências da liquidação. **Gabarito: Errado.** Certas despesas, como obrigações constitucionais e legais protegidas pelo **art. 9º, § 2º, da LRF**, ficam fora da restrição fiscal descrita ali. Essa proteção **não dispensa a liquidação**: o art. 63 da Lei nº 4.320/1964 exige verificar a origem e o objeto da obrigação, o valor devido e quem tem direito de receber. O enunciado transforma uma exceção à limitação de empenho em dispensa indevida de controle de pagamento.
 
 Os itens são inéditos, apenas didáticos, e **não registram desempenho do estudante**.
 
 ## Heurísticas
 
-**30 dias após a publicação da LOA**: programação e cronograma mensal. **Final de bimestre + 30 dias**: possível limitação de empenho e movimentação financeira. **Receita melhorou**: examinar recomposição proporcional. **Despesa constitucional/legal protegida**: verificar alcance da ressalva; não presumir dispensa de controle.
+**30 dias após a publicação da LOA**: programação e cronograma mensal. **Final de bimestre + 30 dias**: possível limitação de empenho e movimentação financeira. **Receita melhorou**: examinar recomposição proporcional. **Despesa constitucional/legal protegida**: a proteção do art. 9º, § 2º, contra limitação fiscal não elimina empenho, liquidação, pagamento regular e fiscalização.
 
 A interpretação correta exige separar **autorização, limite de empenho, disponibilidade de caixa e pagamento**.
 

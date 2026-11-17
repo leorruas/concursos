@@ -17,11 +17,11 @@ aliases:
 
 ## Problema de entrada
 
-No projeto de LOA, um parlamentar propõe recursos para equipar um hospital. Depois de aprovada a programação, surge um impedimento técnico para a execução. Em outro caso, o município recebe recursos por transferência especial sem convênio. As três situações suscitam perguntas diferentes: **quem pode propor a alteração**, **em quais condições ela é aprovada** e **quais obrigações e controles existem durante a execução**.
+Durante a discussão do projeto da **Lei Orçamentária Anual (LOA)**, um deputado propõe reservar dinheiro para equipamentos de um hospital. O Congresso ainda precisa apreciar a proposta. Após a aprovação da lei, o hospital pode precisar cumprir requisitos técnicos para receber os equipamentos. Em outro caso, um município recebe dinheiro por **transferência especial**, sem celebrar convênio. São etapas distintas: apresentar uma emenda, aprovar a programação, autorizar a despesa, transferir recursos, pagar e prestar contas.
 
 ## Núcleo do conceito
 
-**Emenda parlamentar** é uma proposta de mudança em projeto de lei orçamentária sujeita a condições constitucionais e legais. A classificação por autoria identifica emendas individuais, de bancada e de comissão; a análise da execução pergunta se há garantia constitucional de execução e quais impedimentos ou limites se aplicam. A modalidade da transferência, por sua vez, determina como os recursos chegam ao ente beneficiado e quais regras de destinação devem ser seguidas.
+**Emenda parlamentar** é uma proposta de alteração apresentada por um parlamentar ou colegiado autorizado durante a análise de um projeto de lei. Três critérios ajudam a compreendê-la. **Autoria:** quem apresentou a proposta, como deputado, senador, bancada ou comissão. **Regime de execução:** se, depois de aprovada, a programação deve ser executada nas condições constitucionais. **Forma de transferência:** como o dinheiro pode chegar ao ente beneficiado. Uma mesma emenda pode ser individual, impositiva e executada mediante transferência especial. Cada palavra descreve um aspecto diferente.
 
 A emenda modifica a proposta legislativa; um **crédito adicional** modifica a autorização orçamentária conforme sua espécie, na forma tratada em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]]. A expressão “especial” em transferência especial não significa crédito especial.
 
@@ -60,18 +60,20 @@ A **Lei Complementar nº 210/2024** regula a proposição e a execução das eme
 
 A Constituição, art. 166, §§ 9º a 13, estabelece percentuais e regras para emendas individuais e de bancada, inclusive garantias de execução orçamentária e financeira, observadas as normas. Na disciplina constitucional, **metade do percentual das emendas individuais** é reservada a ações e serviços públicos de saúde.
 
-**Impedimentos de ordem técnica**, previstos no art. 166, § 13, afastam a execução obrigatória nas hipóteses pertinentes. A execução também precisa observar critérios **equitativos**, procedimentos legais, transparência e rastreabilidade.
+**Impedimento de ordem técnica** é um obstáculo concreto à execução da despesa, como a falta de licença ambiental obrigatória em uma obra. Nos casos pertinentes, o art. 166, § 13, da Constituição afasta a execução obrigatória diante desse impedimento. O órgão responsável precisa fundamentá-lo. **Execução equitativa** significa aplicar os critérios legais de maneira objetiva e imparcial, sem favorecer ou prejudicar autores por motivos políticos. As decisões e os gastos precisam permanecer transparentes e rastreáveis.
 
 Isso produz três separações:
 - **Programação aprovada** não significa empenho ou pagamento realizado.
 - **Obrigatoriedade de execução** não elimina impedimento técnico legalmente fundamentado.
 - **Ausência de convênio** não implica ausência de fiscalização do destino dos recursos.
 
+**Da autorização ao pagamento.** A emenda incluída na LOA autoriza a programação. O órgão executor ainda verifica os requisitos e pode realizar o **empenho**, que compromete a autorização orçamentária para uma despesa. A **liquidação** verifica a entrega ou o cumprimento da obrigação; o **pagamento** depende dos requisitos legais e da disponibilidade financeira. Quando o dinheiro é transferido a um município, o repasse da União ao município também deve ser distinguido do uso final dos recursos pelo beneficiário. **Rastreabilidade** permite reconstruir quem indicou, quem decidiu, quem recebeu e como o dinheiro foi utilizado. O artigo [[3 - Materias/Orcamento Publico/15 - emendas parlamentares deliberacao e rastreabilidade|Emendas parlamentares: deliberação, modalidades e rastreabilidade]] desenvolve essa sequência.
+
 ### Transferência especial × finalidade definida
 
 O art. 166-A prevê que emendas individuais impositivas possam alocar recursos a estados, DF e municípios mediante **transferência especial** ou **transferência com finalidade definida**.
 
-A transferência **especial** ocorre diretamente ao ente beneficiado, **independentemente de convênio**, com condições constitucionais de aplicação; pelo menos **70%** devem ser aplicados em despesas de **capital**. A transferência **com finalidade definida** vincula os recursos à programação da emenda e às áreas de competência constitucional da União.
+Na transferência **especial**, a União envia recursos diretamente ao estado, Distrito Federal ou município beneficiado, sem precisar de **convênio**, instrumento formal que estabelece obrigações entre os participantes. Pelo menos **70%** devem ser aplicados em **despesas de capital**, como investimentos e aquisição de equipamentos, respeitada a classificação legal. Na transferência **com finalidade definida**, o uso do dinheiro segue a programação prevista na emenda, dentro das áreas em que a União pode atuar. Dispensar convênio não libera o beneficiário das regras de aplicação e controle.
 
 A Constituição proíbe usar recursos dessas modalidades no pagamento de **pessoal e encargos sociais** e de **serviço da dívida**. As regras adicionais de transparência, acompanhamento e controle continuam aplicáveis. A palavra “especial” aqui se refere a uma **modalidade de transferência**, não a crédito adicional **especial**.
 

@@ -53579,6 +53579,286 @@
       "correctAnswer": "E",
       "explanation": "A regra federal de nove ministros não pode ser transportada para o tribunal estadual. A própria Constituição Federal determina que os tribunais de contas estaduais sejam integrados por sete conselheiros. (Constituição Federal, art. 73, caput, e art. 75, parágrafo único.)",
       "reviewEvidence": "Constituição Federal, art. 73, caput, e art. 75, parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Confronta a aplicação subsidiária das normas do Tribunal da União com a composição estadual expressa."
+    },
+    {
+      "id": "cam-const-200-sigilo-identidade-fonte-testemunho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "sigilo-identidade-fonte-testemunho",
+      "mechanism": "sigilo-identidade-fonte-testemunho",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "statement": "Uma deputada federal chamada a testemunhar sobre fiscalização que realizou no exercício do mandato não é obrigada a identificar quem lhe confiou informações em razão dessa atividade parlamentar.",
+      "correctAnswer": "C",
+      "explanation": "A prerrogativa protege tanto as informações recebidas ou prestadas em razão do mandato quanto as pessoas que as confiaram ou delas receberam informações. (Constituição Federal, art. 53, § 6º.)",
+      "reviewEvidence": "Constituição Federal, art. 53, § 6º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica o nexo funcional e a proteção da identidade da fonte."
+    },
+    {
+      "id": "cam-const-200-sitio-ato-interno-suspensao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "sitio-ato-interno-suspensao",
+      "mechanism": "sitio-ato-interno-suspensao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "statement": "Durante estado de sítio, a Câmara pode suspender a imunidade de deputado por ato praticado dentro do Congresso, desde que o ato seja incompatível com a execução da medida e a suspensão seja apoiada por dois terços dos membros da Casa.",
+      "correctAnswer": "E",
+      "explanation": "O quórum e a incompatibilidade não bastam. A exceção constitucional exige também que o ato tenha sido praticado fora do recinto do Congresso. As imunidades subsistem como regra durante o estado de sítio. (Constituição Federal, art. 53, § 8º.)",
+      "reviewEvidence": "Constituição Federal, art. 53, § 8º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica cumulativamente local, incompatibilidade e quórum."
+    },
+    {
+      "id": "cam-const-200-prisao-maioria-presentes-insuficiente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "prisao-maioria-presentes-insuficiente",
+      "mechanism": "prisao-maioria-presentes-insuficiente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "statement": "Preso deputado federal em flagrante de crime inafiançável e remetidos os autos à Câmara em vinte e quatro horas, basta a maioria dos presentes para a Casa resolver sobre a prisão.",
+      "correctAnswer": "E",
+      "explanation": "A prisão indicada integra a exceção constitucional e os autos devem seguir à Casa nesse prazo. Para resolver sobre a prisão, exige-se maioria dos membros da Câmara. O número de presentes não reduz essa exigência. (Constituição Federal, art. 53, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 53, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a validade do flagrante, a remessa dos autos e a base de cálculo dos votos."
+    },
+    {
+      "id": "cam-const-200-sustacao-prazo-conta-mesa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "sustacao-prazo-conta-mesa",
+      "mechanism": "sustacao-prazo-conta-mesa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#2. Imunidades e incompatibilidades: arts. 231 a 234"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "2. Imunidades e incompatibilidades: arts. 231 a 234"
+      },
+      "statement": "O prazo improrrogável de quarenta e cinco dias para a Casa apreciar pedido de sustação de ação penal conta do recebimento do pedido pela Mesa Diretora.",
+      "correctAnswer": "C",
+      "explanation": "A contagem começa quando a Mesa recebe o pedido de sustação. O momento em que a denúncia é recebida integra outra etapa e não dá início a esse prazo. (Constituição Federal, art. 53, § 4º.)",
+      "reviewEvidence": "Constituição Federal, art. 53, § 4º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue recebimento da denúncia e recebimento do pedido pela Mesa."
+    },
+    {
+      "id": "cam-const-200-gestante-atestado-antes-semana-trinta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "gestante-atestado-antes-semana-trinta",
+      "mechanism": "gestante-atestado-antes-semana-trinta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#1. Exercício, presença e transparência do mandato: arts. 226 a 230"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "1. Exercício, presença e transparência do mandato: arts. 226 a 230"
+      },
+      "statement": "Deputada na vigésima oitava semana de gestação pode exercer o direito regimental à participação remota plena mediante apresentação de atestado médico, observados os termos do ato da Mesa.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento prevê a participação a partir da trigésima semana ou mediante atestado. O atestado permite o exercício do direito antes do marco temporal. (Regimento Interno, art. 227-A, caput.)",
+      "reviewEvidence": "Regimento Interno, art. 227-A, caput — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Distingue condições alternativas para participação remota."
+    },
+    {
+      "id": "cam-const-200-licenca-gestante-remoto-marco-retorno",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "licenca-gestante-remoto-marco-retorno",
+      "mechanism": "licenca-gestante-remoto-marco-retorno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#1. Exercício, presença e transparência do mandato: arts. 226 a 230"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "1. Exercício, presença e transparência do mandato: arts. 226 a 230"
+      },
+      "statement": "Quando uma deputada retorna da licença à gestante, começa a correr o prazo de cento e oitenta dias de participação remota previsto no Regimento.",
+      "correctAnswer": "E",
+      "explanation": "A contagem a partir do retorno está errada. O direito se estende à deputada que regressa, mas o limite é contado desde o início da licença. (Regimento Interno, art. 227-A, parágrafo único.)",
+      "reviewEvidence": "Regimento Interno, art. 227-A, parágrafo único — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Distingue início da licença e retorno como marcos de contagem."
+    },
+    {
+      "id": "cam-const-200-viagem-ciencia-previa-presidencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "viagem-ciencia-previa-presidencia",
+      "mechanism": "viagem-ciencia-previa-presidencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#1. Exercício, presença e transparência do mandato: arts. 226 a 230"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "1. Exercício, presença e transparência do mandato: arts. 226 a 230"
+      },
+      "statement": "Antes de viagem particular ao exterior, deputado deve dar ciência à Câmara por intermédio da Presidência, indicando a natureza e a duração estimada do afastamento.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento pede comunicação prévia à Câmara pela Presidência. O deputado informa por que se afasta e quanto tempo estima ficar fora. (Regimento Interno, art. 228.)",
+      "reviewEvidence": "Regimento Interno, art. 228 — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Aplica destinatário, antecedência e conteúdo de uma comunicação."
+    },
+    {
+      "id": "cam-const-200-missao-cultural-licenca-decide-mesa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "missao-cultural-licenca-decide-mesa",
+      "mechanism": "missao-cultural-licenca-decide-mesa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#3. Licenças: arts. 235 a 237"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "3. Licenças: arts. 235 a 237"
+      },
+      "statement": "A decisão sobre licença de deputado para desempenhar missão temporária de caráter cultural cabe à Mesa, embora o Presidente conceda as licenças como regra.",
+      "correctAnswer": "C",
+      "explanation": "A norma geral atribui a concessão ao Presidente. A missão temporária diplomática ou cultural tem regra específica e deve ser decidida pela Mesa. (Regimento Interno, art. 235, I e § 4º.)",
+      "reviewEvidence": "Regimento Interno, art. 235, I e § 4º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Identifica a exceção de competência conforme a finalidade da licença."
+    },
+    {
+      "id": "cam-const-200-renuncia-diario-primeiro-marco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "renuncia-diario-primeiro-marco",
+      "mechanism": "renuncia-diario-primeiro-marco",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      },
+      "statement": "Deputado sem processo de perda de mandato apresentou renúncia escrita à Mesa. Se ela for disponibilizada no Diário da Câmara antes de ser lida no expediente, a disponibilização torna a renúncia efetiva e irretratável.",
+      "correctAnswer": "C",
+      "explanation": "A renúncia escrita independe de aprovação. A efetivação ocorre na leitura ou na disponibilização no Diário, conforme o evento que acontecer primeiro. O caso não envolve a suspensão constitucional dos efeitos durante processo de perda de mandato. (Regimento Interno, art. 239, caput.)",
+      "reviewEvidence": "Regimento Interno, art. 239, caput — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Aplica forma escrita, ordem entre marcos e efeito, excluída a exceção constitucional."
+    },
+    {
+      "id": "cam-const-200-suplente-licenca-original-soma",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Mandato e prerrogativas parlamentares",
+      "articleId": "art-1de8b5094cf736a2",
+      "conceptId": "suplente-licenca-original-soma",
+      "mechanism": "suplente-licenca-original-soma",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-1de8b5094cf736a2#4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md",
+        "section": "4. Vacância, perda do mandato e suplência: arts. 238 a 243"
+      },
+      "statement": "Deputado obteve licença de saúde inicialmente concedida por cem dias e depois prorrogada por trinta dias. Ao superar cento e vinte dias pela soma dos períodos, fica configurada a hipótese regimental de convocação do suplente por licença de saúde.",
+      "correctAnswer": "E",
+      "explanation": "O prazo que precisa ultrapassar cento e vinte dias é o original. O Regimento proíbe somar períodos para configurar essa hipótese de convocação, ainda que o afastamento total chegue a cento e trinta dias. (Regimento Interno, art. 241, caput e III.)",
+      "reviewEvidence": "Regimento Interno, art. 241, caput e III — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Confronta prazo original, soma de períodos e convocação em uma sequência."
     }
   ]
 }

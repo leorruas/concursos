@@ -110,6 +110,23 @@ O **art. 7º, § 10, da LDO federal de 2026** especifica a finalidade do IU: ind
 
 Os códigos numéricos, categorias detalhadas e regras de codificação podem variar com o exercício e com alterações normativas. Antes de julgar um lançamento real, consultar a LOA, a LDO e o MTO aplicáveis ao período, em vez de transportar automaticamente códigos de outro ano.
 
+### Leitura dos códigos RP e MA na LDO federal de 2026
+
+O **art. 7º, § 4º, da Lei nº 15.321/2025** diferencia despesas financeiras e primárias, mas também distingue **quais despesas primárias entram na apuração da meta fiscal**. É necessário consultar o código efetivamente aplicado:
+
+| RP em 2026 | Tratamento definido na LDO | Cuidado em auditoria |
+| :--- | :--- | :--- |
+| **RP 0** | Despesa financeira | Não enquadrar automaticamente como despesa primária |
+| **RP 1** | Despesa primária obrigatória, integrante da apuração da meta | A obrigatoriedade depende do rol normativo aplicável |
+| **RP 2** | Despesa primária discricionária fora das categorias específicas indicadas na LDO | Não equiparar toda discricionária a RP 2 |
+| **RP 3** | Despesa primária discricionária abrangida pelo Novo PAC e considerada na meta | Verificar vinculação ao programa |
+| **RP 4 e RP 5** | Despesas primárias do Orçamento de Investimento, fora da apuração da meta, respectivamente sem e com enquadramento no Novo PAC | Ser primária não significa necessariamente entrar na mesma meta |
+| **RP 6, RP 7 e RP 8** | Despesas primárias vinculadas, respectivamente, a emendas individuais, de bancada estadual e de comissões, nos termos da LDO | Distinguir origem parlamentar, modalidade e requisitos |
+
+A **modalidade de aplicação (MA)** também tem sentido próprio no art. 7º, §§ 6º a 9º. Exemplos de códigos de 2026: **MA 30** (transferências a estados e ao Distrito Federal), **MA 40** (transferências a municípios), **MA 50** (instituições privadas sem fins lucrativos), **MA 90** (aplicações diretas) e **MA 91** (operação entre órgãos, fundos e entidades integrantes dos Orçamentos Fiscal e da Seguridade Social). **MA 99**, “a definir”, não pode ser usada no empenho, segundo o § 8º. O § 9º também veda a execução de programação com designação imprecisa, como “a definir”.
+
+**Procedimento:** examinar a dotação e os registros da despesa, identificar RP e MA, conferir a norma de 2026 e verificar o destinatário e o tipo de aplicação. A análise fiscal do RP e a análise institucional da MA são complementares.
+
 ## Procedimento de auditoria: classificação, uso e entrega
 
 Um erro de código pode comprometer relatórios, acompanhamento de vinculações e análise de metas. Para julgar uma divergência, o auditor deve comparar o fato, a codificação utilizada e a regra aplicável.
@@ -152,7 +169,11 @@ Um erro de código pode comprometer relatórios, acompanhamento de vinculações
 
 **Item 12.** "Duas ações da mesma função orçamentária e do mesmo GND devem possuir necessariamente a mesma fonte de recursos." **Errado.** A função e o GND não definem, por si, a fonte de financiamento. É preciso consultar a programação e as vinculações pertinentes.
 
-Estes doze itens são exemplos autorais de estudo, sem equivalência comprovada com questões oficiais, e não registram desempenho pessoal.
+**Item 13.** "No orçamento federal de 2026, todas as despesas primárias do Orçamento de Investimento das estatais são necessariamente consideradas no resultado primário usado para cumprimento da meta." **Errado.** A LDO 2026, art. 7º, § 4º, III, prevê RP 4 e RP 5 para despesas primárias do Orçamento de Investimento que não são consideradas nessa apuração.
+
+**Item 14.** "A classificação MA 90 identifica aplicações diretas, enquanto a MA 40 identifica transferências a municípios; ambas são diferentes da modalidade de licitação." **Certo.** O art. 7º, § 7º, da LDO federal de 2026 discrimina essas modalidades de aplicação orçamentária.
+
+Estes quatorze itens são exemplos autorais de estudo, sem equivalência comprovada com questões oficiais, e não registram desempenho pessoal.
 
 ## Fontes e vínculos
 

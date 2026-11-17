@@ -70,5 +70,26 @@
   }
   return selected.map((x,i)=>({...x,order:i+1}));
  }
- root.ResultsStudyPlan={catalogCoverage,reviewQueue,studySequence};
+ function combinedPracticeCoverage(bankCoverage,bySubject){
+  const map=new Map();
+  for(const item of bankCoverage||[]){
+   if(!item||!item.subjectId)continue;
+   map.set(item.subjectId,{subjectId:item.subjectId,
+    totalBank:Number(item.total)||0,distinctBankAnswered:Number(item.answered)||0});
+  }
+  for(const item of bySubject||[]){
+   if(!item?.id)continue;
+   const row=map.get(item.id)||{subjectId:item.id,totalBank:0,distinctBankAnswered:0};
+   row.chatAttempts=Number(item.sourceChat)||0;
+   row.siteAttempts=Number(item.sourceSite)||0;
+   row.totalAttempts=Number(item.total)||row.chatAttempts+row.siteAttempts;
+   map.set(item.id,row);
+  }
+  return [...map.values()].map(row=>({
+   ...row,chatAttempts:row.chatAttempts||0,siteAttempts:row.siteAttempts||0,
+   totalAttempts:row.totalAttempts||0,remainingBank:Math.max(0,row.totalBank-row.distinctBankAnswered),
+   bankPercent:row.totalBank?Math.round(row.distinctBankAnswered*100/row.totalBank):null
+  })).sort((a,b)=>a.subjectId.localeCompare(b.subjectId,'pt-BR'));
+ }
+ root.ResultsStudyPlan={catalogCoverage,reviewQueue,studySequence,combinedPracticeCoverage};
 })(typeof window!=='undefined'?window:globalThis);

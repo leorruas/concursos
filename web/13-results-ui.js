@@ -186,13 +186,17 @@ function showNextStudies(){
 }
 function showCoverage(){
  const root=$('results-coverage');root.replaceChildren();
- if(!coverageData){root.append(el('p','results-caption','Cobertura do banco ainda não consultada.'));return;}
- const rows=coverageData.filter(x=>!selectedSubject||x.subjectId===selectedSubject);
- if(!rows.length){root.append(el('p','results-caption','Não há questões publicadas neste banco para a matéria selecionada.'));return;}
+ const rows=window.ResultsStudyPlan.combinedPracticeCoverage(coverageData,current?.difficulty?.bySubject||[])
+  .filter(x=>!selectedSubject||x.subjectId===selectedSubject);
+ if(!rows.length){root.append(el('p','results-caption','Sem questões registradas ou disponíveis para esta matéria.'));return;}
  for(const x of rows){
   const row=el('div','results-concept'),left=el('div');
-  left.append(el('strong','',title(x.subjectId)),el('small','',x.answered+' questão(ões) diferentes respondidas de '+x.total+' disponíveis · '+x.remaining+' ainda não respondidas'));
-  const value=el('strong','results-score',x.percent+'% do banco');
+  left.append(el('strong','',title(x.subjectId)),
+   el('small','',x.totalAttempts+' questão(ões) respondidas no histórico: '+x.chatAttempts+' no ChatGPT e '+x.siteAttempts+' no site.'),
+   el('small','',x.totalBank
+    ?x.distinctBankAnswered+' questão(ões) diferentes do banco público respondidas no site, de '+x.totalBank+' disponíveis · '+x.remainingBank+' ainda não respondidas.'
+    :'Sem questões publicadas no banco do site para esta matéria.'));
+  const value=el('strong','results-score',x.bankPercent===null?'Histórico':'Banco: '+x.bankPercent+'%');
   row.append(left,value);root.append(row);
  }
 }

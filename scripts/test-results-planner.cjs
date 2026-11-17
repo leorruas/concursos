@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const ctx={Map,Set};ctx.window=ctx;vm.createContext(ctx);
 vm.runInContext(fs.readFileSync(path.join(__dirname,'../web/13b-results-planner.js'),'utf8'),ctx);
-const {catalogCoverage,reviewQueue}=ctx.ResultsStudyPlan;
+const {catalogCoverage,reviewQueue,combinedPracticeCoverage}=ctx.ResultsStudyPlan;
 const catalog={contests:[{concursoId:'camara-2026',subjects:[
  {subjectId:'direito-constitucional',rotulo:'Direito Constitucional',itemEdital:'Básicos',articleIds:['art-1','art-2'],hubArticleId:'hub-1'},
  {subjectId:'administracao-publica',articleIds:['art-3']}]},
@@ -39,4 +39,21 @@ assert.notEqual(seq[1].subjectId,seq[0].subjectId,'alternar matérias quando pos
 assert.equal(schedule([{articleId:'x',subjectId:'a'},{articleId:'x',subjectId:'a'}],[],7).length,1,'não duplicar artigos');
 assert.equal(schedule([],[],7).length,0);
 assert(html.includes('id="results-next-studies"'));
+const coverageRows=combinedPracticeCoverage(
+ [{subjectId:'direito-constitucional',total:10,answered:3}],
+ [{id:'direito-constitucional',total:8,sourceChat:5,sourceSite:3},
+  {id:'administracao-publica',total:4,sourceChat:4,sourceSite:0}]
+);
+assert.equal(coverageRows.length,2,'matérias sem questões no banco também aparecem');
+const constRow=coverageRows.find(x=>x.subjectId==='direito-constitucional');
+assert.equal(constRow.totalAttempts,8);
+assert.equal(constRow.chatAttempts,5);
+assert.equal(constRow.siteAttempts,3);
+assert.equal(constRow.bankPercent,30,'histórico do ChatGPT não aumenta artificialmente a cobertura do banco');
+assert.equal(constRow.remainingBank,7);
+const other=coverageRows.find(x=>x.subjectId==='administracao-publica');
+assert.equal(other.chatAttempts,4);
+assert.equal(other.bankPercent,null);
+assert.equal(combinedPracticeCoverage([],[]).length,0);
+assert(html.includes('A contagem por matéria inclui questões respondidas no ChatGPT e no site'));
 console.log('OK: estudo priorizado e matérias não avaliadas, isolados por concurso, sem dados pessoais.');

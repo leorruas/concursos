@@ -17,9 +17,9 @@ aliases:
 
 ## Núcleo: que pergunta cada registro de despesa responde?
 
-Uma obra na escola recebe vários identificadores **ao mesmo tempo**. O órgão/unidade responde **quem**; a função/subfunção responde **em qual área**; programa/ação/subtítulo responde **o que o governo fará**; categoria econômica/GND/modalidade/elemento responde **que tipo e objeto de gasto**; fonte responde **com quais recursos e regras**; esfera aponta **em qual orçamento da LOA**; meta física e dotação indicam **entrega prevista e valor autorizado**.
+Imagine que uma prefeitura planeje construir seis salas em uma escola. O orçamento precisa informar **quem recebeu autorização para gastar**, **em qual área do governo**, **o que será realizado** e **que tipo de gasto será feito**. Também precisa indicar **quais recursos financiarão a obra** e **quanto está autorizado**. Para organizar essas respostas, cada despesa recebe várias classificações ao mesmo tempo. A **Lei Orçamentária Anual (LOA)** reúne a autorização. A **dotação** é o valor autorizado para uma programação; a **meta física** indica a entrega prevista, como seis salas. O **Grupo de Natureza da Despesa (GND)** informa a categoria de gasto dentro da classificação por natureza.
 
-**Caso progressivo:** construir seis salas é um **projeto** na programação e, em regra, **Investimentos** no Grupo de Natureza da Despesa (GND). Mude somente o objeto do gasto para manutenção rotineira: a natureza tende a ser **Outras Despesas Correntes**, enquanto a área Educação e a unidade responsável podem permanecer iguais. Mude novamente a forma de execução: se o próprio município contrata e paga a empresa, pode haver **Aplicações Diretas** mesmo que o serviço seja feito por terceiro. Modalidade de aplicação não é modalidade de licitação.
+**Acompanhe três decisões:** a construção das salas pode integrar um **projeto**, uma ação com começo e término previstos, e ter despesas no **GND Investimentos**. Se a escola apenas troca lâmpadas e faz reparos habituais, esse gasto tende a ser **Outras Despesas Correntes**. A área Educação e a unidade responsável podem continuar iguais nos dois casos. Se a prefeitura contrata e paga diretamente uma construtora, a **modalidade de aplicação** pode ser **Aplicações Diretas**, mesmo que os trabalhadores sejam da empresa contratada: a classificação indica **quem aplica os recursos orçamentários**, não quem executa fisicamente a obra. A modalidade de licitação é outra informação, ligada ao procedimento de contratação.
 
 ## Despesa: perguntas qualitativas e quantitativas
 
@@ -116,13 +116,13 @@ A pergunta institucional é **“quem?”**, e não “para quê?” ou “em qu
 
 A **função** é o nível mais amplo de agregação da despesa por área de governo: Educação, Saúde, Legislativa, Cultura e outras. A **subfunção** indica uma agregação inferior, mais relacionada à natureza da atuação.
 
-A classificação permite **matricialidade**: subfunção combinada com função distinta daquela a que está mais tipicamente associada. Exemplo de estrutura descrita no MTO: uma ação de apoio pré-escolar a dependentes de servidores de órgão legislativo pode combinar função **Legislativa** e subfunção **Educação Infantil**. A subfunção não fica necessariamente vinculada à função de mesmo campo temático.
+A classificação admite **matricialidade**, isto é, a combinação de uma subfunção com uma função à qual ela não costuma estar associada. Imagine um órgão do Poder Legislativo que oferece atendimento pré-escolar aos dependentes de seus servidores: a despesa pode aparecer na função **Legislativa** e na subfunção **Educação Infantil**. O fato de a subfunção ter nome ligado à educação não obriga, por si só, o uso da função Educação. É preciso observar as regras específicas aplicáveis.
 
 Esse princípio de combinação possui regras especiais para certas despesas, como as classificadas em Encargos Especiais. Portanto, não presumir liberdade irrestrita de combinação.
 
 ### Classificação programática: programa × ação × subtítulo
 
-O **programa** organiza esforços relacionados a objetivos de política pública. A **ação orçamentária** identifica o que será feito. O **subtítulo** contribui para localizar a execução ou os beneficiários.
+O **programa** reúne ações voltadas a um objetivo do governo, como ampliar o acesso à educação. A **ação orçamentária** especifica como o governo pretende contribuir para esse objetivo, por exemplo construir salas ou manter escolas funcionando. No orçamento federal, o **subtítulo**, também chamado de **localizador do gasto**, permite identificar onde a ação ocorrerá ou qual recorte territorial será atendido, conforme a programação. Programa, ação e subtítulo são níveis da classificação **programática**; função e subfunção pertencem à classificação **funcional**.
 
 Há três tipos clássicos de ação:
 
@@ -179,8 +179,6 @@ A natureza da despesa responde **qual é o tipo e o objeto do gasto**. A classif
 
 **O quarto nível, elemento, dá nome orçamentário ao objeto:** seringas e papel podem ser **Material de Consumo**; computadores e equipamentos duradouros, **Equipamentos e Material Permanente**. “Seringa” é o bem concreto; “Material de Consumo” é o elemento no classificador. **GND ≠ elemento; modalidade ≠ elemento; modalidade de aplicação ≠ modalidade de licitação.**
 
-**GND não é elemento.** O GND **investimentos** agrupa gastos de capital; “equipamentos e material permanente” especifica um **elemento**. Modalidade de **aplicação** não é modalidade de **licitação**.
-
 A **despesa com serviço corrente de limpeza** pode ter classificação por função Educação e, ao mesmo tempo, GND **Outras Despesas Correntes**, com elemento de serviço aplicável. Sua função não modifica a natureza econômica.
 
 ### Fronteiras progressivas: obra, imóvel e modalidade de aplicação
@@ -205,7 +203,7 @@ Se os recursos recebidos forem destinados **à construção de um equipamento p�
 
 ### Dimensões física e financeira da programação
 
-**Meta física** indica quantidade de entregas programadas. **Dotação financeira** identifica valor autorizado segundo a programação. Se foram previstos 500 atendimentos e entregues 350, o resultado deve ser examinado com dados físicos e financeiros, além do contexto de implementação.
+**Meta física** indica a quantidade de entregas previstas: por exemplo, **500 atendimentos**. **Dotação financeira** é o valor autorizado para a programação. Se a unidade realizou **350 atendimentos**, cumpriu **70% da meta física** (350 ÷ 500), mas esse percentual não revela quanto do orçamento foi empenhado, liquidado ou pago. É preciso analisar separadamente os dados financeiros e as condições em que o serviço foi realizado.
 
 A dotação não comprova empenho, pagamento nem resultado da política. O tema se relaciona a [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|monitoramento e avaliação]], mas a execução da despesa não substitui avaliação de impacto.
 
@@ -217,9 +215,9 @@ Os estágios **empenho, liquidação e pagamento** têm procedimento próprio no
 
 ## Questões comentadas: transposição de conjuntos (treino didático C/E)
 
-**Item 1.** Uma despesa classificada no GND Investimentos deve integrar o orçamento de investimento das estatais, mesmo quando executada diretamente por uma universidade federal. **Gabarito: Errado.** Esfera orçamentária e natureza do gasto pertencem a conjuntos diferentes.
+**Item 1.** Uma despesa classificada no GND Investimentos deve integrar o orçamento de investimento das estatais, mesmo quando executada diretamente por uma universidade federal. **Gabarito: Errado.** O **GND Investimentos** descreve o tipo econômico da despesa, como aquisição de equipamentos permanentes. O **orçamento de investimento das estatais** é uma esfera da LOA federal, definida pelo tipo de entidade e pelas regras orçamentárias aplicáveis. Uma universidade federal não passa a integrar essa esfera porque compra computadores: em regra, a despesa fica no orçamento fiscal.
 
-**Item 2.** Uma ação classificada como projeto pode envolver grupos de natureza de despesa distintos, porque o tipo de ação pertence à classificação programática. **Gabarito: Certo.** Projeto responde qual tipo de ação está sendo realizada; GND responde à natureza econômica do gasto.
+**Item 2.** Uma ação classificada como projeto pode envolver grupos de natureza de despesa distintos, porque o tipo de ação pertence à classificação programática. **Gabarito: Certo.** **Projeto** é um tipo de ação orçamentária, com duração limitada e produto voltado à expansão ou ao aperfeiçoamento da atuação governamental. **GND** descreve o gasto executado dentro dela. Um projeto de biblioteca pode prever computadores permanentes no GND 4 e contratação de treinamento no GND 3, conforme o objeto e a classificação aplicável. Assim, o tipo de ação não obriga todas as despesas a terem o mesmo GND.
 
 Itens inéditos para aprendizagem, sem equivalência afirmada com provas reais.
 

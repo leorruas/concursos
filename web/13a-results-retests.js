@@ -31,5 +31,22 @@
   }
   return [...byArticle.values()].sort((a,b)=>(b.persistent+b.reappeared)-(a.persistent+a.reappeared)||a.articleId.localeCompare(b.articleId));
  }
- root.ResultsRetests={analyze};
+ function coverage(attempts,questions,exam){
+  const groups=new Map(),answered=new Set();
+  for(const q of questions.values()){
+   if(q.concursoId!==exam||!q.id||!q.subjectId)continue;
+   const g=groups.get(q.subjectId)||{subjectId:q.subjectId,total:0,answered:0};
+   g.total++;groups.set(q.subjectId,g);
+  }
+  for(const a of attempts){
+   if(a?.concursoId!==exam||!a.questionId||!['correct','incorrect','blank'].includes(a.result))continue;
+   const q=questions.get(a.questionId);
+   if(q?.concursoId!==exam||!groups.has(q.subjectId)||answered.has(a.questionId))continue;
+   answered.add(a.questionId);
+   groups.get(q.subjectId).answered++;
+  }
+  return [...groups.values()].map(g=>({...g,remaining:g.total-g.answered,percent:Math.round(100*g.answered/g.total)}))
+   .sort((a,b)=>a.percent-b.percent||a.subjectId.localeCompare(b.subjectId));
+ }
+ root.ResultsRetests={analyze,coverage};
 })(typeof window!=='undefined'?window:globalThis);

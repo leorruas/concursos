@@ -1,12 +1,18 @@
 ---
 title: "Orçamento Público: dependências de IDs compartilhados CGU/Câmara"
 type: auditoria-arquitetura
-status: dez-derivados-criados-vinculos-legados-pendentes
+status: migracao-vinculos-concluida
 created: 2026-11-17
 updated: 2026-11-17
 ---
 
 # Orçamento Público: dependências e migração dos 11 IDs
+
+## Situação atual após a migração (17/11/2026)
+
+Os dez artigos históricos de Orçamento Público foram separados no catálogo de concursos: seus IDs permanecem com a Câmara e não integram mais a matéria Orçamento Público da CGU. Dos 11 IDs inicialmente compartilhados, resta apenas a nota transversal de Atualidades `art-9be1a39d536a47ea`, mantida intencionalmente. O plano de estudo da CGU, os flashcards e os verbetes próprios foram redirecionados para os capítulos CGU, preservando cartões e verbetes exclusivos da Câmara e tratando separadamente os mistos. A matriz abaixo registra as contagens **anteriores** à migração e deve ser lida como histórico, não como inventário atual de débitos.
+
+**Evidência:** commit `c41e7bc558ed116d864cdd832eef2823f28564e6` completou o último remapeamento. O teste `scripts/test-contest-catalog.js` protege os 19 artigos históricos da Câmara e todos os flashcards com vínculo CGU, mesmo fora da matéria Orçamento. O workflow [44196245135](https://github.com/leorruas/concursos/actions/runs/44196245135) concluiu com `success`, seguido de auditorias CGU em Pages aprovadas. Os 15 artigos CGU possuem revisão de conteúdo documentada, com inspeção visual individual pendente, segundo [[1 - Planejamento/CGU 2026 - Estado editorial Orcamento|estado editorial CGU]]. Não foi exportado EPUB integrado.
 
 **Snapshot:** catálogo v2 e árvore da `main` em `229ba45becb569d17f0a2fa3685392670e2319e3`, com inspeção textual das superfícies de apoio. O estado de certificação dos artigos não foi alterado. O diagnóstico é uma fotografia e deve ser revalidado após commits paralelos.
 

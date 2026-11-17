@@ -1715,6 +1715,94 @@
       "examBlock": "Conhecimentos específicos: Orçamento Público e Finanças Públicas",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-substitutivo",
+      "term": "Substitutivo",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-emenda-saneadora",
+      "term": "Emenda saneadora",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-sobrestamento",
+      "term": "Sobrestamento das deliberações",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-procedimento-abreviado",
+      "term": "Procedimento abreviado",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-procedimento-sumario",
+      "term": "Procedimento sumário",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-plv",
+      "term": "Projeto de lei de conversão (PLV)",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-prn",
+      "term": "Projeto de resolução do Congresso Nacional (PRN)",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-prc",
+      "term": "Projeto de resolução da Câmara dos Deputados (PRC)",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-prs",
+      "term": "Projeto de resolução do Senado Federal (PRS)",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-pdl",
+      "term": "Projeto de decreto legislativo (PDL)",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-competencia-remanescente-estados",
+      "term": "Competência remanescente (ou residual) dos estados",
+      "subjectId": "direito-constitucional",
+      "examBlock": "Conhecimentos legislativos",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

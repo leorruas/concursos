@@ -132,9 +132,9 @@ As doze questões são originais e didáticas, não itens oficiais nem evidênci
 
 ## Fontes e relações editoriais
 
-- [Constituição Federal, arts. 165 e 167, especialmente art. 167, VI e § 5º, texto atualizado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): exclusividade, não afetação, créditos e vedações.
-- [Lei nº 4.320/1964, arts. 2º a 6º, 20, 22 e 34](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm): princípios e execução.
-- [Lei Complementar nº 101/2000, art. 5º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): reserva de contingência.
+- [Constituição Federal, arts. 165 e 167, especialmente art. 167, VI e § 5º, texto atualizado](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html): exclusividade, não afetação, créditos e vedações.
+- [Lei nº 4.320/1964, arts. 2º a 6º, 20, 22 e 34](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): princípios e execução.
+- [Lei Complementar nº 101/2000, art. 5º](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html): reserva de contingência.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: instrumentos de planejamento e lei anual.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: orçamentos fiscal, seguridade e estatais.
 

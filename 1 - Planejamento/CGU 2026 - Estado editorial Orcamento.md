@@ -101,3 +101,13 @@ O futuro EPUB poderá agrupar conceitos equivalentes por `topicKey`, mantendo `a
 **Estado:** criado na `main`, **ainda não certificado**. Necessária validação de CI, Pages, unicidade global de ID, destino dos links e integração por coordenação ao índice, hub, percurso e catálogo CGU, com revisão dos consumidores de `theoryRefs`, glossário e flashcards. Não alterar os arquivos compartilhados nesta frente. A auditoria visual pode constar como ressalva isolada, desde que todos os demais gates sejam comprovados.
 
 **Progresso cumulativo nesta frente:** três artigos CGU exclusivos trabalhados (PPA/LDO/LOA revisado; ciclo e evidências criado; esferas e estatais criado), 22 itens C/E didáticos nos respectivos textos, zero certificações finais demonstradas. O próximo capítulo por sequência é princípios orçamentários e vedações constitucionais, após compatibilização da navegação destes derivados. Nenhuma sessão pessoal ou EPUB foi criada.
+
+## Continuidade: princípios orçamentários e vedações, 17/11/2026
+
+**Novo artigo CGU:** `3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes.md`, `articleId: art-b419ac8206de7f35`, `concursoId: cgu-2026`, `derivedFromArticleId: art-a2f47c0d6e184e93`. Criado na `main` em `9faeac48ef9bf8eb093ee0429493de5809830c74`, conteúdo confirmado por releitura remota no blob `d5fc68973847a981fafe95fa6d205c93fc5a502b`.
+
+**Escopo revisado:** unidade, universalidade, anualidade, orçamento bruto, especificação, exclusividade, não afetação de impostos, reabertura de créditos e regra de ouro. Casos de auditoria e dez itens didáticos C/E com comentários e gabaritos. Fontes normativas: Constituição arts. 165 e 167; Lei nº 4.320/1964 arts. 2º a 6º, 20, 22 e 34; LRF art. 5º. Fontes oficiais acessadas e cotejadas com o texto derivado; **a nova versão é uma síntese e não transfere a certificação do legado**.
+
+**Validação parcial:** o conector confirmou caminho, SHA do blob e os 10 itens na `main`. A consulta de status combinados retornou lista vazia, e a consulta de workflow runs do conector (limitada a PR) não trouxe execuções. Assim, CI, Pages e o conteúdo servido **não estão comprovados**. Integração de índice, hub, percurso, catálogo CGU, glossário, flashcards e consumidores de `theoryRefs` permanece com a coordenação de arquitetura.
+
+**Progresso acumulado:** quatro artigos CGU exclusivos trabalhados (PPA/LDO/LOA, ciclo, esferas e princípios), 32 itens didáticos C/E, **zero certificados formalmente** até verificar todos os gates. Próximo tema de produção: classificações de receitas e despesas e respectivos critérios, somente em novos arquivos CGU após reconciliação das referências. Nenhum artigo Câmara, arquivo compartilhado ou dado privado foi alterado; EPUB não gerado.

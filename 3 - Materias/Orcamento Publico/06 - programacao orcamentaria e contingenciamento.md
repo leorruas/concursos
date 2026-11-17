@@ -133,7 +133,7 @@ O **§ 2º do art. 16** permite, observada a hipótese de autorização posterio
 
 **Há três eixos de análise:** **autorização orçamentária** (dotação vigente e alterações), **capacidade de empenhar** (limite e disponibilidade de crédito) e **capacidade de pagar** (programação financeira, recursos e cronograma). A pergunta de prova muda de resposta quando muda o eixo, mesmo que o valor em reais seja idêntico.
 
-### Três dispositivos, três condições de incidência
+### Quatro referências normativas, quatro condições de aplicação
 
 | Base normativa | Gatilho ou marco | Providência | Quem e onde | Pegadinha |
 | :--- | :--- | :--- | :--- | :--- |

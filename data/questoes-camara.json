@@ -53019,6 +53019,286 @@
       "correctAnswer": "C",
       "explanation": "São obrigações distintas. O mínimo de 5% do fundo partidário financia programas de promoção da participação política das mulheres. O piso de 30% incide, nas condições constitucionais, sobre a destinação às candidatas dos recursos de campanha e do tempo gratuito de propaganda. (Constituição Federal, art. 17, §§ 7º e 8º.)",
       "reviewEvidence": "Constituição Federal, art. 17, §§ 7º e 8º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue percentuais, finalidade e bases de incidência em dois regimes simultâneos."
+    },
+    {
+      "id": "cam-const-200-territorio-integra-uniao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "territorio-integra-uniao",
+      "mechanism": "territorio-integra-uniao",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "statement": "Os territórios federais integram a União.",
+      "correctAnswer": "C",
+      "explanation": "O território federal integra a União e não se equipara aos entes autônomos enumerados no caput do art. 18. (Constituição Federal, art. 18, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 18, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece a posição do território na federação."
+    },
+    {
+      "id": "cam-const-200-territorio-transformacao-lei-ordinaria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "territorio-transformacao-lei-ordinaria",
+      "mechanism": "territorio-transformacao-lei-ordinaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "statement": "A transformação de território federal em estado pode ser regulada por lei ordinária federal.",
+      "correctAnswer": "E",
+      "explanation": "A espécie indicada está errada. A Constituição reserva à lei complementar a disciplina da criação, transformação em estado ou reintegração de território ao estado de origem. (Constituição Federal, art. 18, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 18, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a espécie normativa exigida para a transformação."
+    },
+    {
+      "id": "cam-const-200-fusao-estadual-assembleias-insuficientes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "fusao-estadual-assembleias-insuficientes",
+      "mechanism": "fusao-estadual-assembleias-insuficientes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Formação e alteração dos entes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Formação e alteração dos entes"
+      },
+      "statement": "A incorporação de um estado por outro pode completar-se com a aprovação das populações diretamente interessadas em plebiscito e a edição de leis pelas respectivas assembleias legislativas.",
+      "correctAnswer": "E",
+      "explanation": "O plebiscito satisfaz a etapa de consulta, mas as leis estaduais não substituem a aprovação do Congresso Nacional por lei complementar. (Constituição Federal, art. 18, § 3º.)",
+      "reviewEvidence": "Constituição Federal, art. 18, § 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Verifica separadamente consulta popular e aprovação federal."
+    },
+    {
+      "id": "cam-const-200-transporte-local-carater-essencial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "transporte-local-carater-essencial",
+      "mechanism": "transporte-local-carater-essencial",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Municípios: interesse local e suplementação"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Municípios: interesse local e suplementação"
+      },
+      "statement": "A Constituição qualifica o transporte coletivo de interesse local como serviço de caráter essencial.",
+      "correctAnswer": "C",
+      "explanation": "O transporte coletivo local é expressamente qualificado como essencial e integra a competência municipal de organização e prestação de serviços de interesse local. (Constituição Federal, art. 30, V.)",
+      "reviewEvidence": "Constituição Federal, art. 30, V — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica a natureza expressa do serviço local."
+    },
+    {
+      "id": "cam-const-200-suplementacao-educacao-apos-norma-geral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "suplementacao-educacao-apos-norma-geral",
+      "mechanism": "suplementacao-educacao-apos-norma-geral",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência legislativa concorrente: art. 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência legislativa concorrente: art. 24"
+      },
+      "statement": "A existência de normas gerais federais em matéria de educação não impede que um estado edite normas suplementares compatíveis com essas diretrizes.",
+      "correctAnswer": "C",
+      "explanation": "A União estabelece normas gerais nessa matéria concorrente. O estado pode complementá-las, respeitando os limites da disciplina geral federal. (Constituição Federal, art. 24, IX e §§ 1º e 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 24, IX e §§ 1º e 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue edição de diretrizes gerais e detalhamento compatível."
+    },
+    {
+      "id": "cam-const-200-municipio-sem-contas-competencia-uniao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "municipio-sem-contas-competencia-uniao",
+      "mechanism": "municipio-sem-contas-competencia-uniao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Intervenção: autonomia com exceção constitucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Intervenção: autonomia com exceção constitucional"
+      },
+      "statement": "A falta de prestação das contas legalmente devidas por município situado em um estado autoriza a União a decretar intervenção diretamente nesse município.",
+      "correctAnswer": "E",
+      "explanation": "A falta das contas é hipótese constitucional de intervenção, mas a competência, nessa localização, é do estado. O art. 35 reserva a intervenção federal em município à hipótese de município situado em território federal. (Constituição Federal, art. 35, caput e II.)",
+      "reviewEvidence": "Constituição Federal, art. 35, caput e II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Combina motivo para intervir e localização federativa do município."
+    },
+    {
+      "id": "cam-const-200-intervencao-judiciario-pedido-assembleia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-judiciario-pedido-assembleia",
+      "mechanism": "intervencao-judiciario-pedido-assembleia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Se a coação impedir o livre exercício do Judiciário estadual, solicitação da assembleia legislativa do estado satisfaz a forma de provocação exigida para intervenção federal por esse motivo.",
+      "correctAnswer": "E",
+      "explanation": "O agente e a forma de provocação estão errados. Na coação contra o Judiciário, a Constituição exige requisição do Supremo Tribunal Federal. A solicitação do Legislativo corresponde à hipótese em que ele próprio está coagido ou impedido. (Constituição Federal, arts. 34, IV, e 36, I.)",
+      "reviewEvidence": "Constituição Federal, arts. 34, IV, e 36, I — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue o poder coagido e a forma de acionamento cabível."
+    },
+    {
+      "id": "cam-const-200-intervencao-congresso-recesso-convocacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-congresso-recesso-convocacao",
+      "mechanism": "intervencao-congresso-recesso-convocacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Decretada intervenção federal para pôr termo a grave comprometimento da ordem pública enquanto o Congresso não estiver funcionando, deverá haver convocação extraordinária no prazo constitucional de vinte e quatro horas.",
+      "correctAnswer": "C",
+      "explanation": "O motivo indicado não integra as hipóteses de dispensa do art. 36, § 3º. Como o Congresso não está funcionando, deve ser convocado extraordinariamente em vinte e quatro horas. (Constituição Federal, art. 34, III, e art. 36, §§ 1º a 3º.)",
+      "reviewEvidence": "Constituição Federal, art. 34, III, e art. 36, §§ 1º a 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue recesso, convocação extraordinária e hipóteses de dispensa de apreciação."
+    },
+    {
+      "id": "cam-const-200-intervencao-retorno-impedimento-legal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-retorno-impedimento-legal",
+      "mechanism": "intervencao-retorno-impedimento-legal",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Cessados os motivos da intervenção, a autoridade afastada deve voltar ao cargo mesmo se houver impedimento legal superveniente para o exercício.",
+      "correctAnswer": "E",
+      "explanation": "A expressão que invalida o item é “mesmo se houver impedimento legal”. Ao cessarem os motivos da intervenção, há retorno ao cargo, ressalvada a existência desse impedimento. (Constituição Federal, art. 36, § 4º.)",
+      "reviewEvidence": "Constituição Federal, art. 36, § 4º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a exceção expressa ao retorno da autoridade."
+    },
+    {
+      "id": "cam-const-200-intervencao-lei-federal-suspensao-suficiente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-lei-federal-suspensao-suficiente",
+      "mechanism": "intervencao-lei-federal-suspensao-suficiente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "Em caso de recusa à execução de lei federal, acolhida pelo Supremo Tribunal Federal a representação do Procurador-Geral da República, se a suspensão do ato impugnado bastar para restabelecer a normalidade, o decreto de intervenção limitar-se-á a essa suspensão e dispensará apreciação pelo Congresso.",
+      "correctAnswer": "C",
+      "explanation": "O acolhimento da representação atende à condição judicial. Quando a suspensão do ato resolve a situação, o decreto fica restrito à suspensão e a apreciação parlamentar é dispensada nessa hipótese. (Constituição Federal, arts. 34, VI, e 36, III e § 3º.)",
+      "reviewEvidence": "Constituição Federal, arts. 34, VI, e 36, III e § 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Articula a provocação judicial, o limite do decreto e a exceção ao controle político."
     }
   ]
 }

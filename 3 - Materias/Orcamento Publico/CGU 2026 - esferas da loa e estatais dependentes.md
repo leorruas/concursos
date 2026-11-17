@@ -68,7 +68,7 @@ A **LDO federal de 2026, Lei nº 15.321/2025, art. 52, §§ 6º e 7º**, discipl
 
 A **LDO de 2026, art. 6º, § 2º**, determina que as despesas de repasse de recursos do ente controlador para estatais que firmaram o contrato de gestão sejam registradas nos Orçamentos Fiscal e da Seguridade Social. Assim, o tratamento orçamentário da estatal destinatária não elimina a necessidade de verificar a **despesa de transferência do controlador**.
 
-O **art. 6º, § 4º**, exige que a estatal encaminhe à **Comissão Mista de Orçamento (CMO)** o contrato de gestão ou o ato relacionado à transição orçamentária, no prazo de **30 dias contado da aprovação**. Esse dever de comunicação é uma evidência adicional de controle, distinta da aprovação do contrato e da condição jurídica da empresa.
+O **art. 6º, § 4º, da LDO** exige que a estatal encaminhe à **Comissão Mista de Orçamento (CMO)** o contrato de gestão ou o ato relacionado à transição orçamentária, no prazo de **30 dias contado da aprovação**. O **art. 9º, I, do Decreto nº 12.500/2025**, estabelece dever específico dos administradores de remeter cópia do contrato à mesma comissão em **30 dias contados da assinatura**, observado o art. 22 do decreto. Como os dispositivos utilizam marcos iniciais distintos, a auditoria deve identificar as datas de aprovação e de assinatura e verificar o cumprimento de ambos, conforme o caso. A comunicação constitui evidência de controle, mas não altera por si só a situação jurídica da empresa.
 
 **Roteiro de fiscalização:** conferir ato de aprovação e sua data, contrato e plano aplicáveis, prova de envio à CMO, dotações de repasse nos orçamentos fiscal ou da seguridade e classificação das programações da estatal. A ausência de um desses documentos pede apuração específica; a comunicação não substitui os requisitos materiais de enquadramento.
 
@@ -117,13 +117,15 @@ Um hospital da administração pública amplia uma unidade e uma estatal não de
 
 **Item 12.** “O encaminhamento do contrato de gestão de estatal à Comissão Mista de Orçamento, exigido pela LDO de 2026, substitui os requisitos legais de transição e dispensa a análise de seu orçamento.” **Errado.** O art. 6º, § 4º, prevê a comunicação em 30 dias, mas ela é apenas uma das exigências de controle e não equivale ao enquadramento material.
 
+**Item 13.** “Para verificar o envio de contrato de gestão de estatal à CMO, é necessário distinguir o prazo contado da aprovação na LDO federal de 2026 daquele contado da assinatura no Decreto nº 12.500/2025.” **Certo.** A LDO, art. 6º, § 4º, e o Decreto, art. 9º, I, apresentam marcos distintos para os deveres previstos em seus dispositivos.
+
 Estes itens são autorais e didáticos. Não são questões oficiais nem evidência de desempenho individual.
 
 ## Fontes e relação editorial
 
 - [Constituição Federal, art. 165, § 5º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): os três orçamentos da LOA.
 - [Lei Complementar nº 101/2000, art. 2º, II e III](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): empresa controlada e estatal dependente.
-- [Decreto nº 12.500/2025, texto atualizado, arts. 2º e 7º](https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12500-11-junho-2025-797585-normaatualizada-pe.html): classificação, transição e contrato de gestão.
+- [Decreto nº 12.500/2025, texto atualizado, arts. 2º, 7º e 9º](https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12500-11-junho-2025-797585-normaatualizada-pe.html): classificação, transição e contrato de gestão.
 - [LDO federal 2026, Lei nº 15.321/2025, arts. 6º, §§ 2º e 4º, e 52, §§ 6º, 7º e 9º](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15321-31-dezembro-2025-798617-publicacaooriginal-179567-pl.html): tratamento das estatais no Orçamento de Investimento e requisitos da transição.
 - [Manual Técnico de Orçamento, classificação por esfera](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto%3Acap4): categorias e códigos do orçamento federal.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: instrumentos de planejamento e autorização.

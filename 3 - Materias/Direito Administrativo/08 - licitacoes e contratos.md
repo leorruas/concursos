@@ -289,28 +289,74 @@ O **art. 138** prevê três formas principais:
 
 ## Sanções administrativas
 
-O art. 156 prevê quatro sanções administrativas ao responsável pelas infrações da Lei nº 14.133/2021:
+O **art. 155** identifica infrações administrativas do licitante ou contratado, como inexecução parcial ou total, atraso injustificado, não entrega de documentação, apresentação de declaração falsa, fraude e comportamento inidôneo. O **art. 156** prevê **quatro espécies de sanção**, aplicadas segundo natureza e gravidade da infração, peculiaridades, circunstâncias e danos, além de programas de integridade quando pertinentes.
 
-1. **advertência**;
-2. **multa**;
-3. **impedimento de licitar e contratar**;
-4. **declaração de inidoneidade para licitar ou contratar**.
+| Sanção do art. 156 | Cabimento ou limite legal | Alcance |
+| --- | --- | --- |
+| **Advertência** | Exclusivamente para **inexecução parcial do contrato** do art. 155, I, quando não couber sanção mais grave | Repreensão administrativa motivada |
+| **Multa** | **0,5% a 30%** do valor do contrato licitado ou celebrado diretamente, conforme edital ou contrato, aplicável às infrações do art. 155 | Sanção econômica, observadas defesa e fundamentação |
+| **Impedimento de licitar e contratar** | Para infrações do art. 155, **II a VII**, quando não cabível sanção mais grave; **até três anos** | Abrange Administração direta e indireta **do ente federativo que sancionou** |
+| **Declaração de inidoneidade** | Para infrações mais graves, especialmente art. 155, **VIII a XII**, ou outras que justifiquem sanção superior; **três a seis anos** | Abrange Administração direta e indireta **de todos os entes federativos** |
 
-A aplicação depende da infração, gravidade, circunstâncias e procedimento correspondente. Uma questão que transforme toda irregularidade na sanção máxima provavelmente está deslocando a proporcionalidade prevista na lei.
+**Duas diferenças que a banca explora:** impedimento vale, no regime dessa lei, no âmbito do **ente federativo que aplicou** a sanção, enquanto a inidoneidade alcança **todos os entes**. A multa pode ser combinada com certas outras sanções nas condições legais; **a lei não determina inidoneidade automática para qualquer atraso**.
+
+### Contraditório e prazos sancionatórios
+
+O **art. 157** faculta defesa, em **15 dias úteis** da intimação, na aplicação de multa. O **art. 158** exige processo de responsabilização para impedimento e inidoneidade, com comissão conforme requisitos legais e prazo de **15 dias úteis** para defesa escrita e especificação de provas. A imposição da sanção exige autoridade competente, motivação e oportunidade de defesa.
+
+A lei prevê **prazos recursais diferentes** conforme a decisão:
+
+| Decisão questionada | Medida | Prazo do interessado |
+| --- | --- | --- |
+| Julgamento, habilitação, anulação ou revogação da licitação e demais atos listados no **art. 165** | **Recurso** | **3 dias úteis**, observadas regras específicas de intenção imediata de recorrer e fase única |
+| **Advertência, multa ou impedimento** do art. 156, I a III | **Recurso do art. 166** | **15 dias úteis** |
+| **Declaração de inidoneidade** do art. 156, IV | **Pedido de reconsideração do art. 167** | **15 dias úteis** |
+
+Para recursos do **art. 165**, a autoridade recorrida tem **três dias úteis** para reconsiderar ou encaminhar, e a superior decide em até **dez dias úteis** do recebimento. Nos recursos sancionatórios do **art. 166**, a autoridade recorrida dispõe de **cinco dias úteis** para reconsiderar e a superior, até **vinte dias úteis** do recebimento. No **art. 167**, a reconsideração da inidoneidade deve ser decidida em até **vinte dias úteis** do recebimento. O **art. 168** atribui **efeito suspensivo** ao recurso e à reconsideração até decisão final.
+
+**Atenção:** **impugnação de edital** do art. 164 é outra medida, aberta a qualquer pessoa até **três dias úteis antes da abertura do certame**; não se confunde com recurso contra julgamento ou com defesa em processo sancionatório. Seus respectivos prazos tratam de **atos diferentes**.
+
+**Exemplo progressivo:** empresa entrega componente defeituoso. O fiscal registra e solicita correção conforme competência. A autoridade apura eventual inexecução e a sanção adequada, com defesa. Se aplicada **multa**, não se exige que o particular use o prazo geral de três dias úteis do art. 165: o recurso sancionatório é de **15 dias úteis pelo art. 166**.
 
 ## Como a banca cobra
 
-A FGV e o Cebraspe podem explorar especialmente trocas de categoria e regras do regime anterior:
+**C/E autorais complementares**, não extraídos de provas oficiais. Os três exercícios sobre ETP, TR e fiscalização aparecem na seção preparatória acima; os seguintes ampliam o treinamento para categorias, prazos, sanções e contratos.
 
-- **modalidade × critério**: chamar menor preço de modalidade ou pregão de critério;
-- **Lei antiga × Lei nº 14.133**: inserir tomada de preços ou convite entre as modalidades atuais;
-- **fases**: colocar habilitação obrigatoriamente antes do julgamento ou adjudicação como oitava fase depois da homologação;
-- **dispensa × inexigibilidade**: tratar inviabilidade de competição como fundamento de dispensa;
-- **singularidade**: exigir objeto singular como condição geral para serviços técnicos do art. 74, III;
-- **melhor técnica**: omitir “ou conteúdo artístico” em questão de literalidade;
-- **alteração contratual**: aplicar 50% a qualquer acréscimo/supressão;
-- **contrato administrativo**: interpretar prerrogativas como poderes ilimitados;
-- **contratação direta**: supor ausência de processo, justificativa de preço ou habilitação.
+**4.** Convite e tomada de preços permanecem entre as cinco modalidades expressamente previstas pelo art. 28 da Lei nº 14.133/2021. **Gabarito: Errado.** São categorias do regime anterior, não modalidades da nova lei.
+
+**5.** Pregão é modalidade licitatória, enquanto menor preço e maior desconto são critérios de julgamento. **Gabarito: Certo.** Os conceitos respondem a perguntas diferentes e constam, respectivamente, dos arts. 28 e 33.
+
+**6.** O diálogo competitivo pode ser escolhido por simples preferência da Administração por negociar com fornecedores, mesmo sem demonstrar requisitos do art. 32. **Gabarito: Errado.** A lei exige caracterização e procedimento específico.
+
+**7.** Em regra, a habilitação ocorre após julgamento, podendo ser antecipada quando houver motivação, benefícios explicitados e previsão expressa no edital. **Gabarito: Certo.** É a estrutura do art. 17 e de seu § 1º.
+
+**8.** A adjudicação aparece no art. 17 como oitava fase posterior à homologação. **Gabarito: Errado.** É providência de encerramento prevista no art. 71, IV, juntamente à homologação.
+
+**9.** O regime do art. 74, III, admite contratação por inexigibilidade de serviços de publicidade e divulgação, desde que seja demonstrada notória especialização. **Gabarito: Errado.** O dispositivo **veda** essa inexigibilidade para publicidade e divulgação.
+
+**10.** O limite do art. 75, II, para dispensa por valor em outras compras e serviços é inferior a R$ 65.492,11 no exercício de 2026, conforme o Decreto nº 12.807/2025. **Gabarito: Certo.** O valor deve ser atualizado conforme o exercício.
+
+**11.** A divisão de compras semelhantes de uma mesma unidade gestora em diversas contratações pequenas elimina, por si, a necessidade de observar os somatórios do art. 75, § 1º. **Gabarito: Errado.** Devem ser considerados exercício financeiro, unidade gestora e objetos de mesma natureza.
+
+**12.** Em contratação direta, a inviabilidade ou dispensa de licitação exclui a necessidade de justificar preço, escolha do contratado e autorização competente. **Gabarito: Errado.** O art. 72 exige processo instruído e formalidades aplicáveis.
+
+**13.** Um contrato decorrente de licitação deve, como regra do art. 94, ter sua divulgação no PNCP em até vinte dias úteis da assinatura, como condição de eficácia. **Gabarito: Certo.** Em contratação direta o prazo ordinário é dez dias úteis, com regra específica de urgência.
+
+**14.** A Lei nº 14.133/2021 considera automaticamente nulo qualquer contrato verbal, sem prever exceção para pequenas compras de pronto pagamento. **Gabarito: Errado.** O art. 95, § 2º, contém exceção dentro do limite atualizado.
+
+**15.** A Administração pode impor unilateralmente acréscimo de 50% em qualquer compra, pois esse percentual é regra geral de alteração quantitativa do art. 125. **Gabarito: Errado.** O teto de 50% refere-se a **acréscimos em reforma de edifício ou equipamento**; a regra geral é 25%.
+
+**16.** Uma alteração unilateral quantitativa de 20%, ainda que observe o percentual legal, pode ser ilegal se transfigurar o objeto originalmente contratado. **Gabarito: Certo.** O art. 126 veda transfiguração.
+
+**17.** O impedimento de licitar e contratar na Lei nº 14.133/2021 tem duração máxima de três anos e alcança a Administração do ente federativo que aplicou a sanção. **Gabarito: Certo.** A inidoneidade, diferentemente, alcança todos os entes e dura de três a seis anos.
+
+**18.** Na Lei nº 14.133/2021, o prazo recursal de três dias úteis aplicável ao julgamento das propostas também é o prazo para recorrer da sanção de multa. **Gabarito: Errado.** O art. 166 prevê **15 dias úteis** para recurso contra multa.
+
+**19.** A decisão de aplicar declaração de inidoneidade admite pedido de reconsideração em quinze dias úteis, segundo o art. 167 da lei. **Gabarito: Certo.** Não confundir a medida com o recurso de três dias úteis do art. 165.
+
+**20.** O recebimento provisório do objeto pela fiscalização equivale necessariamente à aceitação definitiva e impede a Administração de exigir correção de defeitos. **Gabarito: Errado.** O art. 140 distingue etapas e prevê exame de conformidade.
+
+**Método de análise:** primeiro descubra se o enunciado trata de procedimento, critério, contratação direta, execução ou sanção. Localize o **artigo que responde àquela pergunta**, identifique quem decide e o prazo correto, e desconfie de palavras que transformam regra específica em norma universal: *qualquer*, *sempre*, *automaticamente* e *independentemente do objeto*.
 
 ## Relações com outros temas
 

@@ -104,11 +104,11 @@ As oito questões são exemplos didáticos construídos a partir das normas; nã
 ## Fontes e continuidade
 
 - [Edital CGU 2026: programa oficial do Cargo 1, item 15.2.4, bloco de finanças, orçamento e contabilidade](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html): item 2.1 sobre PPA, LDO e LOA. Conferir retificações posteriores no portal do Cebraspe.
-- [Lei nº 4.320/1964, arts. 58 a 65](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm): empenho, liquidação e pagamento.
+- [Lei nº 4.320/1964, arts. 58 a 65](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): empenho, liquidação e pagamento.
 
-- [Constituição Federal, arts. 165, 166 e 167](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): iniciativa, funções das leis, apreciação e limites orçamentários.
+- [Constituição Federal, arts. 165, 166 e 167](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html): iniciativa, funções das leis, apreciação e limites orçamentários.
 - [Ato das Disposições Constitucionais Transitórias, art. 35, § 2º, incisos I a III](https://www2.camara.leg.br/legin/fed/conadc/1988/constituicao.adct-1988-5-outubro-1988-322234-normaatualizada-pl.html): regra transitória de vigência federal.
-- [Lei Complementar nº 101/2000, arts. 4º e 9º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): LDO, anexos fiscais e limitação de empenho.
+- [Lei Complementar nº 101/2000, arts. 4º e 9º](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html): LDO, anexos fiscais e limitação de empenho.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]]: aprofundamento sobre autorização, execução e comprovação de entregas.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: distinção entre fiscal, seguridade e investimento, com análise de dependência financeira.
 

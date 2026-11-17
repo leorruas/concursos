@@ -174,7 +174,7 @@ Em resposta sobre o papel do Parlamento no orçamento, apresentar **competência
 - [Resolução nº 1/2006-CN, texto compilado e atualizado, arts. 25, 37 a 50](https://www.congressonacional.leg.br/web/cmo/atribuicoes-e-legislacao/resolucao-n-01-de-2006-cn).
 - [Resolução nº 1/2025-CN, alteração do rito e da indicação de emendas](https://legis.senado.gov.br/norma/40435851/publicacao/40437557).
 - [Resolução nº 2/2025-CN, aprimoramento do rito de apresentação e indicação](https://www2.camara.leg.br/legin/fed/rescon/2025/resolucao-2-23-junho-2025-797630-publicacaooriginal-175694-pl.html).
-- [Lei Complementar nº 210/2024, apresentação, indicação e execução de emendas](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm).
+- [Lei Complementar nº 210/2024, apresentação, indicação e execução de emendas](https://www2.camara.leg.br/legin/fed/leicom/2024/leicomplementar-210-25-novembro-2024-796588-publicacaooriginal-173577-pl.html).
 - [LC nº 210/2024, art. 5º: fonte legal dos prazos de 15 e 5 dias](https://www2.camara.leg.br/legin/fed/leicom/2024/leicomplementar-210-25-novembro-2024-796588-publicacaooriginal-173577-pl.html).
 - [Congresso Nacional, Nota Técnica 03/2026 sobre PLDO 2027: análise que reproduz os prazos legais](https://www.congressonacional.leg.br/documents/150599582/156145129/NTC_03-2026/85876ac9-8f1c-4d39-a4b2-1400a49a70eb).
 - [Congresso Nacional, Manual de Emendas ao PLOA 2026](https://www.congressonacional.leg.br/documents/150599582/151110307/Manual_Emendas_2026%2B-%2B27-10-11h45.pdf/9015e9f2-770f-48f0-958c-c4c6ef4bacca).

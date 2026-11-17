@@ -1,7 +1,7 @@
 ---
 title: "Orçamento Público: dependências de IDs compartilhados CGU/Câmara"
 type: auditoria-arquitetura
-status: diagnostico-parcial
+status: transversal-identificado
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -12,7 +12,7 @@ updated: 2026-11-17
 
 ## Conclusão técnica
 
-O catálogo v2 mantém **11 `articleIds` de Orçamento Público simultaneamente em CGU 2026 e Câmara 2026**. Há cinco notas específicas da CGU na árvore: `CGU 2026 - ciclo orcamentario e evidencias de auditoria.md` (`art-a07c26f4e92031ab`), `CGU 2026 - ppa ldo e loa.md` (`art-9dc8a6e2f31b47c0`), `CGU 2026 - esferas da loa e estatais dependentes.md` (`art-c84d6e02f3b7a915`), `CGU 2026 - principios orcamentarios e vedacoes.md` (`art-b419ac8206de7f35`) e `CGU 2026 - classificacoes de receitas e despesas.md` (`art-e6b481a230fc795d`). A existência de um artigo derivado não certifica automaticamente seu conteúdo nem autoriza remover seu artigo de origem.
+O catálogo v2 mantém **11 `articleIds` simultaneamente em CGU 2026 e Câmara 2026**: **10 artigos legados de Orçamento Público** potencialmente destinados a versões CGU e **uma referência transversal de Atualidades** que não deve ser duplicada automaticamente. Há cinco notas específicas da CGU na árvore: `CGU 2026 - ciclo orcamentario e evidencias de auditoria.md` (`art-a07c26f4e92031ab`), `CGU 2026 - ppa ldo e loa.md` (`art-9dc8a6e2f31b47c0`), `CGU 2026 - esferas da loa e estatais dependentes.md` (`art-c84d6e02f3b7a915`), `CGU 2026 - principios orcamentarios e vedacoes.md` (`art-b419ac8206de7f35`) e `CGU 2026 - classificacoes de receitas e despesas.md` (`art-e6b481a230fc795d`). A existência de um artigo derivado não certifica automaticamente seu conteúdo nem autoriza remover seu artigo de origem.
 
 ## Dependências nas superfícies públicas
 
@@ -28,17 +28,19 @@ O catálogo v2 mantém **11 `articleIds` de Orçamento Público simultaneamente 
 | 09: restos a pagar e DEA | `art-6e4e79c7f4bb4aa3` | 9 | 11 |
 | 10: Conta Única e execução | `art-743d234d819842d1` | 3 | 3 |
 | 11: responsabilidade fiscal | `art-91ab320cdfb64b8a` | 7 | 13 |
-| ID a localizar no inventário canônico | `art-9be1a39d536a47ea` | 4 | 0 |
+| Política fiscal, resultado primário e dívida pública: apoio transversal | `art-9be1a39d536a47ea` | 4 | 0 |
 
 **Método:** contagem de aparições literais do ID nas strings JSON, e não de cartões/verbetes distintos. Arquivos examinados: `data/flashcards.json` e `data/glossario/termos/orcamento-publico{,-complementos,-empenho,-fiscal,-siglas}.json`. Há **101 ocorrências de IDs compartilhados em flashcards**. A contagem dos glossários cobre apenas os cinco arquivos listados, não todo o acervo de referências. `data/questoes-camara.json` não foi efetivamente inspecionado: a leitura por esta conexão retornou conteúdo vazio, impossibilitando qualquer afirmação sobre integridade de `theoryRefs` desse banco. **O banco não foi modificado.**
 
 ## Bloqueios e decisões de migração
 
-O `art-9be1a39d536a47ea` está em ambos os catálogos e em quatro ocorrências no catálogo de flashcards, mas **seu caminho canônico ainda precisa ser determinado**. Não associá-lo arbitrariamente a um dos 19 artigos históricos. O `art-3e62a81df4c74b90` foi identificado como a nota de lembretes, diferente desse ID compartilhado.
+**ID transversal resolvido:** `art-9be1a39d536a47ea` pertence a `3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica.md` (título: *Política fiscal, resultado primário e dívida pública*, `layer: fundamento_estavel`). Aparece ainda em Finanças Públicas da CGU e Atualidades da Dataprev. Sua reutilização pode ser intencional e deve permanecer enquanto a pertinência aos dois editais não for auditada. Não criar clone de Orçamento para resolver apenas a sobreposição de ID. O `art-3e62a81df4c74b90` identifica, separadamente, os lembretes da matéria.
 
 Os originais 04a, 04b, 05, 05a, 06, 07, 08, 09, 10 e 11 continuam com seus IDs estáveis e devem conservar as URLs, os aliases, a certificação Câmara e os vínculos existentes. O agente CGU poderá produzir derivados com `articleId` exclusivo e origem explícita. **Somente a coordenação** poderá realizar a troca de `articleIds` no catálogo e de links no índice, hub e percursos, em operação atômica com proteção de SHA.
 
 Antes de cada troca, exigir (1) artigo CGU completo e certificado individualmente; (2) headings e `theoryRefs` resolvidos; (3) referências de glossário/flashcards classificadas como genéricas ou específicas por concurso, sem substituição indiscriminada; (4) ausência de perda de URL ou alias legado; (5) testes de build, identidade, navegação, CI e Pages no SHA final. Caso a troca exija modificação de `data/questoes-camara.json`, interromper e abrir uma etapa técnica própria, sem alterar o banco nesta missão.
+
+**Restam 10 artigos legados potenciais de separação, mais uma referência transversal que pode continuar compartilhada.**
 
 **Próximas unidades:** classificações de receita (04a) e despesa (04b), créditos (05), emendas (05a), programação (06), receitas (07), despesas (08), restos a pagar (09), execução financeira (10) e responsabilidade fiscal (11). Esta ordem de tratamento é uma fila técnica e não equivale a autorizar duplicação sem revisão. Preservar a especificidade de CGU e Câmara e evitar repetição no futuro EPUB por `topicKey` e certificação individual.
 

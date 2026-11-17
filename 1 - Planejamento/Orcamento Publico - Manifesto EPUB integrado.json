@@ -28,5 +28,285 @@
     "replacementFor",
     "dedupReason"
   ],
-  "chapters": []
+  "chapters": [],
+  "candidateChapters": [
+    {
+      "chapterKey": "cam-1",
+      "articleId": "art-f6cfe9fbcc764554",
+      "sourcePath": "3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md",
+      "concursoId": "camara-2026",
+      "topicKey": "ciclo",
+      "sequence": 1,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-2",
+      "articleId": "art-c301f2c741504403",
+      "sourcePath": "3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md",
+      "concursoId": "camara-2026",
+      "topicKey": "ppa-ldo-loa",
+      "sequence": 2,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-3",
+      "articleId": "art-74d90e9fa1b3452c",
+      "sourcePath": "3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md",
+      "concursoId": "camara-2026",
+      "topicKey": "esferas-loa",
+      "sequence": 3,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-4",
+      "articleId": "art-a2f47c0d6e184e93",
+      "sourcePath": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
+      "concursoId": "camara-2026",
+      "topicKey": "principios",
+      "sequence": 4,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-5",
+      "articleId": "art-4be219d8f750ac63",
+      "sourcePath": "3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas.md",
+      "concursoId": "camara-2026",
+      "topicKey": "elaboracao",
+      "sequence": 5,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-6",
+      "articleId": "art-d8f21b70c49e563a",
+      "sourcePath": "3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md",
+      "concursoId": "camara-2026",
+      "topicKey": "tramitacao",
+      "sequence": 6,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-7",
+      "articleId": "art-c917e4a2d63b508f",
+      "sourcePath": "3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias.md",
+      "concursoId": "camara-2026",
+      "topicKey": "cmo",
+      "sequence": 7,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-8",
+      "articleId": "art-d8b1c5e6037249fa",
+      "sourcePath": "3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md",
+      "concursoId": "camara-2026",
+      "topicKey": "classificacoes",
+      "sequence": 8,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-9",
+      "articleId": "art-f13b65a28d8c4e91",
+      "sourcePath": "3 - Materias/Orcamento Publico/04a - classificacao da receita.md",
+      "concursoId": "camara-2026",
+      "topicKey": "receita-classificacao",
+      "sequence": 9,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-10",
+      "articleId": "art-28b3d9ef86aa4510",
+      "sourcePath": "3 - Materias/Orcamento Publico/04b - classificacao da despesa.md",
+      "concursoId": "camara-2026",
+      "topicKey": "despesa-classificacao",
+      "sequence": 10,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-11",
+      "articleId": "art-87b69e1d4ac54f20",
+      "sourcePath": "3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares.md",
+      "concursoId": "camara-2026",
+      "topicKey": "creditos",
+      "sequence": 11,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-12",
+      "articleId": "art-715e2d16a93446cb",
+      "sourcePath": "3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo.md",
+      "concursoId": "camara-2026",
+      "topicKey": "emendas-impositivas",
+      "sequence": 12,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-13",
+      "articleId": "art-9d42c1f68a7be053",
+      "sourcePath": "3 - Materias/Orcamento Publico/15 - emendas parlamentares deliberacao e rastreabilidade.md",
+      "concursoId": "camara-2026",
+      "topicKey": "emendas-legislativas",
+      "sequence": 13,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-14",
+      "articleId": "art-0fb9b88e4d6c4151",
+      "sourcePath": "3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md",
+      "concursoId": "camara-2026",
+      "topicKey": "programacao",
+      "sequence": 14,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-15",
+      "articleId": "art-4677cfa327ce43bb",
+      "sourcePath": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "concursoId": "camara-2026",
+      "topicKey": "receitas-estagios",
+      "sequence": 15,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-16",
+      "articleId": "art-67167e9c18284c4c",
+      "sourcePath": "3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md",
+      "concursoId": "camara-2026",
+      "topicKey": "despesas-estagios",
+      "sequence": 16,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-17",
+      "articleId": "art-6e4e79c7f4bb4aa3",
+      "sourcePath": "3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos.md",
+      "concursoId": "camara-2026",
+      "topicKey": "restos-pagar",
+      "sequence": 17,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-18",
+      "articleId": "art-743d234d819842d1",
+      "sourcePath": "3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira.md",
+      "concursoId": "camara-2026",
+      "topicKey": "conta-unica",
+      "sequence": 18,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cam-19",
+      "articleId": "art-91ab320cdfb64b8a",
+      "sourcePath": "3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario.md",
+      "concursoId": "camara-2026",
+      "topicKey": "responsabilidade-fiscal",
+      "sequence": 19,
+      "certificationStatus": "consultar-historico-A-B-C",
+      "include": false,
+      "selectionStatus": "aguarda-curadoria-epub"
+    },
+    {
+      "chapterKey": "cgu-1",
+      "articleId": "art-a07c26f4e92031ab",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-f6cfe9fbcc764554",
+      "topicKey": "ciclo",
+      "sequence": 1,
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
+      "include": false,
+      "selectionStatus": "avaliar-sobreposicao-com-camara"
+    },
+    {
+      "chapterKey": "cgu-2",
+      "articleId": "art-9dc8a6e2f31b47c0",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-c301f2c741504403",
+      "topicKey": "ppa-ldo-loa",
+      "sequence": 2,
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
+      "include": false,
+      "selectionStatus": "avaliar-sobreposicao-com-camara"
+    },
+    {
+      "chapterKey": "cgu-3",
+      "articleId": "art-c84d6e02f3b7a915",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-74d90e9fa1b3452c",
+      "topicKey": "esferas-loa",
+      "sequence": 3,
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
+      "include": false,
+      "selectionStatus": "avaliar-sobreposicao-com-camara"
+    },
+    {
+      "chapterKey": "cgu-4",
+      "articleId": "art-b419ac8206de7f35",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-a2f47c0d6e184e93",
+      "topicKey": "principios",
+      "sequence": 4,
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
+      "include": false,
+      "selectionStatus": "avaliar-sobreposicao-com-camara"
+    },
+    {
+      "chapterKey": "cgu-5",
+      "articleId": "art-e6b481a230fc795d",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-d8b1c5e6037249fa",
+      "topicKey": "classificacoes",
+      "sequence": 5,
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
+      "include": false,
+      "selectionStatus": "avaliar-sobreposicao-com-camara"
+    }
+  ],
+  "crossReferences": [
+    {
+      "articleId": "art-9be1a39d536a47ea",
+      "sourcePath": "3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica.md",
+      "role": "apoio-transversal",
+      "include": false
+    }
+  ],
+  "selectionPolicy": "Candidatos documentais não executáveis. Selecionar capítulos apenas após deduplicação, conferência de versão, certificação e links. Não gerar EPUB nesta etapa."
 }

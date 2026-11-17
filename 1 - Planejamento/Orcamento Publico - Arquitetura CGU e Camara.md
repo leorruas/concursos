@@ -76,11 +76,11 @@ Planejar `1 - Planejamento/Orcamento Publico - Manifesto EPUB integrado.json` co
 
 ## Auditoria das dependências da migração
 
-A matriz atualizada dos 11 IDs compartilhados, com contagem textual de vínculos em flashcards e glossários e bloqueios de compatibilidade, está em [[1 - Planejamento/Orcamento Publico - Dependencias e migracao dos IDs|Dependências e migração dos IDs]]. Esta é uma inspeção parcial, sem validação efetiva do banco de questões; manter a liberação controlada e preservar artigos legados.
+A matriz atualizada dos 11 IDs compartilhados, com contagem textual de vínculos em flashcards e glossários e bloqueios de compatibilidade, está em [[1 - Planejamento/Orcamento Publico - Dependencias e migracao dos IDs|Dependências e migração dos IDs]]. **Destes, 10 são artigos históricos de Orçamento e um é a nota transversal `art-9be1a39d536a47ea`, em Atualidades.** Não duplicar essa última automaticamente. Esta é uma inspeção parcial, sem validação efetiva do banco de questões; manter a liberação controlada e preservar artigos legados.
 
 ## Pendências e gate de liberação
 
-**Implantado:** roteiros independentes CGU/Câmara em `1 - Planejamento/`, links no índice e no hub, matriz de propriedade no `AGENTS.md`, manifesto EPUB em JSON sem capítulos e arquivos de estado distintos por concurso. **Pendente:** inventário completo dos consumidores de IDs compartilhados, identificação dos IDs CGU próprios adicionais, validação de campos extras de frontmatter, migração gradual dos legados e conferência integral dos editais por cada agente.
+**Implantado:** roteiros independentes CGU/Câmara em `1 - Planejamento/`, links no índice e no hub, matriz de propriedade no `AGENTS.md`, manifesto EPUB em JSON sem capítulos e arquivos de estado distintos por concurso. **Pendente:** inventário completo dos consumidores de IDs compartilhados, validação dos vínculos transversais e de campos extras de frontmatter, migração gradual dos legados e conferência integral dos editais por cada agente.
 
 **Validação estrutural anterior:** commit `bf369d41aa5e9293e48b7836460b45019043524f`, workflow [44111853660](https://github.com/leorruas/concursos/actions/runs/44111853660) com conclusão `success`, incluindo build, validações de IDs/catálogo e confirmação de catálogo servido no Pages. Conferência estática adicional: 22 caminhos distintos de notas de Orçamento Público usados pelos novos documentos, nenhum ausente. Este commit de liberação documental exige verificação própria do Pages.
 

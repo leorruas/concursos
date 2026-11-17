@@ -137,3 +137,17 @@ O formato de checkpoint dessa biblioteca é **transitório e não homologado com
 Teste: `node scripts/test-resume-chat-battery.js`; executado no CI público. Casos: retomada com zero/uma/todas as respostas; item duplicado, ordem divergente, mudança de versão, banca/concurso diferente, branco incompatível e separação do gabarito. Os testes são sintéticos e não verificam autenticação nem escrita no cofre.
 
 **Dependência ainda aberta:** acesso autenticado ao pacote privado com ID estável e um mecanismo de gravação parcial idempotente entre chats, respeitando `leorruas/concurso-dados/AGENTS.md` e `data/sessoes/README.md`. Sem ele, a função permite calcular uma retomada a partir de dados recebidos, mas não oferece sozinha a recuperação automática entre conversas.
+
+
+## Recuperação sem carregar o banco inteiro (etapa adicional)
+
+A rota de pequenos lotes do Worker público já está disponível em produção, conforme smoke real executado via GitHub Actions em 17/11/2026. O módulo `scripts/recover-public-chat-question.js` aceita o **checkpoint privado já recuperado** e a resposta de **uma única questão pública** retornada por `GET /v1/public/quiz/batch?question=<ID>`. Verifica a lista de respostas em ordem, ausência de duplicatas, fonte, versão SHA-256 e ID esperado. Retorna apenas o item seguinte com enunciado, gabarito e explicação para o corretor, sem transportar os registros de respostas para a saída. A apresentação ao estudante continua limitada ao enunciado até a resposta.
+
+Fluxo de retomada assistida:
+1. Ler `leorruas/concurso-dados:data/chat-checkpoints/<id>.json` pelo conector GitHub autenticado; validar o contrato privado.
+2. Chamar `nextPublicQuestionId(checkpoint)` para descobrir somente o ID seguinte. Se a sessão já estiver completa, encerrar.
+3. Solicitar `GET https://concurso-estudo.leoruas.workers.dev/v1/public/quiz/batch?question=<ID>`. Esse endpoint não recebe o ID da sessão nem respostas pessoais.
+4. Aplicar `recoverPublicChatQuestion(checkpoint,response)`, comparar a versão e apresentar o enunciado. Se o banco público mudou, bloquear a retomada ou recuperar fonte histórica exata em ambiente autorizado.
+5. Ao fechar um bloco, gravar checkpoint privado por `create_file/update_file` com proteção SHA e o contrato de transição, sem duplicar respostas do site. Concluir sessão pedagógica v3 separadamente pelos gates.
+
+Este módulo é **puro**: não executa a conexão GitHub nem requisições HTTP. O modelo ou executor autorizado precisa realizar essas leituras. Sem uma integração do conector ao fluxo, a recuperação entre chats ainda é assistida, não automática. Testar com sessão real consentida e medir chamadas e volume de texto antes de afirmar economia de contexto.

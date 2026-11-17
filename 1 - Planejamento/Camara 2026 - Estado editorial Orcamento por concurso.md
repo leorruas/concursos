@@ -275,3 +275,34 @@ Os quatro arquivos foram relidos em sua abertura, delimitação, identificação
 **Estado de compatibilidade:** a comparação estrutural já havia demonstrado **91/91** seções válidas nos destinos históricos dos flashcards e **somente 1/91** idêntica na troca por derivado, exigindo remapeamento dos 90 demais. Os links de continuidade são problema distinto e menor, corrigível sem modificar o legado. O workflow de auditoria [44188325675](https://github.com/leorruas/concursos/actions/runs/44188325675) referente ao estado anterior da Câmara concluiu `success`; a execução `44188330526` da revisão CGU de links MCASP estava em andamento na consulta. Nenhuma certificação nova atribuída e nenhum conteúdo de artigo alterado pela frente Câmara nesta etapa.
 
 **Próximo passo:** coordenação harmonizar o plano CGU (11 `noteRefs` legados), flashcards (90 remapeamentos por título de seção), e quatro links didáticos, além de certificar os dez derivados CGU e conduzir migração atômica. A trilha da Câmara mantém 19 artigos históricos e suas certificações anteriores. Os testes visuais individuais e a auditoria F4 normativa integral seguem pendentes. Nenhum EPUB gerado.
+
+## Mapeamento dirigido dos flashcards para os quatro derivados CGU já certificados: 17/11/2026
+
+**Objeto:** manter referências da Câmara íntegras e preparar uma migração por cartão, sem modificar `data/flashcards.json`. O estado CGU no HEAD `9a1e6a7fd630` documenta **4/10 derivados certificados com ressalva visual** (créditos, programação, receitas e despesa), somados aos cinco próprios anteriores: **9/15**. Nos quatro derivados, os **41 cartões CGU** ainda ligados aos originais da Câmara foram confrontados com os headings exatos dos textos CGU e com o assunto de cada cartão. Seguem **35 destinos candidatos diretos** e **seis casos que exigem decisão editorial adicional**. As seções apontadas estão presentes no Markdown CGU; a identificação do destino não certifica automaticamente todo o conteúdo do flashcard nem autoriza edição de arquivo global.
+
+**Créditos adicionais, original 05 → `art-83d7c5ef2a0b4916` (8 candidatos):**
+- Seção `Espécies: o que mudou no orçamento?`: `credito-adicional`, `suplementar`, `especial`, `extraordinario`.
+- Seção `De onde podem vir os recursos?`: `superavit-financeiro`, `excesso-arrecadacao`, `orc-erro-fonte-credito-ato`, `orc-ref-excesso-tendencia`.
+- **Pendente:** `emenda-projeto-orcamentario`; o derivado aborda diferença entre emenda e crédito, mas o cartão refere-se a critérios de emendas a projetos; avaliar se a seção `Espécies: o que mudou no orçamento?` cobre o objeto completo ou se precisa de capítulo CGU de emendas.
+
+**Programação financeira, original 06 → `art-6f2c1ae9d483457b` (5 candidatos):**
+- `Quatro valores diferentes`: `dotacao`, `limite-empenho`.
+- `Programação orçamentária e financeira: sequência de decisões`: `programacao-financeira`, `cronograma`.
+- `Contingenciamento: a receita projetada ameaça a meta`: `contingenciamento`.
+
+**Receitas públicas, original 07 → `art-b3e5d91a740c46f8` (13 candidatos):**
+- `Quatro etapas: previsão, lançamento, arrecadação e recolhimento`: `previsao`, `lancamento`, `arrecadacao`, `recolhimento`, `orc-erro-art35-lancamento` (antes de aplicar, conferir se o contraste do art. 35 está suficientemente explicado).
+- `Primeiro: ingresso não é necessariamente receita do orçamento`: `receita-orcamentaria`, `ingresso-extra`, `aro`, `orc-erro-aro-confronto`.
+- `Receita orçamentária e informação patrimonial`: `cont-receita-efetiva`, `cont-vpa-sem-caixa`, `cont-erro-vpa-120-45`, `orc-ref-art35-duas-linhas` (rever precisão contábil e art. 35).
+- **Pendentes:** `orc-deducao-vs-restituicao` e `orc-retificacao-vs-estorno`, ambos com `examIds` Câmara + CGU e sem seção especializada correspondente no derivado. Preservar seu vínculo Câmara; avaliar manutenção do destino antigo ou novo texto CGU antes de segmentar.
+
+**Despesa, original 08 → `art-79e2c6a4f80143bd` (9 candidatos):**
+- `Empenho: compromisso dentro do crédito autorizado`: `empenho`.
+- `Empenho ordinário, global ou por estimativa`: `ordinario`, `global`, `estimativo`.
+- `Liquidação: o que foi efetivamente devido?`: `liquidacao`, `orc-ref-liquidacao-parcial`.
+- `Pagamento: despacho e transferência`: `pagamento`.
+- `Autorização, gasto e obrigação são informações diferentes`: `despesa-orcamentaria`.
+- `Liquidação não é pagamento`: `cont-liquidacao-caixa`.
+- **Pendentes:** `cont-aquisicao-ativo` trata de despesa de capital versus variação patrimonial diminutiva, distinção que exige cotejo contábil específico; `orc-recebimento-provisorio-definitivo` e `orc-ateste-vs-liquidacao` têm `examIds` Câmara + CGU e devem conservar o vínculo Câmara, ainda que a seção CGU `Liquidação: o que foi efetivamente devido?` mencione recebimento e ateste.
+
+**Checagens obrigatórias antes da migração:** certificar conceito completo e gabarito/fonte de cada cartão, confrontar heading da nota nova e preservar os `card.id` existentes; não fazer substituição global de IDs. Nos quatro cartões compartilhados, decidir se permanecem em original transversal ou se precisam de cartão específico CGU, sem apagar vínculo Câmara. O plano CGU contém ainda 11 `noteRefs` legados por caminho e precisa ser reconciliado pela coordenação junto dos vínculos no catálogo. **Resultado desta etapa: 35 candidatos de remapeamento por heading documentados, 6 retidos para exame, zero mutações de dados; dos 90 títulos antes não coincidentes, 41 tiveram primeira proposta de reconciliação (35+6), permanecendo 49 fora deste lote.** O saldo se refere à triagem, não a links já migrados.

@@ -56,7 +56,7 @@ flowchart TD
 
 ### 1.1 Impedimento (art. 18): presunção absoluta e dever de abstenção
 
-O **impedimento** ocorre quando a lei identifica uma ligação concreta entre quem atua no processo e o assunto ou as pessoas envolvidas. A regra evita que alguém participe de uma decisão na qual tenha interesse próprio ou um vínculo previsto no art. 18. A lei exige o afastamento; não é necessário provar que a pessoa efetivamente favoreceu alguém. A Lei nº 9.784/1999 não afirma, nesses dispositivos, que todo ato praticado por impedido seja automaticamente insanável: as consequências para o ato exigem análise jurídica própria.
+O **impedimento** ocorre quando a lei identifica uma ligação concreta entre quem atua no processo e o assunto ou as pessoas envolvidas. A regra evita que alguém participe de uma decisão na qual tenha interesse próprio ou um vínculo previsto no art. 18. A lei exige o afastamento; não é necessário provar que a pessoa efetivamente favoreceu alguém. A expressão **“presunção absoluta”** no título é uma forma tradicional de contrastar o impedimento objetivo com a suspeição, mas os arts. 18 e 19 estabelecem diretamente **hipóteses legais e dever de comunicação**. A lei não determina nesses dispositivos que todo ato praticado por impedido seja automaticamente insanável: as consequências para o ato exigem exame jurídico próprio.
 
 É impedido de atuar em processo administrativo o servidor ou autoridade que:
 1. Tenha interesse direto ou indireto na matéria;

@@ -65,6 +65,12 @@ Antes de um commit: ler a `main` atual, conferir arquivos de outras frentes e co
 
 PRs antigos existentes devem ser encerrados ou reconciliados de maneira segura, sem duplicar alterações; somente usar novo PR se proteção de branch ou exigência técnica efetiva bloquear a escrita direta. Onde a seção histórica abaixo fala em 'branch', 'PR' ou 'merge', prevalece esta regra de publicação direta para todas as novas execuções.
 
+## Critério atual de conclusão: ressalva visual e auditoria final por matéria (16/11/2026)
+
+Em todas as três frentes, o artigo pode ser registrado como **`revisão integral concluída com ressalva visual`** quando revisão jurídica/didática exaustiva, itens C/E, glossário e flashcards, integridade de links/identificadores, validações técnicas, commit e publicação no Pages estiverem **comprovados individualmente**. A inspeção visual, quando inacessível, é listada como pendência transversal para **uma inspeção consolidada da matéria antes do EPUB**. Essa pendência não deve congelar a fila da frente.
+
+Registrar separadamente `conteúdo revisado`, `validação técnica aprovada`, `publicação comprovada`, `inspeção visual não realizada` e `certificação editorial com ressalva visual`. Falhas técnicas ou jurídicas conhecidas não podem ser transferidas para a categoria visual. Publicação ou revisão ainda não comprovadas continuam com seus estados pendentes. A matriz de 34 artigos não é alterada; arquivos de estado históricos não devem ser reclassificados em massa sem ler as evidências de cada `articleId`. Os critérios completos e validações compensatórias estão em `AGENTS.md`.
+
 ## Controle de execução, evidências e conflitos
 
 1. **Fonte viva de estados:** cada frente atualiza apenas seu arquivo de evidências acima, com uma linha para cada `articleId` e estado `a conferir`, `reservado`, `em PR`, `integrado, deploy pendente`, `publicado, revisão integral certificada`, `publicado, revisão parcial`, `adequado sem alterações` ou `bloqueado`. Nunca inferir certificação integral pela existência de um merge, por teste técnico ou por revisão dirigida. Registrar PR, SHA, fontes, todos os itens C/E e a comprovação do Pages.

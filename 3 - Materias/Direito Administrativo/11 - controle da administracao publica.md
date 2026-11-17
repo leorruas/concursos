@@ -5,7 +5,7 @@ title: "Controle da Administração Pública"
 type: "conceito"
 status: "ativo"
 created: 2026-09-10
-updated: 2026-09-10
+updated: 2026-11-16
 ---
 
 # Controle da Administração Pública
@@ -31,6 +31,21 @@ A **Súmula 346 do STF** afirma a possibilidade de a Administração declarar a 
 > **Anular ≠ revogar.** Ilegalidade aponta para anulação. Mérito administrativo aponta para revogação.
 
 A **Lei nº 9.784/1999 (Lei do Processo Administrativo Federal)**, nos **arts. 53 a 55**, determina que a Administração deve anular atos ilegais e pode revogar atos válidos por conveniência ou oportunidade, respeitados direitos adquiridos; estabelece, em regra, **decadência de cinco anos** para anular atos que produzam efeitos favoráveis aos destinatários, salvo comprovada má-fé (art. 54), e admite **convalidação de defeitos sanáveis**, quando não houver lesão ao interesse público nem prejuízo a terceiros (art. 55). O prazo quinquenal do art. 54 não deve ser confundido com o do **Tema 445 do STF**, que tem marco inicial e objeto próprios para o registro de aposentadoria, reforma ou pensão pelos tribunais de contas. Ver [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]].
+
+### Dois prazos de cinco anos: situações diferentes
+
+A **Lei nº 9.784/1999, art. 54**, regula, em regra, o prazo de **cinco anos para a Administração anular ato próprio que produziu efeitos favoráveis**, salvo comprovada má-fé. A contagem parte da **prática do ato**; nos efeitos patrimoniais contínuos, parte da **percepção do primeiro pagamento** (§ 1º). Uma medida de autoridade que impugne a validade do ato pode caracterizar exercício do direito de anular (§ 2º). A mesma lei alcança órgãos dos Poderes Legislativo e Judiciário da União quando desempenham **função administrativa** (art. 1º, § 1º): isso é relevante para a gestão administrativa da Câmara.
+
+Já o **Tema 445 do STF (RE 636.553)** limita a **cinco anos o prazo do Tribunal de Contas para julgar a legalidade da concessão inicial de aposentadoria, reforma ou pensão**, contado da **chegada do processo à Corte de Contas**. São objetos, responsáveis e marcos iniciais distintos. O segundo prazo não começa automaticamente com o primeiro pagamento ao servidor.
+
+| Critério | Art. 54 da Lei nº 9.784/1999 | Tema 445 do STF |
+| --- | --- | --- |
+| Quem atua? | Administração que pode anular seu ato | Tribunal de Contas ao apreciar concessão inicial |
+| O que se examina? | Ato favorável ao destinatário | Legalidade da concessão inicial de aposentadoria, reforma ou pensão |
+| Marco inicial | Prática do ato; em efeitos patrimoniais contínuos, primeiro pagamento | Chegada do processo à Corte de Contas |
+| Distinção relevante | Ressalva de comprovada má-fé | Segurança jurídica e confiança legítima no exame inicial |
+
+**Item inédito, Certo ou Errado:** “O prazo do Tema 445 do STF começa com o primeiro pagamento do benefício, pois segue integralmente o art. 54 da Lei nº 9.784/1999.” **Errado.** Para o julgamento da concessão inicial pelo Tribunal de Contas, o prazo começa com a chegada do processo à Corte.
 
 ## Controle interno × externo
 

@@ -81,6 +81,18 @@ Durante e após a execução, a gestão, os órgãos de controle e o Legislativo
 
 Uma despesa conforme a lei pode ainda exigir investigação sobre economicidade e efetividade. Por outro lado, constatar que uma meta de política pública não foi alcançada não demonstra, por si só, ilegalidade da despesa.
 
+## Quem decide no ciclo federal e onde termina cada competência
+
+O **Poder Executivo** tem a iniciativa dos projetos de PPA, LDO e LOA (Constituição, art. 165). No âmbito do governo federal, as unidades orçamentárias e os órgãos setoriais participam da preparação da proposta, sob coordenação da Secretaria de Orçamento Federal (SOF), conforme o processo vigente. Isso é **preparação técnica**: a proposição legislativa encaminhada ao Congresso é de iniciativa do Executivo. As propostas orçamentárias dos Poderes Legislativo e Judiciário, do Ministério Público da União e da Defensoria Pública da União têm regras próprias de preparação e encaminhamento, observados os limites e prazos constitucionais e legais. Portanto, **iniciativa do projeto** não significa que o Executivo decide sozinho a programação interna de todos os Poderes.
+
+O **Congresso Nacional**, no processo federal, aprecia os projetos de leis orçamentárias pelas duas Casas, **na forma do Regimento Comum** (art. 166, caput). Uma **comissão mista permanente de deputados e senadores**, conhecida como Comissão Mista de Orçamento (CMO), examina e emite parecer sobre os projetos e as emendas. Sua atuação é essencial, mas **parecer da CMO não equivale à aprovação da lei**. As emendas são apresentadas à comissão, recebem parecer e são apreciadas nos termos do art. 166, § 2º, e das regras regimentais. A deliberação do Congresso e os atos posteriores de sanção ou veto, quando cabíveis, pertencem a momentos diferentes.
+
+Na **execução**, órgãos e unidades responsáveis realizam atos orçamentários e financeiros segundo créditos, limites e controles aplicáveis. O Congresso e o Tribunal de Contas da União (TCU) exercem papéis de controle externo previstos na Constituição; o TCU **auxilia o Congresso**, não substitui a deliberação legislativa nem executa as despesas dos órgãos fiscalizados. O controle interno atua em suas competências próprias.
+
+**Exemplo de fronteira:** a SOF consolida a proposta de despesa; o Executivo encaminha o PLOA; a CMO emite parecer após a instrução e o exame de emendas; o Congresso delibera; uma universidade federal executa sua dotação, se aprovada e disponível; e os controles verificam legalidade, contas e resultados. Nenhuma dessas decisões pode ser atribuída automaticamente à instituição da etapa anterior.
+
+**Regime federal específico:** a CMO e o Regimento Comum disciplinam a tramitação no **Congresso Nacional**. Estados e municípios também observam os princípios constitucionais e a legislação nacional aplicável, mas têm órgãos legislativos e normas procedimentais próprios. Não transportar automaticamente a composição ou os comitês da CMO para uma assembleia legislativa ou câmara municipal. Os detalhes estão em [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|elaboração da proposta]], [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|tramitação legislativa]] e [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|CMO]].
+
 ## Dotação orçamentária: autorização e limite de gasto
 
 **Pergunta central:** que autorização ou situação de execução este valor representa? Dotação responde quanto foi autorizado, caixa responde com quais recursos se pode pagar e entrega responde o que foi produzido.
@@ -163,7 +175,11 @@ Um órgão elabora a proposta para o exercício seguinte enquanto presta contas 
 
 **Item 2.** O controle da execução orçamentária pode ocorrer de forma concomitante à realização de despesas, ainda que haja também verificações posteriores. **Gabarito: Certo.** Controle e avaliação não são restritos à prestação final de contas; podem acompanhar a execução.
 
-As duas afirmações são **inéditas e didáticas**, sem alegação de equivalência calibrada à prova da Cebraspe. Elas não constituem resultado de treino do estudante.
+**Item 3.** No processo orçamentário federal, a emissão de parecer pela Comissão Mista de Orçamento substitui a deliberação do Congresso Nacional sobre o projeto de lei orçamentária. **Gabarito: Errado.** A comissão examina e emite parecer; a apreciação legislativa cabe às duas Casas, conforme art. 166 da Constituição e Regimento Comum. O item troca **instrução do processo** por **decisão legislativa**.
+
+**Item 4.** A iniciativa do projeto de lei orçamentária pelo Poder Executivo impede que órgãos dos demais Poderes participem da elaboração das respectivas propostas orçamentárias. **Gabarito: Errado.** A iniciativa da lei e a elaboração das propostas parciais são competências distintas, submetidas às regras constitucionais e legais. O termo **impede** torna o item falso.
+
+As quatro afirmações são **inéditas e didáticas**, sem alegação de equivalência calibrada à prova da Cebraspe. Elas não constituem resultado de treino do estudante.
 
 ## Heurísticas
 
@@ -173,10 +189,11 @@ As duas afirmações são **inéditas e didáticas**, sem alegação de equival�
 
 ## Fontes e limite de cobertura
 
-- Constituição Federal, especialmente arts. 165 a 169: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
+- Constituição Federal, especialmente arts. 70, 71, 99, 127, 134 e 165 a 169: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
 - Lei nº 4.320/1964, arts. 2º e 34: https://legis.senado.leg.br/norma/546169/publicacao/34620275
 - Secretaria de Orçamento Federal (SOF), *Orientador do Acompanhamento Físico-Financeiro do Orçamento*, itens 1.1 a 1.5 e 4.3: https://www1.siop.planejamento.gov.br/siopdoc/doku.php/acompanhamento_orcamentario:orientador_acompanhamento_orcamentario
 - Congresso Nacional, *Glossário de Termos Orçamentários*, verbete Meta Física: https://www.congressonacional.leg.br/en_US/legislacao-e-publicacoes/glossario-orcamentario/-/orcamentario/lista/_
+- Secretaria de Orçamento Federal, *Manual Técnico de Orçamento 2026*, capítulo de elaboração da proposta: https://www1.siop.planejamento.gov.br/mto/doku.php
 - Senado Federal, *Entenda o Orçamento*: https://www25.senado.leg.br/web/orcamento/entenda
 - Base local de programa: [[2 - Editais/CGU 2026 - Auditoria#Checklist completo de estudos por bloco|Checklist CGU 2026]], P3.2.2 e P3.2.3.
 

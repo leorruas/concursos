@@ -5,7 +5,7 @@ title: "Classificações da receita e da despesa orçamentária"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-16
 aliases:
   - "Classificação orçamentária"
   - "Classificação funcional e programática"
@@ -63,6 +63,22 @@ Para estudar os níveis sem misturá-los, avance pelas notas especializadas: [[3
 ## Despesa: perguntas qualitativas e quantitativas
 
 **Pergunta:** quem gasta, em que área e ação, com qual natureza, fonte, dotação e meta física? A hierarquia interna de cada critério e seus contrastes estão em [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]].
+
+## Caso integrado: as classificações não se substituem
+
+Considere um município que arrecada **R$ 500 mil de IPTU**, contrai **R$ 200 mil de empréstimo comum** e recebe **R$ 100 mil pela alienação de um terreno**. Os três ingressos, somados, representam **R$ 800 mil de receitas orçamentárias** no exemplo, mas sua classificação para fins de resultado primário não é idêntica.
+
+| Ingresso | Natureza da receita | Resultado primário | Fonte/destinação |
+| :--- | :--- | :--- | :--- |
+| IPTU de R$ 500 mil | Receita corrente, impostos | Em regra, receita primária | Examinar a fonte correspondente e as vinculações constitucionais e legais |
+| Empréstimo comum de R$ 200 mil | Receita de capital, operação de crédito | Receita financeira, excluída do resultado primário | Identificar a fonte e as regras aplicáveis à operação |
+| Venda de terreno por R$ 100 mil | Receita de capital, alienação de bens | Em regra, receita primária | Observar, inclusive, a restrição do art. 44 da LRF ao uso para despesas correntes, ressalvada a hipótese legal |
+
+**Conferência numérica:** dos R$ 800 mil de ingressos orçamentários, **R$ 600 mil** integram as receitas primárias neste caso simplificado; **R$ 200 mil** são receita financeira. Isso **não equivale ao resultado primário**, que exige confrontar receitas e despesas primárias no período, com os critérios fiscais aplicáveis. Também não significa que os R$ 600 mil tenham destinação livre.
+
+Agora suponha que o município autorize **R$ 300 mil** para equipar uma escola e empenhe **R$ 120 mil**. A dotação autorizada e o empenho são montantes de **momentos diferentes**; a diferença de **R$ 180 mil** ainda não representa economia definitiva, dinheiro disponível nem autorização automática para pagar. Na descrição da despesa, a função Educação, o programa e a ação, o GND Investimentos, o elemento de despesa pertinente e a fonte de recursos respondem a perguntas independentes. **GND Investimentos** tampouco coloca a despesa no orçamento de investimento das estatais.
+
+**Abrangência normativa:** os conceitos gerais de receita/despesa do MCASP, 11ª edição, valem no âmbito dos entes federativos conforme seus atos de aprovação. O **MTO 2026** detalha a proposta e a classificação federais daquele exercício; seus identificadores e códigos não devem ser transplantados automaticamente para um orçamento municipal. No caso real, consultar tabelas e alterações vigentes para o exercício e o ente antes de atribuir números específicos à fonte, à ação ou ao elemento.
 
 ## Como a banca pode cobrar
 

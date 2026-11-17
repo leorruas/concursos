@@ -12,7 +12,7 @@ updated: 2026-11-07
 
 ## Núcleo do conceito
 
-**Situação concreta.** Uma comissão permanente da Câmara escolhe uma emenda para financiar ações regionais, registra a reunião em ata e encaminha a proposta à Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO). A emenda é examinada, pode receber parecer e depende da deliberação legislativa. Após sua inclusão na Lei Orçamentária Anual (LOA), ainda serão necessárias indicações e providências de execução. O fato de uma comissão ter aprovado uma proposta em reunião **não significa que o Congresso já aprovou a LOA, que o destinatário está validamente indicado ou que o dinheiro foi pago**.
+**Situação concreta.** Uma comissão permanente da Câmara escolhe uma emenda para financiar ações regionais, registra a reunião em ata e encaminha a proposta à Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO). A emenda é examinada, pode receber parecer e depende da deliberação legislativa. Após sua inclusão na Lei Orçamentária Anual (LOA), ainda serão necessárias indicações e providências de execução. A reunião produz uma decisão da comissão sobre a proposta. Depois dela, ainda podem faltar a aprovação do orçamento pelo Congresso, a identificação válida do beneficiário e os atos necessários à transferência ou pagamento.
 
 **Emenda orçamentária** é uma proposta apresentada durante a tramitação de um projeto orçamentário para mudar valores, destinos de despesas ou partes do texto. Para classificá-la, examine quatro perguntas: **quem propõe?** (parlamentar, bancada ou comissão); **o que muda?** (receita, despesa ou redação); **como muda o valor?** (acréscimo, transferência entre dotações ou cancelamento); e **qual regra se aplica à execução depois da aprovação?** Uma emenda apresentada por comissão que transfere autorização de uma dotação para outra tem simultaneamente **autoria de comissão** e **operação de remanejamento**. São critérios diferentes, que podem coexistir.
 
@@ -41,7 +41,7 @@ Este artigo acompanha o percurso da emenda: **apresentação** da proposta, **ad
 
 ### 2. Operação sobre a despesa: o que muda na programação
 
-O **art. 37 da Resolução 1/2006-CN** classifica emendas à despesa como **remanejamento, apropriação ou cancelamento**:
+O **art. 37 da Resolução nº 1/2006-CN** distingue três operações sobre as dotações, que são valores autorizados para finalidades específicas: **remanejamento**, quando se propõe elevar uma dotação e cancelar valor equivalente de outra na própria emenda; **apropriação**, quando se acrescenta ou inclui despesa usando as fontes admitidas na resolução; e **cancelamento**, quando se reduz uma dotação. O quadro mostra como cada operação funciona:
 
 | Tipo | Operação essencial | Fonte e limite | Contraste |
 | :--- | :--- | :--- | :--- |
@@ -51,7 +51,7 @@ O **art. 37 da Resolução 1/2006-CN** classifica emendas à despesa como **rema
 
 A **Resolução 1/2025-CN** alterou a disciplina de fontes de recursos, e a **Resolução 2/2025-CN** refinou regras sobre cancelamentos. O art. 41 exige para emendas que aumentem ou incluam dotações **compatibilidade com PPA e LDO**, **indicação de recursos nos termos admitidos** e respeito às regras procedimentais e materiais. Seu § 1º, atualizado em 2025, admite circunstância própria para **correção de erros ou omissões** quando a emenda envolve anulação de dotações que, em regra, são protegidas. A exceção não transforma essas dotações em fonte livre para toda ampliação de gasto.
 
-**Exemplo:** em uma emenda de remanejamento, reduzir R$ 5 milhões de determinada dotação e acrescentar R$ 5 milhões a outra, com fontes e procedimentos compatíveis, satisfaz a lógica aritmética do instrumento, mas ainda exige admissibilidade jurídica. Uma emenda que apenas reduz R$ 5 milhões e não propõe acréscimo é **de cancelamento**, não de remanejamento.
+**Exemplo:** a proposta original reserva R$ 12 milhões para a ação A e R$ 8 milhões para a ação B. Uma emenda de remanejamento tenta diminuir a primeira para R$ 7 milhões e elevar a segunda para R$ 13 milhões: os R$ 5 milhões retirados de A são os mesmos R$ 5 milhões acrescentados a B. O total continua em R$ 20 milhões, mas a emenda ainda precisa respeitar quais dotações podem ser canceladas, a compatibilidade de fontes e as demais condições legais. Uma emenda que apenas reduz R$ 5 milhões e não propõe acréscimo é **de cancelamento**, não de remanejamento.
 
 ### 3. Emenda à LOA × emenda à LDO × emenda ao PPA
 
@@ -63,7 +63,7 @@ Portanto, a frase “toda emenda a qualquer projeto orçamentário precisa usar 
 
 **1. Escolha e apresentação:** o parlamentar ou a comissão define a proposta e reúne a justificativa exigida. Quando se trata de decisão coletiva, o colegiado realiza a reunião e registra a deliberação em ata. A proposta segue para análise; nessa etapa, ainda não existe autorização para pagar a despesa. O art. 37-A da resolução exige que atas sobre **apresentação, indicação e alteração de emendas** permaneçam disponíveis em sítio oficial do Congresso.
 
-**2. Admissibilidade na Comissão Mista de Orçamento (CMO):** o **Comitê de Exame da Admissibilidade de Emendas (CAE)** examina se as propostas cumprem os requisitos formais e materiais para serem apreciadas. Ele pode recomendar que uma emenda não seja admitida. O **plenário da CMO**, isto é, o conjunto dos integrantes da comissão deliberando, decide sobre o relatório nas condições regimentais. Uma emenda admitida ainda pode ser rejeitada por seu conteúdo. Conforme mudança de 2025, a votação do relatório do CAE deve preceder a de outros relatórios pertinentes, **salvo deliberação em contrário do Plenário da CMO**. **Admissibilidade** verifica se é possível apreciar juridicamente a emenda; não garante preferência política.
+**2. Admissibilidade na Comissão Mista de Orçamento (CMO):** o **Comitê de Exame da Admissibilidade de Emendas (CAE)** examina se as propostas cumprem os requisitos formais e materiais para serem apreciadas. Ele pode recomendar que uma emenda não seja admitida. O **plenário da CMO**, isto é, o conjunto dos integrantes da comissão deliberando, decide sobre o relatório nas condições regimentais. Uma emenda admitida ainda pode ser rejeitada por seu conteúdo. Conforme mudança de 2025, a votação do relatório do CAE deve preceder a de outros relatórios pertinentes, **salvo deliberação em contrário do Plenário da CMO**. O exame de **admissibilidade** decide se a proposta pode seguir no rito, e não se ela representa a melhor prioridade política.
 
 **3. Exame do mérito:** os **relatores setoriais** examinam partes do orçamento por área e o **relator-geral** coordena a análise geral nos limites do regimento. Eles produzem **pareceres**, documentos com avaliação e recomendação sobre as propostas. A comissão vota esses pareceres, mas a decisão da CMO ainda não substitui a deliberação do Congresso. O plenário da CMO vota pareceres; depois, o **Congresso Nacional delibera em sessão conjunta** conforme o Regimento Comum. **Parecer favorável ≠ emenda automaticamente incluída em lei**.
 
@@ -77,7 +77,7 @@ As **Resoluções nº 1/2025-CN e nº 2/2025-CN**, que alteraram as regras do Co
 
 **Três documentos, três funções:** a **ata de apresentação** registra a decisão de propor uma emenda durante a elaboração do orçamento. A **ata de indicação** registra, após a aprovação da programação, a escolha de destinatários nas condições aplicáveis. Já a **prestação de contas** reúne informações sobre a aplicação dos recursos e os resultados, para permitir a fiscalização. Nenhum desses documentos, isoladamente, comprova que todos os demais atos foram realizados.
 
-**Rastreabilidade** é a possibilidade de seguir o caminho de uma emenda do começo ao fim: identificar quem solicitou, qual comissão ou bancada decidiu, onde está a ata, qual programação foi aprovada, quem foi indicado como destinatário, quando ocorreu o **empenho** (ato que compromete crédito orçamentário), se houve **pagamento** (saída do dinheiro) e qual serviço, obra ou entrega foi realizada na prática. Registrar apenas o valor da emenda aprovada não permite verificar toda essa trajetória. Uma base que contém apenas o valor total de emendas aprovadas não permite, sozinha, identificar toda a cadeia de responsabilidade.
+**Rastreabilidade** é a possibilidade de seguir o caminho de uma emenda do começo ao fim: identificar quem solicitou, qual comissão ou bancada decidiu, onde está a ata, qual programação foi aprovada, quem foi indicado como destinatário, quando ocorreu o **empenho** (ato que compromete crédito orçamentário), se houve **pagamento** (saída do dinheiro) e qual serviço, obra ou entrega foi realizada na prática. Um portal que informa apenas o valor total de emendas aprovadas deixa perguntas importantes sem resposta: quem indicou cada beneficiário, quando ocorreu o repasse e qual entrega foi realizada.
 
 **Controle interno, externo e social** possuem papéis próprios. A publicação de dados pode viabilizar fiscalização, mas **publicar uma ata não comprova regularidade material da despesa**. O Tribunal de Contas da União (TCU), os órgãos de controle e a sociedade exercem atribuições diferentes, dentro dos limites jurídicos pertinentes.
 
@@ -90,7 +90,7 @@ Na **ADPF 854**, o Supremo Tribunal Federal acompanha a transparência e a rastr
 
 **Alcance processual:** essas determinações de acompanhamento não devem ser confundidas com um julgamento definitivo sobre a constitucionalidade de toda emenda impositiva ou da transferência especial. Na análise de uma questão, separar a **decisão judicial**, a **regra constitucional ou legal** e a **providência administrativa ainda em implementação**.
 
-**C/E inédito:** A determinação judicial de que Executivo e Congresso apresentem proposta de identificador único até 30 de novembro de 2026 demonstra que, desde setembro, cada emenda já passou necessariamente a ter código implantado e pagamento rastreado. **Gabarito: Errado.** A ordem é de **apresentação de proposta e cronograma**; vincular indicação a empenho é diferente de comprovar implantação universal e pagamento.
+**Questão inédita C/E:** A determinação judicial de que Executivo e Congresso apresentem proposta de identificador único até 30 de novembro de 2026 demonstra que, desde setembro, cada emenda já passou necessariamente a ter código implantado e pagamento rastreado. **Gabarito: Errado.** O STF exigiu a **apresentação de proposta e cronograma** até essa data; isso não comprova implantação universal, realização de empenhos ou pagamentos. Para cada afirmação, deve-se verificar a etapa efetivamente concluída.
 
 ## Caso progressivo: uma comissão financia atendimento regional
 
@@ -110,7 +110,7 @@ Na **ADPF 854**, o Supremo Tribunal Federal acompanha a transparência e a rastr
 
 ## Como a Cebraspe cobra
 
-Os melhores distratores combinam afirmações verdadeiras em **categorias diferentes**: “emendas de comissão podem ser de apropriação, logo toda apropriação é de comissão”; “emenda individual possui regime impositivo, logo qualquer emenda coletiva é impositiva nas mesmas condições”; “a comissão registrou a ata, logo a lei e o pagamento foram aprovados”; “o CAE julgou a inadmissibilidade, logo decidiu a prioridade política”; “a comissão pode apresentar oito emendas, logo pode apresentar oito de apropriação”; “a Constituição admite emendas à LOA, logo o art. 166, § 3º, se aplica sem diferenças à LDO”.
+Nas questões de **Certo ou Errado (C/E)**, uma afirmação pode começar com uma regra verdadeira e terminar com uma consequência que não decorre dela. Os exemplos abaixo mostram essas trocas de categoria: “emendas de comissão podem ser de apropriação, logo toda apropriação é de comissão”; “emenda individual possui regime impositivo, logo qualquer emenda coletiva é impositiva nas mesmas condições”; “a comissão registrou a ata, logo a lei e o pagamento foram aprovados”; “o CAE julgou a inadmissibilidade, logo decidiu a prioridade política”; “a comissão pode apresentar oito emendas, logo pode apresentar oito de apropriação”; “a Constituição admite emendas à LOA, logo o art. 166, § 3º, se aplica sem diferenças à LDO”.
 
 **Risco temporal:** questões podem reproduzir critérios **anteriores às resoluções de 2025**, especialmente limites das emendas de comissão ou de bancada, sem avisar que se tratam de textos históricos. Se o enunciado disser “nos termos da redação vigente”, confrontar as alterações, e não uma versão do rito de 2015 ou 2024.
 

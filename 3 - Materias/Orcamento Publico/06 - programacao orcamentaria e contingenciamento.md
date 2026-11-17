@@ -5,7 +5,7 @@ title: "Programação orçamentária, financeira e contingenciamento"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-07
+updated: 2026-11-16
 aliases:
   - "Contingenciamento"
   - "Limitação de empenho"
@@ -20,7 +20,7 @@ Um órgão recebeu dotação de R$ 30 milhões na Lei Orçamentária Anual (LOA)
 
 **Programação orçamentária e financeira** é o conjunto de medidas que organiza a realização das despesas autorizadas conforme o fluxo provável de receitas, a disponibilidade de recursos e as metas fiscais. A autorização na LOA não se confunde com limite de empenho, disponibilidade financeira, liquidação ou pagamento.
 
-A Lei Complementar nº 101/2000, **Lei de Responsabilidade Fiscal (LRF)**, estabelece uma regra para a **programação inicial** (art. 8º) e outra para a **limitação diante de risco fiscal** (art. 9º). A distinção temporal entre essas regras é decisiva em questões.
+A Lei Complementar nº 101/2000, **Lei de Responsabilidade Fiscal (LRF)**, estabelece duas tarefas distintas. Pelo **art. 8º**, o Executivo organiza quando os pagamentos poderão ocorrer, mesmo que a arrecadação esteja normal. Pelo **art. 9º**, os Poderes e o Ministério Público devem restringir empenhos e movimentação financeira, por atos próprios, se a avaliação bimestral indicar risco para as metas fiscais. Assim, **programar** é organizar a execução; **contingenciar**, nessa hipótese, é restringi-la para responder a um risco identificado.
 
 ## Dotação, empenho, caixa e pagamento
 
@@ -32,7 +32,7 @@ A Lei Complementar nº 101/2000, **Lei de Responsabilidade Fiscal (LRF)**, estab
 | **Limite de pagamento** | Ritmo de desembolso que pode ser realizado | Equiparar ao valor liquidado |
 | **Pagamento** | Saída de recursos conforme obrigação liquidada e ordem competente | Deduzir que a política já produziu resultado social |
 
-Uma dotação de R$ 1 milhão pode coexistir com limite de empenho de R$ 700 mil. Mesmo empenhados R$ 600 mil, somente R$ 300 mil podem ter sido liquidados e R$ 250 mil pagos, conforme o caso. São estados diferentes de um mesmo orçamento. Ver [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|estágios da despesa]].
+Uma dotação de **R$ 1 milhão** pode coexistir com limite de empenho de **R$ 700 mil**. Desse limite, a autoridade pode ter empenhado **R$ 600 mil**; o fornecedor pode ter entregado bens que permitiram liquidar apenas **R$ 300 mil**; e o órgão pode ter pago somente **R$ 250 mil**. Restariam, nesse retrato, **R$ 100 mil de limite ainda não empenhado**, **R$ 300 mil empenhados ainda não liquidados** e **R$ 50 mil liquidados ainda não pagos**. Esses saldos medem coisas diferentes e não devem ser somados como se fossem novas despesas. Ver [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|estágios da despesa]].
 
 ## Programação financeira: art. 8º da LRF
 
@@ -66,7 +66,7 @@ A lei exige examinar **risco ao cumprimento da meta**, e não aguardar, necessar
 
 ### Critérios da LDO × atos de limitação
 
-A **LDO** disciplina critérios e forma de limitação de empenho (LRF, art. 4º). A **providência concreta** exige avaliação das metas e atos próprios dos Poderes e Ministério Público, conforme art. 9º. Portanto, a existência de critérios na LDO não demonstra que uma limitação já foi determinada.
+A **Lei de Diretrizes Orçamentárias (LDO)** define antecipadamente **como** as limitações de empenho devem ser distribuídas, nos termos do art. 4º da LRF. Depois, se a avaliação bimestral apontar risco para as metas, cada Poder e o Ministério Público editam seus **próprios atos** para estabelecer **quanto** será limitado (art. 9º). A LDO fornece a regra de distribuição; o ato posterior aplica essa regra aos valores concretos. A mera existência da LDO não significa que já houve contingenciamento.
 
 O contingenciamento restringe a possibilidade de novos comprometimentos e a movimentação financeira; ele **não é, automaticamente, anulação da dotação**. Anulação de dotação altera a autorização orçamentária e pode fornecer recursos para créditos adicionais, como detalhado em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]].
 
@@ -74,7 +74,7 @@ O contingenciamento restringe a possibilidade de novos comprometimentos e a movi
 
 O § 1º do art. 9º estabelece que, se a receita prevista for restabelecida, ainda que parcialmente, a **recomposição das dotações cujos empenhos foram limitados** ocorrerá **de forma proporcional às reduções efetivadas**.
 
-Exemplo: as limitações foram de R$ 6 milhões no órgão A e R$ 12 milhões no B. Uma recomposição parcial decorrente da melhora de receitas deve seguir a proporcionalidade legal. Não significa abertura automática de novos créditos nem liberação integral de todos os limites.
+Exemplo numérico: os órgãos A e B tiveram limitações de **R$ 6 milhões** e **R$ 12 milhões**, respectivamente. O total limitado foi de **R$ 18 milhões**. Se a receita melhorar e permitir recompor **R$ 9 milhões** do total, a recomposição proporcional será, neste exemplo sem outras restrições, de **R$ 3 milhões para A** e **R$ 6 milhões para B**. Cada órgão recupera metade do valor que havia sido limitado. Isso não abre créditos adicionais nem libera automaticamente o restante dos limites.
 
 ### Vedação de limitação pelo Executivo e calamidade: limites da exceção
 

@@ -56099,6 +56099,286 @@
       "correctAnswer": "C",
       "explanation": "A Constituição atribui essa avaliação ao sistema interno dos três Poderes, que também acompanha a execução dos programas de governo e dos orçamentos da União. (Constituição Federal, art. 74, caput e I.)",
       "reviewEvidence": "Constituição Federal, art. 74, caput e I — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica uma finalidade expressa do controle interno integrado."
+    },
+    {
+      "id": "cam-const-200-uniao-inspecao-trabalho",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "uniao-inspecao-trabalho",
+      "mechanism": "uniao-inspecao-trabalho",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#União: arts. 21 e 22"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "União: arts. 21 e 22"
+      },
+      "statement": "A execução da inspeção do trabalho é atribuição constitucional da União.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição atribui à União a organização, a manutenção e a execução da inspeção do trabalho. (Constituição Federal, art. 21, XXIV.)",
+      "reviewEvidence": "Constituição Federal, art. 21, XXIV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece atribuição administrativa expressa."
+    },
+    {
+      "id": "cam-const-200-propaganda-comercial-legislacao-estadual",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "propaganda-comercial-legislacao-estadual",
+      "mechanism": "propaganda-comercial-legislacao-estadual",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#União: arts. 21 e 22"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "União: arts. 21 e 22"
+      },
+      "statement": "Na ausência de autorização federal por lei complementar, um estado pode editar lei geral sobre propaganda comercial com base em sua competência legislativa remanescente.",
+      "correctAnswer": "E",
+      "explanation": "A propaganda comercial é matéria de competência legislativa privativa da União. A competência remanescente estadual não alcança essa matéria sem a autorização específica prevista na Constituição. (Constituição Federal, art. 22, XXIX e parágrafo único.)",
+      "reviewEvidence": "Constituição Federal, art. 22, XXIX e parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a competência privativa a uma matéria expressa."
+    },
+    {
+      "id": "cam-const-200-dados-pessoais-competencia-legislativa-material",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "dados-pessoais-competencia-legislativa-material",
+      "mechanism": "dados-pessoais-competencia-legislativa-material",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#União: arts. 21 e 22"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "União: arts. 21 e 22"
+      },
+      "statement": "Se lei complementar federal autorizar estados a legislar sobre questão específica de proteção de dados pessoais, essa autorização não transfere, por si só, a atribuição constitucional da União de organizar e fiscalizar a proteção e o tratamento de dados.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição separa a atribuição administrativa de organizar e fiscalizar da competência legislativa. A autorização por lei complementar pode abranger questão legislativa específica. Ela não transfere automaticamente a atribuição administrativa. (Constituição Federal, arts. 21, XXVI, e 22, XXX e parágrafo único.)",
+      "reviewEvidence": "Constituição Federal, arts. 21, XXVI, e 22, XXX e parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue competência material, normativa e limite da autorização aos estados."
+    },
+    {
+      "id": "cam-const-200-municipio-bens-historicos-atuacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "municipio-bens-historicos-atuacao",
+      "mechanism": "municipio-bens-historicos-atuacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência comum: art. 23"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência comum: art. 23"
+      },
+      "statement": "Um município pode atuar na proteção de monumentos históricos com fundamento na competência administrativa comum.",
+      "correctAnswer": "C",
+      "explanation": "A proteção de monumentos integra o art. 23, que atribui competências administrativas à União, aos estados, ao Distrito Federal e aos municípios. (Constituição Federal, art. 23, III.)",
+      "reviewEvidence": "Constituição Federal, art. 23, III — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica uma atribuição comum a um dos entes expressamente incluídos."
+    },
+    {
+      "id": "cam-const-200-cooperacao-comum-lei-ordinaria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "cooperacao-comum-lei-ordinaria",
+      "mechanism": "cooperacao-comum-lei-ordinaria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência comum: art. 23"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência comum: art. 23"
+      },
+      "statement": "A Constituição prevê lei ordinária como instrumento para fixar as normas de cooperação entre os entes no exercício das competências administrativas comuns do art. 23.",
+      "correctAnswer": "E",
+      "explanation": "A espécie normativa está trocada. O parágrafo único prevê leis complementares para fixar as normas de cooperação. (Constituição Federal, art. 23, parágrafo único.)",
+      "reviewEvidence": "Constituição Federal, art. 23, parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a competência compartilhada da espécie prevista para organizar a cooperação."
+    },
+    {
+      "id": "cam-const-200-custas-forenses-competencia-concorrente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "custas-forenses-competencia-concorrente",
+      "mechanism": "custas-forenses-competencia-concorrente",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Competência legislativa concorrente: art. 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Competência legislativa concorrente: art. 24"
+      },
+      "statement": "As custas dos serviços forenses são matéria de competência legislativa concorrente.",
+      "correctAnswer": "C",
+      "explanation": "O assunto consta expressamente do art. 24, que distribui essa competência entre União, estados e Distrito Federal. (Constituição Federal, art. 24, IV.)",
+      "reviewEvidence": "Constituição Federal, art. 24, IV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece uma matéria explicitamente concorrente."
+    },
+    {
+      "id": "cam-const-200-df-lei-organica-camara-legislativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "df-lei-organica-camara-legislativa",
+      "mechanism": "df-lei-organica-camara-legislativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Distrito Federal: acumulação de competências"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Distrito Federal: acumulação de competências"
+      },
+      "statement": "A lei orgânica do Distrito Federal é promulgada pela Câmara Legislativa do Distrito Federal.",
+      "correctAnswer": "C",
+      "explanation": "O Distrito Federal rege-se por lei orgânica. Sua Câmara Legislativa delibera no rito constitucional e promulga a norma. (Constituição Federal, art. 32, caput.)",
+      "reviewEvidence": "Constituição Federal, art. 32, caput — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica o órgão que promulga a norma de organização distrital."
+    },
+    {
+      "id": "cam-const-200-intervencao-duas-anuidades-divida-fundada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-duas-anuidades-divida-fundada",
+      "mechanism": "intervencao-duas-anuidades-divida-fundada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Intervenção: autonomia com exceção constitucional"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Intervenção: autonomia com exceção constitucional"
+      },
+      "statement": "Sem força maior, dois anos consecutivos sem pagamento da dívida fundada já satisfazem o requisito temporal para intervenção estadual em município, mas não o prazo exigido para intervenção federal em estado pelo mesmo motivo.",
+      "correctAnswer": "C",
+      "explanation": "O art. 35 exige dois anos consecutivos para a intervenção em município. Para a intervenção federal em estado nessa hipótese, o art. 34 exige mais de dois anos consecutivos. Ambos ressalvam a força maior. (Constituição Federal, arts. 34, V, a, e 35, I.)",
+      "reviewEvidence": "Constituição Federal, arts. 34, V, a, e 35, I — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Compara entes, autoridade e dois limiares próximos."
+    },
+    {
+      "id": "cam-const-200-intervencao-decreto-prazo-omissao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Organização do Estado",
+      "articleId": "art-efb14d491dd34d54",
+      "conceptId": "intervencao-decreto-prazo-omissao",
+      "mechanism": "intervencao-decreto-prazo-omissao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-efb14d491dd34d54#Como funciona uma intervenção: iniciativa, decreto e controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/11 - organizacao do estado.md",
+        "section": "Como funciona uma intervenção: iniciativa, decreto e controle"
+      },
+      "statement": "O decreto de intervenção pode omitir o prazo de duração sempre que a autoridade decidir não nomear interventor.",
+      "correctAnswer": "E",
+      "explanation": "O prazo deve ser informado juntamente com a amplitude e as condições de execução. A expressão “se couber” refere-se à nomeação de interventor. (Constituição Federal, art. 36, § 1º.)",
+      "reviewEvidence": "Constituição Federal, art. 36, § 1º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue indicação obrigatória de prazo e nomeação condicionada de interventor."
+    },
+    {
+      "id": "cam-const-200-direitos-humanos-diretriz-internacional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "direitos-humanos-diretriz-internacional",
+      "mechanism": "direitos-humanos-diretriz-internacional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "A prevalência dos direitos humanos orienta constitucionalmente a atuação do Brasil em negociações internacionais.",
+      "correctAnswer": "C",
+      "explanation": "Ela é um princípio expresso das relações internacionais da República. Por isso, orienta a atuação brasileira nesse âmbito. (Constituição Federal, art. 4º, II.)",
+      "reviewEvidence": "Constituição Federal, art. 4º, II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica uma diretriz expressa à atuação internacional."
     }
   ]
 }

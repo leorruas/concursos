@@ -44,6 +44,11 @@
     .results-stat + .results-stat{padding-left:18px}
     .results-stat strong{display:block;color:var(--text);font-size:clamp(25px,4vw,43px);line-height:1;letter-spacing:-.07em;font-variant-numeric:tabular-nums;font-weight:620;margin:12px 0 4px}
     .results-section{margin:0 0 74px}
+    .results-subject-group{margin:0 0 28px}
+    .results-subject-heading{font-size:17px;font-weight:650;margin:26px 0 12px;color:var(--text);display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+    .results-subject-heading small{font-size:12px;font-weight:400;color:var(--muted)}
+    .results-subject-group .results-quiz-priority:first-of-type{border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
+
     .results-section h2{font-size:clamp(27px,4vw,42px);line-height:1.1;letter-spacing:-.05em;font-weight:540;color:var(--text);margin:11px 0 15px;text-transform:lowercase}
     .results-section > .results-caption{max-width:650px;margin:0 0 29px;font-size:14px}
     .results-card{background:transparent;padding:20px 0 24px;margin:0;border:0;border-top:1px solid color-mix(in srgb,var(--text) 40%,transparent);border-radius:0}
@@ -137,6 +142,10 @@
         <option value="cgu-2026">CGU</option>
         <option value="dataprev-2026">Dataprev</option>
       </select>
+      <label for="results-subject-filter">Matéria</label>
+      <select id="results-subject-filter" aria-label="Filtrar revisões por matéria">
+        <option value="">Todas as matérias</option>
+      </select>
       <a id="results-login" class="results-button primary" href="https://concurso-estudo.leoruas.workers.dev/v1/login/github?return=%2Fresultados.html" hidden>Entrar com GitHub</a>
       <button id="results-logout" type="button" hidden>Sair da conta</button>
     </div>
@@ -153,7 +162,7 @@
       <section class="results-section" aria-labelledby="results-quiz-priority-title">
         <p class="results-section-label">rota de revisão</p>
         <h2 id="results-quiz-priority-title">artigos prioritários</h2>
-        <p class="results-caption" id="results-quiz-priority-description">As recomendações levam em conta os erros e as respostas inseguras das duas fontes.</p>
+        <p class="results-caption" id="results-quiz-priority-description">Artigos separados por matéria, com indicação de amostra pequena. As prioridades consideram erros e insegurança das duas fontes.</p>
         <div id="results-quiz-priorities"></div>
         <details class="results-revision-details">
           <summary>Ver explicações e questões associadas aos artigos</summary>
@@ -177,7 +186,7 @@
       <section class="results-section" aria-labelledby="title-concepts">
         <p class="results-section-label">diagnóstico por conceito</p>
         <h2 id="title-concepts">conceitos que pedem revisão</h2>
-        <p class="results-caption">Prioridades relativas dentro das suas tentativas. Elas não são notas e não medem retenção sem revisão em outro dia.</p>
+        <p class="results-caption">Conceitos separados por matéria, com acesso aos artigos relacionados. A prioridade não é uma nota e poucas tentativas não comprovam domínio ou dificuldade.</p>
         <details class="results-method">
           <summary>Como a prioridade é calculada?</summary>
           <p>O índice de 0 a 100 considera erros, repetições, respostas inseguras e a data de revisão. Itens recentes e pouca amostra devem ser interpretados com cautela. A mesma questão resolvida em momentos diferentes pode ser um reteste legítimo.</p>

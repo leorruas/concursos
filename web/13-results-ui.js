@@ -11,6 +11,7 @@ const DISPLAY={
  'orcamento-publico':'Orçamento Público','etica-publica':'Ética e decoro parlamentar','redacao':'Redação'
 };
 let manifest=new Map(),current=null;
+let selectedSubject='';
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
 function title(subject){return DISPLAY[subject]||subject||'Matéria sem classificação';}
@@ -71,6 +72,27 @@ function conceptLinks(container,concept){
  }
  container.append(links);
 }
+function articleSubject(article,concepts=[]){
+ const candidates=[article.subjectId,article.materiaId,...(article.mistakes||[]).map(q=>q.subjectId),...(article.uncertainCorrect||[]).map(q=>q.subjectId)];
+ const associated=concepts.filter(c=>Array.isArray(c.articles)&&c.articles.includes(article.articleId));
+ candidates.push(...associated.map(c=>c.subjectId));
+ return candidates.find(s=>typeof s==='string'&&s.trim())||'sem-materia';
+}
+function subjectGroups(rows,getSubject){
+ const groups=new Map();
+ for(const item of rows){const subject=getSubject(item)||'sem-materia';if(!groups.has(subject))groups.set(subject,[]);groups.get(subject).push(item);}
+ return [...groups].sort((a,b)=>title(a[0]).localeCompare(title(b[0]),'pt-BR'));
+}
+function subjectHeading(subject,count){
+ const h=el('h3','results-subject-heading',title(subject));
+ h.append(el('small','',count+' recomendaç'+(count===1?'ão':'ões')));
+ return h;
+}
+function evidenceLabel(attempts,errors){
+ if(attempts<3)return 'Amostra pequena: confira outras questões antes de concluir que há dificuldade recorrente.';
+ if(errors>1)return 'Erros registrados: prioridade de revisão, não medida definitiva de domínio.';
+ return 'Recomendação baseada no histórico disponível, sujeita a novos resultados.';
+}
 function priorityLabel(score){
  const label=el('strong','results-score','prioridade '+score+'/100');
  label.title='Índice de prioridade de revisão: quanto maior, mais cedo vale revisar. Não é nota nem taxa de erros.';
@@ -95,21 +117,34 @@ function render(){
  $('results-quiz-status').textContent=source.unmatchedCatalog
    ?source.unmatchedCatalog+' questão(ões) do site sem vínculo editorial no catálogo atual: entram no desempenho, mas não na recomendação de artigo.'
    :'As fontes são lidas no momento do acesso. O histórico original permanece em seus respectivos sistemas.';
- const articles=(current.articles||[]).filter(x=>x.mistakes?.length||x.uncertainCorrect?.length);
- $('results-articles').replaceChildren(...(articles.length?articles.map(makeArticle):[el('p','results-caption','Ainda não há erros ou acertos inseguros vinculados a artigos.')]));
+ const concepts=current.concepts||[];
+ const allArticles=(current.articles||[]).filter(x=>x.mistakes?.length||x.uncertainCorrect?.length);
+ const activeArticles=allArticles.filter(x=>!selectedSubject||articleSubject(x,concepts)===selectedSubject);
+ $('results-articles').replaceChildren(...(activeArticles.length?activeArticles.map(makeArticle):[el('p','results-caption','Sem artigos com erros ou insegurança para esta matéria.')]));
  const priority=$('results-quiz-priorities');
- priority.replaceChildren(...(articles.length?articles.slice(0,8).map((article,i)=>{
-  const box=el('article','results-quiz-priority'),number=el('span','results-order',String(i+1).padStart(2,'0'));
-  const copy=el('div'),meta=manifest.get(article.articleId);
-  copy.append(el('strong','',meta?.tituloExibicao||meta?.titulo||'Artigo vinculado'),el('small','',article.reason||'Revisão recomendada'));
-  const first=article.mistakes?.[0]||article.uncertainCorrect?.[0];
-  if(first?.section)copy.append(el('small','','Trecho: '+first.section));
-  const link=el('a','','Abrir artigo');
-  link.href=articleLink(article,first?.section||'');link.rel='noreferrer';
-  box.append(number,copy,link);return box;
- }):[el('p','results-caption','Ainda não há recomendações baseadas em erros ou insegurança neste concurso.')]));
+ const articleGroups=subjectGroups(activeArticles,a=>articleSubject(a,concepts));
+ priority.replaceChildren();
+ for(const [subject,items] of articleGroups){
+  const group=el('section','results-subject-group');
+  group.append(subjectHeading(subject,items.length));
+  for(const [i,article] of items.slice(0,6).entries()){
+   const box=el('article','results-quiz-priority'),number=el('span','results-order',String(i+1).padStart(2,'0'));
+   const copy=el('div'),meta=manifest.get(article.articleId);
+   const attempts=(article.mistakes?.length||0)+(article.uncertainCorrect?.length||0);
+   copy.append(el('strong','',meta?.tituloExibicao||meta?.titulo||'Artigo vinculado'),
+    el('small','',article.reason||'Revisão recomendada'),
+    el('small','',evidenceLabel(attempts,article.mistakes?.length||0)));
+   const first=article.mistakes?.[0]||article.uncertainCorrect?.[0];
+   if(first?.section)copy.append(el('small','','Trecho: '+first.section));
+   const link=el('a','','Abrir artigo');link.href=articleLink(article,first?.section||'');link.rel='noreferrer';
+   box.append(number,copy,link);group.append(box);
+  }
+  priority.append(group);
+ }
+ if(!articleGroups.length)priority.append(el('p','results-caption','Sem recomendações de artigo para esta matéria.'));
  $('results-quiz-priority-description').textContent=
-  'Uma única ordem de leitura calculada com as questões do chat e do site. A prioridade é relativa e depende da amostra registrada.';
+  'Recomendações por matéria, reunindo chat e site. A prioridade é relativa; amostras pequenas são sinalizadas.';
+
  const difficultyRoot=$('results-difficulty');
  const levelNames={'muito-facil':'Muito fácil',facil:'Fácil',media:'Média',dificil:'Difícil','muito-dificil':'Muito difícil','nao-classificada':'Sem classificação'};
  const levels=current.difficulty?.byLevel||[];
@@ -125,12 +160,29 @@ function render(){
   row.append(copy,bar,value);return row;
  }));
  if(!levels.length)difficultyRoot.append(el('p','results-caption','Ainda não existem tentativas classificadas para este concurso.'));
- const cs=(current.concepts||[]).filter(c=>c.errors||c.uncertain).slice(0,30);
- $('results-concepts').replaceChildren(...(cs.length?cs.map(c=>{
-  const box=el('div','results-concept'),left=el('div');
-  left.append(el('strong','',c.title),el('small','',title(c.subjectId)+' · '+c.errors+' erro(s) em '+c.attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')));
-  conceptLinks(left,c);box.append(left,priorityLabel(c.priority));return box;
- }):[el('p','results-caption','Sem recorrências registradas para priorizar.')]));
+ const cs=(current.concepts||[]).filter(c=>c.errors||c.uncertain)
+  .filter(c=>!selectedSubject||c.subjectId===selectedSubject);
+ const conceptRoot=$('results-concepts');
+ conceptRoot.replaceChildren();
+ for(const [subject,items] of subjectGroups(cs,c=>c.subjectId)){
+  const group=el('section','results-subject-group');
+  group.append(subjectHeading(subject,items.length));
+  for(const c of items.slice(0,12)){
+   const box=el('div','results-concept'),left=el('div');
+   left.append(el('strong','',c.title),
+    el('small','',c.errors+' erro(s) em '+c.attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')),
+    el('small','',evidenceLabel(c.attempts||0,c.errors||0)));
+   conceptLinks(left,c);box.append(left,priorityLabel(c.priority));group.append(box);
+  }
+  conceptRoot.append(group);
+ }
+ if(!conceptRoot.children.length)conceptRoot.append(el('p','results-caption','Sem conceitos prioritários para esta matéria.'));
+ const filter=$('results-subject-filter');
+ const subjects=new Set([...(current.bySubject||[]).map(s=>s.id),...allArticles.map(a=>articleSubject(a,concepts)),...concepts.map(c=>c.subjectId)].filter(Boolean));
+ const nextOptions=[['','Todas as matérias'],...[...subjects].sort((a,b)=>title(a).localeCompare(title(b),'pt-BR')).map(s=>[s,title(s)])];
+ filter.replaceChildren(...nextOptions.map(([value,label])=>{const option=el('option','',label);option.value=value;return option;}));
+ if(selectedSubject&&!subjects.has(selectedSubject))selectedSubject='';
+ filter.value=selectedSubject;
  const difficultyBySubject=new Map((current.difficulty?.bySubject||[]).map(x=>[x.id,x]));
  $('results-subjects').replaceChildren(...(current.bySubject||[]).map(sub=>{
   const row=el('tr'),judged=sub.correct+sub.incorrect;
@@ -318,7 +370,8 @@ themeButton.addEventListener('click',()=>{
 themeButton.textContent=document.documentElement.getAttribute('data-theme')==='light'?'modo escuro':'modo claro';
 const requestedContest=new URLSearchParams(location.search).get('concurso');
 if([...select.options].some(x=>x.value===requestedContest))select.value=requestedContest;
-select.addEventListener('change',load);
+select.addEventListener('change',()=>{selectedSubject='';load();});
+$('results-subject-filter').addEventListener('change',value=>{selectedSubject=value.target.value;render();});
 $('results-logout').addEventListener('click',async()=>{
  try{await fetch('/v1/logout',{method:'POST',credentials:'same-origin',headers:{Origin:location.origin}});}catch{}
  current=null;root.hidden=true;status.textContent='Sessão encerrada neste navegador.';$('results-login').hidden=false;$('results-logout').hidden=true;

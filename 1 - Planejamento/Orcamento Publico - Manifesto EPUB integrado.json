@@ -249,7 +249,8 @@
       "sequence": 1,
       "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "avaliar-sobreposicao-com-camara"
+      "selectionStatus": "avaliar-sobreposicao-com-camara",
+      "revisionSha": "3f8a392726c63313155ff53d8849c0f3129983c4"
     },
     {
       "chapterKey": "cgu-2",
@@ -261,7 +262,8 @@
       "sequence": 2,
       "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "avaliar-sobreposicao-com-camara"
+      "selectionStatus": "avaliar-sobreposicao-com-camara",
+      "revisionSha": "af7a1cf890b9b013bdd80125b7a27e3baf2d7cb4"
     },
     {
       "chapterKey": "cgu-3",
@@ -273,7 +275,8 @@
       "sequence": 3,
       "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "avaliar-sobreposicao-com-camara"
+      "selectionStatus": "avaliar-sobreposicao-com-camara",
+      "revisionSha": "948e6fe9568a9b969e8515478cd4a8880b3aa18d"
     },
     {
       "chapterKey": "cgu-4",
@@ -285,7 +288,8 @@
       "sequence": 4,
       "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "avaliar-sobreposicao-com-camara"
+      "selectionStatus": "avaliar-sobreposicao-com-camara",
+      "revisionSha": "01badbc0c33e65034bb1584bf2233ff5ea75be5b"
     },
     {
       "chapterKey": "cgu-5",
@@ -297,7 +301,8 @@
       "sequence": 5,
       "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "avaliar-sobreposicao-com-camara"
+      "selectionStatus": "avaliar-sobreposicao-com-camara",
+      "revisionSha": "26c14fc6bdedcb1203584ba2cb1e762e7ce60d83"
     },
     {
       "chapterKey": "cgu-6-novo",
@@ -320,9 +325,9 @@
       "sourceArticleId": "art-28b3d9ef86aa4510",
       "topicKey": "despesa-classificacao",
       "sequence": 7,
-      "certificationStatus": "revalidacao-editorial-pos-edicao-pendente",
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "aguarda-segunda-leitura-e-pages",
+      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
       "revisionSha": "e06bb60d279a69cc7bb85c9cef911e1ec0fca8ad"
     },
     {
@@ -336,7 +341,7 @@
       "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
       "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
-      "revisionSha": "87f45dbf2b62712432181d8674aa27bddb561e2a"
+      "revisionSha": "26016f78e5ef4d9b505c677a588953bb41d38b27"
     },
     {
       "chapterKey": "cgu-9-novo",
@@ -362,7 +367,7 @@
       "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
       "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
-      "revisionSha": "863eb6aea31bc9bf117ba260a67ef2fc700951fe"
+      "revisionSha": "040c5e9539e99574395a7fd91d520aa42bea9fc7"
     },
     {
       "chapterKey": "cgu-11-novo",
@@ -372,10 +377,10 @@
       "sourceArticleId": "art-4677cfa327ce43bb",
       "topicKey": "receitas-estagios",
       "sequence": 11,
-      "certificationStatus": "revalidacao-editorial-pos-edicao-pendente",
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "aguarda-segunda-leitura-e-pages",
-      "revisionSha": "64b90ab03fcf86b74e8a84cc4e827a166d7c47d4"
+      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
+      "revisionSha": "daaf2c933f9488b0fd2ad24c7a6769a68ef628dc"
     },
     {
       "chapterKey": "cgu-12-novo",
@@ -388,7 +393,7 @@
       "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
       "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
-      "revisionSha": "e6397064aca101f7b9c30055f1d761ba492555aa"
+      "revisionSha": "a1b8a283158eb3150c2e835056210987774d2115"
     },
     {
       "chapterKey": "cgu-13-novo",
@@ -398,9 +403,9 @@
       "sourceArticleId": "art-6e4e79c7f4bb4aa3",
       "topicKey": "restos-pagar",
       "sequence": 13,
-      "certificationStatus": "revalidacao-editorial-pos-edicao-pendente",
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "aguarda-revalidacao-e-ci-pages",
+      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
       "revisionSha": "4bf85158d6448c67cf11974232c880e7c2527780"
     },
     {
@@ -424,9 +429,9 @@
       "sourceArticleId": "art-91ab320cdfb64b8a",
       "topicKey": "responsabilidade-fiscal",
       "sequence": 15,
-      "certificationStatus": "revalidacao-editorial-pos-edicao-pendente",
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "aguarda-segunda-leitura-e-pages",
+      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
       "revisionSha": "9333c998df25d1889a8ce62521778428ba7aed01"
     }
   ],

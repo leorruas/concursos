@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: onze-certificados-quatro-em-auditoria
+status: quinze-certificados-com-ressalva-visual-migracao-pendente
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -498,3 +498,43 @@ No artigo `art-83d7c5ef2a0b4916`, conferidos **10 de 10 itens C/E e suas justifi
 **Ressalva obrigatória:** sem inspeção visual individual no navegador em modo claro/escuro, mobile, contraste, tabelas, navegação por teclado e âncoras. Testes técnicos de links e publicação são provas diferentes. A ausência do teste visual permanece registrada, sem afirmar que exista defeito conhecido.
 
 **Placar:** 11 de 15 artigos exclusivos CGU certificados editorialmente com ressalva visual, incluindo seis dos dez derivados desta etapa. **Quatro derivados ainda aguardam certificação individual de mérito.** Flashcards/glossários/theoryRefs legados e curadoria EPUB permanecem fora da certificação e não foram alterados.
+
+## Segundo ciclo: fechamento individual das quatro notas restantes (17/11/2026)
+
+**Evidência de publicação comum aos quatro:** workflow [44188330526](https://github.com/leorruas/concursos/actions/runs/44188330526), SHA `a239c7c17c7d2c4ae752cf5918b40a1c3cea13ba`, com resultado **success** nas etapas de build, validação de catálogo, publicação e confirmação de conteúdo servido no Pages. Todos os blobs abaixo são idênticos aos constantes daquele SHA. O edital CGU retificado em 06/11/2026 foi verificado em fonte oficial, assim como os textos normativos citados. Conferidas leitura integral de mérito, segunda leitura didática, tabelas, exemplos, fontes, links, questões C/E e comentários de cada artigo.
+
+### Responsabilidade fiscal, riscos e controle
+
+- `articleId:` `art-d218c459af1e4b73`; blob publicado `8b66c1340fa6aa6c3722fb899bde72ede5b65363`.
+- **Fontes conferidas:** Lei Complementar nº 101/2000, arts. 1º, 2º, 4º, 9º, 18 a 23, 52 a 55; LC nº 200/2023; Constituição, art. 165.
+- **Segunda leitura e questões:** Conferidas diferença entre resultado primário e nominal, Receita Corrente Líquida, escalas de limite de pessoal, Anexos de Metas e Riscos Fiscais, RREO bimestral versus RGF quadrimestral, limites de endividamento e contingenciamento. Dez itens C/E e suas justificativas confrontados com o texto legal; quadros, casos e sequência didática revistos. Não fixar valores anuais de metas sem LDO vigente.
+- **Técnico:** 6 wikilinks existentes, dez de dez itens C/E com gabarito comentado, identidade específica CGU, navegação, índice e catálogo verificados no workflow informado.
+- **Estado:** **revisão integral concluída com ressalva visual**.
+
+### Emendas parlamentares, rastreabilidade e controle
+
+- `articleId:` `art-a91ef3c628d04b57`; blob publicado `4c26fb57a1d2de888cc6588415d5d30d3a9e4d71`.
+- **Fontes conferidas:** Constituição, art. 166; LC nº 210/2024, texto atual; STF, comunicação de 09/09/2026 sobre identificador único; Nota Informativa do Senado de 05/11/2026, ADPF 854 e ADIs relacionadas.
+- **Segunda leitura e questões:** Verificados os conceitos de emenda versus crédito adicional, autoria individual/bancada/comissão, transferência especial, execução obrigatória sujeita a requisitos, rastreabilidade e separação entre transferência financeira e entrega material. Dez itens C/E e justificativas revistos. O texto corretamente distingue determinação de proposta de código único da implementação já concluída e exige consulta ao estado atual das decisões em casos concretos.
+- **Técnico:** 5 wikilinks existentes, dez de dez itens C/E com gabarito comentado, identidade específica CGU, navegação, índice e catálogo verificados no workflow informado.
+- **Estado:** **revisão integral concluída com ressalva visual**.
+
+### Natureza, fonte e resultado fiscal da receita
+
+- `articleId:` `art-e4c982a6713d4bf5`; blob publicado `ad0c453427cbd79358f9191e2f57cde3cae2f2d0`.
+- **Fontes conferidas:** Lei nº 4.320/1964, arts. 3º, 11, 35 e 57; Constituição, art. 167, IV; MTO 2026, 7ª versão; MCASP 11ª edição.
+- **Segunda leitura e questões:** Conferidas receitas orçamentárias/extraorçamentárias, ARO versus empréstimo comum, correntes e de capital, receita originária e derivada como eixo doutrinário diferente, fonte/destinação e identificação de resultado primário. Dez gabaritos comentados revistos; o exemplo de alienação de imóvel não é tratado automaticamente como receita financeira.
+- **Técnico:** 5 wikilinks existentes, dez de dez itens C/E com gabarito comentado, identidade específica CGU, navegação, índice e catálogo verificados no workflow informado.
+- **Estado:** **revisão integral concluída com ressalva visual**.
+
+### Classificação da despesa e rastreamento
+
+- `articleId:` `art-3f9d17a6c04b4e82`; blob publicado `c5afc9dfa1ed0e45bb4a09e0f4e5b9cd668e72a7`.
+- **Fontes conferidas:** Constituição, art. 165, § 5º; Lei nº 4.320/1964; MTO 2026, 7ª versão, classificação institucional, funcional, programática, natureza, fonte, RP e IU.
+- **Segunda leitura e questões:** Conferidos esfera orçamentária versus GND, órgão versus unidade, função versus programa, projeto/atividade/operação especial, despesas correntes e de capital, modalidade, elemento, investimentos e inversões, fonte e identificadores fiscais. Dez C/E e justificativas revistos; os códigos são corretamente tratados como dependentes das tabelas do exercício, com exemplos e quadros progressivos.
+- **Técnico:** 5 wikilinks existentes, dez de dez itens C/E com gabarito comentado, identidade específica CGU, navegação, índice e catálogo verificados no workflow informado.
+- **Estado:** **revisão integral concluída com ressalva visual**.
+
+**Ressalva visual individual (quatro artigos):** inspeção manual em navegador indisponível. Não foram observadas individualmente as interfaces claro/escuro, mobile, contraste, quebras de tabelas, elementos interativos, navegação por teclado e âncoras. A validação automática de Pages não supre essa etapa. A ressalva não descreve um defeito confirmado; qualquer defeito visual real encontrado reabre o artigo correspondente.
+
+**Placar de conteúdo:** **15/15 artigos específicos CGU com revisão integral concluída com ressalva visual**, dos quais **10/10 derivados criados nesta separação** e os cinco previamente certificados. Foram revistos os 100 itens C/E dos dez derivados e os 57 itens anteriormente certificados. **Separação de conteúdo por IDs próprios concluída; migração dos consumidores ainda pendente.** Os dez `articleIds` legados de Orçamento continuam também no catálogo CGU, e há uma nota transversal de Atualidades compartilhada. Os 101 cartões diretos do legado em `data/flashcards.json`, verbetes de glossário, `theoryRefs` e URLs antigas devem ser reconciliados individualmente antes de remover vínculos históricos. O banco `data/questoes-camara.json` não foi alterado. O EPUB integrado permanece apenas como manifesto sem capítulos selecionados; nenhuma exportação produzida.

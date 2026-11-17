@@ -138,4 +138,4 @@ As doze questões são originais e didáticas, não itens oficiais nem evidênci
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: instrumentos de planejamento e lei anual.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: orçamentos fiscal, seguridade e estatais.
 
-**Relação editorial:** artigo derivado do legado `art-a2f47c0d6e184e93`, preservado sem alterações. A inclusão no catálogo, no índice, no hub e no percurso da CGU, com reconciliação de `theoryRefs`, glossário e flashcards, pertence à coordenação. Este artigo ainda requer validação de publicação e não registra estudo pessoal.
+**Relação editorial:** artigo derivado do legado `art-a2f47c0d6e184e93`, preservado sem alterações. O `articleId` CGU e a navegação foram integrados pelo PR #363. Nove flashcards exclusivos da CGU foram redirecionados para seções existentes deste artigo, com CI de PR aprovado. A comprovação do Pages e a certificação editorial final ainda estão pendentes. O artigo não registra desempenho pessoal.

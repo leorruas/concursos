@@ -140,6 +140,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
   - [[3 - Materias/Comunicacao/22.3 - paulo nassar comunicacao integrada virtual|🆕 22.3 • Comunicação integrada virtual — Paulo Nassar]]
 - [[3 - Materias/Comunicacao/01 - comunicacao organizacional|01 • Comunicação organizacional]]
 - [[3 - Materias/Comunicacao/02 - comunicacao publica|🔄 02 • Comunicação pública]]
+- [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|03 • LAI, LGPD e transparência]]: base introdutória de transparência e dados pessoais; relacionar ao artigo mais recente de Administração Pública.
 - [[3 - Materias/Administracao Publica/03 - transparencia acesso a informacao e protecao de dados|Transparência, acesso à informação e proteção de dados pessoais]] (ver Administração Pública).
 - [[3 - Materias/Comunicacao/09 - comunicacao interna|09 • Comunicação interna]]
 - [[3 - Materias/Comunicacao/10 - linguagem simples|10 • Linguagem simples]]
@@ -158,6 +159,7 @@ A trilha TC-001 a TC-024 possui notas editoriais vinculadas à Câmara, incluind
 
 ## Planejamento e Pesquisa
 - [[3 - Materias/Comunicacao/16 - planejamento de comunicacao|16 • Planejamento de comunicação]]
+- [[3 - Materias/Comunicacao/20 - campanhas e planejamento de midia|20 • Campanhas e planejamento de mídia]]: objetivos, públicos, veículos e avaliação de campanhas.
 - [[3 - Materias/Comunicacao/17 - pesquisa em comunicacao|17 • Pesquisa em comunicação]]
 
 ## Comunicação Digital, Crise e Assessoria

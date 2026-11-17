@@ -25,7 +25,7 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 - **Direitos Políticos**: [[05 - direitos politicos|05 • Direitos políticos e regime do voto]].
 
 ## 3. Organização do Estado e Poderes
-- **Organização do Estado**: Divisão político-administrativa e repartição de competências (Pendente).
+- **Organização do Estado**: [[11 - organizacao do estado|Organização do Estado: divisão político-administrativa e repartição de competências]]. Esta unidade é distinta do artigo 11 sobre proposições legislativas, situado na trilha de Processo Legislativo.
 - **Organização dos Poderes**:
   - [[06 - poder legislativo|06 • Poder legislativo]]
   - [[07 - poder executivo|07 • Poder executivo]]

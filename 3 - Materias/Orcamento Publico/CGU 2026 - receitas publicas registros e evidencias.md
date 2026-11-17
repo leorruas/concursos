@@ -84,6 +84,22 @@ O reconhecimento de uma **variação patrimonial aumentativa** ou de um crédito
 
 **Exemplo:** um imposto é lançado antes de ser pago. O crédito tributário e o evento patrimonial podem ser reconhecidos antes do caixa. Para o registro orçamentário da receita, o art. 35, I, da Lei nº 4.320/1964 aponta para o exercício da arrecadação. O auditor concilia registros sem apagar essa diferença.
 
+## Receita efetiva, deduções e correções de registro
+
+Uma receita orçamentária pode ser **efetiva** quando seu fato contábil aumenta o patrimônio líquido, ou **não efetiva** quando envolve troca patrimonial sem aumento correspondente. Receber um empréstimo comum, por exemplo, gera caixa e dívida e costuma caracterizar receita orçamentária de capital **não efetiva**. A classificação efetiva/não efetiva é patrimonial; não equivale às categorias corrente e capital nem ao indicador primário.
+
+A **Variação Patrimonial Aumentativa (VPA)** pode ser reconhecida pelo regime de competência **antes do ingresso em caixa**, como no reconhecimento de crédito tributário a receber. Em contraste, para o **regime orçamentário da receita**, o art. 35, I, da Lei nº 4.320/1964 vincula o exercício à **arrecadação**. Uma receita lançada em dezembro e recebida em janeiro integra, no enfoque orçamentário, o exercício da arrecadação, mesmo que haja direito patrimonial registrado anteriormente.
+
+### Deduções, restituições, retificações e estornos
+
+O MCASP 11ª edição, Parte I, seção 3.6.1, distingue operações que **reduzem receita registrada** de uma nova despesa orçamentária. Quando ocorre **restituição de valor arrecadado a maior ou indevidamente**, a dedução da receita é, em regra, o procedimento contábil aplicável, observadas exceções legais. Da mesma forma, valores arrecadados que pertencem a outro ente podem demandar registro redutor da receita de quem arrecadou, conforme a estrutura legal e os procedimentos vigentes.
+
+**Exemplo:** se foram arrecadados R$ 10 mil e R$ 2 mil devem ser restituídos mediante dedução, a receita líquida será R$ 8 mil. Isso não significa que toda devolução de valores em qualquer situação seja dedução: a natureza da operação, o exercício e as regras específicas podem determinar registro de despesa.
+
+**Retificação** e **estorno** também merecem distinção. Quando a incorreção decorre de informação **prestada pelo contribuinte**, o tratamento descrito pelo MCASP pode exigir **dedução e novo registro** na classificação adequada. Quando o contribuinte informou corretamente e o erro foi de **escrituração pela administração**, utiliza-se **estorno e novo registro** correto. O auditor examina a origem do erro, documentos, datas e lançamentos, evitando registrar uma devolução financeira fictícia quando houve apenas correção de classificação.
+
+Essas distinções devem ser comparadas às normas vigentes para o fato analisado e aos casos do capítulo histórico [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|Receitas públicas: deduções e correções]].
+
 ## Roteiro de evidências para CGU
 
 A análise de receita pública deve reconstruir o percurso de um valor específico:

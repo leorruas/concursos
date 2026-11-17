@@ -346,6 +346,18 @@
       "certificationStatus": "redigido-validacao-editorial-pendente",
       "include": false,
       "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+    },
+    {
+      "chapterKey": "cgu-13-novo",
+      "articleId": "art-c85e29a3741f40bd",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - restos a pagar dea e suprimento de fundos.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-6e4e79c7f4bb4aa3",
+      "topicKey": "restos-pagar",
+      "sequence": 13,
+      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "include": false,
+      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
     }
   ],
   "crossReferences": [

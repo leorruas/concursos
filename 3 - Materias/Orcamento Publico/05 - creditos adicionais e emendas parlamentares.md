@@ -90,6 +90,14 @@ O **superávit financeiro** usado como fonte decorre de situação financeira ap
 
 **Não substituir por superávit primário**: esse é um indicador fiscal de outra finalidade, discutido em [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]].
 
+### Cálculo de recursos disponíveis: duas provas diferentes
+
+**Superávit financeiro do exercício anterior.** Considere, apenas para ilustrar a conta inicial, ativo financeiro de R$ 920 mil e passivo financeiro de R$ 710 mil no balanço de 31 de dezembro. A diferença positiva é **R$ 210 mil**. Essa subtração, isoladamente, **não garante** R$ 210 mil utilizáveis em qualquer crédito: o art. 43, § 2º, exige conjugar os saldos de créditos adicionais transferidos e as operações de crédito a eles vinculadas. Também é indispensável verificar o comprometimento e a **destinação legal de cada fonte**. No exercício seguinte, a apuração parte do balanço anterior, não de uma estimativa de arrecadação corrente.
+
+**Excesso de arrecadação do exercício corrente.** Imagine que até agosto tenham sido arrecadados R$ 12 milhões, ante R$ 11 milhões previstos para o mesmo período, com tendência positiva sustentável no restante do ano. A diferença acumulada é de **R$ 1 milhão**, mas o valor aproveitável ainda depende da avaliação da tendência, dos compromissos, das fontes e do ajuste exigido no **art. 43, § 4º, da Lei nº 4.320/1964** para créditos extraordinários abertos no exercício. Se houver R$ 200 mil de créditos extraordinários a deduzir nessa apuração, o saldo ilustrativo cai para **R$ 800 mil**, antes de outros condicionantes. Não se deve usar apenas a arrecadação de agosto nem concluir que o total é caixa livre.
+
+**C/E inédito:** A diferença positiva entre ativo e passivo financeiros apurada no balanço patrimonial anterior equivale, sem outros ajustes, ao montante necessariamente disponível para qualquer crédito especial. **Gabarito: Errado.** A conta inicial precisa considerar os ajustes do art. 43, § 2º, além das condições jurídicas de disponibilidade, comprometimento e destinação.
+
 ### Exemplo de anulação
 
 Uma unidade possui R$ 500 mil em dotação para um serviço e, nos termos legais, anula R$ 70 mil não comprometidos para reforçar outra ação já dotada. O instrumento de reforço é **suplementar**; a fonte é **anulação de dotação**. Não é uma geração de recursos financeiros novos. Também será preciso observar programação e disponibilidade financeira para realizar pagamentos.

@@ -1,5 +1,5 @@
-const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
-const source=fs.readFileSync(new URL('../web/13a-results-retests.js',import.meta.url),'utf8');
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const source=fs.readFileSync(path.resolve(__dirname,'../web/13a-results-retests.js'),'utf8');
 const ctx={Map,Set,Date,Number};ctx.window=ctx;vm.createContext(ctx);vm.runInContext(source,ctx);
 const analyze=ctx.ResultsRetests.analyze,day=d=>Date.parse(d+'T12:00:00Z');
 const q=new Map([['a',{concursoId:'camara-2026',articleId:'article1',subjectId:'direito-constitucional'}],

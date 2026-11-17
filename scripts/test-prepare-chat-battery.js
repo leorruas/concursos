@@ -36,3 +36,15 @@ assert.throws(()=>prepareChatBattery({...bank,expansao:[make('Q1',{correctAnswer
 assert.throws(()=>prepareChatBattery({...bank,expansao:[make('Q1',{examPart:'P3'})]},{count:1}),/Parte inválida/);
 assert.throws(()=>prepareChatBattery({...bank,expansao:[make('Q1'),make('Q1')]},{count:2}),/duplicado/);
 console.log('OK: preparação enxuta, exclusões, filtros de revisão, campos obrigatórios e falhas seguras.');
+
+
+import fs from 'node:fs';
+const fullBankText = fs.readFileSync(new URL('../data/questoes-camara.json', import.meta.url), 'utf8');
+const realBank = JSON.parse(fullBankText);
+const real = prepareChatBattery(realBank, {count:1}, {random:alwaysZero,sourceVersion:'test'});
+assert.equal(real.items.length,1);
+assert.equal(real.items[0].questionId.length>0,true);
+assert.ok(real.items[0].theoryRefs.length>0,'item real precisa de vínculo teórico');
+assert.ok(JSON.stringify(real).length < fullBankText.length / 10,
+  'pacote de um item precisa ser muito menor que o banco completo');
+console.log('OK: corpus real lido localmente; pacote de um item abaixo de 10% do banco.');

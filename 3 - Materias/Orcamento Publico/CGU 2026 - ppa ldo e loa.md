@@ -37,6 +37,20 @@ No regime federal do art. 35, § 2º, I, do Ato das Disposições Constitucionai
 
 O art. 167, § 1º, da CF também prevê que investimento cuja execução ultrapasse um exercício não pode começar sem inclusão prévia no PPA **ou lei que autorize sua inclusão**, sob pena de crime de responsabilidade. A segunda alternativa é decisiva para julgar enunciados com expressões como “somente se”.
 
+### Prazos federais: iniciativa, envio e devolução para sanção
+
+O **art. 35, § 2º, do Ato das Disposições Constitucionais Transitórias (ADCT)** estabelece prazos federais de referência enquanto vigorar a regra transitória. Eles tratam de **encaminhamento pelo Executivo** e **devolução para sanção pelo Congresso**, que são acontecimentos distintos.
+
+| Projeto federal | Encaminhamento pelo Executivo | Devolução para sanção |
+| :--- | :--- | :--- |
+| **PPA** | Até quatro meses antes do fim do **primeiro exercício financeiro do mandato presidencial** | Até o encerramento da sessão legislativa |
+| **LDO** | Até oito meses e meio antes do fim de **cada exercício financeiro** | Até o encerramento do primeiro período da sessão legislativa |
+| **LOA** | Até quatro meses antes do encerramento de **cada exercício financeiro** | Até o encerramento da sessão legislativa |
+
+No calendário federal usual, esses limites de encaminhamento correspondem, respectivamente, a **31 de agosto do primeiro ano de mandato**, **15 de abril** e **31 de agosto**. Eles não são prazos que o relator de uma comissão tenha para emitir parecer. Também não devem ser aplicados automaticamente a estados e municípios sem consultar o regime local.
+
+**Aplicação na fiscalização:** verificar protocolo do envio, tramitação, aprovação, sanção e eventuais efeitos da ausência de lei no momento esperado. Um prazo constitucional não demonstra, isoladamente, que o processo foi concluído dentro dele.
+
 ## O que a LDO acrescenta
 
 Conforme o art. 165, § 2º, da CF, a LDO estabelece metas e prioridades, diretrizes de política fiscal e respectivas metas compatíveis com trajetória sustentável da dívida pública, orienta a LOA, trata de alterações na legislação tributária e define a política de aplicação das agências financeiras oficiais de fomento.
@@ -81,7 +95,11 @@ O controle interno federal pode verificar a legalidade, a regularidade dos regis
 
 **Item 6.** “Se a receita realizada ao fim de um bimestre ameaçar as metas fiscais, a limitação de empenho corresponde à revogação automática da LOA.” **Errado.** A limitação segue as condições do art. 9º da LRF e da LDO; restringe a execução e movimentação financeira nos termos legais, sem revogar automaticamente a lei orçamentária.
 
-As seis questões são exemplos didáticos construídos a partir das normas; não representam itens oficiais ou frequência estatística da banca.
+**Item 7.** “Pelo art. 35, § 2º, do ADCT, o projeto federal da LDO deve ser encaminhado até oito meses e meio antes do fim do exercício, enquanto o projeto da LOA tem prazo de quatro meses antes do encerramento.” **Certo.** O inciso II trata da LDO e o inciso III da LOA, com marcos distintos de devolução para sanção.
+
+**Item 8.** “O prazo de devolução do projeto de LDO para sanção termina, segundo o ADCT, no mesmo marco final da sessão legislativa previsto para a LOA.” **Errado.** A LDO tem como referência o encerramento do primeiro período da sessão legislativa, e a LOA, o encerramento da sessão legislativa.
+
+As oito questões são exemplos didáticos construídos a partir das normas; não representam itens oficiais ou frequência estatística da banca.
 
 ## Fontes e continuidade
 
@@ -89,7 +107,7 @@ As seis questões são exemplos didáticos construídos a partir das normas; nã
 - [Lei nº 4.320/1964, arts. 58 a 65](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm): empenho, liquidação e pagamento.
 
 - [Constituição Federal, arts. 165, 166 e 167](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): iniciativa, funções das leis, apreciação e limites orçamentários.
-- [Ato das Disposições Constitucionais Transitórias, art. 35, § 2º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#adct): regra transitória de vigência federal.
+- [Ato das Disposições Constitucionais Transitórias, art. 35, § 2º, incisos I a III](https://www2.camara.leg.br/legin/fed/conadc/1988/constituicao.adct-1988-5-outubro-1988-322234-normaatualizada-pl.html): regra transitória de vigência federal.
 - [Lei Complementar nº 101/2000, arts. 4º e 9º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): LDO, anexos fiscais e limitação de empenho.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]]: aprofundamento sobre autorização, execução e comprovação de entregas.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: distinção entre fiscal, seguridade e investimento, com análise de dependência financeira.

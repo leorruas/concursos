@@ -52739,6 +52739,286 @@
       "correctAnswer": "C",
       "explanation": "O Regimento atribui essa competência às comissões. A audiência permite ouvir entidades da sociedade civil sobre matéria pertinente às atividades da comissão. (Regimento Interno, art. 24, III.)",
       "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 24, III — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Reconhece competência regimental expressa."
+    },
+    {
+      "id": "cam-const-200-conscrito-impedimento-temporario",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "conscrito-impedimento-temporario",
+      "mechanism": "conscrito-impedimento-temporario",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Alistamento eleitoral e voto"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Alistamento eleitoral e voto"
+      },
+      "statement": "Brasileiro ainda não alistado como eleitor fica impedido de se alistar durante a prestação do serviço militar obrigatório, mesmo que já tenha idade para o alistamento obrigatório.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição impede o alistamento eleitoral do conscrito enquanto durar o serviço militar obrigatório. A idade para o alistamento obrigatório não afasta esse impedimento temporário. (Constituição Federal, art. 14, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 14, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a restrição temporária de um impedimento definitivo."
+    },
+    {
+      "id": "cam-const-200-idade-prefeito-governador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "idade-prefeito-governador",
+      "mechanism": "idade-prefeito-governador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Condições de elegibilidade: art. 14, § 3º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Condições de elegibilidade: art. 14, § 3º"
+      },
+      "statement": "Uma pessoa que já completou vinte e oito anos satisfaz o requisito constitucional de idade mínima tanto para o cargo de prefeito quanto para o de governador.",
+      "correctAnswer": "E",
+      "explanation": "A equiparação está errada. Vinte e oito anos superam os vinte e um exigidos para prefeito, mas ficam abaixo dos trinta exigidos para governador. (Constituição Federal, art. 14, § 3º, VI, b e c.)",
+      "reviewEvidence": "Constituição Federal, art. 14, § 3º, VI, b e c — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Compara as idades mínimas para dois cargos."
+    },
+    {
+      "id": "cam-const-200-militar-agregado-diplomacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "militar-agregado-diplomacao",
+      "mechanism": "militar-agregado-diplomacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Militar alistável com doze anos de serviço foi agregado pela autoridade superior para concorrer. Caso seja eleito, ele somente passará para a inatividade no momento da posse.",
+      "correctAnswer": "E",
+      "explanation": "A agregação está correta para quem tem mais de dez anos de serviço. O erro é usar a posse como marco da inatividade. A passagem é automática na diplomação. (Constituição Federal, art. 14, § 8º, II.)",
+      "reviewEvidence": "Constituição Federal, art. 14, § 8º, II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Combina tempo de serviço, condição durante a candidatura e marco da inatividade."
+    },
+    {
+      "id": "cam-const-200-militar-menos-dez-agregacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "militar-menos-dez-agregacao",
+      "mechanism": "militar-menos-dez-agregacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Inelegibilidades constitucionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Inelegibilidades constitucionais"
+      },
+      "statement": "Para concorrer a cargo eletivo, militar alistável com oito anos de serviço deve ser agregado pela autoridade superior e permanecer nessa condição até o resultado da eleição.",
+      "correctAnswer": "E",
+      "explanation": "A agregação pertence à regra de quem tem mais de dez anos de serviço. Com oito anos, o militar deve afastar-se da atividade. (Constituição Federal, art. 14, § 8º, I e II.)",
+      "reviewEvidence": "Constituição Federal, art. 14, § 8º, I e II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Escolhe o tratamento aplicável conforme o tempo de serviço."
+    },
+    {
+      "id": "cam-const-200-condenacao-sem-transito-suspensao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "condenacao-sem-transito-suspensao",
+      "mechanism": "condenacao-sem-transito-suspensao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Perda e suspensão dos direitos políticos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Perda e suspensão dos direitos políticos"
+      },
+      "statement": "A condenação criminal recorrível já produz a suspensão dos direitos políticos prevista no art. 15, III, da Constituição.",
+      "correctAnswer": "E",
+      "explanation": "Falta o trânsito em julgado, isto é, a situação em que já não cabem recursos contra a condenação. Esse é o marco exigido pelo inciso III para a suspensão, que perdura enquanto durarem os efeitos da condenação. (Constituição Federal, art. 15, III.)",
+      "reviewEvidence": "Constituição Federal, art. 15, III — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue condenação recorrível do marco constitucional de suspensão."
+    },
+    {
+      "id": "cam-const-200-partido-contas-justica-eleitoral",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "partido-contas-justica-eleitoral",
+      "mechanism": "partido-contas-justica-eleitoral",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      },
+      "statement": "A Constituição prevê que os partidos políticos prestem contas à Justiça Eleitoral.",
+      "correctAnswer": "C",
+      "explanation": "A prestação de contas à Justiça Eleitoral é um dos preceitos constitucionais que os partidos devem observar. (Constituição Federal, art. 17, III.)",
+      "reviewEvidence": "Constituição Federal, art. 17, III — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece o destinatário constitucional das contas partidárias."
+    },
+    {
+      "id": "cam-const-200-partido-estatuto-ordem-registro",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "partido-estatuto-ordem-registro",
+      "mechanism": "partido-estatuto-ordem-registro",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      },
+      "statement": "O registro do estatuto no Tribunal Superior Eleitoral é a etapa que precede a aquisição de personalidade jurídica pelo partido na forma da lei civil.",
+      "correctAnswer": "E",
+      "explanation": "A ordem foi invertida. O partido adquire personalidade jurídica na forma da lei civil e depois registra seu estatuto no Tribunal Superior Eleitoral. (Constituição Federal, art. 17, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 17, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a ordem de dois atos de constituição partidária."
+    },
+    {
+      "id": "cam-const-200-partido-migracao-anuencia-fundos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "partido-migracao-anuencia-fundos",
+      "mechanism": "partido-migracao-anuencia-fundos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      },
+      "statement": "Uma deputada estadual deixou o partido pelo qual foi eleita com a anuência desse partido. Ela pode manter o mandato e, em razão da anuência, sua migração deve ser computada para distribuir tempo de acesso gratuito à televisão.",
+      "correctAnswer": "E",
+      "explanation": "A anuência pode afastar a perda do mandato. Ela não autoriza contar a migração na distribuição do tempo de acesso gratuito à televisão. A Constituição exclui essa contagem mesmo quando a saída é permitida. (Constituição Federal, art. 17, § 6º.)",
+      "reviewEvidence": "Constituição Federal, art. 17, § 6º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a exceção à perda do mandato e verifica sua consequência distributiva autônoma."
+    },
+    {
+      "id": "cam-const-200-partido-clausula-migracao-sem-perda",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "partido-clausula-migracao-sem-perda",
+      "mechanism": "partido-clausula-migracao-sem-perda",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      },
+      "statement": "Um deputado eleito por partido que não alcançou os requisitos constitucionais de acesso ao fundo partidário e ao tempo gratuito de rádio e televisão pode filiar-se, sem perda do mandato, a partido que tenha alcançado esses requisitos.",
+      "correctAnswer": "C",
+      "explanation": "A cláusula de desempenho restringe o acesso do partido a recursos e tempo gratuito. A Constituição assegura o mandato do eleito e permite sua filiação a outra legenda que tenha preenchido os requisitos. (Constituição Federal, art. 17, §§ 3º e 5º.)",
+      "reviewEvidence": "Constituição Federal, art. 17, §§ 3º e 5º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue desempenho do partido, titularidade do mandato e condição do partido de destino."
+    },
+    {
+      "id": "cam-const-200-partido-fundo-mulheres-campanha-distincao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos políticos e partidos políticos",
+      "articleId": "art-6a55fcee78be4a39",
+      "conceptId": "partido-fundo-mulheres-campanha-distincao",
+      "mechanism": "partido-fundo-mulheres-campanha-distincao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6a55fcee78be4a39#Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/05 - direitos politicos.md",
+        "section": "Anualidade eleitoral e partidos políticos: arts. 16 e 17"
+      },
+      "statement": "A aplicação do mínimo constitucional de recursos do fundo partidário em programas de promoção da participação política das mulheres não dispensa o partido de observar o mínimo aplicável aos recursos eleitorais destinados às candidatas.",
+      "correctAnswer": "C",
+      "explanation": "São obrigações distintas. O mínimo de 5% do fundo partidário financia programas de promoção da participação política das mulheres. O piso de 30% incide, nas condições constitucionais, sobre a destinação às candidatas dos recursos de campanha e do tempo gratuito de propaganda. (Constituição Federal, art. 17, §§ 7º e 8º.)",
+      "reviewEvidence": "Constituição Federal, art. 17, §§ 7º e 8º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue percentuais, finalidade e bases de incidência em dois regimes simultâneos."
     }
   ]
 }

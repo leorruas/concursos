@@ -14,11 +14,13 @@ aliases:
 
 # Orçamento público e ciclo orçamentário
 
-## Por que começar por aqui
+## Do planejamento à entrega: o que acontece com o orçamento
 
-Imagine que o governo queira construir cinco escolas. Primeiro, ele planeja a expansão para os próximos anos. Depois, escolhe o que será prioridade no ano seguinte. A lei orçamentária pode reservar uma quantia para a obra. Essa quantia é chamada de **dotação orçamentária**: um valor autorizado para determinada despesa. Até aqui, nenhuma escola precisa ter sido construída. Ainda será necessário realizar os procedimentos de contratação, usar os recursos conforme a lei e acompanhar o que foi entregue. Esse percurso explica por que **planejamento, orçamento, execução e resultado** são conceitos diferentes.
+Imagine que o governo queira construir cinco escolas. Primeiro, ele planeja a expansão para os próximos anos. Depois, define quais obras terão prioridade no ano seguinte. A lei orçamentária pode reservar recursos para essas obras. O valor autorizado para determinada despesa recebe o nome de **dotação orçamentária**. Isso ainda não significa que as escolas tenham sido construídas ou que o dinheiro tenha sido pago. Para transformar a autorização em uma entrega, o poder público precisa cumprir os procedimentos de contratação, executar as despesas de acordo com a lei e acompanhar as obras.
 
-Este é o ponto de entrada da matéria. O artigo [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] aprofunda três leis: o **Plano Plurianual (PPA)**, que organiza objetivos para vários anos; a **Lei de Diretrizes Orçamentárias (LDO)**, que orienta o orçamento seguinte; e a **Lei Orçamentária Anual (LOA)**, que prevê receitas e autoriza despesas para um ano. Outras notas explicam as formas de classificar receitas e despesas, as alterações das autorizações orçamentárias e as regras de equilíbrio das contas públicas. A organização é reutilizável entre editais. Na Controladoria-Geral da União (CGU) 2026, este texto atende **parcialmente** ao recorte P3.2.2, em formato **Cebraspe, Certo ou Errado**.
+Esse exemplo reúne quatro ideias que precisam ser distinguidas: **planejamento** define objetivos, **orçamento** prevê receitas e autoriza despesas, **execução** envolve os atos necessários para realizar os gastos e **resultado** exige verificar o que foi entregue e quais mudanças ocorreram. O **ciclo orçamentário** organiza esses momentos e permite acompanhar como uma proposta se transforma em lei, passa pela execução e é submetida a controle e avaliação.
+
+Ao longo do processo aparecem três leis, que serão aprofundadas em [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]]: o **Plano Plurianual (PPA)** organiza objetivos para vários anos; a **Lei de Diretrizes Orçamentárias (LDO)** orienta a preparação do orçamento anual; e a **Lei Orçamentária Anual (LOA)** prevê receitas e autoriza despesas para um exercício. Por enquanto, o importante é compreender o caminho entre a decisão de planejar uma ação, a autorização para gastar e sua realização efetiva.
 
 ## Três conjuntos de perguntas: momento, autorização e entrega
 

@@ -59,7 +59,7 @@ O **art. 18 da Resolução 1/2006-CN** determina quatro comitês. Os nomes são 
 | Comitê de Avaliação das Informações sobre Obras e Serviços com Indícios de Irregularidades Graves | **COI** | Que providências cabem diante de informações sobre obras e serviços com indícios graves? | **Indício de irregularidade** ≠ condenação definitiva |
 | Comitê de Exame da Admissibilidade de Emendas | **CAE** | A emenda atende a condições jurídicas e regimentais para ser apreciada? | **Admissibilidade** ≠ mérito político |
 
-**Composição dos comitês:** como regra básica, cada um reúne de **5 a 10 parlamentares** indicados pelas lideranças, além dos relatores que a resolução possa prever sem computá-los nesse número. Cada comitê escolhe um **coordenador** entre seus membros. A distribuição precisa observar as regras de proporcionalidade entre partidos e Casas, previstas nos arts. 18 e 19. **Exemplo:** a escolha dos participantes do comitê não transforma seu coordenador em presidente da CMO; os cargos têm competências distintas.
+**Composição dos comitês:** como regra básica, cada um reúne de **5 a 10 parlamentares** indicados pelas lideranças, além dos relatores que a resolução possa prever sem computá-los nesse número. Cada comitê tem um **coordenador**, que deve ser um de seus membros. O **presidente da CMO designa os membros e coordenadores** dos comitês, respeitando a proporcionalidade entre partidos e as duas Casas do Congresso, conforme os arts. 15, VI, 18 e 19 da Resolução nº 1/2006-CN. A designação ocorre, em regra, até cinco dias após a instalação da CMO (art. 19, § 1º). **Exemplo:** a escolha dos participantes do comitê não transforma seu coordenador em presidente da CMO; os cargos têm competências distintas.
 
 **Deliberação interna:** conforme o art. 20, os relatórios dos comitês exigem **maioria absoluta dos membros**. Isso significa mais da metade do número total de membros, e não apenas dos presentes à reunião. Se o comitê tiver oito membros, por exemplo, a maioria absoluta corresponde a **cinco votos**. A resolução também disciplina o voto de desempate do coordenador. O relatório aprovado segue à **CMO**, que fará sua própria apreciação. Portanto, **relatório aprovado no comitê não equivale a parecer do colegiado ou lei orçamentária aprovada**.
 
@@ -79,7 +79,7 @@ Um projeto pode ter **receita subestimada ou superestimada**. Avaliar esses valo
 
 O COI examina informações sobre obras ou serviços com **indícios de irregularidades graves**, incluindo dados encaminhados pelo TCU. Pode subsidiar relatórios e encaminhamentos sobre suspensão ou continuidade, conforme arts. 23, 24 e 121 a 124. **Indício não é prova definitiva**, e o rito envolve manifestações, avaliações e decisões de órgãos competentes.
 
-O art. 123 prevê **caráter terminativo** para determinado parecer da CMO sobre informações do Tribunal de Contas da União (TCU). Nesse contexto, *terminativo* significa que a decisão da comissão pode encerrar aquela apreciação **sem votação automática do Plenário**, mas cabe **recurso ao Plenário do Congresso Nacional** conforme a norma. Esse procedimento se refere ao objeto específico do dispositivo, ligado a informações de obras e serviços. **Não permite concluir** que a CMO aprove definitivamente os projetos de PPA, LDO e LOA, que seguem a tramitação legislativa própria.
+O art. 123 prevê **caráter terminativo** para determinado parecer da CMO sobre informações do Tribunal de Contas da União (TCU). Nesse contexto, *terminativo* significa que o parecer pode encerrar aquela apreciação **sem votação automática do Plenário**. Existe, porém, **recurso ao Plenário do Congresso Nacional**: pelo art. 123, § 3º, ele deve ter assinatura de **um décimo dos membros de cada Casa na CMO** e ser apresentado em até **cinco dias úteis após a publicação do parecer**. Exemplo: considerando a composição-base de 30 deputados e 10 senadores titulares, o requisito corresponde, respectivamente, a três deputados e um senador da CMO, sem afastar eventuais regras aplicáveis à composição efetiva. O prazo se conta da publicação do parecer, e não da realização da auditoria do TCU. Esse procedimento específico trata de informações sobre obras e serviços com indícios de irregularidade grave. **Não permite concluir** que a CMO aprove definitivamente os projetos de PPA, LDO e LOA, que seguem a tramitação legislativa própria.
 
 ### CAE: admissibilidade das emendas
 
@@ -91,7 +91,7 @@ A exceção é essencial. O item “o relatório do CAE precisa obrigatoriamente
 
 ## Relatores, relatórios e níveis de decisão
 
-A tramitação do PLOA envolve diferentes relatores, com atribuições estabelecidas em normas regimentais. **Relator-Geral** coordena a análise global do projeto; **Relator da Receita** examina as previsões de receita; **Relatores Setoriais** analisam áreas temáticas do orçamento. Os relatores são designados segundo regras próprias de **proporcionalidade, distribuição entre Casas e rodízio**.
+A tramitação do PLOA envolve diferentes relatores, com atribuições estabelecidas em normas regimentais. **Relator-Geral** coordena a análise global do projeto; **Relator da Receita** examina as previsões de arrecadação, que ajudam a definir quanto poderá financiar as despesas; **Relatores Setoriais** analisam conjuntos temáticos de programações e emendas, como despesas destinadas a áreas de governo. Os relatores são designados segundo regras próprias de **proporcionalidade, distribuição entre Casas e rodízio**.
 
 **Relatório preliminar:** define parâmetros e critérios de apreciação, inclusive limites para emendas e remanejamentos. **Relatórios setoriais:** examinam a programação das respectivas áreas. **Relatório geral:** integra a apreciação mais ampla da proposta e incorpora informações relevantes dos comitês. **Parecer da CMO:** posição do colegiado sobre o projeto. **Votação do Congresso:** decisão parlamentar posterior, na forma do Regimento Comum.
 
@@ -99,7 +99,7 @@ A tramitação do PLOA envolve diferentes relatores, com atribuições estabelec
 
 ## Admissibilidade, mérito, emendas e transparência
 
-**Admissibilidade** é o exame de conformidade com normas constitucionais, legais e regimentais: compatibilidade com PPA e LDO, indicação válida de recursos, limitações de anulação, tipo de emenda, legitimidade de autoria e demais condições aplicáveis. **Mérito** é a avaliação da conveniência e prioridade da alteração orçamentária. Uma emenda pode ser **juridicamente admissível e politicamente rejeitada**, ou politicamente desejável e inadmissível.
+**Admissibilidade** é a verificação de que uma emenda atende às condições legais para ser examinada. Entre as condições aplicáveis estão a compatibilidade com PPA e LDO, a indicação de recursos permitidos, a proibição de cancelar determinadas despesas, a modalidade da emenda e quem tem autorização para apresentá-la. **Mérito** é a avaliação de sua finalidade e prioridade: por exemplo, decidir se ampliar determinada ação de saúde é a melhor escolha entre as propostas possíveis. Uma emenda pode ser **juridicamente admissível e politicamente rejeitada**, ou politicamente desejável e inadmissível.
 
 A Constituição, art. 166, § 3º, prevê requisitos para aprovação de emendas à LOA, inclusive a vedação de empregar anulações de dotações relativas a **pessoal e encargos, serviço da dívida e transferências tributárias constitucionais**, com exceções próprias para correção de erros, omissões e dispositivos de texto.
 
@@ -107,7 +107,7 @@ A Resolução 1/2006-CN foi alterada em **2025** para aperfeiçoar procedimentos
 
 **Emenda individual × coletiva:** a distinção de autoria (parlamentar individual, bancada estadual, comissão etc.) não se confunde com a **classificação da operação sobre a despesa** (apropriação, remanejamento ou cancelamento). **Autor da emenda ≠ categoria financeira da emenda**. [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]] detalha modalidades e execução.
 
-A necessidade de **transparência e rastreabilidade** envolve identificação de autor, programação, beneficiário, destinação e execução, conforme normas pertinentes e decisões judiciais. A CMO examina condições no processo legislativo, mas **rastreabilidade da emenda não equivale a execução obrigatória sem controle**.
+**Transparência** significa tornar públicas as informações exigidas sobre a emenda. **Rastreabilidade** significa permitir acompanhar o caminho dos recursos: quem propôs a alteração, qual ação recebeu dotação, quem poderá receber os valores e como ocorreu a execução, segundo as regras aplicáveis. A CMO examina condições no processo legislativo, mas **rastreabilidade da emenda não equivale a execução obrigatória sem controle**.
 
 ## Caso progressivo: uma emenda e quatro órgãos
 

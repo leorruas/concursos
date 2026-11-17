@@ -30,6 +30,7 @@ jobs:
       - run: node scripts/audit-camara-reference-headings.js
       - run: node scripts/test-camara-questions.js
       - run: node scripts/test-camara-expansion.js
+      - run: node scripts/test-prepare-chat-battery.js
       - run: node scripts/test-camara-difficulty.js && node scripts/test-camara-discursivas.js
       - run: node scripts/validate-flashcards.js
       - run: node scripts/test-article-identity.js

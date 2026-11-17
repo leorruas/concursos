@@ -46,6 +46,12 @@ for(const [legado, exclusivo] of paresCGU) {
   assert.ok(!orcCamara.articleIds.includes(exclusivo), 'Artigo CGU não deve entrar no currículo Câmara: '+exclusivo);
 }
 const cards = carregar('data/flashcards.json').cards;
+const cardsOrcCGU = cards.filter(c => c.examIds.includes('cgu-2026') &&
+  c.subjectIds.includes('orcamento-publico'));
+for (const card of cardsOrcCGU) {
+  assert.ok(orcCGU.articleIds.includes(card.note.articleId),
+    'Flashcard de Orçamento CGU aponta fora do catálogo próprio: ' + card.id);
+}
 const noteCounts = new Map();
 for(const card of cards.filter(c=>c.examIds.includes('cgu-2026') && c.subjectIds.includes('orcamento-publico'))) {
   if(![...paresCGU].some(([legado]) => card.note.articleId === legado)) {

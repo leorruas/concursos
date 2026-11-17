@@ -20,7 +20,9 @@ export function recoverChatBattery(bank, checkpoint) {
   if (checkpoint?.kind !== 'chat-battery-checkpoint' ||
       checkpoint?.schemaVersion !== 1 ||
       !Array.isArray(checkpoint.questionIds) ||
-      new Set(checkpoint.questionIds).size !== checkpoint.questionIds.length) {
+      new Set(checkpoint.questionIds).size !== checkpoint.questionIds.length ||
+      !Array.isArray(checkpoint.answers) ||
+      checkpoint.answers.some(a => !a || typeof a.attemptId !== 'string' || !a.attemptId.trim())) {
     throw new Error('Checkpoint privado inválido');
   }
   const map = new Map((bank.expansao ?? []).map(q => [q.id, q]));

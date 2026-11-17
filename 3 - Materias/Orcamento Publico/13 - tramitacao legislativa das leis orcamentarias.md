@@ -14,7 +14,7 @@ updated: 2026-11-07
 
 **Situação concreta.** O presidente da República encaminha ao Congresso Nacional o projeto de lei orçamentária anual (PLOA). Uma comissão formada por deputados e senadores examina o projeto e as emendas; depois o texto é discutido e votado pelo Congresso, em sessão conjunta. Uma questão afirma que, por se tratar de projeto de iniciativa presidencial, a votação deve começar na Câmara dos Deputados, seguir ao Senado em sessão separada e retornar à Câmara caso haja modificação. Essa é uma transposição indevida do **procedimento legislativo ordinário** para o **rito constitucional especial de matéria orçamentária**.
 
-**Processamento legislativo orçamentário** é o conjunto de atos de recebimento, exame, apresentação e apreciação de emendas, emissão de parecer, deliberação e encaminhamento dos projetos relativos ao **Plano Plurianual (PPA)**, à **Lei de Diretrizes Orçamentárias (LDO)**, à **Lei Orçamentária Anual (LOA)** e aos **créditos adicionais**, conforme a Constituição, art. 166, o Regimento Comum e a **Resolução nº 1/2006 do Congresso Nacional (Resolução 1/2006-CN)**, com alterações posteriores.
+**Tramitação legislativa orçamentária** é o caminho percorrido por um projeto de lei desde sua chegada ao Congresso até a decisão legislativa. Nesse caminho, o projeto é registrado e publicado, parlamentares podem propor **emendas** (mudanças no texto ou nas dotações), uma comissão elabora um **parecer** (análise e recomendação), e o Congresso delibera. A tramitação abrange projetos relativos ao **Plano Plurianual (PPA)**, à **Lei de Diretrizes Orçamentárias (LDO)**, à **Lei Orçamentária Anual (LOA)** e aos **créditos adicionais**, conforme a Constituição, art. 166, o Regimento Comum e a **Resolução nº 1/2006 do Congresso Nacional (Resolução 1/2006-CN)**, com alterações posteriores.
 
 A **Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO)** reúne deputados e senadores e atua de forma permanente. Nela, os parlamentares **analisam** o projeto e as emendas e produzem um **parecer**, isto é, uma manifestação fundamentada que recomenda como a proposta deve ser tratada. Esse parecer **ainda não é a aprovação final da lei**. A decisão legislativa cabe ao **Plenário do Congresso Nacional**, em sessão conjunta, seguindo as regras de votação aplicáveis às duas Casas. Mesmo reunidos na mesma sessão, Câmara e Senado preservam suas competências. O caminho é: **projeto recebido → exame na CMO → parecer → deliberação do Congresso**. Depois ainda cabem as etapas constitucionais pertinentes, como sanção ou veto, promulgação e publicação.
 
@@ -54,9 +54,9 @@ A **Comissão Mista Permanente** prevista no art. 166, § 1º, examina não apen
 
 **1. Encaminhamento presidencial.** O Executivo elabora e remete o projeto com os anexos e documentos pertinentes. O envio cumpre a iniciativa constitucional, mas o texto ainda é **projeto**, sujeito a exame e alterações. A proposta das unidades orçamentárias que antecede o PLOA é outro objeto.
 
-**2. Recebimento, registro, publicação e calendário.** O Congresso autua, numera e publica o projeto, estabelecendo, conforme o rito aplicável, o **cronograma de análise**. As fases e os prazos de PPA, LDO e LOA não são integralmente idênticos.
+**2. Recebimento, registro, publicação e calendário.** Ao receber o projeto, o Congresso o **autua**, isto é, cria seu registro formal, atribui a identificação da proposição e torna seu conteúdo público. Também organiza o **cronograma**, com datas para os atos regimentais previstos. Os projetos de PPA, LDO e LOA têm etapas e prazos próprios. O calendário interno de uma proposição não muda, por si, os prazos definidos na Constituição.
 
-**3. Exame na CMO.** A comissão realiza trabalhos técnicos e parlamentares, audiências e relatórios próprios de cada projeto. A Resolução 1/2006-CN prevê instrumentos como **relatório preliminar**, exame de receita, relatórios setoriais ou de relator, conforme a espécie de projeto, e parecer final. **Relatório preliminar ≠ relatório final**: o primeiro estrutura critérios, limites e orientações; o segundo registra o resultado da análise de mérito e das emendas.
+**3. Exame na CMO.** A Comissão Mista de Orçamento (CMO) organiza a análise parlamentar e técnica do projeto. Pode promover **audiências**, reuniões em que autoridades ou convidados prestam informações, e recebe documentos de trabalho conforme o rito. No projeto da LOA, o **relatório preliminar** estabelece regras e parâmetros para orientar as etapas seguintes; os **relatórios setoriais** examinam partes da programação; e o **relatório final ou geral**, conforme a fase, reúne análises e propostas de decisão. Esses documentos têm funções diferentes. Nem toda modalidade de projeto segue a mesma sequência de relatórios.
 
 **4. Apresentação de emendas.** Parlamentares e colegiados legitimados apresentam emendas conforme a modalidade, o projeto e o procedimento regimental. As **emendas são apresentadas na CMO**, onde recebem parecer, e apreciadas posteriormente pelo Plenário das duas Casas na forma do regimento comum (CF, art. 166, § 2º).
 
@@ -74,7 +74,7 @@ Imagine que uma emenda queira acrescentar R$ 2 milhões para equipar uma bibliot
 
 ### Projeto de lei × parecer × autógrafo × lei
 
-**Projeto:** proposição submetida ao Legislativo. **Parecer:** manifestação da CMO sobre o objeto e as emendas. **Autógrafo:** texto legislativo formalizado após a aprovação, encaminhado ao Executivo conforme o rito. **Lei:** resultado do processo após as etapas de sanção ou veto, promulgação e publicação. A prova pode usar um desses termos e deslocar a consequência para etapa distinta.
+**Projeto de lei:** texto que o Executivo encaminha para exame, ainda sujeito a mudanças. **Parecer:** documento em que a CMO analisa o projeto e recomenda uma decisão. **Autógrafo:** versão formal do texto aprovado pelo Legislativo, encaminhada ao Executivo para os atos constitucionais seguintes. **Sanção:** concordância do Presidente da República com o projeto aprovado; **veto:** recusa total ou parcial, sujeita às regras de apreciação parlamentar. **Promulgação:** ato que declara a existência da lei e determina sua execução; **publicação:** divulgação oficial do texto. A aprovação parlamentar e a publicação da lei acontecem em momentos diferentes. Também há regras constitucionais para promulgação em caso de veto ou de omissão da autoridade competente.
 
 ## Regras constitucionais para emendas ao orçamento anual
 
@@ -146,15 +146,15 @@ A banca pode descrever corretamente a **iniciativa presidencial**, mas exigir vo
 
 **1.** Os projetos de PPA, LDO e LOA são apreciados pelas duas Casas na forma do Regimento Comum, com exame de comissão mista permanente e deliberação do Congresso, o que os distingue do rito legislativo ordinário de sucessiva apreciação por Casa iniciadora e revisora.
 
-**Gabarito: Certo.** A Constituição, art. 166, §§ 1º e 2º, estabelece o exame por comissão mista e a forma regimental de deliberação. **Erro provável:** aplicar automaticamente o rito comum de projetos de lei ordinária a matéria com procedimento constitucional específico.
+**Gabarito: Certo.** Pelo art. 166 da Constituição, projetos de PPA, LDO e LOA são examinados pela comissão mista de deputados e senadores e apreciados pelas duas Casas na forma do Regimento Comum. O enunciado acerta ao diferenciar esse procedimento da tramitação ordinária em que uma Casa analisa o projeto e a outra atua como revisora. **Sessão conjunta** reúne deputados e senadores, mas preserva a participação constitucional das duas Casas.
 
 **2.** A aprovação de uma emenda ao projeto da LOA que aumente a despesa é admitida sempre que o parlamentar indicar como fonte de recursos o cancelamento de qualquer dotação do projeto, inclusive aquelas relativas ao serviço da dívida.
 
-**Gabarito: Errado.** O art. 166, § 3º, II, exclui determinadas dotações, entre elas serviço da dívida, das anulações utilizáveis em regra para financiar emendas. **Mecanismo:** verdade parcial acerca da anulação de despesa com violação de exceção expressa.
+**Gabarito: Errado.** O art. 166, § 3º, II, da Constituição admite, nas condições aplicáveis, emendas financiadas por **anulação de despesas**, isto é, cancelamento de valor previsto em outra dotação. Mas proíbe usar, nessa hipótese, dotações para **pessoal e seus encargos**, **serviço da dívida** e **transferências tributárias constitucionais**. Portanto, indicar um cancelamento não é suficiente: a fonte deve ser permitida. A palavra **qualquer**, especialmente quando inclui serviço da dívida, torna o item falso.
 
 **3.** A exigência constitucional de que a sessão legislativa não seja interrompida sem aprovação do projeto de LDO não autoriza concluir que PPA e LOA estejam submetidos à mesma consequência constitucional específica.
 
-**Gabarito: Certo.** A Constituição, art. 57, § 2º, refere-se expressamente ao **projeto de lei de diretrizes orçamentárias**. **Mecanismo:** transposição de regra de uma espécie de lei orçamentária para as demais.
+**Gabarito: Certo.** O art. 57, § 2º, da Constituição diz que a **sessão legislativa**, período anual dos trabalhos parlamentares, não será interrompida sem a aprovação do projeto da **Lei de Diretrizes Orçamentárias (LDO)**. O dispositivo não estabelece essa consequência específica para o PPA e para a LOA. O item está certo porque impede aplicar automaticamente aos outros dois projetos uma condição escrita apenas para a LDO.
 
 ## Relações com outros temas
 

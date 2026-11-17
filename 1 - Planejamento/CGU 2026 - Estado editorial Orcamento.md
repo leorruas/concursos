@@ -335,3 +335,33 @@ Foram realizadas leituras integrais do texto, tabelas, exemplos, oito enunciados
 - Edital CGU nº 1/2026 (Cebraspe), programa oficial: `https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html`.
 
 **Situação geral desta etapa:** 2 de 5 artigos têm segunda leitura individual e registro documental concluídos; 3 continuam necessitando desse mesmo nível de revisão. Mantidos 57 itens C/E, IDs e referências. **0 de 5 certificações finais**. Evidências técnicas anteriores: PR #367, workflow `44177038965`, `success`; faltam comprovação do Pages ao vivo e certificação no SHA correspondente. Não repetir as revisões já comprovadas sem evidência nova.
+
+## Segunda leitura integral individual: esferas, princípios e classificações, 17/11/2026
+
+Completada a leitura integral dos três capítulos restantes, examinando a sequência de seções, conceitos, tabelas, situações de auditoria, enunciados e justificativas C/E, com cotejo dos dispositivos principais com as fontes primárias vigentes. A leitura editorial é **independente** da verificação de deploy; não confundir ausência de falha detectada com atestado jurídico irrestrito.
+
+### Esferas da LOA e estatais dependentes: `art-c84d6e02f3b7a915`
+
+**Blob auditado:** `948e6fe9568a9b969e8515478cd4a8880b3aa18d`. Confrontados: CF arts. 165, § 5º, e 194; LRF art. 2º, II e III; Decreto nº 12.500/2025 **atualizado**, arts. 7º, 9º e 22; LDO 2026, arts. 6º, §§ 2º e 4º, 7º e 52, §§ 5º a 12. Conferidos os critérios distintos de controle societário e dependência financeira, contrato de gestão e exceção orçamentária, prazo de encaminhamento à CMO (aprovação versus assinatura), permanência excepcional no Orçamento de Investimento, regras de execução contábil e necessidade de registro online no SIOP. Seis seções principais, tabelas, exemplos e C/E **1 a 15** lidos e julgados coerentes com esses critérios. O capítulo distingue o regime de 2026 do enquadramento geral da LRF. MTO online consultado para a codificação de esfera F/S/I e 10/20/30. Wikilink interno CGU e `derivedFromArticleId` preservados. Não se identificou correção concreta necessária nessa leitura.
+
+**Status editorial:** `segunda leitura jurídica e didática concluída; certificação de publicação pendente`.
+
+### Princípios orçamentários e vedações: `art-b419ac8206de7f35`
+
+**Blob auditado:** `01badbc0c33e65034bb1584bf2233ff5ea75be5b`. Cotejados: Lei nº 4.320/1964, arts. 2º, 5º, 6º, 20, 22 e 34; CF arts. 165, § 5º e § 8º, 167, III a VI, §§ 1º, 2º e 5º; LRF art. 5º, III. Lidas as tabelas sobre princípios, exemplos de orçamento bruto, especificação, exclusividade, não afetação de **impostos**, regra de ouro, créditos adicionais e a ressalva de transposição de categorias para ciência, tecnologia e inovação. C/E **1 a 12** revistos em conteúdo e justificativas; não foram encontrados gabaritos conflitantes com as fontes verificadas. Preservadas as duas ligações internas CGU e a origem histórica sem alterar o legado. Nenhuma correção justificada nesta rodada.
+
+**Status editorial:** `segunda leitura jurídica e didática concluída; certificação de publicação pendente`.
+
+### Classificações de receitas e despesas: `art-e6b481a230fc795d`
+
+**Blob auditado:** `26c14fc6bdedcb1203584ba2cb1e762e7ce60d83`. Cotejados: Lei nº 4.320/1964, arts. 3º, 11 e 12; LRF art. 44; LDO federal de 2026, art. 7º, §§ 2º a 10, incluindo os códigos RP 0 a 8, MA 30/40/50/90/91/99, GND 1 a 6 e IU; Manual Técnico de Orçamento online, cap. 4, para natureza, institucional, funcional e estrutura programática. Conferidos exemplos de receita orçamentária versus ARO extraorçamentária, natureza corrente/capital versus primária/financeira, fonte/destinação, dimensão física, classificação de despesas e segregação entre GND Investimentos e esfera de estatais. C/E **1 a 14** revisados e coerentes com os critérios legais e didáticos verificados. Conferida preservação de dois wikilinks exclusivos CGU e dos dois legados especializados mantidos como fonte, sem alterar a Câmara.
+
+**Status editorial:** `segunda leitura jurídica e didática concluída; certificação de publicação pendente`.
+
+### Encerramento da etapa de leitura
+
+**5 de 5 artigos** possuem segunda leitura integral individual registrada com `articleId`, blob, fundamentos e itens auditados. **57 de 57 C/E** foram lidos, com gabaritos e numeração contínua anteriormente verificados. Verificações comuns: identidade e catálogo próprios da CGU, 11 flashcards reconciliados (PR #363), ausência de wikilinks internos quebrados nas cinco notas e CI completo aprovado no [PR #367](https://github.com/leorruas/concursos/pull/367), run [44177038965](https://github.com/leorruas/concursos/actions/runs/44177038965) com `success` para o lote de fontes atualizado. A revisão individual foi concluída **sem alterações dos artigos nesta etapa**.
+
+**Status de certificação final: 0/5**, pois `1 - Planejamento/Contrato de publicacao GitHub Pages.md` exige comprovante da execução do workflow `Publicar no GitHub Pages` e comparação do `manifest.json` **servido** com o artefato construído. Os três endpoints consultados (`/manifest.json`, `/data/catalogo-materias-por-concurso.json`, `/search-index.json`) retornaram indisponibilidade pela ferramenta web; não há run de deploy acessível no conector GitHub atual, que expõe CI de PR por SHA. Não inventar publicação nem certificação por ressalva visual antes desse gate. Revisão visual em navegador/EPUB não foi realizada.
+
+**Próximo passo exclusivo:** obter run de Pages com conclusão `success` para HEAD compatível e os três arquivos ao vivo. Se o deploy confirmar presença dos cinco IDs e os links, registrar cinco certificações editoriais com eventual ressalva **visual** separada, sem repetir as auditorias jurídicas já comprovadas. Caso contrário, documentar falha real de implantação e corrigi-la.

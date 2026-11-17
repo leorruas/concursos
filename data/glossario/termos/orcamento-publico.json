@@ -158,7 +158,8 @@
       "id": "glo-ordem-de-pagamento",
       "term": "Ordem de pagamento",
       "aliases": [
-        "Ordenação de pagamento"
+        "Ordenação de pagamento",
+        "OP"
       ],
       "definition": "É o despacho da autoridade competente que determina o pagamento de despesa regularmente liquidada. O art. 64 da Lei nº 4.320/1964 exige que a ordem seja emitida em documentos processados pelos serviços de contabilidade.",
       "contrast": "O empenho compromete crédito orçamentário, a liquidação verifica o direito do credor, a ordem determina pagar e o pagamento realiza a saída de dinheiro. A ordem integra o procedimento do pagamento e não substitui a liquidação nem prova, sozinha, que o dinheiro chegou ao credor.",

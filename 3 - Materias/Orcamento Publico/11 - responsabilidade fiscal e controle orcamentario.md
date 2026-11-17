@@ -157,7 +157,7 @@ O exame da disponibilidade precisa respeitar **fontes legalmente vinculadas**. U
 
 ## RREO × RGF: relatórios que cumprem funções diferentes
 
-**Exemplo passo a passo.** Terminou fevereiro: o ente consolida o que arrecadou e executou no primeiro bimestre e deve publicar o RREO até 30 dias depois desse encerramento (LRF, art. 52). Terminou abril: o titular de cada Poder ou órgão abrangido pelo art. 20 deve emitir o RGF referente ao primeiro quadrimestre, sujeito ao prazo geral de publicação do art. 55, § 2º. Um relatório acompanha o fluxo de receitas e despesas do orçamento; o outro permite verificar limites e compromissos fiscais dos responsáveis. **Contraexemplo:** encontrar a despesa de pessoal da Câmara em demonstrativos gerais de execução não transforma o RREO no RGF da Câmara. A obrigação de cada relatório, seu emissor e sua periodicidade continuam distintos.
+**Exemplo passo a passo.** **Bimestre** é um período de dois meses. Ao encerrar fevereiro, o ente consolida as receitas e despesas de janeiro e fevereiro e publica o RREO até 30 dias depois do encerramento do período, conforme o art. 52 da LRF. **Quadrimestre** reúne quatro meses. Ao encerrar abril, os responsáveis pelos Poderes e órgãos abrangidos emitem o RGF sobre janeiro a abril, seguindo o prazo geral de até 30 dias previsto no art. 55, § 2º. Um relatório acompanha o fluxo de receitas e despesas do orçamento; o outro permite verificar limites e compromissos fiscais dos responsáveis. **Contraexemplo:** encontrar a despesa de pessoal da Câmara em demonstrativos gerais de execução não transforma o RREO no RGF da Câmara. A obrigação de cada relatório, seu emissor e sua periodicidade continuam distintos.
 
 **Critério de prova:** 'bimestral' descreve a periodicidade do RREO; 'quadrimestral' descreve a periodicidade geral do RGF. O prazo de 30 dias é contado **após o encerramento do período correspondente**, e não a partir da primeira despesa registrada. Há regra específica de periodicidade para determinados municípios no art. 63 da LRF, que precisa ser examinada antes de afirmar que toda publicação de RGF será obrigatoriamente quadrimestral.
 
@@ -170,13 +170,13 @@ A LRF disciplina relatórios de transparência e controle, com periodicidades qu
 
 ### RREO: informações sobre execução
 
-O **RREO** acompanha a evolução da **arrecadação** e da **despesa** e inclui demonstrativos definidos na LRF e no Manual de Demonstrativos Fiscais (MDF). A responsabilidade de publicação se relaciona ao **Executivo** em cada ente, conforme o modelo constitucional e legal, e o relatório abrange o conjunto de informações pertinente aos Poderes.
+O **RREO** acompanha a evolução da **arrecadação**, que é a entrada efetiva de receitas, e das **despesas autorizadas e executadas**. Seus quadros seguem a LRF e o **Manual de Demonstrativos Fiscais (MDF)**, documento do Tesouro Nacional que padroniza os relatórios para comparação entre entes e períodos. A responsabilidade de publicação se relaciona ao **Executivo** em cada ente, conforme o modelo constitucional e legal, e o relatório abrange o conjunto de informações pertinente aos Poderes.
 
 Não deduzir que **RREO** significa fiscalização exclusiva de despesa com pessoal. Seu centro é a **execução orçamentária**, embora contenha indicadores e demonstrativos fiscais relevantes.
 
 ### RGF: limites, disponibilidade e responsabilidade por Poder/órgão
 
-O **RGF** é emitido pelos titulares dos Poderes e órgãos abrangidos na LRF, art. 54, com conteúdo do art. 55. Compara despesas com pessoal, dívida, garantias e operações de crédito aos **limites legais** e, no período final, detalha **disponibilidade de caixa e restos a pagar**.
+O **RGF** deve ser emitido pelos titulares dos Poderes e órgãos previstos no art. 54 da LRF. O relatório compara gastos com pessoal, dívida, garantias e operações de crédito aos **limites fixados na legislação**. Também apresenta, no período exigido, a situação do dinheiro disponível e das obrigações inscritas como **restos a pagar**, isto é, despesas empenhadas e ainda não pagas até o encerramento do ano. Assim, o RGF permite identificar quem responde por limites fiscais e se há compromissos financeiros a acompanhar.
 
 O RGF **não equivale a balanço orçamentário bimestral**, nem substitui o RREO. Pelo **art. 63, II, b e c**, municípios com **menos de 50 mil habitantes** podem optar pela divulgação **semestral do RGF e dos demonstrativos do art. 53**; isso **não torna o RREO inteiro semestral**: a publicação geral do relatório continua disciplinada no art. 52. Os demonstrativos opcionais são apresentados em até **30 dias após o semestre** (art. 63, § 1º). Se excedidos limites de pessoal ou de dívida consolidada, verificar o retorno aos **prazos ordinários de apuração e recondução** (§ 2º).
 
@@ -211,7 +211,7 @@ Não confundir **alerta do Tribunal de Contas**, **restrição preventiva**, **n
 
 **Situação concreta.** Uma auditoria encontra indícios de despesa pública sem autorização na Lei Orçamentária Anual (LOA). A Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) pede esclarecimentos; o Tribunal de Contas da União (TCU) examina a matéria; e o Congresso Nacional decide sobre providências legislativas cabíveis. A questão central é **qual órgão pode solicitar, avaliar, julgar, sustar ou fiscalizar**, e em qual hipótese. O fato de o TCU **auxiliar o Congresso no controle externo** não elimina as competências próprias do Tribunal nem atribui ao TCU todo julgamento político das contas de governo.
 
-Esta expansão **CAM-ORC-016** reaproveita a nota canônica de responsabilidade fiscal, que já explica **RREO, RGF, controles e limites da Lei de Responsabilidade Fiscal (LRF)**. A presente unidade acrescenta **competências constitucionais, sujeitos, procedimentos e exceções** dos arts. **49, IX e X, 51, II, 70 a 74 e 166, § 1º**, com foco no recorte do Poder Legislativo federal.
+Para distinguir as atribuições do Congresso Nacional e do Tribunal de Contas da União, esta seção examina as **competências e os procedimentos** previstos nos arts. 49, IX e X, 51, II, 70 a 74 e 166, § 1º, da Constituição. Esses dispositivos definem quem fiscaliza, quem auxilia no controle, quem julga contas e quem adota providências diante de irregularidades. Uma mesma despesa pode passar por várias instâncias de controle, com decisões jurídicas diferentes.
 
 ### Objeto de fiscalização: cinco dimensões
 
@@ -334,11 +334,11 @@ Esses são mecanismos de cobrança **teoricamente plausíveis**. A frequência c
 
 ## Questões comentadas: treino didático C/E
 
-**Item 1.** O Relatório Resumido da Execução Orçamentária é geralmente quadrimestral, ao passo que o Relatório de Gestão Fiscal é publicado bimestralmente para controlar receitas e despesas. **Gabarito: Errado.** As periodicidades gerais foram **invertidas**: RREO bimestral e RGF quadrimestral.
+**Item 1.** O Relatório Resumido da Execução Orçamentária é geralmente quadrimestral, ao passo que o Relatório de Gestão Fiscal é publicado bimestralmente para controlar receitas e despesas. **Gabarito: Errado.** O RREO é **bimestral** (dois meses) e acompanha a execução do orçamento. O RGF é, em regra, **quadrimestral** (quatro meses) e permite acompanhar os limites e compromissos fiscais dos responsáveis. A lei prevê condições específicas para municípios menores; elas não tornam correta a inversão da regra geral.
 
-**Item 2.** Para verificar o limite prudencial de despesa com pessoal, aplica-se o percentual de 95% ao limite próprio do Poder ou órgão; ele não corresponde, como regra, a 95% da Receita Corrente Líquida. **Gabarito: Certo.** O art. 22 usa como base o **limite aplicável**.
+**Item 2.** Para verificar o limite prudencial de despesa com pessoal, aplica-se o percentual de 95% ao limite próprio do Poder ou órgão; ele não corresponde, como regra, a 95% da Receita Corrente Líquida. **Gabarito: Certo.** O art. 22 usa como base o **limite legal específico do Poder ou órgão**. Por exemplo, se o teto próprio for 6% da RCL, 95% desse teto equivale a **5,7% da RCL**. A questão testa a base usada na conta, não a multiplicação direta por 95% da receita.
 
-**Item 3.** O art. 42 da LRF alcança obrigações contraídas nos últimos dois quadrimestres de mandato que não possam ser integralmente pagas no período ou cujas parcelas futuras não tenham suficiente cobertura financeira. **Gabarito: Certo.** É o recorte temporal e financeiro estabelecido no dispositivo.
+**Item 3.** O art. 42 da LRF alcança obrigações contraídas nos últimos dois quadrimestres de mandato que não possam ser integralmente pagas no período ou cujas parcelas futuras não tenham suficiente cobertura financeira. **Gabarito: Certo.** O dispositivo alcança os **oito meses finais do mandato**, e não apenas dezembro. Para parcelas a pagar no exercício seguinte, exige-se disponibilidade de caixa suficiente, considerando encargos e despesas compromissadas até o fim do exercício. Ter uma dotação aprovada na LOA não comprova essa disponibilidade.
 
 São itens didáticos inéditos, sem alegar calibração nem gerar desempenho do estudante.
 

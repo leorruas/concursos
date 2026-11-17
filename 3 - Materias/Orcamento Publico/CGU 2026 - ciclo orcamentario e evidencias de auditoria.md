@@ -1,5 +1,5 @@
 ---
-articleId: art-cgu26orc01a7f4e92
+articleId: art-a07c26f4e92031ab
 articleAliases: ["3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria.md"]
 title: "CGU 2026: ciclo orçamentário e evidências de auditoria"
 type: "conceito"

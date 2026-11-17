@@ -10,9 +10,9 @@ updated: 2026-11-16
 
 **Escopo exclusivo:** 11 artigos atribuídos à frente **B**, conforme [[1 - Planejamento/Camara 2026 - Coordenacao editorial Administrativo]]. Este documento registra **evidência real de cada auditoria**, não metas ou desempenho individual. Abrir e verificar a `main` e os PRs a cada execução.
 
-**Estados permitidos:** a conferir; reservado; em PR; integrado, deploy pendente; publicado, revisão parcial; publicado, revisão integral certificada; adequado sem alterações (com evidência); bloqueado (motivo). O estado inicial `a conferir` não significa que o artigo nunca foi revisado. Sempre reconciliar certificações históricas antes de mudar de estado.
+**Estados permitidos:** a conferir; reservado; em PR; integrado, deploy pendente; publicado, revisão parcial; publicado, revisão integral certificada; revisão integral concluída com ressalva visual; adequado sem alterações (com evidência); bloqueado (motivo). O estado inicial `a conferir` não significa que o artigo nunca foi revisado. Sempre reconciliar certificações históricas antes de mudar de estado.
 
-| articleId | Artigo | Estado inicial em 15/11/2026 | Evidência / PR / SHA / URL e próxima ação |
+| articleId | Artigo | Estado reconciliado em 16/11/2026 | Evidência histórica (complementada pelo balanço final abaixo) |
 | :--- | :--- | :--- | :--- |
 | `art-9f98650edd9e4278` | `3 - Materias/Direito Administrativo/06 - responsabilidade civil do estado.md` | revisão integral concluída com ressalva visual | Consultar evidências oficiais, PRs, histórico e versão publicada antes de classificar |
 | `art-e3be4825ac4c455a` | `3 - Materias/Direito Administrativo/08 - licitacoes e contratos.md` | revisão integral concluída com ressalva visual | Consultar evidências oficiais, PRs, histórico e versão publicada antes de classificar |

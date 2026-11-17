@@ -320,10 +320,10 @@
       "sourceArticleId": "art-28b3d9ef86aa4510",
       "topicKey": "despesa-classificacao",
       "sequence": 7,
-      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
+      "certificationStatus": "revalidacao-editorial-pos-edicao-pendente",
       "include": false,
-      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
-      "revisionSha": "c5afc9dfa1ed0e45bb4a09e0f4e5b9cd668e72a7"
+      "selectionStatus": "aguarda-segunda-leitura-e-pages",
+      "revisionSha": "e06bb60d279a69cc7bb85c9cef911e1ec0fca8ad"
     },
     {
       "chapterKey": "cgu-8-novo",

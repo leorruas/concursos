@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: quatorze-certificados-um-em-revalidacao-quatro-legados
+status: treze-certificados-dois-em-revalidacao-dois-legados
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -570,3 +570,7 @@ O artigo CGU `art-d218c459af1e4b73` foi ampliado com gatilhos de pessoal, recond
 **ID** `art-e4c982a6713d4bf5`, blob ampliado `1a27578226bfb8b240ae2f212139264c346af8f7`. A seção adicionada distingue contribuições, receitas agropecuárias, industriais, de serviços, patrimoniais, transferências, empréstimos, alienações, amortização de créditos concedidos e receitas intraorçamentárias, preservando classificação econômica versus extraorçamentária. A segunda leitura confrontou essa seção com o capítulo original 04a da Câmara, o MTO 2026, a Lei nº 4.320/1964 e o MCASP 11ª edição. Os dez enunciados C/E e respectivos gabaritos do derivado permaneceram sem alterações; os sete flashcards CGU foram associados aos headings reais, e 23 verbetes exclusivamente CGU ao novo ID. **A versão ampliada possui revisão integral concluída com ressalva visual**, sem inspeção manual individual em navegador.
 
 **Prova de publicação:** workflow [44192072977](https://github.com/leorruas/concursos/actions/runs/44192072977), SHA `4a8664a8430b876c0f5ada5d6101bf76316bd1cc`, resultado `success`, contendo o mesmo blob e a migração de referências. O original 04a da Câmara continua com ID e URL antigos. **Placar: 14 de 15 artigos CGU certificados**, restando apenas a versão ampliada de responsabilidade fiscal em revalidação; a separação de IDs históricos e inspeção visual continuam incompletas.
+
+## Revalidação pendente: classificação da despesa após migração (17/11/2026)
+
+O artigo CGU `art-3f9d17a6c04b4e82` recebeu seção sobre subtítulo, modalidade, transferências, projetos com custeio e classificação de terrenos. Novo blob `e06bb60d279a69cc7bb85c9cef911e1ec0fca8ad`, substituindo o anteriormente certificado `c5afc9dfa1ed0e45bb4a09e0f4e5b9cd668e72a7`. A certificação para o novo blob fica **suspensa até segunda leitura e CI/Pages**. Os 27 flashcards exclusivamente CGU foram reconciliados com seis headings existentes do derivado. Foram migrados 29 verbetes exclusivamente CGU. O verbete misto `glo-unidade-orcamentaria` manteve o ID histórico da Câmara e ganhou o ID CGU, permitindo dois destinos elegíveis por concurso sem perder a referência antiga. O ID histórico `art-28b3d9ef86aa4510` saiu somente do catálogo CGU; permanece na Câmara. Permanecem dois IDs históricos de Orçamento em comum (receitas 07 e despesas 08), além do transversal de Atualidades. Duas notas em revalidação: LRF e classificação da despesa. `data/questoes-camara.json` inalterado.

@@ -237,6 +237,18 @@
     {
       "glossaryId": "glo-camara-dado-pessoal-sensivel-lgpd",
       "cardId": "dado-sensivel"
+    },
+    {
+      "glossaryId": "glo-camara-da08-modalidade-criterio",
+      "cardId": "cgu-modalidade-criterio"
+    },
+    {
+      "glossaryId": "glo-camara-da08-dispensa-inexigibilidade",
+      "cardId": "cgu-dispensa-inexigibilidade"
+    },
+    {
+      "glossaryId": "glo-camara-da08-adjudicacao-homologacao",
+      "cardId": "contr-adjudicacao-fases"
     }
   ]
 }

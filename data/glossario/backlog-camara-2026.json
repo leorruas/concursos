@@ -1691,6 +1691,30 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo, controle da Administração",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-orc10-conta-unica",
+      "term": "Conta Única do Tesouro Nacional",
+      "subjectId": "orcamento-publico",
+      "examBlock": "Conhecimentos específicos: Orçamento Público e Finanças Públicas",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-orc10-provisao-destaque",
+      "term": "Provisão e destaque de crédito",
+      "subjectId": "orcamento-publico",
+      "examBlock": "Conhecimentos específicos: Orçamento Público e Finanças Públicas",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-orc10-cota-repasse-subrepassse",
+      "term": "Cota, repasse e sub-repasse",
+      "subjectId": "orcamento-publico",
+      "examBlock": "Conhecimentos específicos: Orçamento Público e Finanças Públicas",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

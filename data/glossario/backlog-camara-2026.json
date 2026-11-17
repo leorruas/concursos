@@ -1587,6 +1587,54 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-da10-titularidade-execucao",
+      "term": "Titularidade e execução de serviço público",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, serviços públicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da10-concessao-permissao",
+      "term": "Concessão e permissão de serviço público",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, serviços públicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da10-servico-adequado",
+      "term": "Serviço adequado na Lei nº 8.987/1995",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, serviços públicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da10-corte-inadimplemento",
+      "term": "Interrupção por inadimplemento e proibição de início em certos dias",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, serviços públicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da10-encampacao-caducidade",
+      "term": "Encampação e caducidade de concessão",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, serviços públicos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da10-rescisao-concessionaria",
+      "term": "Rescisão judicial de concessão a pedido da concessionária",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, serviços públicos",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

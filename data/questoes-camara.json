@@ -54979,6 +54979,286 @@
       "correctAnswer": "C",
       "explanation": "Quando a assinatura é exigida para tramitar, o conjunto de assinaturas se estabiliza com a apresentação à Mesa. A regra veda tanto a retirada quanto o acréscimo depois desse marco. (Regimento Interno, art. 102, § 4º.)",
       "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 102, § 4º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Distingue apoio facultativo e assinatura exigida para tramitação."
+    },
+    {
+      "id": "cam-const-200-trabalho-livre-iniciativa-fundamento-conjunto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "trabalho-livre-iniciativa-fundamento-conjunto",
+      "mechanism": "trabalho-livre-iniciativa-fundamento-conjunto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "statement": "Os valores sociais do trabalho e da livre iniciativa integram conjuntamente os fundamentos da República Federativa do Brasil.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo reúne a valorização do trabalho e da livre iniciativa em um mesmo fundamento. Os dois elementos constam da base constitucional do Estado brasileiro. (Constituição Federal, art. 1º, IV.)",
+      "reviewEvidence": "Constituição Federal, art. 1º, IV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica os dois elementos do mesmo fundamento."
+    },
+    {
+      "id": "cam-const-200-cidadania-fundamento-nao-delegacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "cidadania-fundamento-nao-delegacao",
+      "mechanism": "cidadania-fundamento-nao-delegacao",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "statement": "A cidadania figura entre os fundamentos da República Federativa do Brasil.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição situa a cidadania entre os fundamentos do Estado brasileiro. Ela orienta a participação na vida política e institucional. (Constituição Federal, art. 1º, II.)",
+      "reviewEvidence": "Constituição Federal, art. 1º, II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece a classificação constitucional da cidadania."
+    },
+    {
+      "id": "cam-const-200-independencia-ministerio-publico-quarto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "independencia-ministerio-publico-quarto",
+      "mechanism": "independencia-ministerio-publico-quarto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 2º — separação dos Poderes"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 2º — separação dos Poderes"
+      },
+      "statement": "A autonomia funcional e administrativa do Ministério Público faz com que a Constituição o enumere como um quarto Poder da União.",
+      "correctAnswer": "E",
+      "explanation": "A autonomia do Ministério Público está prevista na Constituição. Já o art. 2º enumera como Poderes da União o Legislativo, o Executivo e o Judiciário. (Constituição Federal, arts. 2º e 127, § 2º.)",
+      "reviewEvidence": "Constituição Federal, arts. 2º e 127, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a autonomia de uma instituição do rol de Poderes."
+    },
+    {
+      "id": "cam-const-200-desenvolvimento-nacional-diretriz-externa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "desenvolvimento-nacional-diretriz-externa",
+      "mechanism": "desenvolvimento-nacional-diretriz-externa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 3º — objetivos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 3º — objetivos fundamentais"
+      },
+      "statement": "Garantir o desenvolvimento nacional e cooperar entre os povos para o progresso da humanidade são ambos princípios expressos do rol constitucional de relações internacionais.",
+      "correctAnswer": "E",
+      "explanation": "A cooperação entre os povos consta do rol de relações internacionais. Garantir o desenvolvimento nacional é objetivo fundamental da República, no art. 3º. (Constituição Federal, arts. 3º, II, e 4º, IX.)",
+      "reviewEvidence": "Constituição Federal, arts. 3º, II, e 4º, IX — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue finalidade constitucional interna e cooperação internacional."
+    },
+    {
+      "id": "cam-const-200-pobreza-erradicar-desigualdade-reduzir",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "pobreza-erradicar-desigualdade-reduzir",
+      "mechanism": "pobreza-erradicar-desigualdade-reduzir",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 3º — objetivos fundamentais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 3º — objetivos fundamentais"
+      },
+      "statement": "Um plano governamental que fixe como objetivos erradicar a pobreza e reduzir as desigualdades regionais corresponde, nessa distinção, à formulação do art. 3º da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo associa a erradicação à pobreza e à marginalização. Às desigualdades sociais e regionais, associa a redução. (Constituição Federal, art. 3º, III.)",
+      "reviewEvidence": "Constituição Federal, art. 3º, III — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue os verbos constitucionais atribuídos a objetos próximos."
+    },
+    {
+      "id": "cam-const-200-estado-estrangeiro-igualdade-politica-externa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "estado-estrangeiro-igualdade-politica-externa",
+      "mechanism": "estado-estrangeiro-igualdade-politica-externa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "Em uma negociação diplomática, a diferença de poder econômico entre dois países não afasta a igualdade entre os Estados como diretriz constitucional da atuação brasileira.",
+      "correctAnswer": "C",
+      "explanation": "A igualdade entre Estados é princípio expresso da atuação externa brasileira. No dispositivo, Estados designa sujeitos internacionais. (Constituição Federal, art. 4º, V.)",
+      "reviewEvidence": "Constituição Federal, art. 4º, V — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a diretriz de igualdade jurídica a um caso de assimetria econômica."
+    },
+    {
+      "id": "cam-const-200-repudio-racismo-interno-so",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "repudio-racismo-interno-so",
+      "mechanism": "repudio-racismo-interno-so",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "Embora o racismo receba tratamento na ordem interna, seu repúdio não integra o rol de princípios constitucionais que orientam as relações internacionais do Brasil.",
+      "correctAnswer": "E",
+      "explanation": "O erro está em excluir o repúdio ao racismo do rol internacional. A Constituição o inclui expressamente ao lado do repúdio ao terrorismo. (Constituição Federal, art. 4º, VIII.)",
+      "reviewEvidence": "Constituição Federal, art. 4º, VIII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue o alcance externo expresso de outras regras internas sobre racismo."
+    },
+    {
+      "id": "cam-const-200-solucao-pacifica-norma-exclusiva-guerra",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "solucao-pacifica-norma-exclusiva-guerra",
+      "mechanism": "solucao-pacifica-norma-exclusiva-guerra",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "Os princípios da defesa da paz e da solução pacífica dos conflitos tornam incompatível com a Constituição a declaração presidencial de guerra mesmo em caso de agressão estrangeira e com autorização do Congresso Nacional.",
+      "correctAnswer": "E",
+      "explanation": "A afirmação ignora a hipótese constitucional de agressão estrangeira. A defesa da paz e a solução pacífica orientam as relações internacionais. Em caso de agressão estrangeira, a Constituição prevê a declaração de guerra pelo Presidente, com autorização do Congresso ou seu referendo nas condições próprias. (Constituição Federal, arts. 4º, VI e VII, 49, II, e 84, XIX.)",
+      "reviewEvidence": "Constituição Federal, arts. 4º, VI e VII, 49, II, e 84, XIX — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Concilia dois princípios externos com a repartição de competências em hipótese excepcional."
+    },
+    {
+      "id": "cam-const-200-integracao-regional-objetivo-comunidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "integracao-regional-objetivo-comunidade",
+      "mechanism": "integracao-regional-objetivo-comunidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 4º — relações internacionais"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 4º — relações internacionais"
+      },
+      "statement": "A Constituição orienta o Brasil a buscar a integração entre os povos da América Latina com o propósito de formar uma comunidade latino-americana de nações.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo determina a busca de integração com essa finalidade. Ele não cria, por si só, uma organização internacional. (Constituição Federal, art. 4º, parágrafo único.)",
+      "reviewEvidence": "Constituição Federal, art. 4º, parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue busca de formação de comunidade e afirmação de criação automática de órgão."
+    },
+    {
+      "id": "cam-const-200-plebiscito-convocacao-exercicio-direto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Princípios fundamentais",
+      "articleId": "art-a6edc965cb9e4eb6",
+      "conceptId": "plebiscito-convocacao-exercicio-direto",
+      "mechanism": "plebiscito-convocacao-exercicio-direto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-a6edc965cb9e4eb6#Art. 1º — Estado Democrático de Direito e fundamentos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/01 - principios fundamentais.md",
+        "section": "Art. 1º — Estado Democrático de Direito e fundamentos"
+      },
+      "statement": "O fato de o Congresso Nacional convocar um plebiscito não retira da consulta o caráter de exercício direto da soberania popular pelos eleitores.",
+      "correctAnswer": "C",
+      "explanation": "A competência do Congresso para convocar organiza a consulta. Na votação, são os eleitores que se manifestam diretamente, conforme a previsão constitucional do plebiscito. (Constituição Federal, arts. 1º, parágrafo único, 14, I, e 49, XV.)",
+      "reviewEvidence": "Constituição Federal, arts. 1º, parágrafo único, 14, I, e 49, XV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue quem convoca o plebiscito de quem exerce diretamente o poder."
     }
   ]
 }

@@ -36,7 +36,7 @@ A emenda modifica a proposta legislativa; um **crédito adicional** modifica a a
 
 ## Emendas aos projetos orçamentários: critérios
 
-A Constituição, art. 166, prevê a apreciação pelo Congresso dos projetos relativos a **PPA, LDO, LOA e créditos adicionais**, segundo o regimento comum. O **Poder Executivo** possui iniciativa dos projetos de leis orçamentárias; o **Legislativo** pode apreciar e emendar os textos. Iniciativa e alteração legislativa são competências distintas.
+O art. 166 da **Constituição Federal** regula a apreciação dos projetos orçamentários no Congresso. O **Plano Plurianual (PPA)** define diretrizes, objetivos e metas para quatro anos; a **Lei de Diretrizes Orçamentárias (LDO)** orienta a elaboração e execução do orçamento anual; a **LOA** prevê receitas e autoriza despesas do ano. Os projetos de **créditos adicionais** alteram autorizações do orçamento, conforme a espécie. Na União, o **Executivo apresenta os projetos orçamentários** e o **Congresso os examina, delibera e pode apresentar emendas**, respeitados os requisitos constitucionais. Apresentar uma emenda é diferente de ter a iniciativa de um projeto orçamentário.
 
 ### Emendas à LOA: compatibilidade e recursos
 
@@ -77,6 +77,14 @@ Na transferência **especial**, a União envia recursos diretamente ao estado, D
 
 A Constituição proíbe usar recursos dessas modalidades no pagamento de **pessoal e encargos sociais** e de **serviço da dívida**. As regras adicionais de transparência, acompanhamento e controle continuam aplicáveis. A palavra “especial” aqui se refere a uma **modalidade de transferência**, não a crédito adicional **especial**.
 
+### Transparência e decisões judiciais: o que já vale
+
+A **Arguição de Descumprimento de Preceito Fundamental (ADPF) 854** é um processo no Supremo Tribunal Federal (STF) que acompanha a transparência e a identificação dos responsáveis pelas emendas. Em 9 de setembro de 2026, o relator determinou que o Executivo e o Congresso apresentem **até 30 de novembro de 2026** uma proposta conjunta e um cronograma para criar um identificador único, capaz de vincular a indicação parlamentar ao empenho nos sistemas públicos. Em 16 de novembro, o prazo para essa proposta ainda não havia terminado. **Exigir um plano de implementação não comprova que o código já foi implantado nem que houve pagamento.** Consulte a [comunicação oficial do STF](https://noticias.stf.jus.br/postsnoticias/governo-e-congresso-deverao-propor-codigo-unico-para-rastrear-emendas-parlamentares-decide-relator/).
+
+A exigência de **rastreabilidade** busca permitir que o cidadão e os órgãos de controle identifiquem a proposta, o responsável pela indicação, a destinação, o empenho, o pagamento e a aplicação dos recursos. As decisões no acompanhamento da ADPF 854 não equivalem, por si sós, a julgamento definitivo sobre a constitucionalidade do orçamento impositivo ou das transferências especiais. A [[3 - Materias/Orcamento Publico/15 - emendas parlamentares deliberacao e rastreabilidade|nota específica sobre deliberação e rastreabilidade]] examina os documentos, os responsáveis e as fases de indicação.
+
+**Questão inédita Cebraspe (C/E):** A determinação de apresentação de proposta de identificador único de emendas até 30 de novembro de 2026 demonstra que o código já estava implementado e que os recursos correspondentes foram pagos em setembro. **Gabarito: Errado.** A ordem refere-se à entrega de proposta e cronograma; identificação do empenho, implementação do sistema e pagamento são fatos distintos.
+
 ### Regras atuais e limites da memorização
 
 Os percentuais constitucionais para emendas, a Lei Complementar nº 210/2024, as normas operacionais de 2026 e decisões judiciais sobre transparência são camadas diferentes. Uma questão que peça somente a regra da **Constituição** pode exigir resposta diferente daquela que pergunte sobre os **limites executáveis do exercício**, que dependem de legislação complementar e condições específicas.
@@ -97,7 +105,7 @@ A [Resolução nº 1/2006-CN, art. 45-A, com alterações de 2025](https://www.c
 
 ### Refinamento normativo: percentuais e exceções que alteram o C/E
 
-**Individual × bancada, com denominadores temporais diferentes.** A [Constituição atualizada, art. 166, §§ 9º, 9º-A e 12](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html) estabelece: **emendas individuais = 2% da Receita Corrente Líquida (RCL) do exercício anterior ao encaminhamento do PLOA**, dos quais **1,55% para deputados e 0,45% para senadores**, reservada **metade do percentual total a ações e serviços públicos de saúde**. Para **bancadas estaduais/DF**, há garantia de execução de até **1% da RCL realizada no exercício anterior**. Atenção à diferença entre **ano anterior ao encaminhamento do projeto** e **ano anterior à execução**; as duas fórmulas não são intercambiáveis. As **emendas de comissões** não adquirem automaticamente a mesma garantia constitucional de execução.
+**Emendas individuais e de bancada: bases de cálculo e anos de referência.** A [Constituição atualizada, art. 166, §§ 9º, 9º-A e 12](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html) estabelece: **emendas individuais = 2% da Receita Corrente Líquida (RCL) do exercício anterior ao encaminhamento do PLOA**, dos quais **1,55% para deputados e 0,45% para senadores**, reservada **metade do percentual total a ações e serviços públicos de saúde**. Para **bancadas estaduais/DF**, há garantia de execução de até **1% da RCL realizada no exercício anterior**. Atenção à diferença entre **ano anterior ao encaminhamento do projeto** e **ano anterior à execução**; as duas fórmulas não são intercambiáveis. As **emendas de comissões** não adquirem automaticamente a mesma garantia constitucional de execução.
 
 **Execução obrigatória × impedimento técnico.** O art. 166, § 13, retira a obrigatoriedade quando há **impedimento de ordem técnica**. A [LC nº 210/2024, art. 10](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/relatorio-de-emendas/emendas-de-bancada-de-comissoes-e-individuais) descreve, entre outros, **projeto de engenharia ou licença ambiental ausente quando necessários**, falta de demonstração da capacidade de **custeio, operação e manutenção** da obra e insuficiência de recursos para concluir uma **etapa útil**. Não equivalem a escolha política arbitrária de não executar; é preciso instruir o impedimento. A [CGU orienta como verificar e acompanhar essas emendas](https://www.gov.br/cgu/pt-br/assuntos/auditoria-e-fiscalizacao/relatorio-de-emendas/emendas-de-bancada-de-comissoes-e-individuais).
 
@@ -105,7 +113,9 @@ A [Resolução nº 1/2006-CN, art. 45-A, com alterações de 2025](https://www.c
 
 **Transferência especial ≠ crédito especial.** A [CF, art. 166-A](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988/arquivos/ConstituicaoTextoAtualizado_EC%20141.html), permite transferência direta sem convênio, mas **não afasta controle**: veda uso em pessoal, encargos e dívida e exige **pelo menos 70% em despesa de capital**, além de requisitos legais de rastreabilidade.
 
-**Itens inéditos C/E:** “O teto constitucional de emendas de bancada e o de emendas individuais utiliza a RCL do mesmo exercício de referência.” **Errado**, por diferença na base temporal dos §§ 9º e 12. “Recursos sem despesas correspondentes em razão de veto à LOA podem ser aplicados mediante crédito suplementar ou especial e autorização legislativa prévia e específica.” **Certo**, conforme § 8º.
+**Questão inédita Cebraspe (C/E) 1:** O teto constitucional das emendas de bancada e o das individuais usa necessariamente a receita corrente líquida (RCL) do mesmo ano de referência. **Gabarito: Errado.** O § 9º do art. 166 usa, para aprovação das emendas individuais, a RCL do exercício anterior ao encaminhamento do projeto. O § 12 trata da execução de emendas de bancada com referência à RCL realizada no exercício anterior. A pergunta deve indicar se está tratando do projeto ou da execução.
+
+**Questão inédita Cebraspe (C/E) 2:** Recursos sem despesas correspondentes em razão de veto à LOA podem financiar crédito suplementar ou especial mediante autorização legislativa prévia e específica. **Gabarito: Certo.** O art. 166, § 8º, da Constituição autoriza esse destino, com a autorização legislativa exigida. A sobra decorrente de veto não equivale automaticamente ao excesso de arrecadação do art. 43 da Lei nº 4.320/1964.
 
 ## Caso progressivo: proposta, autorização, execução e controle
 
@@ -125,7 +135,7 @@ Uma emenda individual destina recursos para equipamento de saúde. Durante a exe
 
 ## Questões comentadas: treino didático C/E
 
-**Item 3.** A transferência especial decorrente de emenda individual, por dispensar convênio, também fica dispensada de controle sobre aplicação dos recursos. **Gabarito: Errado.** A dispensa de convênio é constitucional; a conclusão de dispensa de controle não decorre dela.
+**Item 3.** A transferência especial decorrente de emenda individual, por dispensar convênio, também fica dispensada de controle sobre aplicação dos recursos. **Gabarito: Errado.** O art. 166-A da Constituição afasta a necessidade de convênio nessa modalidade. Contudo, o ente beneficiado deve respeitar as condições de aplicação e permitir a fiscalização. A dispensa de instrumento formal não elimina transparência, rastreabilidade nem controle do dinheiro público.
 
 Esse item é inédito e didático, não resultado de treino nem questão oficial.
 

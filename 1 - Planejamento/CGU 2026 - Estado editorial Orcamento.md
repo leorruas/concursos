@@ -288,3 +288,16 @@ O teste `scripts/test-contest-catalog.js` agora exige explicitamente a identidad
 **O que essa evidência cobre:** identidade, pertencimento ao concurso, compatibilidade histórica e regressão da navegação/flashcards verificados pelo CI. **Não cobre:** verificação visual, conteúdo jurídico integral, publicação no Pages em produção. A separação técnica está mais protegida, mas a **certificação editorial continua 0/5**. Os cinco capítulos CGU mantêm **57 itens C/E**, IDs próprios e a arquitetura implantada.
 
 **Pages:** tentativas de leitura pública de `/manifest.json` e `/data/catalogo-materias-por-concurso.json` não retornaram conteúdo acessível pelo mecanismo disponível. Não inferir sucesso de deploy a partir de CI de pull request.
+
+## Auditoria de acesso a fontes primárias: 17/11/2026
+
+**Problema documentado:** os endereços do Planalto usados nas cinco notas CGU para Constituição Federal, Lei nº 4.320/1964 e Lei Complementar nº 101/2000 redirecionavam, na consulta pública de 17/11/2026, para portal de verificação de acesso, sem entregar diretamente o texto legal. Foram localizadas e abertas as versões **atualizadas em HTML** dessas três normas no portal oficial da Câmara dos Deputados, com identificação da norma e redação pesquisável:
+- Constituição Federal: `https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html`
+- Lei nº 4.320/1964: `https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html`
+- Lei Complementar nº 101/2000: `https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html`
+
+**Reparo realizado nas cinco notas:** 14 ocorrências de referências ao Planalto foram substituídas por links para os textos atualizados da Câmara, sem alterar os enunciados, justificativas, classificações, `articleId` ou vínculos da Câmara. Os endereços antigos do Planalto não permanecem nessas cinco notas. Commits de artigos: `1cd1ec3b3d0df85f5a90ca858509bee3ccc61ab9`, `b3362b3f2ebd1257e576fdeacee2d5457b5bd296`, `c6a171a274abe435ff24dfbd17af444bee2248cc`, `1a61899ca2e4f1f984b73a725a4581f37a6625bf` e `b7490c492aaf123eb1fb01486423abd02162df16`. Os demais links oficiais, incluindo a LDO 2026, ADCT e Decreto nº 12.500/2025, foram mantidos.
+
+**Leitura estrutural posterior na main:** as cinco notas preservam IDs individuais; itens C/E por capítulo: 8 + 8 + 15 + 12 + 14 = **57**. Os 57 itens são consecutivos e têm gabaritos explícitos; os wikilinks examinados entre as cinco notas apontam para os destinos CGU existentes. Não se constatou quebra estrutural na leitura remota.
+
+**Estado de certificação:** o reparo de acessibilidade das fontes não constitui verificação de todas as citações jurídicas ou de efeitos de alterações legislativas. Permanecem **0/5 certificações finais** até a segunda leitura jurídica/didática integral por artigo, aprovação dos gates técnicos atuais e verificação de manifesto e catálogo efetivamente servidos no GitHub Pages. A presente branch solicita CI de regressão sobre o lote de correções de fontes; registrar o run e resultado ao final. A issue #362 acompanha o gate Pages.

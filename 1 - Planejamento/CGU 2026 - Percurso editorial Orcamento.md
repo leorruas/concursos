@@ -2,7 +2,7 @@
 title: "Orçamento Público: percurso CGU 2026"
 type: planejamento-editorial
 concursoId: cgu-2026
-status: percurso-transitorio
+status: integracao-proposta
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -13,11 +13,11 @@ O percurso orienta **CGU 2026, Auditoria, Cebraspe**, de acordo com o recorte P3
 
 ## Ordem de estudo CGU: planejamento, execução e controle
 
-1. [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|Orçamento público e ciclo]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
+1. [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]] (versão exclusiva CGU: integração técnica proposta na PR da issue #362)
 2. [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|PPA, LDO e LOA: CGU 2026]] (versão específica publicada)
-3. [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|Esferas da LOA]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
-4. [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios e vedações]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
-5. [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Mapa das classificações]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
+3. [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]] (versão exclusiva CGU: integração técnica proposta na PR da issue #362)
+4. [[3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes|CGU 2026: princípios orçamentários e vedações constitucionais]] (versão exclusiva CGU: integração técnica proposta na PR da issue #362)
+5. [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|CGU 2026: classificações de receitas e despesas na auditoria]] (versão exclusiva CGU: integração técnica proposta na PR da issue #362)
 6. [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
 7. [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
 8. [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)

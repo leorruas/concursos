@@ -372,6 +372,7 @@ Para recursos do **art. 165**, a autoridade recorrida tem **três dias úteis** 
 - [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]]: anulação, revogação, competência e motivação.
 - [[3 - Materias/Direito Administrativo/07 - improbidade administrativa|Improbidade administrativa]]: contratação irregular não equivale automaticamente a improbidade.
 - [[3 - Materias/Direito Administrativo/09 - processo administrativo federal|Processo administrativo]]: contraditório, motivação e decisões administrativas.
+- [[3 - Materias/Administracao Publica/07 - parcerias com setor privado e terceiro setor|Parcerias com setor privado e terceiro setor]]: diferença entre contratação administrativa, MROSC, PPP e concessão.
 
 ## Heurísticas
 
@@ -410,12 +411,4 @@ Para recursos do **art. 165**, a autoridade recorrida tem **três dias úteis** 
 - [Lei nº 12.232/2010, licitação de serviços de publicidade por intermédio de agências de propaganda](https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/lei/l12232.htm): disciplina específica para objeto relevante ao cargo de Comunicação Social, sem confundir a proibição do art. 74, III, da Lei nº 14.133/2021 com proibição geral de contratação de publicidade.
 
 **Observações de método:** o artigo contém regras jurídicas e exemplos hipotéticos para o edital da Câmara. A aplicação de decretos e manuais específicos do **Poder Executivo federal** à Câmara exige conferência da competência e de normas internas. Percentuais, prazos, hipóteses de contratação direta e sanções têm condições próprias; os **valores de 2026** não são definitivos para exercícios posteriores. Os exercícios C/E são **autorais**, não questões oficiais.
-
-
-
-- Lei nº 14.133, de 1º de abril de 2021, especialmente arts. 5º, 17, 28, 33, 71 a 75, 92, 104, 115, 124 a 138 e 155 a 163.
-
----
-**Fontes Brutas:**
-
 

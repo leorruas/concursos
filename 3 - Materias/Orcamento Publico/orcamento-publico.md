@@ -27,6 +27,7 @@ A sequência abaixo usa versões próprias da **CGU 2026, Auditoria**, sem trans
 - [[3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes|CGU 2026: princípios orçamentários e vedações constitucionais]]: legalidade das autorizações e exceções
 - [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|CGU 2026: classificações de receitas e despesas na auditoria]]: natureza, fonte, GND, RP e IU
 - [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria|CGU 2026: créditos adicionais e evidências de auditoria]]: espécies, autorização, recursos, reabertura e achados
+- [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio|CGU 2026: programação financeira, contingenciamento e bloqueio]]: dotações, limites e atos de execução
 
 A lista histórica de leitura e os apontamentos CAM-ORC abaixo são preservados por compatibilidade. Essa inclusão de navegação deve ser homologada pela coordenação com testes de identidade, catálogo e Pages, antes de certificar os artigos CGU.
 

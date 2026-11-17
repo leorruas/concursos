@@ -10,6 +10,10 @@ updated: 2026-11-15
 
 **Fonte da atribuição:** catálogo v2 e árvore da `main` em `cae5d976edcf3f2e4bd2629d038cedd24bcf44d3`, verificados em 15/11/2026. São **34 artigos existentes** associados às matérias `direito-administrativo` (27) e `administracao-publica` (7). As 34 entradas são artigos publicados, não as 49 ideias de artigos do planejamento. Artigos de outras matérias, inclusive Administração Geral, não entram automaticamente no escopo. Revisões, estados de publicação e certificações exigem evidência própria.
 
+## Transferência de Administração Pública para nova matriz (17/11/2026)
+
+**Atualização prioritária:** os sete artigos AP01–AP07 foram reatribuídos à matriz `1 - Planejamento/Camara 2026 - Coordenacao editorial Administracao Publica.md`, com três agentes e seus próprios arquivos de estado. A frente B deste planejamento antigo passa a deter, **para futuras alterações**, apenas DA06, DA08, DA10 e DA11. As atribuições e descrições históricas abaixo permanecem para rastreabilidade, mas não autorizam dois agentes a editar artigos AP simultaneamente. O arquivo `Estado de auditoria Administrativo B.md` preserva os sete registros de certificação histórica com ressalva visual e deve ser consultado pelas novas frentes, sem reescrita automática. Não reabrir auditorias concluídas sem evidência nova de lacuna.
+
 ## Propriedade exclusiva e horários
 
 - **A, :10:** fundamentos, organização, atos administrativos e poderes, DA 01–04, 12–18 e 27. Automação `Automation_19f670a15cfc8191bea82a082c60b803`. Evidências em [[1 - Planejamento/Camara 2026 - Estado de auditoria Administrativo A]].

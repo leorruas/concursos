@@ -1395,6 +1395,22 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo, responsabilidade civil do Estado",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-da26-impedimento-suspeicao",
+      "term": "Impedimento e suspeição na Lei 9.784/1999",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da26-prazos-recursos",
+      "term": "Lei 9.784/1999: prazos recursais e alegações de interessados",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo",
+      "contestId": "camara-2026",
+      "status": "reviewed"
     }
   ]
 }

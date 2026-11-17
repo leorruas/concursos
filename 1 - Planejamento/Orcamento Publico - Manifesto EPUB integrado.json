@@ -358,6 +358,18 @@
       "certificationStatus": "redigido-validacao-editorial-pendente",
       "include": false,
       "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+    },
+    {
+      "chapterKey": "cgu-14-novo",
+      "articleId": "art-7a4f21e965d048b3",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - conta unica e execucao financeira.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-743d234d819842d1",
+      "topicKey": "conta-unica",
+      "sequence": 14,
+      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "include": false,
+      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
     }
   ],
   "crossReferences": [

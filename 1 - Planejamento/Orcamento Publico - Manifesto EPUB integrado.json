@@ -334,6 +334,18 @@
       "certificationStatus": "redigido-validacao-editorial-pendente",
       "include": false,
       "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+    },
+    {
+      "chapterKey": "cgu-12-novo",
+      "articleId": "art-79e2c6a4f80143bd",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - despesa empenho liquidacao e evidencias.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-67167e9c18284c4c",
+      "topicKey": "despesas-estagios",
+      "sequence": 12,
+      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "include": false,
+      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
     }
   ],
   "crossReferences": [

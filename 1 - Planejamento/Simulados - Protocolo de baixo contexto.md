@@ -126,3 +126,14 @@ node scripts/test-prepare-chat-battery.js
 **Limites deste piloto:** a execução do CLI depende de um ambiente com Node e acesso aos arquivos (não é uma função remota da conexão GitHub dentro do chat). Não há recuperação automática de pacote por ID nem checkpoint de chat entre conversas. Também não há integração com D1/cofre ou medição de tokens reais. O teste CI cobre seleção, filtros, integridade e tamanho de saída, mas **não** mede persistência privada, retomada, UI ou economia de contexto no produto.
 
 A próxima implementação deve ser um ponto de acesso autorizado que faça a seleção e devolva ao assistente somente N itens, mais um ponto de checkpoint privado idempotente. Até lá, este script é uma prova de integração local, sem alterar a operação padrão do chat.
+
+
+## Incremento: retomada validada em memória (17/11/2026)
+
+O módulo `scripts/resume-chat-battery.js` oferece duas funções puras: `newPreparedCheckpoint(packet, sessionId)` e `resumePreparedBattery(packet, checkpoint)`. Aceita somente a **sequência originalmente preparada**, o concurso e a versão de fonte registrados, respostas sequenciais únicas e níveis de confiança previstos. Ao retomar, devolve somente `nextQuestion` sem gabarito, além de índice e totais. Baterias didáticas não aceitam branco; simulados podem registrar branco com confiança `unknown`.
+
+O formato de checkpoint dessa biblioteca é **transitório e não homologado como arquivo do cofre**. Embora o cofre já aceite sessões v3 com `status: parcial`, essas sessões têm campos pedagógicos e validação próprios. Nunca gravar diretamente o objeto transitório em `data/sessoes/*.json`. Antes de persistir, um adaptador privado deverá converter respostas reais ao schema v3 e passar pelo workflow de pré-validação privada. Não duplicar tentativa de site no cofre. Não adicionar dados de estudo pessoais ao projeto público.
+
+Teste: `node scripts/test-resume-chat-battery.js`; executado no CI público. Casos: retomada com zero/uma/todas as respostas; item duplicado, ordem divergente, mudança de versão, banca/concurso diferente, branco incompatível e separação do gabarito. Os testes são sintéticos e não verificam autenticação nem escrita no cofre.
+
+**Dependência ainda aberta:** acesso autenticado ao pacote privado com ID estável e um mecanismo de gravação parcial idempotente entre chats, respeitando `leorruas/concurso-dados/AGENTS.md` e `data/sessoes/README.md`. Sem ele, a função permite calcular uma retomada a partir de dados recebidos, mas não oferece sozinha a recuperação automática entre conversas.

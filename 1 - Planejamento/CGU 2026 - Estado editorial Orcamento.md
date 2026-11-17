@@ -170,3 +170,11 @@ A issue de integração [#362](https://github.com/leorruas/concursos/issues/362)
 Issue de integração [#362](https://github.com/leorruas/concursos/issues/362) ainda aberta e sem commit coordenado na `main` nesta verificação. Ao conferir a fonte do art. 7º da LDO federal 2026, o endereço do Planalto usado no artigo de classificações redirecionou para a página inicial do portal e não ofereceu o texto solicitado. O link foi substituído por publicação da **Câmara dos Deputados** com o conteúdo legal consultável, preservando a seção e os 12 itens C/E. Commit `c6ade2ab1c820468d7997c55a42ce388295421a0`, blob `3bb5dc2fa02fccbaf2ace599b86d8bbe61a15384`.
 
 Este é reparo de fonte, não certificação jurídica integral ou de Pages. **Progresso:** cinco artigos CGU trabalhados, 44 itens C/E, zero certificados. A integração da navegação depende da coordenação, com testes e publicação por confirmar.
+
+## Correção jurídica relevante: IU e LDO 2026, 17/11/2026
+
+Foi identificada e corrigida **citação normativa incorreta em revisão anterior**: a finalidade do identificador de uso (IU) está no **art. 7º, § 10, da Lei nº 15.321/2025**, e não no § 5º. O **§ 5º** veda em regra dotações financeiras e primárias simultâneas na mesma ação, ressalvada a reserva de contingência. O **§ 4º** trata do identificador de resultado primário (RP). A leitura integral do art. 7º, §§ 4º, 5º e 10, foi confrontada na publicação original da Câmara (Lei nº 15.321/2025). O § 10 também discrimina IU 6 (despesas de saúde) e IU 8 (ensino), além das contrapartidas de empréstimos e doações.
+
+**Reparo aplicado ao artigo exclusivo de classificações CGU:** commit `9b145f8dd66025fd051fb3e640c6556c30ab8458`, blob `47307289394ae47b12159006c5e795da1d7b7fd6`. Atualizada a seção e a explicação do item C/E 11; preservadas 12 questões e `articleId: art-e6b481a230fc795d`.
+
+**Estado:** o erro da referência anterior impede considerar como certificado qualquer estágio jurídico anterior deste artigo. Issue de integração [#362](https://github.com/leorruas/concursos/issues/362) ainda aberta, sem alteração coordenada do catálogo. Progresso mantido: 5 artigos CGU trabalhados, 44 itens C/E e **0 certificações finais**. Antes do fechamento, completar revisão de normas e referências com testes e CI/Pages, sem pressupor certificação por correção isolada.

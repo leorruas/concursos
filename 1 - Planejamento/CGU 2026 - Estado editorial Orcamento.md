@@ -309,3 +309,29 @@ O [PR #367](https://github.com/leorruas/concursos/pull/367) validou por GitHub A
 **Segunda leitura focal de fontes atualizadas da Câmara:** conferidos o art. 35, § 2º, do ADCT para os prazos federais, os arts. 2º, 3º, 5º, 6º e 58 da Lei nº 4.320/1964, os arts. 2º, 4º e 9º da LRF (Lei Complementar nº 101/2000), e os arts. 6º, 7º e 52 da LDO 2026 (Lei nº 15.321/2025) nos pontos utilizados como base para as questões e explicações. Não se infere auditoria integral de todos os trechos constitucionais e legais citados a partir desse cotejo focal.
 
 **Status por artigo mantido:** PPA `art-9dc8a6e2f31b47c0`, ciclo `art-a07c26f4e92031ab`, esferas `art-c84d6e02f3b7a915`, princípios `art-b419ac8206de7f35` e classificações `art-e6b481a230fc795d` continuam integrados, com fontes acessíveis e **certificação editorial final pendente**. Cinco artigos, 57 itens C/E, 0 certificados. O único gate do PR #367 já foi aprovado; verificar a execução de deploy e o catálogo/manifesto ao vivo no Pages e terminar o confronto editorial integral por `articleId` antes da certificação. A issue #362 continua aberta para o fechamento.
+
+## Segunda leitura integral individual: PPA/LDO/LOA e ciclo, 17/11/2026
+
+Foram realizadas leituras integrais do texto, tabelas, exemplos, oito enunciados e oito gabaritos de cada capítulo abaixo, com confronto dos pontos normativos específicos com as **versões atualizadas em HTML da Câmara dos Deputados** e com o programa do edital CGU (Cargo 1, Auditoria). O objetivo foi fechar a dimensão editorial de cada artigo; publicação no Pages é controle distinto.
+
+### PPA, LDO e LOA, `art-9dc8a6e2f31b47c0`
+
+**Blob auditado:** `af7a1cf890b9b013bdd80125b7a27e3baf2d7cb4`. Conferidos: natureza e iniciativa das três leis (CF art. 165); PPA regionalizado e vigência intermandatos (CF art. 165, § 1º; ADCT art. 35, § 2º, I); investimento plurianual e alternativa de lei autorizativa (CF art. 167, § 1º); conteúdo da LDO (CF art. 165, § 2º; LRF art. 4º); limitação bimestral de empenho (LRF art. 9º); LOA e três orçamentos (CF art. 165, § 5º); marcos de envio e devolução dos projetos federais (ADCT art. 35, § 2º, I a III). As tabelas de instrumentos, prazos e evidências foram lidas integralmente e mantidas. C/E **1 a 8** foram cotejados individualmente com os dispositivos e a diferença entre autorização, execução e resultado; gabaritos coerentes. Os dois wikilinks para artigos próprios CGU têm destinos identificados na `main`. Sem Mermaid. Nenhuma lacuna que exigisse alteração foi identificada nesta rodada.
+
+**Status editorial:** `segunda leitura jurídica e didática concluída; certificação técnica de publicação pendente`, com SHA acima. **Não classificar como certificado**, nem mesmo com ressalva visual, até evidência do último Pages correspondente ao conteúdo.
+
+### Ciclo orçamentário e evidências de auditoria, `art-a07c26f4e92031ab`
+
+**Blob auditado:** `3f8a392726c63313155ff53d8849c0f3129983c4`. Conferidos: quatro fases do ciclo e sua sobreposição; iniciativa do Executivo e deliberação legislativa (CF art. 165); lei orçamentária (Lei nº 4.320/1964, art. 2º); empenho, limite de créditos, liquidação e ordem de pagamento (Lei nº 4.320/1964, arts. 58 a 65); programação e limitação de empenho (LRF arts. 8º e 9º); controle interno e externo e avaliação de resultados (CF arts. 70, 71 e 74). Tabelas, caso de equipamentos, evidências documentais, conceitos de produto versus resultado e C/E **1 a 8** revistos individualmente, sem contradições detectadas. Destino do wikilink PPA CGU identificado na `main`; sem Mermaid.
+
+**Status editorial:** `segunda leitura jurídica e didática concluída; certificação técnica de publicação pendente`, no SHA indicado. A certificação final exige Pages ao vivo e os demais gates de `AGENTS.md`.
+
+### Referências primárias efetivamente consultadas
+
+- CF atualizada: `https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html`, arts. 70, 71, 74, 165 e 167.
+- ADCT atualizado: `https://www2.camara.leg.br/legin/fed/conadc/1988/constituicao.adct-1988-5-outubro-1988-322234-normaatualizada-pl.html`, art. 35, § 2º.
+- Lei nº 4.320/1964 atualizada: `https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html`, arts. 2º, 58 a 65.
+- LRF atualizada: `https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html`, arts. 4º, 8º e 9º.
+- Edital CGU nº 1/2026 (Cebraspe), programa oficial: `https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html`.
+
+**Situação geral desta etapa:** 2 de 5 artigos têm segunda leitura individual e registro documental concluídos; 3 continuam necessitando desse mesmo nível de revisão. Mantidos 57 itens C/E, IDs e referências. **0 de 5 certificações finais**. Evidências técnicas anteriores: PR #367, workflow `44177038965`, `success`; faltam comprovação do Pages ao vivo e certificação no SHA correspondente. Não repetir as revisões já comprovadas sem evidência nova.

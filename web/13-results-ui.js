@@ -72,8 +72,19 @@ function conceptLinks(container,concept){
  }
  container.append(links);
 }
+function manifestSubject(articleId){
+ const category=manifest.get(articleId)?.categoria;
+ if(typeof category!=='string')return '';
+ const simple=category.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
+ const mapped={'direito constitucional':'direito-constitucional','direito administrativo':'direito-administrativo',
+  'administracao publica':'administracao-publica','orcamento publico':'orcamento-publico',
+  'comunicacao':'comunicacao','portugues':'portugues','ingles':'ingles','informatica':'informatica',
+  'estado e democracia':'estado-democracia','etica publica':'etica-publica','redacao':'redacao'};
+ return mapped[simple]||'';
+}
 function articleSubject(article,concepts=[]){
- const candidates=[article.subjectId,article.materiaId,...(article.mistakes||[]).map(q=>q.subjectId),...(article.uncertainCorrect||[]).map(q=>q.subjectId)];
+ const candidates=[article.subjectId,article.materiaId,manifestSubject(article.articleId),
+  ...(article.mistakes||[]).map(q=>q.subjectId),...(article.uncertainCorrect||[]).map(q=>q.subjectId)];
  const associated=concepts.filter(c=>Array.isArray(c.articles)&&c.articles.includes(article.articleId));
  candidates.push(...associated.map(c=>c.subjectId));
  return candidates.find(s=>typeof s==='string'&&s.trim())||'sem-materia';
@@ -127,7 +138,7 @@ function render(){
  for(const [subject,items] of articleGroups){
   const group=el('section','results-subject-group');
   group.append(subjectHeading(subject,items.length));
-  for(const [i,article] of items.slice(0,6).entries()){
+  for(const [i,article] of items.entries()){
    const box=el('article','results-quiz-priority'),number=el('span','results-order',String(i+1).padStart(2,'0'));
    const copy=el('div'),meta=manifest.get(article.articleId);
    const attempts=(article.mistakes?.length||0)+(article.uncertainCorrect?.length||0);
@@ -167,7 +178,7 @@ function render(){
  for(const [subject,items] of subjectGroups(cs,c=>c.subjectId)){
   const group=el('section','results-subject-group');
   group.append(subjectHeading(subject,items.length));
-  for(const c of items.slice(0,12)){
+  for(const c of items){
    const box=el('div','results-concept'),left=el('div');
    left.append(el('strong','',c.title),
     el('small','',c.errors+' erro(s) em '+c.attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')),

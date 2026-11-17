@@ -12,7 +12,7 @@ updated: 2026-11-16
 
 | articleId | Artigo | Estado | Evidências (SHA, fontes, checks, Pages, ressalvas) |
 | :--- | :--- | :--- | :--- |
-| `art-f6cfe9fbcc764554` | `01 - orcamento publico e ciclo orcamentario.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
+| `art-f6cfe9fbcc764554` | `01 - orcamento publico e ciclo orcamentario.md` | Revisão em andamento; publicação técnica pendente | Commit de conteúdo na `main`: `4ba35667dfb7757532f628c63a047a458f433775`; acrescentada distinção de competências Executivo/SOF/CMO/Congresso/controle e revistos C/E 3–4. Fontes consultadas: CF arts. 165–166, Lei 4.320/1964 art. 2º, MTO 2026. Ainda faltam auditoria formal de glossário/flashcards/theoryRefs, validação de CI, Pages no SHA e inspeção visual. Não certificado. |
 | `art-c301f2c741504403` | `02 - ppa ldo e loa.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
 | `art-74d90e9fa1b3452c` | `02a - esferas da loa e estatais dependentes.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
 | `art-a2f47c0d6e184e93` | `03 - principios orcamentarios e vedacoes constitucionais.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
@@ -23,3 +23,9 @@ updated: 2026-11-16
 ## Fechamento e retomada
 
 Aplicar a matriz `1 - Planejamento/Camara 2026 - Coordenacao editorial Orcamento.md`, a publicação direta na `main` e o critério de **revisão integral concluída com ressalva visual** do `AGENTS.md`. Trabalhar um artigo por vez e registrar aqui evidências individuais reais, a correção integral e as pendências específicas de inspeção visual. Sem criar EPUB, sessões de estudo ou resultados fictícios. Não marcar como publicado sem evidências de CI e Pages pertinentes.
+
+## Evidências da execução de 16/11/2026
+
+- Artigo 01: leitura integral do Markdown original e edição pedagógica na seção de ciclo; arquivo atualizado diretamente na `main`, commit `4ba35667dfb7757532f628c63a047a458f433775`. A alteração não modifica outros artigos, catálogo, índice, banco de questões ou dados pessoais.
+- O commit comprova somente a gravação do texto no repositório. **Sem evidência de checks e Pages correspondente, a certificação fica pendente**. Não atribuir a situação “revisão integral concluída com ressalva visual” nesta etapa.
+- Fontes primárias para cotejo: Constituição (arts. 165 e 166), Lei 4.320/1964, Manual Técnico de Orçamento da SOF (edição 2026). Para o tema tramitação, conferir Regimento Comum e Resolução 1/2006-CN atualizada nos artigos 13–14.

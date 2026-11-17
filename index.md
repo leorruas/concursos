@@ -210,6 +210,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria|CGU 2026 • Créditos adicionais e evidências de auditoria]]
    - [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio|CGU 2026 • Programação financeira, contingenciamento e bloqueio]]
    - [[3 - Materias/Orcamento Publico/CGU 2026 - receitas publicas registros e evidencias|CGU 2026 • Receitas públicas, registros e evidências]]
+   - [[3 - Materias/Orcamento Publico/CGU 2026 - despesa empenho liquidacao e evidencias|CGU 2026 • Despesa pública, empenho, liquidação e evidências]]
    - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02 • PPA, LDO e LOA: artigo original (Câmara)]]
    - [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|02a • Esferas da LOA e estatais]]
    - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|03 • Princípios orçamentários]]

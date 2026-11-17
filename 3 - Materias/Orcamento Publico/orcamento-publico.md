@@ -29,6 +29,7 @@ A sequência abaixo usa versões próprias da **CGU 2026, Auditoria**, sem trans
 - [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria|CGU 2026: créditos adicionais e evidências de auditoria]]: espécies, autorização, recursos, reabertura e achados
 - [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio|CGU 2026: programação financeira, contingenciamento e bloqueio]]: dotações, limites e atos de execução
 - [[3 - Materias/Orcamento Publico/CGU 2026 - receitas publicas registros e evidencias|CGU 2026: receitas públicas, registros e evidências]]: lançamento, arrecadação, recolhimento e conciliação
+- [[3 - Materias/Orcamento Publico/CGU 2026 - despesa empenho liquidacao e evidencias|CGU 2026: despesa pública, empenho, liquidação e evidências]]: execução, ateste, pagamento e controles
 
 A lista histórica de leitura e os apontamentos CAM-ORC abaixo são preservados por compatibilidade. Essa inclusão de navegação deve ser homologada pela coordenação com testes de identidade, catálogo e Pages, antes de certificar os artigos CGU.
 

@@ -14,6 +14,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano das 15 matérias]]
 - [[1 - Planejamento/Materias sem artigos - Plano de implementacao por fases|Matérias sem artigos próprios: plano por fases]]
 - [[1 - Planejamento/Orcamento Publico - Plano de artigos|Orçamento Público: plano de artigos]]
+- [[1 - Planejamento/Camara 2026 - Coordenacao editorial Orcamento|Câmara 2026: coordenação das três auditorias de Orçamento Público]]
 - [[1 - Planejamento/Contabilidade Publica - Plano de artigos|Contabilidade Pública: plano de artigos e recuperação]]
 - [[1 - Planejamento/Contratacoes e Transferencias - Plano de artigos|Contratações e transferências: plano de artigos e auditoria]]
 - [[1 - Planejamento/Etica Publica - Plano de artigos|Ética Pública: plano de artigos]]

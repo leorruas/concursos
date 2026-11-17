@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: treze-certificados-dois-em-revalidacao-quatro-legados
+status: quatorze-certificados-um-em-revalidacao-quatro-legados
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -564,3 +564,9 @@ Sete flashcards exclusivamente CGU (`receitas-correntes`, `receitas-capital`, `a
 ## Revalidação preventiva de responsabilidade fiscal (17/11/2026)
 
 O artigo CGU `art-d218c459af1e4b73` foi ampliado com gatilhos de pessoal, recondução, renúncia, despesa continuada e obrigações de fim de mandato. Blob novo `9333c998df25d1889a8ce62521778428ba7aed01`; a certificação anterior correspondia ao blob `8b66c1340fa6aa6c3722fb899bde72ede5b65363`. A **certificação para a nova versão está reaberta**, independentemente da migração futura de flashcards e glossários, que não foi concluída nesta tentativa. Até segunda leitura e CI/Pages próprio, a contagem segura é 13/15 certificados e dois artigos em revalidação: receita 04a e responsabilidade fiscal 11. O catálogo CGU ainda contém o ID histórico da LRF `art-91ab320cdfb64b8a`; não declarar esse vínculo migrado.
+
+## Revalidação concluída: natureza e fonte da receita CGU (17/11/2026)
+
+**ID** `art-e4c982a6713d4bf5`, blob ampliado `1a27578226bfb8b240ae2f212139264c346af8f7`. A seção adicionada distingue contribuições, receitas agropecuárias, industriais, de serviços, patrimoniais, transferências, empréstimos, alienações, amortização de créditos concedidos e receitas intraorçamentárias, preservando classificação econômica versus extraorçamentária. A segunda leitura confrontou essa seção com o capítulo original 04a da Câmara, o MTO 2026, a Lei nº 4.320/1964 e o MCASP 11ª edição. Os dez enunciados C/E e respectivos gabaritos do derivado permaneceram sem alterações; os sete flashcards CGU foram associados aos headings reais, e 23 verbetes exclusivamente CGU ao novo ID. **A versão ampliada possui revisão integral concluída com ressalva visual**, sem inspeção manual individual em navegador.
+
+**Prova de publicação:** workflow [44192072977](https://github.com/leorruas/concursos/actions/runs/44192072977), SHA `4a8664a8430b876c0f5ada5d6101bf76316bd1cc`, resultado `success`, contendo o mesmo blob e a migração de referências. O original 04a da Câmara continua com ID e URL antigos. **Placar: 14 de 15 artigos CGU certificados**, restando apenas a versão ampliada de responsabilidade fiscal em revalidação; a separação de IDs históricos e inspeção visual continuam incompletas.

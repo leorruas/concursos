@@ -140,3 +140,11 @@ O futuro EPUB poderá agrupar conceitos equivalentes por `topicKey`, mantendo `a
 **Atenção aos IDs adicionais do catálogo CGU:** `art-9be1a39d536a47ea` e `art-3e62a81df4c74b90` permanecem sem identificação conclusiva por caminho nesta frente. `art-9be1a39d536a47ea` também consta da lista de Orçamento da Câmara: não remover, substituir nem alterar antes de resolver a propriedade. Não modificar dados pessoais ou `data/questoes-camara.json`.
 
 **Status efetivo:** 5 artigos CGU trabalhados, 42 itens C/E didáticos e 0 certificações finais; quatro novos derivados aguardam integração técnica. Próxima etapa prioritária é a operação coordenada de catálogo/navegação e testes. Não atribuir certificação, conclusão de Pages ou migração apenas com a existência dos commits dos textos.
+
+## Revisão focal: identificadores da despesa, 17/11/2026
+
+A issue [#362](https://github.com/leorruas/concursos/issues/362) segue aberta; a coordenação ainda não integrou os quatro derivados ao catálogo, hub, índice e percurso no momento desta verificação. Sem modificar essas superfícies, a frente CGU realizou nova revisão do artigo `art-e6b481a230fc795d`, `CGU 2026 - classificacoes de receitas e despesas.md`.
+
+**Correção e ampliação:** seção específica para separar identificador de resultado primário (RP), identificador de uso (IU), fonte, modalidade de aplicação (MA) e grupo de natureza da despesa (GND). Referência normativa: Lei nº 15.321/2025, art. 7º, texto vigente da LDO federal de 2026. Incluídos dois itens C/E originais, totalizando **12** no artigo, com respostas comentadas. Commit `8a928e0955574823f6c06accc805394baec39678`; blob verificado na main `7b98434ebedd3e1336711119abef23bfad365531`.
+
+**Total acumulado corrigido:** cinco artigos exclusivos CGU trabalhados, **44 questões didáticas C/E**, **zero certificações finais**. O artigo ampliado exige novamente verificação de testes, CI, Pages, vínculos, título, indexação e escopo jurídico integral antes de certificação. O bloqueio de integração está documentado na issue #362, sob responsabilidade da coordenação; nenhum artefato Câmara nem catálogo global foi alterado nesta frente.

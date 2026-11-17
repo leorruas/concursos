@@ -12349,6 +12349,78 @@
         "prompt": "Qual distinção jurídica muda a resposta?",
         "answer": "A decisão coordenada mantém a responsabilidade decisória de cada órgão; não equivale à delegação nem à avocação."
       }
+    },
+    {
+      "id": "camara-da26-impedimento-suspeicao",
+      "term": "Quando a falta de comunicação configura falta grave: impedimento ou suspeição?",
+      "definition": "Art. 19: omitir comunicação de impedimento configura falta grave. O art. 20 permite arguir suspeição por amizade íntima ou inimizade notória; não estabelece automaticamente a mesma falta grave.",
+      "example": "Servidor com interesse financeiro no pedido deve comunicar impedimento; amizade íntima pode fundamentar arguição de suspeição.",
+      "confusion": "Deixar de comunicar impedimento é falta grave expressa no art. 19; a lei não atribui automaticamente a mesma tipificação à não comunicação de suspeição.",
+      "topic": "Lei nº 9.784/1999: impedimentos e recursos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Processo administrativo federal"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-bc65879a85f5b5d8",
+        "section": "1. Imparcialidade processual: impedimento versus suspeição"
+      },
+      "source": {
+        "title": "Lei nº 9.784/1999 atualizada",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Arts. 18 a 21"
+      },
+      "conceptIds": [
+        "glo-camara-da26-impedimento-suspeicao"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção legal decide esta questão?",
+        "answer": "Deixar de comunicar impedimento é falta grave expressa no art. 19; a lei não atribui automaticamente a mesma tipificação à não comunicação de suspeição."
+      }
+    },
+    {
+      "id": "camara-da26-prazos-recursais",
+      "term": "Os cinco dias para alegações de outros interessados são úteis ou contínuos?",
+      "definition": "O art. 62 exige cinco dias úteis para alegações de outros interessados; o prazo geral de interposição é dez dias contínuos, por art. 59 e art. 66.",
+      "example": "O recorrente interpõe em dez dias contínuos; depois da interposição, os demais interessados têm cinco dias úteis para alegações.",
+      "confusion": "Dez dias de interposição, cinco de reconsideração, cinco dias úteis para demais interessados e trinta mais trinta de julgamento são contagens distintas.",
+      "topic": "Lei nº 9.784/1999: impedimentos e recursos",
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Administrativo / Processo administrativo federal"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-bc65879a85f5b5d8",
+        "section": "3.1 Prazos e regras gerais de tramitação"
+      },
+      "source": {
+        "title": "Lei nº 9.784/1999 atualizada",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1999/lei-9784-29-janeiro-1999-322239-normaatualizada-pl.html",
+        "locator": "Arts. 56, 59, 62 e 66"
+      },
+      "conceptIds": [
+        "glo-camara-da26-prazos-recursos"
+      ],
+      "contrast": {
+        "prompt": "Qual distinção legal decide esta questão?",
+        "answer": "Dez dias de interposição, cinco de reconsideração, cinco dias úteis para demais interessados e trinta mais trinta de julgamento são contagens distintas."
+      }
     }
   ]
 }

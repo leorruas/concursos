@@ -216,6 +216,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Orcamento Publico/CGU 2026 - responsabilidade fiscal riscos e controle|CGU 2026 • Responsabilidade fiscal, riscos e controle]]
    - [[3 - Materias/Orcamento Publico/CGU 2026 - emendas rastreabilidade e controle|CGU 2026 • Emendas parlamentares, rastreabilidade e controle]]
    - [[3 - Materias/Orcamento Publico/CGU 2026 - natureza fonte e resultado da receita|CGU 2026 • Natureza, fonte e resultado fiscal da receita]]
+   - [[3 - Materias/Orcamento Publico/CGU 2026 - classificacao da despesa e rastreamento|CGU 2026 • Classificação da despesa e rastreamento]]
    - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02 • PPA, LDO e LOA: artigo original (Câmara)]]
    - [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|02a • Esferas da LOA e estatais]]
    - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|03 • Princípios orçamentários]]

@@ -92,6 +92,22 @@ Na LDO federal de 2026, Lei nº 15.321/2025, art. 7º, são identificados os GND
 
 A mesma LDO trata de identificadores de resultado primário da despesa, modalidades de aplicação e fontes de recursos. Esses códigos pertencem ao **exercício e ao orçamento federal** e devem ser conferidos na fonte atualizada antes de serem transportados para outro ente ou exercício. O indicador **RP da despesa** também não se confunde com o atributo primária/financeira de uma receita.
 
+## Identificadores federais: RP, IU e fonte não são sinônimos
+
+A Lei de Diretrizes Orçamentárias federal de 2026, Lei nº 15.321/2025, art. 7º, exige que a discriminação da despesa identifique, entre outros campos, **Grupo de Natureza da Despesa (GND)**, **identificador de resultado primário (RP)**, **modalidade de aplicação (MA)**, **identificador de uso (IU)** e **fonte de recursos ou de financiamento**. Esses campos aparecem associados na programação, mas têm funções distintas.
+
+| Campo | Pergunta que ajuda a responder | Erro de interpretação |
+| :--- | :--- | :--- |
+| RP da despesa | Como essa programação é identificada para fins fiscais e de resultado primário, segundo as categorias da LDO vigente? | Tratar RP como se identificasse o tributo ou a origem da arrecadação |
+| IU | Há identificação adicional da aplicação dos recursos, como contrapartida, segundo as regras e códigos do orçamento federal? | Tratar IU como sinônimo de GND ou de fonte |
+| Fonte | Que conjunto de recursos financia a programação e quais regras de destinação se aplicam? | Concluir que toda despesa com o mesmo GND usa a mesma fonte |
+| MA | Como se dará a aplicação dos recursos orçamentários no arranjo previsto? | Confundir modalidade de aplicação com modalidade de licitação |
+| GND | Qual grande grupo de natureza econômica da despesa? | Confundir Investimentos (GND 4) com esfera de investimento das estatais |
+
+**Situação de fiscalização:** duas ações de saúde podem ter o mesmo GND, como Outras Despesas Correntes, mas usar fontes distintas. O auditor precisa verificar a compatibilidade entre fonte, finalidade e atos de execução. Já a presença de um código de IU requer interpretação conforme o classificador federal vigente: o código, isoladamente, não prova que a contrapartida foi efetivamente aportada ou que a entrega foi concluída.
+
+Os códigos numéricos, categorias detalhadas e regras de codificação podem variar com o exercício e com alterações normativas. Antes de julgar um lançamento real, consultar a LOA, a LDO e o MTO aplicáveis ao período, em vez de transportar automaticamente códigos de outro ano.
+
 ## Procedimento de auditoria: classificação, uso e entrega
 
 Um erro de código pode comprometer relatórios, acompanhamento de vinculações e análise de metas. Para julgar uma divergência, o auditor deve comparar o fato, a codificação utilizada e a regra aplicável.
@@ -130,7 +146,11 @@ Um erro de código pode comprometer relatórios, acompanhamento de vinculações
 
 **Item 10.** "A apuração do resultado primário pode ser feita somando todas as receitas orçamentárias, inclusive operações de crédito, sem considerar as despesas primárias." **Errado.** O cálculo depende das receitas e despesas primárias e da metodologia fiscal aplicável.
 
-Estes dez itens são exemplos autorais de estudo, sem equivalência comprovada com questões oficiais, e não registram desempenho pessoal.
+**Item 11.** "O identificador de uso (IU), a fonte de recursos e o grupo de natureza da despesa (GND) são campos com funções distintas na discriminação do orçamento federal." **Certo.** A LDO de 2026, art. 7º, discrimina esses campos separadamente. Fonte se relaciona aos recursos e regras de destinação; GND, à natureza da despesa; IU exige interpretação pela finalidade do identificador no classificador vigente.
+
+**Item 12.** "Duas ações da mesma função orçamentária e do mesmo GND devem possuir necessariamente a mesma fonte de recursos." **Errado.** A função e o GND não definem, por si, a fonte de financiamento. É preciso consultar a programação e as vinculações pertinentes.
+
+Estes doze itens são exemplos autorais de estudo, sem equivalência comprovada com questões oficiais, e não registram desempenho pessoal.
 
 ## Fontes e vínculos
 

@@ -306,3 +306,41 @@ Os quatro arquivos foram relidos em sua abertura, delimitação, identificação
 - **Pendentes:** `cont-aquisicao-ativo` trata de despesa de capital versus variação patrimonial diminutiva, distinção que exige cotejo contábil específico; `orc-recebimento-provisorio-definitivo` e `orc-ateste-vs-liquidacao` têm `examIds` Câmara + CGU e devem conservar o vínculo Câmara, ainda que a seção CGU `Liquidação: o que foi efetivamente devido?` mencione recebimento e ateste.
 
 **Checagens obrigatórias antes da migração:** certificar conceito completo e gabarito/fonte de cada cartão, confrontar heading da nota nova e preservar os `card.id` existentes; não fazer substituição global de IDs. Nos quatro cartões compartilhados, decidir se permanecem em original transversal ou se precisam de cartão específico CGU, sem apagar vínculo Câmara. O plano CGU contém ainda 11 `noteRefs` legados por caminho e precisa ser reconciliado pela coordenação junto dos vínculos no catálogo. **Resultado desta etapa: 35 candidatos de remapeamento por heading documentados, 6 retidos para exame, zero mutações de dados; dos 90 títulos antes não coincidentes, 41 tiveram primeira proposta de reconciliação (35+6), permanecendo 49 fora deste lote.** O saldo se refere à triagem, não a links já migrados.
+
+## Triagem dirigida dos 50 cartões CGU restantes em legados 04a, 04b, 09 e 11: 17/11/2026
+
+**Escopo:** leitura de `card.note.section` e do termo dos **50 cartões CGU** ligados a quatro originais, comparando os headings reais e termos dos respectivos derivados `CGU 2026 - *.md`. Esses quatro derivados ainda **não constam entre as quatro certificações individuais CGU recentes**. O objetivo desta etapa é **propor referências precisas e apontar lacunas antes da certificação**, não certificar os derivados nem modificar flashcards.
+
+**Receita, original 04a → `art-e4c982a6713d4bf5` (7 candidatos):**
+- `Natureza de receita: categoria econômica, origem e detalhamento`: `receitas-correntes`, `receitas-capital`, `alienacao`, `amortizacao-emprestimo`, `orc-ref-corrente-periodicidade`.
+- `Originária, derivada, corrente e capital: eixos diferentes`: `receita-originaria-patrimonial`.
+- `Fonte/destinação: por que dois impostos não são necessariamente intercambiáveis`: `fonte-destinacao-vs-natureza-receita`.
+- Os sete destinos existem; conferência conceitual da edição/valores das classificações segue pendente.
+
+**Despesa, original 04b → `art-3f9d17a6c04b4e82` (24 candidatos, 3 pendentes):**
+- `Institucional: quem responde pela autorização`: `institucional`.
+- `Funcional: função e subfunção`: `funcional`.
+- `Programática: problema público e entrega`: `projeto`, `atividade`, `operacao-especial`, `classificacao-programatica`, `orc-erro-projeto-so-custeio`.
+- `Esfera orçamentária: três orçamentos da União`: `esfera-versus-investimento`.
+- `Natureza da despesa: categoria, grupo, modalidade e elemento`: `gnd`, `elemento`, `amortizacao-divida`, `categoria-economica-despesa`, `gnd-pessoal-encargos-sociais`, `gnd-juros-encargos-divida`, `gnd-outras-despesas-correntes`, `gnd-investimentos`, `gnd-inversoes-financeiras`, `modalidade-aplicacao-despesa`, `modalidade-aplicacoes-diretas`, `modalidade-transferencias-municipios`, `elemento-material-consumo`, `elemento-equipamento-permanente`, `orc-erro-gnd-elemento-caso`, `orc-erro-modalidade-elemento-caso`.
+- **Pendentes:** `orc-transferencia-gasto-vs-receita`, `orc-erro-transferencia-finalidade`, `orc-ref-terreno-obra`. O derivado cita transferência, mas não apresenta a mesma distinção de quem paga versus quem recebe ou de transferência corrente/capital detalhada nos cartões; a hipótese de terreno vinculado à obra requer comparação com o trecho `Construção nova × imóvel existente`. Nenhum deles deve receber âncora substituta sem confirmar a explicação.
+
+**Restos a pagar e DEA, original 09 → `art-c85e29a3741f40bd` (8 candidatos, 1 pendente):**
+- `Restos a pagar processados e não processados`: `restos-pagar`, `rp-processados`, `rp-nao-processados`.
+- `Despesas de exercícios anteriores (DEA)`: `dea`, `cont-rp-vs-dea`.
+- `Suprimento de fundos: adiantamento excepcional`: `suprimento` (**já é o único título coincidente de toda a migração**).
+- `Despesa de um exercício, pagamento de outro: qual foi a etapa alcançada?`: `desembolso-extra`.
+- `Inscrição, cancelamento e permanência`: `cont-cancelamento-rp`.
+- **Pendente:** `cont-suprimento-restituicao` exige diferenciar devolução no exercício de devolução posterior, sem seção específica equivalente no derivado.
+
+**Responsabilidade fiscal, original 11 → `art-d218c459af1e4b73` (5 candidatos, 2 pendentes):**
+- `Dívida, operações de crédito e risco fiscal`: `divida-consolidada`.
+- `Receita Corrente Líquida: indicador de referência`: `fin-rcl-base`.
+- `Limites de pessoal: ente e Poder são escalas distintas`: `fin-alerta-prudencial` (**rever se os percentuais de alerta e prudencial estão suficientemente desenvolvidos**).
+- `Relatório Resumido e Relatório de Gestão: funções distintas`: `fin-rreo-rgf`.
+- `Contingenciamento e recomposição`: `fin-lrf-contingenciamento`.
+- **Pendentes prioritários:** `fin-pessoal-reconducao` (recondução após ultrapassar limite máximo) e `fin-final-mandato-caixa` (LRF, art. 42). A leitura textual do derivado não identificou tratamento explícito desses tópicos pelo nome; conferir conteúdo e edital antes de decidir entre complementar o capítulo CGU, manter a referência transversal histórica ou reservar estudo específico.
+
+**Balanço das duas rodadas do teste de migração (sem edição de dados):** 91 cartões CGU vinculados a oito legados; **78 com heading destino proposto no derivado que exigem validação de conteúdo** (35 do primeiro lote e 43 novos deste lote), **12 pendentes de decisão editorial de cobertura ou duplicidade de concursos**, e **1 seção já literalmente idêntica** no derivado. Assim, todos os 90 cartões cujo heading divergia foram pelo menos classificados: 78 destinos candidatos para conferência e 12 casos não resolvidos. Esses números são **plano de ação, não 78 cartões migrados**. Os quatro cartões com `examIds` CGU + Câmara e os cartões exclusivos Câmara devem manter destino histórico até deliberação coordenada; não editar globalmente `card.note.articleId` nem `card.note.section` em lote cego.
+
+**Encaminhamento:** coordenação na issue #371. A frente CGU deve certificar os seis derivados ainda pendentes, principalmente as diferenças conceituais explicitadas, antes da mudança conjunta de flashcards, catálogo, plano, glossário, CI e Pages. Os 19 blobs Câmara seguem preservados, com 10 certificações históricas integrais e 9 com ressalva visual. Nenhum EPUB gerado.

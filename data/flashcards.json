@@ -12639,6 +12639,80 @@
       "status": "validated",
       "reviewedAt": "2026-11-16",
       "revision": 1
+    },
+    {
+      "id": "orc-deducao-vs-restituicao",
+      "term": "Dedução da receita × restituição",
+      "definition": "Restituição é devolver um valor recebido a maior ou indevidamente. Dedução é o registro redutor da receita orçamentária, em regra usado para contabilizar essa devolução, salvo exceção legal ou tratamento específico.",
+      "example": "Receita bruta de R$ 10 mil, restituição de R$ 2 mil sujeita a dedução: receita líquida de R$ 8 mil.",
+      "confusion": "Nem toda devolução deve ser registrada como despesa do orçamento. O MCASP prevê dedução como procedimento padrão, com exceções.",
+      "contrast": {
+        "prompt": "Se o ente devolve R$ 2 mil arrecadados indevidamente, deve necessariamente abrir despesa orçamentária de R$ 2 mil?",
+        "answer": "Não. Em regra, restituição sujeita a dedução reduz a receita arrecadada; há hipóteses específicas em que o registro é como despesa."
+      },
+      "conceptIds": [
+        "deducao-receita-vs-restituicao"
+      ],
+      "topic": "Receita orçamentária: deduções e correções",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026",
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2.3"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Deduções da receita: devolução e valores de outros entes"
+      },
+      "source": {
+        "title": "MCASP 11ª edição, Parte I, seção 3.6.1",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Seção 3.6.1, Deduções da Receita Orçamentária"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "orc-retificacao-vs-estorno",
+      "term": "Retificação × estorno de receita",
+      "definition": "Quando dados incorretos informados pelo contribuinte causam classificação errada, a retificação usa dedução e novo registro. Quando o erro foi de escrituração do próprio ente, faz-se estorno e novo lançamento correto.",
+      "example": "Contribuinte informa natureza incorreta: deduzir e registrar certo. Contribuinte informa certo, mas órgão lança na conta errada: estornar e registrar certo.",
+      "confusion": "A origem do erro decide o procedimento; corrigir classificação não significa necessariamente devolver dinheiro.",
+      "contrast": {
+        "prompt": "O contribuinte entregou os dados corretos, mas o órgão registrou a receita em conta errada. Trata-se de retificação por erro do contribuinte?",
+        "answer": "Não. É erro da escrituração do ente: estorno e novo lançamento correto, conforme MCASP 11ª edição."
+      },
+      "conceptIds": [
+        "retificacao-vs-estorno-receita"
+      ],
+      "topic": "Receita orçamentária: deduções e correções",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026",
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2.3"
+      ],
+      "note": {
+        "articleId": "art-4677cfa327ce43bb",
+        "section": "Deduções da receita: devolução e valores de outros entes"
+      },
+      "source": {
+        "title": "MCASP 11ª edição, Parte I, seção 3.6.1",
+        "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1",
+        "locator": "Seção 3.6.1, Deduções da Receita Orçamentária"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
     }
   ]
 }

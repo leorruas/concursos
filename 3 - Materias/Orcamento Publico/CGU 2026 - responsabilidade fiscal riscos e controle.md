@@ -54,6 +54,22 @@ A LRF diferencia limites por **ente federativo** e distribuição por **Poder ou
 
 **Caso:** o Executivo informa percentual global aparentemente compatível com limite do ente, mas o demonstrativo não detalha as parcelas de cada Poder. A equipe deve obter o cálculo específico antes de afirmar cumprimento. O mesmo vale para despesas terceirizadas que, conforme critérios legais, possam integrar os parâmetros de despesa com pessoal.
 
+## Gatilhos fiscais e obrigações continuadas
+
+Na fiscalização de despesa com pessoal, **alerta, limite prudencial e limite máximo** correspondem a patamares diferentes, relacionados ao **limite próprio** do Poder ou órgão, e não diretamente à totalidade da Receita Corrente Líquida do ente. O art. 59, § 1º, da LRF prevê a atuação de alerta dos Tribunais de Contas quando a despesa total com pessoal ultrapassa **90% do limite aplicável**. O art. 22, parágrafo único, estabelece restrições específicas quando se ultrapassa **95%**, chamado patamar prudencial. O **máximo de 100%** do limite aciona providências de recondução, nos termos do art. 23 e das ressalvas legais. Não confundir o percentual de um gatilho com 90% ou 95% da própria RCL: os percentuais incidem **sobre o limite**, e os efeitos possuem exceções previstas em lei.
+
+**Recondução:** nos termos gerais do art. 23, o excesso acima do limite máximo de pessoal deve ser eliminado nos **dois quadrimestres seguintes**, com **ao menos um terço no primeiro**, observadas as hipóteses legais de suspensão/ajuste e as decisões judiciais aplicáveis. O início e os efeitos de prazos concretos requerem verificar o período de apuração e a redação vigente, sem tratar a extrapolação do prudencial como extrapolação automática do máximo.
+
+### Receita renunciada, despesa continuada e compromisso de fim de mandato
+
+**Renúncia de receita:** o art. 14 da LRF disciplina requisitos para conceder ou ampliar benefício tributário que reduza arrecadação, incluindo estimativa de impacto e demonstração de adequação às metas ou medidas de compensação quando exigidas; conferir também o art. 14-A e alterações legais vigentes para casos específicos. **Despesa obrigatória de caráter continuado:** segundo o art. 17, é despesa **corrente** derivada de lei, medida provisória ou ato normativo que impõe obrigação por **mais de dois exercícios**, com condições para sua criação; a duração de uma obra não a converte automaticamente nessa categoria.
+
+**Dívida consolidada ou fundada** designa, no regime da LRF, conjunto de obrigações financeiras assumidas conforme os critérios do art. 29 e a regulamentação pertinente. É distinta do resultado primário de um exercício e requer verificar prazo, instrumento, ente e exclusões/adições normativas antes de apurar limites.
+
+**Final de mandato:** o art. 42 da LRF restringe, nos **últimos dois quadrimestres do mandato**, a contração de obrigação que não possa ser cumprida integralmente no próprio mandato ou cujas parcelas a pagar no exercício seguinte não tenham disponibilidade de caixa suficiente. Não se trata de proibição geral de todas as contratações ou restos a pagar no período. O auditor precisa verificar data da obrigação, parcelas, obrigações já compromissadas, disponibilidade de caixa, natureza dos recursos e eventuais situações excepcionais legalmente previstas.
+
+**Exemplo:** uma administração assume obrigação de pagamento em dezembro de seu último ano de mandato, com parcela exigível em fevereiro seguinte. A equipe examina a disponibilidade financeira que sustenta essa parcela conforme o art. 42; o simples fato de haver dotação não satisfaz, por si, o critério de caixa.
+
 ## Relatório Resumido e Relatório de Gestão: funções distintas
 
 O **Relatório Resumido da Execução Orçamentária (RREO)** permite acompanhar a execução orçamentária e fiscal com periodicidade **bimestral**, conforme Constituição, art. 165, § 3º, e LRF, arts. 52 e 53.

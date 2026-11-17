@@ -248,3 +248,11 @@ A integração anteriormente bloqueada na issue [#362](https://github.com/leorru
 ### Gate de regressão do lote de 55 itens
 
 Esta revisão solicita nova execução de **`Validar site público (PR)`** com a versão posterior aos commits dos três capítulos jurídicos. Gate a registrar após execução: `run_id`, conclusão, SHA exato do HEAD e etapas de identidade, catálogo por concurso, navegação, build, privacidade, flashcards e busca. A verificação do Pages ao vivo continua uma etapa separada do CI do PR, conforme contrato de publicação. Não encerrar a certificação por inferência de um teste isolado.
+
+## CI de regressão posterior ao lote de 55 itens: sucesso em 17/11/2026
+
+**Comprovação do teste do conjunto atualizado:** o PR [#364](https://github.com/leorruas/concursos/pull/364), branch `audit/cgu-orcamento-55-itens-ci`, HEAD `f7968683c6f64447d93d9ebaccbaa9d3712b13f0`, disparou `Validar site público (PR)`, execução [44171386222](https://github.com/leorruas/concursos/actions/runs/44171386222), concluída com **`success`**. Passaram os testes de flashcards, identidades de artigos, invariantes do vault, catálogo e filtros por concurso, montagem de `_site`, privacidade, glossário, busca e rotas. O PR foi integrado por squash ao `main` em `e7377012ce60777c4468650afcdf9b8519f233c3`. Esse CI considera os conteúdos atualizados que já estavam na base do PR, incluindo as 55 questões dos cinco artigos CGU.
+
+**Escopo do sucesso:** build e testes funcionais da branch/PR. **Não** é evidência do workflow `Publicar no GitHub Pages` do merge, nem confirmação de que o `manifest.json` ao vivo corresponda ao último HEAD. A certificação jurídica editorial continua 0/5, porque a segunda leitura integral e o gate Pages ainda carecem de provas. A verificação estática dos 55 itens e os cotejos normativos focais foram registrados acima. A issue #362 permanece responsável pelo acompanhamento técnico residual.
+
+**Próximo fechamento recomendado:** conferir execução de Pages do commit mais recente que modificou `3 - Materias`, comparar o manifesto ao vivo e validar cada artigo por ID/SHA; registrar apenas então a certificação editorial com eventual ressalva visual.

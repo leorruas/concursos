@@ -56,6 +56,26 @@ A Lei nº 4.320/1964, art. 11, distingue **receitas correntes** e **receitas de 
 
 Na doutrina, **receitas originárias** resultam, em termos gerais, da atuação patrimonial ou empresarial do Estado; **derivadas** decorrem da imposição estatal, como tributos. Essas categorias **não** substituem as categorias econômicas da codificação orçamentária. Um imposto é derivado e corrente; um aluguel de bem público pode ser originário e corrente. A natureza jurídica do ingresso e a categoria econômica respondem a perguntas diferentes.
 
+## Vocabulário das origens e operações intraorçamentárias
+
+Além de impostos, a classificação por natureza da receita permite reconhecer **contribuições**, **receitas patrimoniais**, **agropecuárias**, **industriais**, **de serviços**, **transferências correntes**, **operações de crédito**, **alienações de bens**, **amortização de empréstimos concedidos** e **transferências de capital**, entre outras origens e espécies previstas nos códigos oficiais. É preciso identificar o fato que gerou o ingresso e conferir seu código no MTO do exercício: a denominação simplificada não substitui a tabela vigente.
+
+| Operação | Critério e exemplo |
+| :--- | :--- |
+| Contribuição | Ingresso corrente de contribuições sociais, de intervenção no domínio econômico ou de outras espécies classificadas oficialmente; **contribuição de melhoria** integra a origem de impostos, taxas e contribuições de melhoria, e não se confunde automaticamente com as demais contribuições |
+| Receita agropecuária | Exploração direta de atividades agropecuárias pelo ente; não se confunde com a arrecadação de tributo incidente sobre produtor privado |
+| Receita industrial | Resultado de atividade industrial efetivamente desempenhada pelo ente, conforme a codificação; não é sinônimo de qualquer tributo cobrado de indústria |
+| Receita de serviços | Ingresso por prestação remunerada de serviços; preço público e taxa tributária exigem distinção jurídica própria |
+| Transferência corrente | Ingresso destinado ao financiamento de despesas correntes, conforme os critérios de classificação |
+| Transferência de capital | Ingresso destinado ao financiamento de despesas de capital, observado o regime da operação |
+| Operação de crédito | Empréstimo comum contratado: receita orçamentária de capital, em regra; distinguir da antecipação de receita orçamentária (ARO), extraorçamentária na entrada |
+| Alienação de bens | Venda de bem público: receita de capital por conversão patrimonial; examinar restrições de aplicação |
+| Amortização de empréstimo concedido | Retorno do principal de crédito antes concedido pelo ente: receita de capital; não confundir com pagamento do principal da dívida **do próprio ente**, que é despesa |
+
+**Receita intraorçamentária** decorre de operação entre órgãos ou entidades integrantes dos orçamentos fiscal e da seguridade social de um **mesmo ente**, conforme a classificação aplicável. Sua identificação contribui para evitar dupla contagem das operações internas na consolidação. **Intraorçamentária continua sendo orçamentária**; é distinta de **extraorçamentária**, categoria de ingresso compensatório ou temporário que não constitui receita do orçamento.
+
+Por exemplo, se uma entidade dos orçamentos fiscal e da seguridade social remunera outra do mesmo ente por um serviço, a entrada pode receber tratamento de receita intraorçamentária conforme as normas. Isso não equivale à arrecadação nova do conjunto consolidado e não deve ser confundido com depósito de caução, que é ingresso extraorçamentário em regra. Para classificação concreta, aplicar as tabelas e o MCASP 11ª edição, e não apenas a palavra utilizada na descrição do pagamento.
+
 ## Fonte/destinação: por que dois impostos não são necessariamente intercambiáveis
 
 A **fonte/destinação de recursos** associa a origem de recursos à disciplina legal de aplicação. Há receitas com destinação vinculada e receitas submetidas a regras de utilização distintas. A identificação correta é indispensável para conferir se uma despesa pode utilizar determinado recurso.

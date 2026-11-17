@@ -140,6 +140,14 @@ Nas questões de **Certo ou Errado (C/E)**, uma afirmação pode começar com um
 
 **Gabarito: Errado.** A **alteração da programação** está no art. 44, § 7º, e exige proposta formal do parlamentar solicitante da emenda aprovada. A **alteração da indicação** está no art. 45-A, §§ 3º e 4º: o presidente da comissão encaminha o ajuste no modelo previsto e a deliberação depende de proposta formal do parlamentar solicitante da indicação que será modificada. A identidade do **objeto alterado**, do **solicitante** e do **procedimento** muda a resposta.
 
+**6.** Emenda de remanejamento apresentada por comissão pode cancelar dotação de qualquer órgão e reforçar a de outro, desde que os valores sejam iguais e a fonte de recursos seja compatível.
+
+**Gabarito: Errado.** O **art. 45 da Resolução nº 1/2006-CN** exige que acréscimos e cancelamentos em emenda de remanejamento sejam realizados **dentro do mesmo órgão orçamentário**, além de respeitar a compatibilidade das fontes. A igualdade entre R$ 5 milhões anulados e R$ 5 milhões acrescidos não basta para permitir a operação entre órgãos diferentes.
+
+**7.** A exigência de destinar pelo menos 50% dos recursos das emendas de comissão à saúde significa que metade das emendas apresentadas pela comissão deve ter obrigatoriamente o mesmo valor e ser destinada à saúde.
+
+**Gabarito: Errado.** O art. 4º, § 4º, da **Lei Complementar nº 210/2024** estabelece **percentual mínimo de recursos**, não proporção de quantidade de emendas nem igualdade entre seus valores. Por exemplo, seis emendas podem ter valores diferentes: é a soma dos recursos destinados à saúde, nas condições legais, que precisa atender ao mínimo.
+
 ### Caso progressivo complementar: prazo legal versus orientação de exercício
 
 Uma comissão recebe, após a publicação da LOA, propostas de indicação de beneficiários. **Primeiro passo:** examinar o art. 5º da LC nº 210/2024, que prevê deliberação em até **15 dias**. **Segundo passo:** uma vez aprovadas as indicações, o presidente da comissão tem **5 dias** para fazer constar da ata, publicar e encaminhar aos órgãos executores. **Terceiro passo:** a execução depende ainda de critérios técnicos, orçamento e trâmites próprios; a ata não equivale a empenho ou pagamento.

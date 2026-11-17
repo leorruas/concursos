@@ -45,5 +45,26 @@
   return rows.sort((a,b)=>b.score-a.score||a.kind.localeCompare(b.kind)||
    String(a.articleId||a.conceptId).localeCompare(String(b.articleId||b.conceptId)));
  }
- root.ResultsStudyPlan={catalogCoverage,reviewQueue};
+ function studySequence(queue,coverage,limit=7){
+  const max=Math.min(14,Math.max(1,Math.trunc(limit)||7));
+  const selected=[],seen=new Set(),items=(queue||[]).map(x=>({...x,kind:'review'}));
+  // Ausência de tentativas exige diagnóstico, não pressupõe desconhecimento.
+  for(const c of coverage||[]){
+   if(c.status==='nao-avaliada')items.push({kind:'diagnostic',subjectId:c.subjectId,
+    label:c.label,articleId:c.hubArticleId,reason:'Matéria ainda não avaliada',
+    score:15});
+  }
+  let previous='';
+  while(selected.length<max&&items.length){
+   let index=items.findIndex(x=>x.subjectId!==previous&&
+    !seen.has(x.kind+'::'+(x.articleId||x.conceptId||x.subjectId)));
+   if(index<0)index=items.findIndex(x=>!seen.has(x.kind+'::'+(x.articleId||x.conceptId||x.subjectId)));
+   if(index<0)break;
+   const item=items.splice(index,1)[0];
+   const id=item.kind+'::'+(item.articleId||item.conceptId||item.subjectId);
+   seen.add(id);selected.push(item);previous=item.subjectId;
+  }
+  return selected.map((x,i)=>({...x,order:i+1}));
+ }
+ root.ResultsStudyPlan={catalogCoverage,reviewQueue,studySequence};
 })(typeof window!=='undefined'?window:globalThis);

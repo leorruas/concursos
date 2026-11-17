@@ -5,7 +5,7 @@ title: "Classificação da despesa: esfera, função, programa e natureza"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-07
+updated: 2026-11-16
 aliases:
   - "Classificação institucional da despesa"
   - "Classificação funcional da despesa"
@@ -201,6 +201,8 @@ Se os recursos recebidos forem destinados **à construção de um equipamento p�
 
 **Regra de prova:** antes de classificar, identifique **quem é o ente** e se a questão observa a **despesa de quem transfere** ou a **receita de quem recebe**. Essa troca de ponto de vista permite um distrator com nomes tecnicamente verdadeiros, mas usados na categoria errada.
 
+**Exemplo numérico: mesma ação, dois GNDs.** Uma ação de modernização de biblioteca tem dotação total de **R$ 250 mil**, distribuída entre **R$ 200 mil** para computadores permanentes (em regra, GND 4: Investimentos) e **R$ 50 mil** para treinamento contratado (em regra, GND 3: Outras Despesas Correntes). Os valores totalizam os mesmos **R$ 250 mil** da ação, mas não pertencem ao mesmo grupo de natureza. Alterar a fonte que financia os computadores, respeitadas as normas de aplicação, tampouco altera por si só a função, o programa ou o GND. Na execução concreta, conferir o elemento adequado e a versão vigente das tabelas, sem deduzi-lo apenas do nome da ação.
+
 ### Dimensões física e financeira da programação
 
 **Meta física** indica quantidade de entregas programadas. **Dotação financeira** identifica valor autorizado segundo a programação. Se foram previstos 500 atendimentos e entregues 350, o resultado deve ser examinado com dados físicos e financeiros, além do contexto de implementação.
@@ -225,5 +227,5 @@ Itens inéditos para aprendizagem, sem equivalência afirmada com provas reais.
 
 - [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Mapa transversal de classificações]]; [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|Esferas da LOA e estatais]].
 - [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Estágios da despesa]] e [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação financeira]].
-- [MTO 2027, 3ª versão (07/07/2026), capítulo 4, classificação da despesa](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027); [Lei nº 4.320/1964, art. 12](https://legis.senado.leg.br/norma/546169/publicacao/34620275); [MCASP 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1).
+- [MTO 2026, 4ª versão, classificação da despesa](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto_2026_-_versao_4_.pdf); [MTO 2027, 3ª versão (07/07/2026), capítulo 4, classificação da despesa](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027); [Lei nº 4.320/1964, art. 12](https://legis.senado.leg.br/norma/546169/publicacao/34620275); [MCASP 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1).
 

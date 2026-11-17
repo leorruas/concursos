@@ -1768,6 +1768,431 @@
         "camara-2026"
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-modalidade-criterio",
+      "term": "Modalidade de licitação × critério de julgamento",
+      "aliases": [],
+      "definition": "Modalidade é a espécie de procedimento licitatório do art. 28 da Lei nº 14.133/2021; critério de julgamento é a forma de comparar propostas e identificar vencedora, conforme art. 33.",
+      "contrast": "Pregão e concorrência são modalidades; menor preço, maior desconto e maior retorno econômico são critérios, sem correspondência universal de um para um.",
+      "cebraspeTrap": "Afirmar que menor preço é uma modalidade ou que pregão é critério de seleção da melhor proposta.",
+      "example": "Em uma compra padronizada, a Administração pode usar pregão como modalidade e menor preço como critério.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-dispensa-inexigibilidade",
+      "term": "Dispensa × inexigibilidade de licitação",
+      "aliases": [],
+      "definition": "Inexigibilidade é contratação direta fundada em inviabilidade de competição, segundo o art. 74; dispensa é contratação direta autorizada por hipótese legal, como as previstas no art. 75, mesmo havendo competição possível em abstrato.",
+      "contrast": "Ambas exigem processo formal e fundamentação do art. 72; nenhuma se torna uma modalidade de licitação e não basta chamar o objeto de singular.",
+      "cebraspeTrap": "Afirmar que dispensa exige inviabilidade de competição ou que contratação direta dispensa justificativa de preço.",
+      "example": "Um fornecedor comprovadamente exclusivo pode fundamentar inexigibilidade; compra abaixo do limite legal pode enquadrar-se em dispensa.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-adjudicacao-homologacao",
+      "term": "Adjudicação × homologação na Lei nº 14.133/2021",
+      "aliases": [],
+      "definition": "Homologação é a sétima e última fase expressa do art. 17; adjudicação é providência de encerramento atribuída à autoridade superior pelo art. 71, IV, para vincular o objeto ao vencedor.",
+      "contrast": "Adjudicação não é uma oitava fase posterior à homologação. A autoridade superior também pode determinar saneamento, revogar ou anular nas condições legais.",
+      "cebraspeTrap": "Afirmar que o art. 17 enumera oito fases e encerra com adjudicação, após homologar.",
+      "example": "Exauridos recursos, a autoridade pode adjudicar objeto e homologar licitação nos termos do art. 71.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-pregao-concorrencia",
+      "term": "Pregão × concorrência e serviços de engenharia",
+      "aliases": [],
+      "definition": "Pregão seleciona bens e serviços comuns com especificações usuais de mercado, pelos critérios menor preço ou maior desconto. Concorrência alcança bens e serviços especiais e obras ou serviços de engenharia na forma legal.",
+      "contrast": "O art. 29, parágrafo único, afasta pregão para serviços técnicos predominantemente intelectuais e obras e serviços de engenharia, ressalvados serviços comuns de engenharia.",
+      "cebraspeTrap": "Afirmar que toda engenharia usa concorrência ou que qualquer serviço complexo de publicidade pode ir a pregão.",
+      "example": "Compra de computador comum admite pregão; obra especial pode seguir concorrência; serviço comum de engenharia exige analisar exceção.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-dialogo-competitivo",
+      "term": "Diálogo competitivo da Lei nº 14.133/2021",
+      "aliases": [],
+      "definition": "Modalidade do art. 28 e art. 32 destinada a situações legalmente caracterizadas de inovação, necessidade de adaptação de soluções ou dificuldade de especificação técnica precisa, com diálogo e fase competitiva posterior.",
+      "contrast": "Não pode ser utilizada apenas porque a Administração deseja negociar preços ou conversar com fornecedores; demanda requisitos, publicidade e comissão previstos em lei.",
+      "cebraspeTrap": "Afirmar que é livre escolha da Administração para qualquer serviço tecnologicamente complexo.",
+      "example": "Órgão precisa desenvolver alternativas para objeto que não consegue especificar suficientemente, observadas hipóteses do art. 32.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-inversao-habilitacao",
+      "term": "Inversão da habilitação no art. 17",
+      "aliases": [],
+      "definition": "No procedimento licitatório da Lei nº 14.133/2021, a habilitação sucede o julgamento como regra; pode anteceder propostas e julgamento se ato motivado explicitar benefícios e o edital prever expressamente a inversão.",
+      "contrast": "A sequência invertida exige pressupostos do art. 17, § 1º; não equivale ao regime antigo de habilitação obrigatoriamente anterior ao julgamento.",
+      "cebraspeTrap": "Afirmar que habilitação é sempre a primeira fase ou que a autoridade a inverte sem motivo e sem edital.",
+      "example": "Edital justificadamente prevê comprovar habilitação antes de apresentação das propostas, após ato motivado.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-etp-termo-referencia",
+      "term": "Estudo Técnico Preliminar (ETP) × Termo de Referência (TR)",
+      "aliases": [],
+      "definition": "ETP fundamenta necessidade, alternativas e viabilidade técnica e econômica da solução no planejamento; TR especifica parâmetros necessários à contratação de bens ou serviços, como objeto, execução, gestão e critérios de pagamento.",
+      "contrast": "Identificar a demanda não é descrever critérios de execução e recebimento; o art. 18 e o art. 6º estabelecem requisitos e hipóteses de documentação cabível.",
+      "cebraspeTrap": "Afirmar que ETP e TR são documentos intercambiáveis ou que ambos apenas escolhem previamente o fornecedor.",
+      "example": "ETP compara comprar software e adaptar plataforma; TR descreve resultados, aceitação e medições de serviço selecionado.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-publicidade-inexigibilidade",
+      "term": "Vedação de inexigibilidade para publicidade e divulgação no art. 74, III",
+      "aliases": [],
+      "definition": "O art. 74, III, da Lei nº 14.133/2021 veda aplicar a inexigibilidade desse inciso aos serviços de publicidade e divulgação, mesmo que se alegue notória especialização em serviço intelectual.",
+      "contrast": "A vedação da hipótese específica não proíbe toda contratação de publicidade; a Lei nº 12.232/2010 disciplina licitações próprias de agências de propaganda nas condições legais.",
+      "cebraspeTrap": "Afirmar que campanha criativa ou agência premiada dispensa competição pelo art. 74, III.",
+      "example": "Órgão precisa contratar campanha pública e não pode usar notória especialização como autorização automática de inexigibilidade.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-limites-dispensa-2026",
+      "term": "Dispensa de licitação por valor em 2026",
+      "aliases": [],
+      "definition": "Pelo Decreto nº 12.807/2025, desde 1º/01/2026, o art. 75, I, exige valor inferior a R$ 130.984,20 para engenharia e manutenção de veículos; o inciso II exige inferior a R$ 65.492,11 para outras compras e serviços.",
+      "contrast": "Além de valor inferior ao teto, observam-se somatórios por unidade gestora, exercício e ramo de atividade no § 1º, e instrução do art. 72. Os valores mudam anualmente.",
+      "cebraspeTrap": "Afirmar que qualquer compra isolada abaixo do teto permite dispensa sem somar despesas do mesmo ramo.",
+      "example": "Compra de serviço comum por R$ 40 mil pode ser examinada sob o inciso II em 2026, após verificar gastos acumulados e preço.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Portal de Compras, valores 2026, Decreto nº 12.807/2025",
+          "url": "https://www.gov.br/compras/pt-br/acesso-a-informacao/comunicados/2025/no-47-25-decreto-altera-valores-da-lei-14-133-para-compras-publicas"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-processo-contratacao-direta",
+      "term": "Instrução da contratação direta no art. 72",
+      "aliases": [],
+      "definition": "Contratação direta precisa de processo com formalização da demanda e documentos preparatórios cabíveis, estimativa, pareceres quando pertinentes, compatibilidade orçamentária, habilitação mínima, razão da escolha, justificativa de preço e autorização.",
+      "contrast": "Dispensa ou inexigibilidade afastam a licitação, não a necessidade de processo regular ou a publicidade dos atos nos dispositivos aplicáveis.",
+      "cebraspeTrap": "Afirmar que o gestor escolhe verbalmente o fornecedor e dispensa justificar preço quando a competição é inviável.",
+      "example": "Na aquisição por fornecedor exclusivo, órgão documenta exclusividade, preço, habilitação e autorização competente.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-pncp-eficacia",
+      "term": "PNCP e eficácia dos contratos no art. 94",
+      "aliases": [],
+      "definition": "A divulgação do contrato e aditamentos no Portal Nacional de Contratações Públicas é condição de eficácia, em regra até 20 dias úteis da assinatura após licitação e 10 dias úteis após contratação direta.",
+      "contrast": "Nos contratos urgentes, a eficácia se inicia na assinatura, mas a publicação no prazo continua exigida sob pena de nulidade, conforme art. 94, § 1º.",
+      "cebraspeTrap": "Afirmar que a assinatura elimina a necessidade de publicação no PNCP ou que todos os contratos têm prazo de 20 dias.",
+      "example": "Contrato de compra após dispensa é divulgado no PNCP em até dez dias úteis da assinatura, segundo a regra aplicável.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-fiscal-recebimento",
+      "term": "Fiscalização e recebimento provisório × definitivo do contrato",
+      "aliases": [],
+      "definition": "O art. 117 impõe acompanhamento por fiscais designados que registram ocorrências e encaminham decisões fora da competência; o art. 140 distingue recebimento provisório de definitivo do objeto, conforme espécie contratual.",
+      "contrast": "Auxílio de empresa externa não substitui fiscal público. Recebimento provisório não prova automaticamente conformidade final nem extingue obrigações de correção.",
+      "cebraspeTrap": "Afirmar que o próprio fornecedor pode assumir fiscalização pública exclusiva ou que aceite provisório equivale ao definitivo.",
+      "example": "Fiscal registra falha em teste de acessibilidade e exige correção antes de recebimento definitivo nos termos do contrato.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-alteracoes-25-50",
+      "term": "Alterações unilaterais de 25% e 50% nos contratos",
+      "aliases": [],
+      "definition": "O art. 125 da Lei nº 14.133/2021 obriga o contratado a aceitar acréscimos e supressões unilaterais de até 25% do valor inicial atualizado, e acréscimos de até 50% em reforma de edifício ou equipamento.",
+      "contrast": "Os 50% valem apenas para acréscimos nas reformas indicadas, não para supressão geral; art. 126 veda transfigurar o objeto, ainda que o percentual seja baixo.",
+      "cebraspeTrap": "Afirmar que qualquer compra pode receber adição unilateral de 50% ou que percentual autoriza trocar inteiramente o objeto.",
+      "example": "Reforma de edifício pode ter acréscimo unilateral de 40%, observado objeto, justificativa e equilíbrio; supressão unilateral não tem esse teto de 50%.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-impedimento-inidoneidade",
+      "term": "Impedimento de licitar × declaração de inidoneidade",
+      "aliases": [],
+      "definition": "O art. 156 prevê impedimento de licitar e contratar por até três anos no ente federativo sancionador para infrações dos incisos II a VII do art. 155 quando não couber punição mais grave; inidoneidade de três a seis anos alcança todos os entes.",
+      "contrast": "Não confundir alcance territorial e duração: impedimento restringe-se ao ente que aplicou a sanção; inidoneidade alcança Administração direta e indireta de todos os entes.",
+      "cebraspeTrap": "Afirmar que as duas sanções alcançam obrigatoriamente toda a federação pelo mesmo prazo.",
+      "example": "Fornecedor atrasou entrega sem justificativa e pode sofrer impedimento após processo; fraude documental pode justificar inidoneidade.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-recurso-sancao-prazos",
+      "term": "Prazos recursais de licitação e sanções na Lei nº 14.133/2021",
+      "aliases": [],
+      "definition": "Recurso contra julgamento ou habilitação no art. 165 tem em regra três dias úteis, enquanto recurso contra advertência, multa ou impedimento no art. 166 e reconsideração de inidoneidade no art. 167 têm quinze dias úteis.",
+      "contrast": "A intenção de recorrer em julgamento e habilitação tem regras próprias; os prazos de 15 dias para sanção não devem ser confundidos com impugnação do edital, art. 164.",
+      "cebraspeTrap": "Afirmar que o recurso de sanção de multa tem sempre três dias úteis por ser licitação.",
+      "example": "Fornecedor punido com multa dispõe de quinze dias úteis para recorrer, diferentemente do recurso do julgamento do certame.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-proposta-inexequivel-engenharia",
+      "term": "Inexequibilidade de proposta e garantia adicional em engenharia",
+      "aliases": [],
+      "definition": "Nos arts. 59, §§ 4º e 5º, propostas de obras e serviços de engenharia inferiores a 75% do orçamento são consideradas inexequíveis; se vencedor ofertar abaixo de 85% deve apresentar garantia adicional correspondente à diferença.",
+      "contrast": "Os percentuais não são regra universal de compra comum; garantia adicional abaixo de 85% não transforma proposta inexequível abaixo de 75% em válida.",
+      "cebraspeTrap": "Afirmar que toda proposta de R$ 74 mil para obra orçada em R$ 100 mil é validada apenas com garantia adicional.",
+      "example": "Obra orçada em R$ 100 mil: proposta de R$ 82 mil pode exigir garantia adicional; R$ 74 mil cai na regra de inexequibilidade.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, dispositivos relacionados",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da08-contrato-verbal-2026",
+      "term": "Contrato verbal e documento substitutivo no art. 95",
+      "aliases": [],
+      "definition": "A Lei nº 14.133/2021 exige instrumento contratual, com hipóteses legais de substituição por documento hábil, e admite contrato verbal excepcional para pequenas compras e serviços de pronto pagamento até R$ 13.098,41 em 2026.",
+      "contrast": "Documento substitutivo de contrato não é igual a contratação verbal; o art. 95, § 2º, fixa exceção, e valores são atualizados anualmente.",
+      "cebraspeTrap": "Afirmar que todo contrato verbal é válido se o preço for baixo, sem observar o objeto, a finalidade e o limite anual.",
+      "example": "Compra de pronto pagamento dentro do limite de 2026 pode ser verbal na exceção legal, distinta de compra formal por nota de empenho.",
+      "articleIds": [
+        "art-e3be4825ac4c455a"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Portal de Compras, valores 2026, Decreto nº 12.807/2025",
+          "url": "https://www.gov.br/compras/pt-br/acesso-a-informacao/comunicados/2025/no-47-25-decreto-altera-valores-da-lei-14-133-para-compras-publicas"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

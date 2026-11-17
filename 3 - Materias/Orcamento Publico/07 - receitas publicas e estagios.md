@@ -16,7 +16,7 @@ aliases:
 
 ## Núcleo do conceito
 
-Uma prefeitura recebe R$ 800 mil de impostos, R$ 100 mil de caução contratual e R$ 300 mil provenientes de empréstimo para obra pública. Houve entrada financeira em todos os casos, mas **nem toda entrada é receita orçamentária**. A arrecadação de impostos é receita corrente, a caução é normalmente ingresso extraorçamentário e o empréstimo regular é receita orçamentária de capital.
+Imagine que uma prefeitura receba **R$ 800 mil em impostos**, **R$ 100 mil como caução contratual** e **R$ 300 mil de um empréstimo comum para uma obra pública**. Entraram **R$ 1,2 milhão no caixa**. Desse total, **R$ 1,1 milhão são receitas orçamentárias**: os impostos (receita corrente) e o empréstimo comum (receita de capital). Os **R$ 100 mil de caução** são, em regra, ingresso extraorçamentário, pois servem como garantia e podem precisar ser devolvidos. O valor em caixa, portanto, não equivale necessariamente à receita realizada no orçamento.
 
 **Impostos** são valores exigidos por lei de contribuintes; **caução contratual** é uma garantia em dinheiro que pode ter de ser devolvida; **empréstimo comum** traz recursos que o ente deverá pagar depois. As diferenças entre transferência corrente ou de capital, operação de crédito, alienação de bens (venda de patrimônio), amortização de empréstimos (recebimento do principal de empréstimo concedido) e receita patrimonial (como aluguel) estão na [[3 - Materias/Orcamento Publico/04a - classificacao da receita|classificação da receita]]. Esta nota explica o que acontece desde a estimativa até a entrada do dinheiro no Tesouro.
 
@@ -46,13 +46,13 @@ A **Lei nº 4.320/1964, art. 57**, admite **receita orçamentária arrecadada ai
 
 **Por que a diferença importa?** Na operação comum, o empréstimo financia despesas e integra a execução da receita orçamentária. Na ARO, o ente **antecipa disponibilidade de caixa**, com obrigação de devolver o dinheiro no mesmo exercício. A devolução do principal da ARO constitui, no tratamento do MCASP, **desembolso extraorçamentário**. A autorização para contratar uma ARO pode constar da **Lei Orçamentária Anual (LOA)** (Lei nº 4.320/1964, art. 7º, II), mas **autorizar a operação na LOA não transforma seu ingresso em receita orçamentária**. São questões distintas.
 
-**Regras específicas da ARO (LRF, art. 38):** a contratação só pode ocorrer **a partir do 10º dia do início do exercício**; a operação deve ser liquidada, **com juros e outros encargos, até 10 de dezembro** do mesmo ano; é proibida enquanto houver ARO anterior da mesma natureza não integralmente quitada e **no último ano de mandato** do Presidente, Governador ou Prefeito. A contratação também depende das demais condições legais aplicáveis, inclusive das exigências do art. 32 da LRF.
+**Regras específicas da ARO:** o **art. 38 da Lei de Responsabilidade Fiscal (LRF)** estabelece condições para esse empréstimo temporário. Ele só pode ser contratado **a partir do décimo dia do início do exercício financeiro** e deve ser **integralmente quitado, com juros e demais encargos, até 10 de dezembro do mesmo ano**. É proibido contratar nova ARO enquanto houver outra operação anterior dessa natureza ainda não quitada. Também é proibida a ARO **no último ano de mandato** do Presidente, Governador ou Prefeito. A operação continua sujeita às demais exigências legais, inclusive as de contratação e controle de operações de crédito. Assim, a finalidade de cobrir falta temporária de caixa não permite ignorar prazo, competência ou proibições.
 
 **Tensões de prova:** a expressão *operação de crédito* não basta para concluir que todo empréstimo público gera receita de capital; a ARO é a exceção clássica. **A falta de previsão na LOA**, por si só, também não caracteriza ingresso extraorçamentário: uma receita orçamentária pode ser arrecadada sem previsão inicial (Lei nº 4.320/1964, art. 57). Para classificar, identifique se o enunciado descreve **financiamento público comum**, **cobertura temporária de caixa por ARO** ou **arrecadação da receita esperada**: são fatos diferentes.
 
 ### Receita efetiva × não efetiva: classificação patrimonial
 
-A distinção **efetiva/não efetiva** considera o impacto no patrimônio líquido, conforme os critérios do MCASP. Uma operação de crédito comum gera receita **orçamentária de capital**, mas normalmente não eleva o patrimônio líquido no reconhecimento do ingresso, pois cria obrigação de pagamento.
+A classificação patrimonial pergunta se o ingresso **aumenta o patrimônio líquido**, isto é, a diferença entre os bens e direitos do ente e suas obrigações, nas condições contábeis aplicáveis. Uma receita orçamentária **efetiva** aumenta esse patrimônio sem uma obrigação equivalente; uma **não efetiva** costuma decorrer de uma troca patrimonial que não o aumenta naquele momento. Ao receber **R$ 300 mil de empréstimo comum**, por exemplo, o município aumenta seu dinheiro em R$ 300 mil, mas também assume dívida de R$ 300 mil. Esse ingresso é **receita orçamentária de capital e, em regra, não efetiva**.
 
 Assim, **receita orçamentária** e **receita efetiva** pertencem a **dimensões diferentes**. Uma receita pode ser orçamentária e não efetiva. O exame patrimonial é desenvolvido em [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]].
 
@@ -83,7 +83,7 @@ As quatro etapas descrevem um percurso possível; uma **doação em dinheiro**, 
 
 ### Previsão: estimativa e planejamento
 
-A **previsão** é cálculo da receita esperada, com métodos e premissas, conforme a LRF, art. 12. É base para formular a LOA e ajustar a política fiscal. **Previsão não é crédito tributário individualizado nem dinheiro recebido.**
+A **previsão** é a estimativa do dinheiro que o governo espera arrecadar. As equipes responsáveis elaboram essa projeção usando informações sobre arrecadação anterior, mudanças na economia e normas aplicáveis. O **art. 12 da LRF** exige critérios técnicos na estimativa. A previsão ajuda a preparar a LOA e a planejar despesas, mas **não identifica, sozinha, a dívida de um contribuinte nem comprova recebimento**.
 
 Exemplo: arrecadação esperada de R$ 10 milhões, mas realizada em R$ 8 milhões. A previsão inicial permanece uma informação de planejamento; a arrecadação indica o ingresso efetivo. A diferença pode exigir análise fiscal nos termos do art. 9º da LRF, desenvolvido em [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|programação e contingenciamento]].
 
@@ -97,13 +97,13 @@ O lançamento **não ocorre para todas as receitas**. O MCASP cita situações c
 
 ### Arrecadação: recebimento
 
-Na **arrecadação**, o contribuinte ou devedor entrega o valor ao agente arrecadador habilitado. É o marco que integra a receita realizada no orçamento. Receber R$ 800 de tributo não é o mesmo que ter lançado crédito de R$ 800: crédito existente pode ainda não ter sido pago.
+Na **arrecadação**, o contribuinte paga o valor ao agente autorizado a recebê-lo, como uma instituição bancária arrecadadora. Esse recebimento é o marco da realização da receita no orçamento. Se a prefeitura lançou um crédito tributário de **R$ 800**, mas o cidadão pagou apenas **R$ 500**, a quantia arrecadada nesse exemplo é **R$ 500**, sem que os R$ 300 restantes possam ser tratados como recebidos.
 
 Não confundir com **recolhimento**, que organiza a entrega dos valores arrecadados à tesouraria. O desenvolvimento de sistemas eletrônicos pode aproximar os momentos sem eliminar a diferença conceitual.
 
 ### Recolhimento: unidade de caixa
 
-O **recolhimento** leva os valores arrecadados à unidade de tesouraria, observando o princípio da **unidade de caixa** previsto na Lei nº 4.320/1964, art. 56.
+No **recolhimento**, o agente arrecadador transfere os valores recebidos à tesouraria do ente público, segundo os procedimentos aplicáveis. O **art. 56 da Lei nº 4.320/1964** exige observar a **unidade de tesouraria**, princípio que organiza os recursos do ente sob controle de caixa unificado, sem permitir fragmentação em caixas especiais fora das regras legais. Arrecadação é o recebimento pelo agente; recolhimento é a entrega desse valor à tesouraria.
 
 Se o banco arrecada tributo e transfere o produto ao Tesouro, o primeiro ato identifica a **arrecadação** e o segundo o **recolhimento**. A existência de um agente arrecadador intermediário torna a diferença mais visível.
 
@@ -141,7 +141,7 @@ Para Cebraspe C/E, distinções de maior valor são: **arrecadação × recolhim
 
 ## Exemplos comentados
 
-**Caso 1:** a LOA prevê R$ 4 milhões em impostos; a administração lança R$ 3,5 milhões; entram efetivamente R$ 3 milhões. Os números se referem a **momentos e objetos distintos**. É incorreto informar R$ 3,5 milhões como arrecadação com base apenas no lançamento.
+**Caso 1:** a LOA prevê **R$ 4 milhões** em impostos; a administração lança **R$ 3,5 milhões** em créditos tributários sujeitos a esse procedimento; os contribuintes pagam **R$ 3 milhões**. A arrecadação desses créditos, no cenário simplificado, foi de R$ 3 milhões, e não de R$ 3,5 milhões. Os **R$ 500 mil ainda não pagos** não podem ser contados como receita arrecadada só porque existe lançamento. O saldo entre previsão e arrecadação, **R$ 1 milhão**, também não identifica automaticamente inadimplência: previsão e lançamento medem objetos diferentes.
 
 **Caso 2:** o ente recebe caução de R$ 100 mil em contrato. Existe entrada de caixa, mas também obrigação relacionada à caução; em regra, não é receita orçamentária disponível para livre despesa.
 
@@ -149,11 +149,11 @@ Para Cebraspe C/E, distinções de maior valor são: **arrecadação × recolhim
 
 ## Questões comentadas: treino didático C/E
 
-**Item 1.** A previsão de receita na LOA constitui, necessariamente, o crédito tributário e permite afirmar que o valor foi arrecadado. **Gabarito: Errado.** A previsão é estimativa; lançamento e arrecadação são operações distintas.
+**Item 1.** A previsão de receita na LOA constitui, necessariamente, o crédito tributário e permite afirmar que o valor foi arrecadado. **Gabarito: Errado.** A LOA estima quanto o governo espera arrecadar; a autoridade tributária realiza o lançamento nas hipóteses aplicáveis para constituir o crédito individualizado. Depois, é necessário haver pagamento ao agente arrecadador para que ocorra a arrecadação. O item erra ao transformar uma estimativa em cobrança individual e em dinheiro recebido.
 
-**Item 2.** Uma receita orçamentária não prevista formalmente pode ser arrecadada e registrada como tal, conforme a Lei nº 4.320/1964. **Gabarito: Certo.** O art. 57 e o MCASP admitem receita orçamentária não prevista.
+**Item 2.** Uma receita orçamentária não prevista formalmente pode ser arrecadada e registrada como tal, conforme a Lei nº 4.320/1964. **Gabarito: Certo.** O art. 57 da Lei nº 4.320/1964 inclui na receita orçamentária, em regra, as receitas arrecadadas, mesmo quando não previstas na LOA. Uma doação de dinheiro recebida inesperadamente pode ser receita orçamentária, conforme sua natureza jurídica, sem precisar ter sido estimada no orçamento inicial.
 
-**Item 3.** Operações de crédito comuns e antecipações de receita orçamentária (ARO) são ambas receitas orçamentárias de capital, por compartilharem natureza de empréstimo. **Gabarito: Errado.** A ARO é classificada como ingresso extraorçamentário, segundo exceção legal.
+**Item 3.** Operações de crédito comuns e antecipações de receita orçamentária (ARO) são ambas receitas orçamentárias de capital, por compartilharem natureza de empréstimo. **Gabarito: Errado.** O empréstimo comum, em regra, integra a receita orçamentária de capital. A ARO serve para resolver falta temporária de caixa e tem tratamento de ingresso extraorçamentário por exceção expressa do art. 3º, parágrafo único, da Lei nº 4.320/1964. O item parte de uma semelhança verdadeira, pois ambas são operações de crédito, e conclui de forma incorreta que têm igual tratamento orçamentário.
 
 Itens inéditos de aprendizagem; sua presença no artigo não registra resposta ou desempenho.
 

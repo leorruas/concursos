@@ -5,12 +5,18 @@
  * O filtro real de origem/validação permanece em select-camara-questions.js.
  */
 import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import { parseArgs } from 'node:util';
 import { pathToFileURL } from 'node:url';
 import { selectCamaraQuestions } from './select-camara-questions.js';
 
 const required = ['id', 'subjectId', 'unitId', 'examPart', 'editalRef',
   'conceptId', 'statement', 'correctAnswer', 'explanation'];
+
+export function bankVersion(bank) {
+  if (bank?.concursoId !== 'camara-2026' || bank?.cargo !== 1) throw new Error('Banco incompatível');
+  return 'sha256:' + createHash('sha256').update(JSON.stringify(bank)).digest('hex');
+}
 
 function nonempty(value) { return typeof value === 'string' && value.trim() !== ''; }
 
@@ -77,7 +83,7 @@ export function prepareChatBattery(bank, filters = {}, options = {}) {
     mode: options.mode ?? 'aprendizagem',
     count: items.length,
     source: 'data/questoes-camara.json#expansao',
-    sourceVersion: options.sourceVersion ?? null,
+    sourceVersion: options.sourceVersion ?? bankVersion(bank),
     selection: {
       subjectId: filters.subjectId ?? null,
       unitId: filters.unitId ?? null,

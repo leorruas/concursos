@@ -121,3 +121,22 @@ O futuro EPUB poderá agrupar conceitos equivalentes por `topicKey`, mantendo `a
 **Checagem de publicação:** o conector confirmou o blob na main e dez itens. Status combinados retornaram lista vazia, sem evidência conclusiva de sucesso/falha de CI. A coordenação ainda deve integrar artigo no catálogo, hub, índice e percurso CGU e reconciliar `theoryRefs`, glossário e flashcards. Sem comprovação de Pages servido ou testes completos, **não certificar**.
 
 **Progresso acumulado da frente:** cinco artigos CGU exclusivos trabalhados; **42 itens C/E didáticos** nos cinco textos; **0 certificados com todos os gates demonstrados**. Próxima etapa recomendada: verificar com a coordenação a integração dos cinco artigos antes de produzir novas versões; depois avançar às especializações de receita e despesa, sem replicar integralmente os legados.
+
+## Preflight técnico da integração CGU: 17/11/2026
+
+**Diagnóstico verificado diretamente na `main`, sem editar superfícies compartilhadas.** Os quatro artigos CGU criados após a separação existem como arquivos, mas estão ausentes do cadastro `articleIds` de `subjectId: orcamento-publico` em `data/catalogo-materias-por-concurso.json` (blob `2a410af8e42d8a7de774e0e5889837b98de6ab27`). O artigo específico PPA/LDO/LOA (`art-9dc8a6e2f31b47c0`) está presente.
+
+| Ordem CGU | ID derivado | Caminho exato | ID legado a substituir somente na entrada CGU |
+| :--- | :--- | :--- | :--- |
+| Ciclo | `art-a07c26f4e92031ab` | `3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria.md` | `art-f6cfe9fbcc764554` |
+| Esferas | `art-c84d6e02f3b7a915` | `3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes.md` | `art-74d90e9fa1b3452c` |
+| Princípios | `art-b419ac8206de7f35` | `3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes.md` | `art-a2f47c0d6e184e93` |
+| Classificações gerais | `art-e6b481a230fc795d` | `3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas.md` | `art-d8b1c5e6037249fa` |
+
+**Operação para a coordenação de arquitetura:** (1) inventariar consumidores de cada ID antigo antes de qualquer troca, incluindo `theoryRefs`, fontes de questões, glossário, flashcards, URLs e aliases; (2) validar os quatro IDs e metadados no registro canônico; (3) substituir exclusivamente esses quatro membros da lista `articleIds` da **CGU** no catálogo v2, preservando a ordem do percurso e deixando a lista da Câmara intacta; (4) atualizar atômica e semanticamente `index.md`, hub e `1 - Planejamento/CGU 2026 - Percurso editorial Orcamento.md`, com respectivos títulos editoriais; (5) validar build, relações, integridade, workflow e conteúdo realmente servido no Pages; (6) registrar os SHAs e evidências de cada artigo para certificação. Se alguma referência do ID antigo não puder ser atualizada com segurança, não concluir aquela substituição e registrar o consumidor impeditivo.
+
+**Superfícies inspecionadas:** `index.md` blob `38ede5ffd2935e2d00794101154117fcbfab0e1e`, hub blob `a472de283ad6544041c0521af4c3869feeec9b5a` e percurso CGU blob `6f76539a72263bc3889dde23ba71427e25b3540d`: nenhum contém o caminho dos quatro novos derivados. Em `data/flashcards.json`, blob `6d2dae48e08cfc903823d31ef655b677d26402cd`, os cinco IDs exclusivos CGU (incluindo PPA/LDO/LOA) não aparecem literalmente. Essa ausência de vínculo por ID **não demonstra ausência de cartões por tema**; verificar o esquema efetivo antes de alterar flashcards.
+
+**Atenção aos IDs adicionais do catálogo CGU:** `art-9be1a39d536a47ea` e `art-3e62a81df4c74b90` permanecem sem identificação conclusiva por caminho nesta frente. `art-9be1a39d536a47ea` também consta da lista de Orçamento da Câmara: não remover, substituir nem alterar antes de resolver a propriedade. Não modificar dados pessoais ou `data/questoes-camara.json`.
+
+**Status efetivo:** 5 artigos CGU trabalhados, 42 itens C/E didáticos e 0 certificações finais; quatro novos derivados aguardam integração técnica. Próxima etapa prioritária é a operação coordenada de catálogo/navegação e testes. Não atribuir certificação, conclusão de Pages ou migração apenas com a existência dos commits dos textos.

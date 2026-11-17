@@ -74,6 +74,18 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
       if (JSON.stringify(catalogoAoVivo) !== JSON.stringify(esperadoCatalogo)) {
         throw new Error('Catálogo de matérias ao vivo diverge do catálogo construído');
       }
+      // O índice de busca também deve corresponder ao build, não só o manifesto.
+      const caminhoBusca = 'search-index.json';
+      const respostaBusca = await fetch(new URL(caminhoBusca + '?' + cacheBuster, baseUrl), {
+        headers: { 'cache-control': 'no-cache', pragma: 'no-cache' },
+        signal: AbortSignal.timeout(8000)
+      });
+      if (!respostaBusca.ok) throw new Error('Índice de busca publicado: HTTP ' + respostaBusca.status);
+      const buscaPublicada = await respostaBusca.json();
+      const buscaEsperada = JSON.parse(fs.readFileSync(path.join(rootDir, '_site', caminhoBusca), 'utf8'));
+      if (JSON.stringify(buscaPublicada) !== JSON.stringify(buscaEsperada)) {
+        throw new Error('Índice de busca publicado diverge do build');
+      }
       for (const recurso of ['data/flashcards.json', 'data/glossario-flashcards.json', 'flashcards.html', 'web/09-flashcards-engine.js', 'web/10-flashcards-ui.js']) {
         const res = await fetch(new URL(recurso + '?' + cacheBuster, baseUrl), {
           headers: { 'cache-control': 'no-cache' }, signal: AbortSignal.timeout(8000)
@@ -111,6 +123,11 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         '3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md',
         '3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md',
         '3 - Materias/Direito Constitucional/direito-constitucional.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes.md',
+        '3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas.md',
         '3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md',
         '3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md',
         '3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md',
@@ -139,8 +156,8 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         const local = fs.readFileSync(localPath, 'utf8');
         if (publicado !== local) throw new Error('Nota auditada diverge do build publicado: ' + recurso);
       }
-      console.log(`✓ ${materiaisAuditoria.length} artigos auditados com corpo Markdown sincronizado no Pages, incluindo sete da frente A e seis da frente B de Orçamento Público.`);
-      console.log('✓ Glossário, interface e índice sincronizados no Pages.');
+      console.log(`✓ ${materiaisAuditoria.length} artigos auditados com corpo Markdown sincronizado no Pages, incluindo os cinco artigos exclusivos da CGU, além dos artigos históricos de Orçamento Público.`);
+      console.log('✓ Glossário, interface e índice de busca sincronizados no Pages.');
       console.log('✓ Coleção e interface dos flashcards sincronizadas no Pages.');
       console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');
       console.log(`✓ GitHub Pages sincronizado: ${publicadoPaths.size} artigos no manifesto ao vivo.`);

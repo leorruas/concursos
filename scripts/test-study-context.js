@@ -19,6 +19,15 @@ try{
   for(const p of ['3 - Materias','2 - Editais','data','00 - Desempenho'])fs.cpSync(path.join(actual,p),path.join(root,p),{recursive:true});
   const contests=read('data/concursos.json');const plan=loadPlans(root).find(p=>p.concursoId==='cgu-2026');
   const program=validatePlan(root,plan,contests);
+  const orcamento=plan.subjects.find(s=>s.id==='orcamento-publico');
+  assert(orcamento,'CGU deve ter percurso próprio de Orçamento Público');
+  const orcamentoRefs=orcamento.units.flatMap(u=>u.noteRefs)
+    .filter(ref=>ref.startsWith('3 - Materias/Orcamento Publico/'));
+  assert(orcamentoRefs.length>0,'Percurso CGU deve vincular capítulos de Orçamento');
+  assert(orcamentoRefs.every(ref=>ref.startsWith('3 - Materias/Orcamento Publico/CGU 2026 - ')),
+    'Percurso CGU de Orçamento não deve retornar aos capítulos históricos da Câmara');
+  assert.equal(new Set(orcamentoRefs).size,orcamentoRefs.length,
+    'Percurso CGU de Orçamento não deve duplicar capítulos próprios');
   assert.equal(new Set(program.map(p=>p.block)).size,14);assert.equal(program.length,81);assert.equal(plan.subjects.length,15);
   sync();assert.equal(prepare(root).operations.length,0,'Consolidação idempotente');
   let a=ctx('auditoria-governamental');const retentionBaseline=a.observationAxes.retention.retrievedLater;const cp=ctx('contabilidade-publica');

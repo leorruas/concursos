@@ -93,7 +93,7 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
       }
       // Os metadados do manifesto não mudam quando o corpo Markdown é corrigido.
       // Verifique o corpo dos artigos PL11–15, PL17–22 e os materiais já monitorados.
-      const materiaisAuditoriaPL = [
+      const materiaisAuditoria = [
         '3 - Materias/Direito Constitucional/06 - poder legislativo.md',
         '3 - Materias/Direito Constitucional/08 - poder judiciario e controle de constitucionalidade.md',
         '3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte.md',
@@ -110,23 +110,29 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         '3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md',
         '3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md',
         '3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md',
-        '3 - Materias/Direito Constitucional/direito-constitucional.md'
+        '3 - Materias/Direito Constitucional/direito-constitucional.md',
+        '3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md',
+        '3 - Materias/Orcamento Publico/04a - classificacao da receita.md',
+        '3 - Materias/Orcamento Publico/04b - classificacao da despesa.md',
+        '3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento.md',
+        '3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md',
+        '3 - Materias/Orcamento Publico/08 - despesas publicas e estagios.md',
       ];
-      for (const recurso of materiaisAuditoriaPL) {
+      for (const recurso of materiaisAuditoria) {
         const localPath = path.join(rootDir, '_site', recurso);
-        if (!fs.existsSync(localPath)) throw new Error('Nota de Processo Legislativo ausente do build: ' + recurso);
+        if (!fs.existsSync(localPath)) throw new Error('Nota auditada ausente do build: ' + recurso);
         const urlPublica = new URL(recurso, baseUrl);
         urlPublica.search = cacheBuster;
         const response = await fetch(urlPublica, {
           headers: { 'cache-control': 'no-cache', pragma: 'no-cache' },
           signal: AbortSignal.timeout(8000)
         });
-        if (!response.ok) throw new Error('Nota de Processo Legislativo publicada: HTTP ' + response.status + ' em ' + recurso);
+        if (!response.ok) throw new Error('Nota auditada publicada: HTTP ' + response.status + ' em ' + recurso);
         const publicado = await response.text();
         const local = fs.readFileSync(localPath, 'utf8');
-        if (publicado !== local) throw new Error('Nota de Processo Legislativo diverge do build publicado: ' + recurso);
+        if (publicado !== local) throw new Error('Nota auditada diverge do build publicado: ' + recurso);
       }
-      console.log('✓ Artigos constitucionais 06, 08, 10, 11, 17 a 22, Código de Ética e hub sincronizados no Pages.');
+      console.log('✓ Artigos constitucionais auditados e seis artigos de Orçamento Público da frente B sincronizados no Pages.');
       console.log('✓ Glossário, interface e índice sincronizados no Pages.');
       console.log('✓ Coleção e interface dos flashcards sincronizadas no Pages.');
       console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');

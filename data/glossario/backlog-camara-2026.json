@@ -1635,6 +1635,62 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo, serviços públicos",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-da11-autotutela-anular-revogar",
+      "term": "Autotutela: anulação e revogação",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, controle da Administração",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da11-tcu-parecer-contas-presidente",
+      "term": "Parecer prévio do TCU e julgamento das contas presidenciais",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, controle da Administração",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da11-controle-interno-externo",
+      "term": "Controle interno e controle externo constitucionais",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, controle da Administração",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da11-tcu-sustacao-contratos",
+      "term": "Sustação de atos e contratos no controle externo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, controle da Administração",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da11-tema-445-contas",
+      "term": "Tema 445 do STF: prazo de registro de aposentadoria",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, controle da Administração",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da11-controle-judicial-merito",
+      "term": "Controle judicial da juridicidade e mérito administrativo",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, controle da Administração",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da11-supervisao-vinculacao",
+      "term": "Supervisão finalística e hierarquia administrativa",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, controle da Administração",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

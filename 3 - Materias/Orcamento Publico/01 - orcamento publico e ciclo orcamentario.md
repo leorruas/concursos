@@ -16,7 +16,7 @@ aliases:
 
 ## Por que começar por aqui
 
-Uma política de ampliação de escolas pode estar prevista no planejamento de médio prazo, aparecer como prioridade para o ano seguinte e receber dotação na lei orçamentária. Mesmo assim, uma escola ainda não foi construída: entre a intenção, a autorização e a entrega há decisões, disponibilidade de recursos, execução e controle. Esse percurso explica por que **planejamento, orçamento, execução e resultado** são conceitos diferentes.
+Imagine que o governo queira construir cinco escolas. Primeiro, ele planeja a expansão para os próximos anos. Depois, escolhe o que será prioridade no ano seguinte. A lei orçamentária pode reservar uma quantia para a obra. Essa quantia é chamada de **dotação orçamentária**: um valor autorizado para determinada despesa. Até aqui, nenhuma escola precisa ter sido construída. Ainda será necessário realizar os procedimentos de contratação, usar os recursos conforme a lei e acompanhar o que foi entregue. Esse percurso explica por que **planejamento, orçamento, execução e resultado** são conceitos diferentes.
 
 Este é o ponto de entrada da matéria. O artigo [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|PPA, LDO e LOA]] aprofunda o Plano Plurianual (PPA), a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA); classificações, créditos adicionais, estágios de receita e despesa e responsabilidade fiscal terão notas próprias. A organização é reutilizável entre editais. Na Controladoria-Geral da União (CGU) 2026, este texto atende **parcialmente** ao recorte P3.2.2, em formato **Cebraspe, Certo ou Errado**.
 
@@ -38,7 +38,7 @@ Os conjuntos são relacionados, mas **não formam uma classificação única**. 
 
 ## Núcleo do conceito
 
-O **orçamento público** é instrumento jurídico de autorização e controle, de planejamento de ações governamentais e de decisão sobre a alocação de recursos escassos. A Lei nº 4.320/1964, art. 2º, exige que a lei orçamentária discrimine receitas e despesas de modo a evidenciar a política econômico-financeira e o programa de trabalho do governo.
+O **orçamento público** organiza o dinheiro que o governo prevê receber e os gastos que pretende realizar. Também permite ao Legislativo autorizar despesas e fiscalizar seu uso. Como os recursos são limitados, o governo precisa decidir quais ações terão prioridade. A **Lei nº 4.320/1964, art. 2º**, exige que a lei orçamentária apresente as receitas e despesas de modo que se possa compreender a orientação econômica e financeira do governo e as ações que ele pretende financiar.
 
 É necessário distinguir quatro planos:
 
@@ -55,7 +55,7 @@ Um valor **fixado na LOA** é uma dotação autorizada, não prova de pagamento,
 
 **Pergunta central:** em qual momento do processo orçamentário o fato aconteceu? Elaboração, deliberação, execução e controle são momentos do **ciclo**; empenho, liquidação e pagamento são atos **dentro da execução**.
 
-A apresentação didática mais comum separa o ciclo em quatro momentos. **É uma classificação analítica**, não um calendário em que uma fase só começa depois que todas as demais terminaram: planejamento de um exercício pode ocorrer enquanto outro orçamento está em execução e um terceiro passa por controle.
+Costuma-se dividir o ciclo em quatro momentos para facilitar o estudo. Essa divisão serve para **identificar o tipo de atividade**, e não para afirmar que todas ocorrem uma depois da outra. Por exemplo, em um mesmo mês o governo pode preparar o orçamento do ano seguinte, executar o orçamento deste ano e prestar contas do ano anterior.
 
 ### Elaboração da proposta
 
@@ -73,17 +73,17 @@ A apreciação da proposta e o controle posterior são funções distintas: o Le
 
 Depois da autorização, os órgãos realizam ações e despesas sob as regras de execução, crédito orçamentário, programação financeira e disponibilidade de caixa. O orçamento **autoriza** despesa dentro dos limites aplicáveis; o cronograma financeiro organiza o desembolso. Uma dotação disponível não demonstra que há dinheiro imediatamente liberado para pagamento.
 
-A despesa executada tem estágios próprios, em especial **empenho, liquidação e pagamento**. Não confundir os estágios da despesa com as quatro fases do ciclo orçamentário. A distinção será aprofundada em artigo específico.
+Na execução, a despesa passa, em regra, por três estágios que respondem a perguntas diferentes. **Empenho:** o órgão formaliza o comprometimento do crédito orçamentário para uma despesa, criando obrigação de pagamento para o Estado, pendente ou não de condição, nos termos da Lei nº 4.320/1964, art. 58. **Liquidação:** o órgão confere os documentos e verifica o direito do credor, como a entrega de materiais previstos no contrato (art. 63). **Pagamento:** depois da regular liquidação e da ordem da autoridade competente, ocorre o desembolso (arts. 62 e 64). Exemplo: reservar formalmente o crédito para comprar computadores é diferente de verificar a entrega e de transferir o dinheiro ao fornecedor. Esses três estágios pertencem à **fase de execução** do ciclo, não são três fases autônomas do ciclo.
 
 ### Controle e avaliação
 
 Durante e após a execução, a gestão, os órgãos de controle e o Legislativo examinam legalidade, regularidade, resultados e prestação de contas, segundo suas competências. O controle não é uma etapa exclusivamente posterior: pode ser **prévio, concomitante ou posterior**, conforme o objeto e o instrumento.
 
-Uma despesa conforme a lei pode ainda exigir investigação sobre economicidade e efetividade. Por outro lado, constatar que uma meta de política pública não foi alcançada não demonstra, por si só, ilegalidade da despesa.
+Mesmo quando uma despesa segue a lei, o controle pode avaliar **economicidade**, isto é, se os recursos foram usados com custos adequados, e **efetividade**, isto é, se a ação contribuiu para a mudança social pretendida. Exemplo: a compra regular de equipamentos não comprova que o atendimento à população melhorou. Do mesmo modo, uma meta não alcançada não prova, sozinha, que houve despesa ilegal.
 
 ## Quem decide no ciclo federal e onde termina cada competência
 
-O **Poder Executivo** tem a iniciativa dos projetos de PPA, LDO e LOA (Constituição, art. 165). No âmbito do governo federal, as unidades orçamentárias e os órgãos setoriais participam da preparação da proposta, sob coordenação da Secretaria de Orçamento Federal (SOF), conforme o processo vigente. Isso é **preparação técnica**: a proposição legislativa encaminhada ao Congresso é de iniciativa do Executivo. As propostas orçamentárias dos Poderes Legislativo e Judiciário, do Ministério Público da União e da Defensoria Pública da União têm regras próprias de preparação e encaminhamento, observados os limites e prazos constitucionais e legais. Portanto, **iniciativa do projeto** não significa que o Executivo decide sozinho a programação interna de todos os Poderes.
+O **Poder Executivo** tem a iniciativa dos projetos de Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO) e Lei Orçamentária Anual (LOA), conforme o art. 165 da Constituição. **Iniciativa** significa a competência para apresentar formalmente o projeto de lei. Antes disso, vários órgãos participam de sua preparação. No governo federal, as **unidades orçamentárias** organizam necessidades e propostas de gasto; os **órgãos setoriais** consolidam propostas de suas áreas; e a **Secretaria de Orçamento Federal (SOF)** coordena o processo do orçamento fiscal e da seguridade, conforme as regras vigentes. Os Poderes Legislativo e Judiciário, o Ministério Público da União e a Defensoria Pública da União têm autonomia e regras próprias para elaborar e encaminhar suas propostas parciais, dentro dos limites e prazos aplicáveis. O Executivo apresenta o projeto, mas isso não significa que possa definir sozinho todas essas propostas.
 
 O **Congresso Nacional**, no processo federal, aprecia os projetos de leis orçamentárias pelas duas Casas, **na forma do Regimento Comum** (art. 166, caput). Uma **comissão mista permanente de deputados e senadores**, conhecida como Comissão Mista de Orçamento (CMO), examina e emite parecer sobre os projetos e as emendas. Sua atuação é essencial, mas **parecer da CMO não equivale à aprovação da lei**. As emendas são apresentadas à comissão, recebem parecer e são apreciadas nos termos do art. 166, § 2º, e das regras regimentais. A deliberação do Congresso e os atos posteriores de sanção ou veto, quando cabíveis, pertencem a momentos diferentes.
 

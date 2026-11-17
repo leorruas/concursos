@@ -2,22 +2,22 @@
 title: "Orçamento Público: percurso CGU 2026"
 type: planejamento-editorial
 concursoId: cgu-2026
-status: integracao-proposta
+status: cinco-certificados-migracao-parcial
 created: 2026-11-17
 updated: 2026-11-17
 ---
 
 # Orçamento Público: percurso editorial CGU 2026
 
-O percurso orienta **CGU 2026, Auditoria, Cebraspe**, de acordo com o recorte P3.2.2 e P3.2.3 e sujeito à conferência integral do edital e das retificações. A numeração abaixo é **ordem pedagógica deste concurso**, não renomeação de arquivo nem número de unidade de prova. Os links legados são pontes temporárias, não certificação CGU. Nenhum progresso individual é registrado aqui.
+O percurso orienta **CGU 2026, Auditoria, Cebraspe**, de acordo com o recorte P3.2.2 e P3.2.3 e sujeito à conferência integral do edital e das retificações. A numeração abaixo é **ordem pedagógica deste concurso**, não renomeação de arquivo nem número de unidade de prova. Os links legados são pontes temporárias, não certificação CGU. As cinco notas próprias da CGU possuem revisão integral concluída com ressalva visual e publicação comprovada, conforme o estado editorial próprio. Nenhum progresso individual é registrado aqui.
 
 ## Ordem de estudo CGU: planejamento, execução e controle
 
-1. [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]] (versão exclusiva CGU: integração técnica proposta na PR da issue #362)
-2. [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|PPA, LDO e LOA: CGU 2026]] (versão específica publicada)
-3. [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]] (versão exclusiva CGU: integração técnica proposta na PR da issue #362)
-4. [[3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes|CGU 2026: princípios orçamentários e vedações constitucionais]] (versão exclusiva CGU: integração técnica proposta na PR da issue #362)
-5. [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|CGU 2026: classificações de receitas e despesas na auditoria]] (versão exclusiva CGU: integração técnica proposta na PR da issue #362)
+1. [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]] (versão CGU certificada editorialmente com ressalva visual)
+2. [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|PPA, LDO e LOA: CGU 2026]] (versão CGU certificada editorialmente com ressalva visual)
+3. [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]] (versão CGU certificada editorialmente com ressalva visual)
+4. [[3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes|CGU 2026: princípios orçamentários e vedações constitucionais]] (versão CGU certificada editorialmente com ressalva visual)
+5. [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|CGU 2026: classificações de receitas e despesas na auditoria]] (versão CGU certificada editorialmente com ressalva visual)
 6. [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
 7. [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
 8. [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
@@ -28,6 +28,10 @@ O percurso orienta **CGU 2026, Auditoria, Cebraspe**, de acordo com o recorte P3
 13. [[3 - Materias/Orcamento Publico/09 - restos a pagar dea e suprimento de fundos|Restos a pagar, DEA e suprimento]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
 14. [[3 - Materias/Orcamento Publico/10 - conta unica e execucao financeira|Conta Única e execução]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
 15. [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|Responsabilidade fiscal e controle]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
+
+## Situação comprovada
+
+Cinco artigos CGU têm 57 itens C/E revistos e prova de publicação no workflow [44180009652](https://github.com/leorruas/concursos/actions/runs/44180009652). O [[1 - Planejamento/CGU 2026 - Estado editorial Orcamento|estado editorial CGU]] detalha fontes, blobs e ressalvas. Permanecem dez artigos legados de Orçamento compartilhados e uma referência transversal de Atualidades (`art-9be1a39d536a47ea`), que não exige duplicação automática. A inspeção visual individual permanece pendente.
 
 ## Critérios de certificação
 

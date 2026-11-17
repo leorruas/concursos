@@ -5813,13 +5813,16 @@
       "confusion": "Não confundir as cinco modalidades do art. 28 com os critérios do art. 33 da Lei nº 14.133/2021.",
       "topic": "Planejamento de contratação",
       "subjectIds": [
-        "contratacoes-transferencias"
+        "contratacoes-transferencias",
+        "direito-administrativo"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P3.4"
+        "P3.4",
+        "Câmara dos Deputados 2026: Direito Administrativo, licitações e contratos"
       ],
       "note": {
         "articleId": "art-e3be4825ac4c455a",
@@ -5831,8 +5834,8 @@
         "locator": "Arts. 5º, 28, 33, 72, 74 e 75"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-04",
-      "revision": 1,
+      "reviewedAt": "2026-11-16",
+      "revision": 2,
       "conceptIds": [
         "modalidade-versus-criterio-licitacao"
       ],
@@ -5849,13 +5852,16 @@
       "confusion": "Contratação direta não se confunde com modalidade licitatória; singularidade não é requisito geral de toda inexigibilidade.",
       "topic": "Contratação direta",
       "subjectIds": [
-        "contratacoes-transferencias"
+        "contratacoes-transferencias",
+        "direito-administrativo"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P3.4"
+        "P3.4",
+        "Câmara dos Deputados 2026: Direito Administrativo, licitações e contratos"
       ],
       "note": {
         "articleId": "art-e3be4825ac4c455a",
@@ -5867,8 +5873,8 @@
         "locator": "Arts. 5º, 28, 33, 72, 74 e 75"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-16",
+      "revision": 3,
       "conceptIds": [
         "dispensa-versus-inexigibilidade"
       ],
@@ -6641,13 +6647,16 @@
       "confusion": "A expressão 'fase 8 de adjudicação' não corresponde à sequência do art. 17.",
       "topic": "Encerramento da licitação",
       "subjectIds": [
-        "contratacoes-transferencias"
+        "contratacoes-transferencias",
+        "direito-administrativo"
       ],
       "examIds": [
-        "cgu-2026"
+        "cgu-2026",
+        "camara-2026"
       ],
       "editalRefs": [
-        "P3.4"
+        "P3.4",
+        "Câmara dos Deputados 2026: Direito Administrativo, licitações e contratos"
       ],
       "note": {
         "articleId": "art-e3be4825ac4c455a",
@@ -6659,8 +6668,8 @@
         "locator": "Arts. 17 e 71, IV"
       },
       "status": "validated",
-      "reviewedAt": "2026-11-09",
-      "revision": 2,
+      "reviewedAt": "2026-11-16",
+      "revision": 3,
       "conceptIds": [
         "licitacao-adjudicacao-encerramento"
       ],

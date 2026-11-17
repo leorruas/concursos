@@ -270,3 +270,11 @@ Esta revisão solicita nova execução de **`Validar site público (PR)`** com a
 ### Execução de regressão para 57 itens
 
 A presente branch solicita nova execução do workflow de validação PR sobre o conteúdo atualizado (57 itens C/E em cinco notas CGU). Registrar o SHA e o resultado de todas as etapas, mantendo a verificação de Pages separada e sem atribuir certificação por CI isolado.
+
+## Regressão de 57 itens certificada tecnicamente no PR: 17/11/2026
+
+**Evidência GitHub Actions:** [PR #365](https://github.com/leorruas/concursos/pull/365), HEAD `8b1622d65e7e027fcfd899a056ece73691d7c162`, execução [44172356946](https://github.com/leorruas/concursos/actions/runs/44172356946) do workflow `Validar site público (PR)`, resultado **success**. A execução aprovou catálogo/identidades, filtros CGU/Câmara, build, invariantes, privacidade, flashcards, glossário, busca e deep links. PR integrado por squash na `main` no commit `b6817db31da7e974ee2a4460e1b203e4ac2496c2`.
+
+**Escopo comprovado:** o estado da branch continha cinco notas da CGU com **57 itens C/E**, incluindo o acréscimo da distinção de regime do Orçamento de Investimento (art. 52, §§ 10-12, LDO 2026). Os 57 itens foram verificados por sequência e presença de gabarito na main; as normas centrais de LDO 2026 e Decreto 12.500/2025 foram cotejadas nos pontos focalmente alterados. O sucesso do workflow não certifica automaticamente o conteúdo doutrinário e não equivale ao deploy do último HEAD no GitHub Pages.
+
+**Próximos gates:** (1) comprovar execução de Pages e correspondência do manifesto e do catálogo servidos ao commit integrado mais recente; (2) concluir confronto jurídico/didático integral por artigo, com fontes e tabelas, não só enunciados; (3) formalizar certificação por `articleId` e SHA, quando houver as provas. **Certificados finais: 0/5**, por falta de evidência suficiente dos dois gates. A issue #362 segue aberta e rastreia o Pages.

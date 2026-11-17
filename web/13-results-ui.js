@@ -12,7 +12,7 @@ const DISPLAY={
  'sem-materia':'Matéria não identificada'
 };
 let manifest=new Map(),current=null;
-let selectedSubject='',retests=null,coverageData=null,transferData=null;
+let selectedSubject='',retests=null,coverageData=null,transferData=null,transferCombined=false;
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
 function title(subject){return DISPLAY[subject]||subject||'Matéria sem classificação';}
@@ -138,10 +138,12 @@ function showConceptTransfer(){
   const group=el('section','results-subject-group');group.append(subjectHeading(subject,items.length));
   for(const x of items){
    const row=el('div','results-concept'),left=el('div'),meta=manifest.get(x.articleId);
-   const label=typeof x.conceptId==='string'&&x.conceptId.trim()?x.conceptId:'Conceito vinculado';
+   const label=typeof x.conceptId==='string'&&x.conceptId.trim()?x.conceptId.replaceAll('-',' '):'Conceito vinculado';
    left.append(el('strong','',label),
     el('small','',statusNames[x.state]+' · '+x.distinctQuestions+' questões diferentes · '+x.wrong+' erro(s) posterior(es) · '+x.secure+' acerto(s) seguro(s) · '+x.insecure+' inseguro(s)'),
-    el('small','','Indício baseado em questões diferentes, não certificação de domínio.'));
+    el('small','',transferCombined
+      ?'Fontes consideradas: '+(x.sources?.chat||0)+' questão(ões) do ChatGPT e '+(x.sources?.site||0)+' do site · '+(x.distinctDays||'?')+' dia(s) · evidência '+(x.confidence==='moderate'?'moderada':'limitada')
+      :'Somente baterias do site. Indício de progresso, não certificação de domínio.'));
    const a=el('a','results-link','Abrir '+(meta?.tituloExibicao||meta?.titulo||'artigo'));
    a.href=articleLink(x,x.section);a.rel='noreferrer';row.append(left,a);group.append(row);
   }
@@ -171,7 +173,8 @@ function showRetests(){
  }
 }
 async function loadRetests(examId,version){
- retests=null;coverageData=null;transferData=null;
+ retests=null;coverageData=null;
+ if(!transferCombined)transferData=null;
  try{
   const response=await fetch('/v1/study/quiz?concurso='+encodeURIComponent(examId),{
    credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}
@@ -184,7 +187,9 @@ async function loadRetests(examId,version){
   if(version!==loadVersion)return;
   retests=window.ResultsRetests.analyze(data.attempts,map,examId);
   coverageData=window.ResultsRetests.coverage(data.attempts,map,examId);
-  transferData=window.ResultsRetests.conceptTransfer(data.attempts,map,examId);
+  if(!transferCombined){
+   transferData=window.ResultsRetests.conceptTransfer(data.attempts,map,examId);
+  }
   showRetests();showCoverage();showConceptTransfer();
  }catch{
   if(version===loadVersion)$('results-retests').replaceChildren(el('p','results-caption','Retestes indisponíveis. O histórico unificado permanece preservado.'));
@@ -430,7 +435,7 @@ async function manifestLoad(){
 }
 async function load(){
  const examId=select.value,version=++loadVersion;
- current=null;retests=null;coverageData=null;transferData=null;root.hidden=true;
+ current=null;retests=null;coverageData=null;transferData=null;transferCombined=false;root.hidden=true;
  $('results-login').hidden=true;
  $('results-logout').hidden=true;
  status.textContent='Consultando histórico do chat e do site…';
@@ -450,6 +455,12 @@ async function load(){
   if(data?.version!==2||data.concursoId!==examId||!data.sources)throw Error('Contrato de diagnóstico desatualizado.');
   if(version!==loadVersion)return;
   current=data;
+  transferCombined=data.learning?.version===1&&Array.isArray(data.learning.byConcept);
+  transferData=transferCombined?data.learning.byConcept:null;
+  const transferInfo=$('results-concept-transfer-description');
+  if(transferInfo)transferInfo.textContent=transferCombined
+   ?'Combina questões do ChatGPT e do site, com identificador de conceito e enunciados diferentes em dias distintos. Não apresenta textos nem respostas individuais nesta seção. A comparação indica tendência e não comprova domínio.'
+   :'A API ainda não fornece evolução conjunta. Exibimos temporariamente apenas as baterias do site, quando disponíveis.';
   $('results-logout').hidden=false;
   render();
   void loadRetests(examId,version);

@@ -1,9 +1,9 @@
 ---
 type: planejamento-editorial
-status: ativo
+status: encerrado-com-ressalvas-visuais
 concursoId: camara-2026
 created: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 ---
 
 # Câmara 2026: coordenação editorial de Orçamento Público em três frentes
@@ -57,3 +57,17 @@ Atribuição por `articleId` prevalece sobre número ou nome do arquivo. Cada ag
 7. **Não gerar EPUB**, não executar conversor e não implementar nesta frente interações de notas clicáveis ou ocultação de respostas no site; registrar apenas limitações relevantes para exportação futura.
 
 **Meta verificável:** 19/19 artigos classificados individualmente com evidências, sem lacunas editoriais ignoradas, com pendências visuais consolidadas em vez de bloquear cada artigo isoladamente. O escopo da Câmara e a distinção de regimes jurídicos devem permanecer explícitos.
+
+
+## Fechamento consolidado: 17/11/2026
+
+A auditoria de Orçamento Público para a Câmara 2026 está encerrada no escopo editorial definido nesta matriz. Os 19 artigos canônicos foram classificados individualmente nos arquivos de estado das frentes A, B e C, com preservação de `articleId`, catálogo e trilha pública.
+
+| Frente | Certificados | Concluídos com ressalva visual | Bloqueados |
+| :--- | ---: | ---: | ---: |
+| A: planejamento e processo legislativo | 6 | 1 | 0 |
+| B: classificações, receitas e despesa | 4 | 2 | 0 |
+| C: créditos, emendas, encerramento e responsabilidade fiscal | 0 | 6 | 0 |
+| **Total** | **10** | **9** | **0** |
+
+A publicação foi comprovada nos workflows de Pages com conclusão `success`, inclusive a validação do catálogo publicado. A ressalva comum não é jurídica nem técnica: falta inspeção visual manual de tabelas, links e, nos três artigos com Mermaid, do diagrama em modo claro e escuro, tela estreita e modal. Essa conferência deve integrar uma auditoria visual única antes de qualquer EPUB, sem reabrir a certificação textual dos 19 artigos salvo se revelar defeito material.

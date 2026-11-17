@@ -81,6 +81,17 @@ As **Resoluções 1/2025-CN e 2/2025-CN** procuram detalhar quem sugere a emenda
 
 **Controle interno, externo e social** possuem papéis próprios. A publicação de dados pode viabilizar fiscalização, mas **publicar uma ata não comprova regularidade material da despesa**. O Tribunal de Contas da União (TCU), os órgãos de controle e a sociedade exercem atribuições diferentes, dentro dos limites jurídicos pertinentes.
 
+### Decisões do STF em 2026: quem indica e como rastrear
+
+Na **ADPF 854**, o Supremo Tribunal Federal acompanha a transparência e a rastreabilidade das emendas. São importantes duas providências de 2026, que têm **objetos distintos**:
+
+- **Indicação por pessoas sem mandato:** em 24 de agosto de 2026, o relator determinou que o Congresso considere **nulas as indicações de emendas feitas por presidentes de partidos que não exerçam mandato legislativo e por ex-parlamentares**. É preciso identificar **quem praticou a indicação**, em vez de presumir que qualquer dirigente partidário possa substituir o parlamentar competente. Fonte: [notícia institucional do STF de 24/08/2026](https://noticias.stf.jus.br/postsnoticias/stf-notifica-congresso-que-presidentes-de-partidos-e-ex-parlamentares-nao-podem-indicar-emendas/).
+- **Identificador único:** em 9 de setembro de 2026, o relator determinou que Executivo e Congresso apresentem **até 30 de novembro de 2026** proposta conjunta e cronograma para um código que conecte a **indicação parlamentar ao empenho** nos sistemas de acompanhamento, inclusive SIAFI e Transferegov.br. Em 16 de novembro de 2026, o prazo ainda é futuro: **não afirmar que o identificador já está plenamente implementado** nem que sua criação equivale a pagamento. Fonte: [notícia institucional do STF de 09/09/2026](https://noticias.stf.jus.br/postsnoticias/governo-e-congresso-deverao-propor-codigo-unico-para-rastrear-emendas-parlamentares-decide-relator/).
+
+**Alcance processual:** essas determinações de acompanhamento não devem ser confundidas com um julgamento definitivo sobre a constitucionalidade de toda emenda impositiva ou da transferência especial. Na análise de uma questão, separar a **decisão judicial**, a **regra constitucional ou legal** e a **providência administrativa ainda em implementação**.
+
+**C/E inédito:** A determinação judicial de que Executivo e Congresso apresentem proposta de identificador único até 30 de novembro de 2026 demonstra que, desde setembro, cada emenda já passou necessariamente a ter código implantado e pagamento rastreado. **Gabarito: Errado.** A ordem é de **apresentação de proposta e cronograma**; vincular indicação a empenho é diferente de comprovar implantação universal e pagamento.
+
 ## Caso progressivo: uma comissão financia atendimento regional
 
 **Cenário 1, escolha:** uma comissão permanente recebe sugestões de parlamentares e aprova em reunião a apresentação de emenda de **apropriação** para apoiar serviço regional, dentro das suas competências. Registra **ata**, justifica caráter institucional e apresenta a proposta. A comissão não executou despesa.

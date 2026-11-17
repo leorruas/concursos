@@ -322,6 +322,18 @@
       "certificationStatus": "redigido-validacao-editorial-pendente",
       "include": false,
       "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+    },
+    {
+      "chapterKey": "cgu-11-novo",
+      "articleId": "art-b3e5d91a740c46f8",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - receitas publicas registros e evidencias.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-4677cfa327ce43bb",
+      "topicKey": "receitas-estagios",
+      "sequence": 11,
+      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "include": false,
+      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
     }
   ],
   "crossReferences": [

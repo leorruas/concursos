@@ -72,6 +72,12 @@ O **art. 6º, § 4º, da LDO** exige que a estatal encaminhe à **Comissão Mist
 
 **Roteiro de fiscalização:** conferir ato de aprovação e sua data, contrato e plano aplicáveis, prova de envio à CMO, dotações de repasse nos orçamentos fiscal ou da seguridade e classificação das programações da estatal. A ausência de um desses documentos pede apuração específica; a comunicação não substitui os requisitos materiais de enquadramento.
 
+### Regime contábil e de execução no Orçamento de Investimento
+
+O **art. 52, § 10, da LDO federal de 2026** determina que as normas gerais da Lei nº 4.320/1964 **não se aplicam às empresas integrantes do Orçamento de Investimento quanto ao regime contábil, à execução do orçamento e às demonstrações contábeis**. O **§ 11** preserva especificamente a aplicação dos arts. 109 e 110 da Lei nº 4.320/1964 para suas finalidades. A expressão “não se aplicam” deve ser lida com esse alcance delimitado, sem concluir que a empresa deixou de ter obrigações de registro, transparência e prestação de contas.
+
+O **§ 12** do mesmo art. 52 exige que essas empresas mantenham **atualizada, de forma online, sua execução orçamentária no Sistema Integrado de Planejamento e Orçamento (SIOP)**. Na auditoria, o exame da programação de investimentos deve considerar os demonstrativos e registros próprios da empresa e os dados do SIOP, conforme o regime aplicável. **Empenho, liquidação e pagamento da Lei nº 4.320/1964** não podem ser exigidos automaticamente como se toda operação do Orçamento de Investimento estivesse submetida ao regime de execução dos Orçamentos Fiscal e da Seguridade Social.
+
 ## Como verificar a classificação em uma auditoria da CGU
 
 Considere uma estatal que declara autonomia financeira, mas recebe aportes públicos. A fiscalização deve reunir fatos e critérios antes de decidir sobre seu enquadramento.
@@ -83,7 +89,7 @@ Considere uma estatal que declara autonomia financeira, mas recebe aportes públ
 | Para que os recursos foram utilizados? | Atos de autorização, destinação, comprovantes e escrituração | Equiparar aumento de capital a custeio |
 | Qual é a situação jurídica vigente? | Classificação oficial, norma e eventual contrato de gestão | Presumir independência por simples anúncio |
 | Em qual esfera está a programação? | LOA, SIOP e normas orçamentárias do exercício | Usar natureza do gasto como se fosse esfera |
-| O gasto foi efetivamente executado? | Créditos, empenhos, liquidação, pagamento e entrega, conforme aplicáveis | Considerar autorização como despesa concluída |
+| O gasto foi efetivamente executado? | Créditos, registros de execução pertinentes ao regime, SIOP, demonstrativos da estatal e comprovação da entrega | Exigir automaticamente o rito da Lei nº 4.320/1964 para toda empresa do Orçamento de Investimento ou confundir autorização com execução |
 
 O auditor distingue **critério** (o requisito legal), **condição** (o fato verificado) e **evidência** (a informação que sustenta a conclusão). Uma divergência entre classificação informada e recebimento efetivo de recursos pode exigir aprofundamento, identificação dos responsáveis e avaliação do efeito. A divergência inicial, isoladamente, não autoriza presumir fraude.
 
@@ -119,6 +125,10 @@ Um hospital da administração pública amplia uma unidade e uma estatal não de
 
 **Item 13.** “Para verificar o envio de contrato de gestão de estatal à CMO, é necessário distinguir o prazo contado da aprovação na LDO federal de 2026 daquele contado da assinatura no Decreto nº 12.500/2025.” **Certo.** A LDO, art. 6º, § 4º, e o Decreto, art. 9º, I, apresentam marcos distintos para os deveres previstos em seus dispositivos.
 
+**Item 14.** “No Orçamento de Investimento de 2026, todas as empresas estatais estão obrigadas a seguir, em cada despesa, o mesmo regime de empenho, liquidação e pagamento dos Orçamentos Fiscal e da Seguridade Social, sem exceção.” **Errado.** O art. 52, § 10, da LDO federal de 2026 afasta, para as empresas abrangidas, as normas gerais da Lei nº 4.320/1964 relativas ao regime contábil, à execução orçamentária e às demonstrações contábeis, com a ressalva do § 11.
+
+**Item 15.** “A LDO de 2026 exige que as empresas integrantes do Orçamento de Investimento mantenham sua execução orçamentária atualizada de forma online no SIOP.” **Certo.** A exigência está no art. 52, § 12, da lei.
+
 Estes itens são autorais e didáticos. Não são questões oficiais nem evidência de desempenho individual.
 
 ## Fontes e relação editorial
@@ -126,7 +136,7 @@ Estes itens são autorais e didáticos. Não são questões oficiais nem evidên
 - [Constituição Federal, art. 165, § 5º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): os três orçamentos da LOA.
 - [Lei Complementar nº 101/2000, art. 2º, II e III](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): empresa controlada e estatal dependente.
 - [Decreto nº 12.500/2025, texto atualizado, arts. 2º, 7º e 9º](https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12500-11-junho-2025-797585-normaatualizada-pe.html): classificação, transição e contrato de gestão.
-- [LDO federal 2026, Lei nº 15.321/2025, arts. 6º, §§ 2º e 4º, e 52, §§ 6º, 7º e 9º](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15321-31-dezembro-2025-798617-publicacaooriginal-179567-pl.html): tratamento das estatais no Orçamento de Investimento e requisitos da transição.
+- [LDO federal 2026, Lei nº 15.321/2025, arts. 6º, §§ 2º e 4º, e 52, §§ 6º, 7º e 9º a 12](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15321-31-dezembro-2025-798617-publicacaooriginal-179567-pl.html): tratamento das estatais no Orçamento de Investimento e requisitos da transição.
 - [Manual Técnico de Orçamento, classificação por esfera](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto%3Acap4): categorias e códigos do orçamento federal.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: instrumentos de planejamento e autorização.
 

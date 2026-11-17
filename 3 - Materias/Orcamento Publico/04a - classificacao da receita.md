@@ -123,6 +123,8 @@ O **ingresso orçamentário** incorpora a execução da receita e é classificad
 
 **Operações de crédito** contratadas para financiamento público são, em regra, receitas **orçamentárias de capital**. Já a operação de crédito por **antecipação de receita orçamentária (ARO)** é tratada como ingresso **extraorçamentário**, por sua função específica de gestão de caixa. O fato de as duas operações serem empréstimos não as coloca no mesmo tratamento orçamentário.
 
+**Receita intraorçamentária** é o ingresso decorrente de uma operação entre órgãos ou entidades integrantes dos orçamentos fiscal e da seguridade social do **mesmo ente**, conforme as regras de classificação do MCASP. Por exemplo, uma entidade pública incluída nesses orçamentos paga por um serviço prestado por outra entidade também incluída: para quem recebe, pode haver receita intraorçamentária; para quem paga, despesa intraorçamentária. Essa identificação permite eliminar operações internas na consolidação, evitando contar a mesma movimentação como se fosse um recurso novo para o conjunto. **Intraorçamentária não significa extraorçamentária**: a primeira identifica operação interna entre unidades do mesmo âmbito orçamentário; a segunda não integra a receita orçamentária, como ocorre em regra com cauções e ARO.
+
 Os estágios **previsão, lançamento, arrecadação e recolhimento** pertencem a outra dimensão: cronologia de realização da receita. Uma receita não é “corrente” ou “de capital” porque se encontra num desses estágios.
 
 ### Exemplo contrastivo: dois empréstimos, duas classificações

@@ -539,6 +539,68 @@
       "status": "reviewed"
     },
     {
+      "id": "glo-lancamento-da-receita",
+      "term": "Lançamento da receita",
+      "aliases": [
+        "Lançamento tributário"
+      ],
+      "definition": "É a etapa em que a repartição competente verifica um crédito a receber, identifica quem deve e formaliza a cobrança nos casos sujeitos a lançamento. Na receita tributária, o art. 142 do Código Tributário Nacional disciplina a constituição do crédito pela autoridade administrativa; o art. 53 da Lei nº 4.320/1964 trata do lançamento da receita.",
+      "contrast": "Previsão estima quanto o governo espera arrecadar; lançamento identifica e formaliza o crédito nas hipóteses aplicáveis; arrecadação ocorre quando o valor é recebido pelo agente arrecadador; recolhimento acontece quando esse dinheiro chega à tesouraria. Nem toda receita passa pelo lançamento, como uma doação espontânea em dinheiro.",
+      "cebraspeTrap": "É incorreto afirmar que o lançamento já comprova pagamento ou que todo ingresso orçamentário precisa ter sido previamente lançado. O lançamento de um imposto em dezembro não faz a arrecadação de janeiro pertencer ao exercício anterior.",
+      "example": "Em dezembro, a prefeitura lança R$ 2 mil de imposto devido por uma pessoa. Ela paga no banco em janeiro. O lançamento identifica o crédito; a receita orçamentária é arrecadada em janeiro, quando o banco recebe o pagamento.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, arts. 52 e 53",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+        },
+        {
+          "label": "Código Tributário Nacional, art. 142",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-recolhimento-da-receita",
+      "term": "Recolhimento da receita",
+      "aliases": [
+        "Recolhimento à tesouraria"
+      ],
+      "definition": "É a etapa em que o agente arrecadador encaminha à tesouraria do ente público o dinheiro que já recebeu. A Lei nº 4.320/1964, art. 56, exige unidade de tesouraria, isto é, controle unificado do caixa público segundo as regras aplicáveis.",
+      "contrast": "Na arrecadação, um banco autorizado ou outro agente recebe o pagamento. No recolhimento, esse valor é transferido à tesouraria pública. Esses atos podem ocorrer em momentos diferentes. Para a regra orçamentária do art. 35, I, o marco da receita no exercício é a arrecadação, não o recolhimento posterior.",
+      "cebraspeTrap": "Não trocar arrecadação por recolhimento nem afirmar que o exercício de reconhecimento orçamentário depende necessariamente da data de entrega do dinheiro à tesouraria. O princípio de unidade de tesouraria não autoriza a criação de caixas especiais fora do regime legal.",
+      "example": "O contribuinte paga R$ 800 de imposto em 30 de dezembro a um banco arrecadador. O banco transfere o valor à tesouraria em 2 de janeiro. A arrecadação ocorreu em dezembro e o recolhimento em janeiro; a receita orçamentária pertence ao exercício da arrecadação.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, arts. 35 e 56",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+        },
+        {
+          "label": "Tesouro Nacional, MCASP 11ª edição, receita orçamentária",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "glo-arrecadacao-da-receita",
       "term": "Arrecadação da receita",
       "aliases": [],

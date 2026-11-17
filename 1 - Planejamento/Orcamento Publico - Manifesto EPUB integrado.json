@@ -298,6 +298,30 @@
       "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
       "selectionStatus": "avaliar-sobreposicao-com-camara"
+    },
+    {
+      "chapterKey": "cgu-8-novo",
+      "articleId": "art-83d7c5ef2a0b4916",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-87b69e1d4ac54f20",
+      "topicKey": "creditos",
+      "sequence": 8,
+      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "include": false,
+      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+    },
+    {
+      "chapterKey": "cgu-10-novo",
+      "articleId": "art-6f2c1ae9d483457b",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-0fb9b88e4d6c4151",
+      "topicKey": "programacao",
+      "sequence": 10,
+      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "include": false,
+      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
     }
   ],
   "crossReferences": [

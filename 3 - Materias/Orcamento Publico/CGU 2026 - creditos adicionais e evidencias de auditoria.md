@@ -128,7 +128,7 @@ Uma secretaria recebeu crédito especial para criar uma central de atendimento. 
 
 ## Fronteiras e continuidade
 
-Este capítulo trata de **alteração da autorização de despesa**. Para avaliar a execução posterior e os limites de caixa, consulte [[3 - Materias/Orcamento Publico/06 - programacao orcamentaria e contingenciamento|Programação orçamentária e contingenciamento]]. Para compreender classificação da despesa, fonte e identificadores aplicados à CGU, leia [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|Classificações na auditoria]]. Para o rito legislativo específico da Câmara, consulte [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Tramitação legislativa]], que é apoio contextual, não capítulo obrigatório da CGU.
+Este capítulo trata de **alteração da autorização de despesa**. Para avaliar a execução posterior e os limites de caixa, consulte [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio|Programação orçamentária e contingenciamento]]. Para compreender classificação da despesa, fonte e identificadores aplicados à CGU, leia [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|Classificações na auditoria]]. Para o rito legislativo específico da Câmara, consulte [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Tramitação legislativa]], que é apoio contextual, não capítulo obrigatório da CGU.
 
 ## Fontes para conferência
 

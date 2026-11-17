@@ -11,7 +11,7 @@ const DISPLAY={
  'orcamento-publico':'Orçamento Público','etica-publica':'Ética e decoro parlamentar','redacao':'Redação',
  'sem-materia':'Matéria não identificada'
 };
-let manifest=new Map(),current=null;
+let manifest=new Map(),current=null,subjectCatalog=null;
 let selectedSubject='',retests=null,coverageData=null,transferData=null,transferCombined=false;
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
@@ -114,6 +114,53 @@ function articleReviewEvidence(article){
  if(mistakes.length===1)return 'Um erro registrado; confirmar com novas questões antes de ampliar a revisão.';
  if(unsure.length)return 'Acerto com insegurança: reforçar o conceito e retestar.';
  return 'Sem ocorrência de erro ou insegurança vinculada.';
+}
+function showEditalCoverage(){
+ const target=$('results-edital-coverage');if(!target)return;
+ target.replaceChildren();
+ if(!subjectCatalog||!current){target.append(el('p','results-caption','Catálogo de matérias indisponível.'));return;}
+ const rows=window.ResultsStudyPlan.catalogCoverage(subjectCatalog,current.concursoId,current.bySubject||[])
+  .filter(s=>!selectedSubject||s.subjectId===selectedSubject);
+ if(!rows.length){target.append(el('p','results-caption','Nenhuma matéria cadastrada nesta seleção.'));return;}
+ for(const s of rows){
+  const row=el('div','results-concept'),left=el('div');
+  left.append(el('strong','',s.label),
+   el('small','',(s.editalRef?'Referência: '+s.editalRef+' · ':'')+s.articleCount+' artigo(s) relacionado(s) no catálogo'),
+   el('small','',s.status==='nao-avaliada'?'Nenhuma tentativa registrada nesta matéria.':
+    s.status==='amostra-pequena'?'Amostra pequena: '+s.attempts+' tentativa(s).':
+    s.attempts+' tentativa(s) registradas. O domínio do edital não foi avaliado integralmente.'));
+  const a=el('a','results-link','Abrir matéria');
+  if(s.hubArticleId&&manifest.has(s.hubArticleId)){a.href=articleLink({articleId:s.hubArticleId});a.rel='noreferrer';row.append(left,a);}
+  else row.append(left,el('small','results-caption','Hub não encontrado no manifesto.'));
+  target.append(row);
+ }
+}
+function showReviewQueue(){
+ const target=$('results-review-queue');if(!target)return;
+ target.replaceChildren();
+ if(!current)return;
+ const raw=(current.articles||[]).map(a=>({...a,subjectId:articleSubject(a,current.concepts||[])}));
+ const rows=window.ResultsStudyPlan.reviewQueue(raw,current.concepts||[],
+  transferCombined?transferData||[]:[],selectedSubject).slice(0,25);
+ if(!rows.length){target.append(el('p','results-caption','Sem recomendações baseadas em erros, insegurança ou revisões previstas nesta seleção.'));return;}
+ for(const [subject,items] of subjectGroups(rows,x=>x.subjectId)){
+  const group=el('section','results-subject-group');group.append(subjectHeading(subject,items.length));
+  for(const item of items){
+   const row=el('div','results-concept'),left=el('div');
+   const meta=manifest.get(item.articleId);
+   const name=item.kind==='concept'?(item.label||item.conceptId):(meta?.tituloExibicao||meta?.titulo||'Artigo relacionado');
+   left.append(el('strong','',name),el('small','',
+    item.reason+' · '+item.errors+' erro(s) · '+item.unsure+' insegurança(s)'),
+    el('small','','Prioridade relativa: '+item.score+'/100. Não é medida de domínio.'));
+   row.append(left);
+   if(item.articleId&&meta){
+    const a=el('a','results-link','Revisar artigo');
+    a.href=articleLink(item);a.rel='noreferrer';row.append(a);
+   }else row.append(el('small','results-caption','Sem artigo correspondente no catálogo.'));
+   group.append(row);
+  }
+  target.append(group);
+ }
 }
 function showCoverage(){
  const root=$('results-coverage');root.replaceChildren();
@@ -305,6 +352,7 @@ function render(){
  $('results-unified-method').textContent='Histórico até '+fmtDate(current.cut)+'. '+valid+' tentativas válidas de estudo, sem somar duas vezes um registro identificado nas duas fontes.';
  $('results-legacy').hidden=false;
  root.hidden=false;
+ showEditalCoverage();showReviewQueue();
  showRetests();showCoverage();showConceptTransfer();
  status.textContent='Histórico unificado carregado. Resultados e prioridades combinam as duas origens.';
 }
@@ -435,6 +483,14 @@ async function loadQuizResults(examId,version){
   return {authenticated:false};
  }
 }
+async function catalogLoad(){
+ try{
+  const r=await fetch('/data/catalogo-materias-por-concurso.json',{cache:'no-store'});
+  if(!r.ok)throw Error('catálogo');
+  const data=await r.json();
+  subjectCatalog=data?.schemaVersion&&Array.isArray(data.contests)?data:null;
+ }catch{subjectCatalog=null;}
+}
 async function manifestLoad(){
  try{const r=await fetch('/manifest.json',{cache:'no-store'});if(!r.ok)throw Error('manifesto');const list=await r.json();if(Array.isArray(list))manifest=new Map(list.filter(a=>a.articleId).map(a=>[a.articleId,a]));}
  catch{manifest=new Map();}
@@ -496,5 +552,5 @@ $('results-logout').addEventListener('click',async()=>{
  try{await fetch('/v1/logout',{method:'POST',credentials:'same-origin',headers:{Origin:location.origin}});}catch{}
  current=null;root.hidden=true;status.textContent='Sessão encerrada neste navegador.';$('results-login').hidden=false;$('results-logout').hidden=true;
 });
-void manifestLoad().then(load);
+void Promise.all([manifestLoad(),catalogLoad()]).then(load);
 })();

@@ -67,7 +67,7 @@ jobs:
       - name: Montar artefato estático isolado (_site)
         run: node scripts/build-site.js
       - name: Conferir recomendações das questões, interface e catálogo
-        run: node scripts/test-quiz-insights.cjs && node scripts/test-results-by-subject.cjs && node scripts/test-results-retests.cjs
+        run: node scripts/test-quiz-insights.cjs && node scripts/test-results-by-subject.cjs && node scripts/test-results-retests.cjs && node scripts/test-results-planner.cjs
       - name: Auditar dados pessoais fora da publicação
         run: node scripts/test-public-privacy.js
       - name: Validar publicação dos flashcards

@@ -141,7 +141,7 @@ A análise de uma compra ou serviço deve reconstruir o processo inteiro:
 [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria|Créditos adicionais]] trata de alterações da dotação. [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio|Programação financeira]] explica limites de empenho e pagamento. [[3 - Materias/Orcamento Publico/CGU 2026 - receitas publicas registros e evidencias|Receitas públicas]] distingue entradas de caixa e arrecadação.
 
 - [Lei nº 4.320/1964: normas de direito financeiro](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): arts. 35 e 58 a 65.
-- [Manual de Contabilidade Aplicada ao Setor Público, 11ª edição: Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp): procedimentos contábeis orçamentários de despesa.
+- [Manual de Contabilidade Aplicada ao Setor Público, 11ª edição: Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1): procedimentos contábeis orçamentários de despesa.
 - [Edital CGU 2026 atualizado, Auditoria](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): programa de Finanças públicas, orçamento e contabilidade pública, item 3.1.
 
 **Estado editorial:** artigo próprio da CGU redigido para auditoria completa e certificação por ID; certificação, inspeção visual e reconciliação de referências com o legado ainda não declaradas.

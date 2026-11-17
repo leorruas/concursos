@@ -147,7 +147,7 @@ Para a estrutura de natureza, fonte de recursos, resultado primário e classific
 
 - [Lei nº 4.320/1964, texto atualizado na Câmara](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): arts. 3º, 30, 35, 52 a 57.
 - [Código Tributário Nacional, Lei nº 5.172/1966](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm): art. 142, lançamento tributário.
-- [MCASP, 11ª edição: Secretaria do Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp): Parte I, procedimentos contábeis orçamentários, etapas da receita.
+- [MCASP, 11ª edição: Secretaria do Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1): Parte I, procedimentos contábeis orçamentários, etapas da receita.
 - [Edital CGU 2026 atualizado, Auditoria](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): Finanças públicas, orçamento e contabilidade pública, itens 2.1 e 3.1.
 
 **Estado deste arquivo:** nota específica da CGU preparada para auditoria didática, jurídica, técnica e visual própria. A existência deste arquivo não transfere a certificação histórica da Câmara nem altera as referências antigas sem validação.

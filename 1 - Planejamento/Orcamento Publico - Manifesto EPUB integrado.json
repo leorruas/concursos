@@ -331,9 +331,10 @@
       "sourceArticleId": "art-87b69e1d4ac54f20",
       "topicKey": "creditos",
       "sequence": 8,
-      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
+      "revisionSha": "87f45dbf2b62712432181d8674aa27bddb561e2a"
     },
     {
       "chapterKey": "cgu-9-novo",
@@ -355,9 +356,10 @@
       "sourceArticleId": "art-0fb9b88e4d6c4151",
       "topicKey": "programacao",
       "sequence": 10,
-      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
+      "revisionSha": "863eb6aea31bc9bf117ba260a67ef2fc700951fe"
     },
     {
       "chapterKey": "cgu-11-novo",

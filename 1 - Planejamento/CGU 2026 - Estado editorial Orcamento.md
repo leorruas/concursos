@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: cinco-certificados-dez-em-auditoria
+status: sete-certificados-oito-em-auditoria
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -426,3 +426,27 @@ No artigo `art-83d7c5ef2a0b4916`, conferidos **10 de 10 itens C/E e suas justifi
 **Situação de aprovação:** mérito jurídico do capítulo de créditos conferido nessa primeira leitura, sem reivindicar inspeção visual individual nem publicação no SHA `a239c7c...` antes do resultado do workflow. Para uma certificação integral com ressalva visual, ainda registrar explicitamente a segunda passagem didática do texto, a evidência final do Pages para esse blob e eventuais fontes complementares. Os outros nove artigos permanecem com revisão jurídica integral pendente, mesmo com seus testes estruturais aprovados.
 
 **Próxima etapa:** completar leitura de mérito artigo por artigo, verificar o Pages do SHA final, certificar individualmente com ressalvas necessárias e só depois iniciar a migração coordenada dos dez IDs históricos da CGU, avaliando os 101 cartões de flashcards e glossário por seção. A nota transversal `art-9be1a39d536a47ea` permanece compartilhada.
+
+## Certificação editorial independente do segundo ciclo: créditos e programação (17/11/2026)
+
+**Base de certificação:** texto do edital consolidado conforme retificação de 6/11/2026, legislação oficial e manuais indicados nos próprios artigos, leitura de mérito e segunda leitura didática integral de cada artigo, teste de gabaritos, verificação dos caminhos existentes e [workflow 44188330526](https://github.com/leorruas/concursos/actions/runs/44188330526) no SHA `a239c7c17c7d2c4ae752cf5918b40a1c3cea13ba`, com conclusão **success**, incluindo etapas **Publicar no Pages** e **Confirmar catálogo publicado no Pages**. Os blobs listados foram preservados nesse workflow. A publicação e os gabaritos de cada artigo não dependem da certificação anterior da Câmara.
+
+### Créditos adicionais e evidências de auditoria
+
+- **Identificador CGU:** `art-83d7c5ef2a0b4916`; **blob do artigo:** `87f45dbf2b62712432181d8674aa27bddb561e2a`.
+- **Normas verificadas:** Lei nº 4.320/1964, arts. 40 a 43; Constituição Federal, arts. 165, § 8º, e 167, §§ 2º e 3º.
+- **Revisão individual:** A distinção suplementar/especial/extraordinário foi preservada. Os fundamentos de autorização, fontes, superávit financeiro, excesso de arrecadação, excepcionalidade, reabertura, crédito versus entrega e emenda parlamentar foram confrontados com a lei. Dez gabaritos e justificativas conferidos; exemplos progressivos, quadros e vínculos avaliados em segunda leitura didática.
+- **Validações:** 10 de 10 itens C/E com gabarito comentado, 4 wikilinks existentes, identidade única, navegação/catalogação CGU, build e Pages confirmados no SHA de publicação.
+- **Estado:** **revisão integral concluída com ressalva visual**.
+
+### Programação financeira, contingenciamento e bloqueio
+
+- **Identificador CGU:** `art-6f2c1ae9d483457b`; **blob do artigo:** `863eb6aea31bc9bf117ba260a67ef2fc700951fe`.
+- **Normas verificadas:** Lei Complementar nº 101/2000, arts. 8º e 9º; Lei Complementar nº 200/2023; Decreto nº 12.846/2026 e atualizações.
+- **Revisão individual:** Foram confrontados prazo de até 30 dias da programação, avaliação bimestral da receita, limitação de empenho e movimentação financeira, recomposição, distinção entre bloqueio e contingenciamento e natureza dos limites de empenho e pagamento. Dez gabaritos e justificativas conferidos; exemplos numéricos, perguntas de auditoria, tabelas e vínculos verificados em segunda leitura didática.
+- **Validações:** 10 de 10 itens C/E com gabarito comentado, 4 wikilinks existentes, identidade única, navegação/catalogação CGU, build e Pages confirmados no SHA de publicação.
+- **Estado:** **revisão integral concluída com ressalva visual**.
+
+**Ressalva visual para ambos:** inspeção manual individual no navegador não realizada. Não foram examinadas presencialmente as páginas em modo claro/escuro, largura mobile, contraste percebido, tabelas eventualmente cortadas, navegação de teclado, âncoras e estado dos componentes. As verificações automatizadas de navegação e de links não equivalem a essa inspeção. Não há defeito visual concreto comprovado; o teste permanece indisponível. A publicação do Markdown foi confirmada pelo workflow informado. A descoberta posterior de defeito real reabre a certificação da nota afetada.
+
+**Placar deste ciclo:** **2 de 10 artigos CGU derivados com revisão integral concluída com ressalva visual; 8 de 10 pendentes de auditoria individual de mérito; 20 de 100 itens C/E deste lote certificados editorialmente**. Somados aos cinco certificados anteriores, são **7 de 15 artigos CGU certificados com ressalva visual**. A migração das referências legadas e as decisões de inclusão no EPUB continuam bloqueadas até conferir os consumidores.

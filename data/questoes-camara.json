@@ -53299,6 +53299,286 @@
       "correctAnswer": "C",
       "explanation": "O acolhimento da representação atende à condição judicial. Quando a suspensão do ato resolve a situação, o decreto fica restrito à suspensão e a apreciação parlamentar é dispensada nessa hipótese. (Constituição Federal, arts. 34, VI, e 36, III e § 3º.)",
       "reviewEvidence": "Constituição Federal, arts. 34, VI, e 36, III e § 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Articula a provocação judicial, o limite do decreto e a exceção ao controle político."
+    },
+    {
+      "id": "cam-const-200-ministro-exposicao-iniciativa-propria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "ministro-exposicao-iniciativa-propria",
+      "mechanism": "ministro-exposicao-iniciativa-propria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#1.2 Comparecimento espontâneo de autoridades (CF, art. 50, § 1º)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "1.2 Comparecimento espontâneo de autoridades (CF, art. 50, § 1º)"
+      },
+      "statement": "Mediante entendimento prévio com a Mesa da Câmara, um ministro de Estado pode comparecer por iniciativa própria a comissão da Casa para expor assunto relevante de seu ministério.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição admite o comparecimento espontâneo para essa finalidade. O entendimento com a Mesa permite organizar a exposição sem depender de convocação da comissão. (Constituição Federal, art. 50, § 1º.)",
+      "reviewEvidence": "Constituição Federal, art. 50, § 1º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue iniciativa do ministro de convocação parlamentar."
+    },
+    {
+      "id": "cam-const-200-convocacao-ministro-falta-justificada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "convocacao-ministro-falta-justificada",
+      "mechanism": "convocacao-ministro-falta-justificada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#1.1 Convocação de autoridades do art. 50 da CF (redação da EC nº 132/2023)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "1.1 Convocação de autoridades do art. 50 da CF (redação da EC nº 132/2023)"
+      },
+      "statement": "O ministro regularmente convocado por comissão para prestar informações sobre assunto previamente determinado incorre na consequência constitucional prevista para a ausência mesmo se apresentar justificação adequada.",
+      "correctAnswer": "E",
+      "explanation": "O ponto incorreto é desconsiderar a justificação adequada. O art. 50 associa o crime de responsabilidade à falta sem justificação adequada, ainda que a convocação tenha observado os demais requisitos. (Constituição Federal, art. 50, caput.)",
+      "reviewEvidence": "Constituição Federal, art. 50, caput — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue regularidade da convocação e condição para a consequência jurídica."
+    },
+    {
+      "id": "cam-const-200-pedido-escrito-autoridade-falsa-tempestiva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-5df4de59dcebb840",
+      "conceptId": "pedido-escrito-autoridade-falsa-tempestiva",
+      "mechanism": "pedido-escrito-autoridade-falsa-tempestiva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-5df4de59dcebb840#1.3 Requerimentos de informação por escrito (CF, art. 50, § 2º c/c RICD, arts. 115 e 116)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas.md",
+        "section": "1.3 Requerimentos de informação por escrito (CF, art. 50, § 2º c/c RICD, arts. 115 e 116)"
+      },
+      "statement": "O titular de órgão diretamente subordinado à Presidência da República que presta informações falsas em resposta a pedido escrito encaminhado pela Mesa do Senado incorre na consequência constitucional prevista para essa conduta, mesmo que responda dentro de trinta dias.",
+      "correctAnswer": "C",
+      "explanation": "A autoridade integra a lista constitucional de destinatários. Responder no prazo evita a hipótese de atraso, mas a prestação de informações falsas é hipótese autônoma de crime de responsabilidade. (Constituição Federal, art. 50, caput e § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 50, caput e § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue legitimidade do destinatário, tempestividade e veracidade."
+    },
+    {
+      "id": "cam-const-200-auditoria-judiciario-iniciativa-propria",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "auditoria-judiciario-iniciativa-propria",
+      "mechanism": "auditoria-judiciario-iniciativa-propria",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "O Tribunal de Contas da União pode realizar, por iniciativa própria, auditoria patrimonial em unidade administrativa de órgão do Poder Judiciário federal.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo permite auditoria por iniciativa do próprio Tribunal e inclui as unidades administrativas do Judiciário. A fiscalização patrimonial diz respeito à gestão de bens. (Constituição Federal, art. 71, IV.)",
+      "reviewEvidence": "Constituição Federal, art. 71, IV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Combina iniciativa própria com o alcance administrativo da fiscalização."
+    },
+    {
+      "id": "cam-const-200-tcu-repasses-df-so-estados-municipios",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-repasses-df-so-estados-municipios",
+      "mechanism": "tcu-repasses-df-so-estados-municipios",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "A fiscalização pelo Tribunal de Contas da União dos recursos federais repassados mediante convênio alcança estados e municípios, mas exclui os repasses ao Distrito Federal.",
+      "correctAnswer": "E",
+      "explanation": "A exclusão do Distrito Federal está errada. O dispositivo alcança a aplicação de recursos federais repassados por convênio, acordo, ajuste ou instrumento semelhante aos três tipos de ente mencionados. (Constituição Federal, art. 71, VI.)",
+      "reviewEvidence": "Constituição Federal, art. 71, VI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a lista expressa de destinatários de recursos repassados."
+    },
+    {
+      "id": "cam-const-200-tcu-sancao-exige-previsao-legal",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-sancao-exige-previsao-legal",
+      "mechanism": "tcu-sancao-exige-previsao-legal",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Em caso de ilegalidade de despesa ou irregularidade de contas, compete ao Tribunal de Contas da União aplicar aos responsáveis as sanções previstas em lei.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição confere ao Tribunal essa competência sancionadora e remete à lei a previsão das sanções aplicáveis. (Constituição Federal, art. 71, VIII.)",
+      "reviewEvidence": "Constituição Federal, art. 71, VIII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece a base legal exigida para a sanção."
+    },
+    {
+      "id": "cam-const-200-tcu-ato-prazo-e-dupla-comunicacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-ato-prazo-e-dupla-comunicacao",
+      "mechanism": "tcu-ato-prazo-e-dupla-comunicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Atos administrativos, contratos e execução de decisões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Atos administrativos, contratos e execução de decisões"
+      },
+      "statement": "Verificada ilegalidade em ato administrativo federal, o Tribunal de Contas da União assinou prazo para corrigi-lo. Diante do descumprimento, pode sustar a execução do ato e cumprir o dever de comunicação constitucional informando apenas à Câmara dos Deputados.",
+      "correctAnswer": "E",
+      "explanation": "A sustação é possível após o descumprimento da determinação. O erro é limitar a comunicação à Câmara. A Constituição exige que a decisão seja comunicada à Câmara e ao Senado. (Constituição Federal, art. 71, IX e X.)",
+      "reviewEvidence": "Constituição Federal, art. 71, IX e X — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Verifica a sequência de correção, o objeto da sustação e os destinatários da comunicação."
+    },
+    {
+      "id": "cam-const-200-tcu-idade-setenta-exatos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-idade-setenta-exatos",
+      "mechanism": "tcu-idade-setenta-exatos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Composição do TCU"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Composição do TCU"
+      },
+      "statement": "Brasileiro que completou setenta anos satisfaz o requisito constitucional de idade para nomeação como ministro do Tribunal de Contas da União.",
+      "correctAnswer": "E",
+      "explanation": "O limite superior é estrito. A Constituição exige mais de trinta e cinco e menos de setenta anos. A pessoa que completou setenta anos já fica fora do intervalo. (Constituição Federal, art. 73, § 1º, I.)",
+      "reviewEvidence": "Constituição Federal, art. 73, § 1º, I — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica um limite de idade estrito em um caso de fronteira."
+    },
+    {
+      "id": "cam-const-200-tcu-quota-presidencial-dois-origens",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-quota-presidencial-dois-origens",
+      "mechanism": "tcu-quota-presidencial-dois-origens",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Escolha dos Ministros"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Escolha dos Ministros"
+      },
+      "statement": "Das três escolhas de ministros do Tribunal de Contas da União atribuídas ao Presidente da República, duas seguem a regra de alternância entre auditores e membros do Ministério Público junto ao Tribunal, com indicação em lista tríplice elaborada pelo próprio Tribunal.",
+      "correctAnswer": "C",
+      "explanation": "O Tribunal tem nove ministros. Um terço é de escolha presidencial, com aprovação do Senado. Duas escolhas dessa parcela seguem a alternância entre os grupos indicados, com lista tríplice elaborada pelo Tribunal segundo os critérios constitucionais. (Constituição Federal, art. 73, § 2º, I e II.)",
+      "reviewEvidence": "Constituição Federal, art. 73, § 2º, I e II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Relaciona as quotas aos dois grupos profissionais e à formação da lista."
+    },
+    {
+      "id": "cam-const-200-tce-numero-ministros-tcu-transposicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tce-numero-ministros-tcu-transposicao",
+      "mechanism": "tce-numero-ministros-tcu-transposicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Atualização normativa: EC 139/2026 e o art. 75"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Atualização normativa: EC 139/2026 e o art. 75"
+      },
+      "statement": "A aplicação, no que couber, das normas constitucionais do Tribunal de Contas da União aos tribunais estaduais permite que a constituição estadual fixe em nove o número de membros do seu tribunal de contas.",
+      "correctAnswer": "E",
+      "explanation": "A regra federal de nove ministros não pode ser transportada para o tribunal estadual. A própria Constituição Federal determina que os tribunais de contas estaduais sejam integrados por sete conselheiros. (Constituição Federal, art. 73, caput, e art. 75, parágrafo único.)",
+      "reviewEvidence": "Constituição Federal, art. 73, caput, e art. 75, parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Confronta a aplicação subsidiária das normas do Tribunal da União com a composição estadual expressa."
     }
   ]
 }

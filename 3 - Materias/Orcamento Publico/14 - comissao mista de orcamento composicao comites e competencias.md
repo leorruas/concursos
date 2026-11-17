@@ -12,7 +12,7 @@ updated: 2026-11-07
 
 ## Núcleo do conceito
 
-**Situação concreta.** Durante o exame do Projeto de Lei Orçamentária Anual (PLOA), uma emenda parlamentar propõe elevar a dotação de uma ação. O Comitê de Exame da Admissibilidade de Emendas verifica sua compatibilidade com os requisitos jurídicos e regimentais; relatores examinam as escolhas orçamentárias e a Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) delibera sobre relatórios e pareceres. A matéria pode, então, ser apreciada pelo Congresso Nacional. **Examinar admissibilidade, julgar mérito político e aprovar definitivamente a lei** são atribuições e momentos diferentes.
+**Situação concreta.** Durante o exame do **Projeto de Lei Orçamentária Anual (PLOA)**, isto é, a proposta de orçamento enviada pelo Executivo ao Congresso, uma parlamentar apresenta uma **emenda**, uma sugestão de alteração que aumenta o valor reservado para determinada ação. Esse valor é chamado de **dotação**. O **Comitê de Exame da Admissibilidade de Emendas (CAE)** verifica se a proposta atende às condições legais e regimentais para ser examinada. Depois, os **relatores**, parlamentares responsáveis por analisar partes do projeto e apresentar recomendações, examinam seu conteúdo. A **Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO)** vota relatórios e pareceres, conforme o procedimento. A matéria pode, então, ser apreciada pelo Congresso Nacional. **Examinar admissibilidade, julgar mérito político e aprovar definitivamente a lei** são atribuições e momentos diferentes.
 
 A **CMO** é a comissão mista permanente do Congresso Nacional prevista no **art. 166, § 1º, da Constituição Federal**. Seu funcionamento é disciplinado sobretudo pela **Resolução nº 1/2006-CN**, integrante do Regimento Comum, com alterações posteriores, inclusive da **Resolução nº 1/2025-CN**. O órgão examina projetos de **Plano Plurianual (PPA)**, **Lei de Diretrizes Orçamentárias (LDO)**, **Lei Orçamentária Anual (LOA)** e **créditos adicionais**, emite pareceres e exerce atribuições de **acompanhamento e fiscalização orçamentária**.
 
@@ -59,9 +59,9 @@ O **art. 18 da Resolução 1/2006-CN** determina quatro comitês. Os nomes são 
 | Comitê de Avaliação das Informações sobre Obras e Serviços com Indícios de Irregularidades Graves | **COI** | Que providências cabem diante de informações sobre obras e serviços com indícios graves? | **Indício de irregularidade** ≠ condenação definitiva |
 | Comitê de Exame da Admissibilidade de Emendas | **CAE** | A emenda atende a condições jurídicas e regimentais para ser apreciada? | **Admissibilidade** ≠ mérito político |
 
-**Composição dos comitês:** regra-base de **5 a 10 membros**, indicados pelas lideranças, sem computar os relatores adicionais previstos na resolução. Cada comitê possui **coordenador escolhido dentre os membros**. As designações obedecem à proporcionalidade partidária e entre as Casas, conforme arts. 18 e 19.
+**Composição dos comitês:** como regra básica, cada um reúne de **5 a 10 parlamentares** indicados pelas lideranças, além dos relatores que a resolução possa prever sem computá-los nesse número. Cada comitê escolhe um **coordenador** entre seus membros. A distribuição precisa observar as regras de proporcionalidade entre partidos e Casas, previstas nos arts. 18 e 19. **Exemplo:** a escolha dos participantes do comitê não transforma seu coordenador em presidente da CMO; os cargos têm competências distintas.
 
-**Deliberação interna:** relatórios dos comitês são aprovados por **maioria absoluta dos seus membros**, com voto de desempate do coordenador, segundo o art. 20, e encaminhados à **CMO para conhecimento e deliberação**. Portanto, **relatório aprovado no comitê não equivale a parecer do colegiado ou lei orçamentária aprovada**.
+**Deliberação interna:** conforme o art. 20, os relatórios dos comitês exigem **maioria absoluta dos membros**. Isso significa mais da metade do número total de membros, e não apenas dos presentes à reunião. Se o comitê tiver oito membros, por exemplo, a maioria absoluta corresponde a **cinco votos**. A resolução também disciplina o voto de desempate do coordenador. O relatório aprovado segue à **CMO**, que fará sua própria apreciação. Portanto, **relatório aprovado no comitê não equivale a parecer do colegiado ou lei orçamentária aprovada**.
 
 ### CFIS: acompanhamento da execução
 
@@ -79,7 +79,7 @@ Um projeto pode ter **receita subestimada ou superestimada**. Avaliar esses valo
 
 O COI examina informações sobre obras ou serviços com **indícios de irregularidades graves**, incluindo dados encaminhados pelo TCU. Pode subsidiar relatórios e encaminhamentos sobre suspensão ou continuidade, conforme arts. 23, 24 e 121 a 124. **Indício não é prova definitiva**, e o rito envolve manifestações, avaliações e decisões de órgãos competentes.
 
-O art. 123 prevê **caráter terminativo** para certo parecer da CMO sobre informações do TCU, **ressalvado recurso ao Plenário do Congresso Nacional**. Esse caso específico **não elimina a regra geral** de que projetos de PPA, LDO e LOA são deliberados pelo Congresso.
+O art. 123 prevê **caráter terminativo** para determinado parecer da CMO sobre informações do Tribunal de Contas da União (TCU). Nesse contexto, *terminativo* significa que a decisão da comissão pode encerrar aquela apreciação **sem votação automática do Plenário**, mas cabe **recurso ao Plenário do Congresso Nacional** conforme a norma. Esse procedimento se refere ao objeto específico do dispositivo, ligado a informações de obras e serviços. **Não permite concluir** que a CMO aprove definitivamente os projetos de PPA, LDO e LOA, que seguem a tramitação legislativa própria.
 
 ### CAE: admissibilidade das emendas
 
@@ -133,15 +133,15 @@ A banca pode trocar **30 deputados e 10 senadores** por uma composição inverti
 
 **1.** A composição-base da CMO prevista na Resolução nº 1/2006-CN é de trinta deputados e dez senadores titulares, com igual número de suplentes, e a distribuição de suas vagas observa regras de proporcionalidade partidária e entre as Casas.
 
-**Gabarito: Certo.** Arts. 5º e 6º. A composição-base não se confunde com a divisão de cadeiras eleitorais na Câmara ou com eventuais vagas adicionais previstas no Regimento Comum. **Mecanismo de erro:** confundir números e níveis de representação.
+**Gabarito: Certo.** Os arts. 5º e 6º da Resolução nº 1/2006-CN estabelecem a composição-base de **30 deputados e 10 senadores titulares** e igual número de suplentes, com distribuição segundo regras de representação partidária. **Suplente** é o parlamentar designado para substituir um titular nas hipóteses regimentais; por isso, os 40 titulares não são o total de titulares e suplentes. Eventuais vagas adicionais de minorias seguem a regra própria do Regimento Comum e não tornam falsa a descrição da composição-base.
 
 **2.** Ao Comitê de Avaliação da Receita compete decidir, em caráter definitivo, a admissibilidade das emendas, enquanto ao Comitê de Exame da Admissibilidade cabe reestimar as receitas do PLOA.
 
-**Gabarito: Errado.** As atribuições foram **invertidas**. O CAR avalia receitas; o CAE examina admissibilidade e propõe inadmissibilidade. Nenhum dos dois substitui, genericamente, a deliberação da CMO e do Congresso.
+**Gabarito: Errado.** O **Comitê de Avaliação da Receita (CAR)** estuda as estimativas de arrecadação que fundamentam o projeto. O **Comitê de Exame da Admissibilidade de Emendas (CAE)** verifica requisitos das emendas e propõe sua inadmissibilidade quando encontra impedimentos. O item atribui a cada comitê o trabalho do outro. Também erra ao dizer que o CAR pode **decidir em caráter definitivo** sobre emendas, como se substituísse as decisões da CMO e do Congresso.
 
 **3.** Na redação dada em 2025 ao art. 25 da Resolução nº 1/2006-CN, a votação prévia do relatório do Comitê de Admissibilidade é regra para a apreciação dos relatórios abrangidos, ressalvada deliberação em contrário do Plenário da CMO.
 
-**Gabarito: Certo.** Art. 25, § 1º, com redação da Resolução nº 1/2025-CN. **Mecanismo de erro:** transformar uma regra procedimental com exceção expressa em obrigação absoluta.
+**Gabarito: Certo.** O art. 25, § 1º, da Resolução nº 1/2006-CN, na redação de 2025, estabelece a votação prévia do relatório de admissibilidade como **regra** para os relatórios abrangidos. Mas o dispositivo permite **deliberação em contrário do Plenário da CMO**. Exemplo: se a comissão decidir validamente usar a ressalva, a falta dessa votação prévia não significa, por si só, descumprimento da regra. O item acerta porque apresenta tanto o procedimento normal quanto sua exceção.
 
 ## Relações com outros temas
 

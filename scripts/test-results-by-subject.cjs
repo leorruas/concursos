@@ -1,9 +1,10 @@
 /* Contrato de agrupamento por matéria, somente com registros sintéticos. */
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
+const path=require('node:path');
 const vm=require('node:vm');
-const source=fs.readFileSync(new URL('../web/13-results-ui.js',import.meta.url),'utf8');
-const html=fs.readFileSync(new URL('../resultados.html',import.meta.url),'utf8');
+const source=fs.readFileSync(path.resolve(__dirname,'../web/13-results-ui.js'),'utf8');
+const html=fs.readFileSync(path.resolve(__dirname,'../resultados.html'),'utf8');
 function extract(name,next){
  const a=source.indexOf('function '+name+'('),b=source.indexOf('function '+next+'(',a);
  assert(a>=0&&b>a,'Função ausente: '+name);

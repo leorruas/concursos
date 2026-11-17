@@ -17,19 +17,19 @@ aliases:
 
 ## Problema de entrada
 
-Uma secretaria precisa **aumentar dotação existente**. Outra quer financiar uma despesa **sem dotação específica**. Uma terceira enfrenta gastos decorrentes de **calamidade imprevisível e urgente**. As situações pedem análises distintas. Também é preciso separar as mudanças do orçamento feitas por **créditos adicionais** das **emendas parlamentares ao projeto orçamentário**, que pertencem a etapas e classificações diferentes.
+Imagine três situações. Uma escola recebeu autorização para gastar R$ 300 mil, mas precisa de R$ 400 mil. Um laboratório novo precisa de verba e sequer aparece no orçamento. Uma cidade enfrenta uma calamidade que exige gastos imprevisíveis e urgentes. Para cada caso, a lei prevê uma solução. O valor que o orçamento autoriza gastar em determinada ação recebe o nome de **dotação orçamentária**. Se a dotação já existe, pode ser reforçada; se não existe, talvez seja preciso criá-la. Também veremos por que uma **emenda parlamentar**, isto é, uma proposta de alteração apresentada durante a discussão de um projeto de lei, é diferente de um crédito adicional.
 
 O ponto decisivo é identificar o problema antes de escolher a regra: falta **valor**, falta **dotação**, existe **urgência extraordinária** ou se pretende **alterar o projeto de lei**?
 
 ## Núcleo do conceito
 
-A Lei nº 4.320/1964, art. 40, define **créditos adicionais** como autorizações de despesas não computadas ou insuficientemente dotadas na lei orçamentária. O crédito altera a **autorização orçamentária**: ele não equivale a recursos disponíveis em caixa, empenho, liquidação, pagamento ou entrega.
+A **Lei nº 4.320/1964**, que estabelece regras gerais de orçamento e contabilidade pública, chama de **créditos adicionais** as autorizações para despesas que não receberam verba específica ou receberam valor insuficiente na lei orçamentária (art. 40). **Crédito orçamentário** é a autorização legal para gastar até determinado valor em uma programação; **crédito adicional** modifica essa autorização. Ter permissão para gastar não significa ter dinheiro disponível naquele momento. Também não significa que a despesa tenha sido contratada, conferida ou paga.
 
 **Emenda parlamentar** é proposta de alteração de projeto de lei orçamentária, apresentada no processo legislativo e sujeita a condições constitucionais e legais. Ela pode originar uma programação de despesa, inclusive impositiva em situações específicas, mas não é uma das três espécies de crédito adicional.
 
 ### Por que crédito especial e emenda parlamentar podem aparecer juntos?
 
-Considere um caso hipotético. A LOA não contém **dotação específica** para um laboratório. Para incluir essa despesa durante o exercício, o Executivo encaminha um **projeto de lei de crédito especial**: a espécie de crédito depende da ausência da dotação, ainda que a obra já esteja prevista no PPA. Enquanto o Congresso analisa esse projeto, um parlamentar propõe uma **emenda** para modificar o valor ou a programação. Nesse cenário, o **crédito especial** é a autorização que se pretende criar; a **emenda parlamentar** é a proposta de alterar o projeto em tramitação.
+Considere um caso hipotético. A **Lei Orçamentária Anual (LOA)** não reservou valor específico para um laboratório. O **PPA (Plano Plurianual)**, que organiza objetivos e investimentos para um período de quatro anos, pode até prever essa iniciativa; isso não substitui a autorização anual de despesa. Para incluir a verba durante o exercício, o **Poder Executivo** (responsável por elaborar a proposta e executar o orçamento) encaminha um **projeto de lei de crédito especial** ao Congresso. Durante a análise, um deputado pode apresentar uma **emenda** para modificar o projeto. Nesse cenário, o **crédito especial** é a autorização que se pretende criar; a **emenda parlamentar** é a proposta de alterar o projeto em tramitação.
 
 Uma emenda pode aumentar, reduzir ou modificar uma programação conforme as regras aplicáveis, mas **não basta ao deputado escolher um valor livremente**. Há requisitos de compatibilidade, indicação de recursos em hipóteses constitucionais e restrições a dotações que podem ser anuladas. O detalhamento está em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção “Emendas aos projetos orçamentários: critérios”. A iniciativa do Executivo e o poder parlamentar de emenda são papéis diferentes.
 
@@ -65,7 +65,7 @@ A Lei nº 4.320/1964, art. 44, prevê decreto com comunicação imediata ao Legi
 
 ## Autorização × abertura
 
-**Autorização legislativa** é permissão jurídica prévia. **Abertura** efetiva o crédito, indicando montante, espécie e classificação da despesa, conforme a Lei nº 4.320/1964, art. 46.
+**Autorização legislativa** é a permissão dada por lei. **Abertura** é o ato que torna o crédito operacional, indicando seu valor, sua espécie e a despesa que poderá ser atendida. A Lei nº 4.320/1964, art. 46, determina que o ato de abertura indique a importância, a espécie e a classificação da despesa, até onde for possível. Por exemplo: o Congresso aprova a lei que autoriza um crédito especial; depois, o Executivo o abre na forma legal. Isso ainda não representa pagamento.
 
 A Constituição, art. 167, V, veda abertura de crédito **suplementar ou especial** sem **prévia autorização legislativa e indicação dos recursos**. A Lei nº 4.320/1964, art. 42, prevê autorização por lei e abertura por decreto executivo. A **LOA** pode autorizar créditos **suplementares** como exceção ao princípio da exclusividade (CF, art. 165, § 8º).
 
@@ -73,7 +73,7 @@ A possibilidade de autorização suplementar na própria LOA não é autorizaç�
 
 ## Recursos disponíveis para suplementares e especiais
 
-A Lei nº 4.320/1964, art. 43, exige **recursos disponíveis e não comprometidos** e justificativa. As fontes do § 1º são:
+Para abrir créditos suplementares ou especiais, a administração precisa justificar a mudança e demonstrar a existência de **recursos disponíveis e ainda não comprometidos com outras despesas**. É a exigência do art. 43 da Lei nº 4.320/1964. O § 1º apresenta quatro possíveis origens desses recursos:
 
 | Fonte | Base de apuração | Confusão típica |
 | :--- | :--- | :--- |
@@ -82,17 +82,17 @@ A Lei nº 4.320/1964, art. 43, exige **recursos disponíveis e não comprometido
 | **Anulação de dotações** | Cancelamento parcial ou total de dotações ou créditos, autorizado em lei | Tratar remanejamento como dinheiro novo |
 | **Operações de crédito autorizadas** | Produto de operação juridicamente viável | Presumir liberdade ilimitada para endividamento |
 
-O art. 43, § 4º, determina ajuste no cálculo dos recursos utilizáveis provenientes do excesso de arrecadação, deduzindo os créditos extraordinários abertos no exercício.
+O art. 43, § 4º, estabelece outra cautela: ao calcular quanto do excesso de arrecadação pode financiar novos créditos, é necessário deduzir o valor dos créditos extraordinários abertos no mesmo exercício. Assim, um valor já usado para atender uma emergência não pode ser contado novamente como fonte livre.
 
 ### Superávit financeiro × excesso de arrecadação
 
-O **superávit financeiro** usado como fonte decorre de situação financeira apurada no **exercício anterior**, com os ajustes normativos pertinentes. O **excesso de arrecadação** compara o que está entrando no **exercício corrente** com o que foi previsto, considerando a evolução acumulada e a tendência.
+O **superávit financeiro** olha para o que sobrou, nas condições da lei, ao final do **ano anterior**. O **excesso de arrecadação** compara as receitas que entraram no **ano atual** com as previstas para o mesmo período e considera a tendência para os meses restantes. São formas diferentes de identificar recursos, e nenhuma delas autoriza ignorar despesas já comprometidas ou a finalidade legal de cada fonte.
 
 **Não substituir por superávit primário**: esse é um indicador fiscal de outra finalidade, discutido em [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]].
 
 ### Cálculo de recursos disponíveis: duas provas diferentes
 
-**Superávit financeiro do exercício anterior.** Considere, apenas para ilustrar a conta inicial, ativo financeiro de R$ 920 mil e passivo financeiro de R$ 710 mil no balanço de 31 de dezembro. A diferença positiva é **R$ 210 mil**. Essa subtração, isoladamente, **não garante** R$ 210 mil utilizáveis em qualquer crédito: o art. 43, § 2º, exige conjugar os saldos de créditos adicionais transferidos e as operações de crédito a eles vinculadas. Também é indispensável verificar o comprometimento e a **destinação legal de cada fonte**. No exercício seguinte, a apuração parte do balanço anterior, não de uma estimativa de arrecadação corrente.
+**Superávit financeiro do exercício anterior.** O **ativo financeiro** reúne disponibilidades e direitos financeiros considerados nesse cálculo; o **passivo financeiro** reúne obrigações financeiras a considerar. Imagine que o balanço patrimonial, relatório que mostra a situação do patrimônio ao fim do ano, registre ativo financeiro de R$ 920 mil e passivo financeiro de R$ 710 mil em 31 de dezembro. A diferença positiva é **R$ 210 mil**. Essa subtração, isoladamente, **não garante** R$ 210 mil utilizáveis em qualquer crédito: o art. 43, § 2º, exige conjugar os saldos de créditos adicionais transferidos e as operações de crédito a eles vinculadas. Também é indispensável verificar o comprometimento e a **destinação legal de cada fonte**. No exercício seguinte, a apuração parte do balanço anterior, não de uma estimativa de arrecadação corrente.
 
 **Excesso de arrecadação do exercício corrente.** Imagine que até agosto tenham sido arrecadados R$ 12 milhões, ante R$ 11 milhões previstos para o mesmo período, com tendência positiva sustentável no restante do ano. A diferença acumulada é de **R$ 1 milhão**, mas o valor aproveitável ainda depende da avaliação da tendência, dos compromissos, das fontes e do ajuste exigido no **art. 43, § 4º, da Lei nº 4.320/1964** para créditos extraordinários abertos no exercício. Se houver R$ 200 mil de créditos extraordinários a deduzir nessa apuração, o saldo ilustrativo cai para **R$ 800 mil**, antes de outros condicionantes. Não se deve usar apenas a arrecadação de agosto nem concluir que o total é caixa livre.
 
@@ -138,7 +138,7 @@ Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas 
 
 ## Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação
 
-**CAM-ORC-012: reaproveitamento da nota canônica.** O [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|processamento legislativo das leis orçamentárias]] inclui projetos de créditos adicionais, mas a tramitação não altera a **espécie jurídica** do crédito. No glossário do Congresso, **crédito orçamentário** é a autorização de despesas, expressa em valores monetários na Lei Orçamentária Anual (LOA), para determinada programação; **crédito adicional** é o instrumento de ajuste dessa autorização quando inexistente ou insuficiente. O adicional **não se confunde** com receita nova, disponibilidade financeira, empenho ou pagamento.
+O [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|processamento legislativo das leis orçamentárias]] inclui projetos de créditos adicionais, mas a tramitação não altera a **espécie jurídica** do crédito. No glossário do Congresso, **crédito orçamentário** é a autorização de despesas, expressa em valores monetários na Lei Orçamentária Anual (LOA), para determinada programação; **crédito adicional** é o instrumento de ajuste dessa autorização quando inexistente ou insuficiente. O adicional **não se confunde** com receita nova, disponibilidade financeira, empenho ou pagamento.
 
 | Situação em uma unidade orçamentária | Instrumento ou providência | Por que os outros não servem automaticamente |
 | :--- | :--- | :--- |

@@ -16,7 +16,7 @@ aliases:
 
 ## Núcleo do conceito
 
-O orçamento de uma universidade autoriza R$ 600 mil para equipamentos. A universidade contrata o fornecimento, recebe parte dos bens, verifica a documentação e paga posteriormente. Cada etapa responde a uma pergunta diferente: **há autorização? a dotação foi comprometida? o credor tem direito comprovado? houve desembolso?**
+Imagine que uma universidade tenha **R$ 600 mil autorizados na Lei Orçamentária Anual (LOA)** para comprar equipamentos. A unidade responsável decide contratar uma parte, registra o compromisso, recebe os bens e confere a documentação. Somente depois a administração autoriza o pagamento. Em cada momento, muda a pergunta: **o orçamento permite o gasto? o valor já foi empenhado? o fornecedor entregou o que devia? o dinheiro foi pago?**
 
 A estrutura didática combina a **fixação da despesa**, etapa de planejamento, com três estágios de execução: **empenho, liquidação e pagamento**. Na **fixação**, a Lei Orçamentária Anual (LOA) autoriza quanto se pode gastar. No **empenho**, a autoridade competente compromete parte dessa autorização para determinada despesa. Na **liquidação**, o órgão confere documentos e execução do objeto para verificar o direito do credor, isto é, de quem deve receber. No **pagamento**, a autoridade competente ordena e o órgão realiza o desembolso. Os arts. 58 a 65 da Lei nº 4.320/1964 dão a base jurídica dessa sequência.
 
@@ -31,7 +31,7 @@ Não confundir essa sequência com as quatro fases do [[3 - Materias/Orcamento P
 | **Liquidação** | Há direito comprovado do credor? | Verificação de objeto, valor e credor | Que houve pagamento |
 | **Pagamento** | A obrigação foi quitada? | Ordem e desembolso regular | Que a política alcançou impacto social |
 
-A mesma despesa pode estar **empenhada e ainda não liquidada**, ou **liquidada e ainda não paga**. Ambos os estados importam para auditoria e para **restos a pagar**.
+Exemplo: a universidade empenha **R$ 80 mil** para 40 equipamentos de R$ 2 mil cada. Recebe e aceita 20 equipamentos, liquida **R$ 40 mil** e paga **R$ 30 mil**. Nesse momento, há **R$ 40 mil empenhados ainda não liquidados** e **R$ 10 mil liquidados ainda não pagos**. Esses valores são parcelas do mesmo empenho, não novas despesas. Se chegar o fim do exercício com valores empenhados e não pagos, será necessário examinar sua inscrição em **restos a pagar**, segundo as regras próprias.
 
 ## Fixação: orçamento autorizado
 
@@ -43,7 +43,7 @@ A distinção entre dotação, limite de empenho e dinheiro em caixa está em [[
 
 ## Empenho: reserva e obrigação orçamentária
 
-A Lei nº 4.320/1964, art. 58, conceitua **empenho** como ato da autoridade competente que cria para o Estado obrigação de pagamento **pendente ou não de implemento de condição**. A expressão **“ou não”** integra a redação legal atualizada após rejeição de veto: a prova pode suprimi-la para restringir indevidamente o alcance da definição. O art. 59 veda empenhos acima do limite dos créditos concedidos. O art. 60 determina **prévio empenho** para realização da despesa.
+A Lei nº 4.320/1964, **art. 58**, define **empenho** como ato da autoridade competente que cria para o Estado obrigação de pagamento **pendente ou não de implemento de condição**. *Implemento de condição* significa a ocorrência de um fato exigido para que a obrigação produza determinado efeito, como a entrega contratada. A definição legal também abrange obrigações que não dependam de condição futura. Por isso, a expressão **“ou não”**, mantida após rejeição de veto, é importante na Cebraspe. O **art. 59** impede empenhar acima do limite do crédito orçamentário concedido; o **art. 60** exige empenho antes de realizar a despesa. Essa autorização vem da dotação, não do empenho.
 
 O empenho **não é prova de entrega** e tampouco corresponde ao pagamento. A existência de condição a implementar não pode ser presumida em todos os casos; a liquidação verifica documentalmente o direito adquirido pelo credor. Uma compra pode ser empenhada e posteriormente cancelada ou anulada, conforme sua situação e regras pertinentes. A constituição orçamentária do compromisso também não é, automaticamente, o reconhecimento patrimonial final da despesa.
 
@@ -57,7 +57,7 @@ A **nota de empenho** é o documento que registra informações do ato, como cre
 
 ### Empenho ordinário, global e estimativo
 
-A classificação das modalidades depende do **montante conhecido** e da **forma de execução**, e não da simples existência de contrato.
+A escolha entre as modalidades de empenho depende principalmente de duas informações: **é possível saber o valor total antes da execução?** e **o pagamento ocorrerá de uma vez ou em parcelas?** A simples existência de contrato não determina a modalidade. A tabela compara os três casos.
 
 | Modalidade | Regra de reconhecimento | Exemplo |
 | :--- | :--- | :--- |
@@ -71,7 +71,7 @@ A Lei nº 4.320/1964, art. 60, § 2º, prevê empenho **por estimativa** quando 
 
 ### Reforço e anulação
 
-Empenhos estimativos podem exigir **reforço** se a estimativa inicial se mostrar insuficiente, observados crédito e procedimentos. A **anulação de empenho** desfaz, nos limites legais, compromisso orçamentário; não se confunde com **anulação de dotação**, que altera autorização e pode fundamentar abertura de outro crédito.
+Se um órgão estimou e empenhou **R$ 20 mil** para consumo de energia, mas a despesa prevista passou a **R$ 24 mil**, poderá ser necessário **reforçar o empenho em R$ 4 mil**, desde que haja crédito disponível e sejam observados os procedimentos. Já a **anulação de empenho** reduz ou desfaz um compromisso registrado, nas condições aplicáveis. Ela difere da **anulação de dotação**, que reduz uma autorização do orçamento e pode ser utilizada como fonte para abrir outro crédito orçamentário. Nenhuma dessas operações elimina automaticamente uma obrigação já comprovada perante o fornecedor.
 
 O estágio da despesa deve ser analisado com documentos, regras de encerramento e direitos adquiridos de terceiros. Anular registros não elimina, por si, obrigação material comprovada.
 
@@ -79,10 +79,10 @@ O estágio da despesa deve ser analisado com documentos, regras de encerramento 
 
 Segundo a Lei nº 4.320/1964, art. 63, a **liquidação** verifica o **direito adquirido pelo credor**, com base nos títulos e documentos comprobatórios do respectivo crédito.
 
-A verificação busca apurar:
-1. **Origem e objeto** da obrigação.
-2. **Importância exata** a pagar.
-3. **Pessoa a quem se deve pagar** para extinguir a obrigação.
+A equipe responsável pela liquidação usa os documentos do processo para responder às três perguntas do **art. 63, § 1º**:
+1. **O que originou a obrigação e qual bem ou serviço deve ser pago?**
+2. **Qual é o valor exato devido?**
+3. **Quem é o credor**, isto é, quem tem direito a receber para extinguir a dívida?
 
 Para fornecimentos e serviços, o § 2º estabelece, como bases de liquidação, **contrato, ajuste ou acordo**, **nota de empenho** e **comprovantes de entrega do material ou prestação efetiva do serviço**, observadas as hipóteses normativas aplicáveis.
 
@@ -92,7 +92,7 @@ Uma nota fiscal de R$ 100 mil não prova, por si, que os produtos foram entregue
 
 **Liquidação parcial não é liquidação antes da entrega.** Suponha que o órgão tenha empenhado **R$ 80 mil** para comprar **40 equipamentos de mesmo preço**. Se **20 equipamentos** forem entregues e aceitos com a documentação necessária, poderá, em regra, **liquidar R$ 40 mil**, mantendo a parte restante do empenho para a execução pendente, segundo o contrato. Isso não autoriza liquidar os outros R$ 40 mil **antes de comprovar a entrega correspondente**. O empenho cobre o compromisso previsto; a liquidação verifica o direito do credor quanto ao **objeto efetivamente executado** (art. 63 da Lei nº 4.320/1964).
 
-**Recebimento contratual × liquidação:** o **art. 140 da Lei nº 14.133/2021** distingue recebimento **provisório e definitivo**, com procedimentos diferentes para obras/serviços e compras. O **aceite definitivo** comprova o atendimento às exigências contratuais na forma aplicável, mas **não se confunde com o estágio orçamentário da liquidação** (Lei nº 4.320/1964, art. 63). O objeto pode ser rejeitado no todo ou em parte; o recebimento, inclusive definitivo, **não elimina automaticamente a responsabilidade do contratado**. Na auditoria, exigir a cadeia documental apropriada ao contrato, e não presumir que a emissão de fatura ou de ateste genérico substitua todos os controles.
+**Recebimento contratual × liquidação:** pelo **art. 140 da Lei nº 14.133/2021**, a administração recebe bens, obras e serviços de modo **provisório** e, depois das verificações aplicáveis, **definitivo**. Os responsáveis e os documentos variam conforme a contratação. O fiscal acompanha a execução e registra o que ocorreu; o responsável pelo recebimento verifica o objeto segundo as regras do contrato. A **liquidação**, prevista no art. 63 da Lei nº 4.320/1964, utiliza a documentação pertinente para verificar **a quem, por qual objeto e quanto pagar**. Mesmo o recebimento definitivo não substitui, por si só, essa análise orçamentária, nem elimina as responsabilidades legais do contratado. Uma nota fiscal isolada também não prova que todos os bens chegaram.
 
 A atuação do fiscal de contrato produz informações relevantes, mas **fiscalizar o contrato** e **liquidar a despesa** cumprem funções distintas. O contrato é tratado em [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]].
 
@@ -104,7 +104,7 @@ Liquidar significa verificar o direito de receber. **Pagar** é realizar o desem
 
 ## Pagamento e ordem de pagamento
 
-O art. 62 da Lei nº 4.320/1964 dispõe que o pagamento da despesa depende de **regular liquidação**. O art. 64 define **ordem de pagamento** como despacho de autoridade competente que determina pagar. O art. 65 disciplina as formas de pagamento admitidas.
+Depois da liquidação, a **autoridade competente emite a ordem de pagamento**, isto é, determina formalmente que a despesa seja paga (**art. 64 da Lei nº 4.320/1964**). O setor responsável realiza o desembolso pelos meios permitidos (**art. 65**). O **art. 62** exige que essa ordem venha após liquidação regular. Por exemplo, uma nota fiscal de R$ 40 mil, acompanhada dos documentos de entrega e da conferência do valor devido, pode fundamentar a liquidação; a ordem autoriza a etapa seguinte, enquanto o comprovante bancário mostra se o dinheiro efetivamente saiu.
 
 A ordem de pagamento não constitui um quarto **estágio de execução** autônomo na apresentação clássica de empenho, liquidação e pagamento; integra o procedimento deste último.
 
@@ -120,7 +120,7 @@ A diferença entre **restos a pagar processados e não processados**, sua inscri
 
 ### Orçamentário × patrimonial
 
-A despesa **orçamentária** se refere à autorização e execução de créditos. No enfoque **patrimonial**, ativos e variações patrimoniais seguem reconhecimento próprio, pelo regime de competência. A aquisição de equipamento pode gerar **despesa orçamentária de capital** e simultaneamente **registro de ativo**, sem constituir variação patrimonial diminutiva do mesmo montante no instante da compra.
+A despesa **orçamentária** mostra o uso da autorização prevista no orçamento. A contabilidade **patrimonial** também registra bens, direitos, dívidas e alterações no patrimônio, usando regras próprias do **regime de competência**: os efeitos são reconhecidos conforme os fatos que os produzem, e não apenas quando o dinheiro é pago. Assim, comprar um computador pode gerar **despesa orçamentária de capital** e, ao mesmo tempo, o registro de um **ativo** (bem da universidade). A aquisição, por si só, não significa que todo o valor seja reconhecido imediatamente como **Variação Patrimonial Diminutiva (VPD)**, isto é, redução do patrimônio líquido.
 
 Isso se conecta a [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]. O art. 35 não autoriza afirmar que toda variação patrimonial diminutiva deve ser reconhecida somente quando houver empenho.
 
@@ -144,13 +144,13 @@ Esses mecanismos são sugestões didáticas fundadas nas normas, não estatísti
 
 ## Questões comentadas: treino didático C/E
 
-**Item 1.** A dispensa legal de emissão da nota de empenho equivale à autorização genérica para realizar despesa sem empenho prévio. **Gabarito: Errado.** O art. 60, § 1º, refere-se ao **documento**, enquanto o caput estabelece a exigência de prévio empenho.
+**Item 1.** A dispensa legal de emissão da nota de empenho equivale à autorização genérica para realizar despesa sem empenho prévio. **Gabarito: Errado.** O **empenho** é o ato que compromete crédito orçamentário; a **nota de empenho** é o documento que o registra. O art. 60, § 1º, permite dispensar a emissão do documento nos casos especiais previstos em lei. O caput do mesmo artigo mantém a regra de **empenho prévio**. A questão atribui à dispensa da nota um efeito que a lei não prevê.
 
-**Item 2.** O empenho estimativo é apropriado quando o montante não pode ser previamente determinado; o global pode ser utilizado quando o valor contratual é conhecido e sujeito a parcelamento. **Gabarito: Certo.** A assertiva distingue **incerteza de valor** de **parcelamento**.
+**Item 2.** O empenho estimativo é apropriado quando o montante não pode ser previamente determinado; o global pode ser utilizado quando o valor contratual é conhecido e sujeito a parcelamento. **Gabarito: Certo.** Se não se sabe previamente o custo total da energia elétrica consumida, a despesa pode exigir **empenho por estimativa** (art. 60, § 2º). Se um contrato prevê doze parcelas de R$ 20 mil, totalizando R$ 240 mil conhecidos desde o início, cabe, em regra, **empenho global** (§ 3º). Parcelamento e incerteza de valor não são sinônimos.
 
 **Item 3.** A liquidação verifica o direito adquirido pelo credor, mediante documentos pertinentes, e pode ocorrer antes do pagamento efetivo. **Gabarito: Certo.** Primeiro o órgão verifica o direito do fornecedor, o objeto entregue e o valor devido (art. 63). Só depois pode realizar o pagamento regularmente liquidado, mediante ordem competente (arts. 62 e 64). Assim, uma obrigação pode estar liquidada e ainda aguardar dinheiro ou autorização para pagar.
 
-**Item 4.** Nos termos do art. 58 da Lei nº 4.320/1964, todo empenho cria obrigação de pagamento ainda pendente de implemento de condição. **Gabarito: Errado.** A definição legal abrange obrigação **pendente ou não** de implemento de condição. Excluir a locução “ou não” altera o alcance do dispositivo.
+**Item 4.** Nos termos do art. 58 da Lei nº 4.320/1964, todo empenho cria obrigação de pagamento ainda pendente de implemento de condição. **Gabarito: Errado.** *Implemento de condição* é a ocorrência de um fato de que depende determinada consequência jurídica. O art. 58 abrange obrigação de pagamento **pendente ou não** desse fato. A palavra **“todo”** e a exclusão de **“ou não”** tornam a afirmativa mais restrita que a lei.
 
 São itens inéditos de aprendizagem. Não constituem desempenho registrado nem questões oficiais.
 

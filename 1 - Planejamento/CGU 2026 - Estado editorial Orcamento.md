@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: revisao-em-andamento
+status: integracao-catalogo-aprovada-pages-pendente
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -192,3 +192,19 @@ Foi identificada e corrigida **citação normativa incorreta em revisão anterio
 **Integração continua impedida:** a issue [#362](https://github.com/leorruas/concursos/issues/362) está aberta e o catálogo `data/catalogo-materias-por-concurso.json` (blob `2a410af8e42d8a7de774e0e5889837b98de6ab27`) contém somente PPA/LDO/LOA entre esses cinco IDs; ciclo, esferas, princípios e classificações não foram integrados. Os testes `scripts/test-article-identity.js`, `scripts/test-contest-catalog.js` e `scripts/test-contest-article-filter.js` foram inspecionados; os dois últimos confirmam por código que a interface do concurso depende do catálogo. O workflow de Pages foi inspecionado, mas a execução CI de cada commit e a publicação servida não foram comprovadas pelo conector (o endpoint disponível é de PR). Não afirmar sucesso.
 
 **Estado geral:** cinco artigos CGU trabalhados, 48 itens C/E e **zero artigos integralmente certificados**. Próxima etapa: integração coordenada de IDs/navegação via #362, validação do último HEAD e Pages, auditoria jurídica/didática final por ID. Nenhum arquivo compartilhado, artigo da Câmara, questão do banco ou EPUB foi alterado nesta execução.
+
+## Integração técnica concluída na main: PR #363, 17/11/2026
+
+A integração anteriormente bloqueada na issue [#362](https://github.com/leorruas/concursos/issues/362) foi preparada em branch isolada `coord/cgu-orcamento-integracao-362`, revisada contra o estado da `main` e integrada por **squash merge** do [PR #363](https://github.com/leorruas/concursos/pull/363). **Commit integrado na main:** `2c26b3219101bae1686136fa66e70b91af0e70c4`. A releitura remota da main confirmou o catálogo atualizado, o índice, o hub, o percurso editorial e os vínculos dos flashcards. Essa operação coordenada respeitou a propriedade de arquivos e manteve os 21 `articleIds` de Orçamento Público da Câmara intactos.
+
+**Quatro substituições realizadas somente no catálogo de Orçamento Público da CGU:** ciclo `art-f6cfe9fbcc764554` → `art-a07c26f4e92031ab`; esferas `art-74d90e9fa1b3452c` → `art-c84d6e02f3b7a915`; princípios `art-a2f47c0d6e184e93` → `art-b419ac8206de7f35`; classificações `art-d8b1c5e6037249fa` → `art-e6b481a230fc795d`. A entrada própria de PPA, LDO e LOA `art-9dc8a6e2f31b47c0`, os dois IDs adicionais não inventariados e os demais legados foram preservados.
+
+**Navegação:** quatro links CGU acrescentados ao `index.md`, nova seção com as cinco entradas no hub histórico, quatro substituições no percurso CGU. As referências antigas da Câmara não foram excluídas. O manifesto e a lista filtrada do concurso foram testados pelo workflow da PR.
+
+**11 flashcards CGU reconciliados:** nove com `note.articleId` apontando para a nova nota CGU de princípios e dois para a nova nota de ciclo. Os 11 campos `note.section` apontam para seções de fato existentes nos novos arquivos. IDs e enunciados dos cartões foram preservados; não houve alteração no banco de questões da Câmara.
+
+**Evidência de CI:** workflow `Validar site público (PR)`, execução [44169126435](https://github.com/leorruas/concursos/actions/runs/44169126435), conclusão `success`, para HEAD da PR `46a1d59b036387a28b200d413a90e612cef4b1e0`. Foram constatados testes de identidade, catálogo, filtro CGU/Câmara, invariantes, build, privacidade, flashcards, glossário e busca aprovados. Duas tentativas anteriores falharam em asserções antigas de contexto orçamentário em `scripts/test-contest-article-filter.js`; o teste foi corrigido e a última execução passou, incluindo verificação da permanência do artigo histórico na Câmara. A última execução da PR passou, **mas não é prova de deploy Pages do merge**.
+
+**Pages:** não foi possível confirmar a execução do workflow de publicação na `main` nem o catálogo realmente servido na URL pública `https://leorruas.github.io/concursos/data/catalogo-materias-por-concurso.json`. A leitura pública não retornou conteúdo verificável por esta interface, e a consulta do conector de GitHub Actions expõe somente runs de PR. É necessário conferir o workflow `Publicar no GitHub Pages` do commit integrado e a URL servida antes de declarar publicação confirmada.
+
+**Certificação:** 5 artigos exclusivos CGU trabalhados, 48 questões C/E didáticas e **0 certificações editoriais finais formalizadas**. A integração de catálogo e os testes da PR estão comprovados; permanece auditoria jurídica/didática de fechamento por ID, conferência das fontes e do site ao vivo e certificação por SHA. A etapa posterior de separação dos demais legados do percurso CGU continua pendente. Nenhum EPUB foi gerado.

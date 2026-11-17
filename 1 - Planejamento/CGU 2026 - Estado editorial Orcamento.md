@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: revisao-editorial-em-validacao
+status: revisao-em-andamento
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -81,3 +81,13 @@ O futuro EPUB poderá agrupar conceitos equivalentes por `topicKey`, mantendo `a
 
 
 **Próximo gate:** verificar CI/Pages e vínculos de glossário/flashcards do artigo PPA/LDO/LOA no SHA acima, corrigir problemas concretos e somente então classificar a certificação. Em seguida, criar derivados CGU dos legados, um por vez, com IDs novos, sem editar os originais. Requisitar à coordenação a operação atômica de vínculo após cada lote.
+
+## Execução complementar: 17/11/2026, capítulo CGU sobre ciclo orçamentário
+
+- **Novo artigo exclusivo:** `3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria.md`, `articleId: art-a07c26f4e92031ab`, `concursoId: cgu-2026`, `derivedFromArticleId: art-f6cfe9fbcc764554`. A fonte legada permanece intacta.
+- **Escopo do edital verificado:** bloco Finanças públicas, orçamento e contabilidade pública, itens 2.1, 3.1 e 5.1, no PDF oficial com retificação de 06/11/2026 (página 48 do PDF, índice de página 47). Consulta visual e textual do programa oficial.
+- **Conteúdo produzido:** fases do ciclo, autorização versus caixa, execução orçamentária versus financeira, controles, competências, evidências e exemplo progressivo com diferença entre entrega e resultado; linguagem simples, tabelas de fronteiras, oito itens didáticos Certo/Errado com comentários, vínculos internos e referências normativas. Fontes: Constituição, arts. 70, 74 e 165; Lei nº 4.320/1964, arts. 2º e 58 a 65; LRF, arts. 8º e 9º; edital CGU retificado.
+- **Publicação do conteúdo na main:** criação `5c9382a42a69ec1b44d260f7c2458daf8a9d5068`; correção imediata da forma do ID `66d533f26169e10487c248a2fa3bff41b9190a3a` (blob `9e4a6fec2d0b5aad1af5ede723e81ea3ec81baff`). O ID atual é hexadecimal de 16 caracteres e não replica o ID da fonte.
+- **Pendência de coordenação obrigatória:** adicionar o novo ID e caminho à navegação `index.md`, hub, percurso e catálogo CGU v2; auditar referências de `theoryRefs`, glossário e flashcards para o novo ID antes de substituir o legado. A frente CGU não pode editar esses arquivos. **Não declarar capítulo certificado ou publicado no Pages** enquanto essa migração técnica, testes e confirmação do conteúdo servido não estiverem demonstrados.
+- **Verificação de flashcards PPA/LDO/LOA:** `data/flashcards.json` foi lido na `main` (blob `6d2dae48e08cfc903823d31ef655b677d26402cd`) e a busca literal pelo `articleId: art-9dc8a6e2f31b47c0` encontrou zero ocorrências. Isso prova ausência de vínculo literal por ID no arquivo, **não prova ausência de cartões por tema**. A coordenação deve verificar cartões e associação sem duplicar conteúdo.
+- **Certificação CGU:** 0 artigos certificados nesta execução. O artigo PPA/LDO/LOA permanece revisado editorialmente, com CI/Pages e vínculos pendentes. O novo ciclo orçamentário foi criado e precisa de integração técnica e auditoria final após indexação. A inspeção visual isolada pode ser ressalva segundo `AGENTS.md`, mas não elimina os bloqueios técnicos.

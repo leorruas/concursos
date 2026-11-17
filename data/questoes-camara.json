@@ -53859,6 +53859,286 @@
       "correctAnswer": "E",
       "explanation": "O prazo que precisa ultrapassar cento e vinte dias é o original. O Regimento proíbe somar períodos para configurar essa hipótese de convocação, ainda que o afastamento total chegue a cento e trinta dias. (Regimento Interno, art. 241, caput e III.)",
       "reviewEvidence": "Regimento Interno, art. 241, caput e III — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Confronta prazo original, soma de períodos e convocação em uma sequência."
+    },
+    {
+      "id": "cam-const-200-revisora-rejeita-sem-retorno",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "revisora-rejeita-sem-retorno",
+      "mechanism": "revisora-rejeita-sem-retorno",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "Se o Senado, atuando como Casa revisora, rejeitar integralmente um projeto de lei aprovado pela Câmara, a proposição será arquivada.",
+      "correctAnswer": "C",
+      "explanation": "A rejeição integral pela Casa revisora leva ao arquivamento. A Constituição prevê retorno à iniciadora quando há emenda ao projeto, e não para que ela confirme a rejeição. (Constituição Federal, art. 65, caput.)",
+      "reviewEvidence": "Constituição Federal, art. 65, caput — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a consequência expressa da rejeição pela revisora."
+    },
+    {
+      "id": "cam-const-200-revisora-dois-turnos-lei",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-d269c5708f314eba",
+      "conceptId": "revisora-dois-turnos-lei",
+      "mechanism": "revisora-dois-turnos-lei",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-d269c5708f314eba#Bicameralismo: Casa iniciadora e Casa revisora"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo.md",
+        "section": "Bicameralismo: Casa iniciadora e Casa revisora"
+      },
+      "statement": "A Constituição exige dois turnos de discussão e votação na Casa revisora para projeto de lei ordinária.",
+      "correctAnswer": "E",
+      "explanation": "Na Casa revisora, o projeto de lei passa por um só turno de discussão e votação. Os dois turnos próprios de proposta de emenda à Constituição não se aplicam à revisão de lei ordinária. (Constituição Federal, art. 65, caput.)",
+      "reviewEvidence": "Constituição Federal, art. 65, caput — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece a quantidade de turnos prevista para a revisão."
+    },
+    {
+      "id": "cam-const-200-urgencia-despesa-sem-reserva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "urgencia-despesa-sem-reserva",
+      "mechanism": "urgencia-despesa-sem-reserva",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento sumário: urgência constitucional presidencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento sumário: urgência constitucional presidencial"
+      },
+      "statement": "O Presidente da República pode solicitar urgência constitucional para projeto que ele próprio tenha apresentado, ainda que a matéria também pudesse ser proposta por parlamentar.",
+      "correctAnswer": "C",
+      "explanation": "O requisito é a autoria presidencial do projeto. A Constituição não restringe o pedido a matérias de iniciativa privativa do Presidente. (Constituição Federal, art. 64, § 1º.)",
+      "reviewEvidence": "Constituição Federal, art. 64, § 1º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue autoria efetiva e reserva de iniciativa."
+    },
+    {
+      "id": "cam-const-200-urgencia-emenda-senado-novo-periodo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "urgencia-emenda-senado-novo-periodo",
+      "mechanism": "urgencia-emenda-senado-novo-periodo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento sumário: urgência constitucional presidencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento sumário: urgência constitucional presidencial"
+      },
+      "statement": "Em projeto de iniciativa presidencial sob urgência constitucional, a Câmara dispõe de novo prazo de quarenta e cinco dias quando o Senado devolve o texto com emendas.",
+      "correctAnswer": "E",
+      "explanation": "Quarenta e cinco dias se referem à deliberação inicial de cada Casa. Para a Câmara apreciar as emendas do Senado, a Constituição estabelece prazo de dez dias. (Constituição Federal, art. 64, §§ 2º e 3º.)",
+      "reviewEvidence": "Constituição Federal, art. 64, §§ 2º e 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a revisão inicial do retorno para apreciar emendas."
+    },
+    {
+      "id": "cam-const-200-urgencia-camara-omissao-senado-pauta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "urgencia-camara-omissao-senado-pauta",
+      "mechanism": "urgencia-camara-omissao-senado-pauta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento sumário: urgência constitucional presidencial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento sumário: urgência constitucional presidencial"
+      },
+      "statement": "Se a Câmara deixa transcorrer seu prazo de deliberação sobre projeto em urgência constitucional, o sobrestamento das demais deliberações legislativas começa no Senado, mesmo que o projeto ainda esteja na Câmara.",
+      "correctAnswer": "E",
+      "explanation": "A Casa atingida é a que deixou de deliberar no prazo. Nesse caso, o sobrestamento incide na Câmara, ressalvadas as deliberações com prazo constitucional determinado. (Constituição Federal, art. 64, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 64, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica a Casa cujo prazo venceu e o alcance do sobrestamento."
+    },
+    {
+      "id": "cam-const-200-recurso-conclusivo-cinquenta-assinaturas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "recurso-conclusivo-cinquenta-assinaturas",
+      "mechanism": "recurso-conclusivo-cinquenta-assinaturas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "statement": "Em uma Câmara com 513 membros, recurso assinado por cinquenta deputados atinge o mínimo de um décimo exigido para recorrer de apreciação conclusiva.",
+      "correctAnswer": "E",
+      "explanation": "Um décimo de 513 corresponde a 51,3. Como o limite é mínimo, são necessárias pelo menos 52 assinaturas. (Regimento Interno, art. 58, § 2º, I, da Constituição e art. 58 do Regimento Interno.)",
+      "reviewEvidence": "Regimento Interno, art. 58, § 2º, I, da Constituição e art. 58 do Regimento Interno — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Constituição Federal — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Converte a fração constitucional em número mínimo inteiro."
+    },
+    {
+      "id": "cam-const-200-recurso-conclusivo-improvido-redacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "recurso-conclusivo-improvido-redacao",
+      "mechanism": "recurso-conclusivo-improvido-redacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "statement": "Se o Plenário rejeitar o recurso contra decisão conclusiva favorável das comissões, o projeto poderá seguir para redação final sem nova votação de mérito pelo Plenário.",
+      "correctAnswer": "C",
+      "explanation": "O recurso precisa ser provido para que o Plenário discuta e vote a matéria recorrida. Se for improvido, a decisão favorável das comissões permanece e o projeto segue para redação final. (Regimento Interno, arts. 58, § 4º, e 132, § 2º.)",
+      "reviewEvidence": "Regimento Interno, arts. 58, § 4º, e 132, § 2º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Distingue admissibilidade do recurso, provimento e destino do projeto aprovado."
+    },
+    {
+      "id": "cam-const-200-recurso-conclusivo-parte-indicada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "recurso-conclusivo-parte-indicada",
+      "mechanism": "recurso-conclusivo-parte-indicada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "statement": "A aprovação do recurso contra apreciação conclusiva que indica apenas parte da proposição submete essa parte ao Plenário, sem atrair automaticamente toda a matéria.",
+      "correctAnswer": "C",
+      "explanation": "O recurso delimita a parte a ser submetida ao Plenário. Seu provimento atrai o exame da matéria recorrida, preservada a distinção entre o trecho indicado e o restante do projeto. (Regimento Interno, art. 132, § 2º.)",
+      "reviewEvidence": "Regimento Interno, art. 132, § 2º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Identifica o objeto delimitado do recurso e o efeito do provimento."
+    },
+    {
+      "id": "cam-const-200-redacao-conclusiva-prazo-antes-aprovacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "redacao-conclusiva-prazo-antes-aprovacao",
+      "mechanism": "redacao-conclusiva-prazo-antes-aprovacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "statement": "O prazo regimental de setenta e duas horas para encaminhar projeto aprovado conclusivamente começa ao término da apreciação de mérito pelas comissões, ainda que a redação final esteja pendente.",
+      "correctAnswer": "E",
+      "explanation": "O termo inicial foi antecipado. O prazo de setenta e duas horas começa com a aprovação da redação final. (Regimento Interno, art. 58, § 5º.)",
+      "reviewEvidence": "Regimento Interno, art. 58, § 5º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Distingue o término da votação conclusiva e a aprovação da redação final."
+    },
+    {
+      "id": "cam-const-200-parecer-prazo-comissao-seguinte-requerimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Tramitação legislativa",
+      "articleId": "art-68b5cf209e4d731a",
+      "conceptId": "parecer-prazo-comissao-seguinte-requerimento",
+      "mechanism": "parecer-prazo-comissao-seguinte-requerimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-68b5cf209e4d731a#Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario.md",
+        "section": "Procedimento abreviado: o projeto pode ser decidido nas comissões"
+      },
+      "statement": "Um deputado pode pedir ao Presidente da Câmara que envie à comissão seguinte projeto ainda pendente de parecer após o prazo regimental. Esse pedido não exige as assinaturas de um décimo da Casa exigidas para recurso contra apreciação conclusiva já encerrada.",
+      "correctAnswer": "C",
+      "explanation": "O atraso na emissão de parecer permite requerimento de qualquer deputado. Cabe ao Presidente determinar o envio à comissão seguinte ou ao Plenário, conforme o caso. O recurso subscrito por um décimo incide em outra fase, quando a apreciação conclusiva já terminou. (Regimento Interno, arts. 52, § 6º, 58 e 132, § 2º.)",
+      "reviewEvidence": "Regimento Interno, arts. 52, § 6º, 58 e 132, § 2º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Identifica a fase, o legitimado, a autoridade e o destino possível."
     }
   ]
 }

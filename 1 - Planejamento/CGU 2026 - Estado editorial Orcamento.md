@@ -244,3 +244,7 @@ A integração anteriormente bloqueada na issue [#362](https://github.com/leorru
 **Conferência estrutural na main dos cinco artigos:** PPA (8), ciclo (8), esferas (13), princípios (12), classificações (14) = **55 questões didáticas C/E**. Todos os itens têm numeração contínua e gabarito explícito. Os oito wikilinks entre as cinco notas apontam para os destinos reais da mesma trilha. IDs/aliases e origem dos derivados preservados. Outros dois artigos não tiveram revisão jurídica integral adicional nesta rodada. Não houve alteração no catálogo da Câmara, em `data/questoes-camara.json`, nos glossários compartilhados nem em EPUB.
 
 **Testes e deploy:** o CI verde do PR #363 refere-se à integração anterior, não aos últimos três artigos editados. Uma validação do HEAD atualizado é necessária; a publicação efetiva do catálogo e do manifesto no Pages também ainda não foi confirmada. Até comprovação, **0 certificados finais**, mesmo com 55 itens gabaritados. A issue #362 registra o gate do Pages.
+
+### Gate de regressão do lote de 55 itens
+
+Esta revisão solicita nova execução de **`Validar site público (PR)`** com a versão posterior aos commits dos três capítulos jurídicos. Gate a registrar após execução: `run_id`, conclusão, SHA exato do HEAD e etapas de identidade, catálogo por concurso, navegação, build, privacidade, flashcards e busca. A verificação do Pages ao vivo continua uma etapa separada do CI do PR, conforme contrato de publicação. Não encerrar a certificação por inferência de um teste isolado.

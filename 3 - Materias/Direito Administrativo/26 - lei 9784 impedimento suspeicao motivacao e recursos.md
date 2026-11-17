@@ -154,6 +154,11 @@ flowchart TD
 - **Reconsideração prévia (art. 56, § 1º):** o recurso será dirigido à autoridade que proferiu a decisão. Se ela não a reconsiderar no prazo de **5 (cinco) dias**, o encaminhará à autoridade superior;
 - **Limite de instâncias recursais (art. 57):** o recurso tramitará no máximo por **3 (três) instâncias administrativas**, salvo disposição legal diversa;
 - **Prazo para julgamento (art. 59, §§ 1º e 2º):** sem prazo diferente em lei, o órgão competente tem **até 30 dias**, contados do recebimento dos autos, para decidir o recurso, com possível prorrogação por **mais 30 dias**, mediante justificativa explícita. O caput do art. 59 trata de **interposição** (10 dias); os §§ 1º e 2º tratam de **decisão**.
+- **Participação de outros interessados (art. 62):** depois que o recurso é apresentado, o órgão competente intima os demais interessados para que ofereçam alegações em **cinco dias úteis**. Esse prazo é expressamente contado em dias úteis e deve ser distinguido dos prazos gerais em dias contínuos do art. 66, § 2º.
+- **Quando o recurso não é conhecido (art. 63):** ocorre se foi apresentado fora do prazo, perante órgão incompetente, por pessoa sem legitimidade ou depois de esgotada a esfera administrativa. No caso de **órgão incompetente**, a Administração deve indicar ao recorrente a autoridade competente e **devolver o prazo** (§ 1º). O não conhecimento não impede revisão administrativa de ofício de ato ilegal, desde que não tenha ocorrido preclusão administrativa (§ 2º).
+- **Súmula vinculante no recurso (arts. 56, § 3º, e 64-A):** se o recorrente alegar contrariedade a súmula vinculante, a autoridade que proferiu a decisão e a autoridade recursal precisam explicar sua aplicação ou inaplicação conforme o caso. Isso é diferente do efeito suspensivo do recurso.
+
+**Exemplo de contagem:** se a pessoa é intimada de uma decisão numa segunda-feira, o prazo comum de dez dias do art. 59 é contado de modo **contínuo**, excluído o dia da ciência e incluído o do vencimento (art. 66). Se o vencimento cair em dia sem expediente, passa ao primeiro dia útil seguinte (art. 66, § 1º). Já os cinco dias para os demais interessados no art. 62 são expressamente **úteis**.
 
 ### 3.2 Efeitos do recurso e a garantia da ampla defesa
 

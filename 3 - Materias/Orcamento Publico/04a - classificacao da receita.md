@@ -5,7 +5,7 @@ title: "Classificação da receita: natureza, fonte e resultado primário"
 type: "conceito"
 status: "ativo"
 created: 2026-11-05
-updated: 2026-11-07
+updated: 2026-11-16
 aliases:
   - "Natureza da receita orçamentária"
   - "Receita corrente e de capital"
@@ -149,6 +149,8 @@ Exemplo: duas entradas patrimoniais com natureza semelhante podem ter destinaç�
 
 **Atenção:** a vedação constitucional de vincular receitas de **impostos** tem exceções específicas; a existência do classificador de fonte não autoriza inventar uma vinculação. Ver [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|não afetação e suas exceções]].
 
+**Âmbito e versão dos códigos:** o MCASP 11ª edição estabelece orientação contábil orçamentária nacional; o MTO do exercício detalha a classificação federal. No **MTO 2026**, o identificador federal de resultado da receita distingue **primária (1)** e **financeira (0)**. Esses dígitos descrevem esse classificador específico; não são códigos da natureza, nem da fonte/destinação. As tabelas de fonte também variam por ente e exercício. Conferir o ato aplicável antes de transpor um código da União para um município.
+
 ## Primária × financeira: efeito no resultado primário
 
 O **identificador de resultado primário** distingue receitas que entram no cálculo do resultado primário das que ficam fora dele, conforme a regra fiscal aplicável. É uma classificação **independente** da categoria econômica corrente/capital.
@@ -190,5 +192,6 @@ Itens inéditos e didáticos, sem alegação de calibração com prova real.
 
 - [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Mapa transversal de classificações]].
 - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios e não afetação de impostos]]; [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|Estágios da receita]].
+- [MTO 2026, 4ª versão, classificação da receita](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto_2026_-_versao_4_.pdf); [STN, fontes/destinação por exercício](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/federacao/fonte-ou-destinacao-de-recursos).
 - [Lei nº 4.320/1964, art. 11](https://legis.senado.leg.br/norma/546169/publicacao/34620275); [LRF, art. 44](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm); [MTO 2027, 3ª versão (07/07/2026), classificação da receita (cap. 3)](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027); [MCASP 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1).
 

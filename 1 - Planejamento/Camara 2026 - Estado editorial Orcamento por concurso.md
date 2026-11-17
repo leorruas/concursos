@@ -243,3 +243,25 @@ Os quatro arquivos foram relidos em sua abertura, delimitação, identificação
 **Atualização de publicação:** o workflow [44185961380](https://github.com/leorruas/concursos/actions/runs/44185961380) para o último derivado CGU da classificação da despesa terminou `success`; o workflow [44186323877](https://github.com/leorruas/concursos/actions/runs/44186323877) de publicação da árvore posterior terminou `success`, incluindo teste de identidade, catálogo, filtro por concurso, busca e confirmação de Pages. O run [44186511798](https://github.com/leorruas/concursos/actions/runs/44186511798), SHA `492082da1347`, também terminou `success` na auditoria do Pages. **Essas evidências comprovam publicação técnica, sem atribuir certificação editorial aos dez derivados ou remover as ressalvas visuais da Câmara.**
 
 **Estado:** 19/19 blobs Câmara preservados e certificações históricas inalteradas; 10/10 derivados CGU criados; 11 IDs de interseção no catálogo ainda pendentes de operação coordenada; **novo gate de 11 caminhos legados do plano de estudos explicitamente identificado**. Não alterado nenhum arquivo da CGU nem campo global; não gerado EPUB.
+
+## Gate de integridade dos flashcards na migração para derivados CGU: 17/11/2026
+
+**Ensaio de substituição de identificadores sem modificar dados:** o arquivo `data/flashcards.json` foi lido e seus cartões explícitos filtrados por `examIds` incluindo `cgu-2026` e `note.articleId` de oito legados com derivado CGU próprio. Foram inspecionados os headings Markdown de **oito artigos originais Câmara** e de seus **oito artigos derivados CGU**, com vínculo de origem comprovado por `derivedFromArticleId`.
+
+**Resultado de integridade:** **91 de 91** referências `note.section` encontram heading **idêntico** no artigo histórico correto; os cartões **já são precisos e válidos nos seus destinos atuais**. Se a coordenação substituísse apenas o artigo antigo pelo derivado CGU, **somente 1 de 91** seções ainda coincidiria literalmente, enquanto **90 não teriam heading correspondente** no novo texto. Esta é a evidência técnica de que migrar `note.articleId` sem remapear `note.section` criaria links sem âncora válida, apesar de todos os artigos existirem.
+
+| Original → derivado | Cartões em CGU | Heading exato no original | Heading exato no derivado |
+| :--- | ---: | ---: | ---: |
+| 04a → receita/natureza | 7 | 7 | 0 |
+| 04b → despesa/classificação | 27 | 27 | 0 |
+| 05 → créditos adicionais | 9 | 9 | 0 |
+| 06 → programação e bloqueio | 5 | 5 | 0 |
+| 07 → estágios da receita | 15 | 15 | 0 |
+| 08 → empenho/liquidação | 12 | 12 | 0 |
+| 09 → RP/DEA | 9 | 9 | 1 |
+| 11 → LRF/controle | 7 | 7 | 0 |
+| **Total** | **91** | **91** | **1** |
+
+**Exceções relevantes:** 05a e 10 têm cartões ligados a seus originais, porém marcados **exclusivamente para Câmara**, portanto não devem ter IDs trocados por substituição global; o artigo de Atualidades é transversal, preservado. **Quatro** dos 91 cartões dos artigos 07 e 08 estão em **dois concursos ao mesmo tempo**, de modo que o destino original Câmara precisa permanecer acessível após uma eventual segmentação de cartão para CGU. Os 90 desencontros de seção não comprovam ausência do conceito no texto CGU: exigem localizar o conceito, escolher heading pertinente, revisar fonte e conteúdo e testar a âncora antes de trocar referência.
+
+**Encaminhamento:** a coordenação foi informada na [issue #371](https://github.com/leorruas/concursos/issues/371), com contagens individuais. Não tocar `data/flashcards.json`, `data/questoes-camara.json`, catálogo, planos-estudo ou artigos CGU nesta frente. A transição deve ser atômica e testada após auditoria/certificação individual dos dez derivados. Os 19 artigos Câmara permanecem no mesmo conjunto de blobs históricos; certificações não foram alteradas. A inspeção visual e F4 integral ainda não estão concluídas.

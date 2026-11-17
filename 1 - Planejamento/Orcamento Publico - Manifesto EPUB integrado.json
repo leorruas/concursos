@@ -307,10 +307,10 @@
       "sourceArticleId": "art-f13b65a28d8c4e91",
       "topicKey": "receita-classificacao",
       "sequence": 6,
-      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
+      "certificationStatus": "revalidacao-editorial-pos-edicao-pendente",
       "include": false,
-      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
-      "revisionSha": "ad0c453427cbd79358f9191e2f57cde3cae2f2d0"
+      "selectionStatus": "aguarda-segunda-leitura-e-pages",
+      "revisionSha": "1a27578226bfb8b240ae2f212139264c346af8f7"
     },
     {
       "chapterKey": "cgu-7-novo",

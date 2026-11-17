@@ -51619,6 +51619,286 @@
       "correctAnswer": "C",
       "explanation": "O dispositivo trata multa e imputação de débito como hipóteses alternativas. A eficácia executiva da decisão que impõe multa independe da imputação de débito. (Constituição Federal, art. 71, § 3º.)",
       "reviewEvidence": "Constituição Federal, art. 71, § 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue consequências alternativas de condições cumulativas."
+    },
+    {
+      "id": "cam-const-200-partido-sem-representacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "partido-sem-representacao",
+      "mechanism": "partido-sem-representacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Mandado de segurança coletivo"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Mandado de segurança coletivo"
+      },
+      "statement": "Um partido registrado na Justiça Eleitoral e sem representação no Congresso Nacional preenche, apenas por estar regularmente registrado, o requisito constitucional de legitimidade partidária para impetrar mandado de segurança coletivo.",
+      "correctAnswer": "E",
+      "explanation": "O registro, sozinho, não preenche o requisito. A Constituição exige representação no Congresso Nacional para legitimar o partido a impetrar mandado de segurança coletivo. (Constituição Federal, art. 5º, LXX, a.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, LXX, a — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica uma condição de legitimidade que não se confunde com o registro partidário."
+    },
+    {
+      "id": "cam-const-200-moralidade-sem-prejuizo-contabil",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "moralidade-sem-prejuizo-contabil",
+      "mechanism": "moralidade-sem-prejuizo-contabil",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Ação popular — AP"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Ação popular — AP"
+      },
+      "statement": "Um cidadão pretende impugnar ato lesivo à moralidade administrativa. Para o enquadramento constitucional da ação popular, a ausência de prejuízo financeiro ao erário não afasta, por si só, essa hipótese de cabimento.",
+      "correctAnswer": "C",
+      "explanation": "A moralidade administrativa é um dos bens protegidos pela ação popular, ao lado do patrimônio público. Por isso, uma lesão à moralidade pode fundamentar a ação de um cidadão ainda que não se demonstre perda monetária. (Constituição Federal, art. 5º, LXXIII.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, LXXIII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue lesão à moralidade de perda financeira e conserva o requisito de legitimidade."
+    },
+    {
+      "id": "cam-const-200-ma-fe-custas-sucumbencia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "ma-fe-custas-sucumbencia",
+      "mechanism": "ma-fe-custas-sucumbencia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Ação popular — AP"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Ação popular — AP"
+      },
+      "statement": "Na ação popular, a proteção constitucional do autor contra custas judiciais e ônus da sucumbência continua aplicável mesmo quando o juiz reconhece má-fé comprovada.",
+      "correctAnswer": "E",
+      "explanation": "A má-fé comprovada é a exceção à proteção. Nessa situação, o autor perde a isenção constitucional de custas e do ônus da sucumbência, que são encargos processuais ligados à derrota na ação. (Constituição Federal, art. 5º, LXXIII.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, LXXIII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a regra de proteção processual da exceção por má-fé comprovada."
+    },
+    {
+      "id": "cam-const-200-resposta-e-indenizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "resposta-e-indenizacao",
+      "mechanism": "resposta-e-indenizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Manifestação do pensamento"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Manifestação do pensamento"
+      },
+      "statement": "Diante de agravo praticado em manifestação pública, a Constituição permite que o direito de resposta proporcional ao agravo coexista com indenização por dano moral.",
+      "correctAnswer": "C",
+      "explanation": "O direito de resposta possibilita reagir publicamente ao agravo. A indenização busca reparar o dano sofrido. O mesmo dispositivo constitucional permite a resposta e, quando cabível, a indenização. (Constituição Federal, art. 5º, V.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, V — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue medidas que podem coexistir."
+    },
+    {
+      "id": "cam-const-200-crenca-prestacao-alternativa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos e garantias fundamentais",
+      "articleId": "art-ec49c177b1ae43c7",
+      "conceptId": "crenca-prestacao-alternativa",
+      "mechanism": "crenca-prestacao-alternativa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-ec49c177b1ae43c7#Liberdade de consciência e crença"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/02 - direitos e garantias fundamentais.md",
+        "section": "Liberdade de consciência e crença"
+      },
+      "statement": "A pessoa que invoca crença religiosa para não cumprir obrigação legal imposta a todos pode ser privada de direitos mesmo quando aceita cumprir a prestação alternativa fixada em lei.",
+      "correctAnswer": "E",
+      "explanation": "Aceitar a prestação alternativa afasta a exceção indicada no enunciado. A Constituição excepciona a proteção quando a pessoa invoca a crença para se eximir da obrigação imposta a todos e também se recusa a cumprir a alternativa legal. (Constituição Federal, art. 5º, VIII.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, VIII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Verifica cumulativamente a obrigação geral e a recusa da alternativa legal."
+    },
+    {
+      "id": "cam-const-200-transporte-direito-social",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "transporte-direito-social",
+      "mechanism": "transporte-direito-social",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#1. O Catálogo do Artigo 6º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "1. O Catálogo do Artigo 6º"
+      },
+      "statement": "O transporte integra o rol constitucional dos direitos sociais.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição inclui o transporte entre os direitos sociais. Seu reconhecimento está no próprio rol do art. 6º. (Constituição Federal, art. 6º, caput.)",
+      "reviewEvidence": "Constituição Federal, art. 6º, caput — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece um direito expressamente listado."
+    },
+    {
+      "id": "cam-const-200-fundacao-sindicato-autorizacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "fundacao-sindicato-autorizacao",
+      "mechanism": "fundacao-sindicato-autorizacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "A lei pode exigir autorização do Estado para fundar sindicato, além do registro no órgão competente.",
+      "correctAnswer": "E",
+      "explanation": "O erro é acrescentar autorização estatal para fundar o sindicato. A Constituição ressalva o registro no órgão competente e veda a exigência de autorização para a fundação. (Constituição Federal, art. 8º, I.)",
+      "reviewEvidence": "Constituição Federal, art. 8º, I — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue autorização estatal de registro."
+    },
+    {
+      "id": "cam-const-200-negociacao-coletiva-participacao-sindical",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "negociacao-coletiva-participacao-sindical",
+      "mechanism": "negociacao-coletiva-participacao-sindical",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "A Constituição exige a participação dos sindicatos nas negociações coletivas de trabalho.",
+      "correctAnswer": "C",
+      "explanation": "A participação sindical é obrigatória nessas negociações. O sindicato atua na discussão das condições coletivas de trabalho. (Constituição Federal, art. 8º, VI.)",
+      "reviewEvidence": "Constituição Federal, art. 8º, VI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece uma exigência constitucional expressa."
+    },
+    {
+      "id": "cam-const-200-residencia-quinze-anos-exatos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "residencia-quinze-anos-exatos",
+      "mechanism": "residencia-quinze-anos-exatos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Naturalização extraordinária"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Naturalização extraordinária"
+      },
+      "statement": "Estrangeiro residente no Brasil há exatos quinze anos ininterruptos e sem condenação penal já satisfaz o requisito temporal da naturalização extraordinária prevista na Constituição.",
+      "correctAnswer": "E",
+      "explanation": "O problema está em equiparar quinze anos completos a mais de quinze anos. A via extraordinária exige residência ininterrupta por período superior a quinze anos, ausência de condenação penal e requerimento. (Constituição Federal, art. 12, II, b.)",
+      "reviewEvidence": "Constituição Federal, art. 12, II, b — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue atingir o limite de ultrapassá-lo e aplica o requisito à via específica."
+    },
+    {
+      "id": "cam-const-200-perda-pedido-apatridia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "perda-pedido-apatridia",
+      "mechanism": "perda-pedido-apatridia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Perda da nacionalidade: EC nº 131/2023"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Perda da nacionalidade: EC nº 131/2023"
+      },
+      "statement": "Um brasileiro que possui somente a nacionalidade brasileira pode perdê-la mediante pedido expresso à autoridade competente, ainda que isso o deixe sem nacionalidade.",
+      "correctAnswer": "E",
+      "explanation": "A ressalva constitucional impede a perda por pedido quando o resultado for a apatridia, isto é, quando a pessoa ficar sem nenhuma nacionalidade. A manifestação expressa, sozinha, não afasta essa proteção. (Constituição Federal, art. 12, § 4º, II.)",
+      "reviewEvidence": "Constituição Federal, art. 12, § 4º, II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue validade do pedido e impedimento pelo efeito sobre a nacionalidade."
     }
   ]
 }

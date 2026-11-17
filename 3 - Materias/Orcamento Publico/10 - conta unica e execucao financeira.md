@@ -204,7 +204,7 @@ Pela [Lei nº 4.320/1964, art. 35](https://www2.camara.leg.br/legin/fed/lei/1960
 
 **Heurística para a Câmara:** **LOA autoriza → provisão/destaque descentralizam crédito → cota/repasse/sub-repasse movimentam recursos → empenho compromete dotação → liquidação verifica credor → pagamento desembolsa caixa**. A sequência é um mapa de funções, **não cronograma rígido de liberação simultânea**.
 
-**Fontes de confirmação:** [Tesouro Nacional, objetivos e conceitos de execução](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos); [Manual SIAFI, programação financeira](https://conteudo.tesouro.gov.br/manuais/modules/mod_pdf_manual/pdf/manual-siafi.pdf); [Lei nº 4.320/1964, arts. 35 e 58 a 65](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html); [Decreto nº 93.872/1986, texto atualizado](https://www2.camara.leg.br/legin/fed/decret/1980-1987/decreto-93872-23-dezembro-1986-444623-normaatualizada-pe.html); [Decreto nº 12.846/2026, texto atualizado da Câmara, programação financeira do Poder Executivo em 2026](https://www2.camara.leg.br/legin/fed/decret/2026/decreto-12846-12-fevereiro-2026-798712-normaatualizada-pe.html).
+**Fontes de confirmação:** [Tesouro Nacional, objetivos e conceitos de execução](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos); [ENAP, Gestão Orçamentária e Financeira, seção 7.2](https://repositorio.enap.gov.br/bitstream/1/2206/1/1.%20Apostila_Gest%C3%A3o_Or%C3%A7ament%C3%A1ria_Financeira.pdf); [Lei nº 4.320/1964, arts. 35 e 58 a 65](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html); [Decreto nº 93.872/1986, texto atualizado](https://www2.camara.leg.br/legin/fed/decret/1980-1987/decreto-93872-23-dezembro-1986-444623-normaatualizada-pe.html); [Decreto nº 12.846/2026, texto atualizado da Câmara, programação financeira do Poder Executivo em 2026](https://www2.camara.leg.br/legin/fed/decret/2026/decreto-12846-12-fevereiro-2026-798712-normaatualizada-pe.html).
 
 **Decisão editorial:** reutilizar e refinar o mesmo artigo canônico, preservando o ID e a navegação da CGU; registrar vínculo separado com a Câmara. A nota não registra estudo, retenção ou domínio.
 
@@ -253,7 +253,7 @@ Quando a questão falar em “transferência”, primeiro identifique se houve *
 - [Tesouro Nacional: Gestão da Conta Única](https://www.gov.br/tesouronacional/pt-br/execucao-orcamentaria-e-financeira/programacao-financeira/gestao-da-conta-unica).
 - [Banco Central: Conta Única, funções de depositário e administrador](https://www.bcb.gov.br/meubc/faqs/p/conta-unica-do-tesouro).
 - [Tesouro Nacional: SIAFI e suas funções](https://www.gov.br/tesouronacional/pt-br/siafi).
-- [Manual SIAFI: cota, repasse e sub-repasse](https://conteudo.tesouro.gov.br/manuais/modules/mod_pdf_manual/pdf/manual-siafi.pdf).
+- [ENAP, Gestão Orçamentária e Financeira, seção 7.2 (material didático histórico)](https://repositorio.enap.gov.br/bitstream/1/2206/1/1.%20Apostila_Gest%C3%A3o_Or%C3%A7ament%C3%A1ria_Financeira.pdf).
 - [LRF, art. 8º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm).
 - [Tesouro Nacional: Cronograma de Pagamento dos Órgãos](https://www.gov.br/tesouronacional/pt-br/execucao-orcamentaria-e-financeira/programacao-financeira/cronograma-de-pagamento-dos-orgaos).
 - [Tesouro Nacional: Transferências Constitucionais e Legais](https://www.gov.br/tesouronacional/pt-br/estados-e-municipios/transferencias-a-estados-e-municipios/transferencias-constitucionais-e-legais).

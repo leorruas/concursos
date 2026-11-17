@@ -12817,6 +12817,82 @@
         "prompt": "Qual etapa ou competência não pode ser confundida nesta situação?",
         "answer": "Publicar a proposta de código único não comprova sua implantação nem o pagamento."
       }
+    },
+    {
+      "id": "orc-recebimento-provisorio-definitivo",
+      "term": "Recebimento provisório × definitivo do objeto",
+      "definition": "O recebimento provisório inicia a conferência. Para compras, pode ocorrer de forma sumária; para obras e serviços, exige termo detalhado. O recebimento definitivo exige termo detalhado de servidor ou comissão designada, após a verificação de conformidade.",
+      "example": "Chegam 20 computadores de um contrato para 40. O recebimento provisório registra essa entrega; o definitivo documenta a conformidade da parcela verificada.",
+      "confusion": "Recebimento definitivo não é sinônimo de liquidação nem pagamento. O objeto ainda pode ser rejeitado se não estiver conforme o contrato.",
+      "contrast": {
+        "prompt": "Na compra pública, o recebimento provisório exige sempre termo detalhado idêntico ao definitivo?",
+        "answer": "Não. O art. 140, II, admite recebimento provisório sumário na compra e exige termo detalhado para o definitivo; nas obras e serviços, o provisório tem regra própria."
+      },
+      "conceptIds": [
+        "recebimento-provisorio-vs-definitivo"
+      ],
+      "topic": "Estágios da despesa: recebimento e pagamento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026",
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2.3",
+        "P2.4"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Nota fiscal × entrega efetiva"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021, art. 140, e Lei nº 4.320/1964, art. 63",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-publicacaooriginal-162591-pl.html",
+        "locator": "Art. 140, I e II; Lei nº 4.320/1964, art. 63"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "orc-ateste-vs-liquidacao",
+      "term": "Ateste de entrega × liquidação da despesa",
+      "definition": "O ateste registra a entrega ou execução verificada pelo agente competente. A liquidação exige análise documental do objeto, do valor exato e de quem deve receber, conforme o art. 63 da Lei nº 4.320/1964.",
+      "example": "Fornecedor entrega 20 de 40 equipamentos. O fiscal registra o que chegou; a liquidação verifica se há direito ao valor correspondente à parcela aceita.",
+      "confusion": "Nota fiscal ou ateste genérico não equivalem à liquidação completa; liquidação e ordem de pagamento também não significam transferência bancária feita.",
+      "contrast": {
+        "prompt": "Uma nota fiscal com ateste genérico prova automaticamente que a despesa foi liquidada regularmente?",
+        "answer": "Não. A liquidação precisa comprovar origem, objeto, valor e credor com os documentos pertinentes, incluindo a execução do objeto."
+      },
+      "conceptIds": [
+        "ateste-vs-liquidacao"
+      ],
+      "topic": "Estágios da despesa: recebimento e pagamento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026",
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2.3",
+        "P2.4"
+      ],
+      "note": {
+        "articleId": "art-67167e9c18284c4c",
+        "section": "Nota fiscal × entrega efetiva"
+      },
+      "source": {
+        "title": "Lei nº 14.133/2021, art. 140, e Lei nº 4.320/1964, art. 63",
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-publicacaooriginal-162591-pl.html",
+        "locator": "Art. 140, I e II; Lei nº 4.320/1964, art. 63"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
     }
   ]
 }

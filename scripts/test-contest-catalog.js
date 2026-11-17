@@ -70,7 +70,7 @@ assert.equal(arquivosCGU.length, 15, 'A trilha CGU deve manter exatamente quinze
 let linksConferidos = 0;
 for (const nome of arquivosCGU) {
   const texto = fs.readFileSync(path.join(diretorioOrcamento, nome), 'utf8');
-  for (const match of texto.matchAll(/\\[\\[([^\\]]+)\\]\\]/g)) {
+  for (const match of texto.matchAll(/\[\[([^\]]+)\]\]/g)) {
     const destino = match[1].split('|')[0].split('#')[0].trim();
     if (!destino.startsWith('3 - Materias/')) continue;
     const arquivo = destino.endsWith('.md') ? destino : destino + '.md';

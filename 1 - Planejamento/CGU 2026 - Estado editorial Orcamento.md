@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: nove-certificados-seis-em-auditoria
+status: onze-certificados-quatro-em-auditoria
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -474,3 +474,27 @@ No artigo `art-83d7c5ef2a0b4916`, conferidos **10 de 10 itens C/E e suas justifi
 **Ressalva visual:** inspeção manual das páginas não realizada no navegador; contraste, modo claro/escuro, largura mobile, quebra de tabelas, modal, navegação por teclado e âncoras não foram observados individualmente. A validação automática de links e Pages não substitui essa inspeção. Sem defeito visual concreto identificado, a ressalva registra exclusivamente esse teste indisponível.
 
 **Placar atualizado:** nove de quinze artigos CGU têm revisão integral concluída com ressalva visual, incluindo **quatro de dez derivados**. Permanecem seis derivados pendentes de revisão de mérito individual, a compatibilidade de flashcards/glossário/theoryRefs e a inspeção visual. Nenhum EPUB foi gerado.
+
+## Segundo ciclo: certificação de restos a pagar e Conta Única (17/11/2026)
+
+**Evidências comuns:** edital CGU 2026 retificado em 06/11/2026, recorte de execução e gestão de disponibilidades (3.1); texto da Lei nº 4.320/1964 em fonte oficial da Câmara, Constituição Federal na publicação oficial do Senado, manuais e instruções federais sobre SIAFI; revisão jurídica e segunda leitura didática integral individual. Workflow [44188330526](https://github.com/leorruas/concursos/actions/runs/44188330526), `success` no SHA `a239c7c17c7d2c4ae752cf5918b40a1c3cea13ba`, com publicação e catálogo servido confirmados. Sem edição posterior dos blobs abaixo.
+
+### Restos a pagar, DEA e suprimento de fundos
+
+- **ID:** `art-c85e29a3741f40bd`; **blob:** `010fd0cb46f9e39f2fbd5b465a993e684aaa5f37`.
+- **Base jurídica:** Lei nº 4.320/1964, arts. 35 a 37 e 68 a 69; Decreto nº 93.872/1986, com suas alterações; MCASP 11ª edição.
+- **Revisão de mérito:** Conferidos exercício do empenho e data de pagamento, classificação de restos a pagar processados versus não processados, distinção de despesas de exercícios anteriores, obrigação após cancelamento e adiantamento com empenho e prestação de contas. Dez respostas e justificativas revistas, sem conclusão automática de irregularidade por divergência de saldo. Casos, matriz comparativa e sequência didática revistos. O capítulo não fixa um prazo universal de permanência para saldos antigos, exigindo consulta ao ato vigente.
+- **Integridade:** dez de dez questões C/E com gabaritos comentados, 3 wikilinks existentes e navegáveis, frontmatter distinto do artigo Câmara, CI/Pages com sucesso no SHA citado.
+- **Estado:** **revisão integral concluída com ressalva visual**.
+
+### Conta Única e execução financeira
+
+- **ID:** `art-7a4f21e965d048b3`; **blob:** `fd02555b9f2c2735fd9d345bdd5dc18bb72277cd`.
+- **Base jurídica:** Constituição Federal, art. 164, § 3º; Lei nº 4.320/1964, arts. 56, 62 a 64; material oficial Tesouro Nacional/SIAFI e normas de descentralização.
+- **Revisão de mérito:** Conferidos os contrastes crédito orçamentário e recurso financeiro, provisão/destaque como descentralização de crédito, cota/repasse/sub-repasse como fluxo financeiro, centralização da Conta Única, manutenção de vinculações legais e ordem bancária emitida versus efetivamente processada. Dez respostas e comentários revistos; casos e tabelas verificados na segunda leitura. A classificação operacional é contextualizada como federal, evitando transposição automática para todos os entes.
+- **Integridade:** dez de dez questões C/E com gabaritos comentados, 4 wikilinks existentes e navegáveis, frontmatter distinto do artigo Câmara, CI/Pages com sucesso no SHA citado.
+- **Estado:** **revisão integral concluída com ressalva visual**.
+
+**Ressalva obrigatória:** sem inspeção visual individual no navegador em modo claro/escuro, mobile, contraste, tabelas, navegação por teclado e âncoras. Testes técnicos de links e publicação são provas diferentes. A ausência do teste visual permanece registrada, sem afirmar que exista defeito conhecido.
+
+**Placar:** 11 de 15 artigos exclusivos CGU certificados editorialmente com ressalva visual, incluindo seis dos dez derivados desta etapa. **Quatro derivados ainda aguardam certificação individual de mérito.** Flashcards/glossários/theoryRefs legados e curadoria EPUB permanecem fora da certificação e não foram alterados.

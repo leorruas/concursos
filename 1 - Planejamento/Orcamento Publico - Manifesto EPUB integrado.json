@@ -395,9 +395,10 @@
       "sourceArticleId": "art-6e4e79c7f4bb4aa3",
       "topicKey": "restos-pagar",
       "sequence": 13,
-      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
+      "revisionSha": "010fd0cb46f9e39f2fbd5b465a993e684aaa5f37"
     },
     {
       "chapterKey": "cgu-14-novo",
@@ -407,9 +408,10 @@
       "sourceArticleId": "art-743d234d819842d1",
       "topicKey": "conta-unica",
       "sequence": 14,
-      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
+      "revisionSha": "fd02555b9f2c2735fd9d345bdd5dc18bb72277cd"
     },
     {
       "chapterKey": "cgu-15-novo",

@@ -22,4 +22,16 @@ assert.equal(reviewQueue([], [{conceptId:'a',subjectId:'cgu',errors:1}],[],'cama
 assert(q.every(x=>!('statement' in x)&&!('userAnswer' in x)));
 const html=fs.readFileSync(path.join(__dirname,'../resultados.html'),'utf8');
 assert(html.includes('id="results-review-queue"'));assert(html.includes('id="results-edital-coverage"'));
+const schedule=ctx.ResultsStudyPlan.studySequence;
+const seq=schedule([
+ {articleId:'art-1',subjectId:'direito-constitucional',score:80,reason:'Erros'},
+ {articleId:'art-2',subjectId:'direito-constitucional',score:70,reason:'Erros'},
+ {articleId:'art-3',subjectId:'administracao-publica',score:60,reason:'Erros'}
+],[{subjectId:'portugues',label:'Português',hubArticleId:'art-4',status:'nao-avaliada'}],4);
+assert.equal(seq.length,4);
+assert.equal(seq[0].subjectId,'direito-constitucional');
+assert.notEqual(seq[1].subjectId,seq[0].subjectId,'alternar matérias quando possível');
+assert.equal(schedule([{articleId:'x',subjectId:'a'},{articleId:'x',subjectId:'a'}],[],7).length,1,'não duplicar artigos');
+assert.equal(schedule([],[],7).length,0);
+assert(html.includes('id="results-next-studies"'));
 console.log('OK: estudo priorizado e matérias não avaliadas, isolados por concurso, sem dados pessoais.');

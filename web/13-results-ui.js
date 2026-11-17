@@ -162,6 +162,28 @@ function showReviewQueue(){
   target.append(group);
  }
 }
+function showNextStudies(){
+ const target=$('results-next-studies');if(!target||!current)return;
+ target.replaceChildren();
+ const articles=(current.articles||[]).map(a=>({...a,subjectId:articleSubject(a,current.concepts||[])}));
+ const queue=window.ResultsStudyPlan.reviewQueue(articles,current.concepts||[],transferCombined?transferData||[]:[],selectedSubject);
+ const coverage=window.ResultsStudyPlan.catalogCoverage(subjectCatalog,current.concursoId,current.bySubject||[])
+  .filter(x=>!selectedSubject||x.subjectId===selectedSubject);
+ const plan=window.ResultsStudyPlan.studySequence(queue,coverage,7);
+ if(!plan.length){target.append(el('p','results-caption','Não há dados suficientes para sugerir uma sequência de revisão.'));return;}
+ for(const item of plan){
+  const row=el('div','results-concept'),left=el('div'),meta=manifest.get(item.articleId);
+  const name=item.kind==='diagnostic'?item.label:(item.label||meta?.tituloExibicao||meta?.titulo||title(item.subjectId));
+  left.append(el('strong','',item.order+'. '+name),
+   el('small','',(item.kind==='diagnostic'?'Resolver questões diagnósticas da matéria': 'Revisar teoria e depois resolver questões diferentes')+' · '+item.reason));
+  row.append(left);
+  if(item.articleId&&meta){
+   const link=el('a','results-link','Abrir conteúdo');
+   link.href=articleLink(item);link.rel='noreferrer';row.append(link);
+  }
+  target.append(row);
+ }
+}
 function showCoverage(){
  const root=$('results-coverage');root.replaceChildren();
  if(!coverageData){root.append(el('p','results-caption','Cobertura do banco ainda não consultada.'));return;}
@@ -352,7 +374,7 @@ function render(){
  $('results-unified-method').textContent='Histórico até '+fmtDate(current.cut)+'. '+valid+' tentativas válidas de estudo, sem somar duas vezes um registro identificado nas duas fontes.';
  $('results-legacy').hidden=false;
  root.hidden=false;
- showEditalCoverage();showReviewQueue();
+ showEditalCoverage();showReviewQueue();showNextStudies();
  showRetests();showCoverage();showConceptTransfer();
  status.textContent='Histórico unificado carregado. Resultados e prioridades combinam as duas origens.';
 }

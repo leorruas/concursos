@@ -23,7 +23,16 @@ const shared = glossary.terms.filter(t => t.contestIds.includes('camara-2026') &
 assert.equal(camaraTerms.length, camara.publishedCount);
 assert.equal(cguTerms.length, cgu.publishedCount);
 assert(camara.ownPublishedCount >= 40, 'Câmara requer definições próprias sobre processo legislativo e comunicação');
-assert(camara.sharedCount >= 140, 'Câmara deve herdar apenas conceitos de Orçamento com artigos do seu catálogo');
+const inheritedCamara = camaraTerms.filter(t => !t.id.startsWith('glo-camara-'));
+assert.equal(camara.sharedCount, inheritedCamara.length,
+  'Contagem dos conceitos herdados da Câmara deve refletir o catálogo servido');
+assert(inheritedCamara.length > 0, 'Câmara deve preservar o reuso de conceitos compartilhados');
+const catalog = JSON.parse(read('data/catalogo-materias-por-concurso.json'));
+const camaraOrcIds = new Set(catalog.contests.find(x => x.concursoId === 'camara-2026')
+  .subjects.find(x => x.subjectId === 'orcamento-publico').articleIds);
+assert(inheritedCamara.filter(t => (t.subjectIds || []).includes('orcamento-publico'))
+  .every(t => (t.articleIds || []).some(id => camaraOrcIds.has(id))),
+  'Conceitos de Orçamento herdados pela Câmara devem ter artigo elegível no seu catálogo');
 assert(cgu.sharedCount >= 10, 'CGU deve reutilizar conceitos normativos da Câmara');
 assert(cguTerms.length >= 230);
 assert(camaraTerms.length >= 180);

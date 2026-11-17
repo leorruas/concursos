@@ -15,11 +15,11 @@ Matéria de planejamento e execução orçamentária, receita, despesa e respons
 
 ## Orçamento Público: trilhas editoriais distintas (17/11/2026)
 
-O contrato de propriedade e migração é [[1 - Planejamento/Orcamento Publico - Arquitetura CGU e Camara|Arquitetura CGU/Câmara]]. A [[1 - Planejamento/Orcamento Publico - Dependencias e migracao dos IDs|auditoria de dependências]] registra dez artigos históricos de Orçamento ainda compartilhados e uma referência transversal de Atualidades. Os roteiros próprios são [[1 - Planejamento/CGU 2026 - Percurso editorial Orcamento|CGU 2026]] e [[1 - Planejamento/Camara 2026 - Percurso editorial Orcamento|Câmara 2026]]. Essas rotas organizam a leitura **por concurso**; o percurso histórico da biblioteca geral permanece abaixo para compatibilidade. O catálogo v2 continua sendo a fonte de pertencimento. Artigos que ainda compartilham IDs no catálogo são **legados transitórios** e não recebem certificação CGU por herança. Somente a coordenação pode editar `index.md`, hub, catálogo v2 e as instruções globais durante esta migração. Os demais agentes criam/revisam exclusivamente suas notas e seus estados, sem modificar arquivos de outra frente. Não editar `data/questoes-camara.json` nesta operação. O futuro EPUB integrado usa manifesto derivado e nunca altera originais.
+O contrato de propriedade e migração é [[1 - Planejamento/Orcamento Publico - Arquitetura CGU e Camara|Arquitetura CGU/Câmara]]. A [[1 - Planejamento/Orcamento Publico - Dependencias e migracao dos IDs|auditoria de dependências]] registra a migração concluída dos dez vínculos históricos: somente a referência transversal de Atualidades continua nos dois catálogos por decisão editorial. Os roteiros próprios são [[1 - Planejamento/CGU 2026 - Percurso editorial Orcamento|CGU 2026]] e [[1 - Planejamento/Camara 2026 - Percurso editorial Orcamento|Câmara 2026]]. Essas rotas organizam a leitura **por concurso**; o percurso histórico da biblioteca geral permanece abaixo para compatibilidade. O catálogo v2 continua sendo a fonte de pertencimento. Os 19 artigos históricos permanecem na Câmara, enquanto os 15 artigos próprios da CGU têm IDs e revisão de conteúdo independentes, com ressalva de inspeção visual. Somente a coordenação pode editar `index.md`, hub, catálogo v2 e as instruções globais durante esta migração. Os demais agentes criam/revisam exclusivamente suas notas e seus estados, sem modificar arquivos de outra frente. Não editar `data/questoes-camara.json` nesta operação. O futuro EPUB integrado usa manifesto derivado e nunca altera originais.
 
-## Percurso próprio CGU 2026: artigos específicos e legados em transição
+## Percurso próprio CGU 2026: 15 artigos específicos
 
-A sequência abaixo usa versões próprias da **CGU 2026, Auditoria**, sem transferir certificação da Câmara. Os primeiros cinco artigos têm certificação editorial com ressalva visual; a nova nota de créditos adicionais aguarda auditoria independente. Os demais temas do percurso continuam representados por legados transitórios, sujeitos à separação editorial. Os vínculos no catálogo de concursos definem a leitura por prova.
+A sequência abaixo usa versões próprias da **CGU 2026, Auditoria**, com revisão de conteúdo por identidade e ressalva visual registrada no [[1 - Planejamento/CGU 2026 - Estado editorial Orcamento|estado editorial CGU]]. Todos os dez vínculos antigos foram retirados do catálogo CGU sem afetar os 19 originais da Câmara. A associação transversal de Atualidades permanece intencional. O catálogo de concursos define a leitura por prova.
 
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]]: etapas, autorização, execução e entrega
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: planejamento e comprovação de metas
@@ -37,9 +37,9 @@ A sequência abaixo usa versões próprias da **CGU 2026, Auditoria**, sem trans
 - [[3 - Materias/Orcamento Publico/CGU 2026 - conta unica e execucao financeira|CGU 2026: Conta Única e execução financeira]]: crédito, recursos, SIAFI e rastreabilidade
 - [[3 - Materias/Orcamento Publico/CGU 2026 - responsabilidade fiscal riscos e controle|CGU 2026: responsabilidade fiscal, riscos e controle]]: LRF, metas, RCL, RREO, RGF e dívida
 
-A lista histórica de leitura e os apontamentos CAM-ORC abaixo são preservados por compatibilidade. Essa inclusão de navegação deve ser homologada pela coordenação com testes de identidade, catálogo e Pages, antes de certificar os artigos CGU.
+A biblioteca histórica de leitura e os apontamentos CAM-ORC abaixo permanecem disponíveis para a Câmara e para links antigos. A separação de IDs e os testes de catálogo, flashcards e Pages foram validados no [workflow 44196245135](https://github.com/leorruas/concursos/actions/runs/44196245135). A inspeção visual individual dos artigos CGU ainda está pendente.
 
-## Começar por aqui
+## Biblioteca histórica da Câmara: começar por aqui
 
 - [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|01. Orçamento público e ciclo orçamentário]]: autorização × execução × caixa × entrega; quatro momentos do ciclo; controle e avaliação.
 - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02. PPA, LDO e LOA]]: papéis, vigência, iniciativa, três orçamentos, prazos, exclusividade e exceções.
@@ -100,7 +100,7 @@ A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha 
 
 **Sequência de leitura:** identifique primeiro a pergunta; depois as categorias daquele conjunto; por fim as fronteiras com os outros conjuntos. Os exemplos transitam entre notas, sem exigir que cada conceito seja decorado isoladamente.
 
-## Unidade P3.2.2: orçamento e planejamento
+## Biblioteca histórica: unidade P3.2.2 (consultar percurso CGU próprio acima)
 
 | Sequência | Conteúdo e fronteiras prioritárias | Cobertura editorial |
 | :--- | :--- | :--- |
@@ -114,7 +114,7 @@ A trilha CAM-ORC usa os conceitos canônicos de ciclo, PPA, LDO e LOA e detalha 
 
 As notas [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|02a]], [[3 - Materias/Orcamento Publico/04a - classificacao da receita|04a]], [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|04b]] e [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|05a]] aprofundam esferas da LOA, classificações de receita, classificações de despesa e emendas parlamentares, sem criar novos subitens no edital.
 
-## Unidade P3.2.3: execução e responsabilidade fiscal
+## Biblioteca histórica: unidade P3.2.3 (consultar percurso CGU próprio acima)
 
 | Sequência | Conteúdo e fronteiras prioritárias | Cobertura editorial |
 | :--- | :--- | :--- |
@@ -140,4 +140,4 @@ A segunda unidade tem como pré-requisito curricular a primeira, mas dúvidas e 
 
 Na retomada por chat, ler **`CHAT.md` → `data/contexto-estudo/cgu-2026/orcamento-publico.json` → `resume.noteRef` → seção da nota → fonte normativa**. O contexto gerado é a fonte para **exposição, dúvidas, desempenho e próximo passo**. Não há métricas de acerto neste hub; a publicação de notas **não representa** aula, unidade concluída ou retenção.
 
-O mapa global das matérias é [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano de matérias]]. O roteiro dos 11 artigos está em [[1 - Planejamento/Orcamento Publico - Plano de artigos|Plano de artigos de Orçamento Público]].
+O mapa global das matérias é [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano de matérias]]. O roteiro atual da CGU com 15 artigos está em [[1 - Planejamento/CGU 2026 - Percurso editorial Orcamento|Percurso editorial CGU]]. O [[1 - Planejamento/Orcamento Publico - Plano de artigos|plano original]] fica preservado como histórico.

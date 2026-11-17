@@ -601,6 +601,115 @@
       "status": "reviewed"
     },
     {
+      "id": "glo-deducao-da-receita-orcamentaria",
+      "term": "Dedução da receita orçamentária",
+      "aliases": [
+        "Dedução de receita",
+        "Conta redutora de receita"
+      ],
+      "definition": "É o registro que reduz o valor bruto da receita orçamentária para demonstrar o valor líquido pertencente ao ente, nas hipóteses previstas pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição, seção 3.6.1. Em regra, aplica-se a valores que o ente arrecada mas pertencem a outro ente, e à restituição de receitas recebidas indevidamente ou a maior, ressalvada determinação legal expressa de contabilização como despesa.",
+      "contrast": "Deduzir receita é registrar uma redução da receita arrecadada; pagar uma despesa orçamentária é executar autorização de gasto. Nem toda saída de dinheiro é nova despesa, e nem toda devolução admite dedução, pois há tratamentos especiais. A dedução é registrada com a natureza da receita que a originou.",
+      "cebraspeTrap": "Tomar toda restituição ou transferência legal de valores arrecadados para outro ente como despesa orçamentária, sem examinar o procedimento de dedução e suas exceções.",
+      "example": "Em hipótese sujeita a dedução, o município registra R$ 10 mil de receita bruta e restitui R$ 2 mil cobrados indevidamente. A dedução é de R$ 2 mil e a receita líquida é R$ 8 mil.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional, MCASP 11ª edição, Parte I, seção 3.6.1",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-restituicao-de-receita",
+      "term": "Restituição de receita",
+      "aliases": [
+        "Devolução de receita recebida indevidamente"
+      ],
+      "definition": "É a devolução de quantia que o governo recebeu a maior ou sem ser devida. O MCASP 11ª edição, seção 3.6.1, indica, como procedimento padrão, a dedução da receita orçamentária, salvo regra legal que determine tratar a operação como despesa ou situação específica que exija outro registro.",
+      "contrast": "Restituir é devolver dinheiro a quem tinha direito à devolução; deduzir é a forma de registrar a redução de receita, quando cabível. Em casos especiais, como certas devoluções de saldos de convênios no exercício sem receita correspondente, a devolução pode ser registrada como despesa orçamentária. A escolha depende da origem, do exercício e das normas aplicáveis.",
+      "cebraspeTrap": "Afirmar que restituição sempre gera despesa orçamentária, ou que pode ser deduzida sem verificar a receita e a regra específica.",
+      "example": "Um contribuinte pagou R$ 1.200 quando o tributo devido era R$ 1.000. A prefeitura deve examinar a restituição de R$ 200 e, sendo hipótese de dedução da receita, registrá-la como redução do ingresso, não como gasto novo da política pública.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional, MCASP 11ª edição, Parte I, seção 3.6.1",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-retificacao-de-receita",
+      "term": "Retificação de receita",
+      "aliases": [
+        "Retificação de informações da receita"
+      ],
+      "definition": "É a correção de dados informados incorretamente pelo contribuinte, quando esses dados causaram registro errado da receita na contabilidade do ente. Conforme o MCASP 11ª edição, seção 3.6.1, o procedimento consiste em deduzir o registro de receita incorreto e fazer novo registro com a classificação adequada.",
+      "contrast": "Retificação, nesse procedimento, corrige informação errada de origem externa, como identificação do contribuinte ou tipo de receita. Se a informação foi correta e o erro ocorreu na escrituração feita pelo próprio ente, a correção é por estorno e novo lançamento correto. Retificar a classificação não significa necessariamente devolver dinheiro.",
+      "cebraspeTrap": "Aplicar estorno por erro de escrituração do ente a um caso em que o contribuinte forneceu dados incorretos, ou tratar toda retificação como restituição de valor.",
+      "example": "Ao pagar R$ 500, o contribuinte informa um tipo de receita incorreto. O órgão identifica o erro, deduz o registro incorreto e registra novamente os R$ 500 sob a classificação correta, conforme o procedimento do MCASP.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional, MCASP 11ª edição, Parte I, seção 3.6.1",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-estorno-de-receita",
+      "term": "Estorno de receita",
+      "aliases": [
+        "Estorno contábil de receita"
+      ],
+      "definition": "É o desfazimento contábil de um registro de receita feito incorretamente pela escrituração do próprio ente público. O MCASP 11ª edição, seção 3.6.1, orienta que, quando o erro não decorre de dados incorretos informados pelo contribuinte, o órgão faça estorno e novo lançamento correto.",
+      "contrast": "O estorno corrige um registro feito de forma errada pela contabilidade do ente. Na retificação de informação incorreta fornecida pelo contribuinte, a orientação é dedução e novo registro. Estorno não é sinônimo de devolver dinheiro nem de anular uma dotação de despesa.",
+      "cebraspeTrap": "Confundir estorno de erro de escrituração com dedução decorrente de informação errada do contribuinte ou com restituição do valor arrecadado.",
+      "example": "O contribuinte informa corretamente o tributo pago, mas o servidor lança os R$ 800 em conta errada. O órgão estorna o registro incorreto e realiza novo lançamento na conta correta.",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-4677cfa327ce43bb"
+      ],
+      "sources": [
+        {
+          "label": "Secretaria do Tesouro Nacional, MCASP 11ª edição, Parte I, seção 3.6.1",
+          "url": "https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "glo-arrecadacao-da-receita",
       "term": "Arrecadação da receita",
       "aliases": [],

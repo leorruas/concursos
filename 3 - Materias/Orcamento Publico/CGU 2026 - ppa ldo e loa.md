@@ -94,4 +94,4 @@ As seis questões são exemplos didáticos construídos a partir das normas; nã
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]]: aprofundamento sobre autorização, execução e comprovação de entregas.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: distinção entre fiscal, seguridade e investimento, com análise de dependência financeira.
 
-**Escopo editorial:** este artigo tem identidade e caminho exclusivos da CGU. Os dois aprofundamentos acima já possuem versões exclusivas da CGU, mas a integração dos novos IDs ao catálogo, índice e navegação principal continua sob responsabilidade da coordenação editorial (issue #362).
+**Escopo editorial:** este artigo é exclusivo da CGU. Os dois aprofundamentos acima também possuem versões CGU, agora integradas ao catálogo, índice, hub e percurso por meio do PR #363 (merge `2c26b3219101bae1686136fa66e70b91af0e70c4`). A aprovação do CI do PR não substitui a comprovação do GitHub Pages nem a certificação jurídica e didática do artigo.

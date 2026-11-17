@@ -33,6 +33,7 @@ jobs:
       - run: node scripts/test-prepare-chat-battery.js
       - run: node scripts/test-resume-chat-battery.js
       - run: node scripts/test-recover-chat-battery.js
+      - run: node scripts/test-recover-public-chat-question.js
       - run: node scripts/test-camara-difficulty.js && node scripts/test-camara-discursivas.js
       - run: node scripts/validate-flashcards.js
       - run: node scripts/test-article-identity.js

@@ -19,6 +19,11 @@ const q=reviewQueue(
 assert.equal(q.length,2);assert(q[0].score>=q[1].score);
 assert.equal(reviewQueue([],[],[],'' ).length,0);
 assert.equal(reviewQueue([], [{conceptId:'a',subjectId:'cgu',errors:1}],[],'camara').length,0);
+const easy=reviewQueue([{articleId:'easy',subjectId:'direito-constitucional',mistakes:[{date:'2026-11-11',difficulty:'facil'}]}],[],[],'')[0];
+const hard=reviewQueue([{articleId:'hard',subjectId:'direito-constitucional',mistakes:[{date:'2026-11-11',difficulty:'muito-dificil'}]}],[],[],'')[0];
+assert(easy.score>hard.score,'erros básicos devem ter mais peso sem confundir dificuldade com domínio');
+assert.match(easy.reason,/fundamentais/);
+
 assert(q.every(x=>!('statement' in x)&&!('userAnswer' in x)));
 const html=fs.readFileSync(path.join(__dirname,'../resultados.html'),'utf8');
 assert(html.includes('id="results-review-queue"'));assert(html.includes('id="results-edital-coverage"'));

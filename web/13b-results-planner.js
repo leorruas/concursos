@@ -25,9 +25,13 @@
    const unsure=Array.isArray(a.uncertainCorrect)?a.uncertainCorrect.length:0;
    if(!errors&&!unsure)continue;
    const days=new Set((a.mistakes||[]).map(x=>x.date).filter(Boolean)).size;
-   const score=Math.min(100,errors*8+unsure*3+(days>=2?18:0));
+   const weights={'muito-facil':8,facil:7,media:5,dificil:3,'muito-dificil':2,'nao-classificada':0};
+   const basicErrors=(a.mistakes||[]).filter(x=>['muito-facil','facil'].includes(x.difficulty)).length;
+   const difficultyBonus=(a.mistakes||[]).reduce((sum,x)=>sum+(weights[x.difficulty]||0),0);
+   const score=Math.min(100,errors*8+unsure*3+(days>=2?18:0)+difficultyBonus);
    rows.push({kind:'article',articleId:a.articleId,subjectId:a.subjectId||'',label:'',
-    errors,unsure,days,score,reason:days>=2?'Erros em dias distintos':errors?'Erro registrado':'Acerto inseguro'});
+    errors,unsure,days,basicErrors,score,reason:days>=2?'Erros em dias distintos':
+     basicErrors?'Erros em questões fundamentais':errors?'Erro registrado':'Acerto inseguro'});
   }
   for(const c of concepts||[]){
    if(!c?.conceptId||subject&&c.subjectId!==subject)continue;

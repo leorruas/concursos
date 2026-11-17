@@ -45,7 +45,28 @@ for(const [legado, exclusivo] of paresCGU) {
   assert.ok(orcCamara.articleIds.includes(legado), 'Câmara deve preservar o artigo histórico: '+legado);
   assert.ok(!orcCamara.articleIds.includes(exclusivo), 'Artigo CGU não deve entrar no currículo Câmara: '+exclusivo);
 }
+const comunsOrcamento = orcCGU.articleIds.filter(id => orcCamara.articleIds.includes(id));
+assert.deepEqual(comunsOrcamento, ['art-9be1a39d536a47ea'],
+  'Somente a nota transversal de Atualidades pode permanecer nos dois catalogos de Orcamento');
+const originaisCamara = [
+  'art-f6cfe9fbcc764554','art-c301f2c741504403','art-74d90e9fa1b3452c',
+  'art-a2f47c0d6e184e93','art-d8b1c5e6037249fa','art-f13b65a28d8c4e91',
+  'art-28b3d9ef86aa4510','art-87b69e1d4ac54f20','art-715e2d16a93446cb',
+  'art-0fb9b88e4d6c4151','art-4677cfa327ce43bb','art-67167e9c18284c4c',
+  'art-6e4e79c7f4bb4aa3','art-743d234d819842d1','art-91ab320cdfb64b8a',
+  'art-4be219d8f750ac63','art-d8f21b70c49e563a','art-c917e4a2d63b508f',
+  'art-9d42c1f68a7be053'
+];
+for (const id of originaisCamara) {
+  assert.ok(orcCamara.articleIds.includes(id), 'Artigo historico Camara removido: '+id);
+  assert.ok(!orcCGU.articleIds.includes(id), 'Artigo historico Camara retornou ao catalogo CGU: '+id);
+}
 const cards = carregar('data/flashcards.json').cards;
+const legadosNoCartaoCGU = cards.filter(card => card.examIds.includes('cgu-2026') &&
+  originaisCamara.includes(card.note?.articleId));
+assert.equal(legadosNoCartaoCGU.length, 0,
+  'Cartoes CGU de qualquer materia nao podem apontar para artigos historicos da Camara: '+
+  legadosNoCartaoCGU.map(card => card.id).join(', '));
 const cardsOrcCGU = cards.filter(c => c.examIds.includes('cgu-2026') &&
   c.subjectIds.includes('orcamento-publico'));
 for (const card of cardsOrcCGU) {

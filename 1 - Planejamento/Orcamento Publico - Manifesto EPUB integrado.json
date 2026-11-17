@@ -300,6 +300,30 @@
       "selectionStatus": "avaliar-sobreposicao-com-camara"
     },
     {
+      "chapterKey": "cgu-6-novo",
+      "articleId": "art-e4c982a6713d4bf5",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - natureza fonte e resultado da receita.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-f13b65a28d8c4e91",
+      "topicKey": "receita-classificacao",
+      "sequence": 6,
+      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "include": false,
+      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+    },
+    {
+      "chapterKey": "cgu-7-novo",
+      "articleId": "art-3f9d17a6c04b4e82",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - classificacao da despesa e rastreamento.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-28b3d9ef86aa4510",
+      "topicKey": "despesa-classificacao",
+      "sequence": 7,
+      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "include": false,
+      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+    },
+    {
       "chapterKey": "cgu-8-novo",
       "articleId": "art-83d7c5ef2a0b4916",
       "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria.md",
@@ -307,6 +331,18 @@
       "sourceArticleId": "art-87b69e1d4ac54f20",
       "topicKey": "creditos",
       "sequence": 8,
+      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "include": false,
+      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+    },
+    {
+      "chapterKey": "cgu-9-novo",
+      "articleId": "art-a91ef3c628d04b57",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - emendas rastreabilidade e controle.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-715e2d16a93446cb",
+      "topicKey": "emendas-impositivas",
+      "sequence": 9,
       "certificationStatus": "redigido-validacao-editorial-pendente",
       "include": false,
       "selectionStatus": "aguarda-certificacao-e-curadoria-epub"

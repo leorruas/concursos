@@ -219,46 +219,73 @@ Estes três itens são **inéditos didáticos**, não questões oficiais da banc
 
 ## Contratos administrativos
 
-O título da nota abrange também a etapa posterior à seleção do contratado. O contrato administrativo não é simples contrato privado com o Estado como signatário: a Lei nº 14.133/2021 confere à Administração prerrogativas específicas, respeitados os direitos do contratado.
+A seleção do vencedor **não encerra os deveres da Administração**. O objeto contratado precisa ser entregue, medido, fiscalizado, recebido e pago segundo regras legais e contratuais. Um **contrato administrativo** é um vínculo jurídico que atribui obrigações à Administração e ao contratado, sob normas de direito público, com prerrogativas expressas e proteção aos direitos da outra parte.
+
+**Art. 89:** os contratos são regulados pela Lei nº 14.133/2021, suas cláusulas e preceitos de direito público, aplicando-se supletivamente princípios da teoria geral dos contratos e normas de direito privado. Contrato com a Administração não é sinônimo de contrato sem regras bilaterais ou sem obrigações públicas.
 
 ### Cláusulas e execução
 
-O art. 92 enumera cláusulas necessárias, incluindo objeto, vinculação ao edital ou ato de contratação direta, preço, prazos, garantias quando exigidas, direitos e responsabilidades, penalidades, modelo de gestão e hipóteses de extinção.
+O **art. 92** enumera cláusulas necessárias, como objeto e elementos característicos, vinculação ao edital ou ato autorizador da contratação direta, legislação aplicável, regime de execução ou forma de fornecimento, preço, condições de pagamento, prazos, garantias quando exigidas, direitos e responsabilidades, penalidades, modelo de gestão e hipóteses de extinção. Nem todas as situações possuem a mesma redação contratual, mas os elementos aplicáveis devem estar formalizados.
 
-O art. 115 estabelece que o contrato deve ser executado fielmente pelas partes segundo as cláusulas pactuadas e a lei.
+O **art. 115** exige execução fiel pelas partes segundo cláusulas e legislação, respondendo cada qual pelas consequências da sua inexecução total ou parcial. **Fiscalizar é dever institucional**, não mera opção. A prestação material não dispensa verificação do resultado antes do recebimento definitivo nas hipóteses legais.
+
+### Instrumento contratual × contrato verbal
+
+O **art. 95** permite substituir o instrumento formal de contrato por documentos hábeis, como nota de empenho, autorização de compra ou ordem de execução, principalmente em hipóteses previstas de **dispensa em razão do valor** e **compras com entrega imediata e integral sem obrigações futuras**. Essa substituição **não elimina a contratação nem seus requisitos**. O art. 95, § 2º, admite excepcionalmente contrato **verbal** para pequenas compras ou serviços de pronto pagamento, dentro do limite atualizado: **R$ 13.098,41 em 2026**, conforme Decreto nº 12.807/2025. **A regra geral é nulidade do contrato verbal** fora dessa exceção.
+
+### Publicação no PNCP e eficácia: art. 94
+
+O [Portal Nacional de Contratações Públicas (PNCP)](https://www.gov.br/pncp/pt-br) concentra publicações exigidas pela Lei nº 14.133/2021. O **art. 94** estabelece que a divulgação no PNCP é condição indispensável à **eficácia do contrato e de seus aditamentos**. Os prazos são contados **da assinatura**:
+
+| Procedência do contrato | Prazo de publicação no PNCP | Regra de eficácia |
+| --- | --- | --- |
+| Após **licitação** | **20 dias úteis** | A divulgação é condição de eficácia |
+| Após **contratação direta** | **10 dias úteis** | A divulgação é condição de eficácia |
+| Contratação em **urgência** | Observar o prazo aplicável acima | O contrato tem eficácia **desde a assinatura**, mas deve ser publicado no prazo, sob pena de nulidade, conforme § 1º |
+
+**Distinguir existência, validade e eficácia:** a assinatura constitui o instrumento; a validade exige cumprimento dos requisitos legais; a **eficácia** se refere à aptidão do contrato para produzir os efeitos jurídicos previstos. **A publicação é condição de eficácia**, não um prazo para assinar o documento.
 
 ### Prerrogativas da Administração: art. 104
 
-Entre as prerrogativas legais estão:
+A lei confere à Administração prerrogativas nos casos legais, incluindo **modificar** unilateralmente o contrato para melhor adequá-lo ao interesse público, **extingui-lo unilateralmente** em hipóteses previstas, **fiscalizar a execução**, **aplicar sanções motivadas** e, quando autorizado, **ocupar provisoriamente bens e utilizar pessoal ou serviços vinculados ao objeto** em situações legalmente definidas.
 
-- modificar unilateralmente o contrato para adequá-lo às finalidades de interesse público, nos casos legais e preservados os direitos do contratado;
-- extingui-lo unilateralmente nas hipóteses legais;
-- fiscalizar a execução;
-- aplicar sanções motivadas pela inexecução;
-- em situações previstas em lei, ocupar provisoriamente bens e utilizar meios vinculados ao objeto.
+Essas prerrogativas são conhecidas doutrinariamente como **cláusulas exorbitantes**: poderes especiais decorrentes do regime público. **Não significam liberdade ilimitada** para alterar preço ou objeto, punir sem contraditório ou extinguir sem motivação. A proteção ao **equilíbrio econômico-financeiro** permanece relevante quando o exercício das prerrogativas modifica os encargos.
 
-Essas prerrogativas não significam poder ilimitado de alterar o contrato.
+**Aplicação:** se a empresa contratada para acessibilidade atrasa entregas, o fiscal deve registrar a ocorrência; eventual sanção cabe à autoridade competente dentro do devido processo. Se a Administração decide alterar unilateralmente especificações nos limites legais, precisa justificar, formalizar e preservar direitos do contratado.
 
 ## Alterações contratuais
 
-O art. 124 separa alterações **unilaterais** da Administração e alterações **por acordo entre as partes**.
+O **art. 124** separa hipóteses de mudança **unilateralmente pela Administração** e **por acordo entre as partes**. O motivo, a documentação e as consequências diferem conforme a natureza da alteração.
 
-Nas alterações unilaterais quantitativas, o art. 125 determina, em regra, aceitação pelo contratado de acréscimos ou supressões de até **25%** do valor inicial atualizado. Para **acréscimos em reforma de edifício ou equipamento**, o limite é **50%**.
+| Tipo | Fundamento e mecanismo | Limite importante |
+| --- | --- | --- |
+| **Unilateral qualitativa**, art. 124, I, *a* | Ajustar **projeto ou especificações** para adequação técnica ao objetivo público | Justificativa, direitos do contratado e proibição de transfigurar o objeto |
+| **Unilateral quantitativa**, art. 124, I, *b* | Aumentar ou diminuir quantitativamente o objeto com reflexo no valor | **Art. 125:** até **25%** do valor inicial atualizado; na **reforma de edifício ou equipamento**, acréscimos até **50%** |
+| **Por acordo**, art. 124, II | Substituição de garantia, ajuste do regime de execução ou forma de pagamento por circunstâncias legais, entre outras hipóteses | Depende de **consenso** e fundamentos; não é sinônimo de alteração unilateral irrestrita |
 
-> [!WARNING]
-> O limite de 50% não vale genericamente para qualquer alteração nem para toda supressão. A lei o associa aos **acréscimos** em reforma de edifício ou equipamento.
+**25% e 50%:** a lei determina que, nas alterações unilaterais do art. 124, I, o contratado aceite, nas mesmas condições, acréscimos ou supressões até 25% do valor inicial atualizado. **Somente acréscimos em reforma de edifício ou equipamento** têm limite de 50%. Uma redução de 40% imposta unilateralmente em reforma **não pode ser legitimada** por citar o percentual de 50% reservado aos acréscimos.
 
-Alterações unilaterais não podem transfigurar o objeto da contratação. Se aumentarem ou diminuírem encargos do contratado, deve ser restabelecido o equilíbrio econômico-financeiro inicial nos termos legais.
+**Art. 126:** modificações unilaterais **não podem transfigurar o objeto**. Contratar acessibilidade e depois alterar unilateralmente para uma campanha de publicidade sem relação com o objeto original não se resolve apenas observando um percentual. A escolha da contratação inicial e seu objeto importam.
+
+**Equilíbrio econômico-financeiro:** o equilíbrio inicial protege a relação entre encargos assumidos e remuneração da proposta, nas condições legais. **Reajuste** aplica índice contratual em função do tempo; **repactuação** é mecanismo específico para custos de serviços contínuos com dedicação exclusiva de mão de obra ou predominância de mão de obra; **revisão ou reequilíbrio** lida com acontecimentos e hipóteses legais que alterem a equação inicial (art. 124, II, *d*, e dispositivos pertinentes). Não confundir qualquer aumento de preço com revisão extraordinária.
+
+**Exemplo:** servidor determina aumento quantitativo de 20% no objeto, com justificativa e preservação do regime: verificar art. 125. Em outro caso, o órgão quer converter o objeto contratado em prestação diversa: o problema é **transfiguração**, ainda que o preço fique abaixo do limite.
 
 ## Extinção do contrato
 
-O art. 137 enumera motivos de extinção e exige motivação formal no processo, com contraditório e ampla defesa. O art. 138 admite, conforme a hipótese:
+A **extinção** termina o vínculo contratual na forma da lei. O **art. 137** descreve motivos como descumprimento ou cumprimento irregular de normas e cláusulas contratuais, paralisação, atraso injustificado, alterações sociais impeditivas ou situações legais relacionadas à atuação administrativa. A decisão exige **motivação formal nos autos**, preservados contraditório e ampla defesa quando pertinentes.
 
-- extinção por ato unilateral e escrito da Administração;
-- extinção consensual;
-- decisão arbitral ou judicial.
+O **art. 138** prevê três formas principais:
 
-A extinção unilateral não pode ser tratada como liberdade irrestrita da Administração: depende das hipóteses e procedimentos legais.
+| Forma | Quem determina ou como ocorre? | Fronteira decisiva |
+| --- | --- | --- |
+| **Unilateral** | Ato unilateral **escrito da Administração** nos casos legais | Não equivale à livre desistência de qualquer contrato |
+| **Consensual** | Acordo entre as partes, quando houver interesse da Administração e condições legais | Exige concordância, não imposição |
+| **Judicial ou arbitral** | Decisão judicial ou arbitral nos casos cabíveis | Depende dos pressupostos e do procedimento correspondente |
+
+**Exemplo:** atrasos reiterados comprovados na entrega de software podem justificar exame de extinção e sanções, desde que a Administração identifique o motivo legal, registre fatos, observe competências e garanta defesa. **Alterar unilateralmente uma cláusula** e **extinguir unilateralmente o contrato** são poderes distintos e não se tornam ilimitados por atenderem ao interesse público.
+
+**Art. 139:** a extinção unilateral pode acarretar consequências legais, como assunção imediata do objeto, ocupação e utilização temporária de recursos vinculados ao contrato em casos previstos e execução da garantia, observados limites e responsabilidades. **Extinção não é sinônimo de sanção**: o contrato pode terminar por diferentes motivos, e penalidades dependem de infração e processo próprios.
 
 ## Sanções administrativas
 

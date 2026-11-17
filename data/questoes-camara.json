@@ -52179,6 +52179,286 @@
       "correctAnswer": "E",
       "explanation": "O erro é tratar a carreira como delegável. A vedação alcança a própria carreira dos membros, além da organização e das garantias. Restringir a resolução aos aspectos de carreira não afasta a proibição. (Constituição Federal, art. 68, § 1º, I.)",
       "reviewEvidence": "Constituição Federal, art. 68, § 1º, I — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Avalia se limitar a autorização elimina a vedação material."
+    },
+    {
+      "id": "cam-const-200-solene-convite-presidente-stf",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "solene-convite-presidente-stf",
+      "mechanism": "solene-convite-presidente-stf",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      },
+      "statement": "Em sessão solene do Congresso Nacional, o Presidente do Supremo Tribunal Federal tem assento na Mesa independentemente de convite, assim como o Presidente da Câmara dos Deputados.",
+      "correctAnswer": "E",
+      "explanation": "A expressão incorreta é “independentemente de convite”. O Regimento Comum prevê assento para o Presidente da Câmara e condiciona o assento do Presidente do Supremo a convite. (Regimento Comum, art. 53, caput.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 53, caput — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Distingue a composição prevista para as duas autoridades da Mesa."
+    },
+    {
+      "id": "cam-const-200-solene-oradores-mesmo-partido",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "solene-oradores-mesmo-partido",
+      "mechanism": "solene-oradores-mesmo-partido",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "1. Sessões solenes: quem pode falar, o que se delibera? (arts. 53–56)"
+      },
+      "statement": "Fora das solenidades de inauguração e posse, cada Casa designou previamente um orador para sessão solene. O fato de ambos pertencerem ao mesmo partido, por si só, não viola uma proibição do Regimento Comum.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento estabelece preferência por oradores de partidos diferentes. Essa preferência não funciona como proibição quando o senador e o deputado designados pertencem à mesma legenda. (Regimento Comum, art. 55, caput.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 55, caput — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Distingue preferência partidária de requisito de validade e confirma a designação."
+    },
+    {
+      "id": "cam-const-200-inauguracao-enviado-permanece-lugar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "inauguracao-enviado-permanece-lugar",
+      "mechanism": "inauguracao-enviado-permanece-lugar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#2. Inauguração dos trabalhos do Congresso (arts. 57–59)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "2. Inauguração dos trabalhos do Congresso (arts. 57–59)"
+      },
+      "statement": "Após entregar a mensagem presidencial na inauguração dos trabalhos do Congresso, o enviado que desejar assistir à sessão deverá ser conduzido a lugar previamente reservado.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento separa a entrega da mensagem da permanência do enviado. Se ele quiser assistir à sessão, há um lugar reservado para esse fim. (Regimento Comum, art. 57, parágrafo único.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 57, parágrafo único — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Distingue a entrega à Mesa do procedimento posterior para assistir à sessão."
+    },
+    {
+      "id": "cam-const-200-mensagem-sem-exemplares-leitura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "mensagem-sem-exemplares-leitura",
+      "mechanism": "mensagem-sem-exemplares-leitura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#2. Inauguração dos trabalhos do Congresso (arts. 57–59)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "2. Inauguração dos trabalhos do Congresso (arts. 57–59)"
+      },
+      "statement": "Se a mensagem presidencial chegar à sessão de inauguração sem exemplares impressos para distribuição, o Regimento Comum autoriza dispensar sua leitura e encerrar a sessão.",
+      "correctAnswer": "E",
+      "explanation": "A falta de exemplares dispensa a distribuição, que depende da existência deles. O Primeiro-Secretário deve ler a mensagem, e o encerramento ocorre depois da leitura. (Regimento Comum, arts. 58 e 59.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, arts. 58 e 59 — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Distingue a leitura obrigatória da distribuição condicionada à existência de exemplares."
+    },
+    {
+      "id": "cam-const-200-posse-mesma-comissao-reabertura",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "posse-mesma-comissao-reabertura",
+      "mechanism": "posse-mesma-comissao-reabertura",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#3. Posse do Presidente e do Vice-Presidente da República (arts. 60–67)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "3. Posse do Presidente e do Vice-Presidente da República (arts. 60–67)"
+      },
+      "statement": "Reaberta a sessão de posse presidencial, a mesma comissão que recebeu os eleitos na entrada principal os introduz no Plenário.",
+      "correctAnswer": "C",
+      "explanation": "A comissão designada para receber o Presidente e o Vice-Presidente eleitos continua responsável pelo ingresso deles no Plenário após a suspensão. (Regimento Comum, arts. 60 e 61.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, arts. 60 e 61 — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Identifica a continuidade da atribuição da comissão entre duas fases."
+    },
+    {
+      "id": "cam-const-200-posse-termo-apenas-eleitos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "posse-termo-apenas-eleitos",
+      "mechanism": "posse-termo-apenas-eleitos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#3. Posse do Presidente e do Vice-Presidente da República (arts. 60–67)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "3. Posse do Presidente e do Vice-Presidente da República (arts. 60–67)"
+      },
+      "statement": "Depois dos compromissos do Presidente e do Vice-Presidente, o Primeiro-Secretário lê o termo de posse, cuja assinatura cabe aos empossados sem participação dos membros da Mesa.",
+      "correctAnswer": "E",
+      "explanation": "A leitura após os compromissos está correta. O erro está em excluir a Mesa da assinatura. O termo é assinado pelos empossados e pelos membros da Mesa. (Regimento Comum, art. 65.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 65 — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Identifica conjuntamente o momento da leitura e os signatários."
+    },
+    {
+      "id": "cam-const-200-posse-fala-presidencial-sem-oradores",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "posse-fala-presidencial-sem-oradores",
+      "mechanism": "posse-fala-presidencial-sem-oradores",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#3. Posse do Presidente e do Vice-Presidente da República (arts. 60–67)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "3. Posse do Presidente e do Vice-Presidente da República (arts. 60–67)"
+      },
+      "statement": "A inexistência de oradores parlamentares na solenidade de posse não impede que se conceda a palavra ao Presidente da República para dirigir-se ao Congresso e à Nação.",
+      "correctAnswer": "C",
+      "explanation": "A regra sobre oradores parlamentares não se confunde com o pronunciamento do Presidente da República. O Regimento prevê, para a posse, a possibilidade de lhe conceder a palavra. (Regimento Comum, art. 55, parágrafo único, e art. 66.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 55, parágrafo único, e art. 66 — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Concilia a ausência de oradores com a faculdade específica da posse."
+    },
+    {
+      "id": "cam-const-200-visitante-fala-depois",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "visitante-fala-depois",
+      "mechanism": "visitante-fala-depois",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#4. Recepção de chefe de Estado estrangeiro (arts. 68–71)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "4. Recepção de chefe de Estado estrangeiro (arts. 68–71)"
+      },
+      "statement": "Se um chefe de Estado estrangeiro desejar pronunciar-se na sessão de sua recepção, sua fala deverá ocorrer depois dos oradores da sessão.",
+      "correctAnswer": "C",
+      "explanation": "Os oradores falam primeiro. Se o visitante quiser usar a palavra, o Regimento reserva para ele o momento posterior. (Regimento Comum, arts. 69, § 2º, e 70.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, arts. 69, § 2º, e 70 — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Aplica a ordem regimental a uma situação direta."
+    },
+    {
+      "id": "cam-const-200-visitante-na-mesa-lado-esquerdo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "visitante-na-mesa-lado-esquerdo",
+      "mechanism": "visitante-na-mesa-lado-esquerdo",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#4. Recepção de chefe de Estado estrangeiro (arts. 68–71)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "4. Recepção de chefe de Estado estrangeiro (arts. 68–71)"
+      },
+      "statement": "Na reabertura da sessão de recepção de chefe de Estado estrangeiro, o visitante ocupa à Mesa o lugar à esquerda do Presidente.",
+      "correctAnswer": "E",
+      "explanation": "O lado indicado está invertido. O lugar reservado ao chefe de Estado estrangeiro é à direita do Presidente. (Regimento Comum, art. 69.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 69 — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Reconhece a posição protocolar expressa."
+    },
+    {
+      "id": "cam-const-200-pec-promulgacao-sessao-nao-solene",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "pec-promulgacao-sessao-nao-solene",
+      "mechanism": "pec-promulgacao-sessao-nao-solene",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#5. PEC: artigos revogados e promulgação (arts. 72–85)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "5. PEC: artigos revogados e promulgação (arts. 72–85)"
+      },
+      "statement": "Após a aprovação de uma proposta de emenda à Constituição nos dois turnos exigidos em cada Casa, as Mesas a promulgam em sessão conjunta, que pode ser convocada como sessão deliberativa comum.",
+      "correctAnswer": "E",
+      "explanation": "A aprovação em cada Casa está correta. A etapa posterior é a promulgação pelas duas Mesas em sessão conjunta solene, conforme o art. 85 do Regimento Comum. (Regimento Comum, art. 85 e Constituição Federal, art. 60, §§ 2º e 3º.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 85 e Constituição Federal, art. 60, §§ 2º e 3º — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Constituição Federal — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a aprovação em cada Casa da natureza da sessão de promulgação."
     }
   ]
 }

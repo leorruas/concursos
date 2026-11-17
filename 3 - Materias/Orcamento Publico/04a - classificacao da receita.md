@@ -36,7 +36,7 @@ A primeira divisão **por categoria econômica da receita orçamentária** é **
 
 **Mude apenas uma condição no mesmo imóvel:** receber **aluguel** pelo prédio gera, em regra, receita **corrente patrimonial**; **vendê-lo** gera receita **de capital por alienação de bens**. O aluguel recebido uma única vez permanece corrente; a venda realizada repetidamente não se transforma em receita corrente por causa da frequência. O critério é o **tipo de operação**.
 
-**Atenção às duas exceções e cruzamentos:** a **antecipação de receita orçamentária (ARO)** é ingresso **extraorçamentário**, mesmo sendo operação de crédito; a classificação **de capital** não significa, por si, que o ingresso seja **financeiro para o resultado primário** nem que todos os gastos pagos com esses recursos sejam despesas de capital. Cada eixo de classificação responde a uma pergunta própria.
+**Atenção aos critérios diferentes:** a **antecipação de receita orçamentária (ARO)** é empréstimo de curto prazo para suprir falta temporária de caixa e constitui ingresso **extraorçamentário**, apesar de ser operação de crédito. Já uma venda de terreno é receita de **capital** e, em regra, **primária** para o cálculo fiscal. E uma receita de capital não obriga que todo gasto financiado por ela seja registrado como despesa de capital: as regras de aplicação e a natureza da despesa precisam ser verificadas separadamente.
 
 ### Mapa visual: como classificar uma receita
 
@@ -72,14 +72,7 @@ flowchart TB
 **Fronteira para a prova:** corrente/capital pertence à **natureza**; primária/financeira pertence ao **resultado fiscal**; orçamentária/extraorçamentária pertence ao **tratamento do ingresso**. A fonte/destinação identifica restrições e possibilidades de aplicação, não a origem econômica. O par originária/derivada é **doutrinário**, não um nível da codificação oficial.
 
 
-A natureza descreve a **origem econômica e legal do ingresso**, em níveis progressivos: categoria, origem, espécie e detalhamentos. A Lei nº 4.320/1964, art. 11, distingue:
-
-| Categoria econômica | Exemplos usuais | Fronteira |
-| :--- | :--- | :--- |
-| **Receitas correntes** | Impostos, taxas, contribuições, serviços, receita patrimonial, transferências correntes | Não se confunde com “receita primária” |
-| **Receitas de capital** | Operações de crédito, alienação de bens, amortização de empréstimos concedidos, transferências de capital | Nem toda receita de capital é sinônimo de receita financeira |
-
-As **origens** agrupam ingressos dentro de cada categoria. Receita tributária e de contribuições pode envolver subdivisões específicas nos manuais, que não devem ser confundidas com a classificação doutrinária de **receitas originárias e derivadas**.
+**Como passar da categoria ao tipo exato de receita:** a classificação por natureza segue níveis. A **categoria econômica** separa corrente e capital. Dentro dela, a **origem** indica a operação que gerou o dinheiro, como impostos ou alienação de bens. A **espécie** especifica uma divisão dentro dessa origem e os detalhamentos identificam receitas com maior precisão. Exemplo: o IPTU é um imposto e pertence às receitas correntes; a venda de terreno está na origem alienação de bens, dentro das receitas de capital. A Lei nº 4.320/1964, art. 11, distingue esses grandes grupos; os manuais vigentes trazem os códigos detalhados. A palavra **origem** nessa estrutura oficial tem sentido diferente da classificação doutrinária **originária/derivada**, explicada adiante.
 
 ### Vocabulário das origens da receita: o que efetivamente entra no caixa?
 
@@ -96,8 +89,7 @@ A palavra **receita** descreve um ingresso **para quem recebe**. Um mesmo pagame
 | **Amortização de empréstimos** (capital) | **Devolução do principal** de empréstimo que o **próprio ente público havia concedido** a alguém | Município havia emprestado R$ 100 mil e recebe R$ 20 mil de principal: isso é receita de capital. **Juros recebidos** são receita corrente na classificação pertinente |
 | **Transferência de capital** | Recurso recebido de outra pessoa pública ou privada, **sem contraprestação direta ao transferidor**, destinado a financiar **despesas de capital**, como investimentos ou inversões financeiras | Município recebe recursos vinculados à construção de um hospital, e não ao custeio regular do hospital |
 
-
-**O que significa “sem contraprestação direta ao transferidor”?** Contraprestação é um bem ou serviço entregue **em troca do pagamento**, diretamente a quem paga. Numa transferência, o recebedor não precisa fornecer um bem ou serviço ao ente que lhe repassou os recursos. Exemplo: a União transfere recursos a um município para construir uma escola destinada à população. A escola não é uma contraprestação prestada à União.
+**O que significa “sem contraprestação direta ao transferidor”?** O **transferidor** é quem repassa o dinheiro ao ente que o recebe. **Contraprestação** é um bem ou serviço entregue **em troca do pagamento**, diretamente a quem paga. Numa transferência, o recebedor não precisa fornecer um bem ou serviço ao ente que lhe repassou os recursos. Exemplo: a União transfere recursos a um município para construir uma escola destinada à população. A escola não é uma contraprestação prestada à União.
 
 **Atenção à pegadinha:** ausência de contraprestação direta **não significa ausência de obrigações**. O município pode estar obrigado a aplicar o dinheiro na finalidade prevista, executar a obra e prestar contas à União. **Contraprestação direta ao transferidor** e **obrigação de aplicar e comprovar o uso dos recursos** são conceitos diferentes.
 
@@ -149,7 +141,7 @@ Exemplo: uma prefeitura recebe **R$ 50 mil de aluguel** de imóvel público e **
 
 **Atenção:** a vedação constitucional de vincular receitas de **impostos** tem exceções específicas; a existência do classificador de fonte não autoriza inventar uma vinculação. Ver [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|não afetação e suas exceções]].
 
-**Âmbito e versão dos códigos:** o MCASP 11ª edição estabelece orientação contábil orçamentária nacional; o MTO do exercício detalha a classificação federal. No **MTO 2026**, o identificador federal de resultado da receita distingue **primária (1)** e **financeira (0)**. Esses dígitos descrevem esse classificador específico; não são códigos da natureza, nem da fonte/destinação. As tabelas de fonte também variam por ente e exercício. Conferir o ato aplicável antes de transpor um código da União para um município.
+**Âmbito e versão dos códigos:** o **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição**, apresenta orientações contábeis orçamentárias para os entes federativos. O **Manual Técnico de Orçamento (MTO)** detalha as classificações utilizadas na proposta orçamentária federal. No **MTO 2026**, o identificador federal de resultado da receita distingue **primária (1)** e **financeira (0)**. Esses dígitos descrevem esse classificador específico; não são códigos da natureza, nem da fonte/destinação. As tabelas de fonte também variam por ente e exercício. Conferir o ato aplicável antes de transpor um código da União para um município.
 
 ## Primária × financeira: efeito no resultado primário
 
@@ -182,9 +174,9 @@ Esse quadro é um **contraste entre critérios**, e não autorização para usar
 
 ## Questões comentadas: distinções entre conjuntos (treino didático C/E)
 
-**Item 1.** Como a alienação de um bem público gera receita de capital, seu ingresso é necessariamente financeiro para efeito do resultado primário. **Gabarito: Errado.** A natureza capital não define o indicador primário; alienação é, em regra, primária.
+**Item 1.** Como a alienação de um bem público gera receita de capital, seu ingresso é necessariamente financeiro para efeito do resultado primário. **Gabarito: Errado.** A venda de um terreno é **receita de capital** porque envolve alienação de bens, mas, em regra, também é **receita primária** no cálculo fiscal. A expressão *necessariamente financeiro* mistura a categoria econômica (corrente/capital) com o indicador de resultado primário (primária/financeira). O valor só será tratado corretamente depois de examinar cada classificação por seu próprio critério.
 
-**Item 2.** O ingresso de operação de crédito comum e o de ARO podem receber o mesmo tratamento orçamentário apenas porque ambos exigem devolução. **Gabarito: Errado.** ARO possui tratamento extraorçamentário próprio, enquanto crédito comum é, em regra, receita orçamentária de capital.
+**Item 2.** O ingresso de operação de crédito comum e o de ARO podem receber o mesmo tratamento orçamentário apenas porque ambos exigem devolução. **Gabarito: Errado.** Os dois empréstimos criam obrigação de devolver dinheiro, mas têm **tratamentos orçamentários diferentes**. O empréstimo comum entra, em regra, como **receita orçamentária de capital**. A ARO, usada para cobrir falta temporária de caixa durante o exercício, é **ingresso extraorçamentário**, por exceção legal. A necessidade de devolução não basta para determinar a classificação.
 
 Itens inéditos e didáticos, sem alegação de calibração com prova real.
 

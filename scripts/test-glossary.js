@@ -317,7 +317,7 @@ assert(fs.existsSync(path.join(root,'data/glossario/termos/orcamento-publico-com
 assert(fs.existsSync(path.join(root,'data/glossario/termos/orcamento-publico-empenho.json')),'Lote novo de empenho ausente');
 const empenho = published.terms.find(t => t.id === 'glo-empenho');
 assert(empenho && empenho.definition.includes('pendente ou não de implemento de condição'),'Empenho: redação legal do art. 58 foi alterada');
-assert(empenho.articleLinks.some(a => a.articleId === 'art-67167e9c18284c4c'));
+assert(empenho.articleLinks.some(a => a.articleId === 'art-79e2c6a4f80143bd'), 'Empenho deve apontar ao artigo proprio da CGU apos migracao');
 
 const exigirTrecho = (id, regex, descricao) => {
   const termo = published.terms.find(t => t.id === id);

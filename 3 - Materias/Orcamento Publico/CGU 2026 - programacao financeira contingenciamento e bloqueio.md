@@ -139,6 +139,6 @@ O capítulo [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e ev
 - [Lei Complementar nº 101/2000: Lei de Responsabilidade Fiscal](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): arts. 8º e 9º, com redações vigentes e exceções.
 - [Lei Complementar nº 200/2023: regime fiscal sustentável](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm): parâmetros gerais de limite de despesas primárias.
 - [Decreto nº 12.846/2026: programação orçamentária e financeira federal](https://www2.camara.leg.br/legin/fed/decret/2026/decreto-12846-12-fevereiro-2026-798712-normaatualizada-pe.html): conferir versão consolidada, anexos e alterações.
-- [Edital oficial CGU 2026, Auditoria](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html): bloco de Finanças públicas, orçamento e contabilidade pública, item 2.2.
+- [Edital CGU 2026 atualizado, Auditoria](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): bloco de Finanças públicas, orçamento e contabilidade pública, item 2.2.
 
 **Limite de validação editorial:** os valores, exceções e números de anexo de execução federal são mutáveis ao longo do ano. O material ensina a identificar os fundamentos e a verificar os atos válidos na data do fato; não substitui a leitura do decreto consolidado em uma auditoria concreta.

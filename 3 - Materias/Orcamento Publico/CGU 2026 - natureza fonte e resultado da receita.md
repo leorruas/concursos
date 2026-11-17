@@ -149,6 +149,6 @@ O capítulo [[3 - Materias/Orcamento Publico/CGU 2026 - receitas publicas regist
 - [Manual Técnico de Orçamento (MTO) 2026](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf): classificações de receitas por natureza, fonte/destinação e indicadores de resultado fiscal.
 - [Constituição Federal, art. 167, IV](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): vinculação de impostos e exceções.
 - [MCASP, 11ª edição, Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp): procedimentos de receita.
-- [Edital CGU 2026, Auditoria](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html): itens 2.1 e 3.1.
+- [Edital CGU 2026 atualizado, Auditoria](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): itens 2.1 e 3.1.
 
 **Estado:** artigo CGU redigido. Auditoria normativa integral, gabaritos, revisão didática, CI/Pages e inspeção visual devem ser atestados individualmente antes de certificação e substituição de referências antigas.

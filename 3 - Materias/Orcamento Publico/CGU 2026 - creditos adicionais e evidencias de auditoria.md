@@ -134,4 +134,4 @@ Este capítulo trata de **alteração da autorização de despesa**. Para avalia
 
 - [Lei nº 4.320/1964, texto atualizado na Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): arts. 40 a 46 e art. 7º.
 - [Constituição Federal, texto e jurisprudência no Supremo Tribunal Federal](https://portal.stf.jus.br/Constituicao-Supremo/artigo.asp?abrirArtigo=167&abrirBase=CF): art. 167, §§ 2º e 3º; conferir também arts. 62, 165, § 8º, e 166.
-- [Edital oficial CGU 2026, Auditoria, Cebraspe](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html): programa de Finanças públicas, orçamento e contabilidade pública, item 2.1; conferir retificações oficiais.
+- [Edital CGU 2026 atualizado, Auditoria, Cebraspe](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): programa de Finanças públicas, orçamento e contabilidade pública, item 2.1; conferir retificações oficiais.

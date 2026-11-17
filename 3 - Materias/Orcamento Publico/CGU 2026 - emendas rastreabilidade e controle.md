@@ -140,6 +140,6 @@ A [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias d
 - [Lei Complementar nº 210/2024, Senado Federal](https://legis.senado.gov.br/norma/39857130/publicacao/39857348): disciplina específica das emendas.
 - [STF, 09/09/2026: determinação sobre identificador único](https://noticias.stf.jus.br/postsnoticias/governo-e-congresso-deverao-propor-codigo-unico-para-rastrear-emendas-parlamentares-decide-relator/): status de acompanhamento da ADPF 854.
 - [Consultoria de Orçamentos do Senado, nota informativa de novembro de 2026](https://www12.senado.leg.br/orcamento/documentos/estudos/tipos-de-estudos/notas-tecnicas-e-informativos/ni_decisoes_stf_emendas.pdf/%40%40download/file/NI_nov_2026.pdf): síntese de decisões e controles, sujeita à atualização.
-- [Edital CGU 2026, Auditoria](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html): item 2.1.
+- [Edital CGU 2026 atualizado, Auditoria](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): item 2.1.
 
 **Estado editorial:** versão própria redigida para revisão técnica e jurídica, com especial atenção à data das decisões do STF. Certificação, inspeção visual e reatribuição de referências antigas permanecem pendentes.

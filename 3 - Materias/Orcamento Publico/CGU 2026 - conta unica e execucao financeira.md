@@ -131,6 +131,6 @@ A [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenci
 - [Tesouro Nacional: objetivos e organização do SIAFI](https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos): funções de execução orçamentária e financeira.
 - [Manual federal de execução orçamentária e financeira](https://www.gov.br/dnocs/pt-br/centrais-de-conteudo/documentos/da-drf/financeiro/meof.pdf): cota, repasse e sub-repasse.
 - [Decreto nº 93.872/1986](https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm): regras federais de tesouraria.
-- [Edital CGU 2026, Auditoria](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html): item 3.1.
+- [Edital CGU 2026 atualizado, Auditoria](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): item 3.1.
 
 **Situação:** versão CGU redigida para auditoria independente. Gabaritos, integridade de referências, CI/Pages e inspeção visual devem ser verificados antes de declarar certificação.

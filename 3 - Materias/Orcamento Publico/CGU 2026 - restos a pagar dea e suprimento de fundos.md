@@ -136,6 +136,6 @@ Para conferir a despesa antes do encerramento, leia [[3 - Materias/Orcamento Pub
 - [Lei nº 4.320/1964, texto atualizado na Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): arts. 35 a 37 e 68 a 69.
 - [Decreto nº 93.872/1986, disciplina federal](https://www.planalto.gov.br/ccivil_03/decreto/d93872.htm): conferir versão consolidada, especialmente regras de inscrição, cancelamento e tratamento posterior.
 - [MCASP, 11ª edição, Tesouro Nacional](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp): procedimentos orçamentários e tratamento de restos a pagar.
-- [Edital CGU 2026, Auditoria](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html): Finanças públicas, orçamento e contabilidade pública, item 3.1.
+- [Edital CGU 2026 atualizado, Auditoria](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): Finanças públicas, orçamento e contabilidade pública, item 3.1.
 
 **Estado editorial:** artigo específico CGU redigido; revisão integral independente, certificação por `articleId`, integração de glossário/flashcards e inspeção visual ainda não foram concluídas.

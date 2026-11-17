@@ -160,6 +160,6 @@ A [[3 - Materias/Orcamento Publico/CGU 2026 - natureza fonte e resultado da rece
 - [Lei nº 4.320/1964](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): categorias econômicas, natureza e execução.
 - [Manual Técnico de Orçamento 2026, Secretaria de Orçamento Federal](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf): classificação institucional, funcional, programática, natureza, fonte, RP e IU.
 - [Glossário de termos orçamentários do Congresso Nacional](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-orcamentario/-/orcamentario/lista/): definições e dimensões.
-- [Edital CGU 2026, Auditoria](https://cdn.cebraspe.org.br/concursos/CGU_26_AFFC/arquivos/90B861E07F72AFB1ECB1B3AE8974443779FFF17388907D1F7F5FDB621761295F.html): itens 2.1 e 3.1.
+- [Edital CGU 2026 atualizado, Auditoria](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): itens 2.1 e 3.1.
 
 **Estado:** versão específica CGU redigida e integrada à navegação. Auditoria, gabaritos, certificação, inspeção visual e reconciliação das referências do artigo histórico ainda devem ser realizados.

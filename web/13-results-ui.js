@@ -101,9 +101,19 @@ function subjectHeading(subject,count){
  return h;
 }
 function evidenceLabel(attempts,errors){
- if(attempts<3)return 'Amostra pequena: confira outras questões antes de concluir que há dificuldade recorrente.';
- if(errors>1)return 'Erros registrados: prioridade de revisão, não medida definitiva de domínio.';
- return 'Recomendação baseada no histórico disponível, sujeita a novos resultados.';
+ if(attempts<3)return 'Poucas ocorrências de erro ou insegurança. Consulte outras questões antes de concluir que há uma lacuna.';
+ if(errors>1)return 'Erros registrados. Verifique se ocorreram em dias diferentes antes de considerar a dificuldade recorrente.';
+ return 'Recomendação baseada nas ocorrências registradas, sujeita a novos resultados.';
+}
+function articleReviewEvidence(article){
+ const mistakes=Array.isArray(article.mistakes)?article.mistakes:[];
+ const unsure=Array.isArray(article.uncertainCorrect)?article.uncertainCorrect:[];
+ const days=new Set(mistakes.map(q=>q.date).filter(d=>/^\\d{4}-\\d{2}-\\d{2}$/.test(String(d||''))));
+ if(mistakes.length>=2&&days.size>=2)return 'Erros em '+days.size+' dias distintos: revisar o conceito e testar novamente.';
+ if(mistakes.length>=2)return 'Mais de um erro registrado; recorrência entre dias ainda não demonstrada.';
+ if(mistakes.length===1)return 'Um erro registrado; confirmar com novas questões antes de ampliar a revisão.';
+ if(unsure.length)return 'Acerto com insegurança: reforçar o conceito e retestar.';
+ return 'Sem ocorrência de erro ou insegurança vinculada.';
 }
 function priorityLabel(score){
  const label=el('strong','results-score','prioridade '+score+'/100');
@@ -142,10 +152,9 @@ function render(){
   for(const [i,article] of items.entries()){
    const box=el('article','results-quiz-priority'),number=el('span','results-order',String(i+1).padStart(2,'0'));
    const copy=el('div'),meta=manifest.get(article.articleId);
-   const attempts=(article.mistakes?.length||0)+(article.uncertainCorrect?.length||0);
    copy.append(el('strong','',meta?.tituloExibicao||meta?.titulo||'Artigo vinculado'),
     el('small','',article.reason||'Revisão recomendada'),
-    el('small','',evidenceLabel(attempts,article.mistakes?.length||0)));
+    el('small','',articleReviewEvidence(article)));
    const first=article.mistakes?.[0]||article.uncertainCorrect?.[0];
    if(first?.section)copy.append(el('small','','Trecho: '+first.section));
    const link=el('a','','Abrir artigo');link.href=articleLink(article,first?.section||'');link.rel='noreferrer';
@@ -181,9 +190,10 @@ function render(){
   group.append(subjectHeading(subject,items.length));
   for(const c of items){
    const box=el('div','results-concept'),left=el('div');
+   const attempts=Number.isFinite(c.attempts)?c.attempts:0;
    left.append(el('strong','',c.title),
-    el('small','',c.errors+' erro(s) em '+c.attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')),
-    el('small','',evidenceLabel(c.attempts||0,c.errors||0)));
+    el('small','',c.errors+' erro(s) em '+attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')),
+    el('small','',attempts<3?'Dados insuficientes para avaliar domínio; recomendação provisória.':evidenceLabel(attempts,c.errors||0)));
    conceptLinks(left,c);box.append(left,priorityLabel(c.priority));group.append(box);
   }
   conceptRoot.append(group);

@@ -35,6 +35,12 @@ const groups=ctx.subjectGroups([{subjectId:'orcamento-publico'},{subjectId:'dire
 assert.equal(groups.length,2);assert.equal(groups[0][0],'direito-constitucional');assert.equal(groups[0][1].length,2);
 assert.match(ctx.evidenceLabel(1,1),/Amostra pequena/);
 assert.match(ctx.evidenceLabel(5,2),/Erros registrados/);
+const ev=vm.runInContext('articleReviewEvidence',ctx);
+assert.match(ev({mistakes:[{date:'2026-11-12'},{date:'2026-11-13'}]}),/dias distintos/);
+assert.match(ev({mistakes:[{date:'2026-11-12'},{date:'2026-11-12'}]}),/recorrência entre dias ainda não demonstrada/);
+assert.match(ev({mistakes:[{date:'2026-11-12'}]}),/Um erro/);
+assert.match(ev({uncertainCorrect:[{date:'2026-11-12'}]}),/insegurança/);
+assert.match(ev({mistakes:[{date:'data inválida'},{date:'data inválida'}]}),/não demonstrada/);
 assert(html.includes('id="results-subject-filter"'));
 assert(source.includes('subjectGroups(activeArticles'));assert(source.includes('subjectGroups(cs'));
 console.log('OK: agrupamento por matéria, manifesto, amostra pequena e filtros de revisão.');

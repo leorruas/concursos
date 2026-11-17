@@ -51899,6 +51899,286 @@
       "correctAnswer": "E",
       "explanation": "A ressalva constitucional impede a perda por pedido quando o resultado for a apatridia, isto é, quando a pessoa ficar sem nenhuma nacionalidade. A manifestação expressa, sozinha, não afasta essa proteção. (Constituição Federal, art. 12, § 4º, II.)",
       "reviewEvidence": "Constituição Federal, art. 12, § 4º, II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue validade do pedido e impedimento pelo efeito sobre a nacionalidade."
+    },
+    {
+      "id": "cam-const-200-iniciativa-popular-seis-estados-um-insuficiente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Iniciativa legislativa",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "iniciativa-popular-seis-estados-um-insuficiente",
+      "mechanism": "iniciativa-popular-seis-estados-um-insuficiente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa popular federal: três requisitos cumulativos"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa popular federal: três requisitos cumulativos"
+      },
+      "statement": "Projeto federal apresentado à Câmara dos Deputados tem assinaturas de 1,2% do eleitorado nacional, distribuídas em seis estados. Em cinco deles, a subscrição alcança 0,35% do respectivo eleitorado e, no sexto, 0,1%. Nesse caso, estão cumpridos os requisitos constitucionais de subscrição.",
+      "correctAnswer": "C",
+      "explanation": "O piso nacional é de 1%. Basta que pelo menos cinco estados atinjam individualmente 0,3%. O sexto estado abaixo desse piso não impede o atendimento do requisito pelos outros cinco. (Constituição Federal, art. 61, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 61, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Uso cumulativo de piso nacional, distribuição territorial e piso estadual."
+    },
+    {
+      "id": "cam-const-200-autarquia-cargo-comissao-parlamentar",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Iniciativa legislativa",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "autarquia-cargo-comissao-parlamentar",
+      "mechanism": "autarquia-cargo-comissao-parlamentar",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa privativa do presidente: art. 61, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa privativa do presidente: art. 61, § 1º"
+      },
+      "statement": "Comissão permanente da Câmara pode iniciar projeto de lei para criar cargos efetivos em autarquia federal, desde que a despesa correspondente esteja prevista no orçamento.",
+      "correctAnswer": "E",
+      "explanation": "A previsão de despesa não resolve a iniciativa. A criação desses cargos é matéria de projeto de iniciativa privativa do Presidente da República. (Constituição Federal, art. 61, § 1º, II, a.)",
+      "reviewEvidence": "Constituição Federal, art. 61, § 1º, II, a — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica o autor legitimado para uma matéria reservada expressa."
+    },
+    {
+      "id": "cam-const-200-comissao-iniciativa-sem-reserva",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Iniciativa legislativa",
+      "articleId": "art-7fa341d609be8c25",
+      "conceptId": "comissao-iniciativa-sem-reserva",
+      "mechanism": "comissao-iniciativa-sem-reserva",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7fa341d609be8c25#Iniciativa de leis ordinárias e complementares: art. 61, caput"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites.md",
+        "section": "Iniciativa de leis ordinárias e complementares: art. 61, caput"
+      },
+      "statement": "Comissão do Senado Federal está entre os legitimados constitucionais para iniciar lei ordinária federal em matéria sem reserva de iniciativa.",
+      "correctAnswer": "C",
+      "explanation": "O art. 61 inclui comissões do Senado entre os legitimados. Em matéria sem reserva, a iniciativa não precisa partir de um senador individualmente. (Constituição Federal, art. 61, caput.)",
+      "reviewEvidence": "Constituição Federal, art. 61, caput — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece um legitimado expresso em matéria sem reserva."
+    },
+    {
+      "id": "cam-const-200-mp-projeto-aprovado-pendente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-projeto-aprovado-pendente",
+      "mechanism": "mp-projeto-aprovado-pendente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "Se o Congresso já aprovou projeto de lei sobre determinada matéria e o texto aguarda sanção ou veto, o Presidente não pode editar medida provisória sobre essa mesma matéria para antecipar seus efeitos.",
+      "correctAnswer": "C",
+      "explanation": "A pendência de sanção ou veto de projeto já aprovado aciona uma vedação específica. A edição de medida provisória não pode ser usada para antecipar disciplina que está nessa fase. (Constituição Federal, art. 62, § 1º, IV.)",
+      "reviewEvidence": "Constituição Federal, art. 62, § 1º, IV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue projeto ainda em tramitação de projeto já aprovado que aguarda decisão presidencial."
+    },
+    {
+      "id": "cam-const-200-mp-bloqueio-ativos-relevancia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-bloqueio-ativos-relevancia",
+      "mechanism": "mp-bloqueio-ativos-relevancia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "A demonstração de relevância e urgência é suficiente para permitir a edição de medida provisória destinada ao sequestro de ativos financeiros.",
+      "correctAnswer": "E",
+      "explanation": "Relevância e urgência são pressupostos gerais. O sequestro de ativos financeiros é matéria expressamente vedada a medida provisória, ainda que ambos os pressupostos estejam presentes. (Constituição Federal, art. 62, caput e § 1º, II.)",
+      "reviewEvidence": "Constituição Federal, art. 62, caput e § 1º, II — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue pressupostos gerais de limite material expresso."
+    },
+    {
+      "id": "cam-const-200-mp-extraordinario-calamidade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-extraordinario-calamidade",
+      "mechanism": "mp-extraordinario-calamidade",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Matérias constitucionalmente vedadas: art. 62, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Matérias constitucionalmente vedadas: art. 62, § 1º"
+      },
+      "statement": "Para enfrentar calamidade pública imprevisível, o Presidente pode abrir por medida provisória crédito extraordinário destinado a despesas urgentes e imprevisíveis, ainda que a Constituição vede, como regra, medida provisória sobre créditos orçamentários adicionais.",
+      "correctAnswer": "C",
+      "explanation": "A abertura de crédito extraordinário para despesas imprevisíveis e urgentes é ressalva expressa à vedação. A calamidade exemplifica a hipótese constitucional, mas a despesa precisa satisfazer os requisitos de urgência e imprevisibilidade. (Constituição Federal, arts. 62, § 1º, I, d, e 167, § 3º.)",
+      "reviewEvidence": "Constituição Federal, arts. 62, § 1º, I, d, e 167, § 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Combina regra orçamentária, exceção e requisitos da despesa."
+    },
+    {
+      "id": "cam-const-200-mp-parecer-misto-sessao-conjunta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Medidas provisórias",
+      "articleId": "art-7e91b362a40c58d2",
+      "conceptId": "mp-parecer-misto-sessao-conjunta",
+      "mechanism": "mp-parecer-misto-sessao-conjunta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-7e91b362a40c58d2#Rito na Resolução nº 1/2002 do Congresso Nacional"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos.md",
+        "section": "Rito na Resolução nº 1/2002 do Congresso Nacional"
+      },
+      "statement": "Como o parecer sobre medida provisória é emitido por comissão mista de deputados e senadores, sua apreciação pelos plenários deve ocorrer em uma única sessão conjunta do Congresso.",
+      "correctAnswer": "E",
+      "explanation": "A conclusão sobre a sessão conjunta está errada. A comissão tem integrantes das duas Casas, mas a apreciação ocorre em sessão separada pelo plenário de cada Casa. (Constituição Federal, art. 62, § 9º.)",
+      "reviewEvidence": "Constituição Federal, art. 62, § 9º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Separa a composição da comissão do formato de deliberação dos plenários."
+    },
+    {
+      "id": "cam-const-200-delegacao-delimita-conteudo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+      "articleId": "art-6bc728a14d0e49f3",
+      "conceptId": "delegacao-delimita-conteudo",
+      "mechanism": "delegacao-delimita-conteudo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Sujeitos, instrumento e duas modalidades de controle"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Sujeitos, instrumento e duas modalidades de controle"
+      },
+      "statement": "A resolução do Congresso que delega poder legislativo ao Presidente da República deve especificar o conteúdo e os termos do exercício da delegação.",
+      "correctAnswer": "C",
+      "explanation": "A resolução delimita o que o Presidente pode disciplinar e em que condições pode exercer a autorização. Esses limites integram o próprio ato de delegação. (Constituição Federal, art. 68, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 68, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece a função delimitadora do instrumento de delegação."
+    },
+    {
+      "id": "cam-const-200-delegacao-ldo-controle-previo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+      "articleId": "art-6bc728a14d0e49f3",
+      "conceptId": "delegacao-ldo-controle-previo",
+      "mechanism": "delegacao-ldo-controle-previo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Matérias que não podem ser delegadas: art. 68, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Matérias que não podem ser delegadas: art. 68, § 1º"
+      },
+      "statement": "O Congresso pode delegar ao Presidente a elaboração da lei de diretrizes orçamentárias, desde que reserve para si a apreciação do projeto em votação única, sem emendas.",
+      "correctAnswer": "E",
+      "explanation": "A apreciação reservada é possível nas delegações admitidas, mas não torna delegável a matéria. Diretrizes orçamentárias estão expressamente excluídas da delegação. (Constituição Federal, art. 68, § 1º, III, e § 3º.)",
+      "reviewEvidence": "Constituição Federal, art. 68, § 1º, III, e § 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Confronta matéria indelegável com uma modalidade de controle que não afasta a proibição."
+    },
+    {
+      "id": "cam-const-200-delegacao-carreira-mp-limitada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Lei delegada",
+      "articleId": "art-6bc728a14d0e49f3",
+      "conceptId": "delegacao-carreira-mp-limitada",
+      "mechanism": "delegacao-carreira-mp-limitada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6bc728a14d0e49f3#Matérias que não podem ser delegadas: art. 68, § 1º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa.md",
+        "section": "Matérias que não podem ser delegadas: art. 68, § 1º"
+      },
+      "statement": "O Congresso pode delegar ao Presidente disciplina sobre a carreira dos membros do Ministério Público se a resolução proibir alterações na organização do órgão e nas garantias de seus integrantes.",
+      "correctAnswer": "E",
+      "explanation": "O erro é tratar a carreira como delegável. A vedação alcança a própria carreira dos membros, além da organização e das garantias. Restringir a resolução aos aspectos de carreira não afasta a proibição. (Constituição Federal, art. 68, § 1º, I.)",
+      "reviewEvidence": "Constituição Federal, art. 68, § 1º, I — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Avalia se limitar a autorização elimina a vedação material."
     }
   ]
 }

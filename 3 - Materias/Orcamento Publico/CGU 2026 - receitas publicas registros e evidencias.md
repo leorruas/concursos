@@ -159,7 +159,7 @@ Um relatório deve informar **valor, período, fonte, critério legal, condiçã
 
 ## Continuidade e fontes
 
-Para a estrutura de natureza, fonte de recursos, resultado primário e classificação funcional, consulte [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|Classificações orçamentárias para auditoria]]. Para despesas, a etapa seguinte trata de [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|empenho, liquidação e pagamento]].
+Para a estrutura de natureza, fonte de recursos, resultado primário e classificação funcional, consulte [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|Classificações orçamentárias para auditoria]]. Para despesas, a etapa seguinte trata de [[3 - Materias/Orcamento Publico/CGU 2026 - despesa empenho liquidacao e evidencias|empenho, liquidação e pagamento]].
 
 - [Lei nº 4.320/1964, texto atualizado na Câmara](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): arts. 3º, 30, 35, 52 a 57.
 - [Código Tributário Nacional, Lei nº 5.172/1966](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm): art. 142, lançamento tributário.

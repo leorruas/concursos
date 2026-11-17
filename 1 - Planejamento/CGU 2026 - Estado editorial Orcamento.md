@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: treze-certificados-dois-em-revalidacao-dois-legados
+status: doze-certificados-tres-em-revalidacao-um-legado
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -574,3 +574,7 @@ O artigo CGU `art-d218c459af1e4b73` foi ampliado com gatilhos de pessoal, recond
 ## Revalidação pendente: classificação da despesa após migração (17/11/2026)
 
 O artigo CGU `art-3f9d17a6c04b4e82` recebeu seção sobre subtítulo, modalidade, transferências, projetos com custeio e classificação de terrenos. Novo blob `e06bb60d279a69cc7bb85c9cef911e1ec0fca8ad`, substituindo o anteriormente certificado `c5afc9dfa1ed0e45bb4a09e0f4e5b9cd668e72a7`. A certificação para o novo blob fica **suspensa até segunda leitura e CI/Pages**. Os 27 flashcards exclusivamente CGU foram reconciliados com seis headings existentes do derivado. Foram migrados 29 verbetes exclusivamente CGU. O verbete misto `glo-unidade-orcamentaria` manteve o ID histórico da Câmara e ganhou o ID CGU, permitindo dois destinos elegíveis por concurso sem perder a referência antiga. O ID histórico `art-28b3d9ef86aa4510` saiu somente do catálogo CGU; permanece na Câmara. Permanecem dois IDs históricos de Orçamento em comum (receitas 07 e despesas 08), além do transversal de Atualidades. Duas notas em revalidação: LRF e classificação da despesa. `data/questoes-camara.json` inalterado.
+
+## Revalidação pendente: receitas públicas (07) e cartões de dois concursos (17/11/2026)
+
+A versão própria CGU `art-b3e5d91a740c46f8`, novo blob `64b90ab03fcf86b74e8a84cc4e827a166d7c47d4`, recebeu distinções de receita efetiva, VPA, deduções, restituições, retificações e estornos. A certificação anterior do blob `1d28fd3fe5c0e2acf5a62350fb7488c7ea41f02e` **não alcança o texto novo**; aguardam-se segunda leitura e CI/Pages. Dos 15 cartões antigos, 13 exclusivos CGU foram vinculados diretamente ao novo artigo e a headings existentes; os dois cartões compartilhados foram mantidos com IDs originais e `examIds: [camara-2026]`, e duplicados como `cgu-orc-deducao-vs-restituicao`, `cgu-orc-retificacao-vs-estorno` para CGU, com IDs únicos e referências à versão própria. Catorze verbetes exclusivos CGU foram migrados. O artigo da Câmara e os cartões da Câmara foram preservados; não houve edição de `data/questoes-camara.json`. Agora existem três artigos CGU em revalidação e um ID histórico restante em comum (08), mais a nota transversal de Atualidades.

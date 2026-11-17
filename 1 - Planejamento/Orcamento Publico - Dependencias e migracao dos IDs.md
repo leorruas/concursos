@@ -111,3 +111,7 @@ Foram migrados sete cartões CGU exclusivamente associados ao artigo histórico 
 ## Migração de classificação da despesa (04b)
 
 Após complementar o artigo CGU `art-3f9d17a6c04b4e82` (novo blob `e06bb60d279a69cc7bb85c9cef911e1ec0fca8ad`), foram vinculados a seções reais do texto **27 cartões exclusivamente CGU** e migrados **29 verbetes exclusivamente CGU**. Para `glo-unidade-orcamentaria`, verbete comum aos dois concursos, os IDs Câmara e CGU foram preservados juntos para permitir seleção pelo catálogo. O original `art-28b3d9ef86aa4510` foi retirado somente do catálogo CGU. A certificação do artigo derivado permanece reaberta até CI/Pages e segunda leitura. Restam 07 e 08, mais o transversal de Atualidades.
+
+## Migração de receitas públicas (07) com cisão de dois cartões
+
+O ID `art-4677cfa327ce43bb` foi retirado somente do catálogo da CGU. Foram redirecionados 13 cartões CGU para `art-b3e5d91a740c46f8`; dois cartões com `examIds` de ambos os concursos foram preservados no original para Câmara e ganharam cópias exclusivas CGU com IDs `cgu-orc-deducao-vs-restituicao`, `cgu-orc-retificacao-vs-estorno`. Todos os 15 destinos CGU têm heading presente no artigo ampliado. Foram migrados 14 verbetes exclusivamente CGU, preservados os antigos da Câmara. Novo blob `64b90ab03fcf86b74e8a84cc4e827a166d7c47d4` em **revalidação pendente** de mérito e Pages. Resta somente 08 despesa entre os legados de Orçamento, além do transversal de Atualidades.

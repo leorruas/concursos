@@ -372,10 +372,10 @@
       "sourceArticleId": "art-4677cfa327ce43bb",
       "topicKey": "receitas-estagios",
       "sequence": 11,
-      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
+      "certificationStatus": "revalidacao-editorial-pos-edicao-pendente",
       "include": false,
-      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
-      "revisionSha": "1d28fd3fe5c0e2acf5a62350fb7488c7ea41f02e"
+      "selectionStatus": "aguarda-segunda-leitura-e-pages",
+      "revisionSha": "64b90ab03fcf86b74e8a84cc4e827a166d7c47d4"
     },
     {
       "chapterKey": "cgu-12-novo",

@@ -54699,6 +54699,286 @@
       "correctAnswer": "C",
       "explanation": "O art. 7º protege trabalhadores urbanos e rurais. No caso das férias anuais, a remuneração deve incluir o acréscimo mínimo de um terço. (Constituição Federal, art. 7º, caput e XVII.)",
       "reviewEvidence": "Constituição Federal, art. 7º, caput e XVII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica garantia expressa a trabalhador rural."
+    },
+    {
+      "id": "cam-const-200-pequeno-expediente-vaga-intransferivel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "pequeno-expediente-vaga-intransferivel",
+      "mechanism": "pequeno-expediente-vaga-intransferivel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "statement": "Deputado inscrito para comunicação no Pequeno Expediente pode transferir sua inscrição a colega que não tenha falado nas cinco sessões anteriores.",
+      "correctAnswer": "E",
+      "explanation": "A preferência dada a quem não falou nas cinco sessões anteriores orienta a inscrição. Ela não transforma a vaga do orador inscrito em vaga transferível. (Regimento Interno, art. 81, § 2º.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 81, § 2º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Aplica a natureza pessoal da inscrição."
+    },
+    {
+      "id": "cam-const-200-pequeno-expediente-nova-sessao-inscricao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "pequeno-expediente-nova-sessao-inscricao",
+      "mechanism": "pequeno-expediente-nova-sessao-inscricao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "statement": "Se uma sessão deixar de ocorrer e as inscrições de oradores do Pequeno Expediente não puderem ser atendidas por esse motivo, elas passam para a sessão ordinária seguinte.",
+      "correctAnswer": "C",
+      "explanation": "A transferência entre sessões é prevista para inscrições não atendidas em razão do levantamento ou da não realização da sessão. A regra mantém a inscrição do próprio orador. (Regimento Interno, art. 81, § 4º.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 81, § 4º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Relaciona a não realização ao destino das inscrições."
+    },
+    {
+      "id": "cam-const-200-falta-quorum-debate-ordem-dia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "falta-quorum-debate-ordem-dia",
+      "mechanism": "falta-quorum-debate-ordem-dia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "statement": "A falta de quórum para votar durante a Ordem do Dia não impede que a Presidência anuncie o debate dos assuntos que se encontram em discussão.",
+      "correctAnswer": "C",
+      "explanation": "O número legal é condição para votar. Se não houver quórum para a votação, o Regimento manda anunciar o debate das matérias em discussão. (Regimento Interno, art. 82, §§ 2º e 3º.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 82, §§ 2º e 3º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Diferencia condições para votação e para debate na Ordem do Dia."
+    },
+    {
+      "id": "cam-const-200-obstrucao-aprovada-sem-comunicacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "obstrucao-aprovada-sem-comunicacao",
+      "mechanism": "obstrucao-aprovada-sem-comunicacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "statement": "A bancada aprovou obstrução parlamentar, mas não comunicou a medida à Mesa. Só a aprovação da bancada basta para que os deputados ausentes às votações se beneficiem da ressalva regimental à atribuição de falta.",
+      "correctAnswer": "E",
+      "explanation": "Falta a comunicação à Mesa. A obstrução deve ser aprovada pela bancada ou liderança e comunicada para que a ausência se enquadre na ressalva. (Regimento Interno, art. 82, § 6º.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 82, § 6º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Confere cumulativamente decisão coletiva, comunicação e efeito da ausência."
+    },
+    {
+      "id": "cam-const-200-primeira-sessao-legislativa-sem-pauta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "primeira-sessao-legislativa-sem-pauta",
+      "mechanism": "primeira-sessao-legislativa-sem-pauta",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "1. Pequeno Expediente e Ordem do Dia: arts. 81 a 86"
+      },
+      "statement": "O Regimento Interno determina que não se designe Ordem do Dia para a primeira sessão plenária de cada sessão legislativa.",
+      "correctAnswer": "C",
+      "explanation": "A exceção vale para a primeira sessão plenária do ciclo legislativo anual. A programação das demais sessões segue as regras próprias de anúncio e organização da pauta. (Regimento Interno, art. 85, parágrafo único.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 85, parágrafo único — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Reconhece a exceção expressa à designação de pauta."
+    },
+    {
+      "id": "cam-const-200-grande-expediente-todas-vagas-sorteio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "grande-expediente-todas-vagas-sorteio",
+      "mechanism": "grande-expediente-todas-vagas-sorteio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      },
+      "statement": "Um deputado pode usar da palavra três vezes no Grande Expediente no mesmo semestre com base apenas em vagas obtidas por sorteio.",
+      "correctAnswer": "E",
+      "explanation": "O limite de três falas não autoriza três vagas por sorteio. A distribuição regimental é uma vaga por sorteio e duas por cessão de vaga de outro parlamentar. (Regimento Interno, art. 87.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 87 — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Separa o limite de falas da forma de obtenção das vagas."
+    },
+    {
+      "id": "cam-const-200-lideranca-cessao-parcial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "lideranca-cessao-parcial",
+      "mechanism": "lideranca-cessao-parcial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      },
+      "statement": "Nas Comunicações de Liderança, um líder pode ceder apenas parte de seu tempo a outro líder.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento permite cessão total ou parcial entre líderes. A cessão é uma forma de organizar o uso do tempo destinado ao pronunciamento. (Regimento Interno, art. 89.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 89 — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Reconhece uma faculdade expressa sobre tempo de fala."
+    },
+    {
+      "id": "cam-const-200-comissao-geral-iniciativa-popular-aparte",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "comissao-geral-iniciativa-popular-aparte",
+      "mechanism": "comissao-geral-iniciativa-popular-aparte",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      },
+      "statement": "Na Comissão Geral para discussão de projeto de lei de iniciativa popular, o signatário que usa da palavra por trinta minutos pode conceder apartes dentro desse período.",
+      "correctAnswer": "E",
+      "explanation": "O prazo informado está correto, mas a permissão de apartes está errada. A fala prevista para essa discussão é de trinta minutos sem apartes. (Regimento Interno, art. 91, II e § 2º.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 91, II e § 2º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Combina hipótese de Comissão Geral, titular da fala e condição do pronunciamento."
+    },
+    {
+      "id": "cam-const-200-sessao-secreta-quinto-automatico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "sessao-secreta-quinto-automatico",
+      "mechanism": "sessao-secreta-quinto-automatico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "2. Grande Expediente, líderes, Comissão Geral e sessões secretas: arts. 87 a 94"
+      },
+      "statement": "Requerimento escrito de um quinto dos deputados, com indicação precisa de objetivo, provoca automaticamente a realização de sessão secreta.",
+      "correctAnswer": "E",
+      "explanation": "Com subscrição de um quinto, a convocação depende de deliberação do Plenário. Entre as hipóteses de convocação automática está o requerimento de um terço dos deputados. (Regimento Interno, art. 92, I e II.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 92, I e II — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Distingue dois limiares de subscrição e seus efeitos."
+    },
+    {
+      "id": "cam-const-200-assinatura-essencial-apos-mesa",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-6d8e3f041b9a52c7",
+      "conceptId": "assinatura-essencial-apos-mesa",
+      "mechanism": "assinatura-essencial-apos-mesa",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-6d8e3f041b9a52c7#4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md",
+        "section": "4. Proposições: apresentação digital, autoria e destino (arts. 100 a 105)"
+      },
+      "statement": "Se a assinatura for condição para a tramitação de uma proposição, os signatários não poderão retirar ou acrescentar assinaturas depois da apresentação à Mesa.",
+      "correctAnswer": "C",
+      "explanation": "Quando a assinatura é exigida para tramitar, o conjunto de assinaturas se estabiliza com a apresentação à Mesa. A regra veda tanto a retirada quanto o acréscimo depois desse marco. (Regimento Interno, art. 102, § 4º.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 102, § 4º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Distingue apoio facultativo e assinatura exigida para tramitação."
     }
   ]
 }

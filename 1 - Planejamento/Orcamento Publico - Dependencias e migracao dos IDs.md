@@ -1,7 +1,7 @@
 ---
 title: "Orçamento Público: dependências de IDs compartilhados CGU/Câmara"
 type: auditoria-arquitetura
-status: transversal-identificado
+status: dez-derivados-criados-vinculos-legados-pendentes
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -12,7 +12,7 @@ updated: 2026-11-17
 
 ## Conclusão técnica
 
-O catálogo v2 mantém **11 `articleIds` simultaneamente em CGU 2026 e Câmara 2026**: **10 artigos legados de Orçamento Público** potencialmente destinados a versões CGU e **uma referência transversal de Atualidades** que não deve ser duplicada automaticamente. Há cinco notas específicas da CGU na árvore: `CGU 2026 - ciclo orcamentario e evidencias de auditoria.md` (`art-a07c26f4e92031ab`), `CGU 2026 - ppa ldo e loa.md` (`art-9dc8a6e2f31b47c0`), `CGU 2026 - esferas da loa e estatais dependentes.md` (`art-c84d6e02f3b7a915`), `CGU 2026 - principios orcamentarios e vedacoes.md` (`art-b419ac8206de7f35`) e `CGU 2026 - classificacoes de receitas e despesas.md` (`art-e6b481a230fc795d`). A existência de um artigo derivado não certifica automaticamente seu conteúdo nem autoriza remover seu artigo de origem.
+O catálogo v2 mantém **11 `articleIds` simultaneamente em CGU 2026 e Câmara 2026**: **10 artigos legados de Orçamento Público** potencialmente destinados a versões CGU e **uma referência transversal de Atualidades** que não deve ser duplicada automaticamente. Há agora **15 notas específicas da CGU na árvore**, sendo cinco certificadas anteriormente e dez versões novas redigidas, ainda sem certificação individual. As cinco originais desse ciclo são: `CGU 2026 - ciclo orcamentario e evidencias de auditoria.md` (`art-a07c26f4e92031ab`), `CGU 2026 - ppa ldo e loa.md` (`art-9dc8a6e2f31b47c0`), `CGU 2026 - esferas da loa e estatais dependentes.md` (`art-c84d6e02f3b7a915`), `CGU 2026 - principios orcamentarios e vedacoes.md` (`art-b419ac8206de7f35`) e `CGU 2026 - classificacoes de receitas e despesas.md` (`art-e6b481a230fc795d`). A existência de um artigo derivado não certifica automaticamente seu conteúdo nem autoriza remover seu artigo de origem.
 
 ## Dependências nas superfícies públicas
 
@@ -36,12 +36,12 @@ O catálogo v2 mantém **11 `articleIds` simultaneamente em CGU 2026 e Câmara 2
 
 **ID transversal resolvido:** `art-9be1a39d536a47ea` pertence a `3 - Materias/Atualidades/06 - politica fiscal resultado primario e divida publica.md` (título: *Política fiscal, resultado primário e dívida pública*, `layer: fundamento_estavel`). Aparece ainda em Finanças Públicas da CGU e Atualidades da Dataprev. Sua reutilização pode ser intencional e deve permanecer enquanto a pertinência aos dois editais não for auditada. Não criar clone de Orçamento para resolver apenas a sobreposição de ID. O `art-3e62a81df4c74b90` identifica, separadamente, os lembretes da matéria.
 
-Os originais 04a, 04b, 05, 05a, 06, 07, 08, 09, 10 e 11 continuam com seus IDs estáveis e devem conservar as URLs, os aliases, a certificação Câmara e os vínculos existentes. O agente CGU poderá produzir derivados com `articleId` exclusivo e origem explícita. **Somente a coordenação** poderá realizar a troca de `articleIds` no catálogo e de links no índice, hub e percursos, em operação atômica com proteção de SHA.
+Os originais 04a, 04b, 05, 05a, 06, 07, 08, 09, 10 e 11 continuam com seus IDs estáveis e devem conservar as URLs, os aliases, a certificação Câmara e os vínculos existentes. O agente CGU **já produziu os dez derivados com `articleId` exclusivo e origem explícita**, incluídos no índice, hub, catálogo e roteiro CGU. **Somente a coordenação** poderá realizar a troca de `articleIds` no catálogo e de links no índice, hub e percursos, em operação atômica com proteção de SHA.
 
 Antes de cada troca, exigir (1) artigo CGU completo e certificado individualmente; (2) headings e `theoryRefs` resolvidos; (3) referências de glossário/flashcards classificadas como genéricas ou específicas por concurso, sem substituição indiscriminada; (4) ausência de perda de URL ou alias legado; (5) testes de build, identidade, navegação, CI e Pages no SHA final. Caso a troca exija modificação de `data/questoes-camara.json`, interromper e abrir uma etapa técnica própria, sem alterar o banco nesta missão.
 
-**Restam 10 artigos legados potenciais de separação, mais uma referência transversal que pode continuar compartilhada.**
+**Os dez derivados já existem; restam dez vínculos de IDs históricos no catálogo da CGU, mais uma referência transversal de Atualidades.**
 
-**Próximas unidades:** classificações de receita (04a) e despesa (04b), créditos (05), emendas (05a), programação (06), receitas (07), despesas (08), restos a pagar (09), execução financeira (10) e responsabilidade fiscal (11). Esta ordem de tratamento é uma fila técnica e não equivale a autorizar duplicação sem revisão. Preservar a especificidade de CGU e Câmara e evitar repetição no futuro EPUB por `topicKey` e certificação individual.
+**Próximas unidades de certificação:** classificações de receita (04a) e despesa (04b), créditos (05), emendas (05a), programação (06), receitas (07), despesas (08), restos a pagar (09), execução financeira (10) e responsabilidade fiscal (11). Não criar novos clones: conferir normas, fontes, dez itens C/E de cada derivado, links, glossário, flashcards e publicação; somente depois reconciliar e substituir associações dos IDs antigos. Preservar a especificidade de CGU e Câmara e evitar repetição no futuro EPUB por `topicKey` e certificação individual.
 
-**Estado do trabalho:** inventário parcial concluído, conteúdo ainda compartilhado, nenhum EPUB gerado, nenhuma exclusão ou renomeação executada.
+**Estado do trabalho:** 15 artigos próprios CGU presentes, dez aguardando auditoria individual; 11 IDs ainda compartilhados no catálogo (dez legados e um transversal); nenhum EPUB gerado, nenhuma exclusão ou renomeação executada.

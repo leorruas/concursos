@@ -10,7 +10,7 @@ updated: 2026-11-17
 
 ## Estado e decisão de segurança
 
-**Arquitetura documental implementada; migração dos artigos não concluída; liberadas apenas as frentes com propriedade de arquivos explicitamente definida.** Este documento não certifica qualquer novo artigo nem substitui os três arquivos de estado históricos da Câmara. O repositório já contém uma separação pontual entre `CGU 2026 - ppa ldo e loa.md` (`art-9dc8a6e2f31b47c0`) e `02 - ppa ldo e loa.md` (`art-c301f2c741504403`). O índice e o catálogo já refletem essa coexistência. Não deslocar ou sobrescrever nenhum dos dois.
+**Arquitetura documental implementada; 15 artigos próprios CGU redigidos (cinco certificados anteriormente, dez aguardando auditoria); a migração dos vínculos de IDs legados ainda não foi concluída.** Este documento não certifica qualquer novo artigo nem substitui os três arquivos de estado históricos da Câmara. O repositório já contém uma separação pontual entre `CGU 2026 - ppa ldo e loa.md` (`art-9dc8a6e2f31b47c0`) e `02 - ppa ldo e loa.md` (`art-c301f2c741504403`). O índice e o catálogo já refletem essa coexistência. Não deslocar ou sobrescrever nenhum dos dois.
 
 A separação é **por concurso, identidade e ciclo de revisão**, preservando fontes comuns. Todo artigo novo ou derivado recebe `articleId` inédito, `concursoId` e `derivedFromArticleId` quando couber. O original mantém ID, caminho e aliases antigos, a menos que haja migração técnica comprovada das referências. A mera presença de artigo num catálogo não prova revisão ou certificação para aquele concurso.
 
@@ -80,8 +80,20 @@ A matriz atualizada dos 11 IDs compartilhados, com contagem textual de vínculos
 
 ## Pendências e gate de liberação
 
-**Implantado:** roteiros independentes CGU/Câmara em `1 - Planejamento/`, links no índice e no hub, matriz de propriedade no `AGENTS.md`, manifesto EPUB em JSON sem capítulos e arquivos de estado distintos por concurso. **Pendente:** inventário completo dos consumidores de IDs compartilhados, validação dos vínculos transversais e de campos extras de frontmatter, migração gradual dos legados e conferência integral dos editais por cada agente.
+**Implantado:** roteiros independentes CGU/Câmara em `1 - Planejamento/`, links no índice e no hub, matriz de propriedade no `AGENTS.md`, manifesto EPUB em JSON sem capítulos e arquivos de estado distintos por concurso. **Pendente:** certificação individual das dez novas notas CGU; inventário completo dos consumidores de IDs compartilhados e seus campos de frontmatter; migração controlada dos dez vínculos legados da CGU sem quebrar flashcards, glossário ou theoryRefs; inspeção visual e conferência final dos editais.
 
 **Validação estrutural anterior:** commit `bf369d41aa5e9293e48b7836460b45019043524f`, workflow [44111853660](https://github.com/leorruas/concursos/actions/runs/44111853660) com conclusão `success`, incluindo build, validações de IDs/catálogo e confirmação de catálogo servido no Pages. Conferência estática adicional: 22 caminhos distintos de notas de Orçamento Público usados pelos novos documentos, nenhum ausente. Este commit de liberação documental exige verificação própria do Pages.
 
 **Liberação controlada:** agentes CGU e Câmara podem iniciar suas respectivas revisões e produzir **somente** arquivos de sua propriedade, conforme matriz, com IDs inéditos em derivados e estados separados. Não podem substituir entradas do catálogo, reescrever índices/hub nem alterar legados congelados. Cada troca de ID ou vínculo depende de commit atômico exclusivo da coordenação, após inventário das referências. A migração integral não está concluída; conteúdo ainda compartilhado é transitório.
+
+## Estado editorial após criar os dez derivados (17/11/2026)
+
+**Conteúdo:** 15 notas CGU com IDs próprios e vínculos distintos das versões Câmara. Cinco têm certificação anterior com ressalva visual. Dez derivadas foram redigidas nesta etapa, cada uma com dez itens C/E autorais comentados, pendentes de auditoria e certificação. Os artigos históricos permanecem preservados.
+
+**Navegação:** índice, hub, roteiro e catálogo incluem as 15 notas da CGU. O commit 516332809c3e3726d9445b5c2fa51db33b368bd6 alinhou a primeira ocorrência dos 15 links no hub e no índice à ordem pedagógica do roteiro.
+
+**Identidade e compatibilidade:** dez IDs históricos de Orçamento permanecem temporariamente no catálogo CGU apesar de já existirem derivados. O ID art-9be1a39d536a47ea é uma nota transversal de Atualidades e pode ser reutilizado. A associação antiga só deverá ser retirada após verificar consumidores, flashcards, glossário e theoryRefs, sem alterar o banco de questões da Câmara.
+
+**EPUB futuro:** manifesto com 19 capítulos candidatos Câmara e 15 candidatos CGU; nenhum selecionado para exportação. A curadoria de temas repetidos, estados de certificação e SHA permanece pendente. Nenhum EPUB foi gerado.
+
+**Próximo gate:** auditar e certificar os dez artigos CGU; reconciliar referências por ID; validar CI, Pages e inspeção visual por nota. A matriz de dependências detalha esses riscos.

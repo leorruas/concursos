@@ -219,7 +219,7 @@
       "aliases": [
         "Recebimento provisório em contrato"
       ],
-      "definition": "É a primeira etapa de recebimento de obra, serviço ou compra contratada pela administração. Segundo o art. 140 da Lei nº 14.133/2021, nas obras e serviços o fiscal responsável registra a verificação técnica em termo detalhado; nas compras, o responsável pelo acompanhamento ou fiscalização pode receber sumariamente, para posterior verificação de conformidade.",
+      "definition": "É a etapa inicial do recebimento de obra, serviço ou compra pelo órgão público. Registra a entrega para posterior conferência de conformidade com o contrato, sem representar aceitação definitiva, liquidação ou pagamento.",
       "contrast": "O recebimento provisório registra a entrega inicial, mas não substitui a verificação definitiva de que o objeto atende ao contrato. Nas compras pode ser sumário; em obras e serviços há exigência de termo detalhado. Nenhuma dessas formas significa automaticamente que a despesa já foi liquidada ou paga.",
       "cebraspeTrap": "Atribuir a toda compra a obrigação de termo detalhado no recebimento provisório ou supor que receber provisoriamente é aceitar definitivamente o objeto.",
       "example": "A universidade recebe 20 dos 40 computadores previstos. O responsável registra provisoriamente a entrega; a verificação posterior checa a qualidade e as condições contratadas antes do recebimento definitivo.",
@@ -657,7 +657,7 @@
       "aliases": [
         "Lançamento tributário"
       ],
-      "definition": "É a etapa em que a repartição competente verifica um crédito a receber, identifica quem deve e formaliza a cobrança nos casos sujeitos a lançamento. Na receita tributária, o art. 142 do Código Tributário Nacional disciplina a constituição do crédito pela autoridade administrativa; o art. 53 da Lei nº 4.320/1964 trata do lançamento da receita.",
+      "definition": "É a etapa em que a autoridade competente identifica e formaliza o crédito a receber, quando a receita está sujeita a lançamento. O procedimento não equivale à entrada de dinheiro e nem todas as receitas passam por ele.",
       "contrast": "Previsão estima quanto o governo espera arrecadar; lançamento identifica e formaliza o crédito nas hipóteses aplicáveis; arrecadação ocorre quando o valor é recebido pelo agente arrecadador; recolhimento acontece quando esse dinheiro chega à tesouraria. Nem toda receita passa pelo lançamento, como uma doação espontânea em dinheiro.",
       "cebraspeTrap": "É incorreto afirmar que o lançamento já comprova pagamento ou que todo ingresso orçamentário precisa ter sido previamente lançado. O lançamento de um imposto em dezembro não faz a arrecadação de janeiro pertencer ao exercício anterior.",
       "example": "Em dezembro, a prefeitura lança R$ 2 mil de imposto devido por uma pessoa. Ela paga no banco em janeiro. O lançamento identifica o crédito; a receita orçamentária é arrecadada em janeiro, quando o banco recebe o pagamento.",
@@ -720,8 +720,8 @@
         "Dedução de receita",
         "Conta redutora de receita"
       ],
-      "definition": "É o registro que reduz o valor bruto da receita orçamentária para demonstrar o valor líquido pertencente ao ente, nas hipóteses previstas pelo Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição, seção 3.6.1. Em regra, aplica-se a valores que o ente arrecada mas pertencem a outro ente, e à restituição de receitas recebidas indevidamente ou a maior, ressalvada determinação legal expressa de contabilização como despesa.",
-      "contrast": "Deduzir receita é registrar uma redução da receita arrecadada; pagar uma despesa orçamentária é executar autorização de gasto. Nem toda saída de dinheiro é nova despesa, e nem toda devolução admite dedução, pois há tratamentos especiais. A dedução é registrada com a natureza da receita que a originou.",
+      "definition": "É o registro que reduz a receita orçamentária bruta para demonstrar o valor líquido devido ao ente. Aplica-se nas hipóteses contábeis próprias, como valores arrecadados para outro ente e certas restituições, conforme o MCASP.",
+      "contrast": "Deduzir receita é registrar uma redução da receita arrecadada; pagar uma despesa orçamentária é executar autorização de gasto. Nem toda saída de dinheiro é nova despesa, e nem toda devolução admite dedução, pois há tratamentos especiais. A dedução é registrada com a natureza da receita que a originou. O MCASP, 11ª edição, seção 3.6.1, prevê esses registros e ressalva hipóteses em que a lei exige contabilizar a restituição como despesa.",
       "cebraspeTrap": "Tomar toda restituição ou transferência legal de valores arrecadados para outro ente como despesa orçamentária, sem examinar o procedimento de dedução e suas exceções.",
       "example": "Em hipótese sujeita a dedução, o município registra R$ 10 mil de receita bruta e restitui R$ 2 mil cobrados indevidamente. A dedução é de R$ 2 mil e a receita líquida é R$ 8 mil.",
       "subjectIds": [

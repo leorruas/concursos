@@ -33,7 +33,7 @@ assert.equal(subject({articleId:'unknown'},[{subjectId:'ingles',articles:['unkno
 assert.equal(subject({articleId:'unknown'}),'sem-materia');
 const groups=ctx.subjectGroups([{subjectId:'orcamento-publico'},{subjectId:'direito-constitucional'},{subjectId:'direito-constitucional'}],x=>x.subjectId);
 assert.equal(groups.length,2);assert.equal(groups[0][0],'direito-constitucional');assert.equal(groups[0][1].length,2);
-assert.match(ctx.evidenceLabel(1,1),/Amostra pequena/);
+assert.match(ctx.evidenceLabel(1,1),/Poucas ocorrências/);
 assert.match(ctx.evidenceLabel(5,2),/Erros registrados/);
 const ev=vm.runInContext('articleReviewEvidence',ctx);
 assert.match(ev({mistakes:[{date:'2026-11-12'},{date:'2026-11-13'}]}),/dias distintos/);

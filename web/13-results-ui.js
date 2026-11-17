@@ -108,7 +108,7 @@ function evidenceLabel(attempts,errors){
 function articleReviewEvidence(article){
  const mistakes=Array.isArray(article.mistakes)?article.mistakes:[];
  const unsure=Array.isArray(article.uncertainCorrect)?article.uncertainCorrect:[];
- const days=new Set(mistakes.map(q=>q.date).filter(d=>/^\\d{4}-\\d{2}-\\d{2}$/.test(String(d||''))));
+ const days=new Set(mistakes.map(q=>q.date).filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(String(d||''))));
  if(mistakes.length>=2&&days.size>=2)return 'Erros em '+days.size+' dias distintos: revisar o conceito e testar novamente.';
  if(mistakes.length>=2)return 'Mais de um erro registrado; recorrência entre dias ainda não demonstrada.';
  if(mistakes.length===1)return 'Um erro registrado; confirmar com novas questões antes de ampliar a revisão.';

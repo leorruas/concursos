@@ -156,7 +156,7 @@ Uma despesa inscrita pode comprometer o caixa disponível sem gerar novo crédit
 | Administração liquida R$ 400 mil | **Execução da despesa e verificação do credor** | Comprovou-se o direito do credor na extensão liquidada | O dinheiro já saiu da Conta Única |
 | Administração paga R$ 350 mil | **Execução financeira** | Houve desembolso de R$ 350 mil | Toda dotação foi executada ou toda meta foi atingida |
 
-**Três perguntas diferentes:** **quanto posso gastar?** corresponde à autorização, à descentralização do crédito e ao limite de empenho; **quanto devo ao credor após cumprir a condição?** depende da liquidação; **quanto posso pagar e paguei?** depende de recursos, programação financeira e ato de pagamento. Essas perguntas se conectam, mas não são respostas substituíveis.
+O quadro responde a três perguntas diferentes. **Quanto o órgão está autorizado a gastar?** A LOA, os créditos descentralizados e os limites de empenho definem essa possibilidade. **Quanto o fornecedor tem direito a receber?** A liquidação verifica a entrega ou o serviço realizado e o valor devido. **Quanto dinheiro pode sair e quanto saiu?** A programação financeira, a disponibilidade de recursos e o pagamento respondem a essa última pergunta. Uma autorização pode existir antes da entrega e do pagamento.
 
 ### Provisão, destaque, cota, repasse e sub-repasse
 
@@ -172,9 +172,9 @@ A correspondência didática básica é:
 
 ### Caso progressivo: a mesma ação em seis atos
 
-**1. Autorização.** A LOA federal consigna **R$ 1.000.000** para ação de comunicação institucional. **Dotação** descreve o limite autorizado, não receita efetivamente arrecadada.
+**1. Autorização.** A LOA federal consigna **R$ 1.000.000** para uma ação de comunicação institucional. O Congresso autorizou a despesa dentro dessa programação. A **dotação** representa esse limite jurídico; o valor ainda não corresponde a receita arrecadada ou pagamento realizado.
 
-**2. Descentralização orçamentária.** O órgão concede **destaque de R$ 600.000** a uma unidade gestora de órgão distinto para executar parte da programação. A **classificação institucional da UO detentora do crédito na LOA não precisa mudar**, nem nasce nova dotação de R$ 600.000 a somar ao valor original. Somar ambos como se fossem novas autorizações produziria **dupla contagem**.
+**2. Descentralização orçamentária.** O órgão concede **destaque de R$ 600.000** a uma unidade de outro órgão para executar parte da ação. A **unidade orçamentária (UO)** que aparece na LOA como responsável pela dotação original não precisa ser substituída por esse ato. Os R$ 600 mil representam uma parcela da autorização de R$ 1 milhão, e não dinheiro novo nem uma segunda dotação. Somar os dois valores como se fossem autorizações independentes produziria **dupla contagem**.
 
 **3. Liberação financeira.** A unidade recebe **repasse de R$ 400.000**. Nesse momento, dispõe de recurso financeiro no fluxo aplicável, mas pode ainda não ter empenhado ou liquidado a despesa. **Crédito descentralizado R$ 600.000 ≠ repasse financeiro R$ 400.000**. Uma diferença entre esses números não demonstra, por si, atraso ilegal ou desvio.
 
@@ -196,11 +196,11 @@ Pela [Lei nº 4.320/1964, art. 35](https://www2.camara.leg.br/legin/fed/lei/1960
 
 **Item 1, inédito C/E.** A descentralização externa de crédito mediante destaque permite que outra unidade gestora execute programação, sem que o instrumento signifique, por si, transferência imediata de recursos financeiros.
 
-**Gabarito: Certo.** O destaque movimenta **crédito**; repasse movimenta **recurso**. A simultaneidade de ambos não é automática.
+**Gabarito: Certo.** O destaque transfere a autorização para executar parte de uma programação a outra unidade, enquanto o repasse financeiro disponibiliza recursos para pagamentos. São operações distintas e não precisam ocorrer no mesmo momento nem no mesmo valor.
 
 **Item 2, inédito C/E.** Uma despesa empenhada no exercício de 2026, mas somente paga em 2027, pertence necessariamente ao orçamento de 2027, porque o art. 35 da Lei nº 4.320/1964 usa a data de pagamento para determinar o exercício da despesa.
 
-**Gabarito: Errado.** O art. 35, II, considera a **despesa legalmente empenhada**. Pagamento posterior pode envolver **restos a pagar**. O erro transpõe a data de desembolso para reconhecimento orçamentário.
+**Gabarito: Errado.** O art. 35, II, da Lei nº 4.320/1964 atribui a despesa orçamentária ao exercício em que foi **legalmente empenhada**. Se o empenho ocorreu em 2026 e o pagamento em 2027, o pagamento pode decorrer de **restos a pagar**, observadas as condições de inscrição, sem criar automaticamente novo empenho no orçamento de 2027. O enunciado confunde o ano do pagamento com o ano orçamentário da despesa.
 
 **Heurística para a Câmara:** **LOA autoriza → provisão/destaque descentralizam crédito → cota/repasse/sub-repasse movimentam recursos → empenho compromete dotação → liquidação verifica credor → pagamento desembolsa caixa**. A sequência é um mapa de funções, **não cronograma rígido de liberação simultânea**.
 
@@ -224,11 +224,11 @@ Essas fronteiras seguem a arquitetura federal de orçamento e finanças; não re
 
 ## Questões comentadas: treino didático C/E
 
-**Item 1.** O destaque de crédito e o repasse financeiro são espécies equivalentes de descentralização, porque ambos representam entrega de dinheiro a outro órgão. **Gabarito: Errado.** Destaque transfere **crédito orçamentário**; repasse transfere **disponibilidade financeira**.
+**Item 1.** O destaque de crédito e o repasse financeiro são espécies equivalentes de descentralização, porque ambos representam entrega de dinheiro a outro órgão. **Gabarito: Errado.** A primeira parte mistura operações diferentes: o **destaque** permite que uma unidade de outro órgão execute uma autorização orçamentária existente, sem transferir dinheiro por si só. O **repasse** movimenta recursos financeiros entre órgãos ou entidades. Ambos envolvem descentralização, mas de objetos distintos.
 
-**Item 2.** A Conta Única federal é mantida no Banco Central do Brasil, mas administrada pela Secretaria do Tesouro Nacional, de modo que função depositária e função gestora são distintas. **Gabarito: Certo.** A Constituição e as informações oficiais do Tesouro/Banco Central sustentam a separação.
+**Item 2.** A Conta Única federal é mantida no Banco Central do Brasil, mas administrada pela Secretaria do Tesouro Nacional, de modo que função depositária e função gestora são distintas. **Gabarito: Certo.** O **Banco Central** recebe e mantém as disponibilidades depositadas, conforme a Constituição, art. 164, § 3º. A **Secretaria do Tesouro Nacional (STN)** administra o fluxo financeiro federal, nos termos das normas aplicáveis. O depositário e o gestor desempenham funções diferentes.
 
-**Item 3.** A cota financeira representa a primeira etapa clássica de liberação de recursos pelo órgão central aos órgãos setoriais, enquanto o sub-repasse se refere à movimentação financeira interna a um mesmo órgão ou entidade. **Gabarito: Certo.** As duas operações são financeiras; não criam crédito orçamentário novo.
+**Item 3.** A cota financeira representa a primeira etapa clássica de liberação de recursos pelo órgão central aos órgãos setoriais, enquanto o sub-repasse se refere à movimentação financeira interna a um mesmo órgão ou entidade. **Gabarito: Certo.** A **cota** parte do órgão central para os órgãos setoriais de programação financeira. O **sub-repasse** transfere recursos entre unidades do mesmo órgão ou entidade. São movimentações de dinheiro ou disponibilidade financeira, sem aumentar a autorização orçamentária aprovada.
 
 Itens inéditos, didáticos e não calibrados como provas reais.
 

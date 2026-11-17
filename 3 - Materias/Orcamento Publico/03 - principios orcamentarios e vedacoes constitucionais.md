@@ -102,13 +102,13 @@ A iniciativa das leis orçamentárias cabe ao Executivo, enquanto a deliberaçã
 
 A Lei nº 4.320/1964, arts. 3º e 4º, dispõe sobre o conjunto das receitas e despesas incluídas na lei orçamentária. Uma receita pode estar no orçamento da seguridade e uma despesa no orçamento fiscal, sem deixar de integrar a LOA. A separação por esfera, função ou órgão serve à **discriminação**, não à exclusão.
 
-A universalidade deve ser lida junto às regras de receita **orçamentária e extraorçamentária**: um depósito temporário de terceiro não é receita orçamentária só porque movimentou a conta bancária do ente.
+A universalidade exige incluir as **receitas e despesas orçamentárias** abrangidas pelas regras legais. Isso não transforma toda entrada de dinheiro em receita orçamentária. Por exemplo, uma **caução**, quantia depositada por terceiro como garantia e sujeita à devolução, pode constituir ingresso **extraorçamentário**: o órgão guarda temporariamente o valor, mas não o arrecadou como receita própria do orçamento. A classificação depende da natureza jurídica do ingresso, não apenas de ter entrado dinheiro na conta.
 
 ### Anualidade e vigência de créditos
 
 O **exercício financeiro** coincide com o **ano civil** no Brasil (Lei nº 4.320/1964, art. 34). A LOA autoriza a programação de um exercício. O **Plano Plurianual (PPA)** mantém horizonte de quatro anos, e ações de políticas públicas podem continuar por vários exercícios com dotações anuais sucessivas.
 
-Uma exceção relevante: a Constituição, art. 167, § 2º, permite reabrir no exercício seguinte saldos de **créditos especiais e extraordinários**, se autorizados nos **últimos quatro meses** do exercício anterior. Isso não converte a LOA em autorização plurianual. A regra é detalhada em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|créditos adicionais]].
+Uma exceção importante trata dos **créditos adicionais**, que modificam autorizações de despesa. O **crédito especial** cria autorização para despesa sem dotação específica; o **extraordinário** atende despesa imprevisível e urgente, observadas as condições constitucionais. Pela Constituição, art. 167, § 2º, se um crédito especial ou extraordinário for autorizado nos **últimos quatro meses** do exercício, seu saldo pode ser **reaberto**, dentro de seu limite, no orçamento do exercício seguinte. Exemplo: um crédito especial autorizado em novembro pode ter saldo não utilizado incorporado ao orçamento do próximo ano mediante reabertura. Isso não torna plurianual toda a LOA nem estende automaticamente o prazo de créditos suplementares. A regra é detalhada em [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|créditos adicionais]].
 
 ## Orçamento bruto e especificação
 
@@ -175,7 +175,7 @@ A destinação de valores à manutenção e desenvolvimento do ensino dentro do 
 
 ## Outras vedações do art. 167
 
-O artigo 167 reúne hipóteses distintas; o número do inciso pode ser decisivo para julgar a proposição.
+O **art. 167 da Constituição** reúne proibições sobre o uso do orçamento e dos créditos públicos. Cada proibição tem um objeto próprio. Por exemplo, uma regra impede iniciar programa não incluído na LOA; outra limita despesas superiores aos créditos autorizados; outra restringe o uso de empréstimos. Para julgar um item, identifique primeiro **qual ato o governo pretende realizar** e depois confira a condição e as exceções da regra aplicável.
 
 | Regra | O que não confundir |
 | :--- | :--- |
@@ -200,9 +200,9 @@ Essa regra não é equivalente a “orçamento equilibrado”, a resultado prim�
 
 ### Remanejamento, transposição e transferência
 
-O art. 167, VI, contém regra geral de autorização legislativa prévia para deslocamentos entre categorias de programação ou órgãos. O § 5º prevê hipótese específica relacionada a **ciência, tecnologia e inovação**, que não pode ser ampliada por analogia a toda despesa.
+O art. 167, VI, exige, como regra, **autorização legislativa prévia** quando o governo pretende deslocar recursos de uma categoria de programação para outra ou de um órgão para outro. **Remanejamento, transposição e transferência** são nomes usados em normas e na prática orçamentária para diferentes formas de modificar a distribuição de recursos; a classificação de cada operação depende das regras aplicáveis. Em todas elas, é necessário identificar **de onde o valor sai, para onde vai e qual autorização permite a mudança**.
 
-Classificar o instrumento de movimentação depende do caso e das normas pertinentes. A nova dotação ainda exige a forma adequada de autorização e de registro.
+**Exemplo:** o governo aprovou R$ 5 milhões em determinada programação e pretende usar R$ 1 milhão em outra. A existência do dinheiro não dispensa verificar se a mudança depende de lei ou se há uma autorização constitucional específica. Pelo **art. 167, § 5º**, nas atividades de **ciência, tecnologia e inovação**, podem ser admitidos deslocamentos entre categorias de programação, por ato do Executivo e sem autorização legislativa prévia, **para viabilizar resultados de projetos restritos a essas funções**. A exceção tem finalidade e campo definidos; não autoriza remanejar livremente recursos de qualquer área. Além disso, o art. 167, § 14, prevê hipótese específica relacionada à execução de atividades de ciência, tecnologia e inovação em situações constitucionais próprias, a ser examinada pelo dispositivo vigente.
 
 ## Como a banca pode cobrar
 
@@ -218,11 +218,11 @@ Uma lei orçamentária prevê arrecadação de R$ 8 milhões e gastos de R$ 8 mi
 
 ## Questões comentadas: treino didático C/E
 
-**Item 1.** O princípio da unidade impede que a lei orçamentária federal contenha separadamente os orçamentos fiscal e da seguridade social. **Gabarito: Errado.** A Constituição organiza três orçamentos na LOA. Unidade não exige suprimir as esferas.
+**Item 1.** O princípio da unidade impede que a lei orçamentária federal contenha separadamente os orçamentos fiscal e da seguridade social. **Gabarito: Errado.** O art. 165, § 5º, da Constituição determina que a LOA reúna os orçamentos **fiscal, da seguridade social e de investimento das estatais**. O princípio da unidade exige a integração dessas partes no orçamento do ente, e não que todas as despesas sejam colocadas em uma única esfera. O item erra ao transformar a exigência de integração em proibição de separar os três componentes previstos na própria Constituição.
 
-**Item 2.** A regra geral de não vinculação recai sobre receitas de impostos e admite ressalvas constitucionais, como a destinação à saúde e à educação. **Gabarito: Certo.** O erro típico é ampliar o objeto para toda receita sem conferir o art. 167, IV.
+**Item 2.** A regra geral de não vinculação recai sobre receitas de impostos e admite ressalvas constitucionais, como a destinação à saúde e à educação. **Gabarito: Certo.** Pelo art. 167, IV, da Constituição, a proibição geral incide sobre **receita de impostos**, e não sobre toda espécie de receita pública. A própria Constituição permite destinações específicas, como os mínimos de aplicação em **ações e serviços públicos de saúde** e na **manutenção e desenvolvimento do ensino**. Portanto, a frase está certa porque delimita tanto o objeto da proibição quanto a existência de exceções.
 
-**Item 3.** A regra de ouro admite, nas condições constitucionais, operações de crédito acima das despesas de capital autorizadas por créditos suplementares ou especiais com finalidade precisa e aprovação legislativa por maioria absoluta. **Gabarito: Certo.** O art. 167, III, prevê a ressalva com requisitos acumulados.
+**Item 3.** A regra de ouro admite, nas condições constitucionais, operações de crédito acima das despesas de capital autorizadas por créditos suplementares ou especiais com finalidade precisa e aprovação legislativa por maioria absoluta. **Gabarito: Certo.** A regra geral do art. 167, III, da Constituição impede operações de crédito que ultrapassem as despesas de capital consideradas na apuração. A exceção exige **créditos suplementares ou especiais**, **finalidade precisa** e aprovação por **maioria absoluta**, isto é, mais da metade do número total de membros da Casa competente. Exemplo didático: uma simples votação pela maioria dos presentes, sem alcançar a maioria absoluta, não atende à condição, mesmo que a finalidade do crédito esteja definida. Todos os requisitos precisam estar presentes.
 
 São **itens inéditos para aprendizagem**, sem afirmar equivalência a provas reais ou desempenho do estudante.
 

@@ -1582,7 +1582,7 @@
       "aliases": [
         "Impedimento e suspeição processual administrativa"
       ],
-      "definition": "Impedimento (art. 18) decorre de interesse no processo, atuação como perito, testemunha ou representante em certas relações ou litígio com interessado. O agente impedido comunica e não atua (art. 19). Suspeição (art. 20) pode ser arguida por amizade íntima ou inimizade notória; indeferimento admite recurso sem efeito suspensivo (art. 21).",
+      "definition": "Impedimento (arts. 18-19): interesse próprio, participação prévia relacionada ou litígio com interessado; o agente deve comunicar e afastar-se. Suspeição (arts. 20-21): amizade íntima ou inimizade notória, com possibilidade de arguição e recurso sem efeito suspensivo.",
       "contrast": "Deixar de comunicar impedimento é falta grave expressa no art. 19; a lei não atribui automaticamente a mesma tipificação à não comunicação de suspeição.",
       "cebraspeTrap": "Igualar suspeição a impedimento e afirmar que recurso contra indeferimento de suspeição suspende o processo.",
       "example": "Servidor com interesse financeiro no pedido deve comunicar impedimento; amizade íntima pode fundamentar arguição de suspeição.",
@@ -1609,7 +1609,7 @@
       "aliases": [
         "Prazos de recurso: 10, 5 e 30 dias"
       ],
-      "definition": "Art. 59: recurso em dez dias da ciência ou divulgação oficial; decisão em até trinta dias do recebimento pelo julgador, prorrogáveis por igual período com justificativa. Art. 56, § 1º: cinco dias para reconsideração. Art. 62: outros interessados apresentam alegações em cinco dias úteis. Art. 66, § 2º: prazos gerais em dias contínuos.",
+      "definition": "Lei 9.784: dez dias para interpor recurso (art. 59); cinco para reconsideração (art. 56, § 1º); trinta para decidir, prorrogáveis por trinta com justificativa (art. 59, §§ 1º e 2º). Outros interessados têm cinco dias úteis para alegações (art. 62).",
       "contrast": "Dez dias de interposição, cinco de reconsideração, cinco dias úteis para demais interessados e trinta mais trinta de julgamento são contagens distintas.",
       "cebraspeTrap": "Atribuir prazo de julgamento aos §§ 2º e 3º do art. 59 ou contar todos os prazos em dias úteis.",
       "example": "O recorrente interpõe em dez dias contínuos; depois da interposição, os demais interessados têm cinco dias úteis para alegações.",

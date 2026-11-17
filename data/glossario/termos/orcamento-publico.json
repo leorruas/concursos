@@ -155,6 +155,118 @@
       "status": "reviewed"
     },
     {
+      "id": "glo-ordem-de-pagamento",
+      "term": "Ordem de pagamento",
+      "aliases": [
+        "Ordenação de pagamento"
+      ],
+      "definition": "É o despacho da autoridade competente que determina o pagamento de despesa regularmente liquidada. O art. 64 da Lei nº 4.320/1964 exige que a ordem seja emitida em documentos processados pelos serviços de contabilidade.",
+      "contrast": "O empenho compromete crédito orçamentário, a liquidação verifica o direito do credor, a ordem determina pagar e o pagamento realiza a saída de dinheiro. A ordem integra o procedimento do pagamento e não substitui a liquidação nem prova, sozinha, que o dinheiro chegou ao credor.",
+      "cebraspeTrap": "Tratar a ordem de pagamento como comprovante de transferência bancária ou como autorização suficiente para pagar antes de liquidar a despesa.",
+      "example": "A universidade confere a entrega e liquida R$ 40 mil em equipamentos. A autoridade expede a ordem de pagamento em processo contábil regular; o comprovante bancário posterior demonstra o desembolso.",
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, arts. 62 a 65",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+        }
+      ],
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-ateste-de-recebimento",
+      "term": "Ateste de recebimento",
+      "aliases": [
+        "Ateste de entrega"
+      ],
+      "definition": "É a declaração ou registro do agente responsável que confirma, nos limites de sua verificação, a entrega de um bem ou a prestação de um serviço. Pode compor os documentos usados para conferir a execução contratual e liquidar a despesa, conforme o caso.",
+      "contrast": "O ateste oferece evidência sobre entrega ou execução; a liquidação reúne a análise do objeto, do valor devido e da pessoa que tem direito a receber, nos termos do art. 63 da Lei nº 4.320/1964. Um ateste genérico ou uma nota fiscal isolada não substitui toda a conferência. O documento de recebimento contratual segue requisitos específicos da Lei nº 14.133/2021.",
+      "cebraspeTrap": "Afirmar que qualquer carimbo de ateste, sem conferência de quantidade, qualidade ou valor, comprova automaticamente a liquidação e autoriza o pagamento.",
+      "example": "Em um contrato de 40 computadores, chegam apenas 20. O fiscal registra a quantidade e conformidade observada. A equipe de liquidação confere os documentos e, se cabível, liquida só os R$ 40 mil correspondentes à parcela aceita.",
+      "sources": [
+        {
+          "label": "Lei nº 4.320/1964, arts. 62 a 65",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html"
+        },
+        {
+          "label": "Lei nº 14.133/2021, art. 140",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-publicacaooriginal-162591-pl.html"
+        }
+      ],
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-recebimento-provisorio-do-objeto",
+      "term": "Recebimento provisório do objeto",
+      "aliases": [
+        "Recebimento provisório em contrato"
+      ],
+      "definition": "É a primeira etapa de recebimento de obra, serviço ou compra contratada pela administração. Segundo o art. 140 da Lei nº 14.133/2021, nas obras e serviços o fiscal responsável registra a verificação técnica em termo detalhado; nas compras, o responsável pelo acompanhamento ou fiscalização pode receber sumariamente, para posterior verificação de conformidade.",
+      "contrast": "O recebimento provisório registra a entrega inicial, mas não substitui a verificação definitiva de que o objeto atende ao contrato. Nas compras pode ser sumário; em obras e serviços há exigência de termo detalhado. Nenhuma dessas formas significa automaticamente que a despesa já foi liquidada ou paga.",
+      "cebraspeTrap": "Atribuir a toda compra a obrigação de termo detalhado no recebimento provisório ou supor que receber provisoriamente é aceitar definitivamente o objeto.",
+      "example": "A universidade recebe 20 dos 40 computadores previstos. O responsável registra provisoriamente a entrega; a verificação posterior checa a qualidade e as condições contratadas antes do recebimento definitivo.",
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, art. 140",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-publicacaooriginal-162591-pl.html"
+        }
+      ],
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-recebimento-definitivo-do-objeto",
+      "term": "Recebimento definitivo do objeto",
+      "aliases": [
+        "Recebimento definitivo em contrato"
+      ],
+      "definition": "É a confirmação formal, após a verificação de conformidade, de que a obra, serviço ou compra atende às exigências contratuais. O art. 140 da Lei nº 14.133/2021 atribui esse ato a servidor ou comissão designada pela autoridade competente e exige termo detalhado.",
+      "contrast": "O recebimento definitivo vem após as verificações aplicáveis ao objeto e difere do recebimento provisório. Ele fornece evidência relevante para a liquidação, mas a liquidação também precisa verificar o credor e o valor devido. O recebimento, provisório ou definitivo, não afasta as responsabilidades legais do contratado.",
+      "cebraspeTrap": "Confundir recebimento definitivo com pagamento realizado ou afirmar que esse recebimento elimina toda responsabilidade futura do contratado.",
+      "example": "Após verificar 20 computadores entregues e confirmar que correspondem ao contrato, servidor ou comissão designada documenta seu recebimento definitivo. O órgão então examina os demais elementos necessários à liquidação da parcela.",
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, art. 140",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2021/lei-14133-1-abril-2021-791222-publicacaooriginal-162591-pl.html"
+        }
+      ],
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "contestIds": [
+        "cgu-2026"
+      ],
+      "articleIds": [
+        "art-67167e9c18284c4c"
+      ],
+      "status": "reviewed"
+    },
+    {
       "id": "glo-ciclo-orcamentario",
       "term": "Ciclo orçamentário",
       "aliases": [],

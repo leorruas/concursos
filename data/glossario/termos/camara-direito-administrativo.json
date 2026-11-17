@@ -2193,6 +2193,156 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da10-titularidade-execucao",
+      "term": "Titularidade e execução de serviço público",
+      "aliases": [],
+      "definition": "Titularidade é a competência e a responsabilidade pública pelo serviço; execução é a prestação material, que pode ser realizada diretamente ou delegada.",
+      "contrast": "Concessão e permissão delegam a execução, não tornam concessionária titular da competência estatal.",
+      "cebraspeTrap": "Dizer que a concessionária se torna titular porque cobra tarifa.",
+      "example": "Município continua titular do transporte concedido a empresa.",
+      "articleIds": [
+        "art-b3edb79bff314c93"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.987/1995, texto atualizado, arts. 2º, 6º, 37 a 40",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da10-concessao-permissao",
+      "term": "Concessão e permissão de serviço público",
+      "aliases": [],
+      "definition": "A Lei nº 8.987/1995 define concessão como delegação por licitação a pessoa jurídica ou consórcio, com prazo determinado, e permissão como delegação precária por licitação a pessoa física ou jurídica.",
+      "contrast": "Permissão exige contrato de adesão (art. 40) e não se reduz a ato sem vínculo contratual; concessão também é contratual.",
+      "cebraspeTrap": "Afirmar que permissão dispensa licitação ou somente pode envolver empresa.",
+      "example": "Permissionário pessoa física recebe delegação após licitação, com contrato de adesão.",
+      "articleIds": [
+        "art-b3edb79bff314c93"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.987/1995, texto atualizado, arts. 2º, 6º, 37 a 40",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da10-servico-adequado",
+      "term": "Serviço adequado na Lei nº 8.987/1995",
+      "aliases": [],
+      "definition": "Art. 6º, § 1º: regularidade, continuidade, eficiência, segurança, atualidade, generalidade, cortesia e modicidade das tarifas.",
+      "contrast": "Modicidade não significa gratuidade; continuidade admite exceções taxadas pelo § 3º.",
+      "cebraspeTrap": "Afirmar que basta eficiência financeira e que todo corte é proibido.",
+      "example": "Ônibus moderno, seguro, contínuo e com tarifa módica atende critérios diferentes.",
+      "articleIds": [
+        "art-b3edb79bff314c93"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.987/1995, texto atualizado, arts. 2º, 6º, 37 a 40",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da10-corte-inadimplemento",
+      "term": "Interrupção por inadimplemento e proibição de início em certos dias",
+      "aliases": [],
+      "definition": "Art. 6º, §§ 3º e 4º: admite interrupção por inadimplemento após aviso, considerado o interesse coletivo, mas não pode iniciar corte em sexta, sábado, domingo, feriado ou véspera de feriado.",
+      "contrast": "Emergência dispensa o aviso prévio exigido para interrupções técnicas ou por inadimplemento; aviso não afasta a proibição de certos dias.",
+      "cebraspeTrap": "Dizer que corte notificado pode começar na sexta-feira.",
+      "example": "Concessionária avisou na terça mas não pode iniciar o corte na sexta.",
+      "articleIds": [
+        "art-b3edb79bff314c93"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.987/1995, texto atualizado, arts. 2º, 6º, 37 a 40",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da10-encampacao-caducidade",
+      "term": "Encampação e caducidade de concessão",
+      "aliases": [],
+      "definition": "Art. 37: encampação é retomada por interesse público durante o prazo, com lei específica e indenização prévia; art. 38: caducidade decorre das falhas legais e exige procedimento.",
+      "contrast": "Caducidade exige comunicação das falhas, prazo de correção e processo com defesa, e é declarada por decreto sem indenização prévia.",
+      "cebraspeTrap": "Tratar retomada por conveniência como punição por descumprimento.",
+      "example": "Município retoma linha por nova política de transporte: encampação, não caducidade.",
+      "articleIds": [
+        "art-b3edb79bff314c93"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.987/1995, texto atualizado, arts. 2º, 6º, 37 a 40",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da10-rescisao-concessionaria",
+      "term": "Rescisão judicial de concessão a pedido da concessionária",
+      "aliases": [],
+      "definition": "Art. 39: por descumprimento contratual do poder concedente, concessionária pode buscar rescisão por ação judicial específica e não pode interromper a prestação até trânsito em julgado.",
+      "contrast": "Difere da caducidade, decretada pelo poder concedente por descumprimento da concessionária.",
+      "cebraspeTrap": "Afirmar que ajuizar ação libera automaticamente a concessionária para parar.",
+      "example": "Operadora questiona falta de pagamento em juízo, mas mantém serviço até decisão definitiva.",
+      "articleIds": [
+        "art-b3edb79bff314c93"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 8.987/1995, texto atualizado, arts. 2º, 6º, 37 a 40",
+          "url": "https://www2.camara.leg.br/legin/fed/lei/1995/lei-8987-13-fevereiro-1995-349810-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

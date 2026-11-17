@@ -52459,6 +52459,286 @@
       "correctAnswer": "E",
       "explanation": "A aprovação em cada Casa está correta. A etapa posterior é a promulgação pelas duas Mesas em sessão conjunta solene, conforme o art. 85 do Regimento Comum. (Regimento Comum, art. 85 e Constituição Federal, art. 60, §§ 2º e 3º.)",
       "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 85 e Constituição Federal, art. 60, §§ 2º e 3º — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Constituição Federal — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a aprovação em cada Casa da natureza da sessão de promulgação."
+    },
+    {
+      "id": "cam-const-200-mesa-empate-idade-legislaturas",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "mesa-empate-idade-legislaturas",
+      "mechanism": "mesa-empate-idade-legislaturas",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Posse e eleição da Mesa: arts. 3º a 8º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Posse e eleição da Mesa: arts. 3º a 8º"
+      },
+      "statement": "Em caso de empate na eleição para cargo da Mesa, deve ser escolhido o candidato de 65 anos com duas legislaturas em vez do candidato de 54 anos com três legislaturas.",
+      "correctAnswer": "E",
+      "explanation": "O erro está em aplicar a idade antes da experiência parlamentar. São considerados primeiro os candidatos com o maior número de legislaturas. A idade resolve a disputa entre os que permanecem empatados nesse critério. (Regimento Interno, art. 7º, IV.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 7º, IV — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Ordena dois critérios de desempate."
+    },
+    {
+      "id": "cam-const-200-mesa-eleicao-exige-segredo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "mesa-eleicao-exige-segredo",
+      "mechanism": "mesa-eleicao-exige-segredo",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Posse e eleição da Mesa: arts. 3º a 8º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Posse e eleição da Mesa: arts. 3º a 8º"
+      },
+      "statement": "O Regimento Interno prevê votação secreta para a eleição dos membros da Mesa da Câmara.",
+      "correctAnswer": "C",
+      "explanation": "O sigilo é a regra para a eleição da Mesa, mesmo quando a votação é realizada pelo sistema eletrônico. (Regimento Interno, art. 7º, caput.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 7º, caput — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Identifica o modo de votação expresso."
+    },
+    {
+      "id": "cam-const-200-lider-fora-comissao-votacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "lider-fora-comissao-votacao",
+      "mechanism": "lider-fora-comissao-votacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Líderes, blocos e maioria: arts. 9º a 13"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Líderes, blocos e maioria: arts. 9º a 13"
+      },
+      "statement": "Líder partidário que não integra determinada comissão pode participar de seus trabalhos e votar para desempatar, desde que deixe a condução do encaminhamento a outro deputado.",
+      "correctAnswer": "E",
+      "explanation": "O líder pode participar dos trabalhos sem direito a voto. A faculdade de encaminhar a votação e requerer sua verificação não inclui voto de desempate. (Regimento Interno, art. 10, III.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 10, III — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Diferencia encaminhar a votação de votar."
+    },
+    {
+      "id": "cam-const-200-bloco-quinze-deputados",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "bloco-quinze-deputados",
+      "mechanism": "bloco-quinze-deputados",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Líderes, blocos e maioria: arts. 9º a 13"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Líderes, blocos e maioria: arts. 9º a 13"
+      },
+      "statement": "Dois partidos que somam quinze deputados podem constituir bloco parlamentar na Câmara com 513 membros, pois é suficiente obter a parte inteira do número correspondente a 3% da composição da Casa.",
+      "correctAnswer": "E",
+      "explanation": "Três por cento de 513 equivalem a 15,39. Como o Regimento não admite bloco com menos de 3% dos membros, quinze são insuficientes. São necessários pelo menos dezesseis deputados. (Regimento Interno, art. 12, caput e § 3º.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 12, caput e § 3º — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Aplica o percentual sobre o total de membros e verifica a exigência estrutural."
+    },
+    {
+      "id": "cam-const-200-mesa-diploma-apresentacao-prazo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "mesa-diploma-apresentacao-prazo",
+      "mechanism": "mesa-diploma-apresentacao-prazo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Posse e eleição da Mesa: arts. 3º a 8º"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Posse e eleição da Mesa: arts. 3º a 8º"
+      },
+      "statement": "O candidato diplomado deputado federal deve apresentar seu diploma à Mesa até 31 de janeiro do ano de instalação da legislatura.",
+      "correctAnswer": "C",
+      "explanation": "O diploma é expedido pela Justiça Eleitoral. O prazo de apresentação à Mesa antecede a sessão preparatória de posse e se encerra em 31 de janeiro. (Regimento Interno, art. 3º, caput.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 3º, caput — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Aplica o prazo regimental ao ato de entrega do diploma."
+    },
+    {
+      "id": "cam-const-200-comissao-temporaria-finalidade-cumprida",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "comissao-temporaria-finalidade-cumprida",
+      "mechanism": "comissao-temporaria-finalidade-cumprida",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "Uma comissão temporária pode extinguir-se antes do fim da legislatura quando já tiver alcançado o fim para o qual foi criada.",
+      "correctAnswer": "C",
+      "explanation": "A comissão temporária é criada para uma finalidade determinada. O cumprimento dessa finalidade é uma causa de extinção anterior ao término da legislatura. (Regimento Interno, art. 22, II.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 22, II — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Verifica causa regimental expressa de encerramento antecipado."
+    },
+    {
+      "id": "cam-const-200-comissao-minoria-sem-vaga-proporcional",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "comissao-minoria-sem-vaga-proporcional",
+      "mechanism": "comissao-minoria-sem-vaga-proporcional",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "A falta de vaga para a Minoria na distribuição proporcional, por si só, não autoriza a composição de uma comissão sem representante da Minoria.",
+      "correctAnswer": "C",
+      "explanation": "A proporcionalidade orienta a composição. O Regimento assegura a participação de um membro da Minoria mesmo quando a proporção não lhe dê lugar. (Regimento Interno, art. 23, caput.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 23, caput — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Ajusta a proporcionalidade à garantia de presença da Minoria."
+    },
+    {
+      "id": "cam-const-200-poder-conclusivo-projeto-comissao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "poder-conclusivo-projeto-comissao",
+      "mechanism": "poder-conclusivo-projeto-comissao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "Um projeto de lei ordinária de iniciativa de comissão pode ser aprovado conclusivamente pelas comissões que o examinam, desde que nenhum parecer seja divergente e a tramitação seja ordinária.",
+      "correctAnswer": "E",
+      "explanation": "O projeto de iniciativa de comissão está entre as exceções à apreciação conclusiva. A ausência de urgência e de parecer divergente não remove a exceção fundada na autoria. (Regimento Interno, art. 24, II, d.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 24, II, d — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Distingue a autoria de comissão da competência de deliberação conclusiva."
+    },
+    {
+      "id": "cam-const-200-comissao-urgencia-efeito-conclusivo",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "comissao-urgencia-efeito-conclusivo",
+      "mechanism": "comissao-urgencia-efeito-conclusivo",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "Depois que um projeto de lei ordinária inicialmente sujeito a apreciação conclusiva entra em regime de urgência, as comissões conservam o poder de dispensar a deliberação do Plenário porque a distribuição inicial fixou a competência.",
+      "correctAnswer": "E",
+      "explanation": "O regime de urgência é uma exceção regimental à apreciação conclusiva. A distribuição inicial não mantém a possibilidade de dispensar a deliberação do Plenário após a mudança de regime. (Regimento Interno, art. 24, II, h.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 24, II, h — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Relaciona alteração do regime de tramitação à competência para deliberação final."
+    },
+    {
+      "id": "cam-const-200-comissao-audiencia-sociedade",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Interno da Câmara dos Deputados",
+      "articleId": "art-53a7d90f1b264c8e",
+      "conceptId": "comissao-audiencia-sociedade",
+      "mechanism": "comissao-audiencia-sociedade",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-53a7d90f1b264c8e#Comissões: arts. 22 a 24"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24.md",
+        "section": "Comissões: arts. 22 a 24"
+      },
+      "statement": "As comissões da Câmara podem realizar audiências públicas com entidades da sociedade civil.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento atribui essa competência às comissões. A audiência permite ouvir entidades da sociedade civil sobre matéria pertinente às atividades da comissão. (Regimento Interno, art. 24, III.)",
+      "reviewEvidence": "Regimento Interno da Câmara dos Deputados, art. 24, III — https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html | Critério de dificuldade: Reconhece competência regimental expressa."
     }
   ]
 }

@@ -104,9 +104,9 @@ Os oito itens são originais e didáticos. Não representam questões oficiais, 
 ## Fontes e continuidade
 
 - [Edital CGU nº 1/2026, versão retificada em 6/11/2026](https://cdn.cebraspe.org.br/concursos/cgu_26_affc/arquivos/9F208573B5EE30224B402D22562A44BD2F387D5E7FBD78CA8A15212F1DE98E7D.pdf): bloco de Finanças públicas, orçamento e contabilidade pública, itens 2.1, 3.1 e 5.1.
-- [Constituição Federal, arts. 70, 74 e 165](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): fiscalização, controle e leis orçamentárias.
-- [Lei nº 4.320/1964, arts. 2º e 58 a 65](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm): lei orçamentária e execução da despesa.
-- [Lei Complementar nº 101/2000, arts. 8º e 9º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): programação financeira e limitação de empenho.
+- [Constituição Federal, arts. 70, 74 e 165](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html): fiscalização, controle e leis orçamentárias.
+- [Lei nº 4.320/1964, arts. 2º e 58 a 65](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): lei orçamentária e execução da despesa.
+- [Lei Complementar nº 101/2000, arts. 8º e 9º](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html): programação financeira e limitação de empenho.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: funções e aplicação dos instrumentos de planejamento.
 
 **Relação editorial:** este capítulo deriva conceitualmente de `art-f6cfe9fbcc764554`, preservado como legado da Câmara. Sua versão CGU foi integrada ao catálogo, índice, hub e percurso pelo PR #363. Dois flashcards CGU tiveram seus vínculos e seções reconciliados com esta versão. Ainda dependem de comprovação o deploy no Pages e o encerramento editorial por SHA. O capítulo não registra desempenho pessoal.

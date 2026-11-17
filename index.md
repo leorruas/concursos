@@ -15,6 +15,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
 - [[1 - Planejamento/CGU 2026 - Plano de materias|CGU 2026: plano das 15 matérias]]
 - [[1 - Planejamento/Materias sem artigos - Plano de implementacao por fases|Matérias sem artigos próprios: plano por fases]]
 - [[1 - Planejamento/Orcamento Publico - Arquitetura CGU e Camara|Orçamento Público: coordenação e compatibilidade das duas trilhas]]
+- [[1 - Planejamento/Orcamento Publico - Dependencias e migracao dos IDs|Orçamento Público: dependências dos 11 IDs compartilhados]]
 - [[1 - Planejamento/CGU 2026 - Percurso editorial Orcamento|Orçamento Público: ordem de estudo CGU 2026]]
 - [[1 - Planejamento/Camara 2026 - Percurso editorial Orcamento|Orçamento Público: ordem de estudo Câmara 2026]]
 - [[1 - Planejamento/CGU 2026 - Estado editorial Orcamento|Orçamento Público: estado editorial CGU 2026]]

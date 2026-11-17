@@ -74,6 +74,10 @@ A decisão sobre a versão CGU de 05a depende de confronto individual com o edit
 
 Planejar `1 - Planejamento/Orcamento Publico - Manifesto EPUB integrado.json` como saída editorial de configuração, sem gerar EPUB nesta missão. Cada entrada: `chapterKey`, `articleId`, `sourcePath`, `concursoId`, `sourceArticleId` (se derivada), `revisionSha`, `certificationStatus`, `sequence`, `topicKey`, `include` e `replacementFor`. Somente entradas certificadas e verificadas no SHA entram na exportação. Para conceitos equivalentes, escolher uma versão principal e outra apenas quando trouxer recorte didático próprio; justificar a escolha em `dedupReason`. Um artigo original nunca é modificado para compor o EPUB. Não consolidar duas certificações em um mesmo capítulo sem preservar as fontes e os IDs.
 
+## Auditoria das dependências da migração
+
+A matriz atualizada dos 11 IDs compartilhados, com contagem textual de vínculos em flashcards e glossários e bloqueios de compatibilidade, está em [[1 - Planejamento/Orcamento Publico - Dependencias e migracao dos IDs|Dependências e migração dos IDs]]. Esta é uma inspeção parcial, sem validação efetiva do banco de questões; manter a liberação controlada e preservar artigos legados.
+
 ## Pendências e gate de liberação
 
 **Implantado:** roteiros independentes CGU/Câmara em `1 - Planejamento/`, links no índice e no hub, matriz de propriedade no `AGENTS.md`, manifesto EPUB em JSON sem capítulos e arquivos de estado distintos por concurso. **Pendente:** inventário completo dos consumidores de IDs compartilhados, identificação dos IDs CGU próprios adicionais, validação de campos extras de frontmatter, migração gradual dos legados e conferência integral dos editais por cada agente.

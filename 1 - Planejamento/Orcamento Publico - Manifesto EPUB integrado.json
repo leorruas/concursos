@@ -398,10 +398,10 @@
       "sourceArticleId": "art-6e4e79c7f4bb4aa3",
       "topicKey": "restos-pagar",
       "sequence": 13,
-      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
+      "certificationStatus": "revalidacao-editorial-pos-edicao-pendente",
       "include": false,
-      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
-      "revisionSha": "010fd0cb46f9e39f2fbd5b465a993e684aaa5f37"
+      "selectionStatus": "aguarda-revalidacao-e-ci-pages",
+      "revisionSha": "4bf85158d6448c67cf11974232c880e7c2527780"
     },
     {
       "chapterKey": "cgu-14-novo",

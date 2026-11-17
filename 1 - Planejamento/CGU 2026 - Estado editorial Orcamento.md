@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: quinze-certificados-com-ressalva-visual-migracao-pendente
+status: quatorze-certificados-um-em-revalidacao
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -538,3 +538,9 @@ No artigo `art-83d7c5ef2a0b4916`, conferidos **10 de 10 itens C/E e suas justifi
 **Ressalva visual individual (quatro artigos):** inspeção manual em navegador indisponível. Não foram observadas individualmente as interfaces claro/escuro, mobile, contraste, quebras de tabelas, elementos interativos, navegação por teclado e âncoras. A validação automática de Pages não supre essa etapa. A ressalva não descreve um defeito confirmado; qualquer defeito visual real encontrado reabre o artigo correspondente.
 
 **Placar de conteúdo:** **15/15 artigos específicos CGU com revisão integral concluída com ressalva visual**, dos quais **10/10 derivados criados nesta separação** e os cinco previamente certificados. Foram revistos os 100 itens C/E dos dez derivados e os 57 itens anteriormente certificados. **Separação de conteúdo por IDs próprios concluída; migração dos consumidores ainda pendente.** Os dez `articleIds` legados de Orçamento continuam também no catálogo CGU, e há uma nota transversal de Atualidades compartilhada. Os 101 cartões diretos do legado em `data/flashcards.json`, verbetes de glossário, `theoryRefs` e URLs antigas devem ser reconciliados individualmente antes de remover vínculos históricos. O banco `data/questoes-camara.json` não foi alterado. O EPUB integrado permanece apenas como manifesto sem capítulos selecionados; nenhuma exportação produzida.
+
+## Revalidação pendente: restos a pagar após expansão e migração (17/11/2026)
+
+O artigo CGU `art-c85e29a3741f40bd` recebeu seção nova para explicar **cancelamento de RP × receita nova** e **restituição de suprimento no mesmo exercício × exercício seguinte**. SHA do novo blob: `4bf85158d6448c67cf11974232c880e7c2527780`, substituindo o anteriormente certificado `010fd0cb46f9e39f2fbd5b465a993e684aaa5f37`. A certificação editorial anterior fica **suspensa para o novo blob** até segunda leitura e CI/Pages. Trechos foram baseados no MCASP 11ª edição e na discussão já publicada no artigo histórico da Câmara, sem alterar este último.
+
+Migrados nove cartões exclusivamente CGU (`restos-pagar`, `rp-processados`, `rp-nao-processados`, `dea`, `suprimento`, `desembolso-extra`, `cont-rp-vs-dea`, `cont-cancelamento-rp`, `cont-suprimento-restituicao`), com remapeamento de `note.section` para headings efetivos do derivado, e 11 verbetes exclusivamente CGU (`glo-restos-a-pagar-processados`, `glo-restos-a-pagar-nao-processados`, `glo-despesas-de-exercicios-anteriores`, `glo-restos-a-pagar-nao-processados-a-liquidar`, `glo-restos-a-pagar-nao-processados-em-liquidacao`, `glo-suprimento-de-fundos`, `glo-inscricao-em-restos-a-pagar`, `glo-cancelamento-de-restos-a-pagar`, `glo-pagamento-de-restos-a-pagar`, `glo-disponibilidade-de-caixa`, `glo-desembolso-extraorcamentario`) em três glossários. O catálogo CGU deixou de apontar para o ID histórico `art-6e4e79c7f4bb4aa3`, preservado no catálogo Câmara. Executar validações de flashcards, glossários, IDs, build, Pages e nova leitura didática antes de restaurar o placar 15/15. O banco de questões da Câmara permaneceu intocado.

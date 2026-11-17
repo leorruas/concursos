@@ -5,89 +5,95 @@ title: "Licitações e contratos"
 type: "conceito"
 status: "ativo"
 created: 2026-06-12
-updated: 2026-09-10
+updated: 2026-11-16
 ---
 
 # Licitações e contratos
 
-A Lei nº 14.133/2021 disciplina licitações e contratos administrativos. Para prova, é importante separar quatro perguntas que a banca costuma misturar: **qual modalidade será utilizada?**, **qual critério escolherá a proposta?**, **há licitação ou contratação direta?** e **quais regras regem a execução do contrato?**
+Imagine que a Câmara precise contratar um serviço para tornar documentos legislativos acessíveis. Há um problema público, mas ainda não se sabe se a melhor solução é reformular o sistema existente, adquirir um produto disponível no mercado ou contratar um serviço especializado. **Como planejar, selecionar, contratar, fiscalizar e receber essa entrega sem confundir as etapas?**
+
+A **Lei nº 14.133/2021** estabelece normas gerais de licitação e contratação pública e se aplica também aos órgãos do **Poder Legislativo no desempenho de função administrativa**, conforme **art. 1º, I**. Ela não disciplina o exercício típico de legislar, mas incide, no alcance de suas disposições, em compras e contratos administrativos da Câmara. Normas próprias podem detalhar a organização interna, sem substituir as normas gerais aplicáveis.
+
+Para organizar o assunto, formule **seis perguntas diferentes**: qual necessidade justifica contratar; **qual modalidade** organiza a seleção; **qual critério de julgamento** compara propostas; há licitação ou **contratação direta**; qual ato encerra o certame; e como **executar, fiscalizar, alterar e extinguir** o contrato. Misturar essas perguntas é uma fonte comum de erros no formato Certo/Errado da Cebraspe.
+
+**Caso ao longo do artigo:** uma contratação hipotética de acessibilidade digital na Câmara. Cada fase mostra **quem age, o que produz e que limite jurídico existe**. Nenhum exemplo afirma a existência real de procedimento ou contrato da Câmara.
 
 ## Núcleo do conceito
 
-A licitação é um procedimento administrativo destinado à seleção da proposta apta a gerar o resultado de contratação mais vantajoso para a Administração, observados isonomia, competição e os princípios legais. A proposta mais vantajosa não é necessariamente a de menor preço: o critério de julgamento depende do objeto e da modalidade cabível.
+A **licitação** é um procedimento administrativo competitivo para selecionar proposta capaz de gerar o resultado de contratação mais vantajoso para a Administração, com **tratamento isonômico**, competição justa e prevenção de preços excessivos ou manifestamente inexequíveis. O **art. 11** também vincula seus objetivos à inovação e ao desenvolvimento nacional sustentável.
 
-A contratação direta, por sua vez, não significa contratação sem processo. Mesmo nos casos de dispensa ou inexigibilidade, o art. 72 exige instrução própria, com elementos como justificativa da escolha do contratado, justificativa de preço, comprovação de habilitação mínima e autorização da autoridade competente.
+**Menor preço não é sinônimo universal de proposta mais vantajosa.** O objeto e o edital determinam como comparar preços e atributos técnicos. Uma solução barata que não cumpra requisitos de acessibilidade pode ser inadequada e até desclassificada conforme as condições legais. **Sobrepreço** envolve preço orçado ou contratado expressivamente superior a referências de mercado; **superfaturamento**, prejuízo ao patrimônio público caracterizado nas situações legais, como medições acima do efetivamente executado.
+
+### Quem conduz e quem decide
+
+O **art. 8º** trata do **agente de contratação**, designado entre servidores efetivos ou empregados públicos dos quadros permanentes para conduzir o certame até a homologação. No **pregão**, o agente responsável pela condução recebe a designação de **pregoeiro**. Em hipóteses legais, como contratações de bens ou serviços especiais, poderá haver comissão de contratação. A **autoridade superior** exerce competências próprias de encerramento no art. 71, enquanto a fiscalização posterior será atribuída ao fiscal do contrato conforme o art. 117.
+
+**Segregação de funções** (art. 7º, § 1º, e art. 5º) evita a concentração de atribuições com riscos de conflito, erro ou fraude. Não equivale à afirmação de que cada tarefa necessariamente pertence a um servidor diferente em toda estrutura.
 
 ## Modalidades de licitação: art. 28
 
-A Lei nº 14.133/2021 prevê cinco modalidades:
+**Modalidade** responde: *qual procedimento legal será usado para disputar a contratação?* A Lei nº 14.133/2021 prevê **cinco**, sem convite e tomada de preços.
 
-1. **Pregão**;
-2. **Concorrência**;
-3. **Concurso**;
-4. **Leilão**;
-5. **Diálogo competitivo**.
+| Modalidade | Finalidade e característica | Exemplo ou contraste |
+| --- | --- | --- |
+| **Pregão** | Seleção de **bens e serviços comuns**, cujo desempenho e qualidade podem ser definidos por especificações usuais de mercado; usa **menor preço** ou **maior desconto** | Comprar computadores com especificações objetivas |
+| **Concorrência** | Bens e serviços **especiais** e obras e serviços de engenharia **comuns ou especiais**, ressalvadas normas específicas de pregão de serviço comum de engenharia | Contratar projeto especial complexo ou obra |
+| **Concurso** | Escolha de trabalho **técnico, científico ou artístico**, mediante prêmio ou remuneração | Seleção de trabalho artístico com premiação |
+| **Leilão** | **Alienação de bens**, com disputa pelo **maior lance** | Venda de bem público mediante condições legais |
+| **Diálogo competitivo** | Procedimento excepcional das hipóteses do **art. 32**, com diálogo para desenvolver alternativas antes das propostas finais | Solução inovadora cuja especificação técnica não possa ser previamente definida com precisão suficiente, observados os requisitos |
 
-> [!WARNING]
-> **Convite e tomada de preços não são modalidades da Lei nº 14.133/2021.** São categorias associadas ao regime anterior e funcionam como bons distratores em questões atuais.
+**Fronteira pregão e concorrência:** o **art. 29, parágrafo único**, veda o pregão para serviços técnicos especializados de natureza predominantemente intelectual e para obras e serviços de engenharia, **salvo os serviços comuns de engenharia** previstos na lei. Por isso, a afirmação “toda engenharia necessariamente usa concorrência” também está errada.
 
-### Fronteiras principais
+**Concurso da Lei de Licitações** é modalidade para escolher trabalho, não o **concurso público de ingresso de servidores** da Constituição. O mesmo nome designa finalidades diferentes.
 
-- **Pregão**: obrigatório para aquisição de bens e serviços comuns, quando o objeto pode ser definido por especificações usuais de mercado. Pode usar menor preço ou maior desconto.
-- **Concorrência**: utilizada para bens e serviços especiais e para obras e serviços comuns ou especiais de engenharia, nos termos da lei.
-- **Concurso**: escolha de trabalho técnico, científico ou artístico, com prêmio ou remuneração ao vencedor.
-- **Leilão**: alienação de bens a quem oferecer o maior lance.
-- **Diálogo competitivo**: destinado às hipóteses legais em que a Administração precisa dialogar com licitantes previamente selecionados para desenvolver alternativas capazes de atender à necessidade antes da fase competitiva.
+**Diálogo competitivo:** o art. 32 exige caracterização de necessidade que envolva inovação, impossibilidade de satisfação por soluções disponíveis sem adaptação ou impossibilidade de definição suficientemente precisa das especificações técnicas, nos moldes legais. Os participantes devem ser pré-selecionados por critérios objetivos, com diálogo conduzido por comissão e fase competitiva posterior. **Complexidade genérica ou preferência por conversar com fornecedores não basta para escolher o procedimento.**
 
-**Modalidade não é critério de julgamento.** Pregão é modalidade; menor preço é critério. Leilão é modalidade; maior lance é critério.
+**Vedação expressa:** o art. 28, § 2º, proíbe criar outras modalidades ou combinar as previstas. Um edital não pode inventar “tomada de preços simplificada” como modalidade da Lei nº 14.133/2021.
 
 ## Critérios de julgamento: art. 33
 
-A lei prevê seis critérios:
+**Critério de julgamento** responde: *como as propostas serão comparadas para escolher a vencedora?* Os seis critérios da lei não são seis modalidades.
 
-1. **menor preço**;
-2. **maior desconto**;
-3. **melhor técnica ou conteúdo artístico**;
-4. **técnica e preço**;
-5. **maior lance**, no caso de leilão;
-6. **maior retorno econômico**.
+| Critério | Lógica de comparação | Armadilha |
+| --- | --- | --- |
+| **Menor preço** | Menor dispêndio para a Administração entre propostas que atendem aos requisitos | Preço baixo não dispensa avaliar exequibilidade e conformidade |
+| **Maior desconto** | Maior desconto sobre preço de referência definido, conforme o edital | É critério de julgamento, e não modalidade |
+| **Melhor técnica ou conteúdo artístico** | Qualidade técnica ou artística, nas hipóteses legais; pode haver prêmio ou remuneração | “Melhor técnica” isolada é abreviação, e não denominação integral do art. 33, III |
+| **Técnica e preço** | Combina avaliação técnica e econômica segundo a ponderação legal e editalícia | Não significa escolha livre do avaliador sem critérios |
+| **Maior lance** | Vence o maior valor ofertado em **leilão** | Não se aplica indistintamente a compras |
+| **Maior retorno econômico** | Relacionado ao **contrato de eficiência**, com remuneração vinculada à economia produzida | Não é apenas o maior preço oferecido por fornecedor |
 
-A nota antiga do vault trazia apenas quatro critérios e usava “melhor técnica” como denominação isolada. Para literalidade legal, a fórmula é **melhor técnica ou conteúdo artístico**.
+**Exemplo comum:** a Câmara pretende comprar equipamentos padronizados: pode empregar **pregão** (modalidade) e **menor preço** (critério). Se busca vender bens patrimoniais, o **leilão** é modalidade e o **maior lance**, seu critério. A lei também trata do critério de **maior retorno econômico** para contratar medidas capazes de reduzir despesas correntes, no **art. 39**.
 
-> [!TIP]
-> Pergunta discriminadora: **“estão perguntando como o procedimento é organizado ou como o vencedor é escolhido?”** A primeira pergunta aponta para modalidade; a segunda, para critério de julgamento.
+**Como classificar:** a pergunta “que tipo de disputa?” aponta à modalidade; a pergunta “que proposta vence?” aponta ao julgamento; a pergunta “há algum fornecedor?” aponta à **habilitação** ou à contratação direta, não a uma sexta modalidade.
 
 ## Fases da licitação: art. 17
 
-A sequência legal possui **sete fases**:
+A Lei nº 14.133/2021 enumera **sete fases** em ordem padrão:
 
 ```text
-Preparatória
-→ Divulgação do edital
-→ Apresentação de propostas e lances
-→ Julgamento
-→ Habilitação
-→ Recursal
-→ Homologação
+Preparatória (planejar necessidade, objeto e risco)
+→ Divulgação do edital (publicidade das regras)
+→ Apresentação de propostas e lances, quando cabíveis
+→ Julgamento (aplicar critério previsto)
+→ Habilitação (verificar condições do licitante)
+→ Recursal (contestar decisões impugnáveis)
+→ Homologação (fase legal de encerramento)
 ```
 
-A habilitação ocorre, em regra, após o julgamento. Entretanto, o § 1º do art. 17 permite que ela anteceda propostas/lances e julgamento quando houver ato motivado, explicitação dos benefícios e previsão expressa no edital.
+A **habilitação**, como regra, vem **após o julgamento**. Pelo **art. 17, § 1º**, pode ser invertida para ocorrer **antes da apresentação de propostas/lances e do julgamento** mediante **ato motivado**, benefícios explicitados e **previsão expressa no edital**. A inversão não se confunde com simples preferência informal do gestor.
+
+### Habilitação: o que é verificado?
+
+Segundo o **art. 62**, a habilitação examina quatro dimensões: **jurídica**, **técnica**, **fiscal, social e trabalhista**, e **econômico-financeira**. Uma empresa pode ter apresentado a melhor proposta econômica, mas não atender à documentação indispensável exigida legalmente; o procedimento não deve confundir julgar preço com comprovar capacidade.
 
 ### Adjudicação não é uma oitava fase do art. 17
 
-A versão anterior desta nota trazia:
+O **art. 17** encerra sua lista com **homologação**. No **art. 71, IV**, a **autoridade superior**, após exauridos recursos e encerradas as fases pertinentes, poderá **adjudicar o objeto e homologar a licitação**. **Adjudicar** significa atribuir o objeto ao vencedor nos termos legais; **homologar** significa aprovar o procedimento concluído após controle de legalidade e conveniência cabível, dentro da competência da autoridade.
 
-```text
-... → Recursal → Homologação → Adjudicação
-```
+No **art. 71**, a autoridade pode ainda **determinar retorno para saneamento**, **revogar** por motivo de conveniência e oportunidade decorrente de fato superveniente comprovado ou **anular** por ilegalidade insanável, observados os deveres legais de motivação e manifestação prévia dos interessados nos casos pertinentes.
 
-Esse esquema não corresponde à estrutura da Lei nº 14.133/2021. O art. 17 encerra a lista de fases com **homologação**. Já o art. 71 disciplina o encerramento e prevê que, encerradas julgamento e habilitação e exauridos os recursos, a autoridade superior poderá, entre outras providências, **adjudicar o objeto e homologar a licitação**.
-
-Para prova, portanto:
-
-- **homologação** integra expressamente as fases do art. 17;
-- **adjudicação** é providência de encerramento prevista no art. 71, IV;
-- não memorize adjudicação como “fase 8 posterior à homologação”.
+**Armadilha C/E:** adjudicação é providência de encerramento, **não oitava fase posterior à homologação**. Outra armadilha: tratar **revogação** (por motivo superveniente relevante, nos termos do art. 71) como sinônimo de **anulação** (por ilegalidade insanável).
 
 ## Dispensa × inexigibilidade
 

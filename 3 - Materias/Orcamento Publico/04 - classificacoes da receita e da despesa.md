@@ -17,13 +17,13 @@ aliases:
 
 ## Problema de entrada
 
-Uma universidade federal comprará computadores para um laboratório. A despesa pode ser identificada pela **unidade orçamentária**, pela **função de governo**, pelo **programa e ação**, pela **categoria econômica**, pelo **grupo de natureza da despesa**, pelo **elemento**, pela **fonte dos recursos** e pelo **valor e meta física**. Essas classificações convivem: cada uma responde a uma pergunta.
+Uma universidade federal precisa comprar computadores para seu laboratório. Antes de gastar, seu orçamento informa **qual unidade recebeu autorização para gastar**, **qual atividade será atendida**, **que bem será comprado** e **de onde virão os recursos**. O poder público registra essas informações por meio de classificações orçamentárias. Cada uma responde a uma pergunta e, juntas, permitem acompanhar o gasto.
 
-A prova pode informar corretamente que se trata de uma despesa de investimento e perguntar, equivocadamente, se isso determina a função Educação ou o órgão responsável. A natureza **não** responde à pergunta institucional. O objetivo deste artigo é impedir a transposição de uma categoria para outra.
+Por exemplo, comprar computadores permanentes costuma ser classificado no **Grupo de Natureza de Despesa (GND) Investimentos**, que informa o tipo de gasto. Isso não define, por si só, a **função**, isto é, a área de atuação do governo, nem a **unidade orçamentária**, responsável pela dotação. A universidade pode usar os equipamentos na área de Educação; outro órgão pode comprá-los para a área de Saúde.
 
 ## Núcleo do conceito
 
-As classificações orçamentárias padronizam os registros e a apresentação da **receita e da despesa** para planejamento, autorização, execução e controle. Um mesmo ingresso pode ser descrito por **natureza**, **fonte/destinação** e **indicador de resultado primário**. Uma despesa também recebe classificações independentes por esfera, instituição, função, programa e natureza.
+As classificações orçamentárias organizam dois conjuntos de informações: a **receita**, ou recursos que entram na execução do orçamento, e a **despesa**, ou o uso autorizado desses recursos. Para a receita, a **natureza** indica que operação gerou o ingresso; a **fonte/destinação** identifica as regras que orientam sua utilização; e o **indicador de resultado primário** mostra se o ingresso participa do cálculo fiscal que, em linhas gerais, confronta receitas e despesas primárias. Para a despesa, classificações diferentes informam o orçamento ao qual pertence, o órgão responsável, a área atendida, a ação realizada e o tipo de gasto.
 
 O **Manual Técnico de Orçamento (MTO)** é a referência da estrutura federal e o **Manual de Contabilidade Aplicada ao Setor Público (MCASP)** organiza procedimentos contábeis orçamentários do setor público. As tabelas de códigos dependem da versão do exercício. A ênfase desta nota é compreender os **critérios de classificação**, antes de memorizar códigos.
 
@@ -33,18 +33,18 @@ O ponto de partida é reconhecer **a pergunta que cada conjunto de classificaç�
 
 | Conjunto | Pergunta que responde | Exemplo na prefeitura |
 | :--- | :--- | :--- |
-| **Tratamento do ingresso** | O dinheiro integra a receita do orçamento? | Operação de crédito comum: sim; ARO: ingresso extraorçamentário |
-| **Natureza da receita** | Que operação gerou o ingresso? | IPTU: corrente, impostos; venda de terreno: capital, alienação |
+| **Tratamento do ingresso** | O dinheiro integra a receita do orçamento? | Empréstimo comum: sim; antecipação de receita orçamentária (ARO), usada para falta temporária de caixa: não |
+| **Natureza da receita** | Que operação gerou o ingresso? | Imposto Predial e Territorial Urbano (IPTU): receita corrente, impostos; venda de terreno: receita de capital, alienação de bens |
 | **Fonte/destinação** | Quais regras controlam a aplicação do recurso? | A venda do terreno está sujeita às restrições legais de uso |
 | **Resultado primário** | O ingresso conta como receita primária? | IPTU: primária; empréstimo comum: financeira |
 | **Institucional da despesa** | Em qual órgão e unidade a dotação está alocada? | Secretaria de Educação e respectiva unidade orçamentária |
 | **Funcional da despesa** | Em qual área e segmento o gasto se insere? | Educação e Ensino Fundamental |
 | **Programática da despesa** | Qual ação governamental será realizada? | Projeto de ampliação da escola |
-| **Natureza da despesa** | Qual é o grupo, a forma de aplicação e o objeto do gasto? | Investimentos, aplicações diretas, obras e instalações |
+| **Natureza da despesa** | Qual é o grupo, quem aplicará os recursos e qual objeto será pago? | GND Investimentos, aplicação direta pelo órgão, obras e instalações |
 | **Esfera da LOA** | Em qual orçamento se encontra a despesa? | A obra de escola municipal integra o orçamento fiscal |
-| **Dimensões física e financeira** | O que será entregue e quanto foi autorizado? | Seis salas e dotação de R$ 1,5 milhão |
+| **Dimensões física e financeira** | Qual entrega está prevista e quanto pode ser gasto? | Construir seis salas; dotação (valor autorizado) de R$ 1,5 milhão |
 
-**Como ler:** as linhas são lentes independentes. Dentro de uma lente, como a natureza da despesa, há uma hierarquia própria; *entre* lentes não existe hierarquia. O caso da prefeitura será reutilizado nas seções seguintes, variando uma condição por vez.
+**Como ler:** examine uma linha por vez. A classificação institucional responde **quem recebeu a dotação**; a funcional, **qual área de atuação**; a programática, **qual ação será realizada**; a natureza, **qual tipo de gasto**. Dentro de uma classificação podem existir níveis, como categoria econômica, GND e elemento na natureza da despesa. Uma classificação não é nível da outra.
 
 ## Por que são vários conjuntos e não uma única hierarquia?
 
@@ -52,7 +52,7 @@ O ponto de entrada é **escolher a pergunta**. Só depois de escolhida a pergunt
 
 **Mesmo caso, três lentes:** a prefeitura toma um empréstimo comum para construir escola. Pela **natureza**, o ingresso é receita de capital, operação de crédito; pelo **resultado fiscal**, é receita financeira; pela **fonte/destinação**, importam as regras que disciplinam sua aplicação. Se a prefeitura contrair uma **antecipação de receita orçamentária (ARO)** para falta temporária de caixa, altera-se **o tratamento do ingresso**: ele é extraorçamentário. Se vender um terreno, a natureza passa a ser alienação de bens e a receita é, em regra, **primária**, mas persiste a necessidade de observar a destinação legal.
 
-Na despesa da escola, a **classificação institucional** aponta a unidade responsável, a **programática** identifica projeto/ação e a **natureza** distingue grupos e objetos de gasto. A mesma ação pode ter mais de um GND. **Dentro** de natureza existem níveis; **entre** institucional, programática e natureza existem critérios paralelos.
+Na despesa da escola, a **classificação institucional** aponta a unidade responsável, a **programática** identifica projeto/ação e a **natureza** distingue grupos e objetos de gasto. A mesma ação pode reunir despesas de mais de um **Grupo de Natureza de Despesa (GND)**. **Dentro** de natureza existem níveis; **entre** institucional, programática e natureza existem critérios paralelos.
 
 Para estudar os níveis sem misturá-los, avance pelas notas especializadas: [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]] e [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]]. Este artigo mantém o **mapa transversal**, os exemplos que cruzam conjuntos e os endereços dos títulos antigos.
 
@@ -72,9 +72,9 @@ Considere um município que arrecada **R$ 500 mil de IPTU**, contrai **R$ 200 mi
 | :--- | :--- | :--- | :--- |
 | IPTU de R$ 500 mil | Receita corrente, impostos | Em regra, receita primária | Examinar a fonte correspondente e as vinculações constitucionais e legais |
 | Empréstimo comum de R$ 200 mil | Receita de capital, operação de crédito | Receita financeira, excluída do resultado primário | Identificar a fonte e as regras aplicáveis à operação |
-| Venda de terreno por R$ 100 mil | Receita de capital, alienação de bens | Em regra, receita primária | Observar, inclusive, a restrição do art. 44 da LRF ao uso para despesas correntes, ressalvada a hipótese legal |
+| Venda de terreno por R$ 100 mil | Receita de capital, alienação de bens | Em regra, receita primária | O art. 44 da Lei de Responsabilidade Fiscal (LRF) veda, em regra, empregar essa receita para financiar despesa corrente; admite a destinação legal aos regimes de previdência social |
 
-**Conferência numérica:** dos R$ 800 mil de ingressos orçamentários, **R$ 600 mil** integram as receitas primárias neste caso simplificado; **R$ 200 mil** são receita financeira. Isso **não equivale ao resultado primário**, que exige confrontar receitas e despesas primárias no período, com os critérios fiscais aplicáveis. Também não significa que os R$ 600 mil tenham destinação livre.
+**Conferência numérica:** R$ 500 mil de IPTU + R$ 100 mil de venda do terreno = **R$ 600 mil de receitas primárias**. Somados aos **R$ 200 mil de receita financeira** do empréstimo, chegam aos **R$ 800 mil de ingressos orçamentários** do exemplo. Os R$ 600 mil não são o **resultado primário**: para obtê-lo, ainda seria preciso descontar as despesas primárias, segundo a metodologia fiscal aplicável. Também não significa que os R$ 600 mil possam ser gastos livremente.
 
 Agora suponha que o município autorize **R$ 300 mil** para equipar uma escola e empenhe **R$ 120 mil**. A dotação autorizada e o empenho são montantes de **momentos diferentes**; a diferença de **R$ 180 mil** ainda não representa economia definitiva, dinheiro disponível nem autorização automática para pagar. Na descrição da despesa, a função Educação, o programa e a ação, o GND Investimentos, o elemento de despesa pertinente e a fonte de recursos respondem a perguntas independentes. **GND Investimentos** tampouco coloca a despesa no orçamento de investimento das estatais.
 
@@ -90,7 +90,7 @@ A presença dessas distinções no artigo é preparação pedagógica; a frequê
 
 Um relatório informa: “Órgão Ministério da Educação, função Educação, ação Implantação de Laboratórios, GND Investimentos, elemento Equipamentos, fonte X”. Não há redundância: as classificações identificam **quem**, **área**, **programação**, **grupo e objeto do gasto** e **fonte de financiamento**.
 
-Uma receita de aluguel público é **corrente patrimonial** e pode ser chamada de **originária** na classificação doutrinária. O vínculo de aplicação exige examinar a fonte/destinação aplicável; ele não decorre apenas da origem econômica.
+Se o município recebe aluguel de um imóvel público, a **natureza da receita** é, em regra, corrente patrimonial. Na classificação doutrinária, trata-se de receita **originária**, porque resulta da exploração do patrimônio público, e não de cobrança compulsória de tributo. Para saber em que despesas o valor pode ser utilizado, ainda é preciso verificar sua **fonte/destinação**: a origem econômica não resolve essa outra pergunta.
 
 ## Questões comentadas: treino didático C/E
 
@@ -108,15 +108,15 @@ Responda aos itens antes de consultar o gabarito ao final deste bloco. Os cenár
 
 ### Gabarito comentado
 
-**1. Errado.** A classificação funcional admite matricialidade entre função e subfunção, respeitadas as regras pertinentes.
+**1. Errado.** A **função** indica uma área ampla de atuação do governo e a **subfunção** detalha um segmento da atividade. Em regra, uma subfunção pode combinar-se com função diferente daquela a que normalmente está associada: essa possibilidade é chamada **matricialidade**. Há regras específicas para determinadas classificações, portanto a combinação não é irrestrita. O item erra ao afirmar que ela nunca ocorre.
 
-**2. Certo.** Fonte/destinação e natureza são classificadores distintos. A fonte vincula ingressos às regras de aplicação e também acompanha a despesa.
+**2. Certo.** A natureza explica **por qual operação o dinheiro entrou**; a fonte/destinação permite acompanhar **quais regras condicionam seu uso**, inclusive quando o valor financia uma despesa. Uma receita classificada como imposto, por exemplo, ainda precisa ter sua fonte identificada.
 
-**3. Errado.** GND é nível da natureza da despesa; função e unidade são identificadas por classificações funcional e institucional.
+**3. Errado.** O GND Investimentos diz respeito ao **tipo econômico do gasto**, como aquisição de equipamentos permanentes. A função depende da área de atuação (por exemplo, Saúde ou Educação); a unidade orçamentária identifica **quem recebeu a dotação**. O GND não revela essas duas informações.
 
-**4. Errado.** O GND Investimentos é um grupo econômico da natureza da despesa. Uma universidade federal, em regra, integra o orçamento fiscal, mesmo ao comprar equipamentos ou construir um laboratório.
+**4. Errado.** **GND Investimentos** é uma classificação por natureza da despesa. **Orçamento de investimento das estatais** é uma das esferas da Lei Orçamentária Anual (LOA) federal, voltada às empresas estatais abrangidas por esse orçamento. Uma universidade federal não se transforma em estatal porque compra equipamentos: essa aquisição se realiza, em regra, no orçamento fiscal.
 
-**5. Certo.** Institucional responde por órgão/unidade; programática, por programa/ação. O exemplo não presume qualquer código oficial.
+**5. Certo.** O ministério e a unidade orçamentária informam **quem responde pela dotação**: classificação institucional. O programa e a ação informam **qual política e qual atividade serão executadas**: classificação programática. Nenhuma dessas informações, isoladamente, determina o tipo econômico da despesa.
 
 Itens inéditos didáticos; não equivalem a prova real e não geram desempenho.
 
@@ -130,15 +130,13 @@ Na receita, **origem** é natureza; **aplicação permitida** é fonte; **efeito
 
 - [[3 - Materias/Orcamento Publico/04a - classificacao da receita|Classificação da receita: natureza, fonte e resultado primário]]: operação de crédito comum × ARO, corrente × capital, originária × derivada, natureza × destinação e primária × financeira.
 - [[3 - Materias/Orcamento Publico/04b - classificacao da despesa|Classificação da despesa: esfera, função, programa e natureza]]: esfera, órgão/unidade, função/subfunção, programa/ação, GND/modalidade/elemento e meta física.
-
-
 - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios orçamentários]]: discriminação e orçamento bruto.
 - [[3 - Materias/Orcamento Publico/05 - creditos adicionais e emendas parlamentares|Créditos adicionais e emendas]]: dotação, natureza e fontes para suplementação.
 - [[3 - Materias/Contabilidade Publica/contabilidade-publica|Contabilidade Pública]]: diferença entre classificação orçamentária e registro patrimonial.
 
 Fontes: [LRF, art. 2º, II e III](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm), [Manual Técnico do Orçamento de Investimento 2026, item 5.1](https://www.gov.br/gestao/pt-br/assuntos/estatais/orcamento/MTOI_2026.pdf), [MTO, edição 2026, Secretaria de Orçamento Federal](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2026), [MTO, estrutura funcional/programática e matricialidade](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto:cap4), [MCASP, 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1), [Lei nº 4.320/1964, arts. 11 e 12](https://legis.senado.leg.br/norma/546169/publicacao/34620275), [Lei de Responsabilidade Fiscal, art. 44](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm).
 
-**Limite editorial:** a estrutura conceitual é reutilizável, mas códigos de natureza, fonte e elemento exigem a versão vigente do exercício. Estágios de receita e despesa terão artigos próprios. Publicar não significa estudar.
+**Âmbito e atualização:** a Lei nº 4.320/1964 e o MCASP 11ª edição fornecem regras gerais e orientações para os entes federativos. O MTO detalha a classificação do orçamento federal, com códigos que exigem consulta à versão do exercício. Os estágios da receita e da despesa são explicados nos artigos 07 e 08. Este texto é material de estudo e não registra desempenho individual.
 
 ## Títulos preservados para links antigos
 

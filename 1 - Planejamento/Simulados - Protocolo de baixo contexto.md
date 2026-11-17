@@ -96,3 +96,14 @@ O exemplo descreve transporte e **não** substitui os modelos canônicos; a estr
 - **Etapa B, piloto de leitura leve:** mapear corpus real, seletores existentes e fazer bateria comparável sem releituras redundantes.
 - **Etapa C, persistência parcial:** desenvolver checkpoint idempotente no cofre privado, com validação e teste de retomada.
 - **Etapa D, interface de seleção e correção:** avaliar endpoint/CLI e possível redução das explicações para acertos seguros, mediante revisão explícita de `CHAT.md` e `AGENTS.md`.
+
+
+## Auditoria adicional: infraestrutura já disponível
+
+O código `web/15-questoes-ui.js` confirma que o site **já seleciona questões reais do banco público revisado** em `data/questoes-publicas.json`, com `data.questions` (`id`, `concursoId`, `subjectId`, `unitId`, `estimatedDifficulty`, `statement`, `correctAnswer`, `explanation`). O site tem `choose(n)`, que busca preferencialmente itens ainda não respondidos neste navegador, distribui matérias e usa filtro de dificuldade. É a fonte mais adequada para um primeiro piloto de seleção no chat, desde que se confirme cobertura, atualização e compatibilidade de metadados com o cofre.
+
+O site também cria `session.id` por UUID, preserva `ids`, `answers` e `finishedAt` no `localStorage`, retoma sessão ativa pelo identificador local e envia cada tentativa individual a `POST /v1/study/quiz` no ambiente autenticado. Portanto, **já existe checkpoint no navegador**, mas isso não prova retomada entre dispositivos ou entre conversas do ChatGPT. Em GitHub Pages, sem origem autenticada, o código informa que só grava no navegador. A consolidação do chat no cofre privado continua sendo outro caminho.
+
+**Decisão técnica ajustada:** construir primeiro um adaptador de leitura entre o banco público revisado e as sessões do chat, sem alterar o armazenamento das respostas. Antes de escrever esse adaptador, verificar a forma publicada de `data/questoes-publicas.json` e seu processo de geração. Em particular, o site contém gabaritos públicos para correção local; um endpoint autenticado que esconda o gabarito pode melhorar o controle de apresentação, mas é uma evolução e não uma propriedade atual.
+
+**Teste de integração proposto:** selecionar dez `questionId` do banco revisado, garantir `subjectId`, `unitId`, `examPart` e `editalRef` verificáveis, aplicar dez no chat sem reler o banco, salvar uma sessão de dez respostas apenas no cofre privado e checar o painel unificado. Evitar enviar as mesmas tentativas também pelo endpoint do site, a menos que compartilhem ID de origem rastreável e haja garantia de deduplicação.

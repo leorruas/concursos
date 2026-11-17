@@ -278,3 +278,13 @@ A presente branch solicita nova execução do workflow de validação PR sobre o
 **Escopo comprovado:** o estado da branch continha cinco notas da CGU com **57 itens C/E**, incluindo o acréscimo da distinção de regime do Orçamento de Investimento (art. 52, §§ 10-12, LDO 2026). Os 57 itens foram verificados por sequência e presença de gabarito na main; as normas centrais de LDO 2026 e Decreto 12.500/2025 foram cotejadas nos pontos focalmente alterados. O sucesso do workflow não certifica automaticamente o conteúdo doutrinário e não equivale ao deploy do último HEAD no GitHub Pages.
 
 **Próximos gates:** (1) comprovar execução de Pages e correspondência do manifesto e do catálogo servidos ao commit integrado mais recente; (2) concluir confronto jurídico/didático integral por artigo, com fontes e tabelas, não só enunciados; (3) formalizar certificação por `articleId` e SHA, quando houver as provas. **Certificados finais: 0/5**, por falta de evidência suficiente dos dois gates. A issue #362 segue aberta e rastreia o Pages.
+
+## Proteção automatizada contra regressão: 17/11/2026
+
+**PR [#366](https://github.com/leorruas/concursos/pull/366) integrado à main** por squash, commit `aa5e6e00aaafdc7e10bbedcd1a69995306fa9ab9`. Workflow `Validar site público (PR)`, execução [44174763880](https://github.com/leorruas/concursos/actions/runs/44174763880), HEAD `e7a5cfe5eb95ab82ddaef06868e6a070566ade84`, conclusão **success**.
+
+O teste `scripts/test-contest-catalog.js` agora exige explicitamente a identidade do artigo PPA da CGU e a presença dos outros quatro IDs exclusivos no currículo CGU, sem retorno acidental dos seus IDs históricos ao mesmo catálogo. Simultaneamente, protege a permanência dos quatro artigos históricos na lista da Câmara, sem inclusão indevida dos derivados CGU. O teste também verifica que os flashcards do orçamento CGU não retornem aos IDs antigos e que a presença dos vínculos próprios de ciclo e princípios não seja perdida. O validador canônico `scripts/validate-flashcards.js` continua a verificar a existência das seções referenciadas nos artigos.
+
+**O que essa evidência cobre:** identidade, pertencimento ao concurso, compatibilidade histórica e regressão da navegação/flashcards verificados pelo CI. **Não cobre:** verificação visual, conteúdo jurídico integral, publicação no Pages em produção. A separação técnica está mais protegida, mas a **certificação editorial continua 0/5**. Os cinco capítulos CGU mantêm **57 itens C/E**, IDs próprios e a arquitetura implantada.
+
+**Pages:** tentativas de leitura pública de `/manifest.json` e `/data/catalogo-materias-por-concurso.json` não retornaram conteúdo acessível pelo mecanismo disponível. Não inferir sucesso de deploy a partir de CI de pull request.

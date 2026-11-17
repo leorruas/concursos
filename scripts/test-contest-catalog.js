@@ -61,6 +61,28 @@ for (const id of originaisCamara) {
   assert.ok(orcCamara.articleIds.includes(id), 'Artigo historico Camara removido: '+id);
   assert.ok(!orcCGU.articleIds.includes(id), 'Artigo historico Camara retornou ao catalogo CGU: '+id);
 }
+// Integridade de navegação Markdown dos quinze artigos exclusivos CGU.
+// Links históricos explícitos de origem/comparação são permitidos, mas destinos inexistentes não.
+const diretorioOrcamento = path.join(root, '3 - Materias/Orcamento Publico');
+const arquivosCGU = fs.readdirSync(diretorioOrcamento)
+  .filter(nome => nome.startsWith('CGU 2026 - ') && nome.endsWith('.md'));
+assert.equal(arquivosCGU.length, 15, 'A trilha CGU deve manter exatamente quinze artigos próprios');
+let linksConferidos = 0;
+for (const nome of arquivosCGU) {
+  const texto = fs.readFileSync(path.join(diretorioOrcamento, nome), 'utf8');
+  for (const match of texto.matchAll(/\\[\\[([^\\]]+)\\]\\]/g)) {
+    const destino = match[1].split('|')[0].split('#')[0].trim();
+    if (!destino.startsWith('3 - Materias/')) continue;
+    const arquivo = destino.endsWith('.md') ? destino : destino + '.md';
+    assert.ok(fs.existsSync(path.join(root, arquivo)),
+      'Link interno inexistente em ' + nome + ': ' + destino);
+    linksConferidos++;
+  }
+}
+assert.ok(linksConferidos >= 15, 'Os capítulos CGU perderam links internos de estudo');
+console.log('SUCESSO: ' + arquivosCGU.length +
+  ' artigos CGU com ' + linksConferidos + ' wikilinks internos válidos.');
+
 const cards = carregar('data/flashcards.json').cards;
 const legadosNoCartaoCGU = cards.filter(card => card.examIds.includes('cgu-2026') &&
   originaisCamara.includes(card.note?.articleId));

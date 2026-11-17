@@ -31,6 +31,7 @@ A sequência abaixo usa versões próprias da **CGU 2026, Auditoria**, sem trans
 - [[3 - Materias/Orcamento Publico/CGU 2026 - receitas publicas registros e evidencias|CGU 2026: receitas públicas, registros e evidências]]: lançamento, arrecadação, recolhimento e conciliação
 - [[3 - Materias/Orcamento Publico/CGU 2026 - despesa empenho liquidacao e evidencias|CGU 2026: despesa pública, empenho, liquidação e evidências]]: execução, ateste, pagamento e controles
 - [[3 - Materias/Orcamento Publico/CGU 2026 - restos a pagar dea e suprimento de fundos|CGU 2026: restos a pagar, DEA e suprimento de fundos]]: saldos, inscrição, reconhecimento e prestação de contas
+- [[3 - Materias/Orcamento Publico/CGU 2026 - conta unica e execucao financeira|CGU 2026: Conta Única e execução financeira]]: crédito, recursos, SIAFI e rastreabilidade
 
 A lista histórica de leitura e os apontamentos CAM-ORC abaixo são preservados por compatibilidade. Essa inclusão de navegação deve ser homologada pela coordenação com testes de identidade, catálogo e Pages, antes de certificar os artigos CGU.
 

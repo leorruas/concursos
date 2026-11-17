@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: quatorze-certificados-um-em-revalidacao
+status: quinze-certificados-com-ressalva-visual-cinco-legados-pendentes
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -544,3 +544,13 @@ No artigo `art-83d7c5ef2a0b4916`, conferidos **10 de 10 itens C/E e suas justifi
 O artigo CGU `art-c85e29a3741f40bd` recebeu seção nova para explicar **cancelamento de RP × receita nova** e **restituição de suprimento no mesmo exercício × exercício seguinte**. SHA do novo blob: `4bf85158d6448c67cf11974232c880e7c2527780`, substituindo o anteriormente certificado `010fd0cb46f9e39f2fbd5b465a993e684aaa5f37`. A certificação editorial anterior fica **suspensa para o novo blob** até segunda leitura e CI/Pages. Trechos foram baseados no MCASP 11ª edição e na discussão já publicada no artigo histórico da Câmara, sem alterar este último.
 
 Migrados nove cartões exclusivamente CGU (`restos-pagar`, `rp-processados`, `rp-nao-processados`, `dea`, `suprimento`, `desembolso-extra`, `cont-rp-vs-dea`, `cont-cancelamento-rp`, `cont-suprimento-restituicao`), com remapeamento de `note.section` para headings efetivos do derivado, e 11 verbetes exclusivamente CGU (`glo-restos-a-pagar-processados`, `glo-restos-a-pagar-nao-processados`, `glo-despesas-de-exercicios-anteriores`, `glo-restos-a-pagar-nao-processados-a-liquidar`, `glo-restos-a-pagar-nao-processados-em-liquidacao`, `glo-suprimento-de-fundos`, `glo-inscricao-em-restos-a-pagar`, `glo-cancelamento-de-restos-a-pagar`, `glo-pagamento-de-restos-a-pagar`, `glo-disponibilidade-de-caixa`, `glo-desembolso-extraorcamentario`) em três glossários. O catálogo CGU deixou de apontar para o ID histórico `art-6e4e79c7f4bb4aa3`, preservado no catálogo Câmara. Executar validações de flashcards, glossários, IDs, build, Pages e nova leitura didática antes de restaurar o placar 15/15. O banco de questões da Câmara permaneceu intocado.
+
+## Revalidação concluída de restos a pagar após migração (17/11/2026)
+
+**Artigo:** `art-c85e29a3741f40bd`, blob **`4bf85158d6448c67cf11974232c880e7c2527780`**. A seção nova diferencia cancelamento de restos a pagar segundo o MCASP 11ª edição e literalidade do art. 38 da Lei nº 4.320/1964, e distingue a devolução de numerário de suprimento no mesmo exercício e no seguinte. A segunda leitura comparou os conceitos ao artigo histórico 09, aos cartões `cont-cancelamento-rp` e `cont-suprimento-restituicao` e às fontes citadas. Os dez itens C/E originais, seus gabaritos, tabelas e demais seções foram preservados, com nove cartões CGU remapeados a headings existentes e 11 verbetes de glossário redirecionados.
+
+**Prova técnica e publicação:** workflow [44191434108](https://github.com/leorruas/concursos/actions/runs/44191434108), commit `f52d9d7e0ae43ac0e048dbe155aa63e67eaf4775`, conclusão `success`, incluindo **Testar definições, filtros e rotas do glossário CGU**, **Publicar no Pages** e **Confirmar catálogo publicado no Pages**. O blob deste artigo não foi modificado entre a migração e o SHA validado. A falha anterior em teste CommonJS foi corrigida no mesmo commit, sem alteração do artigo.
+
+**Estado do artigo:** **revisão integral concluída com ressalva visual** para o novo blob. A inspeção manual individual de responsividade, cores, tabelas, âncoras e acessibilidade no navegador continua não realizada. A certificação do conteúdo e o sucesso de publicação não eliminam essa ressalva.
+
+**Placar restaurado:** **15/15 artigos CGU com revisão integral concluída com ressalva visual**. As cinco associações legadas ainda compartilhadas entre CGU e Câmara são classificações de receita (04a) e despesa (04b), receitas (07), despesas (08) e responsabilidade fiscal (11). Além delas há um ID transversal de Atualidades preservado. O banco de questões da Câmara, os históricos da Câmara e o EPUB continuam inalterados.

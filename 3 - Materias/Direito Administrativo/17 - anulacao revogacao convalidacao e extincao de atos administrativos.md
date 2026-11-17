@@ -50,6 +50,8 @@ A declaração de nulidade atinge o ato desde a sua origem fática, operando efe
 - **Ressalva à retroatividade (proteção de terceiros de boa-fé):** em reverência aos princípios da boa-fé, da confiança legítima e da segurança jurídica, a jurisprudência consolidada do STF e do STJ preserva os efeitos práticos produzidos pelo ato nulo em favor de terceiros que tenham atuado imbuídos de boa-fé (ex.: atos praticados por funcionário de fato ou vencimentos percebidos de boa-fé por servidor nomeado com base em critério posteriormente invalidado).
 
 ### Limites à anulação: prazo decadencial de 5 anos (art. 54 da Lei nº 9.784/1999)
+
+#### 1.3. Limites à anulação: prazo decadencial de 5 anos (art. 54 da Lei nº 9.784/1999)
 A autotutela anulatória não é perpétua nem ilimitada no tempo:
 > *"O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé."* (art. 54, *caput*).
 

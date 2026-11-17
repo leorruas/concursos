@@ -2343,6 +2343,181 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da11-autotutela-anular-revogar",
+      "term": "Autotutela: anulação e revogação",
+      "aliases": [],
+      "definition": "A Administração revê seus atos: anula os ilegais e revoga os válidos, quando houver mérito administrativo e respeito aos limites jurídicos.",
+      "contrast": "O Judiciário pode anular ilegalidade, mas não revoga ato por mera discordância sobre conveniência; Súmulas STF 346 e 473.",
+      "cebraspeTrap": "Dizer que qualquer vício leva à revogação.",
+      "example": "Ato ilegal favorável pode exigir processo e respeito à decadência antes de ser anulado.",
+      "articleIds": [
+        "art-cbd0b4285d514319"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, Lei nº 9.784/1999 ou jurisprudência STF indicada",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da11-tcu-parecer-contas-presidente",
+      "term": "Parecer prévio do TCU e julgamento das contas presidenciais",
+      "aliases": [],
+      "definition": "O TCU aprecia as contas anuais do Presidente e emite parecer prévio (CF art. 71, I); cabe ao Congresso Nacional julgá-las (art. 49, IX).",
+      "contrast": "O TCU julga contas de administradores e responsáveis por recursos federais nas hipóteses do art. 71, II.",
+      "cebraspeTrap": "Afirmar que o TCU julga definitivamente as contas anuais presidenciais.",
+      "example": "O parecer sobre contas do Presidente é submetido ao julgamento pelo Congresso.",
+      "articleIds": [
+        "art-cbd0b4285d514319"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, Lei nº 9.784/1999 ou jurisprudência STF indicada",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/constituicao-federal/index.html/CF1988.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da11-controle-interno-externo",
+      "term": "Controle interno e controle externo constitucionais",
+      "aliases": [],
+      "definition": "Cada Poder mantém controle interno (CF art. 74), enquanto o Congresso exerce controle externo federal com auxílio do TCU (arts. 70 e 71).",
+      "contrast": "Controle interno não é monopólio do Executivo nem órgão hierarquicamente inferior ao TCU.",
+      "cebraspeTrap": "Dizer que o Legislativo não tem sistema próprio de controle interno.",
+      "example": "Controle interno da Câmara auxilia a fiscalização externa sem virar unidade do TCU.",
+      "articleIds": [
+        "art-cbd0b4285d514319"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, Lei nº 9.784/1999 ou jurisprudência STF indicada",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/constituicao-federal/index.html/CF1988.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da11-tcu-sustacao-contratos",
+      "term": "Sustação de atos e contratos no controle externo",
+      "aliases": [],
+      "definition": "A CF art. 71, X, permite ao TCU sustar execução de ato impugnado após providências legais; para contratos, a sustação cabe diretamente ao Congresso, com procedimento dos §§ 1º e 2º.",
+      "contrast": "Não aplicar ao contrato o mesmo caminho da sustação direta de ato.",
+      "cebraspeTrap": "Afirmar que o TCU susta sozinho qualquer contrato na primeira constatação de irregularidade.",
+      "example": "Contrato irregular exige seguir procedimento constitucional de comunicação e sustação.",
+      "articleIds": [
+        "art-cbd0b4285d514319"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, Lei nº 9.784/1999 ou jurisprudência STF indicada",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/constituicao-federal/index.html/CF1988.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da11-tema-445-contas",
+      "term": "Tema 445 do STF: prazo de registro de aposentadoria",
+      "aliases": [],
+      "definition": "O STF fixou prazo de cinco anos para Tribunais de Contas julgarem legalidade da concessão inicial de aposentadoria, reforma ou pensão, contado da chegada do processo à Corte de Contas.",
+      "contrast": "Não é o mesmo prazo da decadência administrativa do art. 54 da Lei nº 9.784/1999; marcos e objetos distintos.",
+      "cebraspeTrap": "Contar cinco anos da assinatura do ato de concessão sem considerar sua chegada ao TCU.",
+      "example": "Aposentadoria chega à Corte dois anos após ato: marco do Tema 445 é a chegada.",
+      "articleIds": [
+        "art-cbd0b4285d514319"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, Lei nº 9.784/1999 ou jurisprudência STF indicada",
+          "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=437550&ori=1"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da11-controle-judicial-merito",
+      "term": "Controle judicial da juridicidade e mérito administrativo",
+      "aliases": [],
+      "definition": "O Judiciário examina legalidade, finalidade, proporcionalidade e limites jurídicos dos atos, inclusive discricionários, mas não substitui opção válida por preferência própria.",
+      "contrast": "Anulação judicial de ato por desvio de finalidade não equivale a revogação administrativa por conveniência.",
+      "cebraspeTrap": "Afirmar que qualquer ato discricionário é imune a controle judicial.",
+      "example": "Juiz anula seleção por discriminação ilícita; não escolhe fornecedor por preferência pessoal.",
+      "articleIds": [
+        "art-cbd0b4285d514319"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, Lei nº 9.784/1999 ou jurisprudência STF indicada",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/constituicao-federal/index.html/CF1988.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da11-supervisao-vinculacao",
+      "term": "Supervisão finalística e hierarquia administrativa",
+      "aliases": [],
+      "definition": "Órgão da Administração Direta exerce controle finalístico sobre entidades vinculadas da Administração Indireta nos limites legais, sem hierarquia geral entre pessoas jurídicas distintas.",
+      "contrast": "Hierarquia existe entre órgãos na mesma estrutura; vinculação não autoriza ordens ilimitadas a autarquia.",
+      "cebraspeTrap": "Afirmar que ministro é superior hierárquico genérico de presidente de autarquia.",
+      "example": "Ministério monitora resultados de autarquia segundo lei, mas não substitui automaticamente seus atos.",
+      "articleIds": [
+        "art-cbd0b4285d514319"
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, Lei nº 9.784/1999 ou jurisprudência STF indicada",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/constituicao-federal/index.html/CF1988.html"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

@@ -7,8 +7,8 @@ subjectId: "direito-administrativo"
 topicId: "processo-administrativo"
 trackId: "direito-administrativo"
 created: "2026-11-09"
-updated: "2026-11-13"
-revision: 5
+updated: "2026-11-16"
+revision: 6
 status: "published"
 confidenceLevel: "high"
 importanceLevel: "critical"
@@ -30,7 +30,7 @@ Este artigo explica quatro mecanismos: afastamento de quem não deve atuar no pr
 
 ## 1. Imparcialidade processual: impedimento versus suspeição
 
-Para assegurar a moralidade e a impessoalidade da Administração Pública, a Lei nº 9.784/1999 estabelece hipóteses em que o servidor ou autoridade deve afastar-se da instrução e do julgamento do processo administrativo.
+Uma servidora recebe para análise um processo que envolve empresa da qual é sócia. Outro servidor recebe processo de pessoa com quem mantém amizade íntima. Nos dois casos, a imparcialidade está em questão, mas a Lei nº 9.784/1999 cria **dois mecanismos diferentes**: o **impedimento**, ligado a situações objetivas e que deve ser comunicado pelo agente (arts. 18 e 19), e a **suspeição**, que pode ser arguida por amizade íntima ou inimizade notória (arts. 20 e 21). Para resolver itens C/E, identifique o fato e o efeito jurídico antes de memorizar os nomes.
 
 ```mermaid
 flowchart TD
@@ -54,7 +54,7 @@ flowchart TD
     IMPED -. "Omissão de Comunicação" .-> FALTA["Falta grave para fins disciplinares<br>(Art. 19)"]:::raiz
 ```
 
-### 1.1 Impedimento (art. 18): presunção absoluta e dever de abstenção
+### 1.1 Impedimento (art. 18): hipóteses legais e dever de abstenção
 
 O **impedimento** ocorre quando a lei identifica uma ligação concreta entre quem atua no processo e o assunto ou as pessoas envolvidas. A regra evita que alguém participe de uma decisão na qual tenha interesse próprio ou um vínculo previsto no art. 18. A lei exige o afastamento; não é necessário provar que a pessoa efetivamente favoreceu alguém. A Lei nº 9.784/1999 não afirma, nesses dispositivos, que todo ato praticado por impedido seja automaticamente insanável: as consequências para o ato exigem análise jurídica própria.
 
@@ -63,13 +63,13 @@ O **impedimento** ocorre quando a lei identifica uma ligação concreta entre qu
 2. Tenha participado ou venha a participar como perito, testemunha ou representante, ou se tais situações ocorrem quanto ao cônjuge, companheiro ou parentes e afins até o **terceiro grau**;
 3. Esteja litigando judicial ou administrativamente com o interessado ou respectivo cônjuge ou companheiro.
 
-- **Dever de comunicação e falta grave (art. 19):** a autoridade ou servidor que incorrer em impedimento deve **comunicar o fato** à autoridade competente, abstendo-se de atuar. A omissão do dever de comunicar o impedimento constitui **falta disciplinar grave**, para efeitos sancionatórios estatutários.
+- **Dever de comunicação e falta grave (art. 19):** a autoridade ou servidor impedido deve **comunicar o fato à autoridade competente e abster-se de atuar**. A omissão da comunicação constitui **falta grave para efeitos disciplinares**. A regra do art. 19 se refere especificamente ao impedimento; ela não diz que deixar de comunicar suspeição gera automaticamente a mesma falta grave.
 
-### 1.2 Suspeição (art. 20): presunção relativa e arguição
+### 1.2 Suspeição (art. 20): amizade, inimizade e arguição
 
 A **suspeição** permite questionar a imparcialidade quando há amizade íntima ou inimizade notória. Ao contrário do impedimento, o art. 20 usa a expressão **“pode ser arguida”**: o interessado pode apresentar a alegação, que precisa ser examinada. Por exemplo, conhecer uma pessoa apenas por trabalhar no mesmo prédio não prova amizade íntima: é necessário avaliar a natureza do vínculo.
 - Pode ser arguida a suspeição de autoridade ou servidor que tenha **amizade íntima** ou **inimizade notória** com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o **terceiro grau**;
-- O indeferimento da alegação de suspeição poderá ser objeto de recurso administrativo, porém **sem efeito suspensivo** (art. 21).
+- O **indeferimento** da alegação de suspeição pode ser recorrido, mas esse recurso **não tem efeito suspensivo** por força do art. 21. Exemplo: se a Administração rejeita a alegação, o processo não fica automaticamente paralisado apenas porque houve recurso. Compare com o art. 61, que também traz como regra geral a ausência de efeito suspensivo.
 
 ---
 
@@ -95,11 +95,11 @@ flowchart LR
     ROL --> H4["Dispensam ou declaram inexigibilidade de licitação"]:::opcao
     ROL --> H5["Decidem recursos administrativos"]:::opcao
     ROL --> H6["Decorrem de reexame de ofício"]:::opcao
-    ROL --> H7["Deixam de aplicar jurisprudência ou contrariam pareceres e laudos"]:::opcao
+    ROL --> H7["Deixam de aplicar jurisprudência firmada<br>ou divergem de pareceres, laudos e relatórios"]:::opcao
     ROL --> H8["Anulam, revogam, suspendem ou convalidam atos"]:::opcao
 ```
 
-### 2.1 Hipóteses taxativas de motivação obrigatória (art. 50, *caput*)
+### 2.1 Oito hipóteses expressas de motivação obrigatória (art. 50)
 
 Os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, quando:
 1. Neguem, limitem ou afetem direitos ou interesses;
@@ -111,14 +111,14 @@ Os atos administrativos deverão ser motivados, com indicação dos fatos e dos 
 7. Deixem de aplicar jurisprudência firmada sobre a questão ou contrariem pareceres, laudos, propostas e relatórios oficiais;
 8. Impliquem anulação (retirada por ilegalidade), revogação (retirada por conveniência ou oportunidade), suspensão ou convalidação (correção juridicamente possível de defeito) de ato administrativo.
 
-Essas são as **oito hipóteses do art. 50, incisos I a VIII**. Por exemplo, ao decidir um concurso público, a Administração precisa explicar os fatos e fundamentos jurídicos da decisão, ainda que ninguém tenha recorrido. O § 2º permite reproduzir fundamentos para vários assuntos semelhantes, desde que não prejudique direitos ou garantias; o § 3º exige registro em ata ou termo escrito para decisões colegiadas ou orais.
+Essas são as **oito hipóteses expressamente enumeradas no art. 50, incisos I a VIII**. A lista não significa que outros atos estejam sempre dispensados de fundamentação: o art. 2º também exige a indicação dos pressupostos de fato e de direito da decisão. Por exemplo, ao decidir um concurso público, a Administração deve explicar seus fundamentos mesmo sem recurso. O art. 50, § 2º, admite fundamentação reproduzida em assuntos da mesma natureza sem prejuízo de direitos ou garantias; o § 3º exige registro em ata ou termo escrito nas decisões de colegiados, comissões ou decisões orais.
 
 ### 2.2 Modalidades e técnica da motivação: motivação *per relationem* (art. 50, § 1º)
 
-A motivação deve ser expressa, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, propostas ou relatórios, que, neste caso, serão parte integrante do ato.
+A motivação deve ser **explícita, clara e congruente**. O art. 50, § 1º, autoriza a declaração de concordância com fundamentos de anteriores **pareceres, informações, decisões ou propostas**, que passam a integrar o ato. Note a enumeração legal: o dispositivo menciona “decisões”, e a referência a relatórios em outros contextos não deve ser apresentada como transcrição literal deste parágrafo.
 
 - Essa técnica é conhecida como **motivação por referência**, também chamada *per relationem*: a autoridade indica que concorda com razões já apresentadas em outro documento. Por exemplo, pode adotar os fundamentos de um parecer que explica por que um pedido não atende à regra aplicável;
-- Para ser válida, o parecer ou relatório adotado deve constar expressamente dos autos do processo e ser acessível ao administrado.
+- A referência deve permitir identificar os fundamentos efetivamente adotados e tornar possível o conhecimento e o controle da decisão. Uma fórmula vazia como “indefiro conforme parecer”, sem indicação suficiente para saber a razão, pode comprometer a motivação.
 
 ---
 
@@ -141,7 +141,7 @@ flowchart TD
     
     REC --> PRAZ["Prazos Gerais Legais"]:::criterio
     PRAZ --> INTERP["Interposição: 10 DIAS (Art. 59)"]:::opcao
-    PRAZ --> JULGA["Decisão do Recurso: 30 DIAS + 30 DIAS (Art. 59, §§ 2º e 3º)"]:::opcao
+    PRAZ --> JULGA["Decisão: 30 dias<br>+ prorrogação justificada de 30 (art. 59, §§ 1º e 2º)"]:::opcao
     
     REC --> EFET["Efeitos do Recurso (Art. 61)"]:::raiz
     EFET --> DEVOL["Regra Geral: Efeito apenas DEVOLUTIVO<br>(NÃO suspende a eficácia do ato impugnado)"]:::opcao
@@ -153,7 +153,7 @@ flowchart TD
 - **Prazo de interposição (art. 59):** salvo disposição legal específica, é de **10 (dez) dias** o prazo para a interposição de recurso administrativo, contado a partir da ciência ou divulgação oficial da decisão;
 - **Reconsideração prévia (art. 56, § 1º):** o recurso será dirigido à autoridade que proferiu a decisão. Se ela não a reconsiderar no prazo de **5 (cinco) dias**, o encaminhará à autoridade superior;
 - **Limite de instâncias recursais (art. 57):** o recurso tramitará no máximo por **3 (três) instâncias administrativas**, salvo disposição legal diversa;
-- **Prazo para julgamento (art. 59, §§ 2º e 3º):** quando não houver prazo diferente em lei, o órgão competente tem **até 30 (trinta) dias**, contados do recebimento dos autos, para decidir. Pode prorrogar por mais 30 dias, mas precisa justificar expressamente a prorrogação.
+- **Prazo para julgamento (art. 59, §§ 1º e 2º):** sem prazo diferente em lei, o órgão competente tem **até 30 dias**, contados do recebimento dos autos, para decidir o recurso, com possível prorrogação por **mais 30 dias**, mediante justificativa explícita. O caput do art. 59 trata de **interposição** (10 dias); os §§ 1º e 2º tratam de **decisão**.
 
 ### 3.2 Efeitos do recurso e a garantia da ampla defesa
 
@@ -162,7 +162,7 @@ Imagine que um órgão federal aplique uma multa de R$ 1.000 e a pessoa apresent
 O **efeito suspensivo** é outra coisa: significa que a execução dos efeitos da decisão fica suspensa enquanto esse efeito estiver em vigor. Pela regra do art. 61, apresentar recurso não produz essa suspensão automaticamente. Se houver risco concreto de prejuízo de difícil ou incerta reparação, a autoridade que decidiu ou a imediatamente superior pode concedê-la, a pedido ou por iniciativa própria. Por exemplo, o interessado pode explicar e demonstrar por que a execução imediata causaria um prejuízo difícil de reparar. **A mera discordância com a multa não obriga a autoridade a suspender seus efeitos.** A análise depende do risco previsto na lei.
 
 
-- **Regra geral: efeito meramente devolutivo (art. 61):** salvo disposição legal em contrário, o recurso **não tem efeito suspensivo**. A decisão administrativa impugnada continua produzindo plenos efeitos executórios;
+- **Regra geral (art. 61):** salvo disposição legal em contrário, o recurso **não suspende automaticamente** os efeitos da decisão. Isso não significa que toda medida possa ser executada imediatamente independentemente de outras garantias ou normas específicas;
 - **Concessão cautelar de efeito suspensivo (art. 61, parágrafo único):** havendo justo receio de prejuízo de difícil ou incerta reparação decorrente da execução, a autoridade recorrida ou a imediatamente superior poderá, de ofício ou a pedido, dar efeito suspensivo ao recurso;
 - **Inexigibilidade de depósito prévio de bens ou valores:** ponto pacificado com força vinculante:
 
@@ -171,11 +171,11 @@ O **efeito suspensivo** é outra coisa: significa que a execução dos efeitos d
 
 ---
 
-## 4. Confronto crucial: *reformatio in pejus* no recurso versus vedação na revisão
+## 4. Agravamento no recurso e proibição de agravamento na revisão
 
 A expressão latina ***reformatio in pejus*** significa **mudança da decisão para piorar a situação de quem recorreu**. Imagine uma multa de R$ 1.000: a pessoa pede sua redução, mas a autoridade que julga o recurso identifica fundamento para aumentá-la. O art. 64 permite que o órgão competente modifique a decisão, inclusive com possível agravamento, **desde que a pessoa seja informada desse risco e possa apresentar alegações antes da decisão**. Ser informada não significa que o aumento já foi decidido. A autoridade precisa examinar a manifestação e fundamentar o resultado.
 
-Compare com outro momento: a sanção já foi aplicada e surgem fatos novos ou circunstâncias relevantes que podem demonstrar sua inadequação. O art. 65 admite **revisão do processo sancionador** a qualquer tempo, por pedido ou iniciativa da Administração. Nesse procedimento específico, a lei proíbe agravar a sanção. Portanto, o critério para distinguir as duas situações é **qual procedimento está em curso** e **qual fato permite reabrir a análise**, não simplesmente o nome dado ao pedido.
+Compare com outro momento: a sanção já foi aplicada e surgem **fatos novos ou circunstâncias relevantes** capazes de demonstrar sua inadequação. O art. 65 admite **revisão do processo sancionador** a qualquer tempo, por pedido ou iniciativa da Administração. Nesse procedimento, a lei proíbe agravar a sanção. A mera discordância repetida, sem fato novo ou circunstância relevante, não basta para preencher o requisito da revisão. O critério decisivo para a prova é identificar **qual procedimento está em curso** e **o fundamento para reabrir a análise**.
 
 
 A diferença aparece no esquema abaixo:
@@ -199,7 +199,7 @@ flowchart LR
 | Eixo Distintivo | Recurso Administrativo Geral (Art. 64) | Revisão de Processo Sancionador (Art. 65) |
 | :--- | :--- | :--- |
 | **Finalidade** | Impugnação de decisão administrativa ordinária por inconformismo quanto à legalidade ou ao mérito. | Desconstituição ou abrandamento de penalidade já aplicada, em face de fatos novos ou circunstâncias relevantes. |
-| **Prazo** | Em regra, **10 dias** para apresentar o recurso (art. 59). | Pode ser requerida **a qualquer tempo**, de ofício ou a pedido; não há prazo prescricional. |
+| **Prazo** | Em regra, **10 dias** para interpor o recurso (art. 59). | Pode ocorrer **a qualquer tempo**, a pedido ou de ofício, quando surgirem fatos novos ou circunstâncias relevantes (art. 65). |
 | **Possibilidade de Piora (*Reformatio in pejus*)** | **É ADMITIDA expressamente pelo art. 64**. Se da decisão puder decorrer gravame à situação do recorrente, este deverá ser cientificado para que formule alegações antes da decisão final. | **É proibida pelo art. 65, parágrafo único**. A revisão não pode aumentar a sanção aplicada. |
 
 ---
@@ -210,7 +210,7 @@ flowchart LR
 **1.** A autoridade administrativa que incorrer em situação de suspeição por inimizade notória com o administrado comete falta disciplinar grave caso deixe de comunicar imediatamente o fato à autoridade superior para fins de abstenção.
 
 > **Gabarito: ERRADO**  
-> **Comentário:** Conforme preceitua o art. 19 da Lei nº 9.784/1999, a omissão do dever de comunicar o afastamento constitui falta disciplinar grave exclusivamente na hipótese de **impedimento** (art. 18), no qual a presunção de parcialidade é absoluta. Na **suspeição** (art. 20 - amizade íntima ou inimizade notória), a arguição é faculdade e a omissão de autodeclaração não é capitulada expressamente como falta disciplinar grave.
+> **Comentário:** O art. 19 classifica como falta grave a **omissão da comunicação do impedimento** previsto no art. 18. A questão fala de **suspeição por inimizade notória** (art. 20), cuja alegação pode ser feita pelo interessado; o art. 19 não estende automaticamente a ela essa classificação disciplinar. Isso não dispensa o dever geral de imparcialidade.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **2.** É válida no processo administrativo federal a motivação que declare expressa concordância com os fundamentos de anterior parecer jurídico emitido nos autos, passando o conteúdo da manifestação técnica a constituir parte integrante do ato decisório.
@@ -234,13 +234,13 @@ flowchart LR
 **5.** Em sede de recurso administrativo, é terminantemente vedado à autoridade julgadora agravar a penalidade imposta ao recorrente, vigorando no processo administrativo a proibição absoluta da *reformatio in pejus*.
 
 > **Gabarito: ERRADO**  
-> **Comentário:** O art. 64 da Lei nº 9.784/1999 admite expressamente que o órgão competente para decidir o recurso confirme, modifique, anule ou revogue, total ou parcialmente, a decisão recorrida, inclusive agravando a sanção, se for matéria de sua competência. Uma exigência expressa é a ciência prévia do recorrente para manifestar-se antes da decisão de agravamento. A vedação absoluta da *reformatio in pejus* restringe-se ao procedimento de **revisão de processo sancionador** (art. 65, parágrafo único).
+> **Comentário:** O art. 64 permite que a autoridade competente modifique a decisão recorrida, inclusive de modo desfavorável ao recorrente, com **ciência prévia para apresentação de alegações** se houver possibilidade de gravame. A proibição de **agravar a sanção** aparece no art. 65, parágrafo único, especificamente na revisão de processo sancionador por fatos novos ou circunstâncias relevantes. Compare o procedimento, não apenas o resultado.
 
 *(Inédita: estilo Cebraspe / Câmara dos Deputados – Analista Legislativo)*  
 **6.** A exigência de garantia pecuniária prévia ou de arrolamento de bens do administrado como condição indispensável para a admissibilidade de recurso administrativo em processo de fiscalização contraria preceito vinculante fixado pelo Supremo Tribunal Federal.
 
 > **Gabarito: CERTO**  
-> **Comentário:** Aplicação direta da Súmula Vinculante nº 21 do STF ("É inconstitucional a exigência de depósito ou arrolamento prévios de dinheiro ou bens para admissibilidade de recurso administrativo"). A gratuidade do duplo grau de julgamento administrativo impede a imposição de barreiras econômicas ao exercício do direito de petição e recurso.
+> **Comentário:** A Súmula Vinculante nº 21 do STF considera inconstitucional exigir depósito ou arrolamento prévio de dinheiro ou bens para admitir recurso administrativo. Isso deve ser distinguido de despesas processuais expressamente previstas em lei (art. 2º, parágrafo único, XI), que não autorizam condicionar a admissibilidade do recurso à garantia patrimonial proibida pela súmula.
 
 
 ## Fontes oficiais e critério de leitura

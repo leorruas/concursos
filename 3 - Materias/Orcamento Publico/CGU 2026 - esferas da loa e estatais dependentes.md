@@ -56,6 +56,14 @@ O Decreto nº 12.500/2025 disciplina o tratamento federal e a transição entre 
 
 Por isso, na auditoria, há duas perguntas sucessivas: **a empresa é juridicamente dependente?** e **qual regime orçamentário se aplica à sua programação naquele exercício?** Responder apenas à primeira pode ser insuficiente nas situações de transição previstas em norma.
 
+### Contrato de gestão e regras de 2026: dois enquadramentos
+
+O **Decreto nº 12.500/2025, art. 7º**, mantém a empresa com contrato de gestão sob o **regime jurídico aplicável às dependentes**, inclusive quanto às consequências jurídicas expressamente mencionadas. O **§ 1º** prevê uma distinção: **o regime orçamentário e financeiro** dessas empresas observará as regras aplicáveis às **não dependentes**, nas condições do contrato e da legislação pertinente. O **§ 2º** exige que o órgão supervisor proponha as adequações orçamentárias observando a autorização da Lei de Diretrizes Orçamentárias (LDO). Logo, contrato de gestão não representa, por si, mudança definitiva de classificação jurídica.
+
+A **LDO federal de 2026, Lei nº 15.321/2025, art. 52, §§ 6º e 7º**, disciplina o contrato e o tratamento orçamentário dessas empresas. O **§ 9º** ainda prevê hipótese específica de permanência no Orçamento de Investimento para empresa que tenha recebido recursos da União para pessoal, custeio ou despesas de capital, excluídos aportes de aumento de participação acionária, desde que sejam atendidos **cumulativamente** o ato do Poder Executivo federal, a presença no Orçamento de Investimento do exercício anterior, a existência de plano de reequilíbrio econômico-financeiro aprovado e vigente e o requisito do art. 37, § 9º, da Constituição.
+
+**Exemplo de fiscalização:** uma estatal controlada recebeu recursos públicos e permaneceu no Orçamento de Investimento. Para avaliar a regularidade, a equipe não deve usar somente o valor transferido. É preciso verificar a finalidade do repasse, os requisitos do art. 52, § 9º, a classificação anterior, a vigência do plano, os atos autorizativos e a norma aplicada àquele exercício. A classificação jurídica e o enquadramento da programação podem exigir conclusões separadas.
+
 ## Como verificar a classificação em uma auditoria da CGU
 
 Considere uma estatal que declara autonomia financeira, mas recebe aportes públicos. A fiscalização deve reunir fatos e critérios antes de decidir sobre seu enquadramento.
@@ -93,6 +101,10 @@ Um hospital da administração pública amplia uma unidade e uma estatal não de
 
 **Item 8.** “A verificação do enquadramento de estatal deve distinguir a situação jurídica de dependência, a esfera da programação e a natureza econômica da despesa.” **Certo.** Cada classificação responde a uma pergunta diferente e pode exigir documentação própria.
 
+**Item 9.** “A estatal federal que firma contrato de gestão no regime do Decreto nº 12.500/2025 deixa, com a assinatura, de estar submetida ao regime jurídico das estatais dependentes.” **Errado.** O art. 7º mantém o regime jurídico, enquanto o § 1º estabelece tratamento orçamentário e financeiro específico, a ser aplicado nos termos legais.
+
+**Item 10.** “Segundo a LDO federal de 2026, a permanência de certas estatais no Orçamento de Investimento, mesmo após recebimento de recursos da União para custeio, depende do cumprimento cumulativo dos requisitos do art. 52, § 9º.” **Certo.** Entre os requisitos estão a presença no orçamento de investimento anterior, plano de reequilíbrio aprovado e vigente e a observância das normas pertinentes.
+
 Estes itens são autorais e didáticos. Não são questões oficiais nem evidência de desempenho individual.
 
 ## Fontes e relação editorial
@@ -100,6 +112,7 @@ Estes itens são autorais e didáticos. Não são questões oficiais nem evidên
 - [Constituição Federal, art. 165, § 5º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): os três orçamentos da LOA.
 - [Lei Complementar nº 101/2000, art. 2º, II e III](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): empresa controlada e estatal dependente.
 - [Decreto nº 12.500/2025, texto atualizado, arts. 2º e 7º](https://www2.camara.leg.br/legin/fed/decret/2025/decreto-12500-11-junho-2025-797585-normaatualizada-pe.html): classificação, transição e contrato de gestão.
+- [LDO federal 2026, Lei nº 15.321/2025, art. 52, §§ 6º, 7º e 9º](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15321-31-dezembro-2025-798617-publicacaooriginal-179567-pl.html): tratamento das estatais no Orçamento de Investimento e requisitos da transição.
 - [Manual Técnico de Orçamento, classificação por esfera](https://www1.siop.planejamento.gov.br/mto/doku.php?id=mto%3Acap4): categorias e códigos do orçamento federal.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: instrumentos de planejamento e autorização.
 

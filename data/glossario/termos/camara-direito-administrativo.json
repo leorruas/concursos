@@ -1629,6 +1629,145 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da15-imperatividade-autoexecutoriedade",
+      "term": "Imperatividade, exigibilidade e executoriedade",
+      "aliases": [
+        "Imperatividade versus autoexecutoriedade"
+      ],
+      "definition": "Imperatividade é a aptidão de certos atos para impor deveres independentemente da concordância do destinatário. Exigibilidade designa meios indiretos de exigir cumprimento, como a imposição legal de multa. Executoriedade é a execução material direta, admitida nas condições previstas no ordenamento ou em urgência justificada.",
+      "contrast": "Impor multa não autoriza penhorar diretamente dinheiro do particular. A cobrança forçada segue, em regra, execução judicial; já uma apreensão sanitária pode envolver execução material, se autorizada.",
+      "cebraspeTrap": "Afirmar que toda decisão imperativa é autoexecutória ou que a Administração pode cobrar compulsoriamente multa sem via judicial.",
+      "example": "Fiscal aplica multa sanitária, mas não penhora recursos bancários por conta própria; uma apreensão urgente de alimento impróprio exige base jurídica e proporcionalidade.",
+      "articleIds": [
+        "art-733c0e474219cd22"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 6.437/1977, art. 2º; Lei nº 6.830/1980",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l6437.htm"
+        }
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da16-simples-complexo-composto",
+      "term": "Ato simples, complexo e composto",
+      "aliases": [
+        "Formação da vontade do ato administrativo"
+      ],
+      "definition": "Ato simples nasce da manifestação de um só órgão, ainda que colegiado. Ato complexo reúne vontades de órgãos distintos para formar um único ato. Ato composto apresenta ato principal e manifestação acessória exigida para sua eficácia ou execução, segundo a doutrina.",
+      "contrast": "Na classificação adotada tradicionalmente pelo STF, a concessão inicial de aposentadoria sujeita a registro de tribunal de contas é ato complexo; não ato composto com mera homologação acessória. O Tema 445 estabelece prazo de cinco anos a partir da chegada do processo ao tribunal.",
+      "cebraspeTrap": "Tratar ato de órgão colegiado como complexo só por envolver várias pessoas, ou classificar registro inicial de aposentadoria como ato composto.",
+      "example": "Decisão de colegiado em um só órgão é ato simples; concessão inicial de aposentadoria sujeita a registro de tribunal de contas é exemplo tradicional de ato complexo.",
+      "articleIds": [
+        "art-10a91f6bf9b53f1a"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 71, III; STF, Tema 445 (RE 636.553)",
+          "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=445"
+        }
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da17-anulacao-revogacao-convalidacao",
+      "term": "Anulação, revogação e convalidação",
+      "aliases": [
+        "Autotutela: invalidar, revogar e convalidar"
+      ],
+      "definition": "Anulação enfrenta ato ilegal, respeitando decadência e segurança jurídica; seus efeitos são em regra retroativos. Revogação retira ato válido que admite reavaliação de mérito, com efeitos em regra futuros. Convalidação corrige vício sanável sem lesão ao interesse público nem prejuízo a terceiros, preservando os efeitos juridicamente aproveitáveis.",
+      "contrast": "Ilegalidade pede análise de anulação ou convalidação, não revogação. Ato válido e ainda revogável pode ser retirado por conveniência. O prazo do art. 54 da Lei 9.784/1999 aplica-se em regra à anulação administrativa de atos favoráveis, salvo má-fé.",
+      "cebraspeTrap": "Afirmar que o Judiciário revoga atos de outro Poder por conveniência, que todo ato ilegal deve ser desfeito sem observar prazos, ou que qualquer vício pode ser convalidado.",
+      "example": "Autorização precária válida pode ser revogada por motivo legítimo; um ato de competência não exclusiva irregular pode ser convalidado se cumprido o art. 55.",
+      "articleIds": [
+        "art-61c7724cba33648a"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999, arts. 53 a 55",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da18-parecer-obrigatorio-vinculante",
+      "term": "Parecer obrigatório e parecer vinculante",
+      "aliases": [
+        "Obrigatoriedade de consulta e vinculação do parecer"
+      ],
+      "definition": "A obrigatoriedade diz respeito a consultar previamente uma área técnica ou jurídica quando a norma exige; a vinculação diz respeito ao dever de seguir sua conclusão quando a fonte jurídica assim determina. Um parecer pode ser obrigatório sem vincular o gestor, que deverá justificar juridicamente eventual divergência.",
+      "contrast": "Na Lei 14.133/2021, a análise jurídica prévia é regra com dispensas previstas no art. 53, § 5º, e não vincula automaticamente toda decisão. O parecer da AGU aprovado pelo Presidente e publicado na forma do art. 40, § 1º, da LC 73/1993 possui efeito vinculante na Administração Federal.",
+      "cebraspeTrap": "Concluir que toda consulta obrigatória é vinculante, ou que um parecer favorável imuniza automaticamente gestor e parecerista de responsabilidade.",
+      "example": "Consultoria jurídica aponta risco em minuta contratual; gestor corrige a minuta ou, quando o parecer não for vinculante, justifica solução diferente e avalia necessidade de nova consulta.",
+      "articleIds": [
+        "art-0bf3465cd357e76e"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 14.133/2021, art. 53",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"
+        },
+        {
+          "label": "LC nº 73/1993, art. 40",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp73.htm"
+        }
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-da27-hierarquico-disciplinar",
+      "term": "Poder hierárquico e poder disciplinar",
+      "aliases": [
+        "Hierarquia versus disciplina administrativa"
+      ],
+      "definition": "Poder hierárquico organiza e supervisiona tarefas de órgãos e agentes subordinados. Poder disciplinar apura infrações funcionais e aplica sanções previstas em lei após procedimento adequado; certas sanções contratuais são classificadas doutrinariamente em relações especiais, mas têm regime legal próprio.",
+      "contrast": "Rever ato ilegal de subordinado é exercício de controle hierárquico e autotutela; punir servidor por falta funcional é disciplina. Ministério e autarquia vinculada não têm hierarquia geral. Delegação pode ocorrer sem subordinação; avocação exige hierarquia e justificativa excepcional.",
+      "cebraspeTrap": "Confundir anulação de ato com punição pessoal, avocar competência exclusiva de autarquia vinculada ou admitir execução de ordem manifestamente ilegal.",
+      "example": "Diretor redistribui equipes e revê decisão administrativa quando competente; se um servidor comete infração, instaura-se a apuração legal antes de eventual sanção.",
+      "articleIds": [
+        "art-20294d2578a610bd"
+      ],
+      "sources": [
+        {
+          "label": "Lei nº 9.784/1999, arts. 12 a 15; Lei nº 8.112/1990, arts. 116, IV, e 143",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"
+        }
+      ],
+      "subjectIds": [
+        "direito-administrativo"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "status": "reviewed"
     }
   ]
 }

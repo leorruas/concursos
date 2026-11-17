@@ -164,3 +164,9 @@ A issue de integração [#362](https://github.com/leorruas/concursos/issues/362)
 **Problema real corrigido:** `CGU 2026 - ppa ldo e loa.md` apontava para legados compartilhados de ciclo orçamentário e esferas da LOA, embora já existam as duas notas exclusivas CGU. Ambos os wikilinks foram substituídos por destinos CGU já confirmados como arquivos existentes. O aviso editorial antigo foi ajustado para registrar a dependência de integração de catálogo e índice. **Commit:** `e5f7f20f4bde22899fb892c9ed427aade94f642b`, blob `6f28c540338f179cb4182cb20072381108c15b86`; a identidade `art-9dc8a6e2f31b47c0` e os títulos de seção foram preservados. Arquivos da Câmara e compartilhados permaneceram intactos.
 
 **Situação geral:** cinco artigos exclusivos CGU trabalhados, 44 questões C/E, zero certificados. A correção de links internos não substitui atualização coordenada de `articleIds`, indexação, testes CI e verificação real de Pages. Próxima etapa: coordenação executar #362, depois auditar e certificar individualmente no SHA integrado.
+
+## Verificação da fonte da LDO: 17/11/2026
+
+Issue de integração [#362](https://github.com/leorruas/concursos/issues/362) ainda aberta e sem commit coordenado na `main` nesta verificação. Ao conferir a fonte do art. 7º da LDO federal 2026, o endereço do Planalto usado no artigo de classificações redirecionou para a página inicial do portal e não ofereceu o texto solicitado. O link foi substituído por publicação da **Câmara dos Deputados** com o conteúdo legal consultável, preservando a seção e os 12 itens C/E. Commit `c6ade2ab1c820468d7997c55a42ce388295421a0`, blob `3bb5dc2fa02fccbaf2ace599b86d8bbe61a15384`.
+
+Este é reparo de fonte, não certificação jurídica integral ou de Pages. **Progresso:** cinco artigos CGU trabalhados, 44 itens C/E, zero certificados. A integração da navegação depende da coordenação, com testes e publicação por confirmar.

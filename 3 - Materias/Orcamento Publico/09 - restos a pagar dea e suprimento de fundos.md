@@ -19,11 +19,11 @@ aliases:
 
 ## Núcleo do conceito: três formas que podem parecer a mesma despesa
 
-Imagine o encerramento de um exercício: uma compra foi **empenhada e liquidada**, mas ainda não foi paga; outra foi **empenhada, mas a entrega não foi comprovada**; uma terceira refere-se a serviço de exercício anterior cujo compromisso só foi **reconhecido depois**. Elas podem exigir tratamentos diferentes.
+Imagine o encerramento de 31 de dezembro, último dia do **exercício financeiro**, que coincide com o ano civil. Um órgão comprou equipamentos, recebeu e conferiu a entrega, mas ainda não pagou. Em outra compra, reservou a verba e espera a entrega. Há também um serviço de ano anterior cujo valor foi reconhecido depois. Cada caso precisa de um tratamento distinto.
 
-**Restos a pagar (RP)** são despesas **empenhadas e não pagas até 31 de dezembro**, conforme o art. 36 da Lei nº 4.320/1964. São **processados** quando já **liquidados** e **não processados** quando a liquidação ainda está pendente. **Despesas de Exercícios Anteriores (DEA)** obedecem ao art. 37 e são pagas mediante **dotação específica no orçamento atual**, em hipóteses legais. **Suprimento de fundos** é um regime excepcional de **adiantamento a servidor**, previsto nos arts. 68 e 69, para despesas que não se adequam ao processamento ordinário.
+**Empenho** é o ato que compromete uma autorização do orçamento para certa despesa e cria para o Estado obrigação de pagamento, observadas as condições legais. **Liquidação** é a conferência de que o fornecedor cumpriu a obrigação e do valor devido; **pagamento** é a saída do dinheiro. A Lei nº 4.320/1964 chama de **restos a pagar (RP)** as despesas empenhadas e ainda não pagas em 31 de dezembro (art. 36). Elas são **processadas** se liquidadas e **não processadas** se ainda falta liquidação. **Despesas de exercícios anteriores (DEA)** são obrigações antigas que, em hipóteses do art. 37, podem ser pagas mediante dotação específica do orçamento atual. O **suprimento de fundos** adianta recursos a um servidor para despesas excepcionais, com empenho e prestação de contas (arts. 68 e 69).
 
-Essas três figuras não são variantes da mesma classificação. O ponto decisivo é **quando houve empenho, liquidação, reconhecimento da obrigação e execução do pagamento**. A leitura pressupõe [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|fixação, empenho, liquidação e pagamento]].
+Para escolher o tratamento, verifique o ano do empenho, a entrega ou prestação do serviço, a liquidação e o pagamento. As etapas são aprofundadas em [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|Despesa pública]], mas suas definições essenciais já foram apresentadas.
 
 ## Restos a pagar: condição e espécie
 
@@ -39,10 +39,10 @@ A expressão **não processado** não significa “não houve empenho”. Ambos 
 
 ### Não processados: a liquidar × em liquidação
 
-O MCASP, 11ª edição, seção 4.7, distingue, dentro dos restos a pagar **não processados**:
+O **Manual de Contabilidade Aplicada ao Setor Público (MCASP)**, 11ª edição, explica os registros contábeis. Na seção 4.7, distingue duas situações de RP **não processados**:
 
-- **A liquidar**: não ocorreu o fato gerador da obrigação patrimonial, e o empenho está pendente da execução e da liquidação pertinentes.
-- **Em liquidação**: ocorreu o **fato gerador** antes do encerramento, mas a liquidação ainda não foi concluída; há efeitos patrimoniais que precisam ser reconhecidos.
+- **A liquidar:** a entrega ou serviço ainda não aconteceu. Falta o **fato gerador**, o acontecimento que dá origem à obrigação patrimonial.
+- **Em liquidação:** a entrega ou serviço já aconteceu, mas a conferência formal não terminou. O fato gerador ocorreu, ainda que a liquidação orçamentária esteja pendente.
 
 Isso produz uma fronteira útil: **o fato gerador pode ter ocorrido sem que a liquidação tenha sido formalmente concluída**. Logo, “em liquidação” continua classificado como **não processado**, até a efetiva liquidação.
 
@@ -126,7 +126,7 @@ DEA não é sinônimo de toda despesa paga em ano diferente: **RP já cobre muit
 
 ## Suprimento de fundos: adiantamento excepcional
 
-O art. 68 da Lei nº 4.320/1964 define o **regime de adiantamento** como entrega de numerário a servidor, **sempre precedida de empenho em dotação própria**, para realizar despesas que **não possam obedecer ao processamento normal**. O art. 69 proíbe adiantamento a **servidor em alcance** e a **responsável por dois adiantamentos**.
+O art. 68 da Lei nº 4.320/1964 permite o **regime de adiantamento**, ou suprimento de fundos: o órgão adianta dinheiro a um servidor para uma despesa que não pode seguir o pagamento habitual ao fornecedor. Antes da entrega deve ocorrer **empenho em dotação própria**. O art. 69 proíbe novo adiantamento a **servidor em alcance**, que deixou de prestar contas ou teve contas recusadas, e a quem já responde por **dois adiantamentos**. Essas restrições protegem a prestação de contas.
 
 O Decreto nº 93.872/1986, art. 45, disciplina hipóteses federais, como:
 
@@ -146,7 +146,7 @@ O servidor que recebe suprimento **não se torna credor livre de prestar contas*
 
 O MCASP distingue restituições de recursos não utilizados ou indevidamente utilizados: quando recolhidas **no próprio exercício**, em regra, produzem **anulação de despesa**; quando recolhidas **após o encerramento**, são tratadas como **receita orçamentária** sob a classificação pertinente. A temporalidade aqui importa, mas essa regra **não deve ser confundida** com o cancelamento de restos a pagar.
 
-## Refinamento para Câmara 2026: da liquidação aos restos a pagar (CAM-ORC-014)
+## Da liquidação aos restos a pagar: aplicação na Câmara
 
 Esta seção integra os **três estágios da despesa** à classificação feita em **31 de dezembro**. O artigo sobre [[3 - Materias/Orcamento Publico/08 - despesas publicas e estagios|empenho, liquidação e pagamento]] continua como pré-requisito: aqui a pergunta passa a ser **qual obrigação permanece depois do encerramento do exercício e como classificá-la sem duplicar a dotação?**
 

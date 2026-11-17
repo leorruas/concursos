@@ -424,10 +424,10 @@
       "sourceArticleId": "art-91ab320cdfb64b8a",
       "topicKey": "responsabilidade-fiscal",
       "sequence": 15,
-      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
+      "certificationStatus": "revalidacao-editorial-pos-edicao-pendente",
       "include": false,
-      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
-      "revisionSha": "8b66c1340fa6aa6c3722fb899bde72ede5b65363"
+      "selectionStatus": "aguarda-segunda-leitura-e-pages",
+      "revisionSha": "9333c998df25d1889a8ce62521778428ba7aed01"
     }
   ],
   "crossReferences": [

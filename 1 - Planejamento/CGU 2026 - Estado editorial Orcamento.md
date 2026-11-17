@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: quatorze-certificados-um-em-revalidacao-quatro-legados
+status: treze-certificados-dois-em-revalidacao-quatro-legados
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -560,3 +560,7 @@ Migrados nove cartões exclusivamente CGU (`restos-pagar`, `rp-processados`, `rp
 O artigo CGU `art-e4c982a6713d4bf5` recebeu seção didática sobre origens de receitas e operações intraorçamentárias, preservando as demais seções e os dez itens C/E originais. O blob novo é `1a27578226bfb8b240ae2f212139264c346af8f7`, que substitui o anteriormente certificado `ad0c453427cbd79358f9191e2f57cde3cae2f2d0`. A certificação para este artigo fica **reaberta** até verificar o CI/Pages e a segunda leitura do texto ampliado.
 
 Sete flashcards exclusivamente CGU (`receitas-correntes`, `receitas-capital`, `alienacao`, `amortizacao-emprestimo`, `receita-originaria-patrimonial`, `fonte-destinacao-vs-natureza-receita`, `orc-ref-corrente-periodicidade`) foram vinculados ao artigo próprio, com seus headings reais validados, e 23 verbetes exclusivamente CGU receberam o novo `articleId`. O ID histórico `art-f13b65a28d8c4e91` permanece na Câmara e saiu somente do catálogo da CGU. Nenhum arquivo original Câmara ou banco de questões da Câmara foi modificado. Novo placar temporário: 14 de 15 certificados, um em revalidação. Quatro IDs de Orçamento histórico permanecem na interseção, além da nota transversal.
+
+## Revalidação preventiva de responsabilidade fiscal (17/11/2026)
+
+O artigo CGU `art-d218c459af1e4b73` foi ampliado com gatilhos de pessoal, recondução, renúncia, despesa continuada e obrigações de fim de mandato. Blob novo `9333c998df25d1889a8ce62521778428ba7aed01`; a certificação anterior correspondia ao blob `8b66c1340fa6aa6c3722fb899bde72ede5b65363`. A **certificação para a nova versão está reaberta**, independentemente da migração futura de flashcards e glossários, que não foi concluída nesta tentativa. Até segunda leitura e CI/Pages próprio, a contagem segura é 13/15 certificados e dois artigos em revalidação: receita 04a e responsabilidade fiscal 11. O catálogo CGU ainda contém o ID histórico da LRF `art-91ab320cdfb64b8a`; não declarar esse vínculo migrado.

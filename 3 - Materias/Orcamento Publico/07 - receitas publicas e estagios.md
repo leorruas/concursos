@@ -5,7 +5,7 @@ title: "Receitas públicas: ingressos e estágios da execução"
 type: "conceito"
 status: "ativo"
 created: 2026-11-04
-updated: 2026-11-09
+updated: 2026-11-16
 aliases:
   - "Receita orçamentária"
   - "Receita extraorçamentária"
@@ -18,9 +18,9 @@ aliases:
 
 Uma prefeitura recebe R$ 800 mil de impostos, R$ 100 mil de caução contratual e R$ 300 mil provenientes de empréstimo para obra pública. Houve entrada financeira em todos os casos, mas **nem toda entrada é receita orçamentária**. A arrecadação de impostos é receita corrente, a caução é normalmente ingresso extraorçamentário e o empréstimo regular é receita orçamentária de capital.
 
-Para recuperar o significado de **transferências correntes e de capital, operações de crédito, alienação de bens, amortização de empréstimos e receita patrimonial**, consulte o [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa#Vocabulário das origens da receita: o que efetivamente entra no caixa?|vocabulário comentado das origens da receita]]. Esta nota concentra os **estágios** e o tratamento da execução, sem repetir a classificação inteira.
+**Impostos** são valores exigidos por lei de contribuintes; **caução contratual** é uma garantia em dinheiro que pode ter de ser devolvida; **empréstimo comum** traz recursos que o ente deverá pagar depois. As diferenças entre transferência corrente ou de capital, operação de crédito, alienação de bens (venda de patrimônio), amortização de empréstimos (recebimento do principal de empréstimo concedido) e receita patrimonial (como aluguel) estão na [[3 - Materias/Orcamento Publico/04a - classificacao da receita|classificação da receita]]. Esta nota explica o que acontece desde a estimativa até a entrada do dinheiro no Tesouro.
 
-**Receita orçamentária** é o ingresso financeiro que integra a execução da receita pública nas classificações aplicáveis. **Ingresso extraorçamentário** é entrada temporária ou compensatória, frequentemente associada a obrigação de devolução ou repasse. A diferença precisa ser identificada antes de falar nos estágios da receita.
+**Receita orçamentária** é uma entrada que integra a execução das receitas do orçamento, como um imposto recebido ou um empréstimo público comum. **Ingresso extraorçamentário** é uma entrada que o ente administra temporariamente ou que compensa outra obrigação, como uma caução que deverá devolver se o contrato for cumprido. O dinheiro pode passar pelo caixa público em ambos os casos, mas seu tratamento contábil e orçamentário é diferente.
 
 O **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição**, apresenta as etapas didáticas **previsão, lançamento, arrecadação e recolhimento**. O reconhecimento de uma receita orçamentária **não depende de ela ter passado por todas as quatro etapas**.
 
@@ -66,11 +66,13 @@ Também existe a divisão doutrinária entre receita **originária e derivada**.
 
 ## Previsão, lançamento, arrecadação e recolhimento
 
+Imagine um município que espera receber **R$ 1.000 de IPTU** de um imóvel. Ele primeiro estima sua arrecadação no orçamento (**previsão**). A autoridade tributária apura o crédito devido e identifica o contribuinte (**lançamento**). Quando o contribuinte paga ao banco autorizado, ocorre a **arrecadação**. Quando o valor recebido pelo banco é transferido à tesouraria pública, ocorre o **recolhimento**. O imposto integra a receita orçamentária pelo **exercício da arrecadação**, segundo o art. 35, I, da Lei nº 4.320/1964.
+
 A sequência didática é:
 
 **Previsão → Lançamento → Arrecadação → Recolhimento.**
 
-Ela expressa o percurso típico de receitas sujeitas a todas essas etapas, porém **nem toda receita percorre todas elas**.
+As quatro etapas descrevem um percurso possível; uma **doação em dinheiro**, por exemplo, pode ser arrecadada sem lançamento tributário e mesmo sem previsão inicial na LOA.
 
 | Etapa | Pergunta que responde | Objeto principal |
 | :--- | :--- | :--- |
@@ -87,7 +89,7 @@ Exemplo: arrecadação esperada de R$ 10 milhões, mas realizada em R$ 8 milhõe
 
 ### Lançamento: identificação do devedor e do crédito
 
-A Lei nº 4.320/1964, art. 53, disciplina o **lançamento** como ato da repartição competente que verifica procedência do crédito fiscal, devedor e inscrição do débito. Para tributos, o **Código Tributário Nacional, art. 142**, disciplina os elementos da constituição do crédito tributário pela autoridade competente.
+O **lançamento** é uma etapa de identificação e formalização do valor devido em receitas sujeitas a esse procedimento. Pelo **art. 53 da Lei nº 4.320/1964**, a repartição competente verifica a origem do crédito fiscal, o devedor e o valor da dívida. No caso dos tributos, o **art. 142 do Código Tributário Nacional (CTN)** atribui à autoridade administrativa a constituição do crédito tributário: ela verifica a ocorrência do fato gerador (a situação que faz nascer a obrigação), determina a matéria tributável, calcula o montante, identifica o sujeito passivo (quem deve pagar) e, se cabível, propõe a penalidade. **O lançamento identifica uma cobrança; a arrecadação mostra o pagamento.**
 
 O lançamento **não demonstra pagamento**. Um imposto pode ser lançado e permanecer sem arrecadação. Também não se deve confundir **lançamento de receita** com todo e qualquer **lançamento contábil patrimonial**.
 
@@ -115,7 +117,7 @@ Uma questão que exige as quatro etapas **necessariamente para qualquer receita*
 
 A Lei nº 4.320/1964, art. 35, determina que pertencem ao exercício financeiro as **receitas nele arrecadadas** e as **despesas nele legalmente empenhadas**, no enfoque orçamentário.
 
-O reconhecimento de **Variação Patrimonial Aumentativa (VPA)** observa critérios patrimoniais de competência e pode ocorrer **antes da arrecadação**, quando nasce o direito do ente. Não confundir o registro do crédito tributário a receber com a entrada efetiva de receita orçamentária.
+Uma **Variação Patrimonial Aumentativa (VPA)** é um aumento do patrimônio líquido reconhecido pela contabilidade segundo o regime de competência, quando ocorre o fato que gera esse efeito patrimonial. Esse registro pode acontecer **antes de entrar dinheiro em caixa**. Por isso, um direito de cobrar um tributo pode estar registrado como valor a receber, embora a receita orçamentária ainda não tenha sido arrecadada. Nem toda entrada de dinheiro aumenta o patrimônio líquido: receber empréstimo, por exemplo, também cria uma dívida.
 
 **Caso:** o imposto é lançado em fevereiro e pago em maio. A informação patrimonial sobre o crédito pode existir em fevereiro, enquanto o reconhecimento da realização da receita para fins orçamentários ocorre com a arrecadação em maio.
 

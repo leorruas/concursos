@@ -12430,6 +12430,108 @@
         "prompt": "Qual distinção legal decide esta questão?",
         "answer": "Dez dias de interposição, cinco de reconsideração, cinco dias úteis para demais interessados e trinta mais trinta de julgamento são contagens distintas."
       }
+    },
+    {
+      "id": "camara-orc05a-autoria-impositividade",
+      "term": "Autoria da emenda e execução obrigatória",
+      "definition": "Autoria indica quem propõe a emenda. Impositividade indica quando a programação aprovada deve ser executada segundo Constituição e legislação; não garante pagamento automático.",
+      "example": "Uma emenda de comissão pode ser aprovada sem receber, por isso, o mesmo regime constitucional de execução obrigatória das individuais.",
+      "confusion": "Emenda individual, bancada ou comissão classificam autoria; suplementar e especial classificam créditos adicionais.",
+      "topic": "Emendas parlamentares",
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Emendas parlamentares: individuais, bancadas e comissões"
+      },
+      "source": {
+        "title": "Constituição Federal",
+        "url": "https://www.tse.jus.br/legislacao/codigo-eleitoral/constituicao-federal/constituicao-da-republica-federativa-do-brasil",
+        "locator": "Art. 166, §§ 9º a 13"
+      },
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Uma emenda foi aprovada por comissão. Seu pagamento passou a ser obrigatório nas mesmas condições de emenda individual?",
+        "answer": "Não. Autoria e regime constitucional de execução são critérios diferentes; a execução ainda exige procedimentos e condições."
+      },
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-orc05a-prazos-indicacao",
+      "term": "Emenda de comissão: prazos para indicar beneficiários",
+      "definition": "Depois da publicação da LOA, as comissões deliberam em até 15 dias sobre propostas de indicação recebidas, e seus presidentes publicam e encaminham as atas das indicações aprovadas em até 5 dias.",
+      "example": "Uma comissão delibera a indicação após a LOA e depois publica a ata; nenhuma das etapas equivale a pagamento.",
+      "confusion": "O prazo de indicação após a LOA não é o prazo de apresentação da emenda ao projeto orçamentário.",
+      "topic": "Emendas parlamentares",
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Indicação de emendas de comissão: regra permanente e rito de cada exercício"
+      },
+      "source": {
+        "title": "Lei Complementar nº 210/2024",
+        "url": "https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei.complementar%3A2024-11-25%3B210",
+        "locator": "Art. 5º, incisos I e II"
+      },
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "A ata de indicação aprovada pela comissão significa que o recurso já chegou ao beneficiário?",
+        "answer": "Não. A deliberação e a publicação são etapas anteriores às verificações e à execução financeira."
+      },
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-orc05a-transferencia-especial",
+      "term": "Transferência especial não dispensa fiscalização",
+      "definition": "A transferência especial de emenda individual pode ocorrer diretamente ao estado ou município sem convênio, mas deve seguir limites constitucionais de destinação e controle.",
+      "example": "Município recebe por transferência especial; ao menos 70% devem ir para despesas de capital e não se podem pagar pessoal e serviço da dívida.",
+      "confusion": "Transferência especial é forma de repasse; crédito especial é espécie de crédito adicional para despesa sem dotação específica.",
+      "topic": "Emendas parlamentares",
+      "note": {
+        "articleId": "art-715e2d16a93446cb",
+        "section": "Transferência especial × finalidade definida"
+      },
+      "source": {
+        "title": "Constituição Federal",
+        "url": "https://www.tse.jus.br/legislacao/codigo-eleitoral/constituicao-federal/constituicao-da-republica-federativa-do-brasil",
+        "locator": "Art. 166-A"
+      },
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "A ausência de convênio deixa o município livre para gastar o repasse em pessoal?",
+        "answer": "Não. A Constituição veda essa destinação e mantém requisitos de controle."
+      },
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
     }
   ]
 }

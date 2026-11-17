@@ -97,65 +97,77 @@ No **art. 71**, a autoridade pode ainda **determinar retorno para saneamento**, 
 
 ## Dispensa × inexigibilidade
 
-Ambas são formas de contratação direta, mas o fundamento jurídico é diferente.
+**Contratação direta** ocorre quando a lei permite contratar sem disputar previamente uma licitação. Pode ocorrer por **inexigibilidade**, quando a competição é inviável, ou por **dispensa**, nas hipóteses legais. **Nenhuma das duas é uma modalidade** do art. 28. Ambas exigem processo instruído e a autoridade competente.
 
 ### Inexigibilidade: art. 74
 
-A inexigibilidade ocorre quando a **competição é inviável**. A lei fornece hipóteses exemplificativas, entre elas:
+A lei descreve **hipóteses exemplificativas de inviabilidade de competição**, inclusive:
 
-- fornecedor exclusivo;
-- profissional do setor artístico consagrado pela crítica especializada ou opinião pública, diretamente ou por empresário exclusivo;
-- determinados serviços técnicos especializados de natureza predominantemente intelectual com profissional ou empresa de notória especialização;
-- credenciamento;
-- aquisição ou locação de imóvel cujas características de instalações e localização tornem necessária sua escolha, observados os requisitos legais.
+| Hipótese | Situação e requisito decisivo | O que não se pode concluir |
+| --- | --- | --- |
+| **Fornecedor exclusivo**, inciso I | Há demonstração idônea da exclusividade do fornecedor, do representante comercial ou do prestador adequado ao objeto | A declaração de preferência por uma marca, por si, prova exclusividade |
+| **Artista consagrado**, inciso II | Contratação de profissional do setor artístico, diretamente ou por **empresário exclusivo**, consagrado pela crítica especializada ou opinião pública | Qualquer artista conhecido pode ser contratado por representante ocasional |
+| **Serviços técnicos especializados predominantemente intelectuais**, inciso III | Serviços **enumerados** no inciso, prestados por profissionais ou empresas de **notória especialização**, quando a competição for inviável | Todos os serviços criativos ou técnicos são automaticamente inexigíveis |
+| **Credenciamento**, inciso IV | Contratação de interessados que atendem às condições de procedimento de credenciamento, conforme a lei | Credenciamento é a sexta modalidade licitatória |
+| **Aquisição ou locação de imóvel**, inciso V | Características de instalações e localização tornam necessária escolha específica; exige demonstrações do § 5º | A mera conveniência de determinada localização dispensa justificar sua singularidade e vantagem |
 
-> [!WARNING]
-> **“Objeto singular” não é requisito geral do art. 74, III.** Na Lei nº 14.133/2021, para os serviços técnicos especializados ali previstos, o núcleo está na natureza predominantemente intelectual e na notória especialização, além da inviabilidade de competição. A lei também veda a inexigibilidade para serviços de publicidade e divulgação nessa hipótese.
+**Notória especialização** não significa simples preferência subjetiva pela empresa: o § 3º do art. 74 remete ao desempenho, estudos, experiência, publicações, organização, aparelhamento e outros fatores que tornem o trabalho essencial e reconhecidamente adequado à plena satisfação do objeto. **O objeto singular não é requisito geral autônomo de toda contratação do inciso III** no texto da Lei nº 14.133/2021.
 
-A expressão **singularidade** aparece expressamente, por exemplo, nos requisitos da hipótese de aquisição ou locação de imóvel do art. 74, V e § 5º. Não a transforme em requisito universal de toda inexigibilidade.
+**Atenção ao cargo de Comunicação:** o art. 74, III, **veda expressamente inexigibilidade nessa hipótese para serviços de publicidade e divulgação**. O fato de uma campanha exigir criatividade não permite usar a notória especialização como atalho universal para contratar agência de publicidade. É preciso analisar a legislação específica pertinente a serviços de publicidade e a hipótese concreta.
 
-### Dispensa: art. 75
+### Dispensa: art. 75, inclusive valores vigentes em 2026
 
-Na dispensa, a lei autoriza a contratação direta em hipóteses expressamente previstas. Entre elas estão situações relacionadas a valor, emergência/calamidade e outras circunstâncias legais.
+Na **dispensa**, a contratação direta depende de **previsão legal**. Os incisos I e II autorizam contratação abaixo de limites atualizados anualmente, conforme **art. 182**, e outras hipóteses alcançam emergências, calamidades e situações específicas. A referência correta em 2026 é o **[Decreto nº 12.807/2025](https://www.gov.br/compras/pt-br/acesso-a-informacao/comunicados/2025/no-47-25-decreto-altera-valores-da-lei-14-133-para-compras-publicas)**, com valores vigentes desde **1º/01/2026**:
 
-A pergunta “**é possível haver competição?**” continua útil como **heurística inicial**, mas não substitui a leitura da lei. O raciocínio seguro é:
+| Fundamento da dispensa | Valor atualizado para 2026 | Aplicação |
+| --- | --- | --- |
+| **Art. 75, I** | **Inferior a R$ 130.984,20** | Obras e serviços de engenharia, e manutenção de veículos automotores |
+| **Art. 75, II** | **Inferior a R$ 65.492,11** | Compras e outros serviços |
+| **Art. 75, § 7º** | **Até R$ 10.478,74** | Regra específica de manutenção de veículos do próprio órgão, incluindo peças, para a exceção de somatório legal |
 
-- inexigibilidade → inviabilidade de competição;
-- dispensa → hipótese legal de contratação direta do art. 75 ou outra previsão específica.
+**Não basta fracionar uma contratação grande em pedidos pequenos.** O **art. 75, § 1º**, exige considerar o valor despendido no **exercício financeiro pela unidade gestora** e o somatório de despesas com objetos de **mesma natureza**, entendidos como os do mesmo ramo de atividade. O § 2º prevê duplicação dos valores dos incisos I e II para contratações por **consórcio público** ou por autarquia/fundação qualificada como **agência executiva** nas condições legais. O § 3º prevê, **preferencialmente**, publicação de aviso com antecedência mínima de **três dias úteis** para buscar propostas adicionais nas dispensas dos incisos I e II.
 
-> [!IMPORTANT]
-> Os valores de dispensa são atualizados periodicamente por decreto. Evite consolidar na memória números antigos sem verificar o valor vigente no ano da prova.
+**Exemplo de classificação:** a Câmara precisa contratar serviço comum de acessibilidade digital por R$ 45 mil. O valor **pode** enquadrar-se no limite do art. 75, II, de 2026, mas ainda é necessário verificar **somatório por ramo, justificativa de preço, documentos cabíveis, oportunidade e regularidade do procedimento**. O valor isolado não faz a contratação ser válida automaticamente.
+
+**Emergência e calamidade, art. 75, VIII:** a urgência deve justificar o atendimento necessário para evitar prejuízo, risco à segurança ou interrupção relevante; o objeto deve se limitar ao necessário e às parcelas de obras e serviços que possam ser concluídas no **prazo máximo de um ano contado da ocorrência**. A lei veda prorrogação dos contratos fundados no inciso, com aplicação e interpretação submetidas ao texto vigente e à orientação do STF na **ADI 6.890** sobre a vedação de recontratação. **Emergência não autoriza dispensar motivação, estimativa de custos, fiscalização ou comprovação de adequação do objeto.**
+
+**Regra temporal:** valores em reais apresentados aqui são um **recorte de 2026**, não números permanentes da lei. Antes da prova ou de um procedimento real, reconfira o reajuste anual aplicável ao exercício.
 
 ## Contratação direta não elimina formalidades
 
-O art. 72 exige processo instruído. Em prova, são especialmente relevantes:
+O **art. 72** exige instruir o processo administrativo com documentos e justificativas, entre os quais:
 
-- caracterização da demanda e documentação técnica cabível;
-- estimativa de despesa;
-- parecer jurídico e pareceres técnicos, quando cabíveis;
-- demonstração de recursos orçamentários;
-- comprovação de habilitação e qualificação mínima;
-- razão da escolha do contratado;
-- justificativa de preço;
-- autorização da autoridade competente.
+| Documento ou verificação | Finalidade no processo |
+| --- | --- |
+| **Documento de formalização da demanda** e documentos preparatórios cabíveis (ETP, análise de riscos, TR ou projetos) | Evidenciar o problema e a solução necessária |
+| **Estimativa de despesa** | Dar base verificável para avaliar compatibilidade com preços de mercado |
+| **Parecer jurídico e pareceres técnicos, quando cabíveis** | Examinar os fundamentos aplicáveis e aspectos técnicos |
+| **Demonstração de compatibilidade dos recursos orçamentários** | Evidenciar capacidade de custear o compromisso |
+| **Habilitação e qualificação mínima** | Demonstrar requisitos legais e técnicos do contratado |
+| **Razão da escolha do contratado** | Explicar por que esse fornecedor é adequado à hipótese |
+| **Justificativa de preço** | Demonstrar a razoabilidade econômica da contratação |
+| **Autorização da autoridade competente** | Permitir decisão formal no processo |
 
-A contratação direta indevida não é automaticamente sinônimo de improbidade. O enquadramento em responsabilidade civil, administrativa, penal ou por improbidade depende dos requisitos próprios de cada regime.
+O **parágrafo único** do art. 72 determina divulgação do **ato autorizativo da contratação direta ou extrato decorrente do contrato** em sítio eletrônico oficial. O **art. 94** cuida da publicidade no **Portal Nacional de Contratações Públicas (PNCP)** para eficácia do contrato e de seus aditamentos.
+
+**Caso progressivo:** primeiro a equipe identifica a necessidade; depois verifica se existe hipótese legal de dispensa ou inexigibilidade; documenta estudos, preço, habilitação e motivo da escolha; obtém autorização; formaliza o instrumento e observa a publicação e execução. **Contratar diretamente não significa contratar verbalmente ou sem processo.**
+
+**Responsabilização:** irregularidade de contratação pode ter efeitos na esfera contratual, disciplinar, civil ou penal, mas **não equivale automaticamente a improbidade administrativa**. Cada regime exige os próprios elementos legais e análise concreta.
 
 ## Princípios de prova
 
-Além dos princípios constitucionais, o art. 5º da Lei nº 14.133/2021 explicita princípios como planejamento, transparência, eficácia, segregação de funções, motivação, vinculação ao edital, julgamento objetivo, segurança jurídica, competitividade, proporcionalidade, celeridade e economicidade, entre outros.
+O **art. 5º** consagra princípios como **legalidade, impessoalidade, moralidade, publicidade, eficiência, interesse público, probidade administrativa, igualdade, planejamento, transparência, eficácia, segregação de funções, motivação, vinculação ao edital, julgamento objetivo, segurança jurídica, razoabilidade, competitividade, proporcionalidade, celeridade, economicidade e desenvolvimento nacional sustentável**, além dos princípios constitucionais e da LINDB.
 
-### Julgamento objetivo
+| Princípio | Pergunta prática | Exemplo e limite |
+| --- | --- | --- |
+| **Julgamento objetivo** | O vencedor foi escolhido com critérios previamente publicados? | Não substituir critério do edital por preferência pessoal |
+| **Vinculação ao edital** | Administração e participantes seguem as mesmas condições divulgadas? | Não modificar regras após conhecer as propostas sem observar procedimento legal |
+| **Competitividade e igualdade** | O requisito é proporcional e necessário ao objeto? | Exigir experiência específica pode ser legítimo; exigir marca injustificadamente pode restringir disputa |
+| **Planejamento** | A necessidade, alternativa, risco e custo foram examinados antes de contratar? | Evitar escolher fornecedor antes de definir critérios e demanda |
+| **Segregação de funções** | A distribuição de tarefas reduz riscos de fraude e erro? | Não concentrar atribuições incompatíveis sem análise de riscos e das competências |
+| **Transparência e motivação** | É possível verificar a regra e por que uma decisão foi tomada? | Registrar razão da escolha, preço e fundamentos quando cabíveis |
 
-A proposta deve ser examinada pelos critérios definidos no edital, reduzindo espaço para preferência pessoal do agente.
-
-### Segregação de funções
-
-Busca evitar concentração de funções suscetíveis a riscos em um mesmo agente. Não significa que uma mesma pessoa esteja proibida, em qualquer hipótese, de participar de mais de uma atividade administrativa. A aplicação depende da estrutura de governança e da prevenção de riscos e conflitos.
-
-### Competitividade
-
-Veda restrições injustificadas ao universo de potenciais licitantes. Exigências técnicas podem existir quando pertinentes e proporcionais ao objeto.
+A escolha da solução mais vantajosa depende de **benefício público e atendimento dos requisitos**, não só do menor desembolso imediato. A Administração deve justificar critérios de acessibilidade, sustentabilidade, qualidade e viabilidade quando pertinentes.
 
 ## Planejamento, ETP e Termo de Referência: edital 10.4 a 10.7
 

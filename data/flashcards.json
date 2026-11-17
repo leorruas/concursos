@@ -12713,6 +12713,108 @@
       "status": "validated",
       "reviewedAt": "2026-11-16",
       "revision": 1
+    },
+    {
+      "id": "camara-orc15-atas-apresentacao-indicacao",
+      "term": "Atas de apresentação e indicação: fases distintas",
+      "definition": "A ata de apresentação registra a decisão de propor emenda ao orçamento. A ata de indicação registra a escolha posterior de destinatários após a LOA, nas condições legais.",
+      "example": "Uma comissão aprova a proposta em outubro, mas delibera sobre beneficiários depois de publicada a LOA.",
+      "confusion": "Atas não demonstram pagamento, empenho ou prestação de contas.",
+      "topic": "Emendas parlamentares e rastreabilidade",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Atas, indicações, rastreabilidade e limites de controle"
+      },
+      "source": {
+        "title": "Lei Complementar nº 210/2024",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp210.htm",
+        "locator": "Art. 5º"
+      },
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Qual etapa ou competência não pode ser confundida nesta situação?",
+        "answer": "Atas não demonstram pagamento, empenho ou prestação de contas."
+      }
+    },
+    {
+      "id": "camara-orc15-admissibilidade-merito",
+      "term": "Admissibilidade versus mérito de emenda",
+      "definition": "Admissibilidade verifica requisitos jurídicos e regimentais para que a proposta seja apreciada. Mérito é a avaliação de seu conteúdo e conveniência no processo legislativo.",
+      "example": "Uma emenda é admitida, mas o Congresso rejeita a proposta na deliberação.",
+      "confusion": "Admissibilidade pelo rito não equivale à aprovação final.",
+      "topic": "Emendas parlamentares e rastreabilidade",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução"
+      },
+      "source": {
+        "title": "Resolução nº 1/2006-CN",
+        "url": "https://www.congressonacional.leg.br/web/cmo/atribuicoes-e-legislacao/resolucao-n-01-de-2006-cn",
+        "locator": "Art. 25"
+      },
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Qual etapa ou competência não pode ser confundida nesta situação?",
+        "answer": "Admissibilidade pelo rito não equivale à aprovação final."
+      }
+    },
+    {
+      "id": "camara-orc15-rastreabilidade",
+      "term": "Rastreabilidade da indicação ao pagamento",
+      "definition": "Rastreabilidade permite identificar solicitante, deliberação, ata, programação, destinatário, empenho, pagamento e aplicação final da emenda.",
+      "example": "Uma base mostra o valor total aprovado, mas não o beneficiário nem a destinação final do dinheiro.",
+      "confusion": "Publicar a proposta de código único não comprova sua implantação nem o pagamento.",
+      "topic": "Emendas parlamentares e rastreabilidade",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1,
+      "note": {
+        "articleId": "art-9d42c1f68a7be053",
+        "section": "Atas, indicações, rastreabilidade e limites de controle"
+      },
+      "source": {
+        "title": "STF, acompanhamento da ADPF 854",
+        "url": "https://noticias.stf.jus.br/postsnoticias/governo-e-congresso-deverao-propor-codigo-unico-para-rastrear-emendas-parlamentares-decide-relator/",
+        "locator": "Decisão de 9 de setembro de 2026"
+      },
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "Qual etapa ou competência não pode ser confundida nesta situação?",
+        "answer": "Publicar a proposta de código único não comprova sua implantação nem o pagamento."
+      }
     }
   ]
 }

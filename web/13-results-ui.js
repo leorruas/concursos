@@ -144,8 +144,14 @@ function showConceptTransfer(){
     el('small','',transferCombined
       ?'Fontes consideradas: '+(x.sources?.chat||0)+' questão(ões) do ChatGPT e '+(x.sources?.site||0)+' do site · '+(x.distinctDays||'?')+' dia(s) · evidência '+(x.confidence==='moderate'?'moderada':'limitada')
       :'Somente baterias do site. Indício de progresso, não certificação de domínio.'));
-   const a=el('a','results-link','Abrir '+(meta?.tituloExibicao||meta?.titulo||'artigo'));
-   a.href=articleLink(x,x.section);a.rel='noreferrer';row.append(left,a);group.append(row);
+   row.append(left);
+   if(x.articleId&&manifest.has(x.articleId)){
+    const a=el('a','results-link','Abrir '+(meta?.tituloExibicao||meta?.titulo||'artigo'));
+    a.href=articleLink(x,x.section);a.rel='noreferrer';row.append(a);
+   }else{
+    row.append(el('small','results-caption','Sem artigo vinculado no catálogo atual.'));
+   }
+   group.append(row);
   }
   target.append(group);
  }

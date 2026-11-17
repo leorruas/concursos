@@ -41,6 +41,9 @@ assert.match(ev({mistakes:[{date:'2026-11-12'},{date:'2026-11-12'}]}),/recorrên
 assert.match(ev({mistakes:[{date:'2026-11-12'}]}),/Um erro/);
 assert.match(ev({uncertainCorrect:[{date:'2026-11-12'}]}),/insegurança/);
 assert.match(ev({mistakes:[{date:'data inválida'},{date:'data inválida'}]}),/não demonstrada/);
+assert(html.includes('id="results-concept-transfer-description"'));
+assert(source.includes('transferCombined?data.learning.byConcept:null'));
+assert(source.includes("if(!transferCombined){"));
 assert(html.includes('id="results-subject-filter"'));
 assert(source.includes('subjectGroups(activeArticles'));assert(source.includes('subjectGroups(cs'));
 console.log('OK: agrupamento por matéria, manifesto, amostra pequena e filtros de revisão.');

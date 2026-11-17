@@ -34,6 +34,7 @@ A sequência abaixo usa versões próprias da **CGU 2026, Auditoria**, sem trans
 - [[3 - Materias/Orcamento Publico/CGU 2026 - conta unica e execucao financeira|CGU 2026: Conta Única e execução financeira]]: crédito, recursos, SIAFI e rastreabilidade
 - [[3 - Materias/Orcamento Publico/CGU 2026 - responsabilidade fiscal riscos e controle|CGU 2026: responsabilidade fiscal, riscos e controle]]: LRF, metas, RCL, RREO, RGF e dívida
 - [[3 - Materias/Orcamento Publico/CGU 2026 - emendas rastreabilidade e controle|CGU 2026: emendas parlamentares, rastreabilidade e controle]]: execução, transparência, destino final e decisões aplicáveis
+- [[3 - Materias/Orcamento Publico/CGU 2026 - natureza fonte e resultado da receita|CGU 2026: natureza, fonte e resultado fiscal da receita]]: natureza, vinculação e apuração primária
 
 A lista histórica de leitura e os apontamentos CAM-ORC abaixo são preservados por compatibilidade. Essa inclusão de navegação deve ser homologada pela coordenação com testes de identidade, catálogo e Pages, antes de certificar os artigos CGU.
 

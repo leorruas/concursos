@@ -372,7 +372,17 @@ assert.equal(match('', '', 'contabilidade-publica', articleId).length, 0, 'Maté
 assert(ctx.listarArtigosGlossario(termos, '', 'contabilidade-publica').every(a => a.articleId !== articleId), 'Seletor deve mostrar apenas artigos da matéria');
 assert.equal(match('', '', '', 'artigo-inexistente').length, 0);
 const groups = JSON.parse(JSON.stringify(ctx.agruparTermosGlossario(termos)));
-assert.equal(groups.reduce((total, group) => total + group.terms.length, 0), termos.length, 'Agrupamento não deve perder ou duplicar verbetes');
+// Um verbete pode pertencer a mais de um artigo: a contagem total por grupo
+// acompanha os vínculos artigo-verbetes, sem exigir unicidade global do verbete.
+const totalVinculos = termos.reduce((total, termo) => total + (termo.articleLinks || []).length, 0);
+assert.equal(groups.reduce((total, group) => total + group.terms.length, 0), totalVinculos,
+  'Agrupamento deve representar cada vínculo artigo-verbetes uma única vez');
+assert(groups.every(group => new Set(group.terms.map(term => term.id)).size === group.terms.length),
+  'Nenhum grupo de artigo deve repetir o mesmo verbete');
+assert(termos.every(term => (term.articleLinks || []).every(link =>
+  groups.some(group => group.article.articleId === link.articleId &&
+    group.terms.some(item => item.id === term.id)))),
+  'Cada vínculo artigo-verbetes deve aparecer no grupo correspondente');
 assert.equal(groups.length, articleList.length);
 const selectedGroups = JSON.parse(JSON.stringify(ctx.agruparTermosGlossario(articleMatches, articleId)));
 assert.equal(selectedGroups.length, 1, 'Artigo selecionado deve produzir um grupo');

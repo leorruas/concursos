@@ -25,7 +25,7 @@ O ponto decisivo é identificar o problema antes de escolher a regra: falta **va
 
 A **Lei nº 4.320/1964**, que estabelece regras gerais de orçamento e contabilidade pública, chama de **créditos adicionais** as autorizações para despesas que não receberam verba específica ou receberam valor insuficiente na lei orçamentária (art. 40). **Crédito orçamentário** é a autorização legal para gastar até determinado valor em uma programação; **crédito adicional** modifica essa autorização. Ter permissão para gastar não significa ter dinheiro disponível naquele momento. Também não significa que a despesa tenha sido contratada, conferida ou paga.
 
-**Emenda parlamentar** é proposta de alteração de projeto de lei orçamentária, apresentada no processo legislativo e sujeita a condições constitucionais e legais. Ela pode originar uma programação de despesa, inclusive impositiva em situações específicas, mas não é uma das três espécies de crédito adicional.
+**Emenda parlamentar** é uma proposta de mudança que deputados, senadores ou colegiados autorizados apresentam durante a análise de um projeto de lei orçamentária. Se aprovada no processo legislativo e incorporada à lei, pode modificar valores ou finalidades das despesas. Algumas emendas geram programação de execução obrigatória, nas condições previstas na Constituição. **Emenda é uma proposta legislativa; crédito adicional é uma autorização de despesa criada ou reforçada segundo as regras legais.**
 
 ### Por que crédito especial e emenda parlamentar podem aparecer juntos?
 
@@ -33,11 +33,11 @@ Considere um caso hipotético. A **Lei Orçamentária Anual (LOA)** não reservo
 
 Uma emenda pode aumentar, reduzir ou modificar uma programação conforme as regras aplicáveis, mas **não basta ao deputado escolher um valor livremente**. Há requisitos de compatibilidade, indicação de recursos em hipóteses constitucionais e restrições a dotações que podem ser anuladas. O detalhamento está em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção “Emendas aos projetos orçamentários: critérios”. A iniciativa do Executivo e o poder parlamentar de emenda são papéis diferentes.
 
-**Reconhecimento rápido:** dotação existente e insuficiente → crédito **suplementar**; dotação específica ausente → **especial**; despesa imprevisível e urgente sob as condições constitucionais → **extraordinário**. Emenda parlamentar não é uma quarta espécie de crédito adicional. A autorização de créditos **suplementares** na própria LOA é exceção ao princípio da exclusividade; essa exceção não se estende automaticamente à autorização de créditos especiais.
+**Reconhecimento rápido:** dotação existente e insuficiente → crédito **suplementar**; dotação específica ausente → **especial**; despesa imprevisível e urgente sob as condições constitucionais → **extraordinário**. Emenda parlamentar não é uma quarta espécie de crédito adicional. A **Constituição, art. 165, § 8º**, permite que a própria LOA autorize a abertura de créditos **suplementares**. É uma exceção ao **princípio da exclusividade**, segundo o qual a LOA deve tratar, em regra, da previsão de receitas e da fixação de despesas. Essa autorização não vale automaticamente para créditos especiais.
 
 ## Perguntas que orientam a classificação
 
-O estudo dos créditos adicionais responde a quatro perguntas sucessivas. **Qual problema existe na dotação?** A insuficiência de valor remete ao crédito suplementar; a ausência de dotação específica, ao especial; a despesa imprevisível e urgente, quando preenchidas as condições constitucionais, ao extraordinário. **Quem autoriza e quem abre?** A resposta depende da espécie e do regime constitucional aplicável. **De onde vêm os recursos?** Para suplementares e especiais, examinar o art. 43 da Lei nº 4.320/1964. **Até quando vale a autorização?** Verificar exercício financeiro e a exceção de reabertura do art. 167, § 2º.
+Depois de identificar se há dotação e se o valor basta, a administração precisa responder a outras perguntas: **quem pode autorizar o crédito?** Quem pratica o ato de abertura? **Qual fonte de recursos** será utilizada, se a lei a exigir? **Por quanto tempo** a autorização pode ser usada? A espécie do crédito determina parte dessas respostas. As próximas seções mostram cada etapa.
 
 Essas perguntas são independentes: identificar uma fonte disponível não define a espécie de crédito, e abrir um crédito não comprova disponibilidade de caixa ou pagamento.
 
@@ -61,7 +61,7 @@ A ausência de dotação não torna a situação automaticamente extraordinária
 
 Na Constituição, art. 167, § 3º, crédito **extraordinário** demanda despesa **imprevisível e urgente**, como as situações expressamente exemplificadas de guerra, comoção interna ou calamidade pública. Um gestor que deseja contratar mais rapidamente ou corrigir planejamento deficiente não satisfaz, apenas por isso, esses requisitos.
 
-A Lei nº 4.320/1964, art. 44, prevê decreto com comunicação imediata ao Legislativo. **Na União**, a Constituição de 1988, arts. 167, § 3º, e 62, estabelece o regime de **medida provisória** para créditos extraordinários. Nos demais entes, a forma exige atenção ao sistema constitucional e legal aplicável. Não afirmar que toda esfera usa a mesma espécie normativa federal.
+O art. 44 da Lei nº 4.320/1964 prevê abertura por decreto e comunicação imediata ao Poder Legislativo. **Na União**, prevalece a regra específica da Constituição de 1988 (arts. 167, § 3º, e 62): o Presidente abre o crédito extraordinário por **medida provisória**, ato com força de lei que será apreciado pelo Congresso. Estados e municípios exigem análise da Constituição e das regras aplicáveis ao ente. A modalidade do ato pode mudar; os requisitos de urgência e imprevisibilidade não desaparecem.
 
 ## Autorização × abertura
 
@@ -86,9 +86,9 @@ O art. 43, § 4º, estabelece outra cautela: ao calcular quanto do excesso de ar
 
 ### Superávit financeiro × excesso de arrecadação
 
-O **superávit financeiro** olha para o que sobrou, nas condições da lei, ao final do **ano anterior**. O **excesso de arrecadação** compara as receitas que entraram no **ano atual** com as previstas para o mesmo período e considera a tendência para os meses restantes. São formas diferentes de identificar recursos, e nenhuma delas autoriza ignorar despesas já comprometidas ou a finalidade legal de cada fonte.
+O **superávit financeiro** é apurado a partir da posição financeira ao final do **ano anterior**, considerando os ajustes determinados por lei. O **excesso de arrecadação** compara as receitas que entraram no **ano atual** com as previstas para o mesmo período e considera a tendência para os meses restantes. São formas diferentes de identificar recursos, e nenhuma delas autoriza ignorar despesas já comprometidas ou a finalidade legal de cada fonte.
 
-**Não substituir por superávit primário**: esse é um indicador fiscal de outra finalidade, discutido em [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]].
+O **resultado primário** compara receitas e despesas primárias, isto é, em termos gerais, sem as operações financeiras próprias da dívida. Ter superávit primário não demonstra a existência de superávit financeiro utilizável como fonte de crédito adicional. O assunto é aprofundado em [[3 - Materias/Financas Publicas/financas-publicas|Finanças Públicas]].
 
 ### Cálculo de recursos disponíveis: duas provas diferentes
 
@@ -96,7 +96,7 @@ O **superávit financeiro** olha para o que sobrou, nas condições da lei, ao f
 
 **Excesso de arrecadação do exercício corrente.** Imagine que até agosto tenham sido arrecadados R$ 12 milhões, ante R$ 11 milhões previstos para o mesmo período, com tendência positiva sustentável no restante do ano. A diferença acumulada é de **R$ 1 milhão**, mas o valor aproveitável ainda depende da avaliação da tendência, dos compromissos, das fontes e do ajuste exigido no **art. 43, § 4º, da Lei nº 4.320/1964** para créditos extraordinários abertos no exercício. Se houver R$ 200 mil de créditos extraordinários a deduzir nessa apuração, o saldo ilustrativo cai para **R$ 800 mil**, antes de outros condicionantes. Não se deve usar apenas a arrecadação de agosto nem concluir que o total é caixa livre.
 
-**C/E inédito:** A diferença positiva entre ativo e passivo financeiros apurada no balanço patrimonial anterior equivale, sem outros ajustes, ao montante necessariamente disponível para qualquer crédito especial. **Gabarito: Errado.** A conta inicial precisa considerar os ajustes do art. 43, § 2º, além das condições jurídicas de disponibilidade, comprometimento e destinação.
+**Questão inédita Cebraspe, Certo ou Errado (C/E):** A diferença positiva entre ativo e passivo financeiros apurada no balanço patrimonial anterior equivale, sem outros ajustes, ao montante necessariamente disponível para qualquer crédito especial. **Gabarito: Errado.** A conta inicial precisa considerar os ajustes do art. 43, § 2º, além das condições jurídicas de disponibilidade, comprometimento e destinação.
 
 ### Exemplo de anulação
 
@@ -110,42 +110,42 @@ Os créditos adicionais se vinculam, em regra, ao exercício financeiro. Pela Co
 
 ## Emendas aos projetos orçamentários: critérios
 
-Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Emendas aos projetos orçamentários: critérios**.
+**Aqui o critério é a etapa:** a emenda modifica um projeto que ainda está sob deliberação; o crédito adicional modifica a autorização orçamentária segundo a lei. A explicação completa está em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]].
 
 ### Emendas à LOA: compatibilidade e recursos
 
-Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Emendas à LOA: compatibilidade e recursos**.
+A Constituição, art. 166, § 3º, estabelece condições para aprovar emendas ao projeto da LOA, inclusive compatibilidade com o PPA e a LDO e regras de indicação de recursos. Essas condições não substituem as regras do art. 43 da Lei nº 4.320/1964 para abrir créditos adicionais. Veja [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|o artigo sobre emendas]].
 
 ## Emendas parlamentares: individuais, bancadas e comissões
 
-Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Emendas parlamentares: individuais, bancadas e comissões**.
+Essas expressões classificam **quem apresenta** a emenda: parlamentar, bancada estadual ou comissão. Suplementar, especial e extraordinário classificam **o tipo de crédito adicional**, não a autoria da proposta. As modalidades de emenda são explicadas em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares]].
 
 ### Emendas impositivas: obrigatoriedade condicionada
 
-Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Emendas impositivas: obrigatoriedade condicionada**.
+**Execução obrigatória** significa que a administração deve executar a programação nas condições constitucionais e legais, inclusive quanto a impedimentos técnicos. A autorização legislativa ainda não corresponde a pagamento. Veja [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]].
 
 ### Transferência especial × finalidade definida
 
-Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Transferência especial × finalidade definida**.
+Essas são formas de executar determinadas emendas individuais: a **transferência especial** segue o art. 166-A da Constituição e tem regime próprio; a transferência com **finalidade definida** atende objeto especificado pela União. Nenhuma delas é espécie de crédito adicional. Veja [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares]].
 
 ### Regras atuais e limites da memorização
 
-Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Regras atuais e limites da memorização**.
+As normas sobre modalidades e execução de emendas podem mudar. Para classificar um crédito adicional, porém, o ponto de partida continua sendo a função das três espécies no art. 41 da Lei nº 4.320/1964. Confira alterações específicas em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares]].
 
 ### Refinamento normativo: percentuais e exceções que alteram o C/E
 
-Este assunto foi desenvolvido em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]], na seção **Refinamento normativo: percentuais e exceções que alteram o C/E**.
+Percentuais e condições de impositividade dizem respeito ao **regime de execução de emendas**, não ao cálculo dos créditos adicionais. O detalhamento atualizado fica em [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|Emendas parlamentares e orçamento impositivo]].
 
 ## Refinamento para Câmara 2026: crédito orçamentário, adicional e deliberação
 
-O [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|processamento legislativo das leis orçamentárias]] inclui projetos de créditos adicionais, mas a tramitação não altera a **espécie jurídica** do crédito. No glossário do Congresso, **crédito orçamentário** é a autorização de despesas, expressa em valores monetários na Lei Orçamentária Anual (LOA), para determinada programação; **crédito adicional** é o instrumento de ajuste dessa autorização quando inexistente ou insuficiente. O adicional **não se confunde** com receita nova, disponibilidade financeira, empenho ou pagamento.
+O Congresso também aprecia [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|projetos de lei de créditos adicionais]]. O nome e a tramitação do projeto não mudam a função de cada espécie. O quadro a seguir reúne os conceitos já explicados para ajudar a identificar a providência adequada em uma questão da Câmara.
 
 | Situação em uma unidade orçamentária | Instrumento ou providência | Por que os outros não servem automaticamente |
 | :--- | :--- | :--- |
 | LOA autoriza R$ 300 mil para ação existente; são necessários R$ 400 mil | **Crédito suplementar** de R$ 100 mil, com requisitos legais de autorização, abertura e fonte | A ação já tem dotação; **especial** não é a resposta típica |
 | A LOA não contém dotação específica para nova ação previsível | **Crédito especial**, observada autorização legislativa e indicação de recursos | Ausência de dotação **não prova** imprevisibilidade e urgência |
 | Despesa imprevisível e urgente decorrente de calamidade, demonstrados os requisitos constitucionais | **Crédito extraordinário**; na União, medida provisória, conforme CF, art. 167, § 3º | A mera pressa administrativa não satisfaz o requisito |
-| O PLOA ainda está sendo discutido e parlamentar propõe alterar a programação | **Emenda ao projeto orçamentário**, sob regras do art. 166 | Emenda à proposta não equivale à abertura de crédito adicional de LOA já vigente |
+| O **Projeto de Lei Orçamentária Anual (PLOA)** ainda está sendo discutido e parlamentar propõe alterar a programação | **Emenda ao projeto orçamentário**, sob regras do art. 166 | Emenda à proposta não equivale à abertura de crédito adicional de LOA já vigente |
 | Dotação já existe e órgão dispõe de limite para empenho, mas falta caixa para pagar | Examinar **programação financeira e execução** | Abrir novo crédito não resolve automaticamente insuficiência de caixa |
 
 **Autorização e abertura são decisões diferentes.** Pela Lei nº 4.320/1964, art. 42, créditos **suplementares e especiais são autorizados por lei e abertos por decreto executivo**. A LOA pode conter autorização para abertura de **suplementares**, conforme CF, art. 165, § 8º; não se deve estender essa exceção aos especiais. Na União, créditos **extraordinários** são abertos por **medida provisória**, nos termos da CF, art. 167, § 3º, e art. 62. O art. 44 da Lei nº 4.320/1964 refere-se a abertura por decreto com imediata comunicação ao Legislativo: reproduzir essa regra geral sem a especificidade constitucional federal dá origem a um distrator.
@@ -166,9 +166,9 @@ O [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcament
 
 **Questão inédita Cebraspe (C/E).** Uma proposição classificada como PLN de crédito especial, ao ser aprovada pelo Congresso, passa necessariamente a corresponder a despesa já empenhada e paga, pois a autorização legislativa substitui as etapas da execução orçamentária e financeira.
 
-**Gabarito: Errado.** A deliberação do projeto e a abertura do crédito dizem respeito à **autorização de despesa**. **Empenho, liquidação e pagamento** são atos próprios de execução, sujeitos a condições e controles. O distrator desloca uma consequência real da aprovação orçamentária para uma fase posterior que não ocorreu automaticamente.
+**Gabarito: Errado.** Aprovar a lei permite criar a autorização; abrir o crédito torna essa autorização utilizável conforme as regras. Depois, a unidade faz o **empenho** (reserva parte da autorização para uma despesa), a **liquidação** (verifica se o fornecedor cumpriu a obrigação) e, quando houver condições financeiras e jurídicas, o **pagamento** (entrega o dinheiro devido). Aprovação legislativa não executa automaticamente essas três etapas.
 
-**Heurística adicional para a Câmara:** pergunte em ordem **(1) há dotação específica? (2) ela é suficiente? (3) a despesa é imprevisível e urgente? (4) qual espécie e fonte? (5) quem autoriza e como se abre? (6) trata-se de PLN em tramitação, lei vigente ou despesa executada? (7) existe hipótese de reabertura?** A classificação correta depende dessas respostas, não do nome do órgão beneficiado.
+**Roteiro de decisão para a Câmara:** verifique primeiro se há dotação específica e valor suficiente. Depois, examine eventual imprevisibilidade e urgência, a espécie de crédito e sua fonte, quem pode autorizá-lo, como se abre e por quanto tempo vale. Por fim, identifique a fase: proposta em discussão, autorização vigente ou despesa em execução. O nome do órgão beneficiado não determina a espécie do crédito.
 
 **Fontes verificadas em 07/11/2026:** [Lei nº 4.320/1964, arts. 40 a 46, texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html); [CF, art. 167, §§ 2º e 3º, texto e jurisprudência do STF](https://portal.stf.jus.br/Constituicao-Supremo/artigo.asp?abrirArtigo=167&abrirBase=CF); [Glossário de Termos Orçamentários do Congresso](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-orcamentario/-/orcamentario/lista/C); [CMO, tramitação de créditos em 2026](https://www.congressonacional.leg.br/web/cmo/materias/quadro-de-tramitacao/-/quadro/creditos/2026).
 
@@ -188,7 +188,7 @@ Uma ação foi esquecida na LOA, mas seu objeto era previsível e pode esperar o
 
 **Item 1.** O crédito especial reforça dotação existente, enquanto o crédito suplementar atende despesa sem dotação específica. **Gabarito: Errado.** As funções foram invertidas: suplementar **reforça**; especial **cria autorização para dotação ausente**.
 
-**Item 2.** O superávit financeiro apurado no balanço patrimonial do exercício anterior pode ser fonte para abertura de crédito suplementar ou especial, desde que atendidas as condições legais. **Gabarito: Certo.** É fonte do art. 43. Não é sinônimo de superávit primário.
+**Item 2.** O superávit financeiro apurado no balanço patrimonial do exercício anterior pode ser fonte para abertura de crédito suplementar ou especial, desde que atendidas as condições legais. **Gabarito: Certo.** O art. 43, § 1º, I, da Lei nº 4.320/1964 admite essa fonte, desde que o recurso não esteja comprometido. O valor depende do cálculo e dos ajustes legais; não corresponde ao resultado primário do ano.
 
 Esses itens são inéditos e didáticos, não resultados de treino nem questões oficiais.
 

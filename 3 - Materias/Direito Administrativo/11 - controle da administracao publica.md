@@ -25,12 +25,12 @@ A Administração controla seus próprios atos. As Súmulas 346 e 473 do STF con
 - **anulação**: retirada de ato ilegal;
 - **revogação**: retirada de ato válido por razões de conveniência e oportunidade, respeitados os limites jurídicos.
 
-A autotutela não elimina contraditório e ampla defesa quando o desfazimento atingir situação jurídica individual já concretizada. A jurisprudência do STF exige processo administrativo regular em hipóteses nas quais a revisão estatal repercute sobre efeitos concretos já produzidos.
+A **Súmula 346 do STF** afirma a possibilidade de a Administração declarar a nulidade dos próprios atos; a **Súmula 473** diferencia anulação por ilegalidade e revogação por conveniência e oportunidade, ressalvados direitos adquiridos e a apreciação judicial. Essas súmulas não são artigos de lei. O **Tema 138 do STF (RE 594.296)** exige procedimento administrativo regular, com contraditório e ampla defesa, para desfazer ato cujos efeitos concretos já repercutiram em interesses individuais. Exemplo: a Administração identifica um benefício concedido ilegalmente e precisa considerar o procedimento devido e a segurança jurídica antes do desfazimento.
 
 > [!WARNING]
 > **Anular ≠ revogar.** Ilegalidade aponta para anulação. Mérito administrativo aponta para revogação.
 
-A Lei nº 9.784/1999, no âmbito federal, disciplina anulação, revogação, decadência e convalidação. Ver [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]].
+A **Lei nº 9.784/1999 (Lei do Processo Administrativo Federal)**, nos **arts. 53 a 55**, determina que a Administração deve anular atos ilegais e pode revogar atos válidos por conveniência ou oportunidade, respeitados direitos adquiridos; estabelece, em regra, **decadência de cinco anos** para anular atos que produzam efeitos favoráveis aos destinatários, salvo comprovada má-fé (art. 54), e admite **convalidação de defeitos sanáveis**, quando não houver lesão ao interesse público nem prejuízo a terceiros (art. 55). O prazo quinquenal do art. 54 não deve ser confundido com o do **Tema 445 do STF**, que tem marco inicial e objeto próprios para o registro de aposentadoria, reforma ou pensão pelos tribunais de contas. Ver [[3 - Materias/Direito Administrativo/03 - atos administrativos|Atos administrativos]].
 
 ## Controle interno × externo
 
@@ -44,7 +44,9 @@ Entre suas funções constitucionais estão avaliar cumprimento de metas, compro
 
 No plano federal, é exercido pelo **Congresso Nacional com auxílio do Tribunal de Contas da União**. Não há relação de hierarquia entre sistema de controle interno e controle externo.
 
-O TCU possui competências constitucionais próprias, incluindo apreciar as contas anuais do Presidente da República, julgar contas de administradores e responsáveis, realizar inspeções e auditorias, apreciar legalidade de determinados atos de pessoal e aplicar sanções nas hipóteses constitucionais e legais.
+O TCU possui competências constitucionais próprias, especialmente no **art. 71 da Constituição**. É decisivo distinguir dois verbos: o **TCU aprecia as contas anuais do Presidente da República e emite parecer prévio em sessenta dias a partir do recebimento** (inciso I), enquanto o **Congresso Nacional julga essas contas** (art. 49, IX). Já o **TCU julga as contas dos demais administradores e responsáveis por dinheiro, bens e valores federais** (art. 71, II). Também realiza inspeções e auditorias (IV), aprecia para fins de registro a legalidade de admissões e concessões iniciais de aposentadoria, reforma e pensão nas hipóteses constitucionais (III), aplica sanções legais (VIII), assina prazo para correção de ilegalidade (IX) e, persistindo a irregularidade, susta a execução de ato impugnado (X). **Contrato** possui regime distinto: a sustação é adotada diretamente pelo Congresso Nacional, que solicita providências ao Executivo; se não houver medidas em noventa dias, o TCU decide a respeito (§§ 1º e 2º).
+
+O **Tema 445 do STF (RE 636.553)** fixa cinco anos, contados da chegada do processo à respectiva Corte de Contas, para julgamento da legalidade da concessão inicial de aposentadoria, reforma ou pensão. Esse prazo não começa necessariamente na edição do ato pelo órgão de origem. A **Súmula Vinculante 3 do STF** trata do contraditório perante o TCU e ressalva a apreciação da legalidade da concessão inicial; a aplicação deve considerar o Tema 445 e a segurança jurídica. Não converter essa exceção em dispensa geral de defesa nos demais processos de controle.
 
 Ver [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]].
 
@@ -61,13 +63,13 @@ Ver [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislati
 
 O Poder Legislativo exerce controle nas hipóteses previstas constitucionalmente, especialmente fiscalização contábil, financeira, orçamentária, operacional e patrimonial, além de mecanismos políticos e institucionais próprios.
 
-Esse controle não é ilimitado: o Legislativo não pode substituir genericamente a Administração em escolhas que a Constituição ou a lei reservaram ao Executivo.
+Esse controle não é ilimitado: o Legislativo não pode substituir genericamente a Administração em escolhas que a Constituição ou a lei reservaram ao Executivo. **Fiscalizar** significa examinar fatos, documentos, conformidade e resultados; **controlar** pode ainda incluir providências corretivas expressamente autorizadas. Por exemplo, uma comissão pode fiscalizar contrato e solicitar informações, mas não pode simplesmente assumir a gestão do contrato e escolher o fornecedor no lugar da autoridade administrativa.
 
 ### Controle judicial
 
 O Judiciário pode controlar a **juridicidade** da atuação administrativa: Constituição, lei, princípios, finalidade, razoabilidade, proporcionalidade, devido processo e outros limites jurídicos.
 
-O Judiciário **não revoga** ato administrativo por discordar de sua conveniência e oportunidade. Pode, porém, invalidar ato discricionário quando houver ilegalidade, desvio de finalidade, abuso, ausência de motivação exigida ou violação de princípios jurídicos.
+O Judiciário **não revoga** ato administrativo por discordar de sua conveniência e oportunidade. Pode, porém, invalidar ato discricionário quando houver ilegalidade, desvio de finalidade, abuso, ausência de motivação exigida ou violação de princípios jurídicos. **Exemplo:** se a autoridade escolhe entre duas soluções permitidas, com motivação adequada, o juiz não substitui essa escolha porque prefere a outra. Se a escolha usa critério discriminatório vedado, há vício jurídico controlável. O controle judicial também se submete às condições processuais da demanda, e não equivale a uma instância administrativa universal de recurso.
 
 > [!TIP]
 > A frase “ato discricionário não pode ser controlado pelo Judiciário” é falsa. O que o Judiciário não faz é substituir legitimamente a Administração na escolha de mérito dentro da faixa juridicamente permitida.
@@ -86,9 +88,9 @@ O Judiciário **não revoga** ato administrativo por discordar de sua conveniên
 Controle social não se confunde com controle interno ou externo institucional. Ele pode ser estimulado e organizado pelo próprio Estado sem deixar de ser participação social.
 
 
-### Nova conexão: controle social, LAI e auditoria
+### Controle social, LAI e auditoria
 
-O **art. 3º, V, da Lei nº 12.527/2011** estabelece o desenvolvimento do controle social como diretriz da **Lei de Acesso à Informação (LAI)**. Seu **art. 7º, VII, b** permite obter resultados de inspeções, auditorias, prestações e tomadas de contas dos órgãos de controle interno e externo. Assim, uma pessoa pode examinar relatórios, confrontar despesas com contratos e encaminhar indícios de irregularidade. Esse acompanhamento permanece **controle social**, ainda que utilize técnicas de análise documental: **não se confunde com a auditoria interna governamental nem com o controle externo constitucional**.
+O **art. 3º, V, da Lei nº 12.527/2011 (Lei de Acesso à Informação, LAI)** estabelece o desenvolvimento do controle social como diretriz. Seu **art. 7º, VII, b** permite obter resultados de inspeções, auditorias, prestações e tomadas de contas dos órgãos de controle interno e externo. Assim, uma pessoa pode examinar relatórios, confrontar despesas com contratos e encaminhar indícios de irregularidade. Esse acompanhamento permanece **controle social**, ainda que utilize técnicas de análise documental: **não se confunde com a auditoria interna governamental nem com o controle externo constitucional**.
 
 Ver [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao#Nova conexão: LAI e auditoria governamental|LAI e limites de acesso]] e [[3 - Materias/Auditoria Governamental/01 - finalidades e tres linhas#Nova conexão: Lei de Acesso à Informação, resultados de auditoria e controle social|Resultados de auditorias e controle social]].
 
@@ -164,6 +166,12 @@ A FGV já cobrou expressamente que o controle interno existe nos diversos Podere
 
 **“Uma autarquia está hierarquicamente subordinada ao ministério ao qual se vincula.”** Errado. Há vinculação e supervisão finalística, não hierarquia entre pessoas jurídicas distintas.
 
+**“O TCU julga as contas anuais do Presidente da República, enquanto o Congresso apenas emite parecer prévio.”** Errado. O TCU emite parecer prévio; o julgamento das contas presidenciais é competência do Congresso Nacional, conforme arts. 49, IX, e 71, I, da Constituição.
+
+**“O prazo de cinco anos do Tema 445 do STF, relativo ao registro inicial de aposentadoria pelo Tribunal de Contas, conta-se da chegada do processo à Corte de Contas.”** Certo. Esse é o marco definido no RE 636.553, diferente do art. 54 da Lei nº 9.784/1999.
+
+**“O TCU pode sustar diretamente a execução de qualquer contrato administrativo irregular, dispensada a participação do Congresso.”** Errado. A sustação de contrato tem procedimento específico no art. 71, §§ 1º e 2º, da Constituição.
+
 ## Heurísticas
 
 - **Ilegalidade → anulação.**
@@ -176,6 +184,8 @@ A FGV já cobrou expressamente que o controle interno existe nos diversos Podere
 
 ## Fontes
 
-- Constituição da República Federativa do Brasil de 1988, especialmente arts. 37, 70 a 75.
-- Lei nº 9.784, de 29 de janeiro de 1999, especialmente arts. 53 a 55, no âmbito federal.
-- STF, Súmulas 346 e 473 e Tema 138.
+- [Constituição da República Federativa do Brasil de 1988](https://www2.camara.leg.br/atividade-legislativa/legislacao/Constituicoes_Brasileiras/constituicao-cidada/constituicao-federal/index.html/CF1988.html): arts. 37, 49, IX, e 70 a 75 (competências do Congresso, TCU e controles internos).
+- [Lei nº 9.784, de 29 de janeiro de 1999](https://www.planalto.gov.br/ccivil_03/leis/l9784.htm): Lei do Processo Administrativo Federal, arts. 53 a 55.
+- [Lei nº 12.527, de 18 de novembro de 2011](https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm): Lei de Acesso à Informação, arts. 3º, V, e 7º, VII, b.
+- [STF, Tema 138 (RE 594.296)](https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?classeProcesso=RE&incidente=2644122&numeroProcesso=594296&numeroTema=138), Súmulas 346 e 473 e Súmula Vinculante 3.
+- [STF, Tema 445 (RE 636.553)](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=437550&ori=1): prazo de apreciação de ato de concessão inicial pelos tribunais de contas.

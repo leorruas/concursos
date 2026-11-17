@@ -8,7 +8,8 @@ const DISPLAY={
  'portugues':'Língua Portuguesa','ingles':'Língua Inglesa','direito-administrativo':'Direito Administrativo',
  'administracao-publica':'Administração Pública','direito-constitucional':'Direito Constitucional',
  'informatica':'Tecnologia da Informação','comunicacao':'Comunicação Social','estado-democracia':'Ciência Política e Estado',
- 'orcamento-publico':'Orçamento Público','etica-publica':'Ética e decoro parlamentar','redacao':'Redação'
+ 'orcamento-publico':'Orçamento Público','etica-publica':'Ética e decoro parlamentar','redacao':'Redação',
+ 'sem-materia':'Matéria não identificada'
 };
 let manifest=new Map(),current=null;
 let selectedSubject='';
@@ -171,7 +172,7 @@ function render(){
   row.append(copy,bar,value);return row;
  }));
  if(!levels.length)difficultyRoot.append(el('p','results-caption','Ainda não existem tentativas classificadas para este concurso.'));
- const cs=(current.concepts||[]).filter(c=>c.errors||c.uncertain)
+ const cs=(current.concepts||[]).filter(c=>c.errors||c.uncertain||c.dueOn)
   .filter(c=>!selectedSubject||c.subjectId===selectedSubject);
  const conceptRoot=$('results-concepts');
  conceptRoot.replaceChildren();
@@ -194,11 +195,15 @@ function render(){
  filter.replaceChildren(...nextOptions.map(([value,label])=>{const option=el('option','',label);option.value=value;return option;}));
  if(selectedSubject&&!subjects.has(selectedSubject))selectedSubject='';
  filter.value=selectedSubject;
+ const articleCounts=new Map(),conceptCounts=new Map();
+ for(const item of allArticles){const key=articleSubject(item,concepts);articleCounts.set(key,(articleCounts.get(key)||0)+1);}
+ for(const item of concepts.filter(c=>c.errors||c.uncertain||c.dueOn)){const key=item.subjectId||'sem-materia';conceptCounts.set(key,(conceptCounts.get(key)||0)+1);}
  const difficultyBySubject=new Map((current.difficulty?.bySubject||[]).map(x=>[x.id,x]));
  $('results-subjects').replaceChildren(...(current.bySubject||[]).map(sub=>{
   const row=el('tr'),judged=sub.correct+sub.incorrect;
   const conf=difficultyBySubject.get(sub.id)?.uncertain||0;
-  for(const x of [title(sub.id),sub.total,sub.correct,sub.incorrect,conf,judged?Math.round(1000*sub.correct/judged)/10+'%':'Sem amostra'])row.append(el('td','',x));
+  for(const x of [title(sub.id),sub.total,sub.correct,sub.incorrect,conf,judged?Math.round(1000*sub.correct/judged)/10+'%':'Sem amostra',
+   articleCounts.get(sub.id)||0,conceptCounts.get(sub.id)||0])row.append(el('td','',x));
   return row;
  }));
  $('results-unified-method').textContent='Histórico até '+fmtDate(current.cut)+'. '+valid+' tentativas válidas de estudo, sem somar duas vezes um registro identificado nas duas fontes.';

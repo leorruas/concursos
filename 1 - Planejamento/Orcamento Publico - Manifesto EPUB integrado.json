@@ -369,9 +369,10 @@
       "sourceArticleId": "art-4677cfa327ce43bb",
       "topicKey": "receitas-estagios",
       "sequence": 11,
-      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
+      "revisionSha": "1d28fd3fe5c0e2acf5a62350fb7488c7ea41f02e"
     },
     {
       "chapterKey": "cgu-12-novo",
@@ -381,9 +382,10 @@
       "sourceArticleId": "art-67167e9c18284c4c",
       "topicKey": "despesas-estagios",
       "sequence": 12,
-      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "certificationStatus": "revisao-integral-concluida-com-ressalva-visual",
       "include": false,
-      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+      "selectionStatus": "certificado-com-ressalva-visual-curadoria-epub-pendente",
+      "revisionSha": "e6397064aca101f7b9c30055f1d761ba492555aa"
     },
     {
       "chapterKey": "cgu-13-novo",

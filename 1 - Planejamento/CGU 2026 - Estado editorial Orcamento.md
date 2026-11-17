@@ -2,7 +2,7 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: sete-certificados-oito-em-auditoria
+status: nove-certificados-seis-em-auditoria
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -450,3 +450,27 @@ No artigo `art-83d7c5ef2a0b4916`, conferidos **10 de 10 itens C/E e suas justifi
 **Ressalva visual para ambos:** inspeção manual individual no navegador não realizada. Não foram examinadas presencialmente as páginas em modo claro/escuro, largura mobile, contraste percebido, tabelas eventualmente cortadas, navegação de teclado, âncoras e estado dos componentes. As verificações automatizadas de navegação e de links não equivalem a essa inspeção. Não há defeito visual concreto comprovado; o teste permanece indisponível. A publicação do Markdown foi confirmada pelo workflow informado. A descoberta posterior de defeito real reabre a certificação da nota afetada.
 
 **Placar deste ciclo:** **2 de 10 artigos CGU derivados com revisão integral concluída com ressalva visual; 8 de 10 pendentes de auditoria individual de mérito; 20 de 100 itens C/E deste lote certificados editorialmente**. Somados aos cinco certificados anteriores, são **7 de 15 artigos CGU certificados com ressalva visual**. A migração das referências legadas e as decisões de inclusão no EPUB continuam bloqueadas até conferir os consumidores.
+
+## Segundo ciclo: certificação de receitas e despesas (17/11/2026)
+
+**Gate comum:** versão consolidada do edital CGU retificada em 06/11/2026; fontes normativas verificadas em texto oficial da Câmara e no portal do Tesouro Nacional para o MCASP 11ª edição; quatro links quebrados do MCASP corrigidos no commit `a239c7c17c7d2c4ae752cf5918b40a1c3cea13ba`. Workflow [44188330526](https://github.com/leorruas/concursos/actions/runs/44188330526), conclusão `success`, inclusive as etapas de publicação e confirmação do catálogo servido no Pages. Não houve alteração posterior dos blobs desta dupla.
+
+### Receitas públicas, registros e evidências
+
+- `articleId:` `art-b3e5d91a740c46f8`; blob auditado e publicado `1d28fd3fe5c0e2acf5a62350fb7488c7ea41f02e`.
+- **Fontes:** Lei nº 4.320/1964, arts. 3º, 30, 35, 52 a 57; Código Tributário Nacional, art. 142; MCASP 11ª edição, etapas da receita.
+- **Revisão de mérito e didática:** Duas leituras do texto integral; conferidos ingresso orçamentário/extraorçamentário, ARO, previsão, lançamento, arrecadação, recolhimento, receita orçamentária versus patrimonial e distinção de data de corte. Os dez itens e gabaritos foram confrontados com a legislação e as distinções didáticas. O caso dos três valores divergentes apresenta a necessidade de diligência, sem presumir irregularidade.
+- **Integridade:** dez de dez itens C/E revisados com justificativa, 4 wikilinks presentes com destinos existentes, frontmatter válido na verificação do build, índice/hub/rota CGU presentes.
+- **Estado final:** **revisão integral concluída com ressalva visual**.
+
+### Despesa pública, empenho, liquidação e evidências
+
+- `articleId:` `art-79e2c6a4f80143bd`; blob auditado e publicado `e6397064aca101f7b9c30055f1d761ba492555aa`.
+- **Fontes:** Lei nº 4.320/1964, arts. 35 e 58 a 65; MCASP 11ª edição, etapas e execução orçamentária da despesa.
+- **Revisão de mérito e didática:** Duas leituras do texto integral; conferidos dotação, empenho anterior à despesa, distinção entre dispensa de nota e dispensa de empenho, empenho ordinário/global/estimativo, liquidação, documentos de entrega, ordem de pagamento e reconciliação com valores pagos. Dez itens com justificativas consistentes com os dispositivos legais. Exemplos de equipamento e ateste mostram diferença entre registro e entrega.
+- **Integridade:** dez de dez itens C/E revisados com justificativa, 5 wikilinks presentes com destinos existentes, frontmatter válido na verificação do build, índice/hub/rota CGU presentes.
+- **Estado final:** **revisão integral concluída com ressalva visual**.
+
+**Ressalva visual:** inspeção manual das páginas não realizada no navegador; contraste, modo claro/escuro, largura mobile, quebra de tabelas, modal, navegação por teclado e âncoras não foram observados individualmente. A validação automática de links e Pages não substitui essa inspeção. Sem defeito visual concreto identificado, a ressalva registra exclusivamente esse teste indisponível.
+
+**Placar atualizado:** nove de quinze artigos CGU têm revisão integral concluída com ressalva visual, incluindo **quatro de dez derivados**. Permanecem seis derivados pendentes de revisão de mérito individual, a compatibilidade de flashcards/glossário/theoryRefs e a inspeção visual. Nenhum EPUB foi gerado.

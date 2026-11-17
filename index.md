@@ -207,6 +207,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
    - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026 • Esferas da LOA e empresas estatais dependentes]]
    - [[3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes|CGU 2026 • Princípios orçamentários e vedações constitucionais]]
    - [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|CGU 2026 • Classificações de receitas e despesas na auditoria]]
+   - [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria|CGU 2026 • Créditos adicionais e evidências de auditoria]]
    - [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa|02 • PPA, LDO e LOA: artigo original (Câmara)]]
    - [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|02a • Esferas da LOA e estatais]]
    - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|03 • Princípios orçamentários]]

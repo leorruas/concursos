@@ -17,15 +17,16 @@ Matéria de planejamento e execução orçamentária, receita, despesa e respons
 
 O contrato de propriedade e migração é [[1 - Planejamento/Orcamento Publico - Arquitetura CGU e Camara|Arquitetura CGU/Câmara]]. A [[1 - Planejamento/Orcamento Publico - Dependencias e migracao dos IDs|auditoria de dependências]] registra dez artigos históricos de Orçamento ainda compartilhados e uma referência transversal de Atualidades. Os roteiros próprios são [[1 - Planejamento/CGU 2026 - Percurso editorial Orcamento|CGU 2026]] e [[1 - Planejamento/Camara 2026 - Percurso editorial Orcamento|Câmara 2026]]. Essas rotas organizam a leitura **por concurso**; o percurso histórico da biblioteca geral permanece abaixo para compatibilidade. O catálogo v2 continua sendo a fonte de pertencimento. Artigos que ainda compartilham IDs no catálogo são **legados transitórios** e não recebem certificação CGU por herança. Somente a coordenação pode editar `index.md`, hub, catálogo v2 e as instruções globais durante esta migração. Os demais agentes criam/revisam exclusivamente suas notas e seus estados, sem modificar arquivos de outra frente. Não editar `data/questoes-camara.json` nesta operação. O futuro EPUB integrado usa manifesto derivado e nunca altera originais.
 
-## Percurso exclusivo CGU 2026: primeiros cinco artigos
+## Percurso próprio CGU 2026: artigos específicos e legados em transição
 
-A sequência abaixo usa versões próprias da **CGU 2026, Auditoria**, sem transferir certificação da Câmara. Os demais temas do percurso continuam representados por legados transitórios, sujeitos à separação editorial. Os vínculos no catálogo de concursos definem a leitura por prova.
+A sequência abaixo usa versões próprias da **CGU 2026, Auditoria**, sem transferir certificação da Câmara. Os primeiros cinco artigos têm certificação editorial com ressalva visual; a nova nota de créditos adicionais aguarda auditoria independente. Os demais temas do percurso continuam representados por legados transitórios, sujeitos à separação editorial. Os vínculos no catálogo de concursos definem a leitura por prova.
 
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]]: etapas, autorização, execução e entrega
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: planejamento e comprovação de metas
 - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: controle societário e dependência jurídica
 - [[3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes|CGU 2026: princípios orçamentários e vedações constitucionais]]: legalidade das autorizações e exceções
 - [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|CGU 2026: classificações de receitas e despesas na auditoria]]: natureza, fonte, GND, RP e IU
+- [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria|CGU 2026: créditos adicionais e evidências de auditoria]]: espécies, autorização, recursos, reabertura e achados
 
 A lista histórica de leitura e os apontamentos CAM-ORC abaixo são preservados por compatibilidade. Essa inclusão de navegação deve ser homologada pela coordenação com testes de identidade, catálogo e Pages, antes de certificar os artigos CGU.
 

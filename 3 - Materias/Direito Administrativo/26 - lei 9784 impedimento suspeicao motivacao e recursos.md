@@ -54,7 +54,7 @@ flowchart TD
     IMPED -. "Omissão de Comunicação" .-> FALTA["Falta grave para fins disciplinares<br>(Art. 19)"]:::raiz
 ```
 
-### 1.1 Impedimento (art. 18): hipóteses legais e dever de abstenção
+### 1.1 Impedimento (art. 18): presunção absoluta e dever de abstenção
 
 O **impedimento** ocorre quando a lei identifica uma ligação concreta entre quem atua no processo e o assunto ou as pessoas envolvidas. A regra evita que alguém participe de uma decisão na qual tenha interesse próprio ou um vínculo previsto no art. 18. A lei exige o afastamento; não é necessário provar que a pessoa efetivamente favoreceu alguém. A Lei nº 9.784/1999 não afirma, nesses dispositivos, que todo ato praticado por impedido seja automaticamente insanável: as consequências para o ato exigem análise jurídica própria.
 
@@ -65,7 +65,7 @@ O **impedimento** ocorre quando a lei identifica uma ligação concreta entre qu
 
 - **Dever de comunicação e falta grave (art. 19):** a autoridade ou servidor impedido deve **comunicar o fato à autoridade competente e abster-se de atuar**. A omissão da comunicação constitui **falta grave para efeitos disciplinares**. A regra do art. 19 se refere especificamente ao impedimento; ela não diz que deixar de comunicar suspeição gera automaticamente a mesma falta grave.
 
-### 1.2 Suspeição (art. 20): amizade, inimizade e arguição
+### 1.2 Suspeição (art. 20): presunção relativa e arguição
 
 A **suspeição** permite questionar a imparcialidade quando há amizade íntima ou inimizade notória. Ao contrário do impedimento, o art. 20 usa a expressão **“pode ser arguida”**: o interessado pode apresentar a alegação, que precisa ser examinada. Por exemplo, conhecer uma pessoa apenas por trabalhar no mesmo prédio não prova amizade íntima: é necessário avaliar a natureza do vínculo.
 - Pode ser arguida a suspeição de autoridade ou servidor que tenha **amizade íntima** ou **inimizade notória** com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o **terceiro grau**;
@@ -176,7 +176,7 @@ O **efeito suspensivo** é outra coisa: significa que a execução dos efeitos d
 
 ---
 
-## 4. Agravamento no recurso e proibição de agravamento na revisão
+## 4. Confronto crucial: *reformatio in pejus* no recurso versus vedação na revisão
 
 A expressão latina ***reformatio in pejus*** significa **mudança da decisão para piorar a situação de quem recorreu**. Imagine uma multa de R$ 1.000: a pessoa pede sua redução, mas a autoridade que julga o recurso identifica fundamento para aumentá-la. O art. 64 permite que o órgão competente modifique a decisão, inclusive com possível agravamento, **desde que a pessoa seja informada desse risco e possa apresentar alegações antes da decisão**. Ser informada não significa que o aumento já foi decidido. A autoridade precisa examinar a manifestação e fundamentar o resultado.
 

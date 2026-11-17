@@ -172,6 +172,8 @@ Para Cebraspe C/E, distinções de maior valor são: **arrecadação × recolhim
 
 **Item 3.** Operações de crédito comuns e antecipações de receita orçamentária (ARO) são ambas receitas orçamentárias de capital, por compartilharem natureza de empréstimo. **Gabarito: Errado.** O empréstimo comum, em regra, integra a receita orçamentária de capital. A ARO serve para resolver falta temporária de caixa e tem tratamento de ingresso extraorçamentário por exceção expressa do art. 3º, parágrafo único, da Lei nº 4.320/1964. O item parte de uma semelhança verdadeira, pois ambas são operações de crédito, e conclui de forma incorreta que têm igual tratamento orçamentário.
 
+**Item 4.** Toda restituição de dinheiro recebido indevidamente deve ser registrada como nova despesa orçamentária, mesmo quando o MCASP determina dedução da receita originalmente arrecadada. **Gabarito: Errado.** Quando a restituição se enquadra nas hipóteses de **dedução da receita**, o registro reduz a receita bruta para mostrar o valor líquido, sem abrir uma despesa orçamentária equivalente. Há **situações especiais** com tratamento como despesa, como certas devoluções de convênio em exercício sem receita correspondente. O erro do item é usar *toda* e ignorar a regra e as exceções da seção 3.6.1 do MCASP.
+
 Itens inéditos de aprendizagem; sua presença no artigo não registra resposta ou desempenho.
 
 ## Heurísticas

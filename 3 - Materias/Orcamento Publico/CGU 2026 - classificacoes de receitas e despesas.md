@@ -179,8 +179,8 @@ Estes quatorze itens são exemplos autorais de estudo, sem equivalência comprov
 
 - [Manual Técnico de Orçamento 2026, SOF/SIOP, versão 5](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto_2026_-_versao_5_.pdf): classificação federal de receita, despesa, fontes e resultado primário.
 - [Lei nº 15.321/2025, LDO federal 2026, art. 7º, §§ 4º, 5º e 10](https://www2.camara.leg.br/legin/fed/lei/2025/lei-15321-31-dezembro-2025-798617-publicacaooriginal-179567-pl.html): detalhamento dos GND, indicadores de RP, modalidades e fontes.
-- [Lei nº 4.320/1964, arts. 11 e 12](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm): categorias econômicas de receitas e despesas.
-- [Lei Complementar nº 101/2000, art. 44](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): limitação de uso das receitas de alienação de bens.
+- [Lei nº 4.320/1964, arts. 11 e 12](https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4320-17-marco-1964-376590-normaatualizada-pl.html): categorias econômicas de receitas e despesas.
+- [Lei Complementar nº 101/2000, art. 44](https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html): limitação de uso das receitas de alienação de bens.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: diferença entre esfera e natureza.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]]: autorização e execução física e financeira.
 

@@ -12,7 +12,7 @@ const DISPLAY={
  'sem-materia':'Matéria não identificada'
 };
 let manifest=new Map(),current=null;
-let selectedSubject='';
+let selectedSubject='',retests=null;
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
 function title(subject){return DISPLAY[subject]||subject||'Matéria sem classificação';}
@@ -114,6 +114,46 @@ function articleReviewEvidence(article){
  if(mistakes.length===1)return 'Um erro registrado; confirmar com novas questões antes de ampliar a revisão.';
  if(unsure.length)return 'Acerto com insegurança: reforçar o conceito e retestar.';
  return 'Sem ocorrência de erro ou insegurança vinculada.';
+}
+function showRetests(){
+ const target=$('results-retests');target.replaceChildren();
+ if(!retests){target.append(el('p','results-caption','Aguardando histórico do site.'));return;}
+ const rows=retests.filter(x=>!selectedSubject||x.subjectId===selectedSubject);
+ if(!rows.length){target.append(el('p','results-caption','Nenhum reteste da mesma questão em dias diferentes para esta matéria.'));return;}
+ for(const [subject,items] of subjectGroups(rows,x=>x.subjectId)){
+  const group=el('section','results-subject-group');group.append(subjectHeading(subject,items.length));
+  for(const x of items){
+   const row=el('div','results-concept'),left=el('div'),meta=manifest.get(x.articleId);
+   left.append(el('strong','',meta?.tituloExibicao||meta?.titulo||'Artigo relacionado'));
+   const parts=[];
+   if(x.persistent)parts.push(x.persistent+' erro(s) persistentes');
+   if(x.reappeared)parts.push(x.reappeared+' erro(s) após acerto anterior');
+   if(x.positive)parts.push(x.positive+' reteste(s) positivos');
+   if(x.insecure)parts.push(x.insecure+' acerto(s) inseguros');
+   left.append(el('small','',parts.join(' · ')+' · '+x.questions+' questão(ões) repetida(s) em dias diferentes'));
+   const a=el('a','results-link','Abrir artigo');a.href=articleLink(x,x.section);a.rel='noreferrer';
+   row.append(left,a);group.append(row);
+  }
+  target.append(group);
+ }
+}
+async function loadRetests(examId,version){
+ retests=null;
+ try{
+  const response=await fetch('/v1/study/quiz?concurso='+encodeURIComponent(examId),{
+   credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}
+  });
+  if(version!==loadVersion)return;
+  if(!response.ok)throw Error('histórico indisponível');
+  const data=await response.json();
+  if(data?.version!==1||!Array.isArray(data.attempts))throw Error('histórico incompatível');
+  const map=await quizQuestions();
+  if(version!==loadVersion)return;
+  retests=window.ResultsRetests.analyze(data.attempts,map,examId);
+  showRetests();
+ }catch{
+  if(version===loadVersion)$('results-retests').replaceChildren(el('p','results-caption','Retestes indisponíveis. O histórico unificado permanece preservado.'));
+ }
 }
 function priorityLabel(score){
  const label=el('strong','results-score','prioridade '+score+'/100');
@@ -219,6 +259,7 @@ function render(){
  $('results-unified-method').textContent='Histórico até '+fmtDate(current.cut)+'. '+valid+' tentativas válidas de estudo, sem somar duas vezes um registro identificado nas duas fontes.';
  $('results-legacy').hidden=false;
  root.hidden=false;
+ showRetests();
  status.textContent='Histórico unificado carregado. Resultados e prioridades combinam as duas origens.';
 }
 
@@ -354,7 +395,7 @@ async function manifestLoad(){
 }
 async function load(){
  const examId=select.value,version=++loadVersion;
- current=null;root.hidden=true;
+ current=null;retests=null;root.hidden=true;
  $('results-login').hidden=true;
  $('results-logout').hidden=true;
  status.textContent='Consultando histórico do chat e do site…';
@@ -376,6 +417,7 @@ async function load(){
   current=data;
   $('results-logout').hidden=false;
   render();
+  void loadRetests(examId,version);
  }catch(e){
   if(version!==loadVersion)return;
   status.textContent=location.origin===WORKER

@@ -370,6 +370,18 @@
       "certificationStatus": "redigido-validacao-editorial-pendente",
       "include": false,
       "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
+    },
+    {
+      "chapterKey": "cgu-15-novo",
+      "articleId": "art-d218c459af1e4b73",
+      "sourcePath": "3 - Materias/Orcamento Publico/CGU 2026 - responsabilidade fiscal riscos e controle.md",
+      "concursoId": "cgu-2026",
+      "sourceArticleId": "art-91ab320cdfb64b8a",
+      "topicKey": "responsabilidade-fiscal",
+      "sequence": 15,
+      "certificationStatus": "redigido-validacao-editorial-pendente",
+      "include": false,
+      "selectionStatus": "aguarda-certificacao-e-curadoria-epub"
     }
   ],
   "crossReferences": [

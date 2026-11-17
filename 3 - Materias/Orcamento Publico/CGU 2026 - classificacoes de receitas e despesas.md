@@ -99,10 +99,12 @@ A Lei de Diretrizes Orçamentárias federal de 2026, Lei nº 15.321/2025, art. 7
 | Campo | Pergunta que ajuda a responder | Erro de interpretação |
 | :--- | :--- | :--- |
 | RP da despesa | Como essa programação é identificada para fins fiscais e de resultado primário, segundo as categorias da LDO vigente? | Tratar RP como se identificasse o tributo ou a origem da arrecadação |
-| IU | Há identificação adicional da aplicação dos recursos, como contrapartida, segundo as regras e códigos do orçamento federal? | Tratar IU como sinônimo de GND ou de fonte |
+| IU | Os recursos compõem contrapartida nacional de empréstimos ou doações ou se destinam a outras aplicações? | Tratar IU como sinônimo de GND ou de fonte |
 | Fonte | Que conjunto de recursos financia a programação e quais regras de destinação se aplicam? | Concluir que toda despesa com o mesmo GND usa a mesma fonte |
 | MA | Como se dará a aplicação dos recursos orçamentários no arranjo previsto? | Confundir modalidade de aplicação com modalidade de licitação |
 | GND | Qual grande grupo de natureza econômica da despesa? | Confundir Investimentos (GND 4) com esfera de investimento das estatais |
+
+O **art. 7º, § 5º, da LDO federal de 2026** especifica a finalidade do IU: indicar se os recursos compõem contrapartida nacional de empréstimos ou doações ou se se destinam a outras aplicações. Assim, o IU complementa a descrição da programação; ele não identifica, por si, a origem econômica do ingresso, a classificação por GND nem a efetiva realização da contrapartida. Já o **RP**, nos termos do art. 7º, § 4º, auxilia a apuração do resultado primário, conforme as categorias previstas para a despesa no exercício. A existência de um código RP não substitui a verificação do valor executado e da metodologia fiscal.
 
 **Situação de fiscalização:** duas ações de saúde podem ter o mesmo GND, como Outras Despesas Correntes, mas usar fontes distintas. O auditor precisa verificar a compatibilidade entre fonte, finalidade e atos de execução. Já a presença de um código de IU requer interpretação conforme o classificador federal vigente: o código, isoladamente, não prova que a contrapartida foi efetivamente aportada ou que a entrega foi concluída.
 
@@ -146,7 +148,7 @@ Um erro de código pode comprometer relatórios, acompanhamento de vinculações
 
 **Item 10.** "A apuração do resultado primário pode ser feita somando todas as receitas orçamentárias, inclusive operações de crédito, sem considerar as despesas primárias." **Errado.** O cálculo depende das receitas e despesas primárias e da metodologia fiscal aplicável.
 
-**Item 11.** "O identificador de uso (IU), a fonte de recursos e o grupo de natureza da despesa (GND) são campos com funções distintas na discriminação do orçamento federal." **Certo.** A LDO de 2026, art. 7º, discrimina esses campos separadamente. Fonte se relaciona aos recursos e regras de destinação; GND, à natureza da despesa; IU exige interpretação pela finalidade do identificador no classificador vigente.
+**Item 11.** "O identificador de uso (IU), a fonte de recursos e o grupo de natureza da despesa (GND) são campos com funções distintas na discriminação do orçamento federal." **Certo.** A LDO de 2026, art. 7º, discrimina esses campos separadamente. Fonte se relaciona aos recursos e regras de destinação; GND, à natureza da despesa; IU, à indicação de contrapartida nacional de empréstimos ou doações ou de outras aplicações, conforme o § 5º.
 
 **Item 12.** "Duas ações da mesma função orçamentária e do mesmo GND devem possuir necessariamente a mesma fonte de recursos." **Errado.** A função e o GND não definem, por si, a fonte de financiamento. É preciso consultar a programação e as vinculações pertinentes.
 
@@ -155,7 +157,7 @@ Estes doze itens são exemplos autorais de estudo, sem equivalência comprovada 
 ## Fontes e vínculos
 
 - [Manual Técnico de Orçamento 2026, SOF/SIOP, versão 5](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto_2026_-_versao_5_.pdf): classificação federal de receita, despesa, fontes e resultado primário.
-- [Lei nº 15.321/2025, LDO federal 2026, art. 7º](https://legis.senado.gov.br/norma/41912067/publicacao/41913017): detalhamento dos GND, indicadores de RP, modalidades e fontes.
+- [Lei nº 15.321/2025, LDO federal 2026, art. 7º, §§ 4º e 5º](https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/L15321.htm): detalhamento dos GND, indicadores de RP, modalidades e fontes.
 - [Lei nº 4.320/1964, arts. 11 e 12](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm): categorias econômicas de receitas e despesas.
 - [Lei Complementar nº 101/2000, art. 44](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): limitação de uso das receitas de alienação de bens.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: diferença entre esfera e natureza.

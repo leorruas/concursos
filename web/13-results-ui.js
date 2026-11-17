@@ -12,7 +12,7 @@ const DISPLAY={
  'sem-materia':'Matéria não identificada'
 };
 let manifest=new Map(),current=null;
-let selectedSubject='',retests=null;
+let selectedSubject='',retests=null,coverageData=null;
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
 function title(subject){return DISPLAY[subject]||subject||'Matéria sem classificação';}
@@ -115,6 +115,18 @@ function articleReviewEvidence(article){
  if(unsure.length)return 'Acerto com insegurança: reforçar o conceito e retestar.';
  return 'Sem ocorrência de erro ou insegurança vinculada.';
 }
+function showCoverage(){
+ const root=$('results-coverage');root.replaceChildren();
+ if(!coverageData){root.append(el('p','results-caption','Cobertura do banco ainda não consultada.'));return;}
+ const rows=coverageData.filter(x=>!selectedSubject||x.subjectId===selectedSubject);
+ if(!rows.length){root.append(el('p','results-caption','Não há questões publicadas neste banco para a matéria selecionada.'));return;}
+ for(const x of rows){
+  const row=el('div','results-concept'),left=el('div');
+  left.append(el('strong','',title(x.subjectId)),el('small','',x.answered+' questão(ões) diferentes respondidas de '+x.total+' disponíveis · '+x.remaining+' ainda não respondidas'));
+  const value=el('strong','results-score',x.percent+'% do banco');
+  row.append(left,value);root.append(row);
+ }
+}
 function showRetests(){
  const target=$('results-retests');target.replaceChildren();
  if(!retests){target.append(el('p','results-caption','Aguardando histórico do site.'));return;}
@@ -138,7 +150,7 @@ function showRetests(){
  }
 }
 async function loadRetests(examId,version){
- retests=null;
+ retests=null;coverageData=null;
  try{
   const response=await fetch('/v1/study/quiz?concurso='+encodeURIComponent(examId),{
    credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}
@@ -150,7 +162,8 @@ async function loadRetests(examId,version){
   const map=await quizQuestions();
   if(version!==loadVersion)return;
   retests=window.ResultsRetests.analyze(data.attempts,map,examId);
-  showRetests();
+  coverageData=window.ResultsRetests.coverage(data.attempts,map,examId);
+  showRetests();showCoverage();
  }catch{
   if(version===loadVersion)$('results-retests').replaceChildren(el('p','results-caption','Retestes indisponíveis. O histórico unificado permanece preservado.'));
  }
@@ -259,7 +272,7 @@ function render(){
  $('results-unified-method').textContent='Histórico até '+fmtDate(current.cut)+'. '+valid+' tentativas válidas de estudo, sem somar duas vezes um registro identificado nas duas fontes.';
  $('results-legacy').hidden=false;
  root.hidden=false;
- showRetests();
+ showRetests();showCoverage();
  status.textContent='Histórico unificado carregado. Resultados e prioridades combinam as duas origens.';
 }
 
@@ -395,7 +408,7 @@ async function manifestLoad(){
 }
 async function load(){
  const examId=select.value,version=++loadVersion;
- current=null;retests=null;root.hidden=true;
+ current=null;retests=null;coverageData=null;root.hidden=true;
  $('results-login').hidden=true;
  $('results-logout').hidden=true;
  status.textContent='Consultando histórico do chat e do site…';

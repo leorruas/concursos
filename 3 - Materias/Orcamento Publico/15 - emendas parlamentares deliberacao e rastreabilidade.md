@@ -63,7 +63,7 @@ O **art. 166, § 3º, da Constituição** trata especificamente da aprovação d
 
 Portanto, a frase “toda emenda a qualquer projeto orçamentário precisa usar cancelamento de despesa nas mesmas condições do art. 166, § 3º, II” confunde instrumentos, objetos e hipóteses. O artigo constitucional referido não pode ser transplantado sem exame para emendas meramente textuais ou a projetos de natureza distinta.
 
-## Cinco etapas para acompanhar uma emenda: da proposta à execução
+## Cinco decisões sucessivas: proposta, admissibilidade, mérito, indicação, execução
 
 O roteiro abaixo descreve o caminho de uma emenda que exige indicação posterior de beneficiário. **Nem todas as modalidades passam por uma etapa de indicação com o mesmo procedimento**. A ordem ajuda a entender quem decide em cada momento, mas as regras concretas variam conforme autoria, objeto e tipo de execução.
 

@@ -78,7 +78,7 @@ flowchart TB
     class VB,DE,EX,NA opcao;
 ```
 
-**Como usar:** o diagrama ajuda a reconhecer a regra principal do enunciado; depois é necessário conferir as **exceções** e as condições legais em cada seção abaixo.
+**Como usar:** leia cada pergunta do diagrama como um teste, e não como caminhos que dependem uns dos outros. Se o problema for a apresentação de valores líquidos, examine **orçamento bruto**; se for uma verba sem detalhamento, examine **especificação**; se for um assunto estranho incluído na LOA, examine **exclusividade**; se for destinação obrigatória de receita de imposto, examine **não afetação**. Para concluir, confira as **exceções** da regra escolhida. O diagrama não substitui essa etapa.
 
 ## Unidade, universalidade e anualidade
 
@@ -126,7 +126,7 @@ Exemplo: se um ente arrecada R$ 10 milhões e deve transferir R$ 3 milhões a ou
 
 ### Especificação: não criar dotação indiferenciada
 
-O art. 5º da mesma lei impede dotações globais para cobrir indistintamente despesas com pessoal, materiais, serviços e transferências, com a ressalva legal do art. 20 e seu parágrafo único. A identificação da finalidade e da categoria facilita a autorização e a fiscalização.
+O art. 5º da Lei nº 4.320/1964 impede, como regra, uma **dotação global indiferenciada**, isto é, um valor único que possa ser usado, sem a discriminação exigida, para pagar pessoal, materiais, serviços e transferências. Identificar a categoria e a finalidade permite saber **o que o Legislativo autorizou** e **o que os órgãos de controle deverão conferir**. A própria lei faz uma ressalva para determinados programas especiais de trabalho, explicada a seguir.
 
 **A ressalva do art. 20 merece leitura literal:** seus investimentos devem ser discriminados por projetos de obras e outras aplicações; o parágrafo único admite **dotações globais, classificadas como despesas de capital, para programas especiais de trabalho que, por sua natureza, não possam seguir as normas gerais de execução da despesa**. Essa é uma hipótese específica, não autorização geral para misturar pessoal, serviços e materiais numa dotação genérica. A existência de outras reservas e regimes legalmente admitidos exige examinar a norma aplicável; não concluir que toda agregação é proibida.
 
@@ -167,7 +167,7 @@ A exceção do art. 165, § 8º, menciona **a autorização para créditos suple
 
 A Constituição, art. 167, IV, proíbe, como regra, a **vinculação de receita de impostos a órgão, fundo ou despesa**. A palavra **impostos** é decisiva: não se trata de uma proibição genérica de vinculação de todo ingresso, como taxas, contribuições ou preços públicos.
 
-O próprio inciso ressalva, entre outras situações, a **repartição constitucional do produto da arrecadação**, a aplicação de recursos em **saúde** e **educação**, atividades da **administração tributária** e garantias às operações de crédito por antecipação de receita. O § 4º do art. 167 prevê outras possibilidades específicas.
+O próprio art. 167, IV, da Constituição traz exceções. A **repartição constitucional de receitas** permite que parcelas de impostos sejam entregues a outros entes, conforme a Constituição. A **aplicação mínima em saúde e educação** obriga destinar parte dos recursos a essas áreas. O texto também ressalva recursos para atividades da **administração tributária**, isto é, serviços de arrecadação e fiscalização de tributos, e para garantias de **operações de crédito por antecipação de receita**, empréstimos de curto prazo vinculados à receita esperada, segundo as regras aplicáveis. O § 4º prevê possibilidades específicas de vinculação de determinadas receitas para pagamento de débitos com a União e para prestar garantia ou contragarantia. **Exemplo:** cumprir o mínimo constitucional de gasto com educação não viola o princípio; reservar livremente toda a arrecadação de qualquer imposto para finalidade sem exceção constitucional exige outro julgamento.
 
 A destinação de valores à manutenção e desenvolvimento do ensino dentro do regime constitucional não viola a não afetação: é **exceção prevista na própria Constituição**.
 
@@ -188,7 +188,7 @@ O **art. 167 da Constituição** reúne proibições sobre o uso do orçamento e
 
 ### Regra de ouro: limite e ressalva
 
-A **regra de ouro** (Constituição Federal, art. 167, III) limita, em regra, a realização de **operações de crédito** que excedam o montante das **despesas de capital**. Operação de crédito é uma forma de obtenção de recursos com obrigação de pagamento futuro, como um empréstimo. Despesas de capital são uma categoria econômica que abrange, entre outros itens, investimentos, inversões financeiras e amortização da dívida. A comparação trata dessas categorias e do montante considerado na regra constitucional; **não compara simplesmente todos os empréstimos com todos os gastos públicos**.
+A **regra de ouro** (Constituição Federal, art. 167, III) busca impedir, como regra, que o poder público **realize operações de crédito em valor superior ao montante de suas despesas de capital** no cálculo constitucional aplicável. Operação de crédito é uma forma de obtenção de recursos com obrigação de pagamento futuro, como um empréstimo. Despesas de capital são uma categoria econômica que abrange, entre outros itens, investimentos, inversões financeiras e amortização da dívida. A comparação trata dessas categorias e do montante considerado na regra constitucional; **não compara simplesmente todos os empréstimos com todos os gastos públicos**.
 
 **Situação didática simplificada.** Suponha que o montante considerado de operações de crédito seja R$ 90 milhões e o de despesas de capital seja R$ 110 milhões. Na comparação básica, os créditos são menores que as despesas de capital. Se, mantendo as mesmas condições, as operações de crédito passarem a R$ 130 milhões, haverá R$ 20 milhões acima das despesas de capital: é preciso verificar a vedação e a eventual ressalva constitucional. Esses números ilustram o critério; a apuração oficial depende das classificações e regras vigentes, e valores hipotéticos não substituem os demonstrativos fiscais.
 
@@ -200,7 +200,7 @@ Essa regra não é equivalente a “orçamento equilibrado”, a resultado prim�
 
 ### Remanejamento, transposição e transferência
 
-O art. 167, VI, exige, como regra, **autorização legislativa prévia** quando o governo pretende deslocar recursos de uma categoria de programação para outra ou de um órgão para outro. **Remanejamento, transposição e transferência** são nomes usados em normas e na prática orçamentária para diferentes formas de modificar a distribuição de recursos; a classificação de cada operação depende das regras aplicáveis. Em todas elas, é necessário identificar **de onde o valor sai, para onde vai e qual autorização permite a mudança**.
+O art. 167, VI, exige, como regra, **autorização legislativa prévia** quando o governo pretende deslocar recursos de uma categoria de programação para outra ou de um órgão para outro. **Prévia** significa que a autorização deve existir **antes da movimentação**, nas hipóteses sujeitas à regra. **Remanejamento, transposição e transferência** são nomes usados em normas e na prática orçamentária para diferentes formas de modificar a distribuição de recursos; a classificação de cada operação depende das regras aplicáveis. Em todas elas, é necessário identificar **de onde o valor sai, para onde vai e qual autorização permite a mudança**.
 
 **Exemplo:** o governo aprovou R$ 5 milhões em determinada programação e pretende usar R$ 1 milhão em outra. A existência do dinheiro não dispensa verificar se a mudança depende de lei ou se há uma autorização constitucional específica. Pelo **art. 167, § 5º**, nas atividades de **ciência, tecnologia e inovação**, podem ser admitidos deslocamentos entre categorias de programação, por ato do Executivo e sem autorização legislativa prévia, **para viabilizar resultados de projetos restritos a essas funções**. A exceção tem finalidade e campo definidos; não autoriza remanejar livremente recursos de qualquer área.
 

@@ -12,7 +12,7 @@ const DISPLAY={
  'sem-materia':'Matéria não identificada'
 };
 let manifest=new Map(),current=null;
-let selectedSubject='',retests=null,coverageData=null;
+let selectedSubject='',retests=null,coverageData=null,transferData=null;
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
 function title(subject){return DISPLAY[subject]||subject||'Matéria sem classificação';}
@@ -127,6 +127,27 @@ function showCoverage(){
   row.append(left,value);root.append(row);
  }
 }
+function showConceptTransfer(){
+ const target=$('results-concept-transfer');target.replaceChildren();
+ if(!transferData){target.append(el('p','results-caption','Aguardando dados para comparação de questões distintas.'));return;}
+ const rows=transferData.filter(x=>!selectedSubject||x.subjectId===selectedSubject);
+ if(!rows.length){target.append(el('p','results-caption','Sem comparações válidas entre questões diferentes do mesmo conceito, em dias distintos.'));return;}
+ const statusNames={'needs-review':'Revisão prioritária','mixed':'Desempenho instável',
+  'insecure':'Acerto inseguro','promising':'Sinal inicial de melhora','progress':'Melhora observada'};
+ for(const [subject,items] of subjectGroups(rows,x=>x.subjectId)){
+  const group=el('section','results-subject-group');group.append(subjectHeading(subject,items.length));
+  for(const x of items){
+   const row=el('div','results-concept'),left=el('div'),meta=manifest.get(x.articleId);
+   const label=typeof x.conceptId==='string'&&x.conceptId.trim()?x.conceptId:'Conceito vinculado';
+   left.append(el('strong','',label),
+    el('small','',statusNames[x.state]+' · '+x.distinctQuestions+' questões diferentes · '+x.wrong+' erro(s) posterior(es) · '+x.secure+' acerto(s) seguro(s) · '+x.insecure+' inseguro(s)'),
+    el('small','','Indício baseado em questões diferentes, não certificação de domínio.'));
+   const a=el('a','results-link','Abrir '+(meta?.tituloExibicao||meta?.titulo||'artigo'));
+   a.href=articleLink(x,x.section);a.rel='noreferrer';row.append(left,a);group.append(row);
+  }
+  target.append(group);
+ }
+}
 function showRetests(){
  const target=$('results-retests');target.replaceChildren();
  if(!retests){target.append(el('p','results-caption','Aguardando histórico do site.'));return;}
@@ -150,7 +171,7 @@ function showRetests(){
  }
 }
 async function loadRetests(examId,version){
- retests=null;coverageData=null;
+ retests=null;coverageData=null;transferData=null;
  try{
   const response=await fetch('/v1/study/quiz?concurso='+encodeURIComponent(examId),{
    credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}
@@ -163,7 +184,8 @@ async function loadRetests(examId,version){
   if(version!==loadVersion)return;
   retests=window.ResultsRetests.analyze(data.attempts,map,examId);
   coverageData=window.ResultsRetests.coverage(data.attempts,map,examId);
-  showRetests();showCoverage();
+  transferData=window.ResultsRetests.conceptTransfer(data.attempts,map,examId);
+  showRetests();showCoverage();showConceptTransfer();
  }catch{
   if(version===loadVersion)$('results-retests').replaceChildren(el('p','results-caption','Retestes indisponíveis. O histórico unificado permanece preservado.'));
  }
@@ -272,7 +294,7 @@ function render(){
  $('results-unified-method').textContent='Histórico até '+fmtDate(current.cut)+'. '+valid+' tentativas válidas de estudo, sem somar duas vezes um registro identificado nas duas fontes.';
  $('results-legacy').hidden=false;
  root.hidden=false;
- showRetests();showCoverage();
+ showRetests();showCoverage();showConceptTransfer();
  status.textContent='Histórico unificado carregado. Resultados e prioridades combinam as duas origens.';
 }
 
@@ -408,7 +430,7 @@ async function manifestLoad(){
 }
 async function load(){
  const examId=select.value,version=++loadVersion;
- current=null;retests=null;coverageData=null;root.hidden=true;
+ current=null;retests=null;coverageData=null;transferData=null;root.hidden=true;
  $('results-login').hidden=true;
  $('results-logout').hidden=true;
  status.textContent='Consultando histórico do chat e do site…';

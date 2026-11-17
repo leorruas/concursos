@@ -27,7 +27,7 @@ O percurso orienta **CGU 2026, Auditoria, Cebraspe**, de acordo com o recorte P3
 12. [[3 - Materias/Orcamento Publico/CGU 2026 - despesa empenho liquidacao e evidencias|Despesa, empenho, liquidação e evidências: CGU 2026]] (versão própria criada; certificação e reconciliação das referências pendentes; legado Câmara preservado)
 13. [[3 - Materias/Orcamento Publico/CGU 2026 - restos a pagar dea e suprimento de fundos|Restos a pagar, despesas anteriores e suprimento: CGU 2026]] (versão própria criada; certificação e reconciliação das referências pendentes; legado Câmara preservado)
 14. [[3 - Materias/Orcamento Publico/CGU 2026 - conta unica e execucao financeira|Conta Única e execução financeira: CGU 2026]] (versão própria criada; auditoria integral e reconciliação de referências pendentes; legado Câmara preservado)
-15. [[3 - Materias/Orcamento Publico/11 - responsabilidade fiscal e controle orcamentario|Responsabilidade fiscal e controle]] (legado transitório: criar versão CGU e reconciliar vínculos antes de substituir no catálogo)
+15. [[3 - Materias/Orcamento Publico/CGU 2026 - responsabilidade fiscal riscos e controle|Responsabilidade fiscal, riscos e controle: CGU 2026]] (versão própria criada; certificação e reconciliação de referências pendentes; legado Câmara preservado)
 
 ## Situação comprovada
 

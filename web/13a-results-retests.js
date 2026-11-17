@@ -48,5 +48,41 @@
   return [...groups.values()].map(g=>({...g,remaining:g.total-g.answered,percent:Math.round(100*g.answered/g.total)}))
    .sort((a,b)=>a.percent-b.percent||a.subjectId.localeCompare(b.subjectId));
  }
- root.ResultsRetests={analyze,coverage};
+ function conceptTransfer(attempts,questions,exam){
+  const groups=new Map(),seen=new Set();
+  for(const a of attempts){
+   if(a?.concursoId!==exam||!['correct','incorrect'].includes(a.result))continue;
+   const q=questions.get(a.questionId),time=Number(a.answeredAt);
+   if(!q||q.concursoId!==exam||!q.conceptId||!q.articleId||!Number.isFinite(time)||time<=0)continue;
+   if(a.id&&seen.has(a.id))continue;
+   if(a.id)seen.add(a.id);
+   const key=(q.subjectId||'')+'::'+q.conceptId;
+   if(!groups.has(key))groups.set(key,[]);
+   groups.get(key).push({id:a.questionId,articleId:q.articleId,subjectId:q.subjectId,conceptId:q.conceptId,
+    section:q.section||'',result:a.result,confidence:a.confidence,time});
+  }
+  const out=[];
+  for(const items of groups.values()){
+   items.sort((a,b)=>a.time-b.time||a.id.localeCompare(b.id));
+   const unique=new Map();
+   for(const x of items)if(!unique.has(x.id))unique.set(x.id,x);
+   const rows=[...unique.values()];
+   if(rows.length<2)continue;
+   const first=rows.find(x=>x.result==='incorrect');
+   if(!first)continue;
+   const later=rows.filter(x=>x.time>first.time&&
+    new Date(x.time).toISOString().slice(0,10)!==new Date(first.time).toISOString().slice(0,10));
+   if(!later.length)continue;
+   const recent=later[later.length-1],wrong=later.filter(x=>x.result==='incorrect').length,
+    secure=later.filter(x=>x.result==='correct'&&x.confidence!=='insecure').length,
+    insecure=later.filter(x=>x.result==='correct'&&x.confidence==='insecure').length;
+   const state=recent.result==='incorrect'?'needs-review':recent.confidence==='insecure'?'insecure':
+    wrong?'mixed':secure>=2?'progress':'promising';
+   out.push({conceptId:first.conceptId,subjectId:first.subjectId,articleId:first.articleId,section:first.section,
+    state,wrong,secure,insecure,distinctQuestions:rows.length});
+  }
+  const order={'needs-review':0,mixed:1,insecure:2,promising:3,progress:4};
+  return out.sort((a,b)=>order[a.state]-order[b.state]||a.subjectId.localeCompare(b.subjectId)||String(a.conceptId).localeCompare(String(b.conceptId)));
+ }
+ root.ResultsRetests={analyze,coverage,conceptTransfer};
 })(typeof window!=='undefined'?window:globalThis);

@@ -186,3 +186,14 @@ Aplicar a matriz `1 - Planejamento/Camara 2026 - Coordenacao editorial Orcamento
 
 - **Revisão textual didática e linguagem simples:** 7/7 artigos concluídos individualmente e registrados na matriz (`01`, `02`, `02a`, `03`, `12`, `13`, `14`). Esses gates se referem à legibilidade e estrutura do texto, não à comprovação independente de todas as normas.
 - **Certificação integral jurídica + técnica + publicação:** 0/7. Permanecem cotejo jurídico final por artigo, teste de renderização do Mermaid do artigo 03 e evidências de CI/Pages em relação ao último conteúdo publicado. A ausência das evidências não demonstra necessariamente falha do site.
+
+### Protocolo de status por rodada (16/11/2026)
+
+Por solicitação do usuário, em cada resposta desta frente apresentar claramente **concluído nesta rodada**, **concluído acumulado**, **pendências verificadas** e **próximo passo**. Discriminar didática e linguagem simples, cotejo jurídico, CI e GitHub Pages; indicar artigo e commits quando houver. Não repetir números sem avanço nem declarar publicação apenas por commit. O workflow de Pages ignora alterações exclusivas em `1 - Planejamento/**`.
+
+### Cotejo jurídico dirigido do artigo 01 (16/11/2026)
+
+- **Conteúdo confrontado:** 23 títulos/seções do artigo 01, competências do Executivo, CMO, Congresso e TCU, receitas/dotações, execução e controle, meta física e realizado no SIOP, com seus quatro gabaritos. Artigo em `main`, blob verificado `9917934d825bd232247d6555914d43a42380be0f`.
+- **Normas consultadas:** CF, arts. 70, 71, 99, 127, 134, 165–166, https://www4.planalto.gov.br/legislacao/portal-legis/legislacao-1/constituicao; Lei 4.320/1964, arts. 2º, 34, 40–43, 58–65, 75–77, https://legis.senado.leg.br/norma/546169/publicacao/34620275; LRF, arts. 8º e 9º, https://www2.camara.leg.br/legin/fed/leicom/2000/leicomplementar-101-4-maio-2000-351480-normaatualizada-pl.html; orientador SOF/SIOP, itens 1.1–1.5, 3.5, 4.3.1–4.3.2 e 4.5.1, https://www1.siop.planejamento.gov.br/siopdoc/doku.php/acompanhamento_orcamentario:orientador_acompanhamento_orcamentario. Não se identificou contradição material nas teses e gabaritos cotejados nesta rodada.
+- **Publicação não comprovada:** workflow `.github/workflows/pages.yml` é disparado por `push` e ignora mudanças exclusivas de planejamento. `scripts/verify-live-pages.js` compara catálogo, manifesto e conteúdo de artigos de outra matéria, sem incluir corpo do artigo 01. A ferramenta pública não acessou `manifest.json` no endereço presumido. A API conectada de workflows por SHA cobre só runs de PR, não os de `push`. Não inferir sucesso ou falha de publicação a partir desses limites.
+- **Estado individual:** didática textual concluída; linguagem simples concluída; cotejo jurídico dirigido executado sem erro material detectado; validação CI/Pages não disponível nesta rodada; certificação integral pendente. Próxima ação: confirmar workflow `push` e integridade do corpo servido ao leitor.

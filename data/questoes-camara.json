@@ -54419,6 +54419,286 @@
       "correctAnswer": "C",
       "explanation": "A gratuidade prevista no dispositivo alcança certidões para defender direitos ou esclarecer situações de interesse pessoal. A finalidade apresentada corresponde à segunda hipótese. (Constituição Federal, art. 5º, XXXIV, b.)",
       "reviewEvidence": "Constituição Federal, art. 5º, XXXIV, b — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Enquadra o objeto do pedido e sua finalidade na garantia."
+    },
+    {
+      "id": "cam-const-200-nato-registro-sem-residencia-nenhuma-opcao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nato-registro-sem-residencia-nenhuma-opcao",
+      "mechanism": "nato-registro-sem-residencia-nenhuma-opcao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#3. Nascimento no exterior com pai ou mãe brasileiro"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "3. Nascimento no exterior com pai ou mãe brasileiro"
+      },
+      "statement": "Filho de mãe brasileira, nascido no exterior e registrado em repartição brasileira competente, pode ser brasileiro nato sem residir no Brasil nem exercer opção após a maioridade.",
+      "correctAnswer": "C",
+      "explanation": "O registro em repartição competente satisfaz uma das vias constitucionais. Residência no Brasil e opção após a maioridade integram a outra via. (Constituição Federal, art. 12, I, c.)",
+      "reviewEvidence": "Constituição Federal, art. 12, I, c — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue as duas vias alternativas de reconhecimento como nato."
+    },
+    {
+      "id": "cam-const-200-nato-sem-registro-opcao-menor",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "nato-sem-registro-opcao-menor",
+      "mechanism": "nato-sem-registro-opcao-menor",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#3. Nascimento no exterior com pai ou mãe brasileiro"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "3. Nascimento no exterior com pai ou mãe brasileiro"
+      },
+      "statement": "Filha de pai brasileiro, nascida no exterior quando ele não estava a serviço do Brasil, veio residir no país. Sem registro em repartição brasileira competente, ela completa os requisitos da via constitucional da opção se optar pela nacionalidade brasileira aos dezesseis anos.",
+      "correctAnswer": "E",
+      "explanation": "O requisito que falta é a maioridade. Sem registro em repartição competente e sem a hipótese de serviço oficial, a via da opção exige residência no Brasil e opção depois de atingida a maioridade. (Constituição Federal, art. 12, I, b e c.)",
+      "reviewEvidence": "Constituição Federal, art. 12, I, b e c — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Exclui serviço oficial e registro para avaliar residência e idade da opção."
+    },
+    {
+      "id": "cam-const-200-lusofono-residencia-somada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "lusofono-residencia-somada",
+      "mechanism": "lusofono-residencia-somada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Originários de países de língua portuguesa"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Originários de países de língua portuguesa"
+      },
+      "statement": "Para satisfazer a exigência constitucional de residência aplicável à naturalização de originário de país de língua portuguesa, basta somar dois períodos de seis meses separados por interrupção da residência no Brasil.",
+      "correctAnswer": "E",
+      "explanation": "A soma não satisfaz a exigência de continuidade. A Constituição estipula um ano ininterrupto de residência, além de idoneidade moral. (Constituição Federal, art. 12, II, a.)",
+      "reviewEvidence": "Constituição Federal, art. 12, II, a — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue residência acumulada e residência ininterrupta."
+    },
+    {
+      "id": "cam-const-200-carreira-diplomatica-nato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "carreira-diplomatica-nato",
+      "mechanism": "carreira-diplomatica-nato",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Cargos privativos de brasileiro nato"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Cargos privativos de brasileiro nato"
+      },
+      "statement": "Os cargos da carreira diplomática são privativos de brasileiro nato.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição inclui a carreira diplomática na lista de cargos reservados a brasileiros natos. (Constituição Federal, art. 12, § 3º, V.)",
+      "reviewEvidence": "Constituição Federal, art. 12, § 3º, V — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica um cargo reservado de modo expresso."
+    },
+    {
+      "id": "cam-const-200-extradicao-trafico-naturalizado-posterior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Nacionalidade",
+      "articleId": "art-2c08fdb390ff4b8b",
+      "conceptId": "extradicao-trafico-naturalizado-posterior",
+      "mechanism": "extradicao-trafico-naturalizado-posterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-2c08fdb390ff4b8b#Extradição: duas situações específicas do naturalizado"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/04 - nacionalidade.md",
+        "section": "Extradição: duas situações específicas do naturalizado"
+      },
+      "statement": "O envolvimento comprovado em tráfico ilícito de drogas pode enquadrar brasileiro naturalizado em exceção à vedação de extradição ainda que o fato seja posterior à naturalização, observadas as exigências legais.",
+      "correctAnswer": "C",
+      "explanation": "O requisito de anterioridade diz respeito à exceção de crime comum. O envolvimento comprovado em tráfico ilícito de drogas é hipótese autônoma e não traz essa limitação temporal no texto constitucional. (Constituição Federal, art. 5º, LI.)",
+      "reviewEvidence": "Constituição Federal, art. 5º, LI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Separa duas exceções e identifica a qual se aplica a condição temporal."
+    },
+    {
+      "id": "cam-const-200-greve-escolha-oportunidade-empregador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "greve-escolha-oportunidade-empregador",
+      "mechanism": "greve-escolha-oportunidade-empregador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "A Constituição atribui ao empregador a decisão sobre a oportunidade de exercício do direito de greve quando as reivindicações tiverem natureza salarial.",
+      "correctAnswer": "E",
+      "explanation": "O titular da decisão está trocado. São os trabalhadores que decidem sobre a oportunidade da greve e os interesses a defender por meio dela. (Constituição Federal, art. 9º, caput.)",
+      "reviewEvidence": "Constituição Federal, art. 9º, caput — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica o titular da decisão sobre a greve."
+    },
+    {
+      "id": "cam-const-200-greve-essencial-necessidade-inadiavel",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "greve-essencial-necessidade-inadiavel",
+      "mechanism": "greve-essencial-necessidade-inadiavel",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "O direito de greve convive com a competência da lei para definir os serviços ou atividades essenciais e disciplinar o atendimento das necessidades inadiáveis da comunidade.",
+      "correctAnswer": "C",
+      "explanation": "O exercício do direito de greve não impede a disciplina legal do atendimento a necessidades que não podem ser adiadas. A Constituição também prevê responsabilização por abusos na forma da lei. (Constituição Federal, art. 9º, §§ 1º e 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 9º, §§ 1º e 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a garantia de greve da disciplina legal de suas condições."
+    },
+    {
+      "id": "cam-const-200-colegiado-previdenciario-organizacao-privada",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "colegiado-previdenciario-organizacao-privada",
+      "mechanism": "colegiado-previdenciario-organizacao-privada",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "A garantia constitucional de participação de trabalhadores e empregadores em colegiados de órgãos públicos obriga uma empresa privada a incluir ambos os grupos em seu próprio conselho interno sempre que este tratar de previdência.",
+      "correctAnswer": "E",
+      "explanation": "O dispositivo não se aplica ao conselho interno da empresa: o art. 10 trata de colegiados de órgãos públicos. A representação de empregados dentro da empresa tem condições e finalidade próprias no art. 11. (Constituição Federal, arts. 10 e 11.)",
+      "reviewEvidence": "Constituição Federal, arts. 10 e 11 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue participação em colegiado público de representação dentro da empresa."
+    },
+    {
+      "id": "cam-const-200-representante-empresa-finalidade-entendimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "representante-empresa-finalidade-entendimento",
+      "mechanism": "representante-empresa-finalidade-entendimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#4. Trabalho e participação coletiva nos arts. 7º a 11"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "4. Trabalho e participação coletiva nos arts. 7º a 11"
+      },
+      "statement": "Em empresa com duzentos e quarenta empregados, a Constituição assegura a eleição de um representante dos empregados para promover o entendimento direto com o empregador.",
+      "correctAnswer": "C",
+      "explanation": "O número ultrapassa duzentos empregados. A finalidade constitucional dessa representação é promover o entendimento direto entre empregados e empregador. (Constituição Federal, art. 11.)",
+      "reviewEvidence": "Constituição Federal, art. 11 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica o limite de empregados e identifica a finalidade própria da representação."
+    },
+    {
+      "id": "cam-const-200-ferias-rural-um-terco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Direitos sociais",
+      "articleId": "art-b72f4e7f06344051",
+      "conceptId": "ferias-rural-um-terco",
+      "mechanism": "ferias-rural-um-terco",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-b72f4e7f06344051#3. Quem deve agir: Estado, empregador e organizações coletivas"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/03 - direitos sociais.md",
+        "section": "3. Quem deve agir: Estado, empregador e organizações coletivas"
+      },
+      "statement": "O trabalhador rural tem direito a férias anuais remuneradas com pelo menos um terço a mais do que o salário normal.",
+      "correctAnswer": "C",
+      "explanation": "O art. 7º protege trabalhadores urbanos e rurais. No caso das férias anuais, a remuneração deve incluir o acréscimo mínimo de um terço. (Constituição Federal, art. 7º, caput e XVII.)",
+      "reviewEvidence": "Constituição Federal, art. 7º, caput e XVII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica garantia expressa a trabalhador rural."
     }
   ]
 }

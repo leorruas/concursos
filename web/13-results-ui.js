@@ -186,18 +186,20 @@ function showNextStudies(){
 }
 function showCoverage(){
  const root=$('results-coverage');root.replaceChildren();
- const rows=window.ResultsStudyPlan.combinedPracticeCoverage(coverageData,current?.difficulty?.bySubject||[])
-  .filter(x=>!selectedSubject||x.subjectId===selectedSubject);
- if(!rows.length){root.append(el('p','results-caption','Sem questões registradas ou disponíveis para esta matéria.'));return;}
+ // A API unificada já concilia IDs de origem repetidos. Uma questão do
+ // ChatGPT não precisa existir no banco público para integrar esta contagem.
+ const rows=(current?.difficulty?.bySubject||[])
+  .filter(x=>!selectedSubject||x.id===selectedSubject)
+  .sort((a,b)=>title(a.id).localeCompare(title(b.id),'pt-BR'));
+ if(!rows.length){root.append(el('p','results-caption','Sem questões respondidas nesta matéria.'));return;}
  for(const x of rows){
+  const total=Number(x.total)||0,correct=Number(x.correct)||0,incorrect=Number(x.incorrect)||0;
+  const blank=Number(x.blank)||0;
   const row=el('div','results-concept'),left=el('div');
-  left.append(el('strong','',title(x.subjectId)),
-   el('small','',x.totalAttempts+' questão(ões) respondidas no histórico: '+x.chatAttempts+' no ChatGPT e '+x.siteAttempts+' no site.'),
-   el('small','',x.totalBank
-    ?x.distinctBankAnswered+' questão(ões) diferentes do banco público respondidas no site, de '+x.totalBank+' disponíveis · '+x.remainingBank+' ainda não respondidas.'
-    :'Sem questões publicadas no banco do site para esta matéria.'));
-  const value=el('strong','results-score',x.bankPercent===null?'Histórico':'Banco: '+x.bankPercent+'%');
-  row.append(left,value);root.append(row);
+  left.append(el('strong','',title(x.id)),
+   el('small','',correct+' acerto(s) · '+incorrect+' erro(s)'+(blank?' · '+blank+' em branco':'')));
+  row.append(left,el('strong','results-score',total+' questão(ões)'));
+  root.append(row);
  }
 }
 function showConceptTransfer(){

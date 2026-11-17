@@ -79,6 +79,16 @@ Outras vedações importantes do art. 167 incluem iniciar programas ou projetos 
 
 **Exemplo progressivo:** (1) uma dotação existe, mas é insuficiente: avaliar crédito suplementar; (2) uma despesa não tem dotação específica: avaliar crédito especial; (3) a despesa decorre de evento imprevisível e urgente nas condições constitucionais: avaliar crédito extraordinário. Em todos, é preciso identificar a situação, o instrumento legal, quem o autoriza e as evidências da abertura e execução.
 
+## Transposição, remanejamento e transferência: regra e ressalva
+
+O **art. 167, VI, da Constituição** proíbe, como regra, a transposição, o remanejamento ou a transferência de recursos de uma categoria de programação para outra ou de um órgão para outro **sem prévia autorização legislativa**. Para a fiscalização, identifique a alteração efetivamente realizada, sua autorização, a autoridade competente e os registros das dotações antes e depois da mudança.
+
+O **art. 167, § 5º**, estabelece uma ressalva específica: admite, no âmbito de **ciência, tecnologia e inovação**, a transposição, o remanejamento ou a transferência de recursos **de uma categoria de programação para outra**, com o objetivo de viabilizar resultados de projetos restritos a essas funções, **mediante ato do Poder Executivo**, sem a prévia autorização legislativa prevista no inciso VI. O alcance dessa regra não deve ser ampliado automaticamente a qualquer remanejamento entre órgãos, nem a qualquer gasto que mencione inovação.
+
+**Exemplo de auditoria:** um ministério transfere recursos entre categorias de programação para concluir um projeto de pesquisa. A equipe deve examinar a classificação e o objetivo das ações, o ato do Executivo, a finalidade e os resultados do projeto e a compatibilidade com os requisitos constitucionais. A mera classificação da despesa como investimento não autoriza a operação.
+
+**Fronteira conceitual:** a abertura de um **crédito suplementar** e o **remanejamento entre programações** podem afetar a execução, mas têm fundamentos e requisitos que precisam ser identificados separadamente. Não presuma que a autorização para um mecanismo cobre automaticamente o outro.
+
 ## Procedimento prático de auditoria
 
 | Pergunta | Evidência inicial | Cuidado |
@@ -114,11 +124,15 @@ Em cada caso, separe **critério** (a norma aplicável), **condição** (o fato 
 
 **Item 10.** "A mera autorização de operação de crédito na LOA prova que a contratação foi efetivamente realizada." **Errado.** Autorização legislativa e contratação são fatos diferentes.
 
-As dez questões são originais e didáticas, não itens oficiais nem evidência de aprendizado individual.
+**Item 11.** "Como regra, a transferência de recursos entre categorias de programação sem prévia autorização legislativa é vedada, mas há ressalva constitucional específica para certas atividades de ciência, tecnologia e inovação." **Certo.** O art. 167, VI e § 5º, permite a alteração nas condições delimitadas pelo próprio dispositivo.
+
+**Item 12.** "O art. 167, § 5º, autoriza, sem requisitos adicionais, todo remanejamento entre órgãos quando a despesa for classificada no GND Investimentos." **Errado.** A ressalva se refere a alterações entre categorias de programação no âmbito de ciência, tecnologia e inovação, com finalidade e ato do Executivo previstos na Constituição; GND Investimentos não equivale a essas condições.
+
+As doze questões são originais e didáticas, não itens oficiais nem evidência de aprendizado individual.
 
 ## Fontes e relações editoriais
 
-- [Constituição Federal, arts. 165 e 167, texto atualizado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): exclusividade, não afetação, créditos e vedações.
+- [Constituição Federal, arts. 165 e 167, especialmente art. 167, VI e § 5º, texto atualizado](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): exclusividade, não afetação, créditos e vedações.
 - [Lei nº 4.320/1964, arts. 2º a 6º, 20, 22 e 34](https://www.planalto.gov.br/ccivil_03/leis/l4320.htm): princípios e execução.
 - [Lei Complementar nº 101/2000, art. 5º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): reserva de contingência.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: instrumentos de planejamento e lei anual.

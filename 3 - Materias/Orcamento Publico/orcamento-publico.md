@@ -26,16 +26,16 @@ A sequência abaixo usa versões próprias da **CGU 2026, Auditoria**, sem trans
 - [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: controle societário e dependência jurídica
 - [[3 - Materias/Orcamento Publico/CGU 2026 - principios orcamentarios e vedacoes|CGU 2026: princípios orçamentários e vedações constitucionais]]: legalidade das autorizações e exceções
 - [[3 - Materias/Orcamento Publico/CGU 2026 - classificacoes de receitas e despesas|CGU 2026: classificações de receitas e despesas na auditoria]]: natureza, fonte, GND, RP e IU
+- [[3 - Materias/Orcamento Publico/CGU 2026 - natureza fonte e resultado da receita|CGU 2026: natureza, fonte e resultado fiscal da receita]]: natureza, vinculação e apuração primária
+- [[3 - Materias/Orcamento Publico/CGU 2026 - classificacao da despesa e rastreamento|CGU 2026: classificação da despesa e rastreamento]]: funções, programas, GND, fontes, RP e IU
 - [[3 - Materias/Orcamento Publico/CGU 2026 - creditos adicionais e evidencias de auditoria|CGU 2026: créditos adicionais e evidências de auditoria]]: espécies, autorização, recursos, reabertura e achados
+- [[3 - Materias/Orcamento Publico/CGU 2026 - emendas rastreabilidade e controle|CGU 2026: emendas parlamentares, rastreabilidade e controle]]: execução, transparência, destino final e decisões aplicáveis
 - [[3 - Materias/Orcamento Publico/CGU 2026 - programacao financeira contingenciamento e bloqueio|CGU 2026: programação financeira, contingenciamento e bloqueio]]: dotações, limites e atos de execução
 - [[3 - Materias/Orcamento Publico/CGU 2026 - receitas publicas registros e evidencias|CGU 2026: receitas públicas, registros e evidências]]: lançamento, arrecadação, recolhimento e conciliação
 - [[3 - Materias/Orcamento Publico/CGU 2026 - despesa empenho liquidacao e evidencias|CGU 2026: despesa pública, empenho, liquidação e evidências]]: execução, ateste, pagamento e controles
 - [[3 - Materias/Orcamento Publico/CGU 2026 - restos a pagar dea e suprimento de fundos|CGU 2026: restos a pagar, DEA e suprimento de fundos]]: saldos, inscrição, reconhecimento e prestação de contas
 - [[3 - Materias/Orcamento Publico/CGU 2026 - conta unica e execucao financeira|CGU 2026: Conta Única e execução financeira]]: crédito, recursos, SIAFI e rastreabilidade
 - [[3 - Materias/Orcamento Publico/CGU 2026 - responsabilidade fiscal riscos e controle|CGU 2026: responsabilidade fiscal, riscos e controle]]: LRF, metas, RCL, RREO, RGF e dívida
-- [[3 - Materias/Orcamento Publico/CGU 2026 - emendas rastreabilidade e controle|CGU 2026: emendas parlamentares, rastreabilidade e controle]]: execução, transparência, destino final e decisões aplicáveis
-- [[3 - Materias/Orcamento Publico/CGU 2026 - natureza fonte e resultado da receita|CGU 2026: natureza, fonte e resultado fiscal da receita]]: natureza, vinculação e apuração primária
-- [[3 - Materias/Orcamento Publico/CGU 2026 - classificacao da despesa e rastreamento|CGU 2026: classificação da despesa e rastreamento]]: funções, programas, GND, fontes, RP e IU
 
 A lista histórica de leitura e os apontamentos CAM-ORC abaixo são preservados por compatibilidade. Essa inclusão de navegação deve ser homologada pela coordenação com testes de identidade, catálogo e Pages, antes de certificar os artigos CGU.
 

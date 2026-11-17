@@ -51339,6 +51339,286 @@
       "correctAnswer": "E",
       "explanation": "A acumulação de competências não transfere a atribuição indicada. A Constituição reserva à União a organização e a manutenção da Polícia Militar do Distrito Federal. A lei orgânica distrital não pode alterar essa repartição. (Constituição Federal, arts. 21, XIV, e 32, § 1º.)",
       "reviewEvidence": "Constituição Federal, arts. 21, XIV, e 32, § 1º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Concilia a regra de acumulação de competências com uma reserva constitucional expressa."
+    },
+    {
+      "id": "cam-const-200-incompatibilidade-clausulas-uniformes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e regime dos parlamentares",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "incompatibilidade-clausulas-uniformes",
+      "mechanism": "incompatibilidade-clausulas-uniformes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "statement": "Após a diplomação e antes da posse, um deputado firmou com uma concessionária de serviço público um contrato que segue cláusulas uniformes. Essa contratação está abrangida pela exceção à vedação contratual do art. 54, I, a, da Constituição.",
+      "correctAnswer": "C",
+      "explanation": "A vedação já incide na diplomação, mas a própria Constituição ressalva os contratos com cláusulas uniformes. É o conteúdo padronizado do contrato que torna aplicável a exceção. (Constituição Federal, art. 54, I, a.)",
+      "reviewEvidence": "Constituição Federal, art. 54, I, a — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Exige identificar a etapa e aplicar a exceção contratual."
+    },
+    {
+      "id": "cam-const-200-sustacao-crime-anterior",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e regime dos parlamentares",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "sustacao-crime-anterior",
+      "mechanism": "sustacao-crime-anterior",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Mandato, imunidades e sessões: arts. 53 a 58"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Mandato, imunidades e sessões: arts. 53 a 58"
+      },
+      "statement": "Um senador foi denunciado por crime ocorrido antes da diplomação. Admitida a denúncia depois desse marco, um partido representado no Senado pediu a sustação da ação. O pedido pode ser acolhido por maioria dos membros da Casa, pois basta que a denúncia tenha sido recebida após a diplomação.",
+      "correctAnswer": "E",
+      "explanation": "A condição errada é usar o recebimento da denúncia como marco temporal. O crime deve ter ocorrido depois da diplomação. A iniciativa partidária e a maioria dos membros não suprem esse requisito. (Constituição Federal, art. 53, §§ 3º a 5º.)",
+      "reviewEvidence": "Constituição Federal, art. 53, §§ 3º a 5º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Exige hierarquizar o marco do fato, a iniciativa e o quórum em uma sequência processual."
+    },
+    {
+      "id": "cam-const-200-renuncia-efeitos-aguardam-deliberacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e regime dos parlamentares",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "renuncia-efeitos-aguardam-deliberacao",
+      "mechanism": "renuncia-efeitos-aguardam-deliberacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      },
+      "statement": "Se um deputado renunciar enquanto responde a processo que pode levar à perda do mandato, a renúncia ficará com os efeitos suspensos até as deliberações finais.",
+      "correctAnswer": "C",
+      "explanation": "A renúncia é possível, mas seus efeitos ficam suspensos nessa situação. O parlamentar não encerra imediatamente o processo de perda do mandato por apresentar a renúncia. (Constituição Federal, art. 55, § 4º.)",
+      "reviewEvidence": "Constituição Federal, art. 55, § 4º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Relaciona renúncia, processo existente e momento da produção de efeitos."
+    },
+    {
+      "id": "cam-const-200-vaga-sem-suplente-limite-quinze",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e regime dos parlamentares",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "vaga-sem-suplente-limite-quinze",
+      "mechanism": "vaga-sem-suplente-limite-quinze",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Perda do mandato, afastamento e convocação de suplente: arts. 55 e 56"
+      },
+      "statement": "Diante de vaga definitiva na Câmara dos Deputados e inexistência de suplente, deve ser realizada eleição para preenchê-la se faltarem exatamente quinze meses para o fim do mandato.",
+      "correctAnswer": "E",
+      "explanation": "“Exatamente quinze meses” não satisfaz o limite constitucional. Além de existir vaga sem suplente, precisam faltar mais de quinze meses para o fim do mandato. (Constituição Federal, art. 56, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 56, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Separa a falta de suplente do requisito temporal estrito."
+    },
+    {
+      "id": "cam-const-200-registro-melhoria-fundamento-inalterado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "registro-melhoria-fundamento-inalterado",
+      "mechanism": "registro-melhoria-fundamento-inalterado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Uma melhoria posterior em pensão federal, que não altere o fundamento legal da concessão, está ressalvada da apreciação para registro pelo Tribunal de Contas da União.",
+      "correctAnswer": "C",
+      "explanation": "A concessão está sujeita ao exame de legalidade para registro. A melhoria posterior fica ressalvada quando mantém o fundamento legal do ato concessório. (Constituição Federal, art. 71, III.)",
+      "reviewEvidence": "Constituição Federal, art. 71, III — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a exceção de registro distinguindo a concessão da melhoria."
+    },
+    {
+      "id": "cam-const-200-representacao-ao-poder-competente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "representacao-ao-poder-competente",
+      "mechanism": "representacao-ao-poder-competente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Ao identificar abuso no exercício da fiscalização, o Tribunal de Contas da União pode representar ao poder competente para tratar do fato.",
+      "correctAnswer": "C",
+      "explanation": "Representar significa comunicar formalmente o que foi encontrado para que a autoridade competente avalie as medidas cabíveis. Essa atribuição está prevista no inciso XI. (Constituição Federal, art. 71, XI.)",
+      "reviewEvidence": "Constituição Federal, art. 71, XI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece o encaminhamento constitucional após a identificação de abuso."
+    },
+    {
+      "id": "cam-const-200-informacoes-comissao-sem-intermediacao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "informacoes-comissao-sem-intermediacao",
+      "mechanism": "informacoes-comissao-sem-intermediacao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "Uma comissão do Senado interessada nos resultados de auditoria feita pelo Tribunal de Contas da União precisa de deliberação prévia do Plenário do Senado para poder solicitar essas informações ao Tribunal.",
+      "correctAnswer": "E",
+      "explanation": "A exigência de deliberação do Plenário está errada. O dispositivo inclui as comissões entre os órgãos que podem solicitar ao Tribunal informações sobre os resultados de auditorias. (Constituição Federal, art. 71, VII.)",
+      "reviewEvidence": "Constituição Federal, art. 71, VII — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica quem pode solicitar informações de fiscalização, sem importar a regra do art. 50."
+    },
+    {
+      "id": "cam-const-200-denuncia-pelo-sindicato",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "denuncia-pelo-sindicato",
+      "mechanism": "denuncia-pelo-sindicato",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Controle interno, denúncia e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Controle interno, denúncia e responsabilidade"
+      },
+      "statement": "Um sindicato pode, observadas as condições legais, denunciar ilegalidade perante o Tribunal de Contas da União.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição inclui sindicatos entre os legitimados a apresentar denúncias ao Tribunal. A denúncia é um meio de comunicar a ilegalidade para apuração. (Constituição Federal, art. 74, § 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 74, § 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a lista de legitimados a um sujeito expresso."
+    },
+    {
+      "id": "cam-const-200-comunicacao-controle-interno-somente-chefia",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "comunicacao-controle-interno-somente-chefia",
+      "mechanism": "comunicacao-controle-interno-somente-chefia",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Controle interno, denúncia e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Controle interno, denúncia e responsabilidade"
+      },
+      "statement": "Os responsáveis pelo controle interno que tomaram conhecimento de uma ilegalidade satisfazem o dever constitucional de comunicação se informarem somente à chefia administrativa e presumirem que um sindicato poderá denunciar o caso.",
+      "correctAnswer": "E",
+      "explanation": "A palavra decisiva é “somente”. A Constituição manda os responsáveis darem ciência ao Tribunal de Contas da União, sob pena de responsabilidade solidária. A possibilidade de denúncia pelo sindicato não substitui esse dever. (Constituição Federal, art. 74, §§ 1º e 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 74, §§ 1º e 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Separa dever funcional, destinatário constitucional e faculdade de denunciar."
+    },
+    {
+      "id": "cam-const-200-titulo-executivo-multa-sem-debito",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "titulo-executivo-multa-sem-debito",
+      "mechanism": "titulo-executivo-multa-sem-debito",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Principais competências do TCU: art. 71"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Principais competências do TCU: art. 71"
+      },
+      "statement": "A decisão do Tribunal de Contas da União que imponha multa tem eficácia de título executivo mesmo quando não imputa débito ao responsável.",
+      "correctAnswer": "C",
+      "explanation": "O dispositivo trata multa e imputação de débito como hipóteses alternativas. A eficácia executiva da decisão que impõe multa independe da imputação de débito. (Constituição Federal, art. 71, § 3º.)",
+      "reviewEvidence": "Constituição Federal, art. 71, § 3º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue consequências alternativas de condições cumulativas."
     }
   ]
 }

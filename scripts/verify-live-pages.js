@@ -111,6 +111,13 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         '3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao.md',
         '3 - Materias/Direito Constitucional/34 - codigo de etica e decoro parlamentar da camara.md',
         '3 - Materias/Direito Constitucional/direito-constitucional.md',
+        '3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario.md',
+        '3 - Materias/Orcamento Publico/02 - ppa ldo e loa.md',
+        '3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes.md',
+        '3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md',
+        '3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas.md',
+        '3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias.md',
+        '3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias.md',
         '3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa.md',
         '3 - Materias/Orcamento Publico/04a - classificacao da receita.md',
         '3 - Materias/Orcamento Publico/04b - classificacao da despesa.md',
@@ -132,7 +139,7 @@ for (let tentativa = 1; tentativa <= 6; tentativa += 1) {
         const local = fs.readFileSync(localPath, 'utf8');
         if (publicado !== local) throw new Error('Nota auditada diverge do build publicado: ' + recurso);
       }
-      console.log('✓ Artigos constitucionais auditados e seis artigos de Orçamento Público da frente B sincronizados no Pages.');
+      console.log(`✓ ${materiaisAuditoria.length} artigos auditados com corpo Markdown sincronizado no Pages, incluindo sete da frente A e seis da frente B de Orçamento Público.`);
       console.log('✓ Glossário, interface e índice sincronizados no Pages.');
       console.log('✓ Coleção e interface dos flashcards sincronizadas no Pages.');
       console.log('✓ Catálogo de matérias por concurso sincronizado no Pages.');

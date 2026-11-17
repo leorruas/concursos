@@ -46,7 +46,7 @@ A **Lei nº 4.320/1964, art. 57**, admite **receita orçamentária arrecadada ai
 
 **Por que a diferença importa?** Na operação comum, o empréstimo financia despesas e integra a execução da receita orçamentária. Na ARO, o ente **antecipa disponibilidade de caixa**, com obrigação de devolver o dinheiro no mesmo exercício. A devolução do principal da ARO constitui, no tratamento do MCASP, **desembolso extraorçamentário**. A autorização para contratar uma ARO pode constar da **Lei Orçamentária Anual (LOA)** (Lei nº 4.320/1964, art. 7º, II), mas **autorizar a operação na LOA não transforma seu ingresso em receita orçamentária**. São questões distintas.
 
-**Regras específicas da ARO:** o **art. 38 da Lei de Responsabilidade Fiscal (LRF)** estabelece condições para esse empréstimo temporário. Ele só pode ser contratado **a partir do décimo dia do início do exercício financeiro** e deve ser **integralmente quitado, com juros e demais encargos, até 10 de dezembro do mesmo ano**. É proibido contratar nova ARO enquanto houver outra operação anterior dessa natureza ainda não quitada. Também é proibida a ARO **no último ano de mandato** do Presidente, Governador ou Prefeito. A operação continua sujeita às demais exigências legais, inclusive as de contratação e controle de operações de crédito. Assim, a finalidade de cobrir falta temporária de caixa não permite ignorar prazo, competência ou proibições.
+**Regras específicas da ARO:** o **art. 38 da Lei de Responsabilidade Fiscal (LRF)** estabelece condições para esse empréstimo temporário. Ele só pode ser contratado **a partir do décimo dia do início do exercício financeiro** e deve ser **integralmente quitado, com juros e demais encargos, até 10 de dezembro do mesmo ano**. É proibido contratar nova ARO enquanto houver outra operação anterior dessa natureza ainda não quitada. Também é proibida a ARO **no último ano de mandato** do Presidente, Governador ou Prefeito. A operação também não é autorizada se houver cobrança de encargos além da **taxa de juros admitida pelo art. 38, III**, que deve ser prefixada ou seguir o indexador permitido em lei. A menção aos juros e demais encargos na regra de liquidação até dezembro não torna lícita qualquer cobrança extra. A operação continua sujeita às demais exigências legais, inclusive as de contratação e controle de operações de crédito. Assim, a finalidade de cobrir falta temporária de caixa não permite ignorar prazo, competência ou proibições.
 
 **Tensões de prova:** a expressão *operação de crédito* não basta para concluir que todo empréstimo público gera receita de capital; a ARO é a exceção clássica. **A falta de previsão na LOA**, por si só, também não caracteriza ingresso extraorçamentário: uma receita orçamentária pode ser arrecadada sem previsão inicial (Lei nº 4.320/1964, art. 57). Para classificar, identifique se o enunciado descreve **financiamento público comum**, **cobertura temporária de caixa por ARO** ou **arrecadação da receita esperada**: são fatos diferentes.
 
@@ -113,6 +113,23 @@ O MCASP ressalva que **nem toda receita é prevista ou lançada antes de ser arr
 
 Uma questão que exige as quatro etapas **necessariamente para qualquer receita** está sujeita a erro por excesso de alcance. A sequência de apresentação é **didática**, não uma condição absoluta de validade de todo ingresso.
 
+## Deduções da receita: devolução e valores de outros entes
+
+A **receita bruta** mostra o total registrado como arrecadado antes das deduções aplicáveis. A **dedução da receita** é um registro que reduz esse total para mostrar quanto efetivamente pertence ao ente, segundo as normas contábeis. Ela não significa que toda devolução de dinheiro deva ser registrada como uma nova despesa do orçamento.
+
+Há duas situações importantes no **Manual de Contabilidade Aplicada ao Setor Público (MCASP), 11ª edição, seção 3.6.1**:
+
+- **Valor arrecadado que pertence a outro ente:** quando a legislação determina que parte da quantia arrecadada deva ser entregue a outro ente, o registro pode exigir deduzir da receita o valor que não pertence ao arrecadador, conforme a estrutura orçamentária adotada.
+- **Restituição de receita recebida indevidamente ou a maior:** quando alguém pagou mais do que devia, a devolução costuma exigir dedução da receita, observadas as regras específicas e eventuais determinações legais de registro como despesa.
+
+**Exemplo didático:** a prefeitura registra **R$ 10 mil de arrecadação** e verifica que **R$ 2 mil foram cobrados indevidamente**. Se a hipótese for de dedução de receita, registrará R$ 10 mil de receita bruta e R$ 2 mil de dedução: o valor líquido será **R$ 8 mil**. A dedução corrige o valor da receita atribuível ao ente; o exemplo não cria uma nova arrecadação, nem substitui os procedimentos de devolução ao contribuinte.
+
+**Atenção ao exercício e à natureza da devolução:** o MCASP estabelece tratamentos específicos para restituições de saldos de convênios e receitas extintas. Em um convênio, por exemplo, se a devolução ocorrer em exercício no qual **não houve receita do próprio convênio**, a devolução é contabilizada como **despesa orçamentária**, e não como uma dedução ilimitada da receita do ano. É preciso identificar a operação, o exercício, a receita disponível para dedução e a regra própria antes de escolher o registro.
+
+**Retificação × estorno:** se o contribuinte informou dados errados que afetaram a classificação da receita, o MCASP prevê **dedução e novo registro correto**. Se o erro foi de escrituração do próprio ente, não causado por dados incorretos do contribuinte, o procedimento é de **estorno e novo lançamento correto**. *Estornar* significa desfazer contabilmente um registro incorreto; isso não equivale a devolver dinheiro ao contribuinte.
+
+Essas regras completam o estudo dos estágios da receita, mas a classificação contábil detalhada de cada restituição depende dos fatos e das normas específicas. Fonte: [MCASP 11ª edição, Parte I, seção 3.6.1](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1).
+
 ## Regime orçamentário × competência patrimonial
 
 A Lei nº 4.320/1964, art. 35, determina que pertencem ao exercício financeiro as **receitas nele arrecadadas** e as **despesas nele legalmente empenhadas**, no enfoque orçamentário.
@@ -177,4 +194,4 @@ Sempre separar **natureza da entrada**, **momento da receita** e **reconheciment
 - [Código Tributário Nacional, art. 142](https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm).
 - [[2 - Editais/CGU 2026 - Auditoria|Programa CGU 2026, P3.2.3]].
 
-**Pendente:** ajustes e deduções de receita, restituições e lançamentos contábeis detalhados. A nota está preparada, **sem estudo registrado**.
+**Limites:** os procedimentos básicos de dedução, restituição, retificação e estorno foram introduzidos neste artigo. A escrituração completa em contas contábeis e os casos especiais de restituição seguem o MCASP e as normas específicas. A publicação deste artigo não registra estudo nem desempenho individual.

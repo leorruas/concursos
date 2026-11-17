@@ -91,7 +91,7 @@ As seis questões são exemplos didáticos construídos a partir das normas; nã
 - [Constituição Federal, arts. 165, 166 e 167](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm): iniciativa, funções das leis, apreciação e limites orçamentários.
 - [Ato das Disposições Constitucionais Transitórias, art. 35, § 2º](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm#adct): regra transitória de vigência federal.
 - [Lei Complementar nº 101/2000, arts. 4º e 9º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): LDO, anexos fiscais e limitação de empenho.
-- [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|Orçamento público e ciclo]]: aprofundamento sobre execução; artigo geral ainda sujeito à separação editorial entre concursos.
-- [[3 - Materias/Orcamento Publico/02a - esferas da loa e estatais dependentes|Esferas da LOA]]: distinção entre fiscal, seguridade e investimento; artigo geral ainda sujeito à separação editorial entre concursos.
+- [[3 - Materias/Orcamento Publico/CGU 2026 - ciclo orcamentario e evidencias de auditoria|CGU 2026: ciclo orçamentário e evidências de auditoria]]: aprofundamento sobre autorização, execução e comprovação de entregas.
+- [[3 - Materias/Orcamento Publico/CGU 2026 - esferas da loa e estatais dependentes|CGU 2026: esferas da LOA e empresas estatais dependentes]]: distinção entre fiscal, seguridade e investimento, com análise de dependência financeira.
 
-**Escopo editorial:** este artigo tem identidade e caminho exclusivos da CGU. As duas referências de aprofundamento acima ainda apontam para material compartilhado, preservado nesta microfase; a migração delas permanece na fila de isolamento.
+**Escopo editorial:** este artigo tem identidade e caminho exclusivos da CGU. Os dois aprofundamentos acima já possuem versões exclusivas da CGU, mas a integração dos novos IDs ao catálogo, índice e navegação principal continua sob responsabilidade da coordenação editorial (issue #362).

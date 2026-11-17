@@ -1,0 +1,52 @@
+name: Auditar Pages CGU apos publicacao
+
+on:
+  # Executa a conferencia estrita depois que o workflow de Pages termina.
+  workflow_run:
+    workflows: ["Publicar no GitHub Pages"]
+    types: [completed]
+  # No PR, verifica se o procedimento roda e registra divergencias de producao,
+  # mas nao bloqueia a alteracao por eventual atraso de publicacao.
+  pull_request:
+    paths:
+      - '.github/workflows/pages-audit-cgu.yml'
+      - 'scripts/verify-live-pages.js'
+      - 'data/catalogo-materias-por-concurso.json'
+      - '3 - Materias/Orcamento Publico/CGU 2026 - *.md'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  conferir-producao:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Montar site do SHA auditado
+        run: node scripts/build-site.js
+      - name: Confrontar Pages ao vivo com build, incluindo cinco artigos CGU
+        id: live
+        continue-on-error: ${{ github.event_name == 'pull_request' }}
+        run: node scripts/verify-live-pages.js "https://leorruas.github.io/concursos/"
+      - name: Registrar alcance da evidencia
+        if: always()
+        env:
+          DEPLOY_SHA: ${{ github.event.workflow_run.head_sha }}
+          ORIGIN_RUN_ID: ${{ github.event.workflow_run.id }}
+          LIVE_OUTCOME: ${{ steps.live.outcome }}
+        run: |
+          echo "Evento: ${{ github.event_name }}"
+          echo "SHA de Pages: $DEPLOY_SHA"
+          echo "Execucao de Pages: $ORIGIN_RUN_ID"
+          echo "Resultado da comparacao ao vivo: $LIVE_OUTCOME"
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "Aviso: PR pode anteceder deploy. Resultado de PR nao certifica Pages."
+          fi

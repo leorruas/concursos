@@ -186,6 +186,6 @@ Itens inéditos e didáticos, sem alegação de calibração com prova real.
 
 - [[3 - Materias/Orcamento Publico/04 - classificacoes da receita e da despesa|Mapa transversal de classificações]].
 - [[3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais|Princípios e não afetação de impostos]]; [[3 - Materias/Orcamento Publico/07 - receitas publicas e estagios|Estágios da receita]].
-- [MTO 2026, 4ª versão, classificação da receita](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto_2026_-_versao_4_.pdf); [STN, fontes/destinação por exercício](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/federacao/fonte-ou-destinacao-de-recursos).
+- [MTO 2026, 7ª versão (23/03/2026), capítulo 3, classificação da receita](https://www1.siop.planejamento.gov.br/mto/lib/exe/fetch.php/mto2026%3Amto2026.pdf); [STN, fontes/destinação por exercício](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/federacao/fonte-ou-destinacao-de-recursos).
 - [Lei nº 4.320/1964, art. 11](https://legis.senado.leg.br/norma/546169/publicacao/34620275); [LRF, art. 44](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm); [MTO 2027, 3ª versão (07/07/2026), classificação da receita (cap. 3)](https://www1.siop.planejamento.gov.br/mto/doku.php/mto2027); [MCASP 11ª edição](https://www.gov.br/tesouronacional/pt-br/contabilidade-e-custos/manuais/manual-de-contabilidade-aplicada-ao-setor-publico-mcasp-1).
 

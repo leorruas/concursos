@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "orcamento-publico-epub-integrado",
+  "status": "planejado-nao-exportar",
+  "generatedFrom": [
+    "cgu-2026",
+    "camara-2026"
+  ],
+  "rules": {
+    "certifiedOnly": true,
+    "requireArticleId": true,
+    "requireRevisionSha": true,
+    "deduplicateBy": "topicKey",
+    "preserveOriginals": true,
+    "excludeWhenReferencesUnresolved": true
+  },
+  "entrySchema": [
+    "chapterKey",
+    "articleId",
+    "sourcePath",
+    "concursoId",
+    "sourceArticleId",
+    "revisionSha",
+    "certificationStatus",
+    "sequence",
+    "topicKey",
+    "include",
+    "replacementFor",
+    "dedupReason"
+  ],
+  "chapters": []
+}

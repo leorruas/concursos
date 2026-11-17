@@ -1,5 +1,14 @@
 # Instruções para agentes: vault de concursos
 
+## Contrato de separação de Orçamento Público: CGU e Câmara (17/11/2026)
+
+**Fonte de coordenação:** `1 - Planejamento/Orcamento Publico - Arquitetura CGU e Camara.md`; percursos `1 - Planejamento/CGU 2026 - Percurso editorial Orcamento.md` e `1 - Planejamento/Camara 2026 - Percurso editorial Orcamento.md`. Aplicar esta regra antes de qualquer edição de Orçamento Público; prevalece sobre referências históricas que autorizam múltiplos agentes a alterar índices ou catálogo. Cada concurso possui revisão e certificação próprias por `articleId`; a certificação da Câmara não pode ser atribuída a um derivado da CGU.
+
+**Propriedade:** só a coordenação altera `AGENTS.md`, `index.md`, `3 - Materias/Orcamento Publico/orcamento-publico.md`, `data/catalogo-materias-por-concurso.json`, manifesto EPUB e documentos de coordenação desta migração. O agente CGU cria/revisa exclusivamente `3 - Materias/Orcamento Publico/CGU 2026 - *.md` e seu registro de estado; o agente Câmara cria/revisa exclusivamente `3 - Materias/Orcamento Publico/Camara 2026 - *.md` e artigos legados explicitamente reservados a essa frente. Artigos antigos 01–11 e subdivisões que ainda têm `articleId` compartilhado permanecem congelados para edições concorrentes; 12–15 são exclusivos da Câmara. Solicitar à coordenação inclusão ou troca de vínculos no catálogo, index e hub.
+
+**Compatibilidade:** não mover nem renomear arquivo canônico sem análise de URLs e referências. Para derivar versão, usar ID novo e origem documentada (`derivedFromArticleId` no planejamento; frontmatter novo apenas após validar parser). Preservar caminho, ID e aliases antigos; reconciliar `theoryRefs`, glossário, flashcards, índices e `data/planos-estudo/cgu-2026.json` antes da substituição atômica no catálogo. Não editar `data/questoes-camara.json`; se necessário, abrir etapa técnica separada. Não gerar EPUB nesta missão.
+
+
 ## Diagramas Mermaid: paleta, contraste e temas (regra obrigatória)
 
 Antes de criar ou alterar um diagrama Mermaid, examinar os tokens de `style.css` e a configuração de `web/05-mermaid.js`. **A cor de destaque do projeto concursos é amarelo/âmbar**, definida por `--accent-blue` (nome legado da variável, que não significa azul). Não copiar a paleta azul do projeto PUC nem inserir hexadecimais azuis nas definições `classDef`, no tema Mermaid ou no CSS deste projeto.

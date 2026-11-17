@@ -1,7 +1,7 @@
 ---
 title: "Orçamento Público: arquitetura editorial separada CGU e Câmara"
 type: coordenacao-editorial
-status: preparacao-sem-liberacao
+status: estrutura-implementada-validacao-pendente
 created: 2026-11-17
 updated: 2026-11-17
 ---
@@ -10,7 +10,7 @@ updated: 2026-11-17
 
 ## Estado e decisão de segurança
 
-**Arquitetura proposta; migração não concluída; agentes ainda não liberados por este documento.** Este documento não certifica qualquer novo artigo nem substitui os três arquivos de estado históricos da Câmara. O repositório já contém uma separação pontual entre `CGU 2026 - ppa ldo e loa.md` (`art-9dc8a6e2f31b47c0`) e `02 - ppa ldo e loa.md` (`art-c301f2c741504403`). O índice e o catálogo já refletem essa coexistência. Não deslocar ou sobrescrever nenhum dos dois.
+**Arquitetura documental implementada; migração de artigos não concluída; liberação depende de validação.** Este documento não certifica qualquer novo artigo nem substitui os três arquivos de estado históricos da Câmara. O repositório já contém uma separação pontual entre `CGU 2026 - ppa ldo e loa.md` (`art-9dc8a6e2f31b47c0`) e `02 - ppa ldo e loa.md` (`art-c301f2c741504403`). O índice e o catálogo já refletem essa coexistência. Não deslocar ou sobrescrever nenhum dos dois.
 
 A separação é **por concurso, identidade e ciclo de revisão**, preservando fontes comuns. Todo artigo novo ou derivado recebe `articleId` inédito, `concursoId` e `derivedFromArticleId` quando couber. O original mantém ID, caminho e aliases antigos, a menos que haja migração técnica comprovada das referências. A mera presença de artigo num catálogo não prova revisão ou certificação para aquele concurso.
 
@@ -76,6 +76,6 @@ Planejar `1 - Planejamento/Orcamento Publico - Manifesto EPUB integrado.json` co
 
 ## Pendências e gate de liberação
 
-**Pendente:** completar leitura cruzada dos contratos técnicos e inventário de todos os vínculos; confirmar a versão atual da `main`, preflight, CI/Pages e estados editoriais existentes; publicar roteiro independente de cada concurso, com sequência de estudo e novas matrizes no índice/hub; definir o destino dos IDs CGU adicionais; validar regras técnicas de `derivedFromArticleId` e manifesto antes de registrá-los em frontmatter consumido pelo build.
+**Implantado:** roteiros independentes CGU/Câmara em `1 - Planejamento/`, links no índice e no hub, matriz de propriedade no `AGENTS.md`, manifesto EPUB em JSON sem capítulos. **Pendente:** inventário completo dos consumidores de IDs compartilhados, identificação de dois IDs próprios da CGU que não aparecem na série de 19 artigos, preflight/CI/Pages da operação, validação técnica de campos extras de frontmatter, estados individuais novos e migração gradual dos legados.
 
 **Liberação somente após:** contratos publicados em `AGENTS.md`, trilhas navegáveis independentes, catálogo/index/hub consistentes, validações técnicas e workflow Pages confirmados no SHA de liberação. Enquanto este documento estiver em `preparacao-sem-liberacao`, os agentes CGU e Câmara podem consultar a matriz, mas **não iniciar alterações de migração fundamentadas nela**.

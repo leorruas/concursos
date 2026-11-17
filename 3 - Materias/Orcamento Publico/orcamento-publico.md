@@ -12,6 +12,11 @@ updated: 2026-11-07
 
 Matéria de planejamento e execução orçamentária, receita, despesa e responsabilidade fiscal. Os artigos são **conhecimento canônico reutilizável**; a rota inicial foi organizada para **CGU 2026: Cebraspe, itens Certo ou Errado (C/E)**, bloco P3.2.2 e P3.2.3. **Prioridade interna A**, devido ao peso da P3 e ao volume de conteúdo ainda pendente, sem estimativa comprovada de incidência.
 
+
+## Orçamento Público: trilhas editoriais distintas (17/11/2026)
+
+O contrato de propriedade e migração é [[1 - Planejamento/Orcamento Publico - Arquitetura CGU e Camara|Arquitetura CGU/Câmara]]. Os roteiros próprios são [[1 - Planejamento/CGU 2026 - Percurso editorial Orcamento|CGU 2026]] e [[1 - Planejamento/Camara 2026 - Percurso editorial Orcamento|Câmara 2026]]. Essas rotas organizam a leitura **por concurso**; o percurso histórico da biblioteca geral permanece abaixo para compatibilidade. O catálogo v2 continua sendo a fonte de pertencimento. Artigos que ainda compartilham IDs no catálogo são **legados transitórios** e não recebem certificação CGU por herança. Somente a coordenação pode editar `index.md`, hub, catálogo v2 e as instruções globais durante esta migração. Os demais agentes criam/revisam exclusivamente suas notas e seus estados, sem modificar arquivos de outra frente. Não editar `data/questoes-camara.json` nesta operação. O futuro EPUB integrado usa manifesto derivado e nunca altera originais.
+
 ## Começar por aqui
 
 - [[3 - Materias/Orcamento Publico/01 - orcamento publico e ciclo orcamentario|01. Orçamento público e ciclo orçamentário]]: autorização × execução × caixa × entrega; quatro momentos do ciclo; controle e avaliação.

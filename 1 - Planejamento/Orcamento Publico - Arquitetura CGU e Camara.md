@@ -1,12 +1,20 @@
 ---
 title: "Orçamento Público: arquitetura editorial separada CGU e Câmara"
 type: coordenacao-editorial
-status: liberacao-controlada
+status: migracao-estrutural-concluida-ressalva-visual
 created: 2026-11-17
 updated: 2026-11-17
 ---
 
 # Orçamento Público: arquitetura editorial CGU 2026 e Câmara 2026
+
+## Atualização de fechamento da arquitetura (17/11/2026)
+
+**Estado atual, prevalecendo sobre os snapshots históricos abaixo:** os 15 artigos próprios da CGU possuem revisão de conteúdo registrada por `articleId` com ressalva de inspeção visual no [[1 - Planejamento/CGU 2026 - Estado editorial Orcamento|estado editorial CGU]]. Os dez vínculos históricos de Orçamento foram retirados do catálogo CGU e continuam preservados no catálogo Câmara. Dos IDs da matéria `orcamento-publico`, apenas a nota transversal de Atualidades `art-9be1a39d536a47ea` aparece nos dois concursos. Os 19 artigos históricos da Câmara e `data/questoes-camara.json` permaneceram intactos durante a migração.
+
+**Gate de regressão:** o commit `8d5ab71b573354dbf13b5bbf8dd75c1ac5e14a72` acrescentou invariantes para manter os 19 legados na Câmara, impedir seu retorno ao catálogo CGU e impedir que cartões de qualquer matéria da CGU apontem para esses artigos. O workflow [44196245135](https://github.com/leorruas/concursos/actions/runs/44196245135) concluiu com `success`, incluindo publicação no Pages. Os commits posteriores de navegação e de reconciliação editorial têm auditorias automáticas CGU com `success`; alterações documentais posteriores devem ser validadas no próprio SHA, sem herdar esse resultado.
+
+**Fronteira do encerramento:** a arquitetura e a migração de consumidores foram encerradas; permanecem a inspeção visual manual individual de cada artigo e a continuidade editorial independente. A Câmara conserva a checagem F4 residual e sua inspeção visual. O manifesto EPUB mantém 19 candidatos Câmara e 15 CGU, sem capítulos selecionados nem exportação. Os parágrafos abaixo sobre migração pendente documentam o estado inicial e não representam tarefas ainda abertas.
 
 ## Estado e decisão de segurança
 

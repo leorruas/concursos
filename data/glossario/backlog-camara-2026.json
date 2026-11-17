@@ -1451,6 +1451,142 @@
       "examBlock": "Conhecimentos básicos: Direito Administrativo",
       "contestId": "camara-2026",
       "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-modalidade-criterio",
+      "term": "Modalidade de licitação × critério de julgamento",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-dispensa-inexigibilidade",
+      "term": "Dispensa × inexigibilidade de licitação",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-adjudicacao-homologacao",
+      "term": "Adjudicação × homologação na Lei nº 14.133/2021",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-pregao-concorrencia",
+      "term": "Pregão × concorrência e serviços de engenharia",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-dialogo-competitivo",
+      "term": "Diálogo competitivo da Lei nº 14.133/2021",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-inversao-habilitacao",
+      "term": "Inversão da habilitação no art. 17",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-etp-termo-referencia",
+      "term": "Estudo Técnico Preliminar (ETP) × Termo de Referência (TR)",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-publicidade-inexigibilidade",
+      "term": "Vedação de inexigibilidade para publicidade e divulgação no art. 74, III",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-limites-dispensa-2026",
+      "term": "Dispensa de licitação por valor em 2026",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-processo-contratacao-direta",
+      "term": "Instrução da contratação direta no art. 72",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-pncp-eficacia",
+      "term": "PNCP e eficácia dos contratos no art. 94",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-fiscal-recebimento",
+      "term": "Fiscalização e recebimento provisório × definitivo do contrato",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-alteracoes-25-50",
+      "term": "Alterações unilaterais de 25% e 50% nos contratos",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-impedimento-inidoneidade",
+      "term": "Impedimento de licitar × declaração de inidoneidade",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-recurso-sancao-prazos",
+      "term": "Prazos recursais de licitação e sanções na Lei nº 14.133/2021",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-proposta-inexequivel-engenharia",
+      "term": "Inexequibilidade de proposta e garantia adicional em engenharia",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
+    },
+    {
+      "id": "glo-camara-da08-contrato-verbal-2026",
+      "term": "Contrato verbal e documento substitutivo no art. 95",
+      "subjectId": "direito-administrativo",
+      "examBlock": "Conhecimentos básicos: Direito Administrativo, licitações e contratos",
+      "contestId": "camara-2026",
+      "status": "planned"
     }
   ]
 }

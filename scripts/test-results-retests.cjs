@@ -21,4 +21,21 @@ for(const [id,v] of extra)v.id=id;
 const cov=cover(rows,extra,'camara-2026');
 assert.equal(cov.length,1);assert.equal(cov[0].total,3);assert.equal(cov[0].answered,2);assert.equal(cov[0].remaining,1);
 assert.equal(cover(rows,extra,'dataprev-2026').length,0);
+
+const transfer=ctx.ResultsRetests.conceptTransfer;
+const concepts=new Map([
+ ['c1',{concursoId:'camara-2026',articleId:'art-1',subjectId:'direito-constitucional',conceptId:'quorum'}],
+ ['c2',{concursoId:'camara-2026',articleId:'art-1',subjectId:'direito-constitucional',conceptId:'quorum'}],
+ ['c3',{concursoId:'camara-2026',articleId:'art-1',subjectId:'direito-constitucional',conceptId:'quorum'}],
+ ['cgu',{concursoId:'cgu-2026',articleId:'art-2',subjectId:'orcamento-publico',conceptId:'quorum'}]
+]);
+const testRows=[a('t1','c1','incorrect','2026-11-10'),a('t2','c2','correct','2026-11-12')];
+assert.equal(transfer(testRows,concepts,'camara-2026')[0].state,'promising');
+assert.equal(transfer(testRows,concepts,'camara-2026')[0].distinctQuestions,2);
+assert.equal(transfer([a('t1','c1','incorrect','2026-11-10'),a('t2','c1','correct','2026-11-12')],concepts,'camara-2026').length,0);
+assert.equal(transfer([a('t1','c1','incorrect','2026-11-10'),a('t2','c2','correct','2026-11-10')],concepts,'camara-2026').length,0);
+assert.equal(transfer([a('t1','c1','incorrect','2026-11-10'),a('t2','c2','incorrect','2026-11-12')],concepts,'camara-2026')[0].state,'needs-review');
+assert.equal(transfer([a('t1','c1','incorrect','2026-11-10'),a('t2','c2','correct','2026-11-12','camara-2026','insecure')],concepts,'camara-2026')[0].state,'insecure');
+assert.equal(transfer([a('t1','c1','incorrect','2026-11-10'),a('t2','cgu','correct','2026-11-12','cgu-2026')],concepts,'camara-2026').length,0);
+assert.equal(transfer([...testRows,a('t2','c2','correct','2026-11-12')],concepts,'camara-2026')[0].distinctQuestions,2);
 console.log('OK: retestes por artigo, diferença de dias, confiança, deduplicação e isolamento por concurso.');

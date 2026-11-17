@@ -50,6 +50,8 @@ O art. 37, XIX, da Constituição faz uma distinção decisiva: **a lei específ
 
 **Lei específica** é uma lei voltada à criação ou à autorização de determinada entidade. Quando a lei apenas autoriza, a pessoa jurídica surge depois dos atos constitutivos e do registro exigido pela sua natureza; a autorização isolada não basta. Para a autarquia e a fundação autárquica, a personalidade nasce da própria lei que as cria, conforme sua vigência.
 
+### 2. Quadro Comparativo das Entidades da Administração Indireta
+
 | Espécie | Personalidade e criação | Atuação característica | Pessoal e justiça, na esfera federal |
 | :--- | :--- | :--- | :--- |
 | **Autarquia** | Direito público; criada por lei específica | Atividades administrativas especializadas, como regulação, fiscalização e previdência | Cargos efetivos federais em regra sujeitos à Lei nº 8.112/1990; causas do art. 109, I, na Justiça Federal, com exceções constitucionais |

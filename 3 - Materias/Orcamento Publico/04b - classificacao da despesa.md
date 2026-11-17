@@ -63,8 +63,7 @@ flowchart TB
     class E1,E2,E3,I1,I2,FU1,FU2,PR1,PR2,PR3,NA1,NA2,NA3,NA4,FO1,Q1,Q2 opcao;
 ```
 
-**Atenção:** as categorias dentro de natureza seguem uma sequência; esfera, natureza, função e programa **não** seguem uma sequência entre si. O exemplo de opções não substitui os códigos e desdobramentos vigentes no MTO. A meta física mede o produto previsto ou realizado, enquanto a dotação é expressa em dinheiro.
-
+**Atenção:** as categorias dentro de natureza seguem uma sequência; esfera, natureza, função e programa **não** seguem uma sequência entre si. O exemplo de opções não substitui os códigos e detalhamentos do **Manual Técnico de Orçamento (MTO)** aplicável ao exercício. A meta física mede o produto previsto ou realizado, enquanto a dotação é expressa em dinheiro.
 
 | Dimensão | Pergunta | Componentes |
 | :--- | :--- | :--- |
@@ -94,7 +93,7 @@ Considere um **caso hipotético**, sem códigos de programação oficiais: o Min
 
 As sete respostas aparecem **lado a lado**, no registro de uma despesa. Não são sete degraus da mesma hierarquia. Dentro de **natureza**, por outro lado, há níveis ordenados: categoria econômica, grupo, modalidade e elemento. “Ministério” ou “secretaria” é informação institucional; “programa” e “ação” são informação programática.
 
-**Teste de fronteira:** uma universidade federal compra papel e depois constrói um laboratório. Em regra, as duas despesas ficam no **orçamento fiscal**. A compra de papel é corrente; a construção é de capital, no GND Investimentos. A esfera permaneceu igual, enquanto a natureza mudou. Já a construção de uma unidade pública do SUS pode ser despesa de capital no **orçamento da seguridade social**.
+**Teste de fronteira:** uma universidade federal compra papel e depois constrói um laboratório. Em regra, as duas despesas ficam no **orçamento fiscal**. A compra de papel é corrente; a construção é de capital, no GND Investimentos. A esfera permaneceu igual, enquanto a natureza mudou. Já a construção de uma unidade pública do **Sistema Único de Saúde (SUS)** pode ser despesa de capital no **orçamento da seguridade social**.
 
 ### Esfera × natureza da despesa
 
@@ -102,7 +101,7 @@ A **esfera** identifica orçamento **fiscal**, **seguridade social** ou **invest
 
 Uma obra pública em hospital administrado diretamente pela União pode ser despesa **de capital** no **orçamento da seguridade social**. Capital não equivale à esfera de investimento das empresas estatais.
 
-Nas empresas estatais, é preciso distinguir **controle acionário** de **dependência financeira**: ter a maioria do **capital social votante** define uma empresa **controlada** (LRF, art. 2º, II), mas não a torna automaticamente **dependente**. Esta última condição envolve o recebimento de recursos do ente controlador para pagar pessoal, custeio ou despesas de capital, com exceção legal relativa a aumento da participação acionária (LRF, art. 2º, III). Em regra, estatais **dependentes** integram o orçamento **fiscal ou da seguridade**, e os investimentos das **não dependentes**, o orçamento **de investimento**. Veja a [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Empresa controlada × estatal dependente × estatal não dependente|distinção, seus três critérios e o exemplo comparativo]].
+Nas empresas estatais, duas perguntas precisam ser respondidas separadamente. **Quem controla a empresa?** Se o ente público possui a maioria das ações que dão direito a voto, a empresa é **controlada** (Lei de Responsabilidade Fiscal, LRF, art. 2º, II). **A empresa depende de dinheiro do controlador para funcionar?** É **dependente** quando recebe recursos do ente controlador para pagar pessoal, despesas de custeio ou despesas de capital, ressalvados, nesta última hipótese, os recursos provenientes de aumento de participação acionária (LRF, art. 2º, III). Em regra, uma estatal dependente integra o orçamento fiscal ou da seguridade social; os investimentos da estatal não dependente abrangida pela regra constitucional integram o orçamento de investimento. Ser controlada não basta, por si só, para ser dependente. Veja [[3 - Materias/Orcamento Publico/02 - ppa ldo e loa#Empresa controlada × estatal dependente × estatal não dependente|o exemplo comparativo]].
 
 ### Classificação institucional: órgão × unidade orçamentária
 
@@ -118,7 +117,7 @@ A **função** é o nível mais amplo de agregação da despesa por área de gov
 
 A classificação admite **matricialidade**, isto é, a combinação de uma subfunção com uma função à qual ela não costuma estar associada. Imagine um órgão do Poder Legislativo que oferece atendimento pré-escolar aos dependentes de seus servidores: a despesa pode aparecer na função **Legislativa** e na subfunção **Educação Infantil**. O fato de a subfunção ter nome ligado à educação não obriga, por si só, o uso da função Educação. É preciso observar as regras específicas aplicáveis.
 
-Esse princípio de combinação possui regras especiais para certas despesas, como as classificadas em Encargos Especiais. Portanto, não presumir liberdade irrestrita de combinação.
+A combinação de função e subfunção precisa respeitar exceções normativas, especialmente na **função Encargos Especiais**, que reúne despesas sem associação direta com um bem ou serviço gerado pela ação governamental, como determinados encargos da dívida. Portanto, a matricialidade permite combinações em muitos casos, mas a escolha do código deve seguir a classificação oficial vigente.
 
 ### Classificação programática: programa × ação × subtítulo
 
@@ -130,7 +129,7 @@ Há três tipos clássicos de ação:
 | :--- | :--- | :--- |
 | **Projeto** | Operação delimitada no tempo, geralmente voltada à expansão ou aperfeiçoamento da atuação | Construção de escola |
 | **Atividade** | Ação contínua de manutenção das atividades governamentais | Funcionamento de unidades escolares |
-| **Operação especial** | Despesa da qual não resulta diretamente bem ou serviço típico da ação produtiva estatal | Serviço da dívida, conforme programação |
+| **Operação especial** | Ação que não gera diretamente produto nem contraprestação direta sob a forma de bens ou serviços; pode corresponder, por exemplo, ao cumprimento de obrigações financeiras | Serviço da dívida, conforme programação |
 
 **Projeto não determina automaticamente GND Investimentos.** Tipo de ação e natureza do gasto são dimensões separadas. Também não se deve transformar “subfunção” em “programa”: uma indica área de atuação, o outro organiza a política e sua estratégia de entrega.
 
@@ -197,7 +196,7 @@ Considere duas perspectivas da **mesma transferência hipotética**: a União en
 
 Se os recursos recebidos forem destinados **à construção de um equipamento público**, pode haver, no orçamento municipal, **receita de transferência de capital**. Isso não transforma “Transferências a Municípios” em categoria econômica de receita: a modalidade responde **como o ente que paga aplica os recursos**, enquanto a natureza da receita responde **qual ingresso o ente recebedor registra**. Em casos concretos, é preciso verificar instrumento, finalidade e classificadores do exercício. A classificação da receita recebida **não decorre automaticamente do nome da modalidade** na despesa de quem transfere.
 
-**Regra de prova:** antes de classificar, identifique **quem é o ente** e se a questão observa a **despesa de quem transfere** ou a **receita de quem recebe**. Essa troca de ponto de vista permite um distrator com nomes tecnicamente verdadeiros, mas usados na categoria errada.
+**Regra de prova:** identifique **quem envia** e **quem recebe**. A União registra uma **despesa** ao transferir recursos; o município registra uma **receita** ao recebê-los, conforme o enquadramento aplicável. Uma afirmação pode usar um nome correto, como *Transferências a Municípios*, mas errar ao tratá-lo como se fosse a categoria econômica da receita municipal.
 
 **Exemplo numérico: mesma ação, dois GNDs.** Uma ação de modernização de biblioteca tem dotação total de **R$ 250 mil**, distribuída entre **R$ 200 mil** para computadores permanentes (em regra, GND 4: Investimentos) e **R$ 50 mil** para treinamento contratado (em regra, GND 3: Outras Despesas Correntes). Os valores totalizam os mesmos **R$ 250 mil** da ação, mas não pertencem ao mesmo grupo de natureza. Alterar a fonte que financia os computadores, respeitadas as normas de aplicação, tampouco altera por si só a função, o programa ou o GND. Na execução concreta, conferir o elemento adequado e a versão vigente das tabelas, sem deduzi-lo apenas do nome da ação.
 
@@ -205,7 +204,7 @@ Se os recursos recebidos forem destinados **à construção de um equipamento p�
 
 **Meta física** indica a quantidade de entregas previstas: por exemplo, **500 atendimentos**. **Dotação financeira** é o valor autorizado para a programação. Se a unidade realizou **350 atendimentos**, cumpriu **70% da meta física** (350 ÷ 500), mas esse percentual não revela quanto do orçamento foi empenhado, liquidado ou pago. É preciso analisar separadamente os dados financeiros e as condições em que o serviço foi realizado.
 
-A dotação não comprova empenho, pagamento nem resultado da política. O tema se relaciona a [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|monitoramento e avaliação]], mas a execução da despesa não substitui avaliação de impacto.
+A dotação apenas informa **quanto foi autorizado**: ela não demonstra que houve contratação, empenho, entrega, pagamento ou melhora efetiva para a população. O tema se relaciona a [[3 - Materias/Avaliacao de Politicas Publicas/avaliacao-de-politicas-publicas|monitoramento e avaliação]], mas a execução da despesa não substitui avaliação de impacto.
 
 ### Ponte para os estágios da execução
 

@@ -3230,6 +3230,42 @@
       "editorialPriority": "A",
       "articleCandidate": "3 - Materias/Orcamento Publico/03 - principios orcamentarios e vedacoes constitucionais.md",
       "status": "planned"
+    },
+    {
+      "id": "glo-deducao-da-receita-orcamentaria",
+      "term": "Dedução da receita orçamentária",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-restituicao-de-receita",
+      "term": "Restituição de receita",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-retificacao-de-receita",
+      "term": "Retificação de receita",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
+    },
+    {
+      "id": "glo-estorno-de-receita",
+      "term": "Estorno de receita",
+      "subjectId": "orcamento-publico",
+      "examBlock": "P3",
+      "editorialPriority": "A",
+      "articleCandidate": "3 - Materias/Orcamento Publico/07 - receitas publicas e estagios.md",
+      "status": "planned"
     }
   ],
   "description": " Classificações adicionais de Orçamento Público ampliadas após a versão inicial de 200 termos."

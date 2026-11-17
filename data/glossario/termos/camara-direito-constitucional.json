@@ -241,10 +241,10 @@
       "id": "glo-camara-sancao-presidencial",
       "term": "Sanção presidencial",
       "aliases": [],
-      "definition": "Concordância do Presidente da República com projeto de lei aprovado pelo Congresso, expressa ou tácita, nos termos do art. 66.",
-      "contrast": "Sanção integra a formação de leis submetidas ao Presidente; PEC, decreto legislativo e resolução não passam por sanção.",
+      "definition": "Concordância do Presidente da República com projeto de lei aprovado pelo Congresso, manifestada expressamente ou pelo silêncio no prazo constitucional de 15 dias úteis. É etapa do processo legislativo nos casos submetidos à sanção.",
+      "contrast": "Sanção aprova o projeto no processo de formação da lei; promulgação atesta sua existência e publicação lhe dá divulgação oficial. PEC, decreto legislativo e resolução não dependem de sanção.",
       "cebraspeTrap": "Tratar sanção como promulgação ou supor que o Presidente sanciona uma PEC após sua aprovação.",
-      "example": "O Presidente concorda com um PL aprovado pelas duas Casas, permitindo a etapa posterior de promulgação.",
+      "example": "Presidente recebe projeto aprovado e não se manifesta em 15 dias úteis: ocorre sanção tácita, sem confundir esse ato com promulgação.",
       "articleIds": [
         "art-51c7e2f904a68db3"
       ],
@@ -1108,7 +1108,7 @@
       "term": "Enquadramento residual de competência",
       "aliases": [],
       "definition": "Critério de classificação utilizado quando uma matéria não se ajusta claramente a uma competência temática mais específica. A aplicação depende do despacho, do regimento e do objeto predominante da proposição; a expressão não cria por si só uma nova comissão nem uma regra geral de distribuição.",
-      "contrast": "Competência residual não autoriza escolher livremente qualquer comissão: é preciso identificar fundamento regimental e a matéria predominante.",
+      "contrast": "Enquadramento residual de comissão trata de distribuir projetos conforme objeto e regimento. Competência remanescente dos estados é regra federativa do art. 25, § 1º, e trata de poderes dos entes.",
       "cebraspeTrap": "Afirmar que sempre existe uma comissão residual obrigatória para qualquer assunto não classificado.",
       "example": "Uma proposta multidisciplinar exige examinar o tema central e o despacho antes de definir quais comissões de mérito atuarão.",
       "articleIds": [
@@ -1229,6 +1229,298 @@
       "sources": [
         {
           "label": "Constituição, art. 166, § 1º; Resolução 1/2006-CN",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-substitutivo",
+      "term": "Substitutivo",
+      "aliases": [],
+      "definition": "Emenda que apresenta texto alternativo para uma proposição em seu conjunto, com mudança de conteúdo ou apenas de forma. É uma proposta de substituição integral do texto em análise, não uma lei nova já aprovada.",
+      "contrast": "Emenda modificativa comum altera parte do texto; substitutivo reformula o conjunto. A aprovação depende do procedimento de votação.",
+      "cebraspeTrap": "Afirmar que todo substitutivo já é a redação final da lei ou que precisa alterar o mérito.",
+      "example": "Relator reúne ajustes de vários artigos em um texto alternativo para o projeto inteiro.",
+      "articleIds": [
+        "art-d269c5708f314eba"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, art. 118, § 4º",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-emenda-saneadora",
+      "term": "Emenda saneadora",
+      "aliases": [
+        "Ementa saneadora (forma incorreta)"
+      ],
+      "definition": "Emenda proposta para corrigir inconstitucionalidade, injuridicidade ou inadequação/incompatibilidade orçamentária ou financeira identificada na medida provisória em exame pela comissão mista. No rito da Resolução nº 1/2002-CN, quando existe, é votada primeiro.",
+      "contrast": "Corrige defeito de admissibilidade; não é apenas ementa (resumo da proposição), nem uma emenda genérica de mérito.",
+      "cebraspeTrap": "Confundir emenda saneadora com ementa ou afirmar que toda emenda à medida provisória deve ser votada antes por ser saneadora.",
+      "example": "Comissão mista identifica problema financeiro em dispositivo de MP e vota primeiro emenda destinada a saná-lo.",
+      "articleIds": [
+        "art-7e91b362a40c58d2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Resolução nº 1/2002-CN, art. 5º, § 3º",
+          "url": "https://legis.senado.leg.br/norma/561120/publicacao/16418578"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-sobrestamento",
+      "term": "Sobrestamento das deliberações",
+      "aliases": [
+        "Trancamento de pauta"
+      ],
+      "definition": "Efeito procedimental que impede temporariamente certas deliberações legislativas enquanto uma proposição com prazo constitucional vencido aguarda apreciação. O alcance depende da regra aplicável e da Casa em que tramita.",
+      "contrast": "Não extingue projetos nem paralisa necessariamente toda a atividade parlamentar; não confundir com simples prioridade de pauta.",
+      "cebraspeTrap": "Dizer que uma MP com mais de 45 dias impede toda votação de qualquer assunto nas duas Casas.",
+      "example": "MP não votada em 45 dias entra em urgência e sobresta deliberações alcançadas pela regra na Casa em que tramita.",
+      "articleIds": [
+        "art-7e91b362a40c58d2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 62, § 6º, e art. 64, § 2º",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-procedimento-abreviado",
+      "term": "Procedimento abreviado",
+      "aliases": [],
+      "definition": "Nome doutrinário do rito em que, nos casos admitidos pela Constituição e pelo regimento, comissões discutem e votam conclusivamente projeto de lei, dispensando votação comum do Plenário, salvo recurso de um décimo dos membros da Casa.",
+      "contrast": "Muda principalmente quem decide; o procedimento sumário acelera por prazo constitucional após pedido presidencial de urgência.",
+      "cebraspeTrap": "Tratar rito abreviado como sinônimo de urgência constitucional ou afirmar que toda decisão de comissão é definitiva.",
+      "example": "Projeto de lei sujeito à apreciação conclusiva é aprovado nas comissões, sem recurso para levá-lo ao Plenário.",
+      "articleIds": [
+        "art-68b5cf209e4d731a"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 58, § 2º, I; RICD, art. 24, II",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-procedimento-sumario",
+      "term": "Procedimento sumário",
+      "aliases": [],
+      "definition": "Nome doutrinário da tramitação acelerada de projeto de lei de iniciativa do Presidente da República para o qual ele solicita urgência constitucional. Em regra, Câmara e Senado têm 45 dias cada, sucessivamente, e a Câmara tem 10 dias para examinar emendas do Senado.",
+      "contrast": "Muda os prazos de manifestação, sem tornar a decisão exclusiva das comissões. Não se confunde com os regimes regimentais chamados urgência e prioridade.",
+      "cebraspeTrap": "Somar 45 dias para as duas Casas ou aplicar o procedimento aos projetos de código, apesar da exceção constitucional.",
+      "example": "Presidente solicita urgência para projeto de sua iniciativa; o prazo corre separadamente para Câmara e Senado, ressalvadas as exceções.",
+      "articleIds": [
+        "art-68b5cf209e4d731a"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 64, §§ 1º a 4º",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-plv",
+      "term": "Projeto de lei de conversão (PLV)",
+      "aliases": [
+        "PLV"
+      ],
+      "definition": "Projeto de texto legislativo elaborado no processo de apreciação de medida provisória quando são propostas alterações ao texto original. Se aprovado pelo Congresso, segue à sanção ou veto presidencial; até isso ocorrer, a MP original permanece em vigor, conforme art. 62, § 12.",
+      "contrast": "Aprovar a MP sem alterações leva à promulgação sem sanção; aprovar PLV modificado exige etapa de sanção ou veto.",
+      "cebraspeTrap": "Afirmar que qualquer MP aprovada gera PLV ou que o PLV já vigora assim que o Congresso o aprova.",
+      "example": "Congresso altera dispositivos de MP e aprova um PLV, encaminhado ao Presidente para sanção ou veto.",
+      "articleIds": [
+        "art-7e91b362a40c58d2"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 62, § 12; Resolução nº 1/2002-CN",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-prn",
+      "term": "Projeto de resolução do Congresso Nacional (PRN)",
+      "aliases": [
+        "PRN"
+      ],
+      "definition": "Proposição destinada a produzir resolução do Congresso Nacional em matéria de competência desse órgão, seguindo o procedimento aplicável. Exemplo: resolução que especifica a delegação legislativa ao Presidente da República.",
+      "contrast": "PRC é projeto de resolução da Câmara; PRS é projeto de resolução do Senado. PRN não é projeto de lei sujeito à sanção.",
+      "cebraspeTrap": "Dizer que PRN e PRC podem ser usados indistintamente para alterar o Regimento Interno da Câmara.",
+      "example": "Congresso aprecia PRN para autorizar a elaboração de lei delegada nos limites fixados em resolução.",
+      "articleIds": [
+        "art-a3f905cb76e1428d"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 68, § 2º; Regimento Comum",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-prc",
+      "term": "Projeto de resolução da Câmara dos Deputados (PRC)",
+      "aliases": [
+        "PRC"
+      ],
+      "definition": "Proposição da Câmara destinada a resultar em resolução dessa Casa, dentro de suas competências constitucionais e regimentais, sem sanção presidencial. Um uso é alterar seu Regimento Interno.",
+      "contrast": "PRS pertence ao Senado; PRN ao Congresso. O nome do projeto depende do órgão competente, não da preferência do autor.",
+      "cebraspeTrap": "Afirmar que uma alteração do Regimento da Câmara deve ser aprovada pelo Senado ou sancionada pelo Presidente.",
+      "example": "Deputados propõem mudança no Regimento Interno da Câmara por PRC.",
+      "articleIds": [
+        "art-a3f905cb76e1428d"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 51, III; RICD, art. 109, III",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-prs",
+      "term": "Projeto de resolução do Senado Federal (PRS)",
+      "aliases": [
+        "PRS"
+      ],
+      "definition": "Proposição do Senado destinada a resultar em resolução dessa Casa, para matéria de sua competência. Exemplo: fixação de limites globais para o montante da dívida consolidada dos entes federados, nos termos da Constituição.",
+      "contrast": "PRC é da Câmara, e PRN do Congresso; a competência constitucional determina o tipo de resolução.",
+      "cebraspeTrap": "Confundir resolução do Senado sobre limites de dívida com lei ordinária sujeita a sanção.",
+      "example": "Senado examina PRS para estabelecer limites de endividamento nos termos do art. 52, VI.",
+      "articleIds": [
+        "art-a3f905cb76e1428d"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 52, VI",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-pdl",
+      "term": "Projeto de decreto legislativo (PDL)",
+      "aliases": [
+        "PDL"
+      ],
+      "definition": "Proposição usada para matérias sujeitas a decreto legislativo, especialmente competências exclusivas do Congresso Nacional, como sustar ato normativo do Executivo que exorbite do poder regulamentar. Não passa por sanção presidencial.",
+      "contrast": "PDL é projeto, decreto legislativo é ato final; resolução também dispensa sanção, mas tem fundamento e competência próprios.",
+      "cebraspeTrap": "Afirmar que PDL é projeto de lei ordinária ou que toda matéria sem sanção se resolve por PDL.",
+      "example": "Congresso examina PDL para sustar decreto que excedeu o poder regulamentar.",
+      "articleIds": [
+        "art-a3f905cb76e1428d"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 49, V; RICD, art. 109, II",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-competencia-remanescente-estados",
+      "term": "Competência remanescente (ou residual) dos estados",
+      "aliases": [
+        "Competência residual dos estados",
+        "Competência remanescente"
+      ],
+      "definition": "Regra do federalismo segundo a qual os estados podem exercer competências que a Constituição não lhes veda nem atribui de modo incompatível a outro ente. O fundamento é o art. 25, § 1º, da Constituição.",
+      "contrast": "Diferente do enquadramento residual de competência temática de comissão legislativa, que trata da distribuição interna de proposições na Câmara.",
+      "cebraspeTrap": "Afirmar que a União tem competência residual geral ou que a regra dos estados elimina as competências municipais e do Distrito Federal.",
+      "example": "Para saber se o estado pode disciplinar um tema, primeiro se verificam as competências expressas e as vedações constitucionais.",
+      "articleIds": [
+        "art-efb14d491dd34d54"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 25, § 1º",
           "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
         }
       ],

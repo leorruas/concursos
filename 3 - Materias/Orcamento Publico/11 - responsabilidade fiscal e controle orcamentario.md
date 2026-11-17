@@ -215,7 +215,7 @@ Para distinguir as atribuições do Congresso Nacional e do Tribunal de Contas d
 
 ### Objeto de fiscalização: cinco dimensões
 
-O art. 70 da Constituição determina fiscalização **contábil, financeira, orçamentária, operacional e patrimonial**, quanto a **legalidade, legitimidade, economicidade, aplicação de subvenções e renúncia de receitas**.
+O art. 70 da Constituição determina que o controle público examine cinco aspectos de uma despesa: **contábil** (como foi registrada), **financeiro** (como o dinheiro circulou), **orçamentário** (se houve autorização e execução correta), **operacional** (como a ação foi realizada) e **patrimonial** (como bens, direitos e obrigações foram administrados). O mesmo dispositivo exige analisar **legalidade**, **legitimidade** e **economicidade**, além da aplicação de **subvenções**, que são recursos públicos destinados a apoiar determinadas atividades, e de **renúncias de receita**, como benefícios tributários que reduzem arrecadação. Uma mesma fiscalização pode abordar mais de uma dimensão.
 
 | Dimensão | Pergunta típica | Erro de classificação |
 | :--- | :--- | :--- |
@@ -225,7 +225,7 @@ O art. 70 da Constituição determina fiscalização **contábil, financeira, or
 | **Operacional** | A gestão foi eficiente, eficaz e econômica, conforme os critérios da auditoria? | Concluir desempenho somente porque o orçamento foi gasto |
 | **Patrimonial** | Bens, direitos, obrigações e patrimônio são registrados e geridos regularmente? | Reduzir patrimônio ao saldo bancário |
 
-**Legalidade** verifica aderência às normas; **legitimidade** incorpora adequação a fins e valores reconhecidos juridicamente; **economicidade** examina emprego racional de recursos para atingir objetivos. São dimensões complementares, não sinônimos perfeitos. Uma despesa pode ser formalmente legal e ainda exigir análise de economicidade ou resultado.
+**Legalidade** pergunta se o ato respeitou as regras. **Legitimidade** examina se o uso do poder e do dinheiro público atende às finalidades e aos princípios jurídicos pertinentes. **Economicidade** avalia se os recursos foram empregados de modo racional para obter o resultado pretendido. Por exemplo, um órgão pode seguir corretamente a lei ao comprar equipamentos, mas ainda precisar explicar por que pagou um preço muito superior ao praticado em alternativas equivalentes. Cumprir a formalidade não encerra necessariamente a análise de economicidade.
 
 O **parágrafo único do art. 70** alcança pessoas físicas ou jurídicas, públicas ou privadas, que utilizem, arrecadem, guardem, gerenciem ou administrem recursos e valores públicos ou pelos quais a União responda, além das obrigações pecuniárias assumidas em nome dela. **Entidade privada que administra recurso público também pode dever prestação de contas**, sem transformar-se, por isso, em órgão público.
 
@@ -240,29 +240,29 @@ O **parágrafo único do art. 70** alcança pessoas físicas ou jurídicas, púb
 | **Controle interno de cada Poder** | Avalia execução de metas, gestão, legalidade e resultados, controle de operações de crédito e apoio ao controle externo (art. 74) | Controle interno da Câmara não é idêntico ao TCU ou à CGU |
 | **Controle social** | Acesso a informações, denúncia e fiscalização pela sociedade segundo regras constitucionais e legais | Transparência e denúncia não substituem decisão do órgão competente |
 
-**Distinção fundamental: contas de governo × contas de gestão.** As contas anuais do **presidente da República** recebem **parecer prévio do TCU** e são **julgadas pelo Congresso**. As contas de **administradores e demais responsáveis por recursos federais**, nas hipóteses do art. 71, II, são **julgadas pelo TCU**. A mesma palavra “contas” não define o órgão competente sem a identificação do **sujeito e da modalidade**.
+**Contas de governo e contas de gestão têm responsáveis e decisões diferentes.** Nas **contas de governo**, o presidente apresenta as contas anuais de sua atuação: o TCU emite um **parecer prévio**, isto é, uma avaliação técnica que antecede a decisão política, e o Congresso Nacional julga essas contas (arts. 49, IX, e 71, I). Nas **contas de gestão**, o foco são atos de administradores e outras pessoas responsáveis por recursos federais. O TCU julga essas contas nas hipóteses do art. 71, II. Portanto, a banca pode trocar o verbo **opinar** por **julgar** ou substituir o responsável para alterar o gabarito.
 
 **Percurso das contas presidenciais:** o presidente apresenta as contas ao Congresso; o **TCU** emite parecer prévio em **60 dias a contar do recebimento**; a **CMO** emite seu parecer e apresenta projeto de decreto legislativo; o **Congresso** julga. Se o presidente não apresentar contas ao Congresso em **60 dias após a abertura da sessão legislativa**, cabe à **Câmara proceder à tomada de contas**, conforme art. 51, II. Os dois prazos de 60 dias têm **marcos iniciais diferentes**: abertura da sessão legislativa × recebimento das contas pelo TCU. Fonte: [Congresso, Contas da Presidência](https://www.congressonacional.leg.br/materias/materias-orcamentarias/contas-da-presidencia).
 
 ### Sustação de ato administrativo × sustação de contrato
 
-O **art. 71, IX**, permite ao TCU fixar prazo para providências quando verificada ilegalidade. Não atendida a determinação, o **inciso X** permite ao Tribunal **sustar a execução do ato impugnado**, com comunicação à Câmara e ao Senado.
+O art. 71, IX, da Constituição permite ao TCU determinar um prazo para que um órgão corrija uma ilegalidade. Se o responsável não cumprir a determinação, o inciso X permite ao Tribunal **sustar a execução do ato impugnado**, ou seja, interromper seus efeitos executórios, comunicando a decisão à Câmara dos Deputados e ao Senado. Por exemplo, o TCU identifica um ato administrativo ilegal, exige correção e, se ela não ocorrer, pode sustá-lo nos termos constitucionais.
 
-**Mas, se o objeto é contrato**, o **art. 71, § 1º**, dispõe que a sustação será adotada **diretamente pelo Congresso Nacional**, que solicitará ao Executivo as medidas cabíveis. Pelo **§ 2º**, se Congresso ou Executivo **não efetivarem as medidas no prazo de 90 dias**, o TCU decidirá a respeito. A prova pode trocar a palavra **ato** por **contrato** e manter o mesmo sujeito para sustação: isso altera o regime constitucional.
+**Quando a irregularidade envolve um contrato**, o procedimento muda. O art. 71, § 1º, prevê que o **Congresso Nacional** adote diretamente a sustação e solicite imediatamente ao Executivo as providências cabíveis. Se o Congresso ou o Executivo não efetivarem essas medidas em **90 dias**, o **TCU decide a respeito**, na forma do § 2º. Portanto, a frase “o TCU susta imediatamente qualquer contrato ilegal” ignora a sequência constitucional. A distinção entre **ato administrativo** e **contrato** determina quem atua e em qual momento.
 
-**Decisão de débito ou multa do TCU** possui **eficácia de título executivo** (art. 71, § 3º), que não deve ser confundida com sentença judicial nem com uma atribuição geral do TCU para aplicar qualquer pena criminal. O TCU exerce fiscalização e competências decisórias constitucionalmente próprias, mas **não integra o Poder Judiciário**.
+Quando o TCU decide que um responsável deve **restituir dinheiro** (débito) ou pagar **multa**, essa decisão tem **eficácia de título executivo** (art. 71, § 3º): pode fundamentar a cobrança forçada pelas vias legais, sem que seja necessário transformar a decisão em sentença judicial para constituir o título. Isso não dá ao TCU competência para impor penas criminais. O Tribunal exerce controle externo, mas **não faz parte do Poder Judiciário**.
 
 ### Despesas não autorizadas: o procedimento especial do art. 72
 
 Um gasto foi apontado como **não autorizado**. O art. 72 estabelece etapas específicas:
 
-**1. Indício:** a **CMO** pode solicitar esclarecimentos à autoridade governamental responsável. **Prazo: cinco dias.** Ainda não há, só por isso, julgamento final ou sustação automática.
+**1. Indício:** diante de sinais de uma despesa sem autorização, a **Comissão Mista de Orçamento (CMO)**, composta por parlamentares da Câmara e do Senado, pode pedir explicações à autoridade responsável. Essa autoridade tem **cinco dias** para responder. O pedido ainda não suspende automaticamente a despesa nem significa que a irregularidade foi confirmada.
 
-**2. Esclarecimento ausente ou insuficiente:** a comissão solicita ao **TCU pronunciamento conclusivo sobre a matéria**. **Prazo para o Tribunal: trinta dias.** Uma questão pode inverter “cinco dias” e “trinta dias” ou atribuir ambos à autoridade executora.
+**2. Explicação ausente ou insuficiente:** se a autoridade não responder ou se a CMO considerar a resposta insuficiente, a comissão deve solicitar ao **Tribunal de Contas da União (TCU)** uma avaliação conclusiva. O TCU tem **30 dias** para se pronunciar. São dois prazos diferentes: cinco dias para a autoridade explicar e trinta para o Tribunal avaliar, depois de acionado.
 
-**3. Conclusão e risco:** se o **TCU considerar a despesa irregular** e a **CMO julgar que a continuidade pode causar dano irreparável ou grave lesão à economia pública**, a CMO **propõe ao Congresso Nacional a sustação**. **Propor ≠ sustar diretamente**. A atuação combina análise técnica e avaliação de gravidade, sob competências diferenciadas.
+**3. Conclusão e avaliação do risco:** se o TCU concluir que a despesa é irregular, a CMO ainda precisa avaliar se a continuidade do gasto pode causar **dano irreparável**, que não possa ser adequadamente desfeito, ou **grave lesão à economia pública**, isto é, prejuízo relevante às finanças públicas. Se essas condições estiverem presentes, a CMO **propõe ao Congresso a sustação**. A comissão apresenta a proposta; **ela não susta a despesa diretamente**.
 
-**4. Ato final:** o órgão constitucionalmente competente aprecia a proposta. A CMO não se converte em plenário do Congresso por ter conduzido a análise. O próprio art. 72 fala em investimentos não programados e subsídios não aprovados como possíveis hipóteses de despesas não autorizadas.
+**4. Decisão:** o **Congresso Nacional** aprecia a proposta de sustação apresentada pela CMO. A comissão não substitui a decisão do Congresso. O art. 72 menciona também **investimentos não programados** e **subsídios não aprovados**, ou seja, formas de gasto que podem ocorrer sem a autorização orçamentária exigida.
 
 **Quadro de prazos e sujeitos:** **5 dias = autoridade governamental presta esclarecimentos**; **30 dias = TCU emite pronunciamento conclusivo quando acionado**; **sustação = proposta pela CMO ao Congresso, quando presentes as condições constitucionais**.
 
@@ -294,19 +294,19 @@ O **art. 74, § 1º**, estabelece que responsáveis pelo controle interno, ao to
 
 **1.** O Tribunal de Contas da União emite parecer prévio sobre as contas anuais do presidente da República, enquanto o julgamento dessas contas compete ao Congresso Nacional, sem prejuízo da competência do Tribunal para julgar contas de administradores e demais responsáveis nas hipóteses constitucionais.
 
-**Gabarito: Certo.** Arts. 49, IX, e 71, I e II. **Mecanismo de erro:** confundir **parecer prévio** sobre contas de governo com **julgamento** de contas de gestão.
+**Gabarito: Certo.** O art. 71, I, determina que o TCU emita **parecer prévio** sobre as contas presidenciais, e o art. 49, IX, atribui ao Congresso o **julgamento**. Já o art. 71, II, permite ao TCU julgar contas de administradores e outros responsáveis. A distinção depende do tipo de conta e de quem a apresenta.
 
 **2.** Em caso de ilegalidade, a competência constitucional do TCU para sustar a execução do ato impugnado estende-se, desde logo e sem diferença procedimental, à sustação de contratos administrativos, que independe de atuação do Congresso.
 
-**Gabarito: Errado.** O art. 71, X e §§ 1º e 2º, separa **atos** e **contratos**. Para contratos, a Constituição prevê sustação inicial pelo Congresso e atuação posterior do Tribunal nas condições ali definidas. **Mecanismo:** transposição de competência para objeto vizinho.
+**Gabarito: Errado.** O art. 71, X, permite ao TCU sustar um **ato administrativo** nas condições previstas, depois de fixar prazo para correção. Para **contratos**, o § 1º atribui a sustação inicialmente ao Congresso; se Congresso ou Executivo não adotarem as medidas cabíveis em 90 dias, o TCU decide a respeito (§ 2º). O enunciado iguala duas competências que a Constituição trata de modo diferente.
 
 **3.** Diante de indícios de despesas não autorizadas, a CMO pode solicitar esclarecimentos à autoridade competente, que deverá prestá-los em cinco dias; se ausentes ou insuficientes, a comissão pedirá ao TCU pronunciamento conclusivo em trinta dias.
 
-**Gabarito: Certo.** Art. 72, caput e § 1º. **Mecanismo:** distinguir os dois **destinatários e prazos** do procedimento.
+**Gabarito: Certo.** Pelo art. 72, a CMO pode pedir explicações à autoridade governamental, que deve responder em **cinco dias**. Sem resposta ou com resposta insuficiente, a comissão solicita pronunciamento conclusivo ao TCU, com prazo de **trinta dias**. O item identifica corretamente o destinatário de cada solicitação e os dois prazos.
 
 **4.** Constatada irregularidade pelo TCU no procedimento do art. 72, compete à CMO sustar diretamente toda despesa questionada, sem avaliar risco de dano irreparável ou grave lesão à economia pública nem submeter proposta ao Congresso.
 
-**Gabarito: Errado.** O § 2º exige condições adicionais e atribui à CMO competência para **propor a sustação ao Congresso**, não para sustá-la automaticamente. **Mecanismo:** confundir constatação, avaliação de gravidade e decisão parlamentar.
+**Gabarito: Errado.** O art. 72, § 2º, exige a conclusão do TCU pela irregularidade **e** avaliação da CMO de risco de dano irreparável ou grave lesão à economia pública. Só então a CMO **propõe a sustação ao Congresso**, responsável por apreciar a medida. O enunciado retira essas condições e atribui à comissão um poder de decisão que ela não possui.
 
 ### Como responder à discursiva
 

@@ -109,4 +109,4 @@ Os oito itens são originais e didáticos. Não representam questões oficiais, 
 - [Lei Complementar nº 101/2000, arts. 8º e 9º](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm): programação financeira e limitação de empenho.
 - [[3 - Materias/Orcamento Publico/CGU 2026 - ppa ldo e loa|CGU 2026: PPA, LDO e LOA na fiscalização do orçamento federal]]: funções e aplicação dos instrumentos de planejamento.
 
-**Relação editorial:** este capítulo deriva conceitualmente de `art-f6cfe9fbcc764554`, preservado como legado da Câmara. Seu vínculo CGU no catálogo, índice e navegação exige operação exclusiva da coordenação. Não interpretar esta nota como prova de estudo, revisão espaçada ou domínio da matéria.
+**Relação editorial:** este capítulo deriva conceitualmente de `art-f6cfe9fbcc764554`, preservado como legado da Câmara. Sua versão CGU foi integrada ao catálogo, índice, hub e percurso pelo PR #363. Dois flashcards CGU tiveram seus vínculos e seções reconciliados com esta versão. Ainda dependem de comprovação o deploy no Pages e o encerramento editorial por SHA. O capítulo não registra desempenho pessoal.

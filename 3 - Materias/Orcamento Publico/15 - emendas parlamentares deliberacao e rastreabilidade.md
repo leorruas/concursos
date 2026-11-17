@@ -130,6 +130,10 @@ Nas questões de **Certo ou Errado (C/E)**, uma afirmação pode começar com um
 
 **Gabarito: Certo.** A **ata de indicação** documenta a decisão sobre destinatários depois da aprovação do orçamento. O **empenho** compromete o crédito e o **pagamento** transfere recursos ao credor ou beneficiário conforme o procedimento aplicável. A indicação não comprova, por si, nem a regularidade dos requisitos técnicos nem a realização dessas etapas financeiras.
 
+**4.** Para alterar uma programação oriunda de emenda de comissão já aprovada, basta pedido informal de uma entidade beneficiária ao presidente do colegiado, que pode decidir sozinho sem proposta do parlamentar solicitante.
+
+**Gabarito: Errado.** O art. 44, § 7º, da Resolução nº 1/2006-CN, introduzido em 2025, exige **proposta formal do parlamentar solicitante da emenda aprovada** para a comissão deliberar sobre a alteração. O pedido informal e a decisão unilateral do presidente não satisfazem esse procedimento. O gabarito testa três elementos: **quem solicita**, **como solicita** e **quem delibera**.
+
 ### Caso progressivo complementar: prazo legal versus orientação de exercício
 
 Uma comissão recebe, após a publicação da LOA, propostas de indicação de beneficiários. **Primeiro passo:** examinar o art. 5º da LC nº 210/2024, que prevê deliberação em até **15 dias**. **Segundo passo:** uma vez aprovadas as indicações, o presidente da comissão tem **5 dias** para fazer constar da ata, publicar e encaminhar aos órgãos executores. **Terceiro passo:** a execução depende ainda de critérios técnicos, orçamento e trâmites próprios; a ata não equivale a empenho ou pagamento.

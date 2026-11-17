@@ -148,3 +148,11 @@ A issue [#362](https://github.com/leorruas/concursos/issues/362) segue aberta; a
 **Correção e ampliação:** seção específica para separar identificador de resultado primário (RP), identificador de uso (IU), fonte, modalidade de aplicação (MA) e grupo de natureza da despesa (GND). Referência normativa: Lei nº 15.321/2025, art. 7º, texto vigente da LDO federal de 2026. Incluídos dois itens C/E originais, totalizando **12** no artigo, com respostas comentadas. Commit `8a928e0955574823f6c06accc805394baec39678`; blob verificado na main `7b98434ebedd3e1336711119abef23bfad365531`.
 
 **Total acumulado corrigido:** cinco artigos exclusivos CGU trabalhados, **44 questões didáticas C/E**, **zero certificações finais**. O artigo ampliado exige novamente verificação de testes, CI, Pages, vínculos, título, indexação e escopo jurídico integral antes de certificação. O bloqueio de integração está documentado na issue #362, sob responsabilidade da coordenação; nenhum artefato Câmara nem catálogo global foi alterado nesta frente.
+
+## Verificação normativa e correção focal em 17/11/2026: RP e IU
+
+A issue de integração [#362](https://github.com/leorruas/concursos/issues/362) permanece aberta, sem comentários, e a `main` não apresentou commit da coordenação para resolver o cadastro e a navegação dos quatro derivados. A frente CGU manteve os arquivos compartilhados intactos e não criou novo artigo desconectado da trilha.
+
+A leitura da Lei nº 15.321/2025 em sua publicação oficial confirmou: **art. 7º, § 4º**, RP relacionado à apuração do resultado primário; **art. 7º, § 5º**, IU utilizado para indicar se recursos são contrapartida nacional de empréstimos/doações ou outras aplicações. A redação genérica anterior foi substituída por essa distinção legal no artigo `art-e6b481a230fc795d`, incluindo revisão da justificativa do item C/E 11 e link primário ao Planalto. Commit `dcb0839b071c83a5b1c44d5f23420faf46b4402b`, blob conferido na main `7c3d0cdfc1c92f811f0434f2a96f31688304a039`.
+
+**Progresso inalterado:** 5 artigos exclusivos CGU trabalhados, 44 itens C/E didáticos, 0 certificações demonstradas. A dependência efetiva permanece a integração coordenada e a validação de CI/Pages. Evitar atualizar automaticamente o status para certificado por causa desta correção de conteúdo.

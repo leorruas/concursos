@@ -17,6 +17,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   conferir-producao:
@@ -36,6 +37,15 @@ jobs:
         id: live
         continue-on-error: ${{ github.event_name == 'pull_request' }}
         run: node scripts/verify-live-pages.js "https://leorruas.github.io/concursos/"
+      - name: Identificar execucoes de deploy Pages no GitHub Actions
+        if: ${{ steps.live.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Execucoes recentes do workflow Publicar no GitHub Pages:"
+          gh api "repos/$GITHUB_REPOSITORY/actions/workflows/pages.yml/runs?per_page=30" \
+            --jq '.workflow_runs[] | select(.conclusion == "success" and (.event == "push" or .event == "workflow_dispatch")) | [.id, .head_sha, .created_at, .html_url] | @tsv' \
+            | head -n 10
       - name: Registrar alcance da evidencia
         if: always()
         env:

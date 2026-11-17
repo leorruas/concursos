@@ -2,12 +2,14 @@
 title: "CGU 2026: estado editorial de Orçamento Público"
 type: estado-auditoria-editorial
 concursoId: cgu-2026
-status: doze-certificados-tres-em-revalidacao-um-legado
+status: quinze-revisados-ressalva-visual
 created: 2026-11-17
 updated: 2026-11-17
 ---
 
 # CGU 2026: estado editorial de Orçamento Público
+
+**Situação consolidada em 17/11/2026:** 15 de 15 artigos próprios da CGU com revisão integral de conteúdo concluída e ressalva visual. Os dez IDs históricos de Orçamento foram retirados do catálogo CGU e permanecem na Câmara; a referência transversal de Atualidades foi preservada. Certificação visual individual e exportação EPUB não realizadas. As seções abaixo conservam a cronologia de bloqueios e desbloqueios, incluindo contagens antigas, que não devem ser lidas como estado atual.
 
 **Responsável exclusivo:** frente CGU. A arquitetura liberou trabalhos em artigos `CGU 2026 - *.md` e neste estado, mas legados, índice, hub, catálogo v2, glossário e flashcards continuam sob coordenação. Nenhuma certificação da Câmara transfere-se à CGU.
 

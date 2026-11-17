@@ -55819,6 +55819,286 @@
       "correctAnswer": "E",
       "explanation": "A condenação no Senado se limita à perda do cargo, com inabilitação por oito anos para o exercício de função pública. A Constituição ressalva as demais sanções judiciais cabíveis. (Constituição Federal, art. 52, II e parágrafo único.)",
       "reviewEvidence": "Constituição Federal, art. 52, II e parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue o cargo, a jurisdição política e o alcance da condenação."
+    },
+    {
+      "id": "cam-const-200-orcamento-colaboracao-coincidente-parecer-unico",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "orcamento-colaboracao-coincidente-parecer-unico",
+      "mechanism": "orcamento-colaboracao-coincidente-parecer-unico",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#7. Projetos orçamentários: arts. 89–103 e legislação especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "7. Projetos orçamentários: arts. 89–103 e legislação especial"
+      },
+      "statement": "Comissões permanentes da Câmara e do Senado com competência coincidente podem realizar reuniões conjuntas para colaborar no exame orçamentário e apresentar parecer único, desde que haja deliberação pela maioria dos membros de cada comissão e direção alternada pelos respectivos presidentes.",
+      "correctAnswer": "C",
+      "explanation": "O Regimento admite essa forma de colaboração quando os campos de competência coincidem. As maiorias são verificadas nas respectivas comissões e a direção é alternada. O resultado pode ser um parecer único de colaboração. (Regimento Comum do Congresso Nacional, art. 90, § 3º, VI.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 90, § 3º, VI — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Combina competência coincidente, deliberação de cada comissão e direção das reuniões."
+    },
+    {
+      "id": "cam-const-200-orcamento-eleicao-comissao-regra-rejeicao",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "orcamento-eleicao-comissao-regra-rejeicao",
+      "mechanism": "orcamento-eleicao-comissao-regra-rejeicao",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#7. Projetos orçamentários: arts. 89–103 e legislação especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "7. Projetos orçamentários: arts. 89–103 e legislação especial"
+      },
+      "statement": "A regra segundo a qual o voto contrário da maioria dos representantes de uma Casa rejeita a matéria na comissão mista também se aplica à eleição de seu Presidente e Vice-Presidente.",
+      "correctAnswer": "E",
+      "explanation": "A extensão para a eleição dos dirigentes está errada. O § 5º afasta expressamente a regra do § 4º nessa eleição. (Regimento Comum do Congresso Nacional, art. 90, §§ 4º e 5º.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 90, §§ 4º e 5º — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Distingue a votação de matéria da eleição dos dirigentes."
+    },
+    {
+      "id": "cam-const-200-orcamento-parecer-referencia-sem-acolhimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "orcamento-parecer-referencia-sem-acolhimento",
+      "mechanism": "orcamento-parecer-referencia-sem-acolhimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#7. Projetos orçamentários: arts. 89–103 e legislação especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "7. Projetos orçamentários: arts. 89–103 e legislação especial"
+      },
+      "statement": "O relator da comissão mista deve mencionar expressamente o ponto de vista da comissão permanente que tenha colaborado no exame do projeto orçamentário, ainda que discorde dele.",
+      "correctAnswer": "C",
+      "explanation": "A colaboração serve de subsídio. O dever regimental é fazer referência expressa ao ponto de vista, não adotar a conclusão da comissão permanente. (Regimento Comum do Congresso Nacional, art. 90, § 3º, IV e V.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 90, § 3º, IV e V — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Distingue dever de mencionar o parecer e dever de acolhê-lo."
+    },
+    {
+      "id": "cam-const-200-orcamento-destaque-votacao-bloco",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "orcamento-destaque-votacao-bloco",
+      "mechanism": "orcamento-destaque-votacao-bloco",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#7. Projetos orçamentários: arts. 89–103 e legislação especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "7. Projetos orçamentários: arts. 89–103 e legislação especial"
+      },
+      "statement": "No regime previsto no art. 99 do Regimento Comum, emenda orçamentária destacada permanece obrigatoriamente no grupo das emendas com o mesmo resultado de parecer.",
+      "correctAnswer": "E",
+      "explanation": "O agrupamento por parecer favorável ou contrário é a regra para emendas pendentes de decisão do Plenário. O dispositivo ressalva os destaques. (Regimento Comum do Congresso Nacional, art. 99.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 99 — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Distingue agrupamento por parecer e a ressalva para destaques."
+    },
+    {
+      "id": "cam-const-200-loa-subsidiariedade-cabimento",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Regimento Comum do Congresso Nacional",
+      "articleId": "art-0d62a7f94c8153be",
+      "conceptId": "loa-subsidiariedade-cabimento",
+      "mechanism": "loa-subsidiariedade-cabimento",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-0d62a7f94c8153be#7. Projetos orçamentários: arts. 89–103 e legislação especial"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md",
+        "section": "7. Projetos orçamentários: arts. 89–103 e legislação especial"
+      },
+      "statement": "O Regimento Comum admite aplicar à tramitação do projeto de lei orçamentária anual, no que couber, as normas regimentais dos demais projetos de lei.",
+      "correctAnswer": "C",
+      "explanation": "As normas gerais podem complementar o rito orçamentário quando forem compatíveis. A regra específica continua a orientar o procedimento. (Regimento Comum do Congresso Nacional, art. 102.)",
+      "reviewEvidence": "Regimento Comum do Congresso Nacional, art. 102 — https://legis.senado.leg.br/norma/561098/publicacao/36852069 | Critério de dificuldade: Reconhece a aplicação subsidiária condicionada."
+    },
+    {
+      "id": "cam-const-200-cmo-resposta-no-prazo-insuficiente",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "cmo-resposta-no-prazo-insuficiente",
+      "mechanism": "cmo-resposta-no-prazo-insuficiente",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "Se a autoridade responde no prazo ao pedido de esclarecimentos sobre indícios de despesa não autorizada, mas a comissão mista considera a resposta insuficiente, a comissão deve solicitar pronunciamento conclusivo do Tribunal de Contas da União.",
+      "correctAnswer": "C",
+      "explanation": "A resposta no prazo não impede o passo seguinte quando seu conteúdo é insuficiente. A Constituição inclui a insuficiência, além da ausência de resposta, entre os motivos para solicitar o pronunciamento. (Constituição Federal, art. 72, § 1º.)",
+      "reviewEvidence": "Constituição Federal, art. 72, § 1º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue tempestividade e suficiência da resposta."
+    },
+    {
+      "id": "cam-const-200-cmo-prazo-autoridade-tcu-trocado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "cmo-prazo-autoridade-tcu-trocado",
+      "mechanism": "cmo-prazo-autoridade-tcu-trocado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#O procedimento específico da comissão mista: art. 72"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "O procedimento específico da comissão mista: art. 72"
+      },
+      "statement": "Em apuração de investimento não programado sob o rito do art. 72, a autoridade responsável ainda está no prazo para se explicar oito dias após a solicitação, pois os cinco dias previstos nesse rito se destinam ao pronunciamento conclusivo do tribunal de contas.",
+      "correctAnswer": "E",
+      "explanation": "Os prazos foram invertidos. A autoridade dispõe de cinco dias. O pronunciamento conclusivo do Tribunal tem prazo de trinta dias. Eventual proposta de sustação ainda depende da irregularidade apontada pelo Tribunal e da avaliação de risco pela comissão. (Constituição Federal, art. 72, caput e §§ 1º e 2º.)",
+      "reviewEvidence": "Constituição Federal, art. 72, caput e §§ 1º e 2º — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconstrói a sequência de apuração e atribui os dois prazos a seus destinatários."
+    },
+    {
+      "id": "cam-const-200-tcu-experiencia-dez-exatos",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tcu-experiencia-dez-exatos",
+      "mechanism": "tcu-experiencia-dez-exatos",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Composição do TCU"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Composição do TCU"
+      },
+      "statement": "Um candidato a ministro do Tribunal de Contas da União que exerceu por exatamente dez anos função que exigia os conhecimentos constitucionais satisfaz o requisito de duração da experiência.",
+      "correctAnswer": "E",
+      "explanation": "A Constituição exige mais de dez anos de exercício de função ou atividade profissional que exija os conhecimentos indicados. Exatamente dez anos não bastam. (Constituição Federal, art. 73, § 1º, III e IV.)",
+      "reviewEvidence": "Constituição Federal, art. 73, § 1º, III e IV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue alcançar dez anos de superar o mínimo temporal."
+    },
+    {
+      "id": "cam-const-200-tce-extincao-transferencia-funcoes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "tce-extincao-transferencia-funcoes",
+      "mechanism": "tce-extincao-transferencia-funcoes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Atualização normativa: EC 139/2026 e o art. 75"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Atualização normativa: EC 139/2026 e o art. 75"
+      },
+      "statement": "A Constituição permite que um estado extinga seu tribunal de contas se transferir a fiscalização a outro órgão estadual que garanta continuidade do controle externo.",
+      "correctAnswer": "E",
+      "explanation": "A transferência das atividades não elimina a vedação. A Constituição reconhece a permanência dos tribunais de contas e veda expressamente sua extinção. (Constituição Federal, art. 75, caput.)",
+      "reviewEvidence": "Constituição Federal, art. 75, caput — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue redistribuição de funções da vedação expressa de extinção."
+    },
+    {
+      "id": "cam-const-200-interno-metas-ppa-tres-poderes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P2",
+      "subjectId": "direito-constitucional",
+      "unitId": "processo-legislativo",
+      "editalRef": "14.2.4 / Processo Legislativo e Regimento Interno / Fiscalização e controle externo",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "interno-metas-ppa-tres-poderes",
+      "mechanism": "interno-metas-ppa-tres-poderes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Controle interno, denúncia e responsabilidade"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Controle interno, denúncia e responsabilidade"
+      },
+      "statement": "A avaliação do cumprimento das metas do plano plurianual é finalidade do sistema integrado de controle interno dos Poderes Legislativo, Executivo e Judiciário.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição atribui essa avaliação ao sistema interno dos três Poderes, que também acompanha a execução dos programas de governo e dos orçamentos da União. (Constituição Federal, art. 74, caput e I.)",
+      "reviewEvidence": "Constituição Federal, art. 74, caput e I — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Identifica uma finalidade expressa do controle interno integrado."
     }
   ]
 }

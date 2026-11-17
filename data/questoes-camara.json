@@ -55539,6 +55539,286 @@
       "correctAnswer": "E",
       "explanation": "O art. 67 exige proposta da maioria absoluta dos membros de qualquer das Casas, calculada dentro da respectiva Casa. Quarenta senadores ficam abaixo de 41 e cento e cinquenta deputados ficam abaixo de 257. Somar os dois grupos não supre o requisito. (Constituição Federal, art. 67.)",
       "reviewEvidence": "Constituição Federal, art. 67 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Relaciona rejeição bicameral, sessão legislativa e maioria calculada dentro de uma Casa."
+    },
+    {
+      "id": "cam-const-200-camara-tomada-contas-senado",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "camara-tomada-contas-senado",
+      "mechanism": "camara-tomada-contas-senado",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Se o Presidente da República não apresentar suas contas ao Congresso em sessenta dias após a abertura da sessão legislativa, compete ao Senado proceder à tomada de contas.",
+      "correctAnswer": "E",
+      "explanation": "A Casa indicada está errada. A tomada de contas na omissão é atribuição privativa da Câmara. O julgamento anual das contas presidenciais cabe ao Congresso. (Constituição Federal, art. 51, II e art. 49, IX.)",
+      "reviewEvidence": "Constituição Federal, art. 51, II e art. 49, IX — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue tomada de contas e julgamento anual."
+    },
+    {
+      "id": "cam-const-200-camara-regimento-proprio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "camara-regimento-proprio",
+      "mechanism": "camara-regimento-proprio",
+      "questionType": "reconhecimento",
+      "estimatedDifficulty": "muito-facil",
+      "cognitiveOperation": "reconhecimento",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "A Câmara dos Deputados tem competência privativa para elaborar seu Regimento Interno.",
+      "correctAnswer": "C",
+      "explanation": "A elaboração do Regimento Interno cabe à própria Câmara. O Congresso reúne-se conjuntamente para elaborar seu Regimento Comum, que é outro instrumento. (Constituição Federal, art. 51, III.)",
+      "reviewEvidence": "Constituição Federal, art. 51, III — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece competência privativa expressa."
+    },
+    {
+      "id": "cam-const-200-congresso-controle-administracao-indireta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "congresso-controle-administracao-indireta",
+      "mechanism": "congresso-controle-administracao-indireta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "A fiscalização dos atos do Executivo por uma das Casas do Congresso pode alcançar atos de autarquia federal.",
+      "correctAnswer": "C",
+      "explanation": "A Constituição permite o controle diretamente pelo Congresso ou por uma de suas Casas e inclui os atos da administração indireta, da qual a autarquia faz parte. (Constituição Federal, art. 49, X.)",
+      "reviewEvidence": "Constituição Federal, art. 49, X — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue o órgão atuante e a inclusão da administração indireta."
+    },
+    {
+      "id": "cam-const-200-senado-banco-central-arguicao-secreta",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-banco-central-arguicao-secreta",
+      "mechanism": "senado-banco-central-arguicao-secreta",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "análise",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Na escolha de diretor do Banco Central, o Senado vota secretamente e realiza a arguição também em sessão secreta, assim como ocorre para chefe de missão diplomática permanente.",
+      "correctAnswer": "E",
+      "explanation": "O sigilo do voto é comum. A arguição do indicado ao Banco Central é pública. A arguição em sessão secreta é prevista para chefes de missão diplomática permanente. (Constituição Federal, art. 52, III, d, e IV.)",
+      "reviewEvidence": "Constituição Federal, art. 52, III, d, e IV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue publicidade da arguição e sigilo da votação conforme o cargo."
+    },
+    {
+      "id": "cam-const-200-senado-diplomata-voto-secreto",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-diplomata-voto-secreto",
+      "mechanism": "senado-diplomata-voto-secreto",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "compreensão",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "A aprovação prévia, pelo Senado, da escolha de chefe de missão diplomática de caráter permanente é feita por voto secreto.",
+      "correctAnswer": "C",
+      "explanation": "O Senado examina previamente essa escolha e delibera por voto secreto. É uma competência da própria Casa. (Constituição Federal, art. 52, IV.)",
+      "reviewEvidence": "Constituição Federal, art. 52, IV — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Reconhece o modo de votação da aprovação prévia."
+    },
+    {
+      "id": "cam-const-200-senado-pgr-exoneracao-maioria-presentes",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-pgr-exoneracao-maioria-presentes",
+      "mechanism": "senado-pgr-exoneracao-maioria-presentes",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Para aprovar a exoneração de ofício do Procurador-Geral da República antes do fim do mandato, basta ao Senado obter maioria dos presentes em votação secreta.",
+      "correctAnswer": "E",
+      "explanation": "O voto secreto está correto. Exige-se, porém, maioria absoluta do Senado, calculada sobre seus membros, e não maioria dos presentes. (Constituição Federal, art. 52, XI.)",
+      "reviewEvidence": "Constituição Federal, art. 52, XI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Combina momento, sigilo e base de cálculo do quórum."
+    },
+    {
+      "id": "cam-const-200-senado-limite-divida-proposta-senador",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-limite-divida-proposta-senador",
+      "mechanism": "senado-limite-divida-proposta-senador",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "media",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Um senador pode substituir a proposta do Presidente da República exigida pela Constituição para a fixação, pelo Senado, dos limites globais da dívida consolidada dos municípios.",
+      "correctAnswer": "E",
+      "explanation": "A fixação dos limites cabe ao Senado, mas o inciso VI exige proposta do Presidente da República. A formulação de proposta por senador não substitui essa condição. (Constituição Federal, art. 52, VI.)",
+      "reviewEvidence": "Constituição Federal, art. 52, VI — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue a Casa que fixa o limite e a autoridade que o propõe."
+    },
+    {
+      "id": "cam-const-200-senado-credito-externo-municipio",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "senado-credito-externo-municipio",
+      "mechanism": "senado-credito-externo-municipio",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "facil",
+      "cognitiveOperation": "aplicação",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "A Constituição atribui ao Senado a autorização de operações externas de natureza financeira de interesse dos municípios.",
+      "correctAnswer": "C",
+      "explanation": "A competência do Senado alcança operações externas de natureza financeira de interesse municipal. Não se limita às operações da União. (Constituição Federal, art. 52, V.)",
+      "reviewEvidence": "Constituição Federal, art. 52, V — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Aplica a atribuição expressa a um ente subnacional."
+    },
+    {
+      "id": "cam-const-200-crime-responsabilidade-senado-presidencia-stf",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "crime-responsabilidade-senado-presidencia-stf",
+      "mechanism": "crime-responsabilidade-senado-presidencia-stf",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "Autorizada por dois terços dos membros da Câmara a instauração de processo contra o Presidente da República por crime de responsabilidade, cabe ao Senado julgá-lo, sob a presidência do Presidente do Supremo Tribunal Federal, exigidos dois terços dos votos do Senado para condenar.",
+      "correctAnswer": "C",
+      "explanation": "A Câmara autoriza a instauração. O Senado processa e julga sob a presidência do Presidente do Supremo. A autorização da Câmara e a condenação no Senado são deliberações distintas, com quóruns próprios. (Constituição Federal, arts. 51, I, 52, I e parágrafo único, e 86.)",
+      "reviewEvidence": "Constituição Federal, arts. 51, I, 52, I e parágrafo único, e 86 — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Articula autorização, julgamento, presidência e quórum em órgãos distintos."
+    },
+    {
+      "id": "cam-const-200-crime-responsabilidade-stf-sancao-judicial",
+      "concursoId": "camara-2026",
+      "origin": "inedita",
+      "format": "CE",
+      "examPart": "P1",
+      "subjectId": "direito-constitucional",
+      "unitId": "constitucional-regimentos",
+      "editalRef": "14.2.3 / Direito Constitucional e Regimento / Poder Legislativo e competências das Casas",
+      "articleId": "art-f3e70dd8fbe34df4",
+      "conceptId": "crime-responsabilidade-stf-sancao-judicial",
+      "mechanism": "crime-responsabilidade-stf-sancao-judicial",
+      "questionType": "aplicacao",
+      "estimatedDifficulty": "muito-dificil",
+      "cognitiveOperation": "integração",
+      "reviewStatus": "validada",
+      "theoryRefs": [
+        "article:art-f3e70dd8fbe34df4#Competências do Congresso e das duas Casas: arts. 48 a 52"
+      ],
+      "source": {
+        "path": "3 - Materias/Direito Constitucional/06 - poder legislativo.md",
+        "section": "Competências do Congresso e das duas Casas: arts. 48 a 52"
+      },
+      "statement": "A condenação de ministro do Supremo Tribunal Federal pelo Senado por crime de responsabilidade impede a aplicação de sanções judiciais cabíveis pelo mesmo fato.",
+      "correctAnswer": "E",
+      "explanation": "A condenação no Senado se limita à perda do cargo, com inabilitação por oito anos para o exercício de função pública. A Constituição ressalva as demais sanções judiciais cabíveis. (Constituição Federal, art. 52, II e parágrafo único.)",
+      "reviewEvidence": "Constituição Federal, art. 52, II e parágrafo único — https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html | Critério de dificuldade: Distingue o cargo, a jurisdição política e o alcance da condenação."
     }
   ]
 }

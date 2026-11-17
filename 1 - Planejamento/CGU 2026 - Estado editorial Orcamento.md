@@ -208,3 +208,25 @@ A integração anteriormente bloqueada na issue [#362](https://github.com/leorru
 **Pages:** não foi possível confirmar a execução do workflow de publicação na `main` nem o catálogo realmente servido na URL pública `https://leorruas.github.io/concursos/data/catalogo-materias-por-concurso.json`. A leitura pública não retornou conteúdo verificável por esta interface, e a consulta do conector de GitHub Actions expõe somente runs de PR. É necessário conferir o workflow `Publicar no GitHub Pages` do commit integrado e a URL servida antes de declarar publicação confirmada.
 
 **Certificação:** 5 artigos exclusivos CGU trabalhados, 48 questões C/E didáticas e **0 certificações editoriais finais formalizadas**. A integração de catálogo e os testes da PR estão comprovados; permanece auditoria jurídica/didática de fechamento por ID, conferência das fontes e do site ao vivo e certificação por SHA. A etapa posterior de separação dos demais legados do percurso CGU continua pendente. Nenhum EPUB foi gerado.
+
+## Fechamento do lote técnico pós-integração: 17/11/2026
+
+**Issue #362 atualizada:** a operação de catálogo, índice, hub e percurso foi concluída no PR #363. O título da issue passou a destacar a **verificação do Pages e as certificações**, sem reabrir o bloqueio de arquitetura. Histórico de integração e CI do PR: merge `2c26b3219101bae1686136fa66e70b91af0e70c4`; CI de PR `44169126435`, conclusão `success`.
+
+**Revisão dos cinco rodapés editoriais:** textos que indicavam indevidamente a integração como futura foram atualizados na `main` sem alterar `articleId`, `derivedFromArticleId`, títulos principais, seções de teoria, itens C/E ou gabaritos. Commits sequenciais `5bfa474573f644b8312c445cfbd2f0787bef9b22`, `77584579412c97af1fec4850eac5fa09d55161b8`, `b409482f236faf2148265a8a0a92fe6da7a94119`, `91f5aa81a34ffefdbcee4fe4687d588904d4a4b1` e `f4b4b2c8a997155890a1ef3f7bdf9fb9efaf7283`.
+
+| ArticleId CGU | Assunto | Blob final da leitura remota | Itens C/E e gabaritos |
+| :--- | :--- | :--- | ---: |
+| `art-9dc8a6e2f31b47c0` | PPA/LDO/LOA | `983e9cc298a3888fdcb4bef422f805d9655ed494` | 6/6 |
+| `art-a07c26f4e92031ab` | Ciclo e evidências | `18b408f5c8fdcac46d37283a418f81d5f69d2c86` | 8/8 |
+| `art-c84d6e02f3b7a915` | Esferas e estatais | `cc4d84e988fa79fff1724f748550fb7adc9c9e74` | 10/10 |
+| `art-b419ac8206de7f35` | Princípios e vedações | `f7c0622362164a2c5a7d83ee868db5abb5e42159` | 12/12 |
+| `art-e6b481a230fc795d` | Classificações | `1cf80e48ed9e89d0a10194ee9ace22c36e4281a9` | 12/12 |
+
+**Checagem estática posterior:** todos os 48 itens têm números contínuos dentro do artigo e respostas explícitas **Certo** ou **Errado**; os wikilinks entre as cinco notas têm destinos existentes; os cinco `articleId` e metadados `concursoId` foram preservados. Verificação de referências remotas comprovada apenas para os documentos pontuais indicados nas auditorias anteriores. **Não equivale à releitura jurídica integral de todos os itens**, nem a um teste de renderização real.
+
+**Referências residuais a legados:** foram procurados IDs de origem em `data/flashcards.json`, `data/edital-itens.json`, `data/glossario/flashcard-equivalencias.json` e `data/planos-estudo/cgu-2026.json`: zero correspondências literais para os quatro IDs migrados. Arquivos hipotéticos `data/questoes-cgu.json` e `data/questoes.json` não existem nos caminhos consultados. Essa busca não comprova ausência de referências em arquivos não inventariados; preservar o banco da Câmara.
+
+**Gate Pages ainda não comprovado:** `web` não conseguiu abrir o catálogo público `https://leorruas.github.io/concursos/data/catalogo-materias-por-concurso.json` nem a página das execuções do GitHub; o conector para workflow por SHA cobre somente eventos de PR. O CI verde da integração não é prova do deploy do HEAD posterior. Conferir o workflow `Publicar no GitHub Pages`, o `manifest.json` e o catálogo ao vivo, conforme `1 - Planejamento/Contrato de publicacao GitHub Pages.md`, antes de declarar certificação. A inspeção visual pode ser ressalva isolada se todos os demais requisitos de `AGENTS.md` forem atendidos.
+
+**Progresso:** 5 artigos exclusivos trabalhados, 5 revisões estruturais conferidas, 48 C/E gabaritados, **0 certificados finais**. O trabalho técnico avançou: o antigo bloqueio de catálogo foi resolvido. Próximo gate: Pages ao vivo e segunda leitura jurídica/didática integral por ID e SHA. Nenhum EPUB.

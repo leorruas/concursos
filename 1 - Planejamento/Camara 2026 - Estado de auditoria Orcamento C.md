@@ -12,7 +12,7 @@ updated: 2026-11-16
 
 | articleId | Artigo | Estado | Evidências (SHA, fontes, checks, Pages, ressalvas) |
 | :--- | :--- | :--- | :--- |
-| `art-87b69e1d4ac54f20` | `05 - creditos adicionais e emendas parlamentares.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
+| `art-87b69e1d4ac54f20` | `05 - creditos adicionais e emendas parlamentares.md` | Revisão pontual publicada; auditoria integral pendente | Exemplo de superávit financeiro e excesso de arrecadação, art. 43 da Lei nº 4.320/1964, com C/E, commit `165a7b0978e167b555e3714fe76b0fbb12cb3b48`. Restam conferência integral de questões, links, glossário/flashcards, CI, Pages e inspeção visual; não certificar. |
 | `art-715e2d16a93446cb` | `05a - emendas parlamentares e orcamento impositivo.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
 | `art-6e4e79c7f4bb4aa3` | `09 - restos a pagar dea e suprimento de fundos.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |
 | `art-743d234d819842d1` | `10 - conta unica e execucao financeira.md` | A verificar | Consultar fontes vigentes, histórico e publicação antes de atribuir certificação |

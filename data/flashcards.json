@@ -12532,6 +12532,113 @@
       "status": "validated",
       "reviewedAt": "2026-11-16",
       "revision": 1
+    },
+    {
+      "id": "camara-orc10-conta-unica-depositario",
+      "term": "Conta Única: depositário e gestor",
+      "definition": "As disponibilidades de caixa da União são depositadas no Banco Central; a Secretaria do Tesouro Nacional administra o fluxo federal conforme a legislação.",
+      "example": "O Banco do Brasil pode executar serviços financeiros, mas não substitui o Banco Central como depositário da Conta Única federal.",
+      "confusion": "Conta Única é mecanismo de caixa, STN administra e SIAFI registra as operações; nenhum dos três é sinônimo de dotação.",
+      "topic": "Conta Única",
+      "note": {
+        "articleId": "art-743d234d819842d1",
+        "section": "Conta Única: fundamento, localização e administração"
+      },
+      "source": {
+        "title": "Constituição Federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Art. 164, § 3º"
+      },
+      "conceptIds": [
+        "glo-camara-orc10-conta-unica"
+      ],
+      "contrast": {
+        "prompt": "Se a Conta Única fica no Banco Central, ele decide o pagamento de cada contrato federal?",
+        "answer": "Não. A função depositária do Banco Central é distinta da gestão financeira pelo Tesouro e da execução das unidades competentes."
+      },
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-orc10-credito-recurso",
+      "term": "Crédito orçamentário versus recurso financeiro",
+      "definition": "Crédito é autorização para realizar uma despesa. Recurso financeiro é a disponibilidade destinada aos pagamentos, respeitadas programação e vinculações.",
+      "example": "Uma ação tem dotação de R$ 500 mil, mas só R$ 120 mil de programação de pagamento no mês; não significa irregularidade por si só.",
+      "confusion": "Dotação, limite de empenho, liquidação e dinheiro disponível medem etapas distintas.",
+      "topic": "Execução orçamentária e financeira",
+      "note": {
+        "articleId": "art-743d234d819842d1",
+        "section": "Execução orçamentária × execução financeira"
+      },
+      "source": {
+        "title": "Tesouro Nacional, SIAFI",
+        "url": "https://www.gov.br/tesouronacional/pt-br/siafi/historia-e-estrutura/objetivos",
+        "locator": "Objetivos e distinção entre execução orçamentária e financeira"
+      },
+      "conceptIds": [],
+      "contrast": {
+        "prompt": "O recebimento de crédito orçamentário comprova que a unidade já pode pagar o fornecedor?",
+        "answer": "Não. O crédito autoriza a despesa; o pagamento depende de execução regular e disponibilidade financeira."
+      },
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
+    },
+    {
+      "id": "camara-orc10-provisao-destaque-cota",
+      "term": "Provisão, destaque, cota, repasse e sub-repasse",
+      "definition": "Provisão e destaque descentralizam crédito orçamentário, interna e externamente. Cota, repasse e sub-repasse movimentam recursos financeiros, segundo o fluxo do SIAFI.",
+      "example": "Um órgão destaca R$ 80 mil de crédito a outro, mas libera R$ 30 mil por repasse financeiro. As operações não precisam ter o mesmo valor no mesmo momento.",
+      "confusion": "Destaque ≠ repasse; provisão ≠ sub-repasse. O primeiro grupo trata de autorização, o segundo de recursos.",
+      "topic": "Descentralizações",
+      "note": {
+        "articleId": "art-743d234d819842d1",
+        "section": "Provisão, destaque, cota, repasse e sub-repasse"
+      },
+      "source": {
+        "title": "Manual SIAFI",
+        "url": "https://conteudo.tesouro.gov.br/manuais/modules/mod_pdf_manual/pdf/manual-siafi.pdf",
+        "locator": "Programação financeira e descentralização"
+      },
+      "conceptIds": [
+        "glo-camara-orc10-provisao-destaque",
+        "glo-camara-orc10-cota-repasse-subrepassse"
+      ],
+      "contrast": {
+        "prompt": "Um destaque de R$ 100 mil aumenta a LOA e transfere R$ 100 mil de caixa?",
+        "answer": "Não. É a descentralização de autorização preexistente, sem pagamento nem liberação financeira automática."
+      },
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P3.2"
+      ],
+      "status": "validated",
+      "reviewedAt": "2026-11-16",
+      "revision": 1
     }
   ]
 }

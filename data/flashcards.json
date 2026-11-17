@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "exams": [
     {
       "id": "cgu-2026",
@@ -116,7 +116,6 @@
         "orcamento-publico"
       ],
       "examIds": [
-        "cgu-2026",
         "camara-2026"
       ],
       "editalRefs": [
@@ -154,7 +153,6 @@
         "orcamento-publico"
       ],
       "examIds": [
-        "cgu-2026",
         "camara-2026"
       ],
       "editalRefs": [
@@ -196,8 +194,8 @@
         "P3.2"
       ],
       "note": {
-        "articleId": "art-c301f2c741504403",
-        "section": "LOA: Lei Orçamentária Anual"
+        "articleId": "art-9dc8a6e2f31b47c0",
+        "section": "O que a LOA autoriza e como auditar"
       },
       "source": {
         "title": "Referência de estudo",
@@ -3889,8 +3887,8 @@
         "P3.2"
       ],
       "note": {
-        "articleId": "art-c301f2c741504403",
-        "section": "Empresa controlada × estatal dependente × estatal não dependente"
+        "articleId": "art-c84d6e02f3b7a915",
+        "section": "Controle societário e dependência financeira"
       },
       "source": {
         "title": "Lei de Responsabilidade Fiscal",
@@ -3925,8 +3923,8 @@
         "P3.2"
       ],
       "note": {
-        "articleId": "art-c301f2c741504403",
-        "section": "Metas fiscais × riscos fiscais"
+        "articleId": "art-9dc8a6e2f31b47c0",
+        "section": "O que a LDO acrescenta"
       },
       "source": {
         "title": "Lei de Responsabilidade Fiscal",
@@ -3997,8 +3995,8 @@
         "P3.2"
       ],
       "note": {
-        "articleId": "art-c301f2c741504403",
-        "section": "Iniciativa, apreciação e prazos no plano federal"
+        "articleId": "art-9dc8a6e2f31b47c0",
+        "section": "Prazos federais: iniciativa, envio e devolução para sanção"
       },
       "source": {
         "title": "Ato das Disposições Constitucionais Transitórias",
@@ -7898,7 +7896,6 @@
         "orcamento-publico"
       ],
       "examIds": [
-        "cgu-2026",
         "camara-2026"
       ],
       "editalRefs": [
@@ -8544,8 +8541,8 @@
         "P3.2.2"
       ],
       "note": {
-        "articleId": "art-c301f2c741504403",
-        "section": "Empresa controlada × estatal dependente × estatal não dependente"
+        "articleId": "art-c84d6e02f3b7a915",
+        "section": "Controle societário e dependência financeira"
       },
       "source": {
         "title": "Lei Complementar 101/2000",
@@ -12961,6 +12958,113 @@
       "status": "validated",
       "reviewedAt": "2026-11-16",
       "revision": 1
+    },
+    {
+      "id": "cgu-orc-ppa",
+      "term": "Plano Plurianual (PPA)",
+      "definition": "É a lei que planeja o que o governo quer alcançar em quatro anos do orçamento, com metas para diferentes regiões. Abrange despesas de capital (por exemplo, obras), gastos que surgem depois desses investimentos (como manutenção) e programas de duração continuada (como atendimento regular). Não autoriza sozinho o gasto de cada ano.",
+      "example": "Planejar construção de postos de saúde em regiões com carência e manutenção futura do serviço. Para gastar em cada ano, é necessária autorização no orçamento anual.",
+      "confusion": "Programa de duração continuada do Plano Plurianual (PPA) não é automaticamente despesa obrigatória continuada da Lei de Responsabilidade Fiscal (LRF), que exige critérios próprios. A Lei Orçamentária Anual (LOA) autoriza o gasto anual.",
+      "topic": "Planejamento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2",
+        "P2.4"
+      ],
+      "note": {
+        "articleId": "art-9dc8a6e2f31b47c0",
+        "section": "Como ler o PPA"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 1º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-12",
+      "revision": 4,
+      "conceptIds": [
+        "ppa-regionalizacao-e-escopo"
+      ],
+      "contrast": {
+        "prompt": "O Plano Plurianual (PPA) prevê hospital e manutenção, mas a Lei Orçamentária Anual (LOA) não autoriza a obra naquele ano. O PPA basta para empenhar? Toda manutenção é despesa de capital?",
+        "answer": "Não. O PPA planeja, mas a despesa precisa de dotação na LOA ou crédito adicional. Manutenção decorrente da obra não vira, por isso, despesa de capital."
+      }
+    },
+    {
+      "id": "cgu-orc-ldo",
+      "term": "Lei de Diretrizes Orçamentárias (LDO)",
+      "definition": "É a lei anual que liga o plano de vários anos ao orçamento do ano seguinte. Define prioridades, metas fiscais (resultados pretendidos para as contas) e regras para preparar e executar o orçamento. Orienta, mas não libera o pagamento.",
+      "example": "A Lei de Diretrizes Orçamentárias (LDO) prioriza melhorar escolas; a Lei Orçamentária Anual (LOA) autoriza R$ 2 milhões. Se a arrecadação ameaçar metas fiscais, limitar empenhos depende das condições legais.",
+      "confusion": "Prioridade da Lei de Diretrizes Orçamentárias (LDO) não é dotação, isto é, valor autorizado na Lei Orçamentária Anual (LOA). Limitar empenhos não cancela automaticamente essa autorização.",
+      "topic": "Planejamento",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2",
+        "P2.4"
+      ],
+      "note": {
+        "articleId": "art-9dc8a6e2f31b47c0",
+        "section": "O que a LDO acrescenta"
+      },
+      "source": {
+        "title": "Referência de estudo",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "locator": "Constituição Federal, art. 165, § 2º; LRF, art. 4º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-12",
+      "revision": 4,
+      "contrast": {
+        "prompt": "A Lei de Diretrizes Orçamentárias (LDO) prioriza uma obra e prevê critérios de contingenciamento. Ela pode, sozinha, autorizar o gasto ou cancelar a dotação da Lei Orçamentária Anual (LOA)?",
+        "answer": "Não. A LOA ou crédito adicional autoriza a despesa. Limitar empenho depende das condições e atos do art. 9º da LRF; não é anulação automática da dotação."
+      },
+      "conceptIds": []
+    },
+    {
+      "id": "cgu-orc-ploa-projeto-lei",
+      "term": "Projeto de Lei Orçamentária Anual (PLOA)",
+      "definition": "O Projeto de Lei Orçamentária Anual (PLOA) é a proposta que o Poder Executivo encaminha ao Congresso com estimativas de receita e programação de despesas para o exercício seguinte. As unidades orçamentárias e os órgãos setoriais participam da preparação, mas o envio do projeto federal é iniciativa do presidente da República. A Lei Orçamentária Anual (LOA) resulta da deliberação legislativa e da conclusão do processo constitucional.",
+      "example": "Uma unidade pede R$ 1 milhão para serviços digitais; o órgão setorial ajusta a proposta a R$ 800 mil. O presidente envia o PLOA ao Congresso, onde pode haver emendas. Ainda não há dotação aprovada nem pagamento.",
+      "confusion": "Registrar uma proposta no Sistema Integrado de Planejamento e Orçamento (SIOP) não equivale a aprovar a LOA. O projeto encaminhado ao Congresso pode receber emendas; a autorização orçamentária e a execução financeira são etapas diferentes.",
+      "topic": "Orçamento público: elaboração, projeto e aprovação",
+      "subjectIds": [
+        "orcamento-publico"
+      ],
+      "examIds": [
+        "cgu-2026"
+      ],
+      "editalRefs": [
+        "P3.2.2",
+        "P2. Processo Legislativo e Regimento / Orçamento público"
+      ],
+      "note": {
+        "articleId": "art-9dc8a6e2f31b47c0",
+        "section": "O que a LOA autoriza e como auditar"
+      },
+      "source": {
+        "title": "Constituição Federal, arts. 165 e 166; Manual Técnico de Orçamento 2027",
+        "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html",
+        "locator": "Arts. 165-166, iniciativa e tramitação do projeto; Manual Técnico de Orçamento 2027, capítulo 6"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-12",
+      "revision": 2,
+      "contrast": {
+        "prompt": "Uma unidade orçamentária registra R$ 1 milhão, mas o órgão setorial reduz para R$ 800 mil. Já existe Lei Orçamentária Anual (LOA) aprovada ou despesa paga?",
+        "answer": "Não. Os dois valores são propostas de elaboração do Projeto de Lei Orçamentária Anual (PLOA). A lei depende do Congresso e do rito constitucional; o pagamento só ocorre na execução, após os atos exigidos."
+      },
+      "conceptIds": []
     }
   ]
 }

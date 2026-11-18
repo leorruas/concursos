@@ -228,7 +228,7 @@ const novosOrcamento = [
  'gnd-juros-encargos-divida','gnd-outras-despesas-correntes','gnd-investimentos',
  'gnd-inversoes-financeiras','modalidade-aplicacao-despesa','modalidade-aplicacoes-diretas',
  'modalidade-transferencias-municipios','elemento-material-consumo',
- 'elemento-equipamento-permanente','ploa-projeto-lei','emenda-projeto-orcamentario'
+ 'elemento-equipamento-permanente','cgu-orc-ploa-projeto-lei','emenda-projeto-orcamentario'
 ];
 for(const id of novosOrcamento) {
  const card=cards.find(c=>c.id===id);

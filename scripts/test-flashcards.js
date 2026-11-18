@@ -245,8 +245,8 @@ for(const [subject,min] of [['contabilidade-publica',14],['financas-publicas',10
  const sample=F.select(cards,F.empty(),{exam:'cgu-2026',subject,mode:'new',direction:'forward'},now,()=>.5);
  assert.equal(sample.length,10,'Matéria precisa oferecer uma janela de dez cartões: '+subject);
 }
-assert(cards.find(c=>c.id==='cont-vpa-sem-caixa')?.note.articleId==='art-4677cfa327ce43bb',
- 'Cartão de competência deve apontar à nota detalhada, não apenas ao hub de Contabilidade');
+assert(cards.find(c=>c.id==='cont-vpa-sem-caixa')?.note.articleId==='art-b3e5d91a740c46f8',
+ 'Cartão de competência deve apontar à nota de receitas da CGU que explica VPA e arrecadação');
 assert(cards.find(c=>c.id==='contr-acrescimos-25-50')?.contrast.answer.includes('supressões'),
  'Contraste quantitativo tem de impedir extensão indevida do limite de 50%');
 assert(cards.find(c=>c.id==='aud-beneficio-liquido')?.source.url.includes('Instru'),

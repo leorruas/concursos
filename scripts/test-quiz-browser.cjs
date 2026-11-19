@@ -155,6 +155,12 @@ fs.mkdirSync(evidence,{recursive:true});
 
    await page.getByRole('link',{name:'Matérias',exact:true}).click();
    assert.equal(await page.locator('#results-stats .results-stat').count(),4,'resumo com quatro indicadores');
+   assert.equal(await page.locator('#results-subjects .results-subject-row').count(),1,
+    'desempenho apresentado em linhas');
+   assert.equal(await page.locator('#results-subjects table').count(),0,
+    'não reutilizar tabela de oito colunas no celular');
+   assert.match(await page.locator('#results-subjects').innerText(),/66.7% de acerto/);
+   assert.match(await page.locator('#results-subjects').innerText(),/13 conceitos para revisar/);
    assert.equal(await page.locator('#results-study-modes .results-mode-row').count(),3);
    assert.match(await page.locator('#results-study-modes').innerText(), /Aprendizagem/);
    assert.match(await page.locator('#results-study-modes').innerText(), /2 tentativas/);

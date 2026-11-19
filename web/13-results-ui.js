@@ -386,11 +386,11 @@ function renderAdaptive(plan) {
     ({high:'alta',medium:'média',low:'baixa'}[item.priority]||'não classificada')));
   copy.append(el('h3','',action+' · '+label),meta);
   const reasons=(Array.isArray(item.rationale)?item.rationale:[])
-   .flatMap(text=>String(text).split(/(?<=\\.)\\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])/u))
+   .flatMap(text=>String(text).split(/(?<=\.)\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])/u))
    .map(text=>text.trim()).filter(Boolean)
-   .filter(text=>!item.nextReview||!/^Reteste independente previsto para \\d{4}-\\d{2}-\\d{2}\\.$/.test(text))
+   .filter(text=>!item.nextReview||!/^Reteste independente previsto para \d{4}-\d{2}-\d{2}\.$/.test(text))
    .filter(text=>text!=='Vínculo com o edital registrado.');
-  const reason=reasons.join(' ').replace(/\\b(\\d{4})-(\\d{2})-(\\d{2})\\b/g,(_,y,m,d)=>d+'/'+m+'/'+y);
+  const reason=reasons.join(' ').replace(/\b(\d{4})-(\d{2})-(\d{2})\b/g,(_,y,m,d)=>d+'/'+m+'/'+y);
   if(reason)copy.append(el('p','results-study-action-reason',reason));
   if(item.questionIds.length){
    const params=new URLSearchParams({concurso:item.concursoId,questoes:item.questionIds.join(',')});

@@ -227,13 +227,3 @@ Uma resposta sólida pode seguir **conceito regimental de parecer (art. 126) →
 
 
 > **Fontes consolidadas para consulta (15/11/2026):** o portal da Câmara disponibiliza o [Regimento Interno atualizado até a Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e a [Constituição atualizada até a Emenda Constitucional nº 141/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988). A consolidação mais recente deve ser consultada quando houver divergência com reproduções antigas. Esta atualização de referências não representa nova certificação de todos os dispositivos citados no artigo.
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Escopo cotejado:** texto, tabelas, **nove etapas do caso progressivo**, **dois exemplos comentados** e **oito questões inéditas C/E** confrontados com os [arts. 53–59, 126–130 e 144–147 do Regimento Interno da Câmara, versão consolidada](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). Conferidos estrutura tripartida do parecer, exceção de relatório para emendas, parecer único das apensadas, restrição material por competência, quórum e desempate em comissão, voto original e parecer vencedor, voto em separado, vista conjunta, terminatividade e apreciação conclusiva.
-
-**NC-PL-044, conteúdo da proposição decorrente do parecer:** acrescentado o **art. 129, § 2º**, que exige a **proposição devidamente formulada** quando, nas condições estritas do dispositivo, a conclusão do parecer deva resultar em resolução, decreto legislativo ou lei. **NC-PL-045, controle de regularidade:** explicitado o **art. 130, parágrafo único**, que prevê devolução à comissão para reformulação de parecer contrário ao Regimento ou na hipótese do art. 55, parágrafo único.
-
-**Gabaritos efetivamente existentes e preservados, oito itens:** **C, E, E, C, C, E, C, E**. Nenhuma inversão demonstrada nas questões, nos nove casos e nos dois exemplos examinados. A nota contém **oito**, não dez itens; o inventário histórico não recebe novas questões neste bloco.
-
-**Limites:** certificação do recorte escrito, nesta data, sem homologar integralmente o RICD, todos os regimes especiais de parecer, a aprendizagem do estudante, ou a renderização/publicação em GitHub Pages.

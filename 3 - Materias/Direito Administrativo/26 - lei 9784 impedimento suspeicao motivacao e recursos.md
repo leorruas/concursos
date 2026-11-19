@@ -124,7 +124,9 @@ A motivação deve ser **explícita, clara e congruente**. O art. 50, § 1º, au
 
 ## 3. O sistema recursal administrativo na Lei nº 9.784/1999 (arts. 56 a 65)
 
-O **recurso administrativo** é o pedido para a Administração reexaminar uma decisão. A pessoa pode alegar erro de legalidade (a decisão contrariou uma regra) ou de mérito administrativo (a avaliação de conveniência e oportunidade foi inadequada, quando houver espaço legal para essa escolha). Primeiro, apresenta o recurso à autoridade que decidiu. Ela tem cinco dias para reconsiderar; se não mudar a decisão, encaminha à autoridade superior (art. 56, § 1º).
+**Recurso administrativo** é o pedido para que a Administração reexamine uma decisão. O interessado pode questionar sua **legalidade**, quando entende que houve desrespeito às regras, ou seu **mérito administrativo**, quando a lei permite discutir a avaliação de conveniência e oportunidade feita pela autoridade.
+
+O recurso começa com a **autoridade que tomou a decisão**. Ela dispõe de **cinco dias para reconsiderá-la**. Se mantiver o que decidiu, deve encaminhar o recurso à autoridade superior (art. 56, § 1º da Lei nº 9.784/1999). Esse prazo de cinco dias é diferente do prazo geral que o interessado tem para apresentar o recurso, explicado a seguir.
 
 ```mermaid
 flowchart TD

@@ -2073,10 +2073,10 @@
       "id": "glo-camara-verificacao-votacao-simbolica",
       "term": "Verificação de votação simbólica",
       "aliases": [],
-      "definition": "Pedido regimental de conferência do resultado proclamado em votação simbólica. Na Câmara, quando admitido, leva à apuração nominal dos votos.",
-      "contrast": "Votação nominal é uma modalidade; verificação é o procedimento que pode transformar a apuração originalmente simbólica em nominal.",
-      "cebraspeTrap": "Votação nominal é uma modalidade; verificação é o procedimento que pode transformar a apuração originalmente simbólica em nominal.",
-      "example": "Após resultado simbólico contestado, realiza-se votação nominal para conferir o resultado.",
+      "definition": "Procedimento para conferir o resultado já proclamado de votação simbólica. Na Câmara dos Deputados, a verificação admitida conduz à votação nominal (RICD, arts. 185–186). Em sessão conjunta do Congresso Nacional, o Regimento Comum (art. 45, § 2º) prevê contagem dos votos favoráveis e contrários por bancada, salvo pedido de votação nominal imediata.",
+      "contrast": "Verificação é um procedimento de conferência; nominal é uma modalidade de votação. Na Câmara, a verificação admitida é nominal; em sessão conjunta do Congresso, há também contagem por bancada.",
+      "cebraspeTrap": "Afirmar que toda verificação de votação simbólica no Congresso Nacional ocorre obrigatoriamente por votação nominal, ignorando a contagem por bancada do art. 45, § 2º, do Regimento Comum.",
+      "example": "Depois de resultado simbólico contestado, a Câmara pode proceder à votação nominal; em sessão conjunta, o Congresso pode contar os votos por bancada, salvo pedido de nominal imediata.",
       "articleIds": [
         "art-7bc9230e51a6d84f"
       ],
@@ -2088,8 +2088,12 @@
       ],
       "sources": [
         {
-          "label": "RICD, arts. 185 e 186",
+          "label": "RICD, arts. 185–186",
           "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        },
+        {
+          "label": "Regimento Comum, art. 45, § 2º",
+          "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839"
         }
       ],
       "status": "reviewed"

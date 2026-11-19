@@ -361,8 +361,9 @@ function renderAdaptive(plan) {
   (item.articles?.length || item.questionIds?.length));
  if (firstStudy && !activities.some(item => item.state === 'confirmed-not-studied') && activities.length < 3)
   activities.push(firstStudy);
- const list = el('ul');
- for (const item of activities) {
+ const list = el('ul'), remaining = el('ul');
+ // Todas as recomendacoes fora do resumo permanecem na pagina de Revisoes.
+ for (const item of [...activities, ...ranked.filter(item => !activities.includes(item))]) {
   const row = el('li');
   const action = adaptiveActions[item.action] || 'Revisar';
   const label = /^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(item.title) ? item.title.replaceAll('-', ' ') : item.title;
@@ -389,10 +390,15 @@ function renderAdaptive(plan) {
   }
   if (item.state === 'confirmed-not-studied') row.append(el('p', 'results-meta', item.selection));
   if (item.nextReview) row.append(el('p', 'results-meta', 'Reteste previsto para ' + fmtDate(item.nextReview)));
-  list.append(row);
+  (activities.includes(item) ? list : remaining).append(row);
  }
  $('results-adaptive-actions').replaceChildren(activities.length ? list :
   el('p', 'results-caption', 'Nenhuma atividade prioritária com os registros atuais.'));
+ const queueSection = $('results-adaptive-queue'), queueItems = $('results-adaptive-queue-items');
+ if (queueSection && queueItems) {
+  queueSection.hidden = remaining.children.length === 0;
+  queueItems.replaceChildren(remaining);
+ }
  const signals = plan.principles.flatMap(item => item.signals.filter(signal => signal.elapsed)
   .map(signal => ({ ...signal, title: item.title }))).sort((a,b) => b.date.localeCompare(a.date));
  const progress = el('ul');

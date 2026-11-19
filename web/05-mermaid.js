@@ -74,9 +74,13 @@ function dimensoesDoSvg(svg) {
 async function abrirModalExploradorMermaid(codigo) {
     if (!codigo || typeof mermaid === "undefined") return;
     document.querySelector(".mermaid-modal")?.remove();
+    const focoAnterior = document.activeElement;
 
     const modal = document.createElement("div");
     modal.className = "mermaid-modal";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    modal.setAttribute("aria-label", "Explorador de diagrama");
     modal.innerHTML = `
         <header class="mermaid-modal-header">
             <div class="mermaid-modal-title"><span>Explorador de diagrama</span></div>
@@ -91,6 +95,7 @@ async function abrirModalExploradorMermaid(codigo) {
         </header>
         <div class="mermaid-modal-body"><div class="mermaid-modal-stage" aria-live="polite"></div></div>`;
     document.body.appendChild(modal);
+    modal.querySelector(".btn-mermaid-fechar")?.focus();
 
     const stage = modal.querySelector(".mermaid-modal-stage");
     const body = modal.querySelector(".mermaid-modal-body");
@@ -151,10 +156,28 @@ async function abrirModalExploradorMermaid(codigo) {
     const tamanhoReal = () => {
         escala = 1; deslocamentoX = 0; deslocamentoY = 0; ajustado = false; aplicarTransformacao();
     };
-    const fechar = () => { limparListeners(); modal.remove(); };
+    const fechar = () => {
+        limparListeners();
+        modal.remove();
+        if (focoAnterior?.isConnected && typeof focoAnterior.focus === "function") focoAnterior.focus();
+    };
     const aoTeclar = evento => {
-        if (evento.key === "Escape") fechar();
-        else if (evento.key.toLowerCase() === "f") ajustar();
+        if (evento.key === "Escape") { evento.preventDefault(); fechar(); return; }
+        if (evento.key === "Tab") {
+            const botoesFocaveis = Array.from(modal.querySelectorAll("button:not([disabled])"));
+            if (!botoesFocaveis.length) { evento.preventDefault(); return; }
+            const primeiro = botoesFocaveis[0];
+            const ultimo = botoesFocaveis[botoesFocaveis.length - 1];
+            if (evento.shiftKey && document.activeElement === primeiro) {
+                evento.preventDefault(); ultimo.focus();
+            } else if (!evento.shiftKey && document.activeElement === ultimo) {
+                evento.preventDefault(); primeiro.focus();
+            } else if (!modal.contains(document.activeElement)) {
+                evento.preventDefault(); primeiro.focus();
+            }
+            return;
+        }
+        if (evento.key.toLowerCase() === "f") ajustar();
         else if (evento.key === "0") tamanhoReal();
         else if (evento.key === "+" || evento.key === "=") alterarZoom(1.25);
         else if (evento.key === "-") alterarZoom(0.8);

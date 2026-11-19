@@ -64,6 +64,24 @@ try {
 }
 ctx.concursoSelecionadoId='cgu-2026';
 assert.equal(ctx.obterArtigosDaMateria('Comunicacao').length,0,'CGU sem Comunicação como frente autônoma');
+// Regressão: blueprints de orçamento precisam pertencer à lista da própria matéria,
+// sem aparecer na grade principal ou vazar para a trilha do outro concurso.
+ctx.concursoSelecionadoId='camara-2026';
+const artigosOrcCamara=ctx.obterArtigosDaMateria('Orcamento Publico');
+assert.ok(artigosOrcCamara.some(x=>x.sourcePath.endsWith('Camara 2026 - blueprint do processo orcamentario.md')),
+    'Blueprint da Câmara precisa aparecer dentro de Orçamento Público');
+assert.ok(!artigosOrcCamara.some(x=>x.sourcePath.includes('CGU 2026 - blueprint')),
+    'Blueprint CGU não pode aparecer na trilha da Câmara');
+ctx.concursoSelecionadoId='cgu-2026';
+const artigosOrcCGU=ctx.obterArtigosDaMateria('Orcamento Publico');
+assert.ok(artigosOrcCGU.some(x=>x.sourcePath.endsWith('CGU 2026 - blueprint do ciclo orcamentario e auditoria.md')),
+    'Blueprint CGU precisa aparecer dentro de Orçamento Público');
+assert.ok(!artigosOrcCGU.some(x=>x.sourcePath.includes('Camara 2026 - blueprint')),
+    'Blueprint da Câmara não pode aparecer na trilha CGU');
+assert.ok(fs.readFileSync(new URL('../web/02-data-home.js',import.meta.url),'utf8')
+    .includes('disciplinaAcoes.appendChild(acesso)'),
+    'Acesso visual do blueprint precisa estar no índice interno da disciplina');
+
 console.log('SUCESSO: listas de artigos filtradas por edital, hub primeiro, artigos compartilhados e estados vazios.');
 
 // A faixa identifica o concurso inclusive quando o artigo veio da lista da matéria.

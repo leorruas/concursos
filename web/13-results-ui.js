@@ -180,9 +180,12 @@ function showEditalCoverage(){
      for (const unit of units) {
       if (!block.subjects.includes(unit.subjectId)) continue;
       for (const item of unit.items) {
-       if (!item.editalRef.startsWith(prefix) || !codes.includes(item.officialEditalCode)) continue;
-       const code = item.officialEditalCode;
-       linked.set(code, (linked.get(code) || 0) + item.attempts);
+       if (!item.editalRef.startsWith(prefix)) continue;
+       const coverageByCode = item.officialCodeAttempts ||
+        (item.officialEditalCode ? {[item.officialEditalCode]:item.attempts} : {});
+       for (const [code, attempts] of Object.entries(coverageByCode)) {
+        if (codes.includes(code)) linked.set(code, (linked.get(code) || 0) + attempts);
+       }
       }
      }
      const results = el('ul', 'results-caption');

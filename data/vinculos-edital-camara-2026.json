@@ -91,7 +91,24 @@
       "regimes políticos": "3",
       "sistemas partidários": "8",
       "sistemas eleitorais": "7",
-      "partidos políticos": "8"
+      "partidos políticos": "8",
+      "partidos políticos e sistemas partidários": "8"
+    },
+    "questions": {
+      "cam-cpol-l028-001-duverger-efeito-mecanico": "7",
+      "cam-cpol-l028-003-representacao-descritiva": "5",
+      "cam-cpol-l028-004-voto-alternativo-rodadas": "7",
+      "cam-cpol-l028-005-magnitude-efeito-condicionado": "7",
+      "cam-cpol-l028-006-federacao-coligacao-proporcional": "7",
+      "cam-cpol-l028-007-sobras-restrita-criterios-distintos": "7",
+      "cam-cpol-l028-008-suplencia-minimo-nominal": "7",
+      "cam-cpol-l028-009-duverger-efeito-psicologico": "7",
+      "cam-cpol-l028-010-voto-alternativo-transferencia": "7",
+      "cam-cpol-l028-011-representacao-federativa": "5",
+      "cam-cpol-l028-013-qe-fracao-limite": "7",
+      "cam-cpol-l028-014-lista-flexivel": "7",
+      "cam-cpol-l028-015-nenhum-partido-qe": "7",
+      "cam-cpol-l028-016-concentracao-territorial-cadeiras": "7"
     }
   },
   {

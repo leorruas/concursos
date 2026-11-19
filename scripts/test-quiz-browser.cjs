@@ -144,7 +144,7 @@ fs.mkdirSync(evidence,{recursive:true});
      coverage:{units:[{title:'Constitucional',subjectId:proposed.subjectId,studyStatus:'studied-unassessed',exposition:'2026-11-13',
       items:[{editalRef:'Referência de teste',attempts:0}]},
       {title:'Divulgação Institucional',subjectId:'comunicacao',items:[
-       {editalRef:'14.2.4 / Divulgação Institucional / 1 / mídia',officialEditalCode:'1.5',attempts:2},
+       {editalRef:'14.2.4 / Divulgação Institucional / 1 / mídia',officialCodeAttempts:{'1.5':2,'1.6':0},attempts:2},
        {editalRef:'14.2.4 / Divulgação Institucional / 1 / cronograma',officialEditalCode:'1.2',attempts:0}
       ]}],unmapped:1}},
     difficulty:{byLevel:[{id:meta.estimatedDifficulty,total:3,correct:2,incorrect:1,blank:0,accuracy:66.7,uncertain:1}],
@@ -267,6 +267,7 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.match(await officialPage.getAttribute('href'), /\.pdf#page=54$/);
    const officialDivulgacao = page.getByRole('link',{name:'P2 · Divulgação Institucional',exact:true}).locator('..');
    assert.ok(await officialDivulgacao.getByText('1.5 · 2 respostas registradas',{exact:true}).isVisible());
+   assert.ok(await officialDivulgacao.getByText('1.6 · Sem respostas registradas',{exact:true}).isVisible());
    assert.ok(await officialDivulgacao.getByText('1.2 · Sem respostas registradas',{exact:true}).isVisible());
    assert.ok(await officialDivulgacao.getByText('1.1 · Vínculo ainda não conferido',{exact:true}).isVisible());
 

@@ -94,6 +94,8 @@ Na **delegação**, quem possui a competência autoriza outro órgão ou agente 
 
 ## 4. Delegação de competência: conceito, pressupostos e limites
 
+Neste contexto, **pressupostos** são as condições necessárias para a delegação ser válida. Antes de decorar as proibições legais, verifique três pontos: **qual competência será exercida por outra autoridade, por que a delegação é permitida e quais limites o ato de delegação estabelece**. A titularidade da competência permanece com o órgão ou a autoridade originalmente competente.
+
 A **delegação** é o ato administrativo discricionário por meio do qual uma autoridade ou órgão transfere temporariamente o **exercício** (e não a titularidade definitiva) de parte de suas competências a outro órgão ou autoridade.
 
 ```mermaid

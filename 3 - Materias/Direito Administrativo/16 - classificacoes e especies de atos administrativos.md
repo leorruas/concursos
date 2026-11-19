@@ -89,6 +89,8 @@ A classificação como ato **complexo** da concessão inicial de aposentadoria d
 
 ## 2. Espécies de Atos Administrativos em Espécie (NONEP)
 
+Neste trecho, **espécie** significa um tipo de ato classificado pela sua finalidade e conteúdo. As cinco espécies do esquema NONEP respondem à pergunta **para que serve o ato?** Essa classificação é diferente dos critérios anteriores, que observam, por exemplo, quem participa de sua formação e quem recebe seus efeitos.
+
 ### Atos Normativos
 Os atos normativos contêm comandos gerais e abstratos expedidos pela Administração Pública com o objetivo de explicitar, fielmente executar ou complementar a lei formal.
 - **Decretos e regulamentos:** o art. 84, IV, da **Constituição Federal de 1988** permite ao Presidente expedir decretos para fiel execução das leis. O art. 84, VI, admite decreto autônomo em duas hipóteses: organização e funcionamento da Administração federal, sem aumento de despesa nem criação ou extinção de órgãos; e extinção de funções ou cargos públicos **quando vagos**. Ao contrário do regulamento executivo, o decreto autônomo tem fundamento direto na Constituição, dentro dessas hipóteses.

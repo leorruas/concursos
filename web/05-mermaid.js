@@ -85,12 +85,12 @@ async function abrirModalExploradorMermaid(codigo) {
         <header class="mermaid-modal-header">
             <div class="mermaid-modal-title"><span>Explorador de diagrama</span></div>
             <div class="mermaid-modal-controls">
-                <button type="button" class="btn-mermaid-zoom-out" title="Reduzir zoom (ou scroll)">−</button>
+                <button type="button" class="btn-mermaid-zoom-out" aria-label="Reduzir zoom" title="Reduzir zoom (ou scroll)">−</button>
                 <span class="mermaid-modal-zoom-display">ajustado</span>
-                <button type="button" class="btn-mermaid-zoom-in" title="Aumentar zoom (ou scroll)">+</button>
-                <button type="button" class="btn-mermaid-fit" title="Ajustar à tela inteira (f)">ajustar</button>
-                <button type="button" class="btn-mermaid-reset" title="Tamanho real (100%)">1:1</button>
-                <button type="button" class="btn-mermaid-fechar" title="Fechar (Esc)">&times; fechar</button>
+                <button type="button" class="btn-mermaid-zoom-in" aria-label="Aumentar zoom" title="Aumentar zoom (ou scroll)">+</button>
+                <button type="button" class="btn-mermaid-fit" aria-label="Ajustar diagrama à tela inteira" title="Ajustar à tela inteira (f)">ajustar</button>
+                <button type="button" class="btn-mermaid-reset" aria-label="Mostrar tamanho real de 100 por cento" title="Tamanho real (100%)">1:1</button>
+                <button type="button" class="btn-mermaid-fechar" aria-label="Fechar explorador de diagrama" title="Fechar (Esc)">&times; fechar</button>
             </div>
         </header>
         <div class="mermaid-modal-body"><div class="mermaid-modal-stage" aria-live="polite"></div></div>`;
@@ -108,11 +108,28 @@ async function abrirModalExploradorMermaid(codigo) {
     } catch (erro) {
         console.error("Erro ao renderizar Mermaid no explorador:", erro);
         stage.textContent = "Não foi possível renderizar este diagrama.";
+        modal.querySelectorAll("button:not(.btn-mermaid-fechar)").forEach(botao => { botao.disabled = true; });
+        const fecharErro = () => {
+            window.removeEventListener("keydown", tecladoErro);
+            modal.remove();
+            if (focoAnterior?.isConnected && typeof focoAnterior.focus === "function") focoAnterior.focus();
+        };
+        const tecladoErro = evento => {
+            if (evento.key === "Escape") { evento.preventDefault(); fecharErro(); }
+            else if (evento.key === "Tab") { evento.preventDefault(); modal.querySelector(".btn-mermaid-fechar")?.focus(); }
+        };
+        modal.querySelector(".btn-mermaid-fechar")?.addEventListener("click", fecharErro);
+        window.addEventListener("keydown", tecladoErro);
         return;
     }
 
     const svg = stage.querySelector("svg");
-    if (!svg) return;
+    if (!svg) {
+        modal.querySelector(".btn-mermaid-fechar")?.click();
+        modal.remove();
+        if (focoAnterior?.isConnected && typeof focoAnterior.focus === "function") focoAnterior.focus();
+        return;
+    }
     const { largura, altura } = dimensoesDoSvg(svg);
     stage.style.width = `${Math.ceil(largura)}px`;
     stage.style.height = `${Math.ceil(altura)}px`;

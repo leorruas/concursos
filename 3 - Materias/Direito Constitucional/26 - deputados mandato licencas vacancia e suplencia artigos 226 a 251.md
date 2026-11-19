@@ -153,18 +153,6 @@ O **art. 226** assegura ao deputado o direito de **propor, discutir e deliberar;
 
 **Cautela de hierarquia normativa:** **RICD art. 251 contém fórmulas históricas**; no direito vigente, primeiro conferir **Constituição, art. 53, com EC 35/2001**. Nas questões, a palavra **licença** pode referir-se a afastamento parlamentar legítimo ou a antiga exigência processual eliminada, e a banca pode transpor a primeira para a segunda.
 
-## Certificação normativa delimitada: 11/11/2026
-
-**Recorte examinado:** texto desta nota, quadros, **oito casos progressivos** e **dez itens C/E**, confrontados com os **arts. 226 a 251 do [RICD consolidado pela Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html)** e os **arts. 53 a 56 da [Constituição Federal atualizada](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988)**.
-
-**Conferências centrais:** registro de presença em sessões e comissões; participação remota de gestantes desde a **30ª semana ou mediante atestado**, estendida ao período de até **180 dias contados do início da licença-gestante**; afastamento para cargo do art. 56, I, e reassunção; imunidades desde a diplomação; incompatibilidades desde a diplomação ou posse conforme CF art. 54; licença diplomática/cultural decidida pela **Mesa**; licença particular de até **120 dias por sessão legislativa**; renúncia efetiva após leitura ou publicação no Diário; causas de perda e competências regimentais; convocação de suplente em **48 horas**, com licença médica original **superior a 120 dias**, sem soma; atuação e limitações dos suplentes; revogação dos arts. 245–248 e inaplicabilidade da licença criminal prévia do art. 249 após EC 35/2001.
-
-**Complemento necessário acrescentado nesta auditoria:** para sustar a ação penal por crime posterior à diplomação, CF art. 53, §§ 3º–5º, a Casa deve apreciar a iniciativa partidária em **45 dias improrrogáveis contados do recebimento pela Mesa**, e a sustação suspende a prescrição durante o mandato. Isso é distinto do envio dos autos de **flagrante de crime inafiançável em 24 horas**, CF art. 53, § 2º, e RICD art. 250.
-
-**Gabaritos das dez questões, cotejados na ordem:** **C, C, E, E, E, C, E, E, E, C**. Não se identificou inversão à luz dos dispositivos examinados; todos os enunciados e suas justificativas foram preservados.
-
-**Limites:** certificação normativa dos **dispositivos e casos escritos nesta versão**, em 11/11/2026. O regime de perda de mandato em razão de condenação criminal pode envolver jurisprudência constitucional e decisões particulares, cuja aplicação a casos reais não é homologada por esta nota. Os trechos antigos dos arts. 233 e 251 que mencionam voto secreto demandam hierarquia constitucional e atos supervenientes; esta certificação **não os apresenta como autorização geral atual de sigilo**. Não há comprovação aqui de funcionamento do GitHub Pages, renderização visual ou aprendizagem.
-
 ## Fontes oficiais
 
 - [Câmara dos Deputados, RICD, arts. 226–251, consolidado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html).

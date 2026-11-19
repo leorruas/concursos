@@ -390,6 +390,60 @@ const studyModeLabels = {
  real:'Questões de prova', adaptada:'Questões adaptadas',
  simulado:'Bateria com correção ao final', unknown:'Modalidade sem registro'
 };
+function renderPrincipleHistory(plan) {
+ const target = $('results-principle-history');
+ const principles = (plan?.principles || []).filter(p => p.recentEvents?.length &&
+  (!selectedSubject || p.subjectId === selectedSubject));
+ target.hidden = !principles.length;
+ const previous = target.querySelector('select')?.value;
+ target.replaceChildren();
+ if (!principles.length) return;
+ const select = el('select');
+ select.id = 'results-principle-select';
+ for (const p of principles) {
+  const option = el('option', '', title(p.subjectId) + ' · ' + p.title.replace(/^([a-z0-9]+(?:-[a-z0-9]+)+)$/, text => text.replaceAll('-', ' ')));
+  option.value = p.subjectId + ':' + p.principleId;
+  select.append(option);
+ }
+ if ([...select.options].some(option => option.value === previous)) select.value = previous;
+ const label = el('label', '', 'Conceito');
+ label.htmlFor = select.id;
+ const report = el('div');
+ const renderEvidence = () => {
+  const principle = principles[select.selectedIndex];
+  const signals = new Map(principle.signals.map(signal => [signal.id, signal.kind]));
+  const list = el('ol');
+  const results = {correct:'Acerto', incorrect:'Erro', blank:'Em branco'};
+  const confidence = {secure:'Seguro', insecure:'Inseguro', guess:'Palpite'};
+  for (const event of [...principle.recentEvents].reverse()) {
+   const row = el('li');
+   const details = [fmtDate(event.date), results[event.result], confidence[event.confidence] || 'Segurança sem registro',
+    event.origin === 'site' ? 'Site' : 'Histórico privado'];
+   if (event.id === principle.cycleAttemptId) details.push('Início do ciclo atual');
+   const signal = signals.get(event.id);
+   if (signal === 'independent') details.push('Reteste independente');
+   if (signal === 'consultation-unknown') details.push('Reteste com contexto incompleto');
+   if (signal === 'same-day-correction') details.push('Correção no mesmo dia');
+   if (signal === 'same-day-success') details.push('Acerto no mesmo dia');
+   row.append(el('p', '', details.join(' · ')));
+   const context = [];
+   if (event.daysSincePrevious !== null) context.push('Dias desde a tentativa anterior: ' + event.daysSincePrevious);
+   if (event.responseMs != null) context.push('Tempo de resposta: ' + (event.responseMs / 1000).toLocaleString('pt-BR', {maximumFractionDigits:1}) + ' s');
+   if (event.correctAnswer != null) context.push('Resposta: ' + (event.answer ?? 'em branco') + ' · Gabarito: ' + event.correctAnswer);
+   if (event.mode && Object.hasOwn(studyModeLabels, event.mode)) context.push(studyModeLabels[event.mode]);
+   if (typeof event.consulted === 'boolean') context.push(event.consulted ? 'Com consulta' : 'Sem consulta declarada');
+   if (typeof event.feedbackBefore === 'boolean') context.push(event.feedbackBefore ? 'Correção já vista' : 'Sem correção prévia declarada');
+   if (event.editalRef) context.push(event.editalRef);
+   if (context.length) row.append(el('p', 'results-caption', context.join(' · ')));
+   list.append(row);
+  }
+  report.replaceChildren(el('p', 'results-caption', 'Exibindo ' + principle.recentEvents.length +
+   ' de ' + principle.attempts + ' tentativa(s) registradas.'), list);
+ };
+ select.addEventListener('change', renderEvidence);
+ target.append(el('h2', '', 'Evidências por princípio'), label, select, report);
+ renderEvidence();
+}
 function renderStudyModes(byMode) {
  const target = $('results-study-modes');
  const modes = Object.entries(byMode || {});
@@ -414,6 +468,7 @@ function render(){
  if(!current)return;
  renderAdaptive(current.adaptive);
  renderStudyModes(current.adaptive?.byMode);
+ renderPrincipleHistory(current.adaptive);
  const summary=current.summary||{},source=current.sources||{};
  const valid=summary.valid||0;
  $('results-stats').replaceChildren(

@@ -178,9 +178,9 @@ Outros itens trocam **5%, 6% e 10%** de **encerramento**, **verificação** e **
 - [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: comissão versus Plenário, fases, revisão bicameral e apreciação conclusiva.
 - [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]]: quórum e desempate no **Plenário da Comissão**, distintos do Plenário da Câmara.
 - [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]: competências e modalidades de decisão.
-- **CAM-PL-007**: sanção, veto, promulgação e publicação, inclusive quórum constitucional para apreciação de veto.
-- **CAM-PL-008 a CAM-PL-010**: procedimento ordinário, prioridade, urgência e outros ritos.
-- **CAM-PL-011 a CAM-PL-015**: diferentes espécies legislativas, requisitos e maiorias.
+- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação]]: quórum constitucional para rejeitar o veto.
+- [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Procedimentos abreviado e sumário]] e [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Procedimentos sumaríssimo, especial e concentrado]]: como o rito altera a tramitação.
+- [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas]]: requisitos e maiorias conforme o tipo de norma.
 
 ## Tensões e pegadinhas
 

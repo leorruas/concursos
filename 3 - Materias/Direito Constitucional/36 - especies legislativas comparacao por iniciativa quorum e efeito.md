@@ -156,7 +156,7 @@ A participação do Poder Executivo no processo legislativo materializa o sistem
 1. **Emenda Constitucional (PEC):** não vai ao Presidente da República. É promulgada em sessão solene pelas Mesas da Câmara e do Senado conjuntamente;
 2. **Decreto Legislativo:** materializa a competência exclusiva do Congresso Nacional (CF, art. 49). Não se submete a sanção do Executivo; é promulgado pelo Presidente do Senado Federal;
 3. **Resolução:** consubstancia ato privativo das Casas legislativas ou do Congresso (CF, arts. 51, 52 e RCCN). É promulgada pela Mesa da Casa respectiva, sem qualquer interferência do Executivo;
-4. **Medida Provisória aprovada sem alteração de mérito:** se o Congresso aprovar a MP exatamente como o Presidente a editou, **não há remessa à sanção presidencial** (seria ilógico o Presidente sancionar o próprio texto que ele mesmo editou). A MP aprovada na íntegra é diretamente **promulgada pelas Mesas do Congresso Nacional**.
+4. **Medida provisória aprovada sem alteração de mérito:** se o Congresso aprovar a MP **sem modificações de mérito**, **não há remessa à sanção presidencial**. O texto é promulgado **pelo Presidente da Mesa do Congresso Nacional**, conforme o art. 12 da Resolução nº 1/2002-CN. Se o Congresso aprovar **projeto de lei de conversão**, este seguirá à sanção ou ao veto do Presidente da República.
 
 ## 5. O critério da Deliberação Conclusiva em Comissões (CF, art. 58, § 2º, I)
 
@@ -204,7 +204,7 @@ Uma PEC sobre reforma administrativa é aprovada na Câmara em dois turnos por m
 
 ### Caso 3: Medida Provisória aprovada com emendas parlamentares que criam encargos
 A Câmara e o Senado aprovam medida provisória com emendas substantivas que alteram seu texto originário, convertendo-a em Projeto de Lei de Conversão (PLV). A Mesa do Congresso Nacional promulga o texto diretamente no Diário Oficial.
-- **Ilegalidade e Nulidade:** a MP alterada por emendas parlamentares não pode ser promulgada pelas Mesas do Congresso. O texto resultante (PLV) deve ser **encaminhado à sanção e veto do Presidente da República** (CF, art. 62, § 12). A promulgação autônoma pelo Legislativo usurpa a prerrogativa privativa do Chefe do Executivo.
+- **Problema jurídico:** o projeto de lei de conversão (PLV) aprovado pelo Congresso segue **à sanção ou ao veto do Presidente da República**, nos termos do art. 62, § 12, e do art. 66 da Constituição. A promulgação pelo Presidente da Mesa do Congresso Nacional, prevista no art. 12 da Resolução nº 1/2002-CN, vale para MP aprovada **sem alteração de mérito**. Não se pode aplicar esse procedimento diretamente ao PLV.
 
 ### Caso 4: Iniciativa popular de Proposta de Emenda à Constituição
 Um movimento social reúne dois milhões de assinaturas de cidadãos distribuídos por dez estados da federação e protocola diretamente na Câmara uma Proposta de Emenda Constitucional sobre tributação de grandes fortunas.

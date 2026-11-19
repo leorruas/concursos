@@ -228,6 +228,10 @@ fs.mkdirSync(evidence,{recursive:true});
    const alternateColor=await page.locator('#results-concepts .results-link').first().evaluate(link=>getComputedStyle(link).color);
    assert.notEqual(alternateColor,'rgb(0, 0, 238)','tema alternativo sem azul nativo');
    assert.notEqual(alternateColor,'rgb(85, 26, 139)','tema alternativo sem roxo nativo');
+   await page.waitForFunction(()=>{
+    const nav=document.querySelector('.study-topbar__links a[data-study-nav="glossary"]');
+    return getComputedStyle(nav).color===getComputedStyle(document.body).color;
+   },null,{timeout:2000});
    const navColorsLight=await page.evaluate(()=>{
     const nav=document.querySelector('.study-topbar__links a[data-study-nav="glossary"]');
     return {link:getComputedStyle(nav).color,text:getComputedStyle(document.body).color};

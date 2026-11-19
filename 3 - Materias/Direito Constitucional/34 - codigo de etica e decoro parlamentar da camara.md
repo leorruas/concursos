@@ -14,7 +14,7 @@ updated: 2026-11-11
 
 ## Núcleo do conceito: por que existe um regime disciplinar próprio para deputados?
 
-A atividade parlamentar goza de garantias constitucionais expressivas — como a imunidade material por palavras, opiniões e votos (CF, art. 53, *caput*) e a imunidade formal contra prisões arbitrárias (CF, art. 53, § 2º). Tais prerrogativas existem para resguardar a soberania do mandato popular e o funcionamento independente do Poder Legislativo, e não como privilégio pessoal do indivíduo eleito. Como contrapartida institucional indispensável, a ordem jurídica exige padrões rigorosos de probidade, integridade e dignidade no exercício da representação.
+Quando um deputado se manifesta em uma votação, a Constituição protege suas opiniões, palavras e votos ligados ao mandato (art. 53). Essa proteção permite o debate parlamentar, mas não afasta as regras de conduta da Câmara. Por exemplo, o recebimento de vantagem indevida pode dar origem a um processo por quebra de decoro, com apuração e decisão pelos órgãos competentes.
 
 Na Câmara dos Deputados, esse sistema de controle ético-disciplinar está disciplinado no **Código de Ética e Decoro Parlamentar da Câmara dos Deputados (CEDP)**, instituído pela **Resolução nº 25, de 2001**, com redação atualizada por resoluções posteriores (com destaque para a **Resolução nº 2, de 2011**), complementado pelo seu **Regulamento Interno**, pelo **Regimento Interno da Câmara dos Deputados (RICD)** e pela própria **Constituição Federal (arts. 55 e 58)**.
 

@@ -437,7 +437,7 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 
 ## Fontes primárias e controle de vigência
 
-- **[Acordo de Procedimentos 2025–2027, PDF oficial](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027-1/view):** regras operacionais do biênio, itens 1 a 6, com alteração expressa de 5/8/2025 no item 2; consultar eventuais alterações supervenientes antes da prova. O PDF oficial foi confrontado em texto e em páginas visuais na revisão de 11/11/2026.
+- **[Acordo de Procedimentos 2025–2027, PDF oficial](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027-1/view):** regras operacionais do biênio, itens 1 a 6, com alteração expressa de 5/8/2025 no item 2; consultar eventuais alterações supervenientes antes da prova.
 
 
 - **Constituição Federal de 1988:** arts. 53 (estatuto dos congressistas e imunidades), 54 (incompatibilidades), 55 (perda de mandato e quórum), 56 (afastamentos e licenças) e 58 (comissões e poderes instrutórios).

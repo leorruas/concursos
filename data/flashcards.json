@@ -13166,7 +13166,7 @@
         "url": "https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-1-pl.html",
         "locator": "Resolução nº 1/1970-CN, arts. 9º e 10"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 1
     },
@@ -13202,7 +13202,7 @@
         "url": "https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html",
         "locator": "CF, art. 62, §§ 8º e 9º; Resolução nº 1/2002-CN, arts. 2º e 3º"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 1
     },
@@ -13238,7 +13238,7 @@
         "url": "https://www.congressonacional.leg.br/entenda-as-comissoes-mistas",
         "locator": "CF, art. 58, § 4º; Resolução nº 3/1990-CN"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 1
     },
@@ -13274,7 +13274,7 @@
         "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
         "locator": "CF, art. 58, § 3º; RCCN, art. 21"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 2
     },
@@ -13310,7 +13310,7 @@
         "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
         "locator": "CF, art. 58, § 3º; RCCN, art. 21"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 2
     },
@@ -13346,7 +13346,7 @@
         "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
         "locator": "CF, art. 58, § 3º; RCCN, art. 21"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 2
     },
@@ -13382,7 +13382,7 @@
         "url": "https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html",
         "locator": "Resolução nº 1/2002-CN, art. 8º"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 1
     },
@@ -13418,7 +13418,7 @@
         "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
         "locator": "CF, arts. 47, 60, § 2º, e 69"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 1
     },
@@ -13454,7 +13454,7 @@
         "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
         "locator": "Art. 45, § 2º"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 2
     },
@@ -13490,7 +13490,7 @@
         "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
         "locator": "RICD, art. 161 e regras do Senado"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 1
     },
@@ -13526,7 +13526,7 @@
         "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
         "locator": "CF, arts. 65 e 66"
       },
-      "status": "reviewed",
+      "status": "validated",
       "reviewedAt": "2026-11-19",
       "revision": 2
     }

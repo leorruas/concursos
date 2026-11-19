@@ -35,7 +35,7 @@ async function carregarCamadaEstrategica() {
         const [resConc, resEdital, resCatalogo] = await Promise.all([
             fetch("data/concursos.json"),
             fetch("data/edital-itens.json"),
-            fetch("data/catalogo-materias-por-concurso.json")
+            fetch("data/catalogo-materias-por-concurso.json", { cache: "no-cache" })
         ]);
         if (resConc.ok) dadosConcursosEstrategicos = await resConc.json();
         if (resEdital.ok) dadosEditalEstrategico = await resEdital.json();
@@ -335,6 +335,41 @@ function renderizarPastas() {
         }
     });
 
+    // Índice principal: acesso direto ao blueprint orçamentário do concurso selecionado.
+    // Não depender apenas da lista de artigos dentro da disciplina.
+    const idBlueprintOrcamento = !modoBibliotecaCompleta
+        ? ({ "camara-2026": "art-73b824d09ac16e25", "cgu-2026": "art-b6e9314c28d7f05a" })[concursoSelecionadoId]
+        : null;
+    if (idBlueprintOrcamento) {
+        const blueprint = todosOsArtigos.find(artigo => artigo.articleId === idBlueprintOrcamento);
+        if (blueprint) {
+            const card = document.createElement("a");
+            card.className = "disciplina-card";
+            card.href = rotaDoArtigo(blueprint);
+            card.setAttribute("aria-label", "Abrir blueprint de orçamento público");
+            const numero = document.createElement("span");
+            numero.className = "indice-numero";
+            numero.textContent = "↗";
+            const conteudo = document.createElement("span");
+            conteudo.className = "disciplina-card-conteudo";
+            const nome = document.createElement("strong");
+            nome.textContent = "blueprint de orçamento";
+            const resumo = document.createElement("span");
+            resumo.className = "indice-resumo";
+            resumo.textContent = concursoSelecionadoId === "cgu-2026"
+                ? "CGU: ciclo, execução, fiscalização e auditoria"
+                : "Câmara: proposta, CMO, votação e fiscalização";
+            conteudo.append(nome, resumo);
+            card.append(numero, conteudo);
+            card.addEventListener("click", event => {
+                if (event.metaKey || event.ctrlKey || event.shiftKey || event.button === 1) return;
+                event.preventDefault();
+                abrirArtigo(blueprint, true, "", "Orcamento Publico");
+            });
+            pastasContainer.appendChild(card);
+        }
+    }
+
     // O relatório é uma página de apoio ao estudo, não uma disciplina do edital.
     // Entrada visual no mesmo padrão dos cards de matéria, com rota própria de artigo.
     if (!modoBibliotecaCompleta && concursoSelecionadoId === "camara-2026") {
@@ -422,6 +457,10 @@ function abrirDisciplina(categoria, atualizarRota = true) {
     artigos.forEach((artigo, idx) => {
         const acao = document.createElement("a");
         acao.className = "disciplina-acao";
+        if (artigo.articleId === "art-b6e9314c28d7f05a" || artigo.articleId === "art-73b824d09ac16e25") {
+            acao.classList.add("disciplina-acao-blueprint");
+            acao.setAttribute("data-tipo-artigo", "blueprint");
+        }
         const origem = categoria;
         acao.href = rotaDoArtigo(artigo, "", origem);
         acao.setAttribute("aria-label", artigo.titulo);

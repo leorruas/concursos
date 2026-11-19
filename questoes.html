@@ -207,11 +207,6 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <div class="qs-question-attributes"><p class="qs-meta qs-context" id="qs-context"></p><span class="qs-meta qs-difficulty" id="qs-question-difficulty"></span></div>
 <div class="qs-progress" aria-hidden="true"><div id="qs-progress-bar"></div></div>
 <h2 class="sr-only">Questão</h2><p class="qs-statement" id="qs-statement" tabindex="-1"></p>
-<section class="qs-answer-result" id="qs-after" hidden tabindex="-1" aria-label="Resultado da resposta" aria-live="polite">
-  <div class="qs-feedback" id="qs-feedback" hidden></div>
-  <p class="qs-note" id="qs-pending" hidden>Resposta registrada. O gabarito será mostrado ao concluir o simulado.</p>
-  <button class="qs-button" id="qs-next" type="button">Próxima questão</button>
-</section>
 <form id="qs-answer-form"><fieldset class="qs-answers" style="border:0;padding:0;margin:0"><legend class="sr-only">Julgue o item</legend>
 <label><input type="radio" name="qs-answer" value="C"> Certo</label><label><input type="radio" name="qs-answer" value="E"> Errado</label><label id="qs-blank-wrap" hidden><input type="radio" name="qs-answer" value="blank"> Em branco</label>
 </fieldset>
@@ -223,6 +218,11 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 </div>
 </fieldset>
 <div class="qs-submit-row" id="qs-submit-row"><button class="qs-button" id="qs-submit" type="submit">Registrar resposta</button></div></form>
+<section class="qs-answer-result" id="qs-after" hidden tabindex="-1" aria-label="Resultado da resposta" aria-live="polite">
+  <div class="qs-feedback" id="qs-feedback" hidden></div>
+  <p class="qs-note" id="qs-pending" hidden>Resposta registrada. O gabarito será mostrado ao concluir o simulado.</p>
+  <button class="qs-button" id="qs-next" type="button">Próxima questão</button>
+</section>
 </section>
 <section class="qs-panel" id="qs-summary" hidden aria-labelledby="qs-summary-heading">
 <span class="qs-meta" id="qs-result-context"></span>

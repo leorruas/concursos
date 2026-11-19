@@ -31,7 +31,7 @@ Conexões do vault:
 - [[3 - Materias/Direito Constitucional/04 - nacionalidade|Nacionalidade]];
 - [[3 - Materias/Direito Constitucional/05 - direitos politicos|Direitos políticos]].
 
-Partidos políticos ainda não possuem nota canônica própria; por isso, quando o edital exigir explicitamente o art. 17, essa lacuna deve ser registrada em vez de presumida como coberta por esta nota.
+O **art. 17**, sobre organização e funcionamento dos partidos políticos, é apresentado em [[3 - Materias/Direito Constitucional/05 - direitos politicos|Direitos políticos]]. A leitura desse capítulo complementa o mapa do Título II sem confundir direitos políticos individuais com regras aplicáveis aos partidos.
 
 ## Art. 5º: núcleo dos direitos individuais e coletivos
 

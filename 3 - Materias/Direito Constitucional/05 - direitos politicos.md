@@ -80,7 +80,7 @@ São condições constitucionais de elegibilidade, na forma da lei:
 
 ### Quando a idade é aferida
 
-A Constituição fixa a idade; a **Lei nº 9.504/1997, art. 11, § 2º, com redação da Lei nº 15.230/2025**, disciplina o momento de aferição. A constitucionalidade dessa mudança foi questionada na **ADI 7991**; a existência da ação, por si, não permite presumir suspensão de eficácia da lei. A regra atual distingue:
+A Constituição fixa a idade; a **Lei nº 9.504/1997, art. 11, § 2º, com redação da Lei nº 15.230/2025**, disciplina o momento de aferição. A mudança foi questionada na **Ação Direta de Inconstitucionalidade (ADI) 7.991**, mas o Supremo Tribunal Federal (STF) não examinou o mérito da constitucionalidade da regra nessa ação: a demanda não foi conhecida por falta de comprovação de representação do partido autor no Congresso Nacional, e o Plenário **negou provimento ao agravo regimental em setembro de 2026**. A decisão processual não permite afirmar que o STF validou o conteúdo da lei nem que suspendeu sua eficácia. [Fonte: andamento oficial da ADI 7.991 no STF](https://portal.stf.jus.br/processos/listarProcessos.asp?classe=ADI&numeroProcesso=7991). A regra legal distingue:
 
 - **cargos do Poder Executivo**: idade aferida na data da posse;
 - **candidatos às Câmaras Municipais**: no limite para o pedido de registro;
@@ -264,22 +264,3 @@ A mudança é permitida quando existe **anuência partidária**, isto é, **o pr
 - Lei nº 9.504/1997, art. 11, § 2º.
 - Tribunal Superior Eleitoral, Resolução nº 23.659/2021 e normas consolidadas para as Eleições de 2026.
 
----
-**Fontes Brutas:**
-
-
-
-## Certificação normativa delimitada com ressalva pedagógica: 11/11/2026
-
-**Escopo:** texto cotejado com [Constituição Federal, arts. 14–17](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), [TSE, Resolução nº 23.659/2021](https://www.tse.jus.br/legislacao/compilada/res/2021/resolucao-no-23-659-de-26-de-outubro-de-2021), [Lei nº 15.230/2025](https://sintse.tse.jus.br/documentos/2025/Out/3/diario-oficial-da-uniao-secao-1/lei-no-15-230-de-2-de-outubro-de-2025-altera-a-lei-no-9-504-de-30-de-setembro-de-1997-lei-das) e Lei Complementar nº 64/1990, quanto ao papel de causas legais de inelegibilidade. Conferidos alistamento, voto, elegibilidade, inelegibilidades e perda/suspensão de direitos políticos; complementados pontos omitidos.
-
-**NC-PL-071:** detalhados **art. 14, §§ 8º–11**: elegibilidade do militar conforme tempo de serviço, reserva de LC para novas inelegibilidades e ação de impugnação de mandato em 15 dias da diplomação. **NC-PL-072:** incluído **art. 16**, com distinção entre vigência imediata da lei eleitoral e não aplicação ao pleito que ocorra até um ano de sua vigência. **NC-PL-073:** acrescentado **art. 17**, com sistema partidário, coligações majoritárias versus proporcionais, cláusula de desempenho, fidelidade e destinações constitucionais para mulheres e pessoas pretas/pardas, além de consultas locais dos arts. 14, §§ 12 e 13.
-
-**Ressalva pedagógica:** **zero itens C/E e zero casos progressivos** no artigo original. O texto possui **três exemplos comentados**, mas a certificação do conteúdo **não equivale a treino Cebraspe concluído**. Não se adicionaram exercícios nem gabaritos ao inventário histórico.
-
-**Limites:** cotejo dos fundamentos constitucionais e de normas eleitorais citadas, não validação exaustiva de todas as hipóteses de inelegibilidade da LC 64/1990, atos recentes da Justiça Eleitoral, andamento processual da ADI 7991, desempenho do estudante ou renderização/deploy do site.
-
-
-## Atualização pedagógica: implementação de exercícios
-
-**Estado após os reparos desta rodada (11/11/2026):** a ressalva histórica de **zero exercícios** referia-se à versão anterior à implementação. Foram adicionados **três itens C/E inéditos comentados** e um caso progressivo ao artigo, sem suprimir o texto da certificação normativa anterior. Os itens são autorais e não representam questões oficiais ou respostas do estudante. A conferência é dirigida aos fundamentos constitucionais citados, sem declaração de homologação exaustiva do artigo ou de publicação visual.

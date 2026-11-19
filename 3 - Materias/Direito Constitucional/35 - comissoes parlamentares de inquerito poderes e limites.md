@@ -246,10 +246,10 @@ A banca Cebraspe possui padrões consolidados de formulação em Direito Constit
 
 ### Questão 5
 *(Inédita — Cebraspe / Câmara dos Deputados / Analista Legislativo)*
-> É vedado a comissão parlamentar de inquérito em funcionamento no âmbito do Congresso Nacional determinar a condução coercitiva de Governador de Estado para prestar depoimento sobre a aplicação de receitas tributárias estaduais, em respeito à autonomia político-administrativa dos entes federados.
+> Na ADPF 848, o Supremo Tribunal Federal referendou medida cautelar que suspendeu as convocações obrigatórias de governadores feitas pela CPI da Pandemia, sem impedir que essas autoridades fossem convidadas a comparecer voluntariamente.
 
 - **Gabarito: CERTO**
-- **Comentário:** **CERTO no recorte fático do enunciado:** a CPI federal não pode impor condução coercitiva a Governador para esclarecer a aplicação de **receitas tributárias estaduais**, assunto de gestão própria do ente. Na **ADPF 848**, o STF referendou cautelar que suspendeu convocações de governadores pela CPI da Pandemia, permitindo **convite voluntário**. A decisão foi posteriormente declarada prejudicada, e houve ressalvas quanto à possibilidade de investigar **fatos de interesse federal**, especialmente recursos da União repassados aos estados. Não generalizar o item como proibição de investigar qualquer fato relacionado a governo estadual. Fonte: [STF, ADPF 848, decisão e andamento](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6189091).
+- **Comentário:** **CERTO quanto ao conteúdo da decisão cautelar de 2021:** o Plenário do STF referendou a suspensão das convocações obrigatórias de governadores pela CPI da Pandemia e preservou a possibilidade de **convites para comparecimento voluntário**. O processo foi posteriormente julgado **prejudicado**, de modo que o precedente deve ser apresentado como uma **decisão cautelar naquele caso**, e não como tese definitiva sobre toda investigação parlamentar de fatos estaduais ou uso de recursos federais. Fonte: [STF, notícia oficial do referendo](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=468315&tip=UN) e [andamento da ADPF 848](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6189091).
 
 ---
 

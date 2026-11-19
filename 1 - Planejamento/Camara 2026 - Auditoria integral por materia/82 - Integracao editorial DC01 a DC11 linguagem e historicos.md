@@ -9,16 +9,16 @@ O recorte inclui DC01 a DC10 e o arquivo `11 - organizacao do estado.md`, sem ed
 | Artigo | Intervenção | Estado |
 | --- | --- | --- |
 | DC01 | Leitura dirigida preliminar; sem alteração textual nesta rodada | Sem correção aplicada; revisão linguística e jurídica integral pendentes |
-| DC02 | Leitura dirigida preliminar; sem alteração textual nesta rodada | Sem correção aplicada; revisão linguística e jurídica integral pendentes |
-| DC03 | Leitura dirigida preliminar; sem alteração textual nesta rodada | Sem correção aplicada; revisão linguística e jurídica integral pendentes |
-| DC04 | Leitura dirigida preliminar; sem alteração textual nesta rodada | Sem correção aplicada; revisão linguística e jurídica integral pendentes |
+| DC02 | Corrigida remissão desatualizada sobre art. 17: conteúdo partidário está em DC05 | Ajuste localizado; cotejo integral pendente |
+| DC03 | Esclarecida a natureza do catálogo constitucional e separação visual de itens C/E | Ajuste localizado; cotejo integral pendente |
+| DC04 | Retirado marcador vazio `Fontes Brutas` do final; fontes substantivas preservadas | Limpeza editorial; cotejo integral pendente |
 | DC05 | Transferência dos históricos normativos/pedagógicos finais para esta auditoria | Correção aplicada; verificação jurídica integral e visual pendentes |
 | DC06 | Integração de CAM-PL-018 nas seções sobre controle externo, TCU, art. 72, controle interno e art. 75; mantidos casos e exercícios | Correção aplicada; verificação jurídica integral e visual pendentes |
 | DC07 | Transferência dos históricos normativos/pedagógicos finais para esta auditoria | Correção aplicada; verificação jurídica integral e visual pendentes |
 | DC08 | Transferência dos históricos normativos/pedagógicos finais para esta auditoria | Correção aplicada; verificação jurídica integral e visual pendentes |
 | DC09 | Transferência dos históricos normativos/pedagógicos finais para esta auditoria | Correção aplicada; verificação jurídica integral e visual pendentes |
 | DC10 | Retirada de dois registros de processo editorial do fim da unidade | Correção aplicada; verificação jurídica integral e visual pendentes |
-| DC11 | Leitura dirigida preliminar; sem alteração textual nesta rodada | Sem correção aplicada; revisão linguística e jurídica integral pendentes |
+| DC11 | Corrigida repetição e clarificada distinção entre falta de LC federal e omissão reconhecida pelo STF (ADO 70) | Ajuste conferido em fonte oficial; cotejo integral pendente |
 
 ## Históricos retirados dos artigos
 
@@ -121,3 +121,11 @@ Registro de integração CAM-PL-018: conteúdo das subseções de objeto fiscali
 ## Validação e limites
 
 Integridade estrutural: cabeçalhos Markdown preservados fora dos blocos de histórico, frontmatter e `articleId` inalterados, links originais mantidos e dez itens CAM-PL-018 mantidos. Há risco de vínculos externos para subtítulos retirados, cuja busca global de âncoras e `theoryRefs` requer execução própria. Não houve inspeção visual de GitHub Pages ou EPUB, tampouco cotejo jurídico exaustivo e individual de todos os exercícios e precedentes. Conferir CI do PR antes do merge.
+
+## Rodada adicional: 19/11/2026
+
+Foram corrigidos DC02, DC03, DC04 e DC11. DC01 foi lido sem mudança necessária neste recorte. O apontamento desatualizado em DC02 dizia que o art. 17 não tinha cobertura em nota; a seção de partidos em DC05 já existe. ADO 70 de DC11 foi confrontada com notícia e Informativo 1.192 do STF, sem mudança de conclusão jurídica. O marcador vazio `Fontes Brutas` do DC04 foi retirado. Foram mantidos os títulos e IDs relevantes dos exercícios no DC06 após falha de CI por referência a headings; commit `99786ccd` restabeleceu quatro âncoras.
+
+**Estado do CI observado:** a validação de referências, questões, flashcards e identidades passou na execução do commit `99786ccd`, mas a invariante de indexação de arquivo `38 - blueprints do processo legislativo por especie normativa.md` falhou. O DC38 e `index.md` pertencem a outra frente, portanto nenhum deles foi editado neste PR. O CI de commits posteriores precisa ser inspecionado antes do merge.
+
+**Estado dos 11 artigos:** DC01 lido sem modificação; DC02 a DC11 com ajustes localizados, sendo o núcleo CAM-PL-018 reorganizado no DC06. Nenhum recebeu certificação integral jurídica, dos exercícios ou visual nesta rodada.

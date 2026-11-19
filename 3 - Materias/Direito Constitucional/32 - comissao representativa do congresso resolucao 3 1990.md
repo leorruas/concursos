@@ -172,4 +172,3 @@ Relações: [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i 
 - [Constituição Federal, arts. 57, 58, § 4º, 49 e 166](https://www.tse.jus.br/legislacao/codigo-eleitoral/constituicao-federal/constituicao-da-republica-federativa-do-brasil).
 - [Congresso Nacional: Regimento Comum e Resolução nº 3/1990-CN](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional).
 
-**Nota editorial:** este material corresponde à unidade CAM-PL-028 do inventário. Dez itens C/E são inéditos, baseados em mecanismos reais de confusão conceitual, sem reprodução de provas oficiais. A produção editorial não representa estudo pessoal ou retenção.

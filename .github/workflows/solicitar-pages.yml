@@ -19,4 +19,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: gh workflow run pages.yml --ref main
+        run: |
+          gh workflow run pages.yml --ref main
+          sleep 6
+          gh run list --workflow pages.yml --limit 5 --json databaseId,status,conclusion,headSha,createdAt
+

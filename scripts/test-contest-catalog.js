@@ -65,7 +65,13 @@ for (const id of originaisCamara) {
 // Links históricos explícitos de origem/comparação são permitidos, mas destinos inexistentes não.
 const diretorioOrcamento = path.join(root, '3 - Materias/Orcamento Publico');
 const arquivosCGU = fs.readdirSync(diretorioOrcamento)
-  .filter(nome => nome.startsWith('CGU 2026 - ') && nome.endsWith('.md'));
+  .filter(nome => nome.startsWith('CGU 2026 - ') && nome.endsWith('.md') && !nome.includes(' - blueprint '));
+assert.ok(fs.existsSync(path.join(diretorioOrcamento, 'CGU 2026 - blueprint do ciclo orcamentario e auditoria.md')),
+  'Blueprint CGU deve existir separadamente dos quinze capitulos canonicos');
+assert.ok(orcCGU.articleIds.includes('art-b6e9314c28d7f05a'), 'Blueprint CGU deve estar no catalogo CGU');
+assert.ok(!orcCamara.articleIds.includes('art-b6e9314c28d7f05a'), 'Blueprint CGU nao deve aparecer na Camara');
+assert.ok(orcCamara.articleIds.includes('art-73b824d09ac16e25'), 'Blueprint Camara deve estar no catalogo Camara');
+assert.ok(!orcCGU.articleIds.includes('art-73b824d09ac16e25'), 'Blueprint Camara nao deve aparecer na CGU');
 assert.equal(arquivosCGU.length, 15, 'A trilha CGU deve manter exatamente quinze artigos próprios');
 let linksConferidos = 0;
 for (const nome of arquivosCGU) {

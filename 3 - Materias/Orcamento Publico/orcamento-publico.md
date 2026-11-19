@@ -13,6 +13,13 @@ updated: 2026-11-07
 Matéria de planejamento e execução orçamentária, receita, despesa e responsabilidade fiscal. O percurso abaixo preserva a biblioteca histórica e os links antigos. As ordens didáticas e a certificação dos artigos são definidas nos roteiros específicos de CGU 2026 e Câmara 2026, sem transferência automática de resultados entre concursos.
 
 
+## Blueprints visuais por concurso
+
+- [[3 - Materias/Orcamento Publico/Camara 2026 - blueprint do processo orcamentario|Câmara 2026: blueprint do orçamento federal]]: iniciativa, Comissão Mista de Orçamento, sessão conjunta, aprovação, sanção e fiscalização.
+- [[3 - Materias/Orcamento Publico/CGU 2026 - blueprint do ciclo orcamentario e auditoria|CGU 2026: blueprint do ciclo orçamentário e auditoria]]: planejamento, autorização, programação, execução, evidências, controle e providências.
+
+Os dois blueprints têm conteúdo, `articleId` e vínculo de catálogo independentes. São mapas visuais de estudo e não alteram os artigos certificados.
+
 ## Orçamento Público: trilhas editoriais distintas (17/11/2026)
 
 O contrato de propriedade e migração é [[1 - Planejamento/Orcamento Publico - Arquitetura CGU e Camara|Arquitetura CGU/Câmara]]. A [[1 - Planejamento/Orcamento Publico - Dependencias e migracao dos IDs|auditoria de dependências]] registra a migração concluída dos dez vínculos históricos: somente a referência transversal de Atualidades continua nos dois catálogos por decisão editorial. Os roteiros próprios são [[1 - Planejamento/CGU 2026 - Percurso editorial Orcamento|CGU 2026]] e [[1 - Planejamento/Camara 2026 - Percurso editorial Orcamento|Câmara 2026]]. Essas rotas organizam a leitura **por concurso**; o percurso histórico da biblioteca geral permanece abaixo para compatibilidade. O catálogo v2 continua sendo a fonte de pertencimento. Os 19 artigos históricos permanecem na Câmara, enquanto os 15 artigos próprios da CGU têm IDs e revisão de conteúdo independentes, com ressalva de inspeção visual. Somente a coordenação pode editar `index.md`, hub, catálogo v2 e as instruções globais durante esta migração. Os demais agentes criam/revisam exclusivamente suas notas e seus estados, sem modificar arquivos de outra frente. Não editar `data/questoes-camara.json` nesta operação. O futuro EPUB integrado usa manifesto derivado e nunca altera originais.

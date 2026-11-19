@@ -48,6 +48,7 @@ function wrapLines(str,max=32){
 }
 function montar(table){
  const data=[...table.querySelectorAll("tr")].map(r=>[...r.children].map(c=>c.textContent.trim()));
+ const fasesLocais=data[0]?.slice(1,7).map((name,i)=>String(name).replace(/^\d+[. ]+/, "")||fases[i])||fases;
  if(data.length<10||!data[0]?.[0]||!/camadas\s*\/\s*fases/i.test(data[0][0]))return false;
  const normalized=data.slice(0,10).map(r=>[...r,...Array(Math.max(0,7-r.length)).fill("")].slice(0,7));
  data.splice(0,data.length,...normalized);
@@ -55,7 +56,7 @@ function montar(table){
  card.setAttribute("aria-label","Mapa do processo legislativo por fases e atores");
  nav.setAttribute("aria-label","Selecionar fase");
  let current=0,all=true;
- const buttons=fases.map((name,i)=>{const b=element("button","",String(i+1).padStart(2,"0")+" "+name);b.type="button";nav.append(b);b.addEventListener("click",()=>{current=i;all=false;draw()});return b});
+ const buttons=fasesLocais.map((name,i)=>{const b=element("button","",String(i+1).padStart(2,"0")+" "+name);b.type="button";nav.append(b);b.addEventListener("click",()=>{current=i;all=false;draw()});return b});
  const prev=element("button","","← anterior"),next=element("button","","próxima →"),toggle=element("button","","visão completa");
  [prev,next,toggle].forEach(b=>b.type="button");bar.append(prev,next,toggle);
  const status=element("p","sb-foot");status.setAttribute("aria-live","polite");
@@ -63,8 +64,8 @@ function montar(table){
  function draw(){
    const phaseIds=all?[0,1,2,3,4,5]:[current],pw=all?285:550,labelWidth=all?155:182,cellWidth=all?245:490;
    const rowYs=[72,174,276,378,480,582],height=735,width=labelWidth+phaseIds.length*pw+24;
-   const svg=svgNode("svg",{viewBox:"0 0 "+width+" "+height,width:width,height:height,role:"img","aria-label":all?"Blueprint completo de seis fases":"Blueprint da fase "+fases[current],class:"sb-map"});
-   svg.append(svgNode("title",{},all?"Mapa das seis fases":"Mapa da fase "+fases[current]));
+   const svg=svgNode("svg",{viewBox:"0 0 "+width+" "+height,width:width,height:height,role:"img","aria-label":all?"Blueprint completo de seis fases":"Blueprint da fase "+fasesLocais[current],class:"sb-map"});
+   svg.append(svgNode("title",{},all?"Mapa das seis fases":"Mapa da fase "+fasesLocais[current]));
    svg.append(svgNode("rect",{x:0,y:0,width,height,fill:"var(--bg)"}));
    const layers=[{source:1,label:"Evidências",y:84},{source:2,label:"Proponente",y:184},{source:4,label:"Atores públicos",y:288},{source:6,label:"Bastidores",y:390},{source:8,label:"Suporte",y:490},{source:9,label:"Prazos e marcos",y:592}];
    const lines=[{y:271,label:"Linha de interação"},{y:374,label:"Linha de visibilidade"},{y:475,label:"Linha interna"}];
@@ -79,7 +80,7 @@ function montar(table){
    phaseIds.forEach((phase,pi)=>{
      const x=labelWidth+pi*pw;
      svg.append(svgNode("rect",{x,y:8,width:pw-8,height:44,rx:7,class:"phase-bg"}));
-     svg.append(svgNode("text",{x:x+12,y:34,class:"phase-label"},String(phase+1).padStart(2,"0")+" · "+fases[phase]));
+     svg.append(svgNode("text",{x:x+12,y:34,class:"phase-label"},String(phase+1).padStart(2,"0")+" · "+fasesLocais[phase]));
      svg.append(svgNode("line",{x1:x-10,y1:0,x2:x-10,y2:height,class:"phase-line"}));
      layers.forEach((layer,li)=>{
        const val=data[layer.source][phase+1],empty=/^(não se aplica|·{3}|-{1,2})$/i.test(val);
@@ -113,7 +114,7 @@ window.renderizarBlueprintsServicos=function(article){
  if(!body)return;
  const title=String(document.getElementById("artigo-titulo")?.textContent||"");
  const path=decodeURIComponent(String(article?.path||""));
- if(!/blueprints do processo legislativo/i.test(path+" "+title))return;
+ if(!/(blueprints do processo legislativo|blueprint do (processo|ciclo) orcamentario|blueprint do orcamento federal)/i.test(path.normalize("NFD").replace(/[\u0300-\u036f]/g,"")+" "+title.normalize("NFD").replace(/[\u0300-\u036f]/g,"")))return;
  if(!document.getElementById("sb-style")){const css=element("style");css.id="sb-style";css.textContent=st;document.head.append(css)}
  let n=0;body.querySelectorAll("table").forEach(t=>{if(montar(t))n++});
  if(n)reader?.classList.add("blueprint-view");

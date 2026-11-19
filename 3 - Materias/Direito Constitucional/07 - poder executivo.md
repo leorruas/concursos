@@ -154,4 +154,3 @@ O art. 2º estabelece Poderes **independentes e harmônicos entre si**. Independ
 
 - Constituição Federal, arts. 2º, 76 e 84.
 - Estrutura institucional vigente da Polícia Federal no Ministério da Justiça e Segurança Pública.
-- registro de ingestão arquivado.

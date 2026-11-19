@@ -112,15 +112,19 @@
   if(!node)return;
   const section=document.createElement('section');
   section.className='results-section';
-  const title=document.createElement('h2');title.textContent=titleText;
-  section.append(title,node);
+  if(titleText){
+   const title=document.createElement('h2');title.textContent=titleText;
+   section.append(title);
+  }
+  section.append(node);
   panels.get(view).append(section);
  }
  moveDetail('results-detailed-stats','materias','Outros indicadores');
- moveDetail('results-study-modes','materias','Modalidades de estudo');
- moveDetail('results-competitive-simulations','materias','Simulados');
+ moveDetail('results-study-modes','materias',null);
+ moveDetail('results-competitive-simulations','materias',null);
  moveDetail('results-quiz-stats','historico','Origem dos registros');
- moveDetail('results-quiz-status','historico','Conciliação das fontes');
+ const sourceStatus=document.getElementById('results-quiz-status');
+ if(sourceStatus)document.getElementById('results-quiz-stats')?.parentElement?.append(sourceStatus);
  moveDetail('results-articles','historico','Questões e explicações por artigo');
  // Fila antiga segue no DOM para compatibilidade, mas nao duplica o motor adaptativo.
  const legacyShell=root.querySelector('.results-history-content');

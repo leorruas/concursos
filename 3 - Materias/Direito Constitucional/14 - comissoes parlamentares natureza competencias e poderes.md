@@ -81,7 +81,7 @@ Pelo **art. 58, § 3º, da Constituição** e pelo **art. 35 do RICD**, a Câmar
 
 **Destino das conclusões (art. 37):** o relatório circunstanciado é **publicado** e pode dar origem a encaminhamentos distintos: à **Mesa**, inclusive com proposições ou indicação; ao **Ministério Público ou à AGU**; ao **Executivo** para providências administrativas; à comissão permanente relacionada; à **Comissão Mista de Orçamento e ao TCU**. Nos casos dos incisos **II, III e V**, a remessa cabe ao **Presidente da Câmara em cinco sessões** (parágrafo único). O relatório da CPI pode desencadear responsabilização por órgãos competentes, mas não equivale a condenação.
 
-**CAM-PL-031** retomará os instrumentos probatórios e a reserva de jurisdição. Aqui interessa sobretudo **distinguir a CPI das comissões especiais e externas**.
+Os instrumentos probatórios e a reserva de jurisdição exigem estudo próprio; aqui a distinção principal é **entre CPI, comissão especial e comissão externa**.
 
 ### Comissão externa: missão temporária autorizada
 

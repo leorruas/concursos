@@ -23,7 +23,7 @@ A **Constituição Federal, art. 58**, estabelece que o Congresso Nacional e sua
 
 O **art. 33** subdivide as temporárias em **especiais, de inquérito e externas**. Essa taxonomia é o núcleo de **comissões parlamentares**. A banca pode descrever corretamente o poder de investigar e atribuí-lo a uma comissão especial, ou associar uma missão externa à aprovação de uma PEC: a função é verdadeira, mas a categoria está errada.
 
-A [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] explica a **sequência de tramitação**. Aqui o objeto muda: **que tipo de comissão é competente para cada tarefa**, como se constitui e quais são seus poderes e limites. A estrutura do parecer e sua votação ficam para **CAM-PL-005**; os poderes investigatórios e limites judiciais das CPIs serão detalhados em **CAM-PL-031**.
+A [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] explica a **sequência de tramitação**. Aqui o objeto muda: **que tipo de comissão é competente para cada tarefa**, como se constitui e quais são seus poderes e limites. A estrutura e a votação dos pareceres estão em [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo]]. Os poderes especiais de investigação de CPI exigem examinar também os direitos fundamentais e as reservas de jurisdição.
 
 ### A mesma comissão pode instruir, fiscalizar e deliberar, mas os efeitos mudam
 

@@ -69,7 +69,9 @@ Da sindicância instaurada pela autoridade competente poderá resultar exclusiva
 
 ## 2. Processo Administrativo Disciplinar ordinário: estrutura e tríplice fase
 
-O PAD ordinário é a via geral de apuração disciplinar, especialmente quando a infração pode levar às penalidades graves do art. 146 e não se enquadra nas hipóteses especiais de rito sumário. O art. 151 divide seu percurso em três fases:
+O **processo administrativo disciplinar (PAD) ordinário** é o procedimento geral para investigar uma possível infração funcional e decidir, após a defesa, se cabe penalidade. É especialmente relevante quando a falta pode levar às sanções graves mencionadas no art. 146 da Lei nº 8.112/1990 e quando o caso não pertence às hipóteses específicas do rito sumário.
+
+O **art. 151** prevê três fases. Na **instauração**, a autoridade abre o processo e designa a comissão. No **inquérito**, a comissão reúne provas, permite a defesa e prepara o relatório. No **julgamento**, a autoridade competente decide com base nas regras aplicáveis. O esquema abaixo apresenta essa sequência:
 
 ```mermaid
 flowchart LR

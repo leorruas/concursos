@@ -410,15 +410,22 @@ const concursosQuestoes = concursosRegistrados.map(c => ({id:c.id,nome:c.nome,ba
 const materiasQuestoes = Object.fromEntries(Object.entries(arquivoQuestoes.subjects).map(([id,d]) => [id, d.units?.[0]?.[1] || id]));
 const nomesUnidades = Object.fromEntries(Object.values(arquivoQuestoes.subjects).flatMap(d => (d.units||[]).map(u => [u[0], u[1]])));
 const officialProgram = JSON.parse(fs.readFileSync(path.join(rootDir,'data/programa-oficial-camara-2026.json'), 'utf8'));
-const officialLinks = JSON.parse(fs.readFileSync(path.join(rootDir,'data/vinculos-edital-divulgacao.json'), 'utf8'));
-const officialBlock = officialProgram.blocks.find(block => block.section === officialLinks.section && block.title === officialLinks.block);
-const officialCodes = new Set(officialBlock?.codes.split(' '));
-const officialPrefix = officialLinks.section + ' / ' + officialLinks.block + ' / ';
-const referencesInUnit = new Set(arquivoQuestoes.expansao.filter(q => q.unitId === officialLinks.unitId &&
-  q.reviewStatus === 'validada').map(q => q.editalRef));
-for (const [ref, code] of Object.entries(officialLinks.references)) {
-  if (!officialCodes.has(code) || !referencesInUnit.has(officialPrefix + ref)) {
-    throw Error('Vínculo inválido com o programa oficial: ' + ref + ' → ' + code);
+const officialLinks = JSON.parse(fs.readFileSync(path.join(rootDir,'data/vinculos-edital-camara-2026.json'), 'utf8'));
+const officialCodeByReference = new Map();
+const referenceKey = (unitId, ref) => JSON.stringify([unitId, ref]);
+const reviewedReferences = new Set(arquivoQuestoes.expansao.filter(q => q.reviewStatus === 'validada')
+  .map(q => referenceKey(q.unitId, q.editalRef)));
+for (const links of officialLinks) {
+  const block = officialProgram.blocks.find(block => block.section === links.section && block.title === links.block);
+  if (!block) throw Error('Bloco oficial inexistente: ' + links.block);
+  const codes = new Set(block.codes.split(' '));
+  const prefix = block.section + ' / ' + (block.referenceTitle || block.title) + ' / ';
+  for (const [ref, code] of Object.entries(links.references)) {
+    const key = referenceKey(links.unitId, prefix + ref);
+    if (!codes.has(code) || !reviewedReferences.has(key) || officialCodeByReference.has(key)) {
+      throw Error('Vínculo inválido ou duplicado com o programa oficial: ' + ref + ' → ' + code);
+    }
+    officialCodeByReference.set(key, code);
   }
 }
 const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
@@ -427,9 +434,7 @@ const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
   typeof q.explanation === 'string' && ['C','E'].includes(q.correctAnswer) && q.format === 'CE'
 ).map(q => ({id:q.id,concursoId:q.concursoId,subjectId:q.subjectId,subjectName:materiasQuestoes[q.subjectId] || q.subjectId,
   unitId:q.unitId,unitName:nomesUnidades[q.unitId] || q.unitId,examPart:q.examPart,editalRef:q.editalRef||null,
-  ...(q.unitId === officialLinks.unitId && q.editalRef?.startsWith(officialPrefix) &&
-    Object.hasOwn(officialLinks.references, q.editalRef.slice(officialPrefix.length)) ?
-    {officialEditalCode:officialLinks.references[q.editalRef.slice(officialPrefix.length)]} : {}),
+  officialEditalCode:officialCodeByReference.get(referenceKey(q.unitId,q.editalRef))??null,
   articleId:q.articleId || null,section:q.source?.section || null,conceptId:q.conceptId||null,mechanism:q.mechanism||null,
   format:q.format,origin:q.origin,estimatedDifficulty:q.estimatedDifficulty||null,statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
 if(new Set(questoesPublicas.map(q=>q.id)).size !== questoesPublicas.length)throw Error('IDs duplicados no catálogo público de questões.');

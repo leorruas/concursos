@@ -200,4 +200,3 @@ A posição constitucional dessas instituições se relaciona ao artigo [[3 - Ma
 ## Fontes
 
 - [Constituição Federal, texto atualizado da Câmara dos Deputados, arts. 127 a 135](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), especialmente arts. 127, 128, 129, 130-A, 131, 132, 133 e 134.
-- Registro histórico de ingestão arquivado.

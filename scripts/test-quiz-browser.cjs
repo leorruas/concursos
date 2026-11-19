@@ -74,7 +74,11 @@ fs.mkdirSync(evidence,{recursive:true});
       priority:'high',quantity:0,questionIds:[],articles:[],nextReview:'2026-11-15'
      })),{concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'teste',title:'Regra em revisão',
       rationale:['Reteste vencido.'],action:'test-retention',priority:'high',quantity:1,questionIds:[proposed.id],
-      articles:[],nextReview:'2026-11-15'}],
+      articles:[],nextReview:'2026-11-15'},
+      {concursoId:'camara-2026',subjectId:meta.subjectId,principleId:'primeira-exposicao',title:'Conteúdo inicial',
+       rationale:['Unidade declarada como ainda não estudada.'],action:'study',priority:'low',
+       state:'confirmed-not-studied',quantity:0,questionIds:[],articles:['article:'+meta.articleId],
+       nextReview:null,selection:'Ler o recorte e praticar.'}],
      principles:[{state:'review-pending',title:'Regra em revisão',subjectId:proposed.subjectId,principleId:'teste',
       attempts:1,cycleAttemptId:'test-event',recentEvents:[{id:'test-event',date:'2026-11-11',
        result:'incorrect',confidence:'secure',origin:'ledger',daysSincePrevious:null,
@@ -94,10 +98,23 @@ fs.mkdirSync(evidence,{recursive:true});
    };
    await page.route('**/v1/study/unified?*',route=>route.fulfill({status:200,
      contentType:'application/json',body:JSON.stringify(fake)}));
+   await page.clock.install({time:new Date('2026-11-19T02:59:30Z')});
    await page.goto('http://127.0.0.1:8765/resultados.html?concurso=camara-2026',{waitUntil:'networkidle'});
    await page.locator('#results-content').waitFor({state:'visible',timeout:15000});
+   const summary=page.locator('#results-unified-method');
+   assert.match(await summary.innerText(), /3 tentativas válidas/);
+   fake.summary.valid=4;
+   await page.evaluate(()=>dispatchEvent(new StorageEvent('storage',{key:'concursos-quiz-sincronizado'})));
+   await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('4 tentativas válidas'));
+   fake.summary.valid=5;
+   await page.evaluate(()=>dispatchEvent(new PageTransitionEvent('pageshow',{persisted:true})));
+   await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('5 tentativas válidas'));
+
    assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('ChatGPT'),'origem de estudo precisa aparecer');
    assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('site'),'origem do site precisa aparecer');
+   fake.summary.valid=6;
+   await page.clock.fastForward(60000);
+   await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('6 tentativas válidas'));
    const history=page.getByText('Histórico e diagnóstico detalhado',{exact:true});
    await history.focus();
    await page.keyboard.press('Enter');
@@ -124,7 +141,8 @@ fs.mkdirSync(evidence,{recursive:true});
    await discursive.focus();
    await page.keyboard.press('Enter');
    assert.ok(await page.locator('#results-discursive details details summary').first().isVisible());
-   assert.equal(await page.locator('#results-adaptive-actions li').count(),5);
+   assert.equal(await page.locator('#results-adaptive-actions li').count(),6);
+   assert.ok(await page.getByRole('heading',{name:'Estudar · Conteúdo inicial'}).isVisible());
    assert.ok(await page.getByText('Bateria disponível',{exact:true}).isVisible());
    const launch=page.getByRole('link',{name:'Preparar bateria de 1 questão(ões)'});
    await launch.focus();

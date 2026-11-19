@@ -252,14 +252,3 @@ Apresentar primeiro a separação entre **categoria doutrinária** e **regime re
 - [Congresso Nacional, Glossário: Sessão conjunta](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-legislativo/-/legislativo/termo/sessao_conjunta).
 
 **Delimitação:** a taxonomia é doutrinária e não substitui o texto constitucional e regimental para cada instituto. O artigo não repete todas as hipóteses e vedações de PEC, MP, lei delegada e orçamento, cujas notas canônicas e unidades específicas permanecem referenciadas. Os dez itens Cebraspe são inéditos, não provas oficiais, e não registram desempenho pessoal.
-
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Fontes e escopo:** conferido o texto da nota, tabelas, **sete casos progressivos**, **dois exemplos comentados** e **dez questões C/E** frente aos [arts. 151–157 e 201–203 do RICD atualizado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e aos [arts. 57, 60, 62, 64, 66, 68 e 166 da Constituição](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988). A classificação sumaríssimo/especial/concentrado é **doutrinária**, separada das espécies regimentais de urgência e dos procedimentos próprios.
-
-**NC-PL-036:** complementado o art. 157, §§ 3º-A, 5º e 6º, sobre adiamento de votação, diligência e intervalo **de dez minutos após disponibilização do parecer** às emendas de Plenário quando oferecido durante a sessão por relator designado. **NC-PL-037:** acrescentado o **interstício de duas sessões entre a publicação do parecer da comissão especial sobre PEC e a inclusão na Ordem do Dia** (RICD art. 202, § 5º), distinto das cinco sessões entre turnos (§ 6º). Preservados os requisitos de art. 155 para requerimento e aprovação, a exigência de parecer e quórum no art. 152, a votação separada das MPs e as maiorias separadas de deputados e senadores para derrubar veto.
-
-**Dez gabaritos examinados e mantidos:** **C, E, E, C, C, E, C, E, C, E**. Não foi identificada inversão nos dez exercícios ou contradição jurídica nos casos e exemplos deste recorte. As novas regras ampliam precisão e cobertura didática, sem exigir troca de gabarito.
-
-**Limites:** certificação do conteúdo deste artigo nesta data; não representa exame de todos os procedimentos especiais, homologação da classificação doutrinária como texto regimental, desempenho do estudante, nem verificação da publicação e renderização no GitHub Pages. Os dez itens já pertencem ao inventário histórico.

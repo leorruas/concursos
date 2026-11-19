@@ -13321,8 +13321,8 @@
       "example": "Exemplo: uma CPMI com 15 deputados e 15 senadores tem 30 integrantes, embora exija 171 assinaturas de deputados e 27 de senadores para ser criada. São 198 apoiadores mínimos da criação, 30 integrantes para investigar e um quórum regimental próprio para deliberar.",
       "confusion": "O requisito de 1/3 corresponde às assinaturas para criar, não ao número de integrantes ou quórum para deliberar.",
       "contrast": {
-        "prompt": "Uma CPMI requer 171 assinaturas de deputados e 27 de senadores. Isso obriga a comissão a ter 198 integrantes?",
-        "answer": "Não. Essas são as assinaturas mínimas para criação. O ato de criação fixa a composição, com igual número de deputados e senadores; o quórum de deliberação é uma terceira regra."
+        "prompt": "Uma CPMI com 15 deputados e 15 senadores precisa de quantas assinaturas para ser criada?",
+        "answer": "Pelo menos 171 assinaturas de deputados e 27 de senadores. São 198 apoiadores mínimos da criação, enquanto os 30 integrantes compõem o colegiado. O quórum de deliberação é um terceiro requisito."
       },
       "conceptIds": [
         "glo-camara-cpi-versus-cpmi"

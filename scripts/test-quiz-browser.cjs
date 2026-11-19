@@ -84,6 +84,20 @@ fs.mkdirSync(evidence,{recursive:true});
    const submit=await page.locator('#qs-submit').boundingBox();
    assert.ok(stop&&submit&&submit.y-stop.y>120,'encerrar separado da ação principal de responder');
    assert.equal(await page.locator('#qs-finish').isVisible(),true);
+   const metadataAlignment=await page.evaluate(()=>{
+    const legend=document.querySelector('#qs-answer-metadata legend').getBoundingClientRect();
+    const insecure=document.querySelector('.qs-uncertain').getBoundingClientRect();
+    const consulted=document.querySelector('.qs-context-toggle').getBoundingClientRect();
+    const area=document.querySelector('#qs-answer-metadata').getBoundingClientRect();
+    return {legend:{bottom:legend.bottom},insecure:{x:insecure.x,right:insecure.right,y:insecure.y},consulted:{x:consulted.x},area:{x:area.x,right:area.right}};
+   });
+   assert.ok(Math.abs(metadataAlignment.insecure.x-metadataAlignment.consulted.x)<10,
+    'campo Não estou seguro alinhado com os demais controles');
+   assert.ok(metadataAlignment.insecure.x>=metadataAlignment.area.x-2 &&
+    metadataAlignment.insecure.right<=metadataAlignment.area.right+2,
+    'campo de confiança permanece dentro da área de contexto');
+   assert.ok(metadataAlignment.insecure.y>=metadataAlignment.legend.bottom-2,
+    'campo de confiança fica abaixo do título Sobre sua resposta');
 
    for(let i=0;i<2;i++){
     const statement=(await page.locator('#qs-statement').innerText()).trim();

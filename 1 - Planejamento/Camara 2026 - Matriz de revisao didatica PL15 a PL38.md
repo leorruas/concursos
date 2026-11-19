@@ -129,3 +129,10 @@ Na matriz de **projeto de lei ordinária**, o autógrafo constava na preparaçã
 | PL27, Serviços administrativos, art. 264 | Fluxo de reclamação e prazo de 72 horas | Atores e etapas | Caso de reclamação de serviço recebida pela Mesa, com possibilidade de encaminhamento posterior ao Plenário | RICD art. 264 |
 
 O conteúdo das questões, gabaritos, frontmatter e headings foi preservado nessas três intervenções. A fonte oficial do RICD foi novamente localizada em 19/11/2026; essa verificação dirigida não se estende a todas as hipóteses dos artigos. O documento registra as edições, sem considerar concluída a auditoria jurídica de PL15 a PL38.
+
+## Oitava rodada: CPI versus sessão conjunta e histórico de auditoria (19/11/2026)
+
+- **PL34, entre infrações e penalidades.** Encontrado parecer de auditoria de 11/11/2026, que informava aprovação para estudo com ressalvas de renderização e verificação normativa. O parecer foi retirado do fluxo didático e guardado **integralmente** em `Camara 2026 - Estado editorial Regimentos PL31 a PL38.md`. Fonte do parecer: registros editoriais pré-existentes, sem nova declaração de certificação.
+- **PL35, Núcleo do conceito.** A expressão `em sessão conjunta como CPMI` poderia sugerir que a comissão mista funciona como reunião dos Plenários. A redação passou a diferenciar criação de CPI **separada** por cada Casa e criação **em conjunto** de Comissão Parlamentar Mista de Inquérito, formada por deputados e senadores. Explicitado que comissão mista de investigação **não é sessão conjunta dos Plenários**. Fonte cotejada: Constituição Federal, art. 58, § 3º, texto consolidado da Câmara consultado em 19/11/2026.
+
+**Limites:** confirmação pontual da distinção constitucional e migração fiel do registro histórico. As questões existentes e as demais afirmações do PL34/35 não foram revalidadas integralmente nesta rodada.

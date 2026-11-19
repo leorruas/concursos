@@ -40,20 +40,29 @@ function renderQuestion(q,article){
 }
 function makeArticle(article){
  const meta=manifest.get(article.articleId),name=meta?.tituloExibicao||meta?.titulo||article.articleId;
- const outer=el('details','results-card');
- if(new URLSearchParams(location.search).get('artigo')===article.articleId)outer.open=true;
- const top=el('summary');
- const row=el('span','results-card-top');
- const a=el('span','',name);
- const score=priorityLabel(article.priority);
- row.append(a,score);top.append(row);outer.append(top);
- const explain=el('p','results-meta',article.reason+' · '+article.concepts.length+' conceito(s) relacionado(s)'+(article.dueOn?' · Revisão sugerida: '+fmtDate(article.dueOn):''));
- outer.append(explain);
- const link=el('a','results-link','Ler este artigo e consultar os erros nele');
- link.href=articleLink(article);link.rel='noreferrer';outer.append(link);
- if(article.mistakes.length){outer.append(el('p','results-meta','Questões respondidas incorretamente'));for(const q of article.mistakes)outer.append(renderQuestion(q,article));}
- if(article.uncertainCorrect.length){outer.append(el('p','results-meta','Acertos com insegurança declarada'));for(const q of article.uncertainCorrect)outer.append(renderQuestion(q,article));}
- return outer;
+ const row=el('article','results-history-article');
+ const head=el('div','results-history-article-top');
+ const copy=el('div','results-history-article-copy');
+ copy.append(el('strong','',name),
+  el('small','',article.reason||'Registro de erro ou insegurança'));
+ head.append(copy,priorityLabel(article.priority));
+ const details=el('div','results-history-article-actions');
+ const link=el('a','results-link','Ler artigo');
+ link.href=articleLink(article);link.rel='noreferrer';details.append(link);
+ const mistakes=article.mistakes||[],uncertain=article.uncertainCorrect||[];
+ const count=mistakes.length+uncertain.length;
+ const note=el('span','results-history-article-count',
+  mistakes.length+' '+(mistakes.length===1?'erro':'erros')+' · '+uncertain.length+' acertos inseguros');
+ row.append(head,note,details);
+ if(count){
+  const disclosure=el('details','results-history-article-evidence');
+  if(new URLSearchParams(location.search).get('artigo')===article.articleId)disclosure.open=true;
+  disclosure.append(el('summary','','Ver '+count+' '+(count===1?'resposta registrada':'respostas registradas')));
+  if(mistakes.length)for(const q of mistakes)disclosure.append(renderQuestion(q,article));
+  if(uncertain.length)for(const q of uncertain)disclosure.append(renderQuestion(q,article));
+  row.append(disclosure);
+ }
+ return row;
 }
 function conceptLinks(container,concept){
  const articleIds=[...new Set(Array.isArray(concept.articles)?concept.articles:[])].filter(id=>manifest.has(id));
@@ -380,16 +389,24 @@ function renderAdaptive(plan) {
   const action=adaptiveActions[item.action]||'Revisar';
   const label=/^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(item.title)?item.title.replaceAll('-',' '):item.title;
   if(item===extra)copy.append(el('span','results-study-action-available','Bateria disponível'));
-  copy.append(el('h3','',action+' · '+label),
-   el('p','results-meta',title(item.subjectId)+' · Prioridade '+
-    ({high:'alta',medium:'média',low:'baixa'}[item.priority]||'sem classificação')),
-   el('p','results-caption',item.rationale.join(' ')));
+  const meta=el('div','results-study-action-meta');
+  meta.append(el('span','results-study-action-subject',title(item.subjectId)),
+   el('span','results-study-action-priority','Prioridade '+
+    ({high:'alta',medium:'média',low:'baixa'}[item.priority]||'não classificada')));
+  copy.append(el('h3','',action+' · '+label),meta);
+  const reasons=(Array.isArray(item.rationale)?item.rationale:[])
+   .flatMap(text=>String(text).split(/(?<=\.)\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])/u))
+   .map(text=>text.trim()).filter(Boolean)
+   .filter(text=>!item.nextReview||!/^Reteste independente previsto para \d{4}-\d{2}-\d{2}\.$/.test(text))
+   .filter(text=>text!=='Vínculo com o edital registrado.');
+  const reason=reasons.join(' ').replace(/\b(\d{4})-(\d{2})-(\d{2})\b/g,(_,y,m,d)=>d+'/'+m+'/'+y);
+  if(reason)copy.append(el('p','results-study-action-reason',reason));
   if(item.questionIds.length){
    const params=new URLSearchParams({concurso:item.concursoId,questoes:item.questionIds.join(',')});
    const link=el('a','results-study-action-primary','Preparar bateria de '+item.quantity+' questão(ões)');
    link.href='questoes.html#'+params.toString();
    controls.append(link);
-  }else copy.append(el('p','results-caption','Ainda sem questões novas compatíveis no banco.'));
+  }else controls.append(el('span','results-study-action-unavailable','Sem questões novas disponíveis'));
   const ref=item.articles.map(value=>/^article:(art-[a-z0-9]+)(?:#(.*))?$/i.exec(value))
    .find(match=>match&&manifest.has(match[1]));
   if(ref){
@@ -398,7 +415,7 @@ function renderAdaptive(plan) {
    controls.append(link);
   }
   if(item.state==='confirmed-not-studied')copy.append(el('p','results-meta',item.selection));
-  if(item.nextReview)copy.append(el('p','results-meta','Reteste previsto para '+fmtDate(item.nextReview)));
+  if(item.nextReview)meta.append(el('span','results-study-action-date','Reteste: '+fmtDate(item.nextReview)));
   row.append(copy,controls);
   if (activities.includes(item)) {
    list.append(row);
@@ -455,59 +472,88 @@ const studyModeLabels = {
  real:'Questões de prova', adaptada:'Questões adaptadas',
  simulado:'Bateria com correção ao final', unknown:'Modalidade sem registro'
 };
-function renderPrincipleHistory(plan) {
- const target = $('results-principle-history');
- const principles = (plan?.principles || []).filter(p => p.recentEvents?.length &&
-  (!selectedSubject || p.subjectId === selectedSubject));
- target.hidden = !principles.length;
- const previous = target.querySelector('select')?.value;
+function renderPrincipleHistory(plan){
+ const target=$('results-principle-history');
+ const principles=(plan?.principles||[]).filter(p=>p.recentEvents?.length&&
+  (!selectedSubject||p.subjectId===selectedSubject));
+ target.hidden=!principles.length;
+ const previous=target.querySelector('select')?.value;
  target.replaceChildren();
- if (!principles.length) return;
- const select = el('select');
- select.id = 'results-principle-select';
- for (const p of principles) {
-  const option = el('option', '', title(p.subjectId) + ' · ' + p.title.replace(/^([a-z0-9]+(?:-[a-z0-9]+)+)$/, text => text.replaceAll('-', ' ')));
-  option.value = p.subjectId + ':' + p.principleId;
-  select.append(option);
+ if(!principles.length)return;
+ const heading=el('div','results-history-section-header');
+ heading.append(el('h2','','Tentativas por conceito'),
+  el('p','results-caption','Escolha um conceito para ver a sequência de respostas e o contexto disponível.'));
+ const selector=el('div','results-history-selector');
+ const select=el('select');
+ select.id='results-principle-select';
+ for(const p of principles){
+  const readable=/^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(p.title)?p.title.replaceAll('-',' '):p.title;
+  const option=el('option','',title(p.subjectId)+' · '+readable);
+  option.value=p.subjectId+':'+p.principleId;select.append(option);
  }
- if ([...select.options].some(option => option.value === previous)) select.value = previous;
- const label = el('label', '', 'Conceito');
- label.htmlFor = select.id;
- const report = el('div');
- const renderEvidence = () => {
-  const principle = principles[select.selectedIndex];
-  const signals = new Map(principle.signals.map(signal => [signal.id, signal.kind]));
-  const list = el('ol');
-  const results = {correct:'Acerto', incorrect:'Erro', blank:'Em branco'};
-  const confidence = {secure:'Seguro', insecure:'Inseguro', guess:'Palpite'};
-  for (const event of [...principle.recentEvents].reverse()) {
-   const row = el('li');
-   const details = [fmtDate(event.date), results[event.result], confidence[event.confidence] || 'Segurança sem registro',
-    event.origin === 'site' ? 'Site' : 'Histórico privado'];
-   if (event.id === principle.cycleAttemptId) details.push('Início do ciclo atual');
-   const signal = signals.get(event.id);
-   if (signal === 'independent') details.push('Reteste independente');
-   if (signal === 'consultation-unknown') details.push('Reteste com contexto incompleto');
-   if (signal === 'same-day-correction') details.push('Correção no mesmo dia');
-   if (signal === 'same-day-success') details.push('Acerto no mesmo dia');
-   row.append(el('p', '', details.join(' · ')));
-   const context = [];
-   if (event.daysSincePrevious !== null) context.push('Dias desde a tentativa anterior: ' + event.daysSincePrevious);
-   if (event.responseMs != null) context.push('Tempo de resposta: ' + (event.responseMs / 1000).toLocaleString('pt-BR', {maximumFractionDigits:1}) + ' s');
-   if (event.correctAnswer != null) context.push('Resposta: ' + (event.answer ?? 'em branco') + ' · Gabarito: ' + event.correctAnswer);
-   if (event.mode && Object.hasOwn(studyModeLabels, event.mode)) context.push(studyModeLabels[event.mode]);
-   if (typeof event.consulted === 'boolean') context.push(event.consulted ? 'Com consulta' : 'Sem consulta declarada');
-   if (typeof event.feedbackBefore === 'boolean') context.push(event.feedbackBefore ? 'Correção já vista' : 'Sem correção prévia declarada');
-   if (event.editalRef) context.push(event.editalRef);
-   if (context.length) row.append(el('p', 'results-caption', context.join(' · ')));
-   list.append(row);
+ if([...select.options].some(option=>option.value===previous))select.value=previous;
+ const label=el('label','','Conceito');label.htmlFor=select.id;
+ selector.append(label,select);
+ const report=el('div','results-history-events');
+ function renderEvidence(){
+  const p=principles[select.selectedIndex];
+  if(!p)return;
+  const signalMap=new Map((p.signals||[]).map(s=>[s.id,s.kind]));
+  const events=[...p.recentEvents].reverse();
+  let limit=5;
+  const intro=el('p','results-history-count','Mostrando '+Math.min(limit,events.length)+' de '+
+   p.attempts+' tentativas registradas para este conceito');
+  const list=el('div','results-history-timeline');
+  const footer=el('div','results-history-more');
+  const resultNames={correct:'Acerto',incorrect:'Erro',blank:'Em branco'};
+  const confidence={secure:'segurança declarada',insecure:'insegurança declarada',guess:'palpite declarado'};
+  function updateList(){
+   intro.textContent='Mostrando '+Math.min(limit,events.length)+' eventos recentes de '+
+    p.attempts+' tentativas registradas';
+   list.replaceChildren();
+   for(const event of events.slice(0,limit)){
+    const row=el('div','results-history-event');
+    const main=el('div','results-history-event-main');
+    const state=el('strong','results-history-event-result',resultNames[event.result]||'Sem resultado');
+    if(event.result==='correct')state.classList.add('is-correct');
+    if(event.result==='incorrect')state.classList.add('is-incorrect');
+    const date=el('span','results-history-event-date',fmtDate(event.date));
+    const source=el('span','results-history-event-source',event.origin==='site'?'Site':'ChatGPT / cofre');
+    main.append(date,state,source);row.append(main);
+    const badges=[];
+    if(event.id===p.cycleAttemptId)badges.push('Início do ciclo atual');
+    const kind=signalMap.get(event.id);
+    if(kind==='independent')badges.push('Reteste independente');
+    if(kind==='consultation-unknown')badges.push('Contexto do reteste incompleto');
+    if(kind==='same-day-correction')badges.push('Correção no mesmo dia');
+    if(kind==='same-day-success')badges.push('Acerto no mesmo dia');
+    if(badges.length)row.append(el('p','results-history-event-signal',badges.join(' · ')));
+    const context=[];
+    if(event.correctAnswer!=null)context.push('Resposta: '+(event.answer??'em branco')+
+     ' · Gabarito: '+event.correctAnswer);
+    if(event.confidence)context.push(confidence[event.confidence]||'Segurança não registrada');
+    if(event.daysSincePrevious!=null)context.push(event.daysSincePrevious+' dias desde a tentativa anterior');
+    if(event.mode&&Object.hasOwn(studyModeLabels,event.mode))context.push(studyModeLabels[event.mode]);
+    if(typeof event.consulted==='boolean')context.push(event.consulted?'Com consulta':'Sem consulta declarada');
+    if(typeof event.feedbackBefore==='boolean')context.push(event.feedbackBefore?'Correção já vista':'Sem correção prévia declarada');
+    if(event.editalRef)context.push(event.editalRef);
+    if(event.responseMs!=null)context.push((event.responseMs/1000).toLocaleString('pt-BR',{maximumFractionDigits:1})+' s de resposta');
+    if(context.length)row.append(el('p','results-history-event-context',context.join(' · ')));
+    list.append(row);
+   }
+   footer.replaceChildren();
+   if(events.length>limit){
+    const more=el('button','results-concept-more','Mostrar mais '+Math.min(5,events.length-limit)+' eventos');
+    more.type='button';more.addEventListener('click',()=>{limit+=5;updateList();});footer.append(more);
+   }else if(events.length>5){
+    const less=el('button','results-concept-more','Mostrar menos');
+    less.type='button';less.addEventListener('click',()=>{limit=5;updateList();});footer.append(less);
+   }
   }
-  report.replaceChildren(el('p', 'results-caption', 'Exibindo ' + principle.recentEvents.length +
-   ' de ' + principle.attempts + ' tentativa(s) registradas.'), list);
- };
- select.addEventListener('change', renderEvidence);
- target.append(el('h2', '', 'Evidências por princípio'), label, select, report);
- renderEvidence();
+  report.replaceChildren(intro,list,footer);updateList();
+ }
+ select.addEventListener('change',renderEvidence);
+ target.append(heading,selector,report);renderEvidence();
 }
 function renderStudyModes(byMode) {
  const target=$('results-study-modes');
@@ -591,7 +637,28 @@ function render(){
   (selectedSubject?' · '+title(selectedSubject):'');
  const articleCount=$('results-review-article-count');
  if(articleCount)articleCount.textContent=String(activeArticles.length);
- $('results-articles').replaceChildren(...(activeArticles.length?activeArticles.map(makeArticle):[el('p','results-caption','Sem artigos com erros ou insegurança para esta matéria.')]));
+ const articleTarget=$('results-articles');
+ articleTarget.replaceChildren();
+ if(!activeArticles.length)articleTarget.append(el('p','results-caption','Sem artigos com erros ou insegurança para esta matéria.'));
+ else{
+  const count=el('p','results-history-count');
+  const list=el('div','results-history-article-list');
+  const footer=el('div','results-history-more');
+  let limit=5;
+  const update=()=>{
+   count.textContent='Mostrando '+Math.min(limit,activeArticles.length)+' de '+activeArticles.length+' artigos com evidências';
+   list.replaceChildren(...activeArticles.slice(0,limit).map(makeArticle));
+   footer.replaceChildren();
+   if(activeArticles.length>limit){
+    const more=el('button','results-concept-more','Mostrar mais '+Math.min(5,activeArticles.length-limit)+' artigos');
+    more.type='button';more.addEventListener('click',()=>{limit+=5;update();});footer.append(more);
+   }else if(activeArticles.length>5){
+    const less=el('button','results-concept-more','Mostrar menos');
+    less.type='button';less.addEventListener('click',()=>{limit=5;update();});footer.append(less);
+   }
+  };
+  articleTarget.append(count,list,footer);update();
+ }
  const priority=$('results-quiz-priorities');
  const articleGroups=subjectGroups(activeArticles,a=>articleSubject(a,concepts));
  priority.replaceChildren();

@@ -10,7 +10,7 @@ updated: 2026-11-15
 
 # Projetos de decreto legislativo e de resolução: competência, tramitação e efeitos
 
-> **Câmara dos Deputados 2026, Cebraspe, CAM-PL-014.** Esta nota aprofunda a classificação apresentada em [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]], sem reescrever o catálogo geral das proposições.
+> **Câmara dos Deputados 2026, Cebraspe.** Esta nota aprofunda a classificação apresentada em [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]], sem reescrever o catálogo geral das proposições.
 
 ## Núcleo do conceito: qual órgão pode decidir sem sanção presidencial?
 

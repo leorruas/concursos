@@ -136,7 +136,9 @@ async function sync(a){
   const r=await fetch('/v1/study/quiz',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json','X-Quiz-Sync':'1'},body:JSON.stringify({version:1,attempts:[a]})});
   if(r.status===401){loggedIn=false;throw Error('Sessão GitHub expirada.');}
   if(!r.ok)throw Error('HTTP '+r.status);
-  markSynced(a.id);$('qs-sync').textContent='Resposta sincronizada no histórico privado.';
+  markSynced(a.id);
+  try { localStorage.setItem('concursos-quiz-sincronizado', String(Date.now())); } catch {}
+  $('qs-sync').textContent='Resposta sincronizada no histórico privado.';
  }catch(e){$('qs-sync').textContent='Resposta salva localmente. Sincronização pendente: '+e.message;}
 }
 function answer(ev){

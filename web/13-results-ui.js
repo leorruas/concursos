@@ -746,18 +746,36 @@ async function manifestLoad(){
  try{const r=await fetch('/manifest.json',{cache:'no-store'});if(!r.ok)throw Error('manifesto');const list=await r.json();if(Array.isArray(list))manifest=new Map(list.filter(a=>a.articleId).map(a=>[a.articleId,a]));}
  catch{manifest=new Map();}
 }
-async function load(){
+const quizSyncKey = 'concursos-quiz-sincronizado';
+const studyDay = new Intl.DateTimeFormat('sv-SE', {timeZone:'America/Sao_Paulo'});
+let lastStudyDay = null, loading = false, pendingRefresh = false;
+function refreshIfNeeded(force = false) {
+ if (!current || document.hidden) return;
+ if (force || lastStudyDay !== studyDay.format(new Date())) pendingRefresh = true;
+ if (pendingRefresh && !loading) {
+  pendingRefresh = false;
+  void load({keepCurrent:true});
+ }
+}
+async function load({keepCurrent = false} = {}){
  const examId=select.value,version=++loadVersion;
- current=null;retests=null;coverageData=null;transferData=null;transferCombined=false;root.hidden=true;
- $('results-login').hidden=true;
- $('results-logout').hidden=true;
- status.textContent='Consultando histórico do chat e do site…';
+ const requestDay = studyDay.format(new Date());
+ loading = true;
+ if (!keepCurrent) {
+  current=null;retests=null;coverageData=null;transferData=null;transferCombined=false;root.hidden=true;
+  $('results-login').hidden=true;
+  $('results-logout').hidden=true;
+  status.textContent='Consultando histórico do chat e do site…';
+ }
  try{
   const res=await fetch('/v1/study/unified?concurso='+encodeURIComponent(examId),{
    credentials:'same-origin',cache:'no-store',headers:{Accept:'application/json'}
   });
   if(version!==loadVersion)return;
   if(res.status===401){
+   current=null;
+   root.hidden=true;
+   $('results-logout').hidden=true;
    $('results-login').hidden=false;
    $('results-login').href=WORKER+'/v1/login/github?return=%2Fresultados.html';
    status.textContent='Entre com GitHub para consultar seu histórico unificado.';
@@ -768,6 +786,7 @@ async function load(){
   if(data?.version!==2||data.concursoId!==examId||!data.sources)throw Error('Contrato de diagnóstico desatualizado.');
   if(version!==loadVersion)return;
   current=data;
+  lastStudyDay=requestDay;
   transferCombined=data.learning?.version===1&&Array.isArray(data.learning.byConcept);
   transferData=transferCombined?data.learning.byConcept:null;
   const transferInfo=$('results-concept-transfer-description');
@@ -779,10 +798,19 @@ async function load(){
   void loadRetests(examId,version);
  }catch(e){
   if(version!==loadVersion)return;
+  if (keepCurrent && current) {
+   status.textContent='Atualização indisponível. Exibindo a última consulta bem-sucedida.';
+   return;
+  }
   status.textContent=location.origin===WORKER
    ?'Não foi possível carregar o histórico unificado: '+e.message+' As respostas originais continuam preservadas.'
    :'O diagnóstico privado fica disponível após login no ambiente de estudos.';
   if(location.origin!==WORKER){$('results-login').hidden=false;$('results-login').href=WORKER+'/resultados.html?concurso='+encodeURIComponent(examId);}
+ } finally {
+  if (version === loadVersion) {
+   loading = false;
+   if (pendingRefresh) refreshIfNeeded();
+  }
  }
 }
 const themeButton=$('results-theme');
@@ -800,8 +828,21 @@ if([...select.options].some(x=>x.value===requestedContest))select.value=requeste
 select.addEventListener('change',()=>{selectedSubject='';load();});
 $('results-subject-filter').addEventListener('change',value=>{selectedSubject=value.target.value;render();});
 $('results-logout').addEventListener('click',async()=>{
+ ++loadVersion;
+ current=null;
+ loading=false;
+ pendingRefresh=false;
+ root.hidden=true;
  try{await fetch('/v1/logout',{method:'POST',credentials:'same-origin',headers:{Origin:location.origin}});}catch{}
  current=null;root.hidden=true;status.textContent='Sessão encerrada neste navegador.';$('results-login').hidden=false;$('results-logout').hidden=true;
 });
-void Promise.all([manifestLoad(),catalogLoad(),loadDiscursiveProposals()]).then(load);
+window.addEventListener('pageshow', event => { if (event.persisted) refreshIfNeeded(true); });
+document.addEventListener('visibilitychange', () => refreshIfNeeded(true));
+window.addEventListener('storage', event => {
+ if (event.key !== quizSyncKey) return;
+ pendingRefresh = true;
+ refreshIfNeeded();
+});
+window.setInterval(refreshIfNeeded, 60000);
+void Promise.all([manifestLoad(),catalogLoad(),loadDiscursiveProposals()]).then(() => load());
 })();

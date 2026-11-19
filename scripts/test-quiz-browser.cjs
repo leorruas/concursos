@@ -98,10 +98,23 @@ fs.mkdirSync(evidence,{recursive:true});
    };
    await page.route('**/v1/study/unified?*',route=>route.fulfill({status:200,
      contentType:'application/json',body:JSON.stringify(fake)}));
+   await page.clock.install({time:new Date('2026-11-19T02:59:30Z')});
    await page.goto('http://127.0.0.1:8765/resultados.html?concurso=camara-2026',{waitUntil:'networkidle'});
    await page.locator('#results-content').waitFor({state:'visible',timeout:15000});
+   const summary=page.locator('#results-unified-method');
+   assert.match(await summary.innerText(), /3 tentativas válidas/);
+   fake.summary.valid=4;
+   await page.evaluate(()=>dispatchEvent(new StorageEvent('storage',{key:'concursos-quiz-sincronizado'})));
+   await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('4 tentativas válidas'));
+   fake.summary.valid=5;
+   await page.evaluate(()=>dispatchEvent(new PageTransitionEvent('pageshow',{persisted:true})));
+   await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('5 tentativas válidas'));
+
    assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('ChatGPT'),'origem de estudo precisa aparecer');
    assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('site'),'origem do site precisa aparecer');
+   fake.summary.valid=6;
+   await page.clock.fastForward(60000);
+   await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('6 tentativas válidas'));
    const history=page.getByText('Histórico e diagnóstico detalhado',{exact:true});
    await history.focus();
    await page.keyboard.press('Enter');

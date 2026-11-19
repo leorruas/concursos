@@ -108,7 +108,7 @@ Distribuição da Iniciativa por Espécie
 
 ## 3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos
 
-O quórum parlamentar divide-se em **quórum de abertura/instalação** (número mínimo de presentes para iniciar a sessão) e **quórum de deliberação/aprovação** (número de votos favoráveis exigido para aprovar a matéria):
+No cálculo parlamentar, distinguem-se **quórum de abertura** (presença mínima para iniciar a sessão), **quórum de presença para deliberar** (presença mínima para votar a matéria) e **quórum de aprovação** (votos favoráveis necessários para aprová-la). Esses três números podem ser diferentes:
 
 ```mermaid
 flowchart TD

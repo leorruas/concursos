@@ -380,10 +380,18 @@ function renderAdaptive(plan) {
   const action=adaptiveActions[item.action]||'Revisar';
   const label=/^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(item.title)?item.title.replaceAll('-',' '):item.title;
   if(item===extra)copy.append(el('span','results-study-action-available','Bateria disponível'));
-  copy.append(el('h3','',action+' · '+label),
-   el('p','results-meta',title(item.subjectId)+' · Prioridade '+
-    ({high:'alta',medium:'média',low:'baixa'}[item.priority]||'sem classificação')),
-   el('p','results-caption',item.rationale.join(' ')));
+  const meta=el('div','results-study-action-meta');
+  meta.append(el('span','results-study-action-subject',title(item.subjectId)),
+   el('span','results-study-action-priority','Prioridade '+
+    ({high:'alta',medium:'média',low:'baixa'}[item.priority]||'não classificada')));
+  copy.append(el('h3','',action+' · '+label),meta);
+  const reasons=(Array.isArray(item.rationale)?item.rationale:[])
+   .flatMap(text=>String(text).split(/(?<=\\.)\\s+(?=[A-ZÁÀÂÃÉÊÍÓÔÕÚÇ])/u))
+   .map(text=>text.trim()).filter(Boolean)
+   .filter(text=>!item.nextReview||!/^Reteste independente previsto para \\d{4}-\\d{2}-\\d{2}\\.$/.test(text))
+   .filter(text=>text!=='Vínculo com o edital registrado.');
+  const reason=reasons.join(' ').replace(/\\b(\\d{4})-(\\d{2})-(\\d{2})\\b/g,(_,y,m,d)=>d+'/'+m+'/'+y);
+  if(reason)copy.append(el('p','results-study-action-reason',reason));
   if(item.questionIds.length){
    const params=new URLSearchParams({concurso:item.concursoId,questoes:item.questionIds.join(',')});
    const link=el('a','results-study-action-primary','Preparar bateria de '+item.quantity+' questão(ões)');
@@ -398,7 +406,7 @@ function renderAdaptive(plan) {
    controls.append(link);
   }
   if(item.state==='confirmed-not-studied')copy.append(el('p','results-meta',item.selection));
-  if(item.nextReview)copy.append(el('p','results-meta','Reteste previsto para '+fmtDate(item.nextReview)));
+  if(item.nextReview)meta.append(el('span','results-study-action-date','Reteste: '+fmtDate(item.nextReview)));
   row.append(copy,controls);
   if (activities.includes(item)) {
    list.append(row);

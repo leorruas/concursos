@@ -88,6 +88,16 @@ O § 1º permite solicitar ao **Tribunal de Contas da União (TCU)** providênci
 
 A comparação com controle externo constitucional está na [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder legislativo]]. PFC **não é comissão parlamentar de inquérito (CPI)**: a primeira segue arts. 60–61; a segunda possui condições do art. 35 e do art. 58, § 3º, da Constituição.
 
+### PFC, CFFC, PAFC e RAFC: sujeito, instrumento e período
+
+Para identificar o instituto correto na prova, observe quem atua e qual é a escala temporal. A **Proposta de Fiscalização e Controle (PFC)** provoca uma fiscalização específica por comissão competente, inclusive quando apresentada por deputado que não é membro dela (art. 61). A **Comissão de Fiscalização Financeira e Controle (CFFC)** é um órgão permanente da Câmara. O **Plano Anual de Fiscalização e Controle (PAFC)** programa sua atividade fiscalizatória a cada sessão legislativa e deve ser aprovado em **até cinco sessões após a reinstalação** da comissão. O **Relatório Anual de Fiscalização e Controle (RAFC)** registra o trabalho e deve ser aprovado **até o fim da sessão legislativa** (art. 61-A).
+
+A PFC não cria automaticamente uma Comissão Parlamentar de Inquérito (CPI). Outras comissões também podem fiscalizar atos do Executivo em matéria de sua competência, nos termos do art. 61.
+
+**Teste de recuperação:** se a banca mencionar um deputado solicitando exame de um ato específico, qual instrumento é usado? E se mencionar a programação anual da CFFC? Qual documento registra o trabalho realizado?
+
+**Fonte:** [RICD, arts. 32, XI, 61 e 61-A](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+
 ## 4. Secretaria, atas e assessoramento: arts. 62 a 64
 
 **Secretaria de comissão (art. 62):** organiza **protocolo**, distribuição de proposições, acompanhamento de prazos, relação entre comissão e relator, sinopse de trabalho, processo documental e elaboração de atas. O processo é entregue ao **relator até o dia seguinte à distribuição**. No **último dia de cada mês**, a secretaria fornece ao Presidente da comissão informações sucintas sobre o andamento das proposições.

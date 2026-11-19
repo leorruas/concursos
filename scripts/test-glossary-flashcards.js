@@ -16,6 +16,18 @@ const combined=read('_site/data/flashcards.json');
 const expectedCombined=mergeGlossaryFlashcards(base,expected);
 assert.deepEqual(combined,expectedCombined,'A página precisa receber coleção e glossário em uma única resposta');
 assert.equal(combined.cards.length,base.cards.length+expected.generatedCount);
+
+const novosTermos=['pfc','cffc','pafc','comissao-geral','comissao-mista','questao-de-ordem','ato-da-mesa','inversao-de-pauta','requerimento'];
+for(const slug of novosTermos){
+ const id='glo-camara-'+slug;
+ const term=glossary.terms.find(t=>t.id===id);
+ assert(term && term.status==='reviewed','Termo da Câmara ausente: '+id);
+ const cards=combined.cards.filter(c=>c.glossaryId===id||(Array.isArray(c.glossaryIds)&&c.glossaryIds.includes(id)));
+ assert.equal(cards.length,1,'Cada termo deve corresponder a exatamente um flashcard: '+id);
+ assert(cards[0].examIds.includes('camara-2026'));
+ assert(term.articleIds.includes(cards[0].note.articleId),'Cartão deve apontar ao artigo de revisão: '+id);
+}
+
 assert.equal(new Set(combined.cards.map(c=>c.id)).size,combined.cards.length,'IDs duplicados no catálogo final');
 assert.equal(combined.glossary.reviewedCount,glossary.publishedCount);
 assert(combined.cards.find(c=>c.id==='ppa')?.glossaryIds.includes('glo-ppa'),

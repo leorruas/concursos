@@ -98,6 +98,26 @@ O **art. 118, § 1º**, distingue cinco tipos: **supressiva**, que retira parte 
 
 A **proposta de fiscalização e controle** dirige-se à atuação fiscalizadora parlamentar. Não deve ser confundida com **pedido de informação**, **CPI** ou **projeto de lei**, embora esses instrumentos possam se relacionar numa agenda de fiscalização. Sua formalização como proposição permite tramitação conforme regras específicas de comissão e apreciação, sem pressupor efeitos de uma lei geral.
 
+### Revisão orientada: requerimento, PFC e Ato da Mesa
+
+O **requerimento é proposição**: consta expressamente do art. 100, § 1º, do Regimento Interno da Câmara dos Deputados (RICD). Por ele, o parlamentar solicita uma providência prevista no rito, como preferência, adiamento, inversão de pauta, urgência ou informação. A autoridade competente varia: há requerimentos decididos pelo Presidente, pela Mesa ou pelo Plenário (arts. 114 a 117). Não se presume votação do Plenário para todos eles.
+
+A **Proposta de Fiscalização e Controle (PFC)** também é espécie de proposição (art. 100, § 1º). Seu propósito é provocar fiscalização de ato do Executivo por comissão competente. O autor indica o ato e fundamenta a providência; um relator analisa previamente a oportunidade, a conveniência e o método de fiscalização (art. 61). É diferente da **Comissão de Fiscalização Financeira e Controle (CFFC)**, órgão permanente, e do **Plano Anual de Fiscalização e Controle (PAFC)**, instrumento de planejamento dessa comissão.
+
+O **Ato da Mesa** é ato da Mesa Diretora para assuntos de sua competência, como regulamentar a apresentação e a assinatura digital de proposições (art. 101). Não é espécie de lei submetida à sanção presidencial.
+
+| Expressão | Natureza | Exemplo |
+| :--- | :--- | :--- |
+| Requerimento | Proposição que pede providência regimental | Inversão de pauta |
+| PFC | Proposição destinada a iniciar fiscalização parlamentar específica | Examinar ato de autarquia federal |
+| CFFC | Comissão permanente da Câmara | Executar o PAFC |
+| PAFC | Plano anual de fiscalização da CFFC | Organizar ações da sessão legislativa |
+| Ato da Mesa | Ato da Mesa Diretora nos limites de suas competências | Disciplinar o sistema de apresentação digital |
+
+**Para recuperar sem consultar o texto:** por que requerimento e PFC pertencem ao conjunto das proposições, enquanto CFFC e PAFC possuem naturezas diferentes? Por que apresentar requerimento não significa necessariamente que o Plenário vai votá-lo?
+
+**Fonte conferida:** [RICD, arts. 61, 61-A, 100, 101 e 114 a 117](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+
 ## Requisitos formais, autoria e vida da proposição
 
 **Clareza e ementa:** o **art. 100, §§ 2º e 3º**, exige redação clara, explícita e concisa, e veda matéria estranha ao enunciado objetivamente declarado na **ementa** ou dele decorrente. Pelo **art. 111**, projetos devem ser redigidos em **artigos numerados** e precedidos de ementa; o § 3º proíbe reunir **duas ou mais matérias diversas** no mesmo projeto. Uma ementa muito ampla não autoriza inserir assuntos completamente alheios ao objeto da proposição.

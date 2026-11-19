@@ -1537,7 +1537,9 @@
       "cebraspeTrap": "Confundir a PFC com uma comissão ou afirmar que ela cria automaticamente uma CPI.",
       "example": "Uma deputada propõe fiscalização de contratos de autarquia federal por meio de uma PFC.",
       "articleIds": [
-        "art-b6f0d82c91a74e35"
+        "art-5df4de59dcebb840",
+        "art-8c7b2f4d50a963e1",
+        "art-0a6be439c28f517d"
       ],
       "subjectIds": [
         "direito-constitucional"
@@ -1564,7 +1566,8 @@
       "cebraspeTrap": "Afirmar que CFFC é comissão mista ou que suas funções são idênticas às da Comissão de Finanças e Tributação.",
       "example": "A CFFC examina proposta de fiscalização relativa à execução de recursos da União.",
       "articleIds": [
-        "art-b6f0d82c91a74e35"
+        "art-5df4de59dcebb840",
+        "art-8c7b2f4d50a963e1"
       ],
       "subjectIds": [
         "direito-constitucional"
@@ -1592,7 +1595,8 @@
       "cebraspeTrap": "Trocar a sigla PAFC por PFC ou confundir o prazo de aprovação do plano com o prazo do relatório.",
       "example": "A CFFC aprova o PAFC e depois documenta seus resultados no RAFC.",
       "articleIds": [
-        "art-b6f0d82c91a74e35"
+        "art-8c7b2f4d50a963e1",
+        "art-5df4de59dcebb840"
       ],
       "subjectIds": [
         "direito-constitucional"
@@ -1623,7 +1627,8 @@
       "cebraspeTrap": "Dizer que Comissão Geral é uma comissão permanente formada pela união de Câmara e Senado.",
       "example": "O Plenário é transformado em Comissão Geral para debater assunto relevante com convidados.",
       "articleIds": [
-        "art-4c1041281ca44ee5"
+        "art-6d8e3f041b9a52c7",
+        "art-91d84ac6f2b70e35"
       ],
       "subjectIds": [
         "direito-constitucional"
@@ -1650,7 +1655,8 @@
       "cebraspeTrap": "Confundir Comissão Geral com comissão mista ou supor que uma comissão mista substitui toda deliberação exigida nas Casas.",
       "example": "Uma comissão mista examina medida provisória antes da apreciação na Câmara e no Senado.",
       "articleIds": [
-        "art-91d84ac6f2b70e35"
+        "art-91d84ac6f2b70e35",
+        "art-6d8e3f041b9a52c7"
       ],
       "subjectIds": [
         "direito-constitucional"
@@ -1677,7 +1683,7 @@
       "cebraspeTrap": "Restringir questão de ordem a violação regimental comprovada ou confundi-la com discordância política.",
       "example": "Deputado suscita questão de ordem quando há dúvida sobre o procedimento de votação.",
       "articleIds": [
-        "art-4c1041281ca44ee5"
+        "art-6d8e3f041b9a52c7"
       ],
       "subjectIds": [
         "direito-constitucional"
@@ -1704,7 +1710,8 @@
       "cebraspeTrap": "Afirmar que todo Ato da Mesa é projeto de lei ou exige sanção presidencial.",
       "example": "Um Ato da Mesa disciplina os procedimentos digitais para apresentar proposições.",
       "articleIds": [
-        "art-4c1041281ca44ee5"
+        "art-0a6be439c28f517d",
+        "art-6d8e3f041b9a52c7"
       ],
       "subjectIds": [
         "direito-constitucional"
@@ -1731,7 +1738,7 @@
       "cebraspeTrap": "Dizer que a inversão de pauta aprova automaticamente um projeto ou elimina a necessidade de deliberação.",
       "example": "Um requerimento aprovado faz com que um projeto seja examinado antes de outro previsto na pauta.",
       "articleIds": [
-        "art-4c1041281ca44ee5"
+        "art-6d8e3f041b9a52c7"
       ],
       "subjectIds": [
         "direito-constitucional"
@@ -1758,7 +1765,8 @@
       "cebraspeTrap": "Dizer que requerimento não é proposição ou que todo requerimento necessariamente vai ao Plenário.",
       "example": "Deputados apresentam requerimento para inverter a pauta de apreciação de projetos.",
       "articleIds": [
-        "art-4c1041281ca44ee5"
+        "art-0a6be439c28f517d",
+        "art-6d8e3f041b9a52c7"
       ],
       "subjectIds": [
         "direito-constitucional"

@@ -61,6 +61,16 @@ A expressão *comissão do Congresso* é genérica. **Comissão mista ordinária
 
 **Fontes oficiais cotejadas:** [Regimento Comum e normas conexas](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional), [Resolução 1/2002-CN](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html) e [Resolução 3/1990-CN](https://legis.senado.leg.br/norma/561157/publicacao/36852072).
 
+### Distinção indispensável: comissão mista e Comissão Geral
+
+A **comissão mista** é formada por **deputados e senadores** para apreciar as matérias previstas na Constituição ou no Regimento Comum, respeitados os ritos especiais. Sua composição e seu procedimento variam conforme a espécie, como ocorre com medidas provisórias e com a Comissão Mista de Orçamento (CMO).
+
+A **Comissão Geral**, prevista no **art. 91 do Regimento Interno da Câmara**, é uma **transformação da sessão plenária da própria Câmara** para debate relevante, discussão de projeto de iniciativa popular ou comparecimento de ministro de Estado. Não é colegiado bicameral. Também não se deve confundir comissão mista com a **sessão conjunta** na qual o Congresso realiza deliberações.
+
+**Reteste rápido:** um deputado afirma que a Comissão Geral é criada pela união de Câmara e Senado. O item está **errado**. O conceito descrito se aproxima de comissão mista, mas cada comissão mista depende de regime e competência específicos.
+
+**Fonte:** [RICD, art. 91](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html); Regimento Comum do Congresso Nacional, arts. 9º e seguintes.
+
 ## 3. Funcionamento da comissão mista: emendas, quórum e parecer (arts. 11 a 20)
 
 | Etapa | Regra geral no RCCN | Erro provável |

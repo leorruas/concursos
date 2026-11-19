@@ -122,6 +122,23 @@ O **art. 105, § 2º**, preserva **pareceres já aprovados** em matérias de **t
 
 A diferença temporal mais importante é **fim da sessão legislativa × fim da legislatura**: a vedação de reapresentação de **proposição retirada** do art. 104 usa a **mesma sessão legislativa**; o arquivamento geral do art. 105 é analisado no **fim da legislatura**, sujeita às exceções. São eventos distintos.
 
+### Revisão orientada: cinco institutos na rotina do Plenário
+
+| Termo | Para que serve | Confusão frequente |
+| :--- | :--- | :--- |
+| **Comissão Geral** | Transformação do Plenário da **Câmara** em modalidade especial de sessão, para as hipóteses do art. 91 | Não é comissão mista de deputados e senadores |
+| **Comissão mista** | Colegiado com membros da Câmara e do Senado, sob regime próprio | Não é sinônimo de Comissão Geral nem de sessão conjunta |
+| **Questão de ordem** | Suscitar dúvida sobre interpretação ou aplicação do Regimento, inclusive em relação à Constituição (art. 95) | Não exige violação já demonstrada; durante a Ordem do Dia deve tratar da matéria pautada |
+| **Inversão de pauta** | Modificar a sequência dos itens da Ordem do Dia mediante requerimento e deliberação aplicável (art. 83, parágrafo único) | Não aprova o projeto nem equivale à sua retirada |
+| **Requerimento** | Proposição que solicita providência regimental (art. 100, § 1º) | Nem todo requerimento é votado pelo Plenário |
+| **Ato da Mesa** | Disciplina assuntos da competência da Mesa, como procedimentos de proposições digitais (art. 101) | Não se confunde com lei ou requerimento |
+
+**Exemplo integrado:** em sessão, deputado levanta **questão de ordem** sobre o rito aplicável e apresenta **requerimento de inversão de pauta** para antecipar uma matéria. A Presidência decide a questão de ordem conforme o art. 95; o requerimento segue o órgão e o rito competentes. Nenhum desses atos implica, por si, aprovação da matéria. Se o Plenário for transformado em **Comissão Geral**, isso não cria comissão mista do Congresso.
+
+**Perguntas de recuperação:** o que distingue questão de ordem de requerimento? Em que situação a Comissão Geral reúne apenas o Plenário da Câmara? Que efeito exatamente tem a inversão de pauta? Por que um Ato da Mesa não equivale a uma lei?
+
+**Fonte:** [RICD, arts. 83, 91, 95, 100 e 101](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+
 ## 5. Casos progressivos: nove mudanças de um mesmo processo
 
 **A.** Deputada fala no Pequeno Expediente por seis minutos e admite apartes: viola o art. 81, que concede **cinco minutos sem apartes**.

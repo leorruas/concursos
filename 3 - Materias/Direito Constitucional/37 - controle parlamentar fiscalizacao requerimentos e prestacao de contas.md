@@ -73,13 +73,29 @@ flowchart TD
 
 ---
 
-## 2. Fiscalização orçamentária e a Proposta de Fiscalização e Controle (PFC)
+## 2. Fiscalização parlamentar: PFC, CFFC e planejamento anual
 
-No âmbito do Regimento Interno da Câmara dos Deputados (**arts. 60 e 61**), as comissões exercem o controle operacional e orçamentário por meio da **Proposta de Fiscalização e Controle (PFC)**:
+A **Proposta de Fiscalização e Controle (PFC)** é uma **espécie de proposição** expressamente prevista no art. 100, § 1º, do Regimento Interno da Câmara. Seu rito básico está no **art. 61**, para fiscalizar atos do Poder Executivo, incluindo a administração indireta, sobre matéria de competência da comissão.
 
-1. **Iniciativa:** Qualquer Deputado ou Comissão pode apresentar Proposta de Fiscalização e Controle destinada a investigar a gestão orçamentária, financeira, patrimonial ou contábil de órgão federal ou entidade recebedora de recursos federais;
-2. **Tramitação e Plano de Execução:** A Comissão competente aprova o plano de auditoria/inspeção, podendo solicitar auxílio técnico ao TCU;
-3. **Solicitação ao TCU (CF, art. 71, IV c/c RICD, art. 61):** A Câmara e o Senado realizam inspeções e auditorias solicitadas ao TCU pela respectiva Casa ou Comissão; o TCU não pode recusar a realização da auditoria solicitada pelo Congresso ou comissões permanentes competentes.
+1. **Iniciativa:** qualquer membro ou deputado pode apresentar PFC à comissão competente, identificando **o ato** e justificando **a providência**. Não é necessário que o deputado pertença à comissão.
+2. **Relatório prévio:** o relator avalia oportunidade, conveniência e alcance jurídico, administrativo, político, econômico, social ou orçamentário, além do plano de execução e da metodologia.
+3. **Execução:** aprovada a proposta na forma regimental, a fiscalização é implementada e podem ser solicitadas ao Tribunal de Contas da União (TCU) as providências e informações previstas na Constituição.
+4. **Resultado:** a fiscalização se encerra com relatório sobre o ato examinado, o desempenho e os efeitos pertinentes; sua apresentação não constitui automaticamente uma CPI nem aprovação de lei.
+
+A **Comissão de Fiscalização Financeira e Controle (CFFC)** é comissão **permanente da Câmara**. Ela implementa, em cada sessão legislativa, o **Plano Anual de Fiscalização e Controle (PAFC)**, aprovado em **até cinco sessões contadas da reinstalação da comissão** (RICD, art. 61-A). Até o fim da sessão legislativa, apresenta o **Relatório Anual de Fiscalização e Controle (RAFC)**, encaminhado ao TCU e ao órgão de controle interno do Executivo.
+
+| Expressão | Natureza e finalidade | Atenção na prova |
+| :--- | :--- | :--- |
+| **PFC** | Proposição relativa a fiscalização específica | Pode ser apresentada por deputado que não integra a comissão |
+| **CFFC** | Comissão permanente da Câmara | Não é a CMO, comissão mista do Congresso |
+| **PAFC** | Plano anual de fiscalização da CFFC | Aprovação em até cinco sessões após a reinstalação |
+| **RAFC** | Relatório anual das fiscalizações | Aprovação até o fim da sessão legislativa |
+
+**Exemplo progressivo:** um deputado identifica falhas em contrato de uma autarquia federal e apresenta PFC. A comissão analisa a proposta e, se aprovada, realiza as providências fiscalizatórias cabíveis. A CFFC pode incluir ações correlatas no seu PAFC; isso não torna PFC e PAFC o mesmo documento.
+
+**Perguntas para rever em outro momento:** qual é a diferença entre PFC e PAFC? Qual é o órgão denominado CFFC? Em que prazos são aprovados PAFC e RAFC? Qual norma permite que uma comissão peça atuação do TCU?
+
+**Fonte normativa:** [RICD, arts. 32, XI, 60, 61, 61-A e 100, § 1º](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html); [Constituição Federal, art. 71, IV e VII](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988).
 
 ---
 

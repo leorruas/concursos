@@ -123,7 +123,7 @@ O **art. 118, § 1º**, distingue cinco tipos: **supressiva**, que retira parte 
 
 **Emenda** propõe alteração de um texto em análise. **Parecer** examina e opina sobre matéria em tramitação, podendo recomendar acolhimento, rejeição ou alteração. **Recurso** permite discutir decisão pelo órgão regimentalmente competente, quando admitido.
 
-É possível que uma comissão aprove **parecer favorável** a um projeto que contenha **emenda**, e que surja um **recurso** referente ao procedimento. Essa sequência não torna parecer, emenda e recurso categorias sinônimas. A [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|nota constitucional]] aborda os resultados normativos; CAM-PL-005 examinará os elementos do parecer e CAM-PL-006 o procedimento deliberativo.
+É possível que uma comissão aprove **parecer favorável** a um projeto que contenha **emenda**, e que surja um **recurso** referente ao procedimento. Essa sequência não torna parecer, emenda e recurso categorias sinônimas. A [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|nota constitucional]] aborda os resultados normativos; [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo]] explica a decisão do colegiado e [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão e votação]] apresenta os procedimentos deliberativos.
 
 ### Parecer: relação entre opinião do relator, conclusão da comissão e decisão final
 

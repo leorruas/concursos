@@ -134,6 +134,8 @@ Fontes: [Decreto 10.835/2021, arts. 2º, 12 e 13](https://www2.camara.leg.br/leg
 
 ## 4. Matriz das três modalidades
 
+A comparação abaixo organiza as três formas de movimentação por critérios práticos: **quem inicia o procedimento, quem precisa concordar, para onde o agente pode ser movimentado e quem assume os custos**. Neste contexto, **ônus financeiro** significa a responsabilidade pelo pagamento ou reembolso da remuneração, conforme as regras aplicáveis à modalidade.
+
 | Critério | Requisição | Cessão | Composição da força de trabalho |
 | --- | --- | --- | --- |
 | Fundamento | Prerrogativa legal específica | Lei 8.112, art. 93 e normas de cessão | Decreto 10.835, arts. 12–13 e regras complementares |

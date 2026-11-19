@@ -8,339 +8,368 @@ created: 2026-11-19
 updated: 2026-11-19
 ---
 
-# Blueprints do processo legislativo: atores, fases, prazos e resultados por proposição
+# Blueprints do processo legislativo por espécie normativa
 
-Este é um **mapa de funcionamento institucional**, organizado por tipo de proposição. Cada mapa mostra **onde a matéria começa**, **qual ator age**, **que documento entrega ao próximo**, **em qual fase**, **qual prazo ou quórum importa** e **como o percurso termina**. As setas representam entregas, decisões e retornos entre atores. Uma seta não significa, necessariamente, que a etapa seguinte ocorrerá imediatamente.
+**Fases:** 01 Origem · 02 Recebimento e distribuição · 03 Instrução · 04 Deliberação · 05 Revisão e retorno · 06 Conclusão.
 
-**Como ler:** o número `F1` a `F6` identifica as fases: **F1 origem e iniciativa → F2 protocolo e distribuição → F3 instrução e pareceres → F4 deliberação → F5 revisão ou controle pela outra Casa → F6 conclusão, promulgação e publicação**. Faixas `subgraph` reúnem atividades por **ator responsável**, não por momento cronológico; o momento está escrito dentro de cada atividade. Prazos e quóruns aparecem no nó ao qual pertencem. **Comissões de mérito** avaliam o conteúdo; **CCJC** e **CFT** exercem exames específicos de admissibilidade nas hipóteses regimentais. Os diagramas simplificam os caminhos de forma explícita; as exceções estão no texto imediatamente abaixo de cada um.
+**Leitura:** cada **faixa identifica um ator**; as caixas mostram a **fase e a atividade** sob sua responsabilidade. Setas indicam entregas entre atores. Prazos aparecem apenas quando são próprios do caminho indicado. Os fluxos representam a **rota típica**, com ramificações essenciais. Para detalhes normativos e exceções, siga os links abaixo de cada mapa. No explorador Mermaid, use zoom para percorrer cada blueprint.
 
-**Atenção:** `PL`, `PLP`, `PEC`, `PDL`, `PRC`, `PRS`, `PRN`, `PLN` e `PLV` são **proposições ou projetos**. A lei, emenda, decreto legislativo ou resolução são **atos finais**. A **medida provisória (MPV)** é diferente: já nasce com força de lei. Os prazos de **sessões** das comissões não devem ser convertidos em dias corridos. O mapa representa o procedimento federal, com as exceções pertinentes.
-
-## Legenda de atores, atividades e relógios
-
-| Camada | O que registrar em cada etapa | Como interpretar |
-| :--- | :--- | :--- |
-| **Ator** | Proponente, Presidência/Mesa, Secretaria-Geral da Mesa, comissões, relator, Plenário, Senado, Congresso ou Presidência da República | Quem pratica o ato, sem confundir órgão colegiado e pessoa que relata |
-| **Atividade** | Receber, distribuir, relatar, emendar, discutir, votar, revisar, sancionar, promulgar | O verbo identifica a responsabilidade |
-| **Documento** | Projeto, despacho, emenda, substitutivo, relatório e voto, parecer, autógrafo, veto, norma | O que passa de uma etapa a outra |
-| **Relógio** | Prazo, unidade, marco de início, suspensão e consequência do descumprimento | Não somar prazos simultâneos nem aplicar prazo de rito especial a todos os projetos |
-| **Decisão e saída** | Aprovado, alterado, rejeitado, recurso, retorno, perda de eficácia, arquivamento | A proposta pode sair do percurso antes do fim |
-
-**Relógios na Câmara, quando aplicáveis ao procedimento do art. 52 do Regimento Interno:** comissão em regime ordinário: **40 sessões**; prioridade: **10 sessões**; urgência: **5 sessões**. O prazo usual do relator corresponde à **metade do prazo da comissão e corre dentro dele**, sujeito a regras de prorrogação e substituição; não se soma ao prazo da comissão. Os prazos citados dizem respeito à **comissão** e não à duração total da lei.
-
-## PL: projeto de lei ordinária
-
-**Onde começa:** iniciativa parlamentar ou de outro legitimado constitucional, conforme o assunto; projetos de iniciativa do Presidente da República começam na **Câmara**, enquanto projetos iniciados no Senado passam primeiro pelo Senado. A iniciativa reservada muda quem pode apresentar, não elimina as etapas legislativas.
+## PL → lei ordinária
 
 ```mermaid
-flowchart TB
- subgraph AUT["Autor legitimado | fase F1"]
- A["F1 · Apresenta PL<br/>texto e justificação"]
- end
- subgraph MESA["Presidência e serviços da Câmara | F2"]
- B["F2 · Recebe e numera PL"]
- C["F2 · Despacha às comissões<br/>define regime e percurso"]
- end
- subgraph COM["Comissões e relatores | F3"]
- D["F3 · Recebem emendas quando cabível<br/>relator apresenta voto e texto"]
- E["F3 · Comissão discute e vota parecer<br/>até 40, 10 ou 5 sessões por regime"]
- end
- subgraph CAM["Câmara: comissões conclusivas ou Plenário | F4"]
- F{"F4 · Projeto pode ser decidido<br/>conclusivamente nas comissões?"}
- G["F4 · Comissões concluem<br/>salvo recurso de 1/10 da Casa"]
- H["F4 · Plenário discute e vota<br/>quórum geral do art. 47"]
- end
- subgraph SF["Senado: Casa revisora | F5"]
- I["F5 · Senado revisa<br/>aprova, altera ou rejeita"]
- J["F5 · Câmara aprecia<br/>emendas do Senado, se houver"]
- end
- subgraph PR["Presidência da República | F6"]
- K["F6 · Sanção ou veto<br/>15 dias úteis para manifestação"]
- end
- subgraph FINAL["Conclusão e publicidade | F6"]
- L["F6 · Lei ordinária promulgada<br/>e publicada"]
- end
- A --> B --> C --> D --> E --> F
- F -->|Sim| G
- F -->|Não| H
- G -->|Recurso admitido| H
- G -->|Sem recurso| I
- H -->|Aprovado| I
- I -->|Sem alterações| K
- I -->|Com emendas| J --> K
- K -->|Sanção ou veto superado| L
+flowchart LR
+  subgraph L0["Autor da proposição"]
+    direction LR
+    a["01 · Apresenta PL"]
+  end
+  subgraph L1["Presidência e serviços da Câmara"]
+    direction LR
+    b["02 · Recebe, publica<br/>e distribui"]
+  end
+  subgraph L2["Comissão e relator"]
+    direction LR
+    c["03 · Emendas e relatório<br/>parecer: 5 / 10 / 40 sessões"]
+  end
+  subgraph L3["Comissões / Plenário da Câmara"]
+    direction LR
+    d["04 · Apreciação conclusiva<br/>ou votação no Plenário"]
+  end
+  subgraph L4["Senado Federal"]
+    direction LR
+    e["05 · Revisa PL;<br/>emenda ou rejeita"]
+  end
+  subgraph L5["Câmara, quando houver emendas"]
+    direction LR
+    f["05 · Delibera sobre<br/>emendas do Senado"]
+  end
+  subgraph L6["Presidência da República"]
+    direction LR
+    g["06 · Sanção ou veto<br/>15 dias úteis"]
+  end
+  subgraph L7["Autoridade competente"]
+    direction LR
+    h["06 · Promulgação<br/>e publicação"]
+  end
+  a --> b --> c --> d --> e
+  e -->|sem emendas| g
+  e -->|com emendas| f --> g
+  g --> h
 ```
 
-**Saídas que mudam o caminho:** rejeição, arquivamento, retirada, parecer terminativo, recurso contra apreciação conclusiva, substitutivo, emendas da Casa revisora e veto são decisões distintas. Se o **Senado** iniciar o projeto, trocam-se os papéis de Casa iniciadora e revisora. **Urgência constitucional:** para projeto de sua iniciativa, o Presidente pode solicitar o procedimento do art. 64: **45 dias para cada Casa, sucessivamente**, e **10 dias para a Câmara examinar emendas do Senado**; prazos não correm no recesso e não se aplicam a projetos de código. A falta de votação gera sobrestamento nos termos do dispositivo. A sanção tácita decorre do silêncio presidencial no prazo de **15 dias úteis**; veto é apreciado pelo Congresso em sessão conjunta segundo art. 66.
+Origem: legitimado constitucional. O caminho da Câmara pode ser conclusivo nas comissões ou seguir ao Plenário. PL iniciado no Senado inverte as Casas. **Aprofundar:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação, comissões e revisão bicameral]] · [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Ritos e urgência constitucional]].
 
-## PLP: projeto de lei complementar
-
-**Onde começa:** legitimado com iniciativa sobre a matéria; exige-se que a Constituição **reserve expressamente** o assunto à lei complementar. Caminho semelhante ao PL, mas a regra de aprovação muda.
+## PLP → lei complementar
 
 ```mermaid
-flowchart TB
- subgraph ORI["Autor legitimado | F1"]
- A["F1 · Apresenta PLP<br/>matéria reservada à LC"]
- end
- subgraph CD["Presidência e comissões da Casa iniciadora | F2–F3"]
- B["F2 · Despacho e distribuição"]
- C["F3 · Emendas, voto do relator<br/>e pareceres de comissão"]
- end
- subgraph CASAS["Plenários da Câmara e do Senado | F4–F5"]
- D["F4 · Casa iniciadora aprova<br/>maioria absoluta dos membros"]
- E["F5 · Casa revisora delibera<br/>maioria absoluta dos membros"]
- F["F5 · Iniciadora examina<br/>emendas da revisora"]
- end
- subgraph EXEC["Presidência e publicação | F6"]
- G["F6 · Sanção ou veto presidencial"]
- H["F6 · Lei complementar<br/>promulgada e publicada"]
- end
- A --> B --> C --> D --> E
- E -->|Aprova sem emendas| G
- E -->|Emendas aprovadas| F --> G
- G --> H
+flowchart LR
+  subgraph L0["Autor legitimado"]
+    direction LR
+    a["01 · Apresenta PLP"]
+  end
+  subgraph L1["Presidência da Casa iniciadora"]
+    direction LR
+    b["02 · Recebe e distribui"]
+  end
+  subgraph L2["Comissões e relatores"]
+    direction LR
+    c["03 · Parecer sobre<br/>matéria e admissibilidade"]
+  end
+  subgraph L3["Plenário da Casa iniciadora"]
+    direction LR
+    d["04 · Votação<br/>maioria absoluta"]
+  end
+  subgraph L4["Plenário da Casa revisora"]
+    direction LR
+    e["05 · Votação<br/>maioria absoluta"]
+  end
+  subgraph L5["Casa iniciadora"]
+    direction LR
+    f["05 · Examina emendas<br/>da revisora, se houver"]
+  end
+  subgraph L6["Presidência da República"]
+    direction LR
+    g["06 · Sanção ou veto"]
+  end
+  subgraph L7["Autoridade competente"]
+    direction LR
+    h["06 · Promulgação<br/>e publicação"]
+  end
+  a --> b --> c --> d --> e
+  e -->|sem emendas| g
+  e -->|com emendas| f --> g
+  g --> h
 ```
 
-**Ponto de prova:** **maioria absoluta dos integrantes** de cada Casa (CF, art. 69) é o quórum de aprovação do PLP. A mera importância do tema não o transforma em lei complementar. Os prazos de comissão são regimentais e variam segundo o regime efetivamente atribuído. Rejeição ou inadmissibilidade interrompem o percurso representado.
+Origem: legitimado com iniciativa para matéria reservada à lei complementar. Maioria absoluta em cada Casa (CF, art. 69). **Aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas e quóruns]] · [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa]].
 
-## PEC: proposta de emenda à Constituição
-
-**Onde começa:** um terço, no mínimo, dos deputados ou senadores; Presidente da República; ou mais da metade das Assembleias Legislativas, manifestando-se cada uma pela maioria relativa de seus membros (CF, art. 60). A Casa de apresentação examina primeiro. Não há sanção presidencial.
+## PEC → emenda constitucional
 
 ```mermaid
-flowchart TB
- subgraph AUT["Legitimados constitucionais | F1"]
- A["F1 · Apresentam PEC<br/>sujeita aos limites do art. 60"]
- end
- subgraph CD["Presidência, CCJC e comissão especial da Câmara | F2–F3"]
- B["F2 · Recebimento e distribuição"]
- C["F3 · CCJC: admissibilidade"]
- D["F3 · Comissão especial:<br/>mérito e emendas"]
- end
- subgraph CAM["Plenário da Câmara | F4"]
- E["F4 · Dois turnos<br/>3/5 dos deputados em cada turno"]
- end
- subgraph SEN["Senado: comissões e Plenário | F5"]
- F["F5 · Exame segundo Regimento do Senado"]
- G["F5 · Dois turnos<br/>3/5 dos senadores em cada turno"]
- end
- subgraph MESAS["Mesas de ambas as Casas | F6"]
- H["F6 · Promulgam emenda constitucional<br/>com número de ordem"]
- end
- A --> B --> C --> D --> E --> F --> G
- G -->|Mesmo texto aprovado por ambas| H
- G -->|Texto divergente| I["F5 · Retorno e novos exames<br/>até convergência do texto"]
- I --> E
+flowchart LR
+  subgraph L0["Legitimados constitucionais"]
+    direction LR
+    a["01 · Apresentam PEC<br/>art. 60"]
+  end
+  subgraph L1["Presidência e órgão de admissibilidade"]
+    direction LR
+    b["02 · Recebe<br/>e distribui"]
+    c["03 · Verifica<br/>admissibilidade"]
+  end
+  subgraph L2["Comissão especial / órgãos competentes"]
+    direction LR
+    d["03 · Examina mérito<br/>e emendas"]
+  end
+  subgraph L3["Plenário da Casa iniciadora"]
+    direction LR
+    e["04 · Dois turnos<br/>3/5 em cada"]
+  end
+  subgraph L4["Casa revisora"]
+    direction LR
+    f["05 · Exames e dois turnos<br/>3/5 em cada"]
+  end
+  subgraph L5["Ambas as Casas"]
+    direction LR
+    g["05 · Se houver alteração:<br/>textos devem convergir"]
+  end
+  subgraph L6["Mesas da Câmara e Senado"]
+    direction LR
+    h["06 · Promulgam EC<br/>e publicam"]
+  end
+  a --> b --> c --> d --> e --> f
+  f -->|texto idêntico| h
+  f -->|texto divergente| g --> e
 ```
 
-**Exceções:** emenda constitucional **não é submetida a sanção/veto**. A Constituição não pode ser emendada durante intervenção federal, estado de defesa ou estado de sítio; há limites materiais e vedação de reapresentar, na mesma sessão legislativa, matéria de PEC rejeitada ou prejudicada (art. 60). A admissibilidade da Câmara e as comissões do Senado seguem seus regimentos próprios. **Não transportar o prazo de 40 sessões de comissão ordinária para o rito especial de PEC.**
+Origem: legitimados do art. 60. Dois turnos e três quintos em cada Casa; promulgação pelas Mesas, sem sanção. **Aprofundar:** [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Poder constituinte e emendas]] · [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Quóruns por espécie]].
 
-## MPV e PLV: medida provisória e projeto de lei de conversão
-
-**Onde começa:** o **Presidente da República edita e publica a MP**, com força de lei, em caso de relevância e urgência. O Congresso a examina, com **Câmara antes do Senado**. O PLV surge como texto proposto quando há alteração da MP, e não como uma nova MP.
+## MPV e PLV → conversão em lei
 
 ```mermaid
-flowchart TB
- subgraph PRES["Presidente da República | F1"]
- A["F1 · Edita e publica MPV<br/>força de lei imediata"]
- end
- subgraph CN["Congresso e comissão mista | F2–F3"]
- B["F2 · Recebe MPV e emendas"]
- C["F3 · Comissão mista examina<br/>pressupostos e mérito"]
- D["F3 · Apresenta parecer<br/>e eventual PLV"]
- end
- subgraph CAM["Câmara dos Deputados | F4"]
- E["F4 · Primeiro Plenário a apreciar<br/>aprova original, altera ou rejeita"]
- end
- subgraph SF["Senado Federal | F5"]
- F["F5 · Aprecia texto aprovado<br/>e eventuais alterações"]
- end
- subgraph FINAL["Conclusão | F6"]
- G["F6 · Original aprovado:<br/>conversão e promulgação sem sanção"]
- H["F6 · PLV aprovado:<br/>segue à sanção ou veto"]
- I["F6 · Lei publicada"]
- J["F6 · Rejeição ou perda de eficácia:<br/>examinar efeitos e decreto legislativo"]
- end
- A --> B --> C --> D --> E --> F
- F -->|Texto original| G --> I
- F -->|PLV aprovado pelas duas Casas| H --> I
- E -->|Rejeita| J
- F -->|Rejeita| J
+flowchart LR
+  subgraph L0["Presidente da República"]
+    direction LR
+    a["01 · Edita e publica MPV"]
+  end
+  subgraph L1["Congresso / comissão mista"]
+    direction LR
+    b["02 · Recebe MPV<br/>e emendas"]
+    c["03 · Parecer<br/>e eventual PLV"]
+  end
+  subgraph L2["Plenário da Câmara"]
+    direction LR
+    d["04 · Primeira apreciação<br/>do texto"]
+  end
+  subgraph L3["Plenário do Senado"]
+    direction LR
+    e["05 · Examina texto;<br/>pode emendar"]
+  end
+  subgraph L4["Casas legislativas"]
+    direction LR
+    f["05 · Conciliação das<br/>alterações, se houver"]
+  end
+  subgraph L5["Presidente da Mesa do Congresso"]
+    direction LR
+    g["06 · Promulga conversão<br/>sem mudança"]
+  end
+  subgraph L6["Presidência da República"]
+    direction LR
+    h["06 · Sanciona ou veta PLV"]
+  end
+  subgraph L7["Congresso"]
+    direction LR
+    i["06 · Rejeição ou perda:<br/>examinar efeitos jurídicos"]
+  end
+  a --> b --> c --> d --> e
+  e -->|MPV original| g
+  e -->|PLV aprovado| h
+  e -->|alteração pendente| f --> h
+  d -->|rejeita| i
+  e -->|rejeita| i
 ```
 
-**Relógios próprios:** vigência de **60 dias**, prorrogável **uma vez por mais 60**, com suspensão de contagem durante recesso; **após 45 dias da publicação sem apreciação**, urgência e sobrestamento na Casa em que tramita, conforme Constituição e interpretação aplicável. Se o Congresso aprovar **PLV**, a **MP original continua integralmente em vigor até sanção ou veto** do projeto (CF, art. 62, § 12). Quando a MP é rejeitada ou perde eficácia, o Congresso deve disciplinar as relações jurídicas por decreto legislativo; há regras constitucionais de preservação dessas relações na ausência de decreto. A tramitação pormenorizada da comissão mista e do PLV está em [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|Medidas provisórias: rito da Resolução nº 1/2002-CN]].
+Origem: Presidente edita MPV, com força de lei. 60 + 60 dias de vigência, recesso suspende a contagem; após 45 dias sem apreciação, urgência constitucional. **Aprofundar:** [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|Rito completo das medidas provisórias]] · [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|Prazos, eficácia e PLV]].
 
-## PDL: projeto de decreto legislativo
-
-**Onde começa:** proposição legislativa destinada a matéria de competência exclusiva do Congresso Nacional, ou outra hipótese de decreto legislativo prevista em norma competente. A matéria e a origem determinam se há tramitação sucessiva entre Casas ou procedimento próprio do Congresso. **Não existe sanção presidencial.**
+## PDL → decreto legislativo
 
 ```mermaid
-flowchart TB
- subgraph AUT["Autor e Mesa competente | F1–F2"]
- A["F1 · Apresenta PDL<br/>identifica competência do Congresso"]
- B["F2 · Mesa recebe, classifica<br/>e distribui"]
- end
- subgraph COM["Comissões e relatores | F3"]
- C["F3 · Examinam matéria<br/>e emitem pareceres"]
- end
- subgraph CAM["Câmara dos Deputados | F4"]
- D["F4 · Delibera segundo<br/>competência e rito"]
- end
- subgraph SF["Senado ou Congresso | F5"]
- E["F5 · Exame na outra Casa<br/>ou rito especial aplicável"]
- end
- subgraph FINAL["Autoridade competente | F6"]
- F["F6 · Decreto legislativo<br/>promulgado e publicado"]
- end
- A --> B --> C --> D --> E --> F
+flowchart LR
+  subgraph L0["Autor parlamentar / órgão legitimado"]
+    direction LR
+    a["01 · Apresenta PDL"]
+  end
+  subgraph L1["Mesa da Casa competente"]
+    direction LR
+    b["02 · Recebe e distribui"]
+  end
+  subgraph L2["Comissões e relatores"]
+    direction LR
+    c["03 · Pareceres"]
+  end
+  subgraph L3["Casa iniciadora"]
+    direction LR
+    d["04 · Delibera"]
+  end
+  subgraph L4["Casa revisora ou Congresso"]
+    direction LR
+    e["05 · Delibera conforme<br/>competência e rito"]
+  end
+  subgraph L5["Autoridade legislativa competente"]
+    direction LR
+    f["06 · Promulga e publica<br/>decreto legislativo"]
+  end
+  a --> b --> c --> d --> e --> f
 ```
 
-**Exemplo:** sustar ato normativo do Executivo que exceda o poder regulamentar (CF, art. 49, V). **PDL é a proposição; decreto legislativo é o ato final.** PDL e projeto de resolução dispensam sanção, mas têm finalidades distintas; nem todos seguem o mesmo órgão ou rito.
+Origem: órgão legislativo com competência para a matéria. A rota entre Casas depende do fundamento constitucional e do procedimento aplicável; sem sanção. **Aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Decreto legislativo e competências]].
 
-## PRC: projeto de resolução da Câmara
-
-**Onde começa:** na própria **Câmara dos Deputados**, em matérias de competência dessa Casa, como alterar seu Regimento Interno. Não passa pelo Senado como Casa revisora e não depende de sanção presidencial.
+## PRC → resolução da Câmara
 
 ```mermaid
-flowchart TB
- subgraph PROP["Autor legitimado na Câmara | F1"]
- A["F1 · Apresenta PRC<br/>matéria interna da Câmara"]
- end
- subgraph MESA["Presidência e órgãos técnicos | F2"]
- B["F2 · Recebe e encaminha"]
- end
- subgraph COM["Comissões e relatores | F3"]
- C["F3 · Exames e pareceres<br/>segundo rito aplicável"]
- end
- subgraph CAM["Órgão competente da Câmara | F4"]
- D["F4 · Delibera sobre a resolução"]
- end
- subgraph FINAL["Câmara | F6"]
- E["F6 · Resolução da Câmara<br/>promulgada e publicada"]
- end
- A --> B --> C --> D --> E
+flowchart LR
+  subgraph L0["Autor legitimado na Câmara"]
+    direction LR
+    a["01 · Apresenta PRC"]
+  end
+  subgraph L1["Presidência / Mesa da Câmara"]
+    direction LR
+    b["02 · Recebe e distribui"]
+  end
+  subgraph L2["Comissões e relatores"]
+    direction LR
+    c["03 · Examinam e emitem parecer"]
+  end
+  subgraph L3["Órgão decisório da Câmara"]
+    direction LR
+    d["04 · Delibera<br/>segundo rito"]
+  end
+  subgraph L4["Câmara dos Deputados"]
+    direction LR
+    e["06 · Promulga e publica<br/>resolução"]
+  end
+  a --> b --> c --> d --> e
 ```
 
-**Limite:** nem toda decisão administrativa interna pode ser tomada por resolução, e nem toda matéria interna dispensa lei. **Remuneração dos servidores da Câmara exige iniciativa de lei** (CF, art. 51, IV), embora a Câmara tenha competência para organizar seus serviços.
+Origem: Câmara. Resolve matéria de competência da própria Casa; em regra não há revisão do Senado nem sanção. **Aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Resoluções das Casas]] · [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Organização da Câmara]].
 
-## PRS: projeto de resolução do Senado
-
-**Onde começa:** no **Senado Federal**, dentro de suas competências, a exemplo de limites globais de dívida consolidada previstos no art. 52, VI, da Constituição. É importante incluí-lo no mapa mesmo sem iniciar na Câmara.
+## PRS → resolução do Senado
 
 ```mermaid
-flowchart TB
- subgraph INI["Legitimado no Senado | F1"]
- A["F1 · Apresenta PRS<br/>competência do Senado"]
- end
- subgraph SFM["Mesa e Presidência do Senado | F2"]
- B["F2 · Recebimento e distribuição"]
- end
- subgraph COM["Comissões e relatores do Senado | F3"]
- C["F3 · Pareceres segundo<br/>Regimento do Senado"]
- end
- subgraph PLEN["Senado Federal | F4"]
- D["F4 · Deliberação da Casa competente"]
- end
- subgraph FINAL["Senado Federal | F6"]
- E["F6 · Resolução do Senado<br/>promulgada e publicada"]
- end
- A --> B --> C --> D --> E
+flowchart LR
+  subgraph L0["Autor legitimado no Senado"]
+    direction LR
+    a["01 · Apresenta PRS"]
+  end
+  subgraph L1["Mesa / Presidência do Senado"]
+    direction LR
+    b["02 · Recebe e distribui"]
+  end
+  subgraph L2["Comissões do Senado"]
+    direction LR
+    c["03 · Pareceres"]
+  end
+  subgraph L3["Órgão decisório do Senado"]
+    direction LR
+    d["04 · Delibera"]
+  end
+  subgraph L4["Senado Federal"]
+    direction LR
+    e["06 · Promulga e publica<br/>resolução"]
+  end
+  a --> b --> c --> d --> e
 ```
 
-**Não deslocar para a Câmara:** o fato de o Congresso ter duas Casas não obriga todo instrumento legislativo a ser votado nas duas. O Senado exerce competências privativas por resolução nas hipóteses constitucionais.
+Origem: Senado, em sua competência própria. Não passa pela Câmara como revisora nem depende de sanção. **Aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Resoluções e competências privativas]].
 
-## PRN: projeto de resolução do Congresso Nacional
-
-**Onde começa:** no **Congresso Nacional**, para matéria sujeita à resolução do Congresso, segundo o Regimento Comum e a Constituição. Exemplo: delegação legislativa ao Presidente da República (CF, art. 68, § 2º).
+## PRN → resolução do Congresso
 
 ```mermaid
-flowchart TB
- subgraph INI["Proponente e órgãos do Congresso | F1–F2"]
- A["F1 · Apresenta PRN"]
- B["F2 · Encaminhamento regimental"]
- end
- subgraph COM["Colegiados competentes | F3"]
- C["F3 · Instrução e parecer<br/>quando previstos"]
- end
- subgraph CN["Congresso: sessão conjunta | F4–F5"]
- D["F4–F5 · Votação conforme rito<br/>votos computados por Casa"]
- end
- subgraph FINAL["Congresso Nacional | F6"]
- E["F6 · Resolução do Congresso<br/>promulgada e publicada"]
- end
- A --> B --> C --> D --> E
+flowchart LR
+  subgraph L0["Proponente legitimado"]
+    direction LR
+    a["01 · Apresenta PRN"]
+  end
+  subgraph L1["Presidência / Mesa do Congresso"]
+    direction LR
+    b["02 · Recebe e encaminha"]
+  end
+  subgraph L2["Colegiados do Congresso"]
+    direction LR
+    c["03 · Parecer, quando previsto"]
+  end
+  subgraph L3["Câmara e Senado em sessão conjunta"]
+    direction LR
+    d["04–05 · Deliberam<br/>conforme Regimento Comum"]
+  end
+  subgraph L4["Congresso Nacional"]
+    direction LR
+    e["06 · Promulga e publica<br/>resolução"]
+  end
+  a --> b --> c --> d --> e
 ```
 
-**Contagem:** nas sessões conjuntas reguladas pelo Regimento Comum, a votação é computada **separadamente na Câmara e no Senado**; voto contrário de uma Casa rejeita a matéria nas condições regimentais. Não somar deputados e senadores como um único Plenário indiferenciado.
+Origem: Congresso Nacional. Exemplo: delegação legislativa. Sessões conjuntas seguem regras de votação próprias, com contagem por Casa quando aplicável. **Aprofundar:** [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Sessões conjuntas e votação]] · [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|PRN e resoluções]].
 
-## PLN: projeto de lei do Congresso Nacional, especialmente orçamento
-
-**Onde começa:** para **PPA, LDO, LOA e projetos de créditos adicionais nas hipóteses constitucionais**, a iniciativa é do **Presidente da República**. A proposição é dirigida ao Congresso e examinada, em regra, pela **Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO)**. Os relógios e ritos não são os de PL comum.
+## PLN → lei orçamentária
 
 ```mermaid
-flowchart TB
- subgraph EXEC["Presidência da República | F1"]
- A["F1 · Envia projeto orçamentário<br/>PPA, LDO, LOA ou crédito adicional"]
- end
- subgraph CN["Mesa do Congresso | F2"]
- B["F2 · Recebe PLN<br/>encaminha ao rito orçamentário"]
- end
- subgraph CMO["Comissão Mista de Orçamento | F3"]
- C["F3 · Relatoria, emendas<br/>análise e parecer da CMO"]
- end
- subgraph SESSAO["Congresso Nacional | F4–F5"]
- D["F4–F5 · Sessão conjunta<br/>deliberação conforme rito próprio"]
- end
- subgraph EXECFINAL["Presidência e publicação | F6"]
- E["F6 · Sanção ou veto<br/>conforme regime de lei"]
- F["F6 · Lei orçamentária<br/>promulgada e publicada"]
- end
- A --> B --> C --> D --> E --> F
+flowchart LR
+  subgraph L0["Presidente da República"]
+    direction LR
+    a["01 · Encaminha projeto<br/>orçamentário"]
+  end
+  subgraph L1["Presidência do Congresso"]
+    direction LR
+    b["02 · Recebe PLN"]
+  end
+  subgraph L2["CMO: comissão mista"]
+    direction LR
+    c["03 · Recebe emendas;<br/>relatoria e parecer"]
+  end
+  subgraph L3["Congresso Nacional"]
+    direction LR
+    d["04–05 · Deliberação<br/>em sessão conjunta"]
+  end
+  subgraph L4["Presidente da República"]
+    direction LR
+    e["06 · Sanção ou veto"]
+  end
+  subgraph L5["Autoridade competente"]
+    direction LR
+    f["06 · Promulgação<br/>e publicação"]
+  end
+  a --> b --> c --> d --> e --> f
 ```
 
-**Condições próprias:** os prazos de envio e devolução das leis orçamentárias decorrem da Constituição, do ADCT e das regras aplicáveis; a apresentação de emendas observa o art. 166 e normas do Congresso. A CMO **não aprova sozinha** a lei orçamentária. Nos créditos adicionais, confirmar a hipótese concreta e o instrumento correto: nem todo crédito adicional se apresenta como PLN.
+Origem: Presidente apresenta PPA, LDO, LOA ou projeto de crédito adicional quando cabível. Prazos e emendas seguem CF, ADCT e regras orçamentárias próprias. **Aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Comparação de espécies]] · [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Congresso e votação conjunta]].
 
-## Lei delegada: solicitação, autorização e elaboração
-
-**Onde começa:** o **Presidente da República solicita delegação ao Congresso**. A autorização se dá por resolução do Congresso, que especifica conteúdo e condições. A iniciativa da **lei delegada** não é um PL parlamentar comum.
+## Delegação → lei delegada
 
 ```mermaid
-flowchart TB
- subgraph PRES["Presidência da República | F1"]
- A["F1 · Solicita delegação legislativa"]
- end
- subgraph CN["Congresso Nacional | F2–F4"]
- B["F2–F3 · Analisa alcance<br/>e limites da delegação"]
- C["F4 · Resolução delimita<br/>matéria e condições"]
- end
- subgraph PRES2["Presidente da República | F5"]
- D["F5 · Elabora lei delegada<br/>dentro da autorização"]
- end
- subgraph CN2["Congresso, se a resolução exigir | F5"]
- E["F5 · Apreciação única<br/>sem possibilidade de emendas"]
- end
- subgraph FINAL["Conclusão e publicação | F6"]
- F["F6 · Lei delegada<br/>promulgada e publicada"]
- end
- A --> B --> C --> D
- D -->|Sem apreciação exigida| F
- D -->|Apreciação exigida| E --> F
+flowchart LR
+  subgraph L0["Presidente da República"]
+    direction LR
+    a["01 · Solicita delegação"]
+    d["04–05 · Elabora<br/>lei delegada"]
+  end
+  subgraph L1["Congresso Nacional"]
+    direction LR
+    b["02–03 · Examina pedido"]
+    c["04 · Autoriza por resolução<br/>com limites"]
+    e["05 · Aprecia, se previsto<br/>votação única, sem emendas"]
+  end
+  subgraph L2["Autoridade competente"]
+    direction LR
+    f["06 · Promulgação<br/>e publicação"]
+  end
+  a --> b --> c --> d
+  d -->|apreciação prevista| e --> f
+  d -->|sem apreciação| f
 ```
 
-**Limites do art. 68:** matérias reservadas a lei complementar, competências exclusivas do Congresso ou privativas das Casas e outros temas expressamente vedados não podem ser delegados. A eventual apreciação pelo Congresso ocorre **em votação única e sem emendas**.
+Origem: Presidente solicita delegação ao Congresso; resolução delimita o objeto. Se houver apreciação parlamentar prevista, ocorre votação única, sem emendas. **Aprofundar:** [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|Delegação legislativa, limites e procedimento]].
 
-## Caminhos que atravessam os blueprints
+## Fontes normativas
 
-**Emenda e substitutivo:** alteração parcial ou texto alternativo mais amplo podem modificar o percurso de análise e o que volta à Casa iniciadora. **Parecer:** voto do relator não é decisão da comissão. **Apreciação conclusiva:** pode dispensar votação comum do Plenário em projetos abrangidos pelo art. 58, § 2º, I, ressalvado recurso. **Urgência:** diferenciar regime regimental, urgência constitucional do art. 64, urgência da medida provisória e sobrestamento por veto; seus relógios não são intercambiáveis. **Arquivamento e desarquivamento:** exigem identificar fundamento e fase; não supor que aconteçam da mesma forma para todos os tipos de proposição.
+[Constituição Federal, arts. 47–69 e 165–166](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988) · [Regimento Interno da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) · [Regimento Comum do Congresso](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) · [Resolução nº 1/2002-CN](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html).
 
-Os diagramas de cada espécie exibem a **rota principal** e os pontos decisivos. Eles não são um simulador exaustivo de cada requerimento ou incidente processual. Para o detalhe de emendas, vistas, substituição do relator, quóruns, redação final e decisões regimentais, usar os artigos [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]], [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]], [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]], [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação, quóruns e modalidades de decisão na Câmara]] e [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação: etapas, prazos e competências]]. As explicações permanecem integradas ao corpo destes artigos.
-
-## Fontes e limites de cobertura
-
-- [Constituição Federal atualizada](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988): arts. 47 a 52, 58 a 69, 84 e 165 a 166; ADCT, regras orçamentárias transitórias pertinentes.
-- [Regimento Interno da Câmara dos Deputados, texto atualizado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html): especialmente arts. 24, 52, 100 a 159 e dispositivos de ritos especiais.
-- [Regimento Comum do Congresso Nacional](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional): sessões conjuntas, deliberações e matérias de competência do Congresso.
-- [Resolução nº 1/2002-CN, atualizada](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html): rito das medidas provisórias.
-- [Glossário legislativo do Congresso Nacional](https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-legislativo): nomenclatura PL, PLP, PEC, MPV, PLV, PDL, PRC, PRS, PRN e PLN.
-
-**Limite editorial:** os diagramas mostram a estrutura normativa e a rota típica de cada instrumento, com alertas de exceção. Não afirmam que toda proposição passa obrigatoriamente por todas as caixas. A verificação visual e funcional dos onze diagramas no leitor, no modal de zoom e nos temas claro/escuro depende de teste específico após publicação.
+Os diagramas apresentam modelos de rotas e não substituem o procedimento específico de cada matéria. Validação visual de faixas, posicionamento, contraste e zoom será registrada após inspeção real da página.

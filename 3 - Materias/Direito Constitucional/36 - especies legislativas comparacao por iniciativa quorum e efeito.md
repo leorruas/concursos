@@ -251,10 +251,10 @@ O Cebraspe costuma testar a atenção do candidato com as seguintes armadilhas c
 
 ### Questão 4
 *(Inédita — Cebraspe / Câmara dos Deputados / Analista Legislativo)*
-> As matérias de competência exclusiva do Congresso Nacional, tais como a aprovação de tratados internacionais e a fiscalização de atos do Poder Executivo, são materializadas mediante decretos legislativos, atos normativos primários promulgados pelo Presidente do Senado Federal e que prescindem de sanção presidencial.
+> As matérias de competência exclusiva do Congresso Nacional, como a aprovação parlamentar de tratados internacionais e a sustação de atos normativos do Executivo que exorbitem do poder regulamentar, podem ser exercidas por meio de decretos legislativos, atos normativos primários promulgados pelo Presidente do Senado Federal e que prescindem de sanção presidencial.
 
 - **Gabarito: CERTO**
-- **Comentário:** Os decretos legislativos veiculam as competências exclusivas do Congresso Nacional (CF, art. 49). Sendo atos do Poder Legislativo bicameral soberano, não são enviados à sanção ou veto do Executivo, cabendo sua promulgação ao Presidente do Senado Federal na qualidade de Presidente da Mesa do Congresso Nacional.
+- **Comentário:** O decreto legislativo é utilizado em hipóteses de competência exclusiva do Congresso Nacional, como a aprovação de tratados (CF, art. 49, I) e a sustação de atos normativos exorbitantes (CF, art. 49, V). A **fiscalização parlamentar em geral** também utiliza requerimentos, convocações e outros instrumentos: não se transforma automaticamente em decreto legislativo. O decreto legislativo não depende de sanção ou veto do Executivo, e sua promulgação cabe ao Presidente do Senado Federal, que preside a Mesa do Congresso Nacional.
 
 ---
 
@@ -272,7 +272,7 @@ O Cebraspe costuma testar a atenção do candidato com as seguintes armadilhas c
 > Se uma medida provisória for aprovada pelo Congresso Nacional com alterações em seu conteúdo material que resultem em projeto de lei de conversão, este deverá ser submetido à deliberação do Presidente da República para fins de sanção ou veto.
 
 - **Gabarito: CERTO**
-- **Comentário:** Conforme o art. 62, § 12, da Constituição Federal, aprovado projeto de lei de conversão alterando o texto original da medida provisória, a proposição será remetida ao Presidente da República, que exercerá seu poder de sanção ou veto sobre as inovações introduzidas pelos parlamentares.
+- **Comentário:** Conforme o art. 62, § 12, da Constituição Federal, aprovado projeto de lei de conversão alterando o texto original da medida provisória, a proposição será remetida ao Presidente da República, que decidirá sobre a sanção ou o veto do **projeto de lei de conversão**, conforme o art. 66. A apreciação presidencial recai sobre o texto do projeto submetido à sanção, observados os limites constitucionais do veto, e não apenas sobre uma lista isolada de alterações parlamentares.
 
 ## Fontes primárias e jurisprudência
 

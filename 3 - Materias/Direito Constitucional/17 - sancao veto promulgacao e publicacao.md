@@ -246,14 +246,3 @@ Organizar a resposta por **ato, finalidade, sujeito competente, prazo, consequê
 - [Lei Complementar nº 95/1998, art. 8º, Planalto](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm).
 
 **Critério de atualização:** normas e fontes oficiais conferidas em **07/11/2026**. A redação do art. 66, § 4º, alterada pela EC nº 76/2013, deve prevalecer sobre reproduções históricas que ainda exibam voto secreto. Questões inéditas elaboradas para treino Cebraspe, sem afirmar correspondência literal a provas oficiais, desempenho ou retenção pessoal.
-
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Cotejo realizado:** texto e quadros, **oito etapas do caso progressivo**, **dois exemplos comentados** e **dez questões C/E**, comparados à [Constituição Federal, arts. 60, 65 e 66](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988), ao [Regimento Comum do Congresso, arts. 104-A e 106](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional), à [LINDB, art. 1º](https://legis.senado.gov.br/norma/529744/publicacao/34620738) e à [jurisprudência do STF reunida no art. 66](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=66&abrirBase=CF). Conferidos sanção expressa/tácita, veto político/jurídico, extensão do veto parcial, prazos, sessão conjunta, quórum separado das Casas, promulgação subsidiária e vacatio legis.
-
-**NC-PL-039, jurisprudência acrescentada:** precedentes das **ADPFs 714, 715 e 716**, além da **ADPF 893**, sobre a **irretratabilidade do veto**, impossibilidade de veto adicional tardio e preclusão da etapa de manifestação executiva. **NC-PL-040, efeito do prazo congressual:** **ADI 5.706 (2024)**: ultrapassar os 30 dias do art. 66, § 4º, produz inclusão na Ordem do Dia e sobrestamento conforme § 6º, **sem caducidade ou perda da competência do Congresso para deliberar**. Os acréscimos complementam as explicações existentes sem ampliar o alcance dos gabaritos.
-
-**Dez respostas conferidas e preservadas:** **C, E, C, E, C, E, C, E, E, C**. Nenhuma inversão demonstrada nos dez itens e oito etapas, nem nos dois exemplos. Os exercícios já integram o inventário, não devendo ser somados novamente.
-
-**Limites:** certificação jurídico-editorial do recorte escrito nesta data; não abrange toda a jurisprudência relacionada ao processo legislativo, casos concretos não examinados, retenção do estudante ou teste visual e publicação no GitHub Pages.

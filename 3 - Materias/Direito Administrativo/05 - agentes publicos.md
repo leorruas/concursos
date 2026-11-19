@@ -39,6 +39,8 @@ flowchart TD
 
 ## 1. Classificações Doutrinárias de Agentes Públicos
 
+Uma **classificação doutrinária** é uma maneira de organizar os conceitos proposta por estudiosos do Direito. Ela ajuda a comparar situações, mas não equivale, por si só, a uma lista obrigatória da Constituição ou de uma lei. Neste tópico, o ponto de atenção é identificar **qual autor** a questão adota antes de classificar um agente.
+
 O diagrama acima representa os cinco grupos usados por **Hely Lopes Meirelles**. É uma classificação doutrinária: serve para organizar os diversos modos de atuação em nome do Estado, mas não é uma lista constitucional fechada. **Maria Sylvia Zanella Di Pietro** usa outra organização. Por isso, ao classificar magistrados e membros do Ministério Público como agentes políticos, considere o autor e o critério adotado pela questão.
 
 ### 1.1. Classificação Clássica de Hely Lopes Meirelles

@@ -34,15 +34,15 @@ Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e 
 
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Evidências e documentos** | PLP | Despacho | Parecer | Texto aprovado | Texto revisado | Lei complementar |
+| **Evidências e documentos** | PLP | Despacho | Parecer | Texto aprovado | Texto revisado e autógrafo | Lei complementar publicada |
 | **Ações do proponente** | Autor legitimado apresenta | não se aplica | Parlamentares emendam | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
 | **Frontstage: atos e contatos públicos** | Casa iniciadora recebe | Presidência distribui | Comissões apreciam | Plenário iniciador vota | Casa revisora vota | Presidente sanciona ou veta |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
-| **Backstage: preparação e análise** | Assessoria verifica reserva à LC | Secretaria autua | Relator redige voto | Apoio organiza sessão | Apoio confere emendas e retorno | Autógrafo e publicação |
+| **Backstage: preparação e análise** | Assessoria verifica reserva à LC | Secretaria autua | Relator redige voto | Apoio organiza sessão | Apoio confere emendas, redação final e autógrafo | Serviços preparam promulgação e publicação após sanção ou deliberação sobre veto |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Protocolo | Despacho | Parecer | Votação | Versões de texto | Diário Oficial |
-| **Prazos e quóruns** | Art. 69 CF | não se aplica | Prazos do regime aplicável | Maioria absoluta | Maioria absoluta | Art. 66 CF |
+| **Prazos e quóruns** | Art. 69 CF | não se aplica | Prazos do regime aplicável | Maioria absoluta; dois turnos na Câmara (RICD art. 148) | Maioria absoluta; turno único no Senado, salvo exceção regimental | Art. 66 CF: 15 dias úteis para sanção/veto |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas e quóruns]] · [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa]].
 

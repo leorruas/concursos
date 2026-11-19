@@ -85,7 +85,7 @@ O **art. 226** assegura ao deputado o direito de **propor, discutir e deliberar;
 
 **Suplente (art. 241):** a **Mesa convoca em até 48 horas** nos casos de **vaga**, **investidura do titular em cargo da CF art. 56, I** ou **licença médica de prazo original superior a 120 dias**, vedada soma de períodos. O suplente pode comunicar impossibilidade de assumir e a Mesa chama o seguinte. **Substituição temporária não é vacância definitiva**.
 
-**Art. 242:** diante de vaga **mais de 15 meses antes de acabar o mandato**, **sem suplente**, o Presidente comunica o fato à **Justiça Eleitoral** para aplicação do art. 56, § 2º, da CF. O marco de 15 meses refere-se à **necessidade de eleição para a vaga conforme a Constituição**, não ao prazo geral de convocação de suplentes.
+**Art. 242: vaga sem suplente.** Se um deputado deixa o mandato e **não existe suplente**, é preciso verificar quanto tempo resta até o fim do mandato. Quando faltam **mais de 15 meses**, o Presidente da Câmara comunica a vaga à **Justiça Eleitoral** para a providência prevista no art. 56, § 2º, da Constituição. **Exemplo:** uma vaga surgida com 18 meses restantes e sem suplente aciona essa comunicação; a existência de suplente conduz ao procedimento de convocação próprio. O marco de 15 meses não é um prazo de espera antes de convocar suplente.
 
 **Art. 243: suplente convocado para substituição** não pode ser escolhido para cargos da **Mesa**, suplência de Secretário, Presidência/Vice-Presidência de comissão, Ouvidoria, Corregedoria, Procuradoria Parlamentar e funções expressamente indicadas. **O suplente vota e participa das atividades quando investido**, mas **não pode ocupar todos os postos de direção** de um titular.
 

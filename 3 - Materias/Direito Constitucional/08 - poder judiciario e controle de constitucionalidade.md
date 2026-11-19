@@ -327,4 +327,3 @@ A reserva de plenário e o controle concentrado se conectam ao artigo [[3 - Mate
 - Lei nº 9.882/1999: ADPF e subsidiariedade.
 - [CNJ: perguntas frequentes sobre sua competência e limites](https://www.cnj.jus.br/ouvidoria-cnj/perguntas-frequentes/).
 - [Lei nº 11.417/2006, arts. 2º a 7º: edição, revisão, cancelamento e reclamação](https://www2.camara.leg.br/legin/fed/lei/2006/lei-11417-19-dezembro-2006-548408-publicacaooriginal-63540-pl.html).
-- Registro histórico de ingestão de 10/06/2026, arquivado fora da biblioteca pública.

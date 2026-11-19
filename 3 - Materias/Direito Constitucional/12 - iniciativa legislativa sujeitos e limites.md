@@ -22,7 +22,7 @@ aliases:
 
 O **art. 61, caput, da Constituição Federal** estabelece a iniciativa das **leis ordinárias e complementares**. Os §§ 1º e 2º estabelecem, respectivamente, hipóteses de **iniciativa privativa do presidente da República** e **iniciativa popular federal**. Outros dispositivos constituem reservas específicas de iniciativa: arts. **51, IV, 52, XIII, 93, 96, II, 127, § 2º, 128, § 5º, e 165**, por exemplo, segundo a matéria e o nível federativo. **Não se pode usar o rol do art. 61 como se ele resolvesse, sozinho, a iniciativa de toda espécie do art. 59.**
 
-Esta unidade **CAM-PL-002** aprofunda **quem pode iniciar, em qual matéria, com que alcance e quais as consequências da iniciativa inadequada**. A [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]] conceitua proposições regimentais. A [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|nota constitucional sobre processo legislativo]] já aborda espécies normativas e PEC; permanece como referência sem duplicação.
+O ponto central é identificar **quem pode iniciar cada proposta, em qual matéria, com que alcance e quais são as consequências da iniciativa inadequada**. A [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]] conceitua proposições regimentais. A [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|nota constitucional sobre processo legislativo]] já aborda espécies normativas e PEC; permanece como referência sem duplicação.
 
 ### Caso comparativo: mesmo autor, matérias distintas
 

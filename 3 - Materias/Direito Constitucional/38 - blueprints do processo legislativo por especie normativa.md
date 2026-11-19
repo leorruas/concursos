@@ -25,7 +25,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Evidências e documentos** | PL apresentado | Despacho | Emendas e parecer | Texto votado | Autógrafo / emendas | Lei publicada |
 | **Ações do proponente** | Deputado, senador, comissões, Presidente da República, tribunais, PGR ou cidadãos apresentam PL | não se aplica | Deputados apresentam emendas | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Protocolo recebe | Presidência distribui | Comissão delibera parecer | Comissão conclusiva ou Plenário vota | Casa revisora (Senado ou Câmara) aprecia; emendas voltam à Casa iniciadora | Presidência sanciona ou veta |
+| **Frontstage: atos e contatos públicos** | Protocolo recebe | Presidência da Casa iniciadora distribui | Comissão delibera parecer | Comissão conclusiva ou Plenário vota | Casa revisora (Senado ou Câmara) aprecia; emendas voltam à Casa iniciadora | Presidente da República sanciona ou veta |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Assessoria apoia texto | Secretaria autua e publica | Relator produz voto | Secretaria organiza votação | Apoio compara redações | Elaboração do autógrafo e promulgação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -45,7 +45,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Evidências e documentos** | PLP | Despacho | Parecer | Texto aprovado | Texto revisado | Lei complementar |
 | **Ações do proponente** | Legitimados do art. 61 apresentam PLP na matéria constitucionalmente reservada | não se aplica | Parlamentares emendam | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Casa iniciadora recebe | Presidência distribui | Comissões apreciam | Plenário iniciador vota | Casa revisora (Senado ou Câmara) vota por maioria absoluta; emendas retornam | Presidente sanciona ou veta |
+| **Frontstage: atos e contatos públicos** | Casa iniciadora recebe | Presidência da Casa iniciadora distribui | Comissões apreciam | Plenário iniciador vota | Casa revisora (Senado ou Câmara) vota por maioria absoluta; emendas retornam | Presidente da República sanciona ou veta |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Assessoria verifica reserva à LC | Secretaria autua | Relator redige voto | Apoio organiza sessão | Apoio confere emendas e retorno | Autógrafo e publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -105,7 +105,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Evidências e documentos** | PDL | Despacho | Parecer | Deliberação | Exame seguinte, se cabível | Decreto legislativo |
 | **Ações do proponente** | Parlamentar ou comissão legitimada propõe PDL conforme a competência | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Mesa da Casa recebe | Presidência distribui | Comissões examinam | Casa competente vota | Outra Casa aprecia quando o rito exigir; verificar competência e origem | Autoridade legislativa promulga |
+| **Frontstage: atos e contatos públicos** | Mesa da Casa recebe | Presidência da Casa iniciadora distribui | Comissões examinam | Casa competente vota | Outra Casa aprecia quando o rito exigir; verificar competência e origem | Autoridade legislativa promulga |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Assessoria verifica competência | Secretaria registra | Relator produz parecer | Serviços organizam votação | Apoio prepara texto final | Secretaria prepara publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -125,7 +125,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Evidências e documentos** | PRC | Despacho | Parecer | Resolução aprovada | Não há revisão bicameral usual | Resolução publicada |
 | **Ações do proponente** | Deputado, comissão ou Mesa da Câmara, conforme o RICD | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Câmara recebe | Presidência distribui | Comissões examinam se previsto | Órgão competente da Câmara vota | Não se aplica: resolução própria da Câmara não segue ao Senado | Câmara promulga |
+| **Frontstage: atos e contatos públicos** | Câmara recebe | Presidência da Casa iniciadora distribui | Comissões examinam se previsto | Órgão competente da Câmara vota | Não se aplica: resolução própria da Câmara não segue ao Senado | Câmara promulga |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio verifica competência | Secretaria registra | Relatoria prepara parecer | Serviços preparam ato | não se aplica | Secretaria publica |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -145,7 +145,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Evidências e documentos** | PRS | Despacho | Parecer | Resolução aprovada | Não há revisão bicameral usual | Resolução publicada |
 | **Ações do proponente** | Senador, comissão ou Mesa do Senado, conforme o RISF | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Senado recebe | Presidência distribui | Comissões examinam | Órgão do Senado vota | Não se aplica: resolução própria do Senado não segue à Câmara | Senado promulga |
+| **Frontstage: atos e contatos públicos** | Senado recebe | Presidência da Casa iniciadora distribui | Comissões examinam | Órgão do Senado vota | Não se aplica: resolução própria do Senado não segue à Câmara | Senado promulga |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio verifica competência | Secretaria registra | Relator prepara parecer | Serviços preparam ato | não se aplica | Secretaria publica |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -165,7 +165,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Evidências e documentos** | PRN | Encaminhamento | Parecer se cabível | Sessão conjunta | Votos computados por Casa | Resolução publicada |
 | **Ações do proponente** | Legitimado regimental ou solicitação do Presidente da República na delegação | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Congresso recebe | Presidência encaminha | Colegiado instrui quando previsto | Congresso delibera segundo rito | Congresso delibera no rito próprio; votos por Casa quando aplicável | Congresso promulga |
+| **Frontstage: atos e contatos públicos** | Congresso recebe | Presidência do Congresso Nacional encaminha | Colegiado instrui quando previsto | Congresso delibera segundo rito | Congresso delibera no rito próprio; votos por Casa quando aplicável | Congresso promulga |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio identifica competência | Serviços registram | Relator prepara parecer | Secretaria organiza sessão | Apoio apura resultado por Casa | Serviços preparam ato |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -185,7 +185,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Evidências e documentos** | PLN e anexos | Distribuição | Emendas e parecer | Projeto votado | Autógrafo | Lei orçamentária |
 | **Ações do proponente** | Presidente da República encaminha projeto orçamentário | não se aplica | Parlamentares oferecem emendas | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Congresso recebe | Presidência distribui | Comissão Mista de Orçamento (CMO) emite parecer | Congresso vota em sessão conjunta | Congresso delibera em sessão conjunta, sem revisão sucessiva ordinária | Presidente sanciona ou veta |
+| **Frontstage: atos e contatos públicos** | Congresso recebe | Presidência da Casa iniciadora distribui | Comissão Mista de Orçamento (CMO) emite parecer | Congresso vota em sessão conjunta | Congresso delibera em sessão conjunta, sem revisão sucessiva ordinária | Presidente da República sanciona ou veta |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio elabora anexos | Serviços autuam | Relatores setoriais e geral analisam | Serviços organizam sessão | Apoio consolida emendas | Serviços preparam publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -203,9 +203,9 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | Pedido de delegação | Projeto de resolução | Resolução autorizativa | Lei elaborada | Apreciação se exigida | Lei delegada publicada |
-| **Ações do proponente** | Presidente da República solicita delegação | não se aplica | não se aplica | Presidente elabora texto | não se aplica | não se aplica |
+| **Ações do proponente** | Presidente da República solicita delegação | não se aplica | não se aplica | Presidente da República elabora texto | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Congresso recebe pedido | Órgãos competentes instruem | Congresso autoriza por resolução | Presidente elabora dentro dos limites | Congresso autoriza e, se previsto, aprecia sem emendas | Lei delegada é promulgada e publicada |
+| **Frontstage: atos e contatos públicos** | Congresso recebe pedido | Órgãos competentes instruem | Congresso autoriza por resolução | Presidente da República elabora dentro dos limites | Congresso autoriza e, se previsto, aprecia sem emendas | Lei delegada é promulgada e publicada |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio examina matéria | Serviços autuam | Assessoria detalha limites | Apoio confere conformidade | Serviços organizam votação | Serviços registram ato |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |

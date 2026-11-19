@@ -91,21 +91,15 @@ O **art. 113 do RICD** define indicação como instrumento pelo qual o deputado 
 
 **Procedimento próprio:** na hipótese do inciso I, a indicação é objeto de **requerimento escrito, despachado pelo presidente e publicado**. Na hipótese do inciso II, a indicação é enviada às comissões competentes, cujo parecer tem **prazo de vinte sessões**, prorrogável a critério da Presidência da Comissão, segundo art. 113, § 2º. Os caminhos não são intercambiáveis.
 
-### Indicação: qual destinatário determina o rito?
+**Destino da indicação dirigida às comissões:** se a comissão concluir pelo oferecimento de projeto, ele seguirá o procedimento próprio. Se nenhuma comissão recomendar projeto, a Presidência arquivará a indicação e comunicará o autor, que ainda poderá apresentar projeto próprio, se tiver legitimidade. A indicação, por si só, não inicia nem aprova uma lei (RICD, art. 113, § 2º, III e IV).
 
-O **art. 113, I**, contempla a sugestão a **outro Poder** de providência, ato administrativo ou de gestão, ou envio de projeto em matéria de iniciativa exclusiva. Nessa hipótese, há **requerimento escrito**, despacho do Presidente e publicação (**§ 1º**).
-
-O **art. 113, II**, contempla sugestão para uma ou mais **comissões** se manifestarem sobre assunto que pode gerar projeto de iniciativa da Câmara. A indicação é remetida às comissões; o parecer deve ser proferido em **20 sessões**, com possibilidade de prorrogação a critério da Presidência da comissão. Se houver conclusão pelo oferecimento de projeto, este **começa o processo regimental próprio**; caso nenhuma comissão recomende projeto, a indicação é arquivada, sem impedir que o autor posteriormente apresente projeto próprio admissível. **A indicação não se converte automaticamente em lei nem supre iniciativa reservada.**
-
-**Caso de fronteira:** solicitar à comissão interpretação consultiva de determinada lei ou de atos de outro Poder **não é indicação admissível** nas hipóteses vedadas pelo art. 113, § 2º, V. A comissão não vira órgão consultivo universal só porque um deputado formula o pedido como “indicação”.
+**Limite do instrumento:** o art. 113, § 2º, V, impede usá-lo para consultar comissão sobre interpretação ou aplicação de lei ou sobre atos de qualquer Poder, seus órgãos e autoridades. Uma comissão não se torna órgão de consulta geral por receber uma indicação.
 
 ### Requerimento: pedido, objeto e instância decisória
 
-Um requerimento solicita decisão sobre providência prevista no regimento. O **art. 114** enumera requerimentos sujeitos a **despacho apenas do Presidente da Câmara**, como pedidos relativos ao uso da palavra, leitura de matéria ou observância de dispositivo regimental. Outros tipos de requerimento possuem ritos e órgãos decisórios distintos.
+O requerimento solicita uma providência prevista no Regimento Interno. A autoridade responsável depende do objeto do pedido: há atos decididos pela Presidência, pela Presidência após ouvir a Mesa, ou pelo Plenário. **Ser requerimento não significa exigir votação de todos os deputados.**
 
-**Pegadinha:** “todo requerimento, por ser proposição, exige votação no Plenário” está incorreto. **O nome genérico 'requerimento' não determina sozinho a autoridade que o decide.**
-
-### Requerimentos: três decisores e um mecanismo de controle
+**Três caminhos e seus controles:**
 
 O pedido concreto define a categoria. Os **arts. 114, 115 e 117** distinguem, respectivamente, as seguintes formas:
 

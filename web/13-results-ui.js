@@ -327,6 +327,9 @@ function renderAdaptive(plan) {
  const enabled = plan?.version === 1;
  $('results-adaptive').hidden = !enabled;
  $('results-retention').hidden = !enabled;
+ const queueSection = $('results-adaptive-queue'), queueItems = $('results-adaptive-queue-items');
+ if (queueSection) queueSection.hidden = true;
+ if (queueItems) queueItems.replaceChildren();
  const practice = $('results-discursive');
  practice.replaceChildren();
  if (enabled && (!selectedSubject || selectedSubject === 'redacao')) {
@@ -394,7 +397,6 @@ function renderAdaptive(plan) {
  }
  $('results-adaptive-actions').replaceChildren(activities.length ? list :
   el('p', 'results-caption', 'Nenhuma atividade prioritária com os registros atuais.'));
- const queueSection = $('results-adaptive-queue'), queueItems = $('results-adaptive-queue-items');
  if (queueSection && queueItems) {
   queueSection.hidden = remaining.children.length === 0;
   queueItems.replaceChildren(remaining);

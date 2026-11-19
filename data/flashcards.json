@@ -13245,12 +13245,12 @@
     {
       "id": "camara-pl33-cpi",
       "term": "Comissão Parlamentar de Inquérito (CPI)",
-      "definition": "Comissão temporária de investigação de fato determinado, com prazo certo, criada por requerimento de um terço dos integrantes da Câmara ou do Senado; é formada por parlamentares da respectiva Casa.",
-      "example": "Uma CPI do Senado é formada por senadores, para investigar fato delimitado.",
-      "confusion": "Um terço refere-se às assinaturas para criação, não ao número obrigatório de membros ou ao quórum de votação.",
+      "definition": "Para criar CPI na Câmara, são necessárias pelo menos 171 assinaturas de deputados; no Senado, pelo menos 27 assinaturas de senadores (um terço da respectiva Casa, CF art. 58, § 3º). Assinar o requerimento de criação não significa integrar a comissão. O número de integrantes é definido segundo as regras da Casa. O quórum de deliberação é outro requisito.",
+      "example": "Exemplo: uma CPMI com 15 deputados e 15 senadores tem 30 integrantes, embora exija 171 assinaturas de deputados e 27 de senadores para ser criada. São 198 apoiadores mínimos da criação, 30 integrantes para investigar e um quórum regimental próprio para deliberar.",
+      "confusion": "O requisito de 1/3 corresponde às assinaturas para criar, não ao número de integrantes ou quórum para deliberar.",
       "contrast": {
-        "prompt": "Qual é a definição de Comissão Parlamentar de Inquérito (CPI) e qual confusão deve ser evitada?",
-        "answer": "Comissão temporária de investigação de fato determinado, com prazo certo, criada por requerimento de um terço dos integrantes da Câmara ou do Senado; é formada por parlamentares da respectiva Casa. Um terço refere-se às assinaturas para criação, não ao número obrigatório de membros ou ao quórum de votação."
+        "prompt": "Uma CPMI requer 171 assinaturas de deputados e 27 de senadores. Isso obriga a comissão a ter 198 integrantes?",
+        "answer": "Não. Essas são as assinaturas mínimas para criação. O ato de criação fixa a composição, com igual número de deputados e senadores; o quórum de deliberação é uma terceira regra."
       },
       "conceptIds": [
         "glo-camara-cpi"
@@ -13270,23 +13270,23 @@
         "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
       },
       "source": {
-        "title": "CF, art. 58, § 3º",
-        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
-        "locator": "CF, art. 58, § 3º"
+        "title": "CF, art. 58, § 3º; Regimento Comum, art. 21",
+        "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
+        "locator": "CF, art. 58, § 3º; RCCN, art. 21"
       },
       "status": "reviewed",
       "reviewedAt": "2026-11-19",
-      "revision": 1
+      "revision": 2
     },
     {
       "id": "camara-pl33-cpmi",
       "term": "Comissão Parlamentar Mista de Inquérito (CPMI)",
-      "definition": "Investigação parlamentar conjunta de fato determinado e por prazo certo, com deputados e senadores em igual número. Sua criação requer um terço das assinaturas de cada Casa; o total de participantes é definido para a comissão.",
-      "example": "Um requerimento assinado apenas por deputados não constitui CPMI.",
-      "confusion": "CPMI é investigação conjunta; a comissão mista que analisa MP exerce função legislativa, não investigação.",
+      "definition": "Para criar CPMI são necessárias pelo menos 171 assinaturas de deputados E 27 assinaturas de senadores, separadamente. O art. 21 do Regimento Comum prevê que o número de integrantes é fixado no ato de criação, com igual participação de deputados e senadores. As 198 assinaturas mínimas de criação não definem o tamanho da CPMI, nem seu quórum de deliberação.",
+      "example": "Exemplo: uma CPMI com 15 deputados e 15 senadores tem 30 integrantes, embora exija 171 assinaturas de deputados e 27 de senadores para ser criada. São 198 apoiadores mínimos da criação, 30 integrantes para investigar e um quórum regimental próprio para deliberar.",
+      "confusion": "O requisito de 1/3 corresponde às assinaturas para criar, não ao número de integrantes ou quórum para deliberar.",
       "contrast": {
-        "prompt": "Qual é a definição de Comissão Parlamentar Mista de Inquérito (CPMI) e qual confusão deve ser evitada?",
-        "answer": "Investigação parlamentar conjunta de fato determinado e por prazo certo, com deputados e senadores em igual número. Sua criação requer um terço das assinaturas de cada Casa; o total de participantes é definido para a comissão. CPMI é investigação conjunta; a comissão mista que analisa MP exerce função legislativa, não investigação."
+        "prompt": "Uma CPMI requer 171 assinaturas de deputados e 27 de senadores. Isso obriga a comissão a ter 198 integrantes?",
+        "answer": "Não. Essas são as assinaturas mínimas para criação. O ato de criação fixa a composição, com igual número de deputados e senadores; o quórum de deliberação é uma terceira regra."
       },
       "conceptIds": [
         "glo-camara-cpmi"
@@ -13307,22 +13307,22 @@
       },
       "source": {
         "title": "CF, art. 58, § 3º; Regimento Comum, art. 21",
-        "url": "https://www.congressonacional.leg.br/entenda-as-comissoes-mistas",
-        "locator": "CF, art. 58, § 3º; Regimento Comum, art. 21"
+        "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
+        "locator": "CF, art. 58, § 3º; RCCN, art. 21"
       },
       "status": "reviewed",
       "reviewedAt": "2026-11-19",
-      "revision": 1
+      "revision": 2
     },
     {
       "id": "camara-pl33-cpi-versus-cpmi",
       "term": "CPI versus CPMI",
-      "definition": "CPI federal é criada numa das Casas e composta por seus parlamentares; CPMI reúne deputados e senadores paritariamente. Ambas exigem fato determinado e prazo certo e possuem poderes de investigação próprios das autoridades judiciais dentro dos limites constitucionais.",
-      "example": "Investigação apenas na Câmara: CPI. Investigação conjunta Câmara/Senado: CPMI.",
-      "confusion": "CPI requer um terço da Casa respectiva; CPMI requer um terço de cada Casa. Nenhuma delas condena criminalmente.",
+      "definition": "CPI da Câmara: 171 assinaturas mínimas; CPI do Senado: 27. CPMI: 171 assinaturas de deputados E 27 de senadores (198, mas não basta a soma sem a distribuição por Casa). Isso é requisito de criação. A composição de CPI segue regras da respectiva Casa; a de CPMI é fixada no ato de criação com igual número de deputados e senadores. Quórum para deliberar segue regras próprias da comissão.",
+      "example": "Exemplo: uma CPMI com 15 deputados e 15 senadores tem 30 integrantes, embora exija 171 assinaturas de deputados e 27 de senadores para ser criada. São 198 apoiadores mínimos da criação, 30 integrantes para investigar e um quórum regimental próprio para deliberar.",
+      "confusion": "O requisito de 1/3 corresponde às assinaturas para criar, não ao número de integrantes ou quórum para deliberar.",
       "contrast": {
-        "prompt": "Qual é a definição de CPI versus CPMI e qual confusão deve ser evitada?",
-        "answer": "CPI federal é criada numa das Casas e composta por seus parlamentares; CPMI reúne deputados e senadores paritariamente. Ambas exigem fato determinado e prazo certo e possuem poderes de investigação próprios das autoridades judiciais dentro dos limites constitucionais. CPI requer um terço da Casa respectiva; CPMI requer um terço de cada Casa. Nenhuma delas condena criminalmente."
+        "prompt": "Uma CPMI requer 171 assinaturas de deputados e 27 de senadores. Isso obriga a comissão a ter 198 integrantes?",
+        "answer": "Não. Essas são as assinaturas mínimas para criação. O ato de criação fixa a composição, com igual número de deputados e senadores; o quórum de deliberação é uma terceira regra."
       },
       "conceptIds": [
         "glo-camara-cpi-versus-cpmi"
@@ -13342,13 +13342,13 @@
         "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
       },
       "source": {
-        "title": "CF, art. 58, § 3º",
-        "url": "https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/comissoes",
-        "locator": "CF, art. 58, § 3º"
+        "title": "CF, art. 58, § 3º; Regimento Comum, art. 21",
+        "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
+        "locator": "CF, art. 58, § 3º; RCCN, art. 21"
       },
       "status": "reviewed",
       "reviewedAt": "2026-11-19",
-      "revision": 1
+      "revision": 2
     },
     {
       "id": "camara-pl33-preliminar",

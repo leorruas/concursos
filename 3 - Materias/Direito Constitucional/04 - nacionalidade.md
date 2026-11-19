@@ -177,6 +177,3 @@ A cobrança tende a deslocar uma condição constitucional para a hipótese erra
 - [Constituição da República Federativa do Brasil de 1988, texto atualizado da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), arts. 5º, LI, e 12.
 - Emenda Constitucional nº 131, de 3 de outubro de 2023.
 
----
-**Fontes Brutas:**
-

@@ -22,7 +22,7 @@ aliases:
 
 O **art. 61, caput, da Constituição Federal** estabelece a iniciativa das **leis ordinárias e complementares**. Os §§ 1º e 2º estabelecem, respectivamente, hipóteses de **iniciativa privativa do presidente da República** e **iniciativa popular federal**. Outros dispositivos constituem reservas específicas de iniciativa: arts. **51, IV, 52, XIII, 93, 96, II, 127, § 2º, 128, § 5º, e 165**, por exemplo, segundo a matéria e o nível federativo. **Não se pode usar o rol do art. 61 como se ele resolvesse, sozinho, a iniciativa de toda espécie do art. 59.**
 
-Esta unidade **CAM-PL-002** aprofunda **quem pode iniciar, em qual matéria, com que alcance e quais as consequências da iniciativa inadequada**. A [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]] conceitua proposições regimentais. A [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|nota constitucional sobre processo legislativo]] já aborda espécies normativas e PEC; permanece como referência sem duplicação.
+O ponto central é identificar **quem pode iniciar cada proposta, em qual matéria, com que alcance e quais são as consequências da iniciativa inadequada**. A [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]] conceitua proposições regimentais. A [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|nota constitucional sobre processo legislativo]] já aborda espécies normativas e PEC; permanece como referência sem duplicação.
 
 ### Caso comparativo: mesmo autor, matérias distintas
 
@@ -36,6 +36,24 @@ Altere uma única variável: se a proposição trata de cargos da **estrutura ad
 
 A distinção também se aplica ao Senado no **art. 52, XIII**. Se a questão disser que, por tratar de servidores federais, a remuneração dos serviços da Câmara depende de projeto iniciado pelo **Presidente da República**, terá deslocado a iniciativa própria da Casa. Se disser que a Câmara pode fixar essa remuneração sem lei, terá confundido a competência de organização com o instrumento exigido para remuneração. A Constituição separa explicitamente essas duas funções.
 
+### Comparação de instrumentos, competências e efeitos
+
+**Situação concreta.** A União deseja modificar a organização de um ministério, atualizar a remuneração de servidores da Câmara, criar cargos em tribunal federal e instituir política de transparência proposta por cidadãos. Todos podem envolver **lei ordinária ou complementar**, mas a **iniciativa constitucional** não pertence ao mesmo sujeito. É preciso separar **titular legitimado**, **objeto material**, **Casa iniciadora**, **instrução**, **emendas** e **ato final**.
+
+A lista do **art. 61, caput, da Constituição** é ponto de partida para leis ordinárias e complementares: deputados, senadores, comissões da Câmara/Senado/Congresso, Presidente da República, STF, tribunais superiores, Procurador-Geral da República (PGR) e cidadãos, **na forma e nos casos previstos na Constituição**. Logo, o rol **não transforma a iniciativa excepcional ou reservada de cada órgão em competência universal**.
+
+| Sujeito ou órgão | O que pode iniciar | Casa ou percurso inicial: fronteira de prova | Limite importante |
+| :--- | :--- | :--- | :--- |
+| **Presidente da República** | Leis em geral e matérias **privativas** do art. 61, § 1º; projetos orçamentários do art. 165 | **Câmara**, por determinação do **art. 64**, para projetos de lei presidenciais | Não confundir apresentação com **pedido de urgência** do art. 64, § 1º, que exige ato próprio |
+| **Deputado ou comissão da Câmara** | Projetos de lei em matérias de iniciativa não reservada; propostas da competência própria de comissão ou Mesa segundo regimento | **Câmara**, conforme autoria e rito | Comissão é colegiado legitimado, mas **seu relator individual** não assume por isso iniciativa constitucional de outro Poder |
+| **Senador ou comissão do Senado** | Projetos de lei em matérias não reservadas e outras proposições de sua competência | **Senado**, como regra; a Câmara exerce revisão no processo legislativo comum | Não confundir autoria senatorial com a regra específica do **art. 64**, aplicável a outros sujeitos |
+| **Comissão do Congresso Nacional** | Projeto de lei, nos casos admitidos pelo **art. 61** | Tramitação conforme regimento e espécie; a menção a **Congresso** como legitimado **não significa votação de lei em sessão conjunta por regra geral** | Comissão mista **não substitui** deliberação bicameral quando a Constituição a exige |
+| **STF e tribunais superiores** | Projetos constitucionalmente atribuídos, como organização judiciária e cargos segundo **art. 96, II**; STF também propõe **Estatuto da Magistratura** por LC (**art. 93**) | Projetos de lei têm **início na Câmara**, pelo **art. 64** | Não inferir que qualquer tribunal federal ou qualquer magistrado individual tem a mesma iniciativa; conferir órgão competente e matéria |
+| **PGR e Ministério Público** | Iniciativa do PGR no **art. 61**, observadas matérias próprias e regime do **art. 127, § 2º** e **art. 128, § 5º** | **Não consta na enumeração específica do art. 64** para início obrigatório na Câmara; a tramitação deve observar a regra aplicável ao projeto | A menção ao PGR como legitimado não autoriza legislar sobre qualquer tema nem retirar a iniciativa própria de tribunais |
+| **Cidadãos** | **Projeto de lei federal** mediante iniciativa popular do **art. 61, § 2º** | Apresentado à **Câmara** | Exige **1% do eleitorado nacional**, distribuído em **pelo menos cinco estados**, com **0,3% dos eleitores de cada um**; **não é PEC federal popular direta** |
+
+A tabela distingue **iniciativa** e **competência**: o Presidente pode apresentar projetos de lei em matérias não reservadas, mas não assume iniciativa de **lei remuneratória dos serviços da Câmara ou do Senado**, atribuída às respectivas Casas (**arts. 51, IV, e 52, XIII**). O Congresso tampouco possui iniciativa universal sobre a organização administrativa dos outros Poderes.
+
 ## Estrutura: três perguntas independentes
 
 | Pergunta | O que identificar | Erro característico |
@@ -46,23 +64,21 @@ A distinção também se aplica ao Senado no **art. 52, XIII**. Se a questão di
 
 **Iniciativa geral** significa pluralidade de titulares nas matérias não reservadas. **Iniciativa reservada** decorre de previsão constitucional de atribuição a sujeito ou órgão específico. A reserva deve ser **identificada pela matéria**, não por semelhança vaga com “administração” ou “interesse público”. É necessário ainda distinguir **reserva de iniciativa** de **competência legislativa da União**: a primeira responde *quem apresenta*, a segunda responde *qual ente pode legislar*.
 
+### Presidência: iniciativa geral, reserva, urgência e participação final
+
+**Primeira distinção: iniciativa geral × reservada.** O Presidente está entre os legitimados do art. 61 para matéria de iniciativa geral e é **único titular de iniciativa** das matérias do § 1º, nos limites da reserva. Exemplo: criação de cargos na administração **direta e autárquica federal** e seu aumento remuneratório (**art. 61, § 1º, II, a**); **não** estender automaticamente ao Legislativo, ao Judiciário ou a toda empresa estatal.
+
+**Segunda: projeto presidencial × medida provisória × lei delegada.** O Presidente pode **iniciar projeto de lei** (arts. 61 e 64), **editar medida provisória** em caso de relevância e urgência (art. 62) ou **solicitar delegação** ao Congresso para elaborar **lei delegada** (art. 68). São mecanismos e controles diferentes. Na MP a força normativa se inicia antes da conversão, enquanto a delegação é **prévia e expressa**; projeto de lei ordinário ou complementar segue a aprovação parlamentar e, quando cabível, sanção e veto.
+
+**Terceira: projeto de iniciativa presidencial × pedido de urgência.** O **art. 64, § 1º**, diz que o Presidente **poderá solicitar urgência para projetos de sua iniciativa**. Sem essa solicitação, não se aplica automaticamente o rito dos **45 dias por Casa**, e nem toda proposição considerada relevante pelo Presidente é uma MP. Os **projetos de código** não se submetem ao regime de urgência do art. 64 (**§ 4º**).
+
+**Quarta: sanção não conserta iniciativa.** Se deputado inicia projeto cujo objeto é constitucionalmente reservado ao Presidente, a posterior **sanção presidencial não supre** o vício de origem. A votação e a concordância política integram fases diferentes da iniciativa.
+
 ## Iniciativa de leis ordinárias e complementares: art. 61, caput
 
-O art. 61 admite, nos termos constitucionais, iniciativa de leis ordinárias e complementares por:
+O **art. 61, caput, da Constituição Federal de 1988** admite iniciativa de leis ordinárias e complementares por parlamentares, comissões legislativas, Presidente da República, Supremo Tribunal Federal, tribunais superiores, Procurador-Geral da República e cidadãos, **na forma e nos casos previstos na Constituição**. A tabela comparativa anterior mostra o alcance dessa regra para cada sujeito, inclusive a Casa onde a tramitação começa. O **art. 109, § 1º, do Regimento Interno da Câmara dos Deputados, aprovado pela Resolução nº 17/1989**, organiza a apresentação dos projetos de lei na Câmara segundo esses titulares.
 
-| Titular | Observação decisiva |
-| :--- | :--- |
-| **Qualquer membro da Câmara dos Deputados** | Um deputado pode propor projeto individualmente, quando a matéria não for reservada a outro sujeito |
-| **Qualquer membro do Senado Federal** | Um senador pode iniciar projeto de sua competência, ordinariamente com tramitação inicial no Senado |
-| **Comissão da Câmara, do Senado ou do Congresso** | **Comissão** também pode iniciar projeto, e não apenas parlamentar individual |
-| **Presidente da República** | Tem iniciativa geral, além de reservas específicas |
-| **Supremo Tribunal Federal e Tribunais Superiores** | Iniciativa nos casos constitucionalmente previstos, inclusive assuntos de organização judiciária |
-| **Procurador-Geral da República** | Iniciativa nos casos constitucionais aplicáveis ao Ministério Público |
-| **Cidadãos** | Iniciativa popular federal, sujeita aos requisitos do art. 61, § 2º |
-
-A redação **“na forma e nos casos previstos nesta Constituição”** importa: **o rol dos legitimados não atribui competência irrestrita a cada integrante**. O **art. 109, § 1º, do Regimento Interno da Câmara** apresenta a correspondência para projetos de lei na Casa: deputados, comissões ou Mesa, Senado, presidente, STF, tribunais superiores, PGR e cidadãos.
-
-**Deputado individual × comissão:** ambos são possíveis sujeitos de iniciativa legislativa, mas os procedimentos de decisão interna e a apresentação são distintos. **Autor do projeto × relator:** o relator pode sugerir alterações ou parecer, mas ser designado relator não lhe transfere a titularidade da iniciativa constitucional exclusiva de outro órgão.
+**A diferença prática:** um deputado pode apresentar individualmente projeto sobre matéria de iniciativa geral; uma **comissão** atua como órgão colegiado, segundo seu procedimento interno; e o **relator** examina uma proposição já apresentada, sem receber por isso a iniciativa constitucional de outro Poder. A mesma pessoa pode exercer funções distintas no processo, mas a competência para **iniciar**, **relatar** e **aprovar** precisa ser identificada separadamente.
 
 ## Iniciativa privativa do presidente: art. 61, § 1º
 
@@ -96,6 +112,18 @@ O STF firmou no **Tema 917 da repercussão geral (ARE 878.911)** que lei de inic
 
 **Duas salvaguardas:** ausência de vício formal de iniciativa **não comprova constitucionalidade material nem regularidade fiscal**; por outro lado, projeção de custo, mesmo alta, **não demonstra por si só** que o projeto é de iniciativa privativa do Executivo.
 
+### Congresso e Casas: iniciativa, competência exclusiva e tipo de ato
+
+A **Câmara** e o **Senado** integram o Congresso e possuem **competências privativas próprias** (CF arts. 51 e 52); o Congresso exerce **competências exclusivas** (art. 49). No exame de iniciativa, a pergunta preliminar é se a matéria requer **lei**, **decreto legislativo**, **resolução** ou **PEC**.
+
+**Exemplo 1:** remuneração de servidores dos serviços da Câmara. O art. 51, IV, confere à Casa **iniciativa de lei** para fixá-la. A Câmara ter autonomia sobre sua organização **não faz da resolução instrumento universal de remuneração**. Remeter ao [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Projetos de decreto legislativo e de resolução: competência, tramitação e efeitos]].
+
+**Exemplo 2:** aprovar tratado na competência do art. 49, I. O veículo próprio da deliberação é, em regra, **decreto legislativo**. Esse processo não se classifica como **projeto de lei de iniciativa do Presidente sujeito a sanção**, mesmo quando o Executivo negociou o tratado.
+
+**Exemplo 3:** um terço dos deputados subscreve **PEC**. A iniciativa segue **art. 60, I**, com **171 subscritores da Câmara**; um deputado sozinho pode iniciar **projeto de lei ordinária** em matéria livre, mas não satisfaz a iniciativa parlamentar de PEC apenas com sua assinatura.
+
+**Exemplo 4:** projeto apresentado por **comissão do Congresso**. A legitimidade de comissão no art. 61 não autoriza considerar aprovado o projeto por decisão da comissão; o poder de **apresentar** é distinto das competências de **instruir, aprovar conclusivamente quando cabível, revisar e promulgar**.
+
 ## As reservas de outros órgãos: o presidente não inicia tudo
 
 O art. 61 deve ser lido com outros dispositivos:
@@ -112,6 +140,16 @@ O art. 61 deve ser lido com outros dispositivos:
 **Regra de leitura:** o fato de uma norma dizer que um Poder pode **dispor sobre sua organização** não implica que todos os assuntos, como a remuneração de servidores, usem **o mesmo tipo de ato**. Na Câmara e no Senado, a Constituição distingue competências internas das Casas e **iniciativa de lei para fixar remuneração**.
 
 **Poderes constitucionais de proposta × autonomia administrativa:** a autonomia de um órgão para elaborar sua proposta de orçamento e gerir recursos **não equivale automaticamente à iniciativa do projeto de LOA**. A proposta setorial é encaminhada pelo fluxo constitucional; o projeto federal é apresentado pelo Executivo. Ver [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|Elaboração da proposta orçamentária federal]].
+
+### Tribunais e Ministério Público: reserva institucional e procedimento
+
+O **art. 93, caput, da Constituição** prevê **lei complementar, de iniciativa do STF**, para o Estatuto da Magistratura. Esse é um exemplo de **dupla reserva**: uma de **espécie legislativa** (LC), outra de **iniciativa** (STF). Um projeto apresentado por deputado como **lei complementar** satisfaria o primeiro elemento, mas **não o segundo**.
+
+O **art. 96, II** estabelece iniciativa de **STF, tribunais superiores e tribunais de Justiça**, perante o Poder Legislativo respectivo, para matérias específicas de organização judiciária, criação/extinção de cargos e outros objetos constitucionalmente enumerados. Não transformar essa previsão em iniciativa universal de **qualquer tribunal ou juiz** para **qualquer política judicial**. No âmbito federal, a organização e a remuneração propostas pelos tribunais exigem observar a **reserva competente**, os limites orçamentários e a **espécie normativa** aplicável.
+
+O **Ministério Público** possui autonomia e competências próprias de iniciativa para estrutura e regime de seus membros, conforme os **arts. 127, § 2º, e 128, § 5º**, que devem ser articulados ao **art. 61**. A referência expressa ao **Procurador-Geral da República** no art. 61 não apaga as condições e limites das matérias institucionais. Uma questão pode trocar indevidamente **STF**, **PGR**, **Procurador-Geral de Justiça** e **Presidente da República**, criando uma definição verdadeira mas aplicada ao órgão errado.
+
+**Fronteira orçamentária:** órgãos do Judiciário e do MP elaboram e encaminham **propostas orçamentárias setoriais** dentro dos limites constitucionais; o **projeto de lei orçamentária federal** é apresentado pelo **Executivo** (CF art. 165). **Elaborar proposta de órgão ≠ iniciar a LOA federal.** Ver [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|Elaboração da proposta orçamentária]].
 
 ## Iniciativa popular federal: três requisitos cumulativos
 
@@ -133,15 +171,27 @@ Os números são cumulativos: atingir **1% nacional** não dispensa distribuiç�
 
 A iniciativa popular nos **municípios** e nos **estados** possui disciplinas constitucionais específicas (arts. 29, XIII, e 27, § 4º) e não deve ser confundida automaticamente com o modelo de projeto federal do art. 61.
 
+### Cidadãos: quantidade, distribuição, apresentação e resultado
+
+A iniciativa popular do **art. 61, § 2º** exige **três condições cumulativas**: mínimo de **1%** do eleitorado nacional, distribuição em **cinco estados** no mínimo e **0,3%** de seus eleitores em cada estado contado para o requisito. O projeto é **apresentado à Câmara** e tramita como proposição legislativa; o apoio de eleitores não o converte automaticamente em lei, não o dispensa de controle de constitucionalidade e **não garante aprovação**.
+
+**Iniciativa popular × plebiscito × referendo:** no projeto popular, cidadãos **apresentam proposta de lei** a representantes; no **plebiscito**, há consulta sobre questão pública antes da decisão; no **referendo**, há consulta posterior para ratificar ou rejeitar decisão, observada a disciplina jurídica. **Petição** ou **abaixo-assinado** que apenas pede providência não satisfaz, por si, a iniciativa popular de lei federal. A PEC federal permanece sujeita aos legitimados do **art. 60**, sem previsão expressa de iniciativa popular direta equivalente ao art. 61, § 2º.
+
 ## Iniciativa ≠ Casa iniciadora ≠ tramitação ≠ sanção
 
 O **art. 64** determina que a discussão e votação de projetos de lei de iniciativa do **presidente da República, do STF e dos tribunais superiores** comecem na **Câmara dos Deputados**. Isso não significa que todo projeto apresentado por senador também tenha início na Câmara: projetos de senadores, em regra, iniciam no Senado.
 
-O presidente pode **solicitar urgência** na apreciação de **projetos de sua iniciativa** (art. 64, § 1º). Trata-se de uma faculdade procedimental com requisitos e consequências próprias; **a iniciativa presidencial não transforma automaticamente todo projeto em urgente**. O § 2º disciplina períodos de **45 dias sucessivos para cada Casa** na hipótese constitucional de urgência, enquanto o § 4º exclui desse regime os projetos de código e suspende os prazos no recesso. Esses pormenores serão aprofundados em CAM-PL-009, sem exigir decorar agora cada rito especial.
+O presidente pode **solicitar urgência** na apreciação de **projetos de sua iniciativa** (art. 64, § 1º). Trata-se de uma faculdade procedimental com requisitos e consequências próprias; **a iniciativa presidencial não transforma automaticamente todo projeto em urgente**. O § 2º disciplina períodos de **45 dias sucessivos para cada Casa** na hipótese constitucional de urgência, enquanto o § 4º exclui desse regime os projetos de código e suspende os prazos no recesso. Para interpretar os prazos, é preciso distinguir essa urgência constitucional dos regimes de tramitação definidos no Regimento Interno.
 
 **Iniciar projeto × emendar projeto:** um projeto de iniciativa presidencial não é imune a emendas parlamentares. Porém, o **art. 63, I, da CF** veda, como regra, **aumento de despesa em projetos de iniciativa exclusiva do presidente**, ressalvado o disposto no art. 166, §§ 3º e 4º, para matérias orçamentárias. O inciso II trata de projetos sobre organização dos serviços administrativos da Câmara, do Senado, dos Tribunais Federais e do Ministério Público. O STF também exige que emendas não desfigurem o objeto originário da matéria.
 
 **Iniciativa inválida × sanção posterior:** o controle de constitucionalidade examina se o projeto partiu de **sujeito legitimado para seu objeto**. Sanção, votação ou interesse público não devem ser empregados como atalho para dispensar a análise do requisito de iniciativa.
+
+### Emendas parlamentares a projetos de iniciativa reservada
+
+**Reserva de iniciativa** limita **quem propõe originalmente**, e não significa que o texto fique inacessível a toda deliberação parlamentar. O **art. 63** veda aumento de despesas em projetos de **iniciativa exclusiva do Presidente**, salvo exceções constitucionais relativas à matéria orçamentária; também alcança projetos sobre organização de serviços administrativos da Câmara, Senado, tribunais federais e MP nas condições do inciso II. Além do requisito orçamentário, a emenda deve observar a **pertinência temática** com o projeto. Não confundir **emendar projeto presidencial** com **propor diretamente outro projeto de matéria reservada**.
+
+**Questão de fronteira:** comissão parlamentar modifica parâmetros da política pública em projeto presidencial sem aumentar a despesa ou desnaturar a finalidade original: a mera iniciativa reservada **não impede automaticamente** a emenda. Se introduz **matéria sem relação com o objeto** ou aumenta despesa em hipótese proibida, o exame muda. O gabarito depende das **condições**, não da fórmula “pode emendar tudo” ou “não pode emendar nada”.
 
 ## Caso progressivo: seis propostas e cinco fronteiras
 
@@ -158,6 +208,24 @@ O presidente pode **solicitar urgência** na apreciação de **projetos de sua i
 **Etapa 6, participação popular.** Um grupo coleta assinaturas de 1% do eleitorado nacional, mas concentra quase todas num único estado. A iniciativa popular federal exige também a **distribuição por cinco estados** e mínimo de **0,3% em cada um**. Apoio nacional alto não substitui a condição territorial.
 
 **Variável final:** se a proposta for agora uma **PEC**, a legitimidade deve ser conferida no art. 60, e não no art. 61, § 2º. **Uma troca de espécie altera o rol de iniciativa.**
+
+### Caso progressivo de oito mudanças
+
+**A.** Deputada propõe lei geral de transparência de serviços federais, sem criar órgãos, cargos ou alterar regime dos servidores. **Iniciativa parlamentar pode ser legítima**, mesmo que a implementação acarrete despesas, conforme os limites do **Tema 917 do STF** já discutido na nota.
+
+**B.** O mesmo projeto cria **cargos no ministério** e aumenta remuneração dos servidores da administração direta. **Muda o titular da iniciativa**: reserva presidencial do art. 61, § 1º, II, a. O fato de a Câmara aprovar e o Presidente sancionar não elimina o problema inicial.
+
+**C.** Deputada propõe isenção tributária geral, sem adentrar reserva constitucional específica. Não há **reserva presidencial universal** em matéria tributária (Tema 682 do STF); cabe examinar regras fiscais e demais limites, não inventar reserva a partir do custo da renúncia.
+
+**D.** A Câmara pretende fixar remuneração dos seus servidores. A **iniciativa de lei é da própria Casa** (art. 51, IV), e não do Presidente da República por ser despesa com pessoal.
+
+**E.** STF pretende iniciar o **Estatuto da Magistratura**: requer **lei complementar de iniciativa do STF** (art. 93). Se um senador subscreve um PLP com igual conteúdo, a **espécie formal** não supre a falta do **titular correto**.
+
+**F.** O Judiciário prepara sua **proposta de orçamento**. Isso não o torna autor do **projeto federal de LOA**, apresentado pelo Executivo (art. 165). A proposta setorial entra no processo orçamentário próprio.
+
+**G.** Eleitores apresentam projeto com 1,2% das assinaturas nacionais, mas somente quatro estados com pelo menos 0,3% de seus eleitores. **Não satisfazem o art. 61, § 2º**: o mínimo de **cinco estados** é cumulativo.
+
+**H.** O Presidente inicia PEC e obtém três quintos em dois turnos nas duas Casas. **Não haverá sanção ou veto**, mas **promulgação pelas Mesas da Câmara e do Senado** (art. 60, § 3º). Ser autor da iniciativa não torna o Presidente agente da promulgação da emenda.
 
 ## Como a Cebraspe cobra
 
@@ -191,88 +259,6 @@ A banca pode trocar **titular da iniciativa** por **Casa iniciadora**; tratar to
 
 **Gabarito: Errado.** A iniciativa de **PEC federal** segue o **art. 60**, cujo rol é distinto e não contempla iniciativa popular direta nos moldes do art. 61, § 2º. **Distrator:** deslocar a condição de uma espécie à outra.
 
-## Refinamento CAM-PL-017: Presidência, Congresso, tribunais e cidadãos na iniciativa legislativa
-
-### Um problema, quatro caminhos institucionais
-
-**Situação concreta.** A União deseja modificar a organização de um ministério, atualizar a remuneração de servidores da Câmara, criar cargos em tribunal federal e instituir política de transparência proposta por cidadãos. Todos podem envolver **lei ordinária ou complementar**, mas a **iniciativa constitucional** não pertence ao mesmo sujeito. É preciso separar **titular legitimado**, **objeto material**, **Casa iniciadora**, **instrução**, **emendas** e **ato final**.
-
-A lista do **art. 61, caput, da Constituição** é ponto de partida para leis ordinárias e complementares: deputados, senadores, comissões da Câmara/Senado/Congresso, Presidente da República, STF, tribunais superiores, Procurador-Geral da República (PGR) e cidadãos, **na forma e nos casos previstos na Constituição**. Logo, o rol **não transforma a iniciativa excepcional ou reservada de cada órgão em competência universal**.
-
-| Sujeito ou órgão | O que pode iniciar | Casa ou percurso inicial: fronteira de prova | Limite importante |
-| :--- | :--- | :--- | :--- |
-| **Presidente da República** | Leis em geral e matérias **privativas** do art. 61, § 1º; projetos orçamentários do art. 165 | **Câmara**, por determinação do **art. 64**, para projetos de lei presidenciais | Não confundir apresentação com **pedido de urgência** do art. 64, § 1º, que exige ato próprio |
-| **Deputado ou comissão da Câmara** | Projetos de lei em matérias de iniciativa não reservada; propostas da competência própria de comissão ou Mesa segundo regimento | **Câmara**, conforme autoria e rito | Comissão é colegiado legitimado, mas **seu relator individual** não assume por isso iniciativa constitucional de outro Poder |
-| **Senador ou comissão do Senado** | Projetos de lei em matérias não reservadas e outras proposições de sua competência | **Senado**, como regra; a Câmara exerce revisão no processo legislativo comum | Não confundir autoria senatorial com a regra específica do **art. 64**, aplicável a outros sujeitos |
-| **Comissão do Congresso Nacional** | Projeto de lei, nos casos admitidos pelo **art. 61** | Tramitação conforme regimento e espécie; a menção a **Congresso** como legitimado **não significa votação de lei em sessão conjunta por regra geral** | Comissão mista **não substitui** deliberação bicameral quando a Constituição a exige |
-| **STF e tribunais superiores** | Projetos constitucionalmente atribuídos, como organização judiciária e cargos segundo **art. 96, II**; STF também propõe **Estatuto da Magistratura** por LC (**art. 93**) | Projetos de lei têm **início na Câmara**, pelo **art. 64** | Não inferir que qualquer tribunal federal ou qualquer magistrado individual tem a mesma iniciativa; conferir órgão competente e matéria |
-| **PGR e Ministério Público** | Iniciativa do PGR no **art. 61**, observadas matérias próprias e regime do **art. 127, § 2º** e **art. 128, § 5º** | **Não consta na enumeração específica do art. 64** para início obrigatório na Câmara; a tramitação deve observar a regra aplicável ao projeto | A menção ao PGR como legitimado não autoriza legislar sobre qualquer tema nem retirar a iniciativa própria de tribunais |
-| **Cidadãos** | **Projeto de lei federal** mediante iniciativa popular do **art. 61, § 2º** | Apresentado à **Câmara** | Exige **1% do eleitorado nacional**, distribuído em **pelo menos cinco estados**, com **0,3% dos eleitores de cada um**; **não é PEC federal popular direta** |
-
-A tabela distingue **iniciativa** e **competência**: o Presidente pode apresentar projetos de lei em matérias não reservadas, mas não assume iniciativa de **lei remuneratória dos serviços da Câmara ou do Senado**, atribuída às respectivas Casas (**arts. 51, IV, e 52, XIII**). O Congresso tampouco possui iniciativa universal sobre a organização administrativa dos outros Poderes.
-
-### Presidência: iniciativa geral, reserva, urgência e participação final
-
-**Primeira distinção: iniciativa geral × reservada.** O Presidente está entre os legitimados do art. 61 para matéria de iniciativa geral e é **único titular de iniciativa** das matérias do § 1º, nos limites da reserva. Exemplo: criação de cargos na administração **direta e autárquica federal** e seu aumento remuneratório (**art. 61, § 1º, II, a**); **não** estender automaticamente ao Legislativo, ao Judiciário ou a toda empresa estatal.
-
-**Segunda: projeto presidencial × medida provisória × lei delegada.** O Presidente pode **iniciar projeto de lei** (arts. 61 e 64), **editar medida provisória** em caso de relevância e urgência (art. 62) ou **solicitar delegação** ao Congresso para elaborar **lei delegada** (art. 68). São mecanismos e controles diferentes. Na MP a força normativa se inicia antes da conversão, enquanto a delegação é **prévia e expressa**; projeto de lei ordinário ou complementar segue a aprovação parlamentar e, quando cabível, sanção e veto.
-
-**Terceira: projeto de iniciativa presidencial × pedido de urgência.** O **art. 64, § 1º**, diz que o Presidente **poderá solicitar urgência para projetos de sua iniciativa**. Sem essa solicitação, não se aplica automaticamente o rito dos **45 dias por Casa**, e nem toda proposição considerada relevante pelo Presidente é uma MP. Os **projetos de código** não se submetem ao regime de urgência do art. 64 (**§ 4º**).
-
-**Quarta: sanção não conserta iniciativa.** Se deputado inicia projeto cujo objeto é constitucionalmente reservado ao Presidente, a posterior **sanção presidencial não supre** o vício de origem. A votação e a concordância política integram fases diferentes da iniciativa.
-
-### Congresso e Casas: iniciativa, competência exclusiva e tipo de ato
-
-A **Câmara** e o **Senado** integram o Congresso e possuem **competências privativas próprias** (CF arts. 51 e 52); o Congresso exerce **competências exclusivas** (art. 49). No exame de iniciativa, a pergunta preliminar é se a matéria requer **lei**, **decreto legislativo**, **resolução** ou **PEC**.
-
-**Exemplo 1:** remuneração de servidores dos serviços da Câmara. O art. 51, IV, confere à Casa **iniciativa de lei** para fixá-la. A Câmara ter autonomia sobre sua organização **não faz da resolução instrumento universal de remuneração**. Remeter ao [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Projetos de decreto legislativo e de resolução: competência, tramitação e efeitos]].
-
-**Exemplo 2:** aprovar tratado na competência do art. 49, I. O veículo próprio da deliberação é, em regra, **decreto legislativo**. Esse processo não se classifica como **projeto de lei de iniciativa do Presidente sujeito a sanção**, mesmo quando o Executivo negociou o tratado.
-
-**Exemplo 3:** um terço dos deputados subscreve **PEC**. A iniciativa segue **art. 60, I**, com **171 subscritores da Câmara**; um deputado sozinho pode iniciar **projeto de lei ordinária** em matéria livre, mas não satisfaz a iniciativa parlamentar de PEC apenas com sua assinatura.
-
-**Exemplo 4:** projeto apresentado por **comissão do Congresso**. A legitimidade de comissão no art. 61 não autoriza considerar aprovado o projeto por decisão da comissão; o poder de **apresentar** é distinto das competências de **instruir, aprovar conclusivamente quando cabível, revisar e promulgar**.
-
-### Tribunais e Ministério Público: reserva institucional e procedimento
-
-O **art. 93, caput, da Constituição** prevê **lei complementar, de iniciativa do STF**, para o Estatuto da Magistratura. Esse é um exemplo de **dupla reserva**: uma de **espécie legislativa** (LC), outra de **iniciativa** (STF). Um projeto apresentado por deputado como **lei complementar** satisfaria o primeiro elemento, mas **não o segundo**.
-
-O **art. 96, II** estabelece iniciativa de **STF, tribunais superiores e tribunais de Justiça**, perante o Poder Legislativo respectivo, para matérias específicas de organização judiciária, criação/extinção de cargos e outros objetos constitucionalmente enumerados. Não transformar essa previsão em iniciativa universal de **qualquer tribunal ou juiz** para **qualquer política judicial**. No âmbito federal, a organização e a remuneração propostas pelos tribunais exigem observar a **reserva competente**, os limites orçamentários e a **espécie normativa** aplicável.
-
-O **Ministério Público** possui autonomia e competências próprias de iniciativa para estrutura e regime de seus membros, conforme os **arts. 127, § 2º, e 128, § 5º**, que devem ser articulados ao **art. 61**. A referência expressa ao **Procurador-Geral da República** no art. 61 não apaga as condições e limites das matérias institucionais. Uma questão pode trocar indevidamente **STF**, **PGR**, **Procurador-Geral de Justiça** e **Presidente da República**, criando uma definição verdadeira mas aplicada ao órgão errado.
-
-**Fronteira orçamentária:** órgãos do Judiciário e do MP elaboram e encaminham **propostas orçamentárias setoriais** dentro dos limites constitucionais; o **projeto de lei orçamentária federal** é apresentado pelo **Executivo** (CF art. 165). **Elaborar proposta de órgão ≠ iniciar a LOA federal.** Ver [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|Elaboração da proposta orçamentária]].
-
-### Cidadãos: quantidade, distribuição, apresentação e resultado
-
-A iniciativa popular do **art. 61, § 2º** exige **três condições cumulativas**: mínimo de **1%** do eleitorado nacional, distribuição em **cinco estados** no mínimo e **0,3%** de seus eleitores em cada estado contado para o requisito. O projeto é **apresentado à Câmara** e tramita como proposição legislativa; o apoio de eleitores não o converte automaticamente em lei, não o dispensa de controle de constitucionalidade e **não garante aprovação**.
-
-**Iniciativa popular × plebiscito × referendo:** no projeto popular, cidadãos **apresentam proposta de lei** a representantes; no **plebiscito**, há consulta sobre questão pública antes da decisão; no **referendo**, há consulta posterior para ratificar ou rejeitar decisão, observada a disciplina jurídica. **Petição** ou **abaixo-assinado** que apenas pede providência não satisfaz, por si, a iniciativa popular de lei federal. A PEC federal permanece sujeita aos legitimados do **art. 60**, sem previsão expressa de iniciativa popular direta equivalente ao art. 61, § 2º.
-
-### Emendas parlamentares a projetos de iniciativa reservada
-
-**Reserva de iniciativa** limita **quem propõe originalmente**, e não significa que o texto fique inacessível a toda deliberação parlamentar. O **art. 63** veda aumento de despesas em projetos de **iniciativa exclusiva do Presidente**, salvo exceções constitucionais relativas à matéria orçamentária; também alcança projetos sobre organização de serviços administrativos da Câmara, Senado, tribunais federais e MP nas condições do inciso II. Além do requisito orçamentário, a emenda deve observar a **pertinência temática** com o projeto. Não confundir **emendar projeto presidencial** com **propor diretamente outro projeto de matéria reservada**.
-
-**Questão de fronteira:** comissão parlamentar modifica parâmetros da política pública em projeto presidencial sem aumentar a despesa ou desnaturar a finalidade original: a mera iniciativa reservada **não impede automaticamente** a emenda. Se introduz **matéria sem relação com o objeto** ou aumenta despesa em hipótese proibida, o exame muda. O gabarito depende das **condições**, não da fórmula “pode emendar tudo” ou “não pode emendar nada”.
-
-### Caso progressivo de oito mudanças
-
-**A.** Deputada propõe lei geral de transparência de serviços federais, sem criar órgãos, cargos ou alterar regime dos servidores. **Iniciativa parlamentar pode ser legítima**, mesmo que a implementação acarrete despesas, conforme os limites do **Tema 917 do STF** já discutido na nota.
-
-**B.** O mesmo projeto cria **cargos no ministério** e aumenta remuneração dos servidores da administração direta. **Muda o titular da iniciativa**: reserva presidencial do art. 61, § 1º, II, a. O fato de a Câmara aprovar e o Presidente sancionar não elimina o problema inicial.
-
-**C.** Deputada propõe isenção tributária geral, sem adentrar reserva constitucional específica. Não há **reserva presidencial universal** em matéria tributária (Tema 682 do STF); cabe examinar regras fiscais e demais limites, não inventar reserva a partir do custo da renúncia.
-
-**D.** A Câmara pretende fixar remuneração dos seus servidores. A **iniciativa de lei é da própria Casa** (art. 51, IV), e não do Presidente da República por ser despesa com pessoal.
-
-**E.** STF pretende iniciar o **Estatuto da Magistratura**: requer **lei complementar de iniciativa do STF** (art. 93). Se um senador subscreve um PLP com igual conteúdo, a **espécie formal** não supre a falta do **titular correto**.
-
-**F.** O Judiciário prepara sua **proposta de orçamento**. Isso não o torna autor do **projeto federal de LOA**, apresentado pelo Executivo (art. 165). A proposta setorial entra no processo orçamentário próprio.
-
-**G.** Eleitores apresentam projeto com 1,2% das assinaturas nacionais, mas somente quatro estados com pelo menos 0,3% de seus eleitores. **Não satisfazem o art. 61, § 2º**: o mínimo de **cinco estados** é cumulativo.
-
-**H.** O Presidente inicia PEC e obtém três quintos em dois turnos nas duas Casas. **Não haverá sanção ou veto**, mas **promulgação pelas Mesas da Câmara e do Senado** (art. 60, § 3º). Ser autor da iniciativa não torna o Presidente agente da promulgação da emenda.
-
 ### Oito itens inéditos Cebraspe Certo/Errado
 
 **1.** Projetos de lei de iniciativa do Presidente da República, do Supremo Tribunal Federal e dos tribunais superiores têm início na Câmara dos Deputados, conforme regra constitucional específica. **Certo.** CF art. 64. A **Casa de início** não implica decisão final exclusiva.
@@ -297,7 +283,7 @@ A iniciativa popular do **art. 61, § 2º** exige **três condições cumulativa
 
 **Aprovação de comissão ≠ titularidade da iniciativa. Proposta orçamentária de órgão ≠ projeto federal de LOA. Presidente inicia PEC ≠ Presidente sanciona PEC. Iniciativa popular ≠ aprovação plebiscitária. Reserva de iniciativa ≠ imunidade às emendas.**
 
-**Fontes de verificação:** [Constituição, arts. 51–52, 60–65, 93, 96, 127–128 e 165, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988); [RICD, arts. 108–109, 202, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html); [STF, Temas 917 e 682](https://portal.stf.jus.br/jurisprudenciaRepercussao/). Este refinamento aplica a leitura institucional do **CAM-PL-017** à nota canônica existente **CAM-PL-002**, preservando \`articleId\`, identidade pública e vínculos multi-edital. Os itens são inéditos; publicação editorial não equivale a estudo pessoal.
+**Fontes de verificação:** [Constituição, arts. 51–52, 60–65, 93, 96, 127–128 e 165, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988); [RICD, arts. 108–109, 202, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html); [STF, Temas 917 e 682](https://portal.stf.jus.br/jurisprudenciaRepercussao/). Os itens de treino são autorais e não reproduzem questões oficiais.
 
 ## Relações com outros temas
 
@@ -306,8 +292,6 @@ A iniciativa popular do **art. 61, § 2º** exige **três condições cumulativa
 - [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]]: competências próprias das Casas, STF/TCU e controle.
 - [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|Elaboração orçamentária federal]]: autonomia de proposta dos Poderes e iniciativa do projeto pelo Executivo.
 - [[3 - Materias/Orcamento Publico/15 - emendas parlamentares deliberacao e rastreabilidade|Emendas orçamentárias]]: arts. 63 e 166 e limites da proposição.
-- **CAM-PL-003**: fases e tramitação, com distinção entre Casa iniciadora e revisora.
-- **CAM-PL-017**: refinamento de comparação institucional nesta mesma nota.
 
 ## Tensões e pegadinhas
 
@@ -336,17 +320,6 @@ Organizar a resposta em **regra geral de iniciativa (art. 61) → iniciativas re
 - [STF, art. 63, controle do aumento de despesas por emendas parlamentares](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=63&abrirBase=CF).
 - [Câmara dos Deputados, Regimento Interno consolidado até Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 
-**Nota editorial:** fontes normativas vigentes verificadas em 07/11/2026. Leis e jurisprudência têm recortes materiais e temporais; uma tese sobre iniciativa não comprova constitucionalidade integral do projeto examinado. Este artigo não registra estudo pessoal, acertos, retenção nem prática em prova.
+**Limite interpretativo:** uma tese judicial sobre iniciativa trata da matéria e das condições examinadas; não garante a constitucionalidade integral de qualquer projeto semelhante.
 
 
-> **Fontes consolidadas para consulta (15/11/2026):** o portal da Câmara disponibiliza o [Regimento Interno atualizado até a Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e a [Constituição atualizada até a Emenda Constitucional nº 141/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988). A consolidação mais recente deve ser consultada quando houver divergência com reproduções antigas. Esta atualização de referências não representa nova certificação de todos os dispositivos citados no artigo.
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Recorte conferido:** texto, quadros, **seis etapas do primeiro caso progressivo**, **oito etapas do caso institucional**, **dois exemplos comentados** e **14 questões C/E**, em dois conjuntos de seis e oito, cotejados com a [Constituição Federal, arts. 51, 52, 60–65, 93, 96, 127, 128 e 165](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988), com o [RICD, arts. 24, 109, 252 e 254](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e com os **Temas 917 e 682 do STF**, especificamente quanto a despesas administrativas e ausência de reserva geral tributária. Preservadas as distinções entre iniciativa geral/reservada, competência da Casa e espécie legislativa, projeto de lei/PEC, emenda parlamentar e sanção.
-
-**NC-PL-051:** incluída a tramitação de **projeto de iniciativa popular** no RICD art. 252: qualificação e organização das assinaturas, documento eleitoral, protocolo e conferência, participação do primeiro signatário ou indicado por 20 minutos, unidade temática, saneamento de falhas formais sem rejeição liminar e deputado designado para atribuições do autor. **NC-PL-052:** distinguida a **sugestão à Comissão de Legislação Participativa**, que pode converter-se em proposição da comissão após parecer favorável (art. 254, § 1º), da iniciativa popular constitucional do art. 61, § 2º.
-
-**Gabaritos mantidos:** CAM-PL-002, seis itens: **C, E, C, E, C, E**; CAM-PL-017, oito itens: **C, E, C, E, E, E, C, E**. **Quatorze questões existentes**, sem inversão identificada. Os itens não foram alterados nem acrescidos ao inventário.
-
-**Limite:** certificação jurídico-editorial deste recorte, sem aferição de todas as interpretações sobre participação popular, de aprendizagem pessoal, nem de publicação/renderização no GitHub Pages.

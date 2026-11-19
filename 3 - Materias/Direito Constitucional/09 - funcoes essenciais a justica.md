@@ -200,22 +200,3 @@ A posição constitucional dessas instituições se relaciona ao artigo [[3 - Ma
 ## Fontes
 
 - [Constituição Federal, texto atualizado da Câmara dos Deputados, arts. 127 a 135](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), especialmente arts. 127, 128, 129, 130-A, 131, 132, 133 e 134.
-- Registro histórico de ingestão arquivado.
-
-
-## Certificação normativa delimitada e lacuna pedagógica: 11/11/2026
-
-**Recorte:** conferidos o conteúdo original e as ampliações sobre MP, AGU, advocacia e Defensoria, confrontados com a [Constituição Federal atualizada, arts. 127–135](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html). O núcleo prévio das quatro funções estava coerente, mas faltavam regras de literalidade e distinção institucional relevantes.
-
-**NC-PL-058:** complementados os **arts. 128–130-A**, com ramos do MPU e MP estadual, chefias e reconduções, garantias e vedações dos membros, funções e limites do MP, e competências e composição do CNMP. **NC-PL-059:** acrescentados **arts. 131, §§ 1º–3º, e 132**, com direção da AGU, PGFN e requisitos/estabilidade dos procuradores estaduais e distritais. **NC-PL-060:** incorporado o **art. 134, §§ 1º–4º**, com garantias, autonomias e os três princípios da Defensoria, sem transferir automaticamente regras de uma instituição à outra.
-
-**Lacuna editorial objetiva:** **zero questões C/E e zero casos progressivos** no DC09 original. Não houve gabaritos a revisar, nem foi criado ou contabilizado qualquer exercício, para preservar a identidade e a rastreabilidade do inventário histórico. A certificação é **normativa do texto ampliado, com ressalva pedagógica expressa**; a preparação para itens Cebraspe e aplicação a casos concretos exigirá complemento próprio caso o planejamento da matéria o determine.
-
-**Limites:** certificação jurídico-editorial do recorte constitucional em 11/11/2026, sem pretensão de esgotar as leis orgânicas de cada carreira, jurisprudência específica, aprendizagem do estudante, teste visual ou confirmação de publicação no GitHub Pages.
-
-
-## Atualização pedagógica: implementação de exercícios
-
-**Estado após os reparos desta rodada (11/11/2026):** a ressalva histórica de **zero exercícios** referia-se à versão anterior à implementação. Foram adicionados **três itens C/E inéditos comentados** e um caso progressivo ao artigo, sem suprimir o texto da certificação normativa anterior. Os itens são autorais e não representam questões oficiais ou respostas do estudante. A conferência é dirigida aos fundamentos constitucionais citados, sem declaração de homologação exaustiva do artigo ou de publicação visual.
-
-**Revisão didática de 14/11/2026:** reorganizada a introdução por situação concreta e missão institucional; esclarecidos princípios do MP, diferença entre atuação individual e institucional, ramos e chefias, ação penal pública, inquérito civil, ação civil pública e controle externo da polícia; acrescentados casos de Advocacia Pública, advocacia e Defensoria, além do contraste CNMP/CNJ. Preservados os subtítulos anteriores, `articleId`, aliases, links canônicos e os três exercícios C/E com gabaritos e comentários. As situações são exemplos didáticos, não casos reais.

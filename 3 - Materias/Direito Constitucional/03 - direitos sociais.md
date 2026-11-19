@@ -16,7 +16,8 @@ Imagine uma criança sem vaga na escola pública e uma pessoa que precisa de ate
 
 ## 1. O Catálogo do Artigo 6º
 
-O **art. 6º da CF** enumera os seguintes direitos sociais. Esta é uma **lista constitucional**, não uma promessa de que todos os serviços serão prestados da mesma forma:
+O **art. 6º da CF** enumera os seguintes direitos sociais. Esta é uma **lista constitucional**. Cada direito tem responsáveis e condições de exercício próprios:
+
 - **Educação**
 - **Saúde**
 - **Alimentação**
@@ -63,6 +64,16 @@ O nome **direito social** reúne proteções com destinatários e mecanismos dif
 
 O art. 7º reúne garantias trabalhistas, incluindo salário mínimo, décimo terceiro salário, repouso semanal remunerado, férias, licença à gestante e proteção contra discriminação nas hipóteses previstas na Constituição. A expressão **“além de outros que visem à melhoria de sua condição social”** indica que a enumeração não é necessariamente fechada. Atenção à identificação do trabalhador e à regra concreta: o artigo contém incisos com requisitos e ressalvas distintos.
 
+**Jornada e repouso semanal: Emenda Constitucional nº 141/2026.** Imagine um contrato de emprego que previa 44 horas por semana. A emenda alterou o art. 7º, XIII, para estabelecer, como limite do trabalho normal, **oito horas por dia e 40 horas por semana**, facultadas a compensação e a redução por acordo ou convenção coletiva. A alteração é progressiva: **até dois meses após a publicação, não se aplica ainda a etapa de 42 horas**; **dois meses após a publicação de 16/10/2026**, o limite semanal normal passa a **42 horas**; **um ano após esse primeiro prazo**, passa a **40 horas** (EC 141, art. 6º). A redução deve ocorrer **sem diminuição salarial**, inclusive para contratos em vigor (art. 2º). Para questões sobre datas, diferencie a regra constitucional de 40 horas de sua implantação gradual.
+
+O art. 7º, XV, também passou a prever **dois dias de repouso semanal remunerado**, um deles preferencialmente aos domingos. **Essa alteração só entra em vigor dois meses após a publicação**, conforme o art. 10, I, da emenda. O novo § 2º do art. 7º admite, excepcionalmente, regime compensatório por convenção ou acordo coletivo que assegure, em média, dois dias de repouso por semana no mês, garantido ao menos um dia dentro do período máximo de uma semana de trabalho. O § 3º admite regimes diferenciados em lei, sob os limites constitucionais. A emenda também prevê regras específicas para contratos administrativos em vigor, empregados de maior remuneração nas condições do art. 8º e outros casos de transição: não aplicar a mesma data ou jornada indistintamente a todos eles.
+
+**Aplicação e controle judicial em novembro de 2026.** Em 12 de novembro, nas Ações Diretas de Inconstitucionalidade (ADIs) 8.041 e 8.042, o Supremo Tribunal Federal (STF), por decisão cautelar do relator, esclareceu aspectos da transição. **Na falta de acordo ou convenção coletiva até 15 de dezembro de 2026**, admitiu que as 42 horas semanais sejam distribuídas em cinco dias de até **8 horas e 24 minutos**, sem adicional de horas extras apenas pelos 24 minutos acima das oito horas diárias durante a etapa intermediária, até 15 de dezembro de 2027. Também previu **90 dias a partir de 16 de dezembro de 2026** para negociação coletiva de eventuais contrapartidas, sem manter em vigor as cláusulas incompatíveis com a emenda.
+
+O relator ainda fixou, cautelarmente, **180 dias contados da publicação da emenda** para adequação de determinados contratos administrativos, com preservação do equilíbrio econômico-financeiro quando cabível, e admitiu a aplicação da exceção do art. 8º a empregados de estatais que exploram atividade econômica em regime concorrencial, se preenchidos os requisitos constitucionais. Essas regras exigem a identificação do tipo de contrato e das condições da decisão; a referência genérica à jornada de 40 horas não resolve casos com transição específica. **A decisão é provisória e sujeita a deliberação colegiada.** Houve pedido de destaque no julgamento virtual, levando a análise ao Plenário presencial, conforme despacho do STF de novembro de 2026. Não apresentar essas medidas como julgamento definitivo do mérito das ADIs. Fontes oficiais: [STF, decisão cautelar de 12/11/2026 nas ADIs 8.041 e 8.042](https://portal.stf.jus.br/processos/downloadPeca.asp?ext=.pdf&id=15392248508) e [STF, despacho posterior sobre o pedido de destaque](https://portal.stf.jus.br/processos/downloadPeca.asp?ext=.pdf&id=15392359190).
+
+**Contraste de prova:** a frase “desde 16 de outubro de 2026, todos os contratos privados estão sujeitos imediatamente ao teto de 40 horas semanais e a dois dias de descanso” está **errada**. A data da publicação, o início do novo repouso e as duas etapas de redução de jornada são diferentes. Fonte: [EC nº 141/2026, publicação oficial da Câmara dos Deputados](https://www2.camara.leg.br/legin/fed/emecon/2026/emendaconstitucional-141-16-outubro-2026-800062-publicacaooriginal-181622-pl.html).
+
 O **art. 8º** protege a liberdade de associação profissional ou sindical, mas também estabelece condições para a organização sindical. Por exemplo, a criação de sindicato não depende de autorização estatal, ressalvado o registro no órgão competente; o dispositivo veda a interferência e a intervenção do poder público na organização sindical. Não confundir liberdade de associação com ausência de toda regra constitucional sobre sindicatos.
 
 O **art. 9º** assegura o direito de greve aos trabalhadores, cabendo a eles decidir sobre a oportunidade de exercê-lo e os interesses que devam defender. A lei define serviços ou atividades essenciais e dispõe sobre o atendimento das necessidades inadiáveis da comunidade; abusos sujeitam os responsáveis às penas da lei. Portanto, a existência do direito não significa exercício sem limites.
@@ -86,6 +97,7 @@ A regra do art. 5º, § 1º, determina **aplicação imediata das normas definid
 ---
 
 ## 6. Pegadinhas de Prova
+
 **Item inédito, Certo ou Errado (C/E) 1:** “Direitos sociais exigem exclusivamente prestações materiais do Estado, enquanto direitos individuais exigem exclusivamente abstenções.” **Errado.** A diferença é útil para compreender a ênfase de cada grupo, mas a palavra **exclusivamente** elimina obrigações de proteção e outras formas de atuação presentes em ambos.
 
 **Item inédito, C/E 2:** “O art. 6º prevê renda básica familiar, mas remete à lei a definição das normas e dos requisitos de acesso.” **Certo.** É o efeito do parágrafo único do art. 6º. A norma constitucional reconhece o direito e exige regulamentação de suas condições, respeitada a legislação fiscal e orçamentária.

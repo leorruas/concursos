@@ -416,7 +416,3 @@ Para aprofundar apenas o ponto que causou dúvida, use a sequência:
 - [Câmara dos Deputados: explicações sobre votação e projetos de lei](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/votacao).
 - [STF, Tema 1.352: lei ordinária e matéria formalmente complementar](https://portal.stf.jus.br/jurisprudenciaRepercussao/tema.asp?num=1352).
 - [STF, Informativo 1.190: tese e condições do Tema 1.352](https://www.stf.jus.br/arquivo/informativo/documento/informativo1190.htm).
-
-**Revisão de clareza (13/11/2026):** incluído quadro inicial de decisão por assunto, explicação da diferença entre projeto e norma promulgada, separação da base constitucional e regimental dos dois turnos e exemplo contínuo de projeto na Câmara, revisão no Senado e sanção ou veto. Mantidos articleId, títulos de seções preexistentes e todos os 18 itens de treino, para preservar os vínculos das questões, do glossário e dos flashcards.
-
-**Registro editorial (12/11/2026):** reestruturação didática integral deste artigo canônico para apresentar primeiro a diferença concreta entre os sete instrumentos; depois, sujeitos, quóruns, processo e limites. Mantidos o **articleId** e os **18 exercícios inéditos** das expansões CAM-PL-011 e CAM-PL-015. Os exercícios foram deslocados para o final, separando estudo e prática. O material do rito da PEC foi concentrado em uma seção de aprofundamento, com fontes oficiais. 

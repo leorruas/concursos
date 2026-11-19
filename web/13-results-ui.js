@@ -118,6 +118,25 @@ function articleReviewEvidence(article){
 function showEditalCoverage(){
  const target=$('results-edital-coverage');if(!target)return;
  target.replaceChildren();
+ const coverage = current?.adaptive?.coverage;
+ if (coverage?.units?.length) {
+  const units = coverage.units.filter(unit => !selectedSubject || unit.subjectId === selectedSubject);
+  target.append(el('p', 'results-caption', 'Referências do edital presentes no banco revisado. A cobertura indica onde há respostas registradas. A extensão total do edital exige conferência adicional.'));
+  for (const unit of units) {
+   const details = el('details', 'results-revision-details');
+   const covered = unit.items.filter(item => item.attempts > 0).length;
+   details.append(el('summary', '', unit.title + (unit.items.length ? ' · ' + covered + ' de ' +
+    unit.items.length + ' referências avaliadas' : ' · Sem referências detalhadas no banco')));
+   const list = el('ul');
+   for (const item of unit.items) list.append(el('li', '', item.editalRef + ' · ' +
+    (item.attempts ? item.attempts + ' resposta(s)' : 'Avaliação sem registro')));
+   if (unit.items.length) details.append(list);
+   target.append(details);
+  }
+  if (!selectedSubject && coverage.unmapped) target.append(el('p', 'results-caption',
+   coverage.unmapped + ' tentativa(s) sem correspondência exata com uma referência detalhada do catálogo.'));
+  return;
+ }
  if(!subjectCatalog||!current){target.append(el('p','results-caption','Catálogo de matérias indisponível.'));return;}
  const rows=window.ResultsStudyPlan.catalogCoverage(subjectCatalog,current.concursoId,current.bySubject||[])
   .filter(s=>!selectedSubject||s.subjectId===selectedSubject);

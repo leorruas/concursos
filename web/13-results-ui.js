@@ -404,7 +404,29 @@ function renderAdaptive(plan) {
   viewAll);
  if (queueSection && queueItems) {
   queueSection.hidden = remaining.children.length === 0;
-  queueItems.replaceChildren(remaining);
+  const rows=[...remaining.children];
+  const count=el('p','results-concept-count',rows.length+' atividades neste concurso'+
+   (selectedSubject?' e matéria':'')+' · mostrando '+Math.min(6,rows.length)+' de '+rows.length);
+  const footer=el('div','results-concepts-footer');
+  let visibleCount=6;
+  function showPage(){
+   rows.forEach((row,index)=>{row.hidden=index>=visibleCount;});
+   count.textContent=rows.length+' atividades neste concurso'+(selectedSubject?' e matéria':'')+
+    ' · mostrando '+Math.min(visibleCount,rows.length)+' de '+rows.length;
+   footer.replaceChildren();
+   if(rows.length>visibleCount){
+    const more=el('button','results-concept-more','Mostrar mais '+Math.min(6,rows.length-visibleCount)+' atividades');
+    more.type='button';
+    more.addEventListener('click',()=>{visibleCount+=6;showPage();});
+    footer.append(more);
+   }else if(rows.length>6){
+    const less=el('button','results-concept-more','Mostrar menos');
+    less.type='button';less.addEventListener('click',()=>{visibleCount=6;showPage();});
+    footer.append(less);
+   }
+  }
+  queueItems.replaceChildren(count,remaining,footer);
+  showPage();
  }
  const signals = plan.principles.flatMap(item => item.signals.filter(signal => signal.elapsed)
   .map(signal => ({ ...signal, title: item.title }))).sort((a,b) => b.date.localeCompare(a.date));

@@ -435,23 +435,6 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 - **Gabarito: ERRADO**
 - **Comentário:** O recurso à CCJC está previsto no **art. 14, § 4º, VII**, com prazo de **5 dias úteis** e efeito suspensivo. A CCJC se pronuncia exclusivamente sobre os vícios **constitucionais, regimentais ou do próprio Código** indicados pelo representado, no prazo de 5 dias úteis. O inciso VIII disciplina a remessa à Mesa após a tramitação, não a hipótese de recurso. A proposta de reexame integral do mérito torna o enunciado errado.
 
-### Rastreabilidade dos seis gabaritos originais
-
-Os fundamentos foram conferidos individualmente com o [Código de Ética consolidado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html), o [Regulamento do Conselho](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/arquivos/regulamento-1/view) e a Constituição. O teste cobre o enunciado de cada item e **não constitui certificação de todo o artigo**.
-
-| Item | Resultado | Fundamento |
-| :--- | :---: | :--- |
-| 1: fraude em deliberação | **E** | Código, **art. 4º, IV**, e **art. 14**: infração incompatível com decoro e decisão plenária |
-| 2: desacato verbal | **C** | Código, **arts. 5º, III, e 12**: hipótese expressa de desacato por palavras, provocação do ofendido e defesa |
-| 3: composição e impedimentos do relator | **C** | Código, **arts. 7º, caput; 13, I, a–b; e 14, § 4º, I**: 21 titulares, 21 suplentes e vedações partidária/estadual |
-| 4: quebra direta de sigilo pelo relator | **E** | Regulamento, **arts. 14–16**: Conselho requer fundamentadamente à Mesa, que submete ao Plenário; não há decreto direto pelo relator |
-| 5: voto secreto e dois terços | **E** | **CF art. 55, § 2º**, após EC 76/2013, e **Código art. 14**: votação ostensiva e maioria absoluta |
-| 6: revisão do mérito pela CCJC | **E** | Código, **art. 14, § 4º, VII**: CCJC aprecia vícios constitucionais, regimentais ou do Código, não o mérito integral |
-
-**Resultado:** 6/6 gabaritos confirmados quanto ao enunciado específico, sem inversão. A questão 2 foi **reescrita** para corresponder à hipótese legal de desacato por palavras, em vez de usar expressão genérica potencialmente ambígua. Os quatro casos sobre suspensão **cautelar** permanecem separados dos seis itens do rito **sancionatório**. A verificação integral do Regulamento e de todos os exemplos continua sendo etapa independente.
-
-**Limite documentado do fluxograma (parecer final de 11/11/2026):** a CCJC aprecia somente os vícios jurídicos apontados no recurso, não reexamina o mérito. O percurso gráfico distingue o recurso não acolhido da hipótese de reconhecimento de vício; as consequências observam a decisão da CCJC. O desenho sintetiza, sem substituir, os arts. 13, IV–V, e 14, § 4º, VII–VIII. **A renderização visual efetiva do Mermaid não foi testada**; esta é uma ressalva técnica do parecer **aprovado com ressalvas**, não um impedimento para encerrar esta auditoria.
-
 ## Fontes primárias e controle de vigência
 
 - **[Acordo de Procedimentos 2025–2027, PDF oficial](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027-1/view):** regras operacionais do biênio, itens 1 a 6, com alteração expressa de 5/8/2025 no item 2; consultar eventuais alterações supervenientes antes da prova. O PDF oficial foi confrontado em texto e em páginas visuais na revisão de 11/11/2026.

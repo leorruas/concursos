@@ -3,7 +3,7 @@
  'use strict';
  const views=[
   {id:'resumo',label:'Resumo',selectors:['#results-adaptive','#results-legacy','#results-retention']},
-  {id:'revisoes',label:'Revisões',selectors:['#results-adaptive-queue','[aria-labelledby="results-next-studies-title"]','[aria-labelledby="results-review-queue-title"]','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]']},
+  {id:'revisoes',label:'Revisões',selectors:['#results-adaptive-queue','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]']},
   {id:'materias',label:'Matérias',selectors:['[aria-labelledby="title-subjects"]','[aria-labelledby="results-edital-coverage-title"]','[aria-labelledby="results-difficulty-heading"]','[aria-labelledby="results-coverage-title"]']},
   {id:'historico',label:'Histórico',selectors:['#results-principle-history','[aria-labelledby="results-concept-transfer-title"]']}
  ];
@@ -121,6 +121,10 @@
  moveDetail('results-competitive-simulations','materias','Simulados');
  moveDetail('results-quiz-stats','historico','Origem dos registros');
  moveDetail('results-quiz-status','historico','Conciliação das fontes');
+ moveDetail('results-articles','historico','Questões e explicações por artigo');
+ // Fila antiga segue no DOM para compatibilidade, mas nao duplica o motor adaptativo.
+ const legacyShell=root.querySelector('.results-history-content');
+ if(legacyShell)legacyShell.hidden=true;
  // O bloco discursivo estava dentro do Resumo quando o painel foi destacado do DOM.
  // Move-lo depois de anexar as visoes evita que querySelector perca o descendente.
  const practice=document.getElementById('results-discursive');

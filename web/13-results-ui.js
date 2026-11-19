@@ -120,30 +120,40 @@ function showEditalCoverage(){
  target.replaceChildren();
  const coverage = current?.adaptive?.coverage;
  if (coverage?.units?.length) {
-  const units = coverage.units.filter(unit => !selectedSubject || unit.subjectId === selectedSubject);
-  target.append(el('p', 'results-caption', 'Referências do edital presentes no banco revisado. A cobertura indica onde há respostas registradas. A extensão total do edital exige conferência adicional.'));
-  for (const unit of units) {
-   const details = el('details', 'results-revision-details');
-   const covered = unit.items.filter(item => item.attempts > 0).length;
-   details.append(el('summary', '', unit.title + (unit.items.length ? ' · ' + covered + ' de ' +
-    unit.items.length + ' referências avaliadas' : ' · Sem referências detalhadas no banco')));
-   if (unit.studyStatus === 'studied-unassessed') {
-    details.append(el('p', 'results-caption', 'Estudo registrado em ' + fmtDate(unit.exposition) + '. Ainda sem avaliação na unidade.'));
-   } else if (unit.studyStatus === 'confirmed-not-studied') {
-    details.append(el('p', 'results-caption', 'Unidade declarada como ainda não estudada em ' + fmtDate(unit.confirmedNotStudiedOn) + '.'));
-   } else if (unit.studyStatus === 'unknown') {
-    details.append(el('p', 'results-caption', 'Sem evidência suficiente de estudo ou avaliação na unidade.'));
-   } else if (unit.studyStatus === 'evaluated') {
-    details.append(el('p', 'results-caption', unit.evaluated + ' resposta(s) na unidade. A contagem inclui referências amplas.'));
+  const units=coverage.units.filter(unit=>!selectedSubject||unit.subjectId===selectedSubject);
+  const total=units.reduce((sum,unit)=>sum+unit.items.length,0);
+  const evaluated=units.reduce((sum,unit)=>sum+unit.items.filter(item=>item.attempts>0).length,0);
+  target.append(el('p','results-coverage-overview',evaluated+' de '+total+' '+(total===1?'referência':'referências')+' com respostas vinculadas'),
+   el('p','results-caption','Sem questões vinculadas significa que não há respostas associadas à referência exata do edital. O assunto pode ter sido estudado ou avaliado de outra forma.'));
+  for(const unit of units){
+   const section=el('section','results-edital-unit');
+   const heading=el('div','results-edital-unit-heading');
+   const unitName=el('h3','',unit.title);
+   const covered=unit.items.filter(item=>item.attempts>0).length;
+   heading.append(unitName,el('span','results-edital-unit-total',covered+' / '+unit.items.length+' referências'));
+   section.append(heading);
+   let description='';
+   if(unit.studyStatus==='studied-unassessed')description='Estudo registrado em '+fmtDate(unit.exposition)+'. Sem questões vinculadas a esta unidade.';
+   else if(unit.studyStatus==='confirmed-not-studied')description='Ainda não estudado, conforme registro de '+fmtDate(unit.confirmedNotStudiedOn)+'.';
+   else if(unit.studyStatus==='unknown')description='Sem informação suficiente sobre estudo ou respostas.';
+   else if(unit.studyStatus==='evaluated')description=unit.evaluated+' respostas associadas à unidade, incluindo referências gerais.';
+   if(description)section.append(el('p','results-edital-unit-description',description));
+   const list=el('div','results-edital-list');
+   for(const item of unit.items){
+    const row=el('div','results-edital-row');
+    const reference=el('span','results-edital-ref',item.editalRef);
+    const count=Number(item.attempts)||0;
+    const state=el('span','results-edital-state',count>0
+     ?count+' '+(count===1?'resposta vinculada':'respostas vinculadas'):'Sem questões vinculadas');
+    if(count>0)state.classList.add('has-results');
+    row.append(reference,state);list.append(row);
    }
-   const list = el('ul');
-   for (const item of unit.items) list.append(el('li', '', item.editalRef + ' · ' +
-    (item.attempts ? item.attempts + ' resposta(s)' : 'Avaliação sem registro')));
-   if (unit.items.length) details.append(list);
-   target.append(details);
+   if(!unit.items.length)section.append(el('p','results-caption','Sem referências detalhadas neste grupo.'));
+   else section.append(list);
+   target.append(section);
   }
-  if (!selectedSubject && coverage.unmapped) target.append(el('p', 'results-caption',
-   coverage.unmapped + ' tentativa(s) sem correspondência exata com uma referência detalhada do catálogo.'));
+  if(!selectedSubject&&coverage.unmapped)target.append(el('p','results-caption',
+   coverage.unmapped+' tentativa(s) sem correspondência exata com uma referência detalhada do catálogo.'));
   return;
  }
  if(!subjectCatalog||!current){target.append(el('p','results-caption','Catálogo de matérias indisponível.'));return;}
@@ -364,32 +374,32 @@ function renderAdaptive(plan) {
  const list = el('ul'), remaining = el('ul');
  // Todas as recomendacoes fora do resumo permanecem na pagina de Revisoes.
  for (const item of [...activities, ...ranked.filter(item => !activities.includes(item))]) {
-  const row = el('li');
-  const action = adaptiveActions[item.action] || 'Revisar';
-  const label = /^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(item.title) ? item.title.replaceAll('-', ' ') : item.title;
-  if (item === extra) row.append(el('p', 'results-meta', 'Bateria disponível'));
-  row.append(el('h3', '', action + ' · ' + label),
-   el('p', 'results-meta', title(item.subjectId) + ' · Prioridade ' + ({high:'alta',medium:'média',low:'baixa'}[item.priority] || 'sem classificação')),
-   el('p', 'results-caption', item.rationale.join(' ')));
-  if (item.questionIds.length) {
-   const params = new URLSearchParams({ concurso: item.concursoId, questoes: item.questionIds.join(',') });
-   const link = el('a', '', 'Preparar bateria de ' + item.quantity + ' questão(ões)');
-   link.href = 'questoes.html#' + params.toString();
-   row.append(link);
-  } else {
-   row.append(el('p', 'results-caption', 'Sem questões novas compatíveis no banco atual.'));
+  const row=el('li','results-study-action-row');
+  const copy=el('div','results-study-action-copy');
+  const controls=el('div','results-study-action-controls');
+  const action=adaptiveActions[item.action]||'Revisar';
+  const label=/^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(item.title)?item.title.replaceAll('-',' '):item.title;
+  if(item===extra)copy.append(el('span','results-study-action-available','Bateria disponível'));
+  copy.append(el('h3','',action+' · '+label),
+   el('p','results-meta',title(item.subjectId)+' · Prioridade '+
+    ({high:'alta',medium:'média',low:'baixa'}[item.priority]||'sem classificação')),
+   el('p','results-caption',item.rationale.join(' ')));
+  if(item.questionIds.length){
+   const params=new URLSearchParams({concurso:item.concursoId,questoes:item.questionIds.join(',')});
+   const link=el('a','results-study-action-primary','Preparar bateria de '+item.quantity+' questão(ões)');
+   link.href='questoes.html#'+params.toString();
+   controls.append(link);
+  }else copy.append(el('p','results-caption','Ainda sem questões novas compatíveis no banco.'));
+  const ref=item.articles.map(value=>/^article:(art-[a-z0-9]+)(?:#(.*))?$/i.exec(value))
+   .find(match=>match&&manifest.has(match[1]));
+  if(ref){
+   const link=el('a','results-study-action-secondary','Abrir material de estudo');
+   link.href=articleLink({articleId:ref[1]},ref[2]);
+   controls.append(link);
   }
-  const ref = item.articles.map(value => /^article:(art-[a-z0-9]+)(?:#(.*))?$/i.exec(value))
-   .find(match => match && manifest.has(match[1]));
-  if (ref) {
-   const link = el('a', '', 'Abrir material de estudo');
-   link.href = articleLink({articleId: ref[1]}, ref[2]);
-   const line = el('p');
-   line.append(link);
-   row.append(line);
-  }
-  if (item.state === 'confirmed-not-studied') row.append(el('p', 'results-meta', item.selection));
-  if (item.nextReview) row.append(el('p', 'results-meta', 'Reteste previsto para ' + fmtDate(item.nextReview)));
+  if(item.state==='confirmed-not-studied')copy.append(el('p','results-meta',item.selection));
+  if(item.nextReview)copy.append(el('p','results-meta','Reteste previsto para '+fmtDate(item.nextReview)));
+  row.append(copy,controls);
   if (activities.includes(item)) {
    list.append(row);
    // Revisoes apresenta a fila inteira, inclusive os itens destacados no Resumo.
@@ -500,24 +510,26 @@ function renderPrincipleHistory(plan) {
  renderEvidence();
 }
 function renderStudyModes(byMode) {
- const target = $('results-study-modes');
- const modes = Object.entries(byMode || {});
- target.replaceChildren();
- target.hidden = !modes.length;
- if (!modes.length) return;
- const list = el('ul');
- for (const [mode, counts] of modes) {
-  const label = Object.hasOwn(studyModeLabels, mode) ? studyModeLabels[mode] : studyModeLabels.unknown;
-  const total = counts.correct + counts.incorrect + counts.blank;
-  const row = el('li');
-  row.append(el('strong', '', label), ' · ' + total + (total === 1 ? ' tentativa' : ' tentativas') +
-   ' · ' + counts.correct + (counts.correct === 1 ? ' acerto' : ' acertos') +
-   ' · ' + counts.incorrect + (counts.incorrect === 1 ? ' erro' : ' erros') +
-   ' · ' + counts.blank + ' em branco');
-  list.append(row);
+ const target=$('results-study-modes');
+ const modes=Object.entries(byMode||{});
+ target.replaceChildren();target.hidden=!modes.length;
+ if(!modes.length)return;
+ const heading=el('div','results-modes-heading');
+ heading.append(el('h2','','Tentativas por modalidade'),
+  el('p','results-caption','Cada modalidade tem condições de resposta diferentes.'));
+ const list=el('div','results-modes-list');
+ for(const [mode,counts] of modes){
+  const label=Object.hasOwn(studyModeLabels,mode)?studyModeLabels[mode]:studyModeLabels.unknown;
+  const correct=Number(counts.correct)||0,incorrect=Number(counts.incorrect)||0,blank=Number(counts.blank)||0;
+  const total=correct+incorrect+blank;
+  const row=el('div','results-mode-row');
+  const info=el('div','results-mode-name');info.append(el('strong','',label));
+  const measure=el('div','results-mode-measures');
+  measure.append(el('strong','results-mode-total',total+' '+(total===1?'tentativa':'tentativas')),
+   el('span','results-mode-breakdown',correct+' acertos · '+incorrect+' erros'+(blank?' · '+blank+' em branco':'')));
+  row.append(info,measure);list.append(row);
  }
- target.append(el('h3', '', 'Tentativas por modalidade'), list,
-  el('p', 'results-caption', 'Os resultados refletem as condições de cada modalidade. A pontuação dos simulados integrais aparece abaixo.'));
+ target.append(heading,list);
 }
 function render(){
  if(!current)return;
@@ -722,13 +734,23 @@ function render(){
  for(const item of allArticles){const key=articleSubject(item,concepts);articleCounts.set(key,(articleCounts.get(key)||0)+1);}
  for(const item of concepts.filter(c=>c.errors||c.uncertain||c.dueOn)){const key=item.subjectId||'sem-materia';conceptCounts.set(key,(conceptCounts.get(key)||0)+1);}
  const difficultyBySubject=new Map((current.difficulty?.bySubject||[]).map(x=>[x.id,x]));
- $('results-subjects').replaceChildren(...(current.bySubject||[]).map(sub=>{
-  const row=el('tr'),judged=sub.correct+sub.incorrect;
-  const conf=difficultyBySubject.get(sub.id)?.uncertain||0;
-  for(const x of [title(sub.id),sub.total,sub.correct,sub.incorrect,conf,judged?Math.round(1000*sub.correct/judged)/10+'%':'Sem amostra',
-   articleCounts.get(sub.id)||0,conceptCounts.get(sub.id)||0])row.append(el('td','',x));
+ const subjectsRoot=$('results-subjects');
+ subjectsRoot.replaceChildren(...(current.bySubject||[]).map(sub=>{
+  const row=el('div','results-subject-row');
+  const copy=el('div','results-subject-copy');
+  const judged=sub.correct+sub.incorrect,uncertain=difficultyBySubject.get(sub.id)?.uncertain||0;
+  copy.append(el('strong','results-subject-name',title(sub.id)),
+   el('small','results-subject-detail',sub.correct+' acertos · '+sub.incorrect+' erros'+
+    (uncertain?' · '+uncertain+' respostas inseguras':'')));
+  const figures=el('div','results-subject-figures');
+  figures.append(el('span','results-subject-total',sub.total+' '+(sub.total===1?'resposta':'respostas')),
+   el('strong','results-subject-percentage',judged?Math.round(1000*sub.correct/judged)/10+'% de acerto':'Sem amostra'),
+   el('small','results-subject-recommendations',(articleCounts.get(sub.id)||0)+' artigos · '+
+    (conceptCounts.get(sub.id)||0)+' conceitos para revisar'));
+  row.append(copy,figures);
   return row;
  }));
+ if(!subjectsRoot.children.length)subjectsRoot.append(el('p','results-caption','Ainda não há respostas registradas para esta seleção.'));
  $('results-unified-method').textContent='Histórico até '+fmtDate(current.cut)+'. '+valid+' tentativas válidas de estudo, sem somar duas vezes um registro identificado nas duas fontes.';
  $('results-legacy').hidden=false;
  root.hidden=false;

@@ -155,17 +155,36 @@ fs.mkdirSync(evidence,{recursive:true});
 
    await page.getByRole('link',{name:'Matérias',exact:true}).click();
    assert.equal(await page.locator('#results-stats .results-stat').count(),4,'resumo com quatro indicadores');
-   assert.match(await page.locator('#results-study-modes').innerText(), /Aprendizagem · 2 tentativas/);
-   assert.match(await page.locator('#results-study-modes').innerText(), /Revisão · 1 tentativa ·/);
+   assert.equal(await page.locator('#results-subjects .results-subject-row').count(),1,
+    'desempenho apresentado em linhas');
+   assert.equal(await page.locator('#results-subjects table').count(),0,
+    'não reutilizar tabela de oito colunas no celular');
+   assert.match(await page.locator('#results-subjects').innerText(),/66.7% de acerto/);
+   assert.match(await page.locator('#results-subjects').innerText(),/13 conceitos para revisar/);
+   assert.equal(await page.locator('#results-study-modes .results-mode-row').count(),3);
+   assert.match(await page.locator('#results-study-modes').innerText(), /Aprendizagem/);
+   assert.match(await page.locator('#results-study-modes').innerText(), /2 tentativas/);
+   assert.match(await page.locator('#results-study-modes').innerText(), /Revisão/);
+   assert.match(await page.locator('#results-study-modes').innerText(), /1 tentativa/);
    assert.match(await page.locator('#results-study-modes').innerText(), /Bateria com correção ao final/);
    assert.match(await page.locator('#results-competitive-simulations').innerText(), /54 pontos líquidos/);
    assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
      (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
-   const coverage=page.locator('#results-edital-coverage summary').first();
-   await coverage.focus();
-   await page.keyboard.press('Enter');
-   assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Ainda sem avaliação na unidade.').isVisible());
-   assert.ok(await page.getByText('Referência de teste · Avaliação sem registro').isVisible());
+   assert.equal(await page.locator('#results-edital-coverage summary').count(),0,
+    'cobertura do edital apresentada diretamente em lista sem accordion');
+   assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Sem questões vinculadas a esta unidade.').isVisible());
+   assert.ok(await page.locator('#results-edital-coverage .results-edital-ref').getByText('Referência de teste').isVisible());
+   assert.ok(await page.locator('#results-edital-coverage .results-edital-state').getByText('Sem questões vinculadas').isVisible());
+   assert.ok(await page.getByText('0 de 1 referência com respostas vinculadas').isVisible());
+   const align=await page.evaluate(()=>{
+    const nav=document.querySelector('.results-layout>.study-topbar').getBoundingClientRect();
+    const views=document.querySelector('.results-views-nav').getBoundingClientRect();
+    return Math.abs(nav.left-views.left);
+   });
+   assert.ok(align<2,'navbar e painel devem ter a mesma margem esquerda');
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,
+    'sem rolagem horizontal na pagina Matérias');
+   await page.screenshot({path:path.join(evidence,preset.name+'-materias-redesign.png'),fullPage:true});
 
    await page.getByRole('link',{name:'Revisões',exact:true}).click();
    assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link para leitura prioritaria');

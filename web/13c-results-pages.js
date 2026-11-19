@@ -40,7 +40,7 @@
  }
  // Os blocos estão agora em regiões próprias, sem a longa seção de detalhes antiga.
  root.querySelectorAll('details.results-revision-details').forEach(details=>{
-  if(details.querySelector('#results-principle-history')||details.querySelector('#results-retests'))details.remove();
+  if(details.parentElement===root && details.querySelector('summary')?.textContent.trim()==='Histórico e diagnóstico detalhado')details.remove();
  });
  root.prepend(nav,...panels.values());
  function current(){const p=new URLSearchParams(location.search).get('visao');return panels.has(p)?p:'resumo';}

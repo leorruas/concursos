@@ -59,6 +59,8 @@ Entre as manifestações da organização hierárquica estão:
 
 ### Limites dogmáticos do poder hierárquico
 
+**Limites dogmáticos** são os limites jurídicos desse poder, conforme as normas e a interpretação do Direito Administrativo. A regra prática é identificar quem pode dar ordens, a quem elas se dirigem e se existe uma relação de subordinação.
+
 O Cebraspe explora com rigor as situações jurídicas em que o poder hierárquico **não existe ou não opera**:
 
 - **Administração Direta versus Indireta:** um ministério e uma autarquia vinculada são pessoas jurídicas distintas; há **tutela ou supervisão finalística** conforme os poderes previstos em lei, **não comando hierárquico geral**. O **Decreto-Lei nº 200/1967**, que organiza a Administração Federal, trata da supervisão ministerial nos arts. 19 a 26. Supervisão pode conter instrumentos específicos de controle, mas não autoriza avocar competência exclusiva da autarquia como se fosse departamento do ministério;

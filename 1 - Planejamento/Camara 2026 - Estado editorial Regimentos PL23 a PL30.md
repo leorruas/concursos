@@ -119,3 +119,13 @@ Transcrição dos registros de auditoria extraídos dos capítulos em 19/11/2026
 **Questões e casos:** **dez questões inéditas C/E**, gabaritos **C, E, C, E, E, C, E, C, E, E**, preservados após conferência de sua base normativa. **Oito situações do caso progressivo** preservadas. A matriz adicional de emendas especializadas possui casos de aplicação próprios já existentes. **Nenhuma questão nova**, nenhuma duplicação do inventário.
 
 **Limites:** certificação jurídico-editorial individual do DC30, não homologação integral de todas as normas orçamentárias e alterações supervenientes a julho de 2025, não prova de aprendizagem nem teste da publicação/renderização GitHub Pages. O fechamento individual do recorte não substitui a conciliação geral do índice, o diagnóstico central e as lacunas pedagógicas de DC05, DC07, DC08 e DC09.
+
+## Rastreabilidade removida do texto didático em 19/11/2026
+
+**23 - regimento da camara organizacao e orgaos artigos 1 a 24.md**
+
+**Rastreabilidade de unidades:** este artigo cobre dois recortes editoriais planejados sobre os **mesmos arts. 1º a 24**: CAM-PL-019 (disposições preliminares) e CAM-PL-020 (Mesa e órgãos da Câmara). A correspondência é temática, não equivale a dois artigos autônomos nem comprova auditoria normativa integral. Para **comissões dos arts. 25 a 54**, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]].
+
+**25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md**
+
+**Nota de rastreabilidade:** esta nota sobre expedientes e proposições é complemento autônomo de estudo da trilha de sessões (**CAM-PL-021**), e não corresponde à unidade **CAM-PL-022**, reservada no planejamento a deputados e mandato (arts. 226 a 251), coberta por [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|DC26]]. A classificação como complemento **não significa** que os arts. 95 a 105 integrem literalmente o recorte 65 a 94 da unidade planejada.

@@ -196,9 +196,9 @@ O **art. 133 do RICD** prevê hipótese de **rejeição e arquivamento por despa
 
 **Mude a hipótese:** se o Senado apenas **emenda** o projeto, aplica-se o **parágrafo único do art. 65**, com retorno à Casa iniciadora para examinar as alterações. Não há, nessa situação, rejeição da proposição que faça incidir automaticamente a condição do art. 67. E se a proposição for **emenda constitucional**, há regra própria no **art. 60, § 5º**: matéria de proposta rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa. O quórum de reapresentação do art. 67 vale para **projetos de lei**, e não supera essa proibição específica das propostas de emenda constitucional.
 
-### Blueprint da tramitação na Câmara: três regimes, atores, decisões e saídas
+### Fluxogramas da tramitação na Câmara: três regimes, atores, decisões e saídas
 
-Os três mapas mostram **projetos de lei sujeitos ao procedimento legislativo comum**, comparando regimes de tramitação do **art. 151 do RICD**. Leia os retângulos como **ações de um responsável** e os losangos como **decisões que podem mudar o percurso**. Os prazos do art. 52 são contados em **sessões da Câmara**, não em dias corridos, e valem **para exame pelas comissões**, salvo regra especial. Os mapas simplificam o percurso para tornar visíveis suas bifurcações: aplicação de emendas, destaques, recursos e procedimentos especiais depende do caso.
+Os três fluxogramas mostram **projetos de lei sujeitos ao procedimento legislativo comum**, comparando regimes de tramitação do **art. 151 do RICD**. Leia os retângulos como **ações de um responsável** e os losangos como **decisões que podem mudar o percurso**. Os prazos do art. 52 são contados em **sessões da Câmara**, não em dias corridos, e valem **para exame pelas comissões**, salvo regra especial. Os mapas simplificam o percurso para tornar visíveis suas bifurcações: aplicação de emendas, destaques, recursos e procedimentos especiais depende do caso.
 
 | Aspecto | Ordinário | Prioridade | Urgência regimental |
 | :--- | :--- | :--- | :--- |
@@ -495,7 +495,6 @@ A banca pode construir itens **parcialmente verdadeiros** que deslocam uma decis
 
 **Fontes oficiais conferidas em 07/11/2026:** [RICD, Resolução nº 17/1989, arts. 24, 52–58, 119, 131–139 e 151–159, texto normativo atualizado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html); [Câmara: Regime de tramitação](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/regime-de-tramitacao); [Câmara: Tramitação das proposições](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/tramitacao-das-proposicoes); [Câmara: Prazos nas comissões (art. 52)](https://educacaoadistancia.camara.leg.br/clique_regimento/card/53); [Câmara: Principais prazos e contagem de sessões](https://www2.camara.leg.br/atividade-legislativa/plenario/contagem-de-prazos/principais-prazos-do-processo-legislativo).
 
-**Decisão editorial CAM-PL-008:** **refinar nota canônica existente**, mantendo o `articleId`, caminho e vínculos da Câmara e de outros concursos; acrescentar regime ordinário e seus prazos como expansão, sem reescrever o mapa geral de CAM-PL-003. Questões inéditas de treino, não provas oficiais nem evidência de estudo ou retenção individual.
 
 ## Relações com outros temas
 

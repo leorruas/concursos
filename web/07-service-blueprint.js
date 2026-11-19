@@ -48,7 +48,9 @@ function wrapLines(str,max=32){
 }
 function montar(table){
  const data=[...table.querySelectorAll("tr")].map(r=>[...r.children].map(c=>c.textContent.trim()));
- if(data.length!==10||data[0].length!==7||!/camadas\s*\/\s*fases/i.test(data[0][0])||data.some(r=>r.length!==7))return false;
+ if(data.length<10||!data[0]?.[0]||!/camadas\s*\/\s*fases/i.test(data[0][0]))return false;
+ const normalized=data.slice(0,10).map(r=>[...r,...Array(Math.max(0,7-r.length)).fill("")].slice(0,7));
+ data.splice(0,data.length,...normalized);
  const card=element("section","sb"),nav=element("nav","sb-nav"),bar=element("div","sb-control"),canvas=element("div","sb-canvas");
  card.setAttribute("aria-label","Mapa do processo legislativo por fases e atores");
  nav.setAttribute("aria-label","Selecionar fase");

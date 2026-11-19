@@ -269,4 +269,3 @@ Relações: [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i 
 
 **Controle editorial de 11/11/2026:** os **oito destinos únicos de links internos** desta nota foram encontrados nos caminhos correspondentes do repositório, inclusive as notas de Orçamento Público. Os dez itens C/E foram relidos e preservaram seus gabaritos; a verificação das referências e do escopo foi concluída nesta rodada, mas **a certificação normativa integral do DC30 ainda depende de fechamento próprio**. A matriz de emendas é aprofundamento da Resolução 1/2006-CN e não deve ser confundida com o recorte literal do RCCN.
 
-**Nota editorial:** confronto realizado em **09/11/2026**. As dez questões são **inéditas**, não questões oficiais do Cebraspe. A contagem de produção editorial não comprova estudo pessoal, acerto ou retenção.

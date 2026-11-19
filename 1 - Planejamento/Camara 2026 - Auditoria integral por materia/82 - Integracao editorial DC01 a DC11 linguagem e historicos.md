@@ -129,3 +129,5 @@ Foram corrigidos DC02, DC03, DC04 e DC11. DC01 foi lido sem mudança necessária
 **Estado do CI observado:** a validação de referências, questões, flashcards e identidades passou na execução do commit `99786ccd`, mas a invariante de indexação de arquivo `38 - blueprints do processo legislativo por especie normativa.md` falhou. O DC38 e `index.md` pertencem a outra frente, portanto nenhum deles foi editado neste PR. O CI de commits posteriores precisa ser inspecionado antes do merge.
 
 **Estado dos 11 artigos:** DC01 lido sem modificação; DC02 a DC11 com ajustes localizados, sendo o núcleo CAM-PL-018 reorganizado no DC06. Nenhum recebeu certificação integral jurídica, dos exercícios ou visual nesta rodada.
+
+**Limpeza adicional:** os marcadores vazios `Fontes Brutas` foram retirados também de DC05 e DC06. Mantiveram-se as referências substantivas na seção `Fontes`.

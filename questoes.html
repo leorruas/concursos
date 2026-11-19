@@ -110,6 +110,76 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .qs-action-link{display:inline-flex;text-decoration:none;align-items:center}
 @media(max-width:640px){.qs-nav{align-items:flex-start;flex-wrap:wrap}.qs-links{gap:9px;justify-content:flex-start}.qs-panel{padding:20px}.qs-result-header{grid-template-columns:1fr;gap:13px}.qs-recommendation{display:block}.qs-recommendation a{display:inline-block;margin-top:11px;white-space:normal}.qs-hero h1{font-size:2.65rem}}
 
+
+/* Leitor de questões: a estrutura de resposta acompanha a mesma hierarquia da biblioteca. */
+.questoes-page .qs-shell{max-width:1040px;padding-bottom:96px}
+.questoes-page .qs-hero{padding:38px 0 26px}
+.questoes-page .qs-panel{border-color:color-mix(in srgb,var(--text) 12%,transparent);background:var(--surface);padding:32px 38px}
+.questoes-page #qs-play{max-width:800px;margin:0 auto 32px;padding:38px 46px 44px}
+.questoes-page #qs-summary{max-width:900px;margin:0 auto 32px}
+.questoes-page #qs-config{max-width:900px;margin:0 auto 32px}
+.questoes-page.qs-is-playing .qs-hero,.questoes-page.qs-is-playing #qs-status{display:none}
+.questoes-page.qs-is-playing .qs-shell{padding-top:12px}
+.questoes-page .qs-top{align-items:center;scroll-margin-top:20px}
+.questoes-page .qs-top:focus{outline:none}
+.questoes-page .qs-top .qs-meta{color:var(--muted);font-size:.76rem}
+.questoes-page .qs-question-attributes{align-items:center;margin-top:14px}
+.questoes-page .qs-context{margin:0;font-size:.76rem;line-height:1.6;color:var(--muted)}
+.questoes-page .qs-difficulty{font-size:.68rem;color:var(--muted);letter-spacing:0;border-color:color-mix(in srgb,var(--text) 16%,transparent);padding:5px 8px}
+.questoes-page .qs-progress{margin:17px 0 32px;height:3px;border-radius:4px;overflow:hidden}
+.questoes-page .qs-statement{font-family:'Archivo',sans-serif;font-size:clamp(1.35rem,2.4vw,1.8rem);line-height:1.46;letter-spacing:-.025em;font-weight:520;margin:0 0 32px;max-width:690px;overflow-wrap:anywhere}
+.questoes-page .qs-statement:focus{outline:none}
+.questoes-page .qs-answers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.questoes-page .qs-answers label{margin:0;min-height:72px;padding:18px 20px;gap:12px;font-size:1.03rem;font-weight:600;line-height:1.35;border-radius:8px;transition:border-color .14s ease,background-color .14s ease}
+.questoes-page .qs-answers label:hover{border-color:color-mix(in srgb,var(--text) 55%,transparent)}
+.questoes-page .qs-answers label:has(input:checked){border-color:var(--accent-blue);background:var(--accent-blue-alpha-05)}
+.questoes-page .qs-answers label:focus-within{outline:2px solid var(--accent-blue);outline-offset:2px}
+.questoes-page .qs-answers input{width:18px;height:18px;flex-shrink:0}
+.questoes-page #qs-blank-wrap{grid-column:1/-1;min-height:54px;font-size:.92rem;font-weight:450}
+.questoes-page .qs-answers label:has(input:disabled){cursor:default}
+.questoes-page .qs-answer-metadata{border:0;border-top:1px solid color-mix(in srgb,var(--text) 14%,transparent);margin:28px 0 0;padding:19px 0 0;min-width:0}
+.questoes-page .qs-answer-metadata legend{float:left;width:100%;font-size:.83rem;font-weight:600;color:var(--text);padding:0;margin:0 0 15px}
+.questoes-page .qs-uncertain{margin:0;min-height:38px;gap:11px;font-size:.91rem;color:var(--text);font-weight:450}
+.questoes-page .qs-uncertain input,.questoes-page .qs-context-toggle input{width:17px;height:17px;flex-shrink:0}
+.questoes-page .qs-response-context{display:flex;flex-wrap:wrap;gap:14px;margin:10px 0 0}
+.questoes-page .qs-context-toggle{min-height:38px;border:0;border-radius:0;padding:0;gap:10px;color:var(--muted);font-size:.88rem;background:transparent}
+.questoes-page .qs-context-toggle:hover,.questoes-page .qs-context-toggle:has(input:checked){border:0;background:transparent;color:var(--text)}
+.questoes-page .qs-submit-row{margin:25px 0 0;padding-top:24px;border-color:color-mix(in srgb,var(--text) 14%,transparent)}
+.questoes-page .qs-button{min-height:48px;border-radius:5px;padding:12px 22px}
+.questoes-page .qs-submit-row .qs-button{min-width:220px}
+.questoes-page .qs-answer-result{margin-top:29px;border-color:color-mix(in srgb,var(--text) 17%,transparent);padding-top:25px;scroll-margin-top:24px}
+.questoes-page .qs-answer-result .qs-feedback{background:transparent;border:0;padding:0;margin:0 0 23px;max-width:700px}
+.questoes-page .qs-answer-result .qs-feedback strong{font-size:1.04rem;font-weight:650;margin-bottom:12px}
+.questoes-page .qs-answer-result .qs-feedback p{font-size:1rem;line-height:1.7;margin:0 0 14px;color:var(--text)}
+.questoes-page .qs-answer-result .qs-feedback a{margin-top:7px}
+.questoes-page .qs-answer-result #qs-next{min-width:220px}
+.questoes-page .qs-result-header{padding:12px 0 24px;border-bottom:1px solid color-mix(in srgb,var(--text) 14%,transparent);margin-bottom:0}
+.questoes-page .qs-recommendations{border-top:0;margin:12px 0 30px;padding-top:20px}
+.questoes-page .qs-recommendation{gap:26px;padding:24px 0}
+.questoes-page .qs-recommendation h4{font-size:1.15rem;line-height:1.4}
+.questoes-page .qs-recommendation p{font-size:.92rem}
+.questoes-page .qs-review-all{padding-top:24px}
+.questoes-page .qs-review summary{line-height:1.5}
+.questoes-page .qs-review p{font-size:.94rem;line-height:1.65}
+@media(max-width:700px){
+ .questoes-page .qs-shell{padding:12px 16px 64px}
+ .questoes-page .qs-panel{padding:22px}
+ .questoes-page #qs-play{padding:24px 20px 30px}
+ .questoes-page .qs-statement{font-size:1.32rem;line-height:1.52;margin-bottom:26px}
+ .questoes-page .qs-difficulty{white-space:normal}
+ .questoes-page .qs-answers{gap:9px}
+ .questoes-page .qs-answers label{min-height:68px;padding:14px 12px}
+ .questoes-page .qs-response-context{gap:8px 18px}
+ .questoes-page .qs-context-toggle{min-height:44px}
+ .questoes-page .qs-submit-row .qs-button,.questoes-page #qs-next{width:100%}
+ .questoes-page .qs-result-header{grid-template-columns:1fr;gap:20px}
+ .questoes-page .qs-recommendation{display:block}
+ .questoes-page .qs-recommendation a{display:inline-block;margin-top:12px;white-space:normal}
+}
+@media(prefers-reduced-motion:reduce){
+ .questoes-page .qs-answers label,.questoes-page .qs-progress div{transition:none}
+}
+
 </style>
 </head>
 <body class="questoes-page">
@@ -132,11 +202,11 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <div class="qs-actions"><button class="qs-button" id="qs-start" type="button">Iniciar bateria</button><a id="qs-login" class="qs-note" href="https://concurso-estudo.leoruas.workers.dev/questoes.html">Abrir versão com login GitHub</a></div>
 <p class="qs-note">As respostas são preservadas neste navegador. No ambiente autenticado, a gravação também é confirmada no banco privado. Concursos sem questões revisadas ainda não permitem baterias.</p>
 </section>
-<section class="qs-panel" id="qs-play" hidden>
-<div class="qs-top"><span class="qs-meta" id="qs-number"></span><button class="qs-stop" id="qs-finish" type="button">Encerrar bateria</button></div>
+<section class="qs-panel" id="qs-play" hidden aria-label="Resolver questão">
+<div class="qs-top" id="qs-reading-start" tabindex="-1"><span class="qs-meta" id="qs-number"></span><button class="qs-stop" id="qs-finish" type="button">Encerrar bateria</button></div>
 <div class="qs-question-attributes"><p class="qs-meta qs-context" id="qs-context"></p><span class="qs-meta qs-difficulty" id="qs-question-difficulty"></span></div>
 <div class="qs-progress" aria-hidden="true"><div id="qs-progress-bar"></div></div>
-<h2 class="sr-only">Questão</h2><p class="qs-statement" id="qs-statement"></p>
+<h2 class="sr-only">Questão</h2><p class="qs-statement" id="qs-statement" tabindex="-1"></p>
 <section class="qs-answer-result" id="qs-after" hidden tabindex="-1" aria-label="Resultado da resposta" aria-live="polite">
   <div class="qs-feedback" id="qs-feedback" hidden></div>
   <p class="qs-note" id="qs-pending" hidden>Resposta registrada. O gabarito será mostrado ao concluir o simulado.</p>
@@ -144,12 +214,15 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 </section>
 <form id="qs-answer-form"><fieldset class="qs-answers" style="border:0;padding:0;margin:0"><legend class="sr-only">Julgue o item</legend>
 <label><input type="radio" name="qs-answer" value="C"> Certo</label><label><input type="radio" name="qs-answer" value="E"> Errado</label><label id="qs-blank-wrap" hidden><input type="radio" name="qs-answer" value="blank"> Em branco</label>
-</fieldset><label class="qs-uncertain"><input type="checkbox" id="qs-insecure"> Não estou seguro</label>
-<div class="qs-response-context" role="group" aria-label="Contexto da resposta">
+</fieldset>
+<fieldset class="qs-answer-metadata" id="qs-answer-metadata"><legend>Sobre sua resposta</legend>
+<label class="qs-uncertain"><input type="checkbox" id="qs-insecure"> Não estou seguro</label>
+<div class="qs-response-context" role="group" aria-label="Condições da resposta">
 <label class="qs-context-toggle"><input type="checkbox" id="qs-consulted"> Consultei material</label>
 <label class="qs-context-toggle"><input type="checkbox" id="qs-feedback-before"> Já vi a correção</label>
 </div>
-<div class="qs-submit-row"><button class="qs-button" id="qs-submit" type="submit">Registrar resposta</button><span class="qs-note">A resposta será salva antes de mostrar a correção.</span></div></form>
+</fieldset>
+<div class="qs-submit-row" id="qs-submit-row"><button class="qs-button" id="qs-submit" type="submit">Registrar resposta</button></div></form>
 </section>
 <section class="qs-panel" id="qs-summary" hidden aria-labelledby="qs-summary-heading">
 <span class="qs-meta" id="qs-result-context"></span>

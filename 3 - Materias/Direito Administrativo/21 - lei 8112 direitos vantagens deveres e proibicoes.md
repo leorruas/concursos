@@ -74,6 +74,8 @@ O **art. 37, XI, da Constituição** limita a remuneração e o subsídio de age
 
 ## 2. Tipologia das vantagens pecuniárias: indenizações, gratificações e adicionais
 
+**Tipologia** significa classificação em tipos. **Vantagens pecuniárias** são parcelas de dinheiro previstas em lei e pagas em condições específicas. A divisão abaixo ajuda a responder se a parcela compensa uma despesa, remunera uma função ou decorre de uma condição de trabalho. Essa diferença tem efeitos sobre incorporação e limites de pagamento.
+
 O **art. 49 da Lei nº 8.112/1990** distingue **indenizações, gratificações e adicionais**. A finalidade da parcela determina sua regra, e a concessão deve ter **fundamento legal**. O **art. 50** impede usar vantagens pecuniárias para gerar outros aumentos sucessivos **sob o mesmo título ou fundamento**.
 
 ```mermaid

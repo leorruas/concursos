@@ -97,19 +97,6 @@ A Constituição distingue **audiência pública com entidades da sociedade civi
 
 **Exemplo hipotético.** Uma comissão quer ouvir pesquisadores sobre os efeitos de determinada política: pode organizar audiência pública. Se precisa exigir explicações de uma autoridade abrangida pelo art. 50 sobre atribuições institucionais, examina a competência de **convocação** e seus requisitos. Trocar “convidar participantes” por “convocar ministro” muda a natureza jurídica do ato e as consequências do não comparecimento. A leitura conjunta dos arts. 50 e 58 evita reduzir a lista dos convocáveis à redação resumida do art. 58, § 2º, III.
 
-### Subcomissões e turmas: arts. 29 a 31
-
-As comissões permanentes podem organizar **subcomissões permanentes**, **subcomissões especiais** e, sob condições, **turmas**. Sua natureza é **interna e auxiliar**, não equivale às comissões temporárias da Câmara classificadas no art. 33.
-
-| Categoria | Formação | Limite e consequência |
-| :--- | :--- | :--- |
-| **Subcomissão permanente** | Proposta pela **maioria dos integrantes** da comissão, formada dentre seus próprios membros | Até **três em funcionamento simultâneo**, sem poder decisório |
-| **Subcomissão especial** | Proposta por **qualquer membro**, para tarefa ou assunto definido | Até **três simultâneas**, sem poder decisório |
-| **Turmas** | Divisão de comissão permanente que não constitua subcomissões permanentes | **Duas turmas**, excluído o Presidente, **sem poder decisório** |
-
-O **Plenário da comissão** fixa a composição e o escopo das subcomissões (art. 29, § 2º). A **turma** não se transforma em “comissão deliberativa paralela”. Ainda que organize estudos e pareceres, a decisão regimental pertence ao **órgão competente**.
-
-
 ### Comissões permanentes e temporárias: arts. 32 a 38
 
 O **art. 32** distribui as matérias entre comissões permanentes por **campo temático e área de atuação**. O enunciado pode descrever atividade de comunicação, tecnologia, orçamento, cultura ou saúde para perguntar **qual comissão deve examinar a matéria**; a associação exige ler a redação vigente e distinguir **objeto predominante**, **mérito** e **controle de admissibilidade** da CCJC ou da CFT.
@@ -162,6 +149,19 @@ A **Mesa distribui** as vagas entre partidos e blocos, que terão em cada comiss
 **Como distribuir:** o **art. 27** trabalha com **quociente partidário**, relacionado à quantidade de membros do partido ou bloco, ao número de deputados da Câmara e ao tamanho da comissão. Vagas remanescentes seguem a ordem das **maiores frações**. O § 2º disciplina uma etapa específica de **opção por vaga**, inclusive prazo de **48 horas** para partido ou bloco que esteja na hipótese ali prevista, com regras para deputados sem legenda. Não confundir **cálculo de vagas das bancadas** com a escolha dos **nomes individuais** de seus integrantes.
 
 **Nomeação:** definidos os quantitativos, os **líderes** comunicam os nomes de titulares e suplentes à Presidência em **cinco sessões**; decorrido o prazo, o **Presidente da Câmara designa de ofício** (art. 28). A comunicação é ato da liderança, enquanto a designação formal é da Presidência. Uma legenda não pode paralisar indefinidamente a instalação por deixar de informar nomes.
+
+
+### Subcomissões e turmas: arts. 29 a 31
+
+As comissões permanentes podem organizar **subcomissões permanentes**, **subcomissões especiais** e, sob condições, **turmas**. Sua natureza é **interna e auxiliar**, não equivale às comissões temporárias da Câmara classificadas no art. 33.
+
+| Categoria | Formação | Limite e consequência |
+| :--- | :--- | :--- |
+| **Subcomissão permanente** | Proposta pela **maioria dos integrantes** da comissão, formada dentre seus próprios membros | Até **três em funcionamento simultâneo**, sem poder decisório |
+| **Subcomissão especial** | Proposta por **qualquer membro**, para tarefa ou assunto definido | Até **três simultâneas**, sem poder decisório |
+| **Turmas** | Divisão de comissão permanente que não constitua subcomissões permanentes | **Duas turmas**, excluído o Presidente, **sem poder decisório** |
+
+O **Plenário da comissão** fixa a composição e o escopo das subcomissões (art. 29, § 2º). A **turma** não se transforma em “comissão deliberativa paralela”. Ainda que organize estudos e pareceres, a decisão regimental pertence ao **órgão competente**.
 
 
 ### Presidência e membros das comissões: arts. 39 a 45

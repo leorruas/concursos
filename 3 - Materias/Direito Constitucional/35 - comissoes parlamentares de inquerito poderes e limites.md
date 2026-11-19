@@ -32,8 +32,8 @@ Requisitos Constitucionais Cumulativos de Criação da CPI
 ├── 1. Quórum de Iniciativa: 1/3 dos membros da Casa (171 Deputados ou 27 Senadores)
 │   └── Em CPMI: 1/3 de cada Casa (171 Deputados E 27 Senadores cumulativamente)
 │
-├── 2. Fato Determinado: acontecimento de relevante interesse público delimitado no tempo/espaço
-│   └── Vedação absoluta a investigações genéricas ou prospectivas ("pesca probatória")
+├── 2. Fato Determinado: acontecimentos identificáveis e objeto delimitado no requerimento
+│   └── Não cabe investigação genérica sem objeto; fatos novos conexos exigem exame de pertinência
 │
 └── 3. Prazo Certo: período temporal prefixado no requerimento para funcionamento
     └── Na Câmara, até 120 dias, prorrogáveis por até metade mediante deliberação do Plenário (RICD, art. 35, § 3º)

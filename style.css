@@ -56,6 +56,23 @@ a:visited {
     color: var(--accent-blue);
 }
 
+/* Entradas principais da home são títulos editoriais.
+   Cor do texto nos dois temas, inclusive depois de visitar o link.
+   O âmbar continua nos rótulos, nas ações e na interação. */
+a.home-flashcards-entry:link,
+a.home-flashcards-entry:visited,
+a.disciplina-card:link,
+a.disciplina-card:visited {
+    color: var(--text);
+}
+a.home-flashcards-entry:hover .home-flashcards-copy strong,
+a.home-flashcards-entry:focus-visible .home-flashcards-copy strong,
+a.disciplina-card:hover .disciplina-card-conteudo strong,
+a.disciplina-card:focus-visible .disciplina-card-conteudo strong {
+    color: var(--accent-blue);
+}
+
+
 header, main {
     max-width: 1000px;
     margin: 0 auto;

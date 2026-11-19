@@ -90,8 +90,9 @@ function criarAmbiente(renderizar) {
         requestAnimationFrame(fn) { fn(); },
         console
     };
-    vm.runInNewContext(source, context, { filename: 'web/05-mermaid.js' });
-    const executar = () => vm.runInNewContext('abrirModalExploradorMermaid("flowchart TD\\nA-->B")', context);
+    const ambiente = vm.createContext(context);
+    vm.runInContext(source, ambiente, { filename: 'web/05-mermaid.js' });
+    const executar = () => vm.runInContext('abrirModalExploradorMermaid("flowchart TD\\nA-->B")', ambiente);
     const tecla = (key, shiftKey = false) => {
         const evento = { key, shiftKey, preventDefault() { this.prevented = true; } };
         listenersGlobais.get('keydown')?.(evento);

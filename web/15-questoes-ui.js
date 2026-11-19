@@ -117,9 +117,8 @@ function render(){
  $('qs-progress-bar').style.width=(100*session.answers.length/session.ids.length)+'%';$('qs-statement').textContent=q.statement;
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>{e.checked=false;e.disabled=false;});
  shownAt=performance.now();
- $('qs-consulted').value='';
- $('qs-feedback-before').value='';
- $('qs-response-context').open=!!session.directed;
+ $('qs-consulted').checked=false;
+ $('qs-feedback-before').checked=false;
  $('qs-insecure').checked=false;$('qs-insecure').disabled=false;
  toggle('qs-blank-wrap',session.mode==='simulado');toggle('qs-after',false);toggle('qs-feedback',false);toggle('qs-pending',false);toggle('qs-answer-form',true);toggle('qs-submit',true);
 }
@@ -145,11 +144,10 @@ function answer(ev){
  ev.preventDefault();if(!session||session.finishedAt)return;
  const c=document.querySelector('input[name="qs-answer"]:checked');if(!c){status('Marque Certo ou Errado para registrar.');return;}
  const q=question();if(!q)return;const v=c.value,blank=v==='blank';
- const flag = field => $(field).value === '' ? null : $(field).value === 'yes';
  const elapsed=shownAt===null?null:Math.round(performance.now()-shownAt);
  const responseMs=elapsed!==null&&elapsed>=0&&elapsed<=86400000?elapsed:null;
  shownAt=null;
- const a={responseMs,consulted:flag('qs-consulted'),feedbackBefore:flag('qs-feedback-before'),id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
+ const a={responseMs,consulted:$('qs-consulted').checked,feedbackBefore:$('qs-feedback-before').checked,id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
  session.answers.push(a);storeWrite();sync(a);
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>e.disabled=true);$('qs-insecure').disabled=true;
  toggle('qs-answer-form',false);

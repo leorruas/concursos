@@ -342,9 +342,9 @@ fs.mkdirSync(evidence,{recursive:true});
    await start.focus();
    await page.keyboard.press('Enter');
    assert.equal((await page.locator('#qs-statement').innerText()).trim(),proposed.statement.trim());
-   assert.ok(await page.getByLabel('Consultou material para responder?').isVisible());
-   await page.getByLabel('Consultou material para responder?').selectOption('no');
-   await page.getByLabel('Já tinha visto a correção deste item?').selectOption('no');
+   assert.ok(await page.getByRole('checkbox',{name:'Consultei material'}).isVisible());
+   assert.equal(await page.getByRole('checkbox',{name:'Consultei material'}).isChecked(),false);
+   assert.equal(await page.getByRole('checkbox',{name:'Já vi a correção'}).isChecked(),false);
    await page.locator('input[name="qs-answer"][value="C"]').check();
    await page.locator('#qs-submit').click();
    const last=await page.evaluate(()=>{

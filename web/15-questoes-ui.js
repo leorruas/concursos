@@ -97,9 +97,10 @@ function choose(n){
  const order=shuffle([...groups.keys()]);while(result.length<n){let found=false;for(const key of order){const q=groups.get(key).shift();if(q){result.push(q.id);found=true;}if(result.length===n)break;}if(!found)break;}
  return result;
 }
-function start(){
- const n=Number($('qs-count').value);if(!Number.isInteger(n)||n<1||n>100){status('Escolha entre 1 e 100 questões.');return;}
- const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,mode:selected('qs-mode'),scope:selected('qs-scope'),subjectId:selected('qs-scope')==='single'?$('qs-materia').value:null,unitId:selected('qs-scope')==='single'?$('qs-unidade').value||null:null,startedAt:new Date().toISOString(),finishedAt:null,ids:choose(Math.min(n,eligible().length)),answers:[]};
+function start(recommended){
+ const directed=Array.isArray(recommended);
+ const n=directed?recommended.length:Number($('qs-count').value);if(!Number.isInteger(n)||n<1||n>100){status('Escolha entre 1 e 100 questões.');return;}
+ const c=contest();session={version:1,id:id(),concursoId:c.id,concursoName:c.nome,mode:directed?'simulado':selected('qs-mode'),scope:directed?'mixed':selected('qs-scope'),subjectId:!directed&&selected('qs-scope')==='single'?$('qs-materia').value:null,unitId:!directed&&selected('qs-scope')==='single'?$('qs-unidade').value||null:null,startedAt:new Date().toISOString(),finishedAt:null,ids:directed?recommended:choose(Math.min(n,eligible().length)),answers:[]};
  storeWrite();toggle('qs-config',false);toggle('qs-play',true);toggle('qs-summary',false);render();status('Bateria iniciada. Respostas registradas após cada envio.');
 }
 function question(){return data.map.get(session.ids[session.answers.length]);}
@@ -217,6 +218,31 @@ async function auth(){
  for(const s of storeRead())for(const a of s.answers.filter(x=>!x.synced))await sync(a);
 }
 function theme(){const t=document.documentElement.dataset.theme==='light'?'dark':'light';document.documentElement.dataset.theme=t;localStorage.setItem('tema-concursos',t);$('qs-theme').textContent=t==='light'?'modo escuro':'modo claro';}
+function offerRecommendedBatch() {
+ const params = new URLSearchParams(location.hash.slice(1));
+ if (!params.has('questoes')) return;
+ const exam = params.get('concurso');
+ const ids = [...new Set(params.get('questoes').split(','))];
+ if (ids.length > 6 || !ids.every(id => {
+  const q = data.map.get(id);
+  return q?.concursoId === exam && q.format === 'CE' && !q.annulled;
+ })) {
+  status('A bateria recomendada está indisponível no catálogo atual.');
+  return;
+ }
+ const button = elem('button', 'Iniciar bateria recomendada (' + ids.length + ')');
+ button.type = 'button';
+ button.className = 'qs-button';
+ button.addEventListener('click', () => {
+  if (session && !session.finishedAt && !window.confirm('Começar a bateria recomendada e sair da bateria anterior?')) return;
+  $('qs-concurso').value = exam;
+  updateSubjects();
+  button.remove();
+  history.replaceState(null, '', location.pathname + location.search);
+  start(ids);
+ });
+ $('qs-status').after(button);
+}
 async function init(){
  $('qs-theme').textContent=document.documentElement.dataset.theme==='light'?'modo escuro':'modo claro';$('qs-theme').addEventListener('click',theme);
  $('qs-concurso').addEventListener('change',updateSubjects);$('qs-materia').addEventListener('change',updateUnits);$('qs-unidade').addEventListener('change',availability);$('qs-difficulty-filter').addEventListener('change',availability);
@@ -243,7 +269,7 @@ async function init(){
   $('qs-concurso').replaceChildren(...data.contests.map(c=>{const n=data.questions.filter(q=>q.concursoId===c.id).length;const e=elem('option',c.nome+' ('+n+')');e.value=c.id;return e;}));
   const saved=localStorage.getItem('concurso_ativo_id');$('qs-concurso').value=data.contests.some(c=>c.id===saved)?saved:'camara-2026';
   updateSubjects();toggle('qs-config',true);status('Banco carregado. Monte uma bateria.');
-  resume();auth();
+  resume();offerRecommendedBatch();auth();
  }catch(e){status('Não foi possível abrir o banco: '+e.message);}
 }
 init();

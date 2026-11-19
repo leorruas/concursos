@@ -282,15 +282,70 @@ function priorityLabel(score){
  return label;
 }
 function stat(label,value){const box=el('div','results-stat');box.append(el('span','results-caption',label),el('strong','',value));return box;}
+const adaptiveActions = {
+ study: 'Estudar', practice: 'Praticar', contrast: 'Contrastar',
+ 'test-retention': 'Testar retenção', review: 'Revisar'
+};
+function renderAdaptive(plan) {
+ const enabled = plan?.version === 1;
+ $('results-adaptive').hidden = !enabled;
+ $('results-retention').hidden = !enabled;
+ if (!enabled) return;
+ const activities = plan.recommendations.filter(item => !selectedSubject || item.subjectId === selectedSubject).slice(0, 4);
+ const list = el('ul');
+ for (const item of activities) {
+  const row = el('li');
+  const action = adaptiveActions[item.action] || 'Revisar';
+  row.append(el('h3', '', action + ' · ' + item.title),
+   el('p', 'results-meta', title(item.subjectId) + ' · Prioridade ' + (item.priority === 'high' ? 'alta' : 'média')),
+   el('p', 'results-caption', item.rationale.join(' ')));
+  if (item.questionIds.length) {
+   const params = new URLSearchParams({ concurso: item.concursoId, questoes: item.questionIds.join(',') });
+   const link = el('a', '', 'Preparar bateria de ' + item.quantity + ' questão(ões)');
+   link.href = 'questoes.html#' + params.toString();
+   row.append(link);
+  } else {
+   row.append(el('p', 'results-caption', 'Sem questões novas compatíveis no banco atual.'));
+  }
+  const ref = item.articles.map(value => /^article:(art-[a-z0-9]+)(?:#(.*))?$/i.exec(value))
+   .find(match => match && manifest.has(match[1]));
+  if (ref) {
+   const link = el('a', '', 'Abrir material de estudo');
+   link.href = articleLink({articleId: ref[1]}, ref[2]);
+   const line = el('p');
+   line.append(link);
+   row.append(line);
+  }
+  if (item.nextReview) row.append(el('p', 'results-meta', 'Reteste previsto para ' + fmtDate(item.nextReview)));
+  list.append(row);
+ }
+ $('results-adaptive-actions').replaceChildren(activities.length ? list :
+  el('p', 'results-caption', 'Nenhuma atividade prioritária com os registros atuais.'));
+ const signals = plan.principles.flatMap(item => item.signals.filter(signal => signal.elapsed)
+  .map(signal => ({ ...signal, title: item.title }))).sort((a,b) => b.date.localeCompare(a.date));
+ const progress = el('ul');
+ for (const signal of signals.slice(0, 6)) {
+  progress.append(el('li', '', signal.title + ' · Acerto seguro após ' + signal.elapsed +
+   ' dias. ' + (signal.kind === 'independent' ? 'Teste independente.' : 'Consulta sem registro.')));
+ }
+ $('results-retention-signals').replaceChildren(signals.length ? progress :
+  el('p', 'results-caption', 'Ainda há pouca evidência de recuperação após um intervalo.'));
+}
 function render(){
  if(!current)return;
+ renderAdaptive(current.adaptive);
  const summary=current.summary||{},source=current.sources||{};
  const valid=summary.valid||0;
  $('results-stats').replaceChildren(
   stat('Questões respondidas',valid),
   stat('Acertos',summary.correct??0),
   stat('Erros',summary.incorrect??0),
-  stat('Acerto observado',summary.accuracy===null?'Sem amostra':summary.accuracy+'%')
+  stat('Acerto observado',summary.accuracy===null?'Sem amostra':summary.accuracy+'%'),
+  ...(current.adaptive ? [
+   stat('Erros seguros', current.adaptive.secureErrors),
+   stat('Acertos inseguros', current.adaptive.insecureCorrect),
+   stat('Revisões pendentes', current.adaptive.principles.filter(p => p.state === 'review-pending').length)
+  ] : [])
  );
  const origins=$('results-quiz-stats');
  const origin=(label,n)=>{const x=el('span','results-origin-item');x.append(el('strong','',n??0),' '+label);return x;};

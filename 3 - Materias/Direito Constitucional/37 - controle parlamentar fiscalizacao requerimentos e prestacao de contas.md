@@ -120,8 +120,10 @@ A competência do Tribunal de Contas da União (TCU) varia conforme o objeto e a
 | **Demais administradores públicos e responsáveis por dinheiros públicos** (contas de gestão) | CF, art. 71, II: **julgar as contas** | **Decisão de julgamento de contas**; tem eficácia de título executivo **quando imputar débito ou multa** (art. 71, § 3º) | O próprio **TCU** julga administrativamente em caráter definitivo |
 | **Prefeitos municipais na gestão de verbas federais repassadas** | Exame das contas de recursos federais conforme a competência do TCU | Julgamento de contas; eficácia de título executivo **se houver imputação de débito ou multa** | **TCU**, nos casos de recursos federais sujeitos à sua fiscalização, sem confundir com o julgamento político das contas municipais |
 
-> **Distinção entre contas municipais e fiscalização de recursos federais:**
-> Para fins de inelegibilidade de Prefeito ordenador de despesas (Lei Complementar nº 64/1990), a competência para julgar as contas de gestão e de governo do Chefe do Executivo Municipal é exclusiva da **Câmara Municipal**, cabendo ao Tribunal de Contas respectivo emitir parecer prévio (art. 31 da CF). Todavia, se o Prefeito gerir **recursos federais transferidos por convênio**, o TCU julga as contas do convênio (responsabilidade financeira e recomposição do erário perante a União).
+> **Três decisões diferentes: contas de governo, contas de gestão e inelegibilidade.**
+> Nas **contas anuais de governo** do prefeito, a Câmara Municipal exerce o julgamento político após parecer prévio do Tribunal de Contas (CF, art. 31, § 2º). Quando o prefeito atua como **ordenador de despesas**, o Tribunal de Contas competente pode julgar as contas de gestão e aplicar débito ou sanções **fora da esfera eleitoral**, sem ratificação da Câmara. Para os efeitos de **inelegibilidade** previstos no art. 1º, I, “g”, da LC nº 64/1990, permanece a competência da **Câmara Municipal**, nos termos da jurisprudência do STF. Se houver gestão de **recursos federais transferidos por convênio**, também deve ser examinada a competência fiscalizatória do TCU sobre o dinheiro da União. Não se deve atribuir a uma única instituição todos esses julgamentos.
+>
+> **Fontes:** STF, [ADPF 982/PR (2025)](https://noticias.stf.jus.br/postsnoticias/tribunais-de-contas-podem-julgar-prefeitos-que-ordenam-despesas-decide-stf/), Temas 835 e 1287 de repercussão geral; CF, arts. 31 e 71.
 
 ---
 

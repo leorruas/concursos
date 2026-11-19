@@ -117,6 +117,12 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('6 tentativas válidas'));
    // O painel passou a ter visoes navegaveis e a manter detalhes em paginas proprias.
    assert.equal(await page.locator('#results-adaptive-actions li').count(),3,'resumo limitado a tres acoes');
+   assert.equal(await page.getByText('Histórico e diagnóstico detalhado',{exact:true}).count(),0,
+    'painel sem accordion estrutural legado');
+   assert.ok(await page.getByRole('navigation',{name:'Páginas dos resultados'}).isVisible(),
+    'navegacao de paginas visivel');
+   assert.ok(await page.getByRole('heading',{name:'Visão geral',exact:true}).isVisible(),
+    'cada visao apresenta titulo proprio');
    assert.ok(await page.getByText('Bateria disponível',{exact:true}).isVisible());
    assert.match(await page.locator('#results-study-modes').innerText(), /Aprendizagem · 2 tentativas/);
    assert.match(await page.locator('#results-study-modes').innerText(), /Revisão · 1 tentativa ·/);

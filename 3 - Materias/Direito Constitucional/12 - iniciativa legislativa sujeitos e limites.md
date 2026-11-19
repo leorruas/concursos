@@ -320,6 +320,6 @@ Organizar a resposta em **regra geral de iniciativa (art. 61) → iniciativas re
 - [STF, art. 63, controle do aumento de despesas por emendas parlamentares](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=63&abrirBase=CF).
 - [Câmara dos Deputados, Regimento Interno consolidado até Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 
-**Nota editorial:** fontes normativas vigentes verificadas em 07/11/2026. Leis e jurisprudência têm recortes materiais e temporais; uma tese sobre iniciativa não comprova constitucionalidade integral do projeto examinado. Este artigo não registra estudo pessoal, acertos, retenção nem prática em prova.
+**Limite interpretativo:** uma tese judicial sobre iniciativa trata da matéria e das condições examinadas; não garante a constitucionalidade integral de qualquer projeto semelhante.
 
 

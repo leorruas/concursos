@@ -163,11 +163,29 @@ Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda pa
 
 **Comissão Parlamentar Mista de Inquérito (CPMI):** comissão temporária de fiscalização e investigação de **fato determinado**, constituída **por prazo certo**, com integrantes da Câmara e do Senado. Sua criação requer assinaturas de **ao menos um terço dos deputados e um terço dos senadores**. O **número de membros não é fixo**: consta do ato de criação, com participação **igual** de deputados e senadores e observância da proporcionalidade partidária. Tem poderes de investigação próprios das autoridades judiciais, dentro dos limites constitucionais; seu relatório pode ser encaminhado ao Ministério Público para as medidas cabíveis. Fontes: CF, art. 58, § 3º; Regimento Comum, arts. 21 e seguintes. [Regimento Comum](https://legis.senado.leg.br/norma/561098/publicacao/36852069).
 
-### CPI versus CPMI
+### CPI versus CPMI: três números que não se confundem
 
-**Comissão Parlamentar de Inquérito (CPI):** no Congresso federal, pode ser criada **somente na Câmara** (composta de deputados) ou **somente no Senado** (composta de senadores). Exige requerimento de **um terço dos integrantes da respectiva Casa**, fato determinado e prazo certo. A quantidade de integrantes é estabelecida segundo as regras da Casa, e não pela proporção 11+11 ou 12+12. **CPMI**, por sua vez, é uma investigação **conjunta**, composta paritariamente de deputados e senadores, criada com requerimento de um terço de **cada Casa**. Ambas investigam; nenhuma profere condenação criminal. Não confundir **um terço de assinaturas para criar** com o **quórum para deliberar** depois da instalação. [Senado: funcionamento das CPIs](https://www12.senado.leg.br/noticias/materias/2021/04/15/o-que-e-e-como-funciona-uma-cpi).
+A **Comissão Parlamentar de Inquérito (CPI)** investiga fato determinado por prazo certo e é criada separadamente na Câmara dos Deputados ou no Senado Federal. A **Comissão Parlamentar Mista de Inquérito (CPMI)** é uma investigação conjunta, com igual participação de deputados e senadores. Ambas possuem poderes de investigação próprios das autoridades judiciais, respeitados os limites constitucionais, e nenhuma delas profere condenação criminal.
 
-**Exemplo:** se a investigação for exclusivamente do Senado, forma-se CPI de senadores. Se deputados e senadores a instaurarem conjuntamente, forma-se CPMI; exigir assinaturas suficientes somente na Câmara não basta para criar uma CPMI.
+**1. Assinaturas para criar a comissão (requisito de iniciativa):** a Constituição, no art. 58, § 3º, exige requerimento subscrito por **pelo menos um terço dos membros da Casa**, ou de **cada Casa**, quando conjunta. Como a Câmara tem 513 deputados e o Senado 81 senadores:
+
+| Comissão | Assinaturas mínimas para criação | De onde vêm as assinaturas |
+| :--- | :--- | :--- |
+| CPI da Câmara | **171 deputados** | Um terço dos **513 deputados** |
+| CPI do Senado | **27 senadores** | Um terço dos **81 senadores** |
+| CPMI | **171 deputados e 27 senadores** | Um terço **em cada Casa**, separadamente |
+
+Na CPMI, a soma é **198 assinaturas**, mas **não basta atingir a soma**: precisam existir **171 de deputados e 27 de senadores**. Por exemplo, 198 assinaturas apenas de deputados não permitem criar uma CPMI.
+
+**2. Quantidade de integrantes (composição da comissão):** os parlamentares que **assinam a criação** não são automaticamente os que **integram a investigação**. O número de membros de uma CPI é definido pelas regras e pelos atos da Casa que a institui. No caso da CPMI, o **art. 21, parágrafo único, do Regimento Comum** determina que o número seja fixado **no ato de criação**, com **igual participação de deputados e senadores** e respeito à proporcionalidade partidária. Não existe regra de que uma CPMI tenha 171 deputados e 27 senadores, nem composição obrigatória de 11+11 ou 12+12.
+
+**3. Quórum de funcionamento e deliberação:** após a instalação, a comissão precisa observar os **quóruns regimentais próprios** para abrir reuniões e tomar decisões. Esse requisito é diferente das assinaturas necessárias para sua criação. Não aplicar automaticamente o um terço constitucional como quórum para votar relatórios, requerimentos ou outras matérias.
+
+**Exemplo completo:** uma CPMI é requerida por **171 deputados e 27 senadores**, preenchidos os demais requisitos constitucionais. O ato de criação fixa **15 deputados e 15 senadores** como integrantes: são **30 membros**, não 198. Para decidir suas matérias, esses 30 observam as regras de funcionamento e votação aplicáveis. Assim, **198 assinaturas para criar, 30 integrantes para investigar e quórum regimental para decidir** representam três perguntas distintas.
+
+**Pegadinha Cebraspe:** “A CPMI deve ser integrada por pelo menos 171 deputados e 27 senadores, já que depende desse número de assinaturas para sua criação.” **Errado.** O número se refere ao **apoio inicial** necessário, não à **composição**. Outra pegadinha é dizer que um terço do total dos 594 congressistas basta para criar uma CPMI, independentemente da Casa dos signatários. **Errado:** a Constituição exige um terço **de cada Casa**.
+
+**Base normativa:** [Constituição, art. 58, § 3º](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF) e [Regimento Comum do Congresso Nacional, art. 21 e parágrafo único](https://legis.senado.leg.br/norma/561098/publicacao/16433839).
 
 ### Preliminar, mérito e quórum especial
 

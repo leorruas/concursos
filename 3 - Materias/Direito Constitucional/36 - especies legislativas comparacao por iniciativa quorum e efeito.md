@@ -10,7 +10,7 @@ updated: 2026-11-12
 
 # Espécies legislativas: comparação sistemática por iniciativa, quórum, deliberação, sanção e efeitos (Constituição Federal, art. 59)
 
-**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-032 conforme arquitetura e inventário editorial.**
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
 ## Núcleo do conceito: por que comparar as espécies legislativas?
 

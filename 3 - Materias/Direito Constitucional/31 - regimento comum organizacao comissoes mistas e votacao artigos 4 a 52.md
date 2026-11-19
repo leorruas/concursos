@@ -19,7 +19,7 @@ aliases:
 
 **Situação-problema.** Um líder partidário indica membros para uma comissão mista. A comissão abre os trabalhos, discute um parecer e o aprova. O projeto chega ao Plenário em sessão conjunta, mas os deputados votam favoravelmente e os senadores votam contra. Um assessor da Câmara comunica que o Congresso aprovou a matéria porque o conjunto de votos favoráveis superou o de contrários. A comunicação contém **erro de órgão e de procedimento**: o **parecer da comissão mista** não substitui a votação no Congresso, e, na regra do art. 43, os votos das **duas Casas são computados separadamente**; rejeição por uma delas implica rejeição da matéria.
 
-A banca pode deslocar regras aparentemente verdadeiras entre quatro ambientes: **comissão mista**, **Plenário do Congresso em sessão conjunta**, **Plenário da Câmara** e **Plenário do Senado**. O fundamento do RCCN é identificar **qual colegiado atua**, **quem indica ou decide**, **qual quórum é exigido** e **qual norma é aplicável**.
+As regras gerais do Regimento Comum podem ser complementadas por normas específicas e pela Constituição. Por isso, uma regra de comissão mista não se transfere automaticamente à votação de vetos, à matéria orçamentária ou à investigação parlamentar. A banca pode deslocar regras aparentemente verdadeiras entre quatro ambientes: **comissão mista**, **Plenário do Congresso em sessão conjunta**, **Plenário da Câmara** e **Plenário do Senado**. O fundamento do RCCN é identificar **qual colegiado atua**, **quem indica ou decide**, **qual quórum é exigido** e **qual norma é aplicável**.
 
 ## 1. Organização: lideranças do Congresso (arts. 4º a 8º)
 
@@ -194,4 +194,3 @@ Embora fora dos arts. 4º–52, estes dispositivos explicam **como resolver dúv
 - [Constituição Federal, arts. 57, 58, 60, 65 e 66](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 - [Resolução nº 1/2024-CN (liderança da Minoria)](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) e [Resolução nº 3/2025-CN (liderança da Oposição)](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional), incorporadas à consolidação consultada.
 
-**Nota editorial:** a regra geral da Resolução nº 1/1970-CN pode ser complementada ou afastada por **regimento específico e normas constitucionais supervenientes**. Não presumir, sem verificação, que todas as situações de orçamento, veto e CPI seguem integralmente os mesmos artigos gerais. As questões são **inéditas**, não itens oficiais do Cebraspe. Produção editorial não equivale a estudo realizado nem a desempenho.

@@ -26,7 +26,7 @@ Ambos podem seguir percurso diferente do procedimento ordinário com decisão pl
 
 **Classificação doutrinária versus norma.** A terminologia *ordinário, abreviado, sumário, concentrado e especial* é empregada, por exemplo, pelo consultor legislativo **Luciano Henrique da Silva Oliveira**, em estudo técnico do Senado de 2021. **O art. 151 do Regimento Interno da Câmara dos Deputados (RICD) classifica formalmente os regimes como urgência, prioridade e tramitação ordinária**, não com esses cinco rótulos. Os nomes doutrinários ajudam a comparar **procedimentos**, mas a resolução de questão literal deve partir do **dispositivo normativo aplicável**. A análise deste estudo técnico é de seu autor e não constitui posição normativa oficial do Senado.
 
-Esta unidade **CAM-PL-009** estuda precisamente a **fronteira entre abreviação por decisão nas comissões e aceleração pelo pedido presidencial**, relacionando-a ao regime de **prioridade**, que pode ser igualmente mais rápido que o ordinário sem ser automaticamente o **sumário**.
+A diferença central é **quem decide** e **qual etapa muda**: na apreciação conclusiva, a comissão pode encerrar o exame na Casa, ressalvado recurso; na urgência constitucional, os prazos de apreciação das Casas são reduzidos, mas a exigência de deliberação parlamentar permanece. O regime de **prioridade** é uma terceira categoria: altera prazos regimentais sem equivaler, por si só, ao procedimento sumário.
 
 ## Estrutura interna: quatro dimensões que não podem ser misturadas
 

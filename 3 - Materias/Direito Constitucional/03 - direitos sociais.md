@@ -16,7 +16,8 @@ Imagine uma criança sem vaga na escola pública e uma pessoa que precisa de ate
 
 ## 1. O Catálogo do Artigo 6º
 
-O **art. 6º da CF** enumera os seguintes direitos sociais. Esta é uma **lista constitucional**, não uma promessa de que todos os serviços serão prestados da mesma forma:
+O **art. 6º da CF** enumera os seguintes direitos sociais. Esta é uma **lista constitucional**. Cada direito tem responsáveis e condições de exercício próprios:
+
 - **Educação**
 - **Saúde**
 - **Alimentação**
@@ -86,6 +87,7 @@ A regra do art. 5º, § 1º, determina **aplicação imediata das normas definid
 ---
 
 ## 6. Pegadinhas de Prova
+
 **Item inédito, Certo ou Errado (C/E) 1:** “Direitos sociais exigem exclusivamente prestações materiais do Estado, enquanto direitos individuais exigem exclusivamente abstenções.” **Errado.** A diferença é útil para compreender a ênfase de cada grupo, mas a palavra **exclusivamente** elimina obrigações de proteção e outras formas de atuação presentes em ambos.
 
 **Item inédito, C/E 2:** “O art. 6º prevê renda básica familiar, mas remete à lei a definição das normas e dos requisitos de acesso.” **Certo.** É o efeito do parágrafo único do art. 6º. A norma constitucional reconhece o direito e exige regulamentação de suas condições, respeitada a legislação fiscal e orçamentária.

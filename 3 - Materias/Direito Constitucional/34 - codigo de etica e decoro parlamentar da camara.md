@@ -10,18 +10,18 @@ updated: 2026-11-11
 
 # Código de Ética e Decoro Parlamentar da Câmara dos Deputados: deveres, vedações, Conselho de Ética e processo disciplinar
 
-**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-030 conforme arquitetura e inventário editorial.**
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
 ## Núcleo do conceito: por que existe um regime disciplinar próprio para deputados?
 
 Quando um deputado se manifesta em uma votação, a Constituição protege suas opiniões, palavras e votos ligados ao mandato (art. 53). Essa proteção permite o debate parlamentar, mas não afasta as regras de conduta da Câmara. Por exemplo, o recebimento de vantagem indevida pode dar origem a um processo por quebra de decoro, com apuração e decisão pelos órgãos competentes.
 
-Na Câmara dos Deputados, esse sistema de controle ético-disciplinar está disciplinado no **Código de Ética e Decoro Parlamentar da Câmara dos Deputados (CEDP)**, instituído pela **Resolução nº 25, de 2001**, com redação atualizada por resoluções posteriores (com destaque para a **Resolução nº 2, de 2011**), complementado pelo seu **Regulamento Interno**, pelo **Regimento Interno da Câmara dos Deputados (RICD)** e pela própria **Constituição Federal (arts. 55 e 58)**.
+Na Câmara dos Deputados, esse sistema de controle ético-disciplinar está disciplinado no **Código de Ética e Decoro Parlamentar da Câmara dos Deputados**, instituído pela **Resolução nº 25, de 2001**, com redação atualizada por resoluções posteriores (com destaque para a **Resolução nº 2, de 2011**), complementado pelo seu **Regulamento Interno**, pelo **Regimento Interno da Câmara dos Deputados (RICD)** e pela própria **Constituição Federal (arts. 55 e 58)**.
 
 O Código de Ética cumpre tripla função no arranjo institucional da Câmara:
-1. **Tipicidade ético-parlamentar:** tipifica os deveres fundamentais do deputado, os atos atentatórios e os atos incompatíveis com o decoro parlamentar, dando densidade material aos conceitos abertos do art. 55, II e § 1º, da CF;
+1. **Definição das condutas:** estabelece os deveres dos deputados e descreve os atos classificados como atentatórios ou incompatíveis com o decoro. Com isso, especifica situações que podem configurar quebra de decoro na hipótese do art. 55, II e § 1º, da Constituição;
 2. **Graduação de sanções e competências punitivas:** estrutura uma escala progressiva de penalidades (censura verbal, censura escrita, suspensão de prerrogativas regimentais, suspensão temporária do exercício do mandato e perda do mandato), distribuindo a competência decisória entre Presidentes, Mesa Diretora e Plenário;
-3. **Devido processo legal legislativo:** estabelece o rito procedimental perante o **Conselho de Ética e Decoro Parlamentar (CEDP)**, assegurando ampla defesa, contraditório, instrução probatória com poderes próprios e controle recursal de vícios jurídicos pela Comissão de Constituição e Justiça e de Cidadania (CCJC), nos ritos em que previsto.
+3. **Devido processo legal legislativo:** estabelece o rito procedimental perante o **Conselho de Ética e Decoro Parlamentar**, assegurando ampla defesa, contraditório, instrução probatória com poderes próprios e controle recursal de vícios jurídicos pela Comissão de Constituição e Justiça e de Cidadania (CCJC), nos ritos em que previsto.
 
 ## 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)
 
@@ -268,7 +268,7 @@ Os enunciados seguintes testam **somente o procedimento cautelar** do [RICD, art
 ### Passo a passo detalhado do procedimento
 
 1. **Iniciativa e Legitimidade ativa:**
-   - Para processos que visem à perda do mandato ou à suspensão temporária do mandato, a representação deve ser instaurada por provocação da **Mesa Diretora** ou de **partido político com representação no Congresso Nacional** (CF, art. 55, § 2º; CEDP, art. 14).
+   - Para processos que visem à perda do mandato ou à suspensão temporária do mandato, a representação deve ser instaurada por provocação da **Mesa Diretora** ou de **partido político com representação no Congresso Nacional** (CF, art. 55, § 2º; Código de Ética, art. 14).
    - **Qualquer cidadão** pode requerer à **Mesa da Câmara** representação contra deputado, especificando fatos e respectivas provas (Código, art. 9º, § 1º). O dispositivo não atribui expressamente essa mesma legitimidade às entidades da sociedade civil: eventual petição apresentada por pessoa jurídica deve ser analisada à luz das normas próprias, sem confundi-la com a previsão literal do § 1º. O cidadão não instaura diretamente processo disciplinar no Conselho.
    - Ao receber o requerimento do cidadão, a Mesa instaura procedimento de apreciação **na forma e no prazo previstos em regulamento próprio** (art. 9º, § 2º). Se verificar indícios suficientes e ausência de inépcia, encaminha os casos de suspensão de prerrogativas, suspensão do mandato ou perda do mandato ao Conselho em **três sessões ordinárias**; nos casos de censura, adota o procedimento dos arts. 11 ou 12. A representação de partido político representado no Congresso segue o encaminhamento direto previsto no § 3º.
 2. **Distribuição e escolha do Relator:**
@@ -425,7 +425,7 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 > A deliberação final do Plenário da Câmara dos Deputados sobre a perda do mandato parlamentar decorrente de quebra de decoro deve ocorrer em escrutínio secreto, exigindo-se a anuência de dois terços dos parlamentares que compõem a Casa para a cassação do mandato.
 
 - **Gabarito: ERRADO**
-- **Comentário:** Duplo erro: 1) Desde a promulgação da Emenda Constitucional nº 76/2013, o voto secreto foi extinto nos julgamentos de perda de mandato no Congresso Nacional, passando a votação plenária a ser **ostensiva (aberta)**; 2) O quórum constitucional e regimental exigido é de **maioria absoluta dos membros da Casa (257 deputados)**, e não de dois terços (CF, art. 55, § 2º; CEDP, art. 14).
+- **Comentário:** Duplo erro: 1) Desde a promulgação da Emenda Constitucional nº 76/2013, o voto secreto foi extinto nos julgamentos de perda de mandato no Congresso Nacional, passando a votação plenária a ser **ostensiva (aberta)**; 2) O quórum constitucional e regimental exigido é de **maioria absoluta dos membros da Casa (257 deputados)**, e não de dois terços (CF, art. 55, § 2º; Código de Ética, art. 14).
 
 ---
 

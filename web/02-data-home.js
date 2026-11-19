@@ -414,12 +414,54 @@ function abrirDisciplina(categoria, atualizarRota = true) {
         .forEach(botao => botao.addEventListener("click", selecionarBibliotecaCompleta));
 
     disciplinaAcoes.innerHTML = "";
+
+    // Entrada editorial no interior de Orçamento Público, nunca na grade de matérias.
+    // Mantém os dois blueprints separados e visíveis conforme o concurso selecionado.
+    if (categoria === "Orcamento Publico" && !modoBibliotecaCompleta) {
+        const blueprintId = ({
+            "camara-2026": "art-73b824d09ac16e25",
+            "cgu-2026": "art-b6e9314c28d7f05a"
+        })[concursoSelecionadoId];
+        const blueprint = blueprintId && todosOsArtigos.find(artigo => artigo.articleId === blueprintId);
+        if (blueprint) {
+            const acesso = document.createElement("a");
+            acesso.className = "disciplina-acao disciplina-acao-blueprint";
+            acesso.href = rotaDoArtigo(blueprint, "", categoria);
+            acesso.setAttribute("aria-label", "Abrir mapa do processo orçamentário");
+            const numero = document.createElement("span");
+            numero.className = "disciplina-acao-numero";
+            numero.textContent = "↗";
+            const conteudo = document.createElement("span");
+            conteudo.className = "disciplina-acao-conteudo";
+            const titulo = document.createElement("strong");
+            titulo.textContent = concursoSelecionadoId === "camara-2026"
+                ? "blueprint: processo orçamentário na Câmara"
+                : "blueprint: ciclo orçamentário e auditoria da CGU";
+            const detalhes = document.createElement("span");
+            detalhes.className = "indice-resumo";
+            detalhes.textContent = "mapa visual completo: atores, etapas, documentos e prazos";
+            conteudo.append(titulo, detalhes);
+            acesso.append(numero, conteudo);
+            acesso.addEventListener("click", (event) => {
+                if (event.metaKey || event.ctrlKey || event.shiftKey || event.button === 1) return;
+                event.preventDefault();
+                abrirArtigo(blueprint, true, "", categoria);
+            });
+            disciplinaAcoes.appendChild(acesso);
+        }
+    }
     if (artigos.length === 0) {
         disciplinaAcoes.innerHTML = materiaSelecionada
             ? '<p class="mensagem-busca">Ainda não há artigos publicados para esta matéria neste concurso.</p>'
             : '<p class="mensagem-busca">Esta matéria não está mapeada para o concurso selecionado. Selecione outro concurso ou volte às matérias.</p>';
     }
-    artigos.forEach((artigo, idx) => {
+    // O blueprint já tem entrada própria no topo da matéria. Não duplicá-lo na lista.
+    const artigosNaLista = categoria === "Orcamento Publico" && !modoBibliotecaCompleta
+        ? artigos.filter(artigo => ![
+            "art-73b824d09ac16e25", "art-b6e9314c28d7f05a"
+        ].includes(artigo.articleId))
+        : artigos;
+    artigosNaLista.forEach((artigo, idx) => {
         const acao = document.createElement("a");
         acao.className = "disciplina-acao";
         if (artigo.articleId === "art-b6e9314c28d7f05a" || artigo.articleId === "art-73b824d09ac16e25") {

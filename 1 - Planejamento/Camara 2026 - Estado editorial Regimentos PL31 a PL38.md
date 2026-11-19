@@ -37,3 +37,17 @@ Registros normativos históricos retirados dos capítulos em 19/11/2026, sem nov
 **Gabaritos verificados:** **C, C, E, E, C, E, C, C, E, C**, correspondentes às dez questões em sua ordem original. **Nenhuma inversão demonstrada** à luz das fontes analisadas. As diferenças cruciais foram confirmadas: comissão especial 12+12 com vagas minoritárias adicionais; prazos de 48h, 24h e seis dias; quóruns por Casa; invalidação dos dispositivos que permitiam dispensar a comissão; retorno da matéria à Câmara; 45 dias para urgência, 60+60 de vigência, suspensão da contagem no recesso; e **MP original promulgada × PLV submetido à sanção**.
 
 **Limites deste atestado:** certificação do **recorte normativo e dos casos escritos**, não homologação de qualquer aplicação futura, nem teste do site publicado. O período excepcional de 2020–2023 deve ser identificado separadamente se objeto de questão histórica. A remissão do art. 7º, § 2º, ao art. 6º, caput, deve ser lida de acordo com o dispositivo final da ADI 4.029 e com a exigência de parecer da comissão mista do art. 62, § 9º, da CF; não autoriza dispensar a comissão. A norma disponibilizada pelo Senado lista ato correlato de 2020, mas não autoriza concluir que o rito excepcional de pandemia continua aplicável às MPs atuais. Nova norma ou jurisprudência posterior à data de corte exigirá revisão.
+
+## Notas editoriais finais migradas em 19/11/2026
+
+### 31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52.md
+
+**Nota editorial:** a regra geral da Resolução nº 1/1970-CN pode ser complementada ou afastada por **regimento específico e normas constitucionais supervenientes**. Não presumir, sem verificação, que todas as situações de orçamento, veto e CPI seguem integralmente os mesmos artigos gerais. As questões são **inéditas**, não itens oficiais do Cebraspe. Produção editorial não equivale a estudo realizado nem a desempenho.
+
+### 32 - comissao representativa do congresso resolucao 3 1990.md
+
+**Nota editorial:** este material corresponde à unidade CAM-PL-028 do inventário. Dez itens C/E são inéditos, baseados em mecanismos reais de confusão conceitual, sem reprodução de provas oficiais. A produção editorial não representa estudo pessoal ou retenção.
+
+### 33 - medidas provisorias resolucao 1 2002 CN.md
+
+**Nota editorial:** a norma não consta como expressamente revogada na ficha oficial da Câmara. A vigência de dispositivos específicos é afetada pelas decisões judiciais mencionadas. Estas dez questões são inéditas; a publicação editorial não comprova estudo ou retenção.

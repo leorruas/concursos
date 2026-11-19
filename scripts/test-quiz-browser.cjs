@@ -75,7 +75,10 @@ fs.mkdirSync(evidence,{recursive:true});
      })),{concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'teste',title:'Regra em revisão',
       rationale:['Reteste vencido.'],action:'test-retention',priority:'high',quantity:1,questionIds:[proposed.id],
       articles:[],nextReview:'2026-11-15'}],
-     principles:[{state:'review-pending',title:'Regra em revisão',
+     principles:[{state:'review-pending',title:'Regra em revisão',subjectId:proposed.subjectId,principleId:'teste',
+      attempts:1,cycleAttemptId:'test-event',recentEvents:[{id:'test-event',date:'2026-11-11',
+       result:'incorrect',confidence:'secure',origin:'ledger',daysSincePrevious:null,
+       answer:'C',correctAnswer:'E',responseMs:1800}],
       signals:[{kind:'consultation-unknown',elapsed:6,date:'2026-11-18'}]}],
      coverage:{units:[{title:'Constitucional',subjectId:proposed.subjectId,studyStatus:'studied-unassessed',exposition:'2026-11-13',
       items:[{editalRef:'Referência de teste',attempts:0}]}],unmapped:1}},
@@ -100,6 +103,9 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.keyboard.press('Enter');
    assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
      (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
+   assert.ok(await page.getByLabel('Conceito',{exact:true}).isVisible());
+   assert.match(await page.locator('#results-principle-history').innerText(), /Início do ciclo atual/);
+   assert.match(await page.locator('#results-principle-history').innerText(), /Resposta: C · Gabarito: E/);
    assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link direto para leitura prioritária');
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
    assert.deepEqual(errors,[],'painel e quiz sem erros de JS');

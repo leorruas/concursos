@@ -151,7 +151,7 @@ fs.mkdirSync(evidence,{recursive:true});
 
    await page.getByRole('link',{name:'Revisões',exact:true}).click();
    assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link para leitura prioritaria');
-   assert.equal(await page.locator('#results-adaptive-queue-items li').count(),3,'fila adicional acessivel em Revisoes');
+   assert.equal(await page.locator('#results-adaptive-queue-items li').count(),6,'fila completa acessivel em Revisoes');
    assert.ok(await page.getByRole('heading',{name:'Estudar · Conteúdo inicial'}).isVisible());
    const discursive=page.getByText('Treinar discursiva',{exact:true});
    assert.ok(await discursive.isVisible(),'propostas discursivas acessiveis em Revisoes');

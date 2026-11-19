@@ -592,6 +592,32 @@ function render(){
   }
   priority.append(group);
  }
+ const allArticleRows=[...priority.querySelectorAll('.results-quiz-priority')];
+ if(allArticleRows.length>5){
+  const headline=el('p','results-concept-count');
+  const footer=el('div','results-concepts-footer');
+  let visible=5;
+  function showArticles(){
+   allArticleRows.forEach((row,i)=>{row.hidden=i>=visible;});
+   for(const group of priority.querySelectorAll('.results-subject-group'))
+    group.hidden=![...group.querySelectorAll('.results-quiz-priority')].some(row=>!row.hidden);
+   headline.textContent=allArticleRows.length+' artigos para revisar · mostrando '+
+    Math.min(visible,allArticleRows.length)+' de '+allArticleRows.length;
+   footer.replaceChildren();
+   if(visible<allArticleRows.length){
+    const button=el('button','results-concept-more','Mostrar mais '+Math.min(5,allArticleRows.length-visible)+' artigos');
+    button.type='button';button.addEventListener('click',()=>{visible+=5;showArticles();});
+    footer.append(button);
+   }else{
+    const button=el('button','results-concept-more','Mostrar menos artigos');
+    button.type='button';button.addEventListener('click',()=>{visible=5;showArticles();});
+    footer.append(button);
+   }
+  }
+  priority.prepend(headline);priority.append(footer);showArticles();
+ }else if(allArticleRows.length){
+  priority.prepend(el('p','results-concept-count',allArticleRows.length+' artigos para revisar'));
+ }
  if(!articleGroups.length)priority.append(el('p','results-caption','Sem recomendações de artigo para esta matéria.'));
  $('results-quiz-priority-description').textContent=
   'Recomendações por matéria, reunindo chat e site. A prioridade é relativa; amostras pequenas são sinalizadas.';

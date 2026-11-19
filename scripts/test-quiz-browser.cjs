@@ -75,7 +75,7 @@ fs.mkdirSync(evidence,{recursive:true});
       articles:[],nextReview:'2026-11-15'}],
      principles:[{state:'review-pending',title:'Regra em revisão',
       signals:[{kind:'consultation-unknown',elapsed:6,date:'2026-11-18'}]}],
-     coverage:{units:[{title:'Constitucional',subjectId:proposed.subjectId,
+     coverage:{units:[{title:'Constitucional',subjectId:proposed.subjectId,studyStatus:'studied-unassessed',exposition:'2026-11-13',
       items:[{editalRef:'Referência de teste',attempts:0}]}],unmapped:1}},
     difficulty:{byLevel:[{id:meta.estimatedDifficulty,total:3,correct:2,incorrect:1,blank:0,accuracy:66.7,uncertain:1}],
       bySubject:[{id:'direito-constitucional',uncertain:1}]},
@@ -107,6 +107,7 @@ fs.mkdirSync(evidence,{recursive:true});
    const coverage=page.locator('#results-edital-coverage summary').first();
    await coverage.focus();
    await page.keyboard.press('Enter');
+   assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Ainda sem avaliação na unidade.').isVisible());
    assert.ok(await page.getByText('Referência de teste · Avaliação sem registro').isVisible());
    const discursive=page.getByText('Treinar discursiva',{exact:true});
    await discursive.focus();

@@ -127,6 +127,13 @@ function showEditalCoverage(){
    const covered = unit.items.filter(item => item.attempts > 0).length;
    details.append(el('summary', '', unit.title + (unit.items.length ? ' · ' + covered + ' de ' +
     unit.items.length + ' referências avaliadas' : ' · Sem referências detalhadas no banco')));
+   if (unit.studyStatus === 'studied-unassessed') {
+    details.append(el('p', 'results-caption', 'Estudo registrado em ' + fmtDate(unit.exposition) + '. Ainda sem avaliação na unidade.'));
+   } else if (unit.studyStatus === 'unknown') {
+    details.append(el('p', 'results-caption', 'Sem evidência suficiente de estudo ou avaliação na unidade.'));
+   } else if (unit.studyStatus === 'evaluated') {
+    details.append(el('p', 'results-caption', unit.evaluated + ' resposta(s) na unidade. A contagem inclui referências amplas.'));
+   }
    const list = el('ul');
    for (const item of unit.items) list.append(el('li', '', item.editalRef + ' · ' +
     (item.attempts ? item.attempts + ' resposta(s)' : 'Avaliação sem registro')));

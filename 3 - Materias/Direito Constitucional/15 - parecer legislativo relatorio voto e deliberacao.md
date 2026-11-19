@@ -55,7 +55,7 @@ Um parecer favorável pode ajudar um projeto a prosseguir; um parecer contrário
 
 ## Parecer independente e parecer único de proposições apensadas
 
-O **art. 127** determina, como regra, **parecer independente para cada proposição**. Há ressalva expressa para matérias **apensadas** conforme os arts. 139, I, e 142, que terão **um só parecer**. A tramitação conjunta não elimina automaticamente a identidade de cada projeto, como estudado em CAM-PL-003.
+O **art. 127** determina, como regra, **parecer independente para cada proposição**. Há ressalva expressa para matérias **apensadas** conforme os arts. 139, I, e 142, que terão **um só parecer**. A tramitação conjunta não elimina automaticamente a identidade de cada projeto, como explicado em [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação e fases do processo legislativo]].
 
 **Caso:** projetos A e B, da mesma espécie e sobre temas correlatos, são apensados. A comissão pode produzir **parecer único que se pronuncia sobre todas as proposições**, inclusive concluindo pela aprovação de uma e rejeição da outra. A existência de **parecer único** não significa que A e B se fundiram em **um só projeto**. O art. 57, I, também exige pronunciamento sobre todas as apensadas.
 
@@ -194,8 +194,8 @@ Também importam as inversões de quórum: **maioria absoluta presente** não é
 - [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: recebimento, distribuição, apreciação conclusiva, recurso e Plenário.
 - [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]: permanentes e temporárias, funções de instrução e fiscalização.
 - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo constitucional]]: espécies, quóruns e produção normativa.
-- **CAM-PL-006**: discussão, votação, quóruns e modalidades de decisão, com foco no Plenário.
-- **CAM-PL-008 a CAM-PL-010**: procedimentos ordinário, abreviado, sumário, sumaríssimo e ritos especiais.
+- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação e quóruns]]: regras próprias de deliberação em Plenário.
+- [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Procedimentos abreviado e sumário]] e [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Procedimentos sumaríssimo, especial e concentrado]]: diferenças entre os ritos.
 
 ## Tensões e pegadinhas
 

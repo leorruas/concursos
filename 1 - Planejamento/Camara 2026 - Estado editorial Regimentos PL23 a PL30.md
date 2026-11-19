@@ -143,3 +143,15 @@ Transcrição dos registros de auditoria extraídos dos capítulos em 19/11/2026
 ### 26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md
 
 **Nota editorial:** unidade **CAM-PL-022**, conforme descrição do inventário de 315 unidades, cotejada com fontes oficiais em 08/11/2026. A nota sobre **arts. 81–105** foi mantida como **complemento editorial independente**, não como substituto desta unidade. Os dez itens C/E são inéditos e não representam questões reais ou acertos pessoais.
+
+### 27 - administracao economia interna e policia da camara artigos 262 a 273.md
+
+**Nota editorial:** este é o recorte da **CAM-PL-023** previsto no inventário da Câmara; os dez itens C/E são exercícios **inéditos**, não itens oficiais da Cebraspe. Publicar material editorial não significa que houve estudo, retenção ou desempenho do candidato.
+
+### 28 - mapa regimental da camara estrutura e fronteiras do edital.md
+
+**Nota editorial:** os quatro intervalos do RICD no bloco de Direito Constitucional são literais do Edital nº 1/2026, cargo 1, tópico 7.1–7.4, conforme cotejo com o programa do edital. A unidade é um **mapa de competências e erros de transposição**, e não uma segunda cópia dos artigos de base. A cobertura editorial não indica prática, retenção ou desempenho em questões.
+
+### 30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103.md
+
+**Nota editorial:** confronto realizado em **09/11/2026**. As dez questões são **inéditas**, não questões oficiais do Cebraspe. A contagem de produção editorial não comprova estudo pessoal, acerto ou retenção.

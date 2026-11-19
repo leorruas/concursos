@@ -64,7 +64,8 @@ function montar(table){
  card.append(canvas,status);
  function draw(){
    const phaseIds=all?[0,1,2,3,4,5]:[current],pw=all?285:550,labelWidth=all?155:182,cellWidth=all?245:490;
-   const height=quorumRows?940:735,width=labelWidth+phaseIds.length*pw+24;
+   const routeRows=data.length>=14 && /regime de urg[eê]ncia/i.test(data[12]?.[0]||"") && /decis[aã]o conclusiva/i.test(data[13]?.[0]||"");
+   const height=quorumRows?(routeRows?1135:940):735,width=labelWidth+phaseIds.length*pw+24;
    const svg=svgNode("svg",{viewBox:"0 0 "+width+" "+height,width:width,height:height,role:"img","aria-label":all?"Blueprint completo de seis fases":"Blueprint da fase "+fasesLocais[current],class:"sb-map"});
    svg.append(svgNode("title",{},all?"Mapa das seis fases":"Mapa da fase "+fasesLocais[current]));
    svg.append(svgNode("rect",{x:0,y:0,width,height,fill:"var(--bg)"}));
@@ -72,6 +73,10 @@ function montar(table){
    if(quorumRows) layers.push(
      {source:10,label:"Quórum: presença",y:694},
      {source:11,label:"Quórum: aprovação",y:796}
+   );
+   if(routeRows) layers.push(
+     {source:12,label:"Urgência e regime",y:898},
+     {source:13,label:"Comissão / Plenário",y:1000}
    );
    const lines=[{y:271,label:"Linha de interação"},{y:374,label:"Linha de visibilidade"},{y:475,label:"Linha interna"}];
    for(const item of layers){

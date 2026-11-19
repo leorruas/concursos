@@ -26,7 +26,14 @@ fs.mkdirSync(evidence,{recursive:true});
      }))};
     });
     assert.ok(colors.colors.length>=5,'home deve ter ferramentas e materias');
-    const expected=await home.evaluate(()=>getComputedStyle(document.body).color);
+    const expected=await home.evaluate(()=>{
+     const probe=document.createElement('span');
+     probe.style.color='var(--text)';
+     document.body.append(probe);
+     const color=getComputedStyle(probe).color;
+     probe.remove();
+     return color;
+    });
     for(const sample of colors.colors){
      assert.equal(sample.link,expected,'link editorial acompanha cor do texto em '+theme);
      assert.equal(sample.heading,expected,'titulo editorial acompanha cor do texto em '+theme);

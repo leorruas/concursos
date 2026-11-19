@@ -35,6 +35,8 @@ flowchart TD
 
 ## Natureza Jurídica e Distinção Dogmática
 
+**Natureza jurídica** é a classificação de um instrumento segundo seus efeitos no Direito. Neste caso, a questão é saber se o parecer apenas orienta uma decisão ou se uma norma lhe atribui efeitos obrigatórios. A expressão **distinção dogmática** indica essa comparação feita a partir das categorias jurídicas.
+
 ### Parecer versus Decisão Administrativa
 Em regra, **quem emite parecer apresenta razões** e **quem possui competência legal profere a decisão**. Parecer obrigatório não significa, sozinho, parecer vinculante. O conteúdo e os efeitos dependem da norma que exige a consulta:
 - O parecer pode integrar a fundamentação da decisão se a autoridade o adota expressamente e a motivação for clara e acessível. É a **motivação por remissão (*aliunde* ou *per relationem*)**, admitida pelo **art. 50, § 1º, da Lei nº 9.784/1999**, que regula o processo administrativo federal. A autoridade continua responsável por sua decisão.

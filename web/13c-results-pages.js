@@ -57,7 +57,18 @@
  .results-view-panel #results-adaptive-actions li{padding:16px 0!important}
  .results-view-panel #results-adaptive-actions h3{font-size:16px;line-height:1.3;font-weight:620;margin:0 0 6px}
  .results-view-panel #results-adaptive-actions li>p{font-size:12px;line-height:1.5;margin:5px 0}
- .results-view-panel #results-adaptive-actions li>a{color:var(--accent-blue);font-weight:600;font-size:13px;margin-top:8px}
+ .results-view-panel .results-study-action-row{display:grid;grid-template-columns:minmax(0,1fr) max-content;gap:22px;align-items:center;padding:17px 0!important}
+ .results-view-panel .results-study-action-copy{min-width:0}
+ .results-view-panel .results-study-action-copy h3{font-size:16px;line-height:1.3;margin:0 0 5px;font-weight:620;letter-spacing:-.02em;color:var(--text)}
+ .results-view-panel .results-study-action-copy p{margin:5px 0;color:var(--muted);font-size:12px;line-height:1.5}
+ .results-study-action-available{display:block;font:10px 'IBM Plex Mono',monospace;color:var(--accent-blue);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em}
+ .results-study-action-controls{display:flex;flex-direction:column;align-items:flex-end;gap:7px;max-width:210px}
+ .results-study-action-controls:empty{display:none}
+ .results-study-action-controls>a{font-size:12px;text-align:right;line-height:1.3;color:var(--accent-blue);font-weight:600;text-decoration:none}
+ .results-study-action-controls>a:hover{text-decoration:underline;text-underline-offset:3px}
+ .results-study-action-controls>a:focus-visible{outline:2px solid var(--accent-blue);outline-offset:3px}
+ .results-study-action-controls>a.results-study-action-primary{border:1px solid var(--accent-blue-alpha-40);background:var(--accent-blue-alpha-05);border-radius:5px;padding:10px 12px}
+ .results-study-action-controls>a.results-study-action-primary:hover{background:var(--accent-blue-alpha-15);text-decoration:none}
 
  .results-title{font-size:clamp(2.6rem,5vw,4.2rem);margin-bottom:12px}
  .results-explain{margin-bottom:26px}
@@ -102,6 +113,9 @@
   .results-edital-unit-heading{align-items:flex-start}
   .results-edital-unit-total{white-space:normal;text-align:right;min-width:92px}
   .results-mode-row{grid-template-columns:minmax(0,1fr) minmax(140px,auto)}
+  .results-view-panel .results-study-action-row{grid-template-columns:minmax(0,1fr);gap:10px}
+  .results-study-action-controls{align-items:flex-start;max-width:none}
+  .results-study-action-controls>a{text-align:left}
  }
  @media(max-width:760px){
   #results-content:not([hidden]){display:block}

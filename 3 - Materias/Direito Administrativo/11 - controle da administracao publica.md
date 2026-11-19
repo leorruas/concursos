@@ -16,7 +16,9 @@ Controle da Administração Pública é o conjunto de mecanismos destinados a ve
 
 Nenhum órgão ou entidade administrativa atua sem controle. A fiscalização pode ser exercida pela própria Administração, por outros Poderes e órgãos constitucionais, pelo Judiciário e pela sociedade, conforme a competência de cada mecanismo.
 
-A classificação depende do critério usado. Por isso, uma mesma atuação pode ser descrita de maneiras diferentes sem contradição: um controle pode ser administrativo quanto ao órgão, posterior quanto ao momento e de legalidade quanto ao objeto.
+Para classificar um mecanismo de controle, faça três perguntas: **quem fiscaliza**, **quando fiscaliza** e **o que examina**. As respostas descrevem aspectos diferentes da mesma atividade.
+
+Por exemplo, uma revisão feita pela própria Administração depois de uma decisão pode ser **administrativa quanto a quem controla**, **posterior quanto ao momento** e **de legalidade quanto ao objeto**. As classificações se complementam; não são alternativas excludentes.
 
 ## Autotutela administrativa
 

@@ -45,5 +45,11 @@ assert(html.includes('id="results-concept-transfer-description"'));
 assert(source.includes('transferCombined?data.learning.byConcept:null'));
 assert(source.includes("if(!transferCombined){"));
 assert(html.includes('id="results-subject-filter"'));
-assert(source.includes('subjectGroups(activeArticles'));assert(source.includes('subjectGroups(cs'));
+assert(source.includes('subjectGroups(activeArticles'));
+assert(source.includes('subjectGroups(visible,c=>c.subjectId)'),
+ 'Conceitos devem ser agrupados após busca e limite de exibição');
+assert(source.includes('const visible=filtered.slice(0,shown)'),
+ 'Índice de conceitos precisa limitar a quantidade inicial');
+assert(source.includes("search.type='search'"),
+ 'Índice deve permitir buscar um conceito sem percorrer todas as linhas');
 console.log('OK: agrupamento por matéria, manifesto, amostra pequena e filtros de revisão.');

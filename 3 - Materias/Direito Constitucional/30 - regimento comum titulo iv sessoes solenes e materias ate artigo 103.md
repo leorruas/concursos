@@ -267,5 +267,4 @@ Relações: [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i 
 
 **Verificação documental:** a publicação da Câmara do RCCN declara estar consolidada até **janeiro de 2023**, embora tenha sido consultada em 11/11/2026. A data da consulta não altera a data de corte do texto oficial; para resoluções posteriores, confrontar as normas específicas.
 
-**Controle editorial de 11/11/2026:** os **oito destinos únicos de links internos** desta nota foram encontrados nos caminhos correspondentes do repositório, inclusive as notas de Orçamento Público. Os dez itens C/E foram relidos e preservaram seus gabaritos; a verificação das referências e do escopo foi concluída nesta rodada, mas **a certificação normativa integral do DC30 ainda depende de fechamento próprio**. A matriz de emendas é aprofundamento da Resolução 1/2006-CN e não deve ser confundida com o recorte literal do RCCN.
 

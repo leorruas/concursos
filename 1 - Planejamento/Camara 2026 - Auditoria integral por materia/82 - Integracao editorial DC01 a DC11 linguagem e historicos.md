@@ -157,3 +157,7 @@ A branch foi sincronizada com `main` em merge commit `e86397b7164ce0d30db4be2040
 ## Retificação jurisprudencial dirigida: DC05 (19/11/2026)
 
 A menção antiga à ADI 7.991 foi atualizada conforme o andamento oficial do STF (https://portal.stf.jus.br/processos/listarProcessos.asp?classe=ADI&numeroProcesso=7991). O julgamento virtual de 18 a 25/09/2026 negou provimento, por unanimidade, ao agravo regimental do partido autor, mantendo o não conhecimento por ausência de comprovação da representação no Congresso Nacional. Trata-se de decisão **processual**, sem exame de mérito da norma sobre o momento de aferição da idade mínima (Lei 9.504/1997, art. 11, § 2º, na redação da Lei 15.230/2025). Mantidas as regras didáticas, os gabaritos e as referências. O cotejo não substitui fiscalização de eventual processo futuro sobre a mesma regra.
+
+## Resíduos editoriais em fontes: DC07 a DC09
+
+Eliminadas das referências didáticas três notas de procedimento, sem valor de fonte jurídica: DC07, `registro de ingestão arquivado`; DC08, `Registro histórico de ingestão de 10/06/2026, arquivado fora da biblioteca pública`; DC09, `Registro histórico de ingestão arquivado`. As expressões exatas foram preservadas neste relatório para rastreabilidade; nenhuma referência a Constituição, lei, tribunal, fonte acadêmica ou exercício foi excluída por essa limpeza.

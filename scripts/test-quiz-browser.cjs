@@ -121,7 +121,7 @@ fs.mkdirSync(evidence,{recursive:true});
     'navegacao de paginas visivel');
    assert.ok(await page.getByRole('heading',{name:'Visão geral',exact:true}).isVisible(),
     'cada visao apresenta titulo proprio');
-   assert.ok(await page.getByText('Bateria disponível',{exact:true}).isVisible());
+   assert.ok(await page.locator('#results-adaptive-actions').getByText('Bateria disponível',{exact:true}).isVisible());
    assert.match(await page.locator('#results-retention').innerText(), /após 6 dias/);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
    await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
@@ -162,7 +162,7 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.getByRole('link',{name:'Resumo',exact:true}).click();
    assert.equal(new URL(page.url()).searchParams.get('visao'),'resumo');
    assert.deepEqual(errors,[],'painel e quiz sem erros JS');
-   const launch=page.getByRole('link',{name:'Preparar bateria de 1 questão(ões)'});
+   const launch=page.locator('#results-adaptive-actions').getByRole('link',{name:'Preparar bateria de 1 questão(ões)'});
    await launch.focus();
    await page.keyboard.press('Enter');
    const start=page.getByRole('button',{name:'Iniciar bateria recomendada (1)'});

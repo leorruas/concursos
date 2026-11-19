@@ -1,0 +1,41 @@
+name: Validar interface de questões no navegador
+on:
+  pull_request:
+    paths:
+      - 'questoes.html'
+      - 'web/15-questoes-ui.js'
+      - 'scripts/test-quiz-browser.cjs'
+      - '.github/workflows/validar-questoes-visual.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Montar site público
+        run: node scripts/build-site.js
+      - name: Instalar navegador de teste
+        run: |
+          npm install --no-save --ignore-scripts --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Verificar leitura, campos e navegação em desktop e mobile
+        timeout-minutes: 7
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory _site >/tmp/servidor-questoes.log 2>&1 &
+          servidor=$!
+          trap 'kill "$servidor" 2>/dev/null || true' EXIT
+          curl --fail --retry 10 --retry-connrefused --retry-delay 1 http://127.0.0.1:8765/ >/dev/null
+          node scripts/test-quiz-browser.cjs
+      - name: Guardar evidências visuais
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: evidencias-ui-questoes
+          path: quiz-visual-evidence/
+          if-no-files-found: ignore

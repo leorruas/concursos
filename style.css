@@ -2577,6 +2577,10 @@ body:has(.glossario-pagina:not(.escondido)) .page-masthead{display:none}
 .study-topbar__links a:link,.study-topbar__links a:visited{color:var(--text)}
 .study-topbar__links a:hover,.study-topbar__links button:hover{background:var(--accent-blue-alpha-05);border-color:var(--accent-blue-alpha-30);color:var(--text)}
 .study-topbar__links a[aria-current=page],.study-topbar__links a[aria-current=page]:visited{color:var(--accent-blue);background:var(--accent-blue-alpha-05);border-color:var(--accent-blue-alpha-30)}
+:root[data-theme="dark"] .study-topbar__links a:not([aria-current=page]),
+:root[data-theme="dark"] .study-topbar__links a:not([aria-current=page]):visited{color:var(--text)}
+:root[data-theme="light"] .study-topbar__links a:not([aria-current=page]),
+:root[data-theme="light"] .study-topbar__links a:not([aria-current=page]):visited{color:var(--text)}
 .study-topbar__links :focus-visible{outline:2px solid var(--accent-blue);outline-offset:3px}
 @media(max-width:850px){.study-topbar{align-items:flex-start;flex-direction:column;gap:14px}.study-topbar__links{justify-content:flex-start;gap:7px}}
 @media(max-width:420px){.study-topbar__links a,.study-topbar__links button{font-size:.73rem;padding:7px 10px}}

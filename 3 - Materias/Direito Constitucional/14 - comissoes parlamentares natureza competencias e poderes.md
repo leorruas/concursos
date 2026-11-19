@@ -33,6 +33,8 @@ Mude apenas a finalidade: se deputados pretendem **investigar um fato determinad
 
 ### Organização interna e regras de funcionamento
 
+Para a organização geral da Mesa e das lideranças, ver [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Regimento da Câmara: organização e órgãos]].
+
 A [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Regimento da Câmara: organização, Mesa, lideranças e órgãos (arts. 1º a 24)]] introduz os arts. 22 a 24 e a distinção entre comissões permanentes e temporárias. A parte inicial desta nota já trata dos tipos de comissão, das comissões especiais, parlamentares de inquérito e externas. Aqui, o foco é outro: **composição, proporcionalidade, eleição de dirigentes, impedimentos, reuniões, quóruns, prazos, distribuição e tipos de parecer** segundo os **arts. 25 a 54**. O nome “comissão” não indica automaticamente o **órgão que decide**, o **tipo de decisão** ou o **prazo aplicável**.
 
 ## Estrutura interna: permanentes versus temporárias

@@ -119,3 +119,13 @@ Esta limpeza de registros não aumenta a quantidade de artigos com revisão norm
 ## Sexta rodada: PL38, cadeia entre autógrafo e atos finais (19/11/2026)
 
 Na matriz de **projeto de lei ordinária**, o autógrafo constava na preparação de bastidor da **etapa final**, juntamente com a promulgação, podendo sugerir simultaneidade entre a elaboração do texto enviado ao Executivo e a promulgação da lei. O autógrafo foi posicionado na etapa de **revisão/retorno**, e a etapa final passou a distinguir a preparação da promulgação/publicação, a sanção ou veto pelo Presidente da República e o exame congressual de eventual veto. Natureza: **sequência inadequada** no quadro. Fundamentação já referida nos artigos PL17 e PL38: Constituição Federal, art. 66. As demais matrizes, headings e identificadores foram mantidos. O ajuste textual da tabela não equivale à verificação de renderização das camadas em navegador.
+
+## Sétima rodada: exemplos nos procedimentos internos (19/11/2026)
+
+| Artigo e seção | Trecho e problema | Natureza | Correção efetivamente realizada | Base para conferência |
+| :--- | :--- | :--- | :--- | :--- |
+| PL25, Proposições, art. 104 | Retirada contrastada apenas em termos abstratos com rejeição e arquivamento | Exemplo ausente, sequência | Situação de pedido do autor, decisão do Presidente e possibilidade de recurso, distinguindo retirada de julgamento do mérito | RICD art. 104, fonte oficial já indicada no artigo |
+| PL26, Vacância e suplência, art. 242 | Condição da vaga sem suplente e prazo de quinze meses | Ausência de exemplo de condição | Exemplo de vaga com dezoito meses restantes e sem suplente, com comunicação à Justiça Eleitoral, e contraste com convocação de suplente | Constituição art. 56, § 2º; RICD art. 242 |
+| PL27, Serviços administrativos, art. 264 | Fluxo de reclamação e prazo de 72 horas | Atores e etapas | Caso de reclamação de serviço recebida pela Mesa, com possibilidade de encaminhamento posterior ao Plenário | RICD art. 264 |
+
+O conteúdo das questões, gabaritos, frontmatter e headings foi preservado nessas três intervenções. A fonte oficial do RICD foi novamente localizada em 19/11/2026; essa verificação dirigida não se estende a todas as hipóteses dos artigos. O documento registra as edições, sem considerar concluída a auditoria jurídica de PL15 a PL38.

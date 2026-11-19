@@ -412,9 +412,11 @@ const nomesUnidades = Object.fromEntries(Object.values(arquivoQuestoes.subjects)
 const officialProgram = JSON.parse(fs.readFileSync(path.join(rootDir,'data/programa-oficial-camara-2026.json'), 'utf8'));
 const officialLinks = JSON.parse(fs.readFileSync(path.join(rootDir,'data/vinculos-edital-camara-2026.json'), 'utf8'));
 const officialCodeByReference = new Map();
+const officialCodeByQuestion = new Map();
 const referenceKey = (unitId, ref) => JSON.stringify([unitId, ref]);
-const reviewedReferences = new Set(arquivoQuestoes.expansao.filter(q => q.reviewStatus === 'validada')
-  .map(q => referenceKey(q.unitId, q.editalRef)));
+const reviewed = arquivoQuestoes.expansao.filter(q => q.reviewStatus === 'validada');
+const reviewedReferences = new Set(reviewed.map(q => referenceKey(q.unitId, q.editalRef)));
+const reviewedQuestions = new Map(reviewed.map(q => [q.id, q]));
 for (const links of officialLinks) {
   const block = officialProgram.blocks.find(block => block.section === links.section && block.title === links.block);
   if (!block) throw Error('Bloco oficial inexistente: ' + links.block);
@@ -427,6 +429,14 @@ for (const links of officialLinks) {
     }
     officialCodeByReference.set(key, code);
   }
+  for (const [id, code] of Object.entries(links.questions || {})) {
+    const question = reviewedQuestions.get(id);
+    if (!codes.has(code) || question?.unitId !== links.unitId ||
+        !question.editalRef?.startsWith(prefix) || officialCodeByQuestion.has(id)) {
+      throw Error('Vínculo oficial inválido ou duplicado na questão: ' + id);
+    }
+    officialCodeByQuestion.set(id, code);
+  }
 }
 const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
   q.reviewStatus === 'validada' && typeof q.reviewEvidence === 'string' && q.reviewEvidence.trim() &&
@@ -434,7 +444,7 @@ const questoesPublicas = arquivoQuestoes.expansao.filter(q =>
   typeof q.explanation === 'string' && ['C','E'].includes(q.correctAnswer) && q.format === 'CE'
 ).map(q => ({id:q.id,concursoId:q.concursoId,subjectId:q.subjectId,subjectName:materiasQuestoes[q.subjectId] || q.subjectId,
   unitId:q.unitId,unitName:nomesUnidades[q.unitId] || q.unitId,examPart:q.examPart,editalRef:q.editalRef||null,
-  officialEditalCode:officialCodeByReference.get(referenceKey(q.unitId,q.editalRef))??null,
+  officialEditalCode:officialCodeByQuestion.get(q.id)??officialCodeByReference.get(referenceKey(q.unitId,q.editalRef))??null,
   articleId:q.articleId || null,section:q.source?.section || null,conceptId:q.conceptId||null,mechanism:q.mechanism||null,
   format:q.format,origin:q.origin,estimatedDifficulty:q.estimatedDifficulty||null,statement:q.statement,correctAnswer:q.correctAnswer,explanation:q.explanation}));
 if(new Set(questoesPublicas.map(q=>q.id)).size !== questoesPublicas.length)throw Error('IDs duplicados no catálogo público de questões.');

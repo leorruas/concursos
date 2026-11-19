@@ -56,6 +56,22 @@
       "conectores e relações lógico-semânticas": "4.1",
       "reescrita de frases e parágrafos": "6",
       "tipos textuais": "2"
+    },
+    "questions": {
+      "cam-pt-l043-001-citacao-direta-nao-explicacao": "5.4",
+      "cam-pt-l043-002-dois-pontos-aposto-oracional": "5.4",
+      "cam-pt-l043-003-enumeracao-com-virgulas-internas": "5.4",
+      "cam-pt-l043-004-travessao-aposto-em-final": "5.4",
+      "cam-pt-l067-001-ambiguidade-adjunto-instrumento": "6.3",
+      "cam-pt-l067-002-ambiguidade-coordenacao-adjetivo": "5.5",
+      "cam-pt-l067-003-ambiguidade-possessivo-reescrita": "6.2",
+      "cam-pt-l075-001-registro-modalidade-dever": "6.4",
+      "cam-pt-l075-002-registro-sigla-expansao": "6.4",
+      "cam-pt-l075-003-discurso-indireto-deitico-dia": "6",
+      "cam-pt-l075-004-discurso-indireto-primeira-pessoa": "6",
+      "cam-pt-l088-001-postergar-versus-cancelar": "6.2",
+      "cam-pt-l088-002-mitigar-nao-eliminar": "6.2",
+      "cam-pt-l114-002-relativa-antecedente-fixado": "6.3"
     }
   },
   {
@@ -76,7 +92,8 @@
       "visualização e storytelling com dados": "8",
       "Microsoft 365, Word": "1",
       "Microsoft 365, PowerPoint": "1",
-      "Microsoft 365, Excel": "1"
+      "Microsoft 365, Excel": "1",
+      "ética em inteligência artificial": "6"
     }
   },
   {
@@ -91,7 +108,24 @@
       "regimes políticos": "3",
       "sistemas partidários": "8",
       "sistemas eleitorais": "7",
-      "partidos políticos": "8"
+      "partidos políticos": "8",
+      "partidos políticos e sistemas partidários": "8"
+    },
+    "questions": {
+      "cam-cpol-l028-001-duverger-efeito-mecanico": "7",
+      "cam-cpol-l028-003-representacao-descritiva": "5",
+      "cam-cpol-l028-004-voto-alternativo-rodadas": "7",
+      "cam-cpol-l028-005-magnitude-efeito-condicionado": "7",
+      "cam-cpol-l028-006-federacao-coligacao-proporcional": "7",
+      "cam-cpol-l028-007-sobras-restrita-criterios-distintos": "7",
+      "cam-cpol-l028-008-suplencia-minimo-nominal": "7",
+      "cam-cpol-l028-009-duverger-efeito-psicologico": "7",
+      "cam-cpol-l028-010-voto-alternativo-transferencia": "7",
+      "cam-cpol-l028-011-representacao-federativa": "5",
+      "cam-cpol-l028-013-qe-fracao-limite": "7",
+      "cam-cpol-l028-014-lista-flexivel": "7",
+      "cam-cpol-l028-015-nenhum-partido-qe": "7",
+      "cam-cpol-l028-016-concentracao-territorial-cadeiras": "7"
     }
   },
   {
@@ -138,6 +172,12 @@
       "governança e accountability": "9",
       "modelos de administração pública": "8",
       "Nova Governança Pública": "8.1"
+    },
+    "questions": {
+      "cam-gov-anonimizacao-sinonimo-codigo": "12",
+      "cam-gov-transparencia-ativa-antes-pedido": "11",
+      "cam-gov-lgpd-proibe-todos-nomes": "12",
+      "cam-gov-pseudonimo-reidentificacao": "12"
     }
   },
   {

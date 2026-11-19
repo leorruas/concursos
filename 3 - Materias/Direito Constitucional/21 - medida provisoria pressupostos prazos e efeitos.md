@@ -154,14 +154,3 @@ Suponha que uma medida provisória seja publicada em **1º de março** e autoriz
 - [Câmara dos Deputados: Guia de medida provisória](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/medida-provisoria).
 
 **Escopo:** este artigo aprofunda os prazos, vedações, tramitação e efeitos para a Câmara/Cebraspe. Os itens são inéditos e não representam desempenho do estudante nem prova real.
-
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Fonte primária e recorte:** cotejo da [Constituição Federal, art. 62 e art. 167, § 3º](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988) e da [Resolução nº 1/2002-CN, texto normativo atualizado](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional), em comparação com o texto didático, quadros, **oito casos progressivos** e **dez questões C/E**. Conferidos pressupostos de relevância e urgência, vedações materiais, vigência de 60 + 60 dias e recesso, urgência após 45 dias, comissão mista, Câmara como Casa iniciadora, conversão da MP original e PLV, reedição, perda de eficácia e preservação de relações jurídicas.
-
-**NC-PL-034: composição incompleta da comissão mista:** o texto anterior citava 12 senadores e 12 deputados titulares, com igual número de suplentes, mas omitia **uma vaga adicional de representação minoritária em cada Casa** (Resolução 1/2002-CN, art. 2º, § 3º). Incluída a ressalva de exame de MP de crédito extraordinário pela comissão do art. 166, § 1º, da CF (art. 2º, § 6º). **NC-PL-035:** redação do prazo de emendas alinhada ao art. 4º da Resolução (seis primeiros dias seguintes à publicação, protocolo no Senado); registrada a anotação oficial sobre inconstitucionalidade de dispositivos da Resolução pela ADI 4.029, preservada a exigência constitucional de comissão mista.
-
-**Dez gabaritos preservados, na ordem:** **E, C, E, C, E, E, C, E, C, C**. **Nenhuma inversão identificada** nos dez itens e oito casos examinados; as complementações tratam de precisão e cobertura normativa. O inventário não deve adicionar novamente estes itens.
-
-**Limites:** certificação jurídico-editorial do material escrito nesta data, não confirmação de todo o regime de aplicação jurisprudencial do trancamento de pauta, de cada hipótese especial, de aprendizagem do estudante ou da publicação e renderização visual no GitHub Pages.

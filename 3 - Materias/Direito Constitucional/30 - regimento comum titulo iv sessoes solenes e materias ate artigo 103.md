@@ -13,7 +13,7 @@ aliases:
 
 # Regimento Comum, Título IV: sessões solenes e matérias legislativas até o art. 103
 
-**Câmara dos Deputados 2026, Cargo 1: Divulgação Institucional, banca Cebraspe. CAM-PL-026.** O recorte do inventário é o **Título IV, capítulos II e III, até o art. 103**, do Regimento Comum do Congresso Nacional (RCCN). O **capítulo II** contém os **arts. 53 a 71** (sessões solenes) e o **capítulo III**, até o limite solicitado, os **arts. 72 a 103** (PEC, iniciativa presidencial e projetos orçamentários). A fonte primária é a [consolidação oficial do Senado](https://legis.senado.leg.br/norma/561098/publicacao/16433839), cotejada com a [edição oficial do Congresso Nacional](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) em 09/11/2026.
+**Câmara dos Deputados 2026, Cargo 1: Divulgação Institucional, banca Cebraspe.** O recorte do inventário é o **Título IV, capítulos II e III, até o art. 103**, do Regimento Comum do Congresso Nacional (RCCN). O **capítulo II** contém os **arts. 53 a 71** (sessões solenes) e o **capítulo III**, até o limite solicitado, os **arts. 72 a 103** (PEC, iniciativa presidencial e projetos orçamentários). A fonte primária é a [consolidação oficial do Senado](https://legis.senado.leg.br/norma/561098/publicacao/16433839), cotejada com a [edição oficial do Congresso Nacional](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) em 09/11/2026.
 
 ## Núcleo do conceito
 
@@ -121,7 +121,7 @@ A [Resolução nº 1/2006-CN no portal da CMO](https://www.congressonacional.leg
 
 ### Limite do recorte: Regimento Comum e legislação especial
 
-**Núcleo da unidade CAM-PL-026:** sessões solenes dos **arts. 53–71**, revogações e promulgação de PEC dos **arts. 72–85**, revogação dos **arts. 86–88** e leitura crítica dos **arts. 89–103** do Regimento Comum. Os dez itens C/E desta nota testam esse núcleo. Para as regras orçamentárias, o ponto central é reconhecer a competência da **CMO**, as contribuições temáticas, os prazos indicados no RCCN e a prevalência da **Resolução 1/2006-CN atualizada** nos aspectos em que ela contém disciplina específica.
+**Núcleo deste artigo:** sessões solenes dos **arts. 53–71**, revogações e promulgação de PEC dos **arts. 72–85**, revogação dos **arts. 86–88** e leitura crítica dos **arts. 89–103** do Regimento Comum. Os dez itens C/E desta nota testam esse núcleo. Para as regras orçamentárias, o ponto central é reconhecer a competência da **CMO**, as contribuições temáticas, os prazos indicados no RCCN e a prevalência da **Resolução 1/2006-CN atualizada** nos aspectos em que ela contém disciplina específica.
 
 **Aprofundamento complementar:** as matrizes abaixo, sobre espécies de emendas, limites por autor, atas, beneficiários, percentuais e condições de execução, documentam a legislação especial e ajudam a entender por que não se aplicam automaticamente as regras de 1970. Esses detalhes pertencem sobretudo às notas [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|tramitação das leis orçamentárias]] e [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|emendas parlamentares e orçamento impositivo]]. **Não atribuir a todos os números dessa matriz o mesmo peso do recorte literal dos arts. 53–103**, nem presumir que a lista abaixo esgota a Resolução 1/2006-CN.
 
@@ -179,7 +179,7 @@ A [consolidação da Resolução nº 1/2006-CN no portal do Congresso](https://w
 
 **Alcance da matriz:** os números acima foram confrontados com o texto atualizado divulgado pelo Congresso e com as [Resoluções 1/2025-CN](https://legis.senado.leg.br/norma/40435851/publicacao/40437557) e [2/2025-CN](https://legis.senado.leg.br/norma/41071372/publicacao/41074650). Tratam da **disciplina especial da CMO** e funcionam como contraste com os arts. 89–103 do RCCN. Não se trata de reproduzir o rito integral da LOA, LDO ou PPA. A condição de sanção da LOA de 2025 já se cumpriu em 10/04/2025; para casos ligados a exercícios posteriores, verificar alterações normativas subsequentes e as condições específicas de cada modalidade de emenda.
 
-A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|nota canônica de tramitação orçamentária]] aprofunda o ciclo da proposta até a deliberação e as condições do **art. 166 da CF**. Esta CAM-PL-026 cobre **os artigos indicados do RCCN e suas fronteiras de vigência**, sem duplicar todo o processo orçamentário.
+A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|nota canônica de tramitação orçamentária]] aprofunda o ciclo da proposta até a deliberação e as condições do **art. 166 da CF**. Este artigo cobre **os dispositivos indicados do Regimento Comum e suas fronteiras de vigência**, com remissão ao estudo específico do orçamento.
 
 ### Complementos ao núcleo do RCCN: arts. 90, 99, 102 e 103
 
@@ -229,25 +229,6 @@ A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcament
 
 **10.** O procedimento orçamentário vigente pode ser interpretado exclusivamente pelos arts. 89 a 103 do RCCN, independentemente da Constituição e da Resolução nº 1/2006-CN, porque esta é norma estranha ao Regimento Comum. **Errado.** A **Resolução nº 1/2006-CN integra o RCCN** e estabelece a disciplina especial da CMO e dos projetos orçamentários, sob a CF art. 166.
 
-### Conferência dos dez gabaritos contra os artigos oficiais
-
-Esta matriz verifica **o conteúdo efetivamente afirmado em cada enunciado**, sem tratar os dez itens como cobertura de todos os dispositivos do RCCN e da Resolução 1/2006-CN. Referência: [RCCN republicado pela Câmara (consolidado até janeiro de 2023)](https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-171822-pl.html), [Resolução 1/2006-CN com alterações](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html) e [CF/1988 atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
-
-| Item | Gabarito confirmado | Dispositivo determinante |
-| :--- | :---: | :--- |
-| 1: número, expediente e questões de ordem | **C** | RCCN 53, parágrafo único; 54, parágrafo único; 56 |
-| 2: oradores na inauguração | **E** | RCCN 55, parágrafo único; 57–59 |
-| 3: comissões de recepção 5+5 e 3+3 | **C** | RCCN 60 e 68 |
-| 4: sanção após PEC | **E** | CF 60, §§ 2º–3º; RCCN 85 |
-| 5: vigência dos procedimentos revogados | **E** | RCCN 72–84 e 86–88, anotados como revogados |
-| 6: leitura do projeto orçamentário em 48 horas | **C** | RCCN 89 |
-| 7: parecer final das comissões permanentes | **E** | RCCN 90, § 3º, II–V; Res. 1/2006-CN, art. 2º |
-| 8: avulsos eletrônicos em cinco dias | **C** | RCCN 93 |
-| 9: aprovação tácita por falta de parecer | **E** | RCCN 100 |
-| 10: independência da Res. 1/2006-CN | **E** | Res. 1/2006-CN, art. 1º, parte integrante do RCCN |
-
-**Resultado editorial desta rodada:** **10/10 gabaritos conferidos quanto ao teor dos enunciados**; nenhum deles precisa ser invertido. Este resultado **não é certificação integral do DC30**, porque a matriz complementar sobre emendas e suas eventuais exceções anuais tem escopo mais amplo do que essas questões. A republicação oficial do RCCN aqui utilizada declara consolidação **até janeiro de 2023**; as referências posteriores e a Resolução 1/2006-CN atualizada devem ser verificadas separadamente. Não descrever uma consolidação de 2023 como atualização exaustiva de 2026.
-
 ## 10. Relações, tensões e heurísticas
 
 **53–56:** solenidade, sem expediente, sem questão de ordem. **57–59:** inauguração e leitura da mensagem. **60–67:** posse, recepção **5+5**, compromissos e termo. **68–71:** chefe de Estado estrangeiro, recepção **3+3** e oradores. **72–84:** revogados; **85:** promulgação da PEC. **86–88:** revogados. **89–103:** orçamento, com revogações e regulação especial.
@@ -267,17 +248,4 @@ Relações: [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i 
 
 **Verificação documental:** a publicação da Câmara do RCCN declara estar consolidada até **janeiro de 2023**, embora tenha sido consultada em 11/11/2026. A data da consulta não altera a data de corte do texto oficial; para resoluções posteriores, confrontar as normas específicas.
 
-**Controle editorial de 11/11/2026:** os **oito destinos únicos de links internos** desta nota foram encontrados nos caminhos correspondentes do repositório, inclusive as notas de Orçamento Público. Os dez itens C/E foram relidos e preservaram seus gabaritos; a verificação das referências e do escopo foi concluída nesta rodada, mas **a certificação normativa integral do DC30 ainda depende de fechamento próprio**. A matriz de emendas é aprofundamento da Resolução 1/2006-CN e não deve ser confundida com o recorte literal do RCCN.
 
-**Nota editorial:** confronto realizado em **09/11/2026**. As dez questões são **inéditas**, não questões oficiais do Cebraspe. A contagem de produção editorial não comprova estudo pessoal, acerto ou retenção.
-
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Escopo:** Título IV, Capítulos II e III, **arts. 53–103 do Regimento Comum**, inclusive dispositivos revogados, procedimentos de sessões solenes, inauguração, posse, visita de chefe de Estado, promulgação de PEC e leitura/fluxo de projeto orçamentário. Cotejo com a [publicação oficial do RCCN consolidada até janeiro de 2023](https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-171822-pl.html), a [edição oficial do Congresso atualizada até julho de 2025](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) e a [Resolução nº 1/2006-CN e alterações de 2025](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html). A matriz de emendas constitui **contexto normativo especial**, além do escopo literal 53–103, sem pretensão de esgotar LDO, LOA e PPA.
-
-**NC-PL-074:** especificados os **arts. 90, §§ 4º–5º**, quanto à votação por representantes de cada Casa na comissão mista e à ressalva para eleição da Presidência. **NC-PL-075:** incluído o **art. 99**, que manda discutir/votar emendas em grupos conforme parecer favorável/contrário, com ressalva dos destaques, e esclarecidos os **arts. 102–103**, observando a subsidiariedade e a terminologia histórica de “orçamento plurianual de investimentos” em face do PPA constitucional vigente.
-
-**Questões e casos:** **dez questões inéditas C/E**, gabaritos **C, E, C, E, E, C, E, C, E, E**, preservados após conferência de sua base normativa. **Oito situações do caso progressivo** preservadas. A matriz adicional de emendas especializadas possui casos de aplicação próprios já existentes. **Nenhuma questão nova**, nenhuma duplicação do inventário.
-
-**Limites:** certificação jurídico-editorial individual do DC30, não homologação integral de todas as normas orçamentárias e alterações supervenientes a julho de 2025, não prova de aprendizagem nem teste da publicação/renderização GitHub Pages. O fechamento individual do recorte não substitui a conciliação geral do índice, o diagnóstico central e as lacunas pedagógicas de DC05, DC07, DC08 e DC09.

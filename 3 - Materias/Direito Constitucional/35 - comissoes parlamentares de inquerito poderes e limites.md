@@ -10,17 +10,17 @@ updated: 2026-11-11
 
 # Comissões Parlamentares de Inquérito (CPI e CPMI): criação, poderes instrutórios, limites constitucionais e jurisprudência do STF
 
-**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-031 conforme arquitetura e inventário editorial.**
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
 ## Núcleo do conceito: a função fiscalizatória por excelência do Parlamento
 
-No Estado Democrático de Direito estruturado sob a separação e harmonia entre os Poderes (CF, art. 2º), o Poder Legislativo não possui apenas a função típica de legislar (inovar na ordem jurídica mediante espécies normativas), mas ostenta de modo indissociável a função precípua de **fiscalizar e controlar** os atos do Poder Executivo, da Administração Pública e a aplicação dos recursos do povo (CF, arts. 70 a 74).
+Além de elaborar leis, o Congresso fiscaliza a atuação do governo e o uso de recursos públicos (Constituição Federal, arts. 70 a 74). Se surgirem indícios de irregularidade em um contrato público, parlamentares podem propor uma Comissão Parlamentar de Inquérito (CPI) para investigar fatos determinados. A criação da comissão depende de requisitos próprios e não significa que alguém já tenha sido considerado culpado.
 
-Para dotar o Parlamento de instrumentos de eficácia real diante de desvios, lesões ao erário e abusos de autoridade, a Constituição da República instituiu, em seu **artigo 58, § 3º**, as **Comissões Parlamentares de Inquérito (CPIs)**, aplicáveis no âmbito da Câmara dos Deputados, do Senado Federal ou em sessão conjunta como **Comissão Parlamentar Mista de Inquérito (CPMI)**:
+Para dotar o Parlamento de instrumentos de eficácia real diante de desvios, lesões ao erário e abusos de autoridade, a Constituição da República instituiu, em seu **artigo 58, § 3º**, as **Comissões Parlamentares de Inquérito (CPIs)**, que podem ser criadas separadamente pela Câmara dos Deputados ou pelo Senado Federal, ou **em conjunto pelas duas Casas**, quando se forma uma **Comissão Parlamentar Mista de Inquérito (CPMI)**. A CPMI reúne deputados e senadores em uma comissão de investigação; **não é uma sessão conjunta dos Plenários**:
 
 > *"As comissões parlamentares de inquérito, que terão poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas, serão criadas pela Câmara dos Deputados e pelo Senado Federal, em conjunto ou separadamente, mediante requerimento de um terço de seus membros, para a apuração de fato determinado e por prazo certo, sendo suas conclusões, se for o caso, encaminhadas ao Ministério Público, para que promova a responsabilidade civil ou criminal dos infratores."* (CF, art. 58, § 3º).
 
-A CPI é, por definição, uma **comissão parlamentar temporária de natureza essencialmente investigatória e instrutória**. Ela não possui competência jurisdicional sancionadora: **a CPI não julga, não condena, não impõe sanções penais nem cassa mandatos**. Seu produto final culmina na elaboração de um relatório circunstanciado com recomendações institucionais, projetos de lei ou no encaminhamento de suas conclusões aos órgãos titulares da persecução penal (Ministério Público) e de responsabilização (Advocacia Pública, Tribunal de Contas da União, Controladorias).
+A CPI é uma **comissão temporária de investigação**: reúne documentos, ouve pessoas e examina acontecimentos delimitados. Esse trabalho também é chamado de **instrução**, ou seja, produção e organização dos elementos necessários à investigação. **A CPI não julga, não condena, não aplica penas nem cassa mandatos**. Ao final, apresenta um relatório com suas conclusões e pode sugerir providências legislativas ou encaminhar os fatos aos órgãos competentes, como o Ministério Público e os órgãos de controle.
 
 ## 1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares
 
@@ -32,8 +32,8 @@ Requisitos Constitucionais Cumulativos de Criação da CPI
 ├── 1. Quórum de Iniciativa: 1/3 dos membros da Casa (171 Deputados ou 27 Senadores)
 │   └── Em CPMI: 1/3 de cada Casa (171 Deputados E 27 Senadores cumulativamente)
 │
-├── 2. Fato Determinado: acontecimento de relevante interesse público delimitado no tempo/espaço
-│   └── Vedação absoluta a investigações genéricas ou prospectivas ("pesca probatória")
+├── 2. Fato Determinado: acontecimentos identificáveis e objeto delimitado no requerimento
+│   └── Não cabe investigação genérica sem objeto; fatos novos conexos exigem exame de pertinência
 │
 └── 3. Prazo Certo: período temporal prefixado no requerimento para funcionamento
     └── Na Câmara, até 120 dias, prorrogáveis por até metade mediante deliberação do Plenário (RICD, art. 35, § 3º)
@@ -55,6 +55,8 @@ O requerimento deve delimitar os acontecimentos que serão objeto de investigaç
 ### C. Prazo certo e prorrogação regimental
 - O requerimento deve estipular termo final certo. Na Câmara dos Deputados, a CPI dispõe de **120 dias para concluir seus trabalhos, prorrogáveis por até metade mediante deliberação do Plenário** (RICD, art. 35, § 3º). A iniciativa de criação por um terço dos deputados (CF, art. 58, § 3º) não se confunde com a competência para deliberar sobre a prorrogação;
 - **Limite intransponível da legislatura:** nenhuma comissão temporária, inclusive CPI, pode ultrapassar o término da **legislatura** em que foi criada. Com a dissolução da composição parlamentar e a posse dos novos eleitos, encerram-se formalmente os trabalhos, sendo imperativa a apresentação do relatório final ou o arquivamento.
+
+**Jurisprudência de 2026: criação e prorrogação são decisões distintas.** No **MS 40.799/DF**, julgado em março de 2026 em controvérsia sobre a prorrogação da CPMI do INSS, o STF afirmou que o **direito subjetivo da minoria parlamentar garante a criação** da comissão quando cumpridos os requisitos constitucionais, mas **não torna automática nem obrigatória sua prorrogação**. A continuidade depende de deliberação formal nos termos regimentais aplicáveis, respeitado o prazo certo; prorrogações sucessivas ou automáticas não decorrem do direito de um terço à instalação. O julgamento tratou de **CPMI**, razão pela qual o procedimento específico de prorrogação de uma CPI da Câmara deve continuar sendo examinado pelo **RICD, art. 35, § 3º**. Fonte: [STF, Informativo 1210, MS 40.799/DF, julgamento finalizado em 26/3/2026](https://www.stf.jus.br/arquivo/informativo/documento/informativo1210.htm).
 
 ### D. Regras regimentais específicas da Câmara dos Deputados (RICD, art. 35)
 - **Limite de CPIs simultâneas:** quando já funcionarem pelo menos **cinco CPIs** na Câmara, outra CPI somente poderá ser criada mediante **projeto de resolução com o mesmo quórum de apresentação exigido no caput do art. 35**, conforme o § 4º do RICD. Não confundir esse projeto de resolução com o requerimento ordinário de criação;
@@ -95,7 +97,7 @@ flowchart TD
 | Categoria da Medida | O que a CPI PODE Determinar Diretamente | O que a CPI NÃO PODE (Reserva de Jurisdição / Vedado) | Fundamento e Precedente STF |
 | :--- | :--- | :--- | :--- |
 | **Sigilos Constitucionais** | Quebra do sigilo de **dados bancários, dados fiscais e registros telefônicos/telemáticos pretéritos** (chamadas pretéritas, duração, números chamados e faturas) | **Interceptação telefônica direta** (escuta em tempo real do conteúdo da conversa) e interceptação de correspondência | STF MS 23.452 e MS 23.639. O conteúdo da comunicação viva depende de ordem judicial fundamentada (CF, art. 5º, XII). |
-| **Medidas Domiciliares** | Busca e apreensão de documentos em **repartições públicas, empresas ou locais não residenciais** | **Busca e apreensão domiciliar** em residência do cidadão | CF, art. 5º, XI: a casa é asilo inviolável, só penetrável durante o dia com determinação **judicial**. |
+| **Buscas e espaços privados** | Determinar busca e apreensão de documentos ou objetos **fora de locais constitucionalmente invioláveis**, mediante decisão fundamentada e respeitados os limites da investigação | Determinar por autoridade própria busca em **residências, escritórios ou áreas profissionais privadas não abertas ao público** protegidas pela inviolabilidade domiciliar | CF, art. 5º, XI; STF: o conceito constitucional de casa abrange espaços profissionais privados, e a CPI não substitui a ordem judicial nas hipóteses de reserva de jurisdição. |
 | **Liberdade de Locomoção** | Convocar testemunhas e, em hipóteses legalmente previstas, buscar a condução de testemunha regularmente intimada e injustificadamente ausente, observadas as garantias processuais; diante de crime em flagrante, comunicar e encaminhar a ocorrência à autoridade competente | **Conduzir coercitivamente investigado ou réu para interrogatório**; decretar prisão preventiva ou temporária; reter passaporte ou impor proibição de saída do país por decisão própria | STF, **ADPFs 395 e 444**: condução de investigado ou réu para interrogatório é incompatível com a Constituição. A situação da testemunha faltosa é distinta e exige observância das regras legais. |
 | **Patrimônio do Investigado** | Requisitar auditorias ao Tribunal de Contas da União e órgãos de controle financeiro | **Decretar arresto, sequestro ou indisponibilidade cautelar de bens** do investigado | Medidas cautelares patrimoniais reais dependem de pronunciamento jurisdicional motivado. |
 | **Inquirição e Prova Oral** | Intimar testemunhas, investigados e servidores públicos; tomar compromisso de dizer a verdade de testemunhas | Obrigar investigado a autoincriminar-se; desrespeitar o direito ao silêncio; violar sigilo profissional de advogado, médico ou ministro religioso | CF, art. 5º, LXIII (*nemo tenetur se detegere*); Estatuto da OAB (Lei 8.906/94); RHC 80.536. |
@@ -104,10 +106,10 @@ flowchart TD
 
 ## 3. Requisitos de validade da quebra de sigilo por CPI
 
-A quebra de sigilo bancário, fiscal ou telefônico praticada por CPI não é um cheque em branco. Para ser válida perante o controle jurisdicional do STF, a decisão da comissão deve atender rigorosamente a **quatro pressupostos formais e materiais**:
+A quebra de sigilo bancário, fiscal ou de registros telefônicos praticada por CPI exige decisão motivada e sujeita a controle judicial. Os quatro pontos a seguir organizam cuidados relevantes de validade; **não representam uma lista fechada de requisitos autônomos que o STF tenha fixado nesses exatos termos**:
 
 1. **Deliberação Colegiada:** a medida deve ser votada e aprovada pela **maioria dos membros da comissão**, em sessão formal. É manifestamente nulo o ato de quebra de sigilo determinado monocraticamente pelo Presidente da CPI ou pelo seu Relator;
-2. **Fundamentação Concreta e Exaustiva:** a CPI deve motivar explicitamente a imprescindibilidade da medida, apontando indícios de autoria e materialidade que justifiquem a devassa na intimidade do investigado. Não se admitem fundamentações padronizadas, genéricas ou fórmulas prontas ("para melhor esclarecimento dos fatos");
+2. **Fundamentação concreta e suficiente:** a CPI deve explicar por que os dados requisitados são úteis à apuração do fato determinado, com base nos elementos disponíveis e na deliberação colegiada. A motivação pode ser compreendida pelo requerimento e pelo que foi exposto durante sua votação; **não precisa reproduzir a estrutura formal de uma decisão judicial**. Justificativas genéricas, sem relação demonstrada com o objeto investigado, são insuficientes;
 3. **Pertinência Temática com o Fato Determinado:** a conta bancária, o período fiscal ou as linhas telefônicas requisitadas devem guardar vínculo direto com os limites da investigação traçados no requerimento de criação;
 4. **Delimitação Temporal e de Objeto:** o período da quebra deve ser estritamente circunscrito à época em que se deram os fatos apurados. É arbitrária a ordem que requisite dados bancários de décadas sem correlação direta com a conduta sob escrutínio.
 
@@ -163,10 +165,10 @@ Limites Federativos e Orgânicos das CPIs
 
 Encerrada a instrução probatória, o relator da CPI elabora o **Relatório Final**, que é submetido à discussão e votação do colegiado:
 1. **Aprovação do Relatório:** considera-se aprovado se obtiver a maioria de votos dos membros presentes, em reunião pública. Caso rejeitado, o Presidente designa novo relator para redigir o voto vencedor;
-2. **Encaminhamento ao Ministério Público (CF, art. 58, § 3º):** a conclusão que apontar a prática de ilícitos é remetida ao Ministério Público da União ou dos Estados, titular exclusivo da ação penal pública (CF, art. 129, I). **O relatório da CPI não tem efeito vinculante sobre o Ministério Público:** o Promotor ou Procurador de Justiça/República pode oferecer denúncia imediata, requisitar diligências complementares ou, motivadamente, requerer o arquivamento judicial caso entenda não haver justa causa;
+2. **Encaminhamento ao Ministério Público (CF, art. 58, § 3º):** a conclusão que apontar a prática de ilícitos é remetida ao Ministério Público da União ou dos Estados, titular exclusivo da ação penal pública (CF, art. 129, I). **O relatório da CPI não tem efeito vinculante sobre o Ministério Público:** o Promotor ou Procurador de Justiça/República pode oferecer denúncia, requisitar diligências complementares ou promover, de forma fundamentada, o arquivamento nos termos do art. 28 do Código de Processo Penal e da interpretação do STF nas ADIs 6298, 6299, 6300 e 6305, caso entenda ausente justa causa;
 3. **Encaminhamento à Advocacia-Geral da União (AGU) ou Procuradorias Estaduais:** para adoção de medidas civis de ressarcimento ao erário, bloqueio de bens em juízo e propositura de ações de improbidade administrativa;
 4. **Encaminhamento ao Tribunal de Contas da União (TCU):** para a instauração de tomada de contas especial ou aplicação de multas administrativas de sua alçada;
-5. **Iniciativa legislativa:** o relatório da CPI pode propor a apresentação de projetos de lei ordinária, de lei complementar ou de emenda constitucional originários da própria comissão para sanar lacunas legislativas identificadas durante os trabalhos.
+5. **Propostas de aperfeiçoamento legislativo:** o relatório da CPI pode recomendar projetos de lei e outras medidas normativas, observadas as regras de iniciativa e de competência de cada espécie. Na Câmara, o art. 37 do RICD prevê a possibilidade de a CPI oferecer **projeto de lei, de decreto legislativo, de resolução ou indicação**. Para **proposta de emenda à Constituição (PEC)**, a comissão pode sugerir mudanças, mas a apresentação formal depende de legitimado previsto no **art. 60, I a III, da CF**, como **um terço dos membros da Câmara ou do Senado**; a CPI, isoladamente, não é legitimada à iniciativa de PEC.
 
 **Destinos e prazos do relatório na Câmara (RICD, art. 37):** o relatório circunstanciado deve ser publicado no Diário da Câmara. Conforme a conclusão, é encaminhado à **Mesa**, podendo oferecer projeto de lei, projeto de decreto legislativo, projeto de resolução ou indicação, com inclusão na Ordem do Dia em até **cinco sessões**; ao **Ministério Público ou à AGU**; ao **Poder Executivo** para providências saneadoras; à **comissão permanente pertinente** para acompanhar essas providências; e à **comissão mista do art. 166, § 1º, da CF e ao TCU**. Nos casos dos incisos II, III e V, a remessa compete ao **Presidente da Câmara**, no prazo de **cinco sessões**. O encaminhamento ao MP não o obriga a oferecer denúncia.
 
@@ -187,7 +189,7 @@ Durante sessão pública da CPI, uma testemunha regularmente compromissada profe
 
 ### Caso 2: CPI requisita direto às operadoras o conteúdo gravado das conversas telefônicas
 A comissão aprova requerimento determinando às empresas de telefonia que interceptem e gravem, nos 15 dias subsequentes, as ligações telefônicas de um empresário suspeito.
-- **Ilegalidade:** a ordem é flagrantemente inconstitucional e nula. A interceptação de comunicações telefônicas em tempo real está submetida à **cláusula de reserva de jurisdição** (CF, art. 5º, XII, e Lei 9.296/96), sendo privativa de magistrado togada. A CPI só pode quebrar o sigilo dos **registros telefônicos pretéritos** (dados cadastrais, data, horário e histórico de chamadas).
+- **Ilegalidade:** a ordem é flagrantemente inconstitucional e nula. A interceptação de comunicações telefônicas em tempo real está submetida à **cláusula de reserva de jurisdição** (CF, art. 5º, XII, e Lei 9.296/96), dependendo de autorização judicial, que não pode ser substituída por deliberação da CPI. A CPI só pode quebrar o sigilo dos **registros telefônicos pretéritos** (dados cadastrais, data, horário e histórico de chamadas).
 
 ### Caso 3: Mandado de busca e apreensão na casa de investigado determinado pelo Presidente da CPI
 O Presidente da CPI assina mandado de busca e apreensão ordenando que policiais legislativos adentrem a residência de investigado durante o dia para arrecadar computadores pessoais.
@@ -222,7 +224,7 @@ A banca Cebraspe possui padrões consolidados de formulação em Direito Constit
 > Conforme jurisprudência pacífica do Supremo Tribunal Federal, preenchidos os requisitos constitucionais para a criação de comissão parlamentar de inquérito na Câmara dos Deputados, a sua instalação consubstancia direito público subjetivo das minorias parlamentares, sendo vedado à Mesa Diretora submeter o requerimento à deliberação ou aprovação do Plenário da Casa.
 
 - **Gabarito: CERTO**
-- **Comentário:** Tese firmada pelo STF no histórico julgamento do MS 24.831 (e reafirmada no MS 26.441 e MS 37.760). A criação de CPI subscrita por um terço dos congressistas, com fato determinado e prazo certo, não depende de juízo de conveniência política do Presidente da Casa nem pode ser obstada pela maioria parlamentar por votação em Plenário, garantindo a efetividade da função fiscalizadora da oposição.
+- **Comentário:** Tese firmada pelo STF no histórico julgamento do MS 24.831 (e reafirmada no MS 26.441 e MS 37.760). A criação de CPI da Câmara subscrita por um terço **dos deputados**, com fato determinado e prazo certo, não depende de juízo de conveniência política do Presidente da Casa nem pode ser obstada pela maioria parlamentar por votação em Plenário, garantindo a efetividade da função fiscalizadora da oposição.
 
 ---
 
@@ -246,10 +248,10 @@ A banca Cebraspe possui padrões consolidados de formulação em Direito Constit
 
 ### Questão 5
 *(Inédita — Cebraspe / Câmara dos Deputados / Analista Legislativo)*
-> É vedado a comissão parlamentar de inquérito em funcionamento no âmbito do Congresso Nacional determinar a condução coercitiva de Governador de Estado para prestar depoimento sobre a aplicação de receitas tributárias estaduais, em respeito à autonomia político-administrativa dos entes federados.
+> Na ADPF 848, o Supremo Tribunal Federal referendou medida cautelar que suspendeu as convocações obrigatórias de governadores feitas pela CPI da Pandemia, sem impedir que essas autoridades fossem convidadas a comparecer voluntariamente.
 
 - **Gabarito: CERTO**
-- **Comentário:** **CERTO no recorte fático do enunciado:** a CPI federal não pode impor condução coercitiva a Governador para esclarecer a aplicação de **receitas tributárias estaduais**, assunto de gestão própria do ente. Na **ADPF 848**, o STF referendou cautelar que suspendeu convocações de governadores pela CPI da Pandemia, permitindo **convite voluntário**. A decisão foi posteriormente declarada prejudicada, e houve ressalvas quanto à possibilidade de investigar **fatos de interesse federal**, especialmente recursos da União repassados aos estados. Não generalizar o item como proibição de investigar qualquer fato relacionado a governo estadual. Fonte: [STF, ADPF 848, decisão e andamento](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6189091).
+- **Comentário:** **CERTO quanto ao conteúdo da decisão cautelar de 2021:** o Plenário do STF referendou a suspensão das convocações obrigatórias de governadores pela CPI da Pandemia e preservou a possibilidade de **convites para comparecimento voluntário**. O processo foi posteriormente julgado **prejudicado**, de modo que o precedente deve ser apresentado como uma **decisão cautelar naquele caso**, e não como tese definitiva sobre toda investigação parlamentar de fatos estaduais ou uso de recursos federais. Fonte: [STF, notícia oficial do referendo](https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=468315&tip=UN) e [andamento da ADPF 848](https://portal.stf.jus.br/processos/detalhe.asp?incidente=6189091).
 
 ---
 
@@ -258,7 +260,7 @@ A banca Cebraspe possui padrões consolidados de formulação em Direito Constit
 > As conclusões de comissão parlamentar de inquérito encaminhadas ao Ministério Público para a apuração de responsabilidades cíveis e criminais vinculam a atuação do órgão ministerial, que deverá propor de imediato a correspondente ação penal pública incondicionada perante o Poder Judiciário.
 
 - **Gabarito: ERRADO**
-- **Comentário:** O art. 58, § 3º, da CF dispõe que as conclusões da CPI serão encaminhadas ao Ministério Público *para que este promova a responsabilidade civil ou criminal*. Todavia, o Ministério Público detém independência funcional e autonomia técnica constitucional (CF, art. 127, § 1º, e art. 129, I). Seus membros não atuam como meros executores da CPI, cabendo-lhes examinar de forma autônoma a presença de justa causa, podendo oferecer denúncia, requisitar novas investigações ou postular o arquivamento fundamentado perante o juízo competente.
+- **Comentário:** O art. 58, § 3º, da CF dispõe que as conclusões da CPI serão encaminhadas ao Ministério Público *para que este promova a responsabilidade civil ou criminal*. Todavia, o Ministério Público detém independência funcional e autonomia técnica constitucional (CF, art. 127, § 1º, e art. 129, I). Seus membros não atuam como meros executores da CPI, cabendo-lhes examinar de forma autônoma a presença de justa causa, podendo oferecer denúncia, requisitar novas investigações ou promover o arquivamento fundamentado, observado o procedimento do art. 28 do CPP, com submissão da manifestação ao juízo competente e as comunicações e possibilidades de revisão previstas na interpretação dada pelo STF nas ADIs 6298, 6299, 6300 e 6305.
 
 ### Dois testes adicionais de distinção (itens inéditos, não oficiais)
 

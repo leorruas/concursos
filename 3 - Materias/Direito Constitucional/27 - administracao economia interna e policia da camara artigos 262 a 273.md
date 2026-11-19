@@ -10,7 +10,7 @@ updated: 2026-11-08
 
 # Administração, economia interna e polícia da Câmara: RICD arts. 262 a 273
 
-**Concurso Câmara dos Deputados 2026: Comunicação Social, Divulgação Institucional. Banca Cebraspe. Unidade CAM-PL-023 do inventário editorial.**
+**Concurso Câmara dos Deputados 2026: Comunicação Social, Divulgação Institucional. Banca Cebraspe.**
 
 ## Núcleo do conceito
 
@@ -38,7 +38,7 @@ O parágrafo único do art. 262 remete ao **art. 37 da Constituição** e acresc
 
 **Art. 263: parecer da Mesa como condição do Plenário.** Uma proposição que **modifique serviços administrativos da Câmara** **não pode ser submetida à deliberação do Plenário sem parecer da Mesa**. Isso é um **filtro procedimental obrigatório**: o parecer da Mesa **não se confunde com aprovação final do Plenário** e não transforma toda manifestação da Mesa em deliberação legislativa suficiente.
 
-**Art. 264: reclamação administrativa.** Reclamações sobre **irregularidades nos serviços administrativos** devem ser encaminhadas à **Mesa**, que tem **72 horas** para providência. **Decorrido o prazo**, podem ser levadas ao **Plenário**. A diferença entre **encaminhamento inicial** e **possibilidade posterior** é central: não atribuir automaticamente ao Plenário a primeira decisão sobre a reclamação. O prazo é de **horas**, não de sessões legislativas.
+**Art. 264: reclamação administrativa.** Se uma pessoa relata irregularidade nos serviços da Câmara, a reclamação é encaminhada primeiro à **Mesa**, que dispõe de **72 horas** para tomar providências. **Após esse prazo**, a reclamação pode ser levada ao **Plenário**. **Exemplo:** diante de uma reclamação sobre atendimento administrativo, a primeira etapa é dirigir o registro à Mesa. O Plenário constitui uma possibilidade posterior prevista no Regimento; não é o órgão que recebe obrigatoriamente toda reclamação inicial. O prazo é contado em **horas**, não em sessões legislativas.
 
 **Caso progressivo.** Um deputado apresenta proposição alterando estrutura administrativa. A CCJC emite parecer jurídico, mas a Mesa não se manifesta. O parecer da CCJC **não substitui** o da Mesa exigido pelo **art. 263**. Se um usuário reclama de irregularidade administrativa, o encaminhamento inicial é à **Mesa**, e o art. 264 permite levar a matéria ao Plenário **após 72 horas**.
 
@@ -155,20 +155,9 @@ Imagine um ato de violência nas instalações da Câmara: a **Mesa** é respons
 
 Relações: [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Mesa e Presidência, RICD 1–24]], [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder legislativo]], [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|Deputados: mandato, imunidades, licenças, vacância e suplência (RICD, arts. 226 a 251)]], [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa de leis sobre serviços]], [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]].
 
-## Certificação normativa delimitada: 11/11/2026
-
-**Escopo:** texto explicativo, tabelas, oito situações práticas e **dez itens inéditos C/E** desta nota confrontados com os **arts. 262 a 273 do [Regimento Interno da Câmara dos Deputados, texto atualizado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html)**, com as ressalvas dos arts. 260 (credenciamento da imprensa), 274 (delegação de competência) e da **CF arts. 37, 51, 53 e 70–74**, onde relevantes.
-
-**Regras conferidas:** aprovação plenária dos regulamentos especiais e direção pela Mesa (**art. 262**); parecer obrigatório da Mesa antes da deliberação sobre modificação dos serviços (**263**); reclamação encaminhada à Mesa, providência em **72 horas**, seguida de possibilidade de submissão ao Plenário (**264**); despesas ordenadas pelo **Diretor-Geral**, balancetes mensais apreciados pela **Mesa**, prestação anual de contas encaminhada até **30 de junho** pelo **Presidente** ao **TCU**, recursos no Banco do Brasil ou na Caixa (**265**); patrimônio formado por bens da **União** e moradia funcional restrita ao mandato (**266**); ordem e disciplina pela Mesa, parágrafo único do art. 267 **revogado**; requisição da apuração disciplinar pelo Presidente à **Corregedoria** (**268**); presidência do inquérito no prédio conforme a qualidade de membro da Casa do investigado, com envio à autoridade judiciária (**269**); direção de policiamento pela Mesa e possibilidade de segurança própria, contratada ou efetivos do DF (**270**); restrição de armas com exceção para segurança e supervisão pelo Corregedor (**271**); requisitos de acesso público (**272**) e comércio apenas com autorização expressa da Mesa (**273**).
-
-**Dez gabaritos cotejados, na ordem:** **C, E, E, C, E, C, C, E, C, E**. **Nenhuma inversão identificada** nos fundamentos verificados; os oito casos comentados também foram confrontados com as autoridades, condições e prazos respectivos. Não foi necessário modificar enunciados, gabaritos ou exemplos.
-
-**Limites:** certificação normativa do **recorte 262–273 e dos exercícios desta nota**, datada, sem equivaler à homologação da íntegra do RICD, à atualização automática diante de novas resoluções ou à validação da implementação do site e de sua publicação. A regra regimental de flagrante envolvendo parlamentar deve sempre ser combinada com a **CF art. 53, § 2º** e com a legislação processual pertinente; a certificação não antecipa decisões judiciais de casos concretos.
-
 ## Fontes oficiais
 
 - [Regimento Interno da Câmara dos Deputados, arts. 262 a 273, texto atualizado da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), consultado em **08/11/2026**.
 - [Constituição Federal, arts. 37, 51, 53, 70 a 74](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 - [Portal oficial do RICD e edições consolidadas](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 
-**Nota editorial:** este é o recorte da **CAM-PL-023** previsto no inventário da Câmara; os dez itens C/E são exercícios **inéditos**, não itens oficiais da Cebraspe. Publicar material editorial não significa que houve estudo, retenção ou desempenho do candidato.

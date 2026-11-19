@@ -10,7 +10,7 @@ updated: 2026-11-12
 
 # Espécies legislativas: comparação sistemática por iniciativa, quórum, deliberação, sanção e efeitos (Constituição Federal, art. 59)
 
-**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-032 conforme arquitetura e inventário editorial.**
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
 ## Núcleo do conceito: por que comparar as espécies legislativas?
 
@@ -64,11 +64,11 @@ Fontes: [Constituição Federal de 1988, Câmara dos Deputados](https://www2.cam
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Emenda à Constituição (PEC)** (CF, art. 60) | **Rol taxativo e restrito:** 1/3 da Câmara (171); 1/3 do Senado (27); Presidente da República; ou mais da metade das Assembleias Legislativas (maioria relativa em cada) | **3/5 dos membros** de cada Casa (308 Deputados e 49 Senadores) | **2 turnos** na Câmara **e 2 turnos** no Senado | **NÃO** há sanção nem veto | **Mesas da Câmara dos Deputados e do Senado Federal**, conjuntamente | Altera o texto constitucional formal. Não admite iniciativa popular nem de tribunais/MP. |
 | **Lei Complementar (PLP)** (CF, art. 61 e 69) | **Ampla:** Deputado, Senador, Comissão, Presidente da República, STF, Tribunais Superiores, Procurador-Geral da República (PGR) e Cidadãos (iniciativa popular) | **Maioria absoluta** dos membros de cada Casa (257 Deputados e 41 Senadores) | **Dois turnos na Câmara** (RICD, art. 148), com votação pelo Plenário; **turno único no Senado** (RISF, art. 270, ressalvado turno suplementar) | **SIM** (CF, art. 66: 15 dias úteis) | **Presidente da República** (ou subsidiariamente Presidente do Senado / Vice-Presidente do Senado) | Matérias taxativamente reservadas pela CF (reserva material de lei complementar). |
-| **Lei Ordinária (PL)** (CF, art. 61 e 47) | **Ampla:** Deputado, Senador, Comissão, Presidente da República, STF, Tribunais Superiores, PGR e Cidadãos (iniciativa popular) | **Maioria simples / relativa** (maioria dos votos dos presentes, com presença da maioria absoluta da Casa) | **Turno único** em cada Casa (admite apreciação conclusiva nas comissões - art. 24, II, RICD) | **SIM** (CF, art. 66: 15 dias úteis) | **Presidente da República** (ou subsidiariamente Presidente do Senado / Vice-Presidente do Senado) | Matéria residual geral (tudo o que não for expressamente reservado a outra espécie). |
-| **Lei Delegada** (CF, art. 68) | **Exclusiva do Presidente da República**, mediante solicitação expressa de delegação ao Congresso Nacional | Aprovada a **Resolução autorizativa** por maioria simples do Congresso | A resolução de delegação é deliberada pelo Congresso Nacional em sessão conjunta, com votos de cada Casa computados separadamente (Regimento Comum do Congresso Nacional (RCCN), arts. 43 e 116–127); se a resolução exigir apreciação do projeto delegado, haverá votação única, sem emendas (CF, art. 68, § 3º) | **NÃO** (o Presidente da República já edita o texto com força de lei a partir da delegação concedida) | **Presidente da República** (que a elabora e a promulga diretamente) | Matérias delegáveis pelo Congresso. Vedações absolutas: atos de competência exclusiva do Congresso Nacional (CN) ou das Casas, leis complementares, orçamento e direitos fundamentais/nacionalidade. |
-| **Medida provisória (MPV, também abreviada MP)** (CF, art. 62) | **Privativa do Presidente da República**, sob os pressupostos constitucionais de **relevância e urgência** | **Maioria simples / relativa** em cada Casa (após parecer de Comissão Mista) | **Turno único** na Câmara dos Deputados e **Turno único** no Senado Federal | **Depende:** se aprovada sem alteração de mérito, NÃO há sanção (promulga-se a MP); se aprovada com alteração (projeto de lei de conversão (PLV)), **SIM, há sanção e veto** | Se texto original: **Mesas do Congresso Nacional** (Mesa da Câmara dos Deputados (CD) e do Senado Federal (SF)). Se PLV sancionado: **Presidente da República**. | Força de lei imediata (60+60 dias). Vedações: direito penal, processual, eleitoral, partidos, orçamento (salvo créditos extraordinários) e detenção de bens/poupança. |
+| **Lei Ordinária (PL)** (CF, art. 61 e 47) | **Ampla:** Deputado, Senador, Comissão, Presidente da República, STF, Tribunais Superiores, PGR e Cidadãos (iniciativa popular) | **Maioria simples / relativa** (maioria dos votos computáveis, sem contar abstenções como favoráveis ou contrárias; exigida presença da maioria absoluta da Casa) | **Turno único** em cada Casa (admite apreciação conclusiva nas comissões - art. 24, II, RICD) | **SIM** (CF, art. 66: 15 dias úteis) | **Presidente da República** (ou subsidiariamente Presidente do Senado / Vice-Presidente do Senado) | Matéria residual geral (tudo o que não for expressamente reservado a outra espécie). |
+| **Lei Delegada** (CF, art. 68) | **Exclusiva do Presidente da República**, mediante solicitação expressa de delegação ao Congresso Nacional | Aprovada a **Resolução autorizativa** por maioria simples do Congresso | A resolução de delegação é deliberada pelo Congresso Nacional em sessão conjunta, com votos de cada Casa computados separadamente (Regimento Comum do Congresso Nacional (RCCN), arts. 43 e 116–127); se a resolução exigir apreciação do projeto delegado, haverá votação única, sem emendas (CF, art. 68, § 3º) | **NÃO** (o Presidente da República já edita o texto com força de lei a partir da delegação concedida) | **Presidente da República** (que a elabora e a promulga diretamente) | Matérias delegáveis pelo Congresso. Matérias não delegáveis (CF, art. 68, § 1º): atos de competência exclusiva do Congresso ou privativa de cada Casa; matérias reservadas a lei complementar; organização do Poder Judiciário e do Ministério Público, carreira e garantias de seus membros; nacionalidade, cidadania e direitos individuais, políticos e eleitorais; PPA, LDO e orçamentos. **A Constituição enumera categorias específicas; não fala genericamente em todos os direitos fundamentais.** |
+| **Medida provisória (MPV, também abreviada MP)** (CF, art. 62) | **Privativa do Presidente da República**, sob os pressupostos constitucionais de **relevância e urgência** | **Maioria simples / relativa** em cada Casa (após parecer de Comissão Mista) | **Turno único** na Câmara dos Deputados e **Turno único** no Senado Federal | **Depende:** se aprovada sem alteração de mérito, NÃO há sanção (promulga-se a MP); se aprovada com alteração (projeto de lei de conversão (PLV)), **SIM, há sanção e veto** | Se aprovada sem alteração de mérito: **Presidente da Mesa do Congresso Nacional** (Resolução nº 1/2002-CN, art. 12). Se aprovado PLV e sancionado: **Presidente da República** (observadas as regras do art. 66 da CF). | Força de lei desde a edição, por **60 dias, prorrogáveis uma vez por igual período**, com suspensão da contagem no recesso. **Vedações (CF, art. 62, § 1º):** nacionalidade, cidadania, direitos políticos, partidos políticos e direito eleitoral; direito penal, processual penal e processual civil; organização do Poder Judiciário e do Ministério Público e carreira/garantias de seus membros; PPA, LDO, orçamento e créditos adicionais e suplementares (ressalvado o crédito extraordinário do art. 167, § 3º); detenção ou sequestro de bens, poupança popular ou outros ativos financeiros; matérias reservadas a lei complementar; e matéria já disciplinada em projeto aprovado pelo Congresso e pendente de sanção ou veto. |
 | **Decreto legislativo (projeto de decreto legislativo (PDL), também identificado como PDC em algumas classificações)** (CF, art. 59, VI e art. 49) | Deputados, Senadores, Comissões e Mesa Diretora | **Maioria simples / relativa** em cada Casa (salvo quóruns específicos da matéria) | **Turno único** em cada Casa (bicameralidade: Câmara e Senado) | **NÃO** há sanção nem veto | **Presidente do Senado Federal** (na qualidade de Presidente da Mesa do Congresso Nacional) | Matérias de competência exclusiva do Congresso Nacional (CF, art. 49): tratados internacionais, sustação de atos normativos do Executivo, contas presidenciais etc. Efeitos externos. |
-| **Resolução (projetos de resolução da Câmara (PRC), do Senado (PRS) ou do Congresso Nacional (PRN))** (CF, art. 59, VII, arts. 51, 52 e RCCN) | Deputados, Senadores, Comissões ou Mesas Diretoras respectivas | **Maioria simples / relativa** (salvo quórum qualificado, como resoluções de regimento ou perda de mandato) | Unicameral se da Câmara ou do Senado; Bicameral se do Congresso Nacional | **NÃO** há sanção nem veto | Mesa da Casa respectiva (Presidente da Câmara, Presidente do Senado ou Mesa do Congresso Nacional) | Matérias de competência privativa da Casa ou do Congresso Nacional: regimento interno, organização administrativa, criação de cargos, delegação legislativa e fixação de alíquotas do Senado. Efeitos predominantemente internos (*interna corporis*), salvo exceções financeiras/tributárias do Senado. |
+| **Resolução (projetos de resolução da Câmara (PRC), do Senado (PRS) ou do Congresso Nacional (PRN))** (CF, art. 59, VII, arts. 51, 52 e RCCN) | Deputados, Senadores, Comissões ou Mesas Diretoras respectivas | **Maioria simples / relativa** (salvo quórum qualificado, como resoluções de regimento ou perda de mandato) | Deliberação da própria Casa se resolução da Câmara ou do Senado; **sessão conjunta do Congresso** no caso de resolução do Congresso, com apuração separada dos votos das Casas, conforme o Regimento Comum, e não revisão bicameral sucessiva | **NÃO** há sanção nem veto | Mesa da Casa respectiva (Presidente da Câmara, Presidente do Senado ou Mesa do Congresso Nacional) | Matérias de competência privativa da Casa ou do Congresso Nacional: regimento interno, organização administrativa, criação de cargos, delegação legislativa e fixação de alíquotas do Senado. Efeitos predominantemente internos (*interna corporis*), salvo exceções financeiras/tributárias do Senado. |
 
 ## 2. O critério da Iniciativa: ampla, reservada e taxativa
 
@@ -108,7 +108,7 @@ Distribuição da Iniciativa por Espécie
 
 ## 3. O critério do Quórum de Aprovação: o confronto Maioria Simples × Maioria Absoluta × Três Quintos
 
-O quórum parlamentar divide-se em **quórum de abertura/instalação** (número mínimo de presentes para iniciar a sessão) e **quórum de deliberação/aprovação** (número de votos favoráveis exigido para aprovar a matéria):
+No cálculo parlamentar, distinguem-se **quórum de abertura** (presença mínima para iniciar a sessão), **quórum de presença para deliberar** (presença mínima para votar a matéria) e **quórum de aprovação** (votos favoráveis necessários para aprová-la). Esses três números podem ser diferentes:
 
 ```mermaid
 flowchart TD
@@ -140,7 +140,7 @@ flowchart TD
 ```
 
 ### A distinção técnica: Maioria Relativa × Maioria Absoluta
-- **Maioria Simples (ou Relativa):** é a maioria dos votos dos presentes na sessão, desde que esteja presente a maioria absoluta dos membros da Casa (quórum de presença). Por exemplo, na Câmara (513 deputados), a sessão abre com 257 deputados; se estiverem presentes exatamente 300 deputados, a maioria simples será de **151 votos favoráveis**;
+- **Maioria Simples (ou Relativa):** é a **maioria dos votos computados para aprovação**, exigida a presença da maioria absoluta dos integrantes da Casa para a deliberação ordinária (CF, art. 47; RICD, art. 183). **Abstenções contam para o quórum de presença, mas não entram como votos favoráveis ou contrários** (RICD, art. 183, § 2º). Por exemplo: com **300 deputados presentes**, sendo **132 votos favoráveis, 110 contrários e 58 abstenções**, o projeto de lei ordinária sujeito à regra geral é aprovado por **132 a 110**. São necessários **257 presentes para deliberar**, em regra; esse valor **não é o quórum de abertura da sessão**, disciplinado separadamente pelo RICD, art. 79;
 - **Maioria Absoluta:** é o primeiro número inteiro imediatamente superior à metade da totalidade dos membros que integram a Casa legislativa, **independentemente do número de parlamentares presentes na sessão**. Na Câmara dos Deputados, a maioria absoluta é sempre e invariavelmente **257 votos** ($513 / 2 = 256,5 \rightarrow 257$). No Senado Federal, é sempre **41 votos** ($81 / 2 = 40,5 \rightarrow 41$).
 
 ## 4. O critério da Sanção e Veto Presidencial: o que vai e o que não vai ao Executivo
@@ -156,40 +156,44 @@ A participação do Poder Executivo no processo legislativo materializa o sistem
 1. **Emenda Constitucional (PEC):** não vai ao Presidente da República. É promulgada em sessão solene pelas Mesas da Câmara e do Senado conjuntamente;
 2. **Decreto Legislativo:** materializa a competência exclusiva do Congresso Nacional (CF, art. 49). Não se submete a sanção do Executivo; é promulgado pelo Presidente do Senado Federal;
 3. **Resolução:** consubstancia ato privativo das Casas legislativas ou do Congresso (CF, arts. 51, 52 e RCCN). É promulgada pela Mesa da Casa respectiva, sem qualquer interferência do Executivo;
-4. **Medida Provisória aprovada sem alteração de mérito:** se o Congresso aprovar a MP exatamente como o Presidente a editou, **não há remessa à sanção presidencial** (seria ilógico o Presidente sancionar o próprio texto que ele mesmo editou). A MP aprovada na íntegra é diretamente **promulgada pelas Mesas do Congresso Nacional**.
+4. **Medida provisória aprovada sem alteração de mérito:** se o Congresso aprovar a MP **sem modificações de mérito**, **não há remessa à sanção presidencial**. O texto é promulgado **pelo Presidente da Mesa do Congresso Nacional**, conforme o art. 12 da Resolução nº 1/2002-CN. Se o Congresso aprovar **projeto de lei de conversão**, este seguirá à sanção ou ao veto do Presidente da República.
 
 ## 5. O critério da Deliberação Conclusiva em Comissões (CF, art. 58, § 2º, I)
 
 A Constituição Federal autoriza que o Regimento Interno delegue às comissões o poder de discutir e votar projetos de lei que dispensarem a competência do Plenário, salvo se houver recurso de um décimo dos membros da Casa.
 
 ### Onde cabe e onde NÃO cabe a apreciação conclusiva?
-- **Cabe:** em **projetos de lei ordinária** nas hipóteses autorizadas pelo art. 24, II, do RICD. **PLP não admite apreciação conclusiva nas comissões da Câmara** (art. 24, II, a);
-- **NÃO cabe (vedações expressas do art. 24, II, do RICD):**
-  1. Projetos de lei complementar (PLP), que exigem Plenário e dois turnos na Câmara;
-  2. Propostas de Emenda à Constituição (sempre exigem Plenário em dois turnos por 3/5);
-  2. Projetos de código;
-  3. Projetos de lei de iniciativa popular;
-  4. Projetos de iniciativa de comissão;
-  5. Projetos que envolvam matéria de competência de mais de quatro comissões de mérito;
-  6. Matérias submetidas ao regime de urgência;
-  7. Proposições com pareceres divergentes entre as comissões de mérito;
-  8. Medidas provisórias (que exigem deliberação no Plenário de cada Casa).
+
+**Cabe**, em regra, a **projetos de lei ordinária** que se enquadrem no art. 24, II, do RICD e não incidam nas exceções. O poder conclusivo é atribuído às comissões; o recurso constitucional de um décimo dos deputados, quando cabível, permite a apreciação pelo Plenário.
+
+**Exceções expressas do art. 24, II, alíneas a a h, do RICD:**
+
+- **a)** projetos de **lei complementar**;
+- **b)** projetos de **código**;
+- **c)** projetos de **iniciativa popular**;
+- **d)** projetos de **iniciativa de comissão**;
+- **e)** projetos sobre **matérias que não podem ser objeto de delegação legislativa**, conforme o art. 68, § 1º, da CF;
+- **f)** projetos **oriundos do Senado ou por ele emendados que tenham sido aprovados pelo Plenário de qualquer das Casas**: ambas as condições devem ser examinadas; a origem no Senado, isoladamente, não basta;
+- **g)** projetos que tenham recebido **pareceres divergentes**;
+- **h)** projetos **em regime de urgência**.
+
+**Fora desse rol, por terem rito constitucional ou regimental próprio:** **PECs** e **medidas provisórias** também não são decididas conclusivamente pelas comissões com fundamento no art. 24, II. A PEC exige dois turnos e três quintos em cada Casa (CF, art. 60, § 2º); a medida provisória segue o art. 62 da CF. A distribuição de matéria a mais de quatro comissões tem disciplina regimental específica e **não constitui, por si só, uma alínea de exclusão do art. 24, II**.
 
 ## 6. O princípio da Irrepetibilidade (CF, arts. 60, § 5º, e 67)
 
-A ordem constitucional brasileira protege o processo legislativo contra a reiteração insistente de matérias já rejeitadas pelos parlamentares na mesma sessão legislativa (ano legislativo, de 2 de fevereiro a 22 de dezembro):
+A Constituição estabelece limites diferentes para a apresentação de novas propostas após uma rejeição. **Sessão legislativa** é o período anual de trabalho do Congresso, distinto da **legislatura**, que dura quatro anos. Para resolver a questão, identifique se a matéria é PEC, projeto de lei ou medida provisória e se a tentativa ocorre na **mesma sessão legislativa**:
 
 ### A. Irrepetibilidade Absoluta da PEC (CF, art. 60, § 5º)
 > *"A matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa."*
-- **Regime:** regra de irrepetibilidade **absoluta e intransponível**. Nem mesmo a totalidade dos 513 deputados ou 81 senadores pode reapresentar uma PEC com o mesmo objeto rejeitado antes da próxima sessão legislativa anual.
+- **Regime:** a vedação não prevê exceção por apoio de maioria qualificada ou unanimidade **na mesma sessão legislativa**. A proibição está limitada a esse período: não significa impedir para sempre nova proposta sobre a matéria.
 
 ### B. Irrepetibilidade Relativa da Lei Ordinária e Complementar (CF, art. 67)
-> *"A matéria constante de projeto de lei rejeitado somente poderá ser renovada, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional."*
-- **Regime:** regra de irrepetibilidade **relativa**. O projeto de lei rejeitado pode ser reintroduzido na mesma sessão legislativa, desde que a reapresentação venha subscrita pela **maioria absoluta dos membros da Câmara (257) ou do Senado (41)**.
+> *"A matéria constante de projeto de lei rejeitado somente poderá constituir objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional."*
+- **Regime:** o mesmo assunto pode ser objeto de **novo projeto** na mesma sessão legislativa, desde que proposto pela **maioria absoluta dos membros de uma das Casas**: 257 deputados ou 41 senadores. Essa possibilidade se refere à **apresentação de novo projeto**, não ao simples desarquivamento administrativo do projeto rejeitado.
 
 ### C. Irrepetibilidade da Medida Provisória (CF, art. 62, § 10)
 > *"É vedada a reedição, na mesma sessão legislativa, de medida provisória que tenha sido rejeitada ou que tenha perdido sua eficácia por decurso de prazo."*
-- **Regime:** regra de irrepetibilidade **absoluta** para o Presidente da República quanto a matérias rejeitadas ou caducadas no mesmo ano legislativo.
+- **Regime:** o Presidente da República não pode **reeditar, na mesma sessão legislativa**, medida provisória rejeitada ou cuja eficácia tenha terminado pelo decurso do prazo. Essa regra do art. 62, § 10, é distinta da reapresentação de projeto de lei do art. 67.
 
 ## 7. Casos progressivos e situações de fronteira em prova
 
@@ -204,7 +208,7 @@ Uma PEC sobre reforma administrativa é aprovada na Câmara em dois turnos por m
 
 ### Caso 3: Medida Provisória aprovada com emendas parlamentares que criam encargos
 A Câmara e o Senado aprovam medida provisória com emendas substantivas que alteram seu texto originário, convertendo-a em Projeto de Lei de Conversão (PLV). A Mesa do Congresso Nacional promulga o texto diretamente no Diário Oficial.
-- **Ilegalidade e Nulidade:** a MP alterada por emendas parlamentares não pode ser promulgada pelas Mesas do Congresso. O texto resultante (PLV) deve ser **encaminhado à sanção e veto do Presidente da República** (CF, art. 62, § 12). A promulgação autônoma pelo Legislativo usurpa a prerrogativa privativa do Chefe do Executivo.
+- **Problema jurídico:** o projeto de lei de conversão (PLV) aprovado pelo Congresso segue **à sanção ou ao veto do Presidente da República**, nos termos do art. 62, § 12, e do art. 66 da Constituição. A promulgação pelo Presidente da Mesa do Congresso Nacional, prevista no art. 12 da Resolução nº 1/2002-CN, vale para MP aprovada **sem alteração de mérito**. Não se pode aplicar esse procedimento diretamente ao PLV.
 
 ### Caso 4: Iniciativa popular de Proposta de Emenda à Constituição
 Um movimento social reúne dois milhões de assinaturas de cidadãos distribuídos por dez estados da federação e protocola diretamente na Câmara uma Proposta de Emenda Constitucional sobre tributação de grandes fortunas.
@@ -218,7 +222,7 @@ O Cebraspe costuma testar a atenção do candidato com as seguintes armadilhas c
 2. **Iniciativa popular de PEC:** afirmar que a Constituição Federal admite iniciativa popular para propor emendas constitucionais, desde que subscrita por 1% do eleitorado nacional.
 3. **Sanção presidencial em Decretos Legislativos e Resoluções:** afirmar que tratados internacionais aprovados por decreto legislativo submetem-se a veto do Presidente da República.
 4. **Convalidação de vício de iniciativa:** formular item afirmando que a posterior sanção expressa do Presidente da República a projeto de lei de iniciativa parlamentar sana o vício formal de usurpação de competência privativa do Executivo.
-5. **Regime de irrepetibilidade:** equiparar a irrepetibilidade de projeto de lei (que é relativa, admitindo desarquivamento por maioria absoluta da Casa) à de PEC (que é absoluta, vedada em qualquer hipótese na mesma sessão legislativa).
+5. **Regime de irrepetibilidade:** confundir o **novo projeto** autorizado, na mesma sessão legislativa, por proposta da maioria absoluta de uma das Casas (art. 67) com **desarquivamento** do projeto rejeitado, ou aplicar à PEC essa exceção que a Constituição não prevê (art. 60, § 5º).
 
 ## 9. Questões inéditas comentadas no padrão Cebraspe (Certo ou Errado)
 
@@ -251,10 +255,10 @@ O Cebraspe costuma testar a atenção do candidato com as seguintes armadilhas c
 
 ### Questão 4
 *(Inédita — Cebraspe / Câmara dos Deputados / Analista Legislativo)*
-> As matérias de competência exclusiva do Congresso Nacional, tais como a aprovação de tratados internacionais e a fiscalização de atos do Poder Executivo, são materializadas mediante decretos legislativos, atos normativos primários promulgados pelo Presidente do Senado Federal e que prescindem de sanção presidencial.
+> As matérias de competência exclusiva do Congresso Nacional, como a aprovação parlamentar de tratados internacionais e a sustação de atos normativos do Executivo que exorbitem do poder regulamentar, podem ser exercidas por meio de decretos legislativos, atos normativos primários promulgados pelo Presidente do Senado Federal e que prescindem de sanção presidencial.
 
 - **Gabarito: CERTO**
-- **Comentário:** Os decretos legislativos veiculam as competências exclusivas do Congresso Nacional (CF, art. 49). Sendo atos do Poder Legislativo bicameral soberano, não são enviados à sanção ou veto do Executivo, cabendo sua promulgação ao Presidente do Senado Federal na qualidade de Presidente da Mesa do Congresso Nacional.
+- **Comentário:** O decreto legislativo é utilizado em hipóteses de competência exclusiva do Congresso Nacional, como a aprovação de tratados (CF, art. 49, I) e a sustação de atos normativos exorbitantes (CF, art. 49, V). A **fiscalização parlamentar em geral** também utiliza requerimentos, convocações e outros instrumentos: não se transforma automaticamente em decreto legislativo. O decreto legislativo não depende de sanção ou veto do Executivo, e sua promulgação cabe ao Presidente do Senado Federal, que preside a Mesa do Congresso Nacional.
 
 ---
 
@@ -272,7 +276,7 @@ O Cebraspe costuma testar a atenção do candidato com as seguintes armadilhas c
 > Se uma medida provisória for aprovada pelo Congresso Nacional com alterações em seu conteúdo material que resultem em projeto de lei de conversão, este deverá ser submetido à deliberação do Presidente da República para fins de sanção ou veto.
 
 - **Gabarito: CERTO**
-- **Comentário:** Conforme o art. 62, § 12, da Constituição Federal, aprovado projeto de lei de conversão alterando o texto original da medida provisória, a proposição será remetida ao Presidente da República, que exercerá seu poder de sanção ou veto sobre as inovações introduzidas pelos parlamentares.
+- **Comentário:** Conforme o art. 62, § 12, da Constituição Federal, aprovado projeto de lei de conversão alterando o texto original da medida provisória, a proposição será remetida ao Presidente da República, que decidirá sobre a sanção ou o veto do **projeto de lei de conversão**, conforme o art. 66. A apreciação presidencial recai sobre o texto do projeto submetido à sanção, observados os limites constitucionais do veto, e não apenas sobre uma lista isolada de alterações parlamentares.
 
 ## Fontes primárias e jurisprudência
 

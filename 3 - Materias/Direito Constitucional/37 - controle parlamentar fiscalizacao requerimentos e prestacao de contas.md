@@ -10,14 +10,14 @@ updated: 2026-11-11
 
 # Controle parlamentar: fiscalização contábil, financeira, requerimentos e prestação de contas
 
-**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-033 conforme arquitetura e inventário editorial.**
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
-O controle parlamentar constitui o exercício concreto da **função fiscalizadora** do Poder Legislativo, inerente ao princípio da separação de Poderes e ao sistema de freios e contrapesos (*checks and balances*). Na ordem constitucional republicana, legislar e fiscalizar ostentam igual hierarquia axiológica e funcional: a legitimidade democrática conferida pelo voto representativo exige a vigilância permanente sobre a gestão dos recursos públicos, a moralidade administrativa e o cumprimento estrito da lei pela Administração Pública.
+O Congresso Nacional exerce **controle parlamentar** quando acompanha e fiscaliza a atuação do Poder Executivo e o uso dos recursos públicos. Por exemplo, pode solicitar informações a autoridades, examinar as contas presidenciais e, nas hipóteses constitucionais, sustar atos normativos que ultrapassem o poder regulamentar. Cada instrumento tem uma autoridade competente, um procedimento e um efeito próprios.
 
 A fiscalização legislativa abrange três grandes dimensões:
 1. **Controle político institucional**: convocação de autoridades, pedidos de informação por escrito, sustação de atos normativos exorbitantes do Executivo e aprovação de atos complexos;
 2. **Controle contábil, financeiro, orçamentário, operacional e patrimonial**: exercido pelo Congresso Nacional mediante controle externo, com o auxílio técnico e operacional do Tribunal de Contas da União (**CF, arts. 70 a 75**);
-3. **Controle sobre a gestão do Chefe do Executivo**: julgamento anual das contas prestadas pelo Presidente da República, precedido de parecer prévio consultivo do TCU (**CF, art. 49, IX** c/c **art. 71, I**).
+3. **Controle sobre a gestão do Chefe do Executivo**: julgamento anual das contas prestadas pelo Presidente da República, precedido de parecer prévio consultivo do TCU (**Constituição Federal, art. 49, IX, combinado com art. 71, I**).
 
 ---
 
@@ -31,7 +31,7 @@ A Câmara dos Deputados e o Senado Federal, ou qualquer de suas Comissões, pode
 - **Presidente do Comitê Gestor do Imposto sobre Bens e Serviços (IBS)**, expressamente incluído no art. 50 pela **EC nº 132/2023**.
 
 > **Atenção — Sujeito passivo vedado:**
-> O **Presidente da República e o Vice-Presidente da República NÃO podem ser convocados** pelo Congresso, pela Câmara, pelo Senado ou por Comissões para prestar depoimento ou esclarecimentos pessoais. A convocação pessoal do Chefe do Executivo violaria o princípio da separação de Poderes. A fiscalização sobre a Chefia do Poder Executivo se dá por requerimentos escritos de informação direcionados via Mesa, CPI, processo por crime de responsabilidade ou julgamento de contas.
+> O **Presidente da República e o Vice-Presidente da República NÃO podem ser convocados** pelo Congresso, pela Câmara, pelo Senado ou por Comissões para prestar depoimento ou esclarecimentos pessoais. A convocação pessoal do Chefe do Executivo violaria o princípio da separação de Poderes. A fiscalização sobre a Chefia do Poder Executivo ocorre por instrumentos constitucionais próprios, como **CPIs sobre fatos determinados**, controle político e **julgamento das contas presidenciais**. Os requerimentos escritos com força constitucional do **art. 50, § 2º**, são dirigidos **às autoridades enumeradas no caput**, não pessoalmente ao Presidente ou Vice-Presidente da República. Eventual responsabilização por crime de responsabilidade segue procedimento constitucional específico.
 
 **Consequência da recusa ou não comparecimento:**
 O não comparecimento **sem justificação adequada** de autoridade regularmente convocada entre as indicadas no **art. 50, caput**, inclusive o **Presidente do Comitê Gestor do IBS**, importa **crime de responsabilidade**, na forma constitucional. Não presumir que a lista se restrinja a ministros.
@@ -79,7 +79,7 @@ A **Proposta de Fiscalização e Controle (PFC)** é uma **espécie de proposiç
 
 1. **Iniciativa:** qualquer membro ou deputado pode apresentar PFC à comissão competente, identificando **o ato** e justificando **a providência**. Não é necessário que o deputado pertença à comissão.
 2. **Relatório prévio:** o relator avalia oportunidade, conveniência e alcance jurídico, administrativo, político, econômico, social ou orçamentário, além do plano de execução e da metodologia.
-3. **Execução:** aprovada a proposta na forma regimental, a fiscalização é implementada e podem ser solicitadas ao Tribunal de Contas da União (TCU) as providências e informações previstas na Constituição.
+3. **Execução:** aprovada a proposta na forma regimental, a fiscalização é implementada e podem ser solicitadas ao Tribunal de Contas da União (TCU) as providências e informações previstas na Constituição. Nos atos de **convocação, prestação de informações, requisição de documentos públicos, diligências e perícias**, a comissão deve assinar **prazos não inferiores a dez dias** (RICD, art. 61, § 2º). Esse mínimo regimental não se confunde com os **30 dias** do requerimento escrito das Mesas a ministros e outras autoridades previsto na CF, art. 50, § 2º.
 4. **Resultado:** a fiscalização se encerra com relatório sobre o ato examinado, o desempenho e os efeitos pertinentes; sua apresentação não constitui automaticamente uma CPI nem aprovação de lei.
 
 A **Comissão de Fiscalização Financeira e Controle (CFFC)** é comissão **permanente da Câmara**. Ela implementa, em cada sessão legislativa, o **Plano Anual de Fiscalização e Controle (PAFC)**, aprovado em **até cinco sessões contadas da reinstalação da comissão** (RICD, art. 61-A). Até o fim da sessão legislativa, apresenta o **Relatório Anual de Fiscalização e Controle (RAFC)**, encaminhado ao TCU e ao órgão de controle interno do Executivo.
@@ -112,16 +112,18 @@ Prestará contas **qualquer pessoa física ou jurídica, pública ou privada**, 
 
 ### 3.2 Competências do TCU: atos de julgamento versus parecer prévio consultivo
 
-Uma das distinções mais cobradas pelo Cebraspe reside na natureza da deliberação do TCU dependendo do sujeito examinado:
+A competência do Tribunal de Contas da União (TCU) varia conforme o objeto e a pessoa responsável. Nas contas anuais do Presidente da República, o Tribunal emite **parecer prévio** para o julgamento pelo Congresso. Nas contas dos demais administradores e responsáveis por recursos públicos federais, o Tribunal exerce competência de **julgamento de contas**, nos termos do art. 71, II, da Constituição.
 
 | Autoridade / Responsável | Competência do TCU | Natureza da Decisão | Órgão que julga em definitivo |
 | :--- | :--- | :--- | :--- |
-| **Presidente da República** (contas de governo) | CF, art. 71, I: apreciar mediante **parecer prévio** em 60 dias | **Opinião técnica consultiva** (não vinculante) | **Congresso Nacional** (CF, art. 49, IX), em sessão conjunta unicameral |
-| **Demais administradores públicos e responsáveis por dinheiros públicos** (contas de gestão) | CF, art. 71, II: **julgar as contas** | **Decisão com eficácia de título executivo** (art. 71, § 3º) | O próprio **TCU** julga administrativamente em caráter definitivo |
-| **Prefeitos municipais na gestão de verbas federais repassadas** | Julgamento das contas do convênio federal | Título executivo | O próprio **TCU** (Súmula 208 do STJ e Tema 835 do STF) |
+| **Presidente da República** (contas de governo) | CF, art. 71, I: apreciar mediante **parecer prévio** em 60 dias | **Opinião técnica consultiva** (não vinculante) | **Congresso Nacional** (CF, art. 49, IX), em sessão conjunta, observadas as regras aplicáveis de deliberação |
+| **Demais administradores públicos e responsáveis por dinheiros públicos** (contas de gestão) | CF, art. 71, II: **julgar as contas** | **Decisão de julgamento de contas**; tem eficácia de título executivo **quando imputar débito ou multa** (art. 71, § 3º) | O próprio **TCU** julga administrativamente em caráter definitivo |
+| **Prefeitos municipais na gestão de verbas federais repassadas** | Exame das contas de recursos federais conforme a competência do TCU | Julgamento de contas; eficácia de título executivo **se houver imputação de débito ou multa** | **TCU**, nos casos de recursos federais sujeitos à sua fiscalização, sem confundir com o julgamento político das contas municipais |
 
-> **Nota Crítica de Jurisprudência — STF, Temas 157 e 835 de Repercussão Geral:**
-> Para fins de inelegibilidade de Prefeito ordenador de despesas (Lei Complementar nº 64/1990), a competência para julgar as contas de gestão e de governo do Chefe do Executivo Municipal é exclusiva da **Câmara Municipal**, cabendo ao Tribunal de Contas respectivo emitir parecer prévio (art. 31 da CF). Todavia, se o Prefeito gerir **recursos federais transferidos por convênio**, o TCU julga as contas do convênio (responsabilidade financeira e recomposição do erário perante a União).
+> **Três decisões diferentes: contas de governo, contas de gestão e inelegibilidade.**
+> Nas **contas anuais de governo** do prefeito, a Câmara Municipal exerce o julgamento político após parecer prévio do Tribunal de Contas (CF, art. 31, § 2º). Quando o prefeito atua como **ordenador de despesas**, o Tribunal de Contas competente pode julgar as contas de gestão e aplicar débito ou sanções **fora da esfera eleitoral**, sem ratificação da Câmara. Para os efeitos de **inelegibilidade** previstos no art. 1º, I, “g”, da LC nº 64/1990, permanece a competência da **Câmara Municipal**, nos termos da jurisprudência do STF. Se houver gestão de **recursos federais transferidos por convênio**, também deve ser examinada a competência fiscalizatória do TCU sobre o dinheiro da União. Não se deve atribuir a uma única instituição todos esses julgamentos.
+>
+> **Fontes:** STF, [ADPF 982/PR (2025)](https://noticias.stf.jus.br/postsnoticias/tribunais-de-contas-podem-julgar-prefeitos-que-ordenam-despesas-decide-stf/), Temas 835 e 1287 de repercussão geral; CF, arts. 31 e 71.
 
 ---
 
@@ -171,11 +173,11 @@ Fontes: [STF, art. 71 e precedentes MS 23.550/MS 24.510](https://portal.stf.jus.
 
 ### Caso 1: Convocação de Chefe de Poder
 Uma comissão parlamentar da Câmara dos Deputados aprova requerimento de convocação obrigatória do Presidente da República para prestar depoimento sobre denúncias veiculadas na imprensa.
-*Análise:* O ato é flagrantemente inconstitucional. O art. 50 da CF autoriza a convocação coercitiva de Ministros de Estado e titulares de órgãos subordinados à Presidência, mas **jamais do Presidente ou do Vice-Presidente da República**, sob pena de violação ao princípio da separação de Poderes (cláusula pétrea do art. 60, § 4º, III).
+*Análise:* O ato é flagrantemente inconstitucional. O art. 50 da Constituição autoriza a convocação de **ministros de Estado, titulares de órgãos diretamente subordinados à Presidência e do Presidente do Comitê Gestor do Imposto sobre Bens e Serviços**, mas **não do Presidente ou do Vice-Presidente da República**, sob pena de violação ao princípio da separação de Poderes (cláusula pétrea do art. 60, § 4º, III).
 
 ### Caso 2: Requerimento de informação a Ministro e contagem de prazo
 A Mesa da Câmara encaminha pedido de informações sobre contratos de publicidade institucional a determinado Ministro de Estado. Transcorridos 35 dias sem qualquer resposta ou solicitação fundamentada de prorrogação, o Ministro argumenta que não cometeu infração porque o prazo de resposta do processo administrativo geral seria de 60 dias.
-*Análise:* A alegação é improcedente. O prazo constitucional do art. 50, § 2º é peremptório e expresso: **30 dias corridos**. O não atendimento ou recusa injustificada tipifica de pleno direito **crime de responsabilidade**, processável perante o STF (em crimes comuns) ou Senado Federal (se conexo com o Presidente da República - CF art. 52, I e II).
+*Análise:* A alegação é improcedente. O prazo constitucional do art. 50, § 2º é peremptório e expresso: **30 dias corridos**. A **recusa**, o **não atendimento no prazo de trinta dias** e a **prestação de informações falsas** têm a consequência expressa do **art. 50, § 2º: crime de responsabilidade**. A competência para processar e julgar o fato depende do regime constitucional aplicável à autoridade; não decorre da simples contagem dos trinta dias afirmar que será julgado como **crime comum**.
 
 ### Caso 3: Rejeição das contas presidenciais pelo TCU
 O TCU, ao analisar as contas do Presidente da República relativas ao exercício financeiro anterior, emite parecer prévio recomendando sua rejeição por descumprimento de metas fiscais. Diante disso, o Tribunal publica acórdão declarando as contas rejeitadas e aplicando multa pecuniária ao Presidente.
@@ -196,7 +198,7 @@ Uma auditoria do TCU identifica indícios robustos de superfaturamento em contra
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** A prerrogativa de convocação coercitiva sob cominação de crime de responsabilidade (CF, art. 50, *caput*) alcança Ministros de Estado e titulares de órgãos subordinados à Presidência da República, **não incluindo o Presidente da República**. O Chefe do Poder Executivo não se submete à convocação pessoal por órgãos parlamentares, em respeito à harmonia e independência entre os Poderes.
+**Comentário:** A prerrogativa de convocação prevista no art. 50, *caput*, alcança **ministros de Estado, titulares de órgãos diretamente subordinados à Presidência da República e o Presidente do Comitê Gestor do IBS**, incluído pela EC nº 132/2023. **Não alcança o Presidente da República**, o que torna o item errado. O Chefe do Poder Executivo não se submete à convocação pessoal por órgãos parlamentares, em respeito à harmonia e independência entre os Poderes.
 
 ---
 
@@ -207,7 +209,7 @@ Uma auditoria do TCU identifica indícios robustos de superfaturamento em contra
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** É a redação exata e taxativa do art. 50, § 2º da Constituição Federal: *"A Mesa da Câmara dos Deputados e a do Senado Federal podem encaminhar pedidos escritos de informações a Ministros de Estado ou a qualquer das pessoas referidas no caput deste artigo, importando em crime de responsabilidade a recusa, ou o não - atendimento, no prazo de trinta dias, bem como a prestação de informações falsas"*.
+**Comentário:** O **art. 50, § 2º, da Constituição** permite às **Mesas** da Câmara e do Senado solicitar informações escritas às autoridades indicadas no caput. A **recusa**, a **falta de resposta em trinta dias** ou a **prestação de informação falsa** importam crime de responsabilidade. O item reproduz essas condições para um Ministro de Estado, por isso está correto.
 
 ---
 
@@ -251,7 +253,7 @@ Uma auditoria do TCU identifica indícios robustos de superfaturamento em contra
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** O RICD disciplina a PFC (arts. 60 e 61) e a Constituição Federal, no art. 71, IV, estabelece expressamente a competência do TCU para *"realizar, por iniciativa da Câmara dos Deputados, do Senado Federal, de Comissão técnica ou de inquérito, inspeções e auditorias de natureza contábil, financeira, orçamentária, operacional e patrimonial"*. O TCU atua como órgão auxiliar e técnico do Congresso, não podendo se recusar a executar a fiscalização requerida pela Casa ou comissão competente.
+**Comentário:** O RICD disciplina a PFC (arts. 60 e 61) e a Constituição Federal, no art. 71, IV, estabelece expressamente a competência do TCU para *"realizar, por iniciativa da Câmara dos Deputados, do Senado Federal, de Comissão técnica ou de inquérito, inspeções e auditorias de natureza contábil, financeira, orçamentária, operacional e patrimonial"*. O TCU exerce o controle externo como órgão de auxílio técnico ao Congresso. A requisição de inspeções e auditorias por Casa ou comissão habilitada encontra fundamento no art. 71, IV, da Constituição e deve respeitar a competência e o procedimento aplicáveis; não se confunde com uma ordem para produzir resultado previamente determinado.
 
 ---
 

@@ -10,18 +10,18 @@ updated: 2026-11-11
 
 # Código de Ética e Decoro Parlamentar da Câmara dos Deputados: deveres, vedações, Conselho de Ética e processo disciplinar
 
-**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-030 conforme arquitetura e inventário editorial.**
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
 ## Núcleo do conceito: por que existe um regime disciplinar próprio para deputados?
 
-A atividade parlamentar goza de garantias constitucionais expressivas — como a imunidade material por palavras, opiniões e votos (CF, art. 53, *caput*) e a imunidade formal contra prisões arbitrárias (CF, art. 53, § 2º). Tais prerrogativas existem para resguardar a soberania do mandato popular e o funcionamento independente do Poder Legislativo, e não como privilégio pessoal do indivíduo eleito. Como contrapartida institucional indispensável, a ordem jurídica exige padrões rigorosos de probidade, integridade e dignidade no exercício da representação.
+Quando um deputado se manifesta em uma votação, a Constituição protege suas opiniões, palavras e votos ligados ao mandato (art. 53). Essa proteção permite o debate parlamentar, mas não afasta as regras de conduta da Câmara. Por exemplo, o recebimento de vantagem indevida pode dar origem a um processo por quebra de decoro, com apuração e decisão pelos órgãos competentes.
 
-Na Câmara dos Deputados, esse sistema de controle ético-disciplinar está disciplinado no **Código de Ética e Decoro Parlamentar da Câmara dos Deputados (CEDP)**, instituído pela **Resolução nº 25, de 2001**, com redação atualizada por resoluções posteriores (com destaque para a **Resolução nº 2, de 2011**), complementado pelo seu **Regulamento Interno**, pelo **Regimento Interno da Câmara dos Deputados (RICD)** e pela própria **Constituição Federal (arts. 55 e 58)**.
+Na Câmara dos Deputados, esse sistema de controle ético-disciplinar está disciplinado no **Código de Ética e Decoro Parlamentar da Câmara dos Deputados**, instituído pela **Resolução nº 25, de 2001**, com redação atualizada por resoluções posteriores (com destaque para a **Resolução nº 2, de 2011**), complementado pelo seu **Regulamento Interno**, pelo **Regimento Interno da Câmara dos Deputados (RICD)** e pela própria **Constituição Federal (arts. 55 e 58)**.
 
 O Código de Ética cumpre tripla função no arranjo institucional da Câmara:
-1. **Tipicidade ético-parlamentar:** tipifica os deveres fundamentais do deputado, os atos atentatórios e os atos incompatíveis com o decoro parlamentar, dando densidade material aos conceitos abertos do art. 55, II e § 1º, da CF;
+1. **Definição das condutas:** estabelece os deveres dos deputados e descreve os atos classificados como atentatórios ou incompatíveis com o decoro. Com isso, especifica situações que podem configurar quebra de decoro na hipótese do art. 55, II e § 1º, da Constituição;
 2. **Graduação de sanções e competências punitivas:** estrutura uma escala progressiva de penalidades (censura verbal, censura escrita, suspensão de prerrogativas regimentais, suspensão temporária do exercício do mandato e perda do mandato), distribuindo a competência decisória entre Presidentes, Mesa Diretora e Plenário;
-3. **Devido processo legal legislativo:** estabelece o rito procedimental perante o **Conselho de Ética e Decoro Parlamentar (CEDP)**, assegurando ampla defesa, contraditório, instrução probatória com poderes próprios e controle recursal de vícios jurídicos pela Comissão de Constituição e Justiça e de Cidadania (CCJC), nos ritos em que previsto.
+3. **Devido processo legal legislativo:** estabelece o rito procedimental perante o **Conselho de Ética e Decoro Parlamentar**, assegurando ampla defesa, contraditório, instrução probatória com poderes próprios e controle recursal de vícios jurídicos pela Comissão de Constituição e Justiça e de Cidadania (CCJC), nos ritos em que previsto.
 
 ## 1. Princípios e deveres fundamentais do deputado (arts. 1º a 3º)
 
@@ -81,7 +81,6 @@ O art. 5º reúne condutas atentatórias ao decoro, sujeitas às penalidades pre
 
 > **Exigência de prova:** O parágrafo único do art. 5º determina que as condutas nele previstas só serão objeto de apreciação **mediante provas**. A expressão legal é essa: o dispositivo, isoladamente, **não cria uma proibição textual específica a toda notícia anônima**. A suficiência de prova e as condições para recebimento da representação devem ser analisadas conforme o procedimento aplicável.
 
-> **Parecer final de auditoria (11/11/2026): APROVADO COM RESSALVAS PARA ESTUDO.** Após as correções normativas e editoriais registradas no diagnóstico, o DC34 está apto ao uso como material de preparação. Os seis gabaritos autorais foram preservados e conferidos quanto a seus fundamentos centrais. **Ressalvas documentadas:** não foi executado teste de renderização visual efetiva do Mermaid e não há comprovação de cotejo independente, linha a linha, de cada afirmação contra todas as fontes. A checagem estrutural do diagrama não substitui sua renderização. Essas ressalvas não exigem manter a auditoria aberta por prazo indeterminado: o artigo fica **encerrado nesta rodada**, com eventual revisão futura apenas diante de erro jurídico material identificado ou alteração normativa. Fontes centrais: [Código de Ética consolidado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html) e [RICD consolidado](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
 
 ## 3. As quatro penalidades aplicáveis e as autoridades competentes (arts. 10 a 14)
 
@@ -268,7 +267,7 @@ Os enunciados seguintes testam **somente o procedimento cautelar** do [RICD, art
 ### Passo a passo detalhado do procedimento
 
 1. **Iniciativa e Legitimidade ativa:**
-   - Para processos que visem à perda do mandato ou à suspensão temporária do mandato, a representação deve ser instaurada por provocação da **Mesa Diretora** ou de **partido político com representação no Congresso Nacional** (CF, art. 55, § 2º; CEDP, art. 14).
+   - Para processos que visem à perda do mandato ou à suspensão temporária do mandato, a representação deve ser instaurada por provocação da **Mesa Diretora** ou de **partido político com representação no Congresso Nacional** (CF, art. 55, § 2º; Código de Ética, art. 14).
    - **Qualquer cidadão** pode requerer à **Mesa da Câmara** representação contra deputado, especificando fatos e respectivas provas (Código, art. 9º, § 1º). O dispositivo não atribui expressamente essa mesma legitimidade às entidades da sociedade civil: eventual petição apresentada por pessoa jurídica deve ser analisada à luz das normas próprias, sem confundi-la com a previsão literal do § 1º. O cidadão não instaura diretamente processo disciplinar no Conselho.
    - Ao receber o requerimento do cidadão, a Mesa instaura procedimento de apreciação **na forma e no prazo previstos em regulamento próprio** (art. 9º, § 2º). Se verificar indícios suficientes e ausência de inépcia, encaminha os casos de suspensão de prerrogativas, suspensão do mandato ou perda do mandato ao Conselho em **três sessões ordinárias**; nos casos de censura, adota o procedimento dos arts. 11 ou 12. A representação de partido político representado no Congresso segue o encaminhamento direto previsto no § 3º.
 2. **Distribuição e escolha do Relator:**
@@ -425,7 +424,7 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 > A deliberação final do Plenário da Câmara dos Deputados sobre a perda do mandato parlamentar decorrente de quebra de decoro deve ocorrer em escrutínio secreto, exigindo-se a anuência de dois terços dos parlamentares que compõem a Casa para a cassação do mandato.
 
 - **Gabarito: ERRADO**
-- **Comentário:** Duplo erro: 1) Desde a promulgação da Emenda Constitucional nº 76/2013, o voto secreto foi extinto nos julgamentos de perda de mandato no Congresso Nacional, passando a votação plenária a ser **ostensiva (aberta)**; 2) O quórum constitucional e regimental exigido é de **maioria absoluta dos membros da Casa (257 deputados)**, e não de dois terços (CF, art. 55, § 2º; CEDP, art. 14).
+- **Comentário:** Duplo erro: 1) Desde a promulgação da Emenda Constitucional nº 76/2013, o voto secreto foi extinto nos julgamentos de perda de mandato no Congresso Nacional, passando a votação plenária a ser **ostensiva (aberta)**; 2) O quórum constitucional e regimental exigido é de **maioria absoluta dos membros da Casa (257 deputados)**, e não de dois terços (CF, art. 55, § 2º; Código de Ética, art. 14).
 
 ---
 
@@ -436,26 +435,9 @@ As questões da banca Cebraspe sobre ética parlamentar na Câmara costumam expl
 - **Gabarito: ERRADO**
 - **Comentário:** O recurso à CCJC está previsto no **art. 14, § 4º, VII**, com prazo de **5 dias úteis** e efeito suspensivo. A CCJC se pronuncia exclusivamente sobre os vícios **constitucionais, regimentais ou do próprio Código** indicados pelo representado, no prazo de 5 dias úteis. O inciso VIII disciplina a remessa à Mesa após a tramitação, não a hipótese de recurso. A proposta de reexame integral do mérito torna o enunciado errado.
 
-### Rastreabilidade dos seis gabaritos originais
-
-Os fundamentos foram conferidos individualmente com o [Código de Ética consolidado](https://www2.camara.leg.br/legin/fed/rescad/2001/resolucaodacamaradosdeputados-25-10-outubro-2001-320496-normaatualizada-pl.html), o [Regulamento do Conselho](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/arquivos/regulamento-1/view) e a Constituição. O teste cobre o enunciado de cada item e **não constitui certificação de todo o artigo**.
-
-| Item | Resultado | Fundamento |
-| :--- | :---: | :--- |
-| 1: fraude em deliberação | **E** | Código, **art. 4º, IV**, e **art. 14**: infração incompatível com decoro e decisão plenária |
-| 2: desacato verbal | **C** | Código, **arts. 5º, III, e 12**: hipótese expressa de desacato por palavras, provocação do ofendido e defesa |
-| 3: composição e impedimentos do relator | **C** | Código, **arts. 7º, caput; 13, I, a–b; e 14, § 4º, I**: 21 titulares, 21 suplentes e vedações partidária/estadual |
-| 4: quebra direta de sigilo pelo relator | **E** | Regulamento, **arts. 14–16**: Conselho requer fundamentadamente à Mesa, que submete ao Plenário; não há decreto direto pelo relator |
-| 5: voto secreto e dois terços | **E** | **CF art. 55, § 2º**, após EC 76/2013, e **Código art. 14**: votação ostensiva e maioria absoluta |
-| 6: revisão do mérito pela CCJC | **E** | Código, **art. 14, § 4º, VII**: CCJC aprecia vícios constitucionais, regimentais ou do Código, não o mérito integral |
-
-**Resultado:** 6/6 gabaritos confirmados quanto ao enunciado específico, sem inversão. A questão 2 foi **reescrita** para corresponder à hipótese legal de desacato por palavras, em vez de usar expressão genérica potencialmente ambígua. Os quatro casos sobre suspensão **cautelar** permanecem separados dos seis itens do rito **sancionatório**. A verificação integral do Regulamento e de todos os exemplos continua sendo etapa independente.
-
-**Limite documentado do fluxograma (parecer final de 11/11/2026):** a CCJC aprecia somente os vícios jurídicos apontados no recurso, não reexamina o mérito. O percurso gráfico distingue o recurso não acolhido da hipótese de reconhecimento de vício; as consequências observam a decisão da CCJC. O desenho sintetiza, sem substituir, os arts. 13, IV–V, e 14, § 4º, VII–VIII. **A renderização visual efetiva do Mermaid não foi testada**; esta é uma ressalva técnica do parecer **aprovado com ressalvas**, não um impedimento para encerrar esta auditoria.
-
 ## Fontes primárias e controle de vigência
 
-- **[Acordo de Procedimentos 2025–2027, PDF oficial](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027-1/view):** regras operacionais do biênio, itens 1 a 6, com alteração expressa de 5/8/2025 no item 2; consultar eventuais alterações supervenientes antes da prova. O PDF oficial foi confrontado em texto e em páginas visuais na revisão de 11/11/2026.
+- **[Acordo de Procedimentos 2025–2027, PDF oficial](https://www2.camara.leg.br/a-camara/estruturaadm/eticaedecoro/acordo-de-procedimentos-2025-2027/acordo-de-procedimentos-2025-2027-1/view):** regras operacionais do biênio, itens 1 a 6, com alteração expressa de 5/8/2025 no item 2; consultar eventuais alterações supervenientes antes da prova.
 
 
 - **Constituição Federal de 1988:** arts. 53 (estatuto dos congressistas e imunidades), 54 (incompatibilidades), 55 (perda de mandato e quórum), 56 (afastamentos e licenças) e 58 (comissões e poderes instrutórios).

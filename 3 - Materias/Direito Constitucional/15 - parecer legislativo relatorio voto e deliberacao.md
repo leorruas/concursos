@@ -21,7 +21,7 @@ aliases:
 
 O **Regimento Interno da Câmara dos Deputados (RICD), art. 126**, define parecer como a **proposição mediante a qual uma comissão se pronuncia sobre matéria sujeita a seu estudo**. O parecer **por escrito**, segundo o **art. 129**, possui três partes: **relatório**, **voto do relator** e **parecer da comissão**. Essa tripartição impede equiparar a **opinião individual de quem relata** à **conclusão institucional da comissão**.
 
-Este artigo atende à unidade **CAM-PL-005: Parecer legislativo, relatório, voto e deliberação**. Os textos [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] e [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]] já explicam onde o parecer se insere. Esta nota detalha **a estrutura interna e a conversão do voto individual em decisão colegiada**, com base nos arts. **53 a 57, 126 a 130 e 144 a 147** do RICD. A modalidade de votação em Plenário e seus quóruns próprios ficam para **CAM-PL-006**.
+Os textos [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] e [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]] já explicam onde o parecer se insere. Esta nota detalha **a estrutura interna e a conversão do voto individual em decisão colegiada**, com base nos arts. **53 a 57, 126 a 130 e 144 a 147** do RICD. As modalidades de votação em Plenário e seus quóruns próprios são examinados em [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação e quóruns]].
 
 ### Do texto apresentado ao documento aprovado: identificação por etapas
 
@@ -55,7 +55,7 @@ Um parecer favorável pode ajudar um projeto a prosseguir; um parecer contrário
 
 ## Parecer independente e parecer único de proposições apensadas
 
-O **art. 127** determina, como regra, **parecer independente para cada proposição**. Há ressalva expressa para matérias **apensadas** conforme os arts. 139, I, e 142, que terão **um só parecer**. A tramitação conjunta não elimina automaticamente a identidade de cada projeto, como estudado em CAM-PL-003.
+O **art. 127** determina, como regra, **parecer independente para cada proposição**. Há ressalva expressa para matérias **apensadas** conforme os arts. 139, I, e 142, que terão **um só parecer**. A tramitação conjunta não elimina automaticamente a identidade de cada projeto, como explicado em [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação e fases do processo legislativo]].
 
 **Caso:** projetos A e B, da mesma espécie e sobre temas correlatos, são apensados. A comissão pode produzir **parecer único que se pronuncia sobre todas as proposições**, inclusive concluindo pela aprovação de uma e rejeição da outra. A existência de **parecer único** não significa que A e B se fundiram em **um só projeto**. O art. 57, I, também exige pronunciamento sobre todas as apensadas.
 
@@ -102,7 +102,7 @@ O **art. 57, XIV**, classifica votos para efeito de **contagem do parecer**. A e
 
 O **art. 57, VI a IX**, organiza a discussão do parecer: leitura ou dispensa de leitura quando distribuído em avulsos, debate, eventual réplica do relator e votação. O inciso **VIII foi revogado** pela Resolução nº 1/2023; a regra atual de réplica e votação está no **inciso IX**, que prevê **vinte minutos** para réplica do relator, quando cabível.
 
-**Vista de processo:** o **art. 57, XVI**, estabelece **duas sessões** para pedido de vista por membro da comissão, **desde que não seja matéria em regime de urgência**. Quando mais de um membro pede vista simultaneamente, ela será **conjunta e na própria comissão**, sem admissão de **pedidos sucessivos**. Assim, três deputados não adquirem automaticamente **seis sessões** por terem pedido vista no mesmo momento.
+**Vista de processo:** pelo **art. 57, XVI**, um membro da comissão pode pedir tempo para examinar a matéria antes da deliberação. O prazo é de **duas sessões**, desde que a proposição **não tramite em regime de urgência**. Se três membros pedirem vista ao mesmo tempo, a vista será **conjunta e na própria comissão**: todos consultam o processo no mesmo período de duas sessões, sem somar prazos. O Regimento não admite **pedidos sucessivos** para prolongar essa análise. O pedido de vista interrompe o exame naquele momento; não aprova nem rejeita o parecer.
 
 **Quem vota primeiro?** O **art. 57, IX-A** determina a colheita inicial dos votos dos **titulares presentes** e, depois, dos **suplentes dos partidos dos titulares ausentes**. A ordem é procedimental e não significa que suplente possa votar sempre junto com o titular do mesmo partido quando este está presente.
 
@@ -194,8 +194,8 @@ Também importam as inversões de quórum: **maioria absoluta presente** não é
 - [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: recebimento, distribuição, apreciação conclusiva, recurso e Plenário.
 - [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]: permanentes e temporárias, funções de instrução e fiscalização.
 - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo constitucional]]: espécies, quóruns e produção normativa.
-- **CAM-PL-006**: discussão, votação, quóruns e modalidades de decisão, com foco no Plenário.
-- **CAM-PL-008 a CAM-PL-010**: procedimentos ordinário, abreviado, sumário, sumaríssimo e ritos especiais.
+- [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação e quóruns]]: regras próprias de deliberação em Plenário.
+- [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Procedimentos abreviado e sumário]] e [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Procedimentos sumaríssimo, especial e concentrado]]: diferenças entre os ritos.
 
 ## Tensões e pegadinhas
 
@@ -223,17 +223,3 @@ Uma resposta sólida pode seguir **conceito regimental de parecer (art. 126) →
 - [RICD, edição consolidada até a Resolução nº 34/2026, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 - [RICD, 31ª edição, Biblioteca da Câmara dos Deputados (2026)](https://bd.camara.leg.br/bd/items/version/400).
 
-**Limites editoriais:** as questões são inéditas, didáticas e escritas para treinar distinções do Regimento, sem reivindicar reprodução de questões oficiais da Cebraspe. A nota não comprova estudo, domínio nem desempenho do candidato; prazos e procedimentos devem ser interpretados na redação vigente do texto normativo.
-
-
-> **Fontes consolidadas para consulta (15/11/2026):** o portal da Câmara disponibiliza o [Regimento Interno atualizado até a Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e a [Constituição atualizada até a Emenda Constitucional nº 141/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988). A consolidação mais recente deve ser consultada quando houver divergência com reproduções antigas. Esta atualização de referências não representa nova certificação de todos os dispositivos citados no artigo.
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Escopo cotejado:** texto, tabelas, **nove etapas do caso progressivo**, **dois exemplos comentados** e **oito questões inéditas C/E** confrontados com os [arts. 53–59, 126–130 e 144–147 do Regimento Interno da Câmara, versão consolidada](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). Conferidos estrutura tripartida do parecer, exceção de relatório para emendas, parecer único das apensadas, restrição material por competência, quórum e desempate em comissão, voto original e parecer vencedor, voto em separado, vista conjunta, terminatividade e apreciação conclusiva.
-
-**NC-PL-044, conteúdo da proposição decorrente do parecer:** acrescentado o **art. 129, § 2º**, que exige a **proposição devidamente formulada** quando, nas condições estritas do dispositivo, a conclusão do parecer deva resultar em resolução, decreto legislativo ou lei. **NC-PL-045, controle de regularidade:** explicitado o **art. 130, parágrafo único**, que prevê devolução à comissão para reformulação de parecer contrário ao Regimento ou na hipótese do art. 55, parágrafo único.
-
-**Gabaritos efetivamente existentes e preservados, oito itens:** **C, E, E, C, C, E, C, E**. Nenhuma inversão demonstrada nas questões, nos nove casos e nos dois exemplos examinados. A nota contém **oito**, não dez itens; o inventário histórico não recebe novas questões neste bloco.
-
-**Limites:** certificação do recorte escrito, nesta data, sem homologar integralmente o RICD, todos os regimes especiais de parecer, a aprendizagem do estudante, ou a renderização/publicação em GitHub Pages.

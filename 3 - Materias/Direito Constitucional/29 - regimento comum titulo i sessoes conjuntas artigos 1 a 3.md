@@ -14,7 +14,7 @@ aliases:
 
 # Regimento Comum do Congresso: direção, objeto e convocação das sessões conjuntas
 
-**Câmara dos Deputados 2026, cargo 1: Divulgação Institucional. Cebraspe. Unidade CAM-PL-025.** Recorte literal do **Título I do Regimento Comum do Congresso Nacional (RCCN), arts. 1º a 3º**, instituído pela Resolução nº 1/1970-CN, interpretado à luz da Constituição de 1988.
+**Câmara dos Deputados 2026, cargo 1: Divulgação Institucional. Cebraspe.** Recorte do **Título I do Regimento Comum do Congresso Nacional (RCCN), arts. 1º a 3º**, instituído pela Resolução nº 1/1970-CN, interpretado à luz da Constituição de 1988.
 
 ## Núcleo do conceito
 
@@ -152,7 +152,7 @@ O **Regimento Comum** disciplina a atuação conjunta e mista do Congresso, mas 
 
 **Sessão conjunta ≠ votação conjunta indistinta. Promulgação de emenda ≠ nova deliberação da PEC. Local da Câmara ≠ sessão da Câmara. Mesa do Congresso ≠ Mesa da Câmara. Convocação pelo Senado ≠ audiência da Mesa da Câmara. Homenagem solene ≠ exame de veto.**
 
-A sequência de estudo é: [[3 - Materias/Direito Constitucional/28 - mapa regimental da camara estrutura e fronteiras do edital|mapa do RICD e órgãos da Câmara]], **esta nota do Título I**, depois **CAM-PL-026: Título IV do Regimento Comum, capítulos II e III, até art. 103**, onde o processo de apreciação de matérias específicas ganha regras próprias.
+A sequência de estudo é: [[3 - Materias/Direito Constitucional/28 - mapa regimental da camara estrutura e fronteiras do edital|mapa do RICD e órgãos da Câmara]], **esta nota do Título I**, depois [[3 - Materias/Direito Constitucional/30 - regimento comum titulo iv sessoes solenes e materias ate artigo 103|Título IV do Regimento Comum, capítulos II e III até o art. 103]], onde a apreciação de matérias específicas ganha regras próprias.
 
 ## Fontes oficiais e limites
 
@@ -160,9 +160,3 @@ A sequência de estudo é: [[3 - Materias/Direito Constitucional/28 - mapa regim
 - [Congresso Nacional: página oficial de Regimento Comum e normas conexas](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional).
 - [Senado Federal: volume atualizado até julho de 2025](https://www2.senado.leg.br/jspui/handle/id/816688?mode=simple).
 - [Constituição de 1988 atualizada, arts. 57, 60, 65, 66, 68 e 166](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
-
-**Controle de qualidade da nota (11/11/2026):** o conteúdo dos **arts. 1º a 3º**, o **quadro de finalidades**, as **oito situações práticas**, as **dez questões C/E**, as remissões constitucionais sobre PEC, veto, delegação e direção do Congresso, e os links internos foram confrontados com os textos oficiais do Senado/Câmara. **Gabaritos mantidos: 10/10**, sem inversão demonstrada. Foi precisada a distinção entre a referência histórica à Mesa do Senado e a direção constitucional pela Mesa do Congresso. A edição compilada do Regimento Comum publicizada pelo Congresso registra atualização até **julho de 2025**. Em **11/11/2026**, foi feita checagem adicional no [cadastro legislativo oficial do Senado da Resolução 1/1970-CN](https://legis.senado.leg.br/norma/561098), cuja relação de normas posteriores termina na **Resolução 3/2025-CN**, sem indicação de alteração superveniente dos **arts. 1º a 3º** até a data da consulta. A consulta ao cadastro corrige a lacuna de vigência que permanecia neste relatório, embora a certificação dependa de repetir a checagem caso haja nova norma publicada. Este controle não equivale a questões oficiais nem desempenho pessoal.
-
-**Certificação normativa datada: 11/11/2026.** Escopo certificado: Título I do RCCN, arts. 1º–3º, hierarquia constitucional aplicada, explicações, oito casos, dez questões C/E (gabaritos preservados) e links de referência do artigo, com consulta adicional ao cadastro oficial de alterações. A certificação se refere à versão aqui documentada e **não** equivale a garantia sobre futuras modificações, conteúdo de outros títulos do RCCN ou questões oficiais da banca.
-
-**Nota editorial:** texto conferido em **09/11/2026** contra a consolidação oficial disponível, cuja edição em volume foi atualizada até **julho de 2025**. Não se presume que não exista alteração posterior sem nova verificação normativa. As dez questões são inéditas e não representam resolução ou desempenho pessoal.

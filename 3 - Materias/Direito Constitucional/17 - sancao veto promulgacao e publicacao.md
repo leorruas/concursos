@@ -21,7 +21,7 @@ aliases:
 
 O **art. 66 da Constituição Federal** disciplina as escolhas do presidente da República diante de **projeto de lei aprovado pelo Legislativo**, e a atuação posterior do **Congresso Nacional** sobre vetos. **Sanção** é concordância presidencial com o projeto (expressa ou tácita); **veto** é discordância expressa e motivada por **inconstitucionalidade** ou **contrariedade ao interesse público**; **promulgação** é ato formal que atesta a existência da lei e ordena sua observância; **publicação** dá conhecimento oficial do texto. **Vigência** é o momento a partir do qual a lei produz os efeitos normativos que dependem de sua entrada em vigor, conforme a própria lei e as regras aplicáveis da LINDB.
 
-Esta é a unidade **CAM-PL-007**, orientada à cobrança **Cebraspe Certo/Errado**. A nota [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]] já contém as definições introdutórias, preservadas sem duplicação. O presente aprofundamento organiza **sujeitos, marcos temporais, condições e consequências** no procedimento do **art. 66**, a atuação conjunta do Congresso e a distinção **publicação × início da vigência**.
+A nota [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]] já contém as definições introdutórias, preservadas sem duplicação. Aqui, o procedimento do **art. 66** é apresentado na ordem dos atos: **quem recebe o projeto, quem decide, em quanto tempo, com que efeito e como o texto entra em vigor**. A publicação e o início da vigência devem ser conferidos separadamente.
 
 ## Primeiro identifique a espécie normativa
 
@@ -213,8 +213,8 @@ Outro mecanismo é a **unidade mínima do veto parcial**. A descrição pode est
 - [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: Casa iniciadora/revisora e envio à Presidência depois da votação final.
 - [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação, quóruns e modalidades de decisão na Câmara]]: maioria absoluta para rejeição de veto, distinguindo o Congresso das votações ordinárias.
 - [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]]: distinção entre quem propõe e quem sanciona.
-- **CAM-PL-011 e CAM-PL-015**: lei ordinária/complementar e PEC, sobretudo seus atos finais.
-- **CAM-PL-025 a 027**: Regimento Comum e procedimento de vetos em sessão conjunta.
+- [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas]]: leis ordinárias, leis complementares e propostas de emenda à Constituição, com seus atos finais.
+- [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|Sessões conjuntas do Congresso]] e [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Votação no Regimento Comum]]: competências e procedimentos de sessões conjuntas.
 
 ## Tensões e pegadinhas
 
@@ -246,14 +246,3 @@ Organizar a resposta por **ato, finalidade, sujeito competente, prazo, consequê
 - [Lei Complementar nº 95/1998, art. 8º, Planalto](https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp95.htm).
 
 **Critério de atualização:** normas e fontes oficiais conferidas em **07/11/2026**. A redação do art. 66, § 4º, alterada pela EC nº 76/2013, deve prevalecer sobre reproduções históricas que ainda exibam voto secreto. Questões inéditas elaboradas para treino Cebraspe, sem afirmar correspondência literal a provas oficiais, desempenho ou retenção pessoal.
-
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Cotejo realizado:** texto e quadros, **oito etapas do caso progressivo**, **dois exemplos comentados** e **dez questões C/E**, comparados à [Constituição Federal, arts. 60, 65 e 66](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988), ao [Regimento Comum do Congresso, arts. 104-A e 106](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional), à [LINDB, art. 1º](https://legis.senado.gov.br/norma/529744/publicacao/34620738) e à [jurisprudência do STF reunida no art. 66](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=66&abrirBase=CF). Conferidos sanção expressa/tácita, veto político/jurídico, extensão do veto parcial, prazos, sessão conjunta, quórum separado das Casas, promulgação subsidiária e vacatio legis.
-
-**NC-PL-039, jurisprudência acrescentada:** precedentes das **ADPFs 714, 715 e 716**, além da **ADPF 893**, sobre a **irretratabilidade do veto**, impossibilidade de veto adicional tardio e preclusão da etapa de manifestação executiva. **NC-PL-040, efeito do prazo congressual:** **ADI 5.706 (2024)**: ultrapassar os 30 dias do art. 66, § 4º, produz inclusão na Ordem do Dia e sobrestamento conforme § 6º, **sem caducidade ou perda da competência do Congresso para deliberar**. Os acréscimos complementam as explicações existentes sem ampliar o alcance dos gabaritos.
-
-**Dez respostas conferidas e preservadas:** **C, E, C, E, C, E, C, E, E, C**. Nenhuma inversão demonstrada nos dez itens e oito etapas, nem nos dois exemplos. Os exercícios já integram o inventário, não devendo ser somados novamente.
-
-**Limites:** certificação jurídico-editorial do recorte escrito nesta data; não abrange toda a jurisprudência relacionada ao processo legislativo, casos concretos não examinados, retenção do estudante ou teste visual e publicação no GitHub Pages.

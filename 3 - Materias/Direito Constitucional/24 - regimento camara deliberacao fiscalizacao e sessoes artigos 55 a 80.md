@@ -10,7 +10,7 @@ updated: 2026-11-11
 
 # Regimento da Câmara: decisões das comissões, fiscalização e sessões (arts. 55 a 80)
 
-**Câmara dos Deputados 2026, Divulgação Institucional, banca Cebraspe, CAM-PL-021.** Texto canônico do Regimento Interno da Câmara dos Deputados (RICD), arts. 55 a 80. O intervalo cruza o encerramento das **regras de comissões (arts. 55–64)** e o início da disciplina das **sessões da Câmara (arts. 65–80)**. Para composição e tipos de comissão, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]; para organização geral da Câmara, [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Regimento da Câmara: organização, Mesa, lideranças e órgãos (arts. 1º a 24)]].
+**Câmara dos Deputados 2026, Divulgação Institucional, banca Cebraspe.** Texto canônico do Regimento Interno da Câmara dos Deputados (RICD), arts. 55 a 80. O intervalo cruza o encerramento das **regras de comissões (arts. 55–64)** e o início da disciplina das **sessões da Câmara (arts. 65–80)**. Para composição e tipos de comissão, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]; para organização geral da Câmara, [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Regimento da Câmara: organização, Mesa, lideranças e órgãos (arts. 1º a 24)]].
 
 ## Núcleo do conceito
 
@@ -196,22 +196,9 @@ A **sessão ordinária** tem etapas previstas no **art. 66**: **Pequeno Expedien
 
 **Não confundir: voto em separado × parecer vencedor; recurso de 1/10 × quórum de abertura; sessão conjunta do Congresso × reunião conjunta de comissões; PFC × CPI; autorização de gravação × aprovação de uma lei.**
 
-## Certificação normativa delimitada: 11/11/2026
-
-**Recorte conferido:** texto, quadros, **oito casos progressivos** e **dez questões C/E** desta nota, cotejados com os **arts. 55 a 80 do [Regimento Interno da Câmara dos Deputados, versão normativa consolidada](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html)** e com a CF art. 58, § 2º, I. Os **arts. 55–64** complementam o regime geral das comissões; os **arts. 65–80** integram o recorte literal das sessões exigido no programa de Direito Constitucional do cargo 1, em conjunto com os arts. 81–94 estudados em DC25.
-
-**Verificações principais:** matéria alheia à competência da comissão e consequência condicionada de parecer não escrito (**art. 55**); parecer do relator e deliberação pelo Plenário da comissão com maioria absoluta presente e desempate pelo voto do relator (**56**); tramitação conjunta, votação, vista por **duas sessões salvo urgência**, com pedidos simultâneos conjuntos, e votos em separado (**57**); decisão conclusiva seguida de publicação, recurso ao Plenário em **cinco sessões** subscrito por **ao menos um décimo dos membros** e envio de redação final em até **72 horas** (**58–59**); fiscalização e PFC acessível a qualquer deputado, diligências com prazo **não inferior a dez dias**, **PAFC** aprovado em até cinco sessões desde a reinstalação e **RAFC** até o fim da sessão legislativa (**60–61-A**); secretaria, ata e consultoria (**62–64**); tipos, horários e fases de sessões, publicidade, sessão extraordinária e solene e suspensão por até **uma hora** (**65–72**); palavra, publicação de discursos, autorização de gravação e transmissão, abertura e ata (**73–80**).
-
-**Distinção aritmética testada:** no **art. 58, § 3º**, “ao menos um décimo” de **513** membros exige **52 assinaturas**, enquanto o **art. 79, § 2º**, manda **desprezar a fração** para a abertura, bastando **51 presentes**. São operações e efeitos jurídicos diferentes.
-
-**Dez gabaritos conferidos, na ordem:** **C, E, C, E, C, E, C, E, C, E**. Nenhuma inversão demonstrada no conjunto de questões e oito casos examinados. Não houve necessidade de alterar enunciados, gabaritos ou exemplos.
-
-**Limites:** certificação jurídico-normativa **deste recorte escrito, nesta data**, não atesta por si todo o RICD, a aplicação de regras especiais de comissões, o funcionamento de interface ou a publicação no GitHub Pages. Resoluções ou decisões posteriores exigirão rechecagem específica.
-
 ## Fontes oficiais e recorte de atualização
 
 - [Regimento Interno da Câmara dos Deputados, arts. 55–80, texto consolidado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), consultado em **08/11/2026**.
 - [Câmara dos Deputados: Regimento Interno, 31ª edição, atualizado até Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
 - [Constituição Federal, arts. 58 e 70–75](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 
-**Nota editorial:** esta nota complementa a cobertura de comissões e pareceres já existente. Os itens C/E são originais para estudo, e a conclusão editorial não significa aprendizado realizado nem publicação confirmada no Pages.

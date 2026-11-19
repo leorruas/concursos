@@ -13,7 +13,7 @@ aliases:
 
 # Regimento da Câmara: mapa dos órgãos, competências e recortes do edital
 
-**Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. CAM-PL-024.**
+**Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
 ## Núcleo do conceito
 
@@ -127,23 +127,13 @@ No intervalo **1º–24**, a redação regimental sobre remuneração dos servi�
 
 ## Relações com outros temas
 
-A leitura dos órgãos legislativos integra [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]] e [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|iniciativa legislativa]]; os limites de competência da Mesa e do Plenário dialogam com [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|votação e quóruns]]. A [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|tipologia das proposições]] ajuda a evitar que parecer e requerimento sejam tratados como leis. O próximo bloco do inventário é **CAM-PL-025: Regimento Comum, Título I**, que trata do Congresso Nacional em sessão conjunta e demanda distinção dos órgãos e sessões **da Câmara isoladamente**.
+A leitura dos órgãos legislativos integra [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]] e [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|iniciativa legislativa]]; os limites de competência da Mesa e do Plenário dialogam com [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|votação e quóruns]]. A [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|tipologia das proposições]] ajuda a evitar que parecer e requerimento sejam tratados como leis. O estudo continua em [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|Regimento Comum, Título I]], que trata do Congresso Nacional em sessão conjunta e exige distinguir seus órgãos e suas sessões das atividades **da Câmara isoladamente**.
 
 ## Heurísticas
 
 **Primeira triagem:** **onde** acontece (Câmara, comissão, Congresso em sessão conjunta); **quem** age (Mesa, Presidente, Colégio, comissão, Diretoria, Corregedoria); **o quê** acontece (fala, voto, parecer, providência administrativa, fiscalização); **qual regra** habilita (quórum, prazo, parecer, publicidade); **qual efeito** produz (anúncio, instrução, decisão, encaminhamento, sanção).
 
 **Armadilhas recorrentes:** **Mesa ≠ Presidente; Comissão Geral ≠ comissão permanente; discurso ≠ voto; afastamento ≠ perda do mandato; controle interno ≠ externo; investigar ≠ condenar; publicidade ≠ livre acesso integral; regulamento da Câmara ≠ lei remuneratória.**
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Escopo:** quatro intervalos literais do Regimento da Câmara no Edital nº 1/2026, cargo 1 (Divulgação Institucional), Direito Constitucional, tópicos 7.1 a 7.4, comparados com a [página oficial dos editais e retificações](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades); regras e exemplos do mapa confrontados com o [RICD consolidado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e a [31ª edição de 2026](https://bd.camara.leg.br/bd/items/version/400).
-
-**Conferências principais:** distinção Mesa/Presidência, Comissão Geral (art. 91), responsabilidades de comunicação (arts. 21-J, 21-L e 21-N), participação remota de deputada gestante (art. 227-A), parecer prévio da Mesa (art. 263), reclamação administrativa e 72h (art. 264), ordenação de despesas pelo Diretor-Geral e remessa anual de contas ao TCU pelo Presidente (art. 265), apuração da Corregedoria (art. 268), acesso condicionado (art. 272) e autorização para comércio (art. 273). Os dispositivos antigos sobre imunidade processual foram examinados à luz da EC nº 35/2001.
-
-**Dez gabaritos C/E conferidos:** **C, E, E, E, C, C, E, C, E, C**, sem inversão demonstrada. O enunciado e comentário do item 1 foram ajustados para deixar explícito que se referem ao **edital oficial**, e não apenas à síntese interna; seu gabarito continuou **Certo**.
-
-**Limites:** certificação do **mapa didático, seus oito casos e dez itens**, com data de corte, não homologação independente da íntegra de DC23–DC27 nem da publicação no GitHub Pages. Novas retificações do edital ou alterações normativas posteriores exigem reavaliação.
 
 ## Fontes oficiais e limite de evidência
 
@@ -152,4 +142,3 @@ A leitura dos órgãos legislativos integra [[3 - Materias/Direito Constituciona
 - [Constituição de 1988, texto atualizado](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
 - [Edital nº 1/2026, cargo 1, programa de Direito Constitucional, tópico 7.1–7.4](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/arquivos-2025/edital-1-analista-legislativo-especialidades), disponibilizado na [página oficial do concurso](https://www2.camara.leg.br/transparencia/recursos-humanos/concursos/concurso-para-analista-legislativo-especialidades), juntamente com as retificações; [[2 - Editais/Camara dos Deputados 2026 - Divulgacao Institucional|síntese interna]] usada para navegação.
 
-**Nota editorial:** os quatro intervalos do RICD no bloco de Direito Constitucional são literais do Edital nº 1/2026, cargo 1, tópico 7.1–7.4, conforme cotejo com o programa do edital. A unidade é um **mapa de competências e erros de transposição**, e não uma segunda cópia dos artigos de base. A cobertura editorial não indica prática, retenção ou desempenho em questões.

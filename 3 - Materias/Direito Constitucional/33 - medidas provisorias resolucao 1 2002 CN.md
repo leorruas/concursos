@@ -14,7 +14,7 @@ aliases:
 
 # Medidas provisórias: apreciação no Congresso e Resolução nº 1/2002-CN
 
-**Câmara dos Deputados 2026: Divulgação Institucional, Cebraspe. CAM-PL-029.** A **Resolução nº 1/2002-CN** integra o Regimento Comum e disciplina a apreciação de **medidas provisórias (MPs)** editadas pelo Presidente da República com força de lei, nos termos do **art. 62 da Constituição**. Fontes prioritárias: [texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html), [registro oficial do Senado e decisões judiciais relacionadas](https://legis.senado.leg.br/norma/561120), [Constituição atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+**Câmara dos Deputados 2026: Divulgação Institucional, Cebraspe.** A **Resolução nº 1/2002-CN** integra o Regimento Comum e disciplina a apreciação de **medidas provisórias (MPs)** editadas pelo Presidente da República com força de lei, nos termos do **art. 62 da Constituição**. Fontes prioritárias: [texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html), [registro oficial do Senado e decisões judiciais relacionadas](https://legis.senado.leg.br/norma/561120), [Constituição atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 
 ## Núcleo do conceito
 
@@ -49,7 +49,7 @@ O **Ato do Presidente do Congresso Nacional nº 1/2023**, formalizado em março 
 | **Instalação** | Art. 3º, **24 horas da designação** | Comissão elege Presidente e Vice e define relatorias |
 | **Apresentação de emendas** | Art. 4º, **seis primeiros dias** após publicação | Oferecidas **perante a comissão mista** e protocolizadas na Secretaria-Geral da Mesa do Senado |
 
-**Composição:** a regra especial do **art. 2º, §§ 2º–3º**, estabelece **12 senadores e 12 deputados**, igual número de suplentes, **mais uma vaga em rodízio por Casa** para bancadas minoritárias que não obtiveram participação proporcional. **Não transplantar o 11+11 geral das comissões mistas** da Resolução nº 1/1970-CN nem o **7+16 da Comissão Representativa** de recesso.
+**Composição:** a regra especial do **art. 2º, §§ 2º–3º**, estabelece **12 senadores e 12 deputados**, igual número de suplentes, **mais uma vaga em cada Casa**, preenchida em rodízio pelas bancadas minoritárias que não obtiveram participação proporcional. Assim, **a composição prevista é de 13 titulares por Casa**, incluída a vaga adicional. **Não transplantar o 11+11 geral das comissões mistas** da Resolução nº 1/1970-CN nem o **7+16 da Comissão Representativa** de recesso.
 
 **Presidência e relatoria:** a Presidência da comissão mista alterna-se entre as Casas; o **relator deve pertencer à Casa diversa da do Presidente**, e o **relator revisor** pertence à Casa diversa da do relator (art. 3º, §§ 1º–4º). **Presidente e Vice-Presidentes** da comissão devem ser de Casas diferentes. **Relator revisor não é o mesmo que segundo relator simultâneo votando parecer autônomo**: sua função se exerce na Casa diversa.
 
@@ -57,7 +57,7 @@ O **Ato do Presidente do Congresso Nacional nº 1/2023**, formalizado em março 
 
 **Emenda:** é vedado conteúdo estranho à MP (art. 4º, § 4º). O Presidente da comissão faz **indeferimento liminar**; o autor pode recorrer com **apoio de três membros**, e o Plenário da comissão decide **por maioria simples**, sem discussão ou encaminhamento de votação (art. 4º, § 5º).
 
-**Quóruns da comissão, art. 4º, § 6º:** **início dos trabalhos** exige **um terço dos membros de cada Casa**; **deliberação**, presença da **maioria absoluta dos integrantes de cada Casa**, e maioria de votos. Na composição-base de 12 por Casa, a abertura demanda pelo menos **4 de cada Casa**; para deliberação, **7 de cada Casa**. Considerar vagas adicionais e composição concreta quando o enunciado fornecer números diferentes.
+**Quóruns da comissão, art. 4º, § 6º:** **início dos trabalhos** exige **um terço dos membros de cada Casa**; **deliberação**, presença da **maioria absoluta dos integrantes de cada Casa**, e maioria de votos. **Considerando as 13 vagas de cada Casa previstas no art. 2º, §§ 2º–3º, a abertura exige 5 senadores e 5 deputados; a deliberação exige presença de 7 de cada Casa.** Os números 4 por Casa só correspondem ao cálculo de um terço quando se desconsidera a vaga adicional, o que não representa a composição total prevista pela resolução. Conferir a composição efetiva se o enunciado trouxer outra hipótese.
 
 ## 2. Parecer, admissibilidade e PLV: art. 5º
 
@@ -147,9 +147,71 @@ Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda pa
 
 **8.** O recesso parlamentar suspende os prazos de tramitação previstos na resolução, sem prejuízo da plena eficácia da medida provisória. **Certo.** Art. 18 e CF art. 62, § 4º.
 
-**9.** Aprovado projeto de lei de conversão, ele será promulgado diretamente pela Mesa do Congresso, sem fase de sanção ou veto presidencial, assim como ocorre com MP aprovada sem alterações de mérito. **Errado.** **PLV vai à sanção**; MP sem alteração de mérito é promulgada pela Mesa, arts. 12–13.
+**9.** Aprovado projeto de lei de conversão, ele será promulgado diretamente pela Mesa do Congresso, sem fase de sanção ou veto presidencial, assim como ocorre com MP aprovada sem alterações de mérito. **Errado.** **PLV segue à sanção ou veto presidencial**; MP aprovada sem alteração de mérito é promulgada **pelo Presidente da Mesa do Congresso Nacional**, conforme os arts. 12 e 13 da Resolução nº 1/2002-CN.
 
 **10.** Não editado decreto legislativo até sessenta dias após rejeição ou perda da eficácia da MP, as relações jurídicas constituídas e decorrentes de atos realizados durante sua vigência permanecem por ela regidas. **Certo.** CF art. 62, § 11; Res. art. 11, § 2º.
+
+## 9. Glossário aplicado: comissões, decisões preliminares e documentos
+
+### Comissões mistas: por que há composições diferentes?
+
+**Comissão mista ordinária (regra geral do Regimento Comum):** reúne deputados e senadores para examinar assunto de competência do Congresso Nacional, elaborar parecer e exercer atribuições definidas no ato de criação. Na regra geral do Regimento Comum, são **11 deputados e 11 senadores**, com indicação que observa a representação partidária. A expressão *ordinária* aqui distingue a comissão regida pela regra geral de comissões com composição especial; não significa que todas as comissões mistas tenham a mesma tarefa ou número de integrantes.
+
+**Comissão mista de medida provisória:** é constituída para examinar uma medida provisória antes da votação sucessiva pela Câmara e pelo Senado. Analisa relevância, urgência, constitucionalidade, adequação orçamentária e mérito; examina emendas e apresenta parecer, eventualmente com projeto de lei de conversão. A Resolução nº 1/2002-CN prevê **12 deputados e 12 senadores titulares, igual número de suplentes e uma vaga adicional por Casa para representação minoritária**, chegando às **13 vagas de cada Casa** descritas neste capítulo. É comissão de exame legislativo, e não uma comissão de investigação. Ver arts. 2º a 5º da resolução e CF, art. 62, § 9º.
+
+**Comissão Representativa do Congresso Nacional durante o recesso:** assegura o exercício das atribuições previstas para o intervalo entre períodos legislativos. Tem **16 deputados e 7 senadores**, com igual número de suplentes, eleitos pelas respectivas Casas para o período de recesso, observada, quando possível, a proporcionalidade partidária. Suas competências são delimitadas pela **Resolução nº 3/1990-CN**; não substitui integralmente os Plenários da Câmara e do Senado e não exerce, por si só, as funções de uma comissão mista de medida provisória. Fundamento: CF, art. 58, § 4º. [Congresso Nacional: Comissão Representativa](https://www.congressonacional.leg.br/comissoes-mistas/comissao-representativa).
+
+**Comissão Parlamentar Mista de Inquérito (CPMI):** comissão temporária de fiscalização e investigação de **fato determinado**, constituída **por prazo certo**, com integrantes da Câmara e do Senado. Sua criação requer assinaturas de **ao menos um terço dos deputados e um terço dos senadores**. O **número de membros não é fixo**: consta do ato de criação, com participação **igual** de deputados e senadores e observância da proporcionalidade partidária. Tem poderes de investigação próprios das autoridades judiciais, dentro dos limites constitucionais; seu relatório pode ser encaminhado ao Ministério Público para as medidas cabíveis. Fontes: CF, art. 58, § 3º; Regimento Comum, arts. 21 e seguintes. [Regimento Comum](https://legis.senado.leg.br/norma/561098/publicacao/36852069).
+
+### CPI versus CPMI: três números que não se confundem
+
+A **Comissão Parlamentar de Inquérito (CPI)** investiga fato determinado por prazo certo e é criada separadamente na Câmara dos Deputados ou no Senado Federal. A **Comissão Parlamentar Mista de Inquérito (CPMI)** é uma investigação conjunta, com igual participação de deputados e senadores. Ambas possuem poderes de investigação próprios das autoridades judiciais, respeitados os limites constitucionais, e nenhuma delas profere condenação criminal.
+
+**1. Assinaturas para criar a comissão (requisito de iniciativa):** a Constituição, no art. 58, § 3º, exige requerimento subscrito por **pelo menos um terço dos membros da Casa**, ou de **cada Casa**, quando conjunta. Como a Câmara tem 513 deputados e o Senado 81 senadores:
+
+| Comissão | Assinaturas mínimas para criação | De onde vêm as assinaturas |
+| :--- | :--- | :--- |
+| CPI da Câmara | **171 deputados** | Um terço dos **513 deputados** |
+| CPI do Senado | **27 senadores** | Um terço dos **81 senadores** |
+| CPMI | **171 deputados e 27 senadores** | Um terço **em cada Casa**, separadamente |
+
+Na CPMI, a soma é **198 assinaturas**, mas **não basta atingir a soma**: precisam existir **171 de deputados e 27 de senadores**. Por exemplo, 198 assinaturas apenas de deputados não permitem criar uma CPMI.
+
+**2. Quantidade de integrantes (composição da comissão):** os parlamentares que **assinam a criação** não são automaticamente os que **integram a investigação**. O número de membros de uma CPI é definido pelas regras e pelos atos da Casa que a institui. No caso da CPMI, o **art. 21, parágrafo único, do Regimento Comum** determina que o número seja fixado **no ato de criação**, com **igual participação de deputados e senadores** e respeito à proporcionalidade partidária. Não existe regra de que uma CPMI tenha 171 deputados e 27 senadores, nem composição obrigatória de 11+11 ou 12+12.
+
+**3. Quórum de funcionamento e deliberação:** após a instalação, a comissão precisa observar os **quóruns regimentais próprios** para abrir reuniões e tomar decisões. Esse requisito é diferente das assinaturas necessárias para sua criação. Não aplicar automaticamente o um terço constitucional como quórum para votar relatórios, requerimentos ou outras matérias.
+
+**Exemplo completo:** uma CPMI é requerida por **171 deputados e 27 senadores**, preenchidos os demais requisitos constitucionais. O ato de criação fixa **15 deputados e 15 senadores** como integrantes: são **30 membros**, não 198. Para decidir suas matérias, esses 30 observam as regras de funcionamento e votação aplicáveis. Assim, **198 assinaturas para criar, 30 integrantes para investigar e quórum regimental para decidir** representam três perguntas distintas.
+
+**Pegadinha Cebraspe:** “A CPMI deve ser integrada por pelo menos 171 deputados e 27 senadores, já que depende desse número de assinaturas para sua criação.” **Errado.** O número se refere ao **apoio inicial** necessário, não à **composição**. Outra pegadinha é dizer que um terço do total dos 594 congressistas basta para criar uma CPMI, independentemente da Casa dos signatários. **Errado:** a Constituição exige um terço **de cada Casa**.
+
+**Base normativa:** [Constituição, art. 58, § 3º](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF) e [Regimento Comum do Congresso Nacional, art. 21 e parágrafo único](https://legis.senado.leg.br/norma/561098/publicacao/16433839).
+
+### Preliminar, mérito e quórum especial
+
+**Questão preliminar ou apreciação preliminar:** é o exame de uma condição que deve ser decidida **antes do mérito**, e não o nome genérico de um requerimento ou projeto apresentado antes de outro. Neste capítulo, pelo art. 8º da Resolução nº 1/2002-CN, cada Plenário aprecia preliminarmente relevância, urgência e adequação financeira/orçamentária da medida provisória. Superada essa análise, examina o conteúdo da MP. Uma decisão desfavorável de admissibilidade impede que se prossiga à aprovação do mérito naquele procedimento.
+
+**Quórum especial de votação:** exigência constitucional ou regimental distinta da regra comum de aprovação, como **maioria absoluta** ou **maioria qualificada**. A aprovação de lei complementar requer **maioria absoluta dos membros** (CF, art. 69); uma proposta de emenda à Constituição exige **três quintos dos membros de cada Casa em dois turnos** (CF, art. 60, § 2º). O quórum especial deve ser distinguido do **quórum mínimo de presença** para iniciar ou realizar uma deliberação (CF, art. 47). A medida provisória não recebe automaticamente o quórum de lei complementar só porque também produz norma com força de lei: ela não pode tratar de matéria reservada a lei complementar.
+
+### Votação nominal, verificação da simbólica e destaques
+
+**Votação simbólica:** o Plenário manifesta coletivamente sua posição, sem registro inicial do voto individual. **Votação nominal:** cada parlamentar registra voto identificável, podendo ser adotada desde o início por exigência normativa ou decisão regimental. **Verificação de votação simbólica:** é o procedimento de conferência do resultado simbólico já proclamado; a forma de conferir depende do regimento aplicável.
+
+**Na Câmara dos Deputados**, admitido o pedido de verificação nos termos do art. 185 do Regimento Interno da Câmara dos Deputados, procede-se à **votação nominal** (arts. 185 e 186). A votação pode, portanto, começar nominal ou começar simbólica e passar à nominal em razão da verificação; são hipóteses distintas.
+
+**Em sessão conjunta do Congresso Nacional**, depois de proclamado o resultado simbólico de cada Casa, **líder, cinco senadores ou vinte deputados** podem requerer verificação (Regimento Comum, art. 45, § 1º). **A regra do § 2º é a contagem por bancada**: os Secretários contam e anotam, fila por fila, quantos votos são favoráveis e contrários. **Se o requerimento pedir votação nominal imediata**, o voto de cada parlamentar é identificado em vez dessa contagem. Exemplo: anunciado um resultado simbólico, vinte deputados requerem conferência; sem pedido de nominal imediata, contam-se os votos por bancada. A apuração é de cada Casa, mesmo quando a sessão é conjunta. Assim, é incorreto afirmar que *toda* verificação de votação simbólica, em qualquer órgão do Congresso, é obrigatoriamente nominal. Uma votação nominal continua sendo uma modalidade de votação, enquanto a verificação é o mecanismo de conferência do resultado anterior.
+
+**Pegadinha Cebraspe:** “Em sessão conjunta do Congresso Nacional, a verificação de votação simbólica ocorre necessariamente por votação nominal.” **Errado:** o art. 45, § 2º, admite a contagem por bancada e a votação nominal imediata, quando requerida. [Regimento Comum do Congresso Nacional, art. 45](https://legis.senado.leg.br/norma/561098/publicacao/16433839); [Regimento Interno da Câmara dos Deputados, arts. 185–186](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html).
+
+**Destaque:** pedido regimental para **separar parte de uma proposição, emenda ou dispositivo** da votação principal e submetê-la a decisão específica, conforme as modalidades e limites da Casa. Exemplo: um projeto é aprovado em conjunto, mas determinado artigo ou emenda é separado para votação própria. O destaque **não equivale à apresentação de um projeto novo** e não significa, por si, que a parte destacada tenha sido aprovada ou rejeitada. É necessário observar se o destaque pretende votação em separado, supressão, preferência ou outra hipótese regimental; os regimes da Câmara e do Senado não devem ser tratados como idênticos.
+
+### Autógrafos: qual documento segue à próxima etapa?
+
+**Autógrafo:** é a **versão oficial autenticada do texto aprovado por uma Casa legislativa**, com a redação que resultou da votação **e todas as alterações efetivamente incorporadas, se houver**. O documento costuma incluir **identificação da proposição e da Casa, ementa, texto integral aprovado (artigos, parágrafos, incisos e anexos, se houver), data e elementos de autenticação**. Ele não é uma ata: debates, placares, pareceres e histórico das emendas ficam registrados em outros documentos da tramitação.
+
+**O autógrafo é sempre a lei pronta?** Não. Um autógrafo da Câmara pode ser enviado ao Senado **para revisão**. Se o Senado modificar o projeto, a redação alterada pode precisar retornar à Câmara (CF, art. 65, parágrafo único). Somente após a conclusão da deliberação exigida nas duas Casas é que, nos projetos sujeitos a sanção, o texto aprovado é encaminhado ao **Presidente da República** por autógrafos, para sanção ou veto (CF, art. 66). Portanto, **texto autenticado aprovado numa Casa** e **texto final aprovado pelo Congresso Nacional** são etapas que podem coincidir, mas nem sempre coincidem.
+
+**Exemplo:** a Câmara aprova um projeto com 20 artigos e o envia ao Senado. O Senado aprova emendas e o texto passa a ter 22 artigos. Se essas modificações exigirem nova decisão da Câmara, ainda não existe texto bicameral definitivamente aprovado. Encerrada a deliberação e consolidada a redação com os 22 artigos efetivamente aceitos, os autógrafos destinados à sanção reproduzem esse texto, **sem incluir emendas rejeitadas**. O documento de encaminhamento é separado do autógrafo. [Constituição, arts. 65 e 66](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 
 ## Relações, tensões e heurísticas
 
@@ -161,14 +223,6 @@ Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda pa
 
 **Remissões:** [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Regimento Comum: lideranças, comissões mistas e votação no Congresso]], [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|Regimento Comum do Congresso: direção, objeto e convocação das sessões conjuntas]], [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|urgência e procedimentos]], [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|sanção e promulgação]], [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|orçamento e créditos]].
 
-## Certificação jurídica delimitada: 11/11/2026
-
-**Recorte conferido:** a exposição, tabelas, oito casos e **dez questões C/E** desta nota foram confrontados com os **arts. 1º–23 da Resolução nº 1/2002-CN**, [consolidados pela Câmara](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html), e com o **art. 62 da Constituição**, incluídas as reservas de jurisprudência do STF assinaladas no texto consolidado. A [ficha do Senado](https://legis.senado.leg.br/norma/561120) registra a ADI 4.029 e a vedação de emendas sem pertinência temática afirmada na ADI 5.127. Foi conferida também a excepcionalidade pandêmica de 2020 e o retorno ao rito ordinário em 2023, que se encontravam ausentes do texto de estudo antes desta revisão.
-
-**Gabaritos verificados:** **C, C, E, E, C, E, C, C, E, C**, correspondentes às dez questões em sua ordem original. **Nenhuma inversão demonstrada** à luz das fontes analisadas. As diferenças cruciais foram confirmadas: comissão especial 12+12 com vagas minoritárias adicionais; prazos de 48h, 24h e seis dias; quóruns por Casa; invalidação dos dispositivos que permitiam dispensar a comissão; retorno da matéria à Câmara; 45 dias para urgência, 60+60 de vigência, suspensão da contagem no recesso; e **MP original promulgada × PLV submetido à sanção**.
-
-**Limites deste atestado:** certificação do **recorte normativo e dos casos escritos**, não homologação de qualquer aplicação futura, nem teste do site publicado. O período excepcional de 2020–2023 deve ser identificado separadamente se objeto de questão histórica. A remissão do art. 7º, § 2º, ao art. 6º, caput, deve ser lida de acordo com o dispositivo final da ADI 4.029 e com a exigência de parecer da comissão mista do art. 62, § 9º, da CF; não autoriza dispensar a comissão. A norma disponibilizada pelo Senado lista ato correlato de 2020, mas não autoriza concluir que o rito excepcional de pandemia continua aplicável às MPs atuais. Nova norma ou jurisprudência posterior à data de corte exigirá revisão.
-
 ## Fontes primárias
 
 - [Câmara dos Deputados, Resolução nº 1/2002-CN, texto atualizado, arts. 1º–23](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html), consultada em 09/11/2026.
@@ -176,4 +230,3 @@ Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda pa
 - [Constituição Federal de 1988, art. 62 e art. 167, § 3º](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 - [Congresso Nacional: Regimento Comum e resoluções conexas](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional).
 
-**Nota editorial:** a norma não consta como expressamente revogada na ficha oficial da Câmara. A vigência de dispositivos específicos é afetada pelas decisões judiciais mencionadas. Estas dez questões são inéditas; a publicação editorial não comprova estudo ou retenção.

@@ -27,7 +27,7 @@ O ponto de partida é o **art. 47 da Constituição Federal** e o **art. 183 do 
 
 A **forma de registrar o voto** é uma terceira pergunta: votação **simbólica**, **nominal** ou **secreta**, nas hipóteses do Regimento. Modalidade de votação **não é sinônimo** de quórum de aprovação.
 
-A unidade **CAM-PL-006** do concurso da **Câmara dos Deputados, Cebraspe**, detalha o **RICD, arts. 165 a 200**, e o quadro constitucional de deliberação. As notas [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] e [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]] oferecem o contexto, mas não substituem o regime de discussão e votação do **Plenário**.
+Esta nota explica a discussão e a votação no Plenário da Câmara, com base nos **arts. 165 a 200 do Regimento Interno** e nos quóruns previstos na Constituição. As notas [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] e [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]] oferecem o contexto, mas não substituem o regime de discussão e votação do **Plenário**.
 
 ## Os três números: presença, aprovação e modalidade
 
@@ -98,7 +98,7 @@ Na composição de 513 deputados, os percentuais regimentais produzem os seguint
 
 O requerimento de quebra do interstício de uma hora é **oral**, após a proclamação do resultado simbólico, e deve ser votado **obrigatoriamente por processo simbólico**, sem encaminhamento nem orientação de bancada (art. 185, §§ 6º e 7º). **O pedido de nova verificação e a votação nominal que pode ocorrer depois são atos diferentes.** Um item pode trocar esses dois momentos para produzir um distrator plausível.
 
-**Presença × percentual de apoiamento:** obter 31 apoiadores de um pedido de verificação **não garante** o quórum de **257 presentes** para deliberação sobre uma proposição ordinária; os percentuais se referem a procedimentos distintos.
+**Presença × percentual de apoiamento:** imagine que **31 deputados** apoiem a verificação do resultado simbólico. Esse apoio cumpre o percentual de **6%** do art. 185, § 3º, mas **não substitui os 257 presentes** exigidos, em regra, para deliberar. Uma coisa é o número de apoiadores necessário para contestar o resultado; outra é o número de deputados presentes para a votação da matéria.
 
 ## Ordem da votação, substitutivo, emendas e destaques
 
@@ -178,9 +178,9 @@ Outros itens trocam **5%, 6% e 10%** de **encerramento**, **verificação** e **
 - [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]]: comissão versus Plenário, fases, revisão bicameral e apreciação conclusiva.
 - [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]]: quórum e desempate no **Plenário da Comissão**, distintos do Plenário da Câmara.
 - [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]]: competências e modalidades de decisão.
-- **CAM-PL-007**: sanção, veto, promulgação e publicação, inclusive quórum constitucional para apreciação de veto.
-- **CAM-PL-008 a CAM-PL-010**: procedimento ordinário, prioridade, urgência e outros ritos.
-- **CAM-PL-011 a CAM-PL-015**: diferentes espécies legislativas, requisitos e maiorias.
+- [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação]]: quórum constitucional para rejeitar o veto.
+- [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Procedimentos abreviado e sumário]] e [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Procedimentos sumaríssimo, especial e concentrado]]: como o rito altera a tramitação.
+- [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas]]: requisitos e maiorias conforme o tipo de norma.
 
 ## Tensões e pegadinhas
 
@@ -209,15 +209,3 @@ Apresentar o **art. 47** como regra de deliberação, distinguir **presença e a
 - [Portal oficial: Regimento Interno atualizado até Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 - [Guia da Câmara: Votação, quóruns, modos de votação e apreciação plenária](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/votacao).
 
-**Limites editoriais:** este texto descreve o regime normativo geral da Câmara e exceções identificadas, não transfere as mesmas regras para sessão conjunta do Congresso, assembleias estaduais ou ritos especiais. As questões são **inéditas e didáticas**, não itens extraídos da Cebraspe. A preparação editorial não registra estudo pessoal, retenção ou desempenho.
-
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Recorte:** texto, tabelas, **oito etapas do caso progressivo**, **dois exemplos comentados** e **nove itens C/E** efetivamente presentes no DC16, cotejados com a [Constituição Federal, arts. 47, 51, 60 e 69](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html) e o [Regimento da Câmara, especialmente arts. 165–200](https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html). Conferidos quórum de presença versus aprovação, abstenções, maioria simples/absoluta/qualificada, discussão, modalidade simbólica/nominal/secreta, verificação e quebra de interstício, substitutivos e destaques.
-
-**NC-PL-041:** adicionado RICD art. 178, § 4º: efeito do encerramento **por requerimento aprovado** sobre adiamento de votação na mesma sessão, ressalvada reformulação de parecer pelo relator com alteração de mérito. **NC-PL-042:** adicionados RICD art. 180, §§ 5º–8º, com desempate por substituto regimental, impedimento em causa própria, validade do voto divergente da liderança e exclusão do voto do representado no julgamento disciplinar. **NC-PL-043:** detalhado art. 192, §§ 2º-A, 7º e 8º, sobre orientação concomitante à votação nominal, encaminhamento de destaque e ausência de encaminhamento em eleições.
-
-**Gabaritos conferidos e preservados, nove itens:** **C, E, C, C, E, E, C, E, C**. Nenhuma inversão encontrada nas questões verificadas nem contradição identificada nos oito casos. A unidade possui **nove questões**, não dez; nenhuma questão foi criada ou adicionada ao inventário, cuja reconciliação global é independente desta nota.
-
-**Limites:** certificação jurídico-editorial apenas do recorte escrito e cotejado em 11/11/2026. Não equivale a certificação irrestrita de todos os dispositivos dos arts. 165–200, verificação do site, publicação no GitHub Pages ou domínio do conteúdo pelo estudante.

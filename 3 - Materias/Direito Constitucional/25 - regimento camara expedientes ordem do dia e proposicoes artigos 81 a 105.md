@@ -10,9 +10,7 @@ updated: 2026-11-11
 
 # Regimento da Câmara: expedientes, Ordem do Dia, publicidade e proposições (arts. 81 a 105)
 
-**Câmara dos Deputados 2026, cargo 1, Divulgação Institucional. Banca: Cebraspe. Complemento editorial de CAM-PL-021 (sessões), dedicado aos arts. 81 a 105.** Base principal: **Regimento Interno da Câmara dos Deputados (RICD), arts. 81 a 105**, na [redação consolidada oficial](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). Conferência em 08/11/2026.
-
-**Nota de rastreabilidade:** esta nota sobre expedientes e proposições é complemento autônomo de estudo da trilha de sessões (**CAM-PL-021**), e não corresponde à unidade **CAM-PL-022**, reservada no planejamento a deputados e mandato (arts. 226 a 251), coberta por [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|DC26]]. A classificação como complemento **não significa** que os arts. 95 a 105 integrem literalmente o recorte 65 a 94 da unidade planejada.
+**Câmara dos Deputados 2026, cargo 1, Divulgação Institucional. Banca: Cebraspe. Recorte: arts. 81 a 105.** Base principal: **Regimento Interno da Câmara dos Deputados (RICD), arts. 81 a 105**, na [redação consolidada oficial](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). Conferência em 08/11/2026.
 
 ## Núcleo do conceito
 
@@ -101,7 +99,7 @@ A nota [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conce
 
 **Art. 103:** a proposição pode ser fundamentada por escrito ou verbalmente; na iniciativa coletiva, a justificação oral cabe ao primeiro signatário ou à pessoa por ele indicada, nos termos da inscrição. O **relator** pode juntar ao processo a justificação oral extraída do Diário. **Justificativa** esclarece razões, mas não supre vício constitucional de iniciativa.
 
-**Art. 104: retirada**, que deve ser separada do **arquivamento** e da **rejeição**. O autor pede a retirada ao Presidente, que decide **com recurso ao Plenário**. Se já houver **pelo menos um parecer favorável**, **somente o Plenário** decide sobre a retirada. Em iniciativa coletiva, exige-se requerimento de **metade mais um dos subscritores**. Proposição de comissão ou da Mesa exige requerimento de seu **Presidente, com autorização prévia do colegiado**. A matéria retirada não pode ser reapresentada na **mesma sessão legislativa**, salvo **deliberação do Plenário** (§ 4º). As regras são estendidas a iniciativas do Senado, outros Poderes, PGR e cidadãos nos termos do § 5º.
+**Art. 104: retirada.** Imagine que o autor peça para interromper a tramitação do próprio projeto antes de sua conclusão. O pedido é de **retirada**, não uma votação que rejeita o conteúdo nem o **arquivamento** realizado por outras causas. Como regra, o autor requer a retirada ao Presidente da Câmara, cuja decisão admite **recurso ao Plenário**. Se já houver **pelo menos um parecer favorável**, **somente o Plenário** decide sobre a retirada. Em iniciativa coletiva, exige-se requerimento de **metade mais um dos subscritores**. Proposição de comissão ou da Mesa exige requerimento de seu **Presidente, com autorização prévia do colegiado**. A matéria retirada não pode ser reapresentada na **mesma sessão legislativa**, salvo **deliberação do Plenário** (§ 4º). As regras são estendidas a iniciativas do Senado, outros Poderes, PGR e cidadãos nos termos do § 5º.
 
 **Exemplo de retirada com mudança de condição.** Uma deputada apresenta individualmente uma proposição ainda sem parecer favorável e pede sua retirada: pelo art. 104, o pedido é dirigido ao Presidente, que decide com possibilidade de recurso ao Plenário. Alterando apenas um fato, a proposição recebe **ao menos um parecer favorável** antes do pedido: nesse caso, a decisão sobre retirada passa a ser **exclusivamente do Plenário**. Alterando agora a autoria, uma proposição com vários subscritores requer pedido de **metade mais um deles**. E, se a proposição partir de comissão, seu Presidente solicita retirada com autorização do colegiado. A mesma palavra, *retirada*, envolve autoridades e condições diferentes. **Retirada a pedido**, **rejeição em votação** e **arquivamento ao fim da legislatura** não são resultados equivalentes.
 
@@ -188,21 +186,3 @@ A diferença temporal mais importante é **fim da sessão legislativa × fim da 
 **Quatro fronteiras centrais:** **comunicar ≠ votar; pedir retirada ≠ decidir retirada; ata ≠ íntegra irrestrita de documento; fim da sessão legislativa ≠ fim da legislatura**.
 
 **A palavra que pode mudar o gabarito:** “automaticamente” na questão de ordem, “qualquer” na fala parlamentar, “somente” na competência do Presidente para retirada, “todas” nas proposições arquivadas. A condição regimental é mais importante do que o nome do instituto.
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Escopo conferido:** conteúdo, quadros, nove casos progressivos e **dez itens inéditos C/E**, cotejados com os **arts. 81 a 105 do [Regimento Interno da Câmara dos Deputados, texto oficial atualizado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html)**. A verificação preserva a distinção entre o recorte **81–94** do programa de Direito Constitucional e o complemento didático **95–105**, associado à matéria geral de Processo Legislativo.
-
-**Verificações principais:** Pequeno Expediente com **cinco minutos sem apartes**, inscrição pessoal até **13h30**; Ordem do Dia com verificação de quórum e possibilidade de inversão; janela de **dez minutos** para apresentação de proposições; art. 84 **revogado**; Grande Expediente com **25 minutos** e limite de **três oportunidades por semestre** (uma por sorteio, duas por cessão); comunicações de líderes de três a dez minutos, com oito minutos para Governo, Minoria, Oposição e Maioria; Comissão Geral como **transformação da sessão plenária**, sem aprovação conclusiva de proposições; sessões secretas com rito e documentação próprios; questão de ordem de **três minutos**, recurso ao Plenário **sem efeito suspensivo automático**, parecer da CCJC em até **três sessões**; ata, Diário e Voz do Brasil sob regras de publicação; atos legislativos em **meio digital**; retirada de proposição após ao menos um parecer favorável decidida **pelo Plenário**; e arquivamento no fim da legislatura com **exceções da Resolução nº 33/2022**, notadamente iniciativa popular e projetos de código.
-
-**Dez questões C/E, na ordem, com gabaritos preservados:** **C, E, C, C, E, E, C, E, C, E**. Nenhuma inversão demonstrada no confronto com os dispositivos. Também não foi necessária alteração dos nove casos, do `articleId`, dos aliases ou dos links de estudo.
-
-**Limites:** certificação do **recorte jurídico e dos exemplos efetivamente presentes na nota nesta data**. A existência de regras especiais, atos posteriores ou alterações constitucionais pode exigir complemento em outros materiais. Esta conferência não prova aplicação do rito em todas as situações reais, funcionamento do GitHub Pages ou aprendizagem do estudante.
-
-### Fontes normativas
-
-- [Câmara dos Deputados, Regimento Interno, texto consolidado atualizado, arts. 81 a 105](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), cotejado em 08/11/2026.
-- [Câmara dos Deputados, Regimento Interno, 31ª edição (2026)](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
-- [Constituição Federal, art. 59, para espécies normativas](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
-
-**Nota editorial:** os itens C/E são inéditos para treino e não reproduzem questões oficiais. Esta publicação editorial não comprova estudo pessoal, retenção ou execução de simulado.

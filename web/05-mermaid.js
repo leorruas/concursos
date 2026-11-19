@@ -123,6 +123,7 @@ async function abrirModalExploradorMermaid(codigo) {
     const zoomDisplay = modal.querySelector(".mermaid-modal-zoom-display");
     try {
         await aguardarFontes();
+        if (!modal.isConnected) { removerEventosDuranteCarga(); return; }
         const resultado = await renderizarSvgMermaid(codigo);
         if (!modal.isConnected) { removerEventosDuranteCarga(); return; }
         stage.innerHTML = resultado.svg;

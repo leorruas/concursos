@@ -10,7 +10,7 @@ updated: 2026-11-11
 
 # Comissões Parlamentares de Inquérito (CPI e CPMI): criação, poderes instrutórios, limites constitucionais e jurisprudência do STF
 
-**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-031 conforme arquitetura e inventário editorial.**
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
 ## Núcleo do conceito: a função fiscalizatória por excelência do Parlamento
 
@@ -20,7 +20,7 @@ Para dotar o Parlamento de instrumentos de eficácia real diante de desvios, les
 
 > *"As comissões parlamentares de inquérito, que terão poderes de investigação próprios das autoridades judiciais, além de outros previstos nos regimentos das respectivas Casas, serão criadas pela Câmara dos Deputados e pelo Senado Federal, em conjunto ou separadamente, mediante requerimento de um terço de seus membros, para a apuração de fato determinado e por prazo certo, sendo suas conclusões, se for o caso, encaminhadas ao Ministério Público, para que promova a responsabilidade civil ou criminal dos infratores."* (CF, art. 58, § 3º).
 
-A CPI é, por definição, uma **comissão parlamentar temporária de natureza essencialmente investigatória e instrutória**. Ela não possui competência jurisdicional sancionadora: **a CPI não julga, não condena, não impõe sanções penais nem cassa mandatos**. Seu produto final culmina na elaboração de um relatório circunstanciado com recomendações institucionais, projetos de lei ou no encaminhamento de suas conclusões aos órgãos titulares da persecução penal (Ministério Público) e de responsabilização (Advocacia Pública, Tribunal de Contas da União, Controladorias).
+A CPI é uma **comissão temporária de investigação**: reúne documentos, ouve pessoas e examina acontecimentos delimitados. Esse trabalho também é chamado de **instrução**, ou seja, produção e organização dos elementos necessários à investigação. **A CPI não julga, não condena, não aplica penas nem cassa mandatos**. Ao final, apresenta um relatório com suas conclusões e pode sugerir providências legislativas ou encaminhar os fatos aos órgãos competentes, como o Ministério Público e os órgãos de controle.
 
 ## 1. Requisitos constitucionais de criação: o direito público subjetivo das minorias parlamentares
 

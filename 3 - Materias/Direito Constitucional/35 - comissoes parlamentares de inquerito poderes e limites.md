@@ -104,10 +104,10 @@ flowchart TD
 
 ## 3. Requisitos de validade da quebra de sigilo por CPI
 
-A quebra de sigilo bancário, fiscal ou telefônico praticada por CPI não é um cheque em branco. Para ser válida perante o controle jurisdicional do STF, a decisão da comissão deve atender rigorosamente a **quatro pressupostos formais e materiais**:
+A quebra de sigilo bancário, fiscal ou de registros telefônicos praticada por CPI exige decisão motivada e sujeita a controle judicial. Os quatro pontos a seguir organizam cuidados relevantes de validade; **não representam uma lista fechada de requisitos autônomos que o STF tenha fixado nesses exatos termos**:
 
 1. **Deliberação Colegiada:** a medida deve ser votada e aprovada pela **maioria dos membros da comissão**, em sessão formal. É manifestamente nulo o ato de quebra de sigilo determinado monocraticamente pelo Presidente da CPI ou pelo seu Relator;
-2. **Fundamentação Concreta e Exaustiva:** a CPI deve motivar explicitamente a imprescindibilidade da medida, apontando indícios de autoria e materialidade que justifiquem a devassa na intimidade do investigado. Não se admitem fundamentações padronizadas, genéricas ou fórmulas prontas ("para melhor esclarecimento dos fatos");
+2. **Fundamentação concreta e suficiente:** a CPI deve explicar por que os dados requisitados são úteis à apuração do fato determinado, com base nos elementos disponíveis e na deliberação colegiada. A motivação pode ser compreendida pelo requerimento e pelo que foi exposto durante sua votação; **não precisa reproduzir a estrutura formal de uma decisão judicial**. Justificativas genéricas, sem relação demonstrada com o objeto investigado, são insuficientes;
 3. **Pertinência Temática com o Fato Determinado:** a conta bancária, o período fiscal ou as linhas telefônicas requisitadas devem guardar vínculo direto com os limites da investigação traçados no requerimento de criação;
 4. **Delimitação Temporal e de Objeto:** o período da quebra deve ser estritamente circunscrito à época em que se deram os fatos apurados. É arbitrária a ordem que requisite dados bancários de décadas sem correlação direta com a conduta sob escrutínio.
 

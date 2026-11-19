@@ -10,50 +10,62 @@ updated: 2026-11-19
 
 # Blueprints do processo legislativo por espécie normativa
 
-Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e **camadas nas linhas**. Ações do proponente e atos públicos são separados pela *linha de interação*; atos públicos e trabalho de preparação, pela *linha de visibilidade*; bastidores e processos de suporte, pela *linha de interação interna*. Evidências e documentos mostram o que é produzido e circula entre os atores. **Bastidor não significa atividade sigilosa.**
+Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempre significa o cargo identificado: Presidente da República, Presidente da Câmara dos Deputados ou Presidente do Senado Federal, conforme o ato. Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e **camadas nas linhas**. Ações do proponente e atos públicos são separados pela *linha de interação*; atos públicos e trabalho de preparação, pela *linha de visibilidade*; bastidores e processos de suporte, pela *linha de interação interna*. Evidências e documentos mostram o que é produzido e circula entre os atores. **Bastidor não significa atividade sigilosa.**
 
 **Leitura:** cada célula apresenta o ator e sua atividade. Os prazos e quóruns ocupam uma camada própria. Os quadros mostram o caminho típico; os artigos vinculados explicam recursos, interrupções, exceções e voltas da tramitação.
 
 ## Projeto de lei (PL) → lei ordinária
 
+**Legitimados:** Deputado, senador, comissão da Câmara ou do Senado, Presidente da República, Supremo Tribunal Federal, tribunais superiores, Procurador-Geral da República e cidadãos, nos limites do art. 61 da Constituição. Respeitar iniciativas reservadas.
+
+**Casas e competência:** Iniciadora: Câmara dos Deputados ou Senado Federal, conforme a origem; iniciativas dos arts. 61, § 2º, e 64 começam na Câmara. Revisora: a outra Casa. Emendas retornam à iniciadora.
+
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | PL apresentado | Despacho | Emendas e parecer | Texto votado | Autógrafo / emendas | Lei publicada |
-| **Ações do proponente** | Autor legitimado apresenta projeto | não se aplica | Deputados apresentam emendas | não se aplica | não se aplica | não se aplica |
+| **Ações do proponente** | Deputado, senador, comissões, Presidente da República, tribunais, PGR ou cidadãos apresentam PL | não se aplica | Deputados apresentam emendas | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Protocolo recebe | Presidência distribui | Comissão delibera parecer | Comissão conclusiva ou Plenário vota | Senado revisa; Câmara examina emendas | Presidente da República sanciona ou veta; Congresso aprecia eventual veto |
+| **Frontstage: atos e contatos públicos** | Protocolo recebe | Presidência da Casa iniciadora distribui | Comissão delibera parecer | Comissão conclusiva ou Plenário vota | Casa revisora (Senado ou Câmara) aprecia; emendas voltam à Casa iniciadora | Presidente da República sanciona ou veta |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
-| **Backstage: preparação e análise** | Assessoria apoia texto | Secretaria autua e publica | Relator produz voto | Secretaria organiza votação | Apoio compara redações e prepara autógrafo | Serviços preparam a promulgação e a publicação após a decisão final |
+| **Backstage: preparação e análise** | Assessoria apoia texto | Secretaria autua e publica | Relator produz voto | Secretaria organiza votação | Apoio compara redações | Elaboração do autógrafo e promulgação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Registro eletrônico | Despacho publicado | Parecer e emendas | Registro de votos | Controle de versões | Diário Oficial |
-| **Prazos e quóruns** | Art. 61 CF | não se aplica | Comissão: 5 / 10 / 40 sessões, conforme regime | Art. 47 CF | Art. 64 CF quando urgência presidencial | Sanção/veto: 15 dias úteis; veto: exame congressual específico |
+| **Prazos e quóruns** | Art. 61 CF | não se aplica | Comissão: 5 / 10 / 40 sessões, conforme regime | Art. 47 CF | Art. 64 CF quando urgência presidencial | Sanção/veto: 15 dias úteis |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação, comissões e revisão bicameral]] · [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Ritos e urgência constitucional]].
 
 ## Projeto de lei complementar (PLP) → lei complementar
 
+**Legitimados:** Legitimados do art. 61: deputados, senadores, comissões, Presidente da República, Supremo Tribunal Federal, tribunais superiores, Procurador-Geral da República e cidadãos, observadas as reservas de iniciativa.
+
+**Casas e competência:** Iniciadora: Câmara ou Senado, conforme origem; iniciativas constitucionalmente encaminhadas à Câmara começam nela. Revisora: a outra Casa, ambas com maioria absoluta para aprovação.
+
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Evidências e documentos** | PLP | Despacho | Parecer | Texto aprovado | Texto revisado e autógrafo | Lei complementar publicada |
-| **Ações do proponente** | Autor legitimado apresenta | não se aplica | Parlamentares emendam | não se aplica | não se aplica | não se aplica |
+| **Evidências e documentos** | PLP | Despacho | Parecer | Texto aprovado | Texto revisado | Lei complementar |
+| **Ações do proponente** | Legitimados do art. 61 apresentam PLP na matéria constitucionalmente reservada | não se aplica | Parlamentares emendam | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Casa iniciadora recebe | Presidência distribui | Comissões apreciam | Plenário iniciador vota | Casa revisora vota | Presidente sanciona ou veta |
+| **Frontstage: atos e contatos públicos** | Casa iniciadora recebe | Presidência da Casa iniciadora distribui | Comissões apreciam | Plenário iniciador vota | Casa revisora (Senado ou Câmara) vota por maioria absoluta; emendas retornam | Presidente da República sanciona ou veta |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
-| **Backstage: preparação e análise** | Assessoria verifica reserva à LC | Secretaria autua | Relator redige voto | Apoio organiza sessão | Apoio confere emendas, redação final e autógrafo | Serviços preparam promulgação e publicação após sanção ou deliberação sobre veto |
+| **Backstage: preparação e análise** | Assessoria verifica reserva à LC | Secretaria autua | Relator redige voto | Apoio organiza sessão | Apoio confere emendas e retorno | Autógrafo e publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Protocolo | Despacho | Parecer | Votação | Versões de texto | Diário Oficial |
-| **Prazos e quóruns** | Art. 69 CF | não se aplica | Prazos do regime aplicável | Maioria absoluta; dois turnos na Câmara (RICD art. 148) | Maioria absoluta; turno único no Senado, salvo exceção regimental | Art. 66 CF: 15 dias úteis para sanção/veto |
+| **Prazos e quóruns** | Art. 69 CF | não se aplica | Prazos do regime aplicável | Maioria absoluta | Maioria absoluta | Art. 66 CF |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas e quóruns]] · [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa]].
 
 ## Proposta de emenda à Constituição (PEC) → emenda constitucional (EC)
 
+**Legitimados:** No mínimo um terço dos deputados ou dos senadores; Presidente da República; ou mais da metade das Assembleias Legislativas, cada uma pela maioria relativa de seus membros (art. 60).
+
+**Casas e competência:** Iniciadora: Câmara dos Deputados ou Senado Federal, conforme a apresentação. Revisora: a outra Casa, com dois turnos e três quintos dos membros; as Casas precisam aprovar o mesmo texto.
+
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | PEC | Despacho | Parecer de mérito | Texto em dois turnos | Texto de ambas as Casas | EC promulgada |
-| **Ações do proponente** | Legitimados do art. 60 apresentam | não se aplica | Emendas nos limites do rito | não se aplica | não se aplica | não se aplica |
+| **Ações do proponente** | 1/3 da Câmara ou Senado; Presidente da República; mais de metade das Assembleias Legislativas | não se aplica | Emendas nos limites do rito | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Casa de origem recebe | Órgão competente examina admissibilidade | Comissão especial ou órgão próprio examina | Plenário iniciador vota em dois turnos | Casa revisora vota em dois turnos | Mesas das Casas promulgam |
+| **Frontstage: atos e contatos públicos** | Casa de origem recebe | Órgão competente examina admissibilidade | Comissão especial ou órgão próprio examina | Plenário iniciador vota em dois turnos | Casa revisora: outra Casa, dois turnos e 3/5; textos precisam coincidir | Mesas das Casas promulgam |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio verifica requisitos | Serviços distribuem | Relatores preparam parecer | Serviços organizam turnos | Apoio verifica igualdade dos textos | Serviços preparam publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -64,12 +76,16 @@ Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e 
 
 ## Medida provisória (MPV) e projeto de lei de conversão (PLV) → lei
 
+**Legitimados:** Somente o Presidente da República edita medida provisória (MPV). Deputados e senadores podem apresentar emendas, e a comissão mista pode propor projeto de lei de conversão (PLV).
+
+**Casas e competência:** Iniciadora da apreciação: Câmara dos Deputados, obrigatoriamente. Revisora: Senado Federal; alterações do Senado podem voltar à Câmara. A edição da MPV antecede essa sequência.
+
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | MPV publicada | Emendas | Parecer ou PLV | Votação Câmara | Votação Senado | Lei ou perda de eficácia |
-| **Ações do proponente** | Presidente edita MPV | Parlamentares oferecem emendas | não se aplica | não se aplica | não se aplica | não se aplica |
+| **Ações do proponente** | Presidente da República edita MPV; parlamentares podem emendar | Parlamentares oferecem emendas | não se aplica | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | MPV é publicada | Congresso recebe emendas | Comissão mista emite parecer | Câmara vota primeiro | Senado delibera; alterações podem retornar | MP aprovada sem mudança de mérito: Presidente da Mesa do Congresso promulga; PLV: Presidente da República sanciona ou veta |
+| **Frontstage: atos e contatos públicos** | MPV é publicada | Congresso recebe emendas | Comissão mista emite parecer | Câmara vota primeiro | Senado Federal examina após Câmara; alterações podem retornar à Câmara | Texto original: promulgação; PLV: sanção/veto |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio verifica pressupostos | Serviços registram | Relatoria prepara parecer e PLV | Serviços organizam votação | Apoio concilia textos | Congresso examina relações jurídicas se MPV perder eficácia |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -80,12 +96,16 @@ Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e 
 
 ## Projeto de decreto legislativo (PDL) → decreto legislativo
 
+**Legitimados:** Parlamentares e comissões legislativas, segundo as regras de iniciativa e a competência constitucional específica; em casos próprios, há outros legitimados.
+
+**Casas e competência:** Câmara e Senado participam conforme a matéria e o procedimento aplicável; identificar a Casa iniciadora e a revisora na proposição concreta. Não existe sanção do Presidente da República.
+
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | PDL | Despacho | Parecer | Deliberação | Exame seguinte, se cabível | Decreto legislativo |
-| **Ações do proponente** | Legitimado apresenta | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
+| **Ações do proponente** | Parlamentar ou comissão legitimada propõe PDL conforme a competência | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Mesa da Casa recebe | Presidência distribui | Comissões examinam | Casa competente vota | Outra Casa ou Congresso atua conforme hipótese | Autoridade legislativa promulga |
+| **Frontstage: atos e contatos públicos** | Mesa da Casa recebe | Presidência da Casa iniciadora distribui | Comissões examinam | Casa competente vota | Outra Casa aprecia quando o rito exigir; verificar competência e origem | Autoridade legislativa promulga |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Assessoria verifica competência | Secretaria registra | Relator produz parecer | Serviços organizam votação | Apoio prepara texto final | Secretaria prepara publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -96,12 +116,16 @@ Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e 
 
 ## Projeto de resolução da Câmara dos Deputados (PRC) → resolução da Câmara
 
+**Legitimados:** Deputados, comissões e Mesa Diretora da Câmara, conforme o Regimento Interno e a matéria.
+
+**Casas e competência:** Órgão competente: Câmara dos Deputados. Não existe Casa revisora no Senado Federal para resolução própria da Câmara.
+
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | PRC | Despacho | Parecer | Resolução aprovada | Não há revisão bicameral usual | Resolução publicada |
-| **Ações do proponente** | Legitimado na Câmara apresenta | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
+| **Ações do proponente** | Deputado, comissão ou Mesa da Câmara, conforme o RICD | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Câmara recebe | Presidência distribui | Comissões examinam se previsto | Órgão competente da Câmara vota | não se aplica | Câmara promulga |
+| **Frontstage: atos e contatos públicos** | Câmara recebe | Presidência da Casa iniciadora distribui | Comissões examinam se previsto | Órgão competente da Câmara vota | Não se aplica: resolução própria da Câmara não segue ao Senado | Câmara promulga |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio verifica competência | Secretaria registra | Relatoria prepara parecer | Serviços preparam ato | não se aplica | Secretaria publica |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -112,12 +136,16 @@ Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e 
 
 ## Projeto de resolução do Senado Federal (PRS) → resolução do Senado
 
+**Legitimados:** Senadores, comissões e Mesa do Senado Federal, conforme o Regimento Interno e a matéria.
+
+**Casas e competência:** Órgão competente: Senado Federal. Não existe Casa revisora na Câmara dos Deputados para resolução própria do Senado.
+
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | PRS | Despacho | Parecer | Resolução aprovada | Não há revisão bicameral usual | Resolução publicada |
-| **Ações do proponente** | Legitimado no Senado apresenta | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
+| **Ações do proponente** | Senador, comissão ou Mesa do Senado, conforme o RISF | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Senado recebe | Presidência distribui | Comissões examinam | Órgão do Senado vota | não se aplica | Senado promulga |
+| **Frontstage: atos e contatos públicos** | Senado recebe | Presidência da Casa iniciadora distribui | Comissões examinam | Órgão do Senado vota | Não se aplica: resolução própria do Senado não segue à Câmara | Senado promulga |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio verifica competência | Secretaria registra | Relator prepara parecer | Serviços preparam ato | não se aplica | Secretaria publica |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -128,12 +156,16 @@ Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e 
 
 ## Projeto de resolução do Congresso Nacional (PRN) → resolução do Congresso
 
+**Legitimados:** Legitimados definidos no Regimento Comum e na norma da matéria; exemplos incluem iniciativa parlamentar nos termos regimentais e, na delegação legislativa, solicitação do Presidente da República.
+
+**Casas e competência:** Competência do Congresso Nacional. Quando houver sessão conjunta, Câmara e Senado deliberam segundo o Regimento Comum; isso não equivale automaticamente a duas Casas em sucessão.
+
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | PRN | Encaminhamento | Parecer se cabível | Sessão conjunta | Votos computados por Casa | Resolução publicada |
-| **Ações do proponente** | Legitimado apresenta | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
+| **Ações do proponente** | Legitimado regimental ou solicitação do Presidente da República na delegação | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Congresso recebe | Presidência encaminha | Colegiado instrui quando previsto | Congresso delibera segundo rito | Câmara e Senado votam segundo Regimento Comum | Congresso promulga |
+| **Frontstage: atos e contatos públicos** | Congresso recebe | Presidência do Congresso Nacional encaminha | Colegiado instrui quando previsto | Congresso delibera segundo rito | Congresso delibera no rito próprio; votos por Casa quando aplicável | Congresso promulga |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio identifica competência | Serviços registram | Relator prepara parecer | Secretaria organiza sessão | Apoio apura resultado por Casa | Serviços preparam ato |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -144,12 +176,16 @@ Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e 
 
 ## Projeto de lei do Congresso Nacional (PLN) → lei orçamentária
 
+**Legitimados:** Nos projetos orçamentários de plano plurianual, diretrizes, orçamento anual e créditos adicionais pertinentes, a iniciativa é do Presidente da República (arts. 165 e 166).
+
+**Casas e competência:** Apreciação do Congresso Nacional, com Comissão Mista de Orçamento e sessão conjunta, segundo rito orçamentário. Não se usa revisão bicameral sucessiva comum.
+
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | PLN e anexos | Distribuição | Emendas e parecer | Projeto votado | Autógrafo | Lei orçamentária |
-| **Ações do proponente** | Presidente encaminha projeto | não se aplica | Parlamentares oferecem emendas | não se aplica | não se aplica | não se aplica |
+| **Ações do proponente** | Presidente da República encaminha projeto orçamentário | não se aplica | Parlamentares oferecem emendas | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Congresso recebe | Presidência distribui | Comissão Mista de Orçamento (CMO) emite parecer | Congresso vota em sessão conjunta | Congresso encaminha texto | Presidente sanciona ou veta |
+| **Frontstage: atos e contatos públicos** | Congresso recebe | Presidência da Casa iniciadora distribui | Comissão Mista de Orçamento (CMO) emite parecer | Congresso vota em sessão conjunta | Congresso delibera em sessão conjunta, sem revisão sucessiva ordinária | Presidente da República sanciona ou veta |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio elabora anexos | Serviços autuam | Relatores setoriais e geral analisam | Serviços organizam sessão | Apoio consolida emendas | Serviços preparam publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
@@ -160,12 +196,16 @@ Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e 
 
 ## Delegação legislativa → lei delegada
 
+**Legitimados:** Presidente da República solicita delegação e elabora a lei delegada; Congresso Nacional decide se concede autorização, mediante resolução (art. 68).
+
+**Casas e competência:** Não há Casa iniciadora e revisora no rito comum de PL. O Congresso Nacional autoriza por resolução e pode reservar a apreciação do texto, sem emendas e em votação única.
+
 | Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | Pedido de delegação | Projeto de resolução | Resolução autorizativa | Lei elaborada | Apreciação se exigida | Lei delegada publicada |
-| **Ações do proponente** | Presidente solicita delegação | não se aplica | não se aplica | Presidente elabora texto | não se aplica | não se aplica |
+| **Ações do proponente** | Presidente da República solicita delegação | não se aplica | não se aplica | Presidente da República elabora texto | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Congresso recebe pedido | Órgãos competentes instruem | Congresso autoriza por resolução | Presidente elabora dentro dos limites | Congresso vota se resolução exigir | Lei delegada é promulgada e publicada |
+| **Frontstage: atos e contatos públicos** | Congresso recebe pedido | Órgãos competentes instruem | Congresso autoriza por resolução | Presidente da República elabora dentro dos limites | Congresso autoriza e, se previsto, aprecia sem emendas | Lei delegada é promulgada e publicada |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio examina matéria | Serviços autuam | Assessoria detalha limites | Apoio confere conformidade | Serviços organizam votação | Serviços registram ato |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |

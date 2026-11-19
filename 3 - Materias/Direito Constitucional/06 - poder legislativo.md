@@ -182,33 +182,16 @@ Uma comissão pode **discutir e votar projeto de lei dispensando a competência 
 
 ## Controle externo: arts. 70 e 71
 
-A fiscalização da União e de suas entidades abrange dimensões:
+**Situação concreta.** A comissão mista de orçamento identifica indícios de investimento federal não autorizado. Um órgão de controle interno descobre irregularidade em transferência para organização privada. Em outro processo, o Tribunal de Contas da União (TCU) encontra ilegalidade na execução de um contrato. A atuação correta depende de distinguir **quem fiscaliza, quem julga as contas, quem recebe a informação, quem pode sustar um ato e quem decide sobre o contrato**.
 
-- **contábil**;
-- **financeira**;
-- **orçamentária**;
-- **operacional**;
-- **patrimonial**.
+O **art. 70 da Constituição Federal (CF)** apresenta cinco dimensões da fiscalização: **contábil** (registros, demonstrações e situação das contas), **financeira** (movimentação e gestão de recursos), **orçamentária** (previsão, autorização e execução do orçamento), **operacional** (funcionamento, desempenho e resultados de programas e serviços) e **patrimonial** (gestão, conservação e uso de bens e direitos). Essas dimensões descrevem o **objeto do exame**; não são cinco órgãos separados.
 
-E examina, entre outros parâmetros:
+O mesmo art. 70 estabelece os **critérios**: **legalidade** (conformidade normativa), **legitimidade** (adequação da atuação pública às finalidades e ao interesse público), **economicidade** (relação entre recursos consumidos e resultados ou condições de obtenção) e fiscalização da **aplicação de subvenções e renúncia de receitas**. A classificação pode combinar dimensões: verificar se uma renúncia tributária cumpre normas, atende a sua finalidade e possui acompanhamento fiscal envolve simultaneamente critérios de legalidade, legitimidade, economicidade e o objeto renúncia de receitas. Não igualar **economicidade** a **eficácia** ou **eficiência**: são análises que podem se relacionar, mas usam perguntas distintas.
 
-- legalidade;
-- legitimidade;
-- economicidade;
-- aplicação das subvenções;
-- renúncia de receitas.
+**Quem deve prestar contas?** O parágrafo único do art. 70 alcança **pessoa física ou jurídica, pública ou privada**, que utilize, arrecade, guarde, gerencie ou administre recursos e bens públicos pelos quais a União responda, ou assuma obrigação pecuniária em seu nome. Não restringir ao servidor efetivo nem à entidade da administração direta.
 
-O art. 70 estabelece dois grandes sistemas:
 
-```text
-Fiscalização
-├─ Controle externo → Congresso Nacional
-│  └─ exercido com auxílio do TCU
-└─ Controle interno → sistema de cada Poder
-```
-
-> [!WARNING]
-> **Controle externo não é exercido exclusivamente pelo TCU.** A Constituição o coloca a cargo do Congresso Nacional, com auxílio do Tribunal de Contas da União.
+O controle externo está a cargo do **Congresso Nacional**, com auxílio do TCU; o controle interno é organizado por cada Poder. O auxílio técnico não estabelece hierarquia entre os órgãos.
 
 ## Tribunal de Contas da União
 
@@ -220,6 +203,17 @@ O STF destaca a autonomia e o autogoverno dos Tribunais de Contas e rejeita sua 
 > Para prova, evite duas simplificações opostas:
 > - “TCU é subordinado ao Congresso” → errado;
 > - “TCU exerce sozinho todo o controle externo” → errado.
+
+### Quem decide em cada forma de fiscalização
+
+| Sujeito | Competência constitucional | Limite que muda o gabarito |
+| :--- | :--- | :--- |
+| **Congresso Nacional** | **Titular do controle externo** (art. 70) com auxílio do TCU (art. 71); julga as **contas anuais do Presidente da República** (art. 49, IX) | **Auxílio do TCU** não significa subordinação hierárquica do Tribunal nem transferência de toda decisão ao TCU |
+| **TCU** | **Parecer prévio** sobre contas presidenciais, em até **60 dias do recebimento** (art. 71, I); **julga contas de administradores e responsáveis** (II); audita, registra, fiscaliza, aplica sanções, assina prazo e susta **atos** nas condições constitucionais | **Apreciar contas presidenciais ≠ julgar contas de gestores**; **ato ≠ contrato** |
+| **Comissões parlamentares** | Podem solicitar informações do TCU (art. 71, VII); comissões técnicas e de inquérito podem provocar inspeções e auditorias (IV) | A competência de solicitar exame **não as transforma** em Tribunal de Contas |
+| **Comissão mista permanente do art. 166, § 1º** | Segue o **art. 72** para indícios de **despesas não autorizadas** | Pedir esclarecimentos, solicitar pronunciamento do TCU e **propor** sustação ao Congresso são etapas diferentes |
+| **Controle interno de cada Poder** | Avalia metas, execução e resultados, acompanha operações de crédito, comprova legalidade e **apoia** o controle externo (art. 74) | Apoiar não é estar subordinado hierarquicamente ao TCU |
+| **Cidadão, partido, associação e sindicato** | Podem **denunciar irregularidade ou ilegalidade ao TCU**, na forma da lei (art. 74, § 2º) | Denúncia não transfere a competência de julgamento ao denunciante |
 
 ## Apreciar contas × julgar contas
 
@@ -255,15 +249,27 @@ As decisões do TCU que resultem em **imputação de débito ou multa possuem ef
 
 ## Sustação de ato × contrato
 
-A Constituição estabelece tratamento diferente para atos e contratos.
+**Art. 71, IX e X:** diante de **ilegalidade**, o TCU pode **assinar prazo** para providências de exato cumprimento da lei. Se não atendido, pode **sustar a execução do ato impugnado** e comunicar a decisão à Câmara e ao Senado.
 
-- diante de **ato** impugnado e não corrigido, o TCU pode sustar sua execução nos termos do art. 71, X;
-- no caso de **contrato**, a sustação cabe inicialmente ao Congresso Nacional, que solicita ao Executivo as medidas cabíveis;
-- se Congresso ou Executivo não adotarem as medidas no prazo constitucional de 90 dias, o Tribunal decide a respeito.
+**Art. 71, §§ 1º e 2º:** **no caso de contrato**, o ato de sustação é adotado **diretamente pelo Congresso Nacional**, que solicita imediatamente ao Executivo as medidas cabíveis. Se **Congresso ou Executivo não efetivarem as medidas em 90 dias**, o **TCU decide a respeito**. O prazo de **90 dias** aqui não é o mesmo dos **cinco e trinta dias** do art. 72.
 
-**Uma terceira categoria deve ser separada da sustação definitiva: o poder cautelar do TCU.** O STF reconhece que o Tribunal pode, por decisão fundamentada e proporcional, determinar **medidas preventivas à Administração** para evitar dano ao erário e garantir a utilidade de suas decisões. A competência cautelar **não depende automaticamente do transcurso de 90 dias** do art. 71, § 2º, que rege a atuação subsidiária na sustação constitucional de contratos. Uma cautelar de suspensão temporária de repasses, uma ordem à Administração para corrigir ilegalidade e a **anulação ou sustação definitiva de contrato pelo próprio TCU** têm fundamentos e limites diferentes. Conferir os fatos antes de concluir que qualquer cautelar sobre a execução contratual invade competência do Congresso. Fontes: [STF, art. 71 e MS 24.510](https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=71&abrirBase=CF); aprofundamento em [[3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas|DC37, seção 5.2 e Caso 4]].
+**Poder cautelar (STF, MS 24.510):** o TCU dispõe de medidas preventivas fundamentadas para evitar lesões ao erário e preservar a eficácia de suas deliberações, incluindo providências dirigidas à Administração em contratos. Essa competência não equivale à **anulação direta ou sustação definitiva** de contrato pelo Tribunal nem se sujeita automaticamente ao prazo de **90 dias** do § 2º. Estudar a distinção também no [[3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas|DC37]].
 
-Essa diferença é um distrator excelente porque a banca troca “ato” por “contrato” **ou confunde sustação definitiva e medida cautelar**.
+**Art. 71, §§ 3º e 4º:** decisões do TCU de que resulte **imputação de débito ou multa têm eficácia de título executivo**. O TCU envia ao Congresso **relatórios trimestrais e anuais**. Título executivo não quer dizer que o próprio TCU se transforme em Poder Judiciário ou que toda observação de auditoria seja multa.
+
+**Apreciar atos para registro (art. 71, III):** nomeações para **cargo de provimento em comissão** são exceção expressa no exame de legalidade de admissões. A exclusão específica **não elimina** outras formas de fiscalização cabíveis sobre esses atos.
+
+### Procedimento da comissão mista para despesas não autorizadas: art. 72
+
+**Etapa 1: indícios.** A **comissão mista permanente** referida no **art. 166, § 1º**, constata indícios de **despesas não autorizadas**, mesmo sob a forma de **investimento não programado ou subsídio não aprovado**. Isso habilita o pedido de esclarecimentos à autoridade governamental responsável.
+
+**Etapa 2: cinco dias.** A autoridade dispõe de **cinco dias** para prestar os esclarecimentos solicitados (**art. 72, caput**). Não confundir com prazo genérico de resposta de Ministro em requerimento de informação parlamentar, disciplinado por outro regime.
+
+**Etapa 3: trinta dias.** Se os esclarecimentos **não forem prestados** ou forem **insuficientes**, a comissão solicitará **pronunciamento conclusivo do TCU em trinta dias** (**§ 1º**). A comissão não profere por si o pronunciamento conclusivo técnico do Tribunal.
+
+**Etapa 4: eventual sustação.** Se o TCU entender a despesa **irregular**, e se a comissão julgar que o gasto pode causar **dano irreparável ou grave lesão à economia pública**, a comissão **proporá ao Congresso Nacional a sustação** (**§ 2º**). A irregularidade isolada não elimina a exigência de avaliação do risco pela comissão. **Propor** não é **sustar automaticamente**: o sujeito decisor indicado é o Congresso.
+
+**Fronteira-chave:** o art. 72 exige sequência condicionada **indícios → esclarecimentos em cinco dias → parecer conclusivo do TCU em trinta dias se necessário → proposta de sustação pela comissão ao Congresso se presentes irregularidade e risco grave**. O art. 71 prevê outras formas de atuação do TCU, que não se confundem com essa sequência.
 
 ## TCU não é Poder Judiciário
 
@@ -292,81 +298,20 @@ Requisitos constitucionais incluem:
 
 ## Controle interno: art. 74
 
-Os Poderes Legislativo, Executivo e Judiciário mantêm, de forma integrada, sistema de controle interno. Entre suas finalidades estão avaliar metas e programas, comprovar legalidade e resultados, controlar operações de crédito e apoiar o controle externo.
-
-Os responsáveis pelo controle interno que tomarem conhecimento de irregularidade ou ilegalidade devem dar ciência ao TCU, sob pena de responsabilidade solidária.
-
-> [!TIP]
-> **Controle interno apoia o controle externo, mas não é subordinado hierarquicamente ao Tribunal de Contas.**
-
-## Tribunais de Contas dos Estados e do Distrito Federal
-
-O art. 75, **alterado pela EC nº 139/2026**, reconhece os Tribunais de Contas como **instituições permanentes e essenciais ao exercício do controle externo**, veda sua extinção, criação ou instalação, e determina a aplicação **no que couber** das normas da seção à organização, composição e fiscalização dos Tribunais de Contas estaduais, distrital e municipais.
-
-As Constituições estaduais disciplinam seus Tribunais de Contas, que são integrados por **sete Conselheiros**.
-
-Para o TCDF, a Constituição Federal fornece o modelo geral, complementado pela Lei Orgânica do Distrito Federal e pela legislação própria do Tribunal.
-
-## Refinamento CAM-PL-018: fiscalização contábil, financeira e orçamentária, sujeitos e funções
-
-### Qual é o objeto fiscalizado e quem decide?
-
-**Situação concreta.** A comissão mista de orçamento identifica indícios de investimento federal não autorizado. Um órgão de controle interno descobre irregularidade em transferência para organização privada. Em outro processo, o Tribunal de Contas da União (TCU) encontra ilegalidade na execução de um contrato. A atuação correta depende de distinguir **quem fiscaliza, quem julga as contas, quem recebe a informação, quem pode sustar um ato e quem decide sobre o contrato**.
-
-O **art. 70 da Constituição Federal (CF)** apresenta cinco dimensões da fiscalização: **contábil** (registros, demonstrações e situação das contas), **financeira** (movimentação e gestão de recursos), **orçamentária** (previsão, autorização e execução do orçamento), **operacional** (funcionamento, desempenho e resultados de programas e serviços) e **patrimonial** (gestão, conservação e uso de bens e direitos). Essas dimensões descrevem o **objeto do exame**; não são cinco órgãos separados.
-
-O mesmo art. 70 estabelece os **critérios**: **legalidade** (conformidade normativa), **legitimidade** (adequação da atuação pública às finalidades e ao interesse público), **economicidade** (relação entre recursos consumidos e resultados ou condições de obtenção) e fiscalização da **aplicação de subvenções e renúncia de receitas**. A classificação pode combinar dimensões: verificar se uma renúncia tributária cumpre normas, atende a sua finalidade e possui acompanhamento fiscal envolve simultaneamente critérios de legalidade, legitimidade, economicidade e o objeto renúncia de receitas. Não igualar **economicidade** a **eficácia** ou **eficiência**: são análises que podem se relacionar, mas usam perguntas distintas.
-
-**Quem deve prestar contas?** O parágrafo único do art. 70 alcança **pessoa física ou jurídica, pública ou privada**, que utilize, arrecade, guarde, gerencie ou administre recursos e bens públicos pelos quais a União responda, ou assuma obrigação pecuniária em seu nome. Não restringir ao servidor efetivo nem à entidade da administração direta.
-
-### Matriz de competências: Congresso, TCU e controle interno
-
-| Sujeito | Competência constitucional | Limite que muda o gabarito |
-| :--- | :--- | :--- |
-| **Congresso Nacional** | **Titular do controle externo** (art. 70) com auxílio do TCU (art. 71); julga as **contas anuais do Presidente da República** (art. 49, IX) | **Auxílio do TCU** não significa subordinação hierárquica do Tribunal nem transferência de toda decisão ao TCU |
-| **TCU** | **Parecer prévio** sobre contas presidenciais, em até **60 dias do recebimento** (art. 71, I); **julga contas de administradores e responsáveis** (II); audita, registra, fiscaliza, aplica sanções, assina prazo e susta **atos** nas condições constitucionais | **Apreciar contas presidenciais ≠ julgar contas de gestores**; **ato ≠ contrato** |
-| **Comissões parlamentares** | Podem solicitar informações do TCU (art. 71, VII); comissões técnicas e de inquérito podem provocar inspeções e auditorias (IV) | A competência de solicitar exame **não as transforma** em Tribunal de Contas |
-| **Comissão mista permanente do art. 166, § 1º** | Segue o **art. 72** para indícios de **despesas não autorizadas** | Pedir esclarecimentos, solicitar pronunciamento do TCU e **propor** sustação ao Congresso são etapas diferentes |
-| **Controle interno de cada Poder** | Avalia metas, execução e resultados, acompanha operações de crédito, comprova legalidade e **apoia** o controle externo (art. 74) | Apoiar não é estar subordinado hierarquicamente ao TCU |
-| **Cidadão, partido, associação e sindicato** | Podem **denunciar irregularidade ou ilegalidade ao TCU**, na forma da lei (art. 74, § 2º) | Denúncia não transfere a competência de julgamento ao denunciante |
-
-### O procedimento específico da comissão mista: art. 72
-
-**Etapa 1: indícios.** A **comissão mista permanente** referida no **art. 166, § 1º**, constata indícios de **despesas não autorizadas**, mesmo sob a forma de **investimento não programado ou subsídio não aprovado**. Isso habilita o pedido de esclarecimentos à autoridade governamental responsável.
-
-**Etapa 2: cinco dias.** A autoridade dispõe de **cinco dias** para prestar os esclarecimentos solicitados (**art. 72, caput**). Não confundir com prazo genérico de resposta de Ministro em requerimento de informação parlamentar, disciplinado por outro regime.
-
-**Etapa 3: trinta dias.** Se os esclarecimentos **não forem prestados** ou forem **insuficientes**, a comissão solicitará **pronunciamento conclusivo do TCU em trinta dias** (**§ 1º**). A comissão não profere por si o pronunciamento conclusivo técnico do Tribunal.
-
-**Etapa 4: eventual sustação.** Se o TCU entender a despesa **irregular**, e se a comissão julgar que o gasto pode causar **dano irreparável ou grave lesão à economia pública**, a comissão **proporá ao Congresso Nacional a sustação** (**§ 2º**). A irregularidade isolada não elimina a exigência de avaliação do risco pela comissão. **Propor** não é **sustar automaticamente**: o sujeito decisor indicado é o Congresso.
-
-**Fronteira-chave:** o art. 72 exige sequência condicionada **indícios → esclarecimentos em cinco dias → parecer conclusivo do TCU em trinta dias se necessário → proposta de sustação pela comissão ao Congresso se presentes irregularidade e risco grave**. O art. 71 prevê outras formas de atuação do TCU, que não se confundem com essa sequência.
-
-### Atos administrativos, contratos e execução de decisões
-
-**Art. 71, IX e X:** diante de **ilegalidade**, o TCU pode **assinar prazo** para providências de exato cumprimento da lei. Se não atendido, pode **sustar a execução do ato impugnado** e comunicar a decisão à Câmara e ao Senado.
-
-**Art. 71, §§ 1º e 2º:** **no caso de contrato**, o ato de sustação é adotado **diretamente pelo Congresso Nacional**, que solicita imediatamente ao Executivo as medidas cabíveis. Se **Congresso ou Executivo não efetivarem as medidas em 90 dias**, o **TCU decide a respeito**. O prazo de **90 dias** aqui não é o mesmo dos **cinco e trinta dias** do art. 72.
-
-**Poder cautelar (STF, MS 24.510):** o TCU dispõe de medidas preventivas fundamentadas para evitar lesões ao erário e preservar a eficácia de suas deliberações, incluindo providências dirigidas à Administração em contratos. Essa competência não equivale à **anulação direta ou sustação definitiva** de contrato pelo Tribunal nem se sujeita automaticamente ao prazo de **90 dias** do § 2º. Estudar a distinção também no [[3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas|DC37]].
-
-**Art. 71, §§ 3º e 4º:** decisões do TCU de que resulte **imputação de débito ou multa têm eficácia de título executivo**. O TCU envia ao Congresso **relatórios trimestrais e anuais**. Título executivo não quer dizer que o próprio TCU se transforme em Poder Judiciário ou que toda observação de auditoria seja multa.
-
-**Apreciar atos para registro (art. 71, III):** nomeações para **cargo de provimento em comissão** são exceção expressa no exame de legalidade de admissões. A exclusão específica **não elimina** outras formas de fiscalização cabíveis sobre esses atos.
-
-### Controle interno, denúncia e responsabilidade
-
 O **art. 74** exige sistema de controle interno mantido de forma integrada pelos Poderes Legislativo, Executivo e Judiciário. Seus objetivos incluem **avaliar metas do PPA**, execução de programas e orçamentos; comprovar legalidade e **avaliar resultados quanto à eficácia e eficiência** da gestão; controlar operações de crédito, avais e garantias; e apoiar o controle externo.
 
 **Responsabilidade solidária:** os **responsáveis pelo controle interno** que, tomando conhecimento de irregularidade ou ilegalidade, **não a comunicarem ao TCU**, sujeitam-se à responsabilidade solidária (**art. 74, § 1º**). Não transformar essa regra em responsabilidade automática de **qualquer cidadão** que deixe de denunciar.
 
 **Participação social:** cidadão, partido político, associação ou sindicato têm legitimidade para denunciar ao TCU, **na forma da lei** (art. 74, § 2º). Essa legitimidade não pressupõe ser gestor público nem atribui ao denunciante competência de aplicar sanção.
 
-### Atualização normativa: EC 139/2026 e o art. 75
+## Tribunais de Contas dos Estados e do Distrito Federal
 
 A **Emenda Constitucional nº 139, de 5 de maio de 2026**, alterou o **art. 75** e o **art. 31, § 1º**. O art. 75 agora reconhece os **Tribunais de Contas como instituições permanentes e essenciais ao controle externo** e mantém a aplicação **no que couber** do modelo federal aos tribunais estaduais, distrital e municipais. A nova redação **veda extinção, criação ou instalação** desses tribunais e conselhos de contas, nos termos do dispositivo. Para prova, não utilizar automaticamente versões anteriores do art. 75, que omitem essa proteção expressa. Fonte: [EC 139/2026, texto oficial da Câmara](https://www2.camara.leg.br/legin/fed/emecon/2026/emendaconstitucional-139-5-maio-2026-799072-publicacaooriginal-179182-pl.html).
 
 A alteração do art. 31, § 1º, reforça o mesmo limite na esfera municipal. **Os Tribunais de Contas já existentes** devem ser distinguidos de eventual tentativa de criação ou instalação futura; a reforma não altera os números constitucionais de **nove ministros do TCU** e **sete conselheiros de TCE**.
+
+
+As Constituições estaduais disciplinam os Tribunais de Contas estaduais, integrados por **sete Conselheiros**. O TCDF segue o modelo constitucional, com suas regras próprias.
 
 ### Caso progressivo: oito variações
 
@@ -479,15 +424,3 @@ Para Comunicação Social/Divulgação Institucional, uma notícia institucional
 
 ---
 **Fontes Brutas:**
-
-
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Escopo:** conferidos bicameralismo, competências institucionais das Casas, imunidades e sessões do Congresso, fiscalização constitucional, TCU e Tribunais de Contas estaduais perante a [Constituição Federal atualizada, arts. 44–75](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html), com cotejo específico da [EC 139/2026](https://www2.camara.leg.br/legin/fed/emecon/2026/emendaconstitucional-139-5-maio-2026-799072-publicacaooriginal-179182-pl.html) e EC 122/2022. Verificados **dez itens C/E** da expansão CAM-PL-018, **oito variações do caso progressivo** e **três exemplos comentados**. O núcleo original de controle externo estava consistente com a CF, mas a exposição geral de Poder Legislativo omitia aspectos essenciais dos arts. 48 a 58.
-
-**NC-PL-068:** aprofundados **arts. 48–52**, distinguindo legislação com sanção presidencial, competências exclusivas do Congresso e privativas da Câmara e do Senado, e pedidos de informações/convocações do art. 50. **NC-PL-069:** incorporados **arts. 53–56**, com imunidades material e formal, foro constitucional sob leitura jurisprudencial, incompatibilidades desde diplomação/posse, perda de mandato e hipóteses de licença/suplência. **NC-PL-070:** explicitados **arts. 57–58**, incluindo períodos da sessão legislativa, sessões conjuntas, Mesa do Congresso e regras centrais das comissões, preservando aprofundamento específico em outras unidades.
-
-**Dez gabaritos preservados, sequência:** **E, C, E, E, C, E, C, E, C, E**. Nenhuma inversão identificada nos exercícios cotejados, nem nos oito casos e três exemplos. **Não houve criação ou duplicação de questões**. Os exercícios preexistentes continuam sujeitos à reconciliação geral do inventário.
-
-**Limites:** certificação jurídico-editorial deste recorte escrito, não revisão exaustiva de jurisprudência sobre prerrogativas parlamentares, dos ritos específicos de responsabilização ou de todas as atribuições dos arts. 49 e 52. Não comprova aprendizagem, renderização nem publicação no GitHub Pages.

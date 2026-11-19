@@ -14,7 +14,7 @@ aliases:
 
 # Regimento Comum do Congresso: direção, objeto e convocação das sessões conjuntas
 
-**Câmara dos Deputados 2026, cargo 1: Divulgação Institucional. Cebraspe. Unidade CAM-PL-025.** Recorte literal do **Título I do Regimento Comum do Congresso Nacional (RCCN), arts. 1º a 3º**, instituído pela Resolução nº 1/1970-CN, interpretado à luz da Constituição de 1988.
+**Câmara dos Deputados 2026, cargo 1: Divulgação Institucional. Cebraspe.** Recorte do **Título I do Regimento Comum do Congresso Nacional (RCCN), arts. 1º a 3º**, instituído pela Resolução nº 1/1970-CN, interpretado à luz da Constituição de 1988.
 
 ## Núcleo do conceito
 

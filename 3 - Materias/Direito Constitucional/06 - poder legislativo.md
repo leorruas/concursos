@@ -92,7 +92,7 @@ A Câmara também pode realizar a **tomada de contas** caso o Presidente não as
 - **Emitir parecer prévio sobre contas presidenciais:** TCU, art. 71, I;
 - **Julgar as contas anuais do Presidente:** Congresso Nacional, art. 49, IX.
 
-A Câmara ainda elabora seu **regimento interno**, que reúne regras sobre sua organização e seus procedimentos, e dispõe sobre seus próprios serviços, respeitados os limites constitucionais (art. 51, III e IV). Para a remuneração dos servidores da Casa, o art. 51, IV, prevê **iniciativa de lei**, não fixação livre por simples ato interno.
+A Câmara ainda elabora seu **regimento interno**, que reúne regras sobre sua organização e seus procedimentos, e dispõe sobre seus próprios serviços, respeitados os limites constitucionais (art. 51, III e IV). Para a remuneração dos servidores da Casa, o art. 51, IV, prevê **iniciativa de lei**, não fixação livre por simples ato interno. **Iniciativa** significa o poder de apresentar o projeto: não equivale a aprová-lo sozinho. Por exemplo, um projeto de reajuste iniciado pela Câmara passa pela votação das duas Casas e, em regra, por sanção ou veto presidencial. O Senado tem iniciativa para a remuneração dos seus servidores (art. 52, XIII); os tribunais competentes, para a dos servidores do Judiciário (art. 96, II, *b*); e o Presidente da República, para a dos servidores do Executivo (art. 61, § 1º, II, *a*). O art. 37, X, exige **lei específica**, ao passo que o subsídio de deputados e senadores pertence a outra competência, do art. 49, VII.
 
 ### Art. 52: o que cabe ao Senado Federal
 

@@ -173,7 +173,9 @@ A escolha da solução mais vantajosa depende de **benefício público e atendim
 
 ## Planejamento, ETP e Termo de Referência: edital 10.4 a 10.7
 
-A **fase preparatória** traduz uma necessidade pública em critérios objetivos de contratação e controle. Pelo art. 18 da Lei nº 14.133/2021, a Administração identifica a demanda, avalia as alternativas, define o objeto, considera riscos, estima o custo e motiva as escolhas. A contratação direta também exige instrução e justificativas, nos termos do art. 72.
+Na **fase preparatória**, a Administração identifica o problema antes de escolher como contratar. Por exemplo, se a Câmara precisa tornar documentos acessíveis, deve avaliar quais soluções atendem à necessidade, quais requisitos são indispensáveis e quanto poderá gastar.
+
+O **art. 18 da Lei nº 14.133/2021** organiza esse planejamento: identificar a demanda, comparar alternativas, definir o objeto, analisar riscos, estimar o custo e justificar as escolhas. **Objeto** é aquilo que será contratado, como um serviço ou um produto com características definidas. Mesmo quando a lei permite contratação direta, o processo precisa conter os documentos e as justificativas cabíveis (art. 72).
 
 O **Estudo Técnico Preliminar (ETP)** é a primeira etapa do planejamento e fundamenta a viabilidade técnica e econômica da solução (art. 6º, XX, e art. 18, §§ 1º e 2º). Pergunta principal: **qual problema deve ser resolvido e qual alternativa oferece melhor resposta?** O ETP não deve ser confundido com a escolha antecipada de fornecedor. Os elementos mínimos e as justificativas para omissões devem observar o art. 18, § 2º.
 

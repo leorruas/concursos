@@ -13425,12 +13425,12 @@
     {
       "id": "camara-pl33-verificacao-votacao-simbolica",
       "term": "Verificação de votação simbólica",
-      "definition": "Pedido regimental de conferência do resultado proclamado em votação simbólica. Na Câmara, quando admitido, leva à apuração nominal dos votos.",
-      "example": "Após resultado simbólico contestado, realiza-se votação nominal para conferir o resultado.",
-      "confusion": "Votação nominal é uma modalidade; verificação é o procedimento que pode transformar a apuração originalmente simbólica em nominal.",
+      "definition": "Pedido para conferir resultado proclamado em votação simbólica: na Câmara, verificação admitida por votação nominal; nas sessões conjuntas do Congresso, art. 45, § 2º, do Regimento Comum permite contagem dos votos por bancada, salvo requerimento de nominal imediata.",
+      "example": "Em sessão conjunta, Secretários podem anotar os votos favoráveis e contrários por bancada; se o requerimento pedir, realiza-se nominal imediata.",
+      "confusion": "Verificação é o procedimento; votação nominal é uma modalidade. O método da Câmara não se aplica automaticamente à sessão conjunta do Congresso.",
       "contrast": {
-        "prompt": "Qual é a definição de Verificação de votação simbólica e qual confusão deve ser evitada?",
-        "answer": "Pedido regimental de conferência do resultado proclamado em votação simbólica. Na Câmara, quando admitido, leva à apuração nominal dos votos. Votação nominal é uma modalidade; verificação é o procedimento que pode transformar a apuração originalmente simbólica em nominal."
+        "prompt": "Toda verificação de votação simbólica é obrigatoriamente nominal, inclusive no Congresso Nacional em sessão conjunta?",
+        "answer": "Não. Na Câmara, a verificação admitida conduz à nominal. No Congresso em sessão conjunta, o art. 45, § 2º, do Regimento Comum prevê contagem por bancada, salvo pedido de votação nominal imediata."
       },
       "conceptIds": [
         "glo-camara-verificacao-votacao-simbolica"
@@ -13450,13 +13450,13 @@
         "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
       },
       "source": {
-        "title": "RICD, arts. 185 e 186",
-        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
-        "locator": "RICD, arts. 185 e 186"
+        "title": "RICD, arts. 185–186; Regimento Comum, art. 45, § 2º",
+        "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
+        "locator": "Art. 45, § 2º"
       },
       "status": "reviewed",
       "reviewedAt": "2026-11-19",
-      "revision": 1
+      "revision": 2
     },
     {
       "id": "camara-pl33-destaque",

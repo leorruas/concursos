@@ -65,7 +65,9 @@ A autodefesa é admitida no PAD. Se o indiciado, **regularmente citado**, não a
 
 ### 1.2 Tipicidade no direito disciplinar: a mitigação dos tipos abertos
 
-No Direito Penal vigora o princípio da reserva legal absoluta e da taxatividade estrita (*nullum crimen sine lege stricta*). No Direito Administrativo Disciplinar, embora a infração deva estar prevista em lei formal em sentido estrito (princípio da legalidade), **admite-se a tipicidade aberta ou conceitos jurídicos indeterminados**.
+**Tipicidade** significa que a conduta punida precisa corresponder a uma infração prevista em lei. No Direito Penal, exige-se descrição legal rigorosa do crime, associada à expressão latina *nullum crimen sine lege stricta* (não há crime sem lei estrita).
+
+No **Direito Administrativo Disciplinar**, a infração também precisa de fundamento legal. Entretanto, a lei pode usar **conceitos jurídicos abertos**, como “desídia”, cujo significado exige análise dos fatos. Essa possibilidade é chamada de **tipicidade aberta ou mitigada**. A autoridade deve demonstrar como a conduta concreta se enquadra na norma, respeitando a defesa do servidor.
 
 - O legislador utiliza expressões como "falta de zelo", "desídia", "incontinência pública", "conduta escandalosa" e "lealdade às instituições";
 - Essa abertura não autoriza a discricionariedade arbitrária: cabe à comissão processante e à autoridade julgadora demonstrar, na **motivação do ato**, a subsunção fática rigorosa entre o comportamento concreto do servidor e o núcleo de sentido da norma proibitiva;

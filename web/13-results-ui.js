@@ -280,7 +280,8 @@ function showRetests(){
    if(x.pendingQuestionIds?.length){
     const ids=[...new Set(x.pendingQuestionIds)].slice(0,6);
     const params=new URLSearchParams({concurso:select.value,questoes:ids.join(',')});
-    const retry=el('a','results-link','Retestar '+ids.length+' questão(ões)');
+    const retry=el('a','results-link','Refazer '+ids.length+' questão(ões) anteriores');
+    retry.title='Repetição de enunciado já respondido, distinta de teste independente de retenção.';
     retry.href='questoes.html#'+params.toString();
     row.append(retry);
    }
@@ -348,13 +349,18 @@ function renderAdaptive(plan) {
  }
  if (!enabled) return;
  const ranked = plan.recommendations.filter(item => !selectedSubject || item.subjectId === selectedSubject);
- const activities = ranked.slice(0, 4);
- const extra = activities.some(item => item.questionIds.length) ? null :
-  ranked.slice(activities.length).find(item => item.questionIds.length);
- if (extra) activities.push(extra);
+ // O resumo exibe no maximo tres decisoes, sem ocultar a fila completa em Revisoes.
+ const activities = ranked.slice(0, 3);
+ const extra = activities.some(item => item.questionIds?.length) ? null :
+  ranked.slice(activities.length).find(item => item.questionIds?.length);
+ if (extra) {
+  if (activities.length === 3) activities[2] = extra;
+  else activities.push(extra);
+ }
  const firstStudy = ranked.find(item => item.state === 'confirmed-not-studied' && !activities.includes(item) &&
-  (item.articles.length || item.questionIds.length));
- if (firstStudy && !activities.some(item => item.state === 'confirmed-not-studied')) activities.push(firstStudy);
+  (item.articles?.length || item.questionIds?.length));
+ if (firstStudy && !activities.some(item => item.state === 'confirmed-not-studied') && activities.length < 3)
+  activities.push(firstStudy);
  const list = el('ul');
  for (const item of activities) {
   const row = el('li');

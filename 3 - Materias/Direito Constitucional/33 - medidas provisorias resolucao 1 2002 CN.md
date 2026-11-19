@@ -49,7 +49,7 @@ O **Ato do Presidente do Congresso Nacional nº 1/2023**, formalizado em março 
 | **Instalação** | Art. 3º, **24 horas da designação** | Comissão elege Presidente e Vice e define relatorias |
 | **Apresentação de emendas** | Art. 4º, **seis primeiros dias** após publicação | Oferecidas **perante a comissão mista** e protocolizadas na Secretaria-Geral da Mesa do Senado |
 
-**Composição:** a regra especial do **art. 2º, §§ 2º–3º**, estabelece **12 senadores e 12 deputados**, igual número de suplentes, **mais uma vaga em rodízio por Casa** para bancadas minoritárias que não obtiveram participação proporcional. **Não transplantar o 11+11 geral das comissões mistas** da Resolução nº 1/1970-CN nem o **7+16 da Comissão Representativa** de recesso.
+**Composição:** a regra especial do **art. 2º, §§ 2º–3º**, estabelece **12 senadores e 12 deputados**, igual número de suplentes, **mais uma vaga em cada Casa**, preenchida em rodízio pelas bancadas minoritárias que não obtiveram participação proporcional. Assim, **a composição prevista é de 13 titulares por Casa**, incluída a vaga adicional. **Não transplantar o 11+11 geral das comissões mistas** da Resolução nº 1/1970-CN nem o **7+16 da Comissão Representativa** de recesso.
 
 **Presidência e relatoria:** a Presidência da comissão mista alterna-se entre as Casas; o **relator deve pertencer à Casa diversa da do Presidente**, e o **relator revisor** pertence à Casa diversa da do relator (art. 3º, §§ 1º–4º). **Presidente e Vice-Presidentes** da comissão devem ser de Casas diferentes. **Relator revisor não é o mesmo que segundo relator simultâneo votando parecer autônomo**: sua função se exerce na Casa diversa.
 
@@ -57,7 +57,7 @@ O **Ato do Presidente do Congresso Nacional nº 1/2023**, formalizado em março 
 
 **Emenda:** é vedado conteúdo estranho à MP (art. 4º, § 4º). O Presidente da comissão faz **indeferimento liminar**; o autor pode recorrer com **apoio de três membros**, e o Plenário da comissão decide **por maioria simples**, sem discussão ou encaminhamento de votação (art. 4º, § 5º).
 
-**Quóruns da comissão, art. 4º, § 6º:** **início dos trabalhos** exige **um terço dos membros de cada Casa**; **deliberação**, presença da **maioria absoluta dos integrantes de cada Casa**, e maioria de votos. Na composição-base de 12 por Casa, a abertura demanda pelo menos **4 de cada Casa**; para deliberação, **7 de cada Casa**. Considerar vagas adicionais e composição concreta quando o enunciado fornecer números diferentes.
+**Quóruns da comissão, art. 4º, § 6º:** **início dos trabalhos** exige **um terço dos membros de cada Casa**; **deliberação**, presença da **maioria absoluta dos integrantes de cada Casa**, e maioria de votos. **Considerando as 13 vagas de cada Casa previstas no art. 2º, §§ 2º–3º, a abertura exige 5 senadores e 5 deputados; a deliberação exige presença de 7 de cada Casa.** Os números 4 por Casa só correspondem ao cálculo de um terço quando se desconsidera a vaga adicional, o que não representa a composição total prevista pela resolução. Conferir a composição efetiva se o enunciado trouxer outra hipótese.
 
 ## 2. Parecer, admissibilidade e PLV: art. 5º
 

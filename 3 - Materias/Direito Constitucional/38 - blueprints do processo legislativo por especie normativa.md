@@ -10,366 +10,172 @@ updated: 2026-11-19
 
 # Blueprints do processo legislativo por espécie normativa
 
-**Fases:** 01 Origem · 02 Recebimento e distribuição · 03 Instrução · 04 Deliberação · 05 Revisão e retorno · 06 Conclusão.
+Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e **camadas nas linhas**. Ações do proponente e atos públicos são separados pela *linha de interação*; atos públicos e trabalho de preparação, pela *linha de visibilidade*; bastidores e processos de suporte, pela *linha de interação interna*. Evidências e documentos mostram o que é produzido e circula entre os atores. **Bastidor não significa atividade sigilosa.**
 
-**Leitura:** cada **faixa identifica um ator**; as caixas mostram a **fase e a atividade** sob sua responsabilidade. Setas indicam entregas entre atores. Prazos aparecem apenas quando são próprios do caminho indicado. Os fluxos representam a **rota típica**, com ramificações essenciais. Para detalhes normativos e exceções, siga os links abaixo de cada mapa. No explorador Mermaid, use zoom para percorrer cada blueprint.
+**Leitura:** cada célula apresenta o ator e sua atividade. Os prazos e quóruns ocupam uma camada própria. Os quadros mostram o caminho típico; os artigos vinculados explicam recursos, interrupções, exceções e voltas da tramitação.
 
-## PL → lei ordinária
+## Projeto de lei (PL) → lei ordinária
 
-```mermaid
-flowchart LR
-  subgraph L0["Autor da proposição"]
-    direction LR
-    a["01 · Apresenta PL"]
-  end
-  subgraph L1["Presidência e serviços da Câmara"]
-    direction LR
-    b["02 · Recebe, publica<br/>e distribui"]
-  end
-  subgraph L2["Comissão e relator"]
-    direction LR
-    c["03 · Emendas e relatório<br/>parecer: 5 / 10 / 40 sessões"]
-  end
-  subgraph L3["Comissões / Plenário da Câmara"]
-    direction LR
-    d["04 · Apreciação conclusiva<br/>ou votação no Plenário"]
-  end
-  subgraph L4["Senado Federal"]
-    direction LR
-    e["05 · Revisa PL;<br/>emenda ou rejeita"]
-  end
-  subgraph L5["Câmara, quando houver emendas"]
-    direction LR
-    f["05 · Delibera sobre<br/>emendas do Senado"]
-  end
-  subgraph L6["Presidência da República"]
-    direction LR
-    g["06 · Sanção ou veto<br/>15 dias úteis"]
-  end
-  subgraph L7["Autoridade competente"]
-    direction LR
-    h["06 · Promulgação<br/>e publicação"]
-  end
-  a --> b --> c --> d --> e
-  e -->|sem emendas| g
-  e -->|com emendas| f --> g
-  g --> h
-```
+| Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | PL apresentado | Despacho | Emendas e parecer | Texto votado | Autógrafo / emendas | Lei publicada |
+| **Ações do proponente** | Autor legitimado apresenta projeto | não se aplica | Deputados apresentam emendas | não se aplica | não se aplica | não se aplica |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos e contatos públicos** | Protocolo recebe | Presidência distribui | Comissão delibera parecer | Comissão conclusiva ou Plenário vota | Senado revisa; Câmara examina emendas | Presidência sanciona ou veta |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: preparação e análise** | Assessoria apoia texto | Secretaria autua e publica | Relator produz voto | Secretaria organiza votação | Apoio compara redações | Elaboração do autógrafo e promulgação |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Registro eletrônico | Despacho publicado | Parecer e emendas | Registro de votos | Controle de versões | Diário Oficial |
+| **Prazos e quóruns** | Art. 61 CF | não se aplica | Comissão: 5 / 10 / 40 sessões, conforme regime | Art. 47 CF | Art. 64 CF quando urgência presidencial | Sanção/veto: 15 dias úteis |
 
-Origem: legitimado constitucional. O caminho da Câmara pode ser conclusivo nas comissões ou seguir ao Plenário. PL iniciado no Senado inverte as Casas. **Aprofundar:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação, comissões e revisão bicameral]] · [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Ritos e urgência constitucional]].
+**Para aprofundar:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação, comissões e revisão bicameral]] · [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Ritos e urgência constitucional]].
 
-## PLP → lei complementar
+## Projeto de lei complementar (PLP) → lei complementar
 
-```mermaid
-flowchart LR
-  subgraph L0["Autor legitimado"]
-    direction LR
-    a["01 · Apresenta PLP"]
-  end
-  subgraph L1["Presidência da Casa iniciadora"]
-    direction LR
-    b["02 · Recebe e distribui"]
-  end
-  subgraph L2["Comissões e relatores"]
-    direction LR
-    c["03 · Parecer sobre<br/>matéria e admissibilidade"]
-  end
-  subgraph L3["Plenário da Casa iniciadora"]
-    direction LR
-    d["04 · Votação<br/>maioria absoluta"]
-  end
-  subgraph L4["Plenário da Casa revisora"]
-    direction LR
-    e["05 · Votação<br/>maioria absoluta"]
-  end
-  subgraph L5["Casa iniciadora"]
-    direction LR
-    f["05 · Examina emendas<br/>da revisora, se houver"]
-  end
-  subgraph L6["Presidência da República"]
-    direction LR
-    g["06 · Sanção ou veto"]
-  end
-  subgraph L7["Autoridade competente"]
-    direction LR
-    h["06 · Promulgação<br/>e publicação"]
-  end
-  a --> b --> c --> d --> e
-  e -->|sem emendas| g
-  e -->|com emendas| f --> g
-  g --> h
-```
+| Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | PLP | Despacho | Parecer | Texto aprovado | Texto revisado | Lei complementar |
+| **Ações do proponente** | Autor legitimado apresenta | não se aplica | Parlamentares emendam | não se aplica | não se aplica | não se aplica |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos e contatos públicos** | Casa iniciadora recebe | Presidência distribui | Comissões apreciam | Plenário iniciador vota | Casa revisora vota | Presidente sanciona ou veta |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: preparação e análise** | Assessoria verifica reserva à LC | Secretaria autua | Relator redige voto | Apoio organiza sessão | Apoio confere emendas e retorno | Autógrafo e publicação |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Protocolo | Despacho | Parecer | Votação | Versões de texto | Diário Oficial |
+| **Prazos e quóruns** | Art. 69 CF | não se aplica | Prazos do regime aplicável | Maioria absoluta | Maioria absoluta | Art. 66 CF |
 
-Origem: legitimado com iniciativa para matéria reservada à lei complementar. Maioria absoluta em cada Casa (CF, art. 69). **Aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas e quóruns]] · [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa]].
+**Para aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas e quóruns]] · [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa]].
 
-## PEC → emenda constitucional
+## Proposta de emenda à Constituição (PEC) → emenda constitucional (EC)
 
-```mermaid
-flowchart LR
-  subgraph L0["Legitimados constitucionais"]
-    direction LR
-    a["01 · Apresentam PEC<br/>art. 60"]
-  end
-  subgraph L1["Presidência e órgão de admissibilidade"]
-    direction LR
-    b["02 · Recebe<br/>e distribui"]
-    c["03 · Verifica<br/>admissibilidade"]
-  end
-  subgraph L2["Comissão especial / órgãos competentes"]
-    direction LR
-    d["03 · Examina mérito<br/>e emendas"]
-  end
-  subgraph L3["Plenário da Casa iniciadora"]
-    direction LR
-    e["04 · Dois turnos<br/>3/5 em cada"]
-  end
-  subgraph L4["Casa revisora"]
-    direction LR
-    f["05 · Exames e dois turnos<br/>3/5 em cada"]
-  end
-  subgraph L5["Ambas as Casas"]
-    direction LR
-    g["05 · Se houver alteração:<br/>textos devem convergir"]
-  end
-  subgraph L6["Mesas da Câmara e Senado"]
-    direction LR
-    h["06 · Promulgam EC<br/>e publicam"]
-  end
-  a --> b --> c --> d --> e --> f
-  f -->|texto idêntico| h
-  f -->|texto divergente| g --> e
-```
+| Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | PEC | Despacho | Parecer de mérito | Texto em dois turnos | Texto de ambas as Casas | EC promulgada |
+| **Ações do proponente** | Legitimados do art. 60 apresentam | não se aplica | Emendas nos limites do rito | não se aplica | não se aplica | não se aplica |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos e contatos públicos** | Casa de origem recebe | Órgão competente examina admissibilidade | Comissão especial ou órgão próprio examina | Plenário iniciador vota em dois turnos | Casa revisora vota em dois turnos | Mesas das Casas promulgam |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: preparação e análise** | Apoio verifica requisitos | Serviços distribuem | Relatores preparam parecer | Serviços organizam turnos | Apoio verifica igualdade dos textos | Serviços preparam publicação |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Texto constitucional | Despacho | Parecer | Registro por turno | Comparação de redações | Publicação da EC |
+| **Prazos e quóruns** | Art. 60 CF | Rito especial | Prazos especiais | 3/5 em cada turno | 3/5 em cada turno | Sem sanção |
 
-Origem: legitimados do art. 60. Dois turnos e três quintos em cada Casa; promulgação pelas Mesas, sem sanção. **Aprofundar:** [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Poder constituinte e emendas]] · [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Quóruns por espécie]].
+**Para aprofundar:** [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Poder constituinte e emendas]] · [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Quóruns por espécie]].
 
-## MPV e PLV → conversão em lei
+## Medida provisória (MPV) e projeto de lei de conversão (PLV) → lei
 
-```mermaid
-flowchart LR
-  subgraph L0["Presidente da República"]
-    direction LR
-    a["01 · Edita e publica MPV"]
-  end
-  subgraph L1["Congresso / comissão mista"]
-    direction LR
-    b["02 · Recebe MPV<br/>e emendas"]
-    c["03 · Parecer<br/>e eventual PLV"]
-  end
-  subgraph L2["Plenário da Câmara"]
-    direction LR
-    d["04 · Primeira apreciação<br/>do texto"]
-  end
-  subgraph L3["Plenário do Senado"]
-    direction LR
-    e["05 · Examina texto;<br/>pode emendar"]
-  end
-  subgraph L4["Casas legislativas"]
-    direction LR
-    f["05 · Conciliação das<br/>alterações, se houver"]
-  end
-  subgraph L5["Presidente da Mesa do Congresso"]
-    direction LR
-    g["06 · Promulga conversão<br/>sem mudança"]
-  end
-  subgraph L6["Presidência da República"]
-    direction LR
-    h["06 · Sanciona ou veta PLV"]
-  end
-  subgraph L7["Congresso"]
-    direction LR
-    i["06 · Rejeição ou perda:<br/>examinar efeitos jurídicos"]
-  end
-  a --> b --> c --> d --> e
-  e -->|MPV original| g
-  e -->|PLV aprovado| h
-  e -->|alteração pendente| f --> h
-  d -->|rejeita| i
-  e -->|rejeita| i
-```
+| Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | MPV publicada | Emendas | Parecer ou PLV | Votação Câmara | Votação Senado | Lei ou perda de eficácia |
+| **Ações do proponente** | Presidente edita MPV | Parlamentares oferecem emendas | não se aplica | não se aplica | não se aplica | não se aplica |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos e contatos públicos** | MPV é publicada | Congresso recebe emendas | Comissão mista emite parecer | Câmara vota primeiro | Senado delibera; alterações podem retornar | Texto original: promulgação; PLV: sanção/veto |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: preparação e análise** | Apoio verifica pressupostos | Serviços registram | Relatoria prepara parecer e PLV | Serviços organizam votação | Apoio concilia textos | Congresso examina relações jurídicas se MPV perder eficácia |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Diário Oficial | Protocolo de emendas | Parecer da comissão mista | Registro de votos | Versões comparadas | Lei ou decreto legislativo |
+| **Prazos e quóruns** | 60 + 60 dias; recesso suspende | Prazo específico de emendas | Após 45 dias sem apreciação: urgência | Art. 62 CF | Dentro da vigência | Art. 62, § 12 CF |
 
-Origem: Presidente edita MPV, com força de lei. 60 + 60 dias de vigência, recesso suspende a contagem; após 45 dias sem apreciação, urgência constitucional. **Aprofundar:** [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|Rito completo das medidas provisórias]] · [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|Prazos, eficácia e PLV]].
+**Para aprofundar:** [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|Rito completo das medidas provisórias]] · [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|Prazos, eficácia e PLV]].
 
-## PDL → decreto legislativo
+## Projeto de decreto legislativo (PDL) → decreto legislativo
 
-```mermaid
-flowchart LR
-  subgraph L0["Autor parlamentar / órgão legitimado"]
-    direction LR
-    a["01 · Apresenta PDL"]
-  end
-  subgraph L1["Mesa da Casa competente"]
-    direction LR
-    b["02 · Recebe e distribui"]
-  end
-  subgraph L2["Comissões e relatores"]
-    direction LR
-    c["03 · Pareceres"]
-  end
-  subgraph L3["Casa iniciadora"]
-    direction LR
-    d["04 · Delibera"]
-  end
-  subgraph L4["Casa revisora ou Congresso"]
-    direction LR
-    e["05 · Delibera conforme<br/>competência e rito"]
-  end
-  subgraph L5["Autoridade legislativa competente"]
-    direction LR
-    f["06 · Promulga e publica<br/>decreto legislativo"]
-  end
-  a --> b --> c --> d --> e --> f
-```
+| Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | PDL | Despacho | Parecer | Deliberação | Exame seguinte, se cabível | Decreto legislativo |
+| **Ações do proponente** | Legitimado apresenta | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos e contatos públicos** | Mesa da Casa recebe | Presidência distribui | Comissões examinam | Casa competente vota | Outra Casa ou Congresso atua conforme hipótese | Autoridade legislativa promulga |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: preparação e análise** | Assessoria verifica competência | Secretaria registra | Relator produz parecer | Serviços organizam votação | Apoio prepara texto final | Secretaria prepara publicação |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Protocolo | Despacho | Parecer | Registro de voto | Autógrafo se cabível | Publicação |
+| **Prazos e quóruns** | CF art. 49 | Rito pertinente | Prazo aplicável à matéria | Quórum do caso | Depende da competência | Sem sanção |
 
-Origem: órgão legislativo com competência para a matéria. A rota entre Casas depende do fundamento constitucional e do procedimento aplicável; sem sanção. **Aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Decreto legislativo e competências]].
+**Para aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Decreto legislativo e competências]].
 
-## PRC → resolução da Câmara
+## Projeto de resolução da Câmara dos Deputados (PRC) → resolução da Câmara
 
-```mermaid
-flowchart LR
-  subgraph L0["Autor legitimado na Câmara"]
-    direction LR
-    a["01 · Apresenta PRC"]
-  end
-  subgraph L1["Presidência / Mesa da Câmara"]
-    direction LR
-    b["02 · Recebe e distribui"]
-  end
-  subgraph L2["Comissões e relatores"]
-    direction LR
-    c["03 · Examinam e emitem parecer"]
-  end
-  subgraph L3["Órgão decisório da Câmara"]
-    direction LR
-    d["04 · Delibera<br/>segundo rito"]
-  end
-  subgraph L4["Câmara dos Deputados"]
-    direction LR
-    e["06 · Promulga e publica<br/>resolução"]
-  end
-  a --> b --> c --> d --> e
-```
+| Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | PRC | Despacho | Parecer | Resolução aprovada | Não há revisão bicameral usual | Resolução publicada |
+| **Ações do proponente** | Legitimado na Câmara apresenta | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos e contatos públicos** | Câmara recebe | Presidência distribui | Comissões examinam se previsto | Órgão competente da Câmara vota | não se aplica | Câmara promulga |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: preparação e análise** | Apoio verifica competência | Secretaria registra | Relatoria prepara parecer | Serviços preparam ato | não se aplica | Secretaria publica |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Protocolo | Despacho | Parecer | Deliberação | não se aplica | Publicação da Câmara |
+| **Prazos e quóruns** | CF art. 51 | RICD | Rito pertinente | Quórum próprio | não se aplica | Sem sanção |
 
-Origem: Câmara. Resolve matéria de competência da própria Casa; em regra não há revisão do Senado nem sanção. **Aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Resoluções das Casas]] · [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Organização da Câmara]].
+**Para aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Resoluções das Casas]] · [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Organização da Câmara]].
 
-## PRS → resolução do Senado
+## Projeto de resolução do Senado Federal (PRS) → resolução do Senado
 
-```mermaid
-flowchart LR
-  subgraph L0["Autor legitimado no Senado"]
-    direction LR
-    a["01 · Apresenta PRS"]
-  end
-  subgraph L1["Mesa / Presidência do Senado"]
-    direction LR
-    b["02 · Recebe e distribui"]
-  end
-  subgraph L2["Comissões do Senado"]
-    direction LR
-    c["03 · Pareceres"]
-  end
-  subgraph L3["Órgão decisório do Senado"]
-    direction LR
-    d["04 · Delibera"]
-  end
-  subgraph L4["Senado Federal"]
-    direction LR
-    e["06 · Promulga e publica<br/>resolução"]
-  end
-  a --> b --> c --> d --> e
-```
+| Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | PRS | Despacho | Parecer | Resolução aprovada | Não há revisão bicameral usual | Resolução publicada |
+| **Ações do proponente** | Legitimado no Senado apresenta | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos e contatos públicos** | Senado recebe | Presidência distribui | Comissões examinam | Órgão do Senado vota | não se aplica | Senado promulga |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: preparação e análise** | Apoio verifica competência | Secretaria registra | Relator prepara parecer | Serviços preparam ato | não se aplica | Secretaria publica |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Protocolo | Despacho | Parecer | Deliberação | não se aplica | Publicação do Senado |
+| **Prazos e quóruns** | CF art. 52 | RISF | Rito pertinente | Quórum próprio | não se aplica | Sem sanção |
 
-Origem: Senado, em sua competência própria. Não passa pela Câmara como revisora nem depende de sanção. **Aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Resoluções e competências privativas]].
+**Para aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Resoluções e competências privativas]].
 
-## PRN → resolução do Congresso
+## Projeto de resolução do Congresso Nacional (PRN) → resolução do Congresso
 
-```mermaid
-flowchart LR
-  subgraph L0["Proponente legitimado"]
-    direction LR
-    a["01 · Apresenta PRN"]
-  end
-  subgraph L1["Presidência / Mesa do Congresso"]
-    direction LR
-    b["02 · Recebe e encaminha"]
-  end
-  subgraph L2["Colegiados do Congresso"]
-    direction LR
-    c["03 · Parecer, quando previsto"]
-  end
-  subgraph L3["Câmara e Senado em sessão conjunta"]
-    direction LR
-    d["04–05 · Deliberam<br/>conforme Regimento Comum"]
-  end
-  subgraph L4["Congresso Nacional"]
-    direction LR
-    e["06 · Promulga e publica<br/>resolução"]
-  end
-  a --> b --> c --> d --> e
-```
+| Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | PRN | Encaminhamento | Parecer se cabível | Sessão conjunta | Votos computados por Casa | Resolução publicada |
+| **Ações do proponente** | Legitimado apresenta | não se aplica | não se aplica | não se aplica | não se aplica | não se aplica |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos e contatos públicos** | Congresso recebe | Presidência encaminha | Colegiado instrui quando previsto | Congresso delibera segundo rito | Câmara e Senado votam segundo Regimento Comum | Congresso promulga |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: preparação e análise** | Apoio identifica competência | Serviços registram | Relator prepara parecer | Secretaria organiza sessão | Apoio apura resultado por Casa | Serviços preparam ato |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Protocolo | Despacho | Parecer | Pauta | Registro de votos | Publicação |
+| **Prazos e quóruns** | Ex.: CF art. 68, § 2º | Regimento Comum | Prazo da matéria | Rito próprio | Contagem separada quando aplicável | Sem sanção |
 
-Origem: Congresso Nacional. Exemplo: delegação legislativa. Sessões conjuntas seguem regras de votação próprias, com contagem por Casa quando aplicável. **Aprofundar:** [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Sessões conjuntas e votação]] · [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|PRN e resoluções]].
+**Para aprofundar:** [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Sessões conjuntas e votação]] · [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|PRN e resoluções]].
 
-## PLN → lei orçamentária
+## Projeto de lei do Congresso Nacional (PLN) → lei orçamentária
 
-```mermaid
-flowchart LR
-  subgraph L0["Presidente da República"]
-    direction LR
-    a["01 · Encaminha projeto<br/>orçamentário"]
-  end
-  subgraph L1["Presidência do Congresso"]
-    direction LR
-    b["02 · Recebe PLN"]
-  end
-  subgraph L2["CMO: comissão mista"]
-    direction LR
-    c["03 · Recebe emendas;<br/>relatoria e parecer"]
-  end
-  subgraph L3["Congresso Nacional"]
-    direction LR
-    d["04–05 · Deliberação<br/>em sessão conjunta"]
-  end
-  subgraph L4["Presidente da República"]
-    direction LR
-    e["06 · Sanção ou veto"]
-  end
-  subgraph L5["Autoridade competente"]
-    direction LR
-    f["06 · Promulgação<br/>e publicação"]
-  end
-  a --> b --> c --> d --> e --> f
-```
+| Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | PLN e anexos | Distribuição | Emendas e parecer | Projeto votado | Autógrafo | Lei orçamentária |
+| **Ações do proponente** | Presidente encaminha projeto | não se aplica | Parlamentares oferecem emendas | não se aplica | não se aplica | não se aplica |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos e contatos públicos** | Congresso recebe | Presidência distribui | Comissão Mista de Orçamento (CMO) emite parecer | Congresso vota em sessão conjunta | Congresso encaminha texto | Presidente sanciona ou veta |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: preparação e análise** | Apoio elabora anexos | Serviços autuam | Relatores setoriais e geral analisam | Serviços organizam sessão | Apoio consolida emendas | Serviços preparam publicação |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Sistemas orçamentários | Despacho | Parecer da CMO | Registro de votos | Autógrafo | Publicação da lei |
+| **Prazos e quóruns** | CF e ADCT | Rito orçamentário | Resolução 1/2006-CN | Quórum aplicável | Prazos próprios | Art. 66 CF |
 
-Origem: Presidente apresenta PPA, LDO, LOA ou projeto de crédito adicional quando cabível. Prazos e emendas seguem CF, ADCT e regras orçamentárias próprias. **Aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Comparação de espécies]] · [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Congresso e votação conjunta]].
+**Para aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Comparação de espécies]] · [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Congresso e votação conjunta]].
 
-## Delegação → lei delegada
+## Delegação legislativa → lei delegada
 
-```mermaid
-flowchart LR
-  subgraph L0["Presidente da República"]
-    direction LR
-    a["01 · Solicita delegação"]
-    d["04–05 · Elabora<br/>lei delegada"]
-  end
-  subgraph L1["Congresso Nacional"]
-    direction LR
-    b["02–03 · Examina pedido"]
-    c["04 · Autoriza por resolução<br/>com limites"]
-    e["05 · Aprecia, se previsto<br/>votação única, sem emendas"]
-  end
-  subgraph L2["Autoridade competente"]
-    direction LR
-    f["06 · Promulgação<br/>e publicação"]
-  end
-  a --> b --> c --> d
-  d -->|apreciação prevista| e --> f
-  d -->|sem apreciação| f
-```
+| Camadas / fases | **1. Origem** | **2. Recebimento** | **3. Instrução** | **4. Deliberação** | **5. Revisão / retorno** | **6. Conclusão** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Evidências e documentos** | Pedido de delegação | Projeto de resolução | Resolução autorizativa | Lei elaborada | Apreciação se exigida | Lei delegada publicada |
+| **Ações do proponente** | Presidente solicita delegação | não se aplica | não se aplica | Presidente elabora texto | não se aplica | não se aplica |
+| *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
+| **Frontstage: atos e contatos públicos** | Congresso recebe pedido | Órgãos competentes instruem | Congresso autoriza por resolução | Presidente elabora dentro dos limites | Congresso vota se resolução exigir | Lei delegada é promulgada e publicada |
+| *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Backstage: preparação e análise** | Apoio examina matéria | Serviços autuam | Assessoria detalha limites | Apoio confere conformidade | Serviços organizam votação | Serviços registram ato |
+| *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
+| **Processos de suporte** | Pedido formal | Protocolo | Resolução do Congresso | Texto da lei | Registro de votação | Publicação |
+| **Prazos e quóruns** | CF art. 68 | Regimento Comum | Limites autorizados | Conforme delegação | Votação única, sem emendas | Sem sanção de PL comum |
 
-Origem: Presidente solicita delegação ao Congresso; resolução delimita o objeto. Se houver apreciação parlamentar prevista, ocorre votação única, sem emendas. **Aprofundar:** [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|Delegação legislativa, limites e procedimento]].
+**Para aprofundar:** [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|Delegação legislativa, limites e procedimento]].
 
 ## Fontes normativas
 
-[Constituição Federal, arts. 47–69 e 165–166](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988) · [Regimento Interno da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) · [Regimento Comum do Congresso](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) · [Resolução nº 1/2002-CN](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html).
+[Constituição Federal](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988) · [Regimento Interno da Câmara](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) · [Regimento Comum do Congresso](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) · [Resolução nº 1/2002-CN](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html).
 
-Os diagramas apresentam modelos de rotas e não substituem o procedimento específico de cada matéria. Validação visual de faixas, posicionamento, contraste e zoom será registrada após inspeção real da página.
+**Limite da representação:** são matrizes de leitura por espécie. Ações paralelas, retornos e decisões excepcionais devem ser consultados nos artigos detalhados.

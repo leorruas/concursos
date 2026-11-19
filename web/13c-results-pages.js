@@ -106,6 +106,21 @@
   if(details.parentElement===root && details.querySelector('summary')?.textContent.trim()==='Histórico e diagnóstico detalhado')details.remove();
  });
  root.prepend(nav,...panels.values());
+ // Indicadores analiticos e origem das respostas pertencem as paginas de detalhe.
+ function moveDetail(id,view,titleText){
+  const node=document.getElementById(id);
+  if(!node)return;
+  const section=document.createElement('section');
+  section.className='results-section';
+  const title=document.createElement('h2');title.textContent=titleText;
+  section.append(title,node);
+  panels.get(view).append(section);
+ }
+ moveDetail('results-detailed-stats','materias','Outros indicadores');
+ moveDetail('results-study-modes','materias','Modalidades de estudo');
+ moveDetail('results-competitive-simulations','materias','Simulados');
+ moveDetail('results-quiz-stats','historico','Origem dos registros');
+ moveDetail('results-quiz-status','historico','Conciliação das fontes');
  // O bloco discursivo estava dentro do Resumo quando o painel foi destacado do DOM.
  // Move-lo depois de anexar as visoes evita que querySelector perca o descendente.
  const practice=document.getElementById('results-discursive');

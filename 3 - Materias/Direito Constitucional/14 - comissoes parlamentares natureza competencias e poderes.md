@@ -21,7 +21,7 @@ aliases:
 
 A **Constituição Federal, art. 58**, estabelece que o Congresso Nacional e suas Casas têm **comissões permanentes e temporárias**, constituídas segundo o respectivo regimento ou ato de criação. No **Regimento Interno da Câmara dos Deputados (RICD), art. 22**, a **comissão permanente** integra a estrutura institucional da Casa, possui caráter técnico-legislativo ou especializado e realiza apreciação de proposições e acompanhamento e fiscalização nos campos de sua competência. A **comissão temporária** é criada para assunto determinado e se extingue ao terminar a legislatura, ao alcançar sua finalidade ou ao expirar seu prazo.
 
-O **art. 33** subdivide as temporárias em **especiais, de inquérito e externas**. Essa taxonomia é o núcleo de **CAM-PL-004**. A banca pode descrever corretamente o poder de investigar e atribuí-lo a uma comissão especial, ou associar uma missão externa à aprovação de uma PEC: a função é verdadeira, mas a categoria está errada.
+O **art. 33** subdivide as temporárias em **especiais, de inquérito e externas**. Essa taxonomia é o núcleo de **comissões parlamentares**. A banca pode descrever corretamente o poder de investigar e atribuí-lo a uma comissão especial, ou associar uma missão externa à aprovação de uma PEC: a função é verdadeira, mas a categoria está errada.
 
 A [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] explica a **sequência de tramitação**. Aqui o objeto muda: **que tipo de comissão é competente para cada tarefa**, como se constitui e quais são seus poderes e limites. A estrutura do parecer e sua votação ficam para **CAM-PL-005**; os poderes investigatórios e limites judiciais das CPIs serão detalhados em **CAM-PL-031**.
 
@@ -33,9 +33,7 @@ Mude apenas a finalidade: se deputados pretendem **investigar um fato determinad
 
 ### Organização interna e regras de funcionamento
 
-Para a organização geral da Mesa e das lideranças, ver [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Regimento da Câmara: organização e órgãos]].
-
-A [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Regimento da Câmara: organização, Mesa, lideranças e órgãos (arts. 1º a 24)]] introduz os arts. 22 a 24 e a distinção entre comissões permanentes e temporárias. A parte inicial desta nota já trata dos tipos de comissão, das comissões especiais, parlamentares de inquérito e externas. Aqui, o foco é outro: **composição, proporcionalidade, eleição de dirigentes, impedimentos, reuniões, quóruns, prazos, distribuição e tipos de parecer** segundo os **arts. 25 a 54**. O nome “comissão” não indica automaticamente o **órgão que decide**, o **tipo de decisão** ou o **prazo aplicável**.
+O capítulo [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Regimento da Câmara: organização, Mesa, lideranças e órgãos (arts. 1º a 24)]] introduz os arts. 22 a 24 e a distinção entre comissões permanentes e temporárias. Para compreender a atuação desses órgãos, é preciso examinar também **composição, proporcionalidade, eleição de dirigentes, impedimentos, reuniões, quóruns, prazos, distribuição e tipos de parecer** segundo os **arts. 25 a 54**. O nome “comissão” não indica automaticamente o **órgão que decide**, o **tipo de decisão** ou o **prazo aplicável**.
 
 ## Estrutura interna: permanentes versus temporárias
 

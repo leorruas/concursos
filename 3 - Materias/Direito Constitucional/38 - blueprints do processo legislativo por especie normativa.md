@@ -50,7 +50,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Assessoria verifica reserva à LC | Secretaria autua | Relator redige voto | Apoio organiza sessão | Apoio confere emendas e retorno | Autógrafo e publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Protocolo | Despacho | Parecer | Votação | Versões de texto | Diário Oficial |
-| **Prazos e quóruns** | Art. 69 CF | não se aplica | Prazos do regime aplicável | Maioria absoluta | Maioria absoluta | Art. 66 CF |
+| **Prazos e quóruns** | Art. 69 CF | não se aplica | Prazos do regime aplicável | Maioria absoluta; **dois turnos se a Casa iniciadora for a Câmara** (RICD, art. 148) | Maioria absoluta; **dois turnos se a revisora for a Câmara**, turno único no Senado, ressalvado turno suplementar (RISF, art. 270) | Art. 66 CF: **15 dias úteis** para sanção ou veto |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas e quóruns]] · [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa]].
 

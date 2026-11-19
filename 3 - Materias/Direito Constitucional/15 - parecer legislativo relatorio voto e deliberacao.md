@@ -223,7 +223,3 @@ Uma resposta sólida pode seguir **conceito regimental de parecer (art. 126) →
 - [RICD, edição consolidada até a Resolução nº 34/2026, Câmara dos Deputados](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 - [RICD, 31ª edição, Biblioteca da Câmara dos Deputados (2026)](https://bd.camara.leg.br/bd/items/version/400).
 
-**Limites editoriais:** as questões são inéditas, didáticas e escritas para treinar distinções do Regimento, sem reivindicar reprodução de questões oficiais da Cebraspe. A nota não comprova estudo, domínio nem desempenho do candidato; prazos e procedimentos devem ser interpretados na redação vigente do texto normativo.
-
-
-> **Fontes consolidadas para consulta (15/11/2026):** o portal da Câmara disponibiliza o [Regimento Interno atualizado até a Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) e a [Constituição atualizada até a Emenda Constitucional nº 141/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988). A consolidação mais recente deve ser consultada quando houver divergência com reproduções antigas. Esta atualização de referências não representa nova certificação de todos os dispositivos citados no artigo.

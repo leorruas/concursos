@@ -75,7 +75,7 @@ Considere três pessoas na Câmara e em uma empresa estatal: uma analista concur
 
 A **Lei nº 8.112/1990** regula o vínculo estatutário dos servidores civis federais abrangidos por ela. Seu art. 3º define cargo público como um conjunto de atribuições e responsabilidades, criado por lei, com denominação própria e vencimento pago pelos cofres públicos, para provimento efetivo ou em comissão. A CLT, por sua vez, disciplina os contratos de emprego, inclusive os de empregados de empresas estatais. Compare:
 
-| Categoria | Conceito Dogmático | Regime Jurídico | Natureza do Vínculo | Hipótese de Ocorrência |
+| Categoria | O que é | Regras aplicáveis | Tipo de vínculo | Exemplo |
 | :--- | :--- | :--- | :--- | :--- |
 | **Cargo Público** | Lugar instituído na organização do serviço público, **criado por lei**, em número determinado e com denominação própria, com conjunto de atribuições e estipêndio pago pelos cofres públicos. | **Estatutário** no regime federal atualmente aplicável aos cargos efetivos (Lei nº 8.112/1990). A Constituição não impede, em abstrato, regimes distintos para vínculos distintos, observadas as leis e a jurisprudência. | Vínculo de direito público; não há contrato de trabalho; alteração unilateral de regime por lei. | Administração Direta, Autarquias e Fundações Públicas de direito público. |
 | **Emprego Público** | Unidade de atribuições e tarefas desempenhadas por trabalhador sob vínculo contratual regido predominantemente pelo direito do trabalho comum. | **Trabalhista / Celetista** (regido pela CLT - Consolidação das Leis do Trabalho). | Vínculo contratual trabalhista bilateral, com recolhimento obrigatório de FGTS. | Empresas Públicas, Sociedades de Economia Mista e suas subsidiárias (art. 173, § 1º, II, CF). |

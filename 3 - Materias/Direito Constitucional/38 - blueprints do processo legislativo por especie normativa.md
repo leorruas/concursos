@@ -21,12 +21,12 @@ Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e 
 | **Evidências e documentos** | PL apresentado | Despacho | Emendas e parecer | Texto votado | Autógrafo / emendas | Lei publicada |
 | **Ações do proponente** | Autor legitimado apresenta projeto | não se aplica | Deputados apresentam emendas | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | Protocolo recebe | Presidência distribui | Comissão delibera parecer | Comissão conclusiva ou Plenário vota | Senado revisa; Câmara examina emendas | Presidência sanciona ou veta |
+| **Frontstage: atos e contatos públicos** | Protocolo recebe | Presidência distribui | Comissão delibera parecer | Comissão conclusiva ou Plenário vota | Senado revisa; Câmara examina emendas | Presidente da República sanciona ou veta; Congresso aprecia eventual veto |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
-| **Backstage: preparação e análise** | Assessoria apoia texto | Secretaria autua e publica | Relator produz voto | Secretaria organiza votação | Apoio compara redações | Elaboração do autógrafo e promulgação |
+| **Backstage: preparação e análise** | Assessoria apoia texto | Secretaria autua e publica | Relator produz voto | Secretaria organiza votação | Apoio compara redações e prepara autógrafo | Serviços preparam a promulgação e a publicação após a decisão final |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Registro eletrônico | Despacho publicado | Parecer e emendas | Registro de votos | Controle de versões | Diário Oficial |
-| **Prazos e quóruns** | Art. 61 CF | não se aplica | Comissão: 5 / 10 / 40 sessões, conforme regime | Art. 47 CF | Art. 64 CF quando urgência presidencial | Sanção/veto: 15 dias úteis |
+| **Prazos e quóruns** | Art. 61 CF | não se aplica | Comissão: 5 / 10 / 40 sessões, conforme regime | Art. 47 CF | Art. 64 CF quando urgência presidencial | Sanção/veto: 15 dias úteis; veto: exame congressual específico |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação, comissões e revisão bicameral]] · [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Ritos e urgência constitucional]].
 

@@ -188,21 +188,3 @@ A diferença temporal mais importante é **fim da sessão legislativa × fim da 
 **Quatro fronteiras centrais:** **comunicar ≠ votar; pedir retirada ≠ decidir retirada; ata ≠ íntegra irrestrita de documento; fim da sessão legislativa ≠ fim da legislatura**.
 
 **A palavra que pode mudar o gabarito:** “automaticamente” na questão de ordem, “qualquer” na fala parlamentar, “somente” na competência do Presidente para retirada, “todas” nas proposições arquivadas. A condição regimental é mais importante do que o nome do instituto.
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Escopo conferido:** conteúdo, quadros, nove casos progressivos e **dez itens inéditos C/E**, cotejados com os **arts. 81 a 105 do [Regimento Interno da Câmara dos Deputados, texto oficial atualizado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html)**. A verificação preserva a distinção entre o recorte **81–94** do programa de Direito Constitucional e o complemento didático **95–105**, associado à matéria geral de Processo Legislativo.
-
-**Verificações principais:** Pequeno Expediente com **cinco minutos sem apartes**, inscrição pessoal até **13h30**; Ordem do Dia com verificação de quórum e possibilidade de inversão; janela de **dez minutos** para apresentação de proposições; art. 84 **revogado**; Grande Expediente com **25 minutos** e limite de **três oportunidades por semestre** (uma por sorteio, duas por cessão); comunicações de líderes de três a dez minutos, com oito minutos para Governo, Minoria, Oposição e Maioria; Comissão Geral como **transformação da sessão plenária**, sem aprovação conclusiva de proposições; sessões secretas com rito e documentação próprios; questão de ordem de **três minutos**, recurso ao Plenário **sem efeito suspensivo automático**, parecer da CCJC em até **três sessões**; ata, Diário e Voz do Brasil sob regras de publicação; atos legislativos em **meio digital**; retirada de proposição após ao menos um parecer favorável decidida **pelo Plenário**; e arquivamento no fim da legislatura com **exceções da Resolução nº 33/2022**, notadamente iniciativa popular e projetos de código.
-
-**Dez questões C/E, na ordem, com gabaritos preservados:** **C, E, C, C, E, E, C, E, C, E**. Nenhuma inversão demonstrada no confronto com os dispositivos. Também não foi necessária alteração dos nove casos, do `articleId`, dos aliases ou dos links de estudo.
-
-**Limites:** certificação do **recorte jurídico e dos exemplos efetivamente presentes na nota nesta data**. A existência de regras especiais, atos posteriores ou alterações constitucionais pode exigir complemento em outros materiais. Esta conferência não prova aplicação do rito em todas as situações reais, funcionamento do GitHub Pages ou aprendizagem do estudante.
-
-### Fontes normativas
-
-- [Câmara dos Deputados, Regimento Interno, texto consolidado atualizado, arts. 81 a 105](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html), cotejado em 08/11/2026.
-- [Câmara dos Deputados, Regimento Interno, 31ª edição (2026)](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
-- [Constituição Federal, art. 59, para espécies normativas](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988).
-
-**Nota editorial:** os itens C/E são inéditos para treino e não reproduzem questões oficiais. Esta publicação editorial não comprova estudo pessoal, retenção ou execução de simulado.

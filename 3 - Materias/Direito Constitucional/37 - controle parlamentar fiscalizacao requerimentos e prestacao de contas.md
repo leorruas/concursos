@@ -171,7 +171,7 @@ Fontes: [STF, art. 71 e precedentes MS 23.550/MS 24.510](https://portal.stf.jus.
 
 ### Caso 1: Convocação de Chefe de Poder
 Uma comissão parlamentar da Câmara dos Deputados aprova requerimento de convocação obrigatória do Presidente da República para prestar depoimento sobre denúncias veiculadas na imprensa.
-*Análise:* O ato é flagrantemente inconstitucional. O art. 50 da CF autoriza a convocação coercitiva de Ministros de Estado e titulares de órgãos subordinados à Presidência, mas **jamais do Presidente ou do Vice-Presidente da República**, sob pena de violação ao princípio da separação de Poderes (cláusula pétrea do art. 60, § 4º, III).
+*Análise:* O ato é flagrantemente inconstitucional. O art. 50 da Constituição autoriza a convocação de **ministros de Estado, titulares de órgãos diretamente subordinados à Presidência e do Presidente do Comitê Gestor do Imposto sobre Bens e Serviços**, mas **não do Presidente ou do Vice-Presidente da República**, sob pena de violação ao princípio da separação de Poderes (cláusula pétrea do art. 60, § 4º, III).
 
 ### Caso 2: Requerimento de informação a Ministro e contagem de prazo
 A Mesa da Câmara encaminha pedido de informações sobre contratos de publicidade institucional a determinado Ministro de Estado. Transcorridos 35 dias sem qualquer resposta ou solicitação fundamentada de prorrogação, o Ministro argumenta que não cometeu infração porque o prazo de resposta do processo administrativo geral seria de 60 dias.
@@ -196,7 +196,7 @@ Uma auditoria do TCU identifica indícios robustos de superfaturamento em contra
 *( ) Errado*
 
 **Gabarito: Errado.**
-**Comentário:** A prerrogativa de convocação coercitiva sob cominação de crime de responsabilidade (CF, art. 50, *caput*) alcança Ministros de Estado e titulares de órgãos subordinados à Presidência da República, **não incluindo o Presidente da República**. O Chefe do Poder Executivo não se submete à convocação pessoal por órgãos parlamentares, em respeito à harmonia e independência entre os Poderes.
+**Comentário:** A prerrogativa de convocação prevista no art. 50, *caput*, alcança **ministros de Estado, titulares de órgãos diretamente subordinados à Presidência da República e o Presidente do Comitê Gestor do IBS**, incluído pela EC nº 132/2023. **Não alcança o Presidente da República**, o que torna o item errado. O Chefe do Poder Executivo não se submete à convocação pessoal por órgãos parlamentares, em respeito à harmonia e independência entre os Poderes.
 
 ---
 

@@ -20,6 +20,8 @@ Para organizar o assunto, formule **seis perguntas diferentes**: qual necessidad
 
 ## Núcleo do conceito
 
+Para acompanhar uma contratação pública, separe três momentos: **planejar a necessidade**, **escolher a forma legal de selecionar o fornecedor** e **acompanhar a execução do contrato**. As regras mudam conforme o momento. Por isso, um requisito do edital, uma exigência para contratar diretamente e uma obrigação de fiscalização respondem a perguntas diferentes.
+
 A **licitação** é um procedimento administrativo competitivo para selecionar proposta capaz de gerar o resultado de contratação mais vantajoso para a Administração, com **tratamento isonômico**, competição justa e prevenção de preços excessivos ou manifestamente inexequíveis. O **art. 11** também vincula seus objetivos à inovação e ao desenvolvimento nacional sustentável.
 
 **Menor preço não é sinônimo universal de proposta mais vantajosa.** O objeto e o edital determinam como comparar preços e atributos técnicos. Uma solução barata que não cumpra requisitos de acessibilidade pode ser inadequada e até desclassificada conforme as condições legais. **Sobrepreço** envolve preço orçado ou contratado expressivamente superior a referências de mercado; **superfaturamento**, prejuízo ao patrimônio público caracterizado nas situações legais, como medições acima do efetivamente executado.

@@ -22,7 +22,7 @@ O **art. 100 do RICD**, aprovado pela Resolução da Câmara dos Deputados nº 1
 
 A palavra **deliberação** deve ser lida em sentido regimental: algumas proposições serão decididas pelo **Plenário**, outras por **comissões**, pela **Presidência** ou por outros órgãos competentes, conforme sua espécie e o dispositivo aplicável. Assim, **ser proposição não exige votação em Plenário em todas as hipóteses**.
 
-**CAM-PL-001** abre a trilha de **Processo Legislativo e Regimentos** da Câmara dos Deputados, banca Cebraspe. As espécies normativas do **art. 59 da Constituição** já estão na nota [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]]. Aqui, o problema é **classificar os documentos e atos que circulam no processo da Câmara**, sem confundi-los com leis ou com as fases posteriores de deliberação.
+O estudo das proposições integra o conteúdo de **Processo Legislativo e Regimentos** da Câmara dos Deputados, banca Cebraspe. As espécies normativas do **art. 59 da Constituição** já estão na nota [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]]. Aqui, o problema é **classificar os documentos e atos que circulam no processo da Câmara**, sem confundi-los com leis ou com as fases posteriores de deliberação.
 
 ### Exercício de identificação antes de classificar
 

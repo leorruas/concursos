@@ -89,6 +89,21 @@ O **art. 140** permite que uma comissão peça ao **Presidente da Câmara**, por
 
 Já o **art. 141** trata do **conflito de competência**: se a comissão se considera incompetente, ou deputado ou comissão suscita conflito no prazo regimental indicado, a decisão cabe ao **Presidente da Câmara em duas sessões**, ou **imediatamente em matéria urgente**. Há **recurso ao Plenário no mesmo prazo**. Pedir parecer de outra comissão e alegar incompetência de comissão previamente designada produzem procedimentos diferentes; nenhum dos dois é recurso contra o conteúdo de decisão conclusiva.
 
+## Instrução: mérito, admissibilidade e parecer
+
+Pelo **art. 53 do RICD**, a análise das proposições, ressalvados requerimentos e hipóteses específicas, envolve:
+
+| Órgão | Foco da análise | O que não se conclui daí |
+| :--- | :--- | :--- |
+| **Comissão temática de mérito** | Conveniência, conteúdo e efeitos da política proposta | Que a proposição já passou na verificação formal e fiscal |
+| **CFT**, quando pertinente | Compatibilidade ou adequação financeira e orçamentária e, quando aplicável, mérito | Que parecer financeiro equivale a voto favorável em Plenário |
+| **CCJC** | Constitucionalidade, juridicidade, legalidade, regimentalidade e técnica legislativa e, quando aplicável, mérito | Que a CCJC só examina preferências políticas |
+| **Comissão especial**, nas hipóteses regimentais | Exame concentrado conforme competências próprias | Que todo projeto exige comissão especial |
+
+**Parecer** não é sinônimo de opinião pessoal do relator. O **art. 129** separa **relatório**, **voto do relator** e **parecer da comissão**, que registra a conclusão adotada e os votos dos membros. Se a comissão rejeita o voto do relator, poderá adotar posição diferente, formalizada segundo as regras regimentais. **Relator favorável ≠ comissão favorável. Comissão favorável ≠ lei aprovada.**
+
+**Terminativo ≠ conclusivo.** O **art. 54** disciplina caráter **terminativo** de parecer sobre **constitucionalidade ou juridicidade (CCJC)** e sobre **adequação financeira e orçamentária (CFT)**, além de comissão especial nas hipóteses previstas. Já o **poder conclusivo** diz respeito à possibilidade de determinadas comissões **discutirem e votarem projetos de lei sem deliberação final ordinária do Plenário**, sob condições e recurso. Uma decisão terminativa sobre uma **preliminar** não é a mesma coisa que decisão conclusiva sobre o **mérito legislativo**.
+
 ### Mapa operacional do projeto de lei em regime ordinário
 
 **1. Apresentação e recebimento.** O legitimado apresenta o projeto à Mesa. Nos termos dos **arts. 131, 137 e 138 do RICD**, a proposição é identificada, numerada, datada, publicada e despachada para instrução. O exame de **iniciativa** e das condições de recebimento não equivale ao julgamento do mérito. Se houver devolução nas hipóteses do art. 137, § 1º, o § 2º prevê **recurso ao Plenário em cinco sessões**, observada a audiência da CCJC.
@@ -106,21 +121,6 @@ Já o **art. 141** trata do **conflito de competência**: se a comissão se cons
 **7. Bicameralismo e conclusão constitucional.** Após aprovação na Câmara, o projeto de lei será revisto pelo Senado, se a Câmara for a iniciadora, ou seguirá as etapas próprias se tiver vindo do Senado. Pelo **art. 65 da CF**, se a revisora **emendar**, o texto retorna à iniciadora; se **rejeitar**, será arquivado; se **aprovar sem alterações**, segue à etapa final aplicável. Para lei ordinária, os atos de **sanção/veto, promulgação e publicação** seguem o art. 66 nas hipóteses cabíveis, aprofundadas em [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação: etapas, prazos e competências]].
 
 **Delimitação:** o procedimento acima é um **percurso típico, sujeito a condições**, e não cronograma universal de todo processo legislativo. Quando a proposição passa a tramitar por **prioridade**, **urgência**, rito constitucional especial, ou recebe apensação e emendas, o percurso concreto pode mudar.
-
-## Instrução: mérito, admissibilidade e parecer
-
-Pelo **art. 53 do RICD**, a análise das proposições, ressalvados requerimentos e hipóteses específicas, envolve:
-
-| Órgão | Foco da análise | O que não se conclui daí |
-| :--- | :--- | :--- |
-| **Comissão temática de mérito** | Conveniência, conteúdo e efeitos da política proposta | Que a proposição já passou na verificação formal e fiscal |
-| **CFT**, quando pertinente | Compatibilidade ou adequação financeira e orçamentária e, quando aplicável, mérito | Que parecer financeiro equivale a voto favorável em Plenário |
-| **CCJC** | Constitucionalidade, juridicidade, legalidade, regimentalidade e técnica legislativa e, quando aplicável, mérito | Que a CCJC só examina preferências políticas |
-| **Comissão especial**, nas hipóteses regimentais | Exame concentrado conforme competências próprias | Que todo projeto exige comissão especial |
-
-**Parecer** não é sinônimo de opinião pessoal do relator. O **art. 129** separa **relatório**, **voto do relator** e **parecer da comissão**, que registra a conclusão adotada e os votos dos membros. Se a comissão rejeita o voto do relator, poderá adotar posição diferente, formalizada segundo as regras regimentais. **Relator favorável ≠ comissão favorável. Comissão favorável ≠ lei aprovada.**
-
-**Terminativo ≠ conclusivo.** O **art. 54** disciplina caráter **terminativo** de parecer sobre **constitucionalidade ou juridicidade (CCJC)** e sobre **adequação financeira e orçamentária (CFT)**, além de comissão especial nas hipóteses previstas. Já o **poder conclusivo** diz respeito à possibilidade de determinadas comissões **discutirem e votarem projetos de lei sem deliberação final ordinária do Plenário**, sob condições e recurso. Uma decisão terminativa sobre uma **preliminar** não é a mesma coisa que decisão conclusiva sobre o **mérito legislativo**.
 
 ### Os prazos do art. 52: por comissão, não para a lei inteira
 

@@ -80,7 +80,7 @@ São condições constitucionais de elegibilidade, na forma da lei:
 
 ### Quando a idade é aferida
 
-A Constituição fixa a idade; a **Lei nº 9.504/1997, art. 11, § 2º, com redação da Lei nº 15.230/2025**, disciplina o momento de aferição. A constitucionalidade dessa mudança foi questionada na **ADI 7991**; a existência da ação, por si, não permite presumir suspensão de eficácia da lei. A regra atual distingue:
+A Constituição fixa a idade; a **Lei nº 9.504/1997, art. 11, § 2º, com redação da Lei nº 15.230/2025**, disciplina o momento de aferição. A mudança foi questionada na **Ação Direta de Inconstitucionalidade (ADI) 7.991**, mas o Supremo Tribunal Federal (STF) não examinou o mérito da constitucionalidade da regra nessa ação: a demanda não foi conhecida por falta de comprovação de representação do partido autor no Congresso Nacional, e o Plenário **negou provimento ao agravo regimental em setembro de 2026**. A decisão processual não permite afirmar que o STF validou o conteúdo da lei nem que suspendeu sua eficácia. [Fonte: andamento oficial da ADI 7.991 no STF](https://portal.stf.jus.br/processos/listarProcessos.asp?classe=ADI&numeroProcesso=7991). A regra legal distingue:
 
 - **cargos do Poder Executivo**: idade aferida na data da posse;
 - **candidatos às Câmaras Municipais**: no limite para o pedido de registro;

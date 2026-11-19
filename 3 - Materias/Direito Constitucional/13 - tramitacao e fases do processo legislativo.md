@@ -39,7 +39,7 @@ Na apresentação didática clássica da **formação de lei**, distinguem-se:
 | **Constitutiva** | Quem delibera sobre o texto? | Exame, emendas, pareceres e votação no Legislativo, revisão bicameral e **sanção ou veto quando cabíveis** | Tratar parecer de relator como aprovação final |
 | **Complementar ou integrativa** | Como a norma aprovada se formaliza e divulga? | Promulgação e publicação, conforme espécie normativa | Presumir que publicação substitui aprovação |
 
-Essa classificação é **doutrinária e organizadora**, não um comando para presumir igual encadeamento em **todas** as espécies normativas. Por exemplo, **PEC não se submete a sanção ou veto presidencial** e possui aprovação constitucionalmente qualificada. As categorias mais detalhadas de fase, parecer, quórum e rito serão retomadas em CAM-PL-004 a 010.
+Essa classificação é **doutrinária e organizadora**, não um comando para presumir igual encadeamento em **todas** as espécies normativas. Por exemplo, **PEC não se submete a sanção ou veto presidencial** e possui aprovação constitucionalmente qualificada. Por isso, os procedimentos próprios de cada espécie precisam ser examinados separadamente.
 
 **Três fronteiras:** **iniciativa ≠ recebimento e distribuição**; **parecer ≠ deliberação definitiva**; **aprovação legislativa ≠ sanção, promulgação ou publicação**.
 
@@ -377,7 +377,7 @@ Concluída a deliberação legislativa do projeto de **lei**, o **art. 66** disc
 
 A **tramitação de projeto na Câmara**, a **revisão no Senado**, a **sanção ou veto**, a **promulgação** e a **publicação** são marcos distinguíveis; não se pode deduzir **lei vigente** apenas do anúncio de aprovação por uma comissão ou uma Casa.
 
-**Exceção de espécie:** proposta de emenda à Constituição aprovada em dois turnos por **três quintos em cada Casa** é promulgada pelas **Mesas da Câmara e do Senado**, sem sanção ou veto. Projetos de decreto legislativo e de resolução também têm disciplina própria. O detalhamento dessas diferenças pertence às unidades CAM-PL-007 e CAM-PL-011 a 015 e à nota [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|constitucional canônica]].
+**Exceção de espécie:** proposta de emenda à Constituição aprovada em dois turnos por **três quintos em cada Casa** é promulgada pelas **Mesas da Câmara e do Senado**, sem sanção ou veto. Projetos de decreto legislativo e de resolução também têm disciplina própria. Essas diferenças também são tratadas em [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]].
 
 ### Caso progressivo: um projeto e seis mudanças relevantes
 

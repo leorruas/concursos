@@ -318,8 +318,6 @@ Cuidado com verdades parciais: a **comissão permanente fiscaliza**, mas não ad
 - [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]]: gêneros de proposição e distinção entre proposta, projeto, requerimento e parecer.
 - [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]]: bicameralismo e controle externo.
 - [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|Comissão Mista de Orçamento]]: comissão do Congresso, diversa dos órgãos exclusivos da Câmara.
-- **CAM-PL-005**: relatório, voto e parecer da comissão.
-- **CAM-PL-031**: CPI, poderes de investigação, direitos fundamentais e limites de jurisdição.
 
 ## Tensões e pegadinhas
 
@@ -348,6 +346,6 @@ Uma resposta sobre comissões deve partir do **art. 58 da Constituição**, apre
 - [Portal oficial do RICD, consolidado até a Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 - [Biblioteca da Câmara, 31ª edição do RICD, 2026](https://bd.camara.leg.br/bd/items/4bcfab5c-3cdf-4693-aec5-5680f5f0142d).
 
-**Limites:** as questões são inéditas e didáticas, não provas oficiais da Cebraspe. A descrição das CPIs aqui cobre classificação e condições básicas; seus instrumentos investigatórios e as reservas de jurisdição serão objeto de CAM-PL-031. A nota não registra estudo individual, desempenho nem retenção.
+**Limites:** as questões são inéditas e didáticas, não provas oficiais da Cebraspe. A descrição das comissões parlamentares de inquérito aqui cobre classificação e condições básicas; seus instrumentos investigatórios e as reservas de jurisdição exigem estudo específico.
 
 

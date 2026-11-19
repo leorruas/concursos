@@ -403,7 +403,7 @@ for (const nomeJson of JSONS_PUBLICOS_AUTORIZADOS) {
 // Catálogo público mínimo para treino. Não publicar evidence editorial interna,
 // dados do estudante nem conteúdos que não receberam revisão do banco.
 const arquivoQuestoes = JSON.parse(fs.readFileSync(path.join(rootDir,'data/questoes-camara.json'),'utf8'));
-const concursosQuestoes = concursosRegistrados.map(c => ({id:c.id,nome:c.nome,banca:c.banca}));
+const concursosQuestoes = concursosRegistrados.map(c => ({id:c.id,nome:c.nome,banca:c.banca,dataProva:c.dataProva??null}));
 const materiasQuestoes = Object.fromEntries(Object.entries(arquivoQuestoes.subjects).map(([id,d]) => [id, d.units?.[0]?.[1] || id]));
 const nomesUnidades = Object.fromEntries(Object.values(arquivoQuestoes.subjects).flatMap(d => (d.units||[]).map(u => [u[0], u[1]])));
 const questoesPublicas = arquivoQuestoes.expansao.filter(q =>

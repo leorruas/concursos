@@ -163,17 +163,21 @@ A participação do Poder Executivo no processo legislativo materializa o sistem
 A Constituição Federal autoriza que o Regimento Interno delegue às comissões o poder de discutir e votar projetos de lei que dispensarem a competência do Plenário, salvo se houver recurso de um décimo dos membros da Casa.
 
 ### Onde cabe e onde NÃO cabe a apreciação conclusiva?
-- **Cabe:** em **projetos de lei ordinária** nas hipóteses autorizadas pelo art. 24, II, do RICD. **PLP não admite apreciação conclusiva nas comissões da Câmara** (art. 24, II, a);
-- **NÃO cabe (vedações expressas do art. 24, II, do RICD):**
-  1. Projetos de lei complementar (PLP), que exigem Plenário e dois turnos na Câmara;
-  2. Propostas de Emenda à Constituição (sempre exigem Plenário em dois turnos por 3/5);
-  2. Projetos de código;
-  3. Projetos de lei de iniciativa popular;
-  4. Projetos de iniciativa de comissão;
-  5. Projetos que envolvam matéria de competência de mais de quatro comissões de mérito;
-  6. Matérias submetidas ao regime de urgência;
-  7. Proposições com pareceres divergentes entre as comissões de mérito;
-  8. Medidas provisórias (que exigem deliberação no Plenário de cada Casa).
+
+**Cabe**, em regra, a **projetos de lei ordinária** que se enquadrem no art. 24, II, do RICD e não incidam nas exceções. O poder conclusivo é atribuído às comissões; o recurso constitucional de um décimo dos deputados, quando cabível, permite a apreciação pelo Plenário.
+
+**Exceções expressas do art. 24, II, alíneas a a h, do RICD:**
+
+- **a)** projetos de **lei complementar**;
+- **b)** projetos de **código**;
+- **c)** projetos de **iniciativa popular**;
+- **d)** projetos de **iniciativa de comissão**;
+- **e)** projetos sobre **matérias que não podem ser objeto de delegação legislativa**, conforme o art. 68, § 1º, da CF;
+- **f)** projetos **oriundos do Senado ou por ele emendados que tenham sido aprovados pelo Plenário de qualquer das Casas**: ambas as condições devem ser examinadas; a origem no Senado, isoladamente, não basta;
+- **g)** projetos que tenham recebido **pareceres divergentes**;
+- **h)** projetos **em regime de urgência**.
+
+**Fora desse rol, por terem rito constitucional ou regimental próprio:** **PECs** e **medidas provisórias** também não são decididas conclusivamente pelas comissões com fundamento no art. 24, II. A PEC exige dois turnos e três quintos em cada Casa (CF, art. 60, § 2º); a medida provisória segue o art. 62 da CF. A distribuição de matéria a mais de quatro comissões tem disciplina regimental específica e **não constitui, por si só, uma alínea de exclusão do art. 24, II**.
 
 ## 6. O princípio da Irrepetibilidade (CF, arts. 60, § 5º, e 67)
 

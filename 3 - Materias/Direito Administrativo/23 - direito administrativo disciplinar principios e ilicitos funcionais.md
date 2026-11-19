@@ -31,6 +31,8 @@ Nas questões da Cebraspe, observe a sequência: **fato comprovado → dever ou 
 
 ## 1. Princípios reitores do Direito Administrativo Disciplinar
 
+Aqui, **princípios reitores** são as regras gerais que orientam a investigação e a aplicação de sanções. Para compreender o procedimento, acompanhe três perguntas: como se apuram os fatos, como o servidor se defende e como se justifica uma eventual penalidade.
+
 O poder disciplinar não se confunde com arbítrio. A Constituição (art. 5º, LIV e LV) exige processo regular, contraditório e ampla defesa. A Lei nº 9.784/1999, que rege em geral os processos administrativos federais, explicita princípios como motivação, razoabilidade e proporcionalidade em seu art. 2º. A Lei nº 8.112/1990 disciplina especificamente a responsabilização estatutária. Essas fontes se combinam, observada a especialidade do procedimento disciplinar:
 
 ```mermaid

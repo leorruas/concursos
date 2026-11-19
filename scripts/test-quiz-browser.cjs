@@ -65,7 +65,9 @@ fs.mkdirSync(evidence,{recursive:true});
     summary:{valid:3,correct:2,incorrect:1,blank:0,accuracy:66.7},
     sources:{chat:{total:1},site:{total:2},siteDuplicatesSkipped:0,unmatchedCatalog:0},
     competitiveSimulations:[{date:'2026-11-14',P1:18,P2:36,total:54,objectiveMinimumMet:true}],
-    adaptive:{version:1,secureErrors:1,insecureCorrect:1,
+    adaptive:{version:1,secureErrors:1,insecureCorrect:1,byMode:{
+     aprendizagem:{correct:1,incorrect:1,blank:0},revisao:{correct:1,incorrect:0,blank:0},
+     simulado:{correct:0,incorrect:0,blank:1}},
      recommendations:[...Array.from({length:4}, (_,index)=>({
       concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'faltam-itens-'+index,
       title:'Revisão prioritária '+index,rationale:['Reteste vencido.'],action:'test-retention',
@@ -102,6 +104,9 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
    assert.deepEqual(errors,[],'painel e quiz sem erros de JS');
    await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
+   assert.match(await page.locator('#results-study-modes').innerText(), /Aprendizagem · 2 tentativas/);
+   assert.match(await page.locator('#results-study-modes').innerText(), /Revisão · 1 tentativa ·/);
+   assert.match(await page.locator('#results-study-modes').innerText(), /Bateria com correção ao final/);
    assert.match(await page.locator('#results-retention').innerText(), /após 6 dias/);
    assert.match(await page.locator('#results-competitive-simulations').innerText(), /54 pontos líquidos/);
    const coverage=page.locator('#results-edital-coverage summary').first();

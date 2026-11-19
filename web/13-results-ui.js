@@ -385,9 +385,35 @@ function renderAdaptive(plan) {
  $('results-retention-signals').replaceChildren(signals.length ? progress :
   el('p', 'results-caption', 'Ainda há pouca evidência de recuperação após um intervalo.'));
 }
+const studyModeLabels = {
+ aprendizagem:'Aprendizagem', revisao:'Revisão', para_valer:'Treino para valer',
+ real:'Questões de prova', adaptada:'Questões adaptadas',
+ simulado:'Bateria com correção ao final', unknown:'Modalidade sem registro'
+};
+function renderStudyModes(byMode) {
+ const target = $('results-study-modes');
+ const modes = Object.entries(byMode || {});
+ target.replaceChildren();
+ target.hidden = !modes.length;
+ if (!modes.length) return;
+ const list = el('ul');
+ for (const [mode, counts] of modes) {
+  const label = Object.hasOwn(studyModeLabels, mode) ? studyModeLabels[mode] : studyModeLabels.unknown;
+  const total = counts.correct + counts.incorrect + counts.blank;
+  const row = el('li');
+  row.append(el('strong', '', label), ' · ' + total + (total === 1 ? ' tentativa' : ' tentativas') +
+   ' · ' + counts.correct + (counts.correct === 1 ? ' acerto' : ' acertos') +
+   ' · ' + counts.incorrect + (counts.incorrect === 1 ? ' erro' : ' erros') +
+   ' · ' + counts.blank + ' em branco');
+  list.append(row);
+ }
+ target.append(el('h3', '', 'Tentativas por modalidade'), list,
+  el('p', 'results-caption', 'Os resultados refletem as condições de cada modalidade. A pontuação dos simulados integrais aparece abaixo.'));
+}
 function render(){
  if(!current)return;
  renderAdaptive(current.adaptive);
+ renderStudyModes(current.adaptive?.byMode);
  const summary=current.summary||{},source=current.sources||{};
  const valid=summary.valid||0;
  $('results-stats').replaceChildren(
@@ -398,7 +424,9 @@ function render(){
   ...(current.adaptive ? [
    stat('Erros seguros', current.adaptive.secureErrors),
    stat('Acertos inseguros', current.adaptive.insecureCorrect),
-   stat('Revisões pendentes', current.adaptive.principles.filter(p => p.state === 'review-pending').length)
+   stat('Revisões pendentes', current.adaptive.principles.filter(p => p.state === 'review-pending').length),
+   stat('Princípios com retenção observada', current.adaptive.principles.filter(p =>
+    p.signals.some(signal => signal.kind === 'independent')).length)
   ] : [])
  );
  const competitive = $('results-competitive-simulations');

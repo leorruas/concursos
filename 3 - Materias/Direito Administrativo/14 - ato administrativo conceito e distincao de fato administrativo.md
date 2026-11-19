@@ -19,6 +19,8 @@ A **Constituição Federal de 1988**, no art. 37, exige que a atividade administ
 
 ## 1. Conceito Dogmático de Ato Administrativo
 
+Neste título, **conceito dogmático** significa a definição usada pela doutrina jurídica para identificar e classificar um ato administrativo. A pergunta principal é: **o que torna uma decisão um ato administrativo?**
+
 O **ato administrativo**, em uma definição doutrinária frequente, é uma **declaração jurídica unilateral** do Estado ou de quem exerce função administrativa sob regime predominantemente de direito público, com aptidão para produzir efeitos jurídicos. Ele pode reconhecer, criar, alterar ou extinguir situações jurídicas. Exemplos: conceder licença, nomear servidor, aplicar sanção ou expedir certidão.
 
 **Declaração unilateral** significa que a formação do ato decorre da manifestação da autoridade competente; o destinatário não precisa negociar seus termos como em um contrato. Entretanto, a produção de certos efeitos pode depender de ciência, publicação, aceitação ou de outra condição prevista em lei. **Unilateralidade não significa que o ato possa ignorar os direitos do administrado.**

@@ -355,10 +355,10 @@ function renderAdaptive(plan) {
  // O resumo exibe no maximo tres decisoes, sem ocultar a fila completa em Revisoes.
  // Priorizar uma atividade executavel na primeira posicao; a fila preserva prioridades originais.
  const extra = ranked.find(item => item.questionIds?.length) || null;
- const activities = extra ? [extra, ...ranked.filter(item => item !== extra).slice(0, 2)] : ranked.slice(0, 3);
+ const activities = extra ? [extra, ...ranked.filter(item => item !== extra).slice(0, 1)] : ranked.slice(0, 2);
  const firstStudy = ranked.find(item => item.state === 'confirmed-not-studied' && !activities.includes(item) &&
   (item.articles?.length || item.questionIds?.length));
- if (firstStudy && activities.length < 3) activities.push(firstStudy);
+ if (firstStudy && activities.length < 2) activities.push(firstStudy);
  const list = el('ul'), remaining = el('ul');
  // Todas as recomendacoes fora do resumo permanecem na pagina de Revisoes.
  for (const item of [...activities, ...ranked.filter(item => !activities.includes(item))]) {
@@ -394,8 +394,14 @@ function renderAdaptive(plan) {
    remaining.append(row.cloneNode(true));
   } else remaining.append(row);
  }
- $('results-adaptive-actions').replaceChildren(activities.length ? list :
-  el('p', 'results-caption', 'Nenhuma atividade prioritária com os registros atuais.'));
+ const allRevisions=new URL(location.href);
+ if(location.origin===WORKER){allRevisions.pathname='/resultados-revisoes.html';allRevisions.searchParams.delete('visao');}
+ else allRevisions.searchParams.set('visao','revisoes');
+ const viewAll=el('a','results-link','Ver todas as revisões');
+ viewAll.href=allRevisions.pathname+allRevisions.search+allRevisions.hash;
+ $('results-adaptive-actions').replaceChildren(
+  activities.length ? list : el('p','results-caption','Nenhuma atividade prioritária com os registros atuais.'),
+  viewAll);
  if (queueSection && queueItems) {
   queueSection.hidden = remaining.children.length === 0;
   queueItems.replaceChildren(remaining);

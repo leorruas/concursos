@@ -70,6 +70,23 @@
   .results-title{font-size:clamp(2.3rem,8vw,3.2rem)}
   .results-view-panel>.results-section{margin-bottom:32px}
  }
+ @media(max-width:760px){
+  .study-topbar__links{display:flex;flex-wrap:nowrap;overflow-x:auto;gap:7px;padding-bottom:7px;scrollbar-width:thin}
+  .study-topbar__links>a,.study-topbar__links>button{flex:0 0 auto}
+  .results-kicker,.results-explain{display:none}
+  .results-title{font-size:clamp(2rem,7vw,2.5rem);margin:16px 0 14px}
+  .results-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:16px;row-gap:8px;padding:14px 0;margin-bottom:12px}
+  .results-controls label[for="results-contest"]{grid-column:1;grid-row:1}
+  .results-controls #results-contest{grid-column:1;grid-row:2;min-width:0;width:100%}
+  .results-controls label[for="results-subject-filter"]{grid-column:2;grid-row:1}
+  .results-controls #results-subject-filter{grid-column:2;grid-row:2;min-width:0;width:100%}
+  .results-controls #results-login,.results-controls #results-logout{grid-column:1/-1;justify-self:start;margin-top:5px}
+  .results-status{font-size:12px;margin:0 0 14px}
+  .results-page-heading{margin-bottom:20px;padding-bottom:16px}
+  .results-page-heading h2{font-size:1.55rem}
+  .results-page-heading p{font-size:13px}
+  .results-view-panel #results-adaptive-actions li,.results-view-panel #results-adaptive-queue-items li{padding:16px 0}
+ }
  @media(max-width:390px){.results-view-panel .results-grid{grid-template-columns:1fr 1fr}.results-view-panel .results-stat strong{font-size:26px}}
  `;
  document.head.append(style);
@@ -133,6 +150,8 @@
  // Move-lo depois de anexar as visoes evita que querySelector perca o descendente.
  const practice=document.getElementById('results-discursive');
  if(practice)panels.get('revisoes').append(practice);
+ const privacy=root.querySelector('.results-privacy');
+ if(privacy)panels.get('historico').append(privacy);
  function current(){
   if(onWorker){
    const page=Object.keys(paths).find(id=>paths[id]===location.pathname);

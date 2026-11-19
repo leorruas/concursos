@@ -23,27 +23,67 @@
  root.append(adaptiveQueue);
  const style=document.createElement('style');
  style.textContent=`
- .results-views-nav{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent);margin:0 0 32px;padding:0}
- .results-views-nav a{padding:13px 17px;text-decoration:none;color:var(--muted);font-size:14px;border-bottom:3px solid transparent}
- .results-views-nav a[aria-current="page"]{color:var(--text);border-color:var(--accent-blue);font-weight:650}
- .results-views-nav a:focus-visible{outline:2px solid var(--accent-blue);outline-offset:-2px}
+ /* Navegacao lateral: cada visao e uma pagina, nao uma pilha de accordions. */
+ .results-layout{max-width:1180px}
+ .results-title{font-size:clamp(2.6rem,5vw,4.2rem);margin-bottom:12px}
+ .results-explain{margin-bottom:26px}
+ .results-controls{margin-bottom:22px}
+ #results-content:not([hidden]){display:grid;grid-template-columns:200px minmax(0,1fr);column-gap:54px;align-items:start}
+ .results-views-nav{position:sticky;top:24px;grid-column:1;grid-row:1;display:flex;flex-direction:column;gap:3px;border:0;margin:0;padding:0}
+ .results-views-nav a{display:block;padding:14px 16px;border:0;border-left:2px solid transparent;border-radius:0;text-decoration:none;color:var(--muted);font-size:15px;line-height:1.3}
+ .results-views-nav a:hover{background:var(--accent-blue-alpha-05);color:var(--text)}
+ .results-views-nav a[aria-current="page"]{color:var(--text);border-left-color:var(--accent-blue);font-weight:650;background:var(--accent-blue-alpha-05)}
+ .results-views-nav a:focus-visible{outline:2px solid var(--accent-blue);outline-offset:2px}
+ .results-view-panel{grid-column:2;grid-row:1;min-width:0}
  .results-view-panel[hidden]{display:none!important}
- .results-view-panel>.results-section{margin-bottom:38px}
- .results-view-panel .results-section>h2{font-size:clamp(1.5rem,3.3vw,2.3rem)}
- .results-view-panel .results-caption{max-width:720px}
- .results-view-panel .results-grid{margin:18px 0 36px}
- .results-view-panel .results-explain{margin-bottom:20px}
- @media(max-width:550px){.results-views-nav{flex-wrap:nowrap;overflow-x:auto}.results-views-nav a{white-space:nowrap;padding:12px}.results-view-panel>.results-section{margin-bottom:28px}}
+ .results-page-heading{margin-bottom:34px;padding-bottom:24px;border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
+ .results-page-heading h2{font-size:clamp(1.7rem,3vw,2.5rem);font-weight:600;letter-spacing:-.045em;line-height:1.12;margin:0 0 9px;color:var(--text)}
+ .results-page-heading p{margin:0;max-width:56ch;line-height:1.5;font-size:14px;color:var(--muted)}
+ .results-view-panel>.results-section{margin-bottom:44px}
+ .results-view-panel .results-section>h2{font-size:clamp(1.3rem,2.5vw,1.9rem);margin:0 0 15px;text-transform:none;letter-spacing:-.035em}
+ .results-view-panel .results-section-label{display:none}
+ .results-view-panel .results-section>.results-caption{max-width:65ch;font-size:13px;margin-bottom:18px}
+ .results-view-panel .results-grid{margin:15px 0 28px;grid-template-columns:repeat(3,minmax(0,1fr))}
+ .results-view-panel .results-origin-grid{margin-top:12px}
+ .results-view-panel #results-adaptive-actions ul,.results-view-panel #results-adaptive-queue-items ul{list-style:none;padding:0;margin:0}
+ .results-view-panel #results-adaptive-actions li,.results-view-panel #results-adaptive-queue-items li{list-style:none;padding:20px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
+ .results-view-panel #results-adaptive-actions li:first-child,.results-view-panel #results-adaptive-queue-items li:first-child{border-top:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
+ .results-view-panel #results-adaptive-actions h3,.results-view-panel #results-adaptive-queue-items h3{font-size:19px;line-height:1.35;letter-spacing:-.025em;font-weight:630;margin:0 0 7px;color:var(--text)}
+ .results-view-panel #results-adaptive-actions li>a,.results-view-panel #results-adaptive-queue-items li>a{display:inline-block;margin-top:8px;color:var(--accent-blue);font-size:14px;text-decoration:underline;text-underline-offset:3px}
+ .results-view-panel #results-adaptive-actions li>p,.results-view-panel #results-adaptive-queue-items li>p{margin:7px 0;font-size:13px;line-height:1.55}
+ .results-view-panel .results-card{padding:16px 0;border-color:color-mix(in srgb,var(--text) 19%,transparent)}
+ #results-content>.results-privacy{grid-column:2;grid-row:2;margin-top:32px}
+ @media(max-width:760px){
+  #results-content:not([hidden]){display:block}
+  .results-views-nav{position:static;display:flex;flex-direction:row;gap:0;overflow-x:auto;margin:0 0 28px;border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
+  .results-views-nav a{white-space:nowrap;padding:12px 14px;border-left:0;border-bottom:2px solid transparent;font-size:14px}
+  .results-views-nav a[aria-current="page"]{border-left:0;border-bottom-color:var(--accent-blue)}
+  .results-view-panel .results-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .results-layout{padding:20px 18px 64px}
+  .results-title{font-size:clamp(2.3rem,8vw,3.2rem)}
+  .results-view-panel>.results-section{margin-bottom:32px}
+ }
+ @media(max-width:390px){.results-view-panel .results-grid{grid-template-columns:1fr 1fr}.results-view-panel .results-stat strong{font-size:26px}}
  `;
  document.head.append(style);
  const nav=document.createElement('nav');
  nav.className='results-views-nav';nav.setAttribute('aria-label','Páginas dos resultados');
  const panels=new Map(), links=new Map();
+ const descriptions={
+  resumo:['Visão geral','O que vale fazer agora e como seus estudos estão avançando.'],
+  revisoes:['Revisões','Atividades pendentes, retestes e materiais para praticar.'],
+  materias:['Desempenho por matéria','Resultados e cobertura dos assuntos previstos no edital.'],
+  historico:['Histórico de aprendizagem','Evidências de revisão e evolução dos conceitos.']
+ };
  for(const view of views){
   const a=document.createElement('a');a.textContent=view.label;a.href='?visao='+view.id;
   nav.append(a);links.set(view.id,a);
   const panel=document.createElement('div');panel.className='results-view-panel';panel.id='results-view-'+view.id;
   panel.setAttribute('role','region');panel.setAttribute('aria-label',view.label);
+  const heading=document.createElement('header');heading.className='results-page-heading';
+  const h=document.createElement('h2');h.textContent=descriptions[view.id][0];
+  const intro=document.createElement('p');intro.textContent=descriptions[view.id][1];
+  heading.append(h,intro);panel.append(heading);
   for(const selector of view.selectors){
    const section=root.querySelector(selector);
    if(section)panel.append(section);

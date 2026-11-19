@@ -374,32 +374,32 @@ function renderAdaptive(plan) {
  const list = el('ul'), remaining = el('ul');
  // Todas as recomendacoes fora do resumo permanecem na pagina de Revisoes.
  for (const item of [...activities, ...ranked.filter(item => !activities.includes(item))]) {
-  const row = el('li');
-  const action = adaptiveActions[item.action] || 'Revisar';
-  const label = /^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(item.title) ? item.title.replaceAll('-', ' ') : item.title;
-  if (item === extra) row.append(el('p', 'results-meta', 'Bateria disponível'));
-  row.append(el('h3', '', action + ' · ' + label),
-   el('p', 'results-meta', title(item.subjectId) + ' · Prioridade ' + ({high:'alta',medium:'média',low:'baixa'}[item.priority] || 'sem classificação')),
-   el('p', 'results-caption', item.rationale.join(' ')));
-  if (item.questionIds.length) {
-   const params = new URLSearchParams({ concurso: item.concursoId, questoes: item.questionIds.join(',') });
-   const link = el('a', '', 'Preparar bateria de ' + item.quantity + ' questão(ões)');
-   link.href = 'questoes.html#' + params.toString();
-   row.append(link);
-  } else {
-   row.append(el('p', 'results-caption', 'Sem questões novas compatíveis no banco atual.'));
+  const row=el('li','results-study-action-row');
+  const copy=el('div','results-study-action-copy');
+  const controls=el('div','results-study-action-controls');
+  const action=adaptiveActions[item.action]||'Revisar';
+  const label=/^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(item.title)?item.title.replaceAll('-',' '):item.title;
+  if(item===extra)copy.append(el('span','results-study-action-available','Bateria disponível'));
+  copy.append(el('h3','',action+' · '+label),
+   el('p','results-meta',title(item.subjectId)+' · Prioridade '+
+    ({high:'alta',medium:'média',low:'baixa'}[item.priority]||'sem classificação')),
+   el('p','results-caption',item.rationale.join(' ')));
+  if(item.questionIds.length){
+   const params=new URLSearchParams({concurso:item.concursoId,questoes:item.questionIds.join(',')});
+   const link=el('a','results-study-action-primary','Preparar bateria de '+item.quantity+' questão(ões)');
+   link.href='questoes.html#'+params.toString();
+   controls.append(link);
+  }else copy.append(el('p','results-caption','Ainda sem questões novas compatíveis no banco.'));
+  const ref=item.articles.map(value=>/^article:(art-[a-z0-9]+)(?:#(.*))?$/i.exec(value))
+   .find(match=>match&&manifest.has(match[1]));
+  if(ref){
+   const link=el('a','results-study-action-secondary','Abrir material de estudo');
+   link.href=articleLink({articleId:ref[1]},ref[2]);
+   controls.append(link);
   }
-  const ref = item.articles.map(value => /^article:(art-[a-z0-9]+)(?:#(.*))?$/i.exec(value))
-   .find(match => match && manifest.has(match[1]));
-  if (ref) {
-   const link = el('a', '', 'Abrir material de estudo');
-   link.href = articleLink({articleId: ref[1]}, ref[2]);
-   const line = el('p');
-   line.append(link);
-   row.append(line);
-  }
-  if (item.state === 'confirmed-not-studied') row.append(el('p', 'results-meta', item.selection));
-  if (item.nextReview) row.append(el('p', 'results-meta', 'Reteste previsto para ' + fmtDate(item.nextReview)));
+  if(item.state==='confirmed-not-studied')copy.append(el('p','results-meta',item.selection));
+  if(item.nextReview)copy.append(el('p','results-meta','Reteste previsto para '+fmtDate(item.nextReview)));
+  row.append(copy,controls);
   if (activities.includes(item)) {
    list.append(row);
    // Revisoes apresenta a fila inteira, inclusive os itens destacados no Resumo.

@@ -1515,6 +1515,12 @@ mark:not(.highlight) code {
     color: var(--accent-blue);
 }
 
+.mermaid-modal-controls button:focus-visible,
+.mermaid-btn:focus-visible {
+    outline: 2px solid var(--accent-blue);
+    outline-offset: 3px;
+}
+
 .mermaid-modal-zoom-display {
     min-width: 52px;
     text-align: center;

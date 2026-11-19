@@ -177,19 +177,19 @@ A Constituição Federal autoriza que o Regimento Interno delegue às comissões
 
 ## 6. O princípio da Irrepetibilidade (CF, arts. 60, § 5º, e 67)
 
-A ordem constitucional brasileira protege o processo legislativo contra a reiteração insistente de matérias já rejeitadas pelos parlamentares na mesma sessão legislativa (ano legislativo, de 2 de fevereiro a 22 de dezembro):
+A Constituição estabelece limites diferentes para a apresentação de novas propostas após uma rejeição. **Sessão legislativa** é o período anual de trabalho do Congresso, distinto da **legislatura**, que dura quatro anos. Para resolver a questão, identifique se a matéria é PEC, projeto de lei ou medida provisória e se a tentativa ocorre na **mesma sessão legislativa**:
 
 ### A. Irrepetibilidade Absoluta da PEC (CF, art. 60, § 5º)
 > *"A matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa."*
-- **Regime:** regra de irrepetibilidade **absoluta e intransponível**. Nem mesmo a totalidade dos 513 deputados ou 81 senadores pode reapresentar uma PEC com o mesmo objeto rejeitado antes da próxima sessão legislativa anual.
+- **Regime:** a vedação não prevê exceção por apoio de maioria qualificada ou unanimidade **na mesma sessão legislativa**. A proibição está limitada a esse período: não significa impedir para sempre nova proposta sobre a matéria.
 
 ### B. Irrepetibilidade Relativa da Lei Ordinária e Complementar (CF, art. 67)
-> *"A matéria constante de projeto de lei rejeitado somente poderá ser renovada, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional."*
-- **Regime:** regra de irrepetibilidade **relativa**. O projeto de lei rejeitado pode ser reintroduzido na mesma sessão legislativa, desde que a reapresentação venha subscrita pela **maioria absoluta dos membros da Câmara (257) ou do Senado (41)**.
+> *"A matéria constante de projeto de lei rejeitado somente poderá constituir objeto de novo projeto, na mesma sessão legislativa, mediante proposta da maioria absoluta dos membros de qualquer das Casas do Congresso Nacional."*
+- **Regime:** o mesmo assunto pode ser objeto de **novo projeto** na mesma sessão legislativa, desde que proposto pela **maioria absoluta dos membros de uma das Casas**: 257 deputados ou 41 senadores. Essa possibilidade se refere à **apresentação de novo projeto**, não ao simples desarquivamento administrativo do projeto rejeitado.
 
 ### C. Irrepetibilidade da Medida Provisória (CF, art. 62, § 10)
 > *"É vedada a reedição, na mesma sessão legislativa, de medida provisória que tenha sido rejeitada ou que tenha perdido sua eficácia por decurso de prazo."*
-- **Regime:** regra de irrepetibilidade **absoluta** para o Presidente da República quanto a matérias rejeitadas ou caducadas no mesmo ano legislativo.
+- **Regime:** o Presidente da República não pode **reeditar, na mesma sessão legislativa**, medida provisória rejeitada ou cuja eficácia tenha terminado pelo decurso do prazo. Essa regra do art. 62, § 10, é distinta da reapresentação de projeto de lei do art. 67.
 
 ## 7. Casos progressivos e situações de fronteira em prova
 
@@ -218,7 +218,7 @@ O Cebraspe costuma testar a atenção do candidato com as seguintes armadilhas c
 2. **Iniciativa popular de PEC:** afirmar que a Constituição Federal admite iniciativa popular para propor emendas constitucionais, desde que subscrita por 1% do eleitorado nacional.
 3. **Sanção presidencial em Decretos Legislativos e Resoluções:** afirmar que tratados internacionais aprovados por decreto legislativo submetem-se a veto do Presidente da República.
 4. **Convalidação de vício de iniciativa:** formular item afirmando que a posterior sanção expressa do Presidente da República a projeto de lei de iniciativa parlamentar sana o vício formal de usurpação de competência privativa do Executivo.
-5. **Regime de irrepetibilidade:** equiparar a irrepetibilidade de projeto de lei (que é relativa, admitindo desarquivamento por maioria absoluta da Casa) à de PEC (que é absoluta, vedada em qualquer hipótese na mesma sessão legislativa).
+5. **Regime de irrepetibilidade:** confundir o **novo projeto** autorizado, na mesma sessão legislativa, por proposta da maioria absoluta de uma das Casas (art. 67) com **desarquivamento** do projeto rejeitado, ou aplicar à PEC essa exceção que a Constituição não prevê (art. 60, § 5º).
 
 ## 9. Questões inéditas comentadas no padrão Cebraspe (Certo ou Errado)
 

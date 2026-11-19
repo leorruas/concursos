@@ -9,6 +9,13 @@
  ];
  const root=document.getElementById('results-content');
  if(!root)return;
+ // Na origem autenticada cada area tem endereco proprio e carregamento completo.
+ // No GitHub Pages preservamos o fallback de navegacao por parametro.
+ const onWorker=location.origin==='https://concurso-estudo.leoruas.workers.dev';
+ const paths={
+  resumo:'/resultados-resumo.html',revisoes:'/resultados-revisoes.html',
+  materias:'/resultados-materias.html',historico:'/resultados-historico.html'
+ };
  const adaptiveQueue=document.createElement('section');
  adaptiveQueue.id='results-adaptive-queue';
  adaptiveQueue.className='results-section';
@@ -76,7 +83,11 @@
   historico:['Histórico de aprendizagem','Evidências de revisão e evolução dos conceitos.']
  };
  for(const view of views){
-  const a=document.createElement('a');a.textContent=view.label;a.href='?visao='+view.id;
+  const a=document.createElement('a');a.textContent=view.label;
+  const href=new URL(location.href);
+  if(onWorker){href.pathname=paths[view.id];href.searchParams.delete('visao');}
+  else href.searchParams.set('visao',view.id);
+  a.href=href.pathname+href.search+href.hash;
   nav.append(a);links.set(view.id,a);
   const panel=document.createElement('div');panel.className='results-view-panel';panel.id='results-view-'+view.id;
   panel.setAttribute('role','region');panel.setAttribute('aria-label',view.label);
@@ -99,15 +110,23 @@
  // Move-lo depois de anexar as visoes evita que querySelector perca o descendente.
  const practice=document.getElementById('results-discursive');
  if(practice)panels.get('revisoes').append(practice);
- function current(){const p=new URLSearchParams(location.search).get('visao');return panels.has(p)?p:'resumo';}
+ function current(){
+  if(onWorker){
+   const page=Object.keys(paths).find(id=>paths[id]===location.pathname);
+   if(page)return page;
+  }
+  const p=new URLSearchParams(location.search).get('visao');
+  return panels.has(p)?p:'resumo';
+ }
  function show(){
   const id=current();
   for(const [key,panel] of panels){panel.hidden=key!==id;const a=links.get(key);if(key===id)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');}
  }
  nav.addEventListener('click',event=>{
   const link=event.target.closest('a');if(!link||!nav.contains(link))return;
+  if(onWorker)return; // Nao interceptar: cada pagina autenticada e carregada por sua URL.
   event.preventDefault();
-  const url=new URL(location.href);url.searchParams.set('visao',new URL(link.href).searchParams.get('visao'));
+  const url=new URL(link.href);
   history.pushState({resultsView:true},'',url);show();
  });
  addEventListener('popstate',show);show();

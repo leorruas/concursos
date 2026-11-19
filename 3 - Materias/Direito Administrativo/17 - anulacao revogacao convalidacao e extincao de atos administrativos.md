@@ -86,7 +86,9 @@ A doutrina sintetiza um rol consagrado de atos administrativos que **não admite
 ## 3. Convalidação (Saneamento ou Ratificação)
 
 ### Conceito e pressupostos dogmáticos
-A **convalidação** é a correção de defeito sanável em ato administrativo, nos limites previstos em lei, com aproveitamento de seus efeitos quando juridicamente possível. Exemplo: um ato praticado por autoridade sem competência exclusiva pode ser ratificado pela autoridade competente, se não houver lesão ao interesse público nem prejuízo a terceiros. Isso difere de produzir um novo ato para substituir uma decisão cujo vício é insanável.
+**Convalidar** um ato administrativo significa corrigir um defeito que a lei permite reparar, preservando seus efeitos quando isso for juridicamente possível. **Defeito sanável** é justamente o problema que admite essa correção.
+
+Por exemplo, se uma autoridade praticou um ato que poderia ter sido praticado por outra, competente para aquela decisão, a autoridade competente pode ratificá-lo nas condições previstas em lei. A convalidação depende, entre outros requisitos, de não haver lesão ao interesse público nem prejuízo a terceiros. Se o defeito não puder ser corrigido, o ato exige outra solução jurídica, como a anulação, conforme o caso.
 
 O art. 55 da Lei nº 9.784/1999 positiva os pressupostos cumulativos:
 > *"Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração."*

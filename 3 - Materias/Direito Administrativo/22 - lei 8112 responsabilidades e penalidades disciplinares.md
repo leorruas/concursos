@@ -32,6 +32,8 @@ A **Lei nº 8.112/1990**, estatuto dos servidores civis da União, autarquias e 
 
 ## 1. Responsabilidade tríplice do servidor: independência e comunicabilidade das instâncias
 
+A expressão **responsabilidade tríplice** indica que o mesmo fato pode ser analisado nas esferas **civil, penal e administrativa**. A **independência das instâncias** permite que cada esfera examine seus requisitos próprios. A **comunicabilidade** trata das situações em que uma decisão tomada em uma esfera produz efeitos em outra. Por isso, é necessário conhecer o fundamento de uma absolvição penal antes de avaliar suas consequências disciplinares.
+
 **Três esferas** podem tratar da mesma conduta. O **art. 121** diz que o servidor responde civil, penal e administrativamente pelo exercício irregular de suas atribuições; o **art. 125** permite que as consequências se acumulem, respeitados os pressupostos de cada responsabilidade.
 
 ```mermaid

@@ -50,6 +50,8 @@ flowchart TD
 
 ### As cinco manifestações da organização hierárquica
 
+O poder hierárquico aparece em cinco atividades. Para entender a diferença, pense na rotina de uma chefia: ela **orienta**, **acompanha**, **revê atos quando pode**, **redistribui o exercício de certas competências nos limites legais** e **resolve conflitos internos de atribuição**. Cada uma dessas atividades tem condições próprias.
+
 Entre as manifestações da organização hierárquica estão:
 1. **Comando:** a chefia dirige a execução de tarefas legais. Instruções e ordens de serviço podem expressar decisões; um memorando ou ofício pode servir apenas para comunicá-las;
 2. **Fiscalização:** o superior acompanha a legalidade e a execução das atribuições, sem dispensar as garantias dos agentes;

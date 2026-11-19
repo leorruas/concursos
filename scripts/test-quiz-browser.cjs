@@ -114,11 +114,12 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.clock.fastForward(60000);
    await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('6 tentativas válidas'));
    // O painel passou a ter visoes navegaveis e a manter detalhes em paginas proprias.
-   assert.equal(await page.locator('#results-adaptive-actions li').count(),3,'resumo limitado a tres acoes');
+   assert.equal(await page.locator('#results-adaptive-actions li').count(),2,'resumo limitado a duas acoes');
    assert.equal(await page.getByText('Histórico e diagnóstico detalhado',{exact:true}).count(),0,
     'painel sem accordion estrutural legado');
    assert.ok(await page.getByRole('navigation',{name:'Páginas dos resultados'}).isVisible(),
     'navegacao de paginas visivel');
+   assert.ok(await page.locator('#results-adaptive-actions a').filter({hasText:'Ver todas as revisões'}).isVisible());
    assert.ok(await page.getByRole('heading',{name:'Visão geral',exact:true}).isVisible(),
     'cada visao apresenta titulo proprio');
    assert.ok(await page.locator('#results-adaptive-actions').getByText('Bateria disponível',{exact:true}).isVisible());

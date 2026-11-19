@@ -264,5 +264,3 @@ A mudança é permitida quando existe **anuência partidária**, isto é, **o pr
 - Lei nº 9.504/1997, art. 11, § 2º.
 - Tribunal Superior Eleitoral, Resolução nº 23.659/2021 e normas consolidadas para as Eleições de 2026.
 
----
-**Fontes Brutas:**

@@ -134,7 +134,7 @@ O **art. 58, § 2º, da Constituição** e o **art. 24 do RICD** atribuem compet
 
 **Art. 24, II: exceções ao poder conclusivo.** O artigo exclui, entre outros, projetos de **lei complementar**, de **código**, de **iniciativa popular**, de **autoria de comissão**, de matéria indelegável, certos projetos do Senado, propostas com **pareceres divergentes** e matérias em **urgência**. Assim, **comissão pode iniciar projeto** nas hipóteses constitucionais, mas **projeto de autoria de comissão não se enquadra automaticamente no poder conclusivo**. A existência do órgão é distinta da modalidade de decisão disponível para a proposição.
 
-**Terminativo × conclusivo:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] já diferencia exame terminativo de constitucionalidade/adequação financeira de apreciação conclusiva de mérito. O futuro artigo **CAM-PL-005** estudará como parecer e voto se tornam decisão do colegiado.
+**Terminativo × conclusivo:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] já diferencia exame terminativo de constitucionalidade/adequação financeira de apreciação conclusiva de mérito. O capítulo [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação]] explica como parecer e voto se tornam decisão do colegiado.
 
 ### Composição e instalação: arts. 25 a 28
 
@@ -308,7 +308,7 @@ Cuidado com verdades parciais: a **comissão permanente fiscaliza**, mas não ad
 
 **Subcomissão especial ≠ comissão especial. Parecer terminativo ≠ apreciação conclusiva. Quórum de abertura ≠ quórum de votação.**
 
-**Fonte normativa verificada em 08/11/2026:** [RICD, texto atualizado da Câmara, arts. 25 a 54](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html); [31ª edição do RICD, 2026](https://bd.camara.leg.br/bd/items/version/400). Esta expansão é editorial; seus itens C/E são inéditos e não comprovam estudo ou retenção pessoal.
+**Fonte normativa verificada em 08/11/2026:** [RICD, texto atualizado da Câmara, arts. 25 a 54](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html); [31ª edição do RICD, 2026](https://bd.camara.leg.br/bd/items/version/400). Os itens C/E são exercícios autorais.
 
 ## Relações com outros temas
 

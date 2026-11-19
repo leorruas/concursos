@@ -425,6 +425,7 @@ Catálogo global de conhecimento e planejamento do vault de concursos.
   - [[3 - Materias/Direito Constitucional/35 - comissoes parlamentares de inquerito poderes e limites|35. Comissões Parlamentares de Inquérito (CPI e CPMI)]]
   - [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|36. Espécies legislativas: comparação por iniciativa, quórum e efeito]]
   - [[3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas|37. Controle parlamentar: fiscalização contábil, financeira, requerimentos e contas]]
+  - [[3 - Materias/Direito Constitucional/38 - blueprints do processo legislativo por especie normativa|38. Blueprints do processo legislativo por espécie normativa]]
 - [[3 - Materias/Administracao Geral/administracao-geral|Administração geral]]
   - [[3 - Materias/Administracao Geral/Avancos|Avanços e desempenho]]
   - [[3 - Materias/Administracao Geral/01 - gestao de projetos|01 • Gestão de projetos]]

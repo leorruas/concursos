@@ -305,7 +305,6 @@ A banca pode trocar **titular da iniciativa** por **Casa iniciadora**; tratar to
 - [[3 - Materias/Orcamento Publico/12 - elaboracao da proposta orcamentaria orgaos e etapas|Elaboração orçamentária federal]]: autonomia de proposta dos Poderes e iniciativa do projeto pelo Executivo.
 - [[3 - Materias/Orcamento Publico/15 - emendas parlamentares deliberacao e rastreabilidade|Emendas orçamentárias]]: arts. 63 e 166 e limites da proposição.
 - **CAM-PL-003**: fases e tramitação, com distinção entre Casa iniciadora e revisora.
-- **CAM-PL-017**: refinamento de comparação institucional nesta mesma nota.
 
 ## Tensões e pegadinhas
 

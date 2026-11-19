@@ -36,6 +36,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 ## Processo Legislativo e Regimentos: Câmara 2026
 
+- [[3 - Materias/Direito Constitucional/39 - blueprint das proposicoes da camara|39. Blueprint das proposições da Câmara]]: mapa visual de nove percursos por instrumento, com iniciativa, instância decisória, documentos e prazos. Complementa o artigo 11 e os blueprints por espécie normativa.
+
+
 - [[3 - Materias/Direito Constitucional/38 - blueprints do processo legislativo por especie normativa|38. Blueprints do processo legislativo por proposição]]: guia transversal com atores, fases, documentos, prazos, decisões e resultados para PL, PLP, PEC, MPV/PLV, PDL, PRC, PRS, PRN, PLN e lei delegada. Os diagramas distinguem procedimentos da Câmara, do Senado e do Congresso.
 
 

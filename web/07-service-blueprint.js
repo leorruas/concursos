@@ -114,7 +114,7 @@ window.renderizarBlueprintsServicos=function(article){
  if(!body)return;
  const title=String(document.getElementById("artigo-titulo")?.textContent||"");
  const path=decodeURIComponent(String(article?.path||""));
- if(!/(blueprints do processo legislativo|blueprint do (processo|ciclo) orcamentario|blueprint do orcamento federal)/i.test(path.normalize("NFD").replace(/[\u0300-\u036f]/g,"")+" "+title.normalize("NFD").replace(/[\u0300-\u036f]/g,"")))return;
+ if(!/(blueprints do processo legislativo|blueprint das proposicoes da camara|blueprint do (processo|ciclo) orcamentario|blueprint do orcamento federal)/i.test(path.normalize("NFD").replace(/[\u0300-\u036f]/g,"")+" "+title.normalize("NFD").replace(/[\u0300-\u036f]/g,"")))return;
  if(!document.getElementById("sb-style")){const css=element("style");css.id="sb-style";css.textContent=st;document.head.append(css)}
  let n=0;body.querySelectorAll("table").forEach(t=>{if(montar(t))n++});
  if(n)reader?.classList.add("blueprint-view");

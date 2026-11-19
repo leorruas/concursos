@@ -140,6 +140,17 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.ok(await page.getByRole('heading',{name:'Visão geral',exact:true}).isVisible(),
     'cada visao apresenta titulo proprio');
    assert.ok(await page.locator('#results-adaptive-actions').getByText('Bateria disponível',{exact:true}).isVisible());
+   const navColors=await page.evaluate(()=>{
+    const nav=document.querySelector('.study-topbar__links a[data-study-nav="glossary"]');
+    const active=document.querySelector('.study-topbar__links a[aria-current="page"]');
+    return {link:getComputedStyle(nav).color,text:getComputedStyle(document.body).color,active:getComputedStyle(active).color};
+   });
+   assert.equal(navColors.link,navColors.text,'links comuns acompanham cor do texto');
+   assert.notEqual(navColors.active,navColors.link,'pagina ativa preserva destaque ambar');
+   assert.equal(await page.locator('#results-adaptive-actions .results-study-action-meta').count(),2,
+    'materia e prioridade apresentadas de forma estruturada');
+   assert.equal(await page.locator('#results-adaptive-actions .results-study-action-unavailable').count(),1,
+    'indisponibilidade exibida junto da acao');
    assert.match(await page.locator('#results-retention').innerText(), /após 6 dias/);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
    await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
@@ -151,6 +162,13 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.match(await page.locator('#results-principle-history').innerText(), /Início do ciclo atual/);
    assert.match(await page.locator('#results-principle-history').innerText(), /Resposta: C · Gabarito: E/);
    assert.ok(await page.getByLabel('Conceito',{exact:true}).isVisible());
+   assert.equal(await page.locator('#results-principle-history .results-history-event').count(),1,
+    'historico em linha do tempo');
+   assert.equal(await page.locator('#results-articles .results-history-article').count(),1,
+    'artigos apresentados em lista compacta');
+   assert.equal(await page.locator('#results-articles details.results-card').count(),0,
+    'sem accordion gigante de artigos');
+   await page.screenshot({path:path.join(evidence,preset.name+'-historico-redesign.png'),fullPage:true});
    assert.equal(await page.locator('#results-adaptive').isVisible(),false,'historico nao repete resumo');
 
    await page.getByRole('link',{name:'Matérias',exact:true}).click();
@@ -210,6 +228,11 @@ fs.mkdirSync(evidence,{recursive:true});
    const alternateColor=await page.locator('#results-concepts .results-link').first().evaluate(link=>getComputedStyle(link).color);
    assert.notEqual(alternateColor,'rgb(0, 0, 238)','tema alternativo sem azul nativo');
    assert.notEqual(alternateColor,'rgb(85, 26, 139)','tema alternativo sem roxo nativo');
+   const navColorsLight=await page.evaluate(()=>{
+    const nav=document.querySelector('.study-topbar__links a[data-study-nav="glossary"]');
+    return {link:getComputedStyle(nav).color,text:getComputedStyle(document.body).color};
+   });
+   assert.equal(navColorsLight.link,navColorsLight.text,'nav deve acompanhar tema alternativo');
    await page.locator('#results-theme').evaluate(button=>button.click());
    assert.ok(await page.getByRole('heading',{name:'Estudar · Conteúdo inicial'}).isVisible());
    const discursive=page.getByText('Treinar discursiva',{exact:true});

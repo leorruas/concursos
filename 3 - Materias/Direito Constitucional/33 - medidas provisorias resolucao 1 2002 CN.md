@@ -14,7 +14,7 @@ aliases:
 
 # Medidas provisórias: apreciação no Congresso e Resolução nº 1/2002-CN
 
-**Câmara dos Deputados 2026: Divulgação Institucional, Cebraspe. CAM-PL-029.** A **Resolução nº 1/2002-CN** integra o Regimento Comum e disciplina a apreciação de **medidas provisórias (MPs)** editadas pelo Presidente da República com força de lei, nos termos do **art. 62 da Constituição**. Fontes prioritárias: [texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html), [registro oficial do Senado e decisões judiciais relacionadas](https://legis.senado.leg.br/norma/561120), [Constituição atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+**Câmara dos Deputados 2026: Divulgação Institucional, Cebraspe.** A **Resolução nº 1/2002-CN** integra o Regimento Comum e disciplina a apreciação de **medidas provisórias (MPs)** editadas pelo Presidente da República com força de lei, nos termos do **art. 62 da Constituição**. Fontes prioritárias: [texto atualizado da Câmara](https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html), [registro oficial do Senado e decisões judiciais relacionadas](https://legis.senado.leg.br/norma/561120), [Constituição atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 
 ## Núcleo do conceito
 

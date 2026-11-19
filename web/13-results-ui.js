@@ -40,20 +40,29 @@ function renderQuestion(q,article){
 }
 function makeArticle(article){
  const meta=manifest.get(article.articleId),name=meta?.tituloExibicao||meta?.titulo||article.articleId;
- const outer=el('details','results-card');
- if(new URLSearchParams(location.search).get('artigo')===article.articleId)outer.open=true;
- const top=el('summary');
- const row=el('span','results-card-top');
- const a=el('span','',name);
- const score=priorityLabel(article.priority);
- row.append(a,score);top.append(row);outer.append(top);
- const explain=el('p','results-meta',article.reason+' · '+article.concepts.length+' conceito(s) relacionado(s)'+(article.dueOn?' · Revisão sugerida: '+fmtDate(article.dueOn):''));
- outer.append(explain);
- const link=el('a','results-link','Ler este artigo e consultar os erros nele');
- link.href=articleLink(article);link.rel='noreferrer';outer.append(link);
- if(article.mistakes.length){outer.append(el('p','results-meta','Questões respondidas incorretamente'));for(const q of article.mistakes)outer.append(renderQuestion(q,article));}
- if(article.uncertainCorrect.length){outer.append(el('p','results-meta','Acertos com insegurança declarada'));for(const q of article.uncertainCorrect)outer.append(renderQuestion(q,article));}
- return outer;
+ const row=el('article','results-history-article');
+ const head=el('div','results-history-article-top');
+ const copy=el('div','results-history-article-copy');
+ copy.append(el('strong','',name),
+  el('small','',article.reason||'Registro de erro ou insegurança'));
+ head.append(copy,priorityLabel(article.priority));
+ const details=el('div','results-history-article-actions');
+ const link=el('a','results-link','Ler artigo');
+ link.href=articleLink(article);link.rel='noreferrer';details.append(link);
+ const mistakes=article.mistakes||[],uncertain=article.uncertainCorrect||[];
+ const count=mistakes.length+uncertain.length;
+ const note=el('span','results-history-article-count',
+  mistakes.length+' '+(mistakes.length===1?'erro':'erros')+' · '+uncertain.length+' acertos inseguros');
+ row.append(head,note,details);
+ if(count){
+  const disclosure=el('details','results-history-article-evidence');
+  if(new URLSearchParams(location.search).get('artigo')===article.articleId)disclosure.open=true;
+  disclosure.append(el('summary','','Ver '+count+' '+(count===1?'resposta registrada':'respostas registradas')));
+  if(mistakes.length)for(const q of mistakes)disclosure.append(renderQuestion(q,article));
+  if(uncertain.length)for(const q of uncertain)disclosure.append(renderQuestion(q,article));
+  row.append(disclosure);
+ }
+ return row;
 }
 function conceptLinks(container,concept){
  const articleIds=[...new Set(Array.isArray(concept.articles)?concept.articles:[])].filter(id=>manifest.has(id));

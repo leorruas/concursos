@@ -1,10 +1,10 @@
 // Teste de regressão do explorador Mermaid, sem browser ou dependências externas.
 // Simula os controles e o ciclo de vida do modal; não substitui auditoria visual.
-import assert from 'node:assert/strict';
-import fs from 'node:fs';
-import vm from 'node:vm';
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
 
-const source = fs.readFileSync(new URL('../web/05-mermaid.js', import.meta.url), 'utf8');
+const source = fs.readFileSync(require('node:path').join(__dirname, '../web/05-mermaid.js'), 'utf8');
 
 function criarAmbiente(renderizar) {
     const listenersGlobais = new Map();
@@ -147,7 +147,10 @@ async function testarErroRenderizacao() {
     assert.equal(t.listenersGlobais.has('keydown'), false);
 }
 
-await testarFecharDuranteCarga();
-await testarSucessoETeclado();
-await testarErroRenderizacao();
-console.log('SUCESSO: modal Mermaid pode ser fechado durante carga, após sucesso e após erro.');
+async function main() {
+    await testarFecharDuranteCarga();
+    await testarSucessoETeclado();
+    await testarErroRenderizacao();
+    console.log('SUCESSO: modal Mermaid pode ser fechado durante carga, após sucesso e após erro.');
+}
+main().catch(erro => { console.error(erro); process.exitCode = 1; });

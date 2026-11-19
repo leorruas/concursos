@@ -77,6 +77,8 @@ export function validateSession(s, filename, root, concursos) {
     for (const field of ['consulted', 'feedbackBefore']) {
       assert(q[field] == null || typeof q[field] === 'boolean', `${s.id}/Q${q.number}: ${field} deve ser booleano ou nulo`);
     }
+    assert(q.responseMs == null || (Number.isSafeInteger(q.responseMs) && q.responseMs >= 0 && q.responseMs <= 86400000),
+      `${s.id}/Q${q.number}: responseMs deve ser duração válida em milissegundos`);
     assert(['secure', 'insecure', 'guess', 'unknown'].includes(q.confidence), `${s.id}: confiança inválida`);
     assert(['inedita', 'real', 'adaptada'].includes(q.origin), `${s.id}: origem inválida`);
     assertCamaraTiQuestionAllowed(root, s, q);
@@ -138,7 +140,7 @@ export function mergeSessions(legacy, sessions) {
     const generationAudit = {counts,newRate:rate(counts.new),thematicRate:rate(counts.thematic),mechanicalRate:rate(counts.mechanical),exactRate:rate(counts.exact),intentionalReviewRate:rate(qs.filter(q=>q.repetition.intentional).length)};
     ledger.questions.push(...qs);
     ledger.simulations.push({ id: s.id, sessionFile, sourcePath: sessionFile, date: s.date, startedAt: s.startedAt, concursoId: s.concursoId, banca: s.banca,
-      subjectId: scope==='mixed' ? null : s.subjectId, unitId: scope==='mixed' ? null : s.unitId, sessionScope: scope, learning: s.learning, tipo: s.kind, isSimulado: s.concursoId==='camara-2026' && !!s.simulation, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
+      subjectId: scope==='mixed' ? null : s.subjectId, unitId: scope==='mixed' ? null : s.unitId, sessionScope: scope, ...(s.learning?.exposureDeclaration ? {checkpointSchema:s.schemaVersion} : {}), learning: s.learning, tipo: s.kind, isSimulado: s.concursoId==='camara-2026' && !!s.simulation, status: s.status, trainingModes: [s.trainingMode], totalQuestions: qs.length,
       ...(s.concursoId==='camara-2026'?{netScore:scoreCamara(qs),simulation:s.simulation||null}:{}),
       ledgerCoverage: 'complete', benchmarkEligible: false, qualityNote: s.diagnosis, nextStep: s.nextStep, generationAudit, noveltyException: s.noveltyException || (['aula', 'fechamento'].includes(s.kind) ? 'Checkpoint sem questões; fora de benchmark e métricas de acerto.' : null),
       confidenceTracking: { coverage: qs.length && qs.every(q => q.confidence !== 'unknown') ? 'complete' : 'partial' } });

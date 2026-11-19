@@ -124,6 +124,13 @@ export function validateLearning(root,s,concursos,inventory) {
   const l=s.learning;ok(l&&['preparacao','aula','fronteiras','aprendizagem','para_valer','correcao','revisao','consolidacao'].includes(l.stage),`${s.id}: etapa inválida`);
   for(const k of ['taughtConcepts','boundaries','pending'])ok(arr(l[k])&&l[k].every(txt),`${s.id}: ${k} deve ser lista de textos`);
   ok(typeof l.unitCompleted==='boolean',`${s.id}: unitCompleted obrigatório`);
+  if (Object.hasOwn(l, 'exposureDeclaration')) {
+    ok(l.exposureDeclaration==='not-studied' && s.concursoId==='camara-2026' &&
+      s.schemaVersion===3 && !mixed && s.status==='concluido' && s.kind==='aula' &&
+      l.stage==='preparacao' && !l.unitCompleted && !l.taughtConcepts.length &&
+      !s.questions.length && !unit.historicalExposure,
+      `${s.id}: declaração de unidade não estudada exige preparação sem exposição`);
+  }
   ok(l.next&&(mixed?(s.schemaVersion===3?l.next.unitId==null:l.next.unitId==='diagnostico-misto'):subject.units.some(u=>u.id===l.next.unitId))&&txt(l.next.objective)&&['preparacao','aula','fronteiras','aprendizagem','para_valer','revisao'].includes(l.next.stage),`${s.id}: próximo passo inválido`);
   if(l.next.noteRef)checkRef(root,l.next.noteRef);
   ok(arr(l.next.sourceIds)&&l.next.sourceIds.length>0&&l.next.sourceIds.every(id=>plan.sources[id]),`${s.id}: fonte do próximo passo ausente`);

@@ -4,7 +4,7 @@
 const $=id=>document.getElementById(id),WORKER='https://concurso-estudo.leoruas.workers.dev';
 const STORE='concursos-quiz-sessoes-v1',ACTIVE='concursos-quiz-ativa-v1';
 const privateOrigin=location.origin===WORKER;
-let data=null,session=null,loggedIn=false,manifest=new Map();
+let data=null,session=null,loggedIn=false,manifest=new Map(),shownAt=null;
 const elem=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=String(text);return e;};
 const toggle=(id,show)=>{$(id).hidden=!show;};
 const status=t=>{$('qs-status').textContent=t;};
@@ -116,6 +116,7 @@ function render(){
  $('qs-question-difficulty').textContent=q.estimatedDifficulty?'Dificuldade estimada: '+(levels[q.estimatedDifficulty]||q.estimatedDifficulty):'Dificuldade não classificada';
  $('qs-progress-bar').style.width=(100*session.answers.length/session.ids.length)+'%';$('qs-statement').textContent=q.statement;
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>{e.checked=false;e.disabled=false;});
+ shownAt=performance.now();
  $('qs-consulted').value='';
  $('qs-feedback-before').value='';
  $('qs-response-context').open=!!session.directed;
@@ -143,7 +144,10 @@ function answer(ev){
  const c=document.querySelector('input[name="qs-answer"]:checked');if(!c){status('Marque Certo ou Errado para registrar.');return;}
  const q=question();if(!q)return;const v=c.value,blank=v==='blank';
  const flag = field => $(field).value === '' ? null : $(field).value === 'yes';
- const a={consulted:flag('qs-consulted'),feedbackBefore:flag('qs-feedback-before'),id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
+ const elapsed=shownAt===null?null:Math.round(performance.now()-shownAt);
+ const responseMs=elapsed!==null&&elapsed>=0&&elapsed<=86400000?elapsed:null;
+ shownAt=null;
+ const a={responseMs,consulted:flag('qs-consulted'),feedbackBefore:flag('qs-feedback-before'),id:id(),sessionId:session.id,concursoId:session.concursoId,questionId:q.id,subjectId:q.subjectId,conceptId:q.conceptId||null,mechanism:q.mechanism||null,mode:session.mode,answer:blank?null:v,correctAnswer:q.correctAnswer,result:blank?'blank':v===q.correctAnswer?'correct':'incorrect',confidence:blank?'unknown':$('qs-insecure').checked?'insecure':'secure',answeredAt:Date.now(),synced:false};
  session.answers.push(a);storeWrite();sync(a);
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>e.disabled=true);$('qs-insecure').disabled=true;
  toggle('qs-answer-form',false);

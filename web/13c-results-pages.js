@@ -60,6 +60,13 @@
  .results-view-panel #results-adaptive-actions li>p,.results-view-panel #results-adaptive-queue-items li>p{margin:7px 0;font-size:13px;line-height:1.55}
  .results-view-panel #results-adaptive-actions>a.results-link{display:inline-block;margin-top:18px;font-size:14px;text-underline-offset:3px}
  .results-view-panel .results-card{padding:16px 0;border-color:color-mix(in srgb,var(--text) 19%,transparent)}
+ .results-revisions-overview{margin:0 0 24px!important;padding:15px 0 18px;border-bottom:1px solid color-mix(in srgb,var(--text) 22%,transparent)}
+ .results-revisions-overview>p{font-size:12px;color:var(--muted);margin:0 0 12px}
+ .results-revisions-numbers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+ .results-revisions-numbers>a{display:flex;flex-direction:column;gap:5px;text-decoration:none;padding:11px 0;border-top:2px solid color-mix(in srgb,var(--text) 22%,transparent);min-width:0}
+ .results-revisions-numbers>a:hover,.results-revisions-numbers>a:focus-visible{border-top-color:var(--accent-blue)}
+ .results-revisions-numbers strong{font-size:clamp(21px,3vw,30px);font-weight:620;line-height:1;color:var(--text);font-variant-numeric:tabular-nums}
+ .results-revisions-numbers span{color:var(--muted);font-size:12px}
  #results-content>.results-privacy{grid-column:2;grid-row:2;margin-top:32px}
  @media(max-width:760px){
   #results-content:not([hidden]){display:block}
@@ -124,6 +131,24 @@
   if(details.parentElement===root && details.querySelector('summary')?.textContent.trim()==='Histórico e diagnóstico detalhado')details.remove();
  });
  root.prepend(nav,...panels.values());
+ const revisionsPanel=panels.get('revisoes');
+ const overview=document.createElement('section');
+ overview.className='results-revisions-overview';overview.id='results-revisions-overview';
+ const overviewCaption=document.createElement('p');overviewCaption.id='results-review-contest-name';
+ overviewCaption.textContent='Revisões do concurso selecionado';
+ const summary=document.createElement('div');summary.className='results-revisions-numbers';
+ for(const [key,label,target] of [
+  ['activity','atividades','#results-adaptive-queue'],
+  ['article','artigos','#results-quiz-priorities'],
+  ['concept','conceitos','#results-concepts']
+ ]){
+  const link=document.createElement('a');link.href=target;
+  const number=document.createElement('strong');number.id='results-review-'+key+'-count';number.textContent='0';
+  const name=document.createElement('span');name.textContent=label;
+  link.append(number,name);summary.append(link);
+ }
+ overview.append(overviewCaption,summary);
+ revisionsPanel.insertBefore(overview,revisionsPanel.children[1]||null);
  // Indicadores analiticos e origem das respostas pertencem as paginas de detalhe.
  function moveDetail(id,view,titleText){
   const node=document.getElementById(id);

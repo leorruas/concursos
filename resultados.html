@@ -125,6 +125,32 @@
     .results-difficulty-bar>span{display:block;height:100%;background:var(--accent-blue)}
     .results-difficulty-value{color:var(--text);font-size:14px;text-align:right}
     .results-difficulty-value small{color:var(--muted)}
+
+    /* Revisões: índice compacto e navegável. Uma linha por conceito. */
+    #results-concepts{max-width:100%}
+    .results-concepts-toolbar{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0;border-top:1px solid color-mix(in srgb,var(--text) 22%,transparent)}
+    .results-concept-count{color:var(--text);font-size:13px;line-height:1.4;margin:0}
+    .results-concept-search{color:var(--text);background:transparent;border:1px solid color-mix(in srgb,var(--text) 28%,transparent);border-radius:6px;padding:9px 12px;width:min(260px,100%);font:13px 'Archivo',sans-serif}
+    .results-concept-search:focus-visible,.results-concept-more:focus-visible{outline:2px solid var(--accent-blue);outline-offset:2px}
+    .results-concept-group{margin:12px 0 18px}
+    .results-concept-group-title{display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:14px;font-weight:650;color:var(--text);padding:9px 0;margin:0;border-bottom:1px solid color-mix(in srgb,var(--text) 25%,transparent)}
+    .results-concept-group-count{color:var(--muted);font-size:12px;font-weight:400;white-space:nowrap}
+    .results-concept-compact{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:10px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 12%,transparent)}
+    .results-concept-compact-copy{min-width:0}
+    .results-concept-compact strong{display:block;color:var(--text);font-size:13px;font-weight:550;line-height:1.3;overflow-wrap:anywhere}
+    .results-concept-compact small{display:block;color:var(--muted);font-size:11px;margin:3px 0;line-height:1.3}
+    .results-concept-compact .results-link{display:inline-block;font-size:11px;margin-top:3px}
+    .results-concept-compact .results-score{font-size:11px;white-space:nowrap;flex-shrink:0}
+    .results-concepts-footer{padding:12px 0}
+    .results-concept-more{border:1px solid color-mix(in srgb,var(--text) 35%,transparent);color:var(--accent-blue);background:transparent;border-radius:5px;padding:10px 14px;font:13px 'Archivo',sans-serif;cursor:pointer}
+    .results-concept-more:hover{background:var(--accent-blue-alpha-05)}
+    #results-quiz-priorities .results-quiz-priority{padding:10px 0;gap:10px}
+    #results-quiz-priorities .results-quiz-priority strong{font-size:13px;line-height:1.3}
+    #results-quiz-priorities .results-quiz-priority small{font-size:11px;line-height:1.35;margin-top:3px}
+    #results-quiz-priorities .results-subject-heading{margin:16px 0 8px;font-size:14px}
+    #results-quiz-priorities .results-quiz-priority[hidden],
+    #results-quiz-priorities .results-subject-group[hidden]{display:none!important}
+    @media(max-width:650px){.results-concepts-toolbar{align-items:stretch;flex-direction:column;gap:10px}.results-concept-search{width:100%}}
     @media(max-width:650px){.results-quiz-priority{grid-template-columns:25px minmax(0,1fr)}.results-quiz-priority a{grid-column:2}.results-difficulty-row{grid-template-columns:minmax(110px,1fr) minmax(90px,1fr)}.results-difficulty-value{grid-column:1 / -1;text-align:left}}
 
   </style>
@@ -204,8 +230,7 @@
       <section class="results-section" aria-labelledby="title-concepts">
         <p class="results-section-label">diagnóstico por conceito</p>
         <h2 id="title-concepts">conceitos que pedem revisão</h2>
-        <p class="results-caption">Conceitos separados por matéria, com acesso aos artigos relacionados. A prioridade não é uma nota e poucas tentativas não comprovam domínio ou dificuldade.</p>
-        <p class="results-caption">Prioridades consideram erros, insegurança e revisões pendentes. Os resultados dependem da quantidade de respostas disponíveis.</p>
+        <p class="results-caption">Busque ou explore os conceitos por matéria. O total indica conceitos com sinais de revisão neste concurso.</p>
         <div id="results-concepts"></div>
       </section>
       <section class="results-section" aria-labelledby="results-next-studies-title">

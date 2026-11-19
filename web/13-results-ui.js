@@ -352,6 +352,8 @@ function renderAdaptive(plan) {
  }
  if (!enabled) return;
  const ranked = plan.recommendations.filter(item => !selectedSubject || item.subjectId === selectedSubject);
+ const activityCount=$('results-review-activity-count');
+ if(activityCount)activityCount.textContent=String(ranked.length);
  // O resumo exibe no maximo tres decisoes, sem ocultar a fila completa em Revisoes.
  // Priorizar uma atividade executavel na primeira posicao; a fila preserva prioridades originais.
  const extra = ranked.find(item => item.questionIds?.length) || null;
@@ -404,7 +406,29 @@ function renderAdaptive(plan) {
   viewAll);
  if (queueSection && queueItems) {
   queueSection.hidden = remaining.children.length === 0;
-  queueItems.replaceChildren(remaining);
+  const rows=[...remaining.children];
+  const count=el('p','results-concept-count',rows.length+' atividades neste concurso'+
+   (selectedSubject?' e matéria':'')+' · mostrando '+Math.min(6,rows.length)+' de '+rows.length);
+  const footer=el('div','results-concepts-footer');
+  let visibleCount=6;
+  function showPage(){
+   rows.forEach((row,index)=>{row.hidden=index>=visibleCount;});
+   count.textContent=rows.length+' atividades neste concurso'+(selectedSubject?' e matéria':'')+
+    ' · mostrando '+Math.min(visibleCount,rows.length)+' de '+rows.length;
+   footer.replaceChildren();
+   if(rows.length>visibleCount){
+    const more=el('button','results-concept-more','Mostrar mais '+Math.min(6,rows.length-visibleCount)+' atividades');
+    more.type='button';
+    more.addEventListener('click',()=>{visibleCount+=6;showPage();});
+    footer.append(more);
+   }else if(rows.length>6){
+    const less=el('button','results-concept-more','Mostrar menos');
+    less.type='button';less.addEventListener('click',()=>{visibleCount=6;showPage();});
+    footer.append(less);
+   }
+  }
+  queueItems.replaceChildren(count,remaining,footer);
+  showPage();
  }
  const signals = plan.principles.flatMap(item => item.signals.filter(signal => signal.elapsed)
   .map(signal => ({ ...signal, title: item.title }))).sort((a,b) => b.date.localeCompare(a.date));
@@ -550,6 +574,11 @@ function render(){
  const concepts=current.concepts||[];
  const allArticles=(current.articles||[]).filter(x=>x.mistakes?.length||x.uncertainCorrect?.length);
  const activeArticles=allArticles.filter(x=>!selectedSubject||articleSubject(x,concepts)===selectedSubject);
+ const reviewContest=$('results-review-contest-name');
+ if(reviewContest)reviewContest.textContent='Revisões: '+select.options[select.selectedIndex].textContent+
+  (selectedSubject?' · '+title(selectedSubject):'');
+ const articleCount=$('results-review-article-count');
+ if(articleCount)articleCount.textContent=String(activeArticles.length);
  $('results-articles').replaceChildren(...(activeArticles.length?activeArticles.map(makeArticle):[el('p','results-caption','Sem artigos com erros ou insegurança para esta matéria.')]));
  const priority=$('results-quiz-priorities');
  const articleGroups=subjectGroups(activeArticles,a=>articleSubject(a,concepts));
@@ -569,6 +598,32 @@ function render(){
    box.append(number,copy,link);group.append(box);
   }
   priority.append(group);
+ }
+ const allArticleRows=[...priority.querySelectorAll('.results-quiz-priority')];
+ if(allArticleRows.length>5){
+  const headline=el('p','results-concept-count');
+  const footer=el('div','results-concepts-footer');
+  let visible=5;
+  function showArticles(){
+   allArticleRows.forEach((row,i)=>{row.hidden=i>=visible;});
+   for(const group of priority.querySelectorAll('.results-subject-group'))
+    group.hidden=![...group.querySelectorAll('.results-quiz-priority')].some(row=>!row.hidden);
+   headline.textContent=allArticleRows.length+' artigos para revisar · mostrando '+
+    Math.min(visible,allArticleRows.length)+' de '+allArticleRows.length;
+   footer.replaceChildren();
+   if(visible<allArticleRows.length){
+    const button=el('button','results-concept-more','Mostrar mais '+Math.min(5,allArticleRows.length-visible)+' artigos');
+    button.type='button';button.addEventListener('click',()=>{visible+=5;showArticles();});
+    footer.append(button);
+   }else{
+    const button=el('button','results-concept-more','Mostrar menos artigos');
+    button.type='button';button.addEventListener('click',()=>{visible=5;showArticles();});
+    footer.append(button);
+   }
+  }
+  priority.prepend(headline);priority.append(footer);showArticles();
+ }else if(allArticleRows.length){
+  priority.prepend(el('p','results-concept-count',allArticleRows.length+' artigos para revisar'));
  }
  if(!articleGroups.length)priority.append(el('p','results-caption','Sem recomendações de artigo para esta matéria.'));
  $('results-quiz-priority-description').textContent=
@@ -591,22 +646,72 @@ function render(){
  if(!levels.length)difficultyRoot.append(el('p','results-caption','Ainda não existem tentativas classificadas para este concurso.'));
  const cs=(current.concepts||[]).filter(c=>c.errors||c.uncertain||c.dueOn)
   .filter(c=>!selectedSubject||c.subjectId===selectedSubject);
+ cs.sort((a,b)=>(Number(b.priority)||0)-(Number(a.priority)||0)||
+  (Number(b.errors)||0)-(Number(a.errors)||0));
+ const conceptCount=$('results-review-concept-count');
+ if(conceptCount)conceptCount.textContent=String(cs.length);
  const conceptRoot=$('results-concepts');
  conceptRoot.replaceChildren();
- for(const [subject,items] of subjectGroups(cs,c=>c.subjectId)){
-  const group=el('section','results-subject-group');
-  group.append(subjectHeading(subject,items.length));
-  for(const c of items){
-   const box=el('div','results-concept'),left=el('div');
-   const attempts=Number.isFinite(c.attempts)?c.attempts:0;
-   left.append(el('strong','',c.title),
-    el('small','',c.errors+' erro(s) em '+attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')),
-    el('small','',attempts<3?'Dados insuficientes para avaliar domínio; recomendação provisória.':evidenceLabel(attempts,c.errors||0)));
-   conceptLinks(left,c);box.append(left,priorityLabel(c.priority));group.append(box);
+ const conceptToolbar=el('div','results-concepts-toolbar');
+ const count=el('p','results-concept-count');
+ count.setAttribute('role','status');count.setAttribute('aria-live','polite');
+ const search=el('input','results-concept-search');
+ search.type='search';search.placeholder='Buscar conceito ou matéria';
+ search.setAttribute('aria-label','Buscar conceitos para revisão');
+ const list=el('div','results-concepts-list');
+ const footer=el('div','results-concepts-footer');
+ conceptToolbar.append(count,search);
+ conceptRoot.append(conceptToolbar,list,footer);
+ let shown=8;
+ const renderConceptList=()=>{
+  const term=search.value.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+  const filtered=cs.filter(c=>!term||
+   (c.title+' '+title(c.subjectId)).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(term));
+  const total=filtered.length;
+  const visible=filtered.slice(0,shown);
+  const subjects=new Set(filtered.map(c=>c.subjectId).filter(Boolean)).size;
+  count.textContent=total+' '+(total===1?'conceito':'conceitos')+' em '+subjects+
+   (subjects===1?' matéria':' matérias')+' · mostrando '+visible.length+' de '+total;
+  list.replaceChildren();
+  const groups=subjectGroups(visible,c=>c.subjectId);
+  for(const [subject,items] of groups){
+   const group=el('section','results-concept-group');
+   const heading=el('h3','results-concept-group-title',title(subject));
+   const subjectTotal=filtered.filter(c=>c.subjectId===subject).length;
+   heading.append(el('span','results-concept-group-count',subjectTotal+' conceitos'));
+   group.append(heading);
+   for(const c of items){
+    const row=el('div','results-concept-compact');
+    const heading=el('strong','',c.title);
+    const attempts=Number.isFinite(c.attempts)?c.attempts:0;
+    const signals=el('small','',c.errors+' erros · '+c.uncertain+' inseguros · '+attempts+' tentativas');
+    const info=el('div','results-concept-compact-copy');
+    info.append(heading,signals);
+    const articleId=(Array.isArray(c.articles)?c.articles:[]).find(id=>manifest.has(id));
+    if(articleId){
+     const link=el('a','results-link','Ler artigo');
+     link.href=articleLink({articleId});link.rel='noreferrer';info.append(link);
+    }
+    row.append(info,priorityLabel(c.priority));group.append(row);
+   }
+   list.append(group);
   }
-  conceptRoot.append(group);
- }
- if(!conceptRoot.children.length)conceptRoot.append(el('p','results-caption','Sem conceitos prioritários para esta matéria.'));
+  if(!total)list.append(el('p','results-caption','Nenhum conceito encontrado para este filtro.'));
+  footer.replaceChildren();
+  if(total>shown){
+   const more=el('button','results-concept-more','Mostrar mais '+Math.min(8,total-shown)+' conceitos');
+   more.type='button';
+   more.addEventListener('click',()=>{shown+=8;renderConceptList();});
+   footer.append(more);
+  } else if(total>8){
+   const less=el('button','results-concept-more','Mostrar menos');
+   less.type='button';
+   less.addEventListener('click',()=>{shown=8;renderConceptList();});
+   footer.append(less);
+  }
+ };
+ search.addEventListener('input',()=>{shown=8;renderConceptList();});
+ renderConceptList();
  const filter=$('results-subject-filter');
  const subjects=new Set([...(current.bySubject||[]).map(s=>s.id),...allArticles.map(a=>articleSubject(a,concepts)),...concepts.map(c=>c.subjectId)].filter(Boolean));
  const nextOptions=[['','Todas as matérias'],...[...subjects].sort((a,b)=>title(a).localeCompare(title(b),'pt-BR')).map(s=>[s,title(s)])];

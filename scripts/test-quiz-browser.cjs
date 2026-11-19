@@ -96,8 +96,25 @@ fs.mkdirSync(evidence,{recursive:true});
     concepts:[{title:'Conceito do teste',subjectId:'direito-constitucional',errors:1,uncertain:1,
       attempts:3,priority:62,articles:[meta.articleId],dueOn:null}]
    };
-   await page.route('**/v1/study/unified?*',route=>route.fulfill({status:200,
-     contentType:'application/json',body:JSON.stringify(fake)}));
+   // Fixture extensa para validar densidade, busca e carregamento incremental.
+   for(let i=1;i<=12;i++)fake.concepts.push({
+    title:'Conceito de teste '+i,subjectId:'direito-constitucional',
+    errors:1,uncertain:0,attempts:2,priority:50,articles:[],dueOn:null
+   });
+   for(let i=0;i<3;i++)fake.adaptive.recommendations.push({
+    concursoId:'camara-2026',subjectId:'direito-constitucional',
+    principleId:'extra-'+i,title:'Revisão adicional '+i,rationale:['Revisar ponto pendente.'],
+    action:'review',priority:'medium',quantity:0,questionIds:[],articles:[],nextReview:null
+   });
+   const requestedExams=[];
+   await page.route('**/v1/study/unified?*',route=>{
+    const exam=new URL(route.request().url()).searchParams.get('concurso');
+    requestedExams.push(exam);
+    if(exam!=='camara-2026')return route.fulfill({
+     status:401,contentType:'application/json',body:'{}'
+    });
+    return route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(fake)});
+   });
    await page.clock.install({time:new Date('2026-11-19T02:59:30Z')});
    await page.goto('http://127.0.0.1:8765/resultados.html?concurso=camara-2026',{waitUntil:'networkidle'});
    await page.locator('#results-content').waitFor({state:'visible',timeout:15000});
@@ -152,7 +169,29 @@ fs.mkdirSync(evidence,{recursive:true});
 
    await page.getByRole('link',{name:'Revisões',exact:true}).click();
    assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link para leitura prioritaria');
-   assert.equal(await page.locator('#results-adaptive-queue-items li').count(),6,'fila completa acessivel em Revisoes');
+   assert.match(await page.locator('#results-review-contest-name').innerText(),/Câmara dos Deputados/);
+   assert.equal(await page.locator('#results-review-activity-count').innerText(),'9');
+   assert.equal(await page.locator('#results-review-article-count').innerText(),'1');
+   assert.equal(await page.locator('#results-review-concept-count').innerText(),'13');
+   assert.equal(await page.locator('#results-adaptive-queue-items li').count(),9,'fila completa acessivel em Revisoes');
+   assert.equal(await page.locator('#results-adaptive-queue-items li:visible').count(),6,'somente seis atividades iniciais');
+   await page.locator('#results-adaptive-queue-items').getByRole('button',{name:'Mostrar mais 3 atividades'}).click();
+   assert.equal(await page.locator('#results-adaptive-queue-items li:visible').count(),9);
+   assert.match(await page.locator('#results-concepts .results-concept-count').innerText(),/13 conceitos em 1 matéria · mostrando 8 de 13/);
+   assert.equal(await page.locator('#results-concepts .results-concept-compact:visible').count(),8);
+   await page.getByRole('searchbox',{name:'Buscar conceitos para revisão'}).fill('teste 12');
+   assert.equal(await page.locator('#results-concepts .results-concept-compact:visible').count(),1);
+   await page.getByRole('searchbox',{name:'Buscar conceitos para revisão'}).fill('');
+   await page.locator('#results-concepts').getByRole('button',{name:'Mostrar mais 5 conceitos'}).click();
+   assert.equal(await page.locator('#results-concepts .results-concept-compact:visible').count(),13);
+   const defaultLinkColor=await page.locator('#results-concepts .results-link').first().evaluate(link=>getComputedStyle(link).color);
+   assert.notEqual(defaultLinkColor,'rgb(0, 0, 238)','links nao podem usar azul nativo');
+   assert.notEqual(defaultLinkColor,'rgb(85, 26, 139)','links visitados nao podem usar roxo nativo');
+   await page.locator('#results-theme').evaluate(button=>button.click());
+   const alternateColor=await page.locator('#results-concepts .results-link').first().evaluate(link=>getComputedStyle(link).color);
+   assert.notEqual(alternateColor,'rgb(0, 0, 238)','tema alternativo sem azul nativo');
+   assert.notEqual(alternateColor,'rgb(85, 26, 139)','tema alternativo sem roxo nativo');
+   await page.locator('#results-theme').evaluate(button=>button.click());
    assert.ok(await page.getByRole('heading',{name:'Estudar · Conteúdo inicial'}).isVisible());
    const discursive=page.getByText('Treinar discursiva',{exact:true});
    assert.ok(await discursive.isVisible(),'propostas discursivas acessiveis em Revisoes');
@@ -162,6 +201,15 @@ fs.mkdirSync(evidence,{recursive:true});
 
    await page.getByRole('link',{name:'Resumo',exact:true}).click();
    assert.equal(new URL(page.url()).searchParams.get('visao'),'resumo');
+   // O seletor de concurso limpa o painel anterior e consulta somente o concurso escolhido.
+   await page.selectOption('#results-contest','cgu-2026');
+   await page.locator('#results-login').waitFor({state:'visible'});
+   assert.equal(await page.locator('#results-content').isVisible(),false,
+    'dados da Câmara nao aparecem sob CGU ao trocar o concurso');
+   assert.equal(requestedExams.at(-1),'cgu-2026');
+   await page.selectOption('#results-contest','camara-2026');
+   await page.locator('#results-content').waitFor({state:'visible'});
+   assert.equal(requestedExams.at(-1),'camara-2026');
    assert.deepEqual(errors,[],'painel e quiz sem erros JS');
    const launch=page.locator('#results-adaptive-actions').getByRole('link',{name:'Preparar bateria de 1 questão(ões)'});
    await launch.focus();

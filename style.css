@@ -49,6 +49,13 @@ body {
     transition: background-color 0.25s ease, color 0.25s ease;
 }
 
+/* Cor base para links ainda sem regra de componente, inclusive visitados.
+   Evita o azul nativo do navegador e acompanha o tema atual. */
+a:link,
+a:visited {
+    color: var(--accent-blue);
+}
+
 header, main {
     max-width: 1000px;
     margin: 0 auto;

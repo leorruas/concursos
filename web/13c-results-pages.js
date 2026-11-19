@@ -3,9 +3,9 @@
  'use strict';
  const views=[
   {id:'resumo',label:'Resumo',selectors:['#results-adaptive','#results-legacy','#results-retention']},
-  {id:'revisoes',label:'Revisões',selectors:['[aria-labelledby="results-next-studies-title"]','[aria-labelledby="results-review-queue-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]']},
+  {id:'revisoes',label:'Revisões',selectors:['[aria-labelledby="results-next-studies-title"]','[aria-labelledby="results-review-queue-title"]','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]','#results-discursive']},
   {id:'materias',label:'Matérias',selectors:['[aria-labelledby="title-subjects"]','[aria-labelledby="results-edital-coverage-title"]','[aria-labelledby="results-difficulty-heading"]','[aria-labelledby="results-coverage-title"]']},
-  {id:'historico',label:'Histórico',selectors:['#results-principle-history','[aria-labelledby="results-concept-transfer-title"]','[aria-labelledby="results-retests-title"]']}
+  {id:'historico',label:'Histórico',selectors:['#results-principle-history','[aria-labelledby="results-concept-transfer-title"]']}
  ];
  const root=document.getElementById('results-content');
  if(!root)return;

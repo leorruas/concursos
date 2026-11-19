@@ -406,7 +406,7 @@ function renderAdaptive(plan) {
    const link=el('a','results-study-action-primary','Preparar bateria de '+item.quantity+' questão(ões)');
    link.href='questoes.html#'+params.toString();
    controls.append(link);
-  }else copy.append(el('p','results-caption','Ainda sem questões novas compatíveis no banco.'));
+  }else controls.append(el('span','results-study-action-unavailable','Sem questões novas disponíveis'));
   const ref=item.articles.map(value=>/^article:(art-[a-z0-9]+)(?:#(.*))?$/i.exec(value))
    .find(match=>match&&manifest.has(match[1]));
   if(ref){

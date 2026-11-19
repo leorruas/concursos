@@ -172,8 +172,8 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.ok(await page.getByText('0 de 1 referências com respostas vinculadas').isVisible());
    const align=await page.evaluate(()=>{
     const nav=document.querySelector('.results-layout>.study-topbar').getBoundingClientRect();
-    const panel=document.querySelector('.results-page-heading').getBoundingClientRect();
-    return Math.abs(nav.left-panel.left);
+    const views=document.querySelector('.results-views-nav').getBoundingClientRect();
+    return Math.abs(nav.left-views.left);
    });
    assert.ok(align<2,'navbar e painel devem ter a mesma margem esquerda');
 

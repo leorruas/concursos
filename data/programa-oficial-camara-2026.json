@@ -1,0 +1,17 @@
+{
+  "concursoId": "camara-2026",
+  "cargo": 1,
+  "source": "https://cdn.cebraspe.org.br/concursos/CD_26_ANALISTA/arquivos/D0A680C4506DD7153722F50B4F05038D9C80FE7BAD36D52A5E65DA395F75A94B.pdf",
+  "sourceVersion": "Edital nº 1, consolidado até o Edital nº 6 de 21/10/2026",
+  "blocks": [
+    {"part":"P1","section":"14.2.3","title":"Português","page":51,"subjects":["portugues"],"codes":"1 2 3 4 4.1 4.2 5 5.1 5.2 5.3 5.4 5.5 5.6 5.7 5.8 6 6.1 6.2 6.3 6.4"},
+    {"part":"P1","section":"14.2.3","title":"Inglês","page":51,"subjects":["ingles"],"codes":"1 2 3"},
+    {"part":"P1","section":"14.2.3","title":"Direito Administrativo e Administração Pública","page":52,"subjects":["direito-administrativo","administracao-publica"],"codes":"1 1.1 1.2 2 2.1 2.2 3 3.1 3.2 3.3 3.4 4 4.1 4.2 4.3 4.4 5 5.1 5.2 6 6.1 6.2 6.3 6.4 6.5 7 8 8.1 8.2 8.3 8.4 9 9.1 9.2 9.3 9.4 10 10.1 10.2 10.3 10.4 10.5 10.6 10.7 11 12"},
+    {"part":"P1","section":"14.2.3","title":"Direito Constitucional e Regimento","page":52,"subjects":["direito-constitucional"],"codes":"1 2 3 4 5 6 7 7.1 7.2 7.3 7.4 8 8.1 8.2"},
+    {"part":"P1","section":"14.2.3","title":"Tecnologia da Informação e Dados","page":53,"subjects":["informatica"],"codes":"1 2 2.1 3 4 4.1 4.2 4.3 5 5.1 5.2 5.3 6 7 7.1 8 8.1 8.2 8.3 8.4"},
+    {"part":"P2","section":"14.2.4","title":"Comunicação Social","page":53,"subjects":["comunicacao"],"codes":"1 1.1 1.2 1.3 1.4 2 2.1 2.2 2.3 2.4 2.5 3 3.1 3.2 3.3 3.4 4 4.1 4.2 4.3 4.4 4.5 4.6 4.7 4.8 4.9 5 5.1 5.2 5.3 5.4 6 7 7.1 7.2 8 8.1 8.2 9 9.1 9.2 10 10.1 10.2 11"},
+    {"part":"P2","section":"14.2.4","title":"Divulgação Institucional","page":54,"subjects":["comunicacao","etica-publica"],"codes":"1 1.1 1.2 1.3 1.4 1.5 1.6 1.7 2 2.1 2.2 2.3 2.4 2.5 2.6 2.7 3 3.1 3.2 3.3 3.4 3.5 3.6 4 4.1 4.2 4.3 5 5.1 5.2 5.3 5.4 5.5 5.6 5.7 6 7 8 8.1 8.2"},
+    {"part":"P2","section":"14.2.4","title":"Processo Legislativo e Regimento","page":54,"subjects":["direito-constitucional","orcamento-publico","etica-publica"],"codes":"1 1.1 1.2 1.3 2 2.1 2.2 2.3 2.4 2.5 2.6 3 4 4.1 4.2 4.3 4.4 4.5 4.6 4.7 5 5.1 6 6.1 6.2 6.3 7"},
+    {"part":"P2","section":"14.2.4","title":"Ciência Política","page":54,"subjects":["estado-democracia"],"codes":"1 2 3 4 5 6 7 8 9 10 11 12 13"}
+  ]
+}

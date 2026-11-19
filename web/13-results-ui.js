@@ -161,6 +161,26 @@ function showEditalCoverage(){
    else section.append(list);
    target.append(section);
   }
+  const program = subjectCatalog?.programaCamara;
+  if (program?.concursoId === current.concursoId && Array.isArray(program.blocks)) {
+   const blocks = program.blocks.filter(block => !selectedSubject || block.subjects.includes(selectedSubject));
+   if (blocks.length) {
+    const official = el('details', 'results-revision-details');
+    const count = blocks.reduce((sum, block) => sum + block.codes.split(' ').length, 0);
+    official.append(el('summary', '', 'Programa oficial · ' + count + ' itens e subitens numerados'));
+    official.append(el('p', 'results-caption', program.sourceVersion + '. As respostas acima são agregadas pelas referências do banco. A correspondência com a numeração oficial ainda está em conferência.'));
+    const list = el('ul');
+    for (const block of blocks) {
+     const row = el('li');
+     const link = el('a', '', block.part + ' · ' + block.title);
+     link.href = program.source + '#page=' + block.page;
+     row.append(link, el('p', 'results-caption', block.section + ' · ' + block.codes.split(' ').join(', ')));
+     list.append(row);
+    }
+    official.append(list);
+    target.append(official);
+   }
+  }
   if(!selectedSubject&&coverage.unmapped)target.append(el('p','results-caption',
    coverage.unmapped+' tentativa(s) sem correspondência exata com uma referência detalhada do catálogo.'));
   return;

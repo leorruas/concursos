@@ -425,6 +425,7 @@ Para Comunicação Social/Divulgação Institucional, uma notícia institucional
 
 ## Relações com outros temas
 
+- [[3 - Materias/Direito Constitucional/37 - controle parlamentar fiscalizacao requerimentos e prestacao de contas|DC37]]: fiscalização parlamentar e distinção entre providências sobre atos, contratos e cautelares.
 - [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]]: competências das Casas e do Congresso.
 - [[3 - Materias/Direito Administrativo/01 - principios e lei de acesso a informacao|Princípios e LAI]]: transparência, publicidade e controle social.
 - [[3 - Materias/Direito Administrativo/08 - licitacoes e contratos|Licitações e contratos]]: fiscalização de licitações, despesas e contratos.

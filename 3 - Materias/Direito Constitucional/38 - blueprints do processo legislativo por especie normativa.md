@@ -69,7 +69,7 @@ Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e 
 | **Evidências e documentos** | MPV publicada | Emendas | Parecer ou PLV | Votação Câmara | Votação Senado | Lei ou perda de eficácia |
 | **Ações do proponente** | Presidente edita MPV | Parlamentares oferecem emendas | não se aplica | não se aplica | não se aplica | não se aplica |
 | *Linha de interação* | ↕ | ↕ | ↕ | ↕ | ↕ | ↕ |
-| **Frontstage: atos e contatos públicos** | MPV é publicada | Congresso recebe emendas | Comissão mista emite parecer | Câmara vota primeiro | Senado delibera; alterações podem retornar | Texto original: promulgação; PLV: sanção/veto |
+| **Frontstage: atos e contatos públicos** | MPV é publicada | Congresso recebe emendas | Comissão mista emite parecer | Câmara vota primeiro | Senado delibera; alterações podem retornar | MP aprovada sem mudança de mérito: Presidente da Mesa do Congresso promulga; PLV: Presidente da República sanciona ou veta |
 | *Linha de visibilidade* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Backstage: preparação e análise** | Apoio verifica pressupostos | Serviços registram | Relatoria prepara parecer e PLV | Serviços organizam votação | Apoio concilia textos | Congresso examina relações jurídicas se MPV perder eficácia |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |

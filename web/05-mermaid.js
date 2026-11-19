@@ -96,6 +96,27 @@ async function abrirModalExploradorMermaid(codigo) {
         <div class="mermaid-modal-body"><div class="mermaid-modal-stage" aria-live="polite"></div></div>`;
     document.body.appendChild(modal);
     modal.querySelector(".btn-mermaid-fechar")?.focus();
+    const fecharDuranteCarga = () => {
+        removerEventosDuranteCarga();
+        modal.remove();
+        if (focoAnterior?.isConnected && typeof focoAnterior.focus === "function") focoAnterior.focus();
+    };
+    const aoTeclarDuranteCarga = evento => {
+        if (evento.key === "Escape") { evento.preventDefault(); fecharDuranteCarga(); }
+        else if (evento.key === "Tab") {
+            evento.preventDefault();
+            modal.querySelector(".btn-mermaid-fechar")?.focus();
+        }
+    };
+    const removerEventosDuranteCarga = () => {
+        modal.querySelector(".btn-mermaid-fechar")?.removeEventListener("click", fecharDuranteCarga);
+        window.removeEventListener("keydown", aoTeclarDuranteCarga);
+    };
+    modal.querySelectorAll(".mermaid-modal-controls button:not(.btn-mermaid-fechar)").forEach(botao => {
+        botao.disabled = true;
+    });
+    modal.querySelector(".btn-mermaid-fechar")?.addEventListener("click", fecharDuranteCarga);
+    window.addEventListener("keydown", aoTeclarDuranteCarga);
 
     const stage = modal.querySelector(".mermaid-modal-stage");
     const body = modal.querySelector(".mermaid-modal-body");
@@ -103,9 +124,12 @@ async function abrirModalExploradorMermaid(codigo) {
     try {
         await aguardarFontes();
         const resultado = await renderizarSvgMermaid(codigo);
+        if (!modal.isConnected) { removerEventosDuranteCarga(); return; }
         stage.innerHTML = resultado.svg;
         resultado.bindFunctions?.(stage);
     } catch (erro) {
+        if (!modal.isConnected) { removerEventosDuranteCarga(); return; }
+        removerEventosDuranteCarga();
         console.error("Erro ao renderizar Mermaid no explorador:", erro);
         stage.textContent = "Não foi possível renderizar este diagrama.";
         modal.querySelectorAll("button:not(.btn-mermaid-fechar)").forEach(botao => { botao.disabled = true; });
@@ -123,13 +147,16 @@ async function abrirModalExploradorMermaid(codigo) {
         return;
     }
 
+    removerEventosDuranteCarga();
     const svg = stage.querySelector("svg");
     if (!svg) {
-        modal.querySelector(".btn-mermaid-fechar")?.click();
         modal.remove();
         if (focoAnterior?.isConnected && typeof focoAnterior.focus === "function") focoAnterior.focus();
         return;
     }
+    modal.querySelectorAll(".mermaid-modal-controls button:not(.btn-mermaid-fechar)").forEach(botao => {
+        botao.disabled = false;
+    });
     const { largura, altura } = dimensoesDoSvg(svg);
     stage.style.width = `${Math.ceil(largura)}px`;
     stage.style.height = `${Math.ceil(altura)}px`;

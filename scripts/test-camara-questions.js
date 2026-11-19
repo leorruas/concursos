@@ -44,6 +44,14 @@ const session = {
 };
 const validate = s => validateSession(s, s.id + '.json', root, contests);
 validate(session);
+const declaration = {...session, kind:'aula', scope:'subject',
+ subjectId:'direito-constitucional', unitId:'processo-legislativo', questions:[],
+ learning:{...session.learning, stage:'preparacao', exposureDeclaration:'not-studied',
+  next:{...session.learning.next, unitId:'processo-legislativo'}}};
+validate(declaration);
+assert.throws(()=>validate({...declaration,learning:{...declaration.learning,taughtConcepts:['Quórum']}}),
+ /declaração de unidade não estudada/);
+assert.throws(()=>validate({...declaration,status:'parcial'}),/declaração de unidade não estudada/);
 const config = JSON.parse(fs.readFileSync(new URL('../data/questoes-camara.json', import.meta.url)));
 const bankStatements = new Set();
 const bankItems = [...config.pilotoDidatico, ...(config.expansao ?? []).filter(item => item.reviewStatus !== 'bloqueada')];

@@ -129,6 +129,8 @@ function showEditalCoverage(){
     unit.items.length + ' referências avaliadas' : ' · Sem referências detalhadas no banco')));
    if (unit.studyStatus === 'studied-unassessed') {
     details.append(el('p', 'results-caption', 'Estudo registrado em ' + fmtDate(unit.exposition) + '. Ainda sem avaliação na unidade.'));
+   } else if (unit.studyStatus === 'confirmed-not-studied') {
+    details.append(el('p', 'results-caption', 'Unidade declarada como ainda não estudada em ' + fmtDate(unit.confirmedNotStudiedOn) + '.'));
    } else if (unit.studyStatus === 'unknown') {
     details.append(el('p', 'results-caption', 'Sem evidência suficiente de estudo ou avaliação na unidade.'));
    } else if (unit.studyStatus === 'evaluated') {

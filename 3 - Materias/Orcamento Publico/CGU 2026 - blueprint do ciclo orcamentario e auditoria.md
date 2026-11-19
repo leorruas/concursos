@@ -9,9 +9,13 @@ created: 2026-11-19
 updated: 2026-11-19
 ---
 
-# CGU 2026: blueprint do ciclo orçamentário e da auditoria
+# Controladoria-Geral da União (CGU) 2026: blueprint do ciclo orçamentário e da auditoria
 
 Este **blueprint de serviços** acompanha o orçamento desde o planejamento até a execução e o controle. **A CGU atua no controle interno e na auditoria**; sua participação no processo não se confunde com a aprovação legislativa das leis orçamentárias. **Iniciativa legislativa:** Presidente da República. **Apreciação:** Congresso Nacional, com Câmara e Senado em sessão conjunta, conforme o rito orçamentário.
+
+
+**Siglas do mapa:** Plano Plurianual (PPA), Projeto de Lei de Diretrizes Orçamentárias (PLDO), Projeto de Lei Orçamentária Anual (PLOA), Lei de Diretrizes Orçamentárias (LDO), Lei Orçamentária Anual (LOA), Sistema Integrado de Administração Financeira do Governo Federal (SIAFI), Relatório Resumido da Execução Orçamentária (RREO), Relatório de Gestão Fiscal (RGF), Sistema Integrado de Planejamento e Orçamento (SIOP) e Ato das Disposições Constitucionais Transitórias (ADCT).
+
 
 | Camadas / fases | 1. Planejamento | 2. Autorização | 3. Programação | 4. Execução | 5. Monitoramento | 6. Auditoria e providências |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

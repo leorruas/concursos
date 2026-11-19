@@ -13,6 +13,10 @@ updated: 2026-11-19
 
 Este **blueprint de serviços** acompanha o processo legislativo orçamentário federal. **Iniciativa:** Presidente da República. **Apreciação:** Comissão Mista de Planos, Orçamentos Públicos e Fiscalização (CMO) e Congresso Nacional. **Câmara dos Deputados e Senado Federal deliberam em sessão conjunta**, conforme Regimento Comum: não existe a revisão bicameral sucessiva típica de um projeto de lei comum.
 
+
+**Siglas do mapa:** Plano Plurianual (PPA), Lei de Diretrizes Orçamentárias (LDO), Lei Orçamentária Anual (LOA), Projeto de Lei de Diretrizes Orçamentárias (PLDO), Projeto de Lei Orçamentária Anual (PLOA), Ato das Disposições Constitucionais Transitórias (ADCT), Sistema Integrado de Administração Financeira do Governo Federal (SIAFI) e Relatório Resumido da Execução Orçamentária (RREO).
+
+
 | Camadas / fases | 1. Elaboração | 2. Envio e recebimento | 3. Instrução na CMO | 4. Deliberação no Congresso | 5. Sanção e publicação | 6. Execução e fiscalização |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | Metas e estimativas; minutas PPA, LDO, PLOA | Projeto de Lei do Congresso Nacional (PLN); exposição de motivos | Emendas; relatórios setoriais e geral; parecer da CMO | Texto aprovado; redação final; autógrafo | Lei orçamentária sancionada ou vetada; publicação | Dotação atualizada; execução; relatórios fiscais e contas |

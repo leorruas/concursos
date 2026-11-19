@@ -42,7 +42,11 @@ for (const filename of all) {
       if (!dictionary[acronym] || first.has(acronym)) continue;
       first.set(acronym, i + 1);
       const prefix = text.slice(0, match.index).replace(/\s+/g, ' ').trimEnd();
-      const full = dictionary[acronym];
+      // "PL" é polissêmico: em Direito Constitucional, significa Projeto de Lei;
+      // em Contabilidade Pública, patrimônio líquido. Evitar falsos avisos.
+      const full = acronym === 'PL' && filename.replaceAll('\\', '/').includes('/Direito Constitucional/')
+        ? 'Projeto de Lei'
+        : dictionary[acronym];
       const normalized = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
       const prefixEnd = normalized(prefix).slice(-normalized(full).length);
       if (prefixEnd !== normalized(full) || text[match.index - 1] !== '(' || text[match.index + acronym.length] !== ')') {

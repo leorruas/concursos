@@ -21,6 +21,10 @@ Este mapa mostra as **proposições do art. 100 do Regimento Interno da Câmara*
 
 **Destino e competência:** PL e PLP seguem, quando cabível, à outra Casa; projetos de resolução da Câmara ficam na própria Casa. PEC e outros projetos têm ritos especiais.
 
+
+**Siglas do mapa:** Projeto de Lei (PL), Projeto de Lei Complementar (PLP), Proposta de Emenda à Constituição (PEC) e Proposta de Fiscalização e Controle (PFC).
+
+
 | Camadas / fases | 1. Origem | 2. Recebimento | 3. Instrução | 4. Decisão | 5. Retorno ou encaminhamento | 6. Resultado |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Evidências e documentos** | Projeto e justificação | Protocolo, despacho e distribuição | Emendas, voto do relator e parecer | Texto aprovado ou rejeitado | Autógrafo ou texto encaminhado | Norma promulgada/publicada ou arquivamento |

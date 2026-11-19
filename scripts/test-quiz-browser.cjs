@@ -116,7 +116,7 @@ fs.mkdirSync(evidence,{recursive:true});
     await page.locator('#qs-next').click();
     if(i===0){
      const top=await page.locator('#qs-reading-start').evaluate(el=>el.getBoundingClientRect().top);
-     assert.ok(top>=0&&top<55,'próxima questão deve começar no topo da leitura: '+top);
+     assert.ok(top>=0&&top<96,'próxima questão deve começar próxima ao topo, abaixo da navegação: '+top);
      assert.equal(await page.evaluate(()=>document.activeElement?.id),'qs-reading-start','foco acompanha a nova questão');
      assert.equal(await page.locator('#qs-answer-metadata').isVisible(),true,'contexto volta a aparecer na nova questão');
     }

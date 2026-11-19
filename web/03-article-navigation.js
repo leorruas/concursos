@@ -167,6 +167,7 @@ async function abrirArtigo(artigo, atualizarRota = true, secao = "", origem = ""
     renderizarContextoConcursoArtigo(artigo);
 
     renderizarDiagramasMermaid();
+    if (window.renderizarBlueprintsServicos) window.renderizarBlueprintsServicos(artigo);
     gerarTableOfContents();
     if (window.renderizarErrosPrivadosArtigo) window.renderizarErrosPrivadosArtigo(artigo);
     renderizarBotoesNavegacao(artigo, categoriaOrigem);

@@ -330,12 +330,18 @@ function renderAdaptive(plan) {
   practice.append(details);
  }
  if (!enabled) return;
- const activities = plan.recommendations.filter(item => !selectedSubject || item.subjectId === selectedSubject).slice(0, 4);
+ const ranked = plan.recommendations.filter(item => !selectedSubject || item.subjectId === selectedSubject);
+ const activities = ranked.slice(0, 4);
+ const extra = activities.some(item => item.questionIds.length) ? null :
+  ranked.slice(activities.length).find(item => item.questionIds.length);
+ if (extra) activities.push(extra);
  const list = el('ul');
  for (const item of activities) {
   const row = el('li');
   const action = adaptiveActions[item.action] || 'Revisar';
-  row.append(el('h3', '', action + ' · ' + item.title),
+  const label = /^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(item.title) ? item.title.replaceAll('-', ' ') : item.title;
+  if (item === extra) row.append(el('p', 'results-meta', 'Bateria disponível'));
+  row.append(el('h3', '', action + ' · ' + label),
    el('p', 'results-meta', title(item.subjectId) + ' · Prioridade ' + (item.priority === 'high' ? 'alta' : 'média')),
    el('p', 'results-caption', item.rationale.join(' ')));
   if (item.questionIds.length) {

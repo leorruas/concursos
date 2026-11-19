@@ -66,7 +66,11 @@ fs.mkdirSync(evidence,{recursive:true});
     sources:{chat:{total:1},site:{total:2},siteDuplicatesSkipped:0,unmatchedCatalog:0},
     competitiveSimulations:[{date:'2026-11-14',P1:18,P2:36,total:54,objectiveMinimumMet:true}],
     adaptive:{version:1,secureErrors:1,insecureCorrect:1,
-     recommendations:[{concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'teste',title:'Regra em revisão',
+     recommendations:[...Array.from({length:4}, (_,index)=>({
+      concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'faltam-itens-'+index,
+      title:'Revisão prioritária '+index,rationale:['Reteste vencido.'],action:'test-retention',
+      priority:'high',quantity:0,questionIds:[],articles:[],nextReview:'2026-11-15'
+     })),{concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'teste',title:'Regra em revisão',
       rationale:['Reteste vencido.'],action:'test-retention',priority:'high',quantity:1,questionIds:[proposed.id],
       articles:[],nextReview:'2026-11-15'}],
      principles:[{state:'review-pending',title:'Regra em revisão',
@@ -108,6 +112,8 @@ fs.mkdirSync(evidence,{recursive:true});
    await discursive.focus();
    await page.keyboard.press('Enter');
    assert.ok(await page.locator('#results-discursive details details summary').first().isVisible());
+   assert.equal(await page.locator('#results-adaptive-actions li').count(),5);
+   assert.ok(await page.getByText('Bateria disponível',{exact:true}).isVisible());
    const launch=page.getByRole('link',{name:'Preparar bateria de 1 questão(ões)'});
    await launch.focus();
    await page.keyboard.press('Enter');

@@ -13,7 +13,7 @@ aliases:
 
 # Regimento Comum, Título IV: sessões solenes e matérias legislativas até o art. 103
 
-**Câmara dos Deputados 2026, Cargo 1: Divulgação Institucional, banca Cebraspe. CAM-PL-026.** O recorte do inventário é o **Título IV, capítulos II e III, até o art. 103**, do Regimento Comum do Congresso Nacional (RCCN). O **capítulo II** contém os **arts. 53 a 71** (sessões solenes) e o **capítulo III**, até o limite solicitado, os **arts. 72 a 103** (PEC, iniciativa presidencial e projetos orçamentários). A fonte primária é a [consolidação oficial do Senado](https://legis.senado.leg.br/norma/561098/publicacao/16433839), cotejada com a [edição oficial do Congresso Nacional](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) em 09/11/2026.
+**Câmara dos Deputados 2026, Cargo 1: Divulgação Institucional, banca Cebraspe.** O recorte do inventário é o **Título IV, capítulos II e III, até o art. 103**, do Regimento Comum do Congresso Nacional (RCCN). O **capítulo II** contém os **arts. 53 a 71** (sessões solenes) e o **capítulo III**, até o limite solicitado, os **arts. 72 a 103** (PEC, iniciativa presidencial e projetos orçamentários). A fonte primária é a [consolidação oficial do Senado](https://legis.senado.leg.br/norma/561098/publicacao/16433839), cotejada com a [edição oficial do Congresso Nacional](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional) em 09/11/2026.
 
 ## Núcleo do conceito
 

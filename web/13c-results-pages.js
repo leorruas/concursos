@@ -70,7 +70,7 @@
  .results-views-nav a:focus-visible{outline:2px solid var(--accent-blue);outline-offset:2px}
  .results-view-panel{grid-column:2;grid-row:1;min-width:0}
  .results-view-panel[hidden]{display:none!important}
- .results-page-heading{margin-bottom:34px;padding-bottom:24px;border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
+ .results-page-heading{max-width:none;margin:0 0 34px;padding:0 0 24px;border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
  .results-page-heading h2{font-size:clamp(1.7rem,3vw,2.5rem);font-weight:600;letter-spacing:-.045em;line-height:1.12;margin:0 0 9px;color:var(--text)}
  .results-page-heading p{margin:0;max-width:56ch;line-height:1.5;font-size:14px;color:var(--muted)}
  .results-view-panel>.results-section{margin-bottom:44px}

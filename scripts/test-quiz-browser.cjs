@@ -183,6 +183,57 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.equal(last.consulted,false);
    assert.equal(last.feedbackBefore,false);
    assert.deepEqual(errors,[],'fluxo adaptativo sem erros de JS');
+
+   // Exercitar a navegacao da origem autenticada sem acessar qualquer dado real.
+   // O servidor local substitui somente os arquivos publicos, e a API recebe fixture sintética.
+   const workerPage=await context.newPage();
+   const workerErrors=[];
+   workerPage.on('pageerror',error=>workerErrors.push(error.message));
+   await workerPage.route('https://concurso-estudo.leoruas.workers.dev/**',async route=>{
+    const requested=new URL(route.request().url());
+    if(requested.pathname==='/v1/study/unified')
+     return route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(fake)});
+    if(requested.pathname.startsWith('/v1/'))
+     return route.fulfill({status:401,contentType:'application/json',body:'{}'});
+    const pathname=/^\\/resultados-(?:resumo|revisoes|materias|historico)\\.html$/.test(requested.pathname)
+     ? '/resultados.html':requested.pathname;
+    const upstream=await fetch('http://127.0.0.1:8765'+pathname);
+    return route.fulfill({status:upstream.status,
+     contentType:upstream.headers.get('content-type')||'text/plain',
+     body:Buffer.from(await upstream.arrayBuffer())});
+   });
+   await workerPage.goto('https://concurso-estudo.leoruas.workers.dev/resultados-resumo.html?concurso=camara-2026',
+    {waitUntil:'networkidle'});
+   await workerPage.locator('#results-content').waitFor({state:'visible',timeout:15000});
+   assert.ok(await workerPage.getByRole('heading',{name:'Visão geral',exact:true}).isVisible());
+   assert.equal(new URL(workerPage.url()).pathname,'/resultados-resumo.html');
+   await workerPage.selectOption('#results-subject-filter','direito-constitucional');
+   const revisionUrl=workerPage.getByRole('navigation',{name:'Páginas dos resultados'})
+    .getByRole('link',{name:'Revisões',exact:true});
+   await revisionUrl.click();
+   assert.equal(new URL(workerPage.url()).pathname,'/resultados-revisoes.html',
+    'Worker deve abrir documento independente de Revisoes');
+   assert.equal(new URL(workerPage.url()).searchParams.get('materia'),'direito-constitucional',
+    'Materia deve sobreviver a navegacao');
+   assert.equal(new URL(workerPage.url()).searchParams.get('concurso'),'camara-2026');
+   await workerPage.locator('#results-content').waitFor({state:'visible',timeout:15000});
+   assert.ok(await workerPage.getByRole('heading',{name:'Revisões',exact:true}).first().isVisible());
+   await workerPage.goBack({waitUntil:'networkidle'});
+   assert.equal(new URL(workerPage.url()).pathname,'/resultados-resumo.html','Voltar recupera o resumo');
+   await workerPage.locator('#results-content').waitFor({state:'visible',timeout:15000});
+   assert.deepEqual(workerErrors,[],'rotas autenticadas simuladas sem erros JavaScript');
+
+   // Testar a escolha de destino de login ao faltar sessao.
+   await workerPage.route('**/v1/study/unified?*',route=>
+    route.fulfill({status:401,contentType:'application/json',body:'{}'}));
+   await workerPage.goto('https://concurso-estudo.leoruas.workers.dev/resultados-historico.html?concurso=camara-2026&materia=direito-constitucional',
+    {waitUntil:'networkidle'});
+   await workerPage.locator('#results-login').waitFor({state:'visible',timeout:15000});
+   const authLink=new URL(await workerPage.locator('#results-login').getAttribute('href'));
+   assert.equal(authLink.searchParams.get('return'),
+    '/resultados-historico.html?concurso=camara-2026&materia=direito-constitucional',
+    'Login deve manter pagina, concurso e materia');
+   await workerPage.close();
    await context.close();
   }
   console.log('OK: configuração, filtro Constitucional P1, correção, recomendações e layout mobile/desktop.');

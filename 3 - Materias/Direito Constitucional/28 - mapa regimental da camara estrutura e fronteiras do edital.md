@@ -13,7 +13,7 @@ aliases:
 
 # Regimento da Câmara: mapa dos órgãos, competências e recortes do edital
 
-**Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. CAM-PL-024.**
+**Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
 ## Núcleo do conceito
 

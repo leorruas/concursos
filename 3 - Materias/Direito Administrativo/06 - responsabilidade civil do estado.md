@@ -20,7 +20,9 @@ Este artigo diferencia o texto constitucional, a explicação doutrinária do **
 
 ## Regra constitucional: risco administrativo
 
-A responsabilidade é **objetiva** porque a vítima **não precisa comprovar dolo ou culpa pessoal do agente** para responsabilizar a pessoa jurídica. A dispensa desse elemento não significa responsabilidade automática.
+Na **responsabilidade objetiva**, a vítima não precisa provar que o agente público agiu intencionalmente (**dolo**) ou com negligência, imprudência ou imperícia (**culpa**) para pedir reparação da pessoa jurídica responsável pelo serviço. Ainda precisa demonstrar **o dano**, **a atuação atribuível ao serviço público** e **a relação de causa e efeito entre ambos**. Esta última é chamada de **nexo causal**.
+
+Por isso, a responsabilidade objetiva não torna o Estado responsável por qualquer prejuízo ocorrido perto de uma repartição ou de um agente público.
 
 | Elemento necessário | O que demonstrar? | Exemplo do carro oficial |
 | --- | --- | --- |

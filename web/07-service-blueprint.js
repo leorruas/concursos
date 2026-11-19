@@ -15,6 +15,13 @@ const st=`
 .sb button:focus-visible{outline:3px solid var(--accent-blue);outline-offset:2px}
 .sb button:disabled{opacity:.35;cursor:default}
 .sb-control{display:flex;flex-wrap:wrap;gap:8px;padding:9px 12px;border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
+.sb-toolbar{display:flex;align-items:center;justify-content:flex-end;gap:10px;padding:8px 12px;background:var(--bg);border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent)}
+.sb-toolbar .sb-expand{font-weight:650;min-height:36px}
+.sb:fullscreen,.sb.sb-expanded{width:100vw;height:100vh;height:100dvh;max-width:none;max-height:none;border:0;border-radius:0;margin:0;background:var(--bg);display:flex;flex-direction:column}
+.sb.sb-expanded{position:fixed;inset:0;z-index:99999}
+.sb:fullscreen .sb-toolbar,.sb.sb-expanded .sb-toolbar{flex-shrink:0;padding:12px 18px}
+.sb:fullscreen .sb-canvas,.sb.sb-expanded .sb-canvas{flex:1;min-height:0;max-height:none;overscroll-behavior:contain}
+.sb:fullscreen .sb-foot,.sb.sb-expanded .sb-foot{flex-shrink:0}
 .sb-canvas{overflow:auto;max-height:75vh;background:var(--bg)}
 .sb-map{display:block;min-width:100%;height:auto}
 .sb-map .phase-label{font:650 13px system-ui,sans-serif;fill:var(--text)}
@@ -61,7 +68,48 @@ function montar(table){
  const prev=element("button","","← anterior"),next=element("button","","próxima →"),toggle=element("button","","visão completa");
  [prev,next,toggle].forEach(b=>b.type="button");bar.append(prev,next,toggle);
  const status=element("p","sb-foot");status.setAttribute("aria-live","polite");
- card.append(canvas,status);
+ const toolbar=element("div","sb-toolbar");
+ const fullscreen=element("button","sb-expand","⛶ Tela cheia");
+ fullscreen.type="button";
+ fullscreen.setAttribute("aria-label","Abrir blueprint em tela cheia");
+ fullscreen.setAttribute("aria-pressed","false");
+ toolbar.append(fullscreen);
+ card.append(toolbar,canvas,status);
+ let fallbackExpanded=false;
+ const expanded=()=>document.fullscreenElement===card||fallbackExpanded;
+ function syncFullscreen(){
+   const active=expanded();
+   fullscreen.textContent=active?"↙ Sair da tela cheia":"⛶ Tela cheia";
+   fullscreen.setAttribute("aria-label",active?"Sair da tela cheia do blueprint":"Abrir blueprint em tela cheia");
+   fullscreen.setAttribute("aria-pressed",String(active));
+ }
+ function closeFallback(){
+   if(!fallbackExpanded)return;
+   fallbackExpanded=false;
+   card.classList.remove("sb-expanded");
+   document.removeEventListener("keydown",fallbackEsc);
+   document.body.style.overflow=previousOverflow;
+   syncFullscreen();
+   fullscreen.focus();
+ }
+ function fallbackEsc(event){if(event.key==="Escape")closeFallback()}
+ let previousOverflow="";
+ async function toggleFullscreen(){
+   if(fallbackExpanded){closeFallback();return}
+   if(document.fullscreenElement===card){if(document.exitFullscreen)await document.exitFullscreen();return}
+   // A API nativa ocupa a tela; o modo fixo atende navegadores que não a oferecem.
+   if(typeof card.requestFullscreen==="function"){
+     try{await card.requestFullscreen();syncFullscreen();return}catch(error){/* fallback abaixo */}
+   }
+   previousOverflow=document.body.style.overflow;
+   document.body.style.overflow="hidden";
+   fallbackExpanded=true;
+   card.classList.add("sb-expanded");
+   document.addEventListener("keydown",fallbackEsc);
+   syncFullscreen();
+ }
+ fullscreen.addEventListener("click",toggleFullscreen);
+ card.addEventListener("fullscreenchange",syncFullscreen);
  function draw(){
    const phaseIds=all?[0,1,2,3,4,5]:[current],pw=all?285:550,labelWidth=all?155:182,cellWidth=all?245:490;
    const routeRows=data.length>=14 && /regime de urg[eê]ncia/i.test(data[12]?.[0]||"") && /decis[aã]o conclusiva/i.test(data[13]?.[0]||"");

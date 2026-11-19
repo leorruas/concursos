@@ -21,7 +21,7 @@ aliases:
 
 O **art. 66 da Constituição Federal** disciplina as escolhas do presidente da República diante de **projeto de lei aprovado pelo Legislativo**, e a atuação posterior do **Congresso Nacional** sobre vetos. **Sanção** é concordância presidencial com o projeto (expressa ou tácita); **veto** é discordância expressa e motivada por **inconstitucionalidade** ou **contrariedade ao interesse público**; **promulgação** é ato formal que atesta a existência da lei e ordena sua observância; **publicação** dá conhecimento oficial do texto. **Vigência** é o momento a partir do qual a lei produz os efeitos normativos que dependem de sua entrada em vigor, conforme a própria lei e as regras aplicáveis da LINDB.
 
-Esta é a unidade **CAM-PL-007**, orientada à cobrança **Cebraspe Certo/Errado**. A nota [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]] já contém as definições introdutórias, preservadas sem duplicação. O presente aprofundamento organiza **sujeitos, marcos temporais, condições e consequências** no procedimento do **art. 66**, a atuação conjunta do Congresso e a distinção **publicação × início da vigência**.
+A nota [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Processo legislativo e poder constituinte]] já contém as definições introdutórias, preservadas sem duplicação. Aqui, o procedimento do **art. 66** é apresentado na ordem dos atos: **quem recebe o projeto, quem decide, em quanto tempo, com que efeito e como o texto entra em vigor**. A publicação e o início da vigência devem ser conferidos separadamente.
 
 ## Primeiro identifique a espécie normativa
 

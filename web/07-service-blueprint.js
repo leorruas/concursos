@@ -54,12 +54,12 @@ function montar(table){
  const card=element("section","sb"),nav=element("nav","sb-nav"),bar=element("div","sb-control"),canvas=element("div","sb-canvas");
  card.setAttribute("aria-label","Mapa do processo legislativo por fases e atores");
  nav.setAttribute("aria-label","Selecionar fase");
- let current=0,all=false;
+ let current=0,all=true;
  const buttons=fases.map((name,i)=>{const b=element("button","",String(i+1).padStart(2,"0")+" "+name);b.type="button";nav.append(b);b.addEventListener("click",()=>{current=i;all=false;draw()});return b});
  const prev=element("button","","← anterior"),next=element("button","","próxima →"),toggle=element("button","","visão completa");
  [prev,next,toggle].forEach(b=>b.type="button");bar.append(prev,next,toggle);
  const status=element("p","sb-foot");status.setAttribute("aria-live","polite");
- card.append(nav,bar,canvas,status);
+ card.append(canvas,status);
  function draw(){
    const phaseIds=all?[0,1,2,3,4,5]:[current],pw=all?285:550,labelWidth=all?155:182,cellWidth=all?245:490;
    const rowYs=[72,174,276,378,480,582],height=735,width=labelWidth+phaseIds.length*pw+24;
@@ -99,7 +99,7 @@ function montar(table){
    buttons.forEach((b,i)=>b.setAttribute("aria-current",!all&&i===current?"step":"false"));
    prev.disabled=all||current===0;next.disabled=all||current===5;
    toggle.textContent=all?"voltar à fase":"visão completa";
-   status.textContent=all?"Percorra horizontalmente as fases e as entregas entre atores.":"Fase "+(current+1)+" de 6: "+fases[current];
+   status.textContent="Visão completa: percorra horizontalmente as fases. Os legitimados e as Casas estão descritos acima do mapa.";
    canvas.scrollLeft=0;
  }
  prev.addEventListener("click",()=>{if(current>0){current--;draw()}});

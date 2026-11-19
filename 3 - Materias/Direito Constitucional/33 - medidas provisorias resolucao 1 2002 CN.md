@@ -168,4 +168,3 @@ Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda pa
 - [Constituição Federal de 1988, art. 62 e art. 167, § 3º](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
 - [Congresso Nacional: Regimento Comum e resoluções conexas](https://www.congressonacional.leg.br/legislacao-e-publicacoes/regimento-do-congresso-nacional).
 
-**Nota editorial:** a norma não consta como expressamente revogada na ficha oficial da Câmara. A vigência de dispositivos específicos é afetada pelas decisões judiciais mencionadas. Estas dez questões são inéditas; a publicação editorial não comprova estudo ou retenção.

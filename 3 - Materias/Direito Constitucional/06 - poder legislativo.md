@@ -428,5 +428,3 @@ Para Comunicação Social/Divulgação Institucional, uma notícia institucional
 - EC nº 122/2022 e **EC nº 139/2026**, especialmente o art. 75.
 - STF, jurisprudência sobre autonomia e ausência de subordinação hierárquica dos Tribunais de Contas.
 
----
-**Fontes Brutas:**

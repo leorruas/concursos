@@ -811,7 +811,11 @@ async function load({keepCurrent = false} = {}){
    root.hidden=true;
    $('results-logout').hidden=true;
    $('results-login').hidden=false;
-   const returnPath=location.origin===WORKER ? location.pathname : '/resultados.html';
+   const safeContest=[...select.options].some(o=>o.value===select.value)?select.value:'camara-2026';
+   const returnQuery=new URLSearchParams({concurso:safeContest});
+   if(/^[a-z0-9-]{1,100}$/.test(selectedSubject))returnQuery.set('materia',selectedSubject);
+   const returnPage=location.origin===WORKER ? location.pathname : '/resultados.html';
+   const returnPath=returnPage+'?'+returnQuery.toString();
    $('results-login').href=WORKER+'/v1/login/github?return='+encodeURIComponent(returnPath);
    status.textContent='Entre com GitHub para consultar seu histórico unificado.';
    return;

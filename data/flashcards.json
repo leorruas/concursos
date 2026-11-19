@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-17",
+  "updated": "2026-11-19",
   "exams": [
     {
       "id": "cgu-2026",
@@ -13133,6 +13133,402 @@
       "status": "validated",
       "reviewedAt": "2026-11-17",
       "revision": 1
+    },
+    {
+      "id": "camara-pl33-comissao-mista-ordinaria",
+      "term": "Comissão mista ordinária",
+      "definition": "Reúne deputados e senadores para examinar matéria de competência do Congresso Nacional e emitir parecer. Regra-base: 11 de cada Casa, com vagas adicionais das minorias sem representação proporcional.",
+      "example": "Uma comissão mista regida pela regra geral pode examinar uma proposição do Congresso.",
+      "confusion": "A composição geral não se aplica automaticamente às comissões especiais de medida provisória ou de inquérito.",
+      "contrast": {
+        "prompt": "Qual é a definição de Comissão mista ordinária e qual confusão deve ser evitada?",
+        "answer": "Reúne deputados e senadores para examinar matéria de competência do Congresso Nacional e emitir parecer. Regra-base: 11 de cada Casa, com vagas adicionais das minorias sem representação proporcional. A composição geral não se aplica automaticamente às comissões especiais de medida provisória ou de inquérito."
+      },
+      "conceptIds": [
+        "glo-camara-comissao-mista-ordinaria"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "Resolução nº 1/1970-CN, arts. 9º e 10",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-1-pl.html",
+        "locator": "Resolução nº 1/1970-CN, arts. 9º e 10"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 1
+    },
+    {
+      "id": "camara-pl33-comissao-mista-mp",
+      "term": "Comissão mista de medida provisória",
+      "definition": "Examina cada medida provisória, suas emendas e requisitos de admissibilidade e mérito antes das votações da Câmara e do Senado. Regra especial: 12 deputados e 12 senadores titulares, igual número de suplentes e vaga adicional de minoria em cada Casa.",
+      "example": "A MP é instruída pela comissão mista, votada primeiro na Câmara e depois no Senado.",
+      "confusion": "A comissão emite parecer; não substitui a votação nas duas Casas.",
+      "contrast": {
+        "prompt": "Qual é a definição de Comissão mista de medida provisória e qual confusão deve ser evitada?",
+        "answer": "Examina cada medida provisória, suas emendas e requisitos de admissibilidade e mérito antes das votações da Câmara e do Senado. Regra especial: 12 deputados e 12 senadores titulares, igual número de suplentes e vaga adicional de minoria em cada Casa. A comissão emite parecer; não substitui a votação nas duas Casas."
+      },
+      "conceptIds": [
+        "glo-camara-comissao-mista-mp"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "CF, art. 62, §§ 8º e 9º; Resolução nº 1/2002-CN, arts. 2º e 3º",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html",
+        "locator": "CF, art. 62, §§ 8º e 9º; Resolução nº 1/2002-CN, arts. 2º e 3º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 1
+    },
+    {
+      "id": "camara-pl33-comissao-representativa-recesso",
+      "term": "Comissão Representativa do Congresso no recesso",
+      "definition": "Colegiado de 16 deputados e 7 senadores, com igual número de suplentes, eleito pelas Casas para exercer atribuições específicas do Congresso nos períodos de recesso.",
+      "example": "Durante o recesso, pode atuar em competências urgentes previstas na resolução específica.",
+      "confusion": "Não substitui integralmente os Plenários nem é a comissão mista de uma MP.",
+      "contrast": {
+        "prompt": "Qual é a definição de Comissão Representativa do Congresso no recesso e qual confusão deve ser evitada?",
+        "answer": "Colegiado de 16 deputados e 7 senadores, com igual número de suplentes, eleito pelas Casas para exercer atribuições específicas do Congresso nos períodos de recesso. Não substitui integralmente os Plenários nem é a comissão mista de uma MP."
+      },
+      "conceptIds": [
+        "glo-camara-comissao-representativa-recesso"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "CF, art. 58, § 4º; Resolução nº 3/1990-CN",
+        "url": "https://www.congressonacional.leg.br/entenda-as-comissoes-mistas",
+        "locator": "CF, art. 58, § 4º; Resolução nº 3/1990-CN"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 1
+    },
+    {
+      "id": "camara-pl33-cpi",
+      "term": "Comissão Parlamentar de Inquérito (CPI)",
+      "definition": "Para criar CPI na Câmara, são necessárias pelo menos 171 assinaturas de deputados; no Senado, pelo menos 27 assinaturas de senadores (um terço da respectiva Casa, CF art. 58, § 3º). Assinar o requerimento de criação não significa integrar a comissão. O número de integrantes é definido segundo as regras da Casa. O quórum de deliberação é outro requisito.",
+      "example": "Exemplo: uma CPMI com 15 deputados e 15 senadores tem 30 integrantes, embora exija 171 assinaturas de deputados e 27 de senadores para ser criada. São 198 apoiadores mínimos da criação, 30 integrantes para investigar e um quórum regimental próprio para deliberar.",
+      "confusion": "O requisito de 1/3 corresponde às assinaturas para criar, não ao número de integrantes ou quórum para deliberar.",
+      "contrast": {
+        "prompt": "Uma CPMI requer 171 assinaturas de deputados e 27 de senadores. Isso obriga a comissão a ter 198 integrantes?",
+        "answer": "Não. Essas são as assinaturas mínimas para criação. O ato de criação fixa a composição, com igual número de deputados e senadores; o quórum de deliberação é uma terceira regra."
+      },
+      "conceptIds": [
+        "glo-camara-cpi"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "CF, art. 58, § 3º; Regimento Comum, art. 21",
+        "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
+        "locator": "CF, art. 58, § 3º; RCCN, art. 21"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 2
+    },
+    {
+      "id": "camara-pl33-cpmi",
+      "term": "Comissão Parlamentar Mista de Inquérito (CPMI)",
+      "definition": "Para criar CPMI são necessárias pelo menos 171 assinaturas de deputados E 27 assinaturas de senadores, separadamente. O art. 21 do Regimento Comum prevê que o número de integrantes é fixado no ato de criação, com igual participação de deputados e senadores. As 198 assinaturas mínimas de criação não definem o tamanho da CPMI, nem seu quórum de deliberação.",
+      "example": "Exemplo: uma CPMI com 15 deputados e 15 senadores tem 30 integrantes, embora exija 171 assinaturas de deputados e 27 de senadores para ser criada. São 198 apoiadores mínimos da criação, 30 integrantes para investigar e um quórum regimental próprio para deliberar.",
+      "confusion": "O requisito de 1/3 corresponde às assinaturas para criar, não ao número de integrantes ou quórum para deliberar.",
+      "contrast": {
+        "prompt": "Uma CPMI requer 171 assinaturas de deputados e 27 de senadores. Isso obriga a comissão a ter 198 integrantes?",
+        "answer": "Não. Essas são as assinaturas mínimas para criação. O ato de criação fixa a composição, com igual número de deputados e senadores; o quórum de deliberação é uma terceira regra."
+      },
+      "conceptIds": [
+        "glo-camara-cpmi"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "CF, art. 58, § 3º; Regimento Comum, art. 21",
+        "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
+        "locator": "CF, art. 58, § 3º; RCCN, art. 21"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 2
+    },
+    {
+      "id": "camara-pl33-cpi-versus-cpmi",
+      "term": "CPI versus CPMI",
+      "definition": "CPI da Câmara: 171 assinaturas mínimas; CPI do Senado: 27. CPMI: 171 assinaturas de deputados E 27 de senadores (198, mas não basta a soma sem a distribuição por Casa). Isso é requisito de criação. A composição de CPI segue regras da respectiva Casa; a de CPMI é fixada no ato de criação com igual número de deputados e senadores. Quórum para deliberar segue regras próprias da comissão.",
+      "example": "Exemplo: uma CPMI com 15 deputados e 15 senadores tem 30 integrantes, embora exija 171 assinaturas de deputados e 27 de senadores para ser criada. São 198 apoiadores mínimos da criação, 30 integrantes para investigar e um quórum regimental próprio para deliberar.",
+      "confusion": "O requisito de 1/3 corresponde às assinaturas para criar, não ao número de integrantes ou quórum para deliberar.",
+      "contrast": {
+        "prompt": "Uma CPMI com 15 deputados e 15 senadores precisa de quantas assinaturas para ser criada?",
+        "answer": "Pelo menos 171 assinaturas de deputados e 27 de senadores. São 198 apoiadores mínimos da criação, enquanto os 30 integrantes compõem o colegiado. O quórum de deliberação é um terceiro requisito."
+      },
+      "conceptIds": [
+        "glo-camara-cpi-versus-cpmi"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "CF, art. 58, § 3º; Regimento Comum, art. 21",
+        "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
+        "locator": "CF, art. 58, § 3º; RCCN, art. 21"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 2
+    },
+    {
+      "id": "camara-pl33-preliminar",
+      "term": "Questão preliminar",
+      "definition": "Exame de condição anterior ao mérito da proposição. Em MPs, cada Casa analisa preliminarmente relevância, urgência e adequação financeira e orçamentária antes do conteúdo.",
+      "example": "Plenário examina primeiro a admissibilidade da MP, depois o mérito.",
+      "confusion": "Preliminar é uma etapa ou questão a decidir antes do mérito, não necessariamente um requerimento apresentado anteriormente.",
+      "contrast": {
+        "prompt": "Qual é a definição de Questão preliminar e qual confusão deve ser evitada?",
+        "answer": "Exame de condição anterior ao mérito da proposição. Em MPs, cada Casa analisa preliminarmente relevância, urgência e adequação financeira e orçamentária antes do conteúdo. Preliminar é uma etapa ou questão a decidir antes do mérito, não necessariamente um requerimento apresentado anteriormente."
+      },
+      "conceptIds": [
+        "glo-camara-preliminar"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "Resolução nº 1/2002-CN, art. 8º",
+        "url": "https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html",
+        "locator": "Resolução nº 1/2002-CN, art. 8º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 1
+    },
+    {
+      "id": "camara-pl33-quorum-especial",
+      "term": "Quórum especial de aprovação",
+      "definition": "Quantidade de votos exigida por norma para determinadas deliberações, superior ou diferente da regra geral: lei complementar requer maioria absoluta; PEC requer três quintos em dois turnos em cada Casa.",
+      "example": "Lei complementar: 257 deputados e 41 senadores. PEC: 308 deputados e 49 senadores, em cada turno.",
+      "confusion": "Diferenciar quórum de presença de quórum para aprovar; nem toda matéria exige três quintos.",
+      "contrast": {
+        "prompt": "Qual é a definição de Quórum especial de aprovação e qual confusão deve ser evitada?",
+        "answer": "Quantidade de votos exigida por norma para determinadas deliberações, superior ou diferente da regra geral: lei complementar requer maioria absoluta; PEC requer três quintos em dois turnos em cada Casa. Diferenciar quórum de presença de quórum para aprovar; nem toda matéria exige três quintos."
+      },
+      "conceptIds": [
+        "glo-camara-quorum-especial"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "CF, arts. 47, 60, § 2º, e 69",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "CF, arts. 47, 60, § 2º, e 69"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 1
+    },
+    {
+      "id": "camara-pl33-verificacao-votacao-simbolica",
+      "term": "Verificação de votação simbólica",
+      "definition": "Pedido para conferir resultado proclamado em votação simbólica: na Câmara, verificação admitida por votação nominal; nas sessões conjuntas do Congresso, art. 45, § 2º, do Regimento Comum permite contagem dos votos por bancada, salvo requerimento de nominal imediata.",
+      "example": "Em sessão conjunta, Secretários podem anotar os votos favoráveis e contrários por bancada; se o requerimento pedir, realiza-se nominal imediata.",
+      "confusion": "Verificação é o procedimento; votação nominal é uma modalidade. O método da Câmara não se aplica automaticamente à sessão conjunta do Congresso.",
+      "contrast": {
+        "prompt": "Toda verificação de votação simbólica é obrigatoriamente nominal, inclusive no Congresso Nacional em sessão conjunta?",
+        "answer": "Não. Na Câmara, a verificação admitida conduz à nominal. No Congresso em sessão conjunta, o art. 45, § 2º, do Regimento Comum prevê contagem por bancada, salvo pedido de votação nominal imediata."
+      },
+      "conceptIds": [
+        "glo-camara-verificacao-votacao-simbolica"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "RICD, arts. 185–186; Regimento Comum, art. 45, § 2º",
+        "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839",
+        "locator": "Art. 45, § 2º"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 2
+    },
+    {
+      "id": "camara-pl33-destaque",
+      "term": "Destaque para votação em separado",
+      "definition": "Instrumento regimental que permite separar dispositivo, emenda ou parte de proposição para deliberação específica, segundo as modalidades e limites de cada Casa.",
+      "example": "Plenário aprova o texto-base e decide separadamente se mantém determinado dispositivo.",
+      "confusion": "Destaque não significa aprovação ou rejeição automática do trecho e não cria um projeto novo.",
+      "contrast": {
+        "prompt": "Qual é a definição de Destaque para votação em separado e qual confusão deve ser evitada?",
+        "answer": "Instrumento regimental que permite separar dispositivo, emenda ou parte de proposição para deliberação específica, segundo as modalidades e limites de cada Casa. Destaque não significa aprovação ou rejeição automática do trecho e não cria um projeto novo."
+      },
+      "conceptIds": [
+        "glo-camara-destaque"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "RICD, art. 161 e regras do Senado",
+        "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html",
+        "locator": "RICD, art. 161 e regras do Senado"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 1
+    },
+    {
+      "id": "camara-pl33-autografos",
+      "term": "Autógrafos legislativos",
+      "definition": "Autógrafo é a versão oficial autenticada do texto aprovado por uma Casa legislativa, com identificação da proposição, ementa, redação dos artigos e anexos efetivamente aprovados, inclusive alterações incorporadas, quando houver, e elementos de autenticação. Pode seguir para revisão por outra Casa ou, após deliberação bicameral concluída, para sanção/veto quando cabível.",
+      "example": "A Câmara aprova um projeto com 20 artigos e remete autógrafos ao Senado. Se o Senado modificar o texto, a Câmara pode precisar examinar essas alterações antes de haver redação final bicameral para sanção.",
+      "confusion": "Um autógrafo pode ser final apenas naquela Casa; ainda pode precisar de revisão. Não equivale à lei sancionada ou à ata de votação.",
+      "contrast": {
+        "prompt": "O autógrafo é sempre a lei definitivamente aprovada pelo Congresso?",
+        "answer": "Não. É a versão autenticada do texto aprovado numa etapa legislativa. Pode ainda seguir à outra Casa; após aprovação bicameral, os autógrafos pertinentes seguem à sanção ou veto, quando cabível."
+      },
+      "conceptIds": [
+        "glo-camara-autografos"
+      ],
+      "topic": "Processo legislativo e Regimento",
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "examIds": [
+        "camara-2026"
+      ],
+      "editalRefs": [
+        "P1. 14.2.3 / Direito Constitucional e Regimento / Processo legislativo"
+      ],
+      "note": {
+        "articleId": "art-7bc9230e51a6d84f",
+        "section": "9. Glossário aplicado: comissões, decisões preliminares e documentos"
+      },
+      "source": {
+        "title": "CF, arts. 65 e 66",
+        "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988",
+        "locator": "CF, arts. 65 e 66"
+      },
+      "status": "validated",
+      "reviewedAt": "2026-11-19",
+      "revision": 2
     }
   ]
 }

@@ -1856,6 +1856,297 @@
         }
       ],
       "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-comissao-mista-ordinaria",
+      "term": "Comissão mista ordinária",
+      "aliases": [],
+      "definition": "Reúne deputados e senadores para examinar matéria de competência do Congresso Nacional e emitir parecer. Regra-base: 11 de cada Casa, com vagas adicionais das minorias sem representação proporcional.",
+      "contrast": "A composição geral não se aplica automaticamente às comissões especiais de medida provisória ou de inquérito.",
+      "cebraspeTrap": "A composição geral não se aplica automaticamente às comissões especiais de medida provisória ou de inquérito.",
+      "example": "Uma comissão mista regida pela regra geral pode examinar uma proposição do Congresso.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Resolução nº 1/1970-CN, arts. 9º e 10",
+          "url": "https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-1-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-comissao-mista-mp",
+      "term": "Comissão mista de medida provisória",
+      "aliases": [],
+      "definition": "Examina cada medida provisória, suas emendas e requisitos de admissibilidade e mérito antes das votações da Câmara e do Senado. Regra especial: 12 deputados e 12 senadores titulares, igual número de suplentes e vaga adicional de minoria em cada Casa.",
+      "contrast": "A comissão emite parecer; não substitui a votação nas duas Casas.",
+      "cebraspeTrap": "A comissão emite parecer; não substitui a votação nas duas Casas.",
+      "example": "A MP é instruída pela comissão mista, votada primeiro na Câmara e depois no Senado.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "CF, art. 62, §§ 8º e 9º; Resolução nº 1/2002-CN, arts. 2º e 3º",
+          "url": "https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-comissao-representativa-recesso",
+      "term": "Comissão Representativa do Congresso no recesso",
+      "aliases": [],
+      "definition": "Colegiado de 16 deputados e 7 senadores, com igual número de suplentes, eleito pelas Casas para exercer atribuições específicas do Congresso nos períodos de recesso.",
+      "contrast": "Não substitui integralmente os Plenários nem é a comissão mista de uma MP.",
+      "cebraspeTrap": "Não substitui integralmente os Plenários nem é a comissão mista de uma MP.",
+      "example": "Durante o recesso, pode atuar em competências urgentes previstas na resolução específica.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "CF, art. 58, § 4º; Resolução nº 3/1990-CN",
+          "url": "https://www.congressonacional.leg.br/entenda-as-comissoes-mistas"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-cpi",
+      "term": "Comissão Parlamentar de Inquérito (CPI)",
+      "aliases": [],
+      "definition": "CPI é comissão temporária de investigação, criada na Câmara com 171 assinaturas de deputados ou no Senado com 27 de senadores, para apurar fato determinado em prazo certo. As assinaturas exigidas para criar não determinam a quantidade de integrantes nem o quórum de deliberação.",
+      "contrast": "Três números distintos: assinaturas para criar, integrantes nomeados e quórum para decidir. A CPMI exige um terço de cada Casa, não um terço do Congresso somado.",
+      "cebraspeTrap": "Dizer que a CPMI deve ter 171 deputados e 27 senadores como membros, ou que quaisquer 198 congressistas podem criá-la. Ambas as afirmações são erradas.",
+      "example": "Exemplo: uma CPMI com 15 deputados e 15 senadores tem 30 integrantes, embora exija 171 assinaturas de deputados e 27 de senadores para ser criada. São 198 apoiadores mínimos da criação, 30 integrantes para investigar e um quórum regimental próprio para deliberar.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 58, § 3º",
+          "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF"
+        },
+        {
+          "label": "Regimento Comum, art. 21 e parágrafo único",
+          "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-cpmi",
+      "term": "Comissão Parlamentar Mista de Inquérito (CPMI)",
+      "aliases": [],
+      "definition": "CPMI é investigação conjunta, composta por igual número de deputados e senadores. Para sua criação, são necessárias 171 assinaturas de deputados e 27 de senadores, separadamente. O ato de criação fixa a quantidade de integrantes; o quórum para deliberar segue regras próprias.",
+      "contrast": "Três números distintos: assinaturas para criar, integrantes nomeados e quórum para decidir. A CPMI exige um terço de cada Casa, não um terço do Congresso somado.",
+      "cebraspeTrap": "Dizer que a CPMI deve ter 171 deputados e 27 senadores como membros, ou que quaisquer 198 congressistas podem criá-la. Ambas as afirmações são erradas.",
+      "example": "Exemplo: uma CPMI com 15 deputados e 15 senadores tem 30 integrantes, embora exija 171 assinaturas de deputados e 27 de senadores para ser criada. São 198 apoiadores mínimos da criação, 30 integrantes para investigar e um quórum regimental próprio para deliberar.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 58, § 3º",
+          "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF"
+        },
+        {
+          "label": "Regimento Comum, art. 21 e parágrafo único",
+          "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-cpi-versus-cpmi",
+      "term": "CPI versus CPMI",
+      "aliases": [],
+      "definition": "CPI reúne parlamentares de uma única Casa e exige 171 assinaturas de deputados ou 27 de senadores. CPMI é conjunta: requer 171 assinaturas de deputados e 27 de senadores, e tem composição paritária definida no ato de criação. Assinaturas, integrantes e quórum são números diferentes.",
+      "contrast": "Três números distintos: assinaturas para criar, integrantes nomeados e quórum para decidir. A CPMI exige um terço de cada Casa, não um terço do Congresso somado.",
+      "cebraspeTrap": "Dizer que a CPMI deve ter 171 deputados e 27 senadores como membros, ou que quaisquer 198 congressistas podem criá-la. Ambas as afirmações são erradas.",
+      "example": "Exemplo: uma CPMI com 15 deputados e 15 senadores tem 30 integrantes, embora exija 171 assinaturas de deputados e 27 de senadores para ser criada. São 198 apoiadores mínimos da criação, 30 integrantes para investigar e um quórum regimental próprio para deliberar.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Constituição, art. 58, § 3º",
+          "url": "https://portal.stf.jus.br/constituicao-supremo/artigo.asp?abrirArtigo=58&abrirBase=CF"
+        },
+        {
+          "label": "Regimento Comum, art. 21 e parágrafo único",
+          "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-preliminar",
+      "term": "Questão preliminar",
+      "aliases": [],
+      "definition": "Exame de condição anterior ao mérito da proposição. Em MPs, cada Casa analisa preliminarmente relevância, urgência e adequação financeira e orçamentária antes do conteúdo.",
+      "contrast": "Preliminar é uma etapa ou questão a decidir antes do mérito, não necessariamente um requerimento apresentado anteriormente.",
+      "cebraspeTrap": "Preliminar é uma etapa ou questão a decidir antes do mérito, não necessariamente um requerimento apresentado anteriormente.",
+      "example": "Plenário examina primeiro a admissibilidade da MP, depois o mérito.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "Resolução nº 1/2002-CN, art. 8º",
+          "url": "https://www2.camara.leg.br/legin/fed/rescon/2002/resolucao-1-8-maio-2002-497942-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-quorum-especial",
+      "term": "Quórum especial de aprovação",
+      "aliases": [],
+      "definition": "Quantidade de votos exigida por norma para determinadas deliberações, superior ou diferente da regra geral: lei complementar requer maioria absoluta; PEC requer três quintos em dois turnos em cada Casa.",
+      "contrast": "Diferenciar quórum de presença de quórum para aprovar; nem toda matéria exige três quintos.",
+      "cebraspeTrap": "Diferenciar quórum de presença de quórum para aprovar; nem toda matéria exige três quintos.",
+      "example": "Lei complementar: 257 deputados e 41 senadores. PEC: 308 deputados e 49 senadores, em cada turno.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "CF, arts. 47, 60, § 2º, e 69",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-verificacao-votacao-simbolica",
+      "term": "Verificação de votação simbólica",
+      "aliases": [],
+      "definition": "Verificação confere um resultado simbólico já proclamado. Na Câmara, conduz à votação nominal. Em sessão conjunta do Congresso, o Regimento Comum prevê contagem por bancada dos votos favoráveis e contrários, salvo pedido de votação nominal imediata.",
+      "contrast": "Verificação é um procedimento de conferência; nominal é uma modalidade de votação. Na Câmara, a verificação admitida é nominal; em sessão conjunta do Congresso, há também contagem por bancada.",
+      "cebraspeTrap": "Afirmar que toda verificação de votação simbólica no Congresso Nacional ocorre obrigatoriamente por votação nominal, ignorando a contagem por bancada do art. 45, § 2º, do Regimento Comum.",
+      "example": "Depois de resultado simbólico contestado, a Câmara pode proceder à votação nominal; em sessão conjunta, o Congresso pode contar os votos por bancada, salvo pedido de nominal imediata.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, arts. 185–186",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        },
+        {
+          "label": "Regimento Comum, art. 45, § 2º",
+          "url": "https://legis.senado.leg.br/norma/561098/publicacao/16433839"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-destaque",
+      "term": "Destaque para votação em separado",
+      "aliases": [],
+      "definition": "Instrumento regimental que permite separar dispositivo, emenda ou parte de proposição para deliberação específica, segundo as modalidades e limites de cada Casa.",
+      "contrast": "Destaque não significa aprovação ou rejeição automática do trecho e não cria um projeto novo.",
+      "cebraspeTrap": "Destaque não significa aprovação ou rejeição automática do trecho e não cria um projeto novo.",
+      "example": "Plenário aprova o texto-base e decide separadamente se mantém determinado dispositivo.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "RICD, art. 161 e regras do Senado",
+          "url": "https://www2.camara.leg.br/legin/fed/rescad/1989/resolucaodacamaradosdeputados-17-21-setembro-1989-320110-normaatualizada-pl.html"
+        }
+      ],
+      "status": "reviewed"
+    },
+    {
+      "id": "glo-camara-autografos",
+      "term": "Autógrafos legislativos",
+      "aliases": [],
+      "definition": "Autógrafo é a versão oficial autenticada do texto aprovado pela Casa, com identificação da proposição, ementa, dispositivos, anexos e alterações incorporadas, quando houver. Pode seguir para revisão na outra Casa ou, concluída a deliberação bicameral, para sanção ou veto.",
+      "contrast": "Autógrafo é o documento autenticado da redação aprovada na etapa; não é ata de votação, parecer ou lei já sancionada. Texto final de uma Casa pode ainda depender da outra Casa.",
+      "cebraspeTrap": "Confundir autógrafo da Casa iniciadora com lei pronta, ou afirmar que ele inclui emendas rejeitadas.",
+      "example": "A Câmara aprova um projeto com 20 artigos e remete autógrafos ao Senado. Se o Senado modificar o texto, a Câmara pode precisar examinar essas alterações antes de haver redação final bicameral para sanção.",
+      "articleIds": [
+        "art-7bc9230e51a6d84f"
+      ],
+      "subjectIds": [
+        "direito-constitucional"
+      ],
+      "contestIds": [
+        "camara-2026"
+      ],
+      "sources": [
+        {
+          "label": "CF, arts. 65 e 66",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988"
+        }
+      ],
+      "status": "reviewed"
     }
   ]
 }

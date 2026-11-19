@@ -10,7 +10,7 @@ updated: 2026-11-08
 
 # Administração, economia interna e polícia da Câmara: RICD arts. 262 a 273
 
-**Concurso Câmara dos Deputados 2026: Comunicação Social, Divulgação Institucional. Banca Cebraspe. Unidade CAM-PL-023 do inventário editorial.**
+**Concurso Câmara dos Deputados 2026: Comunicação Social, Divulgação Institucional. Banca Cebraspe.**
 
 ## Núcleo do conceito
 

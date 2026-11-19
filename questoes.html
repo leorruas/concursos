@@ -141,11 +141,11 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <label><input type="radio" name="qs-answer" value="C"> Certo</label><label><input type="radio" name="qs-answer" value="E"> Errado</label><label id="qs-blank-wrap" hidden><input type="radio" name="qs-answer" value="blank"> Em branco</label>
 </fieldset><label class="qs-uncertain"><input type="checkbox" id="qs-insecure"> Não estou seguro</label>
 <details id="qs-response-context">
-<summary>Registrar consulta e correção prévia</summary>
+<summary>Alterar consulta ou correção prévia (padrão: Não)</summary>
 <label for="qs-consulted">Consultou material para responder?</label>
-<select id="qs-consulted"><option value="">Sem registro</option><option value="no">Não</option><option value="yes">Sim</option></select>
+<select id="qs-consulted"><option value="no">Não</option><option value="yes">Sim</option></select>
 <label for="qs-feedback-before">Já tinha visto a correção deste item?</label>
-<select id="qs-feedback-before"><option value="">Sem registro</option><option value="no">Não</option><option value="yes">Sim</option></select>
+<select id="qs-feedback-before"><option value="no">Não</option><option value="yes">Sim</option></select>
 </details>
 <div class="qs-submit-row"><button class="qs-button" id="qs-submit" type="submit">Registrar resposta</button><span class="qs-note">A resposta será salva antes de mostrar a correção.</span></div></form>
 </section>

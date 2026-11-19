@@ -117,8 +117,8 @@ function render(){
  $('qs-progress-bar').style.width=(100*session.answers.length/session.ids.length)+'%';$('qs-statement').textContent=q.statement;
  document.querySelectorAll('input[name="qs-answer"]').forEach(e=>{e.checked=false;e.disabled=false;});
  shownAt=performance.now();
- $('qs-consulted').value='';
- $('qs-feedback-before').value='';
+ $('qs-consulted').value='no';
+ $('qs-feedback-before').value='no';
  $('qs-response-context').open=!!session.directed;
  $('qs-insecure').checked=false;$('qs-insecure').disabled=false;
  toggle('qs-blank-wrap',session.mode==='simulado');toggle('qs-after',false);toggle('qs-feedback',false);toggle('qs-pending',false);toggle('qs-answer-form',true);toggle('qs-submit',true);
@@ -145,7 +145,7 @@ function answer(ev){
  ev.preventDefault();if(!session||session.finishedAt)return;
  const c=document.querySelector('input[name="qs-answer"]:checked');if(!c){status('Marque Certo ou Errado para registrar.');return;}
  const q=question();if(!q)return;const v=c.value,blank=v==='blank';
- const flag = field => $(field).value === '' ? null : $(field).value === 'yes';
+ const flag = field => $(field).value === 'yes';
  const elapsed=shownAt===null?null:Math.round(performance.now()-shownAt);
  const responseMs=elapsed!==null&&elapsed>=0&&elapsed<=86400000?elapsed:null;
  shownAt=null;

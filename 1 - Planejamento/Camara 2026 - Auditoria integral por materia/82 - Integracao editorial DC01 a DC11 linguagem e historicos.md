@@ -131,3 +131,9 @@ Foram corrigidos DC02, DC03, DC04 e DC11. DC01 foi lido sem mudança necessária
 **Estado dos 11 artigos:** DC01 lido sem modificação; DC02 a DC11 com ajustes localizados, sendo o núcleo CAM-PL-018 reorganizado no DC06. Nenhum recebeu certificação integral jurídica, dos exercícios ou visual nesta rodada.
 
 **Limpeza adicional:** os marcadores vazios `Fontes Brutas` foram retirados também de DC05 e DC06. Mantiveram-se as referências substantivas na seção `Fontes`.
+
+## Verificação adicional de integridade
+
+A comparação dos arquivos originais com a branch confirmou `articleId` preservado em DC02 a DC11, integridade das cercas de código nos nove arquivos editados examinados e ausência de links wiki removidos após restaurar no DC06 a referência a `DC37, seção 5.2 e Caso 4` (commit `afc78f58`). Os dez C/E CAM-PL-018 permanecem; os quatro anchors das questões voltaram aos nomes originais. O primeiro diagrama textual de fiscalização do DC06 foi substituído pela explicação em prosa: manter como diferença visual a examinar no Pages/EPUB.
+
+**CI e dependência externa:** run `44512466361` falhou na única invariante de nota canônica não indexada, `DC38`, sem falhas anteriores de referências, questão, flashcards ou identidade. `index.md` pertence à coordenação e foi mantido intocado. Os checks de commits posteriores devem ser verificados antes da conclusão. A `main` passou ao SHA `665d39b6a0c26641c3ef23f74cda580173a771d5` enquanto a branch permanece baseada no SHA anterior; atualizar a branch apenas após conciliar possíveis alterações concorrentes.

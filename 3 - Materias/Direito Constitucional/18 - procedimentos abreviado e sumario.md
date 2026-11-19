@@ -269,14 +269,3 @@ A resposta pode separar **classificação doutrinária do procedimento** e **cla
 - [Câmara dos Deputados, urgência constitucional: material de educação legislativa](https://educacaoadistancia.camara.leg.br/clique_regimento/card/82).
 
 **Critério editorial:** os nomes abreviado e sumário são **taxonomia doutrinária de procedimentos**, não categorias literais de regime no art. 151. Ao responder a questão de literalidade do RICD, usar as três categorias regimentais. As questões são inéditas, e a publicação do artigo não comprova estudo, prática ou domínio.
-
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Recorte cotejado:** texto e quadros, **nove cenários progressivos**, **dois exemplos comentados** e **dez itens C/E** comparados com a [Constituição Federal, arts. 58, § 2º, I, e 64, §§ 1º–4º](https://www2.camara.leg.br/a-camara/atividade-legislativa/legislacao/constituicao1988) e com o [Regimento Interno da Câmara, arts. 24, 52, 58, 132, 151–159 e 204](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). Conferidos rito conclusivo, exclusões, recurso de um décimo em cinco sessões com provimento em Plenário, diferença entre decisão conclusiva e parecer terminativo, prioridade, pedido presidencial de urgência, 45 + 45 dias e dez dias para emendas, sobrestamento com exceção constitucional, recesso e códigos.
-
-**NC-PL-038, complemento normativo:** acrescentada a faculdade do **art. 52, § 6º**, de envio pelo Presidente da Câmara, ao fim dos prazos da comissão, da proposição **pendente de parecer** à comissão seguinte ou ao Plenário, sem requerer o recurso do **art. 132, § 2º**. O recurso do art. 132, § 2º, refere-se à **apreciação conclusiva já realizada**, com publicação, prazo, subscrição e provimento. Os institutos não são intercambiáveis.
-
-**Gabaritos originais confirmados:** **C, E, E, C, E, C, C, E, C, E**. Nenhuma inversão identificada nos dez itens; nove casos e dois exemplos permanecem coerentes no recorte. Sem duplicação no inventário histórico.
-
-**Limites:** certificação do conteúdo jurídico redigido e examinado nesta data, não do universo de procedimentos especiais, do desempenho do estudante, nem de testes do site, renderização ou publicação no GitHub Pages. A terminologia *abreviado* e *sumário* é doutrinária, distinta da classificação de regimes do RICD art. 151.

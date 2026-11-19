@@ -93,5 +93,166 @@
       "sistemas eleitorais": "7",
       "partidos políticos": "8"
     }
+  },
+  {
+    "section": "14.2.3",
+    "block": "Direito Administrativo e Administração Pública",
+    "unitId": "direito-administrativo",
+    "references": {
+      "estado governo administracao e funcao administrativa": "1",
+      "centralizacao descentralizacao concentracao e desconcentracao": "1.2",
+      "ato administrativo conceito e distincao de fato administrativo": "2.1",
+      "atributos do ato administrativo presuncao imperatividade autoexecutoriedade e tipicidade": "2.1",
+      "classificacoes e especies de atos administrativos": "2.1",
+      "anulacao revogacao convalidacao e extincao de atos administrativos": "2.1",
+      "parecer administrativo natureza tipos e responsabilidade do parecerista": "2.2",
+      "lei 8112 provimento posse exercicio e vacancia": "3.4",
+      "lei 9784 processo administrativo federal competencia delegacao e avocacao": "4.4",
+      "lei 9784 impedimento suspeicao motivacao e recursos": "4.4",
+      "poder hierarquico e poder disciplinar limites e distincoes": "5.1",
+      "processo administrativo federal (Lei nº 9.784/1999)": "4.4",
+      "Lei nº 8.112/1990, direitos e vantagens": "3.4",
+      "Lei nº 8.112/1990, processo administrativo disciplinar": "4.3",
+      "atos administrativos, extinção": "2.1",
+      "responsabilidade civil do Estado": "6",
+      "ato administrativo": "2",
+      "processo administrativo federal": "4.4"
+    }
+  },
+  {
+    "section": "14.2.3",
+    "block": "Direito Administrativo e Administração Pública",
+    "unitId": "administracao-publica",
+    "references": {
+      "nova governanca publica": "8.1",
+      "governanca publica": "9",
+      "evolucao da administracao publica": "8",
+      "redes de cooperacao e articulacao interinstitucional": "8.2",
+      "parcerias com setor privado e terceiro setor": "8.2",
+      "coproducao de servicos publicos e participacao cidada": "8.3",
+      "redes, articulação e coprodução de serviços públicos": "8",
+      "redes de cooperação e articulação interinstitucional": "8.2",
+      "governança e valor público": "9",
+      "evolução da administração pública e reforma administrativa": "8",
+      "governança, riscos e controles": "9",
+      "governança e accountability": "9",
+      "modelos de administração pública": "8",
+      "Nova Governança Pública": "8.1"
+    }
+  },
+  {
+    "section": "14.2.3",
+    "block": "Direito Constitucional e Regimento",
+    "unitId": "constitucional-regimentos",
+    "references": {
+      "Poder Legislativo e controle externo": "5",
+      "direitos políticos": "2",
+      "princípios fundamentais": "2",
+      "organização do Estado": "3",
+      "Direitos e garantias fundamentais": "2",
+      "Direitos sociais": "2",
+      "Nacionalidade": "2",
+      "Direitos políticos e partidos políticos": "2",
+      "Organização do Estado": "3",
+      "Mandato e prerrogativas parlamentares": "6",
+      "Regimento Interno da Câmara dos Deputados": "7",
+      "Princípios fundamentais": "2",
+      "Poder Legislativo e competências das Casas": "5"
+    }
+  },
+  {
+    "section": "14.2.4",
+    "block": "Processo Legislativo e Regimento",
+    "unitId": "processo-legislativo",
+    "references": {
+      "procedimentos legislativos, sanção, veto e promulgação": "1",
+      "comissões, pareceres e deliberação": "1.3",
+      "Regimento Interno da Câmara dos Deputados, arts. 95 a 105": "5.1",
+      "discussão, deliberação e votação": "1.3",
+      "fiscalização contábil, financeira e orçamentária": "3",
+      "Fiscalização e controle": "3",
+      "Iniciativa legislativa": "2.6",
+      "Medidas provisórias": "2.2",
+      "Lei delegada": "2.1",
+      "Regimento Comum do Congresso Nacional": "6",
+      "Regimento Interno da Câmara dos Deputados": "5",
+      "Fiscalização e controle externo": "3",
+      "Tramitação legislativa": "1"
+    }
+  },
+  {
+    "section": "14.2.4",
+    "block": "Processo Legislativo e Regimento",
+    "unitId": "processo-orcamentario",
+    "references": {
+      "4.1 a 4.7 / orçamento público e créditos adicionais": "4",
+      "4.1 a 4.7 / Lei de Responsabilidade Fiscal": "4.4",
+      "4.1 a 4.7 / Lei nº 4.320/1964, execução da despesa": "4",
+      "4.1 a 4.7 / Lei Orçamentária Anual, esferas orçamentárias": "4.3",
+      "4.1 a 4.7 / tramitação e emendas orçamentárias": "4.5",
+      "4.1 a 4.7 / Lei de Responsabilidade Fiscal, despesa com pessoal": "4.4",
+      "4.1 a 4.7 / Lei de Responsabilidade Fiscal, receita corrente líquida": "4.4",
+      "4.1 a 4.7 / classificação da despesa orçamentária": "4",
+      "4.1 a 4.7 / elaboração da proposta orçamentária": "4.6"
+    }
+  },
+  {
+    "section": "14.2.4",
+    "block": "Processo Legislativo e Regimento",
+    "unitId": "decoro-parlamentar",
+    "references": {
+      "7 / Código de Ética e Decoro Parlamentar": "7"
+    }
+  },
+  {
+    "section": "14.2.4",
+    "block": "Comunicação Social",
+    "unitId": "comunicacao-social",
+    "references": {
+      "1 / Teorias da Comunicação": "1",
+      "1 / midiatização": "1.3",
+      "1 / plataformização": "1.3",
+      "1 / integridade da informação": "1.4",
+      "1 / fluxo em duas etapas": "1.1",
+      "1 / gatekeeping": "1.1",
+      "1 / teoria crítica": "1.1",
+      "1 / estudos culturais": "1.1",
+      "1 / ecologia dos meios": "1.1",
+      "1 / opinião pública": "1.2",
+      "1 / Escola de Chicago": "1.1",
+      "1 / semiótica": "1.1",
+      "1 / desinformação": "1.4",
+      "2 / canais": "2.2",
+      "2 / cultura": "2.4",
+      "2 / clima": "2.5",
+      "2 / escuta": "2",
+      "2 / avaliação": "2",
+      "2 / funções e fluxos": "2",
+      "2 / endomarketing": "2.3",
+      "3 / identidade, imagem e reputação": "3.2",
+      "3 / gestão de crises": "3",
+      "4 / dimensoes": "4.1",
+      "4 / comunicação integrada": "4.2",
+      "4 / fluxos": "4.4",
+      "4 / comunicação formal e informal": "4.5",
+      "4 / públicos": "4.6",
+      "4 / planejamento": "4.3",
+      "4 / indicadores": "4.7",
+      "4 / avaliação": "4",
+      "4 / plano de comunicação": "4.8",
+      "4 / gestão de projetos": "4.9",
+      "4 / dimensões": "4.1",
+      "5 / planejamento editorial": "5.1",
+      "5 / produção colaborativa": "5",
+      "5 / proporções": "5.3",
+      "5 / formatos": "5.3",
+      "5 / elementos de publicação": "5.4",
+      "6 / transparência pública": "6",
+      "7 / comunicação pública, governamental e político-partidária": "7.2",
+      "8 / Política de Comunicação da Câmara e Manual de Comunicação": "8",
+      "9 / IA na comunicação: aplicações e ética": "9",
+      "10 / Linguagem simples e usabilidade": "10",
+      "11 / Art. 37, § 1º, da Constituição": "11"
+    }
   }
 ]

@@ -25,7 +25,9 @@ O art. 175 da Constituição estabelece que incumbe ao Poder Público prestar se
 
 ### Prestação direta
 
-O próprio ente titular executa o serviço, por seus órgãos ou por entidades administrativas criadas para esse fim. A execução direta não se confunde com centralização. **Centralização** é o ente público prestar o serviço por seus próprios órgãos. Uma **autarquia**, que é uma entidade pública com personalidade jurídica própria, pode executar atividade de forma descentralizada dentro da Administração Indireta sem haver delegação contratual a particular. Aqui, **descentralizar** significa atribuir a execução a outra pessoa jurídica; isso não significa necessariamente contratar uma empresa privada.
+O serviço pode ser executado pelo próprio poder público, por meio dos seus órgãos, ou por entidades administrativas criadas para exercer determinadas atividades. Para compreender essa organização, distinga dois casos.
+
+Na **centralização**, o ente público presta o serviço pelos próprios órgãos. Na **descentralização administrativa por serviços**, uma entidade com personalidade jurídica própria, como uma autarquia, recebe atribuições previstas em lei. Nesse segundo caso, a atividade continua dentro da Administração Pública, sem contratação de uma empresa privada para prestá-la. A delegação a particulares é uma situação diferente, explicada a seguir.
 
 ### Concessão
 

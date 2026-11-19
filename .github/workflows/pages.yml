@@ -90,6 +90,8 @@ jobs:
         run: node scripts/test-results-deeplinks.js
       - name: Testar ordenação dos hubs das matérias
         run: node scripts/test-hub-ordering.js
+      - name: Testar acessibilidade do explorador Mermaid
+        run: node scripts/test-mermaid-modal.cjs
       - name: Testar wikilinks em tabelas Markdown
         run: node scripts/test-wikilinks-tables.js
       - name: Testar renderização de matemática em bloco

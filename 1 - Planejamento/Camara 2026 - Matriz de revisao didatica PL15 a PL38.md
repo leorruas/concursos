@@ -4,7 +4,7 @@ Data: 19/11/2026. Branch: `editorial/regimentos-linguagem`. **Estado: revisão p
 
 ## Critério e evidências
 
-A inspeção estrutural inicial localizou blocos explícitos de certificação normativa em PL15–PL33. Esses blocos foram removidos do corpo, sem alterar os trechos anteriores, e preservados integralmente nos três arquivos de estado editorial da mesma branch. Nos artigos PL34, PL35 e PL37, as aberturas abstratas foram substituídas por descrições situadas e exemplos. Não houve intervenção em PL01–PL14, `11 - organizacao do estado.md`, catálogo ou `data/questoes-camara.json`.
+A inspeção estrutural inicial localizou blocos explícitos de certificação normativa em PL15–PL33. Esses blocos foram removidos do corpo, sem alterar os trechos anteriores, e preservados integralmente nos três arquivos de estado editorial da mesma branch. Em PL34, PL35 e PL37, as aberturas abstratas foram substituídas por descrições situadas e exemplos. Na segunda rodada, os artigos PL15–PL19 receberam ajustes no corpo; PL23, PL25 e PL28–PL37 tiveram registros e códigos editoriais retirados da leitura, com preservação dos registros de rastreabilidade de PL23 e PL25 no estado editorial. O PL36 recebeu apenas limpeza do identificador inicial; PL38 permaneceu sem edição. Não houve intervenção em PL01–PL14, `11 - organizacao do estado.md`, catálogo ou `data/questoes-camara.json`.
 
 A auditoria anterior, em `Camara 2026 - Auditoria integral por materia/02 - Processo Legislativo Regimentos e Etica - diagnostico.md`, e o bloco 78 documentam conferências normativas **delimitadas**, não uma nova validação global. Essas verificações foram **transferidas** e não repetidas nem reclassificadas como novas. O edital interno e as diretrizes de revisão para EPUB foram consultados.
 
@@ -12,29 +12,29 @@ A auditoria anterior, em `Camara 2026 - Auditoria integral por materia/02 - Proc
 
 | Artigo | Assunto | Histórico editorial | Mudança didática aplicada | Validação residual |
 | :--- | :--- | :--- | :--- | :--- |
-| PL15 | parecer, voto e vista | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL16 | quórum, modalidades e verificação | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL17 | sanção, veto e promulgação | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL18 | abreviado, sumário e prioridade | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL19 | sumaríssimo, especial e concentrado | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
+| PL15 | parecer, voto e vista | Registro histórico transferido | Vista em duas sessões esclarecida; referências editoriais retiradas | **Leitura jurídica integral pendente** |
+| PL16 | quórum, modalidades e verificação | Registro histórico transferido | Exemplo de 31 apoiadores versus 257 presentes; código removido | **Leitura jurídica integral pendente** |
+| PL17 | sanção, veto e promulgação | Registro histórico transferido | Sequência de sanção e veto reescrita; código retirado | **Leitura jurídica integral pendente** |
+| PL18 | abreviado, sumário e prioridade | Registro histórico transferido | Comparação conclusivo, sumário e prioridade integrada | **Leitura jurídica integral pendente** |
+| PL19 | sumaríssimo, especial e concentrado | Registro histórico transferido | Códigos substituídos por remissões e explicações ao leitor | **Leitura jurídica integral pendente** |
 | PL20 | lei delegada | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
 | PL21 | medida provisória | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
 | PL22 | decreto legislativo e resolução | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL23 | organização e órgãos da Câmara | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
+| PL23 | organização e órgãos da Câmara | Registro histórico transferido | Rastreabilidade editorial deslocada ao estado; cabeçalho limpo | **Leitura jurídica integral pendente** |
 | PL24 | comissões, fiscalização e sessões | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL25 | expedientes e Ordem do Dia | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
+| PL25 | expedientes e Ordem do Dia | Registro histórico transferido | Rastreabilidade deslocada ao estado; cabeçalho limpo | **Leitura jurídica integral pendente** |
 | PL26 | mandato, licenças e suplência | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
 | PL27 | administração e polícia interna | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL28 | mapa regimental e edital | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL29 | sessões conjuntas | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL30 | Título IV e matérias até art. 103 | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL31 | comissões mistas e votação | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL32 | Comissão Representativa | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL33 | rito de medidas provisórias | Registro histórico transferido | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL34 | Código de Ética | Sem seção formal de certificação identificada | Abertura reescrita com exemplo e linguagem direta | **Leitura jurídica integral pendente** |
-| PL35 | CPI e CPMI | Sem seção formal de certificação identificada | Abertura reescrita com exemplo e linguagem direta | **Leitura jurídica integral pendente** |
-| PL36 | comparação das espécies legislativas | Sem seção formal de certificação identificada | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
-| PL37 | controle parlamentar e TCU | Sem seção formal de certificação identificada | Abertura reescrita com exemplo e linguagem direta | **Leitura jurídica integral pendente** |
+| PL28 | mapa regimental e edital | Registro histórico transferido | Código da unidade retirado do texto visível | **Leitura jurídica integral pendente** |
+| PL29 | sessões conjuntas | Registro histórico transferido | Identificador editorial removido da abertura | **Leitura jurídica integral pendente** |
+| PL30 | Título IV e matérias até art. 103 | Registro histórico transferido | Identificador editorial removido da abertura | **Leitura jurídica integral pendente** |
+| PL31 | comissões mistas e votação | Registro histórico transferido | Identificador editorial removido da abertura | **Leitura jurídica integral pendente** |
+| PL32 | Comissão Representativa | Registro histórico transferido | Identificador editorial removido da abertura | **Leitura jurídica integral pendente** |
+| PL33 | rito de medidas provisórias | Registro histórico transferido | Identificador editorial removido da abertura | **Leitura jurídica integral pendente** |
+| PL34 | Código de Ética | Sem seção formal de certificação identificada | Ambiguidade CEDP eliminada; tipicidade explicada; abertura concreta | **Leitura jurídica integral pendente** |
+| PL35 | CPI e CPMI | Sem seção formal de certificação identificada | Função investigatória e instrutória definida com exemplo | **Leitura jurídica integral pendente** |
+| PL36 | comparação das espécies legislativas | Sem seção formal de certificação identificada | Identificador editorial removido; texto substantivo mantido | **Leitura jurídica integral pendente** |
+| PL37 | controle parlamentar e TCU | Sem seção formal de certificação identificada | Abertura concreta e referência normativa explicitada | **Leitura jurídica integral pendente** |
 | PL38 | blueprints por espécie | Sem seção formal de certificação identificada | Sem correção didática individual confirmada nesta passagem | **Leitura jurídica integral pendente** |
 
 ## Problemas corrigidos
@@ -59,3 +59,31 @@ A auditoria anterior, em `Camara 2026 - Auditoria integral por materia/02 - Proc
 4. Revisar a presença de notas editoriais breves ainda incorporadas aos artigos, com cuidado para não remover observações jurídicas ou avisos pertinentes ao leitor.
 
 **Resultado atual: 19 históricos transferidos, 3 aberturas revistas, 24 artigos inventariados, 0 artigos com revisão jurídica integral nova comprovada.**
+
+## Segunda rodada: achados e reparos (19/11/2026)
+
+**PL15, Pedido de vista, discussão e votação.** Termo de vista apresentado como regra compacta: reescrito com sequência de pedido, compartilhamento simultâneo, duas sessões e efeito do pedido sobre o exame. Fonte já citada no artigo: RICD, art. 57, XVI. O conteúdo jurídico do artigo não foi revalidado em todos os seus dispositivos.
+
+**PL16, Verificação de votação simbólica.** A diferença entre apoio de 6% para pedir verificação e quórum de presença era correta, mas abstrata. Integrado exemplo de 31 apoiadores e 257 presentes. Fonte citada: CF art. 47 e RICD art. 185, § 3º. Restante da fundamentação preservado.
+
+**PL17–PL19, aberturas e passagens de conexão.** Substituídas referências a códigos CAM-PL por explicações sobre sujeitos, etapas, instâncias e classificação de procedimentos. Nenhuma alteração deliberada de prazo ou quórum; a precisão integral exige cotejo das normas.
+
+**PL23 e PL25, cabeçalho e notas de rastreabilidade.** Os códigos de unidades e duas notas de planejamento foram retirados da abertura; o texto das notas foi transcrito para `Camara 2026 - Estado editorial Regimentos PL23 a PL30.md`. As remissões didáticas continuam nos artigos.
+
+**PL28–PL33 e PL36, linha de identificação da unidade.** Códigos técnicos removidos da apresentação ao leitor, mantendo frontmatter, `articleId` e aliases. Nenhuma hipótese de imprecisão normativa foi considerada resolvida por essa mudança.
+
+**PL34, Núcleo do conceito.** A sigla `CEDP` designava tanto o Código de Ética quanto o Conselho de Ética, provocando colisão entre norma e órgão decisor. Optou-se pelos nomes completos na primeira menção e referência a `Código de Ética, art. 14` nas remissões posteriores. A definição de tipicidade foi reformulada em linguagem direta. A disciplina sancionatória não foi alterada.
+
+**PL35, Núcleo do conceito.** A formulação `natureza investigatória e instrutória` não explicava o que a comissão faz. Substituída por apuração de fatos, reunião de documentos, oitiva e organização de provas, com distinção da competência de julgar.
+
+**PL37, Abertura e remissões.** Substituída expressão técnica `c/c` por referência explícita a dispositivos combinados. Permanecem as distinções entre convocar, requerer informações e examinar contas.
+
+**Hipóteses avaliadas sem modificação:** PL20–PL22, PL24, PL26–PL27 e PL38 já apresentam situações concretas, competências e, em vários casos, exceções. Nesta rodada não houve demonstração suficiente para reescrever regras; a leitura jurídica integral e as referências de todos os exercícios continuam pendentes.
+
+### Checagem técnica dirigida
+
+Em 19/11/2026, comparados os 24 arquivos da branch com a `main` para `articleId`, `articleAliases`, headings, número de ocorrências de gabarito com formato identificado e blocos Mermaid. `articleId` e `articleAliases` coincidiram em **24/24**; os blocos Mermaid coincidiram em **24/24**. As contagens de gabarito no formato `**Gabarito` permaneceram iguais, sem constituir auditoria semântica de enunciados ou dos itens que usem outras formas de marcação. Os headings substantivos foram preservados; diferenças detectadas em PL15–PL18 e PL25 decorrem de seções de certificação removidas, com eventuais subtítulos internos. PL38 permaneceu sem alterações.
+
+**CI:** o workflow de validação do PR inicialmente falhou no teste `scripts/validate-vault-invariants.js --public-only` porque a nota canônica `3 - Materias/Direito Constitucional/38 - blueprints do processo legislativo por especie normativa.md` não consta de `index.md`. A correção é reservada à coordenação responsável pelo índice, expressamente excluído desta missão. Os passos anteriores (referências, questões, identidade de artigos) passaram; build e etapas posteriores foram interrompidos. Não declarar CI, Pages ou EPUB validados. A branch de revisão foi reconciliada com a `main` sem modificação de arquivos de interface.
+
+**Status atual:** inventário 24/24; históricos retirados 19/19; redação ou limpeza adicional em 17 artigos; auditoria jurídica integral 0/24 comprovada. PR permanece como rascunho.

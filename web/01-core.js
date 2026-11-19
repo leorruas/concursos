@@ -6,7 +6,7 @@
 async function obterListaDeArquivos() {
     // 1. PRIORIDADE MÁXIMA: Tenta carregar o manifesto gerado no build (rápido, estático, sem rate limit e sem vazar arquivos)
     try {
-        const resManifest = await fetch("manifest.json");
+        const resManifest = await fetch("manifest.json", { cache: "no-cache" });
         if (resManifest.ok) {
             const manifestData = await resManifest.json();
             if (Array.isArray(manifestData) && manifestData.length > 0) {

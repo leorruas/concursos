@@ -353,17 +353,12 @@ function renderAdaptive(plan) {
  if (!enabled) return;
  const ranked = plan.recommendations.filter(item => !selectedSubject || item.subjectId === selectedSubject);
  // O resumo exibe no maximo tres decisoes, sem ocultar a fila completa em Revisoes.
- const activities = ranked.slice(0, 3);
- const extra = activities.some(item => item.questionIds?.length) ? null :
-  ranked.slice(activities.length).find(item => item.questionIds?.length);
- if (extra) {
-  if (activities.length === 3) activities[2] = extra;
-  else activities.push(extra);
- }
+ // Priorizar uma atividade executavel na primeira posicao; a fila preserva prioridades originais.
+ const extra = ranked.find(item => item.questionIds?.length) || null;
+ const activities = extra ? [extra, ...ranked.filter(item => item !== extra).slice(0, 2)] : ranked.slice(0, 3);
  const firstStudy = ranked.find(item => item.state === 'confirmed-not-studied' && !activities.includes(item) &&
   (item.articles?.length || item.questionIds?.length));
- if (firstStudy && !activities.some(item => item.state === 'confirmed-not-studied') && activities.length < 3)
-  activities.push(firstStudy);
+ if (firstStudy && activities.length < 3) activities.push(firstStudy);
  const list = el('ul'), remaining = el('ul');
  // Todas as recomendacoes fora do resumo permanecem na pagina de Revisoes.
  for (const item of [...activities, ...ranked.filter(item => !activities.includes(item))]) {

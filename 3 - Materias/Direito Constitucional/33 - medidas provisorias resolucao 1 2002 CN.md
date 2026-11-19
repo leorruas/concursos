@@ -147,7 +147,7 @@ Modificada a MP pelo Senado, o texto volta à **Câmara**, na forma de emenda pa
 
 **8.** O recesso parlamentar suspende os prazos de tramitação previstos na resolução, sem prejuízo da plena eficácia da medida provisória. **Certo.** Art. 18 e CF art. 62, § 4º.
 
-**9.** Aprovado projeto de lei de conversão, ele será promulgado diretamente pela Mesa do Congresso, sem fase de sanção ou veto presidencial, assim como ocorre com MP aprovada sem alterações de mérito. **Errado.** **PLV vai à sanção**; MP sem alteração de mérito é promulgada pela Mesa, arts. 12–13.
+**9.** Aprovado projeto de lei de conversão, ele será promulgado diretamente pela Mesa do Congresso, sem fase de sanção ou veto presidencial, assim como ocorre com MP aprovada sem alterações de mérito. **Errado.** **PLV segue à sanção ou veto presidencial**; MP aprovada sem alteração de mérito é promulgada **pelo Presidente da Mesa do Congresso Nacional**, conforme os arts. 12 e 13 da Resolução nº 1/2002-CN.
 
 **10.** Não editado decreto legislativo até sessenta dias após rejeição ou perda da eficácia da MP, as relações jurídicas constituídas e decorrentes de atos realizados durante sua vigência permanecem por ela regidas. **Certo.** CF art. 62, § 11; Res. art. 11, § 2º.
 

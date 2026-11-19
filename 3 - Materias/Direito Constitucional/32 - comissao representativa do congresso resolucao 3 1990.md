@@ -13,7 +13,7 @@ aliases:
 
 # Comissão Representativa do Congresso no recesso: Resolução nº 3/1990-CN
 
-**Câmara dos Deputados 2026, Divulgação Institucional, Cebraspe. Unidade CAM-PL-028.** Base constitucional: **CF, art. 58, § 4º**. Norma específica: **Resolução nº 3, de 21/11/1990-CN, arts. 1º a 13**, integrante do Regimento Comum do Congresso Nacional. Fonte primária: [texto oficial consolidado pelo Senado](https://legis.senado.leg.br/norma/561157/publicacao/36852072).
+**Câmara dos Deputados 2026, Divulgação Institucional, Cebraspe.** Base constitucional: **CF, art. 58, § 4º**. Norma específica: **Resolução nº 3, de 21/11/1990-CN, arts. 1º a 13**, integrante do Regimento Comum do Congresso Nacional. Fonte primária: [texto oficial consolidado pelo Senado](https://legis.senado.leg.br/norma/561157/publicacao/36852072).
 
 ## Núcleo do conceito
 

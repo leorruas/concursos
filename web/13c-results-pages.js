@@ -3,12 +3,24 @@
  'use strict';
  const views=[
   {id:'resumo',label:'Resumo',selectors:['#results-adaptive','#results-legacy','#results-retention']},
-  {id:'revisoes',label:'Revisões',selectors:['[aria-labelledby="results-next-studies-title"]','[aria-labelledby="results-review-queue-title"]','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]','#results-discursive']},
+  {id:'revisoes',label:'Revisões',selectors:['#results-adaptive-queue','[aria-labelledby="results-next-studies-title"]','[aria-labelledby="results-review-queue-title"]','[aria-labelledby="results-retests-title"]','[aria-labelledby="results-quiz-priority-title"]','[aria-labelledby="title-concepts"]','#results-discursive']},
   {id:'materias',label:'Matérias',selectors:['[aria-labelledby="title-subjects"]','[aria-labelledby="results-edital-coverage-title"]','[aria-labelledby="results-difficulty-heading"]','[aria-labelledby="results-coverage-title"]']},
   {id:'historico',label:'Histórico',selectors:['#results-principle-history','[aria-labelledby="results-concept-transfer-title"]']}
  ];
  const root=document.getElementById('results-content');
  if(!root)return;
+ const adaptiveQueue=document.createElement('section');
+ adaptiveQueue.id='results-adaptive-queue';
+ adaptiveQueue.className='results-section';
+ adaptiveQueue.hidden=true;
+ adaptiveQueue.setAttribute('aria-labelledby','results-adaptive-queue-title');
+ const queueTitle=document.createElement('h2');
+ queueTitle.id='results-adaptive-queue-title';
+ queueTitle.textContent='Atividades de revisão';
+ const queueItems=document.createElement('div');
+ queueItems.id='results-adaptive-queue-items';
+ adaptiveQueue.append(queueTitle,queueItems);
+ root.append(adaptiveQueue);
  const style=document.createElement('style');
  style.textContent=`
  .results-views-nav{display:flex;gap:4px;flex-wrap:wrap;border-bottom:1px solid color-mix(in srgb,var(--text) 18%,transparent);margin:0 0 32px;padding:0}

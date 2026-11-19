@@ -799,7 +799,8 @@ async function load({keepCurrent = false} = {}){
    root.hidden=true;
    $('results-logout').hidden=true;
    $('results-login').hidden=false;
-   $('results-login').href=WORKER+'/v1/login/github?return=%2Fresultados.html';
+   const returnPath=location.origin===WORKER ? location.pathname : '/resultados.html';
+   $('results-login').href=WORKER+'/v1/login/github?return='+encodeURIComponent(returnPath);
    status.textContent='Entre com GitHub para consultar seu histórico unificado.';
    return;
   }
@@ -845,10 +846,27 @@ themeButton.addEventListener('click',()=>{
  setResultsTheme(document.documentElement.getAttribute('data-theme')==='light'?'dark':'light');
 });
 themeButton.textContent=document.documentElement.getAttribute('data-theme')==='light'?'modo escuro':'modo claro';
-const requestedContest=new URLSearchParams(location.search).get('concurso');
+const initialParams=new URLSearchParams(location.search);
+const requestedContest=initialParams.get('concurso');
 if([...select.options].some(x=>x.value===requestedContest))select.value=requestedContest;
-select.addEventListener('change',()=>{selectedSubject='';load();});
-$('results-subject-filter').addEventListener('change',value=>{selectedSubject=value.target.value;render();});
+selectedSubject=initialParams.get('materia')||'';
+function syncResultsFilters(){
+ const url=new URL(location.href);url.searchParams.set('concurso',select.value);
+ if(selectedSubject)url.searchParams.set('materia',selectedSubject);
+ else url.searchParams.delete('materia');
+ history.replaceState(history.state,'',url);
+ const nav=document.querySelector('.results-views-nav');
+ if(nav)for(const a of nav.querySelectorAll('a')){
+  const target=new URL(a.href);target.searchParams.set('concurso',select.value);
+  if(selectedSubject)target.searchParams.set('materia',selectedSubject);
+  else target.searchParams.delete('materia');
+  a.href=target.href;
+ }
+}
+select.addEventListener('change',()=>{selectedSubject='';syncResultsFilters();load();});
+$('results-subject-filter').addEventListener('change',value=>{
+ selectedSubject=value.target.value;syncResultsFilters();render();
+});
 $('results-logout').addEventListener('click',async()=>{
  ++loadVersion;
  current=null;

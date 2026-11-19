@@ -262,15 +262,12 @@ Notas canônicas em `3 - Materias/`, exceto Avancos.md, possuem `articleId: art-
 
 ## Roteamento obrigatório por concurso
 
-Antes de gerar estudo, questões, baterias, simulados ou registrar desempenho, identificar o concurso-alvo pelo contexto explícito da conversa.
+Identificar o concurso-alvo antes de preparar estudo, questões ou simulados e antes de registrar desempenho. Concurso explícito prevalece. Para pedidos genéricos, consultar a prioridade vigente em [CHAT.md](CHAT.md) e conferir `activeExam`. Na preparação vigente, a prioridade é Câmara 2026, Cargo 1, Divulgação Institucional.
 
-- Até **11/10/2026**, pedidos genéricos ou ambíguos continuam vinculados à **Dataprev**, que permanece como prioridade temporal até a prova.
-- Referência explícita à **Dataprev** aciona o protocolo FGV-Dataprev de `me.md`. Nesta reta final, o fluxo padrão é de **simulados integrais**, com teoria apenas como microrevisão derivada de erros, salvo pedido explícito em contrário.
-- A prioridade **CGU 2026, Cargo 1 Auditoria**, vigorou de 12/10 a 10/11/2026, por decisão de 09/10/2026. **A partir de 11/11/2026 até a prova de 17/01/2027**, o padrão de pedidos genéricos passa a ser **Câmara dos Deputados 2026, Cargo 1 Comunicação Social/Divulgação Institucional**, conforme [[1 - Planejamento/Camara 2026 - Estrategia de estudo ate janeiro|estratégia]]. O treino é Cebraspe C/E, P1=90 e P2=90 (+1/-1/0), com duas questões discursivas e uma peça técnica. Dados pessoais sempre em `leorruas/concurso-dados`, separados por `concursoId`. Referência explícita a CGU continua válida e restaura seu protocolo próprio.
-- Referência explícita à **CGU** sempre aciona seu projeto, inclusive antes de 11/10. Não transformar nota existente em conhecimento comprovado; `coberturaNota` e `exposicaoEstudo` devem permanecer distintos.
-- Referência explícita à **Câmara dos Deputados** aciona o projeto `4 - Projetos/camara-2026/`, o edital da Câmara e o protocolo **Cebraspe-Câmara** de `me.md`. Estudo teórico, revisão, questões e simulados da Câmara seguem o padrão Cebraspe/Cespe e o formato C/E.
-- Nunca misturar banca ou formato: **FGV para Dataprev; Cebraspe para Câmara e CGU, cada uma com seu edital e pontuação**. Notas teóricas compartilhadas podem ser reutilizadas, mas a mecânica de cobrança, o corpus de calibração e os registros de desempenho pertencem ao concurso-alvo.
-- Ao registrar desempenho, atualizar apenas as superfícies do projeto correspondente. É proibido lançar uma sessão da Câmara, da CGU ou da Dataprev em arquivos de outro concurso.
+- **Câmara:** seguir o edital, a estratégia da Câmara e o protocolo Cebraspe-Câmara de `me.md`. O formato objetivo é C/E, com 90 itens em P1 e 90 em P2 (+1/−1/0), além de duas discursivas e uma peça técnica.
+- **CGU:** seguir o edital de Auditoria e o protocolo próprio, Cebraspe C/E. Distinguir `coberturaNota` de `exposicaoEstudo`.
+- **Dataprev:** atender quando solicitado, com edital e protocolo FGV-Dataprev de `me.md`. A [calibração da reta final de 2026](https://github.com/leorruas/concursos/blob/ea4f106904d9a72aa64356dfb843efd5e249592a/AGENTS.md#L427-L469) serve como histórico de reprodução desse ciclo.
+- Reaproveitar teoria comum quando aplicável. Usar banca, formato, pontuação e corpus próprios do concurso. Registrar desempenho no cofre privado, nas superfícies do concurso correspondente e sob seu `concursoId`.
 
 ## Protocolo recorrente de entrada de editais
 
@@ -304,15 +301,6 @@ Criar uma nota em `3 - Materias/` é uma operação lógica multi-arquivo. No me
 3. o `index.md` global.
 
 Não criar a nota primeiro para “indexar depois”. `scripts/validate-change-contract.js` exige essas superfícies no mesmo diff. Se a matéria não possuir hub local, o contrato exige ao menos a nota e o `index.md` global e sinaliza a ausência do hub.
-
-### Marcador visual de artigos da semana final
-
-Durante a reta final da Dataprev até 11/10/2026, todo artigo de estudo em `3 - Materias/` que for **criado** ou **substancialmente atualizado** para fechar o backlog da semana deve receber um marcador visual no **título exibido**, sem alterar o nome físico do arquivo:
-
-- **🆕** para artigo novo;
-- **🔄** para artigo existente que recebeu atualização substancial.
-
-Aplicar o emoji tanto no campo `title:` do frontmatter quanto no `# H1` da nota, mantendo o wikilink pelo nome físico do arquivo. Não usar emoji para correção tipográfica mínima, ajuste de link ou housekeeping sem ganho de conteúdo.
 
 ## Regra adicional para artigos de matéria
 
@@ -424,54 +412,8 @@ Para expressões compostas como **IN SFC nº 3/2017**, desenvolver **IN** e **SF
 
 **Verificação editorial antes de avançar para outro tema:** a nota explica *o que é, de onde vem, por que existe, como funciona, quem é responsável, quais exceções ou condições importam e como a banca pode confundir*? Uma pessoa que só leu o artigo conseguiria enfrentar um caso novo ou ainda precisaria de uma segunda aula? Se faltar conteúdo material para o edital, **continuar o aprofundamento**, sem marcar a unidade como concluída. Profundidade mede **cobertura das fronteiras relevantes**, não número de caracteres.
 
-### Calibração vigente pós-Simulado 04 — próximo simulado Dataprev
+### Calibração de Português
 
-Até nova autópsia substituir esta régua, o próximo simulado integral da Dataprev deve mirar a dificuldade observada na prova oficial FGV Dataprev 2024, sem copiar itens.
-
-**Composição obrigatória:** 12 Português + 12 Inglês + 5 Lógica + 6 Atualidades/IA + 5 Legislação + 30 Comunicação.
-
-**Português**
-- usar trechos reais ou verossímeis em parte relevante do bloco;
-- privilegiar classificação sintática/semântica, regência, concordância, coesão, reescrita e variação, com alternativas próximas;
-- evitar excesso de itens resolvíveis apenas por reconhecer uma regra evidente.
-
-**Inglês**
-- preferir 2 a 3 textos, com pelo menos um texto mais longo;
-- misturar interpretação, referência pronominal, conectores, vocabulário, modalização e classe/função da palavra;
-- evitar transformar o bloco em gramática isolada.
-
-**Lógica**
-- incluir ao menos dois problemas contextualizados ou em duas etapas;
-- misturar lógica formal com aritmética/proporção, ordenação/contagem e um item de padrão, álgebra, geometria ou raciocínio matricial;
-- dificuldade deve vir da modelagem, não de conta longa.
-
-**Atualidades/IA**
-- priorizar 4 itens de fatos/instituições recentes e 2 de IA, ajustando apenas se a conjuntura justificar;
-- incluir naturalmente I/II/III ou V/F;
-- o enunciado não deve fornecer a definição que resolve a própria questão;
-- fatos conjunturais precisam ser verificados em fontes atuais antes da geração;
-- **para simulados Dataprev até 11/10/2026, não usar a data de geração como corte de Atualidades**: o simulado deve reproduzir o universo plausível de um caderno já fechado editorialmente. Priorizar fatos consolidados com antecedência e reduzir fortemente fatos dos últimos dias de setembro ou de outubro. Não inventar uma data oficial de corte da FGV.
-
-**Legislação**
-- distribuir as 5 questões entre LAI/Decretos, Lei 12.737/art. 154-A, Marco Civil e LGPD;
-- usar alternativas juridicamente próximas, exceções, sujeitos, prazos, competências e condições;
-- evitar cinco perguntas de literalidade de primeira camada.
-
-**Comunicação**
-- cobrir todos os dez blocos do edital ao longo das 30 questões, sem forçar três questões por bloco;
-- aumentar materialmente história/repertório, autores, estruturas internas, taxonomias e terminologia profissional;
-- mesclar reconhecimento factual, associação/correlação, I/II/III, EXCETO, interpretação de trecho teórico e caso profissional;
-- aproximadamente um terço do bloco deve exigir recuperação factual/autoral/taxonômica e não apenas aplicação intuitiva;
-- incluir rádio/TV, história da imprensa e comunicação empresarial, além de digital/marketing/pesquisa/design;
-- não super-representar os erros recentes do candidato.
-
-**Régua de dificuldade:** igual ou levemente acima da prova-espelho de 2024. A dificuldade deve vir de alternativas próximas, verdade parcial, transposição conceitual, recuperação factual e duas etapas de raciocínio — não de obscuridade gratuita, enunciado artificialmente longo ou conhecimento fora do edital.
-
-### Lição transferível pós-Dataprev — calibração de Português
-
-A reconstrução parcial da prova real Dataprev 2026, ainda sob **gabarito preliminar** e sem cartão-resposta confirmado, apontou risco de falsa segurança em Português: o bloco real exigiu mais discriminação em **coerência, referenciação, valor semântico, tipologia e fronteiras classificatórias**, e não apenas recuperação de regras gramaticais. Esse sinal deve influenciar o desenho de treinos futuros, mas **não deve ser registrado como nota oficial** até haver respostas confirmadas e gabarito definitivo.
-
-Para qualquer próximo concurso:
 - calibrar Português pela prova real da **banca e formato do concurso-alvo**, sem transferir mecanicamente o estilo FGV para Cebraspe;
 - evitar baterias em que a maioria dos itens seja resolvida por reconhecimento imediato de regra;
 - exigir comparação entre alternativas plausíveis, leitura de escopo, coerência global/local, retomada referencial e efeito semântico quando o corpus da banca sustentar esses mecanismos;
@@ -562,15 +504,15 @@ A exigência vale também no leitor web: o link publicado deve preservar o deep 
 
 ## Propagação obrigatória de simulados para o painel
 
-Todo simulado ou bateria que deva aparecer na interface pública é uma **operação multi-arquivo**. Não considerar o registro concluído após atualizar apenas o `Log de erros.md`.
+A consolidação de um simulado ou bateria é uma **operação multi-arquivo no cofre privado**. Conferir as projeções do painel autenticado antes de considerar o registro concluído.
 
 Para um **simulado integral**, o agente deve atualizar, na mesma operação lógica:
 
 1. `00 - Desempenho/Simulados/Simulado-XX.md`, com resultado, respostas, gabarito, erros, dúvidas e diagnóstico;
 2. `00 - Desempenho/Simulados/00 - Catalogo de simulados.md`;
-3. `leorruas/concurso-dados:4 - Projetos/dataprev-2026/Questoes e Simulados.md` (para CGU, usar os hubs comuns de desempenho e simulados, sem projeto próprio);
-4. `leorruas/concurso-dados:4 - Projetos/dataprev-2026/Log de erros.md`, quando houver erros ou acertos com lacuna relevante;
-5. `leorruas/concurso-dados:4 - Projetos/dataprev-2026/00 Dashboard.md` apenas em concursos com painel legado; **CGU não tem dashboard**;
+3. catálogo de questões e simulados do concurso, quando existir;
+4. log de erros do concurso, quando houver erros ou acertos com lacuna relevante;
+5. painel específico, quando mantido pelo concurso. Para CGU, usar os hubs comuns de desempenho e simulados. Para reproduzir registros da Dataprev, consultar o mapa privado em `leorruas/concurso-dados:AGENTS.md`;
 6. `data/provas.json`, que alimenta o painel estratégico da interface e deve conter `sourcePath`, resultado, comparabilidade e nota calculável quando aplicável;
 7. `00 - Desempenho/00 Avancos globais.md`, recalculando a janela de 30 dias, o acompanhamento semanal e o controle de simulados consolidados;
 8. `00 - Desempenho/01 Log de saturacao diaria.md`, registrando volume, aproveitamento bruto, TAP e diagnóstico de carga;
@@ -579,7 +521,7 @@ Para um **simulado integral**, o agente deve atualizar, na mesma operação lóg
 
 Para baterias mistas, atualizar as superfícies equivalentes compatíveis com o tipo de registro; não inventar nota /115 quando a composição oficial não tiver sido reproduzida.
 
-Para Câmara ou outro concurso, usar as superfícies equivalentes do concurso-alvo; nunca escrever na Dataprev por padrão. Atualizar também o hub por edital/prova, conforme a seção correspondente. As regras de rascunhos, links ancorados, novidade e confiança estão nas seções próprias deste arquivo.
+Atualizar também o hub por edital/prova, conforme a seção correspondente. As regras de rascunhos, links ancorados, novidade e confiança estão nas seções próprias deste arquivo.
 
 ### Hub obrigatório de desempenho por edital e prova
 
@@ -590,7 +532,7 @@ O hub deve:
 - distinguir aproveitamento bruto de nota calculada pelas regras do edital;
 - declarar a comparabilidade da prova/simulado;
 - atualizar a análise comparativa quando o novo resultado altera a leitura da evolução;
-- nunca misturar métricas da Dataprev com Câmara ou outro concurso;
+- manter as métricas de cada concurso no respectivo recorte;
 - permanecer sincronizado com `data/provas.json`, o catálogo de simulados e os dashboards aplicáveis.
 
 Um simulado não está totalmente propagado enquanto esse hub estiver desatualizado.

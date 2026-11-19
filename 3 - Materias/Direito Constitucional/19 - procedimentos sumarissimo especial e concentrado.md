@@ -75,7 +75,7 @@ O **art. 157** esclarece como acelerar a instrução **sem exigir que o parecer 
 
 **Emendas a matéria urgente:** pelo **art. 157, § 4º**, se a discussão se encerrar com emendas, elas são imediatamente distribuídas e publicadas, dispondo as comissões de **uma sessão** para apresentar parecer, que pode ser **verbal por motivo justificado**. A urgência diminui prazos e adapta a forma da instrução, sem dispensar o juízo sobre a matéria.
 
-**Fala e encerramento:** o **art. 157, § 3º**, na redação dada em 2021, prevê **três minutos** por orador nas condições descritas e admite, após **doze deputados** se manifestarem, requerimento de **maioria absoluta** para encerrar discussão e encaminhamento. Esse requerimento não é o mesmo do **art. 178, § 2º**, estudado em CAM-PL-006, com **5%** como requisito de apresentação em outra hipótese de encerramento. **Art. 157, § 3º-A:** aprovado o encerramento de discussão e encaminhamento, fica impedido ou prejudicado, **na mesma sessão**, o requerimento de adiamento de votação, **salvo se o relator alterar o texto ao examinar as emendas**. **§ 5º:** diligência em projeto urgente não amplia os prazos para sua apreciação. **§ 6º:** se o parecer às emendas de Plenário for apresentado pelo relator designado durante a sessão, a votação só poderá começar após **dez minutos da disponibilização do parecer**.
+**Fala e encerramento:** o **art. 157, § 3º**, na redação dada em 2021, prevê **três minutos** por orador nas condições descritas e admite, após **doze deputados** se manifestarem, requerimento de **maioria absoluta** para encerrar discussão e encaminhamento. Esse requerimento não é o mesmo do **art. 178, § 2º**, estudado em [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação e quóruns]], com **5%** como requisito de apresentação em outra hipótese de encerramento. **Art. 157, § 3º-A:** aprovado o encerramento de discussão e encaminhamento, fica impedido ou prejudicado, **na mesma sessão**, o requerimento de adiamento de votação, **salvo se o relator alterar o texto ao examinar as emendas**. **§ 5º:** diligência em projeto urgente não amplia os prazos para sua apreciação. **§ 6º:** se o parecer às emendas de Plenário for apresentado pelo relator designado durante a sessão, a votação só poderá começar após **dez minutos da disponibilização do parecer**.
 
 ## Procedimentos especiais: a espécie determina a estrutura
 
@@ -104,7 +104,7 @@ O **art. 202 do RICD** define etapas que mostram por que a PEC não segue o mesm
 | **Turnos no Plenário** | **Dois turnos** de discussão e votação, com **interstício de cinco sessões** |
 | **Aprovação** | **Três quintos dos membros**, em ambos os turnos, em votação nominal: **308 votos por turno na Câmara** |
 
-A Constituição exige também aprovação pela **outra Casa** em **dois turnos**, por **três quintos** dos respectivos membros, antes da promulgação pelas **Mesas da Câmara e do Senado** (CF, art. 60). **Urgência regimental não substitui a rigidez constitucional de reforma.** A CAM-PL-015 estudará detalhadamente iniciativa, limites circunstanciais, materiais e formais da PEC.
+A Constituição exige também aprovação pela **outra Casa** em **dois turnos**, por **três quintos** dos respectivos membros, antes da promulgação pelas **Mesas da Câmara e do Senado** (CF, art. 60). **Urgência regimental não substitui a rigidez constitucional de reforma.** A iniciativa, os limites e a votação da proposta de emenda à Constituição são aprofundados em [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas]].
 
 ### Medida provisória: a comissão é mista, mas a votação é separada
 
@@ -112,7 +112,7 @@ A **medida provisória** do **art. 62 da CF** tem **força de lei desde a ediç�
 
 O **art. 62, § 9º**, atribui a **comissão mista de deputados e senadores** o exame e parecer prévios, e o **§ 8º** estabelece que a votação começa na **Câmara dos Deputados**. **A Câmara e o Senado deliberam separadamente sobre a MP nos respectivos Plenários**, conforme o portal oficial do Congresso. Assim, a presença de **comissão mista** não significa que a **votação final seja em sessão conjunta**.
 
-**Três urgências próximas, três fundamentos diferentes:** **MP** já possui pressuposto constitucional de **relevância e urgência** para sua edição; a MP entra em urgência própria após **45 dias sem apreciação**, conforme art. 62; o **rito sumário** de projeto de lei ordinária é iniciado por **pedido do presidente**, conforme art. 64. A menção a “45 dias” não torna os mecanismos idênticos. Esta unidade apenas delimita a distinção; **CAM-PL-013** trará vedações materiais, emendas, perda de eficácia e decreto legislativo.
+**Três urgências próximas, três fundamentos diferentes:** **MP** já possui pressuposto constitucional de **relevância e urgência** para sua edição; a MP entra em urgência própria após **45 dias sem apreciação**, conforme art. 62; o **rito sumário** de projeto de lei ordinária é iniciado por **pedido do presidente**, conforme art. 64. A menção a “45 dias” não torna os mecanismos idênticos. Esta unidade apenas delimita a distinção; As vedações materiais, emendas, perda de eficácia e decreto legislativo são explicados em [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|Medidas provisórias]].
 
 ### Lei delegada: Congresso delega, Executivo elabora
 
@@ -218,7 +218,7 @@ Para aprofundar a disciplina orçamentária sem repetir conteúdo, consultar [[3
 - [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação, quóruns e modalidades de decisão na Câmara]]: quórum e discussão, preservados sob urgência.
 - [[3 - Materias/Direito Constitucional/17 - sancao veto promulgacao e publicacao|Sanção, veto, promulgação e publicação: etapas, prazos e competências]]: veto em sessão conjunta, quórum de rejeição.
 - [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Rito orçamentário]] e [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|CMO]]: rito concentrado em matéria orçamentária.
-- **CAM-PL-012**: delegação legislativa; **CAM-PL-013**: MP; **CAM-PL-015**: PEC; **CAM-PL-025 a 029**: Regimento Comum e resoluções específicas.
+- [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|Lei delegada]], [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|Medida provisória]], [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas]] e [[3 - Materias/Direito Constitucional/29 - regimento comum titulo i sessoes conjuntas artigos 1 a 3|Regimento Comum]]: regras próprias de cada procedimento.
 
 ## Tensões e pegadinhas
 

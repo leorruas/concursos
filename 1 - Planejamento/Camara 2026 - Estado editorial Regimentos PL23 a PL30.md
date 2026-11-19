@@ -129,3 +129,17 @@ Transcrição dos registros de auditoria extraídos dos capítulos em 19/11/2026
 **25 - regimento camara expedientes ordem do dia e proposicoes artigos 81 a 105.md**
 
 **Nota de rastreabilidade:** esta nota sobre expedientes e proposições é complemento autônomo de estudo da trilha de sessões (**CAM-PL-021**), e não corresponde à unidade **CAM-PL-022**, reservada no planejamento a deputados e mandato (arts. 226 a 251), coberta por [[3 - Materias/Direito Constitucional/26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251|DC26]]. A classificação como complemento **não significa** que os arts. 95 a 105 integrem literalmente o recorte 65 a 94 da unidade planejada.
+
+## Notas editoriais finais transferidas em 19/11/2026
+
+### 23 - regimento da camara organizacao e orgaos artigos 1 a 24.md
+
+**Nota editorial:** o texto se baseia na consolidação oficial do RICD e na Constituição vigente, cotejadas em **08/11/2026**. Os dez itens são inéditos, sem pretensão de reproduzir provas Cebraspe. A cobertura editorial não significa retenção nem exercício realizado.
+
+### 24 - regimento camara deliberacao fiscalizacao e sessoes artigos 55 a 80.md
+
+**Nota editorial:** esta nota complementa a cobertura de comissões e pareceres já existente. Os itens C/E são originais para estudo, e a conclusão editorial não significa aprendizado realizado nem publicação confirmada no Pages.
+
+### 26 - deputados mandato licencas vacancia e suplencia artigos 226 a 251.md
+
+**Nota editorial:** unidade **CAM-PL-022**, conforme descrição do inventário de 315 unidades, cotejada com fontes oficiais em 08/11/2026. A nota sobre **arts. 81–105** foi mantida como **complemento editorial independente**, não como substituto desta unidade. Os dez itens C/E são inéditos e não representam questões reais ou acertos pessoais.

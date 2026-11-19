@@ -3,7 +3,7 @@ title: "Exportação EPUB para Kindle: protocolo e prompt reutilizável"
 type: "protocolo-operacional"
 status: "ativo"
 created: 2026-11-15
-updated: 2026-11-16
+updated: 2026-11-19
 ---
 
 # Exportação EPUB para Kindle: protocolo e prompt reutilizável
@@ -24,7 +24,17 @@ Este protocolo orienta pedidos futuros como "gere um EPUB de Direito Constitucio
 
 Antes da exportação, a matéria deve estar revisada segundo [[1 - Planejamento/Revisao editorial para leitura e EPUB - diretrizes|diretrizes de leitura e EPUB]]. Retirar códigos técnicos **apenas dos títulos visíveis** e do sumário, conservando IDs e navegação interna. Não corrigir ou reescrever texto jurídico durante a exportação: se houver leis sem identificação, seções editoriais artificiais ou redundâncias, apontar as lacunas para a revisão canônica, publicar a correção no GitHub Pages e fixar um novo SHA da main.
 
-**Respostas das questões no EPUB:** transformar gabarito e justificativa de cada questão C/E em uma nota de rodapé clicável e com link de retorno. Preferir semântica EPUB 3 (noteref/footnote), âncoras únicas, `Ver resposta` como rótulo e fallback que funcione sem popup; testar em Kindle Previewer e em um leitor EPUB quando disponíveis. Evitar revelar gabarito logo após o item no fluxo de leitura. O comportamento do site é outro: resposta oculta com revelação por clique/toque/teclado e hover apenas como complemento, exigindo implementação e testes próprios na interface. O Markdown do vault deve continuar contendo gabarito e comentário completos.
+**Respostas das questões no EPUB:** para cada questão comentada do escopo (C/E ou outro formato), manter enunciado e alternativas visíveis, com chamada **Ver resposta** para uma nota de rodapé EPUB 3 que contém **gabarito e justificativa originais completos**. Usar `<a epub:type="noteref">` e `<aside epub:type="footnote">`, IDs únicos, link de ida e volta e preferencialmente nota no mesmo documento XHTML da questão. O resultado desejado é um pop-up **nativo do Kindle nos leitores compatíveis**, sem modal em JavaScript; outros leitores devem conseguir navegar à nota e voltar à questão. O padrão vale para qualquer matéria e banca; não assumir que toda questão é C/E. Não revelar resposta automaticamente sob o enunciado, nem duplicar gabarito em texto corrido. Contar todas as questões na fonte e no EPUB, auditar correspondência um a um e testar a apresentação efetiva no Kindle Previewer/dispositivo quando disponível. Notas longas podem exigir navegação em tela inteira, conforme o leitor: não prometer pop-up universal. O comportamento do site é independente: resposta oculta com revelação por clique/toque/teclado e hover apenas como complemento, exigindo implementação e testes próprios na interface. O Markdown do vault deve continuar contendo gabarito e comentário completos.
+
+## Decisão de produto: notas de respostas nativas no Kindle (19/11/2026)
+
+**Decisão registrada:** os livros EPUB de estudo exportados deste vault devem apresentar a questão no corpo do capítulo e o **gabarito comentado em nota de rodapé vinculada**. A interação pretendida é: ler → responder mentalmente → tocar em `Ver resposta¹` → consultar gabarito e comentário em pop-up do leitor, se suportado → retomar a leitura. O mecanismo é a nota semântica do EPUB 3, não um modal HTML/CSS/JavaScript produzido pelo exportador.
+
+**Contrato técnico:** inserir chamadas `epub:type="noteref"` para `<aside epub:type="footnote" role="doc-footnote">`, com `id` de resposta único no livro e `id` de chamada único, ambos com links de retorno. Preferir nota no mesmo XHTML da questão para maximizar compatibilidade, desde que a geração produza XHTML/OPF válido. Não depender de `display:none`, `hover`, scripts, conexão ou funcionalidade específica do aplicativo. Se a nota aparecer em tela própria ou ao final do capítulo em um leitor, a navegação e o retorno precisam continuar funcionando. Leitores Kindle e conversões do Send to Kindle podem apresentar notas de modo distinto.
+
+**Regra de integridade:** manter exatamente a pergunta, alternativas, gabarito e explicação da fonte canônica. Para cada questão: exatamente uma chamada funcional para sua resposta; não inverter, omitir ou reutilizar comentários. Identificar divergências em relatório sem corrigir silenciosamente. Preservar fundamento legal, exemplo e referência do comentário; se houver comentários grandes, usar parágrafos curtos dentro da nota sem truncá-los. Quantidade de notas com resposta deve coincidir com a quantidade de questões mapeadas, explicando exceções documentadas.
+
+**Validação:** executar EPUBCheck e testes de integridade das chamadas/IDs/retornos; abrir questões no início, meio e fim do EPUB e notas de comentário curto e longo. No Kindle Previewer ou dispositivo Kindle, confirmar especificamente se o toque produz pop-up ou navegação, se a resposta é legível e se há retorno. Registrar modelos, aplicativos, versões e limitações realmente observados. Sem esses testes, declarar **compatibilidade estrutural EPUB**, nunca “modal Kindle testado”.
 
 ## Pipeline recomendado
 
@@ -47,45 +57,106 @@ Antes da exportação, a matéria deve estar revisada segundo [[1 - Planejamento
 Copiar e adaptar os campos entre colchetes. Quando o pedido ocorrer neste projeto, o agente deve recuperar e seguir este protocolo diretamente, sem exigir que a pessoa cole o prompt inteiro.
 
 ~~~text
-Gere ou atualize um livro EPUB para Kindle a partir do repositório
-https://github.com/leorruas/concursos.
+MISSÃO: GERAR OU ATUALIZAR UM EPUB 3 DE ESTUDO PARA KINDLE
 
+Fonte pública: https://github.com/leorruas/concursos
 MATÉRIA: [MATÉRIA]
 CONCURSO: [CONCURSO E CARGO, SE HOUVER]
-ESCOPO: [TODOS OS ARTIGOS DA MATÉRIA, OU LISTA ESPECÍFICA]
-TÍTULO DO LIVRO: [TÍTULO]
-MODO: [ATUALIZAÇÃO INCREMENTAL, SE HOUVER CONVERSOR; CASO CONTRÁRIO, PRIMEIRA GERAÇÃO]
+ESCOPO: [TODOS OS ARTIGOS DA MATÉRIA OU LISTA ESPECÍFICA]
+TÍTULO: [TÍTULO DO LIVRO]
+MODO: [PRIMEIRA GERAÇÃO / ATUALIZAÇÃO]
 
-Leia AGENTS.md, me.md, index.md, o catálogo e a nota
-"1 - Planejamento/Exportacao EPUB para Kindle - protocolo e prompt.md".
-Use exclusivamente a versão mais recente e consistente da branch main,
-fixando o SHA de origem. Inventarie todos os artigos reais do escopo, incluindo
-nomes repetidos, sem tratar índices ou títulos planejados como capítulos.
+1. CONTRATO E INVENTÁRIO
+Leia AGENTS.md, CHAT.md, me.md, index.md e o protocolo
+"1 - Planejamento/Exportacao EPUB para Kindle - protocolo e prompt.md",
+além das "Revisao editorial para leitura e EPUB - diretrizes.md".
+Fixe um único SHA da main e use esse mesmo commit para todos os arquivos.
+Identifique concurso/subjectId no catálogo
+data/catalogo-materias-por-concurso.json; a ordem do array articleIds
+do concurso selecionado é a ordem canônica de leitura. Resolva os IDs
+para os arquivos reais e valide que todos existem. O hub pode ser
+apresentação/sumário, mas não deve ser contado como capítulo teórico,
+salvo se o escopo pedir. Não ordenar por nome/número do arquivo.
+Distinguir matérias parecidas (por exemplo, Direito Administrativo
+e Administração Pública) e não misturar seus capítulos.
 
-Converta integralmente o conteúdo, sem resumir ou fazer revisão jurídica
-durante a exportação. Preserve exemplos, questões C/E comentadas na fonte, fontes,
-referências, tabelas, fórmulas, figuras e links. Organize os capítulos em
-sequência didática com sumário navegável, âncoras internas e EPUB 3 fluido.\nConverta cada resposta e justificativa de questão C/E em nota clicável\ncom retorno ao enunciado, fallback sem popup e teste de compatibilidade;\nnão apresente o gabarito aberto logo após a pergunta no EPUB.\nUse títulos de leitura sem prefixos editoriais e preserve os IDs em metadados.
+2. INTEGRIDADE E ORGANIZAÇÃO
+Converta o Markdown canônico integralmente, sem resumo, atualização
+jurídica ou correções silenciosas. Preserve explicações, leis, fontes,
+exemplos, tabelas, fórmulas, questões comentadas, relações entre artigos
+e links. Remova somente frontmatter técnico e componentes do site.
+Limpe prefixos técnicos dos títulos exibidos, preservando articleId
+e âncoras. Gere EPUB 3 reflowable, capa tipográfica, metadados, índice
+navegável, capítulos na ordem do catálogo e referências bibliográficas.
+Inclua glossário apenas quando houver fonte confiável.
 
-Adapte tabelas para telas pequenas: tabelas simples em XHTML, tabelas largas
-preferencialmente em blocos verticais com toda a informação, e imagens com
-alternativa textual quando a estrutura espacial for indispensável. Renderize
-Mermaid como imagem incorporada, legível em escala de cinza, reorganizando ou
-dividindo diagramas grandes sem alterar relações. Trate também os demais ativos
-locais, sem depender de JavaScript ou recursos externos.
+3. CONTRATO CENTRAL: QUESTÕES COM RESPOSTA EM NOTA KNDLE
+Inventarie cada questão e vincule enunciado, alternativas, gabarito
+e comentário completos da fonte. Mantenha enunciado/alternativas no
+fluxo principal e mostre somente "Ver resposta¹" como acionador.
+O gabarito e o comentário ficam juntos em uma nota semântica do EPUB 3,
+sem aparecer logo abaixo da questão e sem duplicação em outro bloco.
 
-Na primeira execução, crie um pipeline reutilizável. Nas atualizações, compare
-hashes e processe apenas os artigos e diagramas alterados, reconstruindo e
-validando o EPUB final. Separe esta atividade de revisão editorial do vault.
+Exemplo de XHTML, a adaptar aos namespaces e ao pacote EPUB:
+<p id="q01-enunciado">Questão 01. [enunciado original]</p>
+<p>( ) Certo<br />( ) Errado</p>
+<p><a id="q01-chamada" epub:type="noteref"
+      href="#q01-nota">Ver resposta¹</a></p>
+<aside id="q01-nota" epub:type="footnote" role="doc-footnote">
+  <p><strong>Gabarito: [gabarito original].</strong></p>
+  <p>[comentário original integral e referências]</p>
+  <p><a href="#q01-chamada">Voltar à questão</a></p>
+</aside>
 
-Valide links, sumário, texto integral, imagens, tabelas e manifesto. Rode
-EPUBCheck e faça testes em leitor EPUB/Kindle quando as ferramentas existirem,
-indicando o que de fato foi testado. Produza o arquivo EPUB real para download
-e informe número de capítulos, diagramas e tabelas, SHA de origem, limitações
-e o caminho do conversor para atualizações futuras.
+Crie IDs exclusivos no livro, estáveis quando possível. Garanta que a
+chamada e a nota apontem corretamente uma à outra. Prefira nota no mesmo
+XHTML da questão, se tecnicamente compatível. A janela pop-up deve ser
+nativa do Kindle quando suportada: NÃO usar modal JavaScript, hover,
+CSS de ocultação ou scripts para revelar respostas. Se o Kindle ou
+outro leitor abrir uma página de notas em vez de pop-up, o link
+de retorno deve funcionar. Não prometer pop-up universal.
+Para comentários longos, organizar parágrafos sem reduzir conteúdo.
+Aplicar o padrão também a questões de múltipla escolha ou de outros
+formatos, preservando todas as alternativas originais.
 
-Não entregue somente instruções ou scripts se for possível gerar o EPUB agora.
-Se a execução for bloqueada, descreva o bloqueio sem afirmar conclusão.
+4. LEITURA E RECURSOS GRÁFICOS
+Usar CSS fluido e tipografia controlada pelo leitor, com leitura clara
+em tela pequena e escala de cinza, nos temas claro/escuro.
+Tabelas simples: XHTML; tabelas largas: blocos verticais rotulados
+sem perda de dados. Converter Mermaid em figuras locais legíveis,
+preferindo PNG com contraste alto como compatibilidade inicial;
+SVG apenas com teste no leitor de destino. Acrescentar alt e
+transcrição das relações dos diagramas, quando pertinente.
+Links internos entre capítulos e headings devem continuar navegáveis.
+Não depender de Internet, JavaScript ou fontes externas.
+
+5. PIPELINE E GARANTIA DE QUALIDADE
+Criar/usar script de conversão reproduzível e reutilizável por matéria,
+concurso, escopo e SHA. Em atualizações, reaproveitar trabalho com hashes.
+Não alterar os artigos canônicos nem inserir dados privados.
+Conferir:
+- número de capítulos igual ao escopo real do catálogo;
+- número de questões na fonte = número de questões no EPUB;
+- cada questão com uma nota correspondente e gabarito correto;
+- IDs únicos; cada noteref com destino válido e volta funcional;
+- sumário, OPF, XHTML, links internos, fontes, tabelas e imagens;
+- EPUBCheck sem falhas, ou relatar cada limitação;
+- abertura em leitor EPUB e Kindle Previewer quando disponíveis;
+- em questão inicial, intermediária e final, testar pop-up/alternativa
+  de navegação, resposta completa e retorno, incluindo notas longas.
+
+Registrar exatamente que ambiente/modelo/versão foi testado.
+Não confundir validade EPUB com confirmação de pop-up no Kindle.
+
+6. ENTREGA E ESTADO
+Entregar o EPUB binário real (não só código ou instruções), relatório
+de inventário de capítulos, total de questões/notas, diagramas/tabelas,
+SHA de origem, validações, comportamento Kindle observado, falhas e
+caminho do pipeline para reutilização.
+Nome sugerido: [materia]-[concurso]-[sha-curto].epub.
+Não enviar ao Kindle nem publicar binários no GitHub sem pedido.
+Se uma ferramenta não estiver disponível, registrar a limitação e
+entregar o máximo que foi efetivamente produzido.
 ~~~
 
 ## Próxima melhoria possível

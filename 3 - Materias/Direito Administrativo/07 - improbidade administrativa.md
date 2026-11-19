@@ -30,7 +30,9 @@ O art. 1º, § 2º, exige **vontade livre e consciente de alcançar resultado il
 
 **Culpa** é descuido, imprudência ou imperícia. Ela não basta para as hipóteses atuais de improbidade. Mesmo a prática voluntária de ato que se revele ilegal não comprova, isoladamente, o dolo necessário.
 
-O art. 1º, § 8º, protege certas escolhas feitas com base em **interpretação da lei amparada por jurisprudência qualificada**. Nas ADIs 7.156 e 7.236, julgadas em 2026, o STF restringiu a proteção a entendimento dos tribunais superiores ou, na sua ausência, decisão de mérito colegiada de segundo grau transitada em julgado, sem servir de escudo para dolo, fraude ou erro grosseiro. **Erro grosseiro, por si só, não dispensa o dolo exigido para tipificar improbidade.**
+**Jurisprudência qualificada** é um entendimento judicial que possui a força exigida pelo regime jurídico aplicável, e não qualquer decisão isolada encontrada em uma pesquisa. O art. 1º, § 8º, trata da proteção de escolhas administrativas baseadas em interpretação jurídica amparada por esse tipo de entendimento.
+
+Nas **Ações Diretas de Inconstitucionalidade (ADIs) 7.156 e 7.236**, julgadas em 2026, o Supremo Tribunal Federal (STF) delimitou essa proteção: ela exige entendimento dos tribunais superiores ou, na ausência dele, decisão de mérito colegiada de segundo grau transitada em julgado. Essa proteção não serve para justificar dolo, fraude ou erro grosseiro. **Mesmo diante de erro grosseiro, a configuração de improbidade continua exigindo o dolo previsto em lei.**
 
 **Caso:** um gestor segue interpretação respaldada por precedente judicial qualificado, posteriormente superado. A mudança de entendimento não prova, por si, que houve improbidade quando ele agiu.
 

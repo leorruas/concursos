@@ -276,7 +276,15 @@ function showRetests(){
    if(x.insecure)parts.push(x.insecure+' acerto(s) inseguros');
    left.append(el('small','',parts.join(' · ')+' · '+x.questions+' questão(ões) repetida(s) em dias diferentes'));
    const a=el('a','results-link','Abrir artigo');a.href=articleLink(x,x.section);a.rel='noreferrer';
-   row.append(left,a);group.append(row);
+   row.append(left,a);
+   if(x.pendingQuestionIds?.length){
+    const ids=[...new Set(x.pendingQuestionIds)].slice(0,6);
+    const params=new URLSearchParams({concurso:select.value,questoes:ids.join(',')});
+    const retry=el('a','results-link','Retestar '+ids.length+' questão(ões)');
+    retry.href='questoes.html#'+params.toString();
+    row.append(retry);
+   }
+   group.append(row);
   }
   target.append(group);
  }

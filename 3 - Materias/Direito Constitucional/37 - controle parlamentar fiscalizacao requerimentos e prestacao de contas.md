@@ -12,7 +12,7 @@ updated: 2026-11-11
 
 **Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-033 conforme arquitetura e inventário editorial.**
 
-O controle parlamentar constitui o exercício concreto da **função fiscalizadora** do Poder Legislativo, inerente ao princípio da separação de Poderes e ao sistema de freios e contrapesos (*checks and balances*). Na ordem constitucional republicana, legislar e fiscalizar ostentam igual hierarquia axiológica e funcional: a legitimidade democrática conferida pelo voto representativo exige a vigilância permanente sobre a gestão dos recursos públicos, a moralidade administrativa e o cumprimento estrito da lei pela Administração Pública.
+O Congresso Nacional exerce **controle parlamentar** quando acompanha e fiscaliza a atuação do Poder Executivo e o uso dos recursos públicos. Por exemplo, pode solicitar informações a autoridades, examinar as contas presidenciais e, nas hipóteses constitucionais, sustar atos normativos que ultrapassem o poder regulamentar. Cada instrumento tem uma autoridade competente, um procedimento e um efeito próprios.
 
 A fiscalização legislativa abrange três grandes dimensões:
 1. **Controle político institucional**: convocação de autoridades, pedidos de informação por escrito, sustação de atos normativos exorbitantes do Executivo e aprovação de atos complexos;

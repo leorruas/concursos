@@ -209,4 +209,3 @@ Apresentar o **art. 47** como regra de deliberação, distinguir **presença e a
 - [Portal oficial: Regimento Interno atualizado até Resolução nº 34/2026](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados).
 - [Guia da Câmara: Votação, quóruns, modos de votação e apreciação plenária](https://www2.camara.leg.br/comunicacao/assessoria-de-imprensa/guia-para-jornalistas/votacao).
 
-**Limites editoriais:** este texto descreve o regime normativo geral da Câmara e exceções identificadas, não transfere as mesmas regras para sessão conjunta do Congresso, assembleias estaduais ou ritos especiais. As questões são **inéditas e didáticas**, não itens extraídos da Cebraspe. A preparação editorial não registra estudo pessoal, retenção ou desempenho.

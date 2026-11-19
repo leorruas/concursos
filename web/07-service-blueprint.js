@@ -50,8 +50,9 @@ function montar(table){
  const data=[...table.querySelectorAll("tr")].map(r=>[...r.children].map(c=>c.textContent.trim()));
  const fasesLocais=data[0]?.slice(1,7).map((name,i)=>String(name).replace(/^\d+[. ]+/, "")||fases[i])||fases;
  if(data.length<10||!data[0]?.[0]||!/camadas\s*\/\s*fases/i.test(data[0][0]))return false;
- const normalized=data.slice(0,10).map(r=>[...r,...Array(Math.max(0,7-r.length)).fill("")].slice(0,7));
+ const normalized=data.map(r=>[...r,...Array(Math.max(0,7-r.length)).fill("")].slice(0,7));
  data.splice(0,data.length,...normalized);
+ const quorumRows=data.length>=12 && /qu[oó]rum/i.test(data[10]?.[0]||"") && /qu[oó]rum/i.test(data[11]?.[0]||"");
  const card=element("section","sb"),nav=element("nav","sb-nav"),bar=element("div","sb-control"),canvas=element("div","sb-canvas");
  card.setAttribute("aria-label","Mapa do processo legislativo por fases e atores");
  nav.setAttribute("aria-label","Selecionar fase");
@@ -63,11 +64,15 @@ function montar(table){
  card.append(canvas,status);
  function draw(){
    const phaseIds=all?[0,1,2,3,4,5]:[current],pw=all?285:550,labelWidth=all?155:182,cellWidth=all?245:490;
-   const rowYs=[72,174,276,378,480,582],height=735,width=labelWidth+phaseIds.length*pw+24;
+   const height=quorumRows?940:735,width=labelWidth+phaseIds.length*pw+24;
    const svg=svgNode("svg",{viewBox:"0 0 "+width+" "+height,width:width,height:height,role:"img","aria-label":all?"Blueprint completo de seis fases":"Blueprint da fase "+fasesLocais[current],class:"sb-map"});
    svg.append(svgNode("title",{},all?"Mapa das seis fases":"Mapa da fase "+fasesLocais[current]));
    svg.append(svgNode("rect",{x:0,y:0,width,height,fill:"var(--bg)"}));
    const layers=[{source:1,label:"Evidências",y:84},{source:2,label:"Proponente",y:184},{source:4,label:"Atores públicos",y:288},{source:6,label:"Bastidores",y:390},{source:8,label:"Suporte",y:490},{source:9,label:"Prazos e marcos",y:592}];
+   if(quorumRows) layers.push(
+     {source:10,label:"Quórum: presença",y:694},
+     {source:11,label:"Quórum: aprovação",y:796}
+   );
    const lines=[{y:271,label:"Linha de interação"},{y:374,label:"Linha de visibilidade"},{y:475,label:"Linha interna"}];
    for(const item of layers){
      svg.append(svgNode("rect",{x:0,y:item.y-13,width,height:92,class:"layer-bg"}));

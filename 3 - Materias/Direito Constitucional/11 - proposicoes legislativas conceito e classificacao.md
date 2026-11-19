@@ -131,7 +131,7 @@ O **art. 118, § 1º**, distingue cinco tipos: **supressiva**, que retira parte 
 
 A regra do **art. 128** exige parecer escrito antes de discussão e votação, **salvas exceções regimentais**, inclusive quando se admite **parecer verbal**. O **art. 129, § 1º**, permite **dispensa do relatório** no parecer a emenda. Portanto, “todo parecer escrito sempre possui necessariamente as três partes” é generalização com exceção.
 
-A apreciação **conclusiva de projetos de lei** por comissão, quando cabível, pertence a um plano de competência decisória (CF art. 58, § 2º, I; RICD art. 24, II), distinto da simples existência de um parecer. Para decisões, votos, substitutos e recursos, preservar a nota canônica [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]], sem reproduzir suas classificações.
+A apreciação **conclusiva de projetos de lei** por comissão, quando cabível, pertence a um plano de competência decisória (CF art. 58, § 2º, I; RICD art. 24, II), distinto da simples existência de um parecer. Para aprofundar decisões, votos, substitutivos e recursos, consulte [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]].
 
 ### Proposta de fiscalização e controle
 
@@ -289,9 +289,6 @@ A **legislação de 2026 é um elemento relevante**: o [RICD consolidado até a 
 - [[3 - Materias/Direito Constitucional/06 - poder legislativo|Poder Legislativo]]: estrutura do Congresso, competência da Câmara e do Senado.
 - [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|Rito orçamentário]]: distinção do procedimento comum e sessão conjunta.
 - [[3 - Materias/Orcamento Publico/15 - emendas parlamentares deliberacao e rastreabilidade|Emendas orçamentárias]]: a categoria “emenda” em um procedimento com regras específicas.
-- **CAM-PL-002:** iniciativa: legitimados e limites constitucionais.
-- **CAM-PL-005:** parecer: estrutura e deliberação.
-- **CAM-PL-016:** indicação, requerimento, recurso e outras matérias, aprofundadas por tipo.
 
 ## Tensões e pegadinhas
 

@@ -253,7 +253,7 @@ Uma auditoria do TCU identifica indícios robustos de superfaturamento em contra
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** O RICD disciplina a PFC (arts. 60 e 61) e a Constituição Federal, no art. 71, IV, estabelece expressamente a competência do TCU para *"realizar, por iniciativa da Câmara dos Deputados, do Senado Federal, de Comissão técnica ou de inquérito, inspeções e auditorias de natureza contábil, financeira, orçamentária, operacional e patrimonial"*. O TCU atua como órgão auxiliar e técnico do Congresso, não podendo se recusar a executar a fiscalização requerida pela Casa ou comissão competente.
+**Comentário:** O RICD disciplina a PFC (arts. 60 e 61) e a Constituição Federal, no art. 71, IV, estabelece expressamente a competência do TCU para *"realizar, por iniciativa da Câmara dos Deputados, do Senado Federal, de Comissão técnica ou de inquérito, inspeções e auditorias de natureza contábil, financeira, orçamentária, operacional e patrimonial"*. O TCU exerce o controle externo como órgão de auxílio técnico ao Congresso. A requisição de inspeções e auditorias por Casa ou comissão habilitada encontra fundamento no art. 71, IV, da Constituição e deve respeitar a competência e o procedimento aplicáveis; não se confunde com uma ordem para produzir resultado previamente determinado.
 
 ---
 

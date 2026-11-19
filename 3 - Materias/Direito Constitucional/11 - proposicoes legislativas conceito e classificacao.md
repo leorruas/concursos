@@ -79,7 +79,7 @@ O **art. 108 do RICD** descreve a função legislativa da Câmara por meio de **
 
 Aprovação de um **projeto de resolução** não deve ser tratada como se exigisse, sempre, a sanção presidencial típica de um projeto de lei. E **proposta de emenda constitucional** não se converte em **projeto de lei ordinária** apenas por conter dispositivos escritos em artigos.
 
-**Projeto × norma:** um projeto em tramitação ainda pode ser emendado, rejeitado ou arquivado. A norma final pressupõe o procedimento constitucional aplicável à espécie. Para PEC, a promulgação se dá pelas Mesas da Câmara e do Senado, sem sanção ou veto do presidente; para lei ordinária, o procedimento é outro. Mais adiante, as unidades CAM-PL-011 a 015 aprofundarão essas modalidades.
+**Projeto × norma:** um projeto em tramitação ainda pode ser emendado, rejeitado ou arquivado. A norma final pressupõe o procedimento constitucional aplicável à espécie. Para PEC, a promulgação se dá pelas Mesas da Câmara e do Senado, sem sanção ou veto do presidente; para lei ordinária, o procedimento é outro. As regras específicas de cada espécie devem ser conferidas antes de atribuir a um projeto o efeito de norma em vigor.
 
 ### Indicação: sugestão e iniciativa exclusiva
 

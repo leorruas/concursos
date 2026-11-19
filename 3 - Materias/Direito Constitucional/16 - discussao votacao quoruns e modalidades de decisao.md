@@ -27,7 +27,7 @@ O ponto de partida é o **art. 47 da Constituição Federal** e o **art. 183 do 
 
 A **forma de registrar o voto** é uma terceira pergunta: votação **simbólica**, **nominal** ou **secreta**, nas hipóteses do Regimento. Modalidade de votação **não é sinônimo** de quórum de aprovação.
 
-A unidade **CAM-PL-006** do concurso da **Câmara dos Deputados, Cebraspe**, detalha o **RICD, arts. 165 a 200**, e o quadro constitucional de deliberação. As notas [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] e [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]] oferecem o contexto, mas não substituem o regime de discussão e votação do **Plenário**.
+Esta nota explica a discussão e a votação no Plenário da Câmara, com base nos **arts. 165 a 200 do Regimento Interno** e nos quóruns previstos na Constituição. As notas [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] e [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]] oferecem o contexto, mas não substituem o regime de discussão e votação do **Plenário**.
 
 ## Os três números: presença, aprovação e modalidade
 
@@ -98,7 +98,7 @@ Na composição de 513 deputados, os percentuais regimentais produzem os seguint
 
 O requerimento de quebra do interstício de uma hora é **oral**, após a proclamação do resultado simbólico, e deve ser votado **obrigatoriamente por processo simbólico**, sem encaminhamento nem orientação de bancada (art. 185, §§ 6º e 7º). **O pedido de nova verificação e a votação nominal que pode ocorrer depois são atos diferentes.** Um item pode trocar esses dois momentos para produzir um distrator plausível.
 
-**Presença × percentual de apoiamento:** obter 31 apoiadores de um pedido de verificação **não garante** o quórum de **257 presentes** para deliberação sobre uma proposição ordinária; os percentuais se referem a procedimentos distintos.
+**Presença × percentual de apoiamento:** imagine que **31 deputados** apoiem a verificação do resultado simbólico. Esse apoio cumpre o percentual de **6%** do art. 185, § 3º, mas **não substitui os 257 presentes** exigidos, em regra, para deliberar. Uma coisa é o número de apoiadores necessário para contestar o resultado; outra é o número de deputados presentes para a votação da matéria.
 
 ## Ordem da votação, substitutivo, emendas e destaques
 

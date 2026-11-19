@@ -14,7 +14,7 @@ updated: 2026-11-11
 
 ## Núcleo do conceito: a função fiscalizatória por excelência do Parlamento
 
-No Estado Democrático de Direito estruturado sob a separação e harmonia entre os Poderes (CF, art. 2º), o Poder Legislativo não possui apenas a função típica de legislar (inovar na ordem jurídica mediante espécies normativas), mas ostenta de modo indissociável a função precípua de **fiscalizar e controlar** os atos do Poder Executivo, da Administração Pública e a aplicação dos recursos do povo (CF, arts. 70 a 74).
+Além de elaborar leis, o Congresso fiscaliza a atuação do governo e o uso de recursos públicos (Constituição Federal, arts. 70 a 74). Se surgirem indícios de irregularidade em um contrato público, parlamentares podem propor uma Comissão Parlamentar de Inquérito (CPI) para investigar fatos determinados. A criação da comissão depende de requisitos próprios e não significa que alguém já tenha sido considerado culpado.
 
 Para dotar o Parlamento de instrumentos de eficácia real diante de desvios, lesões ao erário e abusos de autoridade, a Constituição da República instituiu, em seu **artigo 58, § 3º**, as **Comissões Parlamentares de Inquérito (CPIs)**, aplicáveis no âmbito da Câmara dos Deputados, do Senado Federal ou em sessão conjunta como **Comissão Parlamentar Mista de Inquérito (CPMI)**:
 

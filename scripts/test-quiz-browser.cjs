@@ -74,7 +74,11 @@ fs.mkdirSync(evidence,{recursive:true});
       priority:'high',quantity:0,questionIds:[],articles:[],nextReview:'2026-11-15'
      })),{concursoId:'camara-2026',subjectId:proposed.subjectId,principleId:'teste',title:'Regra em revisão',
       rationale:['Reteste vencido.'],action:'test-retention',priority:'high',quantity:1,questionIds:[proposed.id],
-      articles:[],nextReview:'2026-11-15'}],
+      articles:[],nextReview:'2026-11-15'},
+      {concursoId:'camara-2026',subjectId:meta.subjectId,principleId:'primeira-exposicao',title:'Conteúdo inicial',
+       rationale:['Unidade declarada como ainda não estudada.'],action:'study',priority:'low',
+       state:'confirmed-not-studied',quantity:0,questionIds:[],articles:['article:'+meta.articleId],
+       nextReview:null,selection:'Ler o recorte e praticar.'}],
      principles:[{state:'review-pending',title:'Regra em revisão',subjectId:proposed.subjectId,principleId:'teste',
       attempts:1,cycleAttemptId:'test-event',recentEvents:[{id:'test-event',date:'2026-11-11',
        result:'incorrect',confidence:'secure',origin:'ledger',daysSincePrevious:null,
@@ -124,7 +128,8 @@ fs.mkdirSync(evidence,{recursive:true});
    await discursive.focus();
    await page.keyboard.press('Enter');
    assert.ok(await page.locator('#results-discursive details details summary').first().isVisible());
-   assert.equal(await page.locator('#results-adaptive-actions li').count(),5);
+   assert.equal(await page.locator('#results-adaptive-actions li').count(),6);
+   assert.ok(await page.getByRole('heading',{name:'Estudar · Conteúdo inicial'}).isVisible());
    assert.ok(await page.getByText('Bateria disponível',{exact:true}).isVisible());
    const launch=page.getByRole('link',{name:'Preparar bateria de 1 questão(ões)'});
    await launch.focus();

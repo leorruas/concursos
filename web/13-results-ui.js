@@ -344,6 +344,9 @@ function renderAdaptive(plan) {
  const extra = activities.some(item => item.questionIds.length) ? null :
   ranked.slice(activities.length).find(item => item.questionIds.length);
  if (extra) activities.push(extra);
+ const firstStudy = ranked.find(item => item.state === 'confirmed-not-studied' && !activities.includes(item) &&
+  (item.articles.length || item.questionIds.length));
+ if (firstStudy && !activities.some(item => item.state === 'confirmed-not-studied')) activities.push(firstStudy);
  const list = el('ul');
  for (const item of activities) {
   const row = el('li');
@@ -351,7 +354,7 @@ function renderAdaptive(plan) {
   const label = /^[a-z0-9]+(?:-[a-z0-9]+)+$/.test(item.title) ? item.title.replaceAll('-', ' ') : item.title;
   if (item === extra) row.append(el('p', 'results-meta', 'Bateria disponível'));
   row.append(el('h3', '', action + ' · ' + label),
-   el('p', 'results-meta', title(item.subjectId) + ' · Prioridade ' + (item.priority === 'high' ? 'alta' : 'média')),
+   el('p', 'results-meta', title(item.subjectId) + ' · Prioridade ' + ({high:'alta',medium:'média',low:'baixa'}[item.priority] || 'sem classificação')),
    el('p', 'results-caption', item.rationale.join(' ')));
   if (item.questionIds.length) {
    const params = new URLSearchParams({ concurso: item.concursoId, questoes: item.questionIds.join(',') });
@@ -370,6 +373,7 @@ function renderAdaptive(plan) {
    line.append(link);
    row.append(line);
   }
+  if (item.state === 'confirmed-not-studied') row.append(el('p', 'results-meta', item.selection));
   if (item.nextReview) row.append(el('p', 'results-meta', 'Reteste previsto para ' + fmtDate(item.nextReview)));
   list.append(row);
  }

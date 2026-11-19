@@ -11,6 +11,29 @@ fs.mkdirSync(evidence,{recursive:true});
  try{
   for(const preset of [{name:'desktop',width:1280,height:780},{name:'mobile',width:390,height:844}]){
    const context=await browser.newContext({viewport:{width:preset.width,height:preset.height}});
+   // A home usa a cor do texto para titulos editoriais, mesmo em links visitados.
+   const home=await context.newPage();
+   await home.goto('http://127.0.0.1:8765/index.html',{waitUntil:'domcontentloaded',timeout:45000});
+   await home.locator('.disciplina-card').first().waitFor({state:'visible',timeout:25000});
+   for(const theme of ['dark','light']){
+    await home.evaluate(t=>document.documentElement.setAttribute('data-theme',t),theme);
+    const colors=await home.evaluate(()=>{
+     const text=getComputedStyle(document.documentElement).getPropertyValue('--text').trim();
+     const links=[...document.querySelectorAll('.home-flashcards-entry,.disciplina-card')];
+     return {text,colors:links.map(link=>({
+      link:getComputedStyle(link).color,
+      heading:getComputedStyle(link.querySelector('strong')).color
+     }))};
+    });
+    assert.ok(colors.colors.length>=5,'home deve ter ferramentas e materias');
+    const expected=await home.evaluate(()=>getComputedStyle(document.body).color);
+    for(const sample of colors.colors){
+     assert.equal(sample.link,expected,'link editorial acompanha cor do texto em '+theme);
+     assert.equal(sample.heading,expected,'titulo editorial acompanha cor do texto em '+theme);
+    }
+    await home.screenshot({path:path.join(evidence,preset.name+'-home-'+theme+'-links.png'),fullPage:true});
+   }
+   await home.close();
    const page=await context.newPage();
    const errors=[];
    page.on('pageerror',err=>errors.push(err.message));

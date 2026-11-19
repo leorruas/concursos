@@ -222,7 +222,7 @@ A banca Cebraspe possui padrões consolidados de formulação em Direito Constit
 > Conforme jurisprudência pacífica do Supremo Tribunal Federal, preenchidos os requisitos constitucionais para a criação de comissão parlamentar de inquérito na Câmara dos Deputados, a sua instalação consubstancia direito público subjetivo das minorias parlamentares, sendo vedado à Mesa Diretora submeter o requerimento à deliberação ou aprovação do Plenário da Casa.
 
 - **Gabarito: CERTO**
-- **Comentário:** Tese firmada pelo STF no histórico julgamento do MS 24.831 (e reafirmada no MS 26.441 e MS 37.760). A criação de CPI subscrita por um terço dos congressistas, com fato determinado e prazo certo, não depende de juízo de conveniência política do Presidente da Casa nem pode ser obstada pela maioria parlamentar por votação em Plenário, garantindo a efetividade da função fiscalizadora da oposição.
+- **Comentário:** Tese firmada pelo STF no histórico julgamento do MS 24.831 (e reafirmada no MS 26.441 e MS 37.760). A criação de CPI da Câmara subscrita por um terço **dos deputados**, com fato determinado e prazo certo, não depende de juízo de conveniência política do Presidente da Casa nem pode ser obstada pela maioria parlamentar por votação em Plenário, garantindo a efetividade da função fiscalizadora da oposição.
 
 ---
 

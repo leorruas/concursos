@@ -159,3 +159,24 @@ Transcrição dos registros de auditoria extraídos dos capítulos em 19/11/2026
 ## Controle documental residual de PL30, 11/11/2026
 
 **Controle editorial de 11/11/2026:** os **oito destinos únicos de links internos** desta nota foram encontrados nos caminhos correspondentes do repositório, inclusive as notas de Orçamento Público. Os dez itens C/E foram relidos e preservaram seus gabaritos; a verificação das referências e do escopo foi concluída nesta rodada, mas **a certificação normativa integral do DC30 ainda depende de fechamento próprio**. A matriz de emendas é aprofundamento da Resolução 1/2006-CN e não deve ser confundida com o recorte literal do RCCN.
+
+## PL30: matriz histórica dos dez gabaritos, migrada em 19/11/2026
+
+### Conferência dos dez gabaritos contra os artigos oficiais
+
+Esta matriz verifica **o conteúdo efetivamente afirmado em cada enunciado**, sem tratar os dez itens como cobertura de todos os dispositivos do RCCN e da Resolução 1/2006-CN. Referência: [RCCN republicado pela Câmara (consolidado até janeiro de 2023)](https://www2.camara.leg.br/legin/fed/rescon/1970-1979/resolucao-1-11-agosto-1970-497934-republicacaoatualizada-171822-pl.html), [Resolução 1/2006-CN com alterações](https://www2.camara.leg.br/legin/fed/rescon/2006/resolucao-1-22-dezembro-2006-548706-normaatualizada-pl.html) e [CF/1988 atualizada](https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-normaatualizada-pl.html).
+
+| Item | Gabarito confirmado | Dispositivo determinante |
+| :--- | :---: | :--- |
+| 1: número, expediente e questões de ordem | **C** | RCCN 53, parágrafo único; 54, parágrafo único; 56 |
+| 2: oradores na inauguração | **E** | RCCN 55, parágrafo único; 57–59 |
+| 3: comissões de recepção 5+5 e 3+3 | **C** | RCCN 60 e 68 |
+| 4: sanção após PEC | **E** | CF 60, §§ 2º–3º; RCCN 85 |
+| 5: vigência dos procedimentos revogados | **E** | RCCN 72–84 e 86–88, anotados como revogados |
+| 6: leitura do projeto orçamentário em 48 horas | **C** | RCCN 89 |
+| 7: parecer final das comissões permanentes | **E** | RCCN 90, § 3º, II–V; Res. 1/2006-CN, art. 2º |
+| 8: avulsos eletrônicos em cinco dias | **C** | RCCN 93 |
+| 9: aprovação tácita por falta de parecer | **E** | RCCN 100 |
+| 10: independência da Res. 1/2006-CN | **E** | Res. 1/2006-CN, art. 1º, parte integrante do RCCN |
+
+**Resultado editorial desta rodada:** **10/10 gabaritos conferidos quanto ao teor dos enunciados**; nenhum deles precisa ser invertido. Este resultado **não é certificação integral do DC30**, porque a matriz complementar sobre emendas e suas eventuais exceções anuais tem escopo mais amplo do que essas questões. A republicação oficial do RCCN aqui utilizada declara consolidação **até janeiro de 2023**; as referências posteriores e a Resolução 1/2006-CN atualizada devem ser verificadas separadamente. Não descrever uma consolidação de 2023 como atualização exaustiva de 2026.

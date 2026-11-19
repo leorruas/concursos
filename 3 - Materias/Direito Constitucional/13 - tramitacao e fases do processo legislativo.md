@@ -140,7 +140,7 @@ Pelo **art. 53 do RICD**, a análise das proposições, ressalvados requerimento
 
 **Sessões ≠ dias corridos.** Pelo portal oficial de contagem de prazos da Câmara, apenas uma sessão elegível conta por dia, e **sessões solenes e preparatórias** não contam para esse fim. Assim, **40 sessões** não são automaticamente **40 dias úteis**, nem significam um prazo fixo em calendário que encerra toda a tramitação, sobretudo quando há mais de uma comissão.
 
-### Matriz de prazos e competências que não podem ser confundidos (CAM-PL-008)
+### Matriz de prazos e competências que não podem ser confundidos
 
 As expressões **urgência**, **prazo constitucional**, **prazo regimental**, **sobrestamento** e **sessão conjunta** descrevem institutos diferentes. A pergunta decisiva é qual proposição está em exame, quem toma a decisão e de que evento começa a contagem.
 

@@ -35,7 +35,9 @@ O parágrafo único transforma esses valores em critérios práticos. São espec
 
 ## Início e impulsão do processo
 
-O art. 5º permite a instauração **de ofício**, por iniciativa da própria Administração, ou **a pedido do interessado**. O art. 6º normalmente exige requerimento escrito com identificação, órgão destinatário, endereço para comunicações, fatos, fundamentos, data e assinatura, ressalvados casos de solicitação oral admitida.
+Um processo administrativo pode começar de duas maneiras (art. 5º da Lei nº 9.784/1999). **De ofício** significa que a própria Administração inicia o processo, sem esperar um pedido. **A pedido do interessado** significa que alguém solicita uma providência. Por exemplo: o órgão pode iniciar a apuração de uma irregularidade por iniciativa própria; um servidor pode pedir a revisão de um ato que o afeta.
+
+Em regra, o requerimento é escrito e apresenta identificação, órgão a que se dirige, endereço para comunicações, fatos, fundamentos, data e assinatura (art. 6º). A lei admite solicitações orais nos casos previstos.
 
 O órgão não pode **recusar sem justificativa o recebimento de documentos** e deve orientar a correção de falhas no pedido. Pedidos com conteúdo e fundamentos idênticos de vários interessados podem ser apresentados juntos, salvo restrição legal (arts. 6º a 8º).
 

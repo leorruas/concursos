@@ -76,21 +76,9 @@ A tabela distingue **iniciativa** e **competência**: o Presidente pode apresent
 
 ## Iniciativa de leis ordinárias e complementares: art. 61, caput
 
-O art. 61 admite, nos termos constitucionais, iniciativa de leis ordinárias e complementares por:
+O **art. 61, caput, da Constituição Federal de 1988** admite iniciativa de leis ordinárias e complementares por parlamentares, comissões legislativas, Presidente da República, Supremo Tribunal Federal, tribunais superiores, Procurador-Geral da República e cidadãos, **na forma e nos casos previstos na Constituição**. A tabela comparativa anterior mostra o alcance dessa regra para cada sujeito, inclusive a Casa onde a tramitação começa. O **art. 109, § 1º, do Regimento Interno da Câmara dos Deputados, aprovado pela Resolução nº 17/1989**, organiza a apresentação dos projetos de lei na Câmara segundo esses titulares.
 
-| Titular | Observação decisiva |
-| :--- | :--- |
-| **Qualquer membro da Câmara dos Deputados** | Um deputado pode propor projeto individualmente, quando a matéria não for reservada a outro sujeito |
-| **Qualquer membro do Senado Federal** | Um senador pode iniciar projeto de sua competência, ordinariamente com tramitação inicial no Senado |
-| **Comissão da Câmara, do Senado ou do Congresso** | **Comissão** também pode iniciar projeto, e não apenas parlamentar individual |
-| **Presidente da República** | Tem iniciativa geral, além de reservas específicas |
-| **Supremo Tribunal Federal e Tribunais Superiores** | Iniciativa nos casos constitucionalmente previstos, inclusive assuntos de organização judiciária |
-| **Procurador-Geral da República** | Iniciativa nos casos constitucionais aplicáveis ao Ministério Público |
-| **Cidadãos** | Iniciativa popular federal, sujeita aos requisitos do art. 61, § 2º |
-
-A redação **“na forma e nos casos previstos nesta Constituição”** importa: **o rol dos legitimados não atribui competência irrestrita a cada integrante**. O **art. 109, § 1º, do Regimento Interno da Câmara** apresenta a correspondência para projetos de lei na Casa: deputados, comissões ou Mesa, Senado, presidente, STF, tribunais superiores, PGR e cidadãos.
-
-**Deputado individual × comissão:** ambos são possíveis sujeitos de iniciativa legislativa, mas os procedimentos de decisão interna e a apresentação são distintos. **Autor do projeto × relator:** o relator pode sugerir alterações ou parecer, mas ser designado relator não lhe transfere a titularidade da iniciativa constitucional exclusiva de outro órgão.
+**A diferença prática:** um deputado pode apresentar individualmente projeto sobre matéria de iniciativa geral; uma **comissão** atua como órgão colegiado, segundo seu procedimento interno; e o **relator** examina uma proposição já apresentada, sem receber por isso a iniciativa constitucional de outro Poder. A mesma pessoa pode exercer funções distintas no processo, mas a competência para **iniciar**, **relatar** e **aprovar** precisa ser identificada separadamente.
 
 ## Iniciativa privativa do presidente: art. 61, § 1º
 

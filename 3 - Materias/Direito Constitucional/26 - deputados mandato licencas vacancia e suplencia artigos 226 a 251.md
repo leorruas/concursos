@@ -10,7 +10,7 @@ updated: 2026-11-11
 
 # Deputados: mandato, imunidades, licenças, vacância e suplência (RICD, arts. 226 a 251)
 
-**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-022 conforme inventário editorial.**
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
 ## Núcleo do conceito: o que acontece com o mandato?
 

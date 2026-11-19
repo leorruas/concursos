@@ -175,7 +175,7 @@ Uma comissão parlamentar da Câmara dos Deputados aprova requerimento de convoc
 
 ### Caso 2: Requerimento de informação a Ministro e contagem de prazo
 A Mesa da Câmara encaminha pedido de informações sobre contratos de publicidade institucional a determinado Ministro de Estado. Transcorridos 35 dias sem qualquer resposta ou solicitação fundamentada de prorrogação, o Ministro argumenta que não cometeu infração porque o prazo de resposta do processo administrativo geral seria de 60 dias.
-*Análise:* A alegação é improcedente. O prazo constitucional do art. 50, § 2º é peremptório e expresso: **30 dias corridos**. O não atendimento ou recusa injustificada tipifica de pleno direito **crime de responsabilidade**, processável perante o STF (em crimes comuns) ou Senado Federal (se conexo com o Presidente da República - CF art. 52, I e II).
+*Análise:* A alegação é improcedente. O prazo constitucional do art. 50, § 2º é peremptório e expresso: **30 dias corridos**. A **recusa**, o **não atendimento no prazo de trinta dias** e a **prestação de informações falsas** têm a consequência expressa do **art. 50, § 2º: crime de responsabilidade**. A competência para processar e julgar o fato depende do regime constitucional aplicável à autoridade; não decorre da simples contagem dos trinta dias afirmar que será julgado como **crime comum**.
 
 ### Caso 3: Rejeição das contas presidenciais pelo TCU
 O TCU, ao analisar as contas do Presidente da República relativas ao exercício financeiro anterior, emite parecer prévio recomendando sua rejeição por descumprimento de metas fiscais. Diante disso, o Tribunal publica acórdão declarando as contas rejeitadas e aplicando multa pecuniária ao Presidente.
@@ -207,7 +207,7 @@ Uma auditoria do TCU identifica indícios robustos de superfaturamento em contra
 *( ) Errado*
 
 **Gabarito: Certo.**
-**Comentário:** É a redação exata e taxativa do art. 50, § 2º da Constituição Federal: *"A Mesa da Câmara dos Deputados e a do Senado Federal podem encaminhar pedidos escritos de informações a Ministros de Estado ou a qualquer das pessoas referidas no caput deste artigo, importando em crime de responsabilidade a recusa, ou o não - atendimento, no prazo de trinta dias, bem como a prestação de informações falsas"*.
+**Comentário:** O **art. 50, § 2º, da Constituição** permite às **Mesas** da Câmara e do Senado solicitar informações escritas às autoridades indicadas no caput. A **recusa**, a **falta de resposta em trinta dias** ou a **prestação de informação falsa** importam crime de responsabilidade. O item reproduz essas condições para um Ministro de Estado, por isso está correto.
 
 ---
 

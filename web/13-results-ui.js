@@ -499,14 +499,21 @@ function render(){
  const valid=summary.valid||0;
  $('results-stats').replaceChildren(
   stat('Questões respondidas',valid),
-  stat('Acertos',summary.correct??0),
-  stat('Erros',summary.incorrect??0),
   stat('Acerto observado',summary.accuracy===null?'Sem amostra':summary.accuracy+'%'),
   ...(current.adaptive ? [
-   stat('Erros seguros', current.adaptive.secureErrors),
-   stat('Acertos inseguros', current.adaptive.insecureCorrect),
-   stat('Revisões pendentes', current.adaptive.principles.filter(p => p.state === 'review-pending').length),
-   stat('Princípios com retenção observada', current.adaptive.principles.filter(p =>
+   stat('Revisões pendentes',current.adaptive.principles.filter(p => p.state === 'review-pending').length),
+   stat('Acertos inseguros',current.adaptive.insecureCorrect)
+  ] : [
+   stat('Acertos',summary.correct??0),stat('Erros',summary.incorrect??0)
+  ])
+ );
+ const details=$('results-detailed-stats');
+ if(details)details.replaceChildren(
+  stat('Acertos',summary.correct??0),
+  stat('Erros',summary.incorrect??0),
+  ...(current.adaptive ? [
+   stat('Erros seguros',current.adaptive.secureErrors),
+   stat('Princípios com retenção observada',current.adaptive.principles.filter(p =>
     p.signals.some(signal => signal.kind === 'independent')).length)
   ] : [])
  );

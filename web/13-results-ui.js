@@ -653,9 +653,9 @@ function render(){
  conceptRoot.append(conceptToolbar,list,footer);
  let shown=8;
  const renderConceptList=()=>{
-  const term=search.value.trim().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
+  const term=search.value.trim().normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
   const filtered=cs.filter(c=>!term||
-   (c.title+' '+title(c.subjectId)).normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().includes(term));
+   (c.title+' '+title(c.subjectId)).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(term));
   const total=filtered.length;
   const visible=filtered.slice(0,shown);
   const subjects=new Set(filtered.map(c=>c.subjectId).filter(Boolean)).size;

@@ -352,6 +352,8 @@ function renderAdaptive(plan) {
  }
  if (!enabled) return;
  const ranked = plan.recommendations.filter(item => !selectedSubject || item.subjectId === selectedSubject);
+ const activityCount=$('results-review-activity-count');
+ if(activityCount)activityCount.textContent=String(ranked.length);
  // O resumo exibe no maximo tres decisoes, sem ocultar a fila completa em Revisoes.
  // Priorizar uma atividade executavel na primeira posicao; a fila preserva prioridades originais.
  const extra = ranked.find(item => item.questionIds?.length) || null;
@@ -572,6 +574,11 @@ function render(){
  const concepts=current.concepts||[];
  const allArticles=(current.articles||[]).filter(x=>x.mistakes?.length||x.uncertainCorrect?.length);
  const activeArticles=allArticles.filter(x=>!selectedSubject||articleSubject(x,concepts)===selectedSubject);
+ const reviewContest=$('results-review-contest-name');
+ if(reviewContest)reviewContest.textContent='Revisões: '+select.options[select.selectedIndex].textContent+
+  (selectedSubject?' · '+title(selectedSubject):'');
+ const articleCount=$('results-review-article-count');
+ if(articleCount)articleCount.textContent=String(activeArticles.length);
  $('results-articles').replaceChildren(...(activeArticles.length?activeArticles.map(makeArticle):[el('p','results-caption','Sem artigos com erros ou insegurança para esta matéria.')]));
  const priority=$('results-quiz-priorities');
  const articleGroups=subjectGroups(activeArticles,a=>articleSubject(a,concepts));
@@ -639,6 +646,10 @@ function render(){
  if(!levels.length)difficultyRoot.append(el('p','results-caption','Ainda não existem tentativas classificadas para este concurso.'));
  const cs=(current.concepts||[]).filter(c=>c.errors||c.uncertain||c.dueOn)
   .filter(c=>!selectedSubject||c.subjectId===selectedSubject);
+ cs.sort((a,b)=>(Number(b.priority)||0)-(Number(a.priority)||0)||
+  (Number(b.errors)||0)-(Number(a.errors)||0));
+ const conceptCount=$('results-review-concept-count');
+ if(conceptCount)conceptCount.textContent=String(cs.length);
  const conceptRoot=$('results-concepts');
  conceptRoot.replaceChildren();
  const conceptToolbar=el('div','results-concepts-toolbar');

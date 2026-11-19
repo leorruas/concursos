@@ -121,7 +121,7 @@ A [Resolução nº 1/2006-CN no portal da CMO](https://www.congressonacional.leg
 
 ### Limite do recorte: Regimento Comum e legislação especial
 
-**Núcleo da unidade CAM-PL-026:** sessões solenes dos **arts. 53–71**, revogações e promulgação de PEC dos **arts. 72–85**, revogação dos **arts. 86–88** e leitura crítica dos **arts. 89–103** do Regimento Comum. Os dez itens C/E desta nota testam esse núcleo. Para as regras orçamentárias, o ponto central é reconhecer a competência da **CMO**, as contribuições temáticas, os prazos indicados no RCCN e a prevalência da **Resolução 1/2006-CN atualizada** nos aspectos em que ela contém disciplina específica.
+**Núcleo deste artigo:** sessões solenes dos **arts. 53–71**, revogações e promulgação de PEC dos **arts. 72–85**, revogação dos **arts. 86–88** e leitura crítica dos **arts. 89–103** do Regimento Comum. Os dez itens C/E desta nota testam esse núcleo. Para as regras orçamentárias, o ponto central é reconhecer a competência da **CMO**, as contribuições temáticas, os prazos indicados no RCCN e a prevalência da **Resolução 1/2006-CN atualizada** nos aspectos em que ela contém disciplina específica.
 
 **Aprofundamento complementar:** as matrizes abaixo, sobre espécies de emendas, limites por autor, atas, beneficiários, percentuais e condições de execução, documentam a legislação especial e ajudam a entender por que não se aplicam automaticamente as regras de 1970. Esses detalhes pertencem sobretudo às notas [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|tramitação das leis orçamentárias]] e [[3 - Materias/Orcamento Publico/05a - emendas parlamentares e orcamento impositivo|emendas parlamentares e orçamento impositivo]]. **Não atribuir a todos os números dessa matriz o mesmo peso do recorte literal dos arts. 53–103**, nem presumir que a lista abaixo esgota a Resolução 1/2006-CN.
 
@@ -179,7 +179,7 @@ A [consolidação da Resolução nº 1/2006-CN no portal do Congresso](https://w
 
 **Alcance da matriz:** os números acima foram confrontados com o texto atualizado divulgado pelo Congresso e com as [Resoluções 1/2025-CN](https://legis.senado.leg.br/norma/40435851/publicacao/40437557) e [2/2025-CN](https://legis.senado.leg.br/norma/41071372/publicacao/41074650). Tratam da **disciplina especial da CMO** e funcionam como contraste com os arts. 89–103 do RCCN. Não se trata de reproduzir o rito integral da LOA, LDO ou PPA. A condição de sanção da LOA de 2025 já se cumpriu em 10/04/2025; para casos ligados a exercícios posteriores, verificar alterações normativas subsequentes e as condições específicas de cada modalidade de emenda.
 
-A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|nota canônica de tramitação orçamentária]] aprofunda o ciclo da proposta até a deliberação e as condições do **art. 166 da CF**. Esta CAM-PL-026 cobre **os artigos indicados do RCCN e suas fronteiras de vigência**, sem duplicar todo o processo orçamentário.
+A [[3 - Materias/Orcamento Publico/13 - tramitacao legislativa das leis orcamentarias|nota canônica de tramitação orçamentária]] aprofunda o ciclo da proposta até a deliberação e as condições do **art. 166 da CF**. Este artigo cobre **os dispositivos indicados do Regimento Comum e suas fronteiras de vigência**, com remissão ao estudo específico do orçamento.
 
 ### Complementos ao núcleo do RCCN: arts. 90, 99, 102 e 103
 

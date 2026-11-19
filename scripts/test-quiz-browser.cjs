@@ -176,6 +176,9 @@ fs.mkdirSync(evidence,{recursive:true});
     return Math.abs(nav.left-views.left);
    });
    assert.ok(align<2,'navbar e painel devem ter a mesma margem esquerda');
+   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,
+    'sem rolagem horizontal na pagina Matérias');
+   await page.screenshot({path:path.join(evidence,preset.name+'-materias-redesign.png'),fullPage:true});
 
    await page.getByRole('link',{name:'Revisões',exact:true}).click();
    assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link para leitura prioritaria');

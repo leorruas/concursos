@@ -11,7 +11,7 @@ const DISPLAY={
  'orcamento-publico':'Orçamento Público','etica-publica':'Ética e decoro parlamentar','redacao':'Redação',
  'sem-materia':'Matéria não identificada'
 };
-let manifest=new Map(),current=null,subjectCatalog=null;
+let manifest=new Map(),current=null,subjectCatalog=null,discursiveProposals=[];
 let selectedSubject='',retests=null,coverageData=null,transferData=null,transferCombined=false;
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
@@ -309,6 +309,26 @@ function renderAdaptive(plan) {
  const enabled = plan?.version === 1;
  $('results-adaptive').hidden = !enabled;
  $('results-retention').hidden = !enabled;
+ const practice = $('results-discursive');
+ practice.replaceChildren();
+ if (enabled && (!selectedSubject || selectedSubject === 'redacao')) {
+  const details = el('details', 'results-revision-details');
+  details.append(el('summary', '', 'Treinar discursiva'));
+  details.append(el('p', 'results-caption', 'Propostas autorais em revisão. Escreva sem consulta e confira os quesitos após terminar.'));
+  if (!discursiveProposals.length) details.append(el('p', 'results-caption', 'Propostas indisponíveis.'));
+  for (const proposal of discursiveProposals) {
+   const exercise = el('details', 'results-revision-details');
+   exercise.append(el('summary', '', (proposal.tipo === 'peca-tecnica' ? 'Peça técnica' : 'Questão discursiva') + ' · ' + proposal.topic),
+    el('p', '', proposal.command), el('p', 'results-caption', 'Até ' + proposal.maxLines + ' linhas.'));
+   const check = el('details', 'results-revision-details');
+   const elements = el('ul');
+   for (const item of proposal.expectedElements) elements.append(el('li', '', item));
+   check.append(el('summary', '', 'Conferir quesitos'), elements);
+   exercise.append(check);
+   details.append(exercise);
+  }
+  practice.append(details);
+ }
  if (!enabled) return;
  const activities = plan.recommendations.filter(item => !selectedSubject || item.subjectId === selectedSubject).slice(0, 4);
  const list = el('ul');
@@ -366,6 +386,23 @@ function render(){
    stat('Revisões pendentes', current.adaptive.principles.filter(p => p.state === 'review-pending').length)
   ] : [])
  );
+ const competitive = $('results-competitive-simulations');
+ competitive.replaceChildren();
+ competitive.hidden = !Array.isArray(current.competitiveSimulations);
+ if (!competitive.hidden) {
+  competitive.append(el('h3', '', 'Pontuação líquida em simulados integrais'));
+  if (!current.competitiveSimulations.length) {
+   competitive.append(el('p', 'results-caption', 'Nenhum simulado objetivo completo registrado.'));
+  } else {
+   const list = el('ul');
+   for (const sample of current.competitiveSimulations) {
+    list.append(el('li', '', fmtDate(sample.date) + ' · ' + sample.total + ' pontos líquidos · P1 ' +
+     sample.P1 + ' · P2 ' + sample.P2 + ' · ' +
+     (sample.objectiveMinimumMet ? 'Atingiu os mínimos objetivos' : 'Abaixo de pelo menos um mínimo objetivo')));
+   }
+   competitive.append(list, el('p', 'results-caption', 'O saldo mede o desempenho nesta aplicação. A classificação e a correção da discursiva dependem das regras do concurso.'));
+  }
+ }
  const origins=$('results-quiz-stats');
  const origin=(label,n)=>{const x=el('span','results-origin-item');x.append(el('strong','',n??0),' '+label);return x;};
  origins.replaceChildren(origin('no ChatGPT',source.chat?.total),origin('no site',source.site?.total));
@@ -593,6 +630,16 @@ async function catalogLoad(){
   subjectCatalog=data?.schemaVersion&&Array.isArray(data.contests)?data:null;
  }catch{subjectCatalog=null;}
 }
+async function loadDiscursiveProposals() {
+ try {
+  const response = await fetch('/data/propostas-discursivas-camara.json');
+  if (!response.ok) return;
+  const data = await response.json();
+  if (data.concursoId === 'camara-2026' && Array.isArray(data.propostas)) discursiveProposals = data.propostas;
+ } catch {
+  discursiveProposals = [];
+ }
+}
 async function manifestLoad(){
  try{const r=await fetch('/manifest.json',{cache:'no-store'});if(!r.ok)throw Error('manifesto');const list=await r.json();if(Array.isArray(list))manifest=new Map(list.filter(a=>a.articleId).map(a=>[a.articleId,a]));}
  catch{manifest=new Map();}
@@ -654,5 +701,5 @@ $('results-logout').addEventListener('click',async()=>{
  try{await fetch('/v1/logout',{method:'POST',credentials:'same-origin',headers:{Origin:location.origin}});}catch{}
  current=null;root.hidden=true;status.textContent='Sessão encerrada neste navegador.';$('results-login').hidden=false;$('results-logout').hidden=true;
 });
-void Promise.all([manifestLoad(),catalogLoad()]).then(load);
+void Promise.all([manifestLoad(),catalogLoad(),loadDiscursiveProposals()]).then(load);
 })();

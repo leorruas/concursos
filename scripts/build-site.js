@@ -421,6 +421,13 @@ fs.writeFileSync(path.join(dataDest,'questoes-publicas.json'),JSON.stringify({
 }));
 console.log('✓ Banco de treino: '+questoesPublicas.length+' questões validadas da Câmara; outros concursos aguardam banco próprio.');
 
+const discursivas = JSON.parse(fs.readFileSync(path.join(rootDir, 'data/propostas-discursivas-camara.json'), 'utf8'));
+fs.writeFileSync(path.join(dataDest, 'propostas-discursivas-camara.json'), JSON.stringify({
+  concursoId: discursivas.concursoId,
+  propostas: discursivas.propostas.map(({id, tipo, topic, command, maxLines, expectedElements}) =>
+    ({id, tipo, topic, command, maxLines, expectedElements}))
+}));
+
 for (const item of manifesto) {
   const srcFile = path.join(rootDir, item.sourcePath);
   const destFile = path.join(outDir, item.sourcePath);

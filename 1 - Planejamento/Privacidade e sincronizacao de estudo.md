@@ -1,5 +1,17 @@
 # Privacidade dos dados de estudo e sincronização
 
+
+## Situação verificada em 19/11/2026
+
+**Repositório público, versão atual:** a árvore da branch `main` não contém as pastas `data/contexto-estudo/`, `data/sessoes/` nem `00 - Desempenho/`. A interface pública de flashcards deixa a sincronização dependente de uma origem autenticada e não consulta o JSON de prioridades via GitHub Raw. O teste `scripts/test-public-privacy.js` também inspeciona os módulos JavaScript públicos para impedir que uma edição futura restabeleça essa leitura indevida. O workflow Pages da alteração do teste concluiu com sucesso: [44576822422](https://github.com/leorruas/concursos/actions/runs/44576822422).
+
+**Cofre privado:** o repositório `leorruas/concurso-dados` segue privado, com registros de sessões e contexto na árvore atual. As execuções recentes do backend de prioridades e do smoke HTTP autenticado concluíram com sucesso em 19/11/2026. Esses testes indicam funcionamento dos controles automatizados, mas não substituem uma verificação pessoal da sincronização ponta a ponta com a sessão do titular.
+
+**Risco residual:** a reescrita histórica da branch `main` e a realocação dos dados não garantem que referências internas `refs/pull/*`, caches do GitHub, forks ou clones antigos tenham deixado de tornar versões anteriores acessíveis. O registro anterior identificou nove refs de PR, e não há comprovação nova de sua eliminação pelo GitHub Support. Esta questão **permanece aberta**. Não reescrever novamente a história, descartar cópias de segurança ou afirmar privacidade histórica total sem inventário, autorização e confirmação das refs e caches pertinentes.
+
+**Próxima condição de encerramento da issue #11:** obter comprovação da remoção/tratamento das referências históricas e caches pelo GitHub e validar a leitura autenticada das prioridades pelo titular. Preservar o modo offline e os dados locais.
+
+
 ## Diagnóstico verificado em 04/11/2026
 
 O repositório `leorruas/concursos` é público. O Pages publicava resultados pessoais via `data/provas.json`, erros por `data/erros-recorrentes.json` e páginas de `00 - Desempenho/`. O código da interface consulta `data/contexto-estudo/flashcards-prioridades.json` diretamente de `raw.githubusercontent.com`. Os documentos `data/sessoes/`, `data/contexto-estudo/`, `data/erros-recorrentes.json` e páginas de desempenho continuam legíveis no repositório público, independentemente da exclusão do Pages. O histórico Git também contém versões anteriores.

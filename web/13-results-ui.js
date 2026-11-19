@@ -11,7 +11,7 @@ const DISPLAY={
  'orcamento-publico':'Orçamento Público','etica-publica':'Ética e decoro parlamentar','redacao':'Redação',
  'sem-materia':'Matéria não identificada'
 };
-let manifest=new Map(),current=null,subjectCatalog=null;
+let manifest=new Map(),current=null,subjectCatalog=null,discursiveProposals=[];
 let selectedSubject='',retests=null,coverageData=null,transferData=null,transferCombined=false;
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=String(text);return x;};
 function fmtDate(s){if(!/^\d{4}-\d{2}-\d{2}$/.test(String(s||'')))return 'data não registrada';const [y,m,d]=s.split('-');return d+'/'+m+'/'+y;}
@@ -118,6 +118,25 @@ function articleReviewEvidence(article){
 function showEditalCoverage(){
  const target=$('results-edital-coverage');if(!target)return;
  target.replaceChildren();
+ const coverage = current?.adaptive?.coverage;
+ if (coverage?.units?.length) {
+  const units = coverage.units.filter(unit => !selectedSubject || unit.subjectId === selectedSubject);
+  target.append(el('p', 'results-caption', 'Referências do edital presentes no banco revisado. A cobertura indica onde há respostas registradas. A extensão total do edital exige conferência adicional.'));
+  for (const unit of units) {
+   const details = el('details', 'results-revision-details');
+   const covered = unit.items.filter(item => item.attempts > 0).length;
+   details.append(el('summary', '', unit.title + (unit.items.length ? ' · ' + covered + ' de ' +
+    unit.items.length + ' referências avaliadas' : ' · Sem referências detalhadas no banco')));
+   const list = el('ul');
+   for (const item of unit.items) list.append(el('li', '', item.editalRef + ' · ' +
+    (item.attempts ? item.attempts + ' resposta(s)' : 'Avaliação sem registro')));
+   if (unit.items.length) details.append(list);
+   target.append(details);
+  }
+  if (!selectedSubject && coverage.unmapped) target.append(el('p', 'results-caption',
+   coverage.unmapped + ' tentativa(s) sem correspondência exata com uma referência detalhada do catálogo.'));
+  return;
+ }
  if(!subjectCatalog||!current){target.append(el('p','results-caption','Catálogo de matérias indisponível.'));return;}
  const rows=window.ResultsStudyPlan.catalogCoverage(subjectCatalog,current.concursoId,current.bySubject||[])
   .filter(s=>!selectedSubject||s.subjectId===selectedSubject);
@@ -282,16 +301,108 @@ function priorityLabel(score){
  return label;
 }
 function stat(label,value){const box=el('div','results-stat');box.append(el('span','results-caption',label),el('strong','',value));return box;}
+const adaptiveActions = {
+ study: 'Estudar', practice: 'Praticar', contrast: 'Contrastar',
+ 'test-retention': 'Testar retenção', review: 'Revisar'
+};
+function renderAdaptive(plan) {
+ const enabled = plan?.version === 1;
+ $('results-adaptive').hidden = !enabled;
+ $('results-retention').hidden = !enabled;
+ const practice = $('results-discursive');
+ practice.replaceChildren();
+ if (enabled && (!selectedSubject || selectedSubject === 'redacao')) {
+  const details = el('details', 'results-revision-details');
+  details.append(el('summary', '', 'Treinar discursiva'));
+  details.append(el('p', 'results-caption', 'Propostas autorais em revisão. Escreva sem consulta e confira os quesitos após terminar.'));
+  if (!discursiveProposals.length) details.append(el('p', 'results-caption', 'Propostas indisponíveis.'));
+  for (const proposal of discursiveProposals) {
+   const exercise = el('details', 'results-revision-details');
+   exercise.append(el('summary', '', (proposal.tipo === 'peca-tecnica' ? 'Peça técnica' : 'Questão discursiva') + ' · ' + proposal.topic),
+    el('p', '', proposal.command), el('p', 'results-caption', 'Até ' + proposal.maxLines + ' linhas.'));
+   const check = el('details', 'results-revision-details');
+   const elements = el('ul');
+   for (const item of proposal.expectedElements) elements.append(el('li', '', item));
+   check.append(el('summary', '', 'Conferir quesitos'), elements);
+   exercise.append(check);
+   details.append(exercise);
+  }
+  practice.append(details);
+ }
+ if (!enabled) return;
+ const activities = plan.recommendations.filter(item => !selectedSubject || item.subjectId === selectedSubject).slice(0, 4);
+ const list = el('ul');
+ for (const item of activities) {
+  const row = el('li');
+  const action = adaptiveActions[item.action] || 'Revisar';
+  row.append(el('h3', '', action + ' · ' + item.title),
+   el('p', 'results-meta', title(item.subjectId) + ' · Prioridade ' + (item.priority === 'high' ? 'alta' : 'média')),
+   el('p', 'results-caption', item.rationale.join(' ')));
+  if (item.questionIds.length) {
+   const params = new URLSearchParams({ concurso: item.concursoId, questoes: item.questionIds.join(',') });
+   const link = el('a', '', 'Preparar bateria de ' + item.quantity + ' questão(ões)');
+   link.href = 'questoes.html#' + params.toString();
+   row.append(link);
+  } else {
+   row.append(el('p', 'results-caption', 'Sem questões novas compatíveis no banco atual.'));
+  }
+  const ref = item.articles.map(value => /^article:(art-[a-z0-9]+)(?:#(.*))?$/i.exec(value))
+   .find(match => match && manifest.has(match[1]));
+  if (ref) {
+   const link = el('a', '', 'Abrir material de estudo');
+   link.href = articleLink({articleId: ref[1]}, ref[2]);
+   const line = el('p');
+   line.append(link);
+   row.append(line);
+  }
+  if (item.nextReview) row.append(el('p', 'results-meta', 'Reteste previsto para ' + fmtDate(item.nextReview)));
+  list.append(row);
+ }
+ $('results-adaptive-actions').replaceChildren(activities.length ? list :
+  el('p', 'results-caption', 'Nenhuma atividade prioritária com os registros atuais.'));
+ const signals = plan.principles.flatMap(item => item.signals.filter(signal => signal.elapsed)
+  .map(signal => ({ ...signal, title: item.title }))).sort((a,b) => b.date.localeCompare(a.date));
+ const progress = el('ul');
+ for (const signal of signals.slice(0, 6)) {
+  progress.append(el('li', '', signal.title + ' · Acerto seguro após ' + signal.elapsed +
+   ' dias. ' + (signal.kind === 'independent' ? 'Teste independente.' : 'Consulta sem registro.')));
+ }
+ $('results-retention-signals').replaceChildren(signals.length ? progress :
+  el('p', 'results-caption', 'Ainda há pouca evidência de recuperação após um intervalo.'));
+}
 function render(){
  if(!current)return;
+ renderAdaptive(current.adaptive);
  const summary=current.summary||{},source=current.sources||{};
  const valid=summary.valid||0;
  $('results-stats').replaceChildren(
   stat('Questões respondidas',valid),
   stat('Acertos',summary.correct??0),
   stat('Erros',summary.incorrect??0),
-  stat('Acerto observado',summary.accuracy===null?'Sem amostra':summary.accuracy+'%')
+  stat('Acerto observado',summary.accuracy===null?'Sem amostra':summary.accuracy+'%'),
+  ...(current.adaptive ? [
+   stat('Erros seguros', current.adaptive.secureErrors),
+   stat('Acertos inseguros', current.adaptive.insecureCorrect),
+   stat('Revisões pendentes', current.adaptive.principles.filter(p => p.state === 'review-pending').length)
+  ] : [])
  );
+ const competitive = $('results-competitive-simulations');
+ competitive.replaceChildren();
+ competitive.hidden = !Array.isArray(current.competitiveSimulations);
+ if (!competitive.hidden) {
+  competitive.append(el('h3', '', 'Pontuação líquida em simulados integrais'));
+  if (!current.competitiveSimulations.length) {
+   competitive.append(el('p', 'results-caption', 'Nenhum simulado objetivo completo registrado.'));
+  } else {
+   const list = el('ul');
+   for (const sample of current.competitiveSimulations) {
+    list.append(el('li', '', fmtDate(sample.date) + ' · ' + sample.total + ' pontos líquidos · P1 ' +
+     sample.P1 + ' · P2 ' + sample.P2 + ' · ' +
+     (sample.objectiveMinimumMet ? 'Atingiu os mínimos objetivos' : 'Abaixo de pelo menos um mínimo objetivo')));
+   }
+   competitive.append(list, el('p', 'results-caption', 'O saldo mede o desempenho nesta aplicação. A classificação e a correção da discursiva dependem das regras do concurso.'));
+  }
+ }
  const origins=$('results-quiz-stats');
  const origin=(label,n)=>{const x=el('span','results-origin-item');x.append(el('strong','',n??0),' '+label);return x;};
  origins.replaceChildren(origin('no ChatGPT',source.chat?.total),origin('no site',source.site?.total));
@@ -519,6 +630,16 @@ async function catalogLoad(){
   subjectCatalog=data?.schemaVersion&&Array.isArray(data.contests)?data:null;
  }catch{subjectCatalog=null;}
 }
+async function loadDiscursiveProposals() {
+ try {
+  const response = await fetch('/data/propostas-discursivas-camara.json');
+  if (!response.ok) return;
+  const data = await response.json();
+  if (data.concursoId === 'camara-2026' && Array.isArray(data.propostas)) discursiveProposals = data.propostas;
+ } catch {
+  discursiveProposals = [];
+ }
+}
 async function manifestLoad(){
  try{const r=await fetch('/manifest.json',{cache:'no-store'});if(!r.ok)throw Error('manifesto');const list=await r.json();if(Array.isArray(list))manifest=new Map(list.filter(a=>a.articleId).map(a=>[a.articleId,a]));}
  catch{manifest=new Map();}
@@ -580,5 +701,5 @@ $('results-logout').addEventListener('click',async()=>{
  try{await fetch('/v1/logout',{method:'POST',credentials:'same-origin',headers:{Origin:location.origin}});}catch{}
  current=null;root.hidden=true;status.textContent='Sessão encerrada neste navegador.';$('results-login').hidden=false;$('results-logout').hidden=true;
 });
-void Promise.all([manifestLoad(),catalogLoad()]).then(load);
+void Promise.all([manifestLoad(),catalogLoad(),loadDiscursiveProposals()]).then(load);
 })();

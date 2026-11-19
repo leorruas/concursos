@@ -74,6 +74,9 @@ export function validateSession(s, filename, root, concursos) {
     if (s.concursoId === 'cgu-2026') assert(q.format === profile.questionFormat, `${s.id}: CGU 2026 exige itens Certo/Errado (CE), inclusive no legado por sessão`);
     const allowed = q.format === 'CE' ? ['C', 'E'] : ['A', 'B', 'C', 'D', 'E'];
     assert(allowed.includes(q.correctAnswer) && (q.userAnswer === null || allowed.includes(q.userAnswer)), `${s.id}: gabarito/resposta inválida`);
+    for (const field of ['consulted', 'feedbackBefore']) {
+      assert(q[field] == null || typeof q[field] === 'boolean', `${s.id}/Q${q.number}: ${field} deve ser booleano ou nulo`);
+    }
     assert(['secure', 'insecure', 'guess', 'unknown'].includes(q.confidence), `${s.id}: confiança inválida`);
     assert(['inedita', 'real', 'adaptada'].includes(q.origin), `${s.id}: origem inválida`);
     assertCamaraTiQuestionAllowed(root, s, q);

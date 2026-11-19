@@ -623,7 +623,7 @@ function render(){
  root.hidden=false;
  showEditalCoverage();showReviewQueue();showNextStudies();
  showRetests();showCoverage();showConceptTransfer();
- status.textContent='Histórico unificado carregado. Resultados e prioridades combinam as duas origens.';
+ status.textContent='Histórico privado atualizado.';
 }
 
 /* Recomendações de leitura das baterias do site, calculadas somente após autenticação. */

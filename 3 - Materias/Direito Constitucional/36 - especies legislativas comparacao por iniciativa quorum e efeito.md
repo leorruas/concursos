@@ -140,7 +140,7 @@ flowchart TD
 ```
 
 ### A distinção técnica: Maioria Relativa × Maioria Absoluta
-- **Maioria Simples (ou Relativa):** é a maioria dos votos dos presentes na sessão, desde que esteja presente a maioria absoluta dos membros da Casa (quórum de presença). Por exemplo, na Câmara (513 deputados), a sessão abre com 257 deputados; se estiverem presentes exatamente 300 deputados, a maioria simples será de **151 votos favoráveis**;
+- **Maioria Simples (ou Relativa):** é a **maioria dos votos computados para aprovação**, exigida a presença da maioria absoluta dos integrantes da Casa para a deliberação ordinária (CF, art. 47; RICD, art. 183). **Abstenções contam para o quórum de presença, mas não entram como votos favoráveis ou contrários** (RICD, art. 183, § 2º). Por exemplo: com **300 deputados presentes**, sendo **132 votos favoráveis, 110 contrários e 58 abstenções**, o projeto de lei ordinária sujeito à regra geral é aprovado por **132 a 110**. São necessários **257 presentes para deliberar**, em regra; esse valor **não é o quórum de abertura da sessão**, disciplinado separadamente pelo RICD, art. 79;
 - **Maioria Absoluta:** é o primeiro número inteiro imediatamente superior à metade da totalidade dos membros que integram a Casa legislativa, **independentemente do número de parlamentares presentes na sessão**. Na Câmara dos Deputados, a maioria absoluta é sempre e invariavelmente **257 votos** ($513 / 2 = 256,5 \rightarrow 257$). No Senado Federal, é sempre **41 votos** ($81 / 2 = 40,5 \rightarrow 41$).
 
 ## 4. O critério da Sanção e Veto Presidencial: o que vai e o que não vai ao Executivo

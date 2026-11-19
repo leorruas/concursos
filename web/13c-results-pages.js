@@ -45,7 +45,15 @@
  .results-edital-ref{font-size:13px;color:var(--text);line-height:1.45;overflow-wrap:anywhere}
  .results-edital-state{font-size:12px;color:var(--muted);line-height:1.45;text-align:right}
  .results-edital-state.has-results{color:var(--accent-blue)}
- .results-modes-heading{margin:0 0 14px}
+ .results-subjects-list{border-top:1px solid color-mix(in srgb,var(--text) 32%,transparent)}
+ .results-subject-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(185px,auto);gap:16px;padding:15px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 15%,transparent);align-items:start}
+ .results-subject-name{display:block;color:var(--text);font-weight:620;font-size:15px;line-height:1.4}
+ .results-subject-detail{display:block;color:var(--muted);font-size:12px;line-height:1.5;margin-top:5px}
+ .results-subject-figures{display:flex;flex-direction:column;align-items:flex-end;gap:3px;text-align:right;font-variant-numeric:tabular-nums}
+ .results-subject-total{color:var(--muted);font-size:12px}
+ .results-subject-percentage{color:var(--text);font-size:15px;font-weight:620}
+ .results-subject-recommendations{color:var(--muted);font-size:11px;line-height:1.4}
+  .results-modes-heading{margin:0 0 14px}
  .results-modes-heading h2{font-size:22px!important;letter-spacing:-.025em!important;text-transform:none!important;font-weight:620!important;margin:0 0 7px!important}
  .results-modes-list{border-top:1px solid color-mix(in srgb,var(--text) 32%,transparent)}
  .results-mode-row{display:grid;grid-template-columns:minmax(0,1fr) minmax(190px,auto);gap:12px;align-items:baseline;padding:12px 0;border-bottom:1px solid color-mix(in srgb,var(--text) 15%,transparent)}
@@ -113,6 +121,9 @@
   .results-edital-unit-heading{align-items:flex-start}
   .results-edital-unit-total{white-space:normal;text-align:right;min-width:92px}
   .results-mode-row{grid-template-columns:minmax(0,1fr) minmax(140px,auto)}
+  .results-subject-row{grid-template-columns:minmax(0,1fr) minmax(110px,auto);gap:10px}
+  .results-subject-percentage{font-size:14px}
+  .results-subject-recommendations{font-size:11px}
   .results-view-panel .results-study-action-row{grid-template-columns:minmax(0,1fr);gap:10px}
   .results-study-action-controls{align-items:flex-start;max-width:none}
   .results-study-action-controls>a{text-align:left}

@@ -36,6 +36,9 @@ Mapeamento de tópicos e organização das notas de Direito Constitucional para 
 
 ## Processo Legislativo e Regimentos: Câmara 2026
 
+- [[3 - Materias/Direito Constitucional/38 - blueprints do processo legislativo por especie normativa|38. Blueprints do processo legislativo por proposição]]: guia transversal com atores, fases, documentos, prazos, decisões e resultados para PL, PLP, PEC, MPV/PLV, PDL, PRC, PRS, PRN, PLN e lei delegada. Os diagramas distinguem procedimentos da Câmara, do Senado e do Congresso.
+
+
 - [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|11. Proposições legislativas: conceito, tipos e efeitos regimentais]]: CAM-PL-001, art. 100 do RICD, tipos de proposições, distinção das espécies normativas do art. 59 da CF e regras regimentais de autoria, retirada e arquivamento. **Próxima unidade: CAM-PL-002, iniciativa.**
 
 - [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|12. Iniciativa legislativa: legitimados, reservas e limites]]: CAM-PL-002, art. 61 e reservas constitucionais, iniciativa popular, arts. 51/52/96/127/165 e STF Temas 917/682. **Próxima unidade: CAM-PL-003, tramitação e fases.**

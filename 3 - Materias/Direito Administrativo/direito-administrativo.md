@@ -5,7 +5,7 @@ title: "Direito administrativo"
 type: "hub"
 status: "ativo"
 created: 2026-05-31
-updated: 2026-11-03
+updated: 2026-11-19
 ---
 
 # Direito administrativo
@@ -57,14 +57,19 @@ Mapeamento de tópicos e organização das notas de Direito Administrativo para 
 ## 6. Licitações e Contratos
 - [[08 - licitacoes e contratos|08 • Licitações e contratos]].
 
-## 7. Tópicos Pendentes (Falta Estudar)
-- **Contratos administrativos** (cláusulas exorbitantes, alteração unilateral, equilíbrio econômico-financeiro, sanções e extinção).
-- **Licitações (Aprofundamento)** (pregão, registro de preços, procedimentos auxiliares e nulidades).
-- **Bens públicos** (afetação, desafetação, alienação e espécies de uso).
-- **Intervenção do Estado na propriedade** (desapropriação, servidão administrativa, requisição e limitação).
-- **Terceiro Setor e Organizações** (consórcios públicos, agências reguladoras/executivas, OSCs, OSCIPs e Sistema S).
-- **Responsabilização de agentes** (sindicância e Processo Administrativo Disciplinar - PAD).
+## 7. Temas para aprofundamento
+
+Os artigos acima já abordam **contratos administrativos, alterações, fiscalização, extinção, sanções e sindicância e processo administrativo disciplinar (PAD)**. Para esses assuntos, comece por [[08 - licitacoes e contratos|Licitações e contratos]] e [[24 - sindicancia processo administrativo disciplinar e seus ritos|Sindicância e processo administrativo disciplinar]]. A necessidade de revisão adicional deve ser avaliada por questões e pelo edital, não pela existência de uma antiga lista de pendências.
+
+Temas que ainda exigem verificação de cobertura específica nesta trilha:
+
+- **Licitações:** sistema de registro de preços e demais procedimentos auxiliares da Lei nº 14.133/2021.
+- **Bens públicos:** afetação, desafetação, alienação e espécies de uso.
+- **Intervenção do Estado na propriedade:** desapropriação, servidão administrativa, requisição e limitação.
+- **Terceiro setor e organizações:** consórcios públicos, agências reguladoras ou executivas, organizações da sociedade civil e Sistema S. Conferir também os artigos de Administração Pública antes de considerar qualquer tema descoberto.
+
+Esta seção é um controle de cobertura editorial e **não indica conteúdos pessoalmente não estudados**.
 
 ---
 - **Acompanhamento**: registro individual de estudos mantido no cofre privado
-*Última atualização: 2026-06-29*
+*Última atualização editorial: 2026-11-19*

@@ -130,6 +130,7 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.equal(new URL(page.url()).searchParams.get('visao'),'historico');
    assert.match(await page.locator('#results-principle-history').innerText(), /Início do ciclo atual/);
    assert.match(await page.locator('#results-principle-history').innerText(), /Resposta: C · Gabarito: E/);
+   assert.ok(await page.getByLabel('Conceito',{exact:true}).isVisible());
    assert.equal(await page.locator('#results-adaptive').isVisible(),false,'historico nao repete resumo');
 
    await page.getByRole('link',{name:'Matérias',exact:true}).click();
@@ -142,7 +143,6 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.ok(await page.getByText('Referência de teste · Avaliação sem registro').isVisible());
 
    await page.getByRole('link',{name:'Revisões',exact:true}).click();
-   assert.ok(await page.getByLabel('Conceito',{exact:true}).isVisible());
    assert.ok(await page.locator('#results-quiz-priorities a').count()>0,'link para leitura prioritaria');
    assert.equal(await page.locator('#results-adaptive-queue-items li').count(),3,'fila adicional acessivel em Revisoes');
    assert.ok(await page.getByRole('heading',{name:'Estudar · Conteúdo inicial'}).isVisible());

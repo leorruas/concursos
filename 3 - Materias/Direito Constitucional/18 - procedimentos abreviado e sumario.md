@@ -91,7 +91,7 @@ O rito abreviado recebe na **Câmara** o nome de **apreciação conclusiva** e n
 
 **Pegadinha:** “A CCJC emitiu parecer terminativo; logo, o projeto foi aprovado terminativamente pelo Senado.” O enunciado atravessa **órgão, Casa e objeto da decisão**. Para prova, identificar sempre **qual órgão** e **qual matéria** recebeu o qualificativo.
 
-**Diferença para a CAM-PL-008:** tramitação **ordinária** do art. 151, III, pode ser **conclusiva**. Ser abreviado não significa que o projeto tenha prazo fixo de 45 dias, pois essa cifra pertence à **urgência constitucional**, não ao poder conclusivo das comissões.
+**Distinção importante:** tramitação **ordinária** do art. 151, III, pode ser **conclusiva**. Ser abreviado não significa que o projeto tenha prazo fixo de 45 dias, pois essa cifra pertence à **urgência constitucional**, não ao poder conclusivo das comissões.
 
 ## Procedimento sumário: urgência constitucional presidencial
 
@@ -128,7 +128,7 @@ Uma comissão pode **examinar** um projeto e emitir um **parecer**, isto é, uma
 | **Urgência regimental requerida e aprovada** | **RICD, arts. 153 e 154** | Requerimento com legitimados e deliberação próprios, alterando a pauta e formalidades |
 | **Urgência urgentíssima (RICD, art. 155)** | Matéria de relevante e inadiável interesse nacional, com subscrição e votação qualificados | Possível **inclusão imediata na Ordem do Dia**, até na mesma sessão |
 
-A tabela é **distinção preliminar** para evitar confundir o art. 64 da CF com os mecanismos regimentais. O estudo exaustivo de **urgência regimental, urgentíssima, sumaríssimo e procedimentos especiais ou concentrados** será feito em **CAM-PL-010**. Nenhuma dessas hipóteses transforma o **prazo de cinco sessões para comissões urgentes** do art. 52 em **45 dias constitucionais**: são **prazos de atos e fontes distintas**.
+A tabela é **distinção preliminar** para evitar confundir o art. 64 da CF com os mecanismos regimentais. O estudo exaustivo de **urgência regimental, urgentíssima, sumaríssimo e procedimentos especiais ou concentrados** é tratado em [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Procedimentos sumaríssimo, especial e concentrado]]. Nenhuma dessas hipóteses transforma o **prazo de cinco sessões para comissões urgentes** do art. 52 em **45 dias constitucionais**: são **prazos de atos e fontes distintas**.
 
 ### Dois prazos de 45 dias, duas competências e consequências
 
@@ -179,7 +179,7 @@ O **art. 151, II, do RICD** prevê prioridade, por exemplo, para projetos de ini
 
 **Cenário H: recesso ou código.** Os prazos do art. 64, § 2º, **não correm no recesso do Congresso** e **não se aplicam a projetos de código**. O fato de o presidente desejar urgência não afasta essa exceção.
 
-**Cenário I: urgência regimental parlamentar.** Um deputado pede urgência conforme o RICD, arts. 153 e 154. **Essa é outra modalidade**, que depende de legitimados e condições próprios e não decorre do art. 64, § 1º. O enquadramento detalhado será tratado em CAM-PL-010.
+**Cenário I: urgência regimental parlamentar.** Um deputado pede urgência conforme o RICD, arts. 153 e 154. **Essa é outra modalidade**, que depende de legitimados e condições próprios e não decorre do art. 64, § 1º. As condições detalhadas de urgência regimental são examinadas em [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Procedimentos sumaríssimo, especial e concentrado]].
 
 ## Como a Cebraspe cobra
 
@@ -238,7 +238,7 @@ Outro erro de alto valor: o prazo constitucional **não corre no recesso**, **n�
 - [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação das comissões]]: diferença entre parecer terminativo e deliberação do projeto.
 - [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa: legitimados, reservas e limites]]: legitimados e distinção entre iniciativa de projeto e pedido de urgência.
 - [[3 - Materias/Direito Constitucional/16 - discussao votacao quoruns e modalidades de decisao|Discussão, votação, quóruns e modalidades de decisão na Câmara]]: quóruns constitucionais não afastados pelos ritos.
-- **CAM-PL-010:** urgências regimental e urgentíssima, procedimentos especiais e concentrados.
+- [[3 - Materias/Direito Constitucional/19 - procedimentos sumarissimo especial e concentrado|Procedimentos sumaríssimo, especial e concentrado]]: urgências regimentais e ritos específicos.
 
 ## Tensões e pegadinhas
 

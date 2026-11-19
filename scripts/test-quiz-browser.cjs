@@ -110,8 +110,6 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.evaluate(()=>dispatchEvent(new PageTransitionEvent('pageshow',{persisted:true})));
    await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('5 tentativas válidas'));
 
-   assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('ChatGPT'),'origem de estudo precisa aparecer');
-   assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('site'),'origem do site precisa aparecer');
    fake.summary.valid=6;
    await page.clock.fastForward(60000);
    await page.waitForFunction(()=>document.getElementById('results-unified-method').textContent.includes('6 tentativas válidas'));
@@ -124,22 +122,25 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.ok(await page.getByRole('heading',{name:'Visão geral',exact:true}).isVisible(),
     'cada visao apresenta titulo proprio');
    assert.ok(await page.getByText('Bateria disponível',{exact:true}).isVisible());
-   assert.match(await page.locator('#results-study-modes').innerText(), /Aprendizagem · 2 tentativas/);
-   assert.match(await page.locator('#results-study-modes').innerText(), /Revisão · 1 tentativa ·/);
-   assert.match(await page.locator('#results-study-modes').innerText(), /Bateria com correção ao final/);
    assert.match(await page.locator('#results-retention').innerText(), /após 6 dias/);
-   assert.match(await page.locator('#results-competitive-simulations').innerText(), /54 pontos líquidos/);
    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+2),false,'painel sem overflow');
    await page.screenshot({path:path.join(evidence,preset.name+'-unified-results.png'),fullPage:true});
 
    await page.getByRole('link',{name:'Histórico',exact:true}).click();
    assert.equal(new URL(page.url()).searchParams.get('visao'),'historico');
+   assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('ChatGPT'),'origem de estudo precisa aparecer');
+   assert.ok((await page.locator('#results-quiz-stats').innerText()).includes('site'),'origem do site precisa aparecer');
    assert.match(await page.locator('#results-principle-history').innerText(), /Início do ciclo atual/);
    assert.match(await page.locator('#results-principle-history').innerText(), /Resposta: C · Gabarito: E/);
    assert.ok(await page.getByLabel('Conceito',{exact:true}).isVisible());
    assert.equal(await page.locator('#results-adaptive').isVisible(),false,'historico nao repete resumo');
 
    await page.getByRole('link',{name:'Matérias',exact:true}).click();
+   assert.equal(await page.locator('#results-stats .results-stat').count(),4,'resumo com quatro indicadores');
+   assert.match(await page.locator('#results-study-modes').innerText(), /Aprendizagem · 2 tentativas/);
+   assert.match(await page.locator('#results-study-modes').innerText(), /Revisão · 1 tentativa ·/);
+   assert.match(await page.locator('#results-study-modes').innerText(), /Bateria com correção ao final/);
+   assert.match(await page.locator('#results-competitive-simulations').innerText(), /54 pontos líquidos/);
    assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
      (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
    const coverage=page.locator('#results-edital-coverage summary').first();

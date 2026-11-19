@@ -378,7 +378,10 @@ for (const nomeJson of JSONS_PUBLICOS_AUTORIZADOS) {
   const src = path.join(rootDir, 'data', nomeJson);
   const dest = path.join(dataDest, nomeJson);
   if (fs.existsSync(src)) {
-    if(nomeJson === 'catalogo-materias-por-concurso.json') fs.writeFileSync(dest, JSON.stringify(catalogoMaterias, null, 2)+'\n');
+    if(nomeJson === 'catalogo-materias-por-concurso.json') {
+      const programaCamara = JSON.parse(fs.readFileSync(path.join(rootDir,'data/programa-oficial-camara-2026.json'), 'utf8'));
+      fs.writeFileSync(dest, JSON.stringify({...catalogoMaterias, programaCamara}, null, 2)+'\n');
+    }
     else if(nomeJson === 'concursos.json') {
       const entrada = JSON.parse(fs.readFileSync(src, 'utf8'));
       const publico = entrada.map(c => Object.fromEntries(

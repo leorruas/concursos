@@ -249,12 +249,19 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.match(await page.locator('#results-competitive-simulations').innerText(), /54 pontos líquidos/);
    assert.ok((await page.locator('#results-difficulty').innerText()).includes('Acerto observado')||
      (await page.locator('#results-difficulty').innerText()).includes('Amostra pequena'),'faixas de dificuldade');
-   assert.equal(await page.locator('#results-edital-coverage summary').count(),0,
+   assert.equal(await page.locator('#results-edital-coverage .results-edital-unit summary').count(),0,
     'cobertura do edital apresentada diretamente em lista sem accordion');
    assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Sem questões vinculadas a esta unidade.').isVisible());
    assert.ok(await page.locator('#results-edital-coverage .results-edital-ref').getByText('Referência de teste').isVisible());
    assert.ok(await page.locator('#results-edital-coverage .results-edital-state').getByText('Sem questões vinculadas').isVisible());
    assert.ok(await page.getByText('0 de 1 referência com respostas vinculadas').isVisible());
+   const official = page.getByText('Programa oficial · 228 itens e subitens numerados',{exact:true});
+   await official.focus();
+   await page.keyboard.press('Enter');
+   const officialPage = page.getByRole('link',{name:'P2 · Ciência Política',exact:true});
+   assert.ok(await officialPage.isVisible());
+   assert.match(await officialPage.getAttribute('href'), /\.pdf#page=54$/);
+
    const align=await page.evaluate(()=>{
     const nav=document.querySelector('.results-layout>.study-topbar').getBoundingClientRect();
     const views=document.querySelector('.results-views-nav').getBoundingClientRect();

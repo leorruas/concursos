@@ -10,14 +10,14 @@ updated: 2026-11-11
 
 # Controle parlamentar: fiscalização contábil, financeira, requerimentos e prestação de contas
 
-**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe. Unidade CAM-PL-033 conforme arquitetura e inventário editorial.**
+**Concurso Câmara dos Deputados 2026, cargo 1, Divulgação Institucional, Cebraspe.**
 
 O Congresso Nacional exerce **controle parlamentar** quando acompanha e fiscaliza a atuação do Poder Executivo e o uso dos recursos públicos. Por exemplo, pode solicitar informações a autoridades, examinar as contas presidenciais e, nas hipóteses constitucionais, sustar atos normativos que ultrapassem o poder regulamentar. Cada instrumento tem uma autoridade competente, um procedimento e um efeito próprios.
 
 A fiscalização legislativa abrange três grandes dimensões:
 1. **Controle político institucional**: convocação de autoridades, pedidos de informação por escrito, sustação de atos normativos exorbitantes do Executivo e aprovação de atos complexos;
 2. **Controle contábil, financeiro, orçamentário, operacional e patrimonial**: exercido pelo Congresso Nacional mediante controle externo, com o auxílio técnico e operacional do Tribunal de Contas da União (**CF, arts. 70 a 75**);
-3. **Controle sobre a gestão do Chefe do Executivo**: julgamento anual das contas prestadas pelo Presidente da República, precedido de parecer prévio consultivo do TCU (**CF, art. 49, IX** c/c **art. 71, I**).
+3. **Controle sobre a gestão do Chefe do Executivo**: julgamento anual das contas prestadas pelo Presidente da República, precedido de parecer prévio consultivo do TCU (**Constituição Federal, art. 49, IX, combinado com art. 71, I**).
 
 ---
 

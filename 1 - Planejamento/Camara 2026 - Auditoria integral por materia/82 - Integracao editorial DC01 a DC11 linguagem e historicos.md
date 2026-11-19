@@ -8,16 +8,16 @@ O recorte inclui DC01 a DC10 e o arquivo `11 - organizacao do estado.md`, sem ed
 
 | Artigo | Intervenção | Estado |
 | --- | --- | --- |
-| DC01 | Leitura dirigida preliminar; sem alteração textual nesta rodada | Sem correção aplicada; revisão linguística e jurídica integral pendentes |
+| DC01 | Leitura de princípios fundamentais e categorias dos arts. 1º a 4º; nenhuma edição necessária | Revisão dirigida concluída; cotejo jurídico exaustivo ainda não certificado |
 | DC02 | Corrigida remissão desatualizada sobre art. 17: conteúdo partidário está em DC05 | Ajuste localizado; cotejo integral pendente |
-| DC03 | Esclarecida a natureza do catálogo constitucional e separação visual de itens C/E | Ajuste localizado; cotejo integral pendente |
+| DC03 | Catálogo do art. 6º, EC 141/2026 e cautelares das ADIs 8.041/8.042, com regras de transição | Verificação normativa dirigida concluída; julgamentos posteriores e cotejo integral devem ser monitorados |
 | DC04 | Retirado marcador vazio `Fontes Brutas` do final; fontes substantivas preservadas | Limpeza editorial; cotejo integral pendente |
-| DC05 | Transferência dos históricos normativos/pedagógicos finais para esta auditoria | Correção aplicada; verificação jurídica integral e visual pendentes |
-| DC06 | Integração de CAM-PL-018 nas seções sobre controle externo, TCU, art. 72, controle interno e art. 75; mantidos casos e exercícios | Correção aplicada; verificação jurídica integral e visual pendentes |
-| DC07 | Transferência dos históricos normativos/pedagógicos finais para esta auditoria | Correção aplicada; verificação jurídica integral e visual pendentes |
-| DC08 | Transferência dos históricos normativos/pedagógicos finais para esta auditoria | Correção aplicada; verificação jurídica integral e visual pendentes |
-| DC09 | Transferência dos históricos normativos/pedagógicos finais para esta auditoria | Correção aplicada; verificação jurídica integral e visual pendentes |
-| DC10 | Retirada de dois registros de processo editorial do fim da unidade | Correção aplicada; verificação jurídica integral e visual pendentes |
+| DC05 | Históricos transferidos, ADI 7.991 atualizada como decisão processual e notas de ingestão removidas | Verificação jurídica dirigida; cotejo integral ainda não certificado |
+| DC06 | CAM-PL-018 integrado, art. 70 distinguido entre critérios e matérias, diagrama restaurado, títulos/links/itens preservados | Verificação jurídica e integridade estrutural dirigidas; cotejo integral ainda não certificado |
+| DC07 | Históricos transferidos; referência administrativa de ingestão retirada das fontes | Revisão editorial realizada; cotejo jurídico integral ainda não certificado |
+| DC08 | Históricos transferidos; referência administrativa de ingestão retirada das fontes | Revisão editorial realizada; cotejo jurídico integral ainda não certificado |
+| DC09 | Históricos transferidos; referência administrativa de ingestão retirada das fontes | Revisão editorial realizada; cotejo jurídico integral ainda não certificado |
+| DC10 | Registros editoriais de processo retirados, fontes e vínculos preservados | Revisão editorial realizada; cotejo jurídico integral ainda não certificado |
 | DC11 | Corrigida repetição e clarificada distinção entre falta de LC federal e omissão reconhecida pelo STF (ADO 70) | Ajuste conferido em fonte oficial; cotejo integral pendente |
 
 ## Históricos retirados dos artigos
@@ -177,3 +177,9 @@ O commit da `main` `b09ae8d1c434d5ee45349ff5a9edbe7cfe713e8d` incluiu o wikilink
 ## Segunda leitura dirigida do DC06: art. 70 e repetição editorial (19/11/2026)
 
 Identificado que a redação anterior apresentava `aplicação de subvenções e renúncia de receitas` junto aos critérios de controle do art. 70, sem separar claramente **critérios** (legalidade, legitimidade e economicidade) das **matérias fiscalizadas**. Ajustada a explicação com base no texto oficial da Constituição (art. 70). Removida remissão duplicada ao DC37, mantido o vínculo específico à seção 5.2 e Caso 4, e compactada repetição sobre o título executivo do art. 71, §§ 3º e 4º, preservando a referência a relatórios trimestrais e anuais. Eliminado espaçamento excessivo antes do parágrafo de TCEs. A reformulação não muda o texto dos itens C/E, seus gabaritos, metadados ou headings com referência externa. Esta rodada constitui revisão dirigida de precisão conceitual e de linguagem; permanecem fora de escopo os arquivos DC11–DC38 do eixo Processo Legislativo.
+
+## Critério de encerramento acordado: sem inspeção visual
+
+Por orientação expressa de 19/11/2026, a **inspeção visual do site ou do EPUB foi dispensada para o fechamento desta frente**. Essa dispensa não equivale a confirmar fidelidade visual: o critério é **retirado da lista de pendências**, sem receber selo de aprovação. Os demais controles continuam: normas e decisões relevantes cotejadas por revisão dirigida, contagens de exercícios e gabaritos preservadas, `articleId` e wikilinks preservados, auditoria de headings e CI automatizado verde. O cotejo jurídico integral de cada frase e a conferência semântica exaustiva de todas as questões seguem sem certificação plena e ficam explicitados como **limites de auditoria**, não impedimento visual. Os registros históricos anteriores que mencionam pendência visual permanecem como transcrição do estado de suas datas originais.
+
+**Conferência adicional de DC06:** além de preservar o diagrama que havia sido removido, revisada a exposição do art. 70: a legalidade, a legitimidade e a economicidade são critérios, enquanto aplicação de subvenções e renúncia de receitas são objetos do controle. Eliminada repetição de remissão ao DC37 na seção de contratos, mantendo a remissão específica e o vínculo geral nas relações temáticas. Mantidos os dez itens CAM-PL-018 e os headings vinculados ao banco de questões.

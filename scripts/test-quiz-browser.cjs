@@ -131,6 +131,7 @@ fs.mkdirSync(evidence,{recursive:true});
     const active=localStorage.getItem('concursos-quiz-ativa-v1');
     return JSON.parse(localStorage.getItem('concursos-quiz-sessoes-v1')).find(s=>s.id===active).answers[0];
    });
+   assert.ok(Number.isSafeInteger(last.responseMs) && last.responseMs >= 0);
    assert.equal(last.consulted,false);
    assert.equal(last.feedbackBefore,false);
    assert.deepEqual(errors,[],'fluxo adaptativo sem erros de JS');

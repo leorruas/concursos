@@ -77,6 +77,8 @@ export function validateSession(s, filename, root, concursos) {
     for (const field of ['consulted', 'feedbackBefore']) {
       assert(q[field] == null || typeof q[field] === 'boolean', `${s.id}/Q${q.number}: ${field} deve ser booleano ou nulo`);
     }
+    assert(q.responseMs == null || (Number.isSafeInteger(q.responseMs) && q.responseMs >= 0 && q.responseMs <= 86400000),
+      `${s.id}/Q${q.number}: responseMs deve ser duração válida em milissegundos`);
     assert(['secure', 'insecure', 'guess', 'unknown'].includes(q.confidence), `${s.id}: confiança inválida`);
     assert(['inedita', 'real', 'adaptada'].includes(q.origin), `${s.id}: origem inválida`);
     assertCamaraTiQuestionAllowed(root, s, q);

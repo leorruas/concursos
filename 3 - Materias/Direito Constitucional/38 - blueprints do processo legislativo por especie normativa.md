@@ -12,7 +12,7 @@ updated: 2026-11-19
 
 Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempre significa o cargo identificado: Presidente da República, Presidente da Câmara dos Deputados ou Presidente do Senado Federal, conforme o ato. Cada quadro segue a linguagem de **service blueprint**: **fases nas colunas** e **camadas nas linhas**. Ações do proponente e atos públicos são separados pela *linha de interação*; atos públicos e trabalho de preparação, pela *linha de visibilidade*; bastidores e processos de suporte, pela *linha de interação interna*. Evidências e documentos mostram o que é produzido e circula entre os atores. **Bastidor não significa atividade sigilosa.**
 
-**Leitura:** cada célula apresenta o ator e sua atividade. Os prazos e quóruns ocupam uma camada própria. Os quadros mostram o caminho típico; os artigos vinculados explicam recursos, interrupções, exceções e voltas da tramitação.
+**Leitura:** cada célula apresenta o ator e sua atividade. Os **prazos concretos** ocupam uma camada própria: número, unidade, marco e condição. **Quórum não é prazo** e referências a artigos não substituem a informação temporal. Os quadros mostram o caminho típico; os artigos vinculados explicam recursos, interrupções, exceções e voltas da tramitação.
 
 ## Projeto de lei (PL) → lei ordinária
 
@@ -30,7 +30,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Assessoria apoia texto | Secretaria autua e publica | Relator produz voto | Secretaria organiza votação | Apoio compara redações | Elaboração do autógrafo e promulgação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Registro eletrônico | Despacho publicado | Parecer e emendas | Registro de votos | Controle de versões | Diário Oficial |
-| **Prazos e quóruns** | Art. 61 CF | não se aplica | Comissão: 5 / 10 / 40 sessões, conforme regime | Art. 47 CF | Art. 64 CF quando urgência presidencial | Sanção/veto: 15 dias úteis |
+| **Prazos, marcos e efeitos** | Sem prazo geral para apresentar. | Despacho conforme rito; sem prazo único. | Comissão: 40 sessões (ordinário), 10 (prioridade) ou 5 (urgência); relator: metade, em paralelo. Emendas: 5 sessões quando cabíveis. | Sem prazo geral de votação; recurso contra decisão conclusiva: 5 sessões. | Urgência constitucional, se solicitada pelo Presidente da República: 45 dias por Casa; emendas do Senado: 10 dias na Câmara. | Presidente da República: 15 dias úteis para sanção/veto. Veto: Congresso aprecia em 30 dias corridos. |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação, comissões e revisão bicameral]] · [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Ritos e urgência constitucional]].
 
@@ -50,7 +50,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Assessoria verifica reserva à LC | Secretaria autua | Relator redige voto | Apoio organiza sessão | Apoio confere emendas e retorno | Autógrafo e publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Protocolo | Despacho | Parecer | Votação | Versões de texto | Diário Oficial |
-| **Prazos e quóruns** | Art. 69 CF | não se aplica | Prazos do regime aplicável | Maioria absoluta | Maioria absoluta | Art. 66 CF |
+| **Prazos, marcos e efeitos** | Sem prazo geral para apresentar. | Despacho conforme rito; sem prazo único. | Comissões na Câmara: 40, 10 ou 5 sessões conforme regime; relator: metade. Emendas: 5 sessões quando cabíveis. | Sem prazo geral único; maioria absoluta é quórum, não prazo. | Sem prazo geral de revisão; urgência constitucional, quando cabível e solicitada: 45 dias por Casa; emendas: 10 dias na Câmara. | Presidente da República: 15 dias úteis para sanção/veto; apreciação de veto: 30 dias corridos no Congresso. |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Espécies legislativas e quóruns]] · [[3 - Materias/Direito Constitucional/12 - iniciativa legislativa sujeitos e limites|Iniciativa legislativa]].
 
@@ -70,7 +70,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Apoio verifica requisitos | Serviços distribuem | Relatores preparam parecer | Serviços organizam turnos | Apoio verifica igualdade dos textos | Serviços preparam publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Texto constitucional | Despacho | Parecer | Registro por turno | Comparação de redações | Publicação da EC |
-| **Prazos e quóruns** | Art. 60 CF | Rito especial | Prazos especiais | 3/5 em cada turno | 3/5 em cada turno | Sem sanção |
+| **Prazos, marcos e efeitos** | Sem prazo geral de apresentação. | Na Câmara, se inadmitida pela CCJC: recurso em 5 sessões, nos termos regimentais. | Comissão especial da Câmara: 40 sessões para parecer; emendas nas primeiras 10 sessões. | Na Câmara: 5 sessões entre os dois turnos. Exige 3/5 em cada turno (quórum, não prazo). | Senado: rito e intervalos do Regimento do Senado; não aplicar os 5 da Câmara automaticamente. | Promulgação pelas Mesas: sem prazo constitucional geral e sem sanção presidencial. |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/10 - processo legislativo e poder constituinte|Poder constituinte e emendas]] · [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Quóruns por espécie]].
 
@@ -90,7 +90,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Apoio verifica pressupostos | Serviços registram | Relatoria prepara parecer e PLV | Serviços organizam votação | Apoio concilia textos | Congresso examina relações jurídicas se MPV perder eficácia |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Diário Oficial | Protocolo de emendas | Parecer da comissão mista | Registro de votos | Versões comparadas | Lei ou decreto legislativo |
-| **Prazos e quóruns** | 60 + 60 dias; recesso suspende | Prazo específico de emendas | Após 45 dias sem apreciação: urgência | Art. 62 CF | Dentro da vigência | Art. 62, § 12 CF |
+| **Prazos, marcos e efeitos** | Vigência: 60 dias, prorrogáveis uma vez por mais 60; contagem suspensa no recesso. | Emendas: 6 dias após publicação, conforme Resolução 1/2002-CN (ver regras de contagem). | Se não apreciada em 45 dias da publicação: regime de urgência; prazo suspenso no recesso. | Câmara aprecia primeiro; sem prazo fixo isolado, dentro da vigência da MPV. | Senado aprecia depois; eventual retorno à Câmara dentro da vigência da MPV. | Conversão antes da perda de eficácia; rejeição/caducidade: Congresso dispõe de 60 dias para disciplinar efeitos por decreto legislativo. |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/33 - medidas provisorias resolucao 1 2002 CN|Rito completo das medidas provisórias]] · [[3 - Materias/Direito Constitucional/21 - medida provisoria pressupostos prazos e efeitos|Prazos, eficácia e PLV]].
 
@@ -110,7 +110,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Assessoria verifica competência | Secretaria registra | Relator produz parecer | Serviços organizam votação | Apoio prepara texto final | Secretaria prepara publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Protocolo | Despacho | Parecer | Registro de voto | Autógrafo se cabível | Publicação |
-| **Prazos e quóruns** | CF art. 49 | Rito pertinente | Prazo aplicável à matéria | Quórum do caso | Depende da competência | Sem sanção |
+| **Prazos, marcos e efeitos** | Sem prazo geral para apresentar. | Prazo depende da distribuição e do regime. | Na Câmara, se sujeito ao rito comum: comissão 40, 10 ou 5 sessões conforme regime; relator: metade. | Sem prazo geral único de votação. | Sem prazo geral de revisão bicameral; verificar rito especial da matéria. | Promulgação/publicação: prazo conforme hipótese; não há sanção ou veto. |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Decreto legislativo e competências]].
 
@@ -130,7 +130,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Apoio verifica competência | Secretaria registra | Relatoria prepara parecer | Serviços preparam ato | não se aplica | Secretaria publica |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Protocolo | Despacho | Parecer | Deliberação | não se aplica | Publicação da Câmara |
-| **Prazos e quóruns** | CF art. 51 | RICD | Rito pertinente | Quórum próprio | não se aplica | Sem sanção |
+| **Prazos, marcos e efeitos** | Sem prazo geral para apresentar. | Distribuição conforme Regimento Interno da Câmara. | Comissões: 40, 10 ou 5 sessões se rito comum; alteração do Regimento segue rito próprio. | Sem prazo geral único de votação. | Não há Casa revisora: não se aplica prazo de revisão. | Promulgação/publicação pela Câmara: sem prazo geral constitucional de sanção. |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Resoluções das Casas]] · [[3 - Materias/Direito Constitucional/23 - regimento da camara organizacao e orgaos artigos 1 a 24|Organização da Câmara]].
 
@@ -150,7 +150,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Apoio verifica competência | Secretaria registra | Relator prepara parecer | Serviços preparam ato | não se aplica | Secretaria publica |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Protocolo | Despacho | Parecer | Deliberação | não se aplica | Publicação do Senado |
-| **Prazos e quóruns** | CF art. 52 | RISF | Rito pertinente | Quórum próprio | não se aplica | Sem sanção |
+| **Prazos, marcos e efeitos** | Sem prazo geral para apresentar. | Despacho conforme Regimento Interno do Senado. | Prazo das comissões depende do rito do Senado; não aplicar 40/10/5 da Câmara. | Deliberação conforme Regimento do Senado; sem prazo geral único. | Não há Casa revisora na Câmara. | Publicação após promulgação pelo Senado; sem sanção presidencial. |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|Resoluções e competências privativas]].
 
@@ -170,7 +170,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Apoio identifica competência | Serviços registram | Relator prepara parecer | Secretaria organiza sessão | Apoio apura resultado por Casa | Serviços preparam ato |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Protocolo | Despacho | Parecer | Pauta | Registro de votos | Publicação |
-| **Prazos e quóruns** | Ex.: CF art. 68, § 2º | Regimento Comum | Prazo da matéria | Rito próprio | Contagem separada quando aplicável | Sem sanção |
+| **Prazos, marcos e efeitos** | Sem prazo geral uniforme. | Encaminhamento conforme Regimento Comum. | Parecer e prazos conforme matéria e regimento aplicável. | Deliberação conforme rito; sem prazo geral uniforme. | Não há revisão sucessiva comum entre as Casas. | Promulgação e publicação conforme resolução; sem sanção presidencial. |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Sessões conjuntas e votação]] · [[3 - Materias/Direito Constitucional/22 - projetos de decreto legislativo e resolucao|PRN e resoluções]].
 
@@ -190,7 +190,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Apoio elabora anexos | Serviços autuam | Relatores setoriais e geral analisam | Serviços organizam sessão | Apoio consolida emendas | Serviços preparam publicação |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Sistemas orçamentários | Despacho | Parecer da CMO | Registro de votos | Autógrafo | Publicação da lei |
-| **Prazos e quóruns** | CF e ADCT | Rito orçamentário | Resolução 1/2006-CN | Quórum aplicável | Prazos próprios | Art. 66 CF |
+| **Prazos, marcos e efeitos** | LOA: envio até 31 de agosto. LDO: envio até 15 de abril. PPA: envio até 31 de agosto do 1º ano do mandato. | Recebimento conforme calendário orçamentário; sem prazo único para todos os PLN. | Emendas e parecer da CMO: calendário específico por projeto, não prazo uniforme. | LOA: devolução até 22 de dezembro. LDO: até 17 de julho. PPA: até 22 de dezembro do 1º ano do mandato. | Tramitação em sessão conjunta; não se aplica relógio comum de Casa revisora. | Sanção ou veto pelo Presidente da República: 15 dias úteis após recebimento do autógrafo. |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/36 - especies legislativas comparacao por iniciativa quorum e efeito|Comparação de espécies]] · [[3 - Materias/Direito Constitucional/31 - regimento comum organizacao comissoes mistas e votacao artigos 4 a 52|Congresso e votação conjunta]].
 
@@ -210,7 +210,7 @@ Os mapas usam os nomes completos dos órgãos e dos cargos. **Presidente** sempr
 | **Backstage: preparação e análise** | Apoio examina matéria | Serviços autuam | Assessoria detalha limites | Apoio confere conformidade | Serviços organizam votação | Serviços registram ato |
 | *Linha de interação interna* | ··· | ··· | ··· | ··· | ··· | ··· |
 | **Processos de suporte** | Pedido formal | Protocolo | Resolução do Congresso | Texto da lei | Registro de votação | Publicação |
-| **Prazos e quóruns** | CF art. 68 | Regimento Comum | Limites autorizados | Conforme delegação | Votação única, sem emendas | Sem sanção de PL comum |
+| **Prazos, marcos e efeitos** | Presidente da República solicita quando cabível; sem prazo geral fixado. | Congresso recebe e encaminha conforme Regimento Comum. | Prazo de apreciação depende da resolução e do procedimento aplicável. | Congresso aprova resolução autorizativa; sem prazo constitucional uniforme. | Se exigida apreciação do projeto pelo Congresso: votação única, sem emendas; prazo conforme delegação. | Lei delegada: elaboração dentro dos limites e condições da resolução; sem prazo uniforme. |
 
 **Para aprofundar:** [[3 - Materias/Direito Constitucional/20 - lei delegada e delegacao legislativa|Delegação legislativa, limites e procedimento]].
 

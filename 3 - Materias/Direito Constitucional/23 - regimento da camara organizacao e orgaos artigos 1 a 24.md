@@ -10,9 +10,7 @@ updated: 2026-11-11
 
 # Regimento da Câmara: organização, Mesa, lideranças e órgãos (arts. 1º a 24)
 
-**Câmara dos Deputados 2026, Divulgação Institucional, Cebraspe, CAM-PL-019 e CAM-PL-020.** Fonte primária: [Regimento Interno da Câmara dos Deputados (RICD), aprovado pela Resolução nº 17/1989, versão consolidada](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). Conferido com a [31ª edição (2026), atualizada até a Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/version/400).
-
-**Rastreabilidade de unidades:** este artigo cobre dois recortes editoriais planejados sobre os **mesmos arts. 1º a 24**: CAM-PL-019 (disposições preliminares) e CAM-PL-020 (Mesa e órgãos da Câmara). A correspondência é temática, não equivale a dois artigos autônomos nem comprova auditoria normativa integral. Para **comissões dos arts. 25 a 54**, consultar [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]].
+**Câmara dos Deputados 2026, Divulgação Institucional, Cebraspe.** Fonte primária: [Regimento Interno da Câmara dos Deputados (RICD), aprovado pela Resolução nº 17/1989, versão consolidada](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html). Conferido com a [31ª edição (2026), atualizada até a Resolução nº 34/2026](https://bd.camara.leg.br/bd/items/version/400).
 
 ## Núcleo do conceito: quem organiza, decide, representa e comunica?
 

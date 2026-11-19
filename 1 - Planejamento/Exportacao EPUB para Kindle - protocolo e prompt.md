@@ -72,11 +72,14 @@ Leia AGENTS.md, CHAT.md, me.md, index.md e o protocolo
 além das "Revisao editorial para leitura e EPUB - diretrizes.md".
 Fixe um único SHA da main e use esse mesmo commit para todos os arquivos.
 Identifique concurso/subjectId no catálogo
-data/catalogo-materias-por-concurso.json; a ordem do array articleIds
-do concurso selecionado é a ordem canônica de leitura. Resolva os IDs
-para os arquivos reais e valide que todos existem. O hub pode ser
-apresentação/sumário, mas não deve ser contado como capítulo teórico,
-salvo se o escopo pedir. Não ordenar por nome/número do arquivo.
+data/catalogo-materias-por-concurso.json e resolva os articleIds
+para os arquivos reais, verificando sua existência. O catálogo define
+pertencimento ao concurso; a ordem pedagógica é a do hub da matéria,
+filtrada pelos artigos desse concurso, conforme AGENTS.md. Documente
+artigos de apoio/exclusões e confira a coerência com o catálogo, sem
+reordenar articleIds apenas para a exportação. O hub pode entrar como
+apresentação/sumário, mas não conta como capítulo teórico, salvo pedido.
+Não ordenar capítulos por nome/número do arquivo.
 Distinguir matérias parecidas (por exemplo, Direito Administrativo
 e Administração Pública) e não misturar seus capítulos.
 

@@ -36,6 +36,11 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 .qs-answers label:has(input:checked){border-color:var(--accent-blue);background:var(--accent-blue-alpha-05)}
 .qs-answers label[hidden]{display:none!important}
 .qs-answers label[hidden]{display:none}
+.qs-response-context{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 20px}
+.qs-context-toggle{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 12px;border:1px solid color-mix(in srgb,var(--text) 24%,transparent);border-radius:8px;font-size:.88rem;cursor:pointer}
+.qs-context-toggle input{margin:0;accent-color:var(--accent-blue)}
+.qs-context-toggle:hover,.qs-context-toggle:has(input:checked){border-color:var(--accent-blue);background:var(--accent-blue-alpha-05)}
+.qs-context-toggle:focus-within{outline:2px solid var(--accent-blue);outline-offset:2px}
 .qs-uncertain{display:flex;align-items:center;gap:9px;color:var(--muted);font-size:.88rem;margin-top:22px}
 .qs-feedback{border-left:3px solid var(--accent-blue);background:var(--accent-blue-alpha-05);padding:18px 20px;margin-top:20px;line-height:1.6}
 .qs-feedback p{font-size:.9rem}.qs-feedback a,.qs-review a{color:var(--accent-blue)}
@@ -140,13 +145,10 @@ body.questoes-page{font-size:16px;color:var(--text)}.qs-shell{max-width:1010px;m
 <form id="qs-answer-form"><fieldset class="qs-answers" style="border:0;padding:0;margin:0"><legend class="sr-only">Julgue o item</legend>
 <label><input type="radio" name="qs-answer" value="C"> Certo</label><label><input type="radio" name="qs-answer" value="E"> Errado</label><label id="qs-blank-wrap" hidden><input type="radio" name="qs-answer" value="blank"> Em branco</label>
 </fieldset><label class="qs-uncertain"><input type="checkbox" id="qs-insecure"> Não estou seguro</label>
-<details id="qs-response-context">
-<summary>Alterar consulta ou correção prévia (padrão: Não)</summary>
-<label for="qs-consulted">Consultou material para responder?</label>
-<select id="qs-consulted"><option value="no">Não</option><option value="yes">Sim</option></select>
-<label for="qs-feedback-before">Já tinha visto a correção deste item?</label>
-<select id="qs-feedback-before"><option value="no">Não</option><option value="yes">Sim</option></select>
-</details>
+<div class="qs-response-context" role="group" aria-label="Contexto da resposta">
+<label class="qs-context-toggle"><input type="checkbox" id="qs-consulted"> Consultei material</label>
+<label class="qs-context-toggle"><input type="checkbox" id="qs-feedback-before"> Já vi a correção</label>
+</div>
 <div class="qs-submit-row"><button class="qs-button" id="qs-submit" type="submit">Registrar resposta</button><span class="qs-note">A resposta será salva antes de mostrar a correção.</span></div></form>
 </section>
 <section class="qs-panel" id="qs-summary" hidden aria-labelledby="qs-summary-heading">

@@ -13497,12 +13497,12 @@
     {
       "id": "camara-pl33-autografos",
       "term": "Autógrafos legislativos",
-      "definition": "Texto formal autenticado de proposição aprovada, utilizado para remessa à Casa revisora ou à etapa de sanção/veto, conforme o caso.",
-      "example": "Após aprovação bicameral, os autógrafos de um projeto de lei seguem à Presidência da República.",
-      "confusion": "Autógrafo documenta a deliberação legislativa; não é, por si só, lei sancionada, promulgada ou publicada.",
+      "definition": "Autógrafo é a versão oficial autenticada do texto aprovado por uma Casa legislativa, com identificação da proposição, ementa, redação dos artigos e anexos efetivamente aprovados, inclusive alterações incorporadas, quando houver, e elementos de autenticação. Pode seguir para revisão por outra Casa ou, após deliberação bicameral concluída, para sanção/veto quando cabível.",
+      "example": "A Câmara aprova um projeto com 20 artigos e remete autógrafos ao Senado. Se o Senado modificar o texto, a Câmara pode precisar examinar essas alterações antes de haver redação final bicameral para sanção.",
+      "confusion": "Um autógrafo pode ser final apenas naquela Casa; ainda pode precisar de revisão. Não equivale à lei sancionada ou à ata de votação.",
       "contrast": {
-        "prompt": "Qual é a definição de Autógrafos legislativos e qual confusão deve ser evitada?",
-        "answer": "Texto formal autenticado de proposição aprovada, utilizado para remessa à Casa revisora ou à etapa de sanção/veto, conforme o caso. Autógrafo documenta a deliberação legislativa; não é, por si só, lei sancionada, promulgada ou publicada."
+        "prompt": "O autógrafo é sempre a lei definitivamente aprovada pelo Congresso?",
+        "answer": "Não. É a versão autenticada do texto aprovado numa etapa legislativa. Pode ainda seguir à outra Casa; após aprovação bicameral, os autógrafos pertinentes seguem à sanção ou veto, quando cabível."
       },
       "conceptIds": [
         "glo-camara-autografos"
@@ -13528,7 +13528,7 @@
       },
       "status": "reviewed",
       "reviewedAt": "2026-11-19",
-      "revision": 1
+      "revision": 2
     }
   ]
 }

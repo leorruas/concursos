@@ -249,6 +249,8 @@ As decisões do TCU que resultem em **imputação de débito ou multa possuem ef
 
 ## Sustação de ato × contrato
 
+### Atos administrativos, contratos e execução de decisões
+
 **Art. 71, IX e X:** diante de **ilegalidade**, o TCU pode **assinar prazo** para providências de exato cumprimento da lei. Se não atendido, pode **sustar a execução do ato impugnado** e comunicar a decisão à Câmara e ao Senado.
 
 **Art. 71, §§ 1º e 2º:** **no caso de contrato**, o ato de sustação é adotado **diretamente pelo Congresso Nacional**, que solicita imediatamente ao Executivo as medidas cabíveis. Se **Congresso ou Executivo não efetivarem as medidas em 90 dias**, o **TCU decide a respeito**. O prazo de **90 dias** aqui não é o mesmo dos **cinco e trinta dias** do art. 72.
@@ -259,7 +261,7 @@ As decisões do TCU que resultem em **imputação de débito ou multa possuem ef
 
 **Apreciar atos para registro (art. 71, III):** nomeações para **cargo de provimento em comissão** são exceção expressa no exame de legalidade de admissões. A exclusão específica **não elimina** outras formas de fiscalização cabíveis sobre esses atos.
 
-### Procedimento da comissão mista para despesas não autorizadas: art. 72
+### O procedimento específico da comissão mista: art. 72
 
 **Etapa 1: indícios.** A **comissão mista permanente** referida no **art. 166, § 1º**, constata indícios de **despesas não autorizadas**, mesmo sob a forma de **investimento não programado ou subsídio não aprovado**. Isso habilita o pedido de esclarecimentos à autoridade governamental responsável.
 
@@ -298,6 +300,8 @@ Requisitos constitucionais incluem:
 
 ## Controle interno: art. 74
 
+### Controle interno, denúncia e responsabilidade
+
 O **art. 74** exige sistema de controle interno mantido de forma integrada pelos Poderes Legislativo, Executivo e Judiciário. Seus objetivos incluem **avaliar metas do PPA**, execução de programas e orçamentos; comprovar legalidade e **avaliar resultados quanto à eficácia e eficiência** da gestão; controlar operações de crédito, avais e garantias; e apoiar o controle externo.
 
 **Responsabilidade solidária:** os **responsáveis pelo controle interno** que, tomando conhecimento de irregularidade ou ilegalidade, **não a comunicarem ao TCU**, sujeitam-se à responsabilidade solidária (**art. 74, § 1º**). Não transformar essa regra em responsabilidade automática de **qualquer cidadão** que deixe de denunciar.
@@ -305,6 +309,8 @@ O **art. 74** exige sistema de controle interno mantido de forma integrada pelos
 **Participação social:** cidadão, partido político, associação ou sindicato têm legitimidade para denunciar ao TCU, **na forma da lei** (art. 74, § 2º). Essa legitimidade não pressupõe ser gestor público nem atribui ao denunciante competência de aplicar sanção.
 
 ## Tribunais de Contas dos Estados e do Distrito Federal
+
+### Atualização normativa: EC 139/2026 e o art. 75
 
 A **Emenda Constitucional nº 139, de 5 de maio de 2026**, alterou o **art. 75** e o **art. 31, § 1º**. O art. 75 agora reconhece os **Tribunais de Contas como instituições permanentes e essenciais ao controle externo** e mantém a aplicação **no que couber** do modelo federal aos tribunais estaduais, distrital e municipais. A nova redação **veda extinção, criação ou instalação** desses tribunais e conselhos de contas, nos termos do dispositivo. Para prova, não utilizar automaticamente versões anteriores do art. 75, que omitem essa proteção expressa. Fonte: [EC 139/2026, texto oficial da Câmara](https://www2.camara.leg.br/legin/fed/emecon/2026/emendaconstitucional-139-5-maio-2026-799072-publicacaooriginal-179182-pl.html).
 

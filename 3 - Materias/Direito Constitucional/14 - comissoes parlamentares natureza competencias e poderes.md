@@ -49,18 +49,6 @@ O capítulo [[3 - Materias/Direito Constitucional/23 - regimento da camara organ
 
 **Art. 23: proporcionalidade partidária.** Na composição das comissões, deve ser assegurada, **tanto quanto possível**, a representação proporcional dos partidos e blocos parlamentares, **incluindo sempre um membro da Minoria, mesmo sem vaga pela proporcionalidade**. A expressão **“tanto quanto possível”** impede exigir proporcionalidade matematicamente perfeita, mas a norma impõe salvaguarda expressa para a Minoria. O parágrafo único do art. 23 prevê perda automática da vaga ocupada em razão de bancada para deputado que dela se desvincular, ainda que exerça cargo eletivo na comissão. **Participação de minorias não equivale a número igual de vagas para cada partido.**
 
-### Subcomissões e turmas: arts. 29 a 31
-
-As comissões permanentes podem organizar **subcomissões permanentes**, **subcomissões especiais** e, sob condições, **turmas**. Sua natureza é **interna e auxiliar**, não equivale às comissões temporárias da Câmara classificadas no art. 33.
-
-| Categoria | Formação | Limite e consequência |
-| :--- | :--- | :--- |
-| **Subcomissão permanente** | Proposta pela **maioria dos integrantes** da comissão, formada dentre seus próprios membros | Até **três em funcionamento simultâneo**, sem poder decisório |
-| **Subcomissão especial** | Proposta por **qualquer membro**, para tarefa ou assunto definido | Até **três simultâneas**, sem poder decisório |
-| **Turmas** | Divisão de comissão permanente que não constitua subcomissões permanentes | **Duas turmas**, excluído o Presidente, **sem poder decisório** |
-
-O **Plenário da comissão** fixa a composição e o escopo das subcomissões (art. 29, § 2º). A **turma** não se transforma em “comissão deliberativa paralela”. Ainda que organize estudos e pareceres, a decisão regimental pertence ao **órgão competente**.
-
 ## As três espécies de comissão temporária
 
 ### Comissão especial: matéria legislativa definida
@@ -109,6 +97,19 @@ A Constituição distingue **audiência pública com entidades da sociedade civi
 
 **Exemplo hipotético.** Uma comissão quer ouvir pesquisadores sobre os efeitos de determinada política: pode organizar audiência pública. Se precisa exigir explicações de uma autoridade abrangida pelo art. 50 sobre atribuições institucionais, examina a competência de **convocação** e seus requisitos. Trocar “convidar participantes” por “convocar ministro” muda a natureza jurídica do ato e as consequências do não comparecimento. A leitura conjunta dos arts. 50 e 58 evita reduzir a lista dos convocáveis à redação resumida do art. 58, § 2º, III.
 
+### Subcomissões e turmas: arts. 29 a 31
+
+As comissões permanentes podem organizar **subcomissões permanentes**, **subcomissões especiais** e, sob condições, **turmas**. Sua natureza é **interna e auxiliar**, não equivale às comissões temporárias da Câmara classificadas no art. 33.
+
+| Categoria | Formação | Limite e consequência |
+| :--- | :--- | :--- |
+| **Subcomissão permanente** | Proposta pela **maioria dos integrantes** da comissão, formada dentre seus próprios membros | Até **três em funcionamento simultâneo**, sem poder decisório |
+| **Subcomissão especial** | Proposta por **qualquer membro**, para tarefa ou assunto definido | Até **três simultâneas**, sem poder decisório |
+| **Turmas** | Divisão de comissão permanente que não constitua subcomissões permanentes | **Duas turmas**, excluído o Presidente, **sem poder decisório** |
+
+O **Plenário da comissão** fixa a composição e o escopo das subcomissões (art. 29, § 2º). A **turma** não se transforma em “comissão deliberativa paralela”. Ainda que organize estudos e pareceres, a decisão regimental pertence ao **órgão competente**.
+
+
 ### Comissões permanentes e temporárias: arts. 32 a 38
 
 O **art. 32** distribui as matérias entre comissões permanentes por **campo temático e área de atuação**. O enunciado pode descrever atividade de comunicação, tecnologia, orçamento, cultura ou saúde para perguntar **qual comissão deve examinar a matéria**; a associação exige ler a redação vigente e distinguir **objeto predominante**, **mérito** e **controle de admissibilidade** da CCJC ou da CFT.
@@ -136,6 +137,18 @@ O **art. 58, § 2º, da Constituição** e o **art. 24 do RICD** atribuem compet
 
 **Terminativo × conclusivo:** [[3 - Materias/Direito Constitucional/13 - tramitacao e fases do processo legislativo|Tramitação legislativa: fases, comissões, Plenário e revisão bicameral]] já diferencia exame terminativo de constitucionalidade/adequação financeira de apreciação conclusiva de mérito. O capítulo [[3 - Materias/Direito Constitucional/15 - parecer legislativo relatorio voto e deliberacao|Parecer legislativo: relatório, voto e deliberação]] explica como parecer e voto se tornam decisão do colegiado.
 
+## Representação, presidência e funcionamento
+
+**Composição proporcional:** o art. 58, § 1º, da Constituição e o art. 23 do RICD exigem a representação de partidos/blocos **tanto quanto possível**. Na Câmara, a regra regimental inclui **membro da Minoria** e perda da vaga ocupada por bancada se houver desvinculação, nas condições do art. 23.
+
+**Temporárias:** o **art. 33, § 1º**, determina que o **ato ou requerimento de constituição** fixe o número de membros; a designação cabe ao Presidente da Câmara a partir das indicações dos líderes, ou independentemente delas caso não haja indicação em **48 horas**. O § 2º prevê **rodízio** das bancadas não contempladas e o § 3º permite participar da temporária **sem prejuízo** das funções em comissão permanente.
+
+**Direção:** o **art. 39** dispõe que cada comissão terá **um Presidente e três Vice-Presidentes**, eleitos pelos pares, com mandato até a posse dos componentes eleitos no ano seguinte, vedada a reeleição nos termos regimentais. **Presidência da Câmara ≠ presidência de comissão:** a primeira possui competências gerais de distribuição e instalação; a segunda organiza pauta e reuniões do colegiado.
+
+**Atos do presidente de comissão:** o **art. 41** atribui-lhe convocação e presidência das reuniões, organização da pauta, designação de relatores, submissão das matérias à votação, proclamação do resultado e encaminhamentos à Mesa. **O presidente dirige o processo, mas não substitui sempre o voto e a decisão do colegiado.** A aprovação de relatório por um relator não é a deliberação final da comissão.
+
+**Relação entre comissões:** a Câmara tem comissões permanentes próprias; o **Congresso Nacional** tem comissões mistas, como a **Comissão Mista de Orçamento (CMO)** do art. 166, § 1º, da Constituição. **Comissão mista ≠ comissão permanente unilateral da Câmara**. A CMO reúne deputados e senadores, no âmbito do Congresso, e sua organização específica está em [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|CMO: composição e competências]]. Não aplicar mecanicamente a ela todos os artigos de distribuição das comissões temáticas da Câmara.
+
 ### Composição e instalação: arts. 25 a 28
 
 O número de membros **efetivos** de cada comissão permanente é fixado **por ato da Mesa, ouvido o Colégio de Líderes**, no início dos trabalhos de cada legislatura (**art. 25**). A redação não confere à comissão o poder de fixar livremente sua própria quantidade de vagas. Devem ser considerados a composição da Câmara, o número de comissões e o princípio da representação proporcional.
@@ -150,17 +163,6 @@ A **Mesa distribui** as vagas entre partidos e blocos, que terão em cada comiss
 
 **Nomeação:** definidos os quantitativos, os **líderes** comunicam os nomes de titulares e suplentes à Presidência em **cinco sessões**; decorrido o prazo, o **Presidente da Câmara designa de ofício** (art. 28). A comunicação é ato da liderança, enquanto a designação formal é da Presidência. Uma legenda não pode paralisar indefinidamente a instalação por deixar de informar nomes.
 
-## Representação, presidência e funcionamento
-
-**Composição proporcional:** o art. 58, § 1º, da Constituição e o art. 23 do RICD exigem a representação de partidos/blocos **tanto quanto possível**. Na Câmara, a regra regimental inclui **membro da Minoria** e perda da vaga ocupada por bancada se houver desvinculação, nas condições do art. 23.
-
-**Temporárias:** o **art. 33, § 1º**, determina que o **ato ou requerimento de constituição** fixe o número de membros; a designação cabe ao Presidente da Câmara a partir das indicações dos líderes, ou independentemente delas caso não haja indicação em **48 horas**. O § 2º prevê **rodízio** das bancadas não contempladas e o § 3º permite participar da temporária **sem prejuízo** das funções em comissão permanente.
-
-**Direção:** o **art. 39** dispõe que cada comissão terá **um Presidente e três Vice-Presidentes**, eleitos pelos pares, com mandato até a posse dos componentes eleitos no ano seguinte, vedada a reeleição nos termos regimentais. **Presidência da Câmara ≠ presidência de comissão:** a primeira possui competências gerais de distribuição e instalação; a segunda organiza pauta e reuniões do colegiado.
-
-**Atos do presidente de comissão:** o **art. 41** atribui-lhe convocação e presidência das reuniões, organização da pauta, designação de relatores, submissão das matérias à votação, proclamação do resultado e encaminhamentos à Mesa. **O presidente dirige o processo, mas não substitui sempre o voto e a decisão do colegiado.** A aprovação de relatório por um relator não é a deliberação final da comissão.
-
-**Relação entre comissões:** a Câmara tem comissões permanentes próprias; o **Congresso Nacional** tem comissões mistas, como a **Comissão Mista de Orçamento (CMO)** do art. 166, § 1º, da Constituição. **Comissão mista ≠ comissão permanente unilateral da Câmara**. A CMO reúne deputados e senadores, no âmbito do Congresso, e sua organização específica está em [[3 - Materias/Orcamento Publico/14 - comissao mista de orcamento composicao comites e competencias|CMO: composição e competências]]. Não aplicar mecanicamente a ela todos os artigos de distribuição das comissões temáticas da Câmara.
 
 ### Presidência e membros das comissões: arts. 39 a 45
 

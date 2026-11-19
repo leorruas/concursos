@@ -593,20 +593,66 @@ function render(){
   .filter(c=>!selectedSubject||c.subjectId===selectedSubject);
  const conceptRoot=$('results-concepts');
  conceptRoot.replaceChildren();
- for(const [subject,items] of subjectGroups(cs,c=>c.subjectId)){
-  const group=el('section','results-subject-group');
-  group.append(subjectHeading(subject,items.length));
-  for(const c of items){
-   const box=el('div','results-concept'),left=el('div');
-   const attempts=Number.isFinite(c.attempts)?c.attempts:0;
-   left.append(el('strong','',c.title),
-    el('small','',c.errors+' erro(s) em '+attempts+' tentativa(s) · '+c.uncertain+' insegura(s)'+(c.dueOn?' · Revisão: '+fmtDate(c.dueOn):'')),
-    el('small','',attempts<3?'Dados insuficientes para avaliar domínio; recomendação provisória.':evidenceLabel(attempts,c.errors||0)));
-   conceptLinks(left,c);box.append(left,priorityLabel(c.priority));group.append(box);
+ const conceptToolbar=el('div','results-concepts-toolbar');
+ const count=el('p','results-concept-count');
+ count.setAttribute('role','status');count.setAttribute('aria-live','polite');
+ const search=el('input','results-concept-search');
+ search.type='search';search.placeholder='Buscar conceito ou matéria';
+ search.setAttribute('aria-label','Buscar conceitos para revisão');
+ const list=el('div','results-concepts-list');
+ const footer=el('div','results-concepts-footer');
+ conceptToolbar.append(count,search);
+ conceptRoot.append(conceptToolbar,list,footer);
+ let shown=8;
+ const renderConceptList=()=>{
+  const term=search.value.trim().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
+  const filtered=cs.filter(c=>!term||
+   (c.title+' '+title(c.subjectId)).normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().includes(term));
+  const total=filtered.length;
+  const visible=filtered.slice(0,shown);
+  const subjects=new Set(filtered.map(c=>c.subjectId).filter(Boolean)).size;
+  count.textContent=total+' '+(total===1?'conceito':'conceitos')+' em '+subjects+
+   (subjects===1?' matéria':' matérias')+' · mostrando '+visible.length+' de '+total;
+  list.replaceChildren();
+  const groups=subjectGroups(visible,c=>c.subjectId);
+  for(const [subject,items] of groups){
+   const group=el('section','results-concept-group');
+   const heading=el('h3','results-concept-group-title',title(subject));
+   const subjectTotal=filtered.filter(c=>c.subjectId===subject).length;
+   heading.append(el('span','results-concept-group-count',subjectTotal+' conceitos'));
+   group.append(heading);
+   for(const c of items){
+    const row=el('div','results-concept-compact');
+    const heading=el('strong','',c.title);
+    const attempts=Number.isFinite(c.attempts)?c.attempts:0;
+    const signals=el('small','',c.errors+' erros · '+c.uncertain+' inseguros · '+attempts+' tentativas');
+    const info=el('div','results-concept-compact-copy');
+    info.append(heading,signals);
+    const articleId=(Array.isArray(c.articles)?c.articles:[]).find(id=>manifest.has(id));
+    if(articleId){
+     const link=el('a','results-link','Ler artigo');
+     link.href=articleLink({articleId});link.rel='noreferrer';info.append(link);
+    }
+    row.append(info,priorityLabel(c.priority));group.append(row);
+   }
+   list.append(group);
   }
-  conceptRoot.append(group);
- }
- if(!conceptRoot.children.length)conceptRoot.append(el('p','results-caption','Sem conceitos prioritários para esta matéria.'));
+  if(!total)list.append(el('p','results-caption','Nenhum conceito encontrado para este filtro.'));
+  footer.replaceChildren();
+  if(total>shown){
+   const more=el('button','results-concept-more','Mostrar mais '+Math.min(8,total-shown)+' conceitos');
+   more.type='button';
+   more.addEventListener('click',()=>{shown+=8;renderConceptList();});
+   footer.append(more);
+  } else if(total>8){
+   const less=el('button','results-concept-more','Mostrar menos');
+   less.type='button';
+   less.addEventListener('click',()=>{shown=8;renderConceptList();});
+   footer.append(less);
+  }
+ };
+ search.addEventListener('input',()=>{shown=8;renderConceptList();});
+ renderConceptList();
  const filter=$('results-subject-filter');
  const subjects=new Set([...(current.bySubject||[]).map(s=>s.id),...allArticles.map(a=>articleSubject(a,concepts)),...concepts.map(c=>c.subjectId)].filter(Boolean));
  const nextOptions=[['','Todas as matérias'],...[...subjects].sort((a,b)=>title(a).localeCompare(title(b),'pt-BR')).map(s=>[s,title(s)])];

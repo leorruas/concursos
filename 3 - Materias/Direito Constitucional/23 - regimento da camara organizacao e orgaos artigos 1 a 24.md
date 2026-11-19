@@ -175,13 +175,3 @@ Outras competências incluem **audiências públicas**, convocação de Ministro
 Artigos relacionados: [[3 - Materias/Direito Constitucional/14 - comissoes parlamentares natureza competencias e poderes|Comissões parlamentares: tipos, competências e poderes]], [[3 - Materias/Direito Constitucional/18 - procedimentos abreviado e sumario|Procedimentos abreviado e sumário: comissões e urgência constitucional]], [[3 - Materias/Direito Constitucional/11 - proposicoes legislativas conceito e classificacao|Proposições legislativas: conceito, tipos e efeitos regimentais]], [[3 - Materias/Comunicacao/02 - comunicacao publica|Comunicação pública]], [[3 - Materias/Comunicacao/03 - lai lgpd e transparencia|LAI e transparência]].
 
 **Nota editorial:** o texto se baseia na consolidação oficial do RICD e na Constituição vigente, cotejadas em **08/11/2026**. Os dez itens são inéditos, sem pretensão de reproduzir provas Cebraspe. A cobertura editorial não significa retenção nem exercício realizado.
-
-## Certificação normativa delimitada: 11/11/2026
-
-**Escopo:** leitura e confronto dos arts. **1º a 24** do [RICD consolidado](https://www2.camara.leg.br/atividade-legislativa/legislacao/regimento-interno-da-camara-dos-deputados/regimentointerno.html) com o texto, quadro de órgãos, **oito casos progressivos** e **dez questões C/E** presentes nesta nota. Verificadas as regras de sede, calendário, posse, eleição da Mesa, lideranças, blocos, **Bancada Negra (arts. 13-A e 13-B)**, Mesa, Presidência, órgãos especializados e competências das comissões. O recorte cobre as unidades editoriais **CAM-PL-019 e CAM-PL-020**, sem transformá-las em duas certificações.
-
-**Ajuste de cobertura:** o artigo omitia o regime da Bancada Negra criado em 2023 e alterado pela Resolução nº 33/2026. Incluída seção própria sobre composição, mandato, eleição e prerrogativas; também explicitada a fronteira com o Colégio de Líderes do art. 20. Corrigida a denominação completa da Secretaria de Monitoramento e Fiscalização das Decisões do Sistema Interamericano de Direitos Humanos, prevista no art. 21-V.
-
-**Gabaritos dos dez itens existentes, conferidos:** **C, E, E, C, E, C, C, E, E, E**. Os oito casos são compatíveis com o recorte normativo confrontado. **Nenhuma inversão demonstrada**; enunciados e respostas originais preservados. A lacuna dos arts. 13-A/13-B era de cobertura didática, não de gabarito.
-
-**Limites:** certificação do conteúdo efetivamente redigido e das questões existentes em **11/11/2026**; não se estende a todo o Regimento, a aplicações judiciais controvertidas ou a eventual mudança normativa posterior. A verificação normativa não comprova renderização no site, deploy no GitHub Pages ou retenção do conteúdo pelo estudante.

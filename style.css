@@ -408,12 +408,25 @@ body:has(.leitor-artigo:not(.escondido)) .page-masthead {
     transition: all 0.18s ease;
 }
 
-.disciplina-acao:hover,
-.disciplina-acao:focus-visible {
+/* Índice de artigos: título e número são navegação editorial, não ações em âmbar.
+   O link genérico a:link/a:visited tem de ser sobrescrito em ambos os estados. */
+a.disciplina-acao:link,
+a.disciplina-acao:visited {
+    color: var(--text);
+}
+.disciplina-acao .disciplina-acao-numero {
+    color: var(--text);
+}
+a.disciplina-acao:hover,
+a.disciplina-acao:focus-visible {
     padding-left: 8px;
     border-color: var(--accent-blue);
     color: var(--accent-blue);
     outline: none;
+}
+a.disciplina-acao:hover .disciplina-acao-numero,
+a.disciplina-acao:focus-visible .disciplina-acao-numero {
+    color: var(--accent-blue);
 }
 
 .disciplina-acao-numero {

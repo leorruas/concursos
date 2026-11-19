@@ -42,6 +42,29 @@ fs.mkdirSync(evidence,{recursive:true});
     }
     await home.screenshot({path:path.join(evidence,preset.name+'-home-'+theme+'-links.png'),fullPage:true});
    }
+   await home.locator('.disciplina-card').first().click();
+   await home.locator('.disciplina-acao').first().waitFor({state:'visible',timeout:15000});
+   await home.mouse.move(0,0);
+   await home.evaluate(()=>document.activeElement?.blur());
+   for(const theme of ['dark','light']){
+    await home.evaluate(t=>document.documentElement.setAttribute('data-theme',t),theme);
+    const expected=await home.evaluate(()=>{
+     const probe=document.createElement('span');probe.style.color='var(--text)';
+     document.body.append(probe);const value=getComputedStyle(probe).color;probe.remove();return value;
+    });
+    const rows=await home.locator('.disciplina-acao').evaluateAll(items=>items.map(a=>({
+     link:getComputedStyle(a).color,
+     title:getComputedStyle(a.querySelector('strong')).color,
+     index:getComputedStyle(a.querySelector('.disciplina-acao-numero')).color
+    })));
+    assert.ok(rows.length>3,'índice de matéria precisa ter artigos');
+    for(const item of rows){
+     assert.equal(item.link,expected,'link de artigo deve acompanhar tema '+theme);
+     assert.equal(item.title,expected,'título de artigo deve acompanhar tema '+theme);
+     assert.equal(item.index,expected,'número do artigo deve acompanhar tema '+theme);
+    }
+    await home.screenshot({path:path.join(evidence,preset.name+'-indice-'+theme+'-links.png'),fullPage:true});
+   }
    await home.close();
    const page=await context.newPage();
    const errors=[];

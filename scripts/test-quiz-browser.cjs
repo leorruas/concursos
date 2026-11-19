@@ -44,6 +44,8 @@ fs.mkdirSync(evidence,{recursive:true});
    }
    await home.locator('.disciplina-card').first().click();
    await home.locator('.disciplina-acao').first().waitFor({state:'visible',timeout:15000});
+   await home.mouse.move(0,0);
+   await home.evaluate(()=>document.activeElement?.blur());
    for(const theme of ['dark','light']){
     await home.evaluate(t=>document.documentElement.setAttribute('data-theme',t),theme);
     const expected=await home.evaluate(()=>{

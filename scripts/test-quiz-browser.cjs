@@ -175,7 +175,7 @@ fs.mkdirSync(evidence,{recursive:true});
    assert.ok(await page.getByText('Estudo registrado em 13/11/2026. Sem questões vinculadas a esta unidade.').isVisible());
    assert.ok(await page.locator('#results-edital-coverage .results-edital-ref').getByText('Referência de teste').isVisible());
    assert.ok(await page.locator('#results-edital-coverage .results-edital-state').getByText('Sem questões vinculadas').isVisible());
-   assert.ok(await page.getByText('0 de 1 referências com respostas vinculadas').isVisible());
+   assert.ok(await page.getByText('0 de 1 referência com respostas vinculadas').isVisible());
    const align=await page.evaluate(()=>{
     const nav=document.querySelector('.results-layout>.study-topbar').getBoundingClientRect();
     const views=document.querySelector('.results-views-nav').getBoundingClientRect();

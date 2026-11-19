@@ -343,8 +343,8 @@ fs.mkdirSync(evidence,{recursive:true});
    await page.keyboard.press('Enter');
    assert.equal((await page.locator('#qs-statement').innerText()).trim(),proposed.statement.trim());
    assert.ok(await page.getByLabel('Consultou material para responder?').isVisible());
-   await page.getByLabel('Consultou material para responder?').selectOption('no');
-   await page.getByLabel('Já tinha visto a correção deste item?').selectOption('no');
+   assert.equal(await page.getByLabel('Consultou material para responder?').inputValue(),'no');
+   assert.equal(await page.getByLabel('Já tinha visto a correção deste item?').inputValue(),'no');
    await page.locator('input[name="qs-answer"][value="C"]').check();
    await page.locator('#qs-submit').click();
    const last=await page.evaluate(()=>{
